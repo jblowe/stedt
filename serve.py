@@ -207,6 +207,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .editlink{background:var(--accent);color:var(--paper);padding:2px 10px;border-radius:2px;margin-left:10px;
   font-variant:small-caps;letter-spacing:.05em;font-size:13px;}
 .editlink:hover{color:var(--paper);background:#7e201b;}
+.editlink.gh{background:var(--ink);} .editlink.gh:hover{background:#000;}
 .editform{max-width:620px;margin:8px 0;}
 .editform label{display:block;margin:0 0 14px;font-variant:small-caps;letter-spacing:.06em;font-size:13px;color:var(--soft);}
 .editform input,.editform textarea{display:block;width:100%;margin-top:4px;font-family:"Charis SIL",serif;
@@ -419,7 +420,9 @@ def etymon(tag):
     </div>
     <div class="cite">Cite as: <code>STEDT etymon #{e['tag']}, *{pf} ‘{esc(e['protogloss'])}’</code>.
       Stable link: <code>/etymon/{e['tag']}</code>
-      <a class="editlink" href="/etymon/{e['tag']}/edit">✎ Suggest an edit</a></div>
+      <a class="editlink" href="/etymon/{e['tag']}/edit">✎ Suggest an edit</a>
+      <a class="editlink gh" href="https://github.com/larc-iu/stedt/edit/main/data/etyma/{e['tag']}.yaml"
+         target="_blank" rel="noopener">Edit on GitHub →</a></div>
     {refs}
     {connhtml}
     {noteshtml}
