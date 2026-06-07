@@ -7,6 +7,7 @@ sequence: 120.0
 status: KEEP
 public: true
 references: ("Jg/Lu") Attested in Jg. and Kadu
+chapter: 1.9.7
 phonology:
   handle: pot
   initial: p

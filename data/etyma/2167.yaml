@@ -7,6 +7,7 @@ sequence: 1476.0
 status: KEEP
 public: true
 references: STC#133, HPTB
+chapter: 1.1.5.1
 phonology:
   handle: bran
   initial: br

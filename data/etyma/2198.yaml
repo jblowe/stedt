@@ -8,6 +8,7 @@ sequence: 1128.0
 status: KEEP
 public: true
 references: STC#249
+chapter: '4.7'
 phonology:
   handle: do
   initial: d

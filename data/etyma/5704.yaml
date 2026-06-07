@@ -6,6 +6,7 @@ gloss: OPEN
 sequence: 2566.0
 status: KEEP
 public: true
+chapter: 6.2.2.6.1
 mesoroots:
 - grpid: 42
   group: '6.1'

@@ -8,6 +8,7 @@ sequence: 1.5
 status: KEEP
 public: true
 references: cf. HPTB p. 382
+chapter: 1.9.4
 mesoroots:
 - grpid: 66
   group: 1.3.4

@@ -8,6 +8,7 @@ sequence: 15.0
 status: KEEP
 public: true
 references: STC#154
+chapter: '6.13'
 phonology:
   handle: ŋra
   initial: ŋr

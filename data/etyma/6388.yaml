@@ -8,6 +8,7 @@ sequence: 3.0
 status: KEEP
 public: false
 references: JS-HCST: 162
+chapter: 4.2.11
 phonology:
   initial: k
   rhyme: oː

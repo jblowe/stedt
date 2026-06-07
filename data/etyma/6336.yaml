@@ -8,6 +8,7 @@ sequence: 2140.0
 status: KEEP
 public: false
 references: JS-HCST: 232
+chapter: '6.20'
 phonology:
   initial: g
   rhyme: ul

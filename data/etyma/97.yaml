@@ -8,6 +8,7 @@ sequence: 22.0
 status: KEEP
 public: true
 references: JAM-LITB 5.3
+chapter: 1.9.2
 phonology:
   handle: hu
   initial: h

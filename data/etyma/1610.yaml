@@ -7,6 +7,7 @@ sequence: 8.0
 status: KEEP
 public: true
 references: seems to always follow tag 305
+chapter: 1.9.1
 phonology:
   handle: ŋa
   initial: ŋ

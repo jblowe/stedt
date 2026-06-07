@@ -8,6 +8,7 @@ sequence: 5.0
 status: KEEP
 public: true
 exemplary: true
+chapter: 1.3.4.5
 phonology:
   handle: gwya
   prefix: N

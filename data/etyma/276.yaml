@@ -8,6 +8,7 @@ sequence: 21.0
 status: KEEP
 public: true
 exemplary: true
+chapter: 1.9.4
 phonology:
   handle: pi
   initial: p

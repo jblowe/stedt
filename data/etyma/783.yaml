@@ -8,6 +8,7 @@ sequence: 7.1
 status: KEEP
 public: true
 exemplary: true
+chapter: 1.6.5
 phonology:
   handle: kop
   initial: k

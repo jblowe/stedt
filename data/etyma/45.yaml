@@ -8,6 +8,7 @@ sequence: 8.0
 status: KEEP
 public: true
 xrefs: LEAN PERSON
+chapter: 1.1.1.2
 phonology:
   handle: gryu
   initial: gr(y)

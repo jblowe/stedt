@@ -8,6 +8,7 @@ sequence: 1983.0
 status: KEEP
 public: true
 references: cf. HPTB p.503
+chapter: 2.1.6.2
 mesoroots:
 - grpid: 5
   group: 1.1.1

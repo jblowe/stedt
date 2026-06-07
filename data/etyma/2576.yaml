@@ -8,6 +8,7 @@ sequence: 1222.0
 status: KEEP
 public: true
 references: STC#131, HPTB p.364
+chapter: '5.7'
 phonology:
   handle: prut
   initial: pr

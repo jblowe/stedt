@@ -8,6 +8,7 @@ sequence: 2.3
 status: KEEP
 public: true
 references: 'PKC #513 KEEP 6/2012'
+chapter: 3.2.12.1
 notes:
 - type: T
   text: <par>This root seems to overlap to some extent with <xref ref="801">#801</xref> [q.v.].</par>

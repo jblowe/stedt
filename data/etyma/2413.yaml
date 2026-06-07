@@ -8,6 +8,7 @@ sequence: 1.0
 status: KEEP
 public: true
 references: STC#474, HPTB p.192
+chapter: 5.11.2
 phonology:
   handle: m-li
   prefix: m

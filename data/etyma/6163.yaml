@@ -8,6 +8,7 @@ sequence: 13.0
 status: KEEP
 public: true
 references: HPTB
+chapter: 6.7.9
 phonology:
   prefix: b
   initial: l

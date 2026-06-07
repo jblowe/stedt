@@ -8,6 +8,7 @@ sequence: 17.0
 status: KEEP
 public: true
 references: STC#306
+chapter: '6.8'
 phonology:
   handle: soy
   initial: s

@@ -7,6 +7,7 @@ sequence: 1.2
 status: KEEP
 public: true
 references: HPTB:488
+chapter: 10.5.3
 notes:
 - type: F
   text: <par>See comparanda for <xref ref="5590">#5590</xref>.</par>

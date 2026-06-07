@@ -8,6 +8,7 @@ sequence: 1.5
 status: KEEP
 public: true
 references: cf. HPTB
+chapter: 1.5.1
 phonology:
   handle: yak
   prefix: g

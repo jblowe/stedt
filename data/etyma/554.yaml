@@ -9,6 +9,7 @@ status: KEEP
 public: true
 possallo: '558'
 references: incl 555,242
+chapter: 1.4.4.4
 phonology:
   handle: g/s/b-
   initial: r

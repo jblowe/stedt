@@ -9,6 +9,7 @@ status: KEEP
 public: true
 exemplary: true
 references: '2.3'
+chapter: 1.2.3
 phonology:
   handle: dum
   initial: d

@@ -8,6 +8,7 @@ sequence: 148.0
 status: KEEP
 public: true
 references: '("HIM") '
+chapter: 1.9.8
 phonology:
   handle: brel
   initial: br

@@ -8,6 +8,7 @@ sequence: 7.0
 status: KEEP
 public: true
 references: ("KMR") Tangkhul, Sangtam, Dimasa (?)
+chapter: 1.4.4.4
 phonology:
   handle: riŋ
   initial: r

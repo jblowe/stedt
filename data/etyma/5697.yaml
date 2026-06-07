@@ -7,6 +7,7 @@ sequence: 3429.0
 status: KEEP
 public: true
 references: Weidert 87:477
+chapter: 1.8.3.2
 mesoroots:
 - grpid: 8
   group: '1.2'

@@ -8,6 +8,7 @@ sequence: 7.0
 status: KEEP
 public: true
 references: incl 726
+chapter: 1.5.1
 phonology:
   handle: wan
   initial: w

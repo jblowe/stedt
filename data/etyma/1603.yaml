@@ -8,6 +8,7 @@ sequence: 31.0
 status: KEEP
 public: true
 references: STC#099; 'Wing' only in compounds
+chapter: 1.5.1
 phonology:
   handle: wa/u
   initial: w

@@ -7,6 +7,7 @@ semkey: 2.2.4
 sequence: 15.0
 status: KEEP
 public: true
+chapter: 1.9.1
 phonology:
   handle: glim
   initial: gl

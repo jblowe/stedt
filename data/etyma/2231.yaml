@@ -8,6 +8,7 @@ sequence: 16.0
 status: KEEP
 public: false
 references: STC#491; STC done
+chapter: 1.3.4.4
 phonology:
   handle: gam
   initial: g

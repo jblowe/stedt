@@ -10,6 +10,7 @@ public: true
 exemplary: true
 possallo: '1804'
 references: incl 2126
+chapter: 1.7.6
 phonology:
   handle: wik
   initial: w

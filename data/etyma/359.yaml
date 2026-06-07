@@ -8,6 +8,7 @@ sequence: 3.0
 status: KEEP
 public: true
 references: STC#392
+chapter: 1.4.2
 phonology:
   handle: tuk
   initial: t

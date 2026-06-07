@@ -8,6 +8,7 @@ sequence: 2632.0
 status: KEEP
 public: false
 references: 'PKC #730'
+chapter: 2.2.4
 notes:
 - type: T
   text: <par>The first element in this binome is <xref ref="1603">#1603</xref>.</par>

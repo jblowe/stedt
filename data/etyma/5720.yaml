@@ -7,6 +7,7 @@ sequence: 3195.0
 status: KEEP
 public: true
 references: Matisoff 85 GSTC:011
+chapter: '9.5'
 mesoroots:
 - grpid: 42
   group: '6.1'

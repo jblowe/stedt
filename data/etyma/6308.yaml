@@ -8,6 +8,7 @@ sequence: 5.0
 status: KEEP
 public: false
 references: JS-HCST: 102
+chapter: 1.2.2.2
 phonology:
   initial: f
   rhyme: i

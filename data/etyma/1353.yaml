@@ -7,6 +7,7 @@ sequence: 86.0
 status: KEEP
 public: true
 references: '("NAG") '
+chapter: 1.9.5
 phonology:
   handle: mo
   initial: m

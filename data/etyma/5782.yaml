@@ -6,6 +6,7 @@ gloss: POT / GOURD
 sequence: 1.0
 status: KEEP
 public: false
+chapter: '5.5'
 mesoroots:
 - grpid: 35
   group: '3.3'

@@ -8,6 +8,7 @@ sequence: 7.0
 status: KEEP
 public: false
 references: JS-HCST: 128
+chapter: 5.11.2
 phonology:
   initial: br
   rhyme: aŋ

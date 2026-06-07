@@ -7,6 +7,7 @@ sequence: 4.0
 status: KEEP
 public: true
 references: cf. *ma 3457
+chapter: 1.9.4
 phonology:
   handle: pa
   initial: p

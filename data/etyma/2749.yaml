@@ -8,6 +8,7 @@ sequence: 1230.0
 status: KEEP
 public: true
 references: STC#275, HPTB
+chapter: '5.7'
 phonology:
   handle: tsyow
   initial: tsy

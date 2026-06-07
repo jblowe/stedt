@@ -8,6 +8,7 @@ sequence: 3002.0
 status: KEEP
 public: false
 references: JS-HCST: 94
+chapter: 6.9.3
 phonology:
   initial: d
   rhyme: ɯ

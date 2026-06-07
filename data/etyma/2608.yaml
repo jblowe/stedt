@@ -8,6 +8,7 @@ sequence: 5.0
 status: KEEP
 public: true
 references: STC#264
+chapter: 1.1.2.3
 phonology:
   handle: ri
   prefix: s

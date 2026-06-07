@@ -8,6 +8,7 @@ sequence: 19.0
 status: KEEP
 public: true
 references: incl 728,732,733; cf. HPTB p.199
+chapter: 1.5.1
 phonology:
   handle: tsy
   initial: (t)s(y

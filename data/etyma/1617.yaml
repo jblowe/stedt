@@ -7,6 +7,7 @@ sequence: 135.0
 status: KEEP
 public: true
 references: STC#393, WTF-PNN p. 454, HPTB
+chapter: 1.9.7
 phonology:
   handle: kuk
   initial: k

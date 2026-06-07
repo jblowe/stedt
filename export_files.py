@@ -7,8 +7,11 @@
 
 Lossless for curated content. Intentionally dropped (documented): modtime/uid (Git
 provides history/authorship), refcount/seqlocked (derived/stale workflow flags), and
-legacy lexicon 'chapter'/'semcat' (chapter mirrors semkey; semcat is a superseded
-hand-entered category code, NOT a duplicate of semkey). Morpheme 'ind' gaps are
+the legacy lexicon 'chapter'/'semcat' columns (both are superseded hand-entered
+category codes, independent of and not derivable from semkey, retained only in the
+archived dump). NB: etyma.chapter is NOT legacy — it is a real thesaurus placement
+that often differs from semkey, so it IS preserved (emitted when it differs).
+Morpheme 'ind' gaps are
 re-densified by position; same-slot tags are preserved via '|' within a slot; orphan
 lx_et_hash rows (rn absent from lexicon) are preserved in reference/orphan-links.tsv.
 """
@@ -173,6 +176,8 @@ def main():
         for k in ('xrefs', 'allofams', 'possallo'):
             if clean(r[k]): d[k] = r[k]
         if clean(r['notes']): d['references'] = r['notes']
+        if clean(r['chapter']) and r['chapter'] != (r['semkey'] or ''):
+            d['chapter'] = r['chapter']   # etyma.chapter: real thesaurus placement distinct from semkey
         phon = {k: r[k] for k in PHON if clean(r[k])}
         if phon: d['phonology'] = phon
         if r['tag'] in meso: d['mesoroots'] = meso[r['tag']]
@@ -211,6 +216,12 @@ def main():
                clean(r['srcid']), clean(r['src_set_rn']), clean(r['maintainer']), clean(r['status']),
                clean(analysis.get(r['rn'], ''))]
         buckets.setdefault(src, []).append(row)
+    seen_fn = {}
+    for src in buckets:                       # guard: safe() filename must be injective
+        fn = safe(src)
+        if fn in seen_fn:
+            raise ValueError(f"wordlist filename collision: {src!r} and {seen_fn[fn]!r} both -> {fn}.tsv")
+        seen_fn[fn] = src
     for src, rows in buckets.items():
         rows.sort(key=lambda x: int(x[0]))
         with open(f"{ROOT}/wordlists/{safe(src)}.tsv", "w", newline='') as f:

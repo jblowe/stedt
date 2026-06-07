@@ -9,6 +9,7 @@ status: KEEP
 public: true
 exemplary: true
 references: STC#211
+chapter: 1.3.3
 phonology:
   handle: lyak
   prefix: m

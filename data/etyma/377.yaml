@@ -8,6 +8,7 @@ sequence: 1.0
 status: KEEP
 public: true
 references: PAF
+chapter: 1.5.1
 phonology:
   handle: lyak
   prefix: g

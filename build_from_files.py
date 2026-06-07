@@ -30,9 +30,9 @@ TABLES = {
  'mesoroots': ['tag','grpid','form','gloss','id','variant','old_tag','old_note'],
  'hptb': ['hptbid','plg','protoform','protogloss','pages','mainpage','init','bare','semclass1','semclass2','tags'],
  'et_hptb_hash': ['tag','hptbid','ord'],
- 'otherchapters': ['chapter','heading','semcat','subcat','cf','n'],
- 'majorcats': ['chapter','subchapter','semcat','heading','frqdb','frqsubcats'],
- 'glosswords': ['word','rn','semcat','subcat','semkey'],
+ 'otherchapters': ['chapter','heading','semcat','subcat','cf','n','id'],
+ 'majorcats': ['chapter','subchapter','semcat','heading','frqdb','frqsubcats','id'],
+ 'glosswords': ['word','rn','semcat','subcat','semkey','id'],
  'pi': ['lgid','page'],
 }
 PK = {'etyma':'tag','lexicon':'rn','languagenames':'lgid','languagegroups':'grpid',
@@ -106,14 +106,16 @@ def main():
         for o, tg in enumerate(h.get('etyma') or []):
             ehh.append({'tag': tg, 'hptbid': h['hptbid'], 'ord': o})
     insert('et_hptb_hash', ehh)
-    insert('otherchapters', loadyaml(f"{ROOT}/reference/otherchapters.yaml"))
-    insert('majorcats', loadyaml(f"{ROOT}/reference/majorcats.yaml"))
+    def with_id(rows):  # synthetic id (enumeration) so export's ORDER BY id works on a files-built DB
+        return [{**r, 'id': i} for i, r in enumerate(rows, 1)]
+    insert('otherchapters', with_id(loadyaml(f"{ROOT}/reference/otherchapters.yaml")))
+    insert('majorcats', with_id(loadyaml(f"{ROOT}/reference/majorcats.yaml")))
     insert('pi', loadyaml(f"{ROOT}/reference/pi.yaml"))
     gw = []
     with open(f"{ROOT}/reference/glosswords.tsv", encoding='utf-8', newline='') as f:
-        for row in csv.DictReader(f, delimiter='\t'):
+        for i, row in enumerate(csv.DictReader(f, delimiter='\t'), 1):
             gw.append({'word': row['word'], 'rn': int(row['rn']) if row['rn'] else None,
-                       'semcat': row['semcat'], 'subcat': row['subcat'], 'semkey': row['semkey']})
+                       'semcat': row['semcat'], 'subcat': row['subcat'], 'semkey': row['semkey'], 'id': i})
     insert('glosswords', gw)
 
     # ---- etyma ----
@@ -122,7 +124,7 @@ def main():
     for p in glob.glob(f"{ROOT}/etyma/*.yaml"):
         d = loadyaml(p)
         ph = d.get('phonology', {})
-        ety.append({'chapter': d.get('semkey'), 'sequence': d.get('sequence'), 'tag': d['tag'],
+        ety.append({'chapter': d.get('chapter') or d.get('semkey') or '', 'sequence': d.get('sequence'), 'tag': d['tag'],
             'grpid': d.get('grpid'), 'protoform': d.get('protoform'), 'protogloss': d.get('gloss'),
             'xrefs': d.get('xrefs'), 'notes': d.get('references'), 'possallo': d.get('possallo'),
             'allofams': d.get('allofams'), 'status': d.get('status'),
@@ -130,7 +132,7 @@ def main():
             'handle': ph.get('handle'), 'prefix': ph.get('prefix'), 'initial': ph.get('initial'),
             'medial': ph.get('medial'), 'rhyme': ph.get('rhyme'), 'tone': ph.get('tone'),
             'suffix': ph.get('suffix'), 'initcover': ph.get('initcover'), 'rhymecover': ph.get('rhymecover'),
-            'exemplary': 'x' if d.get('exemplary') else '', 'semkey': d.get('semkey')})
+            'exemplary': 'x' if d.get('exemplary') else '', 'semkey': d.get('semkey') or ''})
         for m in d.get('mesoroots', []):
             mid += 1
             meso.append({'tag': d['tag'], 'grpid': m.get('grpid'), 'form': m.get('form'),

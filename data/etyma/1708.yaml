@@ -8,6 +8,7 @@ sequence: 4.0
 status: KEEP
 public: false
 references: cf. HPTB p.205, WTF-PNN:481
+chapter: 1.3.5.8
 phonology:
   handle: they
   initial: th

@@ -8,6 +8,7 @@ sequence: 2854.0
 status: KEEP
 public: true
 references: 'PKC #903'
+chapter: '6.3'
 mesoroots:
 - grpid: 12
   group: 1.7.2

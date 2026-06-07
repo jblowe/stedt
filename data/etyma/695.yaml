@@ -9,6 +9,7 @@ status: KEEP
 public: true
 exemplary: true
 references: incl 3005; incl *rak, *ak
+chapter: 1.5.1
 phonology:
   handle: lak
   initial: l

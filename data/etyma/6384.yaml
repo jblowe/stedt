@@ -8,6 +8,7 @@ sequence: 3260.0
 status: KEEP
 public: false
 references: JS-HCST: 226
+chapter: 6.7.4
 phonology:
   initial: k
   rhyme: or

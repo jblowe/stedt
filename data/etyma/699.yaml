@@ -8,6 +8,7 @@ sequence: 1.3
 status: KEEP
 public: true
 references: cf. HPTB pp.51, 65
+chapter: 1.5.1
 phonology:
   handle: yak
   prefix: d

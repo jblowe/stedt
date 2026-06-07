@@ -8,6 +8,7 @@ sequence: 1.0
 status: KEEP
 public: true
 references: PAF; GSTC, HPTB
+chapter: 1.1.2.3
 phonology:
   handle: w/ra
   prefix: s

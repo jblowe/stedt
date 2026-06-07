@@ -8,6 +8,7 @@ sequence: 4.0
 status: KEEP
 public: true
 exemplary: true
+chapter: 1.5.2
 phonology:
   handle: bol
   initial: b

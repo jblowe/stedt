@@ -43,6 +43,23 @@ srcabbrs = refset(bib,    'srcabbr', 'bibliography.yaml')
 refset(hptb, 'hptbid', 'hptb.yaml')
 lgname = {l['lgid']: (l.get('name') or '') for l in langs if isinstance(l, dict) and 'lgid' in l}
 
+# reference-structure shapes that build_from_files dereferences (else it crashes the build)
+for g in groups:
+    if isinstance(g, dict) and 'lineage' in g and (not isinstance(g['lineage'], list) or len(g['lineage']) < 5):
+        err(f"languagegroups.yaml grpid {g.get('grpid')}: 'lineage' must be a 5-element list")
+for t in thes:
+    if isinstance(t, dict):
+        for n in (t.get('notes') or []):
+            if not isinstance(n, dict): err(f"thesaurus.yaml {t.get('semkey')}: note entry not a mapping")
+for b in bib:
+    if isinstance(b, dict):
+        for n in (b.get('annotations') or []):
+            if not isinstance(n, dict): err(f"bibliography.yaml {b.get('srcabbr')}: annotation not a mapping")
+for fn in ('otherchapters', 'majorcats', 'pi'):
+    for it in (loadyaml(f"{ROOT}/reference/{fn}.yaml") or []):
+        if not isinstance(it, dict):
+            err(f"reference/{fn}.yaml: entry is not a mapping: {str(it)[:60]}"); break
+
 # ---- etyma ----
 etyma_tags = set()
 VALID_STATUS = {'KEEP', 'DELETE', ''}
@@ -85,6 +102,19 @@ for p in sorted(glob.glob(f"{ROOT}/etyma/*.yaml")):
     nt = d.get('notes')
     if nt is not None and not isinstance(nt, list):
         err(f"{rel(p)}: 'notes' must be a list")
+    else:
+        for n in (nt or []):
+            if not isinstance(n, dict): err(f"{rel(p)}: note entry is not a mapping")
+    ph = d.get('phonology')
+    if ph is not None and not isinstance(ph, dict):
+        err(f"{rel(p)}: 'phonology' must be a mapping")
+    for k in ('protoform', 'gloss', 'references', 'xrefs', 'allofams', 'possallo',
+              'status', 'semkey', 'chapter', 'proto_language'):
+        if isinstance(d.get(k), (list, dict)):
+            err(f"{rel(p)}: field {k!r} must be a scalar")
+    ch = d.get('chapter')
+    if ch and ch not in semkeys:
+        warn(f"{rel(p)}: chapter {ch!r} not in thesaurus")
 print(f"  etyma: {n_ety} files, {len(etyma_tags)} tags")
 
 # ---- wordlists ----
@@ -137,7 +167,11 @@ for tok, where in sorted(bad_token.items()):
 
 # ---- reflex notes, glosswords, orphan links ----
 rnotes = loadyaml(f"{ROOT}/reference/reflex-notes.yaml") or []
-orphan_notes = sum(1 for n in rnotes if n.get('rn') not in seen_rn)
+orphan_notes = 0
+for n in rnotes:
+    if not isinstance(n, dict) or 'rn' not in n:
+        err(f"reflex-notes.yaml: entry missing 'rn' or not a mapping: {str(n)[:60]}"); continue
+    if n['rn'] not in seen_rn: orphan_notes += 1
 if orphan_notes:
     warn(f"reflex-notes.yaml: {orphan_notes} note(s) reference an rn not present in any wordlist")
 for h in hptb:

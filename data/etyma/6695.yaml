@@ -8,6 +8,7 @@ sequence: 1524.0
 status: KEEP
 public: false
 references: ("KMR") tentative transcription
+chapter: 2.2.4
 mesoroots:
 - grpid: 8
   group: '1.2'

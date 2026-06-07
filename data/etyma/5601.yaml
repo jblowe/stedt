@@ -7,6 +7,7 @@ sequence: 3579.0
 status: KEEP
 public: true
 references: cf. HPTB p. 206
+chapter: 4.7.2
 mesoroots:
 - grpid: 42
   group: '6.1'

@@ -8,6 +8,7 @@ sequence: 146.0
 status: KEEP
 public: true
 references: JS-HCST: 160
+chapter: 1.9.8
 phonology:
   handle: yo
   initial: y

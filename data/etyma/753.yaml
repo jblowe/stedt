@@ -8,6 +8,7 @@ sequence: 17.0
 status: KEEP
 public: true
 references: PAF
+chapter: 1.5.1
 phonology:
   handle: p/buk
   initial: p/b

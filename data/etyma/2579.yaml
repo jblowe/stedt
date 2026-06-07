@@ -8,6 +8,7 @@ sequence: 3.0
 status: KEEP
 public: true
 references: cf. HPTB p. 495, STC#385
+chapter: '6.13'
 phonology:
   handle: pun
   initial: p

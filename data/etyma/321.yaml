@@ -8,6 +8,7 @@ sequence: 2.0
 status: KEEP
 public: false
 references: HPTB p.321
+chapter: '5.5'
 phonology:
   initial: kw
   rhyme: ak

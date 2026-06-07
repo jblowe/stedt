@@ -8,6 +8,7 @@ sequence: 12.0
 status: KEEP
 public: true
 references: 'cf. #308 *pat ''chest'''
+chapter: 1.9.4
 phonology:
   handle: byat
   initial: b(y)

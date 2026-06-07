@@ -8,6 +8,7 @@ sequence: 2028.0
 status: KEEP
 public: true
 references: STC#179, HPTB p.291
+chapter: 6.7.11
 phonology:
   handle: byon
   initial: by

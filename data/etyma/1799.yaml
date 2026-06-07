@@ -7,6 +7,7 @@ semkey: 1.3.4.4
 sequence: 2.0
 status: KEEP
 public: true
+chapter: '6.8'
 phonology:
   handle: tok
   initial: t

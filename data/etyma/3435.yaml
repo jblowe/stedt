@@ -8,6 +8,7 @@ sequence: 3172.0
 status: KEEP
 public: false
 references: 'DL 708-9; GSTC #93'
+chapter: '6.4'
 phonology:
   handle: ta:y
   initial: t

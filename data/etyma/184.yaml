@@ -8,6 +8,7 @@ status: DELETE
 public: false
 xrefs: '6300'
 references: '("KMR") '
+chapter: 1.1.5
 phonology:
   handle: l/di
   initial: (l/d)

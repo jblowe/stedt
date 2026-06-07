@@ -8,6 +8,7 @@ sequence: 2894.0
 status: KEEP
 public: true
 references: ("PKN") STC p.68, HPTB p.231
+chapter: 6.10.4
 phonology:
   handle: kew
   prefix: d

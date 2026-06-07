@@ -7,6 +7,7 @@ sequence: 3.1
 status: KEEP
 public: true
 references: 'PCN #162'
+chapter: 8.3.1.1.1
 notes:
 - type: T
   text: <par>This root seems to be a variant of <xref ref="7683">#7683</xref>. See also the resemblant

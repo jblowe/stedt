@@ -8,6 +8,7 @@ sequence: 1.0
 status: KEEP
 public: true
 references: PAF; VSTB pp.124-130
+chapter: 1.7.6
 notes:
 - type: T
   text: <par>This root has many allofams, displaying variation in prefix, voicing or leniting of the initial,

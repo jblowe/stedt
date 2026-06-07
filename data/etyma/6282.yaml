@@ -8,6 +8,7 @@ sequence: 7.0
 status: KEEP
 public: false
 references: JS-HCST: 89
+chapter: '6.24'
 phonology:
   initial: č
   rhyme: um

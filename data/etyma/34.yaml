@@ -8,6 +8,7 @@ sequence: 1.1
 status: KEEP
 public: true
 references: STC#181, GSR 386a-c, HPTB p.448
+chapter: 1.1.1
 phonology:
   handle: sya-n
   initial: sy

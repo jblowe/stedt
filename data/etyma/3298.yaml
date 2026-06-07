@@ -7,6 +7,7 @@ semkey: '6.6'
 sequence: 3.0
 status: KEEP
 public: true
+chapter: 1.1.3.1
 phonology:
   handle: way
   initial: w

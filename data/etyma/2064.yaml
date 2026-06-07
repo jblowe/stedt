@@ -8,6 +8,7 @@ sequence: 11.0
 status: KEEP
 public: true
 references: '("HIM") '
+chapter: 1.2.5.5
 phonology:
   handle: gya-n
   prefix: r

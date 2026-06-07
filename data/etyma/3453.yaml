@@ -8,6 +8,7 @@ sequence: 18.0
 status: KEEP
 public: true
 references: 'JS-HCST: 129'
+chapter: 1.9.4
 phonology:
   handle: bruŋ
   initial: br

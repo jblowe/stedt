@@ -8,6 +8,7 @@ sequence: 1456.0
 status: KEEP
 public: true
 references: cf. HPTB p.209
+chapter: 6.7.11
 mesoroots:
 - grpid: 68
   group: 1.2.1.1

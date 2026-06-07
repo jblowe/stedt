@@ -8,6 +8,7 @@ sequence: 3.0
 status: KEEP
 public: true
 references: '("HIM") '
+chapter: 1.1.4.2
 phonology:
   handle: sen
   initial: s

@@ -132,7 +132,9 @@ def main():
             vstart = line.index(' VALUES ', end) + 8
             rows = parse_values(line[vstart:])
             ncol = len(TABLES[t])
-            rows = [r[:ncol] + [None]*(ncol-len(r)) for r in rows]
+            for r in rows:
+                if len(r) != ncol:   # schema/parse drift -> fail loud, never silently pad/truncate
+                    raise ValueError(f"{t}: parsed row has {len(r)} fields, expected {ncol}: {r[:3]}…")
             c.executemany(ins[t], rows)
             counts[t] += len(rows)
     db.commit()

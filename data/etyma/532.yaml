@@ -8,6 +8,7 @@ sequence: 1.2
 status: DELETE
 public: false
 references: only Lepcha?
+chapter: 1.6.6
 phonology:
   handle: so-p
   prefix: r

@@ -8,6 +8,7 @@ sequence: 3255.0
 status: KEEP
 public: true
 references: STC#176
+chapter: 6.7.5
 phonology:
   handle: pyaw
   initial: py

@@ -8,6 +8,7 @@ sequence: 17.0
 status: KEEP
 public: true
 references: Michailovsky
+chapter: 1.9.4
 phonology:
   handle: pil
   initial: p

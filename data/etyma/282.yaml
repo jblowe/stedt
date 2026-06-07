@@ -8,6 +8,7 @@ sequence: 1129.0
 status: KEEP
 public: false
 references: HPTB p.267
+chapter: '8.2'
 phonology:
   prefix: m
   initial: dzy

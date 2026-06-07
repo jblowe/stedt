@@ -8,6 +8,7 @@ sequence: 2363.0
 status: KEEP
 public: false
 references: 'based on HPTB #952 (p.24)'
+chapter: '6.2'
 mesoroots:
 - grpid: 66
   group: 1.3.4

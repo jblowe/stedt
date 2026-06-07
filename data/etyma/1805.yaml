@@ -8,6 +8,7 @@ sequence: 3.0
 status: KEEP
 public: true
 exemplary: true
+chapter: 1.1.1.2
 phonology:
   handle: m/g-
   prefix: m/g

@@ -7,6 +7,7 @@ sequence: 1997.0
 status: KEEP
 public: true
 references: JAM
+chapter: 1.1.3.2
 mesoroots:
 - grpid: 23
   group: 2.1.4

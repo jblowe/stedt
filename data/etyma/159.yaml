@@ -9,6 +9,7 @@ status: KEEP
 public: true
 exemplary: true
 references: cf. HPTB, GSTC
+chapter: 1.1.5
 phonology:
   handle: tsan
   prefix: b

@@ -8,6 +8,7 @@ sequence: 3.0
 status: KEEP
 public: false
 references: 'TSR #68'
+chapter: 1.1.2.3
 phonology:
   handle: Brek
   prefix: C/ʔ

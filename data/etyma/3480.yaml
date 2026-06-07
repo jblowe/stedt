@@ -8,6 +8,7 @@ sequence: 30.0
 status: KEEP
 public: true
 references: '("HIM") '
+chapter: 1.9.2
 phonology:
   handle: Buk
   initial: p/b

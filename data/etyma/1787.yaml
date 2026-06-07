@@ -8,6 +8,7 @@ sequence: 22.0
 status: KEEP
 public: true
 references: Burmish, Qiangish, Geman
+chapter: 1.9.4
 phonology:
   handle: prat
   prefix: N

@@ -8,6 +8,7 @@ sequence: 2.0
 status: KEEP
 public: true
 references: cf. STC#343, HPTB p. 292
+chapter: 1.8.3.2
 phonology:
   handle: 'on'
   rhyme: 'on'

@@ -8,6 +8,7 @@ sequence: 2.1
 status: KEEP
 public: true
 exemplary: true
+chapter: 9.7.2
 phonology:
   handle: lum
   prefix: s

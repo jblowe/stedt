@@ -8,6 +8,7 @@ sequence: 1.0
 status: KEEP
 public: false
 references: JAM-LITB 6.4
+chapter: 1.8.8.4
 phonology:
   handle: hyu
   initial: hy

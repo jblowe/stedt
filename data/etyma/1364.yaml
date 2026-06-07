@@ -8,6 +8,7 @@ sequence: 8.0
 status: KEEP
 public: true
 references: 'related to #2542?'
+chapter: 1.4.6
 phonology:
   handle: ʔok
   initial: ʔ

@@ -8,6 +8,7 @@ sequence: 4.0
 status: KEEP
 public: true
 references: ("PKN") STC p.121
+chapter: 3.2.9
 phonology:
   handle: tsyi
   prefix: m

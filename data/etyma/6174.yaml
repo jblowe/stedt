@@ -8,6 +8,7 @@ sequence: 1345.0
 status: KEEP
 public: true
 references: HPTB p.305
+chapter: '6.16'
 phonology:
   prefix: s
   initial: gr

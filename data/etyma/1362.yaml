@@ -9,6 +9,7 @@ status: KEEP
 public: true
 exemplary: true
 possallo: '225'
+chapter: 1.4.6
 phonology:
   handle: dam
   initial: d

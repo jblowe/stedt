@@ -7,6 +7,7 @@ semkey: '6.6'
 sequence: 15.0
 status: KEEP
 public: true
+chapter: 1.1.3.1
 phonology:
   handle: kru
   initial: kr

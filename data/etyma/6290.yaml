@@ -8,6 +8,7 @@ sequence: 1.0
 status: KEEP
 public: false
 references: JS-HCST: 161
+chapter: 9.2.7
 phonology:
   initial: d
   rhyme: o

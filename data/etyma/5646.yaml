@@ -8,6 +8,7 @@ sequence: 3401.0
 status: KEEP
 public: true
 references: Matisoff 03 HPTB:73
+chapter: '6.9'
 mesoroots:
 - grpid: 42
   group: '6.1'

@@ -8,6 +8,7 @@ sequence: 4.0
 status: KEEP
 public: true
 references: incl 3077
+chapter: 1.9.12
 phonology:
   handle: nu
   initial: n

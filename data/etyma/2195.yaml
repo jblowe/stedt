@@ -8,6 +8,7 @@ sequence: 3287.0
 status: KEEP
 public: true
 references: STC#021
+chapter: 10.4.3.2
 phonology:
   handle: day
   initial: d

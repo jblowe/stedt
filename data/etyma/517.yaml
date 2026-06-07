@@ -8,6 +8,7 @@ sequence: 40.1
 status: KEEP
 public: true
 references: Tangkhul points to *s-
+chapter: 1.9.3
 phonology:
   handle: m/s-la
   initial: l

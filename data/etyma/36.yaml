@@ -8,6 +8,7 @@ sequence: 1.0
 status: KEEP
 public: true
 references: cf. STC#066, HPTB
+chapter: 1.3.5.8
 phonology:
   handle: dzya
   initial: dz(y)

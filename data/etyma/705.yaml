@@ -8,6 +8,7 @@ sequence: 1.6
 status: KEEP
 public: true
 possallo: '377'
+chapter: 1.5.1
 phonology:
   handle: yak
   prefix: p

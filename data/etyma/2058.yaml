@@ -8,6 +8,7 @@ sequence: 1.2
 status: KEEP
 public: true
 exemplary: true
+chapter: 1.6.1
 phonology:
   handle: mom
   initial: m

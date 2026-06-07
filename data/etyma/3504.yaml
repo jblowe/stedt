@@ -8,6 +8,7 @@ sequence: 3050.0
 status: KEEP
 public: true
 references: ("HIM") JAM-LITB 5.1
+chapter: 2.1.6.1
 phonology:
   initial: h
   rhyme: om

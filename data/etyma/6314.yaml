@@ -8,6 +8,7 @@ sequence: 1228.0
 status: KEEP
 public: false
 references: JS-HCST: 100
+chapter: '5.7'
 phonology:
   initial: f
   rhyme: u

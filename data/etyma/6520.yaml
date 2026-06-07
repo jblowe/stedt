@@ -8,6 +8,7 @@ sequence: 5.0
 status: KEEP
 public: false
 references: JS-HCST: 47
+chapter: '6.21'
 notes:
 - type: I
   text: <par>JS notes that in the compound for &apos;steal&apos;, &quot;... the first element seems to

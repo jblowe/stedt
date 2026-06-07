@@ -8,6 +8,7 @@ sequence: 3.2
 status: KEEP
 public: true
 references: ("HIM")
+chapter: 1.2.5
 phonology:
   handle: ŋar
   initial: ŋ

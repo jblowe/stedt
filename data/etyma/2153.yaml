@@ -8,6 +8,7 @@ sequence: 1207.0
 status: KEEP
 public: true
 references: STC#001, HPTB
+chapter: 3.1.4
 phonology:
   handle: bar
   initial: b

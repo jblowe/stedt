@@ -8,6 +8,7 @@ sequence: 25.0
 status: KEEP
 public: true
 references: '("KMR") '
+chapter: 1.9.2
 phonology:
   handle: na
   prefix: b

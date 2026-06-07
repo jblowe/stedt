@@ -8,6 +8,7 @@ sequence: 2.0
 status: KEEP
 public: true
 references: 'reflexes: WT, Achang, Anong'
+chapter: 1.4.10
 phonology:
   handle: m/b-d ̌
   initial: dž

@@ -8,6 +8,7 @@ sequence: 19.0
 status: KEEP
 public: false
 references: JS-HCST: 203; note that ¹ is not a tone
+chapter: '5.15'
 phonology:
   initial: g
   rhyme: at¹

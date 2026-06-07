@@ -8,6 +8,7 @@ sequence: 3517.0
 status: KEEP
 public: true
 references: JS-HCST: 159
+chapter: 2.1.3
 phonology:
   initial: s
   rhyme: o

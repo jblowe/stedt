@@ -8,6 +8,7 @@ sequence: 45.0
 status: KEEP
 public: true
 exemplary: true
+chapter: 1.9.3
 phonology:
   handle: tsum
   prefix: t

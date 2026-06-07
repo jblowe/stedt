@@ -8,6 +8,7 @@ sequence: 1.0
 status: KEEP
 public: true
 references: STC#044, HPTB p.44
+chapter: 3.1.2
 phonology:
   handle: pa
   prefix: g/r

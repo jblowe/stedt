@@ -8,6 +8,7 @@ sequence: 23.0
 status: KEEP
 public: true
 references: 'PKC #621'
+chapter: 1.9.4
 notes:
 - type: T
   text: <par>This root is perhaps to be assigned to <xref ref="2628">#2628</xref>.</par>

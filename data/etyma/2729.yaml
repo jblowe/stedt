@@ -8,6 +8,7 @@ sequence: 3.0
 status: KEEP
 public: true
 references: STC#214
+chapter: 3.2.9
 phonology:
   handle: tsa
   initial: ts

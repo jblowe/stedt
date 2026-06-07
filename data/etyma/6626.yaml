@@ -8,6 +8,7 @@ sequence: 11.0
 status: KEEP
 public: false
 references: JS-HCST: 225
+chapter: 1.1.2.2
 notes:
 - type: I
   text: <par>is this related to <xref ref="1745">#1745</xref>?</par>

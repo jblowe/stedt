@@ -6,6 +6,7 @@ gloss: BRIDGE / LADDER / STAIRS
 sequence: 2.2
 status: KEEP
 public: false
+chapter: 9.10.2
 mesoroots:
 - grpid: 8
   group: '1.2'

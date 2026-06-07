@@ -8,6 +8,7 @@ sequence: 7.0
 status: KEEP
 public: true
 references: Idu, Milang, Tamang
+chapter: 1.3.4.5
 phonology:
   handle: kr/l
   initial: k(r/l)

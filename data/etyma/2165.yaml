@@ -8,6 +8,7 @@ sequence: 10.0
 status: KEEP
 public: true
 references: STC#132
+chapter: 7.1.5.1
 phonology:
   handle: bra
   initial: br

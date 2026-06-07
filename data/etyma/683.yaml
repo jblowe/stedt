@@ -9,6 +9,7 @@ status: DELETE
 public: false
 exemplary: true
 xrefs: '1110'
+chapter: 1.2.6.1
 phonology:
   handle: ka
   initial: k

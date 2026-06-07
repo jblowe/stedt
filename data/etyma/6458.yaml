@@ -9,6 +9,7 @@ status: DELETE
 public: false
 xrefs: '31'
 references: JS-HCST: 205
+chapter: x.x
 phonology:
   initial: m
   rhyme: it

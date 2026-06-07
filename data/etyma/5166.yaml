@@ -8,6 +8,7 @@ sequence: 2774.0
 status: KEEP
 public: false
 references: 'PKC #1166 ("PCC")'
+chapter: '2.4'
 notes:
 - type: I
   text: <par>related to <xref ref="2783">#2783</xref> ?</par>

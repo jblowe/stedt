@@ -8,6 +8,7 @@ sequence: 2.0
 status: KEEP
 public: true
 references: Himalayish
+chapter: 1.3.4.5
 phonology:
   handle: nak
   initial: n

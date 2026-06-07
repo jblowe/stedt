@@ -8,6 +8,7 @@ sequence: 1229.0
 status: KEEP
 public: false
 references: JS-HCST: 231
+chapter: '5.7'
 phonology:
   initial: k
   rhyme: il

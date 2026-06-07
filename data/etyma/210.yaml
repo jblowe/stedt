@@ -8,6 +8,7 @@ sequence: 3110.0
 status: DELETE
 public: false
 references: HPTB p.61
+chapter: 5.11.6
 phonology:
   initial: bʷ
   rhyme: ar

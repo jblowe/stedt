@@ -6,6 +6,7 @@ gloss: WAIT
 sequence: 3436.0
 status: KEEP
 public: false
+chapter: 6.1.1.6
 mesoroots:
 - grpid: 8
   group: '1.2'

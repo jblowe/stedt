@@ -8,6 +8,7 @@ sequence: 2.8
 status: KEEP
 public: true
 references: STC#221
+chapter: 3.2.12.1
 phonology:
   handle: hwa
   initial: hw

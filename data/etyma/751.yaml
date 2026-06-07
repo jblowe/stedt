@@ -9,6 +9,7 @@ status: KEEP
 public: true
 possallo: '745'
 references: incl 750
+chapter: 1.5.1
 phonology:
   handle: bIn
   initial: b
