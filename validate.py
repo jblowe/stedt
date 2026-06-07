@@ -47,6 +47,8 @@ lgname = {l['lgid']: (l.get('name') or '') for l in langs if isinstance(l, dict)
 for g in groups:
     if isinstance(g, dict) and 'lineage' in g and (not isinstance(g['lineage'], list) or len(g['lineage']) < 5):
         err(f"languagegroups.yaml grpid {g.get('grpid')}: 'lineage' must be a 5-element list")
+    if isinstance(g, dict) and 'genetic' in g and not isinstance(g['genetic'], bool):
+        err(f"languagegroups.yaml grpid {g.get('grpid')}: 'genetic' must be a boolean (build does int(genetic))")
 for t in thes:
     if isinstance(t, dict):
         for n in (t.get('notes') or []):
@@ -112,6 +114,9 @@ for p in sorted(glob.glob(f"{ROOT}/etyma/*.yaml")):
               'status', 'semkey', 'chapter', 'proto_language'):
         if isinstance(d.get(k), (list, dict)):
             err(f"{rel(p)}: field {k!r} must be a scalar")
+    seq = d.get('sequence')
+    if seq is not None and (isinstance(seq, bool) or not isinstance(seq, (int, float))):
+        err(f"{rel(p)}: 'sequence' must be numeric (export does float(sequence))")
     ch = d.get('chapter')
     if ch and ch not in semkeys:
         warn(f"{rel(p)}: chapter {ch!r} not in thesaurus")
@@ -179,24 +184,33 @@ for h in hptb:
         if tg not in etyma_tags:   # inherited dangling HPTB links from the dump
             warn(f"hptb.yaml hptbid {h.get('hptbid')}: links to missing etymon #{tg}")
 
-def tsv_rn_check(path, label):
+def tsv_rn_check(path, label, expect):
     if not os.path.exists(path): return
     miss = 0
     with open(path, encoding='utf-8', newline='') as f:
-        for row in csv.DictReader(f, delimiter='\t'):
+        rdr = csv.DictReader(f, delimiter='\t')
+        if rdr.fieldnames != expect:
+            err(f"{label}: unexpected columns {rdr.fieldnames}"); return
+        for row in rdr:
             rn = row.get('rn')
             if rn and not rn.isdigit(): err(f"{label}: non-numeric rn {rn!r}")
             elif rn and int(rn) not in seen_rn: miss += 1
     if miss: warn(f"{label}: {miss} entries reference an rn not in any wordlist")
-tsv_rn_check(f"{ROOT}/reference/glosswords.tsv", "glosswords.tsv")
+tsv_rn_check(f"{ROOT}/reference/glosswords.tsv", "glosswords.tsv", ['word', 'rn', 'semcat', 'subcat', 'semkey'])
 
 opath = f"{ROOT}/reference/orphan-links.tsv"
 if os.path.exists(opath):
     with open(opath, encoding='utf-8', newline='') as f:
-        for row in csv.DictReader(f, delimiter='\t'):
-            m = re.match(r'\d+', row.get('tag_str') or '')
-            if m and int(m.group()) not in etyma_tags:
-                warn(f"orphan-links.tsv: tag {m.group()} not in etyma")
+        rdr = csv.DictReader(f, delimiter='\t')
+        if rdr.fieldnames != ['rn', 'ind', 'tag_str']:
+            err(f"orphan-links.tsv: unexpected columns {rdr.fieldnames}")
+        else:
+            for row in rdr:
+                if row['rn'] and not row['rn'].isdigit(): err(f"orphan-links.tsv: non-numeric rn {row['rn']!r}")
+                if row['ind'] and not row['ind'].isdigit(): err(f"orphan-links.tsv: non-numeric ind {row['ind']!r}")
+                m = re.match(r'\d+', row.get('tag_str') or '')
+                if m and int(m.group()) not in etyma_tags:
+                    warn(f"orphan-links.tsv: tag {m.group()} not in etyma")
 
 print(f"  reference: {len(grpids)} groups, {len(lgids)} languages, {len(semkeys)} thesaurus nodes, "
       f"{len(srcabbrs)} sources, {len(rnotes)} reflex-notes")

@@ -12,8 +12,14 @@ category codes, independent of and not derivable from semkey, retained only in t
 archived dump). NB: etyma.chapter is NOT legacy — it is a real thesaurus placement
 that often differs from semkey, so it IS preserved (emitted when it differs).
 Morpheme 'ind' gaps are
-re-densified by position; same-slot tags are preserved via '|' within a slot; orphan
-lx_et_hash rows (rn absent from lexicon) are preserved in reference/orphan-links.tsv.
+re-densified by position (order preserved, absolute surface-position not); same-slot
+tags are preserved via '|' within a slot; orphan lx_et_hash rows (rn absent from
+lexicon) are preserved in reference/orphan-links.tsv.
+
+Benign, intentional normalizations (semantically lossless, recoverable from the dump):
+etyma.status case-canonicalized (delete -> DELETE); sentinel-zero integer fields
+(languagenames.pi_page, srcbib.scope/infascicle, mesoroots.old_tag) emitted only when
+nonzero (0 <-> absent/NULL); empty-text notes (no xmlnote) are skipped.
 """
 import sqlite3, os, csv, yaml, re
 from itertools import groupby
