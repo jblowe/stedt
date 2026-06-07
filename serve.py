@@ -6,7 +6,19 @@ Routes: /  /search?q=  /etymon/<tag>  /thesaurus  /thesaurus/<semkey>  /api/sear
 This mirrors a static build: every page is real HTML at a stable URL and could be
 pre-rendered to files; live search is the only dynamic bit.
 """
-import http.server, socketserver, sqlite3, urllib.parse, re, html, json, os
+import http.server, socketserver, sqlite3, urllib.parse, re, html, json, os, yaml, difflib
+
+DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+
+# YAML dumper matching export_files.py, so an edited etymon re-serializes with a clean one-field diff
+class _YD(yaml.SafeDumper): pass
+_NEL = ('\x85', ' ', ' ')
+def _ystr(d, s):
+    if any(ch in s for ch in _NEL):
+        return d.represent_scalar('tag:yaml.org,2002:str', s, style='"')
+    return d.represent_scalar('tag:yaml.org,2002:str', s, style='|' if '\n' in s else None)
+_YD.add_representer(str, _ystr)
+def ydump(o): return yaml.dump(o, Dumper=_YD, allow_unicode=True, sort_keys=False, width=100)
 
 DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "stedt.sqlite")
 PORT = 8000
@@ -190,6 +202,34 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx a.lang:hover,.rfx a.src:hover{color:var(--accent);border-color:var(--accent);}
 .metabar a{background:none;border-bottom:1px dotted var(--rule);}
 .metabar a:hover{color:var(--accent);}
+
+/* contribution form + diff */
+.editlink{background:var(--accent);color:var(--paper);padding:2px 10px;border-radius:2px;margin-left:10px;
+  font-variant:small-caps;letter-spacing:.05em;font-size:13px;}
+.editlink:hover{color:var(--paper);background:#7e201b;}
+.editform{max-width:620px;margin:8px 0;}
+.editform label{display:block;margin:0 0 14px;font-variant:small-caps;letter-spacing:.06em;font-size:13px;color:var(--soft);}
+.editform input,.editform textarea{display:block;width:100%;margin-top:4px;font-family:"Charis SIL",serif;
+  font-size:16px;font-variant:normal;letter-spacing:0;color:var(--ink);padding:8px 11px;
+  border:1px solid var(--rule);background:var(--paper2);border-radius:2px;}
+.editform input:focus,.editform textarea:focus{outline:none;border-color:var(--accent);}
+.editform .hint{font-variant:normal;letter-spacing:0;color:var(--mut);text-transform:none;}
+.editform hr,.editform .who{border:none;border-top:1px solid var(--rule);margin:18px 0;padding-top:14px;}
+.editform .actions{display:flex;align-items:center;gap:16px;margin-top:6px;}
+.editform button{font-family:inherit;font-size:16px;font-variant:small-caps;letter-spacing:.05em;
+  padding:9px 22px;background:var(--accent);color:var(--paper);border:none;border-radius:2px;cursor:pointer;}
+.editform button:hover{background:#7e201b;}
+.editform .cancel{background:none;color:var(--mut);}
+.gate{padding:10px 16px;border-radius:2px;margin:16px 0;font-size:15px;}
+.gate.ok{background:#e8f0e3;border-left:3px solid #4a7c3a;color:#2f4f25;}
+.gate.bad{background:#f6e3e0;border-left:3px solid var(--accent);color:#7e201b;}
+.gate ul{margin:6px 0 0 18px;}
+pre.diff{background:#faf7ef;border:1px solid var(--rule);border-radius:3px;padding:14px 16px;overflow:auto;
+  font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:13px;line-height:1.5;}
+pre.diff span{display:block;white-space:pre-wrap;}
+pre.diff .add{background:#e3f0db;color:#2f4f25;}
+pre.diff .del{background:#f6dfdb;color:#7e201b;}
+pre.diff .hdr{color:var(--mut);}
 """
 
 def page(title, body, q=""):
@@ -378,7 +418,8 @@ def etymon(tag):
       <span><b>{nsub}</b>subgroups</span>
     </div>
     <div class="cite">Cite as: <code>STEDT etymon #{e['tag']}, *{pf} ‘{esc(e['protogloss'])}’</code>.
-      Stable link: <code>/etymon/{e['tag']}</code></div>
+      Stable link: <code>/etymon/{e['tag']}</code>
+      <a class="editlink" href="/etymon/{e['tag']}/edit">✎ Suggest an edit</a></div>
     {refs}
     {connhtml}
     {noteshtml}
@@ -466,6 +507,95 @@ def source(srcabbr):
     {cap}
     <section class="reflexes"><h3>Attested forms</h3>{''.join(rfx)}</section>"""
     return page(s['citation'] or s['srcabbr'], body), 200
+
+def _etymon_path(tag):
+    return os.path.join(DATA, "etyma", f"{tag}.yaml")
+
+def edit_form(tag):
+    p = _etymon_path(tag)
+    if not os.path.exists(p):
+        return page("Not found", "<p>No such etymon.</p>"), 404
+    d = yaml.safe_load(open(p, encoding='utf-8'))
+    F = lambda k: esc(d.get(k) if d.get(k) is not None else '')
+    body = f"""
+    <div class="ety-head">
+      <div class="plg">Suggest an edit · #{tag}</div>
+      <div class="pagetitle">*{F('protoform')} ‘{F('gloss')}’</div>
+      <div class="crumbs">Your proposal is reviewed by a moderator before it goes live — nothing changes immediately.</div>
+    </div>
+    <form class="editform" method="post" action="/etymon/{tag}/edit">
+      <label>Proto-form <input name="protoform" value="{F('protoform')}"></label>
+      <label>Gloss <input name="gloss" value="{F('gloss')}"></label>
+      <label>Semantic key <input name="semkey" value="{F('semkey')}"></label>
+      <label>References <input name="references" value="{F('references')}"></label>
+      <label>Add a note <span class="hint">(optional; plain text or STEDT note markup)</span>
+        <textarea name="newnote" rows="3"></textarea></label>
+      <div class="who">
+        <label>Your name <input name="author" placeholder="Jane Linguist" required></label>
+        <label>What &amp; why <input name="summary" placeholder="e.g. corrected gloss per Matisoff 2003" required></label>
+      </div>
+      <div class="actions"><button type="submit">Propose change →</button>
+        <a class="cancel" href="/etymon/{tag}">Cancel</a></div>
+    </form>"""
+    return page(f"Edit #{tag}", body), 200
+
+def validate_proposed(tag, d):
+    """Lightweight gate preview (the full validate.py runs in CI on the resulting PR)."""
+    c = con(); probs = []
+    if d.get('tag') != tag: probs.append("the etymon tag must not change")
+    if not (d.get('protoform') or '').strip(): probs.append("proto-form is empty")
+    if not (d.get('gloss') or '').strip(): probs.append("gloss is empty")
+    sk = d.get('semkey')
+    if sk and not c.execute("SELECT 1 FROM chapters WHERE semkey=?", (sk,)).fetchone():
+        probs.append(f"semantic key “{sk}” is not a thesaurus node")
+    c.close(); return probs
+
+def edit_submit(tag, form):
+    p = _etymon_path(tag)
+    if not os.path.exists(p):
+        return page("Not found", "<p>No such etymon.</p>"), 404
+    g1 = lambda k: (form.get(k, [''])[0] or '').strip()
+    orig = open(p, encoding='utf-8').read()
+    d = yaml.safe_load(orig)
+    for k in ('protoform', 'gloss', 'semkey', 'references'):
+        v = g1(k)
+        if v: d[k] = v
+        elif k in d: del d[k]
+    if g1('newnote'):
+        d.setdefault('notes', []).append({'type': 'T', 'text': g1('newnote')})
+    proposed = ydump(d)
+    diff = list(difflib.unified_diff(orig.splitlines(True), proposed.splitlines(True),
+                                     fromfile=f"a/data/etyma/{tag}.yaml", tofile=f"b/data/etyma/{tag}.yaml"))
+    probs = validate_proposed(tag, d)
+    author, summary = esc(g1('author')), esc(g1('summary'))
+
+    if not diff:
+        return page("No change", '<p>No changes detected — nothing to propose. '
+                    f'<a href="/etymon/{tag}/edit">Back</a></p>'), 200
+    difflines = []
+    for ln in diff:
+        cls = 'add' if ln.startswith('+') and not ln.startswith('+++') else \
+              'del' if ln.startswith('-') and not ln.startswith('---') else \
+              'hdr' if ln.startswith('@@') or ln.startswith('+++') or ln.startswith('---') else ''
+        difflines.append(f'<span class="{cls}">{esc(ln.rstrip(chr(10)))}</span>')
+    gate = ('<div class="gate ok">✓ Passes the basic checks — ready for a moderator to review.</div>'
+            if not probs else
+            '<div class="gate bad">This proposal has issues a moderator would flag:<ul>'
+            + ''.join(f'<li>{esc(x)}</li>' for x in probs) + '</ul></div>')
+    body = f"""
+    <div class="ety-head">
+      <div class="plg">Proposed change · #{tag}</div>
+      <div class="pagetitle">Submitted ✓</div>
+      <div class="crumbs">By <b>{author or "anonymous"}</b> — “{summary}”</div>
+    </div>
+    <p style="color:var(--soft)">This is what a maintainer would review. On the live site it would open a
+    pull request against <code>data/etyma/{tag}.yaml</code>; CI runs the full <code>validate.py</code>, and a
+    moderator approves or requests changes. <em>(Prototype: nothing was written — this previews the flow.)</em></p>
+    {gate}
+    <h3 style="font-variant:small-caps;letter-spacing:.1em;color:var(--accent);font-size:14px;border-bottom:1px solid var(--rule);padding-bottom:5px">The change</h3>
+    <pre class="diff">{''.join(difflines)}</pre>
+    <p><a href="/etymon/{tag}">← Back to the entry</a></p>"""
+    return page(f"Proposed: #{tag}", body), 200
 
 def fts_q(q):
     q = q.replace('"', ' ').strip()
@@ -593,11 +723,14 @@ class H(http.server.BaseHTTPRequestHandler):
             elif path == "/search":
                 self.send(search_page(q))
             elif path.startswith("/etymon/"):
-                tag = path.split("/")[2]
-                if tag.isdigit():
-                    html_, code = etymon(int(tag)); self.send(html_, code)
-                else:
+                parts = path.split("/")   # ['', 'etymon', tag, ('edit')?]
+                tag = parts[2]
+                if not tag.isdigit():
                     self.send(page("Not found", "<p>Bad etymon id.</p>"), 404)
+                elif len(parts) > 3 and parts[3] == "edit":
+                    html_, code = edit_form(int(tag)); self.send(html_, code)
+                else:
+                    html_, code = etymon(int(tag)); self.send(html_, code)
             elif path == "/thesaurus":
                 self.send(thesaurus())
             elif path.startswith("/thesaurus/"):
@@ -614,6 +747,20 @@ class H(http.server.BaseHTTPRequestHandler):
                 self.send("", 204)
             else:
                 self.send(page("Not found", "<p>Page not found.</p>"), 404)
+        except Exception as ex:
+            import traceback; traceback.print_exc()
+            self.send(page("Error", f"<pre>{esc(ex)}</pre>"), 500)
+
+    def do_POST(self):
+        path = urllib.parse.urlparse(self.path).path
+        try:
+            m = re.match(r"^/etymon/(\d+)/edit$", path)
+            if m:
+                n = int(self.headers.get('Content-Length', 0))
+                form = urllib.parse.parse_qs(self.rfile.read(n).decode('utf-8'), keep_blank_values=True)
+                html_, code = edit_submit(int(m.group(1)), form); self.send(html_, code)
+            else:
+                self.send(page("Not found", "<p>Not found.</p>"), 404)
         except Exception as ex:
             import traceback; traceback.print_exc()
             self.send(page("Error", f"<pre>{esc(ex)}</pre>"), 500)
