@@ -1,0 +1,16 @@
+tag: 3354
+grpid: 2
+proto_language: PTB
+protoform: nyo
+gloss: TAIL
+semkey: 1.4.10.1
+sequence: 3.0
+status: DELETE
+public: false
+xrefs: '1288'
+phonology:
+  handle: nyo
+  initial: ny
+  rhyme: o
+  initcover: M
+  rhymecover: V

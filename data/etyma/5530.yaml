@@ -1,0 +1,18 @@
+tag: 5530
+grpid: 2
+proto_language: PTB
+protoform: s-nyak
+gloss: STICKY
+semkey: 7.1.4.2
+sequence: 3169.0
+status: KEEP
+public: true
+references: cf. HPTB p. 374
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-nyakᴸ
+  gloss: STICKY
+notes:
+- type: T
+  text: <par>For a discussion of possible alternative etymologies, see HPTB:374.</par>

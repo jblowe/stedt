@@ -1,0 +1,26 @@
+tag: 487
+grpid: 2
+proto_language: PTB
+protoform: ʔam
+gloss: EAT / DRINK
+semkey: 1.5.3.2
+sequence: 1.0
+status: KEEP
+public: true
+references: cf. STC#481, HPTB pp. 298, 533
+phonology:
+  handle: ə/am
+  rhyme: ə/am
+  rhymecover: N
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: Ɂamᴮ
+  gloss: EAT
+notes:
+- type: F
+  text: '<par><hanform>飲</hanform> OC <latinform>*ʔi̯əm</latinform>, GSR #654a &apos;drink (v.)&apos;;
+    Schuessler 2007:573-4 <latinform>*ʔəmʔ</latinform>; B &amp; S 2011: <latinform>*qəmʔ {q(r)[ə]mʔ}</latinform>;
+    Mand. <latinform>yǐn</latinform>.<br /><hanform>飲</hanform> OC <latinform>*ʔi̯əm</latinform>, GSR
+    #654a &apos;give to drink&apos;; Schuessler 2007:573-4 <latinform>*ʔəms</latinform>; B &amp; S 2011:
+    <latinform>*qəmʔ-s {q(r)[ə]mʔ-s}</latinform>; Mand. <latinform>yìn</latinform>.</par>'

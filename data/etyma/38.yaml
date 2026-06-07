@@ -1,0 +1,16 @@
+tag: 38
+grpid: 2
+proto_language: PTB
+protoform: m-dwaŋ
+gloss: FLESH / MEAT
+semkey: 1.1.1.1
+sequence: 5.0
+status: KEEP
+public: true
+phonology:
+  handle: doŋ
+  prefix: n
+  initial: d
+  rhyme: oŋ
+  initcover: T
+  rhymecover: N

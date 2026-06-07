@@ -1,0 +1,18 @@
+tag: 1737
+grpid: 2
+proto_language: PTB
+protoform: 'k-raw ⪤ k-law '
+gloss: PALATE
+semkey: 1.3.1.1
+sequence: 4.0
+status: DELETE
+public: false
+xrefs: '488'
+references: Darang, Geman, Lalung
+phonology:
+  handle: r/lo
+  prefix: k
+  initial: r/l
+  rhyme: o
+  initcover: L
+  rhymecover: V

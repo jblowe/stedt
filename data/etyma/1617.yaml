@@ -1,0 +1,20 @@
+tag: 1617
+grpid: 2
+proto_language: PTB
+protoform: kuk
+gloss: POUCH / BASKET / SCROTUM
+sequence: 135.0
+status: KEEP
+public: true
+references: STC#393, WTF-PNN p. 454, HPTB
+phonology:
+  handle: kuk
+  initial: k
+  rhyme: uk
+  initcover: K
+  rhymecover: T
+notes:
+- type: T
+  text: '<par>This root was reconstructed as meaning &apos;bag; basket; receptacle&apos; in STC #393.
+    It seems to refer often to a pannier, or hanging basket for transporting goods on an animal&apos;s
+    back.</par>'

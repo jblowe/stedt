@@ -1,0 +1,31 @@
+tag: 2792
+grpid: 2
+proto_language: PTB
+protoform: s-k-ywak
+gloss: POKER / PUDDING-STICK / LADLE
+semkey: '5.5'
+sequence: 11.0
+status: KEEP
+public: true
+references: cf. STC p.14, HPTB pp. 295, 517
+phonology:
+  handle: yok
+  initial: y
+  rhyme: ok
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: shuak-I, shuaʔ-II
+  gloss: SCOOP / LADLE
+notes:
+- type: F
+  text: '<par><hanform>勺</hanform> / <hanform>杓</hanform> OC <latinform>*d̂i̯ok</latinform>, GSR #1120a-b
+    &apos;ladle (n.)&apos;; Schuessler 2007:631 <latinform>*diauk</latinform> or <latinform>*C-jauk</latinform>;
+    B &amp; S 2011: <latinform>*m-t-qewk</latinform>; Mand. <latinform>sháo</latinform>.<br /><hanform>勺</hanform>
+    OC <latinform>*t̑i̯ok</latinform>, GSR #1120a &apos;ladle (v.)&apos;; Schuessler 2007:631 <latinform>*kiauk</latinform>;
+    B &amp; S 2011: <latinform>*t-qewk</latinform>; Mand. <latinform>zhuó</latinform>.<br /><hanform>汋</hanform>
+    OC <latinform>*d̑i̯ok</latinform>, GSR #1120c &apos;ladle, pour out (v.)&apos;; Schuessler 2007:631
+    <latinform>*kiauk</latinform> or <latinform>*jauk</latinform>; B &amp; S 2011: <latinform>*m-qewk</latinform>;
+    Mand. <latinform> zhuó</latinform>.</par>'

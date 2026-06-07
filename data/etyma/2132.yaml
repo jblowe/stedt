@@ -1,0 +1,20 @@
+tag: 2132
+grpid: 2
+proto_language: PTB
+protoform: tun
+gloss: SNOUT
+semkey: 1.2.8
+sequence: 1.0
+status: KEEP
+public: true
+possallo: '442'
+references: '↭ -d(y)ul/n #442'
+phonology:
+  handle: tun
+  initial: t
+  rhyme: un
+  initcover: T
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This promising root requires further confirmation.</par>

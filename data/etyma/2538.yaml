@@ -1,0 +1,21 @@
+tag: 2538
+grpid: 2
+proto_language: PTB
+protoform: ŋwa
+gloss: CATTLE
+semkey: 2.1.2
+sequence: 1.0
+status: KEEP
+public: true
+references: STC#215, HPTB
+phonology:
+  handle: ŋwa
+  initial: ŋw
+  rhyme: a
+  initcover: M
+  rhymecover: V
+notes:
+- type: F
+  text: '<par>A very likely Chinese comparandum is <hanform>牛</hanform> OC <latinform>*ngi̯ŭg</latinform>,
+    GSR #998a-c; Coblin 86:52 ST <latinform>*ngwjəɣ</latinform> &gt; OC <latinform>*ngwjəg</latinform>;
+    B &amp; S 2011: <latinform>ŋʷə {[ŋ]ʷə}</latinform> (&lt;*uvular?); Mand. <latinform>niú</latinform>.</par>'

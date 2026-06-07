@@ -1,0 +1,18 @@
+tag: 1768
+grpid: 2
+proto_language: PTB
+protoform: s/m-ti
+gloss: TEARS / SNOT
+semkey: 1.2.6.7
+sequence: 26.0
+status: DELETE
+public: false
+xrefs: '298'
+references: Sinitic only
+phonology:
+  handle: s/m-ti
+  prefix: s/m
+  initial: t
+  rhyme: i
+  initcover: T
+  rhymecover: V

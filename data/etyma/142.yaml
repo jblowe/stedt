@@ -1,0 +1,35 @@
+tag: 142
+grpid: 2
+proto_language: PTB
+protoform: m-sow
+gloss: ARISE / AWAKE / AWAKEN
+semkey: 1.1.4
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: ARISE
+references: cf. STC#295, HPTB
+phonology:
+  handle: sow
+  prefix: m
+  initial: s
+  rhyme: ow
+  initcover: S
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: thaw-I, thoʔ-II
+  gloss: RISE / GET UP / STAND UP
+- grpid: 66
+  group: 1.3.4
+  form: tʰow
+  gloss: AWAKEN
+- grpid: 63
+  group: 1.3.1
+  form: m-su
+  gloss: LIFT / AWAKEN
+notes:
+- type: T
+  text: <par>A Proto-Karenic form has yet to be reconstructed.</par>

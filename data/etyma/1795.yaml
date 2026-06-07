@@ -1,0 +1,43 @@
+tag: 1795
+grpid: 2
+proto_language: PTB
+protoform: kwak
+gloss: COUGH
+semkey: 1.8.3.3
+sequence: 2.0
+status: KEEP
+public: true
+possallo: '540'
+phonology:
+  handle: kak
+  initial: k
+  rhyme: ak
+  initcover: K
+  rhymecover: T
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: kʰa
+  gloss: COUGH
+- grpid: 50
+  group: '7'
+  form: kukᴰ
+  gloss: COUGH (v.)
+- grpid: 8
+  group: '1.2'
+  form: khuʔ
+  gloss: COUGH
+- grpid: 63
+  group: 1.3.1
+  form: a-khu(t)
+  gloss: COUGH (v.)
+notes:
+- type: T
+  text: <par>There is a possible relationship between this root and <xref ref="540">#540</xref>, the latter
+    also now being reconstructed with a medial glide. Cf. also <xref ref="2260">#2260</xref>.</par>
+- type: T
+  text: <par>The final <latinform>*-t</latinform> in this meso-root is unexplained, but we are including
+    it here for now. </par>
+- type: F
+  text: '<par><hanform>咳</hanform> OC <latinform>*k’əg</latinform>, GSR #937g &apos;cough&apos;; B &amp;
+    S 2011: <latinform>*kʰˁək-s</latinform>; Mand. <latinform>ké</latinform>.</par>'

@@ -1,0 +1,15 @@
+tag: 3405
+grpid: 2
+proto_language: PTB
+protoform: dze
+gloss: NECK
+semkey: 1.4.2
+sequence: 15.0
+status: DELETE
+public: false
+phonology:
+  handle: dze
+  initial: dz
+  rhyme: e
+  initcover: TS
+  rhymecover: V

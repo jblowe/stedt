@@ -1,0 +1,20 @@
+tag: 3375
+grpid: 3
+proto_language: NEIA
+protoform: mlam
+gloss: CHEST
+semkey: 1.4.4.3
+sequence: 19.0
+status: KEEP
+public: true
+references: ("KMR") Angami/Chokri, Damu, Sema
+phonology:
+  handle: mlam
+  initial: ml
+  rhyme: am
+  initcover: M
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This weakly attested root requires further confirmation, although the Damu-Sumi comparison
+    looks particularly good.</par>

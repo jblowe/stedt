@@ -1,0 +1,18 @@
+tag: 5683
+grpid: 2
+proto_language: PTB
+protoform: hwa(ː)r ⪤ yar
+gloss: WHITE / YELLOW / BRIGHT / SHINE
+sequence: 2.2
+status: KEEP
+public: true
+references: HPTB:429
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: waar
+  gloss: FAIR (color) / PALE / WHITE
+- grpid: 66
+  group: 1.3.4
+  form: hwor
+  gloss: LIGHT / SHINE

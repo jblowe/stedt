@@ -1,0 +1,18 @@
+tag: 653
+grpid: 3
+proto_language: NEIA
+protoform: tšar ~ žar
+gloss: URINE
+semkey: 1.8.4
+sequence: 2.1
+status: DELETE
+public: false
+xrefs: '652'
+allofams: '652'
+references: FIX
+phonology:
+  handle: tšar
+  initial: tš
+  rhyme: ar ~ ža
+  initcover: TS
+  rhymecover: L

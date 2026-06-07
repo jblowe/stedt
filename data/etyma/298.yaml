@@ -1,0 +1,116 @@
+tag: 298
+grpid: 2
+proto_language: PTB
+protoform: m-t(w)əy-n ⪤ m-ti-s
+gloss: WATER / FLUID / LIQUID / RIVER / SOAK / SPIT
+semkey: 3.2.3
+sequence: 6.0
+status: KEEP
+public: true
+references: STC#055 + STC#168 cf. egg=bird+water; DL p.705; possible Chinese comp. 1768 TEAR; STC#168;
+  cf. HPTB pp.193-5, 451, 471
+phonology:
+  handle: twi
+  prefix: m
+  initial: t(w)
+  rhyme: i⪤əy
+  initcover: T
+  rhymecover: VW
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tuy
+  gloss: WATER / FLUID / LIQUID
+- grpid: 66
+  group: 1.3.4
+  form: dɨ
+  gloss: WATER
+- grpid: 42
+  group: '6.1'
+  form: m/ʔ-titᴴ
+  gloss: WET / SOAK
+- grpid: 50
+  group: '7'
+  form: thejᴬ
+  gloss: WATER
+notes:
+- type: T
+  text: <par>This is a rather complex word family in which all three dental suffixes /<latinform>-t, -s,
+    -n</latinform>/ are attested. Reflexes include Kanauri <latinform>this</latinform> &apos;wet&apos;,
+    Jingpho <latinform>mədìt</latinform> &apos;moisten sthg; wet, damp&apos;, Lalo <latinform>tíq</latinform>
+    &apos;steep, soak&apos;, Kanauri <latinform>ti</latinform> &apos;water&apos;, Jingpho <latinform>mədī</latinform>
+    &apos;moist, damp, wet&apos;, Lahu <latinform>dì</latinform> &apos;moisten due to sexual excitement
+    (of a woman), ejaculate (of a man)&apos;. The nasal prefix is reflected directly in Jingpho, and indirectly
+    by the voiced Lahu initial.</par><par>Note the Kanauri form <latinform>thiss</latinform>, where the
+    <latinform>-s</latinform> perhaps reflects the source of the <latinform>-t</latinform> to be found
+    in other languages.</par><par>There is sometimes confusion between this root and <xref ref="300">#300</xref>,
+    as in compounds of BIRD + WATER &gt; EGG. Note the Kom Rem forms <latinform>mit ɣətui</latinform>
+    &apos;eyeball&apos; and <latinform>nəi tui</latinform> &apos;amniotic fluid&apos;, where the second
+    element definitely means &apos;egg&apos; in the former, but &apos;liquid&apos; in the latter.</par>
+- type: T
+  text: <par>This root seems certainly to underlie <xref ref="2719">#2719</xref>, which shows a semantic
+    extension towards the notion of flowing, as from a wound.</par>
+- type: H
+  text: '<par>See STC #55 and Matisoff 1988a p. 705. STC #55, #167, and #168 should be combined as one
+    root.</par><par>See HPTB <reconstruction>*twəy</reconstruction>, p. 194; <reconstruction>*twəy ⪤ *dwəy</reconstruction>,
+    p. 195; <reconstruction>*twəy-n</reconstruction>, p. 451; <reconstruction>*ti(y)</reconstruction>,
+    pp. 193, 194, 471; <reconstruction>*m-ti-s</reconstruction>, pp. 434, 351.</par><par>There are several
+    likely Chinese comparanda, the best of which is probably <hanform>涕</hanform> OC <latinform>*t&apos;iər</latinform>
+    &apos;weep, tears&apos;, GSR #591m. In Mandarin, this word now means either &apos;tears&apos; or &apos;snot&apos;
+    (<latinform>tì</latinform>). Cf. also <hanform>水</hanform> OC <latinform>*śi̯wər</latinform> &apos;water&apos;
+    GSR #576a-e, Mand. <latinform>shǔi</latinform>, and <hanform>川</hanform> &apos;river&apos; Mand. <latinform>chuān</latinform>,
+    the latter pointing to an allofam with a nasal final: <latinform>*m-twəy-n</latinform>.</par><par>This
+    root seems independent of <xref ref="6170">#6170</xref>.</par>'
+- type: F
+  text: '<par><hanform>涕</hanform> OC <latinform>*t’iər</latinform>, GSR #591m &apos;weep, tears&apos;;
+    Li 1971: <latinform>(*thidx)</latinform>; Baxter 1992:792 <reconstruction>*thijʔ</reconstruction>;
+    Mand. <latinform>tì</latinform>.</par><par>The Middle Chinese reading would permit an Old Chinese
+    reconstruction in either the OC <hanform>脂</hanform> <plainlatinform>Zhī</plainlatinform> rhyme group
+    (<reconstruction>*-id</reconstruction> (Li)/<reconstruction>*-ij</reconstruction> (Baxter)) or the
+    OC <hanform>微</hanform> <plainlatinform>Wēi</plainlatinform> rhyme group (<reconstruction>*-əd</reconstruction>
+    (Li)/<reconstruction>*-ɨj</reconstruction> (Baxter)).  Li does not reconstruct this word, but he assigns
+    other words in GSR #591 to the <hanform>脂</hanform> <plainlatinform>Zhī</plainlatinform> group.  Words
+    in GSR #591 are reconstructed some with one vowel, some with the other by Baxter (see 1992:457ff for
+    an explanation), but <hanform>涕</hanform> is reconstructed with <reconstruction>*-ij</reconstruction>
+    because it rhymes unambiguously with a number of  <hanform>脂</hanform> <plainlatinform>Zhī</plainlatinform>
+    group words in <emph>Shījīng</emph> #203.  Still, it is possible that in Baxter&apos;s system the
+    word goes back to earlier <reconstruction>*thɨjʔ</reconstruction>, with vowel fronting occurring early
+    in the dialect on which the <emph>Shījīng</emph> poem was based.  Baxter proposes just such a development
+    for other words in the phonetic series.</par><par>If the OC vowel is reconstructed as <reconstruction>*i</reconstruction>,
+    the vowel correspondence with the proposed TB cognate is regular (see <xref ref="300">#300</xref>
+    for examples).  A <hanform>微</hanform> <plainlatinform>Wēi</plainlatinform> group reconstruction of
+    <reconstruction>*-əd</reconstruction> (Li)/<reconstruction>*-ɨj</reconstruction> (Baxter) does not
+    jeopardize the comparison, but this Chinese rhyme seems to correspond to TB <reconstruction>*-ay</reconstruction>
+    more often than to TB <reconstruction>*-əy</reconstruction>.  It may be that the correspondence with
+    <reconstruction>*-ay</reconstruction> is regular while that with <reconstruction>*-əy</reconstruction>
+    is irregular but not uncommon.  See <xref ref="519">#519</xref> and <xref ref="1160">#1160</xref>,
+    but note also &apos;hungry&apos; <hanform>飢</hanform> OC <reconstruction>*krjɨj</reconstruction> (Baxter),
+    TB <reconstruction>*b-kri-(n/s)</reconstruction>; Mand. <latinform>jī</latinform>.</par><par>On the
+    aspiration mismatch in the initials, see the discussion under <xref ref="1654">#1654</xref>.<br />[ZJH]</par>'
+- type: T
+  text: <par>Cf. also <xref ref="187">#187</xref>.</par>
+- type: F
+  text: '<par><hanform>水</hanform> OC <reconstruction>*śi̯wər</reconstruction>, GSR #576a-e &apos;water,
+    river&apos;; Li 1971: --; Baxter 1992 #1239: <latinform>*h[l]jujʔ</latinform>; Mand. <latinform>shuǐ</latinform>.</par><par>Gong
+    1995 #133 reconstructs <latinform>*hljədx</latinform> and compares to WT <latinform>chu</latinform>
+    &apos;water, brook, river&apos;, presumably assuming that the latter derives from an earlier form
+    with a lateral initial. The comparison is, however, not tenable given the reconstruction of the PTB
+    root <xref ref="1631">#1631</xref>.</par><par>This Chinese word is most likely related to PTB <reconstruction>*lwi(y)</reconstruction>
+    &apos;flow, stream&apos; (see STC #210), as proposed by Coblin (1986:158) and discussed in Handel
+    (1998).  A relationship with <xref ref="298">#298</xref> seems unlikely because of the mismatch of
+    initial consonants.<br />[ZJH]</par>'
+- type: F
+  text: '<par><hanform>川</hanform> OC <latinform>*t̑’i̯wən</latinform>, GSR #462a &apos;river&apos;; Li
+    1971: <latinform>*thjiən ?</latinform>; Baxter 1992 #1126: <latinform>*KHju/on</latinform>; Mand.
+    <latinform>chuān</latinform>.</par><par>The reconstruction of this Chinese word is problematic. As
+    Karlgren (GSR #462a) notes, the Middle Chinese form is probably irregular. The Old Chinese rhyme group
+    is uncertain, which is why Baxter gives two possibilities for the vowel. Baxter&apos;s capital <reconstruction>*KH</reconstruction>
+    indicates a velar initial that palatalized irregularly in the development of Middle Chinese. Handel
+    (1998) reconstructs <reconstruction>*khlun</reconstruction> and Schuessler (2007:195) <reconstruction>*k-hlun</reconstruction>,
+    because GSR #462 looks like a lateral series. Schuessler further suggests that the Chinese word is
+    related to PTB <reconstruction>*kluːŋ</reconstruction> &apos;river / valley&apos;, which has areal
+    connections with Austroasiatic and Tai.  However, this does not explain the <reconstruction>*-n</reconstruction>
+    coda in Chinese.</par><par>The proposed PTB comparison in this volume depends on an Old Chinese reconstruction
+    like Li&apos;s with a dental initial, which in Baxter&apos;s system would look like <reconstruction>*thjun</reconstruction>.
+    However, the vowel correspondence is still irregular, and the comparison further requires positing
+    an <reconstruction>*-n</reconstruction> suffix not found in Tibeto-Burman.<br />[ZJH]</par>'

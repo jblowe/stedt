@@ -1,0 +1,20 @@
+tag: 606
+grpid: 2
+proto_language: PTB
+protoform: m-tyur
+gloss: SPIT
+semkey: 1.8.3
+sequence: 6.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: tyur
+  prefix: m
+  initial: ty
+  rhyme: ur
+  initcover: T
+  rhymecover: L
+notes:
+- type: T
+  text: <par>So far only scattered reflexes have been found for this etymon, but they are quite convincing.</par>

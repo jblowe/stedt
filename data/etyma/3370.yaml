@@ -1,0 +1,19 @@
+tag: 3370
+grpid: 29
+proto_language: PKir
+protoform: ca-na
+gloss: THROAT
+semkey: 1.3.5
+sequence: 17.0
+status: KEEP
+public: true
+references: BM sets up as *Kul-Bant-Cham
+phonology:
+  handle: cana
+  initial: c
+  rhyme: a-na
+  initcover: TS
+  rhymecover: VN
+notes:
+- type: T
+  text: <par>This disyllabic Kiranti root has so far not been discovered elsewhere.</par>

@@ -1,0 +1,24 @@
+tag: 1282
+grpid: 2
+proto_language: PTB
+protoform: tu(p/m)
+gloss: CLENCH / FIST
+semkey: 1.5.1.1.1
+sequence: 48.0
+status: KEEP
+public: true
+phonology:
+  handle: tup/m
+  initial: t
+  rhyme: up/m
+  initcover: T
+  rhymecover: NT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: kut-tum ⪤ khut-tum
+  gloss: FIST
+- grpid: 8
+  group: '1.2'
+  form: tum
+  gloss: CLENCH

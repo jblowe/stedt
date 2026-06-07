@@ -1,0 +1,34 @@
+tag: 576
+grpid: 2
+proto_language: PTB
+protoform: ya(k)
+gloss: SHIT / FECES / DUNG / EXCREMENT
+semkey: 1.8.5
+sequence: 2.0
+status: KEEP
+public: true
+references: cf. STC p.26, p.146
+phonology:
+  handle: ek
+  rhyme: e(k)
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ʔeek
+  gloss: EXCREMENT / DUNG / STOOL
+- grpid: 5
+  group: 1.1.1
+  form: eː
+  gloss: EXCREMENT
+- grpid: 50
+  group: '7'
+  form: ʔéq
+  gloss: EXCREMENT
+- grpid: 50
+  group: '7'
+  form: Ɂeᴮ
+  gloss: DUNG, EXCREMENT
+notes:
+- type: T
+  text: <par>This widespread etymon seems to have an imitative component.</par>

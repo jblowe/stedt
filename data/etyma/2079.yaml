@@ -1,0 +1,15 @@
+tag: 2079
+grpid: 0
+protoform: rya
+gloss: EYE
+semkey: 1.2.6
+sequence: 6.0
+status: DELETE
+public: false
+references: '("HIM") '
+phonology:
+  handle: rya
+  initial: ry
+  rhyme: a
+  initcover: L
+  rhymecover: V

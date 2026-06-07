@@ -1,0 +1,22 @@
+tag: 2212
+grpid: 2
+proto_language: PTB
+protoform: dyuŋ
+gloss: INSECT / BUG
+semkey: 2.2.6
+sequence: 38.0
+status: KEEP
+public: true
+references: ("PBG") cf. STC pp.34, 182, HPTB p.310
+phonology:
+  handle: dyuŋ
+  initial: dy
+  rhyme: uŋ
+  initcover: T
+  rhymecover: N
+notes:
+- type: F
+  text: '<par><hanform>蟲</hanform>/<hanform>虫</hanform> OC <latinform>*dʼi̯ông</latinform>, GSR #1009c
+    &apos;insect, reptile&apos;; Mand. <latinform>chóng</latinform>.</par>'
+- type: T
+  text: <par>This root has so far only been discovered in Bodo-Garo and Chinese.</par>

@@ -1,0 +1,47 @@
+tag: 2414
+grpid: 2
+proto_language: PTB
+protoform: s-ləy
+gloss: FLEA
+semkey: 2.2.6
+sequence: 24.0
+status: KEEP
+public: true
+references: cf. STC#440, HPTB pp.48, 50, 69, 192
+phonology:
+  handle: liy
+  prefix: s
+  initial: l
+  rhyme: əy
+  initcover: L
+  rhymecover: VLWS
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ʔuy-hlii
+  gloss: FLEA
+- grpid: 5
+  group: 1.1.1
+  form: fi
+  gloss: FLEA
+- grpid: 63
+  group: 1.3.1
+  form: a-hləj(ʔ)
+  gloss: FLEA
+- grpid: 42
+  group: '6.1'
+  form: ʔ-liy²
+  gloss: FLEA
+- grpid: 50
+  group: '7'
+  form: kliᴬ ⪤ kliɁᴰ
+  gloss: FLEA
+notes:
+- type: I
+  text: <par>mesoroot of <xref ref="2414">#2414</xref> with different prefix?</par>
+- type: T
+  text: <par>The first element in these Kuki-Chin forms means DOG, from <xref ref="1764">#1764</xref>.</par>
+- type: T
+  text: <par>The initial velar in the Karenic forms seems to be a reduction of the general root <xref
+    ref="1764">#1764</xref>, even though the modern Karenic word for DOG has acquired a different initial,
+    <latinform>*thwiᴮ</latinform>.</par>

@@ -1,0 +1,25 @@
+tag: 3327
+grpid: 2
+proto_language: PTB
+protoform: tsaŋ
+gloss: PERSON
+semkey: '4.5'
+sequence: 3.0
+status: KEEP
+public: true
+xrefs: CORPSE/BODY
+references: DL p. 544
+phonology:
+  handle: tsaŋ¹
+  initial: ts
+  rhyme: aŋ¹
+  initcover: TS
+  rhymecover: N
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: tsaŋ¹
+  gloss: PERSON
+notes:
+- type: T
+  text: <par><xref ref="5296">#5296</xref> somewhat resembles this etymon but is probably quite distinct.</par>

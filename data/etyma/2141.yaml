@@ -1,0 +1,14 @@
+tag: 2141
+grpid: 2
+proto_language: PTB
+protoform: am = əm
+gloss: EAT, DRINK
+semkey: 1.5.3.2
+sequence: 1770.0
+status: delete
+public: false
+references: STC#481
+phonology:
+  handle: am
+  rhyme: am=əm
+  rhymecover: N

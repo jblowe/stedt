@@ -1,0 +1,21 @@
+tag: 2611
+grpid: 2
+proto_language: PTB
+protoform: ri(ː)m
+gloss: RATTAN / CANE
+semkey: 3.1.6.4
+sequence: 2768.0
+status: KEEP
+public: true
+references: cf. STC p.107, HPTB pp.43, 271
+phonology:
+  handle: riːm
+  initial: r
+  rhyme: i(ː)m
+  initcover: L
+  rhymecover: N
+notes:
+- type: T
+  text: <par>STC sets up this root with a long vowel without explanation, probably because of the retention
+    of the original vowel in the Lepcha form, since Lepcha tends to lower short *high vowels in closed
+    syllables.</par><par>The WB form seems to reflect a <latinform>k-</latinform> prefix unattested elsewhere.</par>

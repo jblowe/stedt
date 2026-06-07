@@ -1,0 +1,18 @@
+tag: 3551
+grpid: 2
+proto_language: PTB
+protoform: ywa-n
+gloss: MOVE
+semkey: 6.7.11
+sequence: 2469.0
+status: KEEP
+public: true
+references: JAM-LITB 8.0
+phonology:
+  initial: yw
+  rhyme: an
+  initcover: L
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This sparsely attested root requires much more confirmation.</par>

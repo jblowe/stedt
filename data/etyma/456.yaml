@@ -1,0 +1,22 @@
+tag: 456
+grpid: 2
+proto_language: PTB
+protoform: b-lu
+gloss: LIP
+semkey: 1.3.2
+sequence: 5.0
+status: KEEP
+public: false
+phonology:
+  handle: lu
+  prefix: b
+  initial: l
+  rhyme: u-ŋ
+  suffix: ŋ
+  initcover: L
+  rhymecover: VN
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: phlỳ' 
+  gloss: LIP

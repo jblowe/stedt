@@ -1,0 +1,16 @@
+tag: 3385
+grpid: 2
+proto_language: PTB
+protoform: čet
+gloss: GROIN
+semkey: 1.4.9
+sequence: 6.0
+status: DELETE
+public: false
+xrefs: '217'
+phonology:
+  handle: čet
+  initial: č
+  rhyme: et
+  initcover: TS
+  rhymecover: T

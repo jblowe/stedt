@@ -1,0 +1,51 @@
+tag: 97
+grpid: 2
+proto_language: PTB
+protoform: hu
+gloss: BORN / BIRTH / REAR
+semkey: 1.1.2
+sequence: 22.0
+status: KEEP
+public: true
+references: JAM-LITB 5.3
+phonology:
+  handle: hu
+  initial: h
+  rhyme: u
+  initcover: H
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This excellent root, with a relatively rare laryngeal proto-initial, appears in the NE Indian
+    Areal Group, Lolo-Burmese, and Qiangic, with a range of meanings including &apos;be pregnant&apos;;
+    &apos;give birth&apos;; &apos;bring up, rear (a child)&apos;; &apos;nourish, feed&apos;, covering
+    the whole range of parental responsibility from conception to childhood. It is reconstructed in Matisoff
+    1985, &apos;God and the Sino-Tibetan copula&apos; (note 69, p. 38) and in Matisoff 1988, <emph>The
+    Dictionary of Lahu</emph> (p. 1071), and discussed in the context of TB laryngeal-initial etyma in
+    general in Matisoff 1997 &quot;Primary and secondary laryngeal initials in TB&quot; (section 5.3).</par>
+- type: F
+  text: '<par><hanform>好</hanform> OC <latinform>*χôg</latinform>, GSR #1044a ‘good’ <plainlatinform>⪤</plainlatinform>
+    ‘love, like’<footnote>This comparison is correctly cited in HPTB (p. 58), although by an unfortunate
+    error the Chinese character <hanform>愛</hanform> is given instead of <hanform>好</hanform>. [JAM]</footnote>;  Li
+    1971: <reconstruction>*həgwx</reconstruction>/<reconstruction>*həgwh</reconstruction>; Baxter 1992:
+    <reconstruction>*xuʔ</reconstruction>/ <reconstruction>*xu(ʔ)s</reconstruction> (737); Mand. <latinform>hǎo</latinform>
+    &apos;good&apos; <plainlatinform>⪤</plainlatinform> <latinform>hào</latinform> &apos;love, like&apos;.</par><par>The
+    word for &apos;love, like&apos; is a putative form derived from &apos;good&apos; through <reconstruction>*-s</reconstruction>
+    suffixation.  This presents some semantic difficulty for the OC-PTB comparison, since the basic meaning
+    of the PTB root is closer to that of the derived Chinese transitive verb.</par><par>Corroborated as
+    it is by other etyma (e.g. <xref ref="1168">#1168</xref>, <xref ref="1733">#1733</xref>), the correspondence
+    TB <reconstruction>*-u</reconstruction> with OC <reconstruction>*-əgw</reconstruction> (Li)/<reconstruction>*-u</reconstruction>
+    (Baxter) is well attested.  The initial correspondence is difficult to evaluate because there are
+    so few proposed cognates involving words with OC <reconstruction>*h-</reconstruction> (Li)/<reconstruction>*x-</reconstruction>
+    (Baxter) or PTB <reconstruction>*h-</reconstruction>.  Of these several (such as Gong 1995 #142 comparing
+    OC <hanform>鼾</hanform> <reconstruction>*xan</reconstruction> ‘snore’ (Mand. <latinform>hān</latinform>)
+    to PTB <reconstruction>*hal</reconstruction>  ‘snore’) are clearly onomatopoetic.  In other cases
+    Gong has derived OC <reconstruction>*x-</reconstruction> from earlier <reconstruction>*skh-</reconstruction>,
+    facilitating comparison with Written Tibetan forms having initial velars (see Gong 2000).  Nevertheless,
+    there is no specific reason to doubt the validity of the initial correspondence.<br />[ZJH]</par>'
+- type: F
+  text: '<par><hanform>畜</hanform> OC <latinform>*χi̯ôk</latinform>, GSR #1018a &apos;raise (animals);
+    bring up; cultivate&apos;; Schuessler 2007:194 <latinform>*huks</latinform>; B &amp; S 2011: <latinform>*qʰuk-s</latinform>;
+    Mand. <latinform>xù</latinform>.<br /><hanform>畜</hanform> OC <latinform>*t̂’i̯ôk</latinform>, GSR
+    #1018a &apos;livestock; (domesticated animal&apos;; Schuessler 2007:194 <latinform>*rhuk</latinform>;
+    B &amp; S 2011: <latinform>*qʰ‹r›uk</latinform>; Mand. <latinform>chù</latinform>.</par>'

@@ -1,0 +1,47 @@
+tag: 3438
+grpid: 2
+proto_language: PTB
+protoform: (r/l)um
+gloss: EGG
+sequence: 5.0
+status: KEEP
+public: true
+phonology:
+  handle: rum
+  initial: r
+  rhyme: um
+  initcover: L
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>This root is attested in the NE Indian Areal Group, Nungish, and perhaps Qiangic, as well
+    as in Himalayish (Hayu, Tshona). The proto-initial seems to have been <reconstruction>*r-</reconstruction>,
+    though some reflexes have <latinform>l-</latinform>. It is possible that there is a connection with
+    <reconstruction>*s-lum</reconstruction> or <reconstruction>*z-lum</reconstruction> &apos;round&apos;
+    (STC #143).</par>'
+- type: F
+  text: '<par><hanform>卵</hanform> OC <reconstruction>*lwɑ̂n</reconstruction>, GSR #179a &apos;egg; testicle’;
+    Li 1971: <reconstruction>*luanx</reconstruction>; Baxter 1992 #557: <reconstruction>*g-ronʔ</reconstruction>;
+    Mand. <latinform>luǎn</latinform>.</par><par>In Baxter’s system, MC <latinform>l-</latinform> is always
+    derived from OC <reconstruction>*C-r-</reconstruction>, that is, an initial <latinform>r</latinform>
+    with a prefixed consonant (to be distinguished from <reconstruction>*Cr-</reconstruction> in which
+    <latinform>r</latinform> functions as a medial). In other systems, MC <latinform>l-</latinform> may
+    descend from simple initial <reconstruction>*r-</reconstruction>. Baxter 1992 gives two separate reconstructions
+    for this word: <reconstruction>*g-ronʔ</reconstruction> (#557) and <reconstruction>*C-ronʔ</reconstruction>
+    (#949, with <latinform>*C</latinform> unspecified). There is some reason to suppose that if the prefix
+    <reconstruction>*C-</reconstruction> is to be reconstructed it would be a velar (Baxter 1992:387).</par><par>The
+    correspondence between PTB <reconstruction>*r-</reconstruction> and Middle Chinese <latinform>l-</latinform>
+    is well-attested. Although both the Chinese and PTB forms have a rounded vowel and a nasal final,
+    the correspondences are problematic. No generally accepted OC/PTB cognates show an <reconstruction>*-n</reconstruction>/<reconstruction>*-m</reconstruction>
+    correspondence. OC <reconstruction>*ua</reconstruction> (Li 1971) / <reconstruction>*o</reconstruction>
+    (Baxter 1992) generally corresponds to PTB <reconstruction>*o</reconstruction>, not <reconstruction>*u</reconstruction>;
+    for example, <hanform>脫</hanform> OC <reconstruction>*hluat</reconstruction> &apos;remove&apos; (Li
+    1971); PTB <reconstruction>*hlot</reconstruction>; Mand. <latinform>tuō</latinform>.  We would expect
+    PTB rhyme <reconstruction>*-um</reconstruction> to correspond to OC <reconstruction>*-əm</reconstruction>
+    (Li 1971); see examples in Gong 1995.</par><par>Gong 1995 #41 compares Chinese <hanform>卵</hanform>,
+    which he reconstructs <reconstruction>*ruanx</reconstruction>, with Written Tibetan <latinform>sro-ma</latinform>
+    ‘nit’ (see <xref ref="1172">#1172</xref>, below), following Benedict 1976:190 (&quot;Sino-Tibetan:
+    another look&quot;).  Schuessler 2007:369 makes the same comparison, citing PTB <latinform>*(s-)rwa</latinform>
+    rather than <reconstruction>*s-row</reconstruction>.  For this comparison to hold, a nominalizing
+    <reconstruction>*-n</reconstruction> suffix must be posited for the Chinese form (Schuessler 2007:74-75).<br
+    />[ZJH]</par>'

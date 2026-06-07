@@ -1,0 +1,16 @@
+tag: 2645
+grpid: 2
+proto_language: PTB
+protoform: s-ryut
+gloss: GROW WORSE / INFERIOR / FALLEN
+semkey: 9.7.2
+sequence: 2067.0
+status: KEEP
+public: true
+references: cf. STC#206, HPTB p.364
+phonology:
+  handle: ryut
+  initial: ry
+  rhyme: ut
+  initcover: L
+  rhymecover: T

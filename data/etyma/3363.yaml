@@ -1,0 +1,21 @@
+tag: 3363
+grpid: 2
+proto_language: PTB
+protoform: m-tsywa(ŋ)
+gloss: THROAT
+semkey: 1.3.5
+sequence: 15.0
+status: KEEP
+public: true
+possallo: ↭ *k-ro 488
+references: Qiangic shows *m-; Lolo-Burmese; binomes with 495
+phonology:
+  handle: tšo
+  initial: tš
+  rhyme: o
+  initcover: TS
+  rhymecover: V
+notes:
+- type: T
+  text: <par>Qiangic provides the evidence for the <latinform>*m-</latinform> prefix, while Pumi and Achang
+    seem to reflect a final <reconstruction>*-ŋ</reconstruction>.</par>

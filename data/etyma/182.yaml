@@ -1,0 +1,18 @@
+tag: 182
+grpid: 2
+proto_language: PTB
+protoform: nye-s
+gloss: PUNISH
+semkey: 6.2.2.1
+sequence: 2717.0
+status: DELETE
+public: true
+exemplary: true
+xrefs: '181'
+references: cf. STC#252, HPTB pp. 203, 291
+phonology:
+  handle: nye
+  initial: ny
+  rhyme: e=ńe
+  initcover: M
+  rhymecover: N

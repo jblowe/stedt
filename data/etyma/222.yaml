@@ -1,0 +1,16 @@
+tag: 222
+grpid: 2
+proto_language: PTB
+protoform: k/m-sya(ŋ/n)
+gloss: WAIST
+semkey: 1.4.6
+sequence: 11.0
+status: KEEP
+public: true
+phonology:
+  handle: k/n-š
+  prefix: k
+  initial: š
+  rhyme: a(ŋ/k)/n
+  initcover: S
+  rhymecover: NT

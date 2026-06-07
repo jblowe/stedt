@@ -1,0 +1,38 @@
+tag: 454
+grpid: 2
+proto_language: PTB
+protoform: r-ka(ː)m
+gloss: LIP / MOUTH / EDGE / BANK
+semkey: 1.3.2
+sequence: 3.0
+status: KEEP
+public: true
+references: STC#329
+phonology:
+  handle: kwam
+  prefix: r
+  initial: k(w)
+  rhyme: am/p
+  initcover: K
+  rhymecover: NT
+mesoroots:
+- grpid: 70
+  group: 1.2.2
+  form: kam
+  gloss: BANK / SIDE / SHORE
+- grpid: 8
+  group: '1.2'
+  form: kam
+  gloss: MOUTH
+notes:
+- type: T
+  text: <par>Since the PTB prefix <latinform>*r-</latinform> regularly develops into the Jingpho syllabic
+    nasal prefix (see STC:109 and HPTB:129), we treat these Jingpho forms as a unit.</par>
+- type: F
+  text: '<par><unicode>20a9a</unicode> OC <latinform>*k’ɑ̂m</latinform>~<latinform>*ngi̯əm</latinform>,
+    GSR #607f-g &apos;precipitous; bank along fields&apos;; Schuessler 2007:332 <latinform>*khâmʔ</latinform>;
+    B &amp; S 2011: <latinform>*N-qʰˁəmʔ</latinform>; Mand. <latinform>kǎn</latinform> ~ <latinform>yín</latinform>
+    ~ <latinform>ǎn</latinform>.<br /><hanform>嵁</hanform>/<hanform>磡</hanform> OC <latinform>*k’əm</latinform>
+    ~ <latinform>*k’ɛm</latinform> ~ <latinform>*ngəm</latinform>, GSR #658r &apos;cliff; bank; step&apos;;
+    Schuessler 2007:332 <latinform>*khə̂ms</latinform>; B &amp; S 2011: (<latinform>*kʰˁəm-s</latinform>);
+    Mand. <latinform>kàn</latinform>.</par>'

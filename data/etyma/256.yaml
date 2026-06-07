@@ -1,0 +1,15 @@
+tag: 256
+grpid: 0
+protoform: gor
+gloss: SHOULDER
+semkey: 1.4.3
+sequence: 9.0
+status: delete
+public: false
+references: ("AMD")
+phonology:
+  handle: gor
+  initial: g
+  rhyme: or
+  initcover: K
+  rhymecover: L

@@ -1,0 +1,18 @@
+tag: 739
+grpid: 2
+proto_language: PTB
+protoform: k(w)ay
+gloss: ARM / HAND / WING
+semkey: 1.5.1.2
+sequence: 3.0
+status: KEEP
+public: true
+phonology:
+  handle: kwi
+  initial: kw
+  rhyme: ay
+  initcover: K
+  rhymecover: WT
+notes:
+- type: T
+  text: <par>This form is attested in several different subgroups, although the evidence is rather scanty.</par>

@@ -1,0 +1,21 @@
+tag: 1810
+grpid: 2
+proto_language: PTB
+protoform: raŋ¹
+gloss: BREATHE / DRAW (BREATH)
+semkey: 1.1.2.2
+sequence: 8.0
+status: KEEP
+public: false
+phonology:
+  handle: raŋ¹
+  initial: r
+  rhyme: aŋ¹
+  tone: ¹
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: raŋ¹
+  gloss: BREATHE / DRAW (BREATH)

@@ -1,0 +1,19 @@
+tag: 2091
+grpid: 2
+proto_language: PTB
+protoform: -ts(y)a
+gloss: NOSE
+semkey: 1.2.8
+sequence: 7.0
+status: KEEP
+public: true
+references: ("KMR") Angami/Ntenyi compounds
+phonology:
+  handle: tsya
+  initial: -ts(y)
+  rhyme: a
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root has so far only been discovered as the second element in compounds. No WT cognate
+    has yet been discovered.</par>

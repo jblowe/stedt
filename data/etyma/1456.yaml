@@ -1,0 +1,24 @@
+tag: 1456
+grpid: 2
+proto_language: PTB
+protoform: g-ya
+gloss: ITCH
+semkey: 1.6.5.5
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: SCRATCH
+references: STC#451
+phonology:
+  handle: ya
+  prefix: g
+  initial: y
+  rhyme: a
+  initcover: L
+  rhymecover: V
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: yaa-I, yaat-II
+  gloss: ITCH / TICKLE

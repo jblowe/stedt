@@ -1,0 +1,48 @@
+tag: 201
+grpid: 2
+proto_language: PTB
+protoform: m-kal ⪤ s-gal
+gloss: BACK (lower) / KIDNEY / LOAD / CARRY
+semkey: 1.4.8
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: BACK/LOINS/GROIN
+allofams: '202'
+references: incl 2229,2811. STC#12 *m-kal, p. 18 *s-gaːl; cf. HPTB pp.404, 405, 428
+phonology:
+  handle: s/m-k/
+  initial: k/g
+  rhyme: a(ː)l
+  initcover: K
+  rhymecover: L
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: kal
+  gloss: KIDNEY
+- grpid: 66
+  group: 1.3.4
+  form: kal
+  gloss: KIDNEY
+notes:
+- type: T
+  text: <par>The PKC etymon <latinform>*khel</latinform> (a meso-root of <xref ref="202">#202</xref>)
+    definitely seems related to this root, perhaps pointing to a PKC variant <latinform>*k(y)al</latinform>.</par><par>The
+    meaning of this etymon ranges from KIDNEY / SMALL OF BACK to the notion of CARRY ON THE BACK / LOAD.
+    There also seems to be a relationship with the widespread root <xref ref="2355">#2355</xref>, which
+    perhaps indicates an original meaning like &apos;a complete load; everything that can be placed on
+    a beast of burden at one time.&apos;</par><par>The original meaning of the graph <hanform>荷</hanform>
+    of the Chinese comparandum was &apos;lotus&apos;, as witness its &quot;grass radical&quot;, but it
+    came to be used as a loan character for the concept CARRY (in the Confucian Analects [Lún Yǔ <hanform>论语</hanform>])
+    and for SUSTAIN (in the Zuǒ Zhuàn [<hanform>左傳</hanform>], one of the commentaries on the Spring
+    and Autumn Annals).</par>
+- type: F
+  text: '<par><hanform>荷</hanform> OC <latinform>*gʼɑ̂</latinform>, GSR #1o &apos;carry, sustain&apos;;
+    Schuessler 2007:275-6 <latinform>*kâiʔ</latinform>; Coblin 86:51-2 ST <latinform>*gaƚ</latinform>
+    &gt; OC <latinform>*garx</latinform>; B &amp; S 2011: (<latinform>*ɡˁaj {[ɡ]ˁaj}</latinform>); Mand.
+    <latinform>hè</latinform>.<br /><hanform>可</hanform> OC <latinform>*k’ɑ̂</latinform>, GSR #1a-c &apos;may,
+    be able&apos;; Coblin 86:51-2 ST <latinform>*khaƚ</latinform> &gt; OC <latinform>*kharx</latinform>;
+    Schuessler 2007:275-6 <latinform>*khâiʔ</latinform>; B &amp; S 2011: <latinform>*kʰˁajʔ {[k]ʰˁa[j]ʔ}</latinform>;
+    Mand. <latinform>kě</latinform>.</par>'

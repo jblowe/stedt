@@ -1,0 +1,23 @@
+tag: 607
+grpid: 2
+proto_language: PTB
+protoform: p-lay
+gloss: SPIT
+semkey: 1.8.3
+sequence: 5.0
+status: KEEP
+public: false
+exemplary: true
+possallo: '612'
+references: cf. PTai *mlaay
+phonology:
+  handle: lay
+  prefix: p
+  initial: l
+  rhyme: ay
+  initcover: L
+  rhymecover: W
+notes:
+- type: T
+  text: <par>Many reflexes of this etymon begin with a lateral, but several subgroups (Karenic, Qiangic,
+    Jingpho) have a labial initial or a cluster of labial + lateral.</par>

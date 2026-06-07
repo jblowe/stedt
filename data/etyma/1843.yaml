@@ -1,0 +1,19 @@
+tag: 1843
+grpid: 2
+proto_language: PTB
+protoform: tsyi-k
+gloss: STRENGTH
+semkey: 1.1.5
+sequence: 6.0
+status: KEEP
+public: true
+references: final stop,k?  shaky. P-root
+phonology:
+  handle: tši-k
+  initial: tš
+  rhyme: i-k
+  initcover: TS
+  rhymecover: VT
+notes:
+- type: T
+  text: <par>This poorly attested root requires further confirmation.</par>

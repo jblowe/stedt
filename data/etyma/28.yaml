@@ -1,0 +1,22 @@
+tag: 28
+grpid: 2
+proto_language: PTB
+protoform: tsu
+gloss: DEAD, SPIRIT OF
+semkey: 1.1.6
+sequence: 8.0
+status: KEEP
+public: false
+references: 'TJLB #36'
+phonology:
+  handle: tsu
+  initial: ts
+  rhyme: u
+  initcover: TS
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root is solidly established for PTB on the basis of the Jingpho and Burmese reflexes,
+    with good confirmation from the Limbu form. It also is well attested in Qiangic, although the vocalism
+    of some of these forms remains to be explained. The cognacy of the rGyalrongic forms is possible but
+    not certain.</par>

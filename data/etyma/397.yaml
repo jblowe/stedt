@@ -1,0 +1,19 @@
+tag: 397
+grpid: 2
+proto_language: PTB
+protoform: gwa-ŋ
+gloss: HEEL
+semkey: 1.5.2.1
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: gwa
+  initial: gw
+  rhyme: a-ŋ
+  suffix: ŋ
+  initcover: K
+  rhymecover: VN
+notes:
+- type: T
+  text: <par>This sparsely attested root is so far to be found only in a few languages of the Himalayas.</par>

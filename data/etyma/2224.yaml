@@ -1,0 +1,16 @@
+tag: 2224
+grpid: 2
+proto_language: PTB
+protoform: dzywal
+gloss: HANG DOWN / SAG
+semkey: 6.1.1.5
+sequence: 2098.0
+status: KEEP
+public: true
+references: cf. STC#242, HPTB pp.31, 66, 84, 407
+phonology:
+  handle: dzywal
+  initial: dzyw
+  rhyme: al=dźwa
+  initcover: TS
+  rhymecover: LW

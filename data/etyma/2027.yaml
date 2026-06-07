@@ -1,0 +1,19 @@
+tag: 2027
+grpid: 2
+proto_language: PTB
+protoform: haŋ
+gloss: FOREHEAD / FACE
+semkey: 1.2.5.1
+sequence: 11.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: haŋ
+  initial: h
+  rhyme: aŋ
+  initcover: H
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This poorly attested etymon has only been identified so far in three scattered languages.</par>

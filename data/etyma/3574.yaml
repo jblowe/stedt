@@ -1,0 +1,48 @@
+tag: 3574
+grpid: 2
+proto_language: PTB
+protoform: g(r/l)aːy 
+gloss: SCATTER / SOW / DISPERSED WIDELY / WIDE / STAR
+semkey: 3.2.2
+sequence: 3.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 211, 212, 221
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: C-gray¹
+  gloss: STAR
+- grpid: 42
+  group: '6.1'
+  form: ʔ-grəy¹
+  gloss: STAR
+- grpid: 8
+  group: '1.2'
+  form: kraay
+  gloss: SCATTER
+- grpid: 50
+  group: '7'
+  form: lɛᴮ
+  gloss: WIDE
+- grpid: 35
+  group: '3.3'
+  form: tsu-gray
+  gloss: STAR
+notes:
+- type: T
+  text: <par>The stars are scattered spots of light in the night sky; see Matisoff 1980, &quot;Stars,
+    Moon and Spirits&quot;.</par><par>This root is quite separate from <xref ref="5404">#5404</xref>.</par>
+- type: F
+  text: '<par><hanform>哆</hanform> OC <latinform>*t̂’iɑ</latinform>, GSR #3k &apos;large&apos;; Schuessler
+    2007:187 <latinform>*k-hlaiʔ</latinform>; B &amp; S 2011: <latinform>*t-l̥ajʔ {[t-l̥]Ajʔ}</latinform>;
+    Mand. <latinform>chǐ</latinform>.<br /><hanform>移</hanform> OC <latinform>*t̂’iɑ</latinform>, GSR
+    #3q &apos;enlarge&apos;; Schuessler 2007:187 <latinform>*k-hlaiʔ</latinform>; B &amp; S 2011: (<latinform>*t-l̥ajʔ</latinform>);
+    Mand. <latinform>chǐ</latinform>.<br /><hanform>侈</hanform> OC <latinform>*t̂’iɑ</latinform>, GSR
+    #3i &apos;great; extravagant, overbearing&apos;; Schuessler 2007:187 <latinform>*k-hlaiʔ</latinform>;
+    B &amp; S 2011: <latinform>*t-l̥ajʔ</latinform>; Mand. <latinform>chǐ</latinform>.<br /><hanform>離</hanform>
+    OC <latinform>*liɑ</latinform>, GSR #23f &apos;leave, depart from; divide, distribute&apos;; Schuessler
+    2007:348 <latinform>*rai</latinform>; B &amp; S 2011: <latinform>*raj {[r]aj}</latinform>; Mand. <latinform>lí</latinform>.<br
+    /><hanform>離</hanform> OC <latinform>*liɑ</latinform>, GSR #23f &apos;be separated from, differ from&apos;;
+    Schuessler 2007:348 <latinform>*raih</latinform>; B &amp; S 2011: <latinform>*raj-s {[r]aj-s}</latinform>;
+    Mand. <latinform>lì</latinform>.</par>'

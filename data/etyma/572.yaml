@@ -1,0 +1,43 @@
+tag: 572
+grpid: 2
+proto_language: PTB
+protoform: kləy
+gloss: BODY DIRT / EXCREMENT
+semkey: 1.8.5
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+possallo: '573'
+references: cf. STC#125, HPTB pp.21, 189, 201
+phonology:
+  handle: kləy >
+  initial: kl
+  rhyme: əy > tš
+  initcover: K
+  rhymecover: WTS
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: a-khləjʔ
+  gloss: FECES, EXCREMENT
+- grpid: 8
+  group: '1.2'
+  form: mik-khlii
+  gloss: TEARS
+- grpid: 50
+  group: '7'
+  form: khrejᴮ
+  gloss: BODY DIRT
+- grpid: 23
+  group: 2.1.4
+  form: ᴬkli
+  gloss: FECES,SHIT
+notes:
+- type: T
+  text: <par>This root is phonosemantically close to <xref ref="2336">#2336</xref>, but must be kept separate,
+    since many languages have distinct reflexes.</par>
+- type: F
+  text: '<par><hanform>屎</hanform> OC <latinform>*śi̯ər</latinform>, GSR #561d &apos;excrement&apos;;
+    Schuessler 2007:465 <latinform>*lhiʔ</latinform>; B &amp; S 2011: <latinform>*qʰijʔ </latinform>;
+    Mand. <latinform>shǐ</latinform>.</par>'

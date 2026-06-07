@@ -1,0 +1,25 @@
+tag: 2238
+grpid: 2
+proto_language: PTB
+protoform: gip
+gloss: TEN
+semkey: '9.9'
+sequence: 17.0
+status: KEEP
+public: true
+references: STC#016, HPTB p.353
+phonology:
+  handle: gip
+  initial: g
+  rhyme: ip
+  initcover: K
+  rhymecover: T
+notes:
+- type: T
+  text: <par>The ordinary WB word for TEN is <latinform>chay</latinform>; <latinform>kyip</latinform>
+    is substituted &quot;in the numbering of rational beings&quot; (Judson 1893:215).</par>
+- type: F
+  text: '<par><hanform>十</hanform> OC <latinform>*d̂i̯əp</latinform>, GSR #686a-d &apos;ten&apos;; Coblin
+    86:147 ST <latinform>*gr̵ip</latinform> &gt; PC <latinform>*grjəp</latinform> &gt; OC <latinform>*djəp</latinform>;
+    Schuessler 2007:462 <latinform>*gip</latinform>; B &amp; S 2011: <latinform>*t.ɡəp {t.[ɡ]əp}</latinform>;
+    Mand. <latinform>shí</latinform>.</par>'

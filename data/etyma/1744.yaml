@@ -1,0 +1,19 @@
+tag: 1744
+grpid: 2
+proto_language: PTB
+protoform: s-la
+gloss: BLOW
+semkey: 1.3.1.4
+sequence: 5.0
+status: KEEP
+public: true
+phonology:
+  handle: la
+  prefix: s
+  initial: l
+  rhyme: a
+  initcover: L
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root has only been found in a few Himalayan languages, and awaits further confirmation.</par>

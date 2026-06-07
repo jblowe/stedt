@@ -1,0 +1,23 @@
+tag: 760
+grpid: 2
+proto_language: PTB
+protoform: p-(l/y)ap
+gloss: WING / FEATHER
+semkey: 1.5.1.3
+sequence: 17.3
+status: KEEP
+public: true
+phonology:
+  handle: lap
+  prefix: p
+  initial: l
+  rhyme: ap
+  initcover: L
+  rhymecover: T
+notes:
+- type: T
+  text: <par>The Tamangic forms have medial <latinform>-y-</latinform>, which appears to be secondary.
+    It is possible that this <latinform>-y-</latinform> derives from earlier prefixal <reconstruction>*s-</reconstruction>
+    (see Benedict 1943, <emph>Secondary Infixation in Lepcha</emph>). Note the similar alternation between
+    <latinform>l-</latinform> and <latinform>y-</latinform> in <xref ref="695">#695</xref> and <xref ref="699">#699</xref>.</par><par>There
+    is apparently no connection <xref ref="2588">#2588</xref>.</par>

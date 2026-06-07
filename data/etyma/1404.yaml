@@ -1,0 +1,16 @@
+tag: 1404
+grpid: 2
+proto_language: PTB
+protoform: kyoy
+gloss: SEE / KNOW / UNDERSTAND
+semkey: 1.2.6.10
+sequence: 6.0
+status: DELETE
+public: false
+xrefs: '1229'
+phonology:
+  handle: kyoy
+  initial: ky
+  rhyme: oy
+  initcover: K
+  rhymecover: W

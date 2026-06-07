@@ -1,0 +1,21 @@
+tag: 577
+grpid: 2
+proto_language: PTB
+protoform: r/s-kya(k/ŋ)
+gloss: SHIT / EXCREMENT
+semkey: 1.8.5
+sequence: 8.0
+status: KEEP
+public: false
+references: cf. STC p.26
+phonology:
+  handle: r/s-ky
+  initial: ky
+  rhyme: a(k/ŋ)
+  initcover: K
+  rhymecover: NT
+notes:
+- type: F
+  text: '<par><hanform>去</hanform> OC <latinform>*k’i̯ɑb</latinform>, GSR #642a-b &apos;go, leave; get
+    rid of, eliminate&apos;; Schuessler 2007:436 <latinform>*khah</latinform> ~ <latinform>*khaʔ</latinform>;
+    B &amp; S 2011: <latinform>*kʰaʔ‑s {[k]ʰ(r)aʔ‑s}</latinform>; Mand. <latinform>qù</latinform>.</par>'

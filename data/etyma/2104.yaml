@@ -1,0 +1,18 @@
+tag: 2104
+grpid: 2
+proto_language: PTB
+protoform: pʷik
+gloss: BELLY / STOMACH
+semkey: 1.4.7
+sequence: 1.1
+status: KEEP
+public: true
+exemplary: true
+possallo: '1804'
+references: incl 2126
+phonology:
+  handle: wik
+  initial: w
+  rhyme: ik
+  initcover: L
+  rhymecover: T

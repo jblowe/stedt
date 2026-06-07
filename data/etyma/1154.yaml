@@ -1,0 +1,33 @@
+tag: 1154
+grpid: 2
+proto_language: PTB
+protoform: ləw-k
+gloss: COPULATE
+semkey: 1.9.1.1
+sequence: 144.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: ləw
+  initial: l
+  rhyme: əw
+  initcover: L
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: luu-I, luuk-II
+  gloss: COPULATE / INTERCOURSE
+- grpid: 42
+  group: '6.1'
+  form: ləw²
+  gloss: COPULATE / PENIS
+notes:
+- type: T
+  text: <par>This etymon is fairly well attested in TB as a whole, especially in Himalayish and Chin,
+    but also in Lolo-Burmese (Burmese), and Qiangic (rGyalrong). Judging from the Burmese gloss in Judson
+    1893/1966, it seems to be connected with the notion of piercing or penetrating.</par><par>The allofam
+    with final <latinform>-k</latinform> is attested not only in the Form-II of verbs in several Chin
+    languages, but also in Chepang. The Form-I of Chin verbs, as well as the Kiranti and Burmese forms,
+    reflect the open-syllable allofam.</par>

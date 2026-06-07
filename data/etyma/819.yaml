@@ -1,0 +1,34 @@
+tag: 819
+grpid: 2
+proto_language: PTB
+protoform: d-krəw
+gloss: HORN
+semkey: 1.2.2
+sequence: 2.0
+status: KEEP
+public: false
+exemplary: true
+xrefs: EAR
+references: cf. STC#037
+phonology:
+  handle: krəw
+  prefix: d
+  initial: kr
+  rhyme: əw
+  initcover: K
+  rhymecover: W
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: krəw¹
+  gloss: HORN
+- grpid: 45
+  group: 6.1.2
+  form: kro¹
+  gloss: HORN
+notes:
+- type: T
+  text: <par>There are two phonosemantically similar roots <xref ref="814">#814</xref> and <xref ref="2012">#2012</xref>.</par><par>For
+    now, all Qiangic forms for HORN are assigned to these latter roots, rather than to the present root;
+    all Himalayish forms are assigned to 814, while all Lolo-Burmese forms are deemed to descend from
+    the present root.</par>

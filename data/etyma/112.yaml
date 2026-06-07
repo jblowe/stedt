@@ -1,0 +1,23 @@
+tag: 112
+grpid: 42
+proto_language: PLB
+protoform: gyi²
+gloss: SATIATED
+semkey: 1.1.3.2
+sequence: 8.0
+status: KEEP
+public: false
+phonology:
+  handle: gyi
+  initial: gy
+  rhyme: i²
+  tone: ²
+  initcover: K
+  rhymecover: V
+notes:
+- type: I
+  text: <par>PLB Tone *2, vd C<sub>i</sub>. For PBmish tonal reconstruction cf. “Jiburish”  paper, p.
+    94.</par>
+- type: T
+  text: <par>For the tonal reconstruction, see Matisoff 1991 (&quot;Jiburish&quot;), p. 94.</par><par>There
+    is perhaps a relationship between this root and <xref ref="7316">#7316</xref>.</par>

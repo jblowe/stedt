@@ -1,0 +1,18 @@
+tag: 1465
+grpid: 42
+proto_language: PLB
+protoform: m-krak
+gloss: SCRATCH
+semkey: 1.6.5.5
+sequence: 6.3
+status: DELETE
+public: false
+xrefs: '6131'
+possallo: 1459,1466
+phonology:
+  handle: krak
+  prefix: N
+  initial: kr
+  rhyme: ak
+  initcover: K
+  rhymecover: T

@@ -1,0 +1,24 @@
+tag: 3393
+grpid: 2
+proto_language: PTB
+protoform: k(w/y)an
+gloss: SHOULDER / CARRY ON SHOULDER
+semkey: 1.4.3
+sequence: 15.0
+status: KEEP
+public: true
+references: KEEP 6/2012
+phonology:
+  handle: kan
+  initial: k
+  rhyme: an
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>This sparsely attested root has a possible Chinese comparandum <hanform>肩</hanform> (GSR
+    #240a <reconstruction>*kiɑn</reconstruction> &apos;shoulder, carry&apos;).</par><par>See also <xref
+    ref="3409">#3409</xref> and <xref ref="3346">#3346</xref>.</par>'
+- type: F
+  text: '<par><hanform>肩</hanform> OC <reconstruction>*kiɑn</reconstruction>, GSR #240a &apos;shoulder,
+    carry&apos;; B &amp; S 2011: <latinform>kˤen {[k]ˤe[n]}</latinform>; Mand. <latinform>jiān</latinform>.</par>'

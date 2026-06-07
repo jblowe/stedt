@@ -1,0 +1,19 @@
+tag: 2679
+grpid: 2
+proto_language: PTB
+protoform: syu(w)-n
+gloss: GRANDCHILD
+semkey: 4.7.3
+sequence: 2041.0
+status: KEEP
+public: true
+references: cf. STC p.158, HPTB pp.199, 449
+phonology:
+  handle: śuw
+  initial: ś
+  rhyme: u(w)
+  rhymecover: W
+notes:
+- type: F
+  text: '<par><hanform>孫</hanform> OC <latinform>*swən</latinform>, GSR #434a-c &apos;grandchild, descendant&apos;;
+    B &amp; S 2011: <latinform>*sˤun {[s]ˤu[n]}</latinform>; Mand. <latinform>sūn</latinform>.</par>'

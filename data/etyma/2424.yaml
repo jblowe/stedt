@@ -1,0 +1,16 @@
+tag: 2424
+grpid: 2
+proto_language: PTB
+protoform: lwan
+gloss: BORE / PIERCE
+semkey: '6.11'
+sequence: 1235.0
+status: KEEP
+public: true
+references: STC p.49, HPTB
+phonology:
+  handle: lwan
+  initial: lw
+  rhyme: an
+  initcover: L
+  rhymecover: N

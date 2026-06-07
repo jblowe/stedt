@@ -1,0 +1,17 @@
+tag: 221
+grpid: 2
+proto_language: PTB
+protoform: kray
+gloss: WAIST / LOWER BACK / LOINS
+semkey: 1.4.6
+sequence: 12.0
+status: KEEP
+public: true
+exemplary: true
+possallo: 217,202
+phonology:
+  handle: kray
+  initial: k(r)
+  rhyme: ay
+  initcover: K
+  rhymecover: W

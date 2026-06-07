@@ -1,0 +1,28 @@
+tag: 2406
+grpid: 2
+proto_language: PTB
+protoform: b-liŋ
+gloss: FOREST / FIELD
+semkey: 3.2.5
+sequence: 11.0
+status: KEEP
+public: true
+references: cf. STC#378, HPTB
+phonology:
+  handle: lin
+  prefix: b
+  initial: l
+  rhyme: iŋ
+  initcover: L
+  rhymecover: N
+notes:
+- type: T
+  text: <par>STC (pp.80-81, n.246) hesitantly groups Tibetan <latinform>źiŋ</latinform> and Lepcha <latinform>lyăŋ</latinform>
+    in this etymon, but the semantic differences among the various reflexes are certainly not too great
+    to preclude this interpretation.</par>
+- type: F
+  text: '<par><hanform>田</hanform> OC <latinform>*d’ien</latinform>, GSR #362a-c &apos;field, land&apos;;
+    Schuessler 2007:496 <latinform>*lîn</latinform>; B &amp; S 2011: <latinform>*lˁiŋ</latinform>; Mand.
+    <latinform>tián</latinform>.<br /><hanform>甸</hanform> OC <latinform>*d’ien</latinform>, GSR #362g
+    &apos;royal domain, cultivated land&apos;; Schuessler 2007:496 <latinform>*lîns</latinform>; B &amp;
+    S 2011: <latinform>*lˁiŋ-s</latinform>; Mand. <latinform>diàn</latinform>.</par>'

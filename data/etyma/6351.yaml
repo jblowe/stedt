@@ -1,0 +1,18 @@
+tag: 6351
+grpid: 5
+proto_language: PTani
+protoform: ǰap
+gloss: DUCK
+semkey: 2.1.10
+sequence: 7.0
+status: KEEP
+public: true
+references: JS-HCST: 96
+phonology:
+  initial: ǰ
+  rhyme: ap
+notes:
+- type: F
+  text: '<par><hanform>鴨</hanform> OC (<latinform>*ʔɑp</latinform>), GSR (not in #629) &apos;duck&apos;;
+    Schuessler 2007: (<latinform>*ʔrâp</latinform>); B &amp; S 2011: (<latinform>*qˁrap</latinform>);
+    Mand. <latinform>yā</latinform>.</par>'

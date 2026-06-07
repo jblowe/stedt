@@ -1,0 +1,16 @@
+tag: 6201
+grpid: 5
+proto_language: PTani
+protoform: haŋ
+gloss: HEART
+semkey: 1.7.1
+sequence: 10.0
+status: KEEP
+public: false
+references: 'JS-HCST: 57'
+phonology:
+  initial: h
+  rhyme: aŋ
+notes:
+- type: I
+  text: <par>related to <xref ref="1381">#1381</xref>?</par>

@@ -1,0 +1,23 @@
+tag: 7173
+grpid: 2
+proto_language: PTB
+protoform: t(y)u(ŋ/n)
+gloss: SHORT
+semkey: 9.7.2
+sequence: 5.0
+status: KEEP
+public: true
+references: JAM
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: təŋ ⪤ dəŋ
+  gloss: SHORT
+notes:
+- type: T
+  text: <par>A number of reflexes of this root have affricated rather than simple dental initials.</par><par>Another
+    variable feature of this etymon is the final nasal, which in most cases is velar, but a number of
+    languages in several subgroups (Jingpho, Liangmei, Chepang, Tamang) have a dental. </par>
+- type: F
+  text: '<par><hanform>短</hanform> OC <latinform>*twɑ̂n</latinform>, GSR #169a-c &apos;short&apos;; Schuessler
+    2007:219 <latinform>*tônʔ</latinform>; B &amp; S 2011: <latinform>*tˁorʔ</latinform>; Mand. <latinform>duǎn</latinform>.</par>'

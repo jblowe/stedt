@@ -1,0 +1,27 @@
+tag: 2627
+grpid: 2
+proto_language: PTB
+protoform: ʔ-(d/g)rup
+gloss: SEW
+semkey: '5.1'
+sequence: 1.0
+status: KEEP
+public: true
+references: cf. STC#456, HPTB pp. 141, 369
+phonology:
+  handle: rup
+  prefix: d
+  initial: r
+  rhyme: up=drup
+  initcover: L
+  rhymecover: LT
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: kʰop
+  gloss: SEW
+notes:
+- type: T
+  text: <par>This root shows an unusual alternation of initial consonants, with both the dental and the
+    velar onsets being well attested. Some languages have lost any direct trace of either of these initial
+    elements, and show forms beginning with <latinform>r-</latinform> or <latinform>ʐ</latinform>.</par>

@@ -1,0 +1,17 @@
+tag: 2522
+grpid: 2
+proto_language: PTB
+protoform: nyuŋ = (s-)ńuŋ
+gloss: SAD / TIRED / ILL
+semkey: 1.1.5.1
+sequence: 2864.0
+status: delete
+public: false
+xrefs: '1845'
+references: STC#194
+phonology:
+  handle: nyun
+  initial: ny
+  rhyme: un=(s-) ́
+  initcover: M
+  rhymecover: VNS

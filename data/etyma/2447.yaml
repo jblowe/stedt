@@ -1,0 +1,22 @@
+tag: 2447
+grpid: 2
+proto_language: PTB
+protoform: r/s-mya-n
+gloss: WEN / MOLE
+semkey: 1.6.5.3
+sequence: 3482.0
+status: KEEP
+public: true
+references: STC#104
+phonology:
+  handle: men
+  prefix: r
+  initial: m
+  rhyme: en
+  initcover: M
+  rhymecover: N
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: hmai
+  gloss: MOLE (on skin)

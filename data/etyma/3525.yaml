@@ -1,0 +1,18 @@
+tag: 3525
+grpid: 2
+proto_language: PTB
+protoform: hwəy
+gloss: PUSH
+semkey: 6.2.2.3.1
+sequence: 3.0
+status: KEEP
+public: true
+references: JAM-LITB 6.2
+phonology:
+  initial: hw
+  rhyme: əy
+  initcover: H
+  rhymecover: W
+notes:
+- type: T
+  text: <par>This promising root would profit from more confirmation.</par>

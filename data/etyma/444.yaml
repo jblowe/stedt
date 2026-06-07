@@ -1,0 +1,19 @@
+tag: 444
+grpid: 2
+proto_language: PTB
+protoform: zim
+gloss: COLLECT / GATHER
+semkey: '6.21'
+sequence: 14.0
+status: KEEP
+public: true
+references: cf. HPTB p.27
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: θim ⪤ θin
+  gloss: STORE / COLLECT
+- grpid: 23
+  group: 2.1.4
+  form: ᴮtsim
+  gloss: STORE / PUT IN THE RIGHT PLACE

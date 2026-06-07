@@ -1,0 +1,20 @@
+tag: 771
+grpid: 2
+proto_language: PTB
+protoform: dum
+gloss: ARM
+semkey: 1.5.1.2
+sequence: 14.0
+status: KEEP
+public: true
+phonology:
+  handle: du
+  initial: d
+  rhyme: u
+  initcover: T
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This rather rare but valid-looking root often occurs as the second syllable of compounds
+    where the first syllable descends from <reconstruction>*lak</reconstruction>. There seems to be a
+    connection with the notion of &apos;fist&apos;.</par>

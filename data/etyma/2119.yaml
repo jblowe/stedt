@@ -1,0 +1,20 @@
+tag: 2119
+grpid: 6
+proto_language: PDeng
+protoform: yaŋ
+gloss: STOMACH
+semkey: 1.7.1
+sequence: 9.0
+status: KEEP
+public: true
+possallo: 208,3063
+references: cf. 208? lower back
+phonology:
+  handle: jaŋ
+  initial: j
+  rhyme: aŋ
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root has only been found in a couple of languages of the Deng group, and is in dire
+    need of further confirmation.</par>

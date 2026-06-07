@@ -1,0 +1,28 @@
+tag: 630
+grpid: 2
+proto_language: PTB
+protoform: gam
+gloss: JAW / CHIN / MOLAR
+semkey: 1.2.5.2
+sequence: 22.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: HOLD IN MOUTH
+references: STC#050
+phonology:
+  handle: gam
+  initial: g
+  rhyme: am
+  initcover: K
+  rhymecover: N
+notes:
+- type: I
+  text: <par><reconstruction>*gam ↭ *s-gram </reconstruction>262 CHEEK.</par>
+- type: T
+  text: '<par>This root bears some resemblance to <xref ref="262">#262</xref>, but should be kept separate
+    for now.<br />MM: Tamang has two distinct roots: *Akam &apos;chin&apos; and *Agrampa &apos;jaw,cheek&apos;</par>'
+- type: F
+  text: '<par><hanform>頷</hanform> OC <latinform>*g’əm</latinform>, GSR #651n&apos; &apos;jaw, chin&apos;;
+    Schuessler 2007:270-1 <latinform>*gə̂mʔ</latinform>; B &amp; S 2011: <latinform>*ɢˁəm {[ɢ]ˁ[ə]mʔ}</latinform>;
+    Mand. <latinform>hàn</latinform>.</par>'

@@ -1,0 +1,27 @@
+tag: 2640
+grpid: 2
+proto_language: PTB
+protoform: (z)ryaŋ
+gloss: UNCLE / SUPERIOR
+semkey: 4.7.1
+sequence: 14.0
+status: KEEP
+public: true
+references: cf. STC#205, HPTB pp. 66, 79, 303
+phonology:
+  handle: ryaŋ
+  initial: ry
+  rhyme: aŋ=źraŋ
+  initcover: L
+  rhymecover: NL
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: (p)raŋ
+  gloss: UNCLE (father's sister's husband)
+notes:
+- type: F
+  text: '<par><hanform>丈</hanform> OC <latinform>* d̑’i̯ɑng</latinform>, GSR #722a &apos;measure of ten
+    feet; older male, husband&apos;; Schuessler 2007:606 <latinform>*draŋʔ</latinform>; B &amp; S 2011:
+    <latinform>*draŋʔ {[d]raŋʔ}</latinform>; Mand. <latinform>zhàng</latinform>.</par><par><latinform>Comment:</latinform>
+    Cf. comparanda for <xref ref="2725">#2725</xref>.</par>'

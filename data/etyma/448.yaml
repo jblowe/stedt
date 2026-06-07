@@ -1,0 +1,27 @@
+tag: 448
+grpid: 2
+proto_language: PTB
+protoform: d(y)al
+gloss: LIP / SKIN
+semkey: 1.3.2
+sequence: 6.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. HPTB p.405
+phonology:
+  handle: dyal
+  initial: d(y)
+  rhyme: al
+  initcover: T
+  rhymecover: L
+notes:
+- type: T
+  text: '<par>See HPTB pp. 405-6.</par><par>The final liquid in this root is well-attested:  directly
+    in Mizo, Garo, Khaling, and Tangut, and indirectly by Jingpho final <latinform>-n</latinform>.</par><par>The
+    first syllables of a pair of forms from the North Assam group (Darang <latinform><emph>thɯ⁵⁵</emph>
+    no⁵⁵</latinform>, Idu <latinform><emph>tia³⁵</emph> ndze⁵⁵</latinform> &apos;lip&apos;) look rather
+    like the reflexes of this etymon, but they appear to represent a body part prefix which occurs in
+    several other words related loosely to MOUTH: Darang <latinform>tʰɯ³¹ liɯŋ⁵³ nɑ³⁵</latinform> &apos;tongue&apos;,
+    <latinform>tʰɯ³¹ ɹɯm⁵³ m̩⁵⁵</latinform> &apos;beard&apos;, <latinform>tʰɯ³¹ tiɑ⁵⁵</latinform> &apos;chin&apos;,
+    Idu <latinform>tia³⁵pɹa³⁵</latinform> &apos;tooth&apos;.</par>'

@@ -1,0 +1,26 @@
+tag: 2472
+grpid: 2
+proto_language: PTB
+protoform: g/s-məw
+gloss: MUSHROOM / FUNGUS
+semkey: 3.1.7
+sequence: 2481.0
+status: KEEP
+public: true
+references: STC#455
+phonology:
+  handle: muw
+  prefix: g
+  initial: m
+  rhyme: uw=g-məw
+  initcover: M
+  rhymecover: VNW
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: s-mo¹
+  gloss: MUSHROOM
+- grpid: 42
+  group: '6.1'
+  form: ʔ-məw¹
+  gloss: MUSHROOM

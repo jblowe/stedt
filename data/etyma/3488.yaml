@@ -1,0 +1,21 @@
+tag: 3488
+grpid: 2
+proto_language: PTB
+protoform: (p/b)uk
+gloss: HATCH (egg)
+semkey: 1.1.2
+sequence: 16.0
+status: KEEP
+public: true
+references: '("HIM") '
+phonology:
+  handle: puk
+  initial: p
+  rhyme: uk
+  initcover: P
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This etymon, which appears quite distinct from <xref ref="1654">#1654</xref>, seems to be
+    confined to Himalayish. It is perhaps to be identified with <xref ref="3480">#3480</xref>.</par><par>The
+    cognacy of the Ao and Tangkhul forms remains speculative.</par>

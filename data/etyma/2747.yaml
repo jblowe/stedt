@@ -1,0 +1,36 @@
+tag: 2747
+grpid: 2
+proto_language: PTB
+protoform: m-tsyi
+gloss: SALT / YEAST
+semkey: 3.2.4
+sequence: 4.0
+status: KEEP
+public: true
+references: ("PKN") STC p.121
+phonology:
+  handle: tsyi
+  prefix: m
+  initial: tsy
+  rhyme: i
+  initcover: TS
+  rhymecover: V
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tsii
+  gloss: SALT
+- grpid: 66
+  group: 1.3.4
+  form: ci
+  gloss: SALT
+notes:
+- type: T
+  text: <par>In the Southeast Asian linguistic area, yeast is used for brewing liquor rather than for
+    baking bread. The semantic connection between SALT and YEAST can be understood as residing in the
+    enlivening effect the two substances have on food and drink.</par><par>The nasal prefix attested overtly
+    in many languages is also reflected by the voiced Lahu initial.</par>
+- type: T
+  text: <par>This root appears distinct from <xref ref="2729">#2729</xref>, which has a low vowel. Unlike
+    Qiangic, we do not expect languages of the NE Indian Areal Group to have undergone a brightening change
+    of <latinform>a &gt; i</latinform>.</par>

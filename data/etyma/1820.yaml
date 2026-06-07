@@ -1,0 +1,17 @@
+tag: 1820
+grpid: 42
+proto_language: PLB
+protoform: C-prik
+gloss: BE / BE ABLE
+semkey: 10.4.1.1
+sequence: 3.0
+status: KEEP
+public: false
+references: 'TSR #68'
+phonology:
+  handle: Brek
+  prefix: C/ʔ
+  initial: (p/b)r
+  rhyme: ek
+  initcover: P
+  rhymecover: T

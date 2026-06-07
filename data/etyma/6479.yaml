@@ -1,0 +1,18 @@
+tag: 6479
+grpid: 5
+proto_language: PTani
+protoform: mɯk
+gloss: POWDER
+semkey: 3.2.11
+sequence: 2685.0
+status: KEEP
+public: false
+references: JS-HCST: 222
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: mɯk
+  gloss: POWDER
+notes:
+- type: T
+  text: <par>There is a possible allofamic relationship between this root and <xref ref="5787">#5787</xref>.</par>

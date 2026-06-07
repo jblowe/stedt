@@ -1,0 +1,18 @@
+tag: 660
+grpid: 2
+proto_language: PTB
+protoform: s-na
+gloss: GOOD
+semkey: 9.6.1.1
+sequence: 13.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-na¹
+  gloss: GOOD / PERMISSIBLE
+notes:
+- type: T
+  text: <par>The <latinform>*s-</latinform> prefix is abundantly attested in rGyalrongic, and is implied
+    by the PLB pre-glottalization.</par><par>For a rather resemblant but distinct root, see <xref ref="5740">#5740</xref>.</par>

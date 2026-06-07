@@ -1,0 +1,1050 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+41148	679	Jingpho	ʃoŋ³³	ʃoŋ³³	front	front		1.4.4		0		m
+41149	679	Jingpho	phaŋ³³	phaŋ³³	back (side)	back (side)		1.4.8		0		3326
+41150	679	Jingpho	pa̱i³³	pa̱i³³	left	left		1.5.3.2		0		2154
+41151	679	Jingpho	khɹa⁵⁵	khɹa⁵⁵	right (side)	right (side)		1.5.3.2		0		2786
+41152	679	Jingpho	mă¹ ka̱u³³	mă¹ ka̱u³³	side	side		1.4.5		0		
+41153	679	Jingpho	ti³¹	ti³¹	egg	egg				0		300
+41154	679	Jingpho	ʃiŋ³¹ ko̱³³	ʃiŋ³¹ ko̱³³	wing	wing		1.5.1.3		0		p,240
+41155	679	Jingpho	mun³³	mun³³	fur	fur		1.6.1		0		363
+41156	679	Jingpho	lă¹ mjin³³	lă¹ mjin³³	claw	claw		1.5.10.4		0		695,513
+41157	679	Jingpho	lă¹ khɹuʔ³¹	lă¹ khɹuʔ³¹	hoof	hoof		1.5.4		0		350,5622
+41158	679	Jingpho	n̩³¹ |ʒuŋ³³	n̩³¹ ʒuŋ³³	horn	horn		1.2.2		0		814
+41159	679	Jingpho	mai³¹	mai³¹	tail	tail		1.4.10.1		0		1288
+41160	679	Jingpho	n̩³¹|mai³¹	n̩³¹|mai³¹	tail	tail		1.4.10.1		0		1288
+41161	679	Jingpho	khum³¹	khum³¹	body	body		1.1.1		0		206
+41162	679	Jingpho	po³³	po³³	head	head		1.2.1		0		388
+41163	679	Jingpho	a³¹ po³³	a³¹ po³³	head	head		1.2.1		0		p,388
+41164	679	Jingpho	kă¹ than³³	kă¹ than³³	forehead	forehead		1.2.5.1		0		p,384
+41165	679	Jingpho	kă̱⁵ ʒa̱⁵⁵|	kă̱⁵ ʒa̱⁵⁵|	hair (head)	hair (head)		1.2.3		0		367
+41166	679	Jingpho	sam⁵⁵ pan³¹	sam⁵⁵ pan³¹	braid (hair)	braid (hair)	n	1.2.3.2		0		366,2018
+41167	679	Jingpho	nuʔ⁵⁵	nuʔ⁵⁵	brain	brain		1.2.4		0		243
+41168	679	Jingpho	mjiʔ³¹ man³³	mjiʔ³¹ man³³	face	face		1.2.5		0		682,1188
+41169	679	Jingpho	man³³	man³³	face	face		1.2.5		0		1188
+41170	679	Jingpho	mjiʔ³¹ ko̱³³ mun³³	mjiʔ³¹ ko̱³³ mun³³	eyebrow	eyebrow		1.2.6.6		0		681,586,363
+41171	679	Jingpho	mjiʔ³¹	mjiʔ³¹	eye	eye		1.2.6		0		682
+41172	679	Jingpho	a³¹ mjiʔ³¹	a³¹ mjiʔ³¹	eye	eye		1.2.6		0		p,682
+41173	679	Jingpho	mjiʔ⁵⁵ pɹu̱i³³	mjiʔ⁵⁵ pɹu̱i³³	tears	tears		1.2.6.7		0		682,187
+41174	679	Jingpho	lă⁵ ti³¹	lă⁵ ti³¹	nose	nose		1.2.8		0		p,807
+41175	679	Jingpho	nə³¹	nə³¹	nose	nose		1.2.8		0		803
+41176	679	Jingpho	na³³	na³³	ear	ear		1.2.7		0		811
+41177	679	Jingpho	a³¹ na³³	a³¹ na³³	ear	ear		1.2.7		0		p,811
+41178	679	Jingpho	n̩³¹ |kup³¹	n̩³¹ kup³¹	mouth	mouth		1.3.1		0		5471
+41179	679	Jingpho	n̩³¹ te̱n³³	n̩³¹ te̱n³³	lip	lip		1.3.2		0		p,448
+41180	679	Jingpho	wa³³	wa³³	tooth	tooth		1.3.4		0		632
+41181	679	Jingpho	a³¹ wa³³	a³¹ wa³³	tooth	tooth		1.3.4		0		p,632
+41182	679	Jingpho	ʃiŋ³¹ let³¹	ʃiŋ³¹ let³¹	tongue	tongue		1.3.3		0		p,623
+41183	679	Jingpho	niŋ³¹ mun³³	niŋ³¹ mun³³	beard	beard		1.2.5.5		0		p,363
+41184	679	Jingpho	n̩³¹ mun³³	n̩³¹ mun³³	beard	beard		1.2.5.5		0		p,363
+41185	679	Jingpho	tuʔ³¹	tuʔ³¹	neck	neck		1.4.2		0		359
+41186	679	Jingpho	a³¹ tuʔ³¹	a³¹ tuʔ³¹	neck	neck		1.4.2		0		p,359
+41187	679	Jingpho	mă¹|juʔ³¹	mă¹|juʔ³¹	throat	throat		1.3.5		0		627
+41188	679	Jingpho	kă¹ phaʔ³¹	kă¹ phaʔ³¹	shoulder	shoulder		1.4.3		0		p,568
+41189	679	Jingpho	kă¹ phaʔ³¹ n̩⁵⁵ pu̱ʔ⁵⁵	kă¹ phaʔ³¹ n̩⁵⁵ pu̱ʔ⁵⁵	armpit	armpit		1.5.1.2.3		0		p,568,m,m
+41190	679	Jingpho	lă¹ ta̱ʔ⁵⁵	lă¹ |ta̱ʔ⁵⁵	hand	hand		1.5.1.1		0		695,700
+41191	679	Jingpho	lă¹ phum³¹	lă¹ phum³¹	arm	arm		1.5.1.2		0		695,754
+41192	679	Jingpho	lă¹ juŋ³³	lă¹ juŋ³³	finger	finger		1.5.6		0		695,m
+41193	679	Jingpho	lă¹ mjin³³	lă¹ mjin³³	fingernail	fingernail		1.5.10.1		0		695,m
+41194	679	Jingpho	sin³¹ taʔ³¹	sin³¹ taʔ³¹	chest (of body)	chest (of body)		1.4.4.3		0		1390,289
+41195	679	Jingpho	ʃiŋ³³ ma³³	ʃiŋ³³ ma³³	back (of body)	back (of body)		1.4.8		0		m,1107
+41196	679	Jingpho	tʃu̱ʔ⁵⁵	tʃu̱ʔ⁵⁵	breast	breast		1.4.4.3		0		5540
+41197	679	Jingpho	ka̱n³³	ka̱n³³	belly	belly		1.4.7		0		m
+41198	679	Jingpho	n̩³¹ ʃaŋ³³	n̩³¹ ʃaŋ³³	waist	waist		1.4.6		0		p,222
+41199	679	Jingpho	lă¹ ko³³	lă¹ ko³³	foot	foot		1.5.2		0		350,5621
+41200	679	Jingpho	lă¹ ko³³	lă¹ ko³³	leg	leg		1.5.7		0		350,5621
+41201	679	Jingpho	lă¹ phut³¹	lă¹ phut³¹	knee	knee		1.5.8.4		0		350,436
+41202	679	Jingpho	phjiʔ³¹	phjiʔ³¹	skin	skin		1.6.5		0		590
+41203	679	Jingpho	a³¹ phjiʔ³¹	a³¹ phjiʔ³¹	skin	skin		1.6.5		0		p,590
+41204	679	Jingpho	n̩³³ |ʒa³³	n̩³³ ʒa³³	bone	bone		1.6.3		0		237
+41205	679	Jingpho	lă³ sa³³	lă³ sa³³	muscle	muscle		1.6.6.2		0		p,530
+41206	679	Jingpho	sai³¹	sai³¹	blood	blood		1.6.2		0		230
+41207	679	Jingpho	ka̱n³³	ka̱n³³	stomach	stomach		1.7.6		0		m
+41208	679	Jingpho	să³ te⁵⁵	să³ te⁵⁵	kidney	kidney		1.7.5		0		
+41209	679	Jingpho	sin³¹ te⁵⁵	sin³¹ te⁵⁵	kidney	kidney		1.7.5		0		
+41210	679	Jingpho	pu̱³¹	pu̱³¹	intestines	intestines		1.7.7		0		2103
+41211	679	Jingpho	a³¹ pu̱³¹	a³¹ pu̱³¹	intestines	intestines		1.7.7		0		p,2103
+41212	679	Jingpho	să³ lum³³	să³ lum³³	heart	heart		1.7.1		0		m,1381
+41213	679	Jingpho	sin³¹ tai³³	sin³¹ tai³³	heart	heart		1.7.1		0		1390,519
+41214	679	Jingpho	sin³¹ tʃaʔ³¹	sin³¹ tʃaʔ³¹	liver	liver		1.7.3		0		1390,186
+41215	679	Jingpho	sin³¹ wop⁵⁵	sin³¹ wop⁵⁵	lung	lung		1.7.2		0		1390,457
+41216	679	Jingpho	ʃă³¹ kɹi³¹	ʃă³¹ kɹi³¹	gall	gall		1.7.3.1		0		1390,227
+41217	679	Jingpho	ʃă³¹ poŋ³³	ʃă³¹ poŋ³³	bladder	bladder		1.7.8		0		p,778
+41218	679	Jingpho	să¹ |lat³¹	să¹ lat³¹	sweat	sweat		1.8.1		0		611
+41219	679	Jingpho	nep³¹	nep³¹	mucus	mucus		1.8.2		0		805
+41220	679	Jingpho	a³¹ nep³¹	a³¹ nep³¹	mucus	mucus		1.8.2		0		p,805
+41221	679	Jingpho	mă¹ kha⁵⁵	mă¹ kha⁵⁵	phlegm	phlegm		1.8.3		0		p,540
+41222	679	Jingpho	khum³¹ pai⁵⁵	khum³¹ pai⁵⁵	saliva	saliva		1.8.3		0		m,607
+41223	679	Jingpho	tʃu̱ʔ⁵⁵	tʃu̱ʔ⁵⁵	milk	milk				0		5540
+41224	679	Jingpho	khji⁵⁵	khji⁵⁵	shit	shit		1.8.5		0		572
+41225	679	Jingpho	tʃit³¹	tʃit³¹	urine	urine		1.8.4		0		650
+41226	679	Jingpho	tʃit³¹ tʃi⁵⁵	tʃit³¹ tʃi⁵⁵	urinate	urinate		1.5.3.2		0		650,m
+41227	679	Jingpho	ʃă³ kɹu̱i³³	ʃă³ kɹu̱i³³	ulcer, sore	ulcer, sore		1.8.6.2		0		p,m
+41228	679	Jingpho	mă¹ tsu̱i³³	mă¹ tsu̱i³³	pus	pus		1.8.6.1		0		m,1296
+41229	679	Jingpho	sin³¹ wop⁵⁵ a³¹ na³¹	sin³¹ wop⁵⁵ a³¹ na³¹	tuberculosis	tuberculosis		1.5.3.2		0		1390,457,m,160
+41230	679	Jingpho	wun³¹ pa³³	wun³¹ pa³³	smallpox	smallpox		5.3		0		
+41231	679	Jingpho	nam³¹ pa̱n³³	nam³¹ pa̱n³³	smallpox	smallpox		5.3		0		m,2153
+41232	679	Jingpho	khaʔ³¹ li³¹	khaʔ³¹ li³¹	malaria	malaria		5.3		0		
+41233	679	Jingpho	mjiʔ³¹ ti⁵⁵	mjiʔ³¹ ti⁵⁵	blind person	blind person		1.2.6.14.2		0		682,m
+41234	679	Jingpho	na³¹ phaŋ⁵⁵	na³¹ phaŋ⁵⁵	deaf person	deaf person		1.2.7.5		0		811,1409
+41235	679	Jingpho	ma³¹ a³¹	ma³¹ a³¹	mute person	mute person		1.5.3.2		0		1752
+41236	679	Jingpho	ja³¹ pa³¹	ja³¹ pa³¹	mute person	mute person		1.5.3.2		0		b
+41237	679	Jingpho	mă¹ na³¹	mă¹ na³¹	insane person	insane person		8.3.1.11.3		0		
+41238	679	Jingpho	lă¹ jot³¹	lă¹ jot³¹	lame person	lame person		1.5.12		0		
+41239	679	Jingpho	koŋ³¹ jot³¹	koŋ³¹ jot³¹	lame person	lame person		1.5.12		0		
+41240	679	Jingpho	sau⁵⁵	sau⁵⁵	oil	oil		1.6.4.1		0		60
+41241	679	Jingpho	ʃan³¹	ʃan³¹	meat, flesh	meat, flesh		1.1.1.1		0		34
+41242	679	Jingpho	nam³¹ phun³³	nam³¹ phun³³	fertilizer	fertilizer		1.9		0		
+41243	679	Jingpho	khji⁵⁵ nam³¹ phun³³	khji⁵⁵ nam³¹ phun³³	manure	manure		1.8.5		0		572,m,m
+41244	679	Jingpho	ka³¹	ka³¹	speech	speech		1.8.7		0		1754
+41245	679	Jingpho	n̩³¹ sen⁵⁵	n̩³¹ sen⁵⁵	sound	sound		9.3		0		p,66
+41246	679	Jingpho	jup³¹ ma̱ŋ³³	jup³¹ ma̱ŋ³³	dream	dream		1.1.4.2		0		127,126
+41247	679	Jingpho	ʃiŋ³¹ na³¹	ʃiŋ³¹ na³¹	shadow	shadow		3.2.10		0		
+41248	679	Jingpho	să¹ kja³¹	să¹ kja³¹	spirit	spirit		5.8.1.1		0		
+41249	679	Jingpho	nat⁵⁵	nat⁵⁵	ghost	ghost		4.2.12.2		0		160
+41250	679	Jingpho	ju³³	ju³³	look at	look at		1.2.6.11		0		m
+41251	679	Jingpho	mu³¹	mu³¹	see	see		1.2.6.10		0		1227
+41252	679	Jingpho	mjiʔ³¹ ti̱⁵⁵	mjiʔ³¹ ti̱⁵⁵	close (eyes)	close (eyes)		6.2.2.6.2		0		
+41253	679	Jingpho	mă¹ tat³¹	mă¹ tat³¹	listen	listen		1.2.7.4		0		p,1408
+41254	679	Jingpho	ʃa⁵⁵	ʃa⁵⁵	eat	eat		1.5.3.2		0		36
+41255	679	Jingpho	luʔ³¹	luʔ³¹	drink	drink				0		1705
+41256	679	Jingpho	kă¹ wa⁵⁵	kă¹ wa⁵⁵	bite	bite		1.3.4.4		0		p,688
+41257	679	Jingpho	mă¹ |ja⁵⁵	mă¹ ja⁵⁵	chew	chew		1.3.4		0		1771
+41258	679	Jingpho	mă¹|ta̱ʔ⁵⁵	mă¹|ta̱ʔ⁵⁵	lick	lick		1.3.3.1		0		629
+41259	679	Jingpho	mă¹ um³³	mă¹ um³³	hold in mouth	hold in mouth		1.3.4.4		0		p,3451
+41260	679	Jingpho	mă³ kɹe̱t³¹	mă³ kɹe̱t³¹	gnaw	gnaw		1.3.4.4		0		
+41261	679	Jingpho	mă¹ |u̱t⁵⁵	mă¹ u̱t⁵⁵	swallow	swallow	v.t.	1.3.5.6		0		627
+41262	679	Jingpho	mă¹ |juʔ³¹	mă¹ juʔ³¹	swallow	swallow	v.i.	1.3.5.6		0		627
+41263	679	Jingpho	mă¹ tho⁵⁵	mă¹ tho⁵⁵	spit	spit		1.8.3		0		298
+41264	679	Jingpho	mă¹ ton³³	mă¹ ton³³	vomit	vomit		1.8.3.2		0		p,m
+41265	679	Jingpho	n̩³¹ |phat³¹	n̩³¹ phat³¹	vomit	vomit		1.8.3.2		0		1145
+41266	679	Jingpho	kă¹ wut³¹	kă¹ wut³¹	blow (on a fire)	blow (on a fire)		1.3.1.4		0		p,503
+41267	679	Jingpho	tsu̱n³³	tsu̱n³³	say	say		1.8.7		0		
+41268	679	Jingpho	thi⁵⁵	thi⁵⁵	read	read		6.2.2.9.3		0		
+41269	679	Jingpho	mă¹ ʒon⁵⁵	mă¹ ʒon⁵⁵	cry out	cry out		1.8.8.2		0		
+41270	679	Jingpho	mă¹ nam⁵⁵	mă¹ nam⁵⁵	smell	smell	v	1.2.8.5		0		m,1415
+41271	679	Jingpho	jup⁵⁵	jup⁵⁵	sleep	sleep		1.1.4.1		0		127
+41272	679	Jingpho	su³¹	su³¹	wake	wake		1.1.4		0		1837
+41273	679	Jingpho	mă¹ |ni³³	mă¹ ni³³	laugh	laugh		1.8.8.1		0		1105
+41274	679	Jingpho	khɹap³¹	khɹap³¹	cry, weep	cry, weep		1.8.8.2		0		1103
+41275	679	Jingpho	ʃa¹ ŋai³¹	ʃa¹ ŋai³¹	birth, give (to child)	birth, give  (to child)		1.1.2		0		p,90
+41276	679	Jingpho	kă¹ pa³¹ wa³¹	kă¹ pa³¹ wa³¹	grow (up)	grow (up)		9.7.2		0		
+41277	679	Jingpho	mă¹ tʃi̱ʔ⁵⁵	mă¹ tʃi̱ʔ⁵⁵	sick, get	sick, get		1.1.5.1		0		
+41278	679	Jingpho	kă¹ ʒiʔ⁵⁵	kă¹ ʒiʔ⁵⁵	shake	shake		6.7.9		0		
+41279	679	Jingpho	pum⁵⁵	pum⁵⁵	swell up	swell up		1.1.5.2		0		163?
+41280	679	Jingpho	si³³	si³³	die	die		1.1.6		0		27
+41281	679	Jingpho	pje̱n³³	pje̱n³³	fly	fly	v	2.2.6		0		2588
+41282	679	Jingpho	wau⁵⁵	wau⁵⁵	bark	bark	v	2.1.11.1		0		2765
+41283	679	Jingpho	koi³¹	koi³¹	crow (rooster)	crow (rooster)		2.2.4.1		0		
+41284	679	Jingpho	ti³¹ ti³¹	ti³¹ ti³¹	lay (egg)	lay (egg)		6.17		0		
+41285	679	Jingpho	phum⁵⁵	phum⁵⁵	sit on, hatch (egg)	sit on, hatch (egg)		6.1.1.4.1		0		304
+41286	679	Jingpho	phum³³	phum³³	fat (person)	fat (person)		1.6.4		0		163
+41287	679	Jingpho	sau³³	sau³³	fat (meat)	fat (meat)		1.6.4		0		60
+41288	679	Jingpho	lă¹ si³¹	lă¹ si³¹	lean (person)	lean (person)		1.1.1		0		m,1806
+41289	679	Jingpho	khɹu⁵⁵	khɹu⁵⁵	full, satiated	full, satiated		1.1.3.2		0		1829
+41290	679	Jingpho	ko̱ʔ⁵⁵ si³³	ko̱ʔ⁵⁵ si³³	hungry	hungry		1.1.3		0		105,101
+41291	679	Jingpho	phaŋ³¹ kă¹ |ʒaʔ³¹	phaŋ³¹| kă¹ |ʒaʔ³¹	thirsty	thirsty		1.1.3.1		0		1826,1825
+41292	679	Jingpho	pa⁵⁵	pa⁵⁵	tired	tired		9.6.2.2		0		
+41293	679	Jingpho	kă¹ ja⁵⁵|	kă¹ ja⁵⁵|	itchy	itchy		1.6.5.5		0		1456
+41294	679	Jingpho	mă¹ tʃi̱ʔ⁵⁵	mă¹ tʃi̱ʔ⁵⁵	painful	painful		1.1.5.1		0		
+41295	679	Jingpho	lǎ¹ lam³³	lǎ¹ lam³³	fathom, cord	fathom, cord		9.8		0	z	377,1310
+41296	679	Jingpho	lǎ¹ kham³³	lǎ¹ kham³³	span	span		1.5.9.4		0		695,m
+333952	679	Jingpho	lă¹mu³¹	lă¹mu³¹	sky	sky		3.2.2		0		
+333953	679	Jingpho	tʃan³³	tʃan³³	sun	sun		3.2.10		0		2753
+333954	679	Jingpho	ʃă³|ta̱³³	ʃă³|ta̱³³	moon	moon		3.2.2		0		1016
+333955	679	Jingpho	ʃă³|kan³³	ʃă³kan³³	star	star		3.2.2		0		2300
+333956	679	Jingpho	muʔ⁵⁵	muʔ⁵⁵	thunder	thunder		3.2.1		0		2465
+333957	679	Jingpho	să³mui³³	să³mui³³	cloud	cloud		3.2.1		0		
+333958	679	Jingpho	n̩³¹puŋ³³	n̩³¹puŋ³³	wind	wind		3.2.1		0		p,6128
+333959	679	Jingpho	mă¹ʒaŋ³³|	mă¹ʒaŋ³³|	rain	rain		3.2.1		0		3571
+333960	679	Jingpho	kjo³³naʔ⁵⁵	kjo³³naʔ⁵⁵	snow	snow		3.2.1		0		
+333961	679	Jingpho	khaʔ³¹	khaʔ³¹	water (natural)	water (natural)		3.2.3		0		
+333962	679	Jingpho	n̩³¹tsi̱n³³	n̩³¹tsi̱n³³	water (drinking)	water (drinking)		3.2.3		0		
+333963	679	Jingpho	sai³³wan³¹	sai³³wan³¹	fog	fog		3.2.1		0		
+333964	679	Jingpho	khjen³³	khjen³³	frost	frost		3.2.1		0		
+333965	679	Jingpho	num³¹ʒiʔ⁵⁵	num³¹ʒiʔ⁵⁵	dew	dew				0		
+333966	679	Jingpho	a¹sin³³	a¹sin³³	hail	hail		3.2.1		0		p,671
+333967	679	Jingpho	ka̱⁵⁵	ka̱⁵⁵	earth	earth		3.2.11		0		
+333968	679	Jingpho	khaʔ³¹	khaʔ³¹	river	river		3.2.3		0		
+333969	679	Jingpho	paŋ³³lai³³	paŋ³³lai³³	sea	sea		3.2.3		0		
+333970	679	Jingpho	noŋ⁵⁵	noŋ⁵⁵	lake	lake		3.2.5		0		5818
+333971	679	Jingpho	la¹iŋ³³	la¹iŋ³³	pond	pond		3.2.3		0		
+333972	679	Jingpho	khaʔ³¹thuŋ³³	khaʔ³¹thuŋ³³	well	well		9.6.1.1		0	D0	m,822
+333973	679	Jingpho	khaʔ³¹la⁵⁵	khaʔ³¹la⁵⁵	ditch	ditch		3.2.7		0		
+333974	679	Jingpho	pum³¹	pum³¹	mountain	mountain		3.2.5		0		163
+333975	679	Jingpho	khau³³na³¹	khau³³na³¹	field	field		3.2.5		0		m,5811
+333976	679	Jingpho	jiʔ⁵⁵	jiʔ⁵⁵	land (cultivated)	land (cultivated)		3.2.5		0		
+333977	679	Jingpho	pa̱³³	pa̱³³	plain	plain		3.2.5		0		
+333978	679	Jingpho	ka̱⁵⁵	ka̱⁵⁵	dirt / soil	dirt / soil		1.5.3.2		0		
+333979	679	Jingpho	khum⁵⁵pu̱p⁵⁵	khum⁵⁵pu̱p⁵⁵	mud	mud		3.2.11		0		
+333980	679	Jingpho	kin³¹loŋ³³khu³³	kin³¹loŋ³³khu³³	cave	cave		3.2.7		0	D0	m,1269,665
+333981	679	Jingpho	khu³³	khu³³	hole	hole		3.2.7		0		665
+333982	679	Jingpho	tʃa³¹	tʃa³¹	gold	gold		3.2.4		0		
+333983	679	Jingpho	kum³¹phɹo³¹	kum³¹phɹo³¹	silver	silver		3.2.4		0		m,1235
+333984	679	Jingpho	mă¹kɹi³³	mă¹kɹi³³	copper	copper		3.2.4		0		p,2247
+333985	679	Jingpho	phɹi³¹	phɹi³¹	iron	iron		3.2.4		0		
+333986	679	Jingpho	kaŋ³¹	kaŋ³¹	steel	steel		3.2.4		0		bChinese
+333987	679	Jingpho	mă³jan³³	mă³jan³³	tin	tin		3.2.4		0		
+333988	679	Jingpho	n̩³¹luŋ³¹	n̩³¹luŋ³¹	stone / rock	stone / rock		3.2.9		0		m,1269
+333989	679	Jingpho	tsai³¹pɹu³¹	tsai³¹pɹu³¹	sand	sand		3.2.11		0		587,m
+333990	679	Jingpho	n̩³¹phɹaŋ³¹wan³¹n̩⁵⁵ka³¹	n̩³¹phɹaŋ³¹wan³¹n̩⁵⁵ka³¹	charcoal	charcoal		3.2.4		0		
+333991	679	Jingpho	wan³¹	wan³¹	fire	fire		3.2.12.2		0		2152
+333992	679	Jingpho	wan³¹khut³¹	wan³¹khut³¹	smoke	smoke		3.2.12.2		0	D0	
+333993	679	Jingpho	sin³¹pɹo̱ʔ⁵⁵	sin³¹pɹo̱ʔ⁵⁵	east	east		9.2.8		0		
+333994	679	Jingpho	sin³¹naʔ⁵⁵	sin³¹naʔ⁵⁵	west	west		9.2.8		0		
+333995	679	Jingpho	tiŋ³¹taʔ³¹	tiŋ³¹taʔ³¹	south	south		9.2.8		0		
+333996	679	Jingpho	tiŋ³¹tuŋ³³	tiŋ³¹tuŋ³³	north	north		9.2.8		0		
+333997	679	Jingpho	n̩³¹tsa̱³³	n̩³¹tsa̱³³	top	top		1.2.1.3		0		
+333998	679	Jingpho	n̩⁵⁵puʔ⁵⁵	n̩⁵⁵puʔ⁵⁵	bottom	bottom		9.2.2		0		
+333999	679	Jingpho	kă¹ta̱³¹	kă¹ta̱³¹	inside	inside		9.2.5		0		
+334000	679	Jingpho	ʃiŋ³¹kan³¹	ʃiŋ³¹kan³¹	outside	outside		9.2.7		0	D0	
+334001	679	Jingpho	te̱n³¹	te̱n³¹	time	time		9.1.5		0		
+334002	679	Jingpho	ʃă¹niŋ³³	ʃă¹niŋ³³	year	year		9.1.2		0		m,2501
+334003	679	Jingpho	niŋ³³	niŋ³³	year / age	year / age		9.1.2		0		2501
+334004	679	Jingpho	tai³¹niŋ³³	tai³¹niŋ³³	this year	this year		10.4.3.2		0		2195,2501
+334005	679	Jingpho	mă³niŋ³³	mă³niŋ³³	last year	last year		9.9		0		m,2501
+334006	679	Jingpho	thă³niŋ³³	thă³niŋ³³	next year	next year		9.9		0		m,2501
+334007	679	Jingpho	moi³¹niŋ³³	moi³¹niŋ³³	year before last	year before last		9.1.2		0		m,2501
+334008	679	Jingpho	phɹa³¹niŋ³³	phɹa³¹niŋ³³	year after next	year after next		9.1.2		0		m,2501
+334009	679	Jingpho	n̩³¹lum³³ta̱³³	n̩³¹lum³³ta̱³³	spring (season)	spring (season)		6.7.9		0		m,2420,m
+334010	679	Jingpho	ji³³nam³³ta̱³³	ji³³nam³³ta̱³³	summer	summer		3.2.1		0	D0	
+334011	679	Jingpho	mă¹ŋai³³ta̱³³	mă¹ŋai³³ta̱³³	autumn	autumn		9.1.2		0		
+334012	679	Jingpho	n̩³¹ʃuŋ³³ta̱³³	n̩³¹ʃuŋ³³ta̱³³	winter	winter		9.1.2		0		
+334013	679	Jingpho	ʃă³ta̱³³	ʃă³ta̱³³	month	month		9.1.2		0		
+334014	679	Jingpho	ʒa³³ta̱³³	ʒa³³ta̱³³	January	January		9.1.2		0		
+334015	679	Jingpho	wut³¹ta̱³³	wut³¹ta̱³³	February	February		9.1.2		0		
+334016	679	Jingpho	ʃă¹la³¹ta̱³³	ʃă¹la³¹ta̱³³	March	March		9.1.2		0		
+334017	679	Jingpho	tʃă¹thum³³ta̱³³	tʃă¹thum³³ta̱³³	April	April		9.1.2		0		
+334018	679	Jingpho	să³ŋan³³ta̱³³	să³ŋan³³ta̱³³	May	May		9.1.2		0		
+334019	679	Jingpho	ʃi³¹mă¹ʒi³¹ta̱³³	ʃi³¹mă¹ʒi³¹ta̱³³	June	June		9.1.2		0		
+334020	679	Jingpho	kup³¹ʃi³¹ta̱³³	kup³¹ʃi³¹ta̱³³	July	July		9.1.2		0		
+334021	679	Jingpho	kup³¹tuŋ³³ta̱³³	kup³¹tuŋ³³ta̱³³	August	August		9.1.2		0		
+334022	679	Jingpho	ka̱⁵la⁵⁵ta̱³³	ka̱⁵la⁵⁵ta̱³³	September	September		9.1.2		0		
+334023	679	Jingpho	mă³tʃi³³ta̱³³	mă³tʃi³³ta̱³³	October	October		9.1.2		0		
+334024	679	Jingpho	mă⁵la³¹ta̱³³	mă⁵la³¹ta̱³³	November	November		9.1.2		0		
+334025	679	Jingpho	khɹu⁵⁵ta̱³³	khɹu⁵⁵ta̱³³	December	December		9.1.2		0		
+334026	679	Jingpho	jaʔ⁵⁵	jaʔ⁵⁵	day (24 hours)	day (24 hours)		1.5.3.2		0		2636
+334027	679	Jingpho	tai³¹ni⁵⁵	tai³¹ni⁵⁵	today	today		9.1.3		0		
+334028	679	Jingpho	mă⁵ni⁵⁵	mă⁵ni⁵⁵	yesterday	yesterday		9.1.3		0		
+334029	679	Jingpho	ma³³ni⁵⁵	ma³³ni⁵⁵	day before yesterday	day before yesterday		1.5.3.2		0		m,85
+334030	679	Jingpho	phot⁵⁵ni⁵⁵	phot⁵⁵ni⁵⁵	tomorrow	tomorrow		9.1.3		0	D0	
+334031	679	Jingpho	phot⁵⁵ni⁵⁵tin³¹	phot⁵⁵ni⁵⁵tin³¹	day after tomorrow	day after tomorrow		1.5.3.2		0		m,85,m
+334032	679	Jingpho	pɹo̱ʔ⁵⁵lă⁵ŋai³¹	pɹo̱ʔ⁵⁵lă⁵ŋai³¹	first day of the month	first day of the month		9.9		0		
+334033	679	Jingpho	pɹo̱ʔ⁵⁵lă⁵khoŋ³¹	pɹo̱ʔ⁵⁵lă⁵khoŋ³¹	second day of the month	second day of the month		9.9		0		
+334034	679	Jingpho	pɹo̱ʔ⁵⁵mă¹sum³³	pɹo̱ʔ⁵⁵mă¹sum³³	third day of the month	third day of the month		9.9		0		
+334035	679	Jingpho	pɹo̱ʔ⁵⁵mă¹ŋa³³	pɹo̱ʔ⁵⁵mă¹ŋa³³	fifth day of the month	fifth day of the month		9.9		0		
+334036	679	Jingpho	pɹo̱ʔ⁵⁵ʃi³³jaʔ⁵⁵	pɹo̱ʔ⁵⁵ʃi³³jaʔ⁵⁵	tenth day of the month	tenth day of the month		9.9		0		m,m,m,2636
+334037	679	Jingpho	pɹo̱ʔ⁵⁵ʃi³³lă⁵ŋai³¹jaʔ⁵⁵	pɹo̱ʔ⁵⁵ʃi³³lă⁵ŋai³¹jaʔ⁵⁵	eleventh day of the month	eleventh day of the month		9.9		0		m,m,m,m,2636
+334038	679	Jingpho	ʃă¹koŋ³¹	ʃă¹koŋ³¹	fifteenth day of the month	fifteenth day of the month		9.9		0		
+334039	679	Jingpho	tʃan³³lai⁵⁵	tʃan³³lai⁵⁵	sixteenth day of the month	sixteenth day of the month		9.9		0		
+334040	679	Jingpho	sum³¹ʃi³³jaʔ⁵⁵	sum³¹ʃi³³jaʔ⁵⁵	thirtieth day of the month	thirtieth day of the month		9.9		0		m,m,2636
+334041	679	Jingpho	ʃă¹ni⁵⁵	ʃă¹ni⁵⁵	daytime	daytime		9.1.3		0		m,85
+334042	679	Jingpho	tʃă¹phot³¹	tʃă¹phot³¹	morning	morning		9.1.4		0		
+334043	679	Jingpho	ʃă¹ni⁵⁵ka³¹aŋ³³	ʃă¹ni⁵⁵ka³¹aŋ³³	noon	noon		9.1.4		0		m,85,m,m
+334044	679	Jingpho	ʃă¹naʔ⁵⁵	ʃă¹naʔ⁵⁵	night	night		9.1.4		0		
+334045	679	Jingpho	jaʔ⁵⁵	jaʔ⁵⁵	now	now		9.1.5		0		
+334046	679	Jingpho	ʃoŋ³³teʔ³¹	ʃoŋ³³teʔ³¹	in the past	in the past		10.1.1		0		
+334047	679	Jingpho	phaŋ³³teʔ³¹	phaŋ³³teʔ³¹	from now on	from now on		10.1.1		0		
+334048	679	Jingpho	ŋa³³	ŋa³³	bovine	bovine		2.1.2		0		
+334049	679	Jingpho	wă³loi³³	wă³loi³³	water buffalo	water buffalo		3.2.3		0		m,2427
+334050	679	Jingpho	tum³¹su³³	tum³¹su³³	common cattle	common cattle		7.1.7.2		0		
+334051	679	Jingpho	kum³¹ʒa³¹	kum³¹ʒa³¹	horse	horse		2.1.7		0		m,1431
+334052	679	Jingpho	waʔ³¹	waʔ³¹	pig	pig		2.1.12		0		1006
+334053	679	Jingpho	pai³¹nam³³	pai³¹nam³³	goat	goat		2.1.8		0		6033,m
+334054	679	Jingpho	să⁵ku³¹	să⁵ku³¹	sheep	sheep		2.1.8		0		p,6034
+334055	679	Jingpho	kui³¹	kui³¹	dog	dog		2.1.11		0		1764
+334056	679	Jingpho	ŋjau³³	ŋjau³³	cat	cat		2.1.3		0		
+334057	679	Jingpho	pɹa̱ŋ³¹ta̱i⁵⁵	pɹa̱ŋ³¹ta̱i⁵⁵	rabbit	rabbit		2.1.1		0		
+334058	679	Jingpho	pă¹ʒen³¹	pă¹ʒen³¹	dragon	dragon		2.1.5		0		
+334059	679	Jingpho	mă¹kui³³|	mă¹kui³³|	elephant	elephant		2.2.1		0		2257
+334060	679	Jingpho	ʃă¹ʒo³³	ʃă¹ʒo³³	tiger	tiger		2.1.3		0		m,2618
+334061	679	Jingpho	ʒoŋ³¹pa³¹	ʒoŋ³¹pa³¹	tiger	tiger		2.1.3		0		2618,m
+334062	679	Jingpho	tsa̱p⁵⁵	tsa̱p⁵⁵	bear	bear	n	2.2.3		0		
+334063	679	Jingpho	ʃă¹ʒo³³	ʃă¹ʒo³³	leopard	leopard		2.1.3		0		m,2618
+334064	679	Jingpho	waʔ³¹tu³¹	waʔ³¹tu³¹	boar	boar		2.1.12		0		1006,m
+334065	679	Jingpho	woi³³	woi³³	monkey	monkey		2.1.9		0		2782
+334066	679	Jingpho	tʃă³|khjon³³	tʃă³|khjon³³	wolf	wolf		2.1.11		0		6053
+334067	679	Jingpho	ʃă¹|ʒam³³	ʃă¹ʒam³³	otter	otter		2.2.7.1		0		2595
+334068	679	Jingpho	ju⁵⁵	ju⁵⁵	rat / mouse	rat / mouse		2.1.1		0		2796
+334069	679	Jingpho	u̱³¹	u̱³¹	chicken	chicken		2.1.10		0		1603
+334070	679	Jingpho	u̱³¹la³¹	u̱³¹la³¹	rooster	rooster		2.1.10		0		301,m
+334071	679	Jingpho	u̱³¹ji³¹	u̱³¹ji³¹	hen	hen		2.1.10		0		
+334072	679	Jingpho	khai³³pjek⁵⁵	khai³³pjek⁵⁵	duck	duck		2.1.10		0	D0	m,5716
+334073	679	Jingpho	khɹaŋ³³ma³³	khɹaŋ³³ma³³	goose	goose		2.1.10		0		
+334074	679	Jingpho	ʃaŋ³³ma³³	ʃaŋ³³ma³³	goose	goose		2.1.10		0		
+334075	679	Jingpho	u̱³¹ʒa̱⁵⁵	u̱³¹ʒa̱⁵⁵	pigeon	pigeon		2.2.4.1		0		
+334076	679	Jingpho	u̱³¹kɹa̱ŋ³³	u̱³¹kɹa̱ŋ³³	pheasant	pheasant		2.2.4.1		0		
+334077	679	Jingpho	u̱³¹	u̱³¹	bird	bird		2.2.4		0		1603
+334078	679	Jingpho	kă³la³³	kă³la³³	eagle	eagle		2.2.4.1		0		m,2393
+334079	679	Jingpho	u³³kha³³	u³³kha³³	crow	crow	n.	2.2.4.1		0		1603,2279
+334080	679	Jingpho	kă³kha³³	kă³kha³³	crow	crow	n.	2.2.4.1		0		m,2279
+334081	679	Jingpho	khă⁵ka̱³¹laʔ³¹	khă⁵ka̱³¹laʔ³¹	magpie	magpie		2.2.4.1		0		
+334082	679	Jingpho	lă¹mu³¹pji̱⁵⁵lan³¹	lă¹mu³¹pji̱⁵⁵lan³¹	swallow	swallow		1.3.5.6		0		
+334083	679	Jingpho	u̱³¹tsa̱³³	u̱³¹tsa̱³³	sparrow	sparrow		2.2.4.1		0	D0	1603,5413
+334084	679	Jingpho	phă⁵tsi̱p⁵⁵	phă⁵tsi̱p⁵⁵	bat	bat		2.2.4.1		0		
+334085	679	Jingpho	ʃuʔ³¹	ʃuʔ³¹	frog	frog		2.1.6.2		0		
+334086	679	Jingpho	ŋa⁵⁵	ŋa⁵⁵	fish	fish		2.2.5		0		1455
+334087	679	Jingpho	la¹pu̱³³	la¹pu̱³³	snake	snake		2.1.6.1		0		p,2178
+334088	679	Jingpho	kat³¹ne̱n³³	kat³¹ne̱n³³	honeybee	honeybee		2.2.6		0		
+334089	679	Jingpho	pă̱¹lam³¹laʔ⁵⁵	pă̱¹lam³¹laʔ⁵⁵	butterfly	butterfly		2.2.6		0		
+334090	679	Jingpho	khaʔ³¹n̩³¹sen³¹	khaʔ³¹n̩³¹sen³¹	dragonfly	dragonfly		2.2.6		0		
+334091	679	Jingpho	khă³ton³³	khă³ton³³	cricket	cricket		2.2.6		0		
+334092	679	Jingpho	n̩³³ka̱ŋ³³ko̱t³¹	n̩³³ka̱ŋ³³ko̱t³¹	mantis	mantis		1.9.6.1		0		
+334093	679	Jingpho	kă³kjin³³	kă³kjin³³	ant	ant		2.2.6		0		
+334094	679	Jingpho	waʔ³¹n̩⁵⁵tu³¹jan³³	waʔ³¹n̩⁵⁵tu³¹jan³³	centipede	centipede		2.2.6		0		
+334095	679	Jingpho	n̩³¹ti³¹kɹam³¹	n̩³¹ti³¹kɹam³¹	spider	spider		2.2.6		0		
+334096	679	Jingpho	ʃă⁵kɹep⁵⁵	ʃă⁵kɹep⁵⁵	bedbug	bedbug		2.2.6		0		
+334097	679	Jingpho	waʔ³¹khă³li³³	waʔ³¹khă³li³³	flea	flea		2.2.6		0		
+334098	679	Jingpho	ʃă⁵kɹa̱t⁵⁵	ʃă⁵kɹa̱t⁵⁵	louse	louse		2.2.6		0		
+334099	679	Jingpho	mă⁵tʃi̱³¹	mă⁵tʃi̱³¹	fly	fly	n	2.2.6		0		
+334100	679	Jingpho	tʃiʔ³¹kɹoŋ³¹	tʃiʔ³¹kɹoŋ³¹	mosquito	mosquito		2.2.6		0		
+334101	679	Jingpho	toŋ³¹pjin³¹	toŋ³¹pjin³¹	leech	leech		2.2.6		0	D0	
+334102	679	Jingpho	wot³¹pjin³¹	wot³¹pjin³¹	leech	leech		2.2.6		0		2555,m
+334103	679	Jingpho	kă³tʃin³³tʃai³³	kă³tʃin³³tʃai³³	earthworm	earthworm		2.2.6		0		
+334104	679	Jingpho	pjet³¹	pjet³¹	maggot	maggot		2.2.6		0		
+334105	679	Jingpho	ʃiŋ³³ta̱i³³	ʃiŋ³³ta̱i³³	insect / worm	insect / worm		2.2.6		0		
+334106	679	Jingpho	phun⁵⁵	phun⁵⁵	tree	tree		3.1.2		0		2176
+334107	679	Jingpho	mă¹ʒau³³phun⁵⁵	mă¹ʒau³³phun⁵⁵	pine	pine		3.1.1		0		p,2620,m
+334108	679	Jingpho	ʃa³³mu³¹phun⁵⁵	ʃa³³mu³¹phun⁵⁵	fir	fir		3.1.1		0		
+334109	679	Jingpho	khaʔ³¹num⁵⁵ʒi³¹phun⁵⁵	khaʔ³¹num⁵⁵ʒi³¹phun⁵⁵	willow	willow		3.1.1		0		
+334110	679	Jingpho	kă̱⁵|wa⁵⁵	kă̱⁵wa⁵⁵	bamboo	bamboo		3.1.1		0		2549
+334111	679	Jingpho	mă⁵kɹu̱ʔ⁵⁵	mă⁵kɹu̱ʔ⁵⁵	bamboo shoot	bamboo shoot		3.1.1		0		
+334112	679	Jingpho	ma³³~mam³³	ma³³~mam³³	rice (plant)	rice (plant)		3.1.4		0		2445,m
+334113	679	Jingpho	khau³¹lan³¹mam³³	khau³¹lan³¹mam³³	wheat	wheat		3.1.4		0	D0	
+334114	679	Jingpho	thaŋ³¹mam³³	thaŋ³¹mam³³	wheat	wheat		3.1.4		0		
+334115	679	Jingpho	lă⁵tsa̱n³³	lă⁵tsa̱n³³	sorghum	sorghum		3.1.4		0		
+334116	679	Jingpho	khai⁵⁵nu³³	khai⁵⁵nu³³	maize	maize		3.1.5		0		
+334117	679	Jingpho	nai³¹sam³³	nai³¹sam³³	sweet potato	sweet potato		7.1.4.4		0		
+334118	679	Jingpho	jaŋ³¹ji³³	jaŋ³¹ji³³	potato	potato		3.1.5		0		bChinese
+334119	679	Jingpho	nai³¹	nai³¹	taro	taro		3.1.5.1		0		5598
+334120	679	Jingpho	ku̱m⁵⁵ʃu⁵⁵	ku̱m⁵⁵ʃu⁵⁵	sugarcane	sugarcane		3.1.5		0	D0	
+334121	679	Jingpho	ka̱⁵⁵lă⁵si³¹	ka̱⁵⁵lă⁵si³¹	peanut	peanut		3.1.4		0		
+334122	679	Jingpho	pă¹si³³	pă¹si³³	cotton	cotton		5.1		0		
+334123	679	Jingpho	noʔ³¹kju̱⁵⁵	noʔ³¹kju̱⁵⁵	beans	beans		3.1.4		0	D0	
+334124	679	Jingpho	kum³¹khje³³	kum³¹khje³³	pumpkin	pumpkin		3.1.5		0		
+334125	679	Jingpho	n̩³³kjin³³	n̩³³kjin³³	cucumber	cucumber		3.1.5		0		
+334126	679	Jingpho	ʃă¹pa³¹	ʃă¹pa³¹	eggplant	eggplant		3.1.5		0		
+334127	679	Jingpho	tʃiŋ⁵⁵khɹaŋ⁵⁵	tʃiŋ⁵⁵khɹaŋ⁵⁵	vegetable	vegetable		3.1.2		0		
+334128	679	Jingpho	khɹaŋ³¹phɹo³¹	khɹaŋ³¹phɹo³¹	Chinese cabbage	Chinese cabbage		4.6		0		m,1235
+334129	679	Jingpho	khɹaŋ³¹khji⁵⁵	khɹaŋ³¹khji⁵⁵	radish	radish		3.1.5		0		
+334130	679	Jingpho	lo³¹pu³³	lo³¹pu³³	radish	radish		3.1.5		0		bChinese
+334131	679	Jingpho	kau³¹poŋ³³	kau³¹poŋ³³	green onion	green onion		9.4		0		
+334132	679	Jingpho	la³¹|son³³	la³¹son³³	garlic	garlic		3.1.5		0		bIndic,5679
+334133	679	Jingpho	ʃă⁵nam⁵⁵	ʃă⁵nam⁵⁵	ginger	ginger		3.1.5		0		
+334134	679	Jingpho	mă⁵tʃap⁵⁵	mă⁵tʃap⁵⁵	hot pepper	hot pepper				0		
+334135	679	Jingpho	nam³¹si³¹	nam³¹si³¹	fruit	fruit		3.1.5		0		
+334136	679	Jingpho	sa⁵ŋum⁵⁵si³¹	sa⁵ŋum⁵⁵si³¹	peach	peach		3.1.5		0		
+334137	679	Jingpho	khai⁵⁵nu³³si³¹	khai⁵⁵nu³³si³¹	pomegranate	pomegranate		3.1.5		0		
+334138	679	Jingpho	mu³¹wa³¹să⁵pjin³¹	mu³¹wa³¹să⁵pjin³¹	persimmon	persimmon		3.1.5		0		
+334139	679	Jingpho	să³pjin³³si³¹	să³pjin³³si³¹	persimmon	persimmon		3.1.5		0		
+334140	679	Jingpho	să¹pjiʔ⁵⁵si³¹	să¹pjiʔ⁵⁵si³¹	grape	grape		3.1.5		0		
+334141	679	Jingpho	mă⁵lut⁵⁵	mă⁵lut⁵⁵	tobacco	tobacco		3.1.6.2		0		
+334142	679	Jingpho	tsiŋ³³	tsiŋ³³	grass	grass		3.1.8		0		
+334143	679	Jingpho	pɹa̱ŋ³³	pɹa̱ŋ³³	cogongrass	cogongrass				0		
+334144	679	Jingpho	tsi̱ŋ³³tu³³	tsi̱ŋ³³tu³³	green grass	green grass		9.4		0		
+334145	679	Jingpho	mă⁵ti̱³¹	mă⁵ti̱³¹	mushroom	mushroom		3.1.7		0		
+334146	679	Jingpho	li³³~n̩³³li³³	li³³~n̩³³li³³	seed	seed		3.1.4		0		3560,m,3560
+334147	679	Jingpho	ʒu³¹	ʒu³¹	root	root		3.1.2		0		
+334148	679	Jingpho	n̩⁵⁵phun⁵⁵	n̩⁵⁵phun⁵⁵	stem / stalk	stem / stalk		3.1.2		0		
+334149	679	Jingpho	lap³¹	lap³¹	leaf	leaf		3.1.3		0		824
+334150	679	Jingpho	lă¹kjiŋ³¹	lă¹kjiŋ³¹	branch	branch		1.5.3.1		0		m,2358
+334151	679	Jingpho	mă¹ku̱ʔ⁵⁵	mă¹ku̱ʔ⁵⁵	bud	bud		3.1.4		0		
+334152	679	Jingpho	tu̱m³³	tu̱m³³	pit / stone	pit / stone		3.1.2		0		
+334153	679	Jingpho	pu̱³¹	pu̱³¹	flower (blossom of fruit)	flower (blossom of fruit)		3.1.4		0		1811
+334154	679	Jingpho	nam³¹pa̱n³³	nam³¹pa̱n³³	flower (ornamental)	flower (ornamental)		3.1.4		0		m,2153
+334155	679	Jingpho	n̩⁵⁵si³¹	n̩⁵⁵si³¹	ear of grain	ear of grain		1.2.7		0		
+334156	679	Jingpho	tʃu⁵⁵	tʃu⁵⁵	thorn	thorn		3.1.2		0		2741
+334157	679	Jingpho	mă¹ʃa³¹	mă¹ʃa³¹	person	person		4.5		0		
+334158	679	Jingpho	la³³	la³³	man / male	man / male		1.9.6.1		0		
+334159	679	Jingpho	num³³	num³³	woman / female	woman / female		1.9.3		0		
+334160	679	Jingpho	tiŋ³¹la³³	tiŋ³¹la³³	old person (male)	old person (male)		7.1.8.3		0		
+334161	679	Jingpho	kum³¹kai³³	kum³¹kai³³	old person (femmale)	old person (femmale)		7.1.8.3		0		
+334162	679	Jingpho	ʃă¹pɹaŋ³¹	ʃă¹pɹaŋ³¹	young man	young man		7.1.8.3		0		
+334163	679	Jingpho	mă¹khon³³	mă¹khon³³	young woman	young woman		7.1.8.3		0		
+334164	679	Jingpho	ma³¹	ma³¹	child	child		1.5.3.2		0		
+334165	679	Jingpho	tʃiŋ³¹khuʔ³¹	tʃiŋ³¹khuʔ³¹	friend	friend		4.4.2		0		
+334166	679	Jingpho	ti³¹ʒin³¹	ti³¹ʒin³¹	enemy	enemy		4.2.6		0		
+334167	679	Jingpho	mă¹tuʔ³¹	mă¹tuʔ³¹	host	host		4.4.2		0		
+334168	679	Jingpho	mă¹nam³¹	mă¹nam³¹	guest	guest		4.4.3		0		
+334169	679	Jingpho	lak³¹să³ma³³	lak³¹să³ma³³	carpenter	carpenter		4.2.1.4		0		
+334170	679	Jingpho	tʃu⁵⁵ʃi³¹	tʃu⁵⁵ʃi³¹	chairman	chairman				0		
+334171	679	Jingpho	tsuŋ⁵⁵li⁵⁵	tsuŋ⁵⁵li⁵⁵	prime minister	prime minister				0		
+334172	679	Jingpho	pu³³tʃaŋ⁵⁵	pu³³tʃaŋ⁵⁵	minister	minister				0		
+334173	679	Jingpho	ʃen³³tʃaŋ⁵⁵	ʃen³³tʃaŋ⁵⁵	county magistrate	county magistrate				0		
+334174	679	Jingpho	ʃu⁵⁵kji³³	ʃu⁵⁵kji³³	clerk	clerk				0		
+334175	679	Jingpho	ʃe³³tʃaŋ⁵⁵	ʃe³³tʃaŋ⁵⁵	society head	society head		5.8		0		
+334176	679	Jingpho	ʃe³³jen³¹	ʃe³³jen³¹	society member	society member		5.8		0		
+334177	679	Jingpho	ʃe³³mă¹ʃa³¹	ʃe³³mă¹ʃa³¹	society member	society member		5.8		0		
+334178	679	Jingpho	taŋ⁵⁵jen³¹	taŋ⁵⁵jen³¹	party member	party member		4.4		0		
+334179	679	Jingpho	thon³¹jen³¹	thon³¹jen³¹	member (of group)	member (of group)		1.5.3.2		0		
+334180	679	Jingpho	thuŋ³¹tʃi³³	thuŋ³¹tʃi³³	comrade	comrade		4.4.2		0		bChinese
+334181	679	Jingpho	mjit³¹ʒum⁵⁵wa³³	mjit³¹ʒum⁵⁵wa³³	comrade	comrade		4.4.2		0		m
+334182	679	Jingpho	kan³³pu³³	kan³³pu³³	cadre	cadre		4.4		0		
+334183	679	Jingpho	khjin³¹tʃuŋ³³	khjin³¹tʃuŋ³³	masses	masses				0		
+334184	679	Jingpho	tu³³	tu³³	official	official	n	5.8		0		
+334185	679	Jingpho	phjen³³	phjen³³	soldier	soldier		4.2.6		0		
+334186	679	Jingpho	kuŋ³³ʒin³¹	kuŋ³³ʒin³¹	worker	worker		6.1.1		0		bChinese
+334187	679	Jingpho	tʃak³¹mu⁵⁵mă¹ʃa³¹	tʃak³¹mu⁵⁵mă¹ʃa³¹	worker	worker		6.1.1		0		
+334188	679	Jingpho	nuŋ³¹mjin³¹	nuŋ³¹mjin³¹	farmer	farmer		9.10.5		0	D0	
+334189	679	Jingpho	khai⁵⁵mu⁵⁵mă¹ʃa³¹	khai⁵⁵mu⁵⁵mă¹ʃa³¹	farmer	farmer		9.10.5		0		
+334190	679	Jingpho	tsi̱³¹să³ʒa³³	tsi̱³¹să³ʒa³³	doctor	doctor		4.2.1.5		0		
+334191	679	Jingpho	să³ʒa³³	să³ʒa³³	teacher	teacher		6.19		0		b?Burmese?
+334192	679	Jingpho	tʃoŋ³¹ma³¹	tʃoŋ³¹ma³¹	student	student		4.2.2		0	D0	
+334193	679	Jingpho	tai³³pjau⁵⁵	tai³³pjau⁵⁵	representative	representative		4.2.5.2		0		
+334194	679	Jingpho	mo³¹fan⁵⁵	mo³¹fan⁵⁵	model (examplary person)	model (examplary person)		5.11		0		
+334195	679	Jingpho	jin⁵⁵ʃuŋ³¹	jin⁵⁵ʃuŋ³¹	hero	hero		4.2.3		0		bChinese
+334196	679	Jingpho	mjin³¹tsu³¹	mjin³¹tsu³¹	nationality	nationality		5.8		0		bChinese
+334197	679	Jingpho	a³¹mju⁵⁵	a³¹mju⁵⁵	nationality	nationality		5.8		0	D0	
+334198	679	Jingpho	mu³¹wa³¹	mu³¹wa³¹	Chinese (nationality)	Chinese (nationality)		4.6		0		
+334199	679	Jingpho	mji³¹wa³¹	mji³¹wa³¹	Chinese (nationality)	Chinese (nationality)		4.6		0		
+334200	679	Jingpho	kă¹tʃi³³tui³¹~kă¹tʃi³³	kă¹tʃi³³tui³¹~kă¹tʃi³³	grandfather	grandfather		4.7.1		0		
+334201	679	Jingpho	kă¹woi³³tui³¹~kă¹woi³³	kă¹woi³³tui³¹~kă¹woi³³	grandmother	grandmother		4.7.1		0		
+334202	679	Jingpho	kă¹wa³¹	kă¹wa³¹	father	father		4.7.1		0		
+334203	679	Jingpho	kă¹nu³¹	kă¹nu³¹	mother	mother		4.7.1		0		
+334204	679	Jingpho	wa³¹pa³¹	wa³¹pa³¹	elder paternal uncle	elder paternal uncle		4.7.1		0		
+334205	679	Jingpho	tuŋ³³	tuŋ³³	elder paternal uncle's wife	elder paternal uncle's wife		4.7.1		0		
+334206	679	Jingpho	kă¹ku³¹	kă¹ku³¹	paternal aunt's husband	paternal aunt's husband		4.7.1		0		
+334207	679	Jingpho	kă¹moi³³	kă¹moi³³	paternal aunt	paternal aunt		4.7.1		0		
+334208	679	Jingpho	kă¹tsa̱³¹	kă¹tsa̱³¹	maternal uncle	maternal uncle		4.7.1		0		
+334209	679	Jingpho	kă¹ni³³	kă¹ni³³	maternal uncle's wife	maternal uncle's wife		1.5.3.2		0		
+334210	679	Jingpho	kă¹tsa̱³¹	kă¹tsa̱³¹	father-in-law	father-in-law		4.7.4		0		
+334211	679	Jingpho	kă¹ni³³	kă¹ni³³	mother-in-law	mother-in-law		4.7.4		0		
+334212	679	Jingpho	kă¹phu³¹	kă¹phu³¹	elder brother	elder brother		4.7.1		0		
+334213	679	Jingpho	kă¹na³³	kă¹na³³	elder sister	elder sister		4.7.1		0		m,1623
+334214	679	Jingpho	kă¹nau³³	kă¹nau³³	younger brother	younger brother				0		
+334215	679	Jingpho	kă¹nau³³	kă¹nau³³	younger sister	younger sister				0		
+334216	679	Jingpho	mă¹tuʔ³¹wa³³	mă¹tuʔ³¹wa³³	husband	husband		4.7.4		0		
+334217	679	Jingpho	mă¹tuʔ³¹tʃan³³	mă¹tuʔ³¹tʃan³³	wife	wife		4.7.4		0		
+334218	679	Jingpho	la³³ʃa³¹	la³³ʃa³¹	son	son		4.7.3		0		
+334219	679	Jingpho	num³³ʃa³¹	num³³ʃa³¹	daughter	daughter		4.7.3		0	D0	
+334220	679	Jingpho	kă¹nam³³	kă¹nam³³	daughter-in-law	daughter-in-law		4.7.4		0		m,2486
+334221	679	Jingpho	kă¹khɹi³³	kă¹khɹi³³	son-in-law	son-in-law		4.7.4		0		
+334222	679	Jingpho	kă¹ʃa³¹	kă¹ʃa³¹	nephew	nephew		4.7.3		0		
+334223	679	Jingpho	kă¹ʃa³¹	kă¹ʃa³¹	niece	niece		4.7.3		0		
+334224	679	Jingpho	kă¹ʃu³¹	kă¹ʃu³¹	grandson	grandson		4.7.3		0		
+334225	679	Jingpho	kă¹ʃu³¹	kă¹ʃu³¹	granddaughter	granddaughter		4.7.3		0		
+334226	679	Jingpho	n̩⁵⁵ta̱³¹	n̩⁵⁵ta̱³¹	house	house		5.11.9.1		0		
+334227	679	Jingpho	n̩⁵⁵ta̱³¹	n̩⁵⁵ta̱³¹	home	home		5.11.9.6		0		
+334228	679	Jingpho	ʃă⁵ku̱m³¹	ʃă⁵ku̱m³¹	wall	wall		5.11.9.3		0		
+334229	679	Jingpho	ʃă¹to⁵⁵	ʃă¹to⁵⁵	pole	pole		9.7.1		0		
+334230	679	Jingpho	num³¹ko³³	num³¹ko³³	beam	beam		5.11.9		0		
+334231	679	Jingpho	tʃi̱ŋ³³kha³³	tʃi̱ŋ³³kha³³	door	door		5.11.9.3		0		
+334232	679	Jingpho	n̩³³kha³³	n̩³³kha³³	door	door		5.11.9.3		0		
+334233	679	Jingpho	khă⁵lap⁵⁵	khă⁵lap⁵⁵	window	window		5.11.9.3		0		
+334234	679	Jingpho	tʃă¹khui³³	tʃă¹khui³³	lime (mineral)	lime (mineral)		3.1.5		0		
+334235	679	Jingpho	wut³¹	wut³¹	brick	brick		5.11.9.3		0		bBurmese,5751
+334236	679	Jingpho	wa⁵⁵	wa⁵⁵	tile	tile		5.8		0		bChinese
+334237	679	Jingpho	phun⁵⁵pjen³³	phun⁵⁵pjen³³	board / plank	board / plank		5.11.9		0		m,707
+334238	679	Jingpho	tin³¹tse³¹	tin³¹tse³¹	nail (tool)	nail (tool)		1.5.10		0		
+334239	679	Jingpho	mai³¹na⁵⁵	mai³¹na⁵⁵	nail (tool)	nail (tool)		1.5.10		0		
+334240	679	Jingpho	mjuʔ⁵⁵	mjuʔ⁵⁵	city	city		9.10.3		0		
+334241	679	Jingpho	kă¹thoŋ³¹	kă¹thoŋ³¹	village	village		5.8		0		
+334242	679	Jingpho	mjau³³	mjau³³	temple	temple		1.2.5.1		0		bChinese
+334243	679	Jingpho	lup³¹	lup³¹	grave	grave		9.10.6		0		
+334244	679	Jingpho	mam³³tum³³	mam³³tum³³	granary	granary		5.11.9.5		0	D0	
+334245	679	Jingpho	sun⁵⁵	sun⁵⁵	vegetable garden	vegetable garden		3.1.2		0		
+334246	679	Jingpho	kai³¹waŋ³³	kai³¹waŋ³³	vegetable garden	vegetable garden		3.1.2		0		
+334247	679	Jingpho	wă⁵loŋ³¹	wă⁵loŋ³¹	enclosure (pen)	enclosure (pen)		9.10.5		0		
+334248	679	Jingpho	u̱³¹tsi̱p⁵⁵	u̱³¹tsi̱p⁵⁵	nest	nest		2.2.4		0		1603,1613
+334249	679	Jingpho	puŋ³¹khoʔ⁵⁵	puŋ³¹khoʔ⁵⁵	scarf for the head / turban	scarf for the head / turban		5.11.8.2.1.1		0		388,m
+334250	679	Jingpho	kup³¹tʃo̱p⁵⁵	kup³¹tʃo̱p⁵⁵	hat	hat		5.11.8.2.1.1		0		
+334251	679	Jingpho	kă¹pan³³	kă¹pan³³	bamboo hat	bamboo hat		3.1.1		0		
+334252	679	Jingpho	lă³tan³³	lă³tan³³	earring	earring		5.11.8.3		0		
+334253	679	Jingpho	na³³lă³tan³³	na³³lă³tan³³	earring	earring		5.11.8.3		0		
+334254	679	Jingpho	lă⁵khon³¹	lă⁵khon³¹	bracelet	bracelet		5.11.8.3		0		695,m
+334255	679	Jingpho	na³³ji³³	na³³ji³³	wristwatch	wristwatch		5.11.8.3		0	D0	b?
+334256	679	Jingpho	laʔ³¹tʃo̱p⁵⁵	laʔ³¹tʃo̱p⁵⁵	ring	ring	n	5.11.8.3		0		695,m
+334257	679	Jingpho	pă̱³loŋ³³	pă̱³loŋ³³	clothes	clothes		5.11.8.2.1		0		
+334258	679	Jingpho	loŋ³¹ta̱ʔ⁵⁵	loŋ³¹ta̱ʔ⁵⁵	sleeve	sleeve		5.11.8.2.3		0	D0	
+334259	679	Jingpho	so³¹ji³¹	so³¹ji³¹	raincoat	raincoat		5.11.8.2.2		0		
+334260	679	Jingpho	lă¹pu³¹	lă¹pu³¹	trousers / pants	trousers / pants		5.11.8.2.1.3		0		p,2180
+334261	679	Jingpho	lă¹pu³¹	lă¹pu³¹	skirt	skirt		5.11.8.2.1		0		
+334262	679	Jingpho	ko³³khjen³¹	ko³³khjen³¹	legging	legging		5.11.8.1		0	D0	
+334263	679	Jingpho	kjep³¹tin³³	kjep³¹tin³³	shoe	shoe		5.11.8.1		0		
+334264	679	Jingpho	mo³³tsa³³	mo³³tsa³³	socks	socks		5.11.8.2.1.3		0		
+334265	679	Jingpho	sut⁵⁵	sut⁵⁵	mosquito net	mosquito net		2.2.6		0		
+334266	679	Jingpho	n̩³¹pa̱⁵⁵	n̩³¹pa̱⁵⁵	quilt	quilt		5.1		0		
+334267	679	Jingpho	tʃa⁵thai³¹	tʃa⁵thai³¹	mat	mat		5.11.9.4		0		
+334268	679	Jingpho	puŋ³¹khum⁵⁵	puŋ³¹khum⁵⁵	pillow	pillow		1.2.1		0	D0	m,692
+334269	679	Jingpho	sum³³pa̱n³³	sum³³pa̱n³³	cloth	cloth		5.1		0	D0	
+334270	679	Jingpho	lai³³sum³³pa̱n³³	lai³³sum³³pa̱n³³	silk (cloth)	silk (cloth)		5.1		0		
+334271	679	Jingpho	n̩³³ku³³	n̩³³ku³³	rice (uncooked)	rice (uncooked)		3.1.4		0		m,5817
+334272	679	Jingpho	ʃă⁵tuŋ³¹	ʃă⁵tuŋ³¹	flour	flour		3.1.6.2		0		
+334273	679	Jingpho	ʃat³¹	ʃat³¹	rice (cooked)	rice (cooked)		3.1.4		0		
+334274	679	Jingpho	phaʔ³¹	phaʔ³¹	gruel	gruel		5.5		0		
+334275	679	Jingpho	tʃum³¹	tʃum³¹	salt	salt		3.2.4		0		2644
+334276	679	Jingpho	ʃaʔ³¹mai⁵⁵	ʃaʔ³¹mai⁵⁵	dish (of food)	dish (of food)		5.5		0		
+334277	679	Jingpho	ʃaʔ³¹mai⁵⁵tʃă¹khu³³	ʃaʔ³¹mai⁵⁵tʃă¹khu³³	soup	soup		5.5		0		
+334278	679	Jingpho	tʃă̱⁵ʒu³¹	tʃă̱⁵ʒu³¹	liquor	liquor		3.1.6.3		0		
+334279	679	Jingpho	mjen³³	mjen³³	noodles	noodles		5.5		0		bChinese
+334280	679	Jingpho	phaʔ³¹lap³¹	phaʔ³¹lap³¹	tea	tea		3.1.1		0		821,m
+334281	679	Jingpho	thaŋ³¹	thaŋ³¹	sugar	sugar		3.1.6.2		0		bChinese
+334282	679	Jingpho	tʃum³¹tui³¹	tʃum³¹tui³¹	sugar	sugar		3.1.6.2		0	D0	
+334283	679	Jingpho	khă⁵ŋui³¹	khă⁵ŋui³¹	bran	bran	n	3.1.4		0		
+334284	679	Jingpho	num⁵⁵kho⁵⁵	num⁵⁵kho⁵⁵	husk	husk		3.1.2		0		
+334285	679	Jingpho	waʔ³¹ʃat³¹	waʔ³¹ʃat³¹	feed	feed		1.3.5.8		0		1006,m
+334286	679	Jingpho	niŋ³¹wa³³	niŋ³¹wa³³	ax	ax		5.11.5.3		0		
+334287	679	Jingpho	n̩³¹thu³³	n̩³¹thu³³	knife	knife		5.5		0		
+334288	679	Jingpho	n̩³¹ʃau³³	n̩³¹ʃau³³	sickle	sickle	n	5.3		0		
+334289	679	Jingpho	na³¹tʃeʔ⁵⁵	na³¹tʃeʔ⁵⁵	hoe	hoe	n	5.3		0		
+334290	679	Jingpho	na³¹thai³³	na³¹thai³³	plough	plough	n	5.3		0		
+334291	679	Jingpho	na³¹|sit³¹	na³¹sit³¹	rake	rake		5.1		0		1219
+334292	679	Jingpho	wan³¹tan³¹	wan³¹tan³¹	yoke	yoke		5.14		0		
+334293	679	Jingpho	tʃak³¹	tʃak³¹	machine	machine		5.1		0		
+334294	679	Jingpho	tho³³la³³tʃi³³	tho³³la³³tʃi³³	tractor	tractor				0		
+334295	679	Jingpho	phuŋ³¹	phuŋ³¹	loom	loom		5.1		0		
+334296	679	Jingpho	sum³¹tu³³	sum³¹tu³³	spade	spade		5.3		0		
+334297	679	Jingpho	tʃiŋ³¹ʒet⁵⁵	tʃiŋ³¹ʒet⁵⁵	saw	saw		5.11.5.3		0		
+334298	679	Jingpho	să⁵mjit⁵⁵	să⁵mjit⁵⁵	needle	needle		5.1		0		
+334299	679	Jingpho	ʒi³¹~a³¹ʒi³¹	ʒi³¹~a³¹ʒi³¹	thread	thread		5.11.6		0		
+334300	679	Jingpho	sum³³ʒi³³	sum³³ʒi³³	rope	rope		5.11.4		0		
+334301	679	Jingpho	să⁵nat⁵⁵	să⁵nat⁵⁵	gun	gun		5.15		0		
+334302	679	Jingpho	mjok³¹	mjok³¹	cannon	cannon		5.15		0		5791
+334303	679	Jingpho	tʃu̱³³~pă̱⁵la⁵⁵	tʃu̱³³~pă̱⁵la⁵⁵	bullet	bullet		5.15		0		
+334304	679	Jingpho	n̩³¹|tan³³	n̩³¹tan³³	bow (weapon)	bow (weapon)		5.15		0		451
+334305	679	Jingpho	n̩³¹tan³³pă⁵la⁵⁵	n̩³¹tan³³pă⁵la⁵⁵	arrow	arrow		5.15		0		
+334306	679	Jingpho	ʃiŋ⁵⁵na⁵⁵	ʃiŋ⁵⁵na⁵⁵	stick	stick		3.1.2		0		
+334307	679	Jingpho	kha⁵won³³	kha⁵won³³	winnowing sieve	winnowing sieve		3.1.10		0		
+334308	679	Jingpho	ʃai³³	ʃai³³	sieve	sieve		5.5		0		
+334309	679	Jingpho	khiŋ³³	khiŋ³³	sieve	sieve	n	5.5		0		
+334310	679	Jingpho	khji³¹an³³	khji³¹an³³	saddle	saddle		5.14		0		m,bChinese
+334311	679	Jingpho	lui³³	lui³³	mill	mill		3.1.10		0		
+334312	679	Jingpho	thum³¹	thum³¹	pestle	pestle		5.5		0		
+334313	679	Jingpho	ka̱ʔ⁵⁵	ka̱ʔ⁵⁵	large bamboo basket	large bamboo basket		9.7.1		0		5819
+334314	679	Jingpho	tsoʔ³¹	tsoʔ³¹	lock	lock		1.2.3		0		
+334315	679	Jingpho	tsoʔ³¹si³¹	tsoʔ³¹si³¹	key	key		5.1		0		
+334316	679	Jingpho	tiŋ³¹je⁵⁵	tiŋ³¹je⁵⁵	broom	broom		5.4		0		m,2587
+334317	679	Jingpho	tiʔ³¹	tiʔ³¹	pot / wok	pot / wok		5.5		0		5786
+334318	679	Jingpho	mă¹kap³¹	mă¹kap³¹	lid	lid		5.1		0		
+334319	679	Jingpho	pu̱ŋ⁵⁵	pu̱ŋ⁵⁵	barrel / pail / bucket	barrel / pail / bucket		5.1		0		
+334320	679	Jingpho	thuŋ³¹phun³³	thuŋ³¹phun³³	wash basin	wash basin		6.2.2.5.2		0		
+334321	679	Jingpho	ʃaʔ³¹mai⁵⁵n̩³¹ʃi³¹	ʃaʔ³¹mai⁵⁵n̩³¹ʃi³¹	cleaver	cleaver				0		
+334322	679	Jingpho	wan³³	wan³³	bowl	bowl		5.1		0		
+334323	679	Jingpho	khoi³³tse³¹	khoi³³tse³¹	chopsticks	chopsticks		5.5		0	D0	bChinese
+334324	679	Jingpho	phan³¹~pan³¹	phan³¹~pan³¹	plate	plate		5.5		0		
+334325	679	Jingpho	kom³³	kom³³	cup	cup		5.1		0		
+334326	679	Jingpho	pă⁵lin⁵⁵	pă⁵lin⁵⁵	bottle	bottle		5.1		0		
+334327	679	Jingpho	să¹poi⁵⁵	să¹poi⁵⁵	table	table		5.11.9.4		0		
+334328	679	Jingpho	ti̱ŋ⁵⁵jaŋ³¹	ti̱ŋ⁵⁵jaŋ³¹	chair	chair		5.11.9.4		0		
+334329	679	Jingpho	lă⁵khum³¹	lă⁵khum³¹	stool	stool		5.11.9.4		0		
+334330	679	Jingpho	jup⁵⁵ku̱³¹	jup⁵⁵ku̱³¹	bed	bed		1.5.3.2		0		127,m
+334331	679	Jingpho	lă³ka̱³³	lă³ka̱³³	ladder	ladder		5.4		0		
+334332	679	Jingpho	să¹tek³¹	să¹tek³¹	trunk / box	trunk / box		1.4.1		0		
+334333	679	Jingpho	pat⁵⁵	pat⁵⁵	mirror	mirror		5.11.8.3		0		
+334334	679	Jingpho	man³³ju³³	man³³ju³³	mirror	mirror		5.11.8.3		0		
+334335	679	Jingpho	pă̱⁵|si⁵⁵	pă̱⁵si⁵⁵	comb	comb	n	1.2.2.1		0		1219
+334336	679	Jingpho	tsen³¹tau³¹	tsen³¹tau³¹	scissors	scissors		5.11.5.3		0		bChinese
+334337	679	Jingpho	n̩³¹te̱p⁵⁵	n̩³¹te̱p⁵⁵	scissors	scissors		5.11.5.3		0		
+334338	679	Jingpho	pɹut⁵⁵	pɹut⁵⁵	brush	brush		5.11.8.4		0		
+334339	679	Jingpho	sa³³pja³³	sa³³pja³³	soap	soap		5.11.8.4		0		bIndic
+334340	679	Jingpho	ten³³xua³³	ten³³xua³³	telephone	telephone				0		
+334341	679	Jingpho	tʃă³nan³³	tʃă³nan³³	telephone	telephone				0		
+334342	679	Jingpho	sau⁵⁵wan³³	sau⁵⁵wan³³	lamp	lamp		5.11.5.5		0		60,m
+334343	679	Jingpho	tat⁵⁵wan³³	tat⁵⁵wan³³	electric lamp	electric lamp		5.11.5.5		0		
+334344	679	Jingpho	phă¹joŋ⁵⁵teŋ³³	phă¹joŋ⁵⁵teŋ³³	candle	candle		5.11.5.5		0		m,bChinese,bChinese
+334345	679	Jingpho	wan³¹khɹet³¹	wan³¹khɹet³¹	match	match	n	5.11.5.5		0		
+334346	679	Jingpho	khɹi³³	khɹi³³	lacquer	lacquer		5.8		0		
+334347	679	Jingpho	phun⁵⁵	phun⁵⁵	firewood	firewood		5.11.5.5		0		
+334348	679	Jingpho	tap³¹~a³¹tap³¹	tap³¹~a³¹tap³¹	ashes	ashes		3.2.12.2		0		2691,p,2691
+334349	679	Jingpho	lam³³	lam³³	road / way	road / way		9.10.1		0		1017
+334350	679	Jingpho	khă¹ʒaŋ³¹leŋ³¹lam³³	khă¹ʒaŋ³¹leŋ³¹lam³³	railroad	railroad		5.1		0		m,m,m,1017
+334351	679	Jingpho	mo³³|to³³lam³³	mo³³to³³lam³³	highway	highway		9.10.1		0	D0	bEnglish,1017
+334352	679	Jingpho	mă¹khɹai³³	mă¹khɹai³³	bridge	bridge		9.10.2		0		
+334353	679	Jingpho	leŋ³¹	leŋ³¹	vehicle	vehicle		5.1		0		5701
+334354	679	Jingpho	khă¹ʒaŋ³¹leŋ³¹	khă¹ʒaŋ³¹leŋ³¹	train	train		5.1		0		
+334355	679	Jingpho	mo³³to³³	mo³³to³³	car	car		5.1		0		bEnglish
+334356	679	Jingpho	li³³	li³³	boat	boat		5.1		0		2413
+334357	679	Jingpho	n̩³¹puŋ³³li³³	n̩³¹puŋ³³li³³	airplane	airplane		5.1		0		
+334358	679	Jingpho	pjen³³li³³	pjen³³li³³	airplane	airplane		5.1		0		
+334359	679	Jingpho	kat⁵⁵	kat⁵⁵	market (periodic)	market (periodic)		9.10.6		0		
+334360	679	Jingpho	seŋ³³	seŋ³³	shop / store	shop / store		9.10.6		0		b?Burmese
+334361	679	Jingpho	kum³¹phɹo³¹	kum³¹phɹo³¹	money	money		5.9		0		
+334362	679	Jingpho	mă¹nu³³	mă¹nu³³	price	price		5.9		0		
+334363	679	Jingpho	jin³¹xaŋ³¹	jin³¹xaŋ³¹	bank (for money)	bank (for money)		9.10.2		0		bChinese
+334364	679	Jingpho	kum³¹phɹo³¹tum³³	kum³¹phɹo³¹tum³³	bank (for money)	bank (for money)		9.10.2		0		
+334365	679	Jingpho	a³¹mjat³¹	a³¹mjat³¹	interest (on money)	interest (on money)	n	8.3.2.6.1		0		
+334366	679	Jingpho	ʃă³pɹai³³	ʃă³pɹai³³	wages	wages		5.9		0		
+334367	679	Jingpho	kuŋ³³phun³³~kuŋ³³fun³³	kuŋ³³phun³³~kuŋ³³fun³³	work point (in commune)	work point (in commune)		6.1.1		0		bChinese
+334368	679	Jingpho	mai³¹sau³¹	mai³¹sau³¹	paper	paper		5.1		0		
+334369	679	Jingpho	po̱ŋ³³tin³³	po̱ŋ³³tin³³	pen	pen		5.1		0		
+334370	679	Jingpho	khe⁵⁵tan³³	khe⁵⁵tan³³	pencil	pencil		5.1		0	D0	
+334371	679	Jingpho	lai³¹ka̱³³tsi̱³¹	lai³¹ka̱³³tsi̱³¹	ink	ink		5.1		0	D0	
+334372	679	Jingpho	lai³¹ka̱³³	lai³¹ka̱³³	word / character	word / character		8.5.10.2		0		m,1754
+334373	679	Jingpho	lai³¹ka̱³³	lai³¹ka̱³³	book	book		5.1		0		
+334374	679	Jingpho	ku̱m⁵⁵phaʔ⁵⁵lai³¹ka̱³³	ku̱m⁵⁵phaʔ⁵⁵lai³¹ka̱³³	letter	letter		5.1		0		
+334375	679	Jingpho	ʃă³kɹa̱m³³	ʃă³kɹa̱m³³	letter	letter		5.1		0		
+334376	679	Jingpho	mă¹khon⁵⁵	mă¹khon⁵⁵	song	song		5.1		0		
+334377	679	Jingpho	mau³¹mji³¹	mau³¹mji³¹	story / tale	story / tale		5.8		0		
+334378	679	Jingpho	tat⁵⁵ʃin³¹	tat⁵⁵ʃin³¹	movie	movie		5.8		0		
+334379	679	Jingpho	po³¹luŋ⁵⁵	po³¹luŋ⁵⁵	ball	ball		9.7.1		0		
+334380	679	Jingpho	toŋ³¹khon³³	toŋ³¹khon³³	flag	flag		5.1		0		
+334381	679	Jingpho	tum³¹pa³³	tum³¹pa³³	flute (Turkic)	flute (Turkic)		5.1		0		
+334382	679	Jingpho	pau³¹	pau³¹	gong	gong		5.1		0		
+334383	679	Jingpho	tʃiŋ³³to̱t³¹	tʃiŋ³³to̱t³¹	drum	drum		5.1		0		
+334384	679	Jingpho	tiŋ³¹si³¹	tiŋ³¹si³¹	bell	bell		5.1		0		
+334385	679	Jingpho	tsi̱³¹~a³¹tsi̱³¹	tsi̱³¹~a³¹tsi̱³¹	medicine	medicine		5.4		0		5427,p,5427
+334386	679	Jingpho	lam³³	lam³³	thing / matter / event	thing / matter / event		8.1		0		
+334387	679	Jingpho	mjiŋ³³	mjiŋ³³	name	name		5.8		0		2450
+334388	679	Jingpho	ʒai⁵⁵~a³¹ʒai⁵⁵	ʒai⁵⁵~a³¹ʒai⁵⁵	thing	thing		8.1		0		
+334389	679	Jingpho	muŋ⁵⁵tan³³	muŋ⁵⁵tan³³	country / nation	country / nation		9.10.3		0		
+334390	679	Jingpho	tʃin³³fu⁵⁵~a³¹su⁵⁵jaʔ⁵⁵	tʃin³³fu⁵⁵~a³¹su⁵⁵jaʔ⁵⁵	government	government		5.8		0		
+334391	679	Jingpho	ʒin³¹mjin³¹kuŋ³³ʃe³¹	ʒin³¹mjin³¹kuŋ³³ʃe³¹	commune	commune				0		bChinese
+334392	679	Jingpho	kuŋ³¹tʃhan⁵⁵taŋ⁵⁵	kuŋ³¹tʃhan⁵⁵taŋ⁵⁵	communist party	communist party		4.4		0		bChinese
+334393	679	Jingpho	kuŋ³¹tshin³³thon³¹	kuŋ³¹tshin³³thon³¹	communist youth league	communist youth league		4.2.11		0		bChinese
+334394	679	Jingpho	ʒam⁵⁵ma³¹phuŋ³³	ʒam⁵⁵ma³¹phuŋ³³	communist youth league	communist youth league		4.2.11		0		
+334395	679	Jingpho	ʒin³¹mjin³¹	ʒin³¹mjin³¹	people	people		4.5		0		
+334396	679	Jingpho	muŋ⁵⁵mă¹ʃa³¹	muŋ⁵⁵mă¹ʃa³¹	people	people		4.5		0		
+334397	679	Jingpho	kuŋ³³ʒin³¹kai³³kjiʔ³¹	kuŋ³³ʒin³¹kai³³kjiʔ³¹	proletariat	proletariat				0		bChinese
+334398	679	Jingpho	kuŋ³¹tʃhan⁵⁵tʃu⁵⁵ji³³	kuŋ³¹tʃhan⁵⁵tʃu⁵⁵ji³³	communism	communism				0		bChinese
+334399	679	Jingpho	ʃe³³xui³³tʃu⁵⁵ji³³	ʃe³³xui³³tʃu⁵⁵ji³³	socialism	socialism				0		
+334400	679	Jingpho	tʃin³³tʃi³³	tʃin³³tʃi³³	politics	politics				0		
+334401	679	Jingpho	kjin⁵⁵tsi³³	kjin⁵⁵tsi³³	economy	economy				0		
+334402	679	Jingpho	wun³¹xua³³	wun³¹xua³³	culture	culture				0		
+334403	679	Jingpho	kjau³³juʔ³¹	kjau³³juʔ³¹	education	education				0		
+334404	679	Jingpho	wui³³sin⁵⁵	wui³³sin⁵⁵	hygiene	hygiene				0		
+334405	679	Jingpho	keʔ³¹mjin³³	keʔ³¹mjin³³	revolution	revolution				0		bChinese
+334406	679	Jingpho	jin³³tuŋ³³	jin³³tuŋ³³	movement (political)	movement (political)				0		
+334407	679	Jingpho	tʃin³³tshe³³	tʃin³³tshe³³	policy	policy				0		
+334408	679	Jingpho	tsuŋ⁵⁵lu³³sen³³	tsuŋ⁵⁵lu³³sen³³	general line (political)	general line (political)		10.4.1.1		0		
+334409	679	Jingpho	mjit³¹	mjit³¹	ideology	ideology				0		
+334410	679	Jingpho	kjo³¹wu³³	kjo³¹wu³³	consciousness	consciousness		1.1.4		0		
+334411	679	Jingpho	tum⁵⁵phɹaŋ³¹	tum⁵⁵phɹaŋ³¹	consciousness	consciousness		1.1.4		0		
+334412	679	Jingpho	pau³³kau³³	pau³³kau³³	report	report		8.5.3		0		
+334413	679	Jingpho	pan³³fa⁵⁵	pan³³fa⁵⁵	method	method		8.1		0		bChinese
+334414	679	Jingpho	lit⁵⁵	lit⁵⁵	duty	duty		8.1		0		
+334415	679	Jingpho	ju⁵⁵ten⁵⁵	ju⁵⁵ten⁵⁵	advantage	advantage		8.1		0		
+334416	679	Jingpho	khje⁵⁵ten⁵⁵	khje⁵⁵ten⁵⁵	drawback	drawback				0		
+334417	679	Jingpho	mă¹ʒa³¹	mă¹ʒa³¹	error	error		6.2		0		
+334418	679	Jingpho	tʃen⁵⁵fuŋ⁵⁵	tʃen⁵⁵fuŋ⁵⁵	rectification	rectification				0		
+334419	679	Jingpho	thai³³tu³³	thai³³tu³³	attitude	attitude		8.3		0		
+334420	679	Jingpho	kjiŋ⁵⁵jen³³	kjiŋ⁵⁵jen³³	experience	experience		8.3		0		
+334421	679	Jingpho	kji³³xua³³	kji³³xua³³	plan	plan	n	8.3		0		
+334422	679	Jingpho	ji³³kjen³³	ji³³kjen³³	opinion	opinion		8.3.1.12.1		0		
+334423	679	Jingpho	kji³³ʃu³³	kji³³ʃu³³	technology	technology				0		
+334424	679	Jingpho	kuŋ⁵⁵tʃhaŋ⁵⁵	kuŋ⁵⁵tʃhaŋ⁵⁵	factory	factory		9.10.6		0		bChinese
+334425	679	Jingpho	kuŋ⁵⁵je³³	kuŋ⁵⁵je³³	industry	industry		5.11		0		bChinese
+334426	679	Jingpho	nuŋ³¹je³³	nuŋ³¹je³³	agriculture	agriculture		3.1.9		0		bChinese
+334427	679	Jingpho	tʃoŋ³¹	tʃoŋ³¹	school	school		5.8		0		
+334428	679	Jingpho	mjin³¹tʃu⁵⁵	mjin³¹tʃu⁵⁵	democracy	democracy				0		
+334429	679	Jingpho	tsi³³ju³¹	tsi³³ju³¹	freedom	freedom				0		
+334430	679	Jingpho	xo³¹phjin³¹	xo³¹phjin³¹	peace	peace		5.8		0		
+334431	679	Jingpho	ʒap³¹ʒa³³	ʒap³¹ʒa³³	equality	equality				0		
+334432	679	Jingpho	la̱⁵⁵	la̱⁵⁵	take (in hand)	take (in hand)		6.21		0		5056
+334433	679	Jingpho	a³¹puk³¹	a³¹puk³¹	strike with open palm	strike with open palm		6.8		0		
+334434	679	Jingpho	lă¹tu̱p⁵⁵	lă¹tu̱p⁵⁵	grip / hold	grip / hold		6.16		0		
+334435	679	Jingpho	tiʔ³¹	tiʔ³¹	pick / pluck	pick / pluck		6.10.4		0		
+334436	679	Jingpho	ʒit³¹	ʒit³¹	twist together	twist together		6.7.6		0		
+334437	679	Jingpho	a³¹ʃep³¹	a³¹ʃep³¹	tear	tear	v	1.8.8.1		0		
+334438	679	Jingpho	ʃup³¹	ʃup³¹	wring	wring		6.7.6		0		86
+334439	679	Jingpho	tha³¹	tha³¹	pick up	pick up		6.10.4		0		
+334440	679	Jingpho	ʒim³¹	ʒim³¹	catch	catch		6.21		0		
+334441	679	Jingpho	kă¹pai³¹	kă¹pai³¹	throw (away)	throw (away)		6.12		0		p,5556
+334442	679	Jingpho	kat³¹	kat³¹	scatter / broadcast	scatter / broadcast		6.10.3		0		
+334443	679	Jingpho	kă¹pai³¹	kă¹pai³¹	throw	throw		6.12		0		p,5556
+334444	679	Jingpho	lă¹ton⁵⁵	lă¹ton⁵⁵	reach out (hand)	reach out (hand)		6.21		0		695,m
+334445	679	Jingpho	kaŋ³³	kaŋ³³	pull	pull		6.2.2.3.1		0		
+334446	679	Jingpho	noŋ⁵⁵	noŋ⁵⁵	push	push		6.2.2.3.1		0		4805?
+334447	679	Jingpho	po̱n³³	po̱n³³	hold in arms	hold in arms		6.16		0		
+334448	679	Jingpho	thoŋ³¹	thoŋ³¹	kick	kick		6.2.2.3.3		0		
+334449	679	Jingpho	phut³¹tiʔ³¹	phut³¹tiʔ³¹	kneel	kneel		1.5.8.4.1		0	D0	
+334450	679	Jingpho	kă¹pjeʔ³¹	kă¹pjeʔ³¹	tread	tread	v	6.7.4		0		
+334451	679	Jingpho	ka̱³¹	ka̱³¹	jump	jump		6.7.8		0		
+334452	679	Jingpho	tsa̱p⁵⁵	tsa̱p⁵⁵	stand	stand		1.5.2		0		145
+334453	679	Jingpho	kan³³ka̱p⁵⁵	kan³³ka̱p⁵⁵	straddle	straddle				0		
+334454	679	Jingpho	tʃon³¹	tʃon³¹	ride	ride		6.2		0		
+334455	679	Jingpho	khom³³	khom³³	walk	walk		6.7.4		0		
+334456	679	Jingpho	kă¹kat³¹	kă¹kat³¹	run	run		6.7.4		0		p,6705
+334457	679	Jingpho	kă¹to̱³³	kă¹to̱³³	fall / tumble	fall / tumble		6.1.1.4.2		0		
+334458	679	Jingpho	tuŋ³³	tuŋ³³	sit	sit		6.1.1.4.1		0		1906
+334459	679	Jingpho	paʔ³¹	paʔ³¹	carry on back	carry on back		6.2.2.2.1		0		570
+334460	679	Jingpho	kum³¹tsun³³	kum³¹tsun³³	go through (a hole)	go through (a hole)		6.7.2		0		
+334461	679	Jingpho	kum³¹ʒot³¹	kum³¹ʒot³¹	crawl	crawl	v	6.7.9		0		
+334462	679	Jingpho	ʃă¹mjet³¹	ʃă¹mjet³¹	lean	lean		1.1.1		0		
+334463	679	Jingpho	ŋa³¹	ŋa³¹	dwell / live	dwell / live		6.2		0		
+334464	679	Jingpho	saʔ⁵⁵	saʔ⁵⁵	rest	rest		1.1.4.1		0		
+334465	679	Jingpho	kă¹lo³³	kă¹lo³³	do	do		6.1.1.1		0		
+334466	679	Jingpho	puŋ³¹li³¹kă¹lo³³	puŋ³¹li³¹kă¹lo³³	work / labor	work / labor		6.1.1		0		
+334467	679	Jingpho	kɹam⁵⁵	kɹam⁵⁵	repair	repair		6.14		0		5386
+334468	679	Jingpho	mă¹|tu̱t⁵⁵	mă¹tu̱t⁵⁵	connect	connect		6.13.3		0		2207
+334469	679	Jingpho	kaŋ³¹ʃă¹pjo³³	kaŋ³¹ʃă¹pjo³³	refine	refine		6.2.2.1		0		
+334470	679	Jingpho	n̩³¹tup³¹	n̩³¹tup³¹	strike / hit	strike / hit		6.8		0		
+334471	679	Jingpho	thot³¹	thot³¹	move sth. to a new place	move sth. to a new place		6.7.11		0		
+334472	679	Jingpho	ʃiŋ³¹ta̱u⁵⁵	ʃiŋ³¹ta̱u⁵⁵	carry on a pole (by two people)	carry on a pole (by two people)		6.2.2.2.1		0		
+334473	679	Jingpho	phai³³	phai³³	carry on shoulder	carry on shoulder		1.4.3.3		0		4135
+334474	679	Jingpho	kă¹lau³¹	kă¹lau³¹	plough	plough	v	5.3		0		
+334475	679	Jingpho	mă¹|sit³¹	mă¹sit³¹	rake	rake	v	5.1		0		1219
+334476	679	Jingpho	thu³¹	thu³¹	dig	dig		6.11		0		3573
+334477	679	Jingpho	khai⁵⁵	khai⁵⁵	plant	plant	v	3.1.10		0		5384
+334478	679	Jingpho	tʃo⁵⁵	tʃo⁵⁵	water / irrigate	water / irrigate	v	3.2.3		0		
+334479	679	Jingpho	tan³¹	tan³¹	cut	cut		6.9.3		0		3563
+334480	679	Jingpho	kɹa̱n³³	kɹa̱n³³	chop (tree)	chop (tree)		6.9.3		0		
+334481	679	Jingpho	tʃe̱ʔ⁵⁵	tʃe̱ʔ⁵⁵	cut (firewood with ax)	cut (firewood with ax)		6.9.3		0		
+334482	679	Jingpho	kă¹laʔ⁵⁵	kă¹laʔ⁵⁵	cut (firewood with knife)	cut (firewood with knife)		6.9.3		0		
+334483	679	Jingpho	po̱⁵⁵	po̱⁵⁵	pull (out)	pull (out)		6.2.2.3.1		0		
+334484	679	Jingpho	ʒem³³	ʒem³³	graze	graze	v.t.			0		
+334485	679	Jingpho	joʔ³¹	joʔ³¹	feed	feed	v	1.3.5.8		0		
+334486	679	Jingpho	tun³³	tun³³	lead (animal)	lead (animal)		6.2.2.1		0		2199
+334487	679	Jingpho	taʔ³¹	taʔ³¹	weave	weave		5.1		0		2686
+334488	679	Jingpho	ʃă¹ton⁵⁵	ʃă¹ton⁵⁵	measure	measure	v	9.8		0		
+334489	679	Jingpho	mă¹|ʒi³³	mă¹ʒi³³	buy	buy		6.22		0		2606
+334490	679	Jingpho	tut³¹	tut³¹	sell	sell		6.22		0		
+334491	679	Jingpho	thi⁵⁵	thi⁵⁵	count	count		6.2.2.2		0		2738
+334492	679	Jingpho	son³³	son³³	calculate	calculate		8.3.1.13.1		0		
+334493	679	Jingpho	ʃen³³	ʃen³³	weigh	weigh	v.t.	9.8		0		
+334494	679	Jingpho	ʃă¹ʒin⁵⁵ja³³	ʃă¹ʒin⁵⁵ja³³	teach	teach		6.19		0		
+334495	679	Jingpho	ʃă¹ʒin⁵⁵la̱⁵⁵	ʃă¹ʒin⁵⁵la̱⁵⁵	learn	learn		8.3.1.12.1		0		
+334496	679	Jingpho	ka̱³³	ka̱³³	write	write		6.2.2.9.1		0		
+334497	679	Jingpho	kă¹tsu̱t⁵⁵	kă¹tsu̱t⁵⁵	wipe	wipe		6.2.2.1		0		
+334498	679	Jingpho	ʃa¹ʒai⁵⁵	ʃa¹ʒai⁵⁵	correct / change	correct / change		8.3.3.9		0		
+334499	679	Jingpho	ʃă¹ka̱p⁵⁵	ʃă¹ka̱p⁵⁵	paste / glue / stick	paste / glue / stick		5.4		0		
+334500	679	Jingpho	ʃă¹tu³³	ʃă¹tu³³	cook / boil	cook / boil		5.5		0		
+334501	679	Jingpho	kă¹ŋau³³	kă¹ŋau³³	stir-fry	stir-fry		5.5		0		
+334502	679	Jingpho	kă¹po³³	kă¹po³³	deep-fry	deep-fry		5.5		0		
+334503	679	Jingpho	kă¹ka̱ŋ³³	kă¹ka̱ŋ³³	dry (clothes) near fire	dry (clothes) near fire		6.6		0		m,119
+334504	679	Jingpho	kɹa̱³¹	kɹa̱³¹	warm (oneself) near fire	warm (oneself) near fire		7.1.2.3		0		
+334505	679	Jingpho	sat³¹	sat³¹	kill	kill		6.4		0		1018
+334506	679	Jingpho	mot³¹	mot³¹	cut	cut		6.9.3		0		475
+334507	679	Jingpho	to̱k⁵⁵	to̱k⁵⁵	mince (meat) with knife	mince (meat) with knife		6.9.4		0		
+334508	679	Jingpho	a³¹khut³¹	a³¹khut³¹	scrape	scrape		6.3		0		p,1462
+334509	679	Jingpho	tsen³¹	tsen³¹	cut / clip / trim	cut / clip / trim		6.9.3		0		
+334510	679	Jingpho	ʒep³¹	ʒep³¹	cut / clip / trim	cut / clip / trim		6.9.3		0		
+334511	679	Jingpho	a³¹pɹu̱p⁵⁵	a³¹pɹu̱p⁵⁵	prick	prick		8.4		0		
+334512	679	Jingpho	tsa̱t⁵⁵	tsa̱t⁵⁵	insert / stick into	insert / stick into		6.2		0		
+334513	679	Jingpho	tʃu̱n⁵⁵	tʃu̱n⁵⁵	insert / stick into	insert / stick into		6.2		0		
+334514	679	Jingpho	kă¹ʒaŋ³³	kă¹ʒaŋ³³	sharpen (knife)	sharpen (knife)		6.9.2		0		
+334515	679	Jingpho	ʒin⁵⁵	ʒin⁵⁵	grind (rice)	grind (rice)		9.5		0		
+334516	679	Jingpho	kă¹tsa̱p³¹	kă¹tsa̱p³¹	winnow	winnow		3.1.10		0		m,2790
+334517	679	Jingpho	kă¹mai³³	kă¹mai³³	scoop	scoop	v	6.11		0		
+334518	679	Jingpho	phun⁵⁵	phun⁵⁵	put on / wear	put on / wear		6.17		0		2579
+334519	679	Jingpho	kup³¹	kup³¹	put on (hat)	put on (hat)		6.17		0		
+334520	679	Jingpho	ʒoʔ³¹	ʒoʔ³¹	take off (clothing)	take off (clothing)		6.21		0		
+334521	679	Jingpho	khum³¹paʔ³¹	khum³¹paʔ³¹	roll up	roll up		6.7.6		0		
+334522	679	Jingpho	ʃin⁵⁵	ʃin⁵⁵	wash (hand)	wash (hand)		6.2.2.5.2		0		
+334523	679	Jingpho	kă¹ʃin³¹	kă¹ʃin³¹	wash (hand)	wash (hand)		6.2.2.5.2		0		
+334524	679	Jingpho	khɹut³¹	khɹut³¹	wash (clothes)	wash (clothes)		6.2.2.5.2		0		2344
+334525	679	Jingpho	khaʔ³¹ʃin⁵⁵	khaʔ³¹ʃin⁵⁵	bathe	bathe		6.6		0	D0	
+334526	679	Jingpho	ʃă¹ŋun³³	ʃă¹ŋun³³	shave	shave		6.9.2		0		
+334527	679	Jingpho	tʃo⁵⁵	tʃo⁵⁵	dye	dye	v	5.1		0		5814
+334528	679	Jingpho	kă¹pa̱³¹	kă¹pa̱³¹	patch	patch		5.1		0		m,2548
+334529	679	Jingpho	mă¹|sit³¹	mă¹sit³¹	comb	comb	v	1.2.2.1		0		1219
+334530	679	Jingpho	khɹiʔ³¹	khɹiʔ³¹	braid	braid	v	1.2.3.2		0		
+334531	679	Jingpho	nep⁵⁵	nep⁵⁵	spread / unfold	spread /  unfold		9.5		0		
+334532	679	Jingpho	je⁵⁵	je⁵⁵	sweep	sweep		6.2.2.5.3		0		2587
+334533	679	Jingpho	phoʔ³¹	phoʔ³¹	open (door)	open (door)		6.2.2.6.1		0		5704
+334534	679	Jingpho	phoʔ³¹	phoʔ³¹	open (lid)	open (lid)		6.2.2.6.1		0		5704
+334535	679	Jingpho	to̱n³¹	to̱n³¹	put / place	put / place		6.17		0		
+334536	679	Jingpho	noi⁵⁵	noi⁵⁵	hang	hang		6.1.1.5		0		684
+334537	679	Jingpho	phɹan³¹	phɹan³¹	untie	untie		6.13.1		0		5719
+334538	679	Jingpho	tat³¹	tat³¹	release	release		6.10.1		0		
+334539	679	Jingpho	mă¹ka̱i³¹	mă¹ka̱i³¹	wrap	wrap		6.2.2.1		0		
+334540	679	Jingpho	mă¹tep⁵⁵	mă¹tep⁵⁵	wrap	wrap		6.2.2.1		0		
+334541	679	Jingpho	ʃă¹pon³¹	ʃă¹pon³¹	tie into a bundle	tie into a bundle	v	6.13.1		0		
+334542	679	Jingpho	po³¹	po³¹	load	load		6.2.2.1		0		
+334543	679	Jingpho	a³¹nin³¹	a³¹nin³¹	stuff (hole) up	stuff (hole) up		9.5		0		
+334544	679	Jingpho	lup³¹	lup³¹	bury (something)	bury (something)		6.11		0		
+334545	679	Jingpho	mă¹ko̱i³³	mă¹ko̱i³³	hide	hide		1.6.5.1		0		p,2369
+334546	679	Jingpho	lă¹ta̱ʔ⁵⁵	lă¹ta̱ʔ⁵⁵	pick / select	pick / select		6.10.4		0		
+334547	679	Jingpho	pum³¹	pum³¹	pile up	pile up		6.2.2.1		0		
+334548	679	Jingpho	tit³¹	tit³¹	hammer (nail in)	hammer (nail in)	v.t.	5.11.5.4		0		
+334549	679	Jingpho	ʃa¹tʃi̱ʔ⁵⁵	ʃa¹tʃi̱ʔ⁵⁵	light (fire)	light (fire)	v.t.	7.1.11.1		0		
+334550	679	Jingpho	ʒa³¹	ʒa³¹	want	want		8.3.1.14.3		0		
+334551	679	Jingpho	lu³¹	lu³¹	get	get		1.1.5		0		
+334552	679	Jingpho	ʃă¹mat³¹	ʃă¹mat³¹	lose / misplace	lose / misplace		6.10.1		0		m,1860
+334553	679	Jingpho	ta̱m³³	ta̱m³³	search	search		6.2.2.2		0		
+334554	679	Jingpho	laŋ³³	laŋ³³	use	use		6.2.2.7.1		0		
+334555	679	Jingpho	tʃa̱i³³	tʃa̱i³³	play	play		6.1.1.3		0		2746
+334556	679	Jingpho	taŋ³¹	taŋ³¹	win	win		6.19		0		
+334557	679	Jingpho	sum⁵⁵	sum⁵⁵	lose (a game)	lose (a game)		6.10.1		0		
+334558	679	Jingpho	mă¹khon⁵⁵	mă¹khon⁵⁵	sing	sing		5.1		0		
+334559	679	Jingpho	ka̱³¹	ka̱³¹	dance	dance	v	6.7.9		0		521
+334560	679	Jingpho	ko³³ŋjen³¹	ko³³ŋjen³¹	celebrate (New Year)	celebrate (New Year)		8.3.1.5.1		0		bChinese
+334561	679	Jingpho	ʃan³¹kap³¹	ʃan³¹kap³¹	hunt	hunt		6.2.2.1		0		34,m
+334562	679	Jingpho	waŋ³³	waŋ³³	surround	surround		6.2.2.2		0		2270
+334563	679	Jingpho	kap³¹	kap³¹	shoot	shoot		6.2.2.1		0		2232
+334564	679	Jingpho	khɹa⁵⁵	khɹa⁵⁵	hit (target)	hit (target)		6.8		0		
+334565	679	Jingpho	san⁵⁵	san⁵⁵	ask / inquire	ask / inquire		8.5.7.1		0		
+334566	679	Jingpho	thai³¹	thai³¹	answer	answer		8.5.6		0		
+334567	679	Jingpho	khoi³¹	khoi³¹	borrow / lend (money)	borrow / lend (money)		6.22		0		2339
+334568	679	Jingpho	waʔ⁵⁵	waʔ⁵⁵	return (money)	return (money)		6.2.2.1		0		
+334569	679	Jingpho	sa³¹	sa³¹	give / send / deliver	give / send / deliver		6.23		0		
+334570	679	Jingpho	num³³ja³³	num³³ja³³	marry (of women)	marry (of women)		6.19		0		
+334571	679	Jingpho	num³³la̱⁵⁵	num³³la̱⁵⁵	marry (of men)	marry (of men)		6.19		0		
+334572	679	Jingpho	num³³phɹon⁵⁵	num³³phɹon⁵⁵	marry (of men)	marry (of men)		6.19		0		
+334573	679	Jingpho	tsu̱n³³tan⁵⁵	tsu̱n³³tan⁵⁵	tell	tell		1.8.7		0	D0	
+334574	679	Jingpho	kă¹ʒum³³	kă¹ʒum³³	help	help		6.2.2.1		0		
+334575	679	Jingpho	khje³³	khje³³	save / rescue	save / rescue		6.2.2.1		0		
+334576	679	Jingpho	tsi̱³¹	tsi̱³¹	treat / cure	treat / cure		5.8		0		
+334577	679	Jingpho	thuk³¹	thuk³¹	distribute (wages)	distribute (wages)		6.23		0		
+334578	679	Jingpho	fa³¹	fa³¹	distribute (wages)	distribute (wages)		6.23		0		
+334579	679	Jingpho	kă¹ʒan⁵⁵	kă¹ʒan⁵⁵	divide (food)	divide (food)		6.10.4		0		
+334580	679	Jingpho	ʒa³¹	ʒa³¹	owe	owe		6.22		0		
+334581	679	Jingpho	waʔ⁵⁵	waʔ⁵⁵	pay indemnity to	pay indemnity to		6.22		0		
+334582	679	Jingpho	la³¹	la³¹	wait	wait		6.1.1.6		0		
+334583	679	Jingpho	khɹum⁵⁵	khɹum⁵⁵	encounter / meet	encounter / meet		6.13.4		0		5391
+334584	679	Jingpho	mă¹tsa̱³³	mă¹tsa̱³³	scold	scold		8.5.1		0		
+334585	679	Jingpho	ka³¹loʔ⁵⁵	ka³¹loʔ⁵⁵	fight	fight		6.5		0		
+334586	679	Jingpho	kă¹jat³¹	kă¹jat³¹	hit / beat	hit / beat		6.8		0		
+334587	679	Jingpho	phɹoŋ³³lot³¹	phɹoŋ³³lot³¹	escape	escape		6.7.2		0		2563,m
+334588	679	Jingpho	ʃă¹tʃu̱t⁵⁵	ʃă¹tʃu̱t⁵⁵	chase / run after	chase /  run after		6.7.10		0		
+334589	679	Jingpho	kau³¹	kau³¹	drive away	drive away		6.7.10		0		
+334590	679	Jingpho	kă¹ʃun⁵⁵	kă¹ʃun⁵⁵	rob	rob		6.2.2.1		0		
+334591	679	Jingpho	sep³¹luʔ³¹sep³¹ʃa⁵⁵	sep³¹luʔ³¹sep³¹ʃa⁵⁵	exploit	exploit				0		
+334592	679	Jingpho	po³¹ʃoʔ³¹	po³¹ʃoʔ³¹	exploit	exploit				0		
+334593	679	Jingpho	lă¹|ku⁵⁵	lă¹ku⁵⁵	steal	steal		6.2.2.1		0		2365
+334594	679	Jingpho	mă¹suʔ³¹	mă¹suʔ³¹	cheat / swindle	cheat / swindle		6.19		0		
+334595	679	Jingpho	ʒaʔ³¹	ʒaʔ³¹	love	love		8.3.1.1.1		0		
+334596	679	Jingpho	ʃă¹ʒoŋ⁵⁵	ʃă¹ʒoŋ⁵⁵	like	like		8.3.1.1.1		0		
+334597	679	Jingpho	ka̱m³¹	ka̱m³¹	believe	believe		8.3.1.12.1		0		
+334598	679	Jingpho	tʃe̱³³	tʃe̱³³	know	know		8.3.1.12.1		0		1229
+334599	679	Jingpho	tʃe̱³³	tʃe̱³³	understand	understand		8.3.1.13.1		0	D0	
+334600	679	Jingpho	ta̱k³¹	ta̱k³¹	guess	guess		8.3.1.12.1		0		
+334601	679	Jingpho	tum⁵⁵	tum⁵⁵	remember	remember		8.3.1.16.1		0		
+334602	679	Jingpho	mă¹|lap³¹	mă¹lap³¹	forget	forget		8.3.1.16.1		0		2395
+334603	679	Jingpho	mjit³¹	mjit³¹	think	think		8.3.1.13.1		0		
+334604	679	Jingpho	mă¹sin³¹po̱t³¹	mă¹sin³¹po̱t³¹	angry	angry		8.3.1.6.1		0		
+334605	679	Jingpho	n̩³³toŋ³³	n̩³³toŋ³³	hate	hate		8.3.1.1.2		0		
+334606	679	Jingpho	khɹit³¹	khɹit³¹	fear	fear		8.3.1.10.1		0		2337
+334607	679	Jingpho	kui⁵⁵	kui⁵⁵	dare	dare				0		
+334608	679	Jingpho	tʃe̱³³	tʃe̱³³	know / can / be able to	know / can / be able to		8.3.1.12.1		0		1229
+334609	679	Jingpho	ʒeʔ⁵⁵	ʒeʔ⁵⁵	be / copula	be / copula		10.4.1.1		0		
+334610	679	Jingpho	n̩⁵⁵ʒe⁵⁵	n̩⁵⁵ʒe⁵⁵	NEG+copula	NEG+copula		10.6.2		0		
+334611	679	Jingpho	lu³¹	lu³¹	have	have		8.2		0		
+334612	679	Jingpho	n̩⁵⁵lu³¹	n̩⁵⁵lu³¹	NEG+have	NEG+have		10.6.2		0		
+334613	679	Jingpho	sa³³	sa³³	come	come		6.7.1		0		
+334614	679	Jingpho	sa³³	sa³³	go	go		6.7.2		0		
+334615	679	Jingpho	wa³¹	wa³¹	return / go back	return / go back		6.2.2.1		0		
+334616	679	Jingpho	tu³¹	tu³¹	arrive	arrive		6.7.1		0		
+334617	679	Jingpho	ʒap⁵⁵	ʒap⁵⁵	cross (river)	cross (river)		6.7.10		0		5826
+334618	679	Jingpho	lai³¹	lai³¹	pass by	pass by		6.7.10		0		
+334619	679	Jingpho	luŋ³¹	luŋ³¹	ascend	ascend		6.7.7		0		
+334620	679	Jingpho	juʔ⁵⁵	juʔ⁵⁵	descend	descend		6.7.8		0		531
+334621	679	Jingpho	pɹu̱³³	pɹu̱³³	exit	exit		6.7.2		0		
+334622	679	Jingpho	ʃaŋ³¹	ʃaŋ³¹	enter	enter		6.7.1		0		
+334623	679	Jingpho	thiŋ³¹nut³¹	thiŋ³¹nut³¹	retreat	retreat		6.7.2		0	D0	
+334624	679	Jingpho	ŋa³¹	ŋa³¹	exist / be present	exist / be present		1.1.2.3		0		
+334625	679	Jingpho	lam³³	lam³³	dry / bask in the sun	dry / bask in the sun		6.6		0		3515
+334626	679	Jingpho	mă¹|ʒaŋ³³thuʔ³¹	mă¹ʒaŋ³³thuʔ³¹	rain	rain	v	3.2.1		0		3571,m
+334627	679	Jingpho	n̩³¹puŋ³³puŋ³³	n̩³¹puŋ³³puŋ³³	blow (of wind)	blow (of wind)		1.3.1.4		0		p,6128,m
+334628	679	Jingpho	mjiʔ³¹phɹap³¹kă¹lam³¹	mjiʔ³¹phɹap³¹kă¹lam³¹	flash (of lightning)	flash (of lightning)		3.2.12.2		0		2136,352,m,m
+334629	679	Jingpho	muʔ⁵⁵kuŋ³¹	muʔ⁵⁵kuŋ³¹	thunder	thunder	v	3.2.1		0		2465,m
+334630	679	Jingpho	lui³³	lui³³	flow	flow		6.6.1		0		2428
+334631	679	Jingpho	kă¹pɹot⁵⁵	kă¹pɹot⁵⁵	overflow	overflow		6.6		0		
+334632	679	Jingpho	wo⁵⁵	wo⁵⁵	float	float		6.6.1		0		
+334633	679	Jingpho	kaʔ³¹	kaʔ³¹	crack	crack	v	3.2.7		0		
+334634	679	Jingpho	pjaʔ⁵⁵	pjaʔ⁵⁵	collapse	collapse		9.5		0		5616
+334635	679	Jingpho	jeʔ⁵⁵	jeʔ⁵⁵	chipped	chipped		3.2.7		0		
+334636	679	Jingpho	tʃa̱i³³	tʃa̱i³³	roll (e.g. rock)	roll (e.g. rock)		6.7.6		0		
+334637	679	Jingpho	kă¹jin³³	kă¹jin³³	rotate / spin	rotate / spin		6.7.6		0		
+334638	679	Jingpho	khɹat³¹	khɹat³¹	drop / fall	drop / fall		6.16		0		
+334639	679	Jingpho	tiʔ³¹	tiʔ³¹	break (of rope etc.)	break (of rope etc.)	v.i.	9.5		0		
+334640	679	Jingpho	woʔ³¹	woʔ³¹	break (into pieces)	break (into pieces)		9.5		0		
+334641	679	Jingpho	tsi̱ŋ³¹	tsi̱ŋ³¹	soak / immerse	soak / immerse		6.6		0		
+334642	679	Jingpho	kă̱¹jun³³	kă̱¹jun³³	leak	leak		6.6		0		p,2795
+334643	679	Jingpho	kă¹theʔ³¹	kă¹theʔ³¹	drip	drip		6.6		0		p,555
+334644	679	Jingpho	pɹu̱t³¹	pɹu̱t³¹	boil	boil	v.i.	6.6		0		2576
+334645	679	Jingpho	ta̱i³³	ta̱i³³	change / transform	change / transform		9.5		0		
+334646	679	Jingpho	kă¹lai³³	kă¹lai³³	change / transform	change / transform		9.5		0		
+334647	679	Jingpho	mă¹tsun³³tsun³³	mă¹tsun³³tsun³³	bud	bud	v	3.1.4		0		
+334648	679	Jingpho	pu̱³¹pu̱³¹	pu̱³¹pu̱³¹	bloom (flower)	bloom (flower)	v	3.1.10		0		
+334649	679	Jingpho	si³¹	si³¹	bear fruit	bear fruit		2.2.3		0		1019
+334650	679	Jingpho	khɹat³¹	khɹat³¹	fall / drop	fall / drop		6.1.1.4.2		0		
+334651	679	Jingpho	so³¹	so³¹	wither	wither		3.1.10		0		
+334652	679	Jingpho	jat³¹	jat³¹	rot / spoil	rot / spoil		3.1.10		0		
+334653	679	Jingpho	jau³³tsin³³	jau³³tsin³³	leap forward	leap forward		6.7.4		0		
+334654	679	Jingpho	tseʔ³¹joʔ³¹	tseʔ³¹joʔ³¹	retrench / economize	retrench / economize		6.22		0		
+334655	679	Jingpho	ʃen⁵⁵tʃhan⁵⁵	ʃen⁵⁵tʃhan⁵⁵	produce / manufacture	produce / manufacture		6.14		0		
+334656	679	Jingpho	kjen³³ʃeʔ³¹	kjen³³ʃeʔ³¹	build / construct	build / construct		6.14		0		
+334657	679	Jingpho	fa³¹tʃan⁵⁵	fa³¹tʃan⁵⁵	develop	develop		9.5		0		
+334658	679	Jingpho	thi³¹kau⁵⁵	thi³¹kau⁵⁵	raise	raise		6.7.7		0		
+334659	679	Jingpho	phaŋ³³	phaŋ³³	begin / start	begin / start		9.5		0		
+334660	679	Jingpho	kon⁵⁵li⁵⁵	kon⁵⁵li⁵⁵	administer / supervise	administer / supervise				0		
+334661	679	Jingpho	mjit³¹khɹum⁵⁵	mjit³¹khɹum⁵⁵	unite	unite		6.13.5		0		
+334662	679	Jingpho	khai⁵⁵xui³³	khai⁵⁵xui³³	hold meeting	hold meeting		6.16		0		
+334663	679	Jingpho	tsă¹phoŋ³¹phoŋ³¹	tsă¹phoŋ³¹phoŋ³¹	hold meeting	hold meeting		6.16		0		
+334664	679	Jingpho	thau⁵⁵lun³³	thau⁵⁵lun³³	discuss	discuss				0		
+334665	679	Jingpho	lă¹ta̱ʔ⁵⁵	lă¹ta̱ʔ⁵⁵	select	select	v	6.10.4		0		
+334666	679	Jingpho	woi³³on⁵⁵	woi³³on⁵⁵	lead	lead		6.2.2.1		0		6173,m
+334667	679	Jingpho	tuŋ³³jen³¹	tuŋ³³jen³¹	mobilize / arouse	mobilize / arouse		1.1.4		0		
+334668	679	Jingpho	xau³³tʃau⁵⁵	xau³³tʃau⁵⁵	call / appeal	call / appeal		8.5.13		0		
+334669	679	Jingpho	sen⁵⁵tʃhon³¹	sen⁵⁵tʃhon³¹	propogate (propaganda)	propogate (propaganda)				0		
+334670	679	Jingpho	juŋ⁵⁵xu³³	juŋ⁵⁵xu³³	support / endorse	support / endorse		6.16		0		
+334671	679	Jingpho	mă¹ko̱p³¹	mă¹ko̱p³¹	protect / defend	protect / defend		6.2.2.1		0		
+334672	679	Jingpho	ʃă¹ko̱n³¹	ʃă¹ko̱n³¹	praise / commend	praise / commend		8.5.2.2		0		
+334673	679	Jingpho	kai⁵⁵faŋ³³	kai⁵⁵faŋ³³	liberate / emancipate	liberate / emancipate		6.19		0		
+334674	679	Jingpho	taŋ³¹	taŋ³¹	triumph / win	triumph / win		6.19		0		
+334675	679	Jingpho	ʃi³¹pai³³	ʃi³¹pai³³	defeated / lose (a war etc.)	defeated / lose (a war etc.)		6.5		0		
+334676	679	Jingpho	phji⁵⁵phjin³¹	phji⁵⁵phjin³¹	criticize	criticize		8.5.2.1		0		
+334677	679	Jingpho	tsen⁵⁵tʃha³¹	tsen⁵⁵tʃha³¹	inspect / examine	inspect / examine		6.2		0		
+334678	679	Jingpho	ʃă¹mjit⁵⁵	ʃă¹mjit⁵⁵	abolish / exterminate	abolish / exterminate		6.9		0		
+334679	679	Jingpho	ʃă¹ŋjen³¹	ʃă¹ŋjen³¹	invade	invade		6.5		0		
+334680	679	Jingpho	pa̱³³	pa̱³³	wide	wide		9.7.2		0		
+334681	679	Jingpho	kjip⁵⁵	kjip⁵⁵	narrow	narrow		9.7.2		0		6186?
+334682	679	Jingpho	tsa̱n³³	tsa̱n³³	far	far		9.2.4		0		1779
+334683	679	Jingpho	ni³¹	ni³¹	near	near		9.2.3		0		2496
+334684	679	Jingpho	loʔ⁵⁵	loʔ⁵⁵	many / much	many / much		9.9		0		
+334685	679	Jingpho	n̩⁵⁵loʔ⁵⁵	n̩⁵⁵loʔ⁵⁵	little / few	little / few		9.7.2		0		
+334686	679	Jingpho	kă¹pa³¹	kă¹pa³¹	big	big		9.7.2		0		
+334687	679	Jingpho	kă¹tʃi³¹	kă¹tʃi³¹	small	small		9.7.2		0		
+334688	679	Jingpho	tso̱³¹	tso̱³¹	high	high		7.1.5.3		0		
+334689	679	Jingpho	nem³¹	nem³¹	low	low		7.1.5.3		0		
+334690	679	Jingpho	suŋ³¹	suŋ³¹	deep	deep		7.1.5.3		0		
+334691	679	Jingpho	ta̱ŋ³³	ta̱ŋ³³	shallow	shallow		7.1.5.3		0		
+334692	679	Jingpho	mă¹sen³¹	mă¹sen³¹	pointed	pointed		6.2.2.2		0		
+334693	679	Jingpho	tin³¹	tin³¹	round	round		9.7.1		0		
+334694	679	Jingpho	kă¹lu³¹	kă¹lu³¹	long	long		9.7.2		0		m,2418
+334695	679	Jingpho	kă¹tun³¹	kă¹tun³¹	short	short		9.7.2		0		p,7173
+334696	679	Jingpho	pɹau⁵⁵	pɹau⁵⁵	thick (diameter)	thick (diameter)		9.7.2		0		
+334697	679	Jingpho	tsi³³tsi³³	tsi³³tsi³³	thin (slender)	thin (slender)		9.7.2		0		
+334698	679	Jingpho	that³¹	that³¹	thick	thick		9.7.2		0		178
+334699	679	Jingpho	pha³¹	pha³¹	thin	thin		9.7.2		0		5551
+334700	679	Jingpho	tiŋ³³	tiŋ³³	straight	straight		7.1.5.1		0		5734
+334701	679	Jingpho	mă¹koʔ³¹	mă¹koʔ³¹	crooked	crooked		9.7.2		0		
+334702	679	Jingpho	n̩³¹taʔ³¹	n̩³¹taʔ³¹	horizontal	horizontal		7.1.5.4		0		
+334703	679	Jingpho	tiŋ³¹tuŋ³³	tiŋ³¹tuŋ³³	upright	upright		7.1.5.3		0	D0	
+334704	679	Jingpho	ʒa³³	ʒa³³	flat / level (land)	flat / level (land)		7.1.5.1		0		
+334705	679	Jingpho	kă¹toŋ³³	kă¹toŋ³³	steep	steep		7.1.5.3		0		
+334706	679	Jingpho	tiŋ³³	tiŋ³³	right / just / upright	right / just / upright		1.5.3.2		0		
+334707	679	Jingpho	n̩³¹khjeŋ³¹	n̩³¹khjeŋ³¹	slanting / not upright	slanting / not upright		7.1.5.1		0		
+334708	679	Jingpho	tsa̱ŋ³³	tsa̱ŋ³³	light	light	adj	7.1.11.1		0		2789
+334709	679	Jingpho	li³³	li³³	heavy	heavy		9.6.2		0		2415
+334710	679	Jingpho	tʃaʔ³¹	tʃaʔ³¹	hard	hard		9.6.2		0		
+334711	679	Jingpho	kja³¹	kja³¹	soft	soft		7.1.4.2		0		
+334712	679	Jingpho	thoi³¹	thoi³¹	bright	bright		7.1.11.1		0		
+334713	679	Jingpho	sin³³	sin³³	dark	dark		9.4		0		2672
+334714	679	Jingpho	phoŋ⁵⁵	phoŋ⁵⁵	sunny	sunny		3.2.10		0		
+334715	679	Jingpho	muŋ³³	muŋ³³	cloudy	cloudy		3.2.2		0		2465
+334716	679	Jingpho	khje³³	khje³³	red	red		9.4		0		2377
+334717	679	Jingpho	thoi³¹	thoi³¹	yellow	yellow		9.4		0		
+334718	679	Jingpho	phɹo³¹	phɹo³¹	white	white		9.4		0		1235
+334719	679	Jingpho	tʃa̱ŋ³³	tʃa̱ŋ³³	black	black		9.4		0		2683
+334720	679	Jingpho	tsi̱t³¹	tsi̱t³¹	green	green		9.4		0		
+334721	679	Jingpho	ka̱³³	ka̱³³	multicolored	multicolored		9.4		0	D0	
+334722	679	Jingpho	phɹiŋ⁵⁵	phɹiŋ⁵⁵	full	full		1.1.3.2		0		111
+334723	679	Jingpho	tso̱m³¹	tso̱m³¹	beautiful	beautiful		7.1.3		0	D0	
+334724	679	Jingpho	n̩⁵⁵tso̱m³¹	n̩⁵⁵tso̱m³¹	ugly	ugly		7.1.3		0		
+334725	679	Jingpho	san³¹seŋ⁵⁵	san³¹seŋ⁵⁵	clean	clean		6.2.2.5.2		0		
+334726	679	Jingpho	mă¹tsa̱t⁵⁵	mă¹tsa̱t⁵⁵	dirty	dirty		3.2.11		0		
+334727	679	Jingpho	na³¹ka³³	na³¹ka³³	old (leaf)	old (leaf)		7.1.8.3		0		
+334728	679	Jingpho	khă¹luŋ³³	khă¹luŋ³³	tender	tender		7.1.4.2		0		
+334729	679	Jingpho	kă¹tʃa³³	kă¹tʃa³³	good	good		9.6.1.1		0		
+334730	679	Jingpho	n̩⁵⁵kă¹tʃa³³	n̩⁵⁵kă¹tʃa³³	bad	bad		9.6.2.1		0		
+334731	679	Jingpho	tʃa̱ŋ³¹	tʃa̱ŋ³¹	fast	fast		9.6.1.1		0		
+334732	679	Jingpho	lă¹ŋja̱n³¹	lă¹ŋja̱n³¹	slow	slow		9.6.2.1		0		
+334733	679	Jingpho	ka̱³³	ka̱³³	dry	dry		6.6		0		120?,7203
+334734	679	Jingpho	mă¹|ti³³	mă¹ti³³	wet	wet		6.6		0		298
+334735	679	Jingpho	tiŋ³¹la³³	tiŋ³¹la³³	old (men)	old (men)		7.1.8.3		0		
+334736	679	Jingpho	kum³¹kai³³	kum³¹kai³³	old (women)	old (women)		7.1.8.3		0		
+334737	679	Jingpho	n̩³¹nan³³	n̩³¹nan³³	new	new		9.6.1.1		0		
+334738	679	Jingpho	n̩³¹sa³¹	n̩³¹sa³¹	old (thing)	old (thing)		7.1.8.3		0		
+334739	679	Jingpho	kă¹tsi̱ŋ³³	kă¹tsi̱ŋ³³	raw	raw		7.1.8.3		0		
+334740	679	Jingpho	tʃă̱³khut³¹	tʃă̱³khut³¹	cooked	cooked		5.5		0		
+334741	679	Jingpho	tai³³	tai³³	sharp	sharp		6.9.2		0		3435
+334742	679	Jingpho	to̱n³³	to̱n³³	blunt	blunt		7.1.5.1		0		
+334743	679	Jingpho	tʃau³³	tʃau³³	early	early		9.1.1		0		
+334744	679	Jingpho	phaŋ³³khɹat³¹	phaŋ³³khɹat³¹	late	late		9.1.1		0		
+334745	679	Jingpho	tʃet³¹	tʃet³¹	true	true		9.6.1.1		0		
+334746	679	Jingpho	sot⁵⁵	sot⁵⁵	false	false		9.6.2.1		0		
+334747	679	Jingpho	phu³³	phu³³	expensive	expensive		5.9		0		2583
+334748	679	Jingpho	po̱⁵⁵pha³¹	po̱⁵⁵pha³¹	cheap	cheap		5.9		0		
+334749	679	Jingpho	loi³¹	loi³¹	easy	easy		9.6.1.1		0		2426
+334750	679	Jingpho	jak³¹	jak³¹	difficult	difficult		9.6.2		0		b
+334751	679	Jingpho	kin³¹ʒo⁵⁵	kin³¹ʒo⁵⁵	loose / lax	loose / lax		6.13.1		0		
+334752	679	Jingpho	kɹi̱³³	kɹi̱³³	tight	tight		7.1.5.1		0		
+334753	679	Jingpho	kă¹thet³¹	kă¹thet³¹	hot	hot				0		
+334754	679	Jingpho	kă¹ʃuŋ³³	kă¹ʃuŋ³³	cold	cold		7.1.2.3		0		
+334755	679	Jingpho	lum³³	lum³³	warm	warm		7.1.2.3		0		2420
+334756	679	Jingpho	kă¹tsi̱³³pjo̱³³	kă¹tsi̱³³pjo̱³³	cool	cool		7.1.2.3		0		
+334757	679	Jingpho	khɹi³³	khɹi³³	sour	sour		7.1.4.4		0		227
+334758	679	Jingpho	tui³¹	tui³¹	sweet	sweet		7.1.4.4		0		2721
+334759	679	Jingpho	kha⁵⁵	kha⁵⁵	bitter	bitter		7.1.4.4		0		229
+334760	679	Jingpho	tʃap³¹	tʃap³¹	hot (spicy)	hot (spicy)				0		
+334761	679	Jingpho	ʃum³³	ʃum³³	salty	salty		3.2.4		0		
+334762	679	Jingpho	mă¹nam³³pjo̱³³	mă¹nam³³pjo̱³³	fragrant	fragrant		3.1.10		0		m,1415
+334763	679	Jingpho	mă¹nam³³khaŋ⁵⁵	mă¹nam³³khaŋ⁵⁵	stinky	stinky		7.1.4.5		0		
+334764	679	Jingpho	n̩³¹siŋ³³	n̩³¹siŋ³³	fishy	fishy		2.2.5		0		
+334765	679	Jingpho	tsen³³	tsen³³	intelligent	intelligent		8.3.1.13.1		0		
+334766	679	Jingpho	ŋok³¹	ŋok³¹	stupid	stupid		8.3		0		
+334767	679	Jingpho	kje̱t³¹	kje̱t³¹	diligent	diligent		9.6.1.2		0		
+334768	679	Jingpho	lă¹kon³¹	lă¹kon³¹	lazy	lazy		9.6.2.2		0		
+334769	679	Jingpho	kă¹pu³³	kă¹pu³³	glad	glad		8.3.1.5.1		0		
+334770	679	Jingpho	mă¹tsa̱n³¹	mă¹tsa̱n³¹	poor	poor		9.6.2.2		0		
+334771	679	Jingpho	lu³¹su⁵⁵	lu³¹su⁵⁵	rich	rich		5.9		0		
+334772	679	Jingpho	san³¹pɹa̱ʔ⁵⁵	san³¹pɹa̱ʔ⁵⁵	bright / promising	bright / promising		7.1.11.1		0		
+334773	679	Jingpho	a³¹ʒoŋ⁵⁵să¹taŋ³³	a³¹ʒoŋ⁵⁵să¹taŋ³³	honour / glory	honour / glory		9.6.1		0		
+334774	679	Jingpho	khik³¹kham³¹	khik³¹kham³¹	great / mighty	great / mighty		9.6.1		0		
+334775	679	Jingpho	te̱ŋ³¹man³³	te̱ŋ³¹man³³	correct / proper	correct / proper		8.3.3.9		0		
+334776	679	Jingpho	ŋui³¹pjo̱³³	ŋui³¹pjo̱³³	fortunate	fortunate				0		
+334777	679	Jingpho	mă¹kɹau³¹kɹaŋ³³	mă¹kɹau³¹kɹaŋ³³	brave / courageous	brave / courageous				0		
+334778	679	Jingpho	sen⁵⁵tsin³³	sen⁵⁵tsin³³	advanced	advanced				0		
+334779	679	Jingpho	phaŋ³³khɹat³¹	phaŋ³³khɹat³¹	backward / primitive	backward / primitive	adj	9.2.8		0		
+334780	679	Jingpho	fan⁵⁵tuŋ³³	fan⁵⁵tuŋ³³	reactionary	reactionary				0		
+334781	679	Jingpho	lă⁵ŋai³¹	lă⁵ŋai³¹	one	one		9.9		0		
+334782	679	Jingpho	lă⁵khoŋ³¹	lă⁵khoŋ³¹	two	two		9.9		0		
+334783	679	Jingpho	mă¹sum³³	mă¹sum³³	three	three		9.9		0		2666
+334784	679	Jingpho	mă¹li³³|	mă¹li³³|	four	four		9.9		0		2409
+334785	679	Jingpho	mă¹|ŋa³³	mă¹ŋa³³	five	five		9.9		0		1306
+334786	679	Jingpho	kɹu̱ʔ⁵⁵	kɹu̱ʔ⁵⁵	six	six		9.9		0		2621
+334787	679	Jingpho	să¹nit³¹|	să¹nit³¹|	seven	seven		9.9		0		2505
+334788	679	Jingpho	mă¹|tsa̱t⁵⁵	mă¹tsa̱t⁵⁵	eight	eight		9.9		0		2259
+334789	679	Jingpho	tʃă¹khu³¹|	tʃă¹khu³¹|	nine	nine		9.9		0		2364
+334790	679	Jingpho	ʃi³³	ʃi³³	ten	ten		9.9		0		2748
+334791	679	Jingpho	ʃi³³lă⁵ŋai³¹	ʃi³³lă⁵ŋai³¹	eleven	eleven		9.9		0		
+334792	679	Jingpho	ʃi³³lă⁵khoŋ³¹	ʃi³³lă⁵khoŋ³¹	twelve	twelve		9.9		0		
+334793	679	Jingpho	ʃi³³mă¹sum³³	ʃi³³mă¹sum³³	thirteen	thirteen		9.9		0		
+334794	679	Jingpho	khun³³	khun³³	twenty	twenty		9.9		0		2355
+334795	679	Jingpho	khun³³lă⁵ŋai³¹	khun³³lă⁵ŋai³¹	twenty one	twenty one		9.9		0		2355
+334796	679	Jingpho	lă¹tsa̱³³	lă¹tsa̱³³	hundred	hundred		9.9		0		
+334797	679	Jingpho	khjiŋ³³	khjiŋ³³	thousand	thousand		9.9		0		
+334798	679	Jingpho	mun³¹	mun³¹	ten thousand	ten thousand		9.9		0		
+334799	679	Jingpho	kă¹ti³¹	kă¹ti³¹	million	million		9.9		0		
+334800	679	Jingpho	e³¹	e³¹	zero	zero		9.9		0		
+334801	679	Jingpho	nam⁵⁵pat⁵⁵la⁵ŋai³¹	nam⁵⁵pat⁵⁵la⁵ŋai³¹	first (ordinal)	first (ordinal)		9.9		0		
+334802	679	Jingpho	nam⁵⁵pat⁵⁵mă¹ŋa³³	nam⁵⁵pat⁵⁵mă¹ŋa³³	fifth	fifth		9.9		0		
+334803	679	Jingpho	nam⁵⁵pat⁵⁵mă¹tsa̱t⁵⁵	nam⁵⁵pat⁵⁵mă¹tsa̱t⁵⁵	eighth	eighth		9.9		0		
+334804	679	Jingpho	tʃen³³	tʃen³³	half	half		9.8		0		
+334805	679	Jingpho	mă¹ʒai³¹	mă¹ʒai³¹	clf for people	clf for people		10.1.3		0		
+334806	679	Jingpho	siŋ³¹koŋ³³	siŋ³¹koŋ³³	clf for long objects	clf for long objects		10.1.3		0		
+334807	679	Jingpho	khjep⁵⁵	khjep⁵⁵	clf for grains	clf for grains		10.1.3		0		
+334808	679	Jingpho	kă¹theʔ³¹	kă¹theʔ³¹	drop	drop	n	6.16		0		p,555
+334809	679	Jingpho	tsum³³	tsum³³	pair	pair		9.9		0		5383
+334810	679	Jingpho	man³³	man³³	pair	pair		9.9		0		
+334811	679	Jingpho	toŋ³¹	toŋ³¹	foot (measure)	foot (measure)		1.5.2		0		
+334812	679	Jingpho	siŋ³¹	siŋ³¹	dry measure / pint	dry measure / pint		9.8		0		
+334813	679	Jingpho	tu³¹	tu³¹	dry measure / peck	dry measure / peck		6.6		0		
+334814	679	Jingpho	ʒoŋ³¹	ʒoŋ³¹	tael	tael		9.8		0		
+334815	679	Jingpho	kjin³³	kjin³³	catty (=500 grams)	catty (=500 grams)		9.8		0		
+334816	679	Jingpho	lap³¹	lap³¹	monetary unit / dollar	monetary unit / dollar		5.9		0		
+334817	679	Jingpho	ŋai³³	ŋai³³	I	I		4.1		0		2530
+334818	679	Jingpho	an⁵⁵the³³	an⁵⁵the³³	we	we		4.1		0		
+334819	679	Jingpho	an⁵⁵the³³	an⁵⁵the³³	we (inclusive)	we (inclusive)		4.1		0		
+334820	679	Jingpho	naŋ³³	naŋ³³	you (sg.)	you (sg.)		4.1		0		2489
+334821	679	Jingpho	nan⁵⁵the³³	nan⁵⁵the³³	you (pl.)	you (pl.)		4.1		0		
+334822	679	Jingpho	khji³³	khji³³	he / she	he / she		4.1		0		
+334823	679	Jingpho	khan⁵⁵the³³	khan⁵⁵the³³	they	they		4.1		0		
+334824	679	Jingpho	tiʔ⁵⁵naŋ³³	tiʔ⁵⁵naŋ³³	oneself	oneself		4.1		0		
+334825	679	Jingpho	mă¹ʃa³¹ni³³	mă¹ʃa³¹ni³³	others	others		8.1		0		
+334826	679	Jingpho	n̩³³tai³³	n̩³³tai³³	this	this		10.4.3.2		0		
+334827	679	Jingpho	naŋ³¹	naŋ³¹	here	here		9.2.3		0		
+334828	679	Jingpho	wo³³ʒa³¹	wo³³ʒa³¹	that	that		10.1		0		5739,m
+334829	679	Jingpho	wo³³ʒa³¹teʔ³¹	wo³³ʒa³¹teʔ³¹	there	there		9.2.7		0		
+334830	679	Jingpho	kă¹tai³³	kă¹tai³³	who	who		10.5.3		0		
+334831	679	Jingpho	pha³³~n̩³³pha³³	pha³³~n̩³³pha³³	what	what		10.5.3		0		167,m,167
+334832	679	Jingpho	kă¹ʒa³¹	kă¹ʒa³¹	which	which		10.5.3		0		
+334833	679	Jingpho	kă¹teʔ³¹	kă¹teʔ³¹	where	where		10.5.3		0		
+334834	679	Jingpho	kă¹naŋ⁵⁵	kă¹naŋ⁵⁵	where	where		10.5.3		0		
+334835	679	Jingpho	kă¹te³¹	kă¹te³¹	how many / how much	how many / how much		10.1		0		
+334836	679	Jingpho	jaʔ⁵⁵ʃa³¹	jaʔ⁵⁵ʃa³¹	just now	just now		9.1.1		0		
+334837	679	Jingpho	ʃoŋ³³	ʃoŋ³³	first (in time)	first (in time)		9.9		0		
+334838	679	Jingpho	phaŋ³³	phaŋ³³	later (in time)	later (in time)		9.1.5		0		
+334839	679	Jingpho	jaʔ⁵⁵tʃaŋ³³	jaʔ⁵⁵tʃaŋ³³	immediately	immediately		9.1.1		0		
+334840	679	Jingpho	tu̱t⁵⁵noŋ³³	tu̱t⁵⁵noŋ³³	often	often		9.1.1		0	D0	
+334841	679	Jingpho	kau³¹ŋui⁵⁵jat³¹jat³¹	kau³¹ŋui⁵⁵jat³¹jat³¹	slowly	slowly		9.1.1		0		
+334842	679	Jingpho	a⁵⁵lă¹wan³³	a⁵⁵lă¹wan³³	quickly	quickly		9.1.1		0		
+334843	679	Jingpho	kɹai³¹	kɹai³¹	very	very		7.1.2.2		0		
+334844	679	Jingpho	kɹau³³	kɹau³³	most (superlative degree)	most (superlative degree)		7.1.2.1		0		
+334845	679	Jingpho	joŋ³¹	joŋ³¹	all / even	all / even		9.9		0		
+334846	679	Jingpho	muŋ³¹	muŋ³¹	also	also		10.1.2.1		0		
+334847	679	Jingpho	pai⁵⁵	pai⁵⁵	again	again		10.1		0		
+334848	679	Jingpho	te̱ŋ³¹te̱ŋ³¹	te̱ŋ³¹te̱ŋ³¹	certainly	certainly		7.2		0	D0	bTibetan?
+334849	679	Jingpho	n̩⁵⁵	n̩⁵⁵	NEG	NEG		10.6.2		0		
+334850	679	Jingpho	khum³¹	khum³¹	NEG imperative	NEG imperative		10.6.2		0		
+334851	679	Jingpho	ʃum³¹	ʃum³¹	NEG imperative	NEG imperative		10.6.2		0		

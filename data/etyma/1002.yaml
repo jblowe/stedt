@@ -1,0 +1,56 @@
+tag: 1002
+grpid: 67
+proto_language: PPC
+protoform: r-mi(y)-n
+gloss: PERSON / MAN
+semkey: '4.5'
+sequence: 1.0
+status: KEEP
+public: true
+references: STC p.107; cognate to GSR 457ab
+phonology:
+  handle: mi-n
+  initial: m
+  rhyme: i-n
+  suffix: n
+  initcover: M
+  rhymecover: VN
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: mii
+  gloss: PERSON / MAN / PEOPLE
+- grpid: 66
+  group: 1.3.4
+  form: mi
+  gloss: MAN / HUMAN
+- grpid: 5
+  group: 1.1.1
+  form: miː
+  gloss: MAN (homo)
+- grpid: 63
+  group: 1.3.1
+  form: a-[h]məjʔ
+  gloss: PERSON, HUMAN
+- grpid: 12
+  group: 1.7.2
+  form: C̥-məy
+  gloss: MAN (generic)
+- grpid: 23
+  group: 2.1.4
+  form: ᴬmi
+  gloss: MAN
+notes:
+- type: I
+  text: <par>cognate to GSR 457ab <latinform>mi̯ěn</latinform> “people” .</par>
+- type: T
+  text: <par>The <latinform>*-n</latinform> suffix (a morpheme signifying collectivity, according to Benedict,
+    <plainlatinform>STC n. 428, pp. 157-8</plainlatinform>) is attested in Written Burmese and Chinese.</par><par>This
+    morpheme frequently occurs as first element in compounds signifying body part terms (e.g., in Mzieme,
+    Zeme, Magar).</par><par>It also occurs as final element in names of Tibeto-Burman ethnic groups (e.g.,
+    Prinmi, Thangmi, Khumi, Xumi), and as first element in such names as well (e.g., Mizo, Mikir, Mishing,
+    Miji). In this respect, it is similar to <xref ref="5632">#5632</xref>.</par>
+- type: F
+  text: '<par><hanform>民</hanform> OC <latinform>*mi̯ən ~ mi̯ĕn</latinform>, GSR #457a &apos;people&apos;;
+    Schuessler 2007:386 <latinform>*min</latinform>; B &amp; S 2011: <latinform>*miŋ {mi[ŋ]}</latinform>;
+    Mand. <latinform>mín</latinform></par>'

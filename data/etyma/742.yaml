@@ -1,0 +1,32 @@
+tag: 742
+grpid: 2
+proto_language: PTB
+protoform: ka-t
+gloss: WING / HAND
+semkey: 1.5.1.3
+sequence: 21.0
+status: KEEP
+public: true
+phonology:
+  handle: ka
+  initial: k
+  rhyme: a-t
+  suffix: t
+  initcover: K
+  rhymecover: VT
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: khat
+  gloss: HAND, ARM
+  variant: a
+notes:
+- type: T
+  text: '<par>Like <xref ref="712">#712</xref> above, this root seems to show a semantic connection with
+    the numeral ONE: cf. Chungli Ao <latinform>ka</latinform> &apos;one&apos;, <latinform>teka</latinform>
+    &apos;hand&apos; and Lepcha <latinform>kát</latinform> &apos;one&apos;, <latinform>ʔákâ</latinform>
+    &apos;hand&apos;.</par><par>Yacham-Tengsa <latinform>takhat</latinform> and Ao (Mongsen) <latinform>tükhet</latinform>
+    &apos;hand&apos; seem to point to a dental suffix, which may well be the same element to be found
+    in Newar <latinform>lhā ⪤ lhāt</latinform> &apos;hand, arm&apos;.</par><par>Sangtam <latinform>khe</latinform>
+    and Lotha <latinform>okhe</latinform> &apos;hand&apos; might also be reflexes of the suffixed version
+    of this etymon.</par>'

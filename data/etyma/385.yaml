@@ -1,0 +1,30 @@
+tag: 385
+grpid: 2
+proto_language: PTB
+protoform: d-bu-s
+gloss: HEAD / CENTER / SENIOR MALE RELATIVE / UNCLE
+semkey: 1.2.1
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC p.117, HPTB p.477
+phonology:
+  handle: bu
+  prefix: d
+  initial: b
+  rhyme: u-s
+  initcover: P
+  rhymecover: V
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ʔuu
+  gloss: ELDER SIBLING
+notes:
+- type: I
+  text: <par><latinform>↭ *pu</latinform> (1275) HEAD/BALL/TUBER. Some Loloish binomes contain both etyma,
+    e.g. Nusu A <latinform>u³¹phu⁵⁵</latinform> (385, 1275).</par>
+- type: F
+  text: '<par><hanform>頭</hanform> OC <latinform>*d’u</latinform>, GSR #118e &apos;head&apos;; B &amp;
+    S 2011: <latinform>*m-tˁo</latinform>; Mand. <latinform>tóu</latinform>.</par>'

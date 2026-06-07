@@ -1,0 +1,19 @@
+tag: 5606
+grpid: 2
+proto_language: PTB
+protoform: la
+gloss: ASHES
+semkey: 3.2.12.2
+sequence: 1070.0
+status: KEEP
+public: true
+references: JAM
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: la
+  gloss: ASHES
+- grpid: 45
+  group: 6.1.2
+  form: C-la¹
+  gloss: ASHES

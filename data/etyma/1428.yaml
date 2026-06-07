@@ -1,0 +1,16 @@
+tag: 1428
+grpid: 2
+proto_language: PTB
+protoform: pyan
+gloss: WOOL
+semkey: 1.6.1.3
+sequence: 1.0
+status: DELETE
+public: false
+references: tentative!
+phonology:
+  handle: pyan
+  initial: py
+  rhyme: an
+  initcover: P
+  rhymecover: N

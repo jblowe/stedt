@@ -1,0 +1,22 @@
+tag: 391
+grpid: 2
+proto_language: PTB
+protoform: s-tak
+gloss: HEAD
+semkey: 1.2.1
+sequence: 9.1
+status: KEEP
+public: true
+references: PI-form
+phonology:
+  handle: tak
+  prefix: s
+  initial: t
+  rhyme: ak
+  initcover: T
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This rather sparsely attested root looks as if it is related to <xref ref="1722">#1722</xref>
+    [q.v.].</par><par>The Lepcha form with medial <latinform>-y-</latinform> is evidence for the <latinform>*s-</latinform>
+    prefix (see Benedict 1941).</par>

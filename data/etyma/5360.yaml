@@ -1,0 +1,17 @@
+tag: 5360
+grpid: 2
+proto_language: PTB
+protoform: g-ram
+gloss: INDIGO
+semkey: 3.1.2
+sequence: 16.0
+status: KEEP
+public: true
+references: cf. HPTB p.299
+notes:
+- type: F
+  text: '<par><hanform>藍</hanform> OC <latinform>*glɑ̂m</latinform>, GSR #609k; B &amp; S 2011: <latinform>*N-k.rˁam</latinform>;
+    Mand. <latinform>lán</latinform>.</par>'
+- type: T
+  text: <par>This root has been borrowed into Proto-Tai (<reconstruction>*graam<sup>A</sup></reconstruction>)
+    from Chinese.</par>

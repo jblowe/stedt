@@ -1,0 +1,17 @@
+tag: 2345
+grpid: 2
+proto_language: PTB
+protoform: kruw = krəw
+gloss: HORN
+semkey: 1.2.2
+sequence: 2171.0
+status: DELETE
+public: false
+xrefs: '819'
+references: STC#037
+phonology:
+  handle: kruw
+  initial: kr
+  rhyme: uw=krəw
+  initcover: K
+  rhymecover: LWT

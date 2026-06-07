@@ -1,0 +1,183 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+126358	319	Baima	ku¹³ ly⁵³	ku¹³ ly⁵³	body	body		1.1.1	1.1	0		2,11
+126359	319	Baima	giɛ¹³ zɿ⁵³	giɛ¹³ zɿ⁵³	back	back		1.4.8	1.4	0	HIDE	DUPE IN SOURCE
+126360	319	Baima	ro¹³ nɔ⁵³	ro¹³ nɔ⁵³	bosom	bosom		1.4.4.2	1.9	0		m,253
+126361	319	Baima	shɑ¹³ kɛ³⁵	shɑ¹³ kɛ³⁵	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34,1130
+126362	319	Baima	sø¹³ |n◦bo⁵³	sø¹³ n◦bo⁵³	alive / be living	alive  /  be living		1.1.2.1	1.12	0		77,s
+126363	319	Baima	sə⁵³	sə⁵³	die / be dead	die  /  be dead		1.1.6	1.13	0		27
+126364	319	Baima	rɐ⁵³	rɐ⁵³	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		19
+126365	319	Baima	ȵɛ³⁵	ȵɛ³⁵	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		129
+126366	319	Baima	ʑɑ⁵³ se¹³	ʑɑ⁵³ se¹³	awake / be awake	awake  /  be awake		1.1.4	1.17	0		150,m
+126367	319	Baima	ȵyɛ³⁵ ȵy¹³	ȵyɛ³⁵ ȵy¹³	dream	dream	v	1.1.4.2	1.18	0		m,m
+126368	319	Baima	ngɐ⁵³	ngɐ⁵³	head	head		1.2.1	2	0	HIDE	DUPE IN SOURCE
+126369	319	Baima	ngɐ⁵³	ngɐ⁵³	head	head		1.2.1	2.1	0	D1	386
+126370	319	Baima	ngɐ⁵³ dɛ¹³ ko³⁵	ngɐ⁵³ dɛ¹³ ko³⁵	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		386,m,m
+126371	319	Baima	tɕa¹³ nbu³⁵	tɕa¹³ nbu³⁵	hair (head)	hair (head)		1.2.3	2.7	0		m,1228
+126372	319	Baima	ɕɑ⁵³ zɛ³⁵	ɕɑ⁵³ zɛ³⁵	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		m,m
+126373	319	Baima	gɐ⁵³	gɐ⁵³	horn (of animal)	horn (of animal)		1.2.2	2.10	0		814
+126374	319	Baima	khɑ¹³ ŋo⁵³	khɑ¹³ ŋo⁵³	face	face		1.2.5	3	0	HIDE	DUPE IN SOURCE
+126375	319	Baima	khɑ¹³ ŋo⁵³	khɑ¹³ ŋo⁵³	face	face		1.2.5	3.1	0	D1	273,1192
+126376	319	Baima	thɛ¹³ pɑ⁵³	thɛ¹³ pɑ⁵³	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		2002,s
+126377	319	Baima	za³⁴¹ mu¹³ mu⁵³	za³⁴¹ mu¹³ mu⁵³	temple	temple		1.2.5.1	3.3	0		
+126378	319	Baima	ȵi¹³ ndʐe³⁵	ȵi¹³ ndʐe³⁵	eye	eye		1.2.6	3.4	0		682,3559
+126379	319	Baima	ȵi¹³ pɑ⁵³	ȵi¹³ pɑ⁵³	eyelid	eyelid		1.2.6.4	3.4.1	0		682,2076
+126380	319	Baima	ȵi¹³ dɑ³⁵	ȵi¹³ dɑ³⁵	eyeball	eyeball		1.2.6.1	3.4.2	0		682,2073
+126381	319	Baima	ȵi¹³ dø³⁴¹	ȵi¹³ dø³⁴¹	pupil	pupil		1.2.6.2	3.4.2.2	0		682,m
+126382	319	Baima	ka¹³ʃu⁵³	ka¹³ʃu⁵³	white of eye	white of eye		1.2.6.3	3.4.2.3	0		m
+126383	319	Baima	ȵi¹³ pu⁵³	ȵi¹³ pu⁵³	eyebrow	eyebrow		1.2.6.6	3.4.3	0		682,1228
+126384	319	Baima	ȵi¹³ pu⁵³ dzɔ¹³	ȵi¹³ pu⁵³ dzɔ¹³	eyelash	eyelash		1.2.6.5	3.4.4	0		682,1228,m
+126385	319	Baima	ȵi¹³ ndʐe³⁵ tsõ⁵³	ȵi¹³ ndʐe³⁵ tsõ⁵³	blink	blink	v	1.2.6.12	3.4.5	0		682,m,m
+126386	319	Baima	ȵi¹³ ndʐe³⁵ nɔ⁵³ dʒuɛ³⁵	ȵi¹³ ndʐe³⁵ nɔ⁵³ dʒuɛ³⁵	tears	tears		1.2.6.7	3.4.6	0		682,3559,m,m
+126387	319	Baima	ȵi¹³ tɕɑ⁵³	ȵi¹³ tɕɑ⁵³	eye sand	eye sand		1.2.6.8	3.4.7	0		682,577
+126388	319	Baima	dzɿ³⁴¹ dzɿ³⁴¹ ŋo⁵³ ŋo⁵³	dzɿ³⁴¹ dzɿ³⁴¹ ŋo⁵³ ŋo⁵³	cry / weep	cry  /  weep	v	1.8.8.2	3.4.8	0		m,m,1104,1104
+126389	319	Baima	tø³⁵ /ȵi⁵³ ndo³⁴¹ uɛ⁵³	tø³⁵ /ȵi⁵³ ndo³⁴¹ uɛ⁵³	see / look	see  /  look	v	1.2.6.10	3.4.9	0		m,682,1402,m
+126390	319	Baima	ʃɑ⁵³ rɑ⁵³	ʃɑ⁵³ rɑ⁵³	blind	blind		1.2.6.14.2	3.4.10	0		m
+126391	319	Baima	nɑ³⁵ ngɐ⁵³	nɑ³⁵ ngɐ⁵³	nose	nose		1.2.8	3.5	0		803,2093
+126392	319	Baima	na³⁵ ngɐ⁵³ dzɿ¹³ ȵɑ⁵³	na³⁵ ngɐ⁵³ dzɿ¹³ ȵɑ⁵³	nose bridge	nose bridge		1.2.8	3.5.1	0		803,2093,m,m
+126393	319	Baima	nɑ³⁵ nga⁵³ ɦo¹³ ru⁵³	nɑ³⁵ nga⁵³ ɦo¹³ ru⁵³	nostril	nostril		1.2.8.1	3.5.2	0		803,2093,m,2070
+126394	319	Baima	nɑ³⁵ ʒo⁵³	nɑ³⁵ ʒo⁵³	liquid mucus	liquid mucus		3.2.3	3.5.6	0		
+126395	319	Baima	nø¹³ tɕɑ⁵³	nø¹³ tɕɑ⁵³	solid mucus	solid mucus		1.1.5	3.5.7	0		
+126396	319	Baima	ȵy³⁴¹	ȵy³⁴¹	smell / sniff	smell  /  sniff	v	1.2.8.5	3.5.9	0		1415
+126397	319	Baima	nɑ³⁵	nɑ³⁵	ear	ear		1.2.7	3.6	0		811
+126398	319	Baima	nɑ³⁵ po³⁵	nɑ³⁵ po³⁵	earwax	earwax		1.2.7.3	3.6.6	0		811,815
+126399	319	Baima	nɑ³⁵ ȵɛ¹³	nɑ³⁵ ȵɛ¹³	hear	hear	v	1.2.7.4	3.6.7	0		811,1410
+126400	319	Baima	nɑ¹³ ue³⁵	nɑ¹³ ue³⁵	deaf	deaf		1.2.7.5	3.6.8	0		811,m
+126401	319	Baima	kha⁵³	kha⁵³	mouth	mouth		1.3.1	3.7	0		273
+126402	319	Baima	sha⁵³ ȵi³⁵	sha⁵³ ȵi³⁵	gums	gums		1.3.4.3	3.7.3	0		632,504
+126403	319	Baima	dʒuɛ³⁵	dʒuɛ³⁵	saliva	saliva		1.8.3	3.7.5	0		
+126404	319	Baima	ndʒɐ³⁴¹	ndʒɐ³⁴¹	eat	eat	v	1.5.3.2	3.7.6	0		36
+126405	319	Baima	ndo³⁵	ndo³⁵	drink	drink	v		3.7.7	0		502
+126406	319	Baima	ko⁵³ dɐ¹³	ko⁵³ dɐ¹³	thirsty	thirsty	be	1.1.3.1	3.7.8	0		116,m
+126407	319	Baima	tuɛ⁵³	tuɛ⁵³	hungry	hungry	be	1.1.3	3.7.9	0		
+126408	319	Baima	ndʐɔ³⁵	ndʐɔ³⁵	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		114
+126409	319	Baima	ɕy⁵³ dɐ³⁴¹	ɕy⁵³ dɐ³⁴¹	vomit	vomit	v	1.8.3.2	3.7.13	0		1750,m
+126410	319	Baima	kha⁵³ dø³⁴¹	kha⁵³ dø³⁴¹	hold in mouth	hold in mouth	v	1.3.4.4	3.7.14	0		273,m
+126411	319	Baima	kha⁵³ the³⁵	kha⁵³ the³⁵	gape / open mouth	gape  /  open mouth	v	1.3.1	3.7.15	0		273,m
+126412	319	Baima	iø³⁵ ɕi¹³ dɐ¹³	iø³⁵ ɕi¹³ dɐ¹³	yawn	yawn	v	1.3.1.3	3.7.16	0		
+126413	319	Baima	dʒɑ³⁴¹	dʒɑ³⁴¹	tongue	tongue		1.3.3	3.8	0		623
+126414	319	Baima	dzø³⁵	dzø³⁵	speak	speak	v	8.5.10.1	3.8.1	0		5382
+126415	319	Baima	khɑ⁵³ ndɑ⁵³	khɑ⁵³ ndɑ⁵³	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		273,m
+126416	319	Baima	ndʒɑ⁵³	ndʒɑ⁵³	lick	lick		1.3.3.1	3.8.4	0		629
+126417	319	Baima	ndʒo³⁵	ndʒo³⁵	lip	lip		1.3.2	3.9	0		442
+126418	319	Baima	ʑɑ¹³ ndʒo³⁴¹	ʑɑ¹³ ndʒo³⁴¹	upper lip	upper lip		9.2.1	3.9.1	0		
+126419	319	Baima	mɑ¹³ ndʒo³⁴¹	mɑ¹³ ndʒo³⁴¹	lower lip	lower lip			3.9.2	0		m,442
+126420	319	Baima	ga³⁴¹	ga³⁴¹	smile	smile	v	1.8.8.1	3.9.4	0		1116
+126421	319	Baima	pɛ⁵³ tɕi¹³	pɛ⁵³ tɕi¹³	kiss	kiss	v	1.3.2.2	3.9.5	0		m,5541
+126422	319	Baima	shɐ⁵³	shɐ⁵³	tooth	tooth		1.3.4	3.10	0		632
+126423	319	Baima	ŋø¹³ shɐ⁵³	ŋø¹³ shɐ⁵³	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		634,632
+126424	319	Baima	de¹³ shɐ⁵³	de¹³ shɐ⁵³	molar	molar		1.3.4.2	3.10.2	0		262,632
+126425	319	Baima	shɐ⁵³ tø¹³	shɐ⁵³ tø¹³	bite	bite	v	1.3.4.4	3.10.7	0		
+126426	319	Baima	le⁵³	le⁵³	chew	chew	v	1.3.4	3.10.8	0		1147
+126427	319	Baima	ndʑo¹³ tʃɑ³⁵	ndʑo¹³ tʃɑ³⁵	cheek	cheek		1.2.5.2	3.11	0		284,m
+126428	319	Baima	mɛ¹³ gi⁵³	mɛ¹³ gi⁵³	chin	chin		1.2.5.3	3.12	0		
+126429	319	Baima	kɛ¹³ do³⁵	kɛ¹³ do³⁵	neck	neck		1.4.2	4.1	0		m,359
+126430	319	Baima	dʒø¹³ ngɔ⁵³ kɛ¹³ do³⁵	dʒø¹³ ngɔ⁵³ kɛ¹³ do³⁵	nape of neck	nape of neck		1.4.2.1	4.1.3	0		m,m,m,359
+126431	319	Baima	ʃhe¹³ tʃuɛ⁵³	ʃhe¹³ tʃuɛ⁵³	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		m,3411
+126432	319	Baima	ʃhe¹³ ru³⁵	ʃhe¹³ ru³⁵	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		m,488
+126433	319	Baima	ȵi¹³ uɑ⁵³	ȵi¹³ uɑ⁵³	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		505,m
+126434	319	Baima	sø³⁵ ȵi⁵³	sø³⁵ ȵi⁵³	swallow	swallow	v	1.3.5.6	4.2.3	0		
+126435	319	Baima	tʂo¹³ rɿ³⁵	tʂo¹³ rɿ³⁵	chest	chest		1.4.4.3	5.1	0		299,3396
+126436	319	Baima	tsu¹³ pɑ⁵³	tsu¹³ pɑ⁵³	rib	rib		1.4.4.3	5.1.2	0		299,s
+126437	319	Baima	dʐɑ¹³ dɔ³⁵	dʐɑ¹³ dɔ³⁵	shoulder	shoulder		1.4.3	5.3	0		6704,3343
+126438	319	Baima	ne¹³ po³⁵	ne¹³ po³⁵	breast	breast		1.4.4.3	5.4	0		254,m
+126439	319	Baima	no³⁵ ne¹³ ne³⁵	no³⁵ ne¹³ ne³⁵	milk	milk			5.4.3	0		253,254,254
+126440	319	Baima	giɛ¹³ zɿ⁵³	giɛ¹³ zɿ⁵³	back	back		1.4.8	5.5	0	D1	209,m
+126441	319	Baima	tɑ¹³ po⁵³	tɑ¹³ po⁵³	hunchback	hunchback		1.4.8.3	5.5.6	0		m,m
+126442	319	Baima	kɛ⁵³ uɑ⁵³	kɛ⁵³ uɑ⁵³	waist	waist		1.4.6	5.6	0		217,m
+126443	319	Baima	phɛ¹³	phɛ¹³	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)		1.4.7	5.7	0		m
+126444	319	Baima	tɛ¹³ tɛ³⁵	tɛ¹³ tɛ³⁵	navel	navel		1.9.4	5.7.1	0		519,519
+126445	319	Baima	ndzɔ¹³ rɑ⁵³	ndzɔ¹³ rɑ⁵³	hipbone	hipbone		1.4.9.2	5.8.2	0		215,237
+126446	319	Baima	ŋuɛ³⁵	ŋuɛ³⁵	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		205
+126447	319	Baima	iɑ¹³ po³⁵ uɑ⁵³	iɑ¹³ po³⁵ uɑ⁵³	arm	arm		1.5.1.2	6.1	0		696,m,725
+126448	319	Baima	dʒɛ¹³ uɛ⁵³	dʒɛ¹³ uɛ⁵³	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
+126449	319	Baima	tʂhu⁵³	tʂhu⁵³	tickle	tickle		1.5.1.2.4	6.1.1.1	0		
+126450	319	Baima	iɑ¹³ tɕy¹³ tsi⁵³	iɑ¹³ tɕy¹³ tsi⁵³	elbow	elbow		1.5.8.3	6.1.4	0		696,m,m
+126451	319	Baima	iɑ¹³ po³⁵ uɑ⁵³	iɑ¹³ po³⁵ uɑ⁵³	forearm / lower arm	forearm  /  lower arm		1.5.1.2.2	6.1.5	0		696,m,m
+126452	319	Baima	iɑ³⁵	iɑ³⁵	hand	hand		1.5.1.1	6.1.7	0		696
+126453	319	Baima	iɑ¹³ tɕi³⁵	iɑ¹³ tɕi³⁵	palm	palm		1.5.5	6.1.7.1	0		696,m
+126454	319	Baima	iɑ¹³ tɑ¹³ tsɑ⁵³	iɑ¹³ tɑ¹³ tsɑ⁵³	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		696,m,m
+126455	319	Baima	bo¹³ dzo³⁵	bo¹³ dzo³⁵	fist	fist		1.5.1.1.1	6.1.7.3	0		1327,m
+126456	319	Baima	ʃuɛ³⁵ pɑ⁵³	ʃuɛ³⁵ pɑ⁵³	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		731,s
+126457	319	Baima	lɑ¹³ gɔ³⁵	lɑ¹³ gɔ³⁵	thigh	thigh		1.5.7.1	6.2.1	0		
+126458	319	Baima	dzɿ¹³ ngɐ⁵³ nbo¹³ i⁵³	dzɿ¹³ ngɐ⁵³ nbo¹³ i⁵³	knee	knee		1.5.8.4	6.2.2	0		
+126459	319	Baima	dzɿ¹³ ngɐ⁵³ nbo¹³ i⁵³	dzɿ¹³ ngɐ⁵³ nbo¹³ i⁵³	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		
+126460	319	Baima	shɑ⁵³ pɑ⁵³	shɑ⁵³ pɑ⁵³	shin	shin		1.5.7.2	6.2.3	0		
+126461	319	Baima	ȵɛ¹³ ɕi⁵³ phɔ¹³ ʒo³⁵	ȵɛ¹³ ɕi⁵³ phɔ¹³ ʒo³⁵	calf	calf		1.5.7	6.2.4	0		
+126462	319	Baima	io¹³ əʴ¹³ tsɿ⁵³	io¹³ əʴ¹³ tsɿ⁵³	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		
+126463	319	Baima	ko³⁵	ko³⁵	foot	foot		1.5.2	6.2.6	0		
+126464	319	Baima	ɕe¹³ the³⁵	ɕe¹³ the³⁵	heel	heel		1.5.2.1	6.2.6.1	0		
+126465	319	Baima	ȵɛ¹³ tɑ⁵³	ȵɛ¹³ tɑ⁵³	arch	arch		1.5.2.3	6.2.6.3	0		
+126466	319	Baima	tɑ¹³ tɑ³⁵	tɑ¹³ tɑ³⁵	sole	sole		1.5.5	6.2.6.5	0		
+126467	319	Baima	kɔ³⁵ tɑ¹³ tsɑ⁵³	kɔ³⁵ tɑ¹³ tsɑ⁵³	instep	instep		1.5.2.2	6.2.6.6	0		
+126468	319	Baima	ko¹³ ʒe³⁵	ko¹³ ʒe³⁵	footprint	footprint		1.5.2.5	6.2.6.7	0		
+126469	319	Baima	ȵi⁵³ pɑ⁵³	ȵi⁵³ pɑ⁵³	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		
+126470	319	Baima	ko¹³ ʒɑ⁵³	ko¹³ ʒɑ⁵³	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
+126471	319	Baima	iɑ¹³ ndzɿ¹³ ru⁵³	iɑ¹³ ndzɿ¹³ ru⁵³	finger	finger		1.5.6	7.1	0		696,m,m
+126472	319	Baima	tɑ¹³ ndzu⁵³	tɑ¹³ ndzu⁵³	index finger	index finger		1.0	7.1.1	0		
+126473	319	Baima	dɛ¹³ tʃe³⁵	dɛ¹³ tʃe³⁵	thumb	thumb		1.5.6.1	7.1.5	0		
+126474	319	Baima	ko³⁵ ndzɿ¹³ ru⁵³	ko³⁵ ndzɿ¹³ ru⁵³	toe	toe		1.5.6	7.2	0		
+126475	319	Baima	shɔ¹³ mu⁵³	shɔ¹³ mu⁵³	nail	nail		1.5.10	7.4	0		
+126477	319	Baima	ʃha¹³ pu⁵³	ʃha¹³ pu⁵³	beard / moustache	beard / moustache		1.2.5.5	8.1.2	0		1111,1228
+126478	319	Baima	mɛ¹³ rɑ⁵³	mɛ¹³ rɑ⁵³	beard	beard		1.2.5.5	8.1.2.1	0		1114,1265
+126479	319	Baima	ʃo¹³ nbɑ³⁵	ʃo¹³ nbɑ³⁵	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		34,m
+126480	319	Baima	ɕɑ⁵³ pu⁵³	ɕɑ⁵³ pu⁵³	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		m,1228
+126481	319	Baima	tɑ⁵³ tʃɔ⁵³ lɐ⁵³	tɑ⁵³ tʃɔ⁵³ lɐ⁵³	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		5,m,m
+126482	319	Baima	ʃhɑ⁵³ pɑ⁵³	ʃhɑ⁵³ pɑ⁵³	skin	skin		1.6.5	8.2	0		m,s
+126483	319	Baima	ȵi⁵³ tʃu⁵³	ȵi⁵³ tʃu⁵³	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		615,1631
+126484	319	Baima	khɑ¹³ ŋu⁵³ nɑ¹³ ri³⁵	khɑ¹³ ŋu⁵³ nɑ¹³ ri³⁵	freckle	freckle		1.6.5.3	8.2.3.1	0		
+126485	319	Baima	tso¹³ pɛ̃⁵³ tʃuɑ̃⁵³	tso¹³ pɛ̃⁵³ tʃuɑ̃⁵³	pimple	pimple		1.6.5.3	8.2.3.2	0		
+126486	319	Baima	ʃha¹³ ndʒɛ³⁵	ʃha¹³ ndʒɛ³⁵	mole	mole		2.2.7	8.2.3.3	0		
+126487	319	Baima	dza⁵³ ra⁵³	dza⁵³ ra⁵³	wart	wart		1.6.5.3	8.2.3.4	0		
+126488	319	Baima	tɕɔ³⁵ nbɔ¹³ ʃɿ¹³	tɕɔ³⁵ nbɔ¹³ ʃɿ¹³	cyst	cyst		1.6.5.3	8.2.3.5	0		
+126489	319	Baima	mɑ¹³ ri³⁵	mɑ¹³ ri³⁵	scar	scar		1.6.5.3	8.2.3.7	0		
+126490	319	Baima	ro⁵³ nbɑ⁵³	ro⁵³ nbɑ⁵³	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
+126491	319	Baima	sa⁵³	sa⁵³	itch / be itchy	itch  /  be itchy	v	1.6.5.5	8.2.3.10	0		1457
+126492	319	Baima	ʑø³⁴¹	ʑø³⁴¹	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		40
+126493	319	Baima	ro⁵³ pɑ⁵³	ro⁵³ pɑ⁵³	bone	bone		1.6.3	8.4	0		232,m
+126494	319	Baima	ŋɑ¹³ ndʒɔ³⁵	ŋɑ¹³ ndʒɔ³⁵	vertebrae (of spine)	vertebrae (of spine)		1.6.3.3	8.4.2	0		
+126495	319	Baima	ro⁵³ pɑ⁵³ kɔ³⁵	ro⁵³ pɑ⁵³ kɔ³⁵	marrow	marrow		1.6.3.5	8.4.3	0		232,s,459
+126496	319	Baima	tɕhɑ⁵³	tɕhɑ⁵³	blood	blood		1.6.2	8.7	0		231
+126497	319	Baima	ʃhɑ¹³ kɛ³⁵	ʃhɑ¹³ kɛ³⁵	muscle	muscle		1.6.6.2	8.8	0		34,1130
+126498	319	Baima	tshɿ⁵³	tshɿ⁵³	joint	joint		1.5.8	8.9	0		418
+126500	319	Baima	yɛ³⁵	yɛ³⁵	lung	lung		1.7.2	9.2	0		
+126501	319	Baima	pho¹³ su⁵³	pho¹³ su⁵³	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		75,m
+126502	319	Baima	kha⁵³ i⁵³	kha⁵³ i⁵³	phlegm	phlegm		1.8.3	9.2.5	0		273,m
+126503	319	Baima	ndʒo¹³ nbɑ³⁵	ndʒo¹³ nbɑ³⁵	liver	liver		1.7.3	9.5	0		1390,s
+126504	319	Baima	ngiɛ¹³ lɐ⁵³	ngiɛ¹³ lɐ⁵³	kidney	kidney		1.7.5	9.6	0		m,2812
+126505	319	Baima	ʃo⁵³ tɔ¹³	ʃo⁵³ tɔ¹³	urinate	urinate	v	1.5.3.2	9.7.2	0		
+126506	319	Baima	phɛ¹³	phɛ¹³	stomach	stomach		1.7.6	9.10	0		2104
+126507	319	Baima	dʑyɛ³⁵	dʑyɛ³⁵	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		572
+126508	319	Baima	dʑo¹³ ɦɑ³⁵	dʑo¹³ ɦɑ³⁵	large intestine	large intestine		1.7.7	9.11.1	0		
+126509	319	Baima	dʑo¹³ nɑ⁵³	dʑo¹³ nɑ⁵³	small intestine	small intestine		9.7.2	9.11.2	0		m,m
+126510	319	Baima	ʒɑ³⁵ gɐ¹³ gɐ⁵³	ʒɑ³⁵ gɐ¹³ gɐ⁵³	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		m,m,m
+126511	319	Baima	tɕɑ¹³ uɑ⁵³	tɕɑ¹³ uɑ⁵³	feces / shit	feces  /  shit		1.8.5	9.12.1	0		577,s
+126512	319	Baima	tɕɑ¹³ uɑ⁵³ tɔ¹³ i¹³	tɕɑ¹³ uɑ⁵³ tɔ¹³ i¹³	defecate	defecate	v	1.8.5.4	9.12.3	0		
+126513	319	Baima	ʒɔ¹³ iɔ¹³	ʒɔ¹³ iɔ¹³	copulate	copulate	v	1.9.1.1	10.2	0		3470,3475
+126514	319	Baima	phɑ¹³	phɑ¹³	male	male		1.9.6.1	10.3	0		1634
+126515	319	Baima	khɑ¹³ ndʐɿ⁵³	khɑ¹³ ndʐɿ⁵³	penis	penis			10.3.1	0		m,1284
+126516	319	Baima	li⁵³ dɐ³⁴¹	li⁵³ dɐ³⁴¹	testicle	testicle			10.3.5	0		1284,1181
+126517	319	Baima	ʒɔ¹³ pu⁵³	ʒɔ¹³ pu⁵³	male pubic hair	male pubic hair			10.3.6	0		m,1228
+126518	319	Baima	ʒɔ¹³ sha¹³ ŋø³⁵	ʒɔ¹³ sha¹³ ŋø³⁵	semen	semen			10.3.7	0		
+126519	319	Baima	tɕhø³⁵	tɕhø³⁵	castrate	castrate	v	1.9.2.3	10.3.9	0		m
+126520	319	Baima	mɑ⁵³	mɑ⁵³	female	female		1.9.3	10.4	0		1619,1620
+126521	319	Baima	pɑ¹³ tɕhɑ⁵³ nbi¹³	pɑ¹³ tɕhɑ⁵³ nbi¹³	menstruate	menstruate	v	1.9.11.1	10.4.6	0		m,231,m
+126522	319	Baima	pa¹³ tʃhɑ⁵³	pa¹³ tʃhɑ⁵³	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		m,231
+126523	319	Baima	ʃuɛ³⁵	ʃuɛ³⁵	amniotic sac / bag of waters	amniotic sac  /  bag of waters			10.4.9	0		b,b
+126524	319	Baima	ku¹³ ly⁵³ tʃhɑ¹³ u⁵³	ku¹³ ly⁵³ tʃhɑ¹³ u⁵³	pregnant	pregnant	be	1.9.6.1	10.4.14	0		
+126525	319	Baima	phɛ¹³ kho⁵³ nɔ¹³	phɛ¹³ kho⁵³ nɔ¹³	pregnant	pregnant	be	1.9.6.1	10.4.14	0		
+126526	319	Baima	y⁵³ pɑ⁵³	y⁵³ pɑ⁵³	cough	cough		1.8.3.3	11.1	0		
+126527	319	Baima	ko¹³ ti⁵³	ko¹³ ti⁵³	hiccup	hiccup		1.8.3.5	11.2	0		
+126528	319	Baima	ɑ¹³ |thi⁵³	ɑ¹³ thi⁵³	sneeze	sneeze		1.8.2.1	11.3	0		2131
+126529	319	Baima	ŋɔ¹³ pa¹³	ŋɔ¹³ pa¹³	snore	snore		1.8.2.2	11.4	0		1784,s
+126530	319	Baima	so¹³ re³⁵ tɕi¹³	so¹³ re³⁵ tɕi¹³	whistle	whistle		8.5.5	11.5	0		m,m,m
+126531	319	Baima	gɑ¹³ pɑ⁵³	gɑ¹³ pɑ⁵³	burp / belch	burp  /  belch		1.8.3	11.6	0		
+126532	319	Baima	ɕhe¹³ tɔ³⁵	ɕhe¹³ tɔ³⁵	fart	fart		1.8.5.2	11.7	0		
+126533	319	Baima	gɑ³⁴¹	gɑ³⁴¹	laugh	laugh		1.8.8.1	11.9	0		1116
+126534	319	Baima	tʂu⁵³	tʂu⁵³	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
+126535	319	Baima	ne⁵³	ne⁵³	sick / be ill / hurt	sick  /  be ill  /  hurt	be	1.1.5.1	12.2	0		
+126536	319	Baima	tɕɔ³⁵ nɔ¹³	tɕɔ³⁵ nɔ¹³	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
+126537	319	Baima	nɑ³⁴¹	nɑ³⁴¹	pus	pus		1.8.6.1	12.5	0		1297
+126538	319	Baima	dʑe¹³ uɔ³⁵ tʃɿ⁵³	dʑe¹³ uɔ³⁵ tʃɿ⁵³	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		
+126539	319	Baima	do¹³ ɕe⁵³	do¹³ ɕe⁵³	cord / fathom (outstretched ar	cord  /  fathom (outstretched ar		1.5.9.5	13.4	0		1187
+168675	319	Baima	ne¹³ ne³⁵	ne¹³ ne³⁵	breast	breast		1.4.4.3	5.4	0		254,254
+168676	319	Baima	mo⁵³	mo⁵³	female	female		1.9.3	10.4	0		1619,1620

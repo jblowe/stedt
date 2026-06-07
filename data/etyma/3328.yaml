@@ -1,0 +1,29 @@
+tag: 3328
+grpid: 2
+proto_language: PTB
+protoform: g-r(u/i)n
+gloss: MUSHROOM / FUNGUS
+semkey: 3.1.7
+sequence: 1.0
+status: KEEP
+public: true
+references: GSR 485c
+phonology:
+  handle: run
+  initial: r
+  rhyme: un⪤g-rin
+  initcover: L
+  rhymecover: VNL
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: jin
+  gloss: MUSHROOM
+notes:
+- type: F
+  text: '<par><hanform>菌</hanform> OC <latinform>*gʼi̯wɛn</latinform>, GSR #485c; B &amp; S 2011 <latinform>*grunʔ
+    {[g]runʔ}</latinform>; Mand. <latinform>jùn</latinform> &apos;mushroom&apos;, <latinform>jūn</latinform>
+    &apos;microbe&apos;.</par>'
+- type: T
+  text: <par>This root has so far only been identified in the Tani group of TB, but appears to have a
+    good Chinese comparandum.</par>

@@ -1,0 +1,19 @@
+tag: 2443
+grpid: 2
+proto_language: PTB
+protoform: r-ma-t
+gloss: NETTLE
+semkey: 3.1.2
+sequence: 2519.0
+status: delete
+public: true
+xrefs: '1788'
+references: STC#446
+phonology:
+  handle: ma
+  prefix: r
+  initial: m
+  rhyme: a-t
+  suffix: t
+  initcover: M
+  rhymecover: VT

@@ -1,0 +1,33 @@
+tag: 2308
+grpid: 2
+proto_language: PTB
+protoform: d-k(e/ə)y
+gloss: TIGER
+semkey: 2.1.3
+sequence: 3324.0
+status: KEEP
+public: true
+references: cf. STC#462, HPTB
+phonology:
+  handle: key
+  initial: k
+  rhyme: ey=d-key
+  initcover: K
+  rhymecover: VWT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: kay
+  gloss: TIGER
+- grpid: 66
+  group: 1.3.4
+  form: kʰu
+  gloss: TIGER
+- grpid: 50
+  group: '7'
+  form: keᴬ
+  gloss: TIGER
+notes:
+- type: T
+  text: '<par>A number of Tani and Naga forms for &apos;leopard&apos; appear to be TIGER with an -r suffix,
+    cf. Angami and Chokri, which have the root #2308 in both &apos;tiger&apos; and &apos;leopard&apos;.</par>'

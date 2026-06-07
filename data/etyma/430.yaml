@@ -1,0 +1,15 @@
+tag: 430
+grpid: 2
+proto_language: PTB
+protoform: ts(y)ap
+gloss: CHOP
+semkey: 6.9.3
+sequence: 1392.0
+status: KEEP
+public: true
+references: cf. HPTB p.336
+notes:
+- type: T
+  text: <par>This etymon is very similar to <xref ref="2763">#2763</xref>, but we are keeping them separate
+    for the time being. In the case of languages with eroded finals (like those of the Qiangic group),
+    it is hard to tell which of these etyma to assign a reflex to.</par>

@@ -1,0 +1,17 @@
+tag: 1183
+grpid: 2
+proto_language: PTB
+protoform: kwa
+gloss: FACE
+semkey: 1.2.5
+sequence: 6.1
+status: DELETE
+public: false
+exemplary: true
+xrefs: '273'
+phonology:
+  handle: kwa
+  initial: kw
+  rhyme: a
+  initcover: K
+  rhymecover: V

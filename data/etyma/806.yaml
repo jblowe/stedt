@@ -1,0 +1,26 @@
+tag: 806
+grpid: 2
+proto_language: PTB
+protoform: bu(k/ŋ)
+gloss: NOSE / NOSTRIL
+semkey: 1.2.8
+sequence: 2.0
+status: KEEP
+public: false
+phonology:
+  handle: buk
+  initial: b
+  rhyme: u((k/ŋ)/
+  initcover: P
+  rhymecover: NT
+notes:
+- type: I
+  text: <par>sometimes hard to differentiate from e810 <reconstruction>*bi</reconstruction>, e.g., Yi
+    (Nanhua) <latinform>no³³be̱³³ </latinform>139323, Yi (Mile) <latinform>no³³bo̱²¹</latinform> 139674.</par>
+- type: T
+  text: <par>In several languages including Written Tibetan, this etymon means NOSTRIL rather than NOSE,
+    suggesting that there might be a connection with <xref ref="6723">#6723</xref> and <xref ref="164">#164</xref>.</par><par>Reflexes
+    with final <latinform>-m</latinform>, as in some Tani languages and Darang, seem to have arisen by
+    assimilation to the labial initial.</par><par>Apatani has developed a high front vowel in this root,
+    still another example of the variation between <latinform>-u-</latinform> and <latinform>-i-</latinform>
+    in the environment of labials.</par>

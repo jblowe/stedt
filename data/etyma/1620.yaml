@@ -1,0 +1,31 @@
+tag: 1620
+grpid: 2
+proto_language: PTB
+protoform: mow
+gloss: WOMAN / FEMALE RELATIVE / FEMININE SUFFIX
+semkey: 1.9.3
+sequence: 5.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. HPTB pp. 223, 227; STC#297
+phonology:
+  handle: mow
+  initial: m
+  rhyme: ow
+  initcover: M
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: maw
+  gloss: BRIDE / GROOM
+- grpid: 50
+  group: '7'
+  form: muᴮ
+  gloss: FEMALE (HUMANS), MOTHER
+notes:
+- type: F
+  text: '<par><hanform>母</hanform> OC <latinform>*mə̯u</latinform>, GSR #947a-e ‘mother’; Schuessler 2007:392
+    <latinform>*mə̂ʔ</latinform>; B &amp; S 2011: <latinform>*məʔ</latinform> (? or <latinform>*mˁoʔ</latinform>
+    ); Mand. <latinform>mǔ</latinform>.</par>'

@@ -1,0 +1,15 @@
+tag: 3329
+grpid: 2
+proto_language: PTB
+protoform: (p/b)al
+gloss: BACK
+semkey: 1.4.8
+sequence: 14.0
+status: KEEP
+public: true
+phonology:
+  handle: p/bal
+  initial: p/b
+  rhyme: al
+  initcover: P
+  rhymecover: L

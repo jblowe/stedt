@@ -1,0 +1,22 @@
+tag: 5807
+grpid: 2
+proto_language: PTB
+protoform: (h)i ⪤ (h)ay
+gloss: THIS / HERE / PROXIMAL DEICTIC
+sequence: 3300.0
+status: ''
+public: false
+notes:
+- type: T
+  text: '<par>Forms supporting the current etymon are widely attested across TB languages. Early on, Burling
+    1959:444 reconstructs <latinform>*i</latinform> &apos;this&apos; for Proto-Bodo; Bradley 1979:454  <latinform>*i</latinform>
+    ~ <latinform>*hi</latinform> for Proto-Loloish; evidence from other TB subgroups justifies treating
+    <latinform>*i</latinform> ~ <latinform>*</latinform> as a root at the PTB level. Schuessler 2007:563
+    offers a convincing Chinese comparandum: <hanform>伊</hanform> &apos;this&apos;, OC <latinform>*ʔi</latinform>,
+    Mand. <latinform>yī</latinform>.</par><par>Note that we are positing <xref ref="5807">#5807</xref>
+    as an etymon distinct from <xref ref="6595">#6595</xref> and <xref ref="2195">#2195</xref>. Additional
+    comparative and historical research may reveal whether these three PTB etyma should continue to be
+    treated as isolates vs. ultimately as allofams of one another. [SPB]</par>'
+- type: F
+  text: '<par><hanform>伊</hanform> OC <latinform>*ʔi̯ɛr</latinform>, GSR #604a &apos;this&apos;; Schuessler
+    2007:563 <latinform>*ʔi</latinform>; B &amp; S 2011: <latinform>*ʔij</latinform>; Mand. <latinform>yī</latinform>.</par>'

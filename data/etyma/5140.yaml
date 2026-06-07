@@ -1,0 +1,21 @@
+tag: 5140
+grpid: 2
+proto_language: PTB
+protoform: wut
+gloss: COLD / CHILLY
+semkey: 7.1.2.3
+sequence: 6.0
+status: KEEP
+public: true
+references: 'PKC #1140'
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: wot
+  gloss: COLD / CHILLY
+notes:
+- type: T
+  text: <par>This root is so far best established for PKC, but there is a promising Tujia comparandum.</par><par>This
+    etymon bears some resemblance to <xref ref="3554">#3554</xref>, although they seem quite separate.</par><par>The
+    Tibetan (Alike) form <latinform>wat</latinform> looks like this root, but the final <latinform>-t</latinform>
+    is evidently the reflex of Proto-Bodic <latinform>-l</latinform> (cf. Tibetan (Amdo, Xiahe) <latinform>wal</latinform>).</par>

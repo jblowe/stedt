@@ -1,0 +1,23 @@
+tag: 2241
+grpid: 2
+proto_language: PTB
+protoform: gliŋ
+gloss: GROUND / LAND / ISLAND
+semkey: 3.2.5
+sequence: 9.0
+status: KEEP
+public: true
+references: cf. STC#128, HPTB p.280
+phonology:
+  handle: gliŋ
+  initial: gl
+  rhyme: iŋ
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>STC #128 groups Black Lahu <latinform>mɨ̀-gɨ̀</latinform> &apos;land&apos; (cf. also Yellow
+    Lahu <latinform>mi²gɯ²</latinform>) in this etymon but this is not plausible, since the rhyme <reconstruction>*-iŋ</reconstruction>
+    consistently becomes <latinform>-ɛ</latinform> in Black Lahu. The second syllable should rather be
+    assigned to <xref ref="596">#596</xref>, so that the compound <latinform>mɨ̀-gɨ̀</latinform> actually
+    means &quot;earth-skin&quot;.</par>'

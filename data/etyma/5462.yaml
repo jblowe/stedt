@@ -1,0 +1,14 @@
+tag: 5462
+grpid: 2
+proto_language: PTB
+protoform: s-nam
+gloss: HEADSTRAP, TUMPLINE
+semkey: 5.11.8.2.1.1
+sequence: 2120.0
+status: KEEP
+public: false
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: nam
+  gloss: BASKET STRAP

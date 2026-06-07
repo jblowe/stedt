@@ -1,0 +1,19 @@
+tag: 1819
+grpid: 2
+proto_language: PTB
+protoform: ta
+gloss: LIVE
+semkey: 1.1.2.1
+sequence: 7.0
+status: KEEP
+public: true
+phonology:
+  handle: ta
+  initial: t
+  rhyme: a
+  initcover: T
+  rhymecover: V
+notes:
+- type: T
+  text: <par>The reflexes grouped here bear some resemblance to those of <xref ref="3602">#3602</xref>,
+    but we are treating them for now as having descended from a separate etymon.</par>

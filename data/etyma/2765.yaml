@@ -1,0 +1,20 @@
+tag: 2765
+grpid: 2
+proto_language: PTB
+protoform: wu
+gloss: HOWL / WHINE / BARK
+semkey: 8.5.5
+sequence: 8.0
+status: KEEP
+public: true
+xrefs: '2142'
+references: cf. STC#261, HPTB p.178
+phonology:
+  handle: u
+  prefix: m
+  rhyme: u=(m-)u
+  rhymecover: VN
+notes:
+- type: T
+  text: <par>This etymon, which undoubtedly has an imitative component, is very likely related to <xref
+    ref="5452">#5452</xref>.</par>

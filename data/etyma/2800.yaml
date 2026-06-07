@@ -1,0 +1,29 @@
+tag: 2800
+grpid: 2
+proto_language: PTB
+protoform: ywar
+gloss: SELL / BUY
+semkey: '6.22'
+sequence: 2913.0
+status: KEEP
+public: true
+references: ("PKN") STC p.15
+phonology:
+  handle: ywar
+  initial: yw
+  rhyme: ar
+  initcover: L
+  rhymecover: L
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: yuar
+  gloss: SELL
+- grpid: 66
+  group: 1.3.4
+  form: jwor
+  gloss: SELL
+- grpid: 63
+  group: 1.3.1
+  form: jən
+  gloss: SELL

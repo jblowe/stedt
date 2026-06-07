@@ -1,0 +1,30 @@
+tag: 2636
+grpid: 2
+proto_language: PTB
+protoform: s-r(y)ak
+gloss: DAY / FULL DAY / SPEND THE NIGHT
+semkey: 1.5.3.2
+sequence: 1581.0
+status: KEEP
+public: false
+references: cf. STC#203, HPTB
+phonology:
+  handle: ryak
+  prefix: s
+  initial: r(y)
+  rhyme: ak=s-rya
+  initcover: L
+  rhymecover: VLWT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: riak-I, riaʔ-II
+  gloss: OVERNIGHT / SPEND THE NIGHT
+notes:
+- type: F
+  text: '<par><hanform>夕</hanform> OC <latinform>*dzi̯ɑ̆k</latinform>, GSR #796a-d &apos;night&apos;;
+    Coblin 86:112-3 ST <latinform>*rjiak</latinform> &gt; OC <latinform>*rjiak</latinform>; Schuessler
+    2007:522 <latinform>*s-jak</latinform>; B &amp; S 2011: <latinform>*s-N-rak {s-N-rAk}</latinform>;
+    Mand. <latinform>xī</latinform>.<br /><hanform>昔</hanform> OC <latinform>*si̯ɑ̆k</latinform>, GSR
+    #798a-e &apos;long ago&apos;; Schuessler 2007:523 <latinform>*sak</latinform> or <latinform>*sjak</latinform>;
+    B &amp; S 2011: <latinform>*sak {[s]Ak}</latinform>; Mand. <latinform>xī</latinform>.</par>'

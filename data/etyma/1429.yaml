@@ -1,0 +1,24 @@
+tag: 1429
+grpid: 2
+proto_language: PTB
+protoform: s-mu-t
+gloss: BEARD / FACIAL HAIR / HAIR
+semkey: 1.2.3
+sequence: 1.1
+status: KEEP
+public: true
+phonology:
+  handle: mu
+  initial: m
+  rhyme: u-t
+  initcover: M
+  rhymecover: VT
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: mɯt
+  gloss: HAIR (OF BODY)
+notes:
+- type: T
+  text: <par>This root is clearly allofamic with <xref ref="363">#363</xref>, and in fact in some cases
+    it is difficult to tell to which variant a particular reflex should be assigned.</par>

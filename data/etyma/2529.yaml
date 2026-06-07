@@ -1,0 +1,35 @@
+tag: 2529
+grpid: 2
+proto_language: PTB
+protoform: ŋaːw
+gloss: APE / MONKEY
+semkey: 2.1.9
+sequence: 4.0
+status: KEEP
+public: true
+references: cf. STC p.192, HPTB p.227
+phonology:
+  handle: ŋaːw
+  initial: ŋ
+  rhyme: aːw
+  initcover: M
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ŋaaw
+  gloss: MONKEY (long tail / grey)
+- grpid: 63
+  group: 1.3.1
+  form: ŋa
+  gloss: MONKEY
+notes:
+- type: I
+  text: <par>Mongsen Ao <latinform>ŋa</latinform> derives from PTB <latinform>*ŋa</latinform> (cf. <xref
+    ref="1306">#1306</xref>, <xref ref="1455">#1455</xref>), and PTB <reconstruction>*-a(ː)w</reconstruction>
+    should have yielded Mongsen <latinform>-u</latinform> (cf. <xref ref="2492">#2492</xref>, <xref ref="386">#386</xref>,
+    <xref ref="2302">#2302</xref>), so this should probably be reconstructed as <latinform>*ŋa</latinform>
+    instead of <latinform>*ŋaːw</latinform>. But then where did PKC final glide come from?</par>
+- type: F
+  text: '<par><hanform>禺</hanform> OC <latinform>*ngi̯u</latinform>, GSR #124a-b &apos;monkey&apos;; Schuessler
+    2007:617 <latinform>*ŋoh</latinform>; B &amp; S 2011: (<latinform>*ŋo-s</latinform>); Mand. <latinform>yù</latinform>.</par>'

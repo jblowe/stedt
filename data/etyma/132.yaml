@@ -1,0 +1,39 @@
+tag: 132
+grpid: 2
+proto_language: PTB
+protoform: l-(t/d)yam
+gloss: FULL / FLAT / STRAIGHT
+semkey: 7.1.5.1
+sequence: 1999.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: FILL
+references: cf. STC#226, STC#227, JAM 1988a, HPTB p.51
+phonology:
+  handle: tyam
+  prefix: l
+  initial: ty,dy
+  rhyme: am
+  suffix: d
+  initcover: T
+  rhymecover: VNLW
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ɗim
+  gloss: FULL
+notes:
+- type: T
+  text: '<par>This etymology was discussed in detail in JAM 1988. It combines two roots set up separately
+    in <plainlatinform>STC, #226 FULL / FILL and #227 STRAIGHT</plainlatinform>.</par>'
+- type: T
+  text: <par>There is a similar PTai etymon <latinform>*tlem</latinform> (see <plainlatinform>HCT</plainlatinform>:7.2,
+    14.6.1), underlying such forms as Siamese <latinform>tem</latinform>, Po-ai <latinform>lim</latinform>,
+    Wuming <latinform>rim</latinform>, Dioi <latinform>thim</latinform>.</par>
+- type: F
+  text: '<par><hanform>斟</hanform> OC <latinform>*t̂̂i̯əm</latinform>, GSR #658a &apos;pour in, ladle
+    out, serve&apos;; Schuessler 2007:610 <latinform>*təm</latinform>; B &amp; S 2011: <latinform>*t.qəmʔ-
+    {t.[q][ə]m}</latinform>; Mand. <latinform>zhēn</latinform>.<br /><hanform>甚</hanform> OC <latinform>*d̂i̯əm</latinform>,
+    GSR #658a &apos;excessive&apos;; Schuessler 2007:610 <latinform>*dəmʔ/s</latinform>; B &amp; S 2011:
+    <latinform>*t.ɢəmʔ-s {[t.ɢ][ə]mʔ-s}</latinform>; Mand. <latinform>shèn</latinform>.</par>'

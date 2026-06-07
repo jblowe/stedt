@@ -1,0 +1,23 @@
+tag: 203
+grpid: 2
+proto_language: PTB
+protoform: s-nu(ŋ/k)
+gloss: BACK / BEHIND / AFTER
+semkey: 1.4.8
+sequence: 2.0
+status: KEEP
+public: true
+xrefs: '2513'
+references: incl 204,1100. TSR 155 PLB *ʔ-nok/ŋ, STC#354, GD#?, HPTB
+phonology:
+  handle: nuŋ
+  prefix: s
+  initial: n
+  rhyme: uŋ/uk
+  initcover: M
+  rhymecover: VNS
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: nuŋ ⪤ hnuŋ
+  gloss: BACK / BEHIND / LATER

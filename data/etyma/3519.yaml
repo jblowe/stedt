@@ -1,0 +1,25 @@
+tag: 3519
+grpid: 2
+proto_language: PTB
+protoform: hus ⪤ h(u/i)r
+gloss: WASH / MOISTURE / WET
+semkey: 6.2.2.5.2
+sequence: 3457.0
+status: KEEP
+public: false
+possallo: hus
+references: cf. HPTB pp. 397, 501, JAM-LITB 5.3
+phonology:
+  initial: h
+  rhyme: ir ⪤ hur
+  initcover: H
+  rhymecover: L
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: hɯr
+  gloss: WASH
+notes:
+- type: F
+  text: '<par><hanform>靧</hanform> OC <latinform>*χwəd</latinform>, GSR #540f &apos;wash the face&apos;;
+    B &amp; S 2011: <latinform>*qʰˁuj-s</latinform>; Mand. <latinform>huì</latinform>.</par>'

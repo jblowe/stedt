@@ -1,0 +1,19 @@
+tag: 1714
+grpid: 2
+proto_language: PTB
+protoform: ʔuŋ
+gloss: DRINK
+sequence: 7.0
+status: KEEP
+public: true
+references: Yakha, Anong
+phonology:
+  handle: uŋ
+  prefix: ʔ
+  initial: ʔ-
+  rhyme: uŋ
+  initcover: H
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This weakly attested root awaits further confirmation.</par>

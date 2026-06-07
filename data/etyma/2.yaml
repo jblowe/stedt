@@ -1,0 +1,23 @@
+tag: 2
+grpid: 2
+proto_language: PTB
+protoform: s-kəw
+gloss: BODY / CHEST / THORAX / CORPSE
+semkey: 1.1.1
+sequence: 3.0
+status: KEEP
+public: true
+references: Ch. Chars.; STC p.184, GSR, HPTB p.198
+phonology:
+  handle: kəw
+  prefix: s
+  initial: k
+  rhyme: əw
+  initcover: K
+  rhymecover: W
+notes:
+- type: T
+  text: <par>See also two similar but independent roots <xref ref="1">#1</xref> and <xref ref="206">#206</xref>.</par>
+- type: F
+  text: '<par><hanform>軀</hanform> OC <latinform>*k’i̯u</latinform>, GSR #122g &apos;body&apos;; Coblin
+    86: <latinform>*khjug ~ khjugh</latinform>; Mand. <latinform>qū</latinform>.</par>'

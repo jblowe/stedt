@@ -1,0 +1,26 @@
+tag: 2487
+grpid: 2
+proto_language: PTB
+protoform: s-nam
+gloss: SESAME
+semkey: 3.1.6.1
+sequence: 2920.0
+status: KEEP
+public: true
+references: STC#435, HPTB pp.250, 253
+phonology:
+  handle: nam
+  prefix: s
+  initial: n
+  rhyme: am
+  initcover: M
+  rhymecover: N
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: s-nam²
+  gloss: SESAME
+- grpid: 42
+  group: '6.1'
+  form: s/|ʔ-nam²
+  gloss: SESAME

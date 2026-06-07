@@ -1,0 +1,30 @@
+tag: 215
+grpid: 2
+proto_language: PTB
+protoform: gyu-k ⪤ dzyu-k
+gloss: WAIST
+semkey: 1.4.6
+sequence: 1.0
+status: KEEP
+public: true
+allofams: '216'
+references: cf. HPTB p. 357
+phonology:
+  handle: gyok
+  initial: gy
+  rhyme: ok⪤džok
+  initcover: K
+  rhymecover: T
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: gyukᴸ ⪤ džukᴸ
+  gloss: WAIST
+notes:
+- type: T
+  text: <par>Written Burmese has a doublet <latinform>krô ~ kyô</latinform> &apos;back&apos; ⪤ <latinform>kyok</latinform>
+    &apos;back of an animal&apos;, <latinform>kyok-kap</latinform> &apos;kidney&apos;, indicating that
+    the final velar stop was sometimes treated as a suffix and dropped.</par><par>It is sometimes difficult
+    to say to which of these allofams a Loloish or Qiangic open-syllable reflex  belongs.</par><par>The
+    Bisu doublet <latinform>kjɔ̀ ~ tšɔ̀</latinform> clearly justifies the allofamic reconstruction with
+    both a palatalized velar and a palatal affricate initial.</par>

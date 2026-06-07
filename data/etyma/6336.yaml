@@ -1,0 +1,16 @@
+tag: 6336
+grpid: 5
+proto_language: PTani
+protoform: gul
+gloss: HELP (v.t.)
+semkey: 6.2.2.1
+sequence: 2140.0
+status: KEEP
+public: false
+references: JS-HCST: 232
+phonology:
+  initial: g
+  rhyme: ul
+notes:
+- type: T
+  text: <par>This Tani root is perhaps related to <xref ref="5771">#5771</xref>.</par>

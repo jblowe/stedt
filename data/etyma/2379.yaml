@@ -1,0 +1,23 @@
+tag: 2379
+grpid: 2
+proto_language: PTB
+protoform: s-kyuːr ⪤ s-kywaːr
+gloss: SOUR / BE ACID
+semkey: 7.1.4.4
+sequence: 3091.0
+status: KEEP
+public: true
+references: cf. STC#042, HPTB
+phonology:
+  handle: kyur
+  prefix: s
+  initial: ky
+  rhyme: u:r,a:r
+  suffix: k
+  initcover: K
+  rhymecover: VLWT
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: chjaNᴮ
+  gloss: SOUR

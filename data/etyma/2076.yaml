@@ -1,0 +1,18 @@
+tag: 2076
+grpid: 2
+proto_language: PTB
+protoform: ba OR pa
+gloss: EYELASH / EYELID
+semkey: 1.2.6.5
+sequence: 15.0
+status: KEEP
+public: true
+phonology:
+  handle: ba
+  initial: b
+  rhyme: a  or  p
+  initcover: P
+  rhymecover: LT
+notes:
+- type: T
+  text: <par>More confirmation of this promising root would be welcome.</par>

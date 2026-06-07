@@ -1,0 +1,19 @@
+tag: 2381
+grpid: 2
+proto_language: PTB
+protoform: kywəy
+gloss: YAM
+semkey: 3.1.5
+sequence: 6.0
+status: KEEP
+public: true
+references: cf. STC#238, HPTB pp.66, 195
+phonology:
+  handle: kywiy
+  initial: kyw
+  rhyme: iy=kywəy
+  initcover: K
+  rhymecover: WT
+notes:
+- type: T
+  text: <par>Mpi seems to have developed a doublet from this complex initial group.</par>

@@ -1,0 +1,19 @@
+tag: 605
+grpid: 2
+proto_language: PTB
+protoform: tyat
+gloss: SPIT
+semkey: 1.8.3
+sequence: 9.0
+status: KEEP
+public: true
+phonology:
+  handle: tet
+  initial: t
+  rhyme: et
+  initcover: T
+  rhymecover: T
+notes:
+- type: T
+  text: <par>The lack of a final stop in Karbi is unexplained. More confirmation of this weakly attested
+    root would be welcome.</par>

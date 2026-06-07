@@ -1,0 +1,18 @@
+tag: 337
+grpid: 2
+proto_language: PTB
+protoform: guːl
+gloss: BULGE / BEND
+sequence: 1281.0
+status: KEEP
+public: false
+references: HPTB p.418
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: kuun
+  gloss: BEND / DROOP / STOOP
+- grpid: 8
+  group: '1.2'
+  form: kuul
+  gloss: HUNCHBACKED

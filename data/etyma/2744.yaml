@@ -1,0 +1,17 @@
+tag: 2744
+grpid: 2
+proto_language: PTB
+protoform: tswəy
+gloss: DECAYED; PUS
+semkey: '9.5'
+sequence: 1593.0
+status: DELETE
+public: true
+xrefs: '1296'
+references: STC#183
+phonology:
+  handle: tswiy
+  initial: tsw
+  rhyme: iy=tswəy
+  initcover: TS
+  rhymecover: WTS

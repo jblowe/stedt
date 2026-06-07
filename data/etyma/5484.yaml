@@ -1,0 +1,18 @@
+tag: 5484
+grpid: 2
+proto_language: PTB
+protoform: wa
+gloss: MAN / FATHER / HUSBAND / PERSON
+sequence: 2.2
+status: KEEP
+public: true
+references: cf. HPTB p. 250
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: waa
+  gloss: HUSBAND
+- grpid: 50
+  group: '7'
+  form: khwaᴬ
+  gloss: MAN, MALE

@@ -1,0 +1,29 @@
+tag: 2599
+grpid: 2
+proto_language: PTB
+protoform: g-rap
+gloss: FIREPLACE / FIREPLACE SHELF
+semkey: 5.11.5.5
+sequence: 1908.0
+status: KEEP
+public: true
+references: cf. STC#084, HPTB p.336
+phonology:
+  handle: rap
+  initial: r
+  rhyme: ap
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 70
+  group: 1.2.2
+  form: rap
+  gloss: SHELF (over fireplace)
+- grpid: 5
+  group: 1.1.1
+  form: rap
+  gloss: FIREPLACE SHELF
+- grpid: 5
+  group: 1.1.1
+  form: r(a/o)m
+  gloss: FIREPLACE / HEARTH

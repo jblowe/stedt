@@ -1,0 +1,17 @@
+tag: 1237
+grpid: 42
+proto_language: PLB
+protoform: ney³ ⪤ *ʔney¹
+gloss: LOOK / TRY
+semkey: 1.2.6.11
+sequence: 3.0
+status: DELETE
+public: false
+xrefs: '5419'
+phonology:
+  handle: ney³
+  initial: n
+  rhyme: ey³⪤*ʔne
+  tone: ³
+  initcover: M
+  rhymecover: NW

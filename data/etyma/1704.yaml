@@ -1,0 +1,26 @@
+tag: 1704
+grpid: 2
+proto_language: PTB
+protoform: hwap
+gloss: DRINK
+sequence: 4.0
+status: KEEP
+public: true
+references: Sinitic, Kiranti
+phonology:
+  handle: hop
+  initial: h
+  rhyme: op
+  initcover: H
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root is best attested in Kiranti, with a likely Tujia cognate and a good Chinese comparandum.</par><par>The
+    final nasal in the first syllable of Yakha <latinform>hom maː</latinform> &apos;drink&apos; is due
+    to assimilation to the initial nasal of the second syllable.</par>
+- type: F
+  text: '<par><hanform>吸</hanform> OC <latinform>*χi̯əp</latinform>, GSR #681j &apos;breathe, inhale,
+    suck in, absorb&apos;; Coblin 86:98 ST <latinform>*rngjup </latinform> &gt; OC <latinform>*hngjəp</latinform>;
+    Schuessler 2007:522 <latinform>*hŋəp</latinform> ~ <latinform>*həp</latinform>; B &amp; S 2011: <latinform>*qʰəp
+    {qʰ(r)[ə]p}</latinform>; Mand. <latinform>xī</latinform>.</par><par><hanform>欱</hanform> OC (not in
+    GSR #675); B &amp; S 2011: <latinform>*qʰˤəp {qʰˤ[ə]p}</latinform>; Mand. <latinform>hē</latinform>.</par>'

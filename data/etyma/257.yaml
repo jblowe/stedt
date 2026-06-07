@@ -1,0 +1,27 @@
+tag: 257
+grpid: 2
+proto_language: PTB
+protoform: d-mak
+gloss: WAR / SOLDIER
+semkey: '5.15'
+sequence: 31.0
+status: KEEP
+public: false
+references: HPTB p.318, TSR#135
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: makᴸ
+  gloss: SOLDIER
+- grpid: 45
+  group: 6.1.2
+  form: C-makᴸ
+  gloss: SOLDIER
+notes:
+- type: T
+  text: <par>rGyalrongic dialects often have the homorganic final nasal instead of the stop, perhaps due
+    to assimilation to the initial consonant. For a similar variation, see <xref ref="126">#126</xref>.</par>
+- type: F
+  text: '<par><hanform>武</hanform> OC <latinform>*mi̯wo</latinform>, GSR #104a-e ‘military’; Coblin 86:
+    <latinform>*</latinform>; Schuessler 2007:519 <latinform>*maʔ</latinform>; B &amp; S 2011: <latinform>*maʔ
+    {m(r)aʔ</latinform>; Mand. <latinform>wǔ</latinform>.</par>'

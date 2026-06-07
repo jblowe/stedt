@@ -1,0 +1,14 @@
+tag: 6104
+grpid: 2
+proto_language: PTB
+protoform: g-riŋ
+gloss: LIZARD
+semkey: 2.1.6
+sequence: 2342.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: deŋ
+  gloss: LIZARD

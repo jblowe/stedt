@@ -1,0 +1,22 @@
+tag: 3428
+grpid: 29
+proto_language: PKir
+protoform: rik
+gloss: PUBIC HAIR
+semkey: 1.9.1
+sequence: 95.0
+status: KEEP
+public: true
+references: ("Him") only in Limbu, Hayu
+phonology:
+  handle: rik
+  initial: r
+  rhyme: ik
+  initcover: L
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This curious etymon has so far been found only in a couple of Kiranti languages, Limbu and
+    Hayu. The meaning seems to be specifically PUBIC HAIR (of either sex). It seems to bear no relationship
+    to any etymon reconstructed with the general meaning BODY HAIR. It is included in this section for
+    convenience, since Limbu <latinform>hi-rā-mu-rik</latinform> contains VAGINA as its first element.</par>

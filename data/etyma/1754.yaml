@@ -1,0 +1,17 @@
+tag: 1754
+grpid: 2
+proto_language: PTB
+protoform: ka
+gloss: WORD / SPEECH / LANGUAGE
+semkey: 8.5.10.2
+sequence: 3541.0
+status: KEEP
+public: true
+xrefs: '8.8'
+references: cf. HPTB p. 174, STC pp. 18,21,187  STC#9
+phonology:
+  handle: ka
+  initial: k
+  rhyme: a
+  initcover: K
+  rhymecover: V

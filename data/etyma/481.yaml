@@ -1,0 +1,32 @@
+tag: 481
+grpid: 2
+proto_language: PTB
+protoform: s/m-key-k
+gloss: NECK
+semkey: 1.4.2
+sequence: 5.0
+status: KEEP
+public: true
+xrefs: NECK-SHAPED
+references: STC#251; m- in Gyarong
+phonology:
+  handle: kek
+  prefix: s
+  initial: k
+  rhyme: e-k
+  suffix: k
+  initcover: K
+  rhymecover: VT
+notes:
+- type: T
+  text: <par>The vowels in these Qiangic forms show considerable variation.</par>
+- type: T
+  text: '<par>This etymon was formerly reconstructed as <latinform>*s-ke-k ⪤ *m-ke-k</latinform>.</par><par>In
+    line with the frequently noted tendency of words meaning NECK / THROAT to have velar initials, we
+    have reconstructed no fewer than eleven etyma with initial velars or velar clusters: <xref ref="389">#389</xref>,
+    <xref ref="481">#481</xref>, <xref ref="486">#486</xref>, <xref ref="488">#488</xref>, <xref ref="489">#489</xref>,
+    <xref ref="491">#491</xref>, <xref ref="493">#493</xref>, <xref ref="494">#494</xref>, <xref ref="495">#495</xref>,
+    <xref ref="3361">#3361</xref>, and <xref ref="5651">#5651</xref>.</par><par>It is highly likely that
+    some of these etyma are allofams of each other. It is equally likely that a given supporting form
+    may have been assigned to the wrong etymon. However, on the basis of the available data, this may
+    be the best that can be done at this point.</par>'

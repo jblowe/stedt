@@ -1,0 +1,20 @@
+tag: 592
+grpid: 2
+proto_language: PTB
+protoform: m-bwat
+gloss: SKIN
+semkey: 1.6.5
+sequence: 22.0
+status: KEEP
+public: true
+phonology:
+  handle: wut
+  prefix: p
+  initial: w
+  rhyme: ut ~ put
+  initcover: L
+  rhymecover: T
+notes:
+- type: T
+  text: <par>The reconstruction of a nasal prefix in this poorly attested root is on the basis of the
+    Muya form.</par>

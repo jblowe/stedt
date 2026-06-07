@@ -1,0 +1,19 @@
+tag: 5495
+grpid: 2
+proto_language: PTB
+protoform: s-ray
+gloss: PLURALIZER
+semkey: 10.4.1.4
+sequence: 1.4
+status: KEEP
+public: true
+references: cf. HPTB pp. 209, 212
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: rwo
+  gloss: PLURAL
+notes:
+- type: T
+  text: <par>This etymon is a specialization of the ST copular morpheme <xref ref="1821">#1821</xref>,
+    an etymon which is discussed at length in Matisoff 1985a (59-64) (GSTC).</par>

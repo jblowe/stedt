@@ -1,0 +1,21 @@
+tag: 6192
+grpid: 2
+proto_language: PTB
+protoform: s-ra-y
+gloss: DISEASE / ILLNESS / AILMENT / DISCOMFORT / HOT
+semkey: 1.1.5.1
+sequence: 1663.0
+status: KEEP
+public: false
+phonology:
+  prefix: s
+  initial: r
+  rhyme: a
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: (h)raj
+  gloss: DISEASE, ILLNESS, AILMENT
+notes:
+- type: T
+  text: <par>This etymon seems to be confined to the Naga group.</par>

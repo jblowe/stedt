@@ -1,0 +1,23 @@
+tag: 6112
+grpid: 2
+proto_language: PTB
+protoform: g-lya(ŋ/k)
+gloss: PYTHON
+semkey: 2.1.6
+sequence: 2727.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: g-laŋ
+  gloss: PYTHON
+- grpid: 42
+  group: '6.1'
+  form: liŋ² ⪤ likᴸ
+  gloss: PYTHON
+notes:
+- type: F
+  text: '<par><hanform>蟒</hanform> OC <latinform>*mwɑ̂ng</latinform>, GSR #709 &apos;python [i.e. python
+    molurus]&apos;; Schuessler 2007:375 <latinform>*mâŋ</latinform> &lt; <latinform>*mlâŋ</latinform>;  Mand.
+    <latinform>mǎng</latinform>.</par>'

@@ -1,0 +1,24 @@
+tag: 1614
+grpid: 2
+proto_language: PTB
+protoform: (r/w)a
+gloss: SEMEN
+sequence: 1.0
+status: KEEP
+public: true
+phonology:
+  handle: ra
+  initial: r
+  rhyme: a
+  initcover: L
+  rhymecover: V
+notes:
+- type: T
+  text: <par>There is no single widespread root for SEMEN to be reconstructed for PTB, though several
+    promising local candidates are attested here and there. Many forms for this concept are euphemistic
+    (e.g. words that otherwise simply mean &apos;water&apos;); many others are compounds of the structure
+    PENIS + WATER (e.g. Tangkhul <latinform>shaŋ-ra</latinform>). Other &quot;sementic&quot; associations
+    include SEMEN &lt;----&gt; SAP (Akha <latinform>aˇ dzi˯</latinform> means both [Lewis p.35]); SEMEN
+    &lt;----&gt; SHIT (Lahu <latinform>nī-qhɛ̂</latinform>); SEMEN &lt;----&gt; FAT (Lahu <latinform>nī-chu</latinform>);
+    SEMEN &lt;----&gt; CONTEMPLATION (WT <latinform>t&apos;ig-le</latinform> [Jäschke p. 231]). The present
+    root appears in the NE Indian Areal Group, Himalayish, and Qiangic.</par>

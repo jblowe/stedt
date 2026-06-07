@@ -1,0 +1,16 @@
+tag: 2374
+grpid: 2
+proto_language: PTB
+protoform: kyam
+gloss: COLD / SNOW / ICE
+semkey: 7.1.2.3
+sequence: 1442.0
+status: KEEP
+public: true
+references: STC#224
+phonology:
+  handle: kyam
+  initial: ky
+  rhyme: am
+  initcover: K
+  rhymecover: N

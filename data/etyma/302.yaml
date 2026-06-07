@@ -1,0 +1,24 @@
+tag: 302
+grpid: 2
+proto_language: PTB
+protoform: plyum
+gloss: BEE / WASP
+semkey: 2.2.6
+sequence: 12.0
+status: KEEP
+public: true
+references: HPTB p.531
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: phrɨNᴬ
+  gloss: HORNET
+- grpid: 50
+  group: '7'
+  form: pri̯umᴬ¹
+  gloss: HORNET
+notes:
+- type: F
+  text: '<par>Note WT <latinform>bung</latinform> &apos;bee&apos; ≠ WT <latinform>sbrang</latinform> &apos;bee,
+    fly&apos; (Coblin).</par><par><hanform>蜂</hanform> OC <reconstruction>*pʼi̯ung</reconstruction>, GSR
+    #1197s-t ‘bee’; B &amp; S 2011: <reconstruction>*pʰoŋ {pʰ(r)oŋ}</reconstruction>; Mand. <latinform>fēng</latinform>.</par>'

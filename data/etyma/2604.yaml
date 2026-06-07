@@ -1,0 +1,18 @@
+tag: 2604
+grpid: 8
+proto_language: PKC
+protoform: hrew
+gloss: BURROW
+sequence: 1285.0
+status: KEEP
+public: true
+references: STC p.68, HPTB p.231; STC done
+phonology:
+  handle: s-re
+  initial: hr
+  rhyme: ew
+  initcover: L
+  rhymecover: W
+notes:
+- type: T
+  text: <par>This root is reconstructed for &apos;Proto-Kuki-Naga&apos; in STC p. 68.</par>

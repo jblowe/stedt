@@ -1,0 +1,63 @@
+tag: 702
+grpid: 2
+proto_language: PTB
+protoform: g-yak
+gloss: ARM / HAND / CUBIT
+semkey: 1.5.1.2
+sequence: 1.5
+status: KEEP
+public: true
+references: cf. HPTB
+phonology:
+  handle: yak
+  prefix: g
+  initial: y
+  rhyme: ak
+  initcover: L
+  rhymecover: T
+notes:
+- type: T
+  text: '<par>This allofam with velar prefix has been specialized semantically into the areas of <emph>armpits/tickling</emph>
+    and <emph>cubits</emph>. Of particular interest is the triplet in WB below, reflecting three separate
+    allofams of our etymon: the naked root in <latinform>lak-kăli</latinform>, the variant with dental
+    prefix (written <latinform>tshak-kăli</latinform> in the transcription of STC but better interpreted
+    as <latinform>chak-kăli</latinform>), and the present variant with velar prefix (<latinform>gyak-kăli</latinform>).</par><par>The
+    Lahu form with voiced initial, <latinform>jâʔ</latinform>, points to a variant with a nasal prefix,
+    perhaps at the Proto-Loloish level.</par><par>There is a separate root &apos;right hand&apos;, reconstructed
+    as <reconstruction>*g-ya ⪤ *g-ra</reconstruction> in STC #98.</par><par>There is still another resemblant
+    root <reconstruction>*g-ya</reconstruction> TICKLE (STC #51) underlying WT <latinform>gya-ba</latinform>
+    &apos;tickle, itch&apos;, Jingpho <latinform>kəyá</latinform> &apos;id.&apos;, WB <latinform>yâ</latinform>b
+    &apos;itch&apos;.</par>'
+- type: F
+  text: '<par><hanform>翼</hanform> OC <reconstruction>*gi̯ək</reconstruction>, GSR #954d &apos;wing&apos;;
+    Li 1971: <latinform>(*rək)</latinform>; Baxter 1992 #469: <reconstruction>*ljɨk</reconstruction>;
+    B &amp; S 2011: <reconstruction>*ɢrəp</reconstruction> (with dialectal change to <latinform>-k</latinform>)<footnote>See
+    explanation for coda <reconstruction>*-p</reconstruction> in discussion of <xref ref="699">#699</xref>.</footnote>;
+    Schuessler 2007:570; Mand. <latinform>yì</latinform>.</par><par><hanform>趩</hanform> OC <reconstruction>*tʼi̯ək</reconstruction>,
+    GSR #954g &apos;sound of marching&apos;; Li 1971: <latinform>(*thrjək)</latinform>; Baxter 1992: <latinform>(*hlrjɨk)</latinform>;
+    B &amp; S 2011: --; Schuessler 2007:--; Mand. <latinform>chì</latinform>.</par><par><hanform>腳</hanform>/<hanform>脚</hanform>
+    OC <reconstruction>*ki̯ɑk</reconstruction>, GSR #776g-h &apos;leg, foot&apos;; Li 1971: <latinform>(*kjak)</latinform>;
+    Baxter 1992: <latinform>(*kjak)</latinform>; B &amp; S 2011: <reconstruction>*s.kak, [k]ak</reconstruction>;
+    Schuessler 2007:309; Mand. <latinform>jiǎo</latinform>.</par><par><hanform>匊</hanform>/<hanform>掬</hanform>
+    OC <reconstruction>*ki̯ôk</reconstruction>, GSR #1017a,c &apos;both hands joined; grasp with both
+    hands; double-handful&apos;; Li 1971: <latinform>(*kjəkw)</latinform>; Baxter 1992:770: <reconstruction>*k(r)juk</reconstruction>;
+    B &amp; S 2011: <latinform>(*k(r)uk)</latinform>; Schuessler 2007:--; Mand. <latinform>jū</latinform>.</par><par>JAM:
+    GSR reconstructs this morpheme (<hanform>翼</hanform>), Mand. <latinform>yì</latinform> with initial
+    <reconstruction>*gi̯-</reconstruction>, but STC prefers <reconstruction>*di̯-</reconstruction>, since
+    the phonetic series (GSR #954) also contains <hanform>趩</hanform> <reconstruction>*t’i̯ək/t̂’i̯ək</reconstruction>,
+    Mand. <latinform>chì</latinform> &apos;sound of marching&apos;. Baxter&apos;s (2011) reconstruction
+    <reconstruction>*ɢrəp</reconstruction> reverts to the interpretation with velar (actually postvelar)
+    onset.</par><par>Benedict (p.c.) later agreed with the GSR reconstruction, assuming that it is underlain
+    by an earlier <reconstruction>*gli̯ək</reconstruction>. He then derived the allofam in <reconstruction>*t&apos;-</reconstruction>
+    from an alternant with prefixal <latinform>*s-</latinform>, i.e. <reconstruction>*ski̯ək</reconstruction>,
+    but this is not very convincing.</par><par>Yang 1980 suggests further Chinese comparanda: <hanform>腳</hanform>/<hanform>脚</hanform>
+    OC <reconstruction>*ki̯ɑk</reconstruction> &apos;leg, foot&apos;, GSR #776g, Mand. <latinform>jiǎo</latinform>;
+    and <hanform>匊</hanform>/<hanform>掬</hanform> OC <reconstruction>*ki̯ôk</reconstruction> &apos;both
+    hands joined; grasp with both hands; double-handful&apos;, GSR #1017a-c, Mand. <latinform>jū</latinform>.</par><par>ZJH:
+    Of these four Chinese comparanda, only the first, <hanform>翼</hanform> <latinform>yì</latinform> ‘wing’,
+    is defensible, although the more likely PTB comparandum is <reconstruction>*(g-)lak</reconstruction>
+    (Handel 2009:133-5). Both <hanform>趩</hanform> <latinform>chì</latinform> and <hanform>匊</hanform>/<hanform>掬</hanform>
+    <latinform>jū</latinform> are impossible as they are not close in terms of sound correspondences;
+    <hanform>腳</hanform>/<hanform>脚</hanform> <latinform>jiǎo</latinform> ‘foot’ is conceivable if we
+    assume prefix-preemption of PST <latinform>*g-yak</latinform> on the Chinese side, but the semantic
+    shift makes this comparison speculative at best.</par>'

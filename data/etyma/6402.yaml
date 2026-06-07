@@ -1,0 +1,25 @@
+tag: 6402
+grpid: 2
+proto_language: PTB
+protoform: pu-n/ŋ
+gloss: CARRY
+semkey: 6.2.2.2.1
+sequence: 1321.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: pɨᴮ
+  gloss: CARRY (ON THE BACK)
+- grpid: 66
+  group: 1.3.4
+  form: pʰuŋ
+  gloss: CARRY (ON SHOULDERS)
+notes:
+- type: T
+  text: <par>This root bears a strong resemblance to the widespread etymon <xref ref="2177">#2177</xref>,
+    and the Karenic forms were assigned to that root in the original version of STC. However, the published
+    version (p. 135) recognizes that this is a complex root in Karenic, and it now seems best to treat
+    these two etyma separately.</par><par>The reflexes show variation in the position of articulation
+    of the final nasal between <latinform>-n</latinform> and <latinform>-ŋ</latinform>.</par>

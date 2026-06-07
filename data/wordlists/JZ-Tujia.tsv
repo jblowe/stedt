@@ -1,0 +1,2141 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+43344	1616	Tujia (Northern)	tsi⁵⁵ kɨe⁵⁵	tsi⁵⁵ kɨe⁵⁵	front	front		1.4.4		0		1212,m
+43345	1616	Tujia (Northern)	tʰa⁵⁵ ne⁵⁵	tʰa⁵⁵ ne⁵⁵	back (side)	back (side)		1.4.8		0		m,203
+43346	1616	Tujia (Northern)	tʰa³⁵ pu⁵⁵ tɕe³⁵	tʰa³⁵ pu⁵⁵ tɕe³⁵	left	left		1.5.3.2		0		
+43347	1616	Tujia (Northern)	pu⁵⁵ tɕe⁵⁵	pu⁵⁵ tɕe⁵⁵	right (side)	right (side)		1.5.3.2		0		
+43348	1616	Tujia (Northern)	se³⁵ tʰa³⁵	se³⁵ tʰa³⁵	side	side		1.4.5		0		
+43349	1616	Tujia (Northern)	lo³⁵ li⁵⁵	lo³⁵ li⁵⁵	center	center		1.9.4		0		m,517
+43350	1616	Tujia (Northern)	a⁵⁵ le⁵⁵	a⁵⁵ le⁵⁵	egg	egg				0		p,3438
+43352	1616	Tujia (Northern)	tɕe³⁵ tʰã³⁵ kʰɨe⁵⁵	tɕe³⁵ tʰã³⁵ kʰɨe⁵⁵	wing	wing		1.5.1.3		0		R,711,739
+43353	1616	Tujia (Northern)	si³⁵ ka⁵⁵	si³⁵ ka⁵⁵	fur	fur		1.6.1		0		m
+43354	1616	Tujia (Northern)	tsau⁵⁵ tsi⁵⁵	tsau⁵⁵ tsi⁵⁵	claw	claw		1.5.10.4		0		
+43355	1616	Tujia (Northern)	tʰi²¹ kʰo³⁵	tʰi²¹ kʰo³⁵	hoof	hoof		1.5.4		0		m,417
+43356	1616	Tujia (Northern)	za²¹ kʰũ⁵⁵ nũ⁵⁵ pʰɨe⁵⁵	za²¹ kʰũ⁵⁵ nũ⁵⁵ pʰɨe⁵⁵	crop (of chicken)	crop (of chicken)		1.7.6.1		0		2187,m,m,m
+43357	1616	Tujia (Northern)	kʰɨe⁵⁵	kʰɨe⁵⁵	horn	horn		1.2.2		0		819
+43358	1616	Tujia (Northern)	le²¹ pʰũ³⁵	le²¹ pʰũ³⁵	tail	tail		1.4.10.1		0		3332,404
+43359	1616	Tujia (Northern)	so⁵⁵ tʰi²¹	so⁵⁵ tʰi²¹	body	body		1.1.1		0		4,1125
+43360	1616	Tujia (Northern)	kʰo⁵⁵ pa⁵⁵	kʰo⁵⁵ pa⁵⁵	head	head		1.2.1		0		386,s
+43361	1616	Tujia (Northern)	kʰa⁵⁵ tʰa⁵⁵ kʰɨe⁵⁵	kʰa⁵⁵ tʰa⁵⁵ kʰɨe⁵⁵	forehead	forehead		1.2.5.1		0		1209,358,m
+43362	1616	Tujia (Northern)	sa³⁵ tɕʰi⁵⁵	sa³⁵ tɕʰi⁵⁵	hair (head)	hair (head)		1.2.3		0		366,1232
+43363	1616	Tujia (Northern)	sa³⁵ tɕʰi⁵⁵ piã⁵⁵ tsi⁵⁵	sa³⁵ tɕʰi⁵⁵ piã⁵⁵ tsi⁵⁵	braid (hair)	braid (hair)	n	1.2.3.2		0		366,1232,b,b
+43364	1616	Tujia (Northern)	kʰũ⁵⁵ nũ⁵⁵	kʰũ⁵⁵ nũ⁵⁵	brain	brain		1.2.4		0		387,5554
+43365	1616	Tujia (Northern)	ku³⁵	ku³⁵	face	face		1.2.5		0		273
+43366	1616	Tujia (Northern)	lo³⁵ pu³⁵ si³⁵ ka⁵⁵	lo³⁵ pu³⁵ si³⁵ ka⁵⁵	eyebrow	eyebrow		1.2.6.6		0		1427,1228,m,m
+43367	1616	Tujia (Northern)	lo³⁵ pu³⁵	lo³⁵ pu³⁵	eye	eye		1.2.6		0		1427,1275
+43368	1616	Tujia (Northern)	lo³⁵ se²¹	lo³⁵ se²¹	eye sand	eye sand		1.2.6.8		0		1427,587
+43369	1616	Tujia (Northern)	lo³⁵ pu³⁵ pɨe⁵⁵ tsʰe²¹	lo³⁵ pu³⁵ pɨe⁵⁵ tsʰe²¹	tears	tears		1.2.6.7		0		1427,1275,187,298
+43370	1616	Tujia (Northern)	ẽ³⁵ tɕʰi⁵⁵	ẽ³⁵ tɕʰi⁵⁵	nose	nose		1.2.8		0		p,442
+43371	1616	Tujia (Northern)	ẽ²¹ tɕʰe³⁵	ẽ²¹ tɕʰe³⁵	ear	ear		1.2.7		0		m,2082
+43372	1616	Tujia (Northern)	tsa³⁵ tɕʰi⁵⁵	tsa³⁵ tɕʰi⁵⁵	mouth	mouth		1.3.1		0		
+43373	1616	Tujia (Northern)	tsa³⁵ tɕʰi⁵⁵ tʰa⁵⁵ pʰa²¹	tsa³⁵ tɕʰi⁵⁵ tʰa⁵⁵ pʰa²¹	lip	lip		1.3.2		0		
+43374	1616	Tujia (Northern)	si⁵⁵ si⁵⁵	si⁵⁵ si⁵⁵	tooth	tooth		1.3.4		0		632,632
+43375	1616	Tujia (Northern)	ji³⁵ la⁵⁵	ji³⁵ la⁵⁵	tongue	tongue		1.3.3		0		621,623
+43376	1616	Tujia (Northern)	la⁵⁵ pʰa²¹	la⁵⁵ pʰa²¹	beard	beard		1.2.5.5		0		1265,m
+43377	1616	Tujia (Northern)	kʰũ⁵⁵ ti⁵⁵	kʰũ⁵⁵ ti⁵⁵	neck	neck		1.4.2		0		3361,501
+43378	1616	Tujia (Northern)	tsʰe²¹ lo³⁵ tʰi⁵⁵	tsʰe²¹ lo³⁵ tʰi⁵⁵	throat	throat		1.3.5		0		m,m,501
+43379	1616	Tujia (Northern)	pʰɨe³⁵ tʰi⁵⁵ kʰɨe⁵⁵	pʰɨe³⁵ tʰi⁵⁵ kʰɨe⁵⁵	shoulder	shoulder		1.4.3		0		1327,3408,3393
+43380	1616	Tujia (Northern)	tɕe³⁵	tɕe³⁵	hand	hand		1.5.1.1		0		699
+43381	1616	Tujia (Northern)	tɕe³⁵ si⁵⁵ pʰɨe⁵⁵	tɕe³⁵ si⁵⁵ pʰɨe⁵⁵	arm	arm		1.5.1.2		0		699,m,m
+43382	1616	Tujia (Northern)	tɕe³⁵ mi⁵⁵ tʰi²¹	tɕe³⁵ mi⁵⁵ tʰi²¹	finger	finger		1.5.6		0		
+43384	1616	Tujia (Northern)	li⁵⁵ kʰo⁵⁵ tsʰũ⁵⁵	li⁵⁵ kʰo⁵⁵ tsʰũ⁵⁵	chest (of body)	chest (of body)		1.4.4.3		0		m,560,299
+43385	1616	Tujia (Northern)	pei³⁵	pei³⁵	back (of body)	back (of body)		1.4.8		0		1361
+43386	1616	Tujia (Northern)	mã²¹ pʰɨe²¹	mã²¹ pʰɨe²¹	breast	breast		1.4.4.3		0		3457,m
+43387	1616	Tujia (Northern)	mɨe²¹ tsʰi²¹ kʰɨe⁵⁵	mɨe²¹ tsʰi²¹ kʰɨe⁵⁵	belly	belly		1.4.7		0		m,m,m
+43388	1616	Tujia (Northern)	mɨe²¹ ko²¹	mɨe²¹ ko²¹	waist	waist		1.4.6		0		
+43389	1616	Tujia (Northern)	tɕi²¹	tɕi²¹	foot	foot		1.5.2		0		
+43390	1616	Tujia (Northern)	tɕi²¹ si²¹ pʰɨe⁵⁵	tɕi²¹ si²¹ pʰɨe⁵⁵	leg	leg		1.5.7		0		
+43391	1616	Tujia (Northern)	tɕe³⁵ tã⁵⁵ tɕi²¹	tɕe³⁵ tã⁵⁵ tɕi²¹	armpit	armpit		1.5.1.2.3		0		
+43392	1616	Tujia (Northern)	tɕe³⁵ lo³⁵ pu⁵⁵	tɕe³⁵ lo³⁵ pu⁵⁵	wrist (bone)	wrist (bone)		1.5.8.1		0		699,m,m
+43393	1616	Tujia (Northern)	tɕi²¹ tʰi²¹ kʰɨe⁵⁵	tɕi²¹ tʰi²¹ kʰɨe⁵⁵	knee	knee		1.5.8.4		0		
+43394	1616	Tujia (Northern)	tʰa⁵⁵ pʰa²¹	tʰa⁵⁵ pʰa²¹	skin	skin		1.6.5		0		m,792
+43395	1616	Tujia (Northern)	lu⁵⁵ ka⁵⁵	lu⁵⁵ ka⁵⁵	bone	bone		1.6.3		0		232,m
+43396	1616	Tujia (Northern)	tɕĩ⁵⁵	tɕĩ⁵⁵	muscle	muscle		1.6.6.2		0		372
+43397	1616	Tujia (Northern)	me⁵⁵	me⁵⁵	blood	blood		1.6.2		0		m
+43398	1616	Tujia (Northern)	se²¹ pʰɨe²¹	se²¹ pʰɨe²¹	stomach	stomach		1.7.6		0		m,m
+43399	1616	Tujia (Northern)	jiau⁵⁵ tsi⁵⁵ pu³⁵ li⁵⁵	jiau⁵⁵ tsi⁵⁵ pu³⁵ li⁵⁵	kidney	kidney		1.7.5		0		b,b,779,m
+43400	1616	Tujia (Northern)	pi³⁵ la⁵⁵	pi³⁵ la⁵⁵	intestines	intestines		1.7.7		0		
+43401	1616	Tujia (Northern)	li⁵⁵ kʰo⁵⁵ lo³⁵	li⁵⁵ kʰo⁵⁵ lo³⁵	heart	heart		1.7.1		0		m,665,1427
+43402	1616	Tujia (Northern)	ã⁵⁵ ŋa⁵⁵	ã⁵⁵ ŋa⁵⁵	liver	liver		1.7.3		0		p,m
+43403	1616	Tujia (Northern)	ɕĩ⁵⁵ pʰu⁵⁵ tsi⁵⁵	ɕĩ⁵⁵ pʰu⁵⁵ tsi⁵⁵	lung	lung		1.7.2		0		
+43404	1616	Tujia (Northern)	tsi³⁵ tsi³⁵	tsi³⁵ tsi³⁵	gall	gall		1.7.3.1		0		1390,1390
+43405	1616	Tujia (Northern)	niau³⁵ pʰau⁵⁵	niau³⁵ pʰau⁵⁵	bladder	bladder		1.7.8		0		m,m
+43406	1616	Tujia (Northern)	ku⁵⁵ tsʰe²¹	ku⁵⁵ tsʰe²¹	sweat	sweat		1.8.1		0		615,m
+43407	1616	Tujia (Northern)	ẽ³⁵ tɕʰi⁵⁵ la⁵⁵	ẽ³⁵ tɕʰi⁵⁵ la⁵⁵	mucus	mucus		1.8.2		0		
+43408	1616	Tujia (Northern)	nũ⁵⁵ se²¹	nũ⁵⁵ se²¹	phlegm	phlegm		1.8.3		0		
+43409	1616	Tujia (Northern)	tsʰe²¹ si²¹	tsʰe²¹ si²¹	saliva	saliva		1.8.3		0		
+43410	1616	Tujia (Northern)	mã²¹	mã²¹	milk	milk				0		3457
+43411	1616	Tujia (Northern)	se²¹	se²¹	shit	shit		1.8.5		0		572
+43412	1616	Tujia (Northern)	ɣɨe⁵⁵ tsʰe⁵⁵	ɣɨe⁵⁵ tsʰe⁵⁵	urine	urine		1.8.4		0		m,650
+43413	1616	Tujia (Northern)	tɕʰe³⁵ ka³⁵	tɕʰe³⁵ ka³⁵	sore, ulcer	sore, ulcer		1.1.5.1		0		
+43414	1616	Tujia (Northern)	ze³⁵	ze³⁵	pus	pus		1.8.6.1		0		1296
+43415	1616	Tujia (Northern)	pu³⁵ li³⁵	pu³⁵ li³⁵	smallpox	smallpox		5.3		0		
+43416	1616	Tujia (Northern)	sa⁵⁵ pu⁵⁵	sa⁵⁵ pu⁵⁵	malaria	malaria		5.3		0		
+43417	1616	Tujia (Northern)	me⁵⁵ po²¹	me⁵⁵ po²¹	dysentery	dysentery		1.7.7		0		
+43418	1616	Tujia (Northern)	lo³⁵ tsi⁵⁵	lo³⁵ tsi⁵⁵	blind person	blind person		1.2.6.14.2		0		m
+43419	1616	Tujia (Northern)	nõ⁵⁵ tʰũ⁵⁵	nõ⁵⁵ tʰũ⁵⁵	deaf person	deaf person		1.2.7.5		0		
+43420	1616	Tujia (Northern)	ka²¹ pa²¹	ka²¹ pa²¹	dumb person	dumb person		8.5.4.4		0		1752,s
+43421	1616	Tujia (Northern)	me⁵⁵ ɕe⁵⁵	me⁵⁵ ɕe⁵⁵	mute, lose voice	mute, lose voice	be v.	1.5.3.2		0		m,m
+43422	1616	Tujia (Northern)	tiã⁵⁵ tsi⁵⁵	tiã⁵⁵ tsi⁵⁵	insane person	insane person		8.3.1.11.3		0		
+43423	1616	Tujia (Northern)	pai⁵⁵ tsi⁵⁵	pai⁵⁵ tsi⁵⁵	lame person	lame person		1.5.12		0		
+43424	1616	Tujia (Northern)	se²¹ si³⁵	se²¹ si³⁵	oil	oil		1.6.4.1		0		60,48
+43425	1616	Tujia (Northern)	si²¹	si²¹	meat, flesh	meat, flesh		1.1.1.1		0		34
+43426	1616	Tujia (Northern)	pu²¹ tsʰi³⁵	pu²¹ tsʰi³⁵	fertilizer	fertilizer		1.9		0		
+43427	1616	Tujia (Northern)	se²¹	se²¹	excrement	excrement		1.8.5		0		
+43428	1616	Tujia (Northern)	sa²¹	sa²¹	speech	speech		1.8.7		0		
+43429	1616	Tujia (Northern)	ɕe⁵⁵ tɕʰi⁵⁵	ɕe⁵⁵ tɕʰi⁵⁵	strength	strength		1.1.5		0		32,1843
+43430	1616	Tujia (Northern)	tɑ̃⁵⁵ tsi⁵⁵	tɑ̃⁵⁵ tsi⁵⁵	courage	courage				0		
+43431	1616	Tujia (Northern)	a³⁵ ze³⁵	a³⁵ ze³⁵	sound	sound		9.3		0		
+43432	1616	Tujia (Northern)	mu²¹ tsi²¹	mu²¹ tsi²¹	dream	dream		1.1.4.2		0		126,m
+43433	1616	Tujia (Northern)	no⁵⁵ tsʰi²¹ li³⁵	no⁵⁵ tsʰi²¹ li³⁵	shadow (person)	shadow (person)		3.2.10		0		
+43434	1616	Tujia (Northern)	mɨe³⁵ lu³⁵	mɨe³⁵ lu³⁵	shadow (thing)	shadow (thing)		3.2.10		0		
+43435	1616	Tujia (Northern)	pʰu²¹ sa²¹	pʰu²¹ sa²¹	god	god		5.8.1.1		0		
+43436	1616	Tujia (Northern)	a⁵⁵ je²¹	a⁵⁵ je²¹	ghost	ghost		4.2.12.2		0		
+43437	1616	Tujia (Northern)	ji²¹	ji²¹	see	see		1.2.6.10		0		m
+43438	1616	Tujia (Northern)	tɕĩ⁵⁵ tɕĩ²¹	tɕĩ⁵⁵ tɕĩ²¹	close (eyes)	close (eyes)		6.2.2.6.2		0		
+43439	1616	Tujia (Northern)	zu²¹	zu²¹	listen	listen		1.2.7.4		0		
+43440	1616	Tujia (Northern)	ka³⁵	ka³⁵	eat	eat		1.5.3.2		0		1707
+43441	1616	Tujia (Northern)	xu²¹	xu²¹	drink	drink				0		1704
+43442	1616	Tujia (Northern)	ka⁵⁵	ka⁵⁵	bite (of snake)	bite (of snake)		1.3.4.4		0		755
+43443	1616	Tujia (Northern)	ka³⁵	ka³⁵	bite (of dog)	bite (of dog)		1.3.4.4		0		755
+43444	1616	Tujia (Northern)	tɕʰe²¹	tɕʰe²¹	chew	chew		1.3.4		0		744
+43445	1616	Tujia (Northern)	la³⁵	la³⁵	lick	lick		1.3.3.1		0		629
+43446	1616	Tujia (Northern)	ŋo³⁵	ŋo³⁵	hold in mouth	hold in mouth		1.3.4.4		0		
+43447	1616	Tujia (Northern)	si⁵⁵ sa⁵⁵	si⁵⁵ sa⁵⁵	gnaw	gnaw		1.3.4.4		0		
+43448	1616	Tujia (Northern)	ze³⁵	ze³⁵	swallow	swallow	v.t.	1.3.5.6		0		
+43449	1616	Tujia (Northern)	ze³⁵	ze³⁵	swallow	swallow	v.i.	1.3.5.6		0		
+43450	1616	Tujia (Northern)	pʰi³⁵	pʰi³⁵	spit	spit		1.8.3		0		
+43451	1616	Tujia (Northern)	pʰi³⁵	pʰi³⁵	vomit	vomit		1.8.3.2		0		1145
+43452	1616	Tujia (Northern)	nũ⁵⁵	nũ⁵⁵	cough	cough		1.8.3.3		0		
+43453	1616	Tujia (Northern)	me³⁵	me³⁵	blow	blow		1.3.1.4		0		503
+43454	1616	Tujia (Northern)	li²¹	li²¹	say	say		1.8.7		0		
+43455	1616	Tujia (Northern)	tʰu⁵⁵	tʰu⁵⁵	read	read		6.2.2.9.3		0		
+43456	1616	Tujia (Northern)	tɕe²¹	tɕe²¹	cry out	cry out		1.8.8.2		0		
+43457	1616	Tujia (Northern)	nã²¹	nã²¹	smell	smell	v	1.2.8.5		0		1415
+43458	1616	Tujia (Northern)	ɕiɑ̃³⁵	ɕiɑ̃³⁵	castrate (caponize)	castrate (caponize)		1.9.2.3		0		m
+43459	1616	Tujia (Northern)	ne³⁵	ne³⁵	sleep	sleep		1.1.4.1		0		129
+43460	1616	Tujia (Northern)	ne³⁵ si³⁵	ne³⁵ si³⁵	wake	wake		1.1.4		0		129,150
+43461	1616	Tujia (Northern)	ne⁵⁵	ne⁵⁵	laugh	laugh		1.8.8.1		0		1105
+43462	1616	Tujia (Northern)	tsi³⁵	tsi³⁵	cry, weep	cry, weep		1.8.8.2		0		m
+43463	1616	Tujia (Northern)	nũ⁵⁵	nũ⁵⁵	birth, give (to child)	birth, give  (to child)		1.1.2		0		1864
+43464	1616	Tujia (Northern)	me⁵⁵ zɑ³⁵	me⁵⁵ zɑ³⁵	angry, be	angry, be	v	8.3.1.6.1		0		
+43465	1616	Tujia (Northern)	ji³⁵ lɑ⁵⁵ ɣɨe²¹	ji³⁵ lɑ⁵⁵ ɣɨe²¹	talkative	talkative		8.5.10.2		0		
+43466	1616	Tujia (Northern)	mɨe³⁵ ji³⁵ lɑ⁵⁵ pe⁵⁵	mɨe³⁵ ji³⁵ lɑ⁵⁵ pe⁵⁵	lightning	lightning		3.2.1		0		
+43467	1616	Tujia (Northern)	ɣũ³⁵	ɣũ³⁵	grow (up)	grow (up)		9.7.2		0		
+43468	1616	Tujia (Northern)	me⁵⁵ pʰɨe⁵⁵	me⁵⁵ pʰɨe⁵⁵	angry, get	angry, get		8.3.1.6.1		0		
+43469	1616	Tujia (Northern)	lo³⁵ pu³⁵ ti³⁵	lo³⁵ pu³⁵ ti³⁵	jealous	jealous	be v.			0		
+43470	1616	Tujia (Northern)	ti³⁵	ti³⁵	sick	sick		1.1.5.1		0		1846
+43471	1616	Tujia (Northern)	si⁵⁵ si²¹	si⁵⁵ si²¹	shake	shake		6.7.9		0		
+43472	1616	Tujia (Northern)	xu²¹	xu²¹	swell up	swell up		1.1.5.2		0		
+43473	1616	Tujia (Northern)	se³⁵	se³⁵	die	die		1.1.6		0		27
+43474	1616	Tujia (Northern)	za⁵⁵	za⁵⁵	fly	fly	v	2.2.6		0		
+43475	1616	Tujia (Northern)	ɣũ³⁵	ɣũ³⁵	bark	bark	v	2.1.11.1		0		
+43476	1616	Tujia (Northern)	zũ³⁵	zũ³⁵	caw, crow	caw, crow		2.2.4.1		0		
+43477	1616	Tujia (Northern)	le⁵⁵	le⁵⁵	lay (egg)	lay (egg)		6.17		0		
+43478	1616	Tujia (Northern)	pʰɨe²¹	pʰɨe²¹	sit on (egg)	sit on (egg)		6.1.1.4.1		0		
+43480	1616	Tujia (Northern)	si³⁵	si³⁵	fat (person)	fat (person)		1.6.4		0		48
+43481	1616	Tujia (Northern)	si³⁵	si³⁵	fat (meat)	fat (meat)		1.6.4		0		48
+43482	1616	Tujia (Northern)	si²¹ mei³⁵	si²¹ mei³⁵	lean (meat)	lean (meat)		1.1.1		0		34,m
+43483	1616	Tujia (Northern)	mɨe²¹ tɕe³⁵	mɨe²¹ tɕe³⁵	full, satiated	full, satiated		1.1.3.2		0		1834,1830
+43484	1616	Tujia (Northern)	li³⁵ ɣa⁵⁵	li³⁵ ɣa⁵⁵	hungry	hungry		1.1.3		0		
+43485	1616	Tujia (Northern)	ka²¹	ka²¹	thirsty	thirsty		1.1.3.1		0		105
+43486	1616	Tujia (Northern)	tɕe²¹	tɕe²¹	drunk	drunk		1.3.5.9		0		
+43487	1616	Tujia (Northern)	lau⁵⁵ xo⁵⁵	lau⁵⁵ xo⁵⁵	tired	tired		9.6.2.2		0		
+43488	1616	Tujia (Northern)	si⁵⁵ ŋa²¹	si⁵⁵ ŋa²¹	itchy	itchy		1.6.5.5		0		m,m
+43489	1616	Tujia (Northern)	ti³⁵	ti³⁵	painful	painful		1.1.5.1		0		
+43490	1616	Tujia (Northern)	phai⁵⁵	phai⁵⁵	fathom, cord	fathom, cord		9.8		0	z	
+43491	1616	Tujia (Northern)	thi⁵⁵ khɑ⁵⁵	thi⁵⁵ khɑ⁵⁵	span	span		1.5.9.4		0		1281,m
+43492	1616	Tujia (Northern)	mɨe²¹ suɑ̃⁵⁵	mɨe²¹ suɑ̃⁵⁵	cheap (person)	cheap (person)		5.9		0		
+43493	1617	Tujia (Southern)	dɨ⁵⁵ go³⁵	dɨ⁵⁵ go³⁵	front	front		1.4.4		0		m,m
+43494	1617	Tujia (Southern)	mɨe⁵⁵ kʰɨe²¹	mɨe⁵⁵ kʰɨe²¹	back (side)	back (side)		1.4.8		0		
+43495	1617	Tujia (Southern)	dʑia²¹ ze³⁵	dʑia²¹ ze³⁵	left	left		1.5.3.2		0		
+43496	1617	Tujia (Southern)	ta²¹ ze³⁵	ta²¹ ze³⁵	right (side)	right (side)		1.5.3.2		0		
+43497	1617	Tujia (Southern)	bã²¹ piã³³	bã²¹ piã³³	side	side		1.4.5		0		
+43498	1617	Tujia (Southern)	ʔa²¹ le⁵⁵	ʔa²¹ le⁵⁵	egg	egg				0		p,3438
+43499	1617	Tujia (Southern)	tɕe¹³ta⁵⁵	tɕe¹³ta⁵⁵	wing	wing		1.5.1.3		0		R,711
+43500	1617	Tujia (Southern)	ʔa²¹ so²¹	ʔa²¹ so²¹	fur	fur		1.6.1		0		p,370
+43501	1617	Tujia (Southern)	tsaɨ⁵⁵ tsi²¹	tsaɨ⁵⁵ tsi²¹	claw	claw		1.5.10.4		0		
+43502	1617	Tujia (Southern)	di²¹ kʰo²¹	di²¹ kʰo²¹	hoof	hoof		1.5.4		0		m,417
+43503	1617	Tujia (Southern)	ʔa³³ kʰɨe³³	ʔa³³ kʰɨe³³	horn	horn		1.2.2		0		p,819
+43504	1617	Tujia (Southern)	jiã²¹ tu̵⁵⁵	jiã²¹ tu̵⁵⁵	tail	tail		1.4.10.1		0		208,5639
+43505	1617	Tujia (Southern)	to⁵⁵ pʰo²¹	to⁵⁵ pʰo²¹	body	body		1.1.1		0		14,1902
+43506	1617	Tujia (Southern)	ʔa²¹ bo⁵⁵	ʔa²¹ bo⁵⁵	head	head		1.2.1		0		p,388
+43507	1617	Tujia (Southern)	ŋai¹³ mẽ³³	ŋai¹³ mẽ³³	forehead	forehead		1.2.5.1		0		356,354
+43508	1617	Tujia (Southern)	ʔa²¹ so²¹	ʔa²¹ so²¹	hair (head)	hair (head)		1.2.3		0		p,370
+43509	1617	Tujia (Southern)	pia¹³ tsi³³	pia¹³ tsi³³	braid (hair)	braid (hair)	n	1.2.3.2		0		2018,bChinese,s
+43510	1617	Tujia (Southern)	laɨ⁵⁵ suĩ³³	laɨ⁵⁵ suĩ³³	brain	brain		1.2.4		0		m,5485
+43511	1617	Tujia (Southern)	ʔa²¹ gu²¹ pʰo⁵⁵	ʔa²¹ gu²¹ pʰo⁵⁵	face	face		1.2.5		0		p,273
+43512	1617	Tujia (Southern)	ʔa²¹ la⁵⁵ ʔa²¹ so²¹	ʔa²¹ la⁵⁵ ʔa²¹ so²¹	eyebrow	eyebrow		1.2.6.6		0		p,1427,p,370
+43513	1617	Tujia (Southern)	ʔa²¹ la⁵⁵	ʔa²¹ la⁵⁵	eye	eye		1.2.6		0		p,1427
+43514	1617	Tujia (Southern)	ʔa²¹la⁵⁵ tsʰe³⁵	ʔa²¹la⁵⁵ tsʰe³⁵	tears	tears		1.2.6.7		0		p,1427,298
+43515	1617	Tujia (Southern)	ku̵¹³ tɕi⁵⁵ du̵³⁵	ku̵¹³ tɕi⁵⁵ du̵³⁵	nose	nose		1.2.8		0		809,442,808
+43516	1617	Tujia (Southern)	tsã²¹ pu̵⁵⁵	tsã²¹ pu̵⁵⁵	ear	ear		1.2.7		0		816,812
+43517	1617	Tujia (Southern)	ʔa²¹ ze²¹	ʔa²¹ ze²¹	mouth	mouth		1.3.1		0		p,m
+43518	1617	Tujia (Southern)	ʔa²¹ ze²¹ kɨ²¹ lo²¹	ʔa²¹ ze²¹ kɨ²¹ lo²¹	lip	lip		1.3.2		0		p,m,m,456
+43519	1617	Tujia (Southern)	si³³ ta³⁵	si³³ ta³⁵	tooth	tooth		1.3.4		0		632,3316
+43520	1617	Tujia (Southern)	dzi²¹ la²¹	dzi²¹ la²¹	tongue	tongue		1.3.3		0		621,623
+43521	1617	Tujia (Southern)	me³³ po³³	me³³ po³³	beard	beard		1.2.5.5		0		363,1228
+43522	1617	Tujia (Southern)	gua²¹ la⁵⁵	gua²¹ la⁵⁵	neck	neck		1.4.2		0		389,m
+43523	1617	Tujia (Southern)	gua²¹ la⁵⁵ du̵³⁵	gua²¹ la⁵⁵ du̵³⁵	throat	throat		1.3.5		0		389,m,822
+43524	1617	Tujia (Southern)	tɕiã⁵⁵ po²¹	tɕiã⁵⁵ po²¹	shoulder	shoulder		1.4.3		0		b
+43525	1617	Tujia (Southern)	ʔa²¹ dʑe⁵⁵	ʔa²¹ dʑe⁵⁵	hand	hand		1.5.1.1		0		p,699
+43526	1617	Tujia (Southern)	ʔa²¹ dʑe⁵⁵ mai²¹ tɕi⁵⁵	ʔa²¹ dʑe⁵⁵ mai²¹ tɕi⁵⁵	arm	arm		1.5.1.2		0		p,699,m,m
+43527	1617	Tujia (Southern)	ʔa²¹ dʑe²¹ be²¹	ʔa²¹ dʑe²¹ be²¹	finger	finger		1.5.6		0		
+43528	1617	Tujia (Southern)	dʑe⁵⁵ mo⁵⁵ kʰo²¹	dʑe⁵⁵ mo⁵⁵ kʰo²¹	nail	nail		1.5.10		0		
+43529	1617	Tujia (Southern)	ɕiõ⁵⁵ kẽ²¹ dʑiã²¹	ɕiõ⁵⁵ kẽ²¹ dʑiã²¹	chest (of body)	chest (of body)		1.4.4.3		0		b,m,m
+43530	1617	Tujia (Southern)	ʔa¹³ du̵⁵⁵	ʔa¹³ du̵⁵⁵	back (of body)	back (of body)		1.4.8		0		
+43531	1617	Tujia (Southern)	lai³⁵ lai²¹	lai³⁵ lai²¹	breast	breast		1.4.4.3		0		
+43532	1617	Tujia (Southern)	mɨe¹³ tɕi⁵⁵	mɨe¹³ tɕi⁵⁵	belly	belly		1.4.7		0		m,m
+43533	1617	Tujia (Southern)	tu³⁵ dɨ²¹ ŋã³³	tu³⁵ dɨ²¹ ŋã³³	navel	navel		1.9.4		0		520,519,m
+43534	1617	Tujia (Southern)	ʔa³³ dʑi³⁵	ʔa³³ dʑi³⁵	foot	foot		1.5.2		0		
+43535	1617	Tujia (Southern)	dʑi³⁵ du̵⁵⁵	dʑi³⁵ du̵⁵⁵	leg	leg		1.5.7		0		m,1193
+43536	1617	Tujia (Southern)	tsi²¹ ka²¹ la¹³	tsi²¹ ka²¹ la¹³	armpit	armpit		1.5.1.2.3		0		
+43537	1617	Tujia (Southern)	ʔa²¹ dʑi³⁵ po³³ lo³³	ʔa²¹ dʑi³⁵ po³³ lo³³	knee	knee		1.5.8.4		0		
+43538	1617	Tujia (Southern)	kɨ²¹ lo²¹	kɨ²¹ lo²¹	skin	skin		1.6.5		0		m,595
+43539	1617	Tujia (Southern)	kʰa²¹ kɨ²¹	kʰa²¹ kɨ²¹	bone	bone		1.6.3		0		m,233
+43540	1617	Tujia (Southern)	tɕĩ²¹	tɕĩ²¹	muscle	muscle		1.6.6.2		0		372
+43541	1617	Tujia (Southern)	me²¹ me²¹	me²¹ me²¹	blood	blood		1.6.2		0		m
+43542	1617	Tujia (Southern)	wei¹³	wei¹³	stomach	stomach		1.7.6		0		b
+43543	1617	Tujia (Southern)	jiaɨ⁵⁵ tsi²¹	jiaɨ⁵⁵ tsi²¹	kidney	kidney		1.7.5		0		b,bChinese,1019
+43544	1617	Tujia (Southern)	ka²¹ bu²¹ lo⁵⁵	ka²¹ bu²¹ lo⁵⁵	intestines	intestines		1.7.7		0		
+43545	1617	Tujia (Southern)	li²¹ ŋa²¹	li²¹ ŋa²¹	heart	heart		1.7.1		0		m,m
+43546	1617	Tujia (Southern)	kã³³	kã³³	liver	liver		1.7.3		0		229,bChinese
+43547	1617	Tujia (Southern)	fei¹³	fei¹³	lung	lung		1.7.2		0		bChinese
+43548	1617	Tujia (Southern)	tã²¹	tã²¹	gall	gall		1.7.3.1		0		bChinese
+43549	1617	Tujia (Southern)	tsʰe⁵⁵ tsʰe³⁵ pʰaɨ¹³	tsʰe⁵⁵ tsʰe³⁵ pʰaɨ¹³	bladder	bladder		1.7.8		0		650,650,m
+43550	1617	Tujia (Southern)	si²¹ to²¹ tsʰe³⁵	si²¹ to²¹ tsʰe³⁵	sweat	sweat		1.8.1		0		m,m,m
+43551	1617	Tujia (Southern)	nɨ̃²¹ nɨ̃²¹	nɨ̃²¹ nɨ̃²¹	mucus	mucus		1.8.2		0		
+43552	1617	Tujia (Southern)	lɨ̃²¹ lɨ̃²¹	lɨ̃²¹ lɨ̃²¹	mucus	mucus		1.8.2		0		
+43553	1617	Tujia (Southern)	dã³³	dã³³	phlegm	phlegm		1.8.3		0		
+43554	1617	Tujia (Southern)	tsʰe¹³ si⁵⁵	tsʰe¹³ si⁵⁵	saliva	saliva		1.8.3		0		
+43555	1617	Tujia (Southern)	nai³⁵ nai¹³	nai³⁵ nai¹³	milk	milk				0		bChinese
+43556	1617	Tujia (Southern)	se³⁵	se³⁵	shit	shit		1.8.5		0		572
+43557	1617	Tujia (Southern)	tsʰe⁵⁵ tsʰe³⁵	tsʰe⁵⁵ tsʰe³⁵	urine	urine		1.8.4		0		650,650
+43558	1617	Tujia (Southern)	tsʰo²¹ bo²¹	tsʰo²¹ bo²¹	ulcer, sore	ulcer, sore		1.8.6.2		0		m,1293
+43559	1617	Tujia (Southern)	dzi¹³ tsʰe³⁵	dzi¹³ tsʰe³⁵	pus	pus		1.8.6.1		0		1296,m
+43560	1617	Tujia (Southern)	mɨe²¹ tsu³³ pu³⁵	mɨe²¹ tsu³³ pu³⁵	smallpox	smallpox		5.3		0		
+43561	1617	Tujia (Southern)	lĩ¹³ kõ³³ zi¹³	lĩ¹³ kõ³³ zi¹³	malaria	malaria		5.3		0		
+43562	1617	Tujia (Southern)	ʔa¹³ la⁵⁵ be¹³	ʔa¹³ la⁵⁵ be¹³	blind person	blind person		1.2.6.14.2		0		m
+43563	1617	Tujia (Southern)	tsa¹³ pu̵⁵⁵ tu̵⁵⁵	tsa¹³ pu̵⁵⁵ tu̵⁵⁵	deaf person	deaf person		1.2.7.5		0		
+43564	1617	Tujia (Southern)	ʔa⁵⁵ tsi²¹	ʔa⁵⁵ tsi²¹	dumb person	dumb person		8.5.4.4		0		p,m
+43565	1617	Tujia (Southern)	tiã³³ tsi²¹	tiã³³ tsi²¹	insane person	insane person		8.3.1.11.3		0		
+43566	1617	Tujia (Southern)	pai³³ tsi²¹	pai³³ tsi²¹	lame person	lame person		1.5.12		0		
+43567	1617	Tujia (Southern)	si²¹ tsʰe³⁵	si²¹ tsʰe³⁵	oil	oil		1.6.4.1		0		48,42
+43568	1617	Tujia (Southern)	si³⁵	si³⁵	meat, flesh	meat, flesh		1.1.1.1		0		34
+43569	1617	Tujia (Southern)	fuei²¹ liaɨ²¹	fuei²¹ liaɨ²¹	manure	manure		1.8.5		0		
+43570	1617	Tujia (Southern)	se³⁵	se³⁵	excrement	excrement		1.8.5		0		
+43571	1617	Tujia (Southern)	ẖo³⁵	ẖo³⁵	speech	speech		1.8.7		0		
+43572	1617	Tujia (Southern)	ku¹³ zu⁵⁵	ku¹³ zu⁵⁵	sound	sound		9.3		0		
+43573	1617	Tujia (Southern)	mu̵³⁵	mu̵³⁵	dream	dream		1.1.4.2		0		126
+43574	1617	Tujia (Southern)	jĩ⁵⁵ tsi²¹	jĩ⁵⁵ tsi²¹	shadow (person)	shadow (person)		3.2.10		0		
+43575	1617	Tujia (Southern)	jĩ⁵⁵ tsi²¹	jĩ⁵⁵ tsi²¹	shadow (thing)	shadow (thing)		3.2.10		0		
+43576	1617	Tujia (Southern)	sẽ²¹	sẽ²¹	god	god		5.8.1.1		0		
+43577	1617	Tujia (Southern)	ʔa³³ ze³⁵	ʔa³³ ze³⁵	ghost	ghost		4.2.12.2		0		
+43578	1617	Tujia (Southern)	ɣu̵¹³	ɣu̵¹³	strength	strength		1.1.5		0		5677
+43579	1617	Tujia (Southern)	le²¹ bu²¹	le²¹ bu²¹	courage	courage				0		
+43580	1617	Tujia (Southern)	bo¹³	bo¹³	look at	look at		1.2.6.11		0		1227
+43581	1617	Tujia (Southern)	bo¹³ ji³⁵	bo¹³ ji³⁵	see	see		1.2.6.10		0		1227,1229
+43582	1617	Tujia (Southern)	ne¹³	ne¹³	close (eyes)	close (eyes)		6.2.2.6.2		0		
+43583	1617	Tujia (Southern)	ẖo³³ zi³³	ẖo³³ zi³³	listen	listen		1.2.7.4		0		
+43584	1617	Tujia (Southern)	ɣɨe³⁵	ɣɨe³⁵	eat	eat		1.5.3.2		0		?
+43585	1617	Tujia (Southern)	dzu̵³³	dzu̵³³	drink	drink				0		?
+43586	1617	Tujia (Southern)	go³⁵	go³⁵	bite (of snake)	bite (of snake)		1.3.4.4		0		755
+43587	1617	Tujia (Southern)	go³⁵	go³⁵	bite (of dog)	bite (of dog)		1.3.4.4		0		755
+43588	1617	Tujia (Southern)	tɕʰe³⁵	tɕʰe³⁵	chew	chew		1.3.4		0		744
+43589	1617	Tujia (Southern)	lo²¹	lo²¹	lick	lick		1.3.3.1		0		629
+43590	1617	Tujia (Southern)	ẖã²¹	ẖã²¹	hold in mouth	hold in mouth		1.3.4.4		0		b?
+43591	1617	Tujia (Southern)	ze²¹	ze²¹	swallow	swallow	v.t.	1.3.5.6		0		
+43592	1617	Tujia (Southern)	ze²¹	ze²¹	swallow	swallow	v.i.	1.3.5.6		0		
+43593	1617	Tujia (Southern)	tsʰi⁵⁵	tsʰi⁵⁵	spit	spit		1.8.3		0		
+43594	1617	Tujia (Southern)	pʰi⁵⁵	pʰi⁵⁵	vomit	vomit		1.8.3.2		0		1145
+43595	1617	Tujia (Southern)	niu̵⁵⁵	niu̵⁵⁵	cough, gnaw	cough, gnaw		1.8.3.3		0		
+43596	1617	Tujia (Southern)	mi⁵⁵	mi⁵⁵	blow	blow		1.3.1.4		0		503
+43597	1617	Tujia (Southern)	ẖɨ⁵⁵	ẖɨ⁵⁵	say	say		1.8.7		0		
+43598	1617	Tujia (Southern)	tʰu̵²¹	tʰu̵²¹	read	read		6.2.2.9.3		0		
+43599	1617	Tujia (Southern)	ẖa³³	ẖa³³	cry out	cry out		1.8.8.2		0		
+43600	1617	Tujia (Southern)	ɕiõ¹³	ɕiõ¹³	smell	smell	v	1.2.8.5		0		
+43601	1617	Tujia (Southern)	tɕe⁵⁵	tɕe⁵⁵	castrate (caponize)	castrate (caponize)		1.9.2.3		0		m
+43602	1617	Tujia (Southern)	ne²¹	ne²¹	sleep	sleep		1.1.4.1		0		129
+43603	1617	Tujia (Southern)	ne²¹ ɕi³⁵	ne²¹ ɕi³⁵	wake	wake		1.1.4		0		129,150
+43604	1617	Tujia (Southern)	ne³³	ne³³	laugh	laugh		1.8.8.1		0		1105
+43605	1617	Tujia (Southern)	dzi²¹	dzi²¹	cry, weep	cry, weep		1.8.8.2		0		m
+43606	1617	Tujia (Southern)	si³⁵	si³⁵	birth, give	birth, give		1.1.2		0		
+43607	1617	Tujia (Southern)	ɣu̵²¹	ɣu̵²¹	grow (up)	grow (up)		9.7.2		0		
+43608	1617	Tujia (Southern)	dɨ²¹	dɨ²¹	sick, painful	sick, painful		1.1.5.1		0	D1	1846
+43609	1617	Tujia (Southern)	pʰã⁵⁵	pʰã⁵⁵	shake	shake		6.7.9		0		
+43610	1617	Tujia (Southern)	fu³⁵	fu³⁵	swell up	swell up		1.1.5.2		0		
+43611	1617	Tujia (Southern)	se²¹	se²¹	die	die		1.1.6		0		27
+43612	1617	Tujia (Southern)	mu³³ dzi³³	mu³³ dzi³³	fly	fly	v.	2.2.6		0		
+43613	1617	Tujia (Southern)	gu̵³⁵	gu̵³⁵	bark	bark	v	2.1.11.1		0		
+43614	1617	Tujia (Southern)	zu²¹	zu²¹	caw, crow	caw, crow		2.2.4.1		0		
+43615	1617	Tujia (Southern)	le³³	le³³	lay (egg)	lay (egg)	v.	6.17		0		
+43616	1617	Tujia (Southern)	pʰɨe³⁵	pʰɨe³⁵	sit on (egg)	sit on (egg)		6.1.1.4.1		0		
+43617	1617	Tujia (Southern)	si²¹	si²¹	fat (person)	fat (person)		1.6.4		0		48
+43618	1617	Tujia (Southern)	si²¹	si²¹	fat (meat)	fat (meat)		1.6.4		0		48
+43619	1617	Tujia (Southern)	ɕe⁵⁵	ɕe⁵⁵	lean (meat)	lean (meat)		1.1.1		0		1806
+43620	1617	Tujia (Southern)	tʰo⁵⁵	tʰo⁵⁵	full, satiated	full, satiated		1.1.3.2		0		7091
+43621	1617	Tujia (Southern)	lo²¹ wo¹³	lo²¹ wo¹³	hungry	hungry		1.1.3		0		
+43622	1617	Tujia (Southern)	go³⁵	go³⁵	thirsty	thirsty		1.1.3.1		0		116
+43623	1617	Tujia (Southern)	jĩ²¹	jĩ²¹	drunk	drunk		1.3.5.9		0		
+43624	1617	Tujia (Southern)	to³⁵	to³⁵	tired	tired		9.6.2.2		0		
+43625	1617	Tujia (Southern)	si³³ wo³⁵	si³³ wo³⁵	itchy	itchy		1.6.5.5		0		m,m
+43627	1617	Tujia (Southern)	phai³³	phai³³	fathom, cord	fathom, cord		9.8		0	z	
+43628	1617	Tujia (Southern)	dʑuɑ¹³	dʑuɑ¹³	span	span		1.5.9.4		0		1281
+145865	1616	Tujia (Northern)	tɕe³⁵ mi⁵⁵ tʰi²¹ kʰo⁵⁵ tʰa⁵⁵	tɕe³⁵ mi⁵⁵ tʰi²¹ kʰo⁵⁵ tʰa⁵⁵	nail	nail		1.5.10		0		
+145866	1616	Tujia (Northern)	ũ³⁵ tɕʰi⁵⁵ kʰuẽ²¹ kʰuẽ²¹	ũ³⁵ tɕʰi⁵⁵ kʰuẽ²¹ kʰuẽ²¹	arrogant, overbearing	arrogant, overbearing		9.6.2.2		0	z	
+288449	1616	Tujia (Northern)	mɨe³⁵	mɨe³⁵	sky	sky		3.2.2		0		2473
+288450	1616	Tujia (Northern)	nau²¹~nau²¹tshi²¹	nau²¹~nau²¹tshi²¹	sun	sun		3.2.10		0		
+288451	1616	Tujia (Northern)	su²¹su²¹~su²su²¹kha²¹ɕe²¹	su²¹su²¹~su²su²¹kha²¹ɕe²¹	moon	moon		3.2.2		0		
+288452	1616	Tujia (Northern)	si⁵⁵zi²¹~si⁵⁵zi²¹pu³⁵li³⁵	si⁵⁵zi²¹~si⁵⁵zi²¹pu³⁵li³⁵	star	star		3.2.2		0		
+288453	1616	Tujia (Northern)	mɨe³⁵tha⁵⁵tshe²¹	mɨe³⁵tha⁵⁵tshe²¹	thunder	thunder		3.2.1		0		2473
+288454	1616	Tujia (Northern)	mɨe³⁵la⁵⁵ɣũ²¹	mɨe³⁵la⁵⁵ɣũ²¹	cloud	cloud		3.2.1		0		2473
+288455	1616	Tujia (Northern)	ze³⁵su⁵⁵	ze³⁵su⁵⁵	wind	wind		3.2.1		0		
+288456	1616	Tujia (Northern)	mɨe³⁵tse²¹	mɨe³⁵tse²¹	rain	rain		3.2.1		0		2473
+288457	1616	Tujia (Northern)	su³⁵su³⁵~su³⁵su⁵⁵	su³⁵su³⁵~su³⁵su⁵⁵	snow	snow		3.2.1		0		
+288458	1616	Tujia (Northern)	tshe²¹	tshe²¹	water	water		3.2.3		0		
+288459	1616	Tujia (Northern)	lã³⁵kɨu⁵⁵tsi⁵⁵	lã³⁵kɨu⁵⁵tsi⁵⁵	ice	ice		3.2.3		0		
+288460	1616	Tujia (Northern)	so⁵⁵phɨe²¹	so⁵⁵phɨe²¹	fog	fog		3.2.1		0		
+288461	1616	Tujia (Northern)	pu⁵⁵li⁵⁵	pu⁵⁵li⁵⁵	frost	frost		3.2.1		0		
+288462	1616	Tujia (Northern)	so⁵⁵tshe²¹	so⁵⁵tshe²¹	dew	dew				0		
+288463	1616	Tujia (Northern)	lẽ³⁵sai⁵⁵	lẽ³⁵sai⁵⁵	hail	hail		3.2.1		0		
+288464	1616	Tujia (Northern)	li⁵⁵	li⁵⁵	earth	earth		3.2.11		0		
+288465	1616	Tujia (Northern)	xu²¹pha²¹	xu²¹pha²¹	river	river		3.2.3		0		
+288466	1616	Tujia (Northern)	xai⁵⁵	xai⁵⁵	sea	sea		3.2.3		0		
+288467	1616	Tujia (Northern)	xu²¹	xu²¹	lake	lake		3.2.5		0		
+288468	1616	Tujia (Northern)	tshe²¹phũ³⁵	tshe²¹phũ³⁵	pond	pond		3.2.3		0		
+288469	1616	Tujia (Northern)	tshe²¹mũ³⁵	tshe²¹mũ³⁵	well	well		9.6.1.1		0		
+288470	1616	Tujia (Northern)	tshe²¹la²¹	tshe²¹la²¹	ditch	ditch		3.2.7		0		
+288471	1616	Tujia (Northern)	khu⁵⁵tsa⁵⁵ ~ khu⁵⁵le⁵⁵	khu⁵⁵tsa⁵⁵ ~ khu⁵⁵le⁵⁵	mountain	mountain		3.2.5		0		
+288472	1616	Tujia (Northern)	se²¹khɨe⁵⁵	se²¹khɨe⁵⁵	field	field		3.2.5		0		
+288473	1616	Tujia (Northern)	phɨe³⁵thi⁵⁵~zo⁵⁵	phɨe³⁵thi⁵⁵~zo⁵⁵	land	land		3.2.5		0		
+288474	1616	Tujia (Northern)	pi⁵⁵thiau⁵⁵	pi⁵⁵thiau⁵⁵	plain	plain		3.2.5		0	D0	
+288475	1616	Tujia (Northern)	pa²¹tsi³⁵	pa²¹tsi³⁵	earth	earth		3.2.11		0		
+288476	1616	Tujia (Northern)	pa²¹tsi³⁵miã³⁵xu²¹	pa²¹tsi³⁵miã³⁵xu²¹	mud	mud		3.2.11		0		
+288477	1616	Tujia (Northern)	ji⁵⁵tsa⁵⁵~tũ²¹ka³⁵	ji⁵⁵tsa⁵⁵~tũ²¹ka³⁵	cave	cave		3.2.7		0		
+288478	1616	Tujia (Northern)	tũ²¹ka³⁵	tũ²¹ka³⁵	hole	hole		3.2.7		0		
+288479	1616	Tujia (Northern)	kho⁵⁵	kho⁵⁵	gold	gold		3.2.4		0		
+288480	1616	Tujia (Northern)	ŋo⁵⁵	ŋo⁵⁵	silver	silver		3.2.4		0		2536
+288481	1616	Tujia (Northern)	thũ²¹	thũ²¹	copper	copper		3.2.4		0		
+288482	1616	Tujia (Northern)	ɕe⁵⁵	ɕe⁵⁵	iron	iron		3.2.4		0		
+288483	1616	Tujia (Northern)	kã⁵⁵	kã⁵⁵	steel	steel		3.2.4		0		bChinese
+288484	1616	Tujia (Northern)	jiã²¹	jiã²¹	tin	tin		3.2.4		0		
+288485	1616	Tujia (Northern)	a²¹pa²¹	a²¹pa²¹	stone / rock	stone / rock		3.2.9		0		
+288486	1616	Tujia (Northern)	a²¹pu³⁵li³⁵	a²¹pu³⁵li³⁵	sand	sand		3.2.11		0		
+288487	1616	Tujia (Northern)	mei²¹	mei²¹	coal	coal		3.2.4		0		bChinese
+288488	1616	Tujia (Northern)	mi⁵⁵	mi⁵⁵	fire	fire		3.2.12.2		0		
+288489	1616	Tujia (Northern)	khɨe⁵⁵kha²¹	khɨe⁵⁵kha²¹	smoke	smoke		3.2.12.2		0		
+288490	1616	Tujia (Northern)	tũ⁵⁵piã⁵⁵~tũ⁵⁵piã⁵⁵la⁵⁵kuei²¹	tũ⁵⁵piã⁵⁵~tũ⁵⁵piã⁵⁵la⁵⁵kuei²¹	east	east		9.2.8		0		bChinese
+288491	1616	Tujia (Northern)	ɕi⁵⁵piã⁵⁵~ɕi⁵⁵piã⁵⁵la⁵⁵kuei²¹	ɕi⁵⁵piã⁵⁵~ɕi⁵⁵piã⁵⁵la⁵⁵kuei²¹	west	west		9.2.8		0		bChinese
+288492	1616	Tujia (Northern)	lã²¹piã⁵⁵~lã²¹piã⁵⁵la⁵⁵kuei²¹	lã²¹piã⁵⁵~lã²¹piã⁵⁵la⁵⁵kuei²¹	south	south		9.2.8		0		bChinese,bChinese,bChinese,bChinese,m,m
+288493	1616	Tujia (Northern)	pɨe³⁵piã⁵⁵~pɨe³⁵piã⁵⁵la⁵⁵kuei²¹	pɨe³⁵piã⁵⁵~pɨe³⁵piã⁵⁵la⁵⁵kuei²¹	north	north		9.2.8		0		bChinese,bChinese,bChinese,bChinese,m,m
+288494	1616	Tujia (Northern)	ka²¹xa³⁵	ka²¹xa³⁵	top	top		1.2.1.3		0		
+288495	1616	Tujia (Northern)	pa²¹thi²¹	pa²¹thi²¹	bottom	bottom		9.2.2		0		
+288496	1616	Tujia (Northern)	wo³⁵thu³⁵	wo³⁵thu³⁵	inside	inside		9.2.5		0		
+288497	1616	Tujia (Northern)	wo³⁵tha²¹	wo³⁵tha²¹	outside	outside		9.2.7		0	D0	
+288498	1616	Tujia (Northern)	si²¹tɕe³⁵~si²¹ka³⁵	si²¹tɕe³⁵~si²¹ka³⁵	time	time		9.1.5		0		
+288499	1616	Tujia (Northern)	nũ²¹	nũ²¹	year	year		9.1.2		0		
+288500	1616	Tujia (Northern)	se⁵⁵thũ⁵⁵	se⁵⁵thũ⁵⁵	year / age	year / age		9.1.2		0		
+288501	1616	Tujia (Northern)	nũ²¹pai²¹	nũ²¹pai²¹	this year	this year		10.4.3.2		0		
+288502	1616	Tujia (Northern)	nũ⁵⁵tũ⁵⁵pai⁵⁵~nũ⁵⁵tũ⁵⁵phai⁵⁵	nũ⁵⁵tũ⁵⁵pai⁵⁵~nũ⁵⁵tũ⁵⁵phai⁵⁵	last year	last year		9.9		0		
+288503	1616	Tujia (Northern)	na²¹kho²¹	na²¹kho²¹	next year	next year		9.9		0		
+288504	1616	Tujia (Northern)	te⁵⁵nũ⁵⁵pai⁵⁵~te⁵⁵nũ⁵⁵phai⁵⁵	te⁵⁵nũ⁵⁵pai⁵⁵~te⁵⁵nũ⁵⁵phai⁵⁵	year before last	year before last		9.1.2		0		
+288505	1616	Tujia (Northern)	mi³⁵kho⁵⁵	mi³⁵kho⁵⁵	year after next	year after next		9.1.2		0		
+288506	1616	Tujia (Northern)	tshuẽ⁵⁵	tshuẽ⁵⁵	spring (season)	spring (season)		6.7.9		0		bChinese
+288507	1616	Tujia (Northern)	ɕia³⁵	ɕia³⁵	summer	summer		3.2.1		0		
+288508	1616	Tujia (Northern)	tɕhiu⁵⁵	tɕhiu⁵⁵	autumn	autumn		9.1.2		0		
+288509	1616	Tujia (Northern)	tũ⁵⁵	tũ⁵⁵	winter	winter		9.1.2		0		
+288510	1616	Tujia (Northern)	si⁵⁵	si⁵⁵	month	month		9.1.2		0		
+288511	1616	Tujia (Northern)	tsẽ⁵⁵je⁵⁵	tsẽ⁵⁵je⁵⁵	January	January		9.1.2		0		
+288512	1616	Tujia (Northern)	ai³⁵je⁵⁵	ai³⁵je⁵⁵	February	February		9.1.2		0		
+288513	1616	Tujia (Northern)	sã⁵⁵je³³	sã⁵⁵je³³	March	March		9.1.2		0		
+288514	1616	Tujia (Northern)	si³⁵je⁵⁵	si³⁵je⁵⁵	April	April		9.1.2		0		
+288515	1616	Tujia (Northern)	wu⁵⁵je⁵⁵	wu⁵⁵je⁵⁵	May	May		9.1.2		0		
+288516	1616	Tujia (Northern)	lu³⁵je⁵⁵	lu³⁵je⁵⁵	June	June		9.1.2		0		
+288517	1616	Tujia (Northern)	tɕhi³⁵je⁵⁵	tɕhi³⁵je⁵⁵	July	July		9.1.2		0		
+288518	1616	Tujia (Northern)	pa³⁵je⁵⁵	pa³⁵je⁵⁵	August	August		9.1.2		0		
+288519	1616	Tujia (Northern)	tɕiu⁵⁵je⁵⁵	tɕiu⁵⁵je⁵⁵	September	September		9.1.2		0		
+288520	1616	Tujia (Northern)	si²¹je²¹	si²¹je²¹	October	October		9.1.2		0		
+288521	1616	Tujia (Northern)	tũ⁵⁵je⁵⁵	tũ⁵⁵je⁵⁵	November	November		9.1.2		0		
+288522	1616	Tujia (Northern)	la³⁵je⁵⁵	la³⁵je⁵⁵	December	December		9.1.2		0		
+288523	1616	Tujia (Northern)	ne⁵⁵	ne⁵⁵	day (24 hours)	day (24 hours)		1.5.3.2		0		
+288524	1616	Tujia (Northern)	nai⁵⁵	nai⁵⁵	today	today		9.1.3		0		
+288525	1616	Tujia (Northern)	phu²¹ni²¹	phu²¹ni²¹	yesterday	yesterday		9.1.3		0		
+288526	1616	Tujia (Northern)	kɨ³⁵ni⁵⁵	kɨ³⁵ni⁵⁵	day before yesterday	day before yesterday		1.5.3.2		0		
+288527	1616	Tujia (Northern)	nau³⁵tsi⁵⁵	nau³⁵tsi⁵⁵	tomorrow	tomorrow		9.1.3		0		
+288528	1616	Tujia (Northern)	mi³⁵ne⁵⁵	mi³⁵ne⁵⁵	day after tomrrow	day after tomrrow		1.5.3.2		0		
+288529	1616	Tujia (Northern)	tshu⁵⁵ji³⁵	tshu⁵⁵ji³⁵	first day of the month	first day of the month		9.9		0		
+288530	1616	Tujia (Northern)	tshu⁵⁵ai³⁵	tshu⁵⁵ai³⁵	second day of the month	second day of the month		9.9		0		
+288531	1616	Tujia (Northern)	tshu⁵⁵sã⁵⁵	tshu⁵⁵sã⁵⁵	third day of the month	third day of the month		9.9		0		
+288532	1616	Tujia (Northern)	thai⁵⁵ne²¹khu³⁵~thai⁵⁵ne²¹	thai⁵⁵ne²¹khu³⁵~thai⁵⁵ne²¹	daytime	daytime		9.1.3		0		
+288533	1616	Tujia (Northern)	tsau⁵⁵ku⁵⁵te⁵⁵~tsau⁵⁵kũ⁵⁵te⁵⁵	tsau⁵⁵ku⁵⁵te⁵⁵~tsau⁵⁵kũ⁵⁵te⁵⁵	morning	morning		9.1.4		0		
+288534	1616	Tujia (Northern)	ũ⁵⁵ka²¹ka³⁵tsu³⁵~pã³⁵zi³⁵tsũ⁵⁵	ũ⁵⁵ka²¹ka³⁵tsu³⁵~pã³⁵zi³⁵tsũ⁵⁵	noon	noon		9.1.4		0		
+288535	1616	Tujia (Northern)	nã²¹tshi⁵⁵tshai⁵⁵	nã²¹tshi⁵⁵tshai⁵⁵	night	night		9.1.4		0		
+288536	1616	Tujia (Northern)	mu³⁵na³⁵~mu³⁵na³⁵mo²¹	mu³⁵na³⁵~mu³⁵na³⁵mo²¹	now	now		9.1.5		0		
+288537	1616	Tujia (Northern)	ti⁵⁵ka²¹	ti⁵⁵ka²¹	in the past	in the past		10.1.1		0		
+288538	1616	Tujia (Northern)	ai³⁵thiã⁵⁵le²¹	ai³⁵thiã⁵⁵le²¹	from now on	from now on		10.1.1		0		
+288539	1616	Tujia (Northern)	zuã³⁵	zuã³⁵	water buffalo	water buffalo		3.2.3		0		
+288540	1616	Tujia (Northern)	wu³⁵	wu³⁵	common cattle	common cattle		7.1.7.2		0		
+288541	1616	Tujia (Northern)	ma⁵⁵	ma⁵⁵	horse	horse		2.1.7		0		1431,bChinese
+288542	1616	Tujia (Northern)	tsi⁵⁵	tsi⁵⁵	pig	pig		2.1.12		0		
+288543	1616	Tujia (Northern)	zo³⁵	zo³⁵	goat / sheep	goat / sheep		2.1.8		0		6028
+288544	1616	Tujia (Northern)	xa⁵⁵le²¹|	xa⁵⁵le²¹|	dog	dog		2.1.11		0		999R
+288545	1616	Tujia (Northern)	mo²¹	mo²¹	cat	cat		2.1.3		0		bChinese
+288546	1616	Tujia (Northern)	mau²¹thau⁵⁵|li⁵⁵~mau²¹tho⁵⁵li⁵⁵	mau²¹thau⁵⁵li⁵⁵~mau²¹tho⁵⁵li⁵⁵	rabbit	rabbit		2.1.1		0		m,5356
+288547	1616	Tujia (Northern)	phu³⁵	phu³⁵	dragon	dragon		2.1.5		0		3629
+288548	1616	Tujia (Northern)	ɕiã³⁵	ɕiã³⁵	elephant	elephant		2.2.1		0		bChinese
+288549	1616	Tujia (Northern)	li³⁵~li³⁵pa⁵⁵	li³⁵~li³⁵pa⁵⁵	tiger	tiger		2.1.3		0		
+288550	1616	Tujia (Northern)	khu²¹tɕhe²¹~khu²¹tɕhi²¹	khu²¹tɕhe²¹~khu²¹tɕhi²¹	bear	bear		2.2.3		0		
+288551	1616	Tujia (Northern)	kha⁵⁵pa⁵⁵li³⁵pi³⁵	kha⁵⁵pa⁵⁵li³⁵pi³⁵	leopard	leopard		2.1.3		0		
+288552	1616	Tujia (Northern)	khã²¹khu⁵⁵ne⁵⁵tsi⁵⁵	khã²¹khu⁵⁵ne⁵⁵tsi⁵⁵	boar	boar		2.1.12		0		
+288553	1616	Tujia (Northern)	ɣɨe⁵⁵	ɣɨe⁵⁵	monkey	monkey		2.1.9		0		2782
+288554	1616	Tujia (Northern)	tshai²¹kɨu⁵⁵tsi⁵⁵	tshai²¹kɨu⁵⁵tsi⁵⁵	wolf	wolf		2.1.11		0		999R
+288555	1616	Tujia (Northern)	sui⁵⁵tha²¹	sui⁵⁵tha²¹	otter	otter		2.2.7.1		0		bChinese
+288556	1616	Tujia (Northern)	ze²¹	ze²¹	rat / mouse	rat / mouse		2.1.1		0		2796
+288557	1616	Tujia (Northern)	za²¹	za²¹	chicken	chicken		2.1.10		0		2187
+288558	1616	Tujia (Northern)	za²¹pa²¹	za²¹pa²¹	rooster	rooster		2.1.10		0		2187,1634
+288559	1616	Tujia (Northern)	za²¹ni²¹ka²¹	za²¹ni²¹ka²¹	hen	hen		2.1.10		0		
+288560	1616	Tujia (Northern)	sa⁵⁵	sa⁵⁵	duck	duck		2.1.10		0		
+288561	1616	Tujia (Northern)	ŋo²¹	ŋo²¹	goose	goose		2.1.10		0		2527
+288562	1616	Tujia (Northern)	phu³⁵ko⁵⁵li³⁵	phu³⁵ko⁵⁵li³⁵	pigeon	pigeon		2.2.4.1		0		
+288563	1616	Tujia (Northern)	pau³⁵tɕhi⁵⁵	pau³⁵tɕhi⁵⁵	pheasant	pheasant		2.2.4.1		0	D0	
+288564	1616	Tujia (Northern)	ne³⁵pi³⁵	ne³⁵pi³⁵	bird	bird		2.2.4		0		3442,m
+288565	1616	Tujia (Northern)	pã³⁵	pã³⁵	eagle	eagle		2.2.4.1		0		
+288566	1616	Tujia (Northern)	ka²¹	ka²¹	crow	crow		2.2.4.1		0		2279
+288567	1616	Tujia (Northern)	tsha³⁵tsha⁵⁵	tsha³⁵tsha⁵⁵	magpie	magpie		2.2.4.1		0		
+288568	1616	Tujia (Northern)	mɨe³⁵tsha⁵⁵khu⁵⁵li⁵⁵	mɨe³⁵tsha⁵⁵khu⁵⁵li⁵⁵	swallow	swallow		1.3.5.6		0		
+288569	1616	Tujia (Northern)	tɕhia⁵⁵phai⁵⁵	tɕhia⁵⁵phai⁵⁵	sparrow	sparrow		2.2.4.1		0		
+288570	1616	Tujia (Northern)	ze²¹tha²¹si²¹	ze²¹tha²¹si²¹	bat	bat		2.2.4.1		0		
+288571	1616	Tujia (Northern)	kha⁵⁵tɕhe²¹pa²¹~khɨe²¹tɕhe⁵⁵ma²¹	kha⁵⁵tɕhe²¹pa²¹~khɨe²¹tɕhe⁵⁵ma²¹	frog	frog		2.1.6.2		0		
+288572	1616	Tujia (Northern)	sũ³⁵	sũ³⁵	fish	fish		2.2.5		0		
+288573	1616	Tujia (Northern)	lũ⁵⁵ku⁵⁵	lũ⁵⁵ku⁵⁵	turtle	turtle		2.1.6		0		
+288574	1616	Tujia (Northern)	phã²¹ka²¹	phã²¹ka²¹	crab	crab		2.2.5		0		b?
+288575	1616	Tujia (Northern)	sa⁵⁵thu⁵⁵	sa⁵⁵thu⁵⁵	shrimp	shrimp		2.2.5		0		
+288576	1616	Tujia (Northern)	kuã²¹lã⁵⁵	kuã²¹lã⁵⁵	frog (lives in rice paddy)	frog (lives in rice paddy)		2.1.6		0		
+288577	1616	Tujia (Northern)	wo⁵⁵	wo⁵⁵	snake	snake		2.1.6.1		0		2623
+288578	1616	Tujia (Northern)	mi⁵⁵si²¹kho³⁵kho³⁵	mi⁵⁵si²¹kho³⁵kho³⁵	firefly	firefly		2.2.6		0		
+288579	1616	Tujia (Northern)	mi⁵⁵ma⁵⁵~tshe³⁵tshe⁵⁵ma⁵⁵	mi⁵⁵ma⁵⁵~tshe³⁵tshe⁵⁵ma⁵⁵	honeybee	honeybee		2.2.6		0		
+288580	1616	Tujia (Northern)	tha⁵⁵si⁵⁵	tha⁵⁵si⁵⁵	butterfly	butterfly		2.2.6		0		
+288581	1616	Tujia (Northern)	zuã⁵⁵ku⁵⁵li⁵⁵ma²¹ma⁵⁵~zuã³⁵pu³⁵li³⁵	zuã⁵⁵ku⁵⁵li⁵⁵ma²¹ma⁵⁵~zuã³⁵pu³⁵li³⁵	dragonfly	dragonfly		2.2.6		0		
+288582	1616	Tujia (Northern)	thi⁵⁵thi⁵⁵ku⁵⁵li⁵⁵~thi³⁵thi³⁵khu³⁵li³⁵	thi⁵⁵thi⁵⁵ku⁵⁵li⁵⁵~thi³⁵thi³⁵khu³⁵li³⁵	cricket	cricket		2.2.6		0		
+288583	1616	Tujia (Northern)	li³⁵ka⁵⁵tshi²¹wo⁵⁵ka⁵⁵tshi²¹	li³⁵ka⁵⁵tshi²¹wo⁵⁵ka⁵⁵tshi²¹	mantis	mantis		1.9.6.1		0		
+288584	1616	Tujia (Northern)	sai⁵⁵~sai⁵⁵ma²¹ma³⁵	sai⁵⁵~sai⁵⁵ma²¹ma³⁵	silkworm	silkworm		2.2.6		0		
+288585	1616	Tujia (Northern)	tɕhĩ²¹tɕhĩ²¹ŋo³⁵si²¹	tɕhĩ²¹tɕhĩ²¹ŋo³⁵si²¹	cicada	cicada		2.2.6		0		
+288586	1616	Tujia (Northern)	tsha²¹tsha⁵⁵khu⁵⁵li⁵⁵	tsha²¹tsha⁵⁵khu⁵⁵li⁵⁵	grasshopper	grasshopper		2.2.6		0	D0	
+288587	1616	Tujia (Northern)	si⁵⁵ni²¹ka²¹	si⁵⁵ni²¹ka²¹	ant	ant		2.2.6		0		
+288588	1616	Tujia (Northern)	ɕe⁵⁵tɕi²¹la³⁵	ɕe⁵⁵tɕi²¹la³⁵	centipede	centipede		2.2.6		0		
+288589	1616	Tujia (Northern)	pu⁵⁵tshi⁵⁵	pu⁵⁵tshi⁵⁵	spider	spider		2.2.6		0	D0	
+288590	1616	Tujia (Northern)	tɕhĩ⁵⁵kho⁵⁵lo⁵⁵kã⁵⁵tshi²¹	tɕhĩ⁵⁵kho⁵⁵lo⁵⁵kã⁵⁵tshi²¹	spider (big)	spider (big)		2.2.6		0		
+288591	1616	Tujia (Northern)	khɨe³⁵li⁵⁵li²¹~khɨ³⁵li⁵⁵li²¹	khɨe³⁵li⁵⁵li²¹~khɨ³⁵li⁵⁵li²¹	bedbug	bedbug		2.2.6		0		
+288592	1616	Tujia (Northern)	li⁵⁵li²¹	li⁵⁵li²¹	flea	flea		2.2.6		0		
+288593	1616	Tujia (Northern)	si⁵⁵si⁵⁵	si⁵⁵si⁵⁵	louse	louse		2.2.6		0		
+288594	1616	Tujia (Northern)	thu³⁵lũ⁵⁵phɨe²¹	thu³⁵lũ⁵⁵phɨe²¹	nit	nit		2.2.6		0		
+288595	1616	Tujia (Northern)	phi³⁵ka⁵⁵	phi³⁵ka⁵⁵	fly	fly	n	2.2.6		0		
+288596	1616	Tujia (Northern)	ma⁵⁵khu²¹li²¹	ma⁵⁵khu²¹li²¹	mosquito	mosquito		2.2.6		0	D0	
+288597	1616	Tujia (Northern)	za²¹phi⁵⁵kai⁵⁵	za²¹phi⁵⁵kai⁵⁵	midge	midge		2.2.6		0		
+288598	1616	Tujia (Northern)	khuai³⁵tɕhi⁵⁵la⁵⁵~kho³⁵tɕhi⁵⁵la²¹	khuai³⁵tɕhi⁵⁵la⁵⁵~kho³⁵tɕhi⁵⁵la²¹	earthworm	earthworm		2.2.6		0		
+288599	1616	Tujia (Northern)	phe⁵⁵la⁵⁵	phe⁵⁵la⁵⁵	leech	leech		2.2.6		0		
+288600	1616	Tujia (Northern)	tu⁵⁵pi²¹	tu⁵⁵pi²¹	maggot	maggot		2.2.6		0		
+288601	1616	Tujia (Northern)	the⁵⁵phɨe²¹	the⁵⁵phɨe²¹	insect / worm	insect / worm		2.2.6		0		
+288602	1616	Tujia (Northern)	kha²¹mũ²¹	kha²¹mũ²¹	tree	tree		3.1.2		0		
+288603	1616	Tujia (Northern)	mau⁵⁵tshũ²¹kha²¹mũ²¹	mau⁵⁵tshũ²¹kha²¹mũ²¹	pine	pine		3.1.1		0		
+288604	1616	Tujia (Northern)	so³⁵kha²¹mũ²¹	so³⁵kha²¹mũ²¹	oak	oak		3.1.1		0		
+288605	1616	Tujia (Northern)	jiã²¹liu⁵⁵kha²¹mũ²¹	jiã²¹liu⁵⁵kha²¹mũ²¹	willow	willow		3.1.1		0		
+288606	1616	Tujia (Northern)	mu⁵⁵~mu⁵⁵ne²¹	mu⁵⁵~mu⁵⁵ne²¹	bamboo	bamboo		3.1.1		0		
+288607	1616	Tujia (Northern)	mi³⁵mi³⁵	mi³⁵mi³⁵	bamboo shoot	bamboo shoot		3.1.1		0		
+288608	1616	Tujia (Northern)	li³⁵pu³⁵	li³⁵pu³⁵	rice (plant)	rice (plant)		3.1.4		0		
+288609	1616	Tujia (Northern)	nu⁵⁵mu⁵⁵	nu⁵⁵mu⁵⁵	wheat	wheat		3.1.4		0		
+288610	1616	Tujia (Northern)	ũ⁵⁵pa⁵⁵	ũ⁵⁵pa⁵⁵	sorghum	sorghum		3.1.4		0		
+288611	1616	Tujia (Northern)	pau⁵⁵ku⁵⁵	pau⁵⁵ku⁵⁵	maize	maize		3.1.5		0		bChinese
+288612	1616	Tujia (Northern)	sau²¹	sau²¹	sweet potato	sweet potato		7.1.4.4		0		
+288613	1616	Tujia (Northern)	jiã²¹ji³⁵	jiã²¹ji³⁵	potato	potato		3.1.5		0		bChinese
+288614	1616	Tujia (Northern)	ni⁵⁵pu⁵⁵	ni⁵⁵pu⁵⁵	taro	taro		3.1.5.1		0		
+288615	1616	Tujia (Northern)	kã⁵⁵tsa⁵⁵kẽ⁵⁵	kã⁵⁵tsa⁵⁵kẽ⁵⁵	sugarcane	sugarcane		3.1.5		0		bChinese,bChinese,m
+288616	1616	Tujia (Northern)	lo²¹xua²¹sẽ⁵⁵	lo²¹xua²¹sẽ⁵⁵	peanut	peanut		3.1.4		0		
+288617	1616	Tujia (Northern)	ɕe⁵⁵pu²¹	ɕe⁵⁵pu²¹	sesame	sesame		3.1.6.1		0		
+288618	1616	Tujia (Northern)	ɣɨ²¹~wu⁵⁵so⁵⁵	ɣɨ²¹~wu⁵⁵so⁵⁵	millet	millet		1.5.3.2		0		
+288619	1616	Tujia (Northern)	nau²¹tshi⁵⁵tshi⁵⁵	nau²¹tshi⁵⁵tshi⁵⁵	sunflower	sunflower		3.1.4		0		
+288620	1616	Tujia (Northern)	me²¹xa²¹	me²¹xa²¹	cotton	cotton		5.1		0		bChinese
+288621	1616	Tujia (Northern)	tshi⁵⁵pa⁵⁵~tshe²¹khu³⁵	tshi⁵⁵pa⁵⁵~tshe²¹khu³⁵	ramie	ramie		3.1.8		0		
+288622	1616	Tujia (Northern)	tɕhi³⁵pu³⁵	tɕhi³⁵pu³⁵	beans	beans		3.1.4		0		
+288623	1616	Tujia (Northern)	la³⁵thu⁵⁵	la³⁵thu⁵⁵	melon	melon		3.1.5		0		
+288624	1616	Tujia (Northern)	la³⁵thu⁵⁵	la³⁵thu⁵⁵	pumpkin	pumpkin		3.1.5		0	D0	
+288625	1616	Tujia (Northern)	wuã²¹ka²¹si²¹	wuã²¹ka²¹si²¹	cucumber	cucumber		3.1.5		0		bChinese,bChinese,m
+288626	1616	Tujia (Northern)	kha⁵⁵tɕhe⁵⁵tɕhi⁵⁵	kha⁵⁵tɕhe⁵⁵tɕhi⁵⁵	eggplant	eggplant		3.1.5		0		
+288627	1616	Tujia (Northern)	xa⁵⁵tshe⁵⁵	xa⁵⁵tshe⁵⁵	vegetable	vegetable		3.1.2		0		m,5375
+288628	1616	Tujia (Northern)	pɨe³⁵tshai³⁵xa⁵⁵tshe⁵⁵	pɨe³⁵tshai³⁵xa⁵⁵tshe⁵⁵	Chinese cabbage	Chinese cabbage		4.6		0		bChinese,bChinese,m,m
+288629	1616	Tujia (Northern)	la⁵⁵pai⁵⁵~la⁵⁵pɨe⁵⁵	la⁵⁵pai⁵⁵~la⁵⁵pɨe⁵⁵	turnip	turnip		3.1.5		0		
+288630	1616	Tujia (Northern)	za⁵⁵khɨe²¹tshi²¹	za⁵⁵khɨe²¹tshi²¹	green onion	green onion		9.4		0		
+288631	1616	Tujia (Northern)	si²¹tho³⁵	si²¹tho³⁵	garlic	garlic		3.1.5		0		
+288632	1616	Tujia (Northern)	kho⁵⁵su⁵⁵	kho⁵⁵su⁵⁵	ginger	ginger		3.1.5		0		
+288633	1616	Tujia (Northern)	pha⁵⁵zo⁵⁵ku⁵⁵	pha⁵⁵zo⁵⁵ku⁵⁵	hot pepper	hot pepper				0		
+288634	1616	Tujia (Northern)	pu³⁵li⁵⁵	pu³⁵li⁵⁵	fruit	fruit		3.1.5		0		
+288635	1616	Tujia (Northern)	ɕi²¹ɕi²¹pu³⁵li⁵⁵~thau²¹tsi²¹	ɕi²¹ɕi²¹pu³⁵li⁵⁵~thau²¹tsi²¹	peach	peach		3.1.5		0		m,m,m,m,bChinese,bChinese
+288636	1616	Tujia (Northern)	sa⁵⁵le⁵⁵si⁵⁵~sa⁵⁵si⁵⁵	sa⁵⁵le⁵⁵si⁵⁵~sa⁵⁵si⁵⁵	plum	plum				0		
+288637	1616	Tujia (Northern)	pɨe⁵⁵le⁵⁵si⁵⁵~pɨe⁵⁵si⁵⁵	pɨe⁵⁵le⁵⁵si⁵⁵~pɨe⁵⁵si⁵⁵	pear	pear		3.1.5		0		
+288638	1616	Tujia (Northern)	tɕhe³⁵si⁵⁵	tɕhe³⁵si⁵⁵	tangerine	tangerine		3.1.5		0		
+288639	1616	Tujia (Northern)	si³⁵tsi⁵⁵pu³⁵li⁵⁵	si³⁵tsi⁵⁵pu³⁵li⁵⁵	persimmon	persimmon		3.1.5		0		bChinese,bChinese,m,m
+288640	1616	Tujia (Northern)	tshe²¹phã⁵⁵si⁵⁵~pã³⁵le⁵⁵si⁵⁵	tshe²¹phã⁵⁵si⁵⁵~pã³⁵le⁵⁵si⁵⁵	grape	grape		3.1.5		0		
+288641	1616	Tujia (Northern)	jiã⁵⁵	jiã⁵⁵	tobacco	tobacco		3.1.6.2		0		bChinese
+288642	1616	Tujia (Northern)	si²¹~si²¹kha²¹tsha²¹	si²¹~si²¹kha²¹tsha²¹	grass	grass		3.1.8		0		5642,5642,m,m
+288643	1616	Tujia (Northern)	tho⁵⁵si⁵⁵	tho⁵⁵si⁵⁵	mushroom	mushroom		3.1.7		0		
+288644	1616	Tujia (Northern)	ne⁵⁵nã⁵⁵~ne⁵⁵na⁵⁵	ne⁵⁵nã⁵⁵~ne⁵⁵na⁵⁵	seed	seed		3.1.4		0		
+288645	1616	Tujia (Northern)	tɕi⁵⁵la²¹	tɕi⁵⁵la²¹	root	root		3.1.2		0		
+288646	1616	Tujia (Northern)	thu²¹la³⁵	thu²¹la³⁵	stem / stalk	stem / stalk		3.1.2		0		
+288647	1616	Tujia (Northern)	ɣɨe⁵⁵tha⁵⁵	ɣɨe⁵⁵tha⁵⁵	leaf	leaf		3.1.3		0		2085,m
+288648	1616	Tujia (Northern)	kha²¹mũ²¹a³⁵tɕe³⁵~a³⁵tɕe³⁵kha²¹tɕe³⁵~kha²¹a³⁵tɕe⁵	kha²¹mũ²¹a³⁵tɕe³⁵~a³⁵tɕe³⁵kha²¹tɕe³⁵~kha²¹a³⁵tɕe⁵	branch	branch		1.5.3.1		0		
+288649	1616	Tujia (Northern)	thi³⁵mi³⁵	thi³⁵mi³⁵	bud	bud		3.1.4		0		
+288650	1616	Tujia (Northern)	kha³⁵lau³⁵	kha³⁵lau³⁵	pit / stone	pit / stone		3.1.2		0		
+288651	1616	Tujia (Northern)	kha⁵⁵phu⁵⁵	kha⁵⁵phu⁵⁵	flower	flower		3.1.4		0	D0	m,1811
+288652	1616	Tujia (Northern)	a⁵⁵phɨe²¹	a⁵⁵phɨe²¹	ear of grain	ear of grain		1.2.7		0		
+288653	1616	Tujia (Northern)	tha⁵⁵se²¹	tha⁵⁵se²¹	thorn	thorn		3.1.2		0		
+288654	1616	Tujia (Northern)	tɕĩ⁵⁵	tɕĩ⁵⁵	sinew	sinew		1.6.6.1		0		
+288655	1616	Tujia (Northern)	no⁵⁵	no⁵⁵	person	person		4.5		0		
+288656	1616	Tujia (Northern)	no⁵⁵pa⁵⁵~no⁵⁵pa⁵⁵te⁵⁵	no⁵⁵pa⁵⁵~no⁵⁵pa⁵⁵te⁵⁵	man / male	man / male		1.9.6.1		0		
+288657	1616	Tujia (Northern)	ma²¹ma²¹te⁵⁵	ma²¹ma²¹te⁵⁵	woman / female	woman / female		1.9.3		0		
+288658	1616	Tujia (Northern)	pho²¹pha⁵⁵~pho²¹pha⁵⁵tshi⁵⁵	pho²¹pha⁵⁵~pho²¹pha⁵⁵tshi⁵⁵	old person	old person		7.1.8.3		0		
+288659	1616	Tujia (Northern)	pi³⁵so³⁵te⁵⁵	pi³⁵so³⁵te⁵⁵	young man	young man		7.1.8.3		0		
+288660	1616	Tujia (Northern)	piu³⁵so³⁵te⁵⁵	piu³⁵so³⁵te⁵⁵	young woman	young woman		7.1.8.3		0		
+288661	1616	Tujia (Northern)	po⁵⁵li²¹	po⁵⁵li²¹	child	child		1.5.3.2		0		
+288662	1616	Tujia (Northern)	a³⁵ko³⁵	a³⁵ko³⁵	friend	friend		4.4.2		0		
+288663	1616	Tujia (Northern)	no⁵⁵te³⁵kha³⁵la⁵⁵	no⁵⁵te³⁵kha³⁵la⁵⁵	enemy	enemy		4.2.6		0		
+288664	1616	Tujia (Northern)	tsu⁵⁵zẽ²¹ka²¹	tsu⁵⁵zẽ²¹ka²¹	host	host		4.4.2		0	D0	
+288665	1616	Tujia (Northern)	pu⁵⁵tsho²¹	pu⁵⁵tsho²¹	guest	guest		4.4.3		0		
+288666	1616	Tujia (Northern)	kha²¹tso²¹~mu³⁵tɕiã³⁵	kha²¹tso²¹~mu³⁵tɕiã³⁵	carpenter	carpenter		4.2.1.4		0		m,m,bChinese
+288667	1616	Tujia (Northern)	tsu⁵⁵ɕi²¹	tsu⁵⁵ɕi²¹	chairman	chairman				0	D0	
+288668	1616	Tujia (Northern)	tsũ⁵⁵li⁵⁵	tsũ⁵⁵li⁵⁵	prime minister	prime minister				0		
+288669	1616	Tujia (Northern)	pu³⁵tsã⁵⁵	pu³⁵tsã⁵⁵	minister	minister				0		
+288670	1616	Tujia (Northern)	ɕiã³⁵tsã⁵⁵	ɕiã³⁵tsã⁵⁵	county magistrate	county magistrate				0		
+288671	1616	Tujia (Northern)	su⁵⁵tɕi³⁵	su⁵⁵tɕi³⁵	clerk	clerk				0		
+288672	1616	Tujia (Northern)	tã⁵⁵jiã²¹	tã⁵⁵jiã²¹	party member	party member		4.4		0		
+288673	1616	Tujia (Northern)	thuã²¹jiã²¹	thuã²¹jiã²¹	member (of group)	member (of group)		1.5.3.2		0		
+288674	1616	Tujia (Northern)	thũ²¹tsi³⁵	thũ²¹tsi³⁵	comrade	comrade		4.4.2		0		bChinese
+288675	1616	Tujia (Northern)	kã³⁵pu³⁵	kã³⁵pu³⁵	cadre	cadre		4.4		0		
+288676	1616	Tujia (Northern)	tɕhĩ²¹tsũ³⁵	tɕhĩ²¹tsũ³⁵	masses	masses				0		
+288677	1616	Tujia (Northern)	ka³⁵mɨe³⁵	ka³⁵mɨe³⁵	official	official	n	5.8		0		bChinese
+288678	1616	Tujia (Northern)	pĩ⁵⁵	pĩ⁵⁵	soldier	soldier		4.2.6		0		bChinese
+288679	1616	Tujia (Northern)	kũ⁵⁵zĩ²¹~xu²¹zi⁵⁵ma⁵⁵	kũ⁵⁵zĩ²¹~xu²¹zi⁵⁵ma⁵⁵	worker	worker		6.1.1		0		bChinese,bChinese,m,m,m
+288680	1616	Tujia (Northern)	je²¹zi⁵⁵ma⁵⁵	je²¹zi⁵⁵ma⁵⁵	farmer	farmer		9.10.5		0		
+288681	1616	Tujia (Northern)	thi⁵⁵ma⁵⁵	thi⁵⁵ma⁵⁵	headman	headman		4.2.5.2		0		
+288682	1616	Tujia (Northern)	se²¹tso²¹	se²¹tso²¹	doctor	doctor		4.2.1.5		0		
+288683	1616	Tujia (Northern)	pho³⁵ka³⁵	pho³⁵ka³⁵	teacher	teacher		6.19		0		
+288684	1616	Tujia (Northern)	tshi⁵⁵thu⁵⁵ma⁵⁵	tshi⁵⁵thu⁵⁵ma⁵⁵	student	student		4.2.2		0		
+288685	1616	Tujia (Northern)	tai³⁵piau⁵⁵	tai³⁵piau⁵⁵	representative	representative		4.2.5.2		0		
+288686	1616	Tujia (Northern)	mo²¹xuã³⁵	mo²¹xuã³⁵	model (examplary person)	model (examplary person)		5.11		0		
+288687	1616	Tujia (Northern)	xĩ⁵⁵ma⁵⁵~jĩ⁵⁵ɕiã²¹	xĩ⁵⁵ma⁵⁵~jĩ⁵⁵ɕiã²¹	hero	hero		4.2.3		0		m,m,bChinese,bChinese
+288688	1616	Tujia (Northern)	mĩ²¹tshu²¹	mĩ²¹tshu²¹	nationality	nationality		5.8		0		bChinese
+288689	1616	Tujia (Northern)	pha⁵⁵kha²¹	pha⁵⁵kha²¹	Chinese (nationality)	Chinese (nationality)		4.6		0		
+288690	1616	Tujia (Northern)	pi³⁵tsi⁵⁵kha²¹	pi³⁵tsi⁵⁵kha²¹	Tujia (nationality)	Tujia (nationality)		5.8		0		
+288691	1616	Tujia (Northern)	pɨe³⁵kha²¹	pɨe³⁵kha²¹	Miao (nationality)	Miao (nationality)		5.8		0		
+288692	1616	Tujia (Northern)	thai³⁵kũ⁵⁵~ne²¹thi³⁵khɨe⁵⁵thi³⁵	thai³⁵kũ⁵⁵~ne²¹thi³⁵khɨe⁵⁵thi³⁵	great grandfather	great grandfather		4.7.1		0		
+288693	1616	Tujia (Northern)	thai³⁵thai³⁵~ze⁵⁵kha⁵⁵ze⁵⁵ni²¹	thai³⁵thai³⁵~ze⁵⁵kha⁵⁵ze⁵⁵ni²¹	great grandmother	great grandmother		4.7.1		0		
+288694	1616	Tujia (Northern)	pha²¹phu⁵⁵~mu⁵⁵si⁵⁵a²¹pa⁵⁵	pha²¹phu⁵⁵~mu⁵⁵si⁵⁵a²¹pa⁵⁵	grandfather	grandfather		4.7.1		0		
+288695	1616	Tujia (Northern)	a⁵⁵ma⁵⁵~mu⁵⁵si⁵⁵a²¹ne⁵⁵	a⁵⁵ma⁵⁵~mu⁵⁵si⁵⁵a²¹ne⁵⁵	grandmother	grandmother		4.7.1		0		
+288696	1616	Tujia (Northern)	a²¹pa⁵⁵	a²¹pa⁵⁵	father	father		4.7.1		0		
+288697	1616	Tujia (Northern)	a²¹ne⁵⁵	a²¹ne⁵⁵	mother	mother		4.7.1		0		
+288698	1616	Tujia (Northern)	pɨe³⁵pɨe³⁵~pa⁵⁵je⁵⁵a²¹pa⁵⁵	pɨe³⁵pɨe³⁵~pa⁵⁵je⁵⁵a²¹pa⁵⁵	elder paternal uncle	elder paternal uncle		4.7.1		0		
+288699	1616	Tujia (Northern)	ne²¹tshi⁵⁵~pa⁵⁵je⁵⁵a²¹ne⁵⁵	ne²¹tshi⁵⁵~pa⁵⁵je⁵⁵a²¹ne⁵⁵	elder paternal uncle's wife	elder paternal uncle's wife		4.7.1		0		
+288700	1616	Tujia (Northern)	ã⁵⁵pei⁵⁵~ne⁵⁵je⁵⁵a²¹pa⁵⁵	ã⁵⁵pei⁵⁵~ne⁵⁵je⁵⁵a²¹pa⁵⁵	younger paternal uncle	younger paternal uncle		4.7.1		0		
+288701	1616	Tujia (Northern)	ne²¹ne⁵⁵~ne⁵⁵je⁵⁵a²¹ne⁵⁵	ne²¹ne⁵⁵~ne⁵⁵je⁵⁵a²¹ne⁵⁵	younger paternal uncle's wife	younger paternal uncle's wife		4.7.1		0		
+288702	1616	Tujia (Northern)	kha²¹khɨ²¹~ni⁵⁵kho⁵⁵a²¹pa⁵⁵	kha²¹khɨ²¹~ni⁵⁵kho⁵⁵a²¹pa⁵⁵	paternal aunt's husband	paternal aunt's husband		4.7.1		0		
+288703	1616	Tujia (Northern)	ma²¹ma³⁵~ni⁵⁵kho⁵⁵a²¹ne⁵⁵	ma²¹ma³⁵~ni⁵⁵kho⁵⁵a²¹ne⁵⁵	paternal aunt	paternal aunt		4.7.1		0		
+288704	1616	Tujia (Northern)	tɕiu³⁵tɕiu³⁵~ni⁵⁵kho⁵⁵a²¹pa⁵⁵	tɕiu³⁵tɕiu³⁵~ni⁵⁵kho⁵⁵a²¹pa⁵⁵	maternal uncle	maternal uncle		4.7.1		0		
+288705	1616	Tujia (Northern)	ma²¹ma³⁵~ni⁵⁵kho⁵⁵a²¹ne⁵⁵	ma²¹ma³⁵~ni⁵⁵kho⁵⁵a²¹ne⁵⁵	maternal uncle's wife	maternal uncle's wife		1.5.3.2		0		
+288706	1616	Tujia (Northern)	ã⁵⁵pei⁵⁵~ni⁵⁵kho⁵⁵a²¹pa⁵⁵	ã⁵⁵pei⁵⁵~ni⁵⁵kho⁵⁵a²¹pa⁵⁵	maternal aunt's husband	maternal aunt's husband		1.5.3.2		0		
+288707	1616	Tujia (Northern)	ne⁵⁵tshi⁵⁵~pa⁵⁵je⁵⁵a²¹ne⁵⁵	ne⁵⁵tshi⁵⁵~pa⁵⁵je⁵⁵a²¹ne⁵⁵	maternal aunt	maternal aunt		4.7.1		0		
+288708	1616	Tujia (Northern)	kha²¹khɨ²¹~ni⁵⁵kho⁵⁵a²¹pa⁵⁵	kha²¹khɨ²¹~ni⁵⁵kho⁵⁵a²¹pa⁵⁵	father-in-law	father-in-law		4.7.4		0		
+288709	1616	Tujia (Northern)	ma²¹ma³⁵~ni⁵⁵kho⁵⁵a²¹ne⁵⁵	ma²¹ma³⁵~ni⁵⁵kho⁵⁵a²¹ne⁵⁵	mother-in-law	mother-in-law		4.7.4		0		
+288710	1616	Tujia (Northern)	ka⁵⁵kũ⁵⁵~mu⁵⁵si⁵⁵a²¹pa⁵⁵	ka⁵⁵kũ⁵⁵~mu⁵⁵si⁵⁵a²¹pa⁵⁵	maternal grandfather	maternal grandfather		4.7.1		0		
+288711	1616	Tujia (Northern)	pa²¹pu⁵⁵~kha²¹pu²¹~mu⁵⁵si⁵⁵a²¹ne⁵⁵	pa²¹pu⁵⁵~kha²¹pu²¹~mu⁵⁵si⁵⁵a²¹ne⁵⁵	maternal grandmother	maternal grandmother		4.7.1		0		
+288712	1616	Tujia (Northern)	a²¹kho⁵⁵~a⁵⁵ze⁵⁵na⁵⁵ti⁵⁵	a²¹kho⁵⁵~a⁵⁵ze⁵⁵na⁵⁵ti⁵⁵	elder brother	elder brother		4.7.1		0		
+288713	1616	Tujia (Northern)	tsha²¹tshi²¹~tso⁵⁵pa⁵⁵tsi⁵⁵ni⁵⁵	tsha²¹tshi²¹~tso⁵⁵pa⁵⁵tsi⁵⁵ni⁵⁵	elder brother's wife	elder brother's wife		1.5.3.2		0		
+288714	1616	Tujia (Northern)	a³⁵ta⁵⁵~tha⁵⁵te⁵⁵ni³⁵	a³⁵ta⁵⁵~tha⁵⁵te⁵⁵ni³⁵	elder sister	elder sister		4.7.1		0		
+288715	1616	Tujia (Northern)	ko³⁵kuei³⁵~a⁵⁵ze⁵⁵na⁵⁵ti⁵⁵	ko³⁵kuei³⁵~a⁵⁵ze⁵⁵na⁵⁵ti⁵⁵	elder sister's husband	elder sister's husband		4.7.1		0		
+288716	1616	Tujia (Northern)	ã⁵⁵ŋai²¹~a⁵⁵ze⁵⁵na⁵⁵ti⁵⁵	ã⁵⁵ŋai²¹~a⁵⁵ze⁵⁵na⁵⁵ti⁵⁵	younger brother	younger brother				0		
+288717	1616	Tujia (Northern)	zũ⁵⁵~tha⁵⁵te⁵⁵ni³⁵	zũ⁵⁵~tha⁵⁵te⁵⁵ni³⁵	younger sister	younger sister				0		
+288718	1616	Tujia (Northern)	no⁵⁵pa⁵⁵	no⁵⁵pa⁵⁵	husband	husband		4.7.4		0		
+288719	1616	Tujia (Northern)	no²¹ka²¹ni³⁵	no²¹ka²¹ni³⁵	wife	wife		4.7.4		0		
+288720	1616	Tujia (Northern)	no⁵⁵pi²¹~ko⁵⁵le⁵⁵	no⁵⁵pi²¹~ko⁵⁵le⁵⁵	son	son		4.7.3		0		
+288721	1616	Tujia (Northern)	phu³⁵~ko⁵⁵le⁵⁵	phu³⁵~ko⁵⁵le⁵⁵	daughter-in-law	daughter-in-law		4.7.4		0		
+288722	1616	Tujia (Northern)	piu³⁵~a⁵⁵ze⁵⁵ni³⁵	piu³⁵~a⁵⁵ze⁵⁵ni³⁵	daughter	daughter		4.7.3		0		
+288723	1616	Tujia (Northern)	ma³⁵~a⁵⁵ze⁵⁵ni³⁵	ma³⁵~a⁵⁵ze⁵⁵ni³⁵	son-in-law	son-in-law		4.7.4		0		
+288724	1616	Tujia (Northern)	tsi³⁵e²¹tsi²¹~ko⁵⁵nai⁵⁵	tsi³⁵e²¹tsi²¹~ko⁵⁵nai⁵⁵	nephew	nephew		4.7.3		0		
+288725	1616	Tujia (Northern)	tsi³⁵ni⁵⁵tsi⁵⁵~tha⁵⁵te⁵⁵ne³⁵	tsi³⁵ni⁵⁵tsi⁵⁵~tha⁵⁵te⁵⁵ne³⁵	niece	niece		4.7.3		0		
+288726	1616	Tujia (Northern)	ze⁵⁵~ze⁵⁵pi³⁵	ze⁵⁵~ze⁵⁵pi³⁵	grandson	grandson		4.7.3		0		
+288727	1616	Tujia (Northern)	ze⁵⁵piu³⁵	ze⁵⁵piu³⁵	granddaughter	granddaughter		4.7.3		0		
+288728	1616	Tujia (Northern)	tso³⁵ni²¹~tso⁵⁵ni²¹mu⁵⁵ni²¹	tso³⁵ni²¹~tso⁵⁵ni²¹mu⁵⁵ni²¹	relative	relative		4.7.5		0		
+288729	1616	Tujia (Northern)	tsho⁵⁵	tsho⁵⁵	house	house		5.11.9.1		0		
+288730	1616	Tujia (Northern)	tshu⁵⁵	tshu⁵⁵	home	home		5.11.9.6		0		
+288731	1616	Tujia (Northern)	a²¹phi³⁵~xũ⁵⁵pa⁵⁵	a²¹phi³⁵~xũ⁵⁵pa⁵⁵	wall	wall		5.11.9.3		0		
+288732	1616	Tujia (Northern)	kha²¹thũ³⁵	kha²¹thũ³⁵	pole	pole		9.7.1		0		
+288733	1616	Tujia (Northern)	liã²¹	liã²¹	beam	beam		5.11.9		0		
+288734	1616	Tujia (Northern)	la⁵⁵mi²¹~la⁵⁵mĩ²¹	la⁵⁵mi²¹~la⁵⁵mĩ²¹	door	door		5.11.9.3		0		
+288735	1616	Tujia (Northern)	liã³⁵kã⁵⁵~liã³⁵tshuã⁵⁵	liã³⁵kã⁵⁵~liã³⁵tshuã⁵⁵	window	window		5.11.9.3		0		bChinese
+288736	1616	Tujia (Northern)	a²¹pa²¹pu²¹tshi³⁵~si³⁵xuei⁵⁵	a²¹pa²¹pu²¹tshi³⁵~si³⁵xuei⁵⁵	lime	lime		3.1.5		0		
+288737	1616	Tujia (Northern)	tsuã⁵⁵	tsuã⁵⁵	brick	brick		5.11.9.3		0		bChinese
+288738	1616	Tujia (Northern)	wua⁵⁵	wua⁵⁵	tile	tile		5.8		0		bChinese
+288739	1616	Tujia (Northern)	kha²¹pa²¹	kha²¹pa²¹	board / plank	board / plank		5.11.9		0		
+288740	1616	Tujia (Northern)	tẽ⁵⁵tsi⁵⁵	tẽ⁵⁵tsi⁵⁵	nail	nail		1.5.10		0		bChinese
+288741	1616	Tujia (Northern)	tshẽ²¹	tshẽ²¹	city	city		9.10.3		0		bChinese
+288742	1616	Tujia (Northern)	pha⁵⁵jiu⁵⁵	pha⁵⁵jiu⁵⁵	street	street		9.10.1		0		
+288743	1616	Tujia (Northern)	no⁵⁵jiu⁵⁵	no⁵⁵jiu⁵⁵	village	village		5.8		0		
+288744	1616	Tujia (Northern)	je²¹tsho²¹	je²¹tsho²¹	temple	temple		1.2.5.1		0		
+288745	1616	Tujia (Northern)	tso⁵⁵si⁵⁵khɨe⁵⁵	tso⁵⁵si⁵⁵khɨe⁵⁵	grave	grave		9.10.6		0		
+288746	1616	Tujia (Northern)	je²¹tshu⁵⁵tshi²¹	je²¹tshu⁵⁵tshi²¹	granary	granary		5.11.9.5		0		
+288747	1616	Tujia (Northern)	wo⁵⁵la⁵⁵	wo⁵⁵la⁵⁵	vegetable garden	vegetable garden		3.1.2		0		
+288748	1616	Tujia (Northern)	sa³⁵kho⁵⁵	sa³⁵kho⁵⁵	fence	fence		5.11.9.5		0		
+288749	1616	Tujia (Northern)	wu³⁵tsho⁵⁵~kha²¹tsha²¹	wu³⁵tsho⁵⁵~kha²¹tsha²¹	enclosure (pen)	enclosure (pen)		9.10.5		0		
+288750	1616	Tujia (Northern)	thũ⁵⁵	thũ⁵⁵	nest	nest		2.2.4		0		3445
+288751	1616	Tujia (Northern)	tɕe³⁵tsu⁵⁵	tɕe³⁵tsu⁵⁵	scarf for the head / turban	scarf for the head / turban		5.11.8.2.1.1		0		
+288752	1616	Tujia (Northern)	ne²¹thi³⁵~tũ⁵⁵phũ²¹	ne²¹thi³⁵~tũ⁵⁵phũ²¹	bamboo hat	bamboo hat		3.1.1		0		
+288753	1616	Tujia (Northern)	ũ⁵⁵ko²¹	ũ⁵⁵ko²¹	earring	earring		5.11.8.3		0		
+288754	1616	Tujia (Northern)	tɕiã³⁵ka⁵⁵	tɕiã³⁵ka⁵⁵	bracelet	bracelet		5.11.8.3		0		
+288755	1616	Tujia (Northern)	siu⁵⁵piau⁵⁵	siu⁵⁵piau⁵⁵	wristwatch	wristwatch		5.11.8.3		0		bChinese
+288756	1616	Tujia (Northern)	tɕiã³⁵ka⁵⁵pu³⁵li³⁵	tɕiã³⁵ka⁵⁵pu³⁵li³⁵	ring	ring		5.11.8.3		0		
+288757	1616	Tujia (Northern)	si⁵⁵pa⁵⁵	si⁵⁵pa⁵⁵	clothes	clothes		5.11.8.2.1		0		
+288758	1616	Tujia (Northern)	tɕe³⁵tɕe³⁵	tɕe³⁵tɕe³⁵	sleeve	sleeve		5.11.8.2.3		0		
+288759	1616	Tujia (Northern)	tse²¹si²¹	tse²¹si²¹	raincoat	raincoat		5.11.8.2.2		0		
+288760	1616	Tujia (Northern)	khu²¹	khu²¹	trousers / pants	trousers / pants		5.11.8.2.1.3		0		bChinese
+288761	1616	Tujia (Northern)	tɕhĩ²¹tsi²¹	tɕhĩ²¹tsi²¹	skirt	skirt		5.11.8.2.1		0		
+288762	1616	Tujia (Northern)	tɕhi³³la³⁵	tɕhi³³la³⁵	legging	legging		5.11.8.1		0		
+288763	1616	Tujia (Northern)	tsho²¹ɕe³⁵	tsho²¹ɕe³⁵	shoe	shoe		5.11.8.1		0		
+288764	1616	Tujia (Northern)	wua³⁵tsi⁵⁵	wua³⁵tsi⁵⁵	socks	socks		5.11.8.2.1.3		0		bChinese
+288765	1616	Tujia (Northern)	tsã³⁵tsi⁵⁵	tsã³⁵tsi⁵⁵	mosquito net	mosquito net		2.2.6		0		bChinese
+288766	1616	Tujia (Northern)	si⁵⁵na⁵⁵~si⁵⁵nã⁵⁵	si⁵⁵na⁵⁵~si⁵⁵nã⁵⁵	quilt	quilt		5.1		0		
+288767	1616	Tujia (Northern)	pu⁵⁵se⁵⁵	pu⁵⁵se⁵⁵	mat	mat		5.11.9.4		0		
+288768	1616	Tujia (Northern)	kho⁵⁵tsho⁵⁵tshu⁵⁵tshi²¹	kho⁵⁵tsho⁵⁵tshu⁵⁵tshi²¹	pillow	pillow		1.2.1		0		
+288769	1616	Tujia (Northern)	xo³⁵	xo³⁵	cloth	cloth		5.1		0		
+288770	1616	Tujia (Northern)	tsi²¹ɣɨe²¹	tsi²¹ɣɨe²¹	rice (uncooked)	rice (uncooked)		3.1.4		0		
+288771	1616	Tujia (Northern)	tɕia³⁵mɨe³⁵tshi³⁵phi³⁵	tɕia³⁵mɨe³⁵tshi³⁵phi³⁵	flour	flour		3.1.6.2		0		
+288772	1616	Tujia (Northern)	tsi²¹~je²¹	tsi²¹~je²¹	rice (cooked)	rice (cooked)		3.1.4		0		
+288773	1616	Tujia (Northern)	kha⁵⁵pe⁵⁵le⁵⁵	kha⁵⁵pe⁵⁵le⁵⁵	gruel	gruel		5.5		0		
+288774	1616	Tujia (Northern)	la³⁵pu³⁵	la³⁵pu³⁵	salt	salt		3.2.4		0		
+288775	1616	Tujia (Northern)	xa⁵⁵tshe⁵⁵	xa⁵⁵tshe⁵⁵	dish	dish		5.5		0		
+288776	1616	Tujia (Northern)	xa⁵⁵tshe⁵⁵tshe²¹	xa⁵⁵tshe⁵⁵tshe²¹	soup	soup		5.5		0		
+288777	1616	Tujia (Northern)	ze³⁵	ze³⁵	liquor	liquor		3.1.6.3		0		
+288778	1616	Tujia (Northern)	zo³⁵khɨe⁵⁵pa⁵⁵pa⁵⁵	zo³⁵khɨe⁵⁵pa⁵⁵pa⁵⁵	dumpling (glutinous rice)	dumpling (glutinous rice)		5.5		0		
+288779	1616	Tujia (Northern)	a³⁵tshe⁵⁵~zo⁵⁵pu⁵⁵	a³⁵tshe⁵⁵~zo⁵⁵pu⁵⁵	tea	tea		3.1.1		0		
+288780	1616	Tujia (Northern)	phɨe⁵⁵tha⁵⁵	phɨe⁵⁵tha⁵⁵	bran	bran		3.1.4		0		
+288781	1616	Tujia (Northern)	tshi³⁵phi³⁵~phɨe⁵⁵tha⁵⁵tshi³⁵phi³⁵	tshi³⁵phi³⁵~phɨe⁵⁵tha⁵⁵tshi³⁵phi³⁵	bran (fine)	bran (fine)		3.1.4		0		
+288782	1616	Tujia (Northern)	kho⁵⁵tsho⁵⁵~phɨe⁵⁵tha⁵⁵kho⁵⁵tsho⁵⁵	kho⁵⁵tsho⁵⁵~phɨe⁵⁵tha⁵⁵kho⁵⁵tsho⁵⁵	husk	husk		3.1.2		0		
+288783	1616	Tujia (Northern)	je²¹	je²¹	feed	feed	n	1.3.5.8		0		
+288784	1616	Tujia (Northern)	thã²¹	thã²¹	sugar	sugar		3.1.6.2		0		bChinese
+288785	1616	Tujia (Northern)	sa⁵⁵mi⁵⁵	sa⁵⁵mi⁵⁵	doughnut	doughnut				0		
+288786	1616	Tujia (Northern)	te⁵⁵xɨ⁵⁵	te⁵⁵xɨ⁵⁵	bean curd	bean curd		3.1.4		0		
+288787	1616	Tujia (Northern)	au⁵⁵khɨ⁵⁵	au⁵⁵khɨ⁵⁵	ax	ax		5.11.5.3		0		
+288788	1616	Tujia (Northern)	tho²¹tho²¹	tho²¹tho²¹	cleaver	cleaver				0		
+288789	1616	Tujia (Northern)	su³⁵khu⁵⁵	su³⁵khu⁵⁵	knife (for wood)	knife (for wood)		5.5		0		
+288790	1616	Tujia (Northern)	tɕe³⁵tsi⁵⁵	tɕe³⁵tsi⁵⁵	sickle	sickle		5.3		0		
+288791	1616	Tujia (Northern)	phu⁵⁵khɨ⁵⁵	phu⁵⁵khɨ⁵⁵	hoe	hoe		5.3		0		
+288792	1616	Tujia (Northern)	kha⁵⁵the⁵⁵	kha⁵⁵the⁵⁵	plough	plough	n	5.3		0		
+288793	1616	Tujia (Northern)	pha³⁵	pha³⁵	rake	rake		5.1		0		
+288794	1616	Tujia (Northern)	lã³⁵khu⁵⁵	lã³⁵khu⁵⁵	yoke	yoke		5.14		0		
+288795	1616	Tujia (Northern)	tɕi⁵⁵tɕhi⁵⁵	tɕi⁵⁵tɕhi⁵⁵	machine	machine		5.1		0		
+288796	1616	Tujia (Northern)	tho⁵⁵la⁵⁵tɕi⁵⁵kha⁵⁵the⁵⁵	tho⁵⁵la⁵⁵tɕi⁵⁵kha⁵⁵the⁵⁵	tractor	tractor				0		
+288797	1616	Tujia (Northern)	tha⁵⁵tɕhi⁵⁵tsha⁵⁵	tha⁵⁵tɕhi⁵⁵tsha⁵⁵	loom	loom		5.1		0	D0	
+288798	1616	Tujia (Northern)	tsha⁵⁵	tsha⁵⁵	spinning wheel	spinning wheel		6.7.6		0		
+288799	1616	Tujia (Northern)	so⁵⁵lo³⁵	so⁵⁵lo³⁵	shuttle	shuttle		5.1		0		
+288800	1616	Tujia (Northern)	tshe²¹tsi³⁵la³⁵	tshe²¹tsi³⁵la³⁵	yarn	yarn		5.1		0		
+288801	1616	Tujia (Northern)	tshuei²¹tsi²¹	tshuei²¹tsi²¹	spade	spade		5.3		0		bChinese
+288802	1616	Tujia (Northern)	khɨ³⁵	khɨ³⁵	saw	saw		5.11.5.3		0		
+288803	1616	Tujia (Northern)	ã⁵⁵ŋa⁵⁵~a⁵⁵ŋai⁵⁵	ã⁵⁵ŋa⁵⁵~a⁵⁵ŋai⁵⁵	needle	needle		5.1		0		
+288804	1616	Tujia (Northern)	thu⁵⁵mu²¹~thũ⁵⁵mũ²¹	thu⁵⁵mu²¹~thũ⁵⁵mũ²¹	thread	thread		5.11.6		0		
+288805	1616	Tujia (Northern)	ɣɨe³⁵la³⁵	ɣɨe³⁵la³⁵	rope	rope		5.11.4		0		
+288806	1616	Tujia (Northern)	tshũ³⁵	tshũ³⁵	gun	gun		5.15		0		bChinese
+288807	1616	Tujia (Northern)	tshũ³⁵~tshũ³⁵tshi⁵⁵pa⁵⁵	tshũ³⁵~tshũ³⁵tshi⁵⁵pa⁵⁵	cannon	cannon		5.15		0		
+288808	1616	Tujia (Northern)	tsi⁵⁵tsi⁵⁵pu³⁵li³⁵	tsi⁵⁵tsi⁵⁵pu³⁵li³⁵	bullet	bullet		5.15		0		
+288809	1616	Tujia (Northern)	kũ⁵⁵	kũ⁵⁵	bow (weapon)	bow (weapon)		5.15		0		
+288810	1616	Tujia (Northern)	tɕiã³⁵	tɕiã³⁵	arrow	arrow		5.15		0		
+288811	1616	Tujia (Northern)	kã⁵⁵tsi⁵⁵	kã⁵⁵tsi⁵⁵	spear	spear		5.14		0		
+288812	1616	Tujia (Northern)	kã⁵⁵phɨe⁵⁵~kha²¹tsu²¹	kã⁵⁵phɨe⁵⁵~kha²¹tsu²¹	stick	stick		3.1.2		0		
+288813	1616	Tujia (Northern)	ma⁵⁵piã⁵⁵tsi⁵⁵	ma⁵⁵piã⁵⁵tsi⁵⁵	whip	whip		5.14		0		bChinese
+288814	1616	Tujia (Northern)	ma⁵⁵ŋã⁵⁵tsi⁵⁵	ma⁵⁵ŋã⁵⁵tsi⁵⁵	saddle	saddle		5.14		0		bChinese
+288815	1616	Tujia (Northern)	tha³⁵khɨ⁵⁵	tha³⁵khɨ⁵⁵	dustpan / winnowing sieve	dustpan / winnowing sieve		5.1		0		
+288816	1616	Tujia (Northern)	ɕe²¹tshi²¹	ɕe²¹tshi²¹	sieve	sieve	n	5.5		0		
+288817	1616	Tujia (Northern)	po⁵⁵tso⁵⁵	po⁵⁵tso⁵⁵	mill	mill		3.1.10		0		
+288818	1616	Tujia (Northern)	sũ³⁵ka³⁵	sũ³⁵ka³⁵	pestle	pestle		5.5		0		
+288819	1616	Tujia (Northern)	lo²¹khuã²¹	lo²¹khuã²¹	large bamboo basket	large bamboo basket		9.7.1		0		bChinese
+288820	1616	Tujia (Northern)	su⁵⁵phi⁵⁵	su⁵⁵phi⁵⁵	lock	lock		1.2.3		0		
+288821	1616	Tujia (Northern)	jiã⁵⁵si⁵⁵	jiã⁵⁵si⁵⁵	key	key		5.1		0		
+288822	1616	Tujia (Northern)	se⁵⁵khɨ⁵⁵pha⁵⁵	se⁵⁵khɨ⁵⁵pha⁵⁵	broom	broom		5.4		0		
+288823	1616	Tujia (Northern)	tha³⁵khu⁵⁵	tha³⁵khu⁵⁵	pot / wok (small)	pot / wok (small)		5.5		0		
+288824	1616	Tujia (Northern)	thi³⁵ɣɨe³⁵	thi³⁵ɣɨe³⁵	pot / wok (large)	pot / wok (large)		5.5		0		
+288825	1616	Tujia (Northern)	ɕe⁵⁵thai⁵⁵	ɕe⁵⁵thai⁵⁵	frying pan	frying pan		5.5		0		
+288826	1616	Tujia (Northern)	pha²¹su³⁵	pha²¹su³⁵	cauldron / boiler	cauldron / boiler		5.5		0		
+288827	1616	Tujia (Northern)	ɕe⁵⁵phũ⁵⁵	ɕe⁵⁵phũ⁵⁵	pot (tripod)	pot (tripod)		5.5		0		B?
+288828	1616	Tujia (Northern)	pũ⁵⁵	pũ⁵⁵	rice steamer	rice steamer		3.1.4		0		
+288829	1616	Tujia (Northern)	tso²¹khũ²¹	tso²¹khũ²¹	stove / kitchen	stove / kitchen		5.5		0		
+288830	1616	Tujia (Northern)	tu²¹tsa³⁵	tu²¹tsa³⁵	lid	lid		5.1		0		
+288831	1616	Tujia (Northern)	thiau⁵⁵thũ⁵⁵	thiau⁵⁵thũ⁵⁵	bucket (carried on pole)	bucket (carried on pole)		5.1		0		
+288832	1616	Tujia (Northern)	tshũ³⁵thi⁵⁵	tshũ³⁵thi⁵⁵	bucket (carried on back)	bucket (carried on back)		5.1		0		
+288833	1616	Tujia (Northern)	khɨ⁵⁵thi⁵⁵	khɨ⁵⁵thi⁵⁵	wash basin	wash basin		6.2.2.5.2		0		
+288834	1616	Tujia (Northern)	ɕe⁵⁵tsha⁵⁵	ɕe⁵⁵tsha⁵⁵	tripod	tripod		5.11.9.6		0		
+288835	1616	Tujia (Northern)	tɕĩ⁵⁵phã⁵⁵	tɕĩ⁵⁵phã⁵⁵	chopping block	chopping block		6.9.3		0		
+288836	1616	Tujia (Northern)	ɕe⁵⁵tɕhi²¹tha⁵⁵	ɕe⁵⁵tɕhi²¹tha⁵⁵	colander	colander		5.5		0		
+288837	1616	Tujia (Northern)	tɕhe²¹pi³⁵	tɕhe²¹pi³⁵	bowl	bowl		5.1		0		
+288838	1616	Tujia (Northern)	pu⁵⁵tsi⁵⁵	pu⁵⁵tsi⁵⁵	chopsticks	chopsticks		5.5		0	D0	
+288839	1616	Tujia (Northern)	pa³⁵~phã²¹tsi²¹	pa³⁵~phã²¹tsi²¹	plate	plate		5.5		0		
+288840	1616	Tujia (Northern)	thi⁵⁵khu⁵⁵	thi⁵⁵khu⁵⁵	bottle	bottle		5.1		0		
+288841	1616	Tujia (Northern)	si²¹the³⁵	si²¹the³⁵	table	table		5.11.9.4		0		
+288842	1616	Tujia (Northern)	khuai²¹	khuai²¹	chair	chair		5.11.9.4		0		
+288843	1616	Tujia (Northern)	tsho⁵⁵khɨe⁵⁵	tsho⁵⁵khɨe⁵⁵	stool	stool		5.11.9.4		0		
+288844	1616	Tujia (Northern)	jiã⁵⁵tɕi²¹	jiã⁵⁵tɕi²¹	bench	bench		5.11.9.4		0		
+288845	1616	Tujia (Northern)	ne⁵⁵phũ⁵⁵	ne⁵⁵phũ⁵⁵	bed	bed		1.5.3.2		0		
+288846	1616	Tujia (Northern)	jiã⁵⁵tɕi²¹lo³⁵	jiã⁵⁵tɕi²¹lo³⁵	ladder	ladder		5.4		0		
+288847	1616	Tujia (Northern)	tho⁵⁵	tho⁵⁵	trunk / box	trunk / box		1.4.1		0		325
+288848	1616	Tujia (Northern)	tsau³⁵tɕĩ⁵⁵	tsau³⁵tɕĩ⁵⁵	mirror	mirror		5.11.8.3		0		
+288849	1616	Tujia (Northern)	kha²¹ɕe²¹	kha²¹ɕe²¹	comb	comb	n	1.2.2.1		0		
+288850	1616	Tujia (Northern)	tɕiã⁵⁵tɕiã⁵⁵	tɕiã⁵⁵tɕiã⁵⁵	scissors	scissors		5.11.5.3		0		bChinese
+288851	1616	Tujia (Northern)	xuei²¹tsau²¹	xuei²¹tsau²¹	soap	soap		5.11.8.4		0		bChinese
+288852	1616	Tujia (Northern)	tiã³⁵xua³⁵	tiã³⁵xua³⁵	telephone	telephone				0		
+288853	1616	Tujia (Northern)	the⁵⁵the²¹	the⁵⁵the²¹	lamp	lamp		5.11.5.5		0		
+288854	1616	Tujia (Northern)	tiã³⁵tẽ⁵⁵the⁵⁵the²¹	tiã³⁵tẽ⁵⁵the⁵⁵the²¹	electric lamp	electric lamp		5.11.5.5		0		
+288855	1616	Tujia (Northern)	la³⁵tsu³⁵	la³⁵tsu³⁵	candle	candle		5.11.5.5		0		bChinese
+288856	1616	Tujia (Northern)	jiã²¹xo²¹	jiã²¹xo²¹	match	match	n	5.11.5.5		0		bChinese
+288857	1616	Tujia (Northern)	tɕhi³⁵	tɕhi³⁵	lacquer	lacquer		5.8		0		
+288858	1616	Tujia (Northern)	kha²¹	kha²¹	firewood	firewood		5.11.5.5		0		
+288859	1616	Tujia (Northern)	kha²¹thũ³⁵	kha²¹thũ³⁵	wood	wood		3.1.2		0		
+288860	1616	Tujia (Northern)	pu²¹tshi³⁵	pu²¹tshi³⁵	ashes	ashes		3.2.12.2		0		3514,m
+288861	1616	Tujia (Northern)	la⁵⁵	la⁵⁵	road / way	road / way		9.10.1		0		
+288862	1616	Tujia (Northern)	ɕe⁵⁵la⁵⁵	ɕe⁵⁵la⁵⁵	railroad	railroad		5.1		0		bChinese
+288863	1616	Tujia (Northern)	kũ⁵⁵lu³⁵la⁵⁵	kũ⁵⁵lu³⁵la⁵⁵	highway	highway		9.10.1		0		
+288864	1616	Tujia (Northern)	tɕhiau²¹	tɕhiau²¹	bridge	bridge		9.10.2		0		bChinese
+288865	1616	Tujia (Northern)	tshe⁵⁵tsi⁵⁵	tshe⁵⁵tsi⁵⁵	vehicle	vehicle		5.1		0		bChinese
+288866	1616	Tujia (Northern)	xo⁵⁵tshe⁵⁵	xo⁵⁵tshe⁵⁵	train	train		5.1		0		
+288867	1616	Tujia (Northern)	tɕhi³⁵tshe⁵⁵	tɕhi³⁵tshe⁵⁵	car	car		5.1		0		bChinese
+288868	1616	Tujia (Northern)	pu⁵⁵	pu⁵⁵	boat	boat		5.1		0		
+288869	1616	Tujia (Northern)	xuei⁵⁵tɕi⁵⁵	xuei⁵⁵tɕi⁵⁵	airplane	airplane		5.1		0		bChinese
+288870	1616	Tujia (Northern)	je²¹lu²¹tsu³⁵	je²¹lu²¹tsu³⁵	shop	shop		9.10.6		0		
+288871	1616	Tujia (Northern)	thũ²¹tɕhiã²¹	thũ²¹tɕhiã²¹	money	money		5.9		0		bChinese
+288872	1616	Tujia (Northern)	tɕia³⁵tɕhiã²¹	tɕia³⁵tɕhiã²¹	price	price		5.9		0		b?,bChinese
+288873	1616	Tujia (Northern)	nĩ²¹xã²¹	nĩ²¹xã²¹	bank (for money)	bank (for money)		9.10.2		0		bChinese
+288874	1616	Tujia (Northern)	si⁵⁵kha⁵⁵	si⁵⁵kha⁵⁵	interest	interest		8.3.2.6.1		0		
+288875	1616	Tujia (Northern)	xu²¹tsi²¹	xu²¹tsi²¹	wages	wages		5.9		0		
+288876	1616	Tujia (Northern)	tshi⁵⁵khɨ⁵⁵tha⁵⁵	tshi⁵⁵khɨ⁵⁵tha⁵⁵	paper	paper		5.1		0		
+288877	1616	Tujia (Northern)	kã⁵⁵pi³⁵	kã⁵⁵pi³⁵	pen	pen		5.1		0		bChinese
+288878	1616	Tujia (Northern)	jiã²¹pi³⁵	jiã²¹pi³⁵	pencil	pencil		5.1		0		bChinese
+288879	1616	Tujia (Northern)	mɨe³⁵	mɨe³⁵	ink cake	ink cake		5.1		0		bChinese
+288880	1616	Tujia (Northern)	mɨe³⁵tshe²¹	mɨe³⁵tshe²¹	ink	ink		5.1		0		bChinese,m
+288881	1616	Tujia (Northern)	tshi⁵⁵tshi⁵⁵	tshi⁵⁵tshi⁵⁵	word / character	word / character		8.5.10.2		0		
+288882	1616	Tujia (Northern)	tshi⁵⁵phu⁵⁵	tshi⁵⁵phu⁵⁵	book	book		5.1		0		
+288883	1616	Tujia (Northern)	ɕĩ⁵⁵	ɕĩ⁵⁵	letter	letter		5.1		0		bChinese
+288884	1616	Tujia (Northern)	ko⁵⁵	ko⁵⁵	song	song		5.1		0		bChinese
+288885	1616	Tujia (Northern)	sã⁵⁵ko⁵⁵	sã⁵⁵ko⁵⁵	folk song	folk song		5.1		0		m,bChinese
+288886	1616	Tujia (Northern)	lũ²¹mẽ²¹tsi²¹	lũ²¹mẽ²¹tsi²¹	story	story		5.8		0		
+288887	1616	Tujia (Northern)	je²¹te²¹ɣɨ⁵⁵	je²¹te²¹ɣɨ⁵⁵	arm-waving dance (big)	arm-waving dance (big)		1.5.1.2		0		
+288888	1616	Tujia (Northern)	se⁵⁵pa⁵⁵zi⁵⁵	se⁵⁵pa⁵⁵zi⁵⁵	arm-waving dance (small)	arm-waving dance (small)		1.5.1.2		0		
+288889	1616	Tujia (Northern)	je²¹te²¹ɣɨ⁵⁵tsu³⁵tshã²¹tshi²¹	je²¹te²¹ɣɨ⁵⁵tsu³⁵tshã²¹tshi²¹	arm-waving song	arm-waving song		1.5.1.2		0		
+288890	1616	Tujia (Northern)	je²¹te²¹ɣɨ⁵⁵tsu³⁵	je²¹te²¹ɣɨ⁵⁵tsu³⁵	arm-waving dance hall	arm-waving dance hall		1.5.1.2		0		
+288891	1616	Tujia (Northern)	je²¹tsho²¹	je²¹tsho²¹	temple (of village god)	temple (of village god)		1.2.5.1		0		
+288892	1616	Tujia (Northern)	zo⁵⁵tshi⁵⁵tha²¹	zo⁵⁵tshi⁵⁵tha²¹	hall (of village god)	hall (of village god)		5.8		0		
+288893	1616	Tujia (Northern)	zo⁵⁵tshi⁵⁵phu²¹sa²¹	zo⁵⁵tshi⁵⁵phu²¹sa²¹	village god	village god		5.8		0		m,m,b,b
+288894	1616	Tujia (Northern)	tse³⁵kha⁵⁵ni²¹	tse³⁵kha⁵⁵ni²¹	village god (male)	village god (male)		5.8		0		
+288895	1616	Tujia (Northern)	sa²¹kha²¹ni²¹	sa²¹kha²¹ni²¹	village god (female)	village god (female)		5.8		0		
+288896	1616	Tujia (Northern)	tha⁵⁵te⁵⁵ne²¹tsi³⁵ne⁵⁵ɕi⁵⁵	tha⁵⁵te⁵⁵ne²¹tsi³⁵ne⁵⁵ɕi⁵⁵	marriage song	marriage song		5.8		0		
+288897	1616	Tujia (Northern)	tiã³⁵jĩ⁵⁵	tiã³⁵jĩ⁵⁵	movie	movie		5.8		0		bChinese
+288898	1616	Tujia (Northern)	tɕhiu²¹	tɕhiu²¹	ball	ball		9.7.1		0		bChinese
+288899	1616	Tujia (Northern)	tɕhi²¹tsi²¹	tɕhi²¹tsi²¹	flag	flag		5.1		0		
+288900	1616	Tujia (Northern)	ɕiã⁵⁵tɕhi²¹	ɕiã⁵⁵tɕhi²¹	flute	flute		5.1		0		
+288901	1616	Tujia (Northern)	lo³⁵	lo³⁵	gong	gong		5.1		0		
+288902	1616	Tujia (Northern)	xɨe²¹	xɨe²¹	drum	drum		5.1		0		
+288903	1616	Tujia (Northern)	tsũ⁵⁵	tsũ⁵⁵	bell	bell		5.1		0		
+288904	1616	Tujia (Northern)	se²¹	se²¹	medicine	medicine		5.4		0		
+288905	1616	Tujia (Northern)	sa²¹	sa²¹	language	language		5.8		0		
+288906	1616	Tujia (Northern)	sa²¹	sa²¹	thing / matter / event	thing / matter / event		8.1		0		
+288907	1616	Tujia (Northern)	kha²¹~tɕia⁵⁵kha²¹	kha²¹~tɕia⁵⁵kha²¹	surname	surname		5.8		0		
+288908	1616	Tujia (Northern)	mĩ²¹tsi³⁵	mĩ²¹tsi³⁵	name	name		5.8		0		bChinese
+288909	1616	Tujia (Northern)	je²¹	je²¹	thing	thing		8.1		0		
+288910	1616	Tujia (Northern)	kuai²¹tɕia⁵⁵	kuai²¹tɕia⁵⁵	country / nation	country / nation		9.10.3		0		bChinese
+288911	1616	Tujia (Northern)	ka³⁵mɨe³⁵kha²¹	ka³⁵mɨe³⁵kha²¹	government	government		5.8		0		
+288912	1616	Tujia (Northern)	kũ³⁵tshã⁵⁵tã⁵⁵	kũ³⁵tshã⁵⁵tã⁵⁵	communist party	communist party		4.4		0		bChinese
+288913	1616	Tujia (Northern)	kũ³⁵tɕhĩ⁵⁵thuã²¹	kũ³⁵tɕhĩ⁵⁵thuã²¹	communist youth league	communist youth league		4.2.11		0		bChinese
+288914	1616	Tujia (Northern)	zĩ²¹mĩ²¹	zĩ²¹mĩ²¹	people	people		4.5		0		
+288915	1616	Tujia (Northern)	kũ⁵⁵zĩ²¹kai⁵⁵tɕi³⁵	kũ⁵⁵zĩ²¹kai⁵⁵tɕi³⁵	proletariat	proletariat				0		
+288916	1616	Tujia (Northern)	kũ³⁵tshã⁵⁵tsu⁵⁵ni³⁵	kũ³⁵tshã⁵⁵tsu⁵⁵ni³⁵	communism	communism				0		
+288917	1616	Tujia (Northern)	se³⁵xuei³⁵tsu⁵⁵ni³⁵	se³⁵xuei³⁵tsu⁵⁵ni³⁵	socialism	socialism				0		
+288918	1616	Tujia (Northern)	tsẽ³⁵tsi³⁵	tsẽ³⁵tsi³⁵	politics	politics				0		
+288919	1616	Tujia (Northern)	tɕĩ⁵⁵tɕi⁵⁵	tɕĩ⁵⁵tɕi⁵⁵	economy	economy				0		
+288920	1616	Tujia (Northern)	tshi⁵⁵tshi⁵⁵~wẽ²¹xua³⁵	tshi⁵⁵tshi⁵⁵~wẽ²¹xua³⁵	culture	culture				0		
+288921	1616	Tujia (Northern)	a³⁵ɣɨ³⁵~tɕiau³⁵jiu³⁵	a³⁵ɣɨ³⁵~tɕiau³⁵jiu³⁵	education	education				0		
+288922	1616	Tujia (Northern)	so³⁵li³⁵~wuei³⁵sẽ⁵⁵	so³⁵li³⁵~wuei³⁵sẽ⁵⁵	hygiene	hygiene				0		
+288923	1616	Tujia (Northern)	kɨe²¹mĩ³⁵	kɨe²¹mĩ³⁵	revolution	revolution				0		bChinese
+288924	1616	Tujia (Northern)	jĩ³⁵tũ³⁵	jĩ³⁵tũ³⁵	movement (political)	movement (political)				0		
+288925	1616	Tujia (Northern)	tsẽ³⁵tshe²¹	tsẽ³⁵tshe²¹	policy	policy				0		
+288926	1616	Tujia (Northern)	tsũ⁵⁵lu³⁵ɕiã³⁵	tsũ⁵⁵lu³⁵ɕiã³⁵	general line (political)	general line (political)		10.4.1.1		0		
+288927	1616	Tujia (Northern)	si⁵⁵ɕiã⁵⁵	si⁵⁵ɕiã⁵⁵	ideology	ideology				0		
+288928	1616	Tujia (Northern)	tɕiau²¹wu³⁵	tɕiau²¹wu³⁵	consciousness (class)	consciousness (class)		1.1.4		0		bChinese
+288929	1616	Tujia (Northern)	pau³⁵kau⁵⁵	pau³⁵kau⁵⁵	report	report		8.5.3		0		
+288930	1616	Tujia (Northern)	pã³⁵xua²¹	pã³⁵xua²¹	method	method		8.1		0		bChinese
+288931	1616	Tujia (Northern)	zẽ³⁵wu³⁵	zẽ³⁵wu³⁵	duty	duty		8.1		0		
+288932	1616	Tujia (Northern)	tshai³⁵~jiu⁵⁵tiã⁵⁵	tshai³⁵~jiu⁵⁵tiã⁵⁵	advantage	advantage		8.1		0		
+288933	1616	Tujia (Northern)	te³⁵kha³⁵la³⁵~tɕhe²¹tiã⁵⁵	te³⁵kha³⁵la³⁵~tɕhe²¹tiã⁵⁵	drawback	drawback				0		
+288934	1616	Tujia (Northern)	te²¹kha²¹la³⁵~tsho³⁵wu³⁵	te²¹kha²¹la³⁵~tsho³⁵wu³⁵	error	error		6.2		0		
+288935	1616	Tujia (Northern)	tsẽ⁵⁵xũ⁵⁵	tsẽ⁵⁵xũ⁵⁵	rectification	rectification				0		
+288936	1616	Tujia (Northern)	thai³⁵tu³⁵	thai³⁵tu³⁵	attitude	attitude		8.3		0	D0	
+288937	1616	Tujia (Northern)	tɕĩ⁵⁵niã³⁵	tɕĩ⁵⁵niã³⁵	experience	experience		8.3		0		
+288938	1616	Tujia (Northern)	tɕi³⁵xua³⁵	tɕi³⁵xua³⁵	plan	plan	n	8.3		0		
+288939	1616	Tujia (Northern)	ji³⁵tɕiã³⁵	ji³⁵tɕiã³⁵	opinion	opinion		8.3.1.12.1		0		
+288940	1616	Tujia (Northern)	tɕi³⁵su²¹	tɕi³⁵su²¹	technology	technology				0		
+288941	1616	Tujia (Northern)	kũ⁵⁵tshã⁵⁵	kũ⁵⁵tshã⁵⁵	factory	factory		9.10.6		0		
+288942	1616	Tujia (Northern)	kũ⁵⁵ne²¹	kũ⁵⁵ne²¹	industry	industry		5.11		0		
+288943	1616	Tujia (Northern)	lũ²¹ne²¹	lũ²¹ne²¹	agriculture	agriculture		3.1.9		0		bChinese
+288944	1616	Tujia (Northern)	ɕiau³⁵thã²¹	ɕiau³⁵thã²¹	school	school		5.8		0		
+288945	1616	Tujia (Northern)	mĩ²¹tsu⁵⁵	mĩ²¹tsu⁵⁵	democracy	democracy				0		
+288946	1616	Tujia (Northern)	tsi³⁵jiu²¹	tsi³⁵jiu²¹	freedom	freedom				0		
+288947	1616	Tujia (Northern)	pa⁵⁵	pa⁵⁵	look	look		1.2.6.11		0		
+288948	1616	Tujia (Northern)	xo²¹	xo²¹	take	take		6.21		0		
+288949	1616	Tujia (Northern)	xa²¹	xa²¹	strike with open palm	strike with open palm		6.8		0		
+288950	1616	Tujia (Northern)	tsa⁵⁵~khi⁵⁵tshi²¹	tsa⁵⁵~khi⁵⁵tshi²¹	grip / hold	grip / hold		6.16		0		
+288951	1616	Tujia (Northern)	the³⁵	the³⁵	pick / pluck	pick / pluck		6.10.4		0		
+288952	1616	Tujia (Northern)	zo²¹	zo²¹	twist together	twist together		6.7.6		0		
+288953	1616	Tujia (Northern)	tshi⁵⁵tsha⁵⁵	tshi⁵⁵tsha⁵⁵	tear	tear	v	1.8.8.1		0		
+288954	1616	Tujia (Northern)	tɕiu⁵⁵	tɕiu⁵⁵	wring	wring		6.7.6		0		86
+288955	1616	Tujia (Northern)	thu⁵⁵~thu⁵⁵thu⁵⁵	thu⁵⁵~thu⁵⁵thu⁵⁵	pick up	pick up		6.10.4		0		
+288956	1616	Tujia (Northern)	tsiu⁵⁵~tso³⁵	tsiu⁵⁵~tso³⁵	catch	catch		6.21		0		
+288957	1616	Tujia (Northern)	na³⁵	na³⁵	throw	throw		6.12		0		
+288958	1616	Tujia (Northern)	ji³⁵	ji³⁵	scatter / broadcast	scatter / broadcast		6.10.3		0		
+288959	1616	Tujia (Northern)	liau³⁵	liau³⁵	cast	cast	v	6.12		0		
+288960	1616	Tujia (Northern)	tsi³⁵tsi³⁵	tsi³⁵tsi³⁵	reach out (hand)	reach out (hand)		6.21		0		
+288961	1616	Tujia (Northern)	je⁵⁵	je⁵⁵	pull (forward)	pull (forward)		6.2.2.3.1		0		
+288962	1616	Tujia (Northern)	tshi²¹~tshi⁵⁵tshi²¹	tshi²¹~tshi⁵⁵tshi²¹	pull (backward)	pull (backward)		6.2.2.3.1		0		5620,5620,5620
+288963	1616	Tujia (Northern)	si²¹	si²¹	push	push		6.2.2.3.1		0		
+288964	1616	Tujia (Northern)	khɨ⁵⁵tshi²¹	khɨ⁵⁵tshi²¹	pinch / hold between fingers	pinch / hold between fingers		8.4		0		
+288965	1616	Tujia (Northern)	khu³⁵su³⁵	khu³⁵su³⁵	pinch / nip	pinch / nip		8.4		0		
+288966	1616	Tujia (Northern)	ko²¹	ko²¹	wedge / clip	wedge / clip		9.7.1		0		
+288967	1616	Tujia (Northern)	tɕhi⁵⁵tɕhi²¹	tɕhi⁵⁵tɕhi²¹	shake / wave	shake / wave	v	6.7.9		0		
+288968	1616	Tujia (Northern)	pɨe⁵⁵	pɨe⁵⁵	hold (baby) in arms	hold (baby) in arms		6.16		0		
+288969	1616	Tujia (Northern)	tɕhe³⁵	tɕhe³⁵	kick	kick		6.2.2.3.3		0		
+288970	1616	Tujia (Northern)	khɨ⁵⁵	khɨ⁵⁵	kneel	kneel		1.5.8.4.1		0		
+288971	1616	Tujia (Northern)	tsa³⁵~ɕi⁵⁵le⁵⁵	tsa³⁵~ɕi⁵⁵le⁵⁵	tread	tread	v	6.7.4		0		
+288972	1616	Tujia (Northern)	khɨ⁵⁵si⁵⁵	khɨ⁵⁵si⁵⁵	jump	jump		6.7.8		0		
+288973	1616	Tujia (Northern)	tsu⁵⁵tsu⁵⁵	tsu⁵⁵tsu⁵⁵	stand	stand		1.5.2		0		
+288974	1616	Tujia (Northern)	a³⁵tsa³⁵	a³⁵tsa³⁵	step / pass over	step / pass over		6.7.4		0		
+288975	1616	Tujia (Northern)	tɕi⁵⁵	tɕi⁵⁵	ride	ride		6.2		0		2237
+288976	1616	Tujia (Northern)	ɣɨ³⁵	ɣɨ³⁵	walk	walk		6.7.4		0		
+288977	1616	Tujia (Northern)	ɕi⁵⁵tsha²¹~xu⁵⁵tsha²¹	ɕi⁵⁵tsha²¹~xu⁵⁵tsha²¹	run	run		6.7.4		0		
+288978	1616	Tujia (Northern)	ũ²¹	ũ²¹	sit	sit		6.1.1.4.1		0		3419
+288979	1616	Tujia (Northern)	wo⁵⁵	wo⁵⁵	carry on back	carry on back		6.2.2.2.1		0		
+288980	1616	Tujia (Northern)	thũ⁵⁵	thũ⁵⁵	go through (a hole)	go through (a hole)		6.7.2		0		
+288981	1616	Tujia (Northern)	thi⁵⁵khɨe⁵⁵	thi⁵⁵khɨe⁵⁵	fall (down)	fall (down)		6.1.1.4.2		0		
+288982	1616	Tujia (Northern)	si⁵⁵phi⁵⁵~phi⁵⁵pha⁵⁵	si⁵⁵phi⁵⁵~phi⁵⁵pha⁵⁵	crawl (of men)	crawl (of men)		6.7.9		0		
+288983	1616	Tujia (Northern)	ɕe⁵⁵	ɕe⁵⁵	crawl (of insect)	crawl (of insect)		6.7.9		0		
+288984	1616	Tujia (Northern)	xũ³⁵	xũ³⁵	lean	lean	v	1.1.1		0		
+288985	1616	Tujia (Northern)	ũ²¹	ũ²¹	dwell / live	dwell / live		6.2		0		
+288986	1616	Tujia (Northern)	xɨ⁵⁵	xɨ⁵⁵	rest	rest		1.1.4.1		0		
+288987	1616	Tujia (Northern)	zi⁵⁵	zi⁵⁵	do	do		6.1.1.1		0		
+288988	1616	Tujia (Northern)	tɕe³⁵zi⁵⁵~kũ⁵⁵xu⁵⁵zi⁵⁵	tɕe³⁵zi⁵⁵~kũ⁵⁵xu⁵⁵zi⁵⁵	work / labor	work / labor		6.1.1		0		
+288989	1616	Tujia (Northern)	a³⁵thu³⁵	a³⁵thu³⁵	repair	repair		6.14		0		
+288990	1616	Tujia (Northern)	si³⁵si³⁵	si³⁵si³⁵	put in order / arrange	put in order / arrange		6.17		0		
+288991	1616	Tujia (Northern)	a⁵⁵sa⁵⁵	a⁵⁵sa⁵⁵	connect	connect		6.13.3		0		
+288992	1616	Tujia (Northern)	kã⁵⁵liã³⁵	kã⁵⁵liã³⁵	refine	refine		6.2.2.1		0		
+288993	1616	Tujia (Northern)	ɕe⁵⁵ti²¹	ɕe⁵⁵ti²¹	strike (iron)	strike (iron)		6.8		0		
+288994	1616	Tujia (Northern)	pɨe⁵⁵	pɨe⁵⁵	move sth. to a new place	move sth. to a new place		6.7.11		0		
+288995	1616	Tujia (Northern)	ti⁵⁵ti⁵⁵	ti⁵⁵ti⁵⁵	carry on a pole (by 2 people)	carry on a pole (by 2 people)		6.2.2.2.1		0		
+288996	1616	Tujia (Northern)	khɨe⁵⁵	khɨe⁵⁵	carry on a pole (palanquin)	carry on a pole (palanquin)		6.2.2.2.1		0		3393
+288997	1616	Tujia (Northern)	khɨe⁵⁵	khɨe⁵⁵	carry on shoulder with a pole	carry on shoulder with a pole		10.1.1		0		3393
+288998	1616	Tujia (Northern)	xa³⁵~phe³⁵	xa³⁵~phe³⁵	drain away (water)	drain away (water)		3.2.3		0		
+288999	1616	Tujia (Northern)	pɨe⁵⁵	pɨe⁵⁵	carry on shoulder	carry on shoulder		1.4.3.3		0		
+289000	1616	Tujia (Northern)	tɕhe²¹	tɕhe²¹	plough	plough	v	5.3		0		
+289001	1616	Tujia (Northern)	pha³⁵	pha³⁵	rake	rake	v	5.1		0		
+289002	1616	Tujia (Northern)	ka⁵⁵	ka⁵⁵	dig (earth)	dig (earth)		6.11		0		
+289003	1616	Tujia (Northern)	ti²¹	ti²¹	dig (a hole)	dig (a hole)		6.11		0		
+289004	1616	Tujia (Northern)	ɣa⁵⁵~zi⁵⁵	ɣa⁵⁵~zi⁵⁵	plant	plant	v	3.1.10		0		
+289005	1616	Tujia (Northern)	se⁵⁵	se⁵⁵	plant (vegetable)	plant (vegetable)	v	3.1.10		0		
+289006	1616	Tujia (Northern)	tɕiau⁵⁵	tɕiau⁵⁵	water	water	v	3.2.3		0		
+289007	1616	Tujia (Northern)	ŋa⁵⁵	ŋa⁵⁵	cut	cut		6.9.3		0		
+289008	1616	Tujia (Northern)	ka⁵⁵	ka⁵⁵	chop (in general)	chop (in general)		6.9.3		0		
+289009	1616	Tujia (Northern)	tha⁵⁵	tha⁵⁵	chop down / fell (tree)	chop down / fell (tree)		6.9.3		0		
+289010	1616	Tujia (Northern)	liau²¹	liau²¹	chop tree in half	chop tree in half		6.9.3		0		
+289011	1616	Tujia (Northern)	tho²¹	tho²¹	chop off (branch)	chop off (branch)		6.9.3		0		
+289012	1616	Tujia (Northern)	si³⁵si³⁵	si³⁵si³⁵	cut off (twig of branch)	cut off (twig of branch)		6.9.3		0		
+289013	1616	Tujia (Northern)	xa²¹	xa²¹	cut off (corn stalk)	cut off (corn stalk)		6.9.3		0		
+289014	1616	Tujia (Northern)	sa⁵⁵	sa⁵⁵	cut (firewood)	cut (firewood)		6.9.3		0		
+289015	1616	Tujia (Northern)	phe⁵⁵~tshi⁵⁵tsha⁵⁵	phe⁵⁵~tshi⁵⁵tsha⁵⁵	pull (out)	pull (out)		6.2.2.3.1		0		
+289016	1616	Tujia (Northern)	pho⁵⁵	pho⁵⁵	graze	graze	v.t.			0		
+289017	1616	Tujia (Northern)	nũ⁵⁵	nũ⁵⁵	feed	feed	v	1.3.5.8		0		
+289018	1616	Tujia (Northern)	si⁵⁵	si⁵⁵	lead (animal)	lead (animal)		6.2.2.1		0		5618
+289019	1616	Tujia (Northern)	tha⁵⁵	tha⁵⁵	weave	weave		5.1		0		2686
+289020	1616	Tujia (Northern)	wu²¹	wu²¹	measure	measure		9.8		0		
+289021	1616	Tujia (Northern)	phu⁵⁵	phu⁵⁵	buy	buy		6.22		0		
+289022	1616	Tujia (Northern)	lu²¹	lu²¹	sell	sell		6.22		0		
+289023	1616	Tujia (Northern)	xɨ⁵⁵	xɨ⁵⁵	count	count		6.2.2.2		0		
+289024	1616	Tujia (Northern)	suã³⁵	suã³⁵	calculate	calculate		8.3.1.13.1		0		bChinese
+289025	1616	Tujia (Northern)	tɕhi⁵⁵	tɕhi⁵⁵	weigh	weigh	v.t.	9.8		0		
+289026	1616	Tujia (Northern)	a³⁵/ɣɨ³⁵	a³⁵/ɣɨ³⁵	teach	teach		6.19		0		
+289027	1616	Tujia (Northern)	a³⁵ɣɨ³⁵	a³⁵ɣɨ³⁵	learn	learn		8.3.1.12.1		0		
+289028	1616	Tujia (Northern)	ɣa³⁵	ɣa³⁵	write	write		6.2.2.9.1		0		
+289029	1616	Tujia (Northern)	je³⁵	je³⁵	wipe	wipe		6.2.2.1		0		2587
+289030	1616	Tujia (Northern)	kai⁵⁵	kai⁵⁵	correct / change	correct / change		8.3.3.9		0		bChinese
+289031	1616	Tujia (Northern)	pa⁵⁵~a⁵⁵na²¹	pa⁵⁵~a⁵⁵na²¹	paste / glue / stick	paste / glue / stick		5.4		0		
+289032	1616	Tujia (Northern)	pã³⁵	pã³⁵	cook / boil	cook / boil		5.5		0		
+289033	1616	Tujia (Northern)	lo³⁵	lo³⁵	cook / boil (meat)	cook / boil (meat)		5.5		0		
+289034	1616	Tujia (Northern)	ɕe²¹	ɕe²¹	stew / boil (porridge)	stew / boil (porridge)		5.5		0		
+289035	1616	Tujia (Northern)	tshau⁵⁵	tshau⁵⁵	stir-fry	stir-fry		5.5		0		
+289036	1616	Tujia (Northern)	thũ⁵⁵	thũ⁵⁵	steam	steam	v	6.6		0		
+289037	1616	Tujia (Northern)	tha³⁵	tha³⁵	dry (clothes) near fire	dry (clothes) near fire		6.6		0		
+289038	1616	Tujia (Northern)	thu⁵⁵wu²¹	thu⁵⁵wu²¹	warm (oneself) near fire	warm (oneself) near fire		7.1.2.3		0		
+289039	1616	Tujia (Northern)	pu³⁵	pu³⁵	kill	kill		6.4		0		
+289040	1616	Tujia (Northern)	so⁵⁵	so⁵⁵	cut (vegetables)	cut (vegetables)		6.9.3		0		
+289041	1616	Tujia (Northern)	ka⁵⁵~to⁵⁵	ka⁵⁵~to⁵⁵	mince (meat) with knife	mince (meat) with knife		6.9.4		0		
+289042	1616	Tujia (Northern)	si³⁵si³⁵	si³⁵si³⁵	scrape (hair off pig)	scrape (hair off pig)		6.3		0		
+289043	1616	Tujia (Northern)	ã⁵⁵kha⁵⁵	ã⁵⁵kha⁵⁵	cut / clip / trim	cut / clip / trim		6.9.3		0		
+289044	1616	Tujia (Northern)	la²¹	la²¹	sew	sew		5.1		0		
+289045	1616	Tujia (Northern)	xɨe⁵⁵	xɨe⁵⁵	prick	prick		8.4		0		
+289046	1616	Tujia (Northern)	se⁵⁵	se⁵⁵	insert / stick into	insert / stick into		6.2		0		
+289047	1616	Tujia (Northern)	po⁵⁵	po⁵⁵	grind	grind		9.5		0		
+289048	1616	Tujia (Northern)	pho³⁵	pho³⁵	sharpen	sharpen		6.9.2		0		
+289049	1616	Tujia (Northern)	xa³⁵	xa³⁵	winnow	winnow		3.1.10		0		
+289050	1616	Tujia (Northern)	tshe³⁵	tshe³⁵	scoop	scoop		6.11		0		5443
+289051	1616	Tujia (Northern)	ta³⁵	ta³⁵	put on / wear	put on / wear		6.17		0		
+289052	1616	Tujia (Northern)	te⁵⁵	te⁵⁵	wear (hat)	wear (hat)		6.2.2.1		0		
+289053	1616	Tujia (Northern)	xɨ³⁵	xɨ³⁵	take off (clothing)	take off (clothing)		6.21		0		
+289054	1616	Tujia (Northern)	khɨ³⁵li³⁵	khɨ³⁵li³⁵	roll up (clothes)	roll up (clothes)		6.7.6		0		
+289055	1616	Tujia (Northern)	wo⁵⁵	wo⁵⁵	wash (hands)	wash (hands)		6.2.2.5.2		0		
+289056	1616	Tujia (Northern)	tsa³⁵	tsa³⁵	wash (clothes)	wash (clothes)		6.2.2.5.2		0		
+289057	1616	Tujia (Northern)	tsa⁵⁵~tshe²¹tsa⁵⁵	tsa⁵⁵~tshe²¹tsa⁵⁵	bathe	bathe		6.6		0		
+289058	1616	Tujia (Northern)	thi⁵⁵	thi⁵⁵	shave	shave		6.9.2		0		
+289059	1616	Tujia (Northern)	zã⁵⁵	zã⁵⁵	dye	dye		5.1		0		
+289060	1616	Tujia (Northern)	phu³⁵	phu³⁵	patch (clothing)	patch (clothing)		5.1		0		2548
+289061	1616	Tujia (Northern)	ɕi²¹~ɕe²¹	ɕi²¹~ɕe²¹	comb	comb	v	1.2.2.1		0		
+289062	1616	Tujia (Northern)	tsho²¹	tsho²¹	plait	plait	v	1.2.3.2		0		
+289063	1616	Tujia (Northern)	mi²¹	mi²¹	spread / unfold	spread±unfold		9.5		0		
+289064	1616	Tujia (Northern)	ɣɨ²¹	ɣɨ²¹	sweep	sweep		6.2.2.5.3		0		
+289065	1616	Tujia (Northern)	thũ³⁵	thũ³⁵	open (door)	open (door)		6.2.2.6.1		0		5705
+289066	1616	Tujia (Northern)	tɕi⁵⁵tɕe⁵⁵	tɕi⁵⁵tɕe⁵⁵	open (lid)	open (lid)		6.2.2.6.1		0		
+289067	1616	Tujia (Northern)	pho⁵⁵	pho⁵⁵	put / place	put / place		6.17		0		
+289068	1616	Tujia (Northern)	khɨ³⁵khɨ³⁵	khɨ³⁵khɨ³⁵	hang	hang		6.1.1.5		0		
+289069	1616	Tujia (Northern)	xɨ³⁵	xɨ³⁵	untie	untie		6.13.1		0		
+289070	1616	Tujia (Northern)	pho⁵⁵	pho⁵⁵	release	release		6.10.1		0		2573
+289071	1616	Tujia (Northern)	phɨe⁵⁵	phɨe⁵⁵	wrap	wrap		6.2.2.1		0		
+289072	1616	Tujia (Northern)	phu²¹~thi³⁵	phu²¹~thi³⁵	tie (e.g. firewood) into a bundle	tie (e.g. firewood) into a bundle		6.13.1		0		
+289073	1616	Tujia (Northern)	tshu⁵⁵	tshu⁵⁵	load	load	v	6.2.2.1		0		
+289074	1616	Tujia (Northern)	sũ²¹	sũ²¹	stuff (hole) up	stuff (hole) up		9.5		0		
+289075	1616	Tujia (Northern)	phũ²¹	phũ²¹	bury (something)	bury (something)		6.11		0		4328
+289076	1616	Tujia (Northern)	su⁵⁵su⁵⁵	su⁵⁵su⁵⁵	hide	hide		1.6.5.1		0		
+289077	1616	Tujia (Northern)	thi⁵⁵	thi⁵⁵	pick / select	pick / select		6.10.4		0		
+289078	1616	Tujia (Northern)	ma⁵⁵	ma⁵⁵	pile up (e.g. earth)	pile up (e.g. earth)		6.2.2.1		0		
+289079	1616	Tujia (Northern)	tẽ⁵⁵	tẽ⁵⁵	hammer (nail in)	hammer (nail in)		5.11.5.4		0		bChinese
+289080	1616	Tujia (Northern)	thi³⁵	thi³⁵	light (fire)	light (fire)	v	7.1.11.1		0		
+289081	1616	Tujia (Northern)	ti⁵⁵	ti⁵⁵	want	want		8.3.1.14.3		0		
+289082	1616	Tujia (Northern)	thi²¹	thi²¹	get	get		1.1.5		0		
+289083	1616	Tujia (Northern)	siu⁵⁵	siu⁵⁵	take back / put away	take back±put away		6.21		0		
+289084	1616	Tujia (Northern)	pi⁵⁵le²¹	pi⁵⁵le²¹	lose / misplace	lose / misplace		6.10.1		0		
+289085	1616	Tujia (Northern)	ni⁵⁵	ni⁵⁵	search	search		6.2.2.2		0		
+289086	1616	Tujia (Northern)	si⁵⁵	si⁵⁵	use	use		6.2.2.7.1		0		
+289087	1616	Tujia (Northern)	kɨe²¹tshi³⁵	kɨe²¹tshi³⁵	play	play		6.1.1.3		0		
+289088	1616	Tujia (Northern)	jĩ²¹	jĩ²¹	win	win		6.19		0		bChinese
+289089	1616	Tujia (Northern)	su⁵⁵	su⁵⁵	lose (a game)	lose (a game)		6.10.1		0		
+289090	1616	Tujia (Northern)	ko⁵⁵tshã³⁵	ko⁵⁵tshã³⁵	sing	sing		5.1		0		
+289091	1616	Tujia (Northern)	wu⁵⁵thiau³⁵	wu⁵⁵thiau³⁵	dance	dance		6.7.9		0		bChinese
+289092	1616	Tujia (Northern)	si²¹tɕe⁵⁵	si²¹tɕe⁵⁵	hunt	hunt		6.2.2.1		0		
+289093	1616	Tujia (Northern)	wo²¹~wuei²¹	wo²¹~wuei²¹	surround	surround		6.2.2.2		0		
+289094	1616	Tujia (Northern)	pho⁵⁵	pho⁵⁵	shoot	shoot		6.2.2.1		0		
+289095	1616	Tujia (Northern)	to²¹	to²¹	hit (target)	hit (target)		6.8		0		
+289096	1616	Tujia (Northern)	si⁵⁵le²¹~si⁵⁵ɣɨe²¹	si⁵⁵le²¹~si⁵⁵ɣɨe²¹	ask / inquire	ask / inquire		8.5.7.1		0		
+289097	1616	Tujia (Northern)	thi³⁵	thi³⁵	answer	answer		8.5.6		0		
+289098	1616	Tujia (Northern)	tshũ³⁵	tshũ³⁵	borrow / lend (money)	borrow / lend (money)		6.22		0		
+289099	1616	Tujia (Northern)	ɣũ⁵⁵	ɣũ⁵⁵	borrow / lend (thing)	borrow / lend (thing)		6.22		0		
+289100	1616	Tujia (Northern)	lu³⁵	lu³⁵	borrow / lend (food)	borrow / lend (food)		6.22		0		
+289101	1616	Tujia (Northern)	tho⁵⁵	tho⁵⁵	return	return	v.t.	6.2.2.1		0		
+289102	1616	Tujia (Northern)	le³⁵	le³⁵	supply / provide	supply / provide		6.2		0		
+289103	1616	Tujia (Northern)	si³⁵	si³⁵	give / send / deliver	give / send / deliver		6.23		0		
+289104	1616	Tujia (Northern)	pho⁵⁵	pho⁵⁵	marry (of woman)	marry (of woman)		6.19		0		
+289105	1616	Tujia (Northern)	ɣa²¹	ɣa²¹	marry (of man)	marry (of man)		6.19		0		
+289106	1616	Tujia (Northern)	tse³⁵	tse³⁵	tell	tell		1.8.7		0		
+289107	1616	Tujia (Northern)	ta⁵⁵ɕi⁵⁵	ta⁵⁵ɕi⁵⁵	help	help		6.2.2.1		0		
+289108	1616	Tujia (Northern)	tɕiu³⁵	tɕiu³⁵	save / rescue	save / rescue		6.2.2.1		0		
+289109	1616	Tujia (Northern)	tsẽ⁵⁵	tsẽ⁵⁵	treat / cure	treat / cure		5.8		0		
+289110	1616	Tujia (Northern)	xua²¹	xua²¹	distribute	distribute		6.23		0		
+289111	1616	Tujia (Northern)	phi²¹	phi²¹	divide	divide		6.10.4		0		
+289112	1616	Tujia (Northern)	ta⁵⁵	ta⁵⁵	owe	owe		6.22		0		
+289113	1616	Tujia (Northern)	phɨe³⁵	phɨe³⁵	pay indemnity to	pay indemnity to		6.22		0		
+289114	1616	Tujia (Northern)	thi⁵⁵	thi⁵⁵	wait	wait		6.1.1.6		0		
+289115	1616	Tujia (Northern)	phã⁵⁵~phã⁵⁵to²¹le²¹	phã⁵⁵~phã⁵⁵to²¹le²¹	encounter / meet	encounter / meet		6.13.4		0		
+289116	1616	Tujia (Northern)	no²¹	no²¹	scold	scold		8.5.1		0		
+289117	1616	Tujia (Northern)	ta⁵⁵xa²¹	ta⁵⁵xa²¹	fight	fight		6.5		0		
+289118	1616	Tujia (Northern)	xa²¹	xa²¹	hit / beat	hit / beat		6.8		0		
+289119	1616	Tujia (Northern)	po²¹	po²¹	escape	escape		6.7.2		0		
+289120	1616	Tujia (Northern)	a⁵⁵tɕe⁵⁵~tɕe⁵⁵	a⁵⁵tɕe⁵⁵~tɕe⁵⁵	chase / run after	chase±run after		6.7.10		0		
+289121	1616	Tujia (Northern)	tɕe⁵⁵	tɕe⁵⁵	drive away	drive away		6.7.10		0		
+289122	1616	Tujia (Northern)	a⁵⁵ji²¹	a⁵⁵ji²¹	rob	rob		6.2.2.1		0		
+289123	1616	Tujia (Northern)	kua³⁵	kua³⁵	exploit	exploit				0		
+289124	1616	Tujia (Northern)	ɣɨe³⁵	ɣɨe³⁵	steal	steal		6.2.2.1		0		
+289125	1616	Tujia (Northern)	phiã³⁵	phiã³⁵	cheat / swindle	cheat / swindle		6.19		0		
+289126	1616	Tujia (Northern)	a³⁵tshi⁵⁵	a³⁵tshi⁵⁵	love	love		8.3.1.1.1		0		p,3494
+289127	1616	Tujia (Northern)	li⁵⁵si⁵⁵	li⁵⁵si⁵⁵	like	like		8.3.1.1.1		0		
+289128	1616	Tujia (Northern)	ti³⁵	ti³⁵	believe	believe		8.3.1.12.1		0		
+289129	1616	Tujia (Northern)	xau⁵⁵ɕi⁵⁵~xa⁵⁵zi²¹	xau⁵⁵ɕi⁵⁵~xa⁵⁵zi²¹	know	know		8.3.1.12.1		0		
+289130	1616	Tujia (Northern)	xau⁵⁵ɕi⁵⁵~xa⁵⁵zi²¹	xau⁵⁵ɕi⁵⁵~xa⁵⁵zi²¹	understand	understand		8.3.1.13.1		0		
+289131	1616	Tujia (Northern)	si⁵⁵ɣɨe²¹	si⁵⁵ɣɨe²¹	understand / comprehend	understand / comprehend		8.3.1.13.1		0		
+289132	1616	Tujia (Northern)	tshai⁵⁵	tshai⁵⁵	guess	guess		8.3.1.12.1		0		
+289133	1616	Tujia (Northern)	te³⁵	te³⁵	remember	remember		8.3.1.16.1		0		
+289134	1616	Tujia (Northern)	si⁵⁵ma²¹	si⁵⁵ma²¹	forget	forget		8.3.1.16.1		0		
+289135	1616	Tujia (Northern)	te³⁵	te³⁵	think	think		8.3.1.13.1		0		
+289136	1616	Tujia (Northern)	xẽ³⁵	xẽ³⁵	hate	hate		8.3.1.1.2		0		
+289137	1616	Tujia (Northern)	kɨe⁵⁵	kɨe⁵⁵	fear	fear		8.3.1.10.1		0		
+289138	1616	Tujia (Northern)	kã⁵⁵	kã⁵⁵	dare	dare				0		
+289139	1616	Tujia (Northern)	ɣɨe⁵⁵	ɣɨe⁵⁵	know / can / be able to	know / can / be able to		8.3.1.12.1		0		
+289140	1616	Tujia (Northern)	ɕiau³⁵	ɕiau³⁵	enough	enough		1.1.3.2		0		
+289141	1616	Tujia (Northern)	siu³⁵	siu³⁵	be / copula	be / copula		10.4.1.1		0		
+289142	1616	Tujia (Northern)	pu³⁵si³⁵~pu³⁵siu³⁵	pu³⁵si³⁵~pu³⁵siu³⁵	NEG+copula	NEG+copula		10.6.2		0		
+289143	1616	Tujia (Northern)	ɕe³⁵	ɕe³⁵	have	have		8.2		0		
+289144	1616	Tujia (Northern)	thai³⁵	thai³⁵	NEG+have	NEG+have		10.6.2		0		
+289145	1616	Tujia (Northern)	ẽ²¹tsi²¹~ẽ²¹tɕhe³⁵	ẽ²¹tsi²¹~ẽ²¹tɕhe³⁵	come	come		6.7.1		0		
+289146	1616	Tujia (Northern)	ɣɨ³⁵	ɣɨ³⁵	go	go		6.7.2		0		
+289147	1616	Tujia (Northern)	sũ⁵⁵kho⁵⁵	sũ⁵⁵kho⁵⁵	return / go back	return / go back		6.2.2.1		0		
+289148	1616	Tujia (Northern)	je⁵⁵	je⁵⁵	arrive	arrive		6.7.1		0		
+289149	1616	Tujia (Northern)	ɣa³⁵	ɣa³⁵	cross (river)	cross (river)		6.7.10		0		
+289150	1616	Tujia (Northern)	la⁵⁵kha⁵⁵	la⁵⁵kha⁵⁵	pass by	pass by		6.7.10		0		
+289151	1616	Tujia (Northern)	ku²¹	ku²¹	ascend	ascend		6.7.7		0		
+289152	1616	Tujia (Northern)	ta²¹	ta²¹	descend	descend		6.7.8		0		
+289153	1616	Tujia (Northern)	tsu³⁵	tsu³⁵	exit	exit		6.7.2		0		
+289154	1616	Tujia (Northern)	tɕhi⁵⁵le²¹	tɕhi⁵⁵le²¹	enter	enter		6.7.1		0		
+289155	1616	Tujia (Northern)	sũ⁵⁵thu²¹	sũ⁵⁵thu²¹	retreat	retreat		6.7.2		0		
+289156	1616	Tujia (Northern)	la²¹~kau⁵⁵la²¹	la²¹~kau⁵⁵la²¹	exist / be present	exist / be present		1.1.2.3		0		
+289157	1616	Tujia (Northern)	tha³⁵	tha³⁵	dry / bask in the sun	dry / bask in the sun		6.6		0		
+289158	1616	Tujia (Northern)	mɨe³⁵tse²¹tse²¹	mɨe³⁵tse²¹tse²¹	rain	rain	v	3.2.1		0		2473
+289159	1616	Tujia (Northern)	ze³⁵su⁵⁵su⁵⁵~ze³⁵su⁵⁵	ze³⁵su⁵⁵su⁵⁵~ze³⁵su⁵⁵	blow (of wind)	blow (of wind)		1.3.1.4		0		m,67,67,m,67
+289160	1616	Tujia (Northern)	mɨe³⁵ji³⁵la³⁵pe⁵⁵	mɨe³⁵ji³⁵la³⁵pe⁵⁵	flash (of lightning)	flash (of lightning)		3.2.12.2		0		
+289161	1616	Tujia (Northern)	mɨe³⁵ɣũ²¹	mɨe³⁵ɣũ²¹	thunder	thunder	v	3.2.1		0		2473
+289162	1616	Tujia (Northern)	to²¹	to²¹	flow	flow		6.6.1		0		
+289163	1616	Tujia (Northern)	mau³⁵	mau³⁵	overflow	overflow		6.6		0		
+289164	1616	Tujia (Northern)	tha²¹	tha²¹	float	float		6.6.1		0		
+289165	1616	Tujia (Northern)	tẽ³⁵	tẽ³⁵	sink	sink		6.6		0		
+289166	1616	Tujia (Northern)	la⁵⁵ka²¹phi²¹	la⁵⁵ka²¹phi²¹	crack	crack	v	3.2.7		0		
+289167	1616	Tujia (Northern)	kẽ⁵⁵kɨe⁵⁵~thi⁵⁵khɨe⁵⁵	kẽ⁵⁵kɨe⁵⁵~thi⁵⁵khɨe⁵⁵	collapse	collapse		9.5		0		
+289168	1616	Tujia (Northern)	xa⁵⁵~xa⁵⁵pha²¹	xa⁵⁵~xa⁵⁵pha²¹	chipped	chipped		3.2.7		0		
+289169	1616	Tujia (Northern)	ku⁵⁵lo⁵⁵~khu⁵⁵lo⁵⁵	ku⁵⁵lo⁵⁵~khu⁵⁵lo⁵⁵	roll (e.g. rock)	roll (e.g. rock)		6.7.6		0		
+289170	1616	Tujia (Northern)	je²¹lo²¹	je²¹lo²¹	rotate / spin	rotate / spin		6.7.6		0		
+289171	1616	Tujia (Northern)	pi⁵⁵le²¹	pi⁵⁵le²¹	drop / fall	drop / fall		6.16		0		
+289172	1616	Tujia (Northern)	te²¹	te²¹	break (of rope etc.)	break (of rope etc.)	v.i.	9.5		0		
+289173	1616	Tujia (Northern)	phi²¹	phi²¹	break (of bottle etc.)	break (of bottle etc.)	v.i.	9.5		0		
+289174	1616	Tujia (Northern)	pu⁵⁵	pu⁵⁵	soak / immerse	soak / immerse		6.6		0		
+289175	1616	Tujia (Northern)	xɨe²¹	xɨe²¹	leak	leak		6.6		0		
+289176	1616	Tujia (Northern)	ta⁵⁵	ta⁵⁵	drip	drip		6.6		0		
+289177	1616	Tujia (Northern)	phɨe⁵⁵	phɨe⁵⁵	boil	boil	v.i.	6.6		0		
+289178	1616	Tujia (Northern)	piã³⁵	piã³⁵	change / transform	change / transform		9.5		0		bChinese
+289179	1616	Tujia (Northern)	thi³⁵mi³⁵tso²¹	thi³⁵mi³⁵tso²¹	bud	bud	v	3.1.4		0		
+289180	1616	Tujia (Northern)	kha⁵⁵phu⁵⁵phu²¹	kha⁵⁵phu⁵⁵phu²¹	bloom	bloom		3.1.10		0		m,1811,1811
+289181	1616	Tujia (Northern)	pu³⁵li³⁵tsi²¹	pu³⁵li³⁵tsi²¹	bear fruit	bear fruit		2.2.3		0		
+289182	1616	Tujia (Northern)	ka²¹	ka²¹	wither	wither		3.1.10		0		
+289183	1616	Tujia (Northern)	nũ⁵⁵	nũ⁵⁵	rot / spoil	rot / spoil		3.1.10		0		
+289184	1616	Tujia (Northern)	je²¹zi⁵⁵~tɕe³⁵zi⁵⁵	je²¹zi⁵⁵~tɕe³⁵zi⁵⁵	produce / manufacture	produce / manufacture		6.14		0		
+289185	1616	Tujia (Northern)	tɕiã³⁵se³⁵	tɕiã³⁵se³⁵	build / construct	build / construct		6.14		0		
+289186	1616	Tujia (Northern)	xua³⁵tsã⁵⁵	xua³⁵tsã⁵⁵	develop	develop		9.5		0		
+289187	1616	Tujia (Northern)	thi²¹kau⁵⁵	thi²¹kau⁵⁵	raise	raise		6.7.7		0		
+289188	1616	Tujia (Northern)	thuã²¹tɕe²¹	thuã²¹tɕe²¹	unite	unite		6.13.5		0		
+289189	1616	Tujia (Northern)	xui³⁵khai⁵⁵	xui³⁵khai⁵⁵	hold meeting	hold meeting		6.16		0		
+289190	1616	Tujia (Northern)	thau⁵⁵lẽ²¹	thau⁵⁵lẽ²¹	discuss	discuss				0		
+289191	1616	Tujia (Northern)	thi⁵⁵	thi⁵⁵	select	select		6.10.4		0		
+289192	1616	Tujia (Northern)	lĩ⁵⁵thau³⁵	lĩ⁵⁵thau³⁵	lead	lead	v	6.2.2.1		0		
+289193	1616	Tujia (Northern)	tũ³⁵jiã²¹	tũ³⁵jiã²¹	mobilize / arouse	mobilize / arouse		1.1.4		0		
+289194	1616	Tujia (Northern)	ɕiã⁵⁵tshuã²¹	ɕiã⁵⁵tshuã²¹	propogate (propaganda)	propogate (propaganda)				0		
+289195	1616	Tujia (Northern)	jũ⁵⁵xu²¹	jũ⁵⁵xu²¹	support / endorse	support / endorse		6.16		0		
+289196	1616	Tujia (Northern)	piau⁵⁵jiã²¹	piau⁵⁵jiã²¹	praise / commend	praise / commend		8.5.2.2		0		
+289197	1616	Tujia (Northern)	kai⁵⁵xuã²¹	kai⁵⁵xuã²¹	liberate / emancipate	liberate / emancipate		6.19		0		
+289198	1616	Tujia (Northern)	sẽ³⁵li³⁵	sẽ³⁵li³⁵	triumph / win	triumph / win		6.19		0		bChinese
+289199	1616	Tujia (Northern)	si²¹pai³⁵	si²¹pai³⁵	defeated / lose (a war etc.)	defeated / lose (a war etc.)		6.5		0		
+289200	1616	Tujia (Northern)	phi⁵⁵phĩ²¹	phi⁵⁵phĩ²¹	criticize	criticize		8.5.2.1		0		
+289201	1616	Tujia (Northern)	tɕiã⁵⁵tsha²¹	tɕiã⁵⁵tsha²¹	inspect / examine	inspect / examine		6.2		0		
+289202	1616	Tujia (Northern)	xuã⁵⁵tuei³⁵	xuã⁵⁵tuei³⁵	oppose	oppose		6.5		0		bChinese
+289203	1616	Tujia (Northern)	tiu³⁵tsẽ⁵⁵	tiu³⁵tsẽ⁵⁵	struggle / fight	struggle / fight		6.5		0		
+289204	1616	Tujia (Northern)	tɕhĩ³⁵liau²¹	tɕhĩ³⁵liau²¹	invade	invade		6.5		0		
+289205	1616	Tujia (Northern)	tshi⁵⁵~tshi⁵⁵pa⁵⁵	tshi⁵⁵~tshi⁵⁵pa⁵⁵	big	big		9.7.2		0		
+289206	1616	Tujia (Northern)	suã⁵⁵~pi³⁵khuei⁵⁵	suã⁵⁵~pi³⁵khuei⁵⁵	small	small		9.7.2		0		
+289207	1616	Tujia (Northern)	kau⁵⁵~kau⁵⁵ka⁵⁵tsha²¹	kau⁵⁵~kau⁵⁵ka⁵⁵tsha²¹	high	high		7.1.5.3		0		bChinese,bChinese,m,m
+289208	1616	Tujia (Northern)	ti⁵⁵~ti⁵⁵ka⁵⁵tsha²¹	ti⁵⁵~ti⁵⁵ka⁵⁵tsha²¹	low	low		7.1.5.3		0		
+289209	1616	Tujia (Northern)	sẽ⁵⁵	sẽ⁵⁵	deep	deep		7.1.5.3		0		
+289210	1616	Tujia (Northern)	tɕhiã⁵⁵	tɕhiã⁵⁵	shallow	shallow		7.1.5.3		0		
+289211	1616	Tujia (Northern)	tɕiã⁵⁵	tɕiã⁵⁵	pointed	pointed		6.2.2.2		0		
+289212	1616	Tujia (Northern)	khu²¹lo⁵⁵lo²¹	khu²¹lo⁵⁵lo²¹	round	round		9.7.1		0		
+289213	1616	Tujia (Northern)	xuã⁵⁵	xuã⁵⁵	square	square		9.7.1		0		
+289214	1616	Tujia (Northern)	ɣɨe²¹~ɣɨe²¹pa²¹	ɣɨe²¹~ɣɨe²¹pa²¹	long	long		9.7.2		0		
+289215	1616	Tujia (Northern)	tsũ⁵⁵~tsũ⁵⁵kho²¹thai⁵⁵	tsũ⁵⁵~tsũ⁵⁵kho²¹thai⁵⁵	short	short		9.7.2		0		
+289216	1616	Tujia (Northern)	tshu²¹	tshu²¹	thick (in diameter)	thick (in diameter)		9.7.2		0		
+289217	1616	Tujia (Northern)	ɕi³⁵	ɕi³⁵	thin (slender)	thin (slender)		9.7.2		0		
+289218	1616	Tujia (Northern)	la³⁵	la³⁵	thick	thick		9.7.2		0		
+289219	1616	Tujia (Northern)	sa²¹sa²¹	sa²¹sa²¹	thin	thin		9.7.2		0		
+289220	1616	Tujia (Northern)	khuã⁵⁵	khuã⁵⁵	wide	wide		9.7.2		0		b?
+289221	1616	Tujia (Northern)	tse³⁵	tse³⁵	narrow	narrow		9.7.2		0		
+289222	1616	Tujia (Northern)	ɣɨe²¹	ɣɨe²¹	far	far		9.2.4		0		622
+289223	1616	Tujia (Northern)	tsũ⁵⁵~ta²¹pai³⁵	tsũ⁵⁵~ta²¹pai³⁵	near	near		9.2.3		0		
+289224	1616	Tujia (Northern)	zi²¹~kei⁵⁵ti²¹~pho⁵⁵la²¹	zi²¹~kei⁵⁵ti²¹~pho⁵⁵la²¹	many / much	many / much		9.9		0		
+289225	1616	Tujia (Northern)	phu⁵⁵tshi²¹	phu⁵⁵tshi²¹	little / few	little / few		9.7.2		0		
+289226	1616	Tujia (Northern)	tshu²¹tshu²¹	tshu²¹tshu²¹	straight	straight		7.1.5.1		0		
+289227	1616	Tujia (Northern)	kã²¹ku⁵⁵te²¹	kã²¹ku⁵⁵te²¹	crooked	crooked		9.7.2		0		
+289228	1616	Tujia (Northern)	tsu⁵⁵tsu⁵⁵	tsu⁵⁵tsu⁵⁵	upright	upright		7.1.5.3		0	D0	
+289229	1616	Tujia (Northern)	ta³⁵tho⁵⁵	ta³⁵tho⁵⁵	horizontal	horizontal		7.1.5.4		0		
+289230	1616	Tujia (Northern)	pi⁵⁵the⁵⁵~pi⁵⁵thiau⁵⁵	pi⁵⁵the⁵⁵~pi⁵⁵thiau⁵⁵	flat / level (land)	flat / level (land)		7.1.5.1		0		
+289231	1616	Tujia (Northern)	tu⁵⁵	tu⁵⁵	steep	steep		7.1.5.3		0		
+289232	1616	Tujia (Northern)	tshu²¹tshu²¹	tshu²¹tshu²¹	right / just / upright	right / just / upright		1.5.3.2		0		
+289233	1616	Tujia (Northern)	phiã⁵⁵ka⁵⁵tsha²¹	phiã⁵⁵ka⁵⁵tsha²¹	slanting / not upright	slanting / not upright		7.1.5.1		0		
+289234	1616	Tujia (Northern)	zu⁵⁵	zu⁵⁵	light	light	adj	7.1.11.1		0		
+289235	1616	Tujia (Northern)	tu⁵⁵	tu⁵⁵	heavy	heavy		9.6.2		0		
+289236	1616	Tujia (Northern)	khɨ⁵⁵	khɨ⁵⁵	hard	hard		9.6.2		0		
+289237	1616	Tujia (Northern)	pɨe³⁵~pɨe²¹pɨe³⁵	pɨe³⁵~pɨe²¹pɨe³⁵	soft	soft		7.1.4.2		0		
+289238	1616	Tujia (Northern)	khu⁵⁵su²¹ka³⁵	khu⁵⁵su²¹ka³⁵	bright	bright		7.1.11.1		0		
+289239	1616	Tujia (Northern)	wo²¹khɨ⁵⁵khɨ⁵⁵	wo²¹khɨ⁵⁵khɨ⁵⁵	dark	dark		9.4		0		
+289240	1616	Tujia (Northern)	tshi²¹	tshi²¹	sunny	sunny		3.2.10		0		
+289241	1616	Tujia (Northern)	wo³⁵	wo³⁵	cloudy	cloudy		3.2.2		0		
+289242	1616	Tujia (Northern)	miã⁵⁵tɕe⁵⁵~miã⁵⁵tɕe⁵⁵tɕe⁵⁵	miã⁵⁵tɕe⁵⁵~miã⁵⁵tɕe⁵⁵tɕe⁵⁵	red	red		9.4		0		
+289243	1616	Tujia (Northern)	wã²¹ka⁵⁵ka⁵⁵~wã²¹ka⁵⁵la⁵⁵	wã²¹ka⁵⁵ka⁵⁵~wã²¹ka⁵⁵la⁵⁵	yellow	yellow		9.4		0		
+289244	1616	Tujia (Northern)	ɕĩ³⁵ka⁵⁵~ɕĩ³⁵kai⁵⁵	ɕĩ³⁵ka⁵⁵~ɕĩ³⁵kai⁵⁵	blue	blue		9.4		0		
+289245	1616	Tujia (Northern)	a²¹si²¹~a²¹si²¹khu⁵⁵li⁵⁵	a²¹si²¹~a²¹si²¹khu⁵⁵li⁵⁵	white	white		9.4		0		
+289246	1616	Tujia (Northern)	lã³⁵ka⁵⁵	lã³⁵ka⁵⁵	black	black		9.4		0		
+289247	1616	Tujia (Northern)	lu³⁵ka⁵⁵	lu³⁵ka⁵⁵	green	green		9.4		0		bChinese,m
+289248	1616	Tujia (Northern)	kha⁵⁵phu⁵⁵kha⁵⁵tha⁵⁵/kha⁵⁵phu⁵⁵	kha⁵⁵phu⁵⁵kha⁵⁵tha⁵⁵/kha⁵⁵phu⁵⁵	multicolored	multicolored		9.4		0		
+289249	1616	Tujia (Northern)	khɨ⁵⁵	khɨ⁵⁵	thick (of liquid)	thick (of liquid)		9.7.2		0		
+289250	1616	Tujia (Northern)	tshe²¹si²¹lã²¹thã²¹	tshe²¹si²¹lã²¹thã²¹	thin (watery)	thin (watery)		9.7.2		0		
+289251	1616	Tujia (Northern)	mã⁵⁵	mã⁵⁵	full	full		1.1.3.2		0		bChinese
+289252	1616	Tujia (Northern)	ze⁵⁵	ze⁵⁵	beautiful	beautiful		7.1.3		0		
+289253	1616	Tujia (Northern)	tha³⁵ze³⁵	tha³⁵ze³⁵	ugly	ugly		7.1.3		0		
+289254	1616	Tujia (Northern)	so³⁵li³⁵	so³⁵li³⁵	clean	clean		6.2.2.5.2		0		
+289255	1616	Tujia (Northern)	ɣɨe⁵⁵se⁵⁵	ɣɨe⁵⁵se⁵⁵	dirty	dirty		3.2.11		0		
+289256	1616	Tujia (Northern)	lau⁵⁵ka⁵⁵	lau⁵⁵ka⁵⁵	old (of people)	old (of people)		7.1.8.3		0		b,2228
+289257	1616	Tujia (Northern)	lau⁵⁵ka⁵⁵	lau⁵⁵ka⁵⁵	tough / old (of plants)	tough / old (of plants)		1.1.5		0		b,2228
+289258	1616	Tujia (Northern)	pi³⁵so³⁵te⁵⁵	pi³⁵so³⁵te⁵⁵	young	young		7.1.8.3		0		
+289259	1616	Tujia (Northern)	lẽ³⁵	lẽ³⁵	tender (of plants)	tender (of plants)		7.1.4.2		0		
+289260	1616	Tujia (Northern)	tsha³⁵	tsha³⁵	good	good		9.6.1.1		0		
+289261	1616	Tujia (Northern)	te³⁵kha³⁵la³⁵~tsha⁵⁵xo⁵⁵	te³⁵kha³⁵la³⁵~tsha⁵⁵xo⁵⁵	bad	bad		9.6.2.1		0		
+289262	1616	Tujia (Northern)	ma²¹li³⁵	ma²¹li³⁵	fast	fast		9.6.1.1		0		
+289263	1616	Tujia (Northern)	te⁵⁵	te⁵⁵	slow	slow		9.6.2.1		0		
+289264	1616	Tujia (Northern)	a⁵⁵ka²¹~ka²¹	a⁵⁵ka²¹~ka²¹	dry	dry		6.6		0		
+289265	1616	Tujia (Northern)	kha⁵⁵pe⁵⁵~kha⁵⁵pe⁵⁵le⁵⁵	kha⁵⁵pe⁵⁵~kha⁵⁵pe⁵⁵le⁵⁵	wet	wet		6.6		0		
+289266	1616	Tujia (Northern)	a³⁵si³⁵	a³⁵si³⁵	new	new		9.6.1.1		0		
+289267	1616	Tujia (Northern)	a³⁵phɨe³⁵	a³⁵phɨe³⁵	old (of things)	old (of things)		7.1.8.3		0		p,7185
+289268	1616	Tujia (Northern)	a⁵⁵xũ⁵⁵	a⁵⁵xũ⁵⁵	raw	raw		7.1.8.3		0		
+289269	1616	Tujia (Northern)	a⁵⁵tɕe⁵⁵	a⁵⁵tɕe⁵⁵	cooked	cooked		5.5		0		
+289270	1616	Tujia (Northern)	ɕi⁵⁵	ɕi⁵⁵	sharp	sharp		6.9.2		0		
+289271	1616	Tujia (Northern)	tha³⁵si³⁵~tha³⁵ɕi³⁵	tha³⁵si³⁵~tha³⁵ɕi³⁵	blunt	blunt		7.1.5.1		0		
+289272	1616	Tujia (Northern)	tsau⁵⁵	tsau⁵⁵	early	early		9.1.1		0		bChinese
+289273	1616	Tujia (Northern)	te⁵⁵	te⁵⁵	late	late		9.1.1		0		
+289274	1616	Tujia (Northern)	tsa²¹tsa²¹xuai⁵⁵	tsa²¹tsa²¹xuai⁵⁵	true	true		9.6.1.1		0		b?
+289275	1616	Tujia (Northern)	the³⁵si³⁵	the³⁵si³⁵	false	false		9.6.2.1		0		
+289276	1616	Tujia (Northern)	kuei³⁵	kuei³⁵	expensive	expensive		5.9		0		bChinese
+289277	1616	Tujia (Northern)	ɕiã⁵⁵jĩ⁵⁵	ɕiã⁵⁵jĩ⁵⁵	cheap	cheap		5.9		0		b?
+289278	1616	Tujia (Northern)	sũ⁵⁵xo⁵⁵~ji⁵⁵te⁵⁵	sũ⁵⁵xo⁵⁵~ji⁵⁵te⁵⁵	easy	easy		9.6.1.1		0		
+289279	1616	Tujia (Northern)	kho⁵⁵khɨ⁵⁵	kho⁵⁵khɨ⁵⁵	difficult	difficult		9.6.2		0		
+289280	1616	Tujia (Northern)	sũ⁵⁵	sũ⁵⁵	loose / lax	loose / lax		6.13.1		0		
+289281	1616	Tujia (Northern)	tɕĩ⁵⁵	tɕĩ⁵⁵	tight	tight		7.1.5.1		0		
+289282	1616	Tujia (Northern)	kɨ²¹	kɨ²¹	hot	hot				0		
+289283	1616	Tujia (Northern)	sa⁵⁵	sa⁵⁵	cold	cold		7.1.2.3		0		
+289284	1616	Tujia (Northern)	lo⁵⁵	lo⁵⁵	warm	warm		7.1.2.3		0		
+289285	1616	Tujia (Northern)	liã²¹khuai³⁵	liã²¹khuai³⁵	cool	cool		7.1.2.3		0		bChinese
+289286	1616	Tujia (Northern)	a²¹phi⁵⁵phi⁵⁵	a²¹phi⁵⁵phi⁵⁵	sour	sour		7.1.4.4		0		
+289287	1616	Tujia (Northern)	thiã²¹~thiã²¹tsha⁵⁵tsha⁵⁵	thiã²¹~thiã²¹tsha⁵⁵tsha⁵⁵	sweet	sweet		7.1.4.4		0		bChinese
+289288	1616	Tujia (Northern)	khɨ³⁵tsi³⁵tsi³⁵	khɨ³⁵tsi³⁵tsi³⁵	bitter	bitter		7.1.4.4		0		
+289289	1616	Tujia (Northern)	tse³⁵si³⁵	tse³⁵si³⁵	hot (spicy)	hot (spicy)				0		
+289290	1616	Tujia (Northern)	na²¹~na²¹si⁵⁵si⁵⁵	na²¹~na²¹si⁵⁵si⁵⁵	salty	salty		3.2.4		0		
+289291	1616	Tujia (Northern)	ɕiã⁵⁵	ɕiã⁵⁵	fragrant	fragrant		3.1.10		0		bChinese
+289292	1616	Tujia (Northern)	nã²¹~nã²¹si⁵⁵si⁵⁵	nã²¹~nã²¹si⁵⁵si⁵⁵	stinky	stinky		7.1.4.5		0		
+289293	1616	Tujia (Northern)	si⁵⁵nã²¹	si⁵⁵nã²¹	fishy	fishy		2.2.5		0		
+289294	1616	Tujia (Northern)	kuai⁵⁵pau⁵⁵tsi⁵⁵	kuai⁵⁵pau⁵⁵tsi⁵⁵	intelligent	intelligent		8.3.1.13.1		0		b?
+289295	1616	Tujia (Northern)	sau²¹pau²¹tsi²¹	sau²¹pau²¹tsi²¹	stupid	stupid		8.3		0		b?
+289296	1616	Tujia (Northern)	a³⁵le³⁵~mɨe³⁵ti⁵⁵	a³⁵le³⁵~mɨe³⁵ti⁵⁵	diligent	diligent		9.6.1.2		0		
+289297	1616	Tujia (Northern)	lã⁵⁵phɨe²¹~lã⁵⁵phɨe²¹ka³⁵	lã⁵⁵phɨe²¹~lã⁵⁵phɨe²¹ka³⁵	lazy	lazy		9.6.2.2		0		
+289298	1616	Tujia (Northern)	li⁵⁵si⁵⁵	li⁵⁵si⁵⁵	glad	glad		8.3.1.5.1		0		
+289299	1616	Tujia (Northern)	thai³⁵	thai³⁵	poor	poor		9.6.2.2		0		
+289300	1616	Tujia (Northern)	ɕe³⁵	ɕe³⁵	rich	rich		5.9		0		
+289301	1616	Tujia (Northern)	kuã⁵⁵mĩ²¹~khu⁵⁵su²¹ka⁵⁵lai⁵⁵	kuã⁵⁵mĩ²¹~khu⁵⁵su²¹ka⁵⁵lai⁵⁵	bright / promising	bright / promising		7.1.11.1		0		bChinese,bChinese,m,m,m,m
+289302	1616	Tujia (Northern)	kuã⁵⁵jĩ²¹	kuã⁵⁵jĩ²¹	honour / glory	honour / glory		9.6.1		0		
+289303	1616	Tujia (Northern)	wuei⁵⁵ta³⁵	wuei⁵⁵ta³⁵	great / mighty	great / mighty		9.6.1		0		
+289304	1616	Tujia (Northern)	tsẽ³⁵kho²¹	tsẽ³⁵kho²¹	correct / proper	correct / proper		8.3.3.9		0		
+289305	1616	Tujia (Northern)	ɕĩ³⁵xu²¹	ɕĩ³⁵xu²¹	happiness / well-being	happiness / well-being		8.3.1.1.1		0		bChinese
+289306	1616	Tujia (Northern)	jũ⁵⁵kã⁵⁵	jũ⁵⁵kã⁵⁵	brave / courageous	brave / courageous				0		
+289307	1616	Tujia (Northern)	tɕi²¹tɕi²¹	tɕi²¹tɕi²¹	active / vigorous	active / vigorous		10.4.2		0		
+289308	1616	Tujia (Northern)	ɕiã⁵⁵tɕĩ³⁵	ɕiã⁵⁵tɕĩ³⁵	advanced	advanced				0		
+289309	1616	Tujia (Northern)	tha⁵⁵ne⁵⁵pi⁵⁵le²¹	tha⁵⁵ne⁵⁵pi⁵⁵le²¹	backward	backward		9.2.8		0		
+289310	1616	Tujia (Northern)	xuã⁵⁵tũ³⁵	xuã⁵⁵tũ³⁵	reactionary	reactionary				0		
+289311	1616	Tujia (Northern)	na³⁵	na³⁵	one	one		9.9		0		
+289312	1616	Tujia (Northern)	ne⁵⁵	ne⁵⁵	two	two		9.9		0		2504
+289313	1616	Tujia (Northern)	so⁵⁵	so⁵⁵	three	three		9.9		0		2666
+289314	1616	Tujia (Northern)	ze⁵⁵	ze⁵⁵	four	four		9.9		0		2409
+289315	1616	Tujia (Northern)	ũ⁵⁵	ũ⁵⁵	five	five		9.9		0		
+289316	1616	Tujia (Northern)	wo²¹	wo²¹	six	six		9.9		0		
+289317	1616	Tujia (Northern)	ne²¹	ne²¹	seven	seven		9.9		0		2505
+289318	1616	Tujia (Northern)	je²¹	je²¹	eight	eight		9.9		0		
+289319	1616	Tujia (Northern)	kɨe⁵⁵	kɨe⁵⁵	nine	nine		9.9		0		
+289320	1616	Tujia (Northern)	xɨ³⁵	xɨ³⁵	ten	ten		9.9		0		
+289321	1616	Tujia (Northern)	na³⁵xɨ³⁵na³⁵pu³⁵	na³⁵xɨ³⁵na³⁵pu³⁵	eleven	eleven		9.9		0		
+289322	1616	Tujia (Northern)	na³⁵xɨ³⁵ne⁵⁵pu⁵⁵	na³⁵xɨ³⁵ne⁵⁵pu⁵⁵	twelve	twelve		9.9		0		
+289323	1616	Tujia (Northern)	na³⁵xɨ³⁵so⁵⁵pu⁵⁵	na³⁵xɨ³⁵so⁵⁵pu⁵⁵	thirteen	thirteen		9.9		0		
+289324	1616	Tujia (Northern)	ne⁵⁵xɨ³⁵	ne⁵⁵xɨ³⁵	twenty	twenty		9.9		0		2504
+289325	1616	Tujia (Northern)	tha⁵⁵	tha⁵⁵	hundred	hundred		9.9		0		
+289326	1616	Tujia (Northern)	tɕhiã⁵⁵	tɕhiã⁵⁵	thousand	thousand		9.9		0		bChinese
+289327	1616	Tujia (Northern)	wuã³⁵	wuã³⁵	ten thousand	ten thousand		9.9		0		bChinese
+289328	1616	Tujia (Northern)	tsau³⁵~ji³⁵	tsau³⁵~ji³⁵	hundred million	hundred million		9.9		0		
+289329	1616	Tujia (Northern)	lẽ²¹	lẽ²¹	zero	zero		9.9		0		bChinese
+289330	1616	Tujia (Northern)	ti³⁵ji³⁵~thɨu²¹ti²¹kuei³⁵	ti³⁵ji³⁵~thɨu²¹ti²¹kuei³⁵	first (ordinal)	first (ordinal)		9.9		0		
+289331	1616	Tujia (Northern)	ti³⁵wu⁵⁵~ũ⁵⁵ti⁵⁵kuei⁵⁵	ti³⁵wu⁵⁵~ũ⁵⁵ti⁵⁵kuei⁵⁵	fifth	fifth		9.9		0		
+289332	1616	Tujia (Northern)	tsa⁵⁵~thi⁵⁵kho⁵⁵lo⁵⁵	tsa⁵⁵~thi⁵⁵kho⁵⁵lo⁵⁵	half	half		9.8		0		
+289333	1616	Tujia (Northern)	xu²¹	xu²¹	clf. for people	clf. for people		10.1.3		0		
+289334	1616	Tujia (Northern)	ta³⁵	ta³⁵	clf for bowls	clf for bowls		10.1.3		0		
+289335	1616	Tujia (Northern)	mũ⁵⁵/mu⁵⁵	mũ⁵⁵/mu⁵⁵	clf for trees	clf for trees		10.1.3		0		
+289336	1616	Tujia (Northern)	nũ⁵⁵	nũ⁵⁵	clf for animals	clf for animals		10.1.3		0		
+289337	1616	Tujia (Northern)	pha⁵⁵	pha⁵⁵	clf for objects with handle	clf for objects with handle		10.1.3		0		
+289338	1616	Tujia (Northern)	tsi³⁵	tsi³⁵	clf for long objects	clf for long objects		10.1.3		0		
+289339	1616	Tujia (Northern)	ɣɨ⁵⁵	ɣɨ⁵⁵	clf for sheets	clf for sheets		10.1.3		0		
+289340	1616	Tujia (Northern)	tsi³⁵	tsi³⁵	clf for long, thin objects	clf for long, thin objects		9.7.2		0		
+289341	1616	Tujia (Northern)	pu³⁵	pu³⁵	clf for grains	clf for grains		10.1.3		0		
+289342	1616	Tujia (Northern)	ti⁵⁵	ti⁵⁵	drop	drop	n	6.16		0		
+289343	1616	Tujia (Northern)	phi⁵⁵	phi⁵⁵	clf for clothes	clf for clothes		10.1.3		0		
+289344	1616	Tujia (Northern)	zũ⁵⁵	zũ⁵⁵	pair	pair		9.9		0		5383
+289345	1616	Tujia (Northern)	tshẽ³⁵	tshẽ³⁵	inch	inch				0		
+289346	1616	Tujia (Northern)	tshi³⁵	tshi³⁵	foot	foot		1.5.2		0		
+289347	1616	Tujia (Northern)	mɨu⁵⁵	mɨu⁵⁵	acre	acre		9.8		0		
+289348	1616	Tujia (Northern)	si²¹	si²¹	dry measure / pint	dry measure / pint		9.8		0		
+289349	1616	Tujia (Northern)	pho⁵⁵	pho⁵⁵	dry measure / peck	dry measure / peck		6.6		0		
+289350	1616	Tujia (Northern)	tsi⁵⁵	tsi⁵⁵	tael	tael		9.8		0		
+289351	1616	Tujia (Northern)	tɕhi⁵⁵	tɕhi⁵⁵	catty (=500 grams)	catty (=500 grams)		9.8		0		
+289352	1616	Tujia (Northern)	ɕi⁵⁵	ɕi⁵⁵	monetary unit / dollar	monetary unit / dollar		5.9		0		
+289353	1616	Tujia (Northern)	ŋa³⁵	ŋa³⁵	I	I		4.1		0		2530
+289354	1616	Tujia (Northern)	ŋa³⁵ni³⁵	ŋa³⁵ni³⁵	we	we		4.1		0		
+289355	1616	Tujia (Northern)	ŋa³⁵ni³⁵xu³⁵ni⁵⁵	ŋa³⁵ni³⁵xu³⁵ni⁵⁵	we (inclusive)	we (inclusive)		4.1		0		
+289356	1616	Tujia (Northern)	ni³⁵	ni³⁵	you (sg.)	you (sg.)		4.1		0		
+289357	1616	Tujia (Northern)	se³⁵ni³⁵~se³⁵	se³⁵ni³⁵~se³⁵	you (pl.)	you (pl.)		4.1		0		
+289358	1616	Tujia (Northern)	ko³⁵	ko³⁵	he / she	he / she		4.1		0		
+289359	1616	Tujia (Northern)	kɨ⁵⁵tse⁵⁵	kɨ⁵⁵tse⁵⁵	they	they		4.1		0		
+289360	1616	Tujia (Northern)	ko³⁵to²¹	ko³⁵to²¹	oneself	oneself		4.1		0		
+289361	1616	Tujia (Northern)	no⁵⁵te⁵⁵	no⁵⁵te⁵⁵	others	others		8.1		0		
+289362	1616	Tujia (Northern)	kai³⁵~ũ⁵⁵~ẽ⁵⁵~kɨe²¹	kai³⁵~ũ⁵⁵~ẽ⁵⁵~kɨe²¹	this	this		10.4.3.2		0		
+289363	1616	Tujia (Northern)	kai³⁵tu⁵⁵~ũ⁵⁵tu⁵⁵	kai³⁵tu⁵⁵~ũ⁵⁵tu⁵⁵	here	here		9.2.3		0		
+289364	1616	Tujia (Northern)	ai⁵⁵~au⁵⁵	ai⁵⁵~au⁵⁵	that	that		10.1		0		
+289365	1616	Tujia (Northern)	ai⁵⁵tu⁵⁵~au⁵⁵tu⁵⁵	ai⁵⁵tu⁵⁵~au⁵⁵tu⁵⁵	there	there		9.2.7		0		
+289366	1616	Tujia (Northern)	a⁵⁵se²¹	a⁵⁵se²¹	who	who		10.5.3		0		
+289367	1616	Tujia (Northern)	nai⁵⁵ɕi²¹~na⁵⁵ɕi²¹	nai⁵⁵ɕi²¹~na⁵⁵ɕi²¹	what	what		10.5.3		0		
+289368	1616	Tujia (Northern)	khɨu³⁵~khei³⁵	khɨu³⁵~khei³⁵	which	which		10.5.3		0		
+289369	1616	Tujia (Northern)	khɨu²¹tu⁵⁵~khei³⁵tu⁵⁵	khɨu²¹tu⁵⁵~khei³⁵tu⁵⁵	where	where		10.5.3		0		
+289370	1616	Tujia (Northern)	kei⁵⁵	kei⁵⁵	how many / how much	how many / how much		10.1		0		
+289371	1616	Tujia (Northern)	mu⁵⁵mo²¹	mu⁵⁵mo²¹	just now	just now		9.1.1		0		
+289372	1616	Tujia (Northern)	ta³⁵pe²¹	ta³⁵pe²¹	first (in time)	first (in time)		9.9		0		
+289373	1616	Tujia (Northern)	tha⁵⁵ne⁵⁵~tɕhi²¹ne³⁵	tha⁵⁵ne⁵⁵~tɕhi²¹ne³⁵	later (in time)	later (in time)		9.1.5		0		
+289374	1616	Tujia (Northern)	ɕiau⁵⁵xuei⁵⁵	ɕiau⁵⁵xuei⁵⁵	immediately / right away	immediately / right away		9.1.1		0		
+289375	1616	Tujia (Northern)	tɕĩ⁵⁵to⁵⁵	tɕĩ⁵⁵to⁵⁵	often	often		9.1.1		0		
+289376	1616	Tujia (Northern)	lai³⁵xuã²¹	lai³⁵xuã²¹	slowly	slowly		9.1.1		0		
+289377	1616	Tujia (Northern)	le²¹	le²¹	very	very		7.1.2.2		0		
+289378	1616	Tujia (Northern)	ɕi²¹~ɕi²¹thai³⁵	ɕi²¹~ɕi²¹thai³⁵	most (superlative degree)	most (superlative degree)		7.1.2.1		0		
+289379	1616	Tujia (Northern)	xu³⁵ni⁵⁵	xu³⁵ni⁵⁵	all / even	all / even		9.9		0		
+289380	1616	Tujia (Northern)	pã³⁵~pai³⁵	pã³⁵~pai³⁵	also	also		10.1.2.1		0		
+289381	1616	Tujia (Northern)	tsai³⁵	tsai³⁵	again	again		10.1		0		
+289382	1616	Tujia (Northern)	jiu³⁵	jiu³⁵	again	again		10.1		0		
+289383	1616	Tujia (Northern)	me⁵⁵	me⁵⁵	then	then		9.1.5		0		
+289384	1616	Tujia (Northern)	xũ²¹xuai⁵⁵	xũ²¹xuai⁵⁵	certainly	certainly		7.2		0		
+289385	1616	Tujia (Northern)	tha⁵⁵	tha⁵⁵	NEG	NEG		10.6.2		0		
+289386	1616	Tujia (Northern)	ta³⁵	ta³⁵	not yet	not yet		1.5.3.2		0		
+289387	1616	Tujia (Northern)	tha⁵⁵~tha⁵⁵to²¹	tha⁵⁵~tha⁵⁵to²¹	NEG imperative	NEG imperative		10.6.2		0		2681,2681,m
+289388	1616	Tujia (Northern)	ai⁵⁵jia⁵⁵	ai⁵⁵jia⁵⁵	still / yet	still / yet		9.1.1		0		
+289389	1616	Tujia (Northern)	ji⁵⁵tɕĩ⁵⁵	ji⁵⁵tɕĩ⁵⁵	already	already		10.1		0		
+289390	1617	Tujia (Southern)	mɨe²¹	mɨe²¹	sky	sky		3.2.2		0		2473
+289391	1617	Tujia (Southern)	lo³⁵ji³³du̵¹³	lo³⁵ji³³du̵¹³	sun	sun		3.2.10		0		
+289392	1617	Tujia (Southern)	lo³⁵ɕi⁵⁵du̵³⁵	lo³⁵ɕi⁵⁵du̵³⁵	moon	moon		3.2.2		0		
+289393	1617	Tujia (Southern)	ɕẽ³³tsi³³	ɕẽ³³tsi³³	star	star		3.2.2		0		
+289394	1617	Tujia (Southern)	mɨe²¹ɣu̵²¹	mɨe²¹ɣu̵²¹	thunder	thunder		3.2.1		0	D0	2473
+289395	1617	Tujia (Southern)	jyẽ³³	jyẽ³³	cloud	cloud		3.2.1		0		
+289396	1617	Tujia (Southern)	ze²¹ŋɨ²¹~ze²¹lĩ²¹	ze²¹ŋɨ²¹~ze²¹lĩ²¹	wind	wind		3.2.1		0		
+289397	1617	Tujia (Southern)	ze³⁵	ze³⁵	rain	rain		3.2.1		0		
+289398	1617	Tujia (Southern)	su²¹su²¹	su²¹su²¹	snow	snow		3.2.1		0		
+289399	1617	Tujia (Southern)	tshe³⁵	tshe³⁵	water	water		3.2.3		0		
+289400	1617	Tujia (Southern)	su²¹su²¹lẽ¹³	su²¹su²¹lẽ¹³	ice	ice		3.2.3		0		
+289401	1617	Tujia (Southern)	tsaɨ²¹tsi⁵⁵	tsaɨ²¹tsi⁵⁵	fog	fog		3.2.1		0		
+289402	1617	Tujia (Southern)	suã³³	suã³³	frost	frost		3.2.1		0		
+289403	1617	Tujia (Southern)	ʔa²¹la⁵⁵tsho⁵⁵tshe³⁵	ʔa²¹la⁵⁵tsho⁵⁵tshe³⁵	dew	dew				0		
+289404	1617	Tujia (Southern)	su²¹su²¹lẽ¹³phaɨ¹³tsi³³	su²¹su²¹lẽ¹³phaɨ¹³tsi³³	hail	hail		3.2.1		0		
+289405	1617	Tujia (Southern)	za⁵⁵	za⁵⁵	earth	earth		3.2.11		0		
+289406	1617	Tujia (Southern)	tshe⁵⁵ni⁵⁵	tshe⁵⁵ni⁵⁵	river	river		3.2.3		0		
+289407	1617	Tujia (Southern)	h̄ai⁵⁵	h̄ai⁵⁵	sea	sea		3.2.3		0		
+289408	1617	Tujia (Southern)	fu²¹	fu²¹	lake	lake		3.2.5		0		
+289409	1617	Tujia (Southern)	tshe³⁵dã⁵⁵	tshe³⁵dã⁵⁵	pond	pond		3.2.3		0		
+289410	1617	Tujia (Southern)	tshe³⁵wu⁵⁵pho²¹	tshe³⁵wu⁵⁵pho²¹	well	well		9.6.1.1		0		
+289411	1617	Tujia (Southern)	jiã²¹ku⁵⁵	jiã²¹ku⁵⁵	ditch	ditch		3.2.7		0		
+289412	1617	Tujia (Southern)	za⁵⁵	za⁵⁵	mountain	mountain		3.2.5		0		
+289413	1617	Tujia (Southern)	si²¹de⁵⁵	si²¹de⁵⁵	field	field		3.2.5		0		
+289414	1617	Tujia (Southern)	za⁵⁵	za⁵⁵	land	land		3.2.5		0		
+289415	1617	Tujia (Southern)	za⁵⁵bi³³	za⁵⁵bi³³	plain	plain		3.2.5		0		
+289416	1617	Tujia (Southern)	mu²¹tshe²¹go³⁵	mu²¹tshe²¹go³⁵	earth	earth		3.2.11		0		
+289417	1617	Tujia (Southern)	ka²¹pi²¹	ka²¹pi²¹	mud	mud		3.2.11		0		
+289418	1617	Tujia (Southern)	ʔa³³du̵³⁵	ʔa³³du̵³⁵	cave	cave		3.2.7		0		
+289419	1617	Tujia (Southern)	a³³du̵³⁵	a³³du̵³⁵	hole	hole		3.2.7		0		
+289420	1617	Tujia (Southern)	tɕĩ³³tsi²¹	tɕĩ³³tsi²¹	gold	gold		3.2.4		0		
+289421	1617	Tujia (Southern)	ŋa³³	ŋa³³	silver	silver		3.2.4		0		
+289422	1617	Tujia (Southern)	dõ³³	dõ³³	copper	copper		3.2.4		0		
+289423	1617	Tujia (Southern)	ɕe²¹	ɕe²¹	iron	iron		3.2.4		0		
+289424	1617	Tujia (Southern)	kã³³	kã³³	steel	steel		3.2.4		0		bChinese
+289425	1617	Tujia (Southern)	ɕi²¹	ɕi²¹	tin	tin		3.2.4		0		
+289426	1617	Tujia (Southern)	lu̵³⁵~lu̵³⁵ku̵³³tu̵³⁵	lu̵³⁵~lu̵³⁵ku̵³³tu̵³⁵	stone / rock	stone / rock		3.2.9		0		1269,1269,m,m
+289427	1617	Tujia (Southern)	lu̵³⁵sa⁵⁵tsi²¹	lu̵³⁵sa⁵⁵tsi²¹	sand	sand		3.2.11		0		
+289428	1617	Tujia (Southern)	mɨe²¹	mɨe²¹	coal	coal		3.2.4		0		bChinese
+289429	1617	Tujia (Southern)	mi⁵⁵	mi⁵⁵	fire	fire		3.2.12.2		0		
+289430	1617	Tujia (Southern)	kɨe⁵⁵sa²¹	kɨe⁵⁵sa²¹	smoke	smoke		3.2.12.2		0		
+289431	1617	Tujia (Southern)	tõ³³piã³³ta²¹ze³⁵	tõ³³piã³³ta²¹ze³⁵	east	east		9.2.8		0		bChinese
+289432	1617	Tujia (Southern)	ɕi³³piã³³ta²¹ze³⁵	ɕi³³piã³³ta²¹ze³⁵	west	west		9.2.8		0		bChinese
+289433	1617	Tujia (Southern)	nã³³piã³³ta²¹ze³⁵	nã³³piã³³ta²¹ze³⁵	south	south		9.2.8		0		bChinese,bChinese,m,m
+289434	1617	Tujia (Southern)	pɨe³³piã³³ta²¹ze³⁵	pɨe³³piã³³ta²¹ze³⁵	north	north		9.2.8		0		bChinese,bChinese,m,m
+289435	1617	Tujia (Southern)	a³³lu̵³⁵	a³³lu̵³⁵	top	top		1.2.1.3		0		
+289436	1617	Tujia (Southern)	a³³di³⁵	a³³di³⁵	bottom	bottom		9.2.2		0		
+289437	1617	Tujia (Southern)	a²¹tɨe²¹	a²¹tɨe²¹	inside	inside		9.2.5		0		
+289438	1617	Tujia (Southern)	gɨ²¹lẽ²¹~si⁵⁵gi²¹lẽ²¹	gɨ²¹lẽ²¹~si⁵⁵gi²¹lẽ²¹	outside	outside		9.2.7		0		
+289439	1617	Tujia (Southern)	si²¹	si²¹	time	time		9.1.5		0		
+289440	1617	Tujia (Southern)	niu̵³⁵	niu̵³⁵	year	year		9.1.2		0		
+289441	1617	Tujia (Southern)	suei¹³	suei¹³	year / age	year / age		9.1.2		0		bChinese
+289442	1617	Tujia (Southern)	mu³³niu̵³⁵	mu³³niu̵³⁵	this year	this year		10.4.3.2		0		
+289443	1617	Tujia (Southern)	mɨe²¹niu̵³⁵	mɨe²¹niu̵³⁵	last year	last year		9.9		0		
+289444	1617	Tujia (Southern)	mu³³dzu⁵⁵niu̵³⁵	mu³³dzu⁵⁵niu̵³⁵	next year	next year		9.9		0		
+289445	1617	Tujia (Southern)	ta²¹dɨe²¹niu̵³⁵	ta²¹dɨe²¹niu̵³⁵	year before last	year before last		9.1.2		0		
+289446	1617	Tujia (Southern)	mɨe⁵⁵khɨe²¹niu̵³⁵	mɨe⁵⁵khɨe²¹niu̵³⁵	year after next	year after next		9.1.2		0		
+289447	1617	Tujia (Southern)	tshyĩ³³	tshyĩ³³	spring (season)	spring (season)		6.7.9		0		bChinese
+289448	1617	Tujia (Southern)	ɕia¹³	ɕia¹³	summer	summer		3.2.1		0		
+289449	1617	Tujia (Southern)	tɕhiu̵³³	tɕhiu̵³³	autumn	autumn		9.1.2		0		
+289450	1617	Tujia (Southern)	tõ³³	tõ³³	winter	winter		9.1.2		0		
+289451	1617	Tujia (Southern)	çɨe²¹	çɨe²¹	month	month		9.1.2		0		
+289452	1617	Tujia (Southern)	tsẽ³³jye²¹	tsẽ³³jye²¹	January	January		9.1.2		0		
+289453	1617	Tujia (Southern)	h̄aɨ¹³jye²¹	h̄aɨ¹³jye²¹	February	February		9.1.2		0		
+289454	1617	Tujia (Southern)	sã³³jye²¹	sã³³jye²¹	March	March		9.1.2		0		
+289455	1617	Tujia (Southern)	si¹³jye³³	si¹³jye³³	April	April		9.1.2		0		
+289456	1617	Tujia (Southern)	ʔu⁵⁵jye³³	ʔu⁵⁵jye³³	May	May		9.1.2		0		
+289457	1617	Tujia (Southern)	lu²¹jye³³	lu²¹jye³³	June	June		9.1.2		0		
+289458	1617	Tujia (Southern)	tɕhi²¹jye²¹	tɕhi²¹jye²¹	July	July		9.1.2		0		
+289459	1617	Tujia (Southern)	pa²¹jye²¹	pa²¹jye²¹	August	August		9.1.2		0		
+289460	1617	Tujia (Southern)	tɕiu̵⁵⁵jye³³	tɕiu̵⁵⁵jye³³	September	September		9.1.2		0		
+289461	1617	Tujia (Southern)	si²¹jye²¹	si²¹jye²¹	October	October		9.1.2		0		
+289462	1617	Tujia (Southern)	tõ³³jye²¹	tõ³³jye²¹	November	November		9.1.2		0		
+289463	1617	Tujia (Southern)	la²¹jye²¹	la²¹jye²¹	December	December		9.1.2		0		
+289464	1617	Tujia (Southern)	ne³³	ne³³	day (24 hours)	day (24 hours)		1.5.3.2		0		
+289465	1617	Tujia (Southern)	mu³³ne³³	mu³³ne³³	today	today		9.1.3		0		
+289466	1617	Tujia (Southern)	phu³³ne³³	phu³³ne³³	yesterday	yesterday		9.1.3		0		
+289467	1617	Tujia (Southern)	ta²¹de²¹ne³³	ta²¹de²¹ne³³	day before yesterday	day before yesterday		1.5.3.2		0		
+289468	1617	Tujia (Southern)	kho⁵⁵nõ²¹ne³³	kho⁵⁵nõ²¹ne³³	tomorrow	tomorrow		9.1.3		0		
+289469	1617	Tujia (Southern)	mɨe⁵⁵khɨe²¹ne³³	mɨe⁵⁵khɨe²¹ne³³	day after tomrrow	day after tomrrow		1.5.3.2		0		
+289470	1617	Tujia (Southern)	tshu³³ji²¹	tshu³³ji²¹	first day of the month	first day of the month		9.9		0		
+289471	1617	Tujia (Southern)	tshu³³h̄aɨ³⁵	tshu³³h̄aɨ³⁵	second day of the month	second day of the month		9.9		0		
+289472	1617	Tujia (Southern)	tshu³³sã³³	tshu³³sã³³	third day of the month	third day of the month		9.9		0		
+289473	1617	Tujia (Southern)	la³³ne³³tɨ⁵⁵	la³³ne³³tɨ⁵⁵	daytime	daytime		9.1.3		0		
+289474	1617	Tujia (Southern)	la³³no⁵⁵so²¹	la³³no⁵⁵so²¹	morning	morning		9.1.4		0		
+289475	1617	Tujia (Southern)	lo⁵⁵tɨe²¹ne³³	lo⁵⁵tɨe²¹ne³³	noon	noon		9.1.4		0		
+289476	1617	Tujia (Southern)	la²¹phɨe²¹te⁵⁵	la²¹phɨe²¹te⁵⁵	night	night		9.1.4		0		
+289477	1617	Tujia (Southern)	dʑia²¹nã³⁵	dʑia²¹nã³⁵	now	now		9.1.5		0		
+289478	1617	Tujia (Southern)	ɕiã³³ta²¹nã³⁵	ɕiã³³ta²¹nã³⁵	in the past	in the past		10.1.1		0		
+289479	1617	Tujia (Southern)	mɨe⁵⁵khɨe²¹ta²¹nã³⁵	mɨe⁵⁵khɨe²¹ta²¹nã³⁵	from now on	from now on		10.1.1		0		
+289480	1617	Tujia (Southern)	si³⁵nõ²¹	si³⁵nõ²¹	water buffalo	water buffalo		3.2.3		0		
+289481	1617	Tujia (Southern)	wo²¹nõ²¹	wo²¹nõ²¹	common cattle	common cattle		7.1.7.2		0		
+289482	1617	Tujia (Southern)	mo¹³	mo¹³	horse	horse		2.1.7		0		1431,bChinese
+289483	1617	Tujia (Southern)	dzi¹³	dzi¹³	pig	pig		2.1.12		0		
+289484	1617	Tujia (Southern)	zo²¹	zo²¹	goat / sheep	goat / sheep		2.1.8		0		6028
+289485	1617	Tujia (Southern)	tshe⁵⁵	tshe⁵⁵	dog	dog		2.1.11		0		1764
+289486	1617	Tujia (Southern)	ma²¹tɕi³⁵	ma²¹tɕi³⁵	cat	cat		2.1.3		0		
+289487	1617	Tujia (Southern)	thu²¹tsi⁵⁵	thu²¹tsi⁵⁵	rabbit	rabbit		2.1.1		0		b
+289488	1617	Tujia (Southern)	pho²¹	pho²¹	dragon	dragon		2.1.5		0		3629
+289489	1617	Tujia (Southern)	ɕiã¹³	ɕiã¹³	elephant	elephant		2.2.1		0		bChinese
+289490	1617	Tujia (Southern)	le²¹	le²¹	tiger	tiger		2.1.3		0		
+289491	1617	Tujia (Southern)	ɕiõ²¹	ɕiõ²¹	bear	bear		2.2.3		0		
+289492	1617	Tujia (Southern)	le²¹sa³⁵	le²¹sa³⁵	leopard	leopard		2.1.3		0		
+289493	1617	Tujia (Southern)	lõ²¹h̄õ²¹tei⁵⁵dzi¹³	lõ²¹h̄õ²¹tei⁵⁵dzi¹³	boar	boar		2.1.12		0		
+289494	1617	Tujia (Southern)	ɣɨe¹³	ɣɨe¹³	monkey	monkey		2.1.9		0		2782
+289495	1617	Tujia (Southern)	dzai¹³ku̵⁵⁵tshe⁵⁵	dzai¹³ku̵⁵⁵tshe⁵⁵	wolf	wolf		2.1.11		0		999R
+289496	1617	Tujia (Southern)	tshe³⁵tha²¹	tshe³⁵tha²¹	otter	otter		2.2.7.1		0		
+289497	1617	Tujia (Southern)	ze³⁵	ze³⁵	rat / mouse	rat / mouse		2.1.1		0		2796
+289498	1617	Tujia (Southern)	tɕhi⁵⁵	tɕhi⁵⁵	chicken	chicken		2.1.10		0		
+289499	1617	Tujia (Southern)	tɕhi⁵⁵bo³³	tɕhi⁵⁵bo³³	rooster	rooster		2.1.10		0		
+289500	1617	Tujia (Southern)	tɕhi⁵⁵ni³⁵	tɕhi⁵⁵ni³⁵	hen	hen		2.1.10		0		
+289501	1617	Tujia (Southern)	jia⁵⁵|tsi²¹	jia⁵⁵tsi²¹	duck	duck		2.1.10		0		5718
+289502	1617	Tujia (Southern)	ŋo²¹	ŋo²¹	goose	goose		2.1.10		0		2527
+289503	1617	Tujia (Southern)	ko²¹tsi²¹	ko²¹tsi²¹	pigeon	pigeon		2.2.4.1		0		2346,bChinese
+289504	1617	Tujia (Southern)	lõ²¹h̄õ²¹tei⁵⁵tɕhi⁵⁵	lõ²¹h̄õ²¹tei⁵⁵tɕhi⁵⁵	pheasant	pheasant		2.2.4.1		0		
+289505	1617	Tujia (Southern)	kɨ²¹tso²¹	kɨ²¹tso²¹	bird	bird		2.2.4		0		b?
+289506	1617	Tujia (Southern)	ba³³ŋɨ³³	ba³³ŋɨ³³	eagle	eagle		2.2.4.1		0		
+289507	1617	Tujia (Southern)	ba³³nõ²¹	ba³³nõ²¹	crow	crow		2.2.4.1		0		
+289508	1617	Tujia (Southern)	tsha³³tsha³³niã¹³	tsha³³tsha³³niã¹³	magpie	magpie		2.2.4.1		0		
+289509	1617	Tujia (Southern)	jiã⁵⁵tsi⁵⁵	jiã⁵⁵tsi⁵⁵	swallow	swallow		1.3.5.6		0		bChinese
+289510	1617	Tujia (Southern)	ma³³tɕhio²¹	ma³³tɕhio²¹	sparrow	sparrow		2.2.4.1		0		
+289511	1617	Tujia (Southern)	ʔa²¹si⁵⁵ze³⁵be²¹	ʔa²¹si⁵⁵ze³⁵be²¹	bat	bat		2.2.4.1		0		
+289512	1617	Tujia (Southern)	ka²¹tɕi²¹po³⁵	ka²¹tɕi²¹po³⁵	frog	frog		2.1.6.2		0		
+289513	1617	Tujia (Southern)	si²¹ŋɨ²¹	si²¹ŋɨ²¹	fish	fish		2.2.5		0		
+289514	1617	Tujia (Southern)	tshi²¹nõ²¹	tshi²¹nõ²¹	turtle	turtle		2.1.6		0		
+289515	1617	Tujia (Southern)	tsha⁵⁵gu²¹	tsha⁵⁵gu²¹	crab	crab		2.2.5		0		
+289516	1617	Tujia (Southern)	ka²¹ku̵⁵⁵	ka²¹ku̵⁵⁵	shrimp	shrimp		2.2.5		0		
+289517	1617	Tujia (Southern)	diã¹³tɕi⁵⁵	diã¹³tɕi⁵⁵	frog (lives in rice paddy)	frog (lives in rice paddy)		2.1.6		0		
+289518	1617	Tujia (Southern)	tei³³phɨe³⁵	tei³³phɨe³⁵	snake	snake		2.1.6.1		0		
+289519	1617	Tujia (Southern)	ku²¹su³⁵tei⁵⁵phɨe³⁵	ku²¹su³⁵tei⁵⁵phɨe³⁵	firefly	firefly		2.2.6		0		
+289520	1617	Tujia (Southern)	lẽ³³fõ³³	lẽ³³fõ³³	honeybee	honeybee		2.2.6		0		
+289521	1617	Tujia (Southern)	fu²¹te²¹	fu²¹te²¹	butterfly	butterfly		2.2.6		0		
+289522	1617	Tujia (Southern)	dʑio²¹niã³⁵du̵²¹	dʑio²¹niã³⁵du̵²¹	dragonfly	dragonfly		2.2.6		0		
+289523	1617	Tujia (Southern)	tɕhy³³tɕhy³³	tɕhy³³tɕhy³³	cricket	cricket		2.2.6		0		
+289524	1617	Tujia (Southern)	dã³⁵lã²¹	dã³⁵lã²¹	mantis	mantis		1.9.6.1		0		
+289525	1617	Tujia (Southern)	zo³⁵	zo³⁵	silkworm	silkworm		2.2.6		0		
+289526	1617	Tujia (Southern)	tɕi⁵⁵a³⁵si²¹	tɕi⁵⁵a³⁵si²¹	cicada	cicada		2.2.6		0		
+289527	1617	Tujia (Southern)	fa⁵⁵tshe³³niã³³	fa⁵⁵tshe³³niã³³	grasshopper	grasshopper		2.2.6		0		
+289528	1617	Tujia (Southern)	sa²¹ni³⁵	sa²¹ni³⁵	ant	ant		2.2.6		0		
+289529	1617	Tujia (Southern)	wu³³kõ³³	wu³³kõ³³	centipede	centipede		2.2.6		0		
+289530	1617	Tujia (Southern)	ʔa³³tshi³³	ʔa³³tshi³³	spider	spider		2.2.6		0		
+289531	1617	Tujia (Southern)	ʔa³³tshi³³	ʔa³³tshi³³	spider (big)	spider (big)		2.2.6		0		
+289532	1617	Tujia (Southern)	la³³ŋɨ³³ʔa³⁵si⁵⁵	la³³ŋɨ³³ʔa³⁵si⁵⁵	bedbug	bedbug		2.2.6		0		
+289533	1617	Tujia (Southern)	kɨ⁵⁵tso²¹	kɨ⁵⁵tso²¹	flea	flea		2.2.6		0		
+289534	1617	Tujia (Southern)	ʔa²¹si⁵⁵	ʔa²¹si⁵⁵	louse	louse		2.2.6		0		
+289535	1617	Tujia (Southern)	maɨ²¹pi²¹	maɨ²¹pi²¹	nit	nit		2.2.6		0		
+289536	1617	Tujia (Southern)	dzi³³mo³³	dzi³³mo³³	fly	fly	n	2.2.6		0		
+289537	1617	Tujia (Southern)	ʔa³³dʑi³⁵ɣɨe³⁵mo³³	ʔa³³dʑi³⁵ɣɨe³⁵mo³³	mosquito	mosquito		2.2.6		0		
+289538	1617	Tujia (Southern)	tɕe²¹pe²¹sa³³	tɕe²¹pe²¹sa³³	midge	midge		2.2.6		0		
+289539	1617	Tujia (Southern)	ka²¹du̵³⁵se²¹	ka²¹du̵³⁵se²¹	earthworm	earthworm		2.2.6		0		
+289540	1617	Tujia (Southern)	ma³³wã²¹	ma³³wã²¹	leech	leech		2.2.6		0		bChinese
+289541	1617	Tujia (Southern)	tshei³³tshei³³	tshei³³tshei³³	maggot	maggot		2.2.6		0		
+289542	1617	Tujia (Southern)	tei⁵⁵pɨe³⁵be²¹	tei⁵⁵pɨe³⁵be²¹	insect / worm	insect / worm		2.2.6		0		
+289543	1617	Tujia (Southern)	kho³⁵mõ²¹~kho³⁵	kho³⁵mõ²¹~kho³⁵	tree	tree		3.1.2		0		
+289544	1617	Tujia (Southern)	nõ²¹ko⁵⁵kho³⁵	nõ²¹ko⁵⁵kho³⁵	pine	pine		3.1.1		0		
+289545	1617	Tujia (Southern)	so²¹kho³⁵	so²¹kho³⁵	oak	oak		3.1.1		0		
+289546	1617	Tujia (Southern)	liu̵³³kho³⁵~liu̵³³su²¹kho⁵⁵	liu̵³³kho³⁵~liu̵³³su²¹kho⁵⁵	willow	willow		3.1.1		0		
+289547	1617	Tujia (Southern)	mu³³tu̵³⁵	mu³³tu̵³⁵	bamboo	bamboo		3.1.1		0		
+289548	1617	Tujia (Southern)	ʔa⁵⁵ni²¹	ʔa⁵⁵ni²¹	bamboo shoot	bamboo shoot		3.1.1		0		
+289549	1617	Tujia (Southern)	bu²¹le²¹	bu²¹le²¹	rice (plant)	rice (plant)		3.1.4		0		
+289550	1617	Tujia (Southern)	ʔɨ²¹mo²¹	ʔɨ²¹mo²¹	wheat	wheat		3.1.4		0		
+289551	1617	Tujia (Southern)	ʔẽ³³bo³⁵	ʔẽ³³bo³⁵	sorghum	sorghum		3.1.4		0		
+289552	1617	Tujia (Southern)	ʔa²¹bu²¹tɕhi³³	ʔa²¹bu²¹tɕhi³³	maize	maize		3.1.5		0		
+289553	1617	Tujia (Southern)	h̄õ²¹su²¹	h̄õ²¹su²¹	sweet potato	sweet potato		7.1.4.4		0		bChinese
+289554	1617	Tujia (Southern)	jiã²¹jy¹³	jiã²¹jy¹³	potato	potato		3.1.5		0		bChinese
+289555	1617	Tujia (Southern)	jy²¹du̵⁵⁵	jy²¹du̵⁵⁵	taro	taro		3.1.5.1		0		
+289556	1617	Tujia (Southern)	kẽ⁵⁵tsi²¹	kẽ⁵⁵tsi²¹	sugarcane	sugarcane		3.1.5		0		bChinese
+289557	1617	Tujia (Southern)	lo¹³h̄ua³³sẽ³³	lo¹³h̄ua³³sẽ³³	peanut	peanut		3.1.4		0		
+289558	1617	Tujia (Southern)	ʔa²¹h̄ɨe²¹	ʔa²¹h̄ɨe²¹	sesame	sesame		3.1.6.1		0		
+289559	1617	Tujia (Southern)	wo¹³dʑi⁵⁵	wo¹³dʑi⁵⁵	millet	millet		1.5.3.2		0		
+289560	1617	Tujia (Southern)	gu̵¹³h̄ua³³	gu̵¹³h̄ua³³	sunflower	sunflower		3.1.4		0		
+289561	1617	Tujia (Southern)	me³³h̄ua³³	me³³h̄ua³³	cotton	cotton		5.1		0		bChinese
+289562	1617	Tujia (Southern)	ma²¹	ma²¹	ramie	ramie		3.1.8		0		
+289563	1617	Tujia (Southern)	tɕhi¹³bu²¹	tɕhi¹³bu²¹	beans	beans		3.1.4		0		
+289564	1617	Tujia (Southern)	kua³³	kua³³	melon	melon		3.1.5		0		bChinese
+289565	1617	Tujia (Southern)	kua³³	kua³³	pumpkin	pumpkin		3.1.5		0		bChinese
+289566	1617	Tujia (Southern)	wã¹³kua³³	wã¹³kua³³	cucumber	cucumber		3.1.5		0		bChinese
+289567	1617	Tujia (Southern)	ko¹³tɕe⁵⁵	ko¹³tɕe⁵⁵	eggplant	eggplant		3.1.5		0		
+289568	1617	Tujia (Southern)	ʔa²¹ɕi²¹~ʔa²¹ɕe²¹	ʔa²¹ɕi²¹~ʔa²¹ɕe²¹	vegetable	vegetable		3.1.2		0		
+289569	1617	Tujia (Southern)	pɨe³³tshai¹³ʔa²¹ɕi²¹	pɨe³³tshai¹³ʔa²¹ɕi²¹	Chinese cabbage	Chinese cabbage		4.6		0		bChinese,bChinese,m,m
+289570	1617	Tujia (Southern)	la³³bɨe³³	la³³bɨe³³	turnip	turnip		3.1.5		0		
+289571	1617	Tujia (Southern)	dzi³⁵ka²¹la²¹	dzi³⁵ka²¹la²¹	green onion	green onion		9.4		0		
+289572	1617	Tujia (Southern)	ta²¹suã³³	ta²¹suã³³	garlic	garlic		3.1.5		0		b
+289573	1617	Tujia (Southern)	tɕiã³³	tɕiã³³	ginger	ginger		3.1.5		0		
+289574	1617	Tujia (Southern)	ʔa²¹ze²¹phi²¹	ʔa²¹ze²¹phi²¹	hot pepper	hot pepper				0		
+289575	1617	Tujia (Southern)	su³⁵bu²¹	su³⁵bu²¹	fruit	fruit		3.1.5		0		
+289576	1617	Tujia (Southern)	daɨ¹³tsi⁵⁵su³⁵bu²¹	daɨ¹³tsi⁵⁵su³⁵bu²¹	peach	peach		3.1.5		0		
+289577	1617	Tujia (Southern)	li³³tsi²¹	li³³tsi²¹	plum	plum				0		
+289578	1617	Tujia (Southern)	ŋo¹³le⁵⁵	ŋo¹³le⁵⁵	pear	pear		3.1.5		0		
+289579	1617	Tujia (Southern)	tɕi¹³tsi³³	tɕi¹³tsi³³	tangerine	tangerine		3.1.5		0		
+289580	1617	Tujia (Southern)	si¹³tsi⁵⁵su³⁵bu²¹	si¹³tsi⁵⁵su³⁵bu²¹	persimmon	persimmon		3.1.5		0		bChinese,bChinese,m,m
+289581	1617	Tujia (Southern)	bu¹³daɨ³³	bu¹³daɨ³³	grape	grape		3.1.5		0		
+289582	1617	Tujia (Southern)	khɨe⁵⁵sa²¹	khɨe⁵⁵sa²¹	tobacco	tobacco		3.1.6.2		0		
+289583	1617	Tujia (Southern)	ma²¹ka²¹	ma²¹ka²¹	grass	grass		3.1.8		0		
+289584	1617	Tujia (Southern)	tɕỹ¹³	tɕỹ¹³	mushroom	mushroom		3.1.7		0		
+289585	1617	Tujia (Southern)	ʔa³³le³³	ʔa³³le³³	seed	seed		3.1.4		0		p,3560
+289586	1617	Tujia (Southern)	kẽ³³	kẽ³³	root	root		3.1.2		0		
+289587	1617	Tujia (Southern)	tɕĩ³³	tɕĩ³³	stem / stalk	stem / stalk		3.1.2		0		
+289588	1617	Tujia (Southern)	ʔa²¹ɣɨe²¹	ʔa²¹ɣɨe²¹	leaf	leaf		3.1.3		0		m,2085
+289589	1617	Tujia (Southern)	kho³⁵tɕhya⁵⁵~kho³⁵tɕhya⁵⁵tɕhya⁵⁵	kho³⁵tɕhya⁵⁵~kho³⁵tɕhya⁵⁵tɕhya⁵⁵	branch	branch		1.5.3.1		0		
+289590	1617	Tujia (Southern)	ŋa²¹	ŋa²¹	bud	bud		3.1.4		0		
+289591	1617	Tujia (Southern)	kha¹³khɨ⁵⁵	kha¹³khɨ⁵⁵	pit / stone	pit / stone		3.1.2		0		
+289592	1617	Tujia (Southern)	tsu³³pu³⁵	tsu³³pu³⁵	flower	flower		3.1.4		0		
+289593	1617	Tujia (Southern)	ʔa³³phɨe³⁵	ʔa³³phɨe³⁵	ear of grain	ear of grain		1.2.7		0		
+289594	1617	Tujia (Southern)	ʔa³³h̄u̵³³	ʔa³³h̄u̵³³	thorn	thorn		3.1.2		0		
+289595	1617	Tujia (Southern)	tɕĩ²¹	tɕĩ²¹	sinew	sinew		1.6.6.1		0		
+289596	1617	Tujia (Southern)	nia³³	nia³³	person	person		4.5		0		
+289597	1617	Tujia (Southern)	ʔa²¹ko²¹be²¹ŋɨ²¹	ʔa²¹ko²¹be²¹ŋɨ²¹	man / male	man / male		1.9.6.1		0		
+289598	1617	Tujia (Southern)	ʔa²¹jio⁵⁵be²¹ŋɨ²¹	ʔa²¹jio⁵⁵be²¹ŋɨ²¹	woman / female	woman / female		1.9.3		0		
+289599	1617	Tujia (Southern)	ɣu̵³³nia³³	ɣu̵³³nia³³	old person	old person		7.1.8.3		0		
+289600	1617	Tujia (Southern)	si³³la²¹dʑi⁵⁵ʔa⁵⁵ko²¹be²¹	si³³la²¹dʑi⁵⁵ʔa⁵⁵ko²¹be²¹	young man	young man		7.1.8.3		0		
+289601	1617	Tujia (Southern)	si³³la²¹dʑi⁵⁵ʔa¹³jio⁵⁵be²¹	si³³la²¹dʑi⁵⁵ʔa¹³jio⁵⁵be²¹	young woman	young woman		7.1.8.3		0		
+289602	1617	Tujia (Southern)	sa³⁵be²¹	sa³⁵be²¹	child	child		1.5.3.2		0		
+289603	1617	Tujia (Southern)	la³³mo³³	la³³mo³³	friend	friend		4.4.2		0		
+289604	1617	Tujia (Southern)	nia³³ku³⁵tsu⁵⁵	nia³³ku³⁵tsu⁵⁵	enemy	enemy		4.2.6		0		
+289605	1617	Tujia (Southern)	tsu⁵⁵zẽ²¹ka²¹	tsu⁵⁵zẽ²¹ka²¹	host	host		4.4.2		0	D0	
+289606	1617	Tujia (Southern)	mu³³tsha³⁵	mu³³tsha³⁵	guest	guest		4.4.3		0		
+289607	1617	Tujia (Southern)	mu²¹tɕiã¹³	mu²¹tɕiã¹³	carpenter	carpenter		4.2.1.4		0		bChinese
+289608	1617	Tujia (Southern)	tsu⁵⁵ɕi²¹	tsu⁵⁵ɕi²¹	chairman	chairman				0	D0	
+289609	1617	Tujia (Southern)	tsõ⁵⁵li⁵⁵	tsõ⁵⁵li⁵⁵	prime minister	prime minister				0		
+289610	1617	Tujia (Southern)	bu³⁵tsã⁵⁵	bu³⁵tsã⁵⁵	minister	minister				0		
+289611	1617	Tujia (Southern)	ɕiã¹³tsã⁵⁵	ɕiã¹³tsã⁵⁵	county magistrate	county magistrate				0		
+289612	1617	Tujia (Southern)	su⁵⁵tɕi³³	su⁵⁵tɕi³³	clerk	clerk				0		
+289613	1617	Tujia (Southern)	tã⁵⁵jyã³³	tã⁵⁵jyã³³	party member	party member		4.4		0		
+289614	1617	Tujia (Southern)	duã¹³jyã³³	duã¹³jyã³³	member (of group)	member (of group)		1.5.3.2		0		
+289615	1617	Tujia (Southern)	dõ¹³tsi³⁵	dõ¹³tsi³⁵	comrade	comrade		4.4.2		0		bChinese
+289616	1617	Tujia (Southern)	kã¹³pu³³	kã¹³pu³³	cadre	cadre		4.4		0		
+289617	1617	Tujia (Southern)	dʑỹ²¹tsõ¹³	dʑỹ²¹tsõ¹³	masses	masses				0		
+289618	1617	Tujia (Southern)	ʔa²¹pho⁵⁵	ʔa²¹pho⁵⁵	official	official	n	5.8		0		
+289619	1617	Tujia (Southern)	mo³³	mo³³	soldier	soldier		4.2.6		0		257
+289620	1617	Tujia (Southern)	kõ³³ze⁵⁵	kõ³³ze⁵⁵	worker	worker		6.1.1		0		bChinese
+289621	1617	Tujia (Southern)	ku¹³fu⁵⁵zi¹³nia³³	ku¹³fu⁵⁵zi¹³nia³³	farmer	farmer		9.10.5		0		
+289622	1617	Tujia (Southern)	ɕe³³si³³bo³⁵	ɕe³³si³³bo³⁵	headman	headman		4.2.5.2		0		
+289623	1617	Tujia (Southern)	se³⁵po³³lo³³nia³³	se³⁵po³³lo³³nia³³	doctor	doctor		4.2.1.5		0		
+289624	1617	Tujia (Southern)	ɕe³³si³³bo³⁵	ɕe³³si³³bo³⁵	teacher	teacher		6.19		0		
+289625	1617	Tujia (Southern)	mu³³tshi⁵⁵thu̵²¹	mu³³tshi⁵⁵thu̵²¹	student	student		4.2.2		0		
+289626	1617	Tujia (Southern)	tai³⁵piaɨ⁵⁵	tai³⁵piaɨ⁵⁵	representative	representative		4.2.5.2		0		
+289627	1617	Tujia (Southern)	mo³³fã²¹	mo³³fã²¹	model (examplary person)	model (examplary person)		5.11		0		
+289628	1617	Tujia (Southern)	jĩ³³ɕiõ³³	jĩ³³ɕiõ³³	hero	hero		4.2.3		0		bChinese
+289629	1617	Tujia (Southern)	mĩ²¹tshu̵²̄¹	mĩ²¹tshu̵²̄¹	nationality	nationality		5.8		0		bChinese
+289630	1617	Tujia (Southern)	pha⁵⁵lɨ²¹	pha⁵⁵lɨ²¹	Chinese (nationality)	Chinese (nationality)		4.6		0		
+289631	1617	Tujia (Southern)	mõ²¹dzi²¹	mõ²¹dzi²¹	Tujia (nationality)	Tujia (nationality)		5.8		0		
+289632	1617	Tujia (Southern)	bɨe³³de³⁵	bɨe³³de³⁵	Miao (nationality)	Miao (nationality)		5.8		0		
+289633	1617	Tujia (Southern)	ʔa²¹khu̵⁵⁵	ʔa²¹khu̵⁵⁵	grandfather	grandfather		4.7.1		0		
+289634	1617	Tujia (Southern)	ʔa²¹pho²¹	ʔa²¹pho²¹	grandmother	grandmother		4.7.1		0		
+289635	1617	Tujia (Southern)	ʔa²¹ta⁵⁵	ʔa²¹ta⁵⁵	father	father		4.7.1		0		
+289636	1617	Tujia (Southern)	ʔa²¹ma²¹	ʔa²¹ma²¹	mother	mother		4.7.1		0		
+289637	1617	Tujia (Southern)	bo³³tɕhi³³	bo³³tɕhi³³	elder paternal uncle	elder paternal uncle		4.7.1		0		
+289638	1617	Tujia (Southern)	mu²¹tɕhi³³	mu²¹tɕhi³³	elder paternal uncle's wife	elder paternal uncle's wife		4.7.1		0		
+289639	1617	Tujia (Southern)	bo²¹bo⁵⁵	bo²¹bo⁵⁵	younger paternal uncle	younger paternal uncle		4.7.1		0		
+289640	1617	Tujia (Southern)	ze³³ze³³	ze³³ze³³	younger paternal uncle's wife	younger paternal uncle's wife		4.7.1		0		
+289641	1617	Tujia (Southern)	kɨ¹³ze¹³	kɨ¹³ze¹³	paternal aunt's husband	paternal aunt's husband		4.7.1		0		
+289642	1617	Tujia (Southern)	ʔa³³mi³³	ʔa³³mi³³	paternal aunt	paternal aunt		4.7.1		0		
+289643	1617	Tujia (Southern)	tɕiu̵³⁵tɕiu̵²¹	tɕiu̵³⁵tɕiu̵²¹	maternal uncle	maternal uncle		4.7.1		0		
+289644	1617	Tujia (Southern)	tɕiu̵¹³mõ⁵⁵	tɕiu̵¹³mõ⁵⁵	maternal uncle's wife	maternal uncle's wife		1.5.3.2		0		
+289645	1617	Tujia (Southern)	ji¹³je³³	ji¹³je³³	maternal aunt's husband	maternal aunt's husband		1.5.3.2		0		
+289646	1617	Tujia (Southern)	ji¹³niã³³	ji¹³niã³³	maternal aunt	maternal aunt		4.7.1		0		
+289647	1617	Tujia (Southern)	gu̵³³ze³³	gu̵³³ze³³	father-in-law	father-in-law		4.7.4		0		
+289648	1617	Tujia (Southern)	ʔa³³mi³³	ʔa³³mi³³	mother-in-law	mother-in-law		4.7.4		0		
+289649	1617	Tujia (Southern)	ka³³kõ³³	ka³³kõ³³	maternal grandfather	maternal grandfather		4.7.1		0		
+289650	1617	Tujia (Southern)	ka³³bo³³	ka³³bo³³	maternal grandmother	maternal grandmother		4.7.1		0		
+289651	1617	Tujia (Southern)	ʔa²¹ko²¹	ʔa²¹ko²¹	elder brother	elder brother		4.7.1		0		
+289652	1617	Tujia (Southern)	ta²¹saɨ⁵⁵	ta²¹saɨ⁵⁵	elder brother's wife	elder brother's wife		1.5.3.2		0		
+289653	1617	Tujia (Southern)	ʔa²¹jio⁵⁵	ʔa²¹jio⁵⁵	elder sister	elder sister		4.7.1		0		
+289654	1617	Tujia (Southern)	piaɨ⁵⁵ko⁵⁵	piaɨ⁵⁵ko⁵⁵	elder sister's husband	elder sister's husband		4.7.1		0		
+289655	1617	Tujia (Southern)	ʔa³³ŋo³⁵	ʔa³³ŋo³⁵	younger brother	younger brother				0		
+289656	1617	Tujia (Southern)	ʔa²¹mĩ⁵⁵	ʔa²¹mĩ⁵⁵	younger sister	younger sister				0		
+289657	1617	Tujia (Southern)	zu⁵⁵ŋɨ²¹	zu⁵⁵ŋɨ²¹	husband	husband		4.7.4		0		
+289658	1617	Tujia (Southern)	zu²¹ŋɨ²¹	zu²¹ŋɨ²¹	wife	wife		4.7.4		0		
+289659	1617	Tujia (Southern)	be²¹~be²¹ŋɨ²¹	be²¹~be²¹ŋɨ²¹	son	son		4.7.3		0		
+289660	1617	Tujia (Southern)	phu²¹~phu²¹ŋɨ²¹	phu²¹~phu²¹ŋɨ²¹	daughter-in-law	daughter-in-law		4.7.4		0		
+289661	1617	Tujia (Southern)	be²¹je²¹	be²¹je²¹	daughter	daughter		4.7.3		0		
+289662	1617	Tujia (Southern)	mo²¹~mo²¹ŋɨ²¹	mo²¹~mo²¹ŋɨ²¹	son-in-law	son-in-law		4.7.4		0		
+289663	1617	Tujia (Southern)	tsi¹³tsi⁵⁵	tsi¹³tsi⁵⁵	nephew	nephew		4.7.3		0		
+289664	1617	Tujia (Southern)	tsi²¹be²¹je²¹te³⁵	tsi²¹be²¹je²¹te³⁵	niece	niece		4.7.3		0		
+289665	1617	Tujia (Southern)	ze³³~ze³³be²¹	ze³³~ze³³be²¹	grandson	grandson		4.7.3		0		
+289666	1617	Tujia (Southern)	ze³³be³³je²¹	ze³³be³³je²¹	granddaughter	granddaughter		4.7.3		0		
+289667	1617	Tujia (Southern)	ʔa³³dza³³mo³³	ʔa³³dza³³mo³³	relative	relative		4.7.5		0		
+289668	1617	Tujia (Southern)	tsha³³	tsha³³	house	house		5.11.9.1		0		
+289669	1617	Tujia (Southern)	tsha³³	tsha³³	home	home		5.11.9.6		0		
+289670	1617	Tujia (Southern)	dʑiã³³bo⁵⁵	dʑiã³³bo⁵⁵	wall	wall		5.11.9.3		0		
+289671	1617	Tujia (Southern)	tsu¹³du̵³³	tsu¹³du̵³³	pole	pole		9.7.1		0		
+289672	1617	Tujia (Southern)	liã³³	liã³³	beam	beam		5.11.9		0		
+289673	1617	Tujia (Southern)	tsha³³mẽ³³	tsha³³mẽ³³	door	door		5.11.9.3		0		
+289674	1617	Tujia (Southern)	tshuã³³fu²¹	tshuã³³fu²¹	window	window		5.11.9.3		0		bChinese
+289675	1617	Tujia (Southern)	lu̵³³ku̵³³du̵³⁵mu²¹tshi⁵⁵	lu̵³³ku̵³³du̵³⁵mu²¹tshi⁵⁵	lime	lime		3.1.5		0		
+289676	1617	Tujia (Southern)	tɕya³³	tɕya³³	brick	brick		5.11.9.3		0		bChinese
+289677	1617	Tujia (Southern)	ŋo³⁵	ŋo³⁵	tile	tile		5.8		0		b?
+289678	1617	Tujia (Southern)	pã⁵⁵tsi²¹	pã⁵⁵tsi²¹	board / plank	board / plank		5.11.9		0		
+289679	1617	Tujia (Southern)	tẽ³³tsi²¹	tẽ³³tsi²¹	nail	nail		1.5.10		0		bChinese
+289680	1617	Tujia (Southern)	dzẽ³³	dzẽ³³	city	city		9.10.3		0		bChinese
+289681	1617	Tujia (Southern)	ka²¹bu²¹lo⁵⁵	ka²¹bu²¹lo⁵⁵	street	street		9.10.1		0		
+289682	1617	Tujia (Southern)	ji³³bu²¹	ji³³bu²¹	village	village		5.8		0		
+289683	1617	Tujia (Southern)	miaɨ¹³	miaɨ¹³	temple	temple		1.2.5.1		0		bChinese
+289684	1617	Tujia (Southern)	mu²¹de²¹	mu²¹de²¹	grave	grave		9.10.6		0		
+289685	1617	Tujia (Southern)	ʔu²¹dʑi²¹	ʔu²¹dʑi²¹	granary	granary		5.11.9.5		0		
+289686	1617	Tujia (Southern)	ko³⁵	ko³⁵	vegetable garden	vegetable garden		3.1.2		0		
+289687	1617	Tujia (Southern)	li²¹pa²¹	li²¹pa²¹	fence	fence		5.11.9.5		0		
+289688	1617	Tujia (Southern)	kɨ²¹da³⁵	kɨ²¹da³⁵	enclosure (pen)	enclosure (pen)		9.10.5		0		
+289689	1617	Tujia (Southern)	ʔa³³tu̵³³	ʔa³³tu̵³³	nest	nest		2.2.4		0		p,3445
+289690	1617	Tujia (Southern)	pu³³tɕi³⁵	pu³³tɕi³⁵	scarf for the head / turban	scarf for the head / turban		5.11.8.2.1.1		0		
+289691	1617	Tujia (Southern)	maɨ⁵⁵tu̵⁵⁵	maɨ⁵⁵tu̵⁵⁵	bamboo hat	bamboo hat		3.1.1		0		
+289692	1617	Tujia (Southern)	h̄o²¹tɕi³⁵	h̄o²¹tɕi³⁵	earring	earring		5.11.8.3		0		
+289693	1617	Tujia (Southern)	saɨ⁵⁵tɕhyã⁵⁵	saɨ⁵⁵tɕhyã⁵⁵	bracelet	bracelet		5.11.8.3		0		
+289694	1617	Tujia (Southern)	saɨ⁵⁵piaɨ⁵⁵	saɨ⁵⁵piaɨ⁵⁵	wristwatch	wristwatch		5.11.8.3		0		bChinese
+289695	1617	Tujia (Southern)	kai¹³tsi⁵⁵	kai¹³tsi⁵⁵	ring	ring		5.11.8.3		0		
+289696	1617	Tujia (Southern)	ɕi³³ti³⁵	ɕi³³ti³⁵	clothes	clothes		5.11.8.2.1		0		
+289697	1617	Tujia (Southern)	ji⁵⁵ɕi²¹dõ³⁵	ji⁵⁵ɕi²¹dõ³⁵	sleeve	sleeve		5.11.8.2.3		0		
+289698	1617	Tujia (Southern)	so³³ji³³	so³³ji³³	raincoat	raincoat		5.11.8.2.2		0		
+289699	1617	Tujia (Southern)	khu⁵⁵dɨe²¹	khu⁵⁵dɨe²¹	trousers / pants	trousers / pants		5.11.8.2.1.3		0		bChinese,m
+289700	1617	Tujia (Southern)	dʑyĩ³³bo³³	dʑyĩ³³bo³³	skirt	skirt		5.11.8.2.1		0		
+289701	1617	Tujia (Southern)	ko⁵⁵tɕio²¹	ko⁵⁵tɕio²¹	legging	legging		5.11.8.1		0		
+289702	1617	Tujia (Southern)	lo³³ɕe⁵⁵	lo³³ɕe⁵⁵	shoe	shoe		5.11.8.1		0		
+289703	1617	Tujia (Southern)	ʔo³⁵	ʔo³⁵	socks	socks		5.11.8.2.1.3		0		
+289704	1617	Tujia (Southern)	lo³³tsha³³	lo³³tsha³³	mosquito net	mosquito net		2.2.6		0		
+289705	1617	Tujia (Southern)	ʔu³³ni³⁵	ʔu³³ni³⁵	quilt	quilt		5.1		0		
+289706	1617	Tujia (Southern)	mu²¹se⁵⁵	mu²¹se⁵⁵	mat	mat		5.11.9.4		0		
+289707	1617	Tujia (Southern)	ʔa²¹po³³tiã³³tu²¹	ʔa²¹po³³tiã³³tu²¹	pillow	pillow		1.2.1		0		
+289708	1617	Tujia (Southern)	lo³³	lo³³	cloth	cloth		5.1		0		
+289709	1617	Tujia (Southern)	si³³ɣɨe⁵⁵	si³³ɣɨe⁵⁵	rice (uncooked)	rice (uncooked)		3.1.4		0		
+289710	1617	Tujia (Southern)	dʑia¹³mẽ²¹fẽ⁵⁵	dʑia¹³mẽ²¹fẽ⁵⁵	flour	flour		3.1.6.2		0		m,bChinese,bChinese
+289711	1617	Tujia (Southern)	dzi³⁵	dzi³⁵	rice (cooked)	rice (cooked)		3.1.4		0		
+289712	1617	Tujia (Southern)	dzi³⁵bi⁵⁵	dzi³⁵bi⁵⁵	gruel	gruel		5.5		0		
+289713	1617	Tujia (Southern)	ʔa²¹si⁵⁵	ʔa²¹si⁵⁵	salt	salt		3.2.4		0		
+289714	1617	Tujia (Southern)	ʔa²¹ɕi²¹	ʔa²¹ɕi²¹	dish	dish		5.5		0		
+289715	1617	Tujia (Southern)	thã³³	thã³³	soup	soup		5.5		0		
+289716	1617	Tujia (Southern)	ze²¹	ze²¹	liquor	liquor		3.1.6.3		0		
+289717	1617	Tujia (Southern)	tsõ³⁵pa³³tshi²¹nõ²¹	tsõ³⁵pa³³tshi²¹nõ²¹	dumpling (glutinous rice)	dumpling (glutinous rice)		5.5		0		
+289718	1617	Tujia (Southern)	kɨ³³tso³³tshe³⁵	kɨ³³tso³³tshe³⁵	tea	tea		3.1.1		0		
+289719	1617	Tujia (Southern)	kɨ²¹bɨe³³	kɨ²¹bɨe³³	bran	bran		3.1.4		0		
+289720	1617	Tujia (Southern)	kɨ²¹bɨe³³ɕi²¹ni¹³	kɨ²¹bɨe³³ɕi²¹ni¹³	bran (fine)	bran (fine)		3.1.4		0		
+289721	1617	Tujia (Southern)	kɨ²¹bɨe³³tshu³³	kɨ²¹bɨe³³tshu³³	husk	husk		3.1.2		0		
+289722	1617	Tujia (Southern)	si²¹	si²¹	feed	feed	n	1.3.5.8		0		
+289723	1617	Tujia (Southern)	ʔa²¹ze²¹dzɨe²¹	ʔa²¹ze²¹dzɨe²¹	sugar	sugar		3.1.6.2		0		
+289724	1617	Tujia (Southern)	dã³³sã³³	dã³³sã³³	doughnut	doughnut				0		
+289725	1617	Tujia (Southern)	mo¹³si¹³	mo¹³si¹³	bean curd	bean curd		3.1.4		0		
+289726	1617	Tujia (Southern)	pai³³bu̵³³	pai³³bu̵³³	ax	ax		5.11.5.3		0		
+289727	1617	Tujia (Southern)	tɕi¹³to³³	tɕi¹³to³³	cleaver	cleaver				0		
+289728	1617	Tujia (Southern)	tɕi¹³to³³	tɕi¹³to³³	knife (for wood)	knife (for wood)		5.5		0		
+289729	1617	Tujia (Southern)	kɨ²¹tsho⁵⁵	kɨ²¹tsho⁵⁵	sickle	sickle		5.3		0		
+289730	1617	Tujia (Southern)	ɕi³⁵to²¹	ɕi³⁵to²¹	hoe	hoe		5.3		0		
+289731	1617	Tujia (Southern)	li²¹tsho²¹~li²¹tɕhio²¹	li²¹tsho²¹~li²¹tɕhio²¹	plough	plough	n	5.3		0		
+289732	1617	Tujia (Southern)	ba²¹	ba²¹	rake	rake		5.1		0		
+289733	1617	Tujia (Southern)	lo²¹po³³	lo²¹po³³	yoke	yoke		5.14		0		
+289734	1617	Tujia (Southern)	tɕi³³tɕhi³³	tɕi³³tɕhi³³	machine	machine		5.1		0		
+289735	1617	Tujia (Southern)	tho³³la³³tɕi³³li²¹tsho²¹	tho³³la³³tɕi³³li²¹tsho²¹	tractor	tractor				0		
+289736	1617	Tujia (Southern)	to³³tɕi³⁵tsha³³	to³³tɕi³⁵tsha³³	loom	loom		5.1		0		
+289737	1617	Tujia (Southern)	tsho³³	tsho³³	spinning wheel	spinning wheel		6.7.6		0		
+289738	1617	Tujia (Southern)	piaɨ³⁵so⁵⁵	piaɨ³⁵so⁵⁵	shuttle	shuttle		5.1		0		
+289739	1617	Tujia (Southern)	tu⁵⁵mu⁵⁵	tu⁵⁵mu⁵⁵	yarn	yarn		5.1		0		
+289740	1617	Tujia (Southern)	ɕe²¹dzuei²¹	ɕe²¹dzuei²¹	spade	spade		5.3		0		
+289741	1617	Tujia (Southern)	khɨ⁵⁵tho⁵⁵	khɨ⁵⁵tho⁵⁵	saw	saw		5.11.5.3		0		
+289742	1617	Tujia (Southern)	ʔa²¹ɣɨe⁵⁵	ʔa²¹ɣɨe⁵⁵	needle	needle		5.1		0		
+289743	1617	Tujia (Southern)	tu³³mu³⁵	tu³³mu³⁵	thread	thread		5.11.6		0		
+289744	1617	Tujia (Southern)	si²¹lo³³	si²¹lo³³	rope	rope		5.11.4		0		
+289745	1617	Tujia (Southern)	tshõ¹³	tshõ¹³	gun	gun		5.15		0		bChinese
+289746	1617	Tujia (Southern)	phaɨ²¹~tshõ¹³tɕhi³³	phaɨ²¹~tshõ¹³tɕhi³³	cannon	cannon		5.15		0		
+289747	1617	Tujia (Southern)	tsi⁵⁵tã³³	tsi⁵⁵tã³³	bullet	bullet		5.15		0		bChinese
+289748	1617	Tujia (Southern)	kõ³³	kõ³³	bow (weapon)	bow (weapon)		5.15		0		
+289749	1617	Tujia (Southern)	tɕiã¹³	tɕiã¹³	arrow	arrow		5.15		0		
+289750	1617	Tujia (Southern)	so⁵⁵piaɨ³³	so⁵⁵piaɨ³³	spear	spear		5.14		0		
+289751	1617	Tujia (Southern)	kho³⁵h̄o²¹	kho³⁵h̄o²¹	stick	stick		3.1.2		0		
+289752	1617	Tujia (Southern)	piã³³tsi²¹	piã³³tsi²¹	whip	whip		5.14		0		bChinese
+289753	1617	Tujia (Southern)	ŋã³³tsi²¹	ŋã³³tsi²¹	saddle	saddle		5.14		0		bChinese
+289754	1617	Tujia (Southern)	ti²¹kɨ²¹	ti²¹kɨ²¹	dustpan / winnowing sieve	dustpan / winnowing sieve		5.1		0		
+289755	1617	Tujia (Southern)	su³³sa³³	su³³sa³³	sieve	sieve	n	5.5		0		
+289756	1617	Tujia (Southern)	mu̵⁵⁵	mu̵⁵⁵	mill	mill		3.1.10		0		
+289757	1617	Tujia (Southern)	sa²¹pa²¹	sa²¹pa²¹	pestle	pestle		5.5		0		
+289758	1617	Tujia (Southern)	lo¹³khuã⁵⁵	lo¹³khuã⁵⁵	large bamboo basket	large bamboo basket		9.7.1		0		bChinese
+289759	1617	Tujia (Southern)	so³³po³⁵	so³³po³⁵	lock	lock		1.2.3		0		
+289760	1617	Tujia (Southern)	jio²¹si²¹	jio²¹si²¹	key	key		5.1		0		
+289761	1617	Tujia (Southern)	tɨ³³h̄ɨ³⁵	tɨ³³h̄ɨ³⁵	broom	broom		5.4		0		
+289762	1617	Tujia (Southern)	tu̵²¹ku̵²¹	tu̵²¹ku̵²¹	pot / wok	pot / wok		5.5		0		
+289763	1617	Tujia (Southern)	ko⁵⁵tshã²¹	ko⁵⁵tshã²¹	cooking pot	cooking pot		5.5		0		
+289764	1617	Tujia (Southern)	tɕe²¹pe²¹	tɕe²¹pe²¹	pot (tripod)	pot (tripod)		5.5		0		
+289765	1617	Tujia (Southern)	bu̵¹³	bu̵¹³	rice steamer	rice steamer		3.1.4		0		
+289766	1617	Tujia (Southern)	tsaɨ³³	tsaɨ³³	stove / kitchen	stove / kitchen		5.5		0		
+289767	1617	Tujia (Southern)	da¹³ni⁵⁵	da¹³ni⁵⁵	lid	lid		5.1		0		
+289768	1617	Tujia (Southern)	thõ⁵⁵	thõ⁵⁵	bucket (carried on pole)	bucket (carried on pole)		5.1		0		
+289769	1617	Tujia (Southern)	lu̵³³thu̵³⁵	lu̵³³thu̵³⁵	bucket (carried on back)	bucket (carried on back)		5.1		0		
+289770	1617	Tujia (Southern)	ji⁵⁵tu̵³⁵	ji⁵⁵tu̵³⁵	wash basin	wash basin		6.2.2.5.2		0		
+289771	1617	Tujia (Southern)	ɕe¹³da⁵⁵~ɕe¹³do⁵⁵	ɕe¹³da⁵⁵~ɕe¹³do⁵⁵	tripod	tripod		5.11.9.6		0		
+289772	1617	Tujia (Southern)	tsẽ⁵⁵pã⁵⁵	tsẽ⁵⁵pã⁵⁵	chopping block	chopping block		6.9.3		0		
+289773	1617	Tujia (Southern)	ʔa²¹ɕi²¹saɨ³³tɕi⁵⁵	ʔa²¹ɕi²¹saɨ³³tɕi⁵⁵	colander	colander		5.5		0		
+289774	1617	Tujia (Southern)	ʔa³³the³⁵	ʔa³³the³⁵	bowl	bowl		5.1		0		
+289775	1617	Tujia (Southern)	mu²¹dzi²¹	mu²¹dzi²¹	chopsticks	chopsticks		5.5		0		
+289776	1617	Tujia (Southern)	bã³³tsi³³	bã³³tsi³³	plate	plate		5.5		0		
+289777	1617	Tujia (Southern)	bĩ³³tsi³³	bĩ³³tsi³³	bottle	bottle		5.1		0		bChinese
+289778	1617	Tujia (Southern)	tso²¹tsi²¹	tso²¹tsi²¹	table	table		5.11.9.4		0		bChinese
+289779	1617	Tujia (Southern)	phai³³dʑi¹³	phai³³dʑi¹³	chair / stool	chair / stool		5.11.9.4		0		
+289780	1617	Tujia (Southern)	phai³³dʑi¹³ɣɨe³⁵	phai³³dʑi¹³ɣɨe³⁵	bench	bench		5.11.9.4		0		
+289781	1617	Tujia (Southern)	ne²¹do³⁵	ne²¹do³⁵	bed	bed		1.5.3.2		0		
+289782	1617	Tujia (Southern)	thi³³tsi³³	thi³³tsi³³	ladder	ladder		5.4		0		bChinese
+289783	1617	Tujia (Southern)	ɕiã³³tsi³³	ɕiã³³tsi³³	trunk / box	trunk / box		1.4.1		0		bChinese
+289784	1617	Tujia (Southern)	tsaɨ¹³tɕĩ³³	tsaɨ¹³tɕĩ³³	mirror	mirror		5.11.8.3		0		
+289785	1617	Tujia (Southern)	ɕe²¹be³³	ɕe²¹be³³	comb	comb	n	1.2.2.1		0		
+289786	1617	Tujia (Southern)	mu²¹dʑe⁵⁵	mu²¹dʑe⁵⁵	scissors	scissors		5.11.5.3		0		
+289787	1617	Tujia (Southern)	fei¹³tsaɨ⁵⁵	fei¹³tsaɨ⁵⁵	soap	soap		5.11.8.4		0		bChinese
+289788	1617	Tujia (Southern)	tiã¹³h̄ua⁵⁵	tiã¹³h̄ua⁵⁵	telephone	telephone				0		
+289789	1617	Tujia (Southern)	ku²¹su³⁵	ku²¹su³⁵	lamp	lamp		5.11.5.5		0		
+289790	1617	Tujia (Southern)	tiã³³tẽ³³ku²¹su³⁵	tiã³³tẽ³³ku²¹su³⁵	electric lamp	electric lamp		5.11.5.5		0		
+289791	1617	Tujia (Southern)	la²¹tsu²¹	la²¹tsu²¹	candle	candle		5.11.5.5		0		bChinese
+289792	1617	Tujia (Southern)	mi⁵⁵kho³⁵	mi⁵⁵kho³⁵	match	match	n	5.11.5.5		0		
+289793	1617	Tujia (Southern)	tɕhi²¹	tɕhi²¹	lacquer	lacquer		5.8		0		
+289794	1617	Tujia (Southern)	kho³⁵	kho³⁵	firewood	firewood		5.11.5.5		0		
+289795	1617	Tujia (Southern)	kho³⁵h̄o²¹	kho³⁵h̄o²¹	wood	wood		3.1.2		0		
+289796	1617	Tujia (Southern)	mu¹³tshi⁵⁵	mu¹³tshi⁵⁵	ashes	ashes		3.2.12.2		0		
+289797	1617	Tujia (Southern)	lo³³	lo³³	road / way	road / way		9.10.1		0		
+289798	1617	Tujia (Southern)	ɕe¹³lo³³	ɕe¹³lo³³	railroad	railroad		5.1		0		bChinese
+289799	1617	Tujia (Southern)	kõ³³lu²¹lo³³	kõ³³lu²¹lo³³	highway	highway		9.10.1		0		
+289800	1617	Tujia (Southern)	dʑiaɨ³³	dʑiaɨ³³	bridge	bridge		9.10.2		0		
+289801	1617	Tujia (Southern)	tshe³³tsi²¹	tshe³³tsi²¹	vehicle	vehicle		5.1		0		bChinese
+289802	1617	Tujia (Southern)	h̄o⁵⁵tshe³³	h̄o⁵⁵tshe³³	train	train		5.1		0		
+289803	1617	Tujia (Southern)	tɕhi³³tshe³³	tɕhi³³tshe³³	car	car		5.1		0		bChinese
+289804	1617	Tujia (Southern)	bu¹³	bu¹³	boat	boat		5.1		0		
+289805	1617	Tujia (Southern)	fuei³³tɕi³³	fuei³³tɕi³³	airplane	airplane		5.1		0		bChinese
+289806	1617	Tujia (Southern)	sã³³dã¹³	sã³³dã¹³	shop	shop		9.10.6		0		bChinese
+289807	1617	Tujia (Southern)	ku²¹lu²¹	ku²¹lu²¹	money	money		5.9		0		
+289808	1617	Tujia (Southern)	ʔa³³ɣu̵³³dʑi³³	ʔa³³ɣu̵³³dʑi³³	price	price		5.9		0		
+289809	1617	Tujia (Southern)	nĩ²¹h̄ã²¹	nĩ²¹h̄ã²¹	bank (for money)	bank (for money)		9.10.2		0		bChinese
+289810	1617	Tujia (Southern)	li¹³ɕi³³	li¹³ɕi³³	interest	interest		8.3.2.6.1		0		
+289811	1617	Tujia (Southern)	ʔa³³ɣu̵³³dʑi³³	ʔa³³ɣu̵³³dʑi³³	wages	wages		5.9		0		
+289812	1617	Tujia (Southern)	tshe³³si³³	tshe³³si³³	paper	paper		5.1		0		
+289813	1617	Tujia (Southern)	kã³³pi²¹	kã³³pi²¹	pen	pen		5.1		0		bChinese
+289814	1617	Tujia (Southern)	jyã¹³pi²¹	jyã¹³pi²¹	pencil	pencil		5.1		0		bChinese
+289815	1617	Tujia (Southern)	mɨe²¹	mɨe²¹	ink cake	ink cake		5.1		0		bChinese
+289816	1617	Tujia (Southern)	mɨe²¹tshe³⁵	mɨe²¹tshe³⁵	ink	ink		5.1		0		bChinese,m
+289817	1617	Tujia (Southern)	mu³³tshi³³	mu³³tshi³³	word / character	word / character		8.5.10.2		0		
+289818	1617	Tujia (Southern)	mu³³tshi³³	mu³³tshi³³	book	book		5.1		0		
+289819	1617	Tujia (Southern)	ɕĩ²¹	ɕĩ²¹	letter	letter		5.1		0		bChinese
+289820	1617	Tujia (Southern)	ʔa²¹pho⁵⁵	ʔa²¹pho⁵⁵	song	song		5.1		0		
+289821	1617	Tujia (Southern)	ʔa²¹pho⁵⁵	ʔa²¹pho⁵⁵	folk song	folk song		5.1		0		
+289822	1617	Tujia (Southern)	ku³³ne³⁵	ku³³ne³⁵	story	story		5.8		0		bChinese,m
+289823	1617	Tujia (Southern)	ʔa²¹ɕi²¹niã³⁵dʑi²¹	ʔa²¹ɕi²¹niã³⁵dʑi²¹	marriage song	marriage song		5.8		0		
+289824	1617	Tujia (Southern)	tiã²¹jĩ³³	tiã²¹jĩ³³	movie	movie		5.8		0		bChinese
+289825	1617	Tujia (Southern)	tɕhiu̵³³	tɕhiu̵³³	ball	ball		9.7.1		0		bChinese
+289826	1617	Tujia (Southern)	dʑi²¹tsi²¹	dʑi²¹tsi²¹	flag	flag		5.1		0		
+289827	1617	Tujia (Southern)	so⁵⁵la²¹	so⁵⁵la²¹	flute	flute		5.1		0		
+289828	1617	Tujia (Southern)	tɕe²¹tɕe²¹	tɕe²¹tɕe²¹	gong	gong		5.1		0		
+289829	1617	Tujia (Southern)	h̄ɨe³⁵	h̄ɨe³⁵	drum	drum		5.1		0		
+289830	1617	Tujia (Southern)	tsõ³³	tsõ³³	bell	bell		5.1		0		
+289831	1617	Tujia (Southern)	se³⁵	se³⁵	medicine	medicine		5.4		0		
+289832	1617	Tujia (Southern)	h̄o³⁵	h̄o³⁵	language	language		5.8		0		
+289833	1617	Tujia (Southern)	si¹³tɕĩ³³	si¹³tɕĩ³³	thing / matter / event	thing / matter / event		8.1		0		
+289834	1617	Tujia (Southern)	sẽ¹³	sẽ¹³	surname	surname		5.8		0		
+289835	1617	Tujia (Southern)	niu̵³⁵bo²¹	niu̵³⁵bo²¹	name	name		5.8		0		
+289836	1617	Tujia (Southern)	kha²¹khɨ²¹	kha²¹khɨ²¹	thing	thing		8.1		0		
+289837	1617	Tujia (Southern)	kuei¹³tɕia³³	kuei¹³tɕia³³	country / nation	country / nation		9.10.3		0		bChinese
+289838	1617	Tujia (Southern)	tsẽ¹³fu⁵⁵	tsẽ¹³fu⁵⁵	government	government		5.8		0		
+289839	1617	Tujia (Southern)	kõ¹³tshã⁵⁵tã⁵⁵	kõ¹³tshã⁵⁵tã⁵⁵	communist party	communist party		4.4		0		bChinese
+289840	1617	Tujia (Southern)	kõ¹³tɕhĩ³³duã³³	kõ¹³tɕhĩ³³duã³³	communist youth league	communist youth league		4.2.11		0		bChinese
+289841	1617	Tujia (Southern)	zẽ³³mĩ²¹	zẽ³³mĩ²¹	people	people		4.5		0		
+289842	1617	Tujia (Southern)	kõ³³ze³³kai³³tɕi²¹	kõ³³ze³³kai³³tɕi²¹	proletariat	proletariat				0		
+289843	1617	Tujia (Southern)	kõ¹³tshã⁵⁵tsu⁵⁵ni¹³	kõ¹³tshã⁵⁵tsu⁵⁵ni¹³	communism	communism				0		
+289844	1617	Tujia (Southern)	se¹³xuei²¹tsu⁵⁵ni¹³	se¹³xuei²¹tsu⁵⁵ni¹³	socialism	socialism				0		
+289845	1617	Tujia (Southern)	tsẽ¹³tsi²¹	tsẽ¹³tsi²¹	politics	politics				0		
+289846	1617	Tujia (Southern)	tɕĩ³³tɕi²¹	tɕĩ³³tɕi²¹	economy	economy				0		
+289847	1617	Tujia (Southern)	wẽ²¹h̄ua²¹	wẽ²¹h̄ua²¹	culture	culture				0		
+289848	1617	Tujia (Southern)	sa³⁵~tɕiaɨ¹³jyi³³	sa³⁵~tɕiaɨ¹³jyi³³	education	education				0		
+289849	1617	Tujia (Southern)	wuei¹³sẽ³³	wuei¹³sẽ³³	hygiene	hygiene				0		
+289850	1617	Tujia (Southern)	kɨe³³mĩ¹³	kɨe³³mĩ¹³	revolution	revolution				0		bChinese
+289851	1617	Tujia (Southern)	jyĩ¹³tõ³³	jyĩ¹³tõ³³	movement (political)	movement (political)				0		
+289852	1617	Tujia (Southern)	tsẽ¹³tshe³³	tsẽ¹³tshe³³	policy	policy				0		
+289853	1617	Tujia (Southern)	tsõ⁵⁵lu³⁵ɕiã¹³	tsõ⁵⁵lu³⁵ɕiã¹³	general line (political)	general line (political)		10.4.1.1		0		
+289854	1617	Tujia (Southern)	si³³ɕiã⁵⁵	si³³ɕiã⁵⁵	ideology	ideology				0		
+289855	1617	Tujia (Southern)	tɕio⁵⁵wu²¹	tɕio⁵⁵wu²¹	consciousness (class)	consciousness (class)		1.1.4		0		bChinese
+289856	1617	Tujia (Southern)	paɨ¹³kaɨ³³	paɨ¹³kaɨ³³	report	report		8.5.3		0		
+289857	1617	Tujia (Southern)	pã¹³fa⁵⁵	pã¹³fa⁵⁵	method	method		8.1		0		bChinese
+289858	1617	Tujia (Southern)	zẽ¹³wu⁵⁵	zẽ¹³wu⁵⁵	duty	duty		8.1		0		
+289859	1617	Tujia (Southern)	jiu̵³³tiã⁵⁵	jiu̵³³tiã⁵⁵	advantage	advantage		8.1		0		
+289860	1617	Tujia (Southern)	tɕhye¹³tiã⁵⁵	tɕhye¹³tiã⁵⁵	drawback	drawback				0		
+289861	1617	Tujia (Southern)	tsho¹³wu³³	tsho¹³wu³³	error	error		6.2		0		
+289862	1617	Tujia (Southern)	tsẽ⁵⁵fõ³³	tsẽ⁵⁵fõ³³	rectification	rectification				0		
+289863	1617	Tujia (Southern)	thai¹³tu³³	thai¹³tu³³	attitude	attitude		8.3		0		
+289864	1617	Tujia (Southern)	tsẽ³³niã²¹	tsẽ³³niã²¹	experience	experience		8.3		0		
+289865	1617	Tujia (Southern)	tɕi¹³h̄ua³³	tɕi¹³h̄ua³³	plan	plan	n	8.3		0		
+289866	1617	Tujia (Southern)	ji¹³tɕiã³³	ji¹³tɕiã³³	opinion	opinion		8.3.1.12.1		0		
+289867	1617	Tujia (Southern)	tɕi¹³su³³	tɕi¹³su³³	technology	technology				0		
+289868	1617	Tujia (Southern)	kõ³³tshã⁵⁵	kõ³³tshã⁵⁵	factory	factory		9.10.6		0		
+289869	1617	Tujia (Southern)	kõ³³ne³³	kõ³³ne³³	industry	industry		5.11		0		
+289870	1617	Tujia (Southern)	nõ¹³ne³³	nõ¹³ne³³	agriculture	agriculture		3.1.9		0		bChinese
+289871	1617	Tujia (Southern)	ɕiaɨ²¹dã⁵⁵	ɕiaɨ²¹dã⁵⁵	school	school		5.8		0		
+289872	1617	Tujia (Southern)	mĩ¹³tsu⁵⁵	mĩ¹³tsu⁵⁵	democracy	democracy				0		
+289873	1617	Tujia (Southern)	dzi¹³jiu̵³³	dzi¹³jiu̵³³	freedom	freedom				0		
+289874	1617	Tujia (Southern)	bo¹³	bo¹³	look	look		1.2.6.11		0		
+289875	1617	Tujia (Southern)	dzo¹³	dzo¹³	take	take		6.21		0		
+289876	1617	Tujia (Southern)	pɨe³³	pɨe³³	strike with open palm	strike with open palm		6.8		0		5823
+289877	1617	Tujia (Southern)	dzo¹³	dzo¹³	grip / hold	grip / hold		6.16		0		
+289878	1617	Tujia (Southern)	the⁵⁵	the⁵⁵	pick / pluck	pick / pluck		6.10.4		0		
+289879	1617	Tujia (Southern)	ɕio³³lo³⁵	ɕio³³lo³⁵	twist together	twist together		6.7.6		0		
+289880	1617	Tujia (Southern)	tsha³⁵	tsha³⁵	tear	tear	v	1.8.8.1		0		
+289881	1617	Tujia (Southern)	tɕiu̵¹³	tɕiu̵¹³	wring	wring		6.7.6		0		86
+289882	1617	Tujia (Southern)	thu⁵⁵	thu⁵⁵	pick up	pick up		6.10.4		0		
+289883	1617	Tujia (Southern)	da⁵⁵	da⁵⁵	catch	catch		6.21		0		
+289884	1617	Tujia (Southern)	ɕe³⁵	ɕe³⁵	throw	throw		6.12		0		
+289885	1617	Tujia (Southern)	do⁵⁵	do⁵⁵	scatter / broadcast	scatter / broadcast		6.10.3		0		
+289886	1617	Tujia (Southern)	ɕe³⁵	ɕe³⁵	cast	cast	v	6.12		0		
+289887	1617	Tujia (Southern)	tshẽ³³	tshẽ³³	reach out (hand)	reach out (hand)		6.21		0		
+289888	1617	Tujia (Southern)	ʔɨ³³	ʔɨ³³	pull (forward)	pull (forward)		6.2.2.3.1		0		
+289889	1617	Tujia (Southern)	ʔɨ³³	ʔɨ³³	pull (backward)	pull (backward)		6.2.2.3.1		0		
+289890	1617	Tujia (Southern)	mɨe⁵⁵	mɨe⁵⁵	push	push		6.2.2.3.1		0		
+289891	1617	Tujia (Southern)	dzo¹³	dzo¹³	pinch / hold between fingers	pinch / hold between fingers		8.4		0		
+289892	1617	Tujia (Southern)	khu³⁵	khu³⁵	pinch / nip	pinch / nip		8.4		0		
+289893	1617	Tujia (Southern)	kha³³	kha³³	wedge / clip	wedge / clip		9.7.1		0		
+289894	1617	Tujia (Southern)	jiaɨ³³	jiaɨ³³	shake / wave	shake / wave	v	6.7.9		0		
+289895	1617	Tujia (Southern)	ta³³tu³⁵	ta³³tu³⁵	hold (baby) in arms	hold (baby) in arms		6.16		0		
+289896	1617	Tujia (Southern)	tha³⁵	tha³⁵	kick	kick		6.2.2.3.3		0		
+289897	1617	Tujia (Southern)	khuei⁵⁵	khuei⁵⁵	kneel	kneel		1.5.8.4.1		0		
+289898	1617	Tujia (Southern)	do²¹	do²¹	tread	tread	v	6.7.4		0		
+289899	1617	Tujia (Southern)	thiaɨ¹³	thiaɨ¹³	jump	jump		6.7.8		0		bChinese
+289900	1617	Tujia (Southern)	du³³	du³³	stand	stand		1.5.2		0		
+289901	1617	Tujia (Southern)	dʑua³³	dʑua³³	step / pass over	step / pass over		6.7.4		0		
+289902	1617	Tujia (Southern)	dʑi¹³	dʑi¹³	ride	ride		6.2		0		2237
+289903	1617	Tujia (Southern)	ɣɨ²¹	ɣɨ²¹	walk	walk		6.7.4		0		
+289904	1617	Tujia (Southern)	bu²¹ɣɨe¹³	bu²¹ɣɨe¹³	run	run		6.7.4		0		
+289905	1617	Tujia (Southern)	ʔu̵³⁵	ʔu̵³⁵	sit	sit		6.1.1.4.1		0		3419
+289906	1617	Tujia (Southern)	ʔa³³	ʔa³³	carry on back	carry on back		6.2.2.2.1		0		
+289907	1617	Tujia (Southern)	wu⁵⁵~pu⁵⁵	wu⁵⁵~pu⁵⁵	go through (a hole)	go through (a hole)		6.7.2		0		
+289908	1617	Tujia (Southern)	ku¹³lu⁵⁵	ku¹³lu⁵⁵	fall (down)	fall (down)		6.1.1.4.2		0		
+289909	1617	Tujia (Southern)	ba³³	ba³³	crawl (of men)	crawl (of men)		6.7.9		0		
+289910	1617	Tujia (Southern)	ba³³	ba³³	crawl (of insect)	crawl (of insect)		6.7.9		0		
+289911	1617	Tujia (Southern)	khaɨ¹³	khaɨ¹³	lean	lean	v	1.1.1		0		
+289912	1617	Tujia (Southern)	ʔu̵¹³	ʔu̵¹³	dwell / live	dwell / live		6.2		0		
+289913	1617	Tujia (Southern)	h̄ɨ³³	h̄ɨ³³	rest	rest		1.1.4.1		0		
+289914	1617	Tujia (Southern)	zi¹³	zi¹³	do	do		6.1.1.1		0		
+289915	1617	Tujia (Southern)	ku²¹h̄u³³zi³³	ku²¹h̄u³³zi³³	work / labor	work / labor		6.1.1		0		
+289916	1617	Tujia (Southern)	ɕiu̵³³li⁵⁵	ɕiu̵³³li⁵⁵	repair	repair		6.14		0		
+289917	1617	Tujia (Southern)	ta⁵⁵pã²¹	ta⁵⁵pã²¹	put in order / arrange	put in order / arrange		6.17		0		
+289918	1617	Tujia (Southern)	ʔa³³so²¹	ʔa³³so²¹	connect	connect		6.13.3		0		
+289919	1617	Tujia (Southern)	ɕe²¹pu⁵⁵	ɕe²¹pu⁵⁵	refine	refine		6.2.2.1		0		
+289920	1617	Tujia (Southern)	ɕe²¹pu⁵⁵	ɕe²¹pu⁵⁵	strike (iron)	strike (iron)		6.8		0		m,5822
+289921	1617	Tujia (Southern)	tɕhe⁵⁵	tɕhe⁵⁵	move sth. to a new place	move sth. to a new place		6.7.11		0		
+289922	1617	Tujia (Southern)	bɨe³³	bɨe³³	carry on a pole	carry on a pole		6.2.2.2.1		0		
+289923	1617	Tujia (Southern)	bɨe³³~ʔa³³to³³	bɨe³³~ʔa³³to³³	carry on shoulder with a pole	carry on shoulder with a pole		10.1.1		0		
+289924	1617	Tujia (Southern)	pha⁵⁵~phe¹³	pha⁵⁵~phe¹³	drain away (water)	drain away (water)		3.2.3		0		
+289925	1617	Tujia (Southern)	pɨe³³	pɨe³³	carry on shoulder	carry on shoulder		1.4.3.3		0		
+289926	1617	Tujia (Southern)	h̄ɨ¹³	h̄ɨ¹³	plough	plough	v	5.3		0		
+289927	1617	Tujia (Southern)	pa²¹	pa²¹	rake	rake	v	5.1		0		
+289928	1617	Tujia (Southern)	ʔo³⁵	ʔo³⁵	dig	dig		6.11		0		
+289929	1617	Tujia (Southern)	te³⁵	te³⁵	plant	plant	v	3.1.10		0		
+289930	1617	Tujia (Southern)	se³³	se³³	plant (vegetable)	plant (vegetable)	v	3.1.10		0		
+289931	1617	Tujia (Southern)	tɕiaɨ⁵⁵	tɕiaɨ⁵⁵	water	water	v	3.2.3		0		
+289932	1617	Tujia (Southern)	ŋo¹³	ŋo¹³	cut	cut		6.9.3		0		
+289933	1617	Tujia (Southern)	da¹³	da¹³	chop	chop		6.9.3		0		
+289934	1617	Tujia (Southern)	so⁵⁵	so⁵⁵	cut (firewood)	cut (firewood)		6.9.3		0		
+289935	1617	Tujia (Southern)	ʔɨ⁵⁵~tsha³⁵	ʔɨ⁵⁵~tsha³⁵	pull (out)	pull (out)		6.2.2.3.1		0		
+289936	1617	Tujia (Southern)	pha⁵⁵~bo³⁵	pha⁵⁵~bo³⁵	graze	graze	v.t.			0		
+289937	1617	Tujia (Southern)	nẽ³³	nẽ³³	feed	feed	v	1.3.5.8		0		
+289938	1617	Tujia (Southern)	tshu³³	tshu³³	lead (animal)	lead (animal)		6.2.2.1		0		
+289939	1617	Tujia (Southern)	fu³⁵	fu³⁵	weave	weave		5.1		0		
+289940	1617	Tujia (Southern)	wu¹³	wu¹³	measure	measure		9.8		0		
+289941	1617	Tujia (Southern)	phu⁵⁵	phu⁵⁵	buy	buy		6.22		0		
+289942	1617	Tujia (Southern)	lu³⁵	lu³⁵	sell	sell		6.22		0		
+289943	1617	Tujia (Southern)	tiã⁵⁵	tiã⁵⁵	count	count		6.2.2.2		0		
+289944	1617	Tujia (Southern)	so³³	so³³	calculate	calculate		8.3.1.13.1		0		
+289945	1617	Tujia (Southern)	tɕhi³³	tɕhi³³	weigh	weigh	v.t.	9.8		0		
+289946	1617	Tujia (Southern)	ʔa²¹ɣɨe⁵⁵~sa³⁵	ʔa²¹ɣɨe⁵⁵~sa³⁵	teach	teach		6.19		0		
+289947	1617	Tujia (Southern)	ʔa²¹ɣɨe⁵⁵	ʔa²¹ɣɨe⁵⁵	learn	learn		8.3.1.12.1		0		
+289948	1617	Tujia (Southern)	wo⁵⁵	wo⁵⁵	write	write		6.2.2.9.1		0		
+289949	1617	Tujia (Southern)	ma²¹	ma²¹	wipe	wipe		6.2.2.1		0		
+289950	1617	Tujia (Southern)	si⁵⁵	si⁵⁵	correct / change	correct / change		8.3.3.9		0		
+289951	1617	Tujia (Southern)	bia¹³	bia¹³	paste / glue / stick	paste / glue / stick		5.4		0		
+289952	1617	Tujia (Southern)	la⁵⁵	la⁵⁵	cook / boil	cook / boil		5.5		0		
+289953	1617	Tujia (Southern)	ku̵²¹ɣɨ¹³	ku̵²¹ɣɨ¹³	stir-fry	stir-fry		5.5		0		
+289954	1617	Tujia (Southern)	tu̵³³	tu̵³³	steam	steam	v	6.6		0		
+289955	1617	Tujia (Southern)	tu̵³³wu³⁵	tu̵³³wu³⁵	dry (clothes) near fire	dry (clothes) near fire		6.6		0		
+289956	1617	Tujia (Southern)	tu̵²¹ɣu̵¹³	tu̵²¹ɣu̵¹³	warm (oneself) near fire	warm (oneself) near fire		7.1.2.3		0		
+289957	1617	Tujia (Southern)	ʔɨ¹³	ʔɨ¹³	kill	kill		6.4		0		
+289958	1617	Tujia (Southern)	h̄a³⁵	h̄a³⁵	cut (vegetables)	cut (vegetables)		6.9.3		0		
+289959	1617	Tujia (Southern)	da¹³	da¹³	mince (meat) with knife	mince (meat) with knife		6.9.4		0		
+289960	1617	Tujia (Southern)	thi⁵⁵	thi⁵⁵	scrape (hair off pig)	scrape (hair off pig)		6.3		0		
+289961	1617	Tujia (Southern)	tɕiã⁵⁵	tɕiã⁵⁵	cut / clip / trim	cut / clip / trim		6.9.3		0		
+289962	1617	Tujia (Southern)	lo³⁵	lo³⁵	sew	sew		5.1		0		
+289963	1617	Tujia (Southern)	tsa²¹	tsa²¹	prick	prick		8.4		0		
+289964	1617	Tujia (Southern)	se⁵⁵	se⁵⁵	insert / stick into	insert / stick into		6.2		0		
+289965	1617	Tujia (Southern)	mo²¹~mu̵⁵⁵	mo²¹~mu̵⁵⁵	grind	grind		9.5		0		
+289966	1617	Tujia (Southern)	mo²¹	mo²¹	sharpen	sharpen		6.9.2		0		bChinese
+289967	1617	Tujia (Southern)	h̄o⁵⁵	h̄o⁵⁵	winnow	winnow		3.1.10		0		
+289968	1617	Tujia (Southern)	tshe²¹	tshe²¹	scoop	scoop		6.11		0		5443
+289969	1617	Tujia (Southern)	do²¹	do²¹	put on / wear	put on / wear		6.17		0		
+289970	1617	Tujia (Southern)	tu⁵⁵	tu⁵⁵	wear (hat)	wear (hat)		6.2.2.1		0		
+289971	1617	Tujia (Southern)	si⁵⁵	si⁵⁵	take off (clothing)	take off (clothing)		6.21		0		
+289972	1617	Tujia (Southern)	dʑyã⁵⁵	dʑyã⁵⁵	roll up (clothes)	roll up (clothes)		6.7.6		0		
+289973	1617	Tujia (Southern)	ŋa⁵⁵	ŋa⁵⁵	wash (hands)	wash (hands)		6.2.2.5.2		0		
+289974	1617	Tujia (Southern)	ŋa⁵⁵	ŋa⁵⁵	wash (clothes)	wash (clothes)		6.2.2.5.2		0		
+289975	1617	Tujia (Southern)	zo³⁵~tshe³³zo³⁵	zo³⁵~tshe³³zo³⁵	bathe	bathe		6.6		0		
+289976	1617	Tujia (Southern)	thi⁵⁵	thi⁵⁵	shave	shave		6.9.2		0		
+289977	1617	Tujia (Southern)	tshu³⁵	tshu³⁵	dye	dye		5.1		0		
+289978	1617	Tujia (Southern)	pu⁵⁵	pu⁵⁵	patch (clothing)	patch (clothing)		5.1		0		
+289979	1617	Tujia (Southern)	ɕi³⁵	ɕi³⁵	comb	comb	v	1.2.2.1		0		
+289980	1617	Tujia (Southern)	fu³⁵	fu³⁵	plait	plait	v	1.2.3.2		0		
+289981	1617	Tujia (Southern)	mi³⁵	mi³⁵	spread / unfold	spread±unfold		9.5		0		
+289982	1617	Tujia (Southern)	ʔɨ³⁵	ʔɨ³⁵	sweep	sweep		6.2.2.5.3		0		
+289983	1617	Tujia (Southern)	thu²¹	thu²¹	open (door)	open (door)		6.2.2.6.1		0		5705
+289984	1617	Tujia (Southern)	tɕe⁵⁵	tɕe⁵⁵	open (lid)	open (lid)		6.2.2.6.1		0		
+289985	1617	Tujia (Southern)	pha⁵⁵	pha⁵⁵	put / place	put / place		6.17		0		
+289986	1617	Tujia (Southern)	khɨ³⁵	khɨ³⁵	hang	hang		6.1.1.5		0		
+289987	1617	Tujia (Southern)	si⁵⁵	si⁵⁵	untie	untie		6.13.1		0		
+289988	1617	Tujia (Southern)	pha⁵⁵	pha⁵⁵	release	release		6.10.1		0		2573
+289989	1617	Tujia (Southern)	phɨe⁵⁵	phɨe⁵⁵	wrap	wrap		6.2.2.1		0		
+289990	1617	Tujia (Southern)	ʔa²¹thɨ⁵⁵	ʔa²¹thɨ⁵⁵	tie (e.g. firewood) into a bundle	tie (e.g. firewood) into a bundle		6.13.1		0		
+289991	1617	Tujia (Southern)	tu¹³~pha⁵⁵	tu¹³~pha⁵⁵	load	load	v	6.2.2.1		0		
+289992	1617	Tujia (Southern)	ʔa³³su̵³⁵	ʔa³³su̵³⁵	stuff (hole) up	stuff (hole) up		9.5		0		
+289993	1617	Tujia (Southern)	mõ³³	mõ³³	bury (something)	bury (something)		6.11		0		
+289994	1617	Tujia (Southern)	su⁵⁵su³⁵	su⁵⁵su³⁵	hide	hide		1.6.5.1		0		
+289995	1617	Tujia (Southern)	ɕi³⁵	ɕi³⁵	pick / select	pick / select		6.10.4		0		
+289996	1617	Tujia (Southern)	ma⁵⁵~bõ³³	ma⁵⁵~bõ³³	pile up (e.g. earth)	pile up (e.g. earth)		6.2.2.1		0		
+289997	1617	Tujia (Southern)	tẽ³³	tẽ³³	hammer (nail in)	hammer (nail in)		5.11.5.4		0		bChinese
+289998	1617	Tujia (Southern)	thɨ²¹	thɨ²¹	light (fire)	light (fire)	v	7.1.11.1		0		
+289999	1617	Tujia (Southern)	dɨ¹³	dɨ¹³	want	want		8.3.1.14.3		0		
+290000	1617	Tujia (Southern)	tɨ³⁵	tɨ³⁵	get	get		1.1.5		0		
+290001	1617	Tujia (Southern)	su¹³	su¹³	take back / put away	take back±put away		6.21		0		
+290002	1617	Tujia (Southern)	le¹³lo⁵⁵	le¹³lo⁵⁵	lose / misplace	lose / misplace		6.10.1		0		
+290003	1617	Tujia (Southern)	tɕe³⁵	tɕe³⁵	search	search		6.2.2.2		0		
+290004	1617	Tujia (Southern)	jɤ¹³	jɤ¹³	use	use		6.2.2.7.1		0		
+290005	1617	Tujia (Southern)	lɨ⁵⁵ɣɨ³⁵	lɨ⁵⁵ɣɨ³⁵	play	play		6.1.1.3		0		
+290006	1617	Tujia (Southern)	jĩ³³	jĩ³³	win	win		6.19		0		bChinese
+290007	1617	Tujia (Southern)	su³³	su³³	lose (a game)	lose (a game)		6.10.1		0		
+290008	1617	Tujia (Southern)	ʔa²¹phu⁵⁵tsho⁵⁵	ʔa²¹phu⁵⁵tsho⁵⁵	sing	sing		5.1		0		
+290009	1617	Tujia (Southern)	thiaɨ¹³wu⁵⁵	thiaɨ¹³wu⁵⁵	dance	dance		6.7.9		0		bChinese
+290010	1617	Tujia (Southern)	za³³ku²¹bu³³	za³³ku²¹bu³³	hunt	hunt		6.2.2.1		0		
+290011	1617	Tujia (Southern)	phɨe⁵⁵la²¹	phɨe⁵⁵la²¹	surround	surround		6.2.2.2		0		
+290012	1617	Tujia (Southern)	pha⁵⁵	pha⁵⁵	shoot	shoot		6.2.2.1		0		
+290013	1617	Tujia (Southern)	h̄ɨ³⁵	h̄ɨ³⁵	hit (target)	hit (target)		6.8		0		
+290014	1617	Tujia (Southern)	kɨ⁵⁵ze³⁵	kɨ⁵⁵ze³⁵	ask / inquire	ask / inquire		8.5.7.1		0		
+290015	1617	Tujia (Southern)	ta²¹	ta²¹	answer	answer		8.5.6		0		
+290016	1617	Tujia (Southern)	ŋɨ⁵⁵	ŋɨ⁵⁵	borrow / lend	borrow / lend		6.22		0		
+290017	1617	Tujia (Southern)	h̄ɨ¹³	h̄ɨ¹³	return	return	v.t.	6.2.2.1		0		
+290018	1617	Tujia (Southern)	le⁵⁵	le⁵⁵	supply / provide	supply / provide		6.2		0		
+290019	1617	Tujia (Southern)	le⁵⁵	le⁵⁵	give / send / deliver	give / send / deliver		6.23		0		
+290020	1617	Tujia (Southern)	pha⁵⁵	pha⁵⁵	marry (of woman)	marry (of woman)		6.19		0		
+290021	1617	Tujia (Southern)	wo³⁵	wo³⁵	marry (of man)	marry (of man)		6.19		0		
+290022	1617	Tujia (Southern)	phu̵⁵⁵	phu̵⁵⁵	tell	tell		1.8.7		0		
+290023	1617	Tujia (Southern)	ʔa²¹ɕi²¹	ʔa²¹ɕi²¹	help	help		6.2.2.1		0		
+290024	1617	Tujia (Southern)	tɕiu̵¹³	tɕiu̵¹³	save / rescue	save / rescue		6.2.2.1		0		
+290025	1617	Tujia (Southern)	tsẽ⁵⁵~ta⁵⁵pã²¹	tsẽ⁵⁵~ta⁵⁵pã²¹	treat / cure	treat / cure		5.8		0		
+290026	1617	Tujia (Southern)	fua²¹	fua²¹	distribute	distribute		6.23		0		
+290027	1617	Tujia (Southern)	ʔa³³phi³⁵	ʔa³³phi³⁵	divide	divide		6.10.4		0		
+290028	1617	Tujia (Southern)	dɨ¹³	dɨ¹³	owe	owe		6.22		0		
+290029	1617	Tujia (Southern)	bɨ³³	bɨ³³	pay indemnity to	pay indemnity to		6.22		0		
+290030	1617	Tujia (Southern)	thi³³	thi³³	wait	wait		6.1.1.6		0		
+290031	1617	Tujia (Southern)	ʔa²¹niu̵²¹h̄ɨ³⁵	ʔa²¹niu̵²¹h̄ɨ³⁵	encounter / meet	encounter / meet		6.13.4		0		
+290032	1617	Tujia (Southern)	mu³³du³⁵	mu³³du³⁵	scold	scold		8.5.1		0		
+290033	1617	Tujia (Southern)	bu⁵⁵thẽ¹³	bu⁵⁵thẽ¹³	fight	fight		6.5		0		
+290034	1617	Tujia (Southern)	bu⁵⁵	bu⁵⁵	hit / beat	hit / beat		6.8		0		5822
+290035	1617	Tujia (Southern)	bu²¹ɣɨe¹³	bu²¹ɣɨe¹³	escape	escape		6.7.2		0		
+290036	1617	Tujia (Southern)	ʔa²¹dʑe¹³	ʔa²¹dʑe¹³	chase / run after	chase±run after		6.7.10		0		
+290037	1617	Tujia (Southern)	ʔa²¹dʑe¹³	ʔa²¹dʑe¹³	drive away	drive away		6.7.10		0		
+290038	1617	Tujia (Southern)	bu²¹le¹³	bu²¹le¹³	rob	rob		6.2.2.1		0		
+290039	1617	Tujia (Southern)	kua⁵⁵	kua⁵⁵	exploit	exploit				0		
+290040	1617	Tujia (Southern)	ʔe⁵⁵	ʔe⁵⁵	steal	steal		6.2.2.1		0		
+290041	1617	Tujia (Southern)	phiã¹³	phiã¹³	cheat / swindle	cheat / swindle		6.19		0		
+290042	1617	Tujia (Southern)	ʔa²¹tshi²¹	ʔa²¹tshi²¹	love	love		8.3.1.1.1		0		p,3494
+290043	1617	Tujia (Southern)	lɨ²¹si²¹	lɨ²¹si²¹	like	like		8.3.1.1.1		0		
+290044	1617	Tujia (Southern)	ɕĩ¹³	ɕĩ¹³	believe	believe		8.3.1.12.1		0		
+290045	1617	Tujia (Southern)	ɕe⁵⁵tshe⁵⁵	ɕe⁵⁵tshe⁵⁵	know	know		8.3.1.12.1		0		
+290046	1617	Tujia (Southern)	ɕe⁵⁵	ɕe⁵⁵	understand	understand		8.3.1.13.1		0		
+290047	1617	Tujia (Southern)	liaɨ³³kai³³	liaɨ³³kai³³	understand / comprehend	understand / comprehend		8.3.1.13.1		0		
+290048	1617	Tujia (Southern)	tshai³³	tshai³³	guess	guess		8.3.1.12.1		0		
+290049	1617	Tujia (Southern)	tɕi¹³tɨ⁵⁵	tɕi¹³tɨ⁵⁵	remember	remember		8.3.1.16.1		0		
+290050	1617	Tujia (Southern)	si³³mo³⁵	si³³mo³⁵	forget	forget		8.3.1.16.1		0		
+290051	1617	Tujia (Southern)	de⁵⁵	de⁵⁵	think	think		8.3.1.13.1		0		
+290052	1617	Tujia (Southern)	h̄ẽ¹³	h̄ẽ¹³	hate	hate		8.3.1.1.2		0		
+290053	1617	Tujia (Southern)	gɨe³³	gɨe³³	fear	fear		8.3.1.10.1		0		
+290054	1617	Tujia (Southern)	tu̵³⁵	tu̵³⁵	dare	dare				0		
+290055	1617	Tujia (Southern)	zi²¹gɨe²¹	zi²¹gɨe²¹	know / can / be able to	know / can / be able to		8.3.1.12.1		0		
+290056	1617	Tujia (Southern)	tsu²¹	tsu²¹	enough	enough		1.1.3.2		0		
+290057	1617	Tujia (Southern)	si¹³	si¹³	be / copula	be / copula		10.4.1.1		0		
+290058	1617	Tujia (Southern)	mai¹³si⁵⁵	mai¹³si⁵⁵	NEG+copula	NEG+copula		10.6.2		0		
+290059	1617	Tujia (Southern)	ji³⁵	ji³⁵	have	have		8.2		0		
+290060	1617	Tujia (Southern)	kɨ⁵⁵le³⁵	kɨ⁵⁵le³⁵	NEG+have	NEG+have		10.6.2		0		
+290061	1617	Tujia (Southern)	ʔɨ¹³dɨ⁵⁵	ʔɨ¹³dɨ⁵⁵	come	come		6.7.1		0		
+290062	1617	Tujia (Southern)	je²¹	je²¹	go	go		6.7.2		0		
+290063	1617	Tujia (Southern)	la³³dɨ⁵⁵	la³³dɨ⁵⁵	return / go back	return / go back		6.2.2.1		0		
+290064	1617	Tujia (Southern)	du̵³⁵	du̵³⁵	arrive	arrive		6.7.1		0		
+290065	1617	Tujia (Southern)	wo⁵⁵~kho⁵⁵	wo⁵⁵~kho⁵⁵	cross (river)	cross (river)		6.7.10		0		
+290066	1617	Tujia (Southern)	ɣɨ²¹kho⁵⁵	ɣɨ²¹kho⁵⁵	pass by	pass by		6.7.10		0		
+290067	1617	Tujia (Southern)	gu³⁵	gu³⁵	ascend	ascend		6.7.7		0		
+290068	1617	Tujia (Southern)	thu̵²¹	thu̵²¹	descend	descend		6.7.8		0		
+290069	1617	Tujia (Southern)	dzu̵⁵⁵	dzu̵⁵⁵	exit	exit		6.7.2		0		
+290070	1617	Tujia (Southern)	khu̵¹³	khu̵¹³	enter	enter		6.7.1		0		
+290071	1617	Tujia (Southern)	thuei¹³	thuei¹³	retreat	retreat		6.7.2		0		
+290072	1617	Tujia (Southern)	ʔu̵³⁵	ʔu̵³⁵	exist / be present	exist / be present		1.1.2.3		0		
+290073	1617	Tujia (Southern)	h̄o¹³	h̄o¹³	dry / bask in the sun	dry / bask in the sun		6.6		0		
+290074	1617	Tujia (Southern)	ze²¹dzi⁵⁵	ze²¹dzi⁵⁵	rain	rain	v	3.2.1		0		
+290075	1617	Tujia (Southern)	ze²¹lẽ²¹mi⁵⁵	ze²¹lẽ²¹mi⁵⁵	blow (of wind)	blow (of wind)		1.3.1.4		0		
+290076	1617	Tujia (Southern)	mi⁵⁵tsha³⁵	mi⁵⁵tsha³⁵	flash (of lightning)	flash (of lightning)		3.2.12.2		0		
+290077	1617	Tujia (Southern)	mɨe²¹ɣu̵²¹	mɨe²¹ɣu̵²¹	thunder	thunder	v	3.2.1		0	D0	2473
+290078	1617	Tujia (Southern)	ji¹³	ji¹³	flow	flow		6.6.1		0		
+290079	1617	Tujia (Southern)	mu̵⁵⁵	mu̵⁵⁵	overflow	overflow		6.6		0		
+290080	1617	Tujia (Southern)	fu²¹	fu²¹	float	float		6.6.1		0		
+290081	1617	Tujia (Southern)	da¹³	da¹³	sink	sink		6.6		0		
+290082	1617	Tujia (Southern)	dza¹³khu̵²¹	dza¹³khu̵²¹	crack	crack	v	3.2.7		0		
+290083	1617	Tujia (Southern)	ŋa¹³	ŋa¹³	collapse	collapse		9.5		0		
+290084	1617	Tujia (Southern)	tshi¹³	tshi¹³	chipped	chipped		3.2.7		0		
+290085	1617	Tujia (Southern)	phaɨ³³	phaɨ³³	roll (e.g. rock)	roll (e.g. rock)		6.7.6		0		
+290086	1617	Tujia (Southern)	ɕyã¹³	ɕyã¹³	rotate / spin	rotate / spin		6.7.6		0		
+290087	1617	Tujia (Southern)	le¹³lo³³	le¹³lo³³	drop / fall	drop / fall		6.16		0		
+290088	1617	Tujia (Southern)	de³⁵~kha³⁵	de³⁵~kha³⁵	break (of rope etc.)	break (of rope etc.)	v.i.	9.5		0		
+290089	1617	Tujia (Southern)	tshi¹³	tshi¹³	break (of bottle etc.)	break (of bottle etc.)	v.i.	9.5		0		
+290090	1617	Tujia (Southern)	bu̵¹³	bu̵¹³	soak / immerse	soak / immerse		6.6		0		
+290091	1617	Tujia (Southern)	ze¹³	ze¹³	leak	leak		6.6		0		
+290092	1617	Tujia (Southern)	tiã⁵⁵	tiã⁵⁵	drip	drip		6.6		0		
+290093	1617	Tujia (Southern)	phɨe¹³	phɨe¹³	boil	boil	v.i.	6.6		0		
+290094	1617	Tujia (Southern)	piã¹³	piã¹³	change / transform	change / transform		9.5		0		bChinese
+290095	1617	Tujia (Southern)	ŋa²¹ŋa²¹si³⁵	ŋa²¹ŋa²¹si³⁵	bud	bud	v	3.1.4		0		
+290096	1617	Tujia (Southern)	tsu³³pu³⁵do⁵⁵	tsu³³pu³⁵do⁵⁵	bloom	bloom		3.1.10		0		m,1811,m
+290097	1617	Tujia (Southern)	su³⁵bu²¹dzi³⁵	su³⁵bu²¹dzi³⁵	bear fruit	bear fruit		2.2.3		0		
+290098	1617	Tujia (Southern)	khu³⁵	khu³⁵	wither	wither		3.1.10		0		
+290099	1617	Tujia (Southern)	lẽ⁵⁵	lẽ⁵⁵	rot / spoil	rot / spoil		3.1.10		0		
+290100	1617	Tujia (Southern)	ku¹³fu⁵⁵zi¹³	ku¹³fu⁵⁵zi¹³	produce / manufacture	produce / manufacture		6.14		0		
+290101	1617	Tujia (Southern)	tɕiã³⁵se²¹	tɕiã³⁵se²¹	build / construct	build / construct		6.14		0		
+290102	1617	Tujia (Southern)	fua¹³tsã⁵⁵	fua¹³tsã⁵⁵	develop	develop		9.5		0		
+290103	1617	Tujia (Southern)	di¹³kaɨ³³	di¹³kaɨ³³	raise	raise		6.7.7		0		
+290104	1617	Tujia (Southern)	duã¹³tɕe²¹	duã¹³tɕe²¹	unite	unite		6.13.5		0		
+290105	1617	Tujia (Southern)	h̄uei¹³khai⁵⁵	h̄uei¹³khai⁵⁵	hold meeting	hold meeting		6.16		0		
+290106	1617	Tujia (Southern)	thaɨ⁵⁵lẽ²¹	thaɨ⁵⁵lẽ²¹	discuss	discuss				0		
+290107	1617	Tujia (Southern)	ɕi³⁵	ɕi³⁵	select	select		6.10.4		0		
+290108	1617	Tujia (Southern)	nẽ⁵⁵taɨ²¹	nẽ⁵⁵taɨ²¹	lead	lead	v	6.2.2.1		0		
+290109	1617	Tujia (Southern)	tõ³⁵jyã³¹	tõ³⁵jyã³¹	mobilize / arouse	mobilize / arouse		1.1.4		0		
+290110	1617	Tujia (Southern)	ɕyã⁵⁵dzyã²¹	ɕyã⁵⁵dzyã²¹	propogate (propaganda)	propogate (propaganda)				0		
+290111	1617	Tujia (Southern)	jõ⁵⁵fu²¹	jõ⁵⁵fu²¹	support / endorse	support / endorse		6.16		0		
+290112	1617	Tujia (Southern)	piaɨ⁵⁵jiã²¹	piaɨ⁵⁵jiã²¹	praise / commend	praise / commend		8.5.2.2		0		
+290113	1617	Tujia (Southern)	si⁵⁵pha⁵⁵~kai⁵⁵fuã¹³	si⁵⁵pha⁵⁵~kai⁵⁵fuã¹³	liberate / emancipate	liberate / emancipate		6.19		0		
+290114	1617	Tujia (Southern)	sẽ¹³li⁵⁵	sẽ¹³li⁵⁵	triumph / win	triumph / win		6.19		0		bChinese
+290115	1617	Tujia (Southern)	si²¹pai⁵⁵	si²¹pai⁵⁵	defeated / lose (a war etc.)	defeated / lose (a war etc.)		6.5		0		
+290116	1617	Tujia (Southern)	phɨ¹³bĩ²¹~h̄ɨ¹³h̄ɨ⁵⁵	phɨ¹³bĩ²¹~h̄ɨ¹³h̄ɨ⁵⁵	criticize	criticize		8.5.2.1		0		
+290117	1617	Tujia (Southern)	tɕiã⁵⁵dza²¹	tɕiã⁵⁵dza²¹	inspect / examine	inspect / examine		6.2		0		
+290118	1617	Tujia (Southern)	fã⁵⁵tuei¹³	fã⁵⁵tuei¹³	oppose	oppose		6.5		0		bChinese
+290119	1617	Tujia (Southern)	tu̵¹³tsẽ³³	tu̵¹³tsẽ³³	struggle / fight	struggle / fight		6.5		0		
+290120	1617	Tujia (Southern)	tɕhĩ³⁵lo²¹	tɕhĩ³⁵lo²¹	invade	invade		6.5		0		
+290121	1617	Tujia (Southern)	tɕhi³³	tɕhi³³	big	big		9.7.2		0		
+290122	1617	Tujia (Southern)	sa³³	sa³³	small	small		9.7.2		0		
+290123	1617	Tujia (Southern)	kaɨ³³	kaɨ³³	high	high		7.1.5.3		0		bChinese
+290124	1617	Tujia (Southern)	ʔa³³di³⁵	ʔa³³di³⁵	low	low		7.1.5.3		0		p,b
+290125	1617	Tujia (Southern)	ku̵³³du̵³⁵	ku̵³³du̵³⁵	deep	deep		7.1.5.3		0		
+290126	1617	Tujia (Southern)	so²¹so⁵⁵	so²¹so⁵⁵	shallow	shallow		7.1.5.3		0		
+290127	1617	Tujia (Southern)	tɕiã³³	tɕiã³³	pointed	pointed		6.2.2.2		0		
+290128	1617	Tujia (Southern)	duã³³	duã³³	round	round		9.7.1		0		
+290129	1617	Tujia (Southern)	fã³³	fã³³	square	square		9.7.1		0		
+290130	1617	Tujia (Southern)	ɣɨe³⁵	ɣɨe³⁵	long	long		9.7.2		0		
+290131	1617	Tujia (Southern)	dzu̵¹³	dzu̵¹³	short	short		9.7.2		0		
+290132	1617	Tujia (Southern)	tshu³³	tshu³³	thick (in diameter)	thick (in diameter)		9.7.2		0		
+290133	1617	Tujia (Southern)	ɕi³³	ɕi³³	thin (slender)	thin (slender)		9.7.2		0		
+290134	1617	Tujia (Southern)	ʔa²¹lo²¹	ʔa²¹lo²¹	thick	thick		9.7.2		0		
+290135	1617	Tujia (Southern)	so²¹so⁵⁵	so²¹so⁵⁵	thin	thin		9.7.2		0		
+290136	1617	Tujia (Southern)	kho³⁵	kho³⁵	wide	wide		9.7.2		0		
+290137	1617	Tujia (Southern)	h̄a²¹	h̄a²¹	narrow	narrow		9.7.2		0		
+290138	1617	Tujia (Southern)	ʔu̵¹³ji⁵⁵	ʔu̵¹³ji⁵⁵	far	far		9.2.4		0		622,s
+290139	1617	Tujia (Southern)	ʔu̵¹³dza³³	ʔu̵¹³dza³³	near	near		9.2.3		0		
+290140	1617	Tujia (Southern)	zi³⁵	zi³⁵	many / much	many / much		9.9		0		
+290141	1617	Tujia (Southern)	phu³³	phu³³	little / few	little / few		9.7.2		0		
+290142	1617	Tujia (Southern)	tshu¹³	tshu¹³	straight	straight		7.1.5.1		0		
+290143	1617	Tujia (Southern)	wã³³	wã³³	crooked	crooked		9.7.2		0		
+290144	1617	Tujia (Southern)	h̄u̵⁵⁵	h̄u̵⁵⁵	upright	upright		7.1.5.3		0		
+290145	1617	Tujia (Southern)	wẽ³³	wẽ³³	horizontal	horizontal		7.1.5.4		0		
+290146	1617	Tujia (Southern)	bi³³	bi³³	flat / level (land)	flat / level (land)		7.1.5.1		0		
+290147	1617	Tujia (Southern)	kɨ³³tei³⁵	kɨ³³tei³⁵	steep	steep		7.1.5.3		0		
+290148	1617	Tujia (Southern)	tsẽ¹³	tsẽ¹³	right / just / upright	right / just / upright		1.5.3.2		0		
+290149	1617	Tujia (Southern)	phiã³³	phiã³³	slanting / not upright	slanting / not upright		7.1.5.1		0		
+290150	1617	Tujia (Southern)	zu¹³	zu¹³	light	light	adj	7.1.11.1		0		
+290151	1617	Tujia (Southern)	du̵³⁵	du̵³⁵	heavy	heavy		9.6.2		0		
+290152	1617	Tujia (Southern)	khɨ¹³	khɨ¹³	hard	hard		9.6.2		0		
+290153	1617	Tujia (Southern)	bu̵⁵⁵	bu̵⁵⁵	soft	soft		7.1.4.2		0		
+290154	1617	Tujia (Southern)	su³⁵~ku²¹su³⁵	su³⁵~ku²¹su³⁵	bright	bright		7.1.11.1		0		
+290155	1617	Tujia (Southern)	dza³⁵	dza³⁵	dark	dark		9.4		0		
+290156	1617	Tujia (Southern)	tsho²¹	tsho²¹	sunny	sunny		3.2.10		0		
+290157	1617	Tujia (Southern)	dza³⁵~maɨ¹³	dza³⁵~maɨ¹³	cloudy	cloudy		3.2.2		0		
+290158	1617	Tujia (Southern)	bo³³ni¹³	bo³³ni¹³	red	red		9.4		0		
+290159	1617	Tujia (Southern)	h̄u̵³³	h̄u̵³³	yellow	yellow		9.4		0		
+290160	1617	Tujia (Southern)	ɕi²¹	ɕi²¹	blue	blue		9.4		0		
+290161	1617	Tujia (Southern)	si³³	si³³	white	white		9.4		0		
+290162	1617	Tujia (Southern)	lo²¹	lo²¹	black	black		9.4		0		
+290163	1617	Tujia (Southern)	lu²¹	lu²¹	green	green		9.4		0		bChinese
+290164	1617	Tujia (Southern)	tsu³³pu³⁵	tsu³³pu³⁵	multicolored	multicolored		9.4		0		
+290165	1617	Tujia (Southern)	khɨ¹³	khɨ¹³	thick (of liquid)	thick (of liquid)		9.7.2		0		
+290166	1617	Tujia (Southern)	bi⁵⁵~bi⁵⁵bi⁵⁵	bi⁵⁵~bi⁵⁵bi⁵⁵	thin (watery)	thin (watery)		9.7.2		0		
+290167	1617	Tujia (Southern)	mu̵³³	mu̵³³	full	full		1.1.3.2		0		1834
+290168	1617	Tujia (Southern)	mu²¹tsho⁵⁵	mu²¹tsho⁵⁵	beautiful	beautiful		7.1.3		0		
+290169	1617	Tujia (Southern)	ku¹³dzu⁵⁵	ku¹³dzu⁵⁵	ugly	ugly		7.1.3		0		
+290170	1617	Tujia (Southern)	so²¹liu̵²¹	so²¹liu̵²¹	clean	clean		6.2.2.5.2		0		
+290171	1617	Tujia (Southern)	kɨ¹³tshe⁵⁵	kɨ¹³tshe⁵⁵	dirty	dirty		3.2.11		0		
+290172	1617	Tujia (Southern)	ɣu̵³³nia³³	ɣu̵³³nia³³	old (of people)	old (of people)		7.1.8.3		0		
+290173	1617	Tujia (Southern)	ɣu̵³³nia³³	ɣu̵³³nia³³	tough / old (of plants)	tough / old (of plants)		1.1.5		0		
+290174	1617	Tujia (Southern)	si³³la³³dʑi³³	si³³la³³dʑi³³	young	young		7.1.8.3		0		
+290175	1617	Tujia (Southern)	ji⁵⁵	ji⁵⁵	tender (of plants)	tender (of plants)		7.1.4.2		0		
+290176	1617	Tujia (Southern)	tsho³³	tsho³³	good	good		9.6.1.1		0		
+290177	1617	Tujia (Southern)	h̄u̵¹³	h̄u̵¹³	bad	bad		9.6.2.1		0		
+290178	1617	Tujia (Southern)	tsu̵²¹ku̵¹³	tsu̵²¹ku̵¹³	fast	fast		9.6.1.1		0		
+290179	1617	Tujia (Southern)	de⁵⁵	de⁵⁵	slow	slow		9.6.2.1		0		
+290180	1617	Tujia (Southern)	go⁵⁵	go⁵⁵	dry	dry		6.6		0		
+290181	1617	Tujia (Southern)	zo⁵⁵	zo⁵⁵	wet	wet		6.6		0		
+290182	1617	Tujia (Southern)	ʔa⁵⁵ɕi²¹	ʔa⁵⁵ɕi²¹	new	new		9.6.1.1		0		
+290183	1617	Tujia (Southern)	ʔa⁵⁵dze³⁵	ʔa⁵⁵dze³⁵	old (of things)	old (of things)		7.1.8.3		0		
+290184	1617	Tujia (Southern)	ʔa³³h̄u̵³³	ʔa³³h̄u̵³³	raw	raw		7.1.8.3		0		
+290185	1617	Tujia (Southern)	bu̵⁵⁵	bu̵⁵⁵	cooked	cooked		5.5		0		
+290186	1617	Tujia (Southern)	ɕi¹³	ɕi¹³	sharp	sharp		6.9.2		0		
+290187	1617	Tujia (Southern)	da³⁵	da³⁵	blunt	blunt		7.1.5.1		0		
+290188	1617	Tujia (Southern)	tsaɨ⁵⁵	tsaɨ⁵⁵	early	early		9.1.1		0		bChinese
+290189	1617	Tujia (Southern)	de⁵⁵	de⁵⁵	late	late		9.1.1		0		
+290190	1617	Tujia (Southern)	tɕĩ³³	tɕĩ³³	true	true		9.6.1.1		0		bChinese
+290191	1617	Tujia (Southern)	tɕia⁵⁵	tɕia⁵⁵	false	false		9.6.2.1		0		bChinese
+290192	1617	Tujia (Southern)	khɨ¹³	khɨ¹³	expensive	expensive		5.9		0		
+290193	1617	Tujia (Southern)	zu¹³	zu¹³	cheap	cheap		5.9		0		
+290194	1617	Tujia (Southern)	jõ²¹ji¹³	jõ²¹ji¹³	easy	easy		9.6.1.1		0		bChinese
+290195	1617	Tujia (Southern)	kho⁵⁵khɨ³³	kho⁵⁵khɨ³³	difficult	difficult		9.6.2		0		
+290196	1617	Tujia (Southern)	sõ³³~zu¹³	sõ³³~zu¹³	loose / lax	loose / lax		6.13.1		0		
+290197	1617	Tujia (Southern)	tɕĩ³³~du̵¹³	tɕĩ³³~du̵¹³	tight	tight		7.1.5.1		0		
+290198	1617	Tujia (Southern)	si²¹to¹³	si²¹to¹³	hot	hot				0		
+290199	1617	Tujia (Southern)	si²¹dza¹³	si²¹dza¹³	cold	cold		7.1.2.3		0		
+290200	1617	Tujia (Southern)	lo³³	lo³³	warm	warm		7.1.2.3		0		
+290201	1617	Tujia (Southern)	wo⁵⁵tsho²¹	wo⁵⁵tsho²¹	cool	cool		7.1.2.3		0		
+290202	1617	Tujia (Southern)	wo³⁵	wo³⁵	sour	sour		7.1.4.4		0		
+290203	1617	Tujia (Southern)	dze²¹	dze²¹	sweet	sweet		7.1.4.4		0		2221
+290204	1617	Tujia (Southern)	khɨ⁵⁵	khɨ⁵⁵	bitter	bitter		7.1.4.4		0		
+290205	1617	Tujia (Southern)	phi²¹	phi²¹	hot (spicy)	hot (spicy)				0		
+290206	1617	Tujia (Southern)	khɨ⁵⁵	khɨ⁵⁵	salty	salty		3.2.4		0		
+290207	1617	Tujia (Southern)	ɕiã³³	ɕiã³³	fragrant	fragrant		3.1.10		0		bChinese
+290208	1617	Tujia (Southern)	lã³³ŋɨ³⁵	lã³³ŋɨ³⁵	stinky	stinky		7.1.4.5		0		
+290209	1617	Tujia (Southern)	sẽ³³tɕhi²¹	sẽ³³tɕhi²¹	fishy	fishy		2.2.5		0		
+290210	1617	Tujia (Southern)	ɣa⁵⁵	ɣa⁵⁵	intelligent	intelligent		8.3.1.13.1		0		
+290211	1617	Tujia (Southern)	go³⁵	go³⁵	stupid	stupid		8.3		0		
+290212	1617	Tujia (Southern)	sai³⁵h̄ã²¹	sai³⁵h̄ã²¹	diligent	diligent		9.6.1.2		0		
+290213	1617	Tujia (Southern)	tsu̵³³gu̵¹³	tsu̵³³gu̵¹³	lazy	lazy		9.6.2.2		0		
+290214	1617	Tujia (Southern)	lɨ²¹si²¹	lɨ²¹si²¹	glad	glad		8.3.1.5.1		0		
+290215	1617	Tujia (Southern)	du̵³⁵	du̵³⁵	poor	poor		9.6.2.2		0		
+290216	1617	Tujia (Southern)	ji³⁵	ji³⁵	rich	rich		5.9		0		
+290217	1617	Tujia (Southern)	kuã³³mĩ²¹~su³⁵su³⁵	kuã³³mĩ²¹~su³⁵su³⁵	bright / promising	bright / promising		7.1.11.1		0		bChinese,bChinese,m,m
+290218	1617	Tujia (Southern)	kuã³³jyẽ²¹	kuã³³jyẽ²¹	honour / glory	honour / glory		9.6.1		0		
+290219	1617	Tujia (Southern)	wei⁵⁵ta³⁵	wei⁵⁵ta³⁵	great / mighty	great / mighty		9.6.1		0		
+290220	1617	Tujia (Southern)	tsẽ³⁵tɕhio²¹	tsẽ³⁵tɕhio²¹	correct / proper	correct / proper		8.3.3.9		0		
+290221	1617	Tujia (Southern)	ɕĩ³⁵fu²¹	ɕĩ³⁵fu²¹	happiness / well-being	happiness / well-being		8.3.1.1.1		0		bChinese
+290222	1617	Tujia (Southern)	jõ⁵⁵kã⁵⁵~dzi³³gɨe³³	jõ⁵⁵kã⁵⁵~dzi³³gɨe³³	brave / courageous	brave / courageous				0		
+290223	1617	Tujia (Southern)	tɕi²¹tɕi²¹	tɕi²¹tɕi²¹	active / vigorous	active / vigorous		10.4.2		0		
+290224	1617	Tujia (Southern)	khu̵⁵⁵dzu̵¹³be³⁵	khu̵⁵⁵dzu̵¹³be³⁵	advanced	advanced				0		
+290225	1617	Tujia (Southern)	lo²¹xu̵¹³	lo²¹xu̵¹³	backward	backward		9.2.8		0		
+290226	1617	Tujia (Southern)	fã³³tõ²¹	fã³³tõ²¹	reactionary	reactionary				0		
+290227	1617	Tujia (Southern)	la⁵⁵	la⁵⁵	one	one		9.9		0		
+290228	1617	Tujia (Southern)	le⁵⁵	le⁵⁵	two	two		9.9		0		2504
+290229	1617	Tujia (Southern)	sa⁵⁵	sa⁵⁵	three	three		9.9		0		2666
+290230	1617	Tujia (Southern)	ze¹³	ze¹³	four	four		9.9		0		2409
+290231	1617	Tujia (Southern)	ŋɨ³³	ŋɨ³³	five	five		9.9		0		1306
+290232	1617	Tujia (Southern)	u̵³⁵	u̵³⁵	six	six		9.9		0		
+290233	1617	Tujia (Southern)	li²¹tsho²¹sa³³	li²¹tsho²¹sa³³	seven	seven		9.9		0		
+290234	1617	Tujia (Southern)	ʔa¹³la⁵⁵so²¹	ʔa¹³la⁵⁵so²¹	eight	eight		9.9		0		
+290235	1617	Tujia (Southern)	li²¹tsho²¹tɕhi⁵⁵	li²¹tsho²¹tɕhi⁵⁵	nine	nine		9.9		0		
+290236	1617	Tujia (Southern)	h̄ɨ²¹	h̄ɨ²¹	ten	ten		9.9		0		
+290237	1617	Tujia (Southern)	la²¹h̄ɨ²¹la²¹bu²¹	la²¹h̄ɨ²¹la²¹bu²¹	eleven	eleven		9.9		0		
+290238	1617	Tujia (Southern)	la²¹h̄ɨ²¹le⁵⁵bu²¹	la²¹h̄ɨ²¹le⁵⁵bu²¹	twelve	twelve		9.9		0		
+290239	1617	Tujia (Southern)	la²¹h̄ɨ²¹sa⁵⁵bu²¹	la²¹h̄ɨ²¹sa⁵⁵bu²¹	thirteen	thirteen		9.9		0		
+290240	1617	Tujia (Southern)	le⁵⁵h̄ɨ²¹	le⁵⁵h̄ɨ²¹	twenty	twenty		9.9		0		2504
+290241	1617	Tujia (Southern)	zi²¹	zi²¹	hundred	hundred		9.9		0		
+290242	1617	Tujia (Southern)	de²¹	de²¹	thousand	thousand		9.9		0		
+290243	1617	Tujia (Southern)	wuã³⁵	wuã³⁵	ten thousand	ten thousand		9.9		0		bChinese
+290244	1617	Tujia (Southern)	ji³⁵	ji³⁵	hundred million	hundred million		9.9		0		
+290245	1617	Tujia (Southern)	lẽ³³	lẽ³³	zero	zero		9.9		0		bChinese
+290246	1617	Tujia (Southern)	ti³⁵ji³³	ti³⁵ji³³	first (ordinal)	first (ordinal)		9.9		0		
+290247	1617	Tujia (Southern)	ti³⁵wu⁵⁵	ti³⁵wu⁵⁵	fifth	fifth		9.9		0		
+290248	1617	Tujia (Southern)	pã³³	pã³³	half	half		9.8		0		
+290249	1617	Tujia (Southern)	ŋɨ³³	ŋɨ³³	clf. for people	clf. for people		10.1.3		0		
+290250	1617	Tujia (Southern)	tsɨ³³	tsɨ³³	clf for bowls	clf for bowls		10.1.3		0		
+290251	1617	Tujia (Southern)	mõ³³~mu³³	mõ³³~mu³³	clf for trees	clf for trees		10.1.3		0		
+290252	1617	Tujia (Southern)	nõ²¹	nõ²¹	clf for animals	clf for animals		10.1.3		0		
+290253	1617	Tujia (Southern)	to²¹	to²¹	clf for objects with handle	clf for objects with handle		10.1.3		0		
+290254	1617	Tujia (Southern)	h̄o²¹	h̄o²¹	clf for long objects	clf for long objects		10.1.3		0		
+290255	1617	Tujia (Southern)	ɣɨ²¹	ɣɨ²¹	clf for sheets	clf for sheets		10.1.3		0		
+290256	1617	Tujia (Southern)	h̄o²¹	h̄o²¹	clf for long, thin objects	clf for long, thin objects		9.7.2		0		
+290257	1617	Tujia (Southern)	bu²¹	bu²¹	clf for grains	clf for grains		10.1.3		0		
+290258	1617	Tujia (Southern)	tiã⁵⁵	tiã⁵⁵	drop	drop	n	6.16		0		
+290259	1617	Tujia (Southern)	pi³⁵	pi³⁵	clf for clothes	clf for clothes		10.1.3		0		
+290260	1617	Tujia (Southern)	wo⁵⁵	wo⁵⁵	pair	pair		9.9		0		
+290261	1617	Tujia (Southern)	tshẽ¹³	tshẽ¹³	inch	inch				0		
+290262	1617	Tujia (Southern)	tshi²¹	tshi²¹	foot	foot		1.5.2		0		
+290263	1617	Tujia (Southern)	mu⁵⁵	mu⁵⁵	acre	acre		9.8		0		
+290264	1617	Tujia (Southern)	si⁵⁵	si⁵⁵	dry measure / pint	dry measure / pint		9.8		0		
+290265	1617	Tujia (Southern)	ta³⁵	ta³⁵	dry measure / peck	dry measure / peck		6.6		0		
+290266	1617	Tujia (Southern)	dzi³³	dzi³³	tael	tael		9.8		0		
+290267	1617	Tujia (Southern)	tɕhi³³	tɕhi³³	catty (=500 grams)	catty (=500 grams)		9.8		0		
+290268	1617	Tujia (Southern)	bo³³	bo³³	monetary unit / dollar	monetary unit / dollar		5.9		0		
+290269	1617	Tujia (Southern)	ŋo³³	ŋo³³	I	I		4.1		0		2530
+290270	1617	Tujia (Southern)	ʔa²¹ni³³	ʔa²¹ni³³	we	we		4.1		0		
+290271	1617	Tujia (Southern)	ʔa²¹ni³³ta³⁵si³³	ʔa²¹ni³³ta³⁵si³³	we (inclusive)	we (inclusive)		4.1		0		
+290272	1617	Tujia (Southern)	ni³³	ni³³	you (sg.)	you (sg.)		4.1		0		
+290273	1617	Tujia (Southern)	ʔɨ²¹ɕi²¹	ʔɨ²¹ɕi²¹	you (pl.)	you (pl.)		4.1		0		
+290274	1617	Tujia (Southern)	ka²¹	ka²¹	he / she	he / she		4.1		0		
+290275	1617	Tujia (Southern)	ka²¹ɕi²¹	ka²¹ɕi²¹	they	they		4.1		0		
+290276	1617	Tujia (Southern)	tsho³³bo³³	tsho³³bo³³	oneself	oneself		4.1		0		
+290277	1617	Tujia (Southern)	ka²¹ɕe²¹	ka²¹ɕe²¹	others	others		8.1		0		
+290278	1617	Tujia (Southern)	dʑia²¹	dʑia²¹	this	this		10.4.3.2		0		
+290279	1617	Tujia (Southern)	dʑia²¹te²¹	dʑia²¹te²¹	here	here		9.2.3		0		
+290280	1617	Tujia (Southern)	ta²¹	ta²¹	that	that		10.1		0		
+290281	1617	Tujia (Southern)	ta²¹te²¹	ta²¹te²¹	there	there		9.2.7		0		
+290282	1617	Tujia (Southern)	ʔa³³si³³	ʔa³³si³³	who	who		10.5.3		0		
+290283	1617	Tujia (Southern)	tshu⁵⁵mo²¹	tshu⁵⁵mo²¹	what	what		10.5.3		0		
+290284	1617	Tujia (Southern)	ba²¹	ba²¹	which	which		10.5.3		0		
+290285	1617	Tujia (Southern)	ba²¹tɨ⁵⁵	ba²¹tɨ⁵⁵	where	where		10.5.3		0		
+290286	1617	Tujia (Southern)	de²¹po³³	de²¹po³³	how many / how much	how many / how much		10.1		0		
+290287	1617	Tujia (Southern)	ɕe³³khai³³	ɕe³³khai³³	just now	just now		9.1.1		0		
+290288	1617	Tujia (Southern)	be³⁵	be³⁵	first (in time)	first (in time)		9.9		0		
+290289	1617	Tujia (Southern)	mɨe³³khɨe²¹	mɨe³³khɨe²¹	later (in time)	later (in time)		9.1.5		0		
+290290	1617	Tujia (Southern)	dzu̵³³gu̵¹³	dzu̵³³gu̵¹³	immediately / right away	immediately / right away		9.1.1		0		
+290291	1617	Tujia (Southern)	dza¹³si²¹	dza¹³si²¹	often	often		9.1.1		0		
+290292	1617	Tujia (Southern)	lã³⁵tã⁵⁵tã⁵⁵	lã³⁵tã⁵⁵tã⁵⁵	slowly	slowly		9.1.1		0		
+290293	1617	Tujia (Southern)	h̄ẽ¹³	h̄ẽ¹³	very	very		7.1.2.2		0		
+290294	1617	Tujia (Southern)	tsiu̵¹³	tsiu̵¹³	most (superlative degree)	most (superlative degree)		7.1.2.1		0		
+290295	1617	Tujia (Southern)	bu¹³	bu¹³	all / even	all / even		9.9		0		
+290296	1617	Tujia (Southern)	je³³	je³³	also	also		10.1.2.1		0		
+290297	1617	Tujia (Southern)	tsai¹³	tsai¹³	again	again		10.1		0		
+290298	1617	Tujia (Southern)	jiu̵³⁵	jiu̵³⁵	again	again		10.1		0		
+290299	1617	Tujia (Southern)	tɕiu̵¹³	tɕiu̵¹³	then	then		9.1.5		0		
+290300	1617	Tujia (Southern)	ji¹³dẽ⁵⁵	ji¹³dẽ⁵⁵	certainly	certainly		7.2		0		bChinese
+290301	1617	Tujia (Southern)	ma⁵⁵	ma⁵⁵	NEG	NEG		10.6.2		0		2436
+290302	1617	Tujia (Southern)	me¹³	me¹³	not yet	not yet		1.5.3.2		0		
+290303	1617	Tujia (Southern)	ta²¹	ta²¹	NEG imperative	NEG imperative		10.6.2		0		2681
+290304	1617	Tujia (Southern)	ʔa¹³	ʔa¹³	still / yet	still / yet		9.1.1		0		
+290305	1617	Tujia (Southern)	ji³³tɕĩ³³	ji³³tɕĩ³³	already	already		10.1		0		

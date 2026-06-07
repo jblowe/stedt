@@ -1,0 +1,19 @@
+tag: 3409
+grpid: 2
+proto_language: PTB
+protoform: kyaŋ
+gloss: SHOULDER
+semkey: 1.4.3
+sequence: 17.0
+status: KEEP
+public: true
+phonology:
+  handle: keŋ
+  initial: k
+  rhyme: eŋ
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This weakly attested root requires further confirmation.</par><par>See also <xref ref="3393">#3393</xref>
+    and <xref ref="3346">#3346</xref>.</par>

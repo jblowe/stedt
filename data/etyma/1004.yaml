@@ -1,0 +1,15 @@
+tag: 1004
+grpid: 2
+proto_language: PTB
+protoform: tauʔ
+gloss: CHICKEN
+semkey: 2.1.10
+sequence: 1.0
+status: DELETE
+public: false
+phonology:
+  handle: tauʔ
+  initial: t
+  rhyme: auʔ
+  initcover: T
+  rhymecover: V

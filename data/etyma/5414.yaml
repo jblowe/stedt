@@ -1,0 +1,33 @@
+tag: 5414
+grpid: 2
+proto_language: PTB
+protoform: dəw
+gloss: SHORT
+semkey: 9.7.2
+sequence: 7.0
+status: KEEP
+public: true
+references: JAM
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tooy
+  gloss: SHORT / BRIEF
+- grpid: 66
+  group: 1.3.4
+  form: tew
+  gloss: SMALL / FEW
+  variant: a
+- grpid: 66
+  group: 1.3.4
+  form: tu
+  gloss: SHORT (LENGTH OR HEIGHT)
+  variant: b
+- grpid: 42
+  group: '6.1'
+  form: dəw¹
+  gloss: SHORT
+notes:
+- type: F
+  text: '<par><hanform>短</hanform> OC <latinform>*twɑ̂n</latinform>, GSR #169a-c &apos;short&apos;; Schuessler
+    2007:219 <latinform>*tônʔ</latinform>; B &amp; S 2011: <latinform>*tˁorʔ</latinform>; Mand. <latinform>duǎn</latinform>.</par>'

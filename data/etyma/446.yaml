@@ -1,0 +1,19 @@
+tag: 446
+grpid: 2
+proto_language: PTB
+protoform: pay
+gloss: COME / GO
+semkey: 6.7.1
+sequence: 1456.0
+status: KEEP
+public: true
+references: cf. HPTB p.209
+mesoroots:
+- grpid: 68
+  group: 1.2.1.1
+  form: paay
+  gloss: GO
+notes:
+- type: T
+  text: <par>This root bares a fortuitous resemblance to a Proto-Tai root, cf. Siamese <latinform>paj</latinform>
+    (see <plainlatinform>HCT</plainlatinform>:61, 205). </par>

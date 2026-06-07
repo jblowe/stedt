@@ -1,0 +1,136 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+323785	1789	Newar	mā	mā	clf for animals and humans	clf for animals and humans	clf	10.1.3		0		
+323786	1789	Newar	chāuri	chāuri	young (of animal)	young (of animal)	n	7.1.8.3		0		
+323787	1789	Newar	sā	sā	cow (male or female)	cow (male or female)		2.1.2		0		
+323788	1789	Newar	gisā	gisā	cow (female)	cow (female)		2.1.2		0		
+323789	1789	Newar	pilākā	pilākā	calf	calf		1.5.7		0		
+323790	1789	Newar	wāsā	wāsā	bull (intact male)	bull (intact male)		2.1.2		0		
+323791	1789	Newar	ṭho	ṭho	buffalo (water, male)	buffalo (water, male)		2.1.2		0		
+323792	1789	Newar	mes	mes	buffalo (water, female)	buffalo (water, female)		2.1.2		0		b
+323793	1789	Newar	cauri sā	cauri sā	yak	yak		2.1.2		0		
+323794	1789	Newar	sara	sara	horse	horse		2.1.7		0		
+323795	1789	Newar	gadhā	gadhā	donkey	donkey		2.1.7		0		b,b
+323796	1789	Newar	khaccar	khaccar	ass	ass				0		b
+323797	1789	Newar	khwā◦rā	khwārā	hoof	hoof		1.5.4		0		417,m
+323798	1789	Newar	phā	phā	pig	pig		2.1.12		0		1006
+323799	1789	Newar	ban phā	ban phā	pig (wild)	pig (wild)		2.1.12		0		m,1006
+323800	1789	Newar	cicā ban phā	cicā ban phā	hog (pygmy)	hog (pygmy)		2.1.12		0		m,m,1006
+323801	1789	Newar	cil◦ā	cil◦ā	goat (general)	goat (general)		2.1.8		0		2306,m
+323802	1789	Newar	du◦ku	du◦ku	goat (male, uncastrated)	goat (male, uncastrated)		2.1.8		0		5602,6034,m
+323803	1789	Newar	mā◦cil◦ā	mā◦cilā	goat (female)	goat (female)		2.1.8		0		m,2306,m
+323804	1789	Newar	cil◦cā	cilcā	goat (kid)	goat (kid)		2.1.8		0		2306,2727
+323805	1789	Newar	ban◦cil◦ā	ban◦cil◦ā	goat (wild)	goat (wild)		2.1.8		0		m,2306,m
+323806	1789	Newar	phasi	phasi	sheep	sheep		2.1.8		0		
+323807	1789	Newar	phasi◦cā	phasicā	lamb (diminutive)	lamb (diminutive)		2.1.8		0		m,2727
+323808	1789	Newar	cyãgrā	cyãgrā	ram	ram	n	2.1.8		0		
+323809	1789	Newar	un	un	wool	wool		1.6.1.3		0		
+323810	1789	Newar	khā	khā	chicken / fowl (general)	chicken / fowl (general)		2.1.10		0		5568
+323811	1789	Newar	khā-cā	khā-cā	chick	chick		2.1.10		0		5568,m
+323812	1789	Newar	mā◦khā	mā◦khā	hen	hen		2.1.10		0		m,5568
+323813	1789	Newar	gõgar	gõgar	cock / rooster (intact male)	cock / rooster (intact male)		2.1.10		0		
+323814	1789	Newar	ciciri	ciciri	cockscomb	cockscomb		1.2.2.1		0		
+323815	1789	Newar	kha◦pa	khapa	feather	feather		1.6.1.1		0		m,714
+323816	1789	Newar	hã̄s	hã̄s	duck	duck		2.1.10		0		5717
+323817	1789	Newar	khi◦cā	khi◦cā	dog (Canis familiaris)	dog (Canis familiaris)		2.1.11		0		1764,m
+323818	1789	Newar	bwã̄su	bwã̄su	wolf	wolf		2.1.11		0		999R
+323819	1789	Newar	baṭi	baṭi	cat (Felis domesticus)	cat (Felis domesticus)		2.1.3		0		
+323820	1789	Newar	ban-baṭi	ban-baṭi	wildcat	wildcat		2.1.3		0		
+323821	1789	Newar	syāl	syāl	jackal	jackal		2.1.11		0		6053
+323822	1789	Newar	ḍ(h)õr	ḍ(h)õr	jackal	jackal		2.1.11		0		
+323823	1789	Newar	d(h)ũ	d(h)ũ	tiger	tiger		2.1.3		0		
+323824	1789	Newar	cituwā	cituwā	leopard	leopard		2.1.3		0		b
+323825	1789	Newar	sĩga	sĩga	lion	lion		2.1.3		0		6114
+323826	1789	Newar	sĩŋa	sĩŋa	lion	lion		2.1.3		0		6114
+323827	1789	Newar	harin	harin	deer (hog)	deer (hog)		2.2.2		0		
+323828	1789	Newar	jarāyo calā	jarāyo calā	buck (black)	buck (black)		2.2.2		0		
+323829	1789	Newar	kasturi mirga	kasturi mirga	musk deer	musk deer		1.5.3.2		0		m,b?
+323830	1789	Newar	bhālu	bhālu	bear (Tib / Him)	bear (Tib / Him)		2.2.3		0		bNepali
+323831	1789	Newar	makar	makar	monkey	monkey		2.1.9		0		b
+323832	1789	Newar	hẽga-u makar	hẽga-u makar	monkey, red	monkey, red		2.1.9		0		m,m,b
+323833	1789	Newar	hā ka-u makar	hā ka-u makar	monkey, black	monkey, black		2.1.9		0		m,m,b
+323834	1789	Newar	chũ	chũ	mouse / rat	mouse / rat		2.1.1		0		2632
+323835	1789	Newar	bochu	bochu	squirrel	squirrel		2.1.1		0		
+323836	1789	Newar	nawalcā	nawalcā	mongoose	mongoose		2.2.7		0		
+323837	1789	Newar	dhumsi	dhumsi	porcupine	porcupine		2.1.1		0		
+323838	1789	Newar	ci-chũ	ci-chũ	shrew	shrew		2.1.1		0		
+323839	1789	Newar	kharāyo	kharāyo	rabbit	rabbit		2.1.1		0		5357
+323840	1789	Newar	kisi	kisi	elephant	elephant		2.2.1		0		
+323841	1789	Newar	kã̄sŋā	kã̄sŋā	anteater / pangolin	anteater / pangolin		2.2.7		0		
+323842	1789	Newar	naulcā	naulcā	mongoose	mongoose		2.2.7		0		
+323843	1789	Newar	lokhu◦baṭi	lokhu◦baṭi	otter	otter		2.2.7.1		0		
+323844	1789	Newar	cameru	cameru	bat (animal)	bat (animal)		2.2.4.1		0		
+323845	1789	Newar	phaskan	phaskan	bat (animal)	bat (animal)		2.2.4.1		0		
+323846	1789	Newar	kwākarbeŋ	kwākarbeŋ	frog	frog		2.1.6.2		0		
+323847	1789	Newar	beŋ	beŋ	frog, small	frog, small		2.1.6		0		
+323848	1789	Newar	pāhābeŋ	pāhābeŋ	toad	toad		2.1.6.2		0		
+323849	1789	Newar	tuŋā	tuŋā	toad (for medicinal purposes)	toad (for medicinal purposes)		2.1.6		0		
+323850	1789	Newar	kachuwā	kachuwā	turtle	turtle		2.1.6		0		
+323851	1789	Newar	kāphri	kāphri	tortoise (?)	tortoise (?)		2.1.6		0		
+323852	1789	Newar	marĩga	marĩga	lizard (house)	lizard (house)		2.1.6		0		
+323853	1789	Newar	māusuli	māusuli	gecko	gecko		2.1.6		0		
+323854	1789	Newar	baṭimes	baṭimes	gecko	gecko		2.1.6		0		
+323855	1789	Newar	gohi	gohi	crocodile	crocodile		2.1.6		0		
+323856	1789	Newar	bikara	bikara	snake	snake		2.1.6.1		0		
+323857	1789	Newar	lokhu bikara	lokhu bikara	snake (water)	snake (water)		2.1.6		0		
+323858	1789	Newar	chũ-bikara	chũ-bikara	snake (rat)	snake (rat)		2.1.6		0		2632
+323859	1789	Newar	jāŋgal	jāŋgal	bird (general)	bird (general)		2.2.4		0		
+323860	1789	Newar	swālā	swālā	nest / hive	nest / hive		2.2.4		0		
+323861	1789	Newar	khẽja	khẽja	egg	egg				0		
+323862	1789	Newar	kulā	kulā	eggshell	eggshell				0		
+323863	1789	Newar	ṭhor-	ṭhor-	egg, lay	egg, lay	vt			0		
+323864	1789	Newar	bor-	bor-	fly	fly	v	2.2.6		0		
+323865	1789	Newar	ban◦khā	ban◦khā	pheasant	pheasant		2.2.4.1		0		
+323866	1789	Newar	tāskhā	tāskhā	pheasant	pheasant		2.2.4.1		0		
+323867	1789	Newar	mujur	mujur	peacock	peacock		2.2.4.1		0		6698
+323868	1789	Newar	huhujāna	huhujāna	owl	owl		2.2.4.1		0		
+323869	1789	Newar	cicirmati	cicirmati	bird (small, sp.)	bird (small, sp.)		2.2.4		0		
+323870	1789	Newar	bāj	bāj	hawk	hawk		2.2.4.1		0		
+323871	1789	Newar	gidda	gidda	vulture	vulture		2.2.4.1		0		
+323872	1789	Newar	imā	imā	eagle	eagle		2.2.4.1		0		
+323873	1789	Newar	cirkhun	cirkhun	sparrow (house)	sparrow (house)		2.2.4.1		0		
+323874	1789	Newar	bũ cirkhun	bũ cirkhun	sparrow (Himalayan)	sparrow (Himalayan)		2.2.4.1		0		
+323875	1789	Newar	tõrtajāna	tõrtajāna	woodpecker	woodpecker		2.2.4.1		0		
+323876	1789	Newar	sukurpuṭu	sukurpuṭu	dove	dove		2.2.4.1		0		
+323877	1789	Newar	borkhun	borkhun	pigeon	pigeon		2.2.4.1		0		
+323878	1789	Newar	koili	koili	cuckoo	cuckoo		2.2.4.1		0		
+323879	1789	Newar	kāmta	kāmta	cuckoo	cuckoo		2.2.4.1		0		
+323880	1789	Newar	kasmili	kasmili	bird, small, kind of	bird, small, kind of		2.2.4		0		
+323881	1789	Newar	sugā	sugā	parrot	parrot		2.2.4.1		0		
+323882	1789	Newar	māina	māina	mynah	mynah		2.2.4.1		0		
+323883	1789	Newar	kok	kok	crow / raven	crow / raven		2.2.4.1		0		
+323884	1789	Newar	ŋā	ŋā	fish (general)	fish (general)		2.2.5		0		1455
+323885	1789	Newar	ŋā	ŋā	eel	eel		2.2.5		0		
+323886	1789	Newar	kã̄gri	kã̄gri	crab	crab		2.2.5		0		
+323887	1789	Newar	kira	kira	insect	insect		2.2.6		0		
+323888	1789	Newar	ciku	ciku	ant	ant		2.2.6		0		
+323889	1789	Newar	kasti◦hā	kastihā	bee	bee		2.2.6		0		
+323890	1789	Newar	kasti	kasti	honey	honey		2.2.6		0		
+323891	1789	Newar	swālā	swālā	hive / nest	hive / nest		2.2.6		0		
+323892	1789	Newar	pumi	pumi	wasp	wasp		2.2.6		0		
+323893	1789	Newar	jākācā	jākācā	hornet	hornet		2.2.6		0		
+323894	1789	Newar	nar-	nar-	eat / sting	eat / sting	v	1.5.3.2		0		
+323895	1789	Newar	dudubari / lāe phākā	dudubari / lāe phākā	butterfly / moth	butterfly / moth		2.2.6		0		
+323896	1789	Newar	busā	busā	grasshopper	grasshopper		2.2.6		0		
+323897	1789	Newar	pwataŋbusā	pwataŋbusā	locust?	locust?		2.2.6		0		
+323898	1789	Newar	bujiŋ	bujiŋ	fly	fly		2.2.6		0		
+323899	1789	Newar	pā̃ti	pā̃ti	mosquito	mosquito		2.2.6		0		
+323900	1789	Newar	khi-kira	khi-kira	beetle	beetle		2.2.6		0		
+323901	1789	Newar	s(i/ĩ)	s(i/ĩ)	louse	louse		2.2.6		0		
+323902	1789	Newar	saŋsi	saŋsi	nit	nit		2.2.6		0		
+323903	1789	Newar	kusi	kusi	flea	flea		2.2.6		0		
+323904	1789	Newar	baksi	baksi	tick (animal)	tick (animal)		2.2.6		0		
+323905	1789	Newar	ḍã̄s	ḍã̄s	bedbug	bedbug		2.2.6		0		
+323906	1789	Newar	sã̄glo	sã̄glo	cockroach	cockroach		2.2.6		0		
+323907	1789	Newar	biḍi	biḍi	cockroach	cockroach		2.2.6		0		
+323908	1789	Newar	makar◦pāpā	makarpāpā	spider	spider		2.2.6		0		bNepali,m
+323909	1789	Newar	jāli	jāli	web	web		2.2.6		0		
+323910	1789	Newar	bicchi	bicchi	scorpion	scorpion		2.2.6		0		
+323911	1789	Newar	pẽ	pẽ	leech (land)	leech (land)		2.2.6		0		
+323912	1789	Newar	nāpẽ	nāpẽ	leech (water)	leech (water)		2.2.6		0		
+323913	1789	Newar	nasbi	nasbi	insect (goes into human ears)	insect (goes into human ears)		2.2.6		0		
+323914	1789	Newar	sā-nasbi	sā-nasbi	insect (goes into cow ears)	insect (goes into cow ears)		2.2.6		0		
+323915	1789	Newar	dulbi	dulbi	earthworm	earthworm		2.2.6		0		
+323916	1789	Newar	chobu	chobu	caterpillar	caterpillar		2.2.6		0		
+323917	1789	Newar	ṭũ	ṭũ	maggot	maggot		2.2.6		0		
+323918	1789	Newar	kimi	kimi	worm (intestinal)	worm (intestinal)		2.2.6		0		
+323919	1789	Newar	chuti-kirā	chuti-kirā	worm (found in stomach)	worm (found in stomach)		2.2.6		0		

@@ -1,0 +1,23 @@
+tag: 1385
+grpid: 2
+proto_language: PTB
+protoform: s/k-nik
+gloss: HEART / MIND
+semkey: 1.7.1
+sequence: 1.2
+status: KEEP
+public: false
+possallo: '1387'
+references: cf. HPTB
+phonology:
+  handle: s/k-
+  prefix: s/k
+  initial: n
+  rhyme: ik
+  suffix: (
+  initcover: M
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root is distinct but closely related to <xref ref="297">#297</xref> and <xref ref="251">#251</xref>.
+    In general it is more ‘hearty’, while <xref ref="297">#297 </xref> is more ‘chesty’ .</par>

@@ -1,0 +1,22 @@
+tag: 2023
+grpid: 2
+proto_language: PTB
+protoform: s-n(y)ak
+gloss: BRAID
+semkey: 1.2.3.2
+sequence: 3.0
+status: KEEP
+public: true
+phonology:
+  handle: nyak
+  prefix: s
+  initial: n(y)
+  rhyme: ak
+  initcover: M
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root is well established, even though it has so far only been found in rGyalrongic and
+    Burmish.</par><par>Several forms show a development from <reconstruction>*-k</reconstruction> to <latinform>-t</latinform>
+    in reflexes with front vowels (Caodeng <latinform>tə́-sɲet</latinform>, Longchuan Achang <latinform>net³⁵</latinform>).
+    These front vowels, in turn, probably arose through the influence of a medial <reconstruction>*-y-</reconstruction>.</par>

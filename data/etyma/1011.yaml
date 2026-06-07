@@ -1,0 +1,32 @@
+tag: 1011
+grpid: 2
+proto_language: PTB
+protoform: s-r(i/u)ŋ
+gloss: LONG / ELONGATE
+semkey: 9.7.2
+sequence: 51.0
+status: KEEP
+public: true
+xrefs: '2612'
+references: STC#433
+phonology:
+  handle: riŋ
+  prefix: s
+  initial: r
+  rhyme: iŋ
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 35
+  group: '3.3'
+  form: s-k-riŋ
+  gloss: LONG
+notes:
+- type: T
+  text: <par>This well-established root shows <latinform>*-i- ⪤ -u-</latinform> variation, with the latter
+    variant characteristic of the Tamangic group.</par><par>rGyalrongic attests a velar prefix, which
+    always appears between the <latinform>*s-</latinform> prefix and the root initial.</par><par>It is
+    claimed in DL:1297 that Lahu <latinform>yɨ̀</latinform> LONG and <latinform>šɨ</latinform> LENGTH
+    appear not to descend from this root, since the rhyme <latinform>*-iŋ</latinform> usually goes to
+    Lahu <latinform>-ɛ</latinform> not <latinform>-ɨ</latinform>. However, this is perhaps too strict
+    since special vocalic reflexes frequently occur after sibilants in Loloish languages.</par>

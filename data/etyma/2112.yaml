@@ -1,0 +1,29 @@
+tag: 2112
+grpid: 2
+proto_language: PTB
+protoform: (g/b)rwat
+gloss: BELLY / STOMACH / INTESTINES
+semkey: 1.4.7
+sequence: 2.0
+status: KEEP
+public: true
+possallo: '2123'
+references: cf. VSTB 124, HPTB p.334
+phonology:
+  handle: grwat
+  initial: grw
+  rhyme: at
+  initcover: K
+  rhymecover: T
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: breɁᴰ
+  gloss: INTESTINES
+notes:
+- type: F
+  text: '<par><hanform>胃</hanform> OC <latinform>*gi̯wəd</latinform>, GSR #523a-b; B &amp; S 2011: <latinform>*ɢʷət-s
+    {[ɢ]ʷə[t]-s}</latinform>; Mand. <latinform>wèi</latinform>.</par>'
+- type: T
+  text: <par>The Karenic forms mostly reflect the variant with initial labial, except for Pwo, where the
+    velar alternate appears.</par><par>The Chinese comparandum was first suggested in Coblin 1986:141.</par>

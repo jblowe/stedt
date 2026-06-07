@@ -1,0 +1,18 @@
+tag: 166
+grpid: 2
+proto_language: PTB
+protoform: maːy
+gloss: PUMPKIN / GOURD
+semkey: 3.1.5
+sequence: 9.0
+status: KEEP
+public: false
+references: HPTB
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: maay
+  gloss: PUMPKIN
+notes:
+- type: T
+  text: <par>This root has been discovered in Kuki-Chin and Loloish.</par>

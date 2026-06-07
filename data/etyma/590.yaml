@@ -1,0 +1,40 @@
+tag: 590
+grpid: 2
+proto_language: PTB
+protoform: p(y)ik
+gloss: SKIN / PEEL
+semkey: 1.6.5
+sequence: 13.0
+status: KEEP
+public: true
+phonology:
+  handle: pyik
+  prefix: s
+  initial: p(y)
+  rhyme: ik ~ m-p
+  initcover: P
+  rhymecover: VNT
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: pheɁᴰ
+  gloss: BARK (n.), LEATHER, SKIN
+notes:
+- type: T
+  text: <par>Several Bodo-Garo forms begin with a syllable <latinform>bi(ŋ)</latinform>, which superficially
+    resembles this root. However, R. Burling points out that this is merely a prefix which occurs with
+    many body part terms, e.g. Garo <latinform>bi-bik</latinform> &apos;intestines&apos;, <latinform>bi-bil</latinform>
+    &apos;afterbirth&apos;, <latinform>bi-gil</latinform> &apos;skin; bark; peel; pod; leather&apos;,
+    <latinform>bi-gron</latinform> &apos;testicle&apos;, <latinform>bi-ka</latinform> &apos;liver&apos;,
+    <latinform>bi-kit</latinform> &apos;gall bladder&apos;, <latinform>bi-mang</latinform> &apos;body
+    of person or thing; shape, form; middle portion of an object, such as a glass&apos;, <latinform>bi-rot</latinform>
+    &apos;pimple, boil, pox&apos;; also Meche <latinform>biŋgur</latinform>, <latinform>bigur</latinform>
+    &apos;skin&apos;. See Burling 2003.</par><par>The first syllables of Tshona (Mama) <latinform><emph>phe⁵⁵</emph>
+    khu⁵³</latinform> &apos;skin&apos; and WT <latinform><emph>pʻyi</emph> srin</latinform> &apos;vermin
+    living on skin&apos; also superficially resemble this etymon, but are really a different morpheme
+    meaning &apos;outside&apos;. See Jäschke (1881:348-50). Thus, &apos;vermin living on skin&apos; means
+    lit. &quot;outside vermin&quot;.</par><par>A few Karenic forms (Pa-O <latinform> ʼbeŋ¹</latinform>,  Pho
+    (Delta) <latinform>ɓẽ⁴</latinform>, Sgaw <latinform>ɓẽ⁴</latinform> &apos;skin, bark&apos;) point
+    to a final nasal, but these could well reflect a different etymon. The morphemic identity of the second
+    syllables of Karen (Sgaw/Hinthada) <latinform>a³¹ <emph>be̱³¹</emph></latinform> and <latinform>pʰi⁵⁵
+    <emph>be̱³¹</emph></latinform> &apos;skin&apos; remains obscure.</par>

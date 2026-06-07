@@ -1,0 +1,21 @@
+tag: 2218
+grpid: 2
+proto_language: PTB
+protoform: m-(d)z(y)u(ː)k
+gloss: PIERCE / THORN / PLANT (v.) / ERECT
+semkey: 6.9.2
+sequence: 2.1
+status: KEEP
+public: true
+references: cf. STC#360, HPTB pp. 31, 362, 529
+phonology:
+  handle: dzu[ː]
+  initial: dz
+  rhyme: u[ː]k
+  initcover: TS
+  rhymecover: T
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: (N/ʔ)tsuk
+  gloss: PIERCE / STAB

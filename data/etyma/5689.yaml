@@ -1,0 +1,43 @@
+tag: 5689
+grpid: 2
+proto_language: PTB
+protoform: tuk ⪤ (t/d)wa(k/ŋ)
+gloss: MEET
+sequence: 24.0
+status: KEEP
+public: true
+references: LL
+mesoroots:
+- grpid: 70
+  group: 1.2.2
+  form: toŋ-I, ton-II
+  gloss: MEET / CONTACT
+- grpid: 8
+  group: '1.2'
+  form: ɗoŋ-I, ɗon-II
+  gloss: MEET / WELCOME / RECEIVE / COLLECT
+- grpid: 45
+  group: 6.1.2
+  form: C-doŋ²
+  gloss: MEET
+notes:
+- type: T
+  text: '<par>VanBik (2009) reconstructs two separate roots for Chin: <latinform>*ɗoŋ-I, ɗon-II</latinform>
+    for PKC (VanBik:96) and <latinform>*toŋ-I, ton-II</latinform> for PCC (VanBik:207), but entertains
+    the possibility that they are co-allofams. The nasal prefix in Lotha Naga has not been found elsewhere.</par><par>The
+    allofam with <latinform>*-u-</latinform> vocalism is meant to accommodate the WT form <emph>inter
+    alia</emph>.</par>'
+- type: F
+  text: '<par><hanform>注</hanform> OC <latinform>*t̂i̯u</latinform> ~ <latinform>*ti̯u</latinform>, GSR
+    #129c &apos;conduct water; apply, be touched, bring together&apos;; Schuessler 2007:628 <latinform>*troh</latinform>
+    ~ <latinform>*toh</latinform>; B &amp; S 2011: <latinform>*tro-s {tro(ʔ)-s}</latinform>; Mand. <latinform>zhù</latinform>.<br
+    /><hanform>鬬</hanform>/<hanform>鬥</hanform> OC <latinform>*tŭg</latinform>, GSR #1234a-b &apos;struggle,
+    contend; come in contact with, meet&apos;; Schuessler 2007:628 <latinform>*tôh</latinform>; B &amp;
+    S 2011: (<latinform>*tˁo-s</latinform>); Mand. <latinform>dòu</latinform>.<br /><hanform>屬</hanform>
+    OC <latinform>*d̂i̯uk</latinform>, GSR #1224s &apos;attach, connect; touch, apply; copulate&apos;;
+    Schuessler 2007:627 <latinform>*tok</latinform>; B &amp; S 2011: <latinform>*tok</latinform>; Mand.
+    <latinform>zhǔ</latinform>.<br /><hanform>屬</hanform> OC <latinform>*d̂i̯uk</latinform>, GSR #1224s
+    &apos;be connected, attached; belong to; vulva, penis; copulate&apos;; Schuessler 2007:627 <latinform>*dok</latinform>;
+    B &amp; S 2011: <latinform>*N-tok</latinform>; Mand. <latinform>shǔ</latinform>.</par><par><latinform>Comment:</latinform>
+    <hanform>鬬</hanform>/<hanform>鬥</hanform> <latinform>dòu</latinform> is also a comparandum for <xref
+    ref="4097">#4097</xref>, q.v.</par>'

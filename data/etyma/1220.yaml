@@ -1,0 +1,55 @@
+tag: 1220
+grpid: 2
+proto_language: PTB
+protoform: ʔ-gʷəy-s
+gloss: COMB (FOR HAIR)
+semkey: 1.2.2.1
+sequence: 1.0
+status: KEEP
+public: true
+references: cf. STC#480, HPTB pp.26, 434
+phonology:
+  handle: kʷiy
+  initial: kʷ
+  rhyme: i(y)-s
+  suffix: s
+  initcover: K
+  rhymecover: VWS
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: khwiɁᴰ
+  gloss: COMB (v.)
+- grpid: 12
+  group: 1.7.2
+  form: C̥-gyuay
+  gloss: COMB
+- grpid: 44
+  group: 6.1.1
+  form: prəy ⪤ p(r)i
+  gloss: COMB (v.) / BRUSH (v.)
+- grpid: 42
+  group: '6.1'
+  form: ʔ-gʷəy² ⪤ ʔ-gʷi²
+  gloss: COMB
+- grpid: 45
+  group: 6.1.2
+  form: ʔ-pi²
+  gloss: COMB
+- grpid: 45
+  group: 6.1.2
+  form: ʔ-gʷəy²
+  gloss: COMB
+notes:
+- type: I
+  text: <par>PTB <reconstruction>*(p/b)rəy</reconstruction>.</par>
+- type: I
+  text: <par>spurious ZMYYC attributions; e.g., Bisu p.40 - no Bisu in ZMYYC. Which entry in ZMYYC is
+    being referred to for COMB words? Ask JTS.</par>
+- type: T
+  text: <par>This phonologically unstable root is reconstructed with a labiovelar initial. The reflexes
+    are divided between forms with labial and velar initials, sometimes even within a single subgroup,
+    like Lolo-Burmese. Some reflexes have overt labiovelar initials, like Digaro <latinform>se-<emph>kwi</emph></latinform>
+    and the Karenic root <reconstruction>*khwiɁᴰ</reconstruction>.</par><par>The Sulung form <latinform>biek³³</latinform>
+    has an unexplained final <latinform>-k</latinform>, and the Bai form <latinform>su⁵⁵<emph>phĩ̱²¹</emph></latinform>
+    has an unexplained nasal element.</par>

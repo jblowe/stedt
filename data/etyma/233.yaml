@@ -1,0 +1,30 @@
+tag: 233
+grpid: 2
+proto_language: PTB
+protoform: g-rus
+gloss: BONE
+semkey: 1.6.3
+sequence: 1.2
+status: KEEP
+public: true
+exemplary: true
+references: combine?
+phonology:
+  handle: rus
+  prefix: g
+  initial: r
+  rhyme: us
+  initcover: L
+  rhymecover: S
+notes:
+- type: T
+  text: <par>A number of languages have developed a velar prefix in this root. However, Kuki-Chin forms
+    with initial velars (e.g. in Tiddim, Thado, Mindat Cho, etc.) are regular reflexes of PTB <latinform>*r</latinform>
+    as explained in VanBik 2009:232ff.</par>
+- type: F
+  text: '<par><hanform>頄</hanform> OC <latinform>*gʼi̯ŭg</latinform>, GSR #992e &apos;cheekbone&apos;;
+    B &amp; S 2011: <latinform>*ɡʷru {*[ɡ]ʷru}</latinform>; Mand. <latinform>qiú</latinform>.<br /><hanform>頄</hanform>
+    OC <latinform>*gʼi̯wəg</latinform>, GSR #992e &apos;cheekbone&apos;; B &amp; S 2011: <latinform>*ɡʷru
+    {*[ɡ]ʷru}</latinform>; Mand. <latinform>kuí</latinform>.<br /><hanform>類</hanform> OC <latinform>*li̯wəd</latinform>,
+    GSR #529a &apos;class, category; categorize; resemble, similar, equal&apos;; Schuessler 2007:347 <latinform>*rus</latinform>;
+    B &amp; S 2011: <latinform>*rut-s</latinform>; Mand. <latinform>lèi</latinform>.</par>'

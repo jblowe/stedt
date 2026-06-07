@@ -1,0 +1,21 @@
+tag: 2089
+grpid: 2
+proto_language: PTB
+protoform: tsyu
+gloss: EARWAX
+semkey: 1.2.7.3
+sequence: 18.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: tšu
+  initial: tš
+  rhyme: u
+  initcover: TS
+  rhymecover: V
+notes:
+- type: T
+  text: <par>The typical word for earwax in TB languages is a compound EAR + SHIT. Cf., e.g. Lotha <latinform>E
+    No chu</latinform> &apos;earwax&apos;, where the last syllable is from <xref ref="572">#572</xref>.
+    It is quite possible that some of the forms grouped under the present etymon may have a similar origin.</par>

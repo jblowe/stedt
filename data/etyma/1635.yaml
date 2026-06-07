@@ -1,0 +1,16 @@
+tag: 1635
+grpid: 2
+proto_language: PTB
+protoform: pu
+gloss: MALE / MASCULINE SUFFIX
+semkey: 1.9.6.1
+sequence: 3.0
+status: KEEP
+public: false
+exemplary: true
+phonology:
+  handle: pu
+  initial: p
+  rhyme: u
+  initcover: P
+  rhymecover: V

@@ -1,0 +1,28 @@
+tag: 3515
+grpid: 2
+proto_language: PTB
+protoform: s-la(m/p)
+gloss: DRY (by fire / sun)
+semkey: '6.6'
+sequence: 1725.0
+status: KEEP
+public: true
+references: JAM-LITB 5.3
+phonology:
+  initial: h
+  rhyme: am ⪤ ap
+  initcover: H
+  rhymecover: NT
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: fam
+  gloss: DRY SOMETHING NEAR FIRE
+- grpid: 42
+  group: '6.1'
+  form: ʔ-lapᴸ
+  gloss: DRY IN SUN
+- grpid: 50
+  group: '7'
+  form: hloᴬ
+  gloss: DRY (v.)

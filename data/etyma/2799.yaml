@@ -1,0 +1,17 @@
+tag: 2799
+grpid: 2
+proto_language: PTB
+protoform: r-yu(w)
+gloss: ASK / REQUEST
+semkey: 8.5.7.1
+sequence: 1075.0
+status: KEEP
+public: true
+references: STC p.57
+phonology:
+  handle: yuw
+  prefix: r
+  initial: y
+  rhyme: u(w)
+  initcover: L
+  rhymecover: W

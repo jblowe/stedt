@@ -1,0 +1,15 @@
+tag: 396
+grpid: 2
+proto_language: PTB
+protoform: ŋil
+gloss: HEEL
+semkey: 1.5.2.1
+sequence: 3.0
+status: DELETE
+public: false
+phonology:
+  handle: ŋil
+  initial: ŋ
+  rhyme: il
+  initcover: M
+  rhymecover: L

@@ -1,0 +1,19 @@
+tag: 439
+grpid: 2
+proto_language: PTB
+protoform: tuŋ
+gloss: KNEE / ELBOW
+semkey: 1.5.8.4
+sequence: 3.0
+status: KEEP
+public: true
+phonology:
+  handle: twam
+  initial: tw
+  rhyme: am ~ tya
+  initcover: T
+  rhymecover: NWT
+notes:
+- type: T
+  text: <par>This root is to be distinguished from the phonologically similar <xref ref="710">#710</xref>
+    and <xref ref="711">#711</xref>.</par>

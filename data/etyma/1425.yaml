@@ -1,0 +1,17 @@
+tag: 1425
+grpid: 5
+proto_language: PTani
+protoform: dum
+gloss: HEAD / HAIR
+semkey: 1.2.1
+sequence: 7.0
+status: KEEP
+public: true
+exemplary: true
+references: '2.3'
+phonology:
+  handle: dum
+  initial: d
+  rhyme: um
+  initcover: T
+  rhymecover: N

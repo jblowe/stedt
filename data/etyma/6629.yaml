@@ -1,0 +1,31 @@
+tag: 6629
+grpid: 2
+proto_language: PTB
+protoform: s-ra
+gloss: TEN, TEEN
+semkey: '9.9'
+sequence: 20.0
+status: KEEP
+public: false
+references: ("NAG") tentative transcription
+phonology:
+  initial: r
+  rhyme: a
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: ra
+  gloss: TEN
+- grpid: 8
+  group: '1.2'
+  form: hraa
+  gloss: TEN
+- grpid: 63
+  group: 1.3.1
+  form: th-ra
+  gloss: (TIMES) TEN
+notes:
+- type: T
+  text: <par>This etymon seems to be confined to the Northeast Indian areal group. It is not properly
+    reconstructed in <plainlatinform>Matisoff 1995:§3.233</plainlatinform>, where it is surmised as reflecting
+    one of two other etyma with initial <reconstruction>*r-</reconstruction>.</par>

@@ -1,0 +1,28 @@
+tag: 305
+grpid: 2
+proto_language: PTB
+protoform: s/r-gwa-ŋ
+gloss: EGG / TESTICLE
+sequence: 7.0
+status: KEEP
+public: true
+phonology:
+  handle: go
+  prefix: s
+  initial: g
+  rhyme: o-ŋ
+  suffix: ŋ
+  initcover: K
+  rhymecover: VN
+notes:
+- type: T
+  text: '<par>This reconstruction has been revised from <latinform>s/r-go-ŋ</latinform> in TBRS #7.</par><par>WT
+    has a doublet with and without the final nasal. It looks as if the nasal-finalled variant is due to
+    assimilation to a following syllable <latinform>-ŋa</latinform> <xref ref="1610">#1610</xref> in WT,
+    but other languages have a nasal final even before other consonants (Tsangla [Monpa] <latinform>khong-lung</latinform>,
+    Hayu <latinform>kuŋ-luŋ</latinform>). This etymon also appears in Qiangic, but some of these forms
+    may be loans from Tibetan. The rGyalrong forms in <latinform>-m</latinform> are of uncertain affiliation.
+    The <latinform>-m</latinform> makes them look somewhat like the second syllables of some Monpa Tsangla
+    forms with dental initials, though we are referring these to <xref ref="646">#646</xref>. This root
+    also occurs in Bai (where it means &apos;testicle&apos;), in scattered languages of the NE Indian
+    Areal Group, and in Lolo-Burmese.</par>'

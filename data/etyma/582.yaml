@@ -1,0 +1,20 @@
+tag: 582
+grpid: 2
+proto_language: PTB
+protoform: m-raŋ
+gloss: SHIN
+semkey: 1.5.7.2
+sequence: 5.0
+status: KEEP
+public: true
+possallo: '238'
+phonology:
+  handle: raŋ
+  prefix: m
+  initial: r
+  rhyme: aŋ
+  initcover: L
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root, while not widely attested, seems quite solid.</par>

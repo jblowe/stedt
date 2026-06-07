@@ -1,0 +1,23 @@
+tag: 63
+grpid: 2
+proto_language: PTB
+protoform: dzal
+gloss: CORPSE
+semkey: 1.1.6.1
+sequence: 9.0
+status: KEEP
+public: true
+references: Ch. chars.; GSR 358q, 358r, 5o
+phonology:
+  handle: dzal
+  initial: dz
+  rhyme: al
+  initcover: TS
+  rhymecover: L
+notes:
+- type: T
+  text: <par>This etymon needs further confirmation.</par>
+- type: F
+  text: '<par><hanform>髊</hanform> OC <latinform>*dzʼiɑ</latinform>, GSR #5o; Mand. <latinform>cī</latinform>.<br
+    /><hanform>胔</hanform> OC <latinform>*dzʼi̯ɑ̆r</latinform>, GSR #358r; Mand. <latinform>zì</latinform>.<br
+    /><hanform>骴</hanform> OC <latinform>*dzʼi̯ɑ̆r</latinform>, GSR #358q; Mand. <latinform>cī</latinform>.</par>'

@@ -1,0 +1,17 @@
+tag: 5753
+grpid: 2
+proto_language: PTB
+protoform: m-dzəw
+gloss: CHIEF / MASTER / LORD
+sequence: 1.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: m-dzəw²
+  gloss: RULER / LORD / EMPEROR
+notes:
+- type: T
+  text: <par>This root was originally reconstructed as PLB <reconstruction>*Ndzaŋ²</reconstruction> in
+    LTSR:15, before the Written Burmese cognate was noted.</par>

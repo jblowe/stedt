@@ -1,0 +1,16 @@
+tag: 2302
+grpid: 2
+proto_language: PTB
+protoform: kaw
+gloss: BASKET
+semkey: '5.1'
+sequence: 1117.0
+status: KEEP
+public: true
+references: STC#266, HPTB p.225
+phonology:
+  handle: kaw
+  initial: k
+  rhyme: aw
+  initcover: K
+  rhymecover: W

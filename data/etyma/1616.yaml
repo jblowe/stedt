@@ -1,0 +1,27 @@
+tag: 1616
+grpid: 2
+proto_language: PTB
+protoform: li-n
+gloss: VAGINA
+sequence: 84.0
+status: KEEP
+public: true
+references: related to PENIS roots?
+phonology:
+  handle: r/li
+  initial: (r/l)
+  rhyme: i-n
+  suffix: n
+  initcover: L
+  rhymecover: VN
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: linᴮ
+  gloss: VAGINA
+notes:
+- type: T
+  text: <par>This root is confined mostly to Karenic, with possible cognates in the NE Indian Areal Group
+    and Himalayish. The Lotha form with nasal prefix makes this root look very much like <xref ref="1284">#1284</xref>,
+    suggesting that this might be yet another example of &quot;genital flipflop&quot; (see Benedict 1979,
+    LTBA 5.1). For the moment, the final nasal in some Karenic forms is regarded as suffixal.</par>

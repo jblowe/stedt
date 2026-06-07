@@ -1,0 +1,22 @@
+tag: 2199
+grpid: 2
+proto_language: PTB
+protoform: (d/t)wan
+gloss: GO OUT / COME OUT / PULL
+semkey: '9.2'
+sequence: 2033.0
+status: KEEP
+public: true
+references: STC p.125
+phonology:
+  handle: don
+  initial: d
+  rhyme: on~ton
+  initcover: T
+  rhymecover: NT
+notes:
+- type: T
+  text: <par>This root is attested in Jingpho, Kanauri, a few languages of Nepal, and especially in Tibetan.
+    Cf. WT <latinform>ḥdon-pa</latinform>, pf. <latinform>bton</latinform>, fut. <latinform>gdon</latinform>,
+    imp. <latinform>thon</latinform> &apos;cause to go out / cause to come forth&apos;. Some reflexes
+    have final <latinform>-ŋ</latinform> instead of <latinform>-n</latinform>. See STC p. 125.</par>

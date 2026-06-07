@@ -1,0 +1,19 @@
+tag: 6036
+grpid: 63
+proto_language: PCN
+protoform: san
+gloss: SHEEP
+semkey: 2.1.8
+sequence: 16.0
+status: KEEP
+public: true
+references: borrowing? not in DWB-PCN
+phonology:
+  initial: s
+  rhyme: an
+notes:
+- type: T
+  text: <par>According to Clark 1911, Ao (Chungli) <latinform>san</latinform> is frequently pronounced
+    <latinform>sain</latinform>. Temsunungsang 2009 posits an underlying form <latinform>sajin</latinform>.</par>
+- type: T
+  text: <par>The rime in <latinform>san</latinform> is unusual for Sangtam, indicating a possible borrowing.</par>

@@ -1,0 +1,17 @@
+tag: 59
+grpid: 2
+proto_language: PTB
+protoform: (d)zil
+gloss: DEW
+sequence: 1626.0
+status: KEEP
+public: true
+references: cf. HPTB p.188
+phonology:
+  initial: (d)z
+  rhyme: il
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-dzi²
+  gloss: DEW

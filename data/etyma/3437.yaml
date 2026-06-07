@@ -1,0 +1,22 @@
+tag: 3437
+grpid: 2
+proto_language: PTB
+protoform: k(r/w)ak
+gloss: EGG / TESTICLE
+sequence: 10.0
+status: KEEP
+public: true
+phonology:
+  handle: yak
+  initial: y
+  rhyme: ak
+  initcover: L
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This etymon appears in only a few NE Indian Areal Group and Himalayish languages. Thulung
+    reflects medial <reconstruction>*-w-</reconstruction> rather than <reconstruction>*-r-</reconstruction>.
+    This root is quite distinct from the coincidentally nearly homophonous etymon <xref ref="1606">#1606</xref>
+    (cf. Bokar <latinform>po-rok</latinform> &apos;chicken&apos;, WB <latinform>krak</latinform> &apos;id.&apos;),
+    despite the fact that many languages have an association between &apos;chicken&apos; and &apos;penis&apos;
+    (cf. Spanish <emph>polla</emph> 1. &apos;chicken&apos; 2. [<emph>Slang</emph>] &apos;penis&apos;).</par>

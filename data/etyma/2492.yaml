@@ -1,0 +1,39 @@
+tag: 2492
+grpid: 2
+proto_language: PTB
+protoform: naːw
+gloss: YOUNGER SIBLING
+sequence: 3578.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 225, 226; STC#271
+phonology:
+  handle: na-w
+  initial: n
+  rhyme: a-w
+  suffix: w
+  initcover: M
+  rhymecover: VW
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: naaw
+  gloss: CHILD / INFANT / YOUNG (n.)
+  variant: a
+- grpid: 8
+  group: '1.2'
+  form: naw
+  gloss: TENDER / SOFT / YOUNG
+  variant: b
+- grpid: 5
+  group: 1.1.1
+  form: nɯ
+  gloss: BROTHER (younger)
+- grpid: 66
+  group: 1.3.4
+  form: naw
+  gloss: CHILD / YOUNG / YOUNGER AUNT
+- grpid: 63
+  group: 1.3.1
+  form: nu
+  gloss: SIBLING (YOUNGER)

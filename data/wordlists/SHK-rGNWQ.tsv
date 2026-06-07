@@ -1,0 +1,336 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+130641	618	rGyalrong (NW)	tə◦pʰuŋ◦bə	tə◦pʰuŋ◦bə	body	body		1.1.1	1.1	0		p,13,1902
+130642	618	rGyalrong (NW)	tə◦pʰuŋ◦bə ʁatɕʰi	tə◦pʰuŋ◦bə ʁatɕʰi	side (right)	side (right)		1.4.5	1.2	0		p,13,1902,m
+130643	618	rGyalrong (NW)	tə◦pʰuŋ◦bə təque	tə◦pʰuŋ◦bə təque	side (left)	side (left)		1.4.5	1.3	0		p,13,1902,m
+130644	618	rGyalrong (NW)	tə◦pʰuŋ◦bə tə◦zga◦ʁo	tə◦pʰuŋ◦bə tə◦zga◦ʁo	back	back		1.4.8	1.4	0	c	p,3326,m,p,m,m
+130645	618	rGyalrong (NW)	tə◦pʰuŋ◦bə tə ʁorje	tə◦pʰuŋ◦bə tə ʁorje	front	front		1.4.4	1.5	0		p,13,1902,p,m
+130646	618	rGyalrong (NW)	tə◦ləspə	tə◦ləspə	torso / trunk	torso  /  trunk		1.5.3.2	1.6	0		p,m
+130647	618	rGyalrong (NW)	ʂkaŋwʑə	ʂkaŋwʑə	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
+130648	618	rGyalrong (NW)	tə◦χpon ʁo◦rma	tə◦χpon ʁo◦rma	lap	lap		1.4.4.2	1.8	0		p,404,m,m
+130649	618	rGyalrong (NW)	tə◦ʐa	tə◦ʐa	bosom	bosom		1.4.4.2	1.9	0		
+130650	618	rGyalrong (NW)	tə◦mpʰus	tə◦mpʰus	groin / loins / hips	groin  /  loins  / hips		1.4.9	1.10	0		p,398
+130651	618	rGyalrong (NW)	tə◦ɕe	tə◦ɕe	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		p,34
+130652	618	rGyalrong (NW)	kə◦sə◦su	kə◦sə◦su	alive / be living	alive  /  be living		1.1.2.1	1.12	0		p,80,80
+130653	618	rGyalrong (NW)	nə◦kə◦sət	nə◦kə◦sət	die / be dead	die  /  be dead		1.1.6	1.13	0		p,p,27
+130654	618	rGyalrong (NW)	ɣmɐ	ɣmɐ	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		m
+130655	618	rGyalrong (NW)	rdak vəɣma	rdak vəɣma	carcass / dead animal	carcass  /  dead animal		1.1.6.1	1.15	0		1862,m
+130656	618	rGyalrong (NW)	ka rgə	ka rgə	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		p,m
+130657	618	rGyalrong (NW)	ka◦stʰə◦xi	ka◦stʰə◦xi	awake / be awake	awake  /  be awake		1.1.4	1.17	0		m,m,1837
+130658	618	rGyalrong (NW)	kavarma rmə◦lɛm	kavarma rmə◦lɛm	dream	dream	v	1.1.4.2	1.18	0		m,130,1017
+130659	618	rGyalrong (NW)	tə◦ku	tə◦ku	head	head		1.2.1	2.1	0		p,386
+130660	618	rGyalrong (NW)	tə◦spixtsək	tə◦spixtsək	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		
+130661	618	rGyalrong (NW)	tə◦ku zbə	tə◦ku zbə	fontanel (soft spot in a baby's skull).	fontanel (soft spot in a baby's skull).		1.2.1.3	2.3	0		p,m,m
+130662	618	rGyalrong (NW)	tʰot por̥	tʰot por̥	skull	skull		1.2.1.1	2.4	0		2002,m
+130663	618	rGyalrong (NW)	tə◦r◦noχ	tə◦r◦noχ	brain	brain		1.2.4	2.5	0		p,p,243
+130664	618	rGyalrong (NW)	tə◦ku◦rme	tə◦ku◦rme	hair of head	hair of head		1.2.3	2.7	0		p,386,368
+130665	618	rGyalrong (NW)	tə◦ku n◦dʐə	tə◦ku n◦dʐə	scalp	scalp		1.2.1.5	2.8	0		p,386,p,596
+130666	618	rGyalrong (NW)	rə◦rap	rə◦rap	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		m,2016
+130667	618	rGyalrong (NW)	tə◦ʁʐə	tə◦ʁʐə	horn (of animal)	horn (of animal)		1.2.2	2.10	0		p,819
+130668	618	rGyalrong (NW)	ʁastses ʁʐə	ʁastses ʁʐə	antler (of deer)	antler (of deer)		1.2.2	2.11	0		2739,814
+130669	618	rGyalrong (NW)	tə◦rŋe	tə◦rŋe	face	face		1.2.5	3.1	0		p,1192
+130670	618	rGyalrong (NW)	tə◦rtʰes	tə◦rtʰes	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		
+130671	618	rGyalrong (NW)	tə◦ndza ŋgram	tə◦ndza ŋgram	temple	temple		1.2.5.1	3.3	0		
+130672	618	rGyalrong (NW)	tə◦mȵak	tə◦mȵak	eye	eye		1.2.6	3.4	0		p,681
+130673	618	rGyalrong (NW)	tə◦mȵaŋ ndʒə	tə◦mȵaŋ ndʒə	eyelid	eyelid		1.2.6.4	3.4.1	0		p,681,596
+130674	618	rGyalrong (NW)	tə◦mȵaŋ ndʒə	tə◦mȵaŋ ndʒə	iris	iris		1.2.6.2	3.4.2.1	0		p,681,m
+130675	618	rGyalrong (NW)	tə◦mȵak sne	tə◦mȵak sne	pupil	pupil		1.2.6.2	3.4.2.2	0		p,682,m
+130676	618	rGyalrong (NW)	tə◦mȵak kə◦prum	tə◦mȵak kə◦pru◦m	white of eye	white of eye		1.2.6.3	3.4.2.3	0		p,682,p,3608
+130677	618	rGyalrong (NW)	tə◦mȵak rme	tə◦mȵak rme	eyebrow	eyebrow		1.2.6.6	3.4.3	0		p,681,368
+130678	618	rGyalrong (NW)	tə◦mȵak rme	tə◦mȵak rme	eyelash	eyelash		1.2.6.5	3.4.4	0		p,681,368
+130679	618	rGyalrong (NW)	kəwa tsʰəptsʰəp	kəwa tsʰəptsʰəp	blink	blink	v	1.2.6.12	3.4.5	0		m
+130680	618	rGyalrong (NW)	tə◦mtʃʰə me	tə◦mtʃʰə me	tears	tears		1.2.6.7	3.4.6	0		p,298,s
+130681	618	rGyalrong (NW)	tə◦mȵak pa	tə◦mȵak pa	eye sand	eye sand		1.2.6.8	3.4.7	0		p,681,575
+130682	618	rGyalrong (NW)	ka◦ŋa mbri	ka◦ŋa mbri	cry / weep	cry  /  weep	v	1.8.8.2	3.4.8	0		p,1104,m
+130683	618	rGyalrong (NW)	ka mpiɛre	ka mpiɛre	see / look	see  /  look	v	1.2.6.10	3.4.9	0		p,m,m
+130684	618	rGyalrong (NW)	tə◦mȵak nəkəndʒɐt	tə◦mȵak nəkəndʒɐt	blind	blind		1.2.6.14.2	3.4.10	0		p,682,m
+130685	618	rGyalrong (NW)	tə◦sȵi◦p	tə◦sȵi◦p	nose	nose		1.2.8	3.5	0		p,803,s
+130686	618	rGyalrong (NW)	tə◦sȵə ku	tə◦sȵə ku	nose bridge	nose bridge		1.2.8	3.5.1	0		p,803,m
+130687	618	rGyalrong (NW)	tə◦sȵɛs◦pʰo	tə◦sȵɛs◦pʰo	nostril	nostril		1.2.8.1	3.5.2	0		p,441,806
+130688	618	rGyalrong (NW)	tə◦sȵɛ ʁduŋ	tə◦sȵɛ ʁduŋ	alae nasi (nose flaps)	alae nasi (nose flaps)		1.2.8.2	3.5.3	0		p,803,m
+130689	618	rGyalrong (NW)	tə◦sȵi rme	tə◦sȵi rme	nose hair	nose hair		1.2.8	3.5.4	0		p,803,368
+130690	618	rGyalrong (NW)	pa və◦sȵi	pa və◦sȵi	snout (pig)	snout (pig)		1.2.8	3.5.5	0		1006,m,803
+130691	618	rGyalrong (NW)	tə◦sȵi kənə ndʑui	tə◦sȵi kənə ndʑui	liquid mucus	liquid mucus		3.2.3	3.5.6	0		
+130692	618	rGyalrong (NW)	tə◦sȵi kəram	tə◦sȵi kəram	solid mucus	solid mucus		1.1.5	3.5.7	0		
+130693	618	rGyalrong (NW)	xatsʰio	xatsʰio	blow nose	blow nose	v	1.3.1.4	3.5.8	0		
+130694	618	rGyalrong (NW)	kæ nam nam	kæ nam nam	smell / sniff	smell  /  sniff	v	1.2.8.5	3.5.9	0		p,1415,1415
+130695	618	rGyalrong (NW)	ka nakʰɕi	ka nakʰɕi	smell / sniff	smell  /  sniff	v	1.2.8.5	3.5.9	0		
+130696	618	rGyalrong (NW)	tə◦rna	tə◦rna	ear	ear		1.2.7	3.6	0		p,811
+130697	618	rGyalrong (NW)	tə◦rna ʁo	tə◦rna ʁo	outer ear	outer ear		9.2	3.6.2	0		p,811,m
+130698	618	rGyalrong (NW)	tə◦rna vunaŋ	tə◦rna vunaŋ	inner ear	inner ear		9.2.5	3.6.3	0		p,811,m
+130699	618	rGyalrong (NW)	tə◦rna sne	tə◦rna sne	ear canal	ear canal		1.2.7	3.6.4	0		p,811,m
+130700	618	rGyalrong (NW)	tə◦rna ndʒə	tə◦rna ndʒə	eardrum	eardrum		1.2.7.2	3.6.5	0		p,811,816
+130701	618	rGyalrong (NW)	tə◦rna spʰop	tə◦rna spʰop	earwax	earwax		1.2.7.3	3.6.6	0		p,811,815
+130702	618	rGyalrong (NW)	kɐsaŋa	kɐsaŋa	hear	hear	v	1.2.7.4	3.6.7	0		
+130703	618	rGyalrong (NW)	ta◦mba	ta◦mba	deaf	deaf		1.2.7.5	3.6.8	0		p,1409
+130704	618	rGyalrong (NW)	tə◦kʰe	tə◦kʰe	mouth	mouth		1.3.1	3.7	0		p,273
+130705	618	rGyalrong (NW)	tə◦ʂkɛn	tə◦ʂkɛn	palate	palate		1.3.1.1	3.7.1	0		p,636
+130706	618	rGyalrong (NW)	tə◦rne	tə◦rne	gums	gums		1.3.4.3	3.7.3	0		p,504
+130707	618	rGyalrong (NW)	tə◦tsindu	tə◦tsindu	uvula	uvula		1.3.5.1	3.7.4	0		
+130708	618	rGyalrong (NW)	tə◦mtɕʰi	tə◦mtɕʰi	saliva	saliva		1.8.3	3.7.5	0		p,600
+130709	618	rGyalrong (NW)	kə ndzeˋ	kə ndzeˋ	eat	eat	v	1.5.3.2	3.7.6	0		p,36
+130710	618	rGyalrong (NW)	ka tʰi	ka tʰi	drink	drink	v		3.7.7	0		p,502
+130711	618	rGyalrong (NW)	ka spʰiax	ka spʰiax	thirsty	thirsty	be	1.1.3.1	3.7.8	0		p,1826
+130712	618	rGyalrong (NW)	kə mtsʰir̥	kə mtsʰir̥	hungry	hungry	be	1.1.3	3.7.9	0		p,m
+130713	618	rGyalrong (NW)	ka◦vrɟjak	ka◦vrɟjak	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		p,m
+130714	618	rGyalrong (NW)	ptɕʰi◦ɕi	ptɕʰi◦ɕi	spit	spit	v	1.8.3	3.7.11	0		600,m
+130715	618	rGyalrong (NW)	ɕɛ mbis	ɕɛ mbis	vomit	vomit	n	1.8.3.2	3.7.12	0		p,1145
+130716	618	rGyalrong (NW)	va◦mbe ɕɛ◦vi	va◦mbe ɕɛ◦vi	vomit	vomit	n	1.8.3.2	3.7.12	0		p,1145,m,m
+130717	618	rGyalrong (NW)	kə◦mbes	kə◦mbes	vomit	vomit	v	1.8.3.2	3.7.13	0		p,1145
+130718	618	rGyalrong (NW)	ka◦zɟja	ka◦zɟja	gape / open mouth	gape  /  open mouth	v	1.3.1	3.7.15	0		p,m
+130719	618	rGyalrong (NW)	tə◦xam	tə◦xam	yawn	yawn	v	1.3.1.3	3.7.16	0		p,1715
+130720	618	rGyalrong (NW)	tə◦mdɣi	tə◦mdɣi	tongue	tongue		1.3.3	3.8	0		
+130721	618	rGyalrong (NW)	kavaŋox	kavaŋox	speak	speak	v	8.5.10.1	3.8.1	0		
+130722	618	rGyalrong (NW)	kamkʰəx	kamkʰəx	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
+130723	618	rGyalrong (NW)	tɛ◦mŋɛm	tɛ◦mŋɛm	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		p,m
+130724	618	rGyalrong (NW)	ka rdax	ka rdax	lick	lick		1.3.3.1	3.8.4	0		p,629
+130725	618	rGyalrong (NW)	tə◦mtʃʰə	tə◦mtʃʰə	lip	lip		1.3.2	3.9	0		p,442
+130726	618	rGyalrong (NW)	tə◦mtʃʰə stot	tə◦mtʃʰə stot	upper lip	upper lip		9.2.1	3.9.1	0		p,m,21
+130727	618	rGyalrong (NW)	tə◦mtʃʰə smɛt	tə◦mtʃʰə smɛt	lower lip	lower lip			3.9.2	0		p,442,m
+130728	618	rGyalrong (NW)	ka mtɕʰox	ka mtɕʰox	beak / bill	beak / bill		1.3.1.2	3.9.3	0		p,442
+130729	618	rGyalrong (NW)	kɛ◦nɛ◦ri	kɛ◦nɛ◦ri	smile	smile	v	1.8.8.1	3.9.4	0		p,m,1108
+130730	618	rGyalrong (NW)	pox	pox	kiss	kiss	v	1.3.2.2	3.9.5	0		3450
+130731	618	rGyalrong (NW)	tə◦ɕue	tə◦ɕue	tooth	tooth		1.3.4	3.10	0		p,632
+130732	618	rGyalrong (NW)	tə◦ɕue kum	tə◦ɕue kum	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		p,632,630
+130733	618	rGyalrong (NW)	tə◦ɕue rgɛn	tə◦ɕue rgɛn	molar	molar		1.3.4.2	3.10.2	0		p,632,m
+130734	618	rGyalrong (NW)	tə◦ndʑui	tə◦ndʑui	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang		1.3.4.1	3.10.3	0		p,635
+130735	618	rGyalrong (NW)	tə◦ɕue pʰəx	tə◦ɕue pʰəx	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		p,632,m
+130736	618	rGyalrong (NW)	va◦ɕue mədəkaptɕʰi	vaɕue mədəkaptɕʰi	baby tooth	baby tooth		4.2.11	3.10.5	0		m,632,m
+130737	618	rGyalrong (NW)	tə◦ndʑui	tə◦ndʑui	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		p,635
+130738	618	rGyalrong (NW)	ka◦na◦ʂker	ka◦na◦ʂker	bite	bite	v	1.3.4.4	3.10.7	0		p,p,m
+130739	618	rGyalrong (NW)	ka◦nə◦ke	ka◦nə◦ke	chew	chew	v	1.3.4	3.10.8	0		p,p,m
+130740	618	rGyalrong (NW)	tə◦ɣbe	tə◦ɣbe	cheek	cheek		1.2.5.2	3.11	0		p,268
+130741	618	rGyalrong (NW)	tə◦rŋe ɕɛr̥ə	tə◦rŋe ɕɛr̥ə	cheekbone	cheekbone		1.2.5.2	3.11.1	0		p,m,232
+130742	618	rGyalrong (NW)	tə◦mna	tə◦mna	chin	chin		1.2.5.3	3.12	0		p,m
+130743	618	rGyalrong (NW)	tə◦xpor̥	tə◦xpor̥	jaw	jaw		1.2.5.2	3.13	0		p,m
+130744	618	rGyalrong (NW)	tə◦r̥kɛn stot	tə◦r̥kɛn stot	lower jaw / mandible	lower jaw  /  mandible		1.2.5.2	3.13.1	0		p,m,m
+130745	618	rGyalrong (NW)	tə◦rkɛn smɛt	tə◦rkɛn smɛt	upper jaw / maxilla	upper jaw  /  maxilla		1.2.5.2	3.13.2	0		
+130746	618	rGyalrong (NW)	tə◦mke	tə◦mke	neck	neck		1.4.2	4.1	0		p,481
+130747	618	rGyalrong (NW)	tə◦zbap	tə◦zbap	goiter	goiter		1.4.2.2	4.1.1	0		p,163
+130748	618	rGyalrong (NW)	tə◦ɣbesnok	tə◦ɣbesnok	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)		1.1.5.2	4.1.2	0		p,m
+130749	618	rGyalrong (NW)	tə◦mke◦ʁu	tə◦mke◦ʁu	nape of neck	nape of neck		1.4.2.1	4.1.3	0		p,481,m
+130750	618	rGyalrong (NW)	tə◦r̥qua lu◦lu	tə◦r̥qua lu◦lu	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		p,389,3412,3412
+130751	618	rGyalrong (NW)	tə◦r̥tsʰos zbrak	tə◦r̥tsʰos zbrak	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		p,m,m
+130752	618	rGyalrong (NW)	tə◦mȵet	tə◦mȵet	esophagus	esophagus		1.3.5.5	4.2.2	0		
+130753	618	rGyalrong (NW)	ka mglək	ka mglək	swallow	swallow	v	1.3.5.6	4.2.3	0		p,3371
+130754	618	rGyalrong (NW)	tə◦r̥qua zɟji	tə◦r̥qua zɟji	gizzard / crop of bird	gizzard  /  crop of bird		1.7.6.1	4.2.4	0		m,m
+130755	618	rGyalrong (NW)	tə◦ʐa	tə◦ʐa	chest	chest		1.4.4.3	5.1	0		p,3376
+130756	618	rGyalrong (NW)	tə◦ra sto	tə◦ra sto	rib cage	rib cage		1.4.4.3	5.1.1	0		p,288,m
+130757	618	rGyalrong (NW)	tə◦rnam	tə◦rnam	rib	rib		1.4.4.3	5.1.2	0		p,553
+130758	618	rGyalrong (NW)	tə◦r ɕɛr̥ə	tə◦r ɕɛr̥ə	breastbone / sternum	breastbone  /  sternum		1.6.3.2	5.1.3	0		p,238,234
+130759	618	rGyalrong (NW)	tə◦r̥tot	tə◦r̥tot	shoulder	shoulder		1.4.3	5.3	0		
+130760	618	rGyalrong (NW)	tə◦r̥tot ɕɛr̥	tə◦r̥tot ɕɛr̥	shoulder blade / scapula	shoulder blade  /  scapula		1.4.3.2	5.3.1	0		p,m,234
+130761	618	rGyalrong (NW)	kawa ŋGot	kawa ŋGot	shrug shoulders	shrug shoulders	v	1.4.3.3	5.3.2	0		
+130762	618	rGyalrong (NW)	tə◦noɣ	tə◦noɣ	breast	breast		1.4.4.3	5.4	0		p,253
+130763	618	rGyalrong (NW)	tə◦noɣ ku	tə◦noɣ ku	nipple	nipple			5.4.1	0		p,253,m
+130764	618	rGyalrong (NW)	ŋulɛ noɣ	ŋulɛ noɣ	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		
+130765	618	rGyalrong (NW)	ta◦r̥tʰə	ta◦r̥tʰə	milk	milk			5.4.3	0		p,1786
+130766	618	rGyalrong (NW)	ta◦r̥nox	ta◦r̥nox	colostrum	colostrum			5.4.4	0		
+130767	618	rGyalrong (NW)	ka◦ntsʰrop	ka◦ntsʰrop	suck	suck	v	1.3.2.1	5.4.5	0		p,5541
+130768	618	rGyalrong (NW)	kaɕi	kaɕi	nurse / suckle	nurse  /  suckle	v	4.2.1.5	5.4.6	0		
+130769	618	rGyalrong (NW)	tə◦kə◦rim	tə◦kə◦rim	wean	wean			5.4.7	0		p,p,m
+130770	618	rGyalrong (NW)	tə◦zga	tə◦zga	back	back		1.4.8	5.5	0		
+130771	618	rGyalrong (NW)	tə◦zga stot	tə◦zga stot	upper back	upper back		9.2.1	5.5.1	0		p,m,21
+130772	618	rGyalrong (NW)	tə◦zga smɛt	tə◦zga smɛt	lower back	lower back		1.4.8.1	5.5.2	0		m,m
+130773	618	rGyalrong (NW)	zgɛl tsʰək	zgɛl tsʰək	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		201,418
+130774	618	rGyalrong (NW)	tə◦r̥ka	tə◦r̥ka	spinal cord	spinal cord		1.4.8.2	5.5.5	0		
+130775	618	rGyalrong (NW)	zgər̥to	zgər̥to	hunchback	hunchback		1.4.8.3	5.5.6	0		m
+130776	618	rGyalrong (NW)	tə◦mə◦n̥ta	tə◦mə◦n̥ta	waist	waist		1.4.6	5.6	0		p,p,406
+130777	618	rGyalrong (NW)	tə◦ɣu	tə◦ɣu	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)		1.4.7	5.7	0		
+130778	618	rGyalrong (NW)	tə◦ɣ tɕʰak	tə◦ɣ tɕʰak	navel	navel		1.9.4	5.7.1	0		p,2102,525
+130779	618	rGyalrong (NW)	tə◦mpʰus	tə◦mpʰus	hips	hips		1.4.9.2	5.8.1	0		p,398
+130780	618	rGyalrong (NW)	tə◦mpʰu ɕɛr̥	tə◦mpʰu ɕɛr̥	hipbone	hipbone		1.4.9.2	5.8.2	0		p,398,234
+130781	618	rGyalrong (NW)	vumər̥ta	vumər̥ta	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		m
+130782	618	rGyalrong (NW)	tə◦mər̥ta vu tsʰək	tə◦mər̥ta vu tsʰək	crotch / fork of legs	crotch  /  fork of legs		1.4.9.1	5.9	0		
+130783	618	rGyalrong (NW)	tə◦mər̥ta snok	tə◦mər̥ta snok	swollen lymph nodes (of groin)	swollen lymph nodes (of groin)		1.1.5.2	5.9.1	0		p,m,m
+130784	618	rGyalrong (NW)	tə◦xpi ɕe	tə◦xpi ɕe	rump	rump		1.4.10	5.10	0		m,1361,m
+130785	618	rGyalrong (NW)	tə◦mpʰus tsə	tə◦mpʰus tsə	buttocks	buttocks		1.4.10	5.10.1	0		p,284,m
+130786	618	rGyalrong (NW)	tə◦rme ɕɛr̥	tə◦rme ɕɛr̥	tailbone / coccyx	tailbone  /  coccyx		1.6.3.3	5.10.2	0		p,1288,234
+130787	618	rGyalrong (NW)	tə◦rme	tə◦rme	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		p,1288
+130788	618	rGyalrong (NW)	təjax	təjax	arm	arm		1.5.1.2	6.1	0		699
+130789	618	rGyalrong (NW)	tə◦kətsə ye	tə◦kətsə ye	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
+130790	618	rGyalrong (NW)	karavʐok	karavʐok	tickle	tickle		1.5.1.2.4	6.1.1.1	0		
+130791	618	rGyalrong (NW)	tə◦krəmke	tə◦krəmke	upperarm	upperarm		1.5.1.2.1	6.1.2	0		
+130792	618	rGyalrong (NW)	tə◦krəm kev ɕe	tə◦krəm kev ɕe	arm muscles / biceps	arm muscles  /  biceps		1.5.1.2	6.1.3	0		
+130793	618	rGyalrong (NW)	tə◦krə◦ʁu	tə◦krəʁu	elbow	elbow		1.5.8.3	6.1.4	0		p,307,m
+130794	618	rGyalrong (NW)	tə◦krə◦ʁu ɕɛr̥	tə◦krəʁu ɕɛr̥	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		p,307,m,234
+130795	618	rGyalrong (NW)	tə◦krə tɕʰim	tə◦krə tɕʰim	inner elbow / crook of elbow	inner elbow  /  crook of elbow		1.5.8.3	6.1.4.2	0		p,307,m
+130796	618	rGyalrong (NW)	təja mke	tə◦ja mke	forearm / lower arm	forearm  /  lower arm		1.5.1.2.2	6.1.5	0		699,m
+130797	618	rGyalrong (NW)	təjak se	tə◦jak se	wrist	wrist		1.5.8.1	6.1.6	0		699,418
+130798	618	rGyalrong (NW)	təjax	təjax	hand	hand		1.5.1.1	6.1.7	0		699
+130799	618	rGyalrong (NW)	tə◦jak be	tə◦jak be	palm	palm		1.5.5	6.1.7.1	0		
+130800	618	rGyalrong (NW)	təjak ʁu	təjak ʁu	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		699,m
+130801	618	rGyalrong (NW)	tɛnkət	tɛnkət	fist	fist		1.5.1.1.1	6.1.7.3	0		
+130802	618	rGyalrong (NW)	təjak ʁatɕʰi	təjak ʁatɕʰi	right hand	right hand		1.5.3.2	6.1.7.4	0		699,m
+130803	618	rGyalrong (NW)	təjak que	təjak que	left hand	left hand		1.5.3.2	6.1.7.5	0		699,m
+130804	618	rGyalrong (NW)	ʁaju rme	ʁaju rme	fin (of fish)	fin (of fish)		1.5.1.3.1	6.1.8	0		5673,m
+130805	618	rGyalrong (NW)	ʁarə ndzam	ʁarə ndzam	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		
+130806	618	rGyalrong (NW)	piɛ rnua mə	piɛ rnua mə	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
+130807	618	rGyalrong (NW)	tə◦mə	tə◦mə	leg	leg		1.5.7	6.2	0		
+130808	618	rGyalrong (NW)	tə◦xpi	tə◦xpi	thigh	thigh		1.5.7.1	6.2.1	0		
+130809	618	rGyalrong (NW)	tə◦xpi ɕɛr̥	tə◦xpi ɕɛr̥	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		p,m,234
+130810	618	rGyalrong (NW)	tə◦xpi vəngrə	tə◦xpi vəngrə	hamstring	hamstring		1.6.6.2	6.2.1.2	0		
+130811	618	rGyalrong (NW)	tə◦χpon ʁorna	tə◦χpon ʁorna	knee	knee		1.5.8.4	6.2.2	0		
+130812	618	rGyalrong (NW)	tə◦χpon ʁorna ɕɛr̥	tə◦χpon ʁorna ɕɛr̥	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		
+130813	618	rGyalrong (NW)	tə◦χpia ʁu	tə◦χpia ʁu	knee hollow / popliteal region	knee hollow  /  popliteal region		1.5.8.4	6.2.2.2	0		
+130814	618	rGyalrong (NW)	tə◦mə mki	tə◦mə mki	shin	shin		1.5.7.2	6.2.3	0		p,m,481
+130815	618	rGyalrong (NW)	tə◦mə mki ɕɛr̥	tə◦mə mki ɕɛr̥	shin bone / tibia	shin bone  /  tibia		1.5.7.2	6.2.3.1	0		p,m,481,234
+130816	618	rGyalrong (NW)	tə◦mə vuɕe	tə◦mə vuɕe	calf	calf		1.5.7	6.2.4	0		
+130817	618	rGyalrong (NW)	tə◦mə mke ʁorna	tə◦mə mke ʁorna	ankle	ankle		1.5.8.2	6.2.5	0		p,m,481,m
+130818	618	rGyalrong (NW)	tə◦mə mke ɕɛr̥	tə◦mə mke ɕɛr̥	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		p,m,481,234
+130819	618	rGyalrong (NW)	tə◦mə rbax	tə◦mə rbax	foot	foot		1.5.2	6.2.6	0		
+130820	618	rGyalrong (NW)	tə◦mə ʁo	tə◦mə ʁo	heel	heel		1.5.2.1	6.2.6.1	0		
+130821	618	rGyalrong (NW)	tə◦mə ʁue və ngrə	tə◦mə ʁue və ngrə	achilles tendon	achilles tendon		1.6.6.1	6.2.6.2	0		
+130822	618	rGyalrong (NW)	tə◦mə waku	tə◦mə waku	arch	arch		1.5.2.3	6.2.6.3	0		
+130823	618	rGyalrong (NW)	tə◦mə kar̥tom	tə◦mə kar̥tom	ball of the foot	ball of the foot		9.7.1	6.2.6.4	0		
+130824	618	rGyalrong (NW)	tə◦mə ʁue	tə◦mə ʁue	sole	sole		1.5.5	6.2.6.5	0		
+130825	618	rGyalrong (NW)	tə◦mə zga	tə◦mə zga	instep	instep		1.5.2.2	6.2.6.6	0		
+130826	618	rGyalrong (NW)	tə◦mə rʑes	tə◦mə rʑes	footprint	footprint		1.5.2.5	6.2.6.7	0		
+130827	618	rGyalrong (NW)	ʁuatɕo	ʁuatɕo	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		
+130828	618	rGyalrong (NW)	ptʂa jak	ptʂa jak	paw (of animal)	paw (of animal)		1.5.4	6.2.6.9	0		
+130829	618	rGyalrong (NW)	ʑawu	ʑawu	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
+130830	618	rGyalrong (NW)	nəʑe	nəʑe	limp	limp	v	1.5.12	6.2.8	0		
+130831	618	rGyalrong (NW)	tə◦ndzuɣə	tə◦ndzuɣə	finger	finger		1.5.6	7.1	0		
+130832	618	rGyalrong (NW)	tə◦ndzuɣə ku	tə◦ndzuɣə ku	index finger	index finger		1.0	7.1.1	0		
+130833	618	rGyalrong (NW)	tə◦ndzuɣə və per̥	tə◦ndzuɣə və per̥	middle finger	middle finger		1.9.4	7.1.2	0		
+130834	618	rGyalrong (NW)	tə◦ndzuɣə vənda	tə◦ndzuɣə vənda	ring finger	ring finger		1.5.6.2	7.1.3	0		
+130835	618	rGyalrong (NW)	aŋən	aŋən	little finger	little finger		9.7.2	7.1.4	0		
+130836	618	rGyalrong (NW)	tʰame	tʰame	thumb	thumb		1.5.6.1	7.1.5	0		
+130837	618	rGyalrong (NW)	tə◦jak rʑes	tə◦jak rʑes	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
+130838	618	rGyalrong (NW)	tə◦mə ndzuɣə	tə◦mə ndzuɣə	toe	toe		1.5.6	7.2	0		
+130839	618	rGyalrong (NW)	tə◦mə ndzuɣə tʰame	tə◦mə ndzuɣə tʰame	big toe	big toe		1.5.6.1	7.2.1	0		
+130840	618	rGyalrong (NW)	tə◦mə ndzuɣə ku	tə◦mə ndzuɣə ku	second toe	second toe		9.9	7.2.2	0		
+130841	618	rGyalrong (NW)	tə◦mə ndzuɣə vəper	tə◦mə ndzuɣə vəper	middle toe	middle toe		1.9.4	7.2.3	0		
+130842	618	rGyalrong (NW)	tə◦mə ndzuɣə vənda	tə◦mə ndzuɣə vənda	fourth toe	fourth toe		9.9	7.2.4	0		
+130843	618	rGyalrong (NW)	tə◦mə ndzuɣə ŋɛn	tə◦mə ndzuɣə ŋɛn	little toe	little toe		9.7.2	7.2.5	0		
+130844	618	rGyalrong (NW)	təjak tsʰək	tə◦jak tsʰək	knuckle (joint of digit)	knuckle (joint of digit)		1.5.8.5	7.3	0		699,418
+130845	618	rGyalrong (NW)	tə◦ndzəru	tə◦ndzəru	nail	nail		1.5.10	7.4	0		
+130846	618	rGyalrong (NW)	tə◦jak ndzə◦ru	tə◦jak ndzəru	fingernail	fingernail		1.5.10.1	7.4.1	0		p,699,512,m
+130847	618	rGyalrong (NW)	tə◦mə ndzəru	tə◦mə ndzəru	toenail	toenail		1.5.10.2	7.4.2	0		
+130848	618	rGyalrong (NW)	χtʃɛ ndzən ndzəru	χtʃɛ ndzən ndzəru	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		
+130849	618	rGyalrong (NW)	pia kue ndzəru	pia kue ndzəru	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		2187,m,m
+130850	618	rGyalrong (NW)	tə◦rme	tə◦rme	hair (general)	hair (general)		1.2.3	8.1	0		p,368
+130851	618	rGyalrong (NW)	tə◦ku rme	tə◦ku rme	hair (head)	hair (head)		1.2.3	8.1.1	0		p,386,368
+130852	618	rGyalrong (NW)	ku rme ka rʁok	ku rme ka rʁok	cowlick (flexure in hair)	cowlick (flexure in hair)		1.2.3.1	8.1.1.1	0		m,368,m,m
+130853	618	rGyalrong (NW)	tə◦rŋe rme	tə◦rŋe rme	beard / moustache	beard / moustache		1.2.5.5	8.1.2	0		p,1192,368
+130854	618	rGyalrong (NW)	tə◦xpor rme	tə◦xpor rme	beard	beard		1.2.5.5	8.1.2.1	0		p,m,368
+130855	618	rGyalrong (NW)	tsita və xpor rme	tsita və xpor rme	goatee	goatee		1.2.5.5	8.1.2.2	0		m,m,m,368
+130856	618	rGyalrong (NW)	tə◦xpor rme	tə◦xpor rme	moustache	moustache		1.2.5.5	8.1.2.3	0		p,m,368
+130857	618	rGyalrong (NW)	tə◦ɕe rme	tə◦ɕe rme	body hair	body hair		1.6.1	8.1.3	0		p,m,368
+130858	618	rGyalrong (NW)	tə◦qətsəye rme	tə◦qətsəye rme	underarm hair	underarm hair		1.5.1.2.3	8.1.3.1	0		p,m,368
+130859	618	rGyalrong (NW)	tə◦ra rme	tə◦ra rme	chest hair	chest hair		1.4.4.5	8.1.3.2	0		p,288,368
+130860	618	rGyalrong (NW)	tə◦pi rme	tə◦pi rme	leg hair	leg hair		1.5.7	8.1.3.3	0		p,m,368
+130861	618	rGyalrong (NW)	rətak rme	rətak rme	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		1862,368
+130862	618	rGyalrong (NW)	pra◦kue rme	pra◦kue rme	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		760,m,368
+130863	618	rGyalrong (NW)	mbra rme	mbra rme	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		1431,368
+130864	618	rGyalrong (NW)	ʁaji xpo rme	ʁaji xpo rme	whiskers (of animal)	whiskers (of animal)		1.2.5.5	8.1.7	0		m,m,368
+130865	618	rGyalrong (NW)	tə◦ɕe ndʒə	tə◦ɕe n◦dʒə	skin	skin		1.6.5	8.2	0		p,m,596
+130866	618	rGyalrong (NW)	tə◦rme scçi	tə◦rme scçi	pore	pore		1.8.1.1	8.2.2	0		p,368,m
+130867	618	rGyalrong (NW)	rmɛ kʰe	rmɛ kʰe	blemish on skin	blemish on skin		1.6.5	8.2.3	0		2447,m
+130868	618	rGyalrong (NW)	sme ve	sme ve	freckle	freckle		1.6.5.3	8.2.3.1	0		
+130869	618	rGyalrong (NW)	ɣbɛ r̥tsi	ɣbɛ r̥tsi	pimple	pimple		1.6.5.3	8.2.3.2	0		
+130870	618	rGyalrong (NW)	sme ve	sme ve	mole	mole		2.2.7	8.2.3.3	0		2447,m
+130871	618	rGyalrong (NW)	tɛ r̥tsi	tɛ r̥tsi	wart	wart		1.6.5.3	8.2.3.4	0		
+130872	618	rGyalrong (NW)	tɛz r̥uə	tɛz r̥uə	cyst	cyst		1.6.5.3	8.2.3.5	0		
+130873	618	rGyalrong (NW)	tə◦ɣme rʑes	tə◦ɣme rʑes	scar	scar		1.6.5.3	8.2.3.7	0		
+130874	618	rGyalrong (NW)	ta◦rdʑək	ta◦rdʑək	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
+130875	618	rGyalrong (NW)	tə◦rtɕʰik	tə◦rtɕʰik	rash	rash		1.6.5.3	8.2.3.9	0		
+130876	618	rGyalrong (NW)	tə◦ɣmi ku	tə◦ɣmi ku	scab	scab		1.6.5.3	8.2.4	0		
+130877	618	rGyalrong (NW)	ʁaju n◦dʒə	ʁa◦ju n◦dʒə	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		5673,p,596
+130878	618	rGyalrong (NW)	tə◦ndʒə	tə◦n◦dʒə	hide / leather (dried animal skin)	hide  /  leather (dried animal skin)		1.6.5.1	8.2.6	0		p,596
+130879	618	rGyalrong (NW)	ka və ȵam	ka və ȵam	fat	fat		1.6.4	8.3	0		m,m,1443
+130880	618	rGyalrong (NW)	rɟjə◦me r̥◦tsi	rɟjəme r̥◦tsi	fat around intestines / omentum	fat around intestines / omentum		1.6.4	8.3.1	0		2116,m,p,48
+130881	618	rGyalrong (NW)	tsʰən ju	tsʰən ju	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		48,b
+130882	618	rGyalrong (NW)	ɕɛr̥	ɕɛr̥	bone	bone		1.6.3	8.4	0		234
+130883	618	rGyalrong (NW)	ɕɛr̥ kəmdi	ɕɛr̥ kəmdi	skeleton	skeleton		1.6.3.1	8.4.1	0		234,m
+130884	618	rGyalrong (NW)	zgɛr tsʰək	zgɛr tsʰək	vertebrae (of spine)	vertebrae (of spine)		1.6.3.3	8.4.2	0		201,418
+130885	618	rGyalrong (NW)	tə◦r̥ka	tə◦r̥ka	marrow	marrow		1.6.3.5	8.4.3	0		p,459
+130886	618	rGyalrong (NW)	ɕɛr̥ kə mbə	ɕɛr̥ kə mbə	cartilage / grist	cartilage  /  grist		1.6.3.4	8.4.4	0		234,m,m
+130887	618	rGyalrong (NW)	ɕɛ snak	ɕɛ snak	sinew / tendon (muscle to bone????	sinew / tendon (muscle to bone????		1.6.6.1	8.5	0		34,m
+130888	618	rGyalrong (NW)	tə◦r̥tse	tə◦r̥tse	ligament (bone to bone)	ligament (bone to bone)		1.6.3	8.6	0		p,530
+130889	618	rGyalrong (NW)	ta◦sa	ta◦sa	blood	blood		1.6.2	8.7	0		p,230
+130890	618	rGyalrong (NW)	tə◦r̥tse	tə◦r̥tse	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		p,530
+130891	618	rGyalrong (NW)	nə ndʒat	nə ndʒat	bleed	bleed	v	1.6.2	8.7.2	0		p,m
+130892	618	rGyalrong (NW)	və ɕe kə rɟjas	və ɕe kə rɟjas	muscle	muscle		1.6.6.2	8.8	0		m,34,m,m
+130893	618	rGyalrong (NW)	tə◦tsʰək	tə◦tsʰək	joint	joint		1.5.8	8.9	0	D0	p,418
+130894	618	rGyalrong (NW)	tə◦ŋ◦grə	tə◦ŋ◦grə	nerve	nerve		1.6.6.3	8.10	0		p,p,535
+130895	618	rGyalrong (NW)	tə◦r◦nok	tə◦r◦nok	brain	brain		1.2.4	9.1	0	D0	p,p,243
+130896	618	rGyalrong (NW)	zgɛr tsʰək və r̥ka	zgɛr tsʰək və r̥ka	spinal cord	spinal cord		1.4.8.2	9.1.1	0		
+130898	618	rGyalrong (NW)	tə◦r̥◦tsʰos	tə◦r̥◦tsʰos	lung	lung		1.7.2	9.2	0	D0	p,p,458
+130899	618	rGyalrong (NW)	tə◦sȵi ɣra	tə◦sȵi ɣra	breathe	breathe	v	1.1.2.2	9.2.1	0		p,1784,1810
+130900	618	rGyalrong (NW)	sȵi ɣʐa kak tsʰim tsʰo	sȵi ɣʐa kak tsʰim tsʰo	pant	pant	v	1.1.2.2	9.2.2	0		1784,1810,m,m,m
+130901	618	rGyalrong (NW)	ka◦wa |mot	ka◦wa mot	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		p,503
+130902	618	rGyalrong (NW)	tə◦nGar	tə◦nGar	phlegm	phlegm		1.8.3	9.2.5	0		
+130903	618	rGyalrong (NW)	tə◦sne	tə◦sne	heart	heart		1.7.1	9.3	0		p,251
+130904	618	rGyalrong (NW)	tə◦sne kəmpʰar̥	tə◦sne kəmpʰar̥	heartbeat	heartbeat		1.7.1.1	9.3.1	0		p,251,m
+130905	618	rGyalrong (NW)	tə◦r̥◦tse	tə◦r̥◦tse	pulse	pulse		1.7.1.1	9.3.2	0		
+130906	618	rGyalrong (NW)	tə◦mtsʰi	tə◦mtsʰi	liver	liver		1.7.3	9.5	0		p,1390
+130907	618	rGyalrong (NW)	tə◦ʃkrət	tə◦ʃkrət	bile	bile		1.7.3.1	9.5.1	0		p,227
+130908	618	rGyalrong (NW)	tə◦ʃkrət ndʒə	tə◦ʃkrət ndʒə	gall bladder	gall bladder		1.7.3	9.5.2	0		p,227,m
+130909	618	rGyalrong (NW)	ʐwa lo	ʐwa lo	kidney	kidney		1.7.5	9.6	0		m,m
+130910	618	rGyalrong (NW)	tə◦lba tɕʰim	tə◦lba tɕʰim	urinary bladder	urinary bladder		1.7.8	9.7	0		p,1102,m
+130911	618	rGyalrong (NW)	tə◦lba	tə◦lba	urine	urine		1.8.4	9.7.1	0		p,1102
+130912	618	rGyalrong (NW)	katə	katə	urinate	urinate	v	1.5.3.2	9.7.2	0		
+130913	618	rGyalrong (NW)	tə◦mtsʰi lbap	tə◦mtsʰi lbap	spleen	spleen		1.7.4	9.8	0		p,1390,m
+130914	618	rGyalrong (NW)	kə◦maram	kə◦maram	swollen spleen (illness)	swollen spleen (illness)		1.1.5.2	9.8.1	0		p,m
+130915	618	rGyalrong (NW)	tə◦xtu tɕʰim	tə◦xtu tɕʰim	stomach	stomach		1.7.6	9.10	0		p,m,m
+130916	618	rGyalrong (NW)	rɟjə◦me	rɟjəme	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		2116,m
+130917	618	rGyalrong (NW)	rɟjə◦me tɕʰen	rɟjəme tɕʰen	large intestine	large intestine		1.7.7	9.11.1	0		2116,m,m
+130918	618	rGyalrong (NW)	rɟjə◦me tʃʰuŋ	rɟjəme tʃʰuŋ	small intestine	small intestine		9.7.2	9.11.2	0		2116,m,m
+130919	618	rGyalrong (NW)	rɟ◦jə◦me nak	rɟ◦jə◦me nak	appendix	appendix		1.7.7	9.11.3	0		m,m,s,2118
+130920	618	rGyalrong (NW)	rɟjə kar̥	rɟjə kar̥	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		m,m
+130921	618	rGyalrong (NW)	tə◦pa	tə◦pa	feces / shit	feces  /  shit		1.8.5	9.12.1	0		p,m
+130922	618	rGyalrong (NW)	ta◦lŋak tɕʰim	ta◦lŋak tɕʰim	meconium / baby shit	meconium  /  baby shit		1.8.5	9.12.2	0		
+130923	618	rGyalrong (NW)	katʂə təjit	katʂə təjit	defecate	defecate	v	1.8.5.4	9.12.3	0		
+130924	618	rGyalrong (NW)	tə◦ʁʑa	tə◦ʁʑa	genitalia / pudenda (general)	genitalia  /  pudenda (general)		1.9.1	10.1	0		p,m
+130925	618	rGyalrong (NW)	ndot tɕʰak	ndot tɕʰak	copulate	copulate	v	1.9.1.1	10.2	0		m,1643
+130926	618	rGyalrong (NW)	tə◦ʁʑa	tə◦ʁʑa	male	male		1.9.6.1	10.3	0		p,1638
+130927	618	rGyalrong (NW)	tə◦mbi	tə◦mbi	penis	penis			10.3.1	0		p,3425
+130928	618	rGyalrong (NW)	tə◦mbi ku	tə◦mbi ku	glans penis	glans penis			10.3.2	0		p,3425,386
+130929	618	rGyalrong (NW)	tə◦mbi tɕʰim	tə◦mbi tɕʰim	foreskin	foreskin			10.3.3	0		p,3425,m
+130930	618	rGyalrong (NW)	tə◦rgu tɕʰim	tə◦rgu tɕʰim	scrotum	scrotum			10.3.4	0		p,305,m
+130931	618	rGyalrong (NW)	tə◦rgu	tə◦rgu	testicle	testicle			10.3.5	0		p,305
+130932	618	rGyalrong (NW)	tə◦ʁʑa rme	tə◦ʁʑa rme	male pubic hair	male pubic hair			10.3.6	0		p,m,368
+130933	618	rGyalrong (NW)	tə◦mbi r̥tʰə	tə◦mbi r̥tʰə	semen	semen			10.3.7	0		p,3425,m
+130934	618	rGyalrong (NW)	tə◦mbi r̥tʰə kətə	tə◦mbi r̥tʰə kətə	ejaculate	ejaculate	v		10.3.8	0		p,3425,m,m
+130935	618	rGyalrong (NW)	kaptɕos	kaptɕos	castrate	castrate	v	1.9.2.3	10.3.9	0		m
+130936	618	rGyalrong (NW)	tə◦stə	tə◦stə	female; female organ	female; female organ		1.9.3	10.4	0		p,661
+130937	618	rGyalrong (NW)	tə◦stə ku	tə◦stə ku	vagina	vagina			10.4.1	0		p,661,820
+130938	618	rGyalrong (NW)	tə◦stə mtɕʰi	tə◦stə mtɕʰi	vulva / labia	vulva  /  labia			10.4.2	0		p,661,442
+130939	618	rGyalrong (NW)	tə◦stə tɕʰim	tə◦stə tɕʰim	hymen	hymen			10.4.3	0		p,661,m
+130940	618	rGyalrong (NW)	tə◦mdzis	tə◦mdzis	clitoris	clitoris			10.4.4	0		p,1352
+130941	618	rGyalrong (NW)	tə◦stə rme	tə◦stə rme	female pubic hair	female pubic hair			10.4.5	0		p,661,368
+130942	618	rGyalrong (NW)	mə kə xtsa nəvi	mə kə xtsa nəvi	menstruate	menstruate	v	1.9.11.1	10.4.6	0		m,m,m,m
+130943	618	rGyalrong (NW)	mə kə xtsa	mə kə xtsa	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		m,m,m
+130944	618	rGyalrong (NW)	tə◦lŋa sa scçe	tə◦lŋa sa scçe	womb	womb			10.4.8	0		p,675,m,m
+130945	618	rGyalrong (NW)	tə◦lŋa ktɕʰim	tə◦lŋa ktɕʰim	amniotic sac / bag of waters	amniotic sac  /  bag of waters			10.4.9	0		p,675,1612
+130946	618	rGyalrong (NW)	tə◦wu tɕʰak	tə◦wu tɕʰak	umbilical cord	umbilical cord			10.4.12	0		p,2102,525
+130947	618	rGyalrong (NW)	kava lŋak	kava lŋak	pregnant	pregnant	be	1.9.6.1	10.4.14	0		
+130948	618	rGyalrong (NW)	ta◦lŋa kʰŋɛ◦tʰi	ta◦lŋa kʰŋɛ◦tʰi	birth, give	birth, give		1.1.2	10.4.15	0		p,m,90,m
+130949	618	rGyalrong (NW)	tan◦gum	tan◦gum	egg (of animal)	egg (of animal)			10.4.16	0		m,305
+130950	618	rGyalrong (NW)	ta◦sqʰue	ta◦sqʰue	cough	cough		1.8.3.3	11.1	0		
+130951	618	rGyalrong (NW)	tə◦/kʰʂu mbo	tə◦/kʰʂu mbo	hiccup	hiccup		1.8.3.5	11.2	0		
+130952	618	rGyalrong (NW)	xatsʰio	xatsʰio	sneeze	sneeze		1.8.2.1	11.3	0		2131
+130953	618	rGyalrong (NW)	kə◦sŋor̥	kə◦sŋor̥	snore	snore		1.8.2.2	11.4	0		p,1784
+130954	618	rGyalrong (NW)	ta◦swit	ta◦swit	whistle	whistle		8.5.5	11.5	0		p,5592
+130955	618	rGyalrong (NW)	ndzə kat	ndzə kat	burp / belch	burp  /  belch		1.8.3	11.6	0		
+130956	618	rGyalrong (NW)	tə◦kʰsa	tə◦kʰsa	fart	fart		1.8.5.2	11.7	0		
+130957	618	rGyalrong (NW)	tə◦nGar	tə◦nGar	clear throat	clear throat		9.6.1.1	11.8	0		
+130958	618	rGyalrong (NW)	kɛ◦nɛ◦ri	kɛ◦nɛ◦ri	laugh	laugh		1.8.8.1	11.9	0		p,m,1108
+130959	618	rGyalrong (NW)	kamtser̥	kamtser̥	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
+130960	618	rGyalrong (NW)	kaŋnəga	kaŋnəga	sick / be ill / hurt	sick  /  be ill  /  hurt	be	1.1.5.1	12.2	0		
+130961	618	rGyalrong (NW)	kə ndzər̥ pət	kə ndzər̥ pət	numb /  be paralyzed	numb  /   be paralyzed	be	1.5.11	12.3	0		
+130962	618	rGyalrong (NW)	kəmaram	kəmaram	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		p,m
+130963	618	rGyalrong (NW)	ta◦zɣuə	ta◦zɣuə	pus	pus		1.8.6.1	12.5	0		p,1293
+130964	618	rGyalrong (NW)	tə◦ʐa kə mŋam	tə◦ʐa kə mŋam	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound		1.8.6.2	12.6	0		
+130965	618	rGyalrong (NW)	kələm	kələm	phalanx (knuckle length)	phalanx (knuckle length)		1.5.8.5	13.1	0		
+130966	618	rGyalrong (NW)	kə◦tui	kə◦tui	hand span	hand span		1.5.9.4	13.2	0		m,1281,m,m
+130967	618	rGyalrong (NW)	tə◦krə	tə◦krə	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		p,307
+130968	618	rGyalrong (NW)	kə ldʑam	kə ldʑam	cord / fathom (outstretched ar	cord  /  fathom (outstretched ar		1.5.9.5	13.4	0		
+130969	618	rGyalrong (NW)	kə ldʑam ʁə	kə ldʑam ʁə	nose to fingertip	nose to fingertip		1.2.8	13.4.1	0		
+130970	618	rGyalrong (NW)	kə ldʑam	kə ldʑam	left fingertip to right finger	left fingertip to right finger		1.5.3.2	13.4.2	0		
+130971	618	rGyalrong (NW)	rnam dʐək	rnam dʐək	mind / locus of thought	mind  /  locus of thought		1.10	14.1	0		
+130972	618	rGyalrong (NW)	vəjit kəndʑa	vəjit kəndʑa	heart / locus of emotions	heart  /  locus of emotions		1.7.1	14.2	0		m
+130973	618	rGyalrong (NW)	raŋ ndot	raŋ ndot	heart / locus of personality	heart  /  locus of personality		1.7.1	14.3	0		
+148831	618	rGyalrong (NW)	tə◦rəndzi	tə◦rəndzi	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		
+168693	618	rGyalrong (NW)	ka◦tsʰə	katsʰə	speak	speak	v	8.5.10.1	3.8.1	0		p,5382
+168694	618	rGyalrong (NW)	kə mtʰo kaŋ	kə mtʰo kaŋ	hand span	hand span		1.5.9.4	13.2	0		m,1281,m,m

@@ -1,0 +1,21 @@
+tag: 135
+grpid: 2
+proto_language: PTB
+protoform: (g/k)aŋ
+gloss: FULL / SATIATED
+semkey: 1.1.3.2
+sequence: 3.0
+status: KEEP
+public: true
+phonology:
+  handle: gaŋ
+  prefix: b
+  initial: g
+  rhyme: aŋ
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root appears in many Tibetan dialects with the meaning &apos;full&apos;. The notion
+    of &apos;satiated&apos; is attested in Ergong and Sak.</par><par>The Ergong forms reflect a labial
+    prefix, perhaps <latinform>*b-</latinform>.</par>

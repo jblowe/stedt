@@ -1,0 +1,21 @@
+tag: 5684
+grpid: 42
+proto_language: PLB
+protoform: ʔ-lu¹
+gloss: FRY / STIR-FRY / TOAST
+sequence: 5.0
+status: KEEP
+public: true
+references: 'HPTB: 112, 180'
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-lu¹
+  gloss: FRY / STIR-FRY / TOAST
+notes:
+- type: T
+  text: <par>This root is universal in Lolo-Burmese, and also appears in two adjacent Qiangic languages
+    influenced by LB, as well as in Naxi.</par><par>The WB reflex has <latinform>-o</latinform> instead
+    of the expected <latinform>-u</latinform>, perhaps reflecting a variant with PLB <latinform>*-aw</latinform>.
+    Several Burmish languages have the diphthongal reflex <latinform>-ai</latinform>. This suggests that
+    the PLB rhyme is still subject to revision.</par>

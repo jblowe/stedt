@@ -1,0 +1,30 @@
+tag: 1410
+grpid: 2
+proto_language: PTB
+protoform: s-nyan
+gloss: HEAR / LISTEN
+semkey: 1.2.7.4
+sequence: 2.0
+status: KEEP
+public: false
+exemplary: true
+phonology:
+  handle: nyan
+  initial: ny
+  rhyme: an
+  initcover: M
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ʔen
+  gloss: LOOK / BEHOLD / GLANCE
+notes:
+- type: T
+  text: <par>This etymon refers to either visual or auditory perception. Some reflexes have <latinform>ny-</latinform>
+    onsets, while others have <latinform>hy-</latinform> or zero, but this is easily explicable in terms
+    of an <latinform>*s-</latinform> prefix.</par>
+- type: F
+  text: '<par><hanform>認</hanform> OC <latinform>*ńi̯ən</latinform>, GSR #456j &apos;know, recognize&apos;;
+    Schuessler 2007: <latinform>*nəns</latinform> or <latinform>*niəm</latinform>; B &amp; S 2011: <latinform>*nən-s
+    {nə[n]-s}</latinform>; Mand. <latinform>rèn</latinform>.</par>'

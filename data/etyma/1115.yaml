@@ -1,0 +1,20 @@
+tag: 1115
+grpid: 2
+proto_language: PTB
+protoform: yar
+gloss: MOUTH / MOUSTACHE / BEARD
+semkey: 1.2.5.5
+sequence: 10.0
+status: KEEP
+public: true
+references: cf. HPTB p.390
+phonology:
+  handle: yar/t
+  initial: y
+  rhyme: a(r/t)
+  initcover: L
+  rhymecover: LT
+notes:
+- type: T
+  text: <par>The final <latinform>-t</latinform> in the Lepcha form is unexplained, in view of the fact
+    that Lepcha preserves final <latinform>-r</latinform>.</par>

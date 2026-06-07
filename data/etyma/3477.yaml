@@ -1,0 +1,22 @@
+tag: 3477
+grpid: 2
+proto_language: PTB
+protoform: saw
+gloss: LOVE
+semkey: 8.3.1.1.1
+sequence: 155.0
+status: KEEP
+public: true
+references: '("KMR") '
+phonology:
+  handle: saw
+  initial: s
+  rhyme: aw
+  initcover: S
+  rhymecover: W
+notes:
+- type: T
+  text: <par>This promising root, of limited distribution, has been found in the NE Indian Areal Group,
+    with an apparent cognate in Himalayish (Chepang). Some reflexes have <latinform>-a</latinform>, others
+    have a back vowel (<latinform>-u</latinform> or <latinform>-o</latinform>); the rhyme is reconstructed
+    as <reconstruction>*-aw</reconstruction> on the testimony of Dimasa.</par>

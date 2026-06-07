@@ -1,0 +1,16 @@
+tag: 1196
+grpid: 2
+proto_language: PTB
+protoform: (d/t)ip
+gloss: FONTANELLE / PATE
+semkey: 1.2.1.3
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: dip
+  initial: d
+  rhyme: ip⪤tip
+  initcover: T
+  rhymecover: T

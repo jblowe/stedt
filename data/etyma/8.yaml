@@ -1,0 +1,30 @@
+tag: 8
+grpid: 2
+proto_language: PTB
+protoform: t(s)ak
+gloss: BODY
+semkey: 1.1.1
+sequence: 7.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: tsak
+  initial: t(s)
+  rhyme: ak
+  initcover: TS
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tak-shaa
+  gloss: BODY
+notes:
+- type: T
+  text: <par>This etymon has reflexes ranging from an affricate <latinform>ts-</latinform> (Lotha), to
+    a simple dental stop <latinform>t- or th-</latinform>, to a dental sibilant (Mizo, Nocte), to an <latinform>h-</latinform>
+    (Meithei, Moyon, Maring). [For a similar range of reflexes, cf. <xref ref="2742">#2742</xref>. </par><par>We
+    can assume a development in Meithei from <latinform>*ts-</latinform> to <latinform>*s-</latinform>
+    to <latinform>h-</latinform>; the Moyon and Maring forms might well be borrowings from Meithei.</par><par>VanBik
+    reconstructs a binome <latinform>*tak-shaa</latinform> for Proto-Kuki-Chin, where the second element
+    is the general etymon PTB <latinform>*sya</latinform> MEAT / FLESH / ANIMAL.</par>

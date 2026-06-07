@@ -1,0 +1,25 @@
+tag: 2251
+grpid: 2
+proto_language: PTB
+protoform: (g/k)u
+gloss: OWL
+semkey: 2.2.4.1
+sequence: 2585.0
+status: KEEP
+public: true
+references: cf. STC#494, HPTB p. 199
+phonology:
+  handle: gu
+  initial: g
+  rhyme: u=gu~ku
+  initcover: K
+  rhymecover: T
+notes:
+- type: F
+  text: '<par><hanform>鴞</hanform> OC <latinform>*gi̯og</latinform>, GSR #1041t &apos;owl, small bird&apos;;
+    B &amp; S 2011 <latinform>*ɢʷaw {[ɢ]ʷ(r)aw}</latinform>; Mand. <latinform>xiāo</latinform>.<br /><hanform>梟</hanform>
+    OC <latinform>*kiôg</latinform>, GSR #1070m &apos;unfilial bird; owl&apos;; Mand. <latinform>xiāo</latinform>.<br
+    /><hanform>鵂</hanform> OC <latinform>*χi̯ôg</latinform>, GSR #1070i &apos;owl&apos;; Mand. <latinform>xiū</latinform>.<br
+    /><hanform>舊</hanform> OC <latinform>*gʻi̯ug</latinform>, GSR #1067c-e &apos;owl&apos;; Mand. <latinform>jiù</latinform>.</par>'
+- type: T
+  text: <par>This root is very well attested, both in TB and Chinese.</par>

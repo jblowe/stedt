@@ -1,0 +1,20 @@
+tag: 619
+grpid: 2
+proto_language: PTB
+protoform: maŋ
+gloss: SWEAT
+semkey: 1.8.1
+sequence: 5.0
+status: KEEP
+public: true
+references: KEEP 6/2012
+phonology:
+  handle: maŋ
+  initial: m
+  rhyme: aŋ
+  initcover: M
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This sparsely attested root has a strange distribution, appearing only in Southern Loloish,
+    Meithei, and perhaps Kaman and Lakher (Mara).</par>

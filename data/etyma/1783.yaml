@@ -1,0 +1,25 @@
+tag: 1783
+grpid: 2
+proto_language: PTB
+protoform: m/s-lwa-k
+gloss: VOMIT
+semkey: 1.8.3.2
+sequence: 7.0
+status: KEEP
+public: false
+exemplary: true
+references: Kukish, Nagish
+phonology:
+  handle: luak
+  initial: l
+  rhyme: uak
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: lua-I, luak-II
+  gloss: VOMIT
+notes:
+- type: T
+  text: <par>There is an apparent Newar doublet <latinform>lhwa</latinform> ?⪤? <latinform>wak</latinform>.</par>

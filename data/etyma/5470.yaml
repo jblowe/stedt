@@ -1,0 +1,17 @@
+tag: 5470
+grpid: 5
+proto_language: PTani
+protoform: hor
+gloss: DISTRIBUTE
+semkey: '6.23'
+sequence: 1671.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 58, 400; JS-HCST: 112; JAM-LITB 5.1
+phonology:
+  initial: h
+  rhyme: or
+notes:
+- type: T
+  text: '<par>&quot;This root has so far only been found in Abor-Miri-Daﬂa (Tani). See J. Sun 1993&quot;
+    (HPTB: 400).</par>'

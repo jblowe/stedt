@@ -1,0 +1,30 @@
+tag: 2316
+grpid: 2
+proto_language: PTB
+protoform: s-(k/g)lak
+gloss: COOK / COOKED / BOIL
+semkey: '5.5'
+sequence: 1478.0
+status: KEEP
+public: true
+references: cf. STC#124, HPTB
+phonology:
+  handle: klak
+  initial: kl⪤gl
+  rhyme: ak
+  initcover: K
+  rhymecover: LT
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: glak
+  gloss: BOIL
+- grpid: 42
+  group: '6.1'
+  form: ʔglak
+  gloss: CAUSE TO BOIL
+notes:
+- type: T
+  text: <par>This etymon has developed a simplex/causative pair; cf. WB <latinform>kyak</latinform> &apos;come
+    to a boil&apos; ⪤ <latinform>khyak</latinform> &apos;cause to boil&apos;. The Loloish forms so far
+    discovered descend from the pre-glottalized (i.e., causative) variant of the root.</par>

@@ -1,0 +1,37 @@
+tag: 386
+grpid: 2
+proto_language: PTB
+protoform: m/s-gaw
+gloss: HEAD
+semkey: 1.2.1
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+references: STC#490
+phonology:
+  handle: ga
+  prefix: m/s
+  initial: g
+  rhyme: aw
+  initcover: K
+  rhymecover: W
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: kow
+  gloss: HEAD
+- grpid: 63
+  group: 1.3.1
+  form: ku
+  gloss: HEAD
+notes:
+- type: T
+  text: <par>Besides the <reconstruction>*r-</reconstruction> prefix (reflected in rGyalrong), Barish
+    attached a <reconstruction>*k-</reconstruction> and Nungish a <reconstruction>*t-</reconstruction>.</par>
+- type: F
+  text: '<par><hanform>后</hanform> OC <latinform>*g’u</latinform>, GSR #112a &apos;sovereign, lord, queen&apos;;
+    B &amp; S 2011: <latinform>*ɢˁoʔ {ɢˁ(r)oʔ}</latinform>; Mand. <latinform>hòu</latinform>.<br /><hanform>元</hanform>
+    OC <latinform>*ngi̯wɑ̆n</latinform>, GSR #257a &apos;head (fig.); first, eldest, principal, great&apos;;
+    Schuessler 2007:593 <latinform>*ŋon</latinform>~<latinform>*ŋwan</latinform>; B &amp; S 2011: <latinform>*ŋon
+    {[ŋ]o[n]}</latinform> (‹ nasal + uvular); Mand. <latinform>yuán</latinform>.</par>'

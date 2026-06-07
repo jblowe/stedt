@@ -1,0 +1,16 @@
+tag: 345
+grpid: 2
+proto_language: PTB
+protoform: šVN
+gloss: FOOT
+semkey: 1.5.2
+sequence: 10.0
+status: DELETE
+public: false
+references: (front V/ nasal)
+phonology:
+  handle: šVN
+  initial: š
+  rhyme: VN
+  initcover: S
+  rhymecover: V

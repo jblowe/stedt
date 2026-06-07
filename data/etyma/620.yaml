@@ -1,0 +1,20 @@
+tag: 620
+grpid: 2
+proto_language: PTB
+protoform: m-bap
+gloss: FALL OVER
+semkey: 6.1.1.4.2
+sequence: 1845.0
+status: KEEP
+public: true
+references: cf. HPTB p.336
+notes:
+- type: T
+  text: <par>The nasal prefix is attested directly in Tibetan dialects and indirectly by the voiced Lahu
+    initial.</par>
+- type: F
+  text: '<par><hanform>乏</hanform> OC <latinform>*b’i̯wɑ̆p</latinform>, GSR #641a &apos;lack; exhaust;
+    neglect&apos;; Schuessler 2007:234 <latinform>*bap</latinform>; B &amp; S 2011: <latinform>*bop {[b](r)[o]p}</latinform>;
+    Mand. <latinform>fá</latinform>.<br /><hanform>廢</hanform> OC <latinform>*pi̯wɑ̆d</latinform>, GSR
+    #275f &apos;cast aside; remove; suppress; neglect; cease; fall&apos;; Schuessler 2007:234 <latinform>*pats</latinform>;
+    B &amp; S 2011: <latinform>*pap-s</latinform>; Mand. <latinform>fèi</latinform>.</par>'

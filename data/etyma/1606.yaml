@@ -1,0 +1,24 @@
+tag: 1606
+grpid: 2
+proto_language: PTB
+protoform: k-rak
+gloss: FOWL / CHICKEN
+semkey: 2.1.10
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: BIRD
+references: cf. STC p.88, HPTB pp.317, 319, 327
+phonology:
+  handle: rak
+  prefix: k
+  initial: r
+  rhyme: ak
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: rok
+  gloss: CHICKEN

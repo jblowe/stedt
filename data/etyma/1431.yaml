@@ -1,0 +1,33 @@
+tag: 1431
+grpid: 2
+proto_language: PTB
+protoform: s/m-raŋ
+gloss: HORSE
+semkey: 2.1.7
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#145, HPTB
+phonology:
+  handle: s/m-ra
+  prefix: s/m
+  initial: r
+  rhyme: aŋ
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: raŋ
+  gloss: HORSE
+- grpid: 42
+  group: '6.1'
+  form: mraŋ²
+  gloss: HORSE
+notes:
+- type: F
+  text: '<par><hanform>馬</hanform> OC <latinform>*mɑ̊</latinform>, GSR #40a-e &apos;horse&apos;; Schuessler
+    2007:373 <latinform>*mrâʔ</latinform>; B &amp; S 2011: <latinform>mˁraʔ</latinform>; Mand. <latinform>mǎ</latinform>.</par><par>Cf.
+    discussion in Schuessler 2007:32-33 regarding incompatibility between TB final <latinform>-*ŋ</latinform>
+    and OC final <latinform>-*ʔ</latinform> in certain OC tone <latinform>*B</latinform> words.</par>'

@@ -1,0 +1,18 @@
+tag: 422
+grpid: 2
+proto_language: PTB
+protoform: krwak OR krawk
+gloss: JOINT
+semkey: 1.5.8
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: kro
+  initial: kr
+  rhyme: o
+  initcover: K
+  rhymecover: V
+notes:
+- type: T
+  text: <par>The fit between the Jingpho and Chepang forms is quite good, but more confirmation is necessary.</par>

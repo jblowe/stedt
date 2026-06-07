@@ -1,0 +1,21 @@
+tag: 241
+grpid: 2
+proto_language: PTB
+protoform: g-du(ŋ)
+gloss: BONE
+semkey: 1.6.3
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: dzu
+  initial: d(z)
+  rhyme: u((ŋ/k))
+  initcover: TS
+  rhymecover: NT
+notes:
+- type: T
+  text: <par>Karbi <latinform>kang-duk</latinform> &apos;cartilage&apos; possibly reflects a stopped allofam
+    of this root.</par><par>The second syllable of Jingpho <latinform>di-rung</latinform> &apos;bridge
+    of nose&apos; looks temptingly similar to this root, although the development of PTB <latinform>*d-</latinform>
+    &gt; Jingpho <latinform>r-</latinform> is not otherwise attested.</par>

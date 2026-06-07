@@ -1,0 +1,15 @@
+tag: 2129
+grpid: 2
+proto_language: PTB
+protoform: lim
+gloss: ILL / SWEAT
+semkey: 1.1.5.1
+sequence: 2204.0
+status: delete
+public: false
+phonology:
+  handle: lim
+  initial: l
+  rhyme: im
+  initcover: L
+  rhymecover: N

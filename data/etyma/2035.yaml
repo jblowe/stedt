@@ -1,0 +1,14 @@
+tag: 2035
+grpid: 2
+proto_language: PTB
+protoform: vu
+gloss: FACE
+semkey: 1.2.5
+sequence: 14.0
+status: DELETE
+public: false
+phonology:
+  handle: vu
+  initial: v
+  rhyme: u
+  rhymecover: V

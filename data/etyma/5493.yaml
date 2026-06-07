@@ -1,0 +1,32 @@
+tag: 5493
+grpid: 2
+proto_language: PTB
+protoform: la(ː)
+gloss: FEMALE / DAUGHTER
+semkey: 1.9.3
+sequence: 7.0
+status: KEEP
+public: false
+references: combines PTk, PKC, PCN
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: laa
+  gloss: FEMALE (adolescent stage)
+- grpid: 66
+  group: 1.3.4
+  form: la
+  gloss: DAUGHTER
+- grpid: 63
+  group: 1.3.1
+  form: la
+  gloss: FEMALE, WOMAN
+- grpid: 12
+  group: 1.7.2
+  form: C̥-glaᴮ
+  gloss: FEMALE
+notes:
+- type: T
+  text: <par>This root occurs in several sub-branches of the NE Indian areal group.</par><par>Strangely
+    enough, there is a homophonous root <xref ref="1624">#1624</xref> with the antonymous meaning MALE.
+    Cf. Benedict 1981, 1991.</par>

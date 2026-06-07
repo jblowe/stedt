@@ -1,0 +1,17 @@
+tag: 5390
+grpid: 2
+proto_language: PTB
+protoform: grim
+gloss: HASTEN
+semkey: 6.7.3
+sequence: 2104.0
+status: KEEP
+public: true
+references: cf. HPTB p. 305
+notes:
+- type: T
+  text: '<par>This etymology is due to Gong Hwang-cherng (2001:27), according to whom the <emph>Shuo Wen</emph>
+    gloss of this character is <hanform>唫</hanform>, <hanform>口急也</hanform> &apos;close-mouthed; tight-lipped;
+    speaking hurriedly or haltingly&apos; (<emph>Hanyu Da Zidian</emph>: 1.643.7).</par>'
+- type: F
+  text: '<par><hanform>唫</hanform> OC <latinform>*gʼi̯əm</latinform>, GSR #652g; Mand. <latinform>jìn</latinform>.</par>'

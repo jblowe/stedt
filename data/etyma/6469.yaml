@@ -1,0 +1,18 @@
+tag: 6469
+grpid: 5
+proto_language: PTani
+protoform: mro
+gloss: ARROW POISON (ACONITE)
+semkey: '5.15'
+sequence: 5.0
+status: KEEP
+public: true
+references: JS-HCST: 130
+phonology:
+  initial: mr
+  rhyme: o
+notes:
+- type: T
+  text: '<par>Due to errors in segmentation of Bengni <latinform>u-mje</latinform> as <latinform>um-je</latinform>
+    and Miri <latinform>o-mle</latinform> as <latinform>om-le</latinform>, these words were assigned to
+    a non-existent root <latinform>*um</latinform> in Matisoff (1997): 42.</par>'

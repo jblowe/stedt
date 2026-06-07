@@ -1,0 +1,15 @@
+tag: 2113
+grpid: 50
+proto_language: PKar
+protoform: θok OR θuk
+gloss: LUNG
+semkey: 1.7.2
+sequence: 3.0
+status: DELETE
+public: false
+references: θik?
+phonology:
+  handle: θok/θu
+  initial: θ
+  rhyme: ok/θuk
+  rhymecover: T

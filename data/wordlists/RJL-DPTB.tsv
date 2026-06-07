@@ -1,0 +1,2251 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+58672	539	Trung [Dulong] (Dulonghe)	ka⁵⁵	ka⁵⁵	bitter	bitter		7.1.4.4	1	0		229
+58673	541	Trung [Dulong] (Nujiang)	kha⁵³	kha⁵³	bitter	bitter		7.1.4.4	1	0		229
+58674	1577	Tibetan (Written)	kha-ba	kha-ba	bitter	bitter		7.1.4.4	1	0		229,s
+58675	407	Burmese (Written)	khà	khà	bitter	bitter		7.1.4.4	1	0		229
+58676	983	Lushai [Mizo]	kha	kha	bitter	bitter		7.1.4.4	1	0		229
+58677	539	Trung [Dulong] (Dulonghe)	tak⁵⁵ ka⁵⁵	tak⁵⁵ ka⁵⁵	crow	crow		2.2.4.1	2	0		m,2279
+58678	541	Trung [Dulong] (Nujiang)	taŋ³¹ kha⁵⁵	taŋ³¹ kha⁵⁵	crow	crow		2.2.4.1	2	0		m,2279
+58679	1577	Tibetan (Written)	kha-tha	kha-tha	crow, raven	crow, raven		2.2.4.1	2	0		2279,m
+58680	684	Jingpho	kha	kha	crow	crow		2.2.4.1	2	0		2279
+58681	407	Burmese (Written)	khì-kàn	khì-kàn	crow	crow		2.2.4.1	2	0		m,2279
+58682	1333	Anong (Rawang)	thaŋ-kha	thaŋ-kha	crow	crow		2.2.4.1	2	0	D0	m,2279
+58683	1607	Trung [Dulong]	tak-ka	tak-ka	crow	crow		2.2.4.1	2	0		m,2279
+58684	206	Achang (Longchuan)	kha³¹ nɔʔ⁵⁵	kha³¹ nɔʔ⁵⁵	crow	crow		2.2.4.1	2	0		
+58685	208	Achang (Luxi)	ka⁵⁵ naʔ³¹	ka⁵⁵ naʔ³¹	crow	crow		2.2.4.1	2	0		
+58686	539	Trung [Dulong] (Dulonghe)	pai⁵⁵ kɔʔ⁵⁵	pai⁵⁵ kɔʔ⁵⁵	basket	basket		5.1	3	0		
+58687	541	Trung [Dulong] (Nujiang)	tɯ³¹ kɔʔ⁵⁵	tɯ³¹ kɔʔ⁵⁵	basket	basket		5.1	3	0		
+58688	1577	Tibetan (Written)	khug-ma	khug-ma	pouch	pouch			3	0		1617,m
+58689	578	Garo	khok	khok	basket	basket		5.1	3	0		1617
+58690	899	Lepcha	kóm ba-guk	kóm ba-guk	purse	purse		5.11.8.2.2	3	0		m,m,1617
+58691	539	Trung [Dulong] (Dulonghe)	kɯ⁵⁵	kɯ⁵⁵	steal	steal		6.2.2.1	4	0		
+58692	541	Trung [Dulong] (Nujiang)	khɯ⁵³	khɯ⁵³	steal	steal		6.2.2.1	4	0		
+58693	1577	Tibetan (Written)	rku-ba	rku-ba	steal	steal		6.2.2.1	4	0		2365,s
+58694	684	Jingpho	ləgu	ləgu	steal	steal		6.2.2.1	4	0		2365
+58695	407	Burmese (Written)	khui	khui	steal	steal		6.2.2.1	4	0		2365
+58696	1203	Anong	khü	khü	steal	steal		6.2.2.1	4	0		
+58697	539	Trung [Dulong] (Dulonghe)	u⁵⁵ kɯm⁵⁵	u⁵⁵ kɯm⁵⁵	pillow	pillow		1.2.1	5	0		m,692
+58698	541	Trung [Dulong] (Nujiang)	u⁵³ kɯm⁵³	u⁵³ kɯm⁵³	pillow	pillow		1.2.1	5	0		m,692
+58699	684	Jingpho	buŋ-khum	buŋ-khum	pillow	pillow		1.2.1	5	0		m,692
+58700	1203	Anong	əgɔ məkhim	əgɔ məkhim	pillow	pillow		1.2.1	5	0		m,692
+58701	843	Lahu	ú-gɛ̂	ú-gɛ̂	pillow	pillow		1.2.1	5	0		385,692
+58702	407	Burmese (Written)	khum	khum	pillow	pillow		1.2.1	5	0		692
+58703	983	Lushai [Mizo]	khum	khum	pillow	pillow		1.2.1	5	0		692
+58704	539	Trung [Dulong] (Dulonghe)	a³¹ kɯ⁵³	a³¹ kɯ⁵³	uncle	uncle		4.7.1	6	0		
+58705	541	Trung [Dulong] (Nujiang)	a³¹ khɯ⁵³	a³¹ khɯ⁵³	uncle	uncle		4.7.1	6	0		
+58706	1577	Tibetan (Written)	ʔa◦khu	ʔakhu	uncle	uncle		4.7.1	6	0		p,2362
+58707	407	Burmese (Written)	kui	kui	uncle	uncle		4.7.1	6	0		2362
+58708	684	Jingpho	ku	ku	uncle	uncle		4.7.1	6	0		2362
+58709	1203	Anong	əkhö	əkhö	uncle	uncle		4.7.1	6	0		
+58710	278	Ao (Chungli)	o◦khu	o◦khu	uncle	uncle		4.7.1	6	0		p,2362
+58711	1075	Mishing [Miri]	ə◦kü	ə◦kü	uncle	uncle		4.7.1	6	0		p,2362
+58712	539	Trung [Dulong] (Dulonghe)	mɯ³¹ kai⁵⁵	mɯ³¹ kai⁵⁵	chin	chin		1.2.5.3	7	0		p,273
+58713	541	Trung [Dulong] (Nujiang)	mɯ³¹ kai⁵⁵	mɯ³¹ kai⁵⁵	chin	chin		1.2.5.3	7	0		p,273
+58714	1203	Anong	məkha	məkha	chin	chin		1.2.5.3	7	0		273
+58715	684	Jingpho	n◦kha~niŋ◦kha	n◦kha~niŋ◦kha	chin	chin		1.2.5.3	7	0		p,273,p,273
+58716	983	Lushai [Mizo]	kha	kha	chin	chin		1.2.5.3	7	0		273b
+58717	1513	Thado	kha	kha	chin	chin		1.2.5.3	7	0	u	273b
+58718	539	Trung [Dulong] (Dulonghe)	ka⁵⁵	ka⁵⁵	word, speech	word,speech		8.5.10.2	8	0	D0	1754
+58719	541	Trung [Dulong] (Nujiang)	ka⁵⁵	ka⁵⁵	word, speech	word,speech		8.5.10.2	8	0	D0	1754
+58720	1577	Tibetan (Written)	b◦ka~skad	bka~skad	word, speech	word,speech		8.5.10.2	8	0		p,1754,m
+58721	407	Burmese (Written)	tsa-ka	tsa-ka	word, speech	word,speech		8.5.10.2	8	0		m,1754
+58722	684	Jingpho	gà~sə◦gà	gà~səgà	word, speech	word,speech		8.5.10.2	8	0		1754,m,1754
+58723	1203	Anong	kha	kha	word, speech	word,speech		8.5.10.2	8	0		1754
+58724	539	Trung [Dulong] (Dulonghe)	śiŋ⁵⁵ aŋ³¹ kɔʔ⁵⁵	śiŋ⁵⁵ aŋ³¹ kɔʔ⁵⁵	branch	branch		1.5.3.1	9	0		2658,m,m
+58725	541	Trung [Dulong] (Nujiang)	śɯŋ⁵⁵ aŋ³¹ kɔʔ⁵⁵	śɯŋ⁵⁵ aŋ³¹ kɔʔ⁵⁵	branch	branch		1.5.3.1	9	0		2658,m,m
+58726	407	Burmese (Written)	a◦khak	akhak	branch	branch		1.5.3.1	9	0		p,1278
+58727	843	Lahu	ɔ̀-qá	ɔ̀-qá	branch	branch		1.5.3.1	9	0		5450,1278
+58728	983	Lushai [Mizo]	kaak	kaak	fork of tree	fork of tree		1.4.9.1	9	0		1278
+58729	539	Trung [Dulong] (Dulonghe)	kaat⁵⁵	kaat⁵⁵	plant	plant		3.1.10	10	0		
+58730	541	Trung [Dulong] (Nujiang)	kat⁵⁵	kat⁵⁵	plant	plant		3.1.10	10	0		
+58731	683	Jingpho	khai⁵⁵	khai⁵⁵	plant	plant		3.1.10	10	0		5384
+58732	684	Jingpho	gàt	gàt	sow, scatter	sow, scatter		2.1.12	10	0		
+58733	356	Bodo	gáy	gáy	plant	plant		3.1.10	10	0		5384
+58734	1191	Nocte	khet	khet	plant	plant		3.1.10	10	0	u	
+58735	539	Trung [Dulong] (Dulonghe)	ang³¹ gɯ⁵⁵	ang³¹ gɯ⁵⁵	body	body		1.1.1	11	0		p,2
+58736	1577	Tibetan (Written)	sku	sku	body	body		1.1.1	11	0		2
+58737	407	Burmese (Written)	kui(y)	kui(y)|	body	body		1.1.1	11	0		2
+58738	467	Chinese (Middle)	khiu	khiu	body	body		1.1.1	11	0		2
+58739	539	Trung [Dulong] (Dulonghe)	dɯ³¹ gɯ⁵³|	dɯ³¹ gɯ⁵³|	nine	nine		9.9	12	0		2364
+58740	541	Trung [Dulong] (Nujiang)	dɯ³¹ gɯ⁵³|	dɯ³¹ gɯ⁵³|	nine	nine		9.9	12	0		2364
+58741	1577	Tibetan (Written)	dku	dku	nine	nine		9.9	12	0		2364
+58742	407	Burmese (Written)	kuì	kuì	nine	nine		9.9	12	0		2364
+58743	578	Garo	sku	sku	nine	nine		9.9	12	0		
+58744	1203	Anong	təgö	təgö	nine	nine		9.9	12	0		2364
+58745	539	Trung [Dulong] (Dulonghe)	dɯ³¹ |gɯi⁵⁵	dɯ³¹ gɯi⁵⁵	dog	dog		2.1.11	13	0		1764
+58746	541	Trung [Dulong] (Nujiang)	dɯ³¹ |gi⁵⁵	dɯ³¹ gi⁵⁵	dog	dog		2.1.11	13	0		1764
+58747	1577	Tibetan (Written)	khyi	khyi	dog	dog		2.1.11	13	0		1764
+58748	684	Jingpho	kui	kui	dog	dog		2.1.11	13	0		1764
+58749	407	Burmese (Written)	khwè	khwè	dog	dog		2.1.11	13	0		1764
+58750	983	Lushai [Mizo]	ui	ui	dog	dog		2.1.11	13	0		1764
+58751	664	Jili	tə◦kwi	tə◦kwi	dog	dog		2.1.11	13	0		p,1764
+58752	1203	Anong	təgi	tə◦gi	dog	dog		2.1.11	13	0		1764
+58753	526	Digaro	nkwi	nkwi	dog	dog		2.1.11	13	0		1764
+58754	539	Trung [Dulong] (Dulonghe)	gui⁵⁵	gui⁵⁵	yam	yam		3.1.5	14	0		2381
+58755	1577	Tibetan (Written)	skyi-ba	skyi-ba	potato	potato		3.1.5	14	0		2381,s
+58756	407	Burmese (Written)	kywè	kywè	yam	yam		3.1.5	14	0		2381
+58757	1203	Anong	gi	gi	yam	yam		3.1.5	14	0		2381
+58758	526	Digaro	gi	gi	yam	yam		3.1.5	14	0		
+58759	683	Jingpho	kui³¹ mjau³³	kui³¹ mjau³³	mushroom potato	mushroom potato		3.1.7	14	0		
+58760	539	Trung [Dulong] (Dulonghe)	dɯ³¹ gaang⁵⁵	dɯ³¹ gaang⁵⁵	roast, toast	roast,toast		5.5	15	0	D0	
+58761	541	Trung [Dulong] (Nujiang)	dɯ³¹ gaang⁵⁵	dɯ³¹ gaang⁵⁵	roast, toast	roast,toast		5.5	15	0	D0	
+58762	684	Jingpho	kəkang	kəkang	roast, toast	roast,toast		5.5	15	0		
+58763	407	Burmese (Written)	kang	kang	roast, toast	roast,toast		5.5	15	0		
+58764	983	Lushai [Mizo]	kaang	kaang	burn	burn		3.2.12.1	15	0		119b
+58765	1203	Anong	dəgang	dəgang	roast, toast	roast,toast		5.5	15	0		
+58766	539	Trung [Dulong] (Dulonghe)	gur⁵⁵ met⁵⁵	gur⁵⁵ met⁵⁵	star	star		3.2.2	16	0		
+58767	541	Trung [Dulong] (Nujiang)	gu³¹ ńet⁵⁵	gu³¹ ńet⁵⁵	star	star		3.2.2	16	0		
+58768	1577	Tibetan (Written)	skar-ma	skar-ma	star	star		3.2.2	16	0		2300,s
+58769	684	Jingpho	ʃəgan	ʃəgan	star	star		3.2.2	16	0		2300
+58770	817	*Kuki (Western)	s-|gar	s-|gar	star	star		3.2.2	16	0	u	2300
+58771	983	Lushai [Mizo]	ar-|ʃi	ar-ʃi	star	star		3.2.2	16	0		2300,1019
+58772	539	Trung [Dulong] (Dulonghe)	dɯ³¹ gɔʔ⁵⁵	dɯ³¹ gɔʔ⁵⁵	bent	bent		9.7.2	17	0		
+58773	541	Trung [Dulong] (Nujiang)	dɯ³¹ gɔʔ⁵⁵	dɯ³¹ gɔʔ⁵⁵	bent	bent		9.7.2	17	0		
+58774	1577	Tibetan (Written)	kug	kug	bent	bent		9.7.2	17	0		
+58775	407	Burmese (Written)	kok	kok	bent	bent		9.7.2	17	0		
+58776	683	Jingpho	ma³¹ koʔ³¹	ma³¹ koʔ³¹	bent	bent		9.7.2	17	0		
+58777	304	Bahing	guk	guk	bent	bent		9.7.2	17	0		
+58778	843	Lahu	qɔ̀ʔ	qɔ̀ʔ	bent	bent		9.7.2	17	0		
+58779	217	Ahi	gu44s	gu44s	bent	bent		9.7.2	17	0		
+58780	206	Achang (Longchuan)	kok⁵⁵	kok⁵⁵	bent	bent		9.7.2	17	0		
+58781	539	Trung [Dulong] (Dulonghe)	gwa⁵⁵	gwa⁵⁵	wear	wear		6.2.2.1	18	0		2256
+58782	541	Trung [Dulong] (Nujiang)	gwa⁵³	gwa⁵³	wear	wear		6.2.2.1	18	0		2256
+58783	1577	Tibetan (Written)	bgo-ba	bgo-ba	wear	wear		6.2.2.1	18	0		
+58784	578	Garo	gan	gan	wear	wear		6.2.2.1	18	0		2256
+58785	1203	Anong	gwa~ga	gwa~ga	wear	wear		6.2.2.1	18	0		2256,m
+58786	684	Jingpho	khon	khon	wear	wear		6.2.2.1	18	0		2256
+58787	539	Trung [Dulong] (Dulonghe)	dzɯ³¹ gwaʔ⁵⁵	dzɯ³¹ gwaʔ⁵⁵	vegetable	vegetable		3.1.2	19	0		
+58788	541	Trung [Dulong] (Nujiang)	zɯ³¹ gwaʔ⁵⁵	zɯ³¹ gwaʔ⁵⁵	vegetable	vegetable		3.1.2	19	0		
+58789	843	Lahu	g̈ɔ̂-cá	g̈ɔ̂-cá	vegetable	vegetable		3.1.2	19	0		
+58790	217	Ahi	vu-tʃe²²-⁴⁴	vu-tʃe²²-⁴⁴	vegetable	vegetable		3.1.2	19	0		
+58791	1375	Sani [Nyi]	o-tʃe¹¹-⁵⁵	o-tʃe¹¹-⁵⁵	vegetable	vegetable		3.1.2	19	0	u	
+58792	1556	Tibetan (Lhasa)	tshɛ⁵⁵	tshɛ⁵⁵	vegetable	vegetable		3.1.2	19	0		5375
+58793	539	Trung [Dulong] (Dulonghe)	ga⁵⁵	ga⁵⁵	saddle	saddle		5.14	20	0		5674
+58794	541	Trung [Dulong] (Nujiang)	ga⁵⁵	ga⁵⁵	saddle	saddle		5.14	20	0		5674
+58795	1577	Tibetan (Written)	sga	sga	yoke-horses; yoke	yoke-horses; yoke	v.	5.14	20	0		
+58796	407	Burmese (Written)	ka'	ka'	saddle-frame	saddle-frame		5.14	20	0		
+58797	1087	Tsangla (Motuo)	ga	ga	saddle	saddle		5.14	20	0		5674
+58798	482	Chinese (Old/Mid)	ka	ka	saddle	saddle		5.14	20	0		5674
+58799	541	Trung [Dulong] (Nujiang)	gɔng⁵³	gɔng⁵³	body	body		1.1.1	21	0		1
+58800	1333	Anong (Rawang)	gung	gung	body	body		1.1.1	21	0		1
+58801	1132	Anong (Rawang/Mutwang)	gong	gong	body	body		1.1.1	21	0	u	1
+58802	407	Burmese (Written)	a◦khaung	a◦khaung	body	body		1.1.1	21	0		p,1
+58803	1689	Atsi [Zaiwa]	kung	kung	body	body		1.1.1	21	0		1
+58804	482	Chinese (Old/Mid)	kiông	kiông	body	body		1.1.1	21	0		1
+58805	683	Jingpho	khum³¹	khum³¹	body	body		1.1.1	21	0		206
+58806	539	Trung [Dulong] (Dulonghe)	ŋa⁵³	ŋa⁵³	I	I		4.1	22	0		2530
+58807	541	Trung [Dulong] (Nujiang)	gɯ⁵⁵	gɯ⁵⁵	I	I		4.1	22	0		2530
+58808	1577	Tibetan (Written)	ŋa	ŋa	I	I		4.1	22	0		2530
+58809	1203	Anong	ŋa	ŋa	I	I		4.1	22	0		2530
+58810	407	Burmese (Written)	ŋa	ŋa	I	I		4.1	22	0		2530
+58811	578	Garo	aŋ	aŋ	I	I		4.1	22	0		2530
+58812	520	Dhimal	ka	ka	I	I		4.1	22	0		2530
+58813	983	Lushai [Mizo]	ka	ka	I	I		4.1	22	0		2530
+58814	1318	Qiang (Mawo)	ka	ka	I	I		4.1	22	0		2530
+58815	539	Trung [Dulong] (Dulonghe)	pɯ³¹ ŋa⁵³	pɯ³¹ ŋa⁵³	five	five		9.9	23	0		p,1306
+58816	541	Trung [Dulong] (Nujiang)	pɯ³¹ ŋa⁵³	pɯ³¹ ŋa⁵³	five	five		9.9	23	0		p,1306
+58817	1577	Tibetan (Written)	lŋa	lŋa	five	five		9.9	23	0		1306
+58818	684	Jingpho	məŋa	mə◦ŋa	five	five		9.9	23	0		1306
+58819	407	Burmese (Written)	ŋà	ŋà	five	five		9.9	23	0		1306
+58820	578	Garo	bo'ŋa	bo'ŋa	five	five		9.9	23	0		1306
+58821	983	Lushai [Mizo]	ŋa~ pəŋa	ŋa~ pəŋa	five	five		9.9	23	0		1306,1306
+58822	539	Trung [Dulong] (Dulonghe)	ŋa⁵⁵ plaʔ⁵⁵	ŋa⁵⁵ plaʔ⁵⁵	fish	fish		2.2.5	24	0		1455,b
+58823	1577	Tibetan (Written)	ńa	ńa	fish	fish		2.2.5	24	0		1455
+58824	684	Jingpho	ŋo	ŋo	fish	fish		2.2.5	24	0		1455
+58825	1203	Anong	ŋa	ŋa	fish	fish		2.2.5	24	0		1455
+58826	407	Burmese (Written)	ŋà	ŋà	fish	fish		2.2.5	24	0		1455
+58827	983	Lushai [Mizo]	hŋa	hŋa	fish	fish		2.2.5	24	0		1455
+58828	448	Chepang	ŋa~ ńa|	ŋa~ ńa|	fish	fish		2.2.5	24	0		1455
+58829	539	Trung [Dulong] (Dulonghe)	ŋul⁵⁵	ŋul⁵⁵	silver	silver		3.2.4	25	0		2536
+58830	541	Trung [Dulong] (Nujiang)	ŋuun⁵⁵	ŋuun⁵⁵	silver	silver		3.2.4	25	0		2536
+58831	1577	Tibetan (Written)	dŋul	dŋul	silver	silver		3.2.4	25	0		2536
+58832	407	Burmese (Written)	ŋwe	ŋwe	silver	silver		3.2.4	25	0		2536
+58833	482	Chinese (Old/Mid)	ŋiɛn	ŋiɛn	silver	silver		3.2.4	25	0		
+58834	539	Trung [Dulong] (Dulonghe)	ŋa⁵⁵	ŋa⁵⁵	borrow	borrow		6.22	26	0		
+58835	541	Trung [Dulong] (Nujiang)	ŋa⁵³	ŋa⁵³	borrow	borrow		6.22	26	0		
+58836	1577	Tibetan (Written)	brńa-ba	brńa-ba	borrow	borrow		6.22	26	0		
+58837	407	Burmese (Written)	hŋà	hŋà	borrow	borrow		6.22	26	0		2541
+58838	1203	Anong	ŋa	ŋa	borrow	borrow		6.22	26	0		
+58839	539	Trung [Dulong] (Dulonghe)	ŋɯ⁵³	ŋɯ⁵³	weep, cry	weep,cry		1.8.8.2	27	0		1104
+58840	541	Trung [Dulong] (Nujiang)	ŋɯ⁵³	ŋɯ⁵³	weep, cry	weep,cry		1.8.8.2	27	0		1104
+58841	1577	Tibetan (Written)	ŋu-ba	ŋu-ba	weep, cry	weep,cry		1.8.8.2	27	0		1104,s
+58842	407	Burmese (Written)	ŋui	ŋui	weep, cry	weep,cry		1.8.8.2	27	0		1104
+58843	1203	Anong	ŋü	ŋü	weep, cry	weep,cry		1.8.8.2	27	0		1104
+58844	541	Trung [Dulong] (Nujiang)	nuŋ⁵⁵ ŋwa⁵³	nuŋ⁵⁵ ŋwa⁵³	cattle	cattle		2.1.2	28	0		m,2538
+58845	684	Jingpho	ŋa	ŋa	cattle	cattle		2.1.2	28	0		2538
+58846	407	Burmese (Written)	nwà	nwà	cattle	cattle		2.1.2	28	0		2538
+58847	1104	Tangsa (Moshang)	ŋa	ŋa	cattle	cattle		2.1.2	28	0		2538
+58848	1203	Anong	ŋwa~ŋa	ŋwa~ŋa	cattle	cattle		2.1.2	28	0		2538,2538
+58849	539	Trung [Dulong] (Dulonghe)	a³¹ tal⁵⁵	a³¹ tal⁵⁵	roll	roll		6.7.6	29	0		
+58850	541	Trung [Dulong] (Nujiang)	tan⁵³	tan⁵³	roll	roll		6.7.6	29	0		
+58851	263	Angami Naga	rətuu	rətuu	roll	roll		6.7.6	29	0	u	
+58852	1203	Anong	redul	redul	roll, wrap, enwrap	roll, wrap, enwrap		6.7.6	29	0		2713
+58853	1554	Tibetan (Ladakhi)	thul-ba	thul-ba	roll / wind up	roll / wind up		6.7.6	29	0	u	2713,m
+58855	539	Trung [Dulong] (Dulonghe)	ti⁵⁵ pɯ³¹ ta⁵⁵	ti⁵⁵ pɯ³¹ ta⁵⁵	span	span		1.5.9.4	30	0		
+58856	541	Trung [Dulong] (Nujiang)	tśi⁵⁵ pɯ³¹ ta⁵⁵	tśi⁵⁵ pɯ³¹ ta⁵⁵	span	span		1.5.9.4	30	0		
+58857	1577	Tibetan (Written)	mtho	mtho	span	span		1.5.9.4	30	0		1281
+58858	407	Burmese (Written)	a◦thwa	a◦thwa	span	span		1.5.9.4	30	0		p,1281
+58859	206	Achang (Longchuan)	tho	tho	span	span		1.5.9.4	30	0		1281
+58860	843	Lahu	ɔ̀-thu	ɔ̀-thu	span	span		1.5.9.4	30	0		5450,1281
+58861	539	Trung [Dulong] (Dulonghe)	tɯi⁵³	tɯi⁵³	short	short		9.7.2	31	0		5414
+58862	541	Trung [Dulong] (Nujiang)	thi⁵³	thi⁵³	short	short		9.7.2	31	0		5414
+58863	407	Burmese (Written)	tui	tui	short	short		9.7.2	31	0		5414
+58864	683	Jingpho	ka³¹ tun³¹	ka³¹ tun³¹	short	short		9.7.2	31	0		p,7173
+58865	1087	Tsangla (Motuo)	thum◦i~tum◦bi	thumi~tumbi	short	short		9.7.2	31	0		7173,m,7173,m
+58866	591	Kaman [Miju]	kɯ³¹ ti⁵⁵	kɯ³¹ ti⁵⁵	short	short		9.7.2	31	0		p,7173
+58867	539	Trung [Dulong] (Dulonghe)	tɔ⁵⁵	tɔ⁵⁵	hear	hear		1.2.7.4	32	0		1408
+58868	541	Trung [Dulong] (Nujiang)	ta⁵⁵	ta⁵⁵	hear	hear		1.2.7.4	32	0		1408
+58869	1577	Tibetan (Written)	thos-pa	thos-pa	hear	hear		1.2.7.4	32	0		1408,s
+58870	683	Jingpho	ma³¹ tat³¹	ma³¹ tat³¹	hear	hear		1.2.7.4	32	0		p,1408
+58871	1203	Anong	tha	tha	hear	hear		1.2.7.4	32	0		1408
+58872	1607	Trung [Dulong]	thaŋ	thaŋ	hear	hear		1.2.7.4	32	0		
+58873	1173	Newar	ta-ye	ta-ye	hear	hear		1.2.7.4	32	0		1408,s
+58874	1075	Mishing [Miri]	tat	tat	hear	hear		1.2.7.4	32	0		1408
+58875	899	Lepcha	thyo	thyo	hear	hear		1.2.7.4	32	0		1408
+58876	367	Bokar Lhoba	taa	taa	hear	hear		1.2.7.4	32	0		1408
+58877	1087	Tsangla (Motuo)	than	than	hear	hear		1.2.7.4	32	0		1408
+58878	591	Kaman [Miju]	tat⁵⁵	tat⁵⁵	hear	hear		1.2.7.4	32	0		1408
+58879	539	Trung [Dulong] (Dulonghe)	sɯ³¹ |tɔɔt⁵⁵	sɯ³¹ tɔɔt⁵⁵	join, tie, knot	join,tie,knot		6.13.5	33	0	D0	2207
+58880	541	Trung [Dulong] (Nujiang)	sɯ³¹ |tɔɔt⁵⁵	sɯ³¹ tɔɔt⁵⁵	join, tie, knot	join,tie,knot		6.13.5	33	0	D0	2207
+58881	1577	Tibetan (Written)	sdud-pa	sdud-pa	join, tie, knot	join,tie,knot		6.13.5	33	0		2207,s
+58882	1087	Tsangla (Motuo)	tut	tut	join, tie, knot	join,tie,knot		6.13.5	33	0		2207
+58883	684	Jingpho	mətut~ kətut	mətut~ kətut	join, tie, knot	join,tie,knot		6.13.5	33	0		2207,2207
+58884	1203	Anong	dəthut	dəthut	join, tie, knot	join,tie,knot		6.13.5	33	0		2207
+58885	578	Garo	stit	stit	join, tie, knot	join,tie,knot		6.13.5	33	0		
+58886	539	Trung [Dulong] (Dulonghe)	tai⁵³	tai⁵³	big	big		9.7.2	34	0		2697
+58887	1577	Tibetan (Written)	mthe-bo	mthe-bo	thumb	thumb		1.5.6.1	34	0		
+58888	1203	Anong	thɛ	thɛ	big	big		9.7.2	34	0		2697
+58889	1067	Mikir [Karbi]	the	the	big	big		9.7.2	34	0		2697
+58890	407	Burmese (Written)	tai	tai	very	very		7.1.2.2	34	0		
+58891	194	Padam-Mishing [Abor-Miri]	ta	ta	big	big		9.7.2	34	0		2697
+58892	482	Chinese (Old/Mid)	t'âi	t'âi	big	big		9.7.2	34	0		
+58893	539	Trung [Dulong] (Dulonghe)	tiʔ⁵⁵	tiʔ⁵⁵	one	one		9.9	35	0		2726
+58894	541	Trung [Dulong] (Nujiang)	tśi⁵⁵	tśi⁵⁵	one	one		9.9	35	0		2726
+58895	1577	Tibetan (Written)	gtśig	gtśig	one	one		9.9	35	0		2726
+58896	407	Burmese (Written)	tats	tats	one	one		9.9	35	0		
+58897	1203	Anong	thi	thi	one	one		9.9	35	0		2726
+58898	467	Chinese (Middle)	tśiäk	tśiäk	one	one		9.9	35	0		2726
+58899	539	Trung [Dulong] (Dulonghe)	a³¹ tɯp⁵⁵	a³¹ tɯp⁵⁵	cut	cut		6.9.3	36	0		
+58900	1577	Tibetan (Written)	gtub~ Hthub	gtub~ Hthub	cut	cut		6.9.3	36	0		
+58901	1087	Tsangla (Motuo)	tup⁵³	tup⁵³	cut	cut		6.9.3	36	0		
+58902	407	Burmese (Written)	twap	twap	cut	cut		6.9.3	36	0		
+58903	539	Trung [Dulong] (Dulonghe)	a³¹ tɔʔ⁵⁵	a³¹ tɔʔ⁵⁵	drip	drip		6.6	37	0		p,190
+58904	541	Trung [Dulong] (Nujiang)	thɔʔ⁵⁵	thɔʔ⁵⁵	drip	drip		6.6	37	0		190
+58905	1577	Tibetan (Written)	thigs ~ Hdzags	thigs ~ Hdzags	drip	drip		6.6	37	0		555,557
+58906	684	Jingpho	ka³¹ theʔ³¹	ka³¹ theʔ³¹	drip	drip		6.6	37	0		p,555
+58907	407	Burmese (Written)	tsak	tsak	drip	drip		6.6	37	0		190
+58908	843	Lahu	jâʔ	jâʔ	drip	drip		6.6	37	0		557
+58909	206	Achang (Longchuan)	tśɔk⁵⁵	tśɔk⁵⁵	drip	drip		6.6	37	0		190
+58910	1318	Qiang (Mawo)	tʂhə	tʂhə	drip	drip		6.6	37	0		557
+58911	1119	Mpi	tɯʔ²	tɯʔ²	drip	drip		6.6	37	0		555
+58912	1556	Tibetan (Lhasa)	thik⁵⁴ pa⁵⁴	thik⁵⁴ pa⁵⁴	drop	drop	n.	6.16	37	0		555,s
+58913	1556	Tibetan (Lhasa)	thik⁵⁴ pa⁵⁴ cəp¹²	thik⁵⁴ pa⁵⁴ cəp¹²	drip	drip		6.6	37	0		555,s,m
+58914	482	Chinese (Old/Mid)	t̑åk	t̑åk	drip	drip		6.6	37	0		190
+58915	482	Chinese (Old/Mid)	cɔk	cɔk	drip	drip		6.6	37	0		
+58916	482	Chinese (Old/Mid)	t̑iěk	t̑iěk	drip	drip		6.6	37	0		190
+58917	482	Chinese (Old/Mid)	tśiäk	tśiäk	drip	drip		6.6	37	0		190
+58918	539	Trung [Dulong] (Dulonghe)	tat⁵⁵	tat⁵⁵	thick	thick		9.7.2	38	0		178
+58919	541	Trung [Dulong] (Nujiang)	that⁵⁵	that⁵⁵	thick	thick		9.7.2	38	0		178
+58920	1577	Tibetan (Written)	'thas-pa	'thas-pa	hard, solid	hard, solid		9.6.2	38	0		178,s
+58921	1203	Anong	that	that	thick	thick		9.7.2	38	0		178
+58922	684	Jingpho	that	that	thick	thick		9.7.2	38	0		178
+58923	983	Lushai [Mizo]	tśaʔ	tśaʔ	thick	thick		9.7.2	38	0		178
+58924	539	Trung [Dulong] (Dulonghe)	taŋ⁵³	taŋ⁵³	fir, pine	fir,pine		3.1.1	39	0		2690
+58925	541	Trung [Dulong] (Nujiang)	taŋ³¹ xai⁵³	taŋ³¹ xai⁵³	fir, pine	fir,pine		3.1.1	39	0		2690,m
+58926	1577	Tibetan (Written)	thaŋ-śiŋ	thaŋ-śiŋ	fir, pine	fir,pine		3.1.1	39	0		2690,2658
+58927	407	Burmese (Written)	tháŋ-ru	tháŋ-ru	fir, pine	fir,pine		3.1.1	39	0		2690,2620
+58928	647	Hayu	thoŋ	thoŋ	fir, pine	fir,pine		3.1.1	39	0		2690
+58929	843	Lahu	thɔ̂-cɛ̀	thɔ̂-cɛ̀	fir, pine	fir,pine		3.1.1	39	0		2690,m
+58930	1481	Tangkhul	ma◦taŋ thiŋ◦roŋ	ma◦taŋ thiŋ◦roŋ	fir, pine	fir,pine		3.1.1	39	0		m,2690,2658,m
+58931	539	Trung [Dulong] (Dulonghe)	pɯ³¹ du⁵⁵	pɯ³¹ du⁵⁵	nephew	nephew		4.7.3	40	0		
+58932	541	Trung [Dulong] (Nujiang)	bɯ³¹ du⁵³	bɯ³¹ du⁵³	nephew	nephew		4.7.3	40	0		
+58933	407	Burmese (Written)	tu	tu	nephew	nephew		4.7.3	40	0		
+58934	1203	Anong	phədu	phədu	nephew	nephew		4.7.3	40	0		
+58935	983	Lushai [Mizo]	tu	tu	nephew	nephew		4.7.3	40	0		
+58936	939	Lisu	-du	-du	nephew	nephew		4.7.3	40	0		
+58937	610	rGyalrong	te◦mdau	temdau	nephew	nephew		4.7.3	40	0		m,2708
+58938	683	Jingpho	tu⁵⁵	tu⁵⁵	fourth son	fourth son		9.9	40	0		
+58939	539	Trung [Dulong] (Dulonghe)	du⁵³	du⁵³	dig	dig		6.11	41	0		3573
+58940	684	Jingpho	thu	thu	dig	dig		6.11	41	0		3573
+58941	407	Burmese (Written)	tu	tu	dig	dig		6.11	41	0		3573
+58942	647	Hayu	du	du	dig	dig		6.11	41	0		3573
+58943	610	rGyalrong	tu	tu	dig	dig		6.11	41	0		3573
+58944	526	Digaro	thu	thu	dig	dig		6.11	41	0		3573
+58945	1203	Anong	du	du	dig	dig		6.11	41	0		3573
+58946	206	Achang (Longchuan)	tu³¹	tu³¹	dig	dig		6.11	41	0		3573
+58947	539	Trung [Dulong] (Dulonghe)	aŋ³¹ duŋ⁵⁵	aŋ³¹ duŋ⁵⁵	pit, hole	pit,hole		3.1.2	42	0		m,822
+58948	541	Trung [Dulong] (Nujiang)	aŋ³¹ duŋ⁵⁵	aŋ³¹ duŋ⁵⁵	pit, hole	pit,hole		3.1.2	42	0		m,822
+58949	1577	Tibetan (Written)	doŋ	doŋ	pit, hole	pit,hole		3.1.2	42	0		822
+58950	407	Burmese (Written)	twâŋ	twâŋ	pit, hole	pit,hole		3.1.2	42	0		822
+58951	1203	Anong	duŋ-khr	duŋ-khr	pit, hole	pit,hole		3.1.2	42	0		822
+58952	939	Lisu	du	du	well	well		9.6.1.1	42	0		
+58953	206	Achang (Longchuan)	pun⁵⁵ tɔŋ³¹	pun⁵⁵ tɔŋ³¹	pit, hole	pit,hole		3.1.2	42	0		1423,822
+58954	203	Achang (Lianghe)	tʂuUŋ³¹ tuŋ³¹	tʂuUŋ³¹ tuŋ³¹	pit, hole	pit,hole		3.1.2	42	0		m,822
+58955	539	Trung [Dulong] (Dulonghe)	dam⁵⁵	dam⁵⁵	full	full		1.1.3.2	43	0		132
+58956	541	Trung [Dulong] (Nujiang)	dam⁵³	dam⁵³	full	full		1.1.3.2	43	0		132
+58957	1577	Tibetan (Written)	ltam-pa	ltam-pa	full	full		1.1.3.2	43	0		132,s
+58958	647	Hayu	dam	dam	full	full		1.1.3.2	43	0		132
+58959	1598	Tiddim	dim	dim	full	full		1.1.3.2	43	0		132
+58960	304	Bahing	dyam	dyam	full	full		1.1.3.2	43	0		132
+58961	539	Trung [Dulong] (Dulonghe)	dam⁵⁵ mɯ³¹ li⁵³	dam⁵⁵ mɯ³¹ li⁵³	plain, flat ground	plain, flat ground		3.2.5	44	0		
+58962	304	Bahing	dyam	dyam	straight	straight		7.1.5.1	44	0		132
+58963	1577	Tibetan (Written)	ldem-pa	ldem-pa	straight, upright	straight, upright		7.1.5.1	44	0		132,s
+58964	407	Burmese (Written)	a◦tam	atam	straight, long piece	straight, long piece	n.	7.1.5.1	44	0		p,132
+58965	1203	Anong	ədam	ədam	plain (level ground), flat	plain (level ground), flat		3.2.5	44	0		
+58966	1598	Tiddim	tam	tam	level	level		7.1.5.4	44	0		132
+58967	539	Trung [Dulong] (Dulonghe)	duʔ⁵⁵	duʔ⁵⁵	spit, vomit	spit,vomit		1.8.3	45	0	D0	601
+58968	541	Trung [Dulong] (Nujiang)	duʔ⁵⁵	duʔ⁵⁵	spit, vomit	spit,vomit		1.8.3	45	0	D0	601
+58969	1067	Mikir [Karbi]	iŋ◦tok	iŋ◦tok	spit, vomit	spit,vomit		1.8.3	45	0		p,601
+58970	1031	Maru [Langsu]	tauk	tauk	spit, vomit	spit,vomit		1.8.3	45	0		601
+58971	899	Lepcha	tyak	tyak	spit, vomit	spit,vomit		1.8.3	45	0		601
+58972	539	Trung [Dulong] (Dulonghe)	a³¹ nɔʔ⁵⁵	a³¹ nɔʔ⁵⁵	bean	bean		3.1.4	46	0		
+58973	541	Trung [Dulong] (Nujiang)	a³¹ nɔʔ⁵⁵	a³¹ nɔʔ⁵⁵	bean	bean		3.1.4	46	0		
+58974	407	Burmese (Written)	nok	nok	bean	bean		3.1.4	46	0		2067
+58975	683	Jingpho	noʔ³¹ kju⁵⁵	noʔ³¹ kju⁵⁵	bean	bean		3.1.4	46	0		2067,m
+58976	208	Achang (Luxi)	nuʔ³¹	nuʔ³¹	bean	bean		3.1.4	46	0		
+58977	843	Lahu	nɔ̂ʔ	nɔ̂ʔ	bean	bean		3.1.4	46	0		2067
+58978	539	Trung [Dulong] (Dulonghe)	a³¹ na⁵³	a³¹ na⁵³	ear	ear		1.2.7	47	0		p,811
+58979	541	Trung [Dulong] (Nujiang)	a³¹ na⁵⁵	a³¹ na⁵⁵	ear	ear		1.2.7	47	0		p,811
+58980	407	Burmese (Written)	nà	nà	ear	ear		1.2.7	47	0		811
+58981	684	Jingpho	na	na	ear	ear		1.2.7	47	0		811
+58982	578	Garo	na-tśil	na-tśil	ear	ear		1.2.7	47	0		811,2082
+58983	1607	Trung [Dulong]	na-ba	na-ba	ear	ear		1.2.7	47	0		811,821
+58984	1203	Anong	ə◦na	ə◦na	ear	ear		1.2.7	47	0		p,811
+58985	539	Trung [Dulong] (Dulonghe)	u⁵⁵ nɯʔ⁵⁵	u⁵⁵ nɯʔ⁵⁵	brain	brain		1.2.4	48	0		385,243
+58986	684	Jingpho	nu~ə◦nu	nu~ə◦nu	brain	brain		1.2.4	48	0		243,p,243
+58987	407	Burmese (Written)	ù-hnauk	ù-hnauk	brain	brain		1.2.4	48	0		385,243
+58988	541	Trung [Dulong] (Nujiang)	nuŋ³¹◦kɯ³¹leʔ⁵⁵|	nuŋ³¹◦kɯ³¹leʔ⁵⁵|	brain	brain		1.2.4	49	0		251,247
+58989	1203	Anong	ə◦niŋ	ə◦niŋ	brain	brain		1.2.4	49	0		p,251
+58990	578	Garo	tanəŋ	tanəŋ	brain	brain		1.2.4	49	0		251
+58991	1577	Tibetan (Written)	sńiŋ	sńiŋ	brain	brain		1.2.4	49	0		251
+58992	1067	Mikir [Karbi]	niŋ	niŋ	heart, mind	heart, mind		1.7.1	49	0		251
+58993	539	Trung [Dulong] (Dulonghe)	naʔ⁵⁵	naʔ⁵⁵	black	black		9.4	50	0		2483
+58994	541	Trung [Dulong] (Nujiang)	naʔ⁵⁵	naʔ⁵⁵	black	black		9.4	50	0		2483
+58995	1577	Tibetan (Written)	nag-po	nag-po	black	black		9.4	50	0		2483,s
+58996	407	Burmese (Written)	naʔ	naʔ	black	black		9.4	50	0		2483
+58997	1203	Anong	naʔ	naʔ	black	black		9.4	50	0		2483
+58998	843	Lahu	nâʔ	nâʔ	black	black		9.4	50	0		2483
+58999	1318	Qiang (Mawo)	ńiq	ńiq	black	black		9.4	50	0		2483
+59000	208	Achang (Luxi)	na⁵¹	na⁵¹	black	black		9.4	50	0		2483
+59001	203	Achang (Lianghe)	na³¹	na³¹	black	black		9.4	50	0		2483
+59002	539	Trung [Dulong] (Dulonghe)	rɯ³¹ naʔ⁵⁵	rɯ³¹ naʔ⁵⁵	deep	deep		7.1.5.3	51	0		m,6130
+59003	541	Trung [Dulong] (Nujiang)	rɯ³¹ naʔ⁵⁵	rɯ³¹ naʔ⁵⁵	deep	deep		7.1.5.3	51	0		m,6130
+59004	1607	Trung [Dulong]	na⁴³	na⁴³	deep	deep		7.1.5.3	51	0		6130
+59005	843	Lahu	ná	ná	deep	deep		7.1.5.3	51	0		6130
+59006	206	Achang (Longchuan)	nək³¹	nək³¹	deep	deep		7.1.5.3	51	0		6130
+59007	539	Trung [Dulong] (Dulonghe)	a³¹ ni⁵⁵	a³¹ ni⁵⁵	two	two		9.9	52	0		p,2504
+59008	541	Trung [Dulong] (Nujiang)	a³¹ ńi⁵⁵	a³¹ ńi⁵⁵	two	two		9.9	52	0		p,2504
+59009	1577	Tibetan (Written)	gńis	gńis	two	two		9.9	52	0		2504
+59010	684	Jingpho	ni	ni	two	two		9.9	52	0		2504
+59011	735	Kanauri	nis	nis	two	two		9.9	52	0		2504
+59012	407	Burmese (Written)	hnac	hnac	two	two		9.9	52	0		2504
+59013	610	rGyalrong	kěněs	kěněs	two	two		9.9	52	0		2504
+59014	578	Garo	gəni	gəni	two	two		9.9	52	0		2504
+59015	983	Lushai [Mizo]	hniʔ	hniʔ	two	two		9.9	52	0		2504
+59016	539	Trung [Dulong] (Dulonghe)	nam⁵³	nam⁵³	sun	sun		3.2.10	53	0		2484
+59017	541	Trung [Dulong] (Nujiang)	nam⁵³ luuŋ⁵⁵	nam⁵³ luuŋ⁵⁵	sun	sun		3.2.10	53	0		2484,m
+59018	1577	Tibetan (Written)	gnam	gnam	heaven, sky	heaven, sky		5.8.4	53	0		2484
+59019	1577	Tibetan (Written)	nam	nam	night	night		9.1.4	53	0		2484
+59020	996	Magar	nam-khan~ńam-khan	nam-khan~ńam-khan	sun	sun		3.2.10	53	0		2484,697,2484,697
+59021	647	Hayu	no◦mo	no◦mo	sun	sun		3.2.10	53	0		2484,m
+59022	304	Bahing	nam	nam	sun	sun		3.2.10	53	0		2484
+59023	1203	Anong	nam	nam	sun	sun		3.2.10	53	0		2484
+59024	1067	Mikir [Karbi]	ar◦nam	arnam	god	god		5.8.1.1	53	0		p,2484
+59025	1690	Atsi [Zaiwa]	tsan⁵¹ nam⁵⁵	tsan⁵¹ nam⁵⁵	summer	summer		3.2.1	53	0		
+59026	539	Trung [Dulong] (Dulonghe)	ni⁵⁵	ni⁵⁵	day	day		1.5.3.2	54	0		85
+59027	541	Trung [Dulong] (Nujiang)	ńi⁵⁵	ńi⁵⁵	day	day		1.5.3.2	54	0		85
+59028	1577	Tibetan (Written)	ńi-ma	ńi-ma	day	day		1.5.3.2	54	0		
+59029	407	Burmese (Written)	né	né	day	day		1.5.3.2	54	0		85
+59030	684	Jingpho	ni	ni	day	day		1.5.3.2	54	0		85
+59031	533	Dimasa	-ni	-ni	day	day		1.5.3.2	54	0		85
+59032	539	Trung [Dulong] (Dulonghe)	sɯ³¹ |na⁵⁵	sɯ³¹ na⁵⁵	nose	nose		1.2.8	55	0		803
+59033	541	Trung [Dulong] (Nujiang)	sɯ³¹ |na⁵⁵	sɯ³¹ na⁵⁵	nose	nose		1.2.8	55	0		803
+59034	1577	Tibetan (Written)	sna	sna	nose	nose		1.2.8	55	0		803
+59035	407	Burmese (Written)	hna	hna	nose	nose		1.2.8	55	0		803
+59036	983	Lushai [Mizo]	hnaːr	hnaːr	nose	nose		1.2.8	55	0		803
+59037	1203	Anong	śəna	śəna	nose	nose		1.2.8	55	0		803
+59038	208	Achang (Luxi)	na⁵⁵ kaŋ³⁵	na⁵⁵ kaŋ³⁵	nose	nose		1.2.8	55	0		803,809
+59039	539	Trung [Dulong] (Dulonghe)	na⁵³	na⁵³	you	you		4.1	56	0		
+59040	541	Trung [Dulong] (Nujiang)	na⁵³	na⁵³	you	you		4.1	56	0		
+59041	684	Jingpho	naŋ~ na	naŋ~ na	you	you		4.1	56	0		2489
+59042	407	Burmese (Written)	naŋ	naŋ	you	you		4.1	56	0		2489
+59043	578	Garo	naʔa	naʔa	you	you		4.1	56	0		
+59044	520	Dhimal	na	na	you	you		4.1	56	0		2489
+59045	983	Lushai [Mizo]	naŋ	naŋ	you	you		4.1	56	0		2489
+59046	1203	Anong	na	na	you	you		4.1	56	0		
+59047	539	Trung [Dulong] (Dulonghe)	a³¹ nɯ⁵⁵	a³¹ nɯ⁵⁵	younger sibling	younger sibling			57	0		
+59048	541	Trung [Dulong] (Nujiang)	aŋ³¹ nɯ⁵³	aŋ³¹ nɯ⁵³	younger sibling	younger sibling			57	0		
+59049	1577	Tibetan (Written)	nu-bo	nu-bo	younger sibling	younger sibling			57	0		
+59050	684	Jingpho	nau	nau	younger sibling	younger sibling			57	0		
+59051	578	Garo	no	no	younger sibling	younger sibling			57	0		
+59052	983	Lushai [Mizo]	nau	nau	younger sibling	younger sibling			57	0		
+59053	899	Lepcha	num-nu	num-nu	blood relative	blood relative		1.6.2	57	0		x
+59054	367	Bokar Lhoba	nɯ◦ro	nɯro	younger sibling	younger sibling			57	0		2492,m
+59055	539	Trung [Dulong] (Dulonghe)	a³¹ ni⁵³	a³¹ ni⁵³	aunt	aunt		4.7.1	58	0		
+59056	541	Trung [Dulong] (Nujiang)	a³¹ ńi⁵³	a³¹ ńi⁵³	aunt	aunt		4.7.1	58	0		
+59057	1577	Tibetan (Written)	ʔa◦ne~ nene-mo	ʔane~ nene-mo	aunt	aunt		4.7.1	58	0		p,2507,2507,s
+59058	684	Jingpho	ni	ni	aunt	aunt		4.7.1	58	0		
+59059	983	Lushai [Mizo]	ni	ni	aunt	aunt		4.7.1	58	0		2507
+59060	578	Garo	ma-ni	ma-ni	aunt	aunt		4.7.1	58	0		m,2507
+59061	1075	Mishing [Miri]	əńi	əńi	aunt	aunt		4.7.1	58	0		
+59062	610	rGyalrong	əni	əni	aunt	aunt		4.7.1	58	0		
+59063	1203	Anong	əni	əni	aunt	aunt		4.7.1	58	0		
+59064	539	Trung [Dulong] (Dulonghe)	ni⁵⁵	ni⁵⁵	shit	shit		1.8.5	59	0		2520
+59065	541	Trung [Dulong] (Nujiang)	ńi⁵³	ńi⁵³	shit	shit		1.8.5	59	0		2520
+59066	407	Burmese (Written)	ńats	ńats	dirty	dirty		3.2.11	59	0		2520
+59067	684	Jingpho	ńi~ ńe	ńi~ ńe	defecate	defecate		1.8.5.4	59	0		
+59068	1577	Tibetan (Written)	snigs-ma	snigs-ma	impure sediment	impure sediment		9.6.2.1	59	0		
+59069	1203	Anong	ni	ni	shit	shit		1.8.5	59	0		2520
+59070	533	Dimasa	dźini	dźini	dirt	dirt		1.5.3.2	59	0		
+59071	539	Trung [Dulong] (Dulonghe)	aŋ³¹ niŋ⁵⁵	aŋ³¹ niŋ⁵⁵	year	year		9.1.2	60	0		m,2501
+59072	541	Trung [Dulong] (Nujiang)	aŋ³¹ ńɯŋ⁵⁵	aŋ³¹ ńɯŋ⁵⁵	year	year		9.1.2	60	0		m,2501
+59073	1577	Tibetan (Written)	niŋ	niŋ	year	year		9.1.2	60	0		2501
+59074	743	Karen	hneŋ	hneŋ	year	year		9.1.2	60	0		2501
+59075	1075	Mishing [Miri]	ńiŋ	ńiŋ	year	year		9.1.2	60	0		2501
+59076	684	Jingpho	niŋ~śə◦niŋ	niŋ~śə◦niŋ	year	year		9.1.2	60	0		2501,m,2501
+59077	1313	Pyu	snì	snì	year	year		9.1.2	60	0	u	
+59078	539	Trung [Dulong] (Dulonghe)	rɯ³¹ na⁵³	rɯ³¹ na⁵³	rest	rest		1.1.4.1	61	0		m,84
+59079	541	Trung [Dulong] (Nujiang)	rɯ³¹ na⁵³	rɯ³¹ na⁵³	rest	rest		1.1.4.1	61	0		m,84
+59080	1577	Tibetan (Written)	gnas-pa	gnas-pa	be, live, dwell, stay	be, live, dwell, stay	be v.	10.4.1.1	61	0		84
+59081	304	Bahing	na-so	na-so	take rest	take rest		6.21	61	0		84,s
+59082	735	Kanauri	na-śi	na-śi	rest	rest		1.1.4.1	61	0	D0	84,s
+59083	407	Burmese (Written)	nâ	nâ	cease from motion, alight	cease from motion, alight		9.5	61	0		84
+59084	843	Lahu	nâ	nâ	perch (bird); rest	perch (bird); rest		2.2.4	61	0		84
+59085	208	Achang (Luxi)	na⁵¹	na⁵¹	rest	rest		1.1.4.1	61	0		84
+59086	203	Achang (Lianghe)	na³¹	na³¹	rest	rest		1.1.4.1	61	0		84
+59087	591	Kaman [Miju]	na⁵⁵	na⁵⁵	rest	rest		1.1.4.1	61	0		84
+59088	539	Trung [Dulong] (Dulonghe)	u⁵⁵ nai⁵⁵	u⁵⁵ nai⁵⁵	hair(head)	hair(head)		1.2.3	62	0		385,368
+59089	541	Trung [Dulong] (Nujiang)	u⁵³ ne⁵³	u⁵³ ne⁵³	hair(head)	hair(head)		1.2.3	62	0		385,368
+59090	610	rGyalrong	rni	rni	hair(head)	hair(head)		1.2.3	62	0		368
+59091	578	Garo	khə◦ni	khə◦ni	hair(head)	hair(head)		1.2.3	62	0		p,368
+59092	356	Bodo	ka◦náy	ka◦náy	hair(head)	hair(head)		1.2.3	62	0		p,368
+59093	533	Dimasa	kha◦nai	kha◦nai	hair(head)	hair(head)		1.2.3	62	0		p,368
+59094	1203	Anong	ə◦ni~tə◦ni	ə◦ni~tə◦ni	hair(head)	hair(head)		1.2.3	62	0		p,368,p,368
+59095	539	Trung [Dulong] (Dulonghe)	nam⁵⁵ nuup⁵⁵	nam⁵⁵ nuup⁵⁵	west	west		9.2.8	63	0		2484,2517
+59096	1577	Tibetan (Written)	nub	nub	west	west		9.2.8	63	0		2517
+59098	1203	Anong	nəm nip lam	nəm nip lam	west	west		9.2.8	63	0		2484,2517,1017
+59099	735	Kanauri	nup	nup	northwards	northwards		9.2.8	63	0		
+59100	539	Trung [Dulong] (Dulonghe)	pɯ³¹ naam⁵⁵	pɯ³¹ naam⁵⁵	smell	smell	tr.	1.2.8.5	64	0		p,1415
+59101	539	Trung [Dulong] (Dulonghe)	pɯ³¹ nam⁵⁵ gam⁵³	pɯ³¹ nam⁵⁵ gam⁵³	fragrant	fragrant		3.1.10	64	0		p,1415,m
+59102	541	Trung [Dulong] (Nujiang)	pɯ³¹ nam⁵³	pɯ³¹ nam⁵³	smell	smell	tr.	1.2.8.5	64	0		p,1415
+59103	1577	Tibetan (Written)	snam-pa	snam-pa	smell	smell	tr.	1.2.8.5	64	0		1415,s
+59104	684	Jingpho	nam	nam	smell	smell	tr.	1.2.8.5	64	0		1415
+59105	407	Burmese (Written)	nàm	nàm	smell	smell	tr.	1.2.8.5	64	0		1415
+59106	304	Bahing	nam	nam	smell	smell	tr.	1.2.8.5	64	0		1415
+59107	647	Hayu	nam	nam	smell	smell	tr.	1.2.8.5	64	0		1415
+59108	1203	Anong	phə◦nam	phə◦nam	smell	smell	tr.	1.2.8.5	64	0		p,1415
+59109	1607	Trung [Dulong]	pə◦nam	pə◦nam	smell	smell	tr.	1.2.8.5	64	0		p,1415
+59110	539	Trung [Dulong] (Dulonghe)	a³¹ pi⁵⁵	a³¹ pi⁵⁵	grandmother	grandmother		4.7.1	65	0		
+59111	1577	Tibetan (Written)	ʔa-phyi~phyi-mo	ʔa-phyi~phyi-mo	grandmother	grandmother		4.7.1	65	0		m,2559,2559,m
+59112	735	Kanauri	a-pi	a-pi	grandmother	grandmother		4.7.1	65	0	D0	
+59113	578	Garo	a(m)bi	a(m)bi	grandmother	grandmother		4.7.1	65	0	D0	
+59114	983	Lushai [Mizo]	pi	pi	grandmother	grandmother		4.7.1	65	0		2559
+59115	1067	Mikir [Karbi]	phi	phi	grandmother	grandmother		4.7.1	65	0	D0	
+59116	1087	Tsangla (Motuo)	ʔapi	ʔapi	grandmother	grandmother		4.7.1	65	0		
+59117	304	Bahing	pi-pi	pi-pi	grandmother	grandmother		4.7.1	65	0	D0	
+59118	647	Hayu	pi-pi	pi-pi	grandmother	grandmother		4.7.1	65	0	D0	
+59119	407	Burmese (Written)	aphè	aphè	great grandfather	great grandfather		4.7.1	65	0		
+59120	407	Burmese (Written)	a◦phè-má	aphè-má	great grandmother	great grandmother		4.7.1	65	0		p,2559,s
+59121	843	Lahu	a-pi	a-pi	grandmother	grandmother		4.7.1	65	0		p,2559
+59122	539	Trung [Dulong] (Dulonghe)	a³¹ pai⁵³	a³¹ pai⁵³	father	father		4.7.1	66	0		x
+59123	541	Trung [Dulong] (Nujiang)	a³¹ pai⁵³	a³¹ pai⁵³	father	father		4.7.1	66	0		x
+59124	541	Trung [Dulong] (Nujiang)	a³¹ ba⁵³	a³¹ ba⁵³	father	father		4.7.1	66	0		x
+59125	591	Kaman [Miju]	pai³⁵	pai³⁵	father	father		4.7.1	66	0		x
+59126	983	Lushai [Mizo]	pa	pa	father	father		4.7.1	66	0		x
+59127	1577	Tibetan (Written)	pha~ʔapha~ʔapa	pha~ʔapha~ʔapa	father	father		4.7.1	66	0		x
+59128	578	Garo	pa~ əpa	pa~ əpa	father	father		4.7.1	66	0		x
+59129	203	Achang (Lianghe)	a³¹ pha³¹	a³¹ pha³¹	father	father		4.7.1	66	0		x
+59130	1087	Tsangla (Motuo)	ʔapa	ʔapa	father	father		4.7.1	66	0		x
+59131	1318	Qiang (Mawo)	apa	apa	grandfather	grandfather		4.7.1	66	0		x
+59132	407	Burmese (Written)	bhá	bhá	father	father		4.7.1	66	0		x
+59133	407	Burmese (Written)	abhá	abhá	father	father		4.7.1	66	0		x
+59134	684	Jingpho	wa~əwa	wa~əwa	father	father		4.7.1	66	0		x
+59135	718	Kadu	əwa	əwa	father	father		4.7.1	66	0		x
+59136	377	Bunan	əwa	əwa	father	father		4.7.1	66	0		x
+59137	1104	Tangsa (Moshang)	wa	wa	father	father		4.7.1	66	0		x
+59138	539	Trung [Dulong] (Dulonghe)	aŋ³¹ pɯ⁵³	aŋ³¹ pɯ⁵³	price	price		5.9	67	0		m,2583
+59139	541	Trung [Dulong] (Nujiang)	phɯ⁵³	phɯ⁵³	price	price		5.9	67	0		2583
+59140	1318	Qiang (Mawo)	phə◦la	phəla	price	price		5.9	67	0		2583,m
+59141	684	Jingpho	phu	phu	price	price		5.9	67	0		2583
+59142	1203	Anong	əphü	əphü	of value	of value	be v.	10.1.1	67	0		
+59143	684	Jingpho	dźə◦phu	dźəphu	price	price		5.9	67	0		m,2583
+59144	1203	Anong	də◦phü	dəphü	price	price		5.9	67	0		m,2583
+59145	843	Lahu	ɔ́-phû	ɔ́-phû	price	price		5.9	67	0		p,2583
+59146	407	Burmese (Written)	a◦phuì~ a◦bhuì	aphuì~ abhuì	price	price		5.9	67	0		p,2583,p,2583
+59147	539	Trung [Dulong] (Dulonghe)	śap⁵⁵ paŋ⁵³	śap⁵⁵ paŋ⁵³	spindle	spindle		5.1	68	0		m,5400
+59148	541	Trung [Dulong] (Nujiang)	śaŋ³¹ phɯŋ⁵³	śaŋ³¹ phɯŋ⁵³	treadle operated rice husker	treadle operated rice husker		5.1	68	0		
+59149	1577	Tibetan (Written)	phaŋ~'phaŋ	phaŋ~'phaŋ	spindle	spindle		5.1	68	0		5400,5400
+59150	1538	Thebor	phaŋ	phaŋ	spindle	spindle		5.1	68	0	D0	5400
+59151	684	Jingpho	kə◦baŋ	kəbaŋ	hand spindle	hand spindle		1.5.1.1	68	0		m,5400
+59152	407	Burmese (Written)	wáŋ	wáŋ	swing around, spin	swing around, spin		6.7.4	68	0		5400
+59153	407	Burmese (Written)	waŋ-ruì	waŋ-ruì	spindle	spindle		5.1	68	0	D0	5400,s
+59154	1091	Tshona (Mama)	pheŋ⁵³	pheŋ⁵³	spindle	spindle		5.1	68	0		5400
+59155	1087	Tsangla (Motuo)	pheŋ◦a	pheŋa	spindle	spindle		5.1	68	0		5400,s
+59156	367	Bokar Lhoba	ta◦poŋ	ta◦poŋ	spindle	spindle		5.1	68	0		p,5400
+59157	507	Darang [Taraon]	ńa³¹ boŋ³⁵	ńa³¹ boŋ³⁵	spindle	spindle		5.1	68	0		m,5400
+59158	539	Trung [Dulong] (Dulonghe)	mɯ³¹ pat⁵⁵	mɯ³¹ pat⁵⁵	leech	leech		2.2.6	69	0		m,2555
+59159	541	Trung [Dulong] (Nujiang)	ńe³¹ phrat⁵⁵	ńe³¹ phrat⁵⁵	leech	leech		2.2.6	69	0		
+59160	1577	Tibetan (Written)	pad-pa	pad-pa	leech	leech		2.2.6	69	0		2555,s
+59161	407	Burmese (Written)	krwat	krwat	leech	leech		2.2.6	69	0		2555
+59162	843	Lahu	vèʔ	vèʔ	leech	leech		2.2.6	69	0		2555
+59163	983	Lushai [Mizo]	vaŋ-vat	vaŋ-vat	leech	leech		2.2.6	69	0		m,2555
+59164	996	Magar	ləwat	ləwat	leech	leech		2.2.6	69	0	D0	2555
+59165	899	Lepcha	fot	fot	leech	leech		2.2.6	69	0		2555
+59166	263	Angami Naga	reva	reva	leech	leech		2.2.6	69	0	u	2555
+59167	539	Trung [Dulong] (Dulonghe)	bak⁵⁵ pɯt⁵⁵	bak⁵⁵ pɯt⁵⁵	knee	knee		1.5.8.4	70	0		i,436
+59168	541	Trung [Dulong] (Nujiang)	paaŋ³¹ pit⁵⁵	paaŋ³¹ pit⁵⁵	knee	knee		1.5.8.4	70	0		m,436
+59169	1577	Tibetan (Written)	pus-mo	pus-mo	knee	knee		1.5.8.4	70	0		436,s
+59170	899	Lepcha	tuk-pat	tuk-pat	knee	knee		1.5.8.4	70	0		306,436
+59171	684	Jingpho	lə◦phut	ləphut	knee	knee		1.5.8.4	70	0		350,436
+59172	1203	Anong	phaŋ-phit	phaŋ-phit	knee	knee		1.5.8.4	70	0		m,436
+59173	1203	Anong	ur-phut	ur-phut	elbow	elbow		1.5.8.3	70	0		373,436
+59174	1203	Anong	ra-phut	ra-phut	shoulder	shoulder		1.4.3	70	0		3366,436
+59175	539	Trung [Dulong] (Dulonghe)	bɯ⁵⁵	bɯ⁵⁵	insect, snake	insect,snake		2.2.6	71	0	D0	2178
+59176	541	Trung [Dulong] (Nujiang)	bɯ⁵³	bɯ⁵³	insect, snake	insect,snake		2.2.6	71	0	D0	2178
+59177	1577	Tibetan (Written)	'bu	'bu	worm, insect	worm, insect		2.2.6	71	0		2178
+59178	407	Burmese (Written)	puì	puì	insect	insect		2.2.6	71	0		2178
+59179	899	Lepcha	bǔ	bǔ	reptile, worm	reptile, worm		2.1.6	71	0		2178
+59180	304	Bahing	bu-sa	bu-sa	insect, snake	insect,snake		2.2.6	71	0		2178,m
+59181	684	Jingpho	pu~lə◦pu	pu~ləpu	insect, snake	insect,snake		2.2.6	71	0		2178,p,2178
+59182	1203	Anong	bö	bö	insect, snake	insect,snake		2.2.6	71	0		2178
+59183	526	Digaro	tə◦bo~tə◦bu	tə◦bo~tə◦bu	insect, snake	insect,snake		2.2.6	71	0		p,2178,p,2178
+59184	843	Lahu	pû	pû	insect, snake	insect,snake		2.2.6	71	0		2178
+59185	578	Garo	tśi◦pu	tśi◦pu	snake	snake		2.1.6.1	71	0		m,2178
+59186	539	Trung [Dulong] (Dulonghe)	bɯp⁵⁵	bɯp⁵⁵	rot / rotten	rot / rotten		3.1.10	72	0		5407
+59187	541	Trung [Dulong] (Nujiang)	bɯp⁵⁵	bɯp⁵⁵	rot / rotten	rot / rotten		3.1.10	72	0		5407
+59188	407	Burmese (Written)	pup	pup	rot / rotten	rot / rotten		3.1.10	72	0		5407
+59189	1689	Atsi [Zaiwa]	pup	pup	rot / rotten	rot / rotten		3.1.10	72	0		5407
+59190	1031	Maru [Langsu]	páp	páp	rot / rotten	rot / rotten		3.1.10	72	0		5407
+59191	843	Lahu	bùʔ	bùʔ	rot / rotten	rot / rotten		3.1.10	72	0		5407
+59192	206	Achang (Longchuan)	pup⁵⁵	pup⁵⁵	rot / rotten	rot / rotten		3.1.10	72	0		5407
+59193	208	Achang (Luxi)	pɔp³¹	pɔp³¹	rot / rotten	rot / rotten		3.1.10	72	0		5407
+59194	539	Trung [Dulong] (Dulonghe)	dɯ³¹ baŋ⁵⁵	dɯ³¹ baŋ⁵⁵	mute / deaf	mute / deaf		1.5.3.2	73	0		
+59195	541	Trung [Dulong] (Nujiang)	dɯ³¹ baŋ⁵⁵	dɯ³¹ baŋ⁵⁵	mute / deaf	mute / deaf		1.5.3.2	73	0		
+59196	208	Achang (Luxi)	pju³¹ paŋ³¹	pju³¹ paŋ³¹	mute / deaf	mute / deaf		1.5.3.2	73	0		
+59197	683	Jingpho	na³¹ phaŋ⁵⁵	na³¹ phaŋ⁵⁵	deaf	deaf		1.2.7.5	73	0		811,1409
+59198	1318	Qiang (Mawo)	nə◦ku◦bu	nəku◦bu	deaf	deaf		1.2.7.5	73	0		811,820,1409
+59199	208	Achang (Luxi)	na⁵⁵ paŋ⁵¹	na⁵⁵ paŋ⁵¹	deaf	deaf		1.2.7.5	73	0		811,1409
+59200	203	Achang (Lianghe)	na³¹ paŋ³¹	na³¹ paŋ³¹	deaf	deaf		1.2.7.5	73	0		811,1409
+59201	843	Lahu	nā-pɔ pɔ̂	nā-pɔ pɔ̂	deaf	deaf		1.2.7.5	73	0		811,m,1409
+59202	539	Trung [Dulong] (Dulonghe)	ba⁵³	ba⁵³	thin	thin		9.7.2	74	0		5551
+59203	541	Trung [Dulong] (Nujiang)	ba⁵³	ba⁵³	thin	thin		9.7.2	74	0		5551
+59204	1577	Tibetan (Written)	ba-spu	ba-spu	little hair	little hair		9.7.2	74	0		m,1228
+59205	684	Jingpho	pha	pha	thin	thin		9.7.2	74	0		5551
+59206	1203	Anong	ba	ba	thin	thin		9.7.2	74	0		5551
+59207	407	Burmese (Written)	pà	pà	thin	thin		9.7.2	74	0		5551
+59208	578	Garo	ba	ba	thin	thin		9.7.2	74	0		5551
+59209	843	Lahu	pâ	pâ	thin	thin		9.7.2	74	0		5551
+59210	539	Trung [Dulong] (Dulonghe)	beʔ⁵⁵	beʔ⁵⁵	break / broken	break / broken		9.5	75	0		
+59211	983	Lushai [Mizo]	peʔ	peʔ	break / broken	break / broken		9.5	75	0		3487
+59212	203	Achang (Lianghe)	pjiʔ⁵⁵	pjiʔ⁵⁵	break / broken	break / broken		9.5	75	0		
+59213	683	Jingpho	woʔ³¹	woʔ³¹	break / broken	break / broken		9.5	75	0		
+59214	407	Burmese (Written)	pái	pái	break / broken	break / broken		9.5	75	0		3487
+59215	578	Garo	be	be	break / broken	break / broken		9.5	75	0		3487
+59216	533	Dimasa	bai	bai	break / broken	break / broken		9.5	75	0		3487
+59217	735	Kanauri	pá-shi-mig	pá-shi-mig	break	break	v.	9.5	75	0		
+59218	539	Trung [Dulong] (Dulonghe)	bi⁵⁵	bi⁵⁵	give	give	v.	6.23	76	0		2158
+59219	541	Trung [Dulong] (Nujiang)	zi⁵³	zi⁵³	give	give	v.	6.23	76	0		
+59220	1577	Tibetan (Written)	sbyin-pa	sbyin-pa	give	give		6.23	76	0		2158,s
+59221	798	*Kiranti	bi	bi	give	give		6.23	76	0		2158
+59222	843	Lahu	pî	pî	give	give		6.23	76	0		2158
+59223	1075	Mishing [Miri]	bi	bi	give	give		6.23	76	0		2158
+59224	520	Dhimal	pi	pi	give	give		6.23	76	0		2158
+59225	407	Burmese (Written)	pè	pè	give	give		6.23	76	0		2158
+59226	1067	Mikir [Karbi]	pi	pi	give	give		6.23	76	0		2158
+59227	208	Achang (Luxi)	pji⁵³	pji⁵³	give	give		6.23	76	0		2158
+59228	1318	Qiang (Mawo)	ʂpu	ʂpu	give	give	v.	6.23	76	0		
+59229	1373	Sani [Nyi]	ve-bi	ve-bi	give	give		6.23	76	0	u	p,2158
+59230	1607	Trung [Dulong]	biŋ	biŋ	give	give	v.	6.23	76	0		2158
+59231	539	Trung [Dulong] (Dulonghe)	ber⁵³	ber⁵³	fly	fly	v.	2.2.6	77	0		2189
+59232	541	Trung [Dulong] (Nujiang)	zer⁵³	zer⁵³	fly	fly	v.	2.2.6	77	0		2189
+59233	304	Bahing	byer	byer	fly	fly	v.	2.2.6	77	0		2189
+59234	194	Padam-Mishing [Abor-Miri]	ber	ber	fly	fly	v.	2.2.6	77	0	D0	2189
+59235	1607	Trung [Dulong]	biel	biel	fly	fly	v.	2.2.6	77	0		2189
+59236	367	Bokar Lhoba	byar	byar	fly	fly	v.	2.2.6	77	0		2189
+59237	482	Chinese (Old/Mid)	p'jan	p'jan	fly	fly	v.	2.2.6	77	0		
+59238	482	Chinese (Old/Mid)	p'jän	p'jän	fly	fly	v.	2.2.6	77	0		
+59239	539	Trung [Dulong] (Dulonghe)	mɔʔ⁵⁵	mɔʔ⁵⁵	wear on head / hat	wear on head / hat		6.2.2.1	78	0		
+59240	541	Trung [Dulong] (Nujiang)	mɔʔ⁵⁵	mɔʔ⁵⁵	wear on head / hat	wear on head / hat		6.2.2.1	78	0		
+59241	1577	Tibetan (Written)	rmok	rmok	helmet	helmet		5.15	78	0		
+59242	1690	Atsi [Zaiwa]	muʔ³¹ kjup⁵⁵	muʔ³¹ kjup⁵⁵	hat	hat		5.11.8.2.1.1	78	0		
+59243	407	Burmese (Written)	kha-mok	kha-mok	hat	hat		5.11.8.2.1.1	78	0		
+59244	407	Burmese (Written)	ə-mok	ə-mok	crest, comb	crest, comb		1.2.2.1	78	0		p,1148
+59245	407	Burmese (Written)	mok-	mok-	crest, comb	crest, comb		1.2.2.1	78	0		1148
+59246	1087	Tsangla (Motuo)	muk'ulum	muk'ulum	hat	hat		5.11.8.2.1.1	78	0		
+59247	482	Chinese (Old/Mid)	mək	mək	covering , cover	covering , cover	v.,n.	5.8	78	0	D1	
+59249	541	Trung [Dulong] (Nujiang)	a³¹ mat⁵⁵	a³¹ mat⁵⁵	forget	forget		8.3.1.16.1	79	0		p,2395
+59250	578	Garo	mat	mat	spent	spent		6.22	79	0		
+59251	578	Garo	gima-at~ gimat	gima-at~ gimat	destroy, waste, obliterate	destroy, waste, obliterate		6.9	79	0		
+59252	578	Garo	gima-ani	gima-ani	loss, damage	loss, damage		6.10.1	79	0		
+59253	533	Dimasa	gama~ kama	gama~ kama	lose, disappear, perish	lose, disappear, perish		6.10.1	79	0		1860,1860
+59254	684	Jingpho	ma	ma	exhausted, finished, spent	exhausted, finished, spent		6.2.2.1	79	0		
+59255	684	Jingpho	mat	mat	lost, disappeared	lost, disappeared		6.10.1	79	0		1860
+59256	996	Magar	hma~hmat	hma~hmat	lost, lose	lost,lose		6.10.1	79	0		1860,1860
+59257	1091	Tshona (Mama)	ŋat¹³	ŋat¹³	forget	forget		8.3.1.16.1	79	0		
+59258	1087	Tsangla (Motuo)	ŋat	ŋat	forget	forget		8.3.1.16.1	79	0		
+59259	539	Trung [Dulong] (Dulonghe)	mɯt⁵⁵	mɯt⁵⁵	blow	blow		1.3.1.4	80	0		503
+59260	541	Trung [Dulong] (Nujiang)	mit⁵⁵	mit⁵⁵	blow	blow		1.3.1.4	80	0		503
+59261	407	Burmese (Written)	hmut	hmut	blow	blow		1.3.1.4	80	0		503
+59262	899	Lepcha	mǎt	mǎt	blow	blow		1.3.1.4	80	0		503
+59263	899	Lepcha	suŋ-mut	suŋ-mut	wind	wind		3.2.1	80	0		
+59264	304	Bahing	mut~hmut	mut~hmut	blow	blow		1.3.1.4	80	0		503,503
+59265	610	rGyalrong	-mut	-mut	blow	blow		1.3.1.4	80	0		503
+59266	691	Jingpho (Assam)	mut	mut	blow	blow		1.3.1.4	80	0	u	503
+59267	1075	Mishing [Miri]	mut	mut	blow	blow		1.3.1.4	80	0		503
+59268	1031	Maru [Langsu]	bùt	bùt	blow	blow		1.3.1.4	80	0		
+59269	683	Jingpho	ka³¹ wut³¹	ka³¹ wut³¹	blow	blow		1.3.1.4	80	0		p,503
+59270	539	Trung [Dulong] (Dulonghe)	mɯ³¹	mɯ³¹	negative	negative		10.6.2	81	0		2436
+59271	541	Trung [Dulong] (Nujiang)	mɯ³¹	mɯ³¹	negative	negative		10.6.2	81	0		2436
+59272	539	Trung [Dulong] (Dulonghe)	mlaaŋ⁵⁵	mlaaŋ⁵⁵	dream	dream		1.1.4.2	82	0		126
+59273	541	Trung [Dulong] (Nujiang)	mlaŋ⁵⁵	mlaŋ⁵⁵	dream	dream		1.1.4.2	82	0		126
+59274	1577	Tibetan (Written)	rmaŋ-lam	rmaŋ-lam	dream	dream		1.1.4.2	82	0		126,1017
+59275	1075	Mishing [Miri]	im-maŋ	im-maŋ	dream	dream		1.1.4.2	82	0		127,126
+59276	684	Jingpho	maŋ~ yup-maŋ	maŋ~ yup-maŋ	dream	dream		1.1.4.2	82	0		126,127,126
+59277	1203	Anong	ip-maŋ	ip-maŋ	dream	dream		1.1.4.2	82	0		127,126
+59278	1067	Mikir [Karbi]	maŋ	maŋ	dream	dream		1.1.4.2	82	0		126
+59279	578	Garo	dźu-maŋ	dźu-maŋ	dream	dream		1.1.4.2	82	0		127,126
+59280	407	Burmese (Written)	ip-mak	ip-mak	dream	dream		1.1.4.2	82	0		127,126
+59281	407	Burmese (Written)	hmaŋ-tsa-saŋ	hmaŋ-tsa-saŋ	walk in sleep	walk in sleep		6.7.4	82	0		126,m,m
+59282	694	Jingpho (Maran)	ʔmaŋ	ʔmaŋ	dream	dream		1.1.4.2	82	0	u	126
+59283	843	Lahu	(yɨ̀ʔ)-mâʔ	(yɨ̀ʔ)-mâʔ	dream	dream		1.1.4.2	82	0		127,126
+59284	1607	Trung [Dulong]	mləŋ	mləŋ	dream	dream		1.1.4.2	82	0		126
+59285	539	Trung [Dulong] (Dulonghe)	tɯ³¹ mi⁵⁵	tɯ³¹ mi⁵⁵	fire	fire		3.2.12.2	83	0		
+59286	541	Trung [Dulong] (Nujiang)	tɯ³¹ ni⁵⁵	tɯ³¹ ni⁵⁵	fire	fire		3.2.12.2	83	0		
+59287	1577	Tibetan (Written)	me	me	fire	fire		3.2.12.2	83	0		
+59288	407	Burmese (Written)	mì	mì	fire	fire		3.2.12.2	83	0		
+59289	983	Lushai [Mizo]	mei	mei	fire	fire		3.2.12.2	83	0		2136
+59290	1203	Anong	thəmi	thəmi	fire	fire		3.2.12.2	83	0		
+59291	735	Kanauri	me	me	fire	fire		3.2.12.2	83	0		
+59292	610	rGyalrong	ti◦mi	timi	fire	fire		3.2.12.2	83	0		p,2136
+59293	304	Bahing	mi	mi	fire	fire		3.2.12.2	83	0		
+59294	1067	Mikir [Karbi]	me	me	fire	fire		3.2.12.2	83	0		2136
+59295	843	Lahu	à-mī	à-mī	fire	fire		3.2.12.2	83	0		p,2136
+59296	684	Jingpho	myi-phrap	myi-phrap	lightning (lit. 'fire-flash')	lightning (lit. 'fire-flash')		3.2.12.2	83	0	D0	2136,352
+59297	539	Trung [Dulong] (Dulonghe)	mi⁵⁵ tśɔʔ⁵⁵	mi⁵⁵ tśɔʔ⁵⁵	tail	tail		1.4.10.1	84	0		1288,3331
+59298	541	Trung [Dulong] (Nujiang)	aŋ³¹ nɯ³¹ tśhɔʔ⁵⁵	aŋ³¹ nɯ³¹ tśhɔʔ⁵⁵	tail	tail		1.4.10.1	84	0		p,1288,3331
+59299	610	rGyalrong	te◦me	te◦me	tail	tail		1.4.10.1	84	0		p,1288
+59300	1538	Thebor	me-kon	me-kon	tail	tail		1.4.10.1	84	0	D0	1288,219
+59301	996	Magar	me-me	me-me	tail	tail		1.4.10.1	84	0		1002,1288
+59302	304	Bahing	meri	meri	tail	tail		1.4.10.1	84	0		1288
+59303	655	Aka [Hruso]	ə◦rim	ərim	tail	tail		1.4.10.1	84	0		p,1288
+59304	526	Digaro	ləmi~ləmiŋ	ləmi~ləmiŋ	tail	tail		1.4.10.1	84	0		1288
+59305	684	Jingpho	mai~nmai	mai~nmai	tail	tail		1.4.10.1	84	0		1288,1288
+59306	407	Burmese (Written)	a◦mrì	amrì	tail	tail		1.4.10.1	84	0		p,1288
+59307	983	Lushai [Mizo]	mei	mei	tail	tail		1.4.10.1	84	0		1288
+59308	578	Garo	ki◦me	ki◦me	tail	tail		1.4.10.1	84	0		m,1288
+59309	1067	Mikir [Karbi]	a◦rme	a◦rme	tail	tail		1.4.10.1	84	0		p,1288
+59310	222	Aimol	rəmai	rəmai	tail	tail		1.4.10.1	84	0		1288
+59311	482	Chinese (Old/Mid)	miwər	miwər	tail	tail		1.4.10.1	84	0		1288
+59312	482	Chinese (Old/Mid)	mjwei	mjwei	tail	tail		1.4.10.1	84	0		1288
+59313	539	Trung [Dulong] (Dulonghe)	bin⁵⁵ ma⁵⁵	bin⁵⁵ ma⁵⁵	wound	wound		1.8.6.2	85	0		
+59314	541	Trung [Dulong] (Nujiang)	zi³¹ ma⁵⁵	zi³¹ ma⁵⁵	wound	wound		1.8.6.2	85	0		
+59315	1577	Tibetan (Written)	rma	rma	wound	wound		1.8.6.2	85	0		
+59316	684	Jingpho	nma~numma	nma~numma	wound	wound		1.8.6.2	85	0		
+59317	578	Garo	mat	mat	wound	wound	v.	1.8.6.2	85	0		
+59318	533	Dimasa	bumai	bumai	wound	wound		1.8.6.2	85	0	D0	
+59319	1598	Tiddim	ma	ma	wound	wound		1.8.6.2	85	0		
+59320	1480	Tangkhul	khə◦ma	khə◦ma	wound	wound		1.8.6.2	85	0		m,1788
+59321	876	Lakher [Mara]	hma	hma	wound	wound		1.8.6.2	85	0		1788
+59322	241	Akha	má	má	wound	wound		1.8.6.2	85	0		
+59323	684	Jingpho	mat~tsəmat	mat~tsəmat	wound	wound		1.8.6.2	85	0		
+59324	1203	Anong	rəmat	rəmat	wound	wound		1.8.6.2	85	0		
+59325	578	Garo	gilmat	gilmat	wound	wound		1.8.6.2	85	0		
+59326	533	Dimasa	germa	germa	nettle	nettle		3.1.2	85	0	D0	
+59327	539	Trung [Dulong] (Dulonghe)	tɯ³¹ mɯ⁵³	tɯ³¹ mɯ⁵³	eagle	eagle		2.2.4.1	86	0		p,2471
+59328	541	Trung [Dulong] (Nujiang)	tɯ³¹ mɯ⁵³	tɯ³¹ mɯ⁵³	eagle	eagle		2.2.4.1	86	0		p,2471
+59329	1067	Mikir [Karbi]	vo-mu	vo-mu	eagle	eagle		2.2.4.1	86	0		1603,2471
+59330	1203	Anong	thə◦mö	thəmö	eagle	eagle		2.2.4.1	86	0		p,2471
+59331	983	Lushai [Mizo]	mu	mu	eagle	eagle		2.2.4.1	86	0		2471
+59332	1075	Mishing [Miri]	pə◦muü	pə◦muü	eagle	eagle		2.2.4.1	86	0		m,2471
+59333	876	Lakher [Mara]	pə◦hmo	pəhmo	eagle	eagle		2.2.4.1	86	0	D0	m,2471
+59334	774	Khami	ə◦homo	əhomo	eagle	eagle		2.2.4.1	86	0	u	p,2471
+59335	1413	Asho	ə◦hmü	əhmü	eagle	eagle		2.2.4.1	86	0	u	p,2471
+59336	263	Angami Naga	re-mu~mu-vi	re-mu~mu-vi	eagle	eagle		2.2.4.1	86	0		m,2471,2471,m
+59337	206	Achang (Longchuan)	ti³¹ mɔ³¹	ti³¹ mɔ³¹	eagle	eagle		2.2.4.1	86	0		
+59338	539	Trung [Dulong] (Dulonghe)	min⁵³	min⁵³	ripe	ripe		3.1.10	87	0		2449
+59339	541	Trung [Dulong] (Nujiang)	nin⁵³	nin⁵³	ripe	ripe		3.1.10	87	0		2449
+59340	1577	Tibetan (Written)	smin-pa	smin-pa	ripe	ripe		3.1.10	87	0		2449,s
+59341	647	Hayu	min	min	ripe	ripe		3.1.10	87	0		2449
+59342	304	Bahing	miŋ	miŋ	ripe	ripe		3.1.10	87	0		2449
+59343	996	Magar	min	min	ripe	ripe		3.1.10	87	0		2449
+59344	899	Lepcha	myan	myan	ripe	ripe		3.1.10	87	0		2449
+59345	1075	Mishing [Miri]	min	min	ripe	ripe		3.1.10	87	0		2449
+59346	407	Burmese (Written)	hmyan~hman	hmyan~hman	ripe	ripe		3.1.10	87	0		2449,2449
+59347	684	Jingpho	myin	myin	ripe	ripe		3.1.10	87	0		2449
+59348	1203	Anong	min	min	cooked, rot	cooked, rot	v.	5.5	87	0		
+59349	578	Garo	min-gipa	min-gipa	ripe	ripe		3.1.10	87	0		2449
+59350	983	Lushai [Mizo]	hmin	hmin	ripe	ripe		3.1.10	87	0		2449
+59351	533	Dimasa	gi◦min~gu◦mun	gi◦min~gu◦mun	ripe	ripe		3.1.10	87	0		m,2449,m,2449
+59352	1067	Mikir [Karbi]	men	men	ripe	ripe		3.1.10	87	0		2449
+59353	539	Trung [Dulong] (Dulonghe)	meʔ⁵⁵	meʔ⁵⁵	eye	eye		1.2.6	88	0		682
+59354	541	Trung [Dulong] (Nujiang)	neʔ⁵⁵	neʔ⁵⁵	eye	eye		1.2.6	88	0		682
+59355	1577	Tibetan (Written)	mig	mig	eye	eye		1.2.6	88	0		682
+59356	735	Kanauri	mik	mik	eye	eye		1.2.6	88	0		682
+59357	899	Lepcha	a◦mik	a◦mik	eye	eye		1.2.6	88	0		p,682
+59358	684	Jingpho	myi	myi	eye	eye		1.2.6	88	0		682
+59359	578	Garo	mik	mik	eye	eye		1.2.6	88	0		682
+59360	983	Lushai [Mizo]	mit	mit	eye	eye		1.2.6	88	0		682
+59361	647	Hayu	mek	mek	eye	eye		1.2.6	88	0		682
+59362	996	Magar	mik	mik	eye	eye		1.2.6	88	0		682
+59363	304	Bahing	mi-tśi	mi-tśi	eye	eye		1.2.6	88	0	D0	682,3559
+59364	1075	Mishing [Miri]	ə◦mik	ə◦mik	eye	eye		1.2.6	88	0		p,682
+59365	1067	Mikir [Karbi]	mek	mek	eye	eye		1.2.6	88	0		682
+59366	1546	Thulung	mik-si	mik-si	eye	eye		1.2.6	88	0	D0	682,1019
+59367	545	Dumi	mik-si	mik-si	eye	eye		1.2.6	88	0	u	682,1019
+59368	1327	Rai	mik-si	mik-si	eye	eye		1.2.6	88	0	u	682,1019
+59369	520	Dhimal	mi	mi	eye	eye		1.2.6	88	0		682
+59370	407	Burmese (Written)	myak	myak	eye	eye		1.2.6	88	0		681
+59371	1203	Anong	mɛ-nɛ	mɛ-nɛ	eye	eye		1.2.6	88	0		682,m
+59372	610	rGyalrong	te◦mńak	te◦mńak	eye	eye		1.2.6	88	0		p,681
+59373	743	Karen	mɛ	mɛ	eye	eye		1.2.6	88	0		682
+59374	843	Lahu	mɛ̂ʔ	mɛ̂ʔ	eye	eye		1.2.6	88	0		681
+59375	482	Chinese (Old/Mid)	miôk	miôk	eye	eye		1.2.6	88	0		681
+59376	482	Chinese (Old/Mid)	miuk	miuk	eye	eye		1.2.6	88	0		681
+59377	539	Trung [Dulong] (Dulonghe)	muʔ⁵⁵	muʔ⁵⁵	sky, heaven	sky, heaven		3.2.2	89	0		2473
+59378	541	Trung [Dulong] (Nujiang)	muʔ⁵⁵	muʔ⁵⁵	sky, heaven	sky, heaven		3.2.2	89	0		2473
+59379	539	Trung [Dulong] (Dulonghe)	rɯ³¹ mɯt⁵⁵	rɯ³¹ mɯt⁵⁵	cloud	cloud		3.2.1	89	0		
+59380	541	Trung [Dulong] (Nujiang)	rɯ³¹ mit⁵⁵	rɯ³¹ mit⁵⁵	fog	fog		3.2.1	89	0		
+59381	1577	Tibetan (Written)	rmugs-pa	rmugs-pa	dense fog; inertness	dense fog; inertness		7.1.5.1	89	0		2465,s
+59382	1577	Tibetan (Written)	smug-po	smug-po	dark red, purple-brown	dark red, purple-brown		9.4	89	0		2465,s
+59383	899	Lepcha	muk	muk	foggy	foggy		3.2.1	89	0		2465
+59384	899	Lepcha	muk muk	muk muk	darkness, dullness	darkness, dullness		9.4	89	0		2465,2465
+59385	407	Burmese (Written)	muik	muik	dark	dark		9.4	89	0		2465
+59386	983	Lushai [Mizo]	muuk	muuk	dull (color)	dull (color)		7.1.5.1	89	0		
+59387	684	Jingpho	muʔ	muʔ	thunder, cloudy	thunder, cloudy		3.2.1	89	0		2465
+59388	684	Jingpho	ləmuʔ	ləmuʔ	sky	sky		3.2.2	89	0		
+59389	1333	Anong (Rawang)	muʔlaŋ	muʔlaŋ	heaven	heaven		5.8.4	89	0	u	
+59390	539	Trung [Dulong] (Dulonghe)	śɯ³¹ mɯɯi⁵⁵	śɯ³¹ mɯɯi⁵⁵	fog	fog		3.2.1	89	0		
+59391	1577	Tibetan (Written)	rmu-ba	rmu-ba	fog	fog		3.2.1	89	0		2465,s
+59392	407	Burmese (Written)	muì(gh)	muì(gh)	sky, clouds, rain	sky, clouds, rain		3.2.1	89	0		2473
+59393	206	Achang (Longchuan)	mau³¹	mau³¹	heaven	heaven		5.8.4	89	0		2473
+59394	203	Achang (Lianghe)	mau³¹	mau³¹	heaven	heaven		5.8.4	89	0		2473
+59395	208	Achang (Luxi)	mau⁵¹	mau⁵¹	heaven	heaven		5.8.4	89	0		2473
+59396	208	Achang (Luxi)	na⁵⁵ mau⁵⁵	na⁵⁵ mau⁵⁵	clouds	clouds		3.2.1	89	0		2484,m
+59397	203	Achang (Lianghe)	mau³¹ ńau³¹	mau³¹ ńau³¹	clouds	clouds		3.2.1	89	0		
+59398	539	Trung [Dulong] (Dulonghe)	aŋ³¹ mul⁵⁵	aŋ³¹ mul⁵⁵	hair / fur	hair / fur		1.2.3	90	0		p,363
+59399	541	Trung [Dulong] (Nujiang)	aŋ³¹ mun⁵³	aŋ³¹ mun⁵³	hair / fur	hair / fur		1.2.3	90	0		p,363
+59400	983	Lushai [Mizo]	hmul	hmul	hair / fur	hair / fur		1.2.3	90	0		363
+59401	684	Jingpho	mun~ə◦mun	mun~ə◦mun	hair / fur	hair / fur		1.2.3	90	0		363,p,363
+59402	1067	Mikir [Karbi]	aŋ◦mi	aŋ◦mi	hair / fur	hair / fur		1.2.3	90	0		5450,363
+59403	407	Burmese (Written)	mwè	mwè	hair / fur	hair / fur		1.2.3	90	0		363
+59404	578	Garo	ki◦mil	ki◦mil	hair / fur	hair / fur		1.2.3	90	0		p,363
+59405	1104	Tangsa (Moshang)	mul~kə◦mul	mul~kə◦mul	hair / fur	hair / fur		1.2.3	90	0		363,386,363
+59406	539	Trung [Dulong] (Dulonghe)	a³¹ mit⁵⁵	a³¹ mit⁵⁵	extinguish	extinguish		3.2.12.1	91	0		
+59407	194	Padam-Mishing [Abor-Miri]	mit	mit	extinguish	extinguish		3.2.12.1	91	0	D0	31
+59408	1203	Anong	śəmit	śəmit	extinguish	extinguish		3.2.12.1	91	0	D0	
+59409	684	Jingpho	simit	simit	extinguish	extinguish		3.2.12.1	91	0	D0	
+59410	983	Lushai [Mizo]	timit	timit	extinguish	extinguish		3.2.12.1	91	0		
+59411	1481	Tangkhul	khə◦śi◦mit	khə◦śimit	extinguish	extinguish		3.2.12.1	91	0	D0	m,m,31
+59412	1067	Mikir [Karbi]	met	met	extinguish	extinguish		3.2.12.1	91	0	D0	31
+59413	578	Garo	ki◦mit	ki◦mit	extinguish	extinguish		3.2.12.1	91	0	D0	m,31
+59414	843	Lahu	mèʔ	mèʔ	shut; blink	shut; blink		6.2.2.6.2	91	0		31*
+59415	407	Burmese (Written)	hmit	hmit	wink	wink		1.2.6.12	91	0		31
+59416	539	Trung [Dulong] (Dulonghe)	mit⁵⁵	mit⁵⁵	think, remember	think,remember		8.3.1.13.1	92	0		
+59417	541	Trung [Dulong] (Nujiang)	ńit⁵⁵	ńit⁵⁵	think, remember	think,remember		8.3.1.13.1	92	0		
+59418	1690	Atsi [Zaiwa]	myit³¹	myit³¹	think, remember	think,remember		8.3.1.13.1	92	0		1383
+59419	1087	Tsangla (Motuo)	mi	mi	think, remember	think,remember		8.3.1.13.1	92	0		
+59420	683	Jingpho	mjit³¹	mjit³¹	think, remember	think,remember		8.3.1.13.1	92	0		
+59421	208	Achang (Luxi)	myit³¹ la³⁵	myit³¹ la³⁵	forget	forget		8.3.1.16.1	92	0		
+59422	591	Kaman [Miju]	ŋit³⁵	ŋit³⁵	know	know		8.3.1.12.1	92	0		
+59423	539	Trung [Dulong] (Dulonghe)	man⁵⁵	man⁵⁵	medicine	medicine		5.4	93	0		5434
+59424	541	Trung [Dulong] (Nujiang)	man⁵⁵	man⁵⁵	medicine	medicine		5.4	93	0		5434
+59425	1577	Tibetan (Written)	sman	sman	medicine	medicine		5.4	93	0		5434
+59426	1091	Tshona (Mama)	man⁵³	man⁵³	medicine	medicine		5.4	93	0		5434
+59427	1087	Tsangla (Motuo)	man	man	medicine	medicine		5.4	93	0		5434
+59428	367	Bokar Lhoba	men	men	medicine	medicine		5.4	93	0		5434
+59429	1305	Pumi (Qinghua)	hmiɛ̃⁵⁵	hmiɛ̃⁵⁵	medicine	medicine		5.4	93	0		5434
+59430	1308	Pumi (Taoba)	hmĩ	hmĩ	medicine	medicine		5.4	93	0		5434
+59431	507	Darang [Taraon]	ta³¹ maŋ⁵⁵	ta³¹ maŋ⁵⁵	medicine	medicine		5.4	93	0		p,5434
+59432	539	Trung [Dulong] (Dulonghe)	a³¹ sɯm⁵³	a³¹ |sɯm⁵³	three	three		9.9	94	0		p,2666
+59433	541	Trung [Dulong] (Nujiang)	sɯm⁵³	sɯm⁵³	three	three		9.9	94	0		2666
+59434	1577	Tibetan (Written)	gsum	gsum	three	three		9.9	94	0		2666
+59435	578	Garo	githam	githam	three	three		9.9	94	0		2666
+59436	407	Burmese (Written)	sùm	sùm	three	three		9.9	94	0		2666
+59437	526	Digaro	kəsaŋ	kəsaŋ	three	three		9.9	94	0		2666
+59438	684	Jingpho	məsum	məsum	three	three		9.9	94	0		2666
+59439	1203	Anong	ətsum	ətsum	three	three		9.9	94	0		2666
+59440	983	Lushai [Mizo]	thum	thum	three	three		9.9	94	0		2666
+59441	539	Trung [Dulong] (Dulonghe)	pɯ³¹ saʔ⁵⁵	pɯ³¹ saʔ⁵⁵	itch, itchy	itch,itchy		1.6.5.5	95	0	D0	1459,1457
+59442	541	Trung [Dulong] (Nujiang)	pɯ³¹ saʔ⁵⁵	pɯ³¹ saʔ⁵⁵	itch, itchy	itch,itchy		1.6.5.5	95	0	D0	1459,1457
+59443	684	Jingpho	mə◦saʔ	mə◦saʔ	itch, itchy	itch,itchy		1.6.5.5	95	0		p,1457
+59444	983	Lushai [Mizo]	thak	thak	itch, itchy	itch,itchy		1.6.5.5	95	0		1457
+59445	876	Lakher [Mara]	pə◦tha	pə◦tha	itch, itchy	itch,itchy		1.6.5.5	95	0		p,1457
+59446	278	Ao (Chungli)	məsak	məsak	itch, itchy	itch,itchy		1.6.5.5	95	0		1457a
+59447	1067	Mikir [Karbi]	iŋ◦thak	iŋ◦thak	itch, itchy	itch,itchy		1.6.5.5	95	0		p,1457
+59448	539	Trung [Dulong] (Dulonghe)	saat⁵⁵	saat⁵⁵	kill, hit	kill,hit		6.4	96	0		1018
+59449	541	Trung [Dulong] (Nujiang)	sat⁵⁵	sat⁵⁵	kill, hit	kill,hit		6.4	96	0		1018
+59450	1577	Tibetan (Written)	gsod-pa	gsod-pa	kill, hit	kill,hit		6.4	96	0		1018
+59451	684	Jingpho	sat	sat	kill, hit	kill,hit		6.4	96	0		1018
+59452	407	Burmese (Written)	sat	sat	kill, hit	kill,hit		6.4	96	0		1018
+59453	578	Garo	sot	sot	kill, hit	kill,hit		6.4	96	0		1018
+59454	983	Lushai [Mizo]	that	that	kill, hit	kill,hit		6.4	96	0		1018
+59455	1067	Mikir [Karbi]	that	that	kill, hit	kill,hit		6.4	96	0		
+59456	1318	Qiang (Mawo)	tʃə	tʃə	kill, hit	kill,hit		6.4	96	0		1018
+59457	206	Achang (Longchuan)	sat⁵⁵	sat⁵⁵	kill, hit	kill,hit		6.4	96	0		1018
+59458	208	Achang (Luxi)	sat⁵⁵	sat⁵⁵	kill, hit	kill,hit		6.4	96	0		1018
+59459	203	Achang (Lianghe)	saʔ⁵⁵	saʔ⁵⁵	kill, hit	kill,hit		6.4	96	0		1018
+59460	539	Trung [Dulong] (Dulonghe)	sɯi⁵⁵	sɯi⁵⁵	comb	comb	v.	1.2.2.1	97	0		1219
+59461	541	Trung [Dulong] (Nujiang)	si⁵³	si⁵³	comb	comb	v.	1.2.2.1	97	0		1219
+59462	539	Trung [Dulong] (Dulonghe)	u⁵⁵ sɯi⁵⁵	u⁵⁵ sɯi⁵⁵	comb	comb		1.2.2.1	97	0		385,1219
+59463	541	Trung [Dulong] (Nujiang)	u⁵³ si⁵³	u⁵³ si⁵³	comb	comb		1.2.2.1	97	0		385,1219
+59464	1318	Qiang (Mawo)	qə◦si	qə◦si	comb	comb (v.)	v	1.2.2.1	97	0		386,1219
+59465	684	Jingpho	pəsi	pəsi	comb	comb		1.2.2.1	97	0		1219
+59466	684	Jingpho	məsit	məsit	comb	comb	v.	1.2.2.1	97	0		1219
+59467	591	Kaman [Miju]	si⁵⁵ pin⁵⁵	si⁵⁵ pin⁵⁵	comb	comb		1.2.2.1	97	0		1219,m
+59468	1067	Mikir [Karbi]	iŋ◦thi	iŋ◦thi	comb	comb		1.2.2.1	97	0		p,1219
+59469	278	Ao (Chungli)	məsə	məsə	comb	comb	v.	1.2.2.1	97	0		1219
+59470	1203	Anong	ə◦si	ə◦si	comb , comb	comb , comb	v.,n.	1.2.2.1	97	0		p,1219
+59471	539	Trung [Dulong] (Dulonghe)	sɔ⁵⁵	sɔ⁵⁵	know	know		8.3.1.12.1	98	0		
+59472	541	Trung [Dulong] (Nujiang)	sɔ⁵⁵	sɔ⁵⁵	know	know		8.3.1.12.1	98	0		
+59473	1577	Tibetan (Written)	śes-pa	śes-pa	know	know		8.3.1.12.1	98	0		2670,s
+59474	647	Hayu	ses	ses	know	know		8.3.1.12.1	98	0		2670
+59475	407	Burmese (Written)	sí	sí	know	know		8.3.1.12.1	98	0		2670
+59476	578	Garo	ma◦si	masi	know	know		8.3.1.12.1	98	0		p,2670
+59477	533	Dimasa	ma◦thi~mi◦thi	ma◦thi~mi◦thi	know	know		8.3.1.12.1	98	0		p,2670,p,2670
+59478	356	Bodo	mi◦thi	mi◦thi	know	know		8.3.1.12.1	98	0		p,2670
+59479	684	Jingpho	śi	śi	news	news			98	0		
+59480	539	Trung [Dulong] (Dulonghe)	su⁵³	su⁵³	garlic	garlic		3.1.5	99	0		5494
+59481	541	Trung [Dulong] (Nujiang)	su⁵³	su⁵³	garlic	garlic		3.1.5	99	0		5494
+59482	539	Trung [Dulong] (Dulonghe)	su⁵³ dɔŋ⁵⁵	su⁵³ dɔŋ⁵⁵	green onion	green onion		9.4	99	0		5494,m
+59483	541	Trung [Dulong] (Nujiang)	su³¹ dɔŋ⁵⁵	su³¹ dɔŋ⁵⁵	green onion	green onion		9.4	99	0		5494,m
+59484	407	Burmese (Written)	krak-swan	krak-swan	garlic	garlic		3.1.5	99	0		1606,5494
+59485	482	Chinese (Old/Mid)	suân	suân	garlic	garlic		3.1.5	99	0		5494
+59486	843	Lahu	śū-qō	śū-qō	leek	leek		3.1.5	99	0		
+59487	843	Lahu	śū-phu	śū-phu	onion	onion		3.1.5	99	0		5494,1235
+59488	843	Lahu	śū-phu-nù	śū-phu-nù	garlic	garlic		3.1.5	99	0		5494,1235,1415
+59489	539	Trung [Dulong] (Dulonghe)	aŋ³¹ sar⁵⁵	aŋ³¹ sar⁵⁵	new	new		9.6.1.1	100	0		m,2651
+59490	541	Trung [Dulong] (Nujiang)	aŋ³¹ sar⁵³	aŋ³¹ sar⁵³	new	new		9.6.1.1	100	0		m,2651
+59491	1577	Tibetan (Written)	gsar-ba	gsar-ba	new	new		9.6.1.1	100	0		2651,s
+59492	1333	Anong (Rawang)	aŋ◦sar	aŋ◦sar	new	new		9.6.1.1	100	0		m,2651
+59493	1607	Trung [Dulong]	ak◦sal	ak◦sal	fresh	fresh		9.6.1.1	100	0		m,2651
+59494	983	Lushai [Mizo]	thar	thar	new	new		9.6.1.1	100	0		2651
+59495	1514	Thado	a◦tha	a◦tha	new	new		9.6.1.1	100	0		m,2651
+59496	1598	Tiddim	thak	thak	new	new		9.6.1.1	100	0		2651
+59497	539	Trung [Dulong] (Dulonghe)	śi⁵³	śi⁵³	die	die		1.1.6	101	0		27
+59498	541	Trung [Dulong] (Nujiang)	śi⁵³	śi⁵³	die	die		1.1.6	101	0		27
+59499	1577	Tibetan (Written)	śi-ba~'tśhi-ba	śi-ba~'tśhi-ba	die	die		1.1.6	101	0		27,s,27,s
+59500	735	Kanauri	śi	śi	die	die		1.1.6	101	0		27
+59501	1203	Anong	śi	śi	die	die		1.1.6	101	0		27
+59502	578	Garo	si	si	die	die		1.1.6	101	0		27
+59503	684	Jingpho	si	si	die	die		1.1.6	101	0		27
+59504	407	Burmese (Written)	se	se	die	die		1.1.6	101	0		27
+59505	533	Dimasa	thi	thi	die	die		1.1.6	101	0		27
+59506	983	Lushai [Mizo]	thi	thi	die	die		1.1.6	101	0		27
+59507	1067	Mikir [Karbi]	thi	thi	die	die		1.1.6	101	0		27
+59508	1075	Mishing [Miri]	śi	śi	die	die		1.1.6	101	0		27
+59509	917	Limbu	si	si	die	die		1.1.6	101	0		27
+59510	539	Trung [Dulong] (Dulonghe)	aŋ³¹ śi⁵⁵	aŋ³¹ śi⁵⁵	fruit	fruit		3.1.5	102	0		m,1019
+59511	541	Trung [Dulong] (Nujiang)	śi⁵³	śi⁵³	fruit	fruit		3.1.5	102	0		1019
+59512	1577	Tibetan (Written)	se-	se-	fruit	fruit		3.1.5	102	0		1019
+59513	684	Jingpho	si~əsi	si~əsi	fruit	fruit		3.1.5	102	0		1019,1019
+59514	407	Burmese (Written)	asì	asì	fruit	fruit		3.1.5	102	0		1019
+59515	983	Lushai [Mizo]	thei	thei	fruit	fruit		3.1.5	102	0		1019
+59516	1067	Mikir [Karbi]	the~athe	the~athe	fruit	fruit		3.1.5	102	0		1019,1019
+59517	578	Garo	the~bithe	the~bithe	fruit	fruit		3.1.5	102	0		1019,1019
+59518	1203	Anong	śiŋ śi	śiŋ śi	fruit	fruit		3.1.5	102	0		2658,1019
+59519	533	Dimasa	ba◦thai	bathai	fruit	fruit		3.1.5	102	0	D0	p,1019
+59520	539	Trung [Dulong] (Dulonghe)	śiŋ⁵⁵	śiŋ⁵⁵	tree, wood	tree,wood		3.1.2	103	0		2658
+59521	541	Trung [Dulong] (Nujiang)	śɯŋ⁵⁵	śɯŋ⁵⁵	tree, wood	tree,wood		3.1.2	103	0		2658
+59522	1577	Tibetan (Written)	śiŋ	śiŋ	tree, wood	tree,wood		3.1.2	103	0		2658
+59523	735	Kanauri	śiŋ	śiŋ	tree, wood	tree,wood		3.1.2	103	0	D0	2658
+59524	647	Hayu	siŋ	siŋ	tree, wood	tree,wood		3.1.2	103	0	D0	2658
+59525	996	Magar	śiŋ	śiŋ	tree, wood	tree,wood		3.1.2	103	0	D0	2658
+59526	304	Bahing	siŋ	siŋ	tree, wood	tree,wood		3.1.2	103	0	D0	2658
+59527	1203	Anong	śiŋ~thiŋ	śiŋ~thiŋ	tree, wood	tree,wood		3.1.2	103	0		2658,2658
+59528	983	Lushai [Mizo]	thiŋ	thiŋ	tree, wood	tree,wood		3.1.2	103	0		2658
+59529	539	Trung [Dulong] (Dulonghe)	pɯ³¹ śin⁵⁵	pɯ³¹ śin⁵⁵	liver	liver		1.7.3	104	0		m,1390
+59530	541	Trung [Dulong] (Nujiang)	pɯ³¹ śin⁵³	pɯ³¹ śin⁵³	liver	liver		1.7.3	104	0		m,1390
+59531	1577	Tibetan (Written)	mtśhin	mtśhin	liver	liver		1.7.3	104	0		1390
+59532	407	Burmese (Written)	a◦sàń	a◦sàń	liver	liver		1.7.3	104	0		p,1390
+59533	735	Kanauri	śin	śin	liver	liver		1.7.3	104	0	D0	1390
+59534	1075	Mishing [Miri]	ə◦śin	ə◦śin	liver	liver		1.7.3	104	0		p,1390
+59535	1203	Anong	phə◦śin	phə◦śin	liver	liver		1.7.3	104	0		m,1390
+59536	684	Jingpho	sin~məsin	sin~mə◦sin	liver	liver		1.7.3	104	0		1390,1390
+59537	1067	Mikir [Karbi]	iŋ◦thin	iŋ◦thin	liver	liver		1.7.3	104	0	D0	p,1390
+59538	539	Trung [Dulong] (Dulonghe)	sa⁵⁵ śɯ³¹	sa⁵⁵ śɯ³¹	arise, awaken	arise,awaken		1.1.4	105	0		5769,1837
+59539	683	Jingpho	su³¹	su³¹	arise, awaken	arise,awaken		1.1.4	105	0		1837
+59540	983	Lushai [Mizo]	thou	thou	arise, awaken	arise,awaken		1.1.4	105	0		142
+59541	533	Dimasa	masau	masau	arise, awaken	arise,awaken		1.1.4	105	0		142
+59542	876	Lakher [Mara]	pə◦theu	pətheu	arise, awaken	arise,awaken		1.1.4	105	0		m,142
+59543	278	Ao (Chungli)	meso	meso	arise, awaken	arise,awaken		1.1.4	105	0		142
+59544	541	Trung [Dulong] (Nujiang)	zɯʔ	zɯʔ	leopard	leopard		2.1.3	106	0		2805
+59545	1577	Tibetan (Written)	gzig	gzig	leopard	leopard		2.1.3	106	0		2805
+59546	407	Burmese (Written)	sats	sats	leopard	leopard		2.1.3	106	0		2805
+59547	1203	Anong	khaŋ-zi	khaŋ-zi	leopard	leopard		2.1.3	106	0		5702,2805
+59548	1091	Tshona (Mama)	zik¹³	zik¹³	leopard	leopard		2.1.3	106	0		2805
+59549	1087	Tsangla (Motuo)	zik	zik	leopard	leopard		2.1.3	106	0		2805
+59550	1318	Qiang (Mawo)	sə	sə	leopard	leopard		2.1.3	106	0		2805
+59551	1322	Qiang (Taoping)	si⁵⁵	si⁵⁵	leopard	leopard		2.1.3	106	0		2805
+59552	539	Trung [Dulong] (Dulonghe)	tsi⁵⁵	tsi⁵⁵	count	count		6.2.2.2	107	0		2738
+59553	1577	Tibetan (Written)	rtsi-ba	rtsi-ba	count	count		6.2.2.2	107	0		2738,s
+59554	684	Jingpho	thi	thi	count	count		6.2.2.2	107	0		2738
+59555	407	Burmese (Written)	re	re	count	count		6.2.2.2	107	0		2738
+59556	482	Chinese (Old/Mid)	śrju	śrju	count	count		6.2.2.2	107	0		2738
+59557	482	Chinese (Old/Mid)	śju	śju	count	count		6.2.2.2	107	0		2738
+59558	1091	Tshona (Mama)	tsi⁵³ ja¹³	tsi⁵³ ja¹³	count	count		6.2.2.2	107	0		2738,m
+59559	1318	Qiang (Mawo)	sə◦sa	səsa	count	count		6.2.2.2	107	0		2738,m
+59560	539	Trung [Dulong] (Dulonghe)	tsaap⁵⁵	tsaap⁵⁵	repay	repay		6.22	108	0		
+59561	541	Trung [Dulong] (Nujiang)	tsaap⁵⁵	tsaap⁵⁵	repay	repay		6.22	108	0		
+59562	1577	Tibetan (Written)	'tshab-pa	'tshab-pa	repay	repay		6.22	108	0		
+59563	407	Burmese (Written)	tshap	tshap	repay	repay		6.22	108	0		
+59564	206	Achang (Longchuan)	tśhap⁵⁵	tśhap⁵⁵	repay	repay		6.22	108	0		
+59565	208	Achang (Luxi)	tshap⁵⁵	tshap⁵⁵	repay	repay		6.22	108	0		
+59566	1690	Atsi [Zaiwa]	tshap	tshap	repay	repay		6.22	108	0		
+59567	539	Trung [Dulong] (Dulonghe)	a³¹ tsaŋ⁵³	a³¹ tsaŋ⁵³	person	person		4.5	109	0		
+59568	541	Trung [Dulong] (Nujiang)	a³¹ tshaŋ⁵³	a³¹ tshaŋ⁵³	person	person		4.5	109	0		
+59569	843	Lahu	chɔ	chɔ	person	person		4.5	109	0		
+59570	843	Lahu	chɔ̂	chɔ̂	person	person		4.5	109	0		
+59571	591	Kaman [Miju]	tsoŋ³⁵	tsoŋ³⁵	person	person		4.5	109	0		
+59572	208	Achang (Luxi)	a³¹ tśhaŋ³⁵	a³¹ tśhaŋ³⁵	other people	other people		8.1	109	0		
+59573	203	Achang (Lianghe)	ʂaŋ	ʂaŋ	him	him		4.1	109	0		
+59574	1305	Pumi (Qinghua)	tsã⁵⁵	tsã⁵⁵	him	him		4.1	109	0		
+59575	539	Trung [Dulong] (Dulonghe)	tsaŋ⁵⁵ ma⁵⁵	tsaŋ⁵⁵ ma⁵⁵	clean	clean		6.2.2.5.2	110	0		2745,m
+59576	541	Trung [Dulong] (Nujiang)	tsaŋ⁵⁵ ma⁵⁵	tsaŋ⁵⁵ ma⁵⁵	clean	clean		6.2.2.5.2	110	0		2745,m
+59577	1577	Tibetan (Written)	'tsaŋ-ba~saŋ-ba	'tsaŋ-ba~saŋ-ba	make clear, cleanse	make clear, cleanse		6.14	110	0		
+59578	407	Burmese (Written)	tsaŋ	tsaŋ	clear, pure	clear, pure		9.6.1.1	110	0		
+59579	983	Lushai [Mizo]	thiaŋ	thiaŋ	clean	clean		6.2.2.5.2	110	0		4279
+59580	1514	Thado	əteŋ	əteŋ	clear, clean	clear, clean		9.6.1.1	110	0		
+59581	1045	Meithei	ə◦seŋ-ba	əseŋ-ba	clean	clean		6.2.2.5.2	110	0		p,2745,s
+59582	1690	Atsi [Zaiwa]	san³¹ seŋ⁵¹	san³¹ seŋ⁵¹	clean	clean		6.2.2.5.2	110	0		
+59583	1091	Tshona (Mama)	tsaŋ⁵⁵ ma⁵³	tsaŋ⁵⁵ ma⁵³	clean	clean		6.2.2.5.2	110	0		2745,s
+59584	1087	Tsangla (Motuo)	tsaŋ◦ma	tsaŋma	clean	clean		6.2.2.5.2	110	0		2745,s
+59585	1318	Qiang (Mawo)	śutiu	śutiu	clean	clean		6.2.2.5.2	110	0		
+59586	591	Kaman [Miju]	kɯ³¹ soŋ³⁵	kɯ³¹ soŋ³⁵	clear	clear		9.6.1.1	110	0		
+59587	591	Kaman [Miju]	kau⁵⁵ saŋ³⁵	kau⁵⁵ saŋ³⁵	clear (water)	clear (water)		9.6.1.1	110	0		
+59588	683	Jingpho	san³¹ seŋ⁵⁵	san³¹ seŋ⁵⁵	clean	clean		6.2.2.5.2	110	0		
+59589	1305	Pumi (Qinghua)	ʂõ⁵⁵ ne⁵⁵	ʂõ⁵⁵ ne⁵⁵	clean	clean		6.2.2.5.2	110	0		
+59590	1308	Pumi (Taoba)	ʂã⁵⁵ hniɛ⁵³ mə⁵³	ʂã⁵⁵ hniɛ⁵³ mə⁵³	clean	clean		6.2.2.5.2	110	0		
+59591	539	Trung [Dulong] (Dulonghe)	a³¹ tsep⁵⁵	a³¹ tsep⁵⁵	chop	chop		6.9.3	111	0		p,430
+59592	1091	Tshona (Mama)	tsap⁵³	tsap⁵³	chop	chop		6.9.3	111	0		430
+59593	1087	Tsangla (Motuo)	tsap	tsap	chop	chop		6.9.3	111	0		430
+59594	683	Jingpho	ʒep³¹	ʒep³¹	chop	chop		6.9.3	111	0		430
+59595	1690	Atsi [Zaiwa]	tʃap³¹	tʃap³¹	chop	chop		6.9.3	111	0		430
+59596	1305	Pumi (Qinghua)	nə¹³ tsi¹³	nə¹³ tsi¹³	chop	chop		6.9.3	111	0		m,430
+59597	208	Achang (Luxi)	tsap³¹	tsap³¹	chop	chop		6.9.3	111	0		430
+59598	1577	Tibetan (Written)	gtsab	gtsab	chop	chop		6.9.3	111	0		430
+59599	1555	Tibetan (Lhasa)	tsəp⁵³	tsəp⁵³	chop	chop		6.9.3	111	0	u	430
+59600	539	Trung [Dulong] (Dulonghe)	a³¹ tsɯ⁵⁵	a³¹ tsɯ⁵⁵	pointed	pointed		6.2.2.2	112	0		
+59601	541	Trung [Dulong] (Nujiang)	a³¹ tsɯ⁵⁵	a³¹ tsɯ⁵⁵	pointed	pointed		6.2.2.2	112	0		
+59602	735	Kanauri	tso	tso	pointed	pointed		6.2.2.2	112	0		
+59603	899	Lepcha	dźu	dźu	pointed	pointed		6.2.2.2	112	0		
+59604	684	Jingpho	dźu	dźu	pointed	pointed		6.2.2.2	112	0		
+59605	407	Burmese (Written)	tshù	tshù	thorn	thorn		3.1.2	112	0		2741
+59606	407	Burmese (Written)	tsù	tsù	prick; piercer, awl	prick; piercer, awl		8.4	112	0		
+59607	578	Garo	su	su	pierce	pierce		6.9.2	112	0		2741
+59608	533	Dimasa	su	su	pierce	pierce		6.9.2	112	0		2741
+59609	578	Garo	busu	busu	thorn	thorn		3.1.2	112	0		
+59610	533	Dimasa	busu	busu	thorn	thorn		3.1.2	112	0		
+59611	1045	Meithei	sou	sou	pointed	pointed		6.2.2.2	112	0		
+59612	1514	Thado	sou	sou	pointed	pointed		6.2.2.2	112	0		
+59613	876	Lakher [Mara]	seu	seu	panji	panji			112	0		
+59614	1067	Mikir [Karbi]	su	su	thorn, panji, sting	thorn, panji, sting		3.1.2	112	0		
+59615	1481	Tangkhul	kəsui	kəsui	pointed	pointed		6.2.2.2	112	0		
+59616	1318	Qiang (Mawo)	tshə◦p	tshəp	thorn	thorn		3.1.2	112	0		2741,m
+59617	1318	Qiang (Mawo)	tsa	tsa	pointed	pointed		6.2.2.2	112	0		
+59618	206	Achang (Longchuan)	tśo³¹	tśo³¹	pointed	pointed		6.2.2.2	112	0		
+59619	208	Achang (Luxi)	tsu⁵¹	tsu⁵¹	pointed	pointed		6.2.2.2	112	0		
+59620	203	Achang (Lianghe)	tśu³¹	tśu³¹	pointed	pointed		6.2.2.2	112	0		
+59621	1305	Pumi (Qinghua)	tsu⁵⁵	tsu⁵⁵	pointed	pointed		6.2.2.2	112	0		
+59622	1690	Atsi [Zaiwa]	tsu³¹	tsu³¹	thorn	thorn		3.1.2	112	0		
+59623	1091	Tshona (Mama)	tse⁵³	tse⁵³	pointed	pointed		6.2.2.2	112	0		
+59624	539	Trung [Dulong] (Dulonghe)	pɯ³¹ sai⁵⁵	pɯ³¹ sai⁵⁵	red	red		9.4	113	0		
+59625	541	Trung [Dulong] (Nujiang)	pɯ³¹ sai⁵³	pɯ³¹ sai⁵³	red	red		9.4	113	0		
+59626	983	Lushai [Mizo]	tai	tai	red	red		9.4	113	0		
+59627	983	Lushai [Mizo]	śen	śen	red	red		9.4	113	0		5721
+59628	1514	Thado	a◦sén	a◦sén	red	red		9.4	113	0		p,5721
+59629	1598	Tiddim	san	san	red	red		9.4	113	0		5721
+59630	1598	Tiddim	tśan	tśan	red	red		9.4	113	0		5721
+59631	867	Laizo	sén	sén	red	red		9.4	113	0		5721
+59632	867	Laizo	sěn	sěn	red	red		9.4	113	0		5721
+59633	407	Burmese (Written)	ta~tya	ta~tya	red	red		9.4	113	0		5721,5721
+59634	876	Lakher [Mara]	sai	sai	red	red		9.4	113	0		5721
+59635	1087	Tsangla (Motuo)	tsa◦lo	tsa◦lo	red	red		9.4	113	0		
+59636	591	Kaman [Miju]	kau³¹ sal³⁵	kau³¹ sal³⁵	red	red		9.4	113	0		
+59637	539	Trung [Dulong] (Dulonghe)	a³¹ sa⁵⁵	a³¹ sa⁵⁵	earth, dirt	earth,dirt		3.2.11	114	0		
+59638	541	Trung [Dulong] (Nujiang)	a³¹ sa⁵³	a³¹ sa⁵³	earth, dirt	earth,dirt		3.2.11	114	0		
+59639	1577	Tibetan (Written)	sa	sa	earth, dirt	earth,dirt		3.2.11	114	0		587
+59640	203	Achang (Lianghe)	sɛ³¹	sɛ³¹	earth, dirt	earth,dirt		3.2.11	114	0		
+59641	1091	Tshona (Mama)	sa⁵³	sa⁵³	earth, dirt	earth,dirt		3.2.11	114	0		
+59642	1087	Tsangla (Motuo)	sa	sa	earth, dirt	earth,dirt		3.2.11	114	0		
+59643	1305	Pumi (Qinghua)	tʃa⁵⁵	tʃa⁵⁵	earth, dirt	earth,dirt		3.2.11	114	0		5671
+59644	1308	Pumi (Taoba)	tśa⁵³	tśa⁵³	earth, dirt	earth,dirt		3.2.11	114	0		5671
+59645	1690	Atsi [Zaiwa]	mji³¹ tse³¹	mji³¹ tse³¹	earth, dirt	earth,dirt		3.2.11	114	0		2453,m
+59646	482	Chinese (Old/Mid)	sa	sa	sand	sand		3.2.11	114	0		587
+59647	482	Chinese (Old/Mid)	ʂa	ʂa	sand	sand		3.2.11	114	0		587
+59648	539	Trung [Dulong] (Dulonghe)	a³¹ su⁵³	a³¹ su⁵³	boil	boil		6.6	115	0		
+59649	541	Trung [Dulong] (Nujiang)	su⁵³	su⁵³	boil	boil		6.6	115	0		
+59650	1577	Tibetan (Written)	'tshod-pa~'tsho-ba	'tshod-pa~'tsho-ba	cook in boiling water, bake	cook in boiling water, bake		5.5	115	0		2749,s,2749,s
+59651	684	Jingpho	dźu	dźu	burn, bake, roast, broil	burn, bake, roast, broil		5.5	115	0		2749
+59652	578	Garo	so	so	boil	boil		6.6	115	0		
+59653	533	Dimasa	sau	sau	burn	burn		3.2.12.1	115	0		
+59654	1203	Anong	əsu	əsu	boil	boil		6.6	115	0		
+59655	407	Burmese (Written)	tshu	tshu	boil, bubble	boil, bubble		6.6	115	0		
+59656	1045	Meithei	əsau	əsau	heat	heat		9.6.2	115	0		
+59657	983	Lushai [Mizo]	śou	śou	boil	boil		6.6	115	0		
+59658	876	Lakher [Mara]	śaeu	śaeu	boil	boil		6.6	115	0		
+59659	1322	Qiang (Taoping)	tshu³³	tshu³³	boil	boil		6.6	115	0		
+59660	1690	Atsi [Zaiwa]	tsu⁵¹	tsu⁵¹	boil	boil		6.6	115	0		
+59661	206	Achang (Longchuan)	su⁵⁵	su⁵⁵	boil	boil		6.6	115	0		
+59662	208	Achang (Luxi)	tsu³⁵	tsu³⁵	boil	boil		6.6	115	0		
+59663	539	Trung [Dulong] (Dulonghe)	su⁵³ śa⁵⁵	su⁵³ śa⁵⁵	fat meat	fat meat		1.6.4	116	0		42,34
+59664	1577	Tibetan (Written)	tsho-ba	tsho-ba	fat	fat	adj.	1.6.4	116	0		42,s
+59665	407	Burmese (Written)	tshu	tshu	fat	fat	adj.	1.6.4	116	0		42
+59666	1690	Atsi [Zaiwa]	tshu⁵¹	tshu⁵¹	fat	fat	adj.	1.6.4	116	0		42
+59667	206	Achang (Longchuan)	tśho⁵⁵	tśho⁵⁵	fat	fat	adj.	1.6.4	116	0		42
+59668	1318	Qiang (Mawo)	tshû	tshû	fat	fat	adj.	1.6.4	116	0		42
+59669	539	Trung [Dulong] (Dulonghe)	tśi⁵⁵	tśi⁵⁵	urine	urine		1.8.4	117	0		650
+59670	1577	Tibetan (Written)	gtśid-pa~gtśi-ba	gtśid-pa~gtśi-ba	urinate	urinate		1.5.3.2	117	0		650,s,650,s
+59671	1577	Tibetan (Written)	gtśin	g◦tśin	urine	urine		1.8.4	117	0		650
+59672	684	Jingpho	dźit-tsyi~dźit-dźi	dźit-tsyi~dźit-dźi	urinate	urinate		1.5.3.2	117	0		650,m,650,m
+59673	684	Jingpho	dźit	dźit	urine	urine		1.8.4	117	0		650
+59674	1203	Anong	tsi	tsi	urine	urine		1.8.4	117	0		650
+59675	1203	Anong	tsi-tsi	tsi-tsi	urinate	urinate		1.5.3.2	117	0		650,650
+59676	407	Burmese (Written)	tshì	tshì	urine (polite form)	urine (polite form)		1.8.4	117	0		650
+59677	843	Lahu	ji	ji	urine	urine		1.8.4	117	0		650
+59678	533	Dimasa	si-di	si-di	urine, urinate	urine, urinate		1.8.4	117	0		650,m
+59679	539	Trung [Dulong] (Dulonghe)	cɯl⁵⁵	cɯl⁵⁵	spittle	spittle		1.2.6	118	0		
+59680	541	Trung [Dulong] (Nujiang)	tśun⁵⁵	tśun⁵⁵	spittle	spittle		1.2.6	118	0		
+59681	1577	Tibetan (Written)	mtśhil-ma	mtśhil-ma	spittle	spittle		1.2.6	118	0	D1	
+59682	983	Lushai [Mizo]	tśil	tśil	spittle	spittle		1.2.6	118	0		
+59683	1203	Anong	thil	thil	spittle	spittle		1.2.6	118	0		
+59684	1203	Anong	thil thil	thil thil	spit	spit	v.	1.8.3	118	0		600,600
+59685	591	Kaman [Miju]	dźal³⁵	dźal³⁵	spittle	spittle		1.2.6	118	0		
+59686	1318	Qiang (Mawo)	tsəsar	tsəsar	spittle	spittle		1.2.6	118	0		
+59687	367	Bokar Lhoba	ta◦tśur	ta◦tśur	spittle	spittle		1.2.6	118	0		p,6379
+59688	1690	Atsi [Zaiwa]	tʃi³¹	tʃi³¹	spittle	spittle		1.2.6	118	0		
+59689	206	Achang (Longchuan)	tśho³¹	tśho³¹	spittle	spittle		1.2.6	118	0		
+59690	203	Achang (Lianghe)	tśhu³¹	tśhu³¹	spittle	spittle		1.2.6	118	0		
+59691	683	Jingpho	ma³¹ tho⁵⁵	ma³¹ tho⁵⁵	spit	spit	v.	1.8.3	118	0		298
+59692	539	Trung [Dulong] (Dulonghe)	aŋ³¹ tśal⁵³	aŋ³¹ tśal⁵³	child, son	child,son		1.5.3.2	120	0		
+59693	541	Trung [Dulong] (Nujiang)	aŋ³¹ tśan⁵³ pe⁵³	aŋ³¹ tśan⁵³ pe⁵³	son	son		4.7.3	120	0		
+59694	520	Dhimal	tśan	tśan	son	son		4.7.3	120	0		
+59695	899	Lepcha	(a-)zon	(a-)zon	grandchild	grandchild		4.7.3	120	0		
+59696	684	Jingpho	śa	śa	child, son	child,son		1.5.3.2	120	0		
+59697	996	Magar	za	za	child, son	child,son		1.5.3.2	120	0		
+59698	1097	Tsangla	za~ źa	za~ źa	child, son	child,son		1.5.3.2	120	0	u	
+59699	526	Digaro	sa	sa	child, son	child,son		1.5.3.2	120	0		
+59700	407	Burmese (Written)	sà	sà	child, son	child,son		1.5.3.2	120	0		
+59701	578	Garo	bi◦sa	bisa	child, son	child,son		1.5.3.2	120	0		p,1012
+59702	983	Lushai [Mizo]	fa	fa	child, son	child,son		1.5.3.2	120	0		1012*
+59703	533	Dimasa	sa~ basa	sa~ basa	child, son	child,son		1.5.3.2	120	0		
+59704	1203	Anong	za-mi	za-mi	daughter	daughter		4.7.3	120	0		
+59705	1087	Tsangla (Motuo)	waktsa	waktsa	child	child		1.5.3.2	120	0		
+59706	206	Achang (Longchuan)	tsɔ³¹ lo³¹	tsɔ³¹ lo³¹	child, son	child,son		1.5.3.2	120	0		
+59707	203	Achang (Lianghe)	tsa³¹ lo³¹	tsa³¹ lo³¹	child, son	child,son		1.5.3.2	120	0		
+59708	1318	Qiang (Mawo)	zətʃ	zətʃ	grandchild	grandchild		4.7.3	120	0		
+59709	843	Lahu	yâ ⪤ śā ⪤ cà	yâ ⪤ śā ⪤ cà	male prefix	male prefix		1.9.6.1	120	0		1012,1012,1012
+59710	1690	Atsi [Zaiwa]	tso³¹	tso³¹	grandchild	grandchild		4.7.3	120	0		
+59711	539	Trung [Dulong] (Dulonghe)	tśi⁵⁵ tśal⁵³	tśi⁵⁵ tśal⁵³	small	small		9.7.2	121	0		
+59712	1559	Tibetan (Western)	zi	zi	small	small		9.7.2	121	0		2806
+59713	684	Jingpho	zi	zi	small	small		9.7.2	121	0		x
+59714	407	Burmese (Written)	sè	sè	small	small		9.7.2	121	0		2806
+59715	843	Lahu	i	i	small	small		9.7.2	121	0		2806
+59716	1318	Qiang (Mawo)	bərtsi	bərtsi	fine	fine		9.7.2	121	0		
+59717	539	Trung [Dulong] (Dulonghe)	a³¹ tśit⁵⁵	a³¹ tśit⁵⁵	goat	goat		2.1.8	122	0		p,p,1226
+59718	541	Trung [Dulong] (Nujiang)	tśhit⁵⁵	tśhit⁵⁵	goat (mountain)	goat (mountain)		2.1.8	122	0		1226
+59719	407	Burmese (Written)	tshit	tshit	goat (mountain)	goat (mountain)		2.1.8	122	0		1226
+59720	843	Lahu	á◦chèʔ	á◦chèʔ	goat	goat		2.1.8	122	0		p,5450,1226
+59721	939	Lisu	a◦tśhîʔ	a◦tśhîʔ	goat	goat		2.1.8	122	0		p,p,1226
+59722	1372	Sani [Nyi]	tshi	tshi	goat	goat		2.1.8	122	0		1226
+59723	959	Lolopho	a◦tśöʔ	a◦tśöʔ	goat	goat		2.1.8	122	0	u	p,p,1226
+59724	1318	Qiang (Mawo)	tsha	tsha	goat	goat		2.1.8	122	0		1226
+59725	1305	Pumi (Qinghua)	tshɯ⁵⁵	tshɯ⁵⁵	goat	goat		2.1.8	122	0		1226
+59726	507	Darang [Taraon]	kɯ³¹ tśi⁵³	kɯ³¹ tśi⁵³	goat (mountain)	goat (mountain)		2.1.8	122	0	u	m,1226
+59727	1607	Trung [Dulong]	a-tśit	a-tśit	goat	goat		2.1.8	122	0		p,p,1226
+59728	539	Trung [Dulong] (Dulonghe)	tśan⁵³	tśan⁵³	stretch out	stretch out		9.5	123	0		5720
+59729	541	Trung [Dulong] (Nujiang)	tśan⁵³	tśan⁵³	stretch out	stretch out		9.5	123	0		5720
+59730	407	Burmese (Written)	tsan	tsan	stretch	stretch	adj.	9.5	123	0		x
+59731	407	Burmese (Written)	tshan	tshan	stretch out	stretch out	v.	9.5	123	0		x
+59732	843	Lahu	che	che	stretch out	stretch out		9.5	123	0		5720
+59733	843	Lahu	qhe	qhe	stretch out	stretch out		9.5	123	0		
+59734	208	Achang (Luxi)	tsət⁵⁵	tsət⁵⁵	stretch out	stretch out		9.5	123	0		
+59735	539	Trung [Dulong] (Dulonghe)	ti⁵⁵ dzɯŋ⁵⁵	ti⁵⁵ dzɯŋ⁵⁵	clf. for trees	clf. for trees		10.1.3	124	0		
+59736	541	Trung [Dulong] (Nujiang)	tśi⁵⁵ zɯŋ⁵⁵	tśi⁵⁵ zɯŋ⁵⁵	clf. for trees	clf. for trees		10.1.3	124	0		
+59737	1119	Mpi	tɯ⁶	tɯ⁶	clf. for trees	clf. for trees		10.1.3	124	0		
+59738	843	Lahu	cɛ̀	cɛ̀	clf. for trees	clf. for trees		10.1.3	124	0		
+59739	206	Achang (Longchuan)	tseŋ⁵⁵	tseŋ⁵⁵	clf. for trees	clf. for trees		10.1.3	124	0		
+59740	539	Trung [Dulong] (Dulonghe)	aŋ³¹ dza⁵⁵	aŋ³¹ dza⁵⁵	food	food		5.5	125	0		
+59741	541	Trung [Dulong] (Nujiang)	aŋ³¹ za⁵⁵	aŋ³¹ za⁵⁵	food	food		5.5	125	0		
+59742	1577	Tibetan (Written)	za-ba~bza-ba	za-ba~bza-ba	food	food		5.5	125	0		36,m,m,m
+59743	407	Burmese (Written)	a◦tsà	atsà	food	food		5.5	125	0		p,36
+59744	304	Bahing	dźa	dźa	food	food		5.5	125	0		
+59745	1142	Magar	dźya	dźya	food	food		5.5	125	0	u	
+59746	684	Jingpho	śa	śa	food	food		5.5	125	0		
+59747	843	Lahu	câ	câ	food	food		5.5	125	0		
+59748	578	Garo	tśha	tśha	eat	eat		1.5.3.2	125	0		36
+59749	539	Trung [Dulong] (Dulonghe)	śam⁵³	śam⁵³	iron	iron		3.2.4	126	0		2676
+59750	541	Trung [Dulong] (Nujiang)	śam⁵³	śam⁵³	iron	iron		3.2.4	126	0		2676
+59751	610	rGyalrong	śom	śom	iron	iron		3.2.4	126	0		2676
+59752	1203	Anong	śam	śam	iron	iron		3.2.4	126	0		2676
+59753	1607	Trung [Dulong]	śyam	śyam	iron	iron		3.2.4	126	0		2676
+59754	407	Burmese (Written)	sam	sam	iron	iron		3.2.4	126	0		2676
+59755	206	Achang (Longchuan)	ʂam⁵⁵	ʂam⁵⁵	iron	iron		3.2.4	126	0		2676
+59756	208	Achang (Luxi)	sam⁵⁵	sam⁵⁵	iron	iron		3.2.4	126	0		2676
+59757	203	Achang (Lianghe)	ʂaŋ⁵⁵	ʂaŋ⁵⁵	iron	iron		3.2.4	126	0		2676
+59758	1322	Qiang (Taoping)	śi⁵⁵	śi⁵⁵	iron	iron		3.2.4	126	0		2676
+59759	1690	Atsi [Zaiwa]	ʃam⁵¹ toʔ⁵⁵	ʃam⁵¹ toʔ⁵⁵	iron	iron		3.2.4	126	0		2676,m
+59760	539	Trung [Dulong] (Dulonghe)	śa⁵⁵	śa⁵⁵	meat, flesh	meat,flesh		1.1.1.1	127	0	D0	34
+59761	541	Trung [Dulong] (Nujiang)	śa⁵³	śa⁵³	meat, flesh	meat,flesh		1.1.1.1	127	0	D0	34
+59762	1577	Tibetan (Written)	śa	śa	meat, flesh	meat,flesh		1.1.1.1	127	0		34
+59763	735	Kanauri	śa	śa	meat, flesh	meat,flesh		1.1.1.1	127	0		34
+59764	996	Magar	mi-śia	mi-śia	meat, flesh	meat,flesh		1.1.1.1	127	0		1002,34
+59765	304	Bahing	sye	sye	meat, flesh	meat,flesh		1.1.1.1	127	0		34
+59766	1359	Sampang	sya	sya	meat,flesh	meat,flesh		1.1.1.1	127	0	u	34
+59767	684	Jingpho	śan	śan	meat, flesh	meat,flesh		1.1.1.1	127	0		34
+59768	1203	Anong	śa	śa	meat, flesh	meat,flesh		1.1.1.1	127	0		34
+59769	407	Burmese (Written)	sà~ a◦sà	sà~ asà	meat, flesh	meat,flesh		1.1.1.1	127	0		34,p,34
+59770	983	Lushai [Mizo]	śa	śa	meat, flesh	meat,flesh		1.1.1.1	127	0		34
+59771	1091	Tshona (Mama)	śa⁵³	śa⁵³	meat, flesh	meat,flesh		1.1.1.1	127	0		34
+59772	1087	Tsangla (Motuo)	śa	śa	meat, flesh	meat,flesh		1.1.1.1	127	0		34
+59773	206	Achang (Longchuan)	ʂua³¹	ʂua³¹	meat, flesh	meat,flesh		1.1.1.1	127	0		34
+59774	208	Achang (Luxi)	sa⁵⁵	sa⁵⁵	meat, flesh	meat,flesh		1.1.1.1	127	0		34
+59775	203	Achang (Lianghe)	ʂa³¹	ʂa³¹	meat, flesh	meat,flesh		1.1.1.1	127	0		34
+59776	591	Kaman [Miju]	śin⁵³	śin⁵³	meat, flesh	meat,flesh		1.1.1.1	127	0		318
+59777	539	Trung [Dulong] (Dulonghe)	śar⁵⁵	śar⁵⁵	east	east		9.2.8	128	0		2677
+59778	541	Trung [Dulong] (Nujiang)	śe³¹ śɔʔ⁵⁵	śe³¹ śɔʔ⁵⁵	east	east		9.2.8	128	0		2677
+59779	1577	Tibetan (Written)	śar	śar	east	east		9.2.8	128	0		2677
+59780	735	Kanauri	sar-si	sar-si	rise	rise		1.1.4	128	0		2677,m
+59781	1203	Anong	nam sarr kha	nam sarr kha	east	east		9.2.8	128	0		2484,2677,m
+59782	1305	Pumi (Qinghua)	ʃɛ⁵⁵	ʃɛ⁵⁵	east	east		9.2.8	128	0		2677
+59783	1308	Pumi (Taoba)	śɑ⁵³	śɑ⁵³	east	east		9.2.8	128	0		2677
+59784	539	Trung [Dulong] (Dulonghe)	la⁵⁵	la⁵⁵	easy	easy		9.6.1.1	129	0		2426
+59785	541	Trung [Dulong] (Nujiang)	la⁵⁵	la⁵⁵	easy	easy		9.6.1.1	129	0		2426
+59786	591	Kaman [Miju]	pɯ³¹ la⁵⁵	pɯ³¹ la⁵⁵	easy	easy		9.6.1.1	129	0		
+59787	1091	Tshona (Mama)	lelamu	lelamu	easy	easy		9.6.1.1	129	0		
+59788	1556	Tibetan (Lhasa)	lɛʔ¹³ la⁵³ po⁵³	lɛʔ¹³ la⁵³ po⁵³	easy	easy		9.6.1.1	129	0		
+59789	1577	Tibetan (Written)	las sla po	las sla po	easy	easy		9.6.1.1	129	0		
+59790	156	*Loloish	śa	śa	easy	easy		9.6.1.1	129	0	u	156
+59791	539	Trung [Dulong] (Dulonghe)	ŋɯ³¹ lɔi⁵³	ŋɯ³¹ lɔi⁵³	buffalo	buffalo		2.1.2	130	0		2538,2427
+59792	541	Trung [Dulong] (Nujiang)	ŋɯ³¹ lɔi⁵³	ŋɯ³¹ lɔi⁵³	buffalo	buffalo		2.1.2	130	0		2538,2427
+59793	684	Jingpho	ŋə◦loi	ŋəloi	buffalo	buffalo		2.1.2	130	0		2538,2427
+59794	407	Burmese (Written)	k◦ywai	k◦ywai	buffalo	buffalo		2.1.2	130	0		p,2427
+59795	983	Lushai [Mizo]	loi	loi	buffalo	buffalo		2.1.2	130	0		2427
+59796	1419	Siyin	loai	loai	buffalo	buffalo		2.1.2	130	0	D0	2427
+59797	539	Trung [Dulong] (Dulonghe)	nam⁵⁵ la⁵⁵	nam⁵⁵ la⁵⁵	god	god		5.8.1.1	131	0		
+59798	541	Trung [Dulong] (Nujiang)	la⁵⁵	la⁵⁵	god	god		5.8.1.1	131	0		
+59799	1577	Tibetan (Written)	hla	hla	god	god		5.8.1.1	131	0		2264
+59800	148	*Lolo-Burmese	s-la	s-la	soul	soul		1.10	131	0		2264
+59801	684	Jingpho	min-|la~num-|la	min-la~num-la	ghost, spirit	ghost, spirit		4.2.12.2	131	0		2264,2264
+59802	1203	Anong	phəla	phəla	god	god		5.8.1.1	131	0		2264
+59803	983	Lushai [Mizo]	thla	thla	god	god		5.8.1.1	131	0		2264
+59804	1481	Tangkhul	maŋ-|la	maŋ-la	god	god		5.8.1.1	131	0		2264
+59805	539	Trung [Dulong] (Dulonghe)	liŋ⁵⁵ gɯi⁵³	liŋ⁵⁵ gɯi⁵³	neck	neck		1.4.2	132	0		479,m
+59806	541	Trung [Dulong] (Nujiang)	laŋ⁵⁵ gi⁵³	laŋ⁵⁵ gi⁵³	neck	neck		1.4.2	132	0		479,m
+59807	899	Lepcha	tuk-liŋ~tuŋ-liŋ	tuk-liŋ~tuŋ-liŋ	neck	neck		1.4.2	132	0		p,479,359,479
+59808	1075	Mishing [Miri]	ə◦lüŋ	ə◦lüŋ	neck	neck		1.4.2	132	0		p,479
+59809	1203	Anong	liŋ	liŋ	neck	neck		1.4.2	132	0		479
+59810	407	Burmese (Written)	lań	lań	neck	neck		1.4.2	132	0		479
+59811	983	Lushai [Mizo]	riŋ	riŋ	neck	neck		1.4.2	132	0		479
+59812	1577	Tibetan (Written)	'dźiŋ-pa~mdźiŋ-pa	'dźiŋ-pa~mdźiŋ-pa	neck	neck		1.4.2	132	0		479,1902,479,1902
+59813	467	Chinese (Middle)	ljäŋ	ljäŋ	neck, collar	neck, collar		1.4.2	132	0		479
+59814	539	Trung [Dulong] (Dulonghe)	pɯ³¹ li⁵⁵	pɯ³¹ li⁵⁵	grandchild	grandchild		4.7.3	133	0		
+59815	541	Trung [Dulong] (Nujiang)	pɯ³¹ li⁵⁵	pɯ³¹ li⁵⁵	grandchild	grandchild		4.7.3	133	0		
+59816	1203	Anong	phəli	phəli	grandchild	grandchild		4.7.3	133	0		
+59817	407	Burmese (Written)	mrè	mrè	grandchild	grandchild		4.7.3	133	0		2410
+59818	578	Garo	(aŋ-)ri	(aŋ-)ri	grandchild	grandchild		4.7.3	133	0		
+59819	955	Lolo	li	li	grandchild	grandchild		4.7.3	133	0	D0	2410
+59820	684	Jingpho	məli	məli	grandchild	grandchild		4.7.3	133	0		
+59821	1067	Mikir [Karbi]	phili-po	phili-po	grandchild	grandchild		4.7.3	133	0		
+59822	433	Chang	li	li	nephew	nephew		4.7.3	133	0	u	
+59823	539	Trung [Dulong] (Dulonghe)	ra⁵⁵ li⁵⁵	ra⁵⁵ li⁵⁵	armpit	armpit		1.5.1.2.3	134	0		3366,1289
+59824	1203	Anong	ra-kyi tśip	ra-kyi tśip	armpit	armpit		1.5.1.2.3	134	0		3366,m,m
+59825	407	Burmese (Written)	lak-kalí	lak-kalí	armpit	armpit		1.5.1.2.3	134	0		695,1289
+59826	876	Lakher [Mara]	ba-kəli	ba-kəli	armpit	armpit		1.5.1.2.3	134	0	D0	m,1289
+59827	843	Lahu	pɛ̀-lí-kā	pɛ̀-lí-kā	armpit	armpit		1.5.1.2.3	134	0	D0	m,1289,m
+59828	539	Trung [Dulong] (Dulonghe)	pɯ³¹|lai⁵³	pɯ³¹|lai⁵³	tongue	tongue		1.3.3	135	0	D0	621
+59829	541	Trung [Dulong] (Nujiang)	pɯ³¹|lai⁵³	pɯ³¹|lai⁵³	tongue	tongue		1.3.3	135	0	D0	621
+59830	1577	Tibetan (Written)	ltśe	ltśe	tongue	tongue		1.3.3	135	0		621
+59831	735	Kanauri	le	le	tongue	tongue		1.3.3	135	0		621
+59832	899	Lepcha	a◦li	a◦li	tongue	tongue		1.3.3	135	0		p,621
+59833	647	Hayu	li	li	tongue	tongue		1.3.3	135	0		621
+59834	917	Limbu	le-sot	le-sot	tongue	tongue		1.3.3	135	0	D0	621,623
+59835	1203	Anong	phəlɛ	phəlɛ	tongue	tongue		1.3.3	135	0		621
+59836	684	Jingpho	lai	lai	tongue	tongue		1.3.3	135	0		621
+59837	578	Garo	sre	sre	tongue	tongue		1.3.3	135	0		621
+59838	533	Dimasa	salai	salai	tongue	tongue		1.3.3	135	0	D0	621
+59839	983	Lushai [Mizo]	lei	lei	tongue	tongue		1.3.3	135	0		621
+59840	1067	Mikir [Karbi]	de	de	tongue	tongue		1.3.3	135	0		621
+59841	539	Trung [Dulong] (Dulonghe)	śiŋ⁵⁵ lap⁵⁵	śiŋ⁵⁵ lap⁵⁵	leaf	leaf		3.1.3	136	0		2658,m
+59842	541	Trung [Dulong] (Nujiang)	śɯŋ⁵⁵ pu³¹ laap⁵⁵	śɯŋ⁵⁵ pu³¹ laap⁵⁵	leaf	leaf		3.1.3	136	0		
+59843	1559	Tibetan (Western)	lob-ma	lob-ma	leaf	leaf		3.1.3	136	0		824
+59844	735	Kanauri	lab	lab	leaf	leaf		3.1.3	136	0		824
+59845	1446	Takpa	blap	blap	leaf	leaf		3.1.3	136	0	u	824
+59846	684	Jingpho	lap	lap	leaf	leaf		3.1.3	136	0		824
+59847	1203	Anong	śəlap	śəlap	leaves for packing food	leaves for packing food		3.1.3	136	0		
+59848	539	Trung [Dulong] (Dulonghe)	laaʔ⁵⁵	laaʔ⁵⁵	lick	lick		1.3.3.1	137	0		629
+59849	541	Trung [Dulong] (Nujiang)	laaʔ⁵⁵	laaʔ⁵⁵	lick	lick		1.3.3.1	137	0		629
+59850	899	Lepcha	lyak	lyak	taste, try	taste, try		1.3.5.8	137	0		
+59851	407	Burmese (Written)	lyak	lyak	lick	lick		1.3.3.1	137	0		629
+59852	578	Garo	srak	srak	lick	lick		1.3.3.1	137	0		629
+59853	1203	Anong	la ~ lɛ	la ~ lɛ	lick	lick		1.3.3.1	137	0		629,629
+59854	1075	Mishing [Miri]	yak	yak	lick	lick		1.3.3.1	137	0		629
+59855	983	Lushai [Mizo]	liak	liak	lick	lick		1.3.3.1	137	0		629
+59856	1067	Mikir [Karbi]	iŋ◦lek	iŋ◦lek	lick	lick		1.3.3.1	137	0		p,629
+59857	1481	Tangkhul	khə◦məlek	khə◦məlek	lick	lick		1.3.3.1	137	0	D0	p,629
+59858	539	Trung [Dulong] (Dulonghe)	lɯp⁵⁵	lɯp⁵⁵	bury	bury		6.11	138	0		
+59859	539	Trung [Dulong] (Dulonghe)	klɯp⁵⁵	klɯp⁵⁵	cheat, deceive	cheat, deceive		6.19	138	0		
+59860	541	Trung [Dulong] (Nujiang)	klɯp⁵⁵	klɯp⁵⁵	cheat, deceive	cheat, deceive		6.19	138	0		
+59861	1577	Tibetan (Written)	klub-pa	klub-pa	cover	cover		5.8	138	0		2321,m
+59862	684	Jingpho	grup	grup	wrap, cover	wrap, cover		6.2.2.1	138	0		2321
+59863	356	Bodo	dźokhlop	dźokhlop	bury	bury		6.11	138	0		
+59864	533	Dimasa	phun◦khlub	phunkhlub	wrap around	wrap around		6.2.2.1	138	0		2579,m
+59865	533	Dimasa	sukhlub	sukhlub	drown, immerse	drown, immerse		6.6	138	0		
+59866	683	Jingpho	lup³¹	lup³¹	bury	bury		6.11	138	0		
+59867	1230	*Old Mon	grop	grop	cover, obscure, conceal	cover, obscure, conceal	v.	5.8	138	0	u	
+59868	539	Trung [Dulong] (Dulonghe)	luuŋ⁵⁵	luuŋ⁵⁵	stone	stone		3.2.9	139	0		1269
+59869	541	Trung [Dulong] (Nujiang)	luuŋ⁵⁵	luuŋ⁵⁵	stone	stone		3.2.9	139	0		1269
+59870	304	Bahing	luŋ	luŋ	stone	stone		3.2.9	139	0		1269
+59871	899	Lepcha	laŋ~luŋ	laŋ~luŋ	stone	stone		3.2.9	139	0		1269,1269
+59872	1075	Mishing [Miri]	ü◦liŋ	ü◦liŋ	stone	stone		3.2.9	139	0		m,1269
+59873	684	Jingpho	luŋ~nluŋ	luŋ~nluŋ	stone	stone		3.2.9	139	0		1269,1269
+59874	407	Burmese (Written)	kyauk	kyauk	stone	stone		3.2.9	139	0		1269
+59875	578	Garo	roŋ	roŋ	stone	stone		3.2.9	139	0		1269
+59876	533	Dimasa	loŋ	loŋ	stone	stone		3.2.9	139	0		1269
+59877	983	Lushai [Mizo]	luŋ	luŋ	stone	stone		3.2.9	139	0		1269
+59878	1067	Mikir [Karbi]	ar◦loŋ	arloŋ	stone	stone		3.2.9	139	0		p,1269
+59879	1318	Qiang (Mawo)	RRlu	RRlu	stone	stone		3.2.9	139	0		1269
+59880	539	Trung [Dulong] (Dulonghe)	sa⁵⁵ la⁵³	sa⁵⁵ la⁵³	cotton	cotton		5.1	140	0		m,2387
+59881	1067	Mikir [Karbi]	phelo	phelo	cotton	cotton		5.1	140	0	D0	2387
+59882	876	Lakher [Mara]	pəla	pəla	cotton	cotton		5.1	140	0		2387
+59883	778	Khami (Northern)	phəlo	phəlo	cotton	cotton		5.1	140	0	u	2387
+59884	781	Khami (Southern)	məhla	məhla	cotton	cotton		5.1	140	0	u	2387
+59885	983	Lushai [Mizo]	la	la	cotton	cotton		5.1	140	0		2387
+59886	843	Lahu	śá-lá	śá-lá	cotton	cotton		5.1	140	0		m,2387
+59887	539	Trung [Dulong] (Dulonghe)	sɯ³¹ li⁵³	sɯ³¹ li⁵³	flea	flea		2.2.6	141	0		
+59888	541	Trung [Dulong] (Nujiang)	sɯ³¹ li⁵³	sɯ³¹ li⁵³	flea	flea		2.2.6	141	0		
+59889	1577	Tibetan (Written)	ldźi-ba~'dźi-ba	ldźi-ba~'dźi-ba	flea	flea		2.2.6	141	0		
+59890	1075	Mishing [Miri]	i-po	i-po	flea	flea		2.2.6	141	0		2414,m
+59891	1203	Anong	səli	səli	flea	flea		2.2.6	141	0		
+59892	684	Jingpho	khələwi~khəlai	khələwi~khəlai	flea	flea		2.2.6	141	0		
+59893	407	Burmese (Written)	khwè-klè	khwè-klè	flea	flea		2.2.6	141	0		
+59894	983	Lushai [Mizo]	ui-hli	ui-hli	flea	flea		2.2.6	141	0		
+59895	1067	Mikir [Karbi]	tśikli	tśikli	flea	flea		2.2.6	141	0	D0	
+59896	539	Trung [Dulong] (Dulonghe)	aŋ³¹ kɯ³¹ lɯm⁵⁵	aŋ³¹ kɯ³¹ lɯm⁵⁵	round	round		9.7.1	142	0		p,m,690
+59897	541	Trung [Dulong] (Nujiang)	dɯ³¹ lɯm⁵⁵	dɯ³¹ lɯm⁵⁵	round	round		9.7.1	142	0		m,690
+59898	1577	Tibetan (Written)	zlum-pa	zlum-pa	round	round		9.7.1	142	0		690,s
+59899	684	Jingpho	lum	lum	round	round		9.7.1	142	0		690
+59900	407	Burmese (Written)	lùm	lùm	round	round		9.7.1	142	0		690
+59901	983	Lushai [Mizo]	hlum	hlum	ball	ball		9.7.1	142	0		690
+59902	206	Achang (Longchuan)	lum³¹	lum³¹	round	round		9.7.1	142	0		1381
+59903	539	Trung [Dulong] (Dulonghe)	lɯm⁵³	lɯm⁵³	warm	warm		7.1.2.3	143	0		2420
+59904	541	Trung [Dulong] (Nujiang)	lɯm⁵³	lɯm⁵³	warm	warm		7.1.2.3	143	0		2420
+59905	684	Jingpho	lum	lum	warm	warm		7.1.2.3	143	0		2420
+59906	1203	Anong	lim	lim	warm	warm		7.1.2.3	143	0		2420
+59907	407	Burmese (Written)	lum	lum	warm	warm		7.1.2.3	143	0		2420
+59908	533	Dimasa	lim~lum	lim~lum	hot, have fever	hot, have fever			143	0		2420,2420
+59909	356	Bodo	lum-doŋ	lum-doŋ	fever	fever		1.1.5.1	143	0	D0	
+59910	1318	Qiang (Mawo)	ʂtśa◦lə	ʂtśalə	warm	warm		7.1.2.3	143	0		
+59911	206	Achang (Longchuan)	lum⁵⁵	lum⁵⁵	warm	warm		7.1.2.3	143	0		2420
+59912	367	Bokar Lhoba	a◦gu◦lum◦lum	a◦gu◦lum◦lum	warm (water)	warm (water)		7.1.2.3	143	0		p,6335,m
+59913	539	Trung [Dulong] (Dulonghe)	a³¹ li⁵³	a³¹ li⁵³	heavy	heavy		9.6.2	144	0		p,2415
+59914	541	Trung [Dulong] (Nujiang)	a³¹ li⁵³	a³¹ li⁵³	heavy	heavy		9.6.2	144	0		p,2415
+59915	1577	Tibetan (Written)	ltśi-ba~ldźi-ba	ltśi-ba~ldźi-ba	heavy	heavy		9.6.2	144	0		2415,s,2415,s
+59916	684	Jingpho	li	li	heavy	heavy		9.6.2	144	0		2415
+59917	735	Kanauri	li-k	li-k	heavy	heavy		9.6.2	144	0	D0	2415,m
+59918	647	Hayu	li-s	li-s	heavy	heavy		9.6.2	144	0		2415,m
+59919	899	Lepcha	li-(m)	li-(m)	heavy	heavy		9.6.2	144	0		2415,m
+59920	1203	Anong	ə li	əli	heavy	heavy		9.6.2	144	0		p,2415
+59921	407	Burmese (Written)	lè	lè	heavy	heavy		9.6.2	144	0		2415
+59922	578	Garo	dźrim	dźrim	heavy	heavy		9.6.2	144	0		
+59923	533	Dimasa	ri◦si	risi	heavy	heavy		9.6.2	144	0		2415,m
+59924	983	Lushai [Mizo]	rit	rit	heavy	heavy		9.6.2	144	0		2415
+59925	356	Bodo	illit~ gillit	illit~ gillit	heavy	heavy		9.6.2	144	0		2415,2415
+59926	206	Achang (Longchuan)	li¹³	li¹³	heavy	heavy		9.6.2	144	0		2415
+59927	539	Trung [Dulong] (Dulonghe)	sɯ³¹ |la⁵⁵	sɯ³¹ |la⁵⁵	moon	moon		3.2.2	145	0		1016
+59928	541	Trung [Dulong] (Nujiang)	sɯ³¹ la⁵⁵|	sɯ³¹ la⁵⁵|	moon	moon		3.2.2	145	0		1016
+59929	1577	Tibetan (Written)	zla-ba	zla-ba	moon	moon		3.2.2	145	0		1016,1902
+59930	304	Bahing	la	la	moon	moon		3.2.2	145	0		1016
+59931	407	Burmese (Written)	lá	lá	moon	moon		3.2.2	145	0		1016
+59932	647	Hayu	tśolo	tśolo	moon	moon		3.2.2	145	0		1016
+59933	526	Digaro	həla ~ hlo	həla ~ hlo	moon	moon		3.2.2	145	0		1016,1016
+59934	1203	Anong	səla	səla	moon	moon		3.2.2	145	0		1016
+59935	684	Jingpho	śəta	śəta	moon	moon		3.2.2	145	0		1016
+59936	718	Kadu	səda	səda	moon	moon		3.2.2	145	0		1016
+59937	1067	Mikir [Karbi]	tśi◦klo	tśiklo	moon	moon		3.2.2	145	0		5404,1016
+59938	996	Magar	gya(-hot)	gya(-hot)	moon	moon		3.2.2	145	0		3577,m
+59939	983	Lushai [Mizo]	thla	thla	moon	moon		3.2.2	145	0		1016
+59940	541	Trung [Dulong] (Nujiang)	tshi³¹ lɔŋ⁵³	tshi³¹ lɔŋ⁵³	maggot	maggot		2.2.6	146	0		m,5432
+59941	983	Lushai [Mizo]	luŋ	luŋ	maggot	maggot		2.2.6	146	0		5432
+59942	407	Burmese (Written)	lok	lok	maggot	maggot		2.2.6	146	0		5432
+59943	1031	Maru [Langsu]	lòk	lòk	maggot	maggot		2.2.6	146	0		5432
+59944	1690	Atsi [Zaiwa]	luʔ³¹	luʔ³¹	maggot	maggot		2.2.6	146	0		5432
+59945	1308	Pumi (Taoba)	lõ⁵³	lõ⁵³	maggot	maggot		2.2.6	146	0		5432
+59946	206	Achang (Longchuan)	nuʔ⁵⁵	nuʔ⁵⁵	maggot	maggot		2.2.6	146	0		
+59947	203	Achang (Lianghe)	lu³¹	lu³¹	maggot	maggot		2.2.6	146	0		5432
+59948	1318	Qiang (Mawo)	bu◦lu	bulu	insect	insect		2.2.6	146	0		2178,m
+59949	1318	Qiang (Mawo)	qhʂə◦bu◦lu	qhʂəbulu	maggot	maggot		2.2.6	146	0		m,2178,5432
+59950	539	Trung [Dulong] (Dulonghe)	ti⁵⁵ lam⁵³	ti⁵⁵ lam⁵³	fathom	fathom		9.8	147	0		m,1310
+59951	541	Trung [Dulong] (Nujiang)	tśi⁵⁵ lam⁵³	tśi⁵⁵ lam⁵³	fathom	fathom		9.8	147	0		m,1310
+59952	684	Jingpho	lə◦lam	lə◦lam	fathom	fathom		9.8	147	0		377,1310
+59953	407	Burmese (Written)	a◦lam	a◦lam	fathom	fathom		9.8	147	0		p,1310
+59954	983	Lushai [Mizo]	hlam	hlam	fathom	fathom		9.8	147	0		1310
+59955	1598	Tiddim	laam	laam	fathom	fathom		9.8	147	0		1310
+59956	206	Achang (Longchuan)	lam⁵⁵	lam⁵⁵	fathom	fathom		9.8	147	0		1310
+59957	1690	Atsi [Zaiwa]	lam⁵¹	lam⁵¹	fathom	fathom		9.8	147	0		1310
+59958	539	Trung [Dulong] (Dulonghe)	dam⁵⁵ mɯ³¹ li⁵³	dam⁵⁵ mɯ³¹ li⁵³	plain (earth)	plain (earth)		3.2.5	148	0		
+59959	541	Trung [Dulong] (Nujiang)	mɯ³¹ li⁵³ daŋ⁵³	mɯ³¹ li⁵³ daŋ⁵³	plain (earth)	plain (earth)		3.2.5	148	0		
+59960	1067	Mikir [Karbi]	mili~meli	mili~meli	sand-bank, bare ground	sand-bank, bare ground		3.2.11	148	0		2453,2453
+59961	1207	Anong (dialect)	məli	məli	country, mountain	country,  mountain		9.10.3	148	0	u	2453
+59962	1014	Manyak	məli~mli	məli~mli	plain (earth)	plain (earth)		3.2.5	148	0	u	2453
+59963	407	Burmese (Written)	mre	mre	plain (earth)	plain (earth)		3.2.5	148	0		2453
+59964	1506	Tavoyan dial.	mle	mle	plain (earth)	plain (earth)		3.2.5	148	0	u	2453
+59965	1294	Phön	tə◦mli~tə◦myi	təmli~təmyi	earth	earth		3.2.11	148	0	D0	p,2453,p,2453
+59966	467	Chinese (Middle)	mli	mli	earth	earth		3.2.11	148	0		
+59967	539	Trung [Dulong] (Dulonghe)	raŋ⁵⁵	raŋ⁵⁵	we (inclusive)	we (inclusive)		4.1	149	0		fromTibetan
+59968	541	Trung [Dulong] (Nujiang)	rɯŋ⁵⁵	rɯŋ⁵⁵	we (inclusive)	we (inclusive)		4.1	149	0		fromTibetan
+59969	1577	Tibetan (Written)	raŋ	raŋ	self	self		4.1	149	0		
+59970	1577	Tibetan (Written)	ŋa raŋ tsho	ŋa raŋ tsho	we (inclusive)	we (inclusive)		4.1	149	0		
+59971	1091	Tshona (Mama)	raŋ¹³	raŋ¹³	we (inclusive)	we (inclusive)		4.1	149	0		
+59972	507	Darang [Taraon]	ńon³⁵ xaŋ³¹	ńon³⁵ xaŋ³¹	we (inclusive)	we (inclusive)		4.1	149	0		
+59973	407	Burmese (Written)	ə-raŋ	ə-raŋ	nearness, presence	nearness, presence		9.2.3	149	0		
+59974	407	Burmese (Written)	ə-hraŋ	ə-hraŋ	owner, master, lord	owner, master, lord		6.19	149	0		
+59975	539	Trung [Dulong] (Dulonghe)	pɯ³¹ |reʔ⁵⁵	pɯ³¹ reʔ⁵⁵	fear	fear		8.3.1.10.1	150	0		2602
+59976	541	Trung [Dulong] (Nujiang)	pɯ³¹ |reʔ⁵⁵	pɯ³¹ reʔ⁵⁵	fear	fear		8.3.1.10.1	150	0		2602
+59977	1577	Tibetan (Written)	bred-pa	bred-pa	fear	fear		8.3.1.10.1	150	0		2602,s
+59978	526	Digaro	re	re	fear	fear		8.3.1.10.1	150	0		2602
+59979	655	Aka [Hruso]	rie	rie	fear	fear		8.3.1.10.1	150	0		2602
+59980	1203	Anong	phəre	phəre	fear , afraid	fear ,  afraid	v.	8.3.1.10.1	150	0		2602
+59981	1067	Mikir [Karbi]	phere	phere	fear, doubt, dread	fear, doubt, dread		8.3.1.10.1	150	0		2602
+59982	507	Darang [Taraon]	rai⁵⁵	rai⁵⁵	afraid	afraid		7.1.1	150	0		
+59983	507	Darang [Taraon]	ma³¹ xrai⁵³	ma³¹ xrai⁵³	frighten	frighten		8.3.1.10.1	150	0		
+59984	539	Trung [Dulong] (Dulonghe)	tsɯ³¹ ri⁵⁵	tsɯ³¹ ri⁵⁵	string, thread	string,thread		5.1	151	0	D0	m,533
+59985	541	Trung [Dulong] (Nujiang)	tsɯ³¹ ri⁵³	tsɯ³¹ ri⁵³	string, thread	string,thread		5.1	151	0	D0	m,533
+59986	996	Magar	ri	ri	cane	cane		5.11.8.2.2	151	0		533
+59987	684	Jingpho	ri	ri	rattan, cane, cord, string	rattan, cane, cord, string		3.1.6.4	151	0		533
+59988	684	Jingpho	gin◦ri	gin◦ri	fine thread	fine thread		9.7.2	151	0		m,533
+59989	1203	Anong	thə◦ri	thə◦ri	cane	cane		5.11.8.2.2	151	0		p,533
+59990	1203	Anong	sə◦ri	sə◦ri	thread	thread		5.11.6	151	0		p,533
+59991	1203	Anong	ban-ri	ban-ri	rope, string	rope, string		5.11.4	151	0		m,533
+59992	578	Garo	re	re	string, thread	string,thread		5.1	151	0		533
+59993	533	Dimasa	rai	rai	rattan, cane	rattan, cane		3.1.6.4	151	0		533
+59994	1318	Qiang (Mawo)	suʐ	suʐ	string, thread	string,thread		5.1	151	0		
+59995	1322	Qiang (Taoping)	sia³³ li⁵⁵	sia³³ li⁵⁵	string, thread	string,thread		5.1	151	0		m,533
+59996	539	Trung [Dulong] (Dulonghe)	sɯ³¹ rɔʔ⁵⁵	sɯ³¹ rɔʔ⁵⁵	ant	ant		2.2.6	152	0		
+59997	541	Trung [Dulong] (Nujiang)	baŋ³¹ sɯ³¹ rɔʔ⁵⁵	baŋ³¹ sɯ³¹ rɔʔ⁵⁵	ant	ant		2.2.6	152	0		
+59998	1577	Tibetan (Written)	grog-ma	grog-ma	ant	ant		2.2.6	152	0		2631,s
+59999	1203	Anong	sərɔ	sərɔ	ant	ant		2.2.6	152	0		
+60000	610	rGyalrong	korok	korok	ant	ant		2.2.6	152	0		2631
+60001	953	Lohorong	khorok	khorok	ant	ant		2.2.6	152	0	D0	2631
+60002	881	Lambichong	khorok	khorok	ant	ant		2.2.6	152	0	D0	2631
+60003	1075	Mishing [Miri]	tə◦ruk	tə◦ruk	ant	ant		2.2.6	152	0		p,6580
+60004	496	Nishi [Dafla]	to◦rub	to◦rub	ant	ant		2.2.6	152	0	u	p,6580
+60005	407	Burmese (Written)	parwak	parwak	ant	ant		2.2.6	152	0		2631
+60006	843	Lahu	pú-g̈ɔ̂ʔ	pú-g̈ɔ̂ʔ	ant	ant		2.2.6	152	0		
+60007	539	Trung [Dulong] (Dulonghe)	aŋ³¹ rɯ⁵⁵	aŋ³¹ rɯ⁵⁵	bone	bone		1.6.3	153	0		p,232
+60008	541	Trung [Dulong] (Nujiang)	aŋ³¹ rɯ⁵³	aŋ³¹ rɯ⁵³	bone	bone		1.6.3	153	0		p,232
+60009	1577	Tibetan (Written)	rus-pa	rus-pa	bone	bone		1.6.3	153	0		232,s
+60010	684	Jingpho	nrut	nrut	bone	bone		1.6.3	153	0		232
+60011	983	Lushai [Mizo]	ruʔ	ruʔ	bone	bone		1.6.3	153	0		232
+60012	1690	Atsi [Zaiwa]	ʃo³¹ vui³¹	ʃo³¹ vui³¹	bone	bone		1.6.3	153	0		34,232
+60013	206	Achang (Longchuan)	a³¹ ʐau³¹	a³¹ ʐau³¹	bone	bone		1.6.3	153	0		m,232
+60014	208	Achang (Luxi)	a³¹ źau³¹	a³¹ źau³¹	bone	bone		1.6.3	153	0		m,232
+60015	203	Achang (Lianghe)	a³¹ źau³⁵	a³¹ źau³⁵	bone	bone		1.6.3	153	0		m,232
+60016	1091	Tshona (Mama)	rɔɔ¹³ pha⁵³	rɔɔ¹³ pha⁵³	bone	bone		1.6.3	153	0		237,m
+60017	507	Darang [Taraon]	rɯ³¹ boŋ³⁵	rɯ³¹ boŋ³⁵	bone	bone		1.6.3	153	0		232,1469
+60018	407	Burmese (Written)	rûi	rûi	bone	bone		1.6.3	153	0		232
+60019	843	Lahu	-g̈ɔ̂	-g̈ɔ̂	bone	bone		1.6.3	153	0		232
+60020	1318	Qiang (Mawo)	rə◦patʂ	rə◦patʂ	bone	bone		1.6.3	153	0		237,m
+60021	539	Trung [Dulong] (Dulonghe)	sɯ³¹ |ram⁵³	sɯ³¹ ram⁵³	otter	otter		2.2.7.1	154	0		2595
+60022	541	Trung [Dulong] (Nujiang)	sɯ³¹ |ram⁵³	sɯ³¹ ram⁵³	otter	otter		2.2.7.1	154	0		2595
+60023	1577	Tibetan (Written)	sram	sram	otter	otter		2.2.7.1	154	0		2595
+60024	1075	Mishing [Miri]	si-ram	si-ram	otter	otter		2.2.7.1	154	0		m,2595
+60025	899	Lepcha	saryom	saryom	otter	otter		2.2.7.1	154	0		2595
+60026	983	Lushai [Mizo]	sa-hram	sa-hram	otter	otter		2.2.7.1	154	0		34,2595
+60027	1203	Anong	səram	səram	otter	otter		2.2.7.1	154	0		2595
+60028	684	Jingpho	śəram	śəram	otter	otter		2.2.7.1	154	0		2595
+60029	148	*Lolo-Burmese	sram	sram	otter	otter		2.2.7.1	154	0		2595
+60030	578	Garo	mat◦ram	mat◦ram	otter	otter		2.2.7.1	154	0		m,2595
+60031	533	Dimasa	ma◦tham	matham	otter	otter		2.2.7.1	154	0	D0	p,2595
+60032	1067	Mikir [Karbi]	serim	serim	otter	otter		2.2.7.1	154	0		2595
+60033	1690	Atsi [Zaiwa]	xam⁵¹	xam⁵¹	otter	otter		2.2.7.1	154	0		2595
+60034	206	Achang (Longchuan)	sam⁵⁵	sam⁵⁵	otter	otter		2.2.7.1	154	0		2595
+60035	208	Achang (Luxi)	źam³⁵	źam³⁵	otter	otter		2.2.7.1	154	0		2595
+60036	1318	Qiang (Mawo)	ɣdʐi	ɣdʐi	otter	otter		2.2.7.1	154	0		2595
+60037	1091	Tshona (Mama)	tʂam⁵³	tʂam⁵³	otter	otter		2.2.7.1	154	0		2595
+60038	1087	Tsangla (Motuo)	sam	sam	otter	otter		2.2.7.1	154	0		2595
+60039	367	Bokar Lhoba	śə◦ram	śə◦ram	otter	otter		2.2.7.1	154	0		p,2595
+60040	591	Kaman [Miju]	ram³⁵	ram³⁵	otter	otter		2.2.7.1	154	0		2595
+60041	539	Trung [Dulong] (Dulonghe)	sɯ³¹ |raaŋ⁵⁵	sɯ³¹ raaŋ⁵⁵	morning	morning		9.1.4	155	0		144
+60042	541	Trung [Dulong] (Nujiang)	sɯ³¹ |reeŋ⁵⁵	sɯ³¹ reeŋ⁵⁵	morning	morning		9.1.4	155	0		144
+60043	1067	Mikir [Karbi]	praŋ	praŋ	dawn	dawn		9.1.4	155	0		144
+60044	578	Garo	phriŋ	phriŋ	morning	morning		9.1.4	155	0		144
+60045	533	Dimasa	phoroŋ	phoroŋ	morning	morning		9.1.4	155	0	D0	144
+60046	1607	Trung [Dulong]	sraŋ	sraŋ	morning	morning		9.1.4	155	0	D0	144
+60047	843	Lahu	śɔ́-pɔ̄	śɔ́-pɔ̄	tomorrow	tomorrow		9.1.3	155	0		
+60048	539	Trung [Dulong] (Dulonghe)	raaʔ⁵⁵	raaʔ⁵⁵	weave	weave		5.1	156	0		5669
+60049	541	Trung [Dulong] (Nujiang)	raaʔ⁵⁵	raaʔ⁵⁵	weave	weave		5.1	156	0		5669
+60050	407	Burmese (Written)	rak	rak	weave	weave		5.1	156	0		5669
+60051	206	Achang (Longchuan)	ʐuaʔ³¹	ʐuaʔ³¹	weave	weave		5.1	156	0		5669
+60052	208	Achang (Luxi)	źaʔ³¹	źaʔ³¹	weave	weave		5.1	156	0		5669
+60053	203	Achang (Lianghe)	źa³¹	źa³¹	weave	weave		5.1	156	0		5669
+60054	1690	Atsi [Zaiwa]	voʔ³¹	voʔ³¹	weave	weave		5.1	156	0		5669
+60055	1482	Tangkhul	khə◦rək	khə◦rək	weave	weave		5.1	156	0	u	m,5669
+60056	1577	Tibetan (Written)	'thag-pa	'thag-pa	weave	weave		5.1	156	0		2686,s
+60057	996	Magar	dak	dak	weave	weave		5.1	156	0		2686
+60058	684	Jingpho	daʔ	daʔ	weave	weave		5.1	156	0		2686
+60059	578	Garo	dak	dak	weave	weave		5.1	156	0		2686
+60060	983	Lushai [Mizo]	taʔ	taʔ	weave	weave		5.1	156	0		2686
+60061	1067	Mikir [Karbi]	thak	thak	weave	weave		5.1	156	0		2686
+60062	1031	Maru [Langsu]	ɣòʔ	ɣòʔ	weave	weave		5.1	156	0		5669
+60063	843	Lahu	ɣàʔ	ɣàʔ	weave	weave		5.1	156	0		5669
+60064	539	Trung [Dulong] (Dulonghe)	mɯ³¹ rap⁵⁵	mɯ³¹ rap⁵⁵	fireplace	fireplace		5.11.5.5	157	0		
+60065	541	Trung [Dulong] (Nujiang)	mɯ³¹ rap⁵⁵	mɯ³¹ rap⁵⁵	fireplace	fireplace		5.11.5.5	157	0		
+60066	684	Jingpho	rap	rap	fireplace	fireplace		5.11.5.5	157	0		2599
+60067	1203	Anong	mərap	mərap	fireplace	fireplace		5.11.5.5	157	0		
+60068	983	Lushai [Mizo]	rap	rap	fireplace	fireplace		5.11.5.5	157	0		2599
+60069	1067	Mikir [Karbi]	rap	rap	fireplace	fireplace		5.11.5.5	157	0		2599
+60070	407	Burmese (Written)	mì-rap-pauŋ	mì-rap-pauŋ	wooden fireplace	wooden fireplace		3.1.2	157	0		
+60071	539	Trung [Dulong] (Dulonghe)	sɯ³¹ |ru⁵⁵ śiŋ⁵⁵	sɯ³¹ |ru⁵⁵ śiŋ⁵⁵	pine, fir	pine,fir		3.1.1	158	0		2620,2658
+60072	541	Trung [Dulong] (Nujiang)	sɯ³¹ |ru⁵⁵ śɯŋ⁵⁵	sɯ³¹ |ru⁵⁵ śɯŋ⁵⁵	pine, fir	pine,fir		3.1.1	158	0		2620,2658
+60073	684	Jingpho	mə◦rau	mə◦rau	pine, fir	pine,fir		3.1.1	158	0		p,2620
+60074	1203	Anong	śəru thiŋ	śəru thiŋ	pine, fir	pine,fir		3.1.1	158	0		2620,2690
+60075	407	Burmese (Written)	thàŋ-rù	thàŋ-rù	pine, fir	pine,fir		3.1.1	158	0	D0	2690,2620
+60076	367	Bokar Lhoba	ta◦ru	ta◦ru	pine, fir	pine,fir		3.1.1	158	0		p,2620
+60077	1318	Qiang (Mawo)	RRdzusi	RRdzusi	pine, fir	pine,fir		3.1.1	158	0		e?
+60078	591	Kaman [Miju]	ruŋ⁵³ saŋ³⁵	ruŋ⁵³ saŋ³⁵	pine, fir	pine,fir		3.1.1	158	0		m,2658
+60079	539	Trung [Dulong] (Dulonghe)	pɯ³¹ rep⁵⁵	pɯ³¹ rep⁵⁵	stand	stand		1.5.2	159	0		m,145
+60080	899	Lepcha	hryam	hryam	stand	stand		1.5.2	159	0		145
+60081	304	Bahing	rap	rap	stand	stand		1.5.2	159	0		145
+60082	1993	Khaling	rep~reb	rep~reb	stand	stand		1.5.2	159	0		145,145
+60083	1994	Balali	yeb	yeb	stand	stand		1.5.2	159	0		145
+60084	1359	Sampang	rip	rip	stand	stand		1.5.2	159	0		145
+60085	647	Hayu	yep~ip	yep~ip	stand	stand		1.5.2	159	0		145
+60086	1203	Anong	rip	rip	stand	stand		1.5.2	159	0		145
+60087	407	Burmese (Written)	rap	rap	stand	stand		1.5.2	159	0		145
+60088	1228	Old Meithei	tśə◦rep	tśərep	stand	stand		1.5.2	159	0	u	p,145
+60089	520	Dhimal	sźap	sźap	stand	stand		1.5.2	159	0		145
+60090	684	Jingpho	tsap	tsap	stand	stand		1.5.2	159	0		145
+60091	1104	Tangsa (Moshang)	tśap	tśap	stand	stand		1.5.2	159	0	D0	145
+60092	554	Zeme	sap	sap	stand	stand		1.5.2	159	0	u	145
+60093	1690	Atsi [Zaiwa]	yap³¹	yap³¹	stand	stand		1.5.2	159	0		145
+60094	1322	Qiang (Taoping)	ʐi⁵⁵	ʐi⁵⁵	stand	stand		1.5.2	159	0		145
+60095	206	Achang (Longchuan)	źap⁵⁵	źap⁵⁵	stand	stand		1.5.2	159	0		145
+60096	208	Achang (Luxi)	liap³¹	liap³¹	stand	stand		1.5.2	159	0		145
+60097	1067	Mikir [Karbi]	ar◦dźap	ardźap	stand	stand		1.5.2	159	0		p,145
+60098	367	Bokar Lhoba	rop	rop	stand	stand		1.5.2	159	0		145
+60099	539	Trung [Dulong] (Dulonghe)	sɔ⁵⁵ re⁵⁵	sɔ⁵⁵ re⁵⁵	saw	saw	n.	5.11.5.3	160	0		
+60100	539	Trung [Dulong] (Dulonghe)	bu⁵⁵ le⁵⁵	bu⁵⁵ le⁵⁵	plane (wood)	plane (wood)		5.1	160	0		
+60101	541	Trung [Dulong] (Nujiang)	sɔ⁵⁵ re⁵⁵	sɔ⁵⁵ re⁵⁵	saw	saw	n.	5.11.5.3	160	0		
+60102	541	Trung [Dulong] (Nujiang)	bɔp⁵⁵ le⁵⁵	bɔp⁵⁵ le⁵⁵	plane (wood)	plane (wood)		5.1	160	0		
+60103	1091	Tshona (Mama)	sɔɔ⁵⁵ li⁵³	sɔɔ⁵⁵ li⁵³	saw	saw	n.	5.11.5.3	160	0		
+60104	1091	Tshona (Mama)	pe¹³ len⁵⁵	pe¹³ len⁵⁵	plane (wood)	plane (wood)		5.1	160	0		
+60105	1087	Tsangla (Motuo)	soli	soli	saw	saw	n.	5.11.5.3	160	0		
+60106	1087	Tsangla (Motuo)	buli	buli	plane (wood)	plane (wood)		5.1	160	0		
+60107	367	Bokar Lhoba	śolɯ	śolɯ	saw	saw	n.	5.11.5.3	160	0		
+60108	367	Bokar Lhoba	bulen	bulen	plane (wood)	plane (wood)		5.1	160	0		
+60109	507	Darang [Taraon]	so⁵⁵li⁵⁵	so⁵⁵li⁵⁵	saw	saw	n.	5.11.5.3	160	0		
+60110	1308	Pumi (Taoba)	so⁵⁵ yi⁵⁵	so⁵⁵ yi⁵⁵	saw	saw	n.	5.11.5.3	160	0		
+60111	1483	Tangkhul	horay	horay	saw	saw	n.	5.11.5.3	160	0	u	
+60112	1577	Tibetan (Written)	sog le	sog le	saw	saw	n.	5.11.5.3	160	0		
+60113	206	Achang (Longchuan)	lik³¹ lə³¹	lik³¹ lə³¹	saw	saw	n.	5.11.5.3	160	0		
+60114	843	Lahu	lí-lə	lí-lə	saw	saw	n.	5.11.5.3	160	0		
+60115	1322	Qiang (Taoping)	kie³³ ʐi⁵⁵	kie³³ ʐi⁵⁵	saw	saw	n.	5.11.5.3	160	0		
+60116	408	Burmese (Written)	hli	hli	cut with a sliding motion	cut with a sliding motion		6.9.3	160	0	u	
+60117	683	Jingpho	ma³¹ li³³	ma³¹ li³³	scrape, shave	scrape,  shave		6.3	160	0		
+60118	539	Trung [Dulong] (Dulonghe)	śiŋ⁵⁵ wat⁵⁵	śiŋ⁵⁵ wat⁵⁵	flower	flower		3.1.4	161	0		2658,2185
+60119	539	Trung [Dulong] (Dulonghe)	śiŋ⁵⁵ wat⁵⁵ wat⁵⁵	śiŋ⁵⁵ wat⁵⁵ wat⁵⁵	bloom	bloom		3.1.10	161	0		2658,2185,2185
+60120	541	Trung [Dulong] (Nujiang)	śɯŋ⁵⁵ wat⁵⁵ wat⁵⁵	śɯŋ⁵⁵ wat⁵⁵ wat⁵⁵	bloom	bloom		3.1.10	161	0		
+60121	610	rGyalrong	ta◦pat	tapat	flower	flower		3.1.4	161	0	D0	p,2185
+60122	148	*Lolo-Burmese	wat	wat	flower	flower		3.1.4	161	0		2185
+60123	1333	Anong (Rawang)	śiŋ-wat	śiŋ-wat	bud	bud		3.1.4	161	0		2658,2185
+60124	539	Trung [Dulong] (Dulonghe)	war⁵³	war⁵³	axe	axe		5.11.5.3	162	0		
+60125	541	Trung [Dulong] (Nujiang)	war⁵³	war⁵³	axe	axe		5.11.5.3	162	0		
+60126	610	rGyalrong	ʂarpye	ʂarpye	axe	axe		5.11.5.3	162	0		
+60127	578	Garo	rua	rua	axe	axe		5.11.5.3	162	0		
+60128	684	Jingpho	nwa~niŋwa	nwa~niŋwa	axe	axe		5.11.5.3	162	0		
+60129	533	Dimasa	roa	roa	axe	axe		5.11.5.3	162	0		
+60130	432	Chang	wo	wo	axe	axe		5.11.5.3	162	0	u	2772
+60132	539	Trung [Dulong] (Dulonghe)	waʔ⁵⁵	waʔ⁵⁵	pig	pig		2.1.12	163	0		1006
+60133	541	Trung [Dulong] (Nujiang)	waʔ⁵⁵	waʔ⁵⁵	pig	pig		2.1.12	163	0		1006
+60134	1577	Tibetan (Written)	phag	phag	pig	pig		2.1.12	163	0		1006
+60135	1067	Mikir [Karbi]	phak	phak	pig	pig		2.1.12	163	0		1006
+60136	684	Jingpho	waʔ	waʔ	pig	pig		2.1.12	163	0		1006
+60137	407	Burmese (Written)	wak	wak	pig	pig		2.1.12	163	0		1006
+60138	578	Garo	wak	wak	pig	pig		2.1.12	163	0		1006
+60139	983	Lushai [Mizo]	vok	vok	pig	pig		2.1.12	163	0		1006
+60140	1690	Atsi [Zaiwa]	vaʔ³¹	vaʔ³¹	pig	pig		2.1.12	163	0		1006
+60141	1318	Qiang (Mawo)	pi	pi	pig	pig		2.1.12	163	0		1006
+60142	206	Achang (Longchuan)	oʔ⁵⁵	oʔ⁵⁵	pig	pig		2.1.12	163	0		1006
+60143	208	Achang (Luxi)	waʔ³¹	waʔ³¹	pig	pig		2.1.12	163	0		1006
+60144	203	Achang (Lianghe)	wa³¹	wa³¹	pig	pig		2.1.12	163	0		1006
+60145	1091	Tshona (Mama)	phaʔ⁵³	phaʔ⁵³	pig	pig		2.1.12	163	0		1006
+60146	1087	Tsangla (Motuo)	phak◦pa	phak◦pa	pig	pig		2.1.12	163	0		1006,m
+60147	539	Trung [Dulong] (Dulonghe)	a³¹ waŋ⁵³	a³¹ waŋ⁵³	uncle	uncle		4.7.1	164	0		
+60148	541	Trung [Dulong] (Nujiang)	a³¹ waŋ⁵³	a³¹ waŋ⁵³	uncle	uncle		4.7.1	164	0		
+60150	448	Chepang	paŋ	paŋ	uncle	uncle		4.7.1	164	0		2183
+60151	1203	Anong	awaŋ	awaŋ	uncle	uncle		4.7.1	164	0		
+60152	917	Limbu	am-paŋ-a	am-paŋ-a	uncle	uncle		4.7.1	164	0		m,2183,m
+60153	647	Hayu	poŋ-poŋ	poŋ-poŋ	uncle	uncle		4.7.1	164	0		2183,2183
+60155	939	Lisu	a-wɔ	a-wɔ	uncle	uncle		4.7.1	164	0		
+60156	578	Garo	a-waŋ	a-waŋ	uncle	uncle		4.7.1	164	0		p,2183
+60157	539	Trung [Dulong] (Dulonghe)	ip⁵⁵	ip⁵⁵	sleep	sleep		1.1.4.1	165	0		127
+60158	541	Trung [Dulong] (Nujiang)	yɯp⁵⁵	yɯp⁵⁵	sleep	sleep		1.1.4.1	165	0		127
+60159	1577	Tibetan (Written)	yib-pa	yib-pa	hide oneself	hide oneself		1.6.5.1	165	0		127,s
+60160	684	Jingpho	ip~yip|	ip~yip|	cover, conceal (information)	cover, conceal (information)		5.8	165	0		127
+60161	684	Jingpho	ʔyup	ʔyup	sleep	sleep		1.1.4.1	165	0		127
+60162	1203	Anong	ip	ip	sleep	sleep		1.1.4.1	165	0		127
+60163	407	Burmese (Written)	ip	ip	sleep	sleep		1.1.4.1	165	0		127
+60164	278	Ao (Chungli)	yip	yip	sleep	sleep		1.1.4.1	165	0		127
+60166	377	Bunan	ib	ib	sleep	sleep		1.1.4.1	165	0		127
+60167	304	Bahing	ip	ip	sleep	sleep		1.1.4.1	165	0		127
+60168	1075	Mishing [Miri]	yup	yup	sleep	sleep		1.1.4.1	165	0		127
+60169	1690	Atsi [Zaiwa]	yup⁵⁵	yup⁵⁵	sleep	sleep		1.1.4.1	165	0		127
+60170	1087	Tsangla (Motuo)	ip~|yip	ip~|yip	sleep	sleep		1.1.4.1	165	0		127
+60171	367	Bokar Lhoba	yup	yup	sleep	sleep		1.1.4.1	165	0		127
+60172	539	Trung [Dulong] (Dulonghe)	tśi³¹ xri⁵⁵	tśi³¹ xri⁵⁵	gall bladder	gall bladder		1.7.3	166	0		1390,227
+60173	541	Trung [Dulong] (Nujiang)	tśhi³¹ khri⁵³	tśhi³¹ khri⁵³	gall bladder	gall bladder		1.7.3	166	0		1390,227
+60174	1577	Tibetan (Written)	mkhris-pa	mkhris-pa	gall bladder	gall bladder		1.7.3	166	0		227,s
+60175	1203	Anong	sə◦hi	səhi	gall bladder	gall bladder		1.7.3	166	0		1390,227
+60176	407	Burmese (Written)	sàń-khre	sàń-khre	gall	gall		1.7.3.1	166	0		1390,227
+60177	533	Dimasa	bi◦khlu	bi◦khlu	gall bladder	gall bladder		1.7.3	166	0		m,227
+60178	578	Garo	kha-khit	kha-khit	bile	bile		1.7.3.1	166	0		229,227
+60179	899	Lepcha	kri	kri	bitter	bitter		7.1.4.4	166	0		
+60180	684	Jingpho	khri	khri	acid, sour	acid, sour		7.1.4.4	166	0		227
+60181	1104	Tangsa (Moshang)	ə◦hi	ə◦hi	gall bladder	gall bladder		1.7.3	166	0		p,1390
+60182	533	Dimasa	khiri	khiri	sour	sour		7.1.4.4	166	0		227
+60183	843	Lahu	ɔ̀-kɨ̂	ɔ̀-kɨ̂	gall bladder	gall bladder		1.7.3	166	0		5450,227
+60184	539	Trung [Dulong] (Dulonghe)	tśi³¹ xrɯ⁵⁵	tśi³¹ xrɯ⁵⁵	horn	horn		1.2.2	167	0		m,819
+60185	541	Trung [Dulong] (Nujiang)	aŋ³¹ tɯ³¹ xrɯ⁵⁵	aŋ³¹ tɯ³¹ xrɯ⁵⁵	horn	horn		1.2.2	167	0		p,p,819
+60186	407	Burmese (Written)	khrui~khyui	khrui~khyui	horn	horn		1.2.2	167	0		819,819
+60187	939	Lisu	tśhu	tśhu	horn	horn		1.2.2	167	0		819
+60188	217	Ahi	tśhö	tśhö	horn	horn		1.2.2	167	0		819
+60189	1372	Sani [Nyi]	hkə	hkə	horn	horn		1.2.2	167	0		819
+60190	1203	Anong	tə◦kru	tə◦kru	horn	horn		1.2.2	167	0		p,819
+60191	843	Lahu	ɔ̀-khɔ	ɔ̀-khɔ	horn	horn		1.2.2	167	0		5450,819
+60192	539	Trung [Dulong] (Dulonghe)	xrai⁵⁵	xrai⁵⁵	foot	foot		1.5.2	168	0		335
+60193	541	Trung [Dulong] (Nujiang)	xre⁵⁵	xre⁵⁵	foot	foot		1.5.2	168	0		335
+60194	1577	Tibetan (Written)	khri	khri	seat, chair; frame	seat, chair; frame		5.11.9.4	168	0		x
+60195	1203	Anong	hi	hi	foot	foot		1.5.2	168	0		335
+60196	407	Burmese (Written)	khre	khre	foot	foot		1.5.2	168	0		335
+60197	939	Lisu	tśhi	tśhi	foot	foot		1.5.2	168	0		
+60198	217	Ahi	khi	khi	foot	foot		1.5.2	168	0		bChinese
+60199	1372	Sani [Nyi]	tshə	tshə	foot	foot		1.5.2	168	0		335
+60200	843	Lahu	khɨ̂	khɨ̂	foot	foot		1.5.2	168	0		335
+60201	539	Trung [Dulong] (Dulonghe)	a³¹ xraat⁵⁵	a³¹ xraat⁵⁵	cut, chop	cut,chop		6.9.3	169	0		m,3564
+60202	541	Trung [Dulong] (Nujiang)	a³¹ xrat⁵⁵	a³¹ xrat⁵⁵	cut, chop	cut,chop		6.9.3	169	0		m,3564
+60203	407	Burmese (Written)	phrat	phrat	cut in two	cut in two		6.9.3	169	0		1787
+60204	407	Burmese (Written)	hrá	hrá	wound by a slight cut	wound by a slight cut		1.8.6.2	169	0		3564
+60205	578	Garo	ra~rat	ra~rat	cut, chop	cut,chop		6.9.3	169	0		3564,3564
+60206	533	Dimasa	ra	ra	cut, chop	cut,chop		6.9.3	169	0		3564
+60207	1577	Tibetan (Written)	dra-ba	dra-ba	cut, clip, lop, dress, prune	cut, clip, lop, dress, prune		6.9.3	169	0		3564,m
+60208	899	Lepcha	hra	hra	cut, chop	cut,chop		6.9.3	169	0		3564
+60209	843	Lahu	phèʔ	phèʔ	cut open	cut open		6.9.3	169	0		
+60210	683	Jingpho	kran³³	kran³³	cut, chop	cut,chop		6.9.3	169	0		
+60211	1087	Tsangla (Motuo)	tśat	tśat	cut, chop	cut,chop		6.9.3	169	0		1007
+60212	1318	Qiang (Mawo)	xtʂi	xtʂi	cut, chop	cut,chop		6.9.3	169	0		
+60213	1203	Anong	rat	rat	cut, chop	cut,chop		6.9.3	169	0		3564
+60214	1303	Pumi	nə¹³ tʂhi⁵⁵	nə¹³ tʂhi⁵⁵	cut, chop	cut,chop		6.9.3	169	0	u	
+60215	148	*Lolo-Burmese	ʔ-brat ⪤ *C-prat	ʔ-brat ⪤ *C-prat	cut, chop	cut,chop		6.9.3	169	0		
+60216	539	Trung [Dulong] (Dulonghe)	xrɔt⁵⁵	xrɔt⁵⁵	scrape, shave	scrape,shave		6.3	170	0		6131
+60217	541	Trung [Dulong] (Nujiang)	xrɔʔ⁵⁵	xrɔʔ⁵⁵	scrape, shave	scrape,shave		6.3	170	0		6131
+60218	407	Burmese (Written)	khrac	khrac	mark with the nails, scrape	mark with the nails, scrape		5.1	170	0		6131
+60219	683	Jingpho	khrèt	khrèt	rasp, grate	rasp, grate		6.9.2	170	0		
+60220	1153	Nasu	tśhi³²	tśhi³²	scrape, shave	scrape,shave		6.3	170	0	u	
+60221	843	Lahu	gɛ̂ʔ	gɛ̂ʔ	rasp, scrape	rasp, scrape		6.9.2	170	0		6131
+60222	241	Akha	jeh HS	jeh HS	scrape, rake, shave away	scrape, rake, shave away		6.3	170	0		6131
+60223	735	Kanauri	krá-chok-shi-mig	krá-chok-shi-mig	shave	shave	v.	6.9.2	170	0		
+60224	148	*Lolo-Burmese	(N)kret	(N)kret	scrape, shave	scrape,shave		6.3	170	0		6131
+60225	541	Trung [Dulong] (Nujiang)	tɯ³¹ xrɯm⁵³	tɯ³¹ xrɯm⁵³	meet	meet		6.2	171	0		p,5391
+60226	683	Jingpho	khrum⁵⁵	khrum⁵⁵	meet	meet		6.2	171	0		5391
+60227	407	Burmese (Written)	krum~krim	krum~krim	meet with, find	meet with, find		6.2	171	0		5391
+60228	1087	Tsangla (Motuo)	rum	rum	meet	meet		6.2	171	0		5391
+60229	539	Trung [Dulong] (Dulonghe)	kɯ³¹ raŋ⁵³	kɯ³¹ raŋ⁵³	firefly	firefly		2.2.6	172	0		
+60230	541	Trung [Dulong] (Nujiang)	kɯ³¹ raŋ⁵³	kɯ³¹ raŋ⁵³	firefly	firefly		2.2.6	172	0		
+60231	684	Jingpho	dzyi-groŋ	dzyi-groŋ	firefly	firefly		2.2.6	172	0		
+60232	407	Burmese (Written)	khraŋ	khraŋ	firefly	firefly		2.2.6	172	0		
+60233	1067	Mikir [Karbi]	tim-kraŋ	tim-kraŋ	mosquito	mosquito		2.2.6	172	0	D0	m,2328
+60234	1333	Anong (Rawang)	məgaŋ	məgaŋ	mosquito	mosquito		2.2.6	172	0		
+60235	1607	Trung [Dulong]	kraŋ	kraŋ	firefly	firefly		2.2.6	172	0		
+60236	1690	Atsi [Zaiwa]	kyaŋ⁵¹	kyaŋ⁵¹	mosquito	mosquito		2.2.6	172	0		2328
+60237	591	Kaman [Miju]	klauŋ	klauŋ	insect	insect		2.2.6	172	0		5432
+60238	591	Kaman [Miju]	ko⁵⁵ rɯn⁵⁵	ko⁵⁵ rɯn⁵⁵	mosquito	mosquito		2.2.6	172	0		
+60239	539	Trung [Dulong] (Dulonghe)	krɔɔŋ⁵⁵	krɔɔŋ⁵⁵	village	village		5.8	173	0		5776
+60240	541	Trung [Dulong] (Nujiang)	khrɔɔŋ⁵³	khrɔɔŋ⁵³	village	village		5.8	173	0		5776
+60241	1482	Tangkhul	khu	khu	village	village		5.8	173	0	u	
+60242	983	Lushai [Mizo]	khúa	khúa	village	village		5.8	173	0		2773
+60243	407	Burmese (Written)	rwa	rwa	village	village		5.8	173	0		2773
+60244	1577	Tibetan (Written)	groŋ	groŋ	village	village		5.8	173	0		5776
+60245	345	Bisu	khɔ́ŋ-ba	khɔ́ŋ-ba	village	village		5.8	173	0	u	5776,m
+60246	1318	Qiang (Mawo)	gzu	gzu	village	village		5.8	173	0		
+60247	1308	Pumi (Taoba)	tʂã³⁵ ba³⁵	tʂã³⁵ ba³⁵	village	village		5.8	173	0		
+60248	539	Trung [Dulong] (Dulonghe)	a³¹ kraʔ⁵⁵	a³¹ kraʔ⁵⁵	fear, frighten	fear,frighten		8.3.1.10.1	174	0		p,2249
+60249	1577	Tibetan (Written)	skrag-pa	skrag-pa	terrified, afraid	terrified, afraid		8.3.1.10.1	174	0		2249,s
+60250	407	Burmese (Written)	krauk	krauk	fear	fear	v.	8.3.1.10.1	174	0		2249
+60251	843	Lahu	kɔ̂ʔ	kɔ̂ʔ	fear, frighten	fear,frighten		8.3.1.10.1	174	0		2249
+60252	1690	Atsi [Zaiwa]	kjuʔ³¹	kjuʔ³¹	fear, frighten	fear,frighten		8.3.1.10.1	174	0		2249
+60253	539	Trung [Dulong] (Dulonghe)	gru⁵³	gru⁵³	bark	bark		2.1.11.1	175	0		2250
+60254	541	Trung [Dulong] (Nujiang)	gru⁵³	gru⁵³	bark	bark		2.1.11.1	175	0		2250
+60255	539	Trung [Dulong] (Dulonghe)	gɯi⁵³	gɯi⁵³	crow (rooster)	crow (rooster)		2.2.4.1	175	0		
+60256	541	Trung [Dulong] (Nujiang)	gɯʔ⁵⁵	gɯʔ⁵⁵	crow (rooster)	crow (rooster)		2.2.4.1	175	0		
+60257	539	Trung [Dulong] (Dulonghe)	gɯʔ	gɯʔ	speak; talk	speak; talk		8.5.10.1	175	0		
+60258	541	Trung [Dulong] (Nujiang)	grɯŋ⁵⁵	grɯŋ⁵⁵	speak; talk	speak; talk		8.5.10.1	175	0		
+60260	684	Jingpho	mə◦groi	mə◦groi	howl, scream	howl, scream		8.5.5	175	0		p,2250
+60261	683	Jingpho	kʒut³¹	kʒut³¹	call (of a panther)	call (of a panther)		8.5.13	175	0		
+60262	683	Jingpho	kʒoŋ⁵⁵~khoŋ⁵⁵	kʒoŋ⁵⁵~khoŋ⁵⁵	call (of a barking deer)	call (of a barking deer)		8.5.13	175	0		
+60263	407	Burmese (Written)	krwè~ kywè	krwè~ kywè	call out, halloo, shout; screech and scream in large numbers, as birds	call out, halloo, shout; screech and scream in large numbers, as birds		8.5.4.1	175	0		2250,2250
+60264	407	Burmese (Written)	kro	kro	shout, call out	shout, call out	v.	8.5.4.1	175	0		5766
+60265	735	Kanauri	gre-nan-mig	gre-nan-mig	roar	roar	v.	8.5.5	175	0		
+60266	735	Kanauri	grán-mig	grán-mig	neigh	neigh	v.	8.5.5	175	0		
+60267	735	Kanauri	ku-chi-mig	ku-chi-mig	call out, exclaim	call out, exclaim		8.5.13	175	0		
+60268	206	Achang (Longchuan)	kʐai⁵⁵	kʐai⁵⁵	speak, talk	speak, talk		8.5.10.1	175	0		1753
+60269	203	Achang (Lianghe)	kai⁵⁵	kai⁵⁵	speak, talk	speak, talk	v.	8.5.10.1	175	0		
+60270	206	Achang (Longchuan)	kʐə⁵⁵	kʐə⁵⁵	yell, call out	yell, call out	v.	8.5.4.1	175	0		
+60271	208	Achang (Luxi)	kɯ³¹	kɯ³¹	yell, call out	yell, call out	v.	8.5.4.1	175	0		
+60272	203	Achang (Lianghe)	kɯ⁵⁵	kɯ⁵⁵	yell, call out	yell, call out		8.5.4.1	175	0		
+60273	539	Trung [Dulong] (Dulonghe)	dɯ³¹ gluuʔ⁵⁵	dɯ³¹ gluuʔ⁵⁵	cook, boil	cook,boil		5.5	176	0		
+60274	407	Burmese (Written)	kyak	kyak	cooked	cooked		5.5	176	0		
+60275	407	Burmese (Written)	khyak	khyak	cook	cook		5.5	176	0		2316
+60276	684	Jingpho	khya	khya	prepare glutinous rice	prepare glutinous rice		6.14	176	0		
+60277	843	Lahu	cá	cá	boil	boil	v.	6.6	176	0		
+60278	1067	Mikir [Karbi]	ar◦klak ~ar◦klok	arklak ~arklok	boil over	boil over		6.6	176	0		m,2316,m,2316
+60279	983	Lushai [Mizo]	tlak	tlak	boil / cook without salt	boil / cook without salt		6.6	176	0		2316
+60280	1091	Tshona (Mama)	køʔ⁵³	køʔ⁵³	boil	boil		6.6	176	0		
+60281	539	Trung [Dulong] (Dulonghe)	kruʔ⁵⁵	kruʔ⁵⁵	six	six		9.9	177	0		2621
+60282	541	Trung [Dulong] (Nujiang)	khruʔ⁵⁵	khruʔ⁵⁵	six	six		9.9	177	0		2621
+60283	1577	Tibetan (Written)	drug	drug	six	six		9.9	177	0		2621
+60284	735	Kanauri	ʈǔg	ʈǔg	six	six		9.9	177	0		2621
+60285	578	Garo	dok	dok	six	six		9.9	177	0		2621
+60286	899	Lepcha	tarak	tarak	six	six		9.9	177	0		2621
+60287	526	Digaro	thərɔ	thərɔ	six	six		9.9	177	0		2621
+60288	1067	Mikir [Karbi]	therok	therok	six	six		9.9	177	0		2621
+60289	1091	Tshona (Mama)	kroʔ⁵³	kroʔ⁵³	six	six		9.9	177	0		2621
+60290	1690	Atsi [Zaiwa]	khjuʔ⁵⁵	khjuʔ⁵⁵	six	six		9.9	177	0		2621
+60291	683	Jingpho	kruʔ⁵⁵	kruʔ⁵⁵	six	six		9.9	177	0		2621
+60292	206	Achang (Longchuan)	xʐoʔ⁵⁵	xʐoʔ⁵⁵	six	six		9.9	177	0		2621
+60293	1607	Trung [Dulong]	khlu	khlu	six	six		9.9	177	0	u	2621
+60294	407	Burmese (Written)	khrauk	khrauk	six	six		9.9	177	0	u	2621
+60295	1302	Puiron	kəruk	kəruk	six	six		9.9	177	0		2621
+60296	684	Jingpho	kru	kru	six	six		9.9	177	0		2621
+60297	843	Lahu	khɔ̀ʔ	khɔ̀ʔ	six	six		9.9	177	0		2621
+60298	539	Trung [Dulong] (Dulonghe)	krɯɯp⁵⁵	krɯɯp⁵⁵	sew	sew		5.1	178	0		2627
+60299	541	Trung [Dulong] (Nujiang)	khrɯɯp⁵⁵	khrɯɯp⁵⁵	sew	sew		5.1	178	0		2627
+60300	1577	Tibetan (Written)	'drub-pa	'drub-pa	sew	sew		5.1	178	0		2627,1902
+60301	899	Lepcha	hrap	hrap	sew	sew		5.1	178	0		2627
+60302	610	rGyalrong	tup	tup	sew	sew		5.1	178	0		2627
+60303	996	Magar	rup	rup	sew	sew		5.1	178	0		2627
+60304	407	Burmese (Written)	khyup	khyup	sew	sew		5.1	178	0		2627
+60305	1607	Trung [Dulong]	krap	krap	sew	sew		5.1	178	0		2627
+60306	843	Lahu	tɔ́	tɔ́	sew	sew		5.1	178	0		2627
+60307	206	Achang (Longchuan)	xʐop⁵⁵	xʐop⁵⁵	sew	sew		5.1	178	0		2627
+60308	208	Achang (Luxi)	tshɔp⁵⁵	tshɔp⁵⁵	sew	sew		5.1	178	0		2627
+60309	1690	Atsi [Zaiwa]	khjup⁵⁵	khjup⁵⁵	sew	sew		5.1	178	0		2627
+60310	539	Trung [Dulong] (Dulonghe)	aŋ³¹ brɯŋ⁵³	aŋ³¹ brɯŋ⁵³	name	name		5.8	179	0		p,2169
+60311	541	Trung [Dulong] (Nujiang)	aŋ³¹ brɯŋ⁵⁵	aŋ³¹ brɯŋ⁵⁵	name	name		5.8	179	0		p,2169
+60312	899	Lepcha	sbraŋ	sbraŋ	name	name		5.8	179	0		2169
+60313	1607	Trung [Dulong]	aŋ-prəŋ	aŋ-prəŋ	name	name		5.8	179	0	D0	p,2169
+60314	1203	Anong	biŋ	biŋ	name	name		5.8	179	0		2169
+60315	539	Trung [Dulong] (Dulonghe)	brɯm⁵⁵	brɯm⁵⁵	smallpox	smallpox		5.3	180	0		
+60316	541	Trung [Dulong] (Nujiang)	brɯm³¹ khar⁵⁵	brɯm³¹ khar⁵⁵	smallpox	smallpox		5.3	180	0		
+60317	1577	Tibetan (Written)	lta 'brum	lta 'brum	smallpox	smallpox		5.3	180	0		
+60318	1318	Qiang (Mawo)	bur	bur	smallpox	smallpox		5.3	180	0		
+60319	1305	Pumi (Qinghua)	bʐõ¹³	bʐõ¹³	smallpox	smallpox		5.3	180	0		
+60320	539	Trung [Dulong] (Dulonghe)	bri⁵³	bri⁵³	write	write		6.2.2.9.1	181	0		2616
+60321	541	Trung [Dulong] (Nujiang)	bri⁵³	bri⁵³	write	write		6.2.2.9.1	181	0		2616
+60322	1577	Tibetan (Written)	'bri-ba	'bri-ba	draw, write	draw, write		5.8	181	0		2616,1902
+60323	1577	Tibetan (Written)	ris	ris	figure, form, design	figure, form, design		9.9	181	0		107
+60324	684	Jingpho	məriʔ	məriʔ	mark, line, rule	mark, line, rule	v.	5.1	181	0		2616
+60325	1203	Anong	rəga də◦rit	rəga dərit	boundary	boundary		9.2.7	181	0		m,p,110
+60326	407	Burmese (Written)	rè	rè	write, paint, delineate	write, paint, delineate		6.2.2.9.1	181	0		2616
+60327	578	Garo	a-ri	a-ri	boundary	boundary		9.2.7	181	0		p,2616
+60328	533	Dimasa	ha-ri	ha-ri	boundary	boundary		9.2.7	181	0	D0	p,2616
+60329	983	Lushai [Mizo]	ri	ri	boundary	boundary		9.2.7	181	0		2616
+60330	983	Lushai [Mizo]	riin	riin	draw a line, scratch	draw a line, scratch		5.8	181	0		5774
+60331	1091	Tshona (Mama)	pri¹³	pri¹³	write	write		6.2.2.9.1	181	0		2616
+60332	1087	Tsangla (Motuo)	brü	brü	write	write		6.2.2.9.1	181	0		2616
+60333	367	Bokar Lhoba	pii	pii	write	write		6.2.2.9.1	181	0		
+60334	539	Trung [Dulong] (Dulonghe)	śɯm⁵³	śɯm⁵³	house	house		5.11.9.1	182	0		1612
+60335	541	Trung [Dulong] (Nujiang)	tśɯm⁵³	tśɯm⁵³	house	house		5.11.9.1	182	0		1612
+60336	1577	Tibetan (Written)	khyim	khyim	house	house		5.11.9.1	182	0		1612
+60337	304	Bahing	khyim~khim	khyim~khim	house	house		5.11.9.1	182	0		1612,1612
+60338	647	Hayu	kim~kem	kim~kem	house	house		5.11.9.1	182	0		1612,1612
+60339	899	Lepcha	khyum	khyum	house	house		5.11.9.1	182	0		1612
+60340	1075	Mishing [Miri]	ə◦kum	əkum	house	house		5.11.9.1	182	0		p,1612
+60341	1127	Mru	kim	kim	house	house		5.11.9.1	182	0		1612
+60342	1067	Mikir [Karbi]	hem	hem	house	house		5.11.9.1	182	0		1612
+60343	1203	Anong	kyim~tśim~tśum	kyim~tśim~tśum	house	house		5.11.9.1	182	0		1612,1612,1612
+60344	407	Burmese (Written)	im	im	house	house		5.11.9.1	182	0		1612
+60345	842	Lahu	yɛ̀	yɛ̀	house	house		5.11.9.1	182	0	u	1612
+60346	1607	Trung [Dulong]	tśiəm	tśiəm	house	house		5.11.9.1	182	0	u	1612
+60347	1318	Qiang (Mawo)	tśi	tśi	house	house		5.11.9.1	182	0		1612
+60348	1322	Qiang (Taoping)	tśi³³	tśi³³	house	house		5.11.9.1	182	0		1612
+60349	1690	Atsi [Zaiwa]	jum⁵¹	jum⁵¹	house	house		5.11.9.1	182	0		1612
+60350	539	Trung [Dulong] (Dulonghe)	śat⁵⁵	śat⁵⁵	eight	eight		9.9	183	0		
+60351	541	Trung [Dulong] (Nujiang)	śat⁵⁵	śat⁵⁵	eight	eight		9.9	183	0		
+60352	1577	Tibetan (Written)	brgyad	brgyad	eight	eight		9.9	183	0		2259
+60353	735	Kanauri	rae	rae	eight	eight		9.9	183	0		2259
+60354	304	Bahing	ya	ya	eight	eight		9.9	183	0		
+60355	1546	Thulung	yet	yet	eight	eight		9.9	183	0		2259
+60356	684	Jingpho	mətsat	mətsat	eight	eight		9.9	183	0		2259
+60357	1203	Anong	əśat	əśat	eight	eight		9.9	183	0		
+60358	407	Burmese (Written)	hrats	hrats	eight	eight		9.9	183	0		2259
+60359	578	Garo	tśhet	tśhet	eight	eight		9.9	183	0		2259
+60360	983	Lushai [Mizo]	riat	riat	eight	eight		9.9	183	0		
+60361	533	Dimasa	dźai	dźai	eight	eight		9.9	183	0		
+60362	1318	Qiang (Mawo)	khar	khar	eight	eight		9.9	183	0		2259
+60363	1690	Atsi [Zaiwa]	ʃit⁵⁵	ʃit⁵⁵	eight	eight		9.9	183	0		2259
+60364	206	Achang (Longchuan)	śet⁵⁵	śet⁵⁵	eight	eight		9.9	183	0		2259
+60365	539	Trung [Dulong] (Dulonghe)	ti⁵⁵ śa⁵⁵	ti⁵⁵ śa⁵⁵	hundred	hundred		9.9	184	0		
+60366	541	Trung [Dulong] (Nujiang)	tśi⁵⁵ śa⁵⁵	tśi⁵⁵ śa⁵⁵	hundred	hundred		9.9	184	0		
+60367	1577	Tibetan (Written)	brgya	brgya	hundred	hundred		9.9	184	0		2258
+60368	684	Jingpho	lətsa	lətsa	hundred	hundred		9.9	184	0		
+60369	1203	Anong	ya	ya	hundred	hundred		9.9	184	0		
+60370	407	Burmese (Written)	a◦ra	ara	hundred	hundred		9.9	184	0		p,2258
+60371	578	Garo	rittśa	rittśa	hundred	hundred		9.9	184	0		
+60372	533	Dimasa	radźa	radźa	hundred	hundred		9.9	184	0		
+60373	983	Lushai [Mizo]	za	za	hundred	hundred		9.9	184	0		2258
+60374	1318	Qiang (Mawo)	khir	khir	hundred	hundred		9.9	184	0		2258
+60375	1690	Atsi [Zaiwa]	ʃo⁵¹	ʃo⁵¹	hundred	hundred		9.9	184	0		
+60376	539	Trung [Dulong] (Dulonghe)	a³¹ tśat⁵⁵	a³¹ tśat⁵⁵	jump	jump		6.7.8	185	0		
+60377	541	Trung [Dulong] (Nujiang)	tśhat⁵⁵	tśhat⁵⁵	jump	jump		6.7.8	185	0		
+60378	241	Akha	cehˆ	cehˆ	jump	jump		6.7.8	185	0		
+60379	241	Akha	tjɛ́q	tjɛ́q	jump	jump		6.7.8	185	0		
+60380	939	Lisu	hchye²	hchye²	jump	jump		6.7.8	185	0		
+60381	1374	Sani [Nyi]	cɛ⁴⁴	cɛ⁴⁴	jump	jump		6.7.8	185	0	u	
+60382	356	Bodo	khat	khat	jump	jump		6.7.8	185	0		
+60383	578	Garo	kat	kat	jump	jump		6.7.8	185	0		
+60384	1067	Mikir [Karbi]	kát	kát	jump	jump		6.7.8	185	0		
+60385	683	Jingpho	ka³¹ kat³¹	ka³¹ kat³¹	jump	jump		6.7.8	185	0		
+60386	539	Trung [Dulong] (Dulonghe)	sɯ³¹ ɳit⁵⁵|	sɯ³¹ ɳit⁵⁵|	seven	seven		9.9	186	0		2505
+60387	541	Trung [Dulong] (Nujiang)	sɯ³¹ ńit⁵⁵|	sɯ³¹ ńit⁵⁵|	seven	seven		9.9	186	0		2505
+60388	684	Jingpho	sənit	sənit	seven	seven		9.9	186	0		2505
+60389	578	Garo	səni	səni	seven	seven		9.9	186	0		2505
+60390	610	rGyalrong	kě◦sněs	kě◦sněs	seven	seven		9.9	186	0		m,2505
+60391	735	Kanauri	stis	stis	seven	seven		9.9	186	0	D0	2505
+60392	539	Trung [Dulong] (Dulonghe)	ɳep	ɳep	snot	snot		1.8.2	187	0		805
+60393	541	Trung [Dulong] (Nujiang)	ńep	ńep	snot	snot		1.8.2	187	0		805
+60394	1577	Tibetan (Written)	snabs	snabs	snot	snot		1.8.2	187	0		805
+60395	407	Burmese (Written)	hnap	hnap	snot	snot		1.8.2	187	0		805
+60396	983	Lushai [Mizo]	hnap	hnap	snot	snot		1.8.2	187	0		805
+60397	1690	Atsi [Zaiwa]	nap⁵⁵	nap⁵⁵	snot	snot		1.8.2	187	0		805
+60398	206	Achang (Longchuan)	hnap⁵⁵	hnap⁵⁵	snot	snot		1.8.2	187	0		805
+60399	208	Achang (Luxi)	nap⁵⁵	nap⁵⁵	snot	snot		1.8.2	187	0		805
+60400	203	Achang (Lianghe)	hnak⁵⁵	hnak⁵⁵	snot	snot		1.8.2	187	0		1318
+60401	1305	Pumi (Qinghua)	hna¹³	hna¹³	snot	snot		1.8.2	187	0		805
+60402	541	Trung [Dulong] (Nujiang)	yet⁵⁵	yet⁵⁵	joke, laugh	joke,laugh		8.5.9	188	0		1108
+60403	1577	Tibetan (Written)	gźa-ba	gźa-ba	sport, joke, play	sport, joke, play	v.	4.2.9	188	0		1108,s
+60404	1577	Tibetan (Written)	bźad-pa ~ gźad-pa	bźad-pa ~ gźad-pa	laugh, smile	laugh, smile		1.8.8.1	188	0		1108,s,1108,s
+60405	1538	Thebor	rot	rot	joke, laugh	joke,laugh		8.5.9	188	0		1108
+60406	377	Bunan	sred	sred	joke, laugh	joke,laugh		8.5.9	188	0		1108
+60407	996	Magar	ret	ret	joke, laugh	joke,laugh		8.5.9	188	0		1108
+60408	1203	Anong	it	it	joke, laugh	joke,laugh		8.5.9	188	0		1108
+60409	304	Bahing	rit~ris	rit~ris	joke, laugh	joke,laugh		8.5.9	188	0		1108,1108
+60410	526	Digaro	mə◦ra	məra	joke, laugh	joke,laugh		8.5.9	188	0		p,1108
+60411	407	Burmese (Written)	rai	rai	laugh	laugh		1.8.8.1	188	0		1108
+60412	539	Trung [Dulong] (Dulonghe)	gur⁵⁵ met⁵⁵	gur⁵⁵ met⁵⁵	star(-moon)	star(-moon)		3.2.2	189	0		
+60413	541	Trung [Dulong] (Nujiang)	gu³¹ nyet⁵⁵	gu³¹ nyet⁵⁵	star(-moon)	star(-moon)		3.2.2	189	0		
+60414	263	Angami Naga	thèmvə	thèmvə	star(-moon)	star(-moon)		3.2.2	189	0		3577
+60415	843	Lahu	mə̀ʔ(-kə)	mə̀ʔ(-kə)	star(-moon)	star(-moon)		3.2.2	189	0		3577,3574
+60416	1087	Tsangla (Motuo)	kar◦mi	kar◦mi	star(-moon)	star(-moon)		3.2.2	189	0		2300,m
+60417	482	Chinese (Old/Mid)	sŋywat	sŋywat	moon	moon		3.2.2	189	0		3577
+60418	539	Trung [Dulong] (Dulonghe)	tśɯ³¹ ma⁵⁵	tśɯ³¹ ma⁵⁵	rice / paddy	rice / paddy		3.1.4	190	0		
+60419	541	Trung [Dulong] (Nujiang)	tśhɯ³¹ ma⁵⁵	tśhɯ³¹ ma⁵⁵	rice / paddy	rice / paddy		3.1.4	190	0		
+60420	578	Garo	mi~ me-	mi~ me-	rice / paddy	rice / paddy		3.1.4	190	0	u	2445,2445
+60421	533	Dimasa	mai	mai	rice / paddy	rice / paddy		3.1.4	190	0		2445
+60422	1311	Pwo	me	me	boiled rice	boiled rice		6.6	190	0	u	2445
+60423	1392	Sgaw	me	me	boiled rice	boiled rice		6.6	190	0	u	2445
+60424	482	Chinese (Old/Mid)	miər	miər	rice / paddy	rice / paddy		3.1.4	190	0		2445
+60425	482	Chinese (Old/Mid)	miei	miei	rice / paddy	rice / paddy		3.1.4	190	0		2445
+60426	1481	Tangkhul	ma	ma	paddy	paddy		9.10.5	190	0		
+60427	367	Bokar Lhoba	amə	amə	rice	rice		3.1.4	190	0		
+60428	541	Trung [Dulong] (Nujiang)	khwa³¹ me⁵³	khwa³¹ me⁵³	bee	bee		2.2.6	191	0		2370,m
+60429	407	Burmese (Written)	kwai	kwai	dammer-bee	dammer-bee		1.5.3.2	191	0		2370
+60430	983	Lushai [Mizo]	khuai~ kho	khuai~ kho	bee	bee		2.2.6	191	0		2370,2370
+60431	1514	Thado	khoi~ khui-va	khoi~ khui-va	bee	bee		2.2.6	191	0		2370,2370,m
+60432	1481	Tangkhul	khui	khui	bee	bee		2.2.6	191	0		2370
+60433	876	Lakher [Mara]	əkha	əkha	bee	bee		2.2.6	191	0		2370
+60434	1203	Anong	kha	kha	bee (domesticated)	bee (domesticated)		2.2.6	191	0		2370
+60435	539	Trung [Dulong] (Dulonghe)	klai⁵⁵	klai⁵⁵	change	change		9.5	192	0		
+60436	541	Trung [Dulong] (Nujiang)	kle⁵³	kle⁵³	change	change		9.5	192	0		
+60437	683	Jingpho	gelai	gelai	change	change		9.5	192	0		
+60438	1203	Anong	thəlɛ	thəlɛ	alter, (ex)change	alter,(ex)change		9.5	192	0		
+60439	407	Burmese (Written)	lai	lai	(ex)change	(ex)change			192	0		2137
+60440	578	Garo	sre	sre	change	change		9.5	192	0		
+60441	533	Dimasa	salai	salai	change	change		9.5	192	0		
+60442	983	Lushai [Mizo]	lěi	lěi	buy, barter	buy, barter		6.22	192	0		
+60443	1598	Tiddim	lay	lay	change	change		9.5	192	0		2137
+60444	539	Trung [Dulong] (Dulonghe)	wap⁵⁵	wap⁵⁵	needle	needle		5.1	193	0		
+60445	541	Trung [Dulong] (Nujiang)	wap⁵⁵	wap⁵⁵	needle	needle		5.1	193	0		
+60446	1577	Tibetan (Written)	khab	khab	needle	needle		5.1	193	0		
+60447	407	Burmese (Written)	ʔap	ʔap	needle	needle		5.1	193	0		
+60448	735	Kanauri	keb	keb	needle	needle		5.1	193	0	D0	
+60449	610	rGyalrong	te◦kyep	tekyep	needle	needle		5.1	193	0	D0	p,5398
+60450	899	Lepcha	ryum	ryum	needle	needle		5.1	193	0		
+60451	1318	Qiang (Mawo)	Xe	Xe	needle	needle		5.1	193	0		5398
+60452	1690	Atsi [Zaiwa]	ap⁵⁵	ap⁵⁵	needle	needle		5.1	193	0		
+60453	206	Achang (Longchuan)	ap⁵⁵	ap⁵⁵	needle	needle		5.1	193	0		
+60454	208	Achang (Luxi)	ap⁵⁵	ap⁵⁵	needle	needle		5.1	193	0		
+60455	1607	Trung [Dulong]	uop	uop	needle	needle		5.1	193	0		5398
+60456	843	Lahu	g̈òʔ	g̈òʔ	needle	needle		5.1	193	0		
+60457	539	Trung [Dulong] (Dulonghe)	raap⁵⁵	raap⁵⁵	fan, winnow	fan,winnow		5.4	194	0	D0	2329
+60458	541	Trung [Dulong] (Nujiang)	raap⁵⁵	raap⁵⁵	fan, winnow	fan,winnow		5.4	194	0	D0	2329
+60459	1577	Tibetan (Written)	'khrab-pa	'khrab-pa	strike, beat; winnow, fan	strike, beat; winnow, fan		6.8	194	0		2329,s
+60460	448	Chepang	krap	krap	winnow	winnow		3.1.10	194	0	D0	2329
+60461	1204	Anong	rap	rap	winnow, thresh, paddle, row	winnow, thresh, paddle, row		3.1.10	194	0		2329
+60462	539	Trung [Dulong] (Dulonghe)	ŋap⁵⁵	ŋap⁵⁵	munch	munch		1.3.4.5	195	0		
+60463	541	Trung [Dulong] (Nujiang)	rep⁵⁵	rep⁵⁵	munch	munch		1.3.4.5	195	0		
+60464	407	Burmese (Written)	kwap	kwap	clamp, make fast, firm, secure	clamp, make fast, firm, secure		9.6.1.1	195	0		
+60465	407	Burmese (Written)	kyap	kyap	clamp, make fast, firm, secure	clamp, make fast, firm, secure		9.6.1.1	195	0		
+60466	407	Burmese (Written)	krap	krap	clamp, make fast, firm, secure	clamp, make fast, firm, secure		9.6.1.1	195	0		
+60467	843	Lahu	gə̀ʔ	gə̀ʔ	hold firmly in mouth	hold firmly in mouth		6.16	195	0		755
+60468	345	Bisu	kɔ̀	kɔ̀	bite into	bite into		1.3.4.4	195	0	u	755
+60469	1480	Tangkhul	khəŋkup	khəŋkup	bite and see whether the paddy is well dried or not	bite and see whether the paddy is well dried or not		10.0	195	0		
+60470	843	Lahu	khòʔ	khòʔ	munch, bite noisily	munch, bite noisily		1.3.4.5	195	0		1763
+60471	241	Akha	kaw	kaw	bite as a dog bites a person	bite as a dog bites a person		1.3.4.4	195	0		755
+60472	407	Burmese (Written)	hap	hap	bite at, as a fish / dog	bite at, as a fish / dog		10.0	195	0		743
+60473	181	*Tibeto-Burman	hap	hap	mouthful	mouthful		1.3.1	195	0		743
+60474	539	Trung [Dulong] (Dulonghe)	blaat⁵⁵	blaat⁵⁵	braid	braid		1.2.3.2	196	0		2018
+60475	541	Trung [Dulong] (Nujiang)	blat⁵⁵	blat⁵⁵	braid	braid		1.2.3.2	196	0		2018
+60476	1690	Atsi [Zaiwa]	tsham⁵¹ pan³¹	tsham⁵¹ pan³¹	braid	braid		1.2.3.2	196	0		366,2018
+60477	208	Achang (Luxi)	tsham³⁵ pyɛn³⁵	tsham³⁵ pyɛn³⁵	braid	braid		1.2.3.2	196	0		366,b
+60478	843	Lahu	phê	phê	braid	braid		1.2.3.2	196	0		2018
+60479	1119	Mpi	pheʔ¹	pheʔ¹	braid	braid		1.2.3.2	196	0		2018
+60480	407	Burmese (Written)	phan	phan	shuffle cards	shuffle cards		6.7.3	196	0		2018
+60481	539	Trung [Dulong] (Dulonghe)	tɯ³¹ klat⁵⁵	tɯ³¹ klat⁵⁵	slippery	slippery		7.1.4.2	197	0		
+60482	541	Trung [Dulong] (Nujiang)	dɯ³¹ laat⁵⁵	dɯ³¹ laat⁵⁵	slippery	slippery		7.1.4.2	197	0		
+60483	1577	Tibetan (Written)	hlod-pad	hlod-pad	loose, relaxed	loose, relaxed		6.13.1	197	0		2425,s
+60484	684	Jingpho	lot	lot	escape, be free, unrestrained	escape, be free, unrestrained	v.	6.7.2	197	0		2425
+60485	407	Burmese (Written)	lwat	lwat	free	free		6.19	197	0		
+60486	539	Trung [Dulong] (Dulonghe)	kaʔ⁵⁵	kaʔ⁵⁵	chicken	chicken		2.1.10	198	0		5568
+60487	541	Trung [Dulong] (Nujiang)	khaʔ⁵⁵	khaʔ⁵⁵	chicken	chicken		2.1.10	198	0		5568
+60488	407	Burmese (Written)	krak	krak	fowl	fowl		2.1.10	198	0		1606
+60489	1031	Maru [Langsu]	rɔ	rɔ	chicken	chicken		2.1.10	198	0		1606
+60490	843	Lahu	g̈âʔ	g̈âʔ	chicken	chicken		2.1.10	198	0		1606
+60491	983	Lushai [Mizo]	va-rak	va-rak	duck	duck		2.1.10	198	0		1603,m
+60492	1690	Atsi [Zaiwa]	voʔ	voʔ	chicken	chicken		2.1.10	198	0		1606
+60493	206	Achang (Longchuan)	kʐuaʔ⁵⁵	kʐuaʔ⁵⁵	chicken	chicken		2.1.10	198	0		1606
+60494	208	Achang (Luxi)	kjaʔ³¹	kjaʔ³¹	chicken	chicken		2.1.10	198	0		1606
+60495	539	Trung [Dulong] (Dulonghe)	u⁵⁵	u⁵⁵	head	head		1.2.1	199	0		385
+60496	541	Trung [Dulong] (Nujiang)	u⁵³	u⁵³	head	head		1.2.1	199	0		385
+60497	1577	Tibetan (Written)	dbu	dbu	head	head		1.2.1	199	0		385
+60498	407	Burmese (Written)	ù	ù	head	head		1.2.1	199	0		385
+60499	266	Anong	u	u	head	head		1.2.1	199	0	u	385
+60500	843	Lahu	ú	ú	head	head		1.2.1	199	0		385
+60501	203	Achang (Lianghe)	u³¹ nuŋ³¹	u³¹ nuŋ³¹	head	head		1.2.1	199	0		385,m
+60502	208	Achang (Luxi)	u⁵⁵ nɔŋ⁵⁵	u⁵⁵ nɔŋ⁵⁵	head	head		1.2.1	199	0		385,m
+60503	148	*Lolo-Burmese	ʔu²	ʔu²	head	head		1.2.1	199	0		385
+60504	539	Trung [Dulong] (Dulonghe)	a³¹ bli⁵³	a³¹ bli⁵³	four	four		9.9	200	0		m,2409
+60505	541	Trung [Dulong] (Nujiang)	bli⁵³	bli⁵³	four	four		9.9	200	0		2409
+60506	1577	Tibetan (Written)	bźi	bźi	four	four		9.9	200	0		2409
+60507	1546	Thulung	bli	bli	four	four		9.9	200	0		2409
+60508	407	Burmese (Written)	lè	lè	four	four		9.9	200	0		2409
+60509	735	Kanauri	pö	pö	four	four		9.9	200	0		2409
+60510	996	Magar	buli	buli	four	four		9.9	200	0		2409
+60511	526	Digaro	kə◦prei	kə◦prei	four	four		9.9	200	0		m,2409
+60512	1075	Mishing [Miri]	pi	pi	four	four		9.9	200	0		2409
+60513	1203	Anong	ə◦byi	ə◦byi	four	four		9.9	200	0		p,2409
+60514	684	Jingpho	məli	məli	four	four		9.9	200	0		2409
+60515	1067	Mikir [Karbi]	phli	phli	four	four		9.9	200	0		2409
+60516	843	Lahu	ɔ̂	ɔ̂	four	four		9.9	200	0		2409
+60517	1091	Tshona (Mama)	pli	pli	four	four		9.9	200	0		2409
+60518	1087	Tsangla (Motuo)	phi	phi	four	four		9.9	200	0		2409
+60519	367	Bokar Lhoba	a◦pii	apii	four	four		9.9	200	0		p,2409
+60520	507	Darang [Taraon]	ka³¹ prai³⁵	ka³¹ prai³⁵	four	four		9.9	200	0		m,2409
+60521	206	Achang (Longchuan)	mi³¹	mi³¹	four	four		9.9	200	0		2409
+60522	1690	Atsi [Zaiwa]	myi	myi	four	four		9.9	200	0		2409
+60523	539	Trung [Dulong] (Dulonghe)	syɯi⁵⁵	syɯi⁵⁵	blood	blood		1.6.2	201	0		230
+60524	541	Trung [Dulong] (Nujiang)	syi⁵⁵	syi⁵⁵	blood	blood		1.6.2	201	0		230
+60525	735	Kanauri	syui	syui	blood	blood		1.6.2	201	0		230
+60526	377	Bunan	syu	syu	blood	blood		1.6.2	201	0		230
+60527	647	Hayu	vi	vi	blood	blood		1.6.2	201	0		230
+60528	448	Chepang	wi~wei	wi~wei	blood	blood		1.6.2	201	0	D0	230,230
+60529	684	Jingpho	sai	sai	blood	blood		1.6.2	201	0		230
+60530	1203	Anong	syö	syö	blood	blood		1.6.2	201	0		230
+60531	407	Burmese (Written)	swè	swè	blood	blood		1.6.2	201	0		230
+60532	578	Garo	an◦tsyi	an◦tsyi	blood	blood		1.6.2	201	0		m,230
+60533	533	Dimasa	thi	thi	blood	blood		1.6.2	201	0		230
+60534	983	Lushai [Mizo]	thi	thi	blood	blood		1.6.2	201	0		230
+60535	541	Trung [Dulong] (Nujiang)	a³¹ zyɯm⁵³	a³¹ zyɯm⁵³	raw, unripe	raw,unripe		7.1.8.3	202	0		p,1005
+60536	1203	Anong	ə◦zim	əzim	raw, unripe	raw,unripe		7.1.8.3	202	0		p,1005
+60537	407	Burmese (Written)	tsìm	tsìm	green unripe	green unripe		9.4	202	0		
+60538	1690	Atsi [Zaiwa]	a³¹ tʃum³¹	a³¹ tʃum³¹	raw, unripe	raw,unripe		7.1.8.3	202	0		
+60539	683	Jingpho	ka³¹ tsiŋ³³	ka³¹ tsiŋ³³	raw, unripe	raw,unripe		7.1.8.3	202	0		
+60540	206	Achang (Longchuan)	tsin³¹	tsin³¹	raw, unripe	raw,unripe		7.1.8.3	202	0		1005
+60541	203	Achang (Lianghe)	a³¹ tśiŋ³⁵	a³¹ tśiŋ³⁵	raw, unripe	raw,unripe		7.1.8.3	202	0		p,1005
+60542	1577	Tibetan (Written)	dzin-pa	dzin-pa	raw(meat)	raw(meat)		7.1.8.3	202	0		1005,s
+60543	539	Trung [Dulong] (Dulonghe)	śiʔ⁵⁵	śiʔ⁵⁵	louse	louse		2.2.6	203	0		2609
+60544	541	Trung [Dulong] (Nujiang)	śɯʔ⁵⁵	śɯʔ⁵⁵	louse	louse		2.2.6	203	0		2609
+60545	1577	Tibetan (Written)	śig	śig	louse	louse		2.2.6	203	0		
+60546	684	Jingpho	tsiʔ	tsiʔ	louse	louse		2.2.6	203	0		2609
+60547	1067	Mikir [Karbi]	rek	rek	louse	louse		2.2.6	203	0		
+60548	578	Garo	tik	tik	louse	louse		2.2.6	203	0		
+60549	1203	Anong	śi	śi	louse	louse		2.2.6	203	0		2609
+60550	983	Lushai [Mizo]	hrik	hrik	louse	louse		2.2.6	203	0		
+60551	735	Kanauri	rik	rik	louse	louse		2.2.6	203	0		
+60552	377	Bunan	śrig	śrig	louse	louse		2.2.6	203	0		
+60553	206	Achang (Longchuan)	pha³¹ tśhek³⁵	pha³¹ tśhek³⁵	louse	louse		2.2.6	203	0		
+60554	539	Trung [Dulong] (Dulonghe)	tśiʔ⁵⁵	tśiʔ⁵⁵	twist	twist		6.7.6	204	0		179
+60555	541	Trung [Dulong] (Nujiang)	tśhɯʔ⁵⁵	tśhɯʔ⁵⁵	twist	twist		6.7.6	204	0		179
+60556	407	Burmese (Written)	rac	rac	wind around, encircle	wind around, encircle		3.2.1	204	0		179
+60557	843	Lahu	śɨ̂	śɨ̂	twist	twist		6.7.6	204	0		
+60558	241	Akha	yeu LS	yeu LS	twist	twist		6.7.6	204	0		179
+60559	1577	Tibetan (Written)	khyig-pa	khyig-pa	bind	bind		6.13.1	204	0		180
+60560	407	Burmese (Written)	kyats	kyats	twist hard and tight	twist hard and tight		6.7.6	204	0		180
+60561	814	*Kuki	d-khik	d-khik	bind	bind		6.13.1	204	0	u	
+60562	539	Trung [Dulong] (Dulonghe)	aŋ³¹ nik⁵⁵ ra³¹	aŋ³¹ nik⁵⁵ ra³¹	younger brother	younger brother			205	0		
+60563	541	Trung [Dulong] (Nujiang)	aŋ³¹ nyi⁵⁵ nam	aŋ³¹ nyi⁵⁵ nam	younger brother	younger brother			205	0		
+60564	843	Lahu	ɔ̀-ni-pā	ɔ̀-ni-pā	younger brother	younger brother			205	0		5450,m,m
+60565	241	Akha	à-nyí	à-nyí	younger brother	younger brother			205	0		
+60566	407	Burmese (Written)	nyi	nyi	younger brother	younger brother			205	0		
+60568	367	Bokar Lhoba	nɯ◦ro	nɯ◦ro	younger brother	younger brother			205	0		2492,m
+60569	206	Achang (Longchuan)	a³¹ nyi⁵⁵	a³¹ nyi⁵⁵	younger brother	younger brother			205	0		
+60570	208	Achang (Luxi)	zya⁵⁵ niʔ³¹	zya⁵⁵ niʔ³¹	younger brother	younger brother			205	0		
+60571	539	Trung [Dulong] (Dulonghe)	ɳi⁵⁵ śi³¹	ɳi⁵⁵ śi³¹	love	love		8.3.1.1.1	206	0		m,3494
+60572	541	Trung [Dulong] (Nujiang)	ńi⁵⁵ śi³¹	ńi⁵⁵ śi³¹	love	love		8.3.1.1.1	206	0		m,3494
+60573	683	Jingpho	ńwái	ńwái	love	love		8.3.1.1.1	206	0		1160
+60574	1598	Tiddim	-ŋa:i	-ŋa:i	love	love		8.3.1.1.1	206	0		1160
+60575	983	Lushai [Mizo]	uai	uai	hang on to, make love	hang on to, make love		10.1.1	206	0		1160
+60577	1481	Tangkhul	sa-ŋai kachi	sa-ŋai kachi	that which one likes to do	that which one likes to do		10.1	206	0		m,1160,m
+60578	1481	Tangkhul	khə◦ŋáy	khə◦ŋáy	desire	desire		8.3.1.14.3	206	0	D0	m,1160
+60579	539	Trung [Dulong] (Dulonghe)	ɳɯl⁵⁵	ɳɯl⁵⁵	fingernail	fingernail		1.5.10.1	207	0		
+60580	541	Trung [Dulong] (Nujiang)	ńun⁵³	ńun⁵³	fingernail	fingernail		1.5.10.1	207	0		
+60581	684	Jingpho	lə◦myin	ləmyin	fingernail	fingernail		1.5.10.1	207	0		695,513
+60582	407	Burmese (Written)	asàń	asàń	fingernail	fingernail		1.5.10.1	207	0		
+60583	1203	Anong	ńin	ńin	fingernail	fingernail		1.5.10.1	207	0		
+60584	526	Digaro	mśi	mśi	fingernail	fingernail		1.5.10.1	207	0		
+60585	1057	Kaman [Miju]	msen	msen	claw	claw		1.5.10.4	207	0	u	512
+60586	1577	Tibetan (Written)	senmo	senmo	fingernail	fingernail		1.5.10.1	207	0		
+60587	1087	Tsangla (Motuo)	tshiŋ-naŋ	tshiŋ-naŋ	fingernail	fingernail		1.5.10.1	207	0		
+60588	1690	Atsi [Zaiwa]	loʔ³¹ siŋ³¹	loʔ³¹ siŋ³¹	fingernail	fingernail		1.5.10.1	207	0		695,512
+60589	208	Achang (Luxi)	laʔ³¹ səŋ³⁵	laʔ³¹ səŋ³⁵	fingernail	fingernail		1.5.10.1	207	0		695,m
+60590	843	Lahu	ɔ̀-śɛ̄-qú	ɔ̀-śɛ̄-qú	fingernail	fingernail		1.5.10.1	207	0		5450,512,m
+60591	539	Trung [Dulong] (Dulonghe)	a³¹ duuŋ⁵⁵	a³¹ duuŋ⁵⁵	middle	middle		1.9.4	208	0		p,3447
+60592	541	Trung [Dulong] (Nujiang)	a³¹ duuŋ⁵⁵	a³¹ duuŋ⁵⁵	middle	middle		1.9.4	208	0		p,3447
+60593	983	Lushai [Mizo]	tsyhuŋ	tsyhuŋ	inside (of anything)	inside (of anything)		9.2.5	208	0		1628
+60594	1598	Tiddim	suŋ	suŋ	middle	middle		1.9.4	208	0		1628
+60595	356	Bodo	siŋ	siŋ	middle	middle		1.9.4	208	0		1628
+60596	533	Dimasa	bisiŋ	bisiŋ	middle	middle		1.9.4	208	0		1628
+60597	1607	Trung [Dulong]	a◦tuŋ	a◦tuŋ	middle	middle		1.9.4	208	0	D0	p,3447
+60598	1333	Anong (Rawang)	ə◦duŋ	ə◦duŋ	in, middle	in, middle		10.1.1	208	0		p,3447
+60599	482	Chinese (Old/Mid)	tjôŋ	tjôŋ	middle	middle		1.9.4	208	0		3447
+60600	482	Chinese (Old/Mid)	t̑juŋ	t̑juŋ	middle	middle		1.9.4	208	0		3447
+60601	539	Trung [Dulong] (Dulonghe)	tɯ³¹ ma⁵⁵	tɯ³¹ ma⁵⁵	arrow	arrow		5.15	209	0		p,2386
+60602	541	Trung [Dulong] (Nujiang)	tɯ³¹ ma⁵⁵	tɯ³¹ ma⁵⁵	arrow	arrow		5.15	209	0		p,2386
+60603	1203	Anong	thə◦ma	thəma	arrow	arrow		5.15	209	0		p,2386
+60604	647	Hayu	blo	blo	arrow	arrow		5.15	209	0		2386
+60605	304	Bahing	bla	bla	arrow	arrow		5.15	209	0		2386
+60606	1173	Newar	balā	balā	arrow	arrow		5.15	209	0		2386
+60607	996	Magar	mya	mya	arrow	arrow		5.15	209	0		2386
+60608	684	Jingpho	pəla	pəla	arrow	arrow		5.15	209	0		2386
+60609	407	Burmese (Written)	hmrà	hmrà	arrow	arrow		5.15	209	0		2386
+60610	578	Garo	bra	bra	arrow	arrow		5.15	209	0		2386
+60611	533	Dimasa	bala	bala	arrow	arrow		5.15	209	0		2386
+60612	1481	Tangkhul	mə◦la	məla	arrow	arrow		5.15	209	0	D0	m,2386
+60613	539	Trung [Dulong] (Dulonghe)	a³¹ gɔi⁵³	a³¹ gɔi⁵³	monkey	monkey		2.1.9	210	0		p,2782
+60614	181	*Tibeto-Burman	k-|woy	k-woy	monkey	monkey		2.1.9	210	0		2782
+60615	684	Jingpho	woi~ we	woi~ we	monkey	monkey		2.1.9	210	0		2782,2782
+60616	664	Jili	tə◦we	tə◦we	monkey	monkey		2.1.9	210	0		m,2782
+60617	718	Kadu	kwe	kwe	monkey	monkey		2.1.9	210	0		2782
+60618	1203	Anong	ə◦wɛ	ə◦wɛ	monkey	monkey		2.1.9	210	0		p,2782
+60619	1104	Tangsa (Moshang)	vi-sil	vi-sil	monkey	monkey		2.1.9	210	0	D0	2782,m
+60620	1400	Shangge	yok-vi	yok-vi	monkey	monkey		2.1.9	210	0	D0	2462,2782
+60621	1607	Trung [Dulong]	a-koi	a-koi	monkey	monkey		2.1.9	210	0	D0	p,2782
+60622	541	Trung [Dulong] (Nujiang)	ka³¹ neʔ⁵⁵	ka³¹ neʔ⁵⁵	small	small		9.7.2	211	0		
+60623	683	Jingpho	ʃa³¹ ŋai³¹	ʃa³¹ ŋai³¹|	bear children	bear children	v	2.2.3	211	0		p,90
+60624	407	Burmese (Written)	ŋai	ŋai	small, little, inferior	small, little, inferior		9.7.2	211	0		90
+60625	407	Burmese (Written)	ŋai cany toŋ kyê	ŋai cany toŋ kyê	since childhood	since childhood		10.1.2.2	211	0		
+60626	356	Bodo	ma◦ŋáy	ma◦ŋáy	small	small		9.7.2	211	0		p,90
+60627	206	Achang (Longchuan)	nyi⁵⁵	nyi⁵⁵	small	small		9.7.2	211	0		
+60628	208	Achang (Luxi)	ŋəi³¹	ŋəi³¹	small	small		9.7.2	211	0		90
+60629	203	Achang (Lianghe)	ŋɛ⁵⁵	ŋɛ⁵⁵	small	small		9.7.2	211	0		90
+60630	539	Trung [Dulong] (Dulonghe)	aŋ³¹ peʔ⁵⁵	aŋ³¹ peʔ⁵⁵	chaff	chaff		3.1.6	212	0		
+60631	407	Burmese (Written)	phwâi	phwâi	husks, chaff	husks, chaff		3.1.2	212	0		2585
+60632	983	Lushai [Mizo]	phuai	phuai	shavings	shavings		6.9.2	212	0		
+60633	1514	Thado	wai	wai	chaff	chaff		3.1.6	212	0		
+60634	1598	Tiddim	-vaai	-vaai	chaff	chaff		3.1.6	212	0		2585
+60635	1046	Meithei	way	way	chaff	chaff		3.1.6	212	0	u	
+60636	683	Jingpho	poi³³	poi³³	float through the air	float through the air		6.6.1	212	0		
+60639	1067	Mikir [Karbi]	phe-ke	phe-ke	chaff	chaff		3.1.6	212	0		2585
+60640	1119	Mpi	koʔ² phɯ²	koʔ² phɯ²	chaff	chaff		3.1.6	212	0		
+60641	843	Lahu	vàʔ-phɨ̂	vàʔ-phɨ̂	chaff	chaff		3.1.6	212	0		
+60642	206	Achang (Longchuan)	oʔ⁵⁵ phoi³¹	oʔ⁵⁵ phoi³¹	chaff	chaff		3.1.6	212	0		
+60643	208	Achang (Luxi)	waʔ³¹ phui³⁵	waʔ³¹ phui³⁵	chaff	chaff		3.1.6	212	0		
+60644	203	Achang (Lianghe)	wa³¹ phu⁵⁵	wa³¹ phu⁵⁵	chaff	chaff		3.1.6	212	0		
+60645	1690	Atsi [Zaiwa]	phui³¹	phui³¹	chaff	chaff		3.1.6	212	0		
+60646	539	Trung [Dulong] (Dulonghe)	mar⁵⁵	mar⁵⁵	face	face		1.2.5	213	0		1188
+60647	541	Trung [Dulong] (Nujiang)	mar⁵⁵	mar⁵⁵	face	face		1.2.5	213	0		1188
+60648	1577	Tibetan (Written)	mur	mur	gills	gills		1.3.5.3	213	0		467
+60649	1577	Tibetan (Written)	mur-goŋ	mur-goŋ	temples	temples		1.2.5.1	213	0		467,2025
+60650	1577	Tibetan (Written)	mur-gram	mur-gram	jaw	jaw		1.2.5.2	213	0		467,262
+60651	983	Lushai [Mizo]	hmuur	hmuur	point, tip, prow	point, tip, prow		6.2.2.2	213	0		467
+60652	1514	Thado	mu	mu	face	face		1.2.5	213	0		1187
+60653	1203	Anong	mr [mər]	mr [mər]	face, mouthful	face, mouthful		1.2.5	213	0		467
+60654	1481	Tangkhul	khə◦mor	khə◦mor	mouth	mouth		1.3.1	213	0	D0	p,467
+60655	1091	Tshona (Mama)	ŋor⁵⁵	ŋor⁵⁵	face	face		1.2.5	213	0		1192
+60656	591	Kaman [Miju]	a³¹ ŋal³⁵	a³¹ ŋal³⁵	face	face		1.2.5	213	0		m,1192
+60657	539	Trung [Dulong] (Dulonghe)	mɯ³¹ dzyal⁵³	mɯ³¹ dzyal⁵³	sister	sister		4.7.2	214	0		
+60658	684	Jingpho	dzyan	dzyan	sister	sister		4.7.2	214	0		
+60659	983	Lushai [Mizo]	far-nu	far-nu	sister	sister		4.7.2	214	0		2215,m
+60660	1481	Tangkhul	ə◦zǎr-vǎ	əzǎr-vǎ	sister (man talking)	sister (man talking)		4.7.2	214	0		m,2215,s
+60661	1045	Meithei	itsyal~itsyan	itsyal~itsyan	sister	sister		4.7.2	214	0		
+60662	718	Kadu	san	san	younger sister	younger sister			214	0		
+60663	181	*Tibeto-Burman	ka	ka	bitter	bitter		7.1.4.4	1	0		229
+60664	181	*Tibeto-Burman	ka	ka	crow	crow		2.2.4.1	2	0		2279
+60665	181	*Tibeto-Burman	kuk	kuk	basket	basket		5.1	3	0		1617*
+60666	181	*Tibeto-Burman	r-|kuw	r-kuw	steal	steal		6.2.2.1	4	0		2365
+60667	181	*Tibeto-Burman	m-|kum	m-kum	pillow	pillow		1.2.1	5	0		692
+60668	181	*Tibeto-Burman	kuw	kuw	uncle	uncle		4.7.1	6	0		2362
+60669	181	*Tibeto-Burman	m-|ka	m-ka	chin	chin		1.2.5.3	7	0		273
+60670	181	*Tibeto-Burman	ka	ka	word, speech	word, speech		8.5.10.2	8	0		1754
+60672	181	*Tibeto-Burman	kay ⪤ *gay	kay ⪤ *gay	plant	plant		3.1.10	10	0		5384,5384
+60673	181	*Tibeto-Burman	(s-)kəw|=*(s-)kuw	(s-)kəw=|*(s-)kuw	body	body		1.1.1	11	0		2,2
+60674	181	*Tibeto-Burman	d-kuw|	d-kuw|	nine	nine		9.9	12	0		2364
+60675	181	*Tibeto-Burman	kwiy=*kwəy ⪤ **d-k-wiy	kwiy=*kwəy ⪤ **d-k-wiy	dog	dog		2.1.11	13	0		1764
+60676	181	*Tibeto-Burman	kywiy	kywiy	yam	yam		3.1.5	14	0		2381
+60677	181	*Tibeto-Burman	kaang	kaang	roast, toast	roast, toast		5.5	15	0		119
+60678	181	*Tibeto-Burman	s-|kar	s-|kar	star	star		3.2.2	16	0		2300
+60680	181	*Tibeto-Burman	gwa-|n ⪤ *kwa-|n	gwa-n ⪤ *kwa-n	wear	wear		6.2.2.1	18	0		2256,2256
+60683	181	*Tibeto-Burman	gung	gung	body	body		1.1.1	21	0		1
+60684	181	*Tibeto-Burman	ka ⪤ ŋa	ka ⪤ ŋa	I	I		4.1	22	0		m,2530
+60685	181	*Tibeto-Burman	l/|b-|ŋa	l/|b-|ŋa	five	five		9.9	23	0		1306
+60686	181	*Tibeto-Burman	ŋya	ŋya	fish	fish		2.2.5	24	0		1455
+60687	181	*Tibeto-Burman	d-|ŋul	d-ŋul	silver	silver		3.2.4	25	0		2536
+60688	181	*Tibeto-Burman	r-|ŋya	r-ŋya	borrow	borrow		6.22	26	0		2541
+60689	181	*Tibeto-Burman	ŋuw	ŋuw	weep, cry	weep, cry		1.8.8.2	27	0		1104
+60690	181	*Tibeto-Burman	ŋwa	ŋwa	cattle	cattle		2.1.2	28	0		2538
+60691	181	*Tibeto-Burman	r-|tul	r-tul	roll	roll		6.7.6	29	0		2713
+60692	181	*Tibeto-Burman	twa	twa	span	span		1.5.9.4	30	0		1281
+60693	181	*Tibeto-Burman	twiy	twiy	short	short		9.7.2	31	0		
+60694	181	*Tibeto-Burman	ta-|s	ta-s	hear	hear		1.2.7.4	32	0		1408
+60695	181	*Tibeto-Burman	du-|t ⪤ *tu-|t	du-t ⪤ *tu-t	join, tie, knot	join, tie, knot		6.13.5	33	0		2207,2207
+60696	181	*Tibeto-Burman	tay	tay	big	big		9.7.2	34	0		2697
+60700	181	*Tibeto-Burman	r-|tas	r-tas	thick	thick		9.7.2	38	0		178
+60701	181	*Tibeto-Burman	taŋ	taŋ	fir, pine	fir, pine		3.1.1	39	0		2690
+60703	181	*Tibeto-Burman	tu	tu	dig	dig		6.11	41	0		3573
+60704	181	*Tibeto-Burman	dwaaŋ	dwaaŋ	pit, hole	pit, hole		3.1.2	42	0		822
+60705	181	*Tibeto-Burman	dyam	dyam	full	full		1.1.3.2	43	0		132
+60706	181	*Tibeto-Burman	dyam	dyam	flat	flat		7.1.5.1	44	0		132
+60708	181	*Tibeto-Burman	s-|nok	s-nok	bean	bean		3.1.4	46	0		2067
+60709	148	*Lolo-Burmese	nok	nok	bean	bean		3.1.4	46	0		2067
+60710	181	*Tibeto-Burman	g/|r-|na	g/|r-|na	ear	ear		1.2.7	47	0		811
+60711	181	*Tibeto-Burman	nuk	nuk	brain	brain		1.2.4	48	0		243
+60712	181	*Tibeto-Burman	s-niŋ|	s-niŋ|	brain	brain		1.2.4	49	0		251
+60713	181	*Tibeto-Burman	s-|nak	s-nak	black	black		9.4	50	0		2483
+60715	181	*Tibeto-Burman	g-|ni-|s	g-|ni-|s	two	two		9.9	52	0		2504
+60716	181	*Tibeto-Burman	nam	nam	sun	sun		3.2.10	53	0		2484
+60717	181	*Tibeto-Burman	niy=*nəy	niy=*nəy	day	day		1.5.3.2	54	0		85,85
+60718	181	*Tibeto-Burman	s-|na	s-na	nose	nose		1.2.8	55	0		803
+60719	181	*Tibeto-Burman	naŋ ⪤ **na	naŋ ⪤ **na	you	you		4.1	56	0		2489
+60720	181	*Tibeto-Burman	naaw	naaw	younger sibling	younger sibling			57	0		2492
+60721	181	*Tibeto-Burman	ni(y)	ni(y)	aunt	aunt		4.7.1	58	0		2507
+60722	181	*Tibeto-Burman	n(y)ik	n(y)ik	shit	shit		1.8.5	59	0		2520
+60723	181	*Tibeto-Burman	s-|niŋ	s-niŋ	year	year		9.1.2	60	0		2501
+60724	181	*Tibeto-Burman	na	na	rest	rest		1.1.4.1	61	0		84
+60725	181	*Tibeto-Burman	ney	ney	hair (head)	hair (head)		1.2.3	62	0		368
+60726	181	*Tibeto-Burman	nup ⪤ *nip	nup ⪤ *nip	west	west		9.2.8	63	0		2517,2517
+60727	181	*Tibeto-Burman	s-|nam ⪤ |*m-|nam	s-|nam ⪤ |*m-|nam	smell (vt.)	smell (vt.)		1.2.8.5	64	0		1415
+60728	181	*Tibeto-Burman	piy	piy	grandmother	grandmother		4.7.1	65	0	D0	2559
+60729	181	*Tibeto-Burman	pwa	pwa	father	father		4.7.1	66	0		x
+60730	181	*Tibeto-Burman	puw	puw	price	price		5.9	67	0		2583
+60731	181	*Tibeto-Burman	paŋ = *pwaŋ	paŋ = *pwaŋ	spindle	spindle		5.1	68	0		5400,5400
+60732	181	*Tibeto-Burman	r-|pat	r-|pat	leech	leech		2.2.6	69	0		2555
+60733	181	*Tibeto-Burman	put	put	knee	knee		1.5.8.4	70	0		436
+60734	181	*Tibeto-Burman	buw	buw	insect, snake	insect, snake		2.2.6	71	0		2178
+60735	181	*Tibeto-Burman	bup	bup	rot / rotten	rot / rotten		3.1.10	72	0		5407
+60736	181	*Tibeto-Burman	d-baŋ	d-baŋ	mute / deaf	mute / deaf		1.5.3.2	73	0		
+60737	181	*Tibeto-Burman	ba	ba	thin	thin		9.7.2	74	0		5551
+60738	181	*Tibeto-Burman	be ⪤ *pe	be ⪤ *pe	break / broken	break / broken		9.5	75	0		3487,3487
+60739	181	*Tibeto-Burman	biy	biy	give	give		6.23	76	0		2158
+60740	181	*Tibeto-Burman	byer	byer	fly	fly	v.	2.2.6	77	0		2189
+60741	181	*Tibeto-Burman	r-mok	r-mok	wear on head / hat	wear on head / hat		6.2.2.1	78	0		
+60742	181	*Tibeto-Burman	ma-|t	ma-t	forget	forget		8.3.1.16.1	79	0		1860?
+60743	181	*Tibeto-Burman	s-|mut	s-|mut	blow	blow		1.3.1.4	80	0		503
+60744	181	*Tibeto-Burman	ma	ma	negative	negative		10.6.2	81	0		2436
+60745	181	*Tibeto-Burman	r-maŋ|	r-maŋ|	dream	dream		1.1.4.2	82	0		126
+60746	181	*Tibeto-Burman	mey	mey	fire	fire		3.2.12.2	83	0		2136
+60747	181	*Tibeto-Burman	r-|may~mey	r-may~mey	tail	tail		1.4.10.1	84	0		1288,5545
+60748	181	*Tibeto-Burman	r-|ma ⪤ *r-|ma-|t	r-ma ⪤ *r-ma-t	wound	wound		1.8.6.2	85	0		1788,1788
+60749	181	*Tibeto-Burman	muw	muw	eagle	eagle		2.2.4.1	86	0		2471
+60750	181	*Tibeto-Burman	s-|min	s-|min	ripe	ripe		3.1.10	87	0		2449
+60751	181	*Tibeto-Burman	mik ⪤ myak	mik ⪤ myak	eye	eye		1.2.6	88	0		33,33
+60752	181	*Tibeto-Burman	r-|muw=*r-|məw ⪤ *r-|muuk	r-|muw=*r-|məw ⪤ *r-|muuk	sky / cloud / fog	sky / cloud / fog		3.2.1	89	0		2473
+60753	181	*Tibeto-Burman	mul	mul	hair / fur	hair / fur		1.2.3	90	0		363
+60754	181	*Tibeto-Burman	mit	mit	extinguish	extinguish		3.2.12.1	91	0	D0	31
+60756	181	*Tibeto-Burman	s-|man	s-man	medicine	medicine		5.4	93	0		5434
+60757	181	*Tibeto-Burman	g-|sum	g-|sum	three	three		9.9	94	0		2666
+60758	181	*Tibeto-Burman	m-sak|	m-sak|	itch, itchy	itch, itchy		1.6.5.5	95	0		1457
+60759	181	*Tibeto-Burman	g-|sat	g-|sat	kill, hit	kill, hit		6.4	96	0		1018
+60760	181	*Tibeto-Burman	m-si(y)|	m-si(y)|	comb	comb	n.	1.2.2.1	97	0	D0	1219
+60761	181	*Tibeto-Burman	syey	syey	know	know		8.3.1.12.1	98	0		2670
+60762	181	*Tibeto-Burman	swa-|n	swa-n	garlic	garlic		3.1.5	99	0		5494
+60763	181	*Tibeto-Burman	sar	sar	new	new		9.6.1.1	100	0		2651
+60764	181	*Tibeto-Burman	siy=*səy	siy=*səy	die	die		1.1.6	101	0		27,27
+60765	181	*Tibeto-Burman	sey	sey	fruit	fruit		3.1.5	102	0		1019
+60766	181	*Tibeto-Burman	siŋ	siŋ	tree, wood	tree, wood		3.1.2	103	0		2658
+60767	181	*Tibeto-Burman	m-|sin	m-|sin	liver	liver		1.7.3	104	0		1390
+60768	181	*Tibeto-Burman	m-|sow	m-|sow	arise, awaken	arise, awaken		1.1.4	105	0		142
+60769	181	*Tibeto-Burman	zik	zik	leopard	leopard		2.1.3	106	0		2805
+60770	181	*Tibeto-Burman	r-|tsiy=(r-)tśrəy|	r-tsiy=(r-)tśrəy	count	count		6.2.2.2	107	0		2738,2738
+60771	181	*Tibeto-Burman	tsap	tsap	repay	repay		6.22	108	0		2732
+60772	181	*Tibeto-Burman	tsaŋ	tsaŋ	person	person		4.5	109	0		
+60773	181	*Tibeto-Burman	(t)syaŋ=*syaŋ	(t)syaŋ=*syaŋ	clean	clean		6.2.2.5.2	110	0		2745,2745
+60774	181	*Tibeto-Burman	tsap	tsap	chop	chop		6.9.3	111	0		430
+60775	181	*Tibeto-Burman	tsow	tsow	pointed	pointed		6.2.2.2	112	0		2741
+60777	181	*Tibeto-Burman	(t)sa	(t)sa	earth, dirt	earth, dirt		3.2.11	114	0		
+60778	181	*Tibeto-Burman	tsyow	tsyow	boil	boil		6.6	115	0		2749
+60779	181	*Tibeto-Burman	tsow	tsow	fat	fat	adj.	1.6.4	116	0		42
+60780	181	*Tibeto-Burman	ts(y)i ⪤ *ziy	ts(y)i ⪤ *ziy	urine	urine		1.8.4	117	0		650,650
+60781	181	*Tibeto-Burman	m-|ts(y)il ⪤ *m-|thil	m-ts(y)il ⪤ *m-thil	spittle	spittle		1.2.6	118	0	D0	600,600
+60782	181	*Tibeto-Burman	tsa ⪤ *za	tsa ⪤ *za	child, son	child, son		1.5.3.2	120	0		2727,1012
+60787	181	*Tibeto-Burman	dza ⪤ dža	dza ⪤ dža	food	food		5.5	125	0		36,36
+60788	181	*Tibeto-Burman	syam	syam	iron	iron		3.2.4	126	0		2676
+60789	181	*Tibeto-Burman	sya	sya	meat, flesh	meat, flesh		1.1.1.1	127	0		34
+60790	181	*Tibeto-Burman	syar	syar	east	east		9.2.8	128	0		2677
+60791	181	*Tibeto-Burman	lway	lway	easy	easy		9.6.1.1	129	0		2426
+60792	181	*Tibeto-Burman	lwaay	lwaay	buffalo	buffalo		2.1.2	130	0		2427
+60794	181	*Tibeto-Burman	liŋ	liŋ	neck	neck		1.4.2	132	0		479
+60795	181	*Tibeto-Burman	b-|liy	b-liy	grandchild	grandchild		4.7.3	133	0	D0	2410
+60796	181	*Tibeto-Burman	g-|li	g-|li	armpit	armpit		1.5.1.2.3	134	0		1289
+60797	181	*Tibeto-Burman	s-|lay	s-|lay	tongue	tongue		1.3.3	135	0		621
+60798	181	*Tibeto-Burman	lap	lap	leaf	leaf		3.1.3	136	0		824
+60799	181	*Tibeto-Burman	m-|lyak ⪤ *s-lyak	m-|lyak ⪤ *s-lyak	lick	lick		1.3.3.1	137	0		629
+60800	181	*Tibeto-Burman	klup ⪤ **k-lup	klup ⪤ **k-lup	bury	bury		6.11	138	0		
+60801	181	*Tibeto-Burman	r-|luŋ	r-|luŋ	stone	stone		3.2.9	139	0		1269
+60802	181	*Tibeto-Burman	b-|la	b-la	cotton	cotton		5.1	140	0		2387
+60803	181	*Tibeto-Burman	s-|liy	s-liy	flea	flea		2.2.6	141	0		2414
+60804	181	*Tibeto-Burman	s-|lum=*zlum	s-lum=*zlum	round	round		9.7.1	142	0		690,690
+60805	181	*Tibeto-Burman	lum	lum	warm	warm		7.1.2.3	143	0		2420
+60806	181	*Tibeto-Burman	s-|liy	s-liy	heavy	heavy		9.6.2	144	0		2415
+60809	181	*Tibeto-Burman	la[a]m	la[a]m	fathom	fathom		9.8	147	0		1310
+60810	181	*Tibeto-Burman	mliy	mliy	plain (earth)	plain (earth)		3.2.5	148	0		2453
+60811	181	*Tibeto-Burman	raŋ	raŋ	we (inclusive)	we (inclusive)		4.1	149	0		
+60812	181	*Tibeto-Burman	b-|ray	b-ray	fear	fear		8.3.1.10.1	150	0		2602
+60813	181	*Tibeto-Burman	rey	rey	string, thread	string, thread		5.1	151	0		533
+60814	181	*Tibeto-Burman	rwak	rwak	ant	ant		2.2.6	152	0		2631
+60815	181	*Tibeto-Burman	rus	rus	bone	bone		1.6.3	153	0		232
+60816	181	*Tibeto-Burman	s-|ram=*sram	s-ram=*sram	otter	otter		2.2.7.1	154	0		2595,2595
+60817	181	*Tibeto-Burman	praŋ=*b-raŋ ⪤ *s-raŋ	praŋ=*b-raŋ ⪤ *s-raŋ	morning	morning		9.1.4	155	0		144
+60819	181	*Tibeto-Burman	rap=*trap/drap	rap=*trap/drap	fireplace	fireplace		5.11.5.5	157	0		2599
+60820	181	*Tibeto-Burman	row	row	pine, fir	pine, fir		3.1.1	158	0		2620
+60821	181	*Tibeto-Burman	g-|ryap	g-ryap	stand	stand		1.5.2	159	0		145
+60822	181	*Tibeto-Burman	rey ⪤ **ley	rey ⪤ **ley	saw	saw	n.	5.11.5.3	160	0		
+60823	181	*Tibeto-Burman	bwat	bwat	flower	flower		3.1.4	161	0		2185
+60824	181	*Tibeto-Burman	r-|wa=*r-|pwa	r-wa=*r-pwa	axe	axe		5.11.5.3	162	0		2772,2772
+60826	181	*Tibeto-Burman	pwaŋ	pwaŋ	uncle	uncle		4.7.1	164	0		2183
+60827	181	*Tibeto-Burman	ip=yip	ip=yip	sleep	sleep		1.1.4.1	165	0		127,127
+60828	181	*Tibeto-Burman	kriy	kriy	gall bladder	gall bladder		1.7.3	166	0		227
+60829	181	*Tibeto-Burman	kruw	kruw	horn	horn		1.2.2	167	0		819
+60830	181	*Tibeto-Burman	kriy	kriy	foot	foot		1.5.2	168	0		335
+60831	181	*Tibeto-Burman	ra, **d-ra-t	ra, **d-ra-t	cut, chop	cut, chop		6.9.3	169	0		
+60832	181	*Tibeto-Burman	kr(w)et	kr(w)et	scrape, shave	scrape, shave		6.3	170	0		6131
+60842	181	*Tibeto-Burman	k-|rum ⪤ k-|rim	k-rum ⪤ k-rim	meet	meet		6.2	171	0		5391,5391
+60843	181	*Tibeto-Burman	kraŋ	kraŋ	firefly	firefly		2.2.6	172	0		2328
+60845	181	*Tibeto-Burman	grâk ⪤ *krâk	grâk ⪤ *krâk	fear, frighten	fear, frighten		8.3.1.10.1	174	0		2249,2249
+60846	181	*Tibeto-Burman	groy	groy	scream, bark	scream, bark		8.5.4.1	175	0		2250
+60847	181	*Tibeto-Burman	klak ⪤ *glak	klak ⪤ *glak	cook, boil	cook, boil		5.5	176	0		2316,2316
+60848	181	*Tibeto-Burman	d-ruk| ⪤ d-k|-rok|	d-ruk| ⪤ d-k|-rok|	six	six		9.9	177	0		2621,2621
+60849	181	*Tibeto-Burman	d-|rup=drup	d-rup=drup	sew	sew		5.1	178	0		2627,2627
+60850	181	*Tibeto-Burman	s-|braŋ ⪤ *briŋ	s-braŋ ⪤ *briŋ	name	name		5.8	179	0		2169,2169
+60851	181	*Tibeto-Burman	brum	brum	smallpox	smallpox		5.3	180	0		
+60852	181	*Tibeto-Burman	riy ⪤ **b-riy(-t/k/n)	riy ⪤ **b-riy(-t/k/n)	write	write		6.2.2.9.1	181	0		2616
+60853	181	*Tibeto-Burman	kyim ⪤ *kyum	kyim ⪤ *kyum	house	house		5.11.9.1	182	0		1612,1612
+60854	181	*Tibeto-Burman	b-|r-gyat|	b-|r-gyat|	eight	eight		9.9	183	0		2259
+60855	181	*Tibeto-Burman	r-|gya	r-|gya	hundred	hundred		9.9	184	0		2258
+60857	181	*Tibeto-Burman	s-nis|	s-nis|	seven	seven		9.9	186	0		2505
+60858	181	*Tibeto-Burman	s-|nap	s-nap	snot	snot		1.8.2	187	0		805
+60859	181	*Tibeto-Burman	rya-|t	rya-t	joke, laugh	joke, laugh		8.5.9	188	0		1108
+60862	181	*Tibeto-Burman	kwaay	kwaay	bee	bee		2.2.6	191	0		2370
+60863	181	*Tibeto-Burman	s-|lay	s-lay	change	change		9.5	192	0		2137
+60864	181	*Tibeto-Burman	kap=*kəp	kap=*kəp	needle	needle		5.1	193	0		5398,5398
+60865	181	*Tibeto-Burman	krap	krap	fan, winnow	fan, winnow		5.4	194	0		2329
+60868	181	*Tibeto-Burman	g-|lwat ⪤ *s-|lwat	g-lwat ⪤ *s-lwat	slippery	slippery		7.1.4.2	197	0		2425,2425
+60869	181	*Tibeto-Burman	k-|rak	k-|rak	chicken	chicken		2.1.10	198	0		1606
+60870	181	*Tibeto-Burman	-u	-u	head	head		1.2.1	199	0		385
+60871	181	*Tibeto-Burman	b-liy|	b-liy|	four	four		9.9	200	0		2409
+60872	181	*Tibeto-Burman	s-hwiy|=|s-hywəy|	s-hwiy|=|s-hywəy|	blood	blood		1.6.2	201	0		230
+60873	181	*Tibeto-Burman	dzim	dzim	raw, unripe	raw, unripe		7.1.8.3	202	0		1005
+60874	181	*Tibeto-Burman	s-|rik=*śrik	s-rik=*śrik	louse	louse		2.2.6	203	0		2609,2609
+60876	181	*Tibeto-Burman	nyey	nyey	younger brother	younger brother			205	0		
+60877	181	*Tibeto-Burman	ŋ-(w)ay|	ŋ-(w)ay|	love	love		8.3.1.1.1	206	0		1160
+60878	181	*Tibeto-Burman	m-|(t)sin=|*m-tsyen|	m-|(t)sin=|*m-tsyen|	fingernail	fingernail		1.5.10.1	207	0		511
+60879	181	*Tibeto-Burman	tuuŋ	tuuŋ	middle	middle		1.9.4	208	0		3447
+60880	181	*Tibeto-Burman	b-|la ⪤ m-|la	b-la ⪤ m-la	arrow	arrow		5.15	209	0		2386,2386
+60881	181	*Tibeto-Burman	woy=|(b)woy	woy=|(b)woy	monkey	monkey		2.1.9	210	0		2782
+60882	181	*Tibeto-Burman	ŋay	ŋay	small	small		9.7.2	211	0		90
+60883	181	*Tibeto-Burman	pwaay	pwaay	chaff	chaff		3.1.6	212	0		2585
+60884	181	*Tibeto-Burman	muur	muur	face	face		1.2.5	213	0		467
+60885	181	*Tibeto-Burman	dzar	dzar	sister	sister		4.7.2	214	0		2215
+145895	181	*Tibeto-Burman	guk ⪤ *kuk	guk ⪤ *kuk	bent	bent		9.7.2	17	0		2252,2252
+145896	181	*Tibeto-Burman	**gwak~**gyak	**gwak~**gyak	vegetable	vegetable		3.1.2	19	0		
+145897	181	*Tibeto-Burman	s-|ga	s-ga	saddle	saddle		5.14	20	0		5674
+145898	1990	*Sino-Tibetan	*tyik ⪤ *tyak	*tyik ⪤ *tyak	one	one		9.9	35	0		2726,2726
+145899	181	*Tibeto-Burman	**-tup ⪤ **-t/dwap	**-tup ⪤ **-t/dwap	cut	cut		6.9.3	36	0		
+145900	181	*Tibeto-Burman	**tsak ⪤ **ty(w)ak	**tsak ⪤ **ty(w)ak	drip	drip		6.6	37	0		
+145901	181	*Tibeto-Burman	tu ⪤ *du	tu ⪤ *du	nephew	nephew		4.7.3	40	0		2708,2708
+145902	181	*Tibeto-Burman	m-|tuk ⪤ *s-|tuuk ⪤ s-|duuk	m-tuk ⪤ *s-tuuk ⪤ s-duuk	spit, vomit	spit, vomit		1.8.3	45	0		601,601,601
+145903	181	*Tibeto-Burman	ʔnak ⪤ *nak	ʔnak ⪤ *nak	deep	deep		7.1.5.3	51	0		2483?
+145904	181	*Tibeto-Burman	m-yet ⪤ *b-yet [Matisoff 1978a p. 211] ⪤ **myit	m-yet ⪤ *b-yet [Matisoff 1978a p. 211] ⪤ **myit	think, remember	think, remember		8.3.1.13.1	92	0		
+145905	181	*Tibeto-Burman	t(y)a-|n ⪤ *t(s)aay	t(y)a-n ⪤ *t(s)aay	red	red		9.4	113	0		5721,5721
+145906	148	*Lolo-Burmese	ʔziy <*a-ziy	ʔziy <*a-ziy	small(1)	small(1)		9.7.2	121	0		
+145907	181	*Tibeto-Burman	tsit	tsit	goat (mountain)	goat (mountain)		2.1.8	122	0		1226
+145908	181	*Tibeto-Burman	(m-)|hla	(m-)hla	god	god		5.8.1.1	131	0		2264
+145909	181	*Tibeto-Burman	s-|la ⪤ *g-|la=*s-|gla	s-la ⪤ *g-la=*s-gla	moon	moon		3.2.2	145	0		1016,1016,1016
+145910	181	*Tibeto-Burman	lo/uŋ ⪤ **lo/uk	lo/uŋ ⪤ **lo/uk	maggot	maggot		2.2.6	146	0		
+145911	181	*Tibeto-Burman	tak=*trak	tak=*trak	weave	weave		5.1	156	0		2686,2686
+145912	181	*Tibeto-Burman	pwak	pwak	pig	pig		2.1.12	163	0		1006
+145914	181	*Tibeto-Burman	grwa-ŋ	grwa-ŋ	village	village		5.8	173	0		5776
+145915	181	*Tibeto-Burman	k(y)at	k(y)at	(sudden) lateral action	(sudden) lateral action			185	0		6705
+145916	148	*Lolo-Burmese	mwat	mwat	star (-moon)	star (-moon)		3.2.2	189	0		3577
+145917	181	*Tibeto-Burman	may ⪤ *mey	may ⪤ *mey	rice / paddy	rice / paddy		3.1.4	190	0		2445,2445
+145918	148	*Lolo-Burmese	{*Ngwap ⪤ *Ngrap ⪤ *Ngyap} ⪤ {*Ȼ-kwap ⪤ *Ȼ-krap}	{*Ngwap ⪤ *Ngrap ⪤ *Ngyap} ⪤ {*Ȼ-kwap ⪤ *Ȼ-krap}	munch	munch		1.3.4.5	195	0		
+145919	148	*Lolo-Burmese	Ȼ-|pat ⪤ *pan1/2	Ȼ-|pat ⪤ *pan1/2	braid	braid		1.2.3.2	196	0		2018,2018
+145920	181	*Tibeto-Burman	kik	kik	twist, bind	twist, bind		6.7.6	204	0		180
+147383	1577	Tibetan (Written)	thul-pa	thul-pa	dress made from the skins of animals	dress made from the skins of animals		10.1.1	29	0		2713,m
+147384	684	Jingpho	nip	nip	shade, cast a shadow, be overcast, dim	shade, cast a shadow, be overcast, dim		3.2.10	63	0		
+147385	1577	Tibetan (Written)	ʔa-baŋ~baŋ-po	ʔa-baŋ~baŋ-po	father's / mother's sister's husband	father's / mother's sister's husband		1.5.3.2	164	0		m,2183,2183,m
+147386	887	Lashi	vaŋ-mo	vaŋ-mo	father's older sister's husband, husband's father	father's older sister's husband, husband's father		1.5.3.2	164	0	u	2183,m
+147387	684	Jingpho	goi	goi	crow (cock); squeak (some snakes); laugh loudly	crow (cock); squeak (some snakes); laugh loudly		2.2.4.1	175	0		
+147388	356	Bodo	bəynay	bəynay	wife's younger brother, younger sister's husband	wife's younger brother, younger sister's husband		1.5.3.2	205	0		
+147389	983	Lushai [Mizo]	ŋāi	ŋāi	long for, miss, feel earnest desire for, copulate	long for, miss, feel earnest desire for, copulate		10.1	206	0		
+147390	876	Lakher [Mara]	pai	pai	scattered, disperse; emigrate, migrate	be scattered, disperse; emigrate, migrate	be v.	6.10.3	212	0		
+147391	1481	Tangkhul	khəŋəpuy	khəŋəpuy	fly in a group (bees), swarm, be scattered everywhere	fly in a group (bees), swarm, be scattered everywhere		2.2.6	212	0		
+167660	203	Achang (Lianghe)	tu³¹	tu³¹	dig	dig		6.11	41	0		3573
+168848	181	*Tibeto-Burman	ziy ⪤ **tsiy	ziy ⪤ **tsiy	small(1)	small(1)		9.7.2	121	0		2806
+448153	591	Kaman [Miju]	kɯ³¹ tśi⁵³	kɯ³¹ tśi⁵³	goat (mountain)	goat (mountain)		2.1.8	122	0	u	m,1226
+448154	591	Kaman [Miju]	so⁵⁵li⁵⁵	so⁵⁵li⁵⁵	saw	saw	n.	5.11.5.3	160	0		
+505693	148	*Lolo-Burmese	ʔgak	ʔgak	branch	branch		1.5.3.1	9	0		1278
+505694	181	*Tibeto-Burman	s-|kaak ⪤ **s-|k(w)aak	s-kaak ⪤ **s-k(w)aak	branch	branch		1.5.3.1	9	0		1278,1278
+505697	148	*Lolo-Burmese	gok	gok	bent	bent		9.7.2	17	0		
+505698	148	*Lolo-Burmese	ʔgyak	ʔgyak	vegetable	vegetable		3.1.2	19	0		5376
+505699	148	*Lolo-Burmese	C-|ti-|k	C-ti-k	one	one		9.9	35	0		2726
+505700	148	*Lolo-Burmese	ʔtwap ⪤ *Ȼ-dwap	ʔtwap ⪤ *Ȼ-dwap	cut	cut		6.9.3	36	0		
+505701	148	*Lolo-Burmese	Ntsak	Ntsak	drip	drip		6.6	37	0		190
+505702	1990	*Sino-Tibetan	ty(w)ak	ty(w)ak	drip	drip		6.6	37	0		
+505703	148	*Lolo-Burmese	du	du	nephew	nephew		4.7.3	40	0		
+506209	148	*Lolo-Burmese	-nak	-nak	deep	deep		7.1.5.3	51	0		6130
+506210	148	*Lolo-Burmese	put	put	knee	knee		1.5.8.4	70	0		436
+506211	148	*Lolo-Burmese	Nbup	Nbup	rot / rotten	rot / rotten		3.1.10	72	0		5407
+506212	148	*Lolo-Burmese	s-|myak	s-|myak	eye	eye		1.2.6	88	0		681
+506213	1990	*Sino-Tibetan	mya[a]k	mya[a]k	eye	eye		1.2.6	88	0		681
+506214	148	*Lolo-Burmese	tsit [88] ⪤ *V-|cit	tsit [88] ⪤ *V-cit	goat (mountain)	goat (mountain)		2.1.8	122	0		1226,m,1226
+506215	148	*Lolo-Burmese	dzing1	dzing1	clf. for trees	clf. for trees		10.1.3	124	0		
+506216	181	*Tibeto-Burman	dzing	dzing	clf. for trees	clf. for trees		10.1.3	124	0		
+506217	181	*Tibeto-Burman	s-la	s-la	easy	easy		9.6.1.1	129	0		p,2426?
+506218	181	*Tibeto-Burman	s-l(w)a-|y	s-l(w)a-y	easy	easy		9.6.1.1	129	0		p,2426
+506219	148	*Lolo-Burmese	k-|luŋ ⪤ *k-|luk	k-luŋ ⪤ *k-luk	maggot	maggot		2.2.6	146	0		5432,5432
+506220	1990	*Sino-Tibetan	mliy	mliy	plain (earth)	plain (earth)		3.2.5	148	0		
+506221	148	*Lolo-Burmese	rak ⪤ *tak/*dak ⪤ *k-rak	rak ⪤ *tak/*dak ⪤ *k-rak	weave	weave		5.1	156	0		5669
+506222	181	*Tibeto-Burman	d-rak	d-rak	weave	weave		5.1	156	0		
+506224	1607	Trung [Dulong]	śiŋ-wat	śiŋ-wat	flower	flower		3.1.4	161	0		2658,2185
+506225	148	*Lolo-Burmese	wak	wak	pig	pig		2.1.12	163	0		1006
+506226	1995	Adi	ip	ip	sleep	sleep		1.1.4.1	165	0		127
+506230	181	*Tibeto-Burman	s-|nyap	s-nyap	snot	snot		1.8.2	187	0		805
+506231	181	*Tibeto-Burman	s-|ŋywat	s-ŋywat	star (-moon)	star (-moon)		3.2.2	189	0		3577
+506232	1990	*Sino-Tibetan	s-|ŋywat	s-ŋywat	star (-moon)	star (-moon)		3.2.2	189	0		3577
+506233	181	*Tibeto-Burman	r-|ley ⪤ b-|rey	r-ley ⪤ b-rey	buy, barter	buy, barter		6.22	192	0		369,2606
+506234	148	*Lolo-Burmese	bat	bat	wind around	wind around		3.2.1	196	0		171
+506235	181	*Tibeto-Burman	b(l)at/n	b(l)at/n	braid	braid		1.2.3.2	196	0		2018
+506236	407	Burmese (Written)	kywat	kywat	loosed, freed	loosed, freed		6.13.1	197	0		2425
+506237	148	*Lolo-Burmese	r-|sik ⪤ *s-|yik	r-sik ⪤ *s-yik	twist	twist		6.7.6	204	0		179,179
+506238	1318	Qiang (Mawo)	pa	pa	chaff	chaff		3.1.6	212	0		2585
+506239	1322	Qiang (Taoping)	pə³¹	pə³¹	chaff	chaff		3.1.6	212	0		2585
+512498	181	*Tibeto-Burman	gok	gok	bent	bent		9.7.2	17	0		2252
+512499	1091	Tshona (Mama)	tut	tut	join, tie, knot	join,tie,knot		6.13.5	33	0		2207
+512500	1091	Tshona (Mama)	tup⁵³	tup⁵³	cut	cut		6.9.3	36	0		
+512501	148	*Lolo-Burmese	{*tik ⪤ *dzik} ⪤ *ndzak	{*tik ⪤ *dzik} ⪤ *ndzak	drip	drip		6.6	37	0		190,190,190
+512502	203	Achang (Lianghe)	myit³¹ la³⁵	myit³¹ la³⁵	forget	forget		8.3.1.16.1	92	0		
+512503	482	Chinese (Old/Mid)	swân	swân	garlic	garlic		3.1.5	99	0		5494
+512504	148	*Lolo-Burmese	ziy	ziy	urine	urine		1.8.4	117	0		650
+512505	407	Burmese (Written)	sè	sè	urine	urine		1.8.4	117	0		650
+512506	939	Lisu	rzì	rzì	urine	urine		1.8.4	117	0		650
+512507	148	*Lolo-Burmese	ʔ-|dzan3 ⪤ *tsan3	ʔ-dzan3 ⪤ *tsan3	stretch out	stretch out		9.5	123	0		5720,5720
+512508	1690	Atsi [Zaiwa]	ling⁵⁵	ling⁵⁵	round	round		9.7.1	142	0		

@@ -1,0 +1,38 @@
+tag: 1310
+grpid: 2
+proto_language: PTB
+protoform: s-la(ː)m
+gloss: ARMSPAN / FATHOM / CORD
+semkey: '9.8'
+sequence: 1059.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC p.71, HPTB pp.48, 251, 298
+phonology:
+  handle: lam
+  initial: l
+  rhyme: am
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: la(a)m ⪤ hla(a)m
+  gloss: YARD / ARMSPAN / CORD
+- grpid: 5
+  group: 1.1.1
+  form: rjam
+  gloss: FATHOM
+- grpid: 42
+  group: '6.1'
+  form: s-lam¹/²
+  gloss: FATHOM
+- grpid: 50
+  group: '7'
+  form: blaᴮ
+  gloss: ARMSPAN (with closed hand)
+notes:
+- type: F
+  text: '<par><hanform>尋</hanform> OC <latinform>*dzi̯əm</latinform>, GSR #662a &apos;measure of 8 chǐ
+    (<hanform>尺</hanform>)&apos;; B &amp; S 2011: <latinform>*sə-ləm {sə-l[ə]m}</latinform>; Mand. <latinform>xún</latinform>.</par>'

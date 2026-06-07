@@ -1,0 +1,47 @@
+tag: 3450
+grpid: 2
+proto_language: PTB
+protoform: m-pup ⪤ pip
+gloss: KISS / SUCK / SUCKLE
+semkey: 1.3.2.1
+sequence: 5.0
+status: KEEP
+public: true
+references: 'cf. AW/TBT #''s 651, 1017'
+phonology:
+  handle: buP
+  initial: b
+  rhyme: up/t/k
+  initcover: P
+  rhymecover: T
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: pup ~ puk
+  gloss: KISS
+notes:
+- type: T
+  text: '<par>This etymon displays the same <reconstruction>*-u- ⪤ *-i-</reconstruction> variation found
+    with <xref ref="5541">#5541</xref>, as well as a similar variation in the position of articulation
+    of the final stop: compare Bengni <latinform>muː-pup</latinform>, Rongmei <latinform>ka-pút</latinform>,
+    and Sunwar <latinform>&apos;pu:k◦pu &apos;pā-cā</latinform>. Weidert 1987 (#651, #1017) sets up &quot;Kuki-Naga-Chin&quot;
+    <reconstruction>*m-but</reconstruction>, and J. Sun 1993 reconstructs Proto-Tani <reconstruction>*pup
+    ⪤ *puk</reconstruction>, but in TB generally <latinform>-p</latinform> seems to be the most widespread
+    final consonant.</par><par>The two labials (initial and final) in this root have an imitative flavor,
+    apparently mimicking the labial activity involved in sucking and kissing.</par>'
+- type: T
+  text: <par>This allofam with <latinform>-u-</latinform> vocalism is more common, and so far it is only
+    before this variant that the nasal prefix is attested. This prefix should be set up for PTB as a whole,
+    since it occurs in Himalayish (Bunan) <latinform>a◦mbok də◦ca</latinform> and Qiangic (rGyalrong)
+    <latinform>kəwu◦nəpok</latinform>, as well as widely in Naga languages. This variant frequently occurs
+    in compounds after reflexes of <xref ref="3451">#3451</xref>, below (e.g. Milang <latinform>mum-pup-ma</latinform>),
+    and this may in fact be the source of the prefixal <reconstruction>*m-</reconstruction> in my reconstruction.</par>
+- type: T
+  text: <par>The allofam <latinform>pip</latinform> has so far only been found in Himalayish. </par><par>Some
+    reflexes show final <latinform>-t</latinform> or <latinform>-k</latinform>. For similar variability
+    of the final consonant, see <xref ref="5541">#5541</xref>, <xref ref="5537">#5537</xref>, <xref ref="5540">#5540</xref>.
+    The variation in position of articulation of the final consonant seems clearly to have been caused
+    by the influence of suffixal material. Cf. the consonantal sequences across morpheme boundary in forms
+    like Bantawa <latinform>phïpt-</latinform> and Chamling <latinform>pips-</latinform>, which seem to
+    lie behind forms like Limbu <latinform>piːtt-</latinform>, where the labial final has been assimilated
+    to an earlier dental suffix. Note also the variation between final stop and nasal in Thulung.</par>

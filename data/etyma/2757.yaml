@@ -1,0 +1,21 @@
+tag: 2757
+grpid: 2
+proto_language: PTB
+protoform: dzyiːp
+gloss: SHUT / CLOSE (v.) / CLOSE TOGETHER
+semkey: 6.2.2.6.2
+sequence: 2973.0
+status: KEEP
+public: true
+references: cf. STC#370, HPTB pp. 31, 353
+phonology:
+  handle: tsyi
+  initial: ts(y)
+  rhyme: iːp=tśi
+  initcover: TS
+  rhymecover: TS
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tsi(i)p
+  gloss: CLOSE / SHUT

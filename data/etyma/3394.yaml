@@ -1,0 +1,18 @@
+tag: 3394
+grpid: 2
+proto_language: PTB
+protoform: dway
+gloss: SHOULDER
+semkey: 1.4.3
+sequence: 18.0
+status: DELETE
+public: false
+phonology:
+  handle: duy
+  initial: d
+  rhyme: uy or dw
+  initcover: T
+  rhymecover: LW
+notes:
+- type: I
+  text: <par>This sparsely attested etymon has so far only been found in two languages.</par>

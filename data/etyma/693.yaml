@@ -1,0 +1,21 @@
+tag: 693
+grpid: 2
+proto_language: PTB
+protoform: s-pyak
+gloss: DESTROY / DESTROYED / RUINED
+semkey: '6.9'
+sequence: 7.0
+status: KEEP
+public: true
+references: 'cf. TSR #64, HPTB p.323'
+phonology:
+  handle: pyak
+  initial: py
+  rhyme: ak ~ bya
+  initcover: P
+  rhymecover: WT
+notes:
+- type: T
+  text: <par>The Jingpho forms with final <latinform>-k</latinform> are loans from Burmese, since PTB
+    <reconstruction>*-k</reconstruction> regularly becomes Jingpho <latinform>-ʔ</latinform>. Jingpho
+    <latinform>byáʔ</latinform> is apparently the regular cognate to the Burmese forms.</par>

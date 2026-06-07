@@ -1,0 +1,1941 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+451512	1964	Sak	a◦hú	ahú	head	head		1.2.1	1	0		p,386
+451513	1964	Sak	ahú=kəna	ahú=kəna	headache	headache		1.2.1	1a	0		
+451514	1964	Sak	a◦hú◦miŋ	ahúmiŋ	hair of head	hair of head		1.2.3	1-1	0		p,386,m
+451515	1964	Sak	a◦hú◦miŋ◦phro	ahúmiŋphro	white hair	white hair		9.4	1-1a	0		p,386,m,m
+451516	1964	Sak	sɨ	sɨ	comb hair	comb hair		1.2.2.1	1-1b	0		
+451517	1964	Sak	húsɨ	húsɨ	comb	comb		1.2.2.1	1-1c	0		
+451518	1964	Sak	saiŋkháʔ	saiŋkháʔ	hairpin	hairpin		5.11.8.3	1-1d	0		
+451519	1964	Sak	kyaŋləláʔ	kyaŋləláʔ	bald	bald		1.2.3.4	1-2	0		
+451520	1964	Sak	kyáŋ	kyáŋ	get bald	get bald		1.1.5	1-2a	0		
+451521	1964	Sak	góŋgyáŋ	góŋgyáŋ	bald head	bald head		1.2.3.4	1-2b	0		
+451522	1964	Sak	gúŋdúʔ	gúŋdúʔ	shaven head	shaven head		6.9.2	1-2c	0		
+451523	1964	Sak	ú◦nóʔ	ú◦nóʔ	brain	brain		1.2.4	1-3	0		385,243
+451524	1964	Sak	nə◦phú◦ja	nəphúja	forehead	forehead		1.2.5.1	2	0		356,2024,m
+451525	1964	Sak	a◦míʔ	a◦míʔ	eye	eye		1.2.6	3	0		p,682
+451526	1964	Sak	amíʔkóláʔ	amíʔkóláʔ	eyelid	eyelid		1.2.6.4	3a	0		
+451527	1964	Sak	myáʔráiʔmuŋ	myáʔráiʔmuŋ	eyebrow	eyebrow		1.2.6.6	4	0		
+451528	1964	Sak	a◦míʔ◦kóláʔmuŋ	a◦míʔ◦kóláʔmuŋ	eyelash	eyelash		1.2.6.5	4a	0		p,682,m
+451529	1964	Sak	amíʔkəɨ́	amíʔkəɨ́	tears	tears		1.2.6.7	5	0		
+451530	1964	Sak	míʔ◦kre	míʔkre	blind	blind		1.2.6.14.2	6	0		682,m
+451531	1964	Sak	a◦sə◦kə◦nú	asəkənú	nose	nose		1.2.8	7	0		p,p,p,803
+451532	1964	Sak	a◦náiʔ	anáiʔ	snot	snot		1.8.2	7a	0		
+451533	1964	Sak	asəkənúʃi	asəkənúʃi	nasal mucus (solid)	nasal mucus (solid)		1.8.2	7b	0		
+451534	1964	Sak	asəkənúse	asəkənúse	nosebleed	nosebleed		1.2.8	7c	0		
+451535	1964	Sak	a◦kəná	a◦kəná	ear	ear		1.2.7	8	0		p,811
+451536	1964	Sak	nəbáŋ	nəbáŋ	deaf	deaf		1.2.7.5	9	0		
+451537	1964	Sak	áŋsɨ	áŋsɨ	mouth	mouth		1.3.1	10	0		
+451538	1964	Sak	asətúŋ	asətúŋ	lip	lip		1.3.2	11	0		
+451539	1964	Sak	a◦səlíʔ	asəlíʔ	tongue	tongue		1.3.3	12	0		p,621
+451540	1964	Sak	búbá	búbá	dumb	dumb		8.5.4.4	13	0		
+451541	1964	Sak	á	á	stutter	stutter		8.5.4.5	13a	0		
+451542	1964	Sak	asəvá	asəvá	teeth	teeth		1.3.4	14	0		
+451543	1964	Sak	həɨ́	həɨ́	saliva	saliva		1.8.3	15	0		
+451544	1964	Sak	məháʔ	məháʔ	phlegm	phlegm		1.8.3	15a	0		
+451545	1964	Sak	ʃarekəɨ́	ʃarekəɨ́	slobber	slobber			15b	0		
+451546	1964	Sak	svu◦saʔ=kɨ́ŋ	svusaʔ=kɨ́ŋ	breathe	breathe		1.1.2.2	16	0		m,32,m
+451547	1964	Sak	svu◦saʔ	svusaʔ	breath	breath		1.1.2.2	16a	0		m,32
+451548	1964	Sak	ákra	ákra	voice	voice		8.5.5	17	0		
+451549	1964	Sak	kruʔsuʔ+róga	kruʔsuʔ+róga	cough	cough		1.8.3.3	18	0		
+451550	1964	Sak	kruʔsuʔ	kruʔsuʔ	cough	to cough	v	1.8.3.3	18a	0		
+451551	1964	Sak	haiʔkhyɨ́ŋ	haiʔkhyúŋ	sneeze	sneeze		1.8.2.1	19	0		
+451552	1964	Sak	arəváiŋ	arəváiŋ	yawn	yawn		1.3.1.3	20	0		
+451553	1964	Sak	ahə◦ɓɯ́ʔ	ahə◦ɓɯ́ʔ	jaw	jaw		1.2.5.2	21	0		
+451554	1964	Sak	amáiŋ	amáiŋ	face	face		1.2.5	22	0		
+451555	1964	Sak	a◦nə◦báŋ	a◦nə◦báŋ	cheek	cheek		1.2.5.2	23	0		p,p,263
+451556	1964	Sak	asətúŋmuŋ	asətúŋmuŋ	moustache	moustache		1.2.5.5	24	0		
+451557	1964	Sak	ahəɓɯ́ʔmuŋ	ahəɓɯ́ʔmuŋ	beard	beard		1.2.5.5	24a	0		
+451558	1964	Sak	á◦kə◦duʔ	ákəduʔ	neck	neck		1.4.2	25	0		p,p,359
+451559	1964	Sak	gúʔlaiŋ	gúʔlaiŋ	nape	nape		1.4.2.1	25a	0		
+451560	1964	Sak	ákru	ákru	larynx	larynx		1.3.5.4	26	0		
+451561	1964	Sak	arəyáʔ	arəyáʔ	shoulder	shoulder		1.4.3	27	0		
+451562	1964	Sak	láʔkədiʔ	láʔkədiʔ	armpit	armpit		1.5.1.2.3	27-1	0		
+451563	1964	Sak	təhú	təhú	arm	arm		1.5.1.2	28	0		
+451564	1964	Sak	táiŋdoŋ	táiŋdoŋ	elbow	elbow		1.5.8.3	29	0		
+451565	1964	Sak	təhúʃáiʔ	təhúcháʔ	wrist	wrist		1.5.8.1	29-1	0		
+451566	1964	Sak	təhú	təhú	hand	hand		1.5.1.1	30	0		
+451567	1964	Sak	taʔ◦práiŋ	taʔpráiŋ	palm of hand	palm of hand		1.5.5	30a	0		700,m
+451568	1964	Sak	təhúhɨ́ŋ	təhúhɨŋ	back of one's hand	fingernail		1.5.10.1	30b	0		
+451569	1964	Sak	taʔ◦ʃiʔ	taʔʃiʔ	finger	finger		1.5.6	31	0		699,331
+451570	1964	Sak	taʔ◦miŋ	taʔmiŋ	nail / claw	nail / claw		1.5.10	32	0		700,m
+451571	1964	Sak	láʔ◦síʔ	láʔsíʔ	fist	fist		1.5.1.1.1	32-1	0		695,m
+451572	1964	Sak	raŋpháiʔ	raŋpháiʔ	chest / breast	chest / breast		1.4.4.3	33	0		
+451573	1964	Sak	ácuʔ	ácuʔ	woman's breast	woman's breast		1.9.3	34	0		
+451574	1964	Sak	ácuʔ|səna	ácuʔsəna	nipple	nipple			34-1	0		
+451575	1964	Sak	naiŋgáiŋ	naiŋgáiŋ	rib	rib		1.4.4.3	34-2	0		
+451576	1964	Sak	asúʔ	asésúʔ	lung	lung		1.7.2	34-3	0		
+451577	1964	Sak	anəlɨ́ŋ	asésúʔ	heart	heart		1.7.1	35	0		
+451578	1964	Sak	apɨ́ʔ	apɨ́ʔ	belly / stomach	belly / stomach		1.4.7	36	0		
+451579	1964	Sak	a◦pɨ́ʔ◦wvu◦sa	apɨ́ʔwvusa	intestines	intestines		1.7.7	37-1	0		p,m,2102,m
+451580	1964	Sak	ácəthuʔ	ácəthuʔ	stomach	stomach		1.7.6	37-2	0		
+451581	1964	Sak	áŋ◦siŋ	áŋ◦siŋ	liver	liver		1.7.3	38	0		p,1390
+451582	1964	Sak	áhəkəɨ́	áhəkəɨ́	bile	bile		1.7.3.1	38A	0		
+451583	1964	Sak	ásəlu	ásəlu	navel	navel		1.9.4	39	0		
+451584	1964	Sak	ásəlusəna	ásəlusəna	umbilical cord	umbilical cord			39a	0		
+451585	1964	Sak	akəsáŋ	akəsáŋ	back	back		1.4.8	40	0		
+451586	1964	Sak	kə◦phaiʔ	kəphaiʔ	waist	waist		1.4.6	41	0		p,3368
+451587	1964	Sak	álobáiŋ	álobáiŋ	buttock	buttock		1.4.9.2	42	0		
+451588	1964	Sak	álohúŋ	álohúŋ	anus	anus		1.4.10.2	42a	0		
+451589	1964	Sak	ʃi	ʃi	shit / excrement	shit / excrement		1.8.5	42-1	0		
+451590	1964	Sak	ʃi=cáiʔ	ʃi=cáiʔ	defecate	defecate		1.8.5.4	42-2	0		
+451591	1964	Sak	coháʔthuʔ	coháʔthuʔ	bladder	bladder		1.7.8	42-3	0		
+451592	1964	Sak	coháʔ	coháʔ	urine	urine		1.8.4	42-4	0		
+451593	1964	Sak	co=sɨ	co=sɨ	urinate	urinate		1.5.3.2	42-5	0		
+451594	1964	Sak	ʃi=phí	ʃi=phí	fart	fart		1.8.5.2	42-6	0		
+451595	1964	Sak	a◦kyí	akyí	penis	penis			42-7	0		p,641
+451596	1964	Sak	a◦kyí◦tvu	akyítvu	testicle	testicle			42-8	0		p,641,301
+451597	1964	Sak	ápaʔ	ápaʔ	pubic region	pubic region		1.9.1	42-9	0		
+451598	1964	Sak	ápaʔ=rɨ	ápaʔ=rɨ	copulate	copulate		1.9.1.1	42-10	0		
+451599	1964	Sak	átəkəbóʔ	átəkəbóʔ	thigh	thigh		1.5.7.1	42-11	0		
+451600	1964	Sak	átəhvú	átəhvú	knee	knee		1.5.8.4	43	0		
+451601	1964	Sak	á◦ta	áta	leg	leg		1.5.7	44	0		
+451602	1964	Sak	á◦ta	áta	foot	foot		1.5.2	45	0		
+451603	1964	Sak	átəmíʔ	átəmíʔ	ankle	ankle		1.5.8.2	45a	0		
+451604	1964	Sak	á◦ta◦səlúŋsa	átasəlúŋsa	calf (of leg)	calf (of leg)		1.5.7	45b	0		
+451605	1964	Sak	átathóʔ	átathóʔ	heel	heel		1.5.2.1	45c	0		
+451606	1964	Sak	taki	taki	lame	lame		1.5.12	46	0		
+451607	1964	Sak	kaiŋtha	kaiŋtha	body	body		1.1.1	47	0		
+451608	1964	Sak	á◦muŋ	ámuŋ	body hair	body hair		1.6.1	48	0		p,363
+451609	1964	Sak	a◦láʔ	aláʔ	skin	skin		1.6.5	49	0		p,602
+451610	1964	Sak	taiŋjaiʔ	taiŋjaiʔ	birthmark / mole	birthmark / mole		1.1.2	49-1	0		
+451611	1964	Sak	sənaŋpədvu	sənaŋpədvu	mole	mole		2.2.7	49-1A	0		
+451612	1964	Sak	lograŋ	lograŋ	Mongolian spot (type of birthmark)	Mongolian spot (type of birthmark)		1.1.2	49-1a	0		
+451613	1964	Sak	təgí	təgí	swelling / tumor	swelling / tumor		1.1.5.2	49-1b	0		
+451614	1964	Sak	maŋ	maŋ	tattoo	tattoo		5.11.8.3	49-2	0		
+451615	1964	Sak	svu	svu	pus	pus		1.8.6.1	50	0		1293
+451616	1964	Sak	atəú	atəú	sweat	sweat		1.8.1	51	0		
+451617	1964	Sak	saiŋgrɨ	saiŋgrɨ	body dirt / crud	body dirt / crud		1.1.1	52	0		
+451618	1964	Sak	húgrɨ	húgrɨ	dandruff	dandruff		1.2.1.5	52a	0		
+451619	1964	Sak	se	se	blood	blood		1.6.2	53	0		230
+451620	1964	Sak	ahúkaʔ	ahúkaʔ	scab	scab		1.6.5.3	53a	0		
+451621	1964	Sak	áməra	áməra	bone	bone		1.6.3	54	0		
+451622	1964	Sak	ásaiŋ	ásaiŋ	flesh	flesh		1.1.1.1	55	0		
+451623	1964	Sak	təhoŋ	təhoŋ	strength	strength		1.1.5	56	0		
+451624	1964	Sak	ɓo	ɓo	see	see		1.2.6.10	57	0		1227
+451625	1964	Sak	yu	yu	watch	watch		1.2.6.9	57a	0		
+451626	1964	Sak	á◦tɨŋ	átɨŋ	sniff / smell	sniff / smell		1.2.8.5	58	0		p,1422
+451627	1964	Sak	táiʔ	táiʔ	hear	hear		1.2.7.4	59	0		
+451628	1964	Sak	a◦té	até	listen	listen		1.2.7.4	59a	0		p,1408
+451629	1964	Sak	a◦né	ané	laugh	laugh		1.8.8.1	60	0		p,1105
+451630	1964	Sak	hraʔ	hraʔ	weep	weep		1.8.8.2	61	0		1103
+451631	1964	Sak	ʃáʔ	ʃáʔ	shout	shout		8.5.4.1	62	0		
+451632	1964	Sak	áwaiʔ	áwaiʔ	clothes	clothes		5.11.8.2.1	63	0		
+451633	1964	Sak	tu	tu	wear / put on	wear / put on		6.2.2.1	64	0		
+451634	1964	Sak	kyí	kyí	put on (as pants)	put on (as pants)		6.17	64a	0		
+451635	1964	Sak	ʃuʔ	ʃuʔ	take off (clothes)	take off (clothes)		6.21	65	0		
+451636	1964	Sak	lóŋdədoŋ	lóŋdədoŋ	naked	naked		1.1.1	66	0		
+451637	1964	Sak	thúʔkyo	thúʔkyo	hat	hat		5.11.8.2.1.1	66-1	0		
+451638	1964	Sak	həmóʔ	həmóʔ	bamboo rain hat	bamboo rain hat		3.1.1	66-1a	0		
+451639	1964	Sak	coʔ	coʔ	wear on head	wear on head		1.2.1	66-1b	0		
+451640	1964	Sak	thí	thí	umbrella	umbrella		5.11.8.2.2	66-1c	0		
+451641	1964	Sak	a◦hú◦poŋ	ahúpoŋ	turban	turban		5.11.8.2.1.1	66-1d	0		p,386,m
+451642	1964	Sak	pəju	pəju	shirt	shirt		5.11.8.2.1.2	66-2	0		
+451643	1964	Sak	kəmú	kəmú	man's sarong	man's sarong		1.9.6.1	66-3a	0		
+451644	1964	Sak	nəphíŋ	nəphíŋ	woman's sarong	woman's sarong		1.9.3	66-3b	0		
+451645	1964	Sak	poŋphi	poŋphi	trousers	trousers		5.11.8.2.1.3	66-4	0		
+451646	1964	Sak	həbáiʔ	həbáiʔ	belt	belt		5.11.8.2.1.3	66-5	0		
+451647	1964	Sak	pəjukəná	pəjukəná	lapel	lapel			66-7	0		
+451648	1964	Sak	phənáiʔ	phənáiʔ	sandal	sandal		5.11.8.1	66-8	0		
+451649	1964	Sak	phənáiʔ-kəda	phənáiʔ-kəda	barefoot	barefoot		1.5.2.5	66-9	0		
+451650	1964	Sak	áwaiʔ	áwaiʔ	cloth	cloth		5.1	66-10	0		
+451651	1964	Sak	nə́coʔ	nə́coʔ	finger-ring	finger-ring		5.11.8.3	67-2	0		
+451652	1964	Sak	káiʔkáiʔ	káiʔkáiʔ	scissors	scissors		5.11.5.3	67-3	0		
+451653	1964	Sak	sənvu	sənvu	needle	needle		5.1	68	0		
+451654	1964	Sak	jɯ́	jɯ́	nail	nail		1.5.10	68a	0		
+451655	1964	Sak	rɨ	rɨ	thread	thread		5.11.6	69	0		
+451656	1964	Sak	khrɨ́ʔ	khrɨ́ʔ	sew	sew		5.1	70	0		2350
+451657	1964	Sak	áca	áca	food	food		5.5	71	0		
+451658	1964	Sak	acá	acá	food	food		5.5	71	0		
+451659	1964	Sak	kvúsaiʔ	kvúsaiʔ	rice (uncooked)	rice (uncooked)		3.1.4	71-1	0		
+451660	1964	Sak	púʔ	púʔ	cooked rice	cooked rice		5.5	71-1A	0		
+451661	1964	Sak	kaiŋ	kaiŋ	side dish / curry	side dish / curry		1.4.5	71-1B	0		
+451662	1964	Sak	aŋ	aŋ	rice plant	rice plant		3.1.4	71-1a	0		
+451663	1964	Sak	aŋso	aŋso	straw	straw		3.1.6.2	71-1b	0		
+451664	1964	Sak	yáʔhóʔ	yáʔhóʔ	chaff	chaff		3.1.6	71-1c	0		
+451665	1964	Sak	uruŋ	uruŋ	dried out rice	dried out rice		6.6	71-1d	0		
+451666	1964	Sak	aŋsá	aŋsá	glutinous rice	glutinous rice		7.1.4.2	71-1e	0		
+451667	1964	Sak	goŋ	goŋ	wheat	wheat		3.1.4	71-2	0		
+451668	1964	Sak	próŋ	próŋ	barley	barley		3.1.4	71-3	0		
+451669	1964	Sak	jwari	jwari	foxtail millet	foxtail millet		1.5.3.2	71-4	0		
+451670	1964	Sak	səkí	səkí	millet	millet		1.5.3.2	71-5	0		
+451671	1964	Sak	táŋle	táŋle	sugar cane	sugar cane		3.1.6.2	71-5a	0		
+451672	1964	Sak	ɓébráʔ	ɓébráʔ	bean	bean		3.1.4	71-7	0		
+451673	1964	Sak	badaŋ	badaŋ	peanut	peanut		3.1.4	71-8	0		
+451674	1964	Sak	(moida)	(moida)	powder / flour	powder / flour		3.2.11	72	0		
+451675	1964	Sak	príŋ	príŋ	taro	taro		3.1.5.1	72-1A	0		
+451676	1964	Sak	cáiʔtəgaráŋhú	cáiʔtəgaráŋhú	yam	yam		3.1.5	72-1B	0		
+451677	1964	Sak	ráŋhú	ráŋhú	potato	potato		3.1.5	72-1a	0		
+451678	1964	Sak	káiŋjóráŋhú	káiŋjóráŋhú	satsuma-imo (Japanese sweet potato)	satsuma-imo (Japanese sweet potato)		3.1.5	72-1b	0		
+451679	1964	Sak	sósəsɨ́	sósəsɨ́	cucumber	cucumber		3.1.5	72-1c	0		
+451680	1964	Sak	móla	móla	daikon radish	daikon radish		3.1.5	72-1d	0		
+451681	1964	Sak	ɓəóŋsɨ	ɓəóŋsɨ	eggplant	eggplant		3.1.5	72-1e	0		
+451682	1964	Sak	saŋphosɨ́	saŋphosɨ́	pumpkin	pumpkin		3.1.5	72-1f	0		
+451683	1964	Sak	pəlúʔsɨ	pəlúʔsɨ	okra	okra		3.1.5	72-1g	0		
+451684	1964	Sak	caiŋbráŋsɨ	caiŋbráŋsɨ	nigauri (bitter melon)	nigauri (bitter melon)		3.1.5	72-1h	0		
+451685	1964	Sak	kaiŋhəɓəloŋsɨ́	kaiŋhəɓəloŋsɨ́	kind of vegetable, a not very bitter kind of nigauri	kind of vegetable, a not very bitter kind of nigauri		8.3.3.2.1	72-1i	0		
+451686	1964	Sak	kupi	kupi	cabbage	cabbage		3.1.5.1	72-1j	0		bIndic?
+451687	1964	Sak	khəráiŋkhyaiŋsɨ́	khəráiŋkhyaiŋsɨ́	tomato	tomato		3.1.5	72-1l	0		
+451688	1964	Sak	ké	ké	ginger	ginger		3.1.5	72-1m	0		
+451689	1964	Sak	móʔka	móʔka	maize	maize		3.1.5	72-2	0		bIndic
+451690	1964	Sak	ásaiŋ	ásaiŋ	meat	meat		1.1.1.1	73	0		
+451691	1964	Sak	súŋ	súŋ	onion	onion		3.1.5	73-1	0		141
+451692	1964	Sak	súŋ◦phro	súŋphro	garlic	garlic		3.1.5	73-1a	0		141,m
+451693	1964	Sak	ásɨ	ásɨ	fruit	fruit		3.1.5	74	0		1019
+451694	1964	Sak	kráiʔsɨ	kráiʔsɨ	mango	mango			74a	0		
+451695	1964	Sak	pédəgaiŋsɨ́	pédəgaiŋsɨ́	papaya	papaya		3.1.5	74b	0		
+451696	1964	Sak	pənaiŋsɨ́	pənaiŋsɨ́	jackfruit	jackfruit		3.1.5	74c	0		
+451697	1964	Sak	cəúsɨ	cəúsɨ	banana	banana		3.1.5	74d	0		
+451698	1964	Sak	naiŋdə́rəsɨ́	naiŋdə́rəsɨ́	pineapple	pineapple		3.1.5	74e	0		
+451699	1964	Sak	uŋbúʔsɨ	uŋbúʔsɨ	pomelo	pomelo			74f	0		
+451700	1964	Sak	uráiʔsɨ	uráiʔsɨ	kind of fruit, called wood-apple in English	kind of fruit, called wood-apple in English		10.1.1	74g	0		
+451701	1964	Sak	maŋgraiŋsɨ́	maŋgraiŋsɨ́	tamarind	tamarind		3.1.5	74h	0		
+451702	1964	Sak	kyúʔpə́sɨ	kyúʔpə́sɨ	lychee	lychee			74i	0		
+451703	1964	Sak	gəyɔŋsɨ́	gəyɔŋsɨ́	guava	guava		3.1.5	74j	0		
+451704	1964	Sak	jɯ́sɨ	jɯ́sɨ	jujube	jujube		3.1.1	74k	0		
+451705	1964	Sak	uŋsɨ	uŋsɨ	coconut	coconut		3.1.4	74l	0		
+451706	1964	Sak	pháráiŋsɨ	pháráiŋsɨ	watermelon	watermelon		3.1.5	74m	0		
+451707	1964	Sak	róʔkhyɯsɨ́	róʔkhyɯsɨ́	tangerine	tangerine		3.1.5	74n	0		
+451708	1964	Sak	apéləsɨ́	apéləsɨ́	apple	apple		3.1.5	74o	0		
+451709	1964	Sak	róʔsɨ	róʔsɨ	lemon	lemon		3.1.5	74q	0		
+451710	1964	Sak	sələ́sɨ	sələ́sɨ	amalaki (Indian gooseberry) Lat: emblic myrobalans	amalaki (Indian gooseberry) Lat: emblic myrobalans		4.6	74r	0		
+451711	1964	Sak	átvu	átvu	seed	seed		3.1.4	75	0		
+451712	1964	Sak	á◦kyi	ákyi	egg	egg			76	0		
+451713	1964	Sak	cɨŋ	cɨŋ	salt	salt		3.2.4	77	0		
+451714	1964	Sak	məruʔ◦múŋsa	məruʔ◦múŋsa	pepper	pepper		3.1.5	77a	0		b,m
+451715	1964	Sak	məruʔ	məruʔ	red pepper	red pepper		9.4	77b	0		b
+451716	1964	Sak	múŋyáŋ	múŋyáŋ	mustard	mustard		3.1.4	77b-1	0		
+451717	1964	Sak	nəpiʔ	nəpiʔ	fish sauce	fish sauce		2.2.5	77c	0		
+451718	1964	Sak	kəé	kəé	turmeric	turmeric		3.1.6.1	77d	0		
+451719	1964	Sak	səgrá	səgrá	sugar	sugar		3.1.6.2	77-1	0		
+451720	1964	Sak	səgá	səgá	honey	honey		2.2.6	77-1a	0		
+451721	1964	Sak	sá	sá	oil	oil		1.6.4.1	77-3	0		
+451722	1964	Sak	asá	asá	fat / lard	fat / lard		1.6.4	78	0		
+451723	1964	Sak	cəú	cəú	milk	milk			79	0		
+451724	1964	Sak	nɯ́khyaiŋ	nɯ́khyaiŋ	yoghurt (yogurt)	yoghurt (yogurt)		5.5	79a	0		
+451725	1964	Sak	ɨ́	ɨ́	water	water		3.2.3	80	0		
+451726	1964	Sak	ɨ́◦ká	ɨ́ká	hot water	hot water			80-1	0		m,7203
+451727	1964	Sak	ahɯ́	ahɯ́	steam / vapor	steam / vapor		6.6	80-2	0		
+451728	1964	Sak	lə◦pháʔ	ləpháʔ	tea	tea		3.1.1	80-3	0		m,821
+451729	1964	Sak	ko	ko	pour	pour		6.6	80-3a	0		
+451730	1964	Sak	kəɨ́	kəɨ́	juice	juice		3.1.6.3	80-5A	0		
+451731	1964	Sak	dáiŋ	dáiŋ	dahl (a popular bean soup in Bangladesh and India)	dahl (a popular bean soup in Bangladesh and India)		10.1.1	80-5a	0		
+451732	1964	Sak	áraʔ	áraʔ	liquor	liquor		3.1.6.3	80-7	0		
+451733	1964	Sak	məliʔ	məliʔ	get drunk	get drunk		1.1.5	80-8	0		
+451734	1964	Sak	səlíʔ	səlíʔ	tobacco	tobacco		3.1.6.2	80-9	0		
+451735	1964	Sak	səlíʔ=u	səlíʔ=u	smoke tobacco	smoke tobacco		3.2.12.2	80-9a	0		
+451736	1964	Sak	kwáiŋ	kwáiŋ	betel	betel		3.1.4	80-9b	0		
+451737	1964	Sak	ákyi	ákyi	bread / cake	bread / cake		5.5	80-9c	0		
+451738	1964	Sak	təváiŋ	təvaiŋ	snack	snack		5.5	80-9d	0		
+451739	1964	Sak	ahvú	ahvú	boil	boil		6.6	81	0		
+451740	1964	Sak	hrúŋ	hrúŋ	cook	cook		5.5	81a	0		
+451741	1964	Sak	kywa	kywa	roast	roast		5.5	81-1	0		
+451742	1964	Sak	kywa	kywa	stir-fry	stir-fry		5.5	81-1A	0		
+451743	1964	Sak	póŋ	póŋ	(cook by) steam	(cook by) steam			81-1B	0		5825
+451744	1964	Sak	lo	lo	broil, roast in pan	broil, roast in pan		5.5	81-1a	0		
+451745	1964	Sak	míŋ	míŋ	ripe	ripe		3.1.10	82	0		2449
+451746	1964	Sak	akəsíŋ	akəsíŋ	unripe / raw	unripe / raw		3.1.10	82a	0		
+451747	1964	Sak	sa	sa	eat	eat		1.5.3.2	83	0		
+451748	1964	Sak	á◦taʔ	átaʔ	lick	lick		1.3.3.1	84	0		p,629
+451749	1964	Sak	akáiŋ	akáiŋ	chew	chew		1.3.4	85	0		
+451750	1964	Sak	u	u	drink	drink			86	0		
+451751	1964	Sak	cuʔ	cuʔ	smoke / suck	smoke / suck		3.2.12.2	87	0		
+451752	1964	Sak	ó◦wá	ówá	vomit	vomit		1.8.3.2	88	0		p,1796
+451753	1964	Sak	həɨ́=thóʔ	həɨ́=thóʔ	spit	spit		1.8.3	89	0		
+451754	1964	Sak	ruŋ	ruŋ	hungry	hungry		1.1.3	90	0		
+451755	1964	Sak	kaŋ	kaŋ	satiated	satiated		1.1.3.2	90a	0		135
+451756	1964	Sak	rəmáʔ	rəmáʔ	thirsty	thirsty		1.1.3.1	91	0		
+451757	1964	Sak	ahərá	ahərá	taste	taste		1.3.5.8	91-1	0		
+451758	1964	Sak	səmí	səmí	tasty / delicious	tasty / delicious		1.3.5.8	92	0		
+451759	1964	Sak	kyi	kyi	sweet	sweet		7.1.4.4	93	0		2721
+451760	1964	Sak	cɨŋ=ha	cɨŋ=ha	salty	salty		3.2.4	93-1	0		
+451761	1964	Sak	caʔ	caʔ	spicy	spicy		7.1.4.4	93-1A	0		
+451762	1964	Sak	ha	ha	bitter	bitter		7.1.4.4	94	0		
+451763	1964	Sak	hrɨ́	hrɨ́	sour	sour		7.1.4.4	94-1	0		227
+451764	1964	Sak	huʔ	huʔ	astringent	astringent		7.1.4.4	94-1a	0		
+451765	1964	Sak	ɓú	ɓú	rot	rot		3.1.10	95	0		5407
+451766	1964	Sak	təmɯ	təmɯ	mould ~ mold	mould ~ mold		3.1.7	95-1	0		
+451767	1964	Sak	kíŋ	kíŋ	house	house		5.11.9.1	96	0		1612
+451768	1964	Sak	wáŋ	wáŋ	garden	garden		9.10.4	96a	0		2270
+451769	1964	Sak	gudi	gudi	toilet	toilet		5.11.9.4	96b	0		
+451770	1964	Sak	karúŋ	karúŋ	hut / shed	hut / shed		5.11.9.1	96c	0		
+451771	1964	Sak	tuʔ	tuʔ	build	build		6.14	97	0		
+451772	1964	Sak	ahá	ahá	door	door		5.11.9.3	98	0		
+451773	1964	Sak	kraŋsəɗiʔ	kraŋsəɗiʔ	bed	bed		1.5.3.2	98-2	0		
+451774	1964	Sak	hráŋ	hráŋ	straw mat	straw mat		3.1.6.2	98-2A	0		
+451775	1964	Sak	hráŋ◦ɓíŋ	hráŋɓíŋ	rush mat	rush mat		6.7.9	98-2a	0		
+451776	1964	Sak	haiŋda	haiŋda	wall	wall		5.11.9.3	99	0		
+451777	1964	Sak	pədáŋbóʔsa	pədáŋbóʔsa	window	window		5.11.9.3	99-1	0		
+451778	1964	Sak	səhənɨ́ŋ	səhənɨ́ŋ	roof	roof		5.11.9	100	0		
+451779	1964	Sak	məraŋ	məraŋ	ceiling	ceiling		5.11.9.3.1	100a	0		
+451780	1964	Sak	vaiŋ	vaiŋ	fire	fire		3.2.12.2	101	0		
+451781	1964	Sak	vaiŋ◦lə́tho	vaiŋlə́tho	torch	torch		5.11.5.5	101a	0		
+451782	1964	Sak	vaiŋ◦hvu	vaiŋhvu	smoke	smoke		3.2.12.2	102	0		
+451783	1964	Sak	taʔ◦kəbuʔ	taʔkəbuʔ	ashes	ashes		3.2.12.2	103	0		2691,3514
+451784	1964	Sak	taiŋmúŋ	taiŋmúŋ	dust	dust		3.2.11	103a	0		
+451785	1964	Sak	səmiʔ	səmiʔ	extinguish	extinguish		3.2.12.1	104	0		
+451786	1964	Sak	hru	hru	burn	(vi) burn	vi	3.2.12.1	105	0		
+451787	1964	Sak	tɨʔ	tɨʔ	burn	burn (vt)	vt	3.2.12.1	105-1	0		
+451788	1964	Sak	túŋ	túŋ	sit	sit		6.1.1.4.1	106	0		1906
+451789	1964	Sak	phuŋ-gá awáiʔ	phuŋ-gá awáiʔ	blanket	blanket		5.11.9.4	106-1A	0		
+451790	1964	Sak	myáiŋ	myáiŋ	lie down	lie down		6.1.1.4	107-1	0		
+451791	1964	Sak	úʔhuŋ	úʔhuŋ	pillow	pillow		1.2.1	107-1a	0		
+451792	1964	Sak	iʔ	iʔ	sleep	sleep		1.1.4.1	108	0		127
+451793	1964	Sak	maŋ	maŋ	dream	(v) dream	v	1.1.4.2	109	0		126
+451794	1964	Sak	iʔ◦maŋ	iʔmaŋ	dream	a dream	n	1.1.4.2	109a	0		127,126
+451795	1964	Sak	ʃé	ʃé	awake	be awake	be v.	1.1.4	109-1	0		
+451796	1964	Sak	rɨ́ʔ	rɨ́ʔ	wake up	wake up		1.1.4	110	0		
+451797	1964	Sak	caʔ	caʔ	stand	stand		1.5.2	111	0		145
+451798	1964	Sak	ɨ́krɨŋ	ɨ́krɨŋ	well	well (n)	n	9.6.1.1	111-1	0		
+451799	1964	Sak	rəjáʔ	rəjáʔ	well (tube)	well (tube)		9.6.1.1	111-1a	0		
+451800	1964	Sak	táiŋ	táiŋ	fence	fence		5.11.9.5	111-2	0		
+451801	1964	Sak	píʔ	píʔ	shut	shut		6.2.2.6.2	112	0		5709,bBurmese?
+451802	1964	Sak	phwáŋ	phwáŋ	open	open		6.2.2.6.1	113	0		5704
+451803	1964	Sak	túŋ	túŋ	live / dwell	live / dwell		1.1.2.1	114	0		
+451804	1964	Sak	cáʔ	cáʔ	machine	machine		5.1	114-2a	0		
+451805	1964	Sak	maiŋ	maiŋ	mirror	mirror		5.11.8.3	114-3	0		
+451806	1964	Sak	kəyaʔ	kəyaʔ	fan	fan		5.4	114-3a	0		
+451807	1964	Sak	hwaʔ	hwaʔ	teacup	teacup			114-4	0		
+451808	1964	Sak	páŋgáiŋ	páŋgáiŋ	dish / plate	dish / plate		5.5	114-5	0		
+451809	1964	Sak	ɓeɓáʔ	ɓeɓáʔ	spoon	spoon		5.5	114-6	0		
+451810	1964	Sak	pwaduŋ	pwaduŋ	water jar	water jar		3.2.3	115	0		
+451811	1964	Sak	úku	úku	vase	vase			115a	0		
+451812	1964	Sak	siŋdiʔ	siŋdiʔ	wok	wok		5.5	116	0		
+451813	1964	Sak	ɨ́=ɗaŋ	ɨ́=ɗaŋ	draw / scoop water	draw / scoop water		5.8	116-1	0		
+451814	1964	Sak	ɨ́=the	ɨ́=the	pour	pour		6.6	116-2	0		
+451815	1964	Sak	ma	ma	spill over	spill over		6.6	116-3	0		
+451816	1964	Sak	kə́◦taŋ	kə́taŋ	knife	knife		5.5	117	0		p,5609
+451817	1964	Sak	kə́◦taŋ◦səvá	kə́taŋsəvá	blade (knife edge)	blade (knife edge)		1.4.3.2	118	0		p,5609,m
+451818	1964	Sak	thuŋ	thuŋ	mortar	mortar		5.5	118-1	0		2742
+451819	1964	Sak	múŋ	múŋ	pestle	pestle		5.5	118-2	0		
+451820	1964	Sak	kriʔ	kriʔ	saw	to saw	v	5.11.5.3	118-3	0		
+451821	1964	Sak	thvu	thvu	pound	to pound	v	6.8	118-4	0		
+451822	1964	Sak	tu	tu	hammer	hammer		5.11.5.4	118-5	0		
+451823	1964	Sak	jɯ́	jɯ́	nail	nail		1.5.10	118-6	0		
+451824	1964	Sak	rwá	rwá	saw	saw (n)	n	5.11.5.3	118-7	0		
+451825	1964	Sak	poʔtu	poʔtu	axe	axe		5.11.5.3	118-8	0		
+451826	1964	Sak	phərə́ba	phərə́ba	hoe	hoe		5.3	118-9	0		
+451827	1964	Sak	sáʔkre	sáʔkre	scythe	scythe		5.3	118-10	0		
+451828	1964	Sak	áiʔ	áiʔ	spade	spade		5.3	118-11	0		
+451829	1964	Sak	siŋ◦taŋgyúŋ	siŋ◦taŋgyúŋ	shovel (more exactly, an iron rod used to dig holes)	shovel (more exactly, an iron rod used to dig holes)		5.3	118-12	0		2676,m
+451830	1964	Sak	ráŋ-jíŋ	ráŋ-jíŋ	sharpen	sharpen		6.9.2	118-13	0		
+451831	1964	Sak	taiŋmúŋ	taiŋmúŋ	dust	dust		3.2.11	119	0		
+451832	1964	Sak	pwaiʔ	pwaiʔ	wipe	wipe		6.2.2.1	120	0		
+451833	1964	Sak	kəsúʔ	kəsúʔ	rub	rub		8.4	120a	0		
+451834	1964	Sak	phráiʔ	phráiʔ	sweep	sweep		6.2.2.5.3	120b	0		2587?
+451835	1964	Sak	táiʔta	táiʔta	box	box		5.1	120-1	0		
+451836	1964	Sak	áɓuŋ	áɓuŋ	lid / cover	lid / cover		5.1	120-2	0		
+451837	1964	Sak	kuŋ	kuŋ	basket	basket		5.1	120-3	0		
+451838	1964	Sak	kúŋ	kúŋ	carry basket on head	carry basket on head		6.2.2.2.1	120-3a	0		
+451839	1964	Sak	váiʔlɨ́ŋ	váiʔlɨ́ŋ	cradle	cradle		5.11.9.4	120-3b	0		
+451840	1964	Sak	ɗíʔ	ɗíʔ	bag	bag			120-4	0		
+451841	1964	Sak	rəhvu	rəhvu	rope / cord	rope / cord		5.11.4	121	0		
+451842	1964	Sak	táiŋnɨŋ	táiŋnɨŋ	fishing net	fishing net		2.2.5	122	0		
+451843	1964	Sak	moŋdó	moŋdó	walking stick	walking stick		6.7.4	122-1	0		
+451844	1964	Sak	dúʔ	dúʔ	stick	stick		3.1.2	123	0		
+451845	1964	Sak	laʔ◦ɓúŋ	laʔ◦ɓúŋ	hand net / landing net	hand net / landing net		5.11.5.4	123-a	0		695,m
+451846	1964	Sak	ke	ke	give birth	give birth		1.1.2	123-3	0		
+451847	1964	Sak	ke	ke	born	be born	be v.	1.1.2	124	0		
+451848	1964	Sak	proŋ	proŋ	grow up	grow up		9.7.2	125	0		
+451849	1964	Sak	hrɯ́	hrɯ́	bring up	bring up		6.2.2.2.2	125a	0		327
+451850	1964	Sak	síŋ	síŋ	alive	be alive	be v.	1.1.2.1	126	0		
+451851	1964	Sak	pyɯ́	pyɯ́	fat	fat		1.6.4	127	0		
+451852	1964	Sak	krɨŋ	krɨŋ	skinny / thin	skinny / thin		9.7.2	128	0		
+451853	1964	Sak	ŋyóŋ	ŋyóŋ	get tired / weary	get tired / weary		1.1.5	129	0		
+451854	1964	Sak	róga	róga	ill / sick	ill / sick		1.1.5.1	130	0		
+451855	1964	Sak	ámaiŋ	ámaiŋ	wound / injury	wound / injury		1.8.6.2	131	0		
+451856	1964	Sak	kəna	kəna	painful / sore	painful / sore		1.1.5.1	132	0		
+451857	1964	Sak	kya	kya	itchy	itchy		1.6.5.5	133	0		
+451858	1964	Sak	a◦hré	ahré	scratch	scratch		1.6.5.5	134	0		p,6131
+451859	1964	Sak	sɨ	sɨ	medicine	medicine		5.4	134-1	0		
+451860	1964	Sak	sɨ=rɨ	sɨ=rɨ	cure / treat illness	cure / treat illness		1.1.5.1	135	0		
+451861	1964	Sak	achíʔ	achíʔ	poison	poison		6.4	135-2	0		
+451862	1964	Sak	kəɗaiʔ	kəɗaiʔ	kill	kill		6.4	136	0		
+451863	1964	Sak	sɨ́	sɨ́	die	die		1.1.6	137	0		
+451864	1964	Sak	cwáiʔ	cwáiʔ	bury dead	bury dead		6.11	137-1	0		
+451865	1964	Sak	cúʔka	cúʔka	tomb / grave	tomb / grave		9.10.6	137-2	0		
+451866	1964	Sak	səgrəmáŋ	səgrəmáŋ	god	god		5.8.1.1	138	0		
+451867	1964	Sak	náiʔ	náiʔ	ghost	ghost		4.2.12.2	138a	0		
+451868	1964	Sak	həmáiŋ	həmáiŋ	demon / monster	demon / monster		4.2.12.2	138b	0		
+451869	1964	Sak	aráiŋ	aráiŋ	quarrel	quarrel		8.5.8	139	0		
+451870	1964	Sak	cáiʔ=tɨʔ	cáiʔ=tɨʔ	make war	make war		6.14	139-1	0		
+451871	1964	Sak	óŋ	óŋ	win	win		6.19	139-2	0		5698
+451872	1964	Sak	ʃúŋ	ʃúŋ	lose (e.g. war)	lose (e.g. war)		6.10.1	139-3	0		
+451873	1964	Sak	kaiʔ	kaiʔ	flee / run away	flee / run away		6.7.2	140	0		
+451874	1964	Sak	rənaʔ	rənaʔ	chase / pursue	chase / pursue		6.7.10	141	0		
+451875	1964	Sak	daʃwaiŋ	daʃwaiŋ	sword	sword		5.15	142	0		
+451876	1964	Sak	háʔpáiŋ	háʔpaiŋ	spear / javelin	spear / javelin		5.14	143	0		
+451877	1964	Sak	ákha	ákha	shield	shield		5.15	143-1	0		
+451878	1964	Sak	leháʔ	leháʔ	bow (weapon)	bow (weapon)		5.15	144	0		
+451879	1964	Sak	lóʔle	lóʔle	slingshot	slingshot		5.14	144a	0		
+451880	1964	Sak	hléjú	hléjú	arrow	arrow		5.15	145	0		
+451881	1964	Sak	nepoʔ	nepoʔ	gun / rifle	gun / rifle		5.15	145-1	0		
+451882	1964	Sak	lú	lú	person / human being	person / human being		4.5	146	0		
+451883	1964	Sak	təsəbráiŋ	təsəbráiŋ	male / man	male / man		1.9.6.1	147	0		
+451884	1964	Sak	təsəloŋ	təsəloŋ	female / woman	female / woman		1.9.3	148	0		
+451885	1964	Sak	awáʔsa	awáʔsa	baby	baby		4.2.11	148-1	0		
+451886	1964	Sak	maiŋsa	maiŋsa	child	child		1.5.3.2	149	0		
+451887	1964	Sak	təsəbráiŋsa	təsəbráiŋsa	boy / lad	boy / lad		1.9.6.1	149-1	0		
+451888	1964	Sak	təsəloŋsa	təsəloŋsa	girl	girl		1.9.3	149-2	0		
+451889	1964	Sak	óŋbróŋsa	óŋbróŋsa	youth / young man	youth / young man		4.2.11	149-3	0		
+451890	1964	Sak	náŋsɨsa	náŋsɨsa	young woman	young woman		7.1.8.3	149-4	0		
+451891	1964	Sak	óŋbróŋ	óŋbróŋ	young	young	n.	7.1.8.3	150	0		
+451892	1964	Sak	uʔ◦sa	uʔsa	aged / old (of people)	aged / old (of people)	n.	1.0	151	0		
+451893	1964	Sak	avá	avá	father	father		4.7.1	152	0		
+451894	1964	Sak	anɯ́	anɯ́	mother	mother		4.7.1	153	0		
+451895	1964	Sak	anɯ́vá	anɯ́vá	parents	parents		4.7.1	153-1	0		
+451896	1964	Sak	até	até	stepfather	stepfather		4.7.1	153-2	0		
+451897	1964	Sak	ahvú	ahvú	stepmother	stepmother		4.7.1	153-3	0		
+451898	1964	Sak	aúʔ	aúʔ	grandfather	grandfather		4.7.1	153-4	0		
+451899	1964	Sak	aí	aí	grandmother	grandmother		4.7.1	153-5	0		
+451900	1964	Sak	acɨ́	acɨ́	father's brother / uncle	father's brother / uncle		4.7.1	153-6	0		
+451901	1964	Sak	até	até	mother's brother / uncle	mother's brother / uncle		4.7.1	153-6a	0		
+451902	1964	Sak	ahvú	ahvú	father's sister / aunt	father's sister / aunt		4.7.1	153-7	0		
+451903	1964	Sak	anɯ́broŋ	anɯ́broŋ	mother's sister / aunt	mother's sister / aunt		4.7.1	153-7	0		
+451904	1964	Sak	ása	ása	son	son		4.7.3	154	0		
+451905	1964	Sak	ásəiʔ	ásəiʔ	daughter	daughter		4.7.3	155	0		
+451906	1964	Sak	asətúŋ	asətúŋ	grandchild	grandchild		4.7.3	155-1	0		
+451907	1964	Sak	phuŋná	apá	sibling / brothers	sibling		4.7.2	156	0		
+451908	1964	Sak	ayúŋ	ayúŋ	woman's sibling	woman's sibling		1.9.3	156a	0		
+451909	1964	Sak	yúŋjáiŋ	yúŋjáiŋ	(man's or woman's) sibling	(man's or woman's) sibling		1.5.3.2	156b	0		
+451910	1964	Sak	apə́broŋ	apə́broŋ	older brother (seen from y.b.)	older brother (seen from y.b.)			156c	0		
+451911	1964	Sak	ayúŋpra	ayúŋpra	older brother (seen from y.s.)	older brother (seen from y.s.)		1.5.3.2	156d	0		
+451912	1964	Sak	anésɨ	anésɨ	younger brother (seen from o.b.)	younger brother (seen from o.b.)			156e	0		
+451913	1964	Sak	ayúŋsa	ayúŋsa	younger brother (seen from o.s.)	younger brother (seen from o.s.)		1.5.3.2	156f	0		
+451914	1964	Sak	naiŋná	acáiŋ	sisters	sisters		4.7.2	157	0		
+451915	1964	Sak	acáiŋ	acáiŋ	sisters (seen from siblings? / brothers?)	sisters (seen from siblings? / brothers?)		4.7.2	157a	0		
+451916	1964	Sak	ánəpra	ánəpra	older sister (seen from y.s.)	older sister (seen from y.s.)			157b	0		
+451917	1964	Sak	acáiŋ|pra	acáiŋpra	older sister (seen from y.b.)	older sister (seen from y.b.)			157c	0		
+451918	1964	Sak	anésɨ	anésɨ	younger sister (seen from o.s.)	younger sister (seen from o.s.)			157d	0		
+451919	1964	Sak	acáiŋ|sa	acáiŋsa	younger sister (seen from o.b.)	younger sister (seen from o.b.)			157e	0		
+451920	1964	Sak	apə́-gá-sa	apə́-gá-sa	nephew / brother's son	nephew / brother's son		4.7.3	157-3	0		
+451921	1964	Sak	acáiŋ-gá-sa	acáiŋ-gá-sa	nephew / sister's son	nephew / sister's son		4.7.3	157-3a	0		
+451922	1964	Sak	apə́-gá-ásəiʔ	apə́-gá-ásəiʔ	niece (older brother's daughter)	niece (older brother's daughter)		4.7.3	157-4	0		
+451923	1964	Sak	anésɨ-gá-ásəiʔ	anésɨ-gá-ásəiʔ	niece (younger sibling's daughter)	niece (younger sibling's daughter)		4.7.3	157-4a	0		
+451924	1964	Sak	ahróva	ahróva	husband	husband		4.7.4	158	0		
+451925	1964	Sak	aíʔɗá	aíʔɗá	wife	wife		4.7.4	159	0		
+451926	1964	Sak	anáŋ	anáŋ	bride	bride		4.2.8	159-1	0		
+451927	1964	Sak	ahrɨ́	ahrɨ́	bridegroom	bridegroom		4.2.8	159-2	0		
+451928	1964	Sak	aíʔɗá=ɗaŋ	aíʔɗá=ɗaŋ	marry (of a man)	marry (of a man)		6.19	159-3	0		
+451929	1964	Sak	ahróva=gyó	ahróva=gyó	marry (of a woman)	marry (of a woman)		6.19	159-3a	0		
+451930	1964	Sak	kíŋsíŋ	kíŋsíŋ	family	family		4.7.5	159-3b	0		
+451931	1964	Sak	məsəmáʔ	məsəmáʔ	widow	widow		4.2.8	159-4	0		
+451932	1964	Sak	məsəpho	məsəpho	widower	widower		4.2.8	159-4a	0		
+451933	1964	Sak	kəthaʔsa	kəthaʔsa	orphan	orphan		4.3	159-5	0		
+451934	1964	Sak	áphaʔ	áphaʔ	friend	friend		4.4.2	159-6	0		
+451935	1964	Sak	raiŋsu	raiŋsu	enemy	enemy		4.2.6	159-7	0		
+451936	1964	Sak	abrɨ́ŋma	abrɨ́ŋma	master / boss	master / boss		4.2.5.1	159-8	0		
+451937	1964	Sak	aŋá	aŋá	servant	servant		4.2.10	159-9	0		
+451938	1964	Sak	thiŋ	thiŋ	village	village		5.8	160	0		
+451939	1964	Sak	mərɯ́	mərɯ́	town	town		9.10.3	160-1	0		
+451940	1964	Sak	jɨ́	jɨ́	market	market		9.10.6	160-2	0		
+451941	1964	Sak	məlíŋ=láiŋ	məlíŋ=láiŋ	hunt	hunt		6.2.2.1	161	0		
+451942	1964	Sak	kədvu	kədvu	shoot	shoot		6.2.2.1	162	0		
+451943	1964	Sak	káiŋ	káiŋ	trap	trap (v)	v	5.14	162-1	0		
+451944	1964	Sak	ɓe	ɓe	catch fish	catch fish		6.21	162-2	0		
+451945	1964	Sak	səthé	səthé	rich	rich		5.9	162-3	0		
+451946	1964	Sak	sɨŋre	sɨŋre	poor	poor		9.6.2.2	162-4	0		
+451947	1964	Sak	kvu	kvu	steal	steal		6.2.2.1	163	0		
+451948	1964	Sak	sənaiŋ	sənaiŋ	rob	rob		6.2.2.1	163-1	0		181
+451949	1964	Sak	le	le	rice field / paddy field	rice field / paddy field		3.2.5	163-2	0		
+451950	1964	Sak	iʔpra	iʔpra	field / swidden	field / swidden		3.2.5	163-3	0		
+451951	1964	Sak	lɨʔ	lɨʔ	work	work (v)	v	6.1.1	164	0		
+451952	1964	Sak	álɨʔ	álɨʔ	job / work	job / work (n)	n	5.11	164a	0		
+451953	1964	Sak	saʔ	saʔ	rest	rest		1.1.4.1	165	0		
+451954	1964	Sak	kwá	kwá	peel	peel (v)	v	1.5.3.2	166	0		
+451955	1964	Sak	cvu	cvu	knit	knit		6.14	166-1	0		
+451956	1964	Sak	tɨŋ	tɨŋ	spin (thread)	spin (thread)		6.7.6	166-2	0		
+451957	1964	Sak	taʔ	taʔ	weave	weave		5.1	166-3	0		2686
+451958	1964	Sak	laŋ	laŋ	go	go		6.7.2	167	0		
+451959	1964	Sak	vaiŋ	vaiŋ	come	come		6.7.1	168	0		
+451960	1964	Sak	práiŋ	práiŋ	go/come back / return	go/come back / return		6.7.2	168-1	0		
+451961	1964	Sak	gyó	gyó	follow	follow		6.7.10	168-3	0		
+451962	1964	Sak	pru	pru	emerge / go out	emerge / go out		6.7.2	169	0		2573
+451963	1964	Sak	saŋ	saŋ	go in / enter	go in / enter		6.7.2	170	0		
+451964	1964	Sak	góʔ=lé	kɨŋɗɯʔ	turn	turn		6.7.6	171	0		
+451965	1964	Sak	thuʔ	thuʔ	arrive	arrive		6.7.1	171-3	0		
+451966	1964	Sak	táiŋ	táiŋ	stop	stop		6.7.11	172	0		
+451967	1964	Sak	láŋ=ha	láŋ=ha	walk	walk		6.7.4	173	0		
+451968	1964	Sak	kaiʔ	kaiʔ	run	run		6.7.4	174	0		
+451969	1964	Sak	apráŋ	apráŋ	fast	fast		9.6.1.1	175	0		
+451970	1964	Sak	yúŋyúŋsa	yúŋyúŋsa	slow	slow		9.6.2.1	176	0		
+451971	1964	Sak	tɯ	tɯ	creep / crawl	creep / crawl		6.7.9	177	0		
+451972	1964	Sak	ʃe	ʃe	ride	ride		6.2	177-1	0		2237
+451973	1964	Sak	rəha	rəha	carry	carry		6.2.2.2.1	177-2	0		
+451974	1964	Sak	láŋ	láŋ	road	road		9.10.1	178	0		
+451975	1964	Sak	rəká	rəká	bridge	bridge		9.10.2	179	0		
+451976	1964	Sak	garɨ	garɨ	carriage / car	carriage / car		5.1	180	0		bIndic
+451977	1964	Sak	tɨŋ	tɨŋ	drive (vehicle)	drive (vehicle)		6.7.10	180a	0		
+451978	1964	Sak	cáʔsɨ	cáʔsɨ	wheel	wheel		5.1	181	0		
+451979	1964	Sak	hó	hó	boat (small)	boat (small)		5.1	182	0		
+451980	1964	Sak	ɨ́sáŋphó	ɨ́sáŋphó	ship / boat (large)	ship / boat (large)		5.1	182a	0		
+451981	1964	Sak	taʔpáiʔ	taʔpaiʔ	oar	oar		5.1	182-1	0		
+451982	1964	Sak	hó=móŋ	hó=móŋ	row (a boat)	row (a boat)		6.2.2.1	182-2	0		
+451983	1964	Sak	táŋkhwaiŋ	táŋkhwaiŋ	sail	sail		6.7.5	182-3	0		
+451984	1964	Sak	tú	tú	language	language		5.8	183	0		
+451985	1964	Sak	prɨ	prɨ	speak	speak		8.5.10.1	184	0		1753
+451986	1964	Sak	ŋá	ŋá	say	say		1.8.7	185	0		
+451987	1964	Sak	tíŋ	tíŋ	silent	be silent	be v.	8.5.4.4	185-1	0		
+451988	1964	Sak	kəɗa	kəɗa	ask	ask		8.5.7.1	186	0		
+451989	1964	Sak	phre	phre	answer	answer		8.5.6	186-1	0		
+451990	1964	Sak	taiŋdu	taiŋdu	story / tale	story / tale		5.8	186-2a	0		
+451991	1964	Sak	waiʔ	waiʔ	falsehood / lie (n)	falsehood / lie (n)	v	8.5.10.4	186-3	0		
+451992	1964	Sak	ámaiŋ	ámaiŋ	truth	truth		8.3.2.5.7	186-4	0		
+451993	1964	Sak	cálúŋ	cálúŋ	character / letter	character / letter		1.10	186-5	0		
+451994	1964	Sak	rwé	rwé	write	write		6.2.2.9.1	186-6	0		
+451995	1964	Sak	phaiʔ	phaiʔ	read	read		6.2.2.9.3	186-7	0		
+451996	1964	Sak	cáʔku	cáʔku	paper	paper		5.1	186-8	0		
+451997	1964	Sak	o	o	call	call		8.5.13	187	0		
+451998	1964	Sak	pháiŋ	pháiŋ	command	command		8.5.1	187-1	0		
+451999	1964	Sak	a◦míŋ	amíŋ	name	name		5.8	188	0		p,2450
+452000	1964	Sak	kru	kru	play	play		6.1.1.3	189	0		
+452001	1964	Sak	atéhráŋ=ŋá	atéhráŋ=ŋá	sing	sing		5.1	190	0		
+452002	1964	Sak	atéhráŋ	atéhráŋ	song	song		5.1	190a	0		
+452003	1964	Sak	asá	asá	dance	dance		6.7.9	191	0		
+452004	1964	Sak	jáiʔ	jáiʔ	dance	dance (n)	n	6.7.9	191a	0		
+452005	1964	Sak	pɯ	pɯ	festival	festival		5.8	191b	0		
+452006	1964	Sak	i	i	give	give		6.23	192	0		3549
+452007	1964	Sak	lu	lu	obtain	obtain		6.21	192-1	0		
+452008	1964	Sak	áʃe	áʃe	sell	sell		6.22	192-2	0		
+452009	1964	Sak	mərɨ́	mərɨ́	buy	buy		6.22	192-3	0		2606
+452010	1964	Sak	taŋga	taŋga	money	money		5.9	192-3a	0		6490
+452011	1964	Sak	hɯ	hɯ	lend	lend		6.22	192-4	0		2339
+452012	1964	Sak	hɯ	hɯ	borrow	borrow		6.22	192-5	0		2339
+452013	1964	Sak	pɯ	pɯ	send	send		6.2.2.2	192-6	0		
+452014	1964	Sak	laʔ	laʔ	meet	meet		6.2	193	0		
+452015	1964	Sak	coŋ	coŋ	wait	wait		6.1.1.6	194	0		5578?
+452016	1964	Sak	báiŋ=ɗaŋ	báiŋ=ɗaŋ	praise	praise		8.5.2.2	194-2	0		
+452017	1964	Sak	moŋ	moŋ	scold	scold		8.5.1	194-3	0		
+452018	1964	Sak	liŋ	liŋ	deceive	deceive		8.3.3.4.3.2	194-4	0		
+452019	1964	Sak	poʔ	poʔ	hit / strike	hit / strike		6.8	195	0		5822
+452020	1964	Sak	kvú	kvú	help	help		6.2.2.1	195-2	0		
+452021	1964	Sak	akáiŋ	akáiŋ	bite	bite		1.3.4.4	196	0		
+452022	1964	Sak	la	la	take	take		6.21	197	0		5056
+452023	1964	Sak	akó	akó	grasp / grab	grasp / grab		6.16	199	0		
+452024	1964	Sak	phroʔ	phroʔ	release / let go	release / let go		6.10.1	200	0		2573
+452025	1964	Sak	wí	wí	throw	throw		6.12	201	0		
+452026	1964	Sak	ɗó	ɗó	touch	touch		8.4	202	0		
+452027	1964	Sak	kəɓóʔ	kəɓóʔ	rub	rub		8.4	203	0		
+452028	1964	Sak	kəphɨ́ʔ	kəphɨ́ʔ	shake	shake (vi)	vi	6.7.9	204	0		
+452029	1964	Sak	rəmɯ́	rəmɯ́	shake	shake (vt)	vt	6.7.9	204-1	0		
+452030	1964	Sak	ɗúʔ	ɗúʔ	push	push		6.2.2.3.1	205	0		
+452031	1964	Sak	kɨ́ŋ	kɨ́ŋ	pull	pull		6.2.2.3.1	206	0		
+452032	1964	Sak	akáʔ	akáʔ	squeeze / strangle	squeeze / strangle		9.5	207	0		
+452033	1964	Sak	phé	phé	carry on shoulder	carry on shoulder		1.4.3.3	207-1	0		4135
+452034	1964	Sak	mɯʔ	mɯʔ	carry on back	carry on back		6.2.2.2.1	208	0		
+452035	1964	Sak	kəphe	kəphe	kick	kick		6.2.2.3.3	209	0		
+452036	1964	Sak	pyaʔ	pyaʔ	step on	step on		6.7.4	210	0		
+452037	1964	Sak	súŋsaŋ	súŋsaŋ	use	use		6.2.2.7.1	210-1	0		
+452038	1964	Sak	səbyoʔ	səbyoʔ	lose	lose		6.10.1	210-2	0		
+452039	1964	Sak	asé	asé	hide	hide		1.6.5.1	211	0		
+452040	1964	Sak	cáiʔ	cáiʔ	seek / look for	seek / look for		6.2.2.2	212	0		
+452041	1964	Sak	súŋ	súŋ	find	find		6.21	213	0		
+452042	1964	Sak	sənáiʔ	sənáiʔ	show	show		6.2.2.8	214	0		
+452043	1964	Sak	pí	pí	put / place	put / place		6.17	215	0		
+452044	1964	Sak	ɗiʔ	ɗiʔ	wrap	wrap		6.2.2.1	215-1	0		
+452045	1964	Sak	váʔ-cíŋ	váʔ-cíŋ	widen / broaden	unfold / spread		6.9	215-2	0		
+452046	1964	Sak	anɯ́	anɯ́	hang	hang		6.1.1.5	215-3	0		
+452047	1964	Sak	soŋ	soŋ	put in / insert	put in / insert		6.17	215-4	0		
+452048	1964	Sak	səbru	səbru	put out	put out		6.17	215-5	0		
+452049	1964	Sak	kəlɨŋ	kəlɨŋ	collect	collect		6.21	216	0		
+452050	1964	Sak	tuʔ	tuʔ	make	make		6.14	217	0		
+452051	1964	Sak	acɨ́	áthuʔ	break	break		9.5	218	0		
+452052	1964	Sak	pyáŋ	pyáŋ	mend / repair	mend / repair		6.15	219	0		
+452053	1964	Sak	asáiʔ=kaiʔ	asáiʔ=kaiʔ	torn	be torn	be v.	6.9.4	220	0		
+452054	1964	Sak	kwíŋ-goʔ ánaiʔ	kwíŋ-goʔ ánaiʔ	bent	be bent	be v.	9.7.2	221	0		
+452055	1964	Sak	ánaiʔ	ánaiʔ	break by bending	break by bending		9.5	222	0		
+452056	1964	Sak	kəjáiŋ	kəjáiŋ	wash	wash		6.2.2.5.2	223	0		
+452057	1964	Sak	ɨ́=krvú	ɨ́=krvú	bathe	bathe		6.6	223a	0		m,2344
+452058	1964	Sak	kəduŋ	kəduŋ	wind / roll up	wind / roll up		3.2.1	224	0		
+452059	1964	Sak	taiŋ	taiŋ	tie	tie		6.13.1	225	0		
+452060	1964	Sak	taiŋ	taiŋ	tie up	tie up		6.13.1	225a	0		
+452061	1964	Sak	phrúʔ	phrúʔ	until	until		10.1	226	0		
+452062	1964	Sak	ɓuŋ	ɓuŋ	cover	cover (v)	v	5.8	227	0		
+452063	1964	Sak	kɯʔ	kɯʔ	swell up	swell up		1.1.5.2	228	0		
+452064	1964	Sak	cvu	cvu	stab / pierce	stab / pierce		6.9.2	229	0		
+452065	1964	Sak	váiŋ	váiŋ	cut	cut		6.9.3	230	0		
+452066	1964	Sak	ró	ró	mix	mix		6.13.4	231	0		
+452067	1964	Sak	thu	thu	dig	dig		6.11	232	0		3573
+452068	1964	Sak	rɨ	rɨ	do	do		6.1.1.1	233	0		
+452069	1964	Sak	te	te	begin	begin		9.5	233-1	0		
+452070	1964	Sak	suŋ	suŋ	end	end (v)	v	9.5	233-2	0		
+452071	1964	Sak	rə◦mɯ́	rəmɯ́	move	move		6.7.11	234	0		m,2455
+452072	1964	Sak	khuŋ	khuŋ	jump	jump		6.7.8	235	0		
+452073	1964	Sak	ʃe	ʃe	ascend / go up	ascend / go up		6.7.7	236	0		
+452074	1964	Sak	saiʔ	saiʔ	descend / go down	descend / go down		6.7.8	237	0		
+452075	1964	Sak	kəɗiŋ	kəɗiŋ	fall	fall		6.1.1.4.2	238	0		
+452076	1964	Sak	akyí	akyí	wet	wet		6.6	239	0		
+452077	1964	Sak	rəkú	rəkú	dry	dry		6.6	240	0		1001
+452078	1964	Sak	atáiŋ	atáiŋ	compare	compare		8.3	240-1	0		
+452079	1964	Sak	acé	acé	choose	choose		6.10.4	240-2	0		
+452080	1964	Sak	cáiŋjá	cáiŋjá	think	think		8.3.1.13.1	241	0		
+452081	1964	Sak	hra	hra	believe / have an opinion	believe / have an opinion		8.3.1.12.1	242	0		
+452082	1964	Sak	ʃé	ʃé	know	know		8.3.1.12.1	242a	0		
+452083	1964	Sak	ná=le	ná=le	understand	understand		8.3.1.13.1	242-1	0		
+452084	1964	Sak	maiʔ	maiʔ	forget	forget		8.3.1.16.1	243	0		
+452085	1964	Sak	səniŋ	səniŋ	teach	teach		6.19	244	0		
+452086	1964	Sak	á◦caʔ	ácaʔ	fear / be afraid	fear / be afraid		8.3.1.10.1	245	0		p,2249
+452087	1964	Sak	áiŋmó	áiŋmó	surprised	be surprised	be v.	8.3.1.9.1	245-1	0		
+452088	1964	Sak	có	có	like / be fond of	like / be fond of		8.3.1.1.1	246	0		
+452089	1964	Sak	áse	áse	dislike	dislike		8.3.1.1.2	246-1	0		
+452090	1964	Sak	pyo	pyo	glad / rejoice	be glad / rejoice	be v.	8.3.1.5.1	247	0		
+452091	1964	Sak	maiŋ=ʃe	maiŋ=ʃe	get angry	get angry		1.1.5	248	0		
+452092	1964	Sak	acáiŋ	acáiŋ	ashamed	be ashamed	be v.	8.3.3.8.2	248-2	0		
+452093	1964	Sak	vóvá	vóvá	stupid	stupid	a.n.	8.3	248-5	0		
+452094	1964	Sak	cíʔ	cíʔ	heart / mind	heart / mind		1.7.1	249	0		
+452095	1964	Sak	rəw◦vu◦ba	rəw◦vu◦ba	insane / crazy	insane / crazy		8.3.1.11.3	249-1	0		m,6094,m
+452096	1964	Sak	kóŋgəláʔ	kóŋgəláʔ	sky	sky		3.2.2	250	0		
+452097	1964	Sak	rasɨ	rasɨ	season	season		3.2.1	250-1a	0		
+452098	1964	Sak	siŋháiʔ	siŋháiʔ	winter	winter		9.1.2	250-1e	0		
+452099	1964	Sak	ujúháiʔ	ujúháiʔ	rainy season	rainy season		3.2.1	250-1f	0		
+452100	1964	Sak	məláŋháiʔ	məláŋháiʔ	dry season	dry season		6.6	250-1g	0		
+452101	1964	Sak	hráŋgrɨ	hráŋgrɨ	cloud	cloud		3.2.1	251	0		
+452102	1964	Sak	təmuŋ	təmuŋ	fog	fog		3.2.1	252	0		
+452103	1964	Sak	hráŋ	hráŋ	rain	rain		3.2.1	253	0		3571
+452104	1964	Sak	vé	vé	rain	to rain	v	3.2.1	253a	0		
+452105	1964	Sak	muŋ◦dúŋ	muŋ◦dúŋ	storm	storm		3.2.1	253b	0		
+452106	1964	Sak	kə◦muʔ	kə◦muʔ	thunder	thunder		3.2.1	254	0		m,2465
+452107	1964	Sak	kə◦muʔ=məríŋ	kə◦muʔ=məríŋ	thunder	to thunder	v	3.2.1	254a	0		m,2465
+452108	1964	Sak	ʃáiʔ◦práʔ	ʃáiʔpráʔ	lighten (lightning)	to lighten (lightning)	v	7.1.11.1	255	0		
+452109	1964	Sak	ʃoríʔmoŋbiʔ	ʃoríʔmoŋbiʔ	rainbow	rainbow		3.2.1	256	0		
+452110	1964	Sak	rəkhé	rəkhé	ice	ice		3.2.3	258	0		
+452111	1964	Sak	rəkhé=phraiʔ	rəkhé=phraiʔ	freeze	freeze		9.5	259	0		
+452112	1964	Sak	pyɯ	pyɯ	melt / thaw	melt / thaw		9.5	260	0		
+452113	1964	Sak	cə◦míʔ	cəmíʔ	sun	sun		3.2.10	261	0		m,682
+452114	1964	Sak	sədá	sədá	moon	moon		3.2.2	262	0		1016
+452115	1964	Sak	səkáiŋsɨ	səkáiŋsɨ	star	star		3.2.2	263	0		
+452116	1964	Sak	ároŋ	ároŋ	light	light (n)	n	7.1.11.1	264	0		
+452117	1964	Sak	aŋdəríʔ	aŋdəríʔ	shade / shadow	shade / shadow		3.2.10	265	0		
+452118	1964	Sak	láŋ	láŋ	light / bright	light / bright		7.1.11.1	266	0		
+452119	1964	Sak	tháŋ	tháŋ	dark	dark		9.4	267	0		
+452120	1964	Sak	máiŋ	máiŋ	dim / gloomy	dim / gloomy		9.6.2.1	267a	0		
+452121	1964	Sak	muŋ	muŋ	wind	wind (n)	n	3.2.1	268	0		
+452122	1964	Sak	yaʔ	yaʔ	blow (of wind)	blow (of wind)		1.3.1.4	269	0		
+452123	1964	Sak	muʔ	muʔ	blow (with mouth)	blow (with mouth)		1.3.1.4	269a	0		503
+452124	1964	Sak	tíŋ	tíŋ	quiet	quiet		7.1.8.3	269-1	0		
+452125	1964	Sak	ká	ká	hot	hot			270	0		7203
+452126	1964	Sak	siŋ	siŋ	cold	cold		7.1.2.3	271	0		
+452127	1964	Sak	lɨ́ŋ	lɨ́ŋ	warm	warm		7.1.2.3	272	0		2420
+452128	1964	Sak	təgó	təgó	mountain	mountain		3.2.5	273	0		
+452129	1964	Sak	kəlóʔ	kəlóʔ	valley	valley		3.2.5	273-2	0		1277
+452130	1964	Sak	məlíŋ	məlíŋ	grove / forest	grove / forest		9.10.4	274	0		2406
+452131	1964	Sak	praŋ	praŋ	field / plain	field / plain		3.2.5	275	0		
+452132	1964	Sak	ɨ́gáiŋ	ɨ́gáiŋ	lake / pond	lake / pond		3.2.5	276	0		
+452133	1964	Sak	ɨ́sənesa	ɨ́sənesa	spring (of water)	spring (of water)		6.7.9	276-1	0		
+452134	1964	Sak	pesɨ	pesɨ	river	river		3.2.3	277	0		
+452135	1964	Sak	ɨ́	ɨ́	water	water		3.2.3	277-1	0		
+452136	1964	Sak	asəɓóʔ	asəɓóʔ	bubble	bubble		3.2.3	278	0		
+452137	1964	Sak	ɨ́hənáŋ	ɨ́hənáŋ	whirlpool	whirlpool		3.2.3	278a	0		
+452138	1964	Sak	náiʔ	náiʔ	sink	sink		6.6	279	0		
+452139	1964	Sak	myɯ́	myɯ́	float	float		6.6.1	280	0		
+452140	1964	Sak	cu	cu	flow	flow		6.6.1	281	0		
+452141	1964	Sak	táiŋraŋ+ɨ́	táiŋraŋ	waterfall	waterfall		3.2.3	281-1	0		
+452142	1964	Sak	akáiŋ	akáiŋ	shore	shore		3.2.3	282	0		
+452143	1964	Sak	məróŋ	məróŋ	cliff	cliff		3.2.5	282-1	0		
+452144	1964	Sak	məlaiʔ	məlaiʔ	sea	sea		3.2.3	283	0		
+452145	1964	Sak	ɨ́láiŋ	ɨ́láiŋ	wave	wave		6.7.4	284	0		
+452146	1964	Sak	kywáiŋ	tuŋbúʔ	island	island		3.2.5	285	0		
+452147	1964	Sak	tə◦luŋ	tə◦luŋ	stone	stone		3.2.9	286	0		m,1269
+452148	1964	Sak	thúŋ	thúŋ	coal	coal		3.2.4	286a	0		
+452149	1964	Sak	vaiŋ◦gəsɨ	vaiŋgəsɨ	charcoal	charcoal		3.2.4	286b	0		
+452150	1964	Sak	sé	sé	sand	sand		3.2.11	287	0		587
+452151	1964	Sak	kəjáʔ	kəjáʔ	soil / earth	soil / earth		3.2.11	288	0		
+452152	1964	Sak	kyúʔ	kyúʔ	mud	mud		3.2.11	288-1	0		
+452153	1964	Sak	kyúʔ	kyúʔ	clay	clay		3.2.11	288-2	0		
+452154	1964	Sak	siŋ	siŋ	iron	iron		3.2.4	288-3	0		2676
+452155	1964	Sak	ʃwáiʔ	ʃwáiʔ	tin	tin		3.2.4	288-3a	0		
+452156	1964	Sak	krɨ́	krɨ́	copper	copper		3.2.4	288-3b	0		2247
+452157	1964	Sak	ʃwe	ʃwe	gold	gold		3.2.4	288-4	0		bBurmese
+452158	1964	Sak	ŋwe	ŋwe	silver	silver		3.2.4	288-5	0		2536
+452159	1964	Sak	khédaiŋ	khédaiŋ	pencil	pencil		5.1	288-7a	0		
+452160	1964	Sak	kə́loŋ	kə́loŋ	pen (to write)	pen (to write)		5.1	288-7b	0		
+452161	1964	Sak	apháŋ	apháŋ	tree	tree		3.1.2	289	0		
+452162	1964	Sak	pyaiŋ	pyaiŋ	board / plank	board / plank		5.11.9	289a	0		707
+452163	1964	Sak	naŋnvu	naŋnvu	grass	grass		3.1.8	290	0		
+452164	1964	Sak	áka	áka	trunk (tree)	trunk (tree)		1.4.1	291	0		
+452165	1964	Sak	phúŋláʔ	púŋláʔ	bark (tree)	bark (tree)		2.1.11.1	292	0		
+452166	1964	Sak	áka	áka	stem / stalk	stem / stalk		3.1.2	293	0		
+452167	1964	Sak	atáʔ	atáʔ	branch	branch		1.5.3.1	294	0		
+452168	1964	Sak	átaʔ	átaʔ	leaf	leaf		3.1.3	295	0		
+452169	1964	Sak	árəkuʔ	árəkuʔ	creeper / vine	creeper / vine		3.1.7	295-1	0		
+452170	1964	Sak	məraʔ	məraʔ	thorn / prickle	thorn / prickle		3.1.2	295-2	0		
+452171	1964	Sak	apáiŋ	apáiŋ	flower	flower		3.1.4	296	0		
+452172	1964	Sak	ákraiʔ	ákraiʔ	root	root		3.1.2	297	0		
+452173	1964	Sak	pho	pho	grow (plant)	grow (plant)		9.7.2	298	0		
+452174	1964	Sak	átvu	átvu	sprout / bud	sprout (v) / bud (v)	v	3.1.10	298a	0		
+452175	1964	Sak	ŋyɯ	ŋyɯ	wither	wither		3.1.10	299	0		
+452176	1964	Sak	kro	kro	bamboo	bamboo		3.1.1	299-1	0		
+452177	1964	Sak	sáʔkre	sáʔkre	reed / rush	reed / rush		3.1.8	299-1a	0		
+452178	1964	Sak	kəmúkaiŋ	kəmúkaiŋ	mushroom	mushroom		3.1.7	299-2	0		
+452179	1964	Sak	sáiʔcowa	sáiʔcowa	animal	animal		2.3	300	0		
+452180	1964	Sak	təríʔchaiŋ	təríʔchaiŋ	animal	animal		2.3	300	0		
+452181	1964	Sak	u◦sɨ	usɨ	bird	bird		2.2.4	301	0		1603,m
+452182	1964	Sak	təna	təna	fish	fish		2.2.5	302	0		
+452183	1964	Sak	ápvu	ápvu	insect	insect		2.2.6	303	0		
+452184	1964	Sak	sɨɗiʔ	sɨɗiʔ	cockroach	cockroach		2.2.6	303a	0		
+452185	1964	Sak	vaiŋ◦tháŋsɨ	vaiŋtháŋsɨ	firefly / glow worm	firefly / glow worm		2.2.6	303b	0		
+452186	1964	Sak	ɯkɯ́	ɯkɯ́	grasshopper	grasshopper		2.2.6	303c	0		
+452187	1964	Sak	káiŋko	káiŋko	dragonfly	dragonfly		2.2.6	303d	0		
+452188	1964	Sak	kvu	kvu	dog	dog		2.1.11	304	0		1764
+452189	1964	Sak	háiŋ	háiŋ	cat	cat		2.1.3	304-1	0		
+452190	1964	Sak	məráŋ	məráŋ	horse	horse		2.1.7	304-2	0		1431
+452191	1964	Sak	sə◦muʔ	səmuʔ	cattle / cow	cattle / cow		2.1.2	304-3	0		p,5607
+452192	1964	Sak	krɨ́	krɨ́	water buffalo	water buffalo		3.2.3	304-3a	0		
+452193	1964	Sak	sáiʔphúʔ	sáiʔphúʔ	sheep	sheep		2.1.8	304-4	0		
+452194	1964	Sak	kə◦ɓiʔ	kə◦ɓiʔ	goat	goat		2.1.8	304-5	0		m,6033
+452195	1964	Sak	vaʔ	vaʔ	pig	pig		2.1.12	304-6	0		1006
+452196	1964	Sak	u	u	fowl / chicken	fowl / chicken		2.1.10	304-7	0		1603
+452197	1964	Sak	khraŋsɨ́	khraŋsɨ́	lion	lion		2.1.3	304-8	0		bBurmese
+452198	1964	Sak	kə◦sa	kə◦sa	tiger	tiger		2.1.3	304-9	0		
+452199	1964	Sak	lúwaiŋ	lúwaiŋ	bear	bear (n)	n	2.2.3	304-10	0		
+452200	1964	Sak	məlíŋ◦kvu	məlíŋ◦kvu	wolf	wolf		2.1.11	304-11	0		m,1764
+452201	1964	Sak	ʃówa	ʃówa	fox	fox		2.1.11	304-12	0		
+452202	1964	Sak	iʃí	iʃí	deer	deer		2.2.2	304-13	0		
+452203	1964	Sak	kəjuʔ	kəjuʔ	bighorn deer	bighorn deer		2.2.2	304-13a	0		
+452204	1964	Sak	kəvɯ́	kəvɯ́	monkey	monkey		2.1.9	304-14	0		2782
+452205	1964	Sak	yuŋ	yuŋ	rabbit	rabbit		2.1.1	304-15	0		2796
+452206	1964	Sak	kəyvu	kəyvu	rat / mouse	rat / mouse		2.1.1	304-16	0		
+452207	1964	Sak	ʃáiŋ	ʃáiŋ	squirrel	squirrel		2.1.1	304-16a	0		
+452208	1964	Sak	phaiŋ	phaiŋ	otter	otter		2.2.7.1	304-16b	0		
+452209	1964	Sak	wvu◦kvú	wvukvú	elephant	elephant		2.2.1	304-17	0		m,2257
+452210	1964	Sak	laŋlɯ́ʔ	laŋlɯ́ʔ	bat (animal)	bat (animal)		2.2.4.1	304-19	0		
+452211	1964	Sak	nəhaiŋ	nəhaiŋ	crab	crab		2.2.5	304-21	0		
+452212	1964	Sak	ɨsɨ́ʔ	ɨsɨ́ʔ	shrimp	shrimp		2.2.5	304-22	0		
+452213	1964	Sak	gúŋ	gúŋ	shell / shellfish	shell / shellfish		2.2.5	305	0		
+452214	1964	Sak	tə◦liʔ	təliʔ	turtle	turtle		2.1.6	305a	0		p,5604
+452215	1964	Sak	pədu	pədu	snail	snail		2.2.5	305b	0		
+452216	1964	Sak	páʔkíʔ	páʔkíʔ	slug	slug		2.2.6	305c	0		
+452217	1964	Sak	asəlwáiʔ	asəlwáiʔ	earthworm	earthworm		2.2.6	305d	0		
+452218	1964	Sak	dóŋraiŋ	dóŋraiŋ	eagle	eagle		2.2.4.1	305-1	0		
+452219	1964	Sak	síŋsa	síŋsa	kite (bird)	kite (bird)		5.8	305-1a	0		
+452220	1964	Sak	láŋ◦dá	láŋ◦dá	hawk	hawk		2.2.4.1	305-1b	0		2393,m
+452221	1964	Sak	byáiŋ	byáiŋ	heron	heron		2.2.4.1	305-2a	0		
+452222	1964	Sak	vaiŋ◦be	vaiŋbe	duck	duck		2.1.10	305-4	0		
+452223	1964	Sak	kíŋbəhrɨ́ʔ	kíŋbəhrɨ́ʔ	pigeon	pigeon		2.2.4.1	305-5	0		
+452224	1964	Sak	bəhrɨ́ʔ	bəhrɨ́ʔ	mountain pigeon	mountain pigeon		3.2.5	305-5a	0		
+452225	1964	Sak	u◦há	uhá	crow	crow (n)	n	2.2.4.1	305-6	0		1603,2279
+452226	1964	Sak	casa	casa	sparrow	sparrow		2.2.4.1	305-7	0		
+452227	1964	Sak	ʃwe.údóŋ	ʃwe.údóŋ	peacock	peacock		2.2.4.1	305-7a	0		
+452228	1964	Sak	ɓáʔphi	ɓáʔphi	butterfly	butterfly		2.2.6	305-8	0		
+452229	1964	Sak	púʃəkaiŋ	púʃəkaiŋ	ant	ant		2.2.6	306	0		
+452230	1964	Sak	hráʔ	hráʔ	white ant	white ant		9.4	306a	0		2631
+452231	1964	Sak	páŋkhuŋ	páŋkhuŋ	spider	spider		2.2.6	306-1	0		
+452232	1964	Sak	təlúŋ	təlúŋ	honeybee	honeybee		2.2.6	306-2	0		
+452233	1964	Sak	pəcíʔrəco	pəcíʔrəco	mosquito	mosquito		2.2.6	307	0		
+452234	1964	Sak	hraŋthoŋ	hraŋthoŋ	mosquito net	mosquito net		2.2.6	307a	0		
+452235	1964	Sak	pəcíʔ	pəcíʔ	fly (insect)	fly (insect)		2.2.6	308	0		
+452236	1964	Sak	kvusiʔ	kvusiʔ	flea	flea		2.2.6	309	0		
+452237	1964	Sak	siʔ	siʔ	louse	louse		2.2.6	310	0		
+452238	1964	Sak	məraʔsɨ́ʔ	raŋbvu	tick (insect)	tick (insect)		2.2.6	310a	0		
+452239	1964	Sak	məyɯ́ʔ	məyɯ́ʔ	water leech	water leech		3.2.3	310b	0		
+452240	1964	Sak	kə́tuŋ	kə́tuŋ	mountain (land) leech	mountain (land) leech		3.2.5	310c	0		
+452241	1964	Sak	kə́tuŋsa	kə́tuŋsa	maggot	maggot		2.2.6	310d	0		
+452242	1964	Sak	kə◦hvú	kə◦hvú	snake	snake		2.1.6.1	311	0		p,2178
+452243	1964	Sak	pədúŋ	pədúŋ	python	python		2.1.6	311a	0		
+452244	1964	Sak	kəsuʔ	kəsuʔ	frog	frog		2.1.6.2	311-1a	0		
+452245	1964	Sak	iŋ◦məroŋ	iŋ◦məroŋ	house lizard	house lizard		5.11.9.1	311-1b	0		
+452246	1964	Sak	kəphɯ́	kəphɯ́	large lizard	large lizard		9.7.1	311-1c	0		
+452247	1964	Sak	múŋyáŋ	múŋyáŋ	crocodile	crocodile		2.1.6	311-1d	0		
+452248	1964	Sak	nəgá	nəgá	dragon	dragon		2.1.5	311-1e	0		bIndic,b
+452249	1964	Sak	a◦rúŋ	arúŋ	horn	horn		1.2.2	312	0		p,814
+452250	1964	Sak	á◦muŋ	ámuŋ	fur / animal hair	fur / animal hair		1.6.1	312-1	0		p,363
+452251	1964	Sak	taʔ◦miŋ	taʔmiŋ	claw	claw		1.5.10.4	313	0		700,m
+452252	1964	Sak	khwa	khwa	hoof	hoof		1.5.4	313a	0		417
+452253	1964	Sak	áləmuŋ	áləmuŋ	tail	tail		1.4.10.1	314	0		
+452254	1964	Sak	asətúŋ	asətúŋ	beak	beak		1.3.1.2	315	0		
+452255	1964	Sak	a◦yáiŋ◦kó	a◦yáiŋ◦kó	wing	wing		1.5.1.3	316	0		p,R,240
+452256	1964	Sak	ayáiŋ◦kó◦muŋ	ayáiŋkómuŋ	feather	feather		1.6.1.1	317	0		m,m,363
+452257	1964	Sak	tənəpyá	tənəpyá	gill	gill		1.3.5.3	317-1	0		
+452258	1964	Sak	a◦kə◦sáiʔ	akəsáiʔ	scale (of fish)	scale (of fish)		1.6.5.2	317-2	0		p,m,1454
+452259	1964	Sak	átho	átho	nest	nest		2.2.4	318	0		
+452260	1964	Sak	páiŋ	páiŋ	fly	fly (v)	v	2.2.6	319	0		
+452261	1964	Sak	ɨ́=raʔ	ɨ́=raʔ	swim	swim		6.6	320	0		
+452262	1964	Sak	məríŋ	məríŋ	cry (of animal) / bark	cry (of animal) / bark		1.8.8.2	320-1	0		2571
+452263	1964	Sak	kyi	kyi	lay egg	lay egg		6.17	320-2	0		
+452264	1964	Sak	hrɯ́	hrɯ́	raise / keep animals	raise / keep animals		6.7.7	320-3	0		
+452265	1964	Sak	arɨ́ʔ	aŕɨʔ	form / shape	form / shape		9.7.1	320-4	0		
+452266	1964	Sak	puʔləluʔ	puʔləluʔ	round	round	n.	9.7.1	321	0		
+452267	1964	Sak	ráŋ	ráŋ	sharp	sharp	vi	6.9.2	322	0		
+452268	1964	Sak	ɓúʔthuŋ	ɓúʔthuŋ	dull	dull	vi	7.1.5.1	323	0		
+452269	1964	Sak	tí-goʔ	kywá	flat	flat		7.1.5.1	323-1	0		
+452270	1964	Sak	ahúŋ	ahúŋ	hole	hole		3.2.7	324	0		
+452271	1964	Sak	ʃaiŋ	ʃaiŋ	hollow	hollow		7.1.5.1	324-1	0		
+452272	1964	Sak	próŋ	próŋ	straight	straight	vi	7.1.5.1	325	0		2160?
+452273	1964	Sak	ujá	ujá	thing	thing		8.1	325-4	0		
+452274	1964	Sak	búləliŋ	búləliŋ	big	big	n.	9.7.2	326	0		
+452275	1964	Sak	apíʔsa	apíʔsa	small	small	n.	9.7.2	327	0		
+452276	1964	Sak	krɨ́	krɨ́	long	long	vi	9.7.2	328	0		5458?
+452277	1964	Sak	tuŋ	tuŋ	short	short	vi	9.7.2	329	0		7173
+452278	1964	Sak	pyɯ́	pyɯ́	fat	fat	vi	1.6.4	329-1	0		
+452279	1964	Sak	krɨŋ	krɨŋ	thin (not fat)	thin (not fat)	vi	9.7.2	329-2	0		
+452280	1964	Sak	rəthe	rəthe	thick	thick	vi	9.7.2	330	0		
+452281	1964	Sak	pha	pha	thin (not thick)	thin (not thick)	vi	9.7.2	331	0		5551
+452282	1964	Sak	ároŋ	ároŋ	color	color		9.4	332	0		
+452283	1964	Sak	ʃá	ʃá	red	red	vi	9.4	333	0		5721
+452284	1964	Sak	kóŋgəláʔ+roŋ	kóŋgəláʔ+roŋ	blue (lit. sky-color)	blue (lit. sky-color)		9.4	334	0		
+452285	1964	Sak	áwa	áwa	yellow	yellow	n.	9.4	335	0		
+452286	1964	Sak	ŋyɯ́-goʔ	ŋyɯ́-goʔ	green	green		9.4	336	0		
+452287	1964	Sak	phro	phro	white	white	vi	9.4	337	0		1235
+452288	1964	Sak	thɨ́ŋ	thɨ́ŋ	black	black	vi	9.4	338	0		2683
+452289	1964	Sak	vaʔ+ʃi+roŋ	vaʔ+ʃi+roŋ	brown (lit. pig-feces-color)	brown (lit. pig-feces-color)		9.4	338a	0		1006,m,m
+452290	1964	Sak	ákyaʔ	ákyaʔ	paint	paint (v)	v	5.8	338-1	0		
+452291	1964	Sak	roŋ=svu	roŋ=svu	dye	dye		5.1	338-2	0		
+452292	1964	Sak	ákra	ákra	sound	sound		9.3	339	0		
+452293	1964	Sak	ásəɓe	ásəɓe	odor / smell	odor / smell		7.1.4.5	340	0		
+452294	1964	Sak	ŋyaʔ	ŋyaʔ	violent / wild	violent / wild	vt	6.5	340-1	0		
+452295	1964	Sak	ákyaŋ=mí	ákyaŋ=mí	gentle	gentle	vi	9.6.1.2	340-2	0		
+452296	1964	Sak	réwáiŋʃaŋ	réwáiŋʃaŋ	brave / courageous	brave / courageous	n.		340-4	0		
+452297	1964	Sak	ʃigróʔ	ʃigróʔ	cowardly	cowardly	n.	4.2.12.3	340-5	0		
+452298	1964	Sak	próŋbróŋ	próŋbróŋ	honest	honest	n.	8.3.3.4.1	340-6	0		
+452299	1964	Sak	náiʔ	náiʔ	sly / cunning	sly / cunning	vi	8.3.1.13	340-7	0		
+452300	1964	Sak	nəpyaŋ	nəpyaŋ	lazy	lazy	vi	9.6.2.2	340-8	0		
+452301	1964	Sak	təhoŋ_ʃaŋ	təhoŋ_ʃaŋ	strong	strong	n.	9.6.1.1	341	0		
+452302	1964	Sak	ŋyó	ŋyó	weak	weak	vi	1.1.5	342	0		
+452303	1964	Sak	máiŋ	máiŋ	correct	be correct	vi	8.3.3.9	343	0		
+452304	1964	Sak	kəmaŋ	kəmaŋ	be wrong, mistaken	be wrong, mistaken	vt	10.4.1.1	343a	0		
+452305	1964	Sak	mí	mí	good	good	vi	9.6.1.1	344	0		2457
+452306	1964	Sak	ŋyaiʔ	ŋyaiʔ	bad	bad	vi	9.6.2.1	345	0		
+452307	1964	Sak	áləgɯsa	áləgɯsa	easy	easy	n.	9.6.1.1	345-1	0		
+452308	1964	Sak	kháʔ	kháʔ	hard / difficult	hard / difficult	vi	9.6.2	345-2	0		173
+452309	1964	Sak	doʃá	doʃá	dangerous	dangerous	n.	9.6.2.1	345-3	0		
+452310	1964	Sak	ʃoʔʃóʔsa	ʃooʔʃóʔsa	loose	loose	n.	6.13.1	345-5	0		
+452311	1964	Sak	kywá	kywá	smooth	smooth	vi	7.1.4.2	346	0		
+452312	1964	Sak	soʔ	soʔ	rough	rough	vi	7.1.4.2	346-1	0		1839
+452313	1964	Sak	hó	hó	old	old	vi	7.1.8.3	347	0		
+452314	1964	Sak	náiŋ	náiŋ	new	new	vi	9.6.1.1	348	0		
+452315	1964	Sak	kənáŋ	kənáŋ	beautiful	beautiful	vi	7.1.3	349	0		
+452316	1964	Sak	kópəpaʔ	kópəpaʔ	ugly	ugly	n.	7.1.3	349-1	0		
+452317	1964	Sak	ʃáŋ-goʔ	ʃáŋ-goʔ	clean	clean		6.2.2.5.2	350	0		
+452318	1964	Sak	kəjɨʔkəjɯ́	kəjɨʔkəjɯ́	dirty	dirty	n.	3.2.11	351	0		
+452319	1964	Sak	ku	ku	hard	hard	vi	9.6.2	352	0		
+452320	1964	Sak	yi	yi	soft	soft	vi	7.1.4.2	353	0		
+452321	1964	Sak	a◦rá	ará	place	place		9.10.5	353-1	0		p,5435
+452322	1964	Sak	aráiʔ	aráiʔ	place	place		9.10.5	353-1	0		
+452323	1964	Sak	áthəna	áthəna	front	front		1.4.4	354	0		
+452324	1964	Sak	álo	álo	back	back		1.4.8	355	0		
+452325	1964	Sak	ánaiŋ	ánaiŋ	horizontal	horizontal		7.1.5.4	355-1	0		
+452326	1964	Sak	ayá	ayá	vertical	vertical		9.2.1	355-1a	0		
+452327	1964	Sak	atəlú	atəlú	space / space between	space / space between		9.2.7	356	0		
+452328	1964	Sak	aphúŋ	aphúŋ	up	up		9.2.1	357	0		
+452329	1964	Sak	ámuʔ	ámuʔ	down	down		9.2.2	358	0		
+452330	1964	Sak	átoŋhúŋ	átoŋhúŋ	middle	middle		1.9.4	359	0		
+452331	1964	Sak	apráŋ	apráŋ	outside	outside		9.2.7	360	0		
+452332	1964	Sak	púʔsəláʔ	púʔsəláʔ	right (lit. rice-eat-arm)	right (lit. rice-eat-arm)		1.5.3.2	361	0		
+452333	1964	Sak	beláʔ	beláʔ	left	left		1.5.3.2	362	0		
+452334	1964	Sak	akɯ́	akɯ́	sharp / tip / point	sharp / tip / point		6.9.2	363	0		
+452335	1964	Sak	lépháʔléji	lépháʔléji	circumference / environment	circumference / environment		9.8	363-1	0		
+452336	1964	Sak	ácɯsa	ácɯsa	near	near	n.	9.2.3	364	0		
+452337	1964	Sak	caiŋ	caiŋ	far	far	vi	9.2.4	365	0		1779
+452338	1964	Sak	cóʔ	cóʔ	high	high	vi	7.1.5.3	366	0		
+452339	1964	Sak	ámuʔsa	ámuʔsa	low	low	n.	7.1.5.3	367	0		
+452340	1964	Sak	cɨ́ʔ	cɨ́ʔ	deep	deep	vi	7.1.5.3	368	0		
+452341	1964	Sak	tiŋ	tiŋ	shallow	shallow	vi	7.1.5.3	369	0		
+452342	1964	Sak	váʔ	váʔ	wide	wide	vi	9.7.2	370	0		
+452343	1964	Sak	káiʔ	káiʔ	narrow	narrow	vi	9.7.2	371	0		
+452344	1964	Sak	maʔta	maʔta	together	together	adv.	10.1.1	372	0		
+452345	1964	Sak	phríŋ◦bəbáŋ	phríŋ◦bəbáŋ	full	full	n.	1.1.3.2	373	0		111
+452346	1964	Sak	akəɓáŋ	akəɓáŋ	empty	empty	n.	7.1.2.1	374	0		
+452347	1964	Sak	pháʔ	pháʔ	direction	direction		9.2.8	375	0		
+452348	1964	Sak	ahríʔ	ahríʔ	east	east		9.2.8	375-1	0		
+452349	1964	Sak	anóʔ	anóʔ	west	west		9.2.8	375-2	0		
+452350	1964	Sak	toŋ	toŋ	south	south		9.2.8	375-3	0		
+452351	1964	Sak	məróʔ	məróʔ	north	north		9.2.8	375-4	0		
+452352	1964	Sak	apáŋhəmaiʔcójó	apáŋhəmaiʔcójó	dawn	dawn		9.1.4	375-5	0		
+452353	1964	Sak	apáŋhəmaiʔ	apáŋhəmaiʔ	morning	morning		9.1.4	376	0		
+452354	1964	Sak	mwáiŋdé	mwáiŋdé	noon	noon		9.1.4	376-1	0		
+452355	1964	Sak	miŋnaiʔ	mwáiŋ	daytime	daytime		9.1.3	377	0		
+452356	1964	Sak	miŋnaiʔ	miŋnaiʔ	afternoon	afternoon		9.1.4	377a	0		
+452357	1964	Sak	thiyaiʔ	thiyaiʔ	daytime	daytime		9.1.3	377b	0		
+452358	1964	Sak	naʔtaiʔsərɨ́ŋsa	naʔtaiʔsərɨ́ŋsa	evening	evening		9.1.4	378	0		
+452359	1964	Sak	tháŋ	tháŋ	night	night		9.1.4	379	0		
+452360	1964	Sak	cójó	cójó	early	early	n.	9.1.1	380	0		
+452361	1964	Sak	krá	krá	late	late	vi	9.1.1	381	0		
+452362	1964	Sak	átaiʔ	átaiʔ	now	now		9.1.5	382	0		
+452363	1964	Sak	təbraiŋnáiŋʃáŋ	təbraiŋnáiŋʃáŋ	immediately / right away	immediately / right away	n.	9.1.1	382-1	0		
+452364	1964	Sak	məlá	məlá	before	before		9.1.5	383	0		
+452365	1964	Sak	nóʔtáiʔ	nóʔtáiʔ	after	after		9.1.5	384	0		
+452366	1964	Sak	ráʔpráiʔ	ráʔpráiʔ	always	always		9.1.1	385	0		
+452367	1964	Sak	áhoʔhóʔ	áhoʔhóʔ	often	often		9.1.1	386	0		
+452368	1964	Sak	tə́khatəri	tə́khatəri	sometimes	sometimes		9.1.5	386-1	0		
+452369	1964	Sak	yaʔ	yaʔ	today	today		9.1.3	387	0		
+452370	1964	Sak	naʔtəkráiʔ	naʔtəkráiʔ	yesterday	yesterday		9.1.3	388	0		
+452371	1964	Sak	apə́naiʔ	apə́naiʔ	tomorrow	tomorrow		9.1.3	389	0		
+452372	1964	Sak	yaʔ-ta-gə́ra	yaʔ-ta-gə́ra	every day	every day		9.9	390	0		
+452373	1964	Sak	rəyaʔ	rəyaʔ	day	day		1.5.3.2	391	0		
+452374	1964	Sak	áʃiŋ	áʃiŋ	time	time		9.1.5	391a	0		
+452375	1964	Sak	təláŋla	təláŋla	Monday	Monday		9.1.3	391b	0		
+452376	1964	Sak	aŋga	aŋga	Tuesday	Tuesday		9.1.3	391c	0		
+452377	1964	Sak	pədvú	pədvú	Wednesday	Wednesday		9.1.3	391d	0		
+452378	1964	Sak	kráiʔsəpədí	kráiʔsəpədí	Thursday	Thursday		9.1.3	391e	0		
+452379	1964	Sak	sóʔkra	sóʔkra	Friday	Friday		9.1.3	391f	0		
+452380	1964	Sak	cə́niŋ	cə́niŋ	Saturday	Saturday		9.1.3	391g	0		
+452381	1964	Sak	təláŋgoniŋ	təláŋgoniŋ	Sunday	Sunday		9.1.3	391h	0		
+452382	1964	Sak	áhəle	áhəle	week	week		9.1.3	391-1	0		
+452383	1964	Sak	sədá	sədá	month	month		9.1.2	391-2	0		1016
+452384	1964	Sak	sə◦niŋ	sə◦niŋ	year	year		9.1.2	392	0		m,2501
+452385	1964	Sak	ásaʔ	ásaʔ	age	age		9.1.2	392-1	0		
+452386	1964	Sak	ɗuʔ	ɗuʔ	count	count		6.2.2.2	393	0		
+452387	1964	Sak	hvú-wa	hvú-wa	one	one		9.9	394	0		
+452388	1964	Sak	níŋ-hvú	níŋ-hvú	two	two		9.9	395	0		
+452389	1964	Sak	súŋ-hvú	súŋ-hvú	three	three		9.9	396	0		2666
+452390	1964	Sak	prɨ́-hvú	prɨ́-hvú	four	four		9.9	397	0		2409,m
+452391	1964	Sak	ŋá-hvú	ŋá-hvú	five	five		9.9	398	0		1306
+452392	1964	Sak	kruʔ-hvú	kruʔ-hvú	six	six		9.9	399	0		2621,m
+452393	1964	Sak	səniŋ-hvú	səniŋ-hvú	seven	seven		9.9	400	0		
+452394	1964	Sak	ácaiʔ-hvú	ácaiʔ-hvú	eight	eight		9.9	401	0		
+452395	1964	Sak	təhvú-hvú	təhvú-hvú	nine	nine		9.9	402	0		
+452396	1964	Sak	sɨ́-hvú	sɨ́-hvú	ten	ten		9.9	403	0		
+452397	1964	Sak	húŋ-hvú	húŋ-hvú	twenty	twenty		9.9	404	0		
+452398	1964	Sak	súŋ◦jɨ́	súŋ◦jɨ́	thirty	thirty		9.9	404-4	0		2666
+452399	1964	Sak	práiŋjɨ́	práiŋjɨ́	forty	forty		9.9	404-5	0		
+452400	1964	Sak	ŋá◦iŋjɨ́	ŋá◦iŋjɨ́	fifty	fifty		9.9	404-6	0		1306
+452401	1964	Sak	kruʔ◦cɨ́	kruʔ◦cɨ́	sixty	sixty		9.9	404-7	0		2621,m
+452402	1964	Sak	səniŋjɨ́	səniŋjɨ́	seventy	seventy		9.9	404-8	0		
+452403	1964	Sak	ácaiʔ|cɨ́	ácaiʔcɨ́	eighty	eighty		9.9	404-9	0		
+452404	1964	Sak	təhvújɨ́	təhvújɨ́	ninety	ninety		9.9	404-10	0		
+452405	1964	Sak	tə-rá	tə-rá	hundred	hundred		9.9	405	0		
+452406	1964	Sak	thóŋ-na	thóŋ-na	thousand	thousand		9.9	405-11	0		2703
+452407	1964	Sak	tə-sóŋ	tə-sóŋ	ten thousand	ten thousand		9.9	405-14	0		
+452408	1964	Sak	tə-síŋ	tə-síŋ	hundred thousand	hundred thousand		9.9	405-16	0		
+452409	1964	Sak	che-síŋ	che-síŋ	million	million		9.9	405-17	0		
+452410	1964	Sak	gúdi	gúdi	ten million	ten million		9.9	405-18	0		
+452411	1964	Sak	áhaʔ	áhaʔ	time / occasion	time / occasion		9.1.5	406	0		
+452412	1964	Sak	pəthəmá	pəthəmá	first	first		9.9	406-4	0		
+452413	1964	Sak	dútíyá	dútíyá	second	second		9.9	406-5	0		
+452414	1964	Sak	tátíyá	tátíyá	third	third		9.9	406-6	0		
+452415	1964	Sak	hú-wa-húʔ	hú-wa-húʔ	alone / by oneself	alone / by oneself		7.1.6.1	406-8	0		
+452416	1964	Sak	cúʔ-raʔ	cúʔ-raʔ	all	all		9.9	407	0		
+452417	1964	Sak	thaʔvaʔ	thaʔvaʔ	half	half		9.8	408	0		
+452418	1964	Sak	ániŋ	ániŋ	heavy	heavy	vi	9.6.2	409	0		
+452419	1964	Sak	rəca	rəca	light (weight)	light (weight)	vi	7.1.11.1	410	0		
+452420	1964	Sak	búŋ-goʔ	búŋ-goʔ	many / numerous	many / numerous	n.	9.9	411	0		
+452421	1964	Sak	sáiŋyaŋsa	sáiŋyaŋsa	few	few	n.	9.9	412	0		
+452422	1964	Sak	pɯ	pɯ	increase	increase	vi	9.5	412-1	0		
+452423	1964	Sak	sáiŋ	sáiŋ	decrease	decrease	vi	9.5	412-2	0		
+452424	1964	Sak	ŋa	ŋa	I / me	I / me		4.1	413	0		2530
+452425	1964	Sak	niŋyaʔ	niŋyaʔ	we	we		4.1	414	0		
+452426	1964	Sak	naŋ	naŋ	you (fam)	you (fam)		4.1	415	0		2489
+452428	1964	Sak	nə́niŋ	nə́niŋ	you pl (fam)	you pl (fam)		4.1	416	0		
+452430	1964	Sak	kobaŋ	kobaŋ	you (polite)	you (polite)		4.1	416-1	0		
+452431	1964	Sak	kobaŋ-raʔ	kobaŋ-raʔ	you pl (polite)	you pl (polite)		4.1	416-2	0		
+452432	1964	Sak	á◦ma	áma	he	he		4.1	417	0		2138,m
+452433	1964	Sak	á◦ma	áma	she	she		4.1	417-1	0		2138,m
+452434	1964	Sak	ámə-raʔ	ámə-raʔ	they	they		4.1	418	0		
+452435	1964	Sak	ápəna	ápəna	self	self		4.1	419	0		
+452436	1964	Sak	má	má	this	this		10.4.3.2	420	0		
+452437	1964	Sak	mə́-raʔ	mə́-raʔ	these	these		10.4.3.2	420a	0		
+452438	1964	Sak	húŋmá	húŋmá	that (distal)	that (distal)		10.1	421	0		
+452439	1964	Sak	iŋmá	iŋmá	that (proximal)	that (proximal)		10.1	421-1	0		
+452440	1964	Sak	má	má	here	here		9.2.3	422	0		
+452441	1964	Sak	húŋmá	húŋmá	way over there	way over there		9.2.8	423	0		
+452442	1964	Sak	iŋmá	iŋmá	there	there		9.2.7	423-1	0		
+452443	1964	Sak	ní-ya	ní-ya	hither / this way	hither / this way		9.2.3	423-2	0		
+452444	1964	Sak	áyu	áyu	who	who		10.5.3	424	0		
+452445	1964	Sak	ása	ása	what	what		10.5.3	425	0		
+452446	1964	Sak	ásə-gə́lú	ásə-gə́lú	which	which		10.5.3	426	0		
+452447	1964	Sak	ásəmí	ásəmí	how	how		10.1	427	0		
+452448	1964	Sak	ásəma	ásəma	where	where		10.5.3	428	0		
+452449	1964	Sak	ásə=pháʔ	ásə=pháʔ	whither / which way	whither / which way		10.5.3	428-1	0		
+452450	1964	Sak	ásə=rɨ	ásə=rɨ	why	why		10.5.3	428-2	0		
+452451	1964	Sak	ásəmiŋdaiʔ	ásəmiŋdaiʔ	when	when		10.5.3	429	0		
+452452	1964	Sak	ásətáiʔ-ʃáʔ	ásətáiʔ-ʃáʔ	what time	what time		10.5.3	429a	0		
+452453	1964	Sak	ásətáiʔ	ásətáiʔ	how many	how many		10.1	430	0		
+452454	1964	Sak	ásətáiʔ	ásətáiʔ	how much	how much		10.1	430-1	0		
+452455	1964	Sak	ɗaʔɗáʔ	ɗaʔɗáʔ	very / extremely	very / extremely		7.1.2.2	431-1	0		
+452456	1964	Sak	-jó	-jó	most	most		7.1.2.1	431-2	0		
+452457	1964	Sak	-có	-có	most	most		7.1.2.1	431-2	0		
+452458	1964	Sak	sú-wə-yɯʔ	sú-wə-yɯʔ	not at all	not at all		1.5.3.2	431-3	0		
+452459	1964	Sak	búŋbúŋ	búŋbúŋ	too / too much	too / too much		10.1	431-4	0		
+452460	1964	Sak	áyoʔka	áyoʔka	more	more		9.9	431-5	0		
+452461	1964	Sak	tháʔcíʔ	tháʔcíʔ	exactly	exactly		7.1.8.3	431-6	0		
+452462	1964	Sak	-sə́nɯʔ	-sə́nɯʔ	maybe	maybe		10.2.1	431-7	0		
+452463	1964	Sak	háməháiʔ	háməháiʔ	surely / certainly	surely / certainly		7.2	431-8	0		
+452464	1964	Sak	cóʔmá	cóʔmá	suddenly	suddenly		9.1.1	431-9	0		
+452465	1964	Sak	práiŋ-goʔ	práiŋ-goʔ	again	again		10.1	432	0		
+452466	1964	Sak	A... nə́-ɓɯʔ	A... nə́-ɓɯʔ	not yet	not yet		1.5.3.2	433	0		
+452467	1964	Sak	...-náiŋ	...-náiŋ	already	already		10.1	434	0		
+452468	1964	Sak	CL-—-íŋ CL-—	CL-—-íŋ CL-—	mutually	mutually		10.0	434-1	0		
+452469	1964	Sak	...-neʔ	...-neʔ	if	if		10.1.2.2	435	0		
+452470	1965	Marma	ə◦gɔ́ŋ	əgɔ́ŋ	head	head		1.2.1	1	0		
+452471	1965	Marma	ŋyíŋ	ŋíŋ	headache	headache		1.2.1	1a	0		
+452472	1965	Marma	chaiŋbaŋ	chaiŋbaŋ	hair of head	hair of head		1.2.3	1-1	0		
+452473	1965	Marma	chaiŋbaŋ◦phru	chaiŋbaŋ◦phru	white hair	white hair		9.4	1-1a	0		m,1235
+452474	1965	Marma	phrí	phrí	comb hair	comb hair		1.2.2.1	1-1b	0		1220
+452475	1965	Marma	wə◦phrí	wəphrí	comb	comb		1.2.2.1	1-1c	0		m,1220
+452476	1965	Marma	gouʔθiŋ	gouʔθiŋ	hairpin	hairpin		5.11.8.3	1-1d	0		
+452477	1965	Marma	kəkhyaʔ	khəkhyaʔ	bald	bald		1.2.3.4	1-2	0		
+452478	1965	Marma	kyáŋ	kyáŋ	get bald	get bald		1.1.5	1-2a	0		
+452479	1965	Marma	gɔ́ŋ◦gyáŋ	gɔ́ŋgyáŋ	bald head	bald head		1.2.3.4	1-2b	0		
+452480	1965	Marma	gɔ́ŋ◦douʔ	gɔ́ŋdouʔ	shaven head	shaven head		6.9.2	1-2c	0		
+452481	1965	Marma	ǔ◦hnɔʔ	ǔ◦hnɔʔ	brain	brain		1.2.4	1-3	0		385,243
+452482	1965	Marma	nə◦phú◦ja	nəphúja	forehead	forehead		1.2.5.1	2	0		356,2024,m
+452483	1965	Marma	myaʔ◦cǐ	myaʔ◦cǐ	eye	eye		1.2.6	3	0		681
+452484	1965	Marma	myaʔri	myaʔri	eyelid	eyelid		1.2.6.4	3a	0		
+452485	1965	Marma	myaʔrɔiʔ	myaʔrɔiʔ	eyebrow	eyebrow		1.2.6.6	4	0		
+452486	1965	Marma	myaʔ◦tɔŋ	myaʔ◦tɔŋ	eyelash	eyelash		1.2.6.5	4a	0		681,m
+452487	1965	Marma	myaʔre	myaʔre	tears	tears		1.2.6.7	5	0		
+452488	1965	Marma	əkáiŋ	əkáiŋ	blind	blind		1.2.6.14.2	6	0		
+452489	1965	Marma	nə◦khɔ́ŋ	nəkhɔ́ŋ	nose	nose		1.2.8	7	0		803,809
+452490	1965	Marma	hnaiʔ	hnaiʔ	snot	snot		1.8.2	7a	0		805
+452491	1965	Marma	nəkhɔ́ŋkhí	nəkhɔ́ŋkhí	nasal mucus (solid)	nasal mucus (solid)		1.8.2	7b	0		
+452492	1965	Marma	nəkhɔ́ŋbouʔθwí	nəkhɔ́ŋbouʔθwí	nosebleed	nosebleed		1.2.8	7c	0		
+452493	1965	Marma	ná	ná	ear	ear		1.2.7	8	0		811
+452494	1965	Marma	nəbáŋ	nəbáŋ	deaf	deaf		1.2.7.5	9	0		
+452495	1965	Marma	pəjǎ	pəjǎ	mouth	mouth		1.3.1	10	0		
+452496	1965	Marma	nəkhwáiŋ	nəkhwáiŋ	lip	lip		1.3.2	11	0		
+452497	1965	Marma	ʃa	ʃa	tongue	tongue		1.3.3	12	0		
+452498	1965	Marma	pəbwá	pəbwá	dumb	dumb		8.5.4.4	13	0		
+452499	1965	Marma	ǎ	ǎ	stutter	stutter		8.5.4.5	13a	0		
+452500	1965	Marma	θwá	θwá	teeth	teeth		1.3.4	14	0		
+452501	1965	Marma	táiŋchí	táiŋchí	saliva	saliva		1.8.3	15	0		
+452502	1965	Marma	θəlǐ	θəlǐ	phlegm	phlegm		1.8.3	15a	0		
+452503	1965	Marma	ʃəre	ʃəre	slobber	slobber			15b	0		
+452504	1965	Marma	ə◦θaʔ=ŋaŋ	əθaʔ=ŋaŋ	breathe	breathe		1.1.2.2	16	0		p,32,m
+452505	1965	Marma	ə◦θaʔ	ə◦θaʔ	breath	breath		1.1.2.2	16a	0		p,32
+452506	1965	Marma	əθaiŋ	əθaiŋ	voice	voice		8.5.5	17	0		
+452507	1965	Marma	əkhrɔ́ŋchú	əkhrɔ́ŋchú	cough	cough		1.8.3.3	18	0		
+452508	1965	Marma	khrɔ́ŋchú	khrɔ́ŋchú	cough	to cough	v	1.8.3.3	18a	0		
+452509	1965	Marma	əkhi	əkhi	sneeze	sneeze		1.8.2.1	19	0		
+452510	1965	Marma	wa=θáiŋ	wa=θáiŋ	yawn	yawn		1.3.1.3	20	0		
+452511	1965	Marma	ɔʔmwíŋ	ɔʔmwíŋ	jaw	jaw		1.2.5.2	21	0		
+452512	1965	Marma	myaʔhna	myaʔhna	face	face		1.2.5	22	0		
+452513	1965	Marma	pá	pá	cheek	cheek		1.2.5.2	23	0		268,m
+452514	1965	Marma	məchwí	məchwí	moustache	moustache		1.2.5.5	24	0		
+452515	1965	Marma	bəráiŋ	bəráiŋ	beard	beard		1.2.5.5	24a	0		
+452516	1965	Marma	lɔiŋ◦pháŋ	lɔiŋpháŋ	neck	neck		1.4.2	25	0		479,m
+452517	1965	Marma	lɔiŋgouʔ	lɔiŋgouʔ	nape	nape		1.4.2.1	25a	0		
+452518	1965	Marma	lɔiŋkhrɔ́ŋ	lɔiŋkhrɔ́ŋ	larynx	larynx		1.3.5.4	26	0		
+452519	1965	Marma	paʔ◦kúŋ	paʔkúŋ	shoulder	shoulder		1.4.3	27	0		
+452520	1965	Marma	laʔkədoiʔ	laʔkədoiʔ	armpit	armpit		1.5.1.2.3	27-1	0		
+452521	1965	Marma	ə◦laʔ	ə◦laʔ	arm	arm		1.5.1.2	28	0		p,695
+452522	1965	Marma	táiŋdɔŋ	táiŋdɔŋ	elbow	elbow		1.5.8.3	29	0		
+452523	1965	Marma	laʔkhuŋ.əchɔiʔ	laʔ◦chɔiʔ	wrist	wrist		1.5.8.1	29-1	0		695,418
+452524	1965	Marma	ə◦laʔ	ə◦laʔ	hand	hand		1.5.1.1	30	0		p,695
+452525	1965	Marma	laʔ◦wá	laʔ◦wá	palm of hand	palm of hand		1.5.5	30a	0		695,m
+452526	1965	Marma	laʔkhuŋ	laʔkhuŋ	back of one's hand	fingernail		1.5.10.1	30b	0		
+452527	1965	Marma	laʔhŋyú	laʔhŋyú	finger	finger		1.5.6	31	0		
+452528	1965	Marma	laʔ◦θé	laʔθé	nail / claw	nail / claw		1.5.10	32	0		695,m
+452529	1965	Marma	laʔ◦θí	laʔθí	fist	fist		1.5.1.1.1	32-1	0		695,m
+452530	1965	Marma	raŋphaiʔ	raŋphaiʔ	chest / breast	chest / breast		1.4.4.3	33	0		
+452531	1965	Marma	nǒ	nǒ	woman's breast	woman's breast		1.9.3	34	0		
+452532	1965	Marma	nǒθí	nǒθí	nipple	nipple			34-1	0		
+452533	1965	Marma	naiŋrú	naiŋrú	rib	rib		1.4.4.3	34-2	0		
+452534	1965	Marma	əchouʔ	əchouʔ	lung	lung		1.7.2	34-3	0		
+452535	1965	Marma	ə◦hnə◦lúŋ	ə◦hnə◦lúŋ	heart	heart		1.7.1	35	0		p,1385,1381
+452536	1965	Marma	əwáiŋ	əwáiŋ	belly / stomach	belly / stomach		1.4.7	36	0		
+452537	1965	Marma	əθé.u	əθé.u	intestines	intestines		1.7.7	37	0		m,2102
+452538	1965	Marma	u	u	intestines	intestines		1.7.7	37-1	0		2102
+452539	1965	Marma	wáiŋkhɔ́ŋ	wáiŋkhɔ́ŋ	stomach	stomach		1.7.6	37-2	0		
+452540	1965	Marma	ə◦θé	ə◦θé	liver	liver		1.7.3	38	0		p,1390
+452541	1965	Marma	θé◦khri◦re	θékhrire	bile	bile		1.7.3.1	38A	0		1390,227,1013
+452542	1965	Marma	kidəni	kidəni	kidney	kidney		1.7.5	38-1	0		bEnglish
+452543	1965	Marma	khyaʔ	khyaʔ	navel	navel		1.9.4	39	0		525
+452544	1965	Marma	kyáŋgrú	kyáŋgrú	umbilical cord	umbilical cord			39a	0		
+452545	1965	Marma	nɔʔkúŋ	nɔʔkúŋ	back	back		1.4.8	40	0		
+452546	1965	Marma	khá	khá	waist	waist		1.4.6	41	0		201
+452547	1965	Marma	kyɔʔchɔiʔ	kyɔʔchɔiʔ	buttock	buttock		1.4.9.2	42	0		
+452548	1965	Marma	phaŋkwǎ	phaŋkwǎ	anus	anus		1.4.10.2	42a	0		
+452549	1965	Marma	khyí	khí	shit / excrement	shit / excrement		1.8.5	42-1	0		577
+452550	1965	Marma	khyí=cɔiʔ	khí=cɔiʔ	defecate	defecate		1.8.5.4	42-2	0		
+452551	1965	Marma	θəú	θəú	bladder	bladder		1.7.8	42-3	0		
+452552	1965	Marma	θí	θí	urine	urine		1.8.4	42-4	0		650
+452553	1965	Marma	θí=pɔʔ	θí=pɔʔ	urinate	urinate		1.5.3.2	42-5	0		650,m
+452554	1965	Marma	khyí=pɔʔ	khí=pɔʔ	fart	fart		1.8.5.2	42-6	0		
+452555	1965	Marma	lí	lí	penis	penis			42-7	0		
+452556	1965	Marma	bəjǐ	bəjǐ	testicle	testicle			42-8	0		
+452557	1965	Marma		ləǔ	testicle	testicle			42-8	0		
+452558	1965	Marma	cəɔ	cəɔ	pubic region	pubic region		1.9.1	42-9	0		
+452559	1965	Marma	lú	lú	copulate	copulate		1.9.1.1	42-10	0		
+452560	1965	Marma	paʔ	paʔ	copulate	copulate		1.9.1.1	42-10	0		
+452561	1965	Marma	ə◦pɔŋ	əpɔŋ	thigh	thigh		1.5.7.1	42-11	0		p,404
+452562	1965	Marma	dú	dúchɔiʔ	knee	knee		1.5.8.4	43	0		
+452563	1965	Marma	ə◦khri	əkhri	leg	leg		1.5.7	44	0		p,335
+452564	1965	Marma	ə◦khri	əkhri	foot	foot		1.5.2	45	0		p,335
+452565	1965	Marma	əkhrimyaʔcǐ	əkhrimyaʔcǐ	ankle	ankle		1.5.8.2	45a	0		
+452566	1965	Marma	khəlúŋθá	khəlúŋθá	calf (of leg)	calf (of leg)		1.5.7	45b	0		
+452567	1965	Marma	phənɔʔ	phənɔʔ	heel	heel		1.5.2.1	45c	0		
+452568	1965	Marma	əkí	əkí	lame	lame		1.5.12	46	0		
+452569	1965	Marma	khaiŋ◦tha	khaiŋtha	body	body		1.1.1	47	0		1,4
+452570	1965	Marma	ə◦mwíŋ	ə◦mwíŋ	body hair	body hair		1.6.1	48	0		
+452571	1965	Marma	ə◦ri	əri	skin	skin		1.6.5	49	0		
+452572	1965	Marma	méθá	méθá	birthmark / mole	birthmark / mole		1.1.2	49-1	0		
+452573	1965	Marma	hnáiŋjǐ	hnáiŋjǐ	mole	mole		2.2.7	49-1A	0		
+452574	1965	Marma	kyɔʔ	kyɔʔ	Mongolian spot (type of birthmark)	Mongolian spot (type of birthmark)		1.1.2	49-1a	0		
+452575	1965	Marma	krwɔʔnəθí	krwɔʔnəθí	swelling / tumor	swelling / tumor		1.1.5.2	49-1b	0		
+452576	1965	Marma	áŋ	áŋ	tattoo	tattoo		5.11.8.3	49-2	0		
+452577	1965	Marma	pre	pre	pus	pus		1.8.6.1	50	0		1292
+452578	1965	Marma	khywé	khywé	sweat	sweat		1.8.1	51	0		615
+452579	1965	Marma	əhŋyǐŋ	əhŋǐŋ	body dirt / crud	body dirt / crud		1.1.1	52	0		
+452580	1965	Marma	taʔmǔŋ	taʔmǔŋ	dandruff	dandruff		1.2.1.5	52a	0		
+452581	1965	Marma	θwí	θwí	blood	blood		1.6.2	53	0		230
+452582	1965	Marma	ənəphoiʔ	ənəphoiʔ	scab	scab		1.6.5.3	53a	0		
+452583	1965	Marma	ərú	ərú	bone	bone		1.6.3	54	0		
+452584	1965	Marma	ə◦θá	ə◦θá	flesh	flesh		1.1.1.1	55	0		p,34
+452585	1965	Marma	á	á	strength	strength		1.1.5	56	0		
+452586	1965	Marma	mraŋ	mraŋ	see	see		1.2.6.10	57	0		1227
+452587	1965	Marma	krě	krě	watch	watch		1.2.6.9	57a	0		
+452588	1965	Marma	náiŋ	náiŋ	sniff / smell	sniff / smell		1.2.8.5	58	0		
+452589	1965	Marma	krá	krá	hear	hear		1.2.7.4	59	0		1411
+452590	1965	Marma	ná=thɔŋ	náthɔŋ	listen	listen		1.2.7.4	59a	0		
+452591	1965	Marma	re	re	laugh	laugh		1.8.8.1	60	0		1108
+452592	1965	Marma	ŋo	ŋo	weep	weep		1.8.8.2	61	0		1104
+452593	1965	Marma	hɔ́	hɔ́	shout	shout		8.5.4.1	62	0		
+452594	1965	Marma	əwaiʔ	əwaiʔ	clothes	clothes		5.11.8.2.1	63	0		
+452595	1965	Marma	waiʔ	waiʔ	wear / put on	wear / put on		6.2.2.1	64	0		2779
+452596	1965	Marma	waiʔ	waiʔ	put on (as pants)	put on (as pants)		6.17	64a	0		
+452597	1965	Marma	khywaiʔ	khywaiʔ	take off (clothes)	take off (clothes)		6.21	65	0		
+452598	1965	Marma	láŋgí	láŋgí	naked	naked		1.1.1	66	0		
+452599	1965	Marma	mɔ̌	mɔ̌	hat	hat		5.11.8.2.1.1	66-1	0		
+452600	1965	Marma	khə◦mɔʔ	khəmɔʔ	bamboo rain hat	bamboo rain hat		3.1.1	66-1a	0		m,bTai
+452601	1965	Marma	chɔ́ŋ	chɔ́ŋ	wear on head	wear on head		1.2.1	66-1b	0		
+452602	1965	Marma	thí	thí	umbrella	umbrella		5.11.8.2.2	66-1c	0		
+452603	1965	Marma	gɔ́ŋbɔ́ŋ	gɔ́ŋbɔ́ŋ	turban	turban		5.11.8.2.1.1	66-1d	0		
+452604	1965	Marma	áŋgi	áŋgi	shirt	shirt		5.11.8.2.1.2	66-2	0		
+452605	1965	Marma	lɔŋki	lɔŋki	sarong / loin cloth	sarong / loin cloth		5.11.8.2.1.3	66-3	0		
+452606	1965	Marma	dəyá	dəyá	man's sarong	man's sarong		1.9.6.1	66-3a	0		
+452607	1965	Marma	thəbwiŋ	thəbwiŋ	woman's sarong	woman's sarong		1.9.3	66-3b	0		
+452608	1965	Marma	pɔŋphi	pɔŋphi	trousers	trousers		5.11.8.2.1.3	66-4	0		
+452609	1965	Marma	khəbáiŋ	khəbáiŋ	belt	belt		5.11.8.2.1.3	66-5	0		
+452610	1965	Marma	kouʔáŋgi	kouʔáŋgi	coat	coat		5.11.8.2.1.2	66-6	0		
+452611	1965	Marma	lɔiŋkhwaiŋ	lɔiŋkhwaiŋ	lapel	lapel			66-7	0		
+452612	1965	Marma	phənaiʔ	phənaiʔ	sandal	sandal		5.11.8.1	66-8	0		
+452613	1965	Marma	əkhrí-ələgá	əkhrí-ələgá	barefoot	barefoot		1.5.2.5	66-9	0		
+452614	1965	Marma	əwaiʔ	əwaiʔ	cloth	cloth		5.1	66-10	0		
+452615	1965	Marma	laʔcwaiʔ	laʔcwaiʔ	finger-ring	finger-ring		5.11.8.3	67-2	0		
+452616	1965	Marma	kaiʔkyɔiʔ	kaiʔkyɔiʔ	scissors	scissors		5.11.5.3	67-3	0		
+452617	1965	Marma	aiʔ	aiʔ	needle	needle		5.1	68	0		
+452618	1965	Marma	θaiŋhmo	θaiŋhmo	nail	nail		1.5.10	68a	0		
+452619	1965	Marma	khre	khre	thread	thread		5.11.6	69	0		
+452620	1965	Marma	khrouʔ	khrouʔ	sew	sew		5.1	70	0		2627
+452621	1965	Marma	ə◦cá	əcá	food	food		5.5	71	0		p,36
+452622	1965	Marma	chaiŋ	chaiŋ	rice (uncooked)	rice (uncooked)		3.1.4	71-1	0		
+452623	1965	Marma	thəmɔ́ŋ	thəmɔ́ŋ	cooked rice	cooked rice		5.5	71-1A	0		
+452624	1965	Marma	háŋ	háŋ	side dish / curry	side dish / curry		1.4.5	71-1B	0		
+452625	1965	Marma	cəbá	cəbá	rice plant	rice plant		3.1.4	71-1a	0		
+452626	1965	Marma	kɔʔrú	kɔʔrú	straw	straw		3.1.6.2	71-1b	0		
+452627	1965	Marma	phwékhɔ́ŋ	phwékhɔ́ŋ	chaff	chaff		3.1.6	71-1c	0		
+452628	1965	Marma	pəpɔʔ	pəpɔʔ	dried out rice	dried out rice		6.6	71-1d	0		
+452629	1965	Marma	kɔ́ŋŋyáŋ	kɔ́ŋŋyáŋ	glutinous rice	glutinous rice		7.1.4.2	71-1e	0		
+452630	1965	Marma	gɔŋ	gɔŋ	wheat	wheat		3.1.4	71-2	0		
+452631	1965	Marma	prɔ́ŋ	prɔ́ŋ	barley	barley		3.1.4	71-3	0		
+452632	1965	Marma	prɔ́ŋ	prɔ́ŋ	foxtail millet	foxtail millet		1.5.3.2	71-4	0		
+452633	1965	Marma	chaiʔ	chaiʔ	millet	millet		1.5.3.2	71-5	0		
+452634	1965	Marma	kraiŋ	kraiŋ	sugar cane	sugar cane		3.1.6.2	71-5a	0		
+452635	1965	Marma	píθí	píθí	bean	bean		3.1.4	71-7	0		
+452636	1965	Marma	bǎdaŋ	bǎdaŋ	peanut	peanut		3.1.4	71-8	0		
+452637	1965	Marma	ə◦mǔŋ	əmǔŋ	powder / flour	powder / flour		3.2.11	72	0		p,5787
+452638	1965	Marma	prwíŋ	prwíŋ	taro	taro		3.1.5.1	72-1A	0		
+452639	1965	Marma	khəduθí	khəduθí	yam	yam		3.1.5	72-1B	0		
+452640	1965	Marma	mrɔʔθí	mrɔʔθí	potato	potato		3.1.5	72-1a	0		
+452641	1965	Marma	θədwí	θədwí	satsuma-imo (Japanese sweet potato)	satsuma-imo (Japanese sweet potato)		3.1.5	72-1b	0		
+452642	1965	Marma	ʃɔ́ʃaθí	ʃɔ́ʃaθí	cucumber	cucumber		3.1.5	72-1c	0		
+452643	1965	Marma	məla	məla	daikon radish	daikon radish		3.1.5	72-1d	0		
+452644	1965	Marma	khəráiŋθí	khəráiŋθí	eggplant	eggplant		3.1.5	72-1e	0		
+452645	1965	Marma	phəruŋθí	phəruŋθí	pumpkin	pumpkin		3.1.5	72-1f	0		
+452646	1965	Marma	lɔ́khyaθí	lɔ́khyaθí	okra	okra		3.1.5	72-1g	0		
+452647	1965	Marma	grǎŋkháθí	grǎŋkháθí	nigauri (bitter melon)	nigauri (bitter melon)		3.1.5	72-1h	0		
+452648	1965	Marma	háŋkhəbɔ́ŋθí	háŋkhəbɔ́ŋθí	kind of vegetable, a not very bitter kind of nigauri	kind of vegetable, a not very bitter kind of nigauri		8.3.3.2.1	72-1i	0		
+452649	1965	Marma	réphú	réphú	cabbage	cabbage		3.1.5.1	72-1j	0		
+452650	1965	Marma	gajɔ	gajɔ	carrot	carrot		3.1.5	72-1k	0		
+452651	1965	Marma	khyɔiŋkhəráiŋθí	khyɔiŋkhəráiŋθí	tomato	tomato		3.1.5	72-1l	0		
+452652	1965	Marma	khyáŋ	khyáŋ	ginger	ginger		3.1.5	72-1m	0		647
+452653	1965	Marma	mɔʔka	mɔʔka	maize	maize		3.1.5	72-2	0		bIndic
+452654	1965	Marma	ə◦θá	ə◦θá	meat	meat		1.1.1.1	73	0		p,34
+452655	1965	Marma	kraʔ◦θwaiŋ	kraʔθwaiŋ	onion	onion		3.1.5	73-1	0		1606,5494
+452656	1965	Marma	kraʔ◦θwaiŋ◦phru	kraʔθwaiŋphru	garlic	garlic		3.1.5	73-1a	0		1606,5494,1235
+452657	1965	Marma	ə◦θí	ə◦θí	fruit	fruit		3.1.5	74	0		p,1019
+452658	1965	Marma	θəraʔθí	θəraʔθí	mango	mango			74a	0		
+452659	1965	Marma	pədəgaθí	pədəgaθí	papaya	papaya		3.1.5	74b	0		
+452660	1965	Marma	pənéθí	pənéθí	jackfruit	jackfruit		3.1.5	74c	0		
+452661	1965	Marma	nəpyúθí	nəpyúθí	banana	banana		3.1.5	74d	0		
+452662	1965	Marma	naiŋdəraθí	naiŋdəraθí	pineapple	pineapple		3.1.5	74e	0		
+452663	1965	Marma	dəpháθí	dəpháθí	pomelo	pomelo			74f	0		
+452664	1965	Marma	wərɔiʔθí	wərɔiʔθí	kind of fruit, called wood-apple in English	kind of fruit, called wood-apple in English		10.1.1	74g	0		
+452665	1965	Marma	hmáŋŋyɔ́iŋθí	hmáŋŋyɔiŋθí	tamarind	tamarind		3.1.5	74h	0		
+452666	1965	Marma	lichuθí	lichuθí	lychee	lychee			74i	0		b?
+452667	1965	Marma	gɔiŋyɔiŋθí	gɔiŋyɔiŋθí	guava	guava		3.1.5	74j	0		
+452668	1965	Marma	jíθí	jíθí	jujube	jujube		3.1.1	74k	0		
+452669	1965	Marma	úŋθí	úŋθí	coconut	coconut		3.1.4	74l	0		
+452670	1965	Marma	phənéθí	phənéθí	watermelon	watermelon		3.1.5	74m	0		
+452671	1965	Marma	θɔ́ŋdərɔ́θí	θɔ́ŋdərɔ́θí	tangerine	tangerine		3.1.5	74n	0		
+452672	1965	Marma	páiŋθí	páiŋθí	apple	apple		3.1.5	74o	0		
+452673	1965	Marma	kagujiθí	kagujiθí	lemon	lemon		3.1.5	74q	0		
+452674	1965	Marma	ʃəʃáθí	ʃəʃáθí	amalaki (Indian gooseberry) Lat: emblic myrobalans	amalaki (Indian gooseberry) Lat: emblic myrobalans		4.6	74r	0		
+452675	1965	Marma	əcǐ	əcǐ	seed	seed		3.1.4	75	0		
+452676	1965	Marma	ǔ	ǔ	egg	egg			76	0		301
+452677	1965	Marma	chá	chá	salt	salt		3.2.4	77	0		2729
+452678	1965	Marma	ŋərouʔ◦kɔ́ŋ	ŋərouʔ◦mǔ	pepper	pepper		3.1.5	77a	0		bIndic,m
+452679	1965	Marma	ŋərouʔ	ŋərouʔ	red pepper	red pepper		9.4	77b	0		b?
+452680	1965	Marma	ré	ré	mustard	mustard		3.1.4	77b-1	0		
+452681	1965	Marma	ŋə◦pǐ	ŋəpǐ	fish sauce	fish sauce		2.2.5	77c	0		1455,m
+452682	1965	Marma	nəhnwɔ́ŋ	nəhnwɔ́ŋ	turmeric	turmeric		3.1.6.1	77d	0		
+452683	1965	Marma	θəgrá	θəgrá	sugar	sugar		3.1.6.2	77-1	0		
+452684	1965	Marma	θəga	θəga	honey	honey		2.2.6	77-1a	0		
+452685	1965	Marma	chi	chi	oil	oil		1.6.4.1	77-3	0		
+452686	1965	Marma	əchi	əchi	fat / lard	fat / lard		1.6.4	78	0		
+452687	1965	Marma	nǒ	nǒ	milk	milk			79	0		
+452688	1965	Marma	nǒkhyɔiŋ	nǒkhyɔiŋ	yoghurt (yogurt)	yoghurt (yogurt)		5.5	79a	0		
+452689	1965	Marma	ri	ri	water	water		3.2.3	80	0		1013
+452690	1965	Marma	rə◦bu	rəbu	hot water	hot water			80-1	0		1013,m
+452691	1965	Marma	əhoiʔ	əhoiʔ	steam / vapor	steam / vapor		6.6	80-2	0		
+452692	1965	Marma	lə◦phaʔ	ləphaʔ	tea	tea		3.1.1	80-3	0		786,821
+452693	1965	Marma	θwaiŋ	θwaiŋ	pour	pour		6.6	80-3a	0		
+452694	1965	Marma	háŋre	háŋre	juice	juice		3.1.6.3	80-5A	0		
+452695	1965	Marma	dǎiŋ	dǎiŋ	dahl (a popular bean soup in Bangladesh and India)	dahl (a popular bean soup in Bangladesh and India)		10.1.1	80-5a	0		
+452696	1965	Marma	ruti	ruti	bread	bread		5.5	80-6	0		
+452697	1965	Marma	əraʔ	əraʔ	liquor	liquor		3.1.6.3	80-7	0		
+452698	1965	Marma	yɔiʔ	yɔiʔ	get drunk	get drunk		1.1.5	80-8	0		
+452699	1965	Marma	chəloiʔ	chəloiʔ	tobacco	tobacco		3.1.6.2	80-9	0		
+452700	1965	Marma	chəloiʔ=θɔʔ	chəloiʔ=θɔʔ	smoke tobacco	smoke tobacco		3.2.12.2	80-9a	0		
+452701	1965	Marma	kwáiŋ	kwáiŋ	betel	betel		3.1.4	80-9b	0		
+452702	1965	Marma	əkhyo	əkhyo	bread / cake	bread / cake		5.5	80-9c	0		
+452703	1965	Marma	mǔŋ	mǔŋ	snack	snack		5.5	80-9d	0		
+452704	1965	Marma	prouʔ	prouʔ	boil	boil		6.6	81	0		2576
+452705	1965	Marma	khyaʔ	khyaʔ	cook	cook		5.5	81a	0		2316
+452706	1965	Marma	kaŋ	kaŋ	roast	roast		5.5	81-1	0		
+452707	1965	Marma	kyɔ	kyɔ	stir-fry	stir-fry		5.5	81-1A	0		
+452708	1965	Marma	pɔ́ŋ	pɔ́ŋ	(cook by) steam	(cook by) steam			81-1B	0		5825
+452709	1965	Marma	hlɔ	hlɔ	broil, roast in pan	broil, roast in pan		5.5	81-1a	0		
+452710	1965	Marma	hmě	hmě	ripe	ripe		3.1.10	82	0		2449
+452711	1965	Marma	cíŋ	cíŋ	unripe / raw	unripe / raw		3.1.10	82a	0		1005
+452712	1965	Marma	cá	cá	eat	eat		1.5.3.2	83	0		36
+452713	1965	Marma	yaʔ	yaʔ	lick	lick		1.3.3.1	84	0		629
+452714	1965	Marma	kɔiʔ	kɔiʔ	chew	chew		1.3.4	85	0		
+452715	1965	Marma	θɔʔ	θɔʔ	drink	drink			86	0		3462
+452716	1965	Marma	cǒ	cǒ	smoke / suck	smoke / suck		3.2.12.2	87	0		
+452717	1965	Marma	couʔ	couʔ	smoke / suck	smoke / suck		3.2.12.2	87	0		
+452718	1965	Marma	aiŋ	aiŋ	vomit	vomit		1.8.3.2	88	0		1796
+452719	1965	Marma	táiŋchí=bɔiʔ	táiŋchí=bɔiʔ	spit	spit		1.8.3	89	0		
+452720	1965	Marma	mwaiʔ	mwaiʔ	hungry	hungry		1.1.3	90	0		99
+452721	1965	Marma	wǎ	wǎ	satiated	satiated		1.1.3.2	90a	0		1833
+452722	1965	Marma	ri=θɔʔ mwaiʔ	ri=θɔʔ mwaiʔ	thirsty	thirsty		1.1.3.1	91	0		
+452723	1965	Marma	əharǎ	əharǎ	taste	taste		1.3.5.8	91-1	0		
+452724	1965	Marma	khri	khri	tasty / delicious	tasty / delicious		1.3.5.8	92	0		5362
+452725	1965	Marma	khyo	khyo	sweet	sweet		7.1.4.4	93	0		2380
+452726	1965	Marma	ŋaiŋ	ŋaiŋ	salty	salty		3.2.4	93-1	0		
+452727	1965	Marma	caiʔ	caiʔ	spicy	spicy		7.1.4.4	93-1A	0		
+452728	1965	Marma	khá	khá	bitter	bitter		7.1.4.4	94	0		229
+452729	1965	Marma	khyɔiŋ	khyɔiŋ	sour	sour		7.1.4.4	94-1	0		7205
+452730	1965	Marma	phaiŋ	phaiŋ	astringent	astringent		7.1.4.4	94-1a	0		
+452731	1965	Marma	pouʔ	pouʔ	rot	rot		3.1.10	95	0		5407
+452732	1965	Marma	hmo	hmo	mould ~ mold	mould ~ mold		3.1.7	95-1	0		
+452733	1965	Marma	wiŋ	wiŋ	house	house		5.11.9.1	96	0		
+452734	1965	Marma	təláŋ	təláŋ	garden	garden		9.10.4	96a	0		
+452735	1965	Marma	yɔŋ	yɔŋ	toilet	toilet		5.11.9.4	96b	0		
+452736	1965	Marma	té	té	hut / shed	hut / shed		5.11.9.1	96c	0		
+452737	1965	Marma	louʔ	louʔ	build	build		6.14	97	0		
+452738	1965	Marma	láiŋkhəwǎ	láiŋkhəwǎ	door	door		5.11.9.3	98	0		
+452739	1965	Marma	kráiŋ	kráiŋ	bed	bed		1.5.3.2	98-2	0		
+452740	1965	Marma	phya	phya	straw mat	straw mat		3.1.6.2	98-2A	0		
+452741	1965	Marma	moiʔra	moiʔra	rush mat	rush mat		6.7.9	98-2a	0		
+452742	1965	Marma	thəraiŋ	thəraiŋ	wall	wall		5.11.9.3	99	0		
+452743	1965	Marma	laʔtəbɔʔ	laʔtəbɔʔ	window	window		5.11.9.3	99-1	0		
+452744	1965	Marma	wiŋkhɔŋ	wiŋkhɔŋ	roof	roof		5.11.9	100	0		
+452745	1965	Marma	thouʔ	thouʔ	ceiling	ceiling		5.11.9.3.1	100a	0		
+452746	1965	Marma	mwíŋ	mwíŋ	fire	fire		3.2.12.2	101	0		
+452747	1965	Marma	məhrú	məhrú	torch	torch		5.11.5.5	101a	0		
+452748	1965	Marma	məkhú	məkhú	smoke	smoke		3.2.12.2	102	0		
+452749	1965	Marma	pra	pra	ashes	ashes		3.2.12.2	103	0		2560
+452750	1965	Marma	əmǔŋ	əmǔŋ	dust	dust		3.2.11	103a	0		
+452751	1965	Marma	mwíŋ=θaiʔ	mwíŋ=θaiʔ	extinguish	extinguish		3.2.12.1	104	0		
+452752	1965	Marma	lɔŋ	lɔŋ	burn	(vi) burn	vi	3.2.12.1	105	0		
+452753	1965	Marma	tɔiʔ	tɔiʔ	burn	burn (vt)	vt	3.2.12.1	105-1	0		
+452754	1965	Marma	thɔiŋ	thɔiŋ	sit	sit		6.1.1.4.1	106	0		
+452755	1965	Marma	pəchú	pəchú	blanket	blanket		5.11.9.4	106-1A	0		
+452756	1965	Marma	lé=niŋ	lé=niŋ	lie down	lie down		6.1.1.4	107-1	0		
+452757	1965	Marma	gɔ́ŋ=úŋ	gɔ́ŋ=úŋ	pillow	pillow		1.2.1	107-1a	0		
+452758	1965	Marma	oiʔ	oiʔ	sleep	sleep		1.1.4.1	108	0		
+452759	1965	Marma	maʔ	maʔ	dream	(v) dream	v	1.1.4.2	109	0		126
+452760	1965	Marma	oiʔ◦maʔ	oiʔmaʔ	dream	a dream	n	1.1.4.2	109a	0		m,126
+452761	1965	Marma	nú	nú	awake	be awake	be v.	1.1.4	109-1	0		
+452762	1965	Marma	thǎ	thǎ	wake up	wake up		1.1.4	110	0		
+452763	1965	Marma	raiʔ	raiʔ	stand	stand		1.5.2	111	0		145
+452764	1965	Marma	rədwɔ́ŋ	rədwɔ́ŋ	well	well (n)	n	9.6.1.1	111-1	0		
+452765	1965	Marma	rəjaʔ	rəjaʔ	well (tube)	well (tube)		9.6.1.1	111-1a	0		
+452766	1965	Marma		thəraiŋ	fence	fence		5.11.9.5	111-2	0		
+452767	1965	Marma	taiʔ	taiʔ	fence	fence		5.11.9.5	111-2	0		
+452768	1965	Marma	poiʔ	poiʔ	shut	shut		6.2.2.6.2	112	0		
+452769	1965	Marma	phwɔ̌ŋ	phwɔ̌ŋ	open	open		6.2.2.6.1	113	0		5704
+452770	1965	Marma	niŋ	niŋ	live / dwell	live / dwell		1.1.2.1	114	0		
+452771	1965	Marma	laʔkhra	laʔkhra	tool	tool		5.11.5.4	114-2	0		
+452772	1965	Marma	caʔ	caʔ	machine	machine		5.1	114-2a	0		
+452773	1965	Marma	hmaiŋ	hmaiŋ	mirror	mirror		5.11.8.3	114-3	0		
+452774	1965	Marma	yaiʔ	yaiʔ	fan	fan		5.4	114-3a	0		
+452775	1965	Marma	khwɔʔ	khwɔʔ	teacup	teacup			114-4	0		
+452776	1965	Marma	lɔŋbáiŋ	lɔŋbáiŋ	dish / plate	dish / plate		5.5	114-5	0		
+452777	1965	Marma	jwáiŋ	jwáiŋ	spoon	spoon		5.5	114-6	0		
+452778	1965	Marma	rəhmwǐŋ	rəhmwǐŋ	ladle / scoop	ladle / scoop		5.5	114-6b	0		
+452779	1965	Marma	bú	bú	water jar	water jar		3.2.3	115	0		
+452780	1965	Marma	úkhaʔ	úkhaʔ	vase	vase			115a	0		
+452781	1965	Marma	úbyɔiŋ	úbyɔiŋ	wok	wok		5.5	116	0		
+452782	1965	Marma	ri=khaiʔ	ri=khaiʔ	draw / scoop water	draw / scoop water		5.8	116-1	0		1013,m
+452783	1965	Marma	ri=θwaiŋ	ri=θwaiŋ	pour	pour		6.6	116-2	0		
+452784	1965	Marma	ri=phoiʔ	ri=phoiʔ	spill over	spill over		6.6	116-3	0		
+452785	1965	Marma	dá	dá	knife	knife		5.5	117	0		
+452786	1965	Marma	dəθwá	əcɔ́ŋ	blade (knife edge)	blade (knife edge)		1.4.3.2	118	0		
+452787	1965	Marma	chuŋ	chuŋ	mortar	mortar		5.5	118-1	0		2742
+452788	1965	Marma	kyəmwǐŋ	kyəmwǐŋ	pestle	pestle		5.5	118-2	0		
+452789	1965	Marma	kroiʔ	kroiʔ	saw	to saw	v	5.11.5.3	118-3	0		
+452790	1965	Marma	thɔ́ŋ	thɔ́ŋ	pound	to pound	v	6.8	118-4	0		
+452791	1965	Marma	tu	tu	hammer	hammer		5.11.5.4	118-5	0		
+452792	1965	Marma	θaiŋhmo	θaiŋhmo	nail	nail		1.5.10	118-6	0		
+452793	1965	Marma	hrwǎ	hrwǎ	saw	saw (n)	n	5.11.5.3	118-7	0		
+452794	1965	Marma	pɔʔchiŋ	pɔʔchiŋ	axe	axe		5.11.5.3	118-8	0		
+452795	1965	Marma	phələwa	phələwa	hoe	hoe		5.3	118-9	0		
+452796	1965	Marma	pɔʔtouʔ	pɔʔtouʔ	hoe	hoe		5.3	118-9	0		
+452797	1965	Marma	caʔkre	caʔkre	scythe	scythe		5.3	118-10	0		
+452798	1965	Marma	aiʔ◦kɔ́iŋ	aiʔ◦kɔ́iŋ	spade	spade		5.3	118-11	0		
+452799	1965	Marma	θwí	θwí	sharpen	sharpen		6.9.2	118-13	0		
+452800	1965	Marma	pərəphouʔ	pərəphouʔ	dust	dust		3.2.11	119	0		
+452801	1965	Marma	pwaiʔ	pwaiʔ	wipe	wipe		6.2.2.1	120	0		
+452802	1965	Marma	pwaiʔ	phrɔʔ	rub	rub		8.4	120a	0		
+452803	1965	Marma	hlé	hlé	sweep	sweep		6.2.2.5.3	120b	0		
+452804	1965	Marma	θɔiʔtaiŋ	θɔiʔtaiŋ	box	box		5.1	120-1	0		
+452805	1965	Marma	əphúŋ	əphúŋ	lid / cover	lid / cover		5.1	120-2	0		
+452806	1965	Marma	pəyɔ́iŋ	pəyɔ́iŋ	basket	basket		5.1	120-3	0		
+452807	1965	Marma	gɔ́ŋ=rwɔʔ	gɔ́ŋ=rwɔʔ	carry basket on head	carry basket on head		6.2.2.2.1	120-3a	0		
+452808	1965	Marma	pəkhaʔ	pəkhaʔ	cradle	cradle		5.11.9.4	120-3b	0		
+452809	1965	Marma	chála	chála	bag	bag			120-4	0		
+452810	1965	Marma	krú	krú	rope / cord	rope / cord		5.11.4	121	0		
+452811	1965	Marma	pɔiʔ	pɔiʔ	fishing net	fishing net		2.2.5	122	0		
+452812	1965	Marma	kwaiŋ	kwaiŋ	fishing net	fishing net		2.2.5	122	0		
+452813	1965	Marma	tɔŋboiʔ	tɔŋboiʔ	walking stick	walking stick		6.7.4	122-1	0		
+452814	1965	Marma	douʔ	douʔ	stick	stick		3.1.2	123	0		
+452815	1965	Marma	yɔʔmǎ	yɔʔmǎ	hand net / landing net	hand net / landing net		5.11.5.4	123-a	0		
+452816	1965	Marma	mwíŋ	mwíŋ	give birth	give birth		1.1.2	123-3	0		
+452817	1965	Marma	mwíŋ	mwíŋ	born	be born	be v.	1.1.2	124	0		
+452818	1965	Marma	krí	krí	grow up	grow up		9.7.2	125	0		
+452819	1965	Marma	mwíŋjaiʔ	mwíŋjaiʔ	bring up	bring up		6.2.2.2.2	125a	0		
+452820	1965	Marma	hraŋ	hraŋ	alive	be alive	be v.	1.1.2.1	126	0		71
+452821	1965	Marma	tǔŋ	tǔŋ	fat	fat		1.6.4	127	0		
+452822	1965	Marma	kruŋ	kruŋ	skinny / thin	skinny / thin		9.7.2	128	0		
+452823	1965	Marma	ŋyɔ́	ŋyɔ́	get tired / weary	get tired / weary		1.1.5	129	0		
+452824	1965	Marma	rɔ́ga	rɔ́ga	ill / sick	ill / sick		1.1.5.1	130	0		
+452825	1965	Marma	əna	əna	wound / injury	wound / injury		1.8.6.2	131	0		
+452826	1965	Marma	na	na	painful / sore	painful / sore		1.1.5.1	132	0		
+452827	1965	Marma	yá	yá	itchy	itchy		1.6.5.5	133	0		
+452828	1965	Marma	khrɔiʔ	khrɔiʔ	scratch	scratch		1.6.5.5	134	0		
+452829	1965	Marma	chí	chí	medicine	medicine		5.4	134-1	0		5427
+452830	1965	Marma	chí=krě	chí=krě	cure / treat illness	cure / treat illness		1.1.5.1	135	0		
+452831	1965	Marma	əchoiʔ	əchoiʔ	poison	poison		6.4	135-2	0		
+452832	1965	Marma	θaiʔ	θaiʔ	kill	kill		6.4	136	0		
+452833	1965	Marma	θi	θi	die	die		1.1.6	137	0		27
+452834	1965	Marma	hmrouʔ	hmrouʔ	bury dead	bury dead		6.11	137-1	0		
+452835	1965	Marma	θáŋkhyɔ́iŋ	θáŋkhyɔ́iŋ	tomb / grave	tomb / grave		9.10.6	137-2	0		
+452836	1965	Marma	θəgrámáŋ	θəgrámáŋ	god	god		5.8.1.1	138	0		
+452837	1965	Marma	naiʔ	naiʔ	ghost	ghost		4.2.12.2	138a	0		
+452838	1965	Marma	cúŋ	cúŋ	demon / monster	demon / monster		4.2.12.2	138b	0		
+452839	1965	Marma	raiŋ	raiŋ	quarrel	quarrel		8.5.8	139	0		
+452840	1965	Marma	cɔiʔ=chɔiŋ	cɔiʔ=chɔiŋ	make war	make war		6.14	139-1	0		
+452841	1965	Marma	ɔŋ	ɔŋ	win	win		6.19	139-2	0		5698
+452842	1965	Marma	ʃúŋ	ʃúŋ	lose (e.g. war)	lose (e.g. war)		6.10.1	139-3	0		
+452843	1965	Marma	brí	brí	flee / run away	flee / run away		6.7.2	140	0		6163
+452844	1965	Marma	lɔiʔ	lɔiʔ	chase / pursue	chase / pursue		6.7.10	141	0		
+452845	1965	Marma	cɔiʔdá	cɔiʔ thú dá	sword	sword		5.15	142	0		
+452846	1965	Marma	hlaiŋ	hlaiŋ	spear / javelin	spear / javelin		5.14	143	0		
+452847	1965	Marma	laʔka	laʔka	shield	shield		5.15	143-1	0		
+452848	1965	Marma	hlé	hlé	bow (weapon)	bow (weapon)		5.15	144	0		2411
+452849	1965	Marma	lɔʔ◦hlě	lɔʔhlě	slingshot	slingshot		5.14	144a	0		m,2411
+452850	1965	Marma	hléjú	hléjú	arrow	arrow		5.15	145	0		
+452851	1965	Marma	məbɔʔ	məbɔʔ	gun / rifle	gun / rifle		5.15	145-1	0		
+452852	1965	Marma	lu	lu	person / human being	person / human being		4.5	146	0		5632
+452853	1965	Marma	yɔʔkyá	yɔʔkyá	male / man	male / man		1.9.6.1	147	0		
+452854	1965	Marma	məmǎ	məmǎ	female / woman	female / woman		1.9.3	148	0		
+452855	1965	Marma	θuŋŋe	θuŋŋe	baby	baby		4.2.11	148-1	0		
+452856	1965	Marma	əʃe	əʃe	child	child		1.5.3.2	149	0		
+452857	1965	Marma	yɔʔkyáʃe	yɔʔkyáʃe	boy / lad	boy / lad		1.9.6.1	149-1	0		
+452858	1965	Marma	məmǎʃe	məmǎʃe	girl	girl		1.9.3	149-2	0		
+452859	1965	Marma	ləbyo	ləbyo	youth / young man	youth / young man		4.2.11	149-3	0		
+452860	1965	Marma	əpyomǎ	əpyomǎ	young woman	young woman		7.1.8.3	149-4	0		
+452861	1965	Marma	pyo	pyo	young	young		7.1.8.3	150	0		
+452862	1965	Marma	o	o	aged / old (of people)	aged / old (of people)		1.0	151	0		
+452863	1965	Marma	əphǎ	əphǎ	father	father		4.7.1	152	0		
+452864	1965	Marma	əmwǐŋ	əmwǐŋ	mother	mother		4.7.1	153	0		
+452865	1965	Marma	əmwǐŋ-əphǎ	əmwǐŋ-əphǎ	parents	parents		4.7.1	153-1	0		
+452866	1965	Marma	yɔʔkhəmǎ-əbo	yɔʔkhəmǎ-əbo	stepfather	stepfather		4.7.1	153-2	0		
+452867	1965	Marma	yɔʔkhəmǎ-əmǎ	yɔʔkhəmǎ-əmǎ	stepmother	stepmother		4.7.1	153-3	0		
+452868	1965	Marma	ə◦phú	əphú	grandfather	grandfather		4.7.1	153-4	0		p,2582
+452869	1965	Marma	əbɔŋ	əbɔŋ	grandmother	grandmother		4.7.1	153-5	0		
+452870	1965	Marma	abeθe	abeθe	father's brother / uncle	father's brother / uncle		4.7.1	153-6	0		
+452871	1965	Marma	wəríθe	wəríθe	mother's brother / uncle	mother's brother / uncle		4.7.1	153-6a	0		
+452872	1965	Marma	əríθe	əríθe	father's sister / aunt	father's sister / aunt		4.7.1	153-7	0		
+452873	1965	Marma	məgríθe	məgríθe	mother's sister / aunt	mother's sister / aunt		4.7.1	153-7	0		
+452874	1965	Marma	θá	θá	son	son		4.7.3	154	0		
+452875	1965	Marma	θəmwíŋ	θəmwíŋ	daughter	daughter		4.7.3	155	0		
+452876	1965	Marma	mrwíŋ	mrwíŋ	grandchild	grandchild		4.7.3	155-1	0		
+452877	1965	Marma	ŋyiŋko	ŋiŋko	sibling	sibling		4.7.2	156	0		
+452878	1965	Marma	mɔŋ	mɔŋ	woman's sibling	woman's sibling		1.9.3	156a	0		
+452879	1965	Marma	mɔŋnəhmǎ	mɔŋnəhmǎ	(man's or woman's) sibling	(man's or woman's) sibling		1.5.3.2	156b	0		
+452880	1965	Marma	əkoθe	əkoθe	older brother (seen from y.b.)	older brother (seen from y.b.)			156c	0		
+452881	1965	Marma	mɔŋθe	mɔŋθe	older brother (seen from y.s.)	older brother (seen from y.s.)		1.5.3.2	156d	0		
+452882	1965	Marma	ŋyiŋʃe	ŋiŋʃe	younger brother (seen from o.b.)	younger brother (seen from o.b.)			156e	0		
+452883	1965	Marma	mɔŋʃe	mɔŋʃe	younger brother (seen from o.s.)	younger brother (seen from o.s.)		1.5.3.2	156f	0		
+452884	1965	Marma	ŋyɔ̌iŋmǎ	ŋyɔ̌iŋmǎ	sisters	sisters		4.7.2	157	0		
+452885	1965	Marma	nəhmǎ	nəhmǎ	sisters (seen from siblings? / brothers?)	sisters (seen from siblings? / brothers?)		4.7.2	157a	0		
+452886	1965	Marma	ɔiʔmǎ	ɔiʔmǎ	older sister (seen from y.s.)	older sister (seen from y.s.)			157b	0		
+452887	1965	Marma	əmeθe	əmeθe	older sister (seen from y.b.)	older sister (seen from y.b.)			157c	0		
+452888	1965	Marma	ŋyomǎʃe	ŋyomǎʃe	younger sister (seen from o.s.)	younger sister (seen from o.s.)			157d	0		
+452889	1965	Marma	nəhmǎʃe	nəhmǎʃe	younger sister (seen from o.b.)	younger sister (seen from o.b.)			157e	0		
+452890	1965	Marma	θá	θá	nephew / brother's son	nephew / brother's son		4.7.3	157-3	0		
+452891	1965	Marma	tu	tu	nephew / sister's son	nephew / sister's son		4.7.3	157-3a	0		
+452892	1965	Marma	tumǎ	tumǎ	niece (older brother's daughter)	niece (older brother's daughter)		4.7.3	157-4	0		
+452893	1965	Marma	tumǎ	tumǎ	niece (younger sibling's daughter)	niece (younger sibling's daughter)		4.7.3	157-4a	0		
+452894	1965	Marma	laŋ	laŋ	husband	husband		4.7.4	158	0		
+452895	1965	Marma	məyá	məyá	wife	wife		4.7.4	159	0		5804
+452896	1965	Marma	khəmrǎ	khəmrǎ	bride	bride		4.2.8	159-1	0		
+452897	1965	Marma	θəmaʔ	θəmaʔ	bridegroom	bridegroom		4.2.8	159-2	0		
+452898	1965	Marma	nəjaiʔ	nəjaiʔ	marry (of a man)	marry (of a man)		6.19	159-3	0		
+452899	1965	Marma	nəjaiʔ	nəjaiʔ	marry (of a woman)	marry (of a woman)		6.19	159-3a	0		
+452900	1965	Marma	wiŋθá	wiŋθá	family	family		4.7.5	159-3b	0		
+452901	1965	Marma	mə◦chə◦mǎ	məchəmǎ	widow	widow		4.2.8	159-4	0		4882,m,m
+452902	1965	Marma	məchəpho	məchəpho	widower	widower		4.2.8	159-4a	0		
+452903	1965	Marma	moiʔchwi	moiʔchwi	friend	friend		4.4.2	159-6	0		
+452904	1965	Marma	raiŋθu	raiŋθu	enemy	enemy		4.2.6	159-7	0		
+452905	1965	Marma	əʃaŋ	əʃaŋ	master / boss	master / boss		4.2.5.1	159-8	0		
+452906	1965	Marma	kywaiŋ	kywaiŋ	servant	servant		4.2.10	159-9	0		5524
+452907	1965	Marma	rwa	rwa	village	village		5.8	160	0		2773
+452908	1965	Marma	mrǒ	mrǒ	town	town		9.10.3	160-1	0		
+452909	1965	Marma	jí	jí	market	market		9.10.6	160-2	0		
+452910	1965	Marma	khyɔ́ŋ	khyɔ́ŋ	hunt	hunt		6.2.2.1	161	0		
+452911	1965	Marma	bɔiʔ	bɔiʔ	shoot	shoot		6.2.2.1	162	0		5411
+452912	1965	Marma	kɔ́iŋ	kɔ́iŋ	trap	trap (v)	v	5.14	162-1	0		
+452913	1965	Marma	khouʔ	khouʔ	trap	trap (v)	v	5.14	162-1	0		
+452914	1965	Marma	hmyá	hmyá	catch fish	catch fish		6.21	162-2	0		
+452915	1965	Marma	θəthí	θəthí	rich	rich		5.9	162-3	0		
+452916	1965	Marma	cháŋré	cháŋré	poor	poor		9.6.2.2	162-4	0		
+452917	1965	Marma	khú	khú	steal	steal		6.2.2.1	163	0		2365
+452918	1965	Marma	lǔ	lǔ	rob	rob		6.2.2.1	163-1	0		
+452919	1965	Marma	le	le	rice field / paddy field	rice field / paddy field		3.2.5	163-2	0		
+452920	1965	Marma	ya	ya	field / swidden	field / swidden		3.2.5	163-3	0		5544
+452921	1965	Marma	louʔ	louʔ	work	work (v)	v	6.1.1	164	0		
+452922	1965	Marma	əlouʔ	əlouʔ	job / work	job / work (n)	n	5.11	164a	0		
+452923	1965	Marma	ná	ná	rest	rest		1.1.4.1	165	0		84
+452924	1965	Marma	khwa	khwa	peel	peel (v)	v	1.5.3.2	166	0		
+452925	1965	Marma	raʔ	raʔ	knit	knit		6.14	166-1	0		
+452926	1965	Marma	khé	khé	spin (thread)	spin (thread)		6.7.6	166-2	0		
+452927	1965	Marma	raʔ	raʔ	weave	weave		5.1	166-3	0		5669
+452928	1965	Marma	lá	lá	go	go		6.7.2	167	0		
+452929	1965	Marma	la	la	come	come		6.7.1	168	0		
+452930	1965	Marma	praiŋ	praiŋ	go/come back / return	go/come back / return		6.7.2	168-1	0		
+452931	1965	Marma	lɔiʔ	lɔiʔ	follow	follow		6.7.10	168-3	0		
+452932	1965	Marma	thwɔʔ	thwɔʔ	emerge / go out	emerge / go out		6.7.2	169	0		
+452933	1965	Marma	wɔŋ	wɔŋ	go in / enter	go in / enter		6.7.2	170	0		1812
+452934	1965	Marma	kɔʔ	kɔʔ	turn	turn		6.7.6	171	0		
+452935	1965	Marma	rɔʔ	rɔʔ	arrive	arrive		6.7.1	171-3	0		
+452936	1965	Marma	tǎiŋ	tǎiŋ	stop	stop		6.7.11	172	0		
+452937	1965	Marma	θwá	θwá	walk	walk		6.7.4	173	0		
+452938	1965	Marma	brí	brí	run	run		6.7.4	174	0		6163
+452939	1965	Marma	əpráŋ	əpráŋ	fast	fast		9.6.1.1	175	0		
+452940	1965	Marma	əθa_əθa	əθa_əθa	slow	slow		9.6.2.1	176	0		
+452941	1965	Marma	twá	twá	creep / crawl	creep / crawl		6.7.9	177	0		
+452942	1965	Marma	cí	cí	ride	ride		6.2	177-1	0		2237
+452943	1965	Marma	rwɔʔ	rwɔʔ	carry	carry		6.2.2.2.1	177-2	0		
+452944	1965	Marma	láiŋ	láiŋ	road	road		9.10.1	178	0		
+452945	1965	Marma	táiŋkhá	táiŋkhá	bridge	bridge		9.10.2	179	0		
+452946	1965	Marma	garí	garí	carriage / car	carriage / car		5.1	180	0		bIndic
+452947	1965	Marma	ká	ká	carriage / car	carriage / car		5.1	180	0		bEnglish
+452948	1965	Marma	mɔ́ŋ	mɔ́ŋ	drive (vehicle)	drive (vehicle)		6.7.10	180a	0		
+452949	1965	Marma	caʔθí	caʔθí	wheel	wheel		5.1	181	0		
+452950	1965	Marma	lɔ́ŋ	lɔ́ŋ	boat (small)	boat (small)		5.1	182	0		2416
+452951	1965	Marma	θáŋphwá	θáŋphwá	ship / boat (large)	ship / boat (large)		5.1	182a	0		
+452952	1965	Marma	taʔmǎ	taʔmǎ	oar	oar		5.1	182-1	0		
+452953	1965	Marma	hlɔ	hlɔ	row (a boat)	row (a boat)		6.2.2.1	182-2	0		
+452954	1965	Marma	táŋkhwaiŋ	táŋkhwaiŋ	sail	sail		6.7.5	182-3	0		
+452955	1965	Marma	cə◦gá	cəgá	language	language		5.8	183	0		m,1754
+452956	1965	Marma	prɔ́	prɔ́	speak	speak		8.5.10.1	184	0		
+452957	1965	Marma	cho	cho	say	say		1.8.7	185	0		
+452958	1965	Marma	toiʔ	toiʔ	silent	be silent	be v.	8.5.4.4	185-1	0		
+452959	1965	Marma	mwíŋ	mwíŋ	ask	ask		8.5.7.1	186	0		
+452960	1965	Marma	phre	phre	answer	answer		8.5.6	186-1	0		
+452961	1965	Marma	waiʔthǔ	waiʔthǔ	story / tale	story / tale		5.8	186-2a	0		
+452962	1965	Marma	bɔ́rí	bɔ́rí	falsehood / lie	falsehood / lie (n)	n	8.5.10.4	186-3	0		
+452963	1965	Marma	əhmaiŋ	əhmaiŋ	truth	truth		8.3.2.5.7	186-4	0		
+452964	1965	Marma	cəlúŋ	cəlúŋ	character / letter	character / letter		1.10	186-5	0		
+452965	1965	Marma	rwí	rwí	write	write		6.2.2.9.1	186-6	0		
+452966	1965	Marma	phaiʔ	phaiʔ	read	read		6.2.2.9.3	186-7	0		
+452967	1965	Marma	caʔkuŋ	caʔkuŋ	paper	paper		5.1	186-8	0		
+452968	1965	Marma	khɔ	khɔ	call	call		8.5.13	187	0		
+452969	1965	Marma	ana=khyǎ	ana=khyǎ	command	command		8.5.1	187-1	0		
+452970	1965	Marma	naŋme	naŋme	name	name		5.8	188	0		
+452971	1965	Marma	kəjaiʔ	kəjaiʔ	play	play		6.1.1.3	189	0		
+452972	1965	Marma	əkəjá	kəjá	game	game		5.8	189a	0		
+452973	1965	Marma	é=cho	é=cho	sing	sing		5.1	190	0		
+452974	1965	Marma	tékhráŋ	tékhráŋ	song	song		5.1	190a	0		
+452975	1965	Marma	kǎ	kǎ	dance	dance		6.7.9	191	0		
+452976	1965	Marma	akǎ	akǎ	dance	dance (n)	n	6.7.9	191a	0		
+452977	1965	Marma	pwé	pwé	festival	festival		5.8	191b	0		
+452978	1965	Marma	pí	pí	give	give		6.23	192	0		2158
+452979	1965	Marma	rǎ	rǎ	obtain	obtain		6.21	192-1	0		
+452980	1965	Marma	rɔ́ŋ	rɔ́ŋ	sell	sell		6.22	192-2	0		
+452981	1965	Marma	we	we	buy	buy		6.22	192-3	0		
+452982	1965	Marma	táiŋŋá	táiŋŋá	money	money		5.9	192-3a	0		
+452983	1965	Marma	khí	khí	lend	lend		6.22	192-4	0		
+452984	1965	Marma	khí	khí	borrow	borrow		6.22	192-5	0		2314
+452985	1965	Marma	pǒ	pǒ	send	send		6.2.2.2	192-6	0		
+452986	1965	Marma	twǐ	twǐ	meet	meet		6.2	193	0		
+452987	1965	Marma	cɔ̌ŋ	cɔ̌ŋ	wait	wait		6.1.1.6	194	0		5578
+452988	1965	Marma	khú	khú	imitate	imitate		6.1.1.1.1	194-1	0		
+452989	1965	Marma	aphɔ=khyi	aphɔ=khi	praise	praise		8.5.2.2	194-2	0		
+452990	1965	Marma	hɔʔ	hɔʔ	scold	scold		8.5.1	194-3	0		
+452991	1965	Marma	liŋ	liŋ	deceive	deceive		8.3.3.4.3.2	194-4	0		
+452992	1965	Marma	bouʔ	bouʔ	hit / strike	hit / strike		6.8	195	0		5822
+452993	1965	Marma	ku	ku	help	help		6.2.2.1	195-2	0		5771
+452994	1965	Marma	kɔiʔ	kɔiʔ	bite	bite		1.3.4.4	196	0		
+452995	1965	Marma	yu	yu	take	take		6.21	197	0		303
+452996	1965	Marma	kɔiŋ	kɔiŋ	grasp / grab	grasp / grab		6.16	199	0		
+452997	1965	Marma	hrwaiʔ	hrwaiʔ	release / let go	release / let go		6.10.1	200	0		
+452998	1965	Marma	bɔiʔ	bɔiʔ	throw	throw		6.12	201	0		
+452999	1965	Marma	tɔiʔ	tɔiʔ	touch	touch		8.4	202	0		
+453000	1965	Marma	pwaiʔ	pwaiʔ	rub	rub		8.4	203	0		
+453001	1965	Marma	hlouʔ	hlouʔ	shake	shake (vi)	vi	6.7.9	204	0		
+453002	1965	Marma	hrwé	hrwé	shake	shake (vt)	vt	6.7.9	204-1	0		
+453003	1965	Marma	tú	tú	push	push		6.2.2.3.1	205	0		
+453004	1965	Marma	ŋaŋ	ŋaŋ	pull	pull		6.2.2.3.1	206	0		5614
+453005	1965	Marma	phyɔiʔ	phyɔiʔ	squeeze	squeeze		9.5	207	0		
+453006	1965	Marma	rwe	rwe	carry on shoulder	carry on shoulder		1.4.3.3	207-1	0		
+453007	1965	Marma	pú	pú	carry on back	carry on back		6.2.2.2.1	208	0		
+453008	1965	Marma	khaiʔ	khaiʔ	kick	kick		6.2.2.3.3	209	0		6705
+453009	1965	Marma	náŋ	náŋ	step on	step on		6.7.4	210	0		2134
+453010	1965	Marma	θúŋ	θúŋ	use	use		6.2.2.7.1	210-1	0		5574
+453011	1965	Marma	phyɔʔ	phyɔʔ	lose	lose		6.10.1	210-2	0		
+453012	1965	Marma	hrwɔʔ	hrwɔʔ	hide	hide		1.6.5.1	211	0		
+453013	1965	Marma	hra	hra	seek / look for	seek / look for		6.2.2.2	212	0		5799
+453014	1965	Marma	twǐ	twǐ	find	find		6.21	213	0		
+453015	1965	Marma	prǎ	prǎ	show	show		6.2.2.8	214	0		
+453016	1965	Marma	thá	thá	put / place	put / place		6.17	215	0		
+453017	1965	Marma	thouʔ	thouʔ	wrap	wrap		6.2.2.1	215-1	0		5440
+453018	1965	Marma	phrǎiŋ	kháŋ	widen / broaden	unfold / spread		6.9	215-2	0		
+453019	1965	Marma	chwé	chwé	hang	hang		6.1.1.5	215-3	0		
+453020	1965	Marma	thě	thě	put in / insert	put in / insert		6.17	215-4	0		
+453021	1965	Marma	thouʔ	thouʔ	put out	put out		6.17	215-5	0		
+453022	1965	Marma	cǔ	cǔ	collect	collect		6.21	216	0		
+453023	1965	Marma	louʔ	louʔ	make	make		6.14	217	0		
+453024	1965	Marma	phyaʔ	phyaʔ	break	break		9.5	218	0		
+453025	1965	Marma	pyaŋ	pyaŋ	mend / repair	mend / repair		6.15	219	0		
+453026	1965	Marma	couʔ	couʔ	torn	be torn	be v.	6.9.4	220	0		
+453027	1965	Marma	kouʔ	kouʔ	bent	be bent	be v.	9.7.2	221	0		
+453028	1965	Marma	khɔʔ	khɔʔ	bent	be bent	be v.	9.7.2	221	0		
+453029	1965	Marma	khyú	khyú	break by bending	break by bending		9.5	222	0		
+453030	1965	Marma	chí	chí	wash	wash		6.2.2.5.2	223	0		5647
+453031	1965	Marma	ri=khyú	ri=khyú	bathe	bathe		6.6	223a	0		bBurmese
+453032	1965	Marma	loiʔ	loiʔ	wind / roll up	wind / roll up		3.2.1	224	0		
+453033	1965	Marma	khyɔiŋ	khyɔiŋ	tie	tie		6.13.1	225	0		
+453034	1965	Marma	khyɔiŋ	khyɔiŋ	tie up	tie up		6.13.1	225a	0		
+453035	1965	Marma	phri	phri	until	until		10.1	226	0		
+453036	1965	Marma	phúŋ	phúŋ	cover	cover (v)	v	5.8	227	0		304
+453037	1965	Marma	ráŋ	ráŋ	swell up	swell up		1.1.5.2	228	0		
+453038	1965	Marma	thú	thú	stab / pierce	stab / pierce		6.9.2	229	0		
+453039	1965	Marma	phraiʔ	phraiʔ	cut	cut		6.9.3	230	0		
+453040	1965	Marma	rɔ́	rɔ́	mix	mix		6.13.4	231	0		2643
+453041	1965	Marma	tú	tú	dig	dig		6.11	232	0		3573
+453042	1965	Marma	louʔ	louʔ	do	do		6.1.1.1	233	0		
+453043	1965	Marma	cǎ	cǎ	begin	begin		9.5	233-1	0		
+453044	1965	Marma	chúŋ	chúŋ	end	end (v)	v	9.5	233-2	0		
+453045	1965	Marma	rwǐ	rwǐ	move	move		6.7.11	234	0		
+453046	1965	Marma	khuŋ	khuŋ	jump	jump		6.7.8	235	0		
+453047	1965	Marma	taʔ	taʔ	ascend / go up	ascend / go up		6.7.7	236	0		1722
+453048	1965	Marma	θaʔ	θaʔ	descend / go down	descend / go down		6.7.8	237	0		2804
+453049	1965	Marma	kyǎ	kyǎ	fall	fall		6.1.1.4.2	238	0		
+453050	1965	Marma	cwaiʔ	cwaiʔ	wet	wet		6.6	239	0		
+453051	1965	Marma	θwǐ	θwǐ	dry	dry		6.6	240	0		3298
+453052	1965	Marma	hnúŋ	hnúŋ	compare	compare		8.3	240-1	0		
+453053	1965	Marma	rwí	rwí	choose	choose		6.10.4	240-2	0		6188
+453054	1965	Marma	cɔ́iŋjá	cɔ́iŋjá	think	think		8.3.1.13.1	241	0		
+453055	1965	Marma	thaŋ	thaŋ	believe / have an opinion	believe / have an opinion		8.3.1.12.1	242	0		
+453056	1965	Marma	θǐ	θǐ	know	know		8.3.1.12.1	242a	0		
+453057	1965	Marma	ná=le	ná=le	understand	understand		8.3.1.13.1	242-1	0		
+453058	1965	Marma	mwǐŋ	mwǐŋ	forget	forget		8.3.1.16.1	243	0		
+453059	1965	Marma	θaŋ	θaŋ	teach	teach		6.19	244	0		
+453060	1965	Marma	krɔʔ	krɔʔ	fear / be afraid	fear / be afraid		8.3.1.10.1	245	0		2249
+453061	1965	Marma	ǎiŋmɔ́	ǎiŋmɔ́	surprised	be surprised	be v.	8.3.1.9.1	245-1	0		
+453062	1965	Marma	krɔiʔ	krɔiʔ	like / be fond of	like / be fond of		8.3.1.1.1	246	0		
+453063	1965	Marma	múŋ	múŋ	dislike	dislike		8.3.1.1.2	246-1	0		
+453064	1965	Marma	pyɔ	pyɔ	glad / rejoice	be glad / rejoice	be v.	8.3.1.5.1	247	0		
+453065	1965	Marma	maiŋ=pa	maiŋ=pa	get angry	get angry		1.1.5	248	0		
+453066	1965	Marma	hraʔ	hraʔ	ashamed	be ashamed	be v.	8.3.3.8.2	248-2	0		379
+453067	1965	Marma	bɔ́lá	bɔ́lá	stupid	stupid		8.3	248-5	0		
+453068	1965	Marma	coiʔ	coiʔ	heart / mind	heart / mind		1.7.1	249	0		
+453069	1965	Marma	ə◦rú	ə◦rú	insane / crazy	insane / crazy		8.3.1.11.3	249-1	0		p,6094
+453070	1965	Marma	gɔ́ŋkhaŋ	gɔ́ŋkhaŋ	sky	sky		3.2.2	250	0		
+453071	1965	Marma	limú	limú	weather	weather		3.2.1	250-1	0		
+453072	1965	Marma	raθi	raθi	season	season		3.2.1	250-1a	0		
+453073	1965	Marma	niŋraθi	niŋraθi	spring	spring		6.7.9	250-1b	0		
+453074	1965	Marma	niŋraθi	niŋraθi	summer	summer		3.2.1	250-1c	0		
+453075	1965	Marma	chɔ́ŋraθi	chɔ́ŋraθi	winter	winter		9.1.2	250-1e	0		
+453076	1965	Marma	múraθi	múraθi	rainy season	rainy season		3.2.1	250-1f	0		
+453077	1965	Marma	mú◦roiʔ	mú◦roiʔ	cloud	cloud		3.2.1	251	0		2473
+453078	1965	Marma	hnáŋ	hnáŋ	fog	fog		3.2.1	252	0		3565
+453079	1965	Marma	mú	mú	rain	rain		3.2.1	253	0		2473
+453080	1965	Marma	mú=rwa	mú=rwa	rain	to rain	v	3.2.1	253a	0		2473,2080
+453081	1965	Marma	ligrí	ligrí	storm	storm		3.2.1	253b	0		
+453082	1965	Marma	mú◦grú	mú◦grú	thunder	thunder		3.2.1	254	0		2473
+453083	1965	Marma	mú=krú	mú=krú	thunder	to thunder	v	3.2.1	254a	0		2473
+453084	1965	Marma	ʃaiʔ	ʃaiʔ	lighten (lightning)	to lighten (lightning)	v	7.1.11.1	255	0		
+453085	1965	Marma	θədáŋriθɔʔ	θədáŋriθɔʔ	rainbow	rainbow		3.2.1	256	0		
+453086	1965	Marma	rəkhébraŋ	rəkhébraŋ	snow	snow		3.2.1	257	0		
+453087	1965	Marma	rəkhé	rəkhé	ice	ice		3.2.3	258	0		
+453088	1965	Marma	khé	khé	freeze	freeze		9.5	259	0		
+453089	1965	Marma	pyo	pyo	melt / thaw	melt / thaw		9.5	260	0		
+453090	1965	Marma	niŋ	niŋ	sun	sun		3.2.10	261	0		
+453091	1965	Marma	lǎ	lǎ	moon	moon		3.2.2	262	0		1016
+453092	1965	Marma	kre	kre	star	star		3.2.2	263	0		3574
+453093	1965	Marma	ərɔŋ	ərɔŋ	light	light (n)	n	7.1.11.1	264	0		
+453094	1965	Marma	əroiʔ	əroiʔ	shade / shadow	shade / shadow		3.2.10	265	0		
+453095	1965	Marma	láŋ	láŋ	light / bright	light / bright		7.1.11.1	266	0		
+453096	1965	Marma	hmɔŋ	hmɔŋ	dark	dark		9.4	267	0		
+453097	1965	Marma	mɔiʔ	mɔiʔ	dim / gloomy	dim / gloomy		9.6.2.1	267a	0		
+453098	1965	Marma	li	li	wind	wind (n)	n	3.2.1	268	0		2412
+453099	1965	Marma	thǎ	thǎ	blow (of wind)	blow (of wind)		1.3.1.4	269	0		
+453100	1965	Marma	hmouʔ	hmouʔ	blow (with mouth)	blow (with mouth)		1.3.1.4	269a	0		503
+453101	1965	Marma	choiʔ	choiʔ	quiet	quiet		7.1.8.3	269-1	0		
+453102	1965	Marma	pu	pu	hot	hot			270	0		
+453103	1965	Marma	khyáiŋ	khyáiŋ	cold	cold		7.1.2.3	271	0		
+453104	1965	Marma	níŋ	níŋ	warm	warm		7.1.2.3	272	0		
+453105	1965	Marma	tɔŋ	tɔŋ	mountain	mountain		3.2.5	273	0		
+453106	1965	Marma	tɔŋkrá	tɔŋkrá	valley	valley		3.2.5	273-2	0		
+453107	1965	Marma	tɔ́	tɔ́	grove / forest	grove / forest		9.10.4	274	0		
+453108	1965	Marma	əpraŋ	əpraŋ	field / plain	field / plain		3.2.5	275	0		
+453109	1965	Marma	kaiŋ	kaiŋ	lake / pond	lake / pond		3.2.5	276	0		
+453110	1965	Marma	rə◦myaʔ	rəmyaʔ	spring (of water)	spring (of water)		6.7.9	276-1	0		1013,m
+453111	1965	Marma	khyɔ́ŋ	khyɔ́ŋ	river	river		3.2.3	277	0		2322
+453112	1965	Marma	ri	ri	water	water		3.2.3	277-1	0		1013
+453113	1965	Marma	əhmrouʔ	əhmrouʔ	bubble	bubble		3.2.3	278	0		
+453114	1965	Marma	kədɔ̌	kədɔ̌	whirlpool	whirlpool		3.2.3	278a	0		
+453115	1965	Marma	nɔiʔ	nɔiʔ	sink	sink		6.6	279	0		
+453116	1965	Marma	pɔ́	pɔ́	float	float		6.6.1	280	0		
+453117	1965	Marma	myú	myú	flow	flow		6.6.1	281	0		
+453118	1965	Marma	rəcháŋ	rəcháŋ	waterfall	waterfall		3.2.3	281-1	0		
+453119	1965	Marma	káiŋ	káiŋ	shore	shore		3.2.3	282	0		
+453120	1965	Marma	mrɔ́ŋ	mrɔ́ŋ	cliff	cliff		3.2.5	282-1	0		
+453121	1965	Marma	mrɔiʔ	mrɔiʔ	sea	sea		3.2.3	283	0		
+453122	1965	Marma	rəlɔ́iŋ	rəlɔ́iŋ	wave	wave		6.7.4	284	0		
+453123	1965	Marma	kywáiŋ	kywáiŋ	island	island		3.2.5	285	0		
+453124	1965	Marma	kyɔʔ	kyɔʔ	stone	stone		3.2.9	286	0		1269
+453125	1965	Marma	thúŋ	thúŋ	coal	coal		3.2.4	286a	0		
+453126	1965	Marma	məθwí	məθwí	charcoal	charcoal		3.2.4	286b	0		
+453127	1965	Marma	θé	θé	sand	sand		3.2.11	287	0		
+453128	1965	Marma	mrwiŋ	mrwiŋ	soil / earth	soil / earth		3.2.11	288	0		
+453129	1965	Marma	kyouʔ	kyouʔ	mud	mud		3.2.11	288-1	0		
+453130	1965	Marma	kyouʔ	kyouʔ	clay	clay		3.2.11	288-2	0		
+453131	1965	Marma	θaiŋ	θaiŋ	iron	iron		3.2.4	288-3	0		2676
+453132	1965	Marma	ʃwaiʔ	ʃwaiʔ	tin	tin		3.2.4	288-3a	0		
+453133	1965	Marma	tiŋ	tiŋ	tin	tin		3.2.4	288-3a	0		
+453134	1965	Marma	krí	krí	copper (bronze)	copper (bronze)		3.2.4	288-3b	0		2247
+453135	1965	Marma	ʃwe	ʃwe	gold	gold		3.2.4	288-4	0		3496
+453136	1965	Marma	ŋwe	ŋwe	silver	silver		3.2.4	288-5	0		2536
+453137	1965	Marma	khé	khé	lead	lead (n)	n	6.2.2.1	288-7	0		
+453138	1965	Marma	khé◦daiŋ	khé◦daiŋ	pencil	pencil		5.1	288-7a	0		b
+453139	1965	Marma	hmaŋdaiŋ	hmaŋdaiŋ	pen (to write)	pen (to write)		5.1	288-7b	0		
+453140	1965	Marma	əpaŋ	əpaŋ	tree	tree		3.1.2	289	0		
+453141	1965	Marma	pyɔiŋ	pyɔiŋ	board / plank	board / plank		5.11.9	289a	0		
+453142	1965	Marma	mraʔ	mraʔ	grass	grass		3.1.8	290	0		2460
+453143	1965	Marma	əpaŋ	əpaŋ	trunk (tree)	trunk (tree)		1.4.1	291	0		
+453144	1965	Marma	θɔiʔkhwaiŋ	θɔiʔkhwaiŋ	bark (tree)	bark (tree)		2.1.11.1	292	0		
+453145	1965	Marma	ə◦khaʔ	əkhaʔ	branch	branch		1.5.3.1	294	0		p,1278
+453146	1965	Marma	ərwɔʔ	ərwɔʔ	leaf	leaf		3.1.3	295	0		
+453147	1965	Marma	ənwe	ənwe	creeper / vine	creeper / vine		3.1.7	295-1	0		
+453148	1965	Marma	cú	cú	thorn / prickle	thorn / prickle		3.1.2	295-2	0		
+453149	1965	Marma	páiŋ	páiŋ	flower	flower		3.1.4	296	0		2153
+453150	1965	Marma	əmrɔiʔ	əmrɔiʔ	root	root		3.1.2	297	0		
+453151	1965	Marma	pɔʔ	pɔʔ	grow (plant)	grow (plant)		9.7.2	298	0		
+453152	1965	Marma	yɔʔ	yɔʔ	sprout / bud	sprout (v) / bud (v)	v	3.1.10	298a	0		
+453153	1965	Marma	khrɔʔ	khrɔʔ	wither	wither		3.1.10	299	0		
+453154	1965	Marma	wá	wá	bamboo	bamboo		3.1.1	299-1	0		2549
+453155	1965	Marma	hmɔiʔ	hmɔiʔ	bamboo shoot	bamboo shoot		3.1.1	299-1A	0		2477
+453156	1965	Marma	θaʔkre	θaʔkre	reed / rush	reed / rush		3.1.8	299-1a	0		
+453157	1965	Marma	hmo	hmo	mushroom	mushroom		3.1.7	299-2	0		2472
+453158	1965	Marma	θaiʔdəwa	θaiʔdəwa	animal	animal		2.3	300	0		
+453159	1965	Marma	təroiʔchaiŋ	təroiʔchaiŋ	animal	animal		2.3	300	0		
+453160	1965	Marma	hŋaʔ	hŋaʔ	bird	bird		2.2.4	301	0		3442
+453161	1965	Marma	ŋá	ŋá	fish	fish		2.2.5	302	0		1455
+453162	1965	Marma	pú	pú	insect	insect		2.2.6	303	0		2178
+453163	1965	Marma	púhaiʔ	púhaiʔ	cockroach	cockroach		2.2.6	303a	0		
+453164	1965	Marma	pú◦cəgrú	púcəgrú	firefly / glow worm	firefly / glow worm		2.2.6	303b	0		2178,m
+453165	1965	Marma	hnaiŋ	hnaiŋ	grasshopper	grasshopper		2.2.6	303c	0		
+453166	1965	Marma	pɔʔchiŋdouʔkyá	pɔʔchiŋdouʔkyá	dragonfly	dragonfly		2.2.6	303d	0		
+453167	1965	Marma	khwí	khwí	dog	dog		2.1.11	304	0		1764
+453168	1965	Marma	krɔŋ	krɔŋ	cat	cat		2.1.3	304-1	0		2618
+453169	1965	Marma	mráŋ	mráŋ	horse	horse		2.1.7	304-2	0		1431
+453170	1965	Marma	nwá	nwá	cattle / cow	cattle / cow		2.1.2	304-3	0		2538
+453171	1965	Marma	kywé	kywé	water buffalo	water buffalo		3.2.3	304-3a	0		
+453172	1965	Marma	θáŋ◦phwá◦choiʔ	θáŋphwáchoiʔ	sheep	sheep		2.1.8	304-4	0		m,m,1226
+453173	1965	Marma	choiʔ	choiʔ	goat	goat		2.1.8	304-5	0		1226
+453174	1965	Marma	wɔʔ	wɔʔ	pig	pig		2.1.12	304-6	0		1006
+453175	1965	Marma	kraʔ	kraʔ	fowl / chicken	fowl / chicken		2.1.10	304-7	0		1606
+453176	1965	Marma	khraŋ◦θí	khraŋ◦θí	lion	lion		2.1.3	304-8	0		bBurmese,6114,m
+453177	1965	Marma	kyá	kyá	tiger	tiger		2.1.3	304-9	0		5560
+453178	1965	Marma	waiŋ	waiŋ	bear	bear (n)	n	2.2.3	304-10	0		2777
+453179	1965	Marma	khé◦wagyá	khé◦wagyá	wolf	wolf		2.1.11	304-11	0		1764,m
+453180	1965	Marma	khé◦wa	khé◦wa	fox	fox		2.1.11	304-12	0		1764,2255
+453181	1965	Marma	khyi	khi	deer	deer		2.2.2	304-13	0		
+453182	1965	Marma	chaiʔ	chaiʔ	bighorn deer	bighorn deer		2.2.2	304-13a	0		
+453183	1965	Marma	myɔʔ	myɔʔ	monkey	monkey		2.1.9	304-14	0		2462
+453184	1965	Marma	yuŋ	yuŋ	rabbit	rabbit		2.1.1	304-15	0		2796
+453185	1965	Marma	krwɔʔ	krwɔʔ	rat / mouse	rat / mouse		2.1.1	304-16	0		2630
+453186	1965	Marma	ʃɔ̌iŋ	ʃɔ̌iŋ	squirrel	squirrel		2.1.1	304-16a	0		
+453187	1965	Marma	phaiŋ	phaiŋ	otter	otter		2.2.7.1	304-16b	0		
+453188	1965	Marma	chaŋ	chaŋ	elephant	elephant		2.2.1	304-17	0		2731
+453189	1965	Marma	laŋhlouʔ	laŋhlouʔ	bat (animal)	bat (animal)		2.2.4.1	304-19	0		
+453190	1965	Marma	kənáiŋ	kənáiŋ	crab	crab		2.2.5	304-21	0		
+453191	1965	Marma	bəjwaiŋ	bəjwaiŋ	shrimp	shrimp		2.2.5	304-22	0		
+453192	1965	Marma	gúŋ	gúŋ	shell / shellfish	shell / shellfish		2.2.5	305	0		
+453193	1965	Marma	loiʔ	loiʔ	turtle	turtle		2.1.6	305a	0		
+453194	1965	Marma	khə◦rǔ	khə◦rǔ	snail	snail		2.2.5	305b	0		m,6107
+453195	1965	Marma	paʔkǐ	paʔkǐ	slug	slug		2.2.6	305c	0		
+453196	1965	Marma	ti	ti	earthworm	earthworm		2.2.6	305d	0		
+453197	1965	Marma	θíŋ	θíŋ	eagle	eagle		2.2.4.1	305-1	0		
+453198	1965	Marma	cwaiŋ	cwaiŋ	kite (bird)	kite (bird)		5.8	305-1a	0		
+453199	1965	Marma	láŋ◦dǎ	láŋ◦dǎ	hawk	hawk		2.2.4.1	305-1b	0		2393,m
+453200	1965	Marma	byɔ́iŋ	byɔ́iŋ	heron	heron		2.2.4.1	305-2a	0		
+453201	1965	Marma	bé	bé	duck	duck		2.1.10	305-4	0		5713
+453202	1965	Marma	khɔ	khɔ	pigeon	pigeon		2.2.4.1	305-5	0		
+453203	1965	Marma	grú	grú	mountain pigeon	mountain pigeon		3.2.5	305-5a	0		
+453204	1965	Marma	kyəa	kyəa	crow	crow (n)	n	2.2.4.1	305-6	0		
+453205	1965	Marma	ca	cagɔ́ŋphru	sparrow	sparrow		2.2.4.1	305-7	0		
+453206	1965	Marma	ǔ◦dɔ́ŋ	ǔdɔ́ŋ	peacock	peacock		2.2.4.1	305-7a	0		1603,2200
+453207	1965	Marma	ləpra	ləpra	butterfly	butterfly		2.2.6	305-8	0		
+453208	1965	Marma	prɔʔcǐ	prɔʔcǐ	ant	ant		2.2.6	306	0		
+453209	1965	Marma	khrǎ	khrǎ	white ant	white ant		9.4	306a	0		
+453210	1965	Marma	páŋ◦khuŋ	páŋkhuŋ	spider	spider		2.2.6	306-1	0		m,5400
+453211	1965	Marma	pyá	pyá	honeybee	honeybee		2.2.6	306-2	0		2187
+453212	1965	Marma	khraŋ	khraŋ	mosquito	mosquito		2.2.6	307	0		2328
+453213	1965	Marma	khraŋ◦thɔŋ	khraŋ◦thɔŋ	mosquito net	mosquito net		2.2.6	307a	0		2328,m
+453214	1965	Marma	yaŋ	yaŋ	fly (insect)	fly (insect)		2.2.6	308	0		2788
+453215	1965	Marma	khəbú	khəbú	flea	flea		2.2.6	309	0		
+453216	1965	Marma	θáiŋ	θáiŋ	louse	louse		2.2.6	310	0		2652
+453217	1965	Marma	məhrwá	kráiŋbú	tick (insect)	tick (insect)		2.2.6	310a	0		
+453218	1965	Marma	hŋyǒ	hŋyǒ	water leech	water leech		3.2.3	310b	0		
+453219	1965	Marma	krwaiʔ	krwaiʔ	mountain (land) leech	mountain (land) leech		3.2.5	310c	0		2555
+453220	1965	Marma	lɔʔ	lɔʔ	maggot	maggot		2.2.6	310d	0		5432
+453221	1965	Marma	mrwiŋ	mrwiŋ	snake	snake		2.1.6.1	311	0		2623
+453222	1965	Marma	cəbəgrí	cəbəgrí	python	python		2.1.6	311a	0		
+453223	1965	Marma	phá	phá	frog	frog		2.1.6.2	311-1a	0		2148
+453224	1965	Marma	wiŋ◦hmrɔŋ	wiŋ◦hmrɔŋ	house lizard	house lizard		5.11.9.1	311-1b	0		
+453225	1965	Marma	phwaiʔ	phwaiʔ	large lizard	large lizard		9.7.1	311-1c	0		
+453226	1965	Marma	mwíŋgyɔ́ŋ	mwíŋgyɔ́ŋ	crocodile	crocodile		2.1.6	311-1d	0		
+453227	1965	Marma	nəgá	nəgá	dragon	dragon		2.1.5	311-1e	0		bIndic
+453228	1965	Marma	ə◦gro	əgro	horn	horn		1.2.2	312	0		p,819
+453229	1965	Marma	ə◦mwíŋ	ə◦mwíŋ	fur / animal hair	fur / animal hair		1.6.1	312-1	0		
+453230	1965	Marma	laʔ◦θé	laʔθé	claw	claw		1.5.10.4	313	0		695,m
+453231	1965	Marma	khwa	khwa	hoof	hoof		1.5.4	313a	0		417
+453232	1965	Marma	mədúŋ	mədúŋ	tail	tail		1.4.10.1	314	0		
+453233	1965	Marma	nəθwí	nəθwí	beak	beak		1.3.1.2	315	0		
+453234	1965	Marma	ə◦tɔŋ	ə◦tɔŋ	wing	wing		1.5.1.3	316	0		p,711
+453235	1965	Marma	əmwíŋ	əmwíŋ	feather	feather		1.6.1.1	317	0		
+453236	1965	Marma	pəhaʔ	pəhaʔ	gill	gill		1.3.5.3	317-1	0		
+453237	1965	Marma	ə◦krí	əkrí	scale (of fish)	scale (of fish)		1.6.5.2	317-2	0		p,596
+453238	1965	Marma	hŋaʔ◦táŋ	hŋaʔ◦táŋ	nest (lit. bird-nest)	nest (lit. bird-nest)		2.2.4	318	0		3442,3445
+453239	1965	Marma	pyaiŋ	pyaiŋ	fly	fly (v)	v	2.2.6	319	0		2588
+453240	1965	Marma	ri=kú	ri=kú	swim	swim		6.6	320	0		
+453241	1965	Marma	u	u	cry (of animal) / bark	cry (of animal) / bark		1.8.8.2	320-1	0		2765
+453242	1965	Marma	ǔ	ǔ	lay egg	lay egg		6.17	320-2	0		
+453243	1965	Marma	mwíŋjaiʔ	mwíŋjaiʔ	raise / keep animals	raise / keep animals		6.7.7	320-3	0		
+453244	1965	Marma	ərouʔ	ərouʔ	form / shape	form / shape		9.7.1	320-4	0		
+453245	1965	Marma	lúŋ	lúŋ	round	round	vi	9.7.1	321	0		
+453246	1965	Marma	hrě	hrě	sharp	sharp	vi	6.9.2	322	0		
+453247	1965	Marma	túŋ	túŋ	dull	dull	vi	7.1.5.1	323	0		
+453248	1965	Marma	əŋyiŋ	əŋiŋ	flat	flat	n.	7.1.5.1	323-1	0		
+453249	1965	Marma	əkhɔ́ŋ	əkhɔ́ŋ	hole	hole		3.2.7	324	0		
+453250	1965	Marma	gyɔ̌iŋ	gyɔ̌iŋ	hollow	hollow		7.1.5.1	324-1	0		
+453251	1965	Marma	prɔ̌ŋ	prɔ̌ŋ	straight	straight	vi	7.1.5.1	325	0		2160
+453252	1965	Marma	waiŋ	waiŋ	thing	thing		8.1	325-4	0		
+453253	1965	Marma	krí	krí	big	big	vi	9.7.2	326	0		
+453254	1965	Marma	ʃe	ʃe	small	small	vi	9.7.2	327	0		
+453255	1965	Marma	hre	hre	long	long	vi	9.7.2	328	0		
+453256	1965	Marma	to	to	short	short	vi	9.7.2	329	0		5414
+453257	1965	Marma	touʔ	touʔ	fat	fat	vi	1.6.4	329-1	0		
+453258	1965	Marma	kruŋ	kruŋ	thin (not fat)	thin (not fat)	vi	9.7.2	329-2	0		
+453259	1965	Marma	θaiŋ	θaiŋ	thick	thick	vi	9.7.2	330	0		
+453260	1965	Marma	pá	pá	thin (not thick)	thin (not thick)	vi	9.7.2	331	0		5551
+453261	1965	Marma	ərɔŋ	ərɔŋ	color	color		9.4	332	0		
+453262	1965	Marma	niŋ	niŋ	red	red	vi	9.4	333	0		
+453263	1965	Marma	mú◦grú+rɔŋ	mú◦grú+rɔŋ	blue (lit. thunder-color)	blue (lit. thunder-color)		9.4	334	0		2473
+453264	1965	Marma	əwa	əwa	yellow	yellow	n.	9.4	335	0		
+453265	1965	Marma	ŋyo	ŋyo	green	green	vi	9.4	336	0		
+453266	1965	Marma	phru	phru	white	white	vi	9.4	337	0		1235
+453267	1965	Marma	mé	mé	black	black	vi	9.4	338	0		
+453268	1965	Marma	khəmwé	khəmwé	brown	brown	n.	9.4	338a	0		
+453269	1965	Marma	kyaiŋ	kyaiŋ	paint	paint (v)	v	5.8	338-1	0		
+453270	1965	Marma	chú	chú	dye	dye		5.1	338-2	0		5814
+453271	1965	Marma	əθaiŋ	əθaiŋ	sound	sound		9.3	339	0		
+453272	1965	Marma	ənǎiŋ	ənǎiŋ	odor / smell	odor / smell		7.1.4.5	340	0		
+453273	1965	Marma	θənáθu	θənáθu	gentle	gentle		9.6.1.2	340-2	0		
+453274	1965	Marma	θəná	θəná	kind (adj)	kind (adj)	vi	8.3.3.2.1	340-3	0		
+453275	1965	Marma	réwǎiŋʃaŋ	réwǎiŋʃaŋ	brave / courageous	brave / courageous			340-4	0		
+453276	1965	Marma	krɔʔkhyəphɔŋ	krɔʔkhyəphɔŋ	cowardly	cowardly		4.2.12.3	340-5	0		
+453277	1965	Marma	pəbrɔ̌ŋ	pəbrɔ̌ŋ	honest	honest		8.3.3.4.1	340-6	0		
+453278	1965	Marma	əliŋ	əliŋ	sly / cunning	sly / cunning	n.	8.3.1.13	340-7	0		
+453279	1965	Marma	əpyáŋ	əpyáŋ	lazy	lazy	n.	9.6.2.2	340-8	0		
+453280	1965	Marma	á_ʃaŋ	á_ʃaŋ	strong	strong	n.	9.6.1.1	341	0		
+453281	1965	Marma	ŋyɔ́	ŋyɔ́	weak	weak	vi	1.1.5	342	0		
+453282	1965	Marma	hmaiŋ	hmaiŋ	correct	be correct	vi	8.3.3.9	343	0		
+453283	1965	Marma	hmá	hmá	wrong, mistaken	be wrong, mistaken	vi	9.6.2.1	343a	0		
+453284	1965	Marma	kɔ́ŋ	kɔ́ŋ	good	good	vi	9.6.1.1	344	0		
+453285	1965	Marma	chú	chú	bad	bad	vi	9.6.2.1	345	0		
+453286	1965	Marma	rwe	rwe	easy	easy	vi	9.6.1.1	345-1	0		2426
+453287	1965	Marma	khaʔ	khaʔ	hard / difficult	hard / difficult		9.6.2	345-2	0		173
+453288	1965	Marma	dɔʃǎ	dɔʃǎ	dangerous	dangerous	n.	9.6.2.1	345-3	0		
+453289	1965	Marma	tɔiʔ	tɔiʔ	tight	tight	vi	7.1.5.1	345-4	0		
+453290	1965	Marma	khyɔʔ	khyɔʔ	loose	loose	vi	6.13.1	345-5	0		
+453291	1965	Marma	khyɔ́	khyɔ́	smooth	smooth	vi	7.1.4.2	346	0		
+453292	1965	Marma	kráiŋ	kráiŋ	rough	rough	vi	7.1.4.2	346-1	0		
+453293	1965	Marma	hɔ́ŋ	hɔ́ŋ	old	old	vi	7.1.8.3	347	0		
+453294	1965	Marma	θɔiʔ	θɔiʔ	new	new	vi	9.6.1.1	348	0		
+453295	1965	Marma	hlǎ	hlǎ	beautiful	beautiful	vi	7.1.3	349	0		2264
+453296	1965	Marma	mə◦hlǎ	məhlǎ	ugly	ugly	vi	7.1.3	349-1	0		2436,2264
+453297	1965	Marma	θǎiŋ	θǎiŋ	clean	clean	vi	6.2.2.5.2	350	0		
+453298	1965	Marma	ŋyɔiʔ	ŋyɔiʔ	dirty	dirty	vi	3.2.11	351	0		2520
+453299	1965	Marma	kyáiŋ	kyáiŋ	hard	hard	vi	9.6.2	352	0		
+453300	1965	Marma	ŋě	ŋě	soft	soft	vi	7.1.4.2	353	0		
+453301	1965	Marma	ə◦ra	əra	place	place		9.10.5	353-1	0		p,5435
+453302	1965	Marma	əraiʔ	əraiʔ	place	place		9.10.5	353-1	0		
+453303	1965	Marma	hrǐ	hrǐ	front	front		1.4.4	354	0		1213
+453304	1965	Marma	nɔʔ	nɔʔ	back	back		1.4.8	355	0		
+453305	1965	Marma	ənaiŋ	ənaiŋ	horizontal	horizontal		7.1.5.4	355-1	0		
+453306	1965	Marma	əyá	əyá	vertical	vertical		9.2.1	355-1a	0		
+453307	1965	Marma	əle	əle	space / space between	space / space between		9.2.7	356	0		
+453308	1965	Marma	əthaʔ	əthaʔ	up	up		9.2.1	357	0		
+453309	1965	Marma	ɔʔ	ɔʔ	down	down		9.2.2	358	0		
+453310	1965	Marma	athé	athé	middle	middle		1.9.4	359	0		
+453311	1965	Marma	praŋ	praŋ	outside	outside		9.2.7	360	0		
+453312	1965	Marma	ŋya	ŋya	right	right		1.5.3.2	361	0		
+453313	1965	Marma	be	be	left	left		1.5.3.2	362	0		2154
+453314	1965	Marma	əphyá	əphyá	sharp / tip / point	sharp / tip / point		6.9.2	363	0		
+453315	1965	Marma	léphaʔlaʔcǐ	léphaʔlaʔcǐ	circumference / environment	circumference / environment		9.8	363-1	0		
+453316	1965	Marma	pá	pá	near	near	vi	9.2.3	364	0		5723
+453317	1965	Marma	wí	wí	far	far	vi	9.2.4	365	0		622
+453318	1965	Marma	cɔʔ	cɔʔ	high	high	vi	7.1.5.3	366	0		
+453319	1965	Marma	nǐŋ	nǐŋ	low	low	vi	7.1.5.3	367	0		
+453320	1965	Marma	naʔ	naʔ	deep	deep	vi	7.1.5.3	368	0		6130
+453321	1965	Marma	tiŋ	tiŋ	shallow	shallow	vi	7.1.5.3	369	0		5380
+453322	1965	Marma	prǎiŋ	əphrǎiŋ	wide	wide	vi.	9.7.2	370	0		
+453323	1965	Marma	rǔŋ	hrǔŋ	narrow	narrow	vi	9.7.2	371	0		
+453324	1965	Marma	ətu	ətu	together	together		10.1.1	372	0		
+453325	1965	Marma	prě	prě	full	full	vi	1.1.3.2	373	0		111
+453326	1965	Marma	əkhwaiŋ	əkhwaiŋ	empty	empty	n.	7.1.2.1	374	0		
+453327	1965	Marma	phaʔ	phaʔ	direction	direction		9.2.8	375	0		
+453328	1965	Marma	əhrǐ	əhrǐ	east	east		9.2.8	375-1	0		
+453329	1965	Marma	ənɔʔ	ənɔʔ	west	west		9.2.8	375-2	0		
+453330	1965	Marma	tɔŋ	tɔŋ	south	south		9.2.8	375-3	0		
+453331	1965	Marma	mrɔʔ	mrɔʔ	north	north		9.2.8	375-4	0		
+453332	1965	Marma	cɔ́jɔ́	cɔ́jɔ́	dawn	dawn		9.1.4	375-5	0		
+453333	1965	Marma	ŋěgǎ	ŋěgǎ	morning	morning		9.1.4	376	0		
+453334	1965	Marma	mɔ́iŋdě	mɔ́iŋdě	noon	noon		9.1.4	376-1	0		
+453335	1965	Marma	mɔ́iŋjɔ́ŋ	mɔ́iŋ	daytime	daytime		9.1.3	377	0		
+453336	1965	Marma	ŋyǎja	ŋyǎja	afternoon	afternoon		9.1.4	377a	0		
+453337	1965	Marma	niŋkháŋ	niŋkháŋ	daytime	daytime		9.1.3	377b	0		
+453338	1965	Marma	chɔ́iŋchabəla	chɔ́iŋchabəla	evening	evening		9.1.4	378	0		
+453339	1965	Marma	ŋě	ŋě	night	night		9.1.4	379	0		
+453340	1965	Marma	cɔ́	cɔ́	early	early	vi	9.1.1	380	0		
+453341	1965	Marma	kra	kra	late	late	vi	9.1.1	381	0		
+453342	1965	Marma	əgǔ	əgǔ	now	now		9.1.5	382	0		
+453343	1965	Marma	pəkhǎiŋnəkhǎiŋ	pəkhǎiŋnəkhǎiŋ	immediately / right away	immediately / right away		9.1.1	382-1	0		
+453344	1965	Marma	əyaŋ	əyaŋ	before	before		9.1.5	383	0		
+453345	1965	Marma	nɔʔ	nɔʔ	after	after		9.1.5	384	0		
+453346	1965	Marma	raʔpraiʔ	raʔpraiʔ	always	always		9.1.1	385	0		
+453347	1965	Marma	əpraiŋbraiŋ	əpraiŋbraiŋ	often	often		9.1.1	386	0		
+453348	1965	Marma	təkhatəri	təkhatəri	sometimes	sometimes		9.1.5	386-1	0		
+453349	1965	Marma	ŋənǐŋ	ŋənǐŋ	today	today		9.1.3	387	0		
+453350	1965	Marma	ŋyǎgǎ	ŋyǎgǎ	yesterday	yesterday		9.1.3	388	0		
+453351	1965	Marma	hnaʔphraiŋ	hnaʔphraiŋ	tomorrow	tomorrow		9.1.3	389	0		
+453352	1965	Marma	nǐŋdɔ́iŋ	nǐŋdɔ́iŋ	every day	every day		9.9	390	0		
+453353	1965	Marma	raʔ	raʔ	day	day		1.5.3.2	391	0		
+453354	1965	Marma	ə◦khyiŋ	əkhiŋ	time	time		9.1.5	391a	0		p,5561
+453355	1965	Marma	təláŋla	təláŋla	Monday	Monday		9.1.3	391b	0		
+453356	1965	Marma	aŋga	aŋga	Tuesday	Tuesday		9.1.3	391c	0		
+453357	1965	Marma	bədú	bədú	Wednesday	Wednesday		9.1.3	391d	0		
+453358	1965	Marma	kraθǎbədí	kraθǎbədí	Thursday	Thursday		9.1.3	391e	0		
+453359	1965	Marma	θɔʔkra	θɔʔkra	Friday	Friday		9.1.3	391f	0		
+453360	1965	Marma	cəniŋ	cəniŋ	Saturday	Saturday		9.1.3	391g	0		
+453361	1965	Marma	təláŋŋəniŋ	təláŋŋəniŋ	Sunday	Sunday		9.1.3	391h	0		
+453362	1965	Marma	haʔtaʔ	haʔtaʔ	week	week		9.1.3	391-1	0		
+453363	1965	Marma	lǎ	lǎ	month	month		9.1.2	391-2	0		1016
+453364	1965	Marma	hnɔiʔ	hnɔiʔ	year	year		9.1.2	392	0		
+453365	1965	Marma	əθaʔ	əθaʔ	age	age		9.1.2	392-1	0		
+453366	1965	Marma	rwi	rwi	count	count		6.2.2.2	393	0		
+453367	1965	Marma	tɔiʔ	tɔiʔ	one	one		9.9	394	0		
+453368	1965	Marma	hnɔiʔ	hnɔiʔ	two	two		9.9	395	0		2504
+453369	1965	Marma	θúŋ	θúŋ	three	three		9.9	396	0		2666
+453370	1965	Marma	lé	lé	four	four		9.9	397	0		2409
+453371	1965	Marma	ŋá	ŋá	five	five		9.9	398	0		1306
+453372	1965	Marma	khrɔʔ	khrɔʔ	six	six		9.9	399	0		2621
+453373	1965	Marma	khənɔiʔ	khənɔiʔ	seven	seven		9.9	400	0		
+453374	1965	Marma	ʃɔiʔ	ʃɔiʔ	eight	eight		9.9	401	0		2259
+453375	1965	Marma	kú	kú	nine	nine		9.9	402	0		2364
+453376	1965	Marma	che	che	ten	ten		9.9	403	0		2748
+453377	1965	Marma	hnɔiʔ-che	hnɔiʔ-che	twenty	twenty		9.9	404	0		2504,2748
+453378	1965	Marma	θúŋ-che	θúŋ-che	thirty	thirty		9.9	404-4	0		2666,2748
+453379	1965	Marma	lé-che	lé-che	forty	forty		9.9	404-5	0		2409,2748
+453380	1965	Marma	ŋá-che	ŋá-che	fifty	fifty		9.9	404-6	0		1306,2748
+453381	1965	Marma	khrɔʔ-che	khrɔʔ-che	sixty	sixty		9.9	404-7	0		2621,2748
+453382	1965	Marma	khənɔiʔ-che	khənɔiʔ-che	seventy	seventy		9.9	404-8	0		m,2748
+453383	1965	Marma	ʃɔiʔ-che	ʃɔiʔ-che	eighty	eighty		9.9	404-9	0		m,2748
+453384	1965	Marma	kú-che	kú-che	ninety	ninety		9.9	404-10	0		2364,2748
+453385	1965	Marma	tə-ra	tə-ra	hundred	hundred		9.9	405	0		
+453386	1965	Marma	tə-thɔŋ	tə-thɔŋ	thousand	thousand		9.9	405-11	0		m,2703
+453387	1965	Marma	tə-θɔ́ŋ	tə-θɔ́ŋ	ten thousand	ten thousand		9.9	405-14	0		m,2703
+453388	1965	Marma	tə-θíŋ	tə-θíŋ	hundred thousand	hundred thousand		9.9	405-16	0		
+453389	1965	Marma	tə-θáiŋ	tə-θáiŋ	million	million		9.9	405-17	0		
+453390	1965	Marma	gədi	gədi	ten million	ten million		9.9	405-18	0		
+453391	1965	Marma	khyíŋ	khíŋ	time / occasion	time / occasion		9.1.5	406	0		5561
+453392	1965	Marma	pəthəmǎ	pəthəmǎ	first	first		9.9	406-4	0		
+453393	1965	Marma	dǔdəyǎ	dǔdəyǎ	second	second		9.9	406-5	0		
+453394	1965	Marma	tǎdəyǎ	tǎdəyǎ	third	third		9.9	406-6	0		
+453395	1965	Marma	níŋkhyáŋ	níŋkhyáŋ	alone / by oneself	alone / by oneself		7.1.6.1	406-8	0		
+453396	1965	Marma	álúŋ	álúŋ	all	all		9.9	407	0		
+453397	1965	Marma	təwɔʔ	təwɔʔ	half	half		9.8	408	0		
+453398	1965	Marma	lí	lí	heavy	heavy	vi	9.6.2	409	0		2415
+453399	1965	Marma	pɔ̌	pɔ̌	light (weight)	light (weight)		7.1.11.1	410	0		
+453400	1965	Marma	myá	myá	many / numerous	many / numerous	vi	9.9	411	0		
+453401	1965	Marma	né	né	few	few	vi	9.9	412	0		
+453402	1965	Marma	cháiŋ	cháiŋ	increase	increase	vi	9.5	412-1	0		
+453403	1965	Marma	yɔ̌	yɔ̌	decrease	decrease	vi	9.5	412-2	0		
+453404	1965	Marma	ŋa	ŋa	I / me	I / me		4.1	413	0		2530
+453405	1965	Marma	ŋə-rǒ	ŋə-rǒ	we	we		4.1	414	0		
+453406	1965	Marma	maiʔ	maiʔ	you (fam; to males)	you (fam; to males)		4.1	415	0		
+453407	1965	Marma	naŋ	naŋ	you (fam; to females)	you (fam; to females)		4.1	415	0		2489
+453408	1965	Marma	maiʔ-rǒ	maiʔ-rǒ	you pl (fam; to males)	you pl (fam; to males)		4.1	416	0		
+453409	1965	Marma	naŋ-rǒ	naŋ-rǒ	you pl (fam; to females)	you pl (fam; to females)		4.1	416	0		2489,m
+453410	1965	Marma	kobaŋ	kobaŋ	you (polite)	you (polite)		4.1	416-1	0		
+453411	1965	Marma	kobaŋ-rǒ	kobaŋ-rǒ	you pl (polite)	you pl (polite)		4.1	416-2	0		
+453412	1965	Marma	θu	θu	he	he		4.1	417	0		
+453413	1965	Marma	θu	θu	she	she		4.1	417-1	0		
+453414	1965	Marma	θu-rǒ	θu-rǒ	they	they		4.1	418	0		
+453415	1965	Marma	kodɔiŋ	kodɔiŋ	self	self		4.1	419	0		
+453416	1965	Marma	de	de	this	this		10.4.3.2	420	0		2195
+453417	1965	Marma	de-θu-rǒ	de-θu-rǒ	these	these		10.4.3.2	420a	0		
+453418	1965	Marma	yáŋ	yáŋ	that (distal)	that (distal)		10.1	421	0		
+453419	1965	Marma	thú	thú	that (distal)	that (distal)		10.1	421	0		
+453420	1965	Marma	yáŋ	yáŋ	that (proximal)	that (proximal)		10.1	421-1	0		
+453421	1965	Marma	the	the	that (proximal)	that (proximal)		10.1	421-1	0		2195
+453422	1965	Marma	də-ma	də-ma	here	here		9.2.3	422	0		
+453423	1965	Marma	thú-ma	thú-ma	way over there	way over there		9.2.8	423	0		
+453424	1965	Marma	thə-ma	thə-ma	there	there		9.2.7	423-1	0		
+453425	1965	Marma	də-dǒ	də-dǒ	hither / this way	hither / this way		9.2.3	423-2	0		2195,m
+453426	1965	Marma	əθu	əθu	who	who		10.5.3	424	0		
+453427	1965	Marma	ja	ja	what	what		10.5.3	425	0		
+453428	1965	Marma	ja-ca	ja-ca	which	which		10.5.3	426	0		
+453429	1965	Marma	ja-θu	ja-θu	which	which		10.5.3	426	0		
+453430	1965	Marma	bəjɔŋ	bəjɔŋ	how	how		10.1	427	0		
+453431	1965	Marma	jəma	jəma	where	where		10.5.3	428	0		
+453432	1965	Marma	jə-dǒ	jə-dǒ	whither / which way	whither / which way		10.5.3	428-1	0		
+453433	1965	Marma	ja-phǒ	ja-phǒ	why	why		10.5.3	428-2	0		
+453434	1965	Marma	jəkha	jəkha	when	when		10.5.3	429	0		
+453435	1965	Marma	hmya nari-ma	hmya nari-ma	what time	what time		10.5.3	429a	0		
+453436	1965	Marma	hmya	hmya	how many	how many		10.1	430	0		
+453437	1965	Marma	ja-hlɔʔ	ja-hlɔʔ	how much	how much		10.1	430-1	0		
+453438	1965	Marma	lɔ́iŋgə-CL	lɔ́iŋgə-CL	some / a few	some / a few		9.9	431	0		
+453439	1965	Marma	kɔ́ŋgɔ́ŋ	kɔ́ŋgɔ́ŋ	very / extremely	very / extremely		7.1.2.2	431-1	0		
+453440	1965	Marma	-chúŋ	-chúŋ	most	most		7.1.2.1	431-2	0		
+453441	1965	Marma	tə-khǔ-lé	tə-khǔ-lé	not at all	not at all		1.5.3.2	431-3	0		
+453442	1965	Marma	əmyá	əmyá	too / too much	too / too much		10.1	431-4	0		
+453443	1965	Marma	əra	əra	more	more		9.9	431-5	0		
+453444	1965	Marma	thoiʔ	thoiʔ	exactly	exactly		7.1.8.3	431-6	0		
+453445	1965	Marma	əthaŋ-gǎ	əthaŋ-gǎ	maybe	maybe		10.2.1	431-7	0		
+453446	1965	Marma	əhmaiŋ	əhmaiŋ	surely / certainly	surely / certainly		7.2	431-8	0		
+453447	1965	Marma	brúŋ_khənɔ́iŋ	brúŋ_khənɔ́iŋ	suddenly	suddenly		9.1.1	431-9	0		
+453448	1965	Marma	praiŋ	praiŋ	again	again		10.1	432	0		
+453449	1965	Marma	mə ... θǐ	mə ... θǐ	not yet	not yet		1.5.3.2	433	0		2436,5359
+453450	1965	Marma	...-Brí-bya	...-Brí-bya	already	already		10.1	434	0		
+453451	1965	Marma	tə-CL-Go tə-CL	tə-CL-Go tə-CL	mutually	mutually		10.0	434-1	0		
+453452	1965	Marma	-Ge	-Ge	if	if		10.1.2.2	435	0		
+622178	1964	Sak	səka		dry up			1.1.3.1		0		7203

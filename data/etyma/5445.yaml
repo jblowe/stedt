@@ -1,0 +1,19 @@
+tag: 5445
+grpid: 2
+proto_language: PTB
+protoform: wa(n/t)
+gloss: LOAD / BURDEN / TRANSPORT
+semkey: 6.2.2.1
+sequence: 19.0
+status: KEEP
+public: true
+references: cf. HPTB p. 519
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: wən
+  gloss: LOAD / BURDEN
+notes:
+- type: T
+  text: <par>This root bears a resemblance to <xref ref="5722">#5722</xref>, although the vocalic reflexes
+    of the latter are not easily derivable from <latinform>*-an</latinform> or <latinform>*-at</latinform>.</par>

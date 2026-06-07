@@ -1,0 +1,20 @@
+tag: 328
+grpid: 2
+proto_language: PTB
+protoform: b-ray
+gloss: FINGER
+semkey: 1.5.6
+sequence: 7.0
+status: KEEP
+public: true
+possallo: '329'
+phonology:
+  handle: ray
+  prefix: b
+  initial: r
+  rhyme: ay
+  initcover: L
+  rhymecover: W
+notes:
+- type: T
+  text: <par>It cannot be excluded that this root has an allofamic relationship with <xref ref="329">#329</xref>.</par>

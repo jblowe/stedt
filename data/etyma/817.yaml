@@ -1,0 +1,21 @@
+tag: 817
+grpid: 2
+proto_language: PTB
+protoform: l-kwaŋ
+gloss: EAR
+semkey: 1.2.7
+sequence: 5.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: kwaŋ
+  prefix: l
+  initial: kw
+  rhyme: aŋ
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root is fairly well established, but is nowhere near as widespread as the general root
+    <xref ref="811">#811</xref>.</par>

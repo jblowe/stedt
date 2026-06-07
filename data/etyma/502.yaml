@@ -1,0 +1,59 @@
+tag: 502
+grpid: 2
+proto_language: PTB
+protoform: m/s-tuŋ
+gloss: DRINK / SUCKLE
+sequence: 16.0
+status: KEEP
+public: true
+references: Bodic, Mirish, Kiranti
+phonology:
+  handle: tuŋ
+  prefix: N/s
+  initial: t
+  rhyme: uŋ
+  initcover: T
+  rhymecover: N
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: tɯŋ
+  gloss: DRINK
+- grpid: 42
+  group: '6.1'
+  form: m-daŋ¹ ⪤ m-doŋ¹
+  gloss: DRINK
+- grpid: 45
+  group: 6.1.2
+  form: m-daŋ¹
+  gloss: DRINK
+- grpid: 45
+  group: 6.1.2
+  form: ʔdaŋ¹
+  gloss: GIVE TO DRINK
+notes:
+- type: T
+  text: <par>This widespread etymon is attested all over TB (NE Indian Areal Group, Himalayish, Lolo-Burmese,
+    Qiangic). It comprises both a simplex and a causative variant, i.e. DRINK (with underlying nasal prefix)
+    vs. GIVE TO DRINK (with underlying <reconstruction>*s-</reconstruction> prefix), and by extension
+    SMOKE (tobacco) vs. GIVE TO SMOKE. (Cf. Japanese <emph>tabako wo nomu</emph> &apos;smoke (&quot;drink&quot;)
+    tobacco&apos;.)</par><par>The nasal prefix is clearly reflected in Himalayish (Baima, Amdo Tibetan),
+    Qiangic (Namuyi, Tangut), and Loloish (e.g. Yi Dafang, Luquan, Nasu, Xide), sometimes with an actual
+    nasal segment, sometimes more indirectly (as in Lahu <latinform>dɔ̀</latinform>, where the voiced
+    initial is a reliable reflex of PLB *prenasalization).</par>
+- type: T
+  text: '<par>There is a phonologically excellent Chinese comparandum with the meaning MILK: <hanform>湩</hanform>
+    [GSR 1188c]. See below.</par>'
+- type: F
+  text: '<par><hanform>湩</hanform> OC <reconstruction>*ti̯ung/*tung</reconstruction>, GSR #1188c ‘milk’;
+    Li 1971: <reconstruction>*tjungh/*tungh</reconstruction>; Baxter 1992: <reconstruction>*tjongs/*tongs</reconstruction>;
+    Mand. <latinform>dòng ~ zhòng</latinform>.</par><par>The correspondences are a perfect match. OC <reconstruction>*u</reconstruction>
+    (Li)/<reconstruction>*o</reconstruction> (Baxter) regularly corresponds to PTB <reconstruction>*u</reconstruction>
+    before velar codas.</par><par>However, there is a competing etymology suggesting that this word is
+    an early borrowing from a Central Asian language (Pulleyblank 1962:250ff).  This etymology is supported
+    by the fact that this is not the ordinary Chinese word for &apos;milk&apos;; early glosses define
+    it as &apos;milk (of cows and mares)&apos;.  The Chinese themselves did not drink such milk, so it
+    would not be surprising if this word were borrowed from nomadic peoples.<br />[ZJH]</par>'
+- type: T
+  text: '<par>Loloish has a simplex/causative alternation in this root: cf. Lahu <latinform>dɔ̀</latinform>
+    &apos;drink&apos; ⪤ <plainlatinform>tɔ</plainlatinform> &apos;give to drink&apos;.</par>'

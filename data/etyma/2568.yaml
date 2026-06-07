@@ -1,0 +1,16 @@
+tag: 2568
+grpid: 0
+protoform: pral = phral
+gloss: COLD (DRY) SEASON
+semkey: 7.1.2.3
+sequence: 1441.0
+status: DELETE
+public: false
+xrefs: '4368'
+references: ("PKN") cf. STC p.42, HPTB p.405; delete? (see etyma note)
+phonology:
+  handle: pral
+  initial: pr
+  rhyme: al=phral
+  initcover: P
+  rhymecover: LT

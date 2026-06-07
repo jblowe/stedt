@@ -1,0 +1,25 @@
+tag: 5398
+grpid: 2
+proto_language: PTB
+protoform: k-ra(p/m)
+gloss: NEEDLE
+semkey: '5.1'
+sequence: 1.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 336, 517
+notes:
+- type: T
+  text: <par>A number of reflexes point to initial <latinform>*r-</latinform>, while many others reflect
+    an initial velar; we are treating the velar element as prefixal, so that the reflexes with initial
+    velar are deemed to have undergone prefix pre-emption. Written Burmese has an anomalous zero or glottal
+    stop initial, a variational phenomenon which occurs in a considerable number of roots (see HPTB:57
+    and JAM 1997).</par><par>The Chinese comparandum has a final labial nasal.</par>
+- type: F
+  text: '<par><hanform>箴</hanform> OC <latinform>*t̑i̯əm</latinform>, GSR #671o; B &amp; S 2011: <latinform>*t.kəm
+    {t.[k]əm}</latinform>; Mand. <latinform>zhēn</latinform>.<br /><hanform>簪</hanform> OC <latinform>*tsəm
+    /tṣi̯əm</latinform>, GSR #660g &apos;hairpin&apos;; Schuessler 2007:600 <latinform>*tsrəm</latinform>;
+    B &amp; S 2011: <latinform>*Cə.tsˁəm {Cə.[ts]ˁ[ə]m}</latinform> ~ <latinform>*tsrəm {tsr[ə]m}</latinform>;
+    Mand. <latinform>zān</latinform>.<br /><hanform>譖</hanform> OC <latinform>*tṣi̯əm</latinform>, GSR
+    #660j &apos;accuse; slander&apos;; Schuessler 2007:600 <latinform>*tsrəms</latinform>; B &amp; S 2011:
+    <latinform>*tsrəm-s {[ts]r[ə]m-s}</latinform>; Mand. <latinform>zèn</latinform>.</par>'

@@ -1,0 +1,47 @@
+tag: 2530
+grpid: 2
+proto_language: PTB
+protoform: ŋa-y ⪤ ka
+gloss: I / ME / 1st p. PRONOUN / SELF
+semkey: '4.1'
+sequence: 2199.0
+status: KEEP
+public: true
+references: cf. STC#285, HPTB
+phonology:
+  handle: ŋay
+  initial: ŋ
+  rhyme: ay
+  initcover: M
+  rhymecover: W
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: ŋaᴬ
+  gloss: I
+- grpid: 5
+  group: 1.1.1
+  form: ŋoː
+  gloss: I
+- grpid: 8
+  group: '1.2'
+  form: kay ⪤ kay-maʔ
+  gloss: I / ME / MY
+- grpid: 63
+  group: 1.3.1
+  form: aj
+  gloss: I, ME (1SG)
+notes:
+- type: T
+  text: <par>The variant of this root with final palatal semivowel is attested in Jingpho, Central Naga,
+    and Qiangic languages. The variant with velar stop is found in Kuki-Chin, Kiranti, and Qiangic. Bodo-Garo
+    has a metathesized form <latinform>aŋ</latinform>, which has probably arisen from syncope of a form
+    with an <latinform>*a-</latinform> prefix, <latinform>*a-ŋa</latinform>, which actually exists synchronically
+    in Garo.</par>
+- type: F
+  text: '<par><hanform>吾</hanform> OC <latinform>*ngo</latinform>, GSR #58f-i &apos;I, we&apos;; Coblin
+    86:96-7 ST <latinform>*ngaɣ</latinform> &gt; OC <latinform>*ngag</latinform>; Schuessler 2007:518
+    <latinform>*ŋâ</latinform>; B &amp; S 2011: <latinform>*<plainlatinform>ŋˁa</plainlatinform></latinform>;
+    Mand. <latinform>wú</latinform>.<br /><hanform>我</hanform> OC <latinform>*ngɑ̂</latinform>, GSR #2a-g
+    ‘I, we’; Coblin 86:96-7 ST <latinform>*ngay</latinform> &gt; OC <latinform>*ngarx</latinform>; Schuessler
+    2007:518 <latinform>*ŋâi</latinform>; B &amp; S 2011: <latinform>*ŋˁaj</latinform>; Mand. <latinform>wǒ</latinform>.</par>'

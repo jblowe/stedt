@@ -1,0 +1,17 @@
+tag: 1728
+grpid: 2
+proto_language: PTB
+protoform: b/k-(l)aŋ
+gloss: TOOTH
+semkey: 1.3.4
+sequence: 6.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: laŋ
+  prefix: p
+  initial: l
+  rhyme: aŋ
+  initcover: L
+  rhymecover: N

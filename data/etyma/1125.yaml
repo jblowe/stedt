@@ -1,0 +1,21 @@
+tag: 1125
+grpid: 2
+proto_language: PTB
+protoform: ti
+gloss: BODY
+semkey: 1.1.1
+sequence: 11.0
+status: KEEP
+public: true
+references: Ch. chars.; ?⪤?*tši, GSR 597i
+phonology:
+  handle: ti
+  initial: t
+  rhyme: i
+  initcover: T
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root seems to be confined to the final syllable of compounds, both in TB and in Chinese.
+    </par><par>A similar root, <xref ref="1126">#1126</xref>, which usually occurs in non-final position
+    in compounds, may be allofamically related.</par><par>Another possible co-allofam is <xref ref="1243">#1243</xref>.</par>

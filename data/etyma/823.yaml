@@ -1,0 +1,18 @@
+tag: 823
+grpid: 2
+proto_language: PTB
+protoform: kyap
+gloss: EAR
+semkey: 1.2.7
+sequence: 12.0
+status: KEEP
+public: true
+phonology:
+  handle: kyap
+  initial: ky
+  rhyme: ap
+  initcover: K
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This promising but sparsely attested root requires further confirmation.</par>

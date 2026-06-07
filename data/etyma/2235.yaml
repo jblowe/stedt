@@ -1,0 +1,21 @@
+tag: 2235
+grpid: 2
+proto_language: PTB
+protoform: (g/k)aw
+gloss: CALL
+semkey: 8.5.13
+sequence: 1303.0
+status: KEEP
+public: true
+references: cf. STC#014, HPTB pp.225, 226
+phonology:
+  handle: gaw
+  initial: g/k
+  rhyme: aw
+  initcover: K
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: kaw
+  gloss: CALL / SHOUT

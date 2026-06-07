@@ -1,0 +1,40 @@
+tag: 3559
+grpid: 2
+proto_language: PTB
+protoform: dzəy
+gloss: SEED / TESTICLE / ROUND OBJECT
+semkey: 3.1.4
+sequence: 133.0
+status: KEEP
+public: true
+phonology:
+  initial: dz
+  rhyme: əy
+  initcover: TS
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tsii
+  gloss: SEED / CROP
+  variant: a
+- grpid: 8
+  group: '1.2'
+  form: khlaay-tsii
+  gloss: SEED / CROP
+  variant: b
+- grpid: 63
+  group: 1.3.1
+  form: ma-tʃəjʔ
+  gloss: SEED
+- grpid: 66
+  group: 1.3.4
+  form: tʰa
+  gloss: SEED
+notes:
+- type: T
+  text: <par>The basic meaning of this etymon seems to be SEED, with extensions into SMALL ROUND OBJECT,
+    and thence to TESTICLE.</par><par>This morpheme frequently occurs as the last syllable in words for
+    EYE, as does the semantically similar root <xref ref="1019">#1019</xref>.</par><par><xref ref="3559">#3559</xref>
+    is quite distinct from <xref ref="1019">#1019</xref>, as witness the WB forms <latinform>sî</latinform>
+    &apos;fruit&apos; vs. <latinform>ə-ceʼ</latinform> &apos;seed&apos;. </par>

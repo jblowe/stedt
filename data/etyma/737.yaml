@@ -1,0 +1,26 @@
+tag: 737
+grpid: 2
+proto_language: PTB
+protoform: s/k-la
+gloss: ARM / HAND / WING
+semkey: 1.5.1.2
+sequence: 20.2
+status: KEEP
+public: true
+exemplary: true
+references: incl 738
+phonology:
+  handle: sya
+  initial: sy
+  rhyme: a ⪤ tsya
+  initcover: S
+  rhymecover: WTS
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: khlaa
+  gloss: WING
+notes:
+- type: T
+  text: <par>Note the &quot;brightening&quot; of the vowel from <latinform>*-a</latinform> to <latinform>-i</latinform>
+    in Tangut.</par>

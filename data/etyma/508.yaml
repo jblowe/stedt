@@ -1,0 +1,19 @@
+tag: 508
+grpid: 29
+proto_language: PKir
+protoform: di
+gloss: FINGERNAIL
+semkey: 1.5.10
+sequence: 7.0
+status: KEEP
+public: true
+phonology:
+  handle: di
+  initial: d
+  rhyme: i
+  initcover: T
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root has so far only been found in Kiranti. There is a possible connection with <xref
+    ref="4107">#4107</xref>; see e.g. Khumi <latinform>di</latinform> &apos;press with fingernail&apos;.</par>

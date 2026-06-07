@@ -1,0 +1,18 @@
+tag: 269
+grpid: 3
+proto_language: NEIA
+protoform: r-kay
+gloss: CHIN / CHEEK
+semkey: 1.2.5.3
+sequence: 2.0
+status: DELETE
+public: false
+exemplary: true
+xrefs: '273'
+phonology:
+  handle: kay
+  prefix: r
+  initial: k
+  rhyme: ay
+  initcover: K
+  rhymecover: W

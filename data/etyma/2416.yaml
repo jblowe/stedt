@@ -1,0 +1,35 @@
+tag: 2416
+grpid: 2
+proto_language: PTB
+protoform: m-lawŋ
+gloss: BOAT
+semkey: '5.1'
+sequence: 2.0
+status: KEEP
+public: true
+references: STC#467, HPTB p.294
+phonology:
+  handle: m-lo
+  prefix: m
+  initial: l
+  rhyme: oŋ
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: looŋ
+  gloss: BOAT / SHIP / VESSEL
+- grpid: 12
+  group: 1.7.2
+  form: loːŋ
+  gloss: BOAT
+- grpid: 63
+  group: 1.3.1
+  form: a-ruŋ
+  gloss: BOAT
+notes:
+- type: F
+  text: '<par><hanform>船</hanform> OC <latinform>*di̯wɑn</latinform>; GSR #229e &apos;boat&apos;; Schuessler
+    2007:195-6 <latinform>*m-lon</latinform>; B &amp; S 2011: <latinform>*Cə.lon {Cə.lo[n]}</latinform>;
+    Mand. <latinform>chuán</latinform>.</par>'

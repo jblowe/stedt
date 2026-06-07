@@ -1,0 +1,19 @@
+tag: 1861
+grpid: 2
+proto_language: PTB
+protoform: s-pwap
+gloss: DIE / DEAD / CORPSE
+semkey: 1.1.6
+sequence: 5.0
+status: KEEP
+public: true
+phonology:
+  handle: pup
+  prefix: s
+  initial: p
+  rhyme: up⪤s-pop
+  initcover: P
+  rhymecover: VTS
+notes:
+- type: T
+  text: <par>This promising root could use some further confirmation.</par>

@@ -1,0 +1,48 @@
+tag: 1306
+grpid: 2
+proto_language: PTB
+protoform: l/b-ŋa
+gloss: FIVE
+semkey: '9.9'
+sequence: 4.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#078, HPTB
+phonology:
+  handle: ŋa
+  prefix: l/b
+  initial: ŋ
+  rhyme: a
+  initcover: M
+  rhymecover: V
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ŋaa
+  gloss: FIVE
+- grpid: 5
+  group: 1.1.1
+  form: ŋo
+  gloss: FIVE
+- grpid: 66
+  group: 1.3.4
+  form: ŋa
+  gloss: FIVE
+- grpid: 50
+  group: '7'
+  form: ŋjatᴰ
+  gloss: FIVE
+- grpid: 42
+  group: '6.1'
+  form: ŋa²
+  gloss: FIVE
+- grpid: 63
+  group: 1.3.1
+  form: pha-ŋa
+  gloss: FIVE
+notes:
+- type: F
+  text: '<par><hanform>五</hanform> OC <latinform>*ngo</latinform>, GSR #58a-d &apos;five&apos;; Coblin
+    86:80 ST <latinform>*lngaɣ</latinform> &gt; OC <latinform>*ngagx</latinform>; Schuessler 2007:519
+    <latinform>*ŋâʔ</latinform>; B &amp; S 2011 <latinform>*C.ŋˁaʔ</latinform>; Mand. <latinform>wǔ</latinform>.</par>'

@@ -1,0 +1,31 @@
+tag: 7181
+grpid: 2
+proto_language: PTB
+protoform: sar
+gloss: OLD (of things)
+semkey: 7.1.8.3
+sequence: 2554.0
+status: KEEP
+public: true
+references: JAM
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tar
+  gloss: OLD / SENILE
+- grpid: 66
+  group: 1.3.4
+  form: saar
+  gloss: OLD
+- grpid: 42
+  group: '6.1'
+  form: san²
+  gloss: OLD (of things)
+- grpid: 50
+  group: '7'
+  form: saʔ
+  gloss: OLD (of people)
+notes:
+- type: T
+  text: <par>This root shows up in several different subgroups, with the usual meaning &quot;old (of things)&quot;.
+    In Karenic and Kuki-Chin, the meaning seems to have shifted to &quot;old (of people)&quot;.</par>

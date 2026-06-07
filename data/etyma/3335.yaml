@@ -1,0 +1,17 @@
+tag: 3335
+grpid: 1
+proto_language: PST
+protoform: s-tin ⪤ s/m-tun
+gloss: BUTTOCKS / HEEL / DULL / BLUNT / ROUNDED PART
+semkey: 7.1.5.1
+sequence: 5.0
+status: DELETE
+public: false
+xrefs: '574'
+references: 'distinct from *n-daŋ #225'
+phonology:
+  handle: tin
+  initial: t
+  rhyme: in ⪤ s/m
+  initcover: T
+  rhymecover: NS

@@ -1,0 +1,26 @@
+tag: 217
+grpid: 2
+proto_language: PTB
+protoform: krya(t/n)
+gloss: WAIST / LOINS
+semkey: 1.4.6
+sequence: 4.0
+status: KEEP
+public: true
+xrefs: NECK
+possallo: 202,221
+references: 'mostly HIM; cf. ken/t #412'
+phonology:
+  handle: r/s-ke
+  initial: k
+  rhyme: et/n
+  initcover: K
+  rhymecover: NT
+notes:
+- type: T
+  text: <par>Written Tibetan has both an <latinform>r-</latinform> and an <latinform>s-</latinform> prefix,
+    with the former apparently metathesized to a glide in other languages (Apatani, Tshona, Tamang).</par><par>The
+    Tangut form may reflect the nasal allofam, although its cognacy is by no means certain.</par><par>The
+    first member of the Apatani doublet <latinform>har-č(ʰ)eʔ</latinform> &apos;groin&apos; and <latinform>kʰrjɯ-po</latinform>
+    &apos;waist&apos; has a palatal affricate initial, similar to the Lepcha and Hpun forms, leading one
+    to wonder whether two separate roots are involved.</par>

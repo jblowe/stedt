@@ -1,0 +1,25 @@
+tag: 1408
+grpid: 2
+proto_language: PTB
+protoform: s-ta-s ⪤ ta-n
+gloss: HEAR
+semkey: 1.2.7.4
+sequence: 1.0
+status: KEEP
+public: true
+references: cf. STC#415, HPTB
+phonology:
+  handle: ta-s
+  initial: t
+  rhyme: a-s ⪤ ta
+  initcover: T
+  rhymecover: VTS
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: tat²
+  gloss: LISTEN / HEAR
+notes:
+- type: T
+  text: <par>As demonstrated by Benedict 1943, Lepcha medial <latinform>-y-</latinform> often derives
+    from the PTB <latinform>*s-</latinform> prefix.</par>

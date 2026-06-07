@@ -1,0 +1,19 @@
+tag: 2005
+grpid: 2
+proto_language: PTB
+protoform: grap
+gloss: SKULL
+semkey: 1.2.1.1
+sequence: 3.0
+status: KEEP
+public: true
+phonology:
+  handle: ʔkrap
+  initial: ʔkr
+  rhyme: ap
+  initcover: H
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root occurs as the second element in compounds that begin with <xref ref="385">#385</xref>
+    in two languages, although much more confirmation is needed to set it up for TB as a whole.</par>

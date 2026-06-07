@@ -1,0 +1,19 @@
+tag: 226
+grpid: 2
+proto_language: PTB
+protoform: pəy
+gloss: WAIST / LOWER BACK / BUTTOCKS
+semkey: 1.4.9
+sequence: 5.1
+status: DELETE
+public: true
+exemplary: true
+xrefs: '1361'
+possallo: '1361'
+references: GSR 909e, cf. *d-p(y)i 1361
+phonology:
+  handle: pəy
+  initial: p
+  rhyme: əy
+  initcover: P
+  rhymecover: W

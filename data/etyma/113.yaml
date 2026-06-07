@@ -1,0 +1,21 @@
+tag: 113
+grpid: 2
+proto_language: PTB
+protoform: wan
+gloss: HUNGRY
+semkey: 1.1.3
+sequence: 8.0
+status: KEEP
+public: true
+phonology:
+  handle: wen
+  initial: w
+  rhyme: en
+  initcover: L
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root requires further confirmation, but looks fairly solid. The Kayan form shows a velar
+    prefix.</par><par>This root looks rather similar to <xref ref="122">#122</xref>, but we are keeping
+    them separate for now. The present root seems always to mean &apos;hungry&apos; while <xref ref="122">#122</xref>
+    apparently always means &apos;thirsty&apos;.</par>

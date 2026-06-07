@@ -1,0 +1,31 @@
+tag: 231
+grpid: 2
+proto_language: PTB
+protoform: krak
+gloss: BLOOD / RED
+semkey: 1.6.2
+sequence: 2.0
+status: KEEP
+public: false
+exemplary: true
+phonology:
+  handle: krak
+  initial: kr
+  rhyme: ak
+  initcover: K
+  rhymecover: T
+notes:
+- type: F
+  text: '<par><hanform>赤</hanform> OC <latinform>*t̑’i̯ɑ̆k</latinform>, GSR #793a-c &apos;red&apos;; B
+    &amp; S 2011: <latinform>*t-qʰak {[t-qʰ](r)Ak}</latinform>; Mand. <latinform>chì</latinform>.<br /><hanform>赫</hanform>
+    OC <latinform>*χɑ̆k</latinform>, GSR #779a &apos;red, fiery; brilliant; majestic, awe-inspiring; frighten&apos;;
+    Schuessler 2007:276 <latinform>*hrâk</latinform>; B &amp; S 2011: <latinform>*qʰˁrak</latinform>;
+    Mand. <latinform>hè</latinform>.<br /><hanform>奭</hanform> OC <latinform>*χi̯ək</latinform> <latinform>~</latinform>
+    (<latinform>*śi̯ɑ̆k</latinform>), GSR #913a &apos;majestic, red&apos;; B &amp; S 2011: <latinform>*qʰək
+    {[qʰ](r)ək}</latinform> <latinform>~</latinform> <latinform>*qʰak {[qʰ](r)Ak}</latinform>; Mand. <latinform>shì</latinform>.</par><par><latinform>Comment:</latinform>
+    The primary comparanda here are <hanform>赤</hanform> <latinform>chì</latinform> and <hanform>赫</hanform>
+    <latinform>hè</latinform>. OC sources yield conflicting reports as to the exact reconstruction of
+    <hanform>奭</hanform> <latinform>shì</latinform>, and whether <hanform>赫</hanform> and <hanform>奭</hanform>
+    represent two separate etyma or are graphic substitutes one for another instead (see e.g. Karlgren&apos;s
+    remarks in GSR #913a; discussion in Schuessler 2007:188-9). These issues, however, do not detract
+    from the validity and overall usefulness of the comparandum at hand. [SPB]</par>'

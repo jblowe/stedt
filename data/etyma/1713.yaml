@@ -1,0 +1,25 @@
+tag: 1713
+grpid: 2
+proto_language: PTB
+protoform: ʔ-wa
+gloss: DRINK
+sequence: 6.0
+status: KEEP
+public: false
+exemplary: true
+references: Bai, Tujia, Karen ?
+phonology:
+  handle: wa
+  prefix: ʔ
+  initial: w
+  rhyme: a
+  initcover: L
+  rhymecover: V
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: Ɂɔᴬ
+  gloss: DRINK (v.)
+notes:
+- type: T
+  text: <par>This root is well attested in Karenic and Baic, but apparently not elsewhere.</par>

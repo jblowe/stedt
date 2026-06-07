@@ -1,0 +1,20 @@
+tag: 1214
+grpid: 2
+proto_language: PTB
+protoform: səy
+gloss: FRONT / BEFORE
+semkey: 1.4.4
+sequence: 1.0
+status: KEEP
+public: true
+xrefs: TOOTH
+allofams: '1213'
+phonology:
+  handle: si
+  initial: s
+  rhyme: i⪤səy
+  initcover: S
+  rhymecover: WS
+notes:
+- type: T
+  text: <par>This root somewhat resembles <xref ref="1213">#1213</xref>, but seems independent from it.</par>

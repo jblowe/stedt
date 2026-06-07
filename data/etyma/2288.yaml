@@ -1,0 +1,17 @@
+tag: 2288
+grpid: 2
+proto_language: PTB
+protoform: kal
+gloss: CONGEAL
+semkey: '9.5'
+sequence: 10.0
+status: DELETE
+public: false
+xrefs: '5730'
+references: cf. STC p.15, HPTB pp.404, 405
+phonology:
+  handle: kal
+  initial: k
+  rhyme: al
+  initcover: K
+  rhymecover: L

@@ -1,0 +1,19 @@
+tag: 393
+grpid: 2
+proto_language: PTB
+protoform: tsyak
+gloss: NAPE OF NECK
+semkey: 1.4.2.1
+sequence: 10.0
+status: KEEP
+public: true
+references: set up by ZJH
+phonology:
+  handle: tšak
+  initial: tš
+  rhyme: ak
+  initcover: TS
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This sparsely attested root requires further confirmation.</par>

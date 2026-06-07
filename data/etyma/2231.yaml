@@ -1,0 +1,31 @@
+tag: 2231
+grpid: 2
+proto_language: PTB
+protoform: gam
+gloss: PUT INTO MOUTH, SEIZE WITH MOUTH
+semkey: 1.3.1
+sequence: 16.0
+status: KEEP
+public: false
+references: STC#491; STC done
+phonology:
+  handle: gam
+  initial: g
+  rhyme: am
+  initcover: K
+  rhymecover: N
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: gam (~ gjam?)
+  gloss: BITE
+notes:
+- type: F
+  text: '<par><hanform>含</hanform> OC <latinform>*gʼi̯əm</latinform>, GSR #651l&apos; &apos;hold in mouth&apos;;
+    Schuessler 2007:270-1 <latinform>*gə̂m</latinform>; B &amp; S 2011: <latinform>*Cə-m-kˁəm {Cə-m-kˁ[ə]m}</latinform>;
+    Mand. <latinform>hán</latinform>.<br /><hanform>噤</hanform> OC <latinform>*g’li̯əm</latinform>, GSR
+    #655m &apos;shut the mouth&apos;; B &amp; S 2011: (<latinform>*grəm-s</latinform>); Mand. <latinform>jìn</latinform>.</par><par>Comment:</par><par>GSR
+    #651m&apos;, Mand. <latinform>hán</latinform>, is the same etymon as #651l’, written with a different
+    ideograph: <hanform>唅</hanform>.</par>'
+- type: T
+  text: <par>This etymon may well be allofamically related to <xref ref="1772">#1772</xref>.</par>

@@ -1,0 +1,24 @@
+tag: 1419
+grpid: 12
+proto_language: PNN
+protoform: sriːŋ
+gloss: SMELL
+semkey: 1.2.8.5
+sequence: 8.0
+status: KEEP
+public: false
+references: WTF-PNN 553
+phonology:
+  handle: sriːŋ
+  initial: sr
+  rhyme: iːŋ
+  initcover: S
+  rhymecover: N
+notes:
+- type: I
+  text: <par>What is NNA? PNN?</par>
+- type: F
+  text: '<par><hanform>腥</hanform> OC <latinform>*sieng</latinform>, GSR #812a&apos; &apos;raw meat; offensive
+    (smell)&apos;; Schuessler 2007:540 <latinform>*sêŋ</latinform>; Mand. <latinform>xīng</latinform>.<br
+    /><hanform>腥</hanform> OC <latinform>*sieng</latinform>, GSR #812a&apos; &apos;grease&apos;; Schuessler
+    2007:541 <latinform>*sêŋh</latinform>; Mand. <latinform>xīng</latinform>.</par>'

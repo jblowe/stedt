@@ -1,0 +1,27 @@
+tag: 2204
+grpid: 2
+proto_language: PTB
+protoform: (d/t)uŋ
+gloss: LONG / LENGTH
+semkey: 9.7.2
+sequence: 15.0
+status: KEEP
+public: true
+references: STC#020
+phonology:
+  handle: duŋ
+  initial: d
+  rhyme: uŋ=duŋ,
+  initcover: T
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ɗuŋ ⪤ tuŋ
+  gloss: LENGTH
+notes:
+- type: T
+  text: '<par>STC #20 and HPTB p. 288 reconstruct the voiceless allofam with a long vowel because of the
+    Lepcha vowel; a short medial PTB <latinform>-u-</latinform> tends to lower to Lepcha <latinform>-a-</latinform>
+    while long <latinform>-uː-</latinform> remains <latinform>-u-</latinform>. Further data is needed
+    to establish this point, however.</par>'

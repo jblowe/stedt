@@ -1,0 +1,21 @@
+tag: 434
+grpid: 2
+proto_language: PTB
+protoform: s/ʔ-n(w)ay
+gloss: COHESIVE / STICKY / ELASTIC
+semkey: 6.13.2
+sequence: 1438.0
+status: KEEP
+public: true
+references: cf. HPTB p.214
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-nay²/³
+  gloss: COHESIVE / STICKY / ELASTIC
+notes:
+- type: T
+  text: <par>A glottal stop prefix is exceptionally reconstructed for this root at the PTB level, because
+    of the pre-glottalized nasals in the Jingpho forms. (To reconstruct the <latinform>*s-</latinform>
+    prefix here would be anomalous, since that prefix regularly gives Jingpho <latinform>šə- ~ džə-</latinform>.)</par><par>This
+    etymon definitely seems related to <xref ref="2493">#2493</xref>.</par>

@@ -1,0 +1,27 @@
+tag: 5481
+grpid: 2
+proto_language: PTB
+protoform: p-wap
+gloss: LUNG
+semkey: 1.7.2
+sequence: 1.2
+status: KEEP
+public: true
+references: cf. HPTB pp. 342, 476, 533
+notes:
+- type: T
+  text: <par>The initial <latinform>*pr-</latinform> cluster in Khaling seems to be a fusion of <xref
+    ref="5737">#5737</xref> with <latinform>wap</latinform>. The Padam-Mising form also looks like a fusion
+    of these two morphemes, with its syllable initial <latinform>r-</latinform> from <latinform>*pwar</latinform>,
+    and the proto-sequence <latinform>*wap</latinform> becoming the rhyme <latinform>-op</latinform>.</par><par>The
+    final dental in the Chinese comparandum might be due to labial dissimilation from the initial, as
+    in &quot;wind (n.)&quot; <hanform>風</hanform>, which is reconstructed as <latinform>*pi̯ŭm</latinform>
+    for Old Chinese, but which became <latinform>pi̯ung</latinform> by the Middle Chinese period. Another
+    explanation is that this Chinese word is under the qusheng (Tone &quot;C&quot;), which arose, according
+    to Haudricourt&apos;s famous theory, through the influence of an <latinform>*-s</latinform> suffix,
+    that could have favored the assimilation of a final labial to apical position.</par>
+- type: F
+  text: '<par><hanform>肺</hanform> OC <latinform>*pʼi̯wɑ̆d</latinform>, GSR #501g &apos;lung&apos;; Schuessler
+    2007:233 <latinform>*phats</latinform> &lt; <latinform>*phats</latinform> or <latinform>*phots</latinform>
+    from earlier <latinform>*s-pot/ps</latinform>; B &amp; S 2011: <latinform>*pʰot-s {pʰo[t]-s}</latinform>;
+    Mand. <latinform>fèi</latinform>.</par>'

@@ -1,0 +1,17 @@
+tag: 807
+grpid: 2
+proto_language: PTB
+protoform: l-di
+gloss: NOSE
+semkey: 1.2.8
+sequence: 3.0
+status: KEEP
+public: false
+exemplary: true
+phonology:
+  handle: di
+  prefix: l
+  initial: d
+  rhyme: i
+  initcover: T
+  rhymecover: V

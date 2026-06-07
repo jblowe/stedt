@@ -1,0 +1,21 @@
+tag: 2151
+grpid: 2
+proto_language: PTB
+protoform: s-baŋ
+gloss: DUNG
+semkey: 1.8.5
+sequence: 5.0
+status: KEEP
+public: true
+possallo: 1655,1802,575
+references: cf. STC p.21, HPTB p.264
+phonology:
+  handle: baŋ
+  prefix: s
+  initial: b
+  rhyme: aŋ
+  initcover: P
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root seems quite distinct from <xref ref="404">#404</xref>.</par>

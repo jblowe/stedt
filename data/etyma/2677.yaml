@@ -1,0 +1,16 @@
+tag: 2677
+grpid: 2
+proto_language: PTB
+protoform: syar
+gloss: RISE / EAST
+semkey: 1.1.4
+sequence: 2824.0
+status: KEEP
+public: false
+references: cf. STC p.28 183, HPTB p. 391
+phonology:
+  handle: syar
+  initial: sy
+  rhyme: ar=śar
+  initcover: S
+  rhymecover: LS

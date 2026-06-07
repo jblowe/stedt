@@ -1,0 +1,18 @@
+tag: 6406
+grpid: 2
+proto_language: PTB
+protoform: kruŋ
+gloss: SOUR
+semkey: 7.1.4.4
+sequence: 3086.0
+status: KEEP
+public: true
+references: JS-HCST: 133
+phonology:
+  initial: kr
+  rhyme: uŋ
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: kruŋ
+  gloss: SOUR

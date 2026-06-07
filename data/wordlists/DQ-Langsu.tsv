@@ -1,0 +1,256 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+15172	1024	Maru [Langsu]	kauŋ³¹ tau³⁵	kauŋ³¹ tau³⁵	body	body		1.1.1	1.1	0		1,14
+15173	1024	Maru [Langsu]	lɔʔ³¹ ka̱uŋ³⁵ khjɔ³¹	lɔʔ³¹ ka̱uŋ³⁵ khjɔ³¹	side (right)	side (right)		1.4.5	1.2	0		695,m,m
+15174	1024	Maru [Langsu]	loʔ³¹ jɔ³¹	loʔ³¹ jɔ³¹	side (left)	side (left)		1.4.5	1.3	0		695,m
+15175	1024	Maru [Langsu]	kauŋ³¹ tɔ̃⁵⁵	kauŋ³¹ tɔ̃⁵⁵	back	back		1.4.8	1.4	0		1,225
+15176	1024	Maru [Langsu]	xək⁵⁵ khjɔ³¹	xək⁵⁵ khjɔ³¹	front	front		1.4.4	1.5	0		m,m
+15177	1024	Maru [Langsu]	kauŋ³¹ tau³⁵	kauŋ³¹ tau³⁵	torso / trunk	torso  /  trunk		1.5.3.2	1.6	0		1,m
+15178	1024	Maru [Langsu]	khjik³¹ loʔ³¹	khjik³¹ loʔ³¹	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
+15179	1024	Maru [Langsu]	tɔ̃⁵⁵ kɔ̱i³¹	tɔ̃⁵⁵ kɔ̱i³¹	lap	lap		1.4.4.2	1.8	0		1193,2326
+15180	1024	Maru [Langsu]	ɣɔ̃³¹ kɔ̃³¹	ɣɔ̃³¹ kɔ̃³¹	bosom	bosom		1.4.4.2	1.9	0		m,m
+15181	1024	Maru [Langsu]	tɔ̃⁵⁵ kɔ̱i³¹ khjɔ³¹	tɔ̃⁵⁵ kɔ̱i³¹ khjɔ³¹	groin / loins	groin  /  loins		1.4.9	1.10	0		225,m,m
+15182	1024	Maru [Langsu]	ʃo³⁵	ʃo³⁵	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34
+15183	1024	Maru [Langsu]	tɔi³¹	tɔi³¹	alive / be living	alive  /  be living		1.1.2.1	1.12	0		72
+15184	1024	Maru [Langsu]	sik³¹	sik³¹	die / be dead	die  /  be dead		1.1.6	1.13	0		27
+15185	1024	Maru [Langsu]	mɔ̃³¹	mɔ̃³¹	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		17
+15186	1024	Maru [Langsu]	mɔ̃³¹	mɔ̃³¹	carcass / dead animal	carcass  /  dead animal		1.1.6.1	1.15	0		17
+15187	1024	Maru [Langsu]	jap³¹	jap³¹	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		127
+15188	1024	Maru [Langsu]	ʃap⁵⁵	ʃap⁵⁵	sleep (put to)	sleep (put to)	caus.	1.1.4.1	1.16	0		127
+15189	1024	Maru [Langsu]	pum³⁵	pum³⁵	awake / be awake	awake  /  be awake		1.1.4	1.17	0		151
+15190	1024	Maru [Langsu]	ja̱p³¹ mɔʔ³¹ mɔʔ³¹	ja̱p³¹ mɔʔ³¹ mɔʔ³¹	dream	dream	v.	1.1.4.2	1.18	0		127,126,126
+15191	1024	Maru [Langsu]	au³⁵ lam³⁵	au³⁵ lam³⁵	head	head		1.2.1	2.1	0		385,690
+15192	1024	Maru [Langsu]	au³⁵ nɛ̱̃⁵⁵	au³⁵ nɛ̱̃⁵⁵	fontanel	fontanel		1.2.1.3	2.3	0		385,1197
+15193	1024	Maru [Langsu]	au³⁵ ʃŏ³⁵ ɣuk⁵⁵	au³⁵ ʃŏ³⁵ ɣuk⁵⁵	skull	skull		1.2.1.1	2.4	0		385,p,232
+15194	1024	Maru [Langsu]	au³⁵ nauk³¹	au³⁵ nauk³¹	brain	brain		1.2.4	2.5	0		385,243
+15195	1024	Maru [Langsu]	tshɛ̃³¹	tshɛ̃³¹	hair of head	hair of head		1.2.3	2.7	0		366
+15196	1024	Maru [Langsu]	au³⁵ jam⁵⁵	au³⁵ jam⁵⁵	scalp	scalp		1.2.1.5	2.8	0		385,795
+15197	1024	Maru [Langsu]	tʃɔʔ³¹ pjɛn³⁵	tʃɔʔ³¹ pjɛn³⁵	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		1606,2016
+15198	1024	Maru [Langsu]	khjuk³¹	khjuk³¹	horn (of animal)	horn (of animal)		1.2.2	2.10	0		819
+15199	1024	Maru [Langsu]	tshɛʔ⁵⁵ khjuk³¹	tshɛʔ⁵⁵ khjuk³¹	antler (of deer)	antler (of deer)		1.2.2	2.11	0		2739,819
+15200	1024	Maru [Langsu]	mjoʔ³¹ khuŋ³⁵	mjoʔ³¹ khuŋ³⁵	face	face		1.2.5	3.1	0		681,267
+15201	1024	Maru [Langsu]	ŋa³⁵ lɔ̃³¹	ŋa³⁵ lɔ̃³¹	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		356,392
+15202	1024	Maru [Langsu]	mjɔʔ³¹ tʃik³⁵	mjɔʔ³¹ tʃik³⁵	eye	eye		1.2.6	3.4	0		681,3559
+15203	1024	Maru [Langsu]	mjoʔ³¹ jam⁵⁵	mjoʔ³¹ jam⁵⁵	eyelid	eyelid		1.2.6.4	3.4.1	0		681,795
+15204	1024	Maru [Langsu]	mjɔʔ³¹ tʃik³⁵ tʃhɛʔ⁵⁵	mjɔʔ³¹ tʃik³⁵ tʃhɛʔ⁵⁵	eyeball	eyeball		1.2.6.1	3.4.2	0		681,3559,m
+15205	1024	Maru [Langsu]	mjɔʔ³¹ ma⁵⁵	mjɔʔ³¹ ma⁵⁵	iris	iris		1.2.6.2	3.4.2.1	0		681,m
+15206	1024	Maru [Langsu]	mjɔʔ³¹ tsɔ³¹	mjɔʔ³¹ tsɔ³¹	pupil	pupil		1.2.6.2	3.4.2.2	0		681,2727
+15207	1024	Maru [Langsu]	mjɔ³¹ phju³¹ tʃik⁵⁵	mjɔ³¹ phju³¹ tʃik⁵⁵	white of eye	white of eye		1.2.6.3	3.4.2.3	0		681,1235,m
+15208	1024	Maru [Langsu]	mjɔʔ³¹ ma̱uŋ⁵⁵	mjɔʔ³¹ ma̱uŋ⁵⁵	eyebrow	eyebrow		1.2.6.6	3.4.3	0		681,363
+15209	1024	Maru [Langsu]	mjɔʔ³¹ tshɛ̃³¹	mjɔʔ³¹ tshɛ̃³¹	eyelash	eyelash		1.2.6.5	3.4.4	0		681,366
+15210	1024	Maru [Langsu]	tɔi³¹	tɔi³¹	blink	blink	v.	1.2.6.12	3.4.5	0		m
+15211	1024	Maru [Langsu]	ŋuk³¹ pik³¹	ŋuk³¹ pik³¹	tears	tears	n	1.2.6.7	3.4.6	0		681,187
+15212	1024	Maru [Langsu]	mjɔʔ³¹ khjik⁵⁵	mjɔʔ³¹ khjik⁵⁵	eye sand	eye sand		1.2.6.8	3.4.7	0		681,572
+15213	1024	Maru [Langsu]	ŋuk³¹	ŋuk³¹	cry / weep	cry  /  weep	v.	1.8.8.2	3.4.8	0		1104
+15214	1024	Maru [Langsu]	vu⁵⁵	vu⁵⁵	look	look	v.	1.2.6.11	3.4.9	0		m
+15215	1024	Maru [Langsu]	mjɔ̃³¹	mjɔ̃³¹	see	see	v.	1.2.6.10	3.4.9	0		1227
+15216	1024	Maru [Langsu]	mjoʔ³¹ tʃik⁵⁵	mjoʔ³¹ tʃik⁵⁵	blind	blind		1.2.6.14.2	3.4.10	0		681,1401
+15217	1024	Maru [Langsu]	nɔ̱³¹	nɔ̱³¹	nose	nose		1.2.8	3.5	0		803
+15218	1024	Maru [Langsu]	nɔ̱³¹ khjauŋ³⁵	nɔ̱³¹ khjauŋ³⁵	nostril	nostril		1.2.8.1	3.5.2	0		803,809
+15219	1024	Maru [Langsu]	nɔ̱³¹ muk⁵⁵	nɔ̱³¹ muk⁵⁵	nose hair	nose hair		1.2.8	3.5.4	0		803,363
+15220	1024	Maru [Langsu]	vɔʔ³¹ nɔ̱³¹	vɔʔ³¹ nɔ̱³¹	snout (pig)	snout (pig)		1.2.8	3.5.5	0		1006,471
+15221	1024	Maru [Langsu]	khjauŋ³⁵ kjɔ̱ʔ⁵⁵	khjauŋ³⁵ kjɔ̱ʔ⁵⁵	liquid mucus	liquid mucus		3.2.3	3.5.6	0		m,540
+15222	1024	Maru [Langsu]	khjauŋ³⁵ kjɔ̱ʔ⁵⁵	khjauŋ³⁵ kjɔ̱ʔ⁵⁵	solid mucus	solid mucus		1.1.5	3.5.7	0		m,540
+15223	1024	Maru [Langsu]	khjuk⁵⁵	khjuk⁵⁵	blow nose	blow nose	v.	1.3.1.4	3.5.8	0		
+15224	1024	Maru [Langsu]	nɛ̃³¹	nɛ̃³¹	smell / sniff	smell  /  sniff	v.	1.2.8.5	3.5.9	0		1415
+15225	1024	Maru [Langsu]	nə̆³¹ khjɛʔ⁵⁵	nə̆³¹ khjɛʔ⁵⁵	ear	ear		1.2.7	3.6	0		811,823
+15226	1024	Maru [Langsu]	nə̆³¹ jɛ̃³¹	nə̆³¹ jɛ̃³¹	outer ear	outer ear		9.2	3.6.2	0		811,m
+15227	1024	Maru [Langsu]	nə̆³¹ tuŋ³⁵ khuk³¹	nə̆³¹ tuŋ³⁵ khuk³¹	inner ear	inner ear		9.2.5	3.6.3	0		811,822,m
+15228	1024	Maru [Langsu]	nə̆³¹ tuŋ³⁵	nə̆³¹ tuŋ³⁵	ear canal	ear canal		1.2.7	3.6.4	0		811,822
+15229	1024	Maru [Langsu]	nə̆³¹ khjik⁵⁵	nə̆³¹ khjik⁵⁵	earwax	earwax		1.2.7.3	3.6.6	0		811,572
+15230	1024	Maru [Langsu]	ɣɔ⁵⁵ kjɔ³¹	ɣɔ⁵⁵ kjɔ³¹	hear	hear	v.	1.2.7.4	3.6.7	0		m,1411
+15231	1024	Maru [Langsu]	tʃik³¹	tʃik³¹	deaf	deaf		1.2.7.5	3.6.8	0		m
+15232	1024	Maru [Langsu]	na̱t⁵⁵	na̱t⁵⁵	mouth	mouth		1.3.1	3.7	0	D0	471
+15233	1024	Maru [Langsu]	ɛ³¹	ɛ³¹	palate	palate		1.3.1.1	3.7.1	0		
+15234	1024	Maru [Langsu]	ŋan³¹	ŋan³¹	gums	gums		1.3.4.3	3.7.3	0		504
+15235	1024	Maru [Langsu]	khjauŋ³⁵ saŋ³⁵	khjauŋ³⁵ saŋ³⁵	uvula	uvula		1.3.5.1	3.7.4	0		
+15236	1024	Maru [Langsu]	ɣui⁵⁵	ɣui⁵⁵	saliva	saliva		1.8.3	3.7.5	0		
+15237	1024	Maru [Langsu]	tsɔ³⁵	tsɔ³⁵	eat	eat	v.	1.5.3.2	3.7.6	0		36
+15238	1024	Maru [Langsu]	ʃauk⁵⁵	ʃauk⁵⁵	drink	drink	v.		3.7.7	0		3462
+15239	1024	Maru [Langsu]	fai³⁵	fai³⁵	thirsty	thirsty	be v.	1.1.3.1	3.7.8	0		3298
+15240	1024	Maru [Langsu]	møʔ³¹	møʔ³¹	hungry	hungry	be v.	1.1.3	3.7.9	0		99
+15241	1024	Maru [Langsu]	kji³⁵	kji³⁵	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		112
+15242	1024	Maru [Langsu]	phø³⁵	phø³⁵	spit	spit	v.	1.8.3	3.7.11	0		
+15243	1024	Maru [Langsu]	phø³⁵ ɛ³¹	phø³⁵ ɛ³¹	vomit	vomit	n.	1.8.3.2	3.7.12	0		1145,m
+15244	1024	Maru [Langsu]	phø³⁵	phø³⁵	vomit	vomit	v.	1.8.3.2	3.7.13	0		1145
+15245	1024	Maru [Langsu]	ŋam³¹	ŋam³¹	hold in mouth	hold in mouth	v.	1.3.4.4	3.7.14	0		1772
+15246	1024	Maru [Langsu]	xa³⁵	xa³⁵	gape / open mouth	gape  /  open mouth	v.	1.3.1	3.7.15	0		1716
+15247	1024	Maru [Langsu]	ʃɔ³¹	ʃɔ³¹	tongue	tongue		1.3.3	3.8	0		623
+15248	1024	Maru [Langsu]	tʃa̱u³¹	tʃa̱u³¹	speak	speak	v.	8.5.10.1	3.8.1	0		
+15249	1024	Maru [Langsu]	ta⁵⁵	ta⁵⁵	speak	speak	v.	8.5.10.1	3.8.1	0		
+15250	1024	Maru [Langsu]	ɔ³¹ tɔ̱i³⁵ lɔ̱̃³⁵	ɔ³¹ tɔ̱i³⁵ lɔ̱̃³⁵	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
+15251	1024	Maru [Langsu]	tʃik³¹	tʃik³¹	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		
+15252	1024	Maru [Langsu]	jɔʔ³¹	jɔʔ³¹	lick	lick	v.	1.3.3.1	3.8.4	0		629
+15253	1024	Maru [Langsu]	na̱t⁵⁵ ka̱uk⁵⁵	na̱t⁵⁵ ka̱uk⁵⁵	lip	lip		1.3.2	3.9	0		471,586
+15254	1024	Maru [Langsu]	thɔʔ⁵⁵ na̱t⁵⁵ ka̱uk⁵⁵	thɔʔ⁵⁵ na̱t⁵⁵ ka̱uk⁵⁵	upper lip	upper lip		9.2.1	3.9.1	0		m,471,586
+15255	1024	Maru [Langsu]	ɔ³¹ na̱t⁵⁵ ka̱uk⁵⁵	ɔ³¹ na̱t⁵⁵ ka̱uk⁵⁵	lower lip	lower lip			3.9.2	0		p,471,586
+15256	1024	Maru [Langsu]	na̱t⁵⁵	na̱t⁵⁵	beak / bill	beak / bill		1.3.1.2	3.9.3	0		471
+15257	1024	Maru [Langsu]	ɣə³¹	ɣə³¹	smile	smile	v.	1.8.8.1	3.9.4	0		1108
+15258	1024	Maru [Langsu]	pɔ̱³¹	pɔ̱³¹	kiss	kiss	v.	1.3.2.2	3.9.5	0		3450
+15259	1024	Maru [Langsu]	tsɔi³¹	tsɔi³¹	tooth	tooth		1.3.4	3.10	0	D0	635
+15260	1024	Maru [Langsu]	xək⁵⁵ tsɔi³¹	xək⁵⁵ tsɔi³¹	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		m,635
+15261	1024	Maru [Langsu]	tsɔi³¹ thauŋ³⁵	tsɔi³¹ thauŋ³⁵	molar	molar		1.3.4.2	3.10.2	0		635,3316
+15262	1024	Maru [Langsu]	lə̆³¹ kha³⁵ tsɔi³¹	lə̆³¹ kha³⁵ tsɔi³¹	eyetooth / canine tooth	eyetooth  /  canine tooth		1.3.4.1	3.10.3	0		p,m,635
+15263	1024	Maru [Langsu]	tsɔi³¹ thɔ̃³¹	tsɔi³¹ thɔ̃³¹	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		635,3316
+15264	1024	Maru [Langsu]	nuk⁵⁵ tsɔi³¹	nuk⁵⁵ tsɔi³¹	baby tooth	baby tooth		4.2.11	3.10.5	0		
+15265	1024	Maru [Langsu]	tshɛ̃³¹ tsɔi³¹	tshɛ̃³¹ tsɔi³¹	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		2731,635
+15266	1024	Maru [Langsu]	pəŋ³⁵	pəŋ³⁵	bite	bite	v.	1.3.4.4	3.10.7	0		1774
+15267	1024	Maru [Langsu]	vɔ³⁵	vɔ³⁵	chew	chew	v.	1.3.4	3.10.8	0		688
+15268	1024	Maru [Langsu]	ɛ³¹ thɔ̃³¹	ɛ³¹ thɔ̃³¹	chin	chin		1.2.5.3	3.12	0		m,286
+15269	1024	Maru [Langsu]	laŋ³¹ tsaŋ³⁵	laŋ³¹ tsaŋ³⁵	neck	neck		1.4.2	4.1	0		479,255
+15270	1024	Maru [Langsu]	laŋ³¹ pau⁵⁵	laŋ³¹ pau⁵⁵	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		479,3365
+15271	1024	Maru [Langsu]	khjauŋ³⁵	khjauŋ³⁵	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		489
+15272	1024	Maru [Langsu]	sɔʔ⁵⁵ khjɔ³¹	sɔʔ⁵⁵ khjɔ³¹	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		32,489
+15273	1024	Maru [Langsu]	tsɔ³⁵ khjɔ³¹	tsɔ³⁵ khjɔ³¹	esophagus	esophagus		1.3.5.5	4.2.2	0		
+15274	1024	Maru [Langsu]	mjuk³¹	mjuk³¹	swallow	swallow	v.	1.3.5.6	4.2.3	0		627
+15275	1024	Maru [Langsu]	ɣɔʔ³¹ əm³¹ phɛ̃³⁵	ɣɔʔ³¹ əm³¹ phɛ̃³⁵	gizzard / crop of bird	gizzard  /  crop of bird		1.7.6.1	4.2.4	0		1606,m,m
+15276	1024	Maru [Langsu]	ɣɔ̃³¹ kɔ̃³¹	ɣɔ̃³¹ kɔ̃³¹	chest	chest		1.4.4.3	5.1	0		288,2000
+15277	1024	Maru [Langsu]	nɛ³¹ tʃhɛ̃³⁵ ɣuk⁵⁵	nɛ³¹ tʃhɛ̃³⁵ ɣuk⁵⁵	rib cage	rib cage		1.4.4.3	5.1.1	0		553,558,232
+15278	1024	Maru [Langsu]	nɛ³¹ tʃhɛ̃³⁵ ɣuk⁵⁵	nɛ³¹ tʃhɛ̃³⁵ ɣuk⁵⁵	rib	rib		1.4.4.3	5.1.2	0		553,558,232
+15279	1024	Maru [Langsu]	lɔʔ³¹ saŋ³¹	lɔʔ³¹ saŋ³¹	shoulder	shoulder		1.4.3	5.3	0		695,3348
+15280	1024	Maru [Langsu]	lɔʔ³¹ saŋ³¹ ɣuk⁵⁵	lɔʔ³¹ saŋ³¹ ɣuk⁵⁵	shoulder blade / scapula	shoulder blade  /  scapula		1.4.3.2	5.3.1	0		695,3348,232
+15281	1024	Maru [Langsu]	nuk⁵⁵	nuk⁵⁵	breast	breast		1.4.4.3	5.4	0	D0	253
+15282	1024	Maru [Langsu]	nuk⁵⁵ ʃ³⁵	nuk⁵⁵ ʃ³⁵	nipple	nipple			5.4.1	0		253,1019
+15283	1024	Maru [Langsu]	nuk⁵⁵	nuk⁵⁵	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		253
+15284	1024	Maru [Langsu]	nuk⁵⁵ ɣək³¹	nuk⁵⁵ ɣək³¹	milk	milk			5.4.3	0		253,1013
+15285	1024	Maru [Langsu]	nuk⁵⁵ xək⁵⁵	nuk⁵⁵ xək⁵⁵	colostrum	colostrum			5.4.4	0		253,m
+15286	1024	Maru [Langsu]	ʃɛ³¹	ʃɛ³¹	suck	suck	v.	1.3.2.1	5.4.5	0		5541
+15287	1024	Maru [Langsu]	tʃa̱uk⁵⁵	tʃa̱uk⁵⁵	nurse / suckle	nurse  /  suckle	v.	4.2.1.5	5.4.6	0		5539
+15288	1024	Maru [Langsu]	kauŋ³¹ tɔ̃³⁵	kauŋ³¹ tɔ̃³⁵	back	back		1.4.8	5.5	0		1,225
+15289	1024	Maru [Langsu]	thɔʔ³⁵ mɛ³¹ kauŋ³¹ tɔ̃⁵⁵	thɔʔ³⁵ mɛ³¹ kauŋ³¹ tɔ̃⁵⁵	upper back	upper back		9.2.1	5.5.1	0		
+15290	1024	Maru [Langsu]	ɔ³¹ mɛ³¹ kauŋ³¹ tɔ̃⁵⁵	ɔ³¹ mɛ³¹ kauŋ³¹ tɔ̃⁵⁵	lower back	lower back		1.4.8.1	5.5.2	0		m,m,219,m
+15291	1024	Maru [Langsu]	phjik⁵⁵ tam³¹	phjik⁵⁵ tam³¹	small of back	small of back		1.4.8.1	5.5.3	0		1361,1362
+15292	1024	Maru [Langsu]	kauŋ³¹ tɔ̃⁵⁵ ɣuk⁵⁵	kauŋ³¹ tɔ̃⁵⁵ ɣuk⁵⁵	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		1,225,232
+15293	1024	Maru [Langsu]	phjik⁵⁵ tam³¹	phjik⁵⁵ tam³¹	waist	waist		1.4.6	5.6	0		1361,1362
+15294	1024	Maru [Langsu]	vɛ̃³⁵ tuk³¹	vɛ̃³⁵ tuk³¹	belly / abdomen	belly  /  abdomen		1.4.7	5.7	0		137,164
+15295	1024	Maru [Langsu]	tʃhɔʔ⁵⁵	tʃhɔʔ⁵⁵	navel	navel		1.9.4	5.7.1	0		525
+15296	1024	Maru [Langsu]	tʃhauʔ⁵⁵ pau³¹	tʃhauʔ⁵⁵ pau³¹	hips	hips		1.4.9.2	5.8.1	0		215,404
+15297	1024	Maru [Langsu]	tʃhauʔ⁵⁵ pau³¹ ɣuk⁵⁵	tʃhauʔ⁵⁵ pau³¹ ɣuk⁵⁵	hipbone	hipbone		1.4.9.2	5.8.2	0		215,398,232
+15298	1024	Maru [Langsu]	tɔ̃⁵⁵ puk⁵⁵ pa̱n³¹	tɔ̃⁵⁵ puk⁵⁵ pa̱n³¹	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		m,m,m
+15299	1024	Maru [Langsu]	tɔ̃⁵⁵ puk⁵⁵ ʃɔ³⁵	tɔ̃⁵⁵ puk⁵⁵ ʃɔ³⁵	rump	rump		1.4.10	5.10	0		225,404,m
+15300	1024	Maru [Langsu]	tʃhauʔ⁵⁵ pau³¹	tʃhauʔ⁵⁵ pau³¹	buttocks	buttocks		1.4.10	5.10.1	0		215,3330
+15301	1024	Maru [Langsu]	ʃɔ̆³⁵ mji³¹	ʃɔ̆³⁵ mji³¹	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		34,1288
+15302	1024	Maru [Langsu]	lɔʔ³¹ pau⁵⁵	lɔʔ³¹ pau⁵⁵	arm	arm		1.5.1.2	6.1	0		695,1327
+15303	1024	Maru [Langsu]	lɔʔ³¹ tʃhɛʔ⁵⁵	lɔʔ³¹ tʃhɛʔ⁵⁵	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
+15304	1024	Maru [Langsu]	kji̱ŋ⁵¹	kji̱ŋ⁵¹	tickle	tickle	v.	1.5.1.2.4	6.1.1.1	0		
+15305	1024	Maru [Langsu]	lɔʔ³¹ pau³³	lɔʔ³¹ pau³³	upperarm	upperarm		1.5.1.2.1	6.1.2	0		
+15307	1024	Maru [Langsu]	lɔʔ³¹ thauŋ³⁵ ɣuk⁵⁵	lɔʔ³¹ thauŋ³⁵ ɣuk⁵⁵	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		695,m,m
+15308	1024	Maru [Langsu]	lɔʔ³¹ pau⁵⁵	lɔʔ³¹ pau⁵⁵	forearm / lower arm	forearm  /  lower arm		1.5.1.2.2	6.1.5	0		695,1327
+15309	1024	Maru [Langsu]	lɔʔ³¹	lɔʔ³¹	hand	hand		1.5.1.1	6.1.7	0		695
+15310	1024	Maru [Langsu]	lɔʔ³¹ kauŋ³¹ tɔ̃⁵⁵	lɔʔ³¹ kauŋ³¹ tɔ̃⁵⁵	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		695,219,225
+15311	1024	Maru [Langsu]	lɔʔ³¹ tsa̱p⁵⁵	lɔʔ³¹ tsa̱p⁵⁵	fist	fist		1.5.1.1.1	6.1.7.3	0		695,86
+15312	1024	Maru [Langsu]	lɔʔ³¹ ka̱uŋ³⁵ lɔʔ³¹	lɔʔ³¹ ka̱uŋ³⁵ lɔʔ³¹	right hand	right hand		1.5.3.2	6.1.7.4	0		695,m,695
+15313	1024	Maru [Langsu]	lɔʔ³¹ jɔ³¹ lɔʔ³¹	lɔʔ³¹ jɔ³¹ lɔʔ³¹	left hand	left hand		1.5.3.2	6.1.7.5	0		695,m,695
+15314	1024	Maru [Langsu]	tauŋ³¹	tauŋ³¹	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		711
+15315	1024	Maru [Langsu]	khjik⁵⁵ saŋ³⁵	khjik⁵⁵ saŋ³⁵	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
+15316	1024	Maru [Langsu]	tɔ̱̃⁵⁵ puk⁵⁵	tɔ̱̃⁵⁵ puk⁵⁵	leg	leg		1.5.7	6.2	0		
+15317	1024	Maru [Langsu]	tɔ̱̃⁵⁵ puk⁵⁵	tɔ̱̃⁵⁵ puk⁵⁵	thigh	thigh		1.5.7.1	6.2.1	0		
+15318	1024	Maru [Langsu]	tɔ̱̃⁵⁵ puk⁵⁵ ɣuk⁵⁵	tɔ̱̃⁵⁵ puk⁵⁵ ɣuk⁵⁵	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		
+15319	1024	Maru [Langsu]	pa̱t⁵⁵ lauk³¹	pa̱t⁵⁵ lauk³¹	knee	knee		1.5.8.4	6.2.2	0		436,m
+15320	1024	Maru [Langsu]	pa̱t⁵⁵ lauk³¹ ɣuk⁵⁵	pa̱t⁵⁵ lauk³¹ ɣuk⁵⁵	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		436,m,m
+15321	1024	Maru [Langsu]	khjik³¹ pa̱u⁵⁵	khjik³¹ pa̱u⁵⁵	calf	calf		1.5.7	6.2.4	0		
+15322	1024	Maru [Langsu]	khjik³¹ tʃhɛʔ⁵⁵	khjik³¹ tʃhɛʔ⁵⁵	ankle	ankle		1.5.8.2	6.2.5	0		
+15323	1024	Maru [Langsu]	khjik³¹ tʃhɛʔ⁵⁵ ɣuk⁵⁵	khjik³¹ tʃhɛʔ⁵⁵ ɣuk⁵⁵	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		
+15324	1024	Maru [Langsu]	khjik³¹	khjik³¹	foot	foot		1.5.2	6.2.6	0	D0	
+15325	1024	Maru [Langsu]	khjik³¹ ʃɔ̆³⁵ kji³¹	khjik³¹ ʃɔ̆³⁵ kji³¹	achilles tendon	achilles tendon		1.6.6.1	6.2.6.2	0		
+15326	1024	Maru [Langsu]	khjik³¹ a³¹ ka̱uŋ³⁵	khjik³¹ a³¹ ka̱uŋ³⁵	arch	arch		1.5.2.3	6.2.6.3	0		
+15327	1024	Maru [Langsu]	khjik³¹ khu³¹	khjik³¹ khu³¹	footprint	footprint		1.5.2.5	6.2.6.7	0		
+15328	1024	Maru [Langsu]	khjuk⁵⁵ saŋ³⁵	khjuk⁵⁵ saŋ³⁵	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		335,m
+15329	1024	Maru [Langsu]	khjik⁵⁵ saŋ³⁵	khjik⁵⁵ saŋ³⁵	paw (of animal)	paw (of animal)		1.5.4	6.2.6.9	0		
+15330	1024	Maru [Langsu]	khjik³¹ kɔ̱i³¹	khjik³¹ kɔ̱i³¹	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
+15331	1024	Maru [Langsu]	khjik³¹ kɔ̱i³¹ kɔ̱i³¹	khjik³¹ kɔ̱i³¹ kɔ̱i³¹	limp	limp	v.	1.5.12	6.2.8	0		
+15332	1024	Maru [Langsu]	lɔʔ³¹ ŋju̱k⁵⁵	lɔʔ³¹ ŋju̱k⁵⁵	finger	finger		1.5.6	7.1	0		
+15333	1024	Maru [Langsu]	tu̱m³⁵ ŋju̱k⁵⁵	tu̱m³⁵ ŋju̱k⁵⁵	index finger	index finger		1.0	7.1.1	0		
+15334	1024	Maru [Langsu]	kauŋ³⁵ kauŋ³⁵ ŋju̱k⁵⁵	kauŋ³⁵ kauŋ³⁵ ŋju̱k⁵⁵	middle finger	middle finger		1.9.4	7.1.2	0		
+15335	1024	Maru [Langsu]	lɔʔ³¹ thɔ̃⁵⁵ ŋju̱k⁵⁵	lɔʔ³¹ thɔ̃⁵⁵ ŋju̱k⁵⁵	little finger	little finger		9.7.2	7.1.4	0		695,m,m
+15336	1024	Maru [Langsu]	lɔʔ³¹ mɔ⁵⁵ tʃhɛʔ⁵⁵	lɔʔ³¹ mɔ⁵⁵ tʃhɛʔ⁵⁵	thumb	thumb		1.5.6.1	7.1.5	0		
+15337	1024	Maru [Langsu]	khjik³¹ ŋju̱k⁵⁵	khjik³¹ ŋju̱k⁵⁵	toe	toe		1.5.6	7.2	0		
+15338	1024	Maru [Langsu]	khjik³¹ mɔ⁵⁵ tʃhɛʔ⁵⁵	khjik³¹ mɔ⁵⁵ tʃhɛʔ⁵⁵	big toe	big toe		1.5.6.1	7.2.1	0		
+15339	1024	Maru [Langsu]	khjik³¹ thɔ̃⁵⁵ ŋju̱k⁵⁵	khjik³¹ thɔ̃⁵⁵ ŋju̱k⁵⁵	little toe	little toe		9.7.2	7.2.5	0		
+15340	1024	Maru [Langsu]	lɔʔ³¹ saŋ³⁵	lɔʔ³¹ saŋ³⁵	nail	nail		1.5.10	7.4	0		695,512
+15341	1024	Maru [Langsu]	lɔʔ³¹ saŋ³⁵	lɔʔ³¹ saŋ³⁵	fingernail	fingernail		1.5.10.1	7.4.1	0		
+15342	1024	Maru [Langsu]	khjik³¹ saŋ³⁵	khjik³¹ saŋ³⁵	toenail	toenail		1.5.10.2	7.4.2	0		
+15343	1024	Maru [Langsu]	khjik³¹ saŋ³⁵	khjik³¹ saŋ³⁵	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		
+15344	1024	Maru [Langsu]	saŋ³⁵	saŋ³⁵	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		
+15345	1024	Maru [Langsu]	tshɛ̃³¹	tshɛ̃³¹	hair	hair		1.2.3	8.1	0		366
+15346	1024	Maru [Langsu]	au³⁵ tshɛ̃³¹	au³⁵ tshɛ̃³¹	hair of head	hair of head		1.2.3	8.1.1	0		385,366
+15347	1024	Maru [Langsu]	na̱t⁵⁵ mɔi³¹	na̱t⁵⁵ mɔi³¹	beard	beard		1.2.5.5	8.1.2.1	0		471,363
+15349	1024	Maru [Langsu]	na̱t⁵⁵ mɔi³¹	na̱t⁵⁵ mɔi³¹	moustache	moustache		1.2.5.5	8.1.2.3	0		471,363
+15350	1024	Maru [Langsu]	muk⁵⁵	muk⁵⁵	body hair	body hair		1.6.1	8.1.3	0		363
+15351	1024	Maru [Langsu]	lɔʔ³¹ tʃhɛʔ⁵⁵ muk⁵⁵	lɔʔ³¹ tʃhɛʔ⁵⁵ muk⁵⁵	underarm hair	underarm hair		1.5.1.2.3	8.1.3.1	0		m,m,363
+15352	1024	Maru [Langsu]	vɔ̃³¹ kɔ̃³¹ muk⁵⁵	vɔ̃³¹ kɔ̃³¹ muk⁵⁵	chest hair	chest hair		1.4.4.5	8.1.3.2	0		m,m,363
+15353	1024	Maru [Langsu]	khjik³¹ muk⁵⁵	khjik³¹ muk⁵⁵	leg hair	leg hair		1.5.7	8.1.3.3	0		m,363
+15354	1024	Maru [Langsu]	nŭŋ³⁵ mʒɔ̃³⁵ muk⁵⁵	nŭŋ³⁵ mʒɔ̃³⁵ muk⁵⁵	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		m,m,363
+15355	1024	Maru [Langsu]	ʃɔ̆³⁵ muk⁵⁵	ʃɔ̆³⁵ muk⁵⁵	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		m,363
+15356	1024	Maru [Langsu]	mjɔ̃³⁵ tshɛ̃³¹	mjɔ̃³⁵ tshɛ̃³¹	mane (of horse)	mane (of horse)		1.6.1	8.1.6	0		1431,366
+15357	1024	Maru [Langsu]	na̱t⁵⁵ muk⁵⁵	na̱t⁵⁵ muk⁵⁵	whiskers (of cat)	whiskers (of cat)		1.2.5.5	8.1.7	0		471,363
+15358	1024	Maru [Langsu]	ʃɔ̆³⁵ jam⁵⁵	ʃɔ̆³⁵ jam⁵⁵	skin	skin		1.6.5	8.2	0		34,795
+15359	1024	Maru [Langsu]	pau³¹ kjø³⁵	pau³¹ kjø³⁵	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		800,615
+15360	1024	Maru [Langsu]	mɔ̃³⁵ khu³¹	mɔ̃³⁵ khu³¹	age spot / liver spot	age spot  /  liver spot		6.2	8.2.3.6	0		
+15361	1024	Maru [Langsu]	tɛ̃³¹ khu³¹	tɛ̃³¹ khu³¹	scar	scar		1.6.5.3	8.2.3.7	0		
+15362	1024	Maru [Langsu]	phan³⁵	phan³⁵	itch  / be itchy	itch   /  be itchy	v.	1.6.5.5	8.2.3.10	0		m
+15363	1024	Maru [Langsu]	ŋə̆³¹ kjɛ̱ʔ⁵⁵	ŋə̆³¹ kjɛ̱ʔ⁵⁵	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		1455,596
+15364	1024	Maru [Langsu]	ʃɔ̆³⁵ ka̱uk⁵⁵	ʃɔ̆³⁵ ka̱uk⁵⁵	hide / leather	hide  /  leather		1.6.5.1	8.2.6	0		34,586
+15365	1024	Maru [Langsu]	tshau³¹	tshau³¹	fat	fat		1.6.4	8.3	0		42
+15366	1024	Maru [Langsu]	tshau³¹	tshau³¹	fat intestines / omentum	fat intestines  /  omentum		1.6.4	8.3.1	0		42
+15367	1024	Maru [Langsu]	tshau³¹	tshau³¹	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		42
+15368	1024	Maru [Langsu]	ʃɔ̆³⁵|ɣuk⁵⁵	ʃɔ̆³⁵|ɣuk⁵⁵	bone	bone		1.6.3	8.4	0		234
+15369	1024	Maru [Langsu]	ʃɔ̆³⁵ |ɣuk⁵⁵	ʃɔ̆³⁵ ɣuk⁵⁵	skeleton	skeleton		1.6.3.1	8.4.1	0		234
+15370	1024	Maru [Langsu]	ɣuk⁵⁵ nɛ̱̃⁵⁵	ɣuk⁵⁵ nɛ̱̃⁵⁵	cartilage / grist	cartilage  /  grist		1.6.3.4	8.4.4	0		232,275
+15371	1024	Maru [Langsu]	ʃɔ̆³⁵ kji³¹	ʃɔ̆³⁵ kji³¹	ligament (bone to bone)	ligament (bone to bone)		1.6.3	8.6	0		34,372
+15372	1024	Maru [Langsu]	sa³⁵	sa³⁵	blood	blood		1.6.2	8.7	0		230
+15373	1024	Maru [Langsu]	sa³⁵ khjɔ³¹	sa³⁵ khjɔ³¹	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		230,536
+15374	1024	Maru [Langsu]	sa³⁵ thuk⁵⁵	sa³⁵ thuk⁵⁵	bleed	bleed	v.	1.6.2	8.7.2	0		230,2718
+15375	1024	Maru [Langsu]	ʃɔ³⁵	ʃɔ³⁵	muscle	muscle		1.6.6.2	8.8	0		530
+15376	1024	Maru [Langsu]	ʃɔ̆³⁵ kji³¹	ʃɔ̆³⁵ kji³¹	nerve	nerve		1.6.6.3	8.10	0		34,372
+15377	1024	Maru [Langsu]	fu⁵⁵	fu⁵⁵	show	show	v.	6.2.2.8	3.4.9	0		
+15378	1024	Maru [Langsu]	tsa̱t⁵⁵	tsa̱t⁵⁵	lung	lung		1.7.2	9.2	0	D0	458
+15379	1024	Maru [Langsu]	sɔʔ⁵⁵ ʃɛ³¹	sɔʔ⁵⁵ ʃɛ³¹	breathe	breathe	v.	1.1.2.2	9.2.1	0		32,m
+15380	1024	Maru [Langsu]	ʃɛ³¹	ʃɛ³¹	pant	pant	v.	1.1.2.2	9.2.2	0		32
+15381	1024	Maru [Langsu]	mat³¹	mat³¹	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		503
+15382	1024	Maru [Langsu]	khjauŋ³⁵ kjɔ̱ʔ⁵⁵	khjauŋ³⁵ kjɔ̱ʔ⁵⁵	phlegm	phlegm		1.8.3	9.2.5	0		m,540
+15383	1024	Maru [Langsu]	na̱k⁵⁵ lam³⁵	na̱k⁵⁵ lam³⁵	heart	heart		1.7.1	9.3	0		1385,1381
+15384	1024	Maru [Langsu]	na̱k⁵⁵ lam³⁵	na̱k⁵⁵ lam³⁵	heartbeat	heartbeat		1.7.1.1	9.3.1	0		1385,1381
+15385	1024	Maru [Langsu]	sa³⁵ khjɔ³¹	sa³⁵ khjɔ³¹	pulse	pulse		1.7.1.1	9.3.2	0		34,m
+15386	1024	Maru [Langsu]	saŋ³⁵	saŋ³⁵	liver	liver		1.7.3	9.5	0		1390
+15387	1024	Maru [Langsu]	tʃik³¹ pauŋ³⁵	tʃik³¹ pauŋ³⁵	urinary bladder	urinary bladder		1.7.8	9.7	0		
+15388	1024	Maru [Langsu]	i̱k⁵⁵	i̱k⁵⁵	urine	urine		1.8.4	9.7.1	0		650
+15389	1024	Maru [Langsu]	i̱k⁵⁵ ta̱k⁵⁵	i̱k⁵⁵ ta̱k⁵⁵	urinate	urinate	v.	1.5.3.2	9.7.2	0		
+15390	1024	Maru [Langsu]	ku̱m³⁵ pai³¹	ku̱m³⁵ pai³¹	spleen	spleen		1.7.4	9.8	0		bJingpho
+15391	1024	Maru [Langsu]	ku̱m³⁵ pai³¹	ku̱m³⁵ pai³¹	swollen spleen (illness)	swollen spleen (illness)		1.1.5.2	9.8.1	0		bJingpho
+15392	1024	Maru [Langsu]	am³¹ phɛ̃³⁵	am³¹ phɛ̃³⁵	stomach	stomach		1.7.6	9.10	0		m,m
+15393	1024	Maru [Langsu]	a̱◦u³¹	a̱◦u³¹	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		p,2102
+15394	1024	Maru [Langsu]	a̱u³¹ ɣə³⁵	a̱u³¹ ɣə³⁵	large intestine	large intestine		1.7.7	9.11.1	0		
+15395	1024	Maru [Langsu]	a̱u³¹ tsɔ³⁵	a̱u³¹ tsɔ³⁵	small intestine	small intestine		9.7.2	9.11.2	0		m,m
+15396	1024	Maru [Langsu]	tʃhauk⁵⁵ puŋ⁵⁵	tʃhauk⁵⁵ puŋ⁵⁵	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		577,404
+15397	1024	Maru [Langsu]	khjik⁵⁵	khjik⁵⁵	feces / shit	feces  /  shit		1.8.5	9.12.1	0		572
+15398	1024	Maru [Langsu]	khjik⁵⁵ nɔʔ³¹	khjik⁵⁵ nɔʔ³¹	meconium / baby shit	meconium  /  baby shit		1.8.5	9.12.2	0		
+15399	1024	Maru [Langsu]	khjik⁵⁵ ʃɔ³¹	khjik⁵⁵ ʃɔ³¹	defecate	defecate	v.	1.8.5.4	9.12.3	0		
+15400	1024	Maru [Langsu]	tʃauk³¹	tʃauk³¹	genitalia / pudenda	genitalia  /  pudenda		1.9.1	10.1	0		1356
+15401	1024	Maru [Langsu]	lɔ³⁵	lɔ³⁵	male	male		1.9.6.1	10.3	0		1624
+15402	1024	Maru [Langsu]	ŋji̱³⁵ tʃi̱k⁵⁵	ŋji̱³⁵ tʃi̱k⁵⁵	testicle	testicle			10.3.5	0		545,3559
+15403	1024	Maru [Langsu]	ŋji̱³⁵ muk⁵⁵	ŋji̱³⁵ muk⁵⁵	male pubic hair	male pubic hair			10.3.6	0		m,363
+15404	1024	Maru [Langsu]	ja̱uŋ⁵⁵	ja̱uŋ⁵⁵	castrate	castrate	v.	1.9.2.3	10.3.9	0		m
+15405	1024	Maru [Langsu]	tsaŋ³¹	tsaŋ³¹	female	female		1.9.3	10.4	0		m
+15406	1024	Maru [Langsu]	tʃauk³¹ muk⁵⁵	tʃauk³¹ muk⁵⁵	female pubic hair	female pubic hair			10.4.5	0		m,363
+15407	1024	Maru [Langsu]	tsɔ³⁵ sat⁵⁵	tsɔ³⁵ sat⁵⁵	womb	womb			10.4.8	0		2727,679
+15408	1024	Maru [Langsu]	ɣək³¹	ɣək³¹	amniotic fluid	amniotic fluid			10.4.10	0		1013
+15409	1024	Maru [Langsu]	vɛ̃³⁵ pat⁵⁵	vɛ̃³⁵ pat⁵⁵	pregnant	pregnant	be v.	1.9.6.1	10.4.14	0		137,m
+15410	1024	Maru [Langsu]	ɣɔ⁵⁵	ɣɔ⁵⁵	birth, give	birth, give		1.1.2	10.4.15	0		3484
+15411	1024	Maru [Langsu]	a̱◦u⁵⁵	a̱◦u⁵⁵	egg (of animal)	egg (of animal)			10.4.16	0		m,301
+15412	1024	Maru [Langsu]	khjauŋ³⁵ tsu̱k⁵⁵	khjauŋ³⁵ tsu̱k⁵⁵	cough	cough		1.8.3.3	11.1	0		
+15413	1024	Maru [Langsu]	a̱k⁵⁵ thauŋ³¹	a̱k⁵⁵ thauŋ³¹	hiccup	hiccup		1.8.3.5	11.2	0		3443,m
+15414	1024	Maru [Langsu]	a⁵⁵ khju³¹ khju³¹	a⁵⁵ khju³¹ khju³¹	sneeze	sneeze		1.8.2.1	11.3	0		2131,m,m
+15415	1024	Maru [Langsu]	jap³¹ kɔk³¹ kɔk³¹	jap³¹ kɔk³¹ kɔk³¹	snore	snore		1.8.2.2	11.4	0		127,m,m
+15416	1024	Maru [Langsu]	a̱k⁵⁵ thauŋ³¹	a̱k⁵⁵ thauŋ³¹	burp / belch	burp  /  belch		1.8.3	11.6	0		3443,m
+15417	1024	Maru [Langsu]	khjik⁵⁵ xap³⁵ (noisy)	khjik⁵⁵ xap³⁵ (noisy)	fart	fart		1.8.5.2	11.7	0		572,m
+15418	1024	Maru [Langsu]	khjik⁵⁵ tʃik³⁵ (silent)	khjik⁵⁵ tʃik³⁵ (silent)	fart	fart		1.8.5.2	11.7	0		572,m
+15419	1024	Maru [Langsu]	ɣə³¹	ɣə³¹	laugh	laugh		1.8.8.1	11.9	0		1108
+15420	1024	Maru [Langsu]	nəŋ⁵⁵	nəŋ⁵⁵	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
+15421	1024	Maru [Langsu]	nɔ³¹	nɔ³¹	sick / be ill / hurt	sick  /  be ill  /  hurt	be v.	1.1.5.1	12.2	0		160
+15422	1024	Maru [Langsu]	pjan³¹	pjan³¹	numb /  be paralyzed	numb  /   be paralyzed	be v.	1.5.11	12.3	0		
+15423	1024	Maru [Langsu]	pauŋ³⁵	pauŋ³⁵	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		163
+15424	1024	Maru [Langsu]	pjaŋ³¹ kjɔ̱ʔ⁵⁵	pjaŋ³¹ kjɔ̱ʔ⁵⁵	pus	pus		1.8.6.1	12.5	0		1292,m
+15425	1024	Maru [Langsu]	thu³¹	thu³¹	hand span	hand span		1.5.9.4	13.2	0		1281
+15426	1024	Maru [Langsu]	lɛ̃³¹	lɛ̃³¹	cord / fathom	cord  /  fathom		1.5.9.5	13.4	0		
+15427	1024	Maru [Langsu]	tʃa̱p⁵⁵	tʃa̱p⁵⁵	suck (as babe at breast)	suck (as babe at breast)		10.0	add3	0		5541
+15428	1024	Maru [Langsu]	sat⁵⁵	sat⁵⁵	wipe (a table)	wipe (a table)		6.2.2.1	add1	0		5594

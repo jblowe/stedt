@@ -1,0 +1,23 @@
+tag: 7416
+grpid: 2
+proto_language: PTB
+protoform: gyəy
+gloss: PARROT / PARAKEET
+semkey: 2.2.4.1
+sequence: 2599.0
+status: KEEP
+public: true
+references: TL#212
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: (thoᴮ)kiᴮ
+  gloss: PARROT / PARAKEET
+- grpid: 66
+  group: 1.3.4
+  form: ci
+  gloss: PARROT
+- grpid: 42
+  group: '6.1'
+  form: gyəy²
+  gloss: PARROT

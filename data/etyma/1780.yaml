@@ -1,0 +1,23 @@
+tag: 1780
+grpid: 2
+proto_language: PTB
+protoform: s(y)aw
+gloss: LAUGH
+semkey: 1.8.8.1
+sequence: 4.0
+status: KEEP
+public: true
+references: Sinitic
+phonology:
+  handle: syaw
+  initial: s(y)
+  rhyme: aw
+  initcover: S
+  rhymecover: W
+notes:
+- type: T
+  text: <par>This provisionally reconstructed root requires further analysis.</par>
+- type: F
+  text: '<par><hanform>笑</hanform> OC <latinform>*si̯og</latinform>, GSR #1150a &apos;laugh, smile&apos;;
+    Schuessler 2007:536 <latinform>*siauh</latinform>; B &amp; S 2011: <latinform>*s-law-s</latinform>;
+    Mand. <latinform>xiào</latinform>.</par>'

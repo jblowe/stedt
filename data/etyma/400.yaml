@@ -1,0 +1,20 @@
+tag: 400
+grpid: 2
+proto_language: PTB
+protoform: pin
+gloss: HIPS
+semkey: 1.4.9.2
+sequence: 11.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: pen
+  initial: p
+  rhyme: en
+  initcover: P
+  rhymecover: N
+notes:
+- type: T
+  text: <par>We are keeping this root distinct from <xref ref="1361">#1361</xref>, where the reflexes
+    show no sign of nasalization.</par>

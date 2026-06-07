@@ -1,0 +1,23 @@
+tag: 564
+grpid: 2
+proto_language: PTB
+protoform: p-li-ŋ
+gloss: SHOULDER
+semkey: 1.4.3
+sequence: 2955.0
+status: delete
+public: false
+xrefs: ROUNDED PART
+possallo: 563,567
+phonology:
+  handle: li
+  prefix: p
+  initial: l
+  rhyme: i-ŋ
+  suffix: ŋ
+  initcover: L
+  rhymecover: VN
+notes:
+- type: I
+  text: <par>This etymon is a co-allofam of etymon 563 <reconstruction>*m-lyan/ŋ</reconstruction> SHOULDER
+    and should be combined with it in future.</par>

@@ -1,0 +1,39 @@
+tag: 2258
+grpid: 2
+proto_language: PTB
+protoform: b-r-gya
+gloss: HUNDRED
+semkey: '9.9'
+sequence: 13.0
+status: KEEP
+public: true
+references: cf. STC#164, HPTB
+phonology:
+  handle: gya
+  prefix: b-r
+  initial: gy
+  rhyme: a
+  initcover: K
+  rhymecover: V
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: yaa
+  gloss: HUNDRED
+- grpid: 50
+  group: '7'
+  form: g-rjaᴬ
+  gloss: HUNDRED
+- grpid: 12
+  group: 1.7.2
+  form: C̬-kʰya
+  gloss: HUNDRED
+- grpid: 66
+  group: 1.3.4
+  form: ʃa
+  gloss: HUNDRED
+notes:
+- type: F
+  text: '<par><hanform>百</hanform> OC <latinform>*pɑ̆k</latinform>, GSR #781a-e &apos;hundred&apos;; Coblin
+    86:96 ST <latinform>*priaʔ</latinform> &gt; OC <latinform>*priak</latinform>; Schuessler 2007:154
+    <latinform>*prâk</latinform>; B &amp; S 2011: <latinform>*pˁrak</latinform>; Mand. <latinform>bǎi</latinform>.</par>'

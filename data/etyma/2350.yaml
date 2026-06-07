@@ -1,0 +1,32 @@
+tag: 2350
+grpid: 2
+proto_language: PTB
+protoform: krwi(y)
+gloss: SEW
+semkey: '5.1'
+sequence: 10.0
+status: KEEP
+public: true
+references: cf. STC p.41, HPTB p. 82; STC done
+phonology:
+  handle: krwiy
+  initial: krw
+  rhyme: i(y)=khr
+  initcover: K
+  rhymecover: LWT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: khru(u)y
+  gloss: SEW / STITCH
+- grpid: 63
+  group: 1.3.1
+  form: hrəj
+  gloss: SEW / STITCH
+notes:
+- type: F
+  text: '<par><hanform>黹</hanform> OC <latinform>*t̂i:</latinform>, GSR #1237i-j &apos;embroidery&apos;;
+    Schuessler 2007:617 <latinform>*triʔ</latinform>; Mand. <latinform>zhǐ</latinform>.<br /><hanform>絺</hanform>
+    OC <latinform>*t̂’i</latinform>, GSR #1237k &apos;embroidered/fine cloth&apos;; Schuessler 2007:617
+    <latinform>*thri</latinform>; Mand. <latinform>chī</latinform>.<br /><hanform>絰</hanform> OC <latinform>*d’iet</latinform>,
+    GSR #413q &apos;mend&apos;; Schuessler 2007:617 <latinform>*drits</latinform>; Mand. <latinform>zhì</latinform>.</par>'

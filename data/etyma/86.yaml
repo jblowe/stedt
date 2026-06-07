@@ -1,0 +1,15 @@
+tag: 86
+grpid: 2
+proto_language: PTB
+protoform: (t)sy(i/u)p ⪤ (t)swap
+gloss: SQUEEZE / WRING / CRUMPLE
+semkey: '9.5'
+sequence: 3146.0
+status: KEEP
+public: true
+references: HPTB
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-tsup ⪤ ʔ-tsip
+  gloss: CRUMPLE / SQUEEZE / FIST

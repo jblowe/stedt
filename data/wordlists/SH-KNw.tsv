@@ -1,0 +1,314 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+62091	1174	Newar	mhɔ	mhɔ	body	body		1.1.1	1.1	0		17
+62092	1174	Newar	jɔwɔ	jɔwɔ	side (right)	side (right)		1.4.5	1.2	0		
+62093	1174	Newar	depa	depa	side (left)	side (left)		1.4.5	1.3	0		b?
+62094	1174	Newar	liu◦ne	liu◦ne	back	back		1.4.8	1.4	0		209,m
+62095	1174	Newar	nhyɔ:◦ne	nhyɔ:ne	front	front		1.4.4	1.5	0		2525,m
+62096	1174	Newar	mhɔ	mhɔ	torso / trunk	torso  /  trunk		1.5.3.2	1.6	0		17
+62097	1174	Newar	mulɔe	mulɔe	lap	lap		1.4.4.2	1.8	0		
+62098	1174	Newar	chāti	chāti	bosom	bosom		1.4.4.2	1.9	0		b
+62099	1174	Newar	lā	lā	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		1866
+62100	1174	Newar	mwa:	mwa:	alive / be living	alive  /  be living		1.1.2.1	1.12	0		62
+62101	1174	Newar	si:	si:	die / be dead	die  /  be dead		1.1.6	1.13	0		27
+62102	1174	Newar	si: mhɔ	si: mhɔ	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		27,17
+62103	1174	Newar	si: mhɔ	si: mhɔ	carcass / dead animal	carcass  /  dead animal		1.1.6.1	1.15	0		27,17
+62104	1174	Newar	nhyɔ:	nhyɔ:	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		129
+62105	1174	Newar	den◦e-gu	den◦e-gu	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		
+62106	1174	Newar	nhyɔlɔ̃◦ca-ye	nhyɔlɔ̃◦ca-ye	awake / be awake	awake  /  be awake		1.1.4	1.17	0		129,5768,s
+62107	1174	Newar	mhɔ◦ne	mhɔ◦ne	dream	dream	v.	1.1.4.2	1.18	0		126,m,126,m,m
+62108	1174	Newar	chyɔ̃	chyɔ̃	head	head		1.2.1	2.1	0		m
+62109	1174	Newar	cɔsupwā:	cɔsupwā:	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		
+62110	1174	Newar	sripec	sripec	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		
+62111	1174	Newar	chyɔ̃ kwẽ	chyɔ̃ kwẽ	skull	skull		1.2.1.1	2.4	0		m,238
+62112	1174	Newar	nhye◦pu	nhye◦pu	brain (= 9.1 )	brain (=  9.1  )		1.2.4	2.5	0		249,252
+62113	1174	Newar	nhæ	nhæ	sinus	sinus		1.2.8.1	2.6	0		803
+62114	1174	Newar	sɔ̃	sɔ̃	hair of head	hair of head		1.2.3	2.7	0	D1	366
+62115	1174	Newar	kha pa	kha pa	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		5568,m
+62116	1174	Newar	nye◦ku:	nye◦ku:	horn (of animal)	horn (of animal)		1.2.2	2.10	0		m,m
+62117	1174	Newar	khwā	khwā	face	face		1.2.5	3.1	0		273
+62118	1174	Newar	kɔpa:	kɔpa:	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		1241
+62119	1174	Newar	nhɔku	nhɔku	temple	temple		1.2.5.1	3.3	0		
+62120	1174	Newar	mi◦khā	mi◦khā	eye	eye		1.2.6	3.4	0		682,1110
+62121	1174	Newar	mi◦khā	mi◦khā	eyeball	eyeball		1.2.6.1	3.4.2	0		682,1110
+62122	1174	Newar	mi◦kha pili	mi◦kha pili	iris	iris		1.2.6.2	3.4.2.1	0		682,1110,m
+62123	1174	Newar	nani	nani	pupil	pupil		1.2.6.2	3.4.2.2	0		m
+62124	1174	Newar	nanicā	nanicā	white of eye	white of eye		1.2.6.3	3.4.2.3	0		m
+62125	1174	Newar	mi◦khā phu◦si	mi◦khā phu◦si	eyebrow	eyebrow		1.2.6.6	3.4.3	0		682,1110,1228,m
+62126	1174	Newar	mi◦kha phiti phiti yae	mikh◦a phiti phiti yae	blink	blink	v.	1.2.6.12	3.4.5	0		682,1110,m,m,m
+62127	1174	Newar	khwɔ◦bi	khwɔ◦bi	tears	tears	n.	1.2.6.7	3.4.6	0		m,187
+62128	1174	Newar	mi◦kha ya khu:	mi◦kha ya khu:	eye sand	eye sand		1.2.6.8	3.4.7	0		682,1110,m,m
+62129	1174	Newar	khwo◦e	khwo◦e	cry / weep	cry  /  weep	v.	1.8.8.2	3.4.8	0		1781,s
+62130	1174	Newar	khɔne-gu	khɔne-gu	see / look	see  /  look	v.	1.2.6.10	3.4.9	0		m
+62131	1174	Newar	swoe-gu	swoe-gu	see / look	see  /  look	v.	1.2.6.10	3.4.9	0		m
+62132	1174	Newar	kã	kã	blind	blind		1.2.6.14.2	3.4.10	0		
+62133	1174	Newar	nhæ	nhæ	nose	nose		1.2.8	3.5	0		803
+62134	1174	Newar	nhæ pu	nhæ pu	nose bridge	nose bridge		1.2.8	3.5.1	0		803,806
+62135	1174	Newar	nhæ pwa:	nhæ pwa:	nostril	nostril		1.2.8.1	3.5.2	0		803,806
+62136	1174	Newar	nhæ phwɔ:	nhæ phwɔ:	alae nasi (nose flaps)	alae nasi (nose flaps)		1.2.8.2	3.5.3	0		803,m
+62137	1174	Newar	nhæ duneya sɔ̃	nhæ duneya sɔ̃	nose hair	nose hair		1.2.8	3.5.4	0		803,m,366
+62138	1174	Newar	twā:	twā:	snout	snout		1.2.8	3.5.5	0		2095
+62139	1174	Newar	nhi	nhi	liquid mucus	liquid mucus		3.2.3	3.5.6	0		805
+62140	1174	Newar	nhi puĩ	nhi puĩ	solid mucus	solid mucus		1.1.5	3.5.7	0		805,m
+62141	1174	Newar	chĩk yā-ye	chĩk yā-ye	blow nose	blow nose	v.	1.3.1.4	3.5.8	0		
+62142	1174	Newar	nɔ◦tu◦ne	nɔ◦tu◦ne	smell / sniff	smell  /  sniff	v.	1.2.8.5	3.5.9	0		
+62143	1174	Newar	nhæ pɔ̃	nhæ pɔ̃	ear	ear		1.2.7	3.6	0		811,812
+62144	1174	Newar	nhæ pɔ̃ pa	nhæ pɔ̃ pa	outer ear	outer ear		9.2	3.6.2	0		811,812,m
+62145	1174	Newar	nhæ pɔ̃ pwa	nhæ pɔ̃ pwa	ear canal	ear canal		1.2.7	3.6.4	0		811,812,m
+62146	1174	Newar	nhæ pɔ̃ pili	nhæ pɔ̃ pili	ear drum	ear drum		1.2.7	3.6.5	0		811,812,m
+62147	1174	Newar	nhæ pɔ̃ puĩ	nhæ pɔ̃ puĩ	earwax	earwax		1.2.7.3	3.6.6	0		811,812,m
+62148	1174	Newar	nyen◦e	nyen◦e	hear	hear	v.	1.2.7.4	3.6.7	0		1410,m
+62149	1174	Newar	tā◦e	tā◦e	hear	hear	v.	1.2.7.4	3.6.7	0		1408,m
+62150	1174	Newar	khwæ	khwæ	deaf	deaf		1.2.7.5	3.6.8	0		m
+62151	1174	Newar	khuni	khuni	deaf	deaf		1.2.7.5	3.6.8	0		m
+62152	1174	Newar	mhutu	mhu◦tu	mouth	mouth		1.3.1	3.7	0	D0	442
+62153	1174	Newar	thɔk◦wɔ	thɔk◦wɔ	palate	palate		1.3.1.1	3.7.1	0		1719,s
+62154	1174	Newar	gijā	gijā	gums	gums		1.3.4.3	3.7.3	0		b
+62155	1174	Newar	kɔ◦thu	kɔthu	uvula	uvula		1.3.5.1	3.7.4	0		495,822
+62156	1174	Newar	la:	la:	saliva	saliva		1.8.3	3.7.5	0		
+62157	1174	Newar	nɔ◦e	nɔ◦e	eat	eat	v.	1.5.3.2	3.7.6	0		m,s
+62158	1174	Newar	ton◦e	ton◦e	drink	drink	v.		3.7.7	0		502,s
+62159	1174	Newar	pɛ:cāegu	pɛ:cāegu	thirsty	thirsty	be v.	1.1.3.1	3.7.8	0		m,m,s
+62160	1174	Newar	pityaegu	pityaegu	hungry	hungry	be v.	1.1.3	3.7.9	0		
+62161	1174	Newar	i: phae-gu	i: phae-gu	spit	spit	v.	1.8.3	3.7.11	0		
+62162	1174	Newar	wak◦kɔ	wak◦kɔ	vomit	vomit	n.	1.8.3.2	3.7.12	0		1783,m
+62163	1174	Newar	bānta	bānta	vomit	vomit	n.	1.8.3.2	3.7.12	0		b
+62164	1174	Newar	wak◦kɔ wo◦e-gu	wak◦kɔ wo◦e-gu	vomit	vomit	v.	1.8.3.2	3.7.13	0		1783,m,1783,m,m
+62165	1174	Newar	lho◦e-gu	lho◦e-gu	vomit	vomit	v.	1.8.3.2	3.7.13	0		1783,m,s
+62166	1174	Newar	mʰutu◦etaegu	mʰutuetaegu	hold in mouth	hold in mouth	v.	1.3.4.4	3.7.14	0		442,m
+62167	1174	Newar	ã yā-ye	ã yā-ye	gape / open mouth	gape  /  open mouth	v.	1.3.1	3.7.15	0		
+62168	1174	Newar	wãkha:	wãkha:	yawn	yawn	v.	1.3.1.3	3.7.16	0		
+62169	1174	Newar	mye	mye	tongue	tongue		1.3.3	3.8	0		621
+62170	1174	Newar	nɔwae-gu	nɔwae-gu	speak	speak	v.	8.5.10.1	3.8.1	0		
+62171	1174	Newar	khɔ̃ lhae-gu	khɔ̃ lhae-gu	speak	speak	v.	8.5.10.1	3.8.1	0		
+62172	1174	Newar	khakhɔ	khakhɔ	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
+62173	1174	Newar	lātā	lātā	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		
+62174	1174	Newar	phe	phe	lick	lick	v.	1.3.3.1	3.8.4	0		
+62175	1174	Newar	mhu◦tu◦si	mhu◦tu◦si	lip	lip		1.3.2	3.9	0		687,m,m
+62176	1174	Newar	mhutusi cwoeyāgu	mhutusi cwoeyāgu	upper lip	upper lip		9.2.1	3.9.1	0		
+62177	1174	Newar	mhutusi (koeyagu)	mhutusi (koeyagu)	lower lip	lower lip			3.9.2	0		m,m
+62178	1174	Newar	twā:	twā:	beak / bill	beak / bill		1.3.1.2	3.9.3	0		2095
+62179	1174	Newar	nhil◦e-gu	nhil◦e-gu	smile	smile	v.	1.8.8.1	3.9.4	0		1142,s
+62180	1174	Newar	cup◦pa nɔ	cup◦pa nɔ	"kiss (""have a kiss"")"	"kiss (""have a kiss"")"	v.	1.3.2.2	3.9.5	0		5541,m,m,s
+62181	1174	Newar	wā	wā	tooth	tooth		1.3.4	3.10	0		632
+62182	1174	Newar	boeu wa	boeu wa	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		m,632
+62183	1174	Newar	nɔ◦e◦u wa	nɔ◦e◦u wa	molar	molar		1.3.4.2	3.10.2	0		m,m,m,632
+62184	1174	Newar	dhɔ̃ wā	dhɔ̃ wā	eyetooth / canine tooth	eyetooth  /  canine tooth		1.3.4.1	3.10.3	0		b
+62185	1174	Newar	budi bɔngarā	budi bɔngarā	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		b
+62186	1174	Newar	wa hā	wa hā	baby tooth / root of a tooth	baby tooth / root of a tooth		1.3.4	3.10.5	0		
+62187	1174	Newar	sõ:	sõ:	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		
+62188	1174	Newar	nya◦ye	nya◦ye	bite	bite	v.	1.3.4.4	3.10.7	0		1761,s
+62189	1174	Newar	nh-ye	nh-ye	chew	chew	v.	1.3.4	3.10.8	0		1761,s
+62190	1174	Newar	nye ta:	nye ta:	cheek	cheek		1.2.5.2	3.11	0		2052,m
+62191	1174	Newar	nye◦ta: kwẽ	nye◦ta: kwẽ	cheekbone	cheekbone		1.2.5.2	3.11.1	0		2052,m,267
+62192	1174	Newar	mɔn◦ca	mɔn◦ca	chin	chin		1.2.5.3	3.12	0		2058,m
+62193	1174	Newar	wak◦dhi:	wak◦dhi:	jaw	jaw		1.2.5.2	3.13	0		632,2055
+62194	1174	Newar	koeyā wāk◦dhi:	koeyā wāk◦dhi:	lower jaw / mandible	lower jaw  /  mandible		1.2.5.2	3.13.1	0		m,632,2055
+62195	1174	Newar	cwoeya wāk◦dhi:	cwoeya wāk◦dhi:	upper jaw / maxilla	upper jaw  /  maxilla		1.2.5.2	3.13.2	0		m,632,2055
+62196	1174	Newar	gɔ:pɔ:	gɔ:◦pɔ:	neck	neck		1.4.2	4.1	0		b
+62197	1174	Newar	gɔlɔ:	gɔlɔ:	goiter	goiter		1.4.2.2	4.1.1	0		m
+62198	1174	Newar	kɔthu pwa:	kɔthu pwa:	swollen lymph nodes (neck)	swollen lymph nodes (neck)		1.1.5.2	4.1.2	0		m
+62199	1174	Newar	gɔ:pɔ:	gɔ:◦pɔ:	nape of neck	nape of neck		1.4.2.1	4.1.3	0		b
+62200	1174	Newar	rudra ghanti	rudra ghanti	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		
+62201	1174	Newar	kɔ◦thu	kɔ◦thu	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		495,822
+62202	1174	Newar	ka◦ku	ka◦ku	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		495,5651
+62203	1174	Newar	ghutke-gu	ghutke-gu	swallow	swallow	v.	1.3.5.6	4.2.3	0		
+62204	1174	Newar	chati	chati	chest	chest		1.4.4.3	5.1	0		b
+62205	1174	Newar	bapi kwoẽ	bapi kwoẽ	rib cage	rib cage		1.4.4.3	5.1.1	0		m,233
+62206	1174	Newar	ba◦pi kwoẽ	ba◦pi kwoẽ	rib	rib		1.4.4.3	5.1.2	0		m,m,238
+62207	1174	Newar	bo:, bwahal	bo:, bwahal	shoulder	shoulder		1.4.3	5.3	0		3344
+62208	1174	Newar	bo: kwoẽ	bo: kwoẽ	shoulder blade / scapula	shoulder blade  /  scapula		1.4.3.2	5.3.1	0		1327,3346
+62209	1174	Newar	bo: kɔe kũke-gu	bo: kɔe kũke-gu	shrug shoulders	shrug shoulders	v.	1.4.3.3	5.3.2	0		
+62210	1174	Newar	duru pwɔ:	duru pwɔ:	breast	breast		1.4.4.3	5.4	0		
+62211	1174	Newar	duru pi◦pi◦ca	duru pi◦pi◦ca	nipple	nipple			5.4.1	0		m,276,276,m
+62212	1174	Newar	duru pwɔ: ca	duru pwɔ: ca	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		
+62213	1174	Newar	duru	duru	milk	milk			5.4.3	0		b
+62214	1174	Newar	duru	duru	colostrum	colostrum			5.4.4	0		b
+62215	1174	Newar	cu◦cu pyae◦gu	cu◦cu pyae◦gu	suck	suck	v.	1.3.2.1	5.4.5	0		5539,5539,m,s
+62216	1174	Newar	duru tõke-gu	duru tõke-gu	nurse / suckle	nurse  /  suckle	v.	4.2.1.5	5.4.6	0		
+62217	1174	Newar	durũ chi◦e-gu	durũ chi◦e-gu	wean	wean			5.4.7	0		b,m,s
+62218	1174	Newar	jɔ◦nu: phā:	jɔ◦nu: phā:	back	back		1.4.8	5.5	0		
+62219	1174	Newar	jɔnu: pha:	jɔnu: pha:	upper back	upper back		9.2.1	5.5.1	0		m,m
+62220	1174	Newar	jɔ̃	jɔ̃	lower back	lower back		1.4.8.1	5.5.2	0		208
+62221	1174	Newar	dugɔ:◦kwẽ	dugɔ:◦kwẽ	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		
+62222	1174	Newar	dugɔ:	dugɔ:	spinal cord	spinal cord		1.4.8.2	5.5.5	0		
+62223	1174	Newar	dhusi	dhusi	hunchback	hunchback		1.4.8.3	5.5.6	0		m
+62224	1174	Newar	jɔ̃	jɔ̃	waist	waist		1.4.6	5.6	0		208
+62225	1174	Newar	pwā:	pwā:	belly / abdomen	belly  /  abdomen		1.4.7	5.7	0		163
+62226	1174	Newar	te◦pu◦ca	te◦pu◦ca	navel-(diminutive)	navel-(diminutive)		1.9.4	5.7.1	0		519,m,2727
+62227	1174	Newar	pyɔ̃◦pə	pyɔ̃◦pə	hips	hips		1.4.9.2	5.8.1	0		399,m
+62228	1174	Newar	pyɔ̃◦pə kwẽ	pyɔ̃◦pə kwẽ	hipbone	hipbone		1.4.9.2	5.8.2	0		399,m,238
+62229	1174	Newar	khɔm◦pə	khɔm◦pə	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		
+62230	1174	Newar	kɔ:	kɔ:	crotch / fork of legs	crotch  /  fork of legs		1.4.9.1	5.9	0		3383
+62231	1174	Newar	pyɔ̃	pyɔ̃	buttocks	buttocks		1.4.10	5.10.1	0		399
+62232	1174	Newar	nhi◦pyɔ̃ kwẽ	nhi◦pyɔ̃ kwẽ	tailbone / coccyx	tailbone  /  coccyx		1.6.3.3	5.10.2	0		1288,399,219
+62233	1174	Newar	nhi◦pyɔ̃	nhi◦pyɔ̃	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		1288,399
+62234	1174	Newar	lɔ◦pā	lɔ◦pā	arm	arm		1.5.1.2	6.1	0		695,821
+62235	1174	Newar	yā◦ku, yā-kwa	yā◦ku, yā-kwa	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		696,m,696,m
+62236	1174	Newar	kucu mine	kucu mine	tickle	tickle	v.	1.5.1.2.4	6.1.1.1	0		
+62237	1174	Newar	kucu yəye	kucu yəye	tickle	tickle	v.	1.5.1.2.4	6.1.1.1	0		
+62238	1174	Newar	lappā	lappā	upperarm	upperarm		1.5.1.2.1	6.1.2	0		
+62239	1174	Newar	mɔsɔl	mɔsɔl	arm muscles / biceps	arm muscles  /  biceps		1.5.1.2	6.1.3	0		
+62240	1174	Newar	culyā	culyā	elbow	elbow		1.5.8.3	6.1.4	0		
+62241	1174	Newar	gɔu◦cā	gɔu◦cā	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		
+62242	1174	Newar	nari	nari	forearm / lower arm	forearm  /  lower arm		1.5.1.2.2	6.1.5	0		b
+62243	1174	Newar	nāri	nāri	wrist	wrist		1.5.8.1	6.1.6	0		b
+62244	1174	Newar	lhã:	lhã:	hand	hand		1.5.1.1	6.1.7	0		695
+62245	1174	Newar	lhā:pa	lhā:pa	palm	palm		1.5.5	6.1.7.1	0		
+62246	1174	Newar	lhā:◦phwɔ:	lhā:◦phwɔ:	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		695,m
+62247	1174	Newar	mhu:	mhu:	fist	fist		1.5.1.1.1	6.1.7.3	0		
+62248	1174	Newar	jɔwɔ lhā:	jɔwɔ lhā:	right hand	right hand		1.5.3.2	6.1.7.4	0		m,695
+62249	1174	Newar	depa lhā:	depa lhā:	left hand	left hand		1.5.3.2	6.1.7.5	0		b?,695
+62250	1174	Newar	pɔpu:	pɔpu:	fin (of fish)	fin (of fish)		1.5.1.3.1	6.1.8	0		
+62251	1174	Newar	pɔpu:	pɔpu:	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		R
+62252	1174	Newar	pɔnja	pɔnja	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
+62253	1174	Newar	tuti	tuti	leg	leg		1.5.7	6.2	0		
+62254	1174	Newar	khɔmpā	khɔmpā	thigh	thigh		1.5.7.1	6.2.1	0		
+62255	1174	Newar	khɔmpā kwẽ	khɔmpā kwẽ	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		
+62256	1174	Newar	pu◦li	puli	knee	knee		1.5.8.4	6.2.2	0		435,m
+62257	1174	Newar	pu◦li lyu:	puli lyu:	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		435,m,m
+62258	1174	Newar	syɔ:	syɔ:	shin	shin		1.5.7.2	6.2.3	0		
+62259	1174	Newar	twanā:	twanā:	shin bone / tibia	shin bone  /  tibia		1.5.7.2	6.2.3.1	0		
+62260	1174	Newar	pila kwɔ	pila kwɔ	calf	calf		1.5.7	6.2.4	0		
+62261	1174	Newar	gɔuca:	gɔuca:	ankle	ankle		1.5.8.2	6.2.5	0		
+62262	1174	Newar	gɔu◦kwẽ	gɔu◦kwẽ	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		
+62263	1174	Newar	pā◦li	pāli	foot	foot		1.5.2	6.2.6	0		341,342
+62264	1174	Newar	pu◦li	puli	knee	knee		1.5.8.4	6.2.6.1	0		435,m
+62265	1174	Newar	pāli tɔ:	pāli tɔ:	arch	arch		1.5.2.3	6.2.6.3	0		
+62266	1174	Newar	pali tɔ:	pali tɔ:	sole	sole		1.5.5	6.2.6.5	0		
+62267	1174	Newar	pɔlā:	pɔlā:	instep	instep		1.5.2.2	6.2.6.6	0		
+62268	1174	Newar	pali kwæ̃	pali kwæ̃	footprint	footprint		1.5.2.5	6.2.6.7	0		
+62269	1174	Newar	khu:	khu:	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		417
+62270	1174	Newar	pɔmja	pɔmja	paw (of animal)	paw (of animal)		1.5.4	6.2.6.9	0		
+62271	1174	Newar	lɔŋgɔra	lɔŋgɔra	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
+62272	1174	Newar	lõgɔra juye	lõgɔra juye	limp	limp	v.	1.5.12	6.2.8	0		
+62273	1174	Newar	pɔtĩ	pɔtĩ	finger	finger		1.5.6	7.1	0		
+62274	1174	Newar	cola pɔtĩ	cola pɔtĩ	index finger	index finger		1.0	7.1.1	0		
+62275	1174	Newar	dɔthu pɔtĩ	dɔthu pɔtĩ	middle finger	middle finger		1.9.4	7.1.2	0		
+62276	1174	Newar	ɔŋgu: pɔtĩ	ɔŋgu: pɔtĩ	ring finger	ring finger		1.5.6.2	7.1.3	0		
+62277	1174	Newar	sika pɔtĩ	sika pɔtĩ	little finger	little finger		9.7.2	7.1.4	0		
+62278	1174	Newar	bura pɔtĩ	bura pɔtĩ	thumb	thumb		1.5.6.1	7.1.5	0		
+62279	1174	Newar	(mhal pɔtĩ)	(mhal pɔtĩ)	thumb	thumb		1.5.6.1		0		
+62280	1174	Newar	pɔtĩ chāp	pɔtĩ chāp	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
+62281	1174	Newar	mhal pɔtĩ	mhal pɔtĩ	toe	toe		1.5.6	7.2	0		
+62282	1174	Newar	pɔtĩ / mhalā batin	pɔtĩ / mhalā batin	big toe	big toe		1.5.6.1	7.2.1	0		
+62283	1174	Newar	pɔtĩ	pɔtĩ	second toe	second toe		9.9	7.2.2	0		
+62284	1174	Newar	dɔthu pɔtĩ	dɔthu pɔtĩ	middle toe	middle toe		1.9.4	7.2.3	0		
+62285	1174	Newar	sika pɔtĩ	sika pɔtĩ	little toe	little toe		9.7.2	7.2.5	0		
+62286	1174	Newar	pɔtĩ sa:	pɔtĩ sa:	knuckle (joint of digit)	knuckle (joint of digit)		1.5.8.5	7.3	0		m,425
+62287	1174	Newar	lu◦si	lu◦si	nail	nail		1.5.10	7.4	0		m,515
+62288	1174	Newar	lu◦si	lu◦si	fingernail	fingernail		1.5.10.1	7.4.1	0		m,515
+62289	1174	Newar	lu◦si	lu◦si	toenail	toenail		1.5.10.2	7.4.2	0		m,515
+62290	1174	Newar	nɔngra	nɔngra	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		
+62291	1174	Newar	pɔnjā	pɔnjā	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		
+62292	1174	Newar	lu◦si	lu◦si	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		m,515
+62293	1174	Newar	mulu	mulu	pincers (eg. of crab)	pincers (eg. of crab)		1.5.10.4	7.4.5	0		
+62294	1174	Newar	sɔ̃	sɔ̃	hair	hair		1.2.3	8.1	0		366
+62295	1174	Newar	sɔ̃	sɔ̃	hair of head	hair of head		1.2.3	8.1.1	0	HIDE	DUPE IN SOURCE
+62296	1174	Newar	gwāe	gwāe	moustache	moustache		1.2.5.5	8.1.2	0		
+62297	1174	Newar	dāri	dāri	beard	beard		1.2.5.5	8.1.2.1	0		2063
+62298	1174	Newar	gwæ	gwæ	moustache	moustache		1.2.5.5	8.1.2.3	0		
+62299	1174	Newar	cim◦sɔ̃	cim◦sɔ̃	body hair	body hair		1.6.1	8.1.3	0		m,366
+62300	1174	Newar	ya◦ku◦sɔ̃	ya◦ku◦sɔ̃	underarm hair	underarm hair		1.5.1.2.3	8.1.3.1	0		696,m,370
+62301	1174	Newar	chati sɔ̃	chati sɔ̃	chest hair	chest hair		1.4.4.5	8.1.3.2	0		b,370
+62302	1174	Newar	sɔ̃	sɔ̃	leg hair	leg hair		1.5.7	8.1.3.3	0		370
+62303	1174	Newar	sɔ̃	sɔ̃	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		366
+62304	1174	Newar	pā	pā	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		714
+62305	1174	Newar	gwæ	gwæ	whiskers (of animal)	whiskers (of animal)		1.2.5.5	8.1.7	0		
+62306	1174	Newar	chẽ◦gu: pi-ye	chẽ◦gu: pi-ye	skin, to	skin, to		1.6.5	8.2	0		m,589
+62307	1174	Newar	cɔ:◦ti	cɔ:◦ti	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		615,m
+62308	1174	Newar	cimsɔ̃ pwa:	cimsɔ̃ pwa:	pore	pore		1.8.1.1	8.2.2	0		
+62309	1174	Newar	hitõnatɔgu	hitõnatɔgu	blemish on skin	blemish on skin		1.6.5	8.2.3	0		
+62310	1174	Newar	cyātɔ:	cyātɔ:	freckle	freckle		1.6.5.3	8.2.3.1	0		
+62311	1174	Newar	kɔi	kɔi	pimple	pimple		1.6.5.3	8.2.3.2	0		
+62312	1174	Newar	ti:	ti:	mole	mole		2.2.7	8.2.3.3	0		
+62313	1174	Newar	la swara	la swara	wart	wart		1.6.5.3	8.2.3.4	0		
+62314	1174	Newar	go:	go:	cyst	cyst		1.6.5.3	8.2.3.5	0		
+62315	1174	Newar	gha: khu:	gha: khu:	scar	scar		1.6.5.3	8.2.3.7	0		
+62316	1174	Newar	la hyekũgu	la hyekũgu	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
+62317	1174	Newar	cā◦su	cā◦su	itch  / be itchy	itch   /  be itchy	v.	1.6.5.5	8.2.3.10	0		1456,1463,s
+62318	1174	Newar	cā◦su	cā◦su	itch  / be itchy	itch   /  be itchy	v.	1.6.5.5	8.2.3.10	0		1456,1463
+62319	1174	Newar	ghori	ghori	scab	scab		1.6.5.3	8.2.4	0		
+62320	1174	Newar	nya kwɛ̃	nya kwɛ̃	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		1455,m
+62321	1174	Newar	cheŋ◦gu:	cheŋ◦gu:	hide / leather	hide  /  leather		1.6.5.1	8.2.6	0		m,589
+62322	1174	Newar	da:	da:	fat	fat		1.6.4	8.3	0		1450
+62323	1174	Newar	da:	da:	fat intestines / omentum	fat intestines  /  omentum		1.6.4	8.3.1	0		1450
+62324	1174	Newar	ci◦kɔ̃	ci◦kɔ̃	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		48,1440
+62325	1174	Newar	kwẽ	kwẽ	bone	bone		1.6.3	8.4	0		238
+62326	1174	Newar	kɔwɔ̃	kɔwɔ̃	skeleton	skeleton		1.6.3.1	8.4.1	0		m
+62327	1174	Newar	syɔ:	syɔ:	marrow	marrow		1.6.3.5	8.4.3	0	D1	b
+62328	1174	Newar	chõ	chõ	sinew / tendon	sinew  /  tendon		1.6.6.1	8.5	0		536
+62329	1174	Newar	sẽ pwæ̃	sẽ pwæ̃	ligament (bone to bone)	ligament (bone to bone)		1.6.3	8.6	0		m,m
+62330	1174	Newar	hi	hi	blood	blood		1.6.2	8.7	0		230
+62331	1174	Newar	hi◦nu:	hi◦nu:	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		230,m
+62332	1174	Newar	hi◦wɔe	hi◦wɔe	bleed	bleed 	v.	1.6.2	8.7.2	0		230,m
+62333	1174	Newar	nɔ◦lu:	nɔ◦lu:	muscle	muscle		1.6.6.2	8.8	0		m,m
+62334	1174	Newar	sa:	sa:	joint	joint		1.5.8	8.9	0		425
+62335	1174	Newar	nɔ◦sā	nɔ◦sā	nerve	nerve		1.6.6.3	8.10	0		m,530
+62336	1174	Newar	nhe◦pu	nhe◦pu	brain	brain		1.2.4	9.1	0	D0	249,252
+62337	1174	Newar	duwɔ: kwɛ̃	duwɔ: kwɛ̃	spinal cord	spinal cord		1.4.8.2	9.1.1	0		
+62338	1174	Newar	syɔ:	syɔ:	marrow	marrow		1.6.3.5	9.1.2	0	HIDE	DUPE IN SOURCE
+62339	1174	Newar	sõ	sõ	lung	lung		1.7.2	9.2	0		66
+62340	1174	Newar	sa◦sɔ: lhaye	sa◦sɔ: lhaye	breathe (infinitive verb)	breathe (infiinitive verb)	v.	1.1.2.2	9.2.1	0		32,77,m
+62341	1174	Newar	sɛ̃ sɛ̃ minegu	sɛ̃ sɛ̃ minegu	panting	panting	v.		9.2.2	0		
+62342	1174	Newar	pu◦ye	pu◦ye	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		75,s
+62343	1174	Newar	nyā◦ya pɔpu:	nyāya pɔpu:	gill (of fish)	gill (of fish)		1.3.5.3	9.2.4	0		1455,m,m
+62344	1174	Newar	khɔi	khɔi	phlegm	phlegm		1.8.3	9.2.5	0		m
+62345	1174	Newar	nu◦gɔ:	nu◦gɔ:	heart	heart		1.7.1	9.3	0		m,665
+62346	1174	Newar	nu◦gɔ: dhuku dhuku sɔnegu	nu◦gɔ: dhuku dhuku sɔnegu	heartbeat	heartbeat		1.7.1.1	9.3.1	0		m,665,m,m
+62347	1174	Newar	nari	nari	pulse	pulse		1.7.1.1	9.3.2	0		m
+62348	1174	Newar	ta:tu:	ta:tu:	viscera / guts / entrails	viscera  /  guts  /  entrails		1.7.7	9.4	0		
+62349	1174	Newar	ɔ:◦pi	ɔ:◦pi	liver	liver		1.7.3	9.5	0		p,91
+62350	1174	Newar	bu◦luk◦ku wɔ:◦gu	bu◦luk◦ku wɔ:◦gu	burp with a sour taste	to burp with a sour taste	v	1.8.3	9.5.1	0		m,m,m,m,m
+62351	1174	Newar	jɔl syẽ	jɔl syẽ	kidney	kidney		1.7.5	9.6	0		b,1019
+62352	1174	Newar	cwa pho:cā	cwa pho:cā	urinary bladder	urinary bladder		1.7.8	9.7	0		652,m
+62353	1174	Newar	cwɔ	cwɔ	urine	urine		1.8.4	9.7.1	0		652
+62354	1174	Newar	cwɔ phaegu	cwɔ phaegu	urinate	urinate	v.	1.5.3.2	9.7.2	0		652,m
+62355	1174	Newar	pwa:	pwa:	stomach	stomach		1.7.6	9.10	0		137
+62356	1174	Newar	sɔ◦:pu:	sɔ◦:pu:	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		m,2103
+62357	1174	Newar	atpɔti tɔ:pu	atpɔti tɔ:pu	large intestine	large intestine		1.7.7	9.11.1	0		
+62358	1174	Newar	atpɔti ci:pugu	atpɔti ci:pugu	small intestine	small intestine		9.7.2	9.11.2	0		m,m
+62359	1174	Newar	khyam pwa:	khyam pwa:	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		m,163
+62360	1174	Newar	khi	khi	feces / shit	feces  /  shit		1.8.5	9.12.1	0		572
+62361	1174	Newar	khi	khi	meconium / baby shit	meconium  /  baby shit		1.8.5	9.12.2	0		572
+62362	1174	Newar	khi phae	khi phae	defecate	defecate	v.	1.8.5.4	9.12.3	0		
+62363	1174	Newar	pɔ◦ye◦gu	pɔ◦ye◦gu	copulate	copulate	v.	1.9.1.1	10.2	0		
+62364	1174	Newar	mi◦jɔ̃	mi◦jɔ̃	male	male		1.9.6.1	10.3	0		1002,m
+62365	1174	Newar	nā◦ku	nā◦ku	penis	penis			10.3.1	0	D0	548,m
+62366	1174	Newar	nā◦ku gwārā	nā◦ku gwārā	glans penis	glans penis			10.3.2	0		548,m,m
+62367	1174	Newar	kwa◦si	kwa◦si	testicle	testicle			10.3.5	0		m,1019
+62368	1174	Newar	khwā◦sã	khwā◦sã	male pubic hair	male pubic hair			10.3.6	0		m,366
+62369	1174	Newar	bi:j	bi:j	semen	semen			10.3.7	0		
+62370	1174	Newar	[bi:j] kwã:wɔegu	[bi:j] kwã:wɔegu	ejaculate	ejaculate	v.		10.3.8	0		m,m
+62371	1174	Newar	khɔsi yā-ye	khɔsi yā-ye	castrate	castrate	v.	1.9.2.3	10.3.9	0		m,m
+62372	1174	Newar	mi◦sā	mi◦sā	female	female		1.9.3	10.4	0		1618,m
+62373	1174	Newar	mā◦si	mā◦si	vagina	vagina			10.4.1	0		547,1019
+62374	1174	Newar	mā◦si	mā◦si	vulva / labia	vulva  /  labia			10.4.2	0		547,1019
+62375	1174	Newar	khwa◦sā	khwa◦sā	female pubic hair (female)	female pubic hair (female)		1.9.3	10.4.5	0		m,366
+62376	1174	Newar	thi: mɔtyɔ: jui	thi: mɔtyɔ: jui	menstruate	menstruate	v.	1.9.11.1	10.4.6	0		m,m,m
+62377	1174	Newar	hi	hi	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		230
+62378	1174	Newar	mɔ◦ca◦chẽ	mɔ◦ca◦chẽ	womb	womb			10.4.8	0		
+62379	1174	Newar	sa:	sa:	amniotic fluid	amniotic fluid			10.4.10	0		
+62380	1174	Newar	sā:	sā:	placenta	placenta			10.4.11	0		
+62381	1174	Newar	pi	pi	umbilical cord	umbilical cord			10.4.12	0		1629
+62382	1174	Newar	pi◦li	pi◦li	caul	caul		1.2.1.4	10.4.13	0		1242,m
+62383	1174	Newar	pwa◦thɔe dɔegu	pwa◦thɔe dɔegu	pregnant	pregnant	be v.	1.9.6.1	10.4.14	0		163,m,m
+62384	1174	Newar	mɔ◦ca buik-e	mɔ◦ca buik-e	birth, give	birth, give	v.	1.1.2	10.4.15	0		
+62385	1174	Newar	khɛ̃	khɛ̃	egg (of animal)	egg (of animal)			10.4.16	0		
+62386	1174	Newar	musu	musu	cough	cough		1.8.3.3	11.1	0		
+62387	1174	Newar	hiku	hiku	hiccup	hiccup		1.8.3.5	11.2	0		
+62388	1174	Newar	hachik◦a:	hachik◦a:	sneeze	sneeze		1.8.2.1	11.3	0		2131,m
+62389	1174	Newar	nhyɔ◦sɔ:	nhyɔ◦sɔ:	snore	snore		1.8.2.2	11.4	0		m,m
+62390	1174	Newar	su◦ri pui	su◦ri pui	whistle	whistle		8.5.5	11.5	0		m,m,m
+62391	1174	Newar	dhɔka: tɔe	dhɔka: tɔe	burp / belch	burp  /  belch		1.8.3	11.6	0		
+62392	1174	Newar	khi tɔ◦e	khi tɔ◦e	fart	fart		1.8.5.2	11.7	0		m,m,s
+62393	1174	Newar	nhil	nhil	laugh	laugh		1.8.8.1	11.9	0		1142,s
+62394	1174	Newar	thurururu khāgu	thurururu khāgu	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
+62395	1174	Newar	mhɔ sukumɔdɔe-gu	mhɔ sukumɔdɔe-gu	sick / be ill / hurt	sick  /  be ill  /  hurt	be v.	1.1.5.1	12.2	0		m,m
+62396	1174	Newar	bsa:tɔ̃ kɔɛ	bsa:tɔ̃ kɔɛ	numb /  be paralyzed	numb  /   be paralyzed	be v.	1.5.11	12.3	0		
+62397	1174	Newar	mɔna wɔɛ-gu	mɔna wɔɛ-gu	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
+62398	1174	Newar	mɔne-gu	mɔne-gu	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
+62399	1174	Newar	nhi	nhi	pus	pus		1.8.6.1	12.5	0		1294
+62401	1174	Newar	psa◦lhã:	psa◦lhã:	hand span	hand span		1.5.9.4	13.2	0		m,695
+62402	1174	Newar	ku	ku	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		307
+62403	1174	Newar	mɔn	mɔn	mind / locus of thought	mind  /  locus of thought		1.10	14.1	0		
+62404	1174	Newar	nu◦gɔ:	nu◦gɔ:	heart / locus of emotions	heart  /  locus of emotions		1.7.1	14.2	0		m,665

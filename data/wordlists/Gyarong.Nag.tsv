@@ -1,0 +1,687 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+329178	1796	rGyalrong	sem ceN	sem ceN	animal	animal		2.3	1.1	0		
+329179	1796	rGyalrong	ku rnyus	ku rnyus	animal	animal		2.3	1.1	0		
+329180	1796	rGyalrong	kA shi pAt	kA shi pAt	livestock	livestock		1.1.1.1	1.2	0		
+329181	1796	rGyalrong	sem ceN ko tA phok	sem ceN ko tA phok	group of animals	group of animals		4.4	1.4	0		
+329182	1796	rGyalrong	sem ceN pu	sem ceN pu	young (of animals)	young (of animals)		7.1.8.3	1.5	0		
+329183	1796	rGyalrong	nA ka pcot	nA ka pcot	castrated animal	castrated animal		1.9.2.3	1.8	0		
+329184	1796	rGyalrong	gyi ka pcot	gyi ka pcot	intact male	intact male		5.14	1.9	0		
+329185	1796	rGyalrong	ku rgu	ku rgu	cattle	cattle		2.1.2	2.1	0		
+329186	1796	rGyalrong	ba la	ba la	cattle	cattle		2.1.2	2.1	0		
+329187	1796	rGyalrong	kur gu ta pa	kur gu ta pa	bull	bull		2.1.2	2.14	0		
+329188	1796	rGyalrong	NbaH hi	NbaH hi	buffalo	buffalo		2.1.2	2.2	0		
+329189	1796	rGyalrong	Nbrung	Nbrung	wild cattle	wild cattle		3.2.5	2.3	0		2170
+329190	1796	rGyalrong	ku Nbru	ku Nbru	yak	yak		2.1.2	2.4	0		
+329191	1796	rGyalrong	Nbro	Nbro	horse	horse		2.1.7	2.5	0		1431
+329192	1796	rGyalrong	rta pho	rta pho	male horse	male horse		1.9.6.1	2.51	0		5,1635
+329193	1796	rGyalrong	rta mo	rta mo	mare	mare		2.1.7	2.52	0		5,s
+329194	1796	rGyalrong	Nbro nA ka pcot	Nbro nA ka pcot	gelding	gelding		2.1.7	2.53	0		
+329195	1796	rGyalrong	Nbro ta pa	Nbro ta pa	intact male horse	intact male horse		5.14	2.54	0		1431,5,s
+329196	1796	rGyalrong	ta rke	ta rke	donkey	donkey		2.1.7	2.6	0		5,m
+329197	1796	rGyalrong	yi la pu	yi la pu	mule	mule		2.1.7	2.7	0		
+329198	1796	rGyalrong	pak	pak	pig	pig		2.1.12	3.1	0		1006
+329199	1796	rGyalrong	pag yo	pag yo	male pig	male pig		1.9.6.1	3.11	0		1006,m
+329200	1796	rGyalrong	pak mo	pak mo	sow	sow		2.1.12	3.12	0		1006,1619
+329201	1796	rGyalrong	pak ka rtsa	pak ka rtsa	castrated pig	castrated pig		1.9.2.3	3.13	0		1006,m,m
+329202	1796	rGyalrong	pak ka fcot	pak ka fcot	castrated pig	castrated pig		1.9.2.3	3.13	0		1006,m,m
+329203	1796	rGyalrong	pak gyi ka fcot	pak gyi ka fcot	boar	boar		2.1.12	3.14	0		1006,m,m,m
+329204	1796	rGyalrong	chut	chut	goat	goat		2.1.8	3.2	0		1226
+329205	1796	rGyalrong	kA gyo	kA gyo	sheep	sheep		2.1.8	3.3	0		p,p,6028
+329206	1796	rGyalrong	smok	smok	wool	wool		1.6.1.3	3.31	0		
+329207	1796	rGyalrong	fkaH	fkaH	chicken	chicken		2.1.10	3.4	0		
+329208	1796	rGyalrong	fka pho	fka pho	male chicken	male chicken		1.9.6.1	3.41	0		m,1635
+329209	1796	rGyalrong	fka mo	fka mo	hen	hen		2.1.10	3.42	0		
+329210	1796	rGyalrong	fka nA ka fcot	fka nA ka fcot	capon	capon		2.1.10	3.43	0		
+329211	1796	rGyalrong	fka pho gyi ka fcot	fka pho gyi ka fcot	cock	cock		2.1.10	3.44	0		m,1635,m,m,m
+329212	1796	rGyalrong	gyi fkak	gyi fkak	duck	duck		2.1.10	3.5	0		
+329213	1796	rGyalrong	ngang pa	ngang pa	goose	goose		2.1.10	3.6	0		bTibetan
+329214	1796	rGyalrong	kaN tro	kaN tro	wild goose	wild goose		3.2.5	3.61	0		
+329215	1796	rGyalrong	khA na	khA na	dog	dog		2.1.11	4.1	0		1764,6026
+329216	1796	rGyalrong	spyang ku	spyang ku	wolf	wolf		2.1.11	4.12	0		6051,m
+329217	1796	rGyalrong	ku thuy	ku thuy	fox	fox		2.1.11	4.13	0		m,1764
+329218	1796	rGyalrong	lo lo	lo lo	cat	cat		2.1.3	4.2	0		
+329219	1796	rGyalrong	ku dut	ku dut	wildcat	wildcat		2.1.3	4.21	0		
+329220	1796	rGyalrong	khu na rke	khu na rke	leopard cat	leopard cat		2.1.3	4.211	0		
+329221	1796	rGyalrong	khung	khung	tiger	tiger		2.1.3	4.3	0		5702
+329222	1796	rGyalrong	kA cik	kA cik	leopard	leopard		2.1.3	4.4	0		m,2805
+329223	1796	rGyalrong	seng |ge	seng |ge	lion	lion		2.1.3	4.5	0		6114
+329224	1796	rGyalrong	ka rtshes	ka rtshes	sambhur	sambhur		2.2.2	5.1	0		m,2739
+329225	1796	rGyalrong	kya	kya	sambhur	sambhur		2.2.2	5.1	0		
+329226	1796	rGyalrong	kyam so	kyam so	musk deer	musk deer		1.5.3.2	5.4	0		
+329227	1796	rGyalrong	towam	to |wam	Himalayan bear	Himalayan bear		3.2.5	6.1	0		2777
+329228	1796	rGyalrong	ku zu	ku zu	monkey	monkey		2.1.9	7.1	0		
+329229	1796	rGyalrong	pu |gyu	pu |gyu	mouse	mouse		2.1.1	8.1	0		2796
+329230	1796	rGyalrong	pu |gyu kok tu	pu |gyu kok tu	rat	rat		2.1.1	8.12	0		2796,m,m
+329231	1796	rGyalrong	kyur bo	kyur bo	squirrel	squirrel		2.1.1	8.2	0		
+329232	1796	rGyalrong	tsag yo	tsag yo	yellow-bellied weasel	yellow-bellied weasel		9.4	8.41	0		
+329233	1796	rGyalrong	ka la	ka la	rabbit	rabbit		2.1.1	8.7	0		
+329234	1796	rGyalrong	lang po che	lang po che	elephant	elephant		2.2.1	9.1	0		bTibetan
+329235	1796	rGyalrong	kA scAk	kA scAk	marten	marten		2.2.7	10.2	0		
+329236	1796	rGyalrong	sram	sram	otter	otter		2.2.7.1	10.5	0		2595
+329237	1796	rGyalrong	wu rba mto shi tu	wu rba mto shi tu	bat	bat		2.2.4.1	10.6	0		
+329238	1796	rGyalrong	kha shi |pa	kha shi pa	frog	frog		2.1.6.2	11.1	0		m,2148
+329239	1796	rGyalrong	rbal khok	rbal khok	turtle	turtle		2.1.6	11.2	0		
+329240	1796	rGyalrong	gyu pre	gyu pre	house lizard	house lizard		5.11.9.1	11.3	0		
+329241	1796	rGyalrong	khar tsha wa wa	khar tsha wa wa	gecko	gecko		2.1.6	11.4	0		
+329242	1796	rGyalrong	kha pre	kha pre	snake	snake		2.1.6.1	11.9	0		m,2623
+329243	1796	rGyalrong	ta◦r |mok	ta◦r |mok	dragon	dragon		2.1.5	11.10	0		p,2465
+329244	1796	rGyalrong	pa cu	pa cu	bird	bird		2.2.4	12.1	0		
+329245	1796	rGyalrong	pa cu wu gyem	pa cu wu gyem	nest	nest		2.2.4	12.11	0		
+329246	1796	rGyalrong	pa cu lok	pa cu lok	nest	nest		2.2.4	12.11	0		
+329247	1796	rGyalrong	kA mbyam gam	kA mbyam gam	egg	egg			12.12	0		m,m,305
+329248	1796	rGyalrong	ta Ngam rkho	ta Ngam rkho	eggshell	eggshell			12.13	0		
+329249	1796	rGyalrong	ta Ngam na let	ta Ngam na let	lay egg	lay egg		6.17	12.14	0		p,305,m,m
+329250	1796	rGyalrong	ta Ngam ka skam	ta Ngam ka skam	sit on egg	sit on egg		6.1.1.4.1	12.15	0		p,305,m,m
+329251	1796	rGyalrong	ka Nbyam	ka Nbyam	fly	fly (v)	v	2.2.6	12.16	0		m,2588
+329252	1796	rGyalrong	shi |ru	shi ru	pheasant	pheasant		2.2.4.1	12.2	0		2610
+329253	1796	rGyalrong	rma bya	rma bya	peacock	peacock		2.2.4.1	12.23	0		
+329254	1796	rGyalrong	skyek	skyek	hawk	hawk		2.2.4.1	12.41	0		
+329255	1796	rGyalrong	va ngar	va ngar	sparrowhawk	sparrowhawk			12.411	0		
+329256	1796	rGyalrong	khar ju	khar ju	vulture	vulture		2.2.4.1	12.42	0		
+329257	1796	rGyalrong	gyem pa cu	gyem pa cu	sparrow	sparrow		2.2.4.1	12.5	0		
+329258	1796	rGyalrong	kha rdu le le	kha rdu le le	swallow	swallow		1.3.5.6	12.51	0		
+329259	1796	rGyalrong	shu wo kAN tok	shu wo kAN tok	woodpecker	woodpecker		2.2.4.1	12.52	0		
+329260	1796	rGyalrong	rtro	rtro	dove	dove		2.2.4.1	12.53	0		
+329261	1796	rGyalrong	ne tso	ne tso	parrot	parrot		2.2.4.1	12.6	0		
+329262	1796	rGyalrong	ne tso wa mu kA skreN	ne tso wa mu kA skreN	lorikeet	lorikeet			12.61	0		
+329263	1796	rGyalrong	pho rok	pho rok	crow	crow		2.2.4.1	12.7	0		
+329264	1796	rGyalrong	ka la ping ka	ka la ping ka	magpie	magpie		2.2.4.1	12.71	0		
+329265	1796	rGyalrong	gyo? gyok	gyo? gyok	fish	fish		2.2.5	13.1	0		
+329266	1796	rGyalrong	gyo? gyok wu Ngam	gyo? gyok wu Ngam	roe	roe		2.2.6	13.11	0		
+329267	1796	rGyalrong	kser nya	kser nya	goldfish	goldfish			13.2	0		
+329268	1796	rGyalrong	nor bu	nor bu	cowrie	cowrie		2.2.5	14.21	0		
+329269	1796	rGyalrong	a bu ru ru	a bu ru ru	snail	snail		2.2.5	14.6	0		m,m,6107,6107
+329270	1796	rGyalrong	ku lu	ku lu	insect	insect		2.2.6	15.1	0		m,5432
+329271	1796	rGyalrong	ku lu kA Nbyam	ku lu kA Nbyam	flying insect	flying insect		6.7.5	15.11	0		m,5432,m,m
+329272	1796	rGyalrong	ku lu kA may ku	ku lu kA may ku	crawling insect	crawling insect		6.7.9	15.12	0		m,5432,m,m,m
+329273	1796	rGyalrong	kha |ro Nbu	kha ro Nbu	ant	ant		2.2.6	15.2	0		2631,m
+329274	1796	rGyalrong	kha rok ku pram	kha rok ku pram	termite	termite		2.2.6	15.22	0		
+329275	1796	rGyalrong	kha rde li	kha rde li	anthill	anthill			15.23	0		
+329276	1796	rGyalrong	gyu wam	gyu wam	bee	bee		2.2.6	15.3	0		
+329277	1796	rGyalrong	rgya Ndze	rgya Ndze	honey	honey		2.2.6	15.32	0		
+329278	1796	rGyalrong	gyu wam wu gyem	gyu wam wu gyem	hive	hive		2.2.6	15.34	0		
+329279	1796	rGyalrong	NdzA ra ngi	NdzA ra ngi	wasp	wasp		2.2.6	15.35	0		
+329280	1796	rGyalrong	khay po lo lo	khay po lo lo	butterfly	butterfly		2.2.6	15.5	0		
+329281	1796	rGyalrong	shu nam tsu yo	shu nam tsu yo	cricket	cricket		2.2.6	15.71	0		
+329282	1796	rGyalrong	kA vos	kA vos	fly	fly		2.2.6	15.8	0		
+329283	1796	rGyalrong	kA vor rtse	kA vor rtse	mosquito	mosquito		2.2.6	15.83	0		
+329284	1796	rGyalrong	tA pshi baH bu	tA pshi baH bu	stinkbug	stinkbug			15.91	0		
+329285	1796	rGyalrong	sor	sor	louse	louse		2.2.6	15.10	0		2652
+329286	1796	rGyalrong	Nju ru	Nju ru	nit	nit		2.2.6	15.101	0		2609,1172
+329287	1796	rGyalrong	NdzaH yok	NdzaH yok	flea	flea		2.2.6	15.102	0		
+329288	1796	rGyalrong	Ndru shuk	Ndru shuk	tick	tick		2.2.6	15.103	0		
+329289	1796	rGyalrong	kha shi na	kha shi na	spider	spider		2.2.6	16.1	0		
+329290	1796	rGyalrong	kha shi na gyem	kha shi na gyem	web	web		2.2.6	16.12	0		
+329291	1796	rGyalrong	smoN ku lu	smoN ku lu	leech	leech		2.2.6	17.1	0		
+329292	1796	rGyalrong	tar mo ku lu	tar mo ku lu	centipede	centipede		2.2.6	18	0		
+329293	1796	rGyalrong	kha rde le	kha rde le	earthworm	earthworm		2.2.6	19.1	0		
+329294	1796	rGyalrong	kham tik	kham tik	caterpillar	caterpillar		2.2.6	19.2	0		
+329295	1796	rGyalrong	chang ra ku lu	chang ra ku lu	maggot	maggot		2.2.6	19.3	0		m,m,m,5432
+329296	1796	rGyalrong	pe pe ku lu	pe pe ku lu	tapeworm	tapeworm			19.4	0		
+329297	1796	rGyalrong	Ngok ceN ku lu	Ngok ceN ku lu	silkworm	silkworm		2.2.6	19.5	0		
+329298	1796	rGyalrong	Ngok ceN ru	Ngok ceN ru	silk	silk			19.52	0		
+329299	1796	rGyalrong	kha shu pa bu	kha shu pa bu	tadpole	tadpole		2.1.6	19.6	0		
+329300	1796	rGyalrong	tA skru	tA skru	body	body		1.1.1	1.1	0		
+329301	1796	rGyalrong	ta rnam ka khyas	ta rnam ka khyas	side(right)	side(right)		1.4.5	1.2	0		
+329302	1796	rGyalrong	ta rnam kak la	ta rnam kak la	side(left)	side(left)		1.4.5	1.3	0		
+329303	1796	rGyalrong	ta zgung	ta zgung	back	back		1.4.8	1.4	0	HIDE	DUPE IN SOURCE
+329304	1796	rGyalrong	ta ro	ta ro	front	front		1.4.4	1.5	0		
+329305	1796	rGyalrong	tA skru	tA skru	torso	torso		1.5.3.2	1.6	0		
+329306	1796	rGyalrong	spo bzhi	spo bzhi	limbs	limbs		1.5.3.1	1.7	0		
+329307	1796	rGyalrong	tA nu	tA nu	bosom	bosom		1.4.4.2	1.9	0		
+329308	1796	rGyalrong	ta ro	ta ro	bosom	bosom		1.4.4.2	1.9	0		
+329309	1796	rGyalrong	???	???	groin	groin		1.4.9	1.10	0		e
+329310	1796	rGyalrong	sha skem	sha skem	flesh	flesh		1.1.1.1	1.11	0		34,m
+329311	1796	rGyalrong	kA mA so	kA mA so	alive	alive		1.1.2.1	1.12	0	HIDE	DUPE IN SOURCE
+329312	1796	rGyalrong	shu	shu	die	die		1.1.6	1.13	0	HIDE	DUPE IN SOURCE
+329313	1796	rGyalrong	te mgem	te mgem	corpse	corpse		1.1.6.1	1.14	0		
+329314	1796	rGyalrong	sem ceN mgem	sem ceN mgem	carcass	carcass		1.1.6.1	1.15	0		
+329315	1796	rGyalrong	ka nA gyAp	ka nA gyAp	sleep	sleep		1.1.4.1	1.16	0		p,m,127
+329316	1796	rGyalrong	wu mnyak ka sA gyu	wu mnyak ka sA gyu	sleep	sleep		1.1.4.1	1.16	0		m,m,m,m,127
+329317	1796	rGyalrong	wu mnyak kA ro	wu mnyak kA ro	awake	awake		1.1.4	1.17	0		m,681,p,m
+329318	1796	rGyalrong	wu mnyak nA su ro	wu mnyak nA su ro	awake	awake		1.1.4	1.17	0		m,681,m,m,m
+329319	1796	rGyalrong	ta rmo na vo	ta rmo na vo	dream	dream	v	1.1.4.2	1.18	0		p,126,m,m
+329320	1796	rGyalrong	ta wo	ta wo	head	head		1.2.1	2.1	0		p,385
+329321	1796	rGyalrong	ta wo lo Ngu	ta wo lo Ngu	top of head	top of head		1.2.1.2	2.2	0		p,385,m,m
+329322	1796	rGyalrong	thot pa	thot pa	skull	skull		1.2.1.1	2.4	0		
+329323	1796	rGyalrong	tA rnok	tA rnok	brain	brain		1.2.4	2.5	0	HIDE	DUPE IN SOURCE
+329324	1796	rGyalrong	???	???	sinus	sinus		1.2.8.1	2.6	0		
+329325	1796	rGyalrong	ta wo rnye	ta wo rnye	hair of head	hair of head		1.2.3	2.7	0		p,385,368
+329326	1796	rGyalrong	ta wo Ndruk	ta wo Ndruk	scalp	scalp		1.2.1.5	2.8	0		
+329327	1796	rGyalrong	pya wu re rep	pya wu re rep	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		
+329328	1796	rGyalrong	fka wu re rep	fka wu re rep	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		
+329329	1796	rGyalrong	tu ru	tu ru	horn	horn		1.2.2	2.10	0		p,819
+329330	1796	rGyalrong	kar tshe wu ru	kar tshe wu ru	antler (of deer)	antler (of deer)		1.2.2	2.11	0		
+329331	1796	rGyalrong	ta gye	ta gye	face	face		1.2.5	3.1	0		
+329332	1796	rGyalrong	tA mto	tA mto	forehead	forehead		1.2.5.1	3.2	0		p,371
+329333	1796	rGyalrong	tA mdze Ngrem	tA mdze Ngrem	temple	temple		1.2.5.1	3.3	0		
+329334	1796	rGyalrong	tA mnyak	tA mnyak	eye	eye		1.2.6	3.4	0		p,681
+329335	1796	rGyalrong	tA mnyak Nbru	tA mnyak Nbru	eyelid	eyelid		1.2.6.4	3.4.1	0		
+329336	1796	rGyalrong	tA mnyak lar lor	tA mnyak lar lor	eyeball	eyeball		1.2.6.1	3.4.2	0		
+329337	1796	rGyalrong	???	???	iris	iris		1.2.6.2	3.4.21	0		
+329338	1796	rGyalrong	tA mnyak wu rno	tA mnyak wu rno	pupil	pupil		1.2.6.2	3.4.22	0		
+329339	1796	rGyalrong	mu Ndri gar po	mu Ndri gar po	white of eye	white of eye		1.2.6.3	3.4.23	0		
+329340	1796	rGyalrong	ta mnyak mo rtse	ta mnyak mo rtse	eyebrow	eyebrow		1.2.6.6	3.4.3	0		
+329341	1796	rGyalrong	tA mnyak rdzA ma	tA mnyak rdzA ma	eyelash	eyelash		1.2.6.5	3.4.4	0		m,681,m,363
+329342	1796	rGyalrong	tA mnyak kA va chap chap	tA mnyak kA va chap chap	blink	blink	v	1.2.6.12	3.4.5	0		p,682,p,m,m,m
+329343	1796	rGyalrong	tA mnyak gyu	tA mnyak gyu	tear	tear	n	1.8.8.1	3.4.6	0		
+329344	1796	rGyalrong	???	???	eye sand	eye sand		1.2.6.8	3.4.7	0		
+329345	1796	rGyalrong	kA nga ruk	kA nga ruk	cry	cry	v	1.8.8.2	3.4.8	0		p,1104,1103
+329346	1796	rGyalrong	kA na tso	kA na tso	see	see		1.2.6.10	3.4.9	0		
+329347	1796	rGyalrong	kA lo kshi	kA lo kshi	blind	blind		1.2.6.14.2	3.4.10	0		
+329348	1796	rGyalrong	tA shna	tA shna	nose	nose		1.2.8	3.5	0		p,803
+329349	1796	rGyalrong	tA shna kro vo	tA shna kro vo	nose bridge	nose bridge		1.2.8	3.5.1	0		p,803,m,m
+329350	1796	rGyalrong	tA shna khong gyu	tA shna khong gyu	nostril	nostril		1.2.8.1	3.5.2	0		
+329351	1796	rGyalrong	???	???	nose flaps	nose flaps		1.2.8	3.5.3	0		e
+329352	1796	rGyalrong	tA shna wu rnye	tA shna wu rnye	nose hair	nose hair		1.2.8	3.5.4	0		p,803,m,368
+329353	1796	rGyalrong	tA shna kA skreN	tA shna kA skreN	snout	snout		1.2.8	3.5.5	0		
+329354	1796	rGyalrong	tA shna mdzar	tA shna mdzar	liquid mucus	liquid mucus		3.2.3	3.5.6	0		
+329355	1796	rGyalrong	???	???	solid mucus	solid mucus		1.1.5	3.5.7	0		e
+329356	1796	rGyalrong	???	???	blow nose	blow nose	v	1.3.1.4	3.5.8	0		e
+329357	1796	rGyalrong	ka na nem	ka na nem	smell	smell	v	1.2.8.5	3.5.9	0		m,m,1415
+329358	1796	rGyalrong	tA rna	tA rna	ear	ear		1.2.7	3.6	0		p,811
+329359	1796	rGyalrong	tA rna mtri	tA rna mtri	earlobe	earlobe		1.2.7.1	3.6.1	0		
+329360	1796	rGyalrong	tA rna wu mpo	tA rna wu mpo	outer ear	outer ear		9.2	3.6.2	0		p,811,m,m
+329361	1796	rGyalrong	tA rna wu Ngu	tA rna wu Ngu	inner ear	inner ear		9.2.5	3.6.3	0		p,811,m,m
+329362	1796	rGyalrong	tA rna khung Ngyu	tA rna khung Ngyu	ear canal	ear canal		1.2.7	3.6.4	0		p,811,m,m
+329363	1796	rGyalrong	rna wa nga wak	rna wa nga wak	eardrum	eardrum		1.2.7.2	3.6.5	0		
+329364	1796	rGyalrong	tA rna pshu	tA rna pshu	earwax	earwax		1.2.7.3	3.6.6	0		
+329365	1796	rGyalrong	ka ru naH	ka ru naH	hear	hear	v	1.2.7.4	3.6.7	0		
+329366	1796	rGyalrong	ta Nbo lo	ta Nbo lo	deaf	deaf		1.2.7.5	3.6.8	0		p,1409,m
+329367	1796	rGyalrong	tA shnes	tA shnes	mouth	mouth		1.3.1	3.7	0		
+329368	1796	rGyalrong	tA khak tok	tA khak tok	palate	palate		1.3.1.1	3.7.1	0		
+329369	1796	rGyalrong	rkeN nyi	rkeN nyi	soft palate	soft palate		7.1.4.2	3.7.2	0		636,m
+329370	1796	rGyalrong	tA shwa sha	tA shwa sha	gums	gums		1.3.4.3	3.7.3	0		p,632,m
+329371	1796	rGyalrong	ta gye nu	ta gye nu	uvula	uvula		1.3.5.1	3.7.4	0		
+329372	1796	rGyalrong	tA mtre	tA mtre	saliva	saliva		1.8.3	3.7.5	0		
+329373	1796	rGyalrong	mA shthuk	mA shthuk	saliva	saliva		1.8.3	3.7.5	0		
+329374	1796	rGyalrong	ta Ndzaw	ta Ndzaw	eat	eat	v	1.5.3.2	3.7.6	0		m,36
+329375	1796	rGyalrong	kA mot	kA mot	drink	drink	v		3.7.7	0		
+329376	1796	rGyalrong	na shpak	na shpak	thirsty	be thirsty	be v.	1.1.3.1	3.7.8	0		m,1826
+329377	1796	rGyalrong	tA lto kA mo	tA lto kA mo	hungry	be hungry	be v.	1.1.3	3.7.9	0		p,3308,p,99
+329378	1796	rGyalrong	kA pke	kA pke	full / satisfied	full / satisfied		1.1.3.2	3.7.10	0		p,115
+329379	1796	rGyalrong	kA mA mphet	kA mA mphet	spit	spit	v	1.8.3	3.7.11	0		
+329380	1796	rGyalrong	mphAt	mphAt	spit	spit	v	1.8.3	3.7.11	0		
+329381	1796	rGyalrong	???	???	vomit	vomit	n	1.8.3.2	3.7.12	0		e
+329382	1796	rGyalrong	tA mphet	tA mphet	vomit	vomit	v	1.8.3.2	3.7.13	0		p,1145
+329383	1796	rGyalrong	???	???	hold in mouth	hold in mouth		1.3.4.4	3.7.14	0		e
+329384	1796	rGyalrong	kA kat	kA kat	gape	gape		1.3.1	3.7.15	0		
+329385	1796	rGyalrong	ha chew	ha chew	yawn	yawn	v	1.3.1.3	3.7.16	0		
+329386	1796	rGyalrong	tA shme	tA shme	tongue	tongue		1.3.3	3.8	0		
+329387	1796	rGyalrong	ka kyes	ka kyes	speak	speak	v	8.5.10.1	3.8.1	0		
+329388	1796	rGyalrong	ka pshet	ka pshet	speak	speak	v	8.5.10.1	3.8.1	0		p,1755
+329389	1796	rGyalrong	tA kha ka su NdzaH	tA kha ka su NdzaH	stutter	stutter		8.5.4.5	3.8.2	0		
+329390	1796	rGyalrong	ta mngam	ta mngam	mute	mute		1.5.3.2	3.8.3	0		
+329391	1796	rGyalrong	la tA ba	la tA ba	mute	mute		1.5.3.2	3.8.3	0		
+329392	1796	rGyalrong	ka nu zok	ka nu zok	lick	lick	v	1.3.3.1	3.8.4	0		p,p,629
+329393	1796	rGyalrong	tA shnes	tA shnes	lip	lip		1.3.2	3.9	0		
+329394	1796	rGyalrong	tA shne me ta	tA shne me ta	upper lip	upper lip		9.2.1	3.9.1	0		
+329395	1796	rGyalrong	tA shne me na	tA shne me na	lower lip	lower lip			3.9.2	0		
+329396	1796	rGyalrong	pa ci wu Ntok	pa ci wu Ntok	beak	beak		1.3.1.2	3.9.3	0		
+329397	1796	rGyalrong	kA na ri mAr mAr	kA na ri mAr mAr	smile	smile	v	1.8.8.1	3.9.4	0		p,m,1108,m,m
+329398	1796	rGyalrong	wu pong ka va	wu pong ka va	kiss	kiss	v	1.3.2.2	3.9.5	0		
+329399	1796	rGyalrong	tA shwa	tA shwa	tooth	tooth		1.3.4	3.10	0		p,632
+329400	1796	rGyalrong	tA tru shwa	tA tru shwa	incisor	incisor		1.3.4	3.10.1	0		
+329401	1796	rGyalrong	tA shwa ro Ngu	tA shwa ro Ngu	molar	molar		1.3.4.2	3.10.2	0		
+329402	1796	rGyalrong	ta Ndzuy	ta Ndzuy	eyetooth	eyetooth		1.3.4.1	3.10.3	0		
+329403	1796	rGyalrong	tay sa	tay sa	wisdom tooth	wisdom tooth		8.3.3.3.1	3.10.4	0		
+329404	1796	rGyalrong	???	???	baby tooth	baby tooth		4.2.11	3.10.5	0		e
+329405	1796	rGyalrong	tA shwa kA skye	tA shwa kA skye	tusk	tusk		1.3.4.1	3.10.6	0		
+329406	1796	rGyalrong	kham cAk	kham cAk	bite	bite	v	1.3.4.4	3.10.7	0		
+329407	1796	rGyalrong	ka vang key	ka vang key	chew	chew	v	1.3.4	3.10.8	0		
+329408	1796	rGyalrong	tA zhu baH	tA zhu baH	cheek	cheek		1.2.5.2	3.11	0		
+329409	1796	rGyalrong	tA zhu baH sha ru	tA zhu baH sha ru	cheekbone	cheekbone		1.2.5.2	3.11.1	0		
+329410	1796	rGyalrong	tA m◦gya	tA mgya	chin	chin		1.2.5.3	3.12	0		p,1187,273
+329411	1796	rGyalrong	tA mgu	tA mgu	neck	neck		1.4.2	4.1	0		p,481
+329412	1796	rGyalrong	tA mgu stok	tA mgu stok	swollen lymph nodes	swollen lymph nodes		1.6.6.4	4.1.2	0		
+329413	1796	rGyalrong	ta wu Nkhu	ta wu Nkhu	nape of neck	nape of neck		1.4.2.1	4.1.3	0		
+329414	1796	rGyalrong	khrung khrung	khrung khrung	throat	throat		1.3.5	4.2	0		489,489
+329415	1796	rGyalrong	khrung khrung	khrung khrung	windpipe	windpipe		1.3.5.2	4.2.1	0		489,489
+329416	1796	rGyalrong	tA mnyAk	tA mnyAk	esophagus	esophagus		1.3.5.5	4.2.2	0		
+329417	1796	rGyalrong	ka mu rgyuk	ka mu rgyuk	swallow	swallow	v	1.3.5.6	4.2.3	0		
+329418	1796	rGyalrong	tA yi lo	tA yi lo	gizzard	gizzard		1.7.6.1	4.2.4	0		
+329419	1796	rGyalrong	tA skru wu gzhung	tA skru wu gzhung	torso	torso		1.5.3.2	5.	0		
+329420	1796	rGyalrong	ta ro	ta ro	chest	chest		1.4.4.3	5.1	0		m,288
+329421	1796	rGyalrong	ta rnam	ta rnam	rib cage	rib cage		1.4.4.3	5.1.1	0		p,553
+329422	1796	rGyalrong	ta rnam sha |rA	ta rnam sha rA	rib	rib		1.4.4.3	5.1.2	0		p,553,234
+329423	1796	rGyalrong	ta ro sha rA	ta ro sha rA	brestbone	brestbone			5.1.3	0		
+329424	1796	rGyalrong	zgro rus	zgro rus	collar bone	collar bone		1.4.3.1	5.2	0		
+329425	1796	rGyalrong	ta rpak	ta rpak	shoulder	shoulder		1.4.3	5.3	0		p,568
+329426	1796	rGyalrong	sok pa	sok pa	shoulder blade	shoulder blade		1.4.3	5.3.1	0		6704,s
+329427	1796	rGyalrong	ta rpak sa Ngye? Ngyet	ta rpak sa Ngye? Ngyet	shrug shoulders	shrug shoulders		1.4.3.3	5.3.2	0		
+329428	1796	rGyalrong	tA nu	tA nu	breast	breast		1.4.4.3	5.4	0		p,253
+329429	1796	rGyalrong	tA nu wa wo	tA nu wa wo	nipple	nipple			5.4.1	0		
+329430	1796	rGyalrong	tA nu	tA nu	udder	udder			5.4.2	0		
+329431	1796	rGyalrong	tA lo	tA lo	milk	milk			5.4.3	0		
+329432	1796	rGyalrong	lor vu	lor vu	colostrum	colostrum			5.4.4	0		
+329433	1796	rGyalrong	kA mot	kA mot	suck	suck	v	1.3.2.1	5.4.5	0		
+329434	1796	rGyalrong	ka mA su kyup	ka mA su kyup	suck	suck	v	1.3.2.1	5.4.5	0		
+329435	1796	rGyalrong	tA nu ka mot	tA nu ka mot	nurse	nurse	v	4.2.1.5	5.4.6	0		
+329436	1796	rGyalrong	tA nu ka pcet	tA nu ka pcet	wean	wean			5.4.7	0		
+329437	1796	rGyalrong	ta zgung	ta zgung	back	back		1.4.8	5.5	0	D1	
+329438	1796	rGyalrong	ta zgung stot	ta zgung stot	upper back	upper back		9.2.1	5.5.1	0		p,m,21
+329439	1796	rGyalrong	ta zgung smet	ta zgung smet	lower back	lower back		1.4.8.1	5.5.2	0		
+329440	1796	rGyalrong	ta zgung tsu Ngri kya kha	ta zgung tsu Ngri kya kha	small of back	small of back		1.4.8.1	5.5.3	0		
+329441	1796	rGyalrong	ta zgung tsu Ngri	ta zgung tsu Ngri	spine	spine		1.4.8.2	5.5.4	0		
+329442	1796	rGyalrong	ta zgung tsu Ngri wu vyo	ta zgung tsu Ngri wu vyo	spinal cord	spinal cord		1.4.8.2	5.5.5	0		
+329443	1796	rGyalrong	zgu rlok	zgu rlok	hunchback	hunchback		1.4.8.3	5.5.6	0		
+329444	1796	rGyalrong	tA mthek	tA mthek	waist	waist		1.4.6	5.6	0		p,3340
+329445	1796	rGyalrong	tA |vok ku tsu	tA |vok ku tsu	belly	belly		1.4.7	5.7	0		164,m,m
+329446	1796	rGyalrong	pok chu	pok chu	belly button	belly button		1.9.4	5.7.1	0		164,m
+329447	1796	rGyalrong	shi rket	shi rket	pelvis	pelvis		1.4.9.2	5.8	0		
+329448	1796	rGyalrong	ta sop	ta sop	hips	hips		1.4.9.2	5.8.1	0		p,3333
+329449	1796	rGyalrong	ta sop sha ru	ta sop sha ru	hipbone	hipbone		1.4.9.2	5.8.2	0		
+329450	1796	rGyalrong	ta NgaH la kha	ta NgaH la kha	crotch	crotch		1.4.9.1	5.9	0		
+329451	1796	rGyalrong	tA vA ya kyAp	tA vA ya kyAp	swollen lymph nodes	swollen lymph nodes		1.6.6.4	5.9.1	0		
+329452	1796	rGyalrong	kAr gu wa sop	kAr gu wa sop	rump	rump		1.4.10	5.10	0		
+329453	1796	rGyalrong	ta sop	ta sop	buttocks	buttocks		1.4.10	5.10.1	0		
+329454	1796	rGyalrong	tay mu tsu Ngri	tay mu tsu Ngri	tailbone	tailbone		1.6.3.3	5.10.2	0		
+329455	1796	rGyalrong	tay mu	tay mu	tail	tail		1.4.10.1	5.10.3	0		p,1288
+329456	1796	rGyalrong	ta rpak	ta rpak	arm	arm		1.5.1.2	6.1	0		p,821
+329457	1796	rGyalrong	ta pya kha	ta pya kha	armpit	armpit		1.5.1.2.3	6.1.1	0		
+329458	1796	rGyalrong	kA ra gyak	kA ra gyak	tickle	tickle	v	1.5.1.2.4	6.1.11	0		
+329459	1796	rGyalrong	tu kru	tu kru	elbow	elbow		1.5.8.3	6.1.4	0		p,307
+329460	1796	rGyalrong	tu kru sha |ru	tu kru sha |ru	elbow bone	elbow bone		1.5.8.3	6.1.41	0		p,307,234
+329461	1796	rGyalrong	ta yu Nku <ta yuk mku	ta yu Nku <ta yuk mku	wrist	wrist		1.5.8.1	6.1.6	0		
+329462	1796	rGyalrong	ta |yuk	ta |yuk	hand	hand		1.5.1.1	6.1.7	0		699
+329463	1796	rGyalrong	ta yuk pa	ta yuk pa	palm	palm		1.5.5	6.1.71	0		
+329464	1796	rGyalrong	ta |yu Nkhu < ta yuk 'khu	ta |yu Nkhu < ta yuk 'khu	back of hand	back of hand		1.5.1.1.2	6.1.72	0		699,m
+329465	1796	rGyalrong	ta rkut	ta rkut	fist	fist		1.5.1.1.1	6.1.73	0		p,712
+329466	1796	rGyalrong	ta |yuk ka khyas	ta |yuk ka khyas	right hand	right hand		1.5.3.2	6.1.74	0		699,m,m
+329467	1796	rGyalrong	ta |yuk ka gla	ta |yuk ka gla	left hand	left hand		1.5.3.2	6.1.75	0		699,m,m
+329468	1796	rGyalrong	gyo gyo wa rkham	gyo gyo wa rkham	fin	fin		1.5.1.3.1	6.1.8	0		
+329469	1796	rGyalrong	ta rkham	ta rkham	wing of bird	wing of bird		1.5.1.3	6.1.9	0		p,715
+329470	1796	rGyalrong	ta pet	ta pet	paw of mammal	paw of mammal		1.5.4	6.1.10	0		
+329471	1796	rGyalrong	tA phut pa	tA phut pa	leg	leg		1.5.7	6.2	0		
+329472	1796	rGyalrong	tA phut pa	tA phut pa	thigh	thigh		1.5.7.1	6.2.1	0		
+329473	1796	rGyalrong	phut pa sha |ru	phut pa sha |ru	thigh bone	thigh bone		1.5.7.1	6.2.11	0		m,m,234
+329474	1796	rGyalrong	ta mek wu Ngro	ta mek wu Ngro	hamstring	hamstring		1.6.6.2	6.2.12	0		
+329475	1796	rGyalrong	tA mngaH	tA mngaH	knee	knee		1.5.8.4	6.2.2	0		
+329476	1796	rGyalrong	tA mngaH sha ru	tA mngaH sha ru	knee cap	knee cap		1.5.8.4	6.2.21	0		
+329477	1796	rGyalrong	???	???	knee hollow	knee hollow		1.5.8.4	6.2.22	0		
+329478	1796	rGyalrong	ta me Nbro	ta me Nbro	calf	calf		1.5.7	6.2.4	0		
+329479	1796	rGyalrong	ta me mnyak	ta me mnyak	ankle	ankle		1.5.8.2	6.2.5	0		p,m,681
+329480	1796	rGyalrong	ta me mnyak wu sha |ru	ta me mnyak wu sha |ru	ankle bone	ankle bone		1.5.8.2	6.2.51	0		p,m,681,m,234
+329481	1796	rGyalrong	ta mek	ta mek	foot	foot		1.5.2	6.2.6	0		
+329482	1796	rGyalrong	tA sum sam	tA sum sam	heel	heel		1.5.2.1	6.2.61	0		
+329483	1796	rGyalrong	tA sum sam wu Ngro	tA sum sam wu Ngro	achilles tendon	achilles tendon		1.6.6.1	6.2.62	0		
+329484	1796	rGyalrong	ta me pa	ta me pa	arch	arch		1.5.2.3	6.2.63	0		
+329485	1796	rGyalrong	ta me wo	ta me wo	ball of the foot	ball of the foot		9.7.1	6.2.64	0		
+329486	1796	rGyalrong	ta mek pa	ta mek pa	sole	sole		1.5.5	6.2.65	0		
+329487	1796	rGyalrong	ta me Nkhu	ta me Nkhu	instep	instep		1.5.2.2	6.2.66	0		
+329488	1796	rGyalrong	ta cos	ta cos	footprint	footprint		1.5.2.5	6.2.67	0		
+329489	1796	rGyalrong	ta ka	ta ka	hoof of animal	hoof of animal		1.5.4	6.2.68	0		p,417
+329490	1796	rGyalrong	rkyang sho	rkyang sho	crippled	crippled		4.2.7	6.2.7	0		
+329491	1796	rGyalrong	rkyang to wu ptri kA va	rkyang to wu ptri kA va	limp	limp	v	1.5.12	6.2.8	0		
+329492	1796	rGyalrong	ta yu Ndzo Ndzo	ta yu Ndzo Ndzo	finger	finger		1.5.6	7.1	0		
+329493	1796	rGyalrong	ta yu Ndzo Ndzo	ta yu Ndzo Ndzo	index finger	index finger		1.0	7.1.1	0		
+329494	1796	rGyalrong	ta yu kA mA la	ta yu kA mA la	middle finger	middle finger		1.9.4	7.1.2	0		
+329495	1796	rGyalrong	ta yu pu pu	ta yu pu pu	little finger	little finger		9.7.2	7.1.4	0		
+329496	1796	rGyalrong	ta yu mo mo	ta yu mo mo	thumb	thumb		1.5.6.1	7.1.5	0		
+329497	1796	rGyalrong	ta yu wu rmo	ta yu wu rmo	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
+329498	1796	rGyalrong	ta me Ndzo Ndzo	ta me Ndzo Ndzo	toe	toe		1.5.6	7.2	0		
+329499	1796	rGyalrong	ta me mo mo	ta me mo mo	big toe	big toe		1.5.6.1	7.2.1	0		
+329500	1796	rGyalrong	ta me pu pu	ta me pu pu	little toe	little toe		9.7.2	7.2.5	0		
+329501	1796	rGyalrong	ta yi Ndzo wu tshuk	ta yi Ndzo wu tshuk	knuckle	knuckle		1.5.8.5	7.3	0		p,m,m,m,418
+329502	1796	rGyalrong	ta Ndzu ru	ta Ndzu ru	nail	nail		1.5.10	7.4	0		
+329503	1796	rGyalrong	ta yi Ndzu ru	ta yi Ndzu ru	fingernail	fingernail		1.5.10.1	7.4.1	0		p,m,512,m
+329504	1796	rGyalrong	ta me wa ndzu ru	ta me wa ndzu ru	toenail	toenail		1.5.10.2	7.4.2	0		
+329505	1796	rGyalrong	ta pes	ta pes	claw of animal	claw of animal		1.5.10.4	7.4.3	0		
+329506	1796	rGyalrong	ta rnye	ta rnye	hair	hair		1.2.3	8.1	0		p,368
+329507	1796	rGyalrong	ta wu rnye	ta wu rnye	hair of head	hair of head		1.2.3	8.1.1	0		p,385,368
+329508	1796	rGyalrong	ta gye wa rnye	ta gye wa rnye	facial hair	facial hair		1.2.5	8.1.2	0		p,m,m,368
+329509	1796	rGyalrong	tA shne wu rnye	tA shne wu rnye	beard	beard		1.2.5.5	8.1.21	0		
+329510	1796	rGyalrong	tA skru wa rnye	tA skru wa rnye	moustache	moustache		1.2.5.5	8.1.3	0		
+329511	1796	rGyalrong	ta pye kha wa rnye	ta pye kha wa rnye	underarm hair	underarm hair		1.5.1.2.3	8.1.31	0		p,m,m,m,368
+329512	1796	rGyalrong	ta ro rnye	ta ro rnye	chest hair	chest hair		1.4.4.5	8.1.32	0		m,288,368
+329513	1796	rGyalrong	ta me wa rnye	ta me wa rnye	leg hair	leg hair		1.5.7	8.1.33	0		p,m,m,368
+329514	1796	rGyalrong	sem ceN Ndruk	sem ceN Ndruk	fur of animal	fur of animal		1.6.1	8.1.4	0		
+329515	1796	rGyalrong	ta rkham	ta rkham	feather of bird	feather of bird		1.6.1.1	8.1.5	0		
+329516	1796	rGyalrong	tA Ndru	tA Ndru	skin	skin		1.6.5	8.2	0		p,596
+329517	1796	rGyalrong	tA rtrup kA hlok	tA rtrup kA hlok	sweat	sweat		1.8.1	8.2.1	0		
+329518	1796	rGyalrong	ta rnye spor	ta rnye spor	pore	pore		1.8.1.1	8.2.2	0		
+329519	1796	rGyalrong	lo Ndok	lo Ndok	freckle	freckle		1.6.5.3	8.2.31	0		
+329520	1796	rGyalrong	sme wa	sme wa	mole	mole		2.2.7	8.2.33	0		
+329521	1796	rGyalrong	ta spu	ta spu	cyst	cyst		1.6.5.3	8.2.35	0		
+329522	1796	rGyalrong	tA mnes	tA mnes	scar	scar		1.6.5.3	8.2.37	0		
+329523	1796	rGyalrong	ta ru Njuk	ta ru Njuk	wrinkle	wrinkle		9.6.2	8.2.38	0		
+329524	1796	rGyalrong	ku ra gyak	ku ra gyak	itch	itch	v	1.6.5.5	8.2.310	0		
+329525	1796	rGyalrong	kA rnyu Ndruk	kA rnyu Ndruk	dried animal skin	dried animal skin		6.6	8.2.6	0		
+329526	1796	rGyalrong	ta tram	ta tram	fat	fat		1.6.4	8.3	0		
+329527	1796	rGyalrong	sha |ru	sha |ru	bone	bone		1.6.3	8.4	0		234
+329528	1796	rGyalrong	ta zgu tsu Ngri	ta zgu tsu Ngri	vertebrae	vertebrae		1.6.3.3	8.4.2	0		
+329529	1796	rGyalrong	tA vu yo	tA vu yo	marrow	marrow		1.6.3.5	8.4.3	0		
+329530	1796	rGyalrong	ta shi	ta|shi	blood	blood		1.6.2	8.7	0		p,230
+329531	1796	rGyalrong	tA kyur	tA kyur	blood vessel	blood vessel		1.6.2.1	8.7.1	0		
+329532	1796	rGyalrong	ta shi ku hlok	ta shi ku hlok	bleed	bleed	v	1.6.2	8.7.2	0		
+329533	1796	rGyalrong	sha skem	sha skem	muscle	muscle		1.6.6.2	8.8	0		
+329534	1796	rGyalrong	tA tshuk	tA tshuk	joint	joint		1.5.8	8.9	0		p,418
+329535	1796	rGyalrong	tA r◦nok	tA r◦nok	brain	brain		1.2.4	9.1	0	D1	p,p,243
+329536	1796	rGyalrong	ta slo	ta slo	lungs	lungs		1.7.2	9.2	0		
+329537	1796	rGyalrong	ta song se	ta song se	breathe	breathe	v	1.1.2.2	9.2.1	0		p,77,m
+329538	1796	rGyalrong	ta song se ka let	ta song se ka let	pant	pant	v	1.1.2.2	9.2.2	0		p,77,m,m,m
+329539	1796	rGyalrong	ka phro, ka va |mot	ka phro, ka va mot	blow	blow		1.3.1.4	9.2.3	0		p,m,p,503
+329540	1796	rGyalrong	???	???	gill of fish	gill of fish		1.3.5.3	9.2.4	0		e
+329541	1796	rGyalrong	tA ngar	tA ngar	phlegm	phlegm		1.8.3	9.2.5	0		
+329542	1796	rGyalrong	tA shu nu	tA shu nu	heart	heart		1.7.1	9.3	0		
+329543	1796	rGyalrong	tA shu nu ku mu zek	tA shu nu ku mu zek	heartbeat	heartbeat		1.7.1.1	9.3.1	0		
+329544	1796	rGyalrong	khong ba	khong ba	viscera	viscera		1.7	9.4	0		
+329545	1796	rGyalrong	tA bshi	tA bshi	liver	liver		1.7.3	9.5	0		
+329546	1796	rGyalrong	mji gri	mji gri	gall bladder	gall bladder		1.7.3	9.5.2	0		m,227
+329547	1796	rGyalrong	bo tem	bo tem	kidney	kidney		1.7.5	9.6	0		
+329548	1796	rGyalrong	ta su te	ta su te	urinary bladder	urinary bladder		1.7.8	9.7	0		
+329549	1796	rGyalrong	ta shi ci	ta shi ci	urine	urine		1.8.4	9.7.1	0		
+329550	1796	rGyalrong	ta shi ci ka let	ta shi ci ka let	urinate	urinate	v	1.5.3.2	9.7.2	0		
+329551	1796	rGyalrong	shi me shi per	shi me shi per	spleen	spleen		1.7.4	9.8	0		
+329552	1796	rGyalrong	kA Nbop	kA Nbop	swollen spleen	swollen spleen		1.7.4	9.8.1	0		
+329553	1796	rGyalrong	???	???	pancreas	pancreas		1.7.7	9.9	0		
+329554	1796	rGyalrong	tA kto	tA kto	stomach	stomach		1.7.6	9.10	0		
+329555	1796	rGyalrong	lang ce	lang ce	intestines	intestines		1.7.7	9.11	0		3460,572
+329556	1796	rGyalrong	lang ce ki pam	lang ce ki pam	large intestines	large intestines		9.7.1	9.11.1	0		3460,572,m,m
+329557	1796	rGyalrong	lang ce ki chem	lang ce ki chem	small intestines	small intestines		9.7.2	9.11.2	0		3460,572,m,m
+329558	1796	rGyalrong	rgyu hlak	rgyu hlak	appendix	appendix		1.7.7	9.11.3	0		
+329559	1796	rGyalrong	ta sop khong gyu	ta sop khong gyu	anus	anus		1.4.10.2	9.12	0		
+329560	1796	rGyalrong	chang ra ti	chang ra ti	feces	feces		1.8.5	9.12.1	0		
+329561	1796	rGyalrong	ta shi ci ka let	ta shi ci ka let	defecate	defecate	v	1.8.5.4	9.12.3	0		
+329562	1796	rGyalrong	tA pshi ka let	tA pshi ka let	defecate	defecate	v	1.8.5.4	9.12.3	0		
+329563	1796	rGyalrong	tA smet	tA smet	genitalia	genitalia		1.9.1	10.1	0		
+329564	1796	rGyalrong	ta lu ka va	ta lu ka va	copulate	copulate	v	1.9.1.1	10.2	0		
+329565	1796	rGyalrong	tA zaH	tA zaH	male	male		1.9.6.1	10.3	0		
+329566	1796	rGyalrong	tA lep	tA lep	penis	penis			10.3.1	0		
+329567	1796	rGyalrong	tA le wa wo	tA le wa wo	glans	glans			10.3.2	0		
+329568	1796	rGyalrong	tA le wu rkho	tA le wu rkho	foreskin	foreskin			10.3.3	0		
+329569	1796	rGyalrong	ksang zgro	ksang zgro	scrotum	scrotum			10.3.4	0		
+329570	1796	rGyalrong	tA le wa stak	tA le wa stak	testicle	testicle			10.3.5	0		
+329571	1796	rGyalrong	tA shi te wa rnye	tA shi te wa rnye	male pubic hair	male pubic hair			10.3.6	0		p,m,m,m,368
+329572	1796	rGyalrong	khu wa	khu wa	sperm	sperm			10.3.7	0		
+329573	1796	rGyalrong	tA mu	tA mu	female	female		1.9.3	10.4	0		
+329574	1796	rGyalrong	skyes lam	skyes lam	vagina	vagina			10.4.1	0		
+329575	1796	rGyalrong	ta shi tes	ta shi tes	vulva	vulva			10.4.2	0		
+329576	1796	rGyalrong	mo ksar skye pak	mo ksar skye pak	hymen	hymen			10.4.3	0		
+329577	1796	rGyalrong	tA shi tA wu rnye	tA shi tA wu rnye	female pubic hair	female pubic hair			10.4.5	0		p,m,m,m,368
+329578	1796	rGyalrong	tA Nge yi kA vu	tA Nge yi kA vu	menstrate	menstrate	v		10.4.6	0		
+329579	1796	rGyalrong	da NtseN wa shi	da NtseN wa shi	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		m,m,m,230
+329580	1796	rGyalrong	tA Nge wa shi	tA Nge wa shi	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		m,m,m,230
+329581	1796	rGyalrong	ta pu gyem	ta pu gyem	uterus	uterus			10.4.8	0		
+329582	1796	rGyalrong	???	???	amniotic	amniotic			10.4.9	0		
+329583	1796	rGyalrong	Ngo chu	Ngo chu	amniotic fluid	amniotic fluid			10.4.10	0		
+329584	1796	rGyalrong	ta pu wa Ndri	ta pu wa Ndri	placenta	placenta			10.4.11	0		
+329585	1796	rGyalrong	pok chu sprak	pok chu sprak	umbilical cord	umbilical cord			10.4.12	0		
+329586	1796	rGyalrong	kA mu skru	kA mu skru	pregnant	be pregnant	be v.	1.9.6.1	10.4.14	0		
+329587	1796	rGyalrong	ta pu ku skye	ta pu ku skye	give birth	give birth		1.1.2	10.4.15	0		
+329588	1796	rGyalrong	ta Ngam	ta Ngam	egg of animal	egg of animal			10.4.16	0		p,305
+329589	1796	rGyalrong	tAs tshot	tAs tshot	cough	cough		1.8.3.3	11.1	0		
+329590	1796	rGyalrong	tA Ndzu kot	tA Ndzu kot	hiccup	hiccup		1.8.3.5	11.2	0		
+329591	1796	rGyalrong	ha che	ha che	sneeze	sneeze		1.8.2.1	11.3	0		
+329592	1796	rGyalrong	kong khre	kong khre	snore	snore		1.8.2.2	11.4	0		
+329593	1796	rGyalrong	ta psi ka let	ta psi ka let	whistle	whistle		8.5.5	11.5	0		p,5592,p,m
+329594	1796	rGyalrong	tA pshe rbok	tA pshe rbok	fart	fart		1.8.5.2	11.7	0		
+329595	1796	rGyalrong	ka na ri	ka na ri	laugh	laugh		1.8.8.1	11.9	0	HIDE	DUPE IN SOURCE
+329596	1796	rGyalrong	kA Ndar	kA Ndar	tremble	tremble		6.7.3	12.1	0		p,5570
+329597	1796	rGyalrong	kA nA Ndzu rpat	kA nA Ndzu rpat	paralyzed	be paralyzed	be v.	1.5.11	12.3	0		
+329598	1796	rGyalrong	kA Nbop	kA Nbop	swollen	be swollen	be v.	1.1.5.2	12.4	0		
+329599	1796	rGyalrong	ta spu	ta spu	pus	pus		1.8.6.1	12.5	0		p,1293
+329600	1796	rGyalrong	???	???	abscess	abscess		1.8.6.2	12.6	0		
+329601	1796	rGyalrong	sem lo	sem lo	mind	mind		1.10	14.1	0		66
+329602	1796	rGyalrong	tA shi nu	tA shi nu	locus of emotions	locus of emotions		9.10.3	14.2	0		
+329603	1796	rGyalrong	tA stop	tA stop	locus of personality	locus of personality		9.10.3	14.3	0		
+329604	1796	rGyalrong	tA rmu	tA rmu	person	person		4.5	40	0		p,1002
+329605	1796	rGyalrong	nA gyo	nA gyo	thou	thou		10.2.3.1	41	0		
+329606	1796	rGyalrong	nga	nga	I	I		4.1	42	0		2530
+329607	1796	rGyalrong	ta pu	ta pu	child	child		1.5.3.2	43	0		
+329608	1796	rGyalrong	nga wu	nga wu	grandchild	grandchild		4.7.3	44	0		
+329609	1796	rGyalrong	tA za	tA za	son-in-law	son-in-law		4.7.4	45	0		p,1012
+329610	1796	rGyalrong	tA rnyi	tA rnyi	name	name		5.8	46	0		p,2450
+329611	1796	rGyalrong	stak lor	stak lor	peas	peas		3.1.5	47	0		
+329612	1796	rGyalrong	ta Ndok	ta Ndok	poison	poison		6.4	48	0		p,2202
+329613	1796	rGyalrong	tay mok	tay mok	mushroom	mushroom		3.1.7	49	0		p,2472
+329614	1796	rGyalrong	khye	khye	liquor	liquor		3.1.6.3	50	0		
+329615	1796	rGyalrong	khya chu	khya chu	liquor	liquor		3.1.6.3	50	0		
+329616	1796	rGyalrong	smAN	smAN	medicine	medicine		5.4	51a	0		5434
+329617	1796	rGyalrong	khru	khru	rice	rice		3.1.4	51b	0		
+329618	1796	rGyalrong	khru swa	khru swa	rice (cooked)	rice (cooked)		3.1.4	51c	0		
+329619	1796	rGyalrong	rgya ru	rgya ru	meat	meat		1.1.1.1	52	0		
+329620	1796	rGyalrong	sha	sha	meat	meat		1.1.1.1	52	0		34
+329621	1796	rGyalrong	tAm cuk	tAm cuk	fire	fire		3.2.12.2	73	0	HIDE	DUPE IN SOURCE
+329622	1796	rGyalrong	me tok	me tok	flower	flower		3.1.4	74	0		
+329623	1796	rGyalrong	pak shu	pak shu	fruit	fruit		3.1.5	75	0		
+329624	1796	rGyalrong	tey no	tey no	grass	grass		3.1.8	76	0		
+329625	1796	rGyalrong	tey Nbak	tey Nbak	leaf	leaf		3.1.3	77	0		
+329626	1796	rGyalrong	shi yi NgaH	shi yi NgaH	stick	stick		3.1.2	88	0		
+329627	1796	rGyalrong	shi wa yi NgaH	shi wa yi NgaH	stick	stick		3.1.2	88	0		
+329628	1796	rGyalrong	gyu luk	gyu luk	stone	stone		3.2.9	89	0	HIDE	DUPE IN SOURCE
+329629	1796	rGyalrong	shuk phu	shuk phu	tree	tree		3.1.2	91	0		
+329630	1796	rGyalrong	shi kha	shi kha	tree	tree		3.1.2	91	0		
+329631	1796	rGyalrong	tA gyu	tA gyu	wind	wind		3.2.1	93	0		
+329632	1796	rGyalrong	tay ga	tay ga	branch	branch		1.5.3.1	94	0		
+329633	1796	rGyalrong	po nge	po nge	silver	silver		3.2.4	95	0	HIDE	DUPE IN SOURCE
+329634	1796	rGyalrong	gyo	gyo	bamboo	bamboo		3.1.1	96	0		2549
+329635	1796	rGyalrong	shuk phu wa bis	shuk phu wa bis	shade	shade		3.2.10	97	0		
+329636	1796	rGyalrong	tA mdzo	tA mdzo	thorn	thorn		3.1.2	99	0		p,2741
+329637	1796	rGyalrong	tA mor	tA mor	night	night		9.1.4	100	0		
+329638	1796	rGyalrong	sham	sham	iron	iron		3.2.4	101	0	D5	2676
+329639	1796	rGyalrong	tA mnya	tA mnya	field	field		3.2.5	102	0		
+329640	1796	rGyalrong	tA mnya tA gyu ka let	tA mnya tA gyu ka let	irrigate	irrigate	v	6.6	102b	0		
+329641	1796	rGyalrong	mdaH	mdaH	arrow	arrow		5.15	103	0		
+329642	1796	rGyalrong	tAr tshot	tAr tshot	needle	needle		5.1	104	0		
+329643	1796	rGyalrong	tA gyem	tA gyem	house	house		5.11.9.1	105	0		p,1612
+329644	1796	rGyalrong	kzhu	kzhu	bow	bow		5.15	106	0		
+329645	1796	rGyalrong	zhu bru kA tsu	zhu bru kA tsu	boat	boat		5.1	107	0		
+329646	1796	rGyalrong	rang tek	rang tek	mortar	mortar		5.5	108	0		
+329647	1796	rGyalrong	chu tak	chu tak	mortar	mortar		5.5	108	0		
+329648	1796	rGyalrong	kha Ndzor	kha Ndzor	mortar	mortar		5.5	108	0		
+329649	1796	rGyalrong	???	???	village	village		5.8	109	0		e
+329650	1796	rGyalrong	kak la wu shap	kak la wu shap	leftside	leftside			110	0		
+329651	1796	rGyalrong	ka khyas wu shap	ka khyas wu shap	rightside	rightside			111	0		
+329652	1796	rGyalrong	kA khyey	kA khyey	far	far		9.2.4	112	0		
+329653	1796	rGyalrong	kA ngar Nbat	kA ngar Nbat	near	near		9.2.3	113	0		
+329654	1796	rGyalrong	ko pa, lo	ko pa, lo	year	year		9.1.2	114	0		m,m,6068
+329655	1796	rGyalrong	ta hAN kA thop	ta hAN kA thop	twenty	twenty		9.9	115	0		
+329656	1796	rGyalrong	kA |nyes gye	kA |nyes gye	twenty	twenty		9.9	115	0		2504
+329657	1796	rGyalrong	kA rek	kA rek	one	one		9.9	116	0		
+329658	1796	rGyalrong	kA shi nu	kA shi nu	seven	seven		9.9	117	0		
+329659	1796	rGyalrong	sgye	sgye	ten	ten		9.9	118	0		2748
+329660	1796	rGyalrong	pA |rgya	pA rgya	hundred	hundred		9.9	119	0		2258
+329661	1796	rGyalrong	kA |nyes	kA |nyes	two	two		9.9	120	0		2504
+329662	1796	rGyalrong	kA sam|	kA sam|	three	three		9.9	121	0		2666
+329663	1796	rGyalrong	ko de	ko de	four	four		9.9	122	0		p,2409
+329664	1796	rGyalrong	kA mnge	kA mnge	five	five		9.9	123	0		m,1306
+329665	1796	rGyalrong	kA trok	kA trok	six	six		9.9	124	0		m,2621
+329666	1796	rGyalrong	kA rkyat	kA rkyat	eight	eight		9.9	125	0		m,2259
+329667	1796	rGyalrong	kA Ngu	kA Ngu	nine	nine		9.9	126	0		p,2364
+329668	1796	rGyalrong	kA mA kya	kA mA kya	many	many		9.9	127	0		
+329669	1796	rGyalrong	sa skye	sa skye	born	be born	be v.	1.1.2	128	0		
+329670	1796	rGyalrong	ka gyup	ka gyup	sleep	sleep		1.1.4.1	129	0		p,127
+329671	1796	rGyalrong	tA mnyak gyu kA hlok	tA mnyak gyu kA hlok	weep	weep		1.8.8.2	130	0		
+329672	1796	rGyalrong	ka na ri	ka na ri	laugh	laugh		1.8.8.1	131	0	D1	p,m,1108
+329673	1796	rGyalrong	shu	shu	die	die		1.1.6	132	0	D1	
+329674	1796	rGyalrong	ka ra ste	ka ra ste	awaken	awaken		1.1.4	133	0		
+329675	1796	rGyalrong	tA rtsho kA vow	tA rtsho kA vow	cough	cough		1.8.3.3	134	0		
+329676	1796	rGyalrong	ka rwes	ka rwes	stand	stand		1.5.2	135	0		m,145
+329677	1796	rGyalrong	ka nye	ka nye	sit	sit		6.1.1.4.1	136	0		p,3597
+329678	1796	rGyalrong	kA Nbut	kA Nbut	fall	fall		6.1.1.4.2	137	0		
+329679	1796	rGyalrong	ka may ku	ka may ku	climb	climb		6.7.7	138	0		
+329680	1796	rGyalrong	ka tho	ka tho	climb	climb		6.7.7	138	0		
+329681	1796	rGyalrong	ka gyu	ka gyu	descend	descend		6.7.8	139	0		
+329682	1796	rGyalrong	kA Nbyam	kA Nbyam	fly	fly		2.2.6	140	0		m,2588
+329683	1796	rGyalrong	ka sha fke	ka sha fke	hide	hide		1.6.5.1	141	0		
+329684	1796	rGyalrong	ka pho	ka pho	run	run		6.7.4	142	0		
+329685	1796	rGyalrong	kA hlok	kA hlok	emerge	emerge		6.7.2	143	0		
+329686	1796	rGyalrong	kA sa zhi rder	kA sa zhi rder	fear	fear		8.3.1.10.1	144	0		
+329687	1796	rGyalrong	ka sa shes	ka sa shes	know	know		8.3.1.12.1	145	0		
+329688	1796	rGyalrong	na sa na srak	na sa na srak	ashamed	ashamed		8.3.3.8.2	146	0		m,m,m,379
+329689	1796	rGyalrong	kA sa yi |mus	kA sa yi mus	forget	forget		8.3.1.16.1	147	0		m,m,1860
+329690	1796	rGyalrong	ta rmo	ta rmo	dream	dream		1.1.4.2	148	0		p,126
+329691	1796	rGyalrong	ka na tso	ka na tso	see	see		1.2.6.10	149	0		
+329692	1796	rGyalrong	kA mem	kA mem	smell	smell		1.2.8.5	150	0		
+329693	1796	rGyalrong	kA NbaH	kA NbaH	thin	thin		9.7.2	151	0		p,5551
+329694	1796	rGyalrong	kA mtro	kA mtro	old	old		7.1.8.3	152	0		
+329695	1796	rGyalrong	kA Nbe	kA Nbe	old	old		7.1.8.3	152	0		
+329696	1796	rGyalrong	kA mA so	kA mA so	alive	alive		1.1.2.1	153	0	D1	
+329697	1796	rGyalrong	tu Ngo	tu Ngo	ill	ill		1.1.5.1	154	0		m,1849
+329698	1796	rGyalrong	kA tsho	kA tsho	fat	fat		1.6.4	155	0		m,42
+329699	1796	rGyalrong	kA ra gyak	kA ra gyak	itchy	itchy		1.6.5.5	156	0		
+329700	1796	rGyalrong	kA pyot	kA pyot	full	full		1.1.3.2	157	0		
+329701	1796	rGyalrong	kA Nbro	kA Nbro	long	long		9.7.2	158	0		
+329702	1796	rGyalrong	kA skreN	kA skreN	long	long		9.7.2	158	0		p,1011
+329703	1796	rGyalrong	kA Ndzet	kA Ndzet	long	long		9.7.2	158	0		
+329704	1796	rGyalrong	kA khyu	kA khyu	sweet	sweet		7.1.4.4	159	0		m,2380
+329705	1796	rGyalrong	kA mA shi tak	kA mA shi tak	cold	cold		7.1.2.3	160	0		
+329706	1796	rGyalrong	kA cak	kA cak	bitter	bitter		7.1.4.4	161	0		229,m
+329707	1796	rGyalrong	kA cor	kA cor	sour	sour		7.1.4.4	162	0		p,2379
+329708	1796	rGyalrong	kA va rne	kA va rne	red	red		9.4	163	0		m,m,2499
+329709	1796	rGyalrong	kA du	kA du	heavy	heavy		9.6.2	164	0		
+329710	1796	rGyalrong	kA mpya	kA mpya	warm	warm		7.1.2.3	165	0		
+329711	1796	rGyalrong	ka po lor	ka po lor	round	round		9.7.1	166	0		
+329712	1796	rGyalrong	kA nga po lor	kA nga po lor	round	round		9.7.1	166	0		
+329713	1796	rGyalrong	kA smAN	kA smAN	ripe	ripe		3.1.10	167	0		m,2449
+329714	1796	rGyalrong	kA Njem	kA Njem	soft	soft		7.1.4.2	168	0		
+329715	1796	rGyalrong	kA pram	kA pram	white	white		9.4	169	0		p,3608
+329716	1796	rGyalrong	kA nak	kA nak	black	black		9.4	170	0		m,2483
+329717	1796	rGyalrong	kA yak	kA yak	thick	thick		9.7.2	171	0		p,5729
+329718	1796	rGyalrong	kA shAk|	kA shAk|	new	new		9.6.1.1	172	0		6178
+329719	1796	rGyalrong	kser pe	kser pe	new	new		9.6.1.1	172	0		2651,m
+329720	1796	rGyalrong	kA ngam cok	kA ngam cok	sharp	sharp		6.9.2	173	0		
+329721	1796	rGyalrong	kA gyo	kA gyo	lightweight	lightweight		7.1.5.1	174	0		
+329722	1796	rGyalrong	ka NdzaH	ka NdzaH	eat	eat		1.5.3.2	175	0		m,36
+329723	1796	rGyalrong	kA mot	kA mot	drink	drink			176	0		
+329724	1796	rGyalrong	ka Nbu	ka Nbu	give	give		6.23	177	0		
+329725	1796	rGyalrong	ka rgop	ka rgop	tie	tie		6.13.1	178	0		
+329726	1796	rGyalrong	tam tut	tam tut	tie	tie		6.13.1	178	0		
+329727	1796	rGyalrong	kA shA mo	kA shA mo	steal	steal		6.2.2.1	179	0		
+329728	1796	rGyalrong	ka nu zok	ka nu zok	lick	lick		1.3.3.1	180	0		p,p,629
+329729	1796	rGyalrong	kham cuk ka let	kham cuk ka let	bite	bite		1.3.4.4	181	0		
+329730	1796	rGyalrong	ka ra khrok	ka ra khrok	scratch	scratch		1.6.5.5	182	0		
+329731	1796	rGyalrong	ka bzhok	ka bzhok	scratch	scratch		1.6.5.5	182	0		
+329732	1796	rGyalrong	tu Ndze ka va	tu Ndze ka va	cook	cook		5.5	183	0		
+329733	1796	rGyalrong	ta Ndzor ka let	ta Ndzor ka let	grind	grind		9.5	184	0		
+329734	1796	rGyalrong	ka rcu	ka rcu	wash	wash		6.2.2.5.2	185	0		
+329735	1796	rGyalrong	ka rdzo wa	ka rdzo wa	dig	dig		6.11	186	0		
+329736	1796	rGyalrong	ka va rdi	ka va rdi	let go	let go		6.19	187	0		
+329737	1796	rGyalrong	ka let	ka let	let go	let go		6.19	187	0		
+329738	1796	rGyalrong	ka va mek	ka va mek	extinguish	extinguish		3.2.12.1	188	0		
+329739	1796	rGyalrong	ka va |mot	ka va mot	blow	blow		1.3.1.4	189	0		p,503
+329740	1796	rGyalrong	ka va phu	ka va phu	blow	blow		1.3.1.4	189	0		m,m,503
+329741	1796	rGyalrong	ka ku	ka ku	buy	buy		6.22	190	0		
+329742	1796	rGyalrong	ka sa vu zdu	ka sa vu zdu	sew	sew		5.1	191	0		
+329743	1796	rGyalrong	ka sat	ka sat	kill	kill		6.4	192	0		m,1018
+329744	1796	rGyalrong	tA tak ka va	tA tak ka va	weave	weave		5.1	193	0		p,2686,p,m
+329745	1796	rGyalrong	ku nga Ndza NdzaH	ku nga Ndza NdzaH	rub	rub		8.4	194	0		
+329746	1796	rGyalrong	ka kcar	ka kcar	squeeze	squeeze		9.5	195	0		
+329747	1796	rGyalrong	ka let	ka let	shoot	shoot		6.2.2.1	196	0		
+329748	1796	rGyalrong	ta zbrok	ta zbrok	kick	kick		6.2.2.3.3	197	0		
+329749	1796	rGyalrong	ka Npher	ka Npher	sell	sell		6.22	198	0		
+329750	1796	rGyalrong	ka ta	ka ta	put	put		6.17	199	0		
+329751	1796	rGyalrong	ka shi Ndrek	ka shi Ndrek	drive	drive		6.7.10	200	0		
+329752	1796	rGyalrong	ka Ndrek	ka Ndrek	drive	drive		6.7.10	200	0		
+329753	1796	rGyalrong	kA var wek	kA var wek	drive	drive		6.7.10	200	0		
+329754	1796	rGyalrong	kA Nber	kA Nber	burn	burn		3.2.12.1	200a	0	HIDE	DUPE IN SOURCE
+329755	1796	rGyalrong	shi kap lu	shi kap lu	burn	burn		3.2.12.1	200a	0		
+329756	1796	rGyalrong	ka rzhuk	ka rzhuk	cut	cut		6.9.3	200b	0		
+329757	1796	rGyalrong	ka raN tsuk	ka raN tsuk	cut	cut		6.9.3	200b	0		
+329758	1796	rGyalrong	Ndzam ling	Ndzam ling	world / cosmos	world / cosmos		9.10.2	1.1	0		
+329759	1796	rGyalrong	zhing kham	zhing kham	world / cosmos	world / cosmos		9.10.2	1.1	0		
+329760	1796	rGyalrong	Njik rteN	Njik rteN	world / cosmos	world / cosmos		9.10.2	1.1	0		
+329761	1796	rGyalrong	rang Nbyong kham	rang Nbyong kham	nature	nature		3.2.1	1.2	0		
+329762	1796	rGyalrong	ot	ot	light	light		7.1.11.1	1.3	0		
+329763	1796	rGyalrong	ta byes	ta byes	shadow	shadow		3.2.10	1.4	0		
+329764	1796	rGyalrong	ku rnyus	ku rnyus	dark	dark		9.4	1.6	0		p,2483
+329765	1796	rGyalrong	nam khaH	nam khaH	sky	sky		3.2.2	2.1	0		2484,697
+329766	1796	rGyalrong	kA yam	kA yam	sun	sun		3.2.10	2.2	0		
+329767	1796	rGyalrong	kA yam wu ot	kA yam wu ot	sunlight	sunlight		3.2.10	2.21	0		
+329768	1796	rGyalrong	kA yam ku hlok	kA yam ku hlok	sunrise	sunrise		3.2.10	2.22	0		
+329769	1796	rGyalrong	tA fsok NbaH	tA fsok NbaH	dawn	dawn		9.1.4	2.23	0		
+329770	1796	rGyalrong	shu nu Ngu	shu nu Ngu	day	day		1.5.3.2	2.24	0		
+329771	1796	rGyalrong	kA yam kA shA klet	kA yam kA shA klet	sunset	sunset		3.2.10	2.25	0		
+329772	1796	rGyalrong	tA mor she	tA mor she	dusk	dusk		9.1.4	2.26	0		
+329773	1796	rGyalrong	ku rnyus	ku rnyus	darkness	darkness		9.4	2.27	0		
+329774	1796	rGyalrong	so war	so war	darkness	darkness		9.4	2.27	0		
+329775	1796	rGyalrong	tsu la	tsu la	moon	moon		3.2.2	2.3	0		m,1016
+329776	1796	rGyalrong	tsu la wu ot	tsu la wu ot	moonlight	moonlight		3.2.10	2.31	0		m,1016,m,m
+329777	1796	rGyalrong	tsu Ngre	tsu Ngre	star	star		3.2.2	2.4	0		m,3574
+329778	1796	rGyalrong	tsu Ngre tar gyap kA le	tsu Ngre tar gyap kA le	comet	comet		3.2.2	2.41	0		
+329779	1796	rGyalrong	NjaH	NjaH	rainbow	rainbow		3.2.1	2.5	0		6000
+329780	1796	rGyalrong	kha |lu	kha lu	wind	wind		3.2.1	3.1	0		2412
+329781	1796	rGyalrong	kha lu ku vo	kha lu ku vo	blow	blow		1.3.1.4	3.11	0		
+329782	1796	rGyalrong	kha lu vAr vAr	kha lu vAr vAr	whirlwind	whirlwind		3.2.1	3.12	0		
+329783	1796	rGyalrong	zdem	zdem	cloud	cloud		3.2.1	3.3	0		5656
+329784	1796	rGyalrong	zdem kya	zdem kya	fog	fog		3.2.1	3.31	0		5656,m
+329785	1796	rGyalrong	tA mu kA lop	tA mu kA lop	cloudy	be cloudy	be v.	3.2.2	3.33	0		p,2473,p,m
+329786	1796	rGyalrong	tA mu kA rup	tA mu kA rup	cloudy	be cloudy	be v.	3.2.2	3.33	0		p,2473,p,m
+329787	1796	rGyalrong	tA mu	tA mu	rain	rain		3.2.1	3.4	0		p,2473
+329788	1796	rGyalrong	tA mu wawa Nthek	tA mu wawa Nthek	raindrop	raindrop		3.2.1	3.41	0		
+329789	1796	rGyalrong	shu ru	shu ru	dew	dew			3.42	0		59,m
+329790	1796	rGyalrong	sngar	sngar	frost	frost		3.2.1	3.43	0		3565
+329791	1796	rGyalrong	tey va	tey va	snow	snow		3.2.1	3.44	0		m,3554
+329792	1796	rGyalrong	tA rmok	tA rmok	hail	hail		3.2.1	3.45	0		
+329793	1796	rGyalrong	ma ku skri	ma ku skri	storm	storm		3.2.1	3.5	0		
+329794	1796	rGyalrong	ta rmok	ta rmok	thunder	thunder		3.2.1	3.51	0		p,2465
+329795	1796	rGyalrong	ta Nbya	ta Nbya	lightning	lightning		3.2.1	3.52	0		
+329796	1796	rGyalrong	tAm cuk	tAm cuk	fire	fire		3.2.12.2	4.1	0	D1	
+329797	1796	rGyalrong	tAm cuk tsu Ngre	tAm cuk tsu Ngre	spark	spark		3.2.12.2	4.12	0		
+329798	1796	rGyalrong	tAm cuk kA va tshar	tAm cuk kA va tshar	sparkle	sparkle		7.1.11.1	4.121	0		
+329799	1796	rGyalrong	ta khu	ta khu	smoke	smoke		3.2.12.2	4.13	0		p,2361
+329800	1796	rGyalrong	skya kAp ku le	skya kAp ku le	ash	ash		3.2.12.2	4.15	0		
+329801	1796	rGyalrong	kA Nber	kA Nber	burn	burn		3.2.12.1	4.2	0	D1	
+329802	1796	rGyalrong	ka va nat	ka va nat	kindle	kindle		3.2.12.1	4.21	0		
+329803	1796	rGyalrong	tA mchuk kA va gu guk	tA mchuk kA va gu guk	blaze	blaze		3.2.12.2	4.22	0		
+329804	1796	rGyalrong	na ka va shu ke	na ka va shu ke	burnt	be burnt	be v.	3.2.12.1	4.25	0		
+329805	1796	rGyalrong	tA mcuk ka va mek	tA mcuk ka va mek	extinguish	extinguish		3.2.12.1	4.26	0		
+329806	1796	rGyalrong	tA gyu	tA gyu	water	water		3.2.3	5.1	0		
+329807	1796	rGyalrong	gyu Nbok	gyu Nbok	puddle	puddle		3.2.3	5.11	0		
+329808	1796	rGyalrong	tA mu gyu	tA mu gyu	rainwater	rainwater		3.2.1	5.12	0		
+329809	1796	rGyalrong	ku Ndzer gyu	ku Ndzer gyu	spring water	spring water		6.7.9	5.13	0		
+329810	1796	rGyalrong	tA gyu ku tsu ru	tA gyu ku tsu ru	salt water	salt water		3.2.4	5.14	0		
+329811	1796	rGyalrong	mtsho	mtsho	sea	sea		3.2.3	5.2	0		
+329812	1796	rGyalrong	gyu rbes	gyu rbes	tide	tide		3.2.3	5.21	0		
+329813	1796	rGyalrong	mtshew	mtshew	lake	lake		3.2.5	5.3	0		
+329814	1796	rGyalrong	gyur Nbok	gyur Nbok	pond	pond		3.2.3	5.31	0		
+329815	1796	rGyalrong	mnyaN Ngung	mnyaN Ngung	river	river		3.2.3	5.4	0		
+329816	1796	rGyalrong	tA gyu kA vA rmo	tA gyu kA vA rmo	flow	to flow	v	6.6.1	5.41	0		
+329817	1796	rGyalrong	kA vA tri	kA vA tri	flow	to flow	v	6.6.1	5.41	0		
+329818	1796	rGyalrong	tA gyu kA Ndzar	tA gyu kA Ndzar	current	current			5.42	0		
+329819	1796	rGyalrong	kA Ndzer	kA Ndzer	spring	spring		6.7.9	5.7	0		
+329820	1796	rGyalrong	tong chu	tong chu	well	well		9.6.1.1	5.71	0		b?
+329821	1796	rGyalrong	ta rpam	ta rpam	ice	ice		3.2.3	5.8	0		
+329822	1796	rGyalrong	kA rpem	kA rpem	freeze	to freeze	v	9.5	5.81	0		
+329823	1796	rGyalrong	kA Ndru	kA Ndru	melt	to melt	v	9.5	5.82	0		p,5438
+329824	1796	rGyalrong	tA nbos	tA nbos	flood	flood		3.2.3	5.9	0		
+329825	1796	rGyalrong	tA mu yem	tA mu yem	drought	drought		3.2.3	5.10	0		
+329826	1796	rGyalrong	sa cha	sa cha	earth	earth		3.2.11	6.1	0		587,5671
+329827	1796	rGyalrong	Nbru lu	Nbru lu	earthquake	earthquake		3.2.6	6.11	0		
+329828	1796	rGyalrong	sa	sa	soil	soil		3.2.11	6.2	0		
+329829	1796	rGyalrong	kA Nbek	kA Nbek	sand	sand		3.2.11	6.21	0		
+329830	1796	rGyalrong	tA pke	tA pke	clay	clay		3.2.11	6.22	0		
+329831	1796	rGyalrong	phu lu	phu lu	clod	clod		3.2.11	6.23	0		
+329832	1796	rGyalrong	rdul	rdul	dust	dust		3.2.11	6.24	0		2203
+329833	1796	rGyalrong	???	???	silt	silt		3.2.11	6.25	0		
+329834	1796	rGyalrong	ta rkyok	ta rkyok	mud	mud		3.2.11	6.3	0		
+329835	1796	rGyalrong	gyur Nbok	gyur Nbok	quicksand	quicksand			6.31	0		
+329836	1796	rGyalrong	rna chu	rna chu	swamp	swamp		3.2.5	6.4	0		
+329837	1796	rGyalrong	ta NbaH	ta NbaH	mountain	mountain		3.2.5	6.51	0		
+329838	1796	rGyalrong	ta NbaH ku tsu	ta NbaH ku tsu	hill	hill		3.2.5	6.52	0		
+329839	1796	rGyalrong	kro wo	kro wo	mound	mound		3.2.5	6.53	0		
+329840	1796	rGyalrong	ta NbaH wa zgung	ta NbaH wa zgung	ridge	ridge		3.2.5	6.54	0		
+329841	1796	rGyalrong	prak	prak	cliff	cliff		3.2.5	6.55	0		
+329842	1796	rGyalrong	kA nga tam	kA nga tam	lowlands	lowlands		3.2.5	6.6	0		
+329843	1796	rGyalrong	kya kha	kya kha	valley	valley		3.2.5	6.7	0		
+329844	1796	rGyalrong	gyu luk	gyu luk	stone	stone		3.2.9	6.81	0	D1	m,1269
+329845	1796	rGyalrong	ka pum	ka pum	flintstone	flintstone		3.2.9	6.811	0		
+329846	1796	rGyalrong	gyu pu	gyu pu	pebble	pebble		3.2.9	6.82	0		
+329847	1796	rGyalrong	khong Ngyu	khong Ngyu	hole	hole		3.2.7	6.9	0		
+329848	1796	rGyalrong	pra kung	pra kung	cave	cave		3.2.7	6.91	0		2166,m
+329849	1796	rGyalrong	ta zor	ta zor	crack	crack		3.2.7	6.92	0		
+329850	1796	rGyalrong	kho Ngyu	kho Ngyu	pit	pit		3.1.2	6.93	0		
+329851	1796	rGyalrong	kho Ngyu ka gyu	kho Ngyu ka gyu	hole / perforation	hole / perforation		3.2.7	6.94	0		
+329852	1796	rGyalrong	tshe	tshe	salt	salt		3.2.4	7.1	0		2729
+329853	1796	rGyalrong	pra	pra	saltpeter	saltpeter			7.3	0		
+329854	1796	rGyalrong	sham	sham	iron	iron		3.2.4	8.1	0	D1	2676
+329855	1796	rGyalrong	rtse	rtse	rust	rust		3.2.4	8.11	0		5442
+329856	1796	rGyalrong	tar ne	tar ne	gold	gold		3.2.4	8.2	0		
+329857	1796	rGyalrong	po nge	po nge	silver	silver		3.2.4	8.3	0	D1	m,2536
+329858	1796	rGyalrong	zang	zang	copper	copper		3.2.4	8.4	0		
+329859	1796	rGyalrong	kshaH	kshaH	rin	rin			8.41	0		
+329860	1796	rGyalrong	zang	zang	brass	brass		3.2.4	8.42	0		
+329861	1796	rGyalrong	ro ko	ro ko	bronze	bronze		3.2.4	8.43	0		
+329862	1796	rGyalrong	sha nye	sha nye	lead	lead		6.2.2.1	8.5	0		
+329863	1796	rGyalrong	ha yang	ha yang	lead	lead		6.2.2.1	8.5	0		

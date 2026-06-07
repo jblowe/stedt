@@ -1,0 +1,21 @@
+tag: 797
+grpid: 2
+proto_language: PTB
+protoform: g-l(y)am
+gloss: SWEAT
+semkey: 1.8.1
+sequence: 1.3
+status: KEEP
+public: true
+references: KEEP 6/2012
+phonology:
+  handle: g/s-
+  prefix: g/s
+  initial: l(y)
+  rhyme: am
+  initcover: L
+  rhymecover: N
+notes:
+- type: I
+  text: '<par>This root bears some resemblance to <xref ref="2420">#2420</xref>, which led Weidert (1987,
+    #363) to combine them into a single etymon. We consider these two roots to be separate.</par>'

@@ -1,0 +1,29 @@
+tag: 1219
+grpid: 2
+proto_language: PTB
+protoform: m-si-t
+gloss: COMB / RAKE
+semkey: 1.2.2.1
+sequence: 3.0
+status: KEEP
+public: false
+references: cf. STC#466, HPTB pp.193,460
+phonology:
+  handle: siy
+  prefix: m
+  initial: s
+  rhyme: i(y)
+  initcover: S
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: thiʔ
+  gloss: COMB (n.)
+- grpid: 66
+  group: 1.3.4
+  form: si
+  gloss: COMB
+notes:
+- type: I
+  text: <par>Check glosses of all forms.</par>

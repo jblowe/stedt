@@ -1,0 +1,37 @@
+tag: 1373
+grpid: 2
+proto_language: PTB
+protoform: s-daːy
+gloss: WAIST / BELT / ZONE / FLAT EXPANSE
+semkey: 1.4.6
+sequence: 9.0
+status: KEEP
+public: true
+phonology:
+  handle: daːy
+  prefix: s
+  initial: d
+  rhyme: aːy
+  initcover: T
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: taay
+  gloss: WAIST
+- grpid: 42
+  group: '6.1'
+  form: N-day³
+  gloss: LEVEL EXPANSE / PLAIN
+notes:
+- type: T
+  text: <par>This root may well be related to <xref ref="519">#519</xref>, with which it has an obvious
+    semantic connection, as well as a nearly identical phonological form.</par>
+- type: T
+  text: <par>The nasal prefix in Lolo-Burmese <latinform>*N-day³</latinform> is directly attested in several
+    Yi dialects, as well as indirectly by the Lahu voiced initial.</par>
+- type: F
+  text: '<par>Definitely cognate is the following:</par><par> <hanform>帶</hanform> OC <latinform>*tɑ̂d</latinform>,
+    GSR #315a &apos;girdle, sash; carry at the girdle&apos;; B &amp; S 2011: <latinform>*C.tˤat-s {C.tˤa[t]-s}</latinform>;
+    Mand. <latinform>dài</latinform>; </par><par>The modern word also means &apos;zone; area&apos;, e.g.
+    <hanform>熱帶</hanform>, Mand. <latinform>rèdài</latinform>, &apos;torrid zone&apos;).</par>'

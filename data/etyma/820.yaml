@@ -1,0 +1,79 @@
+tag: 820
+grpid: 2
+proto_language: PTB
+protoform: (g/k)uŋ
+gloss: HOLE / ORIFICE / INNER PART
+semkey: 3.2.7
+sequence: 93.0
+status: KEEP
+public: true
+references: cf. HPTB pp.285, 310
+phonology:
+  handle: kuŋ
+  initial: k
+  rhyme: uŋ
+  initcover: K
+  rhymecover: N
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: koːŋ
+  gloss: EMPTY
+- grpid: 23
+  group: 2.1.4
+  form: ᴮkʰuŋ
+  gloss: HOLE / PIT
+- grpid: 29
+  group: '2.3'
+  form: goŋ
+  gloss: HEART
+- grpid: 42
+  group: '6.1'
+  form: guŋ² ⪤ kuŋ²
+  gloss: HOLLOW / HOLE / EMPTY
+- grpid: 45
+  group: 6.1.2
+  form: koŋ¹
+  gloss: INSIDE HOUSE
+notes:
+- type: T
+  text: '<par>This widespread etymon is similar to <xref ref="665">#665</xref> (below), in that it typically
+    occurs as the second morpheme in binomes referring to orifices of the body, especially EAR, NOSTRIL,
+    and ANUS; occasionally it occurs in compounds for VAGINA.</par><par>This etymon is certainly allofamically
+    related to <xref ref="387">#387</xref>, as in the last syllable of, e.g. Lahu <latinform>ó-qō</latinform>
+    &apos;head&apos; &lt; PLB <reconstruction>*bʷu²-ʔgoŋ²</reconstruction>.</par><par>It is also very
+    possible that it is allofamically related to <xref ref="3432">#3432</xref>. For remarks on velar/laryngeal
+    interchange in TB, see <xref ref="664">#664</xref> above.</par><par>There are excellent Chinese comparanda:
+    <hanform>空</hanform> OC <reconstruction>*k&apos;ung</reconstruction>, GSR #1172h &apos;hollow, empty&apos;
+    and <hanform>孔</hanform> OC <reconstruction>*k&apos;ung</reconstruction>, GSR #1174a-b &apos;very,
+    greatly; empty&apos;. Another likely Chinese relative is <hanform>肛</hanform> &apos;anus&apos;, Mand.
+    <latinform>gāng</latinform> (not in GSR #1172), though this might fit better with <xref ref="219">#219</xref>.
+    See ZJH&apos;s discussion, below.</par><par>It is often difficult to distinguish reflexes of this
+    etymon from those of <xref ref="665">#665</xref>, especially with respect to Loloish and Qiangic.
+    More than one allofam are evidently involved; cf. e.g. Lahu <latinform>qhɔ</latinform> &apos;inside;
+    hole&apos; ⪤ <latinform>qō</latinform> &apos;hollow object&apos;.</par>'
+- type: F
+  text: '<par><hanform>空</hanform> OC <latinform>*kʼung</latinform> GSR #1172h ‘hollow, empty’; Li 1971:
+    <latinform>*khung</latinform>; Baxter:1992:771 <latinform>*khong</latinform>; Mand. <latinform>kōng</latinform>.</par><par><hanform>孔</hanform>
+    OC <latinform>*kʼung</latinform>, GSR #1174a ‘very, greatly; empty’; Li 1971: <reconstruction>*khungx</reconstruction>;
+    Baxter 1992: <reconstruction>*khongʔ</reconstruction>; Mand. <latinform>kǒng</latinform>.</par><par>This
+    OC-PTB comparison is long-recognized.  See for example Simon 1929, Gong 1995 #75, Coblin 1986:71.</par><par>The
+    Chinese forms are a perfect match for the TB reconstruction. For another example of this final correspondence,
+    cf. <xref ref="3447">#3447</xref>.  On the aspiration mismatch in the initial corresponce, see the
+    discussion under <xref ref="1654">#1654</xref>.</par><par>The two Chinese forms are clearly etymological
+    doublets.  Schuessler (2007:335) speculates that <hanform>孔</hanform> <latinform>kǒng</latinform>
+    may be an &apos;endoactive&apos; derivation meaning &apos;hole&apos;, from <hanform>空</hanform> <latinform>kōng</latinform>
+    ‘hollow, empty’, lit. &apos;that which is hollow, empty&apos;.</par>'
+- type: F
+  text: '<par><hanform>肛</hanform> OC (see below) &apos;lower intestines/anus&apos;, GSR: not in #1172;
+    Mand. <latinform>gāng</latinform>.</par><par>This word is not attested until the Middle Chinese period.  The
+    Old Chinese reconstruction would be <reconstruction>*krung</reconstruction> (Li)/<reconstruction>*krong</reconstruction>
+    (Baxter) if we assume membership in GSR #1172; however, it is possible that the Old Chinese source
+    is <reconstruction>*krong</reconstruction> (Li)/<reconstruction>*krung</reconstruction> (Baxter),
+    and that the phonetic element of the character was chosen after the merger of these two OC finals.  (The
+    Mandarin pronunciation of <hanform>肛</hanform> <latinform>gāng</latinform> is irregular; we would
+    expect <latinform>jiāng</latinform>.)</par><par>Schuessler (2007:251) suggests a comparison with WT
+    <latinform>gźaŋ</latinform> &apos;anus&apos;; however, the vowel correspondence is not good (unless
+    a late borrowing is involved).  It is certainly possible that this word is in the same family as <hanform>空</hanform>
+    <latinform>kōng</latinform> and <hanform>孔</hanform> <latinform>kǒng</latinform>, although the function
+    of <reconstruction>*-r-</reconstruction> is not clear.<br />[ZJH]</par>'

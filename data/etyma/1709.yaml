@@ -1,0 +1,19 @@
+tag: 1709
+grpid: 2
+proto_language: PTB
+protoform: nuŋ
+gloss: PUS
+semkey: 1.8.6.1
+sequence: 11.0
+status: KEEP
+public: true
+references: Sinitic, Bahing
+phonology:
+  handle: nuŋ
+  initial: n
+  rhyme: uŋ
+  initcover: M
+  rhymecover: N
+notes:
+- type: F
+  text: <par><latinform>Comment:</latinform> See comparanda for <xref ref="698">#698</xref>.</par>

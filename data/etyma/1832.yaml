@@ -1,0 +1,21 @@
+tag: 1832
+grpid: 2
+proto_language: PTB
+protoform: m-nyəw-t/s
+gloss: FULL / SATIATED
+semkey: 1.1.3.2
+sequence: 11.0
+status: KEEP
+public: true
+phonology:
+  handle: ȵəw
+  initial: ȵ
+  rhyme: əw
+  rhymecover: W
+notes:
+- type: T
+  text: <par>This root bears a certain resemblance to <xref ref="5715">#5715</xref>, but we are keeping
+    it separate for now. Both the <latinform>*-t</latinform> and the <latinform>*-s</latinform> suffixes
+    are attested in rGyalrongic, with occasional forms having a <latinform>-k</latinform> or <latinform>-p</latinform>
+    coda.</par><par>The reflexes have meanings referring either to the fullness of a container or of one&apos;s
+    stomach.</par><par>The mid tone Naic forms indicate that they descend from a non-suffixed allofam.</par>

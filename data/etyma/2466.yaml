@@ -1,0 +1,16 @@
+tag: 2466
+grpid: 2
+proto_language: PTB
+protoform: mul = (s-)mul ~ (s-)mil ~ (r-)mul
+gloss: BODYHAIR
+sequence: 1220.0
+status: DELETE
+public: false
+xrefs: '363'
+references: 'STC p.15-16; duplicate of #363?'
+phonology:
+  handle: mul
+  initial: m
+  rhyme: ul=(s-)m
+  initcover: M
+  rhymecover: VNLS

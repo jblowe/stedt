@@ -1,0 +1,20 @@
+tag: 2459
+grpid: 2
+proto_language: PTB
+protoform: (m/b)rak
+gloss: CUT / TEAR / MAUL / LACERATE
+semkey: 6.9.3
+sequence: 1558.0
+status: KEEP
+public: true
+references: cf. STC#147, HPTB p.80
+phonology:
+  handle: mrak
+  initial: mr
+  rhyme: ak=mrak~
+  initcover: M
+  rhymecover: NLT
+notes:
+- type: F
+  text: '<par><hanform>略</hanform> OC <latinform>*gli̯ɑk</latinform>, GSR #766v &apos;sharp&apos;; Schuessler
+    2007:369 <latinform>*rak</latinform>; B &amp; S 2011: <latinform>*rak {[r]ak}</latinform>; Mand. <latinform>lüè</latinform>.</par>'

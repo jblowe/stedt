@@ -1,0 +1,82 @@
+tag: 71
+grpid: 2
+proto_language: PTB
+protoform: s-riŋ ⪤ s-r(y)aŋ
+gloss: LIVE / ALIVE / GREEN / RAW / GIVE BIRTH
+semkey: 1.1.2.1
+sequence: 39.0
+status: KEEP
+public: true
+references: STC#404, HPTB
+phonology:
+  handle: riŋ
+  prefix: s
+  initial: r
+  rhyme: iŋ
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: hriŋ-I, hrin-II
+  gloss: GREEN / ALIVE / FRESH
+- grpid: 66
+  group: 1.3.4
+  form: hriŋ
+  gloss: ALIVE
+- grpid: 12
+  group: 1.7.2
+  form: criŋ
+  gloss: ALIVE
+  variant: a
+- grpid: 12
+  group: 1.7.2
+  form: C-raŋ
+  gloss: ALIVE
+  variant: b
+- grpid: 29
+  group: '2.3'
+  form: hiŋ-
+  gloss: LIVE
+- grpid: 42
+  group: '6.1'
+  form: tsiŋ²
+  gloss: LIVE
+notes:
+- type: T
+  text: '<par>This etymon constitutes a large set in STC (#404), where it was originally reconstructed
+    with <reconstruction>*-a- ⪤ *-i-</reconstruction> variation at the PTB level: <reconstruction>*s-riŋ
+    ⪤ *s-raŋ</reconstruction>. Benedict later changed the reconstruction to <reconstruction>*śriŋ</reconstruction>
+    (n. 252, n.128), explaining the <latinform>-a-</latinform> in WB <latinform>hraŋ</latinform> as being
+    &apos;conditioned by the initial cluster&apos;. I find this revision unconvincing, and prefer to posit
+    vocalic variation at the proto-level.  (This is similar to the <reconstruction>*-ya- ⪤* -i-</reconstruction>
+    variation found in several roots, notably EYE and PHEASANT. See STC pp. 84-5, VSTB pp. 40-1.) There
+    is an excellent Chinese comparandum, <hanform>生</hanform>, reconstructed in GSR #812a-d as OC <reconstruction>*sĕng</reconstruction>/MC
+    <latinform>ṣɒng</latinform>; Mand. <latinform>shēng</latinform>. But here too Karlgren notes an irregular
+    vocalic development from OC to MC (one would have expected MC <latinform>ṣɛng</latinform>). The semantic
+    fit between the TB forms and Chinese is extraordinarily good.</par>'
+- type: T
+  text: <par>This root is perhaps to be reconstructed <reconstruction>*tsiŋ</reconstruction> at the PLB
+    level (cf. Lahu <latinform>chɛ̂</latinform>).</par>
+- type: F
+  text: '<par><hanform>生</hanform> OC <reconstruction>*sĕng</reconstruction> GSR #812a, ‘live; bear, born;
+    fresh’; Li 1971: <reconstruction>*sring</reconstruction>; Baxter 1992 #130: <reconstruction>*srjeng</reconstruction>;
+    Mand. <latinform>shēng</latinform>.</par><par>For the reconstruction of <reconstruction>*-j-</reconstruction>
+    in Baxter’s system, see Baxter 1992:580-581. The development to Middle Chinese is regular in Baxter’s
+    system, while it is irregular in Li’s system.</par><par>This is a long-recognized cognate (see e.g.
+    STC #404). The Chinese initial and coda correspond to the Tibeto-Burman. In Li’s reconstruction, the
+    main vowel <reconstruction>*i</reconstruction> is also a perfect match for the TB vowel. Baxter’s
+    OC system does not permit a final <reconstruction>*-ing</reconstruction> reconstruction. Baxter postulates
+    developments <reconstruction>*-ing</reconstruction> &gt; <reconstruction>*-in</reconstruction> and
+    <reconstruction>*-ing</reconstruction> &gt; <reconstruction>*-eng</reconstruction> (depending on dialect)
+    predating the Old Chinese period (1992:299,563). In this case the comparative evidence points to <reconstruction>*-ing</reconstruction>
+    &gt; <reconstruction>*-eng</reconstruction>, and Baxter’s reconstruction is also a perfect match for
+    the Tibeto-Burman.</par><par>Other Chinese members of the word family (such as <hanform>青</hanform>
+    ‘green; color of living things’, Mand. <latinform>qīng</latinform> ) apparently reflect PST allofams
+    with vowel <reconstruction>*a</reconstruction> and/or lacking medial <reconstruction>*r</reconstruction>.  See
+    Schuessler (2007:431, 459-460) for tables comparing Chinese and Tibeto-Burman allofams.</par><par>=====================================================</par><par><hanform>性</hanform>
+    <hanform>姓</hanform> <hanform>生</hanform> <hanform>蒼</hanform></par><par>Schuessler (2007:76, 460)
+    further argues that this etymon derives from PST <reconstruction>*sri</reconstruction> ‘to be, exist’.<br
+    />[ZJH]</par><par>A better match for TO BE / EXIST is <xref ref="2608">#2608</xref>, [JAM]</par>'
+- type: I
+  text: <par>support for voiceless initial comes from E Tusom data (not yet imported)</par>

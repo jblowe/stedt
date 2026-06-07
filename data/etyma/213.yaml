@@ -1,0 +1,17 @@
+tag: 213
+grpid: 2
+proto_language: PTB
+protoform: r-gyap
+gloss: BACK (lower) / LOINS
+semkey: 1.4.8
+sequence: 3.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: PELVIS
+phonology:
+  handle: gyap
+  initial: gy
+  rhyme: ap
+  initcover: K
+  rhymecover: T

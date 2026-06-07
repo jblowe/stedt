@@ -1,0 +1,43 @@
+tag: 164
+grpid: 2
+proto_language: PTB
+protoform: d-puːk
+gloss: BELLY / VITALS / HOLLOW OBJECT / CAVE
+semkey: 1.4.7
+sequence: 1.3
+status: KEEP
+public: true
+references: STC#358
+phonology:
+  handle: s/ʔ/d-
+  initial: p
+  rhyme: uːk
+  initcover: P
+  rhymecover: T
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: puk
+  gloss: HEART
+- grpid: 66
+  group: 1.3.4
+  form: buk
+  gloss: BELLY / STOMACH
+- grpid: 5
+  group: 1.1.1
+  form: pɯk
+  gloss: CAVE
+- grpid: 63
+  group: 1.3.1
+  form: puk
+  gloss: STOMACH, BELLY
+notes:
+- type: T
+  text: <par>The dental prefix is attested in Ao, Lepcha, and rGyalrong. The Chepang, Magar, and Maru
+    forms show preemption of the initial by this prefix.</par><par>Limbu appears to show an <latinform>s-</latinform>
+    prefix in this root, but this is apparently a reduction of the full syllable <latinform>sap</latinform>,
+    of still undetermined meaning.</par>
+- type: F
+  text: '<par><hanform>腹</hanform> OC <latinform>*pi̯ôk</latinform>, GSR #1034h &apos;belly&apos;; B &amp;
+    S 2011: <latinform>*puk {p(r)uk}</latinform>; Mand. <latinform>fù</latinform>.<br /><unicode>25A0D</unicode>;
+    &apos;cave&apos;.</par>'

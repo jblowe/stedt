@@ -1,0 +1,19 @@
+tag: 5419
+grpid: 2
+proto_language: PTB
+protoform: ney
+gloss: LOOK / TRY TO
+semkey: 1.2.6.11
+sequence: 9.0
+status: KEEP
+public: true
+references: cf. HPTB p. 206
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ney³ ⪤ *ʔney¹
+  gloss: LOOK / TRY
+notes:
+- type: T
+  text: <par>This root is particularly well-attested in Bodo-Garo and Lolo-Burmese, with a healthy sprinkling
+    of forms elsewhere.</par>

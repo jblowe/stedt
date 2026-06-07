@@ -1,0 +1,19 @@
+tag: 2180
+grpid: 2
+proto_language: PTB
+protoform: bu(w)
+gloss: WEAR
+semkey: 6.2.2.1
+sequence: 39.0
+status: KEEP
+public: true
+references: STC#428
+phonology:
+  handle: buw
+  initial: b
+  rhyme: u(w)
+  initcover: P
+  rhymecover: W
+notes:
+- type: T
+  text: <par>This root is perhaps allofamic with <xref ref="2579">#2579</xref>.</par>

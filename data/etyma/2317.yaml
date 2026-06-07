@@ -1,0 +1,21 @@
+tag: 2317
+grpid: 2
+proto_language: PTB
+protoform: klaw
+gloss: DIG OUT / WEED / HOE (v.)
+semkey: '6.11'
+sequence: 1641.0
+status: KEEP
+public: true
+references: cf. STC#269, HPTB p.23, 225
+phonology:
+  handle: klaw
+  initial: kl
+  rhyme: aw
+  initcover: K
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: khlaw
+  gloss: WEED (v.) / HOE (v.) / PLOUGH

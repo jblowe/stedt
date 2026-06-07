@@ -1,0 +1,16 @@
+tag: 638
+grpid: 2
+proto_language: PTB
+protoform: m-tep
+gloss: THUMB
+semkey: 1.5.6.1
+sequence: 1.0
+status: DELETE
+public: false
+phonology:
+  handle: tep
+  prefix: m
+  initial: t
+  rhyme: ep
+  initcover: T
+  rhymecover: T

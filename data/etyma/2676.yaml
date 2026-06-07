@@ -1,0 +1,17 @@
+tag: 2676
+grpid: 2
+proto_language: PTB
+protoform: syam
+gloss: IRON
+semkey: 3.2.4
+sequence: 6.0
+status: KEEP
+public: true
+exemplary: true
+references: STC#228
+phonology:
+  handle: syam
+  initial: sy
+  rhyme: am=śam
+  initcover: S
+  rhymecover: NS

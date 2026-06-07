@@ -1,0 +1,18 @@
+tag: 1796
+grpid: 2
+proto_language: PTB
+protoform: wan
+gloss: NAUSEATED / VOMIT
+semkey: 1.1.5.1
+sequence: 2.0
+status: KEEP
+public: true
+references: cf. STC#343, HPTB p. 292
+phonology:
+  handle: 'on'
+  rhyme: 'on'
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>This root was reconstructed as <latinform>*on</latinform> in STC #343, and as <latinform>*ʔon</latinform>
+    in HPTB:292.</par>'

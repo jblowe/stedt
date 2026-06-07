@@ -1,0 +1,16 @@
+tag: 652
+grpid: 2
+proto_language: PTB
+protoform: tsyar
+gloss: URINE
+semkey: 1.8.4
+sequence: 2.0
+status: KEEP
+public: true
+allofams: '653'
+phonology:
+  handle: tšir
+  initial: tš
+  rhyme: ir ~ ži
+  initcover: TS
+  rhymecover: L

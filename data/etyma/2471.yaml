@@ -1,0 +1,25 @@
+tag: 2471
+grpid: 2
+proto_language: PTB
+protoform: s-məw
+gloss: EAGLE, HAWK
+semkey: 2.2.4.1
+sequence: 1742.0
+status: KEEP
+public: true
+references: cf. STC#257, HPTB p.185
+phonology:
+  handle: muw
+  initial: m
+  rhyme: uw=məw
+  initcover: M
+  rhymecover: NW
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: muu ⪤ hmuu
+  gloss: HAWK / BIRD OF PREY
+- grpid: 5
+  group: 1.1.1
+  form: mɯ
+  gloss: EAGLE / HAWK

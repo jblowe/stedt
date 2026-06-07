@@ -1,0 +1,25 @@
+tag: 3321
+grpid: 2
+proto_language: PTB
+protoform: (r/n)iŋ
+gloss: GUMS
+semkey: 1.3.4.3
+sequence: 4.0
+status: KEEP
+public: true
+xrefs: '504'
+references: cf. Tsangla sha-ni-ring
+phonology:
+  handle: riŋ
+  initial: -r
+  rhyme: iŋ ⪤ -ni
+  rhymecover: VN
+notes:
+- type: I
+  text: '<par>Garo analysis is different from STC #3. There is a claim that <latinform>riŋ &lt; *rni</latinform>.
+    However, in Tsangla, <latinform>sha-ni-ring</latinform>, the second syll is already RED/GUMS 504.
+    Meithei has both <latinform>ya-ri</latinform> and <latinform>so-ni</latinform> (which may be spurious,
+    # 116164)</par>'
+- type: T
+  text: '<par>The Garo form <latinform>wa-riŋ</latinform> is derived from an earlier <reconstruction>**rni</reconstruction>
+    in STC #3, where it is assigned to <xref ref="504">#504</xref>, but the present analysis seems preferable.</par>'

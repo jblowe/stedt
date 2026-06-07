@@ -1,0 +1,17 @@
+tag: 1469
+grpid: 2
+proto_language: PTB
+protoform: m-bwaŋ
+gloss: BONE
+semkey: 1.6.3
+sequence: 7.0
+status: KEEP
+public: true
+xrefs: '375'
+phonology:
+  handle: boŋ
+  prefix: m
+  initial: b
+  rhyme: oŋ
+  initcover: P
+  rhymecover: N

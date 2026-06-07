@@ -1,0 +1,16 @@
+tag: 1472
+grpid: 2
+proto_language: PTB
+protoform: tsyar
+gloss: COCKSCOMB
+semkey: 1.2.2.1
+sequence: 8.0
+status: KEEP
+public: true
+references: ("BSD") BSDTK BM-PK736
+phonology:
+  handle: tšer
+  initial: tš
+  rhyme: er⪤cer
+  initcover: TS
+  rhymecover: L

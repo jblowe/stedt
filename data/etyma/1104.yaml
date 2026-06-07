@@ -1,0 +1,33 @@
+tag: 1104
+grpid: 2
+proto_language: PTB
+protoform: ŋəw
+gloss: WEEP
+semkey: 1.8.8.2
+sequence: 2.0
+status: KEEP
+public: true
+references: cf. HPTB p. 185, STC#079
+phonology:
+  handle: ŋuw/k
+  initial: ŋ
+  rhyme: uw/k
+  initcover: M
+  rhymecover: WT
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: ŋo¹
+  gloss: CRY
+- grpid: 42
+  group: '6.1'
+  form: ŋəw¹
+  gloss: WEEP
+notes:
+- type: T
+  text: <par>Proto-Kiranti reflects an allofam with a velar suffix. The Maru form <latinform>ŋuk³¹</latinform>,
+    on the other hand, shows the regular Maru reflex <latinform>-uk</latinform> of PTB <latinform>*-əw</latinform>,
+    as discovered by Burling (1966). (In a parallel manner, Maru <latinform>-it</latinform> is the regular
+    reflex of PTB <latinform>*-əy</latinform>.)</par>
+- type: F
+  text: <par>Cf. comparanda for <xref ref="2142">#2142</xref>.</par>

@@ -1,0 +1,35 @@
+tag: 2779
+grpid: 2
+proto_language: PTB
+protoform: w(y)a-t ⪤ wit
+gloss: WEAR / CLOTHE
+semkey: 6.2.2.1
+sequence: 1.2
+status: KEEP
+public: true
+references: cf. HPTB pp. 333, 508; STC p.24
+phonology:
+  handle: wat
+  initial: w
+  rhyme: at
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: we(e)t
+  gloss: WEAR (around body) / TIE (around)
+- grpid: 42
+  group: '6.1'
+  form: wyatᴸ
+  gloss: WEAR CLOTHES
+notes:
+- type: T
+  text: <par>Loloish has a simplex/causative pair WEAR / CAUSE TO WEAR, but shows no trace of a velar
+    initial. </par>
+- type: F
+  text: '<par><hanform>衣</hanform> OC <latinform>*ʔi̯ər</latinform>, GSR #550a-e &apos;clothing&apos;;
+    Schuessler 2007:563 <latinform>*ʔəi</latinform>; B &amp; S 2011: <latinform>*ʔəj</latinform>; Mand.
+    <latinform>yī</latinform>.<br /><hanform>衣</hanform> OC <latinform>*ʔi̯ər</latinform>, GSR #550a-e
+    &apos;wear (v.t.)&apos;; Schuessler 2007:563 <latinform>*ʔəih</latinform>; B &amp; S 2011: <latinform>*ʔəj-s
+    </latinform>; Mand. <latinform>yì</latinform>.</par>'

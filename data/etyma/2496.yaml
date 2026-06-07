@@ -1,0 +1,35 @@
+tag: 2496
+grpid: 2
+proto_language: PTB
+protoform: s-naːy ⪤ s-ney
+gloss: NEAR
+semkey: 9.2.3
+sequence: 2498.0
+status: KEEP
+public: true
+references: cf. STC#291
+phonology:
+  handle: ney
+  prefix: s-
+  initial: n
+  rhyme: aːy ⪤ ey
+  initcover: M
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: naay ⪤ hnaay
+  gloss: NEAR / CLOSE / ADJACENT
+- grpid: 66
+  group: 1.3.4
+  form: naj
+  gloss: NEAR
+notes:
+- type: F
+  text: '<par><hanform>邇</hanform> OC <latinform>*ńi̯ɑ̆r</latinform>, GSR #359c &apos;near&apos;; Coblin
+    86:111 ST <latinform>*nyɨy</latinform> &gt; OC <latinform>*njirx</latinform>; Mand. <latinform>ěr</latinform>.<br
+    /><hanform>尼</hanform> OC <latinform>*ni̯ər</latinform>, GSR #563a &apos;near&apos;; B &amp; S 2011:
+    <latinform>*nrəj {nr[əj]}</latinform>; Mand. <latinform>ní</latinform>.<br /><hanform>昵</hanform>
+    OC <latinform>*ńi̯ĕt</latinform>, GSR #563f &apos;familiar, intimate&apos;; B &amp; S 2011: <latinform>*nrit
+    {nri[t]}</latinform>; Mand. <latinform>nì</latinform>.<br /><hanform>暱</hanform> OC <latinform>*ńi̯ək</latinform>,
+    GSR #777n &apos;near, familiar with&apos;; B &amp; S 2011: <latinform>*n‹r›ik</latinform>; Mand. <latinform>nì</latinform>.</par>'

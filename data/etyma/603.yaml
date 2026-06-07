@@ -1,0 +1,24 @@
+tag: 603
+grpid: 2
+proto_language: PTB
+protoform: m/s-twa
+gloss: SPIT
+semkey: 1.8.3
+sequence: 7.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC p.58, HPTB pp. 173, 174
+phonology:
+  handle: twa
+  prefix: m
+  initial: tw
+  rhyme: a ~ s-tw
+  initcover: T
+  rhymecover: VWTS
+notes:
+- type: F
+  text: '<par><hanform>吐</hanform> OC <latinform>*t’wɑ̂</latinform>, GSR #31m &apos;spit&apos;; Coblin
+    86: OC <latinform>*thuarh</latinform>; B &amp; S 2011: <latinform>*tʰˁaʔ</latinform>; Mand. <latinform>tǔ</latinform>.<br
+    /><hanform>吐</hanform> OC <latinform>*t’wɑ̂</latinform>, GSR #31m &apos;vomit&apos;; B &amp; S 2011:
+    <latinform>*tʰˁaʔ-s</latinform>; Mand. <latinform>tù</latinform>.</par>'

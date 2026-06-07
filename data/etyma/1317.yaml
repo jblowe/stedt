@@ -1,0 +1,24 @@
+tag: 1317
+grpid: 2
+proto_language: PTB
+protoform: bwap
+gloss: CALF / LEG
+semkey: 1.5.7
+sequence: 1.2
+status: KEEP
+public: true
+xrefs: '163'
+possallo: 163,1854
+references: STC#030, HPTB p.381
+phonology:
+  handle: bop
+  initial: b
+  rhyme: op
+  initcover: P
+  rhymecover: T
+notes:
+- type: T
+  text: '<par>This root is only one allofam of a complex word family, including <latinform>*s-bwam</latinform>
+    &apos;plump / swollen&apos;, set up as a separate root in STC #172. This allofamy was recognized in
+    LTSR #92, which reconstructs PLB <latinform>*m-pwap ⪤ *C-pwam</latinform> &apos;swell up / be swollen
+    / stout / calf of leg&apos;.</par>'

@@ -1,0 +1,24 @@
+tag: 3509
+grpid: 2
+proto_language: PTB
+protoform: hak
+gloss: HANG
+semkey: 6.1.1.5
+sequence: 2095.0
+status: KEEP
+public: true
+references: JAM-LITB 5.2
+phonology:
+  initial: h
+  rhyme: ak
+  initcover: H
+  rhymecover: T
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: ɦak
+  gloss: HANG (against the wall)
+notes:
+- type: T
+  text: <par>The stronghold of this root seems to be Tani, with a solid Thulung cognate and possible reflexes
+    in Naish and Karenic.</par>

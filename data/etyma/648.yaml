@@ -1,0 +1,17 @@
+tag: 648
+grpid: 2
+proto_language: PTB
+protoform: tšit
+gloss: URINE
+semkey: 1.8.4
+sequence: 1.4
+status: DELETE
+public: false
+exemplary: true
+xrefs: '650'
+phonology:
+  handle: tšit
+  initial: tš
+  rhyme: it
+  initcover: TS
+  rhymecover: T

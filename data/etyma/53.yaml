@@ -1,0 +1,16 @@
+tag: 53
+grpid: 2
+proto_language: PTB
+protoform: cu((k/ŋ))
+gloss: FLESH / MEAT
+semkey: 1.1.1.1
+sequence: 6.0
+status: DELETE
+public: false
+xrefs: '4'
+phonology:
+  handle: cuK
+  initial: c
+  rhyme: u((k/ŋ))
+  initcover: TS
+  rhymecover: NT

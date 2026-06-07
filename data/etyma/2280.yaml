@@ -1,0 +1,17 @@
+tag: 2280
+grpid: 2
+proto_language: PTB
+protoform: ka
+gloss: I
+semkey: '4.1'
+sequence: 2197.0
+status: DELETE
+public: true
+xrefs: '2530'
+references: STC p.93
+phonology:
+  handle: ka
+  initial: k
+  rhyme: a
+  initcover: K
+  rhymecover: V

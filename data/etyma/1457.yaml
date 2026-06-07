@@ -1,0 +1,42 @@
+tag: 1457
+grpid: 2
+proto_language: PTB
+protoform: m-sak
+gloss: ITCH
+semkey: 1.6.5.5
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: SCRATCH/ITCH/PICANTE
+references: cf. STC#465, AW-TBT 1014, HPTB p.317
+phonology:
+  handle: sak
+  prefix: m
+  initial: s
+  rhyme: ak
+  initcover: S
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: thak-I, -thaʔ-II
+  gloss: ITCH / ITCHY
+- grpid: 63
+  group: 1.3.1
+  form: m-sak
+  gloss: ITCH (v.)
+  variant: a
+- grpid: 63
+  group: 1.3.1
+  form: m-ʃak
+  gloss: SCRATCH (v.)
+  variant: b
+- grpid: 50
+  group: '7'
+  form: saɁᴰ
+  gloss: ITCHY
+- grpid: 5
+  group: 1.1.1
+  form: fak
+  gloss: ITCH

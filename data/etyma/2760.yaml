@@ -1,0 +1,19 @@
+tag: 2760
+grpid: 2
+proto_language: PTB
+protoform: tsyuk
+gloss: STEEP (ADJ.)
+semkey: 7.1.5.3
+sequence: 13.0
+status: KEEP
+public: true
+references: cf. STC#353, HPTB p. 357
+phonology:
+  handle: tsyuk
+  initial: tsy
+  rhyme: uk=tśuk
+  initcover: TS
+  rhymecover: TS
+notes:
+- type: T
+  text: <par>More confirmation of this etymon would be welcome.</par>

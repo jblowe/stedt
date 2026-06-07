@@ -1,0 +1,401 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+46878	1063	Mikir [Karbi]	ar◦pûm / ar◦jôn	ar◦pûm / ar◦jôn	body	body		1.1.1	9	0		p,3,p,m
+46879	1063	Mikir [Karbi]	bàng	bàng	body	body		1.1.1	149	0		7
+46880	1063	Mikir [Karbi]	rèp	rèp|	side (right)	side (right)		1.4.5	193	0		554
+46881	1063	Mikir [Karbi]	rèp	rèp|	side (left)	side (left)		1.4.5	193	0		554
+46882	1063	Mikir [Karbi]	nīng|	nīng|	bosom	bosom		1.4.4.2	113a	0		251
+46883	1063	Mikir [Karbi]	ing◦hây	ing◦hây	groin / loins	groin / loins		1.4.9	32	0		p,m
+46884	1063	Mikir [Karbi]	ar◦dàk	ar◦dàk	groin / loins	groin / loins		1.4.9	5	0		m,3384
+46885	1063	Mikir [Karbi]	wám	wám|	groin / loins	groin / loins		1.4.9	215	0		137
+46886	1063	Mikir [Karbi]	òk	òk	flesh / meat	flesh / meat		1.1.1.1	33	0		35
+46887	1063	Mikir [Karbi]	mék| chī-	mék| chī-	die / be dead	die / be dead		1.1.6	167	0		m,m
+46888	1063	Mikir [Karbi]	che◦thè che-wūng-	che◦thè che-wūng-	die / be dead	die / be dead		1.1.6	61	0		m,m,m,m
+46890	1063	Mikir [Karbi]	thì-táng-ló	thì-táng-ló	die / be dead	die / be dead		1.1.6	83	0		27,30,s
+46891	1063	Mikir [Karbi]	thì-	thì-	die / be dead	die / be dead		1.1.6	99	0	HIDE	DUPE IN SOURCE
+46892	1063	Mikir [Karbi]	rèng-	rèng-	die / be dead	die / be dead		1.1.6	99	0		12?
+46893	1063	Mikir [Karbi]	thì-lòt-	thì-lòt-	die / be dead	die / be dead		1.1.6	99	0		27,s
+46894	1063	Mikir [Karbi]	dàm-	dàm-	die / be dead	die / be dead		1.1.6	103	0	D1	m
+46895	1063	Mikir [Karbi]	jú-	jú-	die / be dead	die / be dead		1.1.6	103	0		m
+46897	1063	Mikir [Karbi]	wàng-	wàng-	die / be dead	die / be dead		1.1.6	103	0		m
+46898	1063	Mikir [Karbi]	ar◦wák	ar◦wák	carcass / dead animal	carcass / dead animal		1.1.6.1	12	0		p,12
+46899	1063	Mikir [Karbi]	ì-	ì-	sleep / be asleep	sleep /  be asleep		1.1.4.1	16	0		127
+46900	1063	Mikir [Karbi]	ì-lòt-	ì-lòt-	sleep / be asleep	sleep /  be asleep		1.1.4.1	16	0		127,m
+46901	1063	Mikir [Karbi]	mék jáng-	mék jáng-	sleep / be asleep	sleep /  be asleep		1.1.4.1	75	0		682,m
+46902	1063	Mikir [Karbi]	mék ke-jáng-	mék ke-jáng-	sleep / be asleep	sleep /  be asleep		1.1.4.1	167	0		682,m,m
+46903	1063	Mikir [Karbi]	mék rèng-jèng-	mék rèng-jèng-	sleep / be asleep	sleep /  be asleep		1.1.4.1	168	0		682,m,m
+46904	1063	Mikir [Karbi]	prāng-	prāng-	awake / be awake	awake / be awake		1.1.4	137	0		144
+46905	1063	Mikir [Karbi]	mék prāng-dàk-	mék prāng-dàk-	awake / be awake	awake / be awake		1.1.4	167	0		682,144,m
+46906	1063	Mikir [Karbi]	he◦mān	he◦mān	dream	dream	v.	1.1.4.2	224	0		p,126
+46907	1063	Mikir [Karbi]	māng he◦màn-	māng he◦màn-	dream	dream	v.	1.1.4.2	161	0		126,p,126
+46908	1063	Mikir [Karbi]	phú	phú	head	head		1.2.1	145	0	D1	385
+46910	1063	Mikir [Karbi]	khilî-sô	khilî-sô	head	head		1.2.1	55	0		1221,m
+46911	1063	Mikir [Karbi]	phú-lóng-díp	phú-lóng-díp	top of head / crown / pate	top of head / crown / pate		1.2.1.2	145	0		385,m,m
+46912	1063	Mikir [Karbi]	phú-lóng-pláng	phú-lóng-pláng	top of head / crown / pate	top of head / crown / pate		1.2.1.2	145	0		385,m,392
+46913	1063	Mikir [Karbi]	phú-díp	phú-díp	fontanel	fontanel		1.2.1.3	145	0		385,1196
+46914	1063	Mikir [Karbi]	phú-bòng-kòk	phú-bòng-kòk	skull	skull		1.2.1.1	145	0		385,388,1224
+46915	1063	Mikir [Karbi]	tà|r-lòk	tà|r-lòk	brain (= 9.1 )	brain (=  9.1  )		1.2.4	84	0		p,247
+46916	1063	Mikir [Karbi]	phú-táp	phú-táp	hair of head	hair of head		1.2.3	145	0		385,m
+46917	1063	Mikir [Karbi]	phú-táp	phú-táp	scalp	scalp		1.2.1.5	145	0		385,m
+46918	1063	Mikir [Karbi]	phú-lóng-pláng	phú-lóng-pláng	scalp	scalp		1.2.1.5	145	0		385,m,392
+46919	1063	Mikir [Karbi]	wō a-mìr	wō a-mìr	comb (of rooster)	comb (of rooster)		1.2.2.1	217	0		m,m,m
+46920	1063	Mikir [Karbi]	nū	nū	horn (of animal)	horn (of animal)		1.2.2	117	0		2009
+46921	1063	Mikir [Karbi]	nū	nū	antler (of deer)	antler (of deer)		1.2.2	117	0		2009
+46922	1063	Mikir [Karbi]	ma◦háng	ma◦háng	face	face		1.2.5	165	0		p,2027
+46923	1063	Mikir [Karbi]	te◦hàng	te◦hàng	forehead / brow	forehead / brow		1.2.5.1	87	0		p,2027
+46924	1063	Mikir [Karbi]	tehàng a-.chobák	tehàng a-.chobák	temple	temple		1.2.5.1	87	0		
+46925	1063	Mikir [Karbi]	mék	mék	eye	eye		1.2.6	167	0		682
+46926	1063	Mikir [Karbi]	nò	nò	eye	eye		1.2.6	167	0		m
+46927	1063	Mikir [Karbi]	khi◦mâ	khi◦mâ	eye	eye		1.2.6	55	0		m,m
+46928	1063	Mikir [Karbi]	mék a-rèng	mék a-rèng	eyelid	eyelid		1.2.6.4	167	0		682,p,781
+46929	1063	Mikir [Karbi]	mék-kúng a-rèng	mék-kúng a-rèng	eyelid	eyelid		1.2.6.4	168	0		682,m,p,781
+46930	1063	Mikir [Karbi]	mék a-hōm	mék a-hōm	eyelid	eyelid		1.2.6.4	167	0		682,p,m
+46931	1063	Mikir [Karbi]	mék ahōm ang◦mī	mék ahōm ang◦mī	eyelid	eyelid		1.2.6.4	167	0		682,m,5450,363
+46932	1063	Mikir [Karbi]	mék a-hū	mék a-hū	eyelid	eyelid		1.2.6.4	167	0		682,m,m
+46933	1063	Mikir [Karbi]	mék a-mū	mék a-mū	eyeball	eyeball		1.2.6.1	167	0		682,p,685
+46934	1063	Mikir [Karbi]	mék arthō	mék arthō	iris	iris		1.2.6.2	167	0		682,m
+46935	1063	Mikir [Karbi]	mék a-sō	mék a-sō	pupil	pupil		1.2.6.2	167	0		682,m,m
+46936	1063	Mikir [Karbi]	te◦hàng ang◦sung	tehàng ang◦sung	eyebrow	eyebrow		1.2.6.6	87	0		p,2027,5450,366
+46937	1063	Mikir [Karbi]	te◦hàng ang◦sùm	tehàng ang◦sùm	eyebrow	eyebrow		1.2.6.6	87	0		p,2027,5450,366
+46938	1063	Mikir [Karbi]	mék-sūng	mék-sūng	eyelash	eyelash		1.2.6.5	168	0		682,370
+46939	1063	Mikir [Karbi]	mék ang◦sūng	mék ang◦sūng	eyelash	eyelash		1.2.6.5	167	0		682,5450,370
+46940	1063	Mikir [Karbi]	mék ahōm ang◦mī	mék ahōm ang◦mī	eyelash	eyelash		1.2.6.5	167	0		682,m,5450,363
+46941	1063	Mikir [Karbi]	mék-krí	mék-krí	tears	tears	n.	1.2.6.7	168	0		682,572
+46942	1063	Mikir [Karbi]	che-rú-	che-rú-	cry / weep	cry / weep	v.	1.8.8.2	65	0	D1	1103,m
+46943	1063	Mikir [Karbi]	che-.rnàp-	che-.rnàp-	cry / weep	cry / weep	v.	1.8.8.2	65	0		1103,m
+46945	1063	Mikir [Karbi]	te◦ràm-	te◦ràm-	cry / weep	cry / weep	v.	1.8.8.2	65	0		m,m
+46946	1063	Mikir [Karbi]	che-chár-	che-chár-	see / look	see / look	v.	1.2.6.10	60	0		m,m
+46950	1063	Mikir [Karbi]	mék a-wē	mék a-wē	blind	blind		1.2.6.14.2	167	0		682,m,m
+46951	1063	Mikir [Karbi]	selók-	selók-	blind	blind		1.2.6.14.2	206	0		m
+46952	1063	Mikir [Karbi]	nò◦kàn	nò◦kàn	nose	nose		1.2.8	115	0		803,665
+46953	1063	Mikir [Karbi]	kàn-chêng	kàn-chêng	nose bridge	nose bridge		1.2.8	40	0		665,m
+46954	1063	Mikir [Karbi]	nò◦kàn	nò◦kàn	nostril	nostril		1.2.8.1	115	0		803,665
+46955	1063	Mikir [Karbi]	mòng-krák	mòng-krák	nostril	nostril		1.2.8.1	172	0		
+46956	1063	Mikir [Karbi]	náp	náp	liquid mucus	liquid mucus		3.2.3	112	0		805
+46957	1063	Mikir [Karbi]	náp	náp	solid mucus	solid mucus		1.1.5	112	0		805
+46958	1063	Mikir [Karbi]	sinìm-	sinìm-	blow nose	blow nose	v.	1.3.1.4	208	0		
+46959	1063	Mikir [Karbi]	ing◦nìm- (àt-)	ing◦nìm- (àt-)	smell / sniff	smell / sniff	v.	1.2.8.5	1, 26	0		p,1415,m
+46960	1063	Mikir [Karbi]	ing◦hóng ke-lóng-	ing◦hóng ke-lóng-	smell / sniff	smell / sniff	v.	1.2.8.5	32	0		
+46961	1063	Mikir [Karbi]	nèm-èy-	nèm-èy-	smell / sniff	smell / sniff	v.	1.2.8.5	113	0		1415,m
+46962	1063	Mikir [Karbi]	nò	nò	ear	ear		1.2.7	115	0		811
+46963	1063	Mikir [Karbi]	nò-nàm	nò-nàm	earlobe	earlobe		1.2.7.1	115	0		811,825
+46964	1063	Mikir [Karbi]	nò a-bō	nò a-bō	earwax	earwax		1.2.7.3	115	0		811,p,815
+46965	1063	Mikir [Karbi]	nò-bō	nò-bō	earwax	earwax		1.2.7.3	115	0		811,815
+46966	1063	Mikir [Karbi]	bō	bō	earwax	earwax		1.2.7.3	156	0		815
+46967	1063	Mikir [Karbi]	arjū-lóng-	arjū-lóng-	hear	hear	v.	1.2.7.4	6	0		m
+46968	1063	Mikir [Karbi]	arjū-dàk-	arjū-dàk-	hear	hear	v.	1.2.7.4	6	0		m
+46969	1063	Mikir [Karbi]	arjū-dìng-	arjū-dìng-	hear	hear	v.	1.2.7.4	6	0		m
+46970	1063	Mikir [Karbi]	ing◦thông-	ing◦thông-	deaf	deaf		1.2.7.5	23	0		m,1412
+46971	1063	Mikir [Karbi]	nò-thòng-	nò-thòng-	deaf	deaf		1.2.7.5	115	0		m,1412
+46972	1063	Mikir [Karbi]	ing◦hó	ing◦hó	mouth	mouth		1.3.1	32	0		p,273
+46973	1063	Mikir [Karbi]	ing◦tùr	ing◦tùr	mouth	mouth		1.3.1	22	0		p,442
+46974	1063	Mikir [Karbi]	ing◦hàm	ing◦hàm	palate	palate		1.3.1.1	32	0		p,1735
+46975	1063	Mikir [Karbi]	chethè a-rī	chethè a-rī	uvula	uvula		1.3.5.1	61	0		
+46976	1063	Mikir [Karbi]	ing◦thè	ing◦thè	saliva	saliva		1.8.3	22	0		p,605
+46977	1063	Mikir [Karbi]	ing◦kròy	ing◦kròy	saliva	saliva		1.8.3	18	0		p,540
+46978	1063	Mikir [Karbi]	ing◦thòk-	ing◦thòk-	saliva	saliva		1.8.3	23	0		p,601
+46979	1063	Mikir [Karbi]	che-máng-	che-máng-	eat	eat	v.	1.5.3.2	64	0		36,m
+46981	1063	Mikir [Karbi]	ing◦'ìt-	ing◦'ìt-	thirsty	thirsty	be v.	1.1.3.1	17	0		p,122
+46982	1063	Mikir [Karbi]	àn ka-.ng◦chìr-	àn ka-.ng◦chìr-	hungry	hungry	be v.	1.1.3	1	0		p,m,m,m
+46983	1063	Mikir [Karbi]	ing◦chìr-	ing◦chìr-	hungry	hungry	be v.	1.1.3	19	0		p,m
+46984	1063	Mikir [Karbi]	ing◦kràng-	ing◦kràng-	full / be satiated	full / be satiated		1.1.3.2	18	0		p,114
+46986	1063	Mikir [Karbi]	ing◦thòk-	ing◦thòk-	spit	spit	v.	1.8.3	23	0		p,601
+46987	1063	Mikir [Karbi]	nīng ke-wàng-	nīng ke-wàng-	vomit	vomit	v.	1.8.3.2	114b	0		p,m,m
+46988	1063	Mikir [Karbi]	ko◦hè-	ko◦hè-	gape / open mouth	gape / open mouth	v.	1.3.1	48	0		m,1716
+46989	1063	Mikir [Karbi]	ko◦hè-	ko◦hè-	yawn	yawn	v.	1.3.1.3	48	0		m,1716
+46990	1063	Mikir [Karbi]	dè	dè	tongue	tongue		1.3.3	104	0		621
+46991	1063	Mikir [Karbi]	ning◦jé-	ning◦jé-	speak	speak	v.	8.5.10.1	114b	0		
+46992	1063	Mikir [Karbi]	ingkî-	ingkî-	speak	speak	v.	8.5.10.1	17	0		
+46993	1063	Mikir [Karbi]	ingkī- (?)	ingkī- (?)	speak	speak	v.	8.5.10.1	17	0		
+46994	1063	Mikir [Karbi]	pù-	pù-	speak	speak	v.	8.5.10.1	135	0		
+46995	1063	Mikir [Karbi]	lám eoló-	lám eoló-	stutter / stammer	stutter / stammer		8.5.4.5	180	0		
+46996	1063	Mikir [Karbi]	eolō-	eolō-	stutter / stammer	stutter / stammer		8.5.4.5	180	0		
+46997	1063	Mikir [Karbi]	ing◦lèk-	ing◦lèk-	lick	lick	v.	1.3.3.1	28	0		p,629
+46998	1063	Mikir [Karbi]	ing◦tùr	ing◦tùr	lip	lip		1.3.2	22	0		p,442
+46999	1063	Mikir [Karbi]	tùr-thàk	tùr-thàk	upper lip	upper lip		9.2.1	92	0		442,1722
+47000	1063	Mikir [Karbi]	tùr-bēr	tùr-bēr	lower lip	lower lip			92	0	W	442,452
+47002	1063	Mikir [Karbi]	só	só	tooth	tooth		1.3.4	210	0		632
+47003	1063	Mikir [Karbi]	só-mùn-phráng	só-mùn-phráng	tooth (incisor)	tooth (incisor)		1.3.4	210	0		632,m,m
+47004	1063	Mikir [Karbi]	só-mùn-pī	só-mùn-pī	molar	molar		1.3.4.2	210	0		632,m,1622
+47005	1063	Mikir [Karbi]	ing◦nì	ing◦nì	eyetooth / canine tooth	eyetooth / canine tooth		1.3.4.1	26	0		p,m
+47006	1063	Mikir [Karbi]	só	só	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	210	0		632
+47007	1063	Mikir [Karbi]	ing◦nì	ing◦nì	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	26	0		p,m
+47008	1063	Mikir [Karbi]	kór-àk	kór-àk	bite	bite	v.	1.3.4.4	1	0		
+47009	1063	Mikir [Karbi]	kòr-	kòr-	bite	bite	v.	1.3.4.4	48	0		
+47010	1063	Mikir [Karbi]	kòr-hèt-	kòr-hèt-	bite	bite	v.	1.3.4.4	48	0		
+47011	1063	Mikir [Karbi]	kòr-ràk-	kòr-ràk-	bite	bite	v.	1.3.4.4	48	0		m,1760
+47012	1063	Mikir [Karbi]	ar◦chù-	ar◦chù-	bite	bite	v.	1.3.4.4	4	0		p,m
+47013	1063	Mikir [Karbi]	ar◦chù-jòk-	ar◦chù-jòk-	bite	bite	v.	1.3.4.4	4	0		p,m,m
+47014	1063	Mikir [Karbi]	ing◦thòk-	ing◦thòk-	bite	bite	v.	1.3.4.4	23	0		p,601
+47015	1063	Mikir [Karbi]	chèk-jòk-	chèk-jòk-	bite	bite	v.	1.3.4.4	59	0		
+47016	1063	Mikir [Karbi]	hejē-	hejē-	chew	chew	v.	1.3.4	223	0		
+47017	1063	Mikir [Karbi]	chô-ì-ì-	chô-ì-ì-	chew	chew	v.	1.3.4	16	0		
+47018	1063	Mikir [Karbi]	òm-	òm-	chew	chew	v.	1.3.4	35	0		3451
+47019	1063	Mikir [Karbi]	pe-tèp-   (-àn =̃)	pe-tèp-   (-àn =̃)	chew	chew	v.	1.3.4	128	0		m,1775,m
+47020	1063	Mikir [Karbi]	ke◦chèng(a-rèp-pî)	ke◦chèng(a-rèp-pî)	jaw	jaw		1.2.5.2	43	0		p,2049,m,554,m
+47021	1063	Mikir [Karbi]	chèng-bòng	chèng-bòng	jaw	jaw		1.2.5.2	59	0		2049,263
+47022	1063	Mikir [Karbi]	ing◦phûn	ing◦phûn	neck / throat	neck / throat		1.4.2	27	0		p,m
+47023	1063	Mikir [Karbi]	che-thók	che-thók	neck / throat	neck / throat		1.4.2	61	0		m,359
+47024	1063	Mikir [Karbi]	ing◦phûn	ing◦phûn	neck	neck		1.4.2	27	0		p,m
+47025	1063	Mikir [Karbi]	phùn-kāng	phùn-kāng	goiter	goiter		1.4.2.2	146	0		m,m
+47026	1063	Mikir [Karbi]	kèk◦krúk	kèkkrúk	adam's apple / larynx	adam's apple / larynx		1.5.3.2	41	0		491,486
+47027	1063	Mikir [Karbi]	che◦thè a-rī	chethè a-rī	adam's apple / larynx	adam's apple / larynx		1.5.3.2	61	0		m,501,p,1725
+47028	1063	Mikir [Karbi]	làng-jóy	làng-jóy	throat / gullet / pharynx	throat / gullet / pharynx		1.3.5	178	0		479,m
+47029	1063	Mikir [Karbi]	jóy-	jóy-	swallow	swallow	v.	1.3.5.6	81	0		
+47030	1063	Mikir [Karbi]	mòng-	mòng-	swallow	swallow	v.	1.3.5.6	172	0		
+47031	1063	Mikir [Karbi]	ing◦jín	ing◦jín	chest	chest		1.4.4.3	20	0		
+47032	1063	Mikir [Karbi]	rèp-ták	rèp-ták	rib	rib		1.4.4.3	193	0		554,289
+47033	1063	Mikir [Karbi]	phàng	phàng	shoulder	shoulder		1.4.3	139	0		1327
+47034	1063	Mikir [Karbi]	ing◦jín	ing◦jín	shoulder	shoulder		1.4.3	20	0		
+47035	1063	Mikir [Karbi]	ke◦twàr	ke◦twàr	shoulder blade / scapula	shoulder blade / scapula		1.4.3.2	43	0		p,565
+47036	1063	Mikir [Karbi]	phàng ingbēy-	phàng ingbēy-	shrug shoulders	shrug shoulders	v.	1.4.3.3	139	0		
+47037	1063	Mikir [Karbi]	mók	mók	breast	breast		1.4.4.3	172	0		
+47038	1063	Mikir [Karbi]	chù-bōng	chù-bōng	breast	breast		1.4.4.3	74	0		5539,3461
+47039	1063	Mikir [Karbi]	kúm◦bú	kúm◦bú	breast (poetic)	breast (poetic)		1.4.4.3	50	0		3374,m
+47040	1063	Mikir [Karbi]	nīng	nīng	breast	breast		1.4.4.3	113a	0		251
+47041	1063	Mikir [Karbi]	mók a-thē	mók a-thē	nipple	nipple			172	0		
+47042	1063	Mikir [Karbi]	chù-bōng-chethè	chù-bōng-chethè	nipple	nipple			74	0		5539,3461,m
+47043	1063	Mikir [Karbi]	ka◦khír	ka◦khír	milk	milk			38	0		b
+47044	1063	Mikir [Karbi]	chū-lāng	chū-lāng	milk	milk			74	0		5539,191
+47045	1063	Mikir [Karbi]	mók-lāng	mók-lāng	milk	milk			172	0		m,191
+47046	1063	Mikir [Karbi]	chū-	chū-	suck	suck	v.	1.3.2.1	74	0		5539
+47047	1063	Mikir [Karbi]	mók ke-chū-	mók ke-chū-	suck	suck	v.	1.3.2.1	172	0		m,m,5539
+47048	1063	Mikir [Karbi]	ing◦jùp-	ing◦jùp-	suck	suck	v.	1.3.2.1	20	0		p,5541
+47049	1063	Mikir [Karbi]	tòng-	tòng-	suck	suck	v.	1.3.2.1	90	0		502
+47050	1063	Mikir [Karbi]	cho-sòk-	cho-sòk-	suck	suck	v.	1.3.2.1	73	0		m,3462
+47051	1063	Mikir [Karbi]	mòy	mòy	back	back		1.4.8	173	0		
+47052	1063	Mikir [Karbi]	mòy ch-.ingkī-wèn-	mòy ch-.ingkī-wèn-	hunchback	hunchback		1.4.8.3	173	0		m,m,m,m
+47053	1063	Mikir [Karbi]	wám	wám	waist	waist		1.4.6	215	0		137
+47054	1063	Mikir [Karbi]	pók	pók	belly / abdomen	belly / abdomen		1.4.7	133	0		164
+47055	1063	Mikir [Karbi]	pók-tháp	pók-tháp	belly / abdomen	belly / abdomen		1.4.7	133	0		164,m
+47056	1063	Mikir [Karbi]	che◦tè	che◦tè	navel	navel		1.9.4	60	0		m,519
+47057	1063	Mikir [Karbi]	kèng-thàm a-cho◦bák	kèng-thàm a-cho◦bák	buttocks	buttocks		1.4.10	42	0		338,1362,m,m,m
+47058	1063	Mikir [Karbi]	mí-lum◦bóng	mí-lum◦bóng	buttocks	buttocks		1.4.10	170	0		3337,3324,404
+47059	1063	Mikir [Karbi]	a◦rmê	a◦rmê	tail (of animal)	tail (of animal)		1.4.10.1	10	0		p,1288
+47060	1063	Mikir [Karbi]	mí-bóng	mí-bóng	tail (of animal)	tail (of animal)		1.4.10.1	170	0		3337,3331
+47061	1063	Mikir [Karbi]	rí	rí	arm	arm		1.5.1.2	194	0		770
+47062	1063	Mikir [Karbi]	rí a-pòng	rí a-pòng	upper arm	upper arm		1.5.1.2.1	194	0		770,p,1327
+47063	1063	Mikir [Karbi]	rí-thák	rí-thák	upper arm	upper arm		1.5.1.2.1	194	0		770,m
+47064	1063	Mikir [Karbi]	phàng-kōr	phàng-kōr	upper arm	upper arm		1.5.1.2.1	139	0		1327,713
+47065	1063	Mikir [Karbi]	rí a-.ngkùng	rí a-.ngkùng	elbow	elbow		1.5.8.3	194	0		770,m,m
+47066	1063	Mikir [Karbi]	rí a-sék	rí a-sék	elbow	elbow		1.5.8.3	194	0		770,p,418
+47067	1063	Mikir [Karbi]	rí-tùng-dē	rí-tùng-dē	elbow	elbow		1.5.8.3	194	0		770,?,?
+47068	1063	Mikir [Karbi]	tùng-dè	tùng-dè	elbow	elbow		1.5.8.3	91	0		?,?
+47069	1063	Mikir [Karbi]	rí-kán	rí-kán	forearm / lower arm	forearm / lower arm		1.5.1.2.2	194	0		770,m
+47070	1063	Mikir [Karbi]	rí-bēr	rí-bēr	forearm / lower arm	forearm / lower arm		1.5.1.2.2	195	0		770,m
+47071	1063	Mikir [Karbi]	rí-sák	rí-sák	wrist	wrist		1.5.8.1	195	0		770,418
+47072	1063	Mikir [Karbi]	rí	rí	hand	hand		1.5.1.1	194	0		770
+47073	1063	Mikir [Karbi]	rí-pák	rí-pák	hand	hand		1.5.1.1	194	0		770,821
+47074	1063	Mikir [Karbi]	rí-pák	rí-pák	palm	palm		1.5.5	194	0		770,821
+47075	1063	Mikir [Karbi]	rí-pák a-thák	rí-pák a-thák	palm	palm		1.5.5	194	0		770,821,m,m
+47076	1063	Mikir [Karbi]	rí-pák a-nùng	rí-pák a-nùng	back of hand	back of hand		1.5.1.1.2	195	0		770,821,p,203
+47077	1063	Mikir [Karbi]	ketèng	ketèng	fist	fist		1.5.1.1.1	43	0		
+47078	1063	Mikir [Karbi]	òk a-nò	òk a-nò	fin (of fish)	fin (of fish)		1.5.1.3.1	115	0		
+47079	1063	Mikir [Karbi]	bèng	bèng	fin (of fish)	fin (of fish)		1.5.1.3.1	152	0		
+47080	1063	Mikir [Karbi]	chi◦pù	chipù	paw (of mammal)	paw (of mammal)		1.5.4	69	0		
+47081	1063	Mikir [Karbi]	kèng	kèng	leg	leg		1.5.7	41	0		338
+47082	1063	Mikir [Karbi]	kèng-thàk	kèng-thàk	thigh	thigh		1.5.7.1	42	0		338,m
+47084	1063	Mikir [Karbi]	kèng-tùng(-dè)	kèng-tùng(-dè)	knee	knee		1.5.8.4	42, 91	0		338,m
+47085	1063	Mikir [Karbi]	kèng-phú	kèng-phú	knee	knee		1.5.8.4	42	0		338,435
+47086	1063	Mikir [Karbi]	kèng-phú a-hambí	kèng-phú a-hambí	knee cap / patella	knee cap / patella		1.5.8.4	42	0		338,435,m
+47087	1063	Mikir [Karbi]	kèng-phú a-rèp-pî	kèng-phú a-rèp-pî	knee cap / patella	knee cap / patella		1.5.8.4	42	0		338,435,m
+47088	1063	Mikir [Karbi]	kèng-chìp	kèng-chìp	knee hollow / popliteal	knee hollow / popliteal		1.5.8.4	42	0		338,m,m
+47089	1063	Mikir [Karbi]	kèng-kûng	kèng-kûng	shin	shin		1.5.7.2	42	0		338,2254
+47090	1063	Mikir [Karbi]	kèng ar◦kòng	kèng arkòng	shin bone / tibia	shin bone / tibia		1.5.7.2	41	0		338,p,2254
+47091	1063	Mikir [Karbi]	kèng-sák	kèng-sák	shin bone / tibia	shin bone / tibia		1.5.7.2	43	0		338,m
+47092	1063	Mikir [Karbi]	kèng-sartí	kèng-sartí	calf	calf		1.5.7	43	0		338,m
+47093	1063	Mikir [Karbi]	kèng-jàk	kèng-jàk	ankle	ankle		1.5.8.2	42	0		338,699
+47094	1063	Mikir [Karbi]	kèng a-sék	kèng a-sék	ankle	ankle		1.5.8.2	41	0		338,p,418
+47095	1063	Mikir [Karbi]	kèng	kèng	foot	foot		1.5.2	41	0		338
+47096	1063	Mikir [Karbi]	kèng-tì	kèng-tì	heel	heel		1.5.2.1	42	0		338,300
+47097	1063	Mikir [Karbi]	kèng arthô-pî	kèng arthô-pî	achilles tendon	achilles tendon		1.6.6.1	41	0		
+47098	1063	Mikir [Karbi]	kèng-chi◦pù	kèng-chipù	sole	sole		1.5.5	42	0		338,m,m
+47099	1063	Mikir [Karbi]	kèng-pàk a-.nglûr	kèng-pàk a-.nglûr	sole	sole		1.5.5	42	0		338,821,m,m
+47100	1063	Mikir [Karbi]	kèng-pàk a-nùng	kèng-pàk a-nùng	instep	instep		1.5.2.2	42	0		338,821,m,m
+47101	1063	Mikir [Karbi]	bòt	bòt	footprint	footprint		1.5.2.5	157	0		
+47102	1063	Mikir [Karbi]	(-kèng)-kemô	(-kèng)-kemô	hoof (of animal)	hoof (of animal)		1.5.4	42, 43	0		338,m
+47103	1063	Mikir [Karbi]	chi◦mī	chimī	hoof (of animal)	hoof (of animal)		1.5.4	69	0		m,416
+47104	1063	Mikir [Karbi]	(kèng)-chipù	(kèng)-chipù	paw (of animal)	paw (of animal)		1.5.4	42	0		
+47105	1063	Mikir [Karbi]	(-kèng) kòk-jòk	(-kèng) kòk-jòk	crippled / lame	crippled / lame		4.2.7	41, 46	0		
+47106	1063	Mikir [Karbi]	tekòk-	tekòk-	crippled / lame	crippled / lame		4.2.7	85	0		
+47107	1063	Mikir [Karbi]	tekòk-jòk-	tekòk-jòk-	crippled / lame	crippled / lame		4.2.7	85	0		m,7795?
+47108	1063	Mikir [Karbi]	rí-chi◦mùn	rí-chi◦mùn	finger	finger		1.5.6	194	0		770,331,320
+47109	1063	Mikir [Karbi]	chi◦mùn	chimùn	finger	finger		1.5.6	69	0		
+47110	1063	Mikir [Karbi]	(rí)-mùn-jòng	(rí)-mùn-jòng	index finger	index finger		1.0	174, 195	0		770,320,m
+47111	1063	Mikir [Karbi]	(of -chimùn)	(of -chimùn)	index finger	index finger		1.0		0		e
+47112	1063	Mikir [Karbi]	(rí)-mùn-dák-wám	(rí)-mùn-dák-wám	middle finger	middle finger		1.9.4	174, 195	0		770,320,m,m
+47113	1063	Mikir [Karbi]	(rí)-mùn-mén-wē	(rí)-mùn-mén-wē	ring finger	ring finger		1.5.6.2	174, 195	0		770,320,m,m
+47114	1063	Mikir [Karbi]	(rí)-mùn-sék	(rí)-mùn-sék	ring finger	ring finger		1.5.6.2	174, 195	0		770,320,m
+47115	1063	Mikir [Karbi]	(rí)-mùn-sō	(rí)-mùn-sō	little finger	little finger		9.7.2	175, 195	0		770,320,m
+47116	1063	Mikir [Karbi]	(rí)-mùn-thokwám	(rí)-mùn-thokwám	thumb	thumb		1.5.6.1	174, 195	0		770,320,m
+47117	1063	Mikir [Karbi]	(rí)-mùn-pō	(rí)-mùn-pō	thumb	thumb		1.5.6.1	174, 195	0		770,320,m
+47118	1063	Mikir [Karbi]	(rí)-mùn-pī	(rí)-mùn-pī	thumb	thumb		1.5.6.1	174, 195	0		770,320,m
+47119	1063	Mikir [Karbi]	chi◦mùn	chimùn	toe	toe		1.5.6	69	0		
+47120	1063	Mikir [Karbi]	kèng-mùn-pî	kèng-mùn-pî	big toe	big toe		1.5.6.1	43	0		338,m,m
+47121	1063	Mikir [Karbi]	kèng-mùn-jòng	kèng-mùn-jòng	second toe	second toe		9.9	43	0		
+47122	1063	Mikir [Karbi]	kèng-mùn-thokwám	kèng-mùn-thokwám	middle toe	middle toe		1.9.4	43	0		
+47123	1063	Mikir [Karbi]	kèng-mùn-pô	kèng-mùn-pô	fourth toe	fourth toe		9.9	43	0		
+47124	1063	Mikir [Karbi]	kèng-mùn-sô	kèng-mùn-sô	little toe	little toe		9.7.2	43	0		
+47125	1063	Mikir [Karbi]	chi◦mī	chimī	nail	nail		1.5.10	69	0		m,416
+47126	1063	Mikir [Karbi]	rí-chi◦mī	rí-chimī	fingernail	fingernail		1.5.10.1	194	0		770,m,416
+47127	1063	Mikir [Karbi]	chi◦mī	chimī	fingernail	fingernail		1.5.10.1	69	0		m,416
+47128	1063	Mikir [Karbi]	kèng-chi◦mî	kèng-chimî	toenail	toenail		1.5.10.2	42	0		338,m,416
+47129	1063	Mikir [Karbi]	chi◦mī	chimī	toenail	toenail		1.5.10.2	69	0		m,416
+47130	1063	Mikir [Karbi]	chi◦mī	chimī	claw (of animal)	claw (of animal)		1.5.10.4	69	0		m,416
+47131	1063	Mikir [Karbi]	chū	chū	hair	hair		1.2.3	74	0		5633
+47132	1063	Mikir [Karbi]	chū	chū	hair of head	hair of head		1.2.3	74	0		5633
+47133	1063	Mikir [Karbi]	ing◦mûm	ing◦mûm	beard	beard		1.2.5.5	28	0		p,2058
+47134	1063	Mikir [Karbi]	ing◦tùr ang◦mûm	ing◦tùr ang◦mûm	moustache	moustache		1.2.5.5	22	0		p,442,5450,2058
+47135	1063	Mikir [Karbi]	ing◦mî	ing◦mî	body hair	body hair		1.6.1	28	0		p,363
+47136	1063	Mikir [Karbi]	ing◦mî	ing◦mî	fur (of animal)	fur (of animal)		1.6.1	28	0		p,363
+47137	1063	Mikir [Karbi]	arwêng	arwêng	feather (of bird)	feather (of bird)		1.6.1.1	12	0		
+47138	1063	Mikir [Karbi]	ing◦mî ka-.ngdùk	ing◦mî ka-.ngdùk	feather (of bird)	feather (of bird)		1.6.1.1	28	0		p,363,m,m
+47139	1063	Mikir [Karbi]	ing◦mî-sô	ing◦mî-sô	feather (of bird)	feather (of bird)		1.6.1.1	28	0		p,363,m
+47140	1063	Mikir [Karbi]	che◦thók a-.|ŋ◦mī	che◦thók a-.|ŋ◦mī	mane (of horse, lion)	mane (of horse, lion)		1.6.1	61	0		m,359,p,363
+47141	1063	Mikir [Karbi]	che◦thók a-chày-bè	che◦thók a-chày-bè	mane (of horse, lion)	mane (of horse, lion)		1.6.1	61	0		m,359,p,m,m
+47142	1063	Mikir [Karbi]	rèng	rèng	skin	skin		1.6.5	192	0		781
+47143	1063	Mikir [Karbi]	hū	hū	skin	skin		1.6.5	192	0		589
+47144	1063	Mikir [Karbi]	òk-rèng	òk-rèng	skin	skin		1.6.5	34	0		m,781
+47145	1063	Mikir [Karbi]	phú-rēng	phú-rēng	skin	skin		1.6.5	146	0		784,781
+47146	1063	Mikir [Karbi]	ing◦'í	ing◦'í	sweat / perspiration	sweat / perspiration		1.8.1	17	0		4513,p
+47147	1063	Mikir [Karbi]	chethìt	chethìt	wart	wart		1.6.5.3	61	0		
+47148	1063	Mikir [Karbi]	ingprâm	ingprâm	scar	scar		1.6.5.3	27	0		
+47149	1063	Mikir [Karbi]	rèng-che-thít	rèng-che-thít	wrinkle	wrinkle		9.6.2	193	0		
+47150	1063	Mikir [Karbi]	sèp	sèp	wrinkle	wrinkle		9.6.2	205	0		
+47151	1063	Mikir [Karbi]	ing◦thàk	ing◦thàk	itch / be itchy	itch  / be itchy	v.	1.6.5.5	22	0		p,1457
+47152	1063	Mikir [Karbi]	phúk-	phúk-	itch / be itchy	itch  / be itchy	v.	1.6.5.5	146	0		1459
+47153	1063	Mikir [Karbi]	jangkhúng	jangkhúng	scab	scab		1.6.5.3	76	0		
+47154	1063	Mikir [Karbi]	rèng a-lìp	rèng a-lìp	scab	scab		1.6.5.3	192	0		
+47155	1063	Mikir [Karbi]	lìp	lìp	scales (of fish)	scales (of fish)		1.6.5.2	184	0		562
+47156	1063	Mikir [Karbi]	òk-rèng	òk-rèng	hide / leather	hide / leather		1.6.5.1	34	0		586,781
+47157	1063	Mikir [Karbi]	thú	thú	fat	fat		1.6.4	101	0		42
+47158	1063	Mikir [Karbi]	rèp-pī	rèp-pī	bone	bone		1.6.3	193	0		554,m
+47159	1063	Mikir [Karbi]	rèp-pī	rèp-pī	skeleton	skeleton		1.6.3.1	193	0		554,m
+47160	1063	Mikir [Karbi]	mòy arbùng	mòy arbùng	vertebrae (of spine)	vertebrae (of spine)		1.6.3.3	173	0		
+47161	1063	Mikir [Karbi]	ar◦klèng	ar◦klèng	marrow (= 9.1.2)	marrow (= 9.1.2)		1.6.3.5	4	0		p,459
+47162	1063	Mikir [Karbi]	arthō	arthō	ligament (bone to bone)	ligament (bone to bone)		1.6.3	5	0		530
+47163	1063	Mikir [Karbi]	kèng a-dòk-dák arthô	kèng a-dòk-dák arthô	ligament (bone to bone)	ligament (bone to bone)		1.6.3	41	0		238,p,m,m,530
+47164	1063	Mikir [Karbi]	wī	wī	blood	blood		1.6.2	217	0		230
+47165	1063	Mikir [Karbi]	phìk	phìk	blood	blood		1.6.2	217	0		m
+47166	1063	Mikir [Karbi]	arthō	arthō	blood vessel / vein / artery	blood vessel / vein / artery		1.6.2.1	5	0		530
+47167	1063	Mikir [Karbi]	arthō-pī	arthō-pī	blood vessel / vein / artery	blood vessel / vein / artery		1.6.2.1	5	0		530,m
+47168	1063	Mikir [Karbi]	arthō-sō	arthō-sō	blood vessel / vein / artery	blood vessel / vein / artery		1.6.2.1	5	0		530,m
+47169	1063	Mikir [Karbi]	wī ke-bú	wī ke-bú	bleed	bleed	v.	1.6.2	217	0		230,m,m
+47170	1063	Mikir [Karbi]	bú-	bú-	bleed	bleed	v.	1.6.2	159	0		m
+47171	1063	Mikir [Karbi]	kèng-sartí a-pók	kèng-sartí a-pók	muscle	muscle		1.6.6.2	43	0		238,m,p,m
+47172	1063	Mikir [Karbi]	kèng a-sék	kèng a-sék	joint	joint		1.5.8	41	0		338,p,418
+47173	1063	Mikir [Karbi]	ingsî	ingsî	internal organs	internal organs		1.7	31	0		
+47174	1063	Mikir [Karbi]	tà|r-lòk	tà|r-lòk	brain	brain		1.2.4	84	0		p,247
+47175	1063	Mikir [Karbi]	ar◦klèng	ar◦klèng	marrow (= 8.4.3)	marrow (= 8.4.3)		1.6.3.5	4	0		p,459
+47176	1063	Mikir [Karbi]	ing◦phór	ing◦phór	lung	lung		1.7.2	27	0		p,5737
+47177	1063	Mikir [Karbi]	che◦thè ke-wàng	che◦thè ke-wàng	breathe	breathe	v.	1.1.2.2	61	0		m,m,p,5640
+47178	1063	Mikir [Karbi]	chethè wàng-sèng-	chethè wàng-sèng-	pant	pant	v.	1.1.2.2	61	0		p,5640,m
+47179	1063	Mikir [Karbi]	chethè wàng-hì-hì-	chethè wàng-hì-hì-	pant	pant	v.	1.1.2.2	61	0		p,5640,m,m
+47180	1063	Mikir [Karbi]	bùt-	bùt-	blow (mouth)	blow (mouth)		1.3.1.4	159	0		503
+47181	1063	Mikir [Karbi]	wùt-	wùt-	blow (mouth)	blow (mouth)		1.3.1.4	221	0		503
+47182	1063	Mikir [Karbi]	arnàp	arnàp	gill (of fish)	gill (of fish)		1.3.5.3	7	0		
+47183	1063	Mikir [Karbi]	nīng	nīng	heart	heart		1.7.1	113a	0		251
+47184	1063	Mikir [Karbi]	nēng	nēng	heart	heart		1.7.1	113	0		251
+47185	1063	Mikir [Karbi]	ing◦sî	ing◦sî	heart	heart		1.7.1	31	0		p,m
+47186	1063	Mikir [Karbi]	wì-bóng	wì-bóng	heart	heart		1.7.1	217	0		230,1392
+47187	1063	Mikir [Karbi]	phék-túng	phék-túng	viscera / guts / entrails	viscera / guts / entrails		1.7.7	142	0		m,1387
+47188	1063	Mikir [Karbi]	ing◦thín	ing◦thín	liver	liver		1.7.3	23	0		p,1390
+47189	1063	Mikir [Karbi]	phék-túng	phék-túng	liver	liver		1.7.3	142	0		m,1387
+47190	1063	Mikir [Karbi]	mút	mút	gall bladder	gall bladder		1.7.3	174	0		2101
+47191	1063	Mikir [Karbi]	phi◦īng a-bòng-kàng	phi◦īng a-bòng-kàng	urinary bladder	urinary bladder		1.7.8	143	0		
+47192	1063	Mikir [Karbi]	phi◦īng-	phi◦īng-	urine	urine		1.8.4	143	0		m,m
+47193	1063	Mikir [Karbi]	bár-só	bár-só	urine	urine		1.8.4	151	0		m,2795
+47194	1063	Mikir [Karbi]	phi◦īng-	phi◦īng-	urinate	urinate	v.	1.5.3.2	143	0		
+47195	1063	Mikir [Karbi]	sù-sù-	sù-sù-	urinate	urinate	v.	1.5.3.2	214	0		
+47196	1063	Mikir [Karbi]	pók	pók	stomach	stomach		1.7.6	133	0		164
+47197	1063	Mikir [Karbi]	phék	phék	intestines / bowels	intestines / bowels		1.7.7	142	0		2104
+47198	1063	Mikir [Karbi]	phék-pí	phék-pí	large intestine	large intestine		1.7.7	142	0		2104,m
+47199	1063	Mikir [Karbi]	phék-só	phék-só	small intestine	small intestine		9.7.2	142	0		2104,m
+47200	1063	Mikir [Karbi]	mí	mí	anus / rectum	anus / rectum		1.4.10.2	170	0		3337
+47201	1063	Mikir [Karbi]	lum◦bóng	lum◦bóng	anus / rectum	anus / rectum		1.4.10.2	189	0		m,404
+47202	1063	Mikir [Karbi]	hì-dám	hì-dám	anus / rectum	anus / rectum		1.4.10.2	226	0		m,1362
+47203	1063	Mikir [Karbi]	bár-pí	bár-pí	feces / shit	feces / shit		1.8.5	151	0		m,575
+47204	1063	Mikir [Karbi]	bár-pí -bár-só	bár-pí -bár-só	feces / shit	feces / shit		1.8.5	151	0		m,575,m,m
+47205	1063	Mikir [Karbi]	hī	hī	feces / shit	feces / shit		1.8.5	226	0		572
+47206	1063	Mikir [Karbi]	ì dám-	ì dám-	defecate	defecate	v.	1.8.5.4	16	0		
+47207	1063	Mikir [Karbi]	che-dèk	che-dèk	copulate	copulate	v.	1.9.1.1	62	0		
+47208	1063	Mikir [Karbi]	che-dōy-	che-dōy-	copulate	copulate	v.	1.9.1.1	62	0		
+47209	1063	Mikir [Karbi]	dèk-	dèk-	copulate	copulate	v.	1.9.1.1	104	0		
+47210	1063	Mikir [Karbi]	dòy-	dòy-	copulate	copulate	v.	1.9.1.1	104	0		
+47211	1063	Mikir [Karbi]	dìm-tàr pa-sī-	dìm-tàr pa-sī-	copulate	copulate	v.	1.9.1.1	106	0		
+47212	1063	Mikir [Karbi]	bùm	bùm	penis	penis			159	0		
+47213	1063	Mikir [Karbi]	che◦lèk	che◦lèk	penis	penis			64	0		m,1286
+47214	1063	Mikir [Karbi]	chò-kàng	chò-kàng	penis	penis			69	0		m,1637
+47215	1063	Mikir [Karbi]	chán-jày-	chán-jày-	penis	penis			56	0		
+47216	1063	Mikir [Karbi]	che◦lèk	che◦lèk	glans penis	glans penis			64	0		m,1286
+47217	1063	Mikir [Karbi]	bùm a-rèng	bùm a-rèng	foreskin	foreskin			160	0		m,p,781
+47218	1063	Mikir [Karbi]	bùm a-thijā	bùm a-thijā	scrotum	scrotum			159	0		
+47219	1063	Mikir [Karbi]	tì a-thijā	tì a-thijā	scrotum	scrotum			88	0		1181,m
+47220	1063	Mikir [Karbi]	tì	tì	testicle	testicle			88	0		300
+47221	1063	Mikir [Karbi]	bùm a-lāng	bùm a-lāng	semen	semen			159	0		m,p,191
+47222	1063	Mikir [Karbi]	mák	mák	vagina	vagina			160	0		547
+47223	1063	Mikir [Karbi]	wen◦the	wen◦the	vagina	vagina			217	0		3429,1352
+47224	1063	Mikir [Karbi]	mák	mák	vulva / labia	vulva / labia			160	0		547
+47225	1063	Mikir [Karbi]	ing◦chàng	ing◦chàng	clitoris	clitoris			19	0		p,1626
+47226	1063	Mikir [Karbi]	pa-phìk-	pa-phìk-	menstruate	menstruate	v.	1.9.11.1	123	0		m,m
+47227	1063	Mikir [Karbi]	klò-nî	klò-nî	menstrual blood	menstrual blood		1.9.11.1	52	0		m,m
+47228	1063	Mikir [Karbi]	pa-.ngphàr-	pa-.ngphàr-	menstrual blood	menstrual blood		1.9.11.1	119	0		m,m
+47229	1063	Mikir [Karbi]	o◦sô a-hêm	o◦sô a-hêm	placenta / afterbirth	placenta / afterbirth			36	0		p,1012,p,1612
+47230	1063	Mikir [Karbi]	che◦tè a-charàng	che◦tè a-charàng	umbilical cord	umbilical cord			60	0		m,519,p,m
+47231	1063	Mikir [Karbi]	che-plàng-	che-plàng-	pregnant	pregnant	be v.	1.9.6.1	63	0		m,m
+47232	1063	Mikir [Karbi]	rèng angsé-sē-	rèng angsé-sē-	pregnant	pregnant	be v.	1.9.6.1	192	0		m,m,m
+47233	1063	Mikir [Karbi]	pe-thè-	pe-thè-	pregnant	pregnant	be v.	1.9.6.1	128	0		m,m
+47234	1063	Mikir [Karbi]	sō pa-thè-	sō pa-thè-	pregnant	pregnant	be v.	1.9.6.1	210	0		m,m,m
+47235	1063	Mikir [Karbi]	ching◦thòk-	ching◦thòk-	birth, give (animals)	birth, give (animals)	v.	1.1.2	68	0		p,2718
+47236	1063	Mikir [Karbi]	tì	tì	egg (of animal)	egg (of animal)			88	0		300
+47237	1063	Mikir [Karbi]	wō a-tì	wō a-tì	egg (of animal)	egg (of animal)			217	0		1603,p,300
+47239	1063	Mikir [Karbi]	ch-.ing◦khák-	ch-.ing◦khák-	cough	cough		1.8.3.3	67	0		m,p,1795
+47240	1063	Mikir [Karbi]	pa-sií	pa-sií	cough	cough		1.8.3.3	125	0		
+47241	1063	Mikir [Karbi]	pa-seèr-phràt-	pa-seèr-phràt-	sneeze	sneeze		1.8.2.1	125	0		m,m,2130
+47242	1063	Mikir [Karbi]	ing◦nàr dô-	ing◦nàr dô-	snore	snore		1.8.2.2	25	0		p,1784,m
+47243	1063	Mikir [Karbi]	khók-	khók-	burp / belch	burp / belch		1.8.3	55	0		
+47244	1063	Mikir [Karbi]	phé-	phé-	fart	fart		1.8.5.2	142	0		311
+47245	1063	Mikir [Karbi]	khók-	khók-	clear throat	clear throat		9.6.1.1	55	0		
+47246	1063	Mikir [Karbi]	ch-.ing◦khák-	ch-.ingkhák-	clear throat	clear throat		9.6.1.1	67	0		m,p,1795
+47247	1063	Mikir [Karbi]	ing◦nèk- ⁶ ing◦nì-	ingnèk- ⁶ ingnì-	laugh	laugh		1.8.8.1	25	0		p,1105
+47248	1063	Mikir [Karbi]	òk ke-klém-	òk ke-klém-	tremble / shiver / shudder	tremble / shiver / shudder		1.6.6.2.1	34	0		
+47249	1063	Mikir [Karbi]	klém-jòr-	klém-jòr-	tremble / shiver / shudder	tremble / shiver / shudder		1.6.6.2.1	51	0		
+47250	1063	Mikir [Karbi]	tihùr-nùt-	tihùr-nùt-	tremble / shiver / shudder	tremble / shiver / shudder		1.6.6.2.1	89	0		
+47251	1063	Mikir [Karbi]	rèng-nō-	rèng-nō-	sick / be ill / hurt	sick / be ill / hurt	be v.	1.1.5.1	193	0		m,160
+47252	1063	Mikir [Karbi]	sò-	sò-	sick / be ill / hurt	sick / be ill / hurt	be v.	1.1.5.1	209	0		1844
+47253	1063	Mikir [Karbi]	che-kēng-(ràk-)	che-kēng-(ràk-)	numb / be paralyzed	numb /  be paralyzed	be v.	1.5.11	58	0		
+47254	1063	Mikir [Karbi]	che-kēng-hàk-	che-kēng-hàk-	numb / be paralyzed	numb /  be paralyzed	be v.	1.5.11	58	0		
+47255	1063	Mikir [Karbi]	che-kēng-hèt-	che-kēng-hèt-	numb / be paralyzed	numb /  be paralyzed	be v.	1.5.11	58	0		
+47256	1063	Mikir [Karbi]	kàng-	kàng-	swell / be swollen	swell /  be swollen	v.	1.1.5.2	38	0		
+47257	1063	Mikir [Karbi]	te◦nè	te◦nè	pus	pus		1.8.6.1	86	0		m,1294
+47258	1063	Mikir [Karbi]	ing◦prâm isî	ing◦prâm isî	hand span	hand span		1.5.9.4	27	0		p,m
+47259	1063	Mikir [Karbi]	chàk	chàk	hand span	hand span		1.5.9.4	56	0		
+47260	1063	Mikir [Karbi]	ing◦thín	ing◦thín	mind / locus of thought	mind / locus of thought		1.10	23	0		p,1390
+47261	1063	Mikir [Karbi]	nīng	nīng	mind / locus of thought	mind / locus of thought		1.10	113a	0		251
+47262	1063	Mikir [Karbi]	ing◦thín	ing◦thín	heart / locus of emotions	heart / locus of emotions		1.7.1	23	0		p,1390
+47263	1063	Mikir [Karbi]	nīng	nīng	heart / locus of emotions	heart / locus of emotions		1.7.1		0		251
+47264	1063	Mikir [Karbi]	achìr	achìr	flabby appendage	flabby appendage		1.6.4	1	0		
+47266	1063	Mikir [Karbi]	che-kìp	che-kìp	grasp, close the hand	grasp, close the hand		6.16	58	0		
+47267	1063	Mikir [Karbi]	che-kú-lày-	che-kú-lày-	cover head (with cloth)	cover head (with cloth)		5.8	58	0		
+47268	1063	Mikir [Karbi]	ch-.ing◦krìt-	ch-.ingkrìt-	gnash, grind the teeth	gnash, grind the teeth		1.3.4.4	67	0		m,p,2333
+47269	1063	Mikir [Karbi]	a-kèng dán-dê-	a-kèng dán-dê-	suffer from rachitis	suffer from rachitis		6.2	41	0		
+47270	1063	Mikir [Karbi]	kèng a-wúr	kèng a-wúr	foot and mouth disease	foot and mouth disease		1.5.2	41	0		338,p,m
+47271	1063	Mikir [Karbi]	kèng-chobák	kèng-chobák	loin / sirloin	loin / sirloin		1.4.9	42	0		
+47272	1063	Mikir [Karbi]	kèng-jàk a-dón	kèng-jàk a-dón	till the ankles	till the ankles		3.1.10	42	0		
+47273	1063	Mikir [Karbi]	kèng-dûng (a-dón)	kèng-dûng (a-dón)	till the ankles	till the ankles		3.1.10	42	0		
+47274	1063	Mikir [Karbi]	kèng-ták	kèng-ták	sthg sticking in the foot	sthg sticking in the foot		10.5.2	42	0		338,m
+47275	1063	Mikir [Karbi]	kèng-tòng	kèng-tòng	elephantiasis	elephantiasis		5.3	42	0		
+47276	1063	Mikir [Karbi]	kèng-thîr	kèng-thîr	leg (of table, etc.),	leg (of table, etc.),		1.5.7	42	0		338,e,m
+47278	1063	Mikir [Karbi]	kèng-bêr	kèng-bêr	hind-leg	hind-leg		1.5.7	42	0		338,m
+47279	1063	Mikir [Karbi]	kèng-bòng	kèng-bòng	distaff	distaff		5.1	42	0		
+118411	1063	Mikir [Karbi]	tene	tene	pus / matter	pus / matter		1.8.6.1	86	0		
+145875	1063	Mikir [Karbi]	kèng-phú che-tông-rùy	kèng-phú che-tông-rùy	bandy-legged, be	bandy-legged, be		1.5.7	42	0	z	
+146636	1063	Mikir [Karbi]	arbàk isî	arbàk isî	one embrace (measurement circumference, with both arms)	one embrace (measurement circumference, with both arms)		9.9	10	0		
+146637	1063	Mikir [Karbi]	kèng-rî	kèng-rî	foot, bottom, base (of tree), foundation	foot, bottom, base (of tree), foundation		1.5.2	43	0		338,m
+168031	1063	Mikir [Karbi]	thì-	thì-	die / be dead	die / be dead		1.1.6	glossary p	0	D2	27
+168032	1063	Mikir [Karbi]	thèk-	thèk-	see / look	see / look	v.	1.2.6.10	glossary p	0		
+168033	1063	Mikir [Karbi]	thèk-lóng-	thèk-lóng-	see / look	see / look	v.	1.2.6.10	glossary p	0		
+168034	1063	Mikir [Karbi]	làng-	làng-	see / look	see / look	v.	1.2.6.10	glossary p	0		1227
+168035	1063	Mikir [Karbi]	chō	chō	eat	eat	v.	1.5.3.2	glossary p	0		
+168036	1063	Mikir [Karbi]	plèng-	plèng-	full / be satiated	full / be satiated		1.1.3.2	glossary p	0		111
+168037	1063	Mikir [Karbi]	ing◦tùr	ing◦tùr	beak / bill	beak / bill		1.3.1.2	glossary p	0		p,442
+168038	1063	Mikir [Karbi]	wò-tī	wò-tī	egg (of animal)	egg (of animal)			glossary p	0		1603,300

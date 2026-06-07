@@ -1,0 +1,20 @@
+tag: 258
+grpid: 2
+proto_language: PTB
+protoform: s-bu-k
+gloss: BELLY / STOMACH / CAVE
+semkey: 1.4.7
+sequence: 1.6
+status: DELETE
+public: true
+xrefs: '164'
+allofams: 2106,2107
+references: From VSTB p. 125-6. STC#358
+phonology:
+  handle: bu
+  prefix: s
+  initial: b
+  rhyme: u-k
+  suffix: k
+  initcover: P
+  rhymecover: VT

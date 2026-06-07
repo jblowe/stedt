@@ -1,0 +1,17 @@
+tag: 1804
+grpid: 12
+proto_language: PNN
+protoform: swun
+gloss: FLESH
+semkey: 1.1.1.1
+sequence: 8.0
+status: DELETE
+public: false
+xrefs: '591'
+references: 'WTF 489-490: INPUT FORMS!'
+phonology:
+  handle: swun
+  initial: sw
+  rhyme: un
+  initcover: S
+  rhymecover: N

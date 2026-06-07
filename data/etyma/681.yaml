@@ -1,0 +1,31 @@
+tag: 681
+grpid: 2
+proto_language: PTB
+protoform: s-myak
+gloss: EYE
+semkey: 1.2.6
+sequence: 1.2
+status: KEEP
+public: true
+xrefs: '682'
+references: cf. HPTB
+phonology:
+  handle: myak
+  prefix: s
+  initial: my
+  rhyme: ak
+  initcover: M
+  rhymecover: T
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: mjak ⪤ hmik
+  gloss: EYE
+- grpid: 42
+  group: '6.1'
+  form: s-myak
+  gloss: EYE
+notes:
+- type: T
+  text: <par>A number of languages have developed an initial dental nasal due to the following palatal
+    glide (e.g., Qiang [Mawo], Nasu, Sani).</par>

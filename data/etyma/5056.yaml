@@ -1,0 +1,23 @@
+tag: 5056
+grpid: 2
+proto_language: PTB
+protoform: la-k
+gloss: TAKE / FETCH
+semkey: '6.21'
+sequence: 7.0
+status: KEEP
+public: false
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: laa-I, laak-II
+  gloss: TAKE / FETCH
+notes:
+- type: F
+  text: '<par><hanform>以</hanform> OC <latinform>*zi̯əg</latinform>, GSR #976a-e &apos;take; use, employ;
+    in order to...&apos;; Schuessler 2007:567 <latinform>*ləʔ </latinform>; B &amp; S 2011: <latinform>*ləʔ
+    </latinform>; Mand. <latinform>yǐ</latinform>.<br /><hanform>式</hanform> OC <latinform>*śi̯ək</latinform>,
+    GSR #918f &apos;follow/be a model; model, form, rule&apos;; Schuessler 2007:466 <latinform>*lhək</latinform>;
+    B &amp; S 2011: <latinform>*l̥ək</latinform>; Mand. <latinform>shì</latinform>.<br /><hanform>試</hanform>
+    OC <latinform>*śi̯əg</latinform>, GSR #918n &apos;make use of; test, try&apos;; Schuessler 2007:466
+    <latinform>*lhəkh</latinform>; B &amp; S 2011: <latinform>*l̥ək-s </latinform>; Mand. <latinform>shì</latinform>.</par>'

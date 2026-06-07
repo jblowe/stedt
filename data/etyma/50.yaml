@@ -1,0 +1,24 @@
+tag: 50
+grpid: 2
+proto_language: PTB
+protoform: bu(r)
+gloss: FAT / FATTY (MEAT)
+semkey: 1.6.4
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: bur
+  initial: b
+  rhyme: u(r)
+  initcover: P
+  rhymecover: L
+notes:
+- type: T
+  text: '<par>The final <latinform>-r</latinform> in this root is so far only attested in Nungic and Tangkhulic.
+    The reconstruction of the rhyme needs further evaluation. In particular, some of the forms with open
+    syllables might be better assigned to #163.</par><par>Note the striking similarity of the Dulong form
+    to Karlgren&apos;s OC reconstruction <latinform>bʼi̯wər</latinform>.</par>'
+- type: F
+  text: '<par><hanform>肥</hanform> OC <latinform>*bʼi̯wər</latinform>, GSR #582a &apos;fat, fertile (soil)&apos;;
+    B &amp; S 2011: <latinform>*bər {[b][ə]r}</latinform>; Mand. <latinform>féi</latinform>.</par>'

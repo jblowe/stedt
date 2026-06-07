@@ -1,0 +1,19 @@
+tag: 2354
+grpid: 2
+proto_language: PTB
+protoform: (m-)ku-k
+gloss: ANGLE; KNEE
+semkey: 1.5.8
+sequence: 1043.0
+status: DELETE
+public: false
+xrefs: '1251'
+references: 'STC pp. 120, 159, 182; duplicate of #1251?'
+phonology:
+  handle: m-ku
+  prefix: m
+  initial: )k
+  rhyme: u-k
+  suffix: k
+  initcover: K
+  rhymecover: VT

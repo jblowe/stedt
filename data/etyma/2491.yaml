@@ -1,0 +1,17 @@
+tag: 2491
+grpid: 2
+proto_language: PTB
+protoform: s-nat
+gloss: HEDDLES (of a loom)
+semkey: '5.1'
+sequence: 2135.0
+status: KEEP
+public: true
+references: STC#436
+phonology:
+  handle: nat
+  prefix: s
+  initial: n
+  rhyme: at
+  initcover: M
+  rhymecover: T

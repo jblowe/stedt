@@ -1,0 +1,15 @@
+tag: 3386
+grpid: 2
+proto_language: PTB
+protoform: čo
+gloss: GROIN
+semkey: 1.4.9
+sequence: 7.0
+status: DELETE
+public: false
+phonology:
+  handle: čo
+  initial: č
+  rhyme: o
+  initcover: TS
+  rhymecover: V

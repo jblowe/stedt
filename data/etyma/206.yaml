@@ -1,0 +1,27 @@
+tag: 206
+grpid: 2
+proto_language: PTB
+protoform: (k/g)um
+gloss: BACK / BODY
+semkey: 1.4.8
+sequence: 6.0
+status: KEEP
+public: true
+exemplary: true
+allofams: 405,412
+phonology:
+  handle: kum
+  initial: k
+  rhyme: um ⪤ gum
+  initcover: K
+  rhymecover: N
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: kʰum
+  gloss: BACK
+notes:
+- type: T
+  text: <par>This root is etymologically distinct from <xref ref="1">#1</xref> and <xref ref="2252">#2252</xref>.</par><par>The
+    Bai forms are rather arbitrarily assigned to this root, although roots <xref ref="1">#1</xref> and
+    <xref ref="2">#2</xref> are also possibilities.</par>

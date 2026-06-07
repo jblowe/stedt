@@ -1,0 +1,18 @@
+tag: 3536
+grpid: 2
+proto_language: PTB
+protoform: hywa(p/m)
+gloss: JUMP
+semkey: 6.7.8
+sequence: 8.0
+status: KEEP
+public: true
+references: cf. JAM-LITB 6.4, HPTB p.65
+phonology:
+  initial: hy
+  rhyme: op ⪤ hyo
+  initcover: H
+  rhymecover: WT
+notes:
+- type: T
+  text: <par>This etymon seems valid, but further confirmation would be welcome.</par>

@@ -1,0 +1,25 @@
+tag: 801
+grpid: 2
+proto_language: PTB
+protoform: s-ŋar
+gloss: SWEAT
+semkey: 1.8.1
+sequence: 4.0
+status: KEEP
+public: true
+references: KEEP 6/2012
+phonology:
+  handle: ŋar
+  prefix: s
+  initial: ŋ
+  rhyme: ar
+  initcover: M
+  rhymecover: L
+notes:
+- type: T
+  text: <par>This reconstruction is not found in  Sun 1993.</par>
+- type: T
+  text: <par>This root seems to overlap with <xref ref="4513">#4513</xref>. The Lhoba form was attributed
+    to the latter in HPTB:399, with the initial explained as due to assimilation to the final of the first
+    syllable. Particularly tricky to interpret are the Bokar form with <latinform>w-</latinform> and the
+    Hill Miri form with <latinform>h-</latinform>.</par>

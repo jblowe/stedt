@@ -1,0 +1,21 @@
+tag: 1622
+grpid: 2
+proto_language: PTB
+protoform: pwi(y)-n
+gloss: FEMALE / MOTHER / BIG / MOLAR
+semkey: 1.9.3
+sequence: 15.0
+status: KEEP
+public: true
+references: cf. STC#171, HPTB pp.197, 201, 448
+phonology:
+  handle: pwiy
+  initial: pw
+  rhyme: i(y)
+  initcover: P
+  rhymecover: W
+notes:
+- type: F
+  text: '<par><hanform>牝</hanform> OC <latinform>*bʼi̯ən~bʼi̯ər</latinform>, GSR #566-j &apos;female of
+    animals&apos;; Schuessler 2007: <latinform>*bi(n)ʔ</latinform>; B &amp; S 2011: <latinform>*birʔ {[b]irʔ}(dial.
+    -r › -j)</latinform>; Mand. <latinform>pìn</latinform>.</par>'

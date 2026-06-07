@@ -1,0 +1,15 @@
+tag: 406
+grpid: 2
+proto_language: PTB
+protoform: s/m-ta
+gloss: BACKSIDE / HIPS
+semkey: 1.4.8
+sequence: 3.0
+status: KEEP
+public: true
+phonology:
+  handle: ta
+  initial: t
+  rhyme: a ⪤ n-ta
+  initcover: T
+  rhymecover: VNT

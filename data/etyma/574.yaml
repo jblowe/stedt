@@ -1,0 +1,29 @@
+tag: 574
+grpid: 2
+proto_language: PTB
+protoform: r-t(u/i)l
+gloss: BUTTOCKS / HEEL / DULL / BLUNT / ROUNDED PART
+semkey: 7.1.5.1
+sequence: 2.0
+status: KEEP
+public: true
+references: cf. HPTB pp.419, 422, 500, 504
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: lə-du
+  gloss: HEEL
+notes:
+- type: F
+  text: '<par><unicode>21c42</unicode> OC <reconstruction>*d’wən</reconstruction>, GSR #429a &apos;buttocks&apos;;
+    Mand. <latinform>tún</latinform>.</par><par><hanform>臀</hanform> OC <reconstruction>*d’wən</reconstruction>,
+    GSR #429b-c ‘buttocks’; Li 1971: <reconstruction>*dən</reconstruction>; Baxter 1992: <reconstruction>*dun</reconstruction>;
+    Mand. <latinform>tún</latinform>.</par><par><hanform>殿</hanform> OC <reconstruction>*tiən</reconstruction>,
+    GSR #429d ‘rear of army’; Li 1971: <reconstruction>*tiənh</reconstruction>; Baxter 1992: <reconstruction>*tɨns</reconstruction>;
+    Mand. <latinform>diàn</latinform>.</par><par><hanform>沌</hanform> OC <reconstruction>*d’wən</reconstruction>,
+    GSR #427h ‘confused, stupid’; Li 1971: <reconstruction>*dənx</reconstruction>; Baxter 1992: <reconstruction>*dunʔ</reconstruction>;
+    Mand.  <latinform>dùn</latinform>.</par><par><hanform>鈍</hanform> OC <reconstruction>*d’wən</reconstruction>,
+    GSR #427i ‘dull’; Li 1971: <reconstruction>*dənh</reconstruction>; Baxter 1992: <reconstruction>*duns</reconstruction>;
+    Mand. <latinform>dùn</latinform>.</par><par><hanform>頓</hanform> OC <reconstruction>*twən</reconstruction>,
+    GSR #427j ‘worn, dull, spoiled’; Li 1971: <reconstruction>*tənh</reconstruction>; Baxter 1992: <reconstruction>*tuns</reconstruction>;
+    Mand. <latinform>dùn</latinform>.</par>'

@@ -1,0 +1,36 @@
+tag: 1283
+grpid: 2
+proto_language: PTB
+protoform: m-yaŋ
+gloss: PENIS / TESTICLE / STINGER (of bee)
+sequence: 115.0
+status: KEEP
+public: true
+references: 1638?
+phonology:
+  handle: zyaŋ
+  initial: z(y)
+  rhyme: aŋ
+  initcover: S
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: yaŋ
+  gloss: PENIS / STINGER (of bee)
+- grpid: 66
+  group: 1.3.4
+  form: ʃaŋ
+  gloss: PENIS
+notes:
+- type: T
+  text: <par>This etymon has so far been uncovered almost exclusively in the NE Indian Areal Group, where
+    it is widely attested. The Lailenpi and Lotha forms point to a prototype with nasal prefix, <reconstruction>*N-yaŋ</reconstruction>.
+    Many of the daughter languages have developed initial <latinform>z-</latinform> in this etymon. In
+    several languages, the meaning of this word extends to &apos;stinger of bee&apos;, which perhaps is
+    the original meaning. For the stinging semantics, cf. vulgar English <emph>prick</emph>.</par><par>An
+    excellent extra-NE Indian candidate for cognacy is Jingpho <latinform>rāŋ</latinform> &apos;to be
+    concupiscent; to be driven by sexual desires; to burn with lust&apos; (Hanson 1906/1954:564), recorded
+    as <latinform>ʒaŋ³³</latinform> in Dai, et al. 1983:684, where it is glossed <hanform>性冲动</hanform>
+    &apos;sexual impulse&apos;. See the compound <latinform>ne³¹ ʒaŋ³³</latinform> &apos;sexually potent
+    male&apos;, under <xref ref="545">#545</xref>, above.</par>

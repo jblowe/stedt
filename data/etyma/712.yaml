@@ -1,0 +1,55 @@
+tag: 712
+grpid: 2
+proto_language: PTB
+protoform: k(r)u-t
+gloss: HAND / FIST / ARM
+semkey: 1.5.1.1
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+references: incl 378,714,716,715,713
+phonology:
+  handle: k/g-r
+  initial: (r)
+  rhyme: ut
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: kut ⪤ khut
+  gloss: HAND
+- grpid: 66
+  group: 1.3.4
+  form: kʰut
+  gloss: HAND / ARM
+- grpid: 8
+  group: '1.2'
+  form: kut-tum ⪤ khut-tum
+  gloss: FIST
+notes:
+- type: T
+  text: '<par>This widely distributed root appears in Kuki-Chin, North Assam, Himalayish, and perhaps
+    Qiangic.</par><par>Several forms (Sulung <latinform>geȶ³³</latinform>, Kanauri <latinform>khyuč</latinform>,
+    Sunwar <latinform>guy</latinform>, and Pattani <latinform>guʐ</latinform>) show palatalization of
+    the final consonant.</par><par>A few other languages have forms with medial glides: Chepang <latinform>krut</latinform>,
+    Kanauri <latinform>khyuč</latinform>, and Bunan <latinform>khyutsi</latinform>. Mru <latinform>rut</latinform>
+    shows loss of the initial velar, so that the medial became the initial consonant. Several Himalayan
+    languages have similar looking forms which are borrowings from Nepali <latinform>pākhurā</latinform>
+    &apos;arm&apos;: Gurung <latinform>pā:khruq</latinform>, Thakali <latinform>yā pākhura</latinform>,
+    and Sunwar <latinform>pā:khrā:</latinform>.</par><par>The second syllable of Magar <latinform>mi-huʈ</latinform>
+    &apos;hand&apos; might also descend from this etymon, but cf. Nepali <latinform>hāt</latinform>.</par><par>Many
+    other forms show loss of the final <latinform>t</latinform> in compound-initial position, e.g. Lakher
+    (Mara) <latinform>ku paro</latinform>; Lushai (Mizo) <latinform>ku-tang</latinform>; Meithei <latinform>khudôn</latinform>,
+    etc.; Bunan <latinform>khuṭub</latinform>; and WT <latinform>khu-tshur</latinform>.</par><par>The
+    Mongsen Ao form <latinform>tə-khə́t</latinform> or <latinform>tükhet</latinform> does not descend
+    from this etymon, but rather from a totally distinct root <xref ref="2301">#2301</xref> (cf. STC p.94
+    and JAM 1995:3.12). Daniel Bruhn, based on a suggestion from T. Temsunungsang, points out a similar
+    semantic development in Chungli Ao: <latinform>kà</latinform> &apos;one&apos;, <latinform>tə́-kà</latinform>
+    &apos;hand&apos; (cf. the next etymon). There is a fascinating parallel in Written Burmese: <latinform>hnac</latinform>
+    &apos;two&apos;, <latinform>khu&apos; hnac</latinform> &apos;seven&apos;, where the first syllable
+    (under the creaky tone) seems likely to descend from this etymon, with the meaning &apos;five&apos;,
+    pointing to a former quinary system of counting, as in modern Khmer. The semantic connection between
+    the hand and the numeral five is also found in Austronesian (cf. Indonesian <latinform>lima</latinform>
+    &apos;five, hand&apos;).</par>'

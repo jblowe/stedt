@@ -1,0 +1,17 @@
+tag: 2486
+grpid: 2
+proto_language: PTB
+protoform: s-nam
+gloss: DAUGHTER-IN-LAW / WIFE / SISTER
+semkey: 4.7.3
+sequence: 3.0
+status: KEEP
+public: true
+references: STC#103
+phonology:
+  handle: nam
+  prefix: s
+  initial: n
+  rhyme: am
+  initcover: M
+  rhymecover: N

@@ -1,0 +1,16 @@
+tag: 2369
+grpid: 2
+proto_language: PTB
+protoform: kway
+gloss: CONCEAL / HIDE / SHUN
+semkey: 6.2.2.1
+sequence: 2.0
+status: KEEP
+public: true
+references: cf. STC#303, HPTB pp.57, 213
+phonology:
+  handle: kway
+  initial: kw
+  rhyme: ay
+  initcover: K
+  rhymecover: W

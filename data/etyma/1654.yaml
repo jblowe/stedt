@@ -1,0 +1,87 @@
+tag: 1654
+grpid: 2
+proto_language: PTB
+protoform: pu
+gloss: EGG
+sequence: 1.2
+status: KEEP
+public: true
+phonology:
+  handle: pu
+  initial: p
+  rhyme: u
+  initcover: P
+  rhymecover: V
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: pɯ
+  gloss: EGG
+notes:
+- type: T
+  text: <par>This morpheme appears in cognate object constructions, e.g. Bengni <latinform>pɯ-pɯ pɯ</latinform>
+    &apos;lay an egg&apos;, where the last element is the verb. The noun looks reduplicated in Bengni,
+    but Apatani has <latinform>pa-pu</latinform> &apos;egg&apos;, with apparently distinct components.
+    Similar cognate objects are characteristic of <xref ref="301">#301</xref>, e.g. Lahu <latinform>ɔ̀-u
+    u ve</latinform> &apos;lay an egg&apos;, where the noun appears with a prefix.</par><par>This root
+    may well be related to a morpheme with a more general meaning of BALL / EGG / ROUND OBJECT (<xref
+    ref="1275">#1275 </xref>).</par>
+- type: F
+  text: '<par><hanform>孵</hanform> OC <reconstruction>*pʼi̯ôg</reconstruction> &apos;to hatch (eggs),
+    incubate&apos; ZJH; not in GSR #1233; Li 1971: <latinform>(*phjəgw)</latinform>; Baxter 1992: <latinform>(*ph(r)ju)</latinform>;
+    Mand. <latinform>fū</latinform>.</par><par>The earliest attested use of this Chinese character seems
+    to be the Han Dynasty work <emph>Fangyan</emph>.  However, it is clearly a later graphic variant of
+    <hanform>孚</hanform>, Mand. <latinform>fú</latinform>, which is attested writing ‘hatch’.  Thus although
+    the character may be of later development, the word itself obviously existed at the Old Chinese time
+    period.</par><par>Characters with the <hanform>孚</hanform> phonetic are generally placed in the OC
+    <hanform>幽</hanform> <plainlatinform>Yōu</plainlatinform> rhyme group.  However, some members of this
+    phonetic series are found in the Middle Chinese <hanform>虞</hanform> <plainlatinform>Yú</plainlatinform>
+    rhyme, which is not regularly derivable from the OC <hanform>幽</hanform> <plainlatinform>Yōu</plainlatinform>
+    group.  </par><par>Neither Li nor Baxter specifically discusses the difficulties of reconstructing
+    this set of characters. Baxter (1992:757) does however list a reconstruction for <hanform>孚</hanform>
+    (square brackets represent irregular development): <hanform>孚</hanform> <latinform>[fú]</latinform>
+    &lt; <latinform>[phju]</latinform> &lt; <reconstruction>*ph(r)ju</reconstruction>. It is treated as
+    an irregular development from the OC <hanform>幽</hanform> <plainlatinform>Yōu</plainlatinform> group
+    into the MC <hanform>虞</hanform> <plainlatinform>Yú</plainlatinform>  rhyme.  I have therefore provided
+    a parallel reconstruction for <hanform>孵</hanform> in the systems of Li and Baxter.</par><par>Karlgren
+    reconstructs other characters in this phonetic series with <reconstruction>*-ug</reconstruction> (equivalent
+    to the OC <hanform>侯</hanform> <latinform>Hóu</latinform> rhyme group), which yields a regular development
+    into MC. However, I have provided a Karlgren-system reconstruction based on the assumption that the
+    word belongs in the <hanform>幽</hanform> <plainlatinform>Yōu</plainlatinform> rhyme group.</par><par>The
+    OC-PTB correspondence of finals is regular. PTB <reconstruction>*-u</reconstruction> and <reconstruction>*-əw</reconstruction>
+    phonemically differ only in length, and show identical OC correspondences. In open syllables the long
+    vowel <reconstruction>*-əw</reconstruction> (which could be written <plainlatinform>/uw/</plainlatinform>
+    or <plainlatinform>/uː/</plainlatinform>) is more common, and so cognate sets exemplifying this correspondence
+    usually involve that vowel. Examples include <hanform>九</hanform> ‘nine’ (TB <reconstruction>*d-kəw</reconstruction>,
+    OC <reconstruction>*kjəgw</reconstruction>; Mand. <latinform>jiǔ</latinform>), <hanform>鳩</hanform>
+    ‘dove/pigeon’ (TB <reconstruction>*khəw</reconstruction>, OC <reconstruction>*kjəgw</reconstruction>;
+    Mand. <latinform>jiū</latinform>) and <xref ref="1733">#1733</xref> (elsewhere in this volume). It
+    is interesting to note that this correspondence seems to be attested only after grave initials.</par><par>As
+    for the mismatch in aspiration of the OC and PTB initials, this raises the broader issue of voicing
+    and aspiration within and across Chinese and TB. PTB is reconstructed with a two-way voicing contrast
+    (e.g. <reconstruction>*p</reconstruction> vs. <reconstruction>*b</reconstruction>), while Old Chinese
+    is reconstructed with a three-way voicing and aspiration contrast (e.g. <reconstruction>*p</reconstruction>
+    vs. <reconstruction>*ph</reconstruction> vs. <reconstruction>*b</reconstruction>).  Voicing and aspiration
+    correspondences between cognates are notoriously imprecise.  This is because of various complex morphological
+    processes, not yet entirely understood, at play in word families on both sides, which can affect voicing
+    and aspiration.  On the Chinese side, it has become increasingly clear in recent decades that prefixal
+    elements, such as <reconstruction>*s-</reconstruction> and various nasals, can voice or devoice root
+    initials.  (See for example Baxter and Sagart 1998, Sagart 1999, and Gong 2000.)  It has also been
+    argued that Chinese aspiration is mostly, or entirely, a secondary feature.  (See Schuessler 2007:58ff
+    for a recent articulation of this view.)  Similar processes have been observed in various TB languages
+    and posited for PTB.  Because not all of these processes are fully understood, and because of the
+    complex history of individual words and word families, it is not always possible to be sure that one
+    is comparing etymological roots, rather than derived forms, in established OC/PTB cognate sets.</par><par>For
+    this reason the correspondence of PTB <reconstruction>*p-</reconstruction> with OC <reconstruction>*ph-</reconstruction>,
+    for the comparison under discussion here, must be considered regular, with the assumption that aspiration
+    in the Chinese form is a secondary development.  Similarly, mismatches in voicing or aspiration will
+    not be considered impediments in the proposal of Chinese comparanda for PTB etyma elsewhere in this
+    volume.  We assume, ultimately, that PTB voiceless initials correspond to Chinese voiceless initials,
+    and that PTB voiced initials correspond to Chinese voiced initials, and that as our understanding
+    of morphological processes on each side improves, these patterns of correlation will become more evident.<br
+    />[ZJH]</par>'
+- type: T
+  text: <par>The first elements in the Bengni, Bokar, Galo, and Tagin forms are either morphemes meaning
+    &apos;bird&apos; or &apos;chicken&apos; (cf. Damu <latinform>rok-pɯ</latinform>, where <latinform>rok</latinform>
+    clearly &lt; <reconstruction>*k-rak</reconstruction> &apos;chicken&apos;), or else reduplications
+    of the root.</par>

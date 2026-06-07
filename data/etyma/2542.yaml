@@ -1,0 +1,23 @@
+tag: 2542
+grpid: 2
+proto_language: PTB
+protoform: hwak
+gloss: BELOW
+semkey: 9.2.2
+sequence: 1159.0
+status: KEEP
+public: true
+references: 'STC#110; related to #1364?'
+phonology:
+  handle: ok
+  initial: ʔ
+  rhyme: ok
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root is undoubtedly related to <xref ref="1364">#1364</xref>, but is here treated separately
+    in view of the considerable semantic difference between the two.</par>
+- type: F
+  text: '<par><hanform>後</hanform> OC <latinform>*g’u</latinform>, GSR #115a &apos;behind, after&apos;;
+    Schuessler 2007:280 <latinform>*gôʔ</latinform>~<latinform>*ɦôʔ</latinform>; B &amp; S 2011: <latinform>*ɢˁoʔ
+    {[ɢ]ˁ(r)oʔ}</latinform>; Mand. <latinform>hòu</latinform>.</par>'

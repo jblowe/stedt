@@ -1,0 +1,16 @@
+tag: 1248
+grpid: 2
+proto_language: PTB
+protoform: ((k/ŋ)/t)s
+gloss: KNEE
+semkey: 1.5.8.4
+sequence: 7.0
+status: DELETE
+public: false
+references: protoform appears to be malformed
+phonology:
+  handle: K
+  initial: (k/ŋ
+  rhyme: s
+  initcover: K
+  rhymecover: S

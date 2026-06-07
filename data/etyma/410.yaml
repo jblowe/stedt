@@ -1,0 +1,21 @@
+tag: 410
+grpid: 2
+proto_language: PTB
+protoform: m-(p/b)a
+gloss: HIPS / BUTTOCKS / TAIL
+semkey: 1.4.9.2
+sequence: 1.0
+status: KEEP
+public: true
+xrefs: BUTTOCKS
+phonology:
+  handle: p/ba
+  initial: p/b
+  rhyme: a
+  initcover: P
+  rhymecover: V
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: m-ba²/³
+  gloss: TAIL

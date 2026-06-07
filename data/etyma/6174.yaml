@@ -1,0 +1,29 @@
+tag: 6174
+grpid: 2
+proto_language: PTB
+protoform: s-g-ryam
+gloss: CATCH / HOLD FAST
+semkey: '6.21'
+sequence: 1345.0
+status: KEEP
+public: true
+references: HPTB p.305
+phonology:
+  prefix: s
+  initial: gr
+  rhyme: im
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: hram
+  gloss: CATCH, SEIZE, HOLD
+notes:
+- type: T
+  text: <par>Huziwara sets up Proto-Asakian <latinform>*Cim</latinform>, which bears some resemblance
+    to Old Chinese <latinform>gʼi̯əm/gʼi̯əm</latinform> &apos;bird; animal; catch / capture&apos; (GSR
+    651j-m).</par>
+- type: F
+  text: '<par><hanform>禽</hanform> OC <latinform>*gʼi̯əm</latinform>, GSR #651j-m &apos;bird, animal /
+    catch, capture&apos;; B &amp; S 2011: <latinform>*C.ɢəm {[C.ɢ](r)[ə]m}</latinform>; Mand. <latinform>qín</latinform>.<br
+    /><hanform>擒</hanform> OC <latinform>*gʼi̯əm</latinform>, GSR #651n &apos;catch, capture&apos;; Mand.
+    <latinform>qín</latinform>.</par>'

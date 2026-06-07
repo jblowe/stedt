@@ -1,0 +1,24 @@
+tag: 1420
+grpid: 2
+proto_language: PTB
+protoform: s-mu(y/r)
+gloss: SMELL / FRAGRANT
+semkey: 1.2.8.5
+sequence: 1.0
+status: KEEP
+public: true
+phonology:
+  handle: mur
+  initial: m
+  rhyme: ur
+  initcover: M
+  rhymecover: L
+mesoroots:
+- grpid: 70
+  group: 1.2.2
+  form: hmuy
+  gloss: SMELL (good) / FRAGRANT
+notes:
+- type: T
+  text: <par>This etymon shows an unusual variation between final <latinform>-y</latinform> and <latinform>-r</latinform>.
+    </par>

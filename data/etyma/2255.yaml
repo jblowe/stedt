@@ -1,0 +1,20 @@
+tag: 2255
+grpid: 2
+proto_language: PTB
+protoform: gwa
+gloss: FOX
+semkey: 2.1.11
+sequence: 4.0
+status: KEEP
+public: false
+references: cf. STC p.34, HPTB pp.167, 173
+phonology:
+  handle: gwa
+  initial: gw
+  rhyme: a
+  initcover: K
+  rhymecover: V
+notes:
+- type: F
+  text: '<par><hanform>狐</hanform> OC <latinform>*gʼwo</latinform>, GSR #41i &apos;fox&apos;; Coblin 86:84
+    ST <latinform>*gwaɣ</latinform>; B &amp; S 2011: <latinform>*ɡʷˁa {[ɡ]ʷˁa}</latinform>; Mand. <latinform>hú</latinform>.</par>'

@@ -1,0 +1,19 @@
+tag: 267
+grpid: 2
+proto_language: PTB
+protoform: k(w)aŋ
+gloss: CHEEK / JAW / CHIN / FACE
+semkey: 1.2.5.2
+sequence: 15.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: kwaŋ
+  initial: kw
+  rhyme: aŋ
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This morpheme often occurs as the second element in compounds.</par>

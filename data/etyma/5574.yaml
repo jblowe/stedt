@@ -1,0 +1,21 @@
+tag: 5574
+grpid: 2
+proto_language: PTB
+protoform: z(y)um ⪤ zuŋ
+gloss: USE
+semkey: 6.2.2.7.1
+sequence: 1.0
+status: KEEP
+public: false
+references: cf. HPTB pp. 34, 66, 276, 531
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: zum²
+  gloss: USE
+notes:
+- type: F
+  text: '<par><hanform>用</hanform> OC <latinform>*di̯ung</latinform>, GSR #1185a-e &apos;use, employ&apos;;
+    B &amp; S 2011: <latinform>*m.loŋ-s</latinform>; Mand. <latinform>yòng</latinform>.<br /><hanform>傭</hanform>
+    OC <latinform>*di̯ung</latinform>, GSR #1185y &apos;hire&apos;; B &amp; S 2011: <latinform>*loŋ</latinform>;
+    Mand. <latinform>yōng</latinform>.</par>'

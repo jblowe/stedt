@@ -1,0 +1,18 @@
+tag: 87
+grpid: 42
+proto_language: PLB
+protoform: lwa
+gloss: LIVE / ALIVE
+semkey: 1.1.2.1
+sequence: 10.0
+status: KEEP
+public: false
+phonology:
+  handle: lwa
+  initial: lw
+  rhyme: a
+  initcover: L
+  rhymecover: V
+notes:
+- type: T
+  text: <par>Further confirmation of this weakly attested root is necessary.</par>

@@ -1,0 +1,20 @@
+tag: 1421
+grpid: 2
+proto_language: PTB
+protoform: bat
+gloss: SMELL / ODOR
+semkey: 1.2.8.5
+sequence: 4.0
+status: KEEP
+public: true
+exemplary: true
+references: GSTC 30, HPTB
+phonology:
+  handle: bat
+  initial: b
+  rhyme: at
+  initcover: P
+  rhymecover: T
+notes:
+- type: T
+  text: <par>For phonosemantically similar roots, see <xref ref="5756">#5756</xref> and <xref ref="810">#810</xref>.</par>

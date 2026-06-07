@@ -1,0 +1,17 @@
+tag: 1216
+grpid: 2
+proto_language: PTB
+protoform: t(y)i-n
+gloss: FRONT
+semkey: 1.4.4
+sequence: 7.0
+status: DELETE
+public: false
+xrefs: '1212'
+possallo: 1211,1212
+phonology:
+  handle: tyi-
+  initial: t(y)
+  rhyme: i-n
+  initcover: T
+  rhymecover: VN

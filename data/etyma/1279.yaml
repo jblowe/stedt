@@ -1,0 +1,23 @@
+tag: 1279
+grpid: 2
+proto_language: PTB
+protoform: kap
+gloss: FORK / BRANCH / CROTCH / GROIN
+semkey: 1.4.9.1
+sequence: 2.0
+status: KEEP
+public: true
+xrefs: CROTCH
+references: cf. STC#338, HPTB pp.336, 340, 341; incl 2298
+phonology:
+  handle: kap
+  initial: k
+  rhyme: ap
+  initcover: K
+  rhymecover: T
+notes:
+- type: F
+  text: '<par><hanform>梜</hanform> OC <latinform>*ki̯ɑp</latinform>, GSR #630f &apos;chopsticks&apos;;
+    Schuessler 2007:300 (<latinform>*krêp</latinform>); B &amp; S 2011: <latinform>*kˁ‹r›ep</latinform>;
+    Mand. <latinform>jiā</latinform>.</par><par><latinform>Comment</latinform>: Cf. comparanda for <xref
+    ref="6186">#6186</xref>.</par>'

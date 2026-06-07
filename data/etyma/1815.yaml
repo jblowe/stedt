@@ -1,0 +1,20 @@
+tag: 1815
+grpid: 29
+proto_language: PKir
+protoform: b(l/r)o(n/m)
+gloss: LIVE
+semkey: 1.1.2.1
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: bLoM
+  initial: b(l/r)
+  rhyme: o(n/m)
+  initcover: P
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root seems to be of extremely limited distribution, so far having turned up only in
+    the Western Kiranti group (Bahing, Sunwar). Michailovsky also cites Bahing <latinform>bloept-</latinform>
+    and Sunwar <latinform>broyM-</latinform>, which are perhaps related.</par>

@@ -1,0 +1,17 @@
+tag: 362
+grpid: 2
+proto_language: PTB
+protoform: tam
+gloss: CARRY ON SHOULDER
+semkey: 1.4.3.3
+sequence: 1339.0
+status: KEEP
+public: false
+references: HPTB p.298
+phonology:
+  initial: t
+  rhyme: am
+notes:
+- type: F
+  text: '<par><hanform>擔</hanform> OC <latinform>*tɑ̂m</latinform>, GSR 619k &apos;carry on the shoulder&apos;;
+    B &amp; S 2011: <latinform>*mə-tˁam</latinform>; Mand. <latinform>tān</latinform>.</par>'

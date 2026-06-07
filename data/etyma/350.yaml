@@ -1,0 +1,32 @@
+tag: 350
+grpid: 2
+proto_language: PTB
+protoform: la
+gloss: LEG / FOOT
+semkey: 1.5.7
+sequence: 1.7
+status: KEEP
+public: true
+exemplary: true
+xrefs: '375'
+phonology:
+  handle: la
+  initial: l
+  rhyme: a
+  initcover: L
+  rhymecover: V
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: lə (~ le?)
+  gloss: LEG
+notes:
+- type: T
+  text: <par>As mentioned above, a number of languages have forms with open syllables and initial <latinform>l-</latinform>,
+    <latinform>y-</latinform>, or <latinform>d-</latinform> with the meaning &apos;foot&apos;. Although
+    this might seem strange, it cannot be excluded that these etyma for <emph>hand</emph> and <emph>foot</emph>
+    are somehow related. This is rather analogous to the situation with NOSE and EAR, which are reconstructed
+    as <reconstruction>*s-na</reconstruction> and <reconstruction>*r-na ⪤ *g-na</reconstruction>, respectively.</par><par>The
+    prefixal <latinform>lə</latinform> in Jingpho forms referring to the feet are assigned to this etymon,
+    while similar referring to the hand are interpreted as deriving from <xref ref="695">#695 </xref>.
+    This ambiguity is the result of the weakening of the rhyme in the prefixization process.</par>

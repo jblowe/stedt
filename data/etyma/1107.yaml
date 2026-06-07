@@ -1,0 +1,20 @@
+tag: 1107
+grpid: 2
+proto_language: PTB
+protoform: man
+gloss: BACK (lower) / BUTTOCKS
+semkey: 1.4.8
+sequence: 5.0
+status: KEEP
+public: true
+references: incl 200
+phonology:
+  handle: maŋ
+  initial: m
+  rhyme: aŋ ⪤ man
+  initcover: M
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This etymon seems to partially overlap with <xref ref="411">#411</xref>, and should perhaps
+    be merged with it in the future.</par>

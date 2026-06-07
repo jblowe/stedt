@@ -1,0 +1,18 @@
+tag: 532
+grpid: 2
+proto_language: PTB
+protoform: r-so-p
+gloss: OBSCURE INTERNAL CHANNEL
+semkey: '10.0'
+sequence: 1.2
+status: DELETE
+public: false
+references: only Lepcha?
+phonology:
+  handle: so-p
+  prefix: r
+  initial: s
+  rhyme: o-p
+  suffix: p
+  initcover: S
+  rhymecover: VT

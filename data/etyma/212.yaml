@@ -1,0 +1,16 @@
+tag: 212
+grpid: 2
+proto_language: PTB
+protoform: dal
+gloss: LOWER BACK / WAIST / LOINS
+sequence: 4.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: BACK (lower)/LOINS/GROIN
+phonology:
+  handle: dal
+  initial: d
+  rhyme: al
+  initcover: T
+  rhymecover: L

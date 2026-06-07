@@ -1,0 +1,28 @@
+tag: 2195
+grpid: 2
+proto_language: PTB
+protoform: m-day ⪤ m-di
+gloss: THAT / THIS / DEICTIC
+semkey: '10.1'
+sequence: 3287.0
+status: KEEP
+public: true
+references: STC#021
+phonology:
+  handle: day
+  initial: d
+  rhyme: ay
+  initcover: T
+  rhymecover: W
+notes:
+- type: T
+  text: <par>As is to be expected with high-frequency grammatical etyma, this root shows some vowel gradation,
+    apparently between <latinform>*-ay</latinform> and <latinform>*-i</latinform>.</par><par>The nasal
+    prefix is attested directly in Written Tibetan and Jingpho, and indirectly by the voiced initial in
+    Written Burmese.</par>
+- type: F
+  text: '<par><hanform>是</hanform> OC <latinform>*d̑i̯ĕg</latinform>, GSR #866a-c &apos;this&apos;; B
+    &amp; S 2011: <latinform>*deʔ {[d]eʔ}</latinform>; Mand. <latinform>shì</latinform>.<br /><hanform>之</hanform>
+    OC <latinform>*̵t̑i̯ĕg</latinform>, GSR #962a-b &apos;<emph>third person pronoun; attributive particle</emph>&apos;;
+    Schuessler 2007:613 <latinform>*tə</latinform>; B &amp; S 2011: <latinform>*tə</latinform>; Mand.
+    <latinform>zhī</latinform>.</par>'

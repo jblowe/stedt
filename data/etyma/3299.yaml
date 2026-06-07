@@ -1,0 +1,24 @@
+tag: 3299
+grpid: 2
+proto_language: PTB
+protoform: g-laːm
+gloss: LIE DOWN
+semkey: 6.1.1.4
+sequence: 9.0
+status: KEEP
+public: true
+phonology:
+  handle: laːm
+  initial: l
+  rhyme: aːm
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: laːm
+  gloss: LIE DOWN
+- grpid: 29
+  group: '2.3'
+  form: glem-
+  gloss: LIE DOWN

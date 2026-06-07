@@ -1,0 +1,21 @@
+tag: 1188
+grpid: 2
+proto_language: PTB
+protoform: s-myal
+gloss: FACE
+semkey: 1.2.5
+sequence: 4.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: myal
+  prefix: s
+  initial: my
+  rhyme: al
+  initcover: M
+  rhymecover: L
+notes:
+- type: F
+  text: '<par><hanform>面</hanform> OC <latinform>*mi̯ɑn</latinform>, GSR #223a; B &amp; S 2011: <latinform>*C.men-s
+    {C.me[n]-s}</latinform>; Mand. <latinform>miàn</latinform>.</par>'

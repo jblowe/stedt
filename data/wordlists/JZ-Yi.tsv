@@ -1,0 +1,391 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+43629	1656	Yi (Dafang)	ʈʰu⁵⁵ bɔ²¹	ʈʰu⁵⁵ bɔ²¹	front	front		1.4.4		0		m,m
+43630	1656	Yi (Dafang)	nɔ³³ bɔ⁵⁵	nɔ³³ bɔ⁵⁵	back (side)	back (side)		1.4.8		0		203,m
+43631	1656	Yi (Dafang)	fə³³	fə³³	left	left		1.5.3.2		0		2154
+43632	1656	Yi (Dafang)	xi⁵⁵	xi⁵⁵	right (side)	right (side)		1.5.3.2		0		
+43633	1656	Yi (Dafang)	pʰa²¹ bɔ⁵⁵	pʰa²¹ bɔ⁵⁵	side	side		1.4.5		0		
+43634	1656	Yi (Dafang)	ndo⁵⁵	ndo⁵⁵	egg	egg				0		1609
+43635	1656	Yi (Dafang)	do²¹ la¹³	do²¹ la¹³	wing	wing		1.5.1.3		0		711,695
+43636	1656	Yi (Dafang)	mu²¹	mu²¹	fur (fine)	fur (fine)		1.6.1		0		363
+43637	1656	Yi (Dafang)	tsʰɯ²¹	tsʰɯ²¹	fur (coarse)	fur (coarse)		1.6.1		0		366
+43638	1656	Yi (Dafang)	da¹³	da¹³	claw	claw		1.5.10.4		0		
+43639	1656	Yi (Dafang)	kʰo²¹	kʰo²¹	hoof (horse)	hoof (horse)		1.5.4		0		417
+43640	1656	Yi (Dafang)	o³³ tɕʰi³³	o³³ tɕʰi³³	horn	horn		1.2.2		0		385,819
+43641	1656	Yi (Dafang)	mo²¹ so³³	mo²¹ so³³	tail	tail		1.4.10.1		0		1288,m
+43642	1656	Yi (Dafang)	gɯ²¹ kɔ³³	gɯ²¹ kɔ³³	body	body		1.1.1		0		1,2
+43643	1656	Yi (Dafang)	o³³ gu⁵⁵	o³³ gu⁵⁵	head	head		1.2.1		0		385,387
+43644	1656	Yi (Dafang)	na³³ bo²¹	na³³ bo²¹	forehead	forehead		1.2.5.1		0		356,2024
+43645	1656	Yi (Dafang)	o³³ tsʰɯ³³	o³³ tsʰɯ³³	hair (head)	hair (head)		1.2.3		0		385,366
+43646	1656	Yi (Dafang)	o³³ pi³³	o³³ pi³³	braid (hair)	braid (hair)	n	1.2.3.2		0		385,2018
+43647	1656	Yi (Dafang)	o³³ nɔ³³ ʈu³³	o³³ nɔ³³ ʈu³³	brain	brain		1.2.4		0		385,243,m
+43648	1656	Yi (Dafang)	ʈʰu⁵⁵ na²¹	ʈʰu⁵⁵ na²¹	face	face		1.2.5		0		1186,681
+43649	1656	Yi (Dafang)	na³³ mu³³	na³³ mu³³	eyebrow	eyebrow		1.2.6.6		0		681,363
+43650	1656	Yi (Dafang)	na³³ du³³	na³³ du³³	eye	eye		1.2.6		0		681,2068
+43651	1656	Yi (Dafang)	na³³ ɳɖie³³	na³³ ɳɖie³³	tears	tears		1.2.6.7		0		681,298
+43652	1656	Yi (Dafang)	nɔ³³ mo⁵⁵	nɔ³³ mo⁵⁵	nose	nose		1.2.8		0		803,m
+43653	1656	Yi (Dafang)	lɔ²¹ pɔ³³	lɔ²¹ pɔ³³	ear	ear		1.2.7		0		811,812
+43654	1656	Yi (Dafang)	mi¹³ pu²¹	mi¹³ pu²¹	mouth	mouth		1.3.1		0		467,476
+43655	1656	Yi (Dafang)	mi¹³ ndʑi²¹	mi¹³ ndʑi²¹	lip	lip		1.3.2		0		467,596
+43656	1656	Yi (Dafang)	dzə²¹ mo²¹	dzə²¹ mo²¹	tooth	tooth		1.3.4		0		635,s
+43657	1656	Yi (Dafang)	ɬo³³	ɬo³³	tongue	tongue		1.3.3		0		628
+43658	1656	Yi (Dafang)	bu²¹ tsʰo⁵⁵	bu²¹ tsʰo⁵⁵	beard	beard		1.2.5.5		0		277,370
+43659	1656	Yi (Dafang)	lie²¹ bɑ²¹	lie²¹ bɑ²¹	neck	neck		1.4.2		0		479,s
+43660	1656	Yi (Dafang)	tɕʰɒ³³ tʰɔ²¹	tɕʰɒ³³ tʰɔ²¹	throat	throat		1.3.5		0		3363,822
+43661	1656	Yi (Dafang)	la¹³ bɯ²¹	la¹³ bɯ²¹	shoulder	shoulder		1.4.3		0		695,1275
+43662	1656	Yi (Dafang)	la¹³	la¹³	hand	hand		1.5.1.1		0		695
+43663	1656	Yi (Dafang)	la¹³ vu³³	la¹³ vu³³	arm (upper)	arm (upper)		1.5.1.2		0		695,m
+43664	1656	Yi (Dafang)	la¹³ ɣɯ³³	la¹³ ɣɯ³³	arm (lower)	arm (lower)		1.5.1.2		0		695,m
+43665	1656	Yi (Dafang)	la¹³ tsɿ³³	la¹³ tsɿ³³	finger	finger		1.5.6		0		695,331
+43666	1656	Yi (Dafang)	la¹³ sɯ³³ kɔ³³	la¹³ sɯ³³ kɔ³³	nail	nail		1.5.10		0		
+43667	1656	Yi (Dafang)	ne³³ tu³³	ne³³ tu³³	chest (of body)	chest (of body)		1.4.4.3		0		297,289
+43668	1656	Yi (Dafang)	bɯ²¹ gɯ³³	bɯ²¹ gɯ³³	back (of body)	back (of body)		1.4.8		0		1361,2
+43669	1656	Yi (Dafang)	tsɒ¹³ mo²¹	tsɒ¹³ mo²¹	breast	breast		1.4.4.3		0		5539,m
+43670	1656	Yi (Dafang)	ɣɔ¹³ mo⁵⁵	ɣɔ¹³ mo⁵⁵	belly	belly		1.4.7		0		137,m
+43671	1656	Yi (Dafang)	dzɔ¹³	dzɔ¹³	waist	waist		1.4.6		0		215
+43672	1656	Yi (Dafang)	tɕʰi³³ pʰa³³	tɕʰi³³ pʰa³³	foot	foot		1.5.2		0		
+43673	1656	Yi (Dafang)	bɯ²¹ pʰa³³	bɯ²¹ pʰa³³	leg (thigh)	leg (thigh)		1.5.7		0		1327,m
+43674	1656	Yi (Dafang)	tɕʰi³³ ɣɯ³³	tɕʰi³³ ɣɯ³³	leg (calf)	leg (calf)		1.5.7		0		
+43675	1656	Yi (Dafang)	la¹³ dʑo²¹ tʰɔ⁵⁵	la¹³ dʑo²¹ tʰɔ⁵⁵	armpit	armpit		1.5.1.2.3		0		
+43676	1656	Yi (Dafang)	n◦dʑi²¹	n◦dʑi²¹	skin	skin		1.6.5		0		p,596
+43677	1656	Yi (Dafang)	xɔ²¹ ɣɯ³³	xɔ²¹ ɣɯ³³	bone	bone		1.6.3		0		m,232
+43678	1656	Yi (Dafang)	dʑu³³	dʑu³³	muscle	muscle		1.6.6.2		0		535
+43679	1656	Yi (Dafang)	ɕi³³	ɕi³³	blood	blood		1.6.2		0		230
+43680	1656	Yi (Dafang)	lɒ³³	lɒ³³	stomach	stomach		1.7.6		0		
+43681	1656	Yi (Dafang)	he¹³ mo⁵⁵	he¹³ mo⁵⁵	kidney	kidney		1.7.5		0		
+43682	1656	Yi (Dafang)	vu²¹	vu²¹	intestines	intestines		1.7.7		0		2102
+43683	1656	Yi (Dafang)	ne³³ mo²¹	ne³³ mo²¹	heart	heart		1.7.1		0		297,s
+43684	1656	Yi (Dafang)	sə³³	sə³³	liver	liver		1.7.3		0		1390
+43685	1656	Yi (Dafang)	tɕʰi⁵⁵	tɕʰi⁵⁵	lung	lung		1.7.2		0		458
+43686	1656	Yi (Dafang)	tɕi³³	tɕi³³	gall	gall		1.7.3.1		0		227
+43687	1656	Yi (Dafang)	so⁵⁵ pʰo²¹	so⁵⁵ pʰo²¹	bladder	bladder		1.7.8		0		m,778
+43688	1656	Yi (Dafang)	kə⁵⁵	kə⁵⁵	sweat	sweat		1.8.1		0		615
+43689	1656	Yi (Dafang)	nɔ³³ tɕʰi⁵⁵	nɔ³³ tɕʰi⁵⁵	mucus	mucus		1.8.2		0		803,572
+43690	1656	Yi (Dafang)	ti⁵⁵ vɒ¹³	ti⁵⁵ vɒ¹³	phlegm	phlegm		1.8.3		0		
+43691	1656	Yi (Dafang)	ti⁵⁵ ʑi²¹	ti⁵⁵ ʑi²¹	saliva	saliva		1.8.3		0		
+43692	1656	Yi (Dafang)	tsɒ¹³ ʑi²¹	tsɒ¹³ ʑi²¹	milk	milk				0		5539,1013
+43693	1656	Yi (Dafang)	ʈʰi³³	ʈʰi³³	shit	shit		1.8.5		0		572
+43694	1656	Yi (Dafang)	ʑi³³	ʑi³³	urine	urine		1.8.4		0		650
+43695	1656	Yi (Dafang)	bɔ³³ mo³³	bɔ³³ mo³³	wound	wound		1.8.6.2		0		
+43696	1656	Yi (Dafang)	ɳɖe²¹	ɳɖe²¹	pus	pus		1.8.6.1		0		1292
+43697	1656	Yi (Dafang)	ɣa³³ ȵi⁵⁵	ɣa³³ ȵi⁵⁵	smallpox	smallpox		5.3		0		
+43698	1656	Yi (Dafang)	kʰue³³	kʰue³³	malaria	malaria		5.3		0		
+43699	1656	Yi (Dafang)	na³³ dʑi³³	na³³ dʑi³³	blind person	blind person		1.2.6.14.2		0		681,1401
+43700	1656	Yi (Dafang)	bɒ³³	bɒ³³	deaf person	deaf person		1.2.7.5		0		
+43701	1656	Yi (Dafang)	mu¹³	mu¹³	mute person	mute person		1.5.3.2		0		
+43702	1656	Yi (Dafang)	tsʰɔ²¹ vu³³	tsʰɔ²¹ vu³³	insane person	insane person		8.3.1.11.3		0		
+43703	1656	Yi (Dafang)	tɔ³³ pe³³	tɔ³³ pe³³	lame person	lame person		1.5.12		0		
+43704	1656	Yi (Dafang)	tsʰa³³	tsʰa³³	oil (animal)	oil (animal)		1.6.4.1		0		42
+43705	1656	Yi (Dafang)	mi³³	mi³³	oil (vegetable)	oil (vegetable)		1.6.4.1		0		1442
+43706	1656	Yi (Dafang)	fu³³	fu³³	meat, flesh	meat, flesh		1.1.1.1		0		34
+43707	1656	Yi (Dafang)	tɕʰi³³	tɕʰi³³	manure	manure		1.8.5		0		
+43708	1656	Yi (Dafang)	tɕʰi³³	tɕʰi³³	excrement	excrement		1.8.5		0		572
+43709	1656	Yi (Dafang)	do⁵⁵	do⁵⁵	speech	speech		1.8.7		0		
+43710	1656	Yi (Dafang)	tɕʰɒ³³	tɕʰɒ³³	sound	sound		9.3		0		
+43711	1656	Yi (Dafang)	ʑi¹³ ma⁵⁵	ʑi¹³ ma⁵⁵	dream	dream		1.1.4.2		0		127,126
+43712	1656	Yi (Dafang)	ɣe³³	ɣe³³	shadow	shadow		3.2.10		0		2614
+43713	1656	Yi (Dafang)	ɕe²¹	ɕe²¹	god	god		5.8.1.1		0		
+43714	1656	Yi (Dafang)	lo²¹	lo²¹	ghost	ghost		4.2.12.2		0		
+43715	1656	Yi (Dafang)	na³³	na³³	look at	look at		1.2.6.11		0		681
+43716	1656	Yi (Dafang)	mɔ²¹	mɔ²¹	see	see		1.2.6.10		0		1227
+43717	1656	Yi (Dafang)	na³³ me³³	na³³ me³³	close (eyes)	close (eyes)		6.2.2.6.2		0		681,m
+43718	1656	Yi (Dafang)	dʑu³³	dʑu³³	listen	listen		1.2.7.4		0		1411
+43719	1656	Yi (Dafang)	dzu³³	dzu³³	eat	eat		1.5.3.2		0		36
+43720	1656	Yi (Dafang)	ndɔ²¹	ndɔ²¹	drink	drink				0		502
+43721	1656	Yi (Dafang)	tɕʰi¹³	tɕʰi¹³	bite	bite		1.3.4.4		0		744
+43722	1656	Yi (Dafang)	ŋgu³³	ŋgu³³	chew	chew		1.3.4		0		1762
+43723	1656	Yi (Dafang)	le¹³	le¹³	lick	lick		1.3.3.1		0		629
+43724	1656	Yi (Dafang)	mə³³	mə³³	hold in mouth	hold in mouth		1.3.4.4		0		467
+43725	1656	Yi (Dafang)	xa¹³	xa¹³	gnaw	gnaw		1.3.4.4		0		
+43726	1656	Yi (Dafang)	ndɔ²¹	ndɔ²¹	swallow	swallow	v.t.	1.3.5.6		0		502
+43727	1656	Yi (Dafang)	ndɔ²¹	ndɔ²¹	swallow	swallow	v.i.	1.3.5.6		0		502
+43728	1656	Yi (Dafang)	ti⁵⁵	ti⁵⁵	spit	spit		1.8.3		0		
+43729	1656	Yi (Dafang)	gɔ¹³	gɔ¹³	vomit	vomit		1.8.3.2		0		
+43730	1656	Yi (Dafang)	mɒ³³	mɒ³³	blow (on a fire)	blow (on a fire)		1.3.1.4		0		503
+43731	1656	Yi (Dafang)	hɯ⁵⁵	hɯ⁵⁵	say	say		1.8.7		0		
+43732	1656	Yi (Dafang)	ɣɯ²¹	ɣɯ²¹	read	read		6.2.2.9.3		0		
+43733	1656	Yi (Dafang)	kʰu³³ dʑi³³	kʰu³³ dʑi³³	cry out	cry out		1.8.8.2		0		
+43734	1656	Yi (Dafang)	bi⁵⁵ nɯ³³	bi⁵⁵ nɯ³³	smell	smell	v	1.2.8.5		0		810,1415
+43735	1656	Yi (Dafang)	ʑi¹³	ʑi¹³	sleep	sleep		1.1.4.1		0		127
+43736	1656	Yi (Dafang)	ȵi⁵⁵	ȵi⁵⁵	wake (from sleep)	wake (from sleep)		1.1.4		0		143
+43737	1656	Yi (Dafang)	ɣə²¹	ɣə²¹	laugh	laugh		1.8.8.1		0		1108
+43738	1656	Yi (Dafang)	ŋɯ³³	ŋɯ³³	cry, weep	cry, weep		1.8.8.2		0		1104
+43739	1656	Yi (Dafang)	ʑɔ³³	ʑɔ³³	born, be	born, be	be v.	1.1.2		0		1865
+43740	1656	Yi (Dafang)	ʑɔ³³	ʑɔ³³	grow (up)	grow (up)		9.7.2		0		1865
+43741	1656	Yi (Dafang)	no²¹	no²¹	sick	sick		1.1.5.1		0		160
+43742	1656	Yi (Dafang)	bi²¹ nɯ²¹	bi²¹ nɯ²¹	shake	shake		6.7.9		0		
+43743	1656	Yi (Dafang)	pʰi¹³	pʰi¹³	swell up	swell up		1.1.5.2		0		163
+43744	1656	Yi (Dafang)	ɕi³³	ɕi³³	die	die		1.1.6		0		27
+43745	1656	Yi (Dafang)	ɖɿ²¹	ɖɿ²¹	fly	fly	v	2.2.6		0		
+43746	1656	Yi (Dafang)	tɕʰi¹³	tɕʰi¹³	bark	bark	v	2.1.11.1		0		
+43747	1656	Yi (Dafang)	mbu²¹	mbu²¹	caw, sing (bird)	caw, sing (bird)	v	2.2.4.1		0		
+43748	1656	Yi (Dafang)	ndo⁵⁵	ndo⁵⁵	lay (egg)	lay (egg)		6.17		0		1609
+43749	1656	Yi (Dafang)	fɒ³³	fɒ³³	sit on (egg)	sit on (egg)		6.1.1.4.1		0		301
+43750	1656	Yi (Dafang)	tsʰu³³	tsʰu³³	fat (person)	fat (person)		1.6.4		0		42
+43751	1656	Yi (Dafang)	tsʰu³³	tsʰu³³	fat (meat)	fat (meat)		1.6.4		0		42
+43752	1656	Yi (Dafang)	sɿ²¹	sɿ²¹	lean (meat)	lean (meat)		1.1.1		0		1806
+43753	1656	Yi (Dafang)	sɿ²¹	sɿ²¹	lean (person)	lean (person)		1.1.1		0		1806
+43754	1656	Yi (Dafang)	mbɔ³³	mbɔ³³	full, satiated	full, satiated		1.1.3.2		0		100
+43755	1656	Yi (Dafang)	me¹³	me¹³	hungry	hungry		1.1.3		0		99
+43756	1656	Yi (Dafang)	se¹³	se¹³	thirsty	thirsty		1.1.3.1		0		101
+43757	1656	Yi (Dafang)	tʰi⁵⁵	tʰi⁵⁵	tired	tired		9.6.2.2		0		
+43758	1656	Yi (Dafang)	ʑu³³	ʑu³³	itchy	itchy		1.6.5.5		0		1456
+43759	1656	Yi (Dafang)	no²¹	no²¹	painful	painful		1.1.5.1		0		160*
+43760	1665	Yi (Nanjian)	ve²¹ ɕi⁵⁵	ve²¹ ɕi⁵⁵	left	left		1.5.3.2		0		2154
+43761	1665	Yi (Nanjian)	ʐɑ⁵⁵ ɕi⁵⁵	ʐɑ⁵⁵ ɕi⁵⁵	right (side)	right (side)		1.5.3.2		0		2786
+43762	1665	Yi (Nanjian)	ba²¹ ta³³ ɕi⁵⁵	ba²¹ ta³³ ɕi⁵⁵	side	side		1.4.5		0		
+43763	1665	Yi (Nanjian)	ke⁵⁵ i²¹ ɕi⁵⁵	ke⁵⁵ i²¹ ɕi⁵⁵	back (side)	back (side)		1.4.8		0		
+43764	1665	Yi (Nanjian)	kɑ⁵⁵ du̪³³	kɑ⁵⁵ du̪³³	back (side)	back (side)		1.4.8		0		1,m
+43765	1665	Yi (Nanjian)	u²¹ de²¹ ɕi⁵⁵	u²¹ de²¹ ɕi⁵⁵	front	front		1.4.4		0		m,m,1214
+43766	1665	Yi (Nanjian)	fu³³	fu³³	egg	egg				0		301
+43767	1665	Yi (Nanjian)	du̪⁵⁵ li̱²¹	du̪⁵⁵ li̱²¹	wing	wing		1.5.1.3		0		711,695
+43768	1665	Yi (Nanjian)	tɕʰy⁵⁵	tɕʰy⁵⁵	fur	fur		1.6.1		0		366
+43769	1665	Yi (Nanjian)	kʰɯ⁵⁵ tɕi³³ li̱³³	kʰɯ⁵⁵ tɕi³³ li̱³³	claw, paw	claw, paw		1.5.10.4		0		
+43770	1665	Yi (Nanjian)	bȳ²¹	bȳ²¹	hoof	hoof		1.5.4		0		5623
+43771	1665	Yi (Nanjian)	kʰu̪⁵⁵	kʰu̪⁵⁵	horn	horn		1.2.2		0		819
+43772	1665	Yi (Nanjian)	me²¹ pʰe²¹	me²¹ pʰe²¹	tail	tail		1.4.10.1		0		1288,1361
+43773	1665	Yi (Nanjian)	gu⁵⁵ tʂʰɿ²¹	gu⁵⁵ tʂʰɿ²¹	body	body		1.1.1		0		2,1126
+43774	1665	Yi (Nanjian)	u²¹ dy⁵⁵	u²¹ dy⁵⁵	head	head		1.2.1		0		385,1223
+43775	1665	Yi (Nanjian)	no²¹ tʰo³³	no²¹ tʰo³³	forehead	forehead		1.2.5.1		0		356,371
+43776	1665	Yi (Nanjian)	u²¹ tɕʰy⁵⁵	u²¹ tɕʰy⁵⁵	hair	hair		1.2.3		0		m,366
+43777	1665	Yi (Nanjian)	u²¹ tɕʰy⁵⁵ phi²¹	u²¹ tɕʰy⁵⁵ phi²¹	braid (hair)	braid (hair)	n	1.2.3.2		0		385,366,2018
+43778	1665	Yi (Nanjian)	no²¹	no²¹	brain	brain		1.2.4		0		243
+43779	1665	Yi (Nanjian)	pho³¹ mi³³	pho³¹ mi³³	face	face		1.2.5		0		1186,681
+43780	1665	Yi (Nanjian)	phu³¹	phu³¹	face	face		1.2.5		0		1186
+43781	1665	Yi (Nanjian)	mi̱³³ tsɿ⁵⁵ tɕʰy⁵⁵	mi̱³³ tsɿ⁵⁵ tɕʰy⁵⁵	eyebrow	eyebrow		1.2.6.6		0		681,1232,m
+43782	1665	Yi (Nanjian)	mi̱³³ ɕe²¹	mi̱³³ ɕe²¹	eye	eye		1.2.6		0		681,1019
+43783	1665	Yi (Nanjian)	mi̱³³ dzɿ⁵⁵ ɣɯ⁵⁵	mi̱³³ dzɿ⁵⁵ ɣɯ⁵⁵	tears	tears		1.2.6.7		0		681,m,1013
+43784	1665	Yi (Nanjian)	nɑ⁵⁵ kʰu̪³³	nɑ⁵⁵ kʰu̪³³	nose	nose		1.2.8		0		803,809
+43785	1665	Yi (Nanjian)	nɑ²¹ pu⁵⁵	nɑ²¹ pu⁵⁵	ear	ear		1.2.7		0		811,812
+43786	1665	Yi (Nanjian)	kʰɑ²¹ pʰy²¹	kʰɑ²¹ pʰy²¹	mouth	mouth		1.3.1		0		273,2096
+43787	1665	Yi (Nanjian)	mu̪²¹ la³³ pʰi²¹	mu̪²¹ la³³ pʰi²¹	lip	lip		1.3.2		0		467,456,590
+43788	1665	Yi (Nanjian)	ɕy²¹	ɕy²¹	tooth	tooth		1.3.4		0		635
+43789	1665	Yi (Nanjian)	lɑ⁵⁵	lɑ⁵⁵	tongue	tongue		1.3.3		0		623
+43790	1665	Yi (Nanjian)	mu̪²¹ tsʰɿ³³	mu̪²¹ tsʰɿ³³	beard	beard		1.2.5.5		0		363,1232
+43791	1665	Yi (Nanjian)	lu⁵⁵ ka²¹ tsɿ³³	lu⁵⁵ ka²¹ tsɿ³³	neck	neck		1.4.2		0		479,494,m
+43792	1665	Yi (Nanjian)	ɕe²¹ n̩(ɿ)³³ ku²¹ lu²¹	ɕe²¹ n̩(ɿ)³³ ku²¹ lu²¹	throat	throat		1.3.5		0		
+43793	1665	Yi (Nanjian)	li̱²¹ phɑŋ²¹ dzɿ³³	li̱²¹ phɑŋ²¹ dzɿ³³	shoulder	shoulder		1.4.3		0		695,1327,m
+43794	1665	Yi (Nanjian)	li̱²¹ pʰi̱²¹	li̱²¹ pʰi̱²¹	hand	hand		1.5.1.1		0		695,821
+43795	1665	Yi (Nanjian)	li̱²¹ ɑo²¹ kaŋ²¹ tsɿ³³	li̱²¹ ɑo²¹ kaŋ²¹ tsɿ³³	arm	arm		1.5.1.2		0		695
+43796	1665	Yi (Nanjian)	li̱²¹ ku²¹ se²¹	li̱²¹ ku²¹ se²¹	fingernail	fingernail		1.5.10.1		0		
+43797	1665	Yi (Nanjian)	n̩(ɿ)³³ du⁵⁵ kɑ⁵⁵	n̩(ɿ)³³ du⁵⁵ kɑ⁵⁵	chest (of body)	chest (of body)		1.4.4.3		0		297,289,310
+43798	1665	Yi (Nanjian)	kɑ²¹ tu³³	kɑ²¹ tu³³	back (of body)	back (of body)		1.4.8		0		1,225
+43799	1665	Yi (Nanjian)	a⁵⁵ tʂɿ̄³³ pi̱³³	a⁵⁵ tʂɿ̄³³ pi̱³³	breast	breast		1.4.4.3		0		p,5541,308
+43800	1665	Yi (Nanjian)	ɕi²¹ py⁵⁵	ɕi²¹ py⁵⁵	belly	belly		1.4.7		0		m,2103
+43801	1665	Yi (Nanjian)	dzo²¹	dzo²¹	waist	waist		1.4.6		0		215
+43802	1665	Yi (Nanjian)	di⁵⁵ ɕe²¹	di⁵⁵ ɕe²¹	kidney	kidney		1.7.5		0		1243,1019
+43803	1665	Yi (Nanjian)	khɯ⁵⁵ pi̱³³	khɯ⁵⁵ pi̱³³	foot	foot		1.5.2		0		335,m
+43804	1665	Yi (Nanjian)	pʰa²¹ pʰi̱³³	pʰa²¹ pʰi̱³³	leg	leg		1.5.7		0		
+43806	1665	Yi (Nanjian)	gɯ⁵⁵ tʂu̱²¹	gɯ⁵⁵ tʂu̱²¹	skin	skin		1.6.5		0		596,m
+43807	1665	Yi (Nanjian)	u²¹ dɑ⁵⁵	u²¹ dɑ⁵⁵	bone	bone		1.6.3		0		232,241
+43808	1665	Yi (Nanjian)	gu̪²¹ tʂɑ³³	gu̪²¹ tʂɑ³³	muscle / sinew	muscle / sinew		1.6.6.2		0		535,m
+43809	1665	Yi (Nanjian)	sɿ²¹	sɿ²¹	blood	blood		1.6.2		0		230
+43810	1665	Yi (Nanjian)	ɕi²¹ ɑ³³ ko³³	ɕi²¹ ɑ³³ ko³³	stomach	stomach		1.7.6		0		2104,m,2123
+43811	1665	Yi (Nanjian)	ni̱²¹ vu⁵⁵	ni̱²¹ vu⁵⁵	intestines	intestines		1.7.7		0		m,2102
+43812	1665	Yi (Nanjian)	mu̪³³ mɑ³³	mu̪³³ mɑ³³	heart	heart		1.7.1		0		251,s
+43813	1665	Yi (Nanjian)	kɯ⁵⁵	kɯ⁵⁵	gall bladder	gall bladder		1.7.3		0		227
+43814	1665	Yi (Nanjian)	dzɿ²¹ sɿ²¹	dzɿ²¹ sɿ²¹	liver	liver		1.7.3		0		m,1390
+43815	1665	Yi (Nanjian)	tsʰɿ²¹ fu²¹	tsʰɿ²¹ fu²¹	lung	lung		1.7.2		0		458,m
+43816	1665	Yi (Nanjian)	nȳ²¹	nȳ²¹	snot	snot		1.8.2		0		805
+43817	1665	Yi (Nanjian)	nȳ²¹ tɕʰi²¹	nȳ²¹ tɕʰi²¹	snot	snot		1.8.2		0		805,572
+43818	1665	Yi (Nanjian)	ti̱²¹ khɑ²¹	ti̱²¹ khɑ²¹	phlegm	phlegm		1.8.3		0		m,540
+43819	1665	Yi (Nanjian)	ɣɯ³³ tʂɑ³³	ɣɯ³³ tʂɑ³³	saliva	saliva		1.8.3		0		
+43820	1665	Yi (Nanjian)	a⁵⁵ tʂʅ̄³³	a⁵⁵ tʂʅ̄³³	milk	milk				0		p,5541
+43821	1665	Yi (Nanjian)	tɕʰi²¹	tɕʰi²¹	shit	shit		1.8.5		0		572
+43822	1665	Yi (Nanjian)	zɿ²¹	zɿ²¹	urine	urine		1.8.4		0		650
+43823	1665	Yi (Nanjian)	ʑe²¹	ʑe²¹	sore	sore		1.1.5.1		0		
+43824	1665	Yi (Nanjian)	dzɿ⁵⁵	dzɿ⁵⁵	pus	pus		1.8.6.1		0		1292
+43825	1665	Yi (Nanjian)	ɣɑ⁵⁵ lu³³	ɣɑ⁵⁵ lu³³	smallpox	smallpox		5.3		0		
+43826	1665	Yi (Nanjian)	nɑ⁵⁵ phɑ²¹	nɑ⁵⁵ phɑ²¹	malaria	malaria		5.3		0		
+43827	1665	Yi (Nanjian)	la³³ te⁵⁵	la³³ te⁵⁵	blind person	blind person		1.2.6.14.2		0		
+43828	1665	Yi (Nanjian)	nɑ²¹ bu²¹	nɑ²¹ bu²¹	deaf person	deaf person		1.2.7.5		0		
+43829	1665	Yi (Nanjian)	zɑ²¹ mɯ⁵⁵	zɑ²¹ mɯ⁵⁵	mute person	mute person		1.5.3.2		0		
+43830	1665	Yi (Nanjian)	tʰe²¹ a²¹ pa²¹	tʰe²¹ a²¹ pa²¹	insane person	insane person		8.3.1.11.3		0		
+43831	1665	Yi (Nanjian)	khɯ⁵⁵ pha³³	khɯ⁵⁵ pha³³	crippled person	crippled person		4.2.7		0		
+43832	1665	Yi (Nanjian)	tɕʰe⁵⁵	tɕʰe⁵⁵	fat, oil	fat, oil		1.6.4		0		42
+43833	1665	Yi (Nanjian)	ʐu⁵⁵ ɣɯ⁵⁵	ʐu⁵⁵ ɣɯ⁵⁵	fat, oil	fat, oil		1.6.4		0		40,m
+43834	1665	Yi (Nanjian)	xɑ²¹	xɑ²¹	meat, flesh	meat, flesh		1.1.1.1		0		34
+43835	1665	Yi (Nanjian)	khɯ²¹	khɯ²¹	manure	manure		1.8.5		0		572
+43836	1665	Yi (Nanjian)	ɣɑ⁵⁵ ly⁵⁵	ɣɑ⁵⁵ ly⁵⁵	speech	speech		1.8.7		0		
+43837	1665	Yi (Nanjian)	ʂɑ²¹	ʂɑ²¹	speech	speech		1.8.7		0		
+43838	1665	Yi (Nanjian)	ɕi̱²¹	ɕi̱²¹	sound	sound		9.3		0		
+43839	1665	Yi (Nanjian)	ʐɿ²¹ mĩ³³	ʐɿ²¹ mĩ³³	dream	dream		1.1.4.2		0		127,126
+43840	1665	Yi (Nanjian)	ɑ⁵⁵ ɣɯ³³	ɑ⁵⁵ ɣɯ³³	shadow	shadow		3.2.10		0		m,2614
+43841	1665	Yi (Nanjian)	ni²¹	ni²¹	spirit	spirit		5.8.1.1		0		160
+43842	1665	Yi (Nanjian)	ni²¹	ni²¹	ghost	ghost		4.2.12.2		0		160
+43843	1665	Yi (Nanjian)	ɣɑ²¹	ɣɑ²¹	strength	strength		1.1.5		0		5677
+43844	1665	Yi (Nanjian)	mu̪³³ mɑ³³	mu̪³³ mɑ³³	courage	courage				0		
+43845	1665	Yi (Nanjian)	i⁵⁵	i⁵⁵	look at	look at		1.2.6.11		0		5419
+43846	1665	Yi (Nanjian)	mu⁵⁵	mu⁵⁵	see, perceive	see, perceive		1.2.6.10		0		1227
+43847	1665	Yi (Nanjian)	tsʰɿ̄³³	tsʰɿ̄³³	close (eyes)	close (eyes)		6.2.2.6.2		0		
+43848	1665	Yi (Nanjian)	ne⁵⁵	ne⁵⁵	listen	listen		1.2.7.4		0		1410
+43849	1665	Yi (Nanjian)	pɑ³³ gɑ²¹	pɑ³³ gɑ²¹	listen	listen		1.2.7.4		0		m,1411
+43850	1665	Yi (Nanjian)	dzɑ²¹	dzɑ²¹	eat	eat		1.5.3.2		0		36
+43851	1665	Yi (Nanjian)	du⁵⁵	du⁵⁵	eat	eat		1.5.3.2		0		36
+43852	1665	Yi (Nanjian)	du⁵⁵	du⁵⁵	drink	drink				0		502
+43853	1665	Yi (Nanjian)	tʰo³³	tʰo³³	bite	bite		1.3.4.4		0		1799
+43854	1665	Yi (Nanjian)	kʰo²¹	kʰo²¹	bite	bite		1.3.4.4		0		755
+43855	1665	Yi (Nanjian)	ɣɑ²¹	ɣɑ²¹	chew	chew		1.3.4		0		1762
+43856	1665	Yi (Nanjian)	la²¹	la²¹	lick	lick		1.3.3.1		0		629
+43857	1665	Yi (Nanjian)	mu̪⁵⁵	mu̪⁵⁵	hold in mouth	hold in mouth		1.3.4.4		0		467
+43858	1665	Yi (Nanjian)	kʰo²¹	kʰo²¹	gnaw	gnaw		1.3.4.4		0		755
+43859	1665	Yi (Nanjian)	tʰuŋ³³ dzɑ²¹	tʰuŋ³³ dzɑ²¹	swallow	swallow	v.t.	1.3.5.6		0		
+43860	1665	Yi (Nanjian)	ɣu⁵⁵	ɣu⁵⁵	swallow	swallow	v.i.	1.3.5.6		0		
+43861	1665	Yi (Nanjian)	tsʰɿ²¹	tsʰɿ²¹	spit	spit		1.8.3		0		
+43862	1665	Yi (Nanjian)	pʰi̱²¹	pʰi̱²¹	spit	spit		1.8.3		0		
+43863	1665	Yi (Nanjian)	pʰi̱²¹	pʰi̱²¹	vomit	vomit		1.8.3.2		0		1145
+43864	1665	Yi (Nanjian)	mu̪³³	mu̪³³	blow (with mouth)	blow (with mouth)		1.3.1.4		0		503
+43865	1665	Yi (Nanjian)	tʂʰa³³	tʂʰa³³	blow (with mouth)	blow (with mouth)		1.3.1.4		0		1739
+43866	1665	Yi (Nanjian)	bi̱³³	bi̱³³	speak	speak		8.5.10.1		0		
+43867	1665	Yi (Nanjian)	tʰy⁵⁵	tʰy⁵⁵	speak	speak		8.5.10.1		0		
+43868	1665	Yi (Nanjian)	dzu⁵⁵	dzu⁵⁵	read, recite	read, recite		6.2.2.9.3		0		
+43869	1665	Yi (Nanjian)	ku̪⁵⁵	ku̪⁵⁵	call out, cry out	call out, cry out		9.2		0		
+43870	1665	Yi (Nanjian)	ny²¹	ny²¹	smell	smell	v	1.2.8.5		0		1415
+43871	1665	Yi (Nanjian)	ʐʅ²¹ da²¹	ʐʅ²¹ da²¹	sleep	sleep		1.1.4.1		0		127,m
+43872	1665	Yi (Nanjian)	xa²¹	xa²¹	wake up	wake up		1.1.4		0		150
+43873	1665	Yi (Nanjian)	mɯ²¹	mɯ²¹	castrate (caponize)	castrate (caponize)		1.9.2.3		0		475
+43874	1665	Yi (Nanjian)	ʑe⁵⁵	ʑe⁵⁵	laugh	laugh		1.8.8.1		0		1108
+43875	1665	Yi (Nanjian)	ŋu̪⁵⁵	ŋu̪⁵⁵	cry, weep	cry, weep		1.8.8.2		0		1104
+43876	1665	Yi (Nanjian)	kɑ²¹	kɑ²¹	birth, give	birth, give		1.1.2		0		
+43877	1665	Yi (Nanjian)	hu⁵⁵	hu⁵⁵	birth, give	birth, give		1.1.2		0		97
+43878	1665	Yi (Nanjian)	tɕʰy²¹	tɕʰy²¹	birth, give	birth, give		1.1.2		0		95
+43879	1665	Yi (Nanjian)	ʑe²¹	ʑe²¹	grow up	grow up		9.7.2		0		
+43880	1665	Yi (Nanjian)	nɑ⁵⁵	nɑ⁵⁵	sick, get	sick, get		1.1.5.1		0		160
+43881	1665	Yi (Nanjian)	tɕʰi²¹	tɕʰi²¹	shake / shiver	shake / shiver		6.7.9		0		
+43882	1665	Yi (Nanjian)	phȳ²¹	phȳ²¹	swell up	swell up		1.1.5.2		0		163
+43883	1665	Yi (Nanjian)	xɯ⁵⁵	xɯ⁵⁵	die	die		1.1.6		0		27
+43884	1665	Yi (Nanjian)	by⁵⁵	by⁵⁵	fly	fly	v	2.2.6		0		
+43885	1665	Yi (Nanjian)	lu³³	lu³³	bark	bark	v	2.1.11.1		0		1790
+43886	1665	Yi (Nanjian)	vi⁵⁵	vi⁵⁵	caw, crow	caw, crow	v	2.2.4.1		0		
+43887	1665	Yi (Nanjian)	fu³³	fu³³	lay (egg)	lay (egg)		6.17		0		301
+43888	1665	Yi (Nanjian)	mu̪²¹	mu̪²¹	sit on, hatch (egg)	sit on, hatch (egg)		6.1.1.4.1		0		1234
+43889	1665	Yi (Nanjian)	tsʰɿ⁵⁵	tsʰɿ⁵⁵	fat (person)	fat (person)		1.6.4		0		48
+43890	1665	Yi (Nanjian)	tsʰɿ⁵⁵	tsʰɿ⁵⁵	fatty (of meat)	fatty (of meat)		1.6.4		0		42
+43891	1665	Yi (Nanjian)	(xa²¹) ni̱²¹	(xa²¹) ni̱²¹	lean (of meat)	lean (of meat)		1.1.1		0		34,43
+43892	1665	Yi (Nanjian)	dʑy⁵⁵	dʑy⁵⁵	lean (of meat)	lean (of meat)		1.1.1		0		45
+43893	1665	Yi (Nanjian)	lɑ³³ gu̪³³	lɑ³³ gu̪³³	lean (of humans)	lean (of humans)		1.1.1		0		m,1805
+43894	1665	Yi (Nanjian)	bo³³	bo³³	full, satiated	full, satiated		1.1.3.2		0		100
+43895	1665	Yi (Nanjian)	mɯ̱²¹	mɯ̱²¹	hungry	hungry		1.1.3		0		99
+43896	1665	Yi (Nanjian)	sɿ²¹	sɿ²¹	thirsty	thirsty		1.1.3.1		0		101
+43897	1665	Yi (Nanjian)	u²¹ xɯ⁵⁵	u²¹ xɯ⁵⁵	tired	tired		9.6.2.2		0		
+43898	1665	Yi (Nanjian)	dzɿ̄³³	dzɿ̄³³	itch	itch		1.6.5.5		0		56
+43899	1665	Yi (Nanjian)	na⁵⁵	na⁵⁵	painful	painful		1.1.5.1		0		
+43900	1665	Yi (Nanjian)	phɑi²¹	phɑi²¹	fathom, cord	fathom, cord		9.8		0	z	
+43901	1665	Yi (Nanjian)	thy⁵⁵	thy⁵⁵	span	span		1.5.9.4		0		1281
+43902	1669	Yi (Xide)	la⁴⁴ vɿ³³	la⁴⁴ vɿ³³	left (hand)	left (hand)		1.5.3.2		0		695,2154
+43903	1669	Yi (Xide)	la⁴⁴ ʑi³³	la⁴⁴ ʑi³³	right (hand)	right (hand)		1.5.3.2		0		695,2786
+43904	1669	Yi (Xide)	tɕi³³ bu³³	tɕi³³ bu³³	side	side		1.4.5		0		
+43905	1669	Yi (Xide)	ɣa³³ nɔ³³	ɣa³³ nɔ³³	back (side)	back (side)		1.4.8		0		m,203
+43906	1669	Yi (Xide)	me²¹ le³³	me²¹ le³³	front	front		1.4.4		0		1210,m
+43907	1669	Yi (Xide)	tɕʰi²¹	tɕʰi²¹	egg	egg				0		300
+43908	1669	Yi (Xide)	du̱⁴⁴ du̱³³	du̱⁴⁴ du̱³³	wing	wing		1.5.1.3		0		711,711
+43909	1669	Yi (Xide)	ȵe³³	ȵe³³	fur	fur		1.6.1		0		368
+43910	1669	Yi (Xide)	ɕɿ⁴⁴ si³³	ɕɿ⁴⁴ si³³	claw, paw	claw, paw		1.5.10.4		0		
+43911	1669	Yi (Xide)	kʰa³³	kʰa³³	hoof	hoof		1.5.4		0		417
+43912	1669	Yi (Xide)	bi⁵⁵	bi⁵⁵	hoof	hoof		1.5.4		0		5623
+43913	1669	Yi (Xide)	o³³ fu³³	o³³ fu³³	horn	horn		1.2.2		0		385,819
+43914	1669	Yi (Xide)	pʰu²¹ ʂu³³	pʰu²¹ ʂu³³	tail	tail		1.4.10.1		0		m,3333
+43915	1669	Yi (Xide)	ko²¹ po³³	ko²¹ po³³	body	body		1.1.1		0		2,1902
+43916	1669	Yi (Xide)	i³³ tɕʰi³³	i³³ tɕʰi³³	head	head		1.2.1		0		385,383
+43917	1669	Yi (Xide)	ȵi⁵⁵ tʰi³³	ȵi⁵⁵ tʰi³³	forehead	forehead		1.2.5.1		0		356,358
+43918	1669	Yi (Xide)	ɔ³³ ȵe³³	ɔ³³ ȵe³³	hair	hair		1.2.3		0		385,368
+43919	1669	Yi (Xide)	ɔ³³ tɕɿ⁵⁵	ɔ³³ tɕɿ⁵⁵	braid (hair)	braid (hair)	n	1.2.3.2		0		385,2019
+43920	1669	Yi (Xide)	o³³ no⁵⁵	o³³ no⁵⁵	brain	brain		1.2.4		0		385,243
+43921	1669	Yi (Xide)	ma³³ phɤ³¹	ma³³ phɤ³¹	face	face		1.2.5		0		m,1186
+43922	1669	Yi (Xide)	ȵɔ³³ m̥o³³	ȵɔ³³ m̥o³³	eyebrow	eyebrow		1.2.6.6		0		681,363
+43923	1669	Yi (Xide)	ȵɔ³³ dzɿ²¹	ȵɔ³³ dzɿ²¹	eye	eye		1.2.6		0		681,3559
+43924	1669	Yi (Xide)	ȵɔ³³ bɿ³³	ȵɔ³³ bɿ³³	tears	tears		1.2.6.7		0		681,187
+43925	1669	Yi (Xide)	n̥a²¹ bi⁵⁵	n̥a²¹ bi⁵⁵	nose	nose		1.2.8		0		803,810
+43926	1669	Yi (Xide)	n̥ɯ²¹ po³³	n̥ɯ²¹ po³³	ear	ear		1.2.7		0		811,812
+43927	1669	Yi (Xide)	kʰa²¹ pʰi⁵⁵	kʰa²¹ pʰi⁵⁵	mouth	mouth		1.3.1		0		273,2096
+43928	1669	Yi (Xide)	mi²¹ pu²¹	mi²¹ pu²¹	lip	lip		1.3.2		0		467,784
+43929	1669	Yi (Xide)	dʐʅ³³	dʐʅ³³	tooth	tooth		1.3.4		0		635
+43930	1669	Yi (Xide)	ha³³ ne³³	ha³³ ne³³	tongue	tongue		1.3.3		0		621,m
+43931	1669	Yi (Xide)	ku²¹ li³³	ku²¹ li³³	neck	neck		1.4.2		0		495,479
+43932	1669	Yi (Xide)	li²¹ tʰi²¹	li²¹ tʰi²¹	throat	throat		1.3.5		0		479,501
+43933	1669	Yi (Xide)	le⁴⁴ ba³³	le⁴⁴ ba³³	shoulder	shoulder		1.4.3		0		695,m
+43934	1669	Yi (Xide)	lo⁵⁵	lo⁵⁵	hand	hand		1.5.1.1		0		695
+43935	1669	Yi (Xide)	ɬo²¹ bo²¹	ɬo²¹ bo²¹	arm	arm		1.5.1.2		0	D1	695,1327
+43937	1669	Yi (Xide)	lo⁵⁵ tɕɿ³³	lo⁵⁵ tɕɿ³³	finger	finger		1.5.6		0		695,m
+43938	1669	Yi (Xide)	lo⁵⁵ si³³	lo⁵⁵ si³³	fingernail	fingernail		1.5.10.1		0		695,m
+43939	1669	Yi (Xide)	kɯ²¹ tɯ²¹	kɯ²¹ tɯ²¹	back (of body)	back (of body)		1.4.8		0		1,225
+43940	1669	Yi (Xide)	i²¹ mo²¹	i²¹ mo²¹	belly	belly		1.4.7		0		m,m
+43941	1669	Yi (Xide)	dʑu⁵⁵ sɿ²¹	dʑu⁵⁵ sɿ²¹	waist	waist		1.4.6		0		215,418
+43942	1669	Yi (Xide)	o³³	o³³	waist	waist		1.4.6		0		1364
+43943	1669	Yi (Xide)	bu̱³³ le³³	bu̱³³ le³³	leg	leg		1.5.7		0		349,m
+43944	1669	Yi (Xide)	ɕɿ³³ li³³	ɕɿ³³ li³³	leg	leg		1.5.7		0		
+43945	1669	Yi (Xide)	e⁵⁵ vu̱³³	e⁵⁵ vu̱³³	armpit	armpit		1.5.1.2.3		0		
+43946	1669	Yi (Xide)	vu²¹ du³³	vu²¹ du³³	bone	bone		1.6.3		0		232,241
+43947	1669	Yi (Xide)	gu³³ ʑi³³	gu³³ ʑi³³	muscle / sinew	muscle / sinew		1.6.6.2		0		535,533
+43948	1669	Yi (Xide)	sɿ³³	sɿ³³	blood	blood		1.6.2		0		230
+43949	1669	Yi (Xide)	hi⁵⁵	hi⁵⁵	stomach	stomach		1.7.6		0		2104
+43950	1669	Yi (Xide)	vu³³	vu³³	intestines	intestines		1.7.7		0		2102
+43951	1669	Yi (Xide)	he³³ ma⁵⁵	he³³ ma⁵⁵	heart	heart		1.7.1		0		297,s
+43952	1669	Yi (Xide)	si²¹	si²¹	liver	liver		1.7.3		0		1390
+43953	1669	Yi (Xide)	tsʰɿ²¹ mo²¹	tsʰɿ²¹ mo²¹	lung	lung		1.7.2		0		458,s
+43954	1669	Yi (Xide)	tɕhi⁵⁵	tɕhi⁵⁵	bladder	bladder		1.7.8		0		650
+43955	1669	Yi (Xide)	n̥a³³	n̥a³³	snot	snot		1.8.2		0		805
+43956	1669	Yi (Xide)	n̥a²¹ bi⁵⁵	n̥a²¹ bi⁵⁵	snot	snot		1.8.2		0		805,m
+43957	1669	Yi (Xide)	o²¹ ʑɿ³³	o²¹ ʑɿ³³	saliva	saliva		1.8.3		0		
+43958	1669	Yi (Xide)	a⁴⁴ ne³³	a⁴⁴ ne³³	milk	milk				0		p,254
+43959	1669	Yi (Xide)	tɕʰɿ³³	tɕʰɿ³³	shit	shit		1.8.5		0		572
+43960	1669	Yi (Xide)	zɿ³³	zɿ³³	urine	urine		1.8.4		0		650
+43961	1669	Yi (Xide)	ma³³ ɣa³³	ma³³ ɣa³³	sore	sore		1.1.5.1		0		
+43962	1669	Yi (Xide)	ndʑi³³	ndʑi³³	pus	pus		1.8.6.1		0		1292
+43963	1669	Yi (Xide)	ma²¹ ma³³	ma²¹ ma³³	smallpox	smallpox		5.3		0		
+43964	1669	Yi (Xide)	ȵɔ³³ bi⁵⁵	ȵɔ³³ bi⁵⁵	blind person	blind person		1.2.6.14.2		0		681,m
+43965	1669	Yi (Xide)	ȵɔ³³ dzɿ³³	ȵɔ³³ dzɿ³³	blind person	blind person		1.2.6.14.2		0		681,1401
+43966	1669	Yi (Xide)	nɑ²¹ bu²¹	nɑ²¹ bu²¹	deaf person	deaf person		1.2.7.5		0		
+43967	1669	Yi (Xide)	ʑe⁴⁴ pa³³	ʑe⁴⁴ pa³³	mute person	mute person		1.5.3.2		0		bChinese
+43968	1669	Yi (Xide)	tsʰo⁴⁴ vu³³	tsʰo⁴⁴ vu³³	insane person	insane person		8.3.1.11.3		0		
+43969	1669	Yi (Xide)	tsʰɿ³³	tsʰɿ³³	fat, oil	fat, oil		1.6.4		0		48
+43970	1669	Yi (Xide)	ʑo²¹ ʑɿ³³	ʑo²¹ ʑɿ³³	fat, oil	fat, oil		1.6.4		0		42,48
+43971	1669	Yi (Xide)	ʂɯ³³	ʂɯ³³	meat, flesh	meat, flesh		1.1.1.1		0		34
+43972	1669	Yi (Xide)	ho²¹	ho²¹	speech	speech		1.8.7		0		
+43973	1669	Yi (Xide)	do²¹	do²¹	speech	speech		1.8.7		0		
+43974	1669	Yi (Xide)	hɯ²¹	hɯ²¹	look at	look at		1.2.6.11		0		m
+43975	1669	Yi (Xide)	ɣɯ²¹ mo³³	ɣɯ²¹ mo³³	see, perceive	see, perceive		1.2.6.10		0		m,1227
+43976	1669	Yi (Xide)	ȵɔ³³	ȵɔ³³	close (eyes)	close (eyes)		6.2.2.6.2		0		
+43977	1669	Yi (Xide)	n̥a³³	n̥a³³	listen	listen		1.2.7.4		0		811
+43978	1669	Yi (Xide)	dzɯ³³	dzɯ³³	eat	eat		1.5.3.2		0		36
+43979	1669	Yi (Xide)	ndo³³	ndo³³	drink	drink				0		502
+43980	1669	Yi (Xide)	ɕi⁵⁵	ɕi⁵⁵	bite	bite		1.3.4.4		0		m
+43981	1669	Yi (Xide)	ŋgɯ³³	ŋgɯ³³	chew	chew		1.3.4		0		1762
+43982	1669	Yi (Xide)	ʑo⁵⁵	ʑo⁵⁵	lick	lick		1.3.3.1		0		629
+43983	1669	Yi (Xide)	mo³³	mo³³	hold in mouth	hold in mouth		1.3.4.4		0		467
+43984	1669	Yi (Xide)	ɕi⁵⁵	ɕi⁵⁵	gnaw	gnaw		1.3.4.4		0		
+43985	1669	Yi (Xide)	ȵi²¹ ndo³³	ȵi²¹ ndo³³	swallow	swallow	v.t.	1.3.5.6		0		
+43986	1669	Yi (Xide)	ȵi²¹	ȵi²¹	swallow	swallow	v.i.	1.3.5.6		0		
+43987	1669	Yi (Xide)	pa⁵⁵	pa⁵⁵	spit	spit		1.8.3		0		
+43988	1669	Yi (Xide)	ndʑe³³	ndʑe³³	vomit	vomit		1.8.3.2		0		m
+43989	1669	Yi (Xide)	m̥o³³	m̥o³³	blow (with mouth)	blow (with mouth)		1.3.1.4		0		503
+43990	1669	Yi (Xide)	hi²¹	hi²¹	speak	speak		8.5.10.1		0		
+43991	1669	Yi (Xide)	pi³³	pi³³	read, recite	read, recite		6.2.2.9.3		0		
+43992	1669	Yi (Xide)	tʰu³³	tʰu³³	read, recite	read, recite		6.2.2.9.3		0		
+43993	1669	Yi (Xide)	ku³³	ku³³	call out, cry out	call out, cry out		9.2		0		
+43994	1669	Yi (Xide)	ni³³	ni³³	smell	smell	v	1.2.8.5		0		1415
+43995	1669	Yi (Xide)	i⁵⁵	i⁵⁵	sleep	sleep		1.1.4.1		0		127
+43996	1669	Yi (Xide)	ʑɿ²¹ ʑɿ³³	ʑɿ²¹ ʑɿ³³	laugh	laugh		1.8.8.1		0		1108,1108
+43997	1669	Yi (Xide)	ʑi³³ ŋo⁴⁴	ʑi³³ ŋo⁴⁴	cry, weep	cry, weep		1.8.8.2		0		m,1104
+43998	1669	Yi (Xide)	ʑu̱³³	ʑu̱³³	birth, give	birth, give		1.1.2		0		1865
+43999	1669	Yi (Xide)	ʑu̱³³	ʑu̱³³	grow up	grow up		9.7.2		0		
+44000	1669	Yi (Xide)	na³³	na³³	sick, get	sick, get		1.1.5.1		0		
+44001	1669	Yi (Xide)	ȵe²¹ vu̱³³	ȵe²¹ vu̱³³	shake / shiver	shake / shiver		6.7.9		0		
+44002	1669	Yi (Xide)	vu²¹	vu²¹	swell up	swell up		1.1.5.2		0		
+44003	1669	Yi (Xide)	sɿ³³	sɿ³³	die	die		1.1.6		0		27
+44004	1669	Yi (Xide)	dʑi³³	dʑi³³	fly	fly	v	2.2.6		0		
+44005	1669	Yi (Xide)	vo³³	vo³³	fly	fly	v	2.2.6		0		
+44006	1669	Yi (Xide)	vo⁵⁵	vo⁵⁵	bark	bark	v	2.1.11.1		0		2765
+44007	1669	Yi (Xide)	ku³³	ku³³	caw, crow	caw, crow	v	2.2.4.1		0		
+44008	1669	Yi (Xide)	tɕʰi²¹	tɕʰi²¹	lay (egg)	lay (egg)		6.17		0		
+44009	1669	Yi (Xide)	ɣo⁴⁴ pu³³	ɣo⁴⁴ pu³³	fat (person)	fat (person)		1.6.4		0		m,50
+44010	1669	Yi (Xide)	tsʰu³³	tsʰu³³	fatty (of meat)	fatty (of meat)		1.6.4		0		42
+44011	1669	Yi (Xide)	gɯ⁴⁴ dʑi³³	gɯ⁴⁴ dʑi³³	lean (of meat)	lean (of meat)		1.1.1		0		1805,49
+44012	1669	Yi (Xide)	gɯ⁴⁴ dʑi³³	gɯ⁴⁴ dʑi³³	lean (of humans)	lean (of humans)		1.1.1		0		1805,49
+44013	1669	Yi (Xide)	mbu̱³³	mbu̱³³	full, satiated	full, satiated		1.1.3.2		0		100
+44014	1669	Yi (Xide)	mi⁵⁵	mi⁵⁵	hungry	hungry		1.1.3		0		99
+44015	1669	Yi (Xide)	sɿ⁵⁵	sɿ⁵⁵	thirsty	thirsty		1.1.3.1		0		101
+44016	1669	Yi (Xide)	ʑɿ³³ sɿ⁵⁵	ʑɿ³³ sɿ⁵⁵	thirsty	thirsty		1.1.3.1		0		1013,101
+44017	1669	Yi (Xide)	dʑi⁴⁴ to³³	dʑi⁴⁴ to³³	tired	tired		9.6.2.2		0		
+44018	1669	Yi (Xide)	ʑi³³	ʑi³³	itch	itch		1.6.5.5		0		56
+44019	1669	Yi (Xide)	na³³	na³³	painful	painful		1.1.5.1		0		
+145867	1665	Yi (Nanjian)	li̱²¹ ka²¹ n̩(ɿ)³³ du̪⁵⁵ kʰu̪³³	li̱²¹ ka²¹ n̩(ɿ)³³ du̪⁵⁵ kʰu̪³³	armpit	armpit		1.5.1.2.3		0		

@@ -1,0 +1,16 @@
+tag: 3373
+grpid: 2
+proto_language: PTB
+protoform: tan
+gloss: CHEST
+semkey: 1.4.4.3
+sequence: 16.0
+status: KEEP
+public: true
+references: Jingpho, Nocte
+phonology:
+  handle: tan
+  initial: t
+  rhyme: an
+  initcover: T
+  rhymecover: N

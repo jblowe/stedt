@@ -1,0 +1,30 @@
+tag: 254
+grpid: 2
+proto_language: PTB
+protoform: s-nya-n
+gloss: BREAST / MILK / SUCK
+semkey: 1.4.4.3
+sequence: 3.0
+status: KEEP
+public: true
+phonology:
+  handle: n/ŋye-
+  initial: n/ŋy
+  rhyme: e-n
+  initcover: M
+  rhymecover: VN
+notes:
+- type: T
+  text: <par>This etymon, which frequently occurs reduplicated, may have a hypocoristic (baby-talk) flavor.
+    It is sometimes difficult to distinguish reflexes of this etymon from those of <xref ref="253">#253</xref>,
+    which also often appear reduplicated. Particularly problematic are the Qiangic forms, many of which
+    have front vowels, but which after much vacillation I have finally assigned to <xref ref="253">#253</xref>
+    instead of to the present set. Both <xref ref="3585">#3585</xref> and <xref ref="254">#254</xref>
+    occasionally take a nasal suffix, which further complicates the picture (cf. the *Tamang, Chepang,
+    Hayu, and Pa-O forms, below).</par><par>A couple of Himalayish languages (Gurung, Thakali) have a
+    velar initial, which appears to be a secondary development from the palatal nasal <reconstruction>*ny-</reconstruction>.
+    A pair of other forms with voiceless nasals (Lushai [Mizo], E. Chepang) reflect the <reconstruction>*s-</reconstruction>
+    prefix.</par>
+- type: F
+  text: '<par><hanform>嬭</hanform> OC <latinform>*niər</latinform>, GSR #359d-f &apos;mother; breasts,
+    milk&apos;; Schuessler 2007:395 <latinform>*nêʔ</latinform>; Mand. <latinform>nǎi</latinform>.</par>'

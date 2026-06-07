@@ -1,0 +1,15 @@
+tag: 420
+grpid: 2
+proto_language: PTB
+protoform: myan
+gloss: JOINT
+semkey: 1.5.8
+sequence: 10.0
+status: KEEP
+public: true
+phonology:
+  handle: myi
+  initial: my
+  suffix: ŋ
+  initcover: M
+  rhymecover: VN

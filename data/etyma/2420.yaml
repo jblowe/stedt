@@ -1,0 +1,47 @@
+tag: 2420
+grpid: 2
+proto_language: PTB
+protoform: s-l(u/i)m
+gloss: WARM
+semkey: 7.1.2.3
+sequence: 9.0
+status: KEEP
+public: true
+references: STC#381
+phonology:
+  handle: lum
+  initial: l
+  rhyme: um
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: lum ⪤ hlum
+  gloss: WARM / HOT
+- grpid: 66
+  group: 1.3.4
+  form: lum
+  gloss: WARM
+- grpid: 50
+  group: '7'
+  form: lamᴬ
+  gloss: WARM
+- grpid: 63
+  group: 1.3.1
+  form: l[a/ə]m
+  gloss: WARM
+notes:
+- type: T
+  text: <par>A simplex-causative pair is involved here. Reflexes with voiceless laterals are to be assigned
+    to the causative allofam with the <latinform>*s-</latinform> prefix, as are undoubtedly a number of
+    other forms (e.g. in Loloish) recognizable by their special tones.</par><par>The allofam with medial
+    <latinform>-i-</latinform> is confined to Bodo-Garo, Nungish, and Northern Naga.</par><par>Various
+    scattered languages (Darang, Yidu, Sak, Mpi) have final <latinform>-ŋ</latinform> instead of <latinform>-m</latinform>.</par>
+- type: F
+  text: '<par><hanform>尋</hanform> OC <latinform>*dzi̯əm</latinform>, GSR #662a &apos;warm up (food)&apos;;
+    Coblin 86:158 ST <latinform>*ljum</latinform> &gt; OC <latinform>*rjəm</latinform>; Schuessler 2007:539
+    <latinform>*s-ləm</latinform>; B &amp; S 2011: <latinform>*sə-ləm {sə-l[ə]m}</latinform> (&lt; <latinform>-um</latinform>?);
+    Mand. <latinform>xún</latinform>.<br /><hanform>融</hanform> OC <latinform>*dʼi̯ông</latinform>, GSR
+    #1009d &apos;hot air, steam, heat&apos;; Schuessler 2007:443 <latinform>*luŋ</latinform>; B &amp;
+    S 2011: <latinform>*luŋ</latinform> (? &lt; <latinform>*lum</latinform>); Mand. <latinform>róng</latinform>.</par>'

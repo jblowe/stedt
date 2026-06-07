@@ -1,0 +1,22 @@
+tag: 2203
+grpid: 2
+proto_language: PTB
+protoform: r-(d/t)ul
+gloss: DUST
+semkey: 3.2.11
+sequence: 1739.0
+status: KEEP
+public: false
+references: cf. STC p.173, HPTB pp.415, 422
+phonology:
+  handle: r-du
+  prefix: r
+  initial: d/t
+  rhyme: ul
+  initcover: T
+  rhymecover: LT
+notes:
+- type: F
+  text: '<par><hanform>塵</hanform> OC <latinform>*d’i̯ĕn</latinform>, GSR #374a &apos;dust (n.)&apos;;
+    Coblin 86:68 ST <latinform>*rdjiul</latinform> &gt; OC <latinform>*drjin</latinform>; Schuessler 2007:184
+    <latinform>*drən</latinform>; B &amp; S 2011: <latinform>*drən {[d]rə[n]}</latinform>; Mand. <latinform>chén</latinform>.</par>'

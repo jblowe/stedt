@@ -1,0 +1,16 @@
+tag: 5704
+grpid: 2
+proto_language: PTB
+protoform: pwa(ŋ/k)
+gloss: OPEN
+sequence: 2566.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: pwaŋ³
+  gloss: OPEN
+notes:
+- type: T
+  text: <par>This well-established root is found throughout the family.</par>

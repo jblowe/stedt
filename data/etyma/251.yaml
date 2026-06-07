@@ -1,0 +1,38 @@
+tag: 251
+grpid: 2
+proto_language: PTB
+protoform: s/k-niŋ
+gloss: BRAIN / HEART / MIND
+semkey: 1.2.4
+sequence: 1.1
+status: KEEP
+public: true
+xrefs: CHEST
+references: ⪤ *s-ni 297; cf. STC#367, HPTB
+phonology:
+  handle: s/k-
+  prefix: s/k
+  initial: n
+  rhyme: iŋ
+  suffix: (
+  initcover: M
+  rhymecover: N
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: niŋ
+  gloss: MIND / THINK / SOUL
+- grpid: 42
+  group: '6.1'
+  form: s-niŋ³
+  gloss: HEART
+notes:
+- type: T
+  text: '<par>Note the appearance of this root in the Lepcha form for ‘sperm’: <latinform>nyiŋ (bam-lyan̊)</latinform>
+    ‘(abode of the) soul’. </par><par>This root is distinct but closely related to <xref ref="297">#297</xref>
+    and <xref ref="1385">#1385</xref>. In general it is more ‘hearty’, while <xref ref="297">#297 </xref>
+    is more ‘chesty’.</par>'
+- type: F
+  text: '<par><hanform>仁</hanform> OC <latinform>*ni̯ĕn</latinform>, GSR #388fg &apos;kind, good&apos;;
+    Coblin 1986:92 (Sinitic) <latinform>*njing</latinform>, (Old Chin.) <latinform>*njin</latinform>;
+    B &amp; S 2011: <latinform>*niŋ {*ni[ŋ]}</latinform>; Mand. <latinform>rén</latinform>.</par>'

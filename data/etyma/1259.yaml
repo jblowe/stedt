@@ -1,0 +1,17 @@
+tag: 1259
+grpid: 2
+proto_language: PTB
+protoform: p(l/y)(w)aŋ
+gloss: LAP / BOSOM
+semkey: 1.4.4.2
+sequence: 7.0
+status: DELETE
+public: false
+xrefs: '288'
+allofams: '1255'
+phonology:
+  handle: pl/y
+  initial: p(l/y)
+  rhyme: aŋ
+  initcover: P
+  rhymecover: N

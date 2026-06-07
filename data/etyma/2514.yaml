@@ -1,0 +1,17 @@
+tag: 2514
+grpid: 2
+proto_language: PTB
+protoform: nup ~ nip = nuːp ~ ni[ː]p
+gloss: SINK
+semkey: '6.6'
+sequence: 2984.0
+status: DELETE
+public: true
+xrefs: '2517'
+references: STC#400
+phonology:
+  handle: nup
+  initial: n
+  rhyme: up~nip=n
+  initcover: M
+  rhymecover: NT

@@ -1,0 +1,19 @@
+tag: 4
+grpid: 2
+proto_language: PTB
+protoform: g-zuk
+gloss: BODY
+semkey: 1.1.1
+sequence: 5.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: zuk
+  initial: z
+  rhyme: uk
+  initcover: S
+  rhymecover: T
+notes:
+- type: I
+  text: <par><latinform>↭ *cuŋ/k </latinform>FLESH/MEAT.</par>

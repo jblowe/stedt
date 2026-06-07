@@ -1,0 +1,563 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+47785	1529	Thakali (Tukche)	ᴴpho	ᴴpho	deer	deer		2.2.2	1	0		8000
+47786	1523	Thakali (Marpha)	¹pho	¹pho	deer	deer		2.2.2	1	0		8000
+47787	1525	Thakali (Syang)	ᴴpho	ᴴpho	deer	deer		2.2.2	1	0		8000
+47788	603	Gurung (Ghachok)	¹pho	¹pho	deer	deer		2.2.2	1	0		8000
+47789	1001	Manang (Ngawal)	¹phwo	¹phwo	deer	deer		2.2.2	1	0		8000
+47790	1454	Tamang (Risiangku)	¹tiŋ	¹tiŋ	heart	heart		1.7.1	2	0		1387
+47791	1461	Tamang (Sahu)	¹tiŋ	¹tiŋ	heart	heart		1.7.1	2	0		1387
+47792	1529	Thakali (Tukche)	ᴴtin	ᴴtin	heart	heart		1.7.1	2	0		1387
+47793	1523	Thakali (Marpha)	ᴴtin	ᴴtin	heart	heart		1.7.1	2	0		1387
+47794	1525	Thakali (Syang)	ᴴtin	ᴴtin	heart	heart		1.7.1	2	0		1387
+47795	603	Gurung (Ghachok)	¹tĩ	¹tĩ	heart	heart		1.7.1	2	0		1387
+47796	1001	Manang (Ngawal)	¹tĩ	¹tĩ	heart	heart		1.7.1	2	0		1387
+47797	1461	Tamang (Sahu)	¹chi	¹chi	fodder	fodder		3.1.6.4	3	0		8001
+47798	1466	Tamang (Taglung)	¹tɕhe	¹tɕhe	fodder	fodder		3.1.6.4	3	0		8001
+47799	1529	Thakali (Tukche)	ᴴchi	ᴴchi	fodder	fodder		3.1.6.4	3	0		8001
+47800	1523	Thakali (Marpha)	ᴴtʃhi	ᴴtʃhi	fodder	fodder		3.1.6.4	3	0		8001
+47801	1525	Thakali (Syang)	¹tʃhi	¹tʃhi	fodder	fodder		3.1.6.4	3	0		8001
+47802	603	Gurung (Ghachok)	¹chi	¹chi	fodder	fodder		3.1.6.4	3	0		8001
+47803	1001	Manang (Ngawal)	¹tshi	¹tshi	fodder	fodder		3.1.6.4	3	0		8001
+47804	1454	Tamang (Risiangku)	¹tsaŋ	¹tsaŋ	daughter-in-law	daughter-in-law		4.7.4	4	0	D0	8002
+47805	1461	Tamang (Sahu)	¹caŋ	¹caŋ	daughter-in-law	daughter-in-law		4.7.4	4	0		8002
+47806	1466	Tamang (Taglung)	¹tsaŋ	¹tsaŋ	daughter-in-law	daughter-in-law		4.7.4	4	0	D0	8002
+47807	1529	Thakali (Tukche)	ᴴcaŋ	ᴴcaŋ	daughter-in-law	daughter-in-law		4.7.4	4	0		8002
+47808	1523	Thakali (Marpha)	¹tsaŋ	¹tsaŋ	daughter-in-law	daughter-in-law		4.7.4	4	0	D0	8002
+47809	1525	Thakali (Syang)	ᴴtsaŋ	ᴴtsaŋ	daughter-in-law	daughter-in-law		4.7.4	4	0		8002
+47810	603	Gurung (Ghachok)	¹cõ	¹cõ	daughter-in-law	daughter-in-law		4.7.4	4	0		8002
+47811	1001	Manang (Ngawal)	¹tsaŋ	¹tsaŋ	daughter-in-law	daughter-in-law		4.7.4	4	0	D0	8002
+47812	1454	Tamang (Risiangku)	¹kan	¹kan	food (cooked rice)	food (cooked rice)		5.5	5	0		8003
+47813	1461	Tamang (Sahu)	¹ken	¹ken	food (cooked rice)	food (cooked rice)		5.5	5	0		8003
+47814	1529	Thakali (Tukche)	ᴴkʌn	ᴴkʌn	food (cooked rice)	food (cooked rice)		5.5	5	0		8003
+47815	1523	Thakali (Marpha)	ᴴkʌn	ᴴkʌn	food (cooked rice)	food (cooked rice)		5.5	5	0		8003
+47816	1525	Thakali (Syang)	ᴴkʌn	ᴴkʌn	food (cooked rice)	food (cooked rice)		5.5	5	0		8003
+47817	603	Gurung (Ghachok)	¹kaẽ	¹kaẽ	food (cooked rice)	food (cooked rice)		5.5	5	0		8003
+47818	1001	Manang (Ngawal)	¹kjɛ̃	¹kjɛ̃	food (cooked rice)	food (cooked rice)		5.5	5	0		8003
+47819	1454	Tamang (Risiangku)	¹ku	¹ku	chest	chest		1.4.4.3	6	0		560
+47820	1461	Tamang (Sahu)	¹kut◦to	¹kut◦to	chest	chest		1.4.4.3	6	0		560,m
+47821	1466	Tamang (Taglung)	¹ku	¹ku	chest	chest		1.4.4.3	6	0		560
+47822	1529	Thakali (Tukche)	¹ku	¹ku	chest	chest		1.4.4.3	6	0		560
+47823	1523	Thakali (Marpha)	¹ku	¹ku	chest	chest		1.4.4.3	6	0		560
+47824	1525	Thakali (Syang)	¹ku	¹ku	chest	chest		1.4.4.3	6	0		560
+47825	603	Gurung (Ghachok)	¹ku	¹ku	chest	chest		1.4.4.3	6	0		560
+47826	1001	Manang (Ngawal)	¹ku	¹ku	chest	chest		1.4.4.3	6	0		560
+47827	1454	Tamang (Risiangku)	¹kli	¹kli	feces	feces		1.8.5	7	0		572
+47828	1461	Tamang (Sahu)	¹kli	¹kli	feces	feces		1.8.5	7	0		572
+47829	1466	Tamang (Taglung)	¹khli	¹khli	feces	feces		1.8.5	7	0		572
+47830	1529	Thakali (Tukche)	ᴴki	ᴴki	feces	feces		1.8.5	7	0		572
+47831	1523	Thakali (Marpha)	¹hli	¹hli	feces	feces		1.8.5	7	0		572
+47832	1525	Thakali (Syang)	¹li	¹li	feces	feces		1.8.5	7	0		572
+47833	603	Gurung (Ghachok)	¹ɬi	¹ɬi	feces	feces		1.8.5	7	0		572
+47834	1454	Tamang (Risiangku)	¹kra	¹kra	hair / head	hair  /  head		1.2.3	8	0		367
+47835	1461	Tamang (Sahu)	¹kra	¹kra	hair / head	hair  /  head		1.2.3	8	0		367
+47836	1466	Tamang (Taglung)	¹hwa	¹hwa	hair / head	hair  /  head		1.2.3	8	0		367
+47837	1529	Thakali (Tukche)	ᴴʈʌ	ᴴʈʌ	hair / head	hair  /  head		1.2.3	8	0		367
+47838	1523	Thakali (Marpha)	²kjʌ	²kjʌ	hair / head	hair  /  head		1.2.3	8	0		367
+47839	1525	Thakali (Syang)	²kja	²kja	hair / head	hair  /  head		1.2.3	8	0		367
+47840	603	Gurung (Ghachok)	¹kra	¹kra	hair / head	hair  /  head		1.2.3	8	0		367
+47841	1001	Manang (Ngawal)	²krɤ	²krɤ	hair / head	hair  /  head		1.2.3	8	0		367
+47842	1454	Tamang (Risiangku)	¹kru	¹kru	cubit	cubit		1.5.9.3	9	0		307
+47843	1461	Tamang (Sahu)	²kru-²naŋ	²kru-²naŋ	cubit	cubit		1.5.9.3	9	0		307,m
+47844	1466	Tamang (Taglung)	¹hu	¹hu	cubit	cubit		1.5.9.3	9	0		307
+47845	1529	Thakali (Tukche)	ᴴʈu	ᴴʈu	cubit	cubit		1.5.9.3	9	0		307
+47846	1523	Thakali (Marpha)	¹ku	¹ku	cubit	cubit		1.5.9.3	9	0		307
+47847	1525	Thakali (Syang)	¹ku	¹ku	cubit	cubit		1.5.9.3	9	0		307
+47848	603	Gurung (Ghachok)	¹kru	¹kru	cubit	cubit		1.5.9.3	9	0		307
+47849	1001	Manang (Ngawal)	¹kru	¹kru	cubit	cubit		1.5.9.3	9	0		307
+47850	1454	Tamang (Risiangku)	¹keː	¹keː	waist	waist		1.4.6	10	0		217
+47851	1461	Tamang (Sahu)	¹kep◦pa	¹kep◦pa	waist	waist		1.4.6	10	0		217,s
+47852	1466	Tamang (Taglung)	¹keː	¹keː	waist	waist		1.4.6	10	0		217
+47853	1529	Thakali (Tukche)	ᴴʈe	ᴴʈe	waist	waist		1.4.6	10	0		217
+47854	1523	Thakali (Marpha)	¹kʌe	¹kʌe	waist	waist		1.4.6	10	0		217
+47855	1525	Thakali (Syang)	¹kʌe	¹kʌe	waist	waist		1.4.6	10	0		217
+47856	603	Gurung (Ghachok)	¹kre	¹kre	waist	waist		1.4.6	10	0		217
+47857	1001	Manang (Ngawal)	¹kre	¹kre	waist	waist		1.4.6	10	0		217
+47858	1454	Tamang (Risiangku)	¹praŋ	¹praŋ	bier	bier		5.8.2.3	11	0		6262
+47859	1461	Tamang (Sahu)	¹praŋ	¹praŋ	firestand	firestand		5.11.5.5	11	0		6262
+47860	1466	Tamang (Taglung)	¹praŋ	¹praŋ	bier	bier		5.8.2.3	11	0		6262
+47861	1529	Thakali (Tukche)	ᴴpraŋ	ᴴpraŋ	ropeway	ropeway		5.1	11	0		6262
+47862	1523	Thakali (Marpha)	ᴴpraŋ	ᴴpraŋ	ropeway	ropeway		5.1	11	0		6262
+47863	1525	Thakali (Syang)	ᴸpraŋ	ᴸpraŋ	ropeway	ropeway		5.1	11	0		6262
+47864	603	Gurung (Ghachok)	³prẽ	³prẽ	ladder	ladder		5.4	11	0		6262
+47865	1001	Manang (Ngawal)	¹praŋ	¹praŋ	ropeway	ropeway		5.1	11	0		6262
+47866	1454	Tamang (Risiangku)	¹na	¹na	nose	nose		1.2.8	12	0		803
+47867	1461	Tamang (Sahu)	¹na	¹na	nose	nose		1.2.8	12	0		803
+47868	1466	Tamang (Taglung)	¹na	¹na	nose	nose		1.2.8	12	0		803
+47869	1529	Thakali (Tukche)	¹nʌ	¹nʌ	nose	nose		1.2.8	12	0		803
+47870	1523	Thakali (Marpha)	¹nʌ	¹nʌ	nose	nose		1.2.8	12	0		803
+47871	1525	Thakali (Syang)	¹nʌ	¹nʌ	nose	nose		1.2.8	12	0		803
+47872	603	Gurung (Ghachok)	¹na	¹na	nose	nose		1.2.8	12	0		803
+47873	1001	Manang (Ngawal)	¹nɤ	¹nɤ	nose	nose		1.2.8	12	0		803
+47874	1454	Tamang (Risiangku)	¹jaː	¹jaː	hand	hand		1.5.1.1	13	0		696
+47875	1461	Tamang (Sahu)	¹jaː	¹jaː	hand	hand		1.5.1.1	13	0		696
+47876	1466	Tamang (Taglung)	¹jaː	¹jaː	hand	hand		1.5.1.1	13	0		696
+47877	1529	Thakali (Tukche)	¹ja	¹ja	hand	hand		1.5.1.1	13	0		696
+47878	1523	Thakali (Marpha)	¹ja	¹ja	hand	hand		1.5.1.1	13	0		696
+47879	1525	Thakali (Syang)	¹ja	¹ja	hand	hand		1.5.1.1	13	0		696
+47880	603	Gurung (Ghachok)	¹jo	¹jo	hand	hand		1.5.1.1	13	0		696
+47881	1001	Manang (Ngawal)	¹ja	¹ja	hand	hand		1.5.1.1	13	0		696
+47882	1454	Tamang (Risiangku)	¹me	¹me	fire	fire		3.2.12.2	14	0		2136
+47883	1461	Tamang (Sahu)	¹me	¹me	fire	fire		3.2.12.2	14	0		2136
+47884	1466	Tamang (Taglung)	¹me	¹me	fire	fire		3.2.12.2	14	0		2136
+47885	1529	Thakali (Tukche)	ᴴme	ᴴme	fire	fire		3.2.12.2	14	0		2136
+47886	1523	Thakali (Marpha)	²mi	²mi	fire	fire		3.2.12.2	14	0		2136
+47887	1525	Thakali (Syang)	²mi	²mi	fire	fire		3.2.12.2	14	0		2136
+47888	603	Gurung (Ghachok)	¹mi	¹mi	fire	fire		3.2.12.2	14	0		2136
+47889	1001	Manang (Ngawal)	¹mie	¹mie	fire	fire		3.2.12.2	14	0		2136
+47890	1454	Tamang (Risiangku)	¹meː	¹meː	tail	tail		1.4.10.1	15	0		1288
+47891	1461	Tamang (Sahu)	¹meː	¹meː	tail	tail		1.4.10.1	15	0		1288
+47892	1466	Tamang (Taglung)	¹meː	¹meː	tail	tail		1.4.10.1	15	0		1288
+47893	1529	Thakali (Tukche)	ᴴme	ᴴme	tail	tail		1.4.10.1	15	0		1288
+47894	1523	Thakali (Marpha)	¹me	¹me	tail	tail		1.4.10.1	15	0		1288
+47895	1525	Thakali (Syang)	¹me	¹me	tail	tail		1.4.10.1	15	0		1288
+47896	603	Gurung (Ghachok)	¹mi	¹mi	tail	tail		1.4.10.1	15	0		1288
+47897	1001	Manang (Ngawal)	¹me	¹me	tail	tail		1.4.10.1	15	0		1288
+47898	1454	Tamang (Risiangku)	¹ra	¹ra	goat	goat		2.1.8	16	0		6031
+47899	1461	Tamang (Sahu)	¹ra	¹ra	goat	goat		2.1.8	16	0		6031
+47900	1466	Tamang (Taglung)	¹ra	¹ra	goat	goat		2.1.8	16	0		6031
+47901	1529	Thakali (Tukche)	ᴴrʌ	ᴴrʌ	goat	goat		2.1.8	16	0		6031
+47902	1523	Thakali (Marpha)	¹rʌ	¹rʌ	goat	goat		2.1.8	16	0		6031
+47903	1525	Thakali (Syang)	ᴴrʌ	ᴴrʌ	goat	goat		2.1.8	16	0		6031
+47904	603	Gurung (Ghachok)	¹ra	¹ra	goat	goat		2.1.8	16	0		6031
+47905	1001	Manang (Ngawal)	¹ʒɤ	¹ʒɤ	goat	goat		2.1.8	16	0		6031
+47906	1454	Tamang (Risiangku)	¹hlaŋ◦mo	¹hlaŋmo	steam	steam		6.6	17	0		5806,5806,m,m
+47907	1466	Tamang (Taglung)	¹laŋ	¹laŋ	steam	steam		6.6	17	0		5806,5806,m
+47908	1529	Thakali (Tukche)	¹hlaŋ◦mʌ	¹hlaŋmʌ	steam	steam		6.6	17	0		5806,5806,m
+47909	1523	Thakali (Marpha)	ᴴlaŋbo	ᴴlaŋbo	steam	steam		6.6	17	0		5806,5806
+47910	1525	Thakali (Syang)	ᴴhlaŋ◦ma	ᴴhlaŋma	steam	steam		6.6	17	0		5806,5806
+47911	603	Gurung (Ghachok)	ᴴlõmãː	ᴴlõmãː	steam	steam		6.6	17	0		5806,5806
+47912	1454	Tamang (Risiangku)	¹lu	¹lu	snake-god	snake-god		5.8.1.1	18	0		8004
+47913	1461	Tamang (Sahu)	¹lu	¹lu	snake-god	snake-god		5.8.1.1	18	0		8004
+47914	1466	Tamang (Taglung)	¹lu	¹lu	snake-god	snake-god		5.8.1.1	18	0		8004
+47915	1529	Thakali (Tukche)	ᴴlu	ᴴlu	snake-god	snake-god		5.8.1.1	18	0		8004
+47916	1523	Thakali (Marpha)	ᴴlu	ᴴlu	snake-god	snake-god		5.8.1.1	18	0		8004
+47917	1525	Thakali (Syang)	ᴴhlu	ᴴhlu	snake-god	snake-god		5.8.1.1	18	0		8004
+47918	1454	Tamang (Risiangku)	²pho	²pho	belly	belly		1.4.7	19	0		2103
+47919	1461	Tamang (Sahu)	²pho	²pho	belly	belly		1.4.7	19	0		2103
+47920	1466	Tamang (Taglung)	²pho	²pho	belly	belly		1.4.7	19	0		2103
+47921	1529	Thakali (Tukche)	ᴴpho	ᴴpho	belly	belly		1.4.7	19	0		2103
+47922	1523	Thakali (Marpha)	²pho	²pho	belly	belly		1.4.7	19	0		2103
+47923	1525	Thakali (Syang)	²pho	²pho	belly	belly		1.4.7	19	0		2103
+47924	603	Gurung (Ghachok)	²pho	²pho	belly	belly		1.4.7	19	0		2103
+47925	1001	Manang (Ngawal)	²phwo	²phwo	belly	belly		1.4.7	19	0		2103
+47926	1454	Tamang (Risiangku)	²ta	²ta	horse	horse		2.1.7	20	0		5
+47927	1461	Tamang (Sahu)	²ta◦pu	²ta◦pu	horse	horse		2.1.7	20	0		5,m
+47928	1466	Tamang (Taglung)	²ta	²ta	horse	horse		2.1.7	20	0		5
+47929	1529	Thakali (Tukche)	ᴴtʌ	ᴴtʌ	horse	horse		2.1.7	20	0		5
+47930	1523	Thakali (Marpha)	²tʌ	²tʌ	horse	horse		2.1.7	20	0		5
+47931	1525	Thakali (Syang)	²tʌ	²tʌ	horse	horse		2.1.7	20	0		5
+47932	1001	Manang (Ngawal)	²tɤ	²tɤ	horse	horse		2.1.7	20	0		5
+47933	1454	Tamang (Risiangku)	²taŋ	²taŋ	dish, plate	dishes		5.5	21	0	D0	8005
+47934	1461	Tamang (Sahu)	²taŋle	²taŋle	dish, plate	dishes		5.5	21	0		8005
+47935	1466	Tamang (Taglung)	²taŋ	²taŋ	dish, plate	dishes		5.5	21	0		8005
+47936	1529	Thakali (Tukche)	ᴴtaŋ	ᴴtaŋ	dish, plate	dishes		5.5	21	0		8005
+47937	1523	Thakali (Marpha)	²taŋ	²taŋ	dish, plate	dishes		5.5	21	0		8005
+47938	1525	Thakali (Syang)	ᴴtaŋ	ᴴtaŋ	dish, plate	dishes		5.5	21	0		8005
+47939	603	Gurung (Ghachok)	²tõ	²tõ	dish, plate	dishes		5.5	21	0		8005
+47940	1001	Manang (Ngawal)	²taŋ	²taŋ	dish, plate	dishes		5.5	21	0		8005
+47941	1454	Tamang (Risiangku)	²toː	²toː	hoe	hoe	n	5.3	22	0		3573
+47942	1466	Tamang (Taglung)	²toː	²toː	hoe	hoe	n	5.3	22	0		3573
+47943	1529	Thakali (Tukche)	ᴴto	ᴴto	hoe	hoe	n	5.3	22	0		3573
+47944	1523	Thakali (Marpha)	²to	²to	hoe	hoe	n	5.3	22	0		3573
+47945	1525	Thakali (Syang)	ᴴto	ᴴto	hoe	hoe	n	5.3	22	0		3573
+47946	603	Gurung (Ghachok)	²tu	²tu	hoe	hoe	n	5.3	22	0		3573
+47947	1001	Manang (Ngawal)	²to	²to	hoe	hoe	n	5.3	22	0		3573
+47948	1454	Tamang (Risiangku)	²ʈup	²ʈup	thread (sewing)	thread (sewing)		5.11.6	23	0		8006
+47949	1461	Tamang (Sahu)	¹ʈup	¹ʈup	thread (sewing)	thread (sewing)		5.11.6	23	0		8006
+47950	1529	Thakali (Tukche)	ᴴhrup	ᴴhrup	thread (sewing)	thread (sewing)		5.11.6	23	0		8006
+47951	1523	Thakali (Marpha)	²hru	²hru	thread (sewing)	thread (sewing)		5.11.6	23	0		8006
+47952	1525	Thakali (Syang)	²hru	²hru	thread (sewing)	thread (sewing)		5.11.6	23	0		8006
+47953	603	Gurung (Ghachok)	²ru	²ru	thread (sewing)	thread (sewing)		5.11.6	23	0		8006
+47954	1001	Manang (Ngawal)	²ʈu	²ʈu	thread (sewing)	thread (sewing)		5.11.6	23	0		8006
+47955	1454	Tamang (Risiangku)	²tsɥi	²tsɥi	ten	ten		9.9	24	0		2748
+47956	1461	Tamang (Sahu)	²ci	²ci	ten	ten		9.9	24	0		2748
+47957	1466	Tamang (Taglung)	²tsju	²tsju	ten	ten		9.9	24	0		2748
+47958	1529	Thakali (Tukche)	ᴴtsju	ᴴtsju	ten	ten		9.9	24	0		2748
+47959	1523	Thakali (Marpha)	²tsju	²tsju	ten	ten		9.9	24	0		2748
+47960	1525	Thakali (Syang)	ᴴtʃju	ᴴtʃju	ten	ten		9.9	24	0		2748
+47961	603	Gurung (Ghachok)	²cju	²cju	ten	ten		9.9	24	0		2748
+47962	1001	Manang (Ngawal)	²tsjy	²tsjy	ten	ten		9.9	24	0		2748
+47963	1454	Tamang (Risiangku)	²kam	²kam	chin	chin		1.2.5.3	25	0		630
+47964	1461	Tamang (Sahu)	²kam	²kam	chin	chin		1.2.5.3	25	0		630
+47965	1529	Thakali (Tukche)	²kʌm-sʌ	²kʌm-sʌ	molar	molar		1.3.4.2	25	0		630,632
+47966	1523	Thakali (Marpha)	²kʌm	²kʌm	chin	chin		1.2.5.3	25	0		630
+47967	1525	Thakali (Syang)	²kʌm	²kʌm	chin	chin		1.2.5.3	25	0		630
+47968	603	Gurung (Ghachok)	²kãː	²kãː	chin	chin		1.2.5.3	25	0	C	630
+47969	1001	Manang (Ngawal)	²kʌn◦ta	²kʌn◦ta	chin	chin		1.2.5.3	25	0		630,m
+47970	1461	Tamang (Sahu)	²khuŋ	²khuŋ	hole	hole		3.2.7	26	0		820
+47971	1529	Thakali (Tukche)	kho◦toŋ	kho◦toŋ	hole	hole		3.2.7	26	0		820,822
+47972	1523	Thakali (Marpha)	²khuŋ	²khuŋ	hole	hole		3.2.7	26	0		820
+47973	1525	Thakali (Syang)	ᴴkhũŋ	ᴴkhũŋ	hole	hole		3.2.7	26	0		820
+47974	603	Gurung (Ghachok)	²khũ	²khũ	hole	hole		3.2.7	26	0		820
+47975	1001	Manang (Ngawal)	²hum	²hum	hole	hole		3.2.7	26	0		820
+47976	1001	Manang (Ngawal)	²huŋ	²huŋ	hole	hole		3.2.7	26	0		820
+47977	1454	Tamang (Risiangku)	²kɥi	²kɥi	water	water		3.2.3	27	0		1631
+47978	1461	Tamang (Sahu)	²ki	²ki	water	water		3.2.3	27	0		1631
+47979	1466	Tamang (Taglung)	²kju	²kju	water	water		3.2.3	27	0		1631
+47980	1529	Thakali (Tukche)	ᴴkju	ᴴkju	water	water		3.2.3	27	0		1631
+47981	1523	Thakali (Marpha)	²kju	²kju	water	water		3.2.3	27	0		1631
+47982	1525	Thakali (Syang)	ᴴkju	ᴴkju	water	water		3.2.3	27	0		1631
+47983	603	Gurung (Ghachok)	²kju	²kju	water	water		3.2.3	27	0		1631
+47984	1001	Manang (Ngawal)	²kjy	²kjy	water	water		3.2.3	27	0		1631
+47985	1454	Tamang (Risiangku)	²kuː	²kuː	nine	nine		9.9	28	0		2364
+47986	1461	Tamang (Sahu)	²ku	²ku	nine	nine		9.9	28	0		2364
+47987	1466	Tamang (Taglung)	²ku(ː)	²ku(ː)	nine	nine		9.9	28	0		2364
+47988	1529	Thakali (Tukche)	²ku	²ku	nine	nine		9.9	28	0		2364
+47989	1523	Thakali (Marpha)	²ku	²ku	nine	nine		9.9	28	0		2364
+47990	1525	Thakali (Syang)	²ku(ː)	²ku(ː)	nine	nine		9.9	28	0		2364
+47991	603	Gurung (Ghachok)	²ku	²ku	nine	nine		9.9	28	0		2364
+47992	1001	Manang (Ngawal)	²ku	²ku	nine	nine		9.9	28	0		2364
+47993	1454	Tamang (Risiangku)	²kat	²kat	voice	voice		8.5.5	29	0		1754,8007
+47994	1461	Tamang (Sahu)	²ket	²ket	voice	voice		8.5.5	29	0	D0	8007
+47995	1529	Thakali (Tukche)	ᴴkʌi	ᴴkʌi	voice	voice		8.5.5	29	0		8007
+47996	1523	Thakali (Marpha)	ᴴkʌi	ᴴkʌi	voice	voice		8.5.5	29	0		8007
+47997	1525	Thakali (Syang)	²kʌe	²kʌe	voice	voice		8.5.5	29	0		8007
+47998	603	Gurung (Ghachok)	¹kae	¹kae	voice	voice		8.5.5	29	0		8007
+47999	1454	Tamang (Risiangku)	²thetmai	²thetmai	siblings	siblings		4.7.2	30	0		8008
+48000	1461	Tamang (Sahu)	²thet	²thet	siblings	siblings		4.7.2	30	0		8008
+48001	1529	Thakali (Tukche)	ᴴthe	ᴴthe	siblings	siblings		4.7.2	30	0		8008
+48002	1523	Thakali (Marpha)	²the	²the	siblings	siblings		4.7.2	30	0		8008
+48003	1525	Thakali (Syang)	²te	²te	siblings	siblings		4.7.2	30	0		8008
+48004	603	Gurung (Ghachok)	²ti	²ti	siblings	siblings		4.7.2	30	0		8008
+48005	1001	Manang (Ngawal)	²the	²the	siblings	siblings		4.7.2	30	0		8008
+48006	1454	Tamang (Risiangku)	²tho	²tho	saliva	saliva		1.8.3	31	0		603
+48007	1529	Thakali (Tukche)	ᴴtho	ᴴtho	saliva	saliva		1.8.3	31	0		603
+48008	1523	Thakali (Marpha)	ᴴtho	ᴴtho	saliva	saliva		1.8.3	31	0		603
+48009	1525	Thakali (Syang)	ᴴto	ᴴto	saliva	saliva		1.8.3	31	0		603
+48010	603	Gurung (Ghachok)	²tu	²tu	saliva	saliva		1.8.3	31	0		603
+48011	1001	Manang (Ngawal)	²tha	²tha	saliva	saliva		1.8.3	31	0		603
+48012	1454	Tamang (Risiangku)	²miː	²miː	eye	eye		1.2.6	32	0		682
+48013	1461	Tamang (Sahu)	²miː	²miː	eye	eye		1.2.6	32	0		682
+48014	1466	Tamang (Taglung)	²miː	²miː	eye	eye		1.2.6	32	0		682
+48015	1529	Thakali (Tukche)	ᴴmi	ᴴmi	eye	eye		1.2.6	32	0		682
+48016	1523	Thakali (Marpha)	²mi	²mi	eye	eye		1.2.6	32	0		682
+48017	1525	Thakali (Syang)	²mi	²mi	eye	eye		1.2.6	32	0		682
+48018	603	Gurung (Ghachok)	²mĩ	²mĩ	eye	eye		1.2.6	32	0		682
+48019	1001	Manang (Ngawal)	²mi	²mi	eye	eye		1.2.6	32	0		682
+48020	1454	Tamang (Risiangku)	²wa	²wa	fontanel	fontanel		1.2.1.3	33	0		1197
+48021	1529	Thakali (Tukche)	ᴴŋo	ᴴŋo	fontanel	fontanel		1.2.1.3	33	0		1197
+48022	1523	Thakali (Marpha)	²ŋo	²ŋo	fontanel	fontanel		1.2.1.3	33	0		1197
+48023	1525	Thakali (Syang)	ᴴŋo	ᴴŋo	fontanel	fontanel		1.2.1.3	33	0		1197
+48024	1001	Manang (Ngawal)	²ŋo	²ŋo	fontanel	fontanel		1.2.1.3	33	0		1197
+48025	1454	Tamang (Risiangku)	²wa	²wa	bird-trap	bird-trap		2.2.4	34	0		3556
+48026	1461	Tamang (Sahu)	²wa	²wa	bird-trap	bird-trap		2.2.4	34	0		3556
+48027	1529	Thakali (Tukche)	ᴴŋo	ᴴŋo	bird-trap	bird-trap		2.2.4	34	0		3556
+48028	1523	Thakali (Marpha)	²ŋõ	²ŋõ	bird-trap	bird-trap		2.2.4	34	0		3556
+48029	1525	Thakali (Syang)	ᴴŋo	ᴴŋo	bird-trap	bird-trap		2.2.4	34	0		3556
+48030	603	Gurung (Ghachok)	²ŋõ	²ŋõ	bird-trap	bird-trap		2.2.4	34	0		3556
+48031	1001	Manang (Ngawal)	²ŋo	²ŋo	bird-trap	bird-trap		2.2.4	34	0		3556
+48032	1454	Tamang (Risiangku)	²leː	²leː	tongue	tongue		1.3.3	35	0		621
+48033	1461	Tamang (Sahu)	²le	²le	tongue	tongue		1.3.3	35	0		621
+48034	1466	Tamang (Taglung)	²le	²le	tongue	tongue		1.3.3	35	0		621
+48035	1529	Thakali (Tukche)	ᴴle	ᴴle	tongue	tongue		1.3.3	35	0		621
+48036	1523	Thakali (Marpha)	²le	²le	tongue	tongue		1.3.3	35	0		621
+48037	1525	Thakali (Syang)	ᴴhl(j)e	ᴴhl(j)e	tongue	tongue		1.3.3	35	0		621
+48038	603	Gurung (Ghachok)	²le	²le	tongue	tongue		1.3.3	35	0		621
+48039	1454	Tamang (Risiangku)	²liː	²liː	face	face		1.2.5	36	0		1184
+48040	1461	Tamang (Sahu)	²liː	²liː	face	face		1.2.5	36	0		1184
+48041	1466	Tamang (Taglung)	²liː	²liː	face	face		1.2.5	36	0		1184
+48042	1529	Thakali (Tukche)	ᴴli	ᴴli	face	face		1.2.5	36	0		1184
+48043	1001	Manang (Ngawal)	²li	²li	face	face		1.2.5	36	0		1184
+48044	1525	Thakali (Syang)	²hli	²hli	face	face		1.2.5	36	0		1184
+48045	603	Gurung (Ghachok)	²li	²li	face	face		1.2.5	36	0		1184
+48046	1454	Tamang (Risiangku)	²ʃjat	²ʃjat	louse	louse		2.2.6	37	0		8009
+48047	1461	Tamang (Sahu)	²sjet	²sjet	louse	louse		2.2.6	37	0		8009
+48048	1461	Tamang (Sahu)	¹sjai	¹sjai	louse	louse		2.2.6	37	0		8009
+48049	1466	Tamang (Taglung)	²ʃjeː	²ʃjeː	louse	louse		2.2.6	37	0		8009
+48050	1529	Thakali (Tukche)	ᴴsje	ᴴsje	louse	louse		2.2.6	37	0		8009
+48051	1523	Thakali (Marpha)	²ʃje	²ʃje	louse	louse		2.2.6	37	0		8009
+48052	1525	Thakali (Syang)	²ʃje	²ʃje	louse	louse		2.2.6	37	0		8009
+48053	603	Gurung (Ghachok)	²se	²se	louse	louse		2.2.6	37	0		8009
+48054	1001	Manang (Ngawal)	²ʃje	²ʃje	louse	louse		2.2.6	37	0		8009
+48055	1529	Thakali (Tukche)	³pe	³pe	wife	wife		4.7.4	38	0		8010
+48056	1523	Thakali (Marpha)	³pe	³pe	wife	wife		4.7.4	38	0		8010
+48057	1525	Thakali (Syang)	³pe	³pe	wife	wife		4.7.4	38	0		8010
+48058	1001	Manang (Ngawal)	³piɛ	³piɛ	wife	wife		4.7.4	38	0		8010
+48059	1454	Tamang (Risiangku)	³paː	³paː	leaf	leaf		3.1.3	39	0		8011
+48060	1461	Tamang (Sahu)	³paː	³paː	leaf	leaf		3.1.3	39	0		8011
+48061	1466	Tamang (Taglung)	³paː	³paː	leaf	leaf		3.1.3	39	0		8011
+48062	1529	Thakali (Tukche)	³pa	³pa	leaf	leaf		3.1.3	39	0		8011
+48063	1523	Thakali (Marpha)	³pa	³pa	leaf	leaf		3.1.3	39	0		8011
+48064	1525	Thakali (Syang)	³ba	³ba	leaf	leaf		3.1.3	39	0		8011
+48065	603	Gurung (Ghachok)	³po	³po	leaf	leaf		3.1.3	39	0		8011
+48066	1001	Manang (Ngawal)	³pa	³pa	leaf	leaf		3.1.3	39	0		8011
+48067	1454	Tamang (Risiangku)	³pap	³pap	beer-mash	beer-mash		3.1.6	40	0		8012
+48068	1523	Thakali (Marpha)	³po	³po	beer-mash	beer-mash		3.1.6	40	0		8012
+48069	1525	Thakali (Syang)	³po	³po	beer-mash	beer-mash		3.1.6	40	0		8012
+48070	603	Gurung (Ghachok)	²paː	²paː	beer-mash	beer-mash		3.1.6	40	0		8012
+48071	1001	Manang (Ngawal)	³pe	³pe	beer-mash	beer-mash		3.1.6	40	0		8012
+48072	1454	Tamang (Risiangku)	³praŋ	³praŋ	cowshed	cowshed		9.10.4	41	0		8013
+48073	1461	Tamang (Sahu)	³praŋ	³praŋ	cowshed	cowshed		9.10.4	41	0		8013
+48074	1466	Tamang (Taglung)	³praŋ	³praŋ	cowshed	cowshed		9.10.4	41	0		8013
+48075	1529	Thakali (Tukche)	³praŋ	³praŋ	cowshed	cowshed		9.10.4	41	0		8013
+48076	1523	Thakali (Marpha)	³praŋ	³praŋ	cowshed	cowshed		9.10.4	41	0		8013
+48077	1525	Thakali (Syang)	ᴸpraŋ	ᴸpraŋ	cowshed	cowshed		9.10.4	41	0		8013
+48078	603	Gurung (Ghachok)	³prõ	³prõ	cowshed	cowshed		9.10.4	41	0		8013
+48079	1001	Manang (Ngawal)	³praŋ	³praŋ	cowshed	cowshed		9.10.4	41	0		8013
+48080	1454	Tamang (Risiangku)	³ʈi	³ʈi	skin	skin		1.6.5	42	0		596
+48081	1461	Tamang (Sahu)	³ʈi	³ʈi	skin	skin		1.6.5	42	0		596
+48082	1466	Tamang (Taglung)	³ʈi	³ʈi	skin	skin		1.6.5	42	0		596
+48083	1529	Thakali (Tukche)	³ʈi	³ʈi	skin	skin		1.6.5	42	0		596
+48084	1523	Thakali (Marpha)	³ʈi	³ʈi	skin	skin		1.6.5	42	0		596
+48085	1525	Thakali (Syang)	³ʈi	³ʈi	skin	skin		1.6.5	42	0		596
+48086	603	Gurung (Ghachok)	³ʈu◦bi	³ʈu◦bi	skin	skin		1.6.5	42	0		596,590
+48087	1001	Manang (Ngawal)	³ʈi	³ʈi	skin	skin		1.6.5	42	0		596
+48088	1454	Tamang (Risiangku)	³tsaŋ	³tsaŋ	nest	nest		2.2.4	43	0		1615
+48089	1461	Tamang (Sahu)	³caŋ	³caŋ	nest	nest		2.2.4	43	0		1615
+48090	1466	Tamang (Taglung)	³tsaŋ	³tsaŋ	nest	nest		2.2.4	43	0		1615
+48091	1529	Thakali (Tukche)	³caŋ	³caŋ	nest	nest		2.2.4	43	0		1615
+48092	1523	Thakali (Marpha)	³tsaŋ	³tsaŋ	nest	nest		2.2.4	43	0		1615
+48093	1525	Thakali (Syang)	³tsaŋ	³tsaŋ	nest	nest		2.2.4	43	0		1615
+48094	603	Gurung (Ghachok)	³cõ	³cõ	nest	nest		2.2.4	43	0		1615
+48095	1001	Manang (Ngawal)	³tsaŋ	³tsaŋ	nest	nest		2.2.4	43	0		1615
+48096	1454	Tamang (Risiangku)	³tso	³tso	point	point		6.2.2.2	44	0		8014
+48097	1461	Tamang (Sahu)	³co	³co	point	point		6.2.2.2	44	0		8014
+48098	1529	Thakali (Tukche)	³co	³co	point	point		6.2.2.2	44	0		8014
+48099	1523	Thakali (Marpha)	³tso	³tso	point	point		6.2.2.2	44	0		8014
+48100	1525	Thakali (Syang)	ᴸtso	ᴸtso	point	point		6.2.2.2	44	0		8014
+48101	603	Gurung (Ghachok)	³co	³co	point	point		6.2.2.2	44	0		8014
+48102	1001	Manang (Ngawal)	³tsʌ	³tsʌ	point	point		6.2.2.2	44	0		8014
+48103	1454	Tamang (Risiangku)	³kap	³kap	lid	lid		5.1	45	0		1233
+48104	1461	Tamang (Sahu)	³kap	³kap	lid	lid		5.1	45	0		1233
+48105	1529	Thakali (Tukche)	³kʌp	³kʌp	lid	lid		5.1	45	0		1233
+48106	1523	Thakali (Marpha)	³ko	³ko	lid	lid		5.1	45	0		1233
+48107	1525	Thakali (Syang)	³ko	³ko	lid	lid		5.1	45	0		1233
+48108	603	Gurung (Ghachok)	²kaː	²kaː	lid	lid		5.1	45	0		1233
+48109	1001	Manang (Ngawal)	³kje	³kje	lid	lid		5.1	45	0		1233
+48110	1454	Tamang (Risiangku)	³ko	³ko	back	back		1.4.8	46	0		211
+48111	1461	Tamang (Sahu)	³ko	³ko	back	back		1.4.8	46	0		211
+48112	1466	Tamang (Taglung)	³ko	³ko	back	back		1.4.8	46	0		211
+48113	1529	Thakali (Tukche)	³ko	³ko	back	back		1.4.8	46	0		211
+48114	1523	Thakali (Marpha)	³ko	³ko	back	back		1.4.8	46	0		211
+48115	1525	Thakali (Syang)	³ko	³ko	back	back		1.4.8	46	0		211
+48116	603	Gurung (Ghachok)	³ko	³ko	back	back		1.4.8	46	0		211
+48117	1001	Manang (Ngawal)	³ko-³te	³ko-³te	back	back		1.4.8	46	0		211,1243
+48118	1454	Tamang (Risiangku)	³kaŋ	³kaŋ	hill	hill		3.2.5	47	0		3581
+48119	1461	Tamang (Sahu)	³kaŋ	³kaŋ	hill	hill		3.2.5	47	0		3581
+48120	1466	Tamang (Taglung)	³gaŋ	³gaŋ	hill	hill		3.2.5	47	0		3581
+48121	1529	Thakali (Tukche)	³kaŋ	³kaŋ	hill	hill		3.2.5	47	0		3581
+48122	1523	Thakali (Marpha)	³kaŋ	³kaŋ	hill	hill		3.2.5	47	0		3581
+48123	1525	Thakali (Syang)	¹kaŋ	¹kaŋ	hill	hill		3.2.5	47	0		3581
+48124	1001	Manang (Ngawal)	³kãŋ	³kãŋ	hill	hill		3.2.5	47	0		3581
+48125	1454	Tamang (Risiangku)	³kruŋ	³kruŋ	intestines	intestines		1.7.7	48	0		2116
+48126	1461	Tamang (Sahu)	³kruŋ	³kruŋ	intestines	intestines		1.7.7	48	0		2116
+48127	1523	Thakali (Marpha)	³kum	³kum	intestines	intestines		1.7.7	48	0		2116
+48128	1525	Thakali (Syang)	³kum	³kum	intestines	intestines		1.7.7	48	0		2116
+48129	1454	Tamang (Risiangku)	³mi	³mi	man	man		1.9.6.1	49	0		1002
+48130	1461	Tamang (Sahu)	³miː	³miː	man	man		1.9.6.1	49	0		1002
+48131	1466	Tamang (Taglung)	³mi	³mi	man	man		1.9.6.1	49	0		1002
+48132	1529	Thakali (Tukche)	³mi	³mi	man	man		1.9.6.1	49	0		m
+48133	1523	Thakali (Marpha)	³mi	³mi	man	man		1.9.6.1	49	0		1002
+48134	1525	Thakali (Syang)	³mi	³mi	man	man		1.9.6.1	49	0		1002
+48135	603	Gurung (Ghachok)	³mi	³mi	man	man		1.9.6.1	49	0		1002
+48136	1001	Manang (Ngawal)	³mi	³mi	man	man		1.9.6.1	49	0		1002
+48137	1454	Tamang (Risiangku)	³ŋo	³ŋo	forehead	forehead		1.2.5.1	50	0	D0	356
+48138	1461	Tamang (Sahu)	³ŋo	³ŋo	forehead	forehead		1.2.5.1	50	0		356
+48139	1466	Tamang (Taglung)	³ŋo	³ŋo	forehead	forehead		1.2.5.1	50	0	D0	356
+48140	1529	Thakali (Tukche)	³ŋo	³ŋo	forehead	forehead		1.2.5.1	50	0		356
+48141	1523	Thakali (Marpha)	³ŋo	³ŋo	forehead	forehead		1.2.5.1	50	0		356
+48142	1525	Thakali (Syang)	³ŋo	³ŋo	forehead	forehead		1.2.5.1	50	0		356
+48143	603	Gurung (Ghachok)	³ŋo	³ŋo	forehead	forehead		1.2.5.1	50	0		356
+48144	1454	Tamang (Risiangku)	³ro	³ro	friend	friend		4.4.2	51	0		8016
+48145	1461	Tamang (Sahu)	³roː	³roː	friend	friend		4.4.2	51	0		8016
+48146	1466	Tamang (Taglung)	³roː	³roː	friend	friend		4.4.2	51	0		8016
+48147	1529	Thakali (Tukche)	³ro	³ro	friend	friend		4.4.2	51	0		8016
+48148	1523	Thakali (Marpha)	³ro	³ro	friend	friend		4.4.2	51	0		8016
+48149	1525	Thakali (Syang)	³ro	³ro	friend	friend		4.4.2	51	0		8016
+48150	1454	Tamang (Risiangku)	⁴kik	⁴kik	one	one		9.9	52	0		2726
+48151	1461	Tamang (Sahu)	⁴kiː	⁴kiː	one	one		9.9	52	0		2726
+48152	1466	Tamang (Taglung)	⁴ki	⁴ki	one	one		9.9	52	0		2726
+48153	1529	Thakali (Tukche)	⁴ʈi	⁴ʈi	one	one		9.9	52	0		2726
+48154	1523	Thakali (Marpha)	⁴kɤi	⁴kɤi	one	one		9.9	52	0		2726
+48155	1525	Thakali (Syang)	⁴gɨ	⁴gɨ	one	one !(I×)		9.9	52	0		2726
+48156	603	Gurung (Ghachok)	⁴gri	⁴gri	one	one		9.9	52	0		2726
+48157	1001	Manang (Ngawal)	⁴hři	⁴hři	one	one		9.9	52	0		2726
+48158	1454	Tamang (Risiangku)	⁴kwa	⁴kwa	wheat	wheat		3.1.4	53	0		8018
+48159	1461	Tamang (Sahu)	³wa	³wa	wheat	wheat		3.1.4	53	0		8018
+48160	1466	Tamang (Taglung)	⁴hwa	⁴hwa	wheat	wheat		3.1.4	53	0		8018
+48161	1529	Thakali (Tukche)	³ʈo	³ʈo	wheat	wheat		3.1.4	53	0		8018
+48162	1529	Thakali (Tukche)	⁴ʈo-sim	⁴ʈo-sim	wheat	wheat		3.1.4	53	0		8018
+48163	1523	Thakali (Marpha)	⁴ko	⁴ko	wheat	wheat		3.1.4	53	0		8018
+48164	1525	Thakali (Syang)	⁴ko	⁴ko	wheat	wheat		3.1.4	53	0		8018
+48165	1001	Manang (Ngawal)	⁴ʃɔ	⁴ʃɔ	wheat	wheat		3.1.4	53	0		8018
+48166	1454	Tamang (Risiangku)	⁴kwat	⁴kwat	eagle	eagle		2.2.4.1	54	0		8019
+48167	1461	Tamang (Sahu)	²wet	²wet	eagle	eagle		2.2.4.1	54	0		8019
+48168	1529	Thakali (Tukche)	⁴ʈe	⁴ʈe	vulture	vulture		2.2.4.1	54	0		8019
+48169	1523	Thakali (Marpha)	³tʃjʌ	³tʃjʌ	eagle	eagle		2.2.4.1	54	0		8019
+48170	1525	Thakali (Syang)	ᴸtʃjʌ	ᴸtʃjʌ	eagle	eagle		2.2.4.1	54	0		8019
+48171	603	Gurung (Ghachok)	⁴krwe	⁴krwe	vulture	vulture		2.2.4.1	54	0		8019
+48172	1001	Manang (Ngawal)	¹hřʌ	¹hřʌ	eagle	eagle		2.2.4.1	54	0		8019
+48173	1529	Thakali (Tukche)	ᴴʈha	ᴴʈha	hawk	hawk		2.2.4.1	54a	0		8019
+48174	1523	Thakali (Marpha)	¹khja	¹khja	falcon	falcon		2.2.4.1	54a	0		8019
+48175	1525	Thakali (Syang)	²khjʌ	²khjʌ	falcon	falcon		2.2.4.1	54a	0		8019
+48176	1454	Tamang (Risiangku)	⁴klop	⁴klop	lungs	lungs		1.7.2	55	0		2121
+48177	1529	Thakali (Tukche)	⁴kjʌw	⁴kjʌw	lungs	lungs		1.7.2	55	0		2121
+48178	1523	Thakali (Marpha)	³ljʌp	³ljʌp	lungs	lungs		1.7.2	55	0		2121
+48179	1525	Thakali (Syang)	ᴸʃjopʃja	ᴸʃjopʃja	lungs	lungs		1.7.2	55	0		2121
+48180	603	Gurung (Ghachok)	³ɬoba	³ɬoba	lungs	lungs		1.7.2	55	0		2121
+48181	1001	Manang (Ngawal)	³kjoːpa	³kjoːpa	lungs	lungs		1.7.2	55	0		2121
+48182	1454	Tamang (Risiangku)	⁴kla	⁴kla	place	place		9.10.5	56	0		8021
+48183	1461	Tamang (Sahu)	⁴klaː	⁴klaː	place	place		9.10.5	56	0		8021
+48184	1466	Tamang (Taglung)	⁴khlaː	⁴khlaː	place	place		9.10.5	56	0		8021
+48185	1529	Thakali (Tukche)	³kja	³kja	place	place		9.10.5	56	0		8021
+48186	1523	Thakali (Marpha)	⁴lja	⁴lja	place	place		9.10.5	56	0		8021
+48187	1525	Thakali (Syang)	⁴lja	⁴lja	place	place		9.10.5	56	0		8021
+48188	603	Gurung (Ghachok)	³ɬo	³ɬo	place	place		9.10.5	56	0		8021
+48189	1001	Manang (Ngawal)	⁴khja	⁴khja	place	place		9.10.5	56	0		8021
+48190	1454	Tamang (Risiangku)	⁴kliŋ	⁴kliŋ	snow	snow		3.2.1	57	0		8022
+48191	1461	Tamang (Sahu)	⁴kliŋ	⁴kliŋ	snow	snow		3.2.1	57	0		8022
+48192	1466	Tamang (Taglung)	khliŋ	khliŋ	snow	snow		3.2.1	57	0		8022
+48193	1529	Thakali (Tukche)	⁴kin	⁴kin	snow	snow		3.2.1	57	0		8022
+48194	1523	Thakali (Marpha)	⁴lin	⁴lin	snow	snow		3.2.1	57	0		8022
+48195	1525	Thakali (Syang)	lim	lim	snow	snow		3.2.1	57	0		8022
+48196	603	Gurung (Ghachok)	²ɬĩ	²ɬĩ	snow	snow		3.2.1	57	0		8022
+48197	1001	Manang (Ngawal)	⁴khĩ	⁴khĩ	snow	snow		3.2.1	57	0		8022
+48198	1454	Tamang (Risiangku)	⁴kjat	⁴kjat	work	work		6.1.1	58	0		5827,8023
+48199	1466	Tamang (Taglung)	⁴keː	⁴keː	work	work		6.1.1	58	0		5827,8023
+48200	1529	Thakali (Tukche)	⁴ke	⁴ke	work	work		6.1.1	58	0		5827,8023
+48201	1523	Thakali (Marpha)	⁴kje	⁴kje	work	work		6.1.1	58	0		5827,8023
+48202	1525	Thakali (Syang)	⁴ke	⁴ke	work	work		6.1.1	58	0		5827,8023
+48203	603	Gurung (Ghachok)	⁴ke	⁴ke	work	work		6.1.1	58	0		5827,8023
+48204	1001	Manang (Ngawal)	⁴khje	⁴khje	work	work		6.1.1	58	0		5827,8023
+48205	1454	Tamang (Risiangku)	⁴kjam	⁴kjam	road	road		9.10.1	59	0		1017
+48206	1461	Tamang (Sahu)	⁴kjam	⁴kjam	road	road		9.10.1	59	0		1017
+48207	1466	Tamang (Taglung)	⁴kjam	⁴kjam	road	road		9.10.1	59	0		1017
+48208	1529	Thakali (Tukche)	⁴kjʌm	⁴kjʌm	road	road		9.10.1	59	0		1017
+48209	1523	Thakali (Marpha)	⁴kjʌm	⁴kjʌm	road	road		9.10.1	59	0		1017
+48210	1525	Thakali (Syang)	⁴kjʌm	⁴kjʌm	road	road		9.10.1	59	0		1017
+48211	603	Gurung (Ghachok)	⁴gãː	⁴gãː	road	road		9.10.1	59	0		1017
+48212	603	Gurung (Ghachok)	⁴gjãː	⁴gjãː	road	road		9.10.1	59	0		1017
+48213	1001	Manang (Ngawal)	⁴khjɛ̃	⁴khjɛ̃	road	road		9.10.1	59	0		1017
+48214	1529	Thakali (Tukche)	⁴ʈʌ	⁴ʈʌ	enemy	enemy		4.2.6	60	0		5531
+48215	1523	Thakali (Marpha)	⁴ʈʌ	⁴ʈʌ	enemy	enemy		4.2.6	60	0		5531
+48216	1525	Thakali (Syang)	ᴸʈa	ᴸʈa	enemy	enemy		4.2.6	60	0		5531
+48217	1001	Manang (Ngawal)	⁴hřʌ	⁴hřʌ	enemy	enemy		4.2.6	60	0		5531
+48218	1454	Tamang (Risiangku)	⁴ʈaː	⁴ʈaː	tumpline / carrying headband	tumpline / carrying headband		5.11.8.2.1.1	61	0	z	8025
+48219	1466	Tamang (Taglung)	⁴ʈaː	⁴ʈaː	tumpline / carrying headband	tumpline / carrying headband		5.11.8.2.1.1	61	0	z	8025
+48220	1529	Thakali (Tukche)	⁴ʈa	⁴ʈa	tumpline / carrying headband	tumpline / carrying headband		5.11.8.2.1.1	61	0	z	8025
+48221	1523	Thakali (Marpha)	⁴ʈa	⁴ʈa	tumpline / carrying headband	tumpline / carrying headband		5.11.8.2.1.1	61	0	z	8025
+48222	1525	Thakali (Syang)	⁴ɖa	⁴ɖa	tumpline / carrying headband	tumpline / carrying headband		5.11.8.2.1.1	61	0	z	8025
+48223	603	Gurung (Ghachok)	ᴸʈo	ᴸʈo	tumpline / carrying headband	tumpline / carrying headband		5.11.8.2.1.1	61	0	z	8025
+48224	1001	Manang (Ngawal)	⁴ʈha	⁴ʈha	tumpline / carrying headband	tumpline / carrying headband		5.11.8.2.1.1	61	0	z	8025
+48225	1454	Tamang (Risiangku)	⁴tim	⁴tim	house	house		5.11.9.1	62	0		1612
+48226	1461	Tamang (Sahu)	⁴tim	⁴tim	house	house		5.11.9.1	62	0		1612
+48227	1529	Thakali (Tukche)	⁴tim	⁴tim	house	house		5.11.9.1	62	0		1612
+48228	1523	Thakali (Marpha)	⁴tin	⁴tin	house	house		5.11.9.1	62	0		1612
+48229	1525	Thakali (Syang)	ᴸdim	ᴸdim	house	house		5.11.9.1	62	0		1612
+48230	603	Gurung (Ghachok)	⁴dĩ	⁴dĩ	house	house		5.11.9.1	62	0		1612
+48231	1001	Manang (Ngawal)	⁴thĩ	⁴thĩ	house	house		5.11.9.1	62	0		1612
+48232	1454	Tamang (Risiangku)	⁴paŋ	⁴paŋ	strength	strength		1.1.5	63	0		157
+48233	1461	Tamang (Sahu)	³paŋ◦cen	³paŋ◦cen	strength	strength		1.1.5	63	0		157,m
+48234	1529	Thakali (Tukche)	⁴paŋ	⁴paŋ	strength	strength		1.1.5	63	0		157
+48235	1523	Thakali (Marpha)	⁴paŋ	⁴paŋ	strength	strength		1.1.5	63	0		157
+48236	1525	Thakali (Syang)	⁴paŋ	⁴paŋ	strength	strength		1.1.5	63	0		157
+48237	603	Gurung (Ghachok)	⁴bõ	⁴bõ	strength	strength		1.1.5	63	0		157
+48238	1001	Manang (Ngawal)	⁴phaŋ	⁴phaŋ	strength	strength		1.1.5	63	0		157
+48239	1454	Tamang (Risiangku)	⁴tot	⁴tot	load	load		6.2.2.1	64	0		8027
+48240	1461	Tamang (Sahu)	⁴tot	⁴tot	load	load		6.2.2.1	64	0		8027
+48241	1466	Tamang (Taglung)	⁴toi	⁴toi	load	load		6.2.2.1	64	0		8027
+48242	1529	Thakali (Tukche)	⁴te	⁴te	load	load		6.2.2.1	64	0		8027
+48243	1523	Thakali (Marpha)	⁴te	⁴te	load	load		6.2.2.1	64	0		8027
+48244	1525	Thakali (Syang)	⁴tʌe	⁴tʌe	load	load		6.2.2.1	64	0		8027
+48245	603	Gurung (Ghachok)	⁴ti	⁴ti	load	load		6.2.2.1	64	0		8027
+48246	1454	Tamang (Risiangku)	⁴me	⁴me	cow	cow		2.1.2	65	0		8028
+48247	1461	Tamang (Sahu)	⁴me	⁴me	cow	cow		2.1.2	65	0		8028
+48248	1466	Tamang (Taglung)	⁴me	⁴me	cow	cow		2.1.2	65	0		8028
+48249	1529	Thakali (Tukche)	⁴me	⁴me	cow	cow		2.1.2	65	0		8028
+48250	1523	Thakali (Marpha)	⁴me	⁴me	cow	cow		2.1.2	65	0		8028
+48251	1525	Thakali (Syang)	⁴me	⁴me	cow	cow		2.1.2	65	0		8028
+48252	603	Gurung (Ghachok)	⁴me	⁴me	cow	cow		2.1.2	65	0		8028
+48253	1001	Manang (Ngawal)	⁴mie	⁴mie	cow	cow		2.1.2	65	0		8028
+48254	1454	Tamang (Risiangku)	⁴no	⁴no	garlic	garlic		3.1.5	66	0		8029
+48255	1461	Tamang (Sahu)	⁴noː	⁴noː	garlic	garlic		3.1.5	66	0		8029
+48256	1466	Tamang (Taglung)	⁴noː	⁴noː	garlic	garlic		3.1.5	66	0		8029
+48257	1529	Thakali (Tukche)	⁴no	⁴no	garlic	garlic		3.1.5	66	0		8029
+48258	1523	Thakali (Marpha)	⁴no	⁴no	garlic	garlic		3.1.5	66	0		8029
+48259	1525	Thakali (Syang)	⁴no	⁴no	garlic	garlic		3.1.5	66	0		8029
+48260	603	Gurung (Ghachok)	⁴nu	⁴nu	garlic	garlic		3.1.5	66	0		8029
+48261	603	Gurung (Ghachok)	³nu	³nu	garlic	garlic		3.1.5	66	0		8029
+48262	1001	Manang (Ngawal)	⁴no	⁴no	garlic	garlic		3.1.5	66	0		8029
+48263	1454	Tamang (Risiangku)	⁴joː	⁴joː	thief	thief		4.2.12.1	67	0		8030
+48264	1461	Tamang (Sahu)	⁴jo	⁴jo	thief	thief		4.2.12.1	67	0		8030
+48265	1466	Tamang (Taglung)	⁴jo	⁴jo	thief	thief		4.2.12.1	67	0		8030
+48266	1529	Thakali (Tukche)	⁴jo	⁴jo	thief	thief		4.2.12.1	67	0		8030
+48267	1523	Thakali (Marpha)	⁴jo	⁴jo	thief	thief		4.2.12.1	67	0		8030
+48268	1525	Thakali (Syang)	⁴jo	⁴jo	thief	thief		4.2.12.1	67	0		8030
+48269	603	Gurung (Ghachok)	⁴jo	⁴jo	thief	thief		4.2.12.1	67	0		8030
+48270	1001	Manang (Ngawal)	⁴jo	⁴jo	thief	thief		4.2.12.1	67	0		8030
+48271	1454	Tamang (Risiangku)	⁴mar	⁴mar	gold	gold		3.2.4	68	0		1470
+48272	1461	Tamang (Sahu)	⁴mar	⁴mar	gold	gold		3.2.4	68	0		1470
+48273	1466	Tamang (Taglung)	⁴mar	⁴mar	gold	gold		3.2.4	68	0		1470
+48274	1529	Thakali (Tukche)	⁴mʌr	⁴mʌr	gold	gold		3.2.4	68	0		1470
+48275	1523	Thakali (Marpha)	⁴mʌr	⁴mʌr	gold	gold		3.2.4	68	0		1470
+48276	1525	Thakali (Syang)	⁴mʌr	⁴mʌr	gold	gold		3.2.4	68	0		1470
+48277	603	Gurung (Ghachok)	⁴maːr◦a	⁴maːra	gold	gold		3.2.4	68	0		1470
+48278	1001	Manang (Ngawal)	⁴mɤr	⁴mɤr	gold	gold		3.2.4	68	0		1470
+48279	171	*TGTM	ᴬpho	pho¹	deer	deer		2.2.2	1	0		8000
+48280	171	*TGTM	ᴬtiŋ	tiŋ¹	heart	heart		1.7.1	2	0		1387
+48281	171	*TGTM	ᴬtʃhi	tʃhi¹	fodder	fodder		3.1.6.4	3	0		8001
+48282	171	*TGTM	ᴬtsaŋ	tsaŋ¹	daughter-in-law	daughter-in-law		4.7.4	4	0		8002
+48283	171	*TGTM	ᴬkan	kan¹	food (cooked rice)	food (cooked rice)		5.5	5	0		8003
+48284	171	*TGTM	ᴬku	ku¹	chest	chest		1.4.4.3	6	0		560
+48285	171	*TGTM	ᴬkli	kli¹	feces	feces		1.8.5	7	0		572
+48286	171	*TGTM	ᴬkra / ᴮkra	kra¹,²	hair / head	hair  /  head		1.2.3	8	0		367
+48287	171	*TGTM	ᴬkru	kru¹	cubit	cubit		1.5.9.3	9	0		307
+48288	171	*TGTM	ᴬkre(t)	kre(t)¹	waist	waist		1.4.6	10	0		217
+48289	171	*TGTM	ᴬpraŋ	praŋ¹	ropeway, stretcher	ropeway		5.1	11	0		6262
+48290	171	*TGTM	ᴬʰna	nʰa¹	nose	nose		1.2.8	12	0		803
+48291	171	*TGTM	ᴬʰjaː	jʰaː¹	hand	hand		1.5.1.1	13	0		696
+48292	171	*TGTM	ᴬʰmje	mʰje¹	fire	fire		3.2.12.2	14	0		2136
+48293	171	*TGTM	ᴬʰmeː	mʰeː¹	tail	tail		1.4.10.1	15	0		1288
+48294	171	*TGTM	ᴬʰra	rʰa¹	goat	goat		2.1.8	16	0		6031
+48295	171	*TGTM	ᴬ(h)ʰlaŋ	(h)lʰaŋ¹	steam	steam		6.6	17	0		5806,5806
+48296	171	*TGTM	ᴬʰlu	lʰu¹	snake-god	snake-god		5.8.1.1	18	0		8004
+48297	171	*TGTM	ᴮpho	pho¹	belly	belly		1.4.7	19	0		2103
+48298	171	*TGTM	ᴮta	ta²	horse	horse		2.1.7	20	0		5
+48299	171	*TGTM	ᴮtaŋ	taŋ²	dish, plate	dishes		5.5	21	0		8005
+48300	171	*TGTM	ᴮtoː / ᴮtwo	toː² / two²	hoe	hoe	n	5.3	22	0		3573
+48301	171	*TGTM	ᴮtrup	trup²	thread (sewing)	thread (sewing)		5.11.6	23	0		8006
+48302	171	*TGTM	ᴮtsjui	tsjui²	ten	ten		9.9	24	0		2748
+48303	171	*TGTM	ᴮkam	kam²	chin	chin		1.2.5.3	25	0		630
+48304	171	*TGTM	ᴮkhuŋ	khuŋ²	hole	hole		3.2.7	26	0		820
+48305	171	*TGTM	ᴮkjui	kjui²	water	water		3.2.3	27	0		1631
+48306	171	*TGTM	ᴮku(ː)	ku(ː)²	nine	nine		9.9	28	0		2364
+48307	171	*TGTM	ᴮkat	kat²	voice	voice		8.5.5	29	0		8007
+48308	171	*TGTM	ᴮ(?)t(h)et	(?) t(h)et²	siblings	siblings		4.7.2	30	0		8008
+48309	171	*TGTM	ᴮ(?)t(h)au	(?) t(h)au²	saliva	saliva		1.8.3	31	0		603
+48310	171	*TGTM	ᴮʰmiː(ŋ)	mʰiː(ŋ)²	eye	eye		1.2.6	32	0		682
+48311	171	*TGTM	ᴮʰŋwa	ŋʰwa²	fontanel	fontanel		1.2.1.3	33	0		1197
+48312	171	*TGTM	ᴮʰŋwa / ᴮʰŋwã	ŋʰwa² / ŋʰwã²	trap/bird-trap	bird-trap		2.2.4	34	0		3556
+48313	171	*TGTM	ᴮʰle(ː)	lʰe(ː)²	tongue	tongue		1.3.3	35	0		621
+48314	171	*TGTM	ᴮʰliː	lʰiː²	face	face		1.2.5	36	0		1184
+48315	171	*TGTM	ᴮʃjat	ʃjat²	louse	louse		2.2.6	37	0		8009
+48316	171	*TGTM	ᴬbe	be³	wife	wife		4.7.4	38	0		8010
+48317	171	*TGTM	ᴬbaː	baː³	leaf	leaf		3.1.3	39	0		8011
+48318	171	*TGTM	ᴬbap	bap³	beer-mash	beer-mash		3.1.6	40	0		8012
+48319	171	*TGTM	ᴬbraŋ	braŋ³	cowshed	cowshed		9.10.4	41	0		8013
+48320	171	*TGTM	ᴬɖi  / (ᴬɖwi)	ɖi³ / (ɖwi)|	skin	skin		1.6.5	42	0		596
+48321	171	*TGTM	ᴬdzaŋ	dzaŋ³	nest	nest		2.2.4	43	0		1615
+48322	171	*TGTM	ᴬdzo	dzo³	point	point		6.2.2.2	44	0		8014
+48323	171	*TGTM	ᴬgap	gap³	lid	lid		5.1	45	0		1233
+48324	171	*TGTM	ᴬgo	go³	back	back		1.4.8	46	0		211
+48325	171	*TGTM	ᴬgaŋ	gaŋ³	hill	hill		3.2.5	47	0		3581
+48326	171	*TGTM	ᴬgruŋ	gruŋ³	intestines	intestines		1.7.7	48	0		2116
+48327	171	*TGTM	ᴬmi	mi³	man	man		1.9.6.1	49	0		1002
+48328	171	*TGTM	ᴬŋo	ŋo³	forehead	forehead		1.2.5.1	50	0		356
+48329	171	*TGTM	ᴬro(ː)	ro(ː)³	friend	friend		4.4.2	51	0		8016
+48330	171	*TGTM	ᴮgrik	grik⁴	one	one		9.9	52	0		2726
+48331	171	*TGTM	ᴮgrwa/ᴬgrwa	grwa³,⁴	wheat	wheat		3.1.4	53	0		8018
+48332	171	*TGTM	ᴮgrwat	grwat⁴	eagle	eagle		2.2.4.1	54	0		8019
+48334	171	*TGTM	ᴮglwap/ᴬglwap	glwap³,⁴	lungs	lungs		1.7.2	55	0		2121
+48335	171	*TGTM	ᴮglaː/ᴬglaː	klaː⁴	place	place		9.10.5	56	0		8021
+48336	171	*TGTM	ᴮgliŋ	gliŋ⁴	snow	snow		3.2.1	57	0		8022
+48337	171	*TGTM	ᴮgjat	gjat⁴	work	work		6.1.1	58	0		5827,8023
+48338	171	*TGTM	ᴮgjam	gjam⁴	road	road		9.10.1	59	0		1017
+48339	171	*TGTM	ᴮgra	gra⁴	enemy	enemy		4.2.6	60	0		5531
+48340	171	*TGTM	ᴮɖaː	ɖaː⁴	tumpline / carrying headband	tumpline / carrying headband		5.11.8.2.1.1	61	0	z	8025
+48341	171	*TGTM	ᴮdim	dim⁴	house	house		5.11.9.1	62	0		1612
+48342	171	*TGTM	ᴮbaŋ	baŋ⁴	strength	strength		1.1.5	63	0		157
+48343	171	*TGTM	ᴮdot	dot⁴	load	load		6.2.2.1	64	0		8027
+48344	171	*TGTM	ᴮme	me⁴	cow	cow		2.1.2	65	0		8028
+48345	171	*TGTM	ᴮnoː	noː⁴	garlic	garlic		3.1.5	66	0		8029
+48346	171	*TGTM	ᴮjo	jo⁴	thief	thief		4.2.12.1	67	0		8030
+48347	171	*TGTM	ᴮmar	mar⁴	gold	gold		3.2.4	68	0		1470

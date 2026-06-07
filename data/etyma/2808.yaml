@@ -1,0 +1,22 @@
+tag: 2808
+grpid: 2
+proto_language: PTB
+protoform: zril
+gloss: WORM
+semkey: 2.2.6
+sequence: 62.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 78, 79, 188, 388, 410, 412, 425; STC p.15
+phonology:
+  handle: zril
+  initial: zr
+  rhyme: il
+  initcover: S
+  rhymecover: L
+notes:
+- type: F
+  text: '<par><hanform>蟺</hanform> OC <latinform>*d̂i̯ɑn</latinform>, GSR #148p; Mand. <latinform>shān</latinform>;
+    <br /><hanform>螾</hanform> OC <latinform>*di̯ən</latinform>, GSR #450j; B &amp; S 2011: <latinform>*m-qərʔ
+    {[m-q](r)ə[r]ʔ}</latinform>; Mand. <latinform>yīn</latinform>; <br /><hanform>蚓</hanform> OC <latinform>*di̯ĕn</latinform>,
+    GSR #371c; B &amp; S 2011: <latinform>*m-qərʔ {[m-q](r)ə[r]ʔ}</latinform>; Mand. <latinform>yīn</latinform>.</par>'

@@ -1,0 +1,27 @@
+tag: 4759
+grpid: 2
+proto_language: PTB
+protoform: man
+gloss: COST / PRICE
+semkey: '5.9'
+sequence: 1486.0
+status: KEEP
+public: false
+references: 'cf. PKC #759'
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: man
+  gloss: COST / PRICE
+- grpid: 66
+  group: 1.3.4
+  form: man
+  gloss: PRICE
+- grpid: 63
+  group: 1.3.1
+  form: a-maːn
+  gloss: PRICE, COST, VALUE
+notes:
+- type: T
+  text: <par>This root so far seems to be confined to the NE Indian areal group. There is in fact a resemblant
+    IA root <emph>mola-</emph> of the same meaning.</par>

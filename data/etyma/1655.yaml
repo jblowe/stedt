@@ -1,0 +1,28 @@
+tag: 1655
+grpid: 2
+proto_language: PTB
+protoform: g/b-syaŋ
+gloss: SHIT / FILTH / EXCREMENT / RUST / BLIGHT
+semkey: 1.8.5
+sequence: 6.0
+status: KEEP
+public: true
+possallo: '2151'
+references: incl 1802; cf. HPTB p.36
+phonology:
+  handle: g/b-š
+  prefix: g/b
+  initial: sy
+  rhyme: aŋ
+  initcover: S
+  rhymecover: N
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: z(y)aŋ²
+  gloss: EXCREMENT / RUST / BLIGHT
+notes:
+- type: T
+  text: <par>This etymon bears a resemblance to <xref ref="5442">#5442</xref>, so that it is difficult
+    to assign reflexes in eroded subgroups like Loloish to one or the other. Further microlinguistic work
+    is necessary.</par>

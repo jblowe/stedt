@@ -1,0 +1,23 @@
+tag: 3493
+grpid: 45
+proto_language: PL
+protoform: ʔ-bik
+gloss: SQUIRT / EJACULATE
+semkey: '6.6'
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: bik
+  initial: b
+  rhyme: ik
+  initcover: P
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This is only one of a large number of verbs than can be used to mean EJACULATE.<footnote>Another
+    such verb is <reconstruction>*m-tis</reconstruction> &apos;be wet&apos;. See below, <xref ref="298">#298</xref>.</footnote>
+    This particular root has so far been identified only in a couple of Loloish languages. In Ahi it means
+    specifically &apos;eject semen&apos;, while the Lahu cognate is used to mean &apos;squirt urine&apos;.
+    Although this etymon had a *stopped final in Proto-Loloish (as indicated by the Ahi constriction and
+    the Lahu high-rising tone), it was not reconstructed in Matisoff 1972a.</par>

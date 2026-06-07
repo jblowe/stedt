@@ -1,0 +1,26 @@
+tag: 3420
+grpid: 2
+proto_language: PTB
+protoform: k-tu-k
+gloss: PENIS
+sequence: 116.1
+status: KEEP
+public: true
+references: cf. 661 *s-tu VAGINA; 641?
+phonology:
+  handle: tu
+  initial: t
+  rhyme: u-k
+  initcover: T
+  rhymecover: VT
+notes:
+- type: T
+  text: '<par>This root, which has allofams both with and without a final velar stop, is found in several
+    different subgroups of TB: NE Indian Areal Group, Himalayish, Asakian, Qiangic (including Xixia),
+    and Baic. It has so far not been discovered in Lolo-Burmese or Karenic.</par><par>This root resembles
+    <xref ref="3423">#3423</xref>. The possibility that these two etyma might be one and the same is reinforced
+    by the natural tendency of /<latinform>t</latinform>/ to become affricated before /<latinform>u</latinform>/,
+    as witnessed by Japanese, where /<latinform>tu</latinform>/ is realized as [tsɯ].</par><par>This etymon
+    also bears a perhaps accidental resemblance to <xref ref="661">#661</xref>.</par><par>An apparently
+    prefixal <latinform>k-</latinform> is attested in Kham and Spiti. Cf. also the Tangut binome <latinform>khǐu̱
+    thu</latinform>.</par>'

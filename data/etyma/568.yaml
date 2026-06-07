@@ -1,0 +1,26 @@
+tag: 568
+grpid: 2
+proto_language: PTB
+protoform: p(r)ak ⪤ r-pak
+gloss: SHOULDER
+semkey: 1.4.3
+sequence: 4.0
+status: KEEP
+public: false
+exemplary: true
+possallo: '567'
+references: KEEP 6/2012
+phonology:
+  handle: prak
+  initial: p(r)
+  rhyme: ak ⪤ r-p
+  initcover: P
+  rhymecover: VLT
+notes:
+- type: F
+  text: '<par><hanform>胉</hanform> OC <latinform>*pɑ̂k</latinform>, GSR #782m-n &apos;shoulder blade&apos;;
+    Schuessler 2007:170 <latinform>*prâk</latinform>; B &amp; S 2011: <latinform>*pʰˁak</latinform>; Mand.
+    <latinform>bó</latinform>.<br /><hanform>膊</hanform> OC <latinform>*p’ɑ̂k</latinform>, GSR #771l &apos;dismember;
+    shoulder blade&apos;; Schuessler 2007:170 <latinform>*phâk</latinform>; B &amp; S 2011: <latinform>*pʰˁak</latinform>;
+    Mand. <latinform>pò</latinform>.<br /><hanform>膊</hanform> OC (<latinform>*bɑ̂k</latinform>), GSR
+    #771l &apos;shoulder blade&apos;; Schuessler 2007:170 <latinform>*pâk</latinform>; Mand. <latinform>bó</latinform>.</par>'

@@ -1,0 +1,37 @@
+tag: 2393
+grpid: 2
+proto_language: PTB
+protoform: g-la(ŋ/k)
+gloss: FALCON, VULTURE, EAGLE, KITE, HAWK, BIRD OF PREY
+semkey: 2.2.4.1
+sequence: 1838.0
+status: KEEP
+public: true
+references: cf. STC#333, HPTB pp.23, 75, 263, 393, 521
+phonology:
+  handle: laŋ
+  initial: l
+  rhyme: aŋ
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: laaŋ
+  gloss: RAPTOR
+- grpid: 50
+  group: '7'
+  form: hlaŋᴬ/ᴮ k-daɁᴰ
+  gloss: VULTURE
+notes:
+- type: T
+  text: <par>This root seems certainly to be an old loanword from Mon-Khmer. For details, see <plainlatinform>STC
+    p. 72, n. 225</plainlatinform>. It has also been borrowed into Chinese and Hmong-Mien. See <plainlatinform>HPTB
+    p. 263</plainlatinform>.</par><par>Both Karenic and Jingpho have binomes of the form <latinform>laŋ
+    + da</latinform>, the latter element of obscure origin.</par>
+- type: F
+  text: '<par><hanform>鷹</hanform> OC <latinform>*ʔi̯əng</latinform>, GSR #890a-c &apos;eagle, falcon&apos;;
+    Coblin 86:76 <latinform>*lang</latinform>; Schuessler 2007:574 <latinform>*ʔəŋ</latinform>; B &amp;
+    S 2011: <latinform>*qəŋ {[q](r)əŋ}</latinform>; Mand. <latinform>yīng</latinform>.</par><par>There
+    is an apparent Chinese doublet with stopped final: OC <latinform>*di̯ək</latinform> ~ <latinform>*i̯ək</latinform>
+    &apos;hawk, kite&apos; (see <plainlatinform>STC</plainlatinform> n. 225, p. 72). Cf. also <xref ref="7343">#7343</xref>.</par>'

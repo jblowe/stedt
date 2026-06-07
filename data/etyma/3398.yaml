@@ -1,0 +1,20 @@
+tag: 3398
+grpid: 2
+proto_language: PTB
+protoform: ki
+gloss: CHEST
+semkey: 1.4.4.3
+sequence: 21.0
+status: KEEP
+public: true
+references: '("KMR") '
+phonology:
+  handle: ki
+  initial: k
+  rhyme: i
+  initcover: K
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This weakly attested root, with attestation only in Loloish and a couple of languages of
+    Northeast India, requires further review.</par>

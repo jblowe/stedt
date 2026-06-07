@@ -1,0 +1,20 @@
+tag: 626
+grpid: 2
+proto_language: PTB
+protoform: lik
+gloss: FEAR
+semkey: 8.3.1.10.1
+sequence: 1861.0
+status: KEEP
+public: true
+references: cf. STC p.175, HPTB p.527
+notes:
+- type: F
+  text: '<par><hanform>慄</hanform> OC <latinform>*li̯ĕt</latinform>, GSR #403d &apos;fear; tremble&apos;;
+    Coblin 1986 #77: <latinform>*ljit</latinform>; Mand. <latinform>lì</latinform>.</par>'
+- type: T
+  text: <par>In the original version of STC (p.175), Benedict compared Chinese <hanform>慄</hanform> &apos;afraid&apos;
+    (Mand. <latinform>lì</latinform>) to WT <latinform>źed-pa</latinform> &apos;fear, be afraid&apos;
+    (from Pre-Tibetan <reconstruction>*ryed</reconstruction>), but in note 466 (p.175) he proposed WT
+    <latinform>ḥdźigs-pa</latinform> as a &quot;better comparison&quot;, assuming a shift of Old Chinese
+    <reconstruction>*-k</reconstruction> to <reconstruction>*-t</reconstruction> after <reconstruction>*-i-</reconstruction>.</par>

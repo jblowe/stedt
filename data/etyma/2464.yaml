@@ -1,0 +1,17 @@
+tag: 2464
+grpid: 5
+proto_language: PTani
+protoform: muːk
+gloss: WEEDS
+semkey: 3.1.7
+sequence: 3477.0
+status: DELETE
+public: true
+xrefs: '2460'
+references: cf. HPTB p.360; cf. STC#363, HPTB pp.359, 513
+phonology:
+  handle: muːk
+  initial: m
+  rhyme: uːk
+  initcover: M
+  rhymecover: T

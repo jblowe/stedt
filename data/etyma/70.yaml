@@ -1,0 +1,33 @@
+tag: 70
+grpid: 2
+proto_language: PTB
+protoform: braŋ
+gloss: BORN / BIRTH
+semkey: 1.1.2
+sequence: 21.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#135, HPTB p.264
+phonology:
+  handle: braŋ
+  initial: br
+  rhyme: aŋ
+  initcover: P
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: piaŋ-I, pian-II
+  gloss: BORN (be)
+notes:
+- type: T
+  text: '<par>This well-attested root occurs in the NE Indian Areal Group, Himalayish, and Lolo-Burmese,
+    and probably in Karenic and Qiangic as well. It is reconstructed in STC #135, which only lists the
+    WT and Lushai (Mizo) forms. The Jingpho forms <latinform>pràt</latinform>, <latinform>šəpràt</latinform>
+    &apos;bear, give birth&apos; do not belong in this set, since <latinform>-ŋ ⪤ -t</latinform> is not
+    an established pattern of variation in TB word-families.<footnote>As a longshot, we might relate these
+    Jingpho forms to <xref ref="1787">#1787</xref>, below.</footnote></par>'
+- type: T
+  text: <par>The Himalayish forms with high vowels (Tamangic <latinform>-u/-i</latinform>, Pattani <latinform>-i</latinform>)
+    are tentatively assigned to this etymon.</par>

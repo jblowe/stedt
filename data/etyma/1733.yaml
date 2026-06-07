@@ -1,0 +1,46 @@
+tag: 1733
+grpid: 2
+proto_language: PTB
+protoform: r/m-bu ⪤ pru
+gloss: NEST / WOMB / PLACENTA
+sequence: 102.0
+status: KEEP
+public: true
+references: not related to 1633 *bu 'child'; some forms mentioned in STC p. 102
+phonology:
+  handle: bu
+  prefix: r
+  initial: b
+  rhyme: u
+  initcover: P
+  rhymecover: V
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ɓuu
+  gloss: NEST / DEN
+notes:
+- type: T
+  text: '<par>This etymon is quite widely distributed, appearing in the NE Indian Areal Group, Lolo-Burmese,
+    Jingpho, Nungic, Qiangic, and Karenic, with a key Himalayish cognate in Written Tibetan.</par><par>There
+    is a good Chinese comparandum, <hanform>胞</hanform> GSR #1113b (see below).</par><par>The root shows
+    metathetic variants, with the <reconstruction>*r-</reconstruction> treated either as a prefix (<reconstruction>*r-bu</reconstruction>;
+    cf. the Aimol, Kom Rem, and Moyon reflexes) or as a post-initial glide (<reconstruction>*pru</reconstruction>;
+    cf. the WT reflex). This is similar to <xref ref="1632">#1632</xref>, below. It also shows variation
+    in the voicing of the initial consonant, both in TB and in Chinese (GSR gives two OC readings, <reconstruction>*pộg</reconstruction>
+    and <reconstruction>*p&apos;ộg</reconstruction>).</par><par>In passing, STC (p. 102) gives a few forms
+    meaning NEST from Kuki-Chin languages, without offering any reconstruction. See also <xref ref="1633">#1633</xref>,
+    quite distinct from the present etymon.</par>'
+- type: F
+  text: '<par><hanform>胞</hanform> OC <latinform>*pộg</latinform>, GSR #1113b ‘womb’; Li 1971: <reconstruction>*prəgw</reconstruction>;
+    Baxter 1992: <reconstruction>*pru</reconstruction>; Mand. <latinform>bāo</latinform>.</par><par>This
+    cognate set is in Bodman 1980:142 #310, Coblin 1986:161, Gong 1995 #61, and Schuessler 2007:157.</par><par>The
+    regular correspondence between OC final <latinform>*-əgw</latinform> (Li), <latinform>*-u</latinform>
+    (Baxter) and TB <latinform>*-əw</latinform> (or <reconstruction>*-u</reconstruction>) is well-attested.
+    Examples include:</par><par><hanform>九</hanform> ‘nine’ TB <reconstruction>*d-kəw</reconstruction>;
+    OC <latinform>*kjəgw</latinform> (Li) / <latinform>*kʷjuʔ</latinform> (Baxter)<br /><hanform>鳩</hanform>
+    ‘dove/pigeon’ TB <reconstruction>*khəw</reconstruction>, OC <reconstruction>*kjəgw</reconstruction>
+    (Li) / <latinform>*k(r)ju</latinform> (Baxter); Mand <latinform>jiū</latinform></par><par>also, <xref
+    ref="1654">#1654</xref> (elsewhere in this volume).</par><par>The TB final also corresponds to OC
+    <reconstruction>*-ug</reconstruction> (Li) / <reconstruction>*-o</reconstruction> (Baxter), as seen
+    in <xref ref="253">#253</xref>.<br />[ZJH]</par>'

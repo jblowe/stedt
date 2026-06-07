@@ -1,0 +1,49 @@
+tag: 2411
+grpid: 2
+proto_language: PTB
+protoform: d/s-ləy
+gloss: BOW (weapon) / SLINGSHOT
+semkey: '5.15'
+sequence: 6.0
+status: KEEP
+public: true
+references: cf. STC#463, HPTB
+phonology:
+  handle: liy
+  prefix: d/s
+  initial: l
+  rhyme: əy
+  initcover: L
+  rhymecover: VLW
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: lii
+  gloss: BOW / SPRING
+- grpid: 5
+  group: 1.1.1
+  form: rji
+  gloss: BOW (WEAPON)
+- grpid: 63
+  group: 1.3.1
+  form: li-tʃak
+  gloss: BOW / SLINGSHOT
+- grpid: 12
+  group: 1.7.2
+  form: laᴮ
+  gloss: BOW
+- grpid: 50
+  group: '7'
+  form: khli
+  gloss: BOW (weapon)
+- grpid: 50
+  group: '7'
+  form: klejᴮ
+  gloss: CROSSBOW
+notes:
+- type: F
+  text: '<par><hanform>矢</hanform> OC <latinform>*śi̯ər</latinform>, GSR #560a &apos;arrow&apos;; B &amp;
+    S 2011: <latinform>*l̥ijʔ {l̥i[j]ʔ}</latinform>; Mand. <latinform>shǐ</latinform>.</par>'
+- type: T
+  text: <par>Although this etymon always means BOW in TB, the putative Chinese cognate means ARROW, a
+    nice example of metonymy.</par>

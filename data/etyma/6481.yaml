@@ -1,0 +1,17 @@
+tag: 6481
+grpid: 2
+proto_language: PTB
+protoform: kyit
+gloss: BURN / SCORCH
+semkey: 3.2.12.1
+sequence: 11.0
+status: KEEP
+public: true
+references: HPTB p.349
+phonology:
+  initial: ky
+  rhyme: it
+notes:
+- type: T
+  text: <par>This etymon strongly resembles <xref ref="56">#56</xref>. The Lahu form could descend from
+    either prototype.</par>

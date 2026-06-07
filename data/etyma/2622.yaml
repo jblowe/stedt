@@ -1,0 +1,29 @@
+tag: 2622
+grpid: 8
+proto_language: PKC
+protoform: m-ruːk
+gloss: STEAL
+semkey: 6.2.2.1
+sequence: 8.0
+status: KEEP
+public: true
+xrefs: '2365'
+references: cf. STC p.144, HPTB p. 80
+phonology:
+  handle: ruːk
+  prefix: m
+  initial: r
+  rhyme: uːk
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ruu-I, ruuk-II
+  gloss: STEAL
+notes:
+- type: T
+  text: <par>Unlike the most widespread root for this concept, <xref ref="2365">#2365</xref>, the present
+    etymon seems to be confined to Kuki-Chin.</par><par>The putative Karenic cognates cited in STC p.144
+    now seem to belong rather with <xref ref="2365">#2365</xref>, in view of Luangthongkhum&apos;s recent
+    Proto-Karen reconstruction <reconstruction>*howᴮ</reconstruction>.</par>

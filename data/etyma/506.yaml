@@ -1,0 +1,20 @@
+tag: 506
+grpid: 2
+proto_language: PTB
+protoform: s-dyar
+gloss: CLAW
+semkey: 1.5.10.4
+sequence: 2.0
+status: KEEP
+public: true
+phonology:
+  handle: der
+  prefix: s
+  initial: d
+  rhyme: er
+  initcover: T
+  rhymecover: L
+notes:
+- type: T
+  text: <par>The forms cited from Qiangic, rGyalrongic, and Nungic look like loans from Tibetan, especially
+    since most of them closely resemble the Tibetan binome with the <latinform>-mo</latinform> suffix.</par>

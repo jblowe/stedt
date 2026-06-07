@@ -1,0 +1,17 @@
+tag: 2737
+grpid: 2
+proto_language: PTB
+protoform: tsiy = (r-)tsəy
+gloss: JUICE; PAINT; DRUGS
+semkey: 3.1.6.3
+sequence: 2232.0
+status: DELETE
+public: true
+xrefs: '5427'
+references: 'Duplicate with #5472? STC#065; STC DONE'
+phonology:
+  handle: tsiy
+  initial: ts
+  rhyme: iy=(r-)t
+  initcover: TS
+  rhymecover: VLWT

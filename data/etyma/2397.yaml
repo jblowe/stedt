@@ -1,0 +1,21 @@
+tag: 2397
+grpid: 2
+proto_language: PTB
+protoform: s-lay ⪤ ley
+gloss: PASS / EXCEED
+semkey: 6.7.10
+sequence: 2601.0
+status: KEEP
+public: true
+references: cf. STC#301, HPTB pp. 208, 216, 511
+phonology:
+  handle: lay
+  initial: l
+  rhyme: ay
+  initcover: L
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: lay ⪤ hlay
+  gloss: EXCEED / SURPLUS

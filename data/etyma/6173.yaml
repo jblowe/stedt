@@ -1,0 +1,18 @@
+tag: 6173
+grpid: 2
+proto_language: PTB
+protoform: s-r-way
+gloss: LEAD (v.) / TEND / WATCH / GUARD
+semkey: 6.2.2.1
+sequence: 17.0
+status: KEEP
+public: true
+references: cf. HPTB p.209
+mesoroots:
+- grpid: 70
+  group: 1.2.2
+  form: hruay
+  gloss: LEAD / GUIDE
+notes:
+- type: T
+  text: <par>This etymon is perhaps allofamic with <xref ref="2783">#2783</xref>.</par>

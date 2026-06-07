@@ -1,0 +1,23 @@
+tag: 585
+grpid: 2
+proto_language: PTB
+protoform: s-graw
+gloss: SKIN / OUTER COVERING
+semkey: 1.6.5
+sequence: 5.0
+status: KEEP
+public: true
+exemplary: true
+references: STC#121
+phonology:
+  handle: g-raw
+  prefix: s-g
+  initial: g-r
+  rhyme: aw
+  initcover: K
+  rhymecover: W
+notes:
+- type: T
+  text: '<par>See STC #121. (This root was inadvertently omitted from HPTB.)</par><par>STC #121 assigns
+    the first syllable of WT <latinform>gro-ga</latinform> &apos;thin bark of birch tree&apos; to this
+    etymon, but Gong (2001:28) considers it rather to reflect <xref ref="314">#314</xref>.</par>'

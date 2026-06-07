@@ -1,0 +1,14 @@
+tag: 5601
+grpid: 2
+proto_language: PTB
+protoform: nyey
+gloss: YOUNGER SIBLING
+sequence: 3579.0
+status: KEEP
+public: true
+references: cf. HPTB p. 206
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-ñey¹
+  gloss: SIBLING (YOUNGER)

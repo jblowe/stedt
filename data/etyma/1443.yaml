@@ -1,0 +1,20 @@
+tag: 1443
+grpid: 2
+proto_language: PTB
+protoform: s-n(u/a)m
+gloss: FAT
+semkey: 1.6.4
+sequence: 7.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: nam
+  initial: n
+  rhyme: am
+  initcover: M
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root seems to show vowel gradation. For a similar pattern of variation, see <xref ref="1417">#1417</xref>
+    and <xref ref="1447">#1447</xref>.</par>

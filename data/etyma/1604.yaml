@@ -1,0 +1,40 @@
+tag: 1604
+grpid: 2
+proto_language: PTB
+protoform: daw
+gloss: BIRD
+semkey: 2.2.4
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC p.149, HPTB pp.226, 227
+phonology:
+  handle: daw
+  initial: d
+  rhyme: aw/ow
+  initcover: T
+  rhymecover: W
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: ta
+  gloss: BIRD
+- grpid: 50
+  group: '7'
+  form: thoᴮ
+  gloss: BIRD
+notes:
+- type: F
+  text: '<par><hanform>鳥</hanform> OC <latinform>*tiôg</latinform>, GSR #1116a &apos;bird&apos;; Schuessler
+    2007:401 <latinform>*tiûʔ</latinform>; Mand. <latinform>niǎo</latinform>.<br /><hanform>雕</hanform>/<hanform>鵰</hanform>
+    OC <latinform>*tiôg</latinform>, GSR #1083t-u &apos;eagle&apos;; B &amp; S 2011: <latinform>*tˁiw</latinform>;
+    Mand. <latinform>diāo</latinform>.</par><par>The irregular initial <latinform>n-</latinform> in the
+    Mandarin pronunciation <latinform>niǎo</latinform> for the word <hanform>鳥</hanform> BIRD (Karlgren
+    called it &quot;quite a riddle,&quot; <plainlatinform>GSR #1116a</plainlatinform>) is usually attributed
+    to pernicious homophony with a dental stop initial word meaning PENIS.</par>'
+- type: T
+  text: <par><plainlatinform>STC p.192</plainlatinform> expressed uncertainty about the rhyme of this
+    etymon, saying it was either <latinform>*-aw</latinform> or <latinform>*-ow</latinform>. STC and HPTB
+    p. 227 wrongly assumed that this root was confined to Bodo-Garo.</par><par>STC <emph>loc. cit.</emph>
+    suggested an association with Proto-Kuki-Chin <latinform>*m-tsow</latinform> FLY (n.).</par>

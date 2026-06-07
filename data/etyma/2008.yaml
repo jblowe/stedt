@@ -1,0 +1,18 @@
+tag: 2008
+grpid: 2
+proto_language: PTB
+protoform: rwa-t
+gloss: HORN
+semkey: 1.2.2
+sequence: 1.0
+status: DELETE
+public: false
+xrefs: '814'
+references: STC p.113
+phonology:
+  handle: rwa
+  initial: rw
+  rhyme: a-t
+  suffix: t
+  initcover: L
+  rhymecover: VT

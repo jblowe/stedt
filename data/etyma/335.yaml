@@ -1,0 +1,22 @@
+tag: 335
+grpid: 2
+proto_language: PTB
+protoform: krəy
+gloss: FOOT
+semkey: 1.5.2
+sequence: 3.0
+status: KEEP
+public: true
+exemplary: true
+possallo: '342'
+references: cf. STC#038, HPTB
+phonology:
+  handle: kriy
+  initial: kr
+  rhyme: iy
+  initcover: K
+  rhymecover: W
+notes:
+- type: T
+  text: <par>Thulung <latinform>khel</latinform> might be a reflex of this root, especially if one assumes
+    that the <latinform>-l</latinform> is a reduced version of a full morpheme.</par>

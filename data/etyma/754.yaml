@@ -1,0 +1,37 @@
+tag: 754
+grpid: 2
+proto_language: PTB
+protoform: pum
+gloss: ARM / SHOULDER
+semkey: 1.5.1.2
+sequence: 12.0
+status: KEEP
+public: true
+possallo: '567'
+references: ↭ 567 ; cf. *sbom 'swell'
+phonology:
+  handle: po/um
+  initial: p
+  rhyme: o/um
+  initcover: P
+  rhymecover: N
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: pum¹
+  gloss: SHOULDER
+notes:
+- type: T
+  text: '<par>This etymon looks rather similar to <latinform>*s-bwam</latinform> PLUMP / SWOLLEN [STC
+    #172] as well as to <xref ref="1317">#1317</xref> [STC #30], since the bicep of the arm is protuberant
+    like the calf of the leg. Cf. Mizo <latinform>puam</latinform> &apos;swell&apos;, <latinform>pan-puam</latinform>
+    &apos;muscle of upper arm&apos;.</par><par>Both Meithei and Lui show assimilation of the final consonants
+    of the first syllable (&lt; <xref ref="745">#745 </xref>) to the initial of the second. The Liangmei
+    form seems to show radical reduction of the first syllable to syllabic <latinform>m</latinform>, implying
+    a two-stage development: assimilation to the initial of the second syllable, followed by reduction
+    and prefixization of the first syllable.</par>'
+- type: T
+  text: <par>The Lahu rhyme <latinform>-ɛ</latinform> is often from PL <reconstruction>*-um</reconstruction>.</par><par>The
+    putative Bisu and Phunoi reflexes of this weakly attested root show initial <latinform>h-</latinform>
+    rather than a labial stop. If these are indeed valid reflexes, they would point to a development reminiscent
+    of Old Japanese <reconstruction>*p-</reconstruction> going to Modern Japanese <latinform>h-</latinform>.</par>

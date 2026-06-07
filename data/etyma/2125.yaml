@@ -1,0 +1,23 @@
+tag: 2125
+grpid: 2
+proto_language: PTB
+protoform: kri
+gloss: STOMACH
+semkey: 1.7.6
+sequence: 4.0
+status: KEEP
+public: true
+exemplary: true
+possallo: '3032'
+references: incl 261
+phonology:
+  handle: kri
+  initial: kr
+  rhyme: i
+  initcover: K
+  rhymecover: V
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: kri
+  gloss: INTESTINES / BELLY

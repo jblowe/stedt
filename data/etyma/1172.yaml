@@ -1,0 +1,29 @@
+tag: 1172
+grpid: 2
+proto_language: PTB
+protoform: s-row
+gloss: EGG / NIT
+sequence: 20.0
+status: KEEP
+public: true
+references: STC#278
+phonology:
+  handle: row
+  prefix: s
+  initial: r
+  rhyme: ow
+  initcover: L
+  rhymecover: W
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: rɯ
+  gloss: NIT
+notes:
+- type: T
+  text: '<par>This etymon is set up in STC #278 (and note 201), where the Tibetan, Jingpho, and rGyalrong
+    forms are cited.</par>'
+- type: T
+  text: <par>Possibly to be compared with this etymon is Chinese <hanform>卵</hanform> (Mand. <latinform>luǎn</latinform>)
+    &apos;ovum; egg; spawn&apos;, perhaps with the collective <reconstruction>*-n</reconstruction> suffix.
+    See note under <xref ref="3438">#3438</xref> for an alternative etymology.</par>

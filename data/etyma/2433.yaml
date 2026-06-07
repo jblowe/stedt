@@ -1,0 +1,17 @@
+tag: 2433
+grpid: 5
+proto_language: PTani
+protoform: s-lyap
+gloss: LIGHTNING / FLASH / GLITTER / BUTTERFLY
+semkey: 7.1.11.1
+sequence: 2322.0
+status: DELETE
+public: true
+xrefs: '352'
+references: cf. STC#213, HPTB pp.338, 377
+phonology:
+  handle: lyap
+  initial: ly
+  rhyme: ap=(s-)l
+  initcover: L
+  rhymecover: VLTS

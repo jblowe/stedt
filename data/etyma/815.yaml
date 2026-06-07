@@ -1,0 +1,17 @@
+tag: 815
+grpid: 2
+proto_language: PTB
+protoform: s-p(w)a-(p/k)
+gloss: EARWAX
+semkey: 1.2.7.3
+sequence: 17.0
+status: KEEP
+public: false
+phonology:
+  handle: pa-p
+  prefix: s
+  initial: p
+  rhyme: a-p
+  suffix: p
+  initcover: P
+  rhymecover: VT

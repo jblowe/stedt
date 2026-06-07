@@ -1,0 +1,18 @@
+tag: 2242
+grpid: 2
+proto_language: PTB
+protoform: gliŋ
+gloss: TUBE / FLUTE
+sequence: 3381.0
+status: KEEP
+public: true
+references: STC p.41
+phonology:
+  handle: gliŋ
+  initial: gl
+  rhyme: iŋ
+  initcover: K
+  rhymecover: N
+notes:
+- type: F
+  text: <par><latinform>Comment:</latinform> Cf. comparanda for <xref ref="2160">#2160</xref>.</par>

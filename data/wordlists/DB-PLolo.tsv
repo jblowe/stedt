@@ -1,0 +1,1644 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+10706	923	Lisu	hwa¹hchi⁵	hwa¹hchi⁵	awaken	awaken		1.1.4	767S	0		150,152
+10707	923	Lisu	yi⁶nyi¹grgh⁵	yi⁶nyi¹grgh⁵	awaken	awaken		1.1.4	767C	0		127,143,s
+10708	923	Lisu	hwa¹hchi⁵	hwa¹hchi⁵	awake	awake		1.1.4	767S	0		150,152
+10709	923	Lisu	yi⁶nyi¹grgh⁵	yi⁶nyi¹grgh⁵	awake	awake		1.1.4	767C	0		127,143,s
+10710	923	Lisu	cha¹	cha¹	feed	feed		1.3.5.8	766C	0		
+10711	923	Lisu	na⁴	na⁴	ill	ill		1.1.5.1	763S	0		160
+10712	923	Lisu	na⁴hsya²	na⁴hsya²	ill	ill		1.1.5.1	763S	0		160,m
+10713	923	Lisu	tá²	tá²	put / place	put  /  place		6.17	761A	0		2682
+10714	923	Lisu	tá²	tá²	come rest / put	come rest  / put	v.	6.7.1	761S/C	0		
+10715	923	Lisu	daw⁴	daw⁴	Causatives :	Causatives :		10.4.2.4	760C	0		
+10716	923	Lisu	hpē⁶	hpē⁶	swell up	swell up		1.1.5.2	740A	0	D2	163?
+10717	923	Lisu	hpē⁶	hpē⁶	swell up	swell up		1.1.5.2		0	HIDE	DUPE IN SOURCE
+10718	923	Lisu	hku⁴	hku⁴	call	call		8.5.13	665A/B	0		
+10719	923	Lisu	sha¹hte⁴	sha¹hte⁴	speak	speak		8.5.10.1	663B	0	D1	
+10720	923	Lisu	sha¹hte⁴	sha¹hte⁴	speak	speak		8.5.10.1	663A	0	HIDE	DUPE IN SOURCE
+10721	923	Lisu	gwa⁵	gwa⁵	chew	chew		1.3.4	635B	0	D1	1762
+10722	923	Lisu	gwa⁵	gwa⁵	chew	chew		1.3.4	635A	0	HIDE	DUPE IN SOURCE
+10723	923	Lisu	hkaw⁶	hkaw⁶	bite	bite		1.3.4.4	634B	0	D1	755
+10724	923	Lisu	hkaw⁶	hkaw⁶	bite	bite		1.3.4.4	634A	0	HIDE	DUPE IN SOURCE
+10725	923	Lisu	nyi¹	nyi¹	look at	look at		1.2.6.11	594B	0	D2	5419
+10726	923	Lisu	nyi¹	nyi¹	look at	look at		1.2.6.11	594A	0	HIDE	DUPE IN SOURCE
+10727	923	Lisu	ni²mū³	ni²mū³	itch	itch		1.6.5.5	584B	0		
+10728	923	Lisu	ny²mū³	ny²mū³	itch	itch		1.6.5.5	584A	0		
+10729	923	Lisu	tsï³	tsï³	cough	cough		1.8.3.3	576B	0	D1	
+10730	923	Lisu	tsï³	tsï³	cough	cough		1.8.3.3	576A	0	HIDE	DUPE IN SOURCE
+10731	923	Lisu	hkrgh⁵hu³	hkrgh⁵hu³	yawn	yawn		1.3.1.3	574-2	0	D1	273,1716
+10732	923	Lisu	hkrgh⁵hu³	hkrgh⁵hu³	yawn	yawn		1.3.1.3	574-1	0	HIDE	DUPE IN SOURCE
+10733	923	Lisu	wu¹	wu¹	crazy	crazy		8.3.1.11.3	557B	0	D1	6094
+10734	923	Lisu	wu¹	wu¹	crazy	crazy		8.3.1.11.3	557A	0	HIDE	DUPE IN SOURCE
+10735	923	Lisu	ba⁵	ba⁵	thin	thin		9.7.2	533A	0	D1	5551
+10737	923	Lisu	mrgh'¹	mrgh'¹	tail	tail		1.4.10.1	84-1	0	D1	1288
+10738	923	Lisu	mrgh'¹	mrgh'¹	tail	tail		1.4.10.1	84-2	0	HIDE	DUPE IN SOURCE
+10739	923	Lisu	du³	du³	feathers	feathers		1.6.1.1	85/90	0		m
+10740	923	Lisu	wu¹du³	wu¹du³	head	head		1.2.1	88A	0	D1	385,1223
+10741	923	Lisu	wu¹du³	wu¹du³	head	head		1.2.1	88B	0	HIDE	DUPE IN SOURCE
+10742	923	Lisu	wu¹du³	wu¹du³	head	head		1.2.1	88C	0	HIDE	DUPE IN SOURCE
+10743	923	Lisu	wu¹ku³ma³	wu¹ku³ma³	head hair	head hair		1.2.3	89-1	0	D1	385,387,m
+10744	923	Lisu	wu¹ku³ma³	wu¹ku³ma³	head hair	head hair		1.2.3	89-2	0	D5	385,387,m
+10745	923	Lisu	na³bē⁴	na³bē⁴	nose	nose		1.2.8	93-1	0	D1	803,810
+10746	923	Lisu	na³bē⁴	na³bē⁴	nose	nose		1.2.8	93-2	0	HIDE	DUPE IN SOURCE
+10747	923	Lisu	si⁵hchi³	si⁵hchi³	tooth	tooth		1.3.4	96A	0		632,635
+10748	923	Lisu	si⁵hchi³	si⁵hchi³	tusk	tusk		1.3.4.1	96B	0		632,635
+10749	923	Lisu	mu⁵prgh¹du³	mu⁵prgh¹du³	chin	chin		1.2.5.3	100A	0	D1	1187,271,280
+10750	923	Lisu	mu⁵prgh¹du³	mu⁵prgh¹du³	chin	chin		1.2.5.3	100B	0	HIDE	DUPE IN SOURCE
+10751	923	Lisu	na¹paw³	na¹paw³	ear	ear		1.2.7	102-1	0	D1	811,812
+10752	923	Lisu	na¹paw³	na¹paw³	ear	ear		1.2.7	102-2	0	HIDE	DUPE IN SOURCE
+10754	923	Lisu	krgh¹tsï³	krgh¹tsï³	throat	throat		1.3.5	105B	0	HIDE	DUPE IN SOURCE
+10755	923	Lisu	lá⁶du⁵hku⁴	lá⁶du⁵hku⁴	armpit	armpit		1.5.1.2.3	116A	0	D1	695,m,m
+10756	923	Lisu	lá⁶du⁵hku⁴	lá⁶du⁵hku⁴	armpit	armpit		1.5.1.2.3	116B	0	HIDE	DUPE IN SOURCE
+10757	923	Lisu	na³ naw³	na³ naw³	breast	breast		1.4.4.3	119A	0	D1	m,253
+10758	923	Lisu	na³ naw³	na³ naw³	breast	breast		1.4.4.3	119B	0	HIDE	DUPE IN SOURCE
+10759	923	Lisu	hchya⁴du⁵	hchya⁴du⁵	navel	navel		1.9.4	120A	0	D1	525,520
+10760	923	Lisu	hchya⁴du⁵	hchya⁴du⁵	navel	navel		1.9.4	120B	0	HIDE	DUPE IN SOURCE
+10761	923	Lisu	hchya⁴du⁵	hchya⁴du⁵	navel	navel		1.9.4	120C	0	HIDE	DUPE IN SOURCE
+10762	923	Lisu	hchi³kwa³	hchi³kwa³	sole	sole		1.5.5	130A	0	D1	
+10763	923	Lisu	hchi³kwa³	hchi³kwa³	sole	sole		1.5.5	130B	0	HIDE	DUPE IN SOURCE
+10764	923	Lisu	hpyá¹	hpyá¹	lungs	lungs		1.7.2	141A	0	D1	
+10765	923	Lisu	hpyá¹	hpyá¹	lungs	lungs		1.7.2	141B	0	HIDE	DUPE IN SOURCE
+10766	923	Lisu	rzi⁵	rzi⁵	urine	urine		1.8.4	149A	0	D1	650
+10767	923	Lisu	rzi⁵	rzi⁵	urine	urine		1.8.4	149B	0	HIDE	DUPE IN SOURCE
+10768	923	Lisu	a⁵chï²	a⁵chï²	milk	milk			155A	0	D1	p,5541
+10769	923	Lisu	a⁵chï²	a⁵chï²	milk	milk			155B	0	HIDE	DUPE IN SOURCE
+10770	923	Lisu	mū⁵hchï⁵ (hpa⁵)	mū⁵hchï⁵ (hpa⁵)	widow	widow		4.2.8	166-1	0	D1	4882,m,m
+10771	923	Lisu	mū⁵hchï⁵ (hpa⁵)	mū⁵hchï⁵ (hpa⁵)	widow	widow		4.2.8	166-2	0	HIDE	DUPE IN SOURCE
+10772	923	Lisu	wu⁴sa⁴	wu⁴sa⁴	God	God		5.8.1.1	360-1	0	D1	658,5792
+10773	923	Lisu	wu⁴sa⁴	wu⁴sa⁴	God	God		5.8.1.1	360-2	0	HIDE	DUPE IN SOURCE
+10774	923	Lisu	ngaw⁵	ngaw⁵	language	language		5.8	418A	0	D1	
+10775	923	Lisu	ngaw⁵	ngaw⁵	language	language		5.8	418B	0	HIDE	DUPE IN SOURCE
+10776	923	Lisu	lá⁶ja³	lá⁶ja³	right	right		1.5.3.2	445A	0	D1	695,2786
+10777	923	Lisu	lá⁶ja³	lá⁶ja³	right	right		1.5.3.2	445B	0	HIDE	DUPE IN SOURCE
+10778	923	Lisu	lá⁶rgh¹	lá⁶rgh¹	left	left		1.5.3.2	446A	0	D1	695,2154
+10779	923	Lisu	lá⁶rgh¹	lá⁶rgh¹	left	left		1.5.3.2	446B	0	HIDE	DUPE IN SOURCE
+10780	923	Lisu	hrgh¹ htá⁵	hrgh¹ htá⁵	in front	in front		10.1.1	447-1	0	D1	
+10781	923	Lisu	hrgh¹ htá⁵	hrgh¹ htá⁵	in front	in front		10.1.1	447-2	0	HIDE	DUPE IN SOURCE
+10782	923	Lisu	ká¹ná¹si¹	ká¹ná¹si¹	behind	behind		9.2.8	448-1	0	D1	
+10783	923	Lisu	krgh³tsyá¹	krgh³tsyá¹	behind	behind		9.2.8	448-1	0	D1	
+10784	923	Lisu	ká¹ná¹si¹	ká¹ná¹si¹	behind	behind		9.2.8	448-2	0	HIDE	DUPE IN SOURCE
+10785	923	Lisu	krgh³tsyá¹	krgh³tsyá¹	behind	behind		9.2.8	448-2	0	HIDE	DUPE IN SOURCE
+10786	923	Lisu	wu¹hchi³	wu¹hchi³	horn	horn		1.2.2	82	0		385,819
+10787	923	Lisu	du⁴la⁶	du⁴la⁶	wing	wing		1.5.1.3	83	0		711,695
+10788	923	Lisu	hu³	hu³	egg	egg			86	0		301
+10789	923	Lisu	an³	an³	saddle	saddle		5.14	87	0		bChinese
+10790	923	Lisu	hpi⁵mya³	hpi⁵mya³	face	face		1.2.5	91	0		1186,681
+10792	923	Lisu	mrgh⁵lrghe²	mrgh⁵lrghe²	mouth	mouth		1.3.1	94	0		467,456
+10793	923	Lisu	kaw³ji⁴	kaw³ji⁴	lip	lip		1.3.2	95	0		586,596
+10795	923	Lisu	ba³	ba³	cheek	cheek		1.2.5.2	99	0		268
+10796	923	Lisu	mū⁵tsi³	mū⁵tsi³	beard	beard		1.2.5.5	101	0		363,1226
+10797	923	Lisu	aw'³hkrgh⁵	aw'³hkrgh⁵	chest	chest		1.4.4.3	106	0		291,2000
+10798	923	Lisu	lá⁶hprgh⁴	lá⁶hprgh⁴	shoulder	shoulder		1.4.3	107	0		695,276
+10799	923	Lisu	lá⁶hprgh⁴	lá⁶hprgh⁴	arm	arm		1.5.1.2	108	0		695,276
+10800	923	Lisu	lá⁶tsï³	lá⁶tsï³	elbow	elbow		1.5.8.3	109	0		695,418
+10801	923	Lisu	lá⁶◦tsï³	lá⁶◦tsï³	wrist	wrist		1.5.8.1	110	0		695,418
+10802	923	Lisu	lá⁶hpá²	lá⁶hpá²	hand	hand		1.5.1.1	111	0		695,821
+10803	923	Lisu	lá⁶kwa³	lá⁶kwa³	palm	palm		1.5.5	112	0		695,m
+10804	923	Lisu	lá⁶nyi³	lá⁶nyi³	finger	finger		1.5.6	113	0		695,m
+10805	923	Lisu	lá⁶ma³	lá⁶ma³	thumb	thumb		1.5.6.1	114	0		695,m
+10806	923	Lisu	ka³kaw³	ka³kaw³	back (upper)	back (upper)		1.4.8	117	0		m,211
+10807	923	Lisu	ka³kaw³	ka³kaw³	waist	waist		1.4.6	118	0		
+10808	923	Lisu	h'aw⁵	h'aw⁵	penis	penis			122	0		1284
+10809	923	Lisu	tu¹bi⁶	tu¹bi⁶	vulva	vulva			123	0		661,662
+10810	923	Lisu	hpi⁵sye⁴	hpi⁵sye⁴	leg	leg		1.5.7	124	0		343,m
+10811	923	Lisu	hchi³tsi³	hchi³tsi³	knee	knee		1.5.8.4	125	0		437,418
+10812	923	Lisu	hchi³wū⁶	hchi³wū⁶	calf	calf		1.5.7	126	0		
+10813	923	Lisu	hchi⁵hpá²	hchi⁵hpá²	foot	foot		1.5.2	127	0		335,m
+10814	923	Lisu	hchi³nyi³	hchi³nyi³	toe	toe		1.5.6	132	0		
+10815	923	Lisu	h'i⁶hchi⁶	h'i⁶hchi⁶	belly	belly		1.4.7	133	0		m,m
+10816	923	Lisu	ji⁴	ji⁴	skin	skin		1.6.5	134	0		596
+10817	923	Lisu	hwa⁵	hwa⁵	meat	meat		1.1.1.1	135	0		34
+10818	923	Lisu	waw⁵taw³	waw⁵taw³	bone	bone		1.6.3	136	0		232,241
+10819	923	Lisu	syá⁶	syá⁶	breath	breath		1.1.2.2	138	0		32
+10820	923	Lisu	syá⁶myá³	syá⁶myá³	life	life		1.1.2.1	139	0		32,m
+10821	923	Lisu	wu¹nrgh'¹	wu¹nrgh'¹	brain	brain		1.2.4	140	0		385,243
+10822	923	Lisu	ni²ma³	ni²ma³	heart	heart		1.7.1	142	0		297,s
+10823	923	Lisu	si⁵hpyá¹	si⁵hpyá¹	liver	liver		1.7.3	143	0		1390,m
+10824	923	Lisu	h'i⁶hchi⁶	h'i⁶hchi⁶	stomach	stomach		1.7.6	145	0		2104,m
+10825	923	Lisu	wu⁴	wu⁴	intestine	intestine		1.7.6	146	0		2102
+10826	923	Lisu	si⁵	si⁵	blood	blood		1.6.2	147	0		230
+10827	923	Lisu	hchi⁵	hchi⁵	feces	feces		1.8.5	150	0		572
+10828	923	Lisu	chï¹	chï¹	sweat	sweat		1.8.1	151	0		615
+10829	923	Lisu	tsrghe³ hrghe³	tsrghe³ hrghe³	mucus	mucus		1.8.2	152	0		
+10830	923	Lisu	mrgh⁵rghe⁴	mrgh⁵rghe⁴	spittle	spittle		1.2.6	153	0		
+10831	923	Lisu	bi⁵hchï⁵	bi⁵hchï⁵	pus	pus		1.8.6.1	154	0		1292,m
+10832	923	Lisu	htsaw⁴	htsaw⁴	person	person		4.5	156	0		
+10833	923	Lisu	htsaw⁴shï⁶ra⁵	htsaw⁴shï⁶ra⁵	baby	baby		4.2.11	157	0		
+10834	923	Lisu	a³bi³	a³bi³	youth	youth		4.2.11	158	0		
+10835	923	Lisu	ra⁵mrgh'⁵lá¹ra⁵	ra⁵mrgh'⁵lá¹ra⁵	maiden	maiden		4.2.8	160	0		
+10836	923	Lisu	la⁵htsaw⁴	la⁵htsaw⁴	man	man		1.9.6.1	161	0		1624,m
+10837	923	Lisu	ra⁵mrgh'⁵ra⁵	ra⁵mrgh'⁵ra⁵	woman	woman		1.9.3	162	0		m,m,m
+10838	923	Lisu	htsaw⁴wu⁵	htsaw⁴wu⁵	elder	elder		4.7.1	163	0		
+10839	923	Lisu	hchaw⁵hpá²	hchaw⁵hpá²	friend	friend		4.4.2	164	0		
+10840	923	Lisu	chaw³pa²	chaw³pa²	slave	slave		4.2.10	165	0		
+10841	923	Lisu	si⁵hpa⁵	si⁵hpa⁵	headman	headman		4.2.5.2	167	0		x
+10842	923	Lisu	ni⁵hpa⁵	ni⁵hpa⁵	priest	priest		4.2.4	168	0		
+10843	923	Lisu	ni⁵hpa⁵	ni⁵hpa⁵	doctor	doctor		4.2.1.5	169	0		
+10844	923	Lisu	hpa⁵	hpa⁵	male suffix	male suffix		1.9.6.1	173	0		1634
+10845	923	Lisu	ma³	ma³	female suffix	female suffix		1.9.3	174	0		1619
+10846	923	Lisu	mi³hchi³	mi³hchi³	pants	pants		5.11.8.2.1.3	228	0		
+10847	923	Lisu	myao²h'i⁴	myao²h'i⁴	temple	temple		1.2.5.1	359	0		
+10848	923	Lisu	ni⁵	ni⁵	spirit	spirit		5.8.1.1	361	0		160
+10849	923	Lisu	htsï⁴	htsï⁴	fat	fat		1.6.4	384	0		42
+10850	923	Lisu	syá⁶	syá⁶	strength	strength		1.1.5	423	0		32
+10851	923	Lisu	htá⁵si¹	htá⁵si¹	above	above		9.2.1	449	0		
+10852	923	Lisu	nyi⁵ku¹cha¹	nyi⁵ku¹cha¹	between	between		9.2.3	453	0		
+10853	923	Lisu	hchē¹	hchē¹	side	side		1.4.5	460	0		
+10854	923	Lisu	hpaw²	hpaw²	side	side		1.4.5	460	0		1305
+10855	923	Lisu	wu⁵hrgh⁴	wu⁵hrgh⁴	tired	tired		9.6.2.2	523	0		
+10856	923	Lisu	rgh⁵hrgh⁴	rgh⁵hrgh⁴	tired	tired		9.6.2.2	523	0		
+10857	923	Lisu	htsi⁴	htsi⁴	fat (person)	fat (person)		1.6.4	532	0		48
+10858	923	Lisu	bi³	bi³	full	full		1.1.3.2	547	0		134
+10859	923	Lisu	chē³	chē³	sour	sour		7.1.4.4	549	0		7205
+10860	923	Lisu	hkwa⁵	hkwa⁵	bitter	bitter		7.1.4.4	550	0		229
+10861	923	Lisu	syá¹tya¹	syá¹tya¹	alive	alive		1.1.2.1	553	0		32,m
+10862	923	Lisu	myá³hchē⁶	myá³hchē⁶	blind	blind		1.2.6.14.2	571	0		681,1401
+10863	923	Lisu	mrgh'⁴	mrgh'⁴	dumb	dumb		8.5.4.4	572	0		
+10864	923	Lisu	ya⁵pa³	ya⁵pa³	dumb	dumb		8.5.4.4	572	0		b,bChinese
+10865	923	Lisu	baw⁵	baw⁵	deaf	deaf		1.2.7.5	573	0		1409
+10866	923	Lisu	ti¹	ti¹	vomit	vomit		1.8.3.2	577	0		m
+10867	923	Lisu	hpē⁶	hpē⁶	vomit	vomit		1.8.3.2	577	0		1145
+10868	923	Lisu	(rzi⁵)htu⁴shï³	(rzi⁵)htu⁴shï³	urinate	urinate		1.5.3.2	581	0		650,m,m
+10869	923	Lisu	pa³ja⁵	pa³ja⁵	hear	hear		1.2.7.4	583	0		812,m
+10870	923	Lisu	yi⁶ myá³ hkaw⁴	yi⁶ myá³ hkaw⁴	dream	dream		1.1.4.2	586	0		127,126,m
+10871	923	Lisu	maw⁴	maw⁴	see	see		1.2.6.10	596	0		1227
+10872	923	Lisu	h'ū⁴	h'ū⁴	born, be	born, be	be v.	1.1.2	597	0		97
+10873	923	Lisu	shï⁴	shï⁴	die	die		1.1.6	599	0		27
+10874	923	Lisu	dza⁵	dza⁵	eat	eat		1.5.3.2	629	0		36
+10875	923	Lisu	lrghe⁶	lrghe⁶	lick	lick		1.3.3.1	630	0		629
+10876	923	Lisu	daw⁴	daw⁴	drink	drink			631	0		502
+10877	923	Lisu	hchï⁶	hchï⁶	suck	suck		1.3.2.1	633	0		5541
+10878	923	Lisu	gu⁵dū⁵lye³	gu⁵dū⁵lye³	swallow	swallow		1.3.5.6	636	0		
+10879	923	Lisu	(h'i⁶)◦mrghe⁶	(h'i⁶)◦mrghe⁶	hungry	hungry		1.1.3	637	0		m,99
+10880	923	Lisu	si⁶	si⁶	thirsty	thirsty		1.1.3.1	638	0		101
+10881	923	Lisu	trghe²	trghe²	jump	jump		6.7.8	657	0		
+10882	923	Lisu	bá³	bá³	say	say		1.8.7	662	0		
+10883	923	Lisu	na³na²	na³na²	listen	listen		1.2.7.4	667	0		811,811
+10884	923	Lisu	wa⁵syē⁴	wa⁵syē⁴	laugh	laugh		1.8.8.1	668	0		1108,1780
+10885	923	Lisu	ngu⁴	ngu⁴	cry	cry		1.8.8.2	670	0		1104
+10886	923	Lisu	lu¹	lu¹	bark	bark		2.1.11.1	674	0		1790
+10887	923	Lisu	prgh¹	prgh¹	comb	comb		1.2.2.1	679	0		1220
+10888	923	Lisu	jaw³	jaw³	fear	fear		8.3.1.10.1	689	0		2249
+10889	923	Lisu	chaw²	chaw²	fear	fear		8.3.1.10.1	689	0		2249
+10890	923	Lisu	mū³	mū³	blow	blow		1.3.1.4	690	0		503
+10891	923	Lisu	yi⁶	yi⁶	sleep	sleep		1.1.4.1	735	0		127
+10892	923	Lisu	rghe²	rghe²	shake	shake		6.7.9	736	0		
+10893	923	Lisu	gaw³dē⁵hchu⁴	gaw³dē⁵hchu⁴	have malaria	have malaria		8.2	737	0		
+10894	923	Lisu	ná¹kwa³	ná¹kwa³	in front of house	in front of house		10.1.1	813	0		
+10896	152	*Loloish	yaŋ³	yaŋ³	adverbalizer	adverbalizer		10.2.1	866B	0		
+10897	152	*Loloish	a(ŋ)¹	a(ŋ)¹	adverbalizer	adverbalizer		10.2.1	866A	0		
+10898	152	*Loloish	ay¹/²	ay¹/²	yes	yes		1.5.3.2	863B	0		
+10900	152	*Loloish	ʔ-pa²	ʔ-pa²	dubious	dubious		8.3	856B	0		
+10901	152	*Loloish	ʔ-yakᴸ	ʔ-yakᴸ	dubious	dubious		8.3	856A	0		
+10902	152	*Loloish	ʔ-taw/aŋ¹/³	ʔ-taw/aŋ¹/³	cause	cause		8.2	851-2	0		
+10903	152	*Loloish	ʔ-pa¹/³	ʔ-pa¹/³	cause	cause		8.2	851-1	0		
+10904	152	*Loloish	lum³	lum³	locative	locative		10.0	846B	0		
+10905	152	*Loloish	oŋ³	oŋ³	locative	locative		10.0	846A	0		
+10906	152	*Loloish	ʃa²	ʃa²	let me	let me		6.19	835B	0		
+10907	152	*Loloish	C-kra³/¹	C-kra³/¹	let me	let me		6.19	835A	0		
+10908	152	*Loloish	may¹	may¹	future	future		9.1.5	830B	0		
+10909	152	*Loloish	du¹	du¹	future	future		9.1.5	830A	0		5775
+10910	152	*Loloish	mapᴸ/ᴴ	mapᴸ/ᴴ	want	want	v.	8.3.1.14.3	827B	0		
+10911	152	*Loloish	m-ga²|	m-ga²|	want	want	v.	8.3.1.14.3	827A	0		1646
+10912	152	*Loloish	[hak⁵]	[hak⁵]	quickly	quickly		9.1.1	805B	0		
+10913	152	*Loloish	mran¹	mran¹	quickly	quickly		9.1.1	805A	0		
+10914	152	*Loloish	C-jikᴸ	C-jikᴸ	great deal	great deal	n.	9.6.1	804-2	0		
+10915	152	*Loloish	ʔ-ci²	ʔ-ci²	great deal	great deal	n.	9.6.1	804-1	0		
+10916	152	*Loloish	C-cikᴸ	C-cikᴸ	nothing	nothing		9.9	803-2	0		
+10917	152	*Loloish	datᴸ	datᴸ	nothing	nothing		9.9	803-1	0		
+10918	152	*Loloish	C-lokᴸ	C-lokᴸ	first	first		9.9	798B	0		
+10919	152	*Loloish	ʔ/hu²	ʔ/hu²	first	first		9.9	798A	0		
+10920	152	*Loloish	ʔəmay¹	ʔəmay¹	now	now		9.1.5	796B	0		
+10921	152	*Loloish	m-butᴸ	m-butᴸ	now	now		9.1.5	796A	0		
+10922	152	*Loloish	ɲa³	ɲa³	can (well)	can (well)		10.2.2	786B	0		
+10923	152	*Loloish	ʔ-putᴸ	ʔ-putᴸ	can (well)	can (well)		10.2.2	786A	0		
+10924	152	*Loloish	səkokᴸ	səkokᴸ	bend	bend		9.5	774C	0		
+10925	152	*Loloish	səyipᴸ	səyipᴸ	put to sleep	put to sleep		6.17	773C	0		127
+10926	152	*Loloish	sədukᴸ	sədukᴸ	set on fire	set on fire		6.17	772C	0		
+10927	152	*Loloish	dukᴸ	dukᴸ	burn	burn		3.2.12.1	772S	0		
+10928	152	*Loloish	səwakᴸ	səwakᴸ	hide (thing)	hide (thing)		1.6.5.1	771C	0		x
+10929	152	*Loloish	wakᴸ	wakᴸ	hide (self)	hide (self)		1.6.5.1	771S	0		x
+10930	152	*Loloish	səwatᴸ	səwatᴸ	clothe	clothe		5.11.8.2.1	770C	0		
+10931	152	*Loloish	sə(m)-lyakᴸ	sə(m)-lyakᴸ	feed animals	feed animals		1.3.5.8	769C	0		
+10933	152	*Loloish	səm-du²	səm-du²	bury	bury		6.11	768C	0		
+10934	152	*Loloish	səno²	səno²	awaken	awaken		1.1.4	767C	0		143
+10935	492	*Common Lahu	nuh˯	nuh˯	awaken	awaken		1.1.4	767C	0		143
+10936	152	*Loloish	(C)-no²|	(C)-no²|	awake	awake		1.1.4	767S	0		143
+10937	492	*Common Lahu	nuhˇ	nuhˇ	awake	awake		1.1.4	767S	0		143
+10938	152	*Loloish	sədza²	sədza²	feed	feed		1.3.5.8	766C	0		
+10939	492	*Common Lahu	caˍ	caˍ	feed	feed		1.3.5.8	766C	0		
+10940	152	*Loloish	sənay¹	sənay¹	dwarf	dwarf		4.2.7	765C	0		
+10941	152	*Loloish	s-|miŋ³	s-|miŋ³	ripe	ripe		3.1.10	764B	0		2449
+10942	152	*Loloish	may¹	may¹	delicious	delicious		7.1.4.4	764A	0		
+10943	152	*Loloish	səC-na¹	səC-na¹	cure	cure		1.1.5.1	763C	0		
+10944	152	*Loloish	C-na¹|	C-na¹|	ill	ill		1.1.5.1	763S	0		160
+10945	492	*Common Lahu	na˯	na˯	ill	ill		1.1.5.1		0		160
+10946	152	*Loloish	sə◦mraŋ¹	səmraŋ¹	show	show		6.2.2.8	762C	0		p,1227
+10947	152	*Loloish	ʔ-|ta²	ʔ-ta²	put / place	put  /  place		6.17	761A	0		2682
+10948	492	*Common Lahu	taˍ	taˍ	put / place	put  /  place		6.17	761A	0		2682
+10949	152	*Loloish	(sə)m-day¹	(sə)m-day¹	come to rest / put	come to rest  / put	v.	6.7.1	761S/C	0		
+10950	492	*Common Lahu	deh/̵teh:	deh/̵teh:	come to rest / put	come to rest  / put	v.	6.7.1	761S/C	0		
+10951	152	*Loloish	səm-daŋ¹	səm-daŋ¹	Causatives :	Causatives :		10.4.2.4	760C	0		
+10952	492	*Common Lahu	taw:	taw:	Causatives :	Causatives :		10.4.2.4	760C	0		
+10955	152	*Loloish	[phum²¹]	[phum²¹]	meet	meet		6.2	746C	0		
+10956	152	*Loloish	C-|doŋ²	C-doŋ²	meet	meet		6.2	746B	0		5689
+10957	152	*Loloish	dzo¹/²	dzo¹/²	meet	meet		6.2	746A	0		
+10959	152	*Loloish	ʔum¹	ʔum¹	do	do		6.1.1.1	743B	0		
+10961	152	*Loloish	ʔ-tan¹	ʔ-tan¹	do	do		6.1.1.1	743A	0		
+10962	152	*Loloish	sə-roŋ²	sə-roŋ²	blister	blister		1.6.5.3	740B	0		
+10963	152	*Loloish	C-|pwam²/apᴸ|	C-pwam²/apᴸ	swell up	swell up		1.1.5.2	740A	0	D2	163
+10964	492	*Common Lahu	hpo˰	hpo˰	swell up	swell up		1.1.5.2	740A	0	D2	163
+10965	152	*Loloish	C-pwam²/apᴸ	C-pwam²/apᴸ	swell up	swell up		1.1.5.2		0	HIDE	DUPE IN SOURCE
+10966	492	*Common Lahu	hpo˰	hpo˰	swell up	swell up		1.1.5.2		0	HIDE	DUPE IN SOURCE
+10967	152	*Loloish	m-jay²	m-jay²	stop	stop		6.7.11	739B	0		
+10968	152	*Loloish	tso³/upᴴ	tso³/upᴴ	stop	stop		6.7.11	739A	0		
+10969	152	*Loloish	tsitᴴ	tsitᴴ	pinch	pinch		8.4	738C	0		
+10970	152	*Loloish	C-ɲapᴸ	C-ɲapᴸ	press	press		9.5	738B	0		
+10972	152	*Loloish	s-nitᴸ	s-nitᴸ	squeeze	squeeze		9.5	738A	0		
+10973	152	*Loloish	cway	cway	pull	pull		6.2.2.3.1	728B	0		
+10974	152	*Loloish	m-|gaŋ¹	m-gaŋ¹	pull	pull		6.2.2.3.1	728A	0		5614
+10975	152	*Loloish	ʔ-ga³	ʔ-ga³	play	play		6.1.1.3	726B	0		
+10976	152	*Loloish	m-gre²	m-gre²	play	play		6.1.1.3	726A	0		
+10977	152	*Loloish	m-dzaŋ¹	m-dzaŋ¹	study	study		6.2.2.9.3	722B	0		
+10978	152	*Loloish	[hen²¹]	[hen²¹]	study	study		6.2.2.9.3	722A	0		
+10980	152	*Loloish	toŋ¹	toŋ¹	butt	butt		1.4.10	718C	0		
+10981	152	*Loloish	ʔ-m-coŋ³	ʔ-m-coŋ³	butt	butt		1.4.10	718B	0		
+10982	152	*Loloish	m-krapᴴ	m-krapᴴ	butt	butt		1.4.10	718A	0		
+10983	152	*Loloish	pi²	pi²	close	close		6.2.2.6.2	715A	0		5709
+10984	152	*Loloish	hapᴴ	hapᴴ	close	close		6.2.2.6.2	715A	0		
+10985	152	*Loloish	bloŋ³	bloŋ³	open	open		6.2.2.6.1	714B	0		
+10986	152	*Loloish	pwaŋ³	pwaŋ³	open	open		6.2.2.6.1	714A	0		5704
+10988	152	*Loloish	ʔ-kukᴸ	ʔ-kukᴸ	hang	hang		6.1.1.5	703B	0		
+10989	152	*Loloish	C-gyitᴸ	C-gyitᴸ	hang	hang		6.1.1.5	703A	0		
+10991	152	*Loloish	C-klay¹/³	C-klay¹/³	separate	separate		6.10.4	700B	0		
+10992	152	*Loloish	bay¹	bay¹	separate	separate		6.10.4	700A	0		
+10993	152	*Loloish	ŋwa¹	ŋwa¹	be the case	be the case	be v.	10.4.1.1	698B	0		
+10994	152	*Loloish	hutᴴ	hutᴴ	be the case	be the case	be v.	10.4.1.1	698A	0		
+10995	152	*Loloish	m-di²	m-di²	hit	hit		6.8	697B	0		
+10996	152	*Loloish	m tokᴴ	m tokᴴ	hit	hit		6.8	697A	0		
+10997	152	*Loloish	s-nwe²/³/ekᴸ	s-nwe²/³/ekᴸ	lean	lean		1.1.1	694A/B	0		x
+10998	152	*Loloish	(ʔ)-tse¹	(ʔ)-tse¹	fall	fall		6.1.1.4.2	692B	0		
+10999	152	*Loloish	(sə)-gla³	(sə)-gla³	fall	fall		6.1.1.4.2	692A	0		
+11000	152	*Loloish	dapᴸ	dapᴸ	sew	sew		5.1	680B	0		
+11001	152	*Loloish	gyupᴸ	gyupᴸ	sew	sew		5.1	680A	0		2627
+11002	152	*Loloish	tu²	tu²	repeat	repeat		8.5.10.2	676B	0		
+11003	152	*Loloish	C-|tapᴸ	C-tapᴸ	repeat	repeat		8.5.10.2	676A	0		2692
+11004	152	*Loloish	ku/kaw¹	ku/kaw¹	call	call		8.5.13	665A/B	0		
+11005	492	*Common Lahu	ku˯	ku˯	call	call		8.5.13		0		
+11006	152	*Loloish	dze²	dze²	speak	speak		8.5.10.1	663B	0		5382
+11007	152	*Loloish	yaw³	yaw³	speak	speak		8.5.10.1	663A	0		
+11008	492	*Common Lahu	yaw:	yaw:	speak	speak		8.5.10.1	663A	0		
+11009	152	*Loloish	bakᴸ	bakᴸ	carry (shoulder)	carry (shoulder)		6.2.2.2.1	661B	0		
+11010	152	*Loloish	bo²	bo²	carry (shoulder)	carry (shoulder)		6.2.2.2.1	661A	0		3344
+11011	152	*Loloish	g/k(r)un¹/utᴴ	g/k(r)un¹/utᴴ	dance	dance		6.7.9	658-2	0		
+11012	152	*Loloish	ga³	ga³	dance	dance		6.7.9	658-1	0		521
+11013	152	*Loloish	luk/|apᴸ	luk/apᴸ	enter	enter		6.7.1	655B	0		5783
+11014	152	*Loloish	waŋ¹	waŋ¹	enter	enter		6.7.1	655A	0		
+11015	152	*Loloish	li³	li³	come (down)	come (down)		6.7.1	649B	0		
+11016	152	*Loloish	la¹	la¹	come (up)	come (up)		6.7.1	649A	0		3569
+11017	152	*Loloish	du²	du²	walk	walk		6.7.4	648B	0		
+11018	152	*Loloish	m-ju/oŋ²	m-ju/oŋ²	walk	walk		6.7.4	648A	0		
+11019	152	*Loloish	le³	le³	go (up)	go (up)		6.7.2	647B	0		
+11020	152	*Loloish	ay¹	ay¹	go (down)	go (down)		6.7.2	647A	0		
+11021	152	*Loloish	xwatᴴ	xwatᴴ	pour / still	pour / still		6.6	646B	0		2680
+11022	152	*Loloish	xwan²	xwan²	pour / still	pour / still		6.6	646A	0		2680
+11023	152	*Loloish	cit/etᴴ	cit/etᴴ	roast (in fire)	roast (in fire)		5.5	642B	0		
+11024	152	*Loloish	putᴴ	putᴴ	roast (in fire)	roast (in fire)		5.5	642A	0		
+11025	152	*Loloish	m-bi¹/²	m-bi¹/²	boil	boil		6.6	639B	0		
+11026	152	*Loloish	C-dzakᴴ	C-dzakᴴ	boil	boil		6.6	639A	0		
+11027	152	*Loloish	m-bay²	m-bay²	chew	chew		1.3.4	635B	0		
+11028	492	*Common Lahu	behˇ	behˇ	chew	chew		1.3.4	635B	0		1762
+11029	152	*Loloish	(g)wa²	(g)wa²	chew	chew		1.3.4	635A	0		688
+11030	152	*Loloish	C-|kukᴸ	C-kukᴸ	bite	bite		1.3.4.4	634B	0		755
+11031	152	*Loloish	C-|tsatᴸ	C-tsatᴸ	bite	bite		1.3.4.4	634A	0		744
+11032	492	*Common Lahu	che˰	che˰	bite	bite		1.3.4.4	634A	0		744
+11033	152	*Loloish	pup/ukᴴ	pup/ukᴴ	pile up	pile up		6.2.2.1	627B	0		
+11034	152	*Loloish	byum¹	byum¹	pile up	pile up		6.2.2.1	627A	0		
+11035	152	*Loloish	ʔ-toŋ²	ʔ-toŋ²	pound	pound		6.8	626B	0		
+11036	152	*Loloish	ʔ-di²	ʔ-di²	pound	pound		6.8	626A	0		p,381
+11037	152	*Loloish	ʔ-brakᴴ	ʔ-brakᴴ	chop up	chop up		6.9.3	618B	0		
+11038	152	*Loloish	m-cikᴴ	m-cikᴴ	chop down	chop down		6.9.3	618A	0		
+11039	152	*Loloish	ni²	ni²	live	live		1.1.2.1	598B	0		
+11040	152	*Loloish	c/jya²	c/jya²	live	live		1.1.2.1	598A	0		m
+11041	152	*Loloish	haŋ³	haŋ³	look at	look at		1.2.6.11	594B	0		m
+11042	492	*Common Lahu	BK hehˍ	BK hehˍ	look at	look at		1.2.6.11	594B	0		m
+11043	152	*Loloish	C-|ɲi¹	C-ɲi¹	look at	look at		1.2.6.11	594A	0		5419
+11044	492	*Common Lahu	ni:	ni:	look at	look at		1.2.6.11	594A	0		5419
+11047	152	*Loloish	m-|tsikᴴ	m-tsikᴴ|	itch	itch		1.6.5.5	584B	0		56
+11048	492	*Common Lahu	dzuhˆ	dzuhˆ	itch	itch		1.6.5.5	584B	0		56
+11049	152	*Loloish	g-ya²|	g-ya²|	itch	itch		1.6.5.5	584A	0		1456
+11050	152	*Loloish	dekᴸ	dekᴸ	flatutate	flatutate			582B	0		
+11051	492	*Common Lahu	teh˰	teh˰	flatutate	flatutate			582B	0		
+11052	152	*Loloish	p(y)aw²	p(y)aw²	flatutate	flatutate			582A	0		
+11053	492	*Common Lahu	MN hpuˇ	MN hpuˇ	flatutate	flatutate			582A	0		
+11054	152	*Loloish	ʔ-kyaŋ²	ʔ-kyaŋ²	cough	cough		1.8.3.3	576B	0		
+11055	152	*Loloish	tso²	tso²	cough	cough		1.8.3.3	576A	0		
+11056	492	*Common Lahu	tsuhˍ	tsuhˍ	cough	cough		1.8.3.3	576A	0		
+11057	152	*Loloish	kye²	kye²	sneeze	sneeze		1.8.2.1	575-2	0		
+11058	152	*Loloish	ha¹	ha¹	sneeze	sneeze		1.8.2.1	575-1	0		2131
+11059	492	*Common Lahu	haˉ	haˉ	sneeze	sneeze		1.8.2.1	575-1	0		2131
+11060	152	*Loloish	mi¹	mi¹	yawn	yawn		1.3.1.3	574-2	0		
+11062	152	*Loloish	ha²/³	ha²/³	yawn	yawn		1.3.1.3	574-1	0		1716
+11063	492	*Common Lahu	haiˇ/haˇ	haiˇ/haˇ	yawn	yawn		1.3.1.3	574-1	0		1716
+11064	152	*Loloish	g-ywakᴸ	g-ywakᴸ	striped	striped		9.4	568B	0		x
+11065	152	*Loloish	b-ywakᴸ	b-ywakᴸ	striped	striped		9.4	568A	0		x
+11066	152	*Loloish	m-d(y)akᴸ	m-d(y)akᴸ	good	good		9.6.1.1	563B	0		
+11067	152	*Loloish	ʔ-min¹/²/³	ʔ-min¹/²/³	good	good		9.6.1.1	563A	0		
+11068	152	*Loloish	[waj²¹]	[waj²¹]	fast	fast		9.6.1.1	562B	0		
+11069	152	*Loloish	m-gi¹	m-gi¹	fast	fast		9.6.1.1	562A	0		
+11070	152	*Loloish	[pɛŋ⁵]	[pɛŋ⁵]	expensive	expensive		5.9	561B	0		
+11071	152	*Loloish	kakᴴ (oŋ¹)	kakᴴ (oŋ¹)	expensive	expensive		5.9	561A	0		
+11072	152	*Loloish	(C)cakᴴ/ᴸ	(C)cakᴴ/ᴸ	dirty	dirty		3.2.11	558C	0		
+11073	152	*Loloish	kyitᴴ	kyitᴴ	dirty	dirty		3.2.11	558B	0		
+11074	152	*Loloish	kre²	kre²	dirty	dirty		3.2.11	558A	0		572
+11075	152	*Loloish	ʔ-butᴴ	ʔ-butᴴ	crazy	crazy		8.3.1.11.3	557B	0		
+11076	152	*Loloish	ru²	ru²	crazy	crazy		8.3.1.11.3	557A	0		6094
+11077	492	*Common Lahu	g'uˇ	g'uˇ	crazy	crazy		8.3.1.11.3	557A	0		6094
+11078	152	*Loloish	ʔ-kri²	ʔ-kri²	rotten	rotten		3.1.10	552B	0		
+11079	152	*Loloish	m-bupᴸ	m-bupᴸ	rotten	rotten		3.1.10	552A	0		
+11080	152	*Loloish	ŋatᴸ	ŋatᴸ	empty	empty		7.1.2.1	546B	0		
+11081	152	*Loloish	gaŋ²	gaŋ²	empty	empty		7.1.2.1	546A	0		
+11082	152	*Loloish	ʔ/|s-|ra²	ʔ/|s-|ra²	difficult	difficult		9.6.2	544B	0		174
+11083	152	*Loloish	kakᴴ	kakᴴ	difficult	difficult		9.6.2	544A	0		173
+11084	152	*Loloish	gwe³	gwe³	dry	dry		6.6	541B	0		
+11086	152	*Loloish	s-|we²	s-we²	dry	dry		6.6	541A	0		3298
+11087	152	*Loloish	ʔ-jwap/atᴴ	ʔ-jwap/atᴴ	wet	wet		6.6	540B	0		
+11088	152	*Loloish	(s)-|ɲakᴴ/ᴸ|	(s)-ɲakᴴ/ᴸ	wet	wet		6.6	540A	0		3567
+11089	152	*Loloish	te²	te²	straight	straight		7.1.5.1	538B	0		
+11090	152	*Loloish	(C)-dwaŋ¹|	(C)-dwaŋ¹	straight	straight		7.1.5.1	538A	0		5734
+11091	152	*Loloish	ʔ-|li¹	ʔ-li¹	old (thing)	old (thing)		7.1.8.3	537B	0		7183
+11092	152	*Loloish	ʔ-|bi²	ʔ-bi²	old (thing)	old (thing)		7.1.8.3	537A	0		7185
+11094	152	*Loloish	C-jokᴸ	C-jokᴸ	thin	thin		9.7.2	533B	0	D1	
+11095	152	*Loloish	C-jokᴸ	C-jokᴸ	thin	thin		9.7.2	533A	0	HIDE	DUPE IN SOURCE
+11096	492	*Common Lahu	cawˉ	cawˉ	thin	thin		9.7.2	533A	0		
+11097	152	*Loloish	ba²	ba²	thin	thin		9.7.2	533A	0		5551
+11099	152	*Loloish	ʔ-putᴸ/poŋ²	ʔ-putᴸ/poŋ²	mud	mud		3.2.11	335A	0	D1	
+11100	152	*Loloish	(m)-catᴴ/ᴸ	(m)-catᴴ/ᴸ	mud	mud		3.2.11	335A	0	D1	
+11101	152	*Loloish	jun³	jun³	pine	pine		3.1.1	311D	0	D1	
+11102	152	*Loloish	ʔ-maŋ²	ʔ-maŋ²	pine	pine		3.1.1	311C	0	D1	
+11103	152	*Loloish	taŋ²	taŋ²	pine	pine		3.1.1	311B	0	D1	2690
+11104	152	*Loloish	C-|gripᴸ	C-gripᴸ	lac / pine	lac / pine		2.2.6	311A	0	D1	2331
+11107	152	*Loloish	je³	je³	seed	seed		3.1.4	308B	0	D1	3561
+11108	152	*Loloish	yo²	yo²	seed	seed		3.1.4	308A	0	D1	3561
+11109	152	*Loloish	g(y)oŋ³	g(y)oŋ³	thorn	thorn		3.1.2	307B	0	D1	
+11110	152	*Loloish	cu²	cu²	thorn	thorn		3.1.2	307A	0	D1	
+11111	152	*Loloish	mlik/g-likᴸ	mlik/g-likᴸ	root	root		3.1.2	306B	0	D1	
+11112	152	*Loloish	m-je¹/m-ge³	m-je¹/m-ge³	root	root		3.1.2	306A	0	D1	
+11113	152	*Loloish	laŋ¹	laŋ¹	snake	snake		2.1.6.1	60B	0	D1	6112
+11114	152	*Loloish	m-|rwe¹	m-|rwe¹	snake	snake		2.1.6.1	60A	0	D1	2623
+11117	152	*Loloish	no/na³/²	no/na³/²	bat	bat		2.2.4.1	59-2	0	D1	
+11119	152	*Loloish	bo¹	bo¹	bat	bat		2.2.4.1	59-1	0	D1	
+11120	152	*Loloish	gapᴸ	gapᴸ	duck	duck		2.1.10	53B	0	D1	
+11122	152	*Loloish	ʔ-|bay²	ʔ-bay²	duck	duck		2.1.10	53A	0	D1	5713
+11124	152	*Loloish	k-m-gu²	k-m-gu²	dove	dove		2.2.4.1	51B	0	D1	
+11126	152	*Loloish	k-ʔ-ko²	k-ʔ-ko²	pigeon	pigeon		2.2.4.1	51A	0	D1	m,2346
+11127	152	*Loloish	loŋ²/¹	loŋ²/¹	rabbit	rabbit		2.1.1	46-2	0		
+11128	152	*Loloish	taŋ²	taŋ²	rabbit	rabbit		2.1.1	46-1	0		
+11129	152	*Loloish	ʃu¹	ʃu¹	flying squirrel	flying squirrel		6.7.5	43/(45)	0		
+11131	152	*Loloish	C-je³	C-je³	shrew	shrew		2.1.1	39-2	0	D1	
+11133	152	*Loloish	bi¹	bi¹	shrew	shrew		2.1.1	39-1	0	D1	
+11135	152	*Loloish	ʔ-myaŋ¹	ʔ-myaŋ¹	cattle	cattle		2.1.2	9B	0	D1	
+11136	152	*Loloish	nwa²	nwa²	cattle	cattle		2.1.2	9A	0		2538
+11137	152	*Loloish	ŋya²	ŋya²	buffalo	buffalo		2.1.2	8B	0	D1	
+11138	152	*Loloish	o²	o²	buffalo	buffalo		2.1.2	8A	0	D1	
+11139	152	*Loloish	C-wi²	C-wi²	antelope	antelope		2.2.2	20-2	0		
+11140	152	*Loloish	C-lway²	C-lway²	gibbon	gibbon		2.1.9	25A	0		
+11141	152	*Loloish	A CL	A CL	black monkey	black monkey		9.4	25B	0		e?
+11142	152	*Loloish	ʔ-ko²/¹	ʔ-ko²/¹	rhesus	rhesus		2.1.9	26A	0		
+11146	152	*Loloish	ʅu¹	ʅu¹	flying squirrel	flying squirrel		6.7.5	43/(45)	0		
+11152	152	*Loloish	zan/zaw/	zan/zaw/	animal	animal		2.3	47	0		
+11153	492	*Common Lahu	zan²	zan²	animal	animal		2.3	47	0		
+11154	152	*Loloish	s-ŋyakᴴ	s-ŋyakᴴ	bird	bird		2.2.4	48	0	D1	p,3442
+11155	152	*Loloish	(k)-dzwan¹	(k)-dzwan¹	hawk	hawk		2.2.4.1	49	0	D1	p,2219
+11156	152	*Loloish	k-|rakᴴ	k-|rakᴴ	chicken	chicken		2.1.10	50	0	D1	1606
+11165	152	*Loloish	ga/kya³	ga/kya³	crab	crab		2.2.5	68A	0		
+11166	152	*Loloish	dzi³	dzi³	crab	crab		2.2.5	68B	0		
+11167	152	*Loloish	daŋ¹	daŋ¹	turtle	turtle		2.1.6	69-1	0		
+11168	152	*Loloish	C-grukᴸ/	C-grukᴸ/	turtle	turtle		2.1.6	69-2	0		
+11169	492	*Common Lahu	ʔ-krukᴴ	ʔ-krukᴴ	turtle	turtle		2.1.6	69-2	0		
+11170	152	*Loloish	baŋ³	baŋ³	spider	spider		2.2.6	79A	0		5400
+11171	152	*Loloish	m-|gu¹/m-|ga²	m-gu¹/m-ga²	spider	spider		2.2.6	79B	0		5681,5408
+11172	152	*Loloish	bu¹/²	bu¹/²	worm	worm		2.2.6	80-1	0		
+11173	152	*Loloish	di¹	di¹	worm	worm		2.2.6	80-2	0		
+11174	152	*Loloish	daŋ¹	daŋ¹	tail	tail		1.4.10.1	84-1	0		
+11175	492	*Common Lahu	tu:	tu:	tail	tail		1.4.10.1	84-1	0		5639
+11176	152	*Loloish	ʔmri²	ʔmri²	tail	tail		1.4.10.1	84-2	0		1288
+11177	492	*Common Lahu	mehˍ	mehˍ	tail	tail		1.4.10.1	84-2	0		1288
+11178	152	*Loloish	ʔ-mwe³	ʔ-mwe³	feathers	feathers		1.6.1.1	85/90	0		p,m
+11179	492	*Common Lahu	mu:	mu:	feathers	feathers		1.6.1.1	85/90	0		363
+11180	152	*Loloish	u²	u²	head	head		1.2.1	88A	0		385
+11181	492	*Common Lahu	oˉ	oˉ	head	head		1.2.1	88A	0		385
+11182	152	*Loloish	ʔ-|du²	ʔ-du²	head	head		1.2.1	88B	0		1223
+11183	492	*Common Lahu	to:	to:	head	head		1.2.1	88B	0		1223
+11184	152	*Loloish	ʔ-|koŋ²	ʔ-koŋ²	head	head		1.2.1	88C	0		387
+11185	492	*Common Lahu	k'oˍ	k'oˍ	head	head		1.2.1	88C	0	E	387,e
+11186	152	*Loloish	ʔ-|tsam¹	ʔ-tsam¹	head hair	head hair		1.2.3	89-1	0		366
+11188	152	*Loloish	kriŋ¹	kriŋ¹	head hair	head hair		1.2.3	89-2	0		372
+11189	492	*Common Lahu	hkeh:	hkeh:	head hair	head hair		1.2.3	89-2	0		372
+11190	152	*Loloish	s-|na¹	s-na¹	nose	nose		1.2.8	93-1	0		803
+11191	492	*Common Lahu	naˍ	naˍ	nose	nose		1.2.8	93-1	0		803
+11192	152	*Loloish	kaŋ²	kaŋ²	nose	nose		1.2.8	93-2	0		809
+11193	492	*Common Lahu	hk'uhˇ	hk'uhˇ	nose	nose		1.2.8	93-2	0		809
+11194	152	*Loloish	swa²	swa²	tooth	tooth		1.3.4	96A	0		632
+11195	152	*Loloish	ʔ-cway¹|	ʔ-cway¹|	tusk	tusk		1.3.4.1	96B	0		635
+11197	152	*Loloish	ʔ-ko³	ʔ-ko³	gums	gums		1.3.4.3	98A	0		p,1723
+11198	492	*Common Lahu	hk'uh:	hk'uh:	gums	gums		1.3.4.3	98A	0		
+11199	152	*Loloish	diŋ²	diŋ²	gums	gums		1.3.4.3	98B	0		1718
+11200	492	*Common Lahu	tehˇ	tehˇ	gums	gums		1.3.4.3	98B	0		1718
+11202	152	*Loloish	ʔ-pi¹	ʔ-pi¹	chin	chin		1.2.5.3	100A	0		p,271
+11203	492	*Common Lahu	pi:	pi:	chin	chin		1.2.5.3	100A	0		271
+11204	152	*Loloish	doŋ²	doŋ²	chin	chin		1.2.5.3	100B	0		286
+11205	152	*Loloish	(C)-na²	(C)-na²	ear	ear		1.2.7	102-1	0		p,811
+11206	492	*Common Lahu	naˍ	naˍ	ear	ear		1.2.7	102-1	0		811
+11207	152	*Loloish	ʔ-baŋ¹	ʔ-baŋ¹	ear	ear		1.2.7	102-2	0		p,812
+11208	492	*Common Lahu	puh:	puh:	ear	ear		1.2.7	102-2	0		812
+11209	152	*Loloish	ʔ-kroŋ²	ʔ-kroŋ²	throat	throat		1.3.5	105A	0		p,489
+11210	492	*Common Lahu	kuhˍ	kuhˍ	throat	throat		1.3.5	105A	0		
+11211	152	*Loloish	byiŋ²	byiŋ²	throat	throat		1.3.5	105B	0		
+11212	492	*Common Lahu	pe˯	pe˯	throat	throat		1.3.5		0		484
+11213	152	*Loloish	ʔ-ga³	ʔ-ga³	armpit	armpit		1.5.1.2.3	116A	0		
+11214	152	*Loloish	li¹	li¹	armpit	armpit		1.5.1.2.3	116B	0		1289
+11215	152	*Loloish	loŋ²	loŋ²	breast	breast		1.4.4.3	119A	0		3458
+11216	152	*Loloish	no³	no³	breast	breast		1.4.4.3	119B	0		253
+11217	152	*Loloish	(C-|k)yakᴴ|	(C-k)yakᴴ|	navel	navel		1.9.4	120A	0		525
+11218	152	*Loloish	ʔ-doŋ¹|	ʔ-doŋ¹|	navel	navel		1.9.4	120B	0		3447
+11219	492	*Common Lahu	tu:	tu:	navel	navel		1.9.4	120B	0		520
+11220	152	*Loloish	C-kru	C-kru	navel	navel		1.9.4	120C	0		
+11221	152	*Loloish	daŋ¹/²	daŋ¹/²	buttock	buttock		1.4.9.2	121A	0		
+11222	152	*Loloish	(ʃ)-boŋ²	(ʃ)-boŋ²	thigh	thigh		1.5.7.1	121B	0		
+11223	492	*Common Lahu	puˍ	puˍ	thigh	thigh		1.5.7.1	121B	0		
+11225	492	*Common Lahu	taw:	taw:	sole	sole		1.5.5	130A	0		
+11226	152	*Loloish	C-pay²/¹	C-pay²/¹	sole	sole		1.5.5	130B	0		
+11227	492	*Common Lahu	peh:	peh:	sole	sole		1.5.5	130B	0		
+11229	152	*Loloish	(ʃ)-papᴸ	(ʃ)-papᴸ	lungs	lungs		1.7.2	141A	0		
+11230	492	*Common Lahu	hpoˆ	hpoˆ	lungs	lungs		1.7.2	141A	0		
+11231	152	*Loloish	tsi²/tsutᴴ	tsi²/tsutᴴ	lungs	lungs		1.7.2	141B	0		
+11232	492	*Common Lahu	htsuhˇ	htsuhˇ	lungs	lungs		1.7.2	141B	0		
+11233	152	*Loloish	m-|ji²	m-ji²	urine	urine		1.8.4	149A	0		650
+11234	492	*Common Lahu	dzuhˇ	dzuhˇ	urine	urine		1.8.4	149A	0		650
+11235	152	*Loloish	ʃi²	ʃi²	urine	urine		1.8.4	149B	0		650
+11236	152	*Loloish	co¹	co¹	milk	milk			155A	0		5539
+11237	492	*Common Lahu	cuˉ	cuˉ	milk	milk			155A	0		5541
+11238	152	*Loloish	no³	no³	milk	milk			155B	0		253
+11239	152	*Loloish	mum²	mum²	widow	widow		4.2.8	166-1	0		
+11240	492	*Common Lahu	mehˇ	mehˇ	widow	widow		4.2.8	166-1	0		4882
+11241	152	*Loloish	co²	co²	widow	widow		4.2.8	166-2	0		
+11242	492	*Common Lahu	chawˇ	chawˇ	widow	widow		4.2.8	166-2	0		
+11243	152	*Loloish	'iron beater'	'iron beater'	blacksmith	blacksmith		4.2.1.4	171A	0		e
+11244	152	*Loloish	[hlek	[hlek	blacksmith	blacksmith		4.2.1.4	171B	0		
+11245	152	*Loloish	la²	la²	Lahu	Lahu			175-1	0		
+11246	152	*Loloish	hu²	hu²	Lahu	Lahu			175-2	0		5632
+11247	152	*Loloish	[l	[l	Lisu	Lisu		4.6	176-1	0		e
+11248	152	*Loloish	[ʃaw	[ʃaw	Lisu	Lisu		4.6	176-2	0		
+11249	152	*Loloish	ka²	ka²	Akha	Akha		4.6	177-1	0		
+11250	152	*Loloish	kɔ	kɔ	Akha	Akha		4.6	177-2	0		
+11252	492	*Common Lahu	kaw	kaw	Northern Thai	Northern Thai		9.2.8	179-1	0		
+11253	152	*Loloish	law	law	Northern Thai	Northern Thai		9.2.8	179-2	0		
+11254	152	*Loloish	bi²	bi²	Shan	Shan			180-1	0		
+11255	152	*Loloish	cam²	cam²	Shan	Shan			180-2	0		
+11256	152	*Loloish	ga²	ga²	Indian	Indian		4.6	186-1	0		
+11257	152	*Loloish	la²	la²	Indian	Indian		4.6	186-2	0		
+11258	152	*Loloish	?əC-ma³	?əC-ma³	mother	mother		4.7.1	200A	0		
+11259	152	*Loloish	?əyan³	?əyan³	mother	mother		4.7.1	200B	0		
+11260	152	*Loloish	ʔədya³	ʔədya³	parent	parent		4.7.1	200/201	0		
+11261	152	*Loloish	ʔəwikᴸ	ʔəwikᴸ	elder brother	elder  brother		4.7.1	202-1	0		
+11262	152	*Loloish	go¹	go¹	elder brother	elder  brother		4.7.1	202-2	0		
+11263	152	*Loloish	'elder sibling female'	'elder sibling female'	elder sister	elder  sister		4.7.1	204A	0		e
+11264	152	*Loloish	ʔətsi³	ʔətsi³	elder sister	elder  sister		4.7.1	204B	0		
+11265	152	*Loloish	m-du¹	m-du¹	sister's children	sister's children		4.7.2	212A	0		
+11266	152	*Loloish	ʔəʃa²	ʔəʃa²	brother's children	brother's children		1.5.3.2	212B	0		
+11268	152	*Loloish	ʔ-jo³	ʔ-jo³	generation	generation		4.4	223A	0		
+11269	152	*Loloish	zi¹	zi¹	generation	generation		4.4	223B	0		
+11270	152	*Loloish	(m)-daŋ²	(m)-daŋ²	leggings	leggings		5.11.8.1	229A	0		
+11271	152	*Loloish	toŋ¹	toŋ¹	leggings	leggings		5.11.8.1	229B	0		
+11272	152	*Loloish	(C)-ti³	(C)-ti³	skirt	skirt		5.11.8.2.1	231A	0		
+11273	152	*Loloish	m-du¹	m-du¹	skirt	skirt		5.11.8.2.1	231B	0		
+11274	152	*Loloish	ʔ-toŋ²	ʔ-toŋ²	rice powder	rice powder		3.1.4	240A	0		
+11275	152	*Loloish	tsum¹	tsum¹	rice powder	rice powder		3.1.4	240B	0		
+11276	152	*Loloish	ʔ-kri¹	ʔ-kri¹	rice powder	rice powder		3.1.4	240C	0		
+11277	152	*Loloish	ʔo²	ʔo²	pot	pot		5.5	242-1	0		5812
+11278	152	*Loloish	ʔ-loŋ²	ʔ-loŋ²	pot	pot		5.5	242-2	0		
+11279	152	*Loloish	ʔ-lyukᴸ	ʔ-lyukᴸ	ladle	ladle		5.5	244-1	0		
+11280	152	*Loloish	ʔ-ku¹/²/³	ʔ-ku¹/²/³	ladle	ladle		5.5	244-2	0		
+11281	152	*Loloish	C-krakᴸ	C-krakᴸ	basket	basket		5.1	253/4/5A	0		m,5819
+11282	152	*Loloish	m-gyapᴸ	m-gyapᴸ	basket	basket		5.1	253-2/255	0		
+11283	152	*Loloish	m-gu²	m-gu²	mat	mat		5.11.9.4	256A	0		
+11284	152	*Loloish	ʔ-pu³	ʔ-pu³	mat	mat		5.11.9.4	256B	0		
+11285	152	*Loloish	taŋ³	taŋ³	knife	knife		5.5	257/8/9A	0		5609
+11286	152	*Loloish	ʔ-mi(a)¹	ʔ-mi(a)¹	knife	knife		5.5	257/8/9B	0		
+11287	152	*Loloish	ta²	ta²	knife	knife		5.5	257/8/9C	0		2684
+11289	152	*Loloish	C-|mla²	C-mla²	arrow	arrow		5.15	266A	0		2386
+11290	152	*Loloish	C-can¹	C-can¹	arrow(head)	arrow(head)		5.15	266B	0		p,74
+11291	152	*Loloish	C-tu¹	C-tu¹	hammer	hammer		5.11.5.4	269A	0		
+11292	152	*Loloish	kaŋ¹	kaŋ¹	hammer	hammer		5.11.5.4	269B	0		
+11293	152	*Loloish	(y)aw²	(y)aw²	banana	banana		3.1.5	275A	0		
+11294	152	*Loloish	s-ŋakᴴ	s-ŋakᴴ	banana	banana		3.1.5	275B	0		
+11295	152	*Loloish	s-|nökᴴ	s-nökᴴ	bean	bean		3.1.4	276A	0		2067
+11296	152	*Loloish	ʔ-bay²/atᴴ	ʔ-bay²/atᴴ	bean	bean		3.1.4	276B	0		
+11297	152	*Loloish	maŋ²	maŋ²	rice (cooked)	rice (cooked)		3.1.4	281A	0		
+11298	152	*Loloish	haŋ²	haŋ²	rice (cooked)	rice (cooked)		3.1.4	281B	0		
+11299	152	*Loloish	ʃa¹	ʃa¹	corn	corn		3.1.4	290-1	0		
+11300	152	*Loloish	C-kokᴸ	C-kokᴸ	corn	corn		3.1.4	290-2	0		
+11301	152	*Loloish	wa²	wa²	bamboo	bamboo		3.1.1	295A	0		2549
+11302	152	*Loloish	ma¹	ma¹	bamboo	bamboo		3.1.1	295B	0		5664
+11303	152	*Loloish	m-|da¹	m-da¹	fern	fern		3.1.1	300-1	0		3566
+11304	152	*Loloish	C-kra¹	C-kra¹	fern	fern		3.1.1	300-2	0		
+11305	152	*Loloish	sikᴴ	sikᴴ	tree	tree		3.1.2	303A	0		2658
+11306	152	*Loloish	baŋ²	baŋ²	tree	tree		3.1.2	303B	0		
+11307	152	*Loloish	dzin¹	dzin¹	tree	tree		3.1.2	303C	0		
+11318	152	*Loloish	mo²	mo²	sun	sun		3.2.10	317-1	0		
+11319	152	*Loloish	(ʔ)-|ne¹	(ʔ)-ne¹	sun	sun		3.2.10	317-2	0		85
+11320	152	*Loloish	mo¹	mo¹	cloud	cloud		3.2.1	320-1	0		
+11321	152	*Loloish	C-|dim¹	C-dim¹	cloud	cloud		3.2.1	320-2	0		5656
+11322	152	*Loloish	ʔ-|mre¹	ʔ-mre¹	earth	earth		3.2.11	323-1	0		2453
+11323	152	*Loloish	tsa²	tsa²	earth	earth		3.2.11	323-2	0		5671
+11324	152	*Loloish	gyan²	gyan²	thunder	thunder		3.2.1	327A	0		
+11325	152	*Loloish	gro²	gro²	thunder	thunder		3.2.1	327B	0		
+11326	152	*Loloish	C-kapᴸ	C-kapᴸ	ashes	ashes		3.2.12.2	331-1	0		
+11327	152	*Loloish	C-|la¹	C-la¹	ashes	ashes		3.2.12.2	331-2	0		5606
+11328	152	*Loloish	swe²	swe²	charcoal	charcoal		3.2.4	332-1	0		
+11329	152	*Loloish	(k-)rutᴸ	(k-)rutᴸ	charcoal	charcoal		3.2.4	332-2	0		
+11331	152	*Loloish	ʔ-putᴸ/poŋ²	ʔ-putᴸ/poŋ²	mud	mud		3.2.11	335B	0	HIDE	DUPE IN SOURCE
+11332	152	*Loloish	re¹	re¹	water	water		3.2.3	336A-1	0		1013
+11333	152	*Loloish	ʔ-grakᴴ	ʔ-grakᴴ	water	water		3.2.3	336A-2	0		
+11334	152	*Loloish	laŋ¹	laŋ¹	water	water		3.2.3	336B	0		
+11335	152	*Loloish	k-lokᴸ|	k-lokᴸ|	stone	stone		3.2.9	337A	0		1269
+11336	152	*Loloish	c-rakᴸ|	c-rakᴸ|	stone	stone		3.2.9	337B	0		1269
+11337	152	*Loloish	tsa¹	tsa¹	sunshine	sunshine		3.2.10	338A	0		
+11338	152	*Loloish	pu¹	pu¹	sunshine	sunshine		3.2.10	338B	0		
+11339	152	*Loloish	ya¹/la¹	ya¹/la¹	door	door		5.11.9.3	344A-1	0		
+11340	152	*Loloish	mikᴸ	mikᴸ	door	door		5.11.9.3	344A-2	0		
+11341	152	*Loloish	k/|go²/|³	k/go²/³	door	door		5.11.9.3	344B	0		273
+11342	152	*Loloish	ʔ-cokᴴ	ʔ-cokᴴ	beam (small)	beam (small)		5.11.9	349A	0		
+11343	152	*Loloish	toŋ²	toŋ²	beam (small)	beam (small)		5.11.9	349B	0		
+11344	152	*Loloish	dzam³	dzam³	steps / ladder	steps / ladder		6.7.4	351A	0		3604
+11345	152	*Loloish	m-|gu¹/²	m-gu¹/²	steps / ladder	steps / ladder		6.7.4	351B	0		260
+11346	152	*Loloish	kakᴴ	kakᴴ	village	village		5.8	355A	0		5745
+11347	152	*Loloish	koŋ³	koŋ³	village	village		5.8	355B	0		5776
+11348	152	*Loloish	rwa¹	rwa¹	village	village		5.8	355C	0		2773
+11349	152	*Loloish	pu³	pu³	village	village		5.8	355D	0		
+11350	152	*Loloish	re¹	re¹	God	God		5.8.1.1	360-1	0		
+11351	492	*Common Lahu	g'ui˯	g'ui˯	God	God		5.8.1.1		0		
+11352	152	*Loloish	sa¹	sa¹	God	God		5.8.1.1	360-2	0		5792
+11353	492	*Common Lahu	sha:	sha:	God	God		5.8.1.1	360-2	0		
+11354	152	*Loloish	maŋ¹	maŋ¹	blessing	blessing		5.8	363A	0		
+11355	152	*Loloish	m-bu³	m-bu³	blessing	blessing		5.8	363B	0		
+11356	152	*Loloish	m-dzo²	m-dzo²	lord	lord		4.2.5	365A	0		
+11357	152	*Loloish	maŋ²	maŋ²	lord	lord		4.2.5	365B	0		
+11358	152	*Loloish	m-ju¹	m-ju¹	bell	bell		5.1	374A	0		
+11359	152	*Loloish	loŋ¹	loŋ¹	gong	gong		5.1	374B	0		
+11360	152	*Loloish	C-ga²	C-ga²	flute	flute		5.1	377A	0		
+11361	152	*Loloish	p-lwe¹	p-lwe¹	flute	flute		5.1	377B	0		
+11362	152	*Loloish	ʔ-gu¹	ʔ-gu¹	pipe	pipe		5.8	385A	0		
+11363	152	*Loloish	C-ʃukᴸ	C-ʃukᴸ	pipe	pipe		5.8	385B	0		
+11364	152	*Loloish	pay²	pay²	fan	fan		5.4	387A	0		
+11365	152	*Loloish	byaŋ¹/³	byaŋ¹/³	fan	fan		5.4	387B	0		
+11366	152	*Loloish	wa³	wa³	trap	trap		5.14	390A	0		3556
+11367	152	*Loloish	(C)-toŋ¹	(C)-toŋ¹	trap	trap		5.14	390B	0		
+11368	152	*Loloish	C-taŋ²	C-taŋ²	prison	prison		5.11.9.1	394A	0		
+11369	152	*Loloish	ʔk̨rukaᴴ	ʔk̨rukaᴴ	prison	prison		5.11.9.1	394B	0		
+11370	152	*Loloish	ʔ-li¹	ʔ-li¹	boat	boat		5.1	398A	0		p,2413
+11371	152	*Loloish	loŋ¹/²	loŋ¹/²	boat	boat		5.1	398B	0		2416
+11372	152	*Loloish	plu¹	plu¹	silver	silver		3.2.4	401A	0		1235
+11373	152	*Loloish	C-|ŋwe¹	C-ŋwe¹	silver	silver		3.2.4	401B	0		2536
+11374	152	*Loloish	s-rwe¹	s-rwe¹	gold	gold		3.2.4	402A	0		3496
+11375	152	*Loloish	[kam²¹	[kam²¹	gold	gold		3.2.4	402B	0		
+11376	152	*Loloish	[ja³]	[ja³]	tobacco	tobacco		3.1.6.2	406A	0		
+11377	152	*Loloish	C-ʃukᴸ|	C-ʃukᴸ|	tobacco	tobacco		3.1.6.2	406B	0		3462
+11379	152	*Loloish	[ja³]	[ja³]	opium	opium		3.1.6.2	410-1	0		
+11380	152	*Loloish	[(p)jin	[(p)jin	opium	opium		3.1.6.2	410-2	0		
+11381	152	*Loloish	tsam¹	tsam¹	rupee	rupee		5.9	411A	0		
+11383	152	*Loloish	C-nakᴴ	C-nakᴴ	medicine	medicine		5.4	413A-1	0		
+11384	152	*Loloish	tsipᴸ/tse²	tsipᴸ/tse²	medicine	medicine		5.4	413A-2	0		
+11385	152	*Loloish	[ja]	[ja]	medicine	medicine		5.4	413B-1	0		
+11386	152	*Loloish	ga²	ga²	medicine	medicine		5.4	413B-2	0		
+11387	152	*Loloish	ʔ-dan³	ʔ-dan³	wet field	wet field		6.6	415-1	0		
+11388	152	*Loloish	C-mi¹	C-mi¹	wet field	wet field		6.6	415-2	0		
+11389	152	*Loloish	daŋ²	daŋ²	language	language		5.8	418A	0		
+11390	492	*Common Lahu	tawˇ	tawˇ	language	language		5.8	418A	0		
+11391	152	*Loloish	ka(ŋ)²	ka(ŋ)²	language	language		5.8	418B	0		
+11392	492	*Common Lahu	hkuhˇ	hkuhˇ	language	language		5.8	418B	0		5596
+11393	152	*Loloish	ʔ-|dzum¹	ʔ-dzum¹	pair	pair		9.9	420A	0		5383
+11394	152	*Loloish	gu²	gu²	pair	pair		9.9	420B	0		
+11395	152	*Loloish	ʃə-ripᴴ	ʃə-ripᴴ	light	light		7.1.11.1	422A	0		
+11396	152	*Loloish	ʃum¹	ʃum¹	shade	shade		3.2.10	422B	0		
+11397	152	*Loloish	C-m(y)u²/³	C-m(y)u²/³	thing	thing		8.1	424A	0		
+11398	152	*Loloish	[cən²¹]	[cən²¹]	thing	thing		8.1	424B	0		
+11399	152	*Loloish	mi(aw)²	mi(aw)²	work	work		6.1.1	426A	0		2455
+11400	152	*Loloish	[kam	[kam	work	work		6.1.1	426B	0		5712
+11401	152	*Loloish	?əje²	?əje²	what?	what?		10.5.3	431A	0		
+11402	152	*Loloish	ʔəpa¹	ʔəpa¹	what?	what?		10.5.3	431B	0		
+11403	152	*Loloish	ʔtapᴸ	ʔtapᴸ	what?	what?		10.5.3	431C	0		
+11406	152	*Loloish	ʔ-|way²/|³	ʔ-way²/³	plural	plural		10.4.1.4	442/3/4-2	0		450
+11407	152	*Loloish	ni¹	ni¹	we	we	incl.	4.1	442-1	0		
+11408	152	*Loloish	s-ya¹	s-ya¹	right	right		1.5.3.2	445A	0		
+11409	492	*Common Lahu	sha:/ya:	sha:/ya:	right	right		1.5.3.2	445A	0		2786,2786
+11410	152	*Loloish	ʔ-ma¹	ʔ-ma¹	right	right		1.5.3.2	445B	0		
+11411	152	*Loloish	b-|way²	b-|way²	left	left		1.5.3.2	446A	0		2154
+11412	492	*Common Lahu	BK/YL faˍ /vehˍ	BK/YL faˍ /vehˍ	left	left		1.5.3.2	446A	0		e
+11413	152	*Loloish	C-may²	C-may²	left	left		1.5.3.2	446B	0		
+11414	492	*Common Lahu	mehˍ	mehˍ	left	left		1.5.3.2	446B	0		2154
+11415	152	*Loloish	ʔ-|ru²	ʔ-ru²	in front	in front		10.1.1	447-1	0		1217
+11416	492	*Common Lahu	g'uˇ	g'uˇ	in front	in front		10.1.1	447-1	0		1217
+11417	152	*Loloish	s-|re³	s-re³	in front	in front		10.1.1	447-2	0		1213
+11418	492	*Common Lahu	suh:	suh:	in front	in front		10.1.1	447-2	0		1214
+11419	152	*Loloish	C-ka²	C-ka²	behind	behind		9.2.8	448-1	0		
+11420	492	*Common Lahu	C-kokᴸ	C-kokᴸ	behind	behind		9.2.8	448-1	0		
+11421	492	*Common Lahu	hk'aˇ	hk'aˇ	behind	behind		9.2.8	448-1	0		
+11422	492	*Common Lahu	hk'aw˰	hk'aw˰	behind	behind		9.2.8	448-1	0		
+11427	152	*Loloish	ʔ-nokᴸ	ʔ-nokᴸ	behind	behind		9.2.8	448-2	0		
+11428	492	*Common Lahu	nuhˉ	nuhˉ	behind	behind		9.2.8	448-2	0		
+11429	152	*Loloish	m-ba¹	m-ba¹	on the other side	on the other side		10.1.1	452A	0		
+11430	152	*Loloish	ʔ-ni¹	ʔ-ni¹	on the other side	on the other side		10.1.1	452B	0		
+11431	152	*Loloish	yakᴸ	yakᴸ	today	today		9.1.3	466-1	0		
+11432	152	*Loloish	ʔ-kutᴸ	ʔ-kutᴸ	this evening	this evening		10.4.3.2	468-2	0		
+11433	152	*Loloish	s-nikᴴ|	s-nikᴴ|	year	year		9.1.2	477A	0		2501
+11434	152	*Loloish	C-kokᴸ	C-kokᴸ	year	year		9.1.2	477B	0		
+11435	152	*Loloish	ra²	ra²	classifier	classifier		10.1.3	496A	0		5677
+11437	152	*Loloish	ʔ-yokᴴ	ʔ-yokᴴ	classifier	classifier		10.1.3	496B	0		
+11438	152	*Loloish	[khwɛ  ]	[khwɛ  ]	half	half		9.8	499A	0		
+11439	152	*Loloish	pakᴴ	pakᴴ	half	half		9.8	499B	0		
+11440	152	*Loloish	bra¹	bra¹	blue	blue		9.4	505A	0		
+11441	152	*Loloish	[lan²¹]	[lan²¹]	blue	blue		9.4	505B	0		b
+11442	152	*Loloish	(C)-m-gaŋ¹	(C)-m-gaŋ¹	cool	cool		7.1.2.3	515A	0		
+11443	152	*Loloish	C-cokᴸ	C-cokᴸ	cool	cool		7.1.2.3	515B	0		
+11444	152	*Loloish	ʔ-loŋ¹	ʔ-loŋ¹	hot	hot			517A	0		
+11446	152	*Loloish	kyikᴴ	kyikᴴ	burning hot	burning hot		3.2.12.1	518A	0		
+11447	152	*Loloish	cu¹	cu¹	burning hot	burning hot		3.2.12.1	518B	0		
+11454	152	*Loloish	s-|rakᴸ	s-rakᴸ	ashamed	ashamed		8.3.3.8.2	520-1	0		379
+11455	152	*Loloish	ʔ-daŋ¹	ʔ-daŋ¹	ashamed	ashamed		8.3.3.8.2	520-2	0		5763
+11460	152	*Loloish	krokᴴ	krokᴴ	ashamed	ashamed		8.3.3.8.2	529A	0		
+11461	152	*Loloish	ʔ-ya²	ʔ-ya²	antelope	antelope		2.2.2	1	0		
+11462	152	*Loloish	kye¹	kye¹	barking deer	barking deer		2.1.11.1	2	0		2313
+11463	152	*Loloish	(k)-|tsatᴸ	(k)-tsatᴸ	sambhar deer	sambhar deer		2.2.2	3	0		2739
+11464	152	*Loloish	(k)-|citᴸ	(k)-citᴸ	goat	goat		2.1.8	4	0		1226
+11465	152	*Loloish	ʒo¹	ʒo¹	sheep	sheep		2.1.8	5	0		6028
+11466	152	*Loloish	mraŋ²	mraŋ²	horse	horse		2.1.7	6	0		1431
+11467	152	*Loloish	[lɔ²¹]	[lɔ²¹]	mule	mule		2.1.7	7	0		6072
+11468	152	*Loloish	ɲa²	ɲa²	gaur	gaur		2.1.2	10	0		
+11469	152	*Loloish	ʔ-|ya³	ʔ-ya³	elephant	elephant		2.2.1	11	0		3317
+11470	152	*Loloish	k-|d-|wam¹	k-d-wam¹	bear	bear		2.2.3	12	0		2777
+11471	152	*Loloish	k-|la²	k-|la²	tiger	tiger		2.1.3	13	0		5560
+11472	152	*Loloish	k-zikᴸ	k-zikᴸ	leopard	leopard		2.1.3	14	0		p,2805
+11473	152	*Loloish	m-ge¹	m-ge¹	Temminck's cat	Temminck's cat		2.1.3	15	0		
+11474	152	*Loloish	k-|roŋ¹	k-|roŋ¹	leopard cat	leopard cat		2.1.3	16	0		2618
+11475	152	*Loloish	kwe²	kwe²	dog	dog		2.1.11	18	0		1764
+11476	152	*Loloish	k-|wan¹	k-wan¹	dhole	dhole		2.1.11	19	0		6053
+11477	152	*Loloish	wakᴸ	wakᴸ	pig	pig		2.1.12	21	0		1006
+11479	152	*Loloish	myokᴸ	myokᴸ	monkey	monkey		2.1.9	23	0		2462
+11480	152	*Loloish	ʔa¹	ʔa¹	leaf monkey	leaf monkey		3.1.3	24	0		
+11481	152	*Loloish	'white monkey'	'white monkey'	langur	langur		2.1.9	27	0		e
+11482	152	*Loloish	C-|loŋ¹	C-loŋ¹	loris	loris		2.1.9	28	0		5567
+11483	152	*Loloish	ʃ-|/ʔp-|yam¹	ʃ-/ʔp-yam¹	otter	otter		2.2.7.1	29	0		2595,2595
+11484	152	*Loloish	ʔ-|plu²	ʔ-plu²	porcupine	porcupine		2.1.1	30	0		5429
+11485	152	*Loloish	(k)-|rwakᴴ	(k)-rwakᴴ	rat	rat		2.1.1	31	0		2630
+11486	152	*Loloish	tokᴴ	tokᴴ	squirrel	squirrel		2.1.1	32	0		
+11487	152	*Loloish	pi²	pi²	bamboo rat	bamboo rat		3.1.1	33	0		2186
+11488	152	*Loloish	krapᴴ	krapᴴ	pangolin	pangolin		2.2.7	34	0		
+11489	152	*Loloish	'bitter rat'	'bitter rat'	brushtailed rat	brushtailed rat			35	0		e
+11496	152	*Loloish	s-ro³	s-ro³	ground squirrel	ground squirrel		3.2.11	44	0		
+11497	152	*Loloish	zan/zaw/zan²	zan/zaw/zan²	animal	animal		2.3	47	0		
+11501	152	*Loloish	akᴸ/a³	akᴸ/a³	crow	crow		2.2.4.1	52	0		
+11502	152	*Loloish	k-gye²	k-gye²	parrot	parrot		2.2.4.1	54	0		p,7416
+11503	152	*Loloish	m-|ja¹	m-ja¹	sparrow	sparrow		2.2.4.1	55	0		5413
+11505	152	*Loloish	k-rökᴴ	k-rökᴴ	partridge	partridge		2.2.4.1	57	0		
+11506	152	*Loloish	po¹	po¹	rooster	rooster		2.1.10	58	0		
+11510	152	*Loloish	lay¹/|²	lay¹/²	python	python		2.1.6	64	0		6112
+11512	152	*Loloish	k-ʔ-pa²	k-ʔ-pa²	frog	frog		2.1.6.2	66	0		
+11513	152	*Loloish	ʔ-brutᴴ	ʔ-brutᴴ	toad	toad		2.1.6.2	67	0		
+11514	152	*Loloish	ŋa²	ŋa²	fish	fish		2.2.5	70	0		1455
+11515	152	*Loloish	bi/bo²	bi/bo²	insect	insect		2.2.6	71	0		2178,2178
+11516	152	*Loloish	C-brutᴸ	C-brutᴸ	fly	fly		2.2.6	72	0		
+11517	152	*Loloish	p-|rwakᴴ	p-rwakᴴ	ant	ant		2.2.6	73	0		2631
+11518	152	*Loloish	xan¹	xan¹	louse	louse		2.2.6	74	0		2652
+11519	152	*Loloish	k-rwatᴸ	k-rwatᴸ	leech	leech		2.2.6	75	0		
+11520	152	*Loloish	k-ru²	k-ru²	termite	termite		2.2.6	76	0		
+11521	152	*Loloish	bya²	bya²	bee	bee		2.2.6	77	0		2187
+11522	152	*Loloish	C-lu³	C-lu³	butterfly	butterfly		2.2.6	78	0		
+11523	152	*Loloish	ʔ-pi/ʔ-pya³	ʔ-pi/ʔ-pya³	roach	roach		2.2.6	81	0		
+11524	152	*Loloish	kro¹	kro¹	horn	horn		1.2.2	82	0		819
+11525	492	*Common Lahu	hkuh:	hkuh:	horn	horn		1.2.2	82	0		819
+11526	152	*Loloish	doŋ¹	doŋ¹	wing	wing		1.5.1.3	83	0		711
+11527	492	*Common Lahu	taw:	taw:	wing	wing		1.5.1.3	83	0		711
+11528	152	*Loloish	u³	u³	egg	egg			86	0		301
+11529	492	*Common Lahu	u:	u:	egg	egg			86	0		301
+11530	152	*Loloish	[ʔan³⁵]	[ʔan³⁵]	saddle	saddle		5.14	87	0		b
+11531	492	*Common Lahu	lanˉ	lanˉ	saddle	saddle		5.14	87	0		
+11532	152	*Loloish	pyu²	pyu²	face	face		1.2.5	91	0		1186
+11533	492	*Common Lahu	hpuˇ	hpuˇ	face	face		1.2.5	91	0		1186
+11534	152	*Loloish	(C)-myakᴴ|	(C)-myakᴴ	eye	eye		1.2.6	92	0		681
+11535	492	*Common Lahu	mehˆ	mehˆ	eye	eye		1.2.6	92	0		681
+11536	152	*Loloish	(C)me²/mokᴸ	(C)me²/mokᴸ	mouth	mouth		1.3.1	94	0		467,687
+11537	492	*Common Lahu	maw˰	maw˰	mouth	mouth		1.3.1	94	0		687
+11538	152	*Loloish	' mouth-skin'	' mouth-skin'	lip	lip		1.3.2	95	0		e
+11539	152	*Loloish	ʔ-|l(y)a¹	ʔ-l(y)a¹	tongue	tongue		1.3.3	97	0		623
+11540	492	*Common Lahu	ha:	ha:	tongue	tongue		1.3.3	97	0		623
+11541	152	*Loloish	ba²	ba²	cheek	cheek		1.2.5.2	99	0		268
+11542	492	*Common Lahu	paˇ	paˇ	cheek	cheek		1.2.5.2	99	0		268
+11543	152	*Loloish	ʔ-tsitᴴ|	ʔ-tsitᴴ|	beard	beard		1.2.5.5	101	0		1226
+11544	492	*Common Lahu	tsuhˆ	tsuhˆ	beard	beard		1.2.5.5	101	0		1232
+11545	152	*Loloish	ra²/roŋ¹	ra²/roŋ¹	fontanelle	fontanelle		1.2.1.3	103	0		1198,m
+11546	492	*Common Lahu	g'aˇ	g'aˇ	fontanelle	fontanelle		1.2.1.3	103	0		1198
+11547	152	*Loloish	liŋ¹	liŋ¹	neck	neck		1.4.2	104	0		479
+11548	492	*Common Lahu	lui:	lui:	neck	neck		1.4.2	104	0		e
+11549	152	*Loloish	koŋ²	koŋ²	chest	chest		1.4.4.3	106	0		2000
+11550	152	*Loloish	p/ʔ-rum²	p/ʔ-rum²	shoulder	shoulder		1.4.3	107	0	c	
+11551	492	*Common Lahu	hpeh:/pui:	hpeh:/pui:	shoulder	shoulder		1.4.3	107	0		1327,276
+11553	152	*Loloish	C-|dzikᴸ	C-dzikᴸ	elbow	elbow		1.5.8.3	109	0		418
+11554	492	*Common Lahu	tsuhˉ	tsuhˉ	elbow	elbow		1.5.8.3	109	0		418
+11555	152	*Loloish	C-|dzikᴸ	C-dzikᴸ	wrist	wrist		1.5.8.1	110	0		418
+11556	492	*Common Lahu	tsuhˉ	tsuhˉ	wrist	wrist		1.5.8.1	110	0		418
+11557	152	*Loloish	lakᴸ	lakᴸ	hand	hand		1.5.1.1	111	0		695
+11558	492	*Common Lahu	la˰	la˰	hand	hand		1.5.1.1	111	0		695
+11559	152	*Loloish	k-wa²	k-wa²	palm	palm		1.5.5	112	0		
+11560	492	*Common Lahu	kaw:	kaw:	palm	palm		1.5.5	112	0		
+11561	152	*Loloish	s-ɲo¹	s-ɲo¹	finger	finger		1.5.6	113	0		
+11562	492	*Common Lahu	nuh:	nuh:	finger	finger		1.5.6	113	0		
+11563	152	*Loloish	C-ma³	C-ma³	thumb	thumb		1.5.6.1	114	0		
+11564	492	*Common Lahu	ma:	ma:	thumb	thumb		1.5.6.1	114	0		1619*
+11565	152	*Loloish	siŋ²	siŋ²	fingernail	fingernail		1.5.10.1	115	0		512
+11566	492	*Common Lahu	sheˍ	sheˍ	fingernail	fingernail		1.5.10.1	115	0		
+11568	152	*Loloish	gyaw² / apᴸ	gyaw² / apᴸ	waist	waist		1.4.6	118	0		215,m
+11569	492	*Common Lahu	caw˰	caw˰	waist	waist		1.4.6	118	0		215
+11570	152	*Loloish	(n)-li²|	(n)-li²|	penis	penis			122	0		1284
+11571	492	*Common Lahu	niˍ	niˍ	penis	penis			122	0		545
+11572	152	*Loloish	batᴸ	batᴸ	vulva	vulva			123	0		662
+11573	492	*Common Lahu	peh˰	peh˰	vulva	vulva			123	0		662
+11575	152	*Loloish	du³	du³	knee	knee		1.5.8.4	125	0		
+11576	152	*Loloish	bay¹	bay¹	calf	calf		1.5.7	126	0		
+11578	152	*Loloish	kre¹	kre¹	foot	foot		1.5.2	127	0		335
+11579	492	*Common Lahu	hkui:	hkui:	foot	foot		1.5.2	127	0		335
+11580	152	*Loloish	'foot-eye'	'foot-eye'	ankle	ankle		1.5.8.2	128	0	E	e
+11581	152	*Loloish	ni²	ni²	heel	heel		1.5.2.1	129	0		
+11582	492	*Common Lahu	niˍ	niˍ	heel	heel		1.5.2.1	129	0		?,m
+11585	152	*Loloish	wam²	wam²	belly	belly		1.4.7	133	0		137
+11586	492	*Common Lahu	g'oˇ	g'oˇ	belly	belly		1.4.7	133	0		137
+11587	152	*Loloish	re¹	re¹	skin	skin		1.6.5	134	0		596
+11589	152	*Loloish	xa²	xa²	meat	meat		1.1.1.1	135	0		34
+11590	492	*Common Lahu	shaˍ	shaˍ	meat	meat		1.1.1.1	135	0		34
+11591	152	*Loloish	ʃə-ro²	ʃə-ro²	bone	bone		1.6.3	136	0		34,232
+11592	492	*Common Lahu	g'uh	g'uh	bone	bone		1.6.3	136	0		232
+11593	152	*Loloish	(ʃ̀)-gru²|	(ʃ̀)-gru²|	tendon	tendon		1.6.6.1	137	0		535
+11594	152	*Loloish	C-sakᴸ|	C-sakᴸ|	breath	breath		1.1.2.2	138	0		32
+11595	492	*Common Lahu	sha˰	sha˰	breath	breath		1.1.2.2	138	0		32
+11596	152	*Loloish	C-sakᴸ|	C-sakᴸ|	life	life		1.1.2.1	139	0		32
+11597	492	*Common Lahu	sha˰	sha˰	life	life		1.1.2.1	139	0		32
+11598	152	*Loloish	(C)-nokᴸ	(C)-nokᴸ	brain	brain		1.2.4	140	0		p,243
+11599	492	*Common Lahu	naw˰	naw˰	brain	brain		1.2.4	140	0		243
+11600	152	*Loloish	ni³	ni³	heart	heart		1.7.1	142	0		297
+11601	492	*Common Lahu	ni:	ni:	heart	heart		1.7.1	142	0		297
+11602	152	*Loloish	(ʃ)-sin²	(ʃ)-sin²	liver	liver		1.7.3	143	0		p,1390
+11603	492	*Common Lahu	shehˍ	shehˍ	liver	liver		1.7.3	143	0		1390
+11604	152	*Loloish	ʔ-bin¹	ʔ-bin¹	kidney	kidney		1.7.5	144	0		m
+11605	492	*Common Lahu	pe:	pe:	kidney	kidney		1.7.5	144	0		m
+11606	152	*Loloish	(ʃ)-wutᴸ	(ʃ)-wutᴸ	stomach	stomach		1.7.6	145	0		m,m
+11607	492	*Common Lahu	fuiˉ	fuiˉ	stomach	stomach		1.7.6	145	0		2104
+11608	152	*Loloish	ʔu¹	ʔu¹	intestine	intestine		1.7.6	146	0		2102
+11609	492	*Common Lahu	g'u˯	g'u˯	intestine	intestine		1.7.6		0		2102
+11610	152	*Loloish	swe²	swe²	blood	blood		1.6.2	147	0		230
+11611	492	*Common Lahu	suhˍ	suhˍ	blood	blood		1.6.2	147	0		230
+11612	152	*Loloish	C-ʔ-kre¹	C-ʔ-kre¹	bile	bile		1.7.3.1	148	0		p,p,227
+11613	492	*Common Lahu	kui:	kui:	bile	bile		1.7.3.1	148	0		227
+11614	152	*Loloish	ʔ/|k(l)e²	ʔ/k(l)e²	feces	feces		1.8.5	150	0		572
+11615	492	*Common Lahu	hk'ehˇ	hk'ehˇ	feces	feces		1.8.5	150	0		572
+11616	152	*Loloish	ʔ-|krwe²	ʔ-krwe²	sweat	sweat		1.8.1	151	0		615
+11617	492	*Common Lahu	kuiˍ	kuiˍ	sweat	sweat		1.8.1	151	0		615
+11618	152	*Loloish	s-|napᴸ	s-napᴸ	mucus	mucus		1.8.2	152	0		805
+11619	492	*Common Lahu	nuˉ	nuˉ	mucus	mucus		1.8.2	152	0		805
+11620	152	*Loloish	kan²	kan²	spittle	spittle		1.2.6	153	0		
+11621	492	*Common Lahu	hkuiˇ	hkuiˇ	spittle	spittle		1.2.6	153	0		
+11622	152	*Loloish	m-|bliŋ¹	m-bliŋ¹	pus	pus		1.8.6.1	154	0		1292
+11624	152	*Loloish	tsaŋ¹	tsaŋ¹	person	person		4.5	156	0		
+11625	492	*Common Lahu	chaw:	chaw:	person	person		4.5	156	0		
+11626	152	*Loloish	s-yakᴸ	s-yakᴸ	baby	baby		4.2.11	157	0		p,549
+11627	492	*Common Lahu	aˉ /ehˉ	aˉ /ehˉ	baby	baby		4.2.11	157	0		m,549
+11629	152	*Loloish	ʔ-|lakᴸ	ʔ-lakᴸ	bachelor?	bachelor?		1.5.3.2	159	0		5777
+11630	492	*Common Lahu	haˉˉ	haˉˉ	bachelor	bachelor		4.2.8	159	0		5777
+11632	152	*Loloish	g-yokᴸ|	g-yokᴸ|	man	man		1.9.6.1	161	0		m
+11633	492	*Common Lahu	haˉ	haˉ	man	man		1.9.6.1	161	0		m
+11634	152	*Loloish	C-mi²|	C-mi²|	woman	woman		1.9.3	162	0		1618
+11635	492	*Common Lahu	miˇ	miˇ	woman	woman		1.9.3	162	0		1618
+11637	152	*Loloish	kyaŋ²	kyaŋ²	friend	friend		4.4.2	164	0		
+11638	492	*Common Lahu	chawˇ	chawˇ	friend	friend		4.4.2	164	0		
+11639	152	*Loloish	C-|kywan¹	C-kywan¹	slave	slave		4.2.10	165	0		5524
+11640	492	*Common Lahu	ce˯	ce˯	slave	slave		4.2.10		0		
+11641	152	*Loloish	siŋ¹	siŋ¹	headman	headman		4.2.5.2	167	0		x
+11642	492	*Common Lahu	sheh:	sheh:	headman	headman		4.2.5.2	167	0		x
+11643	152	*Loloish	do³	do³	priest	priest		4.2.4	168	0		
+11644	492	*Common Lahu	to:	to:	priest	priest		4.2.4	168	0		
+11645	152	*Loloish	maw²	maw²	doctor	doctor		4.2.1.5	169	0		
+11646	492	*Common Lahu	mawˉ	mawˉ	doctor	doctor		4.2.1.5	169	0		
+11647	152	*Loloish	[chara]/[sala]	[chara]/[sala]	teacher	teacher		6.19	170	0		
+11648	492	*Common Lahu	shaˍ laˍ	shaˍ laˍ	teacher	teacher		6.19	170	0		b?Burmese?
+11649	152	*Loloish	C-|makᴸ	C-makᴸ	soldier	soldier		4.2.6	172	0		257
+11650	152	*Loloish	ʔ-pa²|	ʔ-pa²|	male suffix	male suffix		1.9.6.1	173	0		1634
+11651	492	*Common Lahu	paˍ	paˍ	male suffix	male suffix		1.9.6.1	173	0		1634
+11652	152	*Loloish	C-ma³|	C-ma³|	female suffix	female suffix		1.9.3	174	0		1619
+11653	492	*Common Lahu	ma:	ma:	female suffix	female suffix		1.9.3	174	0		1619
+11654	152	*Loloish	[thaj	[thaj	Thai	Thai		4.6	178	0		
+11655	152	*Loloish	mran³	mran³	Burman	Burman		4.6	181	0		
+11656	152	*Loloish	hyakᴴ	hyakᴴ	Chinese	Chinese		4.6	182	0		
+11657	152	*Loloish	[wa	[wa	Wa	Wa			183	0		
+11658	152	*Loloish	jaŋ	jaŋ	Karen	Karen		4.6	184	0		
+11659	152	*Loloish	[khaŋ	[khaŋ	Kachin	Kachin		4.6	185	0		
+11660	152	*Loloish	(175+502)	(175+502)	Red Lahu	Red Lahu		9.4	187	0		e
+11661	152	*Loloish	(175+506)	(175+506)	Yellow Lahu	Yellow Lahu		9.4	188	0		e
+11662	152	*Loloish	[ʃɛ³³lɛ³³]	[ʃɛ³³lɛ³³]	Lahu Shehleh	Lahu Shehleh		4.6	189	0		
+11663	152	*Loloish	ʔə◦po²	ʔəpo²	grandfather	grandfather		4.7.1	190	0	D0	p,2582
+11664	152	*Loloish	ʔəpi¹	ʔəpi¹	grandmother	grandmother		4.7.1	191	0		
+11665	152	*Loloish	ʔəu²	ʔəu²	father's elder /	father's  elder /		4.7.1	192	0		x
+11667	152	*Loloish	ʔəkay²	ʔəkay²	father's elder	father's  elder		4.7.1	194	0		x
+11669	152	*Loloish	ʔəri¹	ʔəri¹	mother's elder /	mother's  elder /		4.7.1	196	0		
+11672	152	*Loloish	ʔəC-me¹/³	ʔəC-me¹/³	mother's younger sister	mother's  younger sister		4.7.1	199	0		
+11673	152	*Loloish	ʔəpa³	ʔəpa³	father	father		4.7.1	201	0		x
+11674	152	*Loloish	ʔəni¹	ʔəni¹	younger brother	younger  brother			203	0		
+11675	152	*Loloish	ʔəs-nam¹	ʔəs-nam¹	younger sister	younger sister			205	0		
+11676	152	*Loloish	ʒa²	ʒa²	son	son		4.7.3	206	0		
+11677	152	*Loloish	C-mi²	C-mi²	daughter	daughter		4.7.3	207	0		
+11678	152	*Loloish	(m)-|le²	(m)-le²	grandchild	grandchild		4.7.3	208	0		2410
+11679	152	*Loloish	k-lakᴴ	k-lakᴴ	great grandchild	great grandchild		4.7.3	209	0		
+11684	152	*Loloish	'older/younger.....	'older/younger.....	relatives	relatives			215	0		e
+11685	152	*Loloish	məya²	məya²	wife	wife		4.7.4	216	0		5804
+11686	152	*Loloish	m-laŋ/plaŋ¹	m-laŋ/plaŋ¹	husband	husband		4.7.4	217	0	z	
+11689	152	*Loloish	krwe²	krwe²	son's wife	son's wife		4.7.3	220	0		
+11690	152	*Loloish	ʒəmakᴸ	ʒəmakᴸ	daughter's husband	daughter's  husband		4.7.3	221	0	z	
+11693	152	*Loloish	ʔ-tsi²	ʔ-tsi²	hat	hat		5.11.8.2.1.1	225	0		
+11694	152	*Loloish	ni²/C-netᴸ	ni²/C-netᴸ	turban	turban		5.11.8.2.1.1	226	0		
+11695	152	*Loloish	bun¹	bun¹	shirt	shirt		5.11.8.2.1.2	227	0		
+11696	152	*Loloish	ʔ-/k-la²	ʔ-/k-la²	pants	pants		5.11.8.2.1.3	228	0		5571
+11697	492	*Common Lahu	haˍ	haˍ	pants	pants		5.11.8.2.1.3	228	0		5571
+11698	152	*Loloish	(ʔ)-napᴸ	(ʔ)-napᴸ	shoes	shoes		5.11.8.1	230	0		
+11700	152	*Loloish	(C)-m-it/utᴸ/ᴴ	(C)-m-it/utᴸ/ᴴ	shoulder bag	shoulder bag		1.4.3	233	0		
+11702	152	*Loloish	k-waŋ²	k-waŋ²	earring	earring		5.11.8.3	234	0		
+11703	152	*Loloish	ʔ-ban²	ʔ-ban²	ring	ring		5.11.8.3	235	0		
+11704	152	*Loloish	(C)-goŋ¹	(C)-goŋ¹	bracelet	bracelet		5.11.8.3	236	0		
+11706	152	*Loloish	C-dupᴸ	C-dupᴸ	button	button		5.11.8.2.3	238	0		
+11707	152	*Loloish	m-jwe¹	m-jwe¹	cowrie	cowrie		2.2.5	239	0		
+11708	152	*Loloish	ʔ-wa¹	ʔ-wa¹	winnowing basket	winnowing basket		3.1.10	241	0		
+11709	152	*Loloish	'three legs'	'three legs'	tripod	tripod		5.11.9.6	243	0		e
+11710	152	*Loloish	jwan¹/²	jwan¹/²	spoon	spoon		5.5	245	0		
+11711	152	*Loloish	m-(ʔ)-tum¹	m-(ʔ)-tum¹	bamboo water	bamboo water		3.1.1	246	0		
+11712	152	*Loloish	(ʔə)◦pu²	(ʔə)pu²	gourd (water carrier)	gourd  (water carrier)		3.1.6.4	247	0	z	p,5797
+11713	152	*Loloish	d/gy/j/yu¹/³	d/gy/j/yu¹/³	chopstick	chopstick		5.5	248	0		
+11714	152	*Loloish	kum²	kum²	chair	chair		5.11.9.4	249	0		
+11715	152	*Loloish	pway³	pway³	table	table		5.11.9.4	250	0		
+11716	152	*Loloish	ʔ-byapᴴ	ʔ-byapᴴ	dish	dish		5.5	251	0		
+11717	152	*Loloish	ʔ-kokᴴ	ʔ-kokᴴ	cup	cup		5.1	252	0		
+11719	152	*Loloish	taŋ³; ʔmi(a); ta²	*taŋ³; *ʔmi(a); *ta²	knife	knife		5.5	257-259	0		5609,m,2684
+11720	152	*Loloish	ʔ-cin²	ʔ-cin²	axe	axe		5.11.5.3	260	0		
+11721	152	*Loloish	ʔ-gukᴴ	ʔ-gukᴴ	large hoe	large hoe		9.7.1	261	0		
+11722	152	*Loloish	(C)-ŋökᴴ/ᴸ	(C)-ŋökᴴ/ᴸ	short hoe	short hoe		9.7.2	262	0		
+11723	152	*Loloish	C-gapᴸ|	C-gapᴸ|	sickle	sickle		5.3	263	0		x
+11724	152	*Loloish	le²	le²	bow	bow		5.15	264	0		2411
+11725	152	*Loloish	krakᴴ	krakᴴ	crossbow	crossbow		5.15	265	0		5678
+11726	152	*Loloish	[sənat³]	[sənat³]	gun	gun		5.15	267	0		
+11727	152	*Loloish	bi¹	bi¹	anvil	anvil		5.1	268	0		5724
+11728	152	*Loloish	ʔ-ɲ	ʔ-ɲ	tongs	tongs		5.4	270	0		
+11729	152	*Loloish	(C)-yutᴸ	(C)-yutᴸ	bellows	bellows		5.11.5.5	271	0		
+11730	152	*Loloish	ʔ-pay²	ʔ-pay²	dibbling stick	dibbling stick		5.1	272	0		
+11732	152	*Loloish	dza¹	dza¹	food	food		5.5	274	0		
+11733	152	*Loloish	C-patᴸ/pi²	C-patᴸ/pi²	chillie	chillie		3.1.5	277	0		
+11734	152	*Loloish	si²	si²	fruit	fruit		3.1.5	278	0		1019
+11735	152	*Loloish	ʔ-gaw³/okᴴ	ʔ-gaw³/okᴴ	rice (grains)	rice (grains)		3.1.4	279	0		
+11736	152	*Loloish	can¹	can¹	rice (paddy)	rice (paddy)		3.1.4	280	0		
+11739	152	*Loloish	ʔ-mun¹	ʔ-mun¹	taro	taro		3.1.5.1	284	0		
+11740	152	*Loloish	blim²	blim²	caladium	caladium		3.1.4	285	0		
+11741	152	*Loloish	swan¹/²|	swan¹/²	garlic / onion	garlic / onion		3.1.5	286	0		5494
+11742	152	*Loloish	ji¹	ji¹	liquor	liquor		3.1.6.3	287	0		5638
+11743	152	*Loloish	s-|mo¹	s-mo¹	mushroom	mushroom		3.1.7	288	0		2472
+11744	152	*Loloish	s-|nam²	s-nam²	sesame	sesame		3.1.6.1	289	0		2487
+11745	152	*Loloish	m-di²	m-di²	yeast	yeast		3.1.6.3	291	0		
+11746	152	*Loloish	[alu]Indic>Burmese	[alu]Indic>Burmese	potato	potato		3.1.5	292	0		b
+11747	152	*Loloish	pe²/³	pe²/³	pumpkin	pumpkin		3.1.5	293	0		5797
+11749	152	*Loloish	s-|myetᴸ/ᴴ	s-myetᴸ/ᴴ	bamboo shoot	bamboo shoot		3.1.1	296	0		2477
+11750	152	*Loloish	s-ne²/¹	s-ne²/¹	bamboo tie	bamboo tie		3.1.1	297	0		
+11751	152	*Loloish	pway²	pway²	chaff	chaff		3.1.6	298	0		
+11752	152	*Loloish	ze²	ze²	thatch	thatch		3.1.6.4	299	0		5642
+11753	152	*Loloish	k-|watᴴ	k-watᴴ	flower	flower		3.1.4	301	0		2185
+11754	152	*Loloish	(C)-|mrukᴸ	(C)-mtukᴸ	grass	grass		3.1.8	302	0		2460
+11755	152	*Loloish	C-gakᴸ	C-gakᴸ	branch	branch		1.5.3.1	304	0		
+11756	152	*Loloish	C-pakᴸ	C-pakᴸ	leaf	leaf		3.1.3	305	0		p,821
+11757	152	*Loloish	C-gukᴸ	C-gukᴸ	bark	bark		2.1.11.1	309	0		
+11758	152	*Loloish	ʒaŋ¹	ʒaŋ¹	tree sp.	tree sp.		3.1.2	310	0		
+11759	152	*Loloish	kaŋ¹	kaŋ¹	mountain	mountain		3.2.5	312	0		
+11760	152	*Loloish	C-kyoŋ¹	C-kyoŋ¹	valley	valley		3.2.5	313	0		
+11761	152	*Loloish	laŋ¹	laŋ¹	river	river		3.2.3	314	0		191
+11762	152	*Loloish	loŋ³	loŋ³	stream	stream		3.2.3	315	0		
+11763	152	*Loloish	bya²	bya²	bank	bank		9.10.2	316	0		
+11764	152	*Loloish	bə◦la³	bəla³	moon	moon		3.2.2	318	0		m,1016
+11765	152	*Loloish	C-|gray¹	C-gray¹	star	star		3.2.2	319	0		3574
+11766	152	*Loloish	mo²	mo²	sky	sky		3.2.2	321	0		
+11767	152	*Loloish	ʃi³	ʃi³	rainbow	rainbow		3.2.1	322	0		6004
+11768	152	*Loloish	r-|ywa/we¹|	r-|ywa/we¹|	rain	rain		3.2.1	324	0		2080
+11769	152	*Loloish	wa²	wa²	hail	hail		3.2.1	325	0		3554
+11770	152	*Loloish	le¹	le¹	wind	wind		3.2.1	326	0		2412
+11771	152	*Loloish	b-|lyapᴸ	b-lyapᴸ	lightning	lightning		3.2.1	328	0		352
+11772	152	*Loloish	C-mi²	C-mi²	fire	fire		3.2.12.2	329	0		
+11773	152	*Loloish	ʔ-lam¹	ʔ-lam¹	flame	flame		3.2.12.2	330	0		
+11774	152	*Loloish	ko²	ko²	smoke	smoke		3.2.12.2	333	0		2361
+11775	152	*Loloish	say²	say²	sand	sand		3.2.11	334	0		587
+11776	152	*Loloish	tsaŋ²	tsaŋ²	waterfall	waterfall		3.2.3	339	0		
+11777	152	*Loloish	s-mun¹	s-mun¹	powder	powder		3.2.11	340	0		p,5787
+11778	152	*Loloish	yim¹	yim¹	house	house		5.11.9.1	341	0		1612
+11779	152	*Loloish	rapᴸ	rapᴸ	house	house		5.11.9.1	342	0		
+11780	152	*Loloish	m-baŋ²	m-baŋ²	room	room		5.11.9.2	343	0		
+11781	152	*Loloish	pi²	pi²	slat	slat		5.11.9	345	0		
+11782	152	*Loloish	pyoŋ¹	pyoŋ¹	wall	wall		5.11.9.3	346	0		
+11783	152	*Loloish	koŋ¹	koŋ¹	roof	roof		5.11.9	347	0		
+11784	152	*Loloish	'house-wing'	'house-wing'	beam (main)	beam (main)		5.11.9	348	0		e
+11785	152	*Loloish	m-doŋ¹	m-doŋ¹	post (large)	post (large)		5.11	350	0		
+11786	152	*Loloish	ʔ-gyi¹	ʔ-gyi¹	granary	granary		5.11.9.5	352	0		
+11787	152	*Loloish	kram¹	kram¹	fence	fence		5.11.9.5	353	0		3606
+11788	152	*Loloish	C-m-brakᴸ	C-m-brakᴸ	board	board		5.11.9	354	0		
+11789	152	*Loloish	[mən]	[mən]	town	town		9.10.3	356	0		
+11790	152	*Loloish	je¹	je¹	market	market		9.10.6	357	0		
+11791	152	*Loloish	ʔ-mi¹/pri¹	ʔ-mi¹/pri¹	country	country		9.10.3	358	0		
+11793	152	*Loloish	C-natᴸ|	C-natᴸ|	spirit	spirit		5.8.1.1	361	0		160
+11794	492	*Common Lahu	neˇ	neˇ	spirit	spirit		5.8.1.1	361	0		160
+11795	152	*Loloish	ʔ-la¹	ʔ-la¹	soul	soul		1.10	362	0		p,2264
+11796	492	*Common Lahu	ha:	ha:	soul	soul		1.10	362	0		2264
+11797	152	*Loloish	[li²¹]	[li²¹]	custom	custom		5.8	364	0		
+11799	152	*Loloish	to²	to²	flag	flag		5.1	367	0		
+11801	152	*Loloish	[ʃaŋl	[ʃaŋl	invocation	invocation		8.5.13	369	0		b?
+11802	152	*Loloish	C-puk	C-puk	rice cake	rice cake		3.1.4	370	0		
+11804	152	*Loloish	[sala]	[sala]	resthouse	resthouse		5.11.9.5	372	0		b?
+11805	152	*Loloish	[sarap]	[sarap]	resthouse	resthouse		5.11.9.5	372	0		
+11807	152	*Loloish	tum/jum²	tum/jum²	drum	drum		5.1	375	0		
+11808	152	*Loloish	sɲaŋ²	sɲaŋ²	gourd reed organ	gourd reed organ		3.1.6.4	376	0		
+11809	152	*Loloish	ta²	ta²	jewsharp	jewsharp		5.1	378	0		
+11810	152	*Loloish	[bo³]	[bo³]	blanket	blanket		5.11.9.4	379	0		
+11811	152	*Loloish	m-|gum²	m-gum²	pillow	pillow		1.2.1	380	0		692
+11812	152	*Loloish	(g)-rakᴸ	(g)-rakᴸ	loom	loom		5.1	381	0		
+11813	152	*Loloish	g-rapᴸ	g-rapᴸ	needle	needle		5.1	382	0		
+11814	152	*Loloish	'needle -	'needle -	thread	thread		5.11.6	383	0		e
+11816	152	*Loloish	tsi¹	tsi¹	fat	fat		1.6.4	384	0		48
+11817	152	*Loloish	C-da¹	C-da¹	box	box		5.1	386	0		
+11818	152	*Loloish	[kha(ŋ)¹]	[kha(ŋ)¹]	top (toy)	top (toy)		1.2.1.3	388	0		
+11819	152	*Loloish	ʔ-cakᴴ	ʔ-cakᴴ	chain	chain		5.1	389	0		
+11820	152	*Loloish	dokᴸ	dokᴸ	poison	poison		6.4	391	0		2202
+11821	152	*Loloish	s-lwa³	s-lwa³	saw	saw		5.11.5.3	392	0		
+11822	152	*Loloish	dzam¹	dzam¹	bridge	bridge		9.10.2	393	0		3604
+11823	152	*Loloish	'tail sweep'	'tail sweep'	broom	broom		5.4	395	0		e
+11824	152	*Loloish	C-|laŋ/iŋ²|	C-laŋ/iŋ²	cart	cart			396	0		5701
+11828	152	*Loloish	xam¹	xam¹	iron	iron		3.2.4	403	0		2676
+11829	152	*Loloish	gre²	gre²	copper	copper		3.2.4	404	0		2247
+11830	152	*Loloish	pa¹	pa¹	cloth	cloth		5.1	405	0		
+11831	152	*Loloish	la¹	la¹	tea	tea		3.1.1	407	0		786
+11832	152	*Loloish	(t)sa²	(t)sa²	salt	salt		3.2.4	408	0		2729
+11833	152	*Loloish	'salt-sweet/delicious'	'salt-sweet/delicious'	sugar	sugar		3.1.6.2	409	0		e
+11834	152	*Loloish	[sa⁵◦pja²¹]	[sa⁵◦pja²¹]	soap	soap		5.11.8.4	412	0		
+11835	152	*Loloish	r-|ya¹	r-ya¹	dry field	dry field		6.6	414	0		5544
+11836	152	*Loloish	ʔ-ga(ŋ)¹	ʔ-ga(ŋ)¹	path / road	path / road		9.10.1	416	0		
+11837	152	*Loloish	ukᴸ	ukᴸ	conversation	conversation		8.5.8	417	0		
+11838	152	*Loloish	ʔ-|m(y)iŋ¹	ʔ-m(y)iŋ¹	name	name		5.8	419	0		2450
+11839	152	*Loloish	po²	po²	price	price		5.9	421	0		2583
+11840	152	*Loloish	ra²	ra²	strength	strength		1.1.5	423	0		5677
+11841	492	*Common Lahu	g'aˇ	g'aˇ	strength	strength		1.1.5	423	0		5677,m
+11842	152	*Loloish	[jam]	[jam]	time	time		9.1.5	425	0		
+11845	152	*Loloish	sa(m)¹	sa(m)¹	tone	tone		10.2.1.1	429	0		
+11846	152	*Loloish	ʔə◦su¹	?əsu¹	who?	who?		10.5.3	430	0		p,5632
+11847	152	*Loloish	ʔətakᴴ	ʔətakᴴ	when?	when?		10.5.3	432	0		
+11848	152	*Loloish	?əlam³	?əlam³	where?	where?		10.5.3	433	0		
+11849	152	*Loloish	?əC-mya¹	?əC-mya¹	how much?	how much?		10.1	434	0		
+11850	152	*Loloish	ʔəs-ni²	ʔəs-ni²	how many?	how many?		10.1	435	0		
+11853	152	*Loloish	C-|ŋa¹	C-ŋa¹	I	I		4.1	438	0		2530
+11854	152	*Loloish	naŋ¹	naŋ¹	you	you		4.1	439	0		2489
+11855	152	*Loloish	ʒaŋ²	ʒaŋ²	he	he		4.1	440	0		
+11856	152	*Loloish	su¹	su¹	he (remote)	he (remote)		4.1	441	0		
+11857	152	*Loloish	443.you (pl.)	443.you (pl.)	we	we		4.1	442	0		
+11858	152	*Loloish	takᴴ	takᴴ	above	above		9.2.1	449	0		
+11859	492	*Common Lahu	hta˰	hta˰	above	above		9.2.1	449	0		
+11860	152	*Loloish	ʔokᴴ/okᴸ	ʔokᴴ/okᴸ	below	below		9.2.2	450	0		
+11861	152	*Loloish	klo¹	klo¹	inside	inside		9.2.5	451	0		
+11862	152	*Loloish	C-|kra¹	C-kra¹	between	between		9.2.3	453	0		691
+11863	492	*Common Lahu	kaˍ	kaˍ	between	between		9.2.3	453	0		691
+11864	152	*Loloish	i¹/hi¹	i¹/hi¹	this	this		10.4.3.2	454	0		5807
+11865	492	*Common Lahu	ti¹/ci¹  ni¹	ti¹/ci¹  ni¹	this	this		10.4.3.2	454	0		
+11866	492	*Common Lahu	nnnnn	nnnnn	this	this		10.4.3.2	454	0		
+11867	152	*Loloish	ʔo/ho¹	ʔo/ho¹	that (near)	that (near)		10.1	455	0		
+11868	492	*Common Lahu	go¹    to¹/no¹	go¹    to¹/no¹	that (near)	that (near)		10.1	455	0		
+11870	152	*Loloish	ʔ-nam¹/²	ʔ-nam¹/²	that (higher)	that  (higher)		10.1	456	0		
+11871	152	*Loloish	mam²	mam²	that (lower)	that (lower)		10.1	457	0		
+11872	152	*Loloish	jam¹/²	jam¹/²	that (far)	that (far)		10.1	458	0		
+11874	152	*Loloish	pa²	pa²	side	side		1.4.5	460	0		
+11875	492	*Common Lahu	hpawˇ	hpawˇ	side	side		1.4.5	460	0		1305
+11876	152	*Loloish	(ʔ)ne³	(ʔ)ne³	day	day		1.5.3.2	461	0		
+11877	152	*Loloish	ʔ-rakᴸ	ʔ-rakᴸ	night	night		9.1.4	462	0		
+11878	152	*Loloish	C-nakᴸ	C-nakᴸ	dawn	dawn		9.1.4	463	0		
+11879	152	*Loloish	ʃaw²	ʃaw²	early morning	early morning		9.1.1	464	0		1837
+11880	152	*Loloish	(C)-kutᴸ/ᴴ	(C)-kutᴸ/ᴴ	dusk	dusk		9.1.4	465	0		
+11881	152	*Loloish	'today-early'	'today-early'	this morning	this morning		10.4.3.2	467	0		e
+11882	152	*Loloish	'this evening night'	'this evening night'	tonight	tonight		9.1.4	469	0		e
+11883	152	*Loloish	ʔəmi¹	ʔəmi¹	yesterday	yesterday		9.1.3	470	0		
+11884	152	*Loloish	'yesterday-night/dusk	'yesterday-night/dusk	last night	last night		9.9	471	0		e
+11885	152	*Loloish	ʔəʃikᴴ	ʔəʃikᴴ	day before yesterday	day  before yesterday		1.5.3.2	472	0		
+11886	152	*Loloish	ʔ-praŋ²	ʔ-praŋ²	tomorrow	tomorrow		9.1.3	473	0		
+11887	152	*Loloish	pakᴴ	pakᴴ	day after tomorrow	day after tomorrow		1.5.3.2	474	0		
+11888	152	*Loloish	pin²	pin²	day after day after tomorrow	day after day after tomorrow		1.5.3.2	475	0		
+11889	152	*Loloish	'moon'	'moon'	month	month		9.1.2	476	0		e
+11890	152	*Loloish	t/di²	t/di²	one	one		9.9	478	0		
+11891	152	*Loloish	s-|ni(k)²/ᴸ|	s-|ni(k)²/ᴸ|	two	two		9.9	479	0		2504
+11892	152	*Loloish	C-sum²|	C-sum²|	three	three		9.9	480	0		2666
+11893	152	*Loloish	b-le²|	b-le²|	four	four		9.9	481	0		2409
+11894	152	*Loloish	ŋa²	ŋa²	five	five		9.9	482	0		1306
+11895	152	*Loloish	C-krokᴸ	C-krokᴸ	six	six		9.9	483	0		
+11896	152	*Loloish	C-|ʃi(k)²/ᴸ|	C-|ʃi(k)²/ᴸ|	seven	seven		9.9	484	0		2505
+11897	152	*Loloish	C-|yetᴸ	C-yetᴸ	eight	eight		9.9	485	0		2259
+11898	152	*Loloish	go²	go²	nine	nine		9.9	486	0		2364
+11899	152	*Loloish	tsay¹	tsay¹	ten	ten		9.9	487	0		2748
+11900	152	*Loloish	C-ra¹	C-ra¹	hundred	hundred		9.9	488	0		
+11901	152	*Loloish	ʔ-|toŋ¹	ʔ-|toŋ¹	thousand	thousand		9.9	489	0		2703
+11902	152	*Loloish	[mən⁵]	[mən⁵]	ten thousand	ten thousand		9.9	490	0		
+11903	152	*Loloish	[sɛn⁴⁵]	[sɛn⁴⁵]	hundred thousand	hundred thousand		9.9	491	0		
+11904	152	*Loloish	[lam²¹]	[lam²¹]	million	million		9.9	492	0		
+11905	152	*Loloish	[laj⁴⁵]	[laj⁴⁵]	many	many		9.9	493	0		
+11906	152	*Loloish	ma¹	ma¹	general classifier	general classifier		10.4.1.1	494	0		
+11907	152	*Loloish	lum¹	lum¹	general classifier	general classifier		10.4.1.1	495	0		
+11909	152	*Loloish	ka/oŋ/um¹	ka/oŋ/um¹	classifier	classifier		10.1.3	497	0		
+11910	152	*Loloish	si²	si²	classifier	classifier		10.1.3	498	0		
+11912	152	*Loloish	[si⁴⁵]	[si⁴⁵]	colar	colar			501	0		
+11913	152	*Loloish	ʔ-|ni¹	ʔ-|ni¹	red	red		9.4	502	0		2499
+11914	152	*Loloish	C-|nakᴴ	C-nakᴴ	black	black		9.4	503	0		2483
+11915	152	*Loloish	'black-poison'	'black-poison'	jetblack	jetblack		9.4	504	0		e
+11916	152	*Loloish	s-|rwe¹	s-rwe¹	yellow	yellow		9.4	506	0		3496
+11917	152	*Loloish	plu¹	plu¹	white	white		9.4	507	0		1235
+11918	152	*Loloish	ʔ-|ɲo¹	ʔ-ɲo¹	blue / green	blue / green		9.4	508	0		2531
+11919	152	*Loloish	pe¹	pe¹	grey	grey		9.4	509	0		5660
+11920	152	*Loloish	du¹	du¹	same	same		7.1.7.2	510	0		
+11921	152	*Loloish	[pəŋ¹]	[pəŋ¹]	different	different		7.1.7.1	511	0		
+11922	152	*Loloish	[hɔm⁴⁵]	[hɔm⁴⁵]	smell good	smell good		1.2.8.5	512	0		b
+11923	152	*Loloish	ʔ-|nam²	ʔ-|nam²	smell bad	smell bad		1.2.8.5	513	0		1415
+11924	152	*Loloish	C-grakᴴ	C-grakᴴ	cold	cold		7.1.2.3	514	0		
+11925	152	*Loloish	lum¹	lum¹	warm	warm		7.1.2.3	516	0		2420
+11927	152	*Loloish	byaw¹/|²	byaw¹/²	happy	happy		8.3.1.5.1	521	0		2572
+11928	152	*Loloish	ʔ/s-ra²	ʔ/s-ra²	sad	sad		1.1.5.1	522	0		
+11929	152	*Loloish	[hə²¹]	[hə²¹]	tired	tired		9.6.2.2	523	0		
+11930	492	*Common Lahu	heu˯	heu˯	tired	tired		9.6.2.2		0		
+11931	152	*Loloish	ʔ-(d)zupᴴ	ʔ-(d)zupᴴ	angry	angry		8.3.1.6.1	524	0		
+11932	152	*Loloish	C-t(s)a(w)¹/²	C-t(s)a(w)¹/²	correct	correct		8.3.3.9	525	0		p,5790
+11933	152	*Loloish	ʔ-nakᴸ	ʔ-nakᴸ	narrow	narrow		9.7.2	526	0		
+11934	152	*Loloish	glay¹	glay¹	wide	wide		9.7.2	527	0		
+11935	152	*Loloish	C-nu²	C-nu²	soft	soft		7.1.4.2	528	0		
+11936	152	*Loloish	ʔ-bra²	ʔ-bra²	flat	flat		7.1.5.1	530	0		
+11937	152	*Loloish	tu¹	tu¹	thick	thick		9.7.2	531	0		183
+11938	152	*Loloish	tsu¹	tsu¹	fat (person)	fat (person)		1.6.4	532	0		42
+11939	492	*Common Lahu	chu:	chu:	fat (person)	fat (person)		1.6.4	532	0		42
+11940	152	*Loloish	nay²/¹	nay²/¹	young	young		7.1.8.3	534	0		90
+11941	152	*Loloish	maŋ²	maŋ²	old (person)	old (person)		7.1.8.3	535	0		2440
+11942	152	*Loloish	C-|ʃikᴸ	C-|ʃikᴸ	new	new		9.6.1.1	536	0		6178
+11943	152	*Loloish	gokᴸ	gokᴸ	crooked	crooked		9.7.2	539	0		
+11944	152	*Loloish	dum²	dum²	blunt	blunt		7.1.5.1	542	0		
+11945	152	*Loloish	takᴴ	takᴴ	sharp	sharp		6.9.2	543	0		5515
+11946	152	*Loloish	sa¹	sa¹	easy	easy		9.6.1.1	545	0		156
+11947	152	*Loloish	m-bliŋ³|	m-bliŋ³|	full	full		1.1.3.2	547	0		111
+11948	492	*Common Lahu	peh:	peh:	full	full		1.1.3.2	547	0		111
+11949	152	*Loloish	pi¹	pi¹	spicy	spicy		7.1.4.4	548	0		
+11950	152	*Loloish	ʔ-|kyin¹	ʔ-kyin¹	sour	sour		7.1.4.4	549	0		7205
+11951	492	*Common Lahu	ce:	ce:	sour	sour		7.1.4.4	549	0		7205
+11952	152	*Loloish	ka²	ka²	bitter	bitter		7.1.4.4	550	0		229
+11953	492	*Common Lahu	hk'aˇ	hk'aˇ	bitter	bitter		7.1.4.4	550	0		229
+11954	152	*Loloish	kyo¹	kyo¹	sweet	sweet		7.1.4.4	551	0		2380
+11955	152	*Loloish	datᴸ	datᴸ	alive	alive		1.1.2.1	553	0		72
+11956	492	*Common Lahu	te˰	te˰	alive	alive		1.1.2.1	553	0		72
+11957	152	*Loloish	'look at - easy/good	'look at - easy/good	beautiful	beautiful		7.1.3	554	0		e
+11958	152	*Loloish	[hak⁵]	[hak⁵]	brave	brave			555	0		
+11959	152	*Loloish	m-|ba³	m-ba³	bright	bright		7.1.11.1	556	0		5517
+11960	152	*Loloish	yetᴸ	yetᴸ	drunk	drunk		1.3.5.9	559	0		
+11961	152	*Loloish	lokᴸ	lokᴸ	enough	enough		1.1.3.2	560	0	D1	
+11962	152	*Loloish	C-|li²	C-li²	heavy	heavy		9.6.2	564	0		2415
+11963	152	*Loloish	(k)-|l(y)ay³	(k)-|l(y)ay³	late	late		9.1.1	565	0		6231
+11964	152	*Loloish	m-byaŋ¹/²/³	m-byaŋ¹/²/³	lazy	lazy		9.6.2.2	566	0		
+11965	152	*Loloish	woŋ	woŋ	round	round		9.7.1	567	0		2270
+11966	152	*Loloish	[hɛn³]	[hɛn³]	strong	strong		9.6.1.1	569	0		
+11967	152	*Loloish	m-pup/ukᴴ	m-pup/ukᴴ	abundant	abundant		7.1.2.1	570	0		
+11968	152	*Loloish	C-jukᴸ/u¹	C-jukᴸ/u¹	blind	blind		1.2.6.14.2	571	0		
+11969	492	*Common Lahu	cuˉ	cuˉ	blind	blind		1.2.6.14.2	571	0		1401
+11970	152	*Loloish	ʔa²/³	ʔa²/³	dumb	dumb		8.5.4.4	572	0		1752
+11971	492	*Common Lahu	k'aˍ	k'aˍ	dumb	dumb		8.5.4.4	572	0		1752
+11972	152	*Loloish	baŋ²	baŋ²	deaf	deaf		1.2.7.5	573	0		1409
+11973	492	*Common Lahu	pawˇ	pawˇ	deaf	deaf		1.2.7.5	573	0		1409
+11974	152	*Loloish	C-|patᴸ	C-patᴸ	vomit	vomit		1.8.3.2	577	0		1145
+11975	492	*Common Lahu	hpe˰	hpe˰	vomit	vomit		1.8.3.2	577	0		1145
+11976	152	*Loloish	ʔ-utᴴ	ʔ-utᴴ	hiccup	hiccup		1.8.3.5	578	0		
+11977	492	*Common Lahu	uiˆ	uiˆ	hiccup	hiccup		1.8.3.5	578	0		3443
+11978	152	*Loloish	utᴸ/an¹	utᴸ/an¹	belch	belch		1.8.3.4	579	0		
+11979	492	*Common Lahu	ui˰	ui˰	belch	belch		1.8.3.4	579	0		3443
+11980	152	*Loloish	ʔ-ko²	ʔ-ko²	defecate	defecate		1.8.5.4	580	0		
+11981	492	*Common Lahu	k'oˍ	k'oˍ	defecate	defecate		1.8.5.4	580	0		
+11982	152	*Loloish	ʃi²	ʃi²	urinate	urinate		1.5.3.2	581	0		650
+11983	152	*Loloish	gra²	gra²	hear	hear		1.2.7.4	583	0		1411
+11984	492	*Common Lahu	kaˇ	kaˇ	hear	hear		1.2.7.4	583	0		1411
+11985	152	*Loloish	m-krakᴴ|	m-krakᴴ|	scratch	scratch		1.6.5.5	585	0		6131
+11986	152	*Loloish	m-prakᴴ|	m-prakᴴ|	scratch	scratch		1.6.5.5	585	0		1459
+11987	152	*Loloish	C-makᴴ|	C-makᴴ|	dream	dream		1.1.4.2	586	0		126
+11988	492	*Common Lahu	maˆ	maˆ	dream	dream		1.1.4.2	586	0		126
+11989	152	*Loloish	m-daŋ²	m-daŋ²	think	think		8.3.1.13.1	587	0		p,5801
+11990	152	*Loloish	'think + look at/see'	'think + look at/see'	wonder	wonder		8.3.1.9.1	588	0		e
+11991	152	*Loloish	'think + wake'	'think + wake'	remember	remember		8.3.1.16.1	589	0		e
+11992	152	*Loloish	si²	si²	know	know		8.3.1.12.1	590	0		2670
+11993	152	*Loloish	ʔ-me³	ʔ-me³	forget	forget		8.3.1.16.1	591	0		
+11994	152	*Loloish	' think = beg '	' think = beg '	hope	hope		8.3.1.7.1	592	0		e
+11995	152	*Loloish	' listen + be able '	' listen + be able '	understand	understand		8.3.1.13.1	593	0		e
+11996	152	*Loloish	x-ra¹	x-ra¹	look for	look for		1.2.6.11	595	0		5799
+11997	152	*Loloish	ʔ-|mraŋ¹	ʔ-|mraŋ¹	see	see		1.2.6.10	596	0		1227
+11998	492	*Common Lahu	maw˯	maw˯	see	see	[Sem:R]	1.2.6.10		0		1227
+11999	152	*Loloish	baw³	baw³	born, be	born, be	be v.	1.1.2	597	0	E	e
+12000	492	*Common Lahu	paw:	paw:	born, be	born, be	be v.	1.1.2	597	0		70
+12001	152	*Loloish	ʃe²	ʃe²	die	die		1.1.6	599	0		27
+12002	492	*Common Lahu	suh:	suh:	die	die		1.1.6	599	0		27
+12003	152	*Loloish	s-|ŋa²	s-ŋa²	borrow (thing)	borrow (thing)		6.22	600	0		2541
+12004	152	*Loloish	kye²	kye²	borrow (money)	borrow (money)		6.22	601	0		2314
+12005	152	*Loloish	ʔ-pa¹	ʔ-pa¹	exchange	exchange		6.22	602	0		
+12006	152	*Loloish	way¹	way¹	buy	buy		6.22	603	0		
+12007	152	*Loloish	(k)-rwaŋ²	(k)-rwaŋ²	sell	sell		6.22	604	0		
+12008	152	*Loloish	be²	be²	give	give		6.23	605	0		2158
+12009	152	*Loloish	yu¹	yu¹	take	take		6.21	606	0		303
+12010	152	*Loloish	ʔ-kun³/²	ʔ-kun³/²	put in	put in		6.17	607	0		
+12011	152	*Loloish	ʔ-dwakᴴ/ökᴴ	ʔ-dwakᴴ/ökᴴ	take out	take out		6.21	608	0		
+12012	152	*Loloish	ra³	ra³	get	get		1.1.5	609	0		5677
+12013	152	*Loloish	jaŋᴸ	jaŋᴸ	have	have		8.2	610	0		
+12014	152	*Loloish	C-plekᴸ	C-plekᴸ	be	be	be v.	10.4.1.1	611	0		
+12016	152	*Loloish	[lə⁴⁵]	[lə⁴⁵]	remain	remain		6.7.11	613	0		
+12017	152	*Loloish	C-kokᴸ	C-kokᴸ	return	return		6.2.2.1	614	0		
+12018	152	*Loloish	ko²	ko²	steal	steal		6.2.2.1	615	0		2365
+12019	152	*Loloish	pyakᴴ	pyakᴴ	destroy	destroy		6.9	616	0		693
+12020	152	*Loloish	C-mya²	C-mya²	clear field	clear field		9.6.1.1	617	0		
+12021	152	*Loloish	m-|du²	m-du²	dig	dig		6.11	619	0		3573
+12022	152	*Loloish	ʔ-|ti³	ʔ-ti³	plant	plant		3.1.10	620	0		5672
+12023	152	*Loloish	C-mrukᴸ	C-mrukᴸ	weed	weed		3.1.7	621	0		
+12024	152	*Loloish	ritᴸ	ritᴸ	reap	reap		3.1.10	622	0		
+12025	152	*Loloish	ʔ-dökᴴ	ʔ-dökᴴ	cut	cut		6.9.3	623	0		
+12026	152	*Loloish	C-xakᴸ	C-xakᴸ	pick fruit	pick fruit		6.10.4	624	0		
+12027	152	*Loloish	ʔ-wa¹	ʔ-wa¹	winnow	winnow		3.1.10	625	0		
+12028	152	*Loloish	m-kritᴴ	m-kritᴴ	grind	grind		9.5	628	0		
+12029	152	*Loloish	dza²	dza²	eat	eat		1.5.3.2	629	0		36
+12030	492	*Common Lahu	caˇ	caˇ	eat	eat		1.5.3.2	629	0		36
+12031	152	*Loloish	m-|lyakᴸ	m-lyakᴸ	lick	lick		1.3.3.1	630	0		629
+12032	492	*Common Lahu	leh˰	leh˰	lick	lick		1.3.3.1	630	0		629
+12033	152	*Loloish	m-|daŋ¹	m-daŋ¹	drink	drink			631	0		502
+12034	492	*Common Lahu	daw˯	daw˯	drink	drink	[Sem:R]			0		502
+12035	152	*Loloish	(C)-ʃukᴴ/ᴸ	(C)-ʃukᴴ/ᴸ	smoke	smoke		3.2.12.2	632	0		
+12036	152	*Loloish	C-cutᴸ|	C-cutᴸ|	suck	suck		1.3.2.1	633	0		5537
+12037	492	*Common Lahu	chaw˰/htsuh˰	chaw˰/htsuh˰	suck	suck		1.3.2.1	633	0		5541
+12038	152	*Loloish	myo(k)¹/ᴸᴬ	myo(k)¹/ᴸᴬ	swallow	swallow		1.3.5.6	636	0		627
+12039	152	*Loloish	C-mwatᴸ|	C-mwatᴸ|	hungry	hungry		1.1.3	637	0		99
+12040	492	*Common Lahu	mui˰	mui˰	hungry	hungry		1.1.3	637	0		99
+12041	152	*Loloish	C-sipᴸ|	C-sipᴸ|	thirsty	thirsty		1.1.3.1	638	0		101
+12042	492	*Common Lahu	sheˉ/shiˉ	sheˉ/shiˉ	thirsty	thirsty		1.1.3.1	638	0		101,101
+12043	152	*Loloish	ʔ/g-raw¹	ʔ/g-raw¹	fry	fry		5.5	640	0		
+12044	152	*Loloish	ʔ-gaŋ¹	ʔ-gaŋ¹	roast (over fire)	roast (over fire)		5.5	641	0		
+12046	152	*Loloish	C-|sakᴸ	C-sakᴸ	steam	steam		6.6	644	0		32
+12047	152	*Loloish	m-kokᴴ	m-kokᴴ	stir	stir		6.2.2.1	645	0		
+12048	152	*Loloish	p-re²|	p-re²|	run	run		6.7.4	650	0		6163
+12049	152	*Loloish	dzi²	dzi²	ride	ride		6.2	651	0		2237
+12050	152	*Loloish	ʔ-|dakᴴ	ʔ-dakᴴ	ascend	ascend		6.7.7	652	0		1722
+12051	152	*Loloish	ʒakᴸ	ʒakᴸ	descend	descend		6.7.8	653	0		2804
+12052	152	*Loloish	(k)-rokᴴ/ᴸ	(k)-rokᴴ/ᴸ	arrive	arrive		6.7.1	654	0		
+12053	152	*Loloish	ʔ-|dwakᴴ	ʔ-dwakᴴ	come out	come out		6.7.2	656	0		2718
+12054	152	*Loloish	ʔ-bokᴴ	ʔ-bokᴴ	jump	jump		6.7.8	657	0		
+12055	492	*Common Lahu	pawˆ	pawˆ	jump	jump		6.7.8	657	0		6707
+12056	152	*Loloish	(b)-|yam¹	(b)-yam¹	fly	fly		2.2.6	659	0		2588
+12057	152	*Loloish	paw¹	paw¹	flee	flee		6.7.2	660	0		
+12058	152	*Loloish	ʔukᴴ	ʔukᴴ	say	say		1.8.7	662	0		
+12059	492	*Common Lahu	k'oˆ	k'oˆ	say	say		1.8.7	662	0		
+12060	152	*Loloish	' listen-look for'	' listen-look for'	ask	ask		8.5.7.1	664	0		e
+12061	152	*Loloish	mi¹	mi¹	sing	sing		5.1	666	0		
+12062	152	*Loloish	ʔ-|na¹	ʔ-na¹	listen	listen		1.2.7.4	667	0		811
+12063	492	*Common Lahu	na:	na:	listen	listen		1.2.7.4	667	0		811
+12064	152	*Loloish	ray¹	ray¹	laugh	laugh		1.8.8.1	668	0		1108
+12065	492	*Common Lahu	g'ui˯	g'ui˯	laugh	laugh		1.8.8.1		0		1108
+12066	152	*Loloish	[lɔ²¹]	[lɔ²¹]	beg	beg		8.5.10.3	669	0		
+12067	152	*Loloish	ŋo¹	ŋo¹	cry	cry		1.8.8.2	670	0		1104
+12068	492	*Common Lahu	huhn˯	huhn˯	cry	cry	[Sem:R]	1.8.8.2		0		
+12069	152	*Loloish	(k)-raw¹	(k)-raw¹	count	count		6.2.2.2	671	0		
+12070	152	*Loloish	m-|bupᴸ	m-bupᴸ	write	write		6.2.2.9.1	672	0		5407
+12071	152	*Loloish	[he¹]	[he¹]	lie	lie		8.5.10.4	673	0		3511
+12072	152	*Loloish	h/loŋ¹|	h/loŋ¹|	bark	bark		2.1.11.1	674	0		
+12073	492	*Common Lahu	law˯	law˯	bark	bark		2.1.11.1		0		1790
+12074	152	*Loloish	m-(b)u¹	m-(b)u¹	roar	roar		8.5.5	675	0		
+12075	152	*Loloish	tse²/etᴸ	tse²/etᴸ	wash (person)	wash (person)		6.2.2.5.2	677	0		
+12076	152	*Loloish	klo²	klo²	wash (clothes)	wash (clothes)		6.2.2.5.2	678	0		
+12077	152	*Loloish	ʔ-pi²	ʔ-pi²|	comb	comb		1.2.2.1	679	0		p,1220
+12078	492	*Common Lahu	puiˍ	puiˍ	comb	comb		1.2.2.1	679	0		1220
+12079	152	*Loloish	watᴸ	watᴸ	wear	wear		6.2.2.1	681	0		2779
+12080	152	*Loloish	ʔ/kupᴴ	ʔ/kupᴴ	wear (hat)	wear (hat)		6.2.2.1	682	0		
+12081	152	*Loloish	C-netᴸ	C-netᴸ	wear (turban)	wear (turban)		6.2.2.1	683	0		
+12082	152	*Loloish	m-dum¹	m-dum¹	wear (upper clothes)	wear (upper clothes)		6.2.2.1	684	0		
+12083	152	*Loloish	(C)n/ʔ-mi¹	(C)n/ʔ-mi¹	sit	sit		6.1.1.4.1	685	0		p,p,3597
+12084	152	*Loloish	ʔ-tu/oŋ¹	ʔ-tu/oŋ¹	standing	standing	be v.	1.5.2	686	0		
+12085	152	*Loloish	ʔ-ryapᴸ|	ʔ-ryapᴸ|	stand up	stand up		1.5.2	687	0		145
+12086	152	*Loloish	k-lwatᴴ	k-lwatᴴ	free	free		6.19	688	0		
+12087	152	*Loloish	(sə)-|grokᴴ	(sə)-grokᴴ	fear	fear		8.3.1.10.1	689	0		2249
+12088	492	*Common Lahu	kuhˆ	kuhˆ	fear	fear		8.3.1.10.1	689	0		2249
+12089	152	*Loloish	s-|mutᴴ	s-|mutᴴ	blow	blow		1.3.1.4	690	0		503
+12090	492	*Common Lahu	muiˆ	muiˆ	blow	blow		1.3.1.4	690	0		503
+12091	152	*Loloish	citᴴ	citᴴ	break	break		9.5	691	0		
+12092	152	*Loloish	kyi²	kyi²	lift	lift		6.16	693	0		152
+12093	152	*Loloish	tupᴴ	tupᴴ	fold	fold		1.4.4.2	695	0		2692
+12094	152	*Loloish	gra³	gra³	help	help		6.2.2.1	696	0		5772
+12095	152	*Loloish	ʔ-|tsakᴸ	ʔ-tsakᴸ	join	join		6.13.5	699	0		200
+12096	152	*Loloish	s-mi¹	s-mi¹	catch	catch		6.21	701	0		
+12097	152	*Loloish	m-gakᴸ	m-gakᴸ	hunt	hunt		6.2.2.1	702	0		
+12098	152	*Loloish	(ʔ)-|m-|pokᴴ	(ʔ)-m-pokᴴ	shoot	shoot		6.2.2.1	704	0		5411
+12099	152	*Loloish	m-gya/gay²	m-gya/gay²	stab	stab		6.9.2	705	0		
+12100	152	*Loloish	C-satᴸ	C-satᴸ	kill	kill		6.4	706	0		
+12101	152	*Loloish	m-tsapᴴ	m-tsapᴴ	pierce	pierce		6.9.2	707	0		
+12102	152	*Loloish	pay¹	pay¹	tie	tie		6.13.1	708	0		
+12103	152	*Loloish	pre¹	pre¹	untie	untie		6.13.1	709	0		5646
+12104	152	*Loloish	ʒum²	ʒum²	use	use		6.2.2.7.1	710	0		5574
+12105	152	*Loloish	C-|lo³	C-lo³	wait	wait		6.1.1.6	711	0		5577
+12106	152	*Loloish	rakᴸ	rakᴸ	weave	weave		5.1	712	0		5669
+12107	152	*Loloish	tsin¹	tsin¹	weigh	weigh		9.8	713	0		2312
+12108	152	*Loloish	s-ŋakᴸ	s-ŋakᴸ	spread	spread		9.5	716	0		
+12109	152	*Loloish	tekᴴ	tekᴴ	kick	kick		6.2.2.3.3	717	0		
+12110	152	*Loloish	na²	na²	grasp	grasp		6.16	719	0		
+12111	152	*Loloish	C-po³	C-po³	send	send		6.2.2.2	720	0		
+12112	152	*Loloish	s-|ma²	s-ma²	teach	teach		6.19	721	0		5703
+12113	152	*Loloish	saŋ¹	saŋ¹	learn	learn		8.3.1.12.1	723	0		
+12114	152	*Loloish	C-yakᴸ	C-yakᴸ	spend night	spend night		6.22	724	0		
+12115	152	*Loloish	m-yu¹	m-yu¹	raise animals	raise animals		6.7.7	725	0		
+12116	152	*Loloish	[lɔj]	[lɔj]	swim	swim		6.6	727	0		
+12117	152	*Loloish	g-|waŋ¹	g-waŋ¹	spin	spin		6.7.6	729	0		5400
+12118	152	*Loloish	(C)-lim³	(C)-lim³	roll	roll		6.7.6	730	0		
+12119	152	*Loloish	m-|ba¹	m-ba¹	throw	throw		6.12	731	0		5556
+12120	152	*Loloish	m-|bupᴸ	m-bupᴸ	rot	rot		3.1.10	732	0		5407
+12121	152	*Loloish	sutᴴ	sutᴴ	rub / sweep	rub  /  sweep		8.4	733	0		5594
+12122	152	*Loloish	si²	si²	sharpen	sharpen		6.9.2	734	0		
+12123	152	*Loloish	yipᴸ	yipᴸ	sleep	sleep		1.1.4.1	735	0		127
+12124	492	*Common Lahu	zuh˰	zuh˰	sleep	sleep		1.1.4.1	735	0		127
+12125	152	*Loloish	k-lupᴴ	k-lupᴴ	shake	shake		6.7.9	736	0		
+12126	492	*Common Lahu	hiˆ	hiˆ	shake	shake		6.7.9	736	0		
+12127	152	*Loloish	pyu²/utᴴ	pyu²/utᴴ	have malaria	have malaria		8.2	737	0		
+12128	492	*Common Lahu	hpuiˆ	hpuiˆ	have malaria	have malaria		8.2	737	0		
+12129	152	*Loloish	to²	to²	touch	touch		8.4	741	0		
+12130	152	*Loloish	s-yökᴸ	s-yökᴸ	twist	twist		6.7.6	742	0		
+12131	152	*Loloish	b-lökᴸ	b-lökᴸ	twist	twist		6.7.6	742	0		
+12132	152	*Loloish	[lu²¹]	[lu²¹]	ruin	ruin		6.4	744	0		
+12133	152	*Loloish	[hak²¹]	[hak²¹]	love	love		8.3.1.1.1	745	0		bTai
+12134	152	*Loloish	di¹/³	di¹/³	whittle	whittle		6.9.2	747	0		
+12135	152	*Loloish	(g)yitᴸ	(g)yitᴸ	massage	massage		8.4	748	0		
+12136	152	*Loloish	bran¹	bran¹	finish	finish		9.5	749	0		
+12137	152	*Loloish	ʔə◦we¹	ʔə◦we¹	far	far		9.2.4	750	0		p,622
+12139	152	*Loloish	ʔə◦we³	ʔə◦we³	far	far		9.2.4	750	0		p,622
+12141	152	*Loloish	we²	we²	far	far		9.2.4	750	0		622
+12142	152	*Loloish	b-|ni²	b-ni²	near	near		9.2.3	751	0		2496
+12143	152	*Loloish	ʔə-C-mya¹	ʔə-C-mya¹	many	many		9.9	752	0		p,p,3372
+12144	152	*Loloish	ʔə-C-mya³	ʔə-C-mya³	many	many		9.9	752	0		p,p,3372
+12145	152	*Loloish	C-mya²	C-mya²	many	many		9.9	752	0		3372
+12146	152	*Loloish	nay²	nay²	few	few		9.9	753	0		
+12147	152	*Loloish	s/m-rin¹	s/m-rin¹	long	long		9.7.2	754	0		e
+12148	152	*Loloish	s/m-riŋ³	s/m-riŋ³	long	long		9.7.2	754	0		
+12149	152	*Loloish	s/m-riŋ¹	s/m-riŋ¹	long	long		9.7.2	754	0		
+12150	152	*Loloish	ʔ/s-n-yum¹	ʔ/s-n-yum¹	short	short		9.7.2	755	0		
+12151	152	*Loloish	ʔəri¹	ʔəri¹	big	big		9.7.2	756	0		
+12152	152	*Loloish	ʔəri³	ʔəri³	big	big		9.7.2	756	0		
+12153	152	*Loloish	k/ʔ-ri²	k/ʔ-ri²	big	big		9.7.2	756	0		
+12154	152	*Loloish	n-yay¹	n-yay¹	little	little		9.7.2	757	0		
+12155	152	*Loloish	ʔə-|mroŋ³	ʔə-mroŋ³	high	high		7.1.5.3	758	0		2597
+12156	152	*Loloish	(ʔ)-|mroŋ³	(ʔ)-mroŋ³	high	high		7.1.5.3	758	0		2597
+12157	152	*Loloish	ʔ-n-yim³	ʔ-n-yim³	low	low		7.1.5.3	759	0		
+12158	152	*Loloish	ra³	ra³	must	must		8.2	775	0		
+12159	152	*Loloish	gokᴸ	gokᴸ	again	again		10.1	776	0		
+12160	152	*Loloish	ʔ-ta²	ʔ-ta²	begin	begin	v.	9.5	777	0		
+12161	152	*Loloish	x-ra¹	x-ra¹	go and	go and		6.7.2	778	0		
+12162	152	*Loloish	gra³	gra³	help	help	v.	6.2.2.1	779	0		5772
+12163	152	*Loloish	pup/ukᴴ	pup/ukᴴ	together	together		10.1.1	780	0		
+12164	152	*Loloish	ko²	ko²	secretly	secretly		8.5.4.2	781	0		
+12165	152	*Loloish	[lɔ²¹]	[lɔ²¹]	beg	beg	v.	8.5.10.3	782	0		
+12166	152	*Loloish	yu¹	yu¹	take and	take and		6.21	783	0		303
+12167	152	*Loloish	m-gu³	m-gu³	again	again		10.1	784	0		
+12168	152	*Loloish	C-plekᴸ	C-plekᴸ	may	may		9.1.2	785	0		
+12169	152	*Loloish	(k)-ra¹	(k)-ra¹	can	can		10.2.2	787	0		
+12170	152	*Loloish	ra³	ra³	can (barely)	can (barely)		10.2.2	788	0		
+12171	152	*Loloish	C-tsaw²	C-tsaw²	ought	ought	v.	10.0	789	0		p,5790
+12172	152	*Loloish	m-dza²	m-dza²	lot	lot	n.	9.10.5	790	0		
+12173	152	*Loloish	c/jya²	c/jya²	continue	continue		9.5	791	0		
+12174	152	*Loloish	C-dze¹	C-dze¹	cause to	cause to		8.2	792	0		
+12175	152	*Loloish	ban¹	ban¹	finish	finish		9.5	793	0		
+12176	152	*Loloish	C-|ɲi¹	C-ɲi¹	try	try	v.	6.1.1.1	794	0		5419
+12177	152	*Loloish	lokᴸ	lokᴸ	enough	enough		1.1.3.2	795	0	HIDE	DUPE IN SOURCE
+12180	152	*Loloish	ya³/yakᴸ	ya³/yakᴸ	carefully	carefully		8.3.2.3.1	800	0		
+12181	152	*Loloish	ma²	ma²	not	not		1.5.3.2	801	0		2436
+12182	152	*Loloish	ta²	ta²	don't	don't		10.4.2.1	802	0		2681
+12183	152	*Loloish	ʔəʔ-cikᴸ	ʔəʔ-cikᴸ	little bit	little bit	n.	9.7.2	806	0		
+12184	152	*Loloish	ʔəla¹	ʔəla¹	almost	almost		9.9	807	0		
+12185	152	*Loloish	C-datᴸ	C-datᴸ	only	only		7.1.6.1	808	0		
+12186	152	*Loloish	m-dyakᴸ	m-dyakᴸ	well	well		9.6.1.1	809	0		
+12187	152	*Loloish	-ly-finish	-ly-finish	completely	completely		9.5	810	0		e
+12188	152	*Loloish	ʔa¹	ʔa¹	adverbalizer	adverbalizer		10.2.1	811	0		
+12189	152	*Loloish	koŋ¹	koŋ¹	inside house	inside house		9.2.5	812	0		820
+12190	152	*Loloish	C-gakᴴ	C-gakᴴ	in front of house	in front of house		10.1.1	813	0		
+12191	492	*Common Lahu	k'aˆ	k'aˆ	in front of house	in front of house		10.1.1	813	0		
+12192	152	*Loloish	ka(w)²	ka(w)²	but	but		10.0	814	0		
+12193	152	*Loloish	hakᴸ	hakᴸ	for example	for example		10.1	815	0		
+12194	152	*Loloish	'that - because'	'that - because'	therefore	therefore		10.1	816	0		e
+12195	152	*Loloish	kay³	kay³	like	like		8.3.1.1.1	817	0		
+12196	152	*Loloish	ʔəmu¹	ʔəmu¹	sometime	sometime		9.1.5	818	0		
+12197	152	*Loloish	[po²¹tho ]	[po²¹tho ]	My God !	My God !		10.2.3.2	819	0		
+12198	152	*Loloish	m-dakᴸ	m-dakᴸ	reciprocal	reciprocal		10.0	820	0		
+12199	152	*Loloish	we³	we³	motion away	motion away		6.7.11	821	0		
+12200	152	*Loloish	ay¹	ay¹	go / motion away	go / motion away		6.7.2	822	0		
+12201	152	*Loloish	la¹	la¹	motion towards	motion towards		6.7.11	823	0		
+12202	152	*Loloish	ʔ-ta²	ʔ-ta²	completed	completed		9.5	824	0		
+12203	152	*Loloish	be²	be²	for 3rd person	for 3rd  person		10.1	825	0		
+12204	152	*Loloish	la²	la²	for 1st / 2nd person	for 1st  /  2nd person		10.1	826	0		
+12205	152	*Loloish	kay¹	kay¹	repeatedly	repeatedly		6.2.2.2	828	0		
+12206	152	*Loloish	m-jaw/aŋ³	m-jaw/aŋ³	have experienced	have experienced		8.2	829	0		
+12207	152	*Loloish	ʔ-krwe¹	ʔ-krwe¹	place to V	place to V	v.	9.10.5	831	0		
+12208	152	*Loloish	ʃaw²	ʃaw²	still	still		9.1.1	832	0		
+12209	152	*Loloish	se²	se²	functor: (not) yet	functor: (not) yet		10.0	833	0		5359
+12210	152	*Loloish	o¹	o¹	perfective	perfective		10.4.2.4	834	0		
+12211	152	*Loloish	ʔukᴴ	ʔukᴴ	let us	let us		6.19	836	0		
+12212	152	*Loloish	C-may²	C-may²	politeness	politeness		6.19	837	0		
+12213	152	*Loloish	way³	way³	declarative	declarative		10.0	838	0		
+12215	152	*Loloish	g-lyaŋ¹	g-lyaŋ¹	conditional	conditional		10.4.2.1	840	0		
+12216	152	*Loloish	ta²	ta²	time when	time when		9.1.5	841	0		
+12217	152	*Loloish	taw/aŋ²	taw/aŋ²	concessive	concessive		8.5.8	842	0		
+12218	152	*Loloish	lo³	lo³	causative	causative		10.4.2.4	843	0		
+12219	152	*Loloish	way³/²	way³/²	genitive	genitive		10.4.1.1	844	0		
+12220	152	*Loloish	C-takᴸ	C-takᴸ	objective	objective		8.1	845	0		
+12221	152	*Loloish	C-lay²	C-lay²	subject	subject		10.5.1	847	0		
+12222	152	*Loloish	aw/aŋ²	aw/aŋ²	topic	topic		8.1	848	0		
+12223	152	*Loloish	m-gum³	m-gum³	accompaniment	accompaniment		6.7.10	849	0		
+12224	152	*Loloish	nay³	nay³	instrument	instrument		5.1	850	0		
+12225	152	*Loloish	ga³/akᴸ	ga³/akᴸ	concessive	concessive		8.5.8	852	0		
+12226	152	*Loloish	ʔ-kyiŋ²/³	ʔ-kyiŋ²/³	as much as	as much as		10.0	853	0		
+12227	152	*Loloish	lay²/³	lay²/³	and	and		10.1.2.1	854	0		
+12228	152	*Loloish	ya³/¹	ya³/¹	affirmative	affirmative		10.0	855	0		
+12229	152	*Loloish	nay¹	nay¹	probable	probable			857	0		
+12230	152	*Loloish	la²	la²	yes / no question	yes  /  no question		1.5.3.2	858	0		5498
+12231	152	*Loloish	lay²/³	lay²/³	substance question	substance question		8.1	859	0		5498
+12232	152	*Loloish	ʔ-na²	ʔ-na²	indirect question	indirect question		10.0	860	0		
+12233	152	*Loloish	jay¹/²|/³|	jay¹/²/³	quotative	quotative		10.0	861	0		5382
+12234	152	*Loloish	m-day¹	m-day¹	really	really		7.1.8.3	862	0		
+12235	152	*Loloish	' not-be the case '	' not-be the case '	No	No		10.6.2	864	0		e
+12236	152	*Loloish	hay¹	hay¹	Request for repetition	Request for repetition		8.5.7.1	865	0		
+16741	338	Bisu	hlə̆◦ʔu³³	hlə̆◦ʔu³³	testicles	testicles				0		1284,301
+144786	227	Akha	pyaˆ-eu	pyaˆ-eu	scratch	scratch		1.6.5.5	585	0		1459,m
+144787	1114	Mpi	phjoʔ³	phjoʔ³	scratch	scratch		1.6.5.5	585	0		1459
+145809	152	*Loloish	' day before yesterday - time '	' day before yesterday - time '	formerly	formerly		9.1.1	797	0		e
+148746	227	Akha	jeh	jeh	lean (of humans)	lean (of humans)		1.1.1	220	0		49
+150159	1284	Côông [Phunoi]	ná nã	ná nã	awake	awake		1.1.4	767S	0		
+150160	338	Bisu	dùŋ	dùŋ	awake	awake		1.1.4	767S	0		1836
+150161	227	Akha	laˆ◦noe˯-eu	laˆnoe˯-eu	awaken	awaken		1.1.4	767C	0		m,143,m
+150162	227	Akha	noe˯-eu	noe˯-eu	awake	awake		1.1.4	767S	0		143,m
+150163	1114	Mpi	ni¹	ni¹	awake	awake		1.1.4	767S	0		143
+150164	1114	Mpi	khu⁶tho³	khu⁶tho³	awaken	awaken		1.1.4	767C	0		m,m
+150501	1284	Côông [Phunoi]	chì jò	chì jò	lift, raise	lift, raise		6.16	693	0		152,m
+150502	338	Bisu	chè	chè	lift, raise	lift, raise		6.16	693	0		152
+150503	923	Lisu	gaw³	gaw³	lift, raise	lift, raise		6.16	693	0		m
+150504	227	Akha	ci˯-eu	ci˯-eu	lift, raise	lift, raise		6.16	693	0		152,m
+150505	1114	Mpi	tɕhi¹	tɕhi¹	lift, raise	lift, raise		6.16	693	0		152
+150516	227	Akha	k'ah˯	k'ah˯	chest	chest		1.4.4.3	106	0		2000
+167986	492	*Common Lahu	mui˯	mui˯	yawn	yawn		1.3.1.3	574-2	0	E?	
+167987	492	*Common Lahu	tsuh˯	tsuh˯	head hair	head hair		1.2.3	89-1	0		1232
+167988	492	*Common Lahu	ci˯	ci˯	tusk / eyetooth	tusk / eyetooth		1.3.4.1	96B	0		635
+167989	492	*Common Lahu	peh˯	peh˯	calf	calf		1.5.7	126	0		163
+167990	492	*Common Lahu	gui˯	gui˯	skin	skin		1.6.5	134	0		596
+167991	492	*Common Lahu	beh˯	beh˯	pus	pus		1.8.6.1	154	0		1292
+168004	923	Lisu	krgh¹tsï³	krgh¹tsï³	throat	throat		1.3.5	105A	0	D1	3361,m
+168005	923	Lisu	mya³sï⁵	mya³sï⁵	eye	eye		1.2.6	92	0		681,1019
+168006	923	Lisu	la³hchē³	la³hchē³	tongue	tongue		1.3.3	97	0		623,m
+168007	152	*Loloish	C-krakᴸ	C-krakᴸ	basket (flat)	basket (flat)		5.1	253	0		m,5819
+168662	152	*Loloish	¹	¹	as much as	as much as		10.0	853	0		e
+168663	152	*Loloish	[hɔ²¹]	[hɔ²¹]	beg	beg		8.5.10.3	669	0		
+169232	1114	Mpi	ʔɑ²-khwe²	ʔɑ²-khwe²	mouth	mouth		1.3.1	303	0		p,468
+236043	1284	Côông [Phunoi]	ʔã́ cháw	ʔã́ cháw	horn	horn		1.2.2		0		5450,m
+236045	1284	Côông [Phunoi]	ʔã́ tṍ	ʔã́ tṍ	wing	wing		1.5.1.3		0		5450,711
+236046	1284	Côông [Phunoi]	tã hmin	tã hmin	tail	tail		1.4.10.1		0		225,1288
+236047	1284	Côông [Phunoi]	ʔã hmot	ʔã hmot	feathers	feathers		1.6.1.1		0		5450,1429
+236048	1284	Côông [Phunoi]	ʔã hmot	ʔã hmot	body hair	body hair		1.6.1		0		5450,1429
+236049	1284	Côông [Phunoi]	ʔuʔ	ʔuʔ	egg	egg				0		301
+236050	1284	Côông [Phunoi]	mṍ ʔan	mṍ ʔan	saddle	saddle		5.14		0		m,bChinese
+236051	1284	Côông [Phunoi]	ʔã́ tu	ʔã́ tu	head	head		1.2.1		0		5450,1223
+236052	1284	Côông [Phunoi]	sham khə̃́	sham khə̃́	head hair	head hair		1.2.3		0		366,372
+236053	1284	Côông [Phunoi]	bə̆kà	bə̆kà	face	face		1.2.5		0		
+236054	1284	Côông [Phunoi]	ʔã bja	ʔã bja	eye	eye		1.2.6		0		5450,681
+236055	1284	Côông [Phunoi]	lə̆◦kã́	lə̆kã́	nose	nose		1.2.8		0		p,809
+236056	1284	Côông [Phunoi]	ban fon	ban fon	mouth	mouth		1.3.1		0		
+236057	1284	Côông [Phunoi]	ban kho	ban kho	lips	lips		1.3.2		0		
+236058	1284	Côông [Phunoi]	she phé	she phé	teeth	teeth		1.3.4		0		
+236059	1284	Côông [Phunoi]	she phé	she phé	tusk	tusk		1.3.4.1		0		
+236060	1284	Côông [Phunoi]	ʔã́ hlá	ʔã́ hlá	tongue	tongue		1.3.3		0		5450,623
+236061	1284	Côông [Phunoi]	bàn khə	bàn khə	gums	gums		1.3.4.3		0		m,1723
+236062	1284	Côông [Phunoi]	bo pà	bo pà	cheeks	cheeks		1.2.5.2		0		
+236063	1284	Côông [Phunoi]	pi tùn	pi tùn	chin	chin		1.2.5.3		0		
+236064	1284	Côông [Phunoi]	bàn hmut	bàn hmut	beard	beard		1.2.5.5		0		453,1429
+236065	1284	Côông [Phunoi]	ʔã́ hnà	ʔã́ hnà	ear	ear		1.2.7		0		5450,811
+236066	1284	Côông [Phunoi]			fontanelle	fontanelle		1.2.1.3		0	HIDE	
+236067	1284	Côông [Phunoi]	khon bá sì	khon bá sì	neck	neck		1.4.2		0		3361,484,m
+236068	1284	Côông [Phunoi]	ʔã́ kò	ʔã́ kò	throat	throat		1.3.5		0		5450,495
+236069	1284	Côông [Phunoi]	ʔã́ jã́	ʔã́ jã́	chest	chest		1.4.4.3		0		5450,288
+236070	1284	Côông [Phunoi]	bò hǔm	bò hǔm	shoulder	shoulder		1.4.3		0		570,754
+236071	1284	Côông [Phunoi]	lə̆◦pù	lə̆◦pù	arm	arm		1.5.1.2		0		695,1327
+236072	1284	Côông [Phunoi]	lə̆◦shi ton	lə̆shi ton	elbow	elbow		1.5.8.3		0		695,m,439
+236073	1284	Côông [Phunoi]	lə̆◦ko	lə̆◦ko	wrist	wrist		1.5.8.1		0		695,m
+236074	1284	Côông [Phunoi]	là/lə̆◦sùp	là/lə̆◦sùp	hand	hand		1.5.1.1		0		695,695,731
+236075	1284	Côông [Phunoi]	lə̆voà	lə̆voà	palm	palm		1.5.5		0		
+236076	1284	Côông [Phunoi]	lə̆hjã́/lə̆hɲú(?)	lə̆hjã́/lə̆hɲú(?)	finger	finger		1.5.6		0		
+236077	1284	Côông [Phunoi]	lə̆ba	lə̆ba	thumb	thumb		1.5.6.1		0		
+236078	1284	Côông [Phunoi]	lə̆shìɲ	lə̆shìɲ	fingernail	fingernail		1.5.10.1		0		
+236079	1284	Côông [Phunoi]	kə̀kɨ lé	kə̀kɨ lé	armpit	armpit		1.5.1.2.3		0		
+236080	1284	Côông [Phunoi]	lə̆◦kho	lə̆◦kho	back (upper)	back (upper)		1.4.8		0		
+236081	1284	Côông [Phunoi]	ʔã́ cò	ʔã́ cò	waist	waist		1.4.6		0		5450,215
+236082	1284	Côông [Phunoi]	lã sì	lã sì	breast	breast		1.4.4.3		0		3458,1019
+236083	1284	Côông [Phunoi]	mə◦chà	mə◦chà	navel	navel		1.9.4		0		m,525
+236084	1284	Côông [Phunoi]	hɲi tã	hɲi tã	buttock	buttock		1.4.9.2		0		3337,225
+236085	1284	Côông [Phunoi]	ʔã́ pon	ʔã́ pon	thigh	thigh		1.5.7.1		0		5450,404
+236086	1284	Côông [Phunoi]	nè	nè	penis	penis				0		545
+236087	1284	Côông [Phunoi]	pɔtò	pɔtò	vulva	vulva				0		
+236088	1284	Côông [Phunoi]			leg	leg		1.5.7		0	HIDE	
+236089	1284	Côông [Phunoi]	bə◦tu	bətu	knee	knee		1.5.8.4		0		m,306
+236090	1284	Côông [Phunoi]	bə̆thə́	bə̆thə́	calf	calf		1.5.7		0		
+236091	1284	Côông [Phunoi]	lə̆◦khə́	lə̆khə́	foot	foot		1.5.2		0		350,336
+236092	1284	Côông [Phunoi]			ankle	ankle		1.5.8.2		0	HIDE	
+236093	1284	Côông [Phunoi]	pi tùn	pi tùn	heel	heel		1.5.2.1		0		m,574
+236094	1284	Côông [Phunoi]	pò và lə̆khə́	pò và lə̆khə́	sole	sole		1.5.5		0		
+236095	1284	Côông [Phunoi]	lə̆khə́ ba	lə̆khə́ ba	big toe	big toe		1.5.6.1		0		
+236096	1284	Côông [Phunoi]	lə̆khə́ hjã́	lə̆khə́ hjã́	toe	toe		1.5.6		0		
+236097	1284	Côông [Phunoi]	po pon	po pon	belly	belly		1.4.7		0		
+236098	1284	Côông [Phunoi]	ʔã́ hlù	ʔã́ hlù	skin	skin		1.6.5		0		5450,595
+236099	1284	Côông [Phunoi]	sà	sà	meat	meat		1.1.1.1		0		34
+236100	1284	Côông [Phunoi]	ʔã́ jàw	ʔã́ jàw	bone	bone		1.6.3		0		5450,232
+236101	1284	Côông [Phunoi]	lə̆kwu	lə̆kwu	tendon	tendon		1.6.6.1		0		
+236102	1284	Côông [Phunoi]	lóm	lóm	breath	breath		1.1.2.2		0		
+236103	1284	Côông [Phunoi]	ʔã́ juʔ	ʔã́ juʔ	life	life		1.1.2.1		0		5450,m
+236104	1284	Côông [Phunoi]	ʔã́ dò	ʔã́ dò	brain	brain		1.2.4		0		5450,m
+236105	1284	Côông [Phunoi]	ʔã́ hmap	ʔã́ hmap	lungs	lungs		1.7.2		0		5450,m
+236106	1284	Côông [Phunoi]	lə̆ba sì	lə̆ba sì	heart	heart		1.7.1		0		
+236107	1284	Côông [Phunoi]	ʔã́ sìn	ʔã́ sìn	liver	liver		1.7.3		0		5450,1390
+236108	1284	Côông [Phunoi]	kho sì	kho sì	kidney	kidney		1.7.5		0		
+236109	1284	Côông [Phunoi]	po pon	po pon	stomach	stomach		1.7.6		0		
+236110	1284	Côông [Phunoi]	ʔã́ ʔú	ʔã́ ʔú	intestine	intestine		1.7.6		0		5450,2102
+236111	1284	Côông [Phunoi]	sə̀	sə̀	blood	blood		1.6.2		0		230
+236112	1284	Côông [Phunoi]	bŏkə̀	bŏkə̀	bile	bile		1.7.3.1		0		
+236113	1284	Côông [Phunoi]	ʔĩ́ lã́	ʔĩ́ lã́	urine	urine		1.8.4		0		
+236114	1284	Côông [Phunoi]	ʔĩ́	ʔĩ́	feces	feces		1.8.5		0		572
+236115	1284	Côông [Phunoi]	mò hút na	mò hút na	sweat	sweat		1.8.1		0		619,m,m
+236116	1284	Côông [Phunoi]	hnàp	hnàp	mucus	mucus		1.8.2		0		805
+236117	1284	Côông [Phunoi]	khan	khan	spittle	spittle		1.2.6		0		
+236118	1284	Côông [Phunoi]	ʔã́ ʔúm	ʔã́ ʔúm	pus	pus		1.8.6.1		0		5450,1298
+236119	1284	Côông [Phunoi]	nù lã́	nù lã́	milk	milk				0		253,191
+236120	1284	Côông [Phunoi]	shã́	shã́	person	person		4.5		0		
+236122	338	Bisu	cháw	cháw	horn	horn		1.2.2		0		
+236123	338	Bisu			horn	horn		1.2.2		0	HIDE	
+236124	338	Bisu	ʔaŋ tɔ́ŋ	ʔaŋ tɔ́ŋ	wing	wing		1.5.1.3		0		5450,711
+236125	338	Bisu	tɔ̀ŋ hɲì	tɔ̀ŋ hɲì	tail	tail		1.4.10.1		0		225,1288
+236126	338	Bisu			feathers	feathers		1.6.1.1		0	HIDE	
+236127	338	Bisu			body hair	body hair		1.6.1		0	HIDE	
+236128	338	Bisu	ʔu	ʔu	egg	egg				0		301
+236129	338	Bisu	táŋ	táŋ	saddle	saddle		5.14		0		
+236130	338	Bisu	ʔaŋ tù	ʔaŋ tù	head	head		1.2.1		0		5450,1223
+236131	338	Bisu	tám khɯ́ŋ	tám khɯ́ŋ	head hair	head hair		1.2.3		0		366,372
+236132	338	Bisu			face	face		1.2.5		0	HIDE	
+236133	338	Bisu	mɛ̀ hnɯ	mɛ̀ hnɯ	eye	eye		1.2.6		0		681,2067
+236134	338	Bisu	hná kháŋ	hná kháŋ	nose	nose		1.2.8		0		803,809
+236135	338	Bisu	mɛ̀n pɔ̀ŋ	mɛ̀n pɔ̀ŋ	mouth	mouth		1.3.1		0		
+236136	338	Bisu	pɔ̀ŋ	pɔ̀ŋ	lips	lips		1.3.2		0		
+236137	338	Bisu	sɔ̀ phjɛ̀	sɔ̀ phjɛ̀	teeth	teeth		1.3.4		0		
+236138	338	Bisu			tusk	tusk		1.3.4.1		0	HIDE	
+236139	338	Bisu	mɛ̀n hlà	mɛ̀n hlà	tongue	tongue		1.3.3		0		m,623
+236140	338	Bisu			gums	gums		1.3.4.3		0	HIDE	
+236141	338	Bisu	pà pa	pà pa	cheeks	cheeks		1.2.5.2		0		
+236142	338	Bisu	mɛ̀n tɤ̀ŋ	mɛ̀n tɤ̀ŋ	chin	chin		1.2.5.3		0		
+236143	338	Bisu	mɛ̀n hmɯ	mɛ̀n hmɯ	beard	beard		1.2.5.5		0		
+236144	338	Bisu	nà sɯ̀ŋ	nà sɯ̀ŋ	ear	ear		1.2.7		0		811,m
+236145	338	Bisu			fontanelle	fontanelle		1.2.1.3		0	HIDE	
+236146	338	Bisu	ʔã́ líɲ	ʔã́ líɲ	neck	neck		1.4.2		0		p,479
+236147	338	Bisu			throat	throat		1.3.5		0	HIDE	
+236148	338	Bisu	na ʔɤ́k	na ʔɤ́k	chest	chest		1.4.4.3		0		bTai
+236149	338	Bisu	pa hùm	pa hùm	shoulder	shoulder		1.4.3		0		570,754
+236150	338	Bisu	là lɯ̀ŋ	là lɯ̀ŋ	arm	arm		1.5.1.2		0		695,242
+236151	338	Bisu	là tshɯ̀ tɔŋ	là tshɯ̀ tɔŋ	elbow	elbow		1.5.8.3		0		695,418,m
+236152	338	Bisu	là tshɯ̀	là tshɯ̀	wrist	wrist		1.5.8.1		0		695,418
+236153	338	Bisu	là pù	là pù	hand	hand		1.5.1.1		0		695,6118
+236154	338	Bisu			palm	palm		1.5.5		0	HIDE	
+236155	338	Bisu	là hɲuŋ	là hɲuŋ	finger	finger		1.5.6		0		
+236156	338	Bisu	là ba	là ba	thumb	thumb		1.5.6.1		0		
+236157	338	Bisu	pa sɯ̀ŋ	pa sɯ̀ŋ	fingernail	fingernail		1.5.10.1		0		
+236158	338	Bisu			armpit	armpit		1.5.1.2.3		0	HIDE	
+236159	338	Bisu			back (upper)	back (upper)		1.4.8		0	HIDE	
+236160	338	Bisu	ʔaŋ kjɔ̀ / tɕɔ̀	ʔaŋ kjɔ̀ / tɕɔ̀	waist	waist		1.4.6		0		5450,215,215
+236161	338	Bisu	lɔŋ pɛ́t	lɔŋ pɛ́t	breast	breast		1.4.4.3		0		3458,308
+236162	338	Bisu	sa tɔ̀ŋ	sa tɔ̀ŋ	navel	navel		1.9.4		0		m,3447
+236163	338	Bisu			buttock	buttock		1.4.9.2		0	HIDE	x
+236164	338	Bisu			thigh	thigh		1.5.7.1		0	HIDE	
+236165	338	Bisu			penis	penis				0	HIDE	
+236166	338	Bisu			vulva	vulva				0	HIDE	
+236167	338	Bisu	pɔ́ŋ tú	pɔ́ŋ tú	leg	leg		1.5.7		0		
+236168	338	Bisu			knee	knee		1.5.8.4		0	HIDE	
+236169	338	Bisu			calf	calf		1.5.7		0	HIDE	
+236170	338	Bisu	là khɯ̀	là khɯ̀	foot	foot		1.5.2		0		350,335
+236171	338	Bisu			ankle	ankle		1.5.8.2		0	HIDE	
+236172	338	Bisu			heel	heel		1.5.2.1		0	HIDE	
+236173	338	Bisu			sole	sole		1.5.5		0	HIDE	
+236174	338	Bisu			big toe	big toe		1.5.6.1		0	HIDE	
+236175	338	Bisu			toe	toe		1.5.6		0	HIDE	
+236176	338	Bisu	pɔ̀ŋ ba	pɔ̀ŋ ba	belly	belly		1.4.7		0		
+236177	338	Bisu	ʔaŋ khɔ	ʔaŋ khɔ	skin	skin		1.6.5		0		5450,586
+236178	338	Bisu	ʔaŋ sà	ʔaŋ sà	meat	meat		1.1.1.1		0		5450,34
+236179	338	Bisu	ʔaŋ gàw	ʔaŋ gàw	bone	bone		1.6.3		0		5450,m
+236180	338	Bisu			tendon	tendon		1.6.6.1		0	HIDE	
+236181	338	Bisu			breath	breath		1.1.2.2		0	HIDE	
+236182	338	Bisu	ʔaŋ ɲu	ʔaŋ ɲu	life	life		1.1.2.1		0		5450,m
+236183	338	Bisu	nɯŋ ba	nɯŋ ba	brain	brain		1.2.4		0		
+236184	338	Bisu	ʔaŋ hmaw	ʔaŋ hmaw	lungs	lungs		1.7.2		0		5450,m
+236185	338	Bisu	nɯŋ ba	nɯŋ ba	heart	heart		1.7.1		0		251,s
+236186	338	Bisu	ʔaŋ tshiŋ	ʔaŋ tshiŋ	liver	liver		1.7.3		0		5450,1390
+236187	338	Bisu	pɛ̀ khà	pɛ̀ khà	kidney	kidney		1.7.5		0		2120,m
+236188	338	Bisu			stomach	stomach		1.7.6		0	HIDE	
+236189	338	Bisu	ʔaŋ ʔú	ʔaŋ ʔú	intestine	intestine		1.7.6		0		5450,2102
+236190	338	Bisu	šì	šì	blood	blood		1.6.2		0		230
+236191	338	Bisu			bile	bile		1.7.3.1		0	HIDE	
+236192	338	Bisu	ʔĩ́ šì	ʔĩ́ šì	urine	urine		1.8.4		0		m,650
+236193	338	Bisu	ʔɛ̀ŋ	ʔɛ̀ŋ	feces	feces		1.8.5		0		
+236194	338	Bisu			sweat	sweat		1.8.1		0	HIDE	
+236195	338	Bisu			mucus	mucus		1.8.2		0	HIDE	
+236196	338	Bisu	khan lã́	khan lã́	spittle	spittle		1.2.6		0		
+236197	338	Bisu			pus	pus		1.8.6.1		0	HIDE	e
+236198	338	Bisu			milk	milk				0	HIDE	
+236199	338	Bisu	tsháŋ	tsháŋ	person	person		4.5		0		
+236201	1114	Mpi	ʔaŋ khjáw	ʔaŋ khjáw	horn	horn		1.2.2		0		
+236202	1114	Mpi	ŋ²khɯ⁶	ŋ²khɯ⁶	horn	horn		1.2.2		0		
+236203	1114	Mpi	mɯ² tuŋ⁶	mɯ² tuŋ⁶	wing	wing		1.5.1.3		0		769,711
+236204	1114	Mpi	m²|pɑ⁴	m²|pɑ⁴	tail	tail		1.4.10.1		0		410
+236205	1114	Mpi	ʔɑ²mɯ²	ʔɑ²mɯ²	feathers	feathers		1.6.1.1		0		
+236206	1114	Mpi	ʔɑ²mɯ²	ʔɑ²mɯ²	body hair	body hair		1.6.1		0		p,363
+236207	1114	Mpi	ʔuʔ⁴	ʔuʔ⁴	egg	egg				0		301
+236208	1114	Mpi	mjuŋ²ʔaŋ⁶	mjuŋ²ʔaŋ⁶	saddle	saddle		5.14		0		1431,b
+236209	1114	Mpi	ʔɑ²sɯ²	ʔɑ²sɯ²	head	head		1.2.1		0		
+236210	1114	Mpi	ŋ⁴khɯ⁶	ŋ⁴khɯ⁶	head hair	head hair		1.2.3		0		p,372
+236211	1114	Mpi	m⁴phjoŋ²	m⁴phjoŋ²	face	face		1.2.5		0		p,1186
+236212	1114	Mpi	ɲ⁴tɕhoʔ⁴	ɲ⁴tɕhoʔ⁴	eye	eye		1.2.6		0		
+236213	1114	Mpi	ŋ⁴khoŋ⁶	ŋ⁴khoŋ⁶	nose	nose		1.2.8		0		803,809
+236214	1114	Mpi	ʔɑ²khwe²	ʔɑ²khwe²	mouth	mouth		1.3.1		0		
+236215	1114	Mpi	m²phi⁶	m²phi⁶	lips	lips		1.3.2		0		
+236216	1114	Mpi	ʔɑ²so²/tɕɯ⁶	ʔɑ²so²/tɕɯ⁶	teeth	teeth		1.3.4		0		
+236217	1114	Mpi	ʔɑ²so²/tɕɯ⁶(?)	ʔɑ²so²/tɕɯ⁶(?)	tusk	tusk		1.3.4.1		0		
+236218	1114	Mpi	ʔɑ²lo⁶	ʔɑ²lo⁶	tongue	tongue		1.3.3		0		p,623
+236219	1114	Mpi	so²khuŋ⁶	so²khuŋ⁶	gums	gums		1.3.4.3		0		m,1723
+236220	1114	Mpi	po²po⁴	po²po⁴	cheeks	cheeks		1.2.5.2		0		
+236221	1114	Mpi	koŋ²◦/◦n²◦tɑʔ⁴	koŋ²◦/◦n²◦tɑʔ⁴	chin	chin		1.2.5.3		0		b,m,m
+236222	1114	Mpi	n²tɑʔ⁴mɯ²	n²tɑʔ⁴mɯ²	beard	beard		1.2.5.5		0		
+236223	1114	Mpi	m²pha²	m²pha²	ear	ear		1.2.7		0		811,821
+236224	1114	Mpi	ʔoʔ²noʔ²	ʔoʔ²noʔ²	fontanelle	fontanelle		1.2.1.3		0		
+236225	1114	Mpi	kho²mo⁴	kho²mo⁴	neck	neck		1.4.2		0		3361,m
+236226	1114	Mpi	ʔi²lɯ⁶	ʔi²lɯ⁶	throat	throat		1.3.5		0		p,479
+236227	1114	Mpi	po⁶liʔ⁴	po⁶liʔ⁴	chest	chest		1.4.4.3		0		
+236228	1114	Mpi	po²tha²	po²tha²	shoulder	shoulder		1.4.3		0	D0	570,565
+236229	1114	Mpi	lɑ²ʔɯ²	lɑ²ʔɯ²	arm	arm		1.5.1.2		0		695,232
+236230	1114	Mpi	soʔ⁶	soʔ⁶	elbow	elbow		1.5.8.3		0		
+236231	1114	Mpi	lɑ²phu⁶weʔ⁴leʔ⁴	lɑ²phu⁶weʔ⁴leʔ⁴	wrist	wrist		1.5.8.1		0		695,6118,m,m
+236232	1114	Mpi	lɑ²phu⁶	lɑ²phu⁶	hand	hand		1.5.1.1		0		695,6118
+236233	1114	Mpi	lɑ²khweʔ²	lɑ²khweʔ²	palm	palm		1.5.5		0		
+236234	1114	Mpi	lɑ²ni⁶/ɲɯ⁶	lɑ²ni⁶/ɲɯ⁶	finger	finger		1.5.6		0		
+236235	1114	Mpi	n²ni⁶m²mo⁴	n²ni⁶m²mo⁴	thumb	thumb		1.5.6.1		0	D0	
+236236	1114	Mpi	lɑ²sɯ²	lɑ²sɯ²	fingernail	fingernail		1.5.10.1		0		
+236237	1114	Mpi	ka²la²ʔoʔ²	ka²la²ʔoʔ²	armpit	armpit		1.5.1.2.3		0		
+236238	1114	Mpi	koŋ⁶thɯʔ²si⁴	koŋ⁶thɯʔ²si⁴	back (upper)	back (upper)		1.4.8		0		219,m,m
+236239	1114	Mpi	ʔoʔ²tɕoʔ²	ʔoʔ²tɕoʔ²	waist	waist		1.4.6		0	D0	2542,215
+236240	1114	Mpi	m⁴poʔ⁴	m⁴poʔ⁴	breast	breast		1.4.4.3		0		p,3459
+236241	1114	Mpi	tɕeʔ⁴thuŋ²	tɕeʔ⁴thuŋ²	navel	navel		1.9.4		0	D0	525,3447
+236242	1114	Mpi	toŋ²phuʔ⁴	toŋ²phuʔ⁴	buttock	buttock		1.4.9.2		0		225,398
+236243	1114	Mpi	la²puŋ⁶ʔɑ²toʔ⁴	la²puŋ⁶ʔɑ²toʔ⁴	thigh	thigh		1.5.7.1		0		
+236244	1114	Mpi	tɕhɑ²lɑʔ⁴	tɕhɑ²lɑʔ⁴	penis	penis				0		m,1284
+236245	1114	Mpi	to²phe²	to²phe²	vulva	vulva				0		
+236246	1114	Mpi	lɑ²puŋ⁶	lɑ²puŋ⁶	leg	leg		1.5.7		0		350,m
+236247	1114	Mpi	poʔ²thɯʔ²/ŋ²koŋ⁴	poʔ²thɯʔ²/ŋ²koŋ⁴	knee	knee		1.5.8.4		0		435,m,m,m
+236248	1114	Mpi	khi⁴thɤŋ⁶	khi⁴thɤŋ⁶	calf	calf		1.5.7		0		
+236249	1114	Mpi	lɑ²khi⁶	lɑ²khi⁶	foot	foot		1.5.2		0		350,335
+236250	1114	Mpi	lɑ²khi⁶ʔɑ²woʔ⁴leʔ⁴	lɑ²khi⁶ʔɑ²woʔ⁴leʔ⁴	ankle	ankle		1.5.8.2		0		
+236251	1114	Mpi	n²thɑʔ²	n²thɑʔ²	heel	heel		1.5.2.1		0		
+236252	1114	Mpi	pɑ²ʔoʔ²	pɑ²ʔoʔ²	sole	sole		1.5.5		0		
+236253	1114	Mpi	la²ni⁶mo⁴	la²ni⁶mo⁴	big toe	big toe		1.5.6.1		0		
+236254	1114	Mpi	lɑ²khi⁶lɑ²ni⁶	lɑ²khi⁶lɑ²ni⁶	toe	toe		1.5.6		0		
+236255	1114	Mpi	puŋ⁶/ʔo²tha²	puŋ⁶/ʔo²tha²	belly	belly		1.4.7		0		
+236256	1114	Mpi	ʔɑ²khoʔ⁴	ʔɑ²khoʔ⁴	skin	skin		1.6.5		0		p,586
+236257	1114	Mpi	ʔɑ²so²	ʔɑ²so²	meat	meat		1.1.1.1		0		p,34
+236258	1114	Mpi	ʔɑ²ʔɯ²	ʔɑ²ʔɯ²	bone	bone		1.6.3		0		m,232
+236259	1114	Mpi	ʔɑ²ku²	ʔɑ²ku²	tendon	tendon		1.6.6.1		0		
+236260	1114	Mpi	ʔɑ²sa²	ʔɑ²sa²	breath	breath		1.1.2.2		0		p,32
+236261	1114	Mpi	ʔɑ²ju⁴(?)	ʔɑ²ju⁴(?)	life	life		1.1.2.1		0		
+236262	1114	Mpi	noʔ⁴wo⁴	noʔ⁴wo⁴	brain	brain		1.2.4		0		243,385
+236263	1114	Mpi	ʔɑ²thiʔ⁴	ʔɑ²thiʔ⁴	lungs	lungs		1.7.2		0		
+236264	1114	Mpi	no⁴wo⁴	no⁴wo⁴	heart	heart		1.7.1		0		297,m
+236265	1114	Mpi	ʔɑ²thɯ²	ʔɑ²thɯ²	liver	liver		1.7.3		0		p,1390
+236266	1114	Mpi	ŋ⁴|kjo⁵	ŋ⁴kjo⁵	kidney	kidney		1.7.5		0		207
+236267	1114	Mpi	ʔɑ²tha²	ʔɑ²tha²	stomach	stomach		1.7.6		0		
+236268	1114	Mpi	ʔɑ²ʔu⁶	ʔɑ²ʔu⁶	intestine	intestine		1.7.6		0		p,2102
+236269	1114	Mpi	si²	si²	blood	blood		1.6.2		0		230
+236270	1114	Mpi	pi²khi⁶	pi²khi⁶	bile	bile		1.7.3.1		0		
+236271	1114	Mpi	ʔɑ²tɕhoŋ⁶	ʔɑ²tɕhoŋ⁶	urine	urine		1.8.4		0	D0	
+236272	1114	Mpi	joŋ²/khi²	joŋ²/khi²	feces	feces		1.8.5		0		m,572
+236273	1114	Mpi	ŋ⁴khi⁶luŋ⁴mo⁴	ŋ⁴khi⁶luŋ⁴mo⁴	sweat	sweat		1.8.1		0		p,615,m,m
+236274	1114	Mpi	m²pi²	m²pi²	mucus	mucus		1.8.2		0		
+236275	1114	Mpi	mɑ⁴hɑŋʔ⁶	mɑ⁴hɑŋʔ⁶	spittle	spittle		1.2.6		0	D0	
+236276	1114	Mpi	pju⁶/pjɯ⁶	pju⁶/pjɯ⁶	pus	pus		1.8.6.1		0		1292,1292
+236277	1114	Mpi	m⁴poʔ⁴ʔɯ⁶	m⁴poʔ⁴ʔɯ⁶	milk	milk				0		p,3459,1013
+236278	1114	Mpi	tɕhoŋ⁶	tɕhoŋ⁶	person	person		4.5		0		
+441410	338	Bisu	hlè	hlè	penis	penis				0		1284
+441411	1114	Mpi	ne²	ne²	penis	penis				0		545
+622117	1114	Mpi	li⁴ so⁴		Lisu		n.		311	0		m,5632
+622160	227	Akha	yaw dawˇ		straight			7.1.5.1	538a	0		p,5734
+622161	227	Akha	dawˇ coe		straight			7.1.5.1	538a	0		5734,m
+622162	1284	Côông [Phunoi]	ʔã́ də́		straight			7.1.5.1	538a	0		p,5734
+622205	227	Akha	gui shah ̬		god			1.2.3.3	360	0		658,5792

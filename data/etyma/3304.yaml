@@ -1,0 +1,15 @@
+tag: 3304
+grpid: 0
+protoform: mop
+gloss: DISEASE / ILLNESS
+semkey: 1.1.5.1
+sequence: 7.0
+status: DELETE
+public: false
+references: ("HIM") P-form
+phonology:
+  handle: mop
+  initial: m
+  rhyme: op
+  initcover: M
+  rhymecover: T

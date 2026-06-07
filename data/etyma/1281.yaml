@@ -1,0 +1,38 @@
+tag: 1281
+grpid: 2
+proto_language: PTB
+protoform: m-twa
+gloss: HANDSPAN
+semkey: 1.5.9.4
+sequence: 37.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#165, HPTB pp.64, 167, 171
+phonology:
+  handle: twa
+  prefix: m
+  initial: tw
+  rhyme: a
+  initcover: T
+  rhymecover: V
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: thaᴬ
+  gloss: HANDSPAN (about 8-9 inches)
+notes:
+- type: T
+  text: <par>This root is extremely well established, with an impressive cognates even in Baic and Karenic.
+    Several forms (Lyuzu, Ersu, and Southern Tujia) have affricated initials, which bear some resemblance
+    to Mandarin Chinese <emph>zhǎ</emph> <hanform>拃</hanform>, although the latter shows no sign of a
+    labial medial.</par>
+- type: F
+  text: '<par><hanform>度</hanform> OC <latinform>*d’ɑ̂k</latinform>, GSR #801a &apos;a measure; limit,
+    degree; rule, law&apos;; Schuessler 2007:218 <latinform>*dâk</latinform>; B &amp; S 2011: <latinform>*dˁak
+    {[d]ˁak}</latinform>; Mand. <latinform>dù</latinform>.<br /><hanform>度</hanform> OC <latinform>*d’ɑ̂g</latinform>,
+    GSR #801a &apos;measure, calculate, consider, plan; a measure of width&apos;; Schuessler 2007:218
+    <latinform>*dâkh</latinform>; B &amp; S 2011: <latinform>*dˁak-s {[d]ˁak-s}</latinform>; Mand. <latinform>duó</latinform>.<br
+    /><hanform>圖</hanform> OC <latinform>*d’o</latinform>, GSR #64a-c &apos;plan, consider; calculate;
+    law, regulation; a plan, map&apos;; Schuessler 2007:218 <latinform>*dâ</latinform>; B &amp; S 2011:
+    <latinform>*dˁa {[d]ˁa}</latinform>; Mand. <latinform>tú</latinform>.</par>'

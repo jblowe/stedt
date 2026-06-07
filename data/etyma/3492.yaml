@@ -1,0 +1,21 @@
+tag: 3492
+grpid: 2
+proto_language: PTB
+protoform: pwak
+gloss: SCROTUM
+sequence: 121.0
+status: KEEP
+public: true
+phonology:
+  handle: pok
+  initial: p
+  rhyme: ok
+  initcover: P
+  rhymecover: T
+notes:
+- type: T
+  text: '<par>This root has only been found in a few languages, two Himalayish (Dumi, Tamang) and one
+    Qiangic (rGyalrong), though the phonological and semantic fit among them is excellent. See TBRS #121.</par><par>There
+    is a probably fortuitous resemblance between this root and <xref ref="3426">#3426</xref>.</par>'
+- type: T
+  text: '<par>This root was reconstructed as <reconstruction>*pok</reconstruction> in TBRS: #121.</par>'

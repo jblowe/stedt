@@ -1,0 +1,23 @@
+tag: 3430
+grpid: 2
+proto_language: PTB
+protoform: tsyum
+gloss: VAGINA / COPULATE
+sequence: 87.0
+status: KEEP
+public: true
+references: ("HIM") only in Bantawa, Tamang
+phonology:
+  handle: tsyum
+  initial: tsy
+  rhyme: um
+  initcover: TS
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>This etymon has been found in a few Himalayish languages (Bantawa, Lepcha, Tamang, and perhaps
+    Newar), as well as in the NE Indian Areal Group. The basic meaning seems to be &apos;come together&apos;.
+    There is a perfect fit between the Karbi and Lepcha forms. The analysis of the Karbi form is as follows:
+    <latinform>i</latinform> &apos;sleep&apos; + <latinform>rap</latinform> &apos;befriend; be together&apos;
+    (see <xref ref="1647">#1647</xref>) + <latinform>chom</latinform> &apos;suffix indicating action performed
+    together&apos; (Walker 1925:37).</par>'

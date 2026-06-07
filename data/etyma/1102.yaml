@@ -1,0 +1,17 @@
+tag: 1102
+grpid: 32
+proto_language: PTQ
+protoform: C-bi
+gloss: URINE
+semkey: 1.8.4
+sequence: 8.0
+status: KEEP
+public: false
+references: ("PQ") Qiangish
+phonology:
+  handle: bi
+  prefix: C
+  initial: b
+  rhyme: i
+  initcover: P
+  rhymecover: V

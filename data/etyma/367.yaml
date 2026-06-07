@@ -1,0 +1,18 @@
+tag: 367
+grpid: 2
+proto_language: PTB
+protoform: s-kra
+gloss: HAIR OF HEAD / HEAD
+semkey: 1.2.1
+sequence: 5.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#115, HPTB p.102
+phonology:
+  handle: s-kr
+  prefix: s
+  initial: )kr
+  rhyme: a
+  initcover: K
+  rhymecover: V

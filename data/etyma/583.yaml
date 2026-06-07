@@ -1,0 +1,18 @@
+tag: 583
+grpid: 2
+proto_language: PTB
+protoform: r-guːŋ
+gloss: SHIN
+semkey: 1.5.7.2
+sequence: 2950.0
+status: delete
+public: false
+exemplary: true
+xrefs: =2254
+phonology:
+  handle: guːŋ
+  prefix: r
+  initial: g
+  rhyme: uːŋ
+  initcover: K
+  rhymecover: N

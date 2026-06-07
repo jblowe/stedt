@@ -1,0 +1,1320 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+41472	850	Lahu (Black)	ɣu⁵³ sɿ¹¹	ɣu⁵³ sɿ¹¹	front	front		1.4.4		0		1217,1214
+41473	850	Lahu (Black)	qʰɔʔ²¹ nɔ³⁵	qʰɔʔ²¹ nɔ³⁵	back (side)	back (side)		1.4.8		0		m,203
+41474	850	Lahu (Black)	laʔ²¹ mɛ³¹	laʔ²¹ mɛ³¹	left	left		1.5.3.2		0		695,2154
+41475	850	Lahu (Black)	laʔ²¹ sa³³	laʔ²¹ sa³³	right (side)	right (side)		1.5.3.2		0		695,2786
+41476	850	Lahu (Black)	ɔ³¹ pa⁵³	ɔ³¹ pa⁵³	side	side		1.4.5		0		p,2584
+41477	850	Lahu (Black)	ɔ³¹ qɔ³³ dzi³³	ɔ³¹ qɔ³³ dzi³³	center, middle	center, middle		1.9.4		0		m,m,m
+41478	850	Lahu (Black)	ɔ³¹ v̩³³	ɔ³¹ v̩³³	egg	egg				0		5450,301
+41479	850	Lahu (Black)	tɔ³¹ laʔ²¹ kv̩³⁵	tɔ³¹ laʔ²¹ kv̩³⁵	wing	wing		1.5.1.3		0		711,695,m
+41480	850	Lahu (Black)	ɔ³¹ mv̩³³	ɔ³¹ mv̩³³	fur	fur		1.6.1		0		p,363
+41481	850	Lahu (Black)	kʰɯ³³ si¹¹ kv̩³⁵	kʰɯ³³ si¹¹ kv̩³⁵	claw	claw		1.5.10.4		0		
+41482	850	Lahu (Black)	kʰɯ³³ ti³⁵ pu³¹	kʰɯ³³ ti³⁵ pu³¹	hoof	hoof		1.5.4		0		
+41483	850	Lahu (Black)	kʰɔ³³	kʰɔ³³	horn	horn		1.2.2		0		819
+41484	850	Lahu (Black)	ɔ³¹ gɯ³¹	ɔ³¹ gɯ³¹	hide	hide		1.6.5.1		0		p,596
+41485	850	Lahu (Black)	mɛ³¹ tv̩³³	mɛ³¹ tv̩³³	tail	tail		1.4.10.1		0		1288,5639
+41486	850	Lahu (Black)	ɣaʔ⁵⁴ na³¹ bzɿ³³	ɣaʔ⁵⁴ na³¹ bzɿ³³	cockscomb	cockscomb		1.2.2.1		0		1606,356,2014
+41487	850	Lahu (Black)	na³¹ pɔ³¹	na³¹ pɔ³¹	gills	gills		1.3.5.3		0		
+41488	850	Lahu (Black)	ɔ³¹ sɛʔ⁵⁴	ɔ³¹ sɛʔ⁵⁴	scales	scales		1.6.5.2		0		5450,1454
+41489	850	Lahu (Black)	ɔ³¹ tu³³	ɔ³¹ tu³³	body	body		1.1.1		0		5450,14
+41490	850	Lahu (Black)	v̩³⁵ qu¹¹	v̩³⁵ qu¹¹	head	head		1.2.1		0		385,387
+41491	850	Lahu (Black)	u³⁵ qu³¹ si¹¹	u³⁵ qu³¹ si¹¹	skull	skull		1.2.1.1		0		385,387,1019
+41492	850	Lahu (Black)	na³¹ qa³¹ pɯ³³	na³¹ qa³¹ pɯ³³	forehead	forehead		1.2.5.1		0		356,2026,276
+41494	850	Lahu (Black)	v̩³⁵ kʰɛ³³ pʰi⁵³	v̩³⁵ kʰɛ³³ pʰi⁵³	braid (hair)	braid (hair)	n	1.2.3.2		0		385,372,2018
+41495	850	Lahu (Black)	v̩³⁵ nɔʔ²¹ nɛʔ⁵⁴	v̩³⁵ nɔʔ²¹ nɛʔ⁵⁴	brain	brain		1.2.4		0		385,243,3567
+41496	850	Lahu (Black)	mɛʔ⁵⁴ pʰv̩⁵³	mɛʔ⁵⁴ pʰv̩⁵³	face	face		1.2.5		0		681,1186
+41497	850	Lahu (Black)	mɛʔ⁵⁴ qv̩³⁵ mv̩³³	mɛʔ⁵⁴ qv̩³⁵ mv̩³³	eyebrow	eyebrow		1.2.6.6		0		681,586,363
+41498	850	Lahu (Black)	mɛʔ⁵⁴ si¹¹	mɛʔ⁵⁴ si¹¹	eye	eye		1.2.6		0		681,1019
+41499	850	Lahu (Black)	mɛʔ⁵⁴ ɣɯ³¹	mɛʔ⁵⁴ ɣɯ³¹	tears	tears		1.2.6.7		0		681,1013
+41500	850	Lahu (Black)	na³¹ qʰɔ⁵³	na³¹ qʰɔ⁵³	nose	nose		1.2.8		0		803,809
+41501	850	Lahu (Black)	na³¹ pɔ³³	na³¹ pɔ³³	ear	ear		1.2.7		0		811,812
+41502	850	Lahu (Black)	mɔʔ²¹ qɔ³³	mɔʔ²¹ qɔ³³	mouth	mouth		1.3.1		0		687,473
+41503	850	Lahu (Black)	mɯ⁵³ gɯ³¹	mɯ⁵³ gɯ³¹	lip	lip		1.3.2		0		467,596
+41504	850	Lahu (Black)	tsi³¹	tsi³¹	tooth	tooth		1.3.4		0		635
+41505	850	Lahu (Black)	xa³³ tɛ³¹	xa³³ tɛ³¹	tongue	tongue		1.3.3		0		623,m
+41506	850	Lahu (Black)	pa³¹ tsɿʔ⁵⁴	pa³¹ tsɿʔ⁵⁴	beard	beard		1.2.5.5		0		268,1232
+41507	850	Lahu (Black)	qɔ³¹ pɛ³¹	qɔ³¹ pɛ³¹	neck	neck		1.4.2		0		3361,484
+41508	850	Lahu (Black)	qʰɔ³¹ qʰɔ³³	qʰɔ³¹ qʰɔ³³	throat	throat		1.3.5		0		486,820
+41509	850	Lahu (Black)	laʔ²¹ qa³⁵	laʔ²¹ qa³⁵	shoulder	shoulder		1.4.3		0		695,1278
+41510	850	Lahu (Black)	laʔ²¹ sɛ³³	laʔ²¹ sɛ³³	hand	hand		1.5.1.1		0		695,m
+41511	850	Lahu (Black)	laʔ²¹ ɣɔ⁵³	laʔ²¹ ɣɔ⁵³	arm	arm		1.5.1.2		0		695,232
+41512	850	Lahu (Black)	laʔ²¹ diʔ⁵⁴	laʔ²¹ diʔ⁵⁴	pulse	pulse		1.7.1.1		0		695,m
+41513	850	Lahu (Black)	laʔ²¹ nɔ³³	laʔ²¹ nɔ³³	finger	finger		1.5.6		0		
+41514	850	Lahu (Black)	laʔ²¹ si¹¹ qv̩³⁵	laʔ²¹ si¹¹ qv̩³⁵	nail	nail		1.5.10		0		
+41515	850	Lahu (Black)	ni³³ ma³³ pɯ³³	ni³³ ma³³ pɯ³³	chest (of body)	chest (of body)		1.4.4.3		0		297,s,276
+41516	850	Lahu (Black)	tsɔʔ²¹ qɔ⁵³	tsɔʔ²¹ qɔ⁵³	back (of body)	back (of body)		1.4.8		0		215,m
+41517	850	Lahu (Black)	dzv̩³⁵ fv̩⁵³	dzv̩³⁵ fv̩⁵³	breast	breast		1.4.4.3		0		5541,m
+41518	850	Lahu (Black)	ɣu⁵³ pe³¹	ɣu⁵³ pe³¹	belly	belly		1.4.7		0		137,m
+41519	850	Lahu (Black)	ɣu⁵³ tv̩³³ si¹¹	ɣu⁵³ tv̩³³ si¹¹	navel	navel		1.9.4		0		137,520,1019
+41520	850	Lahu (Black)	tsɔʔ²¹	tsɔʔ²¹	waist	waist		1.4.6		0		215
+41521	850	Lahu (Black)	zɑ⁵³ phɯ³³	zɑ⁵³ phɯ³³	placenta	placenta				0		1012,1611
+41522	850	Lahu (Black)	kʰɯ³³ sɛ³³	kʰɯ³³ sɛ³³	foot	foot		1.5.2		0		335,m
+41523	850	Lahu (Black)	kʰɯ³³ ɣɔ⁵³	kʰɯ³³ ɣɔ⁵³	leg	leg		1.5.7		0		335,m
+41524	850	Lahu (Black)	kʰɯ³³ tsɿ³⁵ qv̩³³	kʰɯ³³ tsɿ³⁵ qv̩³³	knee	knee		1.5.8.4		0		335,418,m
+41525	850	Lahu (Black)	pɛ³¹ li³⁵ qa¹¹	pɛ³¹ li³⁵ qa¹¹	armpit	armpit		1.5.1.2.3		0		m,1289,m
+41526	850	Lahu (Black)	ɔ³¹ gɯ³¹	ɔ³¹ gɯ³¹	skin	skin		1.6.5		0		p,596
+41527	850	Lahu (Black)	ɔ³¹ mv̩ʔ²¹ kv̩³³	ɔ³¹ mv̩ʔ²¹ kv̩³³	bone	bone		1.6.3		0		p,m,233
+41528	850	Lahu (Black)	ɔ³¹ kv̩⁵³ tsaʔ⁵⁴	ɔ³¹ kv̩⁵³ tsaʔ⁵⁴	muscle	muscle		1.6.6.2		0		p,535,525
+41529	850	Lahu (Black)	ɔ³¹ sɿ¹¹	ɔ³¹ sɿ¹¹	blood	blood		1.6.2		0		5450,230
+41530	850	Lahu (Black)	ɔ³¹ fɤ³⁵ qu¹¹	ɔ³¹ fɤ³⁵ qu¹¹	stomach	stomach		1.7.6		0		p,2104,387
+41531	850	Lahu (Black)	ɔ³¹ la⁵³ si¹¹	ɔ³¹ la⁵³ si¹¹	kidney	kidney		1.7.5		0		p,2812,1019
+41532	850	Lahu (Black)	ɔ³¹ ɣu³¹ tɛʔ⁵⁴	ɔ³¹ ɣu³¹ tɛʔ⁵⁴	intestines	intestines		1.7.7		0		5450,2102,m
+41533	850	Lahu (Black)	ni³³ ma³³ si¹¹	ni³³ ma³³ si¹¹	heart	heart		1.7.1		0		297,s,1019
+41534	850	Lahu (Black)	ɔ³¹ sɛ³¹	ɔ³¹ sɛ³¹	liver	liver		1.7.3		0		5450,1390
+41535	850	Lahu (Black)	ɔ³¹ tsʰɿʔ⁵⁴ pʰuʔ⁵⁴	ɔ³¹ tsʰɿʔ⁵⁴ pʰuʔ⁵⁴	lung	lung		1.7.2		0		
+41536	850	Lahu (Black)	ɔ³¹ kɯ³³	ɔ³¹ kɯ³³	gall	gall		1.7.3.1		0		p,227
+41537	850	Lahu (Black)	dzɿ⁵³ fv̩⁵³	dzɿ⁵³ fv̩⁵³	bladder	bladder		1.7.8		0		650,2103
+41538	850	Lahu (Black)	kɯ³¹	kɯ³¹	sweat	sweat		1.8.1		0		615
+41539	850	Lahu (Black)	nv̩³⁵ qʰɛ⁵³	nv̩³⁵ qʰɛ⁵³	mucus	mucus		1.8.2		0		
+41540	850	Lahu (Black)	tsɿ³¹ zɛ⁵³ peʔ⁵⁴	tsɿ³¹ zɛ⁵³ peʔ⁵⁴	phlegm	phlegm		1.8.3		0		
+41541	850	Lahu (Black)	tsi³⁵ ɣɯ⁵³	tsi³⁵ ɣɯ⁵³	saliva	saliva		1.8.3		0		m,1013
+41542	850	Lahu (Black)	tsv̩³⁵ ɣɯ³¹	tsv̩³⁵ ɣɯ³¹	milk	milk				0		5541,1013
+41543	850	Lahu (Black)	qʰɛ⁵³	qʰɛ⁵³	shit	shit		1.8.5		0		572
+41544	850	Lahu (Black)	dzɿ⁵³	dzɿ⁵³	urine	urine		1.8.4		0		650
+41545	850	Lahu (Black)	sa³⁵ tsʰv̩⁵³	sa³⁵ tsʰv̩⁵³	ulcer, sore	ulcer, sore		1.8.6.2		0		230,1296
+41546	850	Lahu (Black)	bɛ³¹ ɣɯ³¹	bɛ³¹ ɣɯ³¹	pus	pus		1.8.6.1		0		1292,m
+41547	850	Lahu (Black)	ɣaʔ⁵⁴ naʔ⁵⁴ ma³³	ɣaʔ⁵⁴ naʔ⁵⁴ ma³³	smallpox	smallpox		5.3		0		
+41548	850	Lahu (Black)	na³¹ pʰɯʔ⁵⁴	na³¹ pʰɯʔ⁵⁴	malaria	malaria		5.3		0		
+41549	850	Lahu (Black)	na³¹	na³¹	illness	illness		1.1.5.1		0		160
+41550	850	Lahu (Black)	na³¹ pɯ³¹	na³¹ pɯ³¹	plague	plague		5.3		0		
+41551	850	Lahu (Black)	tsɿ³¹	tsɿ³¹	cough	cough		1.8.3.3		0		
+41552	850	Lahu (Black)	ɔ³¹ kɯ³⁵	ɔ³¹ kɯ³⁵	scar	scar		1.6.5.3		0		
+41553	850	Lahu (Black)	ɔ³¹ sɿ³³ kv̩³³	ɔ³¹ sɿ³³ kv̩³³	corpse	corpse		1.1.6.1		0		5450,27,m
+41554	850	Lahu (Black)	mɛʔ⁵⁴ tsv̩³⁵ pa¹¹	mɛʔ⁵⁴ tsv̩³⁵ pa¹¹	blind person	blind person		1.2.6.14.2		0		681,1401,m
+41555	850	Lahu (Black)	na³¹ pɔ³³ pɔ⁵³ pa¹¹	na³¹ pɔ³³ pɔ⁵³ pa¹¹	deaf person	deaf person		1.2.7.5		0		
+41556	850	Lahu (Black)	tsʰɔ³³ qa¹¹	tsʰɔ³³ qa¹¹	dumb person	dumb person		8.5.4.4		0		m,1752
+41557	850	Lahu (Black)	tsʰɔ³³ ɣv̩⁵³ (pa¹¹)	tsʰɔ³³ ɣv̩⁵³ (pa¹¹)	insane person	insane person		8.3.1.11.3		0		
+41558	850	Lahu (Black)	kʰɯ³³ qɔʔ²¹ pa¹¹	kʰɯ³³ qɔʔ²¹ pa¹¹	lame person	lame person		1.5.12		0		
+41559	850	Lahu (Black)	sa¹¹ tsʰv̩³³	sa¹¹ tsʰv̩³³	oil (animal)	oil (animal)		1.6.4.1		0		34,42
+41560	850	Lahu (Black)	sa¹¹	sa¹¹	meat, flesh	meat, flesh		1.1.1.1		0		34
+41561	850	Lahu (Black)	kʰɯ⁵³	kʰɯ⁵³	fertilizer	fertilizer		1.9		0		
+41562	850	Lahu (Black)	qʰɛ⁵³	qʰɛ⁵³	manure	manure		1.8.5		0		
+41563	850	Lahu (Black)	tɔ⁵³	tɔ⁵³	speech	speech		1.8.7		0		
+41564	850	Lahu (Black)	tɔ⁵³ kʰɔ⁵³	tɔ⁵³ kʰɔ⁵³	language	language		5.8		0		m,5596
+41565	850	Lahu (Black)	ɔ³¹ kʰɔ⁵³	ɔ³¹ kʰɔ⁵³	sound	sound		9.3		0		p,5596
+41566	850	Lahu (Black)	zɿʔ²¹ maʔ⁵⁴	zɿʔ²¹ maʔ⁵⁴	dream	dream		1.1.4.2		0		127,126
+41567	850	Lahu (Black)	a³⁵ ɣɯ³¹ xa³³	a³⁵ ɣɯ³¹ xa³³	shadow	shadow		3.2.10		0		p,2614,m
+41568	850	Lahu (Black)	ne⁵³	ne⁵³	spirit	spirit		5.8.1.1		0		160
+41569	850	Lahu (Black)	ne⁵³	ne⁵³	ghost	ghost		4.2.12.2		0		160
+41570	850	Lahu (Black)	ɔ³¹ ɣa⁵³	ɔ³¹ ɣa⁵³	strength	strength		1.1.5		0		5450,5677
+41571	850	Lahu (Black)	ni³³ ma³³	ni³³ ma³³	courage	courage				0		
+41572	850	Lahu (Black)	ni³³	ni³³	look at	look at		1.2.6.11		0		5419
+41573	850	Lahu (Black)	ni³³ mɔ³¹	ni³³ mɔ³¹	see	see		1.2.6.10		0		5419,1227
+41574	850	Lahu (Black)	miʔ²¹	miʔ²¹	close (eyes)	close (eyes)		6.2.2.6.2		0		31
+41575	850	Lahu (Black)	ŋa³⁵	ŋa³⁵	open (eyes)	open (eyes)		6.2.2.6.1		0		5706
+41576	850	Lahu (Black)	miʔ²¹	miʔ²¹	blink	blink		1.2.6.12		0		31
+41577	850	Lahu (Black)	na³³	na³³	listen	listen		1.2.7.4		0		811
+41578	850	Lahu (Black)	tsa⁵³	tsa⁵³	eat	eat		1.5.3.2		0		36
+41579	850	Lahu (Black)	tsa¹¹	tsa¹¹	feed	feed		1.3.5.8		0		
+41580	850	Lahu (Black)	dɔ³¹	dɔ³¹	drink	drink				0		502
+41581	850	Lahu (Black)	tsʰeʔ²¹	tsʰeʔ²¹	bite (of dog)	bite (of dog)		1.3.4.4		0		744
+41582	850	Lahu (Black)	bɛ⁵³	bɛ⁵³	chew	chew		1.3.4		0		1762
+41583	850	Lahu (Black)	lɛʔ²¹	lɛʔ²¹	lick	lick		1.3.3.1		0		629
+41584	850	Lahu (Black)	mɛ³¹	mɛ³¹	hold in mouth	hold in mouth		1.3.4.4		0		3451
+41585	850	Lahu (Black)	gɯʔ²¹	gɯʔ²¹	gnaw	gnaw		1.3.4.4		0		
+41586	850	Lahu (Black)	xɛʔ⁵⁴ dɔ³¹	xɛʔ⁵⁴ dɔ³¹	swallow	swallow	v.t.	1.3.5.6		0		
+41587	850	Lahu (Black)	xɛʔ⁵⁴ dɔ³¹	xɛʔ⁵⁴ dɔ³¹	swallow	swallow	v.i.	1.3.5.6		0		
+41588	850	Lahu (Black)	pʰeʔ²¹	pʰeʔ²¹	spit	spit		1.8.3		0		
+41589	850	Lahu (Black)	pʰeʔ²¹	pʰeʔ²¹	vomit	vomit		1.8.3.2		0		1145
+41590	850	Lahu (Black)	mɯʔ⁵⁴	mɯʔ⁵⁴	blow	blow		1.3.1.4		0		503
+41591	850	Lahu (Black)	zɔ³³	zɔ³³	say	say		1.8.7		0		
+41592	850	Lahu (Black)	ɣɔ³³	ɣɔ³³	read	read		6.2.2.9.3		0		
+41593	850	Lahu (Black)	kv̩³¹	kv̩³¹	cry out	cry out		1.8.8.2		0		
+41594	850	Lahu (Black)	zɿʔ²¹	zɿʔ²¹	sleep	sleep		1.1.4.1		0		127
+41595	850	Lahu (Black)	nɔ⁵³	nɔ⁵³	wake	wake		1.1.4		0		143
+41596	850	Lahu (Black)	pi³⁵	pi³⁵	castrate (caponize)	castrate (caponize)		1.9.2.3		0		m
+41597	850	Lahu (Black)	ɣɯ³¹	ɣɯ³¹	laugh	laugh		1.8.8.1		0		1108
+41598	850	Lahu (Black)	xɔ³¹	xɔ³¹	cry, weep	cry, weep		1.8.8.2		0		m
+41599	850	Lahu (Black)	pɔ³³	pɔ³³	birth, give	birth, give		1.1.2		0		70
+41600	850	Lahu (Black)	ɯ³¹ pɯ³⁵	ɯ³¹ pɯ³⁵	grow (up)	grow (up)		9.7.2		0		
+41601	850	Lahu (Black)	na³¹	na³¹	sick	sick		1.1.5.1		0		160
+41602	850	Lahu (Black)	veʔ⁵⁴	veʔ⁵⁴	shake	shake		6.7.9		0		
+41603	850	Lahu (Black)	pʰuʔ²¹	pʰuʔ²¹	swell up	swell up		1.1.5.2		0		163?
+41604	850	Lahu (Black)	sɿ³³	sɿ³³	die	die		1.1.6		0		27
+41605	850	Lahu (Black)	xɔ³³ tshiʔ⁵⁴	xɔ³³ tshiʔ⁵⁴	fever, have	fever, have	v	1.1.5.1		0		
+41606	850	Lahu (Black)	zɑ⁵³ xv̩³³	zɑ⁵³ xv̩³³	pregnant	pregnant		1.9.6.1		0		1012,m
+41607	850	Lahu (Black)	teʔ²¹	teʔ²¹	live	live		1.1.2.1		0		72
+41608	850	Lahu (Black)	mv̩³¹	mv̩³¹	hatch (a chick)	hatch (a chick)		1.1.2		0		1234
+41609	850	Lahu (Black)	pu³¹	pu³¹	fly	fly	v.	2.2.6		0		2588
+41610	850	Lahu (Black)	lɔ³¹	lɔ³¹	bark	bark	v.	2.1.11.1		0		1790
+41611	850	Lahu (Black)	ku³¹	ku³¹	roar, call	roar, call		8.5.5		0		
+41612	850	Lahu (Black)	bv̩³¹	bv̩³¹	caw, sing	caw, sing		2.2.4.1		0		
+41613	850	Lahu (Black)	v̩³³	v̩³³	lay (egg)	lay (egg)		6.17		0		301
+41614	850	Lahu (Black)	tsʰv̩³³	tsʰv̩³³	fat (person)	fat (person)		1.6.4		0		42
+41615	850	Lahu (Black)	tsʰv̩³³	tsʰv̩³³	fat (meat)	fat (meat)		1.6.4		0		42
+41616	850	Lahu (Black)	la³¹ ni³³	la³¹ ni³³	lean (meat)	lean (meat)		1.1.1		0		bThai?,43
+41617	850	Lahu (Black)	tsɔ³⁵	tsɔ³⁵	lean (person)	lean (person)		1.1.1		0		45
+41618	850	Lahu (Black)	bv̩ʔ⁵⁴	bv̩ʔ⁵⁴	full, satiated	full, satiated		1.1.3.2		0		100
+41619	850	Lahu (Black)	mɤʔ²¹	mɤʔ²¹	hungry	hungry		1.1.3		0		99
+41620	850	Lahu (Black)	si³⁵	si³⁵	thirsty	thirsty		1.1.3.1		0		101
+41621	850	Lahu (Black)	xɯ³¹	xɯ³¹	tired	tired		9.6.2.2		0		
+41622	850	Lahu (Black)	dzɿʔ⁵⁴	dzɿʔ⁵⁴	itchy	itchy		1.6.5.5		0		56
+41623	850	Lahu (Black)	na³¹	na³¹	painful	painful		1.1.5.1		0		
+41624	850	Lahu (Black)	lu³¹	lu³¹	fathom	fathom		9.8		0		1310
+41625	850	Lahu (Black)	thv̩³³	thv̩³³	span	span		1.5.9.4		0		1281
+41626	856	Lahu (Yellow)	u⁵⁵ sɿʔ²¹	u⁵⁵ sɿʔ²¹	front	front		1.4.4		0		1217,1214
+41627	856	Lahu (Yellow)	qʰa⁵⁵ nɔʔ²¹	qʰa⁵⁵ nɔʔ²¹	back (side)	back (side)		1.4.8		0		m,203
+41628	856	Lahu (Yellow)	laʔ²¹ faʔ²¹	laʔ²¹ faʔ²¹	left	left		1.5.3.2		0		695,2154
+41629	856	Lahu (Yellow)	laʔ²¹ ʑɔ⁵⁵	laʔ²¹ ʑɔ⁵⁵	right (side)	right (side)		1.5.3.2		0		695,2786
+41630	856	Lahu (Yellow)	ɔ³¹ pa⁵⁵	ɔ³¹ pa⁵⁵	side	side		1.4.5		0		p,2584
+41631	856	Lahu (Yellow)	ɔ³¹ u³³	ɔ³¹ u³³	egg	egg				0		p,301
+41632	856	Lahu (Yellow)	ɔ³¹ tu³¹ laʔ²¹ qa³⁵	ɔ³¹ tu³¹ laʔ²¹ qa³⁵	wing	wing		1.5.1.3		0		p,711,695,m
+41633	856	Lahu (Yellow)	ɔ³¹ mv̩³³	ɔ³¹ mv̩³³	fur	fur		1.6.1		0		p,363
+41634	856	Lahu (Yellow)	ɕɛʔ²¹	ɕɛʔ²¹	claw	claw		1.5.10.4		0		
+41635	856	Lahu (Yellow)	kʰɯ³³ tʰɔʔ⁵⁴	kʰɯ³³ tʰɔʔ⁵⁴	hoof	hoof		1.5.4		0		
+41636	856	Lahu (Yellow)	ɔ³¹ kʰɔ³³	ɔ³¹ kʰɔ³³	horn	horn		1.2.2		0		p,819
+41637	856	Lahu (Yellow)	ɔ³¹ gɯ³¹	ɔ³¹ gɯ³¹	hide	hide		1.6.5.1		0		p,596
+41638	856	Lahu (Yellow)	ɔ³¹ ku³³ tsaʔ⁵⁴	ɔ³¹ ku³³ tsaʔ⁵⁴	sinew, muscle	sinew, muscle		1.6.6.1		0		p,535,525
+41639	856	Lahu (Yellow)	mɛʔ²¹ tu³³	mɛʔ²¹ tu³³	tail	tail		1.4.10.1		0		1288,5639
+41640	856	Lahu (Yellow)	ɣaʔ⁵⁴ na³¹ dzɿ³³	ɣaʔ⁵⁴ na³¹ dzɿ³³	cockscomb	cockscomb		1.2.2.1		0		1606,356,2014
+41641	856	Lahu (Yellow)	ɔ³¹ naʔ²¹	ɔ³¹ naʔ²¹	gills	gills		1.3.5.3		0		
+41642	856	Lahu (Yellow)	ɔ³¹ mɛʔ⁵⁴	ɔ³¹ mɛʔ⁵⁴	scales	scales		1.6.5.2		0		p,m
+41643	856	Lahu (Yellow)	ɔ² to³³	ɔ2 to³³	body	body		1.1.1		0		5450,14
+41644	856	Lahu (Yellow)	toʔ²¹ quʔ²¹	toʔ²¹ quʔ²¹	head	head		1.2.1		0		1223,387
+41645	856	Lahu (Yellow)	na³¹ qa³¹ pɯ³³	na³¹ qa³¹ pɯ³³	forehead	forehead		1.2.5.1		0		356,2026,276
+41646	856	Lahu (Yellow)	tsɿʔ⁵⁴ kʰɛ³³	tsɿʔ⁵⁴ kʰɛ³³	hair (head)	hair (head)		1.2.3		0		1232,372
+41647	856	Lahu (Yellow)	dzɿ³³ pʰe⁵⁵	dzɿ³³ pʰe⁵⁵	braid (hair)	braid (hair)	n	1.2.3.2		0		1232,2018
+41648	856	Lahu (Yellow)	u³⁵ nɛʔ²¹	u³⁵ nɛʔ²¹	brain	brain		1.2.4		0		385,m
+41649	856	Lahu (Yellow)	mɛʔ⁵⁴ pʰv̩⁵⁵	mɛʔ⁵⁴ pʰv̩⁵⁵	face	face		1.2.5		0		681,1186
+41650	856	Lahu (Yellow)	mɛʔ⁵⁴ mv̩³³	mɛʔ⁵⁴ mv̩³³	eyebrow	eyebrow		1.2.6.6		0		681,363
+41651	856	Lahu (Yellow)	mɛʔ⁵⁴	mɛʔ⁵⁴	eye	eye		1.2.6		0		681
+41652	856	Lahu (Yellow)	mɛʔ⁵⁴ ɣɯ³¹	mɛʔ⁵⁴ ɣɯ³¹	tears	tears		1.2.6.7		0		681,1013
+41653	856	Lahu (Yellow)	na³¹ qʰɔ⁵⁵	na³¹ qʰɔ⁵⁵	nose	nose		1.2.8		0		803,809
+41654	856	Lahu (Yellow)	na³¹ pv̩³³ tɕʰi³³	na³¹ pv̩³³ tɕʰi³³	ear	ear		1.2.7		0		811,812,2082
+41655	856	Lahu (Yellow)	mɔ³¹ qɔ³³	mɔ³¹ qɔ³³	mouth	mouth		1.3.1		0		687,473
+41656	856	Lahu (Yellow)	mɯ⁵⁵ gɯ³¹	mɯ⁵⁵ gɯ³¹	lip	lip		1.3.2		0		467,596
+41657	856	Lahu (Yellow)	sv̩³¹ tɕʰi³³	sv̩³¹ tɕʰi³³	tooth	tooth		1.3.4		0		632,635
+41658	856	Lahu (Yellow)	xa³³ leʔ⁵⁴	xa³³ leʔ⁵⁴	tongue	tongue		1.3.3		0		623,m
+41659	856	Lahu (Yellow)	mɯ³³ tsɿʔ⁵⁴	mɯ³³ tsɿʔ⁵⁴	beard	beard		1.2.5.5		0		363,1232
+41660	856	Lahu (Yellow)	qɔ³¹ ta³¹ pɤ³¹	qɔ³¹ ta³¹ pɤ³¹	neck	neck		1.4.2		0		3361,m,484
+41661	856	Lahu (Yellow)	qɔ³¹ qʰɔ³³	qɔ³¹ qʰɔ³³	throat	throat		1.3.5		0		3361,820
+41662	856	Lahu (Yellow)	laʔ²¹ pʰe³³	laʔ²¹ pʰe³³	shoulder	shoulder		1.4.3		0		695,754
+41663	856	Lahu (Yellow)	laʔ²¹ qɔ³¹	laʔ²¹ qɔ³¹	hand	hand		1.5.1.1		0		695,m
+41664	856	Lahu (Yellow)	laʔ²¹ ɣɔ⁵⁵	laʔ²¹ ɣɔ⁵⁵	arm	arm		1.5.1.2		0		695,232
+41665	856	Lahu (Yellow)	laʔ²¹ nɿ³³	laʔ²¹ nɿ³³	finger	finger		1.5.6		0		
+41666	856	Lahu (Yellow)	laʔ²¹ ɕiʔ²¹ qʰɔ⁵⁵	laʔ²¹ ɕiʔ²¹ qʰɔ⁵⁵	nail	nail		1.5.10		0		
+41667	856	Lahu (Yellow)	ȵi³³ pɯ³³	ȵi³³ pɯ³³	chest (of body)	chest (of body)		1.4.4.3		0		297,276
+41668	856	Lahu (Yellow)	laʔ²¹ boʔ⁵⁴	laʔ²¹ boʔ⁵⁴	back (of body)	back (of body)		1.4.8		0		
+41669	856	Lahu (Yellow)	tsv̩³⁵ pɛʔ⁵⁴	tsv̩³⁵ pɛʔ⁵⁴	breast	breast		1.4.4.3		0		5541,308
+41670	856	Lahu (Yellow)	ʔu⁵⁵ piʔ²¹	ʔu⁵⁵ piʔ²¹	belly	belly		1.4.7		0		137,m
+41671	856	Lahu (Yellow)	ʔu⁵⁵ tu³³ ɕiʔ²¹	ʔu⁵⁵ tu³³ ɕiʔ²¹	navel	navel		1.9.4		0		137,520,1019
+41672	856	Lahu (Yellow)	tsɿʔ²¹	tsɿʔ²¹	waist	waist		1.4.6		0		418
+41673	856	Lahu (Yellow)	kʰɯ³³	kʰɯ³³	foot	foot		1.5.2		0		335
+41674	856	Lahu (Yellow)	kʰɯ³³ ɣɔ⁵⁵pv̩³¹	kʰɯ³³ ɣɔ⁵⁵pv̩³¹	calf	calf		1.5.7		0		
+41675	856	Lahu (Yellow)	kʰɯ³³ tsv̩³⁵ qu³³	kʰɯ³³ tsv̩³⁵ qu³³	knee	knee		1.5.8.4		0		335,418,2252
+41676	856	Lahu (Yellow)	xa³³ tɕʰi³³ ni³³	xa³³ tɕʰi³³ ni³³	armpit	armpit		1.5.1.2.3		0		
+41677	856	Lahu (Yellow)	ɔ³¹ gɯ³¹	ɔ³¹ gɯ³¹	skin	skin		1.6.5		0		p,596
+41678	856	Lahu (Yellow)	ɔ³¹ ʔu⁵⁵ qu³³	ɔ³¹ ʔu⁵⁵ qu³³	bone	bone		1.6.3		0		p,234,233
+41679	856	Lahu (Yellow)	ɔ³¹ ku⁵⁵ tsaʔ⁵⁴	ɔ³¹ ku⁵⁵ tsaʔ⁵⁴	muscle	muscle		1.6.6.2		0		p,535,525
+41680	856	Lahu (Yellow)	ɔ³¹ sɿʔ²¹	ɔ³¹ sɿʔ²¹	blood	blood		1.6.2		0		p,230
+41681	856	Lahu (Yellow)	ɔ³¹ fɤ³⁵ quʔ²¹	ɔ³¹ fɤ³⁵ quʔ²¹	stomach	stomach		1.7.6		0		p,2104,387
+41682	856	Lahu (Yellow)	ɔ³¹ la⁵⁵ ɕiʔ²¹	ɔ³¹ la⁵⁵ ɕiʔ²¹	kidney	kidney		1.7.5		0		p,2812,1019
+41683	856	Lahu (Yellow)	ɔ³¹ ʔu³¹	ɔ³¹ ʔu³¹	intestines	intestines		1.7.7		0		p,2102
+41684	856	Lahu (Yellow)	ȵi³³ ɕiʔ²¹	ȵi³³ ɕiʔ²¹	heart	heart		1.7.1		0		297,1019
+41685	856	Lahu (Yellow)	ɔ³¹ ɕɛʔ²¹	ɔ³¹ ɕɛʔ²¹	liver	liver		1.7.3		0		p,1390
+41686	856	Lahu (Yellow)	ɔ³¹ tsʰɿ⁵⁵	ɔ³¹ tsʰɿ⁵⁵	lung	lung		1.7.2		0		
+41687	856	Lahu (Yellow)	ɔ³¹ kɯ³³	ɔ³¹ kɯ³³	gall	gall		1.7.3.1		0		p,227
+41688	856	Lahu (Yellow)	ɔ³¹ sa³³ la³³ pʰv̩⁵⁵	ɔ³¹ sa³³ la³³ pʰv̩⁵⁵	bladder	bladder		1.7.8		0		p,m,m,779
+41689	856	Lahu (Yellow)	kɯ³¹	kɯ³¹	sweat	sweat		1.8.1		0		615
+41690	856	Lahu (Yellow)	ȵiu⁵⁵ qʰɔ⁵⁵	ȵiu⁵⁵ qʰɔ⁵⁵	mucus	mucus		1.8.2		0		
+41691	856	Lahu (Yellow)	tsɿ³⁵ ɣɯ³¹	tsɿ³⁵ ɣɯ³¹	phlegm	phlegm		1.8.3		0		
+41692	856	Lahu (Yellow)	mɯ⁵⁵ ɣɯ³¹	mɯ⁵⁵ ɣɯ³¹	saliva	saliva		1.8.3		0		687,1013
+41693	856	Lahu (Yellow)	tsv̩³⁵ ɣɯ³¹	tsv̩³⁵ ɣɯ³¹	milk	milk				0		5541,1013
+41694	856	Lahu (Yellow)	qʰɔ⁵⁵	qʰɔ⁵⁵	shit	shit		1.8.5		0		572
+41695	856	Lahu (Yellow)	tɕʰi⁵⁵ kɯ³³	tɕʰi⁵⁵ kɯ³³	urine	urine		1.8.4		0		650,m
+41696	856	Lahu (Yellow)	sa³¹ tsʰu⁵⁵	sa³¹ tsʰu⁵⁵	ulcer, sore	ulcer, sore		1.8.6.2		0		230,1296
+41697	856	Lahu (Yellow)	bɛʔ²¹ ɣɯ³¹	bɛʔ²¹ ɣɯ³¹	pus	pus		1.8.6.1		0		1292,m
+41698	856	Lahu (Yellow)	ni³³ tʰi³³	ni³³ tʰi³³	smallpox	smallpox		5.3		0		
+41699	856	Lahu (Yellow)	na³¹ pʰɤʔ⁵⁴	na³¹ pʰɤʔ⁵⁴	malaria	malaria		5.3		0		
+41700	856	Lahu (Yellow)	na³¹	na³¹	disease	disease		1.1.5.1		0		160
+41701	856	Lahu (Yellow)	na³¹ bɤ³¹	na³¹ bɤ³¹	plague	plague		5.3		0		
+41702	856	Lahu (Yellow)	tsɿʔ²¹	tsɿʔ²¹	cough	cough		1.8.3.3		0		
+41703	856	Lahu (Yellow)	ɔ³¹ kɯ³⁵	ɔ³¹ kɯ³⁵	scar	scar		1.6.5.3		0		
+41704	856	Lahu (Yellow)	mɛʔ⁵⁴ tso³⁵ paʔ²¹	mɛʔ⁵⁴ tso³⁵ paʔ²¹	blind person	blind person		1.2.6.14.2		0		681,1401,m
+41705	856	Lahu (Yellow)	na³¹ pv̩³³ pɔ⁵⁵ paʔ²¹	na³¹ pv̩³³ pɔ⁵⁵ paʔ²¹	deaf person	deaf person		1.2.7.5		0		
+41706	856	Lahu (Yellow)	tsa³¹ qa³¹ paʔ²¹	tsa³¹ qa³¹ paʔ²¹	dumb person (male)	dumb person (male)		8.5.4.4		0		m,1752,m
+41707	856	Lahu (Yellow)	na⁵⁵ qa³¹ (ma³³)	na⁵⁵ qa³¹ (ma³³)	dumb person (female)	dumb person (female)		8.5.4.4		0		m,1752,m
+41708	856	Lahu (Yellow)	tsʰɔ³³ u⁵⁵ paʔ²¹	tsʰɔ³³ u⁵⁵ paʔ²¹	insane person (male)	insane person (male)		8.3.1.11.3		0		
+41709	856	Lahu (Yellow)	tsʰɔ³³ u⁵⁵ pɤʔ²¹	tsʰɔ³³ u⁵⁵ pɤʔ²¹	insane person (female)	insane person (female)		8.3.1.11.3		0		
+41710	856	Lahu (Yellow)	kʰɯ³³ qe⁵⁵ le⁵⁵ paʔ²¹	kʰɯ³³ qe⁵⁵ le⁵⁵ paʔ²¹	lame person (male)	lame person (male)		1.5.12		0		
+41711	856	Lahu (Yellow)	kʰɯ³³ qe⁵⁵ le⁵⁵ pɤʔ²¹	kʰɯ³³ qe⁵⁵ le⁵⁵ pɤʔ²¹	lame person (female)	lame person (female)		1.5.12		0		
+41712	856	Lahu (Yellow)	saʔ²¹ tsʰu³³	saʔ²¹ tsʰu³³	oil (animal)	oil (animal)		1.6.4.1		0		34,42
+41713	856	Lahu (Yellow)	saʔ²¹	saʔ²¹	meat, flesh	meat, flesh		1.1.1.1		0		34
+41714	856	Lahu (Yellow)	ɔ³¹ saʔ²¹	ɔ³¹ saʔ²¹	meat, flesh	meat, flesh		1.1.1.1		0		p,34
+41715	856	Lahu (Yellow)	kʰɯ⁵⁵	kʰɯ⁵⁵	fertilizer	fertilizer		1.9		0		
+41716	856	Lahu (Yellow)	kʰɯ⁵⁵	kʰɯ⁵⁵	manure	manure		1.8.5		0		
+41717	856	Lahu (Yellow)	qʰɔ⁵⁵	qʰɔ⁵⁵	manure	manure		1.8.5		0		
+41718	856	Lahu (Yellow)	tɔ⁵⁵	tɔ⁵⁵	speech	speech		1.8.7		0		
+41719	856	Lahu (Yellow)	ɔ³¹ kʰɔ⁵⁵	ɔ³¹ kʰɔ⁵⁵	sound	sound		9.3		0		p,5596
+41720	856	Lahu (Yellow)	zɿʔ²¹ maʔ⁵⁴	zɿʔ²¹ maʔ⁵⁴	dream	dream		1.1.4.2		0		127,126
+41721	856	Lahu (Yellow)	ɔ³¹ gɯ³¹ xa³³	ɔ³¹ gɯ³¹ xa³³	shadow	shadow		3.2.10		0		m,2614,m
+41722	856	Lahu (Yellow)	ni⁵⁵	ni⁵⁵	spirit	spirit		5.8.1.1		0		160
+41723	856	Lahu (Yellow)	tsʰɔ³³ qu³¹	tsʰɔ³³ qu³¹	ghost	ghost		4.2.12.2		0		
+41724	856	Lahu (Yellow)	ɣa⁵⁵ sa³⁵	ɣa⁵⁵ sa³⁵	strength	strength		1.1.5		0		5677,32
+41725	856	Lahu (Yellow)	ȵi³³	ȵi³³	courage	courage				0		
+41726	856	Lahu (Yellow)	ŋɔ³⁵	ŋɔ³⁵	look at	look at		1.2.6.11		0		m
+41727	856	Lahu (Yellow)	ŋɔ³⁵ mɔ³¹	ŋɔ³⁵ mɔ³¹	see	see		1.2.6.10		0		m,1227
+41728	856	Lahu (Yellow)	tsɿ³⁵	tsɿ³⁵	close (eyes)	close (eyes)		6.2.2.6.2		0		1401
+41729	856	Lahu (Yellow)	ŋa³⁵	ŋa³⁵	open (eyes)	open (eyes)		6.2.2.6.1		0		5706
+41730	856	Lahu (Yellow)	mɛʔ⁵⁴ nɿ³³	mɛʔ⁵⁴ nɿ³³	blink	blink		1.2.6.12		0		681,31
+41731	856	Lahu (Yellow)	na³³	na³³	listen	listen		1.2.7.4		0		811
+41732	856	Lahu (Yellow)	tsa⁵⁵	tsa⁵⁵	eat	eat		1.5.3.2		0		36
+41733	856	Lahu (Yellow)	tsaʔ²¹	tsaʔ²¹	feed	feed		1.3.5.8		0		
+41734	856	Lahu (Yellow)	dɔʔ²¹	dɔʔ²¹	drink	drink				0		502
+41735	856	Lahu (Yellow)	tɕʰiʔ²¹	tɕʰiʔ²¹	bite (of dog)	bite (of dog)		1.3.4.4		0		744
+41736	856	Lahu (Yellow)	bɛ⁵⁵	bɛ⁵⁵	chew	chew		1.3.4		0		1762
+41737	856	Lahu (Yellow)	lɛʔ²¹	lɛʔ²¹	lick	lick		1.3.3.1		0		629
+41738	856	Lahu (Yellow)	mɔ³¹	mɔ³¹	hold in mouth	hold in mouth		1.3.4.4		0		3451
+41739	856	Lahu (Yellow)	kʰu³¹	kʰu³¹	gnaw	gnaw		1.3.4.4		0		
+41740	856	Lahu (Yellow)	lɛʔ²¹ dɔ³¹	lɛʔ²¹ dɔ³¹	swallow	swallow	v.t.	1.3.5.6		0		
+41741	856	Lahu (Yellow)	lɛʔ²¹ dɔ³¹	lɛʔ²¹ dɔ³¹	swallow	swallow	v.i.	1.3.5.6		0		
+41742	856	Lahu (Yellow)	pʰeʔ²¹	pʰeʔ²¹	spit	spit		1.8.3		0		
+41743	856	Lahu (Yellow)	pʰeʔ²¹	pʰeʔ²¹	vomit	vomit		1.8.3.2		0		1145
+41744	856	Lahu (Yellow)	mɯʔ⁵⁴	mɯʔ⁵⁴	blow	blow		1.3.1.4		0		503
+41745	856	Lahu (Yellow)	ʔu³⁵	ʔu³⁵	say	say		1.8.7		0		
+41746	856	Lahu (Yellow)	ɣɔ³³	ɣɔ³³	read	read		6.2.2.9.3		0		
+41747	856	Lahu (Yellow)	ku³¹	ku³¹	cry out	cry out		1.8.8.2		0		
+41748	856	Lahu (Yellow)	zɿʔ²¹	zɿʔ²¹	sleep	sleep		1.1.4.1		0		127
+41749	856	Lahu (Yellow)	nɔ⁵⁵	nɔ⁵⁵	wake	wake		1.1.4		0		143
+41750	856	Lahu (Yellow)	niʔ²¹ nɔ⁵⁵	niʔ²¹ nɔ⁵⁵	wake	wake		1.1.4		0		127,143
+41751	856	Lahu (Yellow)	tɔ³³	tɔ³³	castrate (caponize)	castrate (caponize)		1.9.2.3		0		b
+41752	856	Lahu (Yellow)	ɣɯ³¹	ɣɯ³¹	laugh	laugh		1.8.8.1		0		1108
+41753	856	Lahu (Yellow)	xɔ³¹	xɔ³¹	cry, weep	cry, weep		1.8.8.2		0		m
+41754	856	Lahu (Yellow)	dʑa⁵⁵	dʑa⁵⁵	birth, give	birth, give		1.1.2		0		95
+41755	856	Lahu (Yellow)	ʔɯʔ²¹	ʔɯʔ²¹	grow (up) (of humans)	grow (up) (of humans)		9.7.2		0		
+41756	856	Lahu (Yellow)	kʰɯʔ²¹	kʰɯʔ²¹	grow (up) (of animals)	grow (up) (of animals)		9.7.2		0		
+41757	856	Lahu (Yellow)	na³¹	na³¹	sick	sick		1.1.5.1		0		160
+41758	856	Lahu (Yellow)	veʔ⁵⁴	veʔ⁵⁴	shake	shake		6.7.9		0		
+41759	856	Lahu (Yellow)	pʰoʔ²¹	pʰoʔ²¹	swell up	swell up		1.1.5.2		0		163?
+41760	856	Lahu (Yellow)	sɿ³³ po³¹	sɿ³³ po³¹	die	die		1.1.6		0		27,s
+41761	856	Lahu (Yellow)	po³¹	po³¹	fly	fly	v.	2.2.6		0		2588
+41762	856	Lahu (Yellow)	lɔ³¹	lɔ³¹	bark	bark	v.	2.1.11.1		0		1790
+41763	856	Lahu (Yellow)	ku³¹	ku³¹	roar, call	roar, call		8.5.5		0		
+41764	856	Lahu (Yellow)	bv̩³¹	bv̩³¹	caw, crow	caw, crow		2.2.4.1		0		
+41765	856	Lahu (Yellow)	u³³	u³³	lay (egg)	lay (egg)		6.17		0		301
+41766	856	Lahu (Yellow)	mv̩¹¹	mv̩¹¹	hatch (a chick)	hatch (a chick)		1.1.2		0		1234
+41767	856	Lahu (Yellow)	tsʰu³³	tsʰu³³	fat (person)	fat (person)		1.6.4		0		42
+41768	856	Lahu (Yellow)	tsʰu³³	tsʰu³³	fat (meat)	fat (meat)		1.6.4		0		42
+41769	856	Lahu (Yellow)	tsɿ³⁵	tsɿ³⁵	lean (meat)	lean (meat)		1.1.1		0		49
+41770	856	Lahu (Yellow)	tsɿ³⁵	tsɿ³⁵	lean (person)	lean (person)		1.1.1		0		1806
+41771	856	Lahu (Yellow)	bv̩ʔ⁵⁴	bv̩ʔ⁵⁴	full, satiated	full, satiated		1.1.3.2		0		100
+41772	856	Lahu (Yellow)	mɯʔ²¹	mɯʔ²¹	hungry	hungry		1.1.3		0		99
+41773	856	Lahu (Yellow)	ɕe³⁵	ɕe³⁵	thirsty	thirsty		1.1.3.1		0		101
+41774	856	Lahu (Yellow)	bv̩ʔ⁵⁴	bv̩ʔ⁵⁴	drunk	drunk		1.3.5.9		0		
+41775	856	Lahu (Yellow)	xɤ³¹	xɤ³¹	tired	tired		9.6.2.2		0		
+41776	856	Lahu (Yellow)	xɛʔ⁵⁴	xɛʔ⁵⁴	itchy	itchy		1.6.5.5		0		6131
+41777	856	Lahu (Yellow)	lu³¹	lu³¹	fathom	fathom		9.8		0		1310
+41778	856	Lahu (Yellow)	tho³³	tho³³	span	span		1.5.9.4		0		1281
+145864	850	Lahu (Black)	v̩³⁵ qu¹¹ mv̩³³ (v̩³⁵ mv̩³³)	v̩³⁵ qu¹¹ mv̩³³ (v̩³⁵ mv̩³³)	hair (head)	hair (head)		1.2.3		0		385,387,363,385,363
+301909	856	Lahu (Yellow)	mv̩³	mv̩³	sky	sky		3.2.2		0		2473
+301910	856	Lahu (Yellow)	mv̩³lɔ²qu¹	mv̩³lɔ²qu¹	sky / heavens	sky / heavens		3.2.2		0		2473
+301911	856	Lahu (Yellow)	mv̩³ni¹	mv̩³ni¹	sun	sun		3.2.10		0		
+301912	856	Lahu (Yellow)	xa¹pa¹	xa¹pa¹	moon	moon		3.2.2		0		1016,s
+301913	856	Lahu (Yellow)	mv̩³kɤ¹ɕi⁵	mv̩³kɤ¹ɕi⁵	star	star		3.2.2		0		3577,3574,1019
+301914	856	Lahu (Yellow)	mv̩³thɛ⁶	mv̩³thɛ⁶	thunder	thunder		3.2.1		0		2473,5558
+301915	856	Lahu (Yellow)	mo⁷fi⁵	mo⁷fi⁵	cloud	cloud		3.2.1		0		2465,m
+301916	856	Lahu (Yellow)	mv̩³xɔ¹	mv̩³xɔ¹	wind	wind		3.2.1		0		2473,2412
+301917	856	Lahu (Yellow)	mv̩³ʑi⁷	mv̩³ʑi⁷	rain	rain		3.2.1		0		2473,2080
+301918	856	Lahu (Yellow)	va³mɯ¹	va³mɯ¹	snow	snow		3.2.1		0		3554,m
+301919	856	Lahu (Yellow)	a¹ka⁶	a¹ka⁶	water	water		3.2.3		0		
+301920	856	Lahu (Yellow)	ɔ²ʑu⁵	ɔ²ʑu⁵	foam	foam		3.2.3		0		
+301921	856	Lahu (Yellow)	a¹ŋɯ¹	a¹ŋɯ¹	ice	ice		3.2.3		0		5450,3565
+301922	856	Lahu (Yellow)	mo⁷tsɿ⁴	mo⁷tsɿ⁴	fog	fog		3.2.1		0		2465,m
+301923	856	Lahu (Yellow)	a¹ŋɯ¹	a¹ŋɯ¹	frost	frost		3.2.1		0		5450,3565
+301924	856	Lahu (Yellow)	tsɤ⁵	tsɤ⁵	dew	dew				0		59
+301925	856	Lahu (Yellow)	va³ɕi⁵	va³ɕi⁵	hail	hail		3.2.1		0		3554,m
+301926	856	Lahu (Yellow)	mi²	mi²	earth	earth		3.2.11		0		2453
+301927	856	Lahu (Yellow)	lɔ²	lɔ²	river	river		3.2.3		0		191
+301928	856	Lahu (Yellow)	la³sa⁶~sa⁴	la³sa⁶~sa⁴	sea	sea		3.2.3		0		
+301929	856	Lahu (Yellow)	ɣɯ²tɤ³	ɣɯ²tɤ³	pond	pond		3.2.3		0		
+301930	856	Lahu (Yellow)	na²bɔ¹	na²bɔ¹	well	well		9.6.1.1		0		
+301931	856	Lahu (Yellow)	ɣɯ²qha³	ɣɯ²qha³	ditch	ditch		3.2.7		0		1013,5668
+301932	856	Lahu (Yellow)	qhɔ¹	qhɔ¹	mountain	mountain		3.2.5		0		3581
+301933	856	Lahu (Yellow)	ti¹mi¹	ti¹mi¹	field (paddy)	field (paddy)		3.2.5		0		5672,2453
+301934	856	Lahu (Yellow)	ʑɛ³xɛ¹	ʑɛ³xɛ¹	land (cultivated)	land (cultivated)		3.2.5		0		
+301935	856	Lahu (Yellow)	mi²tha²	mi²tha²	ground	ground		3.2.11		0		2453,5671
+301936	856	Lahu (Yellow)	mv̩³mi²	mv̩³mi²	place / area	place / area		9.10.5		0		
+301937	856	Lahu (Yellow)	mɯ³~mɯ³tɔ²	mɯ³~mɯ³tɔ²	plain	plain		3.2.5		0		
+301938	856	Lahu (Yellow)	mi²sa²	mi²sa²	dirt / soil	dirt / soil		1.5.3.2		0		2453,m
+301939	856	Lahu (Yellow)	mi²gɯ²	mi²gɯ²	land	land		3.2.5		0		2453,596
+301940	856	Lahu (Yellow)	u¹nɛ⁶	u¹nɛ⁶	mud	mud		3.2.11		0		
+301941	856	Lahu (Yellow)	qhɔ¹qhɔ¹	qhɔ¹qhɔ¹	cave	cave		3.2.7		0		
+301942	856	Lahu (Yellow)	xa⁴	xa⁴	rock / cliff	rock / cliff		3.2.9		0		2166
+301943	856	Lahu (Yellow)	ɔ²qu⁵	ɔ²qu⁵	hole	hole		3.2.7		0		p,387
+301944	856	Lahu (Yellow)	mi²qu⁷	mi²qu⁷	pit	pit		3.1.2		0		
+301945	856	Lahu (Yellow)	sɯ¹	sɯ¹	gold	gold		3.2.4		0		3496
+301946	856	Lahu (Yellow)	phv̩¹	phv̩¹	silver	silver		3.2.4		0		1235
+301947	856	Lahu (Yellow)	tɔ³	tɔ³	copper	copper		3.2.4		0		
+301948	856	Lahu (Yellow)	so¹	so¹	iron	iron		3.2.4		0		2676
+301949	856	Lahu (Yellow)	kha⁴	kha⁴	tin	tin		3.2.4		0		
+301950	856	Lahu (Yellow)	ma¹	ma¹	nitre / saltpeter	nitre / saltpeter				0		
+301951	856	Lahu (Yellow)	xa⁴pɯ¹	xa⁴pɯ¹	stone / rock	stone / rock		3.2.9		0		2166,s
+301952	856	Lahu (Yellow)	ɕɛ³~ɕɛ³ɕi⁵	ɕɛ³~ɕɛ³ɕi⁵	sand	sand		3.2.11		0		
+301953	856	Lahu (Yellow)	a¹dʑe⁵mv̩¹qhɔ³	a¹dʑe⁵mv̩¹qhɔ³	dust	dust		3.2.11		0		
+301954	856	Lahu (Yellow)	xa⁴pɯ¹a³tɕhi¹	xa⁴pɯ¹a³tɕhi¹	coal	coal		3.2.4		0		
+301955	856	Lahu (Yellow)	a²mi⁵	a²mi⁵	fire	fire		3.2.12.2		0		5450,2136
+301956	856	Lahu (Yellow)	na⁶mɯ⁵	na⁶mɯ⁵	gunpowder	gunpowder		5.15		0		
+301957	856	Lahu (Yellow)	qha¹tɕi³	qha¹tɕi³	fireplace / hearth	fireplace / hearth		5.11.5.5		0		
+301958	856	Lahu (Yellow)	mv̩³qhɔ³	mv̩³qhɔ³	smoke	smoke		3.2.12.2		0		2473,2361
+301959	856	Lahu (Yellow)	pɯ⁵tɔ⁶	pɯ⁵tɔ⁶	east	east		9.2.8		0		m,2718
+301960	856	Lahu (Yellow)	pɯ⁵qɛ²	pɯ⁵qɛ²	west	west		9.2.8		0		
+301961	856	Lahu (Yellow)	ɔ²dʑi¹	ɔ²dʑi¹	nearby / neighborhood	nearby / neighborhood		9.2.3		0		
+301962	856	Lahu (Yellow)	ɔ²tsɔ¹	ɔ²tsɔ¹	around	around		9.2.5		0		
+301963	856	Lahu (Yellow)	ɔ²phɛ¹te¹phv̩³	ɔ²phɛ¹te¹phv̩³	top	top		1.2.1.3		0		
+301964	856	Lahu (Yellow)	ɔ²xɔ⁴te¹phv̩³	ɔ²xɔ⁴te¹phv̩³	bottom	bottom		9.2.2		0		
+301965	856	Lahu (Yellow)	ɔ²qhɔ¹te¹phv̩³	ɔ²qhɔ¹te¹phv̩³	inside	inside		9.2.5		0		p,820,m,m
+301966	856	Lahu (Yellow)	ɔ²ba²te¹phv̩³	ɔ²ba²te¹phv̩³	outside	outside		9.2.7		0		
+301967	856	Lahu (Yellow)	ɔ²ʑa³	ɔ²ʑa³	time	time		9.1.5		0		
+301968	856	Lahu (Yellow)	qhɔ⁵	qhɔ⁵	year	year		9.1.2		0		2252
+301969	856	Lahu (Yellow)	qhɔ⁵	qhɔ⁵	year / age	year / age		9.1.2		0		2252
+301970	856	Lahu (Yellow)	tɕhi²qhɔ⁵	tɕhi²qhɔ⁵	this year	this year		10.4.3.2		0		m,2252
+301971	856	Lahu (Yellow)	a⁴ȵi¹qhɔ⁵	a⁴ȵi¹qhɔ⁵	last year	last year		9.9		0		m,m,2252
+301972	856	Lahu (Yellow)	nɛ⁴qhɔ⁵	nɛ⁴qhɔ⁵	next year	next year		9.9		0		m,2252
+301973	856	Lahu (Yellow)	a¹ȵi¹ti³qhɔ⁵	a¹ȵi¹ti³qhɔ⁵	year before last	year before last		9.1.2		0		m,m,m,2252
+301974	856	Lahu (Yellow)	nɛ⁴ȵi¹ti³qhɔ⁵	nɛ⁴ȵi¹ti³qhɔ⁵	year after next	year after next		9.1.2		0		m,m,m,2252
+301975	856	Lahu (Yellow)	mv̩³tsha¹tha³	mv̩³tsha¹tha³	spring (season)	spring (season)		6.7.9		0		
+301976	856	Lahu (Yellow)	mv̩³ʑi⁷tha³	mv̩³ʑi⁷tha³	summer	summer		3.2.1		0		
+301977	856	Lahu (Yellow)	mv̩³ʑi⁷tha³	mv̩³ʑi⁷tha³	autumn	autumn		9.1.2		0		
+301978	856	Lahu (Yellow)	mv̩³ka⁶tha³	mv̩³ka⁶tha³	winter	winter		9.1.2		0		
+301979	856	Lahu (Yellow)	xa¹pa¹	xa¹pa¹	month	month		9.1.2		0		1016,m
+301980	856	Lahu (Yellow)	tsɤ¹ʑɛ¹xa¹pa¹	tsɤ¹ʑɛ¹xa¹pa¹	January	January		9.1.2		0		
+301981	856	Lahu (Yellow)	qhɔ⁵pi²xa¹pa¹	qhɔ⁵pi²xa¹pa¹	February	February		9.1.2		0		
+301982	856	Lahu (Yellow)	tsa²zɿ³sɤ²xa¹pa¹	tsa²zɿ³sɤ²xa¹pa¹	March	March		9.1.2		0		
+301983	856	Lahu (Yellow)	tsa²zɿ³sɤ²xa¹pa¹	tsa²zɿ³sɤ²xa¹pa¹	April	April		9.1.2		0		
+301984	856	Lahu (Yellow)	tsa²zɿ³sɤ²xa¹pa¹	tsa²zɿ³sɤ²xa¹pa¹	May	May		9.1.2		0		
+301985	856	Lahu (Yellow)	a¹kɯ⁴tɔ⁴xa¹pa¹	a¹kɯ⁴tɔ⁴xa¹pa¹	June	June		9.1.2		0		
+301986	856	Lahu (Yellow)	tsa²sɿ⁴tsa³xa¹pa¹	tsa²sɿ⁴tsa³xa¹pa¹	July	July		9.1.2		0		
+301987	856	Lahu (Yellow)	tsa²ɣɯ²tsa²dɔ⁶xa¹pa¹	tsa²ɣɯ²tsa²dɔ⁶xa¹pa¹	August	August		9.1.2		0	D0	
+301988	856	Lahu (Yellow)	tsa²ɣɯ²tsa²dɔ⁶xa¹pa¹	tsa²ɣɯ²tsa²dɔ⁶xa¹pa¹	September	September		9.1.2		0	D0	
+301989	856	Lahu (Yellow)	tsa²ɣɯ²tsa²dɔ⁶xa¹pa¹	tsa²ɣɯ²tsa²dɔ⁶xa¹pa¹	October	October		9.1.2		0	D0	
+301990	856	Lahu (Yellow)	tɔ¹ʑɛ¹xa¹pa¹	tɔ¹ʑɛ¹xa¹pa¹	November	November		9.1.2		0		
+301991	856	Lahu (Yellow)	la⁶ʑɛ¹xa¹pa¹	la⁶ʑɛ¹xa¹pa¹	December	December		9.1.2		0		
+301992	856	Lahu (Yellow)	fa⁶	fa⁶	zodiac year (Rat)	zodiac year (Rat)		9.1.2		0		2630
+301993	856	Lahu (Yellow)	ȵiu³	ȵiu³	zodiac year (Ox)	zodiac year (Ox)		9.1.2		0		2538
+301994	856	Lahu (Yellow)	la³	la³	zodiac year (Tiger)	zodiac year (Tiger)		9.1.2		0		5560
+301995	856	Lahu (Yellow)	thɔ³	thɔ³	zodiac year (Rabbit)	zodiac year (Rabbit)		9.1.2		0		5356
+301996	856	Lahu (Yellow)	lɔ³	lɔ³	zodiac year (Dragon)	zodiac year (Dragon)		9.1.2		0		b,bChinese
+301997	856	Lahu (Yellow)	ɕɛ¹	ɕɛ¹	zodiac year (Serpent)	zodiac year (Serpent)		2.1.6		0		
+301998	856	Lahu (Yellow)	mv̩³	mv̩³	zodiac year (Horse)	zodiac year (Horse)		9.1.2		0		1431
+301999	856	Lahu (Yellow)	zɔ²	zɔ²	zodiac year (Sheep)	zodiac year (Sheep)		9.1.2		0		6028
+302000	856	Lahu (Yellow)	mɔ⁵	mɔ⁵	zodiac year (Monkey)	zodiac year (Monkey)		9.1.2		0		2462
+302001	856	Lahu (Yellow)	ɣa⁶	ɣa⁶	zodiac year (Cock)	zodiac year (Cock)		2.1.10		0		1606
+302002	856	Lahu (Yellow)	phɯ³	phɯ³	zodiac year (Dog)	zodiac year (Dog)		9.1.2		0		1764
+302003	856	Lahu (Yellow)	va⁵	va⁵	zodiac year (Pig)	zodiac year (Pig)		9.1.2		0		1006
+302004	856	Lahu (Yellow)	ȵi¹	ȵi¹	day (24 hours)	day (24 hours)		1.5.3.2		0		85
+302005	856	Lahu (Yellow)	ʑa⁵ȵi¹	ʑa⁵ȵi¹	today	today		9.1.3		0		
+302006	856	Lahu (Yellow)	a¹mi⁵	a¹mi⁵	yesterday	yesterday		9.1.3		0		
+302007	856	Lahu (Yellow)	a¹sɿ⁶mi⁵	a¹sɿ⁶mi⁵	day before yesterday	day before yesterday		1.5.3.2		0		m,m,85
+302008	856	Lahu (Yellow)	a³pɔ²	a³pɔ²	tomorrow	tomorrow		9.1.3		0		
+302009	856	Lahu (Yellow)	phɛ⁵ɔ⁵	phɛ⁵ɔ⁵	day after tomorrow	day after tomorrow		1.5.3.2		0		
+302010	856	Lahu (Yellow)	xa¹pa¹sɿ⁴	xa¹pa¹sɿ⁴	first day of the month	first day of the month		9.9		0		1016,m,m
+302011	856	Lahu (Yellow)	mɔ⁶qɔ¹	mɔ⁶qɔ¹	daytime	daytime		9.1.3		0		
+302012	856	Lahu (Yellow)	na²mɯ⁵tɕhi¹	na²mɯ⁵tɕhi¹	morning	morning		9.1.4		0		
+302013	856	Lahu (Yellow)	mv̩³ni¹ti¹tha³	mv̩³ni¹ti¹tha³	midday	midday		9.1.4		0		
+302014	856	Lahu (Yellow)	mɯ¹xa⁴	mɯ¹xa⁴	night	night		9.1.4		0		
+302015	856	Lahu (Yellow)	mv̩³phɤ⁵	mv̩³phɤ⁵	darken (evening)	darken (evening)		9.4		0		
+302016	856	Lahu (Yellow)	te¹qhɤ³	te¹qhɤ³	midnight	midnight		9.1.4		0		m,5404
+302017	856	Lahu (Yellow)	tɕhɛ¹nɛ⁵	tɕhɛ¹nɛ⁵	now	now		9.1.5		0		
+302018	856	Lahu (Yellow)	a¹ȵi¹tha³	a¹ȵi¹tha³	in the past	in the past		10.1.1		0		
+302019	856	Lahu (Yellow)	qha³nɔ⁵	qha³nɔ⁵	from now on	from now on		10.1.1		0		
+302020	856	Lahu (Yellow)	a¹ȵi¹tha³	a¹ȵi¹tha³	antiquity	antiquity				0		
+302021	856	Lahu (Yellow)	thɛ⁴ȵiu³	thɛ⁴ȵiu³	farm cattle	farm cattle		9.10.5		0		
+302022	856	Lahu (Yellow)	ɔ⁴qa⁵	ɔ⁴qa⁵	water buffalo	water buffalo		3.2.3		0		
+302023	856	Lahu (Yellow)	ȵiu³	ȵiu³	common cattle	common cattle		7.1.7.2		0		
+302024	856	Lahu (Yellow)	mv̩³	mv̩³	horse	horse		2.1.7		0		1431
+302025	856	Lahu (Yellow)	va⁵	va⁵	pig	pig		2.1.12		0		1006
+302026	856	Lahu (Yellow)	a¹tshɤ²	a¹tshɤ²	goat	goat		2.1.8		0		p,5450,1226
+302027	856	Lahu (Yellow)	phɯ³	phɯ³	dog	dog		2.1.11		0		1764
+302028	856	Lahu (Yellow)	mɯ¹nɛ⁶	mɯ¹nɛ⁶	cat	cat		2.1.3		0		
+302029	856	Lahu (Yellow)	dzɿ³	dzɿ³	dragon	dragon		2.1.5		0		
+302030	856	Lahu (Yellow)	ʑa¹	ʑa¹	elephant	elephant		2.2.1		0		3317
+302031	856	Lahu (Yellow)	pa¹tɛ³	pa¹tɛ³	rabbit	rabbit		2.1.1		0		
+302032	856	Lahu (Yellow)	tsa²mɛ¹	tsa²mɛ¹	tiger	tiger		2.1.3		0		
+302033	856	Lahu (Yellow)	ɣɛ²	ɣɛ²	bear	bear	n.	2.2.3		0		
+302034	856	Lahu (Yellow)	tsa²mɛ¹ga⁵la⁵	tsa²mɛ¹ga⁵la⁵	leopard	leopard		2.1.3		0		m,m,m,5560
+302035	856	Lahu (Yellow)	xɛ¹va⁵	xɛ¹va⁵	boar	boar		2.1.12		0		5544,1006
+302036	856	Lahu (Yellow)	mɔ⁵	mɔ⁵	monkey	monkey		2.1.9		0		2462
+302037	856	Lahu (Yellow)	mɯ¹na⁶	mɯ¹na⁶	wolf	wolf		2.1.11		0		m,6026
+302038	856	Lahu (Yellow)	tɕhi¹	tɕhi¹	muntjac	muntjac				0		
+302039	856	Lahu (Yellow)	fa⁶phu¹	fa⁶phu¹	porcupine	porcupine		2.1.1		0		2630,5429
+302040	856	Lahu (Yellow)	fa⁶khɔ⁶	fa⁶khɔ⁶	pangolin	pangolin		2.2.7		0		
+302041	856	Lahu (Yellow)	ɣɯ²fa⁶	ɣɯ²fa⁶	otter	otter		2.2.7.1		0		1013,2630
+302042	856	Lahu (Yellow)	fa⁶tsha⁵	fa⁶tsha⁵	rat / mouse	rat / mouse		2.1.1		0		2630,5564
+302043	856	Lahu (Yellow)	ɣa⁶	ɣa⁶	chicken	chicken		2.1.10		0		1606
+302044	856	Lahu (Yellow)	ɣa⁶phv̩¹	ɣa⁶phv̩¹	rooster	rooster		2.1.10		0		1606,1635
+302045	856	Lahu (Yellow)	ɣa⁶pɤ⁵	ɣa⁶pɤ⁵	hen	hen		2.1.10		0		1606,m
+302046	856	Lahu (Yellow)	a¹pɛ²	a¹pɛ²	duck	duck		2.1.10		0		5450,5713
+302047	856	Lahu (Yellow)	a¹ŋa¹	a¹ŋa¹	goose	goose		2.1.10		0		5450,2527
+302048	856	Lahu (Yellow)	a¹pɯ¹mɯ³	a¹pɯ¹mɯ³	pigeon	pigeon		2.2.4.1		0		
+302049	856	Lahu (Yellow)	xɛ¹ɣa⁶	xɛ¹ɣa⁶	pheasant	pheasant		2.2.4.1		0		
+302050	856	Lahu (Yellow)	ŋa⁶	ŋa⁶	bird	bird		2.2.4		0		3442
+302051	856	Lahu (Yellow)	a¹tɕe⁵	a¹tɕe⁵	eagle	eagle		2.2.4.1		0		5450,2219
+302052	856	Lahu (Yellow)	a¹kɔ²tɤ¹lɤ¹	a¹kɔ²tɤ¹lɤ¹	owl	owl		2.2.4.1		0		
+302053	856	Lahu (Yellow)	a¹nɔ⁶qa⁵	a¹nɔ⁶qa⁵	crow	crow		2.2.4.1		0		p,2483,2279
+302054	856	Lahu (Yellow)	mɯ³ŋa⁶	mɯ³ŋa⁶	magpie	magpie		2.2.4.1		0		
+302055	856	Lahu (Yellow)	nv̩²ka¹tsu¹	nv̩²ka¹tsu¹	partridge	partridge		2.2.4.1		0		
+302056	856	Lahu (Yellow)	a¹pɯ¹	a¹pɯ¹	turtledove	turtledove		2.2.4.1		0		
+302057	856	Lahu (Yellow)	lɔ²ʔɛ¹	lɔ²ʔɛ¹	swallow	swallow		1.3.5.6		0		
+302058	856	Lahu (Yellow)	a¹tsa²pi⁴	a¹tsa²pi⁴	sparrow	sparrow		2.2.4.1		0		5450,5413,m
+302059	856	Lahu (Yellow)	pa⁵	pa⁵	frog	frog		2.1.6.2		0		2148
+302060	856	Lahu (Yellow)	pa⁵la⁵du⁴	pa⁵la⁵du⁴	frog (sp.)	frog (sp.)		2.1.6		0		2148,m,m
+302061	856	Lahu (Yellow)	po²la²ŋɛ⁴	po²la²ŋɛ⁴	bat	bat		2.2.4.1		0		
+302062	856	Lahu (Yellow)	ŋa³	ŋa³	fish	fish		2.2.5		0		1455
+302063	856	Lahu (Yellow)	pa¹ʑi⁴	pa¹ʑi⁴	eel (finless)	eel (finless)		2.2.5		0		
+302064	856	Lahu (Yellow)	ʔu¹nɛ⁶ŋa³	ʔu¹nɛ⁶ŋa³	loach	loach		2.2.5		0		
+302065	856	Lahu (Yellow)	fei⁴ɕi⁵	fei⁴ɕi⁵	snail	snail		2.2.5		0		
+302066	856	Lahu (Yellow)	pɔ³pɛ²	pɔ³pɛ²	tortoise	tortoise		2.1.6		0		
+302067	856	Lahu (Yellow)	a¹ka¹ku⁴	a¹ka¹ku⁴	crab	crab		2.2.5		0		
+302068	856	Lahu (Yellow)	ku²gɔ²lɛ⁵	ku²gɔ²lɛ⁵	shrimp	shrimp		2.2.5		0		
+302069	856	Lahu (Yellow)	vɤ²	vɤ²	snake	snake		2.1.6.1		0		2623
+302070	856	Lahu (Yellow)	lɛ³	lɛ³	python	python		2.1.6		0		6112
+302071	856	Lahu (Yellow)	mv̩³ʑe¹	mv̩³ʑe¹	firefly	firefly		2.2.6		0		
+302072	856	Lahu (Yellow)	pɛ³zɿ³	pɛ³zɿ³	honeybee	honeybee		2.2.6		0		
+302073	856	Lahu (Yellow)	pɛ³nɔ⁴~pɛ³sɯ¹	pɛ³nɔ⁴~pɛ³sɯ¹	wasp	wasp		2.2.6		0		
+302074	856	Lahu (Yellow)	pɛ³qu²lu²	pɛ³qu²lu²	butterfly	butterfly		2.2.6		0		2178,m,5432
+302075	856	Lahu (Yellow)	tsɔ³kɔ³	tsɔ³kɔ³	dragonfly	dragonfly		2.2.6		0		
+302076	856	Lahu (Yellow)	ɕi³li³	ɕi³li³	cricket	cricket		2.2.6		0		
+302077	856	Lahu (Yellow)	tsa⁵tsɿ⁴ɕi⁵tsa³pa⁵	tsa⁵tsɿ⁴ɕi⁵tsa³pa⁵	mantis	mantis		1.9.6.1		0		
+302078	856	Lahu (Yellow)	pa¹tɕe⁵	pa¹tɕe⁵	grasshopper	grasshopper		2.2.6		0		
+302079	856	Lahu (Yellow)	po¹ɣɔ⁶	po¹ɣɔ⁶	ant	ant		2.2.6		0		
+302080	856	Lahu (Yellow)	pv̩¹tɕi³	pv̩¹tɕi³	cicada	cicada		2.2.6		0		
+302081	856	Lahu (Yellow)	a¹ga¹le¹	a¹ga¹le¹	spider	spider		2.2.6		0		p,5408,m
+302082	856	Lahu (Yellow)	pv̩³pɯ²mɯ²	pv̩³pɯ²mɯ²	silkworm	silkworm		2.2.6		0		
+302083	856	Lahu (Yellow)	pɯ²mɯ²sɯ¹	pɯ²mɯ²sɯ¹	caterpillar	caterpillar		2.2.6		0		
+302084	856	Lahu (Yellow)	phɯ³sɯ¹	phɯ³sɯ¹	flea	flea		2.2.6		0		1764,2652
+302085	856	Lahu (Yellow)	sɯ¹	sɯ¹	louse	louse		2.2.6		0		2652
+302086	856	Lahu (Yellow)	sɯ¹	sɯ¹	louse (head)	louse (head)		2.2.6		0		2652
+302087	856	Lahu (Yellow)	pɯ⁴tɕhɛ⁶nɛ⁶	pɯ⁴tɕhɛ⁶nɛ⁶	fly	fly	n.	2.2.6		0		
+302088	856	Lahu (Yellow)	tsɔ¹kɔ³	tsɔ¹kɔ³	mosquito	mosquito		2.2.6		0		
+302089	856	Lahu (Yellow)	vɤ⁵sɯ¹	vɤ⁵sɯ¹	centipede	centipede		2.2.6		0		
+302090	856	Lahu (Yellow)	pa⁴	pa⁴	midge	midge		2.2.6		0		
+302091	856	Lahu (Yellow)	pv̩³ti²	pv̩³ti²	earthworm	earthworm		2.2.6		0		
+302092	856	Lahu (Yellow)	ve⁵	ve⁵	leech	leech		2.2.6		0		2555
+302093	856	Lahu (Yellow)	xɔ⁶	xɔ⁶	maggot	maggot		2.2.6		0		
+302094	856	Lahu (Yellow)	pɯ⁵mɯ⁵	pɯ⁵mɯ⁵	insect	insect		2.2.6		0		2178,m
+302095	856	Lahu (Yellow)	tsɿ⁴be¹le¹pa⁵	tsɿ⁴be¹le¹pa⁵	dung beetle	dung beetle		1.8.5		0		
+302096	856	Lahu (Yellow)	sɿ⁶	sɿ⁶	tree	tree		3.1.2		0		2658
+302097	856	Lahu (Yellow)	thɔ³	thɔ³	pine	pine		3.1.1		0		2690
+302098	856	Lahu (Yellow)	thɔ³phv̩¹	thɔ³phv̩¹	fir	fir		3.1.1		0		2690,m
+302099	856	Lahu (Yellow)	zɔ⁴	zɔ⁴	cypress	cypress		3.1.1		0		
+302100	856	Lahu (Yellow)	u¹nɛ⁶sɿ⁶	u¹nɛ⁶sɿ⁶	willow	willow		3.1.1		0		
+302101	856	Lahu (Yellow)	nɿ²ku³	nɿ²ku³	banyan	banyan		3.1.1		0		
+302102	856	Lahu (Yellow)	gɯ⁵tɕe²	gɯ⁵tɕe²	palm	palm		1.5.5		0		
+302103	856	Lahu (Yellow)	li³sa¹la¹mv̩¹tɕɛ²	li³sa¹la¹mv̩¹tɕɛ²	cottonwood	cottonwood				0		
+302104	856	Lahu (Yellow)	va³	va³	bamboo	bamboo		3.1.1		0		2549
+302105	856	Lahu (Yellow)	va³nɔ⁴~va³tu¹	va³nɔ⁴~va³tu¹	bamboo shoot	bamboo shoot		3.1.1		0		2549,m,2549,m
+302106	856	Lahu (Yellow)	tsa²	tsa²	rice (plant)	rice (plant)		3.1.4		0		36
+302107	856	Lahu (Yellow)	khɔ²tɛ⁴	khɔ²tɛ⁴	sorghum	sorghum		3.1.4		0		bChinese
+302108	856	Lahu (Yellow)	ga³	ga³	buckwheat	buckwheat		3.1.4		0		
+302109	856	Lahu (Yellow)	zɿ¹~zɿ¹tsa²	zɿ¹~zɿ¹tsa²	wheat	wheat		3.1.4		0		
+302110	856	Lahu (Yellow)	a¹sa¹	a¹sa¹	maize	maize		3.1.5		0		
+302111	856	Lahu (Yellow)	mɯ²ni¹	mɯ²ni¹	sweet potato	sweet potato		7.1.4.4		0		
+302112	856	Lahu (Yellow)	pɛ³ɕi⁵	pɛ³ɕi⁵	taro	taro		3.1.5.1		0		5725,1019
+302113	856	Lahu (Yellow)	pv̩³tshɿ¹	pv̩³tshɿ¹	sugarcane	sugarcane		3.1.5		0		
+302114	856	Lahu (Yellow)	mi²nɔ⁶ɕi⁵	mi²nɔ⁶ɕi⁵	peanut	peanut		3.1.4		0		
+302115	856	Lahu (Yellow)	nu⁵ɕi⁵	nu⁵ɕi⁵	sesame	sesame		3.1.6.1		0		2487,1019
+302116	856	Lahu (Yellow)	sa¹la¹	sa¹la¹	cotton	cotton		5.1		0		m,2387
+302117	856	Lahu (Yellow)	mv̩³nu⁵	mv̩³nu⁵	ramie	ramie		3.1.8		0		
+302118	856	Lahu (Yellow)	nɔ⁶ɕi⁵	nɔ⁶ɕi⁵	beans	beans		3.1.4		0		
+302119	856	Lahu (Yellow)	nɔ⁶ba³	nɔ⁶ba³	bean curd	bean curd		3.1.4		0		2067,m
+302120	856	Lahu (Yellow)	a¹tɛ¹ɕi⁵	a¹tɛ¹ɕi⁵	pumpkin	pumpkin		3.1.5		0		m,m,1019
+302121	856	Lahu (Yellow)	a¹phɛ³ɕi⁵	a¹phɛ³ɕi⁵	cucumber	cucumber		3.1.5		0		
+302122	856	Lahu (Yellow)	phɯ³mɯ⁴ɕi⁵	phɯ³mɯ⁴ɕi⁵	winter melon	winter melon		9.1.2		0		5797
+302123	856	Lahu (Yellow)	a¹ka⁶phv̩³ɕi⁵	a¹ka⁶phv̩³ɕi⁵	bottle gourd	bottle gourd		5.1		0		m,m,5797,1019
+302124	856	Lahu (Yellow)	ma⁴khɯ⁴ɕi⁵	ma⁴khɯ⁴ɕi⁵	eggplant	eggplant		3.1.5		0		bChinese
+302125	856	Lahu (Yellow)	nɿ¹ɣɔ³	nɿ¹ɣɔ³	vegetable	vegetable		3.1.2		0		
+302126	856	Lahu (Yellow)	ɣɔ³tsa⁴	ɣɔ³tsa⁴	Chinese cabbage	Chinese cabbage		4.6		0		5778,5376
+302127	856	Lahu (Yellow)	ɣɔ³na⁶qu⁷	ɣɔ³na⁶qu⁷	mustard greens	mustard greens		3.1.4		0		5778,m,m
+302128	856	Lahu (Yellow)	nv̩²ɣɔ³	nv̩²ɣɔ³	amaranth	amaranth		3.1.7		0		
+302129	856	Lahu (Yellow)	xɔ⁴pɤ⁵	xɔ⁴pɤ⁵	radish	radish		3.1.5		0		
+302130	856	Lahu (Yellow)	pha⁵bo¹	pha⁵bo¹	green onion	green onion		9.4		0		
+302131	856	Lahu (Yellow)	ɣa⁶sɔ¹	ɣa⁶sɔ¹	coriander	coriander		3.1.6.1		0		
+302132	856	Lahu (Yellow)	xɔ¹lɔ³	xɔ¹lɔ³	garlic	garlic		3.1.5		0		
+302133	856	Lahu (Yellow)	tɕhu³phi²	tɕhu³phi²	ginger	ginger		3.1.5		0		
+302134	856	Lahu (Yellow)	a³phi²	a³phi²	hot pepper	hot pepper				0		
+302135	856	Lahu (Yellow)	sɿ⁶ɕi⁵	sɿ⁶ɕi⁵	fruit	fruit		3.1.5		0		
+302136	856	Lahu (Yellow)	a¹va³ɕi⁵	a¹va³ɕi⁵	peach	peach		3.1.5		0		
+302137	856	Lahu (Yellow)	qhɔ³po¹ɕi⁵	qhɔ³po¹ɕi⁵	persimmon	persimmon		3.1.5		0		
+302138	856	Lahu (Yellow)	a¹pɔ³qu¹~a¹pɔ³mɯ³ɕi⁵	a¹pɔ³qu¹~a¹pɔ³mɯ³ɕi⁵	banana	banana		3.1.5		0		
+302139	856	Lahu (Yellow)	pho⁵ɕi⁵	pho⁵ɕi⁵	pomelo	pomelo				0		
+302140	856	Lahu (Yellow)	a¹pv̩⁵tsa⁴ɕi⁵	a¹pv̩⁵tsa⁴ɕi⁵	pear	pear		3.1.5		0		
+302141	856	Lahu (Yellow)	su⁴	su⁴	tobacco	tobacco		3.1.6.2		0		3462
+302142	856	Lahu (Yellow)	mv̩⁵	mv̩⁵	grass	grass		3.1.8		0		2460
+302143	856	Lahu (Yellow)	zɿ³	zɿ³	cogongrass	cogongrass				0		
+302144	856	Lahu (Yellow)	tsa²ɣɔ³	tsa²ɣɔ³	straw (rice)	straw (rice)		3.1.6.2		0		36,m
+302145	856	Lahu (Yellow)	mv̩²	mv̩²	mushroom	mushroom		3.1.7		0		2472
+302146	856	Lahu (Yellow)	mv̩²la⁵bɛ⁶	mv̩²la⁵bɛ⁶	fungus (edible)	fungus (edible)		3.1.7		0		2472,m,m
+302147	856	Lahu (Yellow)	ɔ²zɿ³	ɔ²zɿ³	seed	seed		3.1.4		0		5450,3561
+302148	856	Lahu (Yellow)	ɔ²gɯ¹	ɔ²gɯ¹	root	root		3.1.2		0		
+302149	856	Lahu (Yellow)	ɔ²ɣɔ³	ɔ²ɣɔ³	stem / stalk	stem / stalk		3.1.2		0		
+302150	856	Lahu (Yellow)	ɔ²phɛ⁵	ɔ²phɛ⁵	leaf	leaf		3.1.3		0		
+302151	856	Lahu (Yellow)	sɿ⁶qa⁴	sɿ⁶qa⁴	branch	branch		1.5.3.1		0		2658,1278
+302152	856	Lahu (Yellow)	ɔ²gɯ¹gɯ¹	ɔ²gɯ¹gɯ¹	bud (tree)	bud (tree)	n	3.1.4		0		
+302153	856	Lahu (Yellow)	ɔ²ʑi²ʑi²	ɔ²ʑi²ʑi²	bud (grain)	bud (grain)	n	3.1.4		0		
+302154	856	Lahu (Yellow)	ɔ²u³	ɔ²u³	pit / stone	pit / stone		3.1.2		0		
+302155	856	Lahu (Yellow)	ɔ²ve⁶	ɔ²ve⁶	flower	flower		3.1.4		0		m,2185
+302156	856	Lahu (Yellow)	ɔ²nu¹	ɔ²nu¹	ear of grain	ear of grain		1.2.7		0		5450,3605
+302157	856	Lahu (Yellow)	ɔ²tɕhu³	ɔ²tɕhu³	thorn	thorn		3.1.2		0		p,2741
+302158	856	Lahu (Yellow)	tshɔ¹	tshɔ¹	person	person		4.5		0		
+302159	856	Lahu (Yellow)	xɔ¹qha⁶	xɔ¹qha⁶	man / male	man / male		1.9.6.1		0		
+302160	856	Lahu (Yellow)	ʑa¹mi³	ʑa¹mi³	woman / female	woman / female		1.9.3		0		1012,1618
+302161	856	Lahu (Yellow)	ɔ²kɛ⁴~ɔ²mɔ³	ɔ²kɛ⁴~ɔ²mɔ³	old person	old person		7.1.8.3		0		p,m,p,2440
+302162	856	Lahu (Yellow)	xɔ¹qha⁶xa⁴	xɔ¹qha⁶xa⁴	young man	young man		7.1.8.3		0		
+302163	856	Lahu (Yellow)	ʑa¹mi³xa⁴	ʑa¹mi³xa⁴	young woman	young woman		7.1.8.3		0		1012,1618,5777
+302164	856	Lahu (Yellow)	ʑa³nɛ⁴	ʑa³nɛ⁴	child	child		1.5.3.2		0		1012,m
+302165	856	Lahu (Yellow)	ɔ²tshɔ³	ɔ²tshɔ³	friend	friend		4.4.2		0		
+302166	856	Lahu (Yellow)	lɛ³kɔ³	lɛ³kɔ³	enemy	enemy		4.2.6		0		
+302167	856	Lahu (Yellow)	ʑɛ²ɕɛ²pha³	ʑɛ²ɕɛ²pha³	host (male)	host (male)		4.4.2		0		
+302168	856	Lahu (Yellow)	ʑɛ²ɕɛ²ma¹	ʑɛ²ɕɛ²ma¹	host (female)	host (female)		4.4.2		0		
+302169	856	Lahu (Yellow)	vɤ³tshɔ¹	vɤ³tshɔ¹	guest	guest		4.4.3		0		
+302170	856	Lahu (Yellow)	sɿ⁶te¹pa⁵	sɿ⁶te¹pa⁵	carpenter	carpenter		4.2.1.4		0		2658,m,m
+302171	856	Lahu (Yellow)	so¹dɔ⁶pa⁵	so¹dɔ⁶pa⁵	blacksmith	blacksmith		4.2.1.4		0		
+302172	856	Lahu (Yellow)	tsa³li⁴pa⁵	tsa³li⁴pa⁵	blacksmith	blacksmith		4.2.1.4		0		
+302173	856	Lahu (Yellow)	tsv̩³ɕi⁵	tsv̩³ɕi⁵	chairman	chairman				0		
+302174	856	Lahu (Yellow)	tsv̩³li³	tsv̩³li³	prime minister	prime minister				0		
+302175	856	Lahu (Yellow)	pv̩⁴tsa³	pv̩⁴tsa³	minister	minister				0		
+302176	856	Lahu (Yellow)	su¹tɕi⁴	su¹tɕi⁴	clerk	clerk				0		
+302177	856	Lahu (Yellow)	ta³ʑɛ⁵	ta³ʑɛ⁵	party member	party member		4.4		0		
+302178	856	Lahu (Yellow)	thɔ⁵ʑɛ⁵	thɔ⁵ʑɛ⁵	member (of group)	member (of group)		1.5.3.2		0		
+302179	856	Lahu (Yellow)	ɔ²tshɔ³	ɔ²tshɔ³	comrade	comrade		4.4.2		0		m
+302180	856	Lahu (Yellow)	ka⁴pv̩⁴	ka⁴pv̩⁴	cadre	cadre		4.4		0		
+302181	856	Lahu (Yellow)	ɔ²mɔ²	ɔ²mɔ²	masses	masses				0		
+302182	856	Lahu (Yellow)	ɔ²tsv̩³	ɔ²tsv̩³	masses	masses				0		
+302183	856	Lahu (Yellow)	dʑɔ¹mɔ³	dʑɔ¹mɔ³	official	official	n.	5.8		0		
+302184	856	Lahu (Yellow)	ma⁵ʑa³	ma⁵ʑa³	soldier	soldier		4.2.6		0		257,m
+302185	856	Lahu (Yellow)	ka⁴te¹pa⁵	ka⁴te¹pa⁵	worker	worker		6.1.1		0		
+302186	856	Lahu (Yellow)	xa¹qɔ³pa⁵	xa¹qɔ³pa⁵	farmer	farmer		9.10.5		0		
+302187	856	Lahu (Yellow)	na²u¹pa⁵	na²u¹pa⁵	doctor	doctor		4.2.1.5		0		
+302188	856	Lahu (Yellow)	ta³ka⁵te¹pa⁵	ta³ka⁵te¹pa⁵	merchant	merchant		4.2.1		0		
+302189	856	Lahu (Yellow)	sa²bɔ⁶pa⁵	sa²bɔ⁶pa⁵	hunter	hunter		6.2.2.1		0		
+302190	856	Lahu (Yellow)	li⁵ma⁵pa⁵	li⁵ma⁵pa⁵	teacher	teacher		6.19		0		
+302191	856	Lahu (Yellow)	li⁵xi³ʑa³	li⁵xi³ʑa³	student	student		4.2.2		0		
+302192	856	Lahu (Yellow)	ɔ²xu⁴	ɔ²xu⁴	representative	representative		4.2.5.2		0		
+302193	856	Lahu (Yellow)	lɛ⁴	lɛ⁴	hero	hero		4.2.3		0		
+302194	856	Lahu (Yellow)	tshɔ¹tsɤ²	tshɔ¹tsɤ²	nationality	nationality		5.8		0		
+302195	856	Lahu (Yellow)	la³xu²	la³xu²	Lahu (nationality)	Lahu (nationality)		5.8		0		m,5632
+302196	856	Lahu (Yellow)	a¹xɛ²	a¹xɛ²	Chinese (nationality)	Chinese (nationality)		4.6		0		p,bChinese
+302197	856	Lahu (Yellow)	a¹ta¹	a¹ta¹	grandfather	grandfather		4.7.1		0		
+302198	856	Lahu (Yellow)	a¹tsɿ⁴	a¹tsɿ⁴	grandmother	grandmother		4.7.1		0		
+302199	856	Lahu (Yellow)	a¹tɛ¹	a¹tɛ¹	father	father		4.7.1		0		
+302200	856	Lahu (Yellow)	a¹ma¹	a¹ma¹	mother	mother		4.7.1		0		
+302201	856	Lahu (Yellow)	a¹pha³lu⁴	a¹pha³lu⁴	elder paternal uncle	elder paternal uncle		4.7.1		0		
+302202	856	Lahu (Yellow)	a¹ma¹lu⁴	a¹ma¹lu⁴	elder paternal uncle's wife	elder paternal uncle's wife		4.7.1		0		
+302203	856	Lahu (Yellow)	a¹phɛ¹	a¹phɛ¹	younger paternal uncle	younger paternal uncle		4.7.1		0		
+302204	856	Lahu (Yellow)	a¹mɛ¹	a¹mɛ¹	younger paternal uncle's wife	younger paternal uncle's wife		4.7.1		0		
+302205	856	Lahu (Yellow)	a¹zo⁵pha³lu⁴	a¹zo⁵pha³lu⁴	elder paternal aunt's husband	elder paternal aunt's husband		4.7.1		0		
+302206	856	Lahu (Yellow)	a¹zo⁵pha³	a¹zo⁵pha³	younger paternal aunt's husband	younger paternal aunt's husband		4.7.1		0		
+302207	856	Lahu (Yellow)	a¹zo⁵lu⁴	a¹zo⁵lu⁴	elder paternal aunt	elder paternal aunt		4.7.1		0		
+302208	856	Lahu (Yellow)	a¹zo⁵nɛ⁴	a¹zo⁵nɛ⁴	younger paternal aunt	younger paternal aunt		4.7.1		0		
+302209	856	Lahu (Yellow)	ʔu¹tsɿ⁴pa⁵lu⁴	ʔu¹tsɿ⁴pa⁵lu⁴	elder maternal uncle	elder maternal uncle		4.7.1		0		
+302210	856	Lahu (Yellow)	ʔu¹tsɿ⁴pa⁵	ʔu¹tsɿ⁴pa⁵	younger maternal uncle	younger maternal uncle				0		
+302211	856	Lahu (Yellow)	a¹zo⁵lu⁴	a¹zo⁵lu⁴	elder maternal uncle's wife	elder maternal uncle's wife		4.7.1		0		
+302212	856	Lahu (Yellow)	a¹zo⁵nɛ⁴	a¹zo⁵nɛ⁴	younger maternal uncle's wife	younger maternal uncle's wife				0		
+302213	856	Lahu (Yellow)	a¹zo⁵pha³lu⁴	a¹zo⁵pha³lu⁴	elder maternal aunt's husband	elder maternal aunt's husband		4.7.1		0		
+302214	856	Lahu (Yellow)	a¹zo⁵pha³	a¹zo⁵pha³	younger maternal aunt's husband	younger maternal aunt's husband				0		
+302215	856	Lahu (Yellow)	a¹mɛ¹lu⁴	a¹mɛ¹lu⁴	elder maternal aunt	elder maternal aunt		4.7.1		0		
+302216	856	Lahu (Yellow)	a¹mɛ¹	a¹mɛ¹	younger maternal aunt	younger maternal aunt				0		
+302217	856	Lahu (Yellow)	a¹ta¹	a¹ta¹	maternal grandfather	maternal grandfather		4.7.1		0		
+302218	856	Lahu (Yellow)	a¹tsɿ⁴	a¹tsɿ⁴	maternal grandmother	maternal grandmother		4.7.1		0		
+302219	856	Lahu (Yellow)	a¹pv̩⁵	a¹pv̩⁵	father-in-law	father-in-law		4.7.4		0		
+302220	856	Lahu (Yellow)	a¹pi⁵	a¹pi⁵	mother-in-law	mother-in-law		4.7.4		0		
+302221	856	Lahu (Yellow)	a¹kɔ¹	a¹kɔ¹	elder brother	elder brother		4.7.1		0		
+302222	856	Lahu (Yellow)	a¹mɛ⁵	a¹mɛ⁵	elder brother's wife	elder brother's wife		1.5.3.2		0		
+302223	856	Lahu (Yellow)	a¹vi⁴	a¹vi⁴	elder sister	elder sister		4.7.1		0		
+302224	856	Lahu (Yellow)	a¹vi⁴pa⁵	a¹vi⁴pa⁵	elder sister's husband	elder sister's husband		4.7.1		0		
+302225	856	Lahu (Yellow)	a¹mi³	a¹mi³	younger sister	younger sister				0		
+302226	856	Lahu (Yellow)	a³pa⁵	a³pa⁵	younger brother	younger brother				0		
+302227	856	Lahu (Yellow)	ɔ²phɔ¹	ɔ²phɔ¹	husband	husband		4.7.4		0		
+302228	856	Lahu (Yellow)	ɔ²mi³	ɔ²mi³	wife	wife		4.7.4		0		m,1618
+302229	856	Lahu (Yellow)	ʑa³pa⁵	ʑa³pa⁵	son	son		4.7.3		0		1012,1634
+302230	856	Lahu (Yellow)	ʑa¹mi³	ʑa¹mi³	daughter	daughter		4.7.3		0		
+302231	856	Lahu (Yellow)	ɔ²khɯ³	ɔ²khɯ³	daughter-in-law	daughter-in-law		4.7.4		0		5450,2348
+302232	856	Lahu (Yellow)	ɔ²ma⁴~ɔ²ma⁴pa⁵	ɔ²ma⁴~ɔ²ma⁴pa⁵	son-in-law	son-in-law		4.7.4		0		p,547,p,547,s
+302233	856	Lahu (Yellow)	ɔ²sa⁵pa⁵	ɔ²sa⁵pa⁵	nephew	nephew		4.7.3		0		
+302234	856	Lahu (Yellow)	ɔ²sa⁵ma¹	ɔ²sa⁵ma¹	niece	niece		4.7.3		0		
+302235	856	Lahu (Yellow)	ɔ²xɔ²pa⁵	ɔ²xɔ²pa⁵	grandson	grandson		4.7.3		0		
+302236	856	Lahu (Yellow)	ɔ²xɔ²ma¹	ɔ²xɔ²ma¹	granddaughter	granddaughter		4.7.3		0		
+302237	856	Lahu (Yellow)	ʑɛ⁵	ʑɛ⁵	house	house		5.11.9.1		0		1612
+302238	856	Lahu (Yellow)	ʑɛ²qhɔ¹	ʑɛ²qhɔ¹	home	home		5.11.9.6		0		
+302239	856	Lahu (Yellow)	tha¹pɛ¹	tha¹pɛ¹	wall	wall		5.11.9.3		0		
+302240	856	Lahu (Yellow)	ʑɛ²khɯ³dɔ¹	ʑɛ²khɯ³dɔ¹	pole	pole		9.7.1		0		
+302241	856	Lahu (Yellow)	to⁵tsɔ⁶	to⁵tsɔ⁶	beam	beam		5.11.9		0		
+302242	856	Lahu (Yellow)	la³mi⁵	la³mi⁵	door	door		5.11.9.3		0		
+302243	856	Lahu (Yellow)	pu¹mɯ¹	pu¹mɯ¹	lime (mineral)	lime (mineral)		3.1.5		0		
+302244	856	Lahu (Yellow)	bɤ²ɕi⁵	bɤ²ɕi⁵	brick	brick		5.11.9.3		0		
+302245	856	Lahu (Yellow)	bɤ²qɔ⁶	bɤ²qɔ⁶	tile	tile		5.8		0		b?,m
+302246	856	Lahu (Yellow)	sɿ⁶ba⁴	sɿ⁶ba⁴	board / plank	board / plank		5.11.9		0		2658,m
+302247	856	Lahu (Yellow)	so¹tsu³	so¹tsu³	nail (tool)	nail (tool)		1.5.10		0		
+302248	856	Lahu (Yellow)	qha⁶	qha⁶	village	village		5.8		0		5745
+302249	856	Lahu (Yellow)	tɕhi⁶pɛ¹	tɕhi⁶pɛ¹	grave	grave		9.10.6		0		
+302250	856	Lahu (Yellow)	tsa²tɕi²ʑɛ²	tsa²tɕi²ʑɛ²	granary	granary		5.11.9.5		0		
+302251	856	Lahu (Yellow)	va³tha⁵	va³tha⁵	fence	fence		5.11.9.5		0		
+302252	856	Lahu (Yellow)	khɔ⁶	khɔ⁶	enclosure (pen)	enclosure (pen)		9.10.5		0		5402
+302253	856	Lahu (Yellow)	phɯ¹	phɯ¹	nest	nest		2.2.4		0		1611
+302254	856	Lahu (Yellow)	pha⁴tɕe⁵	pha⁴tɕe⁵	scarf for the head / turban	scarf for the head / turban		5.11.8.2.1.1		0		
+302255	856	Lahu (Yellow)	na¹xɔ⁶pɛ⁶	na¹xɔ⁶pɛ⁶	bamboo hat	bamboo hat		3.1.1		0		
+302256	856	Lahu (Yellow)	tsɔ⁵	tsɔ⁵	umbrella	umbrella		5.11.8.2.2		0		
+302257	856	Lahu (Yellow)	na²pv̩¹dʑu²ʑa⁶	na²pv̩¹dʑu²ʑa⁶	earring	earring		5.11.8.3		0		
+302258	856	Lahu (Yellow)	la⁵gɔ²	la⁵gɔ²	bracelet	bracelet		5.11.8.3		0		
+302259	856	Lahu (Yellow)	la⁵pe⁵	la⁵pe⁵	ring	ring		5.11.8.3		0		695,597
+302260	856	Lahu (Yellow)	a¹po²	a¹po²	clothes (upper garment)	clothes (upper garment)		5.11.8.2.1		0		
+302261	856	Lahu (Yellow)	a¹po²la⁵qa⁴	a¹po²la⁵qa⁴	sleeve	sleeve		5.11.8.2.3		0		
+302262	856	Lahu (Yellow)	gɛ²bɤ⁵	gɛ²bɤ⁵	raincoat	raincoat		5.11.8.2.2		0		
+302263	856	Lahu (Yellow)	xa⁵	xa⁵	trousers / pants	trousers / pants		5.11.8.2.1.3		0		
+302264	856	Lahu (Yellow)	thɛ¹	thɛ¹	skirt	skirt		5.11.8.2.1		0		
+302265	856	Lahu (Yellow)	kɛ²	kɛ²	shoe	shoe		5.11.8.1		0		
+302266	856	Lahu (Yellow)	dɔ³	dɔ³	socks	socks		5.11.8.2.1.3		0		
+302267	856	Lahu (Yellow)	bɔ³	bɔ³	mosquito net	mosquito net		2.2.6		0		
+302268	856	Lahu (Yellow)	qɔ⁶lɔ⁶	qɔ⁶lɔ⁶	quilt	quilt		5.1		0		
+302269	856	Lahu (Yellow)	sa⁴fɯ¹	sa⁴fɯ¹	mat	mat		5.11.9.4		0		
+302270	856	Lahu (Yellow)	u¹gɛ³	u¹gɛ³	pillow	pillow		1.2.1		0		385,692
+302271	856	Lahu (Yellow)	pha¹	pha¹	cloth	cloth		5.1		0		
+302272	856	Lahu (Yellow)	tsa²qha¹	tsa²qha¹	rice (uncooked)	rice (uncooked)		3.1.4		0		36,m
+302273	856	Lahu (Yellow)	ɔ⁵	ɔ⁵	rice (cooked)	rice (cooked)		3.1.4		0		3527
+302274	856	Lahu (Yellow)	ɔ⁵bɛ⁶nɛ⁶	ɔ⁵bɛ⁶nɛ⁶	gruel	gruel		5.5		0		
+302275	856	Lahu (Yellow)	ɔ⁵pa¹	ɔ⁵pa¹	cake (rice)	cake (rice)		5.5		0		
+302276	856	Lahu (Yellow)	a¹lɛ⁵	a¹lɛ⁵	salt	salt		3.2.4		0		
+302277	856	Lahu (Yellow)	ɣɔ³	ɣɔ³	dish (of food)	dish (of food)		5.5		0		
+302278	856	Lahu (Yellow)	a³ɣɯ²	a³ɣɯ²	soup	soup		5.5		0		
+302279	856	Lahu (Yellow)	ɔ⁵pa¹	ɔ⁵pa¹	glutinous rice cake	glutinous rice cake		7.1.4.2		0		
+302280	856	Lahu (Yellow)	la⁵	la⁵	tea	tea		3.1.1		0		786
+302281	856	Lahu (Yellow)	pv̩³tshɿ¹	pv̩³tshɿ¹	sugar	sugar		3.1.6.2		0		
+302282	856	Lahu (Yellow)	va⁵phɯ³	va⁵phɯ³	bran	bran		3.1.4		0		
+302283	856	Lahu (Yellow)	va⁵phɯ³sa⁶	va⁵phɯ³sa⁶	husk	husk		3.1.2		0		
+302284	856	Lahu (Yellow)	ɔ⁵~va⁵ɔ⁵	ɔ⁵~va⁵ɔ⁵	feed (for pig)	feed (for pig)	n.	1.3.5.8		0		m,1006,m
+302285	856	Lahu (Yellow)	khɯ¹tɕi³	khɯ¹tɕi³	ax	ax		5.11.5.3		0		
+302286	856	Lahu (Yellow)	a¹thɔ¹	a¹thɔ¹	knife	knife		5.5		0		5450,5609
+302287	856	Lahu (Yellow)	vɛ⁵qɔ⁴	vɛ⁵qɔ⁴	sickle	sickle		5.3		0		
+302288	856	Lahu (Yellow)	tɕɛ⁵qu¹	tɕɛ⁵qu¹	hoe	hoe		5.3		0		
+302289	856	Lahu (Yellow)	thɛ⁴	thɛ⁴	plough	plough	n.	5.3		0		
+302290	856	Lahu (Yellow)	dzɿ⁵	dzɿ⁵	liquor	liquor		3.1.6.3		0		5638
+302291	856	Lahu (Yellow)	ga⁶kha¹	ga⁶kha¹	rake	rake		5.1		0		
+302292	856	Lahu (Yellow)	ȵiu³nɔ⁴	ȵiu³nɔ⁴	yoke	yoke		5.14		0		
+302293	856	Lahu (Yellow)	tsa⁵qhɤ¹	tsa⁵qhɤ¹	machine	machine		5.1		0		
+302294	856	Lahu (Yellow)	thɔ¹la¹tɕi¹	thɔ¹la¹tɕi¹	tractor	tractor				0		
+302295	856	Lahu (Yellow)	pha¹tshɤ³tu²	pha¹tshɤ³tu²	loom	loom		5.1		0		
+302296	856	Lahu (Yellow)	qhɔ²qu²	qhɔ²qu²	spade	spade		5.3		0		
+302297	856	Lahu (Yellow)	sɿ⁶ɣɤ²tu²	sɿ⁶ɣɤ²tu²	saw	saw		5.11.5.3		0		
+302298	856	Lahu (Yellow)	ɣu²	ɣu²	needle	needle		5.1		0		
+302299	856	Lahu (Yellow)	khɛ¹	khɛ¹	thread	thread		5.11.6		0		
+302300	856	Lahu (Yellow)	tsa⁶khɛ¹	tsa⁶khɛ¹	rope	rope		5.11.4		0		525,372
+302301	856	Lahu (Yellow)	na⁶	na⁶	gun	gun		5.15		0		
+302302	856	Lahu (Yellow)	mɔ⁶~phɔ⁴	mɔ⁶~phɔ⁴	cannon	cannon		5.15		0		5791,m
+302303	856	Lahu (Yellow)	na⁶ɕi⁵	na⁶ɕi⁵	bullet	bullet		5.15		0		
+302304	856	Lahu (Yellow)	kha⁶	kha⁶	crossbow	crossbow		5.15		0		5678
+302305	856	Lahu (Yellow)	na¹bɔ⁶	na¹bɔ⁶	bow (weapon)	bow (weapon)		5.15		0		
+302306	856	Lahu (Yellow)	kha⁶tɕi¹~ɔ²tɕi¹	kha⁶tɕi¹~ɔ²tɕi¹	arrow	arrow		5.15		0		5678,74,p,74
+302307	856	Lahu (Yellow)	sɿ⁶qhɔ³	sɿ⁶qhɔ³	stick	stick		3.1.2		0		
+302308	856	Lahu (Yellow)	dzɿ³fv̩²	dzɿ³fv̩²	walking stick	walking stick		6.7.4		0		
+302309	856	Lahu (Yellow)	mɛ²pi³	mɛ²pi³	whip	whip		5.14		0		b?
+302310	856	Lahu (Yellow)	ɔ²~a⁴	ɔ²~a⁴	saddle	saddle		5.14		0		b?
+302311	856	Lahu (Yellow)	xa⁶	xa⁶	winnowing sieve	winnowing sieve		3.1.10		0		
+302312	856	Lahu (Yellow)	khɯ⁴	khɯ⁴	sieve	sieve	n.	5.5		0		
+302313	856	Lahu (Yellow)	mɔ⁴	mɔ⁴	mill	mill		3.1.10		0		
+302314	856	Lahu (Yellow)	tɕhɛ¹	tɕhɛ¹	pestle (general)	pestle (general)		5.5		0		
+302315	856	Lahu (Yellow)	khɯ¹tɕhɛ¹	khɯ¹tɕhɛ¹	pestle (foot)	pestle (foot)		5.5		0		335,m
+302316	856	Lahu (Yellow)	la⁵tɕhɛ¹	la⁵tɕhɛ¹	pestle (hand)	pestle (hand)		5.5		0		695,m
+302317	856	Lahu (Yellow)	tɛ⁵tu³	tɛ⁵tu³	pounding stick	pounding stick		6.8		0		
+302318	856	Lahu (Yellow)	qhɔ⁵lɔ⁵	qhɔ⁵lɔ⁵	large bamboo basket	large bamboo basket		9.7.1		0		
+302319	856	Lahu (Yellow)	phɛ¹qu⁵	phɛ¹qu⁵	grain bin	grain bin		3.1.6.2		0		
+302320	856	Lahu (Yellow)	kha⁶xu¹	kha⁶xu¹	carrying pole	carrying pole		6.2.2.2.1		0		
+302321	856	Lahu (Yellow)	sɔ³	sɔ³	lock	lock		1.2.3		0		
+302322	856	Lahu (Yellow)	sɔ³be⁶tu²	sɔ³be⁶tu²	key	key		5.1		0		
+302323	856	Lahu (Yellow)	mɛ²ɕi⁶	mɛ²ɕi⁶	broom	broom		5.4		0		
+302324	856	Lahu (Yellow)	xɔ⁶tɕhɛ¹	xɔ⁶tɕhɛ¹	pot / wok (iron)	pot / wok (iron)		5.5		0		
+302325	856	Lahu (Yellow)	mu⁵qhu¹	mu⁵qhu¹	pot (earthenware)	pot (earthenware)		5.5		0		
+302326	856	Lahu (Yellow)	tsɔ⁴qu²	tsɔ⁴qu²	stove / kitchen	stove / kitchen		5.5		0		
+302327	856	Lahu (Yellow)	ɔ²xu⁶	ɔ²xu⁶	lid	lid		5.1		0		
+302328	856	Lahu (Yellow)	a¹ka⁶tɔ¹	a¹ka⁶tɔ¹	barrel / pail / bucket	barrel / pail / bucket		5.1		0		
+302329	856	Lahu (Yellow)	pha⁵tsɿ¹	pha⁵tsɿ¹	wash basin	wash basin		6.2.2.5.2		0		bChinese
+302330	856	Lahu (Yellow)	ʔɔ¹tɕhi³a¹thɔ¹	ʔɔ¹tɕhi³a¹thɔ¹	cleaver	cleaver				0		
+302331	856	Lahu (Yellow)	tɔ⁴thi¹	tɔ⁴thi¹	chopping block	chopping block		6.9.3		0		
+302332	856	Lahu (Yellow)	khɛ³	khɛ³	bowl	bowl		5.1		0		
+302333	856	Lahu (Yellow)	a³tsɔ¹~a³tsɔ¹ka¹	a³tsɔ¹~a³tsɔ¹ka¹	chopsticks	chopsticks		5.5		0		b?
+302334	856	Lahu (Yellow)	a³qu¹	a³qu¹	ladle	ladle		5.5		0		
+302335	856	Lahu (Yellow)	khɛ³pɛ⁶nɛ⁶	khɛ³pɛ⁶nɛ⁶	plate	plate		5.5		0		
+302336	856	Lahu (Yellow)	kɛ²kɔ¹	kɛ²kɔ¹	bottle	bottle		5.1		0		
+302337	856	Lahu (Yellow)	sɿ⁶phɯ¹	sɿ⁶phɯ¹	table	table		5.11.9.4		0		
+302338	856	Lahu (Yellow)	mɯ¹qhɔ³	mɯ¹qhɔ³	chair	chair		5.11.9.4		0		
+302339	856	Lahu (Yellow)	ta⁴kɔ²	ta⁴kɔ²	stool	stool		5.11.9.4		0		
+302340	856	Lahu (Yellow)	zɿ⁵bɔ³	zɿ⁵bɔ³	bed	bed		1.5.3.2		0		
+302341	856	Lahu (Yellow)	gu¹tɕhi¹	gu¹tɕhi¹	ladder	ladder		5.4		0		260,m
+302342	856	Lahu (Yellow)	ta¹qu²	ta¹qu²	trunk / box	trunk / box		1.4.1		0		325,m
+302343	856	Lahu (Yellow)	ɔ²bɔ⁴	ɔ²bɔ⁴	box / case	box / case		5.1		0		
+302344	856	Lahu (Yellow)	mɛ⁶ɣɤ⁶	mɛ⁶ɣɤ⁶	mirror	mirror		5.11.8.3		0		
+302345	856	Lahu (Yellow)	pɤ⁵	pɤ⁵	comb	comb	n.	1.2.2.1		0		1220
+302346	856	Lahu (Yellow)	pɤ⁵ʑa³	pɤ⁵ʑa³	comb (fine-toothed)	comb (fine-toothed)		1.2.2.1		0		1220,m
+302347	856	Lahu (Yellow)	pha⁴tɕe⁵	pha⁴tɕe⁵	towel	towel		5.11.8.4		0		b?
+302348	856	Lahu (Yellow)	tɕɛ⁵tsɿ¹	tɕɛ⁵tsɿ¹	scissors	scissors		5.11.5.3		0		bChinese
+302349	856	Lahu (Yellow)	sa¹pɛ⁵	sa¹pɛ⁵	soap	soap		5.11.8.4		0		
+302350	856	Lahu (Yellow)	tɔ³na¹tu²	tɔ³na¹tu²	telephone	telephone				0		
+302351	856	Lahu (Yellow)	tɤ¹	tɤ¹	lamp	lamp		5.11.5.5		0		bChinese
+302352	856	Lahu (Yellow)	ti⁴tɤ¹	ti⁴tɤ¹	electric lamp	electric lamp		5.11.5.5		0		bChinese
+302353	856	Lahu (Yellow)	ŋa³tshu¹	ŋa³tshu¹	candle	candle		5.11.5.5		0		bChinese
+302354	856	Lahu (Yellow)	a²mi²bɔ⁴	a²mi²bɔ⁴	match	match	n.	5.11.5.5		0		
+302355	856	Lahu (Yellow)	kɯ²	kɯ²	lacquer	lacquer		5.8		0		
+302356	856	Lahu (Yellow)	sɿ⁶	sɿ⁶	firewood	firewood		5.11.5.5		0		
+302357	856	Lahu (Yellow)	a³tɕhi¹	a³tɕhi¹	charcoal	charcoal		3.2.4		0		
+302358	856	Lahu (Yellow)	a²mi²ɣɯ²	a²mi²ɣɯ²	ashes (organic)	ashes (organic)		3.2.12.2		0		
+302359	856	Lahu (Yellow)	bɤ²pɛ¹	bɤ²pɛ¹	ashes (earthen)	ashes (earthen)		3.2.12.2		0		
+302360	856	Lahu (Yellow)	ʑa⁵qɔ¹	ʑa⁵qɔ¹	road / way	road / way		9.10.1		0		
+302361	856	Lahu (Yellow)	lɔ²li⁵ʑa⁵qɔ¹	lɔ²li⁵ʑa⁵qɔ¹	highway	highway		9.10.1		0		
+302362	856	Lahu (Yellow)	qhu⁴	qhu⁴	bridge	bridge		9.10.2		0		
+302363	856	Lahu (Yellow)	a²mi²li⁵	a²mi²li⁵	train	train		5.1		0		
+302364	856	Lahu (Yellow)	lɔ²li⁵	lɔ²li⁵	car	car		5.1		0		bEnglish
+302365	856	Lahu (Yellow)	so¹ku³	so¹ku³	bicycle	bicycle		5.1		0		
+302366	856	Lahu (Yellow)	xɔ¹	xɔ¹	boat	boat		5.1		0		
+302367	856	Lahu (Yellow)	ʑɛ²po²	ʑɛ²po²	airplane	airplane		5.1		0		
+302368	856	Lahu (Yellow)	tsɿ¹~tsɿ¹qhɔ¹	tsɿ¹~tsɿ¹qhɔ¹	market (periodic)	market (periodic)		9.10.6		0		
+302369	856	Lahu (Yellow)	khu³xɔ³kɯ²	khu³xɔ³kɯ²	shop / store	shop / store	n.	9.10.6		0		
+302370	856	Lahu (Yellow)	phv̩¹	phv̩¹	money	money		5.9		0		
+302371	856	Lahu (Yellow)	ɔ²phv̩³~ɔ²ka¹	ɔ²phv̩³~ɔ²ka¹	price	price		5.9		0		p,p,2583,2583,p,p,m,5827
+302372	856	Lahu (Yellow)	phv̩¹khu⁴	phv̩¹khu⁴	bank (for money)	bank (for money)		9.10.2		0		
+302373	856	Lahu (Yellow)	khɔ²	khɔ²	tax	tax		5.9		0		
+302374	856	Lahu (Yellow)	ɣa³phv̩³	ɣa³phv̩³	wages	wages		5.9		0		m,2583
+302375	856	Lahu (Yellow)	thɔ³ɣɤ³~li⁵qu⁶	thɔ³ɣɤ³~li⁵qu⁶	paper	paper		5.1		0		
+302376	856	Lahu (Yellow)	mɯ⁵ta²	mɯ⁵ta²	pen	pen		5.1		0		
+302377	856	Lahu (Yellow)	khɛ⁴ta²	khɛ⁴ta²	pencil	pencil		5.1		0		bChinese
+302378	856	Lahu (Yellow)	mɯ⁵	mɯ⁵	ink cake	ink cake		5.1		0		bChinese
+302379	856	Lahu (Yellow)	mɯ⁵ɣɯ²	mɯ⁵ɣɯ²	ink	ink		5.1		0		bChinese,m
+302380	856	Lahu (Yellow)	li⁵mɛ⁶	li⁵mɛ⁶	word / character	word / character		8.5.10.2		0		
+302381	856	Lahu (Yellow)	pɤ²	pɤ²	phrase	phrase		10.5.1		0		
+302382	856	Lahu (Yellow)	li⁵dɔ¹~li⁵qo⁶	li⁵dɔ¹~li⁵qo⁶	book	book		5.1		0		
+302383	856	Lahu (Yellow)	li⁵	li⁵	letter	letter		5.1		0		
+302384	856	Lahu (Yellow)	qa¹	qa¹	song	song		5.1		0		521
+302385	856	Lahu (Yellow)	qa¹mɯ²khɔ³	qa¹mɯ²khɔ³	folk song	folk song		5.1		0		521,m,m
+302386	856	Lahu (Yellow)	tɔ³lɔ¹	tɔ³lɔ¹	story / tale	story / tale		5.8		0		
+302387	856	Lahu (Yellow)	tɔ³tshɿ⁵	tɔ³tshɿ⁵	riddle	riddle				0		
+302388	856	Lahu (Yellow)	ti⁴ʑi³	ti⁴ʑi³	movie	movie		5.8		0		bChinese
+302389	856	Lahu (Yellow)	bo⁴ɕi⁵	bo⁴ɕi⁵	ball	ball		9.7.1		0		bEnglish
+302390	856	Lahu (Yellow)	thu⁵	thu⁵	flag	flag		5.1		0		
+302391	856	Lahu (Yellow)	sɔ³na⁶	sɔ³na⁶	flute (Turkic)	flute (Turkic)		5.1		0		
+302392	856	Lahu (Yellow)	a¹bɔ¹qu⁵	a¹bɔ¹qu⁵	flute	flute		5.1		0		
+302393	856	Lahu (Yellow)	sɔ⁴tsɿ¹	sɔ⁴tsɿ¹	whistle	whistle	n	8.5.5		0		
+302394	856	Lahu (Yellow)	phɛ²qu⁵~phɛ⁵	phɛ²qu⁵~phɛ⁵	gong	gong		5.1		0		
+302395	856	Lahu (Yellow)	tɕɛ²qu⁵~tɕɛ²	tɕɛ²qu⁵~tɕɛ²	drum	drum		5.1		0		
+302396	856	Lahu (Yellow)	dɤ¹lɤ¹	dɤ¹lɤ¹	bell	bell		5.1		0		
+302397	856	Lahu (Yellow)	ta⁴nɿ¹	ta⁴nɿ¹	swing	swing	n	6.7.4		0		
+302398	856	Lahu (Yellow)	na⁶tshɿ³	na⁶tshɿ³	medicine	medicine		5.4		0		m,5427
+302399	856	Lahu (Yellow)	mɯ⁴	mɯ⁴	thing / matter / event	thing / matter / event		8.1		0		
+302400	856	Lahu (Yellow)	ka⁴	ka⁴	thing / matter / event	thing / matter / event		8.1		0		
+302401	856	Lahu (Yellow)	ka⁴	ka⁴	work	work		6.1.1		0		5827
+302402	856	Lahu (Yellow)	bo¹sa⁴	bo¹sa⁴	good fortune	good fortune		9.6.1.1		0		
+302403	856	Lahu (Yellow)	ɔ²ɕi⁴	ɔ²ɕi⁴	surname	surname		5.8		0		
+302404	856	Lahu (Yellow)	ɔ²tsɤ¹	ɔ²tsɤ¹	name	name		5.8		0		
+302405	856	Lahu (Yellow)	khu³	khu³	thing	thing		8.1		0		
+302406	856	Lahu (Yellow)	ɔ²li³	ɔ²li³	custom	custom		5.8		0		
+302407	856	Lahu (Yellow)	khu⁴	khu⁴	country / nation	country / nation		9.10.3		0		
+302408	856	Lahu (Yellow)	kɔ⁵tsa¹	kɔ⁵tsa¹	country / nation	country / nation		9.10.3		0		bChinese
+302409	856	Lahu (Yellow)	tsɤ⁴fu³	tsɤ⁴fu³	government	government		5.8		0		
+302410	856	Lahu (Yellow)	ku⁴tsha³ta³	ku⁴tsha³ta³	communist party	communist party		4.4		0		
+302411	856	Lahu (Yellow)	ku⁴tɕhi¹thua⁵	ku⁴tɕhi¹thua⁵	communist youth league	communist youth league		4.2.11		0		
+302412	856	Lahu (Yellow)	tshɔ¹ʑa³	tshɔ¹ʑa³	people	people		4.5		0		
+302413	856	Lahu (Yellow)	ka⁴te¹pa⁵kai¹tɕi⁵	ka⁴te¹pa⁵kai¹tɕi⁵	proletariat	proletariat				0		
+302414	856	Lahu (Yellow)	sɤ⁴xue⁴tsu³ʑi⁴	sɤ⁴xue⁴tsu³ʑi⁴	socialism	socialism				0		
+302415	856	Lahu (Yellow)	tsɤ⁴tsɿ⁴	tsɤ⁴tsɿ⁴	politics	politics				0		
+302416	856	Lahu (Yellow)	li⁵mɛ⁶tha³mɛ⁶	li⁵mɛ⁶tha³mɛ⁶	culture	culture				0		
+302417	856	Lahu (Yellow)	ma⁵qha³	ma⁵qha³	education	education				0		
+302418	856	Lahu (Yellow)	kɛ⁵	kɛ⁵	hygiene	hygiene				0		
+302419	856	Lahu (Yellow)	ka⁴te¹kɯ²	ka⁴te¹kɯ²	factory	factory		9.10.6		0		
+302420	856	Lahu (Yellow)	ka⁴te¹qha³	ka⁴te¹qha³	industry	industry		5.11		0		
+302421	856	Lahu (Yellow)	xa¹te¹qha³	xa¹te¹qha³	agriculture	agriculture		3.1.9		0		
+302422	856	Lahu (Yellow)	khɔ¹sɔ⁵	khɔ¹sɔ⁵	science	science		5.8		0		bChinese
+302423	856	Lahu (Yellow)	la⁵mɯ⁶	la⁵mɯ⁶	technology	technology				0		
+302424	856	Lahu (Yellow)	va³	va³	revolution	revolution				0		
+302425	856	Lahu (Yellow)	(mɯ⁶)	(mɯ⁶)	movement (political)	movement (political)				0		
+302426	856	Lahu (Yellow)	ɔ²qha³	ɔ²qha³	policy	policy				0		
+302427	856	Lahu (Yellow)	dɔ³qha³	dɔ³qha³	ideology	ideology				0		
+302428	856	Lahu (Yellow)	dɔ³ɕi⁵	dɔ³ɕi⁵	consciousness	consciousness		1.1.4		0		
+302429	856	Lahu (Yellow)	ʔu⁴ga²	ʔu⁴ga²	report	report		8.5.3		0		
+302430	856	Lahu (Yellow)	ɔ²vɤ²~ɔ²vɛ⁶	ɔ²vɤ²~ɔ²vɛ⁶	duty	duty		8.1		0		
+302431	856	Lahu (Yellow)	ʑɛ²kɯ²	ʑɛ²kɯ²	advantage	advantage		8.1		0		
+302432	856	Lahu (Yellow)	ŋɛ³kɯ²	ŋɛ³kɯ²	drawback	drawback				0		
+302433	856	Lahu (Yellow)	ʑa⁵kɯ²	ʑa⁵kɯ²	error	error		6.2		0		
+302434	856	Lahu (Yellow)	sa²ti⁵	sa²ti⁵	attitude	attitude		8.3		0		
+302435	856	Lahu (Yellow)	ɔ²lai³	ɔ²lai³	experience	experience		8.3		0		
+302436	856	Lahu (Yellow)	ɔ²qha³sɔ²	ɔ²qha³sɔ²	plan	plan	n.	8.3		0		
+302437	856	Lahu (Yellow)	dɔ³qha³	dɔ³qha³	opinion	opinion		8.3.1.12.1		0		
+302438	856	Lahu (Yellow)	li⁵xi³kɯ²	li⁵xi³kɯ²	school	school		5.8		0		
+302439	856	Lahu (Yellow)	tsɤ³	tsɤ³	livestock	livestock		1.1.1.1		0		
+302440	856	Lahu (Yellow)	zu²	zu²	take (in hand)	take (in hand)		6.21		0		
+302441	856	Lahu (Yellow)	tha¹	tha¹	strike with open palm	strike with open palm		6.8		0		676
+302442	856	Lahu (Yellow)	ɕi⁶	ɕi⁶	rub off / scrape	rub off / scrape		8.4		0		
+302443	856	Lahu (Yellow)	tshɿ⁶	tshɿ⁶	grip / hold	grip / hold		6.16		0		
+302444	856	Lahu (Yellow)	sa⁴	sa⁴	pick / pluck	pick / pluck		6.10.4		0		
+302445	856	Lahu (Yellow)	ɣɔ⁵	ɣɔ⁵	twist together	twist together		6.7.6		0		
+302446	856	Lahu (Yellow)	sɿ¹	sɿ¹	tear	tear	v.	1.8.8.1		0		
+302447	856	Lahu (Yellow)	sɿ⁴	sɿ⁴	wring	wring		6.7.6		0		179
+302448	856	Lahu (Yellow)	ɣɔ⁶	ɣɔ⁶	pick up	pick up		6.10.4		0		5430
+302449	856	Lahu (Yellow)	ni⁵	ni⁵	bar / block (e.g. chicken)	bar / block (e.g. chicken)	v.	5.11.9		0		
+302450	856	Lahu (Yellow)	ba²	ba²	throw (away)	throw (away)		6.12		0		5556
+302451	856	Lahu (Yellow)	sɤ²	sɤ²	scatter / broadcast	scatter / broadcast		6.10.3		0		2680
+302452	856	Lahu (Yellow)	ba²	ba²	throw	throw		6.12		0		5556
+302453	856	Lahu (Yellow)	tɕhe¹	tɕhe¹	reach out (hand)	reach out (hand)		6.21		0		
+302454	856	Lahu (Yellow)	ɣɔ²	ɣɔ²	pull	pull		6.2.2.3.1		0		5612
+302455	856	Lahu (Yellow)	phe¹	phe¹	open / unfurl (umbrella)	open / unfurl (umbrella)		6.2.2.6.1		0		
+302456	856	Lahu (Yellow)	tsa⁵	tsa⁵	push	push		6.2.2.3.1		0		5796
+302457	856	Lahu (Yellow)	ɣɔ²	ɣɔ²	drag / haul (thing)	drag / haul (thing)		6.7.10		0		
+302458	856	Lahu (Yellow)	tɕhi³	tɕhi³	raise / lift	raise / lift		6.7.7		0		
+302459	856	Lahu (Yellow)	tsɿ⁶	tsɿ⁶	pull out (e.g. hair)	pull out (e.g. hair)		6.2.2.3.1		0		5620
+302460	856	Lahu (Yellow)	ti⁴	ti⁴	buckle / button up	buckle / button up		5.11.8.2.3		0		
+302461	856	Lahu (Yellow)	ni⁴	ni⁴	pinch	pinch		8.4		0		5525
+302462	856	Lahu (Yellow)	ga⁶	ga⁶	dig out / carve	dig out / carve		6.11		0		
+302463	856	Lahu (Yellow)	tshɿ⁵	tshɿ⁵	dig out / carve	dig out / carve		6.11		0		
+302464	856	Lahu (Yellow)	qɛ⁴	qɛ⁴	draw out / scoop out	draw out / scoop out		9.2		0		
+302465	856	Lahu (Yellow)	tshɿ⁵	tshɿ⁵	pinch off / nip off	pinch off / nip off		9.2.4		0		
+302466	856	Lahu (Yellow)	xi⁶	xi⁶	shake (head)	shake (head)		6.7.9		0		
+302467	856	Lahu (Yellow)	ta⁶	ta⁶	hold in arms	hold in arms		6.16		0		
+302468	856	Lahu (Yellow)	the⁶	the⁶	kick	kick		6.2.2.3.3		0		6706
+302469	856	Lahu (Yellow)	tsu⁴mɯ¹	tsu⁴mɯ¹	squat	squat		6.1.1.4.1		0		
+302470	856	Lahu (Yellow)	ȵia⁶	ȵia⁶	step on / stamp	step on / stamp		6.7.4		0		2134
+302471	856	Lahu (Yellow)	khɯ¹tsɿ⁴tɛ¹	khɯ¹tsɿ⁴tɛ¹	kneel	kneel		1.5.8.4.1		0		
+302472	856	Lahu (Yellow)	ȵia⁶	ȵia⁶	tread	tread	v.	6.7.4		0		2134
+302473	856	Lahu (Yellow)	pɔ⁶	pɔ⁶	jump	jump		6.7.8		0		6707
+302474	856	Lahu (Yellow)	xu⁴	xu⁴	stand	stand		1.5.2		0		145
+302475	856	Lahu (Yellow)	qu³	qu³	straddle	straddle				0		
+302476	856	Lahu (Yellow)	tɕɯ¹	tɕɯ¹	ride (e.g. horse)	ride (e.g. horse)	v.	6.2		0		2237
+302477	856	Lahu (Yellow)	tɕi²	tɕi²	walk	walk		6.7.4		0		
+302478	856	Lahu (Yellow)	tɕi⁴	tɕi⁴	run	run		6.7.4		0		
+302479	856	Lahu (Yellow)	mɯ¹	mɯ¹	sit	sit		6.1.1.4.1		0		3597
+302480	856	Lahu (Yellow)	pv̩³	pv̩³	carry on back	carry on back		6.2.2.2.1		0		
+302481	856	Lahu (Yellow)	lu⁵~lɔ³	lu⁵~lɔ³	go through (a hole)	go through (a hole)		6.7.2		0		
+302482	856	Lahu (Yellow)	kɔ³	kɔ³	fall (down)	fall (down)		6.1.1.4.2		0		
+302483	856	Lahu (Yellow)	ga⁶	ga⁶	crawl	crawl		6.7.9		0		5784
+302484	856	Lahu (Yellow)	ŋɛ¹	ŋɛ¹	lean	lean		1.1.1		0		5816
+302485	856	Lahu (Yellow)	tsɔ²	tsɔ²	dwell / live	dwell / live	v.	6.2		0		
+302486	856	Lahu (Yellow)	xɛ⁵	xɛ⁵	rest	rest	v.	1.1.4.1		0		
+302487	856	Lahu (Yellow)	te¹	te¹	do	do		6.1.1.1		0		552
+302488	856	Lahu (Yellow)	ʔu¹te¹	ʔu¹te¹	repair	repair		6.14		0		
+302489	856	Lahu (Yellow)	dɔ⁶	dɔ⁶	strike / hit	strike / hit		6.8		0		2709
+302490	856	Lahu (Yellow)	dzɤ⁶	dzɤ⁶	move sth. to a new place	move sth. to a new place		6.7.11		0		5410
+302491	856	Lahu (Yellow)	ta⁶	ta⁶	carry on a pole (by two people)	carry on a pole (by two people)		6.2.2.2.1		0		
+302492	856	Lahu (Yellow)	ta⁶	ta⁶	carry with a pole	carry with a pole		6.2.2.2.1		0		
+302493	856	Lahu (Yellow)	ta⁶	ta⁶	carry on shoulder	carry on shoulder		1.4.3.3		0		
+302494	856	Lahu (Yellow)	phɛ⁶	phɛ⁶	tear apart / dismantle	tear apart / dismantle		1.8.8.1		0		5616
+302495	856	Lahu (Yellow)	thɛ⁴	thɛ⁴	plough	plough	v.	5.3		0		
+302496	856	Lahu (Yellow)	xa¹ga⁶	xa¹ga⁶	rake	rake	v.	5.1		0		
+302497	856	Lahu (Yellow)	qa⁵	qa⁵	dig	dig		6.11		0		
+302498	856	Lahu (Yellow)	ti¹	ti¹	plant	plant	v.	3.1.10		0		5672
+302499	856	Lahu (Yellow)	pv̩⁵	pv̩⁵	water / irrigate	water / irrigate	v.	3.2.3		0		
+302500	856	Lahu (Yellow)	lɔ⁶	lɔ⁶	cut (meat)	cut (meat)		6.9.3		0		
+302501	856	Lahu (Yellow)	ɣɯ⁵	ɣɯ⁵	cut (grain)	cut (grain)		6.9.3		0		2615
+302502	856	Lahu (Yellow)	thu¹~tɔ⁶	thu¹~tɔ⁶	chop (tree)	chop (tree)		6.9.3		0		
+302503	856	Lahu (Yellow)	dʑe⁶	dʑe⁶	cut (firewood)	cut (firewood)		6.9.3		0		
+302504	856	Lahu (Yellow)	ɣɔ²	ɣɔ²	pull (out)	pull (out)		6.2.2.3.1		0		5612
+302505	856	Lahu (Yellow)	tsɤ³phɛ³	tsɤ³phɛ³	graze	graze	v.t.			0		
+302506	856	Lahu (Yellow)	ɣa⁵	ɣa⁵	drive away (cattle)	drive away (cattle)		6.7.10		0		
+302507	856	Lahu (Yellow)	tsa⁵	tsa⁵	feed	feed	v.	1.3.5.8		0		
+302508	856	Lahu (Yellow)	ɕɛ¹	ɕɛ¹	lead (animal)	lead (animal)		6.2.2.1		0		5618
+302509	856	Lahu (Yellow)	tshɤ³	tshɤ³	weave	weave		5.1		0		
+302510	856	Lahu (Yellow)	tɛ⁶	tɛ⁶	measure	measure	v.	9.8		0		
+302511	856	Lahu (Yellow)	vɤ²	vɤ²	buy	buy		6.22		0		
+302512	856	Lahu (Yellow)	xɔ³	xɔ³	sell	sell		6.22		0		
+302513	856	Lahu (Yellow)	ɣɔ¹	ɣɔ¹	count	count		6.2.2.2		0		2738
+302514	856	Lahu (Yellow)	sɔ²	sɔ²	calculate	calculate		8.3.1.13.1		0		
+302515	856	Lahu (Yellow)	ma⁵	ma⁵	teach	teach		6.19		0		5703
+302516	856	Lahu (Yellow)	xi³	xi³	learn	learn		8.3.1.12.1		0		
+302517	856	Lahu (Yellow)	bv̩⁵	bv̩⁵	write	write		6.2.2.9.1		0		5407
+302518	856	Lahu (Yellow)	ɕi⁶	ɕi⁶	wipe	wipe		6.2.2.1		0		5594
+302519	856	Lahu (Yellow)	ʔu¹	ʔu¹	correct / change	correct / change		8.3.3.9		0		
+302520	856	Lahu (Yellow)	nɛ⁴	nɛ⁴	paste / glue / stick	paste / glue / stick		5.4		0		5530
+302521	856	Lahu (Yellow)	tsa⁴	tsa⁴	cook / boil	cook / boil		5.5		0		2316
+302522	856	Lahu (Yellow)	te¹	te¹	cook / boil (rice)	cook / boil (rice)		5.5		0		
+302523	856	Lahu (Yellow)	xu¹	xu¹	stir-fry	stir-fry		5.5		0		5684
+302524	856	Lahu (Yellow)	sa⁴	sa⁴	steam	steam	v.	6.6		0		32
+302525	856	Lahu (Yellow)	lɛ²	lɛ²	dry (clothes) near fire	dry (clothes) near fire		6.6		0		2420
+302526	856	Lahu (Yellow)	lɛ²	lɛ²	warm (oneself) near fire	warm (oneself) near fire		7.1.2.3		0		2420
+302527	856	Lahu (Yellow)	tɕɛ¹	tɕɛ¹	burn	burn		3.2.12.1		0		56
+302528	856	Lahu (Yellow)	tu⁴	tu⁴	burn (grass)	burn (grass)	v.t.	3.2.12.1		0		340
+302529	856	Lahu (Yellow)	tu⁵	tu⁵	burn (wildfire)	burn (wildfire)	v.i.	3.2.12.1		0		340
+302530	856	Lahu (Yellow)	dɔ⁶	dɔ⁶	kill	kill		6.4		0		
+302531	856	Lahu (Yellow)	ɣɛ⁷	ɣɛ⁷	cut (vegetables)	cut (vegetables)		6.9.3		0		2615
+302532	856	Lahu (Yellow)	pɤ⁶	pɤ⁶	mince (meat) with knife	mince (meat) with knife		6.9.4		0		
+302533	856	Lahu (Yellow)	kɔ⁶	kɔ⁶	scrape	scrape		6.3		0		
+302534	856	Lahu (Yellow)	ȵiu⁶	ȵiu⁶	cut / clip / trim	cut / clip / trim		6.9.3		0		
+302535	856	Lahu (Yellow)	fi¹	fi¹	sew	sew		5.1		0		
+302536	856	Lahu (Yellow)	ku¹	ku¹	prick	prick		8.4		0		
+302537	856	Lahu (Yellow)	qhɔ⁵	qhɔ⁵	insert / stick into	insert / stick into		6.2		0		
+302538	856	Lahu (Yellow)	sɤ²	sɤ²	sharpen (knife)	sharpen (knife)		6.9.2		0		2674
+302539	856	Lahu (Yellow)	mɔ⁴	mɔ⁴	grind (rice)	grind (rice)		9.5		0		bChinese
+302540	856	Lahu (Yellow)	xa¹	xa¹	winnow	winnow		3.1.10		0		
+302541	856	Lahu (Yellow)	ni⁴	ni⁴	scoop	scoop		6.11		0		
+302542	856	Lahu (Yellow)	vɤ⁵	vɤ⁵	put on / wear	put on / wear		6.17		0		2779
+302543	856	Lahu (Yellow)	qhɔ⁶	qhɔ⁶	put on (hat)	put on (hat)		6.17		0		
+302544	856	Lahu (Yellow)	pv̩³	pv̩³	bring (thing)	bring (thing)		6.2.2.2.2		0		
+302545	856	Lahu (Yellow)	tshɿ³	tshɿ³	wash (clothes)	wash (clothes)		6.2.2.5.2		0		5647
+302546	856	Lahu (Yellow)	tshɿ³	tshɿ³	wash (hand)	wash (hand)		6.2.2.5.2		0		5647
+302547	856	Lahu (Yellow)	tshɿ³	tshɿ³	bathe	bathe		6.6		0		
+302548	856	Lahu (Yellow)	tɕhe³	tɕhe³	shave	shave		6.9.2		0		
+302549	856	Lahu (Yellow)	xɔ¹	xɔ¹	dye	dye	v.	5.1		0		
+302550	856	Lahu (Yellow)	nɛ⁴	nɛ⁴	patch	patch		5.1		0		
+302551	856	Lahu (Yellow)	pɤ²	pɤ²	comb	comb	v.	1.2.2.1		0		1220
+302552	856	Lahu (Yellow)	phe³	phe³	braid	braid	v.	1.2.3.2		0		2018
+302553	856	Lahu (Yellow)	ɕi⁶	ɕi⁶	sweep	sweep		6.2.2.5.3		0		5594
+302554	856	Lahu (Yellow)	phɔ¹	phɔ¹	open (door)	open (door)		6.2.2.6.1		0		5704
+302555	856	Lahu (Yellow)	ve⁶	ve⁶	bloom	bloom		3.1.10		0		2185
+302556	856	Lahu (Yellow)	xu⁶	xu⁶	close (door)	close (door)		6.2.2.6.2		0		
+302557	856	Lahu (Yellow)	le²	le²	uncover (pot)	uncover (pot)		6.2.2.1		0		
+302558	856	Lahu (Yellow)	tɛ⁶	tɛ⁶	put / place	put / place		6.17		0		2682
+302559	856	Lahu (Yellow)	qu⁴	qu⁴	hang	hang		6.1.1.5		0		
+302560	856	Lahu (Yellow)	phɯ¹	phɯ¹	untie	untie		6.13.1		0		5646
+302561	856	Lahu (Yellow)	phɛ³	phɛ³	release	release		6.10.1		0		
+302562	856	Lahu (Yellow)	thi⁶	thi⁶	wrap	wrap		6.2.2.1		0		5440
+302563	856	Lahu (Yellow)	tshɿ⁵	tshɿ⁵	tie into a bundle	tie into a bundle	v.	6.13.1		0		180
+302564	856	Lahu (Yellow)	kɤ¹	kɤ¹	insert	insert		6.2		0		
+302565	856	Lahu (Yellow)	tshɿ³	tshɿ³	stuff (hole) up	stuff (hole) up		9.5		0		
+302566	856	Lahu (Yellow)	tu²	tu²	bury (something)	bury (something)		6.11		0		
+302567	856	Lahu (Yellow)	fa⁴	fa⁴	hide	hide		1.6.5.1		0		
+302568	856	Lahu (Yellow)	lɤ⁶	lɤ⁶	pick / select	pick / select		6.10.4		0		
+302569	856	Lahu (Yellow)	phu⁶	phu⁶	pile up	pile up		6.2.2.1		0		
+302570	856	Lahu (Yellow)	ti⁵	ti⁵	hammer (nail in)	hammer (nail in)	v.	5.11.5.4		0		
+302571	856	Lahu (Yellow)	tu⁴	tu⁴	light (fire)	light (fire)	v.t.	7.1.11.1		0		340
+302572	856	Lahu (Yellow)	zu²	zu²	want	want		8.3.1.14.3		0		
+302573	856	Lahu (Yellow)	ɣa¹	ɣa¹	get	get		1.1.5		0		5677
+302574	856	Lahu (Yellow)	su¹	su¹	take back	take back		6.21		0		
+302575	856	Lahu (Yellow)	mɛ⁴	mɛ⁴	lose / misplace	lose / misplace		6.10.1		0		31
+302576	856	Lahu (Yellow)	tsa¹	tsa¹	search	search		6.2.2.2		0		5799
+302577	856	Lahu (Yellow)	ʑɛ³	ʑɛ³	use	use		6.2.2.7.1		0		5574
+302578	856	Lahu (Yellow)	gɯ³	gɯ³	play	play		6.1.1.3		0		
+302579	856	Lahu (Yellow)	ɣa³	ɣa³	win	win		6.19		0		5677
+302580	856	Lahu (Yellow)	ɕɛ⁴	ɕɛ⁴	lose (a game)	lose (a game)		6.10.1		0		
+302581	856	Lahu (Yellow)	qa¹mɯ²	qa¹mɯ²	sing	sing		5.1		0		521,m
+302582	856	Lahu (Yellow)	qa¹qhe¹	qa¹qhe¹	dance	dance		6.7.9		0		521,6705
+302583	856	Lahu (Yellow)	sa⁵bɔ⁶~sa⁵ɣa⁵	sa⁵bɔ⁶~sa⁵ɣa⁵	hunt	hunt		6.2.2.1		0		
+302584	856	Lahu (Yellow)	tsɔ¹~tsɔ¹xu⁶	tsɔ¹~tsɔ¹xu⁶	surround	surround		6.2.2.2		0		
+302585	856	Lahu (Yellow)	bɔ⁶	bɔ⁶	shoot	shoot		6.2.2.1		0		5411
+302586	856	Lahu (Yellow)	ʑɔ¹	ʑɔ¹	hit (target)	hit (target)		6.8		0		
+302587	856	Lahu (Yellow)	xɔ⁵	xɔ⁵	correct	correct		8.3.3.9		0		
+302588	856	Lahu (Yellow)	pɤ²	pɤ²	finish	finish		9.5		0		
+302589	856	Lahu (Yellow)	gɛ¹	gɛ¹	together	together		10.1.1		0		
+302590	856	Lahu (Yellow)	na¹	na¹	ask / inquire	ask / inquire		8.5.7.1		0		
+302591	856	Lahu (Yellow)	qhɔ⁵	qhɔ⁵	answer	answer		8.5.6		0		
+302592	856	Lahu (Yellow)	ŋa⁵	ŋa⁵	borrow / lend (money)	borrow / lend (money)		6.22		0		2541
+302593	856	Lahu (Yellow)	ɕɛ²	ɕɛ²	return (money)	return (money)		6.2.2.1		0		
+302594	856	Lahu (Yellow)	pi³	pi³	provide	provide		6.2		0		
+302595	856	Lahu (Yellow)	sɤ²qu²	sɤ²qu²	give / send / deliver	give / send / deliver		6.23		0		
+302596	856	Lahu (Yellow)	zu²	zu²	marry (of women)	marry (of women)		6.19		0		
+302597	856	Lahu (Yellow)	zu²	zu²	marry (of men)	marry (of men)		6.19		0		
+302598	856	Lahu (Yellow)	qhɔ⁵tsa³	qhɔ⁵tsa³	celebrate New Year	celebrate New Year		8.3.1.5.1		0		2252,m
+302599	856	Lahu (Yellow)	ʔu⁴ma⁵	ʔu⁴ma⁵	tell	tell		1.8.7		0		
+302600	856	Lahu (Yellow)	ga¹	ga¹	help	help		6.2.2.1		0		5772
+302601	856	Lahu (Yellow)	ga¹	ga¹	save / rescue	save / rescue		6.2.2.1		0		
+302602	856	Lahu (Yellow)	u¹	u¹	treat / cure	treat / cure		5.8		0		
+302603	856	Lahu (Yellow)	pɛ²	pɛ²	divide	divide		6.10.4		0		
+302604	856	Lahu (Yellow)	tsha¹	tsha¹	owe	owe		6.22		0		
+302605	856	Lahu (Yellow)	qhɔ⁵~ɕɛ²	qhɔ⁵~ɕɛ²	pay indemnity to	pay indemnity to		6.22		0		
+302606	856	Lahu (Yellow)	lɔ¹	lɔ¹	wait	wait		6.1.1.6		0		5577
+302607	856	Lahu (Yellow)	phv̩³	phv̩³	encounter	encounter	v.	6.13.4		0		
+302608	856	Lahu (Yellow)	mɔ²da⁵	mɔ²da⁵	meet	meet		6.2		0		
+302609	856	Lahu (Yellow)	de³	de³	scold	scold		8.5.1		0		
+302610	856	Lahu (Yellow)	dɔ⁶da⁵	dɔ⁶da⁵	fight	fight		6.5		0		
+302611	856	Lahu (Yellow)	dɔ⁶	dɔ⁶	hit / beat	hit / beat		6.8		0		2709
+302612	856	Lahu (Yellow)	phɔ¹	phɔ¹	escape	escape		6.7.2		0		2563
+302613	856	Lahu (Yellow)	ɣa⁵	ɣa⁵	chase / run after	chase / run after		6.7.10		0		
+302614	856	Lahu (Yellow)	ɣa⁵	ɣa⁵	drive (as animals)	drive  (as animals)		6.7.10		0		
+302615	856	Lahu (Yellow)	xu⁴	xu⁴	go to market	go to market		6.7.2		0		
+302616	856	Lahu (Yellow)	lu¹	lu¹	rob	rob		6.2.2.1		0		
+302617	856	Lahu (Yellow)	pha⁵phɛ⁴~pha⁵tsa³phɛ⁴tsa³	pha⁵phɛ⁴~pha⁵tsa³phɛ⁴tsa³	exploit	exploit				0		
+302618	856	Lahu (Yellow)	qhɔ³	qhɔ³	steal	steal		6.2.2.1		0		2365
+302619	856	Lahu (Yellow)	xe⁵	xe⁵	cheat / swindle	cheat / swindle		6.19		0		
+302620	856	Lahu (Yellow)	xa⁵	xa⁵	love	love		8.3.1.1.1		0		
+302621	856	Lahu (Yellow)	ga³	ga³	like	like		8.3.1.1.1		0		1646
+302622	856	Lahu (Yellow)	ta²	ta²	believe	believe		8.3.1.12.1		0		
+302623	856	Lahu (Yellow)	ɕi⁵	ɕi⁵	know	know		8.3.1.12.1		0		
+302624	856	Lahu (Yellow)	ɕi⁵	ɕi⁵	understand	understand		8.3.1.13.1		0		
+302625	856	Lahu (Yellow)	ku³	ku³	guess	guess		8.3.1.12.1		0		
+302626	856	Lahu (Yellow)	tsɤ⁴ɣa¹	tsɤ⁴ɣa¹	remember	remember		8.3.1.16.1		0		
+302627	856	Lahu (Yellow)	lɤ³	lɤ³	forget	forget		8.3.1.16.1		0		
+302628	856	Lahu (Yellow)	dɔ³	dɔ³	think	think		8.3.1.13.1		0		5801
+302629	856	Lahu (Yellow)	ȵi¹zɿ⁶~dɤ⁵	ȵi¹zɿ⁶~dɤ⁵	angry	angry		8.3.1.6.1		0		
+302630	856	Lahu (Yellow)	bɤ⁵	bɤ⁵	hate	hate		8.3.1.1.2		0		
+302631	856	Lahu (Yellow)	kɯ⁶	kɯ⁶	fear	fear		8.3.1.10.1		0		2249
+302632	856	Lahu (Yellow)	ʑa⁵tɔ¹	ʑa⁵tɔ¹	ashamed	ashamed		8.3.3.8.2		0		380,5763
+302633	856	Lahu (Yellow)	dɔ³xa²	dɔ³xa²	worry	worry		8.3.1.7.2		0		
+302634	856	Lahu (Yellow)	xɤ²	xɤ²	tired	tired		9.6.2.2		0		
+302635	856	Lahu (Yellow)	xa²qa⁴	xa²qa⁴	pity	pity		8.3.2.3.2		0		
+302636	856	Lahu (Yellow)	pɤ²	pɤ²	dare	dare				0		
+302637	856	Lahu (Yellow)	pɯ⁴	pɯ⁴	know / can / be able to	know / can / be able to		8.3.1.12.1		0		
+302638	856	Lahu (Yellow)	xe⁶	xe⁶	be / copula	be / copula		10.4.1.1		0		
+302639	856	Lahu (Yellow)	a¹xe⁶	a¹xe⁶	NEG+copula	NEG+copula		10.6.2		0		2436,m
+302640	856	Lahu (Yellow)	tsɔ²	tsɔ²	have	have		8.2		0		282
+302641	856	Lahu (Yellow)	a³tsɔ²	a³tsɔ²	NEG+have	NEG+have		10.6.2		0		2436,282
+302642	856	Lahu (Yellow)	la⁵	la⁵	come	come		6.7.1		0		3569
+302643	856	Lahu (Yellow)	tɕi²	tɕi²	go	go		6.7.2		0		
+302644	856	Lahu (Yellow)	qɔ²la⁵	qɔ²la⁵	return / go back	return / go back		6.2.2.1		0		
+302645	856	Lahu (Yellow)	ga²	ga²	arrive	arrive		6.7.1		0		3383
+302646	856	Lahu (Yellow)	pha⁵	pha⁵	cross (river)	cross (river)		6.7.10		0		
+302647	856	Lahu (Yellow)	pha⁵xɤ⁵	pha⁵xɤ⁵	pass by	pass by		6.7.10		0		
+302648	856	Lahu (Yellow)	tsɔ³	tsɔ³	should / ought to	should / ought to		10.1.1		0		5790
+302649	856	Lahu (Yellow)	ta²	ta²	wish / want	wish / want		8.3.1.14.3		0		
+302650	856	Lahu (Yellow)	phɛ⁵	phɛ⁵	can / be able to	can / be able to		10.2.2		0		1820
+302651	856	Lahu (Yellow)	ta⁶	ta⁶	ascend	ascend		6.7.7		0		1722
+302652	856	Lahu (Yellow)	ʑa⁵	ʑa⁵	descend	descend		6.7.8		0		2804
+302653	856	Lahu (Yellow)	tɔ⁶gɤ⁵	tɔ⁶gɤ⁵	exit	exit		6.7.2		0		2718
+302654	856	Lahu (Yellow)	lu⁵la¹	lu⁵la¹	enter	enter		6.7.1		0		5783,m
+302655	856	Lahu (Yellow)	qɔ⁵	qɔ⁵	retreat	retreat		6.7.2		0		
+302656	856	Lahu (Yellow)	tsɔ²	tsɔ²	exist / be present	exist / be present		1.1.2.3		0		
+302657	856	Lahu (Yellow)	xu⁴	xu⁴	dry / bask in the sun	dry / bask in the sun		6.6		0		3515
+302658	856	Lahu (Yellow)	(mv̩³ʑi²)la²	(mv̩³ʑi²)la²	rain	rain	v.	3.2.1		0		2473,2080
+302659	856	Lahu (Yellow)	(mv̩³xɔ¹)xɔ¹~mɯ⁶	(mv̩³xɔ¹)xɔ¹~mɯ⁶	blow (of wind)	blow (of wind)		1.3.1.4		0		2473,2412,2412,m
+302660	856	Lahu (Yellow)	mv̩³pɛ⁵pɛ⁵	mv̩³pɛ⁵pɛ⁵	flash (of lightning)	flash (of lightning)		3.2.12.2		0		
+302661	856	Lahu (Yellow)	mv̩³thɛ⁶thɛ⁶	mv̩³thɛ⁶thɛ⁶	thunder	thunder	v.	3.2.1		0		2473,5558,5558
+302662	856	Lahu (Yellow)	zɿ²	zɿ²	flow	flow		6.6.1		0		
+302663	856	Lahu (Yellow)	qa¹	qa¹	flood / submerge	flood / submerge		3.2.3		0		
+302664	856	Lahu (Yellow)	bi³	bi³	overflow	overflow		6.6		0		
+302665	856	Lahu (Yellow)	ba³	ba³	float	float		6.6.1		0		
+302666	856	Lahu (Yellow)	bɤ²	bɤ²	sink	sink		6.6		0		
+302667	856	Lahu (Yellow)	pe⁵	pe⁵	crack	crack	v.	3.2.7		0		
+302668	856	Lahu (Yellow)	pa⁶	pa⁶	collapse	collapse		9.5		0		5615
+302669	856	Lahu (Yellow)	qhɛ²	qhɛ²	chipped	chipped		3.2.7		0		
+302670	856	Lahu (Yellow)	pv̩¹	pv̩¹	roll (e.g.rock)	roll (e.g.rock)		6.7.6		0		
+302671	856	Lahu (Yellow)	tsɔ¹	tsɔ¹	rotate / spin	rotate / spin		6.7.6		0		5682
+302672	856	Lahu (Yellow)	tɕhe¹	tɕhe¹	drop / fall	drop / fall		6.16		0		
+302673	856	Lahu (Yellow)	tɕhe⁶	tɕhe⁶	break (of rope etc.)	break (of rope etc.)	v.i.	9.5		0		
+302674	856	Lahu (Yellow)	khu³	khu³	break	break		9.5		0		
+302675	856	Lahu (Yellow)	ti⁶	ti⁶	soak / immerse	soak / immerse		6.6		0		298
+302676	856	Lahu (Yellow)	dʑa⁶	dʑa⁶	leak	leak		6.6		0		
+302677	856	Lahu (Yellow)	dʑa⁶	dʑa⁶	drip	drip		6.6		0		557
+302678	856	Lahu (Yellow)	bɤ²	bɤ²	boil	boil	v.i.	6.6		0		
+302679	856	Lahu (Yellow)	phɛ⁵	phɛ⁵	become	become		9.5		0		
+302680	856	Lahu (Yellow)	xe⁵	xe⁵	shed (skin) / molt	shed (skin) / molt	v	5.11.9.1		0		
+302681	856	Lahu (Yellow)	ta⁶	ta⁶	carry on the back	carry on the back		6.2.2.2.1		0		
+302682	856	Lahu (Yellow)	ʑi² (ɔ²ʑi²ʑi²)	ʑi² (ɔ²ʑi²ʑi²)	bud	bud	v.	3.1.4		0		
+302683	856	Lahu (Yellow)	ve⁶ (ɔ²ve⁶ve⁶)	ve⁶ (ɔ²ve⁶ve⁶)	bloom (flower)	bloom (flower)	v.	3.1.10		0		2185,m,2185,2185
+302684	856	Lahu (Yellow)	ȵiɔ⁵	ȵiɔ⁵	bear fruit	bear fruit		2.2.3		0		
+302685	856	Lahu (Yellow)	phɯ³	phɯ³	wither	wither		3.1.10		0		
+302686	856	Lahu (Yellow)	kɯ³	kɯ³	rot / spoil	rot / spoil		3.1.10		0		
+302687	856	Lahu (Yellow)	bv̩⁵	bv̩⁵	mildew	mildew		3.1.7		0		
+302688	856	Lahu (Yellow)	mɯ²va³	mɯ²va³	produce / manufacture	produce / manufacture		6.14		0		
+302689	856	Lahu (Yellow)	khɯ²va³	khɯ²va³	build / construct	build / construct		6.14		0		
+302690	856	Lahu (Yellow)	khɯ⁵	khɯ⁵	develop	develop		9.5		0		
+302691	856	Lahu (Yellow)	tɕhi³mv̩¹	tɕhi³mv̩¹	raise	raise		6.7.7		0		
+302692	856	Lahu (Yellow)	ɔ²pho⁶ɔ²di²	ɔ²pho⁶ɔ²di²	unite	unite		6.13.5		0		
+302693	856	Lahu (Yellow)	sa²da⁵	sa²da⁵	hold meeting	hold meeting		6.16		0		
+302694	856	Lahu (Yellow)	dʑe²da⁵	dʑe²da⁵	discuss	discuss				0		
+302695	856	Lahu (Yellow)	lɤ⁶	lɤ⁶	select	select		6.10.4		0		
+302696	856	Lahu (Yellow)	sɤ⁵ma⁵	sɤ⁵ma⁵	lead	lead	v.	6.2.2.1		0		5618,m
+302697	856	Lahu (Yellow)	dʑe²	dʑe²	mobilize / arouse	mobilize / arouse		1.1.4		0		
+302698	856	Lahu (Yellow)	ʔu⁴ma⁵	ʔu⁴ma⁵	propogate (propaganda)	propogate (propaganda)				0		
+302699	856	Lahu (Yellow)	tsɔ¹	tsɔ¹	support / endorse	support / endorse		6.16		0		
+302700	856	Lahu (Yellow)	lɔ¹	lɔ¹	praise / commend	praise / commend		8.5.2.2		0		
+302701	856	Lahu (Yellow)	vɤ²phɯ¹	vɤ²phɯ¹	liberate / emancipate	liberate / emancipate		6.19		0		
+302702	856	Lahu (Yellow)	ɣa³	ɣa³	triumph / win	triumph / win		6.19		0		5677
+302703	856	Lahu (Yellow)	so³	so³	defeated / lose (a war etc.)	defeated / lose (a war etc.)		6.5		0		
+302704	856	Lahu (Yellow)	be⁶ma⁵	be⁶ma⁵	criticize	criticize		8.5.2.1		0		
+302705	856	Lahu (Yellow)	phv̩⁶ŋɔ⁴	phv̩⁶ŋɔ⁴	inspect / examine	inspect / examine		6.2		0		
+302706	856	Lahu (Yellow)	a³tsɔ¹	a³tsɔ¹	oppose	oppose		6.5		0		
+302707	856	Lahu (Yellow)	xɛ⁶	xɛ⁶	struggle / fight	struggle / fight		6.5		0		
+302708	856	Lahu (Yellow)	ʑa⁵	ʑa⁵	invade	invade		6.5		0		
+302709	856	Lahu (Yellow)	ɯ²	ɯ²	big	big		9.7.2		0		
+302710	856	Lahu (Yellow)	i¹	i¹	small	small		9.7.2		0		2806
+302711	856	Lahu (Yellow)	mv̩¹	mv̩¹	high	high		7.1.5.3		0		2597
+302712	856	Lahu (Yellow)	nɛ²	nɛ²	short (height)	short (height)		9.7.2		0		
+302713	856	Lahu (Yellow)	nɛ²	nɛ²	low	low		7.1.5.3		0		
+302714	856	Lahu (Yellow)	na⁴	na⁴	deep	deep		7.1.5.3		0		6130
+302715	856	Lahu (Yellow)	pa³	pa³	shallow	shallow		7.1.5.3		0		
+302716	856	Lahu (Yellow)	tɕhe¹	tɕhe¹	pointed	pointed		6.2.2.2		0		
+302717	856	Lahu (Yellow)	ɣɔ¹	ɣɔ¹	round	round		9.7.1		0		
+302718	856	Lahu (Yellow)	fa¹	fa¹	square	square		9.7.1		0		
+302719	856	Lahu (Yellow)	ʑɛ²	ʑɛ²	long	long		9.7.2		0		1011
+302720	856	Lahu (Yellow)	ŋɛ¹	ŋɛ¹	short (length)	short (length)		9.7.2		0		7175
+302721	856	Lahu (Yellow)	ɯ²	ɯ²	thick (diameter)	thick (diameter)		9.7.2		0		
+302722	856	Lahu (Yellow)	i¹	i¹	thin (slender)	thin (slender)		9.7.2		0		
+302723	856	Lahu (Yellow)	tho¹	tho¹	thick	thick		9.7.2		0		183
+302724	856	Lahu (Yellow)	pa³	pa³	thin	thin		9.7.2		0		5551
+302725	856	Lahu (Yellow)	qɔ²	qɔ²	wide	wide		9.7.2		0		
+302726	856	Lahu (Yellow)	dʑɛ³	dʑɛ³	narrow	narrow		9.7.2		0		7169
+302727	856	Lahu (Yellow)	vɤ³	vɤ³	far	far		9.2.4		0		622
+302728	856	Lahu (Yellow)	pa³	pa³	near	near		9.2.3		0		5723
+302729	856	Lahu (Yellow)	mɛ³	mɛ³	many / much	many / much		9.9		0		3372
+302730	856	Lahu (Yellow)	mɛ⁴	mɛ⁴	little / few	little / few		9.7.2		0		
+302731	856	Lahu (Yellow)	thɛ³	thɛ³	straight	straight		7.1.5.1		0		
+302732	856	Lahu (Yellow)	qɔ⁵	qɔ⁵	crooked	crooked		9.7.2		0		
+302733	856	Lahu (Yellow)	ta⁵	ta⁵	horizontal	horizontal		7.1.5.4		0		
+302734	856	Lahu (Yellow)	tsɔ²	tsɔ²	upright	upright		7.1.5.3		0		
+302735	856	Lahu (Yellow)	tɔ²	tɔ²	flat / level (land)	flat / level (land)		7.1.5.1		0		
+302736	856	Lahu (Yellow)	pa⁴	pa⁴	steep	steep		7.1.5.3		0		
+302737	856	Lahu (Yellow)	le⁶	le⁶	slippery / smooth	slippery / smooth		7.1.4.2		0		2425
+302738	856	Lahu (Yellow)	the³	the³	right / just / upright	right / just / upright		1.5.3.2		0		
+302739	856	Lahu (Yellow)	phv̩⁶	phv̩⁶	reverse	reverse		6.2.2.1		0		
+302740	856	Lahu (Yellow)	bɛ⁵	bɛ⁵	slanting / not upright	slanting / not upright		7.1.5.1		0		
+302741	856	Lahu (Yellow)	lɔ²	lɔ²	light	light	adj	7.1.11.1		0		
+302742	856	Lahu (Yellow)	na²na¹	na²na¹	heavy	heavy		9.6.2		0		bThai
+302743	856	Lahu (Yellow)	xɛ¹	xɛ¹	hard	hard		9.6.2		0		
+302744	856	Lahu (Yellow)	nu³	nu³	soft	soft		7.1.4.2		0		2510
+302745	856	Lahu (Yellow)	lɛ⁴	lɛ⁴	tough / resilient	tough / resilient		1.1.5		0		
+302746	856	Lahu (Yellow)	ba¹~pɔ³	ba¹~pɔ³	bright	bright		7.1.11.1		0		5517,m
+302747	856	Lahu (Yellow)	tu⁵	tu⁵	dark	dark		9.4		0		
+302748	856	Lahu (Yellow)	pɔ³	pɔ³	sunny	sunny		3.2.10		0		
+302749	856	Lahu (Yellow)	na⁶	na⁶	cloudy	cloudy		3.2.2		0		
+302750	856	Lahu (Yellow)	qu³	qu³	dry	dry		6.6		0		
+302751	856	Lahu (Yellow)	lu⁴	lu⁴	waterlogged	waterlogged				0		
+302752	856	Lahu (Yellow)	ni¹	ni¹	red	red		9.4		0		2499
+302753	856	Lahu (Yellow)	sɯ¹	sɯ¹	yellow	yellow		9.4		0		
+302754	856	Lahu (Yellow)	nɿ¹	nɿ¹	blue	blue		9.4		0		2531
+302755	856	Lahu (Yellow)	phv̩¹	phv̩¹	white	white		9.4		0		1235
+302756	856	Lahu (Yellow)	na⁶	na⁶	black	black		9.4		0		2483
+302757	856	Lahu (Yellow)	nɿ¹	nɿ¹	green	green		9.4		0		
+302758	856	Lahu (Yellow)	ga⁵	ga⁵	multicolored	multicolored		9.4		0		
+302759	856	Lahu (Yellow)	nɛ⁶	nɛ⁶	thick (liquid)	thick (liquid)		9.7.2		0		
+302760	856	Lahu (Yellow)	xuɛ²	xuɛ²	thin (watery)	thin (watery)		9.7.2		0		
+302761	856	Lahu (Yellow)	bi³	bi³	full	full		1.1.3.2		0		134
+302762	856	Lahu (Yellow)	da⁵	da⁵	beautiful	beautiful		7.1.3		0		2722
+302763	856	Lahu (Yellow)	tsha⁵	tsha⁵	ugly	ugly		7.1.3		0		
+302764	856	Lahu (Yellow)	kɛ²	kɛ²	clean	clean		6.2.2.5.2		0		
+302765	856	Lahu (Yellow)	tsha⁵	tsha⁵	dirty	dirty		3.2.11		0		
+302766	856	Lahu (Yellow)	mɔ³	mɔ³	old (people)	old (people)		7.1.8.3		0		2440
+302767	856	Lahu (Yellow)	kɛ⁴	kɛ⁴	old (food)	old (food)		7.1.8.3		0		
+302768	856	Lahu (Yellow)	nɛ²~nu³	nɛ²~nu³	young	young		7.1.8.3		0		
+302769	856	Lahu (Yellow)	nu³	nu³	tender	tender		7.1.4.2		0		
+302770	856	Lahu (Yellow)	da⁵	da⁵	good	good		9.6.1.1		0		2722
+302771	856	Lahu (Yellow)	thɤ²	thɤ²	bad	bad		9.6.2.1		0		
+302772	856	Lahu (Yellow)	gɛ²	gɛ²	fast	fast		9.6.1.1		0		
+302773	856	Lahu (Yellow)	dʑo¹	dʑo¹	slow	slow		9.6.2.1		0		
+302774	856	Lahu (Yellow)	vi¹	vi¹	dry	dry		6.6		0		3298
+302775	856	Lahu (Yellow)	bɛ⁶	bɛ⁶	wet	wet		6.6		0		
+302776	856	Lahu (Yellow)	sɿ⁴	sɿ⁴	new	new		9.6.1.1		0		6178
+302777	856	Lahu (Yellow)	pi²	pi²	old (thing)	old (thing)		7.1.8.3		0		7185
+302778	856	Lahu (Yellow)	tɕɛ³	tɕɛ³	raw	raw		7.1.8.3		0		1005
+302779	856	Lahu (Yellow)	mɛ¹	mɛ¹	cooked	cooked		5.5		0		
+302780	856	Lahu (Yellow)	tsɿ⁶~tha⁶	tsɿ⁶~tha⁶	sharp	sharp		6.9.2		0		m,5515
+302781	856	Lahu (Yellow)	thv̩²	thv̩²	blunt	blunt		7.1.5.1		0		
+302782	856	Lahu (Yellow)	na⁵	na⁵	early	early		9.1.1		0		6227
+302783	856	Lahu (Yellow)	lɛ¹	lɛ¹	late	late		9.1.1		0		6231
+302784	856	Lahu (Yellow)	tɕɛ²	tɕɛ²	true	true		9.6.1.1		0		bChinese
+302785	856	Lahu (Yellow)	xe²	xe²	false	false		9.6.2.1		0		
+302786	856	Lahu (Yellow)	qha⁶	qha⁶	expensive	expensive		5.9		0		5472
+302787	856	Lahu (Yellow)	thu⁴	thu⁴	cheap	cheap		5.9		0		
+302788	856	Lahu (Yellow)	sa¹	sa¹	easy	easy		9.6.1.1		0		156
+302789	856	Lahu (Yellow)	xa⁵	xa⁵	difficult	difficult		9.6.2		0		174
+302790	856	Lahu (Yellow)	phu⁵	phu⁵	loose / lax	loose / lax		6.13.1		0		
+302791	856	Lahu (Yellow)	ki³	ki³	tight	tight		7.1.5.1		0		
+302792	856	Lahu (Yellow)	xɔ¹	xɔ¹	hot	hot				0		
+302793	856	Lahu (Yellow)	ka⁶	ka⁶	cold	cold		7.1.2.3		0		443a
+302794	856	Lahu (Yellow)	lɛ²	lɛ²	warm	warm		7.1.2.3		0		2420
+302795	856	Lahu (Yellow)	nu³	nu³	cool	cool		7.1.2.3		0		
+302796	856	Lahu (Yellow)	tɕe¹	tɕe¹	sour	sour		7.1.4.4		0		7205
+302797	856	Lahu (Yellow)	tshɿ¹	tshɿ¹	sweet	sweet		7.1.4.4		0		2380
+302798	856	Lahu (Yellow)	qha³	qha³	bitter	bitter		7.1.4.4		0		229
+302799	856	Lahu (Yellow)	phɛ¹	phɛ¹	hot (spicy)	hot (spicy)				0		
+302800	856	Lahu (Yellow)	qha³	qha³	salty	salty		3.2.4		0		
+302801	856	Lahu (Yellow)	pa³	pa³	bland (flavor)	bland (flavor)		7.1.4.4		0		
+302802	856	Lahu (Yellow)	na⁴	na⁴	strong (taste)	strong (taste)		9.6.1.1		0		
+302803	856	Lahu (Yellow)	xɔ⁴	xɔ⁴	fragrant	fragrant		3.1.10		0		
+302804	856	Lahu (Yellow)	nu⁷	nu⁷	stinky	stinky		7.1.4.5		0		
+302805	856	Lahu (Yellow)	tshɿ³nu⁷	tshɿ³nu⁷	fishy	fishy		2.2.5		0		
+302806	856	Lahu (Yellow)	le⁶	le⁶	intelligent	intelligent		8.3.1.13.1		0		
+302807	856	Lahu (Yellow)	qa²	qa²	stupid	stupid		8.3		0		
+302808	856	Lahu (Yellow)	lɔ²	lɔ²	diligent	diligent		9.6.1.2		0		
+302809	856	Lahu (Yellow)	bɔ²	bɔ²	lazy	lazy		9.6.2.2		0		
+302810	856	Lahu (Yellow)	xa¹lɛ²	xa¹lɛ²	glad	glad		8.3.1.5.1		0		
+302811	856	Lahu (Yellow)	xa⁵	xa⁵	poor	poor		9.6.2.2		0		174
+302812	856	Lahu (Yellow)	phɛ⁵~khɯ⁵	phɛ⁵~khɯ⁵	rich	rich		5.9		0		
+302813	856	Lahu (Yellow)	ba¹	ba¹	bright / promising	bright / promising		7.1.11.1		0		5517
+302814	856	Lahu (Yellow)	mɛ⁶so⁵	mɛ⁶so⁵	honour / glory	honour / glory		9.6.1		0		
+302815	856	Lahu (Yellow)	ɯ²mv̩¹	ɯ²mv̩¹	great / mighty	great / mighty		9.6.1		0		
+302816	856	Lahu (Yellow)	the³	the³	correct / proper	correct / proper		8.3.3.9		0		
+302817	856	Lahu (Yellow)	sa¹	sa¹	fortunate	fortunate				0		
+302818	856	Lahu (Yellow)	tsa⁵	tsa⁵	brave / courageous	brave / courageous				0		
+302819	856	Lahu (Yellow)	gɛ⁵	gɛ⁵	active / vigorous	active / vigorous		10.4.2		0		
+302820	856	Lahu (Yellow)	u³sɿ⁵	u³sɿ⁵	advanced	advanced				0		
+302821	856	Lahu (Yellow)	qha³nɔ⁵	qha³nɔ⁵	backward / primitive	backward / primitive	adj	9.2.8		0		
+302822	856	Lahu (Yellow)	phv̩⁶	phv̩⁶	reactionary	reactionary				0		
+302823	856	Lahu (Yellow)	tɛ³	tɛ³	one	one		9.9		0		5377
+302824	856	Lahu (Yellow)	ȵi³	ȵi³	two	two		9.9		0		2504
+302825	856	Lahu (Yellow)	ɕɛ¹	ɕɛ¹	three	three		9.9		0		2666
+302826	856	Lahu (Yellow)	ɔ⁷	ɔ⁷	four	four		9.9		0		2409
+302827	856	Lahu (Yellow)	ŋa³	ŋa³	five	five		9.9		0		1306
+302828	856	Lahu (Yellow)	khɔ²	khɔ²	six	six		9.9		0		2621
+302829	856	Lahu (Yellow)	sɿ²	sɿ²	seven	seven		9.9		0		2505
+302830	856	Lahu (Yellow)	xe⁴	xe⁴	eight	eight		9.9		0		2259
+302831	856	Lahu (Yellow)	qɔ⁷	qɔ⁷	nine	nine		9.9		0		2364
+302832	856	Lahu (Yellow)	ti³tɕhi¹	ti³tɕhi¹	ten	ten		9.9		0		m,2748
+302833	856	Lahu (Yellow)	ti³tɕhi¹tɛ³a²	ti³tɕhi¹tɛ³a²	eleven	eleven		9.9		0		
+302834	856	Lahu (Yellow)	ti³tɕhi¹ȵi³a²	ti³tɕhi¹ȵi³a²	twelve	twelve		9.9		0		
+302835	856	Lahu (Yellow)	ti³tɕhi¹ɕɛ¹lɛ⁵	ti³tɕhi¹ɕɛ¹lɛ⁵	thirteen	thirteen		9.9		0		
+302836	856	Lahu (Yellow)	ȵi³tɕhi¹	ȵi³tɕhi¹	twenty	twenty		9.9		0		2504,2748
+302837	856	Lahu (Yellow)	xa¹	xa¹	hundred	hundred		9.9		0		
+302838	856	Lahu (Yellow)	xi⁴	xi⁴	thousand	thousand		9.9		0		
+302839	856	Lahu (Yellow)	va⁵	va⁵	ten thousand	ten thousand		9.9		0		bChinese
+302840	856	Lahu (Yellow)	lɛ¹	lɛ¹	zero	zero		9.9		0		bChinese
+302841	856	Lahu (Yellow)	u³sɿ⁵tɛ³	u³sɿ⁵tɛ³	first (ordinal) (for human)	first (ordinal) (for human)		9.9		0		
+302842	856	Lahu (Yellow)	u³sɿ⁵ti³	u³sɿ⁵ti³	first (ordinal) (for animal)	first (ordinal) (for animal)		9.9		0		
+302843	856	Lahu (Yellow)	ti¹khu³	ti¹khu³	half	half		9.8		0		
+302844	856	Lahu (Yellow)	ɣa³	ɣa³	clf for people	clf for people		10.1.3		0		
+302845	856	Lahu (Yellow)	phɛ⁵	phɛ⁵	clf for bowls	clf for bowls		10.1.3		0		
+302846	856	Lahu (Yellow)	tɕɛ²	tɕɛ²	clf for trees	clf for trees		10.1.3		0		
+302847	856	Lahu (Yellow)	khɛ¹	khɛ¹	clf for animals	clf for animals		10.1.3		0		
+302848	856	Lahu (Yellow)	ta²	ta²	clf for objects with handle	clf for objects with handle		10.1.3		0		
+302849	856	Lahu (Yellow)	tshɿ⁶	tshɿ⁶	clf for handfuls	clf for handfuls		10.1.3		0		
+302850	856	Lahu (Yellow)	tsa⁶	tsa⁶	clf for long objects	clf for long objects		10.1.3		0		
+302851	856	Lahu (Yellow)	khɛ¹	khɛ¹	clf for small rope	clf for small rope		10.1.3		0		
+302852	856	Lahu (Yellow)	qu⁶	qu⁶	clf for sheets	clf for sheets		10.1.3		0		
+302853	856	Lahu (Yellow)	ta²	ta²	clf for long, thin objects	clf for long, thin objects		9.7.2		0		
+302854	856	Lahu (Yellow)	ɕi⁵	ɕi⁵	clf for grains	clf for grains		10.1.3		0		
+302855	856	Lahu (Yellow)	qha¹	qha¹	clf for grains	clf for grains		10.1.3		0		
+302856	856	Lahu (Yellow)	mɛ⁶	mɛ⁶	drop	drop	n.	6.16		0		
+302857	856	Lahu (Yellow)	pho⁶	pho⁶	heap / pile (e.g. of fertilizer)	heap / pile (e.g. of fertilizer)		6.2.2.1		0		
+302858	856	Lahu (Yellow)	qhɔ¹	qhɔ¹	clf for big objects (e.g. hill)	clf for big objects (e.g. hill)		10.1.3		0		3581
+302859	856	Lahu (Yellow)	qho⁶	qho⁶	clf for clothes	clf for clothes		10.1.3		0		
+302860	856	Lahu (Yellow)	pe⁶	pe⁶	piece (of land)	piece (of land)		7.1.6.1		0		
+302861	856	Lahu (Yellow)	tɕɛ¹	tɕɛ¹	pair	pair		9.9		0		5383
+302862	856	Lahu (Yellow)	dɤ²	dɤ²	clf for trip	clf for trip		10.1.3		0		
+302863	856	Lahu (Yellow)	qhe¹	qhe¹	clf for quick movement	clf for quick movement		10.1.3		0		
+302864	856	Lahu (Yellow)	tshue⁴	tshue⁴	inch	inch				0		
+302865	856	Lahu (Yellow)	sɔ⁵	sɔ⁵	foot (measure)	foot (measure)		1.5.2		0		
+302866	856	Lahu (Yellow)	mu³	mu³	acre	acre		9.8		0		
+302867	856	Lahu (Yellow)	qhɔ⁵	qhɔ⁵	dry measure / pint	dry measure / pint		9.8		0		
+302868	856	Lahu (Yellow)	qhɔ⁵	qhɔ⁵	dry measure / peck	dry measure / peck		6.6		0		
+302869	856	Lahu (Yellow)	lɔ¹	lɔ¹	tael	tael		9.8		0		
+302870	856	Lahu (Yellow)	ki⁵	ki⁵	catty (=500 grams)	catty (=500 grams)		9.8		0		
+302871	856	Lahu (Yellow)	va⁵	va⁵	monetary unit / dollar	monetary unit / dollar		5.9		0		bThai?
+302872	856	Lahu (Yellow)	xi⁴	xi⁴	monatery fractional unit / dime	monatery fractional unit / dime		9.9		0		
+302873	856	Lahu (Yellow)	xa¹	xa¹	monatery fractional unit / cent	monatery fractional unit / cent		9.9		0		
+302874	856	Lahu (Yellow)	ŋa²	ŋa²	I	I		4.1		0		2530
+302875	856	Lahu (Yellow)	ŋɯ²	ŋɯ²	we	we		4.1		0		
+302876	856	Lahu (Yellow)	nɔ²	nɔ²	you (sg.)	you (sg.)		4.1		0		2489
+302877	856	Lahu (Yellow)	ŋɯ²	ŋɯ²	we (excl.)	we (excl.)		4.1		0		
+302878	856	Lahu (Yellow)	ȵi²	ȵi²	you (pl.)	you (pl.)		4.1		0		2489
+302879	856	Lahu (Yellow)	ʑɔ³	ʑɔ³	he / she	he / she		4.1		0		
+302880	856	Lahu (Yellow)	ʔi⁴	ʔi⁴	they (pl.)	they (pl.)		4.1		0		
+302881	856	Lahu (Yellow)	a¹su¹ʑɔ³qha³ʑɔ³	a¹su¹ʑɔ³qha³ʑɔ³	oneself	oneself		4.1		0		
+302882	856	Lahu (Yellow)	su¹tshɔ¹	su¹tshɔ¹	others	others		8.1		0		5632,m
+302883	856	Lahu (Yellow)	tɕhe⁵	tɕhe⁵	this	this		10.4.3.2		0		
+302884	856	Lahu (Yellow)	tshɔ⁵	tshɔ⁵	here	here		9.2.3		0		
+302885	856	Lahu (Yellow)	tɕhe⁵ve¹	tɕhe⁵ve¹	this one	this one		10.4.3.2		0		m,450
+302886	856	Lahu (Yellow)	tsha⁵lɛ⁴	tsha⁵lɛ⁴	like this / this way	like this / this way		10.4.3.2		0		
+302887	856	Lahu (Yellow)	ʔo¹	ʔo¹	that	that		10.1		0		5739
+302888	856	Lahu (Yellow)	ʔo¹sɔ²	ʔo¹sɔ²	there	there		9.2.7		0		5739,m
+302889	856	Lahu (Yellow)	ʔo¹lɛ⁴	ʔo¹lɛ⁴	like that / that way	like that / that way		10.1		0		5739,m
+302890	856	Lahu (Yellow)	le¹le¹	le¹le¹	every	every		9.9		0		
+302891	856	Lahu (Yellow)	a¹su¹	a¹su¹	who	who		10.5.3		0		p,5632
+302892	856	Lahu (Yellow)	a²tho²pha³le¹	a²tho²pha³le¹	what	what		10.5.3		0		m,m,167,m
+302893	856	Lahu (Yellow)	a²tho²pha³te¹le¹	a²tho²pha³te¹le¹	why	why		10.5.3		0		
+302894	856	Lahu (Yellow)	qha⁵	qha⁵	how many / a few	how many / a few		9.9		0		5590
+302895	856	Lahu (Yellow)	qha⁵	qha⁵	which	which		10.5.3		0		5590
+302896	856	Lahu (Yellow)	qhɔ⁵ka²	qhɔ⁵ka²	where	where		10.5.3		0		5589,m
+302897	856	Lahu (Yellow)	qha⁵mɛ¹	qha⁵mɛ¹	how many / how much	how many / how much		10.1		0		5590,3372
+302898	856	Lahu (Yellow)	a¹sɿ¹~a¹sɿ¹tɕhɛ¹nɛ⁵	a¹sɿ¹~a¹sɿ¹tɕhɛ¹nɛ⁵	just now	just now		9.1.1		0		
+302899	856	Lahu (Yellow)	u³sɿ⁵	u³sɿ⁵	first (in time)	first (in time)		9.9		0		
+302900	856	Lahu (Yellow)	qha³nɔ⁵	qha³nɔ⁵	later (in time)	later (in time)		9.1.5		0		
+302901	856	Lahu (Yellow)	va³va³	va³va³	immediately	immediately		9.1.1		0		
+302902	856	Lahu (Yellow)	tsɿ⁴	tsɿ⁴	often	often		9.1.1		0		
+302903	856	Lahu (Yellow)	a¹lɔ⁴lɔ⁴	a¹lɔ⁴lɔ⁴	slowly	slowly		9.1.1		0		
+302904	856	Lahu (Yellow)	dʑa³	dʑa³	very	very		7.1.2.2		0		
+302905	856	Lahu (Yellow)	dʑa³	dʑa³	most	most	adv	7.1.2.1		0		
+302906	856	Lahu (Yellow)	kɛ¹	kɛ¹	all / even	all / even		9.9		0		
+302907	856	Lahu (Yellow)	kɛ¹	kɛ¹	also	also		10.1.2.1		0		
+302909	856	Lahu (Yellow)	qɔ²	qɔ²	again	again		10.1		0	D1	
+302910	856	Lahu (Yellow)	qo¹	qo¹	then	then		9.1.5		0		
+302911	856	Lahu (Yellow)	tɕɛ²	tɕɛ²	certainly	certainly		7.2		0		
+302912	856	Lahu (Yellow)	a³	a³	NEG	NEG		10.6.2		0		2436
+302913	856	Lahu (Yellow)	a³ (tsɔ²)	a³ (tsɔ²)	not yet	not yet		1.5.3.2		0		2436,m
+302914	856	Lahu (Yellow)	ta³	ta³	NEG imperative	NEG imperative		10.6.2		0		2681
+302915	856	Lahu (Yellow)	qɔ²	qɔ²	still	still		9.1.1		0		
+302916	856	Lahu (Yellow)	pɔ²	pɔ²	already	already		10.1		0		
+302917	856	Lahu (Yellow)	lɛ¹	lɛ¹	and / with	and / with		10.1.2.1		0		
+302918	856	Lahu (Yellow)	pa¹tɔ¹lɛ¹	pa¹tɔ¹lɛ¹	because	because		10.1.2.2		0		
+302919	856	Lahu (Yellow)	a²nɔ²te¹lɛ¹	a²nɔ²te¹lɛ¹	so / therefore	so / therefore		10.1.2.2		0		
+302920	856	Lahu (Yellow)	ɔ²ka²	ɔ²ka²	from	from		10.1.1		0		
+302921	856	Lahu (Yellow)	ve¹	ve¹	relativizing particle	relativizing particle		10.0		0		450

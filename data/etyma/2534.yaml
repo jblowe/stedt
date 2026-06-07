@@ -1,0 +1,23 @@
+tag: 2534
+grpid: 2
+proto_language: PTB
+protoform: (ŋ/g)raŋ
+gloss: CONTRADICT / DENY
+semkey: 8.5.8
+sequence: 1475.0
+status: KEEP
+public: true
+references: cf. STC#155, HPTB p.81
+phonology:
+  handle: ŋraŋ
+  initial: ŋr
+  rhyme: aŋ
+  initcover: M
+  rhymecover: N
+notes:
+- type: F
+  text: '<par><hanform>迎</hanform> OC <latinform>*ngi̯ɑ̆ng</latinform>, GSR #699d &apos;(go to) meet;
+    greet, welcome, receive&apos;; Schuessler 2007:575 <latinform>*ŋraŋ</latinform>; B &amp; S 2011: <latinform>*ŋraŋ</latinform>;
+    Mand. <latinform>yíng</latinform>.<br /><hanform>迎</hanform> OC <latinform>*ngi̯ɑ̆ng</latinform>,
+    GSR #699d &apos;go to meet; receive&apos;; Schuessler 2007:575 <latinform>*ŋraŋh</latinform>; B &amp;
+    S 2011: (<latinform>*ŋraŋ-s</latinform>); Mand. <latinform>yìng</latinform>.</par>'

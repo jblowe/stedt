@@ -1,0 +1,16 @@
+tag: 2584
+grpid: 2
+proto_language: PTB
+protoform: pʷak
+gloss: HALF / ONE OF A PAIR / SIDE
+semkey: '9.8'
+sequence: 2087.0
+status: KEEP
+public: true
+references: cf. STC p.24, HPTB p.321
+phonology:
+  handle: pwak
+  initial: pw
+  rhyme: ak
+  initcover: P
+  rhymecover: T

@@ -1,0 +1,33 @@
+tag: 1860
+grpid: 2
+proto_language: PTB
+protoform: g/s-ma-t/n
+gloss: PERISH / BE SPENT / BE LOST / LOSE / DISAPPEAR / EXHAUSTED / FORGET
+semkey: 10.4.1.1
+sequence: 3.0
+status: KEEP
+public: true
+references: cf. STC#425, HPTB pp.334, 461
+phonology:
+  handle: g/s-
+  prefix: g/s
+  initial: m
+  rhyme: a-t
+  suffix: t
+  initcover: M
+  rhymecover: VT
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: ma
+  gloss: LOSE
+- grpid: 50
+  group: '7'
+  form: maᴮ
+  gloss: DISAPPEAR, LOST
+notes:
+- type: T
+  text: <par>This etymon resembles <xref ref="5575">#5575</xref>, but must be kept distinct, as witness
+    the two Jingpho forms <latinform>myéʔ</latinform> from <xref ref="5575">#5575</xref>, and <latinform>mat</latinform>
+    from the present root.</par><par>Some languages (e.g., Lotha, Rongmei, Tangkhul, Tsangla) have developed
+    a dental nasal suffix instead of a dental stop.</par>

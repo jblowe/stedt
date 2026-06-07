@@ -1,0 +1,24 @@
+tag: 1427
+grpid: 2
+proto_language: PTB
+protoform: b-lum
+gloss: EYE / EYEBALL / HEART / ROUND OBJECT
+semkey: 1.2.6
+sequence: 2.2
+status: KEEP
+public: true
+xrefs: 690,1020,1164,1165,1381
+possallo: '1020'
+references: ("AMD") cf. 1020.  Darang
+phonology:
+  handle: lum
+  prefix: b
+  initial: l
+  rhyme: um
+  initcover: L
+  rhymecover: N
+notes:
+- type: T
+  text: <par>The vocalism of the Tujia reflexes varies from <latinform>-o</latinform> to <latinform>-a</latinform>,
+    leading to the hypothesis that the Proto-Tujia form was something like <latinform>*lwa</latinform>.
+    Several Northern Tujia forms actually have the vocalism <latinform>-uo</latinform>.</par>

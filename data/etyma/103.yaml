@@ -1,0 +1,29 @@
+tag: 103
+grpid: 2
+proto_language: PTB
+protoform: bal
+gloss: TIRED / THIRSTY
+semkey: 9.6.2.2
+sequence: 12.0
+status: KEEP
+public: true
+references: STC#029, HPTB
+phonology:
+  handle: bal
+  initial: b
+  rhyme: al
+  initcover: P
+  rhymecover: L
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ɓaa
+  gloss: TIRED / EXHAUSTED
+notes:
+- type: T
+  text: <par>Note the interesting semantic association between TIRED and THIRSTY.</par><par>Jingpho has
+    a doublet <latinform>bá</latinform> ⪤ <latinform>bàn</latinform>, with the latter directly reflecting
+    the <reconstruction>*-l</reconstruction>.</par><par>This root is very likely allofamic with <xref
+    ref="4054">#4054</xref>, but it seems best to keep them separate for now.</par>
+- type: F
+  text: <par>S412</par>

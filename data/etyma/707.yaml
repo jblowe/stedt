@@ -1,0 +1,23 @@
+tag: 707
+grpid: 2
+proto_language: PTB
+protoform: (p/b)lyaŋ
+gloss: PLANK / PALM / FLAT SURFACE / WING
+semkey: 1.5.1.3
+sequence: 33.0
+status: KEEP
+public: true
+references: cf. STC#138, HPTB pp.281, 292, 296; cf. Yamphu & Sunwar *praŋ phra:M
+notes:
+- type: T
+  text: '<par>This phonologically distinctive root has so far been uncovered only in a few Himalayan languages.</par><par>There
+    is a closely similar root meaning PALM in several Kiranti languages, which seems rather to be related
+    to <reconstruction>*pleŋ</reconstruction> &apos;flat surface; plank; slab&apos; (STC #138).</par>'
+- type: F
+  text: '<par><hanform>平</hanform> OC <latinform>*bʼi̯ĕng</latinform>, GSR #825a &apos;flat, even&apos;;
+    B &amp; S 2011: <latinform>*breŋ</latinform>; Mand. <latinform>píng</latinform>.</par>'
+- type: T
+  text: <par>As discussed in Matisoff 1988 (&quot;Straight, flat, full&quot;), this root is allofamically
+    related both to <xref ref="111">#111</xref> and <xref ref="2160">#2160</xref>, the common semantic
+    core being &quot;a complete or ideal realization of a quality appropriate to a particular dimensionality
+    in space&quot;.</par>

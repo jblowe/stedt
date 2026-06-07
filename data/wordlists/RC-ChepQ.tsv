@@ -1,0 +1,316 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+127837	452	Chepang (Eastern)	ŋoy◦do	ŋoy◦do	right side (of anything)	right side (of anything)		1.5.3.2	1.2	0		
+127838	452	Chepang (Eastern)	weʔ◦do	weʔ◦do	left side (of anything)	left side (of anything)		1.5.3.2	1.3	0		2154
+127839	452	Chepang (Eastern)	kah	kah	back (upper)	back (upper)		1.4.8	1.4	0		211
+127840	452	Chepang (Eastern)	giŋ	giŋ	back (lower)	back (lower)		1.4.8	1.4	0		209
+127841	452	Chepang (Eastern)	kos (chest)	kos (chest)	front	front		1.4.4	1.5	0		m
+127842	452	Chepang (Eastern)	krut dom	krut dom	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
+127843	452	Chepang (Eastern)	kos	kos	bosom	bosom		1.4.4.2	1.9	0		2326
+127844	452	Chepang (Eastern)	syaʔ	syaʔ	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34
+127845	452	Chepang (Eastern)	mayʔ	mayʔ	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		39
+127846	452	Chepang (Eastern)	syak◦naʔ	syak◦naʔ	alive / be living	alive  /  be living		1.1.2.1	1.12	0		81,m
+127847	452	Chepang (Eastern)	si◦naʔ	si◦naʔ	die / be dead	die  /  be dead		1.1.6	1.13	0		27,m
+127848	452	Chepang (Eastern)	hmaŋʔ	hmaŋʔ	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		17
+127849	452	Chepang (Eastern)	hmaŋʔ	hmaŋʔ	carcass / dead animal	carcass  /  dead animal		1.1.6.1	1.15	0		17
+127850	452	Chepang (Eastern)	ʔenʔ◦naʔ	ʔenʔ◦naʔ	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		
+127851	452	Chepang (Eastern)	mrya◦naʔ	mrya◦naʔ	awake / be awake	awake  /  be awake		1.1.4	1.17	0		
+127852	452	Chepang (Eastern)	maŋʔ◦ka cyəwʔ◦naʔ	maŋʔ◦ka cyəwʔ◦naʔ	dream	dream (v.)	v	1.1.4.2	1.18	0		126,m,m,m
+127853	452	Chepang (Eastern)	ta◦laŋ	ta◦laŋ	head	head		1.2.1	2.1	0		p,392
+127854	452	Chepang (Eastern)	puh	puh	head	head		1.2.1	2.1	0		385
+127855	452	Chepang (Eastern)	ta◦puʔ	ta◦puʔ	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		
+127856	452	Chepang (Eastern)	puh◦rumʔ	puh◦rumʔ	skull	skull		1.2.1.1	2.4	0		385,232
+127857	452	Chepang (Eastern)	puh◦kli	puh◦kli	brain	brain		1.2.4	2.5	0		385,572
+127858	452	Chepang (Eastern)	myaŋ	myaŋ	hair of head	hair of head		1.2.3	2.7	0	HIDE	DUPE IN SOURCE
+127859	452	Chepang (Eastern)	chenʔ	chenʔ	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		1472
+127860	452	Chepang (Eastern)	roŋʔ	roŋʔ	horn (of animal)	horn (of animal)		1.2.2	2.10	0		814
+127861	452	Chepang (Eastern)	roŋʔ	roŋʔ	antler (of deer)	antler (of deer)		1.2.2	2.11	0		814
+127862	452	Chepang (Eastern)	khen	khen	face	face		1.2.5	3.1	0		
+127863	452	Chepang (Eastern)	jelh	jelh	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		384
+127864	452	Chepang (Eastern)	ho.hlop	ho.hlop	temple	temple		1.2.5.1	3.3	0		
+127865	452	Chepang (Eastern)	mik	mik	eye	eye		1.2.6	3.4	0		682
+127866	452	Chepang (Eastern)	mik◦pun	mik◦pun	eyelid	eyelid		1.2.6.4	3.4.1	0		682,591
+127867	452	Chepang (Eastern)	mik◦luŋ	mik◦luŋ	eyeball	eyeball		1.2.6.1	3.4.2	0		682,1381
+127868	452	Chepang (Eastern)	gal◦mik	gal◦mik	pupil	pupil		1.2.6.2	3.4.2.2	0		m,682
+127869	452	Chepang (Eastern)	mik◦pulʔ	mik◦pulʔ	eyebrow	eyebrow		1.2.6.6	3.4.3	0	D0	682,363
+127870	452	Chepang (Eastern)	mik◦pulʔ	mik◦pulʔ	eyelash	eyelash		1.2.6.5	3.4.4	0	D0	682,363
+127871	452	Chepang (Eastern)	(mik)◦hliwiʔna	(mik)hliwiʔna	blink	blink (v.)	v	1.2.6.12	3.4.5	0		682,m
+127872	452	Chepang (Eastern)	prəwnaʔ	prəwnaʔ	blink	blink (v.)	v	1.2.6.12	3.4.5	0		m
+127873	452	Chepang (Eastern)	mik◦kliʔ	mik◦kliʔ	tears	tears		1.2.6.7	3.4.6	0		682,572
+127874	452	Chepang (Eastern)	mik◦tiʔ	mik◦tiʔ	tears	tears		1.2.6.7	3.4.6	0		682,298
+127875	452	Chepang (Eastern)	mik◦kliʔ	mik◦kliʔ	eye sand	eye sand		1.2.6.8	3.4.7	0		682,572
+127876	452	Chepang (Eastern)	ryaʔ	ryaʔ	cry  /  weep	cry  /  weep (v.)	v	1.8.8.2	3.4.8	0		1103
+127877	452	Chepang (Eastern)	kryap◦naʔ	kryap◦naʔ	cry  /  weep	cry  /  weep (v.)	v	1.8.8.2	3.4.8	0		1103,m
+127878	452	Chepang (Eastern)	cyawʔnaʔ	cyawʔnaʔ	see	see (v.)	v	1.2.6.10	3.4.9	0		m
+127879	452	Chepang (Eastern)	yo◦na?	yo◦na?	look	look (v.)	v	1.2.6.11	3.4.9	0		m
+127880	452	Chepang (Eastern)	mik lok◦na	mik lok◦na	blind	blind		1.2.6.14.2	3.4.10	0		682,1239,m
+127881	452	Chepang (Eastern)	neh	neh	nose	nose		1.2.8	3.5	0		803
+127882	452	Chepang (Eastern)	neh◦siŋʔ	neh◦siŋʔ	nose bridge	nose bridge		1.2.8	3.5.1	0		803,m
+127883	452	Chepang (Eastern)	neh◦ghaŋ	neh◦ghaŋ	nostril	nostril		1.2.8.1	3.5.2	0		803,809
+127884	452	Chepang (Eastern)	neh◦romʔ	neh◦romʔ	alae nasi (nose flaps)	alae nasi (nose flaps)		1.2.8.2	3.5.3	0		803,m
+127885	452	Chepang (Eastern)	neh◦menʔ	neh◦menʔ	nose hair	nose hair		1.2.8	3.5.4	0		803,2058
+127886	452	Chepang (Eastern)	moŋʔ	moŋʔ	snout	snout		1.2.8	3.5.5	0		687
+127887	452	Chepang (Eastern)	neh◦kli	neh◦kli	liquid mucus	liquid mucus		3.2.3	3.5.6	0		803,572
+127888	452	Chepang (Eastern)	neh◦kli	neh◦kli	solid mucus	solid mucus		1.1.5	3.5.7	0		803,572
+127889	452	Chepang (Eastern)	neh sri◦naʔ	neh sri◦naʔ	blow nose	blow nose (v.)	v	1.3.1.4	3.5.8	0		803,m,m
+127890	452	Chepang (Eastern)	namh	namh	smell  /  sniff	smell  /  sniff (v.)	v	1.2.8.5	3.5.9	0		1415
+127891	452	Chepang (Eastern)	no	no	ear	ear		1.2.7	3.6	0		811
+127892	452	Chepang (Eastern)	no◦pe◦te	no◦pe◦te	earlobe	earlobe		1.2.7.1	3.6.1	0		811,m,m
+127893	452	Chepang (Eastern)	jeŋʔ	jeŋʔ	earlobe	earlobe		1.2.7.1	3.6.1	0		818
+127894	452	Chepang (Eastern)	no◦ghaŋ	no◦ghaŋ	ear canal	ear canal		1.2.7	3.6.4	0		811,820
+127895	452	Chepang (Eastern)	no◦kliʔ	no◦kliʔ	earwax	earwax		1.2.7.3	3.6.6	0		811,572
+127896	452	Chepang (Eastern)	sayʔ◦naʔ	sayʔ◦naʔ	hear	hear (v.)	v	1.2.7.4	3.6.7	0		m,1410
+127897	452	Chepang (Eastern)	no lok◦naʔ	no lok◦naʔ	deaf	deaf		1.2.7.5	3.6.8	0		811,m,m
+127898	452	Chepang (Eastern)	hmo◦toŋ	hmo◦toŋ	mouth	mouth		1.3.1	3.7	0	D0	687,822
+127899	452	Chepang (Eastern)	kam	kam	mouth	mouth		1.3.1	3.7	0		454
+127900	452	Chepang (Eastern)	sim◦phərʔ	sim◦phərʔ	palate	palate		1.3.1.1	3.7.1	0		
+127901	452	Chepang (Eastern)	nəl	nəl	gums	gums		1.3.4.3	3.7.3	0		504
+127902	452	Chepang (Eastern)	tyuk◦aŋ	tyuk◦aŋ	uvula	uvula		1.3.5.1	3.7.4	0		
+127903	452	Chepang (Eastern)	dyur	dyur	saliva	saliva		1.8.3	3.7.5	0		606
+127904	452	Chepang (Eastern)	jeʔ◦naʔ	jeʔ◦naʔ	eat	eat (v.)	v	1.5.3.2	3.7.6	0		36,m
+127905	452	Chepang (Eastern)	tuŋ◦naʔ	tuŋ◦naʔ	drink	drink (v.)	v		3.7.7	0		502,s
+127906	452	Chepang (Eastern)	tiʔ ʔəp◦naʔ	tiʔ ʔəp◦naʔ	thirsty	thirsty	be	1.1.3.1	3.7.8	0		m,m,m
+127907	452	Chepang (Eastern)	yoŋ kray◦naʔ	yoŋ kray◦naʔ	hungry	hungry	be	1.1.3	3.7.9	0		3550,m,m
+127908	452	Chepang (Eastern)	kos◦naʔ	kos◦naʔ	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		115,m
+127909	452	Chepang (Eastern)	dyurʔ◦naʔ	dyurʔ◦naʔ	spit	spit (v.)	v	1.8.3	3.7.11	0		606,m
+127910	452	Chepang (Eastern)	has	has	vomit	vomit (n.)	n	1.8.3.2	3.7.12	0		1145
+127911	452	Chepang (Eastern)	has◦naʔ	has◦naʔ	vomit	vomit (v.)	v	1.8.3.2	3.7.13	0		1145,m
+127912	452	Chepang (Eastern)	ʔumh◦naʔ	ʔumh◦naʔ	hold in mouth	hold in mouth (v.)	v	1.3.4.4	3.7.14	0		3451,1759
+127913	452	Chepang (Eastern)	ga◦naʔ	ga◦naʔ	gape  /  open mouth	gape  /  open mouth (v.)	v	1.3.1	3.7.15	0		273,m
+127914	452	Chepang (Eastern)	kamh◦naʔ	kamh◦naʔ	yawn	yawn (v.)	v	1.3.1.3	3.7.16	0		1715,m
+127915	452	Chepang (Eastern)	le	le	tongue	tongue		1.3.3	3.8	0		621
+127916	452	Chepang (Eastern)	dayhnaʔ	dayhnaʔ	say	say(v.)	v	1.8.7	3.8.1	0		
+127917	452	Chepang (Eastern)	noʔnaʔ	noʔnaʔ	speak	speak (v.)	v	8.5.10.1	3.8.1	0		
+127918	452	Chepang (Eastern)	to◦naʔ	to◦naʔ	tell	tell(v.)	v	1.8.7	3.8.1	0		
+127919	452	Chepang (Eastern)	pap◦na	pap◦na	stutter  /  stammer	stutter  /  stammer (v.)	v	8.5.4.5	3.8.2	0		
+127920	452	Chepang (Eastern)	hŋən	hŋən	mute  /  dumb	mute  /  dumb (n.)	n	1.5.3.2	3.8.3	0		
+127921	452	Chepang (Eastern)	ŋənḍəla	ŋənḍəla	mute  /  dumb	mute  /  dumb (n.)	n	1.5.3.2	3.8.3	0		
+127922	452	Chepang (Eastern)	təkələŋ	təkələŋ	mute  /  dumb	mute  /  dumb (n.)	n	1.5.3.2	3.8.3	0		
+127923	452	Chepang (Eastern)	lemh◦naʔ	lemh◦naʔ	lick	lick		1.3.3.1	3.8.4	0		625,m
+127924	452	Chepang (Eastern)	nərʔ◦pun	nərʔ◦pun	lip	lip		1.3.2	3.9	0		2099,591
+127925	452	Chepang (Eastern)	səyk	səyk	beak / bill	beak / bill		1.3.1.2	3.9.3	0		686
+127926	452	Chepang (Eastern)	niʔ◦naʔ	niʔ◦naʔ	smile	smile (v.)	v	1.8.8.1	3.9.4	0		1105,m
+127927	452	Chepang (Eastern)	ŋiʔ◦na	ŋiʔ◦na	smile	smile (v.)	v	1.8.8.1	3.9.4	0		1105,m
+127928	452	Chepang (Eastern)	tumʔ naʔ	tumʔ naʔ	kiss	kiss		1.3.2.2	3.9.5	0		3452,m
+127929	452	Chepang (Eastern)	səyk	səyk	tooth	tooth		1.3.4	3.10	0		631
+127930	452	Chepang (Eastern)	junʔ◦səyk	junʔ◦səyk	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		796,631
+127931	452	Chepang (Eastern)	tol	tol	molar	molar		1.3.4.2	3.10.2	0		
+127932	452	Chepang (Eastern)	ma◦gam◦səyk	ma◦gam◦səyk	molar	molar		1.3.4.2	3.10.2	0		m,630,631
+127933	452	Chepang (Eastern)	kuyʔ◦səyk	kuyʔ◦səyk	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang		1.3.4.1	3.10.3	0		1764,631
+127934	452	Chepang (Eastern)	hluk◦gam◦səyk	hluk◦gam◦səyk	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		m,630,631
+127935	452	Chepang (Eastern)	ray◦gam◦səyk	ray◦gam◦səyk	baby tooth	baby tooth		4.2.11	3.10.5	0		m,m,631
+127936	452	Chepang (Eastern)	səyk	səyk	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		631
+127937	452	Chepang (Eastern)	jəyk◦naʔ	jəyk◦naʔ	bite	bite (v.)	v	1.3.4.4	3.10.7	0		
+127938	452	Chepang (Eastern)	ŋam◦naʔ	ŋam◦naʔ	chew	chew (v.)	v	1.3.4	3.10.8	0		1772,m
+127939	452	Chepang (Eastern)	gwer	gwer	cheek	cheek		1.2.5.2	3.11	0		2053
+127940	452	Chepang (Eastern)	dyor	dyor	cheek	cheek		1.2.5.2	3.11	0		2053
+127941	452	Chepang (Eastern)	temʔ	temʔ	chin	chin		1.2.5.3	3.12	0		
+127942	452	Chepang (Eastern)	pemʔ	pemʔ	chin	chin		1.2.5.3	3.12	0		
+127943	452	Chepang (Eastern)	kwaŋ	kwaŋ	jaw	jaw		1.2.5.2	3.13	0		267
+127944	452	Chepang (Eastern)	kəyk	kəyk	neck	neck		1.4.2	4.1	0		481
+127945	452	Chepang (Eastern)	guk◦kak	guk◦kak	goiter	goiter		1.4.2.2	4.1.1	0		486,493
+127946	452	Chepang (Eastern)	gruʔ	gruʔ	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)		1.1.5.2	4.1.2	0		1857
+127947	452	Chepang (Eastern)	pok◦cyu◦ruŋʔ	pok◦cyu◦ruŋʔ	nape of neck	nape of neck		1.4.2.1	4.1.3	0		m,m,479
+127948	452	Chepang (Eastern)	thyoŋ◦waʔ	thyoŋ◦waʔ	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		822,m
+127949	452	Chepang (Eastern)	guk	guk	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		486
+127950	452	Chepang (Eastern)	ryo◦dhyoŋʔ	ryo◦dhyoŋʔ	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		488,822
+127951	452	Chepang (Eastern)	yok◦naʔ	yok◦naʔ	swallow	swallow (v.)	v	1.3.5.6	4.2.3	0		627,m
+127952	452	Chepang (Eastern)	taha◦rawʔ	taha◦rawʔ	gizzard / crop of bird	gizzard  /  crop of bird		1.7.6.1	4.2.4	0		m,m
+127953	452	Chepang (Eastern)	kos	kos	chest	chest		1.4.4.3	5.1	0		560
+127954	452	Chepang (Eastern)	rip	rip	rib	rib		1.4.4.3	5.1.2	0		554
+127955	452	Chepang (Eastern)	terʔ◦pen	terʔ◦pen	breastbone / sternum	breastbone  /  sternum		1.6.3.2	5.1.3	0		m,m
+127956	452	Chepang (Eastern)	waʔghorh◦hrus	waʔghorh◦hrus	collar bone / clavicle	collar bone  /  clavicle		1.4.3.1	5.2	0		m,234
+127957	452	Chepang (Eastern)	bal	bal	shoulder	shoulder		1.4.3	5.3	0		3347
+127958	452	Chepang (Eastern)	bal	bal	shoulder blade / scapula	shoulder blade  /  scapula		1.4.3.2	5.3.1	0		3347
+127959	452	Chepang (Eastern)	dut	dut	breast	breast		1.4.4.3	5.4	0		3466
+127960	452	Chepang (Eastern)	dut.sayʔ	dut.sayʔ	nipple	nipple			5.4.1	0		3466,1019
+127961	452	Chepang (Eastern)	ʔoh◦sayʔ	ʔoh◦sayʔ	nipple	nipple			5.4.1	0		3464,1019
+127962	452	Chepang (Eastern)	dut	dut	milk	milk			5.4.3	0		3466
+127963	452	Chepang (Eastern)	ʔoh◦(lay)◦tiʔ	ʔoh◦(lay)◦tiʔ	milk	milk			5.4.3	0		3464,m,298
+127964	452	Chepang (Eastern)	nyonʔ◦naʔ	nyonʔ◦naʔ	suck	suck		1.3.2.1	5.4.5	0		254,m
+127965	452	Chepang (Eastern)	hnyonh◦naʔ	hnyonh◦naʔ	suck	suck		1.3.2.1	5.4.5	0		254,m
+127966	452	Chepang (Eastern)	kholʔ◦naʔ	kholʔ◦naʔ	nurse  /  suckle	nurse  /  suckle (v.)	v	4.2.1.5	5.4.6	0		
+127967	452	Chepang (Eastern)	giŋ	giŋ	back	back		1.4.8	5.5	0		209
+127968	452	Chepang (Eastern)	kah	kah	upper back	upper back		9.2.1	5.5.1	0		211
+127969	452	Chepang (Eastern)	giŋ	giŋ	lower back	lower back		1.4.8.1	5.5.2	0		209
+127970	452	Chepang (Eastern)	riḍhə	riḍhə	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		b
+127971	452	Chepang (Eastern)	giŋ◦khurʔ	giŋ◦khurʔ	hunchback	hunchback		1.4.8.3	5.5.6	0		209,m
+127972	452	Chepang (Eastern)	hwoyŋh	hwoyŋh	waist	waist		1.4.6	5.6	0		1364
+127973	452	Chepang (Eastern)	pam/hemh/hwoyŋh	pam/hemh/hwoyŋh	waist	waist		1.4.6	5.6	0		137,m,1364
+127974	452	Chepang (Eastern)	tuk	tuk	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)		1.4.7	5.7	0		164
+127975	452	Chepang (Eastern)	toy	toy	navel	navel		1.9.4	5.7.1	0		519
+127976	452	Chepang (Eastern)	kil	kil	hip joint	hip joint		1.4.9.2	5.8.2	0		202
+127977	452	Chepang (Eastern)	por	por	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		
+127978	452	Chepang (Eastern)	(plek)◦ghak	(plek)◦ghak	crotch / fork of legs	crotch  /  fork of legs		1.4.9.1	5.9	0		m,1278
+127979	452	Chepang (Eastern)	baŋkəna	baŋkəna	swollen lymph nodes (of groin)	swollen lymph nodes (of groin)		1.1.5.2	5.9.1	0		m
+127980	452	Chepang (Eastern)	gruʔ	gruʔ	swollen lymph nodes (of groin)	swollen lymph nodes (of groin)		1.1.5.2	5.9.1	0		1857
+127981	452	Chepang (Eastern)	por	por	rump	rump		1.4.10	5.10	0		265
+127982	452	Chepang (Eastern)	por	por	buttocks	buttocks		1.4.10	5.10.1	0		265
+127983	452	Chepang (Eastern)	kray◦ki◦meʔ◦tat	kray◦ki◦meʔ◦tat	tailbone / coccyx	tailbone  /  coccyx		1.6.3.3	5.10.2	0		221,m,1288,m
+127984	452	Chepang (Eastern)	meʔ	meʔ	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		1288
+127985	452	Chepang (Eastern)	krut	krut	arm	arm		1.5.1.2	6.1	0		712
+127986	452	Chepang (Eastern)	ʔaka◦cyul	ʔaka◦cyul	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
+127987	452	Chepang (Eastern)	yus◦naʔ	yus◦naʔ	tickle	tickle		1.5.1.2.4	6.1.1.1	0		
+127988	452	Chepang (Eastern)	bal	bal	upperarm	upperarm		1.5.1.2.1	6.1.2	0		
+127989	452	Chepang (Eastern)	yuʔmayʔ	yuʔmayʔ	arm muscles / biceps	arm muscles  /  biceps		1.5.1.2	6.1.3	0		
+127990	452	Chepang (Eastern)	ku◦cyu◦li	ku◦cyu◦li	elbow	elbow		1.5.8.3	6.1.4	0		307,m,m
+127991	452	Chepang (Eastern)	krut	krut	forearm / lower arm	forearm  /  lower arm		1.5.1.2.2	6.1.5	0		712
+127992	452	Chepang (Eastern)	hnek	hnek	wrist	wrist		1.5.8.1	6.1.6	0		
+127993	452	Chepang (Eastern)	krut	krut	hand	hand		1.5.1.1	6.1.7	0		712
+127994	452	Chepang (Eastern)	krut◦pak	krut◦pak	palm	palm		1.5.5	6.1.7.1	0		712,821
+127995	452	Chepang (Eastern)	tup	tup	fist	fist		1.5.1.1.1	6.1.7.3	0		1282
+127996	452	Chepang (Eastern)	ŋoy◦krut	ŋoy◦krut	right hand	right hand		1.5.3.2	6.1.7.4	0		m,712
+127997	452	Chepang (Eastern)	weʔ◦krut	weʔ◦krut	left hand	left hand		1.5.3.2	6.1.7.5	0		2154,712
+127998	452	Chepang (Eastern)	kherʔ	kherʔ	fin (of fish)	fin (of fish)		1.5.1.3.1	6.1.8	0		
+127999	452	Chepang (Eastern)	pap	pap	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		756
+128000	452	Chepang (Eastern)	dom	dom	leg	leg		1.5.7	6.2	0		
+128001	452	Chepang (Eastern)	plek	plek	thigh	thigh		1.5.7.1	6.2.1	0		
+128002	452	Chepang (Eastern)	(plek)yoliŋ	(plek)yoliŋ	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		
+128003	452	Chepang (Eastern)	yoŋh◦ri	yoŋh◦ri	hamstring	hamstring		1.6.6.2	6.2.1.2	0		
+128004	452	Chepang (Eastern)	kryoŋ	kryoŋ	knee	knee		1.5.8.4	6.2.2	0		
+128005	452	Chepang (Eastern)	ŋol◦tum	ŋol◦tum	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		
+128006	452	Chepang (Eastern)	kryoŋʔ	kryoŋʔ	knee hollow / popliteal region	knee hollow  /  popliteal region		1.5.8.4	6.2.2.2	0		
+128007	452	Chepang (Eastern)	gloŋh	gloŋh	shin bone / tibia	shin bone  /  tibia		1.5.7.2	6.2.3.1	0		
+128008	452	Chepang (Eastern)	thomh	thomh	calf	calf		1.5.7	6.2.4	0		
+128009	452	Chepang (Eastern)	yuʔ◦mik	yuʔ◦mik	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		m,682
+128010	452	Chepang (Eastern)	dom	dom	foot	foot		1.5.2	6.2.6	0		
+128011	452	Chepang (Eastern)	godeʔ	godeʔ	heel	heel		1.5.2.1	6.2.6.1	0		
+128012	452	Chepang (Eastern)	dhyaw◦nya	dhyaw◦nya	achilles tendon	achilles tendon		1.6.6.1	6.2.6.2	0		
+128013	452	Chepang (Eastern)	dom◦pak	dom◦pak	sole	sole		1.5.5	6.2.6.5	0		
+128014	452	Chepang (Eastern)	halʔ	halʔ	footprint	footprint		1.5.2.5	6.2.6.7	0	D0	
+128015	452	Chepang (Eastern)	dom◦cok	dom◦cok	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		
+128016	452	Chepang (Eastern)	klyoy◦baŋ	klyoy◦baŋ	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
+128017	452	Chepang (Eastern)	dom klyoynaʔ	dom klyoynaʔ	limp	limp (v.)	v	1.5.12	6.2.8	0		
+128018	452	Chepang (Eastern)	(krut)◦brəyh	(krut)◦brəyh	finger	finger		1.5.6	7.1	0		712,328
+128019	452	Chepang (Eastern)	doy◦chumʔ	doy◦chumʔ	index finger	index finger		1.0	7.1.1	0		
+128020	452	Chepang (Eastern)	ma◦geʔ	ma◦geʔ	middle finger	middle finger		1.9.4	7.1.2	0		
+128021	452	Chepang (Eastern)	geʔchumʔ	geʔchumʔ	ring finger	ring finger		1.5.6.2	7.1.3	0		
+128022	452	Chepang (Eastern)	geʔ◦chik	geʔ◦chik	little finger	little finger		9.7.2	7.1.4	0		
+128023	452	Chepang (Eastern)	ma◦dəmʔ	ma◦dəmʔ	thumb	thumb		1.5.6.1	7.1.5	0		
+128024	452	Chepang (Eastern)	dom◦brəyh	dom◦brəyh	toe	toe		1.5.6	7.2	0	D0	
+128025	452	Chepang (Eastern)	(dom) ma◦dəmʔ	(dom) ma◦dəmʔ	big toe	big toe		1.5.6.1	7.2.1	0		
+128026	452	Chepang (Eastern)	kroh	kroh	knuckle (joint of digit)	knuckle (joint of digit)		1.5.8.5	7.3	0		422
+128027	452	Chepang (Eastern)	sən	sən	nail	nail		1.5.10	7.4	0		512
+128028	452	Chepang (Eastern)	(krut)◦sən	(krut)sən	fingernail	fingernail		1.5.10.1	7.4.1	0		712,512
+128029	452	Chepang (Eastern)	(dom)◦sən	(dom)sən	toenail	toenail		1.5.10.2	7.4.2	0		m,512
+128030	452	Chepang (Eastern)	sən	sən	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		
+128031	452	Chepang (Eastern)	sən	sən	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		
+128032	452	Chepang (Eastern)	dam◦bəla	dam◦bəla	pincers (eg. of crab)	pincers (eg. of crab)		1.5.10.4	7.4.5	0		
+128033	452	Chepang (Eastern)	myaŋ	myaŋ	hair of head	hair of head		1.2.3	8.1.1	0	D1	m
+128034	452	Chepang (Eastern)	kewʔ	kewʔ	cowlick (flexure in hair)	cowlick (flexure in hair)		1.2.3.1	8.1.1.1	0		m
+128035	452	Chepang (Eastern)	gon◦che	gon◦che	moustache	moustache		1.2.5.5	8.1.2	0	HIDE	DUPE IN SOURCE
+128036	452	Chepang (Eastern)	gon◦che	gon◦che	beard	beard		1.2.5.5	8.1.2.1	0		630,m
+128037	452	Chepang (Eastern)	gon◦che	gon◦che	moustache	moustache		1.2.5.5	8.1.2.3	0	D1	454,1111
+128038	452	Chepang (Eastern)	menʔ	menʔ	body hair	body hair		1.6.1	8.1.3	0		2058
+128039	452	Chepang (Eastern)	menʔ	menʔ	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		m
+128040	452	Chepang (Eastern)	menʔ	menʔ	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		2058
+128041	452	Chepang (Eastern)	phep◦pap	phep◦pap	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		m,m
+128042	452	Chepang (Eastern)	pun	pun	skin	skin		1.6.5	8.2	0		591
+128043	452	Chepang (Eastern)	hləp◦rə◦tiʔ	hləp◦rə◦tiʔ	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		611,m,298
+128044	452	Chepang (Eastern)	ku◦liŋ	ku◦liŋ	pore	pore		1.8.1.1	8.2.2	0		
+128045	452	Chepang (Eastern)	dyus	dyus	pimple	pimple		1.6.5.3	8.2.3.2	0		
+128046	452	Chepang (Eastern)	cik	cik	mole	mole		2.2.7	8.2.3.3	0		
+128047	452	Chepang (Eastern)	cik	cik	wart	wart		1.6.5.3	8.2.3.4	0		
+128048	452	Chepang (Eastern)	her	her	cyst	cyst		1.6.5.3	8.2.3.5	0		
+128049	452	Chepang (Eastern)	ca	ca	scar	scar		1.6.5.3	8.2.3.7	0		
+128050	452	Chepang (Eastern)	krəyh	krəyh	wrinkle	wrinkle		9.6.2	8.2.3.8	0	D0	
+128051	452	Chepang (Eastern)	sram◦naca	sram◦naca	rash	rash		1.6.5.3	8.2.3.9	0		
+128052	452	Chepang (Eastern)	sos◦naʔ	sos◦naʔ	itch  /  be itchy	itch (v.)  /  be itchy	v	1.6.5.5	8.2.3.10	0		1463,m
+128053	452	Chepang (Eastern)	ca◦rok	ca◦rok	scab	scab		1.6.5.3	8.2.4	0		
+128054	452	Chepang (Eastern)	kaw	kaw	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		589
+128055	452	Chepang (Eastern)	chala (Nepali)	chala (Nepali)	hide / leather (dried animal s	hide  /  leather (dried animal s		1.6.5.1	8.2.6	0		bNepali
+128056	452	Chepang (Eastern)	chəwʔ	chəwʔ	fat	fat		1.6.4	8.3	0		42
+128057	452	Chepang (Eastern)	ʔenʔ◦chəwʔ	ʔenʔ◦chəwʔ	fat around intestines / omentum	fat around intestines / omentum		1.6.4	8.3.1	0		m,42
+128058	452	Chepang (Eastern)	sa◦ti	sa◦ti	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		60,1439
+128059	452	Chepang (Eastern)	hrus	hrus	bone	bone		1.6.3	8.4	0		234
+128060	452	Chepang (Eastern)	yon◦ko◦la	yon◦ko◦la	skeleton	skeleton		1.6.3.1	8.4.1	0		238,m,m
+128061	452	Chepang (Eastern)	sirə	sirə	marrow	marrow		1.6.3.5	8.4.3	0	HIDE	DUPE IN SOURCE
+128062	452	Chepang (Eastern)	soʔ	soʔ	sinew / tendon (muscle to bone	sinew  /  tendon (muscle to bone		1.6.6.1	8.5	0		530
+128063	452	Chepang (Eastern)	soʔ	soʔ	ligament (bone to bone)	ligament (bone to bone)		1.6.3	8.6	0		530
+128064	452	Chepang (Eastern)	wəyʔ	wəyʔ	blood	blood		1.6.2	8.7	0		230
+128065	452	Chepang (Eastern)	soʔ	soʔ	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		530
+128066	452	Chepang (Eastern)	wəyʔ◦naʔ	wəyʔ◦naʔ	bleed	bleed (v.)	v	1.6.2	8.7.2	0		230
+128067	452	Chepang (Eastern)	yuʔ◦mayʔ	yuʔ◦mayʔ	swelling of muscle	swelling of muscle		1.1.5.2	8.8.1	0		
+128068	452	Chepang (Eastern)	soʔ	soʔ	nerve	nerve		1.6.6.3	8.10	0		530
+128069	452	Chepang (Eastern)	puh◦kliʔ	puh◦kliʔ	brain	brain		1.2.4	9.1	0		385,572
+128070	452	Chepang (Eastern)	sirə	sirə	marrow	marrow		1.6.3.5	9.1.2	0	D1	464
+128071	452	Chepang (Eastern)	pop	pop	lung	lung		1.7.2	9.2	0		m
+128072	452	Chepang (Eastern)	prop	prop	lung	lung		1.7.2	9.2	0		m
+128073	452	Chepang (Eastern)	hawh lamʔ◦naʔ	hawh lamʔ◦naʔ	breathe heavily	breathe heavily(v.)	v	1.1.2.2	9.2.1	0		m,m,m
+128074	452	Chepang (Eastern)	hawh lamʔ◦naʔ	hawh lamʔ◦naʔ	pant	pant (v.)	v	1.1.2.2	9.2.2	0		
+128075	452	Chepang (Eastern)	mut◦naʔ	mut◦naʔ	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		503,m
+128076	452	Chepang (Eastern)	huyk◦naʔ	huyk◦naʔ	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		3418,m
+128077	452	Chepang (Eastern)	syo◦naʔ	syo◦naʔ	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		67,m
+128078	452	Chepang (Eastern)	kəm◦pət	kəm◦pət	gill (of fish)	gill (of fish)		1.3.5.3	9.2.4	0		
+128079	452	Chepang (Eastern)	har	har	phlegm	phlegm		1.8.3	9.2.5	0		541
+128080	452	Chepang (Eastern)	hluŋ◦(gore)	hluŋ◦(gore)	heart	heart		1.7.1	9.3	0		1381,820
+128081	452	Chepang (Eastern)	hluŋ sraw◦naʔ	hluŋ sraw◦naʔ	heartbeat	heartbeat		1.7.1.1	9.3.1	0		1381
+128082	452	Chepang (Eastern)	nari	nari	pulse	pulse		1.7.1.1	9.3.2	0		m
+128083	452	Chepang (Eastern)	tuk◦kliʔ	tukkliʔ	viscera / guts / entrails (in	viscera  /  guts  /  entrails (in		1.7.7	9.4	0		m,572
+128084	452	Chepang (Eastern)	sinh	sinh	liver	liver		1.7.3	9.5	0		1390
+128085	452	Chepang (Eastern)	hi	hi	bile	bile		1.7.3.1	9.5.1	0		227
+128086	452	Chepang (Eastern)	hi	hi	gall bladder	gall bladder		1.7.3	9.5.2	0		227
+128087	452	Chepang (Eastern)	gəl	gəl	kidney	kidney		1.7.5	9.6	0		201
+128088	452	Chepang (Eastern)	chyus◦ru◦dum	chyus◦ru◦dum	urinary bladder	urinary bladder		1.7.8	9.7	0		
+128089	452	Chepang (Eastern)	chyus	chyus	urine	urine		1.8.4	9.7.1	0		2795
+128090	452	Chepang (Eastern)	chyuʔ◦naʔ	chyuʔ◦naʔ	urinate	urinate (v.)	v	1.5.3.2	9.7.2	0		2795,m
+128091	452	Chepang (Eastern)	leh	leh	spleen	spleen		1.7.4	9.8	0		2812
+128092	452	Chepang (Eastern)	tuk◦pun	tuk◦pun	stomach	stomach		1.7.6	9.10	0		m,3
+128093	452	Chepang (Eastern)	yoŋ◦kliʔ	yoŋ◦kliʔ	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		m,572
+128094	452	Chepang (Eastern)	dum◦yoŋ◦kliʔ	dum◦yoŋ◦kliʔ	large intestine	large intestine		1.7.7	9.11.1	0		m,2117,572
+128095	452	Chepang (Eastern)	wirh◦yoŋ◦kli	wirh◦yoŋ◦kli	small intestine	small intestine		9.7.2	9.11.2	0		m,2117,572
+128096	452	Chepang (Eastern)	por◦ghaŋ	por◦ghaŋ	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		265,820
+128097	452	Chepang (Eastern)	por◦thyo◦reŋ	por◦thyo◦reŋ	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		265,m
+128098	452	Chepang (Eastern)	kliʔ	kliʔ	feces / shit	feces  /  shit		1.8.5	9.12.1	0		572
+128099	452	Chepang (Eastern)	ʔay◦laŋ◦kliʔ	ʔay◦laŋ◦kliʔ	meconium / baby shit	meconium  /  baby shit		1.8.5	9.12.2	0		m,m,572
+128100	452	Chepang (Eastern)	ʔot◦naʔ	ʔot◦naʔ	defecate	defecate (v.)	v	1.8.5.4	9.12.3	0		
+128101	452	Chepang (Eastern)	təyŋ	təyŋ	genitalia / pudenda (male)	genitalia  /  pudenda (male)		1.9.1	10.1	0		3421
+128102	452	Chepang (Eastern)	tuʔ	tuʔ	genitalia / pudenda (female)	genitalia  /  pudenda (female)		1.9.1	10.1	0		661
+128103	452	Chepang (Eastern)	luʔ◦naʔ	luʔ◦naʔ	copulate	copulate		1.9.1.1	10.2	0		1154,548
+128104	452	Chepang (Eastern)	goyʔ◦coʔ	goyʔ◦coʔ	male	male		1.9.6.1	10.3	0		1640,m
+128105	452	Chepang (Eastern)	təyŋ	təyŋ	penis	penis			10.3.1	0		3421
+128106	452	Chepang (Eastern)	təŋ	təŋ	penis	penis			10.3.1	0		3421
+128107	452	Chepang (Eastern)	təyŋ◦ta◦laŋ	təyŋ◦ta◦laŋ	glans penis	glans penis			10.3.2	0		3421,p,392
+128108	452	Chepang (Eastern)	təyŋ◦thyo◦reŋ	təyŋ◦thyo◦reŋ	foreskin	foreskin			10.3.3	0		3421,m,781
+128109	452	Chepang (Eastern)	krak◦pun	krak◦pun	scrotum	scrotum			10.3.4	0		3437,m
+128110	452	Chepang (Eastern)	krak	krak	testicle	testicle			10.3.5	0		3437
+128111	452	Chepang (Eastern)	krak◦mənʔ	krak◦mənʔ	male pubic hair	male pubic hair			10.3.6	0		m,2058
+128112	452	Chepang (Eastern)	təyŋ◦kliʔ	təyŋ◦kliʔ	semen	semen			10.3.7	0		3421,572
+128113	452	Chepang (Eastern)	plekeʔ◦naʔ	plekeʔ◦naʔ	castrate	castrate (v.)	v	1.9.2.3	10.3.9	0		m,m
+128114	452	Chepang (Eastern)	momʔ◦coʔ	momʔ◦coʔ	female	female		1.9.3	10.4	0		m,m
+128115	452	Chepang (Eastern)	tuʔ◦ghaŋ	tuʔ◦ghaŋ	vagina	vagina			10.4.1	0		661,m
+128116	452	Chepang (Eastern)	tuʔ◦bleŋ	tuʔ◦bleŋ	vulva / labia	vulva  /  labia			10.4.2	0		661,m
+128117	452	Chepang (Eastern)	cin	cin	clitoris	clitoris			10.4.4	0		667
+128118	452	Chepang (Eastern)	tuʔ◦menʔ	tuʔ◦menʔ	female pubic hair	female pubic hair			10.4.5	0		661,2058
+128119	452	Chepang (Eastern)	nay◦ro waŋ◦naʔ	nay◦ro waŋ◦naʔ	menstruate	menstruate (v.)	v	1.9.11.1	10.4.6	0		m,m,m,m
+128120	452	Chepang (Eastern)	ʔaŋ◦rəyʔ	ʔaŋ◦rəyʔ	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		m,m
+128121	452	Chepang (Eastern)	nay◦ro	nay◦ro	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		m,m
+128122	452	Chepang (Eastern)	so◦nalʔ	so◦nalʔ	womb	womb			10.4.8	0		1012,675
+128123	452	Chepang (Eastern)	payʔ	payʔ	placenta	placenta			10.4.11	0		677
+128124	452	Chepang (Eastern)	payʔ◦ra	payʔ◦ra	umbilical cord	umbilical cord			10.4.12	0		1629,m
+128125	452	Chepang (Eastern)	coʔ (tuk) lat◦naʔ	coʔ (tuk) lat◦naʔ	pregnant	pregnant	be	1.9.6.1	10.4.14	0		
+128126	452	Chepang (Eastern)	coʔ ʔot◦naʔ	coʔ ʔot◦naʔ	birth, give	birth, give		1.1.2	10.4.15	0		m,3482,m
+128127	452	Chepang (Eastern)	ʔum	ʔum	egg (of birds, insects)	egg (of birds, insects)			10.4.16	0		304
+128128	452	Chepang (Eastern)	syup◦naʔ	syup◦naʔ	cough	cough (v.)	v	1.8.3.3	11.1	0		
+128129	452	Chepang (Eastern)	hluk◦ʔunʔ◦ja	hluk◦ʔunʔ◦ja	hiccup	hiccup (n.)	n	1.8.3.5	11.2	0		
+128130	452	Chepang (Eastern)	jhiŋh◦naʔ	jhiŋh◦naʔ	sneeze	sneeze (v.)	v	1.8.2.1	11.3	0		
+128131	452	Chepang (Eastern)	hŋrok◦naʔ	hŋrok◦naʔ	snore	snore (v.)	v	1.8.2.2	11.4	0		1784,m
+128132	452	Chepang (Eastern)	ʔus◦naʔ	ʔus◦naʔ	whistle	whistle (v.)	v	8.5.5	11.5	0		3418,s
+128133	452	Chepang (Eastern)	huyk◦naʔ	huyk◦naʔ	whistle	whistle (v.)	v	8.5.5	11.5	0		3418,s
+128134	452	Chepang (Eastern)	khuyk◦naʔ	khuyk◦naʔ	whistle	whistle (v.)	v	8.5.5	11.5	0		3418,s
+128135	452	Chepang (Eastern)	ghrəʔ◦naʔ	ghrəʔ◦naʔ	burp  /  belch	burp  /  belch (v.)	v	1.8.3	11.6	0		
+128136	452	Chepang (Eastern)	pes	pes	fart	fart (n.)	n	1.8.5.2	11.7	0		311
+128137	452	Chepang (Eastern)	peʔ◦naʔ	peʔ◦naʔ	fart	fart (v.)	v	1.8.5.2	11.7	0		311,m
+128138	452	Chepang (Eastern)	har tyumh◦naʔ	har tyumh◦naʔ	clear throat	clear throat		9.6.1.1	11.8	0		
+128139	452	Chepang (Eastern)	ŋiʔ◦naʔ	ŋiʔ◦naʔ	laugh	laugh		1.8.8.1	11.9	0		1105,m
+128140	452	Chepang (Eastern)	riŋh◦naʔ	riŋh◦naʔ	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
+128141	452	Chepang (Eastern)	jik◦naʔ	jik◦naʔ	sick / be ill / hurt	sick  /  be ill  /  hurt	be	1.1.5.1	12.2	0		1846,m
+128142	452	Chepang (Eastern)	dyandya◦naʔ	dyandya◦naʔ	numb /  be paralyzed	numb  /   be paralyzed	be	1.5.11	12.3	0		
+128143	452	Chepang (Eastern)	gryanyanaʔ	gryanyanaʔ	numb /  be paralyzed	numb  /   be paralyzed	be	1.5.11	12.3	0		
+128144	452	Chepang (Eastern)	gryonaʔ	gryonaʔ	numb /  be paralyzed	numb  /   be paralyzed	be	1.5.11	12.3	0		
+128145	452	Chepang (Eastern)	maŋ◦naʔ	maŋ◦naʔ	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
+128146	452	Chepang (Eastern)	ʔum◦kliʔ	ʔum◦kliʔ	pus	pus		1.8.6.1	12.5	0		1298,572
+128147	452	Chepang (Eastern)	tup◦kru	tup◦kru	cubit (elbow to knuckles of cl	cubit (elbow to knuckles of cl		10.1.1	13.3	0		m,307
+128148	452	Chepang (Eastern)	phyah◦kru	phyahkru	cubit (elbow to fingertips)	cubit (elbow to fingertips)		1.5.9.3	13.3	0		5824,m,307
+128149	452	Chepang (Eastern)	hluŋ◦tuk	hluŋ◦tuk	mind / locus of thought	mind  /  locus of thought		1.10	14.1	0		1381,m
+128150	452	Chepang (Eastern)	hluŋ◦tuk	hluŋ◦tuk	heart / locus of emotions	heart  /  locus of emotions		1.7.1	14.2	0		1381,m
+128151	452	Chepang (Eastern)	hluŋ◦tuk	hluŋ◦tuk	heart / locus of personality	heart  /  locus of personality		1.7.1	14.3	0		1381,m

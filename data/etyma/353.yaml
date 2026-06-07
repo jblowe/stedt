@@ -1,0 +1,20 @@
+tag: 353
+grpid: 2
+proto_language: PTB
+protoform: kup
+gloss: FOREHEAD
+semkey: 1.2.5.1
+sequence: 10.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: kup
+  initial: k
+  rhyme: up
+  initcover: K
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root seems to be restricted to TB languages of Nepal. The resemblance to Nepali <latinform>kapāl</latinform>
+    is apparently accidental.</par>

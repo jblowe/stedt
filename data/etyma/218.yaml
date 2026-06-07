@@ -1,0 +1,19 @@
+tag: 218
+grpid: 2
+proto_language: PTB
+protoform: pʷam
+gloss: WAIST
+semkey: 1.4.6
+sequence: 10.0
+status: DELETE
+public: false
+exemplary: true
+xrefs: '137'
+possallo: '137'
+phonology:
+  handle: wam
+  prefix: p
+  initial: w
+  rhyme: am
+  initcover: L
+  rhymecover: N

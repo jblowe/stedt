@@ -1,0 +1,29 @@
+tag: 152
+grpid: 2
+proto_language: PTB
+protoform: kyi
+gloss: LIFT / RAISE / AWAKE
+semkey: '6.16'
+sequence: 11.0
+status: KEEP
+public: true
+references: DL p.526
+phonology:
+  handle: kyi
+  initial: ky
+  rhyme: i¹/²
+  tone: ²
+  initcover: K
+  rhymecover: V
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: kyi¹˜²
+  gloss: LIFT / RAISE
+notes:
+- type: T
+  text: '<par>This root shows tonal variation in Written Burmese: <latinform>khyi</latinform> &apos;promote,
+    exalt&apos; (&lt; Tone *1) ⪤ <latinform>khyî</latinform> &apos;lift, raise&apos; (&lt; Tone *2).</par>'
+- type: F
+  text: '<par><hanform>起</hanform> OC <latinform>*kʼi̯əg</latinform>, GSR #953r &apos;rise, raise&apos;;
+    B &amp; S 2011: <latinform>*C.qʰəʔ {C.qʰ(r)əʔ}</latinform>; Mand. <latinform>qǐ</latinform>.</par>'

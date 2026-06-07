@@ -1,0 +1,14 @@
+tag: 5610
+grpid: 2
+proto_language: PTB
+protoform: nwam
+gloss: PUSH / PRESS
+semkey: 6.2.2.3.1
+sequence: 8.0
+status: KEEP
+public: false
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: nam ⪤ nom
+  gloss: PUSH / PRESS / PRINT

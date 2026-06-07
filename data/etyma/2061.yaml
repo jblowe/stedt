@@ -1,0 +1,16 @@
+tag: 2061
+grpid: 62
+proto_language: IA
+protoform: baŋgar
+gloss: JAW
+semkey: 1.2.5.2
+sequence: 20.0
+status: KEEP
+public: false
+references: ("NPL") Loan < Nepali
+phonology:
+  handle: baŋ
+  initial: b
+  rhyme: aŋ-gar
+  initcover: P
+  rhymecover: VNL

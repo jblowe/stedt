@@ -1,0 +1,16 @@
+tag: 1831
+grpid: 2
+proto_language: PTB
+protoform: tšar
+gloss: FULL
+semkey: 1.1.3.2
+sequence: 12.0
+status: DELETE
+public: false
+references: satiated? SATED?
+phonology:
+  handle: tšar
+  initial: tš
+  rhyme: ar
+  initcover: TS
+  rhymecover: L

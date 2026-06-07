@@ -1,0 +1,25 @@
+tag: 3527
+grpid: 2
+proto_language: PTB
+protoform: h(w)aŋ
+gloss: RICE / CURRY
+semkey: 3.1.4
+sequence: 5.0
+status: KEEP
+public: false
+references: JAM-LITB 6.2
+phonology:
+  initial: h(w)
+  rhyme: aŋ
+  initcover: H
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: haaŋ
+  gloss: JUICE / CURRY
+notes:
+- type: T
+  text: <par>Interestingly, this root can either mean RICE or THAT WHICH IS EATEN WITH RICE. Cf. the basic
+    distinction made in Siamese between <latinform>khâaw</latinform> &apos;rice&apos; amd <latinform>kàp-khâaw</latinform>
+    &apos;accompaniment to rice&apos;.</par><par>For a phonosemantically similar root, see <xref ref="3531">#3531</xref>.</par>

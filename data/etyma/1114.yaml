@@ -1,0 +1,21 @@
+tag: 1114
+grpid: 2
+proto_language: PTB
+protoform: s-ma-ŋ
+gloss: BEARD / MOUSTACHE
+semkey: 1.2.5.5
+sequence: 5.0
+status: KEEP
+public: true
+phonology:
+  handle: ma
+  prefix: s
+  initial: m
+  rhyme: a-ŋ
+  suffix: ŋ
+  initcover: M
+  rhymecover: VN
+notes:
+- type: T
+  text: <par>This root is quite distinct from <xref ref="363">#363</xref>. Compare, e.g. WB <latinform>mwê</latinform>
+    &lt; <latinform>*s-mul</latinform> vs. <latinform>hmaŋ</latinform> &lt; <latinform>*s-ma-ŋ</latinform>.</par>

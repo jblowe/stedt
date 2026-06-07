@@ -1,0 +1,20 @@
+tag: 3331
+grpid: 2
+proto_language: PTB
+protoform: m/b-gyu(ŋ/k)
+gloss: TAIL / BACKSIDE
+semkey: 1.4.10.1
+sequence: 2.0
+status: KEEP
+public: true
+references: 'reflexes: WT, Achang, Anong'
+phonology:
+  handle: m/b-d ̌
+  initial: dž
+  rhyme: u(k/ŋ)
+  initcover: TS
+  rhymecover: NT
+notes:
+- type: T
+  text: <par>The semantic range of this etymon seems to extend from COCCYX to BUTTOCK. Witness the WT
+    allofamic pair <latinform>gźug</latinform> &apos;coccyx&apos; ⪤ <latinform>mǰug</latinform> &apos;backside&apos;.</par>

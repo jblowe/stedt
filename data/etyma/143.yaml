@@ -1,0 +1,23 @@
+tag: 143
+grpid: 2
+proto_language: PTB
+protoform: s-nəw
+gloss: AWAKE / AWAKEN
+semkey: 1.1.4
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: nəw
+  prefix: s
+  initial: n
+  rhyme: əw
+  initcover: M
+  rhymecover: W
+notes:
+- type: T
+  text: <par>This is a simplex/causative pair in Lolo-Burmese, e.g. WB <latinform>nûi</latinform>, Lahu
+    <latinform>nɔ̂</latinform> &apos;wake up&apos; &lt; PLB <reconstruction>*nəw²</reconstruction> and
+    WB <latinform>hnûi</latinform>, Lahu <latinform>nɔ̄</latinform> &apos;awaken someone&apos; &lt; PLB
+    <reconstruction>*ʔnəw²</reconstruction>.</par>

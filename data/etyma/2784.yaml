@@ -1,0 +1,42 @@
+tag: 2784
+grpid: 2
+proto_language: PTB
+protoform: ya-n
+gloss: NIGHT
+semkey: 9.1.4
+sequence: 2522.0
+status: KEEP
+public: true
+references: STC#417
+phonology:
+  handle: ya
+  initial: y
+  rhyme: a
+  initcover: L
+  rhymecover: V
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: joː
+  gloss: NIGHT
+- grpid: 12
+  group: 1.7.2
+  form: C̬-yaᴬ
+  gloss: NIGHT
+- grpid: 66
+  group: 1.3.4
+  form: ja
+  gloss: NIGHT
+- grpid: 8
+  group: '1.2'
+  form: yaan
+  gloss: NIGHT
+notes:
+- type: T
+  text: <par>The allofam with final <latinform>-n</latinform> is reflected in the Kuki-Chin group.</par><par>The
+    Chinese comparanda, if valid, point to an allofam with a final velar.</par>
+- type: F
+  text: '<par><hanform>夜</hanform> OC <latinform>*zi̯ɑ̆g</latinform>, GSR #800j &apos;night&apos;; Coblin
+    86:112-3 ST <latinform>*riak</latinform> &gt; OC <latinform>*riagh</latinform>; Schuessler 2007:561-2
+    <latinform>*jah</latinform> &gt; <latinform>*jahk</latinform>; B &amp; S 2011: <latinform>*N.rak-s
+    {N.rAk-s}</latinform>; Mand. <latinform>yè</latinform>.</par>'

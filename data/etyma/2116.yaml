@@ -1,0 +1,18 @@
+tag: 2116
+grpid: 2
+proto_language: PTB
+protoform: r-gyu-ŋ
+gloss: GUTS
+semkey: 1.7.7
+sequence: 1.0
+status: KEEP
+public: false
+references: VSTB 216
+phonology:
+  handle: gyu
+  prefix: r
+  initial: gy
+  rhyme: u-ŋ
+  suffix: ŋ
+  initcover: K
+  rhymecover: VN

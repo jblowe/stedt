@@ -1,0 +1,16 @@
+tag: 440
+grpid: 2
+proto_language: PTB
+protoform: s-la
+gloss: KNEE
+semkey: 1.5.8.4
+sequence: 8.0
+status: DELETE
+public: false
+phonology:
+  handle: la
+  prefix: s
+  initial: l
+  rhyme: a
+  initcover: L
+  rhymecover: V

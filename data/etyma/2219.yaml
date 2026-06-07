@@ -1,0 +1,27 @@
+tag: 2219
+grpid: 2
+proto_language: PTB
+protoform: dzwan
+gloss: HAWK / KITE
+semkey: 2.2.4.1
+sequence: 2113.0
+status: KEEP
+public: true
+references: cf. STC p.49, HPTB pp.30, 259
+phonology:
+  handle: dzwan
+  initial: dzw
+  rhyme: an
+  tone: ¹
+  initcover: TS
+  rhymecover: N
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: dzwan¹
+  gloss: HAWK / KITE
+notes:
+- type: F
+  text: '<par><hanform>鳶</hanform> OC <latinform>*di̯wɑn</latinform>, GSR #230a; Mand. <latinform>yuān</latinform>.</par>'
+- type: T
+  text: <par>This root occurs primarily in Lolo-Burmese, with a good Chinese comparandum.</par>

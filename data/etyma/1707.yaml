@@ -1,0 +1,23 @@
+tag: 1707
+grpid: 2
+proto_language: PTB
+protoform: ka-y/w/m
+gloss: EAT
+semkey: 1.5.3.2
+sequence: 3.0
+status: KEEP
+public: true
+references: Qiangish, Nungish, Himalayish
+phonology:
+  handle: ka-y/w
+  prefix: N
+  initial: k
+  rhyme: a-y/w
+  suffix: y/w
+  initcover: K
+  rhymecover: VW
+notes:
+- type: T
+  text: <par>This putative root has reflexes with open syllables, as well as syllables with final semivowel
+    or <latinform>-m</latinform>. Further confirmation is required to assure the authenticity of all these
+    variants.</par>

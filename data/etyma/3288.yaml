@@ -1,0 +1,22 @@
+tag: 3288
+grpid: 5
+proto_language: PTani
+protoform: pjak
+gloss: WOOL
+semkey: 1.6.1.3
+sequence: 3537.0
+status: KEEP
+public: false
+references: JS-HCST: 138
+phonology:
+  handle: pjak
+  initial: pj
+  rhyme: ak
+  initcover: P
+  rhymecover: T
+notes:
+- type: I
+  text: <par>JS notes a Padam-Mising L form si-pjak &apos;cotton as it comes from the pod&apos;. JS, HCST:138.
+    There are a number of <latinform>*pjak</latinform> reflexes that mean &apos;cotton&apos;, often as
+    the second part of a compound in which the first element is &apos;tree&apos;, i.e. &apos;cotton&apos;
+    = &apos;tree&apos; + &apos;wool&apos;.</par>

@@ -1,0 +1,16 @@
+tag: 1256
+grpid: 2
+proto_language: PTB
+protoform: s-tiŋ
+gloss: EYE
+semkey: 1.2.6
+sequence: 3.0
+status: DELETE
+public: false
+phonology:
+  handle: tiŋ
+  prefix: s
+  initial: t
+  rhyme: iŋ
+  initcover: T
+  rhymecover: N

@@ -1,0 +1,31 @@
+tag: 1232
+grpid: 2
+proto_language: PTB
+protoform: n-dzi-k
+gloss: HAIR (HEAD)
+semkey: 1.2.3
+sequence: 3.0
+status: KEEP
+public: true
+xrefs: PL *tsi¹
+phonology:
+  handle: dzi
+  prefix: n
+  initial: dz
+  rhyme: i-k
+  suffix: k
+  initcover: TS
+  rhymecover: VT
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: tsi¹
+  gloss: HAIR (HEAD)
+notes:
+- type: T
+  text: '<par><reconstruction>*n-dzi</reconstruction>. This etymon may be related to two verbs, PLB <reconstruction>*ʔtsik</reconstruction>
+    ‘be stuck onto’ (Lh. <latinform>cɨ́</latinform> ‘be stuck in place; <latinform>pâ-</latinform><latinform>cɨ̂ʔ</latinform><latinform>-mu</latinform>
+    ‘beard’ ), and PLB <reconstruction>*ʔdzik</reconstruction> ‘be joined; join to’  (Lh. <latinform>cɨ́</latinform>)
+    [LTSR #45]. Cf. <xref ref="418">#418</xref>. Lahu informants vouch for the semantic connection, feeling
+    that hairs are “stuck onto”  the head or face. This perhaps should be taken with a grain of salt,
+    however.</par>'

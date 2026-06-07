@@ -1,0 +1,21 @@
+tag: 3485
+grpid: 2
+proto_language: PTB
+protoform: sut
+gloss: GIVE BIRTH
+semkey: 1.1.2
+sequence: 34.0
+status: KEEP
+public: true
+references: Yakha, Lashi
+phonology:
+  handle: sut
+  initial: s
+  rhyme: ut
+  initcover: S
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This etymon is worth setting up, even though it only occurs for sure in two widely separated
+    languages, one Himalayish (Yakha) and one Burmish (Lashi). The affiliation of the Karen form is uncertain,
+    though it possibly reflects an allofam <reconstruction>*sit</reconstruction>.</par>

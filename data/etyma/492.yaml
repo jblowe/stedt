@@ -1,0 +1,16 @@
+tag: 492
+grpid: 2
+proto_language: PTB
+protoform: m-grin
+gloss: THROAT / NECK
+semkey: 1.3.5
+sequence: 11.0
+status: DELETE
+public: false
+phonology:
+  handle: grin
+  prefix: m
+  initial: gr
+  rhyme: in
+  initcover: K
+  rhymecover: N

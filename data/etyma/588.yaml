@@ -1,0 +1,21 @@
+tag: 588
+grpid: 2
+proto_language: PTB
+protoform: l-pak
+gloss: SKIN
+semkey: 1.6.5
+sequence: 12.0
+status: KEEP
+public: true
+phonology:
+  handle: pwak
+  prefix: l
+  initial: p(w)
+  rhyme: ak
+  initcover: P
+  rhymecover: T
+notes:
+- type: T
+  text: <par>Several forms from Tibetan dialects show lenition of the initial to <latinform>w-</latinform>.
+    For the widespread TB variation between labial stops and <latinform>w-</latinform>, see Matisoff 2000,
+    &quot;An extrusional approach to <latinform>*p-/w-</latinform> variation in Sino-Tibetan&quot;.</par>

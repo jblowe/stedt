@@ -1,0 +1,29 @@
+tag: 5498
+grpid: 2
+proto_language: PTB
+protoform: la-y
+gloss: QUESTION PARTICLE / INTERROGATIVE
+semkey: 8.5.7.1
+sequence: 2732.0
+status: KEEP
+public: false
+references: cf. HPTB pp. 209, 231, 488
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: la²
+  gloss: yes/no question particle
+- grpid: 42
+  group: '6.1'
+  form: lay²/³
+  gloss: substance question particle
+notes:
+- type: T
+  text: '<par>Lolo-Burmese distinguishes between the open syllable allofam <latinform>*la</latinform>
+    and the suffixed form <latinform>*lay</latinform>, with a semantic difference: signaling yes/no questions
+    vs. substance questions, respectively. See GSTC set #131, Matisoff 1995 (&quot;Palatal suffixes&quot;)
+    #21, and HPTB p. 488.</par>'
+- type: F
+  text: '<par>Chinese <hanform>與</hanform> or <hanform>歟</hanform> &apos;final (yes/no or rhetorical)
+    interrogative particle&apos; is reconstructed as OC <latinform>*zi̯o</latinform> in GSR #89b-d and
+    #89e (Mand. <latinform>yú</latinform>), but as <latinform>*lă</latinform> in WHB&apos;s system.</par>'

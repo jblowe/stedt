@@ -1,0 +1,42 @@
+tag: 2256
+grpid: 2
+proto_language: PTB
+protoform: s-gywa(n/t)
+gloss: WEAR / PUT ON / CLOTHE
+semkey: 6.2.2.1
+sequence: 1.1
+status: KEEP
+public: true
+references: cf. HPTB pp. 334, 335; STC#160
+phonology:
+  handle: gwa-n
+  initial: gw
+  rhyme: a-n ~kwa
+  suffix: n
+  initcover: K
+  rhymecover: VNWT
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: ge ?
+  gloss: CLOTHES
+- grpid: 42
+  group: '6.1'
+  form: gwa²
+  gloss: WEAR
+- grpid: 50
+  group: '7'
+  form: kwan
+  gloss: put on (lower clothes)
+notes:
+- type: T
+  text: <par>All the forms cited here were put into the same etymon for the first time in HPTB:333-334.</par><par>The
+    alternation between homorganic nasal and stop in this root is well-attested. Note the complex word
+    family in WT. There is a good Chinese comparandum.</par><par>The Qiangic (including Tangut) forms
+    show the expected &quot;brightening&quot; of the vowel to <latinform>-i</latinform>.</par>
+- type: F
+  text: '<par><hanform>冠</hanform> OC <latinform>*kwɑ̂n</latinform>, GSR #160a &apos;cap, crown(n.)&apos;;
+    Schuessler 2007:265 <latinform>*kôn</latinform>; B &amp; S 2011: <latinform>*k.ʔˁon</latinform>; Mand.
+    <latinform>guān</latinform>.<br /><hanform>冠</hanform> OC <latinform>*kwɑ̂n</latinform>, GSR #160a
+    &apos;put on (cap)&apos;; Schuessler 2007:265 <latinform>*kôns</latinform>; B &amp; S 2011: <latinform>*k.ʔˁon-s</latinform>;
+    Mand. <latinform>guàn</latinform>.</par>'

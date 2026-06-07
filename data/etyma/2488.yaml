@@ -1,0 +1,20 @@
+tag: 2488
+grpid: 2
+proto_language: PTB
+protoform: s-n(y)aŋ
+gloss: FOLLOW / REPEAT
+semkey: 6.7.10
+sequence: 1955.0
+status: KEEP
+public: true
+references: cf. STC#334, HPTB pp.263, 302
+phonology:
+  handle: naŋ
+  initial: n
+  rhyme: aŋ=(s-)n
+  initcover: M
+  rhymecover: VNS
+notes:
+- type: F
+  text: '<par><hanform>仍</hanform> OC <latinform>*ńi̯əng</latinform>, GSR #945e &apos;repeat, as before&apos;;
+    B &amp; S 2011: <latinform>*nəŋ</latinform>; Mand. <latinform>réng</latinform>.</par>'

@@ -1,0 +1,16 @@
+tag: 2268
+grpid: 3
+proto_language: NEIA
+protoform: s-wam OR hwam
+gloss: DARE
+sequence: 1565.0
+status: DELETE
+public: true
+xrefs: '5652'
+references: cf. STC#216, HPTB pp.55, 252, 298
+phonology:
+  handle: hwam
+  initial: hw
+  rhyme: am
+  initcover: H
+  rhymecover: N

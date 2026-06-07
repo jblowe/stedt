@@ -1,0 +1,18 @@
+tag: 1829
+grpid: 2
+proto_language: PTB
+protoform: kru
+gloss: SATIATED
+semkey: 1.1.3.2
+sequence: 5.0
+status: KEEP
+public: true
+phonology:
+  handle: kru
+  initial: kr
+  rhyme: u
+  initcover: K
+  rhymecover: V
+notes:
+- type: I
+  text: <par>This root has scattered but convincing reflexes.</par>

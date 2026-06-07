@@ -1,0 +1,18 @@
+tag: 1296
+grpid: 2
+proto_language: PTB
+protoform: tswəy
+gloss: ROT / PUS
+semkey: 3.1.10
+sequence: 3.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: '2744'
+references: cf. STC#183, HPTB p. 194
+phonology:
+  handle: tswəy
+  initial: tsw
+  rhyme: əy
+  initcover: TS
+  rhymecover: W

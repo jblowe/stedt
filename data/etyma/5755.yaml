@@ -1,0 +1,17 @@
+tag: 5755
+grpid: 3
+proto_language: NEIA
+protoform: ley
+gloss: BE / EXIST / HAVE
+sequence: 6.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: ley
+  gloss: BE
+- grpid: 66
+  group: 1.3.4
+  form: lej
+  gloss: BE / EXIST / HAVE

@@ -1,0 +1,20 @@
+tag: 2087
+grpid: 3
+proto_language: NEIA
+protoform: twar
+gloss: EAR (in compounds)
+semkey: 1.2.7
+sequence: 15.0
+status: KEEP
+public: true
+references: '("KMR") '
+phonology:
+  handle: sor
+  initial: s
+  rhyme: or  OR
+  initcover: S
+  rhymecover: L
+notes:
+- type: T
+  text: '<par>The scattered reflexes of this root all have dental stops, but these may well reflect an
+    earlier fricative <reconstruction>**swar</reconstruction>. See HPTB: 31-32.</par>'

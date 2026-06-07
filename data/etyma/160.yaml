@@ -1,0 +1,51 @@
+tag: 160
+grpid: 2
+proto_language: PTB
+protoform: na-n/t
+gloss: ILL / PAIN / SORE / ACHE / DIFFICULT / EVIL SPIRIT
+semkey: 1.1.5.1
+sequence: 1.0
+status: KEEP
+public: true
+xrefs: EVIL SPIRIT
+references: cf. STC#080, HPTB
+phonology:
+  handle: na
+  initial: n
+  rhyme: a-(n/t)
+  initcover: M
+  rhymecover: VNT
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: na
+  gloss: HURT
+- grpid: 8
+  group: '1.2'
+  form: naa-I, nat-II
+  gloss: PAINFUL / SICK
+- grpid: 45
+  group: 6.1.2
+  form: C-natᴸ
+  gloss: SPIRIT
+- grpid: 45
+  group: 6.1.2
+  form: C-na¹
+  gloss: ILL / SICK
+- grpid: 42
+  group: '6.1'
+  form: nan ⪤ nat
+  gloss: SPIRIT / DEMON
+notes:
+- type: T
+  text: '<par>Chinese characters. GSR 152d-f, STC p.159, STC #80, LTSR #136, PLB <reconstruction>*nat
+    ⪤*nan</reconstruction>. Split into allofams <reconstruction>*na</reconstruction>, <reconstruction>*nan</reconstruction>,
+    <reconstruction>*nat</reconstruction>.</par>'
+- type: F
+  text: '<par><hanform>難</hanform> OC <latinform>*nɑ̂n</latinform>, GSR #152d-f &apos;difficult, painful&apos;;
+    B &amp; S 2011: <latinform>*nˁar</latinform>; Mand. <latinform>nán</latinform>.<br /><hanform>難</hanform>
+    OC <latinform>*nɑ̂n</latinform>, GSR #152d-f &apos;difficulty, suffering&apos;; B &amp; S 2011: <latinform>*nˁar-s</latinform>;
+    Mand. <latinform>nàn</latinform>.</par>'
+- type: T
+  text: <par>All three allofams (open-syllable, nasal-final, and stop-final) are well attested.</par><par>A
+    few languages (Tangsa, Bisu, Sangkong) have developed the homorganic stop in this root.</par>

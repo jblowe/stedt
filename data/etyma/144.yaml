@@ -1,0 +1,28 @@
+tag: 144
+grpid: 2
+proto_language: PTB
+protoform: b/s-raŋ
+gloss: MORNING / AWAKE / ALERT
+semkey: 1.1.4
+sequence: 8.0
+status: KEEP
+public: true
+xrefs: '2569'
+possallo: '1837'
+phonology:
+  handle: raŋ
+  prefix: b/s
+  initial: r
+  rhyme: aŋ
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: ro
+  gloss: MORNING
+notes:
+- type: F
+  text: '<par><hanform>爽</hanform> OC (<latinform>*ṣi̯ɑng</latinform>), (not in GSR) &apos;bright, dawn;
+    clear; invigorating; cheerful&apos;; Schuessler 2007:475 <latinform>*sraŋʔ</latinform>; B &amp; S
+    2011: (<latinform>*sraŋʔ</latinform>); Mand. <latinform>shuǎng</latinform>.</par>'

@@ -1,0 +1,28 @@
+tag: 643
+grpid: 2
+proto_language: PTB
+protoform: ʔip ⪤ ʔiːt
+gloss: BAG / SCROTUM
+sequence: 136.0
+status: KEEP
+public: true
+references: cf. HPTB p.533
+phonology:
+  handle: ʔet
+  initial: ʔ
+  rhyme: et
+  initcover: H
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ʔip
+  gloss: BAG / SACK
+notes:
+- type: T
+  text: <par>This etymon is firmly attested in the NE Indian Areal Group and Burmese, and may be confidently
+    set up for PTB. The basic meaning seems to be &apos;bag, pouch&apos;. The variation between final
+    <latinform>-p</latinform> and <latinform>-t</latinform> is unexplained, but is paralleled in a number
+    of other roots with high front vowels. Cf., e.g., Lai Chin <latinform>ʔit</latinform> &apos;sleep&apos;,
+    from <xref ref="127">#127</xref>, and Mizo <latinform>mit</latinform> &apos;eye&apos;, from <xref
+    ref="682">#682</xref>.</par>

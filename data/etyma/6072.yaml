@@ -1,0 +1,14 @@
+tag: 6072
+grpid: 2
+proto_language: PTB
+protoform: la
+gloss: DONKEY / ASS / MULE
+semkey: 2.1.7
+sequence: 1.2
+status: KEEP
+public: true
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: laa
+  gloss: DONKEY / ASS / MULE

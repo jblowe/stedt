@@ -1,0 +1,16 @@
+tag: 3455
+grpid: 2
+proto_language: PTB
+protoform: pip
+gloss: SUCK / SUCKLE
+semkey: 1.3.2.1
+sequence: 5.2
+status: DELETE
+public: true
+references: see BM-PK
+phonology:
+  handle: pip
+  initial: p
+  rhyme: ip
+  initcover: P
+  rhymecover: T

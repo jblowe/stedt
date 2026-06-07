@@ -1,0 +1,29 @@
+tag: 1349
+grpid: 2
+proto_language: PTB
+protoform: si(ŋ/k)
+gloss: VAGINA
+sequence: 78.0
+status: KEEP
+public: true
+references: cf. 686 MOUTH/LIP
+phonology:
+  handle: tsi-
+  prefix: t
+  initial: (t)s
+  rhyme: i-k/ŋ
+  initcover: TS
+  rhymecover: VNT
+notes:
+- type: T
+  text: <par>This etymon is also best attested in Himalayish, with some support from the NE Indian Areal
+    Group, and perhaps from Qiangic.</par><par>For the moment it seems best to keep this set of forms
+    distinct from <xref ref="686">#686</xref>. In spite of the plausible phonosemantic association between
+    these etyma, the reflexes are different in languages like Garo (Bangladesh), Kokborok, Bahing, Bantawa,
+    and Chepang [qq.v.].</par><par>Evidence for a final velar consonant comes from Barish (especially
+    Lalung), Hayu, and Kanauri.</par><par>Complicating the picture is the fact that in some languages
+    the putative cognate is an open syllable that occurs as the second element of compounds with <xref
+    ref="668">#668</xref> or <xref ref="662">#662</xref>. In such forms, it is possible that the second
+    syllable may actually represent <xref ref="1019">#1019</xref>. (Cf. e.g. Bantawa <latinform>si</latinform>
+    &apos;bear fruit&apos;, Newar <latinform>maa-si</latinform> &apos;vagina; breast; milk&apos;, <latinform>si</latinform>
+    &apos;morpheme in fruit names&apos;, Lahu <latinform>cha-šī</latinform> &apos;vagina&apos;.)</par>

@@ -1,0 +1,19 @@
+tag: 778
+grpid: 2
+proto_language: PTB
+protoform: (b/p)wa(ŋ/k)
+gloss: URINARY BLADDER
+semkey: 1.7.8
+sequence: 1.1
+status: KEEP
+public: true
+phonology:
+  handle: poK
+  initial: p
+  rhyme: o(ŋ/k) ⪤
+  initcover: P
+  rhymecover: NT
+notes:
+- type: T
+  text: <par>This root is quite similar to <xref ref="777">#777</xref>, although the difference in point
+    of articulation of the final leads us to keep them separate.</par>

@@ -1,0 +1,28 @@
+tag: 2200
+grpid: 2
+proto_language: PTB
+protoform: m-dwaŋ
+gloss: PEACOCK
+semkey: 2.2.4.1
+sequence: 2609.0
+status: KEEP
+public: true
+references: cf. STC#341, HPTB pp. 129, 294
+phonology:
+  handle: doŋ
+  prefix: m
+  initial: d
+  rhyme: oŋ=(m-)d
+  initcover: T
+  rhymecover: VN
+notes:
+- type: T
+  text: <par>This morpheme frequently occurs as the second element in compounds beginning with <xref ref="1603">#1603</xref>.
+    This first element varies from an unreduced form of the shape <latinform>wa</latinform> and a prefixized
+    version <latinform>u-</latinform>.</par><par>Besides the normal initial reflex with dental stop, this
+    etymon shows a puzzling variation among <latinform>h-</latinform>, <latinform>y-</latinform>, and
+    <latinform>w-</latinform>, which remains to be explained.</par>
+- type: F
+  text: '<par><hanform>孔</hanform> OC <latinform>*k’ung</latinform>, GSR #1174a-b &apos;peacock&apos;;
+    Schuessler 2007:335 <latinform>*khôŋʔ</latinform>; B &amp; S 2011: <latinform>*kʰˁoŋʔ {[k]ʰˁoŋʔ}</latinform>;
+    Mand. <latinform>kǒng</latinform>.</par>'

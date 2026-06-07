@@ -1,0 +1,37 @@
+tag: 2596
+grpid: 2
+proto_language: PTB
+protoform: g-raːl ⪤ g-ran ⪤ ray
+gloss: ENEMY / FIGHT / QUARREL / STRIFE / SWORD / WAR
+semkey: '5.15'
+sequence: 1801.0
+status: KEEP
+public: true
+references: cf. STC p.15, HPTB
+phonology:
+  handle: ran
+  initial: r
+  rhyme: an=(g-)r
+  initcover: L
+  rhymecover: VNL
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: raal
+  gloss: ENEMY / BATTLE / WAR
+- grpid: 66
+  group: 1.3.4
+  form: raal
+  gloss: ENEMY / WAR
+- grpid: 5
+  group: 1.1.1
+  form: rol
+  gloss: ENEMY
+notes:
+- type: T
+  text: <par>Tibetan has evidence for both the <latinform>-l</latinform> and <latinform>-n</latinform>
+    finals.</par><par>This root is quite possibly related to <xref ref="5531">#5531</xref>; this open-syllable
+    variant is also attested directly in Tibetan.</par><par>Written Burmese <latinform>rây</latinform>
+    &apos;brave&apos; is a possible doublet of <latinform>ran</latinform> &apos;quarrel&apos;.</par>
+- type: F
+  text: <par>Cf. comparanda for <xref ref="5570">#5570</xref> and for <xref ref="5531">#5531</xref>.</par>

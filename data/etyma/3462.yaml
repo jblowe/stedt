@@ -1,0 +1,64 @@
+tag: 3462
+grpid: 2
+proto_language: PTB
+protoform: s(y)awk
+gloss: BREAST / SUCK / DRINK
+semkey: 1.4.4.3
+sequence: 8.0
+status: KEEP
+public: true
+references: Barish, Chin, Luish
+phonology:
+  handle: sok
+  initial: s
+  rhyme: ok
+  initcover: S
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root is quite widespread, and covers a broad semantic range, from BREAST to SUCK to
+    DRINK (any liquid). By a relatively recent extension of meaning, this root is also used for SMOKE
+    (tobacco), and thence for TOBACCO itself (as in Lahu).<footnote>The extension of &apos;drink/suck&apos;
+    to &apos;smoke (tobacco)&apos; is common in the world&apos;s languages. Cf. e.g. Japanese <emph>nomu</emph>
+    &apos;drink&apos;, <emph>tabako wo nomu</emph> &apos;smoke a cigarette&apos;.</footnote></par>
+- type: T
+  text: '<par>There is a promising Chinese comparandum <hanform>欶</hanform>, Mand. <latinform>shuò</latinform>
+    proposed by Coblin (1986:144). In Matisoff 1970 (#57) I suggested that WB <latinform>sok</latinform>
+    (also transcribable as <latinform>sauk</latinform>) &apos;drink, smoke&apos; and Lahu <latinform>šú</latinform>
+    &apos;tobacco&apos; were cognate. I still believe that to be correct, even though in Matisoff 1988:1192
+    (<emph>The Dictionary of Lahu</emph>) I entertained an alternative comparison with WB <latinform>hrup</latinform>
+    &apos;snuff up; sniff; sip; sup&apos;. It now looks as if WB <latinform>hrup</latinform> might be
+    related rather to Chinese <hanform>呷</hanform> (OC <reconstruction>*hrap</reconstruction>, Mand. <latinform>xiā</latinform>)
+    &apos;to drink in with a sucking movement&apos;, cited in Coblin 1986:43. This seems preferable semantically
+    and phonologically to Coblin&apos;s comparison of the Chinese form to WB <latinform>hap</latinform>
+    &apos;bite at&apos; &lt; PTB <reconstruction>*hap</reconstruction> [STC #89].</par>'
+- type: F
+  text: '<par><hanform>欶</hanform> OC <reconstruction>*sŭk</reconstruction>, GSR #1222o &apos;suck&apos;;
+    Li 1971: <latinform>*sruk</latinform>; Baxter 1992: <latinform>*srok</latinform>; Mand. <latinform>shuò</latinform>.</par><par>Gong
+    1995 #279 reconstructed <reconstruction>*rsuk</reconstruction>.  In Li’s system another possibility
+    is <reconstruction>*sthruk</reconstruction>, by analogy with <hanform>束</hanform> ‘bundle’, Mand.
+    <latinform>shù</latinform> which is reconstructed <reconstruction>*sthjuk</reconstruction> to account
+    for the presence in this series of <hanform>誎</hanform> / <hanform>促</hanform> ‘urge on&apos;, Mand.
+    <latinform>cù</latinform>  &lt; <reconstruction>*tshjuk</reconstruction>. Schuessler 1987:567 reconstructed
+    <hanform>束</hanform> <latinform>shù</latinform> ‘bundle’ as <reconstruction>*?-juk</reconstruction>
+    to indicate that the initial is uncertain, and in 2007:473 suggests a pre-Old Chinese form <reconstruction>*C-sok</reconstruction>.</par><par>This
+    comparison is made in Coblin 1986:144.  </par><par>The vowel correspondence is problematic.  OC <reconstruction>*-uk</reconstruction>
+    (Li)/<reconstruction>*-ok</reconstruction> (Baxter) normally corresponds to PTB <reconstruction>*-uk</reconstruction>,
+    as in <hanform>曲</hanform> &apos;bend/crooked&apos;, PTB <latinform>*guk~*kuk</latinform>, OC  <reconstruction>*khjuk</reconstruction>
+    (Li)/<reconstruction>*kh(r)jok</reconstruction> (Baxter), Mand <latinform>qū, qǔ</latinform>.<br />[ZJH]</par>'
+- type: F
+  text: '<par><hanform>呷</hanform> OC <reconstruction>*χap</reconstruction> (not in GSR #629), &apos;to
+    drink with a sucking movement&apos;; Li 1971: <reconstruction>*hrap</reconstruction>; Baxter 1992:
+    <reconstruction>*xrap</reconstruction>; Mand. <latinform>xiā</latinform>.</par><par>The Middle Chinese
+    vocalism dictates an Old Chinese reconstruction with medial <reconstruction>*-r-</reconstruction>,
+    but Schuessler 2007:526 has <reconstruction>*hap</reconstruction>, arguing that the MC vocalism may
+    be due to &quot;sound symbolism or archaistic colloquialism&quot;.  This enables him to make a comparison
+    with PTB <latinform>*hap</latinform> [STC #89] as well as with Austroasiatic forms of similar shape.</par><par>Matisoff&apos;s
+    proposal that <hanform>呷</hanform> <latinform>xiā</latinform> is instead cognate to WB <latinform>hrup</latinform>
+    &apos;snuff up; sniff; sip; sup&apos; provides a better match for Chinese <reconstruction>*-r-</reconstruction>,
+    but the vocalism is problematic. We would expect a Burmese cognate in <latinform>-ap</latinform> &lt;
+    PTB <reconstruction>*-ap</reconstruction>.  Of course, given the likelihood of sound symbolism in
+    words with these semantics, irregular correspondences are to be expected.  It is therefore not an
+    easy matter to decide if Chinese <hanform>呷</hanform> <latinform>xiā</latinform> is better compared
+    to PTB <reconstruction>*hap</reconstruction> or WB <latinform>hrup</latinform>, or if the similarity
+    of phonological shape is not due to cognacy at all.<br />[ZJH]</par>'

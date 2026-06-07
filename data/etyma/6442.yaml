@@ -1,0 +1,19 @@
+tag: 6442
+grpid: 5
+proto_language: PTani
+protoform: lɯk
+gloss: POUR
+semkey: '6.6'
+sequence: 2679.0
+status: KEEP
+public: false
+references: JS-HCST: 221
+phonology:
+  initial: l
+  rhyme: ɯk
+notes:
+- type: I
+  text: <par>Promote to PTB root? *s-luk or similar? cf. Central Naga, Bodic, Tibetan, Chepang, rGyalrong.</par>
+- type: F
+  text: '<par><hanform>浴</hanform> OC <latinform>*gi̯uk</latinform>, GSR #1202f &apos;bathe, wash; bath&apos;;
+    Schuessler 2007:589 <latinform>*lok</latinform>; Mand. <latinform>yù</latinform>.</par>'

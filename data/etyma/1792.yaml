@@ -1,0 +1,21 @@
+tag: 1792
+grpid: 2
+proto_language: PTB
+protoform: zu(k/ŋ)
+gloss: BARK (v.)
+semkey: 2.1.11.1
+sequence: 12.0
+status: KEEP
+public: true
+exemplary: true
+references: Bodic, Baric, Loloish
+phonology:
+  handle: zuk
+  initial: z
+  rhyme: uk
+  initcover: S
+  rhymecover: T
+notes:
+- type: T
+  text: <par>The relationship of the Loloish forms to this root is somewhat speculative. The Barish reflexes
+    point to a variant with final velar nasal.</par>

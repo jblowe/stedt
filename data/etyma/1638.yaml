@@ -1,0 +1,42 @@
+tag: 1638
+grpid: 2
+proto_language: PTB
+protoform: b/m-laŋ
+gloss: PENIS / MALE / HUSBAND
+sequence: 125.0
+status: KEEP
+public: true
+references: cf. GSR 887l "male"; 1283?
+phonology:
+  handle: lyaŋ
+  initial: l(y)
+  rhyme: aŋ
+  initcover: L
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>This etymon has been identified in Himalayish, Jingpho, and Qiangic, though more support
+    from the latter group would be welcome. The PTB root initial is taken to have been a *lateral, with
+    both a labial nasal and a labial stop prefix attested.</par><par>According to K. P. Malla, the second
+    syllable of Newar <latinform>mi jɔ̃</latinform> &apos;male&apos; is from Skt. <emph>jana-</emph> &apos;man&apos;,
+    not from the present root. The first syllable is from the widespread TB morpheme <xref ref="1002">#1002</xref>.</par><par>J.
+    Sun 1993:131 reconstructs Proto-Tani <reconstruction>*mrak</reconstruction>, but the forms he cites
+    are better assigned to <xref ref="548">#548</xref>, above.</par><par>This root seems distinct from
+    <xref ref="1624">#1624</xref>.</par><par>Also to be brought into this etymon is WB <latinform>lâŋ</latinform>,
+    which (as suggested in Matisoff 1995:52-3 [&quot;Sino-Tibetan palatal suffixes revisited&quot;]) is
+    to be compared with Chinese <hanform>郎</hanform> (Mand. <latinform>láng</latinform>) [WHB <reconstruction>*C-rāŋ</reconstruction>],
+    now meaning &apos;young man; bridegroom; clf. for sons&apos;. This word is glossed only as &apos;place
+    name (Tso); double roof, one roof above the other&apos; in GSR #735r. However, it would be rash to
+    infer that the synchronic meaning did not exist at all in spoken OC.</par><par>See the remarks by
+    Handel, below.</par>'
+- type: F
+  text: '<par><hanform>郎</hanform> OC <latinform>*lɑ̂ng</latinform>, GSR #735r ‘husband, young man’ ;
+    Li 1971: <latinform>*lang</latinform>; Baxter 1992: <latinform>*C-rang</latinform>; Mand. <latinform>láng</latinform>.</par><par>The
+    meaning &apos;husband, young man&apos; is not attested until quite late.  It appears to be derived
+    from the basic sense &apos;veranda or corridor (of a palace or mansion)&apos; via &apos;official (doing
+    duty there)&apos;, making it an improbable cognate to PTB roots meaning &apos;male&apos;, cf. Schuessler
+    2007:344.<footnote>Schuessler suggests that WB <latinform>laŋ</latinform> &apos;husband&apos; is actually
+    a loan from Chinese, though this seems unlikely in view of the paucity of Chinese loanwords in Burmese.
+    [JAM]</footnote>  Furthermore, nearly all scholars are now in agreement that Middle Chinese <latinform>l-</latinform>
+    derives from earlier <reconstruction>*r-</reconstruction>, and does not normally correspond to PTB
+    <reconstruction>*l-</reconstruction>.<br />[ZJH]</par>'

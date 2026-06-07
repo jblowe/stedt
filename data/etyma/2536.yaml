@@ -1,0 +1,34 @@
+tag: 2536
+grpid: 2
+proto_language: PTB
+protoform: d-ŋul
+gloss: SILVER
+semkey: 3.2.4
+sequence: 1.1
+status: KEEP
+public: true
+references: STC p.15
+phonology:
+  handle: ŋul
+  initial: ŋ
+  rhyme: ul=(d-)ŋ
+  initcover: M
+  rhymecover: VNL
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ŋuun
+  gloss: SILVER
+- grpid: 12
+  group: 1.7.2
+  form: ŋuil
+  gloss: SILVER
+- grpid: 45
+  group: 6.1.2
+  form: C-ŋwe¹
+  gloss: SILVER
+notes:
+- type: F
+  text: '<par><hanform>銀</hanform> OC <latinform>*ngi̯ɛn</latinform>, GSR #416k &apos;silver&apos;; Coblin
+    86: <latinform>*</latinform>; Schuessler 2007:573 <latinform>*ŋrən</latinform>; B &amp; S 2011: <latinform>*ŋrən
+    {ŋrə[n]}</latinform>; Mand. <latinform>yīn</latinform>.</par>'

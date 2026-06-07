@@ -1,0 +1,15 @@
+tag: 3537
+grpid: 2
+proto_language: PTB
+protoform: hyal
+gloss: TAKE / HOLD
+semkey: '6.21'
+sequence: 12.0
+status: KEEP
+public: true
+references: JAM-LITB 6.4
+phonology:
+  initial: hy
+  rhyme: al
+  initcover: H
+  rhymecover: L

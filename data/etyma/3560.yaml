@@ -1,0 +1,19 @@
+tag: 3560
+grpid: 2
+proto_language: PTB
+protoform: li
+gloss: SEED
+semkey: 3.1.4
+sequence: 2902.0
+status: KEEP
+public: false
+phonology:
+  initial: l
+  rhyme: i
+  initcover: L
+  rhymecover: V
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: li
+  gloss: SEED

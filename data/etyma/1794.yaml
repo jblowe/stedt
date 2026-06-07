@@ -1,0 +1,23 @@
+tag: 1794
+grpid: 2
+proto_language: PTB
+protoform: suk
+gloss: COUGH
+semkey: 1.8.3.3
+sequence: 1.0
+status: KEEP
+public: true
+phonology:
+  handle: suk
+  initial: s
+  rhyme: uk ⪤ u(w)
+  initcover: S
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root bears a strong resemblance to <xref ref="5468">#5468</xref>. For now, we are assigning
+    reflexes with open syllables or final <latinform>-t</latinform> to <xref ref="5468">#5468</xref>,
+    and those with final velars to the present etymon.</par>
+- type: F
+  text: '<par><hanform>嗽</hanform> OC <latinform>*sug</latinform>, GSR #1222s &apos;cough&apos;; Coblin
+    86:58 ST <latinform>*suɣ</latinform> &gt; OC <latinform>*sugh</latinform>; Mand. <latinform>sòu</latinform>.</par>'

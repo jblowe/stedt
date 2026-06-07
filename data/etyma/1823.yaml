@@ -1,0 +1,16 @@
+tag: 1823
+grpid: 2
+proto_language: PTB
+protoform: ŋat
+gloss: HUNGRY
+semkey: 1.1.3
+sequence: 2.0
+status: DELETE
+public: false
+xrefs: '99'
+phonology:
+  handle: ŋat
+  initial: ŋ
+  rhyme: at
+  initcover: M
+  rhymecover: T

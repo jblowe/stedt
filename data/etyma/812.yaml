@@ -1,0 +1,21 @@
+tag: 812
+grpid: 2
+proto_language: PTB
+protoform: b(r)aŋ
+gloss: EAR / LOBELIKE PART
+semkey: 1.2.7
+sequence: 8.0
+status: KEEP
+public: false
+exemplary: true
+phonology:
+  handle: braŋ
+  initial: b(r)
+  rhyme: aŋ
+  initcover: P
+  rhymecover: N
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: ʔbaŋ¹
+  gloss: EAR

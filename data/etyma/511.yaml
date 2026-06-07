@@ -1,0 +1,33 @@
+tag: 511
+grpid: 2
+proto_language: PTB
+protoform: m-(t)sin
+gloss: NAIL / CLAW
+semkey: 1.5.10
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+possallo: '512'
+references: 'STC#074; an earlier version of #512'
+phonology:
+  handle: sin
+  prefix: m
+  initial: s
+  rhyme: in ~ m-t
+  initcover: S
+  rhymecover: VNT
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: m-[z/ʒ]a[ː]n
+  gloss: NAIL (bodypart)
+notes:
+- type: T
+  text: '<par>This root was originally reconstructed as <latinform>*m-(t)sin</latinform> in STC #74, with
+    the remark that the PTB initial was &quot;uncertain&quot;. The reconstruction was revised to <latinform>*m-tsyen</latinform>
+    in note 24, expanded in note 122 (p. 37).</par><par>Several allofams must be posited: one with final
+    <latinform>*-l</latinform> (<xref ref="514">#514</xref>), one with an open syllable (<xref ref="515">#515</xref>),
+    and one where the nasal prefix seems to have preempted the affricate initial (<xref ref="513">#513</xref>).</par><par>A
+    number of languages have reduced the initial affricate to a simple fricative, hence the parentheses
+    around the <latinform>t</latinform> in the PAF.</par>'

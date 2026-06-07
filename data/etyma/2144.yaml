@@ -1,0 +1,16 @@
+tag: 2144
+grpid: 2
+proto_language: PTB
+protoform: ba
+gloss: CARRY
+semkey: 6.2.2.2.1
+sequence: 1320.0
+status: delete
+public: false
+references: STC#026
+phonology:
+  handle: ba
+  initial: b
+  rhyme: a
+  initcover: P
+  rhymecover: V

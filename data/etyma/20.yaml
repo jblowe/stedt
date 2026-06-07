@@ -1,0 +1,23 @@
+tag: 20
+grpid: 2
+proto_language: PTB
+protoform: kruŋ
+gloss: LIVE / ALIVE / BORN / GIVE BIRTH / GREEN / SPROUT
+semkey: 1.1.2.1
+sequence: 38.0
+status: KEEP
+public: true
+exemplary: true
+references: STC#382, HPTB pp.285, 288
+phonology:
+  handle: kruŋ
+  initial: kr
+  rhyme: uŋ
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>This root is reconstructed in STC #382, which cites the WT, Jingpho, Bodo, and Dimasa forms.
+    The Bai and Lolo-Burmese forms look cognate, but the relationship of the Jinuo form to this set is
+    uncertain. The semantic range of this etymon, which extends from the notion of birth to that of sprouting,
+    greenness, freshness, is parallelled by another root <xref ref="71">#71</xref> (q.v.).</par>'

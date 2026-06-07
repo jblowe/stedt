@@ -1,0 +1,18 @@
+tag: 1836
+grpid: 2
+proto_language: PTB
+protoform: (t/d)uŋ
+gloss: WAKE
+semkey: 1.1.4
+sequence: 6.0
+status: KEEP
+public: true
+phonology:
+  handle: To
+  initial: (t/d)
+  rhyme: oŋ
+  initcover: T
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This poorly attested root requires further confirmation.</par>

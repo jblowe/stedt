@@ -1,0 +1,16 @@
+tag: 535
+grpid: 2
+proto_language: PTB
+protoform: graw
+gloss: OBSCURE INTERNAL CHANNEL
+semkey: '10.0'
+sequence: 2.0
+status: KEEP
+public: false
+exemplary: true
+phonology:
+  handle: graw
+  initial: gr
+  rhyme: aw
+  initcover: K
+  rhymecover: W

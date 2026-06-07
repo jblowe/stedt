@@ -1,0 +1,24 @@
+tag: 452
+grpid: 2
+proto_language: PTB
+protoform: b(i/u)l ⪤ byal
+gloss: LIP / LOBE / LID
+semkey: 1.3.2
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: bur
+  initial: b
+  rhyme: ur  OR
+  initcover: P
+  rhymecover: L
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: bel
+  gloss: LIP
+notes:
+- type: T
+  text: '<par>This root apparently shows two types of allofamic variation: <latinform>-i- ⪤ -u-</latinform>
+    and <latinform>-i- ⪤ -ya-</latinform>, parallel to the patterns shown by <xref ref="363">#363</xref>.</par>'

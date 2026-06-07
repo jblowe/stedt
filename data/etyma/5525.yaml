@@ -1,0 +1,15 @@
+tag: 5525
+grpid: 2
+proto_language: PTB
+protoform: s-nyit
+gloss: SQUEEZE
+semkey: '9.5'
+sequence: 2.2
+status: KEEP
+public: true
+references: cf. HPTB pp. 349, 355
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔnyit
+  gloss: SQUEEZE / PRESS

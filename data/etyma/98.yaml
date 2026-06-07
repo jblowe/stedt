@@ -1,0 +1,19 @@
+tag: 98
+grpid: 42
+proto_language: PLB
+protoform: pwa²
+gloss: BORN / BIRTH
+semkey: 1.1.2
+sequence: 27.0
+status: KEEP
+public: true
+phonology:
+  handle: pwa
+  initial: pw
+  rhyme: a
+  initcover: P
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root is solidly established for Lolo-Burmese. The Pa-O (Karenic) form may be a borrowing
+    from Burmese.</par>

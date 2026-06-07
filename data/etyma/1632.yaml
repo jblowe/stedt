@@ -1,0 +1,28 @@
+tag: 1632
+grpid: 2
+proto_language: PTB
+protoform: r-ku ⪤ kru
+gloss: NEST / UTERUS / AMNIOTIC SAC
+semkey: 2.2.4
+sequence: 104.0
+status: KEEP
+public: true
+references: Qiangic only
+phonology:
+  handle: ku
+  prefix: r
+  initial: k
+  rhyme: u
+  initcover: K
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root is set up on slender but rather convincing evidence, if we are willing to admit
+    relationship via metathesis between Angami forms with <latinform>kr-</latinform>, and Qiangic forms
+    with <latinform>ɹaq-</latinform>. (For another etymon that shows a similar metathesis of prefixal
+    and medial <latinform>-r-</latinform>, cf. <xref ref="1733">#1733</xref>, above. The semantic scope
+    of the Qiangic forms extends to AMNIOTIC SAC. In many TB languages, as in English, the amniotic fluid
+    is referred to simply by the word for WATER (cf. Eng. &quot;Her water broke&quot;), e.g. Maru <latinform>ɣək³¹</latinform>
+    &apos;water; amniotic fluid&apos; (&lt; <xref ref="1013">#1013</xref>, below), Baima <latinform>ʃuɛ³⁵</latinform>
+    &apos;amniotic fluid&apos; (&lt; Chinese; cf. Mand. <hanform>水</hanform> <latinform>shuǐ</latinform>
+    &apos;water&apos;).</par>

@@ -1,0 +1,401 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+234588	1494	Tangut [Xixia]	sõ	sõ	anus	anus		1.4.10.2	297-053	0		
+234589	1494	Tangut [Xixia]	ŋa	ŋa	back	back		1.4.8	236-058	0		205
+234590	1494	Tangut [Xixia]	ʁzɔr	ʁzɔr	artery	artery		1.6.2.1	230-079	0		
+234594	1494	Tangut [Xixia]	maɦ	maɦ	belly	belly		1.4.7	202-061	0		
+234595	1494	Tangut [Xixia]	sǐɔɦ	sǐɔɦ	bladder (urinary)	bladder (urinary)		1.7.8	269-081	0		
+234596	1494	Tangut [Xixia]	seɦ	seɦ	blood	blood		1.6.2	181-072	0		230
+234597	1494	Tangut [Xixia]	lǐụ	lǐụ	body	body		1.1.1	10-051	0		
+234598	1494	Tangut [Xixia]	ləw	ləw	body	body		1.1.1	204-08e|	0		
+234599	1494	Tangut [Xixia]	kõ	kõ	body	body		1.1.1	204-08e|	0		1
+234600	1494	Tangut [Xixia]	rɪr	rɪr	bone	bone		1.6.3	10-051	0		232
+234601	1494	Tangut [Xixia]	rɨr	rɨr	bone	bone		1.6.3	17-12f	0		232
+234602	1494	Tangut [Xixia]	phõ	phõ	breast / chest / bosom	breast / chest / bosom		1.4.4.3	202-071	0		3378
+234603	1494	Tangut [Xixia]	ɣkɪ̣ě	ɣkɪ̣ě	breath	breath		1.1.2.2	102-081	0		
+234604	1494	Tangut [Xixia]	cǐɔɦ	cǐɔɦ	cough	cough (n.)	n	1.8.3.3	255-051	0		
+234605	1494	Tangut [Xixia]	šʷiɦ	šʷiɦ	teeth	teeth		1.3.4	10-083	0		632
+234606	1494	Tangut [Xixia]	pə̃	pə̃	dung	dung		1.8.5	69-051	0		
+234607	1494	Tangut [Xixia]	ɬɨɦ	ɬɨɦ	dung	dung		1.8.5	269-031	0		
+234608	1494	Tangut [Xixia]	ɱvɛ̣	ɱvɛ̣	dung / manure	dung / manure		1.8.5	243-062	0		
+234609	1494	Tangut [Xixia]	tsɪr	tsɪr	dung	dung		1.8.5	243-045	0		
+234610	1494	Tangut [Xixia]	nǐaɦ	nǐaɦ	excrement / dung	excrement / dung		1.8.5	137-071	0		2520
+234611	1494	Tangut [Xixia]	nrǐụ	nrǐụ	ear	ear		1.2.7	8-051	0		811
+234612	1494	Tangut [Xixia]	nrǐu	nrǐu	ear	ear		1.2.7	297-111	0		811
+234613	1494	Tangut [Xixia]	ku̵ɦ	ku̵ɦ	ear / auditory organ / extern	ear / auditory organ / extern		1.2.7	111-092	0		817
+234614	1494	Tangut [Xixia]	mɛ	mɛ	eye	eye		1.2.6	7-087	0		681
+234615	1494	Tangut [Xixia]	khʷɑ	khʷɑ	eyelid	eyelid		1.2.6.4	181-088	0		
+234616	1494	Tangut [Xixia]	?	?	eyeball	eyeball		1.2.6.1		0		
+234617	1494	Tangut [Xixia]	mʷɪɦ	mʷɪɦ	eyebrow	eyebrow		1.2.6.6	181-088	0		
+234618	1494	Tangut [Xixia]	?	?	eyebrow	eyebrow		1.2.6.6		0		
+234619	1494	Tangut [Xixia]	kǐʷõ	kǐʷõ	eyelid	eyelid		1.2.6.4	98-084	0		
+234620	1494	Tangut [Xixia]	niɦ	niɦ	face	face		1.2.5	187-071	0		
+234621	1494	Tangut [Xixia]	nɨ	nɨ	face	face		1.2.5	187-071	0		
+234622	1494	Tangut [Xixia]	Tɔw	Tɔw	nail (finger)	nail (finger)		1.5.10	39-051	0		
+234623	1494	Tangut [Xixia]	tshi	tshi	flesh	flesh		1.1.1.1	41-102	0		34
+234624	1494	Tangut [Xixia]	tšhi	tšhi	meat / flesh	meat / flesh		1.1.1.1	39-093	0		34
+234625	1494	Tangut [Xixia]	šǐu	šǐu	meat / flesh	meat / flesh		1.1.1.1	39-093	0		
+234626	1494	Tangut [Xixia]	Lǐər	Lǐər	foot	foot		1.5.2	70-081	0		
+234627	1494	Tangut [Xixia]	lạ	lạ	forehead	forehead		1.2.5.1	103-072	0	D0	
+234628	1494	Tangut [Xixia]	mɨr	mɨr	genitals	genitals		1.9.1	211-112	0		
+234629	1494	Tangut [Xixia]	pɛ	pɛ	hair (of head)	hair (of head)		1.2.3	275-041	0		
+234630	1494	Tangut [Xixia]	mɛ	mɛ	hair (of body)	hair (of body)		1.2.3	96-092	0		363
+234631	1494	Tangut [Xixia]	mar	mar	hair (of head)	hair (of head)		1.2.3	39-095	0		363
+234632	1494	Tangut [Xixia]	ɬɑ̣	ɬɑ̣	hand	hand		1.5.1.1	17-062	0		695
+234633	1494	Tangut [Xixia]	lɑ̣	lɑ̣	hand	hand		1.5.1.1	235-072	0		695
+234634	1494	Tangut [Xixia]	ɣuɦ	ɣuɦ	head	head		1.2.1	17-054	0		
+234635	1494	Tangut [Xixia]	nɔɦ	nɔɦ	brain	brain		1.2.4	18-08b	0		243
+234636	1494	Tangut [Xixia]	lǐụ	lǐụ	head	head		1.2.1	18-071	0		
+234637	1494	Tangut [Xixia]	nǐeɦ	nǐeɦ	heart (psyche)	heart (psyche)		1.7.1	88-011	0		251
+234638	1494	Tangut [Xixia]	ɬu̵ɦ	ɬu̵ɦ	hiccough	hiccough		1.8.3.5	180-121	0		
+234639	1494	Tangut [Xixia]	khʷiɦ	khʷiɦ	horn	horn		1.2.2	41-083	0		
+234640	1494	Tangut [Xixia]	ɱvǐuɦ	ɱvǐuɦ	intestines (small)	intestines (small)		1.7.7	68-081	0		
+234641	1494	Tangut [Xixia]	khɑɦ	khɑɦ	intestine (large)	intestine (large)		1.7.6	68-081	0		
+234642	1494	Tangut [Xixia]	?	?	kidneys	kidneys		1.7.5		0		
+234643	1494	Tangut [Xixia]	ŋɣɛ	ŋɣɛ	knee	knee		1.5.8.4	41-09i	0		
+234644	1494	Tangut [Xixia]	Tụ̵	Tụ̵	leprosy	leprosy		5.3	297-092	0		
+234645	1494	Tangut [Xixia]	siɦ	siɦ	liver	liver		1.7.3	269-063	0		1390
+234646	1494	Tangut [Xixia]	tshõ	tshõ	lung	lung		1.7.2	269-063	0		
+234647	1494	Tangut [Xixia]	lo(?)	lo(?)	marrow	marrow		1.6.3.5	204-086	0		
+234648	1494	Tangut [Xixia]	ndzị	ndzị	nails (toe)	nails (toe)		1.5.10	80-111	0		
+234649	1494	Tangut [Xixia]	lhe	lhe	mouth	mouth		1.3.1	204-041	0		
+234650	1494	Tangut [Xixia]	nɑ̣	nɑ̣	snivel / snot	snivel / snot		1.8.8.2	255-031	0		805
+234651	1494	Tangut [Xixia]	khɨr	khɨr	muscles	muscles		1.6.6.2	98-094	0		
+234652	1494	Tangut [Xixia]	?	?	muscles	muscles		1.6.6.2		0		
+234653	1494	Tangut [Xixia]	teɦ	teɦ	navel	navel		1.9.4	106-061	0		519
+234654	1494	Tangut [Xixia]	ɬu̵ɦ	ɬu̵ɦ	neck	neck		1.4.2	39-132	0		479
+234655	1494	Tangut [Xixia]	pu̵ɦ	pu̵ɦ	nipple	nipple			181-092	0		
+234656	1494	Tangut [Xixia]	nɪɦ	nɪɦ	nose	nose		1.2.8	152-073	0		803
+234657	1494	Tangut [Xixia]	pạ	pạ	palm (of hand)	palm (of hand)		1.5.5	235-041	0		
+234658	1494	Tangut [Xixia]	kǐᴜɦ	kǐᴜɦ	penis	penis			269-052	0		1640
+234659	1494	Tangut [Xixia]	Tu	Tu	penis	penis			269-052	0		3420
+234660	1494	Tangut [Xixia]	mbeɦ	mbeɦ	penis	penis			211-112	0		3425
+234661	1494	Tangut [Xixia]	tšhɨɦ	tšhɨɦ	rash / eruption / boil	rash / eruption / boil		1.6.5.3	269-062	0		
+234662	1494	Tangut [Xixia]	nɨ̃	nɨ̃	finger	finger		1.5.6	235-011	0		
+234663	1494	Tangut [Xixia]	nʷɨ	nʷɨ	suppurate	suppurate		1.8.6	181-113	0		
+234664	1494	Tangut [Xixia]	Bụ̵	Bụ̵	pus	pus		1.8.6.1	181-072	0		
+234665	1494	Tangut [Xixia]	?	?	rib	rib		1.4.4.3		0		
+234666	1494	Tangut [Xixia]	now	now	rib	rib		1.4.4.3	41-102	0		553
+234667	1494	Tangut [Xixia]	wị	wị	scar (of ulcer)	scar (of ulcer)		1.6.5.3	269-103	0		
+234668	1494	Tangut [Xixia]	wɑ̣	wɑ̣	shoulders	shoulders		1.4.3	236-058	0	D0	3350
+234669	1494	Tangut [Xixia]	ndži (?)	ndži (?)	skin	skin		1.6.5	297-055	0		596
+234670	1494	Tangut [Xixia]	Tar	Tar	skin	skin		1.6.5	297-063	0		
+234671	1494	Tangut [Xixia]	tǐụ	tǐụ	saliva / spittle	saliva / spittle		1.8.3	255-031	0		
+234672	1494	Tangut [Xixia]	pǐu	pǐu	spleen	spleen		1.7.4	269-092	0		91
+234673	1494	Tangut [Xixia]	lǐụ	lǐụ	stomach	stomach		1.7.6	192-051	0	D1	
+234674	1494	Tangut [Xixia]	mǐeɦ	mǐeɦ	tail	tail		1.4.10.1	208-062	0		1288
+234675	1494	Tangut [Xixia]	Bɨ̣̇	Bɨ̣̇	tears	tears		1.2.6.7	181-082	0		
+234676	1494	Tangut [Xixia]	Lɨ	Lɨ	tears	tears		1.2.6.7	181-142	0		
+234677	1494	Tangut [Xixia]	kɔr	kɔr	tusk / fang	tusk / fang		1.3.4.1	41-096	0		
+234678	1494	Tangut [Xixia]	Le	Le	testicle	testicle			269-111	0		1286
+234679	1494	Tangut [Xixia]	kor	kor	throat	throat		1.3.5	98-072	0		496
+234680	1494	Tangut [Xixia]	lʷɑ	lʷɑ	tongue	tongue		1.3.3	49-102	0		621
+234681	1494	Tangut [Xixia]	ma	ma	ulcer	ulcer		1.8.6.2	248-051	0		
+234682	1494	Tangut [Xixia]	mɑ	mɑ	ulcer	ulcer		1.8.6.2	243-063	0		
+234684	1494	Tangut [Xixia]	ʁzɪr	ʁzɪr	vessels (blood)	vessels (blood)		5.1	230-079	0		
+234685	1494	Tangut [Xixia]	?	?	loins	loins		1.4.9		0	E	e
+234686	1494	Tangut [Xixia]	phɪɦ	phɪɦ	wing	wing		1.5.1.3	305-053	0		714
+234687	1494	Tangut [Xixia]	?	?	breastfeed	breastfeed		1.4.4.3	7-145	0		
+234688	1494	Tangut [Xixia]	kǐu̵r	kǐu̵r	elbow	elbow		1.5.8.3	9-113	0		
+234690	1494	Tangut [Xixia]	lǐẹ	lǐẹ	hair (of body)	hair (of body)		1.2.3	39-095	0		
+234691	1494	Tangut [Xixia]	?	?	bile	bile		1.7.3.1		0		
+234693	1494	Tangut [Xixia]	mu̵r	mu̵r	lips	lips		1.3.2	162-092	0		
+234694	1494	Tangut [Xixia]	nrǐụ	nrǐụ	thigh	thigh		1.5.7.1	230-069	0	D0	
+234695	1494	Tangut [Xixia]	?	?	vulva	vulva			211-112	0		
+234696	1494	Tangut [Xixia]	?	?	abort	abort			122-093	0		
+234697	1494	Tangut [Xixia]	tsǐ	tsǐ	adultery	adultery		4.2.11	269-053	0		
+234698	1494	Tangut [Xixia]	ŋɔɦ	ŋɔɦ	illness / ailment	illness / ailment		1.1.5.1	26-108	0		
+234699	1494	Tangut [Xixia]	ŋɔɦ	ŋɔɦ	illness / suffer from disea	illness / suffer from disea		1.1.5.1	1-121	0		
+234700	1494	Tangut [Xixia]	rar	rar	headache	headache		1.2.1	106-072	0		
+234701	1494	Tangut [Xixia]	Lɛ̣	Lɛ̣	illness / ailment (serious)	illness / ailment (serious)		1.1.5.1	204-09j|	0		
+234702	1494	Tangut [Xixia]	nǐe	nǐe	illness / suffer from (dise	illness / suffer from (dise		1.1.5.1	1-121	0		
+234703	1494	Tangut [Xixia]	ndɨ	ndɨ	illness / re-suffer from	illness / re-suffer from		1.1.5.1	180-097	0		
+234704	1494	Tangut [Xixia]	kǐɛ	kǐɛ	ankle	ankle		1.5.8.2	1-072	0		
+234705	1494	Tangut [Xixia]	khʷɨ	khʷɨ	arm	arm		1.5.1.2	39-107	0		739
+234706	1494	Tangut [Xixia]	Gǐɛ	Gǐɛ	arm (upperarm)	arm (upperarm)		1.5.1.2	39-107	0		
+234707	1494	Tangut [Xixia]	ʁzəw	ʁzəw	arm (center of?) / hand	arm (center of?) / hand		1.5.1.2	17-062	0		
+234708	1494	Tangut [Xixia]	Bǐɛ̣	Bǐɛ̣	armpit	armpit		1.5.1.2.3	269-066	0		
+234709	1494	Tangut [Xixia]	tị	tị	awake	awake		1.1.4	151-061	0		
+234710	1494	Tangut [Xixia]	ʁir	ʁir	back	back		1.4.8	85-071	0		
+234711	1494	Tangut [Xixia]	ɱvu̵r	ɱvu̵r	backbone	backbone		1.4.8.2	85-071	0		
+234712	1494	Tangut [Xixia]	muɦ	muɦ	beak	beak		1.3.1.2	162-092	0		
+234713	1494	Tangut [Xixia]	viɦ	viɦ	bear / bring forth	bear / bring forth		2.2.3	41-052	0		
+234714	1494	Tangut [Xixia]	Bǐɛ̣	Bǐɛ̣	belly	belly		1.4.7	113-062	0		
+234715	1494	Tangut [Xixia]	ɣɔɦ	ɣɔɦ	belly	belly		1.4.7	192-051	0	D1	
+234716	1494	Tangut [Xixia]	ndzaɦ	ndzaɦ	belly / stomach / intestines	belly / stomach / intestines		1.4.7	113-062	0		
+234717	1494	Tangut [Xixia]	Ge	Ge	bite	bite		1.3.4.4	156-042	0		
+234718	1494	Tangut [Xixia]	Gǐẽ	Gǐẽ	bite	bite		1.3.4.4	156-042	0		
+234719	1494	Tangut [Xixia]	ku	ku	blind	blind		1.2.6.14.2	186-052	0		
+234720	1494	Tangut [Xixia]	?	?	blind	blind		1.2.6.14.2	186-061	0		
+234721	1494	Tangut [Xixia]	Gǐõ	Gǐõ	body	body		1.1.1	77-081	0		
+234722	1494	Tangut [Xixia]	ku̵r	ku̵r	body	body		1.1.1	77-081	0		
+234723	1494	Tangut [Xixia]	lõ	lõ	body	body		1.1.1	204-08e|	0		
+234724	1494	Tangut [Xixia]	ɣɑ̣	ɣɑ̣	bone	bone		1.6.3	8-081	0		237
+234725	1494	Tangut [Xixia]	ɣɑr	ɣɑr	chest	chest		1.4.4.3	202-071	0		288
+234726	1494	Tangut [Xixia]	lị	lị	breastplate	breastplate		1.4.4.3	269-064	0		
+234727	1494	Tangut [Xixia]	Gɪč	Gɪč	call	call	v.	8.5.13	255-075	0		
+234728	1494	Tangut [Xixia]	mǐɛ	mǐɛ	call	call	v.	8.5.13	255-078	0		
+234729	1494	Tangut [Xixia]	Bɨ	Bɨ	cheek	cheek		1.2.5.2	269-041	0		
+234730	1494	Tangut [Xixia]	pu̵ɦ	pu̵ɦ	chew	chew		1.3.4	255-111	0		
+234731	1494	Tangut [Xixia]	phu̵ɦ	phu̵ɦ	chew / bite	chew / bite		1.3.4	10-083	0		
+234732	1494	Tangut [Xixia]	Gow	Gow	chew	chew		1.3.4	156-021	0		
+234733	1494	Tangut [Xixia]	Gɪɦ	Gɪɦ	chew / crush	chew / crush		1.3.4	156-021	0		
+234734	1494	Tangut [Xixia]	mow	mow	copulation (with cow)	copulation (with cow)		1.9.1.1	18-098	0		
+234735	1494	Tangut [Xixia]	ɣur	ɣur	corpse	corpse		1.1.6.1	202-093	0		
+234736	1494	Tangut [Xixia]	pǐeɦ	pǐeɦ	corpse	corpse		1.1.6.1	216-052	0		
+234737	1494	Tangut [Xixia]	Fǐa	Fǐa	cough  / spit	cough  / spit (v.)	v.	1.8.3.3	216-082	0		
+234738	1494	Tangut [Xixia]	Hɔ̣	Hɔ̣	cough	cough (n.)	n	1.8.3.3	216-082	0		
+234739	1494	Tangut [Xixia]	Geɦ	Geɦ	cramp / spasm in hand	cramp / spasm in hand		1.6.6.2	236-059	0		
+234740	1494	Tangut [Xixia]	Lɛɦ	Lɛɦ	cramp (in leg)	cramp (in leg)		1.6.6.2	105-104	0		
+234741	1494	Tangut [Xixia]	?	?	crippled / lame	crippled / lame		4.2.7	117-051	0		
+234742	1494	Tangut [Xixia]	mbạ	mbạ	crotch	crotch		1.4.9.1	230-051	0		
+234743	1494	Tangut [Xixia]	Laɦ	Laɦ	crotch	crotch		1.4.9.1	230-051	0		3341
+234744	1494	Tangut [Xixia]	Bɑɦ	Bɑɦ	deaf	deaf		1.2.7.5	297-111	0		
+234745	1494	Tangut [Xixia]	mʷɪɦ	mʷɪɦ	deride	deride	v.	6.4	17-12i	0		
+234746	1494	Tangut [Xixia]	?	?	diarrhea	diarrhea		1.8.5	181-058	0		
+234747	1494	Tangut [Xixia]	sɨ	sɨ	die	die		1.1.6	87-091	0		
+234748	1494	Tangut [Xixia]	rir	rir	die	die		1.1.6	164-065	0		
+234749	1494	Tangut [Xixia]	thiɦ	thiɦ	drink	drink			255-073	0		
+234750	1494	Tangut [Xixia]	ndeɦ	ndeɦ	drink water	drink water			181-08a	0		502
+234751	1494	Tangut [Xixia]	ʔɑ	ʔɑ	dumb	dumb		8.5.4.4	182-094	0		
+234752	1494	Tangut [Xixia]	soɦ	soɦ	dumb	dumb		8.5.4.4	204-084	0		
+234753	1494	Tangut [Xixia]	?	?	ear (cavity of)	ear (cavity of)		1.2.7		0		
+234754	1494	Tangut [Xixia]	?	?	ear-plug	ear-plug		1.2.7		0		
+234755	1494	Tangut [Xixia]	miɦ	miɦ	silent / silent, get	silent / silent, get		8.5.4.4	204-04f	0		
+234756	1494	Tangut [Xixia]	mu̵r	mu̵r	silently / silent	silently / silent		8.5.4.4	303-061	0		
+234757	1494	Tangut [Xixia]	tị	tị	eat	eat		1.5.3.2	147B-041	0		
+234758	1494	Tangut [Xixia]	ɱvǐuɦ	ɱvǐuɦ	evacuate	evacuate		6.2	69-051	0		
+234759	1494	Tangut [Xixia]	Gar	Gar	eye	eye		1.2.6	204-092	0	D1	
+234760	1494	Tangut [Xixia]	khʷɑ	khʷɑ	eye socket	eye socket		1.2.6	181-088	0		
+234761	1494	Tangut [Xixia]	Hɔ̣	Hɔ̣	tear	tear		1.8.8.1	216-031	0		
+234762	1494	Tangut [Xixia]	?	?	eye, clear	eye, clear		1.2.6	303-051	0		
+234763	1494	Tangut [Xixia]	Tar	Tar	shut one's eye	shut one's eye		6.2.2.6.2	186-063	0		
+234764	1494	Tangut [Xixia]	ɱvu̵r	ɱvu̵r	eye ( be speckled in)	eye ( be speckled in)		1.2.6	7-082	0		
+234765	1494	Tangut [Xixia]	?	?	face	face		1.2.5	204-07p	0		
+234766	1494	Tangut [Xixia]	Ga	Ga	fat / grease	fat / grease		1.6.4	41-105	0		
+234767	1494	Tangut [Xixia]	nɑɦ	nɑɦ	fat, grow / fertilized	fat, grow / fertilized		1.6.4	80-068	0		
+234768	1494	Tangut [Xixia]	tshɑw	tshɑw	fat, grow (of animals)	fat, grow (of animals)		1.6.4	7-11f	0		
+234769	1494	Tangut [Xixia]	ndzụ̵	ndzụ̵	feather	feather		1.6.1.1	305-071	0		
+234770	1494	Tangut [Xixia]	tị	tị	feed	feed		1.3.5.8	255-066	0		
+234771	1494	Tangut [Xixia]	khɨ	khɨ	foot	foot		1.5.2	1-072	0		
+234772	1494	Tangut [Xixia]	?	?	leg	leg		1.5.7		0		
+234773	1494	Tangut [Xixia]	mǐow	mǐow	barefoot	barefoot		1.5.2.5	63-001	0		
+234774	1494	Tangut [Xixia]	Lǐor	Lǐor	raise (a foot)	raise (a foot)		6.7.7	18-064	0		
+234775	1494	Tangut [Xixia]	Tɔ	Tɔ	gall, squeeze	gall, squeeze		1.7.3.1	1-103	0		
+234776	1494	Tangut [Xixia]	ʁzɪě	ʁzɪě	gargle	gargle		1.3.5.6	181-108	0		
+234777	1494	Tangut [Xixia]	kǐuɦ	kǐuɦ	genitals (penis, vulva)	genitals (penis, vulva)			39-054	0		
+234778	1494	Tangut [Xixia]	stshǐẽ	stshǐẽ	groin	groin		1.4.9	105-101	0		217
+234779	1494	Tangut [Xixia]	?	?	hair (of head)	hair (of head)		1.2.3	275-041	0		
+234780	1494	Tangut [Xixia]	nị	nị	topknot / chignon (hair of	topknot / chignon (hair of		1.2.3.2	9-083	0		
+234781	1494	Tangut [Xixia]	thu	thu	wool (of sheep) (?)	wool (of sheep) (?)		1.6.1.3	96-091	0		5602
+234782	1494	Tangut [Xixia]	rɪr	rɪr	hair ornament	hair ornament		1.2.3	236-062	0		
+234783	1494	Tangut [Xixia]	khɑ̣	khɑ̣	hands, received by	hands, received by		1.5.1.1	236-05g	0		
+234784	1494	Tangut [Xixia]	ɣu̵ɦ	ɣu̵ɦ	head	head		1.2.1	106-071	0		
+234785	1494	Tangut [Xixia]	tšǐəw	tšǐəw	crown of head (top)	crown of head (top)		1.2.1.2	18-11b	0		
+234786	1494	Tangut [Xixia]	thoɦ	thoɦ	head (small)(?)	head (small)(?)		1.2.1	106-092	0		
+234787	1494	Tangut [Xixia]	pu̵ɦ	pu̵ɦ	head (big) / elephant head	head (big) / elephant head		1.2.1	204-08m	0		
+234788	1494	Tangut [Xixia]	ŋzur	ŋzur	head (classifier?)	head (classifier?)		1.2.1	17-054	0		
+234789	1494	Tangut [Xixia]	ndɪr	ndɪr	ringworm	ringworm		2.2.6	243-051	0		
+234790	1494	Tangut [Xixia]	vịr	vịr	hear / listen	hear / listen		1.2.7.4	111-092	0		
+234791	1494	Tangut [Xixia]	miɦ	miɦ	hear / listen	hear / listen		1.2.7.4	7-102	0		
+234792	1494	Tangut [Xixia]	niɦ	niɦ	hear / listen	hear / listen		1.2.7.4	204-09e	0		
+234793	1494	Tangut [Xixia]	Bɨ	Bɨ	hear / listen	hear / listen		1.2.7.4	211-08c	0		
+234794	1494	Tangut [Xixia]	nrǐu	nrǐu	hear / listen	hear / listen		1.2.7.4	223-061	0		811
+234795	1494	Tangut [Xixia]	sǐụ	sǐụ	hear / listen	hear / listen		1.2.7.4	306-081	0		
+234796	1494	Tangut [Xixia]	?	?	hear / listen	hear / listen		1.2.7.4	223-061	0		
+234797	1494	Tangut [Xixia]	mǐɔɦ	mǐɔɦ	hear / listen	hear / listen		1.2.7.4	7-131	0		
+234798	1494	Tangut [Xixia]	lɛ	lɛ	mind / heart	mind / heart		1.10	88-011	0		1381
+234799	1494	Tangut [Xixia]	ŋɣu̵r	ŋɣu̵r	heal / cure	heal / cure		1.1.5.1	41-10a	0		
+234800	1494	Tangut [Xixia]	ʁzị	ʁzị	healed / cured	healed / cured		1.1.5.1	106-083	0		
+234801	1494	Tangut [Xixia]	?	?	hoof	hoof		1.5.4	80-111	0		
+234802	1494	Tangut [Xixia]	tšiɦ	tšiɦ	hoof	hoof		1.5.4	1-086	0		
+234803	1494	Tangut [Xixia]	ndzu̵ɦ	ndzu̵ɦ	human being	human being		4.5	61-041	0		
+234804	1494	Tangut [Xixia]	ndžɨ̣̇	ndžɨ̣̇	man (general) / human being	man (general) / human being		1.9.6.1	61-041	0		
+234805	1494	Tangut [Xixia]	wị	wị	human being / man	human being / man		4.5	223-041	0		
+234806	1494	Tangut [Xixia]	?	?	hungry / starve	hungry / starve		1.1.3	192-041	0		
+234807	1494	Tangut [Xixia]	lǐẽ	lǐẽ	intestine	intestine		1.7.6	192-061	0		
+234808	1494	Tangut [Xixia]	?	?	intestine, lower part	intestine, lower part		1.7.6	68-093	0		
+234809	1494	Tangut [Xixia]	tsǐər	tsǐər	joint (bone)	joint (bone)		1.5.8	8-082	0		
+234810	1494	Tangut [Xixia]	Gɑ	Gɑ	jump	jump	v.	6.7.8	319-113	0		
+234811	1494	Tangut [Xixia]	pha	pha	kill (crush)	kill (crush)		6.4	204-08c|	0		
+234812	1494	Tangut [Xixia]	ndǐᴜɦ	ndǐᴜɦ	kiss / suck	kiss / suck		1.3.2.2	255-122	0		5541
+234813	1494	Tangut [Xixia]	mɛ	mɛ	kneel	kneel		1.5.8.4.1	41-09i	0		
+234814	1494	Tangut [Xixia]	kɔɦ	kɔɦ	larynx	larynx		1.3.5.4	255-058	0		389
+234815	1494	Tangut [Xixia]	lǐẹ	lǐẹ	laugh	laugh		1.8.8.1	17-12i	0		1108
+234816	1494	Tangut [Xixia]	?	?	leprosy	leprosy		5.3	243-063	0	D1	
+234817	1494	Tangut [Xixia]	Bow	Bow	leprosy sufferer	leprosy sufferer		5.3	297-092	0		
+234818	1494	Tangut [Xixia]	sǐu	sǐu	life	life		1.1.2.1	26-124	0		
+234819	1494	Tangut [Xixia]	kɑ̣	kɑ̣	life	life		1.1.2.1	39-093	0		
+234820	1494	Tangut [Xixia]	ʁzoɦ	ʁzoɦ	life	life		1.1.2.1	118-041	0		
+234821	1494	Tangut [Xixia]	ndzu	ndzu	life	life		1.1.2.1	118-041	0		
+234822	1494	Tangut [Xixia]	sǐu	sǐu	life / alive	life / alive		1.1.2.1		0		
+234823	1494	Tangut [Xixia]	kǐu	kǐu	alive / have a life	alive / have a life		1.1.2.1	23-101	0		
+234824	1494	Tangut [Xixia]	mu̵ɦ	mu̵ɦ	alive / have a life	alive / have a life		1.1.2.1	41-052	0		
+234825	1494	Tangut [Xixia]	mu̵r	mu̵r	lip	lip		1.3.2	162-092	0	D1	467
+234826	1494	Tangut [Xixia]	cɛ	cɛ	harelip	harelip		1.3.2	255-097	0		
+234827	1494	Tangut [Xixia]	mu̵ɦ	mu̵ɦ	maggot	maggot		2.2.6	275-072	0		
+234828	1494	Tangut [Xixia]	nu̵	nu̵	mammary gland	mammary gland		1.5.3.2	204-09y	0		
+234829	1494	Tangut [Xixia]	ɣuɦ	ɣuɦ	mate	mate	v.		269-072	0		
+234830	1494	Tangut [Xixia]	Gɨ	Gɨ	mating	mating		1.9.1.1	269-072	0		
+234831	1494	Tangut [Xixia]	thᴜ	thᴜ	milk	milk			181-092	0		
+234832	1494	Tangut [Xixia]	nəw	nəw	milk	milk			204-09y	0		253
+234833	1494	Tangut [Xixia]	nɑ̣	nɑ̣	mucus / snivel / snot	mucus / snivel / snot		1.8.2	255-031	0		805
+234834	1494	Tangut [Xixia]	Tɨ̃̇	Tɨ̃̇	nail (finger) / nail (of ha	nail (finger) / nail (of ha		1.5.10	235-072	0		
+234835	1494	Tangut [Xixia]	ku̵ɦ	ku̵ɦ	nail	nail		1.5.10	105-103	0		
+234836	1494	Tangut [Xixia]	?	?	nail (finger)	nail (finger)		1.5.10		0		
+234837	1494	Tangut [Xixia]	mʷɪɦ	mʷɪɦ	odor	odor		7.1.4.5	255-102	0		
+234838	1494	Tangut [Xixia]	nɔɦ	nɔɦ	odor	odor		7.1.4.5	255-102	0		
+234839	1494	Tangut [Xixia]	rɑr	rɑr	old, get / aged	old, get / aged		7.1.8.3	180-095	0		7189
+234840	1494	Tangut [Xixia]	?	?	oral cavity	oral cavity		1.3.1	154-042	0		
+234841	1494	Tangut [Xixia]	ŋɣu	ŋɣu	oral cavity	oral cavity		1.3.1	181-08f	0		
+234842	1494	Tangut [Xixia]	?	?	pelvis	pelvis		1.4.9.2	135-074	0		
+234843	1494	Tangut [Xixia]	ʔyeɦ	ʔyeɦ	penis	penis			260-063	0		
+234844	1494	Tangut [Xixia]	rǐur	rǐur	rash / eruption	rash / eruption		1.6.5.3	269-062	0	HIDE	DUPE IN SOURCE
+234845	1494	Tangut [Xixia]	rǐur	rǐur	rash / eruption	rash / eruption		1.6.5.3	269-104	0	D1	
+234846	1494	Tangut [Xixia]	?	?	boils	boils		6.6		0		
+234847	1494	Tangut [Xixia]	mu̵ɦ	mu̵ɦ	ringworm	ringworm		2.2.6	117-061	0		
+234848	1494	Tangut [Xixia]	tshǐeɦ	tshǐeɦ	say / speak	say / speak		1.8.7	235-042	0		
+234849	1494	Tangut [Xixia]	li	li	say / speak	say / speak		1.8.7	235-042	0		
+234850	1494	Tangut [Xixia]	thɛ	thɛ	say / speak	say / speak		1.8.7	10-112	0		
+234851	1494	Tangut [Xixia]	ʔyɨ	ʔyɨ	say	say		1.8.7	297-032	0		
+234852	1494	Tangut [Xixia]	Lɪě	Lɪě	scabies (slight) / itch	scabies (slight) / itch		1.6.5	269-051	0		
+234853	1494	Tangut [Xixia]	?	?	scabies (heavy?) / itch	scabies (heavy?) / itch		1.6.5	269-061	0		
+234854	1494	Tangut [Xixia]	ʔyǐu	ʔyǐu	see / look	see / look		1.2.6.10	18-124	0		
+234855	1494	Tangut [Xixia]	leɦ	leɦ	see / look	see / look		1.2.6.10	7-062	0		
+234856	1494	Tangut [Xixia]	li	li	see / look	see / look		1.2.6.10	7-062	0		
+234857	1494	Tangut [Xixia]	mow	mow	see / look / observe	see / look / observe		1.2.6.11	303-032	0		
+234858	1494	Tangut [Xixia]	ŋgeɦ	ŋgeɦ	shin	shin		1.5.7.2	105-051	0		
+234859	1494	Tangut [Xixia]	ŋɣu	ŋɣu	sing / chirp (bird)	sing / chirp (bird)		5.1	204-07j	0		
+234860	1494	Tangut [Xixia]	tsǐõ	tsǐõ	skin (fatty)	skin (fatty)		1.6.5	297-081	0		
+234861	1494	Tangut [Xixia]	Lǐɔr	Lǐɔr	slaver	slaver		4.2.10	181-044	0		
+234862	1494	Tangut [Xixia]	Bɪ	Bɪ	sleep	sleep		1.1.4.1	7-106	0		
+234863	1494	Tangut [Xixia]	ʔɨɦ	ʔɨɦ	sleep	sleep		1.1.4.1	151-051	0		
+234864	1494	Tangut [Xixia]	thɔɦ	thɔɦ	sleep (sound)	sleep (sound)		1.1.4.1	195-021	0		
+234865	1494	Tangut [Xixia]	Gũ̵	Gũ̵	snoring	snoring		1.8.2.2	216-062	0		
+234866	1494	Tangut [Xixia]	Bɛ	Bɛ	smallpox	smallpox		5.3	248-051	0		
+234867	1494	Tangut [Xixia]	li	li	smell	smell		1.2.8.5	255-102	0		
+234868	1494	Tangut [Xixia]	Cɪ	Cɪ	smell (rotten)	smell (rotten)		1.2.8.5	269-122	0		
+234869	1494	Tangut [Xixia]	?	?	smell (bad) / stink	smell (bad) / stink		1.2.8.5	269-122	0		
+234870	1494	Tangut [Xixia]	šɨɦ	šɨɦ	spittle / saliva	spittle / saliva		1.2.6	255-061	0		
+234871	1494	Tangut [Xixia]	?	?	starved, get	starved, get		1.1.3	255-071	0		
+234872	1494	Tangut [Xixia]	ndžǐəw	ndžǐəw	starved, get	starved, get		1.1.3	255-072	0		
+234873	1494	Tangut [Xixia]	mbiɦ	mbiɦ	step	step		6.7.4	105-111	0		
+234874	1494	Tangut [Xixia]	čʷɪɦ	čʷɪɦ	stumble	stumble		6.7.3	105-053	0		
+234875	1494	Tangut [Xixia]	čɪɦ	čɪɦ	stumble	stumble		6.7.3	105-065	0		
+234876	1494	Tangut [Xixia]	rɪr	rɪr	stutter	stutter	v.	8.5.4.5	154-092	0		
+234877	1494	Tangut [Xixia]	Tar	Tar	stutter	stutter	v.	8.5.4.5	255-085	0		
+234878	1494	Tangut [Xixia]	niɦ	niɦ	swallow	swallow	v.	1.3.5.6	205-082	0		
+234879	1494	Tangut [Xixia]	rǐu	rǐu	swallow	swallow	v.	1.3.5.6	255-062	0		
+234880	1494	Tangut [Xixia]	tɨ	tɨ	swallow	swallow (v.)	v.	1.3.5.6	255-06c	0		
+234881	1494	Tangut [Xixia]	šǐɔɦ	šǐɔɦ	sweat	sweat		1.8.1	181-071	0		60
+234882	1494	Tangut [Xixia]	kir	kir	taste	taste	v.	1.3.5.8	18-143	0		
+234883	1494	Tangut [Xixia]	kɔr	kɔr	fang / tusk	fang / tusk		1.3.4.1	267-001	0		
+234884	1494	Tangut [Xixia]	khɨ̃̇	khɨ̃̇	teeth (row of even)	teeth (row of even)		1.3.4	155-111	0		
+234885	1494	Tangut [Xixia]	čir	čir	teeth, make gnashing soun	teeth, make gnashing soun		1.3.4	156-061	0		
+234886	1494	Tangut [Xixia]	čar	čar	gnash repeatedly	gnash repeatedly		1.3.4.4		0		
+234887	1494	Tangut [Xixia]	sɪ	sɪ	teeth, sound produced by	teeth, sound produced by		1.3.4	255-077	0		
+234888	1494	Tangut [Xixia]	ŋgǐuɦ	ŋgǐuɦ	tendon / sinew	tendon / sinew		1.6.6.1	41-084	0		
+234889	1494	Tangut [Xixia]	ŋe	ŋe	thin, get	thin, get		9.7.2	17-12f	0		
+234890	1494	Tangut [Xixia]	ndžǐəw	ndžǐəw	thirsty	thirsty		1.1.3.1	192-041	0		
+234891	1494	Tangut [Xixia]	Bɑ̣	Bɑ̣	thirsty, get	thirsty, get		1.1.3.1	255-071	0		
+234892	1494	Tangut [Xixia]	lʷɛ̣	lʷɛ̣	throat	throat		1.3.5	7-101	0		479
+234893	1494	Tangut [Xixia]	nʷeɦ	nʷeɦ	throat	throat		1.3.5	98-072	0		
+234894	1494	Tangut [Xixia]	cǐɔɦ	cǐɔɦ	throat, constrict one's	throat, constrict one's		1.3.5	89-051	0		
+234895	1494	Tangut [Xixia]	sǐɔɦ	sǐɔɦ	throat, constrict one's	throat, constrict one's		1.3.5	89-051	0		
+234896	1494	Tangut [Xixia]	lɛ	lɛ	tread	tread		6.7.4	105-072	0		
+234897	1494	Tangut [Xixia]	?	?	ulcers	ulcers		1.8.6.2		0		
+234898	1494	Tangut [Xixia]	ndɪr	ndɪr	ulcer	ulcer		1.8.6.2	269-071	0		
+234899	1494	Tangut [Xixia]	sʷɨ	sʷɨ	urinate	urinate		1.5.3.2	204-08h|	0		2795
+234900	1494	Tangut [Xixia]	Bị	Bị	urine	urine		1.8.4	204-07q	0	D1	
+234901	1494	Tangut [Xixia]	ʁzɔr	ʁzɔr	vein (blue)	vein (blue)		1.6.2.1	230-079	0		
+234903	1494	Tangut [Xixia]	?	?	vessels	vessels		5.1		0	D1	
+234904	1494	Tangut [Xixia]	?	?	"vessels, ""vital force"""	"vessels, ""vital force"""		5.1		0		
+234905	1494	Tangut [Xixia]	Lụ	Lụ	weep	weep		1.8.8.2	204-07j	0		
+234906	1494	Tangut [Xixia]	tɔɦ	tɔɦ	weep	weep		1.8.8.2	204-09a|	0		
+234907	1494	Tangut [Xixia]	mu̵ɦ	mu̵ɦ	voice	voice		8.5.5	102-062	0		
+234908	1494	Tangut [Xixia]	Gɑr	Gɑr	voice (weepy)	voice (weepy)		8.5.5	303-031	0		
+234909	1494	Tangut [Xixia]	Gu̵	Gu̵	calling voice	calling voice		8.5.13	255-075	0		
+234910	1494	Tangut [Xixia]	čɛɦ	čɛɦ	cursing voice	cursing voice		8.5.1	182-113	0		
+234911	1494	Tangut [Xixia]	Hǐa	Hǐa	cursing voice	cursing voice		8.5.1	182-113	0		
+234912	1494	Tangut [Xixia]	ŋgị	ŋgị	groan	groan		8.5.5	243-042	0		
+234913	1494	Tangut [Xixia]	čǐụ	čǐụ	wing	wing		1.5.1.3	305-083	0		731
+234914	1494	Tangut [Xixia]	nuɦ	nuɦ	maternity belt / bellyband	maternity belt / bellyband		5.11.8.2.1.3	192-091	0		
+234915	1494	Tangut [Xixia]	mu̵ɦ	mu̵ɦ	maternity belt / bellyband	maternity belt / bellyband		5.11.8.2.1.3	192-091	0		
+234916	1494	Tangut [Xixia]	šǐah	šǐah	maternity belt / bellyband	maternity belt / bellyband		5.11.8.2.1.3	218-071	0		
+234917	1494	Tangut [Xixia]	ŋgɛ̣	ŋgɛ̣	girth / bellyband	girth / bellyband		9.7.1	017d-041	0		
+234918	1494	Tangut [Xixia]	thɨ̣̇	thɨ̣̇	girth / bellyband	girth / bellyband		9.7.1	017d-041	0		
+234919	1494	Tangut [Xixia]	Tǐụ	Tǐụ	suckle / breastfeed / nourish	suckle / breastfeed / nourish		1.3.2.1	7-145	0		5541
+234920	1494	Tangut [Xixia]	?	?	suckle / breastfeed	suckle / breastfeed		1.3.2.1	7-145	0		
+234921	1494	Tangut [Xixia]	?	?	lame	lame		1.5.12	117-051	0		
+234922	1494	Tangut [Xixia]	nǐuɦ	nǐuɦ	eye-wiper	eye-wiper		1.2.6	303-062	0		
+234923	1494	Tangut [Xixia]	?	?	milk	milk			181-137	0		
+234924	1494	Tangut [Xixia]	Gow	Gow	temptation; a tempting si	temptation; a tempting si		8.3.2.7.2	303-063	0		
+234925	1494	Tangut [Xixia]	?	?	drink	drink			255-073	0	HIDE	DUPE IN SOURCE
+234926	1494	Tangut [Xixia]	?	?	drink	drink			255-107	0	D1	
+234927	1495	Tangut [Xixia]	ŋa	ŋa	back	back		1.4.8	185	0		205
+234928	1495	Tangut [Xixia]	maɦ	maɦ	stomach	stomach		1.7.6	191	0		
+234929	1495	Tangut [Xixia]	seɦ	seɦ	blood	blood		1.6.2	192	0		230
+234930	1495	Tangut [Xixia]	lǐụ	lǐụ	body	body		1.1.1	193	0		
+234931	1495	Tangut [Xixia]	rɪr	rɪr	bone	bone		1.6.3	192	0		232
+234932	1495	Tangut [Xixia]	šʷiɦ	šʷiɦ	teeth	teeth		1.3.4	183	0		632
+234933	1495	Tangut [Xixia]	nrǐuɦ	nrǐuɦ	ear	ear		1.2.7	184	0		811
+234934	1495	Tangut [Xixia]	mɛ	mɛ	eye	eye		1.2.6	185, 183	0		681
+234935	1495	Tangut [Xixia]	khʷɑ	khʷɑ	eyeball	eyeball		1.2.6.1	185	0		
+234936	1495	Tangut [Xixia]	mɨ	mɨ	eyebrow	eyebrow		1.2.6.6	185	0		
+234937	1495	Tangut [Xixia]	mɨmar	mɨmar	eyebrow	eyebrow		1.2.6.6		0		bChinese
+234938	1495	Tangut [Xixia]	niɦ	niɦ	face	face		1.2.5	184	0		
+234939	1495	Tangut [Xixia]	tšhi	tšhi	flesh	flesh		1.1.1.1	192	0		34
+234940	1495	Tangut [Xixia]	lạ	lạ	forehead	forehead		1.2.5.1	184	0	D0	
+234941	1495	Tangut [Xixia]	mar	mar	hair (of head)	hair (of head)		1.2.3	185, 184	0		363
+234942	1495	Tangut [Xixia]	ɬɑ̣	ɬɑ̣	hand	hand		1.5.1.1	192	0		695
+234943	1495	Tangut [Xixia]	ɣuɦ	ɣuɦ	head	head		1.2.1	183	0		
+234944	1495	Tangut [Xixia]	nɔɦ	nɔɦ	brain	brain		1.2.4	183	0		243
+234945	1495	Tangut [Xixia]	nǐeɦ	nǐeɦ	heart (psyche)	heart (psyche)		1.7.1	186	0		251
+234946	1495	Tangut [Xixia]	ɱvu̵r-lõ	ɱvu̵r-lõ	kidneys	kidneys		1.7.5	186	0		
+234947	1495	Tangut [Xixia]	ŋɣɛ	ŋɣɛ	knee	knee		1.5.8.4	191	0		
+234948	1495	Tangut [Xixia]	siɦ	siɦ	liver	liver		1.7.3	186	0		1390
+234949	1495	Tangut [Xixia]	tshõ	tshõ	lung	lung		1.7.2	186	0		
+234950	1495	Tangut [Xixia]	loɦ (?)	loɦ (?)	marrow	marrow		1.6.3.5	193	0		
+234951	1495	Tangut [Xixia]	lhe	lhe	mouth	mouth		1.3.1	183	0		
+234952	1495	Tangut [Xixia]	ŋgǐuɦ	ŋgǐuɦ	muscles	muscles		1.6.6.2	193	0		
+234953	1495	Tangut [Xixia]	(ɣɔɦ) teɦ	(ɣɔɦ) teɦ	navel	navel		1.9.4	191	0		137,519
+234954	1495	Tangut [Xixia]	lʷɛ̣	lʷɛ̣	neck	neck		1.4.2	185	0		479
+234955	1495	Tangut [Xixia]	nɪɦ	nɪɦ	nose	nose		1.2.8	183	0		803
+234956	1495	Tangut [Xixia]	pạ	pạ	palm (of hand)	palm (of hand)		1.5.5	192	0		
+234957	1495	Tangut [Xixia]	tšhɨɦ rǐur	tšhɨɦ rǐur	rash / eruption / boil	rash / eruption / boil		1.6.5.3	194	0		
+234958	1495	Tangut [Xixia]	nɨ̃	nɨ̃	finger	finger		1.5.6	192	0		
+234960	1495	Tangut [Xixia]	Bǐɛ̣-now	Bǐɛ̣-now	rib	rib		1.4.4.3	186	0	D1	m,553
+234961	1495	Tangut [Xixia]	wɑ̣	wɑ̣	shoulders	shoulders		1.4.3	185	0	D0	3350
+234962	1495	Tangut [Xixia]	tǐụ	tǐụ	saliva / spittle	saliva / spittle		1.8.3	193	0		
+234963	1495	Tangut [Xixia]	pǐu	pǐu	spleen	spleen		1.7.4	186	0		91
+234964	1495	Tangut [Xixia]	kɔr	kɔr	tusk / fang	tusk / fang		1.3.4.1	183	0		
+234966	1495	Tangut [Xixia]	lʷɑ	lʷɑ	tongue	tongue		1.3.3	183	0		621
+234967	1495	Tangut [Xixia]	mɑ ȵa	mɑ ȵa	ulcer	ulcer		1.8.6.2	194	0		
+234968	1495	Tangut [Xixia]	ʁzɪr	ʁzɪr	vessels (blood)	vessels (blood)		5.1	193	0		
+234969	1495	Tangut [Xixia]	n◦džu	n◦džu	loins	loins		1.4.9	191	0		p,222
+234970	1495	Tangut [Xixia]	ŋgi	ŋgi	bile	bile		1.7.3.1	186	0		
+234971	1495	Tangut [Xixia]	nrǐụ	nrǐụ	thigh	thigh		1.5.7.1	191	0	D0	
+234972	1495	Tangut [Xixia]	rarŋɔɦ	rarŋɔɦ	illness / ailment	illness / ailment		1.1.5.1	193	0		
+234973	1495	Tangut [Xixia]	ɱvu̵r ʁir	ɱvu̵r ʁir	backbone	backbone		1.4.8.2	185	0		m,232
+234974	1495	Tangut [Xixia]	ɣɔɦ	ɣɔɦ	belly	belly		1.4.7	191	0		
+234975	1495	Tangut [Xixia]	ku̵r	ku̵r	body	body		1.1.1	193	0		
+234976	1495	Tangut [Xixia]	ɣɑr	ɣɑr	chest	chest		1.4.4.3	185	0		288
+234977	1495	Tangut [Xixia]	mba	mba	crotch	crotch		1.4.9.1	191	0		
+234978	1495	Tangut [Xixia]	sɨ	sɨ	die	die		1.1.6	194	0		
+234979	1495	Tangut [Xixia]	nrǐuɦ ndžǐʷõ	nrǐuɦ ndžǐʷõ	ear (cavity of)	ear (cavity of)		1.2.7	184	0		811,m
+234980	1495	Tangut [Xixia]	nrǐuɦ pɪ̣ě	nrǐuɦ pɪ̣ě	ear-plug	ear-plug		1.2.7	184	0		811,m
+234981	1495	Tangut [Xixia]	khɨ	khɨ	leg	leg		1.5.7	191	0		
+234982	1495	Tangut [Xixia]	khɨ stshǐẽ	khɨ stshǐẽ	groin	groin		1.4.9	192	0		m,217
+234983	1495	Tangut [Xixia]	tšǐəw	tšǐəw	crown of head (top)	crown of head (top)		1.2.1.2	183	0		
+234984	1495	Tangut [Xixia]	tsǐəw	tsǐəw	joint (bone)	joint (bone)		1.5.8	192	0		
+234985	1495	Tangut [Xixia]	kɑ̣	kɑ̣	life	life		1.1.2.1	186	0		
+234986	1495	Tangut [Xixia]	sǐu	sǐu	life / alive	life / alive		1.1.2.1	194	0		
+234987	1495	Tangut [Xixia]	mu̵r	mu̵r	lip	lip		1.3.2	183	0		467
+234988	1495	Tangut [Xixia]	nɑ̣	nɑ̣	mucus / snivel / snot	mucus / snivel / snot		1.8.2	193	0		805
+234989	1495	Tangut [Xixia]	ndziɦ	ndziɦ	nail (finger)	nail (finger)		1.5.10	192	0		
+234990	1495	Tangut [Xixia]	tšɨɦ rǐur	tšɨɦ rǐur	boils	boils		6.6	194	0		
+234991	1495	Tangut [Xixia]	ŋgeɦ	ŋgeɦ	shin	shin		1.5.7.2	191	0		
+234992	1495	Tangut [Xixia]	kor-nʷeɦ	kor-nʷeɦ	throat	throat		1.3.5	184	0	D1	496,m
+234993	1495	Tangut [Xixia]	mɑ ȵa	mɑ ȵa	ulcers	ulcers		1.8.6.2	194	0		
+234994	1495	Tangut [Xixia]	ɣkɪ̣ě	ɣkɪ̣ě	vessels	vessels		5.1	193	0		
+234995	1495	Tangut [Xixia]	ʁzɪr	ʁzɪr	vessels	vessels		5.1	193	0		
+234996	1495	Tangut [Xixia]	ɣkɪ̣ě ʁzɪr	ɣkɪ̣ě ʁzɪr	"vessels, ""vital force"""	"vessels, ""vital force"""		5.1	193	0		

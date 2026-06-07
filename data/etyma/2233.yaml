@@ -1,0 +1,16 @@
+tag: 2233
+grpid: 2
+proto_language: PTB
+protoform: gar
+gloss: LEAVE / ABANDON
+semkey: 6.10.2
+sequence: 2.0
+status: KEEP
+public: true
+references: cf. STC#015, HPTB p.390
+phonology:
+  handle: gar
+  initial: g
+  rhyme: ar
+  initcover: K
+  rhymecover: L

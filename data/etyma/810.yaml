@@ -1,0 +1,23 @@
+tag: 810
+grpid: 2
+proto_language: PTB
+protoform: bi
+gloss: NOSE
+semkey: 1.2.8
+sequence: 4.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: bi
+  initial: b
+  rhyme: i
+  initcover: P
+  rhymecover: V
+notes:
+- type: F
+  text: '<par><hanform>鼻</hanform> OC <latinform>*bʼi̯əd</latinform>, GSR #521c &apos;nose&apos;; B &amp;
+    S 2011: <latinform>*m-bit-s {m-[b]i[t]-s}</latinform>; Mand. <latinform>bí</latinform>.</par>'
+- type: T
+  text: <par>For phonosemantically similar roots, see <xref ref="1421">#1421</xref> and <xref ref="5756">#5756</xref>.</par><par>Cf.
+    also <xref ref="2130">#2130</xref>.</par>

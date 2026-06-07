@@ -1,0 +1,16 @@
+tag: 516
+grpid: 2
+proto_language: PTB
+protoform: m-kren
+gloss: NAIL / CLAW
+semkey: 1.5.10
+sequence: 8.0
+status: DELETE
+public: false
+phonology:
+  handle: kren
+  prefix: m
+  initial: kr
+  rhyme: en
+  initcover: K
+  rhymecover: N

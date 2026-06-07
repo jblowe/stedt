@@ -1,0 +1,23 @@
+tag: 151
+grpid: 44
+proto_language: PBm
+protoform: bun
+gloss: AWAKE
+semkey: 1.1.4
+sequence: 5.0
+status: KEEP
+public: false
+phonology:
+  handle: bun
+  initial: b
+  rhyme: un
+  initcover: P
+  rhymecover: N
+notes:
+- type: I
+  text: <par>devoicing throughout Burmish. Only Burmish so far.</par>
+- type: I
+  text: <par>so far only attested in burmish -&gt;PBm <reconstruction>*pun</reconstruction></par>
+- type: T
+  text: <par>There is a possible cognate to this Proto-Burmish root in Lotha Naga. If this is valid, the
+    root should be promoted to the PTB level.</par>

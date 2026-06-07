@@ -1,0 +1,26 @@
+tag: 91
+grpid: 2
+proto_language: PTB
+protoform: r-pay
+gloss: SPLEEN
+semkey: 1.7.4
+sequence: 3117.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-p(r)ay¹
+  gloss: SPLEEN
+notes:
+- type: T
+  text: '<par>Care must be taken to distinguish the reflexes of this etymon from those TB forms borrowed
+    from Indo-Aryan; see <xref ref="5636">#5636</xref>.</par><par>This root was first reconstructed as
+    <latinform>*pay ⪤ play</latinform> (VSTB: 217-218).</par><par>The Jingpho compounds for &apos;spleen&apos;
+    (<latinform>kan-pai ~ kum-pai ~ hkum-pai ~ hkin-pai</latinform>) have several initial syllables which
+    seem to serve as body-part classifiers.  <latinform>kān</latinform> means &apos;stomach&apos; (cf.
+    Dai et al. 1983:362) in isolation, while <latinform>kùm ~ hkùm ~ gùm</latinform> is a sort of body-part
+    classifier (cf. Dai et al. 1983:263 and our root <xref ref="206">#206</xref>).</par><par>This root
+    is quite similar to <xref ref="1325">#1325</xref>, with which it perhaps stands in an allofamic relationship.</par>'
+- type: F
+  text: '<par><hanform>脾</hanform> OC <latinform>*bʼi̯ĕg</latinform>, GSR #874h; Mand. <latinform>pí</latinform>.</par>'

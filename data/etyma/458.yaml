@@ -1,0 +1,20 @@
+tag: 458
+grpid: 2
+proto_language: PTB
+protoform: ts(u/i)-t
+gloss: LUNG
+semkey: 1.7.2
+sequence: 2.0
+status: KEEP
+public: true
+references: pp 113-123 VSTB
+phonology:
+  handle: tsu/i
+  initial: ts(
+  rhyme: u/i)-t
+  initcover: TS
+  rhymecover: VT
+notes:
+- type: T
+  text: <par>The rGyalrong forms with final <latinform>-s</latinform> might indicate that this root is
+    to be reconstructed with a final dental sibilant rather than a final dental stop.</par>

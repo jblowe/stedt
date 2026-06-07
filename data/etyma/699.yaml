@@ -1,0 +1,57 @@
+tag: 699
+grpid: 2
+proto_language: PTB
+protoform: d-yak
+gloss: HAND / ARM / LEAF
+semkey: 1.5.1.1
+sequence: 1.3
+status: KEEP
+public: true
+references: cf. HPTB pp.51, 65
+phonology:
+  handle: yak
+  prefix: d
+  initial: y
+  rhyme: ak
+  initcover: L
+  rhymecover: T
+notes:
+- type: T
+  text: '<par>The source of this prefix is a matter of speculation, but cf. the apparently prefixal dental
+    that occurs before other roots referring to the upper limb in scattered TB languages: e.g. [Himalayish]
+    WT <latinform><emph>d</emph>puŋ</latinform> &apos;shoulder&apos;; [Qiangic] rGyalrong <latinform><emph>te</emph>khlye</latinform>
+    &apos;upper arm&apos;; [Asakian] Kadu <latinform><emph>ta</emph>paung, <emph>tə</emph>hù</latinform>
+    &apos;arm&apos;, Sak <latinform><emph>ta</emph>kú</latinform> &apos;arm&apos;, Lui <latinform><emph>ta</emph>khu</latinform>
+    &apos;arm&apos;; [Naga] Ao Chungli <latinform><emph>te</emph>ben</latinform> &apos;arm&apos;, <latinform><emph>ta</emph>shikang</latinform>
+    &apos;wing&apos;, Ao Mongsen <latinform><emph>tü</emph>pen, <emph>tü</emph>cha</latinform> &apos;arm&apos;,
+    <latinform><emph>ta</emph>cha</latinform> &apos;wing&apos;, Yacham Tengsa <latinform><emph>ta</emph>ka</latinform>
+    &apos;wing&apos;; [Tani] Taraon <latinform><emph>ta:</emph>lõ</latinform> &apos;feather&apos;.</par><par>We
+    assign to this allofam reflexes with affricate initials (e.g. Tujia, Qiang, Naga).</par><par>The cluster
+    <latinform>dl-</latinform> is not tolerated in most TB languages<footnote>An exception is Sani =Nyi
+    (Loloish), which has developed <reconstruction>*dl-</reconstruction> &lt; <reconstruction>*by</reconstruction>
+    (e.g. &apos;bee&apos; <reconstruction>*bya</reconstruction> &gt; Nyi <latinform>dla-ma</latinform>).</footnote>,
+    so that the presence of the dental prefix has favored the palatalization of the root-initial lateral.</par><par>This
+    allofam is the immediate source of the Karenic forms assembled below <xref ref="773">#773</xref>.</par><par>Forms
+    from Northern Naga languages show initial variation among the simple palatal semivowel, dental stops,
+    and palatal affricates: e.g. Tamlu <latinform>bɯn-yak</latinform>, Tangsa <latinform>³pul-džak</latinform>,
+    and Nocte <latinform>¹ʌ-dʌk</latinform>, all meaning &apos;leaf&apos;. To Weidert belongs the credit
+    for identifying the morphemic structure of these compounds as &quot;tree-hand&quot;. For convenience&apos;s
+    sake, we list all these forms under the present allofam.</par>'
+- type: F
+  text: '<par><hanform>翼</hanform> OC <latinform>*gi̯ək</latinform>, GSR #954d &apos;wing&apos;; Li 1971:
+    <latinform>(*rək)</latinform>; Baxter 1992 #469: <latinform>*ljɨk</latinform>; B &amp; S 2011: <latinform>*ɢrəp</latinform>;
+    Schuessler 2007:570; Mand. <latinform>yì</latinform>.</par><par>ZJH: As discussed in Handel 2009:133-134,
+    if reconstructed with initial OC <reconstruction>*l-</reconstruction> (a view shared by Schuessler
+    2007:570), this is a perfect match to PTB <reconstruction>*lak</reconstruction>, a comparison that
+    is preferable to <reconstruction>*d-yak</reconstruction>. Chinese <hanform>翼</hanform> ‘wing’ <latinform>yì</latinform>
+    and <hanform>亦</hanform> ‘armpit’ <latinform>yì</latinform> thus differ only in the reconstructed
+    main vowel (<reconstruction>*ə</reconstruction> vs. <reconstruction>*a</reconstruction>), both of
+    which correspond regularly to PTB <reconstruction>*a</reconstruction>. The nature of the word-family
+    relationship of the two words within Chinese is unclear.</par><par>Note that Baxter &amp; Sagart (2011)
+    reconstruct coda <reconstruction>*-p</reconstruction> for <hanform>翼</hanform> <latinform>yì</latinform>,
+    with “dialectal” development of <reconstruction>*-p</reconstruction> to later <reconstruction>*-k</reconstruction>,
+    because they believe this is the same word as that written with the homophonous character <hanform>翌</hanform>,
+    also ‘wing’, which has phonetic <hanform>立</hanform> ending in <reconstruction>*-p</reconstruction>.
+    Their reconstruction would separate <hanform>翼</hanform> ‘wing’ <latinform>yì</latinform> and <hanform>亦</hanform>
+    ‘armpit’ <latinform>yì</latinform> into two different Chinese words families, and preclude the comparison
+    of the former to the <reconstruction>*lak/*yak</reconstruction> family of PTB arm/hand/wing roots.</par>'

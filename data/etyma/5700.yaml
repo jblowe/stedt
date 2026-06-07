@@ -1,0 +1,21 @@
+tag: 5700
+grpid: 2
+proto_language: PTB
+protoform: pil
+gloss: FOLD
+sequence: 22.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ɓil
+  gloss: FOLD
+- grpid: 5
+  group: 1.1.1
+  form: pil
+  gloss: FOLD (v.t.)
+notes:
+- type: T
+  text: <par>The Lepcha cognate <latinform>bíl</latinform> makes it possible to reconstruct this root
+    at the PTB level.</par>

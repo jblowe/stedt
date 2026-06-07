@@ -1,0 +1,25 @@
+tag: 2546
+grpid: 2
+proto_language: PTB
+protoform: pʷa
+gloss: MAN / FATHER / HUSBAND / PERSON
+semkey: 1.9.6.1
+sequence: 2.1
+status: KEEP
+public: true
+references: cf. STC#024, HPTB pp. 165, 166, 170, 172, 173, 175
+phonology:
+  handle: pa
+  initial: p
+  rhyme: a=pwa
+  initcover: P
+  rhymecover: WT
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: a-pwaʔ
+  gloss: FATHER
+notes:
+- type: F
+  text: '<par><hanform>夫</hanform> OC <latinform>*pi̯wo</latinform>; GSR #101a-d &apos;man&apos;; B &amp;
+    S 2011: <latinform>*pa {p(r)a}</latinform>; Mand. <latinform>fū</latinform>.</par>'

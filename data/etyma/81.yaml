@@ -1,0 +1,18 @@
+tag: 81
+grpid: 2
+proto_language: PTB
+protoform: srwak
+gloss: LIFE
+semkey: 1.1.2.1
+sequence: 6.0
+status: KEEP
+public: true
+phonology:
+  handle: srwak
+  initial: srw
+  rhyme: ak
+  initcover: S
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root has so far been uncovered only in Bodic and in a few TB languages of Nepal.</par>

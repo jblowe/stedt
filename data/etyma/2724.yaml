@@ -1,0 +1,17 @@
+tag: 2724
+grpid: 2
+proto_language: PTB
+protoform: tyaŋ
+gloss: BLACK / DARK
+semkey: '9.4'
+sequence: 5.3
+status: DELETE
+public: true
+xrefs: '2683'
+references: STC#225, HPTB p.65
+phonology:
+  handle: tyaŋ
+  initial: ty
+  rhyme: aŋ
+  initcover: T
+  rhymecover: N

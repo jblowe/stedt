@@ -1,0 +1,16 @@
+tag: 496
+grpid: 2
+proto_language: PTB
+protoform: m-g(u/i)l
+gloss: THROAT
+semkey: 1.3.5
+sequence: 6.0
+status: KEEP
+public: true
+possallo: 488,496
+phonology:
+  handle: gul
+  initial: g
+  rhyme: ul
+  initcover: K
+  rhymecover: L

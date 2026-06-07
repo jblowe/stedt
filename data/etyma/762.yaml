@@ -1,0 +1,22 @@
+tag: 762
+grpid: 2
+proto_language: PTB
+protoform: tir
+gloss: FEATHER / WING
+semkey: 1.6.1.1
+sequence: 27.0
+status: KEEP
+public: true
+phonology:
+  handle: tir
+  initial: t
+  rhyme: i(r)
+  initcover: T
+  rhymecover: L
+notes:
+- type: T
+  text: <par>Although this root is of quite limited distribution, the exact but unusual rhyme correspondence
+    between Thulung and Nungic inspires confidence that this is a genuine etymon.</par><par>The first
+    syllable of Rengma <latinform>te ro ha</latinform> &apos;feather&apos; looks related but it might
+    mean &apos;bird&apos; (cf. <latinform>tegü</latinform> or <latinform>tegvu</latinform> &apos;bird&apos;).
+    Cf. <xref ref="1604">#1604</xref> (STC pp. 149, 192), attested otherwise only in Bodo-Garo and Karenic.</par>

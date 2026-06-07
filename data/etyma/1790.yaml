@@ -1,0 +1,17 @@
+tag: 1790
+grpid: 2
+proto_language: PTB
+protoform: laŋ
+gloss: BARK (v.)
+semkey: 2.1.11.1
+sequence: 9.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. HPTB p.495
+phonology:
+  handle: loŋ
+  initial: l
+  rhyme: oŋ
+  initcover: L
+  rhymecover: N

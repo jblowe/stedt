@@ -1,0 +1,38 @@
+tag: 35
+grpid: 2
+proto_language: PTB
+protoform: s-nya-k ⪤ hyak
+gloss: FLESH / MEAT
+semkey: 1.1.1.1
+sequence: 2.0
+status: KEEP
+public: true
+references: Ch. char;STC p.190,GSR 1033a-b
+phonology:
+  handle: nyaːk
+  prefix: s
+  initial: ny
+  rhyme: aːk
+  initcover: M
+  rhymecover: T
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: njáq
+  gloss: MEAT / FLESH
+- grpid: 50
+  group: '7'
+  form: hɲaᴮ
+  gloss: FLESH / MEAT
+- grpid: 5
+  group: 1.1.1
+  form: jak
+  gloss: FLESH (human)
+notes:
+- type: T
+  text: <par>The allofam <latinform>hyak</latinform> is reconstructed in Matisoff 1997:41 (&quot;Primary
+    and secondary laryngeal initials in TB&quot;), based partially on the Proto-Tani reconstruction in
+    J. Sun (1993), with the addition of Karbi and Meithei reflexes.</par>
+- type: F
+  text: <par><latinform>Comment:</latinform> Cf. <hanform>肉</hanform> <latinform>ròu</latinform> &apos;meat,
+    flesh&apos;, a comparandum for <xref ref="2510">#2510</xref>.</par>

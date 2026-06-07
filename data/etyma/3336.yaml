@@ -1,0 +1,17 @@
+tag: 3336
+grpid: 2
+proto_language: PTB
+protoform: m-di
+gloss: BUTTOCK / CHEEK / FLESHY PART
+semkey: 1.4.9.2
+sequence: 7.0
+status: DELETE
+public: false
+xrefs: '1243'
+references: 'Attested: Kom Rem, Lahu'
+phonology:
+  handle: di
+  initial: d
+  rhyme: i
+  initcover: T
+  rhymecover: V

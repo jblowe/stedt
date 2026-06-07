@@ -1,0 +1,17 @@
+tag: 445
+grpid: 45
+proto_language: PL
+protoform: m-kuk
+gloss: COLLIDE / BUTT AGAINST
+semkey: '6.8'
+sequence: 22.0
+status: KEEP
+public: false
+references: cf. HPTB p.357, TSR#80
+phonology:
+  prefix: m
+  initial: k
+  rhyme: uk
+notes:
+- type: T
+  text: <par>This root occurs in several Loloish languages, but has yet to be unambiguously attested elsewhere.</par>

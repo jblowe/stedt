@@ -1,0 +1,16 @@
+tag: 2052
+grpid: 2
+proto_language: PTB
+protoform: ney
+gloss: CHEEK / CHIN
+semkey: 1.2.5.2
+sequence: 8.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: ney
+  initial: n
+  rhyme: ey
+  initcover: M
+  rhymecover: W

@@ -1,0 +1,43 @@
+tag: 2796
+grpid: 2
+proto_language: PTB
+protoform: b-yəw-n
+gloss: RAT / RABBIT / HARE
+semkey: 2.1.1
+sequence: 5.0
+status: KEEP
+public: true
+xrefs: '2796'
+references: cf. STC#093, HPTB
+phonology:
+  handle: yuw
+  prefix: b
+  initial: y
+  rhyme: əw-n
+  initcover: L
+  rhymecover: VW
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: yuu
+  gloss: MOUSE / RAT
+- grpid: 50
+  group: '7'
+  form: jowᴮ
+  gloss: MOUSE, RAT
+notes:
+- type: T
+  text: '<par>A suffixal element <latinform>-n</latinform> appears in several languages, including WB,
+    Jingpho, Galo, and Chinese, interpreted as a collective suffix in STC (notes 103, 284).</par><par>A
+    closely similar root, <latinform>*bwəy</latinform>, has been reconstructed with the meaning &apos;bamboo
+    rat&apos; #2186 (STC #173), so that it is often quite difficult to assign a particular reflex to one
+    or the other.</par><par>There are two Chinese comparanda, one with an open syllable (<hanform>鼠</hanform>
+    ‘mouse, rat’ OC <latinform>*śi̯o</latinform>) and one with the final collective suffix <latinform>*-n</latinform>
+    (<plainlatinform> </plainlatinform> ‘hare’ OC <latinform>*tsi̯wən ⪤ *tsʻi̯wən</latinform>).</par>'
+- type: F
+  text: '<par><hanform>鼠</hanform> OC <latinform>*śi̯o</latinform>, GSR #92a-d &apos;rat&apos;; Mand.
+    <latinform>shǔ</latinform>.<br /><hanform>㕙</hanform> OC <latinform>*ts’i̯wən</latinform>`<latinform>*tsi̯wən</latinform>,
+    GSR #468s &apos;hare, marmot&apos;; Schuessler 2007:438 <latinform>*tsiun</latinform>; Mand. <latinform>jùn</latinform>.</par><par>Benedict
+    derives this last form from a hypothetical binome <latinform>*sya-yəw</latinform> (where the first
+    element is <xref ref="34">#34</xref>) as the source of Chinese <hanform>鼠</hanform> &apos;mouse, rat&apos;
+    (OC <latinform>*śi̯o</latinform> GSR #92d; Mand. <latinform>shŭ</latinform>).</par>'

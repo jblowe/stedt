@@ -1,0 +1,26 @@
+tag: 3569
+grpid: 2
+proto_language: PTB
+protoform: la-y ⪤ ra
+gloss: COME
+semkey: 6.7.1
+sequence: 1452.0
+status: KEEP
+public: false
+references: cf. HPTB
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: ra
+  gloss: COME
+notes:
+- type: T
+  text: <par>Languages of the NE Indian areal group have an <latinform>r-</latinform> initial, while other
+    languages have the lateral. In Loloish, various allofams have developed, notably the one with palatal
+    suffix which also seems to underlie the Chinese comparandum.</par>
+- type: F
+  text: '<par><hanform>來</hanform> OC <latinform>*ləg</latinform>, GSR #944a-e &apos;come&apos;; Schuessler
+    2007:342 <latinform>*rə̂k/ʔ</latinform> &gt; <latinform>*rə̂</latinform>; B &amp; S 2011: <latinform>*rˁək
+    (› rˁə)</latinform>; Mand. <latinform>lái</latinform>.<br /><hanform>賚</hanform> S342<br /><hanform>迨</hanform>
+    OC <latinform>*d’əg</latinform>, GSR #976n&apos; ‘come to&apos;; Schuessler 2007:203 <latinform>*lə̂ʔ</latinform>;
+    B &amp; S 2011: <latinform>*lˁəʔ</latinform>; Mand. <latinform>dài</latinform>.</par>'

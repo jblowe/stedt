@@ -1,0 +1,29 @@
+tag: 227
+grpid: 2
+proto_language: PTB
+protoform: m/s-kri(y)-s
+gloss: GALL (BLADDER) / BILE / SOUR
+semkey: 1.7.3.1
+sequence: 2.0
+status: KEEP
+public: true
+references: cf. STC#412, STC#413, HPTB
+phonology:
+  handle: kri
+  prefix: m
+  initial: kr
+  rhyme: i-t ~ s-
+  initcover: K
+  rhymecover: VTS
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: a-sə
+  gloss: BILE / GALL BLADDER
+- grpid: 66
+  group: 1.3.4
+  form: tʰi
+  gloss: BILE
+notes:
+- type: T
+  text: <par>Care must be taken to distinguish this root from <xref ref="228">#228</xref>.</par>

@@ -1,0 +1,15 @@
+tag: 2108
+grpid: 2
+proto_language: PTB
+protoform: wam
+gloss: BELLY / WOMB / PLACENTA / NEST
+sequence: 98.1
+status: KEEP
+public: true
+references: cf.VSTB 126; cf. 670, 218, 2109
+phonology:
+  handle: wam
+  initial: w
+  rhyme: am
+  initcover: L
+  rhymecover: N

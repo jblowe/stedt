@@ -1,0 +1,24 @@
+tag: 2688
+grpid: 2
+proto_language: PTB
+protoform: tal
+gloss: ARROW / BOW (weapon)
+semkey: '5.15'
+sequence: 4.0
+status: KEEP
+public: true
+references: STC p.168, HPTB
+phonology:
+  handle: tal
+  initial: t
+  rhyme: al
+  initcover: T
+  rhymecover: L
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: thal
+  gloss: ARROW
+notes:
+- type: F
+  text: <par>Benedict (STC 169n452) suggests a connection with <plainlatinform>GSR 560a-d</plainlatinform>.</par>

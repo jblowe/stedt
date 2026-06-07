@@ -1,0 +1,15 @@
+tag: 3355
+grpid: 2
+proto_language: PTB
+protoform: s-yiŋ
+gloss: TAIL
+semkey: 1.4.10.1
+sequence: 5.0
+status: DELETE
+public: false
+phonology:
+  handle: yiŋ
+  initial: y
+  rhyme: iŋ
+  initcover: L
+  rhymecover: N

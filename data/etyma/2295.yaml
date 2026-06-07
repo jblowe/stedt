@@ -1,0 +1,18 @@
+tag: 2295
+grpid: 2
+proto_language: PTB
+protoform: (r-)kaŋ
+gloss: LEG, FOOT
+semkey: 1.5.7
+sequence: 2294.0
+status: DELETE
+public: false
+xrefs: 336?
+references: STC p.70
+phonology:
+  handle: r-ka
+  prefix: r
+  initial: )k
+  rhyme: an
+  initcover: K
+  rhymecover: N

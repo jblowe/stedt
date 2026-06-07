@@ -1,0 +1,15 @@
+tag: 2681
+grpid: 2
+proto_language: PTB
+protoform: (t/d)a
+gloss: PROHIBITIVE (NEG. IMPERATIVE)
+sequence: 2702.0
+status: KEEP
+public: true
+references: STC p.97
+phonology:
+  handle: ta
+  initial: t
+  rhyme: a
+  initcover: T
+  rhymecover: V

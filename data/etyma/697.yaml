@@ -1,0 +1,22 @@
+tag: 697
+grpid: 2
+proto_language: PTB
+protoform: m-ka-n
+gloss: HEAVENS / SKY / SUN
+semkey: 5.8.4
+sequence: 6.0
+status: KEEP
+public: false
+references: cf. STC p.157, HPTB pp.177, 450
+phonology:
+  prefix: m
+  initial: k
+  rhyme: a-n
+notes:
+- type: F
+  text: '<par><hanform>乾</hanform> OC <latinform>*g’i̯ɑn</latinform>, GSR #140c &apos;heavenly&apos;;
+    Schuessler 2007:425 <latinform>*gran</latinform>; B &amp; S 2011: (<latinform>*ɡran</latinform>);
+    Mand. <latinform>qián</latinform>.</par><par><latinform>Comment:</latinform> In Chinese philosophy,
+    <hanform>乾</hanform> <latinform>qián</latinform> refers to &quot;heaven, the male principle&quot;,
+    the first of the <hanform>八</hanform><hanform>卦</hanform> <latinform>bā</latinform><latinform>guà</latinform>,
+    i.e. the eight divinatory trigrams of the Book of Changes.</par>'

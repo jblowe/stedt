@@ -1,0 +1,16 @@
+tag: 2078
+grpid: 2
+proto_language: PTB
+protoform: s-(b)r(i/u)m
+gloss: EYELASH / EYELID
+semkey: 1.2.6.5
+sequence: 16.0
+status: KEEP
+public: true
+phonology:
+  handle: rum
+  prefix: s
+  initial: r
+  rhyme: um ⪤ s/b
+  initcover: L
+  rhymecover: NS

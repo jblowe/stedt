@@ -1,0 +1,39 @@
+tag: 5551
+grpid: 2
+proto_language: PTB
+protoform: ba
+gloss: THIN / FLAT
+semkey: 9.7.2
+sequence: 1.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 24, 162, 169, 440
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: paa
+  gloss: THIN
+- grpid: 42
+  group: '6.1'
+  form: ba²
+  gloss: THIN
+- grpid: 50
+  group: '7'
+  form: Ɂbaᴮ
+  gloss: CLASSIFIER FOR FLAT OBJECTS
+- grpid: 50
+  group: '7'
+  form: pjaᴮ
+  gloss: FLAT
+- grpid: 50
+  group: '7'
+  form: ɁbVᴬ
+  gloss: THIN (as of cloth)
+notes:
+- type: T
+  text: <par>This root has also acquired both the <latinform>-n</latinform> and <latinform>-t</latinform>
+    suffixes; see <xref ref="2143">#2143</xref>.</par>
+- type: F
+  text: '<par><hanform>薄</hanform> OC <latinform>*b’ɑ̂k</latinform>, GSR #771p &apos;thin&apos;; Schuessler
+    2007:170 <latinform>*bâk</latinform>; B &amp; S 2011: <latinform>*bˁak {(Cə.)[b]ˁak}</latinform>;
+    Mand. <latinform>bó</latinform>.</par>'

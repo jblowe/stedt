@@ -1,0 +1,18 @@
+tag: 1442
+grpid: 2
+proto_language: PTB
+protoform: mi
+gloss: FAT
+semkey: 1.6.4
+sequence: 15.0
+status: KEEP
+public: true
+phonology:
+  handle: mi
+  initial: m
+  rhyme: i
+  initcover: M
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This sparsely attested root has scattered but convincing reflexes.</par>

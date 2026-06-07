@@ -1,0 +1,46 @@
+tag: 2501
+grpid: 2
+proto_language: PTB
+protoform: s-ni(ː)ŋ ⪤ s-nik
+gloss: YEAR
+semkey: 9.1.2
+sequence: 3565.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 282, 283, 475, 524, 528; STC#368
+phonology:
+  handle: niŋ
+  prefix: niŋ=s
+  initial: n
+  rhyme: iŋ=s-niŋ
+  initcover: M
+  rhymecover: VNS
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: ñiŋ
+  gloss: YEAR
+- grpid: 50
+  group: '7'
+  form: hneŋ
+  gloss: YEAR
+- grpid: 63
+  group: 1.3.1
+  form: niŋ
+  gloss: SKY / YEAR
+- grpid: 45
+  group: 6.1.2
+  form: s-nikᴴ
+  gloss: YEAR
+- grpid: 50
+  group: '7'
+  form: hneŋᴮ
+  gloss: YEAR
+notes:
+- type: F
+  text: '<par><hanform>年</hanform> OC <latinform>*nien</latinform>, GSR #364a-c &apos;year&apos;; B &amp;
+    S 2011: <latinform>*C.nˁiŋ {C.nˁi[ŋ]}</latinform>; Mand. <latinform>nián</latinform>.</par>'
+- type: T
+  text: <par>Almost all TB reflexes point to the final velar nasal, except for Burmish, which has the
+    homorganic final stop. Several other roots pattern the same way (e.g., <xref ref="2658">#2658</xref>,
+    <xref ref="126">#126</xref>).</par>

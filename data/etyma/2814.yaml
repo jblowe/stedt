@@ -1,0 +1,16 @@
+tag: 2814
+grpid: 62
+proto_language: IA
+protoform: dārhā
+gloss: TUSK / CANINE TOOTH
+semkey: 1.3.4.1
+sequence: 3.0
+status: KEEP
+public: false
+references: ("NPL") Nepali loan into HIM TB
+phonology:
+  handle: dārh ̄
+  initial: d ̄
+  rhyme: arhā
+  initcover: T
+  rhymecover: L

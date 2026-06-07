@@ -1,0 +1,19 @@
+tag: 2107
+grpid: 2
+proto_language: PTB
+protoform: puk/buk
+gloss: BELLY / STOMACH
+semkey: 1.4.7
+sequence: 1.3
+status: DELETE
+public: false
+xrefs: '164'
+allofams: 2106,258
+possallo: '779'
+references: +guts? ;cf.VSTB124
+phonology:
+  handle: puk/bu
+  initial: p
+  rhyme: uk/buk
+  initcover: P
+  rhymecover: T

@@ -1,0 +1,19 @@
+tag: 309
+grpid: 2
+proto_language: PTB
+protoform: kaːl
+gloss: BETWEEN / INTERVAL
+semkey: 9.2.3
+sequence: 1168.0
+status: KEEP
+public: true
+references: HPTB p.422
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: kar ⪤ kal
+  gloss: BETWEEN
+notes:
+- type: F
+  text: '<par><hanform>間</hanform> OC <latinform>*kɑ̆n</latinform>, GSR #191a-c; B &amp; S 2011: <latinform>*kˁren
+    {kˁre[n]}</latinform>; Mand. <latinform>jiān, jiàn</latinform></par>'

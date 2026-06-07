@@ -1,0 +1,28 @@
+tag: 2527
+grpid: 2
+proto_language: PTB
+protoform: ŋa-n
+gloss: GOOSE
+semkey: 2.1.10
+sequence: 6.0
+status: KEEP
+public: false
+references: cf. STC p.99, HPTB pp.177, 259, 449
+phonology:
+  handle: ŋa-n
+  initial: ŋ
+  rhyme: a-n
+  suffix: n
+  initcover: M
+  rhymecover: VN
+notes:
+- type: F
+  text: '<par><hanform>鵞</hanform>~<hanform>鵝</hanform> OC <latinform>*ngɑ̂</latinform>, GSR #2p &apos;goose
+    (wild)&apos;; Schuessler 2007:222 <latinform>*ŋâi</latinform>; B &amp; S 2011: <latinform>*ŋˁar {ŋˁa[r]}</latinform>;
+    Mand. <latinform>é</latinform>.<br /><hanform>雁</hanform> OC <latinform>*ngɑn</latinform>, GSR #186a-b
+    &apos;goose (wild)&apos;; Coblin 86:87 ST <latinform>*ngran</latinform> &gt; OC <latinform>*ngranh</latinform>;
+    B &amp; S 2011: <latinform>*C.ŋˁrar-s {*C.[ŋ]ˁrar-s}</latinform>; Mand. <latinform>yàn</latinform>.</par>'
+- type: T
+  text: <par><plainlatinform>STC (e.g., pp. 99, 158)</plainlatinform> considers the final <latinform>-n</latinform>
+    in this root to originally have been a &quot;collective suffix,&quot; since wild geese tend to fly
+    in large flocks.</par>

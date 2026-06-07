@@ -1,0 +1,31 @@
+tag: 380
+grpid: 2
+proto_language: PTB
+protoform: g-yak
+gloss: ASHAMED / SHY
+semkey: 8.3.3.8.2
+sequence: 1.2
+status: KEEP
+public: true
+references: cf. STC#452, HPTB
+phonology:
+  prefix: g
+  initial: y
+  rhyme: ak
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: niŋ-yak-I, -yaʔ-II
+  gloss: ASHAMED / SHY
+- grpid: 66
+  group: 1.3.4
+  form: jak
+  gloss: ASHAMED
+- grpid: 63
+  group: 1.3.1
+  form: a-hjak
+  gloss: SHY / ASHAMED
+notes:
+- type: T
+  text: <par>This root seems definitely to be allofamic with  <xref ref="379">#379</xref>.</par><par>Many
+    Loloish languages have binomes consisting of this root followed by <xref ref="5763">#5763</xref>.</par>

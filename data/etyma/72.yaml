@@ -1,0 +1,23 @@
+tag: 72
+grpid: 2
+proto_language: PTB
+protoform: dat
+gloss: LIVE / ALIVE
+semkey: 1.1.2.1
+sequence: 3.0
+status: KEEP
+public: false
+references: 'TSR #1'
+phonology:
+  handle: dat
+  initial: d
+  rhyme: at
+  initcover: T
+  rhymecover: T
+notes:
+- type: I
+  text: '<par><reconstruction>*datᴸ</reconstruction>. Add LTSR #1.</par>'
+- type: F
+  text: '<par><hanform>達</hanform> OC <latinform>*d’ɑ̂t</latinform>, GSR #271b &apos;penetrate, reach,
+    be prominent/manifest, be born&apos;; Schuessler 2007:202 <latinform>*dât</latinform>; B &amp; S 2011:
+    <latinform>*Cə.lˁat</latinform>; Mand. <latinform>dá</latinform>. See also Coblin 1986:48.</par>'

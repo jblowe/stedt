@@ -1,0 +1,27 @@
+tag: 2440
+grpid: 2
+proto_language: PTB
+protoform: maŋ
+gloss: BIG / ELDER (BROTHER, UNCLE) / OLD
+semkey: 4.7.1
+sequence: 4.0
+status: KEEP
+public: true
+references: cf. STC p.189, HPTB pp.264, 302
+phonology:
+  handle: maŋ
+  initial: m
+  rhyme: aŋ
+  initcover: M
+  rhymecover: N
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: maŋ²
+  gloss: OLD (of people)
+notes:
+- type: F
+  text: '<par><hanform>兄</hanform> OC <latinform>*χi̯wɑ̆ng</latinform>, GSR #765a-e &apos;eldest (of brothers)&apos;;
+    B &amp; S 2011: <latinform>*m̥raŋ</latinform>; Mand. <latinform>xiōng</latinform>.<br /><hanform>孟</hanform>
+    OC <latinform>*mɑ̆ng</latinform>, GSR #761e &apos;eldest, great-&apos;; B &amp; S 2011: <latinform>*mˤraŋ-s</latinform>;
+    Mand. <latinform>mèng</latinform>.<br />S375 mang huang</par>'

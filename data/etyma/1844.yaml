@@ -1,0 +1,47 @@
+tag: 1844
+grpid: 2
+proto_language: PTB
+protoform: tsa-t ⪤ dza-t
+gloss: HOT / FEVER / HURT / ILL / HUNGRY
+semkey: 1.1.5.1
+sequence: 2.0
+status: KEEP
+public: true
+references: Ch. char.; STC#62; GSR 494a-c; HPTB pp.32, 177, 462, 464
+phonology:
+  handle: tsa
+  initial: ts
+  rhyme: a-t
+  suffix: t
+  initcover: TS
+  rhymecover: VT
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: tsa
+  gloss: ILL / HURT
+  variant: a
+- grpid: 66
+  group: 1.3.4
+  form: sa
+  gloss: HOT / SPICY / PUNGENT
+  variant: b
+- grpid: 8
+  group: '1.2'
+  form: saa-I, sat-II
+  gloss: HOT
+- grpid: 63
+  group: 1.3.1
+  form: tsha
+  gloss: HOT / HURT
+- grpid: 50
+  group: '7'
+  form: chaᴬ
+  gloss: ILL, PAINFUL, SICK
+notes:
+- type: F
+  text: '<par><hanform>災</hanform> OC <latinform>*tsəg</latinform>, GSR #0940a-c &apos;disaster, calamity&apos;;
+    Schuessler 2007:599 <latinform>*tsə̂</latinform>; B &amp; S 2011: <latinform>*tsˁə {[ts]ˁə}</latinform>;
+    Mand. <latinform>zāi</latinform>.<br /><hanform>菑</hanform> OC <latinform>*tṣi̯əg</latinform>, GSR
+    #0969c-d &apos;field cleared by slash and burn&apos;; Schuessler 2007:632 <latinform>*tsrə</latinform>;
+    B &amp; S 2011: <latinform>*tsrə {[ts]rə}</latinform>; Mand. <latinform>zī</latinform>.</par>'

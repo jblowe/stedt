@@ -1,0 +1,20 @@
+tag: 5695
+grpid: 2
+proto_language: PTB
+protoform: pr(y/w)ak
+gloss: SPRINKLE
+sequence: 3141.0
+status: KEEP
+public: true
+references: LL
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: '{C}-pyakᴸ ⪤ Npyakᴴ'
+  gloss: SPRINKLE (with water)
+notes:
+- type: T
+  text: <par>This etymon is apparently distinct from <xref ref="5694">#5694</xref>. The <latinform>*-ya-</latinform>
+    medial is reconstructed to account for forms such as Apatani <latinform>prjɯʔ-pu</latinform>, Gurung
+    <latinform>cʰiɖ praːqba</latinform>, and Yi Nanhua <latinform>ʑi³³ phiɑ³³</latinform>, while the <latinform>*-wa-</latinform>
+    medial accounts for the Central Loloish, Naxi, and Bai forms.</par>

@@ -1,0 +1,48 @@
+tag: 692
+grpid: 2
+proto_language: PTB
+protoform: m-k(u/i)m
+gloss: PILLOW / BLOCK / BENCH / BEDSTEAD
+semkey: 5.11.9.4
+sequence: 10.0
+status: KEEP
+public: true
+references: cf. STC#482, HPTB pp. 57, 125, 147, 198, 272, 275, 308, 496, 503
+phonology:
+  handle: kum
+  prefix: m
+  initial: k
+  rhyme: um/im
+  initcover: K
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: kham ⪤ khum
+  gloss: PILLOW
+- grpid: 42
+  group: '6.1'
+  form: m-kum²
+  gloss: BLOCK / PILLOW
+- grpid: 63
+  group: 1.3.1
+  form: m-kham
+  gloss: BENCH, BLOCK / PILLOW
+- grpid: 8
+  group: '1.2'
+  form: khu(m/n)
+  gloss: BED / COUCH
+notes:
+- type: T
+  text: '<par>This is one of several roots showing alternation between initial velar and glottal stop
+    (=Ø) initial: <xref ref="2252">#2252</xref>, <xref ref="2232">#2232</xref>, <xref ref="5398">#5398</xref>,
+    etc. (cf. HPTB:57). In this case, the crucial language for establishing the alternation is Written
+    Burmese (<latinform>khuṁ</latinform> &apos;block&apos;, <latinform>ûṁ</latinform> &apos;pillow&apos;).</par><par>The
+    reflexes of this root also illustrate the widespread variational pattern between medial <latinform>-i-</latinform>
+    and medial <latinform>-u-</latinform>.</par>'
+- type: F
+  text: '<par><hanform>椹</hanform> OC <latinform>*ti̯əm</latinform>, GSR #658f &apos;chopping-block&apos;;
+    Schuessler 2007:610 <latinform>*trəm</latinform>; B &amp; S 2011: <latinform>*trəm {tr[ə]m}</latinform>;
+    Mand. <latinform>zhēn</latinform>.<br /><hanform>枕</hanform> OC <latinform>*t̂i̯əm</latinform>, GSR
+    #656g &apos;pillow&apos;; Schuessler 2007:610-11 <latinform>*kimʔ</latinform>; B &amp; S 2011: <latinform>*t.kəmʔ
+    {[t.k][ə]mʔ}</latinform>; Mand. <latinform>zhěn</latinform>.</par>'

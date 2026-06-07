@@ -1,0 +1,21 @@
+tag: 2321
+grpid: 2
+proto_language: PTB
+protoform: klup
+gloss: COVER / WRAP
+semkey: '5.8'
+sequence: 7.3
+status: KEEP
+public: true
+references: cf. STC#479, HPTB p.369
+phonology:
+  handle: klup
+  initial: kl
+  rhyme: up
+  initcover: K
+  rhymecover: T
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: a-hl[a/ə]p
+  gloss: WRAP / COVER (v.)

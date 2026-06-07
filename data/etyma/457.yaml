@@ -1,0 +1,33 @@
+tag: 457
+grpid: 2
+proto_language: PTB
+protoform: tsywap
+gloss: LUNG
+semkey: 1.7.2
+sequence: 1.1
+status: KEEP
+public: true
+exemplary: true
+references: STC#239; reconcile w/ VSTB
+phonology:
+  handle: par◦wa
+  initial: p
+  rhyme: ar◦wap
+  initcover: P
+  rhymecover: LWT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tsuap
+  gloss: LUNG
+notes:
+- type: T
+  text: '<par>As explained at length in VSTB:113-123, the root reconstructed as <latinform>*tsywap</latinform>
+    in STC #239, is actually a fused version of a binome <latinform>**tsi-wap</latinform>, where the first
+    element is the root <xref ref="458">#458</xref>. The original meaning of the second element seems
+    to be &apos;soft, spongy&apos;, which is its meaning in Jingpho. The Jingpho form <latinform>sìn-wóp</latinform>,
+    literally &quot;spongy organ&quot; is opposed to Jingpho <latinform>sin³¹ tʃaʔ³¹</latinform> &apos;liver&apos;,
+    where the second element means &apos;hard, firm&apos;. These two organs, dominant in the thoracic
+    and abdominal cavity respectively, are evidently conceived of as antonymous, similar to the Turkish
+    pair <latinform>ak-ciğer</latinform> &apos;lung&apos; (lit. &apos;white liver&apos;) and <latinform>kara-ciğer</latinform>
+    &apos;liver&apos; (lit. &apos;black liver&apos;).</par>'

@@ -1,0 +1,22 @@
+tag: 1454
+grpid: 2
+proto_language: PTB
+protoform: syap
+gloss: SCALE (OF FISH OR REPTILE)
+semkey: 1.6.5.2
+sequence: 10.0
+status: KEEP
+public: true
+possallo: '562'
+references: cf. JAM-DL, HPTB pp. 353, 376
+phonology:
+  handle: sep
+  initial: s
+  rhyme: ep
+  initcover: S
+  rhymecover: T
+notes:
+- type: T
+  text: <par>Lepcha <latinform>a-ší</latinform> looks like a possible reflex of this root, but the lack
+    of a final <latinform>-p</latinform> is a problem. This root was formerly reconstructed as <latinform>*sep</latinform>
+    (HPTB:376).</par><par>The final velar in the Limbu form is unexplained.</par>

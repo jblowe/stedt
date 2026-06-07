@@ -1,0 +1,39 @@
+tag: 5356
+grpid: 2
+proto_language: PTB
+protoform: tow-la
+gloss: RABBIT / HARE
+semkey: 2.1.1
+sequence: 1.1
+status: KEEP
+public: true
+notes:
+- type: T
+  text: <par>This binome, used both for the actual animal and as a sign of the zodiac, is here set up
+    for convenience as a PTB etymon, but it seems really to be a borrowing from Chinese to languages in
+    several different areas of the Sinosphere. It apparently is derived from a compound meaning RABBIT-DONKEY,
+    the point of comparison being the long ears of both species. Cf. Chinese <hanform>兔</hanform> <latinform>tù</latinform>
+    &apos;rabbit&apos;, <hanform>驢</hanform> <latinform>lyú</latinform> &apos;donkey&apos;, and <hanform>騾</hanform>
+    <latinform>luó</latinform> &apos;mule&apos;. Some forms in TB languages are more recently borrowings
+    from the Mandarin binome <latinform>tùzi</latinform>, with the suffixal morpheme <hanform>子</hanform>
+    <latinform>zi</latinform> as second element.</par><par>The same semantic association between DONKEY
+    and RABBIT is to be found in <xref ref="1432">#1432</xref>, and has been well-attested in Indo-Aryan;
+    see <xref ref="5357">#5357</xref> and <xref ref="5358">#5358</xref>.</par><par>This morpheme was evidently
+    borrowed into Qiangic before the &quot;brightening&quot; of earlier <latinform>*a</latinform> to Qiangic
+    <latinform>i</latinform> took place.</par><par>The Tujia forms <latinform>mao³ tao²</latinform> and
+    <latinform>mau²¹ tho⁵⁵ li⁵⁵</latinform> look as if they have incorporated Mandarin <latinform>māo</latinform>
+    &apos;cat&apos;, with the tertium comparationis this time being the whiskers common to both species.
+    On the other hand, the Achang word for &apos;donkey&apos;, <latinform>m̥ʑaŋ³¹ mau³¹ ɿiʔ³¹</latinform>,
+    where the first syllable definitely means HORSE, has the same cat-like morpheme as the second syllable.</par><par>In
+    Nungish, Bai, Lisu, and several Yi dialects, the words for DONKEY seem to be compounds consisting
+    of this binome as first element followed by a root meaning HORSE, even though the independent words
+    for &apos;horse&apos; in these languages are somewhat different.</par><par>In Lalo (Western Loloish),
+    the present binome means both &apos;rabbit&apos; and &apos;donkey&apos;. The fuller form, <latinform>haq-thoq-loq</latinform>,
+    literally &quot;rat-rabbit&quot; disambiguates the word in favor of RABBIT. Alternatively, this Lalo
+    compound might refer to a different species, the pika, as in Northern Lisu <latinform>hæ̃³⁵ thɔʔ²¹
+    la³³</latinform> &apos;Tibetan pika&apos;.</par><par>In short, there seems to have been a good deal
+    of interplay, not to say confusion, among morphemes referring to several different animal species.
+    See the semantic diagrams.</par>
+- type: F
+  text: '<par><hanform>兔</hanform> OC <latinform>*t’o</latinform>, GSR #63a &apos;rabbit&apos;; B &amp;
+    S 2011: <latinform>*l̥ˁa-s</latinform>; Mand. <latinform>tù</latinform>.</par>'

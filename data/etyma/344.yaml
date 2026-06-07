@@ -1,0 +1,23 @@
+tag: 344
+grpid: 2
+proto_language: PTB
+protoform: t(w)aŋ ⪤ s-d(y)aŋ
+gloss: FOOT
+semkey: 1.5.2
+sequence: 7.0
+status: KEEP
+public: true
+references: incl 348
+phonology:
+  handle: daŋ
+  initial: d
+  rhyme: aŋ ⪤ s-t
+  initcover: T
+  rhymecover: VNTS
+notes:
+- type: T
+  text: <par>WB <latinform>khre-thok</latinform> &apos;leg; shank&apos; and <latinform>khji⁵¹tok⁵⁵</latinform>
+    &apos;leg&apos; show a final stop, but might well be related to this etymon.</par><par>Note the Lepcha
+    doublet <latinform>a-tʻon̊</latinform> and <latinform>dyan̊</latinform> &apos;foot&apos;. The Lepcha
+    medial <latinform>-y-</latinform> might reflect the <latinform>*s-</latinform> prefix (see Benedict
+    1943), but the Bodo forms also might point to a medial <latinform>-y-</latinform>.</par>

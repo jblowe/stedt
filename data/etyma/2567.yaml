@@ -1,0 +1,25 @@
+tag: 2567
+grpid: 2
+proto_language: PTB
+protoform: pra
+gloss: GOOD
+semkey: 9.6.1.1
+sequence: 12.0
+status: KEEP
+public: true
+references: STC#129
+phonology:
+  handle: pra
+  initial: pr
+  rhyme: a
+  initcover: P
+  rhymecover: V
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: phraa-I, phrat-II
+  gloss: GOOD
+- grpid: 66
+  group: 1.3.4
+  form: pʰra
+  gloss: GOOD

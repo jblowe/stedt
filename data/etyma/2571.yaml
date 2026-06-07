@@ -1,0 +1,21 @@
+tag: 2571
+grpid: 2
+proto_language: PTB
+protoform: priŋ ⪤ b-riŋ
+gloss: BARK (as dog)
+semkey: 2.1.11.1
+sequence: 7.0
+status: KEEP
+public: true
+references: cf. STC#377, HPTB
+phonology:
+  handle: priŋ
+  prefix: priŋ=
+  initial: pr
+  rhyme: iŋ=b-riŋ
+  initcover: P
+  rhymecover: VNL
+notes:
+- type: F
+  text: '<par><hanform>猩</hanform> OC <latinform>*srieng</latinform>, GSR #812z &apos;bark (v.)&apos;;
+    Mand. <latinform>xīng</latinform>.</par>'

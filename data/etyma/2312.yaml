@@ -1,0 +1,37 @@
+tag: 2312
+grpid: 2
+proto_language: PTB
+protoform: kyiːn ⪤ tsyiːn
+gloss: WEIGH
+semkey: '9.8'
+sequence: 3479.0
+status: KEEP
+public: true
+references: cf. HPTB p. 277, STC#369
+phonology:
+  handle: kiːn
+  initial: k
+  rhyme: iːn
+  initcover: K
+  rhymecover: N
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: tsin¹
+  gloss: WEIGH
+- grpid: 42
+  group: '6.1'
+  form: kyiːn¹
+  gloss: WEIGH
+notes:
+- type: T
+  text: <par>This root shows variation between a palatalized velar and a palatalized dental affricate
+    initial. Note the variant Jingpho forms.</par><par>In this case, both Written Burmese and Mizo unambiguously
+    reflect a long vowel (<reconstruction>*-in</reconstruction> &gt; WB <latinform>-añ</latinform>, while
+    <reconstruction>*-iːn</reconstruction> &gt; WB <latinform>-in</latinform>). See HPTB:277.</par>
+- type: F
+  text: '<par><hanform>均</hanform> OC <latinform>*ki̯wĕn</latinform>, GSR #391c &apos;even, equal, uniform&apos;;
+    Schuessler 2007:328 <latinform>*kwin</latinform>; B &amp; S 2011: <latinform>*C.qʷin {C.qʷi[n]}</latinform>;
+    Mand. <latinform>jūn</latinform>.<br /><hanform>鈞</hanform> OC <latinform>*ki̯wĕn</latinform>, GSR
+    #391d &apos;weight of 30 <emph>kin</emph>&apos;; Schuessler 2007:328 <latinform>*kwin</latinform>;
+    B &amp; S 2011: (<latinform>*C.qʷin {C.qʷi[n]}</latinform>); Mand. <latinform>jūn</latinform>.</par>'

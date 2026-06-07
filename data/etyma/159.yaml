@@ -1,0 +1,32 @@
+tag: 159
+grpid: 2
+proto_language: PTB
+protoform: b-tsan
+gloss: STRONG / FIRM / STEADFAST
+semkey: 9.6.1.1
+sequence: 7.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. HPTB, GSTC
+phonology:
+  handle: tsan
+  prefix: b
+  initial: ts
+  rhyme: an
+  initcover: TS
+  rhymecover: N
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: jan
+  gloss: STRONG / FIRM / STEADFAST
+- grpid: 42
+  group: '6.1'
+  form: zan¹
+  gloss: STRONG / FIRM
+notes:
+- type: T
+  text: <par>We set up this root with an initial affricate to accommodate the Tibetan and Northern Naga
+    forms. At the PLB level, the initial had simplified to a sibilant, a development which is replicated
+    in scattered forms elsewhere, e.g. Sangtam <latinform>a ze</latinform> and Kayan Pekon <latinform>sên</latinform>.</par>

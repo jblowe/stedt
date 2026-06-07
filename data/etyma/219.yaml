@@ -1,0 +1,16 @@
+tag: 219
+grpid: 2
+proto_language: PTB
+protoform: k(w)a(ŋ/k)
+gloss: WAIST / HIPS / BUTTOCKS / TAIL / BACK
+semkey: 1.4.6
+sequence: 2.0
+status: KEEP
+public: true
+xrefs: BUTTOCKS
+phonology:
+  handle: kwaŋ/
+  initial: kw
+  rhyme: a(ŋ/k)
+  initcover: K
+  rhymecover: NT

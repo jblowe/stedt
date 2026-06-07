@@ -1,0 +1,16 @@
+tag: 2357
+grpid: 2
+proto_language: PTB
+protoform: ku(ː)m
+gloss: ARCHED / VAULTED / CONCAVE / CONVEX
+semkey: 1.5.2.3
+sequence: 31.0
+status: KEEP
+public: true
+references: cf. STC pp.75, 78, HPTB p.276
+phonology:
+  handle: ku[ː]m
+  initial: k
+  rhyme: u(ː)m
+  initcover: K
+  rhymecover: N

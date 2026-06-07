@@ -1,0 +1,31 @@
+tag: 3585
+grpid: 2
+proto_language: PTB
+protoform: s-nəw(-)
+gloss: BREAST / MILK / SUCK
+semkey: 1.4.4.3
+sequence: 2.0
+status: KEEP
+public: true
+references: PAF
+notes:
+- type: T
+  text: '<par>This root is reconstructed as <reconstruction>*nəw</reconstruction> in STC #419, on the
+    basis of forms from WT, Tsangla, WB, and Lushai (Mizo). (The rhyme <reconstruction>*-əw</reconstruction>
+    in STC is equivalent to Benedict&apos;s earlier reconstruction <reconstruction>*-uw</reconstruction>.)
+    The <reconstruction>*s-</reconstruction> in our reconstruction is reflected in the voiceless nasals
+    in Kuki-Chin and Barish languages (including the Lushai (Mizo) form <latinform>hnu-te</latinform>
+    cited in STC #419), the <latinform>tă-</latinform> prefix in Awa Khumi, and directly in Thanphum <latinform>ʃə̆nũ⁵</latinform>
+    and WT <latinform>snun-pa</latinform> &apos;suckle&apos;.</par><par>This root has been frequently
+    combined with dental and velar suffixal elements, both nasals and stops. The reflexes are presented
+    in the following sections according to the particular allofam they represent: the unsuffixed root
+    <reconstruction>*s-nəw</reconstruction> in <xref ref="253">#253 </xref>; forms with dental suffixes
+    (<reconstruction>*s-nəwt</reconstruction>, <reconstruction>*s-nəwn</reconstruction>) in <xref ref="3586">#3586
+    </xref>; and forms with velar suffixes (<reconstruction>*s-nəwk</reconstruction>, <reconstruction>*s-nəwŋ</reconstruction>)
+    in <xref ref="259">#259 </xref>.</par>'
+- type: T
+  text: <par>This etymon is very widely distributed in ST, appearing in Chinese, the NE Indian Areal Group,
+    Himalayish, Lolo-Burmese, Karenic, and Qiangic (including Tangut). Many languages have reduplicated
+    forms (e.g. Ergong <latinform>nu-nu</latinform>), as is to be expected in such a hypocoristic concept
+    as BREAST.</par><par>Somewhat similar phonologically is the root <reconstruction>*s-nye-n</reconstruction>,
+    which is here treated as a separate etymon, below <xref ref="254">#254 </xref>.</par>

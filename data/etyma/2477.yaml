@@ -1,0 +1,22 @@
+tag: 2477
+grpid: 2
+proto_language: PTB
+protoform: s-m(y)ik
+gloss: CANE / SPROUT
+semkey: 5.11.8.2.2
+sequence: 8.0
+status: KEEP
+public: true
+references: cf. STC#237, HPTB pp.344, 348
+phonology:
+  handle: myik
+  prefix: s
+  initial: m(y)
+  rhyme: ik
+  initcover: M
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: yiik
+  gloss: TIP / TOP / EDGE / SPROUT

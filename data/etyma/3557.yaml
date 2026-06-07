@@ -1,0 +1,19 @@
+tag: 3557
+grpid: 3
+proto_language: NEIA
+protoform: gon
+gloss: EYE
+semkey: 1.2.6
+sequence: 19.0
+status: KEEP
+public: true
+references: '("Kmr") so far only in BG; distinct from *kwar #665'
+phonology:
+  initial: g
+  rhyme: 'on'
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This weakly attested root appears mostly as the second syllable of Bodo-Garo compounds, with
+    possibly a couple of cognates in Bodic.</par>

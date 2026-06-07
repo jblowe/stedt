@@ -1,0 +1,23 @@
+tag: 5518
+grpid: 2
+proto_language: PTB
+protoform: hwaŋ
+gloss: SHINE / BRIGHT / YELLOW
+semkey: 1.1.2.1
+sequence: 2.7
+status: KEEP
+public: true
+references: cf. HPTB p. 430
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: Ɂbaŋᴬ
+  gloss: YELLOW
+notes:
+- type: F
+  text: '<par><hanform>黃</hanform> OC <latinform>*g’wɑ̂ng</latinform>, GSR #707a-b &apos;yellow&apos;;
+    B &amp; S 2011: <latinform>*N-kʷˁaŋ</latinform>; Mand. <latinform>huáng</latinform>.<br /><hanform>光</hanform>
+    OC <latinform>*kwɑ̂ng</latinform>, GSR #706a-e &apos;light, bright&apos;; B &amp; S 2011: <latinform>*kʷˁaŋ</latinform>;
+    Mand. <latinform>guāng</latinform>.<br /><hanform>曠</hanform> OC <latinform>*k’wɑ̂ng</latinform>,
+    GSR #707o &apos;bright&apos;; B &amp; S 2011: <latinform>*kʷʰˁaŋ-s {[k]ʷʰˁaŋ-s}</latinform>; Mand.
+    <latinform>kuàng</latinform>.</par>'

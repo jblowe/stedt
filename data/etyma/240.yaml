@@ -1,0 +1,32 @@
+tag: 240
+grpid: 2
+proto_language: PTB
+protoform: k(w)aŋ
+gloss: ARM (upper) / WING
+semkey: 1.5.1.2
+sequence: 10.0
+status: KEEP
+public: true
+notes:
+- type: T
+  text: <par>The Bodic forms listed here seem to exemplify this etymon, but there is a complication. WT
+    <latinform>goŋ</latinform> basically means &apos;upper part&apos; (Jäschke 1881:72), as in <latinform>pʻrag-goŋ</latinform>
+    &apos;upper arm&apos; (<latinform>pʻrag</latinform> &apos;shoulder&apos;), <latinform>bol-goŋ</latinform>
+    &apos;upper part of foot&apos;, <latinform>k&apos;a-lpags goŋ-ma</latinform> &apos;upper lip&apos;.
+    Less obvious compounds with this morpheme are <latinform>lha-goŋ</latinform> &apos;larynx&apos; and
+    <latinform>mur-goŋ</latinform> &apos;temple&apos;.</par><par>Cf. also <xref ref="720">#720</xref>.</par><par>Note
+    the Jingpho doublet with final velar nasal <latinform>sìŋ-kōŋ</latinform>.</par><par>A number of other
+    forms with velar initial and high back vowel are also candidates for assignment to this etymon, including
+    (Asakian) Sak <latinform>ta-kú, tăhù</latinform> &apos;arm&apos;, Lui <latinform>takhu, tahu</latinform>
+    &apos;arm&apos;; (Kiranti) Limbu <latinform>ku-lāp</latinform> &apos;wing&apos;, <latinform>ku-co</latinform>
+    &apos;feather&apos;; also Chepang <latinform>waʔ-ko</latinform> &apos;small feather&apos;.</par><par>There
+    seems no reason to assign Proto Tani <xref ref="1435">#1435</xref> to this root since there seems
+    to be no trace of a liquid medial.</par>
+- type: F
+  text: '<par><hanform>肱</hanform> OC <latinform>*kwəng</latinform>, GSR #887f &apos;arm, upper arm&apos;;
+    Li 1971: <latinform>*kwəng</latinform>; Baxter 1992 #522: <latinform>*kʷɨng</latinform>; B &amp; S
+    2011: <latinform>*[k]ʷˤəŋ</latinform>; Schuessler 2007:256; Mand. <latinform>gōng</latinform>.</par><par>ZJH:
+    Schuessler (2007:256) says this Chinese word “has apparently no outside cognate”, and derives it from
+    Chinese <hanform>弓</hanform> &apos;bow (the weapon)&apos;, Mand. <latinform>gōng</latinform>. The
+    proposed correspondence to PTB <latinform>*k(w)aŋ</latinform> is reasonable on semantic and phonetic
+    grounds, but the competing internal Chinese etymology must also be considered.</par>'

@@ -1,0 +1,16 @@
+tag: 26
+grpid: 2
+proto_language: PTB
+protoform: moy
+gloss: CORPSE
+semkey: 1.1.6.1
+sequence: 10.0
+status: KEEP
+public: true
+references: 'TJLB #277'
+phonology:
+  handle: moy
+  initial: m
+  rhyme: oy
+  initcover: M
+  rhymecover: W

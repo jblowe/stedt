@@ -1,0 +1,16 @@
+tag: 2123
+grpid: 2
+proto_language: PTB
+protoform: k(w)a
+gloss: STOMACH
+semkey: 1.7.6
+sequence: 3.0
+status: KEEP
+public: true
+possallo: '2112'
+phonology:
+  handle: ko
+  initial: k
+  rhyme: o ⪤ ka ⪤
+  initcover: K
+  rhymecover: T

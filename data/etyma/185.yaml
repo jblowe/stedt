@@ -1,0 +1,18 @@
+tag: 185
+grpid: 2
+proto_language: PTB
+protoform: kywaŋ
+gloss: HARD / SOLID
+semkey: 9.6.2
+sequence: 11.0
+status: KEEP
+public: true
+phonology:
+  handle: kyoŋ
+  initial: ky
+  rhyme: oŋ
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root has so far only been uncovered in a few Himalayan languages.</par>

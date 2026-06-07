@@ -1,0 +1,25 @@
+tag: 6128
+grpid: 2
+proto_language: PTB
+protoform: buŋ
+gloss: WIND (n.)
+semkey: 3.2.1
+sequence: 3524.0
+status: KEEP
+public: true
+references: HPTB p.531
+phonology:
+  initial: b
+  rhyme: uŋ
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: m-puŋ
+  gloss: WIND (n.)
+notes:
+- type: F
+  text: '<par><hanform>風</hanform> OC <latinform>*pi̯ŭm</latinform>, GSR #625h-i &apos;wind; tune, custom&apos;;
+    Schuessler 2007:238 <latinform>*pəm</latinform>; B &amp; S 2011: <latinform>*prəm</latinform>; Mand.
+    <latinform>fēng</latinform>.<br /><hanform>諷</hanform> OC <latinform>*pi̯ŭm</latinform>, GSR #625o
+    &apos;recite, chant&apos;; Schuessler 2007:238 <latinform>*pəms</latinform>; B &amp; S 2011: <latinform>*prəm-s</latinform>;
+    Mand. <latinform>fèng</latinform>.</par>'

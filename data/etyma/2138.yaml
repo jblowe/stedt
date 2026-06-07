@@ -1,0 +1,23 @@
+tag: 2138
+grpid: 2
+proto_language: PTB
+protoform: ʔa
+gloss: PRONOUN (3RD PERS.)
+sequence: 2705.0
+status: KEEP
+public: true
+references: STC p.93
+phonology:
+  handle: a
+  rhyme: a
+  rhymecover: V
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: ʔa
+  gloss: 3RD PERSON
+notes:
+- type: T
+  text: <par>This pronominal element appears sometimes as a prefix and sometimes as a suffix. See the
+    discussions in STC pp.93, 121, 123, 130.</par><par>There may well be a relationship between this etymon
+    and <xref ref="5450">#5450</xref>.</par>

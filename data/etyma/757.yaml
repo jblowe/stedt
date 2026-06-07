@@ -1,0 +1,34 @@
+tag: 757
+grpid: 2
+proto_language: PTB
+protoform: lap
+gloss: WING / FEATHER
+semkey: 1.5.1.3
+sequence: 17.1
+status: KEEP
+public: true
+phonology:
+  handle: lap
+  initial: l
+  rhyme: ap
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: lap
+  gloss: WING
+notes:
+- type: F
+  text: "<par><hanform>葉</hanform> OC <reconstruction>*di̯ɑp</reconstruction>, GSR #633d &apos;leaf, foliage,\
+    \ generation&apos;; Li 1971: <reconstruction>*rap</reconstruction>; Baxter 1992 #1037:\t<reconstruction>*ljap</reconstruction>;\
+    \ B &amp; S 2011: <reconstruction>*l[a]p</reconstruction>; Schuessler 2007:562; Mand. <latinform>yè</latinform>.</par><par>ZJH:\
+    \ The ordinary Chinese word for ‘leaf’ (<hanform>葉</hanform> Mand. <latinform>yè</latinform>) is a\
+    \ likely cognate to this PTB root for ‘wing’; the shape-based semantic connection is obvious. Furthermore,\
+    \ Schuessler (2007:562) notes that “In some southern dialects [of Chinese] <hanform>葉</hanform> also\
+    \ seems to be the word for ‘wing’”. Schuessler compares the Chinese to PTB <reconstruction>*lap</reconstruction>\
+    \ ‘leaf’ (STC #321). It seems to me that <xref ref=\"757\">#757 </xref> ‘wing’ and PTB <reconstruction>*lap</reconstruction>\
+    \ ‘leaf’ are likely to be in the same word family, and that this Chinese word for ‘leaf’ is cognate.\
+    \ </par>"
+- type: T
+  text: <par>This root is perhaps allofamically related to <xref ref="786">#786</xref>.</par>

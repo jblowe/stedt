@@ -1,0 +1,15 @@
+tag: 4882
+grpid: 2
+proto_language: PTB
+protoform: s-may
+gloss: WIDOW / WIDOWER
+semkey: 4.2.8
+sequence: 3511.0
+status: KEEP
+public: true
+references: 'PKC #882'
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: hmay
+  gloss: WIDOW / WIDOWER

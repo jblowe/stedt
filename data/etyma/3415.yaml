@@ -1,0 +1,23 @@
+tag: 3415
+grpid: 29
+proto_language: PKir
+protoform: huk
+gloss: HAND
+semkey: 1.5.1.1
+sequence: 43.0
+status: KEEP
+public: true
+references: JAM-LITB 5.2
+phonology:
+  handle: huk
+  initial: h
+  rhyme: uk
+  initcover: H
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root is reconstructed for SE Kiranti. A previous reconstruction by Baxter for Chinese
+    <hanform>手</hanform> looks quite similar to these Kiranti forms, see <xref ref="731">#731</xref> for
+    more discussion on this Chinese comparandum. Baxter and Sagart&apos;s more recent reconstruction is
+    OC <reconstruction>*n̥uʔ</reconstruction>.</par><par>This root bears a slight resemblance to <xref
+    ref="712">#712</xref>, but seems distinct from it.</par>

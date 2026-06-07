@@ -1,0 +1,384 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+131440	805	Kom Rem	tək◦sə	tək◦sə	body	body		1.1.1	1.1	0		8,34
+131441	805	Kom Rem	čəŋ◦te̊ŋ	čəŋ◦te̊ŋ	side (right)	side (right)		1.4.5	1.2	0		
+131442	805	Kom Rem	vui◦te̊ŋ	vui◦te̊ŋ	side (left)	side (left)		1.4.5	1.3	0		2154,m
+131443	805	Kom Rem	nuŋ◦te̊ŋ	nuŋ◦te̊ŋ	back	back		1.4.8	1.4	0		203,m
+131444	805	Kom Rem	ma◦te̊ŋ	ma◦te̊ŋ	front	front		1.4.4	1.5	0		1187,1212
+131445	805	Kom Rem	tək◦boŋ	tək◦boŋ	torso / trunk	torso  /  trunk		1.5.3.2	1.6	0		m,13
+131446	805	Kom Rem	kut leh ke	kut leh ke	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
+131447	805	Kom Rem	rə◦koˇ◦cuŋ	rə◦koˇcuŋ	lap	lap		1.4.4.2	1.8	0		m,2326,m
+131448	805	Kom Rem	lop	lop	bosom	bosom		1.4.4.2	1.9	0		m
+131449	805	Kom Rem	pi◦nəi	pi◦nəi	groin / loins / hips	groin  /  loins  / hips		1.4.9	1.10	0		1361,3352
+131450	805	Kom Rem	šə	šə	flesh	flesh		1.1.1.1	1.11	0		34
+131451	805	Kom Rem	meh	meh	meat	meat		1.1.1.1	1.11	0		39
+131452	805	Kom Rem	ə◦kə◦riŋ	ə◦kə◦riŋ	alive / be living	alive  /  be living		1.1.2.1	1.12	0		p,p,71
+131453	805	Kom Rem	ə◦kə◦tʰi	ə◦kə◦tʰi	die / be dead	die  /  be dead		1.1.6	1.13	0		p,p,27
+131454	805	Kom Rem	ə◦kə◦tʰi tək◦sə	ə◦kə◦tʰi təksə	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		p,p,27,8,34
+131455	805	Kom Rem	ə◦kə◦tʰi šə	ə◦kə◦tʰi šə	carcass / dead animal	carcass  /  dead animal		1.1.6.1	1.15	0		p,p,27,34
+131456	805	Kom Rem	ə◦kə◦je	ə◦kə◦je	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		p,140,m
+131457	805	Kom Rem	ə◦kə◦tʰui	ə◦kə◦tʰui	awake / be awake	awake  /  be awake		1.1.4	1.17	0		p,p,148
+131458	805	Kom Rem	rəm̥əŋ	rəm̥əŋ	dream	dream (v.)	v	1.1.4.2	1.18	0		126
+131459	805	Kom Rem	lu	lu	head	head		1.2.1	2.1	0		1221
+131460	805	Kom Rem	lu sip	lu sip	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		1221,m
+131461	805	Kom Rem	lu dep	lu dep	fontanel (soft spot in a baby's skull).	fontanel (soft spot in a baby's skull).		1.2.1.3	2.3	0		1221,1196
+131462	805	Kom Rem	lu um	lu um	skull	skull		1.2.1.1	2.4	0		1221,m
+131463	805	Kom Rem	lu tʰuk	lu tʰuk	brain	brain		1.2.4	2.5	0	HIDE	DUPE IN SOURCE
+131464	805	Kom Rem	nhər rəkuŋ kʰul	nhər rəkuŋ kʰul	sinus	sinus		1.2.8.1	2.6	0		
+131465	805	Kom Rem	səm	səm	hair of head	hair of head		1.2.3	2.7	0	HIDE	DUPE IN SOURCE
+131466	805	Kom Rem	lu vun	lu vun	scalp	scalp		1.2.1.5	2.8	0		1221,591
+131467	805	Kom Rem	mə·tʰiŋ	mə·tʰiŋ	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		1471
+131468	805	Kom Rem	rə ki|	rə ki|	horn (of animal)	horn (of animal)		1.2.2	2.10	0		2012
+131469	805	Kom Rem	rəki bak	rəki bak	antler (of deer)	antler (of deer)		1.2.2	2.11	0		2012,2010
+131470	805	Kom Rem	məi	məi	face	face		1.2.5	3.1	0		1187
+131471	805	Kom Rem	mə◦če	mə◦če	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		p,384
+131472	805	Kom Rem	kor kətaŋ	kor kətaŋ	temple	temple		1.2.5.1	3.3	0		3558,m
+131473	805	Kom Rem	m̥it	m̥it	eye	eye		1.2.6	3.4	0		682
+131474	805	Kom Rem	mit vun	mit vun	eyelid	eyelid		1.2.6.4	3.4.1	0		682,591
+131475	805	Kom Rem	mit ɣətui	mit ɣətui	"eyeball (""eye-egg"")"	"eyeball (""eye-egg"")"		1.2.6.1	3.4.2	0		682,m
+131476	805	Kom Rem	mit dum	mit dum	iris	iris		1.2.6.2	3.4.2.1	0		682,m
+131477	805	Kom Rem	mit ləirim	mit ləirim	pupil	pupil		1.2.6.2	3.4.2.2	0		682,m
+131478	805	Kom Rem	mit ləirim	mit ləirim	white of eye	white of eye		1.2.6.3	3.4.2.3	0		682,m
+131479	805	Kom Rem	mit ɣəkui mih	mit ɣəkui mih	eyebrow	eyebrow		1.2.6.6	3.4.3	0		682,m,363
+131480	805	Kom Rem	mit mih	mit mih	eyelash	eyelash		1.2.6.5	3.4.4	0		682,363
+131481	805	Kom Rem	mit kətʰim	mit kətʰim	blink	blink (v.)	v	1.2.6.12	3.4.5	0		682,m
+131482	805	Kom Rem	mit rətʰi	mit rətʰi	tears	tears		1.2.6.7	3.4.6	0		682,298
+131483	805	Kom Rem	kə◦təp	kə◦təp	cry  /  weep	cry  /  weep (v.)	v	1.8.8.2	3.4.8	0		1103
+131484	805	Kom Rem	kə◦čəp	kə◦čəp	cry  /  weep	cry  /  weep (v.)	v	1.8.8.2	3.4.8	0		m,1103
+131485	805	Kom Rem	en	en	see  /  look	see  /  look (v.)	v	1.2.6.10	3.4.9	0		1410
+131486	805	Kom Rem	muh	muh	see  /  look	see  /  look (v.)	v	1.2.6.10	3.4.9	0		1227
+131487	805	Kom Rem	mit kə◦čo	mit kəčo	blind	blind		1.2.6.14.2	3.4.10	0		682,m,1401
+131488	805	Kom Rem	nar	nar	nose	nose		1.2.8	3.5	0		803
+131489	805	Kom Rem	nar kot	nar kot	nose bridge	nose bridge		1.2.8	3.5.1	0		803,m
+131490	805	Kom Rem	nar kʰur	nar kʰur	nostril	nostril		1.2.8.1	3.5.2	0		803,665b
+131491	805	Kom Rem	nar kəm	nar kəm	alae nasi (nose flaps)	alae nasi (nose flaps)		1.2.8.2	3.5.3	0		803,m
+131492	805	Kom Rem	nar mih	nar mih	nose hair	nose hair		1.2.8	3.5.4	0		803,363
+131493	805	Kom Rem	nəp	nəp	snout	snout		1.2.8	3.5.5	0		470
+131494	805	Kom Rem	nəp tui	nəp tui	liquid mucus	liquid mucus		3.2.3	3.5.6	0		805,m
+131495	805	Kom Rem	nəp kʰir	nəp kʰir	solid mucus	solid mucus		1.1.5	3.5.7	0		805,m
+131496	805	Kom Rem	nar siŋ	nar siŋ	blow nose	blow nose (v.)	v	1.3.1.4	3.5.8	0		803,m
+131497	805	Kom Rem	mə◦rim	mərim	smell  /  sniff	smell  /  sniff (v.)	v	1.2.8.5	3.5.9	0		p,1416
+131498	805	Kom Rem	kōr	kōr	ear	ear		1.2.7	3.6	0		3558
+131499	805	Kom Rem	kōr zə◦mjə	kōr zə◦mjə	earlobe	earlobe		1.2.7.1	3.6.1	0		3558,m,816
+131500	805	Kom Rem	vənteŋ kōr	vənteŋ kōr	outer ear	outer ear		9.2	3.6.2	0		m,3558
+131501	805	Kom Rem	suŋteŋ kōr	suŋteŋ kōr	inner ear	inner ear		9.2.5	3.6.3	0		m,3558
+131502	805	Kom Rem	kōr kʰur	kōr kʰur	ear canal	ear canal		1.2.7	3.6.4	0		3558,665b
+131503	805	Kom Rem	kōr dəp	kōr dəp	eardrum	eardrum		1.2.7.2	3.6.5	0		3558,m
+131504	805	Kom Rem	kor ek	kor ek	earwax	earwax		1.2.7.3	3.6.6	0		3558,576
+131505	805	Kom Rem	rəŋei	rəŋei	hear	hear (v.)	v	1.2.7.4	3.6.7	0		
+131506	805	Kom Rem	tʰei	tʰei	hear	hear (v.)	v	1.2.7.4	3.6.7	0		
+131507	805	Kom Rem	kor kəset	kor kəset	deaf	deaf		1.2.7.5	3.6.8	0		3558,m
+131508	805	Kom Rem	bei	bei	mouth	mouth		1.3.1	3.7	0		2096
+131509	805	Kom Rem	kə◦dəŋ	kə◦dəŋ	palate	palate		1.3.1.1	3.7.1	0		p,1719
+131510	805	Kom Rem	kə◦dəŋ	kə◦dəŋ	soft palate	soft palate		7.1.4.2	3.7.2	0		p,1719
+131511	805	Kom Rem	hə mənih	hə mənih	gums	gums		1.3.4.3	3.7.3	0		632,504
+131512	805	Kom Rem	kədəŋ teŋ kʰəl	kədəŋ teŋ kʰəl	uvula	uvula		1.3.5.1	3.7.4	0		
+131513	805	Kom Rem	məči him	məči him	saliva	saliva		1.8.3	3.7.5	0		
+131514	805	Kom Rem	šək	šək	eat	eat (v.)	v	1.5.3.2	3.7.6	0		36
+131515	805	Kom Rem	in	in	drink	drink (v.)	v		3.7.7	0		1705
+131516	805	Kom Rem	tui re	tui re	thirsty	thirsty	be	1.1.3.1	3.7.8	0		m,m
+131517	805	Kom Rem	von təm	von təm	hungry	hungry	be	1.1.3	3.7.9	0		m
+131518	805	Kom Rem	kəsip	kəsip	full	full		1.1.3.2	3.7.10	0		m
+131519	805	Kom Rem	kə◦kʰop	kəkʰop	satiated	satiated	be	1.1.3.2	3.7.10	0		
+131520	805	Kom Rem	mə◦či	mə◦či	spit	spit (v.)	v	1.8.3	3.7.11	0		
+131521	805	Kom Rem	məlok	mə◦lok	vomit	vomit (n.)	n	1.8.3.2	3.7.12	0		1783
+131522	805	Kom Rem	məlok	mə◦lok	vomit	vomit (v.)	v	1.8.3.2	3.7.13	0		1783
+131523	805	Kom Rem	m̥om	m̥om	hold in mouth	hold in mouth (v.)	v	1.3.4.4	3.7.14	0		3451
+131524	805	Kom Rem	əkə aŋ	əkə aŋ	gape  /  open mouth	gape  /  open mouth (v.)	v	1.3.1	3.7.15	0		
+131525	805	Kom Rem	inhəm	in həm	yawn	yawn (v.)	v	1.3.1.3	3.7.16	0		1715
+131526	805	Kom Rem	məlei	məlei	tongue	tongue		1.3.3	3.8	0		621
+131527	805	Kom Rem	toŋ rih	toŋ rih	speak	speak (v.)	v	8.5.10.1	3.8.1	0		
+131528	805	Kom Rem	məlei kəŋək	məlei kəŋək	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
+131529	805	Kom Rem	toŋ tʰei lo	toŋ tʰei lo	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		
+131530	805	Kom Rem	məlik	məlik	lick	lick		1.3.3.1	3.8.4	0		629
+131531	805	Kom Rem	n̥er	n̥er	lip	lip		1.3.2	3.9	0		2099
+131532	805	Kom Rem	čuŋ◦teŋ n̥er	čuŋ◦teŋ n̥er	upper lip	upper lip		9.2.1	3.9.1	0		m,m,2099
+131533	805	Kom Rem	tʰuiteŋ n̥er	tʰuiteŋ n̥er	lower lip	lower lip			3.9.2	0	W	m,2099
+131534	805	Kom Rem	va mur	va mur	beak / bill	beak / bill		1.3.1.2	3.9.3	0		1603,467
+131535	805	Kom Rem	in◦rim mənui	in◦rim mənui	smile	smile (v.)	v	1.8.8.1	3.9.4	0		m,m,1105
+131536	805	Kom Rem	mə◦ǰop	məǰop	kiss	kiss		1.3.2.2	3.9.5	0		p,4621
+131537	805	Kom Rem	hə	hə	tooth	tooth		1.3.4	3.10	0		632
+131538	805	Kom Rem	kə◦tu hə	kətu hə	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		p,796,632
+131539	805	Kom Rem	hə◦pui	hə◦pui	molar	molar		1.3.4.2	3.10.2	0		632,1622
+131540	805	Kom Rem	ui hə	ui hə	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang		1.3.4.1	3.10.3	0		1764,632
+131541	805	Kom Rem	hə◦pui	hə◦pui	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		632,1622
+131542	805	Kom Rem	nəipəŋ hə	nəipəŋ hə	baby tooth	baby tooth		4.2.11	3.10.5	0		
+131543	805	Kom Rem	səi◦pui hə	səi◦pui hə	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		4649,m,m
+131544	805	Kom Rem	se	se	bite	bite (v.)	v	1.3.4.4	3.10.7	0		
+131545	805	Kom Rem	ei	ei	bite	bite (v.)	v	1.3.4.4	3.10.7	0		
+131546	805	Kom Rem	mən čə	mən čə	chew	chew (v.)	v	1.3.4	3.10.8	0		m,m
+131547	805	Kom Rem	kə biŋ	kə biŋ	cheek	cheek		1.2.5.2	3.11	0		p,264
+131548	805	Kom Rem	kə◦biŋ◦lu	kə◦biŋ◦lu	cheekbone	cheekbone		1.2.5.2	3.11.1	0		p,264,232
+131549	805	Kom Rem	mək◦nə	mək◦nə	chin	chin		1.2.5.3	3.12	0		
+131550	805	Kom Rem	rə◦kəm	rə◦kəm	jaw	jaw		1.2.5.2	3.13	0		m,630
+131551	805	Kom Rem	tʰui rə◦kəm	tʰui rə◦kəm	lower jaw / mandible	lower jaw  /  mandible		1.2.5.2	3.13.1	0		m,m,630
+131552	805	Kom Rem	čuŋ rə◦kəm	čuŋ rə◦kəm	upper jaw / maxilla	upper jaw  /  maxilla		1.2.5.2	3.13.2	0		2049,m,630
+131553	805	Kom Rem	le◦r̥ok	le◦r̥ok	neck / throat	neck  /  throat		1.4.2	4	0		p,489
+131554	805	Kom Rem	r̥iŋ	r̥iŋ	neck	neck		1.4.2	4.1	0		479
+131555	805	Kom Rem	biŋ◦pʰo	biŋ◦pʰo	goiter	goiter		1.4.2.2	4.1.1	0		m,163
+131556	805	Kom Rem	le◦r̥ok intʰiŋ	ler̥ok intʰiŋ	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)		1.1.5.2	4.1.2	0		p,489,m
+131557	805	Kom Rem	r̥iŋ	r̥iŋ	nape of neck	nape of neck		1.4.2.1	4.1.3	0		479
+131558	805	Kom Rem	kə◦dəŋ səi◦luŋ	kə◦dəŋ səi◦luŋ	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		m,822,m,m
+131559	805	Kom Rem	re◦r̥ok	re◦r̥ok	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		p,489
+131560	805	Kom Rem	kə◦dəŋ kʰul	kə◦dəŋ kʰul	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		p,822,496
+131561	805	Kom Rem	bu l̥əm	bu l̥əm	esophagus	esophagus		1.3.5.5	4.2.2	0		
+131562	805	Kom Rem	məde	məde	swallow	swallow (v.)	v	1.3.5.6	4.2.3	0		
+131563	805	Kom Rem	ə◦pʰum	ə◦pʰum	gizzard / crop of bird	gizzard  /  crop of bird		1.7.6.1	4.2.4	0		p,3
+131564	805	Kom Rem	tək boŋ	tək boŋ	torso	torso		1.5.3.2	5	0		m,13
+131565	805	Kom Rem	lop bəi	lop bəi	chest	chest		1.4.4.3	5.1	0		
+131566	805	Kom Rem	mə◦nək ru	mə◦nək ru	rib cage	rib cage		1.4.4.3	5.1.1	0		p,4829,232
+131567	805	Kom Rem	mə◦nək	mə◦nək	rib	rib		1.4.4.3	5.1.2	0		p,4829
+131568	805	Kom Rem	lop ru	lop ru	breastbone / sternum	breastbone  /  sternum		1.6.3.2	5.1.3	0		m,232
+131569	805	Kom Rem	r̥iŋ ru	r̥iŋ ru	collar bone / clavicle	collar bone  /  clavicle		1.4.3.1	5.2	0		m,232
+131570	805	Kom Rem	aŋ	aŋ	shoulder	shoulder		1.4.3	5.3	0		3345
+131571	805	Kom Rem	aŋ◦ru pek	aŋ◦ru pek	shoulder blade / scapula	shoulder blade  /  scapula		1.4.3.2	5.3.1	0		3345,232,568
+131572	805	Kom Rem	aŋ intum	aŋ intum	shrug shoulders	shrug shoulders (v.)	v	1.4.3.3	5.3.2	0		
+131573	805	Kom Rem	ču ču	ču ču	breast	breast		1.4.4.3	5.4	0		5539,5539
+131574	805	Kom Rem	lop	lop	breast	breast		1.4.4.3	5.4	0		
+131575	805	Kom Rem	ču ču mur	ču ču mur	nipple	nipple			5.4.1	0		5539,5539,467
+131576	805	Kom Rem	ču ču	ču ču	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		R
+131578	805	Kom Rem	səŋ kʰom	səŋ kʰom	milk	milk			5.4.3	0	D1	m,3374
+131579	805	Kom Rem	in	in	suck	suck		1.3.2.1	5.4.5	0		
+131580	805	Kom Rem	mə◦čop	mə◦čop	suck	suck		1.3.2.1	5.4.5	0		p,4621
+131581	805	Kom Rem	vei	vei	nurse  /  suckle	nurse  /  suckle (v.)	v	4.2.1.5	5.4.6	0		
+131582	805	Kom Rem	vei mək	vei mək	wean	wean			5.4.7	0		
+131583	805	Kom Rem	koŋ	koŋ	back	back		1.4.8	5.5	0		219
+131584	805	Kom Rem	čuŋ◦teŋa koŋ	čuŋ◦teŋa koŋ	upper back	upper back		9.2.1	5.5.1	0		
+131585	805	Kom Rem	tʰuiteŋa koŋ	tʰuiteŋa koŋ	lower back	lower back		1.4.8.1	5.5.2	0		m,219
+131586	805	Kom Rem	koŋ kəsin	koŋ kəsin	small of back	small of back		1.4.8.1	5.5.3	0		219,m
+131587	805	Kom Rem	koŋ ru	koŋ ru	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		1,232
+131588	805	Kom Rem	koŋ ru rətʰuk	koŋ ru rətʰuk	spinal cord	spinal cord		1.4.8.2	5.5.5	0		
+131589	805	Kom Rem	koŋ in kʰur	koŋ in kʰur	hunchback	hunchback		1.4.8.3	5.5.6	0		219,m,m
+131590	805	Kom Rem	koŋ	koŋ	waist	waist		1.4.6	5.6	0		219
+131591	805	Kom Rem	poi	poi	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)		1.4.7	5.7	0		2103
+131592	805	Kom Rem	mələi	mələi	navel	navel		1.9.4	5.7.1	0		517
+131593	805	Kom Rem	mədi ru	mədi ru	pelvis / pelvic girdle	pelvis  /  pelvic girdle		1.4.9.2	5.8	0		m,232
+131594	805	Kom Rem	mədi	mədi	hips	hips		1.4.9.2	5.8.1	0		1243
+131595	805	Kom Rem	l̥e ru	l̥e ru	pelvis / pelvic girdle	pelvis  /  pelvic girdle		1.4.9.2	5.8	0		413,232
+131596	805	Kom Rem	l̥e	l̥e	hips	hips		1.4.9.2	5.8.1	0		413
+131597	805	Kom Rem	l̥e ru	l̥e ru	hipbone	hipbone		1.4.9.2	5.8.2	0		413,232
+131598	805	Kom Rem	mətor	mətor	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		
+131599	805	Kom Rem	ke mə◦tor kuŋ	ke mətor kuŋ	crotch / fork of legs	crotch  /  fork of legs		1.4.9.1	5.9	0		m,m,212,m
+131600	805	Kom Rem	pirəi	pirəi	swollen lymph nodes (of groin)	swollen lymph nodes (of groin)		1.1.5.2	5.9.1	0		1858
+131601	805	Kom Rem	rəmei kuŋ	rəmei kuŋ	rump	rump		1.4.10	5.10	0		1288,m
+131602	805	Kom Rem	l̥e	l̥e	buttocks	buttocks		1.4.10	5.10.1	0		413
+131603	805	Kom Rem	mədi	mədi	buttocks	buttocks		1.4.10	5.10.1	0		1243
+131604	805	Kom Rem	rəmei ru	rəmei ru	tailbone / coccyx	tailbone  /  coccyx		1.6.3.3	5.10.2	0		1288,232
+131605	805	Kom Rem	rəmei	rəmei	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		1288
+131606	805	Kom Rem	ke le kut	ke le kut	limbs	limbs		1.5.3.1	6	0		
+131607	805	Kom Rem	ban	ban	arm	arm		1.5.1.2	6.1	0		745
+131608	805	Kom Rem	kəču	kəču	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
+131609	805	Kom Rem	mənǰət	mənǰət	tickle	tickle		1.5.1.2.4	6.1.1.1	0		
+131610	805	Kom Rem	ban	ban	upperarm	upperarm		1.5.1.2.1	6.1.2	0		745
+131611	805	Kom Rem	kut ban məti	kut ban məti	arm muscles / biceps	arm muscles  /  biceps		1.5.1.2	6.1.3	0		m,745,m
+131612	805	Kom Rem	kʰu◦r̥iŋ	kʰur̥iŋ	elbow	elbow		1.5.8.3	6.1.4	0		307,m
+131613	805	Kom Rem	kʰu◦r̥iŋ ru	kʰur̥iŋ ru	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		307,m,232
+131614	805	Kom Rem	suŋteŋa kʰu◦r̥iŋ	suŋteŋa kʰur̥iŋ	inner elbow / crook of elbow	inner elbow  /  crook of elbow		1.5.8.3	6.1.4.2	0		m,307,m
+131615	805	Kom Rem	kut◦mərəi	kut◦mərəi	forearm / lower arm	forearm  /  lower arm		1.5.1.2.2	6.1.5	0		
+131616	805	Kom Rem	kutrəǰəŋ	kutrəǰəŋ	wrist	wrist		1.5.8.1	6.1.6	0		
+131617	805	Kom Rem	kut	kut	hand	hand		1.5.1.1	6.1.7	0		712
+131618	805	Kom Rem	kut pʰə	kut pʰə	palm	palm		1.5.5	6.1.7.1	0		
+131619	805	Kom Rem	kut◦rəkʰu	kut◦rəkʰu	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		712,m
+131620	805	Kom Rem	kut rəbu	kut rəbu	fist	fist		1.5.1.1.1	6.1.7.3	0		712,m
+131621	805	Kom Rem	kut tun	kut tun	fist	fist		1.5.1.1.1	6.1.7.3	0		712,m
+131622	805	Kom Rem	kut čəŋ	kut čəŋ	right hand	right hand		1.5.3.2	6.1.7.4	0		712,m
+131623	805	Kom Rem	kut vui	kut vui	left hand	left hand		1.5.3.2	6.1.7.5	0		712,2154
+131624	805	Kom Rem	ŋə mətʰiŋ	ŋə mətʰiŋ	fin (of fish)	fin (of fish)		1.5.1.3.1	6.1.8	0		1455,m
+131625	805	Kom Rem	wə mə◦tʰlə	wə mətʰlə	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		1603,m,737
+131626	805	Kom Rem	kutpʰə	kutpʰə	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
+131627	805	Kom Rem	kepʰə	kepʰə	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
+131628	805	Kom Rem	ke	ke	leg	leg		1.5.7	6.2	0		338
+131629	805	Kom Rem	kemətor	kemətor	thigh	thigh		1.5.7.1	6.2.1	0		
+131630	805	Kom Rem	ke rəko	ke rəko	thigh	thigh		1.5.7.1	6.2.1	0		
+131631	805	Kom Rem	ke rəko ru	ke rəko ru	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		m,m,232
+131632	805	Kom Rem	kəplək rətʰlə rui	kəplək rətʰlə rui	hamstring	hamstring		1.6.6.2	6.2.1.2	0		
+131633	805	Kom Rem	ke mərə◦kʰup	ke mərəkʰup	knee	knee		1.5.8.4	6.2.2	0		m,m,1251
+131634	805	Kom Rem	ke kaŋ	ke kaŋ	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		
+131635	805	Kom Rem	ke mərə◦kʰup kəve	ke mərəkʰup kəve	knee hollow / popliteal region	knee hollow  /  popliteal region		1.5.8.4	6.2.2.2	0		m,m,1251,m
+131636	805	Kom Rem	kemələi	kemələi	shin	shin		1.5.7.2	6.2.3	0		
+131637	805	Kom Rem	kemələi ru	kemələi ru	shin bone / tibia	shin bone  /  tibia		1.5.7.2	6.2.3.1	0		m,232
+131638	805	Kom Rem	kemələi nuŋleŋ	kemələi nuŋleŋ	calf	calf		1.5.7	6.2.4	0		
+131639	805	Kom Rem	ke rətui	ke rətui	ankle	ankle		1.5.8.2	6.2.5	0		
+131640	805	Kom Rem	ke rətui ru	ke rətui ru	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		m,m,232
+131641	805	Kom Rem	ke◦pʰə	kepʰə	foot	foot		1.5.2	6.2.6	0		338,m
+131642	805	Kom Rem	ke məkʰoŋ	ke məkʰoŋ	heel	heel		1.5.2.1	6.2.6.1	0		
+131643	805	Kom Rem	keməkʰoŋ rətʰlə rui	keməkʰoŋ rətʰlə rui	achilles tendon	achilles tendon		1.6.6.1	6.2.6.2	0		
+131644	805	Kom Rem	ke inkik	ke inkik	arch	arch		1.5.2.3	6.2.6.3	0		
+131645	805	Kom Rem	ke məkʰoŋ	ke məkʰoŋ	ball of the foot	ball of the foot		9.7.1	6.2.6.4	0		338,m
+131646	805	Kom Rem	kepʰə tʰui	kepʰə tʰui	sole	sole		1.5.5	6.2.6.5	0		
+131647	805	Kom Rem	kepʰə čuŋ	kepʰə čuŋ	instep	instep		1.5.2.2	6.2.6.6	0		
+131648	805	Kom Rem	ke bi	ke bi	footprint	footprint		1.5.2.5	6.2.6.7	0		
+131649	805	Kom Rem	šəke mətin	šəke mətin	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		
+131650	805	Kom Rem	sə kepʰə	sə kepʰə	paw (of animal)	paw (of animal)		1.5.4	6.2.6.9	0		
+131651	805	Kom Rem	ke kəkik	ke kəkik	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
+131652	805	Kom Rem	ke kəŋoi	ke kəŋoi	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
+131653	805	Kom Rem	ke inkʰoi	ke inkʰoi	limp	limp (v.)	v	1.5.12	6.2.8	0		
+131654	805	Kom Rem	ke pər	ke pər	digit	digit		1.5.6	7	0		
+131655	805	Kom Rem	kut pər	kut pər	finger	finger		1.5.6	7.1	0		712,m
+131656	805	Kom Rem	kut če	kut če	index finger	index finger		1.0	7.1.1	0		712,m
+131657	805	Kom Rem	kut ləi	kut ləi	middle finger	middle finger		1.9.4	7.1.2	0		712,517
+131658	805	Kom Rem	kut te u	kut te u	ring finger	ring finger		1.5.6.2	7.1.3	0		712,m,m
+131659	805	Kom Rem	kut te	kut te	little finger	little finger		9.7.2	7.1.4	0		712,m
+131660	805	Kom Rem	kut pui	kut pui	thumb	thumb		1.5.6.1	7.1.5	0		
+131661	805	Kom Rem	kut bi	kut bi	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
+131662	805	Kom Rem	ke pər	ke pər	toe	toe		1.5.6	7.2	0		
+131663	805	Kom Rem	ke pui	ke pui	big toe	big toe		1.5.6.1	7.2.1	0		
+131664	805	Kom Rem	ke čə	ke čə	second toe	second toe		9.9	7.2.2	0		
+131665	805	Kom Rem	ke ləi	ke ləi	middle toe	middle toe		1.9.4	7.2.3	0		m,517
+131666	805	Kom Rem	ke te u	ke te u	fourth toe	fourth toe		9.9	7.2.4	0		
+131667	805	Kom Rem	ke te	ke te	little toe	little toe		9.7.2	7.2.5	0		
+131668	805	Kom Rem	kut pər inčunnə	kut pər inčunnə	knuckle (joint of digit)	knuckle (joint of digit)		1.5.8.5	7.3	0		712,m,m
+131669	805	Kom Rem	mətin	mə tin	nail	nail		1.5.10	7.4	0		512
+131670	805	Kom Rem	kut mətin	kut mətin	fingernail	fingernail		1.5.10.1	7.4.1	0		
+131671	805	Kom Rem	ke mətin	ke mətin	toenail	toenail		1.5.10.2	7.4.2	0		
+131672	805	Kom Rem	sə mətin	sə mətin	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		m,512
+131673	805	Kom Rem	wə mətin	wə mətin	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		1603,512
+131674	805	Kom Rem	ihirkəp	ihirkəp	pincers (eg. of crab)	pincers (eg. of crab)		1.5.10.4	7.4.5	0		
+131675	805	Kom Rem	əi ke	əi ke	pincers (eg. of crab)	pincers (eg. of crab)		1.5.10.4	7.4.5	0		
+131676	805	Kom Rem	ənme l̥op	ənme l̥op	diffuse organs	diffuse organs		1.6	8	0		
+131677	805	Kom Rem	mih	mih	hair (general)	hair (general)		1.2.3	8.1	0		363
+131678	805	Kom Rem	səm	səm	hair of head	hair of head		1.2.3	8.1.1	0	D1	366
+131679	805	Kom Rem	mih inkin	mih inkin	cowlick (flexure in hair)	cowlick (flexure in hair)		1.2.3.1	8.1.1.1	0		363,m
+131680	805	Kom Rem	səm inkin	səm inkin	cowlick (flexure in hair)	cowlick (flexure in hair)		1.2.3.1	8.1.1.1	0		366,m
+131681	805	Kom Rem	məi mih	məi mih	beard / moustache	beard / moustache		1.2.5.5	8.1.2	0		1114,363
+131682	805	Kom Rem	məkʰə mih	məkʰə mih	beard	beard		1.2.5.5	8.1.2.1	0		273,363
+131683	805	Kom Rem	ke mi kəpo	ke mi kəpo	goatee	goatee		1.2.5.5	8.1.2.2	0		
+131684	805	Kom Rem	ner mih	ner mih	moustache	moustache		1.2.5.5	8.1.2.3	0		803,363
+131685	805	Kom Rem	tək mih	tək mih	body hair	body hair		1.6.1	8.1.3	0		8,363
+131686	805	Kom Rem	kəču mih	kəču mih	underarm hair	underarm hair		1.5.1.2.3	8.1.3.1	0		m,363
+131687	805	Kom Rem	lop mih	lop mih	chest hair	chest hair		1.4.4.5	8.1.3.2	0		m,363
+131688	805	Kom Rem	ke mih	ke mih	leg hair	leg hair		1.5.7	8.1.3.3	0		338,363
+131689	805	Kom Rem	sə mih	sə mih	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		m,363
+131690	805	Kom Rem	və mih	və mih	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		1603,363
+131691	805	Kom Rem	tuk◦tu mih	tuk◦tu mih	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		359,m,363
+131692	805	Kom Rem	ə◦koi	ə◦koi	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		p,m
+131693	805	Kom Rem	tʰəmbe mih	tʰəmbe mih	whiskers (of animal)	whiskers (of animal)		1.2.5.5	8.1.7	0		m,363
+131694	805	Kom Rem	vun	vun	skin	skin		1.6.5	8.2	0		591
+131695	805	Kom Rem	rə◦lhen	rə◦lhen	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		m,610
+131696	805	Kom Rem	mih kʰur	mih kʰur	pore	pore		1.8.1.1	8.2.2	0		
+131697	805	Kom Rem	əbi	əbi	blemish on skin	blemish on skin		1.6.5	8.2.3	0		
+131698	805	Kom Rem	dək	dək	blemish on skin	blemish on skin		1.6.5	8.2.3	0		
+131699	805	Kom Rem	sərətʰin	sərətʰin	pimple	pimple		1.6.5.3	8.2.3.2	0		
+131700	805	Kom Rem	tʰe vom	tʰe vom	mole	mole		2.2.7	8.2.3.3	0		
+131701	805	Kom Rem	ši sərik	ši sərik	wart	wart		1.6.5.3	8.2.3.4	0		
+131702	805	Kom Rem	tui kok	tui kok	cyst	cyst		1.6.5.3	8.2.3.5	0		
+131703	805	Kom Rem	əbi	əbi	scar	scar		1.6.5.3	8.2.3.7	0		
+131704	805	Kom Rem	kəkʰui	kəkʰui	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
+131705	805	Kom Rem	dək	dək	scar	scar		1.6.5.3	8.2.3.7	0		
+131706	805	Kom Rem	kəlhom	kəlhom	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
+131707	805	Kom Rem	təkvun inhəŋ	təkvun inhəŋ	rash	rash		1.6.5.3	8.2.3.9	0		
+131708	805	Kom Rem	kəpʰər	kəpʰər	scab	scab		1.6.5.3	8.2.4	0		
+131709	805	Kom Rem	ŋə rip	ŋə rip	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		1455,562
+131710	805	Kom Rem	sə◦vun	sə◦vun	hide / leather (dried animal skin)	hide  /  leather (dried animal skin)		1.6.5.1	8.2.6	0		p,591
+131711	805	Kom Rem	ə◦tʰəi	ə◦tʰəi	fat	fat		1.6.4	8.3	0		p,60
+131712	805	Kom Rem	ə◦laŋ	ə◦laŋ	fat around intestines / omentum	fat around intestines / omentum		1.6.4	8.3.1	0		p,1438
+131713	805	Kom Rem	ə◦ri rəŋ tʰəi	ə◦ri rəŋ tʰəi	fat around intestines / omentum	fat around intestines / omentum		1.6.4	8.3.1	0		p,2127,m,60
+131714	805	Kom Rem	tʰəi	tʰəi	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		60
+131715	805	Kom Rem	ru	ru	bone	bone		1.6.3	8.4	0		232
+131716	805	Kom Rem	ə◦ru ə◦rəŋ	ə◦ru ə◦rəŋ	skeleton	skeleton		1.6.3.1	8.4.1	0		p,232,p,238
+131717	805	Kom Rem	koŋ ru	koŋ ru	vertebrae (of spine)	vertebrae (of spine)		1.6.3.3	8.4.2	0		219,232
+131718	805	Kom Rem	rə◦tʰik	rə◦tʰik	marrow	marrow		1.6.3.5	8.4.3	0		232,463
+131719	805	Kom Rem	r̥u kədoŋ	r̥u kədoŋ	cartilage / grist	cartilage  /  grist		1.6.3.4	8.4.4	0		232,m
+131720	805	Kom Rem	məti rui	məti rui	sinew / tendon (muscle to bone)	sinew  /  tendon (muscle to bone)		1.6.6.1	8.5	0		m,533
+131721	805	Kom Rem	ru rui	ru rui	ligament (bone to bone)	ligament (bone to bone)		1.6.3	8.6	0		232,533
+131722	805	Kom Rem	tʰi◦sen	tʰi◦sen	blood	blood		1.6.2	8.7	0		230,5721
+131723	805	Kom Rem	rətʰə rui	rətʰə rui	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		530,533
+131724	805	Kom Rem	tʰi◦sen kəsok	tʰi◦sen kəsok	bleed	bleed (v.)	v	1.6.2	8.7.2	0		230,m,m
+131725	805	Kom Rem	təksə məti	təksə məti	muscle	muscle		1.6.6.2	8.8	0		m,m
+131726	805	Kom Rem	rəŋil	rəŋil	joint	joint		1.5.8	8.9	0		
+131727	805	Kom Rem	əhəŋ	əhəŋ	joint	joint		1.5.8	8.9	0		
+131728	805	Kom Rem	rəlhə rui	rəlhə rui	nerve	nerve		1.6.6.3	8.10	0		m,533
+131729	805	Kom Rem	lu tʰuk	lu tʰuk	brain	brain		1.2.4	9.1	0	D1	1221,463
+131730	805	Kom Rem	koŋ ru rutʰuk	koŋ ru rutʰuk	spinal cord	spinal cord		1.4.8.2	9.1.1	0		
+131731	805	Kom Rem	ru◦tʰuk	ru◦tʰuk	marrow	marrow		1.6.3.5	9.1.2	0		232,463
+131732	805	Kom Rem	ə◦čip	ə◦čip	lung	lung		1.7.2	9.2	0		p,457
+131733	805	Kom Rem	kə◦pʰuk səm	kə◦pʰuk səm	breathe	breathe (v.)	v	1.1.2.2	9.2.1	0		p,65,m
+131734	805	Kom Rem	kəpʰu ənsəm	kəpʰu ənsəm	pant	pant (v.)	v	1.1.2.2	9.2.2	0		
+131735	805	Kom Rem	kə◦pʰuk sem	kə◦pʰuk sem	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		p,m,m
+131736	805	Kom Rem	ŋə kədəŋ	ŋə kədəŋ	gill (of fish)	gill (of fish)		1.3.5.3	9.2.4	0		1455,m
+131737	805	Kom Rem	nəp	nəp	phlegm	phlegm		1.8.3	9.2.5	0		805
+131738	805	Kom Rem	kə◦hək	kə◦hək	phlegm	phlegm		1.8.3	9.2.5	0		m,540
+131739	805	Kom Rem	məluŋ	məluŋ	heart	heart		1.7.1	9.3	0		1381
+131740	805	Kom Rem	məluŋ intʰok	mə◦luŋ intʰok	heartbeat	heartbeat		1.7.1.1	9.3.1	0		1381,m
+131741	805	Kom Rem	pi sui	pi sui	pulse	pulse		1.7.1.1	9.3.2	0		p,230
+131742	805	Kom Rem	ə◦mətʰin	ə◦mə◦tʰin	liver	liver		1.7.3	9.5	0		p,1390
+131743	805	Kom Rem	šək in◦noi◦nə tui	šək in◦noi◦nə tui	bile	bile		1.7.3.1	9.5.1	0		m,m,m,m,m
+131744	805	Kom Rem	ə◦mit	ə◦mit	gall bladder	gall bladder		1.7.3	9.5.2	0		p,2101
+131745	805	Kom Rem	a◦kə	a◦kə	kidney	kidney		1.7.5	9.6	0		p,201
+131746	805	Kom Rem	əpʰim	əpʰim	urinary bladder	urinary bladder		1.7.8	9.7	0		
+131747	805	Kom Rem	mə◦ǰun	mə◦ǰun	urine	urine		1.8.4	9.7.1	0		m,2795b
+131748	805	Kom Rem	mə◦ǰun nə	məǰun nə	urinate	urinate (v.)	v	1.5.3.2	9.7.2	0		m,2795b,m
+131749	805	Kom Rem	ə tʰəp	ə tʰəp	spleen	spleen		1.7.4	9.8	0		p,m
+131750	805	Kom Rem	ə tʰəp intʰiŋ	ə tʰəp intʰiŋ	swollen spleen (illness)	swollen spleen (illness)		1.1.5.2	9.8.1	0		p,m,m
+131751	805	Kom Rem	ə pʰum ləŋ	ə pʰum ləŋ	pancreas	pancreas		1.7.7	9.9	0		p,m,3460
+131752	805	Kom Rem	ə pʰum	ə pʰum	stomach	stomach		1.7.6	9.10	0		p,3
+131753	805	Kom Rem	kəri	kəri	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		572
+131754	805	Kom Rem	əri rəŋ	əri rəŋ	large intestine	large intestine		1.7.7	9.11.1	0		2127,m
+131755	805	Kom Rem	əri kʰə	əri kʰə	small intestine	small intestine		9.7.2	9.11.2	0		2127,m
+131756	805	Kom Rem	əlu nem	əlu nem	small intestine	small intestine		9.7.2	9.11.2	0		
+131757	805	Kom Rem	ə ŋoi	ə ŋoi	appendix	appendix		1.7.7	9.11.3	0		p,m
+131758	805	Kom Rem	l̥e	l̥e	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		m
+131759	805	Kom Rem	tʰoŋ	tʰoŋ	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		225
+131760	805	Kom Rem	nom	nom	feces / shit	feces  /  shit		1.8.5	9.12.1	0		m
+131761	805	Kom Rem	ek	ek	feces / shit	feces  /  shit		1.8.5	9.12.1	0		576
+131762	805	Kom Rem	nəipəŋ ek	nəipəŋ ek	meconium / baby shit	meconium  /  baby shit		1.8.5	9.12.2	0		
+131763	805	Kom Rem	əndir	əndir	defecate	defecate (v.)	v	1.8.5.4	9.12.3	0		
+131764	805	Kom Rem	sə le te nei nə	sə le te nei nə	genitalia / pudenda (general)	genitalia  /  pudenda (general)		1.9.1	10.1	0		
+131765	805	Kom Rem	ə◦nho	ə◦nho	copulate	copulate		1.9.1.1	10.2	0		p,548
+131766	805	Kom Rem	pəse	pəse	male	male		1.9.6.1	10.3	0		m
+131767	805	Kom Rem	ǰəŋ	ǰəŋ	penis	penis			10.3.1	0		1283
+131768	805	Kom Rem	ǰəŋ mətʰer	ǰəŋ mətʰer	glans penis	glans penis			10.3.2	0		1283,m
+131769	805	Kom Rem	ǰəŋ vun	ǰəŋ vun	"foreskin (""penis-skin"")"	"foreskin (""penis-skin"")"			10.3.3	0		1283,591
+131770	805	Kom Rem	kəti kok	kəti kok	scrotum	scrotum			10.3.4	0		1181,1617
+131771	805	Kom Rem	ǰəŋ kəti◦mu	ǰəŋ kəti◦mu	testicle	testicle			10.3.5	0		1283,1181,685
+131772	805	Kom Rem	ǰəŋ mih	ǰəŋ mih	male pubic hair	male pubic hair			10.3.6	0		1283,363
+131773	805	Kom Rem	ə◦bo	ə◦bo	semen	semen			10.3.7	0		p,3486
+131774	805	Kom Rem	əbo kəsuk	əbo kəsuk	ejaculate	ejaculate (v.)	v		10.3.8	0		
+131775	805	Kom Rem	kəti sem	kəti sem	castrate	castrate (v.)	v	1.9.2.3	10.3.9	0		1181,m
+131776	805	Kom Rem	nu◦m̥ei	nu◦m̥ei	female	female		1.9.3	10.4	0		1621a,m
+131777	805	Kom Rem	su	su	vagina	vagina			10.4.1	0		661
+131778	805	Kom Rem	su-ner	su-ner	vulva / labia	vulva  /  labia			10.4.2	0		661,m
+131779	805	Kom Rem	su-də	su-də	hymen	hymen			10.4.3	0		661,m
+131780	805	Kom Rem	su-mətʰer	su-mətʰer	clitoris	clitoris			10.4.4	0		661,m
+131781	805	Kom Rem	su-mih	su-mih	female pubic hair	female pubic hair			10.4.5	0		661,363
+131782	805	Kom Rem	num̥ei pon indir	num̥ei pon indir	menstruate	menstruate (v.)	v	1.9.11.1	10.4.6	0		
+131783	805	Kom Rem	pon indir tʰi	pon indir tʰi	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		m,m,230
+131784	805	Kom Rem	nəi kok	nəi kok	womb	womb			10.4.8	0		
+131785	805	Kom Rem	nəi rəbu	nəi rəbu	womb	womb			10.4.8	0		m,1733
+131786	805	Kom Rem	tui◦suh	tui◦suh	amniotic sac / bag of waters	amniotic sac  /  bag of waters			10.4.9	0		298,m
+131787	805	Kom Rem	nəi tui	nəi tui	amniotic fluid	amniotic fluid			10.4.10	0		m,298
+131788	805	Kom Rem	nəi rəbu	nəi rəbu	placenta	placenta			10.4.11	0		m,1733
+131789	805	Kom Rem	nəi mələi rui	nəi mələi rui	umbilical cord	umbilical cord			10.4.12	0		m,517,m
+131790	805	Kom Rem	nəi rəbu	nəi rəbu	caul (membrane on newborn head	caul (membrane on newborn head		1.2.1.4	10.4.13	0		m,m
+131791	805	Kom Rem	nəi inrəi	nəi inrəi	pregnant	pregnant	be	1.9.6.1	10.4.14	0		
+131792	805	Kom Rem	nəi in◦tet	nəi in◦tet	birth, give	birth, give		1.1.2	10.4.15	0		
+131793	805	Kom Rem	nəi kəron	nəi kəron	pregnant	pregnant	be	1.9.6.1	10.4.14	0		
+131794	805	Kom Rem	nəi kənei	nəi kənei	birth, give	birth, give		1.1.2	10.4.15	0		
+131795	805	Kom Rem	ər◦tui	ər◦tui	egg (of animal)	egg (of animal)			10.4.16	0		m,300
+131796	805	Kom Rem	ən◦kʰu	ən◦kʰu	cough	cough		1.8.3.3	11.1	0		m,1795
+131797	805	Kom Rem	ekse təkei	ekse təkei	hiccup	hiccup		1.8.3.5	11.2	0		
+131798	805	Kom Rem	ənsim	ənsim	sneeze	sneeze		1.8.2.1	11.3	0		
+131799	805	Kom Rem	nar rə◦sə kə◦suk	nar rə◦sə kə◦suk	snore	snore		1.8.2.2	11.4	0		1784,m,m,m,m
+131800	805	Kom Rem	səi sə◦rit rə◦sə	səi sə◦rit rə◦sə	whistle	whistle		8.5.5	11.5	0		
+131801	805	Kom Rem	inir	inir	burp / belch	burp  /  belch		1.8.3	11.6	0		
+131802	805	Kom Rem	ənkʰu səsop	ənkʰu səsop	clear throat	clear throat		9.6.1.1	11.8	0		
+131803	805	Kom Rem	mə |nui	mə nui	laugh	laugh		1.8.8.1	11.9	0		1105
+131804	805	Kom Rem	tʰisen nəibom suk	tʰisen nəibom suk	injury and infection	injury and infection		1.1.5.1	12	0		
+131805	805	Kom Rem	tək rətʰə in nok	tək rətʰə in nok	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
+131806	805	Kom Rem	tək kədəmək	tək kədəmək	sick / be ill / hurt	sick  /  be ill  /  hurt	be	1.1.5.1	12.2	0		
+131807	805	Kom Rem	tək kə◦tʰi	tək kətʰi	numb /  be paralyzed	numb  /   be paralyzed	be	1.5.11	12.3	0		m,m,7094
+131808	805	Kom Rem	tək kənə	tək kənə	sick / be ill / hurt	sick  /  be ill  /  hurt	be	1.1.5.1	12.2	0		
+131809	805	Kom Rem	ləŋ kə◦tʰi	ləŋ kətʰi	numb /  be paralyzed	numb  /   be paralyzed	be	1.5.11	12.3	0		m,m,7094
+131810	805	Kom Rem	əntʰiŋ	əntʰiŋ	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
+131811	805	Kom Rem	ə◦nəi	ə◦nəi	pus	pus		1.8.6.1	12.5	0		p,1294
+131812	805	Kom Rem	əkəpət	əkəpət	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound		1.8.6.2	12.6	0		
+131813	805	Kom Rem	tək◦sə bək	tək◦sə bək	body part measurement	body part measurement		1.1.1	13	0		8,34,m
+131814	805	Kom Rem	kutčə	kutčə	phalanx (knuckle length)	phalanx (knuckle length)		1.5.8.5	13.1	0		
+131815	805	Kom Rem	kʰəp	kʰəp	hand span	hand span		1.5.9.4	13.2	0		
+131816	805	Kom Rem	kʰu◦riŋ	kʰu◦riŋ	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		307
+131817	805	Kom Rem	ləm	ləm	cord / fathom (outstretched ar	cord  /  fathom (outstretched ar		1.5.9.5	13.4	0		1310
+131818	805	Kom Rem	tʰelop	tʰelop	nose to fingertip	nose to fingertip		1.2.8	13.4.1	0		
+131819	805	Kom Rem	ləm kʰət	ləm kʰət	left fingertip to right finger	left fingertip to right finger		1.5.3.2	13.4.2	0		
+131820	805	Kom Rem	luŋ tʰim	luŋ tʰim	mind / locus of thought	mind  /  locus of thought		1.10	14.1	0		1381,m
+131821	805	Kom Rem	məluŋ	məluŋ	heart / locus of emotions	heart  /  locus of emotions		1.7.1	14.2	0		1381
+131822	805	Kom Rem	məluŋ	məluŋ	heart / locus of personality	heart  /  locus of personality		1.7.1	14.3	0		1381
+168696	805	Kom Rem	vok◦hə	vok◦hə	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		1006,m

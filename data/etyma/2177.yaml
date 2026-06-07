@@ -1,0 +1,33 @@
+tag: 2177
+grpid: 2
+proto_language: PTB
+protoform: bəw
+gloss: CARRY (ON BACK OR SHOULDERS)
+semkey: 6.2.2.2.1
+sequence: 1325.0
+status: KEEP
+public: true
+references: STC#028, HPTB pp.178, 199
+phonology:
+  handle: buw
+  initial: b
+  rhyme: əw
+  initcover: P
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: puu-I, put-II
+  gloss: CARRY (on shoulder)
+- grpid: 42
+  group: '6.1'
+  form: bəw²
+  gloss: CARRY ON BACK
+- grpid: 63
+  group: 1.3.1
+  form: pu(ʔ)
+  gloss: CARRY (SHOULDER / BACK)
+- grpid: 66
+  group: 1.3.4
+  form: wu
+  gloss: CARRY (ON SHOULDERS)

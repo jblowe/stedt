@@ -1,0 +1,15 @@
+tag: 2435
+grpid: 2
+proto_language: PTB
+protoform: -ma
+gloss: (FEM- SUFFIX)
+sequence: 1001.0
+status: DELETE
+public: false
+xrefs: '1619'
+references: 'Duplicate with #1619? STC p.96'
+phonology:
+  handle: ma
+  initial: -m
+  rhyme: a
+  rhymecover: V

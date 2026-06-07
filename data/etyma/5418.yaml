@@ -1,0 +1,26 @@
+tag: 5418
+grpid: 2
+proto_language: PTB
+protoform: mriŋ
+gloss: SOUND / NOISE / ANIMAL CRY
+semkey: '9.3'
+sequence: 3084.0
+status: KEEP
+public: true
+references: cf. HPTB p. 307
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: riŋ-I, rin-II
+  gloss: RING / LOUD / SOUND
+notes:
+- type: T
+  text: '<par>There is a likely Chinese comparandum, GSR #827a.</par>'
+- type: F
+  text: '<par><hanform>鳴</hanform> OC <latinform>*mi̯ĕng</latinform>, GSR #827a-c; Schuessler 2007:388
+    <latinform>*mreŋ</latinform>; B &amp; S 2011: <latinform>*m.reŋ</latinform>; Mand. <latinform>míng</latinform>
+    &apos;cry (of birds; also, of animals in general)&apos;.<br /><hanform>笙</hanform> OC <latinform>*sĕng</latinform>,
+    GSR #812h &apos;reed-organ&apos;; Schuessler 2007:460 <latinform>*srêŋ</latinform>; B &amp; S 2011:
+    (<latinform>*sreŋ</latinform>); Mand. <latinform>shēng</latinform>.<br /><hanform>鈴</hanform> OC <latinform>*lieng</latinform>,
+    GSR #823r &apos;small bell&apos;; Schuessler 2007:360-1 <latinform>*rêŋ</latinform>; B &amp; S 2011:
+    (<latinform>*reŋ</latinform>); Mand. <latinform>líng</latinform>.</par>'

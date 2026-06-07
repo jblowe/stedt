@@ -1,0 +1,205 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+14676	747	Karen (Sgaw/Yue)	kʰo³¹	kʰo³¹	head	head		1.2.1	99	0		386
+14677	747	Karen (Sgaw/Yue)	kʰo³¹ θu⁵⁵	kʰo³¹ θu⁵⁵	hair (head)	hair (head)		1.2.3	100	0		386,5634
+14678	747	Karen (Sgaw/Yue)	θi³¹ kʰo³¹ θu⁵⁵	θi³¹ kʰo³¹ θu⁵⁵	braid (hair)	braid (hair)	n	1.2.3.2	101	0		7237,386,5634
+14679	747	Karen (Sgaw/Yue)	mɛ̱ʔ³¹ kʰo³¹ θu⁵⁵	mɛ̱ʔ³¹ kʰo³¹ θu⁵⁵	eyebrow	eyebrow		1.2.6.6	103	0		682,386,5634
+14680	747	Karen (Sgaw/Yue)	mɛ̱³¹ kʰli⁵⁵	mɛ̱³¹ kʰli⁵⁵	eye	eye		1.2.6	104	0		682,m
+14681	747	Karen (Sgaw/Yue)	na⁵⁵ se³³	na⁵⁵ se³³	nose	nose		1.2.8	106	0		803,m
+14682	747	Karen (Sgaw/Yue)	na³¹	na³¹	ear	ear		1.2.7	107	0		811
+14683	747	Karen (Sgaw/Yue)	mɛ̱ʔ³¹ θa³¹	mɛ̱ʔ³¹ θa³¹	face	face		1.2.5	108	0		682,2034
+14684	747	Karen (Sgaw/Yue)	bɔ̱ʔ⁵⁵ pa³³	bɔ̱ʔ⁵⁵ pa³³	cheek	cheek		1.2.5.2	109	0		268,s
+14685	747	Karen (Sgaw/Yue)	ko³¹ pu³³	ko³¹ pu³³	mouth	mouth		1.3.1	110	0		468,476
+14686	747	Karen (Sgaw/Yue)	nɔ̱ʔ⁵⁵ pʰoʔ⁵⁵	nɔ̱ʔ⁵⁵ pʰoʔ⁵⁵	lip	lip		1.3.2	111	0		471,m
+14687	747	Karen (Sgaw/Yue)	nɔ̱ʔ⁵⁵ sʰu³¹	nɔ̱ʔ⁵⁵ sʰu³¹	beard	beard		1.2.5.5	112	0		471,5634
+14688	747	Karen (Sgaw/Yue)	kʰa³¹ sʰu³¹	kʰa³¹ sʰu³¹	whiskers	whiskers		1.2.5.5	113	0		273,m
+14689	747	Karen (Sgaw/Yue)	kʰa³¹	kʰa³¹	lower jaw, chin	lower jaw, chin			114	0		273
+14690	747	Karen (Sgaw/Yue)	ko³¹ bo̱⁵⁵	ko³¹ bo̱⁵⁵	neck	neck		1.4.2	115	0		486,484
+14691	747	Karen (Sgaw/Yue)	pʰi⁵⁵ na⁵⁵ kʰo³¹	pʰi⁵⁵ na⁵⁵ kʰo³¹	shoulder	shoulder		1.4.3	117	0		563,m,3350
+14692	747	Karen (Sgaw/Yue)	plo³¹	plo³¹	back (body)	back (body)		1.4.8	118	0		209
+14693	747	Karen (Sgaw/Yue)	θi³¹ la̱ʔ³¹	θi³¹ la̱ʔ³¹	armpit	armpit		1.5.1.2.3	119.1	0		
+14694	747	Karen (Sgaw/Yue)	ti³¹ la̱ʔ³¹	ti³¹ la̱ʔ³¹	armpit	armpit		1.5.1.2.3	119.2	0		
+14695	747	Karen (Sgaw/Yue)	θa̱ʔ⁵⁵ na⁵⁵ pua³¹	θa̱ʔ⁵⁵ na⁵⁵ pua³¹	chest	chest		1.4.4.3	120	0		32,556,288
+14696	747	Karen (Sgaw/Yue)	hɛ⁵⁵ pʰɛ⁵⁵	hɛ⁵⁵ pʰɛ⁵⁵	belly	belly		1.4.7	122	0		m,m
+14697	747	Karen (Sgaw/Yue)	de̱⁵⁵	de̱⁵⁵	navel	navel		1.9.4	123	0		519
+14698	747	Karen (Sgaw/Yue)	jɔ³¹ de̱⁵⁵	jɔ³¹ de̱⁵⁵	waist	waist		1.4.6	124	0		339,3340
+14699	747	Karen (Sgaw/Yue)	ki³¹ du̱³¹	ki³¹ du̱³¹	thigh	thigh		1.5.7.1	126.1	0		
+14700	747	Karen (Sgaw/Yue)	tɕi³¹ du̱³¹	tɕi³¹ du̱³¹	thigh	thigh		1.5.7.1	126.2	0		
+14701	747	Karen (Sgaw/Yue)	mɔ⁵⁵ kɛ⁵⁵ θa³¹	mɔ⁵⁵ kɛ⁵⁵ θa³¹	knee	knee		1.5.8.4	127	0		
+14702	747	Karen (Sgaw/Yue)	kʰɔ³¹ du̱³¹ θa³¹	kʰɔ³¹ du̱³¹ θa³¹	calf (leg)	calf (leg)		1.5.7	128	0		336,m,m
+14703	747	Karen (Sgaw/Yue)	kʰɔ³¹	kʰɔ³¹	foot	foot		1.5.2	129	0		336
+14704	747	Karen (Sgaw/Yue)	kʰɔ³¹ mɛ̱ʔ³¹ kʰli⁵⁵	kʰɔ³¹ mɛ̱ʔ³¹ kʰli⁵⁵	ankle (jiaohuai)	ankle (jiaohuai)		1.5.8.2	130	0		
+14705	747	Karen (Sgaw/Yue)	su⁵⁵	su⁵⁵	arm	arm		1.5.1.2	131	0		731
+14706	747	Karen (Sgaw/Yue)	su⁵⁵ mɛ̱ʔ³¹ kʰli⁵⁵	su⁵⁵ mɛ̱ʔ³¹ kʰli⁵⁵	elbow	elbow		1.5.8.3	132	0		
+14707	747	Karen (Sgaw/Yue)	su⁵⁵	su⁵⁵	hand	hand		1.5.1.1	133	0		731
+14708	747	Karen (Sgaw/Yue)	su⁵⁵ de̱⁵⁵ kɔ̱ʔ⁵⁵	su⁵⁵ de̱⁵⁵ kɔ̱ʔ⁵⁵	wrist	wrist		1.5.8.1	134	0		
+14709	747	Karen (Sgaw/Yue)	su⁵⁵ mu³¹	su⁵⁵ mu³¹	finger	finger		1.5.6	135	0		
+14710	747	Karen (Sgaw/Yue)	su⁵⁵ mu³¹ do³¹	su⁵⁵ mu³¹ do³¹	thumb	thumb		1.5.6.1	136	0		
+14711	747	Karen (Sgaw/Yue)	su⁵⁵ ju̱ʔ³¹	su⁵⁵ ju̱ʔ³¹	index finger	index finger		1.0	137	0		
+14712	747	Karen (Sgaw/Yue)	su⁵⁵ kʰɛ³¹ θa̱ʔ³¹	su⁵⁵ kʰɛ³¹ θa̱ʔ³¹	middle finger	middle finger		1.9.4	138	0		
+14713	747	Karen (Sgaw/Yue)	su⁵⁵ mu³¹ kʰlɛ³¹	su⁵⁵ mu³¹ kʰlɛ³¹	middle finger	middle finger		1.9.4	138.2	0		
+14714	747	Karen (Sgaw/Yue)	su⁵⁵ de̱⁵⁵	su⁵⁵ de̱⁵⁵	ring finger	ring finger		1.5.6.2	139	0		
+14715	747	Karen (Sgaw/Yue)	su⁵⁵ sʰa³¹	su⁵⁵ sʰa³¹	little finger	little finger		9.7.2	140	0		
+14716	747	Karen (Sgaw/Yue)	su⁵⁵ me³¹	su⁵⁵ me³¹	fingernail	fingernail		1.5.10.1	141	0		
+14717	747	Karen (Sgaw/Yue)	su⁵⁵ kʰo³¹	su⁵⁵ kʰo³¹	fist	fist		1.5.1.1.1	142	0		731,m
+14718	747	Karen (Sgaw/Yue)	de̱⁵⁵ bo̱⁵⁵	de̱⁵⁵ bo̱⁵⁵	umbilical cord	umbilical cord			148	0		519,m
+14719	747	Karen (Sgaw/Yue)	pʰi̱ʔ⁵⁵	pʰi̱ʔ⁵⁵	skin	skin		1.6.5	150	0		590
+14720	747	Karen (Sgaw/Yue)	tõ̱⁵⁵	tõ̱⁵⁵	wrinkles	wrinkles		9.6.2	151	0		
+14721	747	Karen (Sgaw/Yue)	sʰu³¹	sʰu³¹	body hair	body hair		1.6.1	152	0		5634
+14722	747	Karen (Sgaw/Yue)	mɛ³¹	mɛ³¹	hemorrhoids	hemorrhoids		1.4.10.2	153	0		
+14723	747	Karen (Sgaw/Yue)	ta³¹ ȵa³¹	ta³¹ ȵa³¹	flesh	flesh		1.1.1.1	159	0		p,35
+14724	747	Karen (Sgaw/Yue)	ta³¹ θui³¹	ta³¹ θui³¹	blood	blood		1.6.2	160	0		p,230
+14725	747	Karen (Sgaw/Yue)	ta³¹ nu³¹ tʰi⁵⁵	ta³¹ nu³¹ tʰi⁵⁵	milk	milk			161	0		m,253,298
+14726	747	Karen (Sgaw/Yue)	ɣi³¹	ɣi³¹	muscle	muscle		1.6.6.2	162	0		533
+14727	747	Karen (Sgaw/Yue)	kʰo³¹ nu̱ʔ⁵⁵	kʰo³¹ nu̱ʔ⁵⁵	brain (marrow)	brain (marrow)		1.2.4	164	0		386,243
+14728	747	Karen (Sgaw/Yue)	xi⁵⁵	xi⁵⁵	bone	bone		1.6.3	165	0		233
+14729	747	Karen (Sgaw/Yue)	xi⁵⁵ ki³¹	xi⁵⁵ ki³¹	marrow	marrow		1.6.3.5	166.1	0		234,459
+14730	747	Karen (Sgaw/Yue)	xi⁵⁵ θo⁵⁵	xi⁵⁵ θo⁵⁵	marrow	marrow		1.6.3.5	166.2	0		234,42
+14731	747	Karen (Sgaw/Yue)	ɣu̱ʔ⁵⁵ xi⁵⁵	ɣu̱ʔ⁵⁵ xi⁵⁵	rib	rib		1.4.4.3	168	0		288,233
+14732	747	Karen (Sgaw/Yue)	mɛ⁵⁵	mɛ⁵⁵	tooth	tooth		1.3.4	170	0		1187
+14733	747	Karen (Sgaw/Yue)	ple³³	ple³³	tongue	tongue		1.3.3	172	0		621
+14734	747	Karen (Sgaw/Yue)	ple³³ pʰo⁵⁵	ple³³ pʰo⁵⁵	uvula	uvula		1.3.5.1	173	0		
+14735	747	Karen (Sgaw/Yue)	kɔ³¹ ju³¹	kɔ³¹ ju³¹	throat	throat		1.3.5	175	0		3361,627
+14736	747	Karen (Sgaw/Yue)	pă³¹ θo³¹	pă³¹ θo³¹	lungs	lungs		1.7.2	178	0		
+14737	747	Karen (Sgaw/Yue)	θa̱ʔ⁵⁵ pʰlɛ³¹	θa̱ʔ⁵⁵ pʰlɛ³¹	heart	heart		1.7.1	179	0		32,1381
+14738	747	Karen (Sgaw/Yue)	θu³¹	θu³¹	liver	liver		1.7.3	180	0		1390
+14739	747	Karen (Sgaw/Yue)	pă³¹ le³¹	pă³¹ le³¹	kidneys	kidneys		1.7.5	181	0		
+14740	747	Karen (Sgaw/Yue)	θă³¹ di̱⁵⁵	θă³¹ di̱⁵⁵	gall bladder	gall bladder		1.7.3	183	0		
+14741	747	Karen (Sgaw/Yue)	pu̱iʔ³¹	pu̱iʔ³¹	intestines	intestines		1.7.7	184	0		575
+14742	747	Karen (Sgaw/Yue)	kă³¹ |pʰu⁵⁵	kă³¹ pʰu⁵⁵	stomach	stomach		1.7.6	185	0	D0	2103
+14743	747	Karen (Sgaw/Yue)	e³¹	e³¹	feces	feces		1.8.5	187	0		576
+14744	747	Karen (Sgaw/Yue)	sʰi³¹	sʰi³¹	urine	urine		1.8.4	188	0		650
+14745	747	Karen (Sgaw/Yue)	kă³¹ pɛ³³	kă³¹ pɛ³³	sweat	sweat		1.8.1	190	0		615,m
+14746	747	Karen (Sgaw/Yue)	kă³¹ ha̱ʔ⁵⁵	kă³¹ ha̱ʔ⁵⁵	phlegm	phlegm		1.8.3	191	0		
+14747	747	Karen (Sgaw/Yue)	na⁵⁵ e³¹ tʰi⁵⁵	na⁵⁵ e³¹ tʰi⁵⁵	mucus	mucus		1.8.2	193	0		
+14748	747	Karen (Sgaw/Yue)	mɛ̱ʔ³¹ tʰi⁵⁵	mɛ̱ʔ³¹ tʰi⁵⁵	tears	tears		1.2.6.7	194	0		682,298
+14749	747	Karen (Sgaw/Yue)	pʰi⁵⁵	pʰi⁵⁵	pus	pus		1.8.6.1	195	0		1292
+14750	747	Karen (Sgaw/Yue)	ta³¹ kă³¹ to³³	ta³¹ kă³¹ to³³	speech	speech		1.8.7	198	0		
+14751	747	Karen (Sgaw/Yue)	θa̱ʔ⁵⁵	θa̱ʔ⁵⁵	breath	breath		1.1.2.2	199	0		32
+14752	747	Karen (Sgaw/Yue)	θa̱ʔ⁵⁵ θă³¹ mu⁵⁵	θa̱ʔ⁵⁵ θă³¹ mu⁵⁵	life	life		1.1.2.1	201	0		32,32,62
+14753	747	Karen (Sgaw/Yue)	mɛ̱ʔ³¹ kʰli⁵⁵ blɔ³¹	mɛ̱ʔ³¹ kʰli⁵⁵ blɔ³¹	blind person	blind person		1.2.6.14.2	259	0		682,m,1239
+14754	747	Karen (Sgaw/Yue)	pua³³ ka³¹ kʰɔ³¹	pua³³ ka³¹ kʰɔ³¹	lame person	lame person		1.5.12	260	0		
+14755	747	Karen (Sgaw/Yue)	nɛ³³	nɛ³³	horn	horn		1.2.2	329	0		2009
+14756	747	Karen (Sgaw/Yue)	kʰɔ³¹	kʰɔ³¹	hoof	hoof		1.5.4	330	0		417
+14757	747	Karen (Sgaw/Yue)	pʰi̱ʔ⁵⁵	pʰi̱ʔ⁵⁵	skin (animal)	skin (animal)		1.6.5	331	0		590
+14758	747	Karen (Sgaw/Yue)	a³¹ sʰu³¹	a³¹ sʰu³¹	hair (animal)	hair (animal)		1.2.3	332	0		p,5634
+14759	747	Karen (Sgaw/Yue)	e³¹	e³¹	excrement (animal)	excrement (animal)		1.8.5	333	0		576
+14760	747	Karen (Sgaw/Yue)	mɛ³¹	mɛ³¹	tail	tail		1.4.10.1	334	0		1288
+14761	747	Karen (Sgaw/Yue)	sʰɔ⁵⁵ kʰɔ³¹ pă³¹ θu³¹	sʰɔ⁵⁵ kʰɔ³¹ pă³¹ θu³¹	cockscomb	cockscomb		1.2.2.1	369	0		
+14762	747	Karen (Sgaw/Yue)	a³¹ di̱ʔ⁵⁵	a³¹ di̱ʔ⁵⁵	wing	wing		1.5.1.3	370	0		p,773
+14763	747	Karen (Sgaw/Yue)	sʰu³¹	sʰu³¹	feathers	feathers		1.6.1.1	371	0		
+14764	747	Karen (Sgaw/Yue)	a³¹ ȵa³¹	a³¹ ȵa³¹	meat	meat		1.1.1.1	584	0		p,35
+14765	747	Karen (Sgaw/Yue)	ta³¹ θɔ⁵⁵	ta³¹ θɔ⁵⁵	fatty meat	fatty meat		1.6.4	588	0		47,42
+14766	747	Karen (Sgaw/Yue)	ta³¹ ȵa³¹	ta³¹ ȵa³¹	lean meat	lean meat		1.1.1	589	0		p,44
+14767	747	Karen (Sgaw/Yue)	θo⁵⁵	θo⁵⁵	oil	oil		1.6.4.1	590	0		60
+14768	747	Karen (Sgaw/Yue)	di̱³¹	di̱³¹	egg	egg			604	0		300
+14769	747	Karen (Sgaw/Yue)	ta³¹ tă³¹ rɛ⁵⁵	ta³¹ tă³¹ rɛ⁵⁵	ghost	ghost		4.2.12.2	962.1	0		
+14770	747	Karen (Sgaw/Yue)	ta³¹ tă³¹ xa̱ʔ³¹	ta³¹ tă³¹ xa̱ʔ³¹	ghost	ghost		4.2.12.2	962.2	0		
+14771	747	Karen (Sgaw/Yue)	ɣi³¹ ba̱⁵⁵	ɣi³¹ ba̱⁵⁵	energy	energy		1.1.4	982	0		
+14772	747	Karen (Sgaw/Yue)	kă³¹ du̱⁵⁵	kă³¹ du̱⁵⁵	shadow	shadow		3.2.10	1028	0		
+14773	747	Karen (Sgaw/Yue)	mi⁵⁵ mɔ³¹	mi⁵⁵ mɔ³¹	dream	dream		1.1.4.2	1029	0	D1	130,126
+14774	747	Karen (Sgaw/Yue)	a³¹ kʰə³¹ θa̱ʔ⁵⁵	a³¹ kʰə³¹ θa̱ʔ⁵⁵	center	center		1.9.4	1043	0		
+14775	747	Karen (Sgaw/Yue)	su⁵⁵ se³¹	su⁵⁵ se³¹	left	left		1.5.3.2	1045	0		m,5624
+14776	747	Karen (Sgaw/Yue)	su⁵⁵ tʰuɛ⁵⁵	su⁵⁵ tʰuɛ⁵⁵	right	right		1.5.3.2	1046	0		
+14777	747	Karen (Sgaw/Yue)	mɛ̱ʔ³¹ ȵa³³	mɛ̱ʔ³¹ ȵa³³	front	front		1.4.4	1047	0		m,m
+14778	747	Karen (Sgaw/Yue)	lɔ³¹ kʰi⁵⁵	lɔ³¹ kʰi⁵⁵	back	back		1.4.8	1048	0		
+14779	747	Karen (Sgaw/Yue)	buɛ³³	buɛ³³	full (man)	full (man)		1.1.3.2	1426	0		100
+14780	747	Karen (Sgaw/Yue)	kă³¹ tu³¹	kă³¹ tu³¹	wrinkled	wrinkled		9.6.2	1438	0		
+14781	747	Karen (Sgaw/Yue)	bɔ̱³¹	bɔ̱³¹	fat (person)	fat (person)		1.6.4	1472	0		50
+14782	747	Karen (Sgaw/Yue)	bɔ̱³¹	bɔ̱³¹	fat (pig)	fat (pig)		1.6.4	1473	0		50
+14783	747	Karen (Sgaw/Yue)	xɛ³³	xɛ³³	thin (person)	thin (person)		9.7.2	1474	0		
+14784	747	Karen (Sgaw/Yue)	bɛ̱⁵⁵	bɛ̱⁵⁵	greasy	greasy		7.1.4.2	1535	0		
+14785	747	Karen (Sgaw/Yue)	mu⁵⁵	mu⁵⁵	alive	alive		1.1.2.1	1546	0		62
+14786	747	Karen (Sgaw/Yue)	θi⁵⁵	θi⁵⁵	dead	dead		1.1.6	1547	0		27
+14787	747	Karen (Sgaw/Yue)	lɛ⁵⁵ ɔ³¹	lɛ⁵⁵ ɔ³¹	full (from eating)	full (from eating)		1.1.3.2	1652	0		138,1833
+14788	747	Karen (Sgaw/Yue)	pi³¹	pi³¹	close (mouth)	close (mouth)		6.2.2.6.2	1664	0		5709
+14789	747	Karen (Sgaw/Yue)	bi̱³¹	bi̱³¹	close (mouth)	close (mouth)		6.2.2.6.2	1664.1	0		5709
+14790	747	Karen (Sgaw/Yue)	sʰa⁵⁵	sʰa⁵⁵	sick	sick		1.1.5.1	1678	0		1844
+14791	747	Karen (Sgaw/Yue)	θa⁵⁵ wi̱³¹	θa⁵⁵ wi̱³¹	sing	sing		5.1	1704	0		32
+14792	747	Karen (Sgaw/Yue)	ɔ³¹	ɔ³¹	eat	eat		1.5.3.2	1722	0		487
+14793	747	Karen (Sgaw/Yue)	u̱⁵⁵	u̱⁵⁵	blow (trumpet)	blow (trumpet)		1.3.1.4	1748	0		503
+14794	747	Karen (Sgaw/Yue)	u̱⁵⁵	u̱⁵⁵	blow (dust)	blow (dust)		1.3.1.4	1749	0		503
+14795	747	Karen (Sgaw/Yue)	θa⁵⁵ tʰɔ³¹	θa⁵⁵ tʰɔ³¹	gasp, pant	gasp, pant	v	1.1.2.2	1752	0		32,m
+14796	747	Karen (Sgaw/Yue)	sʰɛ̱⁵⁵	sʰɛ̱⁵⁵	sneeze	sneeze		1.8.2.1	1782	0		
+14797	747	Karen (Sgaw/Yue)	mi⁵⁵ kʰe⁵⁵	mi⁵⁵ kʰe⁵⁵	nap (take)	nap (take)	v	6.21	1783	0		
+14798	747	Karen (Sgaw/Yue)	tă³¹ ɔ̱⁵⁵	tă³¹ ɔ̱⁵⁵	yawn	yawn		1.3.1.3	1785	0		
+14799	747	Karen (Sgaw/Yue)	tă³¹ kɔ̱⁵⁵	tă³¹ kɔ̱⁵⁵	yawn	yawn		1.3.1.3	1785.1	0		
+14800	747	Karen (Sgaw/Yue)	θa³³ tă³¹ ku̱ʔ⁵⁵	θa³³ tă³¹ ku̱ʔ⁵⁵	hiccup / belch	hiccup  /  belch		1.8.3.5	1786	0		32
+14801	747	Karen (Sgaw/Yue)	i³¹	i³¹	bite, sting (mosquito)	bite, sting (mosquito)		1.3.4.4	1828	0		
+14802	747	Karen (Sgaw/Yue)	pʰa̱ʔ⁵⁵	pʰa̱ʔ⁵⁵	read (book)	read (book)		6.2.2.9.3	1841	0		b?
+14803	747	Karen (Sgaw/Yue)	θa³³ wi³³	θa³³ wi³³	hungry	hungry		1.1.3	1858	0		32,113
+14804	747	Karen (Sgaw/Yue)	kă³¹ nɔ̱ʔ⁵⁵	kă³¹ nɔ̱ʔ⁵⁵	tremble	tremble		6.7.3	1864	0		
+14805	747	Karen (Sgaw/Yue)	ta³¹ ko³¹ tʰɔ³¹	ta³¹ ko³¹ tʰɔ³¹	fever (have)	fever (have)	v	1.1.5.1	1866	0		
+14806	747	Karen (Sgaw/Yue)	ju³³	ju³³	fly	fly		2.2.6	1891	0		
+14807	747	Karen (Sgaw/Yue)	plu³¹	plu³¹	insane	insane		8.3.1.11.3	1897	0		
+14808	747	Karen (Sgaw/Yue)	u̱ʔ⁵⁵	u̱ʔ⁵⁵	incubate	incubate		1.9.1.2	1899	0		2767
+14809	747	Karen (Sgaw/Yue)	ba̱³¹ tă³¹ mu³¹	ba̱³¹ tă³¹ mu³¹	cold (have)	cold (have)	v	7.1.2.3	1910	0		
+14810	747	Karen (Sgaw/Yue)	kɔ̱⁵⁵	kɔ̱⁵⁵	call (to someone)	call (to someone)		8.5.13	1960	0		
+14811	747	Karen (Sgaw/Yue)	ɔ⁵⁵	ɔ⁵⁵	drink	drink			1964	0		1713
+14812	747	Karen (Sgaw/Yue)	o⁵⁵	o⁵⁵	drink	drink			1964.1	0		1713
+14813	747	Karen (Sgaw/Yue)	tă³¹ u⁵⁵	tă³¹ u⁵⁵	hum	hum		8.5.5	1970	0		32,5452
+14814	747	Karen (Sgaw/Yue)	do⁵⁵	do⁵⁵	pregnant	pregnant		1.9.6.1	1981	0		m
+14815	747	Karen (Sgaw/Yue)	kɔ̱⁵⁵	kɔ̱⁵⁵	call (to animal) (huan)	call (to animal) (huan)		8.5.13	1986	0		
+14816	747	Karen (Sgaw/Yue)	tɛ⁵⁵	tɛ⁵⁵	tell (story)	tell (story)		1.8.7	2035	0		
+14817	747	Karen (Sgaw/Yue)	xə³³	xə³³	tell (story)	tell (story)		1.8.7	2035.1	0		
+14818	747	Karen (Sgaw/Yue)	ɣi̱ʔ³¹	ɣi̱ʔ³¹	chew	chew		1.3.4	2041	0		
+14819	747	Karen (Sgaw/Yue)	o³¹ o⁵⁵	o³¹ o⁵⁵	crow (rooster)	crow (rooster)		2.2.4.1	2042	0		
+14820	747	Karen (Sgaw/Yue)	kă³¹ tɔ³³	kă³¹ tɔ³³	cackle (hen)	cackle (hen)		8.5.5	2043	0		
+14821	747	Karen (Sgaw/Yue)	kɔ̱ʔ⁵⁵	kɔ̱ʔ⁵⁵	call (cat)	call (cat)		8.5.13	2044	0		o
+14822	747	Karen (Sgaw/Yue)	kɔ̱ʔ⁵⁵	kɔ̱ʔ⁵⁵	bray (donkey)	bray (donkey)		8.5.4.1	2045	0		w
+14823	747	Karen (Sgaw/Yue)	kɔ̱ʔ⁵⁵	kɔ̱ʔ⁵⁵	neigh (horse)	neigh (horse)		8.5.5	2046	0		
+14824	747	Karen (Sgaw/Yue)	kɔ̱ʔ⁵⁵	kɔ̱ʔ⁵⁵	call (cow)	call (cow)		8.5.13	2047	0		
+14825	747	Karen (Sgaw/Yue)	mɔ³³	mɔ³³	bark (dog)	bark (dog)		2.1.11.1	2048	0		
+14826	747	Karen (Sgaw/Yue)	θa⁵⁵ pu̱ʔ³¹	θa⁵⁵ pu̱ʔ³¹	grunt (pig)	grunt (pig)		2.1.11.1	2049	0		
+14827	747	Karen (Sgaw/Yue)	kɔ̱ʔ⁵⁵	kɔ̱ʔ⁵⁵	call (sheep)	call (sheep)		8.5.13	2050	0		
+14828	747	Karen (Sgaw/Yue)	kɔ̱ʔ⁵⁵	kɔ̱ʔ⁵⁵	roar (tiger)	roar (tiger)		8.5.5	2051	0		o
+14829	747	Karen (Sgaw/Yue)	kɔ̱ʔ⁵⁵	kɔ̱ʔ⁵⁵	roar (lion)	roar (lion)		8.5.5	2052	0		o
+14830	747	Karen (Sgaw/Yue)	kɔ̱ʔ⁵⁵	kɔ̱ʔ⁵⁵	howl (wolf)	howl (wolf)		8.5.5	2053	0		
+14831	747	Karen (Sgaw/Yue)	kɔ̱ʔ⁵⁵	kɔ̱ʔ⁵⁵	call (name)	call (name)		8.5.13	2054	0		
+14832	747	Karen (Sgaw/Yue)	tʰi³¹ li⁵⁵	tʰi³¹ li⁵⁵	see	see		1.2.6.10	2103	0		m,m
+14833	747	Karen (Sgaw/Yue)	ku̱ʔ⁵⁵	ku̱ʔ⁵⁵	cough	cough		1.8.3.3	2111	0		1795
+14834	747	Karen (Sgaw/Yue)	xe⁵⁵	xe⁵⁵	thirsty	thirsty		1.1.3.1	2112	0		3298
+14835	747	Karen (Sgaw/Yue)	e³¹	e³¹	gnaw	gnaw		1.3.4.4	2115	0		576
+14836	747	Karen (Sgaw/Yue)	hɔ³¹	hɔ³¹	cry	cry		1.8.8.2	2118	0		m
+14837	747	Karen (Sgaw/Yue)	bui̱ʔ⁵⁵	bui̱ʔ⁵⁵	tired	tired		9.6.2.2	2061	0		
+14838	747	Karen (Sgaw/Yue)	tă³¹ ə⁵⁵	tă³¹ ə⁵⁵	deaf	deaf		1.2.7.5	2160	0		p,7282
+14839	747	Karen (Sgaw/Yue)	mi⁵⁵ mɔ³¹	mi⁵⁵ mɔ³¹	dream	dream		1.1.4.2	2171	0	HIDE	DUPE IN SOURCE
+14840	747	Karen (Sgaw/Yue)	bi̱³¹	bi̱³¹	narrow eyes; squint	narrow eyes; squint		9.7.2	2179	0		
+14841	747	Karen (Sgaw/Yue)	pue³³	pue³³	call (bird) (ming)	call (bird) (ming)		8.5.13	2180	0		
+14842	747	Karen (Sgaw/Yue)	bɔ̱ʔ⁵⁵	bɔ̱ʔ⁵⁵	vomit	vomit		1.8.3.2	2202	0		1145
+14843	747	Karen (Sgaw/Yue)	bla̱⁵⁵	bla̱⁵⁵	cured (illness)	cured (illness)	be v.	1.1.5.1	2265	0		
+14844	747	Karen (Sgaw/Yue)	bla̱⁵⁵	bla̱⁵⁵	heal (wound)	heal (wound)		1.1.5.1	2266	0		
+14845	747	Karen (Sgaw/Yue)	di̱ʔ⁵⁵	di̱ʔ⁵⁵	castrate	castrate		1.9.2.3	2303	0		m
+14846	747	Karen (Sgaw/Yue)	o̱³¹ pʰlɛ³¹	o̱³¹ pʰlɛ³¹	birth, give	birth, give	v	1.1.2	2320	0		3482,70
+14847	747	Karen (Sgaw/Yue)	si̱ʔ⁵⁵ sa³¹	si̱ʔ⁵⁵ sa³¹	birth, give	birth, give	v	1.1.2	2320.1	0		3485,m
+14848	747	Karen (Sgaw/Yue)	mi⁵⁵	mi⁵⁵	sleep	sleep		1.1.4.1	2357	0		130
+14849	747	Karen (Sgaw/Yue)	mi⁵⁵ ne³¹	mi⁵⁵ ne³¹	asleep	asleep		1.1.4.1	2359	0		130,m
+14850	747	Karen (Sgaw/Yue)	tɛ⁵⁵	tɛ⁵⁵	speak	speak		8.5.10.1	2361	0		
+14851	747	Karen (Sgaw/Yue)	θi⁵⁵	θi⁵⁵	die	die		1.1.6	2363	0		27
+14852	747	Karen (Sgaw/Yue)	θi³¹	θi³¹	sore (leg)	sore (leg)		1.1.5.1	2368	0		
+14853	747	Karen (Sgaw/Yue)	sʰa⁵⁵	sʰa⁵⁵	ache (teng)	ache (teng)		1.1.5.1	2391	0		1844
+14854	747	Karen (Sgaw/Yue)	le³¹	le³¹	lick	lick		1.3.3.1	2401	0		629
+14855	747	Karen (Sgaw/Yue)	si³¹	si³¹	beat (pulse)	beat (pulse)		6.8	2407	0		
+14856	747	Karen (Sgaw/Yue)	kă³¹|na³¹	kă³¹|na³¹	listen	listen		1.2.7.4	2409	0		811
+14857	747	Karen (Sgaw/Yue)	na³¹ hu⁵⁵	na³¹ hu⁵⁵	hear	hear		1.2.7.4	2410	0		811,m
+14858	747	Karen (Sgaw/Yue)	ju̱ʔ³¹	ju̱ʔ³¹	swallow	swallow	v	1.3.5.6	2416	0		627
+14859	747	Karen (Sgaw/Yue)	tʰu³¹	tʰu³¹	spit	spit		1.8.3	2421	0		601
+14860	747	Karen (Sgaw/Yue)	nə⁵⁵	nə⁵⁵	smell (with nose)	smell (with nose)		1.2.8.5	2450	0		1415
+14861	747	Karen (Sgaw/Yue)	θa³¹ kă³¹ li³¹	θa³¹ kă³¹ li³¹	inhale	inhale		1.1.2.2	2456	0		32
+14862	747	Karen (Sgaw/Yue)	pʰui⁵⁵	pʰui⁵⁵	birth, give (pig)	birth, give  (pig)		1.1.2	2467	0		1811
+14863	747	Karen (Sgaw/Yue)	di̱³¹	di̱³¹	lay egg	lay egg		6.17	2468	0		300
+14864	747	Karen (Sgaw/Yue)	ni³³	ni³³	laugh	laugh		1.8.8.1	2492	0		1105
+14865	747	Karen (Sgaw/Yue)	pə³³ tʰɔ³¹	pə³³ tʰɔ³¹	wake	wake		1.1.4	2498	0		p,142
+14866	747	Karen (Sgaw/Yue)	o̱³¹ bui̱⁵⁵	o̱³¹ bui̱⁵⁵	rest	rest		1.1.4.1	2499	0		
+14867	747	Karen (Sgaw/Yue)	di̱ʔ⁵⁵	di̱ʔ⁵⁵	caponize	caponize		2.4.1	2509	0		m
+14868	747	Karen (Sgaw/Yue)	θa̱ʔ⁵⁵	θa̱ʔ⁵⁵	itch	itch		1.6.5.5	2515	0		1457
+14869	747	Karen (Sgaw/Yue)	i³¹	i³¹	bite	bite		1.3.4.4	2521	0		
+14870	747	Karen (Sgaw/Yue)	kʰo³¹ mu³³	kʰo³¹ mu³³	dizzy	dizzy		8.3.1.11.3	2550	0		
+14871	747	Karen (Sgaw/Yue)	pʰla̱ʔ⁵⁵	pʰla̱ʔ⁵⁵	blink	blink		1.2.6.12	2563	0		m
+14872	747	Karen (Sgaw/Yue)	ɔ⁵⁵	ɔ⁵⁵	open (mouth)	open (mouth)		6.2.2.6.1	2571	0		
+14873	747	Karen (Sgaw/Yue)	puɛ³³	puɛ³³	bloat (belly) (zhang)	bloat (belly) (zhang)		1.4.7	2574	0		
+14874	747	Karen (Sgaw/Yue)	ta³¹ kʰu³¹	ta³¹ kʰu³¹	nervous	nervous		8.3.1.5.5	2577	0		
+14875	747	Karen (Sgaw/Yue)	i³¹	i³¹	sting	sting	v	2.4.2	2583	0		
+14876	747	Karen (Sgaw/Yue)	u̱ʔ³¹ tʰɔ³¹	u̱ʔ³¹ tʰɔ³¹	open (eyes)	open (eyes)		6.2.2.6.1	2584	0		
+14877	747	Karen (Sgaw/Yue)	o̱ʔ⁵⁵ tʰɔ³¹	o̱ʔ⁵⁵ tʰɔ³¹	open (eyes)	open (eyes)		6.2.2.6.1	2584.1	0		
+14878	747	Karen (Sgaw/Yue)	nɔ̱ʔ⁵⁵	nɔ̱ʔ⁵⁵	swell up	swell up		1.1.5.2	2595	0		
+14879	747	Karen (Sgaw/Yue)	mu³³	mu³³	drunk	drunk		1.3.5.9	2621	0		7298

@@ -1,0 +1,17 @@
+tag: 2713
+grpid: 2
+proto_language: PTB
+protoform: r-tul
+gloss: ROLL UP / WRAP
+semkey: 6.7.6
+sequence: 5.0
+status: KEEP
+public: true
+references: cf. STC p.110, HPTB pp. 127, 129, 415
+phonology:
+  handle: r-tu
+  prefix: r
+  initial: )t
+  rhyme: ul=r-tul
+  initcover: T
+  rhymecover: VLT

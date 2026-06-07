@@ -1,0 +1,21 @@
+tag: 2741
+grpid: 2
+proto_language: PTB
+protoform: tsow-t
+gloss: PIERCE / THORN / PLANT (v.) / ERECT
+semkey: 6.9.2
+sequence: 1.0
+status: KEEP
+public: true
+references: cf. STC#276, HPTB pp. 30, 222, 223, 224, 227, 454, 515, 529
+phonology:
+  handle: tsow
+  initial: ts
+  rhyme: ow
+  initcover: TS
+  rhymecover: W
+notes:
+- type: F
+  text: '<par><hanform>鑽</hanform> OC <latinform>*tswɑ̂n</latinform>, GSR #153h- &apos;bore, perforate&apos;;
+    Schuessler 2007:636 <latinform>*tsôn</latinform>; B &amp; S 2011: <latinform>*tsˁonʔ {[ts]ˁo[n]ʔ}</latinform>;
+    Mand. <latinform>zuān</latinform>.</par>'

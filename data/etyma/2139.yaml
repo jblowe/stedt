@@ -1,0 +1,16 @@
+tag: 2139
+grpid: 2
+proto_language: PTB
+protoform: (m-)a
+gloss: DUMB (MUTE)
+semkey: 8.5.4.4
+sequence: 1736.0
+status: delete
+public: false
+references: 'duplicate of #1752'
+phonology:
+  handle: m-a
+  prefix: m
+  initial: )
+  rhyme: a
+  rhymecover: V

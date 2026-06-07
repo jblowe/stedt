@@ -1,0 +1,16 @@
+tag: 2069
+grpid: 2
+proto_language: PTB
+protoform: han
+gloss: EYE
+semkey: 1.2.6
+sequence: 7.0
+status: DELETE
+public: false
+references: '("LUI") '
+phonology:
+  handle: han
+  initial: h
+  rhyme: an
+  initcover: H
+  rhymecover: N

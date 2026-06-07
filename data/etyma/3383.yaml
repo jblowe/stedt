@@ -1,0 +1,34 @@
+tag: 3383
+grpid: 2
+proto_language: PTB
+protoform: m/s-ka-y
+gloss: GO / STRIDE / SPAN
+semkey: 6.7.2
+sequence: 2031.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#469, HPTB p. 484
+phonology:
+  handle: ka
+  initial: k
+  rhyme: a
+  initcover: K
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This etymon somewhat resembles <xref ref="1278">#1278</xref>, but should be kept separate
+    for now.</par><par>Lahu <latinform>gà</latinform> &apos;arrive&apos; reflects the nasal prefix, while
+    Lahu <latinform>qay</latinform> &apos;go&apos; reflects the palatal suffix.</par>
+- type: I
+  text: <par>what is relationship to <xref ref="273">#273</xref> ?</par>
+- type: F
+  text: '<par><hanform>騎</hanform> OC <latinform>*g’iɑ̂</latinform>, GSR #1u &apos;ride&apos;; Schuessler
+    2007:275-6 <latinform>*gai</latinform>; B &amp; S 2011: <latinform>*C.ɡaj {[C.ɡ](r)aj} ~ [Cə.ɡ](r)aj</latinform>;
+    Mand. <latinform>qí</latinform>.</par><par><hanform>絝</hanform>/<hanform>袴</hanform>/<hanform>褲</hanform>/
+    OC <latinform>*k’wo</latinform>, GSR #43h-i &apos;trousers&apos;; Schuessler 2007:337 <latinform>*khwâh</latinform>;
+    Mand. <latinform>kù</latinform>.<br /><hanform>跨</hanform> OC <latinform>*kw’ɑ̊</latinform>, GSR #43d
+    &apos;step over, pass over&apos;; Schuessler 2007: <latinform>*khwrâh</latinform>; Mand. <latinform>kuà</latinform>.<br
+    /><hanform>過</hanform> OC <latinform>*kwɑ̂</latinform>, GSR #18e &apos;pass over; go across/beyond&apos;;
+    Schuessler 2007:269 <latinform>*kôih</latinform> ~ <latinform>*kwâih</latinform>; B &amp; S 2011:
+    <latinform>*kʷˁaj</latinform>; Mand. <latinform>guò</latinform>.</par>'

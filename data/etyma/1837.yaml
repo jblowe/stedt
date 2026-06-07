@@ -1,0 +1,47 @@
+tag: 1837
+grpid: 2
+proto_language: PTB
+protoform: s(y)u-ŋ/k
+gloss: WAKE UP / MORNING / CLEAR-HEADED / SOBER UP
+semkey: 1.1.4
+sequence: 7.0
+status: KEEP
+public: true
+phonology:
+  handle: syaŋ
+  initial: s(y)
+  rhyme: aŋ
+  initcover: S
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>Written Burmese <latinform>sok-kra</latinform> &apos;Venus; morning star&apos; is a loan
+    from Sanskrit <latinform>śukra</latinform> &apos;Venus&apos;, <latinform>śukravāra</latinform> &apos;Friday&apos;,
+    contra LTSR #125 and DL:1219, so is therefore not to be assigned to the stopped final allofam of this
+    root. The most convincing evidence for the latter is the Lahu form below.</par><par>An interesting
+    semantic extension of this root is &quot;sober up after drunkenness&quot; (cf. the Trung forms).</par><par>See
+    also <xref ref="2745">#2745</xref> for a phonosemantically similar etymon.</par>'
+- type: F
+  text: '<par><hanform>搜</hanform> OC <latinform>*sug</latinform>, GSR #1097d &apos;move; vigorous and
+    rapid&apos;; Schuessler 2007:481 <latinform>*sôʔ</latinform>; B &amp; S 2011: (<latinform>*s.ruʔ</latinform>);
+    Mand. <latinform>sōu</latinform>/<latinform>sǒu</latinform>.<br /><hanform>速</hanform> OC <latinform>*suk</latinform>,
+    GSR #1222i-j &apos;quick, rapid&apos;; Schuessler 2007:481 <latinform>*sôk</latinform>; B &amp; S
+    2011: <latinform>*sˁok {[s]ˁok}</latinform>; Mand. <latinform>sù</latinform>.<br /><hanform>夙</hanform>
+    OC <latinform>*si̯ôk</latinform>, GSR #1030a-c &apos;morning; early&apos;; Schuessler 2007:483 <latinform>*suk</latinform>;
+    B &amp; S 2011: <latinform>*suk {[s]uk}</latinform>; Mand. <latinform>sù</latinform>.<br /><hanform>聳</hanform>
+    OC <latinform>*si̯ung</latinform>, GSR #1191j &apos;excite;  encourage&apos;; Schuessler 2007:480
+    <latinform>*soŋʔ</latinform>; B &amp; S 2011: (<latinform>*soŋʔ</latinform>); Mand. <latinform>sǒng</latinform>.</par><par>Schuessler
+    2007:635 considers the following Chinese etyma, with OC initials <latinform>*ts/dz-</latinform>, to
+    be allofamic with the etyma with OC initial <latinform>*s-</latinform> cited above:</par><par><hanform>走</hanform>
+    OC <latinform>*tsu</latinform>, GSR #0119a &apos;run&apos;; Schuessler 2007:635 <latinform>*tsôʔ</latinform>;
+    B &amp; S 2011: <latinform>*tsˁoʔ {[ts]ˁoʔ}</latinform>; Mand. <latinform>zǒu</latinform>.<br /><hanform>奏</hanform>
+    OC <latinform>*tsug</latinform>, GSR #1229a &apos;hasten forward; bring forward; exhibit, disply;
+    play (music)&apos;; Schuessler 2007:635 <latinform>*tsôh</latinform>; B &amp; S 2011: <latinform>*tsˁo-s
+    {tsˁo(ʔ)-s}</latinform>; Mand. <latinform>zòu</latinform>.<br /><hanform>趣</hanform> OC <latinform>*ts’i̯u</latinform>,
+    GSR #0131g-h &apos;hasten to&apos;; Schuessler 2007:635 <latinform>*tshoh</latinform>; B &amp; S 2011:
+    <latinform>*tsʰoʔ-s {[tsʰ]oʔ-s}</latinform>; Mand. <latinform>qù</latinform>.<br /><hanform>趨</hanform>
+    OC <latinform>*tṣ’i̯u</latinform>, GSR #0132c &apos;hasten&apos;; Schuessler 2007:635 <latinform>*tshro</latinform>;
+    B &amp; S 2011: <latinform>*tsʰro {[ts]ʰro}</latinform>; Mand. <latinform>qū</latinform>.<br /><hanform>驟</hanform>
+    OC (cited but not reconstructed in GSR), GSR #0131q &apos;fast-running (of horse)&apos;; Schuessler
+    2007:635 <latinform>*dzroh</latinform>; B &amp; S 2011: <latinform>*dzroʔ-s {[dz]roʔ-s}</latinform>;
+    Mand. <latinform>zhòu</latinform>.</par>'

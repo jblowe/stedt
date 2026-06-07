@@ -1,0 +1,17 @@
+tag: 295
+grpid: 2
+proto_language: PTB
+protoform: m-twar
+gloss: CHEST / BREAST
+semkey: 1.4.4.3
+sequence: 5.0
+status: DELETE
+public: false
+possallo: '310'
+references: incl. old 296
+phonology:
+  handle: twar
+  initial: tw
+  rhyme: ar
+  initcover: T
+  rhymecover: L

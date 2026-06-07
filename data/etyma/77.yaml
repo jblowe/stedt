@@ -1,0 +1,21 @@
+tag: 77
+grpid: 2
+proto_language: PTB
+protoform: g/m-swan
+gloss: BREATH(E) / LIVE
+semkey: 1.1.2.2
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: soN
+  prefix: g/n
+  initial: s
+  rhyme: o(n/ŋ)
+  initcover: S
+  rhymecover: N
+notes:
+- type: T
+  text: <par>For the same final -s (of unknown function), cf. also Qiang (Mawo) <latinform>χsəs</latinform>.</par>
+- type: T
+  text: <par>Hayu shows variation between homorganic final nasal and stop.</par>

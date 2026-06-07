@@ -1,0 +1,24 @@
+tag: 1601
+grpid: 2
+proto_language: PTB
+protoform: dzi
+gloss: PENIS
+sequence: 118.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: dzi
+  initial: dz
+  rhyme: i
+  initcover: TS
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This etymon seems solid enough, though it has a rather strange distribution, occurring in
+    scattered languages of the Himalayish, Lolo-Burmese (including Jinuo), and Asakian groups, as well
+    as in the unclassified Tujia. There is not yet enough evidence to decide whether to reconstruct either
+    a *voiced or *voiceless initial, or both *voiced and *voiceless allofams.</par><par>This root looks
+    as if it might stand in an allofamic relationship with <xref ref="641">#641</xref>. Note, however,
+    that the reflexes of <xref ref="641">#641 </xref> and the present root are quite different in Nesu
+    and Sani.</par>

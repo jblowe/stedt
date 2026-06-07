@@ -1,0 +1,19 @@
+tag: 2075
+grpid: 2
+proto_language: PTB
+protoform: (k/g)um
+gloss: EYEBROW / EYELASH
+semkey: 1.2.6.6
+sequence: 14.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: kum
+  initial: k
+  rhyme: um ⪤ gum
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This promising root deserves further support.</par>

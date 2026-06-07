@@ -1,0 +1,43 @@
+tag: 2718
+grpid: 2
+proto_language: PTB
+protoform: s-twak
+gloss: COME OUT / GO OUT / EMERGE
+semkey: 6.7.2
+sequence: 1461.0
+status: KEEP
+public: true
+references: cf. STC p.17, HPTB pp.62, 321
+phonology:
+  handle: twak
+  prefix: s
+  initial: tw
+  rhyme: ak
+  initcover: T
+  rhymecover: T
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: ʃok
+  gloss: EMERGE / EXIT / COME OUT
+- grpid: 42
+  group: '6.1'
+  form: ʔ-twakᴴ
+  gloss: COME OUT, GO OUT, EMERGE
+- grpid: 8
+  group: '1.2'
+  form: tshuak-I, tshuaʔ-II
+  gloss: COME OUT / EMERGE / APPEAR
+notes:
+- type: T
+  text: <par>This root is extremely well-attested, in Lolo-Burmese and many other branches of the family.
+    In some languages (Kiranti, Tani, Karbi), it has been specialized to refer to animal births.</par><par>A
+    variant with nasal final is also sporadically found.</par><par>The Old Chinese comparandum is reconstructed
+    with final <latinform>*-t</latinform>, but this could well be a secondary development from an original
+    velar after a front vowel. <plainlatinform>STC</plainlatinform> compares this Chinese etymon with
+    PTB <xref ref="2708">#2708</xref>, a meaning which is not given in <plainlatinform>GSR</plainlatinform>,
+    but which appears in Erh Ya.</par>
+- type: F
+  text: '<par><hanform>出</hanform> OC <latinform>*t̑&apos;i̯wət</latinform>, GSR #496a-e &apos;go out,
+    come out&apos;; Schuessler 2007:191 <latinform>*k-hlut</latinform>; B &amp; S 2011: <latinform>*t-kʰut</latinform>;
+    Mand. <latinform>chū</latinform>.</par>'

@@ -1,0 +1,20 @@
+tag: 1213
+grpid: 2
+proto_language: PTB
+protoform: s-rəy
+gloss: FRONT
+semkey: 1.4.4
+sequence: 3.0
+status: KEEP
+public: true
+allofams: '1214'
+phonology:
+  handle: rəy
+  prefix: s
+  initial: r
+  rhyme: əy
+  initcover: L
+  rhymecover: W
+notes:
+- type: T
+  text: <par>This root somewhat resembles <xref ref="1214">#1214</xref>, but seems independent from it.</par>

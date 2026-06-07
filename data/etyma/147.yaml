@@ -1,0 +1,16 @@
+tag: 147
+grpid: 29
+proto_language: PKir
+protoform: sen
+gloss: SEE (DREAM)
+semkey: 1.2.6.10
+sequence: 3.0
+status: KEEP
+public: true
+references: '("HIM") '
+phonology:
+  handle: sen
+  initial: s
+  rhyme: en
+  initcover: S
+  rhymecover: N

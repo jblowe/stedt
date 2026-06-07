@@ -1,0 +1,20 @@
+tag: 214
+grpid: 2
+proto_language: PTB
+protoform: s-ha(k/ŋ)
+gloss: LOWER BACK / CROTCH
+sequence: 5.0
+status: KEEP
+public: true
+xrefs: WAIST/GROIN
+references: formerly s-ha(k/ŋ); *s- restored (3/25/95)
+phonology:
+  handle: hak
+  initial: h
+  rhyme: ak ⪤ s-h
+  initcover: H
+  rhymecover: VTS
+notes:
+- type: T
+  text: <par>The Limbu form points to a medial <latinform>-y-</latinform>, which is perhaps due to the
+    influence of the <latinform>*s-</latinform> prefix, as in Lepcha (cf. Benedict 1943).</par>

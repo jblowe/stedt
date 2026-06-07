@@ -1,0 +1,19 @@
+tag: 5556
+grpid: 2
+proto_language: PTB
+protoform: s/m-ba ⪤ s/m-baːy
+gloss: THROW
+semkey: '6.12'
+sequence: 3312.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 170, 231, 483
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: paay-I, payʔ-II
+  gloss: CAST / THROW
+notes:
+- type: T
+  text: <par>This root shows evidence of the PTB *palatal suffix (JAM 1995 &quot;Sino-Tibetan palatal
+    suffixes revisited&quot;).</par><par>Jingpho has acquired a velar prefix with this root.</par>

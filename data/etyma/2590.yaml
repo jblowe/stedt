@@ -1,0 +1,27 @@
+tag: 2590
+grpid: 2
+proto_language: PTB
+protoform: pyaw
+gloss: SWIM / FLOAT / RAFT
+semkey: 2.2.6
+sequence: 3255.0
+status: KEEP
+public: true
+references: STC#176
+phonology:
+  handle: pyaw
+  initial: py
+  rhyme: aw
+  initcover: P
+  rhymecover: W
+notes:
+- type: T
+  text: '<par>There are several good Chinese comparanda to this root, including GSR #136d, 1157i, 1233k,
+    and 1233l (see below).</par>'
+- type: F
+  text: '<par><hanform>柎</hanform> OC <latinform>*pi̯u</latinform>, GSR #136d &apos;raft&apos;; Mand.
+    <latinform>fú</latinform>.<br /><hanform>泭</hanform> <latinform>*p’i̯u</latinform> 136h <br /><hanform>漂</hanform>
+    OC <latinform>*p’i̯og</latinform>, GSR #1157i &apos;to float, drift&apos;; Mand. <latinform>piāo</latinform>.<br
+    /><hanform>桴</hanform> OC <latinform>*p’iŭg</latinform>, GSR #1233k &apos;raft; beam&apos;; Mand.
+    <latinform>fú</latinform>.<br /><hanform>浮</hanform> OC <latinform>*bʼi̯ôg</latinform>, GSR #1233l
+    &apos;to float&apos;; B &amp; S 2011: <latinform>*m.bu {*m.b(r)u}</latinform>; Mand. <latinform>fú</latinform>.</par>'

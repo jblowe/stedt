@@ -1,0 +1,16 @@
+tag: 3351
+grpid: 2
+proto_language: PTB
+protoform: kaŋ
+gloss: BACK
+semkey: 1.4.8
+sequence: 16.0
+status: DELETE
+public: false
+xrefs: '219'
+phonology:
+  handle: kaŋ
+  initial: k
+  rhyme: aŋ
+  initcover: K
+  rhymecover: N

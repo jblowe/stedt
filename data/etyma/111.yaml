@@ -1,0 +1,49 @@
+tag: 111
+grpid: 2
+proto_language: PTB
+protoform: (p/b)liŋ
+gloss: FULL / FILL
+semkey: 1.1.3.2
+sequence: 15.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#142, HPTB
+phonology:
+  handle: Bliŋ
+  initial: p/bl
+  rhyme: iŋ
+  initcover: P
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: pliŋ
+  gloss: FULL / COMPLETE / ATTAIN TO
+- grpid: 5
+  group: 1.1.1
+  form: brɯŋ
+  gloss: FULL (not empty)
+- grpid: 42
+  group: '6.1'
+  form: ʔ-bliŋ¹
+  gloss: FULL / PLENTY
+- grpid: 50
+  group: '7'
+  form: pwɛᴬ
+  gloss: FULL
+notes:
+- type: T
+  text: '<par>Contra STC #142, Lahu <latinform>bî </latinform> ‘full’ is not from this etymon, but rather
+    from <xref ref="134">#134</xref>.</par><par>As discussed in Matisoff 1988 (&quot;Straight, flat, full&quot;),
+    this root is allofamically related both to <xref ref="707">#707</xref> and <xref ref="2160">#2160</xref>,
+    the common semantic core being &quot;a complete or ideal realization of a quality appropriate to a
+    particular dimensionality in space&quot;.</par>'
+- type: F
+  text: '<par><hanform>贏</hanform> OC <latinform>*di̯ĕng</latinform>, GSR #816f &apos;surplus, profit;
+    win&apos;; Schuessler 2007:575 <latinform>*leŋ</latinform>; B &amp; S 2011: <latinform>*ɢeŋ {[ɢ]eŋ}</latinform>;
+    Mand. <latinform>yíng</latinform>.<br /><hanform>盈</hanform> OC <latinform>*di̯ĕng</latinform>, GSR
+    #815a-b &apos;fill; full; surplus&apos;; Schuessler 2007:575 <latinform>*leŋ</latinform>; B &amp;
+    S 2011: (<latinform>*leŋ</latinform>); Mand. <latinform>yíng</latinform>.<br /><hanform>孕</hanform>
+    OC <latinform>*di̯əng</latinform>, GSR #945j &apos;pregnant&apos;; Schuessler 2007:598 <latinform>*ləŋh</latinform>;
+    B &amp; S 2011: <latinform>*liŋ-s {l[i]ŋ-s}</latinform>; Mand. <latinform>yùn</latinform>.</par>'

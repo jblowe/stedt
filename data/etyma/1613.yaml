@@ -1,0 +1,41 @@
+tag: 1613
+grpid: 2
+proto_language: PTB
+protoform: (t)s(i/u)p
+gloss: NEST / WOMB / SCROTUM
+sequence: 107.0
+status: KEEP
+public: true
+phonology:
+  handle: tsi
+  initial: (t)s
+  rhyme: ip
+  initcover: TS
+  rhymecover: T
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: sup
+  gloss: NEST / LAIR
+- grpid: 63
+  group: 1.3.1
+  form: a-sap
+  gloss: NEST / WEB
+- grpid: 45
+  group: 6.1.2
+  form: (d)zyi
+  gloss: PLACENTA / NEST
+notes:
+- type: T
+  text: '<par>This etymon is tentatively set up for PTB on rather shaky evidence: several forms from Loloish,
+    and a single putative cognate from Qiangic (rGyalrong).</par>'
+- type: T
+  text: '<par>This etymon displays the most pervasive variational pattern in TB vowels, between <reconstruction>*-u-</reconstruction>
+    and <reconstruction>*-i-</reconstruction> (see Wolfenden 1929:114-5, STC pp. 80-4, VSTB pp. 41-2,
+    HPTB pp. 493-505).<footnote>For other etyma with similar variation, see e.g. <xref ref="3587">#3587</xref>,
+    <xref ref="1612">#1612</xref>, <xref ref="127">#127</xref>.</footnote> It is well distributed, occurring
+    widely in the NE Indian Areal Group (but not in Chin), with convincing cognates in Himalayish, Jingpho,
+    and Qiangic. The Burmish cognates point to different final consonants: WB has <latinform>-k</latinform>,
+    while Achang and Zaiwa have <latinform>-t</latinform>. W.T. French (1983:526) suggests an etymology
+    (which appears fanciful), deriving this root from a compound <reconstruction>*sa-yip</reconstruction>
+    ANIMAL + SLEEP (&lt; <xref ref="34">#34</xref> and <xref ref="127">#127</xref>).</par>'

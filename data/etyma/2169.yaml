@@ -1,0 +1,17 @@
+tag: 2169
+grpid: 2
+proto_language: PTB
+protoform: s-braŋ
+gloss: NAME
+semkey: '5.8'
+sequence: 2487.0
+status: KEEP
+public: false
+references: cf. STC p.31, fn.99
+phonology:
+  handle: s-br
+  prefix: s
+  initial: )br
+  rhyme: aŋ
+  initcover: P
+  rhymecover: N

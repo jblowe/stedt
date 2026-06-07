@@ -1,0 +1,49 @@
+tag: 2686
+grpid: 2
+proto_language: PTB
+protoform: (t/d)ak
+gloss: WEAVE
+semkey: '5.1'
+sequence: 5.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 318, 328, 374, STC#017
+phonology:
+  handle: tak
+  initial: t
+  rhyme: ak=trak
+  initcover: T
+  rhymecover: LT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tak-I, taʔ-II
+  gloss: WEAVE / PLAIT
+- grpid: 66
+  group: 1.3.4
+  form: dak
+  gloss: WEAVE
+- grpid: 42
+  group: '6.1'
+  form: dak²
+  gloss: WEAVE / SPIN
+- grpid: 63
+  group: 1.3.1
+  form: tak
+  gloss: WEAVE
+- grpid: 50
+  group: '7'
+  form: thaᴮ
+  gloss: WEAVE (cloth), LOOM
+notes:
+- type: T
+  text: <par>This root is well-attested, both with a dental stop initial and initial <latinform>r-</latinform>,
+    leading one to hypothesize an ultimate origin in a sequence of consonants like <latinform>*trak</latinform>
+    or <latinform>drak</latinform>, although this cluster is not reconstructed for PTB or PST. Certain
+    branches of the family, like Lolo-Burmese, show evidence for both the stop- and rhotic-initialed variants.
+    </par><par>See <xref ref="5669">#5669</xref>.</par><par>There is a good Chinese comparandum with a
+    stop initial.</par>
+- type: F
+  text: '<par><hanform>織</hanform> OC <latinform>*t̑i̯ək</latinform>, GSR #920f &apos;weave&apos;; Coblin
+    86: ST <latinform>*tjək</latinform> &gt; TB *<latinform>tak</latinform> &gt; OC <latinform>*tjək</latinform>;
+    B &amp; S 2011: <latinform>*tək</latinform>; Mand. <latinform>zhī</latinform>.</par>'

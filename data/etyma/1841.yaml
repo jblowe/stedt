@@ -1,0 +1,17 @@
+tag: 1841
+grpid: 2
+proto_language: PTB
+protoform: gwan
+gloss: STRENGTH
+semkey: 1.1.5
+sequence: 5.0
+status: DELETE
+public: false
+xrefs: '162'
+references: 'TJLB #69'
+phonology:
+  handle: gwan
+  initial: gw
+  rhyme: an
+  initcover: K
+  rhymecover: N

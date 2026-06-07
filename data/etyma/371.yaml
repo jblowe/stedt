@@ -1,0 +1,23 @@
+tag: 371
+grpid: 2
+proto_language: PTB
+protoform: m-twaŋ
+gloss: FOREHEAD / HEAD / HAIR (OF HEAD) / HORN
+semkey: 1.2.1
+sequence: 3.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: ↭ 2011 HORN
+phonology:
+  handle: daŋ
+  prefix: g
+  initial: d
+  rhyme: aŋ
+  initcover: T
+  rhymecover: N
+notes:
+- type: T
+  text: <par>WT attests to both the <latinform>g-</latinform> and <latinform>m-</latinform> prefixes with
+    this root.</par><par>Several Kiranti forms (Kulung, Chamling, Limbu) meaning HORN are assigned to
+    the present root.</par>

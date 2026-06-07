@@ -1,0 +1,20 @@
+tag: 804
+grpid: 2
+proto_language: PTB
+protoform: s-naːr
+gloss: NOSE / MOUTH
+semkey: 1.2.8
+sequence: 2531.0
+status: delete
+public: true
+exemplary: true
+xrefs: '803'
+allofams: '803'
+references: STC#101
+phonology:
+  handle: naːr
+  prefix: s
+  initial: n
+  rhyme: aːr
+  initcover: M
+  rhymecover: L

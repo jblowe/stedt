@@ -1,0 +1,21 @@
+tag: 691
+grpid: 2
+proto_language: PTB
+protoform: gla
+gloss: INTERVAL / SPACE BETWEEN
+semkey: 9.1.5
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: ʔgra²
+  initial: ʔgr
+  rhyme: a²
+  tone: ²
+  initcover: H
+  rhymecover: V
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-gla²
+  gloss: BETWEEN / HAVE A SPACE BETWEEN / INTERVAL

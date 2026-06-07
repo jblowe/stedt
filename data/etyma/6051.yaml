@@ -1,0 +1,15 @@
+tag: 6051
+grpid: 2
+proto_language: PTB
+protoform: s-pjaŋ
+gloss: WILD DOG
+semkey: 3.2.5
+sequence: 6.0
+status: KEEP
+public: true
+references: cf. J. Sun 1993:137
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: pjaŋ
+  gloss: WILD DOG

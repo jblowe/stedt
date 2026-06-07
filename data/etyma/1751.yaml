@@ -1,0 +1,17 @@
+tag: 1751
+grpid: 35
+proto_language: PrGy
+protoform: m-kwar
+gloss: VOMIT
+semkey: 1.8.3.2
+sequence: 5.0
+status: KEEP
+public: true
+references: Qiangish
+phonology:
+  handle: kor
+  prefix: N
+  initial: k
+  rhyme: or
+  initcover: K
+  rhymecover: L

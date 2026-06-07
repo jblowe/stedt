@@ -1,0 +1,21 @@
+tag: 5425
+grpid: 2
+proto_language: PTB
+protoform: r-dal
+gloss: SPREAD / EXTEND / DEVELOP
+semkey: '9.5'
+sequence: 3132.0
+status: KEEP
+public: true
+references: cf. HPTB p. 424
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: Ɂdaᴬ
+  gloss: SPREAD OUT (A MAT)
+notes:
+- type: F
+  text: '<par><hanform>展</hanform> OC <latinform>*ti̯ɑn</latinform>, GSR #201a &apos;roll over, unfold,
+    develop&apos;; B &amp; S 2011: <latinform>*trenʔ</latinform>; Mand. <latinform>zhǎn</latinform>.</par>'
+- type: T
+  text: <par>HPTB:424 gives the erroneous GSR number 203a; the correct number is 201a.</par>

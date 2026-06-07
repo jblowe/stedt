@@ -1,0 +1,18 @@
+tag: 6134
+grpid: 2
+proto_language: PTB
+protoform: (y/ʔ)ay
+gloss: MOTHER / GRANDMOTHER / MATERNAL AUNT
+semkey: 4.7.1
+sequence: 8.0
+status: KEEP
+public: false
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: jo
+  gloss: GRANDMOTHER
+- grpid: 63
+  group: 1.3.1
+  form: ja
+  gloss: MOTHER

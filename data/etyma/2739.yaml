@@ -1,0 +1,27 @@
+tag: 2739
+grpid: 2
+proto_language: PTB
+protoform: tswat
+gloss: ANTELOPE / SAMBAR DEER
+semkey: 2.2.2
+sequence: 1049.0
+status: KEEP
+public: true
+references: cf. STC#344, HPTB p.380
+phonology:
+  handle: tsot
+  initial: ts
+  rhyme: ot
+  initcover: TS
+  rhymecover: T
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: (k)-tsatᴸ
+  gloss: SAMBHAR DEER
+notes:
+- type: T
+  text: <par>As indicated in HPTB p. 380, it is sometimes quite difficult to distinguish the Loloish reflexes
+    of the present root from those of <xref ref="2313">#2313</xref>. For now, we are assigning most forms
+    with front vowels to <xref ref="2313">#2313</xref> and most of the others to <xref ref="2739">#2739</xref>.</par><par>The
+    sambar (or sambhur) deer is a large species, <emph>Cervus unicolor</emph>.</par>

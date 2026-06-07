@@ -1,0 +1,684 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+79750	999	Manang (Gyaru)	ba² ga² ri²	ba² ga² ri²	head	head		1.2.1	001	0		m
+79751	999	Manang (Gyaru)	gra²	gra²	hair	hair		1.2.3	001-01	0		367
+79752	999	Manang (Gyaru)	sya¹ ga¹ ri¹	sya¹ ga¹ ri¹	brain	brain		1.2.4	001-03	0		464,m,m
+79753	999	Manang (Gyaru)	ngo³ graŋ²	ngo³ graŋ²	forehead	forehead		1.2.5.1	002	0		356,2025
+79754	999	Manang (Gyaru)	miː¹	miː¹	eye	eye		1.2.6	003	0		682
+79755	999	Manang (Gyaru)	mi¹ tsin¹	mi¹ tsin¹	eyebrow	eyebrow		1.2.6.6	004	0		682,366
+79756	999	Manang (Gyaru)	mi¹ tsin¹ mɯy²	mi¹ tsin¹ mɯy²	eyelash	eyelash		1.2.6.5	004-01	0		682,366,363
+79757	999	Manang (Gyaru)	mi¹ gi¹	mi¹ gi¹	tears	tears		1.2.6.7	005	0		682,572
+79758	999	Manang (Gyaru)	mi¹sya¹ ra¹	mi¹sya¹ ra¹	blind	blind		1.2.6.14.2	006	0		682,m,m
+79759	999	Manang (Gyaru)	na²	na²	nose	nose		1.2.8	007	0		803
+79760	999	Manang (Gyaru)	na¹	na¹	ear	ear		1.2.7	008	0		811
+79761	999	Manang (Gyaru)	nya¹ ma?²	nya¹ ma?²	ear	ear		1.2.7	008a	0		811,2084
+79762	999	Manang (Gyaru)	nog³ toŋ²	nog³ toŋ²	deaf	deaf		1.2.7.5	009	0		m,1412
+79763	999	Manang (Gyaru)	sɯŋ²	sɯŋ²	mouth	mouth		1.3.1	010	0		477
+79764	999	Manang (Gyaru)	sɯŋ² man² ji²	sɯŋ² man² ji²	lip	lip		1.3.2	011	0		477,467,686
+79765	999	Manang (Gyaru)	lᴇ¹	lᴇ¹	tongue	tongue		1.3.3	012	0		621
+79766	999	Manang (Gyaru)	laŋ² nyᴇ² ma²	laŋ² nyᴇ² ma²	uvula	uvula		1.3.5.1	012-01	0		
+79767	999	Manang (Gyaru)	la² ʈa¹	la² ʈa¹	dumb	dumb		8.5.4.4	013	0		
+79768	999	Manang (Gyaru)	swa¹	swa¹	tooth	tooth		1.3.4	014	0		632
+79769	999	Manang (Gyaru)	ta¹	ta¹	saliva	saliva		1.8.3	015	0		603
+79770	999	Manang (Gyaru)	ka² nᴇ²	ka² nᴇ²	phlegm	phlegm		1.8.3	015-01	0		
+79771	999	Manang (Gyaru)	saː²	saː²	breathe	breathe		1.1.2.2	016	0		32
+79772	999	Manang (Gyaru)	gᴇː¹	gᴇː¹	voice	voice		8.5.5	017	0		
+79773	999	Manang (Gyaru)	hloː¹ ka² ba	hloː¹ ka² ba	cough	cough	V	1.8.3.3	018	0		
+79774	999	Manang (Gyaru)	gyi¹ ba	gyi¹ ba	sneeze	sneeze	V	1.8.2.1	019	0		
+79775	999	Manang (Gyaru)	nɯ³ sa¹ yɯ¹ ba	nɯ³ sa¹ yɯ¹ ba	yawn	yawn	V	1.3.1.3	020	0		
+79776	999	Manang (Gyaru)	gwan³ da²	gwan³ da²	jaw	jaw		1.2.5.2	021	0		267,m
+79777	999	Manang (Gyaru)	li¹	li¹	face	face		1.2.5	022	0		1184
+79778	999	Manang (Gyaru)	gro¹ ma²	gro¹ ma²	cheek	cheek		1.2.5.2	023	0		266,s
+79779	999	Manang (Gyaru)	mon¹ ɖᴇ¹	mon¹ ɖᴇ¹	beard	beard		1.2.5.5	024	0		1114,1265
+79780	999	Manang (Gyaru)	gyᴇ¹	gyᴇ¹	beard	beard		1.2.5.5		0		2064
+79781	999	Manang (Gyaru)	ka¹ rᴇ¹	ka¹ rᴇ¹	neck	neck		1.4.2	025	0		494,5650
+79782	999	Manang (Gyaru)	da⁴ jɯ³ gɯ³	da⁴ jɯ³ gɯ³	nape	nape		1.4.2.1	025-01	0		m,m,496
+79783	999	Manang (Gyaru)	ka¹ rᴇ¹| ol¹ ◦gɯŋ¹	ka¹ rᴇ¹| ol¹| gɯŋ¹	throat	throat		1.3.5	026	0		491,490,3361
+79784	999	Manang (Gyaru)	ban³ da?¹	ban³ da?¹	shoulder	shoulder		1.4.3	027	0		745,m
+79785	999	Manang (Gyaru)	mᴇ³ laŋ³	mᴇ³ laŋ³	bladebone (?)	bladebone (?)		1.4.3.2	027-01	0		
+79786	999	Manang (Gyaru)	yaː²	yaː²	arm	arm		1.5.1.2	028	0		696
+79787	999	Manang (Gyaru)	nyaŋ² li²	nyaŋ² li²	armpit	armpit		1.5.1.2.3	028-01	0		m,1289
+79788	999	Manang (Gyaru)	hro² daŋ²	hro² daŋ²	armpit odor	armpit odor		1.5.1.2.3	028-02	0		
+79789	999	Manang (Gyaru)	gɯr² ji²	gɯr² ji²	elbow	elbow		1.5.8.3	029	0		
+79790	999	Manang (Gyaru)	yaː¹ tsiː¹	yaː¹ tsiː¹	wrist	wrist		1.5.8.1	029-01	0		696,418
+79791	999	Manang (Gyaru)	yaː²	yaː²	hand	hand		1.5.1.1	030	0		696
+79792	999	Manang (Gyaru)	yaː¹ ta¹ li¹	yaː¹ ta¹ li¹	palm	palm		1.5.5	030-01	0		696,m
+79793	999	Manang (Gyaru)	yaː¹ ɖiː¹	yaː¹ ɖiː¹	finger	finger		1.5.6	031	0		
+79794	999	Manang (Gyaru)	yaː¹ syin¹	yaː¹ syin¹	nail	nail		1.5.10	032	0		m,512
+79795	999	Manang (Gyaru)	gɯn¹ dɯʔ¹	gɯn¹ dɯʔ¹	fist	fist		1.5.1.1.1	032-01	0		
+79796	999	Manang (Gyaru)	gɯ²	gɯ²	breast	breast		1.4.4.3	033	0		
+79797	999	Manang (Gyaru)	nyog¹ ro¹ nyᴇː⁴	nyog¹ ro¹ nyᴇː⁴	breast (woman)	breast (woman)		1.4.4.3	034	0		259,m,254
+79798	999	Manang (Gyaru)	nyᴇː⁴ bɯn¹	nyᴇː⁴ bɯn¹	nipple	nipple			034-01	0		254,163
+79799	999	Manang (Gyaru)	rᴇː²	rᴇː²	rib	rib		1.4.4.3	034-02	0		554
+79800	999	Manang (Gyaru)	gyoː² ba³	gyoː² ba³	lungs	lungs		1.7.2	034-03	0		
+79801	999	Manang (Gyaru)	din²	din²	heart	heart		1.7.1	035	0		1387
+79802	999	Manang (Gyaru)	po¹	po¹	belly	belly		1.4.7	036	0		2103
+79803	999	Manang (Gyaru)	po¹ sya¹	po¹ sya¹	stomach	stomach		1.7.6	037-02	0		2103,m
+79804	999	Manang (Gyaru)	cin² ba²	cin² ba²	liver	liver		1.7.3	038	0		1390,s
+79805	999	Manang (Gyaru)	grᴇː²	grᴇː²	kidneys	kidneys		1.7.5	038-01	0		
+79806	999	Manang (Gyaru)	bi¹ dᴇ¹	bi¹ dᴇ¹	navel	navel		1.9.4	039	0		m,519
+79807	999	Manang (Gyaru)	go¹ dᴇ¹	go¹ dᴇ¹	back	back		1.4.8	040	0		211,1243
+79808	999	Manang (Gyaru)	grᴇː¹	grᴇː¹	waist	waist		1.4.6	041	0		217
+79809	999	Manang (Gyaru)	byi¹ syi¹	byi¹ syi¹	buttocks	buttocks		1.4.10	042	0		1361,223
+79810	999	Manang (Gyaru)	gyiː¹	gyiː¹	excrement	excrement		1.8.5	042-01	0		
+79811	999	Manang (Gyaru)	boŋ¹ ci¹	boŋ¹ ci¹	bladder	bladder		1.7.8	042-03	0		778,650
+79812	999	Manang (Gyaru)	gɯn²	gɯn²	urine	urine		1.8.4	042-04	0		656
+79813	999	Manang (Gyaru)	gɯn² briŋ² cᴇ¹	gɯn² briŋ² cᴇ¹	urinate	urinate		1.5.3.2	042-05	0		656,m,m
+79814	999	Manang (Gyaru)	doː² ɖi¹	doː² ɖi¹	fart	fart		1.8.5.2	042-06	0		m,m
+79815	999	Manang (Gyaru)	mlᴇ¹	mlᴇ¹	penis	penis			042-07	0		1284
+79816	999	Manang (Gyaru)	gar³ bɯm²	gar³ bɯm²	testicles	testicles			042-08	0		m,304
+79817	999	Manang (Gyaru)	dɯ¹	dɯ¹	vulva	vulva			042-09	0		661
+79818	999	Manang (Gyaru)	syal¹ gaŋ¹	syal¹ gaŋ¹	thigh	thigh		1.5.7.1	042-11	0		
+79819	999	Manang (Gyaru)	ba¹ ji¹	ba¹ ji¹	knee	knee		1.5.8.4	043	0		
+79820	999	Manang (Gyaru)	ba¹ lᴇ³	ba¹ lᴇ³	leg	leg		1.5.7	044	0		
+79821	999	Manang (Gyaru)	bwa¹ lᴇ¹	bwa¹ lᴇ¹	foot	foot		1.5.2	045	0		349,342
+79822	999	Manang (Gyaru)	sya³ lᴇ³	sya³ lᴇ³	limp	limp	N	1.5.12	046	0		
+79823	999	Manang (Gyaru)	sɯː²	sɯː²	body	body		1.1.1	047	0		4
+79824	999	Manang (Gyaru)	mɯy¹	mɯy¹	hair	hair		1.2.3	048	0		363
+79825	999	Manang (Gyaru)	ɖiy³	ɖiy³	skin	skin		1.6.5	049	0		596
+79826	999	Manang (Gyaru)	naː³	naː³	pus	pus		1.8.6.1	050	0		1297
+79827	999	Manang (Gyaru)	ɖɯ²	ɖɯ²	sweat	sweat		1.8.1	051	0		m
+79828	999	Manang (Gyaru)	griy²	griy²	dirt	dirt		1.5.3.2	052	0		
+79829	999	Manang (Gyaru)	gaː¹	gaː¹	blood	blood		1.6.2	053	0		231
+79830	999	Manang (Gyaru)	kyi³ ba³	kyi³ ba³	marrow	marrow		1.6.3.5	053-01	0		459,s
+79831	999	Manang (Gyaru)	nɯ² gri²	nɯ² gri²	bone	bone		1.6.3	054	0		m,232
+79832	999	Manang (Gyaru)	sya²	sya²	flesh	flesh		1.1.1.1	055	0		34
+79833	999	Manang (Gyaru)	paŋ⁴ to² ba³	paŋ⁴ to² ba³	strength	strength		1.1.5	056	0		157,m,m
+79834	999	Manang (Gyaru)	nyo² ba	nyo² ba	see	see		1.2.6.10	057	0		
+79835	999	Manang (Gyaru)	taŋ⁴ taŋ¹ ba	taŋ⁴ taŋ¹ ba	smell	smell	V	1.2.8.5	058	0		
+79836	999	Manang (Gyaru)	nyᴇn² no²	nyᴇn² no²	listen	listen		1.2.7.4	059	0		1410,m
+79837	999	Manang (Gyaru)	nyiy¹ syor² ba	nyiy¹ syor² ba	laugh	laugh		1.8.8.1	060	0		1105,1780,s
+79838	999	Manang (Gyaru)	graː² ba	graː² ba	cry	cry		1.8.8.2	061	0		1103,s
+79839	999	Manang (Gyaru)	wᴇː² ba	wᴇː² ba	shout	shout		8.5.4.1	062	0		
+79840	999	Manang (Gyaru)	go² la²	go² la²	clothes	clothes		5.11.8.2.1	063	0		
+79841	999	Manang (Gyaru)	gom³ ba	gom³ ba	clothe	clothe	V	5.11.8.2.1	064	0		
+79842	999	Manang (Gyaru)	pyin² ba	pyin² ba	take off	take off		6.21	065	0		
+79843	999	Manang (Gyaru)	ci² braŋ²	ci² braŋ²	naked	naked		1.1.1	066	0		
+79844	999	Manang (Gyaru)	bɯ² lɯ²	bɯ² lɯ²	hat	hat		5.11.8.2.1.1	066-01	0		
+79845	999	Manang (Gyaru)	koŋ² ja²	koŋ² ja²	shirt	shirt		5.11.8.2.1.2	066-02	0		
+79846	999	Manang (Gyaru)	no¹ ŋᴇ²	no¹ ŋᴇ²	trousers	trousers		5.11.8.2.1.3	066-04	0		
+79847	999	Manang (Gyaru)	pi¹ gi¹	pi¹ gi¹	belt	belt		5.11.8.2.1.3	066-05	0		
+79848	999	Manang (Gyaru)	boː² li²	boː² li²	shoes	shoes		5.11.8.1	066-08	0		
+79849	999	Manang (Gyaru)	ga² dza²	ga² dza²	cloth	cloth		5.1	066-10	0		
+79850	999	Manang (Gyaru)	ʈiː¹	ʈiː¹	fur	fur		1.6.1	067	0		m
+79851	999	Manang (Gyaru)	gaŋ² gyi²	gaŋ² gyi²	comb	comb		1.2.2.1	067-01	0		m,bNepali
+79852	999	Manang (Gyaru)	tᴇː⁴	tᴇː⁴	needle	needle		5.1	068	0		
+79853	999	Manang (Gyaru)	ɖɯ¹	ɖɯ¹	thread	thread		5.11.6	069	0		
+79854	999	Manang (Gyaru)	tsᴇm¹ brin² ba	tsᴇm¹ brin² ba	sew	sew		5.1	070	0		
+79855	999	Manang (Gyaru)	dza² ba²	dza² ba²	food	food		5.5	071	0		
+79856	999	Manang (Gyaru)	syiː¹	syiː¹	rice	rice		3.1.4	071-01	0		
+79857	999	Manang (Gyaru)	cin² bra²	cin² bra²	wheat	wheat		3.1.4	071-02	0		
+79858	999	Manang (Gyaru)	gɯ² rɯ²	gɯ² rɯ²	barley	barley		3.1.4	071-03	0		
+79859	999	Manang (Gyaru)	ga² bra²	ga² bra²	barley	barley		3.1.4		0		
+79860	999	Manang (Gyaru)	syᴇ³ gᴇn¹	syᴇ³ gᴇn¹	rice(cooked)	rice(cooked)		3.1.4	071-11	0		
+79861	999	Manang (Gyaru)	hro³	hro³	grain	grain		3.1.6.2	071-31	0		
+79862	999	Manang (Gyaru)	braː³	braː³	flour	flour		3.1.6.2	072	0		
+79863	999	Manang (Gyaru)	sya¹	sya¹	meat	meat		1.1.1.1	073	0		34
+79864	999	Manang (Gyaru)	noː⁴	noː⁴	onion	onion		3.1.5	073-01	0		
+79865	999	Manang (Gyaru)	ro²	ro²	fruit	fruit		3.1.5	074	0		
+79866	999	Manang (Gyaru)	syin² do²	syin² do²	fruit	fruit		3.1.5	074	0		
+79867	999	Manang (Gyaru)	blɯ³	blɯ³	seed	seed		3.1.4	075	0		2463
+79868	999	Manang (Gyaru)	ro⁴	ro⁴	seed	seed		3.1.4	075	0		
+79869	999	Manang (Gyaru)	dar¹ ŋa¹	dar¹ ŋa¹	fish	fish		2.2.5	075-01	0		m,1455
+79870	999	Manang (Gyaru)	pɯm²	pɯm²	egg	egg			076	0		304
+79871	999	Manang (Gyaru)	dza² dza²	dza² dza²	salt	salt		3.2.4	077	0		
+79872	999	Manang (Gyaru)	ci³	ci³	salt	salt		3.2.4	077	0		
+79873	999	Manang (Gyaru)	ciː¹	ciː¹	grease	grease		1.6.4.1	078	0		48
+79874	999	Manang (Gyaru)	mar¹	mar¹	butter	butter		1.6.4.1	078-01	0		1470
+79875	999	Manang (Gyaru)	nyᴇː¹	nyᴇː¹	milk	milk			079	0		254
+79876	999	Manang (Gyaru)	gyɯ¹	gyɯ¹	water	water		3.2.3	080	0		
+79877	999	Manang (Gyaru)	cᴇː²	cᴇː²	tea	tea		3.1.1	080-03	0		
+79878	999	Manang (Gyaru)	gyaŋ¹	gyaŋ¹	bread	bread		5.5	080-06	0		
+79879	999	Manang (Gyaru)	piː²	piː²	wine	wine		3.1.6.3	080-07	0		
+79880	999	Manang (Gyaru)	syɯ³ gri²	syɯ³ gri²	tobacco	tobacco		3.1.6.2	080-09	0		
+79881	999	Manang (Gyaru)	to³ ba	to³ ba	cook	cook	V	5.5	081	0		
+79882	999	Manang (Gyaru)	ŋoː² ba	ŋoː² ba	roast	roast	V	5.5	081-01	0		
+79883	999	Manang (Gyaru)	hran² ba	hran² ba	roast	roast	V	5.5	081-011	0		
+79884	999	Manang (Gyaru)	min² ba	min² ba	ripe	ripe		3.1.10	082	0		2449
+79885	999	Manang (Gyaru)	dza² ba	dza² ba	eat	eat		1.5.3.2	083	0		36,s
+79886	999	Manang (Gyaru)	dzoː¹	dzoː¹	eat(IMP)	eat(IMP)		1.5.3.2	083-01	0		36,s
+79887	999	Manang (Gyaru)	lᴇn² ba	lᴇn² ba	lick	lick	V	1.3.3.1	084	0		625,s
+79888	999	Manang (Gyaru)	nyᴇː²	nyᴇː²	chew	chew	V	1.3.4	085	0		1761
+79889	999	Manang (Gyaru)	tɯŋ² ba	tɯŋ² ba	drink	drink	V		086	0		502,s
+79890	999	Manang (Gyaru)	nyᴇː³ ba	nyᴇː³ ba	suck	suck	V	1.3.2.1	087	0		254,s
+79891	999	Manang (Gyaru)	riː² ba	riː² ba	vomit	vomit	V	1.8.3.2	088	0		5697,s
+79892	999	Manang (Gyaru)	taː² kyaː² ba	taː² kyaː² ba	spit	spit	V	1.8.3	089	0		603
+79893	999	Manang (Gyaru)	krᴇn² ba	krᴇn² ba	hungry	hungry		1.1.3	090	0		106,s
+79894	999	Manang (Gyaru)	pyiː² ba	pyiː² ba	thirsty	thirsty		1.1.3.1	091	0		m,m,s
+79895	999	Manang (Gyaru)	ɖo² bla²	ɖo² bla²	taste	taste	V	1.3.5.8	091-01	0		
+79896	999	Manang (Gyaru)	swa² ba	swa² ba	tasty	tasty		1.3.5.8	092	0		
+79897	999	Manang (Gyaru)	gyiː³ gyi² ba	gyiː³ gyi² ba	sweet	sweet		7.1.4.4	093	0		
+79898	999	Manang (Gyaru)	gᴇm² ba	gᴇm² ba	bitter	bitter		7.1.4.4	094	0		
+79899	999	Manang (Gyaru)	gyɯŋ¹	gyɯŋ¹	sour	sour		7.1.4.4	094-01	0		6406
+79900	999	Manang (Gyaru)	rɯl³ ba	rɯl³ ba	rotten	rotten		3.1.10	095	0		
+79901	999	Manang (Gyaru)	tin³	tin³	house	house		5.11.9.1	096	0		
+79902	999	Manang (Gyaru)	gɯr¹	gɯr¹	tent	tent		5.11.9.5	096-01	0		
+79903	999	Manang (Gyaru)	brɯn³ ba	brɯn³ ba	build	build	V	6.14	097	0		
+79904	999	Manang (Gyaru)	mrᴇ¹	mrᴇ¹	door	door		5.11.9.3	098	0		
+79905	999	Manang (Gyaru)	syᴇl²	syᴇl²	floor	floor		5.11.9.3	098-02	0		
+79906	999	Manang (Gyaru)	daː¹	daː¹	pillar	pillar		5.11.9.3.1	098-03	0		
+79907	999	Manang (Gyaru)	tin²	tin²	wall	wall		5.11.9.3	099	0		
+79908	999	Manang (Gyaru)	rap³ sal² dɯn²	rap³ sal² dɯn²	window	window		5.11.9.3	099-01	0		
+79909	999	Manang (Gyaru)	toː⁴	toː⁴	roof	roof		5.11.9	100	0		
+79910	999	Manang (Gyaru)	goː² tᴇː²	goː² tᴇː²	fireplace	fireplace		5.11.5.5	100-01	0		
+79911	999	Manang (Gyaru)	myᴇ¹	myᴇ¹	fire	fire		3.2.12.2	101	0		
+79912	999	Manang (Gyaru)	mrᴇ²	mrᴇ²	light	light		7.1.11.1	101-01	0		
+79913	999	Manang (Gyaru)	myᴇ² kɯ²	myᴇ² kɯ²	smoke	smoke		3.2.12.2	102	0		2136,2361
+79914	999	Manang (Gyaru)	myᴇ² bra²	myᴇ² bra²	ash	ash		3.2.12.2	103	0		
+79915	999	Manang (Gyaru)	myᴇ² sᴇː²	myᴇ² sᴇː²	extinguish	extinguish	V	3.2.12.1	104	0		
+79916	999	Manang (Gyaru)	ʈɯ² ba	ʈɯ² ba	sit	sit	V	6.1.1.4.1	106	0		3596,s
+79917	999	Manang (Gyaru)	kɯr³ syiŋ²	kɯr³ syiŋ²	sit	sit	V	6.1.1.4.1		0		
+79918	999	Manang (Gyaru)	nɯː³	nɯː³	lie	lie	V	8.5.10.4	107	0		
+79919	999	Manang (Gyaru)	nɯː³ ra² mo²	nɯː³ ra² mo²	sleep	sleep	V	1.1.4.1	108	0		129,m,m
+79920	999	Manang (Gyaru)	nɯː³ ra² bi² ra² mo²	nɯː³ ra² bi² ra² mo²	sleepy	sleepy		1.1.4.1	108-01	0		129,m,m,m,m
+79921	999	Manang (Gyaru)	maŋ¹ maŋ² ba	maŋ¹ maŋ² ba	dream	dream	V	1.1.4.2	109	0		126,126,s
+79922	999	Manang (Gyaru)	nɯː⁴ cin² ba	nɯː⁴ cin² ba	awake	awake	V	1.1.4	109-01	0		129,154,s
+79923	999	Manang (Gyaru)	hrᴇː² ba	hrᴇː² ba	get up	get up	V	1.1.4	110	0		
+79924	999	Manang (Gyaru)	hrᴇː² rᴇ³ ʈo³	hrᴇː² rᴇ³ ʈo³	stand	stand	V	1.5.2	111	0		145,m,m
+79925	999	Manang (Gyaru)	ci² mi² gyɯ¹	ci² mi² gyɯ¹	well	well		9.6.1.1	111-01	0		
+79926	999	Manang (Gyaru)	bar²	bar²	hedge	hedge		9.10.4	111-02	0		
+79927	999	Manang (Gyaru)	brin²	brin²	close	close	V	6.2.2.6.2	112	0		
+79928	999	Manang (Gyaru)	paŋ²	paŋ²	open	open	V	6.2.2.6.1	113	0		5704
+79929	999	Manang (Gyaru)	ʈɯ² ba	ʈɯ² ba	live	live	V	1.1.2.1	114	0		3602,s
+79930	999	Manang (Gyaru)	syᴇl²	syᴇl²	mirror	mirror		5.11.8.3	114-03	0		
+79931	999	Manang (Gyaru)	syᴇl²	syᴇl²	glass	glass		5.11	114-31	0		
+79932	999	Manang (Gyaru)	syo¹	syo¹	cup	cup		5.1	114-41	0		
+79933	999	Manang (Gyaru)	bɯː²	bɯː²	pot	pot		5.5	115	0		
+79934	999	Manang (Gyaru)	dzaŋ¹ ga²	dzaŋ¹ ga²	pan	pan		5.5	116	0		
+79935	999	Manang (Gyaru)	kᴇː² ba	kᴇː² ba	dip out	dip out	V	6.6	116-01	0		
+79936	999	Manang (Gyaru)	gar² di²	gar² di²	knife	knife		5.5	117	0		
+79937	999	Manang (Gyaru)	ka⁴	ka⁴	cutting edge	cutting edge		6.9.3	118	0		
+79938	999	Manang (Gyaru)	doː¹	doː¹	hoe	hoe	n	5.3	118-09	0		3573
+79939	999	Manang (Gyaru)	ŋɯy²	ŋɯy²	plough	plough		5.3	118-11	0		
+79940	999	Manang (Gyaru)	sa² bra²	sa² bra²	dust	dust		3.2.11	119	0		
+79941	999	Manang (Gyaru)	pyaː² ba	pyaː² ba	wipe	wipe	V	6.2.2.1	120	0		2587,s
+79942	999	Manang (Gyaru)	ta² kᴇn²	ta² kᴇn²	box	box		5.1	120-01	0		
+79943	999	Manang (Gyaru)	sa²	sa²	box	box		5.1	120-01	0		
+79944	999	Manang (Gyaru)	gɯr² syin²	gɯr² syin²	bag	bag			120-04	0		
+79945	999	Manang (Gyaru)	tsoː²	tsoː²	rope	rope		5.11.4	121	0		
+79946	999	Manang (Gyaru)	byar¹ ga¹	byar¹ ga¹	stick	stick		3.1.2	123	0		
+79947	999	Manang (Gyaru)	li¹	li¹	ladder	ladder		5.4	123-01	0		
+79948	999	Manang (Gyaru)	ta¹	ta¹	board	board		5.11.9	123-02	0		
+79949	999	Manang (Gyaru)	na² ba	na² ba	bear	bear	v	2.2.3	123-03	0		
+79950	999	Manang (Gyaru)	to² ba	to² ba	grow	grow	V	9.7.2	125	0		
+79951	999	Manang (Gyaru)	mrᴇ³ ba	mrᴇ³ ba	fat	fat		1.6.4	127	0		1452,s
+79952	999	Manang (Gyaru)	gan² ʈᴇn²	gan² ʈᴇn²	thin	thin		9.7.2	128	0		
+79953	999	Manang (Gyaru)	blᴇː¹ mo²	blᴇː¹ mo²	get tired	get tired		1.1.5	129	0		
+79954	999	Manang (Gyaru)	na¹ mo¹	na¹ mo¹	sickness	sickness		1.1.5.1	130	0		160,s
+79955	999	Manang (Gyaru)	tsaw²	tsaw²	fever	fever		1.1.5.1	130-01	0		
+79956	999	Manang (Gyaru)	ma² ga²	ma² ga²	wound	wound		1.8.6.2	131	0		
+79957	999	Manang (Gyaru)	tsa¹ mo¹	tsa¹ mo¹	painful	painful		1.1.5.1	132	0		
+79958	999	Manang (Gyaru)	gyᴇ² mo²	gyᴇ² mo²	itchy	itchy		1.6.5.5	133	0		1456,s
+79959	999	Manang (Gyaru)	riː¹	riː¹	scratch	scratch	V	1.6.5.5	134	0		2615
+79960	999	Manang (Gyaru)	mᴇn²	mᴇn²	medicine	medicine		5.4	134-01	0		5434
+79961	999	Manang (Gyaru)	ɖaː²	ɖaː²	cure	cure	V	1.1.5.1	135	0		
+79962	999	Manang (Gyaru)	dɯk²	dɯk²	poison	poison		6.4	135-02	0		2202
+79963	999	Manang (Gyaru)	sᴇː³	sᴇː³	kill	kill	V	6.4	136	0		1018
+79964	999	Manang (Gyaru)	syi²	syi²	die	die	V	1.1.6	137	0		27
+79965	999	Manang (Gyaru)	hla¹	hla¹	god	god		5.8.1.1	138	0		2264
+79966	999	Manang (Gyaru)	tsᴇ¹ ba	tsᴇ¹ ba	fight	fight	V	6.5	139	0		
+79967	999	Manang (Gyaru)	bam² ba	bam² ba	fight	fight	V	6.5		0		
+79968	999	Manang (Gyaru)	maː⁴ brin² ba	maː⁴ brin² ba	make war	make war	V	6.14	139-01	0		257,m,m
+79969	999	Manang (Gyaru)	brᴇː² mᴇ²	brᴇː² mᴇ²	win	win	V	6.19	139-02	0		
+79970	999	Manang (Gyaru)	gyᴇl² mᴇ²	gyᴇl² mᴇ²	lose	lose	V	6.10.1	139-03	0		
+79971	999	Manang (Gyaru)	laː¹	laː¹	flee	flee	V	6.7.2	140	0		
+79972	999	Manang (Gyaru)	syaŋ¹ laː²	syaŋ¹ laː²	sword	sword		5.15	142	0		
+79973	999	Manang (Gyaru)	pɯy³ dza²	pɯy³ dza²	spear	spear		5.14	143	0		
+79974	999	Manang (Gyaru)	mᴇ² dzo²	mᴇ² dzo²	bow	bow		5.15	144	0		
+79975	999	Manang (Gyaru)	da² liŋ²	da² liŋ²	arrow	arrow		5.15	145	0		
+79976	999	Manang (Gyaru)	mᴇ² bra²	mᴇ² bra²	gun	gun		5.15	145-01	0		
+79977	999	Manang (Gyaru)	mi²	mi²	person	person		4.5	146	0		
+79978	999	Manang (Gyaru)	byɯŋ²	byɯŋ²	male	male		1.9.6.1	147	0		1638
+79979	999	Manang (Gyaru)	mriŋ²	mriŋ²	female	female		1.9.3	148	0		m
+79980	999	Manang (Gyaru)	go² la²	go² la²	child	child		1.5.3.2	149	0		
+79981	999	Manang (Gyaru)	jaŋ² ba²	jaŋ² ba²	youth	youth		4.2.11	149-03	0		
+79982	999	Manang (Gyaru)	kyo² gro²	kyo² gro²	old person	old person		7.1.8.3	149-06	0		
+79983	999	Manang (Gyaru)	ʔa² ba²	ʔa² ba²	father	father		4.7.1	152	0		x
+79984	999	Manang (Gyaru)	ʔa² ma²	ʔa² ma²	mother	mother		4.7.1	153	0		
+79985	999	Manang (Gyaru)	ʔa² kyᴇ²	ʔa² kyᴇ²	grandfather	grandfather		4.7.1	153-04	0		
+79986	999	Manang (Gyaru)	mᴇː²	mᴇː²	grandmother	grandmother		4.7.1	153-05	0		
+79987	999	Manang (Gyaru)	ʔa² gɯ²	ʔa² gɯ²	uncle	uncle		4.7.1	153-06	0		
+79988	999	Manang (Gyaru)	ʔa² syaŋ²	ʔa² syaŋ²	uncle	uncle		4.7.1		0		
+79989	999	Manang (Gyaru)	ʔam² jaŋ²	ʔam² jaŋ²	aunt	aunt		4.7.1	153-07	0		
+79990	999	Manang (Gyaru)	ʔa² rɯ²	ʔa² rɯ²	aunt	aunt		4.7.1		0		
+79991	999	Manang (Gyaru)	tswa²	tswa²	son	son		4.7.3	154	0		
+79992	999	Manang (Gyaru)	tswa² mᴇː²	tswa² mᴇː²	daughter	daughter		4.7.3	155	0		
+79993	999	Manang (Gyaru)	ʔa² kyᴇ² tᴇː²	ʔa² kyᴇ² tᴇː²	brother	brother		1.5.3.2	156	0		
+79994	999	Manang (Gyaru)	ʔa²nwa²	ʔa²nwa²	sister	sister		4.7.2	157	0		
+79995	999	Manang (Gyaru)	pa²	pa²	husband	husband		4.7.4	158	0	z	
+79996	999	Manang (Gyaru)	byᴇ²	byᴇ²	wife	wife		4.7.4	159	0		
+79997	999	Manang (Gyaru)	dzaŋ³ dzaŋ³	dzaŋ³ dzaŋ³	get married	get married		1.1.5	159-03	0		
+79998	999	Manang (Gyaru)	roː² ba³	roː² ba³	friend	friend		4.4.2	159-06	0		
+79999	999	Manang (Gyaru)	miŋ²	miŋ²	name	name		5.8	159-10	0		2450
+80000	999	Manang (Gyaru)	ɖon² ba³	ɖon² ba³	family	family		4.7.5	159-11	0		
+80001	999	Manang (Gyaru)	gyᴇː² sa²	gyᴇː² sa²	village	village		5.8	160	0		
+80002	999	Manang (Gyaru)	yɯl²	yɯl²	town	town		9.10.3	160-01	0		
+80003	999	Manang (Gyaru)	brɯn⁴ ba	brɯn⁴ ba	shoot	shoot	V	6.2.2.1	162	0		
+80004	999	Manang (Gyaru)	pɯː²	pɯː²	trap	trap		5.14	162-01	0		
+80005	999	Manang (Gyaru)	bro⁴ ba	bro⁴ ba	rich	rich		5.9	162-03	0		
+80006	999	Manang (Gyaru)	dɯː¹ ba	dɯː¹ ba	poor	poor		9.6.2.2	162-04	0		
+80007	999	Manang (Gyaru)	yoː⁴ dɯ² ba	yoː⁴ dɯ² ba	steal	steal	V	6.2.2.1	163	0		
+80008	999	Manang (Gyaru)	gyᴇː³	gyᴇː³	work	work		6.1.1	164	0		
+80009	999	Manang (Gyaru)	gyᴇː³ la² ba	gyᴇː³ la² ba	work	work	V	6.1.1	164-01	0		
+80010	999	Manang (Gyaru)	blᴇː³ sam² ba	blᴇː³ sam² ba	rest	rest	V	1.1.4.1	165	0		
+80011	999	Manang (Gyaru)	piː¹ ba	piː¹ ba	peel	peel	V	1.5.3.2	166	0		590,s
+80012	999	Manang (Gyaru)	ya³ ba	ya³ ba	go	go		6.7.2	167	0		
+80013	999	Manang (Gyaru)	yᴇ³ ro²	yᴇ³ ro²	go(IMP)	go(IMP)		6.7.2	167	0		
+80014	999	Manang (Gyaru)	ka² ba	ka² ba	come	come		6.7.1	168	0		
+80015	999	Manang (Gyaru)	ko²	ko²	come(IMP)	come(IMP)		6.7.1	168	0		
+80016	999	Manang (Gyaru)	yᴇː³ ya² ba	yᴇː³ ya² ba	return	return		6.2.2.1	168-01	0		
+80017	999	Manang (Gyaru)	yᴇ³ ro²	yᴇ³ ro²	return(IMP)	return(IMP)		6.2.2.1	168-01	0		
+80018	999	Manang (Gyaru)	tɯ² ba	tɯ² ba	remain	remain		6.7.11	168-02	0		
+80019	999	Manang (Gyaru)	to⁴	to⁴	remain(IMP)	remain(IMP)		6.7.11	168-02	0		
+80020	999	Manang (Gyaru)	pi² dzᴇ² li² ya² ba	pi² dzᴇ² li² ya² ba	exit	exit		6.7.2	169	0		
+80021	999	Manang (Gyaru)	naŋ² ri² ka² ba	naŋ² ri² ka² ba	enter	enter	V	6.7.1	170	0		
+80022	999	Manang (Gyaru)	gor³ gi²	gor³ gi²	turn	turn		6.7.6	171	0		
+80023	999	Manang (Gyaru)	go³ ro³ to³ ba	go³ ro³ to³ ba	turn around	turn around		6.7.6	171-01	0		
+80024	999	Manang (Gyaru)	kyᴇn² mo³ mᴇ	kyᴇn² mo³ mᴇ	get lost	get lost		1.1.5	171-02	0		
+80025	999	Manang (Gyaru)	yan² ba	yan² ba	arrive	arrive		6.7.1	171-03	0		
+80026	999	Manang (Gyaru)	ʈɯ² mᴇ²	ʈɯ² mᴇ²	stop	stop	V	6.7.11	172	0		
+80027	999	Manang (Gyaru)	yᴇː² grᴇː³ ba	yᴇː² grᴇː³ ba	go over	go over	V	6.7.2	172-01	0		
+80028	999	Manang (Gyaru)	broː⁴ ba	broː⁴ ba	walk	walk	V	6.7.4	173	0		
+80029	999	Manang (Gyaru)	gyɯ³ ba	gyɯ³ ba	run	run	V	6.7.4	174	0		
+80030	999	Manang (Gyaru)	gyo³ nyo²	gyo³ nyo²	swift	swift		6.7.4	175	0		
+80031	999	Manang (Gyaru)	go³ lᴇ³ lᴇ²	go³ lᴇ³ lᴇ²	slow	slow		9.6.2.1	176	0		
+80032	999	Manang (Gyaru)	gɯ³ lᴇ² ya² ba	gɯ³ lᴇ² ya² ba	creep	creep	V	6.7.9	177	0		
+80033	999	Manang (Gyaru)	bɯn² ba	bɯn² ba	ride	ride	V	6.2	177-01	0		
+80034	999	Manang (Gyaru)	naː¹ ba	naː¹ ba	carry	carry	V	6.2.2.2.1	177-02	0		
+80035	999	Manang (Gyaru)	kyᴇn³	kyᴇn³	road	road		9.10.1	178	0		1017
+80036	999	Manang (Gyaru)	dzᴇn²	dzᴇn²	bridge	bridge		9.10.2	179	0		3604
+80037	999	Manang (Gyaru)	ko³ lo²	ko³ lo²	wheel	wheel		5.1	181	0		bTibetan
+80038	999	Manang (Gyaru)	gᴇː²	gᴇː²	language	language		5.8	183	0		
+80039	999	Manang (Gyaru)	loː³	loː³	speak	speak	V	8.5.10.1	184	0		
+80040	999	Manang (Gyaru)	loː³	loː³	say	say	V	1.8.7	185	0		
+80041	999	Manang (Gyaru)	nyiː² ba	nyiː² ba	ask	ask	V	8.5.7.1	186	0		
+80042	999	Manang (Gyaru)	kyiː² syᴇn³ ba	kyiː² syᴇn³ ba	answer	answer	V	8.5.6	186-01	0		
+80043	999	Manang (Gyaru)	syor³ tᴇ²	syor³ tᴇ²	lie	lie	N	8.5.10.4	186-03	0		
+80044	999	Manang (Gyaru)	ŋo¹ do²	ŋo¹ do²	truth	truth		8.3.2.5.7	186-04	0		
+80045	999	Manang (Gyaru)	yi³ ga²	yi³ ga²	letter	letter		5.1	186-05	0		
+80046	999	Manang (Gyaru)	briː¹ ba	briː¹ ba	write	write	V	6.2.2.9.1	186-06	0		2616,s
+80047	999	Manang (Gyaru)	ʈoː² ba	ʈoː² ba	read	read	V	6.2.2.9.3	186-07	0		
+80048	999	Manang (Gyaru)	syɯ³ syo²	syɯ³ syo²	paper	paper		5.1	186-08	0		
+80049	999	Manang (Gyaru)	wᴇː² ba	wᴇː² ba	call	call	V	8.5.13	187	0		
+80050	999	Manang (Gyaru)	min²	min²	name	name		5.8	188	0		2450
+80051	999	Manang (Gyaru)	gyaŋ² ba	gyaŋ² ba	play	play	V	6.1.1.3	189	0		5707,s
+80052	999	Manang (Gyaru)	gwᴇː⁴ brɯŋ² ba	gwᴇː⁴ brɯŋ² ba	sing	sing	V	5.1	190	0		
+80053	999	Manang (Gyaru)	syo² ba	syo² ba	dance	dance	V	6.7.9	191	0		
+80054	999	Manang (Gyaru)	bin¹ ba	bin¹ ba	give	give	V	6.23	192	0		2158,s
+80055	999	Manang (Gyaru)	yaŋ⁴ ba	yaŋ⁴ ba	get	get	V	1.1.5	192-01	0		
+80056	999	Manang (Gyaru)	dzoŋ¹ ba	dzoŋ¹ ba	sell	sell	V	6.22	192-02	0		
+80057	999	Manang (Gyaru)	kyɯː³ ba	kyɯː³ ba	buy	buy	V	6.22	192-03	0		
+80058	999	Manang (Gyaru)	kiː² paː¹ ba	kiː² paː¹ ba	lend	lend	V	6.22	192-04	0		
+80059	999	Manang (Gyaru)	kiː² ba	kiː² ba	borrow	borrow	V	6.22	192-05	0		
+80060	999	Manang (Gyaru)	tsaŋ⁴ ba	tsaŋ⁴ ba	send	send	V	6.2.2.2	192-06	0		
+80061	999	Manang (Gyaru)	bᴇː⁴ ba	bᴇː⁴ ba	return	return	V	6.2.2.1	192-07	0		
+80062	999	Manang (Gyaru)	sᴇː²	sᴇː²	price	price		5.9	192-08	0		
+80063	999	Manang (Gyaru)	pᴇː² mɯy²	pᴇː² mɯy²	money	money		5.9	192-09	0		
+80064	999	Manang (Gyaru)	goŋ² toː² ba	goŋ² toː² ba	expensive	expensive		5.9	192-10	0		
+80065	999	Manang (Gyaru)	goŋ² caŋ¹ ba	goŋ² caŋ¹ ba	cheap	cheap		5.9	192-11	0		
+80066	999	Manang (Gyaru)	do¹ ba	do¹ ba	meet	meet	v	6.2	193	0		5689,s
+80067	999	Manang (Gyaru)	gɯː¹ ba	gɯː¹ ba	wait	wait	V	6.1.1.6	194	0		
+80068	999	Manang (Gyaru)	syi¹ daŋ² la³	syi¹ daŋ² la³	scold	scold	V	8.5.1	194-03	0		
+80069	999	Manang (Gyaru)	kyɯː² ba	kyɯː² ba	deceive	deceive	V	8.3.3.4.3.2	194-04	0		
+80070	999	Manang (Gyaru)	brɯn¹ ba	brɯn¹ ba	hit	hit	V	6.8	195	0		
+80071	999	Manang (Gyaru)	roː¹ la² ba	roː¹ la² ba	help	help	V	6.2.2.1	195-02	0		
+80072	999	Manang (Gyaru)	nᴇ² ʈɯː² syɯ¹	nᴇ² ʈɯː² syɯ¹	introduce	introduce	V	8.5.11	195-03	0		
+80073	999	Manang (Gyaru)	swa¹ nyᴇː² ba	swa¹ nyᴇː² ba	bite	bite	V	1.3.4.4	196	0		
+80074	999	Manang (Gyaru)	gim² ba	gim² ba	take	take	V	6.21	197	0		
+80075	999	Manang (Gyaru)	yaː³ dᴇː² ba	yaː³ dᴇː² ba	hold	hold	V	6.16	198	0		
+80076	999	Manang (Gyaru)	cim¹ ba	cim¹ ba	seize	seize	V	6.21	199	0		
+80077	999	Manang (Gyaru)	biː¹ ba	biː¹ ba	release	release	V	6.10.1	200	0		
+80078	999	Manang (Gyaru)	liː¹ ba	liː¹ ba	throw	throw	V	6.12	201	0		
+80079	999	Manang (Gyaru)	liː¹ ba	liː¹ ba	throw away	throw away	V	6.12	201-01	0		
+80080	999	Manang (Gyaru)	dᴇː² ba	dᴇː² ba	touch	touch	V	8.4	202	0		
+80081	999	Manang (Gyaru)	nᴇː³ ba	nᴇː³ ba	rub	rub	V	8.4	203	0		4903,s
+80082	999	Manang (Gyaru)	yaː³ dᴇː² ba	yaː³ dᴇː² ba	wave	wave	v	6.7.4	204	0		
+80083	999	Manang (Gyaru)	kyᴇr² ba	kyᴇr² ba	push	push	V	6.2.2.3.1	205	0		
+80084	999	Manang (Gyaru)	diː¹ ba	diː¹ ba	pull	pull	v	6.2.2.3.1	206	0		
+80085	999	Manang (Gyaru)	naː¹ ba	naː¹ ba	carry	carry		6.2.2.2.1	208	0		
+80086	999	Manang (Gyaru)	la² ba³ brɯŋ²	la² ba³ brɯŋ²	kick	kick	V	6.2.2.3.3	209	0		
+80087	999	Manang (Gyaru)	naŋ¹ ba	naŋ¹ ba	step	step	V	6.7.4	210	0		2134,s
+80088	999	Manang (Gyaru)	moː³ mᴇ²	moː³ mᴇ²	lose it	lose it	V	6.10.1	210-02	0		
+80089	999	Manang (Gyaru)	tsɯŋ¹ ba	tsɯŋ¹ ba	hide	hide	V	1.6.5.1	211	0		x
+80090	999	Manang (Gyaru)	tsaː³ la² ba	tsaː³ la² ba	preserve	preserve	V	6.18	211-01	0		
+80091	999	Manang (Gyaru)	jaː² ba	jaː² ba	seek	seek	V	6.2.2.2	212	0		
+80092	999	Manang (Gyaru)	yaŋ² ba	yaŋ² ba	find	find	V	6.21	213	0		
+80093	999	Manang (Gyaru)	dᴇn² ba	dᴇn² ba	show	show	V	6.2.2.8	214	0		
+80094	999	Manang (Gyaru)	tᴇn³ ba	tᴇn³ ba	put	put	V	6.17	215	0		
+80095	999	Manang (Gyaru)	gyᴇː²	gyᴇː²	hang	hang	V	6.1.1.5	215-03	0		
+80096	999	Manang (Gyaru)	brɯŋ³	brɯŋ³	pour	pour	V	6.6	215-04	0		
+80097	999	Manang (Gyaru)	tsaŋ³	tsaŋ³	put in	put in	V	6.17	215-041	0		
+80098	999	Manang (Gyaru)	tsa² la² ba	tsa² la² ba	collect	collect	V	6.21	216	0		
+80099	999	Manang (Gyaru)	dzɯ⁴ ba	dzɯ⁴ ba	make	make	V	6.14	217	0		
+80100	999	Manang (Gyaru)	ti¹ ba	ti¹ ba	destroy	destroy	V	6.9	218	0		
+80101	999	Manang (Gyaru)	byaː¹ ba	byaː¹ ba	split	split	V	6.9.3	220	0		
+80102	999	Manang (Gyaru)	ɖaː¹ ba	ɖaː¹ ba	split	split		6.9.3		0		
+80103	999	Manang (Gyaru)	gɯr³ la²	gɯr³ la²	bend	bend	V	9.5	221	0		
+80104	999	Manang (Gyaru)	ʈᴇː¹ ba	ʈᴇː¹ ba	break	break	V	9.5	222	0		
+80105	999	Manang (Gyaru)	hrɯ³ ba	hrɯ³ ba	wash	wash	V	6.2.2.5.2	223	0		2344,s
+80106	999	Manang (Gyaru)	nyaː⁴ ba	nyaː⁴ ba	wind	wind	V	3.2.1	224	0		
+80107	999	Manang (Gyaru)	dᴇn² ba	dᴇn² ba	tie	tie	V	6.13.1	225	0		
+80108	999	Manang (Gyaru)	bro³ ba	bro³ ba	untie	untie	V	6.13.1	226	0		
+80109	999	Manang (Gyaru)	gyᴇː² brɯŋ² ba	gyᴇː² brɯŋ² ba	cover	cover	V	5.8	227	0		
+80110	999	Manang (Gyaru)	ɖan² ba	ɖan² ba	swell	swell	V	1.1.5.2	228	0		
+80111	999	Manang (Gyaru)	gyaː² ba	gyaː² ba	stub	stub	V	9.7.1	229	0		
+80112	999	Manang (Gyaru)	taː² ba	taː² ba	cut	cut	V	6.9.3	230	0		
+80113	999	Manang (Gyaru)	ɖᴇː² ba	ɖᴇː² ba	mix	mix	V	6.13.4	231	0		
+80114	999	Manang (Gyaru)	tor³ ba	tor³ ba	dig	dig	V	6.11	232	0		
+80115	999	Manang (Gyaru)	la² ba	la² ba	do	do	V	6.1.1.1	233	0		
+80116	999	Manang (Gyaru)	jin² ba	jin² ba	end	end	V	9.5	233-02	0		
+80117	999	Manang (Gyaru)	tsᴇn² tᴇ²	tsᴇn² tᴇ²	stop	stop	V	6.7.11	233-04	0		
+80118	999	Manang (Gyaru)	gɯl² ba	gɯl² ba	move	move	V	6.7.11	234	0		
+80119	999	Manang (Gyaru)	tsoː² ba	tsoː² ba	assemble	assemble	V	6.19	234-03	0		
+80120	999	Manang (Gyaru)	con² ba	con² ba	jump	jump	V	6.7.8	235	0		6708,m
+80121	999	Manang (Gyaru)	glᴇː¹ ba	glᴇː¹ ba	go up	go up	V	6.7.2	236	0		
+80122	999	Manang (Gyaru)	bᴇː² ba	bᴇː² ba	come down	come down	V	6.7.1	237	0		
+80123	999	Manang (Gyaru)	dᴇː² ba	dᴇː² ba	fall	fall	V	6.1.1.4.2	238	0		
+80124	999	Manang (Gyaru)	bam³ ba	bam³ ba	get wet	get wet	V	1.1.5	239	0		5710,s
+80125	999	Manang (Gyaru)	kar² ba	kar² ba	dry	dry	V	6.6	240	0		
+80126	999	Manang (Gyaru)	dɯr² ba	dɯr² ba	compare	compare	V	8.3	240-01	0		
+80127	999	Manang (Gyaru)	gyɯr³ ba	gyɯr³ ba	change	change	V	9.5	240-06	0		
+80128	999	Manang (Gyaru)	ji¹ mᴇ	ji¹ mᴇ	run out	run out	V	6.7.4	240-71	0		
+80129	999	Manang (Gyaru)	naŋ¹ sᴇn¹ doŋ²	naŋ¹ sᴇn¹ doŋ²	think	think	V	8.3.1.13.1	241	0		
+80130	999	Manang (Gyaru)	go² jᴇ²	go² jᴇ²	know	know	V	8.3.1.12.1	242	0		
+80131	999	Manang (Gyaru)	go² jᴇ²	go² jᴇ²	understand	understand	V	8.3.1.13.1	242-01	0		
+80132	999	Manang (Gyaru)	ko⁴ ri⁴ ci¹	ko⁴ ri⁴ ci¹	memorize	memorize	V	8.3.1.16.1	242-02	0		
+80133	999	Manang (Gyaru)	mlᴇ² mᴇ	mlᴇ² mᴇ	forget	forget	V	8.3.1.16.1	243	0		2395,m
+80134	999	Manang (Gyaru)	ʈᴇn² ga² ba	ʈᴇn² ga² ba	remember	remember	V	8.3.1.16.1	243-01	0		
+80135	999	Manang (Gyaru)	loː³ ba	loː³ ba	teach	teach	V	6.19	244	0		5433,s
+80136	999	Manang (Gyaru)	loː³ ba	loː³ ba	learn	learn	V	8.3.1.12.1	244-01	0		5433,s
+80137	999	Manang (Gyaru)	nyi² mo²	nyi² mo²	fear	fear	V	8.3.1.10.1	245	0		
+80138	999	Manang (Gyaru)	daŋ¹ ba	daŋ¹ ba	like	like	V	8.3.1.1.1	246	0		
+80139	999	Manang (Gyaru)	ʔa⁴ daŋ⁴ ba	ʔa⁴ daŋ⁴ ba	dislike	dislike	V	8.3.1.1.2	246-01	0		
+80140	999	Manang (Gyaru)	daŋ¹ ba	daŋ¹ ba	rejoice	rejoice	V	8.3.1.5.1	247	0		
+80141	999	Manang (Gyaru)	sᴇn³ dɯː² ba	sᴇn³ dɯː² ba	feel sad	feel sad	V	8.4	247-01	0		
+80142	999	Manang (Gyaru)	yiː⁴ cᴇ² mo²	yiː⁴ cᴇ² mo²	believe	believe	V	8.3.1.12.1	247-03	0		
+80143	999	Manang (Gyaru)	syiː² daŋ³	syiː² daŋ³	get angry	get angry	V	1.1.5	248	0		
+80144	999	Manang (Gyaru)	kha³ ba	kha³ ba	get angry	get angry	V	1.1.5		0		
+80145	999	Manang (Gyaru)	bᴇː¹ bᴇː¹ mo²	bᴇː¹ bᴇː¹ mo²	feel ashamed	feel ashamed		8.4	248-02	0		
+80146	999	Manang (Gyaru)	sᴇn³ dza¹ mo²	sᴇn³ dza¹ mo²	feel anxious	feel anxious		8.4	248-03	0		
+80147	999	Manang (Gyaru)	ʔa⁴ byaŋ² ba	ʔa⁴ byaŋ² ba	foolish	foolish		9.6.2.2	248-05	0		
+80148	999	Manang (Gyaru)	byaŋ² ba	byaŋ² ba	clever	clever		9.6.1.2	248-06	0		
+80149	999	Manang (Gyaru)	sᴇn²	sᴇn²	mind	mind		1.10	249	0		66
+80150	999	Manang (Gyaru)	myoː² ba²	myoː² ba²	mad	mad		8.3.1.11.3	249-01	0		
+80151	999	Manang (Gyaru)	mo¹	mo¹	sky	sky		3.2.2	250	0		2473
+80152	999	Manang (Gyaru)	mo¹	mo¹	weather	weather		3.2.1	250-01	0		
+80153	999	Manang (Gyaru)	mɯʔ² pa²	mɯʔ² pa²	cloud	cloud		3.2.1	251	0		2465,s
+80154	999	Manang (Gyaru)	mɯk² sɯl²	mɯk² sɯl²	fog	fog		3.2.1	252	0		2465,m
+80155	999	Manang (Gyaru)	mo²	mo²	rain	rain		3.2.1	253	0		2473
+80156	999	Manang (Gyaru)	mo² yɯ¹ ba	mo² yɯ¹ ba	rain	rain	V	3.2.1	253-02	0		2473,2080,s
+80157	999	Manang (Gyaru)	mo² brɯ² lo²	mo² brɯ² lo²	thunder	thunder		3.2.1	254	0		2473,3629,m
+80158	999	Manang (Gyaru)	ga² bli²	ga² bli²	lightening	lightening		3.2.10	255	0		
+80159	999	Manang (Gyaru)	sya³	sya³	rainbow	rainbow		3.2.1	256	0		6000
+80160	999	Manang (Gyaru)	kyin⁴	kyin⁴	snow	snow		3.2.1	257	0		
+80161	999	Manang (Gyaru)	gᴇː⁴	gᴇː⁴	snow	snow		3.2.1	257	0		
+80162	999	Manang (Gyaru)	daŋ² gyaŋ²	daŋ² gyaŋ²	ice	ice		3.2.3	258	0		
+80163	999	Manang (Gyaru)	gyaŋ² caː² mᴇ	gyaŋ² caː² mᴇ	freeze	freeze	V	9.5	259	0		
+80164	999	Manang (Gyaru)	nyɯː³ mᴇ	nyɯː³ mᴇ	melt	melt	V	9.5	260	0		
+80165	999	Manang (Gyaru)	di¹ ni²	di¹ ni²	sun	sun		3.2.10	261	0		m,85
+80166	999	Manang (Gyaru)	la¹ ni²	la¹ ni²	moon	moon		3.2.2	262	0		1016,m
+80167	999	Manang (Gyaru)	swar¹	swar¹	star	star		3.2.2	263	0		3575
+80168	999	Manang (Gyaru)	wᴇ¹	wᴇ¹	light	light	N	7.1.11.1	264	0		2271
+80169	999	Manang (Gyaru)	gri²	gri²	shadow	shadow		3.2.10	265	0		2614
+80170	999	Manang (Gyaru)	toŋ³ sar² ba	toŋ³ sar² ba	light	light	A	7.1.11.1	266	0		
+80171	999	Manang (Gyaru)	naː² hɯn²	naː² hɯn²	dark	dark		9.4	267	0		
+80172	999	Manang (Gyaru)	hlaː¹ ba²	hlaː¹ ba²	wind	wind	N	3.2.1	268	0		
+80173	999	Manang (Gyaru)	hlaː² ba	hlaː² ba	blow	blow	V	1.3.1.4	269	0		1744,s
+80174	999	Manang (Gyaru)	tsa¹ mo²	tsa¹ mo²	hot	hot			270	0		
+80175	999	Manang (Gyaru)	kaŋ¹ mo²	kaŋ¹ mo²	cold	cold		7.1.2.3	271	0		
+80176	999	Manang (Gyaru)	gil² mo²	gil² mo²	cool	cool		7.1.2.3	271-01	0		
+80177	999	Manang (Gyaru)	ʈo⁴ mo²	ʈo⁴ mo²	warm	warm		7.1.2.3	272	0		
+80178	999	Manang (Gyaru)	sa¹	sa¹	ground	ground		3.2.11	272-01	0		
+80179	999	Manang (Gyaru)	ʈon²	ʈon²	mountain	mountain		3.2.5	273	0		
+80180	999	Manang (Gyaru)	gan¹	gan¹	mountain	mountain		3.2.5	273	0		3581
+80181	999	Manang (Gyaru)	syoŋ²	syoŋ²	valley	valley		3.2.5	273-02	0		
+80182	999	Manang (Gyaru)	syi¹ naː²	syi¹ naː²	woods	woods			274	0		
+80183	999	Manang (Gyaru)	taŋ²	taŋ²	plain	plain		3.2.5	275	0		
+80184	999	Manang (Gyaru)	tso¹	tso¹	lake	lake		3.2.5	276	0		
+80185	999	Manang (Gyaru)	syoŋ²	syoŋ²	river	river		3.2.3	277	0		
+80186	999	Manang (Gyaru)	syɯː¹ ba	syɯː¹ ba	sink	sink	V	6.6	279	0		
+80187	999	Manang (Gyaru)	gyɯr² ba	gyɯr² ba	flow	flow	V	6.6.1	281	0		
+80188	999	Manang (Gyaru)	gyɯ¹ gᴇː²	gyɯ¹ gᴇː²	shore	shore		3.2.3	282	0		
+80189	999	Manang (Gyaru)	gyam³ tso²	gyam³ tso²	sea	sea		3.2.3	283	0		
+80190	999	Manang (Gyaru)	ʔa² lon²	ʔa² lon²	wave	wave		6.7.4	284	0		
+80191	999	Manang (Gyaru)	sa² bok² do²	sa² bok² do²	island	island		3.2.5	285	0		
+80192	999	Manang (Gyaru)	yɯŋ¹	yɯŋ¹	stone	stone		3.2.9	286	0		1269
+80193	999	Manang (Gyaru)	byo¹ ma²	byo¹ ma²	sand	sand		3.2.11	287	0		
+80194	999	Manang (Gyaru)	sa¹	sa¹	soil	soil		3.2.11	288	0		
+80195	999	Manang (Gyaru)	pᴇː¹	pᴇː¹	iron	iron		3.2.4	288-03	0		
+80196	999	Manang (Gyaru)	mar⁴	mar⁴	gold	gold		3.2.4	288-04	0		1470
+80197	999	Manang (Gyaru)	mɯy⁴	mɯy⁴	silver	silver		3.2.4	288-05	0		5519
+80198	999	Manang (Gyaru)	syᴇ² ŋᴇː²	syᴇ² ŋᴇː²	lead	lead		6.2.2.1	288-07	0		5618,m
+80199	999	Manang (Gyaru)	syiŋ¹ toŋ²	syiŋ¹ toŋ²	tree	tree		3.1.2	289	0		2658,m
+80200	999	Manang (Gyaru)	ciː²	ciː²	grass	grass		3.1.8	290	0		
+80201	999	Manang (Gyaru)	doː² ma²	doː² ma²	trunk	trunk		1.4.1	291	0		14,m
+80202	999	Manang (Gyaru)	pyo² go²	pyo² go²	bark	bark	N	2.1.11.1	292	0		
+80203	999	Manang (Gyaru)	yal¹ gaː²	yal¹ gaː²	branch	branch		1.5.3.1	294	0		
+80204	999	Manang (Gyaru)	baː²	baː²	leaf	leaf		3.1.3	295	0		
+80205	999	Manang (Gyaru)	min² doː²	min² doː²	flower	flower		3.1.4	296	0		
+80206	999	Manang (Gyaru)	ɖa²	ɖa²	root	root		3.1.2	297	0		
+80207	999	Manang (Gyaru)	ci¹ ka² ba	ci¹ ka² ba	grow	grow	V	9.7.2	298	0		
+80208	999	Manang (Gyaru)	ro¹ jo² ba	ro¹ jo² ba	bear	bear	v	2.2.3	298-01	0		
+80209	999	Manang (Gyaru)	kar² ba	kar² ba	wither	wither	V	3.1.10	299	0		
+80210	999	Manang (Gyaru)	ma¹	ma¹	bamboo	bamboo		3.1.1	299-01	0		5664
+80211	999	Manang (Gyaru)	sᴇm² jᴇn²	sᴇm² jᴇn²	animal	animal		2.3	300	0		
+80212	999	Manang (Gyaru)	nyᴇ² ma²	nyᴇ² ma²	bird	bird		2.2.4	301	0		
+80213	999	Manang (Gyaru)	dar² ŋa²	dar² ŋa²	fish	fish		2.2.5	302	0		m,1455
+80214	999	Manang (Gyaru)	bɯ¹ lɯn²	bɯ¹ lɯn²	worm	worm		2.2.6	303	0		
+80215	999	Manang (Gyaru)	nɯ⁴ gyɯ²	nɯ⁴ gyɯ²	dog	dog		2.1.11	304	0		6026,1764
+80216	999	Manang (Gyaru)	da¹	da¹	horse	horse		2.1.7	304-02	0		5
+80217	999	Manang (Gyaru)	myᴇː³	myᴇː³	cattle	cattle		2.1.2	304-03	0		
+80218	999	Manang (Gyaru)	kyɯː¹	kyɯː¹	sheep	sheep		2.1.8	304-04	0		6027
+80219	999	Manang (Gyaru)	ra² rᴇ³	ra² rᴇ³	goat	goat		2.1.8	304-05	0		6031
+80220	999	Manang (Gyaru)	taː⁴	taː⁴	pig	pig		2.1.12	304-06	0		1006
+80221	999	Manang (Gyaru)	na¹ ga¹	na¹ ga¹	cock	cock		2.1.10	304-07	0		3442,m
+80222	999	Manang (Gyaru)	na¹ ga¹ ba³ lᴇ²	na¹ ga¹ ba³ lᴇ²	hen	hen		2.1.10	304-071	0		
+80223	999	Manang (Gyaru)	daː²	daː²	tiger	tiger		2.1.3	304-09	0		
+80224	999	Manang (Gyaru)	do¹ gon²	do¹ gon²	bear	bear		2.2.3	304-10	0		
+80225	999	Manang (Gyaru)	baŋ² jᴇn²	baŋ² jᴇn²	wolf	wolf		2.1.11	304-11	0		999R
+80226	999	Manang (Gyaru)	dan⁴ gɯ²	dan⁴ gɯ²	fox	fox		2.1.11	304-12	0		
+80227	999	Manang (Gyaru)	syaw²	syaw²	deer	deer		2.2.2	304-13	0		
+80228	999	Manang (Gyaru)	ʈi² myɯw²	ʈi² myɯw²	monkey	monkey		2.1.9	304-14	0		p,2462
+80229	999	Manang (Gyaru)	ri¹ bɯn²	ri¹ bɯn²	hare	hare		2.1.1	304-15	0		6076,1432
+80230	999	Manang (Gyaru)	nyi⁴ mɯː²	nyi⁴ mɯː²	mouse	mouse		2.1.1	304-16	0		
+80231	999	Manang (Gyaru)	po¹ baŋ²	po¹ baŋ²	bat	bat		2.2.4.1	304-19	0		
+80232	999	Manang (Gyaru)	ɖɯŋ³	ɖɯŋ³	shellfish	shellfish		2.2.5	305	0		
+80233	999	Manang (Gyaru)	jap⁴ gyᴇr²	jap⁴ gyᴇr²	eagle	eagle		2.2.4.1	305-01	0		
+80234	999	Manang (Gyaru)	ʔa¹ di¹	ʔa¹ di¹	crow	crow		2.2.4.1	305-06	0		
+80235	999	Manang (Gyaru)	bo² ro²	bo² ro²	crow	crow		2.2.4.1	305-06	0		
+80236	999	Manang (Gyaru)	con² go²	con² go²	sparrow	sparrow		2.2.4.1	305-07	0		
+80237	999	Manang (Gyaru)	no² gro²	no² gro²	ant	ant		2.2.6	306	0		
+80238	999	Manang (Gyaru)	bra⁴ di² gyaː²	bra⁴ di² gyaː²	spider	spider		2.2.6	306-01	0		
+80239	999	Manang (Gyaru)	lan³ go² gyaː²	lan³ go² gyaː²	mosquito	mosquito		2.2.6	307	0		b?Indic
+80240	999	Manang (Gyaru)	na² braŋ²	na² braŋ²	fly	fly	N	2.2.6	308	0		
+80241	999	Manang (Gyaru)	da² nyi²	da² nyi²	flea	flea		2.2.6	309	0		
+80242	999	Manang (Gyaru)	syᴇ¹	syᴇ¹	louse	louse		2.2.6	310	0		
+80243	999	Manang (Gyaru)	bɯ² kri²	bɯ² kri²	snake	snake		2.1.6.1	311	0		2623,6104
+80244	999	Manang (Gyaru)	rɯ¹	rɯ¹	horn	horn		1.2.2	312	0		814
+80245	999	Manang (Gyaru)	dar² ma²	dar² ma²	claw	claw		1.5.10.4	313	0		506,s
+80246	999	Manang (Gyaru)	mᴇː²	mᴇː²	tail	tail		1.4.10.1	314	0		1288
+80247	999	Manang (Gyaru)	sɯŋ²	sɯŋ²	beak / bill	beak / bill		1.3.1.2	315	0		477
+80248	999	Manang (Gyaru)	syᴇ³ baː²	syᴇ³ baː²	wing	wing		1.5.1.3	316	0		m,760
+80249	999	Manang (Gyaru)	syᴇ³ baː² mɯy²	syᴇ³ baː² mɯy²	feather	feather		1.6.1.1	317	0		735,m,363
+80250	999	Manang (Gyaru)	dzaŋ²	dzaŋ²	nest	nest		2.2.4	318	0		1615
+80251	999	Manang (Gyaru)	pyaŋ¹ ba	pyaŋ¹ ba	fly	fly	V	2.2.6	319	0		
+80252	999	Manang (Gyaru)	gyᴇl⁴ diː² ba	gyᴇl⁴ diː² ba	swim	swim	V	6.6	320	0		
+80253	999	Manang (Gyaru)	sop⁴ da²	sop⁴ da²	shape	shape		9.7.1	320-04	0		
+80254	999	Manang (Gyaru)	pol⁴ ba³	pol⁴ ba³	frog	frog		2.1.6.2	320-31	0		2148,s
+80255	999	Manang (Gyaru)	gi² gyil²	gi² gyil²	round	round		9.7.1	321	0		
+80256	999	Manang (Gyaru)	car² ba²	car² ba²	sharp	sharp		6.9.2	322	0		
+80257	999	Manang (Gyaru)	ʔa⁴ car² ba²	ʔa⁴ car² ba²	blunt	blunt		7.1.5.1	323	0		
+80258	999	Manang (Gyaru)	kɯn²	kɯn²	hole	hole		3.2.7	324	0		665
+80259	999	Manang (Gyaru)	bli² sɯr²	bli² sɯr²	straight	straight		7.1.5.1	325	0		
+80260	999	Manang (Gyaru)	bar²	bar²	things	things		8.1	325-04	0		
+80261	999	Manang (Gyaru)	to² ba	to² ba	big	big		9.7.2	326	0		
+80262	999	Manang (Gyaru)	rɯŋ¹ ba	rɯŋ¹ ba	tall	tall		9.7.2	326-01	0		
+80263	999	Manang (Gyaru)	bɯ⁴ dɯ² lɯ²	bɯ⁴ dɯ² lɯ²	little	little		9.7.2	327	0		
+80264	999	Manang (Gyaru)	rɯŋ³ ba	rɯŋ³ ba	long	long		9.7.2	328	0		1011,m
+80265	999	Manang (Gyaru)	hrɯŋ³ ba	hrɯŋ³ ba	short	short		9.7.2	329	0		
+80266	999	Manang (Gyaru)	to⁴ ba	to⁴ ba	thick	thick		9.7.2	329-01	0		
+80267	999	Manang (Gyaru)	bra² ba	bra² ba	thin	thin		9.7.2	329-02	0		
+80268	999	Manang (Gyaru)	hrɯm¹ pa²	hrɯm¹ pa²	thick	thick		9.7.2	330	0		
+80269	999	Manang (Gyaru)	ba² ba²	ba² ba²	thin	thin		9.7.2	331	0		5551,m
+80270	999	Manang (Gyaru)	tsᴇː¹	tsᴇː¹	color	color		9.4	332	0		
+80271	999	Manang (Gyaru)	wol³ gya²	wol³ gya²	red	red		9.4	333	0		
+80272	999	Manang (Gyaru)	biŋ¹ gya³	biŋ¹ gya³	blue	blue		9.4	334	0		
+80273	999	Manang (Gyaru)	ɯr² gya²	ɯr² gya²	yellow	yellow		9.4	335	0		
+80274	999	Manang (Gyaru)	jaŋ¹ gɯ²	jaŋ¹ gɯ²	green	green		9.4	336	0		
+80275	999	Manang (Gyaru)	dar² gya²	dar² gya²	white	white		9.4	337	0		m
+80276	999	Manang (Gyaru)	mlaŋ² gya²	mlaŋ² gya²	black	black		9.4	338	0		6130,m
+80277	999	Manang (Gyaru)	tsᴇː² brɯn² ba	tsᴇː² brɯn² ba	dye	dye	V	5.1	338-02	0		
+80278	999	Manang (Gyaru)	gᴇː²	gᴇː²	sound	sound		9.3	339	0		
+80279	999	Manang (Gyaru)	taŋ² ka² ba	taŋ² ka² ba	smell	smell	V	1.2.8.5	340	0		
+80280	999	Manang (Gyaru)	sᴇm² sa¹ ba	sᴇm² sa¹ ba	tender	tender		7.1.4.2	340-02	0		
+80281	999	Manang (Gyaru)	kɯ² ni² to¹ ba	kɯ² ni² to¹ ba	kind	kind		8.3.3.2.1	340-03	0		
+80282	999	Manang (Gyaru)	paŋ² to² ba	paŋ² to² ba	strong	strong		9.6.1.1	341	0		157,m,m
+80283	999	Manang (Gyaru)	paŋ² ʔa⁴ rᴇ²	paŋ² ʔa⁴ rᴇ²	weak	weak		1.1.5	342	0		
+80284	999	Manang (Gyaru)	ba	ba	weak	weak		1.1.5		0		
+80285	999	Manang (Gyaru)	ʈaŋ³ ba	ʈaŋ³ ba	correct	correct		8.3.3.9	343	0		
+80286	999	Manang (Gyaru)	swa² ba	swa² ba	good	good		9.6.1.1	344	0		
+80287	999	Manang (Gyaru)	go² do² ro²	go² do² ro²	bad	bad		9.6.2.1	345	0		
+80288	999	Manang (Gyaru)	lᴇː² la¹ ba	lᴇː² la¹ ba	easy	easy		9.6.1.1	345-01	0		
+80289	999	Manang (Gyaru)	ga² lᴇː²  ka² ba	ga² lᴇː²  ka² ba	difficult	difficult		9.6.2	345-02	0		m,m,229,s
+80290	999	Manang (Gyaru)	gaʔ³ to² ba	gaʔ³ to² ba	dangerous	dangerous		9.6.2.1	345-03	0		
+80291	999	Manang (Gyaru)	jam² ba²	jam² ba²	smooth	smooth		7.1.4.2	346	0		
+80292	999	Manang (Gyaru)	cᴇm³ ʔa² da² ba	cᴇm³ ʔa² da² ba	coarse	coarse		7.1.4.2	346-01	0		
+80293	999	Manang (Gyaru)	nyiŋ¹ ba²	nyiŋ¹ ba²	old	old		7.1.8.3	347	0		
+80294	999	Manang (Gyaru)	sam² ba²	sam² ba²	new	new		9.6.1.1	348	0		
+80295	999	Manang (Gyaru)	ʈiː⁴ ro² ba	ʈiː⁴ ro² ba	beautiful	beautiful		7.1.3	349	0		
+80296	999	Manang (Gyaru)	dzaŋ² ba	dzaŋ² ba	clean	clean		6.2.2.5.2	350	0		2745,s
+80297	999	Manang (Gyaru)	ʈiː⁴ ʔa⁴ ro² ba	ʈiː⁴ ʔa⁴ ro² ba	dirty	dirty		3.2.11	351	0		
+80298	999	Manang (Gyaru)	gyoŋ¹	gyoŋ¹	hard	hard		9.6.2	352	0		185
+80299	999	Manang (Gyaru)	pol² ba	pol² ba	soft	soft		7.1.4.2	353	0		
+80300	999	Manang (Gyaru)	sa¹	sa¹	place	place		9.10.5	353-01	0		
+80301	999	Manang (Gyaru)	ŋon² dzᴇ²	ŋon² dzᴇ²	front	front		1.4.4	354	0		1192,m
+80302	999	Manang (Gyaru)	lyiː² dzᴇ²	lyiː² dzᴇ²	back	back		1.4.8	355	0		209,m
+80303	999	Manang (Gyaru)	rᴇː¹	rᴇː¹	side	side		1.4.5	355-01	0		
+80304	999	Manang (Gyaru)	ba² ran³	ba² ran³	between	between		9.2.3	356	0		
+80305	999	Manang (Gyaru)	gɯn¹	gɯn¹	center	center		1.9.4	356-01	0		m
+80306	999	Manang (Gyaru)	pyi² ri²	pyi² ri²	on	on		10.1.1	357	0		
+80307	999	Manang (Gyaru)	naŋ² ri³	naŋ² ri³	under	under		9.2.2	358	0		
+80308	999	Manang (Gyaru)	naŋ² ri³	naŋ² ri³	inside	inside		9.2.5	359	0		2118,m
+80309	999	Manang (Gyaru)	pyi² dza³ ri²	pyi² dza³ ri²	outside	outside		9.2.7	360	0		
+80310	999	Manang (Gyaru)	gyᴇː⁴ dzᴇ²	gyᴇː⁴ dzᴇ²	right	right		1.5.3.2	361	0		2786
+80311	999	Manang (Gyaru)	dor² dzᴇ²	dor² dzᴇ²	left	left		1.5.3.2	362	0		
+80312	999	Manang (Gyaru)	dzoː²	dzoː²	tip	tip		9.2.1	363	0		
+80313	999	Manang (Gyaru)	go² ro²	go² ro²	around	around		9.2.5	363-01	0		
+80314	999	Manang (Gyaru)	nya⁴ ba	nya⁴ ba	near	near		9.2.3	364	0		2496,m
+80315	999	Manang (Gyaru)	taː⁴ rɯŋ² ba	taː⁴ rɯŋ² ba	far	far		9.2.4	365	0		
+80316	999	Manang (Gyaru)	no¹ ba	no¹ ba	high	high		7.1.5.3	366	0		
+80317	999	Manang (Gyaru)	ma¹ ba	ma¹ ba	low	low		7.1.5.3	367	0		
+80318	999	Manang (Gyaru)	diŋ⁴ rɯŋ² ba	diŋ⁴ rɯŋ² ba	deep	deep		7.1.5.3	368	0		
+80319	999	Manang (Gyaru)	diŋ⁴ ʔa⁴ rɯŋ² ba	diŋ⁴ ʔa⁴ rɯŋ² ba	shallow	shallow		7.1.5.3	369	0		
+80320	999	Manang (Gyaru)	kyᴇ⁴ to² ba	kyᴇ⁴ to² ba	wide	wide		9.7.2	370	0		
+80321	999	Manang (Gyaru)	kyᴇ⁴ ʔa⁴ to² ba	kyᴇ⁴ ʔa⁴ to² ba	narrow	narrow		9.7.2	371	0		
+80322	999	Manang (Gyaru)	yon³	yon³	together	together		10.1.1	372	0		
+80323	999	Manang (Gyaru)	nan²	nan²	full	full		1.1.3.2	373	0		5715
+80324	999	Manang (Gyaru)	tᴇn²	tᴇn²	empty	empty		7.1.2.1	374	0		
+80325	999	Manang (Gyaru)	co²	co²	direction	direction		9.2.8	375	0		
+80326	999	Manang (Gyaru)	syar² co²	syar² co²	east	east		9.2.8	375-01	0		2677
+80327	999	Manang (Gyaru)	nɯp¹ co²	nɯp¹ co²	west	west		9.2.8	375-02	0		2517
+80328	999	Manang (Gyaru)	hlo¹ co²	hlo¹ co²	south	south		9.2.8	375-03	0		
+80329	999	Manang (Gyaru)	jaŋ³ co²	jaŋ³ co²	north	north		9.2.8	375-04	0		
+80330	999	Manang (Gyaru)	na² nan²	na² nan²	morning	morning		9.1.4	376	0		
+80331	999	Manang (Gyaru)	di² ni² ʈᴇ³	di² ni² ʈᴇ³	noon	noon		9.1.4	376-01	0		
+80332	999	Manang (Gyaru)	ʈᴇ³	ʈᴇ³	noon	noon		9.1.4		0		
+80333	999	Manang (Gyaru)	din¹ dzᴇ² ni³	din¹ dzᴇ² ni³	daytime	daytime		9.1.3	377	0		
+80334	999	Manang (Gyaru)	nyᴇː² dzᴇ²	nyᴇː² dzᴇ²	evening	evening		9.1.4	378	0		
+80335	999	Manang (Gyaru)	mɯn² dzᴇ²	mɯn² dzᴇ²	night	night		9.1.4	379	0		
+80336	999	Manang (Gyaru)	do² so²	do² so²	now	now		9.1.5	382	0		
+80337	999	Manang (Gyaru)	do² sᴇn²	do² sᴇn²	at once	at once		10.0	382-01	0		
+80338	999	Manang (Gyaru)	na² raŋ²	na² raŋ²	before	before		9.1.5	383	0		
+80339	999	Manang (Gyaru)	jɯ² jɯː²	jɯ² jɯː²	after	after		9.1.5	384	0		
+80340	999	Manang (Gyaru)	da⁴ ra² graŋ²	da⁴ ra² graŋ²	always	always		9.1.1	385	0		
+80341	999	Manang (Gyaru)	dzᴇ²	dzᴇ²	always	always		9.1.1		0		
+80342	999	Manang (Gyaru)	ga³ lᴇ² ga² lᴇ²	ga³ lᴇ² ga² lᴇ²	often	often		9.1.1	386	0		
+80343	999	Manang (Gyaru)	la⁴ gᴇ² la³ gᴇ²	la⁴ gᴇ² la³ gᴇ²	sometimes	sometimes		9.1.5	386-01	0		
+80344	999	Manang (Gyaru)	di² ni²	di² ni²	today	today		9.1.3	387	0		
+80345	999	Manang (Gyaru)	dᴇ³ lᴇ²	dᴇ³ lᴇ²	yesterday	yesterday		9.1.3	388	0		
+80346	999	Manang (Gyaru)	nᴇ² sᴇ²	nᴇ² sᴇ²	tomorrow	tomorrow		9.1.3	389	0		
+80347	999	Manang (Gyaru)	da³ ra² graŋ²	da³ ra² graŋ²	everyday	everyday		9.1.3	390	0		
+80348	999	Manang (Gyaru)	di³ ra²	di³ ra²	day	day		1.5.3.2	391	0		
+80349	999	Manang (Gyaru)	ni¹ ra¹	ni¹ ra¹	week	week		9.1.3	391-01	0		
+80350	999	Manang (Gyaru)	la¹ hri²	la¹ hri²	month	month		9.1.2	391-02	0		
+80351	999	Manang (Gyaru)	lo³ hri²	lo³ hri²	year	year		9.1.2	392	0		
+80352	999	Manang (Gyaru)	lo²	lo²	age	age		9.1.2	392-01	0		
+80353	999	Manang (Gyaru)	byᴇr² dzᴇ²	byᴇr² dzᴇ²	spring	spring		6.7.9	392-02	0		
+80354	999	Manang (Gyaru)	sar¹ ga² dzᴇ²	sar¹ ga² dzᴇ²	autumn	autumn		9.1.2	392-04	0		
+80355	999	Manang (Gyaru)	gɯn² dzᴇ²	gɯn² dzᴇ²	winter	winter		9.1.2	392-05	0		
+80356	999	Manang (Gyaru)	caː³ ba	caː³ ba	count	count	V	6.2.2.2	393	0		
+80357	999	Manang (Gyaru)	hriː³	hriː³	one	one		9.9	394	0		
+80358	999	Manang (Gyaru)	nyiː³	nyiː³	two	two		9.9	395	0		2504
+80359	999	Manang (Gyaru)	sᴇn¹	sᴇn¹	three	three		9.9	396	0		2666
+80360	999	Manang (Gyaru)	bli³	bli³	four	four		9.9	397	0		2409
+80361	999	Manang (Gyaru)	ŋa⁴	ŋa⁴	five	five		9.9	398	0		1306
+80362	999	Manang (Gyaru)	ʈɯ³	ʈɯ³	six	six		9.9	399	0		2621
+80363	999	Manang (Gyaru)	nyi¹	nyi¹	seven	seven		9.9	400	0		2505
+80364	999	Manang (Gyaru)	brᴇ³	brᴇ³	eight	eight		9.9	401	0		
+80365	999	Manang (Gyaru)	gɯ¹	gɯ¹	nine	nine		9.9	402	0		
+80366	999	Manang (Gyaru)	jɯ²	jɯ²	ten	ten		9.9	403	0		
+80367	999	Manang (Gyaru)	nyiː¹ syɯː²	nyiː¹ syɯː²	twenty	twenty		9.9	404	0		2504
+80368	999	Manang (Gyaru)	bra³	bra³	hundred	hundred		9.9	405	0		
+80369	999	Manang (Gyaru)	da² lᴇː²	da² lᴇː²	time	time		9.1.5	406	0		
+80370	999	Manang (Gyaru)	nyᴇ²	nyᴇ²	time	time		9.1.5	406	0		
+80371	999	Manang (Gyaru)	tsak³ ran²	tsak³ ran²	all	all		9.9	407	0		
+80372	999	Manang (Gyaru)	ʈᴇ² ʈᴇ²	ʈᴇ² ʈᴇ²	half	half		9.8	408	0		
+80373	999	Manang (Gyaru)	son² gya²	son² gya²	one-third	one-third		9.9	408-01	0		
+80374	999	Manang (Gyaru)	syi² ci²	syi² ci²	quarter	quarter		9.8	408-02	0		
+80375	999	Manang (Gyaru)	nyi³ naː²	nyi³ naː²	both	both		9.9	408-03	0		
+80376	999	Manang (Gyaru)	rɯŋ³ dɯŋ²	rɯŋ³ dɯŋ²	measure	measure	V	9.8	408-04	0		
+80377	999	Manang (Gyaru)	tsᴇn² ba	tsᴇn² ba	measure	measure	V	9.8		0		
+80378	999	Manang (Gyaru)	li² mo²	li² mo²	heavy	heavy		9.6.2	409	0		2415,s
+80379	999	Manang (Gyaru)	nyaŋ¹ pa²	nyaŋ¹ pa²	light	light		7.1.11.1	410	0		
+80380	999	Manang (Gyaru)	ga³ di²	ga³ di²	many	many		9.9	411	0		
+80381	999	Manang (Gyaru)	dza⁴ bri²	dza⁴ bri²	few	few		9.9	412	0		
+80382	999	Manang (Gyaru)	ga⁴ di² da² mᴇ	ga⁴ di² da² mᴇ	increase	increase	V	9.5	412-01	0		
+80383	999	Manang (Gyaru)	caŋ² ni² yᴇ⁴ mᴇ	caŋ² ni² yᴇ⁴ mᴇ	decrease	decrease	V	9.5	412-02	0		
+80384	999	Manang (Gyaru)	ŋa²	ŋa²	I	I		4.1	413	0		2530
+80385	999	Manang (Gyaru)	nyaŋ⁴	nyaŋ⁴	we	we		4.1	414	0		
+80386	999	Manang (Gyaru)	gya⁴	gya⁴	you	you		4.1	415	0		
+80387	999	Manang (Gyaru)	gyi⁴ mi²	gyi⁴ mi²	you	you	PL	4.1	416	0		
+80388	999	Manang (Gyaru)	kyi²	kyi²	he	he		4.1	417	0		
+80389	999	Manang (Gyaru)	kyi²	kyi²	she	she		4.1	417-01	0		
+80390	999	Manang (Gyaru)	gyi¹ mi¹ sa² ha²	gyi¹ mi¹ sa² ha²	they	they		4.1	418	0		
+80391	999	Manang (Gyaru)	dzɯː²	dzɯː²	this	this		10.4.3.2	420	0		
+80392	999	Manang (Gyaru)	dzo² go²	dzo² go²	this	this		10.4.3.2	420	0		
+80393	999	Manang (Gyaru)	da² sa² ri²	da² sa² ri²	that	that		10.1	421	0		
+80394	999	Manang (Gyaru)	dɯ² nɯː² ri²	dɯ² nɯː² ri²	there	there		9.2.7	423	0		
+80395	999	Manang (Gyaru)	sɯ¹	sɯ¹	who	who		10.5.3	424	0		
+80396	999	Manang (Gyaru)	daː⁴	daː⁴	what	what		10.5.3	425	0		
+80397	999	Manang (Gyaru)	ha⁴ lo² go³	ha⁴ lo² go³	which	which		10.5.3	426	0		
+80398	999	Manang (Gyaru)	ha⁴ lᴇ²	ha⁴ lᴇ²	how	how		10.1	427	0		
+80399	999	Manang (Gyaru)	ha⁴ ni⁴	ha⁴ ni⁴	where	where		10.5.3	428	0		
+80400	999	Manang (Gyaru)	da⁴ lᴇ⁴ dzᴇ²	da⁴ lᴇ⁴ dzᴇ²	why	why		10.5.3	428-02	0		
+80401	999	Manang (Gyaru)	ha⁴ yaŋ²	ha⁴ yaŋ²	when	when		10.5.3	429	0		
+80402	999	Manang (Gyaru)	ga² di²	ga² di²	how many	how many		10.1	430	0		
+80403	999	Manang (Gyaru)	tsa³	tsa³	some	some		9.9	431	0		
+80404	999	Manang (Gyaru)	tsa² tsa²	tsa² tsa²	some	some		9.9	431	0		
+80405	999	Manang (Gyaru)	-syo¹	-syo¹	functor: superlative / -est	functor: superlative / -est		10.0	431-02	0		
+80406	999	Manang (Gyaru)	hri⁴ ʔa⁴ ra² mo²	hri⁴ ʔa⁴ ra² mo²	not at all	not at all		1.5.3.2	431-03	0		
+80407	999	Manang (Gyaru)	hri⁴ la³ gyaŋ³	hri⁴ la³ gyaŋ³	probably	probably		7.2	431-07	0		
+80408	999	Manang (Gyaru)	no¹ doː²	no¹ doː²	surely	surely		7.2	431-08	0		
+80409	999	Manang (Gyaru)	la³ gᴇ³	la³ gᴇ³	again	again		10.1	432	0		
+80410	999	Manang (Gyaru)	da² lᴇː²	da² lᴇː²	or	or		10.1.2.1	432-01	0		
+80411	999	Manang (Gyaru)	to² so²	to² so²	now	now		9.1.5	434	0		
+80412	999	Manang (Gyaru)	to² mar²	to² mar²	mutually	mutually		10.0	434-01	0		
+80413	999	Manang (Gyaru)	dᴇ² lᴇ²	dᴇ² lᴇ²	if	if		10.1.2.2	435	0		
+80414	999	Manang (Gyaru)	ri²	ri²	to /	to /		10.1.1	436	0		e
+80415	999	Manang (Gyaru)	doː¹ ni²	doː¹ ni²	up to	up to		9.2.1	437	0		
+80416	999	Manang (Gyaru)	dar²	dar²	from	from		10.1.1	438	0		
+80417	999	Manang (Gyaru)	ri²	ri²	at	at		10.0	439	0		
+80418	999	Manang (Gyaru)	ri²	ri²	in	in		10.1.1	440	0		
+80419	999	Manang (Gyaru)	yoŋ⁴	yoŋ⁴	together	together		10.1.1	441	0		
+80420	999	Manang (Gyaru)	dᴇː³	dᴇː³	and	and		10.1.2.1	442	0		
+80421	999	Manang (Gyaru)	yᴇ³	yᴇ³	also	also		10.1.2.1	444	0		
+80422	999	Manang (Gyaru)	bi² lᴇ²	bi² lᴇ²	than	than		10.1	445	0		
+80423	999	Manang (Gyaru)	ʔa⁴	ʔa⁴	not	not		1.5.3.2	447	0		
+80424	999	Manang (Gyaru)	dar⁴ bi² dzᴇ²	dar⁴ bi² dzᴇ²	because	because		10.1.2.2	448	0		
+80425	999	Manang (Gyaru)	la⁴ gya² na²	la⁴ gya² na²	but	but		10.0	449	0		
+80426	999	Manang (Gyaru)	-mo⁴	-mo⁴	exist	exist		1.1.2.3	453	0		
+80427	999	Manang (Gyaru)	kᴇn¹	kᴇn¹	can	can		10.2.2	454	0		5743
+80428	999	Manang (Gyaru)	syᴇn²	syᴇn²	another	another		9.9	456	0		
+80429	999	Manang (Gyaru)	la² cᴇ²	la² cᴇ²	sake of	sake of		8.1	457	0		
+80430	999	Manang (Gyaru)	yin⁴	yin⁴	yes	yes		1.5.3.2	457-04	0		
+80431	999	Manang (Gyaru)	ʔor⁴ cᴇ²	ʔor⁴ cᴇ²	thank you	thank you		8.5.11	457-10	0		
+80432	999	Manang (Gyaru)	tsᴇː² ri²	tsᴇː² ri²	in place of	in place of		10.1.1	457-13	0		

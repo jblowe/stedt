@@ -1,0 +1,30 @@
+tag: 389
+grpid: 2
+proto_language: PTB
+protoform: s/r-gwa-n
+gloss: NECK / NAPE
+semkey: 1.4.2
+sequence: 9.0
+status: KEEP
+public: true
+xrefs: NAPE
+references: set up by ZJH
+phonology:
+  handle: gwa
+  initial: gw
+  rhyme: a
+  initcover: K
+  rhymecover: V
+notes:
+- type: T
+  text: <par>The final <latinform>-n</latinform> in the reconstruction is motivated by the Thulung and
+    Khaling forms. The root as a whole seems fairly well established.</par>
+- type: T
+  text: '<par>In line with the frequently noted tendency of words meaning NECK / THROAT to have velar
+    initials, we have reconstructed no fewer than eleven etyma with initial velars or velar clusters:
+    <xref ref="389">#389</xref>, <xref ref="481">#481</xref>, <xref ref="486">#486</xref>, <xref ref="488">#488</xref>,
+    <xref ref="489">#489</xref>, <xref ref="491">#491</xref>, <xref ref="493">#493</xref>, <xref ref="494">#494</xref>,
+    <xref ref="495">#495</xref>, <xref ref="3361">#3361</xref>, and <xref ref="5651">#5651</xref>.</par><par>It
+    is highly likely that some of these etyma are allofams of each other. It is equally likely that a
+    given supporting form may have been assigned to the wrong etymon. However, on the basis of the available
+    data, this may be the best that can be done at this point.</par>'

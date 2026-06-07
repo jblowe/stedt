@@ -1,0 +1,26 @@
+tag: 6707
+grpid: 2
+proto_language: PTB
+protoform: p(r)wak
+gloss: JUMP
+semkey: 6.7.8
+sequence: 9.0
+status: KEEP
+public: true
+references: cf. HPTB p.378
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: pok
+  gloss: JUMP
+- grpid: 42
+  group: '6.1'
+  form: ʔpök
+  gloss: JUMP
+notes:
+- type: T
+  text: '<par>This etymon is set up as PLB <latinform>ʔpök</latinform> in LTSR #55, on the basis of forms
+    like Lahu <latinform>pɔ̂ʔ</latinform> and Bisu <latinform>pɤ̄k</latinform>. The evidence for medial
+    <latinform>*-r-</latinform> is from Tamangic and Kiranti.</par><par>The unusual PLB rhyme (<latinform>*-ök</latinform>)
+    might well be an artifact of the labial glide that is now reconstructed.</par><par>This root now seems
+    quite separate from <xref ref="2563">#2563</xref>, contra HPTB:378-379.</par>'

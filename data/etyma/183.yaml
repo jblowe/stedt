@@ -1,0 +1,35 @@
+tag: 183
+grpid: 2
+proto_language: PTB
+protoform: (t/d)ow-n
+gloss: THICK
+semkey: 9.7.2
+sequence: 27.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#319, HPTB pp. 181, 222, 224, 226, 228, 452, 515
+phonology:
+  handle: tow
+  initial: t
+  rhyme: ow=tow~d
+  initcover: T
+  rhymecover: WT
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: tu¹
+  gloss: THICK / BLUNT
+notes:
+- type: F
+  text: '<par><hanform>敦</hanform> OC <latinform>*twən</latinform>, GSR #464p &apos;solid; thick&apos;;
+    Schuessler 2007:220 <latinform>*tûn</latinform>; B &amp; S 2011: <latinform>*tˁur </latinform>; Mand.
+    <latinform>dūn</latinform>.<br /><hanform>焞</hanform> OC <latinform>*t’wən</latinform>, GSR #464r
+    &apos;ample; complete&apos;; Schuessler 2007:220 <latinform>*thûn</latinform>; B &amp; S 2011: <latinform>*tʰˁur</latinform>;
+    Mand. <latinform>tūn</latinform>.<br /><hanform>醇</hanform> OC <latinform>*d̂i̯wən</latinform>, GSR
+    #464f &apos;pure, unadulterated; generous&apos;; Schuessler 2007:220 <latinform>*dun</latinform>;
+    B &amp; S 2011: (<latinform>*dur</latinform>); Mand. <latinform>chún</latinform>.<br /><hanform>淳</hanform>
+    OC <latinform>*d̂i̯wən</latinform>, GSR #464e &apos;ample&apos;; Schuessler 2007:220 <latinform>*dun</latinform>;
+    B &amp; S 2011: <latinform>*dur {[d]ur}</latinform>; Mand. <latinform>chún</latinform>.<br /><hanform>肫</hanform>
+    OC <latinform>*t̂i̯wən</latinform>, GSR #427m &apos;sincere; diligent&apos;; Schuessler 2007:220 <latinform>*tun</latinform>;
+    B &amp; S 2011: (<latinform>*tun</latinform>); Mand. <latinform>zhūn</latinform>.</par>'

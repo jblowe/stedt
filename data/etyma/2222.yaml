@@ -1,0 +1,19 @@
+tag: 2222
+grpid: 2
+proto_language: PTB
+protoform: dzywan
+gloss: RIDE
+semkey: '6.2'
+sequence: 2816.0
+status: KEEP
+public: true
+references: STC#072
+phonology:
+  handle: dzyon
+  initial: dzy
+  rhyme: on=dźon
+  initcover: TS
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root was formerly reconstructed as <latinform>*dzyon</latinform>.</par>

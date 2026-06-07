@@ -1,0 +1,17 @@
+tag: 455
+grpid: 2
+proto_language: PTB
+protoform: s-na
+gloss: CROSSBOW
+semkey: '5.15'
+sequence: 9.0
+status: KEEP
+public: true
+references: cf. HPTB p.172
+notes:
+- type: F
+  text: '<par><hanform>弩</hanform> OC <latinform>*no</latinform>, GSR #94z &apos;crossbow&apos;; B &amp;
+    S 2011: <latinform>*C.nˁaʔ </latinform>; Mand. <latinform>nǔ</latinform>. ***Add note re MK borrowing.</par>'
+- type: T
+  text: <par>This is a Southeast Asian areal word, probably of Mon-Khmer origin.</par><par>A native Tibeto-Burman
+    root in this area is <xref ref="2411">#2411</xref>.</par>

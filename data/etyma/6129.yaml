@@ -1,0 +1,22 @@
+tag: 6129
+grpid: 2
+proto_language: PTB
+protoform: pʷa
+gloss: LOOK FOR / SEARCH
+semkey: 1.2.6.11
+sequence: 2363.0
+status: KEEP
+public: false
+references: 'based on HPTB #952 (p.24)'
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: pʰa
+  gloss: SEEK
+- grpid: 63
+  group: 1.3.1
+  form: pwa
+  gloss: SEARCH, SEEK
+notes:
+- type: T
+  text: <par>This root has so far been found only in the NE Indian linguistic area.</par>

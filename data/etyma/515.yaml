@@ -1,0 +1,19 @@
+tag: 515
+grpid: 2
+proto_language: PTB
+protoform: m-tsyey
+gloss: NAIL / CLAW
+semkey: 1.5.10
+sequence: 1.2
+status: KEEP
+public: true
+phonology:
+  handle: tsye
+  prefix: m
+  initial: tsy
+  rhyme: e
+  initcover: TS
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This allofam was formerly reconstructed as <latinform>*m-tsye</latinform>.</par>

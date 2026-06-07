@@ -1,0 +1,15 @@
+tag: 2025
+grpid: 2
+proto_language: PTB
+protoform: g(w/r)aŋ
+gloss: FOREHEAD
+semkey: 1.2.5.1
+sequence: 6.0
+status: KEEP
+public: true
+phonology:
+  handle: gwaŋ
+  initial: gw
+  rhyme: aŋ ⪤ gra
+  initcover: K
+  rhymecover: NL

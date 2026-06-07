@@ -1,0 +1,27 @@
+tag: 407
+grpid: 2
+proto_language: PTB
+protoform: z(u/i)r
+gloss: EDGE / CORNER / SIDE
+semkey: 9.2.7
+sequence: 16.0
+status: KEEP
+public: true
+phonology:
+  handle: zur
+  initial: z
+  rhyme: ur
+  initcover: S
+  rhymecover: L
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: si(i)r
+  gloss: LATERAL / SIDE
+notes:
+- type: T
+  text: <par>Although many of the Himalayan forms appear to be loans from Tibetan, the presence of the
+    same root in Kuki-Chin makes it clear that this is a general TB root.</par>
+- type: F
+  text: '<par><hanform>陬</hanform> OC <latinform>*tsu</latinform>/<latinform>*tsi̯u</latinform>, GSR #131l
+    &apos;angle, corner&apos;; Schuessler 2007:635 <latinform>*tso</latinform>; Mand. <latinform>zōu</latinform>.</par>'

@@ -1,0 +1,43 @@
+tag: 145
+grpid: 2
+proto_language: PTB
+protoform: g-r(y)ap
+gloss: STAND
+semkey: 1.5.2
+sequence: 10.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#246, HPTB pp. 136, 342, 48, 339
+phonology:
+  handle: ryap
+  prefix: g
+  initial: ry
+  rhyme: ap
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: rop
+  gloss: STAND UP / GET UP
+- grpid: 45
+  group: 6.1.2
+  form: ʔ-ryapᴸ
+  gloss: STAND UP
+- grpid: 42
+  group: '6.1'
+  form: ʔ-rapᴸ
+  gloss: STAND
+notes:
+- type: T
+  text: '<par>Chinese character. PLB <reconstruction>*ʔrap</reconstruction> (LTSR #175); STC #246; GSR
+    694a-d <latinform>, *gli̯əp</latinform>.</par>'
+- type: F
+  text: '<par><hanform>立</hanform> OC <latinform>*gli̯əp</latinform>, GSR #694a-d &apos;stand, set up&apos;;
+    B &amp; S 2011: <latinform>*k.rəp</latinform>; Mand. <latinform>lì</latinform>.<br /><hanform>位</hanform>
+    OC <latinform>*gi̯wɛd</latinform>, GSR #539a &apos;place of rank, position&apos;; B &amp; S 2011:
+    <latinform>*ɢʷrəp-s {*[ɢ]ʷrəp-s}</latinform>; Mand. <latinform>wèi</latinform>.</par>'
+- type: T
+  text: <par>Lepcha, Khaling, and several rGyalrong dialects have acquired the homorganic final nasal
+    in this root.</par>

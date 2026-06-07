@@ -1,0 +1,15 @@
+tag: 1901
+grpid: 2
+proto_language: PTB
+protoform: rwa(m/p)
+gloss: BODY
+semkey: 1.1.1
+sequence: 5.0
+status: DELETE
+public: false
+phonology:
+  handle: rwam/
+  initial: rw
+  rhyme: a(m/p)
+  initcover: L
+  rhymecover: NT

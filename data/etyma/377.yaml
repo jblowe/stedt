@@ -1,0 +1,55 @@
+tag: 377
+grpid: 2
+proto_language: PTB
+protoform: lak ⪤ C-yak
+gloss: ARM / HAND / WING
+semkey: 1.5.1.2
+sequence: 1.0
+status: KEEP
+public: true
+references: PAF
+phonology:
+  handle: lyak
+  prefix: g
+  initial: l(y)
+  rhyme: ak
+  initcover: L
+  rhymecover: T
+notes:
+- type: T
+  text: '<par>This etymon, far and away the most widely attested root in this semantic area in TB as a
+    whole, is characterized by considerable morphophonemic complexity. The basic allofam is <xref ref="695">#695
+    </xref> (1a), but in many daughter languages the lateral has become a yod, yielding forms like <xref
+    ref="696">#696 </xref> (1b). By a further sound change, this yod has developed into <latinform>z-</latinform>
+    or <latinform>ʑ-</latinform>, but reflexes with these initials are also assigned to (1b). In other
+    languages we find forms with <latinform>d-</latinform> rather than <latinform>l-</latinform>. Two
+    explanations are possible here: <strong>(a)</strong> These languages could have added a prefix <latinform>d-</latinform>
+    to the yodated  variant, yielding <xref ref="699">#699 </xref> (1c), which sometimes developed into
+    reflexes with voiced affricate initials like <latinform>dʑ-</latinform>; in other cases, the prefix
+    &quot;preempted&quot; the initial entirely, giving forms like <xref ref="700">#700 </xref> (1d).  <strong>(b)</strong>
+    Alternatively, we might assume that these latter forms arose directly from <xref ref="695">#695 </xref>
+    via a sporadic &quot;deltacism&quot;, perhaps via an intermediate <latinform>**lyak</latinform>. A
+    handful of reflexes contain both an <latinform>l</latinform> and a <latinform>d</latinform>, probably
+    best explained of reprefixation after the original <latinform>l</latinform> had become <latinform>d</latinform>.<footnote>For
+    an extended discussion of <latinform>d/l</latinform> interchange in a variety of languages, see Matisoff
+    2013 (&quot;The dinguist&apos;s dilemma: regular and sporadic <latinform>d/l</latinform> interchange
+    in Sino-Tibetan and elsewhere&quot;).</footnote>  Other reflexes point to a prefix <latinform>g-</latinform>
+    added to the yodated root, <xref ref="702">#702 </xref> (1e), with secondary meanings like &apos;cubit&apos;
+    or &apos;armpit&apos;; some reflexes with affricated initials are assigned to this variant rather
+    than to <xref ref="699">#699 </xref> (see especially the Written Burmese triplet for &apos;armpit&apos;).
+    Finally, an honorific Written Tibetan form for &apos;hand&apos; reflects a labial prefix, <xref ref="705">#705
+    </xref> (1f).</par><par>Note that all these prefixes (<latinform>d-</latinform>, <latinform>g-</latinform>,
+    <latinform>p-</latinform>) are deemed to have been added to the variant with <latinform>y-</latinform>
+    rather than <latinform>l-</latinform>, as reflected in the pan-allofamic formula given above, where
+    &quot;C-&quot; stands for a consonantal prefix:</par><par><reconstruction>*d</reconstruction><br /><reconstruction>*g      -yak</reconstruction><br
+    /><reconstruction>*p</reconstruction></par><par>Benedict originally reconstructed this root simply
+    as <latinform>*lak</latinform>, but in the revised version of STC he included prefixal <latinform>g-</latinform>
+    in the protoform (STC #86). This reconstruction was followed by Weidert (1987:#689), and by French
+    (1983:500) for Proto-Northern Naga. This elevation of <latinform>g-</latinform> to special proto-status
+    seems unwarranted, however, since the <latinform>d-</latinform> prefix is actually much more widespread.
+    There are in fact no unambiguous reflexes of a prototype <latinform>*g-lak</latinform>. </par><par>It
+    is extremely interesting to note that a number of languages have forms for FOOT that reflect the open
+    syllables <latinform>*la</latinform> or <latinform>*ya</latinform>, both of which could also take
+    a prefix (either <latinform>d-</latinform> or <latinform>g-</latinform> that sometimes led to affrication
+    of the initial). This is noted with puzzlement in STC (p. 34 and n. 308), but it seems irresistible
+    to posit some sort of connection with this etymon for HAND.</par>'

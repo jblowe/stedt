@@ -1,0 +1,31 @@
+tag: 2774
+grpid: 2
+proto_language: PTB
+protoform: s-wa
+gloss: BE IN MOTION / GO / COME
+semkey: 10.4.1.1
+sequence: 1127.0
+status: KEEP
+public: true
+references: cf. STC p.105, HPTB p.173
+phonology:
+  handle: wa
+  prefix: s
+  initial: w
+  rhyme: a
+  initcover: L
+  rhymecover: V
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: wa
+  gloss: GO
+- grpid: 63
+  group: 1.3.1
+  form: wa
+  gloss: GO
+notes:
+- type: F
+  text: '<par><hanform>于</hanform> OC <latinform>*gi̯wo</latinform>, GSR #97a-g &apos;proceed; go&apos;;
+    Schuessler 2007:583 <latinform>*wa</latinform>; B &amp; S 2011: <latinform>*ɢʷa {ɢʷ(r)a}</latinform>;
+    Mand. <latinform>yú</latinform>.</par>'

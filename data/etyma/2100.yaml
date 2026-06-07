@@ -1,0 +1,20 @@
+tag: 2100
+grpid: 2
+proto_language: PTB
+protoform: nwaŋ
+gloss: MOUTH
+semkey: 1.3.1
+sequence: 16.0
+status: KEEP
+public: true
+references: Jingpho/Kanauri
+phonology:
+  handle: noŋ
+  initial: n
+  rhyme: oŋ
+  initcover: M
+  rhymecover: N
+notes:
+- type: T
+  text: <par>The final stop in the first syllable of Damu <latinform><emph>ȵok</emph>-ko</latinform> &apos;lip&apos;
+    seems definitely to be due to assimilation to the initial of the second syllable.</par>

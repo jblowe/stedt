@@ -1,0 +1,19 @@
+tag: 5015
+grpid: 8
+proto_language: PKC
+protoform: luut
+gloss: ENTER
+semkey: 6.7.1
+sequence: 8.1
+status: KEEP
+public: false
+references: 'PKC #1015'
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: luk OR lap
+  gloss: ENTER
+notes:
+- type: T
+  text: <par>This is the simplex counterpart of the causative root <xref ref="5111">#5111</xref>.</par><par>There
+    is a possible relationship between this PKC etymon and the tentatively reconstructed root <xref ref="5783">#5783</xref>.</par>

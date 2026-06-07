@@ -1,0 +1,18 @@
+tag: 1702
+grpid: 2
+proto_language: PTB
+protoform: ʔ-bra-n/t
+gloss: EAT / GNAW
+semkey: 1.5.3.2
+sequence: 2.0
+status: DELETE
+public: false
+references: Burmese, Himalayish
+phonology:
+  handle: bra
+  prefix: ʔ
+  initial: br
+  rhyme: a-n/t
+  suffix: n/t
+  initcover: P
+  rhymecover: VNT

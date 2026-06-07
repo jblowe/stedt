@@ -1,0 +1,17 @@
+tag: 1323
+grpid: 2
+proto_language: PTB
+protoform: kum
+gloss: SPLEEN
+semkey: 1.7.4
+sequence: 6.0
+status: DELETE
+public: false
+exemplary: true
+references: 'Merge with #206?'
+phonology:
+  handle: kum
+  initial: k
+  rhyme: um
+  initcover: K
+  rhymecover: N

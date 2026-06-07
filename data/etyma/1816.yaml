@@ -1,0 +1,21 @@
+tag: 1816
+grpid: 3
+proto_language: NEIA
+protoform: ha
+gloss: BREATHE
+semkey: 1.1.2.2
+sequence: 7.0
+status: KEEP
+public: true
+references: '("KMR") '
+phonology:
+  handle: ha
+  initial: h
+  rhyme: a
+  initcover: H
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This weakly attested root seems to have an onomatopoetic component, and awaits further confirmation.
+    It bears a strong resemblance to <xref ref="1817">#1817</xref>, and might well be combined with it
+    in the future.</par>

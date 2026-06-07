@@ -1,0 +1,17 @@
+tag: 1805
+grpid: 2
+proto_language: PTB
+protoform: m/s-kam
+gloss: LEAN (MEAT, PERSON)
+semkey: 1.1.1
+sequence: 3.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: m/g-
+  prefix: m/g
+  initial: k
+  rhyme: am
+  initcover: K
+  rhymecover: N

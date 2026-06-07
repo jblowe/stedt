@@ -1,0 +1,17 @@
+tag: 2182
+grpid: 2
+proto_language: PTB
+protoform: s-bwam ⪤ s-bwap
+gloss: PLUMP / SWOLLEN / PROTUBERANCE
+semkey: 1.1.5.2
+sequence: 2661.0
+status: DELETE
+public: true
+xrefs: '163'
+references: 'STC#172; merge with #163 ?'
+phonology:
+  handle: bwam
+  initial: bw
+  rhyme: am=(s-)b
+  initcover: P
+  rhymecover: VNS

@@ -1,0 +1,19 @@
+tag: 3359
+grpid: 2
+proto_language: PTB
+protoform: pat
+gloss: BUTTOCK
+semkey: 1.4.9.2
+sequence: 9.0
+status: KEEP
+public: true
+phonology:
+  handle: pat
+  initial: p
+  rhyme: at
+  initcover: P
+  rhymecover: T
+notes:
+- type: T
+  text: <par>So far this root has only been uncovered in two widely separated languages, although the
+    sound correspondence between them is exact.</par>

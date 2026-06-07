@@ -1,0 +1,47 @@
+tag: 1278
+grpid: 2
+proto_language: PTB
+protoform: s-ka(ː)k
+gloss: FORK / BRANCH / CROTCH
+semkey: 1.4.9.1
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: CROTCH
+possallo: '2859'
+references: cf. STC#327, HPTB p.325
+phonology:
+  handle: kaːk
+  initial: k
+  rhyme: a(ː)k
+  initcover: K
+  rhymecover: T
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-gakᴸ
+  gloss: BRANCH
+- grpid: 5
+  group: 1.1.1
+  form: ɦak
+  gloss: BRANCH
+notes:
+- type: T
+  text: <par>This etymon is possibly a co-allofam of <xref ref="3383">#3383</xref> and should perhaps
+    be merged with it in future.</par>
+- type: I
+  text: <par>related to <xref ref="1278">#1278</xref>?</par>
+- type: F
+  text: '<par><hanform>支</hanform> OC <latinform>*t̑i̯ĕg</latinform>, GSR #864a &apos;branch (of tree);
+    limb; support&apos;; Schuessler 2007:614 <latinform>*ke</latinform>; B &amp; S 2011: <latinform>*ke</latinform>;
+    Mand. <latinform>zhī</latinform>.<br /><hanform>枝</hanform> OC <latinform>*t̑i̯ĕg</latinform>, GSR
+    #864b &apos;branch (of tree); resist, go astray&apos;; Schuessler 2007:614 <latinform>*ke</latinform>;
+    B &amp; S 2011: <latinform>*ke</latinform>; Mand. <latinform>zhī</latinform>.<br /><hanform>肢</hanform>
+    OC <latinform>*t̑i̯ĕg</latinform>, GSR #864c &apos;limb (of body)&apos;; Schuessler 2007:614 <latinform>*ke</latinform>;
+    B &amp; S 2011: <latinform>*ke</latinform>; Mand. <latinform>zhī</latinform>.<br /><hanform>翅</hanform>
+    OC <latinform>*śi̯ĕg</latinform>, GSR #864e &apos;wing&apos;; Schuessler 2007:614 <latinform>*ke</latinform>;
+    B &amp; S 2011: <latinform>*s-kʰe-s</latinform>; Mand. <latinform>chì</latinform>.<br /><hanform>歧</hanform>
+    OC <latinform>*g’i̯ĕg</latinform>, GSR #864i &apos;bifurcating, forked (as of a road)&apos;; Schuessler
+    2007:614 <latinform>*ke</latinform>; B &amp; S 2011: <latinform>*N-ke</latinform> (dial.: no palatalization);
+    Mand. <latinform>qí</latinform>.</par>'

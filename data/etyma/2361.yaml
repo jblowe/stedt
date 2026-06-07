@@ -1,0 +1,64 @@
+tag: 2361
+grpid: 2
+proto_language: PTB
+protoform: kəw-n/t
+gloss: SMOKE
+semkey: 3.2.12.2
+sequence: 3037.0
+status: KEEP
+public: true
+references: cf. STC#256, HPTB
+phonology:
+  handle: kuw
+  initial: k
+  rhyme: əw-n/t
+  initcover: K
+  rhymecover: WT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: khuu
+  gloss: FUMES / STEAM / SMOKE (n.)
+  variant: a
+- grpid: 8
+  group: '1.2'
+  form: may-khuu
+  gloss: SMOKE (n.)
+  variant: b
+- grpid: 5
+  group: 1.1.1
+  form: mə-kɯ
+  gloss: SMOKE
+- grpid: 66
+  group: 1.3.4
+  form: kʰut
+  gloss: SMOKE
+- grpid: 42
+  group: '6.1'
+  form: kəw²
+  gloss: SMOKE
+- grpid: 12
+  group: 1.7.2
+  form: kʰəw
+  gloss: SMOKE
+- grpid: 63
+  group: 1.3.1
+  form: khuʔ
+  gloss: SMOKE
+- grpid: 16
+  group: 1.7.1
+  form: ku
+  gloss: SMOKE
+notes:
+- type: T
+  text: '<par>This root could take either the <latinform>*-n</latinform> suffix (as in Sunwar, Newar,
+    and Chinese) or the <latinform>*-t</latinform> suffix (as in Jingpho).</par><par>Many languages have
+    binomes meaning SMOKE, where the first element is <xref ref="2136">#2136</xref>. This first element
+    is sometimes &quot;prefixized&quot; to simple <latinform>m-</latinform>, as in Ergong/Daofu.</par><par>Many
+    Loloish languages (e.g., Lahu <latinform>mû-qhɔ̂</latinform>) have a similar but different formation
+    where the first element is from <xref ref="2473">#2473</xref>.</par><par>Lahu has a doublet derived
+    from this etymon: <latinform>mû-qhɔ̂</latinform> &apos;smoke&apos; &lt; PLB <latinform>*kəw²</latinform>
+    ⪤ <latinform>qhɔ̀ʔ-lá</latinform> &apos;ashes&apos; &lt; PLB <reconstruction>*kutᴸ</reconstruction></par>'
+- type: F
+  text: '<par><hanform>熏</hanform> OC <latinform>*xi̯wən~χi̯wən</latinform>, GSR #461a-c &apos;smoke,
+    steam, ablaze&apos;; B &amp; S 2011: <latinform>*qʰun {qʰu[n]}</latinform>; Mand. <latinform>xūn</latinform>.</par>'

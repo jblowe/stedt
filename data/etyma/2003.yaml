@@ -1,0 +1,20 @@
+tag: 2003
+grpid: 2
+proto_language: PTB
+protoform: dak
+gloss: COCKSPUR / HOOF
+semkey: 1.5.10.4
+sequence: 3.0
+status: KEEP
+public: true
+phonology:
+  handle: dak
+  initial: d
+  rhyme: ak
+  initcover: T
+  rhymecover: T
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: dakᴸ
+  gloss: COCKSPUR / HOOF

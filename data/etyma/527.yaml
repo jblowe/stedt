@@ -1,0 +1,19 @@
+tag: 527
+grpid: 2
+proto_language: PTB
+protoform: br(w)ak
+gloss: NAVEL
+semkey: 1.9.4
+sequence: 47.0
+status: KEEP
+public: true
+phonology:
+  handle: brwa
+  initial: br(w)
+  rhyme: ak
+  initcover: P
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This etymon appears fairly solid, though it has so far been unearthed only in three scattered
+    languages (Himalayish, Karenic, and Qiangic).</par>

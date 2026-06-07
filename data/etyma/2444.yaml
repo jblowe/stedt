@@ -1,0 +1,17 @@
+tag: 2444
+grpid: 3
+proto_language: NEIA
+protoform: maːy
+gloss: GOOD / WELL
+semkey: 9.6.1.1
+sequence: 17.0
+status: DELETE
+public: true
+xrefs: '2457'
+references: 'cf. STC#300, HPTB pp.132, 207, 210, GSTC #065'
+phonology:
+  handle: may
+  initial: m
+  rhyme: ay
+  initcover: M
+  rhymecover: W

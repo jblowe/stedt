@@ -1,0 +1,14 @@
+tag: 5701
+grpid: 2
+proto_language: PTB
+protoform: s-lyaŋ
+gloss: CART
+sequence: 5.0
+status: KEEP
+public: true
+references: HPTB:293
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: leeŋ
+  gloss: CART / VEHICLE

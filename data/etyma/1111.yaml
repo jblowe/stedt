@@ -1,0 +1,20 @@
+tag: 1111
+grpid: 2
+proto_language: PTB
+protoform: (t)sya-y
+gloss: BEARD / MOUSTACHE
+semkey: 1.2.5.5
+sequence: 8.0
+status: KEEP
+public: true
+phonology:
+  handle: tša
+  initial: (t)š
+  rhyme: a-y
+  suffix: y
+  initcover: TS
+  rhymecover: VW
+notes:
+- type: T
+  text: <par>This tentatively reconstructed root looks fairly solid, although the Angami and Liangmei
+    forms have unexplained dental stops instead of fricates.</par>

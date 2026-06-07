@@ -1,0 +1,19 @@
+tag: 3501
+grpid: 2
+proto_language: PTB
+protoform: hyar
+gloss: DRY
+semkey: '6.6'
+sequence: 1722.0
+status: KEEP
+public: true
+references: ("HIM") cf. JAM-LITB 5.1, HPTB pp.400, 426
+phonology:
+  initial: h
+  rhyme: er-s
+  initcover: H
+  rhymecover: VLS
+notes:
+- type: I
+  text: <par>This root is so far only been discovered in TB languages of Nepal. It was reconstructed with
+    a short vowel in PSLTB.</par>

@@ -1,0 +1,16 @@
+tag: 308
+grpid: 42
+proto_language: PLB
+protoform: pat
+gloss: CHEST
+semkey: 1.4.4.3
+sequence: 11.0
+status: KEEP
+public: true
+references: 'cf. #3463'
+phonology:
+  handle: pat
+  initial: p
+  rhyme: at
+  initcover: P
+  rhymecover: T

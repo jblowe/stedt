@@ -1,0 +1,17 @@
+tag: 5675
+grpid: 2
+proto_language: PTB
+protoform: yum
+gloss: BELIEVE
+sequence: 1155.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: jɨmᴮ
+  gloss: BELIEVE
+- grpid: 8
+  group: '1.2'
+  form: yuum
+  gloss: BELIEVE

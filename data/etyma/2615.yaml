@@ -1,0 +1,22 @@
+tag: 2615
+grpid: 2
+proto_language: PTB
+protoform: riːt
+gloss: REAP / SCRAPE / SHAVE / CUT / SEVER
+semkey: 3.1.10
+sequence: 1.0
+status: KEEP
+public: true
+xrefs: '1460'
+references: cf. STC#371, HPTB p.350
+phonology:
+  handle: riːt
+  initial: r
+  rhyme: iːt
+  initcover: L
+  rhymecover: T
+notes:
+- type: T
+  text: '<par>This etymon bears some resemblance to <xref ref="3564">#3564</xref>, but should be kept
+    distinct.</par><par>A couple of forms have apparently acquired a labial prefix: cf. Garo <latinform>ak-brit-a</latinform>
+    and Gurung <latinform>wre◦baq</latinform> &apos;scratch&apos;.</par>'

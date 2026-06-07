@@ -1,0 +1,18 @@
+tag: 3404
+grpid: 2
+proto_language: PTB
+protoform: p(w)aŋ
+gloss: NECK
+semkey: 1.4.2
+sequence: 11.0
+status: KEEP
+public: true
+phonology:
+  handle: pwaŋ
+  initial: p(w)
+  rhyme: aŋ
+  initcover: P
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This etymon, although fairly well attested, seems to occur only in the last syllable of compounds.</par>

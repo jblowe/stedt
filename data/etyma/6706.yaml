@@ -1,0 +1,36 @@
+tag: 6706
+grpid: 2
+proto_language: PTB
+protoform: r-t(y/w)ak
+gloss: KICK
+semkey: 6.2.2.3.3
+sequence: 2235.0
+status: KEEP
+public: true
+references: cf. HPTB p.372
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: tʰak
+  gloss: KICK
+- grpid: 42
+  group: '6.1'
+  form: tekᴴ
+  gloss: KICK
+notes:
+- type: T
+  text: '<par>This etymon was formerly reconstructed as <latinform>*r/g-dek</latinform>. (The velar prefix
+    is attested in Tangkhul and Bodo-Garo.) The nasal final in Bodo-Garo, Kanauri, and Tsangla might motivate
+    reconstructing another allofam <latinform>*r-tyaŋ ⪤ r-twaŋ</latinform>.</par><par>The Tibetan shows
+    vowel gradation in this root: <latinform>rdeg(s)-pa ⪤ rdog(s)-pa</latinform>.</par>'
+- type: F
+  text: '<par><hanform>踶</hanform> OC <latinform>*dʼieg</latinform>, GSR #866q &apos;kick (v.)&apos;;
+    Schuessler 2007:211 <latinform>*dêh</latinform>; Mand. <latinform>dì</latinform>.<br /><hanform>蹢</hanform>
+    OC <latinform>*tiek</latinform>, GSR #877o &apos;hoof&apos;; Schuessler 2007:494 <latinform>*têk</latinform>;
+    B &amp; S 2011: <latinform>*tˁek</latinform>; Mand. <latinform>dí</latinform>.<br /><hanform>蹄</hanform>
+    OC <latinform>*dʼieg</latinform>, GSR #877h &apos;hoof&apos;; Schuessler 2007:494 <latinform>*dê</latinform>;
+    Mand. <latinform>tí</latinform>.<br /><hanform>踢</hanform> OC (<latinform>*tʼiek</latinform>), GSR
+    (not in #850) &apos;kick (v.)&apos;; Schuessler 2007: (<latinform>*lhêk</latinform>); Mand. <latinform>tī</latinform>.</par>'
+- type: I
+  text: '<par>Add the four Chinese comparanda in HPTB, p. 373: GSR 866q, 877o; 877h, and AD #195 (not
+    in GSR #850).</par>'

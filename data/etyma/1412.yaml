@@ -1,0 +1,20 @@
+tag: 1412
+grpid: 2
+proto_language: PTB
+protoform: tawŋ
+gloss: DEAF
+semkey: 1.2.7.5
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: toŋ
+  initial: t
+  rhyme: oŋ
+  initcover: T
+  rhymecover: N
+notes:
+- type: T
+  text: <par>West Himalayish provides the only diphthongal reflexes of this root, yet <latinform>*-waŋ</latinform>
+    seems to be a canonically better reconstruction.</par>

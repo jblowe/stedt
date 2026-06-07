@@ -1,0 +1,21 @@
+tag: 751
+grpid: 2
+proto_language: PTB
+protoform: m-bi
+gloss: ARM / HAND
+semkey: 1.5.1.2
+sequence: 5.0
+status: KEEP
+public: true
+possallo: '745'
+references: incl 750
+phonology:
+  handle: bIn
+  initial: b
+  rhyme: i/e-n
+  initcover: P
+  rhymecover: VN
+notes:
+- type: T
+  text: <par>This root of limited distribution occurs in the Angami group, with a single possible cognate
+    in rGyalrong.</par>

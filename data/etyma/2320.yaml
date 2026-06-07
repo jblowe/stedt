@@ -1,0 +1,17 @@
+tag: 2320
+grpid: 2
+proto_language: PTB
+protoform: klum
+gloss: SWEET
+semkey: 7.1.4.4
+sequence: 3243.0
+status: DELETE
+public: false
+xrefs: '6150'
+references: STC p.75
+phonology:
+  handle: klum
+  initial: kl
+  rhyme: um
+  initcover: K
+  rhymecover: N

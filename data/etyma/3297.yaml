@@ -1,0 +1,18 @@
+tag: 3297
+grpid: 2
+proto_language: PTB
+protoform: pu
+gloss: THIRSTY
+semkey: 1.1.3.1
+sequence: 10.0
+status: KEEP
+public: true
+phonology:
+  handle: pu
+  initial: -p
+  rhyme: u
+  rhymecover: V
+notes:
+- type: T
+  text: <par>In certain disyllabic forms, this morpheme looks rather like a suffix. However, monosyllabic
+    reflexes in Tamang and Naxi indicate that this is indeed a root morpheme.</par>

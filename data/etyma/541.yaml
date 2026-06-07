@@ -1,0 +1,16 @@
+tag: 541
+grpid: 2
+proto_language: PTB
+protoform: har
+gloss: PHLEGM
+semkey: 1.8.3
+sequence: 5.0
+status: KEEP
+public: true
+references: cf. JAM-LITB 5.1, HPTB p. 391
+phonology:
+  handle: hor
+  initial: h
+  rhyme: or ~ hwa
+  initcover: H
+  rhymecover: LW

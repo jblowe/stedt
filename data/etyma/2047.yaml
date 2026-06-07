@@ -1,0 +1,17 @@
+tag: 2047
+grpid: 2
+proto_language: PTB
+protoform: b-rup
+gloss: CHEEK / JAW
+semkey: 1.2.5.2
+sequence: 14.0
+status: KEEP
+public: true
+references: '("AMD") '
+phonology:
+  handle: rup
+  prefix: b
+  initial: r
+  rhyme: up
+  initcover: L
+  rhymecover: T

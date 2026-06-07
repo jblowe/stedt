@@ -1,0 +1,19 @@
+tag: 2193
+grpid: 2
+proto_language: PTB
+protoform: daw
+gloss: DEFY / INTERFERE / BE AT ENMITY WITH / RISK / GUESS
+semkey: '8.3'
+sequence: 1610.0
+status: KEEP
+public: true
+references: STC p.63
+phonology:
+  handle: daw
+  initial: d
+  rhyme: aw
+  initcover: T
+  rhymecover: W
+notes:
+- type: T
+  text: <par>The semantics of this etymon are rather complicated, but all supporting forms seem valid.</par>

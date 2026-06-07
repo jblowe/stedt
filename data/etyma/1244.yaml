@@ -1,0 +1,16 @@
+tag: 1244
+grpid: 2
+proto_language: PTB
+protoform: (n)kyu(n/l)
+gloss: KIDNEY
+semkey: 1.7.5
+sequence: 2.0
+status: DELETE
+public: false
+xrefs: '207'
+phonology:
+  handle: nkyu
+  initial: (n)ky
+  rhyme: u(n/l)
+  initcover: M
+  rhymecover: NL

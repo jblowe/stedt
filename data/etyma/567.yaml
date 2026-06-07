@@ -1,0 +1,17 @@
+tag: 567
+grpid: 2
+proto_language: PTB
+protoform: d-pwa-(ŋ/m)
+gloss: SHOULDER
+semkey: 1.4.3
+sequence: 5.0
+status: DELETE
+public: false
+xrefs: KNEE
+possallo: 564,568,570,754
+phonology:
+  handle: pwa
+  initial: pw
+  rhyme: a-(ŋ/m)
+  initcover: P
+  rhymecover: VN

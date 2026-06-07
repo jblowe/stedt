@@ -1,0 +1,18 @@
+tag: 3505
+grpid: 2
+proto_language: PTB
+protoform: hak
+gloss: CUT
+semkey: 6.9.3
+sequence: 1543.0
+status: KEEP
+public: true
+references: JAM-LITB 5.2
+phonology:
+  initial: h
+  rhyme: ak
+  initcover: H
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This promising root would welcome further support.</par>

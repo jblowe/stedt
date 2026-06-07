@@ -1,0 +1,19 @@
+tag: 6424
+grpid: 2
+proto_language: PTB
+protoform: pit
+gloss: NUMB
+semkey: 1.5.11
+sequence: 2535.0
+status: KEEP
+public: true
+references: JS-HCST: 206
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: le-pit
+  gloss: NUMB (in the feet)
+notes:
+- type: T
+  text: <par>This root bears a strong phonosemantic resemblance to <xref ref="5685">#5685</xref>, and
+    perhaps should be considered part of the same etymon.</par>

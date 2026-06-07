@@ -1,0 +1,16 @@
+tag: 3610
+grpid: 5
+proto_language: PTani
+protoform: čam
+gloss: TENS (e.g. twenty)
+semkey: '9.9'
+sequence: 12.0
+status: KEEP
+public: false
+references: 'J. Sun 1993: 89'
+phonology:
+  initial: č
+  rhyme: am
+notes:
+- type: T
+  text: <par>This etymon is perhaps allofamically related to <xref ref="4678">#4678</xref>.</par>

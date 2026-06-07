@@ -1,0 +1,15 @@
+tag: 5455
+grpid: 2
+proto_language: PTB
+protoform: dzi(k/ŋ)
+gloss: SPLIT / MINCE
+semkey: 6.9.3
+sequence: 3126.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 31, 502
+mesoroots:
+- grpid: 70
+  group: 1.2.2
+  form: tsik
+  gloss: CUT (solid object)

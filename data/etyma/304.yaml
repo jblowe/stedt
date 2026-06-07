@@ -1,0 +1,25 @@
+tag: 304
+grpid: 2
+proto_language: PTB
+protoform: pʷum
+gloss: EGG / SIT ON EGGS / HATCH / TESTICLE
+sequence: 12.0
+status: KEEP
+public: true
+references: cf. HPTB p.57
+phonology:
+  handle: wum/
+  prefix: p
+  initial: (w)
+  rhyme: um/p
+  initcover: L
+  rhymecover: NT
+notes:
+- type: T
+  text: <par>This well-attested etymon occurs in the NE Indian Areal Group, Himalayish, Jingpho, and Nungic,
+    with a variety of ovoid meanings.</par><par>The Hill Miri and Sunwar forms reflect a variant <reconstruction>*pup</reconstruction>,
+    perhaps to be explained in terms of assimilation to the initial.</par><par>A couple of other Himalayish
+    languages, Magar and Manang (Prakaa), seem to reflect still another variant, <reconstruction>*puŋ</reconstruction>.
+    The zero (<latinform>ʔ-</latinform>) initial in Chepang is unexplained.</par>
+- type: T
+  text: <par>It is not clear whether this root is to be related to <xref ref="1168">#1168</xref>.</par>

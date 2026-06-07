@@ -1,0 +1,15 @@
+tag: 775
+grpid: 2
+proto_language: PTB
+protoform: tyal
+gloss: PALM / SOLE
+semkey: 1.5.5
+sequence: 36.0
+status: DELETE
+public: true
+phonology:
+  handle: tal
+  initial: ty
+  rhyme: al
+  initcover: T
+  rhymecover: L

@@ -1,0 +1,19 @@
+tag: 694
+grpid: 2
+proto_language: PTB
+protoform: hul ⪤ hwa(ː)l
+gloss: HEAT UP / BURN
+semkey: 9.6.2
+sequence: 2.4
+status: KEEP
+public: true
+references: cf. HPTB pp.58, 429, 514
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: haal
+  gloss: BURN / SET FIRE
+- grpid: 8
+  group: '1.2'
+  form: ʔal-I, ʔalʔ-II
+  gloss: FLAME / BLAZE

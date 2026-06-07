@@ -1,0 +1,19 @@
+tag: 6092
+grpid: 2
+proto_language: PTB
+protoform: haw(ŋ/k)
+gloss: BARK (v.)
+semkey: 2.1.11.1
+sequence: 11.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: huuk ⪤ hook
+  gloss: BARK (deer)
+notes:
+- type: T
+  text: '<par>Bradley (1979, no. 674) reconstructs Proto-Loloish <reconstruction>*h/loŋ¹</reconstruction>
+    on the basis of forms like Black Lahu <latinform>lɔ̀</latinform> and WB <latinform>hoŋ</latinform>.
+    However, I believe two separate roots are involved: <xref ref="1790">#1790</xref> and <xref ref="6092">#6092</xref>.</par>'

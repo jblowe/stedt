@@ -1,0 +1,28 @@
+tag: 1007
+grpid: 2
+proto_language: PTB
+protoform: tsyat
+gloss: CUT OFF / SEVER / BREAK
+semkey: 6.9.3
+sequence: 4.0
+status: KEEP
+public: true
+references: cf. STC#185, HPTB pp.330, 334
+phonology:
+  handle: tsyat
+  initial: tsy
+  rhyme: at
+  initcover: TS
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tsat
+  gloss: BREAK / SNAP (v.i.)
+notes:
+- type: F
+  text: '<par><hanform>折</hanform> OC <latinform>*t̑i̯ɑt</latinform>, GSR #287a-b &apos;break off; destroy,
+    decide&apos;; Schuessler 2007:608 <reconstruction>*tet</reconstruction>; B &amp; S 2011: <latinform>*tet</latinform>;
+    Mand. <latinform>zhé</latinform>.<br /><hanform>折</hanform> OC <latinform>*d̂i̯ɑt</latinform>, GSR
+    #287a-b &apos;bend; be cut off/broken off&apos;; Schuessler 2007:608 <latinform>*det</latinform>;
+    B &amp; S 2011: <latinform>*N-tet</latinform>; Mand. <latinform>shé</latinform>.</par>'

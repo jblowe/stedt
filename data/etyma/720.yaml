@@ -1,0 +1,45 @@
+tag: 720
+grpid: 2
+proto_language: PTB
+protoform: g-raŋ
+gloss: WING / HAND / ARM
+semkey: 1.5.1.3
+sequence: 18.0
+status: KEEP
+public: true
+phonology:
+  handle: k/g-
+  prefix: k/g)
+  initial: (y/r)
+  rhyme: aŋ
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: caaŋ
+  gloss: WING
+notes:
+- type: T
+  text: <par>This etymon is well-attested in North Assam, Northern Naga, Bodo-Garo, and Bodic. Darang
+    shows preemption by the velar prefix.</par><par>This root is distinct from <xref ref="1435">#1435</xref>.</par>
+- type: F
+  text: '<par><hanform>翔</hanform> OC <latinform>*dzi̯ɑng</latinform>, GSR #732p &apos;roam back and forth;
+    fly to and fro&apos; ; Li 1971: <latinform>(*rjang)</latinform>; Baxter 1992:797 <latinform>*z(l)jang</latinform>;
+    B &amp; S 2011: <latinform>*s-[ɢ]aŋ</latinform>; Schuessler 2007:533; Mand. <latinform>xiáng</latinform>.</par><par>JAM:
+    <hanform>翔</hanform> OC <latinform>*dzi̯ang</latinform> &apos;go to and fro; fly backwards and forwards;
+    soar; walk with elbows kept as outstretched wings&apos; GSR #732p.</par><par>Yang 1980 reconstructs
+    PST <reconstruction>*s-g/ki̯ang</reconstruction>, since the same phonetic (<hanform>羊</hanform>) occurs
+    in <hanform>姜</hanform> &apos;<emph>surname</emph>&apos; (Mand. <latinform>jiāng</latinform>), a word
+    reconstructed with a velar initial as <latinform>*ki̯ɑng</latinform> in GSR #711a.</par><par>ZJH:
+    This Chinese word belongs to a phonetic series that presents unique challenges of reconstruction,
+    as evidenced by the wide variation seen in the proposed reconstructions. Most words in the series
+    suggest a lateral initial, but a few have velar initial; this is an atypical pattern. Li’s reconstruction
+    of <reconstruction>*rj-</reconstruction> is the norm for words with Middle Chinese <latinform>zj-</latinform>,
+    and makes a good match with the PTB syllable <reconstruction>*raŋ</reconstruction>. But there is enough
+    uncertainty about the Old Chinese to throw the comparison as a whole in doubt, especially since the
+    Chinese meaning seems to have a semantic center closer to ‘wander’ than to ‘wing’ (contra the presence
+    of the ‘wing’ element (<hanform>羽</hanform>, Mand. <latinform>yǔ</latinform>) in the written character).</par><par>Schuessler
+    (2007:533) reconstructs “<reconstruction>*s-jaŋ</reconstruction> or <latinform>s-laŋ</latinform> (?)”
+    and places it in the same word family as <hanform>徉</hanform> ‘to walk irresolutely, wander’, Mand.
+    <latinform>yáng</latinform>.</par>'

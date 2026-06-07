@@ -1,0 +1,17 @@
+tag: 1849
+grpid: 2
+proto_language: PTB
+protoform: m-gu
+gloss: ILL / HURT / ACHE
+semkey: 1.1.5.1
+sequence: 4.0
+status: KEEP
+public: false
+exemplary: true
+phonology:
+  handle: gu
+  prefix: N
+  initial: g
+  rhyme: u
+  initcover: K
+  rhymecover: V

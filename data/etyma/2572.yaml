@@ -1,0 +1,21 @@
+tag: 2572
+grpid: 2
+proto_language: PTB
+protoform: p(r/y)aw
+gloss: DELIGHT / HAPPY / ENJOY
+semkey: 8.3.1.1.1
+sequence: 1.0
+status: KEEP
+public: true
+references: cf. STC#130, HPTB p.204
+phonology:
+  handle: pro
+  initial: pr
+  rhyme: o
+  initcover: P
+  rhymecover: V
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: -pro?
+  gloss: GOOD (verbal particle)

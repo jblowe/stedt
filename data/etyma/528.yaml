@@ -1,0 +1,22 @@
+tag: 528
+grpid: 2
+proto_language: PTB
+protoform: bryam ⪤ brim
+gloss: NAVEL / UMBILICAL CORD
+semkey: 1.9.4
+sequence: 46.0
+status: KEEP
+public: true
+phonology:
+  handle: bryam
+  initial: bry
+  rhyme: am⪤im
+  initcover: P
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This etymon is mostly confined to Himalayish, though there is an excellent Moyon cognate.
+    The initial labial stop may be a reduction of one of several etyma for &apos;belly&apos; that begin
+    with a labial (probably <xref ref="164">#164</xref>), as illustrated by the disyllabic Moyon doublet
+    and the Lepcha form, so that this root should perhaps be reconstructed <reconstruction>*b-ryam ⪤ *b-rim</reconstruction>.</par><par>This
+    etymon seems to be quite independent from <xref ref="193">#193</xref>.</par>

@@ -1,0 +1,30 @@
+tag: 483
+grpid: 2
+proto_language: PTB
+protoform: s-ŋwa(ŋ/k)
+gloss: NECK / WAIST
+semkey: 1.4.2
+sequence: 6.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: ŋoK
+  prefix: s
+  initial: ŋ
+  rhyme: oŋ/k
+  initcover: M
+  rhymecover: NT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: hŋooŋ
+  gloss: NECK / COLLAR
+notes:
+- type: T
+  text: <par>Note that this root appears in some words for &apos;waist&apos;, as in Bokar Lhoba <latinform>huŋ-ŋəŋ</latinform>.
+    It&apos;s a natural extension for &apos;neck&apos; to refer to any thin, bendable body part, as in
+    the Korean words <latinform>son-mok</latinform> &apos;wrist&apos; (literally &apos;hand-neck&apos;)
+    and <latinform>pal-mok</latinform> &apos;ankle&apos; (literally &apos;foot-neck&apos;).</par><par>This
+    etymon is very similar to <xref ref="3361">#3361</xref>, and is very likely in an allofamic relationship
+    to it.</par>

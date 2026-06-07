@@ -1,0 +1,18 @@
+tag: 176
+grpid: 2
+proto_language: PTB
+protoform: p(y)əy
+gloss: BROKEN DOWN / DESTROYED
+semkey: 7.1.5.1
+sequence: 8.0
+status: KEEP
+public: true
+phonology:
+  handle: pyəy
+  initial: p(y)
+  rhyme: əy
+  initcover: P
+  rhymecover: W
+notes:
+- type: T
+  text: <par>Further confirmation of this root would be welcome.</par>

@@ -1,0 +1,17 @@
+tag: 379
+grpid: 2
+proto_language: PTB
+protoform: s-r(y)ak
+gloss: ASHAMED / SHY
+semkey: 8.3.3.8.2
+sequence: 1.1
+status: KEEP
+public: true
+references: cf. STC#431, HPTB
+phonology:
+  prefix: s
+  initial: r(y)
+  rhyme: ak
+notes:
+- type: T
+  text: <par>This root seems definitely to be allofamic with <xref ref="380">#380</xref>.</par>

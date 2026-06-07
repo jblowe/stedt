@@ -1,0 +1,23 @@
+tag: 5590
+grpid: 2
+proto_language: PTB
+protoform: ka
+gloss: WHICH / LIKE / DEICTIC / INTERROGATIVE
+semkey: 10.5.3
+sequence: 1.1
+status: KEEP
+public: true
+references: cf. HPTB p. 488
+notes:
+- type: T
+  text: <par>The basic form of this interrogative morpheme is <latinform>*ka</latinform>, with two suffixed
+    variants. For a discussion of palatal suffixes in Tibeto-Burman, see Matisoff (1995) &quot;Sino-Tibetan
+    palatal suffixes revisited&quot;. The variant with final <latinform>*-ŋ</latinform> is attested in
+    Written Tibetan as well as in Lahu.</par>
+- type: F
+  text: '<par><hanform>何</hanform> OC <latinform>*g’ɑ̂</latinform>, GSR #1f &apos;what, why, how&apos;;
+    B &amp; S 2011: <latinform>*ɡˁaj {[ɡ]ˁaj}</latinform>; Mand. <latinform>hé</latinform>.<br /><hanform>幾</hanform>
+    OC <latinform>*ki̯ər</latinform>, GSR #547a-b &apos;how many&apos;; B &amp; S 2011: <latinform>*kəjʔ</latinform>;
+    Mand. <latinform>jǐ</latinform>.<br /><hanform>豈</hanform> OC <latinform>*k’i̯ər</latinform>, GSR
+    #548a &apos;how&apos;; B &amp; S 2011: <latinform>*C.qʰəjʔ</latinform>; Mand. <latinform>qǐ</latinform>.<br
+    />S2009 1-1 a&apos;</par>'

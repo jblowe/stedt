@@ -1,0 +1,20 @@
+tag: 465
+grpid: 2
+proto_language: PTB
+protoform: (k/g)lat
+gloss: BRAIN / MARROW
+semkey: 1.2.4
+sequence: 8.0
+status: KEEP
+public: false
+exemplary: true
+phonology:
+  handle: k/gl
+  initial: (k/g)l
+  rhyme: at
+  initcover: K
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root appears mainly in Himalayish, with a possible cognate in Phunoi that shows preemption
+    by the prefix. The Guiqiong form looks like a loan from Tibetan.</par>

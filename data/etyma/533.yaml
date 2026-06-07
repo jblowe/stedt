@@ -1,0 +1,65 @@
+tag: 533
+grpid: 2
+proto_language: PTB
+protoform: rey ⪤ s-rwi(y)
+gloss: OBSCURE INTERNAL CHANNEL / CORD / STRING / CREEPER / CANE / RATTAN
+semkey: 5.11.8.2.2
+sequence: 52.0
+status: KEEP
+public: true
+exemplary: true
+references: 'STC#478 *rey, STC #201 *rwi(y)'
+phonology:
+  handle: hrwəy
+  prefix: s
+  initial: rw
+  rhyme: əy
+  initcover: H
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ruy ⪤ hruy
+  gloss: ROPE / CORD / STRING / RATTAN
+- grpid: 66
+  group: 1.3.4
+  form: hroj
+  gloss: ROPE / STRING / THREAD NEEDLE
+- grpid: 50
+  group: '7'
+  form: reᴮ
+  gloss: RATTAN
+- grpid: 63
+  group: 1.3.1
+  form: a-(h)rəj
+  gloss: CANE, RATTAN
+notes:
+- type: T
+  text: <par>The basic meaning of this etymon seems to be &apos;cord, string&apos;. It also appears in
+    a large number of compounds referring to &quot;OICC&apos;s&quot; (obscure internal channels and connections),
+    such as NERVE, VEIN, MUSCLE, SINEW. In addition it appears in compounds for UMBILICAL CORD, thence
+    by extension to NAVEL itself. For the concept of &quot;OICC&apos;s&quot;, see VSTB pp. 184-5.</par>
+- type: T
+  text: '<par>STC sets up two roots with the meaning &apos;cane, rattan&apos;, STC #478 <reconstruction>*rey</reconstruction>
+    and STC #201 <reconstruction>*s-rwi(y)</reconstruction>, which I am collapsing into a single set.
+    The meaning of this etymon ranges from &apos;string, cord&apos; to &apos;OICC&apos; to the specific
+    plants &apos;cane, rattan&apos;.</par>'
+- type: F
+  text: '<par><hanform>纍</hanform>/<hanform>累</hanform>/<hanform>縲</hanform> OC <latinform>*li̯wər</latinform>,
+    GSR #577f, r-s &apos;wind around, bind, rope&apos;; Schuessler 2007:346 <latinform>*rui</latinform>;
+    B &amp; S 2011: <latinform>*roj {[r]oj}</latinform>; Mand. <latinform>léi</latinform>.<br /><hanform>櫐</hanform>/<hanform>藟</hanform>
+    OC <latinform>*li̯wər</latinform>, GSR #577e, g &apos;creeping plant&apos;; Schuessler 2007:346 <latinform>*ruiʔ</latinform>;
+    Mand. <latinform>lěi</latinform>.<br /><hanform>綸</hanform> OC <latinform>*li̯wən</latinform>, GSR
+    #470e &apos;woof; twist a thread; cord&apos;; Schuessler 2007:370 <latinform>*run</latinform>; B &amp;
+    S 2011: <latinform>*k.run {k.ru[n]}</latinform>; Mand. <latinform>lún</latinform>.</par>'
+- type: T
+  text: '<par>Several Himalayish forms which look superficially as if they descend from this morpheme
+    are actually loans from Sanskrit <emph>nālī ~ nāḍī</emph> &apos;any tubular vessel or vein of the
+    body&apos; (Monier-Williams:537): Sunwar <latinform>nāːri</latinform> &apos;nerve&apos;, Newar <latinform>hi◦<emph>nu(li)</emph></latinform>
+    &apos;blood vessel; vein; artery&apos; (<latinform>hi</latinform> &apos;blood&apos; &lt; PTB <reconstruction>*s-hywəy</reconstruction>),<footnote>See
+    HPTB:194.</footnote> Bahing <latinform>sãː<emph>ti</emph></latinform> &apos;vein, blood vessel&apos;,
+    Bantawa <latinform>tshum-bu<emph>ri</emph></latinform> &apos;umbilical cord&apos;, Khaling <latinform>&apos;sö◦ri</latinform>
+    &apos;nerve&apos;. A couple of Barish forms, Bodo <latinform>na-ri</latinform> and Lalung <latinform>na-ti</latinform>
+    &apos;navel&apos; (Balawan 1965:42), are also probably borrowings from this Sanskrit word, despite
+    the semantic difference. Note that <latinform>r</latinform> and <latinform>t/d</latinform> are frequently
+    confused in Barish languages. (Cf. the language name <emph>Bodo ~ Boro</emph>).</par>'

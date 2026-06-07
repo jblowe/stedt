@@ -1,0 +1,74 @@
+tag: 1764
+grpid: 2
+proto_language: PTB
+protoform: d-kʷəy-n
+gloss: DOG
+semkey: 2.1.11
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#159, HPTB
+phonology:
+  handle: kwəy
+  prefix: d
+  initial: kʷ
+  rhyme: əy-n
+  initcover: K
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ʔuy
+  gloss: DOG
+- grpid: 5
+  group: 1.1.1
+  form: kwiː
+  gloss: DOG
+- grpid: 12
+  group: 1.7.2
+  form: kuəy (kreːŋ)
+  gloss: DOG
+- grpid: 42
+  group: '6.1'
+  form: kʷəy²
+  gloss: DOG
+- grpid: 50
+  group: '7'
+  form: thwíʔ
+  gloss: DOG
+- grpid: 66
+  group: 1.3.4
+  form: hwɨ
+  gloss: DOG
+- grpid: 50
+  group: '7'
+  form: thwiᴮ
+  gloss: DOG
+- grpid: 63
+  group: 1.3.1
+  form: khjəj
+  gloss: DOG
+- grpid: 50
+  group: '7'
+  form: thwiᴮmiᴬ
+  gloss: FOX, WOLF
+notes:
+- type: T
+  text: <par>Root-initial <latinform>*k-</latinform> in <xref ref="1764">#1764</xref> reanalyzed as prefix,
+    then replaced by <latinform>t(h)-</latinform> (cf. Karen <latinform>tho̱⁵⁵</latinform> &lt; <xref
+    ref="1006">#1006</xref>).</par>
+- type: T
+  text: <par>Interesting reflexes of this etymon with labiovelar initial include the labial-initial Lahu
+    form, the dental-initial Karenic forms, and the zero-initial Chin forms, the last two of which indicate
+    that the velar-initial was sometimes treated as a prefix.</par><par>The nasal suffix is reconstructed
+    on the basis of the Chinese comparandum.</par>
+- type: F
+  text: '<par>Two Chinese forms are considered to descend from this etymon:</par><par><hanform>狗</hanform>
+    OC <latinform>*ku</latinform>, GSR #108d; B &amp; S 2011: <latinform>*Cə.kˁroʔ {Cə.[k]ˁroʔ}</latinform>;
+    Mand. <latinform>gǒu</latinform><br /><hanform>犬</hanform> OC <latinform>*k’iwən</latinform>, GSR
+    #479a-d; B &amp; S 2011: <latinform>*kʷʰˁenʔ {[k]ʷʰˁ[e][n]ʔ}</latinform>; Mand. <latinform>quǎn</latinform>.</par><par>OC
+    <latinform>*ku</latinform> reflects the unsuffixed root, while OC <latinform>*k’iwən</latinform> bears
+    the &quot;collective&quot; nasal suffix.</par>'
+- type: T
+  text: <par>The second element in the Karenic compounds for FOX / WOLF seem to derive from <xref ref="2453">#2453</xref>.</par>

@@ -1,0 +1,25 @@
+tag: 2337
+grpid: 2
+proto_language: PTB
+protoform: kri-t
+gloss: FEAR / AFRAID
+semkey: 8.3.1.10.1
+sequence: 1862.0
+status: KEEP
+public: true
+references: cf. STC#416, HPTB pp.462, 193
+phonology:
+  handle: kriy
+  initial: kr
+  rhyme: i(y)
+  initcover: K
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: kriʔ
+  gloss: FEAR / AFRAID
+- grpid: 66
+  group: 1.3.4
+  form: ci
+  gloss: FEAR

@@ -1,0 +1,51 @@
+tag: 2623
+grpid: 2
+proto_language: PTB
+protoform: s-b/m-ruːl
+gloss: SNAKE
+semkey: 2.1.6
+sequence: 3049.0
+status: KEEP
+public: true
+xrefs: '2178'
+references: cf. STC#447, HPTB p.385
+phonology:
+  handle: ruːl
+  prefix: b
+  initial: r
+  rhyme: uːl
+  initcover: L
+  rhymecover: L
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ruul
+  gloss: SNAKE
+- grpid: 66
+  group: 1.3.4
+  form: ruul
+  gloss: SNAKE
+- grpid: 5
+  group: 1.1.1
+  form: bɯr-taŋ
+  gloss: POISONOUS SNAKE / VIPER
+- grpid: 50
+  group: '7'
+  form: rowᴮ
+  gloss: SNAKE
+- grpid: 63
+  group: 1.3.1
+  form: ph-rə
+  gloss: SNAKE
+- grpid: 42
+  group: '6.1'
+  form: m-r-wəy¹
+  gloss: SNAKE
+notes:
+- type: T
+  text: '<par>This root is easily confused with another etymon #2178 <latinform>*bəw</latinform> that
+    has a range covering both INSECT/VERMIN and SNAKE.</par>'
+- type: F
+  text: '<par><hanform>虺</hanform> OC <latinform>*χi̯wər</latinform>, GSR #572a &apos;snake brood, snake&apos;;
+    Schuessler 2007:287 <latinform>*hmuiʔ</latinform>; B &amp; S 2011: <latinform>*r̥ujʔ {[r̥]u[j]ʔ}</latinform>
+    (dial. <latinform>r̥-</latinform> &gt; <latinform>x-</latinform>); Mand. <latinform>huǐ</latinform>.</par>'

@@ -1,0 +1,536 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+505704	1991	Ao (Chungli)	-cā	-cā	call	call	v.	8.5.13	2	0		7596
+505705	1991	Ao (Chungli)	-cɯ̄m	-cɯ̄m	drink	drink	v.		2	0		
+505706	1991	Ao (Chungli)	-ī	-ī	go in	go in	v.	6.7.2	2	0		5463
+505707	1991	Ao (Chungli)	-īn	-īn	grow	grow	v.	9.7.2	2	0		7724
+505708	1991	Ao (Chungli)	-jɯ̄m	-jɯ̄m	flow/fly	flow/fly	v.	6.6.1	2	0		2588
+505709	1991	Ao (Chungli)	-kā	-kā	gape	gape	v.	1.3.1	2	0		273
+505710	1991	Ao (Chungli)	-kɯ̄m	-kɯ̄m	become	become	v.	9.5	2	0		7677
+505711	1991	Ao (Chungli)	-kāŋ	-kāŋ	demand	demand	v.	8.5.1	2	0		
+505712	1991	Ao (Chungli)	-kūŋ	-kūŋ	crow	crow	v.	2.2.4.1	2	0		
+505713	1991	Ao (Chungli)	-lāŋ	-lāŋ	cheap	cheap	be v.	5.9	2	0		
+505714	1991	Ao (Chungli)	-lɯ̄m	-lɯ̄m	distribute	distribute	v.	6.23	2	0		89
+505715	1991	Ao (Chungli)	-lɯ̄n	-lɯ̄n	strangle	strangle	v.	6.4	2	0		
+505716	1991	Ao (Chungli)	-lī	-lī	live	live	v.	1.1.2.1	2	0		2608
+505717	1991	Ao (Chungli)	-lū	-lū	go down	go down	v.	6.7.2	2	0		
+505718	1991	Ao (Chungli)	-lūŋ	-lūŋ	roll	roll	v.	6.7.6	2	0		
+505719	1991	Ao (Chungli)	-mɯ̄n	-mɯ̄n	ripe	ripe	be v.	3.1.10	2	0		2449
+505720	1991	Ao (Chungli)	-nāŋ	-nāŋ	sweet	sweet	be v.	7.1.4.4	2	0		6218
+505721	1991	Ao (Chungli)	-nɯ̄m	-nɯ̄m	press	press	v.	9.5	2	0		5610
+505722	1991	Ao (Chungli)	-nūŋ	-nūŋ	push	push	v.	6.2.2.3.1	2	0		
+505723	1991	Ao (Chungli)	-pɯ̄n	-pɯ̄n	carry	carry	v.	6.2.2.2.1	2	0		7727
+505724	1991	Ao (Chungli)	-pūŋ	-pūŋ	jump	jump	v.	6.7.8	2	0		
+505725	1991	Ao (Chungli)	-rɯ̄m	-rɯ̄m	bear	bear	v.	2.2.3	2	0		5374
+505726	1991	Ao (Chungli)	-rūŋ	-rūŋ	burn	burn	v.	3.2.12.1	2	0		2562
+505727	1991	Ao (Chungli)	-sā	-sā	peel	peel	v.	1.5.3.2	2	0		
+505728	1991	Ao (Chungli)	-sāŋ	-sāŋ	fry	fry	v.	5.5	2	0		
+505729	1991	Ao (Chungli)	-sɯ̄	-sɯ̄	die	die	v.	1.1.6	2	0		27
+505730	1991	Ao (Chungli)	-sɯ̄m	-sɯ̄m	pump	pump	v.		2	0		
+505731	1991	Ao (Chungli)	-sī	-sī	tell	tell	v.	1.8.7	2	0		
+505732	1991	Ao (Chungli)	-sū	-sū	cook	cook	v.	5.5	2	0		2749
+505733	1991	Ao (Chungli)	-tā	-tā	fetch	fetch	v.	6.2.2.2.2	2	0		
+505734	1991	Ao (Chungli)	-tāŋ	-tāŋ	grow (fruit)	grow (fruit)	v.	9.7.2	2	0		
+505735	1991	Ao (Chungli)	-tɯ̄n	-tɯ̄n	sing	sing	v.	5.1	2	0		
+505736	1991	Ao (Chungli)	-tāŋ	-tāŋ	answer	answer	v.	8.5.6	2	0		
+505737	1991	Ao (Chungli)	-tɯ̄m	-tɯ̄m	finish	finish	v.	9.5	2	0		
+505738	1991	Ao (Chungli)	-tɯ̄m	-tɯ̄m	plant	plant	v.	3.1.10	2	0		7696
+505739	1991	Ao (Chungli)	-tɯ̄n	-tɯ̄n	collect water	collect water	v.	6.21	2	0		
+505740	1991	Ao (Chungli)	-cɯ̄ŋ	-cɯ̄ŋ	spear	spear	v.	5.14	2	0		
+505741	1991	Ao (Chungli)	-tū	-tū	go up	go up	v.	6.7.2	2	0		148
+505742	1991	Ao (Chungli)	-ūn	-ūn	throw	throw	v.	6.12	2	0		3528
+505743	1991	Ao (Chungli)	-ūŋ	-ūŋ	shave	shave	v.	6.9.2	2	0		
+505744	1991	Ao (Chungli)	-wāŋ	-wāŋ	warm	warm	v.	7.1.2.3	2	0		
+505745	1991	Ao (Chungli)	īrā	īrā	fatten	fatten	v.	1.6.4	2	0		
+505746	1991	Ao (Chungli)	jāŋlū	jāŋlū	make	make	v.	6.14	2	0		
+505747	1991	Ao (Chungli)	kɯ̄m◦tāŋ	kɯ̄m◦tāŋ	careful	careful	be v.	8.3.2.3.1	2	0		
+505748	1991	Ao (Chungli)	kāŋsī	kāŋsī	suffer	suffer	v.	6.2	2	0		
+505749	1991	Ao (Chungli)	kɯ̄lɯ̄m	kɯ̄lɯ̄m	worship	worship	v.	5.8.1.3	2	0		6199
+505750	1991	Ao (Chungli)	kūrū	kūrū	miser	miser	be v.		2	0		
+505751	1991	Ao (Chungli)	māŋmāŋ	māŋmāŋ	headache	headache	v.	1.2.1	2	0		
+505752	1991	Ao (Chungli)	mɯ̄ī	mɯ̄ī	grow	grow	v.	9.7.2	2	0		
+505753	1991	Ao (Chungli)	mɯ̄jū	mɯ̄jū	scrub	scrub	v.	6.3	2	0		
+505754	1991	Ao (Chungli)	mɯ̄lā	mɯ̄lā	allow	allow	v.	6.19	2	0		
+505755	1991	Ao (Chungli)	mɯ̄nɯ̄	mɯ̄nɯ̄	smile	smile	v.	1.8.8.1	2	0		1105
+505756	1991	Ao (Chungli)	mɯ̄nɯ̄m	mɯ̄nɯ̄m	smell	smell	v.	1.2.8.5	2	0		1415
+505757	1991	Ao (Chungli)	mɯ̄nū	mɯ̄◦nū	late	late	be v.	9.1.1	2	0		6127
+505758	1991	Ao (Chungli)	mɯ̄pū	mɯ̄pū	birth	birth	v.	1.1.2	2	0		
+505759	1991	Ao (Chungli)	mɯ̄rāŋ	mɯ̄rāŋ	try	try	v.	6.1.1.1	2	0		
+505760	1991	Ao (Chungli)	mɯ̄sāŋ	mɯ̄sāŋ	drape	drape	v.		2	0		
+505761	1991	Ao (Chungli)	mɯ̄◦sɯ̄	mɯ̄◦sɯ̄	look after	look after	v.	1.2.6.11	2	0		
+505762	1991	Ao (Chungli)	mɯ̄sɯ̄m	mɯ̄sɯ̄m	clear	clear	v.	9.6.1.1	2	0		
+505763	1991	Ao (Chungli)	mɯ̄sī	mɯ̄sī	bless	bless	v.	5.8	2	0		
+505764	1991	Ao (Chungli)	mɯ̄tāŋ	mɯ̄tāŋ	support	support	v.	6.16	2	0		
+505765	1991	Ao (Chungli)	mɯ̄tɯ̄m	mɯ̄tɯ̄m	befriend	befriend	v.	6.19	2	0		
+505766	1991	Ao (Chungli)	mīīn	mīīn	irritate	irritate	v.		2	0		
+505767	1991	Ao (Chungli)	m◦ūā	mūā	bless	bless	v.	5.8	2	0		m,7594
+505768	1991	Ao (Chungli)	mūkūŋ	mūkūŋ	hate	hate	v.	8.3.1.1.2	2	0		
+505769	1991	Ao (Chungli)	mūlūŋ	mūlūŋ	agree	agree	v.	8.3.1.4.1	2	0		
+505770	1991	Ao (Chungli)	nāī	nāī	tie	tie	v.	6.13.1	2	0		
+505771	1991	Ao (Chungli)	nānā	nānā	drizzle	drizzle	v.	3.2.3	2	0		
+505772	1991	Ao (Chungli)	nūŋnāŋ	nūŋnāŋ	hesitate	hesitate	v.	8.3.1.10.3	2	0		
+505773	1991	Ao (Chungli)	pāŋkā	pāŋkā	dream	dream	v.	1.1.4.2	2	0		e
+505774	1991	Ao (Chungli)	pɯ̄lɯ̄m	pɯ̄lɯ̄m	tire	tire	v.	8.3.1.11.2	2	0		
+505775	1991	Ao (Chungli)	pɯ̄ntɯ̄n	pɯ̄ntɯ̄n	gather	gather	v.	6.13.5	2	0		
+505776	1991	Ao (Chungli)	pɯ̄lɯ̄n	pɯ̄lɯ̄n	carry	carry	v.	6.2.2.2.1	2	0		
+505777	1991	Ao (Chungli)	pūŋpā	pūŋpā	light	light	be v.	7.1.11.1	2	0		
+505778	1991	Ao (Chungli)	rātā	rātā	dilly-dally	dilly-dally	v.	6.19	2	0		
+505779	1991	Ao (Chungli)	rɯ̄nɯ̄m	rɯ̄nɯ̄m	get ready	get ready	v.	1.1.5	2	0		
+505780	1991	Ao (Chungli)	rīzɯ̄ŋ	rīzɯ̄ŋ	collect	collect	v.	6.21	2	0		
+505781	1991	Ao (Chungli)	sāŋwā	sāŋwā	brighten	brighten	v.		2	0		
+505782	1991	Ao (Chungli)	sārū	sārū	collect	collect	v.	6.21	2	0		
+505783	1991	Ao (Chungli)	sɯ̄mtāŋ	sɯ̄mtāŋ	visit	visit	v.	6.2.2.2	2	0		
+505784	1991	Ao (Chungli)	sīrāŋ	sīrāŋ	sick	sick	be v.	1.1.5.1	2	0		
+505785	1991	Ao (Chungli)	tūsī	tūsī	praise	praise	v.	8.5.2.2	2	0		
+505786	1991	Ao (Chungli)	ācāŋ	ācāŋ	cross	cross	v.	6.7.10	3	0		
+505787	1991	Ao (Chungli)	ācī	ācī	see	see	v.	1.2.6.10	3	0		
+505788	1991	Ao (Chungli)	ācū	ācū	slide	slide	v.	6.7.4	3	0		
+505789	1991	Ao (Chungli)	ācūŋ	ācūŋ	carry	carry	v.	6.2.2.2.1	3	0		
+505790	1991	Ao (Chungli)	ājā	ājā	crawl	crawl	v.	6.7.9	3	0		
+505791	1991	Ao (Chungli)	ākī	ākī	take	take	v.	6.21	3	0		
+505792	1991	Ao (Chungli)	ākīn	ākīn	remove	remove	v.	6.10.4	3	0		
+505793	1991	Ao (Chungli)	ā◦māŋ	āmāŋ	believe	believe	v.	8.3.1.12.1	3	0		p,6200
+505794	1991	Ao (Chungli)	āmū	āmū	grope	grope	v.	8.4	3	0		
+505795	1991	Ao (Chungli)	ānɯ̄ŋ	ānɯ̄ŋ	moan	moan	v.	1.8.8.2	3	0		
+505796	1991	Ao (Chungli)	ā◦ŋā	ā◦ŋā	listen	listen	v.	1.2.7.4	3	0		p,811b
+505797	1991	Ao (Chungli)	ā◦pū	āpū	blow	blow	v.	1.3.1.4	3	0		p,75
+505798	1991	Ao (Chungli)	āpū	āpū	crawl	crawl	v.	6.7.9	3	0		
+505799	1991	Ao (Chungli)	ā◦rɯ̄	ārɯ̄	stitch	stitch	v.	5.1	3	0		p,2350
+505800	1991	Ao (Chungli)	ā◦rɯ̄m	ārɯ̄m	bear	bear	v.	2.2.3	3	0		p,5374
+505801	1991	Ao (Chungli)	ā◦rī	ā◦rī	chase	chase	v.	6.7.10	3	0		p,6552
+505802	1991	Ao (Chungli)	ā◦sɯ̄m	āsɯ̄m	run	run	v.	6.7.4	3	0		p,5373
+505803	1991	Ao (Chungli)	āsāŋ	āsāŋ	sit (horse)	sit (horse)	v.	6.1.1.4.1	3	0		w
+505804	1991	Ao (Chungli)	ātɯ̄n	ātɯ̄n	collect (people)	collect (people)	v.	6.21	3	0		
+505805	1991	Ao (Chungli)	ācɯ̄	ācɯ̄	boundary	boundary	v.	9.2.7	3	0		
+505806	1991	Ao (Chungli)	āzɯ̄ŋ	āzɯ̄ŋ	free	free	be v.	6.19	3	0		
+505807	1991	Ao (Chungli)	cāʔsī	cāʔsī	sad	sad	be v.	1.1.5.1	3	0		
+505808	1991	Ao (Chungli)	cā◦cā	cācā	walk	walk	be v.	6.7.4	3	0		7595,7595
+505809	1991	Ao (Chungli)	cāŋ◦cā	cāŋ◦cā	clear	clear	be v.	9.6.1.1	3	0		2745,m
+505810	1991	Ao (Chungli)	cāŋrā	cāŋrā	interest	interest	be v.	8.3.2.6.1	3	0		
+505811	1991	Ao (Chungli)	cāŋrū	cāŋrū	ablaze	ablaze	be v.		3	0		
+505812	1991	Ao (Chungli)	cɯ̄ŋsāŋ	cɯ̄ŋsāŋ	dance	dance	v.	6.7.9	3	0		
+505813	1991	Ao (Chungli)	sīsī	sīsī	market	market	v.	9.10.6	3	0		
+505814	1991	Ao (Chungli)	sātɯ̄m	sātɯ̄m	comfort	comfort	be v.	8.3.2.3.1	3	0		
+505815	1991	Ao (Chungli)	rɯ̄p◦rāŋ	rɯ̄prāŋ	look	look	v.	1.2.6.11	3	0		m,1227
+505816	1991	Ao (Chungli)	pū◦sī	pū◦sī	search	search	v.	6.2.2.2	3	0		6129,s
+505817	1991	Ao (Chungli)	jāʔrī	jāʔrī	help	help	v.	6.2.2.1	3	0		
+505818	1991	Ao (Chungli)	kāŋtɯ̄n	kāŋtɯ̄n	coil	coil	v.	9.7.1	3	0		
+505819	1991	Ao (Chungli)	kāzɯ̄	kāzɯ̄	play	play	v.	6.1.1.3	3	0		
+505820	1991	Ao (Chungli)	lāū	lāū	fall	fall	v.	6.1.1.4.2	3	0		
+505821	1991	Ao (Chungli)	pālā	pālā	divorce	divorce	v.	5.8	3	0		
+505822	1991	Ao (Chungli)	-àʔ	-àʔ	earn	earn	v.	6.2	4	0		7579
+505823	1991	Ao (Chungli)	-jɯ̀n	-jɯ̀n	sprinkle	sprinkle	v.	6.10.3	4	0		
+505824	1991	Ao (Chungli)	-jà	-jà	shine	shine	v.	1.1.2.1	4	0		5683
+505825	1991	Ao (Chungli)	-jɯ̀m	-jɯ̀m	harvest	harvest	v.	3.1.10	4	0		
+505826	1991	Ao (Chungli)	-jù	-jù	keep	keep	v.	6.18	4	0		
+505827	1991	Ao (Chungli)	-kà	-kà	have	have	v.	8.2	4	0		
+505828	1991	Ao (Chungli)	-kù	-kù	hit	hit	v.	6.8	4	0		
+505829	1991	Ao (Chungli)	-là	-là	lay down	lay down	v.	6.17	4	0		
+505830	1991	Ao (Chungli)	-làŋ	-làŋ	long	long	be v.	9.7.2	4	0		2597
+505831	1991	Ao (Chungli)	-lɯ̀m	-lɯ̀m	slice	slice	v.	6.9.3	4	0		2401?
+505832	1991	Ao (Chungli)	-mɯ̀n	-mɯ̀n	sit	sit	v.	6.1.1.4.1	4	0		3598
+505833	1991	Ao (Chungli)	-mùŋ	-mùŋ	stay	stay	v.	6.7.11	4	0		
+505834	1991	Ao (Chungli)	-nɯ̀n	-nɯ̀n	press	press	v.	9.5	4	0		
+505835	1991	Ao (Chungli)	-ŋù	-ŋù	see	see	v.	1.2.6.10	4	0		6172
+505836	1991	Ao (Chungli)	-rà	-rà	string the thread	string the thread	v.	5.1	4	0		
+505837	1991	Ao (Chungli)	-ràŋ	-ràŋ	cut	cut	v.	6.9.3	4	0		
+505838	1991	Ao (Chungli)	-rɯ̀n	-rɯ̀n	multiply	multiply	v.	6.2	4	0		
+505839	1991	Ao (Chungli)	-rù	-rù	roast	roast	v.	5.5	4	0		7072?
+505840	1991	Ao (Chungli)	-sàŋ	-sàŋ	bark	bark	v.	2.1.11.1	4	0		
+505841	1991	Ao (Chungli)	-sɯ̀	-sɯ̀	do	do	v.	6.1.1.1	4	0		
+505842	1991	Ao (Chungli)	-sɯ̀m	-sɯ̀m	wear	wear	v.	6.2.2.1	4	0		
+505843	1991	Ao (Chungli)	-sɯ̀n	-sɯ̀n	sour	sour	be v.	7.1.4.4	4	0		6079
+505844	1991	Ao (Chungli)	-sì	-sì	learn	learn	v.	8.3.1.12.1	4	0		2670
+505845	1991	Ao (Chungli)	-sì	-sì	pick up	pick up	v.	6.10.4	4	0		
+505846	1991	Ao (Chungli)	-sù	-sù	born	born	v.	1.1.2	4	0		1865
+505847	1991	Ao (Chungli)	-sùŋ	-sùŋ	plant spear	plant spear	v.	3.1.10	4	0		
+505848	1991	Ao (Chungli)	-tàŋ	-tàŋ	plug, block	plug, block	v.	5.1	4	0		
+505849	1991	Ao (Chungli)	-tɯ̀n	-tɯ̀n	include	include	v.	8.2	4	0		
+505850	1991	Ao (Chungli)	-tùŋ	-tùŋ	reach	reach	v.	6.21	4	0		
+505851	1991	Ao (Chungli)	-ùŋ	-ùŋ	pluck	pluck	v.	6.2.2.3.1	4	0		
+505852	1991	Ao (Chungli)	-wà	-wà	roast	roast	v.	5.5	4	0		
+505853	1991	Ao (Chungli)	-zɯ̀ŋ	-zɯ̀ŋ	count	count	v.	6.2.2.2	4	0		57
+505854	1991	Ao (Chungli)	á◦àm	áàm	hold	hold	v.	6.16	4	0		p,6174
+505855	1991	Ao (Chungli)	ácɯ̀m	ácɯ̀m	reduce	reduce	v.		4	0		
+505856	1991	Ao (Chungli)	álàŋ	álàŋ	fall	fall	v.	6.1.1.4.2	4	0		
+505857	1991	Ao (Chungli)	á◦lì	á◦lì	buy	buy	v.	6.22	4	0		p,369
+505858	1991	Ao (Chungli)	ánàŋ	ánàŋ	choke	choke	v.	1.3.5.7	4	0		
+505859	1991	Ao (Chungli)	ánɯ̀n	ánɯ̀n	stop	stop	v.	6.7.11	4	0		
+505860	1991	Ao (Chungli)	áŋɯ̀n	áŋɯ̀n	hammer	hammer	v.	5.11.5.4	4	0		
+505861	1991	Ao (Chungli)	ánì	ánì	tire	tire	v.	8.3.1.11.2	4	0		
+505862	1991	Ao (Chungli)	árɯ̀	árɯ̀	scream	scream	v.	8.5.4.1	4	0		
+505863	1991	Ao (Chungli)	ásà	ásà	shout	shout	v.	8.5.4.1	4	0		
+505864	1991	Ao (Chungli)	áràŋ	áràŋ	arrange	arrange	v.	6.17	4	0		
+505865	1991	Ao (Chungli)	cíùk	cíùk	release	release	v.	6.10.1	4	0		
+505866	1991	Ao (Chungli)	ɯ́nsì	ɯ́nsì	spill	spill	v.	6.6	4	0		
+505867	1991	Ao (Chungli)	ínjàk	ínjàk	do	do	v.	6.1.1.1	4	0		
+505868	1991	Ao (Chungli)	júùk	júùk	send	send	v.	6.2.2.2	4	0		
+505869	1991	Ao (Chungli)	lásì	lásì	ajar	ajar	v.		4	0		
+505870	1991	Ao (Chungli)	mɯ́ì	mɯ́ì	wash face	wash face	v.	6.2.2.5.2	4	0		
+505871	1991	Ao (Chungli)	mɯ́◦kɯ̀m	mɯ́◦kɯ̀m	cloud	cloud	be v.	3.2.1	4	0		
+505872	1991	Ao (Chungli)	mɯ́nɯ̀	mɯ́nɯ̀	ache	ache	v.	1.1.5.1	4	0		
+505873	1991	Ao (Chungli)	mɯ́sɯ̀	mɯ́sɯ̀	comb	comb	v.	1.2.2.1	4	0		1219
+505874	1991	Ao (Chungli)	míìn	míìn	shoo	shoo	v.		4	0		
+505875	1991	Ao (Chungli)	múʔsì	múʔsì	overflow	overflow	v.	6.6	4	0		
+505876	1991	Ao (Chungli)	nɯ́kɯ̀n	nɯ́kɯ̀n	disturb	disturb	v.	8.3.1.6.2	4	0		
+505877	1991	Ao (Chungli)	pák◦sì	páksì	disperse	disperse	v.	6.10.3	4	0		m,5369
+505878	1991	Ao (Chungli)	pɯ́ràŋ	pɯ́ràŋ	shine	shine	v.	1.1.2.1	4	0		
+505879	1991	Ao (Chungli)	sáŋtùŋ	sáŋtùŋ	proclaim	proclaim	v.		4	0		
+505880	1991	Ao (Chungli)	sáì	sáì	play	play	v.	6.1.1.3	4	0		2746
+505881	1991	Ao (Chungli)	sɯ́ì	sɯ́ì	cross by	cross by	v.	6.7.10	4	0		
+505882	1991	Ao (Chungli)	sɯ́n◦sì	sɯ́nsì	disperse	disperse	v.	6.10.3	4	0		m,5369
+505883	1991	Ao (Chungli)	cɯ́rɯ̀m	cɯ́rɯ̀m	scared	scared	be v.	8.3.1.10.1	4	0		
+505884	1991	Ao (Chungli)	áìt	áìt	come in	come in	v.	6.7.1	5	0		
+505885	1991	Ao (Chungli)	á◦jɯ̀p	á◦jɯ̀p	sleep	sleep	v.	1.1.4.1	5	0		p,127
+505886	1991	Ao (Chungli)	álɯ̀p	álɯ̀p	pack	pack	v.	6.2	5	0		
+505887	1991	Ao (Chungli)	álù	álù	come down	come down	v.	6.7.1	5	0		
+505888	1991	Ao (Chungli)	árɯ̀p	árɯ̀p	bunch together	bunch together	v.	9.9	5	0		
+505889	1991	Ao (Chungli)	ásàʔ	ásàʔ	measure	measure	v.	9.8	5	0		
+505890	1991	Ao (Chungli)	á◦rù	á◦rù	come	come	v.	6.7.1	5	0		p,3569
+505891	1991	Ao (Chungli)	á◦sɯ̀k	ásɯ̀k	draw	draw	v.	5.8	5	0		
+505892	1991	Ao (Chungli)	á◦tù	á◦tù	come up	come up	v.	6.7.1	5	0		p,148
+505893	1991	Ao (Chungli)	á◦tùk	á◦tùk	come out	come out	v.	6.7.2	5	0		p,2718
+505894	1991	Ao (Chungli)	cák◦mà	cákmà	break	break	v.	9.5	5	0		7795,m
+505895	1991	Ao (Chungli)	cíʔjɯ̀m	cíʔjɯ̀m	graze	graze	v.		5	0		
+505896	1991	Ao (Chungli)	cíkùʔ	cíkùʔ	bathe	bathe	v.	6.6	5	0		
+505897	1991	Ao (Chungli)	círàʔ	círàʔ	sharpen	sharpen	v.	6.9.2	5	0		
+505898	1991	Ao (Chungli)	ílàʔ	ílàʔ	small	small	be v.	9.7.2	5	0		
+505899	1991	Ao (Chungli)	ímlà	ímlà	hope	hope	v.	8.3.1.7.1	5	0		
+505900	1991	Ao (Chungli)	ín◦ùk	ín◦ùk	put in	put in	v.	6.17	5	0		7710,s
+505901	1991	Ao (Chungli)	kɯ́làk	kɯ́làk	cunning	cunning	be v.	8.3.1.13	5	0		
+505902	1991	Ao (Chungli)	kí◦ràk	kí◦ràk	curve	curve	be v.	9.7.2	5	0		
+505903	1991	Ao (Chungli)	kúkrùk	kúkrùk	hunchback	hunchback	v.	1.4.8.3	5	0		
+505904	1991	Ao (Chungli)	kúlɯ̀p	kúlɯ̀p	bend	bend	v.	9.5	5	0		
+505905	1991	Ao (Chungli)	lúlàʔ	lúlàʔ	tire	tire	be v.	8.3.1.11.2	5	0		
+505906	1991	Ao (Chungli)	nɯ́mnɯ̀m	nɯ́mnɯ̀m	murmur	murmur	v.	8.5.5	5	0		
+505907	1991	Ao (Chungli)	nɯ́mpàŋ	nɯ́mpàŋ	close	close	v.	6.2.2.6.2	5	0		
+505908	1991	Ao (Chungli)	núktàŋ	núktàŋ	obstruct	obstruct	v.	6.2	5	0		
+505909	1991	Ao (Chungli)	pákmà	pákmà	break	break	v.	9.5	5	0		
+505910	1991	Ao (Chungli)	pɯ́ncàʔ	pɯ́ncàʔ	complicate	complicate	v.		5	0		
+505911	1991	Ao (Chungli)	pɯ́ntàŋ	pɯ́ntàŋ	separate	separate	v.	6.10.4	5	0		
+505912	1991	Ao (Chungli)	pí◦lɯ̀m	pílɯ̀m	think	think	v.	8.3.1.13.1	5	0		m,1381b
+505913	1991	Ao (Chungli)	púràʔ	púràʔ	make up	make up	v.	6.14	5	0		
+505914	1991	Ao (Chungli)	rák◦sàʔ	rák◦sàʔ	break	break	v.	9.5	5	0		m,s
+505915	1991	Ao (Chungli)	rárà	rárà	fight	fight	v.	6.5	5	0		
+505916	1991	Ao (Chungli)	rá◦sà	rá◦sà	angry	angry	be v.	8.3.1.6.1	5	0		6192,m
+505917	1991	Ao (Chungli)	rúsɯ̀p	rúsɯ̀p	dry up	dry up	v.	6.6	5	0		
+505918	1991	Ao (Chungli)	sálà	sálà	untie	untie	v.	6.13.1	5	0		
+505919	1991	Ao (Chungli)	sá◦màʔ	sá◦màʔ	lose	lose	v.	6.10.1	5	0		m,1860
+505920	1991	Ao (Chungli)	sɯ́mpàʔ	sɯ́mpàʔ	hate	hate	v.	8.3.1.1.2	5	0		
+505921	1991	Ao (Chungli)	síɯ̀m	síɯ̀m	select	select	v.	6.10.4	5	0		
+505922	1991	Ao (Chungli)	sɯ́pù	sɯ́pù	dress	dress	v.	6.2.2.1	5	0		
+505923	1991	Ao (Chungli)	súlàʔ	súlàʔ	speak	speak	v.	8.5.10.1	5	0		
+505924	1991	Ao (Chungli)	súsàʔ	súsàʔ	destroy	destroy	v.	6.9	5	0		
+505925	1991	Ao (Chungli)	tɯ́p◦sɯ̀t	tɯ́p◦sɯ̀t	kill	kill	v.	6.4	5	0		2206,1018
+505926	1991	Ao (Chungli)	zɯ́◦lù	zɯ́◦lù	write	write	v.	6.2.2.9.1	5	0		
+505927	1991	Ao (Chungli)	úlù	úlù	big	big	be v.	9.7.2	5	0		
+505928	1991	Ao (Chungli)	-àk	-àk	shy	shy	be v.	9.6.3	6	0		380
+505929	1991	Ao (Chungli)	-jùk	-jùk	sell	sell	v.	6.22	6	0		7813
+505930	1991	Ao (Chungli)	-kàk	-kàk	pry	pry	v.	6.2.2.1	6	0		
+505931	1991	Ao (Chungli)	-kùʔ	-kùʔ	cut wood	cut wood	v.	6.9.3	6	0		6611
+505932	1991	Ao (Chungli)	-làk	-làk	fed up	fed up	be v.	1.3.5.8	6	0		
+505933	1991	Ao (Chungli)	-lɯ̀p	-lɯ̀p	cut	cut	v.	6.9.3	6	0		2401
+505934	1991	Ao (Chungli)	-lɯ̀t	-lɯ̀t	scald	scald	v.	6.6	6	0		
+505935	1991	Ao (Chungli)	-lùk	-lùk	wash	wash	v.	6.2.2.5.2	6	0		
+505936	1991	Ao (Chungli)	-màʔ	-màʔ	slap	slap	v.	6.8	6	0		
+505937	1991	Ao (Chungli)	-màk	-màk	invade	invade	v.	6.5	6	0		
+505938	1991	Ao (Chungli)	-mɯ̀t	-mɯ̀t	boil	boil	v.	6.6	6	0		
+505939	1991	Ao (Chungli)	-mùk	-mùk	hatch	hatch	v.	1.1.2	6	0		3488
+505940	1991	Ao (Chungli)	-nàʔ	-nàʔ	urinate	urinate	v.	1.5.3.2	6	0		
+505941	1991	Ao (Chungli)	-nɯ̀p	-nɯ̀p	paste	paste	v.	5.4	6	0		
+505942	1991	Ao (Chungli)	-ŋùʔ	-ŋùʔ	bite	bite	v.	1.3.4.4	6	0		
+505943	1991	Ao (Chungli)	-pɯ̀t	-pɯ̀t	pluck	pluck	v.	6.2.2.3.1	6	0		
+505944	1991	Ao (Chungli)	-pùʔ	-pùʔ	catch	catch	v.	6.21	6	0		
+505945	1991	Ao (Chungli)	-ràk	-ràk	pull out, grab	pull out, grab	v.	6.2.2.3.1	6	0		5619
+505946	1991	Ao (Chungli)	-rɯ̀p	-rɯ̀p	lash	lash	v.	6.2.2.1	6	0		
+505947	1991	Ao (Chungli)	-rɯ̀t	-rɯ̀t	heavy	heavy	be v.	9.6.2	6	0		2415
+505948	1991	Ao (Chungli)	-rùk	-rùk	poke	poke	v.	8.4	6	0		
+505949	1991	Ao (Chungli)	-sàk	-sàk	hard	hard	be v.	9.6.2	6	0		
+505950	1991	Ao (Chungli)	-sàk	-sàk	scratch	scratch	v.	1.6.5.5	6	0		1457
+505951	1991	Ao (Chungli)	-sɯ̀p	-sɯ̀p	fill	fill	v.	6.11	6	0		
+505952	1991	Ao (Chungli)	-sìʔ	-sìʔ	rot	rot	v.	3.1.10	6	0		
+505953	1991	Ao (Chungli)	-tɯ̀p	-tɯ̀p	hit	hit	v.	6.8	6	0		2206
+505954	1991	Ao (Chungli)	-cɯ̀k	-cɯ̀k	hit	hit	v.	6.8	6	0		2759
+505955	1991	Ao (Chungli)	-ùk	-ùk	sweep	sweep	v.	6.2.2.5.3	6	0		2587
+505956	1991	Ao (Chungli)	-wàʔ	-wàʔ	swim	swim	v.	6.6	6	0		7565
+505957	1991	Ao (Chungli)	-wàk	-wàk	swell	swell	v.	1.1.5.2	6	0		
+505958	1991	Ao (Chungli)	-zɯ̀k	-zɯ̀k	beat	beat	v.	6.8	6	0		5670
+505959	1991	Ao (Chungli)	á◦rɯ̀k	árɯ̀k	drown	drown	v.	6.6	6	0		p,2260
+505960	1991	Ao (Chungli)	í◦zɯ̀k	ízɯ̀k	pour out	pour out	v.	6.6	6	0		
+505961	1991	Ao (Chungli)	kɯ́m◦zɯ̀k	kɯ́m◦zɯ̀k	save	save	v.	6.2.2.1	6	0		
+505962	1991	Ao (Chungli)	kúŋsìʔ	kúŋsìʔ	touch	touch	v.	8.4	6	0		
+505963	1991	Ao (Chungli)	láŋzɯ̀k	láŋzɯ̀k	answer	answer	v.	8.5.6	6	0		
+505964	1991	Ao (Chungli)	lápùk	lápùk	open	open	v.	6.2.2.6.1	6	0		
+505965	1991	Ao (Chungli)	mɯ́jɯ̀p	mɯ́jɯ̀p	turn, return	turn, return	v.	6.7.6	6	0		
+505966	1991	Ao (Chungli)	mɯ́kɯ̀p	mɯ́kɯ̀p	upturn	upturn	v.		6	0		
+505967	1991	Ao (Chungli)	mɯ́sàk	mɯ́sàk	itch	itch	v.	1.6.5.5	6	0		1457a
+505968	1991	Ao (Chungli)	mɯ́sɯ̀k	mɯ́sɯ̀k	like, similar	like, similar	be v.	8.3.1.1.1	6	0		
+505969	1991	Ao (Chungli)	mɯ́sɯ̀p	mɯ́sɯ̀p	sip/suck	sip/suck	v.	6.6	6	0		5541
+505970	1991	Ao (Chungli)	mɯ́sìʔ	mɯ́sìʔ	ask	ask	v.	8.5.7.1	6	0		
+505971	1991	Ao (Chungli)	mɯ́◦sɯ̀k	mɯ́◦sɯ̀k	pinch	pinch	v.	8.4	6	0		p,179
+505972	1991	Ao (Chungli)	múkùʔ	múkùʔ	bud	bud	v.	3.1.4	6	0		
+505973	1991	Ao (Chungli)	pɯ́lùk	pɯ́lùk	useless	useless	be v.	6.2.2.7.1	6	0		
+505974	1991	Ao (Chungli)	náŋzɯ̀k	náŋzɯ̀k	promise	promise	v.	8.5.16	6	0		
+505975	1991	Ao (Chungli)	pɯ́rɯ̀p	pɯ́rɯ̀p	twist	twist	v.	6.7.6	6	0		
+505976	1991	Ao (Chungli)	pɯ́rɯ̀t	pɯ́rɯ̀t	hurl	hurl	v.	6.12	6	0		
+505977	1991	Ao (Chungli)	pɯ́lɯ̀p	pɯ́lɯ̀p	turn upside down	turn upside down	v.	6.7.6	6	0		
+505978	1991	Ao (Chungli)	rátɯ̀t	rátɯ̀t	explain, solve	explain, solve	v.	8.5.14.3	6	0		
+505979	1991	Ao (Chungli)	rɯ́zɯ̀k	rɯ́zɯ̀k	hatch	hatch	v.	1.1.2	6	0		
+505980	1991	Ao (Chungli)	sákzɯ̀k	sákzɯ̀k	tongue hang out	tongue hang out	v.	1.3.3	6	0		
+505981	1991	Ao (Chungli)	sáŋùk	sáŋùk	proclaim	proclaim	v.		6	0		
+505982	1991	Ao (Chungli)	sɯ́n◦ɯ̀p	sɯ́nɯ̀p	gather	gather	v.	6.13.5	6	0		7708,s
+505983	1991	Ao (Chungli)	táŋsìʔ	táŋsìʔ	touch	touch	v.	8.4	6	0		
+505984	1991	Ao (Chungli)	-cáʔ	-cáʔ	boil	boil	v.	6.6	7	0		
+505985	1991	Ao (Chungli)	-cɯ́p	-cɯ́p	cry	cry	v.	1.8.8.2	7	0		1103
+505986	1991	Ao (Chungli)	-cíʔ	-cíʔ	eat	eat	v.	1.5.3.2	7	0		36
+505987	1991	Ao (Chungli)	-káʔ	-káʔ	shoot	shoot	v.	6.2.2.1	7	0		
+505988	1991	Ao (Chungli)	-kɯ́t	-kɯ́t	present	present	v.	5.8	7	0		
+505989	1991	Ao (Chungli)	-kúk	-kúk	win	win	v.	6.19	7	0		
+505990	1991	Ao (Chungli)	-púk	-púk	burst	burst	v.	9.5	7	0		6256
+505991	1991	Ao (Chungli)	-ták	-ták	weave	weave	v.	5.1	7	0		2686
+505992	1991	Ao (Chungli)	-tɯ́p	-tɯ́p	paint	paint	v.	5.8	7	0		
+505993	1991	Ao (Chungli)	-cɯ́k	-cɯ́k	roast	roast	v.	5.5	7	0		
+505994	1991	Ao (Chungli)	-cɯ́n	-cɯ́n	escape	escape	v.	6.7.2	8	0		
+505995	1991	Ao (Chungli)	-cí	-cí	cut field	cut field	v.	6.9.3	8	0		
+505996	1991	Ao (Chungli)	-kúŋ	-kúŋ	dry	dry	be v.	6.6	8	0		119
+505997	1991	Ao (Chungli)	-táŋ	-táŋ	break	break	v.	9.5	8	0		
+505998	1991	Ao (Chungli)	-tɯ́m	-tɯ́m	perch	perch	v.	2.2.4	8	0		
+505999	1991	Ao (Chungli)	-tɯ́n	-tɯ́n	form (pus)	form (pus)	v.	9.7.1	8	0		
+506000	1991	Ao (Chungli)	-cɯ́ŋ	-cɯ́ŋ	fill (meat)	fill (meat)	v.	6.11	8	0		
+506001	1991	Ao (Chungli)	-tú	-tú	dig	dig	v.	6.11	8	0		3573
+506002	1991	Ao (Chungli)	-túŋ	-túŋ	hit	hit	v.	6.8	8	0		
+506003	1991	Ao (Chungli)	áí	áí	wrong	wrong	be v.	9.6.2.1	9	0		
+506004	1991	Ao (Chungli)	ájáŋ	ájáŋ	ache	ache	v.	1.1.5.1	9	0		
+506005	1991	Ao (Chungli)	ájɯ́m	ájɯ́m	scream	scream	v.	8.5.4.1	9	0		
+506006	1991	Ao (Chungli)	ájúŋ	ájúŋ	gather	gather	v.	6.13.5	9	0		
+506007	1991	Ao (Chungli)	á◦káŋ	ákáŋ	strong	strong	be v.	9.6.1.1	9	0		p,5727
+506008	1991	Ao (Chungli)	álɯ́n	álɯ́n	tie	tie	v.	6.13.1	9	0		
+506009	1991	Ao (Chungli)	ánɯ́ŋ	ánɯ́ŋ	remain	remain	v.	6.7.11	9	0		
+506010	1991	Ao (Chungli)	ání	ání	lead	lead	v.	6.2.2.1	9	0		
+506011	1991	Ao (Chungli)	á◦pɯ́n	ápɯ́n	wear	wear	v.	6.2.2.1	9	0		p,2579
+506012	1991	Ao (Chungli)	átá	átá	wait	wait	v.	6.1.1.6	9	0		
+506013	1991	Ao (Chungli)	ázɯ́ŋ	ázɯ́ŋ	alone	alone	be v.	7.1.6.1	9	0		
+506014	1991	Ao (Chungli)	cɯ́mpí	cɯ́mpí	talk	talk	v.	8.5.10.1	9	0		
+506015	1991	Ao (Chungli)	láŋzɯ́	láŋzɯ́	answer	answer	v.	8.5.6	9	0		
+506016	1991	Ao (Chungli)	lúmí	lúmí	starve	starve	v.	1.1.3	9	0		
+506017	1991	Ao (Chungli)	mɯ́cáŋ	mɯ́cáŋ	sleep	sleep	v.	1.1.4.1	9	0		b
+506018	1991	Ao (Chungli)	mɯ́cí	mɯ́cí	knit	knit	v.	6.14	9	0		
+506019	1991	Ao (Chungli)	mɯ́láŋ	mɯ́láŋ	wrestle	wrestle	v.	6.5	9	0		
+506020	1991	Ao (Chungli)	mɯ́lɯ́n	mɯ́lɯ́n	change	change	v.	9.5	9	0		5643
+506021	1991	Ao (Chungli)	mɯ́◦lú	mɯ́lú	boil	boil	v.	6.6	9	0		m,7634
+506022	1991	Ao (Chungli)	mɯ́◦nɯ́n	mɯ́nɯ́n	dirty	dirty	be v.	3.2.11	9	0		m,7713
+506023	1991	Ao (Chungli)	mɯ́pí	mɯ́pí	request	request	v.	8.5.7.1	9	0		
+506024	1991	Ao (Chungli)	mɯ́rɯ́n	mɯ́rɯ́n	scold	scold	v.	8.5.1	9	0		
+506025	1991	Ao (Chungli)	mɯ́rúŋ	mɯ́rúŋ	hair raise	hair raise	v.	1.2.3	9	0		
+506026	1991	Ao (Chungli)	mɯ́zɯ́	mɯ́zɯ́	smear	smear	v.	5.8	9	0		
+506027	1991	Ao (Chungli)	mí◦jím	mí◦jím	love	love	v.	8.3.1.1.1	9	0		p,7683
+506028	1991	Ao (Chungli)	pɯ́rí	pɯ́rí	sufficient	sufficient	be v.	1.1.3.2	9	0		
+506029	1991	Ao (Chungli)	púá	púá	charm	charm	v.	8.3.1.1.1	9	0		
+506030	1991	Ao (Chungli)	pílá	pílá	depart	depart	v.	6.7.2	9	0		
+506031	1991	Ao (Chungli)	púŋ◦máŋ	púŋ◦máŋ	dream	dream	v.	1.1.4.2	9	0		m,126
+506032	1991	Ao (Chungli)	rácɯ́m	rácɯ́m	able	able	v.	1.1.2.4	9	0		
+506033	1991	Ao (Chungli)	sájú	sájú	show	show	v.	6.2.2.8	9	0		
+506034	1991	Ao (Chungli)	sápú	sápú	prefer	prefer	v.	8.3.1.1.1	9	0		
+506035	1991	Ao (Chungli)	sín	sín	predict	predict	v.	8.5.14.2	9	0		
+506036	1991	Ao (Chungli)	ácɯ́t	ácɯ́t	press	press	v.	9.5	10	0		
+506037	1991	Ao (Chungli)	ákɯ́t	ákɯ́t	boil	boil	v.	6.6	10	0		
+506038	1991	Ao (Chungli)	ánɯ́k	ánɯ́k	grind	grind	v.	9.5	10	0		
+506039	1991	Ao (Chungli)	áták	áták	curse	curse	v.	8.5.1	10	0		
+506040	1991	Ao (Chungli)	íntúk	íntúk	minus	minus	v.		10	0		
+506041	1991	Ao (Chungli)	mɯ́cák	mɯ́cák	chew	chew	v.	1.3.4	10	0		1778
+506042	1991	Ao (Chungli)	mɯ́cɯ́p	mɯ́cɯ́p	cut/snip	cut/snip	v.	6.9.3	10	0		
+506043	1991	Ao (Chungli)	mɯ́kɯ́t	mɯ́kɯ́t	surround	surround	v.	6.2.2.2	10	0		
+506044	1991	Ao (Chungli)	mɯ́náʔ	mɯ́náʔ	stick	stick	v.	3.1.2	10	0		
+506045	1991	Ao (Chungli)	mɯ́nák	mɯ́nák	lick	lick	v.	1.3.3.1	10	0		629
+506046	1991	Ao (Chungli)	mɯ́nɯ́p	mɯ́nɯ́p	catch up	catch up	v.	6.21	10	0		
+506047	1991	Ao (Chungli)	mɯ́núk	mɯ́núk	roll	roll	v.	6.7.6	10	0		
+506048	1991	Ao (Chungli)	mɯ́◦rɯ́k	mɯ́rɯ́k	clean	clean	be v.	6.2.2.5.2	10	0		
+506049	1991	Ao (Chungli)	mɯ́rúk	mɯ́rúk	roast	roast	v.	5.5	10	0		
+506050	1991	Ao (Chungli)	mɯ́◦ták	mɯ́◦ták	sting	sting	v.	2.4.2	10	0		p,7783
+506051	1991	Ao (Chungli)	mɯ́◦tɯ́p	mɯ́tɯ́p	bite	bite	v.	1.3.4.4	10	0		p,1775
+506052	1991	Ao (Chungli)	mɯ́◦tɯ́t	mɯ́tɯ́t	know	know	v.	8.3.1.12.1	10	0		m,2670
+506053	1991	Ao (Chungli)	mɯ́cɯ́ʔ	mɯ́cɯ́ʔ	domesticate	domesticate	v.		10	0		
+506054	1991	Ao (Chungli)	mɯ́◦cɯ́k	mɯ́cɯ́k	wash	wash	v.	6.2.2.5.2	10	0		m,7793
+506055	1991	Ao (Chungli)	mɯ́túk	mɯ́túk	bend	bend	v.	9.5	10	0		
+506056	1991	Ao (Chungli)	mɯ́júk	mɯ́júk	swallow	swallow	v.	1.3.5.6	10	0		627
+506057	1991	Ao (Chungli)	mɯ́júk/mɯ́zúk	mɯ́júk/mɯ́zúk	mix	mix	v.	6.13.4	10	0		
+506058	1991	Ao (Chungli)	pɯ́lák	pɯ́lák	die	die	v.	1.1.6	10	0		
+506059	1991	Ao (Chungli)	pɯ́◦rúk	pɯ́rúk	scatter	scatter	v.	6.10.3	10	0		m,7814
+506060	1991	Ao (Chungli)	pútɯ́p	pútɯ́p	match	match	v.	5.11.5.5	10	0		
+506061	1991	Ao (Chungli)	sɯ́n◦tɯ́p	sɯ́ntɯ́p	gather	gather	v.	6.13.5	10	0		7708,s
+506062	1991	Ao (Chungli)	túk◦cɯ́ʔ	túkcɯ́ʔ	leave	leave	v.	6.10.2	10	0		6717,s
+506063	1991	Ao (Chungli)	á◦máʔ	ámáʔ	forget	forget	v.	8.3.1.16.1	11	0		p,1860
+506064	1991	Ao (Chungli)	ánɯ́p	ánɯ́p	cure	cure	v.	1.1.5.1	11	0		
+506065	1991	Ao (Chungli)	ápíʔ	ápíʔ	guess	guess	v.	8.3.1.12.1	11	0		
+506066	1991	Ao (Chungli)	ápúʔ	ápúʔ	lend	lend	v.	6.22	11	0		
+506067	1991	Ao (Chungli)	átɯ́p	átɯ́p	plug	plug	v.	5.1	11	0		
+506068	1991	Ao (Chungli)	ázɯ́ʔ	ázɯ́ʔ	hug	hug	v.	8.4	11	0		
+506069	1991	Ao (Chungli)	sɯ́n◦túk	sɯ́ntúk	discard	discard	v.	6.12	11	0		m,6717
+506070	1991	Ao (Chungli)	sɯ́nták	sɯ́nták	tie	tie	v.	6.13.1	11	0		
+506071	1991	Ao (Chungli)	rɯ́pták	rɯ́pták	stumble	stumble	v.	6.7.3	11	0		
+506072	1991	Ao (Chungli)	núkták	núkták	stand	stand	v.	1.5.2	11	0		
+506073	1991	Ao (Chungli)	nɯ́nták	nɯ́nták	need	need	v.	9.6.2	11	0		
+506074	1991	Ao (Chungli)	ínták	ínták	follow	follow	v.	6.7.10	11	0		
+506075	1991	Ao (Chungli)	hùn̄ [hùnā]	hùn̄ [hùnā]	gold	gold		3.2.4	1a	0		b,b
+506076	1991	Ao (Chungli)	sàn̄ [sàjīn]/[sàīn]	sàn̄ [sàjīn]/[sàīn]	sheep	sheep		2.1.8	1a	0		6036
+506077	1991	Ao (Chungli)	ān̄ [āhə̄n]	ān̄ [āhə̄n]	hen	hen		2.1.10	1a	0		1600
+506078	1991	Ao (Chungli)	ùút [ùə̄t]	ùút [ùə̄t]	camel	camel		2.2.7	1a	0		5733?,b
+506079	1991	Ao (Chungli)	á◦m̀ [á◦hə̀m]	ám̀ [áhə̀m]	banana leaf	banana leaf		3.1.5	1a	0		p,366,p,366
+506080	1991	Ao (Chungli)	tām/tūm [tāhə̄m]	tām/tūm [tāhə̄m ]	middle	middle		1.9.4	1a	0		
+506081	1991	Ao (Chungli)	nàrìŋ [nàrìŋ]	nàrìŋ [nàrìŋ]	orange	orange		3.1.5	1a	0		bIndic,b
+506082	1991	Ao (Chungli)	súùt/súìt [sújìt]	súùt/súìt [sújìt]	hold up	hold up	v.	6.16	1b	0		
+506083	1991	Ao (Chungli)	áàp [áə̀p]	áàp [áə̀p]	rot	rot	v.	3.1.10	1b	0		
+506084	1991	Ao (Chungli)	mùcīŋ	mùcīŋ	devil	devil		4.2.12.2	1b	0		
+506085	1991	Ao (Chungli)	á◦ún [áwún]	áún [áwún]	curry	curry		3.1.6	1b	0		p,3531
+506086	1991	Ao (Chungli)	lúń [lúə́n]	lúń [lúə́n]	pickle	pickle		5.5	1b	0		
+506087	1991	Ao (Chungli)	ā◦m̄ [ā◦jə̄m]	ām̄ [ā◦jə̄m]	biscuit	biscuit			1b	0		p,7693,p,7693
+506088	1991	Ao (Chungli)	áút [áwút]	áút [áwút]	ash	ash		3.2.12.2	1b	0		3514,3514
+506089	1991	Ao (Chungli)	āmsɯ̄	āmsɯ̄	taboo	taboo		5.8	1b	0		
+506090	1991	Ao (Chungli)	m◦íḿ [mí◦jə́m]	m◦íḿ [míjə́m]	love	love	v.	8.3.1.1.1	1c	0		p,7683,p,7683
+506091	1991	Ao (Chungli)	míìp [míjə̀p]	míìp [míjə̀p]	turn	turn	v.	6.7.6	1c	0		
+506092	1992	Ao (Mongsen)	ácɯ́t	ácɯ́t	crunch	crunch	v.		12	0		
+506093	1992	Ao (Mongsen)	ákɯ́t	ákɯ́t	boil	boil	v.	6.6	12	0		
+506094	1992	Ao (Mongsen)	ánɯ́p	ánɯ́p	cure	cure	v.	1.1.5.1	12	0		
+506095	1992	Ao (Mongsen)	áník	áník	grind	grind	v.	9.5	12	0		
+506096	1992	Ao (Mongsen)	ápíʔ	ápíʔ	guess	guess	v.	8.3.1.12.1	12	0		
+506097	1992	Ao (Mongsen)	átíʔ	átíʔ	release	release	v.	6.10.1	12	0		
+506098	1992	Ao (Mongsen)	cʰɯ́lúʔ	cʰɯ́lúʔ	borrow	borrow	v.	6.22	12	0		
+506099	1992	Ao (Mongsen)	ɯ́n◦cúk	ɯ́n◦cúk	throw	throw	v.	6.12	12	0		7710,6717
+506100	1992	Ao (Mongsen)	í◦lák	ílák	pour	pour	v.	6.6	12	0		
+506101	1992	Ao (Mongsen)	kʰɯ́m◦lák	kʰɯ́mlák	save	save	v.	6.2.2.1	12	0		
+506102	1992	Ao (Mongsen)	lálúʔ	lálúʔ	want	want	v.	8.3.1.14.3	12	0		
+506103	1992	Ao (Mongsen)	mɯ́cák	mɯ́cák	chew	chew	v.	1.3.4	12	0		1778
+506104	1992	Ao (Mongsen)	mɯ́cɯ́p	mɯ́cɯ́p	cut	cut	v.	6.9.3	12	0		
+506105	1992	Ao (Mongsen)	mɯ́kɯ́t	mɯ́kɯ́t	surround	surround	v.	6.2.2.2	12	0		
+506106	1992	Ao (Mongsen)	mɯ́náʔ	mɯ́náʔ	stick	stick	v.	3.1.2	12	0		
+506107	1992	Ao (Mongsen)	mɯ́nák	mɯ́nák	lick	lick	v.	1.3.3.1	12	0		629
+506108	1992	Ao (Mongsen)	mɯ́nɯ́p	mɯ́nɯ́p	reach	reach	v.	6.21	12	0		
+506109	1992	Ao (Mongsen)	mɯ́núk	mɯ́núk	grind	grind	v.	9.5	12	0		
+506110	1992	Ao (Mongsen)	mɯ́rɯ́k	mɯ́rɯ́k	clean	clean	v.	6.2.2.5.2	12	0		
+506111	1992	Ao (Mongsen)	mɯ́◦ták	mɯ́◦ták	sting	sting	v.	2.4.2	12	0		p,7783
+506112	1992	Ao (Mongsen)	mɯ́◦tɯ́t	mɯ́tɯ́t	know	know	v.	8.3.1.12.1	12	0		m,2670
+506113	1992	Ao (Mongsen)	mɯ́cɯ́ʔ	mɯ́cɯ́ʔ	domesticate	domesticate	v.		12	0		
+506114	1992	Ao (Mongsen)	mɯ́túk	mɯ́túk	bend	bend	v.	9.5	12	0		
+506115	1992	Ao (Mongsen)	mɯ́júk	mɯ́júk	swallow	swallow	v.	1.3.5.6	12	0		627
+506116	1992	Ao (Mongsen)	náŋlák	náŋlák	promise	promise	v.	8.5.16	12	0		
+506117	1992	Ao (Mongsen)	pɯ́lák	pɯ́lák	curse	curse	v.	8.5.1	12	0		
+506118	1992	Ao (Mongsen)	pʰɯ́◦rúk	pʰɯ́rúk	scatter	scatter	v.	6.10.3	12	0		m,7814
+506119	1992	Ao (Mongsen)	pʰútɯ́p	pʰútɯ́p	match	match	v.	5.11.5.5	12	0		
+506120	1992	Ao (Mongsen)	rɯ́lák	rɯ́lák	hatch	hatch	v.	1.1.2	12	0		
+506121	1992	Ao (Mongsen)	á◦ʰrɯ̀k	áʰrɯ̀k	drown	drown	v.	6.6	13	0		p,2260
+506122	1992	Ao (Mongsen)	á◦ʰjàk	áʰjàk	shy	shy	be v.	9.6.3	13	0		m,380
+506123	1992	Ao (Mongsen)	áʰlàk	áʰlàk	forget	forget	v.	8.3.1.16.1	13	0		
+506124	1992	Ao (Mongsen)	ásùʔ	ásùʔ	small	small	be v.	9.7.2	13	0		
+506125	1992	Ao (Mongsen)	átʰùʔ	átʰùʔ	vomit	vomit	v.	1.8.3.2	13	0		
+506126	1992	Ao (Mongsen)	á◦cʰɯ̀k	ácʰɯ̀k	cold	cold	be v.	7.1.2.3	13	0		p,7108?
+506127	1992	Ao (Mongsen)	ɯ́ncʰàʔ	ɯ́ncʰàʔ	touch	touch	v.	8.4	13	0		
+506128	1992	Ao (Mongsen)	mɯ́cʰɯ̀p	mɯ́cʰɯ̀p	suck	suck	v.	1.3.2.1	13	0		5541
+506129	1992	Ao (Mongsen)	mɯ́kʰɯ̀p	mɯ́kʰɯ̀p	overturn	overturn	v.	6.7.10	13	0		
+506130	1992	Ao (Mongsen)	mɯ́sàʔ	mɯ́sàʔ	ask	ask	v.	8.5.7.1	13	0		
+506131	1992	Ao (Mongsen)	mɯ́sàk	mɯ́sàk	itch	itch	v.	1.6.5.5	13	0		1457a
+506132	1992	Ao (Mongsen)	mɯ́sɯ̀p	mɯ́sɯ̀p	suck	suck	v.	1.3.2.1	13	0		5541
+506133	1992	Ao (Mongsen)	mɯ́◦cʰɯ̀k	mɯ́◦cʰɯ̀k	pinch	pinch	v.	8.4	13	0		p,179
+506134	1992	Ao (Mongsen)	míʰjɯ̀p	míʰjɯ̀p	turn	turn	v.	6.7.6	13	0		
+506135	1992	Ao (Mongsen)	mú◦kʰùʔ	mú◦kʰùʔ	smoke	smoke	v.	3.2.12.2	13	0		2136,2361
+506136	1992	Ao (Mongsen)	rácʰɯ̀t	rácʰɯ̀t	explain	explain	v.	8.5.14.3	13	0		
+506137	1992	Ao (Mongsen)	sɯ́sàʔ	sɯ́sàʔ	tear	tear	v.	1.8.8.1	13	0		
+506138	1992	Ao (Mongsen)	pʰɯ́rɯ̀p	pʰɯ́rɯ̀p	twist	twist	v.	6.7.6	13	0		
+506139	1992	Ao (Mongsen)	cʰɯ́pàʔ	cʰɯ́pàʔ	open	open	v.	6.2.2.6.1	13	0		
+506140	1992	Ao (Mongsen)	càʔ	càʔ	boil	boil	v.	6.6	14	0		
+506141	1992	Ao (Mongsen)	càk	càk	break	break	v.	9.5	14	0		7795
+506142	1992	Ao (Mongsen)	cɯ̀p	cɯ̀p	cry	cry	v.	1.8.8.2	14	0		1103
+506143	1992	Ao (Mongsen)	cʰàʔ	cʰàʔ	sharpen	sharpen	v.	6.9.2	14	0		
+506144	1992	Ao (Mongsen)	cʰàk	cʰàk	hard	hard	be v.	9.6.2	14	0		186
+506145	1992	Ao (Mongsen)	cùk	cùk	hop	hop	v.	6.7.8	14	0		
+506146	1992	Ao (Mongsen)	cùk	cùk	minus	minus	v.		14	0		
+506147	1992	Ao (Mongsen)	ɯ̀p	ɯ̀p	rot	rot	v.	3.1.10	14	0		
+506148	1992	Ao (Mongsen)	ʰjàʔ	ʰjàʔ	earn	earn	v.	6.2	14	0		7579
+506149	1992	Ao (Mongsen)	ʰnàk	ʰnàk	scratch	scratch	v.	1.6.5.5	14	0		5765
+506150	1992	Ao (Mongsen)	jàʔ	jàʔ	hear	hear	v.	1.2.7.4	14	0		7578
+506151	1992	Ao (Mongsen)	jàk	jàk	beat	beat	v.	6.8	14	0		5670
+506152	1992	Ao (Mongsen)	jɯ̀p	jɯ̀p	sleep	sleep	v.	1.1.4.1	14	0		127
+506153	1992	Ao (Mongsen)	jùk	jùk	sell	sell	v.	6.22	14	0		7813
+506154	1992	Ao (Mongsen)	kɯ̀p	kɯ̀p	shoot	shoot	v.	6.2.2.1	14	0		2232
+506155	1992	Ao (Mongsen)	kɯ̀t	kɯ̀t	present	present	v.	5.8	14	0		
+506156	1992	Ao (Mongsen)	kʰàk	kʰàk	pry	pry	v.	6.2.2.1	14	0		
+506157	1992	Ao (Mongsen)	kʰɯ̀p	kʰɯ̀p	start	start	v.	9.5	14	0		
+506158	1992	Ao (Mongsen)	kʰùʔ	kʰùʔ	cut wood	cut wood	v.	6.9.3	14	0		6611
+506159	1992	Ao (Mongsen)	kùk	kùk	win	win	v.	6.19	14	0		
+506160	1992	Ao (Mongsen)	làk	làk	fed up	fed up	be v.	1.3.5.8	14	0		
+506161	1992	Ao (Mongsen)	lɯ̀p	lɯ̀p	wrap	wrap	v.	6.2.2.1	14	0		2321
+506162	1992	Ao (Mongsen)	lɯ̀t	lɯ̀t	scald	scald	v.	6.6	14	0		
+506163	1992	Ao (Mongsen)	lùk	lùk	wash	wash	v.	6.2.2.5.2	14	0		
+506164	1992	Ao (Mongsen)	màk	màk	invade	invade	v.	6.5	14	0		
+506165	1992	Ao (Mongsen)	mɯ̀t	mɯ̀t	boil	boil	v.	6.6	14	0		
+506166	1992	Ao (Mongsen)	mùʔ	mùʔ	bite	bite	v.	1.3.4.4	14	0		
+506167	1992	Ao (Mongsen)	mùk	mùk	hatch	hatch	v.	1.1.2	14	0		
+506168	1992	Ao (Mongsen)	mùk	mùk	wear	wear	v.	6.2.2.1	14	0		
+506169	1992	Ao (Mongsen)	nàk	nàk	scratch	scratch	v.	1.6.5.5	14	0		5765
+506170	1992	Ao (Mongsen)	nɯ̀p	nɯ̀p	fold	fold	v.	1.4.4.2	14	0		
+506171	1992	Ao (Mongsen)	nùk	nùk	shake	shake	v.	6.7.9	14	0		
+506172	1992	Ao (Mongsen)	pàʔ	pàʔ	make hole	make hole	v.	6.14	14	0		
+506173	1992	Ao (Mongsen)	pʰàʔ	pʰàʔ	catch	catch	v.	6.21	14	0		
+506174	1992	Ao (Mongsen)	pʰɯ̀t	pʰɯ̀t	pluck	pluck	v.	6.2.2.3.1	14	0		
+506175	1992	Ao (Mongsen)	pʰùʔ	pʰùʔ	steal	steal	v.	6.2.2.1	14	0		
+506176	1992	Ao (Mongsen)	pùʔ	pùʔ	carry	carry	v.	6.2.2.2.1	14	0		2177
+506177	1992	Ao (Mongsen)	pùk	pùk	burst	burst	v.	9.5	14	0		6256
+506178	1992	Ao (Mongsen)	ràk	ràk	pull out	pull out	v.	6.2.2.3.1	14	0		5619
+506179	1992	Ao (Mongsen)	rɯ̀n	rɯ̀n	multiply	multiply	v.	6.2	14	0		
+506180	1992	Ao (Mongsen)	rɯ̀p	rɯ̀p	lash	lash	v.	6.2.2.1	14	0		
+506181	1992	Ao (Mongsen)	rùk	rùk	poke	poke	v.	8.4	14	0		
+506182	1992	Ao (Mongsen)	sàʔ	sàʔ	measure	measure	v.	9.8	14	0		
+506183	1992	Ao (Mongsen)	sàk	sàk	scratch	scratch	v.	1.6.5.5	14	0		1457
+506184	1992	Ao (Mongsen)	sɯ̀k	sɯ̀k	draw	draw	v.	5.8	14	0		
+506185	1992	Ao (Mongsen)	sɯ̀p	sɯ̀p	fill	fill	v.	6.11	14	0		
+506186	1992	Ao (Mongsen)	sɯ̀p	sɯ̀p	off	off	v.	9.2.4	14	0		
+506187	1992	Ao (Mongsen)	sɯ̀t	sɯ̀t	strangle	strangle	v.	6.4	14	0		
+506188	1992	Ao (Mongsen)	tàk	tàk	weave	weave	v.	5.1	14	0		2686
+506189	1992	Ao (Mongsen)	tɯ̀p	tɯ̀p	paint	paint	v.	5.8	14	0		
+506190	1992	Ao (Mongsen)	tʰɯ̀p	tʰɯ̀p	hit	hit	v.	6.8	14	0		2206
+506191	1992	Ao (Mongsen)	tʰìʔ	tʰìʔ	postpone	postpone	v.	6.2.2.1	14	0		
+506192	1992	Ao (Mongsen)	cɯ̀ʔ	cɯ̀ʔ	attend	attend	v.	6.2.2.2	14	0		
+506193	1992	Ao (Mongsen)	cɯ̀k	cɯ̀k	roast	roast	v.	5.5	14	0		
+506194	1992	Ao (Mongsen)	cʰɯ̀ʔ	cʰɯ̀ʔ	wash	wash	v.	6.2.2.5.2	14	0		
+506195	1992	Ao (Mongsen)	cʰɯ̀k	cʰɯ̀k	hit	hit	v.	6.8	14	0		2759
+506196	1992	Ao (Mongsen)	tùʔ	tùʔ	prick	prick	v.	8.4	14	0		
+506197	1992	Ao (Mongsen)	ùk	ùk	sweep	sweep	v.	6.2.2.5.3	14	0		2587
+506198	1992	Ao (Mongsen)	wàk	wàk	swell	swell	v.	1.1.5.2	14	0		
+506199	1992	Ao (Mongsen)	zɯ̀k	zɯ̀k	send	send	v.	6.2.2.2	14	0		
+506200	1992	Ao (Mongsen)	hùn̄ [hùnā]	hùn̄ [hùnā]	gold	gold		3.2.4	1a	0		b,b
+506201	1992	Ao (Mongsen)	sàn̄ [sàjīn]/[sàīn]	sàn̄ [sàjīn]/[sàīn]	sheep	sheep		2.1.8	1a	0		6036
+506202	1992	Ao (Mongsen)	ān̄ [āhə̄n]	ān̄ [āhə̄n]	hen	hen		2.1.10	1a	0		1600
+506203	1992	Ao (Mongsen)	ùút [ùə̄t]	ùút [ùə̄t]	camel	camel		2.2.7	1a	0		5733?,b,b
+506204	1992	Ao (Mongsen)	á◦m̀ [á◦hə̀m]	ám̀ [áhə̀m]	banana leaf	banana leaf		3.1.5	1a	0		p,366,p,366
+506205	1992	Ao (Mongsen)	tām/tūm [tāhə̄m]	tām/tūm [tāhə̄m ]	middle	middle		1.9.4	1a	0		
+506206	1992	Ao (Mongsen)	nàrìŋ [nàrìŋ]	nàrìŋ [nàrìŋ]	orange	orange		3.1.5	1a	0		bIndic,b
+506207	1992	Ao (Mongsen)	m◦íḿ [mí◦jə́m]	m◦íḿ [míjə́m]	love	love	v.	8.3.1.1.1	1c	0		p,7683,p,7683
+506208	1992	Ao (Mongsen)	míìp [míjə̀p]	míìp [míjə̀p]	turn	turn	v.	6.7.6	1c	0		
+514546	1991	Ao (Chungli)	-sū	-sū	climb	climb	v.	6.7.7	2	0		
+514547	1991	Ao (Chungli)	mɯ̄◦lā	mɯ̄◦lā	easy	easy	be v.	9.6.1.1	2	0		p,2426
+514548	1991	Ao (Chungli)	mɯ̄◦sɯ̄	mɯ̄sɯ̄	tie	tie	v.	6.13.1	2	0		m,7642
+514549	1991	Ao (Chungli)	mɯ̄tāŋ	mɯ̄tāŋ	answer	answer	v.	8.5.6	2	0		
+514550	1991	Ao (Chungli)	ācūŋ	ācūŋ	good	good	be v.	9.6.1.1	3	0		
+514551	1991	Ao (Chungli)	-ràŋ	-ràŋ	stare	stare	v.	1.2.6.11	4	0		1227
+514552	1991	Ao (Chungli)	-rù	-rù	harvest	harvest	v.	3.1.10	4	0		
+514553	1991	Ao (Chungli)	-sɯ̀n	-sɯ̀n	grind	grind	v.	9.5	4	0		
+514554	1991	Ao (Chungli)	-wà	-wà	grow (hair)	grow (hair)	v.	9.7.2	4	0		7573?
+514555	1991	Ao (Chungli)	ájɯ̀p	ájɯ̀p	cut (grass)	cut (grass)	v.	6.9.3	5	0		
+514556	1991	Ao (Chungli)	ásàʔ	ásàʔ	plan	plan	v.	8.3	5	0		
+514557	1991	Ao (Chungli)	-sɯ̀p	-sɯ̀p	off	off	v.	9.2.4	6	0		
+514558	1991	Ao (Chungli)	-sɯ̀p	-sɯ̀p	drain water	drain water	v.	3.2.3	6	0		
+514559	1991	Ao (Chungli)	-sìʔ	-sìʔ	trap	trap	v.	5.14	6	0		
+514560	1991	Ao (Chungli)	-sìʔ	-sìʔ	wash	wash	v.	6.2.2.5.2	6	0		
+514561	1991	Ao (Chungli)	-sìʔ	-sìʔ	close	close	v.	6.2.2.6.2	6	0		
+514562	1991	Ao (Chungli)	-tɯ́m	-tɯ́m	play	play	v.	6.1.1.3	8	0		
+514563	1991	Ao (Chungli)	mɯ́núk	mɯ́núk	pay up	pay up	v.	6.22	10	0		
+514564	1992	Ao (Mongsen)	càʔ	càʔ	eat	eat	v.	1.5.3.2	14	0		36
+618716	1991	Ao (Chungli)	mì		fire			3.2.12.2	p.14	0		2136
+618717	1991	Ao (Chungli)	t◦ú		leaf				p.14	0		p,7573
+618718	1991	Ao (Chungli)	lā		she				p.14	0		
+618719	1991	Ao (Chungli)	nɯ̄		spear				p.14	0		
+618720	1991	Ao (Chungli)	sɯ̄		deer				p.14	0		
+618721	1991	Ao (Chungli)	rɯ̄		ice				p.14	0		2638
+618722	1991	Ao (Chungli)	tsɯ̀		water				p.14	0		1631
+618723	1991	Ao (Chungli)	tɯ́◦kà		hand				p.14	0		p,742b
+618724	1991	Ao (Chungli)	āŋ		thread				p.15	0		7751
+618725	1991	Ao (Chungli)	áàk		pig				p.15	0		
+618726	1992	Ao (Mongsen)	álìk		necklace			5.11.8.3	p.72	0		

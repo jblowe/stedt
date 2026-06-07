@@ -1,0 +1,21 @@
+tag: 1005
+grpid: 2
+proto_language: PTB
+protoform: dz(y)im
+gloss: RAW / GREEN / UNRIPE
+semkey: 7.1.8.3
+sequence: 7.0
+status: KEEP
+public: true
+references: STC p.81
+phonology:
+  handle: dzim
+  initial: dz
+  rhyme: im
+  initcover: TS
+  rhymecover: N
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: džim²
+  gloss: RAW

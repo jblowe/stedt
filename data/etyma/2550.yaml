@@ -1,0 +1,19 @@
+tag: 2550
+grpid: 2
+proto_language: PTB
+protoform: s-pʷak
+gloss: HIDE (v.)
+semkey: 1.6.5.1
+sequence: 12.0
+status: KEEP
+public: true
+references: cf. STC#046, HPTB pp.61, 317, 321
+phonology:
+  handle: pak
+  initial: p
+  rhyme: ak=pwak
+  initcover: P
+  rhymecover: WT
+notes:
+- type: I
+  text: <par>Add Mara vāo from Savidge 1908. Point out perfect parallelism with &apos;pig&apos;</par>

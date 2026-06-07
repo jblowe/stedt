@@ -1,0 +1,22 @@
+tag: 2284
+grpid: 2
+proto_language: PTB
+protoform: r-ka
+gloss: EARTH / GROUND / SOIL
+semkey: 3.2.11
+sequence: 1755.0
+status: KEEP
+public: true
+references: cf. STC#097, HPTB pp.57, 127
+phonology:
+  handle: ka
+  prefix: r
+  initial: k
+  rhyme: a
+  initcover: K
+  rhymecover: V
+notes:
+- type: F
+  text: '<par><hanform>固</hanform> OC <latinform>*ko</latinform>, GSR #49f &apos;secure; strong; hard,
+    firm&apos;; Schuessler 2007:261-3 <latinform>*kâh</latinform>; B &amp; S 2011: <latinform>*kˁa-s {kˁa(ʔ)-s}</latinform>;
+    Mand. <latinform>gù</latinform>.</par>'

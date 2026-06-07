@@ -1,0 +1,19 @@
+tag: 1743
+grpid: 2
+proto_language: PTB
+protoform: pur
+gloss: BLOW
+semkey: 1.3.1.4
+sequence: 2.2
+status: KEEP
+public: true
+references: Newari, Chepang
+phonology:
+  handle: puL
+  initial: p
+  rhyme: ul/r
+  initcover: P
+  rhymecover: L
+notes:
+- type: T
+  text: <par>This allofam has so far only been uncovered in a few TB languages of Nepal.</par>

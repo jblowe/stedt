@@ -1,0 +1,18 @@
+tag: 2000
+grpid: 42
+proto_language: PLB
+protoform: koŋ²
+gloss: CHEST
+semkey: 1.4.4.3
+sequence: 12.0
+status: KEEP
+public: true
+xrefs: BODY (*guŋ)
+references: DB-PL 106
+phonology:
+  handle: koŋ²
+  initial: k
+  rhyme: oŋ²
+  tone: ²
+  initcover: K
+  rhymecover: N

@@ -1,0 +1,23 @@
+tag: 84
+grpid: 2
+proto_language: PTB
+protoform: g-na-s
+gloss: STAY / REST / DWELL / BE / LIVE / ALIGHT / PERCH
+semkey: '6.2'
+sequence: 2.0
+status: KEEP
+public: true
+references: cf. STC#414, HPTB
+phonology:
+  handle: na-s
+  prefix: g
+  initial: n
+  rhyme: a-s
+  suffix: s
+  initcover: M
+  rhymecover: VS
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: na²
+  gloss: BE / LIVE / STAY / REST / PERCH / SIT ON

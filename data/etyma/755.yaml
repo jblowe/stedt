@@ -1,0 +1,22 @@
+tag: 755
+grpid: 2
+proto_language: PTB
+protoform: k(w)ak ⪤ k(y)ak
+gloss: BITE / CHEW
+semkey: 1.3.4.4
+sequence: 3.0
+status: KEEP
+public: true
+xrefs: cf. 3.4.5
+references: Kiranti, Loloish
+phonology:
+  handle: kok
+  initial: k
+  rhyme: ok⪤kak
+  initcover: K
+  rhymecover: T
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: m-kak
+  gloss: BITE

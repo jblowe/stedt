@@ -1,0 +1,16 @@
+tag: 317
+grpid: 2
+proto_language: PTB
+protoform: br/lun ⪤ blum
+gloss: FART / SHIT
+semkey: 1.8.5.2
+sequence: 2.0
+status: DELETE
+public: false
+references: some of 318
+phonology:
+  handle: blun
+  initial: br/l
+  rhyme: un ⪤ blu
+  initcover: P
+  rhymecover: NL

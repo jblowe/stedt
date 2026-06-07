@@ -1,0 +1,19 @@
+tag: 3410
+grpid: 2
+proto_language: PTB
+protoform: dzəy
+gloss: SHOULDER
+semkey: 1.4.3
+sequence: 2957.0
+status: delete
+public: false
+phonology:
+  handle: dzəy
+  initial: dz
+  rhyme: əy
+  initcover: TS
+  rhymecover: W
+notes:
+- type: I
+  text: <par>This etymon requires further review. It is perhaps distinct from etymon 418 *tsik JOINT (although
+    the reflexes look similar) and occurs mostly as the second element of compounds in Loloish languages.</par>

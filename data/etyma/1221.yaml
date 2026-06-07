@@ -1,0 +1,41 @@
+tag: 1221
+grpid: 2
+proto_language: PTB
+protoform: k-lu
+gloss: HEAD
+semkey: 1.2.1
+sequence: 5.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: lu
+  prefix: k
+  initial: l
+  rhyme: u
+  initcover: L
+  rhymecover: V
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: luu
+  gloss: HEAD
+- grpid: 50
+  group: '7'
+  form: kləɁᴰ
+  gloss: HEAD
+notes:
+- type: T
+  text: <par>Many languages (e.g. in the Chin group) reflect the simple form <latinform>*lu</latinform>.
+    Other languages (e.g. Chang, Lotha, Naxi) show disyllabic forms, which are plausibly analyzed as sequences
+    of <xref ref="386">#386</xref> and <xref ref="1221">#1221</xref>. In still other languages (e.g. Camling,
+    Dumi, Milang), these two syllables have been compressed into one. For our present purposes, we are
+    treating the latter two cases as reflecting the monosyllabized root, whether or not they are presently
+    disyllabic.</par><par>The forms assigned to this root are distinct from Qiangic and Burmish compounds
+    for HEAD where the last element descends from <xref ref="690">#690</xref>.</par>
+- type: T
+  text: <par>This etymon is perhaps related to <xref ref="11">#11</xref> and/or to WB <latinform>lu</latinform>
+    ‘person’ .</par>
+- type: F
+  text: '<par><hanform>首</hanform> OC <latinform>*śi̯ôg</latinform>, GSR #1102a-c &apos;head&apos;; Schuessler
+    2007:470 <latinform>*lhuʔ</latinform>; B &amp; S 2011: <latinform>*l̥uʔ-s</latinform>; Mand. <latinform>shǒu</latinform>.</par>'

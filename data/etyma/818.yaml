@@ -1,0 +1,16 @@
+tag: 818
+grpid: 2
+proto_language: PTB
+protoform: byaŋ
+gloss: EAR / EARLOBE / FLAT THING
+semkey: 1.2.7
+sequence: 7.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: byeŋ
+  initial: by
+  rhyme: eŋ
+  initcover: P
+  rhymecover: N

@@ -1,0 +1,23 @@
+tag: 105
+grpid: 2
+proto_language: PTB
+protoform: kwa-k
+gloss: HUNGRY / THIRSTY
+semkey: 1.1.3
+sequence: 6.0
+status: KEEP
+public: true
+phonology:
+  handle: kwak
+  initial: k(w)
+  rhyme: ak
+  initcover: K
+  rhymecover: T
+notes:
+- type: T
+  text: <par>The final <latinform>*-k</latinform> in this etymon is directly reflected by Jingpho, Lahu,
+    and perhaps Baic. The Lisu form <latinform>kwa⁵⁵</latinform> is paradoxically not definite evidence
+    for the medial <latinform>*-w-</latinform> since Lisu regularly extrudes a labial glide between a
+    velar initial and a vowel <latinform>-a</latinform> (cf. &apos;bitter&apos; PTB <latinform>*b-ka</latinform>
+    &gt; Lisu <latinform>khuɑ³¹</latinform>).</par><par>We must resolutely reject any comparison with
+    Japanese <latinform>kawaku</latinform> &apos;be dry, thirsty&apos;.</par>

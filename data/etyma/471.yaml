@@ -1,0 +1,41 @@
+tag: 471
+grpid: 2
+proto_language: PTB
+protoform: s-nwat ⪤ s-nut
+gloss: MOUTH / VESSEL / WOMB
+semkey: 1.3.1
+sequence: 111.0
+status: KEEP
+public: true
+references: cf. HPTB p. 381, STC p.144
+phonology:
+  handle: nu/o
+  prefix: s
+  initial: n(
+  rhyme: u/o)t
+  initcover: M
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This reconstruction replaces <latinform>*s-not ⪤ *s-nut</latinform> (HPTB:381) and <latinform>*s-not</latinform>
+    (STC:144-145, 150).</par><par>The variational pattern adduced here between medial <latinform>*-wa-</latinform>
+    and <latinform>*-u-</latinform> parallels the better known alternation between <latinform>*-ya-</latinform>
+    and <latinform>*-i-</latinform> to be found in etyma like <xref ref="33">#33</xref>. We cannot assume
+    a single prototype <latinform>*s-nwat</latinform>, since that would have yielded WB <latinform>hnwat</latinform>.</par><par>This
+    etymon is widely distributed with the meaning MOUTH in Burmish and Karenic, with good-looking cognates
+    in Qiangic (Pumi) and Bai. The Tibetan cognate gives a clue to its more general meaning of VESSEL;
+    the expression <latinform>snod drug</latinform> &apos;the six vessels&apos; refers in traditional
+    Tibetan anatomy to the gall-bladder, stomach, small and large intestines, urinary bladder, and uterus
+    (in females) or spermatic vessels (in males) (see Jäschke 1881/1958, p. 319). The Tibetan compound
+    <latinform>bu-snod</latinform>, literally &quot;child-vessel&quot;, refers specifically to the womb.
+    See STC (pp. 144, 145, 150) for references to the Burmese, Karen, and Tibetan cognates.</par><par>The
+    Burmish (see especially Lashi) forms bear a strong surface resemblance to Siamese <latinform>nùat</latinform>
+    (&lt; Proto-Tai <latinform>*hn‑</latinform>) ‘beard’, suggesting that this is a loan from Burmish
+    into SW Tai. This word is not widely distributed in Tai. “Except Tay (a Central Tai dialect) nuôt
+    D1L this word seems restricted to the SW dialects” (Li Fang Kuei 1977:116). The Northern and Central
+    Tai dialects generally have forms descending from Proto-Tai <latinform>*mum</latinform> (HCT pp. 72-73),
+    which bears an apparently coincidental resemblance to <xref ref="2058">#2058</xref>.</par>
+- type: F
+  text: '<par><hanform>須</hanform> / <hanform>鬚</hanform> OC <latinform>*si̯u</latinform>, GSR #133a-c,
+    d  &apos;beard&apos;; Schuessler 2007:544 <latinform>*sno</latinform>; B &amp; S 2011: <latinform>*s.no
+    </latinform>; Mand. <latinform>xū</latinform>.</par>'

@@ -1,0 +1,54 @@
+tag: 90
+grpid: 2
+proto_language: PTB
+protoform: m/s-ŋa-y
+gloss: SMALL / INFERIOR / OFFSPRING
+semkey: 9.7.2
+sequence: 37.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. HPTB p. 209
+phonology:
+  handle: ŋa
+  prefix: s
+  initial: ŋ
+  rhyme: a-y
+  initcover: M
+  rhymecover: VW
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: ŋaː
+  gloss: BABY
+- grpid: 63
+  group: 1.3.1
+  form: '[h]ŋaj'
+  gloss: BABY, CHILD
+notes:
+- type: T
+  text: <par>This etymon has a range of meanings from &apos;small&apos; to &apos;child&apos; to &apos;give
+    birth&apos;. Most reflexes descend from a diphthongal prototype in <reconstruction>*-ay</reconstruction>,
+    but occasionally from monophthongal <reconstruction>*-a</reconstruction> (e.g. Yi Dafang <latinform>a³³
+    ŋa⁵⁵</latinform> [see <reconstruction>*g-sow</reconstruction> above], and Bokar Lhoba <latinform>a-ŋaː</latinform>),
+    so that this is a good candidate for a putative PTB palatal suffix, one of the functions of which
+    is to mark diminutives. See Matisoff 1995 and DL:783-784.</par>
+- type: T
+  text: <par>Chinese <hanform>兒</hanform> &apos;child&apos; (Mand. <latinform>ér</latinform>) is a plausible
+    comparandum.</par>
+- type: F
+  text: '<par><hanform>兒</hanform> OC <reconstruction>*ńi̯ĕg</reconstruction>, GSR  #873a-d ‘child&apos;;
+    Li 1971: <latinform>*ngrjig</latinform>; Baxter 1992 #1452: <latinform>*ngje</latinform>; Mand. <latinform>ér</latinform>.</par><par>In
+    Li’s system, <latinform>*-rj-</latinform> is reconstructed to account for the palatalization of the
+    velar initial in Middle Chinese. This palatalizing medial is no longer accepted by most scholars today.  In
+    Baxter’s system, medial <latinform>*-r-</latinform> blocks palatalization, and must be omitted.</par><par>The
+    TB/Chinese correspondences look good. We would expect <latinform>*a</latinform> vocalism in Chinese,
+    but <latinform>*i</latinform> (Li) / <latinform>*e</latinform> (Baxter) could be the result of an
+    original <latinform>*a</latinform> fusing irregularly with the palatal suffix. As seen in <xref ref="519">#519</xref>
+    and <xref ref="1160">#1160</xref>), TB <latinform>*-ay</latinform> may correspond to OC <latinform>*-əd</latinform>
+    (Li) / <latinform>*-ɨj</latinform> (Baxter), and there is some evidence that OC <latinform>*-ig</latinform>
+    (Li) / <latinform>*-e</latinform> (Baxter) also can correspond to this same TB final. Consider, for
+    example, ‘crab’ (STC #51), TB <latinform>*d-kay</latinform>, which is likely cognate to <hanform>蟹</hanform>
+    OC <latinform>*grigx</latinform> &apos;crab&apos; (Li), Mand <latinform>xiè</latinform> (see STC p.
+    166, GSR #861d).</par><par>Schuessler (2007:225) believes that this is an area word, with connections
+    to forms in Austroasiatic and Miao-Yao.<br />[ZJH]</par>'

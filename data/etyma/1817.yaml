@@ -1,0 +1,21 @@
+tag: 1817
+grpid: 2
+proto_language: PTB
+protoform: g-haŋ
+gloss: GASP / PANT
+semkey: 1.1.2.2
+sequence: 10.0
+status: KEEP
+public: true
+references: STC p.33
+phonology:
+  handle: haŋ
+  prefix: g
+  initial: h
+  rhyme: aŋ
+  initcover: H
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root bears a strong resemblance to <xref ref="1816">#1816</xref>, and might well be
+    combined with it in the future.</par>

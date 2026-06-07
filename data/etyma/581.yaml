@@ -1,0 +1,17 @@
+tag: 581
+grpid: 2
+proto_language: PTB
+protoform: g-dwaŋ
+gloss: SHIN
+semkey: 1.5.7.2
+sequence: 4.0
+status: DELETE
+public: false
+xrefs: '2031'
+phonology:
+  handle: doŋ
+  prefix: g
+  initial: d
+  rhyme: oŋ
+  initcover: T
+  rhymecover: N

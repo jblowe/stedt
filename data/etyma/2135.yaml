@@ -1,0 +1,18 @@
+tag: 2135
+grpid: 2
+proto_language: PTB
+protoform: b/p-war
+gloss: FIRE / BURN / KINDLE / ROAST
+semkey: 3.2.12.1
+sequence: 6.0
+status: DELETE
+public: true
+xrefs: '2152'
+references: 'Duplicate with #2152? cf. STC#220, but cf. HPTB'
+phonology:
+  handle: Bwa
+  prefix: b/p
+  initial: w
+  rhyme: ar
+  initcover: L
+  rhymecover: L

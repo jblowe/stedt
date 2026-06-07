@@ -1,0 +1,86 @@
+tag: 519
+grpid: 2
+proto_language: PTB
+protoform: s-tay
+gloss: NAVEL / ABDOMEN / CENTER / SELF
+semkey: 1.9.4
+sequence: 40.2
+status: KEEP
+public: true
+exemplary: true
+references: STC#299
+phonology:
+  handle: tay
+  prefix: s
+  initial: t
+  rhyme: ay
+  initcover: T
+  rhymecover: W
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: Ɂdeᴬ
+  gloss: NAVEL, UMBILICAL CORD
+notes:
+- type: T
+  text: '<par>I regard this root as a co-allofam of <xref ref="517">#517</xref>. Both STC #299 <reconstruction>*s-tay</reconstruction>
+    &apos;navel&apos; and STC #284 <reconstruction>*tay</reconstruction> &apos;self&apos; are to be subsumed
+    under this stop-initialled allofam. Reflexes occur widely in TB: NE Indian Areal Group, Himalayish,
+    Jingpho, Karenic, Qiangic (including Tangut), Bai, and Tujia, as well as occasionally in Loloish.</par><par>A
+    comparison with Chinese <hanform>臍</hanform> OC <latinform>*dz&apos;iər</latinform>, GSR #593f; Mand.
+    <latinform>qí</latinform>, perhaps &lt; <reconstruction>*s-tay</reconstruction> via <reconstruction>**zday</reconstruction>,
+    has been suggested several times, including by Weidert (1987) #843. However, it seems clear that this
+    root is related rather to <xref ref="1373">#1373</xref>, so that the true Chinese cognate is <hanform>帶</hanform>
+    OC <latinform>*tɑ̂d</latinform>, GSR #315a &apos;girdle, sash; carry at the girdle&apos;; Mand. <latinform>dài</latinform>
+    (the modern word also means &apos;zone; area&apos;, e.g. <hanform>熱帶</hanform> <latinform>rèdài</latinform>
+    &apos;torrid zone&apos;). </par>'
+- type: F
+  text: '<par><hanform>臍</hanform> OC <latinform>*dzʼiər</latinform>, GSR #593f ‘navel’; Li 1971: <reconstruction>*dziəd</reconstruction>;
+    Baxter 1992: <reconstruction>*dzɨj</reconstruction>; Mand. <latinform>qí</latinform>.</par><par>The
+    initial correspondence of OC <reconstruction>*dz-</reconstruction> to PTB <reconstruction>*s-t-</reconstruction>
+    could be explained by metathesis, as discussed in Bodman 1969<footnote>“Tibetan <emph>sdud</emph>
+    ‘folds of a garment’, the character <hanform>卒</hanform>, and the <reconstruction>*st-</reconstruction>
+    hypothesis.” <emph>Bulletin of the Institute of History and Philology</emph>, Academia Sinica 39:327-45.</footnote>.  Baxter
+    1992:229-30 allows for the general developments <reconstruction>*St-</reconstruction> &gt; <latinform>ts-</latinform>
+    and <reconstruction>*Sd-</reconstruction> &gt; <latinform>dz-</latinform>, where <reconstruction>*S</reconstruction>
+    is a metathesizing prefix.  This prefix is usually reconstructed when phonetic series evidence suggests
+    an original stop initial.  Within GSR #593, however, there is no evidence for original dental stops.  Nevertheless,
+    Schuessler 2007:421 admits the possibility, suggesting possible pre-Old Chinese forms <reconstruction>*dz(l)əi</reconstruction>
+    &lt; <reconstruction>*s-d(l)əi</reconstruction>.</par><par>On the apparent mismatch between the voiceless
+    PTB initial and the voiced OC initial, see the discussion under <xref ref="1654">#1654</xref>.</par><par>For
+    a discussion of the correspondence between OC <reconstruction>*-ɨj</reconstruction> and TB <reconstruction>*-ay</reconstruction>,
+    see <xref ref="1160">#1160</xref>.<br />[ZJH]</par>'
+- type: F
+  text: '<par>There also seems to be a phonosemantic connection between the stop-initialled allofam <reconstruction>*s-tay</reconstruction>
+    and a PTB root <reconstruction>*taːy</reconstruction> meaning BELT/ZONE/WAIST, first reconstructed
+    in Matisoff 1985a (GSTC #95) on the basis of WT <latinform>sde</latinform> &apos;part, portion (e.g.
+    of a country), province, district, territory, zone&apos;, Lahu <latinform>de</latinform> &apos;belt
+    of land between the high rain-forest and the plains; large expanse of terrain&apos;, Luquan Lolo <latinform>ntʰe¹¹</latinform>
+    &apos;plain, flat expanse&apos;, Lushai (Mizo) <latinform>tai</latinform> &apos;waist&apos;, Karbi
+    <latinform>daykha</latinform> &apos;middle, intermediate&apos;. This implies that WT <latinform>lte-ba</latinform>
+    &apos;navel&apos; is a co-allofam of WT <latinform>sde</latinform> &apos;zone&apos;.</par><par>A very
+    likely Chinese comparandum is <hanform>帶</hanform> OC <reconstruction>*tɑ̂d</reconstruction> &apos;girdle,
+    sash&apos;, Mand. <latinform>dài</latinform> &apos;belt, zone&apos;. For the semantics, cf. Eng. <emph>zone</emph>
+    &lt; Gk. <emph>zōnē</emph> &apos;girdle&apos; &lt; PIE <reconstruction>*yōs-nā</reconstruction> (<reconstruction>*yōs</reconstruction>
+    &apos;to gird&apos;).<br />[JAM]</par>'
+- type: T
+  text: <par>Note the near homophony between the Jingpho words for &apos;heart&apos; (<latinform>sin³¹
+    tai³³</latinform>) and &apos;navel&apos; (<latinform>¹šə²dai</latinform>), undoubtedly due to the
+    widespread metaphorical extension of both of these concepts to CENTER, MOST IMPORTANT PART.</par><par>Written
+    Tibetan has acquired a lateral prefix with this root.</par>
+- type: H
+  text: '<par>See GSTC #62 and #71, and HPTB pp. 52, 208, 217.</par>'
+- type: F
+  text: '<par><hanform>帶</hanform> OC <latinform>*tɑ̂d</latinform>, GSR #315a &apos;belt, sash&apos;;
+    Li 1971: <latinform>*tadh</latinform>; Baxter 1992:753 <latinform>*tats</latinform>; Mand. <latinform>dài</latinform>.</par><par>This
+    word is reconstructed with a final stop by both Baxter and Li.  As Schuessler (2007:72) notes, there
+    is reason to think that some of the words reconstructed by Baxter in <reconstruction>*-ts</reconstruction>
+    should be revised to <reconstruction>*-s</reconstruction>. <hanform>帶</hanform> is one of the words
+    that Schuessler so revises, supporting the comparison made here (Schuessler 2007:203).</par><par>The
+    comparison of PTB <reconstruction>*-ay</reconstruction> with either OC <reconstruction>*-as</reconstruction>
+    or <reconstruction>*-ats</reconstruction> is still problematic, as I know of no other examples of
+    such a correspondence.  It must be noted, however, that a regular pattern of correspondence between
+    OC and PTB <reconstruction>*-ay</reconstruction> has not yet emerged.  The most commonly attested
+    correspondences are with OC <reconstruction>*-aj</reconstruction> or <reconstruction>*-ɨj</reconstruction>
+    on the one hand (as with <hanform>臍</hanform>, above), and OC <reconstruction>*-e</reconstruction>
+    on the other (see <xref ref="90">#90</xref>).<br />[ZJH]</par>'

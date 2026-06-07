@@ -1,0 +1,29 @@
+tag: 554
+grpid: 2
+proto_language: PTB
+protoform: s-ri(p/m)
+gloss: RIB / SIDE
+semkey: 1.4.4.3
+sequence: 2.0
+status: KEEP
+public: true
+possallo: '558'
+references: incl 555,242
+phonology:
+  handle: g/s/b-
+  initial: r
+  rhyme: em/p
+  initcover: L
+  rhymecover: NT
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: rəɁᴰ
+  gloss: FLANK, RIB
+- grpid: 29
+  group: '2.3'
+  form: rem
+  gloss: RIB
+notes:
+- type: F
+  text: <par>Cf. <hanform>脅</hanform>, Mand. <latinform>xié</latinform>, comparandum for <xref ref="6186">#6186</xref>.</par>

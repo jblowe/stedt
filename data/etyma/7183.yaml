@@ -1,0 +1,15 @@
+tag: 7183
+grpid: 2
+proto_language: PTB
+protoform: s-li
+gloss: OLD (of things)
+semkey: 7.1.8.3
+sequence: 2555.0
+status: KEEP
+public: true
+references: JAM
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-li¹
+  gloss: OLD (of things)

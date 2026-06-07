@@ -1,0 +1,57 @@
+tag: 1390
+grpid: 2
+proto_language: PTB
+protoform: m-sin
+gloss: LIVER / HEART / BILE / BITTER
+semkey: 1.7.3
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+references: STC#234 [incl 3058. evid for HEART?
+phonology:
+  handle: sin
+  prefix: m
+  initial: s
+  rhyme: in
+  initcover: S
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: thin
+  gloss: LIVER
+- grpid: 5
+  group: 1.1.1
+  form: zin
+  gloss: LIVER
+- grpid: 66
+  group: 1.3.4
+  form: tʰin
+  gloss: LIVER
+- grpid: 50
+  group: '7'
+  form: swɨnᴮ
+  gloss: LIVER
+- grpid: 63
+  group: 1.3.1
+  form: m-sən
+  gloss: LIVER
+- grpid: 12
+  group: 1.7.2
+  form: C̬-sin
+  gloss: LIVER
+- grpid: 45
+  group: 6.1.2
+  form: sin²
+  gloss: LIVER
+- grpid: 42
+  group: '6.1'
+  form: sin² ⪤ tsin²
+  gloss: LIVER / BITTER
+notes:
+- type: F
+  text: '<par><hanform>辛</hanform> OC <latinform>*si̯ĕn</latinform>, GSR #382a-f &apos;pungent, bitter;
+    painful&apos;; Coblin 86:44 ST <latinform>*msyin</latinform> &gt; OC <latinform>*sjin</latinform>;
+    Schuessler 2007:538 <latinform>*sin</latinform>; B &amp; S 2011: <latinform>*sin {[s]i[n]}</latinform>;
+    Mand. <latinform>xīn</latinform>.</par>'

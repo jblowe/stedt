@@ -1,0 +1,20 @@
+tag: 2753
+grpid: 2
+proto_language: PTB
+protoform: tsyar
+gloss: SUNSHINE
+semkey: 3.2.10
+sequence: 3222.0
+status: KEEP
+public: true
+references: cf. STC#187, HPTB p. 391
+phonology:
+  handle: tsyar
+  initial: tsy
+  rhyme: ar=tśar
+  initcover: TS
+  rhymecover: LTS
+notes:
+- type: T
+  text: <par>This etymon is the eponym for Burling&apos;s &quot;Sal&quot; grouping, a putative TB subgroup
+    comprising Jingpho, Barish, and Northern Naga. See Burling 1983.</par>

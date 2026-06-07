@@ -1,0 +1,21 @@
+tag: 2693
+grpid: 2
+proto_language: PTB
+protoform: taːp ⪤ m-daw
+gloss: CAPABLE / FIT / BEAUTIFUL
+semkey: 9.6.1.2
+sequence: 1316.0
+status: KEEP
+public: true
+references: STC#337, HPTB p.340
+phonology:
+  handle: taːp
+  initial: t
+  rhyme: aːp
+  initcover: T
+  rhymecover: T
+notes:
+- type: T
+  text: <par>The Lolo-Burmese forms are derived from the allofam with final <reconstruction>*-w</reconstruction>,
+    suggesting a development from final labial stop to semivowel, as in Bodo-Garo.</par><par>The nasal
+    prefix in the second allofam is attested by the voiced Lahu initial.</par>

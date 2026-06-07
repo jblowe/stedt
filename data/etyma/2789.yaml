@@ -1,0 +1,27 @@
+tag: 2789
+grpid: 2
+proto_language: PTB
+protoform: r-yaːŋ
+gloss: LIGHT (WEIGHT), LIGHTWEIGHT
+semkey: 7.1.11.1
+sequence: 2318.0
+status: KEEP
+public: true
+references: STC#328
+phonology:
+  handle: yaːŋ
+  prefix: r
+  initial: y
+  rhyme: aːŋ
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: yaaŋ-I, yaan-II
+  gloss: LIGHT (weight)
+notes:
+- type: F
+  text: '<par><hanform>輕</hanform> OC <latinform>*k’i̯ĕng</latinform>, GSR #831o &apos;light (weight)&apos;;
+    Schuessler 2007:432 <latinform>*kheŋ</latinform>; B &amp; S 2011: <latinform>*kʰeŋ {[kʰ]eŋ}</latinform>;
+    Mand. <latinform>qīng</latinform>.</par><par><latinform>Comment:</latinform> Cf. STC #328; NNaga.</par>'

@@ -1,0 +1,36 @@
+tag: 1811
+grpid: 2
+proto_language: PTB
+protoform: ʔ-bu ⪤ pu
+gloss: BORN / BIRTH / BUD / BLOOM
+semkey: 1.1.2
+sequence: 23.0
+status: KEEP
+public: true
+references: STC#260, HPTB p.184
+phonology:
+  handle: bəw
+  prefix: ʔ
+  initial: b
+  rhyme: əw
+  initcover: P
+  rhymecover: W
+notes:
+- type: T
+  text: '<par>The basic meaning of this root seems to be &apos;bloom, open up (as a flower), bud&apos;,
+    thence &apos;give birth&apos;. It is reconstructed in STC #260 as &apos;open, bud&apos;, with reflexes
+    offered from WT, Nung, Jingpho, WB, and Karbi. The semantic connection between this root for &apos;open,
+    bloom&apos; and &apos;bear a child&apos; was first suggested by W. T. French (1983:455), who reconstructs
+    Proto-Northern Naga <reconstruction>*ʔ-bəw</reconstruction>. STC reconstructs both voiceless- and
+    voiced-initial allofams (<reconstruction>*bu ⪤ *pu</reconstruction>), which we can now interpret as
+    reflecting a simplex/causative opposition (&apos;bloom&apos; vs. &apos;cause to bud&apos; [i.e. &apos;give
+    birth&apos;]). A PLB reconstruction <reconstruction>*ʔpu²</reconstruction> (equivalent to <reconstruction>*ʔbu²</reconstruction>)
+    is given in Matisoff 1988, <emph>The Dictionary of Lahu</emph> (p. 831), with the glottalization inferred
+    from the very-low tone of the Lahu reflex <latinform>pū</latinform>. This reinforces French&apos;s
+    PNN reconstruction with <reconstruction>*ʔ-</reconstruction>, as does the <emph>a-chung</emph> [<latinform>ḥ</latinform>]
+    in the WT reflex (<latinform>ḥbu</latinform>). The Phom form <latinform>bəʔ</latinform> cited by French
+    (<emph>loc. cit.</emph>) has been reanalyzed as belonging under <xref ref="3480">#3480</xref> [q.v.].</par>'
+- type: F
+  text: '<par><hanform>阜</hanform> OC <latinform>*b’i̯ôg</latinform>, GSR #1108a-c &apos;big mound; big,
+    fat; abundant; wealth&apos;; Schuessler 2007:244-5 <latinform>*buʔ </latinform>; B &amp; S 2011: <latinform>*buʔ
+    {[b](r)uʔ}</latinform>; Mand. <latinform>fù</latinform>.</par>'

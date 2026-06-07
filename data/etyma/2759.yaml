@@ -1,0 +1,16 @@
+tag: 2759
+grpid: 3
+proto_language: NEIA
+protoform: tsy(u/i)k
+gloss: HIT / KNOCK AGAINST
+semkey: '6.8'
+sequence: 15.0
+status: KEEP
+public: true
+references: ("PKN") STC p.53
+phonology:
+  handle: tsyuk
+  initial: tsy
+  rhyme: uk=tśuk
+  initcover: TS
+  rhymecover: TS

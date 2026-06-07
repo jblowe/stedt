@@ -1,0 +1,22 @@
+tag: 654
+grpid: 2
+proto_language: PTB
+protoform: r-tsam
+gloss: URINE
+semkey: 1.8.4
+sequence: 4.0
+status: KEEP
+public: true
+exemplary: true
+possallo: '1730'
+phonology:
+  handle: tsam
+  prefix: r
+  initial: ts
+  rhyme: am
+  initcover: TS
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root resembles PTani <xref ref="1730">#1730</xref>, but we are keeping it separate for
+    the time being.</par>

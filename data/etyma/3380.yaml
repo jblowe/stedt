@@ -1,0 +1,17 @@
+tag: 3380
+grpid: 42
+proto_language: PLB
+protoform: m-d(y)ak
+gloss: GOOD / PRETTY / FINE
+semkey: 9.6.1.1
+sequence: 15.0
+status: DELETE
+public: false
+xrefs: '2722'
+references: cf. HPTB p.51; 2722 *tyak 'very/real/just'
+phonology:
+  handle: dyak
+  initial: d(y)
+  rhyme: ak
+  initcover: T
+  rhymecover: T

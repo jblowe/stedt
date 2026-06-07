@@ -1,0 +1,14 @@
+tag: 3594
+grpid: 2
+proto_language: PTB
+protoform: m-tow
+gloss: SIT
+semkey: 6.1.1.4.1
+sequence: 6.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: taw
+  gloss: SIT / SQUAT

@@ -1,0 +1,18 @@
+tag: 2480
+grpid: 2
+proto_language: PTB
+protoform: g-na = r-na ~ g-na
+gloss: EAR; HEAR
+semkey: 1.2.7
+sequence: 1749.0
+status: DELETE
+public: false
+xrefs: '811'
+references: 'STC#453; duplicate of #811?'
+phonology:
+  handle: ma
+  prefix: g
+  initial: m
+  rhyme: a=r-ma~g
+  initcover: M
+  rhymecover: VNL

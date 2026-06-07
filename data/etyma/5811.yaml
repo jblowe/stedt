@@ -1,0 +1,35 @@
+tag: 5811
+grpid: 2
+proto_language: PTB
+protoform: na
+gloss: PADDY FIELD / MEADOW / MARSH
+sequence: 2587.0
+status: ''
+public: false
+notes:
+- type: T
+  text: <par>This areal etymon has its origins in Proto Kam-Tai <latinform>*na</latinform>, &apos;paddy
+    field&apos;. In particular, it has attracted scholarly interest in its role as a toponymic morpheme,
+    easily recognizable in place names in e.g. southern China, which has historically been a Tai-speaking
+    area. Take, for example, <hanform>那馬</hanform> Mand. <latinform>nàmǎ</latinform>, a township south
+    of <hanform>南寧</hanform> Nanning city in <hanform>廣西</hanform> Guangxi province, as well numerous
+    other toponyms with <hanform>那</hanform> in the vicinity of Nanning area (note that <hanform>那</hanform>
+    <latinform>nà</latinform> here is simply the Chinese transcription of an (originally) non-Chinese
+    toponymic component).</par><par>Of interest also are cases in certain ST languages where <latinform>*na</latinform>
+    seems to have become part of the lexicon as a common noun early on; for instance, Chinese <hanform>洳</hanform>,
+    Mand. <latinform>rù</latinform>,  &apos;marsh, bog&apos;, which Schuessler (2007:447) and others have
+    contended is cognate (see Comparanda; <hanform>洳</hanform> <latinform>rù</latinform> is etymologically
+    unrelated to transcriptional <hanform>那</hanform> <latinform>nà</latinform> cited above). Given the
+    substantial phonetic alteration seen in reflexes of <latinform>*na</latinform> in modern Chinese dialects,
+    this would imply that <latinform>*na</latinform>, &quot;borrowed&quot; or not, must have entered the
+    Chinese lexicon prior to the OC stage (see Comparanda; <hanform>洳</hanform> <latinform>rù</latinform>
+    is etymologically unrelated to transcriptional <hanform>那</hanform> <latinform>nà</latinform> cited
+    above). The historicity of Tibetan <latinform>na</latinform> &apos;meadow&apos; and Jingpho <latinform>na</latinform>
+    &apos;paddy&apos; (also noted by Schuessler (ibid.)) is less obvious; however, we see little reason
+    to assume that reflexes of <latinform>*na</latinform> in these languages are merely recent. Kayan
+    <latinform>nà̤</latinform> &apos;paddy field&apos;, possibly a borrowing from Shan, may be an exception.</par>
+- type: F
+  text: '<par><unicode>23E64</unicode><hanform>洳</hanform> OC <latinform>*ńi̯o</latinform>, GSR #94q &apos;marsh,
+    wet land&apos;; Coblin 86:107 ST <latinform>*njaɣ</latinform> &gt; OC <latinform>*njag</latinform>;
+    Schuessler 2007:447 <latinform>*na(h)</latinform>; B &amp; S 2011: <latinform>*na</latinform>; Mand.
+    <latinform>rù</latinform>.</par>'

@@ -1,0 +1,39 @@
+tag: 1018
+grpid: 2
+proto_language: PTB
+protoform: g/b-sat
+gloss: KILL
+semkey: '6.4'
+sequence: 3.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#058, HPTB
+phonology:
+  handle: sat
+  prefix: g
+  initial: s
+  rhyme: at
+  initcover: S
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: that-I, -thaʔ-II
+  gloss: KILL
+- grpid: 66
+  group: 1.3.4
+  form: tʰat
+  gloss: KILL
+- grpid: 12
+  group: 1.7.2
+  form: ʔsot
+  gloss: KILL
+- grpid: 42
+  group: '6.1'
+  form: C-sat
+  gloss: KILL
+notes:
+- type: F
+  text: '<par><hanform>殺</hanform> OC <latinform>*sɑ̆t</latinform>, GSR #319d-e &apos;kill&apos;; Schuessler
+    2007:452 <latinform>*srât</latinform>; B &amp; S 2011: <latinform>*s‹r›at</latinform>; Mand. <latinform>shā</latinform>.</par>'

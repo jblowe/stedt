@@ -1,0 +1,41 @@
+tag: 436
+grpid: 2
+proto_language: PTB
+protoform: put-s ⪤ pit-s
+gloss: KNEE
+semkey: 1.5.8.4
+sequence: 1.0
+status: KEEP
+public: true
+possallo: '3040'
+references: incl. 433,434,3040
+phonology:
+  handle: puK
+  initial: p
+  rhyme: u(k/ŋ) ⪤
+  initcover: P
+  rhymecover: NT
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: put
+  gloss: KNEE
+notes:
+- type: T
+  text: <par>Written Tibetan <latinform>pus</latinform> is from <latinform>*put-s</latinform>, since WT
+    dental stops do not occur before final <latinform>-s</latinform>. There is a West Tibetan variant
+    <latinform>pis-mo</latinform>.</par>
+- type: F
+  text: '<par><hanform>韠</hanform> OC <latinform>*pi̯ĕt</latinform>, GSR #407m &apos;knee cover&apos;;
+    Coblin 86:101 <latinform>*pjit</latinform>; B &amp; S 2011: <latinform>*pit {pi[t]}</latinform>; Mand.
+    <latinform>bì</latinform>.<br /><hanform>韍</hanform> OC <latinform>*pi̯wət</latinform>, GSR #276l
+    &apos;knee cover&apos;; Coblin 86:101 ST <latinform>*pjut</latinform> &gt; OC <latinform>*piət</latinform>
+    &gt; <latinform>*pjwət</latinform>; Mand. <latinform>fú</latinform>.<br /><hanform>巿</hanform> OC
+    <latinform>*pi̯wət</latinform>, GSR #501a-b &apos;knee cover&apos;; Mand. <latinform>fú</latinform>.<br
+    /><hanform>芾</hanform> OC <latinform>*pi̯wət</latinform>, GSR #501c &apos;knee cover&apos;; Mand.
+    <latinform>fú</latinform>.</par><par>The primary comparanda here are <hanform>韠</hanform> <latinform>bì</latinform>
+    and <hanform>韍</hanform> <latinform>fú</latinform>, which are allofamic in OC.</par><par>The ideograph
+    <hanform>巿</hanform> <latinform>fú</latinform> meaning &apos;knee cover&apos; apparently antedates
+    <hanform>韍</hanform> <latinform>fú</latinform>, but the latter eventually became the predominant form.
+    Likewise, the ideograph <hanform>芾</hanform> <latinform>fú</latinform> was optionally a loan character
+    for <hanform>巿</hanform> <latinform>fú</latinform> (see note, GSR #501c).</par>'

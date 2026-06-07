@@ -1,0 +1,57 @@
+tag: 2595
+grpid: 2
+proto_language: PTB
+protoform: sram
+gloss: OTTER
+semkey: 2.2.7
+sequence: 2577.0
+status: KEEP
+public: true
+references: STC#438
+phonology:
+  handle: ram
+  prefix: s
+  initial: r
+  rhyme: am=sram
+  initcover: L
+  rhymecover: NLS
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: hram
+  gloss: OTTER
+- grpid: 5
+  group: 1.1.1
+  form: ram
+  gloss: OTTER
+- grpid: 66
+  group: 1.3.4
+  form: ram
+  gloss: OTTER
+- grpid: 42
+  group: '6.1'
+  form: sram¹
+  gloss: OTTER
+- grpid: 12
+  group: 1.7.2
+  form: (C̥-)rom
+  gloss: OTTER
+- grpid: 63
+  group: 1.3.1
+  form: raːm
+  gloss: OTTER
+notes:
+- type: T
+  text: <par>Written Burmese <latinform>phyam</latinform> has always presented a puzzle (see <plainlatinform>STC
+    107, n. 302</plainlatinform>). In Matisoff 2010 (&quot;Toward a Eurasian Bestiary&quot;), I surmised
+    that the labial initial arose through a reduction of a Mon-Khmer etymon (see Mon-Khmer <latinform>*bheʔ</latinform>,
+    Shorto 2006:#260).</par><par>Lisu <latinform>pu̱³³</latinform> and Hani (Khatu) <latinform>pjá tɔ̃</latinform>
+    seem clearly to be loans from Burmese.</par><par>After much hesitation, STC chose to treat the initial
+    combination <latinform>*sr-</latinform> as an intrinsic cluster rather than as a sequence of prefix
+    plus root initial. This analysis is buttressed by forms like Mizo <latinform>sa-hram</latinform>.</par>
+- type: F
+  text: '<par><hanform>猵</hanform> OC <reconstruction>*piɑn</reconstruction>, GSR #246i &apos;otter&apos;;
+    Schuessler 2007:165 <latinform>*pên</latinform>; Mand. <latinform>biān</latinform>.</par><par><latinform>Comment:</latinform>
+    Cf. discussion in <plainlatinform>STC 107, n. 302</plainlatinform>, also Matisoff (2010). Forms with
+    initial <latinform>p-</latinform> for &apos;otter&apos; are apparently rare across TB languages except
+    for Written/Spoken Burmese (WB <latinform>phyam</latinform>) and possibly Sak and Marma (both <latinform>phaing</latinform>).</par>'

@@ -1,0 +1,17 @@
+tag: 1797
+grpid: 2
+proto_language: PTB
+protoform: su(w)
+gloss: COUGH
+semkey: 1.8.3.3
+sequence: 1490.0
+status: delete
+public: false
+xrefs: '1794'
+references: STC#423
+phonology:
+  handle: suw
+  initial: s
+  rhyme: u(w)
+  initcover: S
+  rhymecover: W

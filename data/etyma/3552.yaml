@@ -1,0 +1,20 @@
+tag: 3552
+grpid: 2
+proto_language: PTB
+protoform: wyal
+gloss: COUNT
+semkey: 6.2.2.2
+sequence: 1497.0
+status: KEEP
+public: true
+references: cf. JAM-LITB 8.0, HPTB p.420
+phonology:
+  initial: w
+  rhyme: el
+  initcover: L
+  rhymecover: L
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: ʔ-we
+  gloss: COUNT

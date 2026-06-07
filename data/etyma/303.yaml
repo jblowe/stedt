@@ -1,0 +1,35 @@
+tag: 303
+grpid: 2
+proto_language: PTB
+protoform: m-dz(y)u-k
+gloss: BELONG / TRUST / DEPEND / ACCEPT / TAKE
+semkey: 8.3.1.2.1
+sequence: 1158.0
+status: KEEP
+public: true
+references: HPTB p.479
+phonology:
+  prefix: m
+  initial: dz(y)
+  rhyme: u-k
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: yu¹
+  gloss: TAKE
+- grpid: 42
+  group: '6.1'
+  form: džu²
+  gloss: LOOSE / SLACK
+- grpid: 63
+  group: 1.3.1
+  form: ju
+  gloss: CARRY / PUT
+notes:
+- type: T
+  text: '<par>This etymon was reconstructed in Matisoff 1989 &quot;A new ST root <reconstruction>*d-yu-k</reconstruction>&quot;.
+    See also Matisoff 1988: 469 (&quot;The Dictionary of Lahu&quot;).</par><par>The presumed semantic
+    development of this etymon is fairly complex. According to one scenario, the basic meaning would be
+    TAKE / ACCEPT, whence it acquired the more abstract sense of RELY UPON / DEPEND, and from there, to
+    the notion of HANGING LOOSELY (cf. English <emph>depend</emph>, from Latin <emph>pendere</emph> &apos;to
+    hang&apos;). On the other hand, the semantic development might have been in exactly the opposite direction!</par>'

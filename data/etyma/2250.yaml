@@ -1,0 +1,16 @@
+tag: 2250
+grpid: 2
+proto_language: PTB
+protoform: groy
+gloss: CROW / HOWL / SCREECH / SCREAM
+semkey: 8.5.4.1
+sequence: 1523.0
+status: KEEP
+public: true
+references: cf. STC#310, HPTB p.228
+phonology:
+  handle: groy
+  initial: gr
+  rhyme: oy
+  initcover: K
+  rhymecover: W

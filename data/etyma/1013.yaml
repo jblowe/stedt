@@ -1,0 +1,26 @@
+tag: 1013
+grpid: 2
+proto_language: PTB
+protoform: rəy
+gloss: WATER / LIQUID / BODILY FLUID
+semkey: 3.2.3
+sequence: 8.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. HPTB p. 250
+phonology:
+  handle: rəy
+  initial: r
+  rhyme: əy
+  initcover: L
+  rhymecover: W
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: rəy¹
+  gloss: WATER
+- grpid: 45
+  group: 6.1.2
+  form: re¹
+  gloss: WATER

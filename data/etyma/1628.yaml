@@ -1,0 +1,20 @@
+tag: 1628
+grpid: 2
+proto_language: PTB
+protoform: ts(y)uːŋ
+gloss: NAVEL / CENTER
+semkey: 1.9.4
+sequence: 44.2
+status: KEEP
+public: true
+phonology:
+  handle: tsy
+  initial: (t)s(y
+  rhyme: uːŋ
+  initcover: TS
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tshuŋ
+  gloss: INSIDE / WITHIN / HOUSEHOLD

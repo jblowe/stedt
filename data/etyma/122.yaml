@@ -1,0 +1,26 @@
+tag: 122
+grpid: 2
+proto_language: PTB
+protoform: wat
+gloss: THIRSTY
+semkey: 1.1.3.1
+sequence: 9.0
+status: KEEP
+public: true
+references: ↭ *s-wi
+phonology:
+  handle: wat
+  initial: w
+  rhyme: at⪤wet
+  initcover: L
+  rhymecover: WT
+notes:
+- type: T
+  text: <par>This root seems fairly solid. The final <latinform>-p</latinform> in Athpare seems to be
+    due to assimilation to the labial nasal in the following syllable. Kulung <latinform>wam ma siy-a</latinform>
+    shows complete assimilation to the initial of the second syllable.</par><par>The second syllable of
+    Bantawa <latinform>cak-wa-sü-</latinform> and the first syllable of Limbu <latinform>P-wa miːkt-</latinform>
+    seem to descend from an independent root <xref ref="2080">#2080</xref>.</par><par>This root looks
+    rather similar to <xref ref="113">#113</xref>, but we are keeping them separate for now. The present
+    root seems always to mean &apos;thirsty&apos; while <xref ref="113">#113</xref> apparently always
+    means &apos;hungry&apos;.</par>

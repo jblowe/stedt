@@ -1,0 +1,19 @@
+tag: 4477
+grpid: 2
+proto_language: PTB
+protoform: ʔum
+gloss: DWELL / EXIST / LIVE / STAY
+semkey: '6.2'
+sequence: 7.0
+status: KEEP
+public: false
+references: 'PKC #477'
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: ɁɔNᴮ
+  gloss: LIVE, STAY
+- grpid: 8
+  group: '1.2'
+  form: ʔ(u/o)m
+  gloss: DWELL / EXIST / LIVE / STAY

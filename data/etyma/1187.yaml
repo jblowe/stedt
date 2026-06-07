@@ -1,0 +1,55 @@
+tag: 1187
+grpid: 2
+proto_language: PTB
+protoform: s-ma-y
+gloss: FACE / CHEEK / FRONT / AHEAD / FIRST
+semkey: 1.2.5
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. HPTB pp.210, 537
+phonology:
+  handle: s/r-ma
+  prefix: s/r
+  initial: m
+  rhyme: aːy
+  initcover: M
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: hmaay
+  gloss: FACE / FRONT
+- grpid: 66
+  group: 1.3.4
+  form: maj
+  gloss: FACE
+- grpid: 63
+  group: 1.3.1
+  form: hmaj
+  gloss: FACE / SURFACE
+- grpid: 8
+  group: '1.2'
+  form: hmaa
+  gloss: FRONT / FIRST
+- grpid: 8
+  group: '1.2'
+  form: hmaay-saa
+  gloss: AHEAD / FIRST
+notes:
+- type: T
+  text: '<par>GSTC #109.</par>'
+- type: T
+  text: <par>Karenic languages seem to have developed the meaning &apos;tooth&apos; from this root, although
+    the forms for &apos;tooth&apos; and &apos;face&apos; are slightly different in each language.</par>
+- type: T
+  text: <par>If we accept the cognacy of WB <latinform>hma</latinform> &apos;locative particle&apos; to
+    the Kuki-Chin forms, this etymon should be reconstructed at the PTB level.</par>
+- type: T
+  text: <par>Several putative reflexes have back vowels (Chepang  <latinform>mo.hor</latinform>, Yi [Xide]
+    <latinform>a⁵⁵-mo²¹</latinform>, Lisu <latinform>mu⁵prgh¹du³</latinform>). Two West Himalayish languages
+    have forms with final dental stop and mid vowel (Bunan and Pattani <latinform>mod</latinform>), which
+    makes it tempting to reconstruct a separate root <reconstruction>*mwa-t</reconstruction>, although
+    this is premature.</par><par>This root seems to have developed the meaning TOOTH in Karenic.</par><par>Also
+    possibly related is <xref ref="4766">#4766</xref>.</par>

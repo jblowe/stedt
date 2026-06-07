@@ -1,0 +1,25 @@
+tag: 1383
+grpid: 2
+proto_language: PTB
+protoform: m/b-yit
+gloss: HEART / LIVER / MIND
+semkey: 1.7.1
+sequence: 11.0
+status: KEEP
+public: true
+phonology:
+  handle: yet
+  prefix: b/m
+  initial: y
+  rhyme: et
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: mit-pran
+  gloss: FORGET
+notes:
+- type: T
+  text: <par>This etymon was reconstructed as <latinform>b-yet ⪤ m-yet</latinform> in VSTB:211, but was
+    inadvertently omitted from HPTB.</par>

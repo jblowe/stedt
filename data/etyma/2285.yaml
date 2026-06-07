@@ -1,0 +1,16 @@
+tag: 2285
+grpid: 42
+proto_language: PLB
+protoform: kak = khak
+gloss: REACHING ITS PEAK
+semkey: '6.21'
+sequence: 1.2
+status: DELETE
+public: false
+xrefs: '5472'
+phonology:
+  handle: kak
+  initial: k
+  rhyme: ak=khak
+  initcover: K
+  rhymecover: T

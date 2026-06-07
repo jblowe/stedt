@@ -1,0 +1,23 @@
+tag: 553
+grpid: 2
+proto_language: PTB
+protoform: s-nam
+gloss: RIB
+semkey: 1.4.4.3
+sequence: 5.0
+status: KEEP
+public: true
+xrefs: '1308'
+possallo: '558'
+phonology:
+  handle: nam
+  prefix: s
+  initial: n
+  rhyme: am
+  initcover: M
+  rhymecover: N
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-nam¹
+  gloss: SIDE / RIB

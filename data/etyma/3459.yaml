@@ -1,0 +1,21 @@
+tag: 3459
+grpid: 2
+proto_language: PTB
+protoform: pa
+gloss: BREAST / NIPPLE / MILK
+sequence: 4.0
+status: KEEP
+public: true
+references: cf. *ma 3457
+phonology:
+  handle: pa
+  initial: p
+  rhyme: a
+  initcover: P
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root appears mostly in Lolo-Burmese, Qiangic, and Baic. It frequently occurs reduplicated,
+    and its simple phonological shape makes it likely that it is hypocoristic in origin. (The same may
+    be said for <xref ref="3457">#3457</xref>, below.) Some Lolo-Burmese and Bai forms have been recorded
+    with vowel constriction, but it is not yet clear whether these reflect an allofam with final stop.</par>

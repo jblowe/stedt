@@ -1,0 +1,16 @@
+tag: 2037
+grpid: 2
+proto_language: PTB
+protoform: (t)si
+gloss: FACE / CHEEK
+semkey: 1.2.5
+sequence: 8.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: tsi
+  initial: (t)s
+  rhyme: i
+  initcover: TS
+  rhymecover: V

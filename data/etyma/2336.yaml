@@ -1,0 +1,20 @@
+tag: 2336
+grpid: 2
+proto_language: PTB
+protoform: krəy
+gloss: DIRT / FILTH
+semkey: 1.5.3.2
+sequence: 1654.0
+status: KEEP
+public: true
+references: STC#460
+phonology:
+  handle: kriy
+  initial: kr
+  rhyme: iy=krəy
+  initcover: K
+  rhymecover: LWT
+notes:
+- type: T
+  text: <par>This root is phonosemantically close to <xref ref="572">#572</xref>, but must be kept separate,
+    since many languages have distinct reflexes.</par>

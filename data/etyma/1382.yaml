@@ -1,0 +1,22 @@
+tag: 1382
+grpid: 2
+proto_language: PTB
+protoform: trwa
+gloss: HEART / LIVER
+semkey: 1.7.1
+sequence: 5.0
+status: KEEP
+public: true
+exemplary: true
+possallo: '1391'
+phonology:
+  handle: tywa
+  initial: tyw
+  rhyme: a
+  initcover: T
+  rhymecover: V
+notes:
+- type: T
+  text: <par>The medial <latinform>*-r-</latinform> in the reconstruction is motivated by the retroflex
+    initials in Gurung and Magar, but other forms (Thulung, Yakha, Kulung, and Kham) reflect an apparent
+    later development to a medial <latinform>-y-</latinform>.</par>

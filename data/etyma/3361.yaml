@@ -1,0 +1,48 @@
+tag: 3361
+grpid: 2
+proto_language: PTB
+protoform: gwaŋ
+gloss: NECK / THROAT
+semkey: 1.4.2
+sequence: 4.0
+status: KEEP
+public: true
+possallo: ↭ *s-ŋoŋ  483
+references: DL 253; ↭ *s-ŋoŋ 483
+phonology:
+  handle: goŋ
+  initial: g
+  rhyme: oŋ / PLB
+  initcover: K
+  rhymecover: N
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: kʰoŋ
+  gloss: NECK
+- grpid: 42
+  group: '6.1'
+  form: ʔgoŋ² 
+  gloss: NECK / NECK-LIKE PART
+- grpid: 5
+  group: 1.1.1
+  form: gruŋ?
+  gloss: THROAT
+notes:
+- type: T
+  text: <par>This etymon is very similar to <xref ref="483">#483</xref>, and is very likely in an allofamic
+    relationship to it.</par>
+- type: F
+  text: '<par><hanform>亢</hanform> OC <latinform>*kɑ̂ng</latinform>, GSR #698a&apos; &apos;neck, throat&apos;;
+    Schuessler 2007:250 <latinform>*kâŋ</latinform>; Mand. <latinform>gāng</latinform>.<br /><hanform>項</hanform>
+    OC <latinform>*g’ŭng</latinform>, GSR #1172y &apos;neck&apos;; Schuessler 2007:534 <latinform>*grôŋʔ</latinform>;
+    B &amp; S 2011: <latinform>*ɡˁroŋʔ {[ɡ]ˁroŋʔ}</latinform>; Mand. <latinform>xiàng</latinform>.</par>'
+- type: T
+  text: '<par>In line with the frequently noted tendency of words meaning NECK / THROAT to have velar
+    initials, we have reconstructed no fewer than eleven etyma with initial velars or velar clusters:
+    <xref ref="389">#389</xref>, <xref ref="481">#481</xref>, <xref ref="486">#486</xref>, <xref ref="488">#488</xref>,
+    <xref ref="489">#489</xref>, <xref ref="491">#491</xref>, <xref ref="493">#493</xref>, <xref ref="494">#494</xref>,
+    <xref ref="495">#495</xref>, <xref ref="3361">#3361</xref>, and <xref ref="5651">#5651</xref>.</par><par>It
+    is highly likely that some of these etyma are allofams of each other. It is equally likely that a
+    given supporting form may have been assigned to the wrong etymon. However, on the basis of the available
+    data, this may be the best that can be done at this point.</par>'

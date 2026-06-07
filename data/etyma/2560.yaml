@@ -1,0 +1,24 @@
+tag: 2560
+grpid: 2
+proto_language: PTB
+protoform: pla
+gloss: ASHES
+semkey: 3.2.12.2
+sequence: 1067.0
+status: KEEP
+public: true
+references: STC#137
+phonology:
+  handle: pla
+  initial: pl
+  rhyme: a
+  initcover: P
+  rhymecover: V
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: phaᴮ
+  gloss: ASHES, FIREPLACE
+notes:
+- type: I
+  text: <par>In some N.Sgaw varieties <latinform>phla¹¹¨~pha¹¹¨</latinform> means ‘fireplace’.</par>

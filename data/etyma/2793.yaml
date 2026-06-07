@@ -1,0 +1,17 @@
+tag: 2793
+grpid: 42
+proto_language: PLB
+protoform: yu
+gloss: TAKE
+semkey: '6.21'
+sequence: 2.1
+status: DELETE
+public: false
+xrefs: '5548'
+references: STC p.60
+phonology:
+  handle: yu
+  initial: y
+  rhyme: u
+  initcover: L
+  rhymecover: V

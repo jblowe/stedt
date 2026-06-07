@@ -1,0 +1,21 @@
+tag: 252
+grpid: 2
+proto_language: PTB
+protoform: p(u/i)-k
+gloss: BRAIN
+semkey: 1.2.4
+sequence: 10.0
+status: KEEP
+public: true
+phonology:
+  handle: pu
+  initial: p
+  rhyme: u-k
+  suffix: k
+  initcover: P
+  rhymecover: VT
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: pVk-ni?
+  gloss: BRAIN

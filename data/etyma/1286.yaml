@@ -1,0 +1,22 @@
+tag: 1286
+grpid: 2
+proto_language: PTB
+protoform: r-lik
+gloss: TESTICLE / EGG / PENIS
+sequence: 129.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: li
+  prefix: r
+  initial: l
+  rhyme: i-k
+  suffix: k
+  initcover: L
+  rhymecover: VT
+notes:
+- type: T
+  text: '<par>This etymon was already set up in Matisoff 1972a #170 as PLB <reconstruction>*r-lek</reconstruction>,
+    on the basis of a single Loloish form (Akha) and WT <latinform>rlig-pa</latinform>. It is solidly
+    attested in Himalayish, with possible cognates in Xixia and the NE Indian Areal Group (esp. Karbi).</par>'

@@ -1,0 +1,18 @@
+tag: 228
+grpid: 2
+proto_language: PTB
+protoform: ki(ŋ/k)
+gloss: GALL / BILE
+semkey: 1.7.3.1
+sequence: 3.0
+status: KEEP
+public: false
+phonology:
+  handle: kiŋ/
+  initial: k
+  rhyme: i((ŋ/k))
+  initcover: K
+  rhymecover: NT
+notes:
+- type: T
+  text: <par>Care must be taken to distinguish this root from <xref ref="227">#227</xref>.</par>

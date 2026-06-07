@@ -1,0 +1,24 @@
+tag: 2783
+grpid: 2
+proto_language: PTB
+protoform: w(u/i)l
+gloss: TEND (grazing animals) / WATCH OVER
+semkey: '8.2'
+sequence: 3280.0
+status: KEEP
+public: true
+references: cf. STC p.83, HPTB pp. 384, 416
+phonology:
+  handle: wul
+  initial: w
+  rhyme: ul=vul
+  initcover: L
+  rhymecover: L
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: wil
+  gloss: WATCH / LOOK AFTER  / CARE FOR
+notes:
+- type: T
+  text: <par>This etymon is perhaps allofamic with <xref ref="6173">#6173</xref>.</par>

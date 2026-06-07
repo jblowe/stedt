@@ -1,0 +1,16 @@
+tag: 29
+grpid: 2
+proto_language: PTB
+protoform: swan
+gloss: DIE / SPIRIT OF DEAD / NON-VIABLE
+semkey: 1.1.6
+sequence: 9.0
+status: KEEP
+public: true
+references: 'TJLB #273'
+phonology:
+  handle: swan
+  initial: sw
+  rhyme: an
+  initcover: S
+  rhymecover: N

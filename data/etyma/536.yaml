@@ -1,0 +1,20 @@
+tag: 536
+grpid: 2
+proto_language: PTB
+protoform: r-g-yuŋ
+gloss: OBSCURE INTERNAL CHANNEL / BLOOD VESSEL / SINEW / MUSCLE
+semkey: '10.0'
+sequence: 1.0
+status: KEEP
+public: false
+exemplary: true
+phonology:
+  handle: g-yuŋ
+  prefix: r
+  initial: g-y
+  rhyme: uŋ
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: <par>THis root is somewhat speculative, although it seems quite promising.</par>

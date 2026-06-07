@@ -1,0 +1,39 @@
+tag: 3475
+grpid: 2
+proto_language: PTB
+protoform: yaŋ
+gloss: LOVE / DESIRE / COPULATE
+semkey: 8.3.1.1.1
+sequence: 147.0
+status: KEEP
+public: true
+references: Bai, Milang, Bokar
+phonology:
+  handle: yaŋ
+  initial: y
+  rhyme: aŋ
+  initcover: L
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>This etymon is fairly well established, occurring in the NE Indian Areal Group, Baic, and
+    Himalayish. This root is independent of <xref ref="3470">#3470</xref> above, with which it occurs
+    in binomes (Konyak, Baima, Spiti). There is a longshot Chinese comparandum, <hanform>癢</hanform> OC
+    <latinform>*zi̯ɑng</latinform> &apos;itch&apos;, GSR #732r, Mand. <latinform>yǎŋ</latinform>, though
+    the semantic association is doubtful.</par><par>The root <xref ref="3470">#3470</xref> strongly resembles
+    the present etymon, but the Konyak binome <latinform>ya yiang</latinform> seems to show that the roots
+    are independent of each other.</par>'
+- type: F
+  text: '<par><hanform>癢</hanform> ‘itch’ <plainlatinform>⪤</plainlatinform> <hanform>痒</hanform>  &apos;disease&apos;,
+    OC <latinform>*zi̯ɑng</latinform>, GSR #732i,732r; Li 1971: <latinform>*rang(x)</latinform>; Baxter
+    1992: <latinform>*(l)jang(ʔ)</latinform>; Mand. <latinform>yǎng</latinform> &apos;itch&apos;, <latinform>yáng</latinform>
+    &apos;disease&apos;.</par><par>Setting aside the question of semantics, this is a plausible comparison.</par><par>For
+    other members of this phonetic series, Baxter reconstructs <reconstruction>*z(l)ang</reconstruction>,
+    <reconstruction>*k(l)ang</reconstruction> and <reconstruction>*kh(l)ang</reconstruction>. The presence
+    of medial <reconstruction>*-l-</reconstruction> ties the pronunciation of these words together; but
+    the medial is given in parentheses because it does not affect subsequent development and Baxter is
+    probably doubtful about its presence. Li&apos;s initial <reconstruction>*r-</reconstruction> has been
+    revised to <reconstruction>*l-</reconstruction> by most scholars.  Handel 1998 and Schuessler 2007
+    both reconstruct initial <reconstruction>*j-</reconstruction> in this situation.</par><par>This proposal
+    parallels the comparison of Chinese  <hanform>羊</hanform> <latinform>*jang</latinform> &apos;sheep&apos;
+    (Mand. <latinform>yáng</latinform>) with PTB <latinform>*g-yaŋ</latinform>.<br />[ZJH]</par>'

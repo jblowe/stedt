@@ -1,0 +1,22 @@
+tag: 2624
+grpid: 2
+proto_language: PTB
+protoform: r(u/i)m
+gloss: DARK / SHADE / DUSK / TWILIGHT
+semkey: 9.1.4
+sequence: 1574.0
+status: KEEP
+public: true
+references: cf. STC#401, HPTB pp.273, 308, 498
+phonology:
+  handle: rum
+  initial: r
+  rhyme: um~rim
+  initcover: L
+  rhymecover: NL
+notes:
+- type: F
+  text: '<par><hanform>陰</hanform> OC <latinform>*ʔi̯əm</latinform>, GSR #651y-z; B &amp; S 2011: <latinform>*qum
+    {q(r)[u]m}</latinform>; Mand. <latinform>yīn</latinform> &apos;dark&apos;.<br /><hanform>蔭</hanform>
+    OC <latinform>*ʔi̯əm</latinform>, GSR #651a&apos;-c&apos;; B &amp; S 2011: <latinform>*qəm-s {q(r)[ə]m-s}</latinform>;
+    Mand. <latinform>yìn</latinform> &apos;shade&apos;.<br />WB um</par>'

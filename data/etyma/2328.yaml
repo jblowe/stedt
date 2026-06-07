@@ -1,0 +1,21 @@
+tag: 2328
+grpid: 2
+proto_language: PTB
+protoform: kraŋ
+gloss: MOSQUITO
+semkey: 2.2.6
+sequence: 48.0
+status: KEEP
+public: true
+references: STC#322
+phonology:
+  handle: kran
+  initial: kr
+  rhyme: an
+  initcover: K
+  rhymecover: N
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: caaŋ
+  gloss: MOSQUITO

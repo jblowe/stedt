@@ -1,0 +1,28 @@
+tag: 1186
+grpid: 2
+proto_language: PTB
+protoform: pluŋ
+gloss: FACE
+semkey: 1.2.5
+sequence: 6.0
+status: KEEP
+public: true
+phonology:
+  handle: ploŋ²
+  initial: pl
+  rhyme: oŋ²
+  tone: ²
+  initcover: P
+  rhymecover: N
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: pluːŋ² OR pyuːŋ²
+  gloss: FACE
+notes:
+- type: T
+  text: <par>This root very frequently occurs in compounds, either with <xref ref="681">#681</xref> or
+    <xref ref="803">#803</xref>. See e.g. Lipho <latinform>pha²¹me̱³³</latinform> (with <xref ref="681">#681</xref>)
+    vs. Nusu (Central) <latinform>pʰɹɑʴ⁵⁵ n̥ɑ³⁵</latinform> (with <xref ref="803">#803</xref>). To complicate
+    matters further, the EYE morpheme may occur in either order with <xref ref="1186">#1186</xref>. See
+    e.g. Lahu <latinform>mɛ̂ʔ-phû</latinform> vs. Lisu <latinform>hpi⁵-myá³</latinform>.</par>

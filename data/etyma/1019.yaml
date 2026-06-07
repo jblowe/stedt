@@ -1,0 +1,47 @@
+tag: 1019
+grpid: 2
+proto_language: PTB
+protoform: sey
+gloss: FRUIT / ROSE / ROUND OBJECT
+semkey: 3.1.5
+sequence: 11.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#057, HPTB pp.31, 33, 129, 206
+phonology:
+  handle: sey
+  initial: s
+  rhyme: ey
+  initcover: S
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: thay
+  gloss: FRUIT
+- grpid: 66
+  group: 1.3.4
+  form: tʰej
+  gloss: FRUIT
+- grpid: 5
+  group: 1.1.1
+  form: ze
+  gloss: FRUIT
+- grpid: 50
+  group: '7'
+  form: saᴮ
+  gloss: FRUIT
+- grpid: 63
+  group: 1.3.1
+  form: a-sej
+  gloss: FRUIT / SEED
+- grpid: 8
+  group: '1.2'
+  form: ʔaar-θii ⪤ -sii
+  gloss: STAR
+notes:
+- type: T
+  text: <par>This morpheme frequently occurs as the last constituent in compounds referring to round or
+    spherical objects, e.g. HEART (cf. Lahu <latinform>ni-ma-šī</latinform>).</par><par>Many rGyalrongic
+    forms seem to reflect proto-rGyalrongic <latinform>*t-sey</latinform>.</par>

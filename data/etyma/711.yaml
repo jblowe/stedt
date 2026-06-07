@@ -1,0 +1,29 @@
+tag: 711
+grpid: 2
+proto_language: PTB
+protoform: dwaŋ
+gloss: WING / HAND
+semkey: 1.5.1.3
+sequence: 16.0
+status: KEEP
+public: true
+xrefs: CUBIT
+possallo: '1327'
+phonology:
+  handle: ta/oŋ
+  initial: t
+  rhyme: a/oŋ
+  initcover: T
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>This is the best attested root with the meaning WING. The reflexes vary between a low central
+    and a mid back vowel, suggesting a prototype with labial medial <reconstruction>*dwaŋ</reconstruction>.
+    The two Black Lahu variants <latinform>tō-làʔ-qú ~ tɔ̄-làʔ-qú</latinform> reflect this: Lahu <latinform>o</latinform>
+    frequently derives from <reconstruction>*-oŋ</reconstruction>, while Lahu <latinform>ɔ</latinform>
+    often derives from <reconstruction>*-aŋ</reconstruction>. Similarly, Jingpho <latinform>sùm thāŋ lə
+    phùm</latinform> &apos;arm&apos; reflects <reconstruction>*-aŋ</reconstruction>, while Jingpho <latinform>dòŋ</latinform>
+    &apos;cubit&apos; comes from <reconstruction>*-oŋ</reconstruction>.</par><par>The Naxi and Zhaba forms
+    reflect a variant with prenasalized initial.</par><par>There is an almost identical set of reflexes
+    with the meaning CUBIT (see <xref ref="710">#710</xref>), which is undoubtedly related to the present
+    root.</par><par>This root is to be distinguished from the phonologically similar <xref ref="439">#439</xref>.</par>'

@@ -1,0 +1,19 @@
+tag: 3510
+grpid: 2
+proto_language: PTB
+protoform: haŋ
+gloss: HEAT UP
+semkey: 9.6.2
+sequence: 2128.0
+status: KEEP
+public: true
+references: JAM-LITB 5.2
+phonology:
+  initial: h
+  rhyme: aŋ
+  initcover: H
+  rhymecover: N
+notes:
+- type: T
+  text: <par>The phonosemantic fit between the Chepang and Tiddim forms is quite good, although further
+    confirmation would be welcome.</par>

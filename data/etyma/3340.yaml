@@ -1,0 +1,28 @@
+tag: 3340
+grpid: 2
+proto_language: PTB
+protoform: m-tya(k/ŋ)
+gloss: WAIST / LOINS
+semkey: 1.4.6
+sequence: 3435.0
+status: KEEP
+public: true
+references: 'Attested: Karen, Gyarong'
+phonology:
+  handle: teK
+  initial: t
+  rhyme: e(k/ŋ)
+  initcover: T
+  rhymecover: NT
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: j-Ɂdeᴬ
+  gloss: WAIST
+notes:
+- type: T
+  text: <par>This root has far been found only in rGyalrongic and Karenic. We are assuming alternation
+    between homorganic final stop and nasal, although it might turn out that two separate roots are involved.</par>
+- type: T
+  text: <par>This Karenic binome reconstructed by Theraphan Luangthongkum might be a sequence of <xref
+    ref="208">#208</xref> plus <xref ref="1373">#1373</xref>.</par>

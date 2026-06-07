@@ -1,0 +1,25 @@
+tag: 359
+grpid: 2
+proto_language: PTB
+protoform: tuk ⪤ twak
+gloss: HEAD / SKULL / NECK
+semkey: 1.2.1
+sequence: 3.0
+status: KEEP
+public: true
+references: STC#392
+phonology:
+  handle: tuk
+  initial: t
+  rhyme: uk ⪤ twa
+  initcover: T
+  rhymecover: WT
+notes:
+- type: T
+  text: '<par>Several forms seem to reflect a variant with a final velar nasal: WB <latinform>lañ-tuing</latinform>,
+    <latinform>jak-tuing</latinform> and Sulong <latinform>kə³³tuoŋ³³</latinform>.</par>'
+- type: F
+  text: '<par><hanform>脰</hanform> OC <latinform>*d’u</latinform>, GSR #118d &apos;neck&apos;; B &amp;
+    S 2011: <latinform>*kə.dˁok-s</latinform>; Mand. <latinform>dòu</latinform>.<br /><hanform>髑</hanform>
+    OC <latinform>*dʼu̯k</latinform>, GSR #1224m &apos;skull&apos;; B &amp; S 2011: <latinform>*dˁok {[d]ˁok}</latinform>;
+    Mand. <latinform>dú</latinform>.</par>'

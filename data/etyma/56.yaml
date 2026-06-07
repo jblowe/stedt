@@ -1,0 +1,22 @@
+tag: 56
+grpid: 2
+proto_language: PTB
+protoform: m-(t)sik
+gloss: BURN / ITCH / ANGRY
+semkey: 3.2.12.1
+sequence: 8.0
+status: KEEP
+public: false
+references: HPTB pp.344, 348
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ndzikᴴ
+  gloss: ITCH
+notes:
+- type: F
+  text: '<par><hanform>疾</hanform> OC <latinform>*dźi̯ət</latinform>, GSR #494a-c; B &amp; S 2011: <latinform>*dzit
+    {[dz]i[t]}</latinform>; Mand. <latinform>jí</latinform>.<br /><hanform>堲</hanform> OC <latinform>*tsiə̯t</latinform>,
+    GSR #923c &apos;coaled part of a burning torch&apos;; B &amp; S 2011: <latinform>(*tsik)</latinform>;
+    Coblin 86:50 ST <latinform>*tsjik</latinform> &gt; PC <latinform>*tsjik</latinform> &gt; OC <latinform>*tsjit</latinform>
+    &gt; <latinform>*tsjet</latinform>; Mand. <latinform>jí</latinform>.</par>'

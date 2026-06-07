@@ -1,0 +1,24 @@
+tag: 622
+grpid: 2
+proto_language: PTB
+protoform: g-wəy-n
+gloss: FAR
+semkey: 9.2.4
+sequence: 1851.0
+status: KEEP
+public: true
+references: cf. HPTB p.452
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: wəy²
+  gloss: FAR
+notes:
+- type: T
+  text: <par>The final <latinform>*-n</latinform> is reconstructed on the basis of Chinese. There is probably
+    a relationship between this root and <xref ref="5739">#5739</xref>, which has more abstract, grammatical
+    meaning.</par><par>The velar prefix is attested both in Qiangic (including Tangut).</par>
+- type: F
+  text: '<par><hanform>遠</hanform> OC <latinform>*gi̯wɑ̆n</latinform>, GSR #256f &apos;far&apos;; Schuessler
+    2007:594 <latinform>*wanʔ</latinform>; B &amp; S 2011: <latinform>*C.ɢʷanʔ {C.ɢʷa[n]ʔ}</latinform>;
+    Mand. <latinform>yuǎn</latinform>.</par>'

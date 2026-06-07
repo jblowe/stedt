@@ -1,0 +1,18 @@
+tag: 2114
+grpid: 2
+proto_language: PTB
+protoform: dam
+gloss: GALL / LIVER
+semkey: 1.7.3.1
+sequence: 5.0
+status: DELETE
+public: false
+exemplary: true
+possallo: '1362'
+references: <Chin. tam?;
+phonology:
+  handle: dam
+  initial: d
+  rhyme: am
+  initcover: T
+  rhymecover: N

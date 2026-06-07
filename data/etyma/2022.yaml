@@ -1,0 +1,16 @@
+tag: 2022
+grpid: 45
+proto_language: PL
+protoform: n-dzi
+gloss: BALD
+semkey: 1.2.3.4
+sequence: 3.0
+status: KEEP
+public: false
+phonology:
+  handle: dzi
+  prefix: n
+  initial: dz
+  rhyme: i
+  initcover: TS
+  rhymecover: V

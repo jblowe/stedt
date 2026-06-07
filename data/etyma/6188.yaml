@@ -1,0 +1,15 @@
+tag: 6188
+grpid: 2
+proto_language: PTB
+protoform: s-ril
+gloss: CHOOSE / FASTIDIOUS
+semkey: 6.10.4
+sequence: 1390.0
+status: KEEP
+public: true
+references: cf. HPTB p.410
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: hril
+  gloss: CHOOSE / SELECT

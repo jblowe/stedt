@@ -1,0 +1,18 @@
+tag: 2600
+grpid: 2
+proto_language: PTB
+protoform: (b-)ras
+gloss: FRUIT / RICE
+semkey: 3.1.5
+sequence: 1991.0
+status: DELETE
+public: false
+xrefs: '2071'
+references: 'STC p.17; duplicate of #2071'
+phonology:
+  handle: ras
+  prefix: b
+  initial: )r
+  rhyme: as
+  initcover: L
+  rhymecover: S

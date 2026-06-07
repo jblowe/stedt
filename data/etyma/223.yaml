@@ -1,0 +1,24 @@
+tag: 223
+grpid: 2
+proto_language: PTB
+protoform: m-(t)syi(ŋ/k)
+gloss: WAIST / LOWER BACK / LOINS
+semkey: 1.4.6
+sequence: 3.0
+status: KEEP
+public: true
+phonology:
+  handle: tši
+  initial: (t)š
+  rhyme: i-n/k
+  initcover: TS
+  rhymecover: VNT
+notes:
+- type: T
+  text: <par>Several of these Qiangic forms were assigned to <xref ref="215">#215</xref> in HPTB:358,
+    although it now seems preferable to include them under the present etymon.</par>
+- type: T
+  text: <par>Several reflexes of this root have final <latinform>-n</latinform> instead of <latinform>-ŋ</latinform>.
+    More research is required to ascertain whether this variation is merely allofamic or whether two separate
+    etyma are involved.</par><par>The nasal prefix is reflected in Jingpho, Rengma, Tangut, and perhaps
+    Rongmei.</par>

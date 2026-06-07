@@ -1,0 +1,16 @@
+tag: 2210
+grpid: 2
+proto_language: PTB
+protoform: dyam
+gloss: STRAIGHT
+semkey: 7.1.5.1
+sequence: 3187.0
+status: delete
+public: false
+references: STC#227
+phonology:
+  handle: dyam
+  initial: dy
+  rhyme: am
+  initcover: T
+  rhymecover: N

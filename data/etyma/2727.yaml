@@ -1,0 +1,57 @@
+tag: 2727
+grpid: 2
+proto_language: PTB
+protoform: tsa-n
+gloss: CHILD / GRANDCHILD / NEPHEW / NIECE
+semkey: 4.7.3
+sequence: 1.2
+status: KEEP
+public: true
+references: cf. STC p.27, HPTB
+phonology:
+  handle: tsa
+  initial: ts
+  rhyme: a
+  initcover: TS
+  rhymecover: V
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: tsa
+  gloss: CHILD / DIMINUTIVE
+- grpid: 63
+  group: 1.3.1
+  form: tsaʔ
+  gloss: SON
+notes:
+- type: T
+  text: <par>There is variation between the fricative and affricate initials even within the same subgroup
+    (e.g., Qiangic, Burmish). See <xref ref="1012">#1012</xref>.</par>
+- type: F
+  text: '<par><hanform>子</hanform> OC <latinform>*tsi̯əg</latinform>, GSR #964a-j &apos;son, daughter,
+    child; young of animals&apos;; Schuessler 2007:633 <latinform>*tsəʔ</latinform>; B &amp; S 2011: <latinform>*tsəʔ</latinform>;
+    Mand. <latinform>zǐ</latinform>.<br /><hanform>字</hanform> OC <latinform>*dz’i̯əg</latinform>, GSR
+    #964n-o &apos;to breed, love&apos;; Schuessler 2007:633 <latinform>*dzəh</latinform>; B &amp; S 2011:
+    <latinform>*mə-dzə-s {mə-dzə(ʔ)-s}</latinform>; Mand. <latinform>zì</latinform>.<br /><hanform>孳</hanform><br
+    /><hanform>慈</hanform> OC <latinform>*dz’i̯əg</latinform>, GSR #966j &apos;loving, kind&apos;; Schuessler
+    2007:633 <latinform>*dzə</latinform>; B &amp; S 2011: <latinform>*dzə</latinform>; Mand. <latinform>cí</latinform>.</par><par><hanform>在</hanform>
+    943i-k <latinform>*dz’əg</latinform><br /><hanform>存</hanform> OC <latinform>*dz’wən</latinform>,
+    GSR #432a &apos;be among, exist, survive, maintain&apos;; Schuessler 2007:200 <latinform>*dzə̂n</latinform>;
+    B &amp; S 2011: <latinform>*dzˁən {[dz]ˁə[n]}</latinform>; Mand. <latinform>cún</latinform>.</par><par><hanform>栽</hanform>
+    OC <latinform>*tsəg</latinform>, GSR #943y &apos;plant (v.)&apos;; Schuessler 2007:599 <latinform>*tsə̂</latinform>;
+    B &amp; S 2011: <latinform>*tsˁə {[ts]ˁə}</latinform>; Mand. <latinform>zāi</latinform>.<br /><hanform>載</hanform>
+    OC <latinform>*tsəg</latinform>, GSR #943a&apos;-b&apos; &apos;initiate, start work; undertaking,
+    achievement&apos;; Schuessler 2007:599 <latinform>*tsə̂h</latinform>; B &amp; S 2011: <latinform>*(tsˁəʔ-s
+    {[ts]ˁəʔ-s}</latinform>; Mand. <latinform>zài</latinform>.<br /><hanform>栽</hanform> OC <latinform>*dz’əg</latinform>,
+    GSR #943y &apos;board (v.); erect building frames&apos;; Schuessler 2007:600 <latinform>*tsə̂h</latinform>;
+    B &amp; S 2011: <latinform>*tsˁəʔ-s {[ts]ˁəʔ-s}</latinform>; Mand. <latinform>zài</latinform>.</par><par><hanform>載</hanform>
+    OC <latinform>*tsəg</latinform>, GSR #943a&apos;-b&apos; &apos;load, carry, pour, fill; convetance&apos;;
+    Schuessler 2007:600 <latinform>*tsə̂h</latinform>; B &amp; S 2011: <latinform>*tsˁəʔ-s {[ts]ˁəʔ-s}</latinform>;
+    Mand. <latinform>zài</latinform>.<br /><hanform>載</hanform> OC <latinform>*dz’əg</latinform>, GSR
+    #943a&apos;-b&apos; &apos;load (v.); load (n.)&apos;; Schuessler 2007:600 <latinform>*dzə̂h</latinform>;
+    B &amp; S 2011: <latinform>*m-tsˁəʔ-s {[m-ts]ˁəʔ-s}</latinform>; Mand. <latinform>zài</latinform>.</par><par><hanform>才</hanform>
+    OC <latinform>*dz’əg</latinform>, GSR #943a-f &apos;talent, ability&apos;; B &amp; S 2011: <latinform>*dzˤə
+    {(Cə.)[dz]ˤə}</latinform>; Mand. <latinform>cái</latinform>.<br /><hanform>材</hanform> OC <latinform>*dz’əg</latinform>,
+    GSR #943g &apos;timber, material&apos;; B &amp; S 2011: <latinform>*Cə.dzˤə {[Cə.dz]ˤə}</latinform>;
+    Mand. <latinform>cái</latinform>.<br /><hanform>財</hanform> OC <latinform>*dz’əg</latinform>, GSR
+    #943h &apos;wealth&apos;; B &amp; S 2011: <latinform>*dzˤə {[dz]ˤə}</latinform>; Mand. <latinform>cái</latinform>.</par>'

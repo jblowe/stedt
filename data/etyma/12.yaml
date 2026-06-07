@@ -1,0 +1,36 @@
+tag: 12
+grpid: 2
+proto_language: PTB
+protoform: rwa(ŋ/k)
+gloss: BODY / CORPSE
+semkey: 1.1.1
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: rwaN
+  initial: rw
+  rhyme: a(ŋ/k)
+  initcover: L
+  rhymecover: NT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ruak ⪤ ruaŋ
+  gloss: CORPSE / DEAD BODY
+- grpid: 5
+  group: 1.1.1
+  form: rom
+  gloss: GHOST (ANCESTRAL)
+notes:
+- type: T
+  text: '<par>A number of languages in Eastern Nepal have developed final labials in this root, also showing
+    alternation between final stop and nasal: <reconstruction>*rwam ⪤ *rwap</reconstruction>. We regard
+    these forms as secondary, due most likely to assimilation of the final to the labial glide.</par><par>It
+    is possible that Karbi <latinform>rèng-</latinform> &apos;die / be dead&apos; and Dumi <latinform>rəŋ</latinform>
+    gəliːm &apos;soul / the disincarnate spirit of a dead person&apos; are also somehow related, perhaps
+    reflecting an allofam like <reconstruction>*ryaŋ</reconstruction>.</par><par>Also to be compared to
+    this root is <xref ref="1801">#1801</xref> with lateral initial.</par>'
+- type: T
+  text: <par>Bodo shows frequent variation between intervocalic <latinform>-d-</latinform> and <latinform>-r-</latinform>,
+    as witness the alternate name Boro for the language.</par>

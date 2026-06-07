@@ -1,0 +1,29 @@
+tag: 276
+grpid: 2
+proto_language: PTB
+protoform: (p/b)i
+gloss: ROUNDED PART / NIPPLE / FOREHEAD / SHOULDER
+semkey: 9.7.1
+sequence: 21.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: pi
+  initial: p
+  rhyme: i⪤bi
+  initcover: P
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root typically occurs as the last syllable in compounds for such bodyparts as CHEST
+    / BREAST, SHOULDER, FIST, FOREHEAD, and BUTTOCK (cf. Lahu <latinform>ni-ma-qa-pɨ</latinform>, <latinform>làʔ-qá-pɨ</latinform>,
+    <latinform>làʔ-chɨ̂ʔ-pɨ</latinform>, <latinform>nā-qā-pɨ</latinform>, and <latinform>qhɛ̂-qhɔ-pɨ</latinform>,
+    respectively).</par>
+- type: T
+  text: <par>Hayu <latinform>phi</latinform> and the Jinuo forms with aspirated initials may descend from
+    a separate root, especially since these morphemes do not occur as the final member in compounds.</par>
+- type: T
+  text: <par>This etymon resembles, but seems distinct from, <xref ref="1275">#1275</xref>, which also
+    refers to a variety of rounded body parts. It is sometimes difficult to distinguish these two roots
+    in Lolo-Burmese, perhaps due to insufficient phonemicization in the sources.</par>

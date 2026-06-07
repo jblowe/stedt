@@ -1,0 +1,23 @@
+tag: 314
+grpid: 2
+proto_language: PTB
+protoform: grwa
+gloss: BIRCH
+semkey: 3.1.1
+sequence: 1178.0
+status: KEEP
+public: true
+references: HPTB p.175
+phonology:
+  initial: grw
+  rhyme: a
+notes:
+- type: T
+  text: '<par>This comparison is from Gong 2001:28, but the OC reconstruction <reconstruction>*gʼwå</reconstruction>
+    is JAM&apos;s guess based upon the other characters in GSR #44; the Chinese character is not in AD
+    #94 and not in GSR #44.</par><par>STC assigns the first syllable of WT <latinform>gro-ga</latinform>
+    rather to <xref ref="585">#585</xref>.</par>'
+- type: F
+  text: '<par><hanform>樺</hanform> OC (<latinform>*gʼwå</latinform>), (not in GSR #44) &apos;birch&apos;;
+    Schuessler 2007:283 <latinform>*(g)wrâh</latinform>; B &amp; S 2011: (<latinform>*qʷʰˁra-s</latinform>);
+    Mand. <latinform>huà</latinform>.</par>'

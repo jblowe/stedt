@@ -1,0 +1,22 @@
+tag: 2331
+grpid: 2
+proto_language: PTB
+protoform: s-kryap
+gloss: BUG / ANT / INSECT (LAC) / COCHINEAL
+semkey: 2.2.6
+sequence: 13.0
+status: KEEP
+public: true
+references: STC#347, HPTB p.376
+phonology:
+  handle: krep
+  prefix: s
+  initial: kr
+  rhyme: ep
+  initcover: K
+  rhymecover: T
+notes:
+- type: F
+  text: '<par><hanform>蠟</hanform> OC (<latinform>*lɑ̂p</latinform>), (not in GSR #637) &apos;wax&apos;;
+    Schuessler 2007:342 <latinform>*rap</latinform>; B &amp; S 2011: <latinform>*k.rˁap</latinform>; Mand.
+    <latinform>là</latinform>.<br />S614 <hanform>汁</hanform></par>'

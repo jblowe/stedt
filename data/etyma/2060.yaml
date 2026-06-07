@@ -1,0 +1,40 @@
+tag: 2060
+grpid: 2
+proto_language: PTB
+protoform: wal
+gloss: ROUND / CIRCULAR
+semkey: 9.7.1
+sequence: 34.0
+status: KEEP
+public: true
+references: cf. STC#091, HPTB pp.404, 406, 424
+phonology:
+  handle: wal
+  initial: w
+  rhyme: al
+  initcover: L
+  rhymecover: L
+mesoroots:
+- grpid: 70
+  group: 1.2.2
+  form: wal
+  gloss: ENCIRCLE
+notes:
+- type: F
+  text: '<par>Additional comparanda:</par><par><hanform>圈</hanform> OC <reconstruction>*gʼi̯wɑn</reconstruction>
+    ~ <reconstruction>*gʼi̯wɑ̆n</reconstruction>, GSR #226k &apos;enclosure for pigs&apos;; Mand. <latinform>juàn</latinform>
+    &apos;pen, corral&apos;,  <latinform>juān</latinform> &apos;shut in, confine to (e.g. a corral, jail)&apos;.</par><par><hanform>圈</hanform>
+    OC <reconstruction>*ki̯wɑ̆n</reconstruction> ~ <reconstruction>*kʼi̯wɑ̆n</reconstruction>, GSR #226k;
+    cf. Mand. <latinform>quān</latinform> &apos;a circle; to draw a circle, delineate&apos;.</par><par><hanform>圈</hanform>
+    GSR #226k includes two separate, yet semantically related etyma, distinguished by the voicing of the
+    initial consonant: 1) &apos;corral/to confine&apos;, and 2) &apos;circle/to draw a circle&apos; (Karlgren
+    glosses 2) as &apos;turn around on foot&apos;; in modern Chinese, however, the predominant sense is
+    &apos;circle&apos;).</par><par>No reconstruction for <hanform>圈</hanform> is offered by B &amp; S
+    2011 or Schuessler 2007. [SPB]</par>'
+- type: T
+  text: <par>This root is well-established in Tibeto-Burman, and underlies a luxuriant Chinese word family
+    with at least a dozen members.</par><par>This root bears a certain resemblance to <xref ref="5138">#5138</xref>,
+    but further research is needed to establish this relationship.</par>
+- type: F
+  text: <par><xref ref="2060">#2060</xref><br /><xref ref="6077">#6077</xref><br /><xref ref="4045">#4045</xref><br
+    /><xref ref="2270">#2270</xref><br /><xref ref="4267">#4267</xref><br /><xref ref="5138">#5138</xref></par>

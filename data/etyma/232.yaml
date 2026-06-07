@@ -1,0 +1,41 @@
+tag: 232
+grpid: 2
+proto_language: PTB
+protoform: s/m/g-rus
+gloss: BONE
+semkey: 1.6.3
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#006, HPTB 44, 48, 102, 387, 435, 437, 442, 465, 477
+phonology:
+  handle: m/g/s-
+  initial: r
+  rhyme: us
+  initcover: L
+  rhymecover: S
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ruʔ
+  gloss: BONE
+- grpid: 66
+  group: 1.3.4
+  form: ru
+  gloss: BONE
+- grpid: 63
+  group: 1.3.1
+  form: a-rut
+  gloss: BONE
+- grpid: 50
+  group: '7'
+  form: khrwitᴰ
+  gloss: BONE
+notes:
+- type: T
+  text: <par>A few languages (Jingpho, Ntenyi, Puiron, Rongmei) have developed a nasal prefix in this
+    root. Many others reflect the <latinform>s-</latinform> prefix, so characteristic of Tibeto-Burman
+    animal and body part names (&lt; PTB <latinform>sya</latinform>).</par>
+- type: F
+  text: <par>Same comparanda as for <xref ref="233">#233</xref>.</par>

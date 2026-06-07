@@ -1,0 +1,27 @@
+tag: 3
+grpid: 2
+proto_language: PTB
+protoform: pum
+gloss: BODY / BELLY
+semkey: 1.1.1
+sequence: 4.0
+status: KEEP
+public: true
+references: WTF, Kiranti
+phonology:
+  handle: pum
+  initial: p
+  rhyme: um
+  initcover: P
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: pum
+  gloss: BODY / STOMACH / BELLY
+notes:
+- type: I
+  text: <par>Check French.</par>
+- type: T
+  text: <par>This root stands in an allofamic relationship to the complex word family reconstructed in
+    <xref ref="163">#163</xref>, <xref ref="674">#674</xref>, and <xref ref="1855">#1855</xref>.</par>

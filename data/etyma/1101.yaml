@@ -1,0 +1,17 @@
+tag: 1101
+grpid: 3
+proto_language: NEIA
+protoform: mur
+gloss: HOLD IN MOUTH / CHEW
+semkey: '6.16'
+sequence: 4.0
+status: DELETE
+public: false
+exemplary: true
+references: Mirish, Tamang
+phonology:
+  handle: mur
+  initial: m
+  rhyme: ur
+  initcover: M
+  rhymecover: L

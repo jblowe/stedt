@@ -1,0 +1,17 @@
+tag: 1260
+grpid: 2
+proto_language: PTB
+protoform: rV
+gloss: LAP / BOSOM
+semkey: 1.4.4.2
+sequence: 2.0
+status: DELETE
+public: false
+possallo: 1217,220
+references: FIX
+phonology:
+  handle: rV
+  initial: r
+  rhyme: V
+  initcover: L
+  rhymecover: V

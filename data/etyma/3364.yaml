@@ -1,0 +1,18 @@
+tag: 3364
+grpid: 29
+proto_language: PKir
+protoform: syur
+gloss: NECK
+semkey: 1.4.2
+sequence: 16.0
+status: KEEP
+public: true
+references: Sunwar, Bahing
+phonology:
+  handle: ś̌ur
+  initial: ś̌
+  rhyme: ur
+  rhymecover: L
+notes:
+- type: T
+  text: <par>This poorly attested root awaits further confirmation.</par>

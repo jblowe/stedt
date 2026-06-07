@@ -1,0 +1,15 @@
+tag: 538
+grpid: 2
+proto_language: PTB
+protoform: tsyu
+gloss: OBSCURE INTERNAL CHANNEL / SINEW / NERVE / MUSCLE
+semkey: '10.0'
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: tšu
+  initial: tš
+  rhyme: u
+  initcover: TS
+  rhymecover: V

@@ -1,0 +1,14 @@
+tag: 2276
+grpid: 2
+proto_language: PTB
+protoform: ip = yip
+gloss: SLEEP; CONCEAL
+semkey: 1.1.4.1
+sequence: 3013.0
+status: delete
+public: false
+xrefs: '127'
+phonology:
+  handle: ip
+  rhyme: ip=yip
+  rhymecover: WT

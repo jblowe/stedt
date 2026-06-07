@@ -1,0 +1,30 @@
+tag: 1229
+grpid: 2
+proto_language: PTB
+protoform: m-kya(ŋ/n)
+gloss: SEE / KNOW
+semkey: 1.2.6.10
+sequence: 2.0
+status: KEEP
+public: true
+references: from STC#223, WSC, HPTB pp.291, 311
+phonology:
+  handle: ken
+  prefix: ken ⪤
+  initial: k
+  rhyme: en ⪤ m-k
+  initcover: K
+  rhymecover: VNT
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: ken
+  gloss: KNOW
+- grpid: 12
+  group: 1.7.2
+  form: C̥-kʰyeŋ
+  gloss: KNOW
+notes:
+- type: F
+  text: '<par><hanform>見</hanform> OC <latinform>*kiɑn</latinform>, GSR #241a-d; Mand. <latinform>jiàn</latinform>.<br
+    /><hanform>現</hanform> OC <latinform>*g’iɑn</latinform>, GSR #241a-d; Mand. <latinform>xiàn</latinform>.</par>'

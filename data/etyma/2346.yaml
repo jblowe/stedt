@@ -1,0 +1,39 @@
+tag: 2346
+grpid: 2
+proto_language: PTB
+protoform: m-k(r)əw
+gloss: DOVE / PIGEON
+semkey: 2.2.4.1
+sequence: 1688.0
+status: KEEP
+public: true
+references: cf. STC#118, STC#495 HPTB pp.125, 134, 199
+phonology:
+  handle: kruw
+  prefix: m
+  initial: k(r)
+  rhyme: əw
+  initcover: K
+  rhymecover: VNLW
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: khruu
+  gloss: DOVE
+- grpid: 5
+  group: 1.1.1
+  form: kɯ
+  gloss: DOVE / PIGEON
+- grpid: 66
+  group: 1.3.4
+  form: ʃu
+  gloss: DOVE
+- grpid: 45
+  group: 6.1.2
+  form: m-krəw²
+  gloss: DOVE
+notes:
+- type: F
+  text: '<par><hanform>鳩</hanform> OC <latinform>*ki̯ôg</latinform>, GSR #992n &apos;pigeon, turtledove&apos;;
+    Coblin 86:118 <latinform>*kjəɣw</latinform>; B &amp; S 2011: <latinform>*ku {[k](r)u}</latinform>;
+    Mand. <latinform>jiū</latinform>.</par>'

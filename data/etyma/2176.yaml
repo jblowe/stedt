@@ -1,0 +1,35 @@
+tag: 2176
+grpid: 2
+proto_language: PTB
+protoform: (b/p)ul
+gloss: ROOT / STUMP / TREE
+semkey: 3.1.2
+sequence: 22.0
+status: KEEP
+public: true
+references: cf. STC p.166, HPTB
+phonology:
+  handle: bul
+  initial: b/p
+  rhyme: ul
+  initcover: P
+  rhymecover: LT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ɓul
+  gloss: STUMP / BASE
+- grpid: 66
+  group: 1.3.4
+  form: pal
+  gloss: TRUNK (OF TREE)
+notes:
+- type: I
+  text: <par>Needs E Tusom supporting forms (waiting on data from DRM).</par>
+- type: T
+  text: <par>It is possible that this root is related to <xref ref="349">#349</xref>, the semantic association
+    residing in the notion of something grounded in the earth.</par>
+- type: F
+  text: '<par><hanform>本</hanform> OC <latinform>*pwən</latinform>, GSR #440a &apos;root; (tree) trunk&apos;;
+    Schuessler 2007:160 <latinform>*pênʔ</latinform>; B &amp; S 2011: <latinform>*C.pˤənʔ {C.pˤə[n]ʔ}</latinform>;
+    Mand. <latinform>běn</latinform>.</par>'

@@ -1,0 +1,30 @@
+tag: 2351
+grpid: 2
+proto_language: PTB
+protoform: ku
+gloss: TAKE UP / LIFT / PROP UP
+semkey: '6.21'
+sequence: 3261.0
+status: KEEP
+public: true
+references: STC p.99
+phonology:
+  handle: ku
+  initial: k
+  rhyme: u
+  initcover: K
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root was first set up in a rather confusing footnote (n.281) in STC:98-99. Contra this
+    note, this etymon is not to be identified with a similar root <xref ref="2365">#2365</xref>, or with
+    a separate WB morpheme <latinform>khû</latinform> &apos;pluck, gather&apos;.</par><par>Certain forms
+    (Magar, Bahing) carry a suffixal morpheme, <latinform>-t</latinform> or <latinform>-s</latinform>,
+    with a causative/applicative meaning.</par>
+- type: F
+  text: '<par><hanform>摳</hanform> OC <latinform>*k’u</latinform>, GSR #122h &apos;pull up (the dress)&apos;;
+    Coblin 86:103 ST <latinform>*khuɣ</latinform> &gt; OC <latinform>*khug</latinform> ~ <latinform>*khjug</latinform>;
+    Schuessler 2007:336 <latinform>*kho</latinform>; B &amp; S 2011: (<latinform>*kʰˁo</latinform>); Mand.
+    <latinform>kōu</latinform>.<br /><hanform>撅</hanform> OC <latinform>*ki̯wɑd</latinform>, GSR #301i
+    &apos;lift (the dress)&apos;; Schuessler 2007:336 <latinform>*kots</latinform>; B &amp; S 2011: (<latinform>*kot-s</latinform>);
+    Mand. <latinform>guì</latinform>.</par>'

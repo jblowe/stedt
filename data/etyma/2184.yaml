@@ -1,0 +1,25 @@
+tag: 2184
+grpid: 2
+proto_language: PTB
+protoform: bwar
+gloss: THROW AWAY / CAST / SOW / TOSS
+semkey: '6.12'
+sequence: 1.1
+status: KEEP
+public: true
+references: STC p.172-3
+phonology:
+  handle: bwar
+  initial: bw ̂
+  rhyme: ar
+  initcover: P
+  rhymecover: L
+notes:
+- type: F
+  text: '<par><hanform>簸</hanform> OC <latinform>*pwɑ̂</latinform>, GSR #25n &apos;winnow (n.)&apos;;
+    Schuessler 2007:171-2 <latinform>*pâiʔ</latinform>; B &amp; S 2011: <latinform>*pˁajʔ </latinform>;
+    Mand. <latinform>bǒ</latinform>.<br /><hanform>簸</hanform> OC <latinform>*pwɑ̂</latinform>, GSR #25n
+    &apos;winnow (v.)&apos;; Schuessler 2007:171-2 <latinform>*pâih</latinform>; B &amp; S 2011: <latinform>*pˁajʔ-s</latinform>;
+    Mand. <latinform>bò</latinform>.<br /><hanform>播</hanform> OC <latinform>*pwɑ̂r</latinform>, GSR #195p
+    &apos;sow, winnow (v.)&apos;; Schuessler 2007:171-2 <latinform>*pâih</latinform>; B &amp; S 2011:
+    <latinform>*pˁarʔ-s</latinform>; Mand. <latinform>bò</latinform>.</par>'

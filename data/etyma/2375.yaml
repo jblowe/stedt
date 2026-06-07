@@ -1,0 +1,20 @@
+tag: 2375
+grpid: 2
+proto_language: PTB
+protoform: r-kyaŋ
+gloss: SINGLE
+semkey: '9.9'
+sequence: 43.0
+status: KEEP
+public: true
+references: STC#034
+phonology:
+  handle: kyaŋ
+  prefix: r
+  initial: ky
+  rhyme: aŋ
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>This root, although apparently valid, is still no better attested than it was in STC #34.</par>'

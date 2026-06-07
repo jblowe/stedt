@@ -1,0 +1,43 @@
+tag: 2018
+grpid: 2
+proto_language: PTB
+protoform: (p/b)(r)a(n/t)
+gloss: BRAID / PLAIT / INTERWEAVE
+semkey: 1.2.3.2
+sequence: 1.0
+status: KEEP
+public: false
+references: ' (cf 2188) cf. HPTB pp. 260, 518'
+phonology:
+  handle: p/br
+  initial: p/b(r)
+  rhyme: an/t
+  initcover: P
+  rhymecover: NLT
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: prat²
+  gloss: PLAIT
+- grpid: 42
+  group: '6.1'
+  form: pan¹/² ⪤ Ȼ-pat
+  gloss: BRAID / PLAIT / INTERWEAVE
+- grpid: 8
+  group: '1.2'
+  form: phan
+  gloss: WEAVE / CREATE / KNIT
+notes:
+- type: F
+  text: '<par><hanform>編</hanform> OC <latinform>*b’i̯ɑn</latinform>, GSR #246e &apos;braid, plait&apos;;
+    B &amp; S 2011: <latinform>*pˁen {pˁe[n]}</latinform>; Mand. <latinform>biān</latinform>.<br /><hanform>辮</hanform>
+    OC (not in GSR #219, prob. <latinform>*b’i̯ɑn</latinform>) &apos;braid, plait&apos;; B &amp; S 2011:
+    (<latinform>*brenʔ</latinform>); Mand. <latinform>biàn</latinform>. </par>'
+- type: T
+  text: '<par>VanBik #366 (p. 126) suggests a connection between the Kuki-Chin root and Written Burmese
+    <latinform>phan</latinform> &apos;make, create&apos;, although the comparison with the present root
+    seems preferable.</par>'
+- type: T
+  text: '<par>VanBik #366 (p. 126) suggests a connection between the Kuki-Chin root and Written Burmese
+    <latinform>phan</latinform> &apos;make, create&apos;, although the comparison with the present root
+    seems preferable.</par>'

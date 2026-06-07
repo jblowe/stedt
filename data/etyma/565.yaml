@@ -1,0 +1,29 @@
+tag: 565
+grpid: 2
+proto_language: PTB
+protoform: d(y/w)ar
+gloss: SHOULDER
+semkey: 1.4.3
+sequence: 7.0
+status: KEEP
+public: true
+exemplary: true
+references: ("KMR") KEEP 6/2012
+phonology:
+  handle: dar
+  initial: d
+  rhyme: ar
+  initcover: T
+  rhymecover: L
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ta
+  gloss: SHOULDER
+notes:
+- type: T
+  text: <par>Perhaps also the second syllables of the Manang forms <latinform>ban³ da?¹</latinform> and
+    <latinform>²pən taː</latinform>. So far this root has been attested in the NE Indian Areal group,
+    Qiangic, and probably Lolo-Burmese.</par><par> is only attested in the NE Indian Areal Group and Qiangic.</par>
+- type: T
+  text: <par>This etymon has so far only been found as a second syllable of Loloish forms. </par>

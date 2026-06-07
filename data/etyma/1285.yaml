@@ -1,0 +1,46 @@
+tag: 1285
+grpid: 2
+proto_language: PTB
+protoform: m-(l/n)ey ⪤ m-li
+gloss: PENIS
+sequence: 114.0
+status: KEEP
+public: true
+references: PAF
+phonology:
+  prefix: m
+  initial: l
+  rhyme: i
+  initcover: L
+  rhymecover: W
+notes:
+- type: T
+  text: '<par>This is by far the most widely attested etymon for PENIS in TB, occurring in the NE Indian
+    Areal Group, Himalayish, Lolo-Burmese (including Jinuo), and Qiangic. (See STC #262, which cites reflexes
+    from the first three of these groups.) The nasal prefix is well-established, appearing e.g. in WT
+    and other Himalayish languages. This prefix has caused nasalization of the root-initial lateral in
+    several languages (e.g. Meithei and Jingpho), or even driven out or &quot;preempted&quot; the root-initial
+    entirely (as in Chang Naga or Lahu). Those forms which have developed a secondary nasal root-initial
+    are presented separately below as set <xref ref="545">#545</xref>. A couple of Loloish languages (Lalo,
+    Lisu) have reflexes in <latinform>h-</latinform>. It is possible that these point to an alternant
+    with sibilant prefix, <reconstruction>*s-ley</reconstruction> (as is reflected more directly in Phunoi
+    <latinform>hle¹¹</latinform> and Lepcha <latinform>săli</latinform>). Several Loloish languages (Lalo,
+    Lipho, Lolopho, Nesu, Sani/Nyi) have words for PENIS and TESTICLE with initial <latinform>d-</latinform>.
+    Since it is true that there is much interplay between <latinform>l-</latinform> and <latinform>d-</latinform>
+    in ST,<footnote>See the note under <xref ref="518">#518</xref>, above.</footnote> and it is also the
+    case that palatalized labial initials are sometimes dentalized in Loloish languages like Sani,<footnote>E.g.
+    PTB/PLB <reconstruction>*my-</reconstruction> &gt; Sani <latinform>n-</latinform> (e.g. <xref ref="33">#33</xref>
+    &gt; Sa. <latinform>ne⁴⁴</latinform>); <reconstruction>*by-</reconstruction> &gt; Sani <latinform>dl-</latinform>
+    (e.g. <xref ref="2187">#2187 </xref> <reconstruction>*bya</reconstruction> BEE &gt; Sa. <latinform>dla-ma</latinform>);
+    <reconstruction>*py-</reconstruction> &gt; Sa. <latinform>tl-</latinform> (e.g. <xref ref="2588">#2588</xref>
+    &gt; Sa. <latinform>tlö</latinform>); see STC, n. 93, p. 29.</footnote> it might seem reasonable to
+    assign these reflexes in <latinform>d-</latinform> to <reconstruction>*m-ley</reconstruction> if we
+    posit an intermediate palatalized prototype like <reconstruction>*myey</reconstruction>. However,
+    Lalo has forms with both <latinform>d-</latinform> and <latinform>h-</latinform> (<latinform>de³³se²¹</latinform>
+    &apos;testicle&apos;, <latinform>he²¹</latinform> &apos;penis&apos;), which suggests that two separate
+    etyma are involved. I am therefore assigning the reflexes in <latinform>d-</latinform> to <xref ref="641">#641</xref>,
+    below.</par>'
+- type: T
+  text: '<par>Several languages have forms that resemble reflexes of this etymon, but which are really
+    loans from Indo-Aryan (cf. Skt. <emph>lingam</emph>): WB <latinform><emph>lin</emph>-khu’</latinform>
+    &apos;scrotum&apos;, Kanauri <latinform>liṅ</latinform> &apos;penis (polite)&apos;.</par>'

@@ -1,0 +1,16 @@
+tag: 2056
+grpid: 5
+proto_language: PTani
+protoform: čok
+gloss: CHIN
+semkey: 1.2.5.3
+sequence: 8.0
+status: KEEP
+public: true
+references: cf. JS-HCST: 123
+phonology:
+  handle: tšok
+  initial: tš
+  rhyme: ok
+  initcover: TS
+  rhymecover: T

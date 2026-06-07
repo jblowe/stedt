@@ -1,0 +1,23 @@
+tag: 1352
+grpid: 2
+proto_language: PTB
+protoform: s/m-ti
+gloss: CLITORIS / VAGINA
+sequence: 91.0
+status: KEEP
+public: true
+references: 667?
+phonology:
+  handle: ti
+  initial: t
+  rhyme: i
+  initcover: T
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root is quite well attested, appearing in the NE Indian Areal Group, Himalayish, Jingpho,
+    Qiangic, Bai, and Tujia, mostly with the meaning CLITORIS, sometimes VAGINA.</par>
+- type: T
+  text: <par>The Qiangic and rGyalrongic forms point to <reconstruction>*s/m-dzi-s/k</reconstruction>,
+    i.e. a prototype with affricated root-initial, either a sibilant or nasal prefix, and either a sibilant
+    or velar suffix.</par>

@@ -1,0 +1,63 @@
+tag: 2658
+grpid: 2
+proto_language: PTB
+protoform: si(ŋ/k)
+gloss: TREE / WOOD / FIREWOOD
+semkey: 3.1.2
+sequence: 3375.0
+status: KEEP
+public: true
+references: STC#233
+phonology:
+  handle: siŋ
+  initial: s
+  rhyme: iŋ
+  initcover: S
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: thiŋ
+  gloss: TREE / WOOD
+- grpid: 5
+  group: 1.1.1
+  form: sɯŋ
+  gloss: WOOD / TREE
+- grpid: 66
+  group: 1.3.4
+  form: tʰiŋ
+  gloss: WOOD
+- grpid: 63
+  group: 1.3.1
+  form: siŋ
+  gloss: WOOD
+- grpid: 23
+  group: 2.1.4
+  form: ᴮsiŋ
+  gloss: TREE
+- grpid: 29
+  group: '2.3'
+  form: siŋ
+  gloss: TREE
+- grpid: 42
+  group: '6.1'
+  form: sikᴴ ⪤ siŋ
+  gloss: TREE
+notes:
+- type: T
+  text: <par>This etymon is a prime example of the alternation between homorganic stop and nasal. Most
+    subgroups reflect the *nasal, while Lolo-Burmese attests to the *stop.</par><par>Galo seems to have
+    an interesting doublet <latinform>sɯ</latinform> ⪤ <latinform>`hɨɨ</latinform>. Note also the Trung
+    [Dulong] doublet <latinform>śiŋ</latinform> ⪤ <latinform>śik</latinform>.</par><par><plainlatinform>LTSR
+    118(a-b)</plainlatinform> also reconstructs two allofams, with the nasal-final variant attested in
+    Bisu <latinform>tsɯ̀ŋ</latinform>.</par><par>As suggested in <plainlatinform>DL p. 1221</plainlatinform>,
+    the poetic Lahu form <latinform>šɔ̂</latinform> might be from the nasal-final variant, although it
+    is tonally aberrant.</par><par>The Chepang forms with final <latinform>-ŋʔ</latinform> suggest a stage
+    intermediate between a final nasal and a final stop.</par>
+- type: F
+  text: '<par><hanform>新</hanform> OC <latinform>*si̯ĕn</latinform>, GSR #382k-m &apos;new&apos;; Schuessler
+    2007:538 <latinform>*sin</latinform>; B &amp; S 2011: <latinform>*C.sin {C.si[n]}</latinform>; Mand.
+    <latinform>xīn</latinform>.<br /><hanform>薪</hanform> OC <latinform>*si̯ĕn</latinform>, GSR #382n
+    &apos;firewood&apos;; Coblin 86:161 ST <reconstruction>*sying</reconstruction> &gt; PC <latinform>*sjing</latinform>
+    &gt; OC <latinform>*sjin</latinform>; Schuessler 2007:538-9 <latinform>*sin</latinform>; B &amp; S
+    2011: <latinform>*sin {si[n]}</latinform>; Mand. <latinform>xīn</latinform>.</par>'

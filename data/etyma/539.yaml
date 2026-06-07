@@ -1,0 +1,19 @@
+tag: 539
+grpid: 2
+proto_language: PTB
+protoform: kan
+gloss: PHLEGM / SALIVA
+semkey: 1.8.3
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: kan
+  initial: k
+  rhyme: an
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root is much less widespread than the resemblant <xref ref="540">#540</xref> and seems
+    distinct from it.</par>

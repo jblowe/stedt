@@ -1,0 +1,17 @@
+tag: 1807
+grpid: 2
+proto_language: PTB
+protoform: m-dzyaŋ
+gloss: LEAN
+semkey: 1.1.1
+sequence: 5.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: džaŋ
+  prefix: n
+  initial: dž
+  rhyme: aŋ
+  initcover: TS
+  rhymecover: N

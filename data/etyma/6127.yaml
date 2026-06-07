@@ -1,0 +1,14 @@
+tag: 6127
+grpid: 3
+proto_language: NEIA
+protoform: m/s-nu
+gloss: LATE
+semkey: 9.1.1
+sequence: 2260.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: hnuu
+  gloss: LATE / BEHIND

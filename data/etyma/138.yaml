@@ -1,0 +1,28 @@
+tag: 138
+grpid: 2
+proto_language: PTB
+protoform: luk
+gloss: ENOUGH / SATIATED
+semkey: 1.1.3.2
+sequence: 14.0
+status: KEEP
+public: true
+references: 'STC p.88, TSR #164, HPTB p.357; PLB *lok'
+phonology:
+  handle: lok
+  initial: l
+  rhyme: ok⪤luk
+  initcover: L
+  rhymecover: LT
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: lok
+  gloss: ENOUGH
+notes:
+- type: T
+  text: <par>This root is best attested in Lolo-Burmese, but (contra STC pp. 203, 213) it is also to be
+    found elsewhere, e.g. Shixing / Xumi, Baic, and Karenic.</par>
+- type: F
+  text: '<par><hanform>裕</hanform> OC <latinform>*gi̯ug</latinform>, GSR #1202h &apos;indulgent, abundant,
+    opulent&apos;; Schuessler 2007:589 <latinform>*lokh</latinform>; Mand. <latinform>yù</latinform>.</par>'

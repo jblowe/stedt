@@ -1,0 +1,22 @@
+tag: 580
+grpid: 2
+proto_language: PTB
+protoform: ŋal
+gloss: SHIN
+semkey: 1.5.7.2
+sequence: 1.0
+status: KEEP
+public: false
+exemplary: true
+references: < ŋal
+phonology:
+  handle: nyal
+  initial: ny
+  rhyme: al
+  initcover: M
+  rhymecover: L
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ŋal
+  gloss: SHIN / SHANK

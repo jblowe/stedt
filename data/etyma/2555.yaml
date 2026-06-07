@@ -1,0 +1,43 @@
+tag: 2555
+grpid: 2
+proto_language: PTB
+protoform: k-r-pʷat
+gloss: LEECH
+semkey: 2.2.6
+sequence: 39.0
+status: KEEP
+public: true
+references: cf. STC#045, HPTB
+phonology:
+  handle: pat
+  prefix: r
+  initial: p
+  rhyme: at
+  initcover: P
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: wat ⪤ wot ⪤ wut
+  gloss: LEECH (land)
+- grpid: 5
+  group: 1.1.1
+  form: pat¹
+  gloss: LEECH (land)
+- grpid: 66
+  group: 1.3.4
+  form: hwut
+  gloss: LEECH
+- grpid: 42
+  group: '6.1'
+  form: k-r-watᴸ
+  gloss: LEECH
+- grpid: 50
+  group: '7'
+  form: s-waɁᴰ
+  gloss: LEECH (land)
+notes:
+- type: T
+  text: '<par>Lepcha has an interesting doublet: <latinform>fot</latinform> &lt; <latinform>*wat</latinform>
+    ⪤ <latinform>rot</latinform> &lt; <latinform>*r-wat</latinform>.</par><par>The WB form contains the
+    &quot;Lolo-Burmese velar animal prefix&quot; (see <plainlatinform>HPTB §4.4.4(3)</plainlatinform>).</par>'

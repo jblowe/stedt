@@ -1,0 +1,18 @@
+tag: 3358
+grpid: 2
+proto_language: PTB
+protoform: saŋ
+gloss: BUTTOCK
+semkey: 1.4.9.2
+sequence: 8.0
+status: KEEP
+public: true
+phonology:
+  handle: saŋ
+  initial: s
+  rhyme: aŋ
+  initcover: S
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This promising root has so far been uncovered in only two languages.</par>

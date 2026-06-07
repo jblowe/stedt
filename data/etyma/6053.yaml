@@ -1,0 +1,25 @@
+tag: 6053
+grpid: 2
+proto_language: PTB
+protoform: s-k-ywal
+gloss: WILD DOG / JACKAL / DHOLE / WOLF
+semkey: 2.1.11
+sequence: 3.0
+status: KEEP
+public: true
+references: cf. JAM Bestiary paper (p.584), HPTB pp.261, 407, 423, 449
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: wan¹
+  gloss: JACKAL / WOLF / DHOLE / WILD DOG
+- grpid: 12
+  group: 1.7.2
+  form: C-khyual
+  gloss: WOLF
+notes:
+- type: T
+  text: '<par>This PTB root was borrowed into Indo-Aryan at an early date; cf. Sanskrit <latinform>śr̥gāla-</latinform>.
+    Later on, such an Indic form was borrowed into many TB languages, especially in Nepal. This is an
+    excellent example of a &quot;backloan&quot;: TB &gt; IA &gt; TB. See &quot;Toward a Eurasian Bestiary&quot;,
+    part II: JACKAL in Sino-Tibetan and Indo-European (Matisoff 2010).</par>'

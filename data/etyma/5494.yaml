@@ -1,0 +1,22 @@
+tag: 5494
+grpid: 2
+proto_language: PTB
+protoform: swa-n
+gloss: ONION / GARLIC
+semkey: 3.1.5
+sequence: 2.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 177, 301, 446, 448
+notes:
+- type: T
+  text: <par>This root is well-attested in Tibeto-Burman and Chinese, but has a fortuitous resemblance
+    to an Indo-Aryan root (Skt. <emph>laśuna-</emph>, Hindi <emph>lahsun</emph>, Nepali <emph>lasun</emph>).
+    In fact, many Tibeto-Burman languages (e.g. Maru <latinform>la³¹sɔn³⁵</latinform>, Chang <latinform>lasung</latinform>,
+    Lotha <latinform>lasen</latinform>, Bantawa <latinform>losuna</latinform>, and Jingpho <latinform>la³¹son³³</latinform>)
+    have borrowed the Indic root. In a couple of cases, a compound seems to be an Indic-TB hybrid, e.g.
+    Achang <latinform>lɑ³¹suɑn⁵⁵</latinform>.</par><par>Compound formations with this etymon show an interesting
+    range of semantic associations, including BITTER (e.g. Lisu), CHICKEN (e.g. Burmese), WHITE (e.g.
+    Burmese), and SMELLY (e.g. Lahu).</par>
+- type: F
+  text: '<par><hanform>蒜</hanform> OC <latinform>*swɑ̂n</latinform>, GSR #175b; Mand. <latinform>suàn</latinform>.</par>'

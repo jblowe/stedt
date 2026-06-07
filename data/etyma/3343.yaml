@@ -1,0 +1,18 @@
+tag: 3343
+grpid: 2
+proto_language: PTB
+protoform: t(w)a(ŋ/k)
+gloss: SHOULDER
+semkey: 1.4.3
+sequence: 2.0
+status: KEEP
+public: false
+exemplary: true
+xrefs: '3349'
+references: KEEP 6/2012
+phonology:
+  handle: taŋ
+  initial: t
+  rhyme: aŋ ⪤ tuŋ
+  initcover: T
+  rhymecover: NT

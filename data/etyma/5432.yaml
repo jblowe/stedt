@@ -1,0 +1,33 @@
+tag: 5432
+grpid: 2
+proto_language: PTB
+protoform: s-lu(k/ŋ)
+gloss: MAGGOT / BUTTERFLY
+semkey: 2.2.6
+sequence: 46.0
+status: KEEP
+public: false
+references: cf. HPTB p. 522
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: hloŋᴮ
+  gloss: MAGGOT
+- grpid: 12
+  group: 1.7.2
+  form: gluŋ
+  gloss: INSECT / WORM
+- grpid: 42
+  group: '6.1'
+  form: k-luk ⪤ k-luŋ
+  gloss: MAGGOT
+- grpid: 8
+  group: '1.2'
+  form: luŋ
+  gloss: MAGGOT / WORM
+notes:
+- type: F
+  text: '<par><hanform>蟲</hanform>/<hanform>虫</hanform> OC <latinform>*dʼi̯ông</latinform>, GSR #1009c
+    &apos;insect, reptile&apos;; Coblin 86: ST <latinform>*dr̵yəngw</latinform> &gt; OC <latinform>*drjəngw</latinform>;
+    Schuessler 2007:189 <latinform>*druŋ</latinform>; B &amp; S 2011: <latinform>*C.lruŋ</latinform>;
+    Mand. <latinform>chóng</latinform>.</par>'

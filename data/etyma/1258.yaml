@@ -1,0 +1,15 @@
+tag: 1258
+grpid: 2
+proto_language: PTB
+protoform: pi/en
+gloss: LAP / BOSOM
+semkey: 1.4.4.2
+sequence: 4.0
+status: DELETE
+public: false
+phonology:
+  handle: pi/en
+  initial: p
+  rhyme: i/en
+  initcover: P
+  rhymecover: N

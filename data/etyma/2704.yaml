@@ -1,0 +1,17 @@
+tag: 2704
+grpid: 3
+proto_language: NEIA
+protoform: (t/d)ow
+gloss: HAMMER
+semkey: 5.11.5.4
+sequence: 2088.0
+status: DELETE
+public: true
+xrefs: '676'
+references: cf. STC#317, HPTB pp.224, 227, 515
+phonology:
+  handle: tow
+  initial: t
+  rhyme: ow=tow~d
+  initcover: T
+  rhymecover: WT

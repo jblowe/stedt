@@ -1,0 +1,19 @@
+tag: 49
+grpid: 2
+proto_language: PTB
+protoform: gray
+gloss: LEAN / THIN
+semkey: 1.1.1
+sequence: 1.0
+status: KEEP
+public: true
+phonology:
+  handle: gyi
+  initial: gy
+  rhyme: i
+  initcover: K
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root bears a certain resemblance to <xref ref="1130">#1130</xref>, but the different
+    semantics leads us to set it up as a separate etymon.</par>

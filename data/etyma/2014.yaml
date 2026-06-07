@@ -1,0 +1,26 @@
+tag: 2014
+grpid: 2
+proto_language: PTB
+protoform: r-tsey
+gloss: SUMMIT / CREST / COCKSCOMB
+semkey: 1.2.2.1
+sequence: 6.0
+status: KEEP
+public: true
+xrefs: PLB *N-tsey³ /ʔN-  tsey¹
+phonology:
+  handle: tsey
+  prefix: r
+  initial: ts
+  rhyme: ey
+  initcover: TS
+  rhymecover: W
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: N-tsey³
+  gloss: SUMMIT / CREST / COCK'S COMB
+- grpid: 42
+  group: '6.1'
+  form: ʔN-tsey¹
+  gloss: SUMMIT / CREST / COCK'S COMB

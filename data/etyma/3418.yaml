@@ -1,0 +1,27 @@
+tag: 3418
+grpid: 2
+proto_language: PTB
+protoform: s-yu(s/y)
+gloss: WHISTLE
+semkey: 8.5.5
+sequence: 1.0
+status: KEEP
+public: false
+references: JAM-LITB 6.4
+phonology:
+  handle: hyu
+  initial: hy
+  rhyme: u ⪤ huy
+  initcover: H
+  rhymecover: W
+notes:
+- type: T
+  text: <par>This etymon evidently has an onomatopoetic component.</par><par>Chepang has developed a velar
+    suffix in some forms.</par>
+- type: F
+  text: '<par><hanform>嘯</hanform> OC <latinform>*siôg</latinform>, GSR #1028f-g &apos;croon, whistle,
+    wail&apos;; Schuessler 2007:536 <latinform>*siûh</latinform>; B &amp; S 2011: <latinform>*sˁiw-s {sˁiw(k)-s}</latinform>;
+    Mand. <latinform>xiào</latinform>.<br /><hanform>簫</hanform> OC <latinform>*siôg</latinform>, GSR
+    #1028h &apos;flute&apos;; Schuessler 2007:536 <latinform>*siâu</latinform>; B &amp; S 2011: <latinform>*sˁiw</latinform>;
+    Mand. <latinform>xiāo</latinform>.<br /><hanform>蕭</hanform> OC <latinform>*siôg</latinform>, GSR
+    #1028i &apos;neigh&apos;; B &amp; S 2011: <latinform>*sˁiw</latinform>; Mand. <latinform>xiāo</latinform>.</par>'

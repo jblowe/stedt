@@ -1,0 +1,16 @@
+tag: 2046
+grpid: 2
+proto_language: PTB
+protoform: wam
+gloss: CHEEK / FACE
+semkey: 1.2.5.2
+sequence: 9.0
+status: KEEP
+public: true
+xrefs: '*s-bwam SWOLLEN'
+phonology:
+  handle: wam
+  initial: w
+  rhyme: am
+  initcover: L
+  rhymecover: N

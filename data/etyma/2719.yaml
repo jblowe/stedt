@@ -1,0 +1,19 @@
+tag: 2719
+grpid: 2
+proto_language: PTB
+protoform: twəy
+gloss: FLOW / SUPPURATE
+semkey: 6.6.1
+sequence: 1936.0
+status: KEEP
+public: true
+references: STC#167
+phonology:
+  handle: twiy
+  initial: tw
+  rhyme: iy=twəy
+  initcover: T
+  rhymecover: WT
+notes:
+- type: T
+  text: <par>This etymon certainly looks like it belongs with <xref ref="298">#298</xref>.</par>

@@ -1,0 +1,17 @@
+tag: 5516
+grpid: 2
+proto_language: PTB
+protoform: krap
+gloss: SHELL / SHIELD
+semkey: 2.2.5
+sequence: 7.2
+status: KEEP
+public: true
+references: cf. HPTB p. 342
+notes:
+- type: F
+  text: '<par><hanform>甲</hanform> OC <latinform>*kɑp</latinform> &apos;shell&apos;, GSR #629a; B &amp;
+    S 2011: <latinform>*kˁrap {[k]ˁr[a]p}</latinform>; Mand. <latinform>jiǎ</latinform>.</par>'
+- type: T
+  text: <par>See also <xref ref="783">#783</xref> for a phono-semantically similar but probably distinct
+    root.</par>

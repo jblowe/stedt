@@ -1,0 +1,19 @@
+tag: 659
+grpid: 2
+proto_language: PTB
+protoform: zu
+gloss: CORD / UMBILICAL CORD / NAVEL
+semkey: 1.9.4
+sequence: 49.0
+status: KEEP
+public: true
+phonology:
+  handle: zo
+  initial: z
+  rhyme: o
+  initcover: S
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root is of restricted distribution, but the Lepcha form certainly looks related to the
+    Meluri and Tangkhul ones, which might be enough to set it up for PTB.</par>

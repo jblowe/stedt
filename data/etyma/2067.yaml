@@ -1,0 +1,31 @@
+tag: 2067
+grpid: 2
+proto_language: PTB
+protoform: s-nuk
+gloss: BEAN / EYE
+semkey: 3.1.4
+sequence: 13.0
+status: KEEP
+public: false
+exemplary: true
+references: 'cf. TSR #140 *s-nok, HPTB p.356; 2nd elem. in cpds for EYE'
+phonology:
+  handle: nok
+  prefix: s
+  initial: n
+  rhyme: uk
+  initcover: M
+  rhymecover: T
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: s-nukᴴ
+  gloss: BEAN
+notes:
+- type: F
+  text: '<par><hanform>尗</hanform> OC <latinform>*si̯ôk</latinform>, GSR #1031a,g &apos;pulse, bean&apos;;
+    Coblin 86:39 <reconstruction>*snjəkw</reconstruction>; B &amp; S 2011: <latinform>*s.tuk</latinform>;
+    Schuessler 2007:469 <latinform>*nhiuk</latinform>; Mand. <latinform>shū</latinform>.</par>'
+- type: T
+  text: <par>Like <xref ref="1019">#1019</xref> and <xref ref="3559">#3559</xref>, this etymon often occurs
+    as second element in compounds for EYE.</par>

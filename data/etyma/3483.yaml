@@ -1,0 +1,20 @@
+tag: 3483
+grpid: 62
+proto_language: IA
+protoform: yaN
+gloss: GIVE BIRTH
+semkey: 1.1.2
+sequence: 36.0
+status: KEEP
+public: true
+references: Tamang, Chantyal
+phonology:
+  handle: yaN
+  initial: y
+  rhyme: aN
+  initcover: L
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This is an Indo-Aryan root, borrowed into several TB languages of Nepal. Cf. Nepali <latinform>jan-ma</latinform>
+    &apos;birth&apos;, <latinform>jan-manu</latinform> &apos;be born&apos;.</par>

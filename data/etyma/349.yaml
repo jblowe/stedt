@@ -1,0 +1,20 @@
+tag: 349
+grpid: 2
+proto_language: PTB
+protoform: bwal
+gloss: LEG / FOOT / HOOF
+semkey: 1.5.7
+sequence: 4.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: bol
+  initial: b
+  rhyme: ol
+  initcover: P
+  rhymecover: L
+notes:
+- type: T
+  text: <par>It is possible that this root is related to <xref ref="2176">#2176</xref>, the semantic association
+    residing in the notion of something grounded in the earth.</par>

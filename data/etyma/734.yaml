@@ -1,0 +1,16 @@
+tag: 734
+grpid: 2
+proto_language: PTB
+protoform: g/m-(t)s(y/l)a
+gloss: WING / HAND / ARM
+semkey: 1.5.1.3
+sequence: 20.0
+status: DELETE
+public: false
+phonology:
+  handle: tsl
+  prefix: m
+  initial: (t)s(l
+  rhyme: a
+  initcover: TS
+  rhymecover: V

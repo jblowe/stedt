@@ -1,0 +1,14 @@
+tag: 6080
+grpid: 2
+proto_language: PTB
+protoform: səw
+gloss: SHEEP
+semkey: 2.1.8
+sequence: 19.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: soᴬ
+  gloss: SHEEP

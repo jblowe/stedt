@@ -1,0 +1,28 @@
+tag: 1168
+grpid: 2
+proto_language: PTB
+protoform: pʷu
+gloss: EGG / BIRD / ROUND OBJECT
+sequence: 1.0
+status: KEEP
+public: true
+phonology:
+  handle: wu
+  initial: w
+  rhyme: u
+  initcover: L
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This is one of over 30 TB etyma showing interchange between <reconstruction>*p-</reconstruction>
+    and <reconstruction>*w-</reconstruction>, including such important roots as AXE, BAMBOO, BELLY, MAN/HUSBAND,
+    PIG, etc. In this volume, see also <xref ref="674">#674</xref>. These are reconstructed with <reconstruction>*pw-</reconstruction>
+    clusters in the revised version of STC (e.g. <reconstruction>*pak = *pwak</reconstruction>; see n.
+    78, pp. 23-4). I originally preferred to treat the stop component as prefixal (e.g. <reconstruction>*p-wak</reconstruction>),
+    but later abandoned this approach in favor of an “extrusional” interpretation, where the [-w-] is
+    considered to be a mere phonetic perseveration of the preceding stop, e.g. <reconstruction>*pʷak</reconstruction>
+    (see Matisoff 2000a). This extrusion is especially common before the vowel [-a-], but also, as in
+    EGG, occasionally occurs before [-u-]. See also HPTB:61-62.</par><par>In the following sections, the
+    reflexes of this etymon are presented separately, according to whether they derive from the variant
+    with semivowel (<reconstruction>*wu</reconstruction>) or stop (<reconstruction>*pu</reconstruction>)
+    initial.</par>

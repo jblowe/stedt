@@ -1,0 +1,59 @@
+tag: 2158
+grpid: 2
+proto_language: PTB
+protoform: s-bəy-n/k
+gloss: GIVE
+semkey: '6.23'
+sequence: 2016.0
+status: KEEP
+public: true
+references: cf. STC#427, HPTB
+phonology:
+  handle: biy
+  prefix: s
+  initial: b
+  rhyme: əy-n/k
+  initcover: P
+  rhymecover: W
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: bi
+  gloss: GIVE
+- grpid: 42
+  group: '6.1'
+  form: bəy²
+  gloss: GIVE
+- grpid: 8
+  group: '1.2'
+  form: pia-I, piak-II
+  gloss: GIVE / OFFER / ASSIGN / PRESENT
+- grpid: 70
+  group: 1.2.2
+  form: pee-I, peek-II
+  gloss: GIVE / OFFER / ASSIGN / PRESENT
+notes:
+- type: T
+  text: '<par>As J. Sun (1993a: 93) remarks, Proto-Tani <latinform>*b</latinform> became <latinform>ǰ</latinform>
+    in Western Tani before <latinform>*i</latinform>.</par>'
+- type: T
+  text: '<par>Two sorts of alternations are to be found with this etymon: between open and nasal final
+    syllables, and between open and velar final syllables. Several languages have doublets reflecting
+    two variants, e.g. Lepcha <latinform>bi~bín</latinform>, Hpun <latinform>pè</latinform> and <latinform>pèŋ</latinform>,
+    Lahu (Black) <latinform>pèʔ</latinform> and <latinform>pî</latinform>, and Dulong <latinform>biŋ</latinform>
+    and <latinform>bi⁵⁵</latinform>. The Chin languages have a thorough-going morphological alternation
+    between open syllables in Form I and velar final syllables in Form II.</par>'
+- type: F
+  text: '<par><hanform>畀</hanform> OC <latinform>*pi̯əd</latinform>, GSR #521a-b &apos;give&apos;; Schuessler
+    2007:163 <latinform>*pis</latinform>; B &amp; S 2011: <latinform>*pik-s {pi[k]-s}</latinform>; Mand.
+    <latinform>bì</latinform>.<br /><hanform>賔賓</hanform> OC <latinform>*pi̯ĕn</latinform>, GSR #389a-f
+    &apos;gift, present; present a gift; guest; ancestral spirits (as guests)&apos;; Schuessler 2007:167
+    <latinform>*pin</latinform>; B &amp; S 2011: <latinform>*pin {pi[n]}</latinform>; Mand. <latinform>bīn</latinform>.<br
+    /><hanform>賔賓</hanform> OC <latinform>*pi̯ĕn</latinform>, GSR #389a-f &apos;receive/treat as a guest&apos;;
+    Schuessler 2007:167 <latinform>*pins</latinform>; B &amp; S 2011: (<latinform>*pin-s</latinform>);
+    Mand. <latinform>bìn</latinform>.<br /><unicode>23A75</unicode><hanform>殯</hanform> OC <latinform>*pi̯ĕn</latinform>,
+    GSR #389i &apos;coffin; place/convey body in coffin&apos;; Schuessler 2007:167 <latinform>*pins</latinform>;
+    B &amp; S 2011: (<latinform>*pin-s</latinform>); Mand. <latinform>bìn</latinform>.<br /><unicode>218D5</unicode><hanform>嬪</hanform>
+    OC <latinform>*b’i̯ĕn</latinform>, GSR #389m-n &apos;female attendant, courtesan; marry (become a
+    bride)&apos;; Schuessler 2007:167 <latinform>*bin</latinform>; B &amp; S 2011: (<latinform>*bin</latinform>);
+    Mand. <latinform>pín</latinform>.</par>'

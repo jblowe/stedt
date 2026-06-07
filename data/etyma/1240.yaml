@@ -1,0 +1,15 @@
+tag: 1240
+grpid: 2
+proto_language: PTB
+protoform: wey
+gloss: BLIND
+semkey: 1.2.6.14.2
+sequence: 2.0
+status: DELETE
+public: false
+phonology:
+  handle: wey
+  initial: w
+  rhyme: ey
+  initcover: L
+  rhymecover: W

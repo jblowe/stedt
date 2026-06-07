@@ -1,0 +1,24 @@
+tag: 5359
+grpid: 2
+proto_language: PTB
+protoform: sa-y
+gloss: INCHOATIVE PARTICLE
+semkey: '10.0'
+sequence: 2208.0
+status: KEEP
+public: true
+references: 'cf. HPTB p.488, GSTC #154'
+notes:
+- type: T
+  text: <par>The comparison with Chinese <hanform>且</hanform> is due to Coblin (1986:36).</par>
+- type: F
+  text: '<par><hanform>且</hanform> OC <latinform>*ts’i̯ɑ</latinform>, GSR #46a-f &apos;about to; moreover&apos;;
+    Coblin 86:36 ST <latinform>*tshyɨaɣ</latinform> &gt; OC <latinform>*tshjiagx</latinform>; Schuessler
+    2007:306 <latinform>*tshaʔ</latinform>; B &amp; S 2011: <latinform>*tsʰaʔ {[tsʰ]Aʔ}</latinform>; Mand.
+    <latinform>qiě</latinform>.<br /><hanform>將</hanform> OC <latinform>*tsi̯ɑng</latinform>, GSR #727f
+    &apos;on the point of, about to; intend to, be going to&apos;; Schuessler 2007:306 <latinform>*tsaŋ</latinform>;
+    B &amp; S 2011: <latinform>*tsaŋ {[ts]aŋ}</latinform>; Mand. <latinform>jiāng</latinform>.<br /><hanform>才</hanform>
+    OC <latinform>*dz’əg</latinform>, GSR #943a-f &apos;only when/at&apos;; Schuessler 2007:175 <latinform>*dzə̂</latinform>;
+    B &amp; S 2011: <latinform>*{(Cə.)[dz]ˁə}</latinform>; Mand. <latinform>cái</latinform>.</par>'
+- type: I
+  text: <par>Need to find Karlgren number.</par>

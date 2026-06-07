@@ -1,0 +1,18 @@
+tag: 3544
+grpid: 2
+proto_language: PTB
+protoform: ʔ(u/i)m
+gloss: ROAST / DRY BY FIRE
+semkey: '5.5'
+sequence: 2830.0
+status: KEEP
+public: true
+references: JAM-LITB 7.1
+phonology:
+  rhyme: um ⪤ im
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ʔem
+  gloss: HEAT (v.) / DRY / ROAST

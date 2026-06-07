@@ -1,0 +1,18 @@
+tag: 1210
+grpid: 2
+proto_language: PTB
+protoform: maŋ
+gloss: FRONT
+semkey: 1.4.4
+sequence: 9.0
+status: KEEP
+public: true
+phonology:
+  handle: maŋ
+  initial: m
+  rhyme: aŋ
+  initcover: M
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root seems to be attested mostly in Loloish, with a sprinkling of forms from elsewhere.</par>

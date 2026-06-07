@@ -1,0 +1,22 @@
+tag: 67
+grpid: 2
+proto_language: PTB
+protoform: h(r)u
+gloss: BLOW / BREATH(E) / LIFE
+semkey: 1.1.2.2
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+references: STC p.17 has *hu
+phonology:
+  handle: hru
+  initial: h(r)
+  rhyme: u
+  initcover: H
+  rhymecover: V
+notes:
+- type: F
+  text: '<par><hanform>秀</hanform> OC <latinform>*si̯ôg</latinform>, GSR #1095a-b &apos;flower and set
+    ears (grain); flower (v.); flourishing&apos;; Schuessler 2007:543 <latinform>*suh &lt; swuh</latinform>;
+    B &amp; S 2011: <latinform>*s-lu-s {[s-l]u(ʔ)-s}</latinform>; Mand. <latinform>xiù</latinform>.</par>'

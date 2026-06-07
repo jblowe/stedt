@@ -1,0 +1,29 @@
+tag: 2664
+grpid: 2
+proto_language: PTB
+protoform: sriŋ
+gloss: SISTER
+semkey: 4.7.2
+sequence: 2985.0
+status: KEEP
+public: true
+references: STC p.108
+phonology:
+  handle: sriŋ
+  initial: sr
+  rhyme: iŋ
+  initcover: S
+  rhymecover: N
+notes:
+- type: F
+  text: '<par><hanform>甥</hanform> OC <latinform>*sěng</latinform>, GSR #812d &apos;sister&apos;s son
+    or daughter; son-in-law&apos;; B &amp; S 2011: <latinform>*s.reŋ</latinform>; Schuessler 2007:460
+    OCM <latinform>*srêŋ</latinform>; Mand. <hanform>甥</hanform> <latinform>shēng</latinform> &apos;sister&apos;s
+    son&apos;; <hanform>甥女</hanform> <latinform>shēngnyǔ</latinform> &apos;sister&apos;s daughter&apos;.</par><par>Schuessler
+    2007:460 posits a connection between Chinese <hanform>甥</hanform> <latinform>shēng</latinform> &apos;sister&apos;s
+    offspring&apos; and WT <latinform>sring-mo</latinform> &apos;sister (of a male)&apos;.<br />[SPB]</par>'
+- type: F
+  text: '<par><hanform>姓</hanform> OC <latinform>*sri̯ěŋ</latinform>, GSR #812q &apos;clan / family /
+    family name&apos;; Mand. <latinform>xìng</latinform>.</par><par>This word is reconstructed as <latinform>*si̯ěng</latinform>
+    in GSR #812q, but this was revised in STC to OC <reconstruction>*sri̯ěŋ</reconstruction> (STC: p.108,
+    n.304 and p.171, n.304).</par>'

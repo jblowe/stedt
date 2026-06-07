@@ -1,0 +1,57 @@
+tag: 2137
+grpid: 2
+proto_language: PTB
+protoform: g/m/s-lay
+gloss: CHANGE / EXCHANGE / BUY / BARTER
+semkey: '6.22'
+sequence: 1.1
+status: KEEP
+public: true
+references: 'STC #283, STC p.64, HPTB'
+phonology:
+  handle: lay
+  prefix: g/m/s
+  initial: l
+  rhyme: ay
+  initcover: L
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: lay ⪤ hlay
+  gloss: BUY /  EXCHANGE
+- grpid: 66
+  group: 1.3.4
+  form: lo
+  gloss: BUY
+- grpid: 68
+  group: 1.2.1.1
+  form: laay
+  gloss: CHANGE
+- grpid: 12
+  group: 1.7.2
+  form: lyay
+  gloss: CHANGE / EXCHANGE
+- grpid: 12
+  group: 1.7.2
+  form: rey
+  gloss: BUY
+- grpid: 34
+  group: '3.2'
+  form: lyay
+  gloss: EXCHANGE
+notes:
+- type: T
+  text: <par>Both of these allofams are reconstructed by French. Strictly speaking, <latinform>*lyay</latinform>
+    goes better with the current allofam, while <latinform>*rey</latinform> seems closest to <xref ref="2606">#2606</xref>.</par>
+- type: F
+  text: '<par><hanform>移</hanform> OC <latinform>*diɑ</latinform>, GSR #3q &apos;change, alter&apos;;
+    Schuessler 2007:566 <latinform>*lai</latinform>; B &amp; S 2011: <latinform>*laj</latinform>; Mand.
+    <latinform>yí</latinform>.<br /><hanform>易</hanform> OC <latinform>*di̯ĕk</latinform>, GSR #850a-e
+    &apos;change; exchange&apos;; Schuessler 2007:566 <latinform>*lek</latinform>; B &amp; S 2011: <latinform>*lek</latinform>;
+    Mand. <latinform>yì</latinform>.<br /><hanform>賜</hanform> OC <latinform>*si̯ĕg</latinform>, GSR #850t
+    &apos;give&apos;; Schuessler 2007:199 <latinform>*sekh</latinform> &lt; <latinform>*slekh</latinform>;
+    B &amp; S 2011: <latinform>*s-lek-s </latinform>; Mand. <latinform>cì</latinform>.</par><par><latinform>Comment:</latinform>
+    Schuessler (2007:566) considers <hanform>移</hanform> <latinform>yí</latinform> &apos;change, alter&apos;
+    to be an etymon distinct from an etymon <hanform>移</hanform> <latinform>yí</latinform> &apos;move&apos;
+    in Chinese.</par>'

@@ -1,0 +1,22 @@
+tag: 2703
+grpid: 2
+proto_language: PTB
+protoform: s-tawŋ
+gloss: THOUSAND
+semkey: '9.9'
+sequence: 18.0
+status: KEEP
+public: true
+references: cf. STC#032, HPTB p. 294
+phonology:
+  handle: ton
+  prefix: s
+  initial: t
+  rhyme: 'on'
+  initcover: T
+  rhymecover: N
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: g-thɔNᴬ
+  gloss: THOUSAND (people)

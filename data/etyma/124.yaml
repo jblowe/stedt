@@ -1,0 +1,16 @@
+tag: 124
+grpid: 2
+proto_language: PTB
+protoform: tiŋ
+gloss: WATER
+semkey: 3.2.3
+sequence: 1.0
+status: DELETE
+public: false
+references: defunct
+phonology:
+  handle: tiŋ
+  initial: t
+  rhyme: iŋ
+  initcover: T
+  rhymecover: N

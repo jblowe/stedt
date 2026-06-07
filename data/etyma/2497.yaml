@@ -1,0 +1,17 @@
+tag: 2497
+grpid: 2
+proto_language: PTB
+protoform: ney = (r-)ney
+gloss: HAIR (OF HEAD)
+semkey: 1.2.3
+sequence: 2082.0
+status: DELETE
+public: false
+xrefs: '368'
+references: STC#292
+phonology:
+  handle: ney
+  initial: n
+  rhyme: ey=(r-)n
+  initcover: M
+  rhymecover: VNLW

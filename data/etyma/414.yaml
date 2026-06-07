@@ -1,0 +1,20 @@
+tag: 414
+grpid: 62
+proto_language: IA
+protoform: khura
+gloss: NAIL / HOOF
+semkey: 1.5.10
+sequence: 4.0
+status: KEEP
+public: true
+xrefs: '417'
+phonology:
+  handle: kur
+  prefix: s
+  initial: k
+  rhyme: ur
+  initcover: K
+  rhymecover: L
+notes:
+- type: T
+  text: <par>Sanskrit <latinform>khura</latinform>, Nepali <latinform>khur</latinform> &apos;hoof&apos;</par>

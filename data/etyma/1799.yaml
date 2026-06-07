@@ -1,0 +1,27 @@
+tag: 1799
+grpid: 2
+proto_language: PTB
+protoform: twak
+gloss: BITE / CHEW / PECK AT / HOOK ONTO
+semkey: 1.3.4.4
+sequence: 2.0
+status: KEEP
+public: true
+phonology:
+  handle: tok
+  initial: t
+  rhyme: ok
+  initcover: T
+  rhymecover: T
+notes:
+- type: T
+  text: <par>STC suggests a connection between this root and <xref ref="601">#601</xref>, a key form being
+    Karbi <latinform>iŋ-tok</latinform> &apos;to spit, dart, peck, bite (as a snake), spittle&apos;. For
+    now, however, we are treating <xref ref="601">#601</xref> as a separate etymon.</par>
+- type: F
+  text: <par><latinform>Comment:</latinform> Cf. the etyma <hanform>觸</hanform> <latinform>chù</latinform>
+    &apos;butt, knock against&apos;, <hanform>椓</hanform> <latinform>zhuó</latinform> ‘beat, strike’,
+    and <hanform>啄</hanform> <latinform>zhuó</latinform> &apos;peck&apos;, members of a larger set of
+    comparanda for <xref ref="2709">#2709</xref>, q.v.</par>
+- type: T
+  text: <par>This root is very likely related to <xref ref="2709">#2709</xref>.</par>

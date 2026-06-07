@@ -1,0 +1,18 @@
+tag: 6535
+grpid: 5
+proto_language: PTani
+protoform: pu
+gloss: WRAP UP IN A BUNDLE
+semkey: 6.2.2.1
+sequence: 2.0
+status: KEEP
+public: true
+references: JS-HCST: 153
+notes:
+- type: T
+  text: <par>This Proto Tani root is perhaps ultimately to be related to <xref ref="2579">#2579</xref>,
+    although there is no trace of a final nasal within Tani.</par>
+- type: F
+  text: '<par><hanform>包</hanform> OC <latinform>*pộg</latinform>, GSR #1113a &apos;wrap, bundle&apos;;
+    Schuessler 2007:157 <latinform>*prû</latinform>; B &amp; S 2011: <latinform>*pˁ‹r›u</latinform>; Mand.
+    <latinform>bāo</latinform>.</par>'

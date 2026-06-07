@@ -1,0 +1,20 @@
+tag: 2055
+grpid: 2
+proto_language: PTB
+protoform: tri
+gloss: JAW / CHIN
+semkey: 1.2.5.2
+sequence: 16.0
+status: KEEP
+public: true
+phonology:
+  handle: tri
+  initial: tr
+  rhyme: i-k
+  suffix: k
+  initcover: T
+  rhymecover: VT
+notes:
+- type: T
+  text: <par>A few forms (Newar <latinform>wakudhi(k)</latinform>, Pwo [Bassein] <latinform>bòʔ phàʔ thèʔ</latinform>
+    ) point to a possible <latinform>*-k</latinform> suffix with this root. </par>

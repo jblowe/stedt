@@ -1,0 +1,23 @@
+tag: 6163
+grpid: 2
+proto_language: PTB
+protoform: b-(l/r)əy
+gloss: RUN
+semkey: 6.7.4
+sequence: 13.0
+status: KEEP
+public: true
+references: HPTB
+phonology:
+  prefix: b
+  initial: l
+  rhyme: əy
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: plii ⪤ play
+  gloss: RUN / FLEE
+- grpid: 42
+  group: '6.1'
+  form: b-rəy²
+  gloss: RUN

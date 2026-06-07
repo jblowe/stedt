@@ -1,0 +1,17 @@
+tag: 2156
+grpid: 2
+proto_language: PTB
+protoform: be-s ⪤ pe-s
+gloss: BROKEN / BREAK OFF A PIECE
+semkey: 7.1.5.1
+sequence: 1267.0
+status: DELETE
+public: true
+xrefs: '3487'
+references: 'cf. STC#254, HPTB pp.203-4; what is relationship with #3487 HATCH ?'
+phonology:
+  handle: be
+  initial: b/p
+  rhyme: e-s
+  initcover: P
+  rhymecover: T

@@ -1,0 +1,28 @@
+tag: 2070
+grpid: 2
+proto_language: PTB
+protoform: ruŋ
+gloss: HOLE / ORIFICE / EAR
+semkey: 3.2.7
+sequence: 14.0
+status: KEEP
+public: true
+xrefs: ↭ 2045; 814
+references: '("AMD") '
+phonology:
+  handle: ruŋ
+  initial: r
+  rhyme: uŋ
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: ruŋ
+  gloss: HOLE / DENT
+notes:
+- type: T
+  text: <par>This root is well-attested in Tani, and probably also in Qiangic and Central Naga.</par><par>This
+    root occurs as second element in compounds with <xref ref="811">#811</xref>. There is a fortuitous
+    resemblance between this etymon and <xref ref="814">#814</xref>, which has a certain specious plausibility
+    since the ears are located on the sides of the head like horns.</par>

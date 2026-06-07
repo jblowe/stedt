@@ -1,0 +1,15 @@
+tag: 1422
+grpid: 2
+proto_language: PTB
+protoform: (d/t)um
+gloss: SMELL
+semkey: 1.2.8.5
+sequence: 3.0
+status: KEEP
+public: true
+phonology:
+  handle: dUŋ
+  initial: d(
+  rhyme: i/u)ŋ
+  initcover: T
+  rhymecover: N

@@ -1,0 +1,18 @@
+tag: 1605
+grpid: 2
+proto_language: PTB
+protoform: bya ⪤ bra
+gloss: BIRD
+semkey: 2.2.4
+sequence: 2.0
+status: delete
+public: true
+exemplary: true
+xrefs: '2187'
+references: STC#177
+phonology:
+  handle: bya
+  initial: by
+  rhyme: a
+  initcover: P
+  rhymecover: V

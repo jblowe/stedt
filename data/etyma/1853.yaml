@@ -1,0 +1,17 @@
+tag: 1853
+grpid: 2
+proto_language: PTB
+protoform: (s/m)-bu
+gloss: GOITER / TUBER / PROTUBERANCE
+semkey: 1.4.2.2
+sequence: 4.0
+status: DELETE
+public: false
+xrefs: '163'
+phonology:
+  handle: s/m-
+  prefix: s/m
+  initial: b
+  rhyme: u
+  initcover: P
+  rhymecover: V

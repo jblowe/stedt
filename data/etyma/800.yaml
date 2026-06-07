@@ -1,0 +1,20 @@
+tag: 800
+grpid: 2
+proto_language: PTB
+protoform: bəw
+gloss: SWEAT
+semkey: 1.8.1
+sequence: 3.0
+status: KEEP
+public: true
+references: KEEP 6/2012
+phonology:
+  handle: pəy
+  initial: p
+  rhyme: əy
+  initcover: P
+  rhymecover: W
+notes:
+- type: T
+  text: <par>This sparsely attested morpheme apparently only appears as the first morpheme in disyllables.</par><par>The
+    Burmish languages have generally devoiced the PTB *voiced series, hence the reconstruction with <latinform>*b-</latinform>.</par>

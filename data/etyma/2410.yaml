@@ -1,0 +1,31 @@
+tag: 2410
+grpid: 2
+proto_language: PTB
+protoform: b/m-ləy
+gloss: GRANDCHILD / NEPHEW / NIECE
+semkey: 4.7.3
+sequence: 2044.0
+status: KEEP
+public: true
+references: cf. STC#448, HPTB
+phonology:
+  handle: liy
+  prefix: b/m
+  initial: l
+  rhyme: əy
+  initcover: L
+  rhymecover: VLW
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: m-le²
+  gloss: GRANDCHILD
+- grpid: 50
+  group: '7'
+  form: lejᴬ
+  gloss: GRANDCHILD
+notes:
+- type: F
+  text: '<par><hanform>姪</hanform> OC <latinform>*d’iet</latinform>, GSR #413o-p<br /><hanform>姪</hanform>
+    OC <latinform>*dʼi̯ĕt</latinform>, GSR #413o-p; Mand. <latinform>zhí</latinform>.</par><par>Note:
+    nominalizing final <latinform>*-t</latinform> in Chinese.</par>'

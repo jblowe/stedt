@@ -1,0 +1,18 @@
+tag: 2617
+grpid: 2
+proto_language: PTB
+protoform: d-ri(y)
+gloss: DIRT / FILTH / ORDURE / STENCH / ODOR
+semkey: 1.8.5
+sequence: 1655.0
+status: DELETE
+public: true
+xrefs: '2607'
+references: cf. STC#459, HPTB pp.145, 193
+phonology:
+  handle: riy
+  prefix: d
+  initial: r
+  rhyme: i(y)
+  initcover: L
+  rhymecover: W

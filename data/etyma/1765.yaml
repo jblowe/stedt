@@ -1,0 +1,17 @@
+tag: 1765
+grpid: 2
+proto_language: PTB
+protoform: (b)wa
+gloss: BIRD
+semkey: 2.2.4
+sequence: 1.2
+status: delete
+public: false
+exemplary: true
+references: STC#099
+phonology:
+  handle: bwa
+  initial: (b)w
+  rhyme: a
+  initcover: P
+  rhymecover: V

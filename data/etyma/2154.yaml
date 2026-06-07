@@ -1,0 +1,45 @@
+tag: 2154
+grpid: 2
+proto_language: PTB
+protoform: b(w)ay
+gloss: LEFT (HAND)
+semkey: 1.5.3.2
+sequence: 49.0
+status: KEEP
+public: true
+references: STC#047
+phonology:
+  handle: bay
+  initial: b
+  rhyme: ay~bway
+  initcover: P
+  rhymecover: W
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: b-way²
+  gloss: LEFT
+- grpid: 66
+  group: 1.3.4
+  form: joj
+  gloss: LEFT SIDE
+notes:
+- type: T
+  text: <par>Note the triple Tangkhul allofams in <latinform>y- ⪤ w- ⪤ ph-</latinform>.</par>
+- type: T
+  text: <par>This etymon is certainly co-allofamic with <xref ref="6133">#6133</xref>, via a set of semantic
+    associations familiar from Western languages, where left-handedness has been regarded as &quot;gauche&quot;
+    or &quot;sinister&quot;. </par>
+- type: F
+  text: '<par>≠ <hanform>左</hanform>, but add note to refer to comparanda in #6133.</par>'
+- type: T
+  text: <par>HPTB pp. 219, 510 ill-advisedly reconstructs an allofam <latinform>*r-bi(y)</latinform> to
+    account for Karbi <latinform>ar-vi</latinform>, though STC correctly assigns it to the general <latinform>*b(w)ay</latinform>
+    etymon.</par>
+- type: T
+  text: <par>W.T. French 1983:445 sets up a Proto Northern Naga root <reconstruction>*phaːy</reconstruction>
+    AFTER (&gt; e.g. Chang <latinform>pai</latinform> &apos;backwards, behind&apos;), which he also suggests
+    to be related to the notions of LEFT and LAME / LIMP. (See <xref ref="7190">#7190</xref>.)</par><par>A
+    number of Nungish and Qiangic forms with velar + labial clusters must also reflect this root. If we
+    were to set up an allofam <latinform>*gway</latinform>, this would be tantamount to admitting this
+    root into the select company of etyma with *labiovelar initials like DOG, NEST, COMB, TRUMPET, etc.</par>

@@ -1,0 +1,21 @@
+tag: 5373
+grpid: 2
+proto_language: PTB
+protoform: sam
+gloss: RUN / WALK
+semkey: 6.7.4
+sequence: 19.0
+status: KEEP
+public: false
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: sam
+  gloss: RUN / FLEE
+- grpid: 63
+  group: 1.3.1
+  form: a-ʃaːm
+  gloss: RUN / WALK
+notes:
+- type: T
+  text: <par>This root is well attested in the NE Indian areal group, but has not yet been found elsewhere.</par>

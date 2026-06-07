@@ -1,0 +1,29 @@
+tag: 2445
+grpid: 2
+proto_language: PTB
+protoform: ma-y ⪤ mey
+gloss: RICE / PADDY
+semkey: 3.1.4
+sequence: 2813.0
+status: KEEP
+public: true
+references: cf. STC p.65, HPTB pp. 216, 217, 221, 231, 486, 511
+phonology:
+  handle: may
+  initial: m
+  rhyme: ay
+  initcover: M
+  rhymecover: W
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: ma
+  gloss: RICE (IN FIELD)
+- grpid: 50
+  group: '7'
+  form: may
+  gloss: RICE / PADDY
+notes:
+- type: F
+  text: '<par><hanform>米</hanform> OC <reconstruction>*miər</reconstruction>, GSR #598a-c; B &amp; S 2011:
+    <reconstruction>*C.mˤijʔ</reconstruction>; Mand. <latinform>mǐ</latinform>.</par>'

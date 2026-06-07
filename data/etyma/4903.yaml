@@ -1,0 +1,23 @@
+tag: 4903
+grpid: 2
+proto_language: PTB
+protoform: hnuay
+gloss: RUB / CRUMPLE / TWIST
+semkey: '8.4'
+sequence: 2854.0
+status: KEEP
+public: true
+references: 'PKC #903'
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: nuaːy
+  gloss: RUB
+- grpid: 8
+  group: '1.2'
+  form: hnuay
+  gloss: RUB / CRUMPLE / TWIST
+notes:
+- type: T
+  text: <par>There are three similar roots in this semantic area, all possibly related. Cf. <xref ref="4819">#4819</xref>
+    and <xref ref="2512">#2512</xref>.</par>

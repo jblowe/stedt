@@ -1,0 +1,18 @@
+tag: 1293
+grpid: 2
+proto_language: PTB
+protoform: s-bu
+gloss: PUS
+semkey: 1.8.6.1
+sequence: 6.0
+status: KEEP
+public: false
+exemplary: true
+references: incl 1299
+phonology:
+  handle: bu
+  prefix: s
+  initial: b
+  rhyme: u
+  initcover: P
+  rhymecover: V

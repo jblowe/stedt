@@ -1,0 +1,17 @@
+tag: 1250
+grpid: 2
+proto_language: PTB
+protoform: (t/d)u(ŋ)
+gloss: KNEE
+semkey: 1.5.8.4
+sequence: 12.0
+status: DELETE
+public: false
+xrefs: '439'
+references: 'Duplicate with #439?'
+phonology:
+  handle: Tu
+  initial: (t/d)
+  rhyme: u(ŋ)
+  initcover: T
+  rhymecover: N

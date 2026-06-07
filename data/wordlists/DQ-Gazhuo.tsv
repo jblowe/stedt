@@ -1,0 +1,177 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+13727	584	Gazhuo	o³¹ tso³³	o³¹ tso³³	body	body		1.1.1	1.1	0		p,4
+13728	584	Gazhuo	ŋa³²³ tv̩³³	ŋa³²³ tv̩³³	body	body		1.1.1	1.1	0		205,14
+13729	584	Gazhuo	ŋa³²³ tv̩³³	ŋa³²³ tv̩³³	back	back		1.4.8	1.4	0		205,14
+13730	584	Gazhuo	o³¹ tso³³	o³¹ tso³³	front	front		1.4.4	1.5	0		m,m
+13731	584	Gazhuo	tshɿ³¹ pha⁵⁵ la⁵³	tshɿ³¹ pha⁵⁵ la⁵³	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
+13732	584	Gazhuo	xo³³	xo³³	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34
+13733	584	Gazhuo	sv̩²⁴	sv̩²⁴	alive / be living	alive  /  be living		1.1.2.1	1.12	0		71
+13734	584	Gazhuo	sɿ³³	sɿ³³	die / be dead	die  /  be dead		1.1.6	1.13	0		27
+13735	584	Gazhuo	kɛ³³ zɿ⁵³	kɛ³³ zɿ⁵³	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		2128,127
+13736	584	Gazhuo	zɿ⁵³ kɯ³²³	zɿ⁵³ kɯ³²³	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		127,2128
+13737	584	Gazhuo	zɿ⁵³ nv̩³¹	zɿ⁵³ nv̩³¹	awake / be awake	awake  /  be awake		1.1.4	1.17	0		127,143
+13738	584	Gazhuo	zɿ⁵³ ma³³ xɤ³³	zɿ⁵³ ma³³ xɤ³³	dream	dream	v.	1.1.4.2	1.18	0		127,126,m
+13739	584	Gazhuo	ji³¹ tsɿ³³	ji³¹ tsɿ³³	head	head		1.2.1	2.1	0	D0	p,383
+13740	584	Gazhuo	ji³¹ tsɿ³³ v̩³¹ kɯ³⁵	ji³¹ tsɿ³³ v̩³¹ kɯ³⁵	skull	skull		1.2.1.1	2.4	0		385,m,m,m
+13741	584	Gazhuo	ji³¹ tshɿ³³	ji³¹ tshɿ³³	hair of head	hair of head		1.2.3	2.7	0	D1	m,1232
+13742	584	Gazhuo	ji³¹ tsɿ³³ sa³¹ khɯ⁵⁵	ji³¹ tsɿ³³ sa³¹ khɯ⁵⁵	scalp	scalp		1.2.1.5	2.8	0		m,m,34,586
+13743	584	Gazhuo	ɣa⁵³ tso³⁵ to³¹	ɣa⁵³ tso³⁵ to³¹	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		1606,m,m
+13744	584	Gazhuo	tshv̩³³ khɤ³³	tshv̩³³ khɤ³³	horn (of animal)	horn (of animal)		1.2.2	2.10	0		819,m
+13745	584	Gazhuo	tsho³³ ȵa⁵³	tsho³³ ȵa⁵³	face	face		1.2.5	3.1	0		1186,681
+13746	584	Gazhuo	nao³¹ mɛ³²³	nao³¹ mɛ³²³	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		356,m
+13747	584	Gazhuo	ȵa⁵³	ȵa⁵³	eye	eye		1.2.6	3.4	0		681
+13748	584	Gazhuo	ȵa⁵³ mo²⁴	ȵa⁵³ mo²⁴	eyebrow	eyebrow		1.2.6.6	3.4.3	0		681,363
+13749	584	Gazhuo	ȵa⁵³ mo²⁴	ȵa⁵³ mo²⁴	eyelash	eyelash		1.2.6.5	3.4.4	0		681,363
+13750	584	Gazhuo	m³⁵ tso³²³	m³⁵ tso³²³	blink	blink	v.	1.2.6.12	3.4.5	0		m,m
+13751	584	Gazhuo	ȵa⁵³ ji³²³	ȵa⁵³ ji³²³	tears	tears	n	1.2.6.7	3.4.6	0		681,1013
+13752	584	Gazhuo	ȵa⁵³ tshɿ³¹	ȵa⁵³ tshɿ³¹	eye sand	eye sand		1.2.6.8	3.4.7	0		681,572
+13753	584	Gazhuo	ŋ³²³	ŋ³²³	cry / weep	cry  /  weep	v.	1.8.8.2	3.4.8	0		1104
+13754	584	Gazhuo	ŋ²⁴ ka³³	ŋ²⁴ ka³³	look	look	v.	1.2.6.11	3.4.9	0		m
+13755	584	Gazhuo	mo³²³	mo³²³	see	see	v.	1.2.6.10	3.4.9	0		1227
+13756	584	Gazhuo	tɤ³⁵	tɤ³⁵	blind	blind		1.2.6.14.2	3.4.10	0	D0	
+13757	584	Gazhuo	na³⁵ khv̩³³	na³⁵ khv̩³³	nose	nose		1.2.8	3.5	0		803,809
+13758	584	Gazhuo	na³⁵ khv̩³³ mo²⁴	na³⁵ khv̩³³ mo²⁴	nose hair	nose hair		1.2.8	3.5.4	0		803,809,363
+13759	584	Gazhuo	wa⁵³ na³⁵ khv̩³³	wa⁵³ na³⁵ khv̩³³	snout (pig)	snout (pig)		1.2.8	3.5.5	0		1006,803,809
+13760	584	Gazhuo	lo⁵⁵	lo⁵⁵	liquid mucus	liquid mucus		3.2.3	3.5.6	0		607*
+13761	584	Gazhuo	lo⁵⁵	lo⁵⁵	solid mucus	solid mucus		1.1.5	3.5.7	0		607*
+13762	584	Gazhuo	xɯ⁵⁵	xɯ⁵⁵	blow nose	blow nose	v.	1.3.1.4	3.5.8	0		m
+13763	584	Gazhuo	nɛ³¹	nɛ³¹	smell / sniff	smell  /  sniff	v.	1.2.8.5	3.5.9	0		1415
+13764	584	Gazhuo	na³⁵ po²⁴	na³⁵ po²⁴	ear	ear		1.2.7	3.6	0		811,812
+13765	584	Gazhuo	na³⁵	na³⁵	hear	hear	v.	1.2.7.4	3.6.7	0		811
+13766	584	Gazhuo	na³⁵ tɕa³¹ ?	na³⁵ tɕa³¹ ?	hear	hear	v.	1.2.7.4	3.6.7	0		811,1411
+13767	584	Gazhuo	po³¹	po³¹	deaf	deaf		1.2.7.5	3.6.8	0		1409
+13768	584	Gazhuo	ni³¹ na³²³	ni³¹ na³²³	mouth	mouth		1.3.1	3.7	0		
+13769	584	Gazhuo	la³⁵	la³⁵	uvula	uvula		1.3.5.1	3.7.4	0		621*
+13770	584	Gazhuo	phi³⁵ ji³²³	phi³⁵ ji³²³	saliva	saliva		1.8.3	3.7.5	0		
+13771	584	Gazhuo	tsa³¹	tsa³¹	eat	eat	v.	1.5.3.2	3.7.6	0		36
+13772	584	Gazhuo	tsa⁵⁵	tsa⁵⁵	eat	eat	v.	1.5.3.2	3.7.6	0		36
+13773	584	Gazhuo	to³²³	to³²³	drink	drink	v.		3.7.7	0		502
+13774	584	Gazhuo	ji³¹ tɕa⁵³ sɿ³⁵	ji³¹ tɕa⁵³ sɿ³⁵	thirsty	thirsty	be v.	1.1.3.1	3.7.8	0		1013,1825,101
+13775	584	Gazhuo	tsa³²³ mi⁵³	tsa³²³ mi⁵³	hungry	hungry	be v.	1.1.3	3.7.9	0		m,99
+13776	584	Gazhuo	po⁵³	po⁵³	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		100
+13777	584	Gazhuo	phi⁵³	phi⁵³	spit	spit	v.	1.8.3	3.7.11	0		
+13778	584	Gazhuo	mɛ³³	mɛ³³	hold in mouth	hold in mouth	v.	1.3.4.4	3.7.14	0		467
+13779	584	Gazhuo	ŋa³⁵	ŋa³⁵	gape / open mouth	gape  /  open mouth	v.	1.3.1	3.7.15	0		5706
+13780	584	Gazhuo	xa²⁴ ji³¹ m³³	xa²⁴ ji³¹ m³³	yawn	yawn	v.	1.3.1.3	3.7.16	0		1716,m,m
+13781	584	Gazhuo	la³⁵	la³⁵	tongue	tongue		1.3.3	3.8	0		623
+13782	584	Gazhuo	ȵa³¹	ȵa³¹	speak	speak	v.	8.5.10.1	3.8.1	0		
+13783	584	Gazhuo	lɤ⁵³	lɤ⁵³	lick	lick	v.	1.3.3.1	3.8.4	0		629
+13784	584	Gazhuo	ni³¹ na³²³ piɛ⁵⁵	ni³¹ na³²³ piɛ⁵⁵	lip	lip		1.3.2	3.9	0		m,m,590
+13785	584	Gazhuo	ji³²³ sa³³	ji³²³ sa³³	smile	smile	v.	1.8.8.1	3.9.4	0		1108,m
+13786	584	Gazhuo	sɿ³¹ sɿ³³	sɿ³¹ sɿ³³	tooth	tooth		1.3.4	3.10	0	D0	632,635
+13787	584	Gazhuo	tɕhi⁵³	tɕhi⁵³	bite	bite	v.	1.3.4.4	3.10.7	0		744
+13788	584	Gazhuo	tɕhi⁵³ m³³	tɕhi⁵³ m³³	chew	chew	v.	1.3.4	3.10.8	0		
+13789	584	Gazhuo	tsho³³ ȵa⁵³	tsho³³ ȵa⁵³	cheek	cheek		1.2.5.2	3.11	0		284,m
+13790	584	Gazhuo	ɕa³⁵ phɤ³²³	ɕa³⁵ phɤ³²³	chin	chin		1.2.5.3	3.12	0		m,271
+13791	584	Gazhuo	lɛ²⁴ pɛ³³	lɛ²⁴ pɛ³³	neck	neck		1.4.2	4.1	0		479,484
+13792	584	Gazhuo	lɛ³²³ pɛ³³ tsɿ³⁵ tsɿ³⁵	lɛ³²³ pɛ³³ tsɿ³⁵ tsɿ³⁵	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		479,484,3411,3411
+13793	584	Gazhuo	lɛ³²³ pɛ³³	lɛ³²³ pɛ³³	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		479,484
+13794	584	Gazhuo	jɛ³⁵ tɕhi³³	jɛ³⁵ tɕhi³³	swallow	swallow	v.	1.3.5.6	4.2.3	0		
+13795	584	Gazhuo	ɣa⁵³ woi³⁵ mɛ³³	ɣa⁵³ woi³⁵ mɛ³³	gizzard / crop of bird	gizzard  /  crop of bird		1.7.6.1	4.2.4	0		1606,m,m
+13796	584	Gazhuo	lɛ³⁵ pa³³ kv̩³⁵	lɛ³⁵ pa³³ kv̩³⁵	rib cage	rib cage		1.4.4.3	5.1.1	0		m,m,560
+13797	584	Gazhuo	lɛ³⁵ pa³³ kv̩³⁵	lɛ³⁵ pa³³ kv̩³⁵	rib	rib		1.4.4.3	5.1.2	0		m,m,560
+13798	584	Gazhuo	la⁵³ phɛ³¹ tsɿ³³	la⁵³ phɛ³¹ tsɿ³³	shoulder	shoulder		1.4.3	5.3	0		695,754,m
+13799	584	Gazhuo	ɕo³³ pv̩³⁵	ɕo³³ pv̩³⁵	breast	breast		1.4.4.3	5.4	0		5539,m
+13800	584	Gazhuo	a²⁴ ŋ³³	a²⁴ ŋ³³	nipple	nipple			5.4.1	0		
+13801	584	Gazhuo	a²⁴ ŋ³³	a²⁴ ŋ³³	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		
+13802	584	Gazhuo	a²⁴ ŋ³³	a²⁴ ŋ³³	milk	milk			5.4.3	0		p,253
+13803	584	Gazhuo	sɿ²⁴	sɿ²⁴	suck	suck	v.	1.3.2.1	5.4.5	0		5541
+13804	584	Gazhuo	to³³	to³³	nurse / suckle	nurse  /  suckle	v.	4.2.1.5	5.4.6	0		502
+13805	584	Gazhuo	ko³¹ ma³³	ko³¹ ma³³	back	back		1.4.8	5.5	0		m,s
+13806	584	Gazhuo	tso⁵³ tsɿ³⁵	tso⁵³ tsɿ³⁵	small of back	small of back		1.4.8.1	5.5.3	0		215,418
+13807	584	Gazhuo	pɛ³³ ko³³	pɛ³³ ko³³	hunchback	hunchback		1.4.8.3	5.5.6	0		m,m
+13808	584	Gazhuo	tso⁵³ tsɿ³⁵	tso⁵³ tsɿ³⁵	waist	waist		1.4.6	5.6	0		215,418
+13809	584	Gazhuo	sɿ⁵³ ma³³ ko³¹	sɿ⁵³ ma³³ ko³¹	belly / abdomen	belly  /  abdomen		1.4.7	5.7	0		m,m,m
+13810	584	Gazhuo	tv̩³⁵ tshɿ³⁵ jɛ³²³	tv̩³⁵ tshɿ³⁵ jɛ³²³	navel	navel		1.9.4	5.7.1	0		520,525,m
+13811	584	Gazhuo	tshɿ³¹ ka³³ phi⁵³	tshɿ³¹ ka³³ phi⁵³	hips	hips		1.4.9.2	5.8.1	0		223,m,1361
+13812	584	Gazhuo	tshɿ³¹ ka³³ phi⁵³	tshɿ³¹ ka³³ phi⁵³	buttocks	buttocks		1.4.10	5.10.1	0		223,m,1361
+13813	584	Gazhuo	mɯ⁵⁵ ta³²³	mɯ⁵⁵ ta³²³	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		1288,406
+13814	584	Gazhuo	la⁵³ pha⁵⁵	la⁵³ pha⁵⁵	arm	arm		1.5.1.2	6.1	0		695,745
+13815	584	Gazhuo	la⁵³ ja³⁵	la⁵³ ja³⁵	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
+13816	584	Gazhuo	tɕha⁵⁵	tɕha⁵⁵	tickle	tickle	v.	1.5.1.2.4	6.1.1.1	0		
+13817	584	Gazhuo	la⁵³ m⁵⁵ tsɿ⁵⁵	la⁵³ m⁵⁵ tsɿ⁵⁵	elbow	elbow		1.5.8.3	6.1.4	0		695,m,m
+13818	584	Gazhuo	la⁵³ m⁵⁵ koɛ³¹ koe³¹	la⁵³ m⁵⁵ koɛ³¹ koe³¹	elbow	elbow		1.5.8.3	6.1.4	0		695,m,m,m
+13819	584	Gazhuo	la⁵³ m⁵⁵ tsɿ⁵⁵ v̩³¹ kɯ³⁵	la⁵³ m⁵⁵ tsɿ⁵⁵ v̩³¹ kɯ³⁵	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		695,m,m,m,m
+13820	584	Gazhuo	la⁵³ pha⁵⁵	la⁵³ pha⁵⁵	hand	hand		1.5.1.1	6.1.7	0		695,821
+13821	584	Gazhuo	la⁵³ kv̩⁵⁵ tsɿ⁵⁵	la⁵³ kv̩⁵⁵ tsɿ⁵⁵	fist	fist		1.5.1.1.1	6.1.7.3	0		695,712,m
+13822	584	Gazhuo	tv̩³²³ la⁵³ thi³¹	tv̩³²³ la⁵³ thi³¹	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		711,695,m
+13823	584	Gazhuo	ta³⁵ khoa³¹ thi³¹ thi³¹	ta³⁵ khoa³¹ thi³¹ thi³¹	leg	leg		1.5.7	6.2	0		
+13824	584	Gazhuo	ta³⁵ khoa³¹ thi³¹ thi³¹	ta³⁵ khoa³¹ thi³¹ thi³¹	thigh	thigh		1.5.7.1	6.2.1	0		
+13826	584	Gazhuo	po³³ lo³³ kɛ³⁵	po³³ lo³³ kɛ³⁵	knee	knee		1.5.8.4	6.2.2	0		435,m,m
+13827	584	Gazhuo	po³³ lo³³ kɛ³⁵ v̩³¹ kɯ³⁵	po³³ lo³³ kɛ³⁵ v̩³¹ kɯ³⁵	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		435,m,m,232,m
+13828	584	Gazhuo	ɕao⁵³ knoa³¹ thi³¹ thi³¹	ɕao⁵³ knoa³¹ thi³¹ thi³¹	calf	calf		1.5.7	6.2.4	0		
+13829	584	Gazhuo	thsɿ³³ pha⁵⁵ pha⁵⁵	thsɿ³³ pha⁵⁵ pha⁵⁵	foot	foot		1.5.2	6.2.6	0		
+13830	584	Gazhuo	m³¹ thi²⁴ kho²⁴	m³¹ thi²⁴ kho²⁴	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		m,m,417
+13831	584	Gazhuo	tshɿ³¹ pha⁵⁵ ti⁵⁵	tshɿ³¹ pha⁵⁵ ti⁵⁵	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
+13832	584	Gazhuo	la⁵³ ŋ³⁵	la⁵³ ŋ³⁵	finger	finger		1.5.6	7.1	0		
+13833	584	Gazhuo	la⁵³ ŋ³⁵ ko³⁵ sɛ³³	la⁵³ ŋ³⁵ ko³⁵ sɛ³³	middle finger	middle finger		1.9.4	7.1.2	0		
+13834	584	Gazhuo	la⁵³ ŋ³⁵ za³¹	la⁵³ ŋ³⁵ za³¹	little finger	little finger		9.7.2	7.1.4	0		
+13835	584	Gazhuo	la⁵³ ŋ²⁴ ma³³	la⁵³ ŋ²⁴ ma³³	thumb	thumb		1.5.6.1	7.1.5	0		
+13836	584	Gazhuo	la⁵³ ŋ³⁵ sɿ³¹	la⁵³ ŋ³⁵ sɿ³¹	nail	nail		1.5.10	7.4	0		
+13837	584	Gazhuo	la⁵³ ŋ³⁵ sɿ³¹	la⁵³ ŋ³⁵ sɿ³¹	fingernail	fingernail		1.5.10.1	7.4.1	0		
+13838	584	Gazhuo	ji³¹ tshɿ³³	ji³¹ tshɿ³³	hair	hair		1.2.3	8.1	0		m,1232
+13839	584	Gazhuo	ji³¹ tshɿ³³	ji³¹ tshɿ³³	hair of head	hair of head		1.2.3	8.1.1	0	HIDE	DUPE IN SOURCE
+13840	584	Gazhuo	tsho³³ ȵa⁵³	tsho³³ ȵa⁵³	beard / moustache	beard / moustache		1.2.5.5	8.1.2	0		370,m
+13841	584	Gazhuo	ni³¹ tshɿ³³ pv̩³¹	ni³¹ tshɿ³³ pv̩³¹	beard	beard		1.2.5.5	8.1.2.1	0		m,1232,m
+13842	584	Gazhuo	ȵo³⁵	ȵo³⁵	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		
+13843	584	Gazhuo	m³¹ mo³⁵ tsv̩³³	m³¹ mo³⁵ tsv̩³³	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		1431,363,370
+13844	584	Gazhuo	sa²¹ khɯ⁵⁵	sa²¹ khɯ⁵⁵	skin	skin		1.6.5	8.2	0		34,586
+13845	584	Gazhuo	kɤ⁵⁵	kɤ⁵⁵	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		615
+13846	584	Gazhuo	tsɿ³⁵	tsɿ³⁵	mole	mole		2.2.7	8.2.3.3	0	D0	
+13847	584	Gazhuo	pa³³	pa³³	scar	scar		1.6.5.3	8.2.3.7	0		
+13848	584	Gazhuo	ja²¹	ja²¹	itch  / be itchy	itch   /  be itchy	v.	1.6.5.5	8.2.3.10	0		1456
+13849	584	Gazhuo	ŋa²¹ khɯ⁵⁵	ŋa²¹ khɯ⁵⁵	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		1455,586
+13850	584	Gazhuo	sa²¹ pɤ²¹	sa²¹ pɤ²¹	hide / leather	hide  /  leather		1.6.5.1	8.2.6	0		34,m
+13851	584	Gazhuo	tshɤ³³	tshɤ³³	fat	fat		1.6.4	8.3	0		42
+13852	584	Gazhuo	v̩³²³ mɤ³³ tshɤ³³	v̩³²³ mɤ³³ tshɤ³³	fat intestines / omentum	fat intestines  /  omentum		1.6.4	8.3.1	0		2102,m,42
+13853	584	Gazhuo	tshɤ³³	tshɤ³³	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		42
+13854	584	Gazhuo	v̩²¹ kɯ³⁵	v̩²¹ kɯ³⁵	bone	bone		1.6.3	8.4	0		m,m
+13855	584	Gazhuo	sɿ²¹	sɿ²¹	blood	blood		1.6.2	8.7	0		230
+13856	584	Gazhuo	sɿ²¹ to⁵³	sɿ²¹ to⁵³	bleed	bleed	v.	1.6.2	8.7.2	0		230,m
+13857	584	Gazhuo	sa²¹	sa²¹	muscle	muscle		1.6.6.2	8.8	0		34
+13858	584	Gazhuo	v̩³¹ kɯ³⁵ tsɿ³⁵ tsɿ³⁵	v̩³¹ kɯ³⁵ tsɿ³⁵ tsɿ³⁵	joint	joint		1.5.8	8.9	0		m,m,418,418
+13859	584	Gazhuo	tɕi³³	tɕi³³	nerve	nerve		1.6.6.3	8.10	0		
+13860	584	Gazhuo	ao²¹	ao²¹	internal organs	internal organs		1.7	9	0		
+13861	584	Gazhuo	kv̩²⁴ soi²¹	kv̩²⁴ soi²¹	marrow	marrow		1.6.3.5	9.1.2	0		
+13862	584	Gazhuo	fɛ²⁴ to²¹ ?	fɛ²⁴ to²¹ ?	lung	lung		1.7.2	9.2	0		m,m
+13863	584	Gazhuo	tshɤ³¹	tshɤ³¹	pant	pant	v.	1.1.2.2	9.2.2	0		
+13864	584	Gazhuo	m̩⁵³	m̩⁵³	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		503
+13865	584	Gazhuo	lo⁵⁵	lo⁵⁵	phlegm	phlegm		1.8.3	9.2.5	0		607
+13866	584	Gazhuo	ŋ³⁵ ma³³ mɛ³³	ŋ³⁵ ma³³ mɛ³³	heart	heart		1.7.1	9.3	0		297,s,m
+13867	584	Gazhuo	ŋ³⁵ ma³³ mɛ³³	ŋ³⁵ ma³³ mɛ³³	heartbeat	heartbeat		1.7.1.1	9.3.1	0		297,s,m
+13868	584	Gazhuo	mɛ³⁵	mɛ³⁵	pulse	pulse		1.7.1.1	9.3.2	0		
+13869	584	Gazhuo	ka³³	ka³³	liver	liver		1.7.3	9.5	0		229,bChinese
+13870	584	Gazhuo	ao³¹ soi³¹	ao³¹ soi³¹	bile	bile		1.7.3.1	9.5.1	0		m,m
+13871	584	Gazhuo	i³⁵ sɿ²¹	i³⁵ sɿ²¹	urine	urine		1.8.4	9.7.1	0		m,650
+13872	584	Gazhuo	pi³⁵	pi³⁵	urinate	urinate	v.	1.5.3.2	9.7.2	0		3493
+13873	584	Gazhuo	woi³⁵	woi³⁵	stomach	stomach		1.7.6	9.10	0		2104
+13874	584	Gazhuo	v̩³²³ mɤ³³	v̩³²³ mɤ³³	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		2102,1384
+13875	584	Gazhuo	tshɿ²¹ ŋɤ²⁴ la³³ ȵa⁵³	tshɿ²¹ ŋɤ²⁴ la³³ ȵa⁵³	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		572,m,m,m
+13876	584	Gazhuo	tshɿ²¹	tshɿ²¹	feces / shit	feces  /  shit		1.8.5	9.12.1	0		572
+13877	584	Gazhuo	tshɿ²¹ ŋɤ²⁴	tshɿ²¹ ŋɤ²⁴	defecate	defecate	v.	1.8.5.4	9.12.3	0		
+13878	584	Gazhuo	pi²¹ pi⁵³ mɛ³³	pi²¹ pi⁵³ mɛ³³	genitalia / pudenda	genitalia  /  pudenda		1.9.1	10.1	0		662,662,m
+13879	584	Gazhuo	pa⁵⁵	pa⁵⁵	male	male		1.9.6.1	10.3	0		1634
+13880	584	Gazhuo	tɕhau³³	tɕhau³³	castrate	castrate	v.	1.9.2.3	10.3.9	0		m
+13881	584	Gazhuo	ma³³	ma³³	female	female		1.9.3	10.4	0		1619
+13882	584	Gazhuo	pao³³	pao³³	placenta	placenta			10.4.11	0		1733
+13883	584	Gazhuo	si⁵³ ma³³ ko²¹ po³⁵	si⁵³ ma³³ ko²¹ po³⁵	pregnant	pregnant	be v.	1.9.6.1	10.4.14	0		m,m,m,1855
+13884	584	Gazhuo	za²¹ ni²⁴ za²¹ fv̩³³	za²¹ ni²⁴ za²¹ fv̩³³	birth, give	birth, give		1.1.2	10.4.15	0		1012,m,1012,97
+13885	584	Gazhuo	fv̩³³	fv̩³³	egg (of animal)	egg (of animal)			10.4.16	0		301
+13886	584	Gazhuo	tsɿ⁵⁵	tsɿ⁵⁵	cough	cough		1.8.3.3	11.1	0	D0	
+13887	584	Gazhuo	ɣɤ³⁵ ta⁵³	ɣɤ³⁵ ta⁵³	hiccup	hiccup		1.8.3.5	11.2	0		3443,m
+13888	584	Gazhuo	a²⁴ |thiao³⁵ m̩³³	a²⁴ thiao³⁵ m̩³³	sneeze	sneeze		1.8.2.1	11.3	0		2131,m
+13889	584	Gazhuo	zɿ⁵³ na²⁴ ko²⁴	zɿ⁵³ na²⁴ ko²⁴	snore	snore		1.8.2.2	11.4	0		127,m,m
+13890	584	Gazhuo	ɣɤ³⁵ ta⁵³	ɣɤ³⁵ ta⁵³	burp / belch	burp  /  belch		1.8.3	11.6	0		3443,m
+13891	584	Gazhuo	tshɿ³¹ sa⁵³ pɤ³⁵	tshɿ³¹ sa⁵³ pɤ³⁵	fart	fart		1.8.5.2	11.7	0		572,m,m
+13892	584	Gazhuo	ji³²³ sa³³	ji³²³ sa³³	laugh	laugh		1.8.8.1	11.9	0		1108,m
+13893	584	Gazhuo	tɕa³³ la⁵³ ka²⁴	tɕa³³ la⁵³ ka²⁴	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
+13894	584	Gazhuo	na³²³	na³²³	sick / be ill / hurt	sick  /  be ill  /  hurt	be v.	1.1.5.1	12.2	0		160
+13895	584	Gazhuo	m̩³²³	m̩³²³	numb /  be paralyzed	numb  /   be paralyzed	be v.	1.5.11	12.3	0		
+13896	584	Gazhuo	phv̩³³ tsɿ²⁴	phv̩³³ tsɿ²⁴	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		163
+13897	584	Gazhuo	tɕɛ³²³	tɕɛ³²³	pus	pus		1.8.6.1	12.5	0		1292
+13898	584	Gazhuo	tɛ³¹ xo²⁴	tɛ³¹ xo²⁴	hand span	hand span		1.5.9.4	13.2	0		
+13899	584	Gazhuo	tɛ³¹ tsɿ³⁵	tɛ³¹ tsɿ³⁵	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		
+13900	584	Gazhuo	tɛ³¹ lɛ²⁴	tɛ³¹ lɛ²⁴	cord / fathom	cord  /  fathom		1.5.9.5	13.4	0		
+13901	584	Gazhuo	tɛ³¹ lɛ²⁴	tɛ³¹ lɛ²⁴	fingertip to fingertip	fingertip to fingertip	v.	1.5.6	13.4.2	0		
+13902	584	Gazhuo	sɿ³⁵	sɿ³⁵	wipe	wipe		6.2.2.1	add1	0		5594
+145812	584	Gazhuo	ta³⁵ khoa³¹ thi³¹ thi³¹ v̩³¹ kɯ³⁵	ta³⁵ khoa³¹ thi³¹ thi³¹ v̩³¹ kɯ³⁵	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		

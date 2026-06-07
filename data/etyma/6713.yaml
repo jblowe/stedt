@@ -1,0 +1,27 @@
+tag: 6713
+grpid: 2
+proto_language: PTB
+protoform: (p/b/h)(w/y)a(ː)(r/l/n/t)
+gloss: FIRE / BURN / SHINE / BRIGHT / LIGHT / WHITE
+semkey: 7.1.11.1
+sequence: 2.0
+status: KEEP
+public: true
+references: PAF; HPTB pp.428-30
+notes:
+- type: T
+  text: '<par>This etymon has an impressive number of variants, motivating an extreme pan-allofamic formula
+    like <xref ref="6713">#6713</xref>. The sub-roots fall into several categories: some of the reflexes
+    derive from prototypes with final *liquids; others point to earlier final *nasals; while still others
+    derive from *open syllables. For convenience&apos;s sake, we will present the allofams in that order.</par><par>The
+    semantic developments of this root are also quite varied, ranging from FIRE / BURN / KINDLE / ROAST
+    to SHINE / LIGHT / BRIGHT to HEAT UP / SWEAT to WHITE / YELLOW. Less this be thought implausible,
+    cf. Proto-Indo-European *bhel- &quot;shine; flash; burn; shining white and various bright colors&quot;
+    which give us English reflexes including &apos;black&apos;, &apos;blank&apos;, &apos;blanch&apos;,
+    &apos;bleak&apos;, &apos;bald&apos;, &apos;bleach&apos;, &apos;blue&apos;, &apos;blaze&apos;, &apos;blind&apos;,
+    &apos;blend&apos;, &apos;blond&apos;, &apos;blink&apos;, etc. See HPTB 428-430.</par>'
+- type: F
+  text: '<par><hanform>皤</hanform> OC <latinform>*bʻwɑ̂r~pwɑ̂r</latinform>, GSR #195r ‘white’; Schuessler
+    2007:416 <latinform>*bâi</latinform>; B &amp; S 2011: <latinform>*bˁar {[b]ˁar} </latinform>; Mand.
+    <latinform>pó</latinform>.<br /><hanform>煇</hanform> 458k S286<br /><hanform>韡</hanform> 571q giwer
+    <hanform>煒</hanform> 571j giwer</par>'

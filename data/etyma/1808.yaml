@@ -1,0 +1,15 @@
+tag: 1808
+grpid: 2
+proto_language: PTB
+protoform: la
+gloss: LEAN (MEAT, PERSON)
+semkey: 1.1.1
+sequence: 6.0
+status: DELETE
+public: false
+phonology:
+  handle: la
+  initial: l
+  rhyme: a
+  initcover: L
+  rhymecover: V

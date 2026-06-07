@@ -1,0 +1,35 @@
+tag: 745
+grpid: 2
+proto_language: PTB
+protoform: ban
+gloss: ARM / HAND / SHOULDER
+semkey: 1.5.1.2
+sequence: 8.0
+status: KEEP
+public: true
+possallo: '751'
+phonology:
+  handle: ban
+  initial: b
+  rhyme: a-n
+  suffix: n
+  initcover: P
+  rhymecover: VN
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ɓaan
+  gloss: ARM
+- grpid: 66
+  group: 1.3.4
+  form: paan
+  gloss: HAND / ARM
+notes:
+- type: T
+  text: <par>The stronghold of this etymon is Kuki-Chin, with possible scattered cognates in Himalayish,
+    as well as in Tujia.</par><par>Reflexes of this etymon never seem to mean &apos;wing&apos;. For similar-looking
+    reflexes with that meaning, see <xref ref="714">#714</xref>.</par><par>This root is phonosemantically
+    similar to <xref ref="1327">#1327</xref>, but seems distinct from it. The final nasal in the present
+    root is always <latinform>-n</latinform>, while that of <xref ref="1327">#1327</xref> is always <latinform>-ŋ</latinform>.</par>
+- type: T
+  text: <par>The cognacy of the aberrant-seeming Huishu forms remains to be demonstrated.</par>

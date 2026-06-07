@@ -1,0 +1,21 @@
+tag: 2348
+grpid: 2
+proto_language: PTB
+protoform: krwəy
+gloss: SON-IN-LAW / DAUGHTER-IN-LAW
+semkey: 4.7.3
+sequence: 9.0
+status: KEEP
+public: true
+references: cf. STC#244, HPTB pp. 22, 69, 82, 194, 200
+phonology:
+  handle: krwiy
+  initial: krw
+  rhyme: iy=krwəy
+  initcover: K
+  rhymecover: LWT
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: hri
+  gloss: SON-IN-LAW

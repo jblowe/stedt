@@ -1,0 +1,21 @@
+tag: 249
+grpid: 2
+proto_language: PTB
+protoform: s-nip
+gloss: BRAIN
+semkey: 1.2.4
+sequence: 5.0
+status: KEEP
+public: true
+references: '("PHM") '
+phonology:
+  handle: nip  o
+  prefix: s
+  initial: n
+  rhyme: ip  or
+  initcover: M
+  rhymecover: LT
+notes:
+- type: T
+  text: <par>This root seems to be restricted to Himalayish languages. A similar but independent etymon
+    is <xref ref="243">#243</xref>.</par>

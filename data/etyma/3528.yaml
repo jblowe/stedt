@@ -1,0 +1,24 @@
+tag: 3528
+grpid: 2
+proto_language: PTB
+protoform: hwar
+gloss: THROW
+semkey: '6.12'
+sequence: 1.2
+status: KEEP
+public: true
+references: JAM-LITB 6.2
+phonology:
+  initial: hw
+  rhyme: ar
+  initcover: H
+  rhymecover: L
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: woor-I, worʔ-II
+  gloss: THROW / SCATTER / TOSS
+- grpid: 5
+  group: 1.1.1
+  form: vor?
+  gloss: THROW / CAST

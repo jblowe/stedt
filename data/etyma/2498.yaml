@@ -1,0 +1,22 @@
+tag: 2498
+grpid: 2
+proto_language: PTB
+protoform: s/r-ney-t
+gloss: GET / HAVE / OBTAIN
+semkey: 1.1.5
+sequence: 6.0
+status: KEEP
+public: true
+references: cf. STC#294, HPTB pp.206, 217, 460
+phonology:
+  handle: r-ne
+  prefix: r
+  initial: )n
+  rhyme: ey
+  initcover: M
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: nay-I, nayʔ-II; hnay-I, hnayʔ-II
+  gloss: OWN / HAVE / POSSESS

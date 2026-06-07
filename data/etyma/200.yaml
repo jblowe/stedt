@@ -1,0 +1,27 @@
+tag: 200
+grpid: 2
+proto_language: PTB
+protoform: s-dza-k
+gloss: JOIN / CONNECT / BUILD
+semkey: 6.13.5
+sequence: 7.0
+status: KEEP
+public: false
+references: cf. HPTB pp, 315,317
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔ-dzakᴸ
+  gloss: JOIN
+- grpid: 8
+  group: '1.2'
+  form: saa-I, sak-II
+  gloss: BUILD / CONNECT / ERECT
+- grpid: 66
+  group: 1.3.4
+  form: sak
+  gloss: CONNECT / BUILD
+- grpid: 63
+  group: 1.3.1
+  form: tsha
+  gloss: BUILD, MAKE / DO

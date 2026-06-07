@@ -1,0 +1,21 @@
+tag: 2407
+grpid: 2
+proto_language: PTB
+protoform: l(i/u)p
+gloss: SINK INTO / DIVE
+semkey: '6.6'
+sequence: 4.0
+status: KEEP
+public: true
+references: cf. STC#375, HPTB pp. 354, 370
+phonology:
+  handle: lip
+  initial: l
+  rhyme: ip
+  initcover: L
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This etymon illustrates the widespread variational pattern between <reconstruction>*-u-</reconstruction>
+    and <reconstruction>*-i-</reconstruction>, with some languages (Jingpho, Dimasa) having reflexes of
+    both variants.</par>

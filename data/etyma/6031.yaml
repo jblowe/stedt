@@ -1,0 +1,16 @@
+tag: 6031
+grpid: 2
+proto_language: PTB
+protoform: ra
+gloss: GOAT
+semkey: 2.1.8
+sequence: 9.0
+status: KEEP
+public: true
+notes:
+- type: T
+  text: '<par>Two possible prefixes are attested with this root: <latinform>*b-</latinform> in Bodo-Garo,
+    and <latinform>*s-</latinform> underlying the voiceless rhotics in Tamang and Kaike.</par>'
+- type: F
+  text: '<par><hanform>羜</hanform> OC <latinform>*d’i̯o</latinform>, GSR #84f &apos;five month-old lamb&apos;;
+    Schuessler 2007:627 <latinform>*draʔ</latinform>; Mand. <latinform>zhù</latinform>.</par>'

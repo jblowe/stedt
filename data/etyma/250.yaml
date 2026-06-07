@@ -1,0 +1,16 @@
+tag: 250
+grpid: 2
+proto_language: PTB
+protoform: nim ⪤ nyam
+gloss: BRAIN
+semkey: 1.2.4
+sequence: 9.0
+status: DELETE
+public: false
+xrefs: '5554'
+phonology:
+  handle: nim
+  initial: n
+  rhyme: im⪤nyam
+  initcover: M
+  rhymecover: NW

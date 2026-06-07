@@ -1,0 +1,32 @@
+tag: 548
+grpid: 2
+proto_language: PTB
+protoform: s-nyak ⪤ s-nik
+gloss: PENIS / COPULATE
+sequence: 124.0
+status: KEEP
+public: true
+phonology:
+  handle: m/s-
+  initial: ny
+  rhyme: ak ⪤ ik
+  initcover: M
+  rhymecover: T
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: mrak
+  gloss: PENIS
+notes:
+- type: T
+  text: '<par>This root seems basically to mean PENIS, with extensions into the meaning COPULATE. Some
+    reflexes resemble those of <xref ref="545">#545</xref>, although Jingpho has distinct reflexes of
+    both: <latinform>mənè ~ mənyè</latinform> &apos;penis&apos; vs. <latinform>nèʔ ~ nyèʔ</latinform>
+    &apos;copulate&apos;. Evidence for the <reconstruction>*s-</reconstruction> prefix is to be found
+    in Lakher (Mara), Kom Rem, and Moyon.</par><par>Some likely reflexes have initial laterals, rather
+    than nasals. Most of the Tani forms cited in J. Sun 1993:131 have labial rather than dental nasal
+    clusters, but it seems more plausible to assign them to this etymon than to any other.</par><par>In
+    GSTC #172, I compared the Lakher (Mara) and Jingpho forms, but offered no reconstruction.</par>'
+- type: T
+  text: <par>This Proto-Tani form also resembles <xref ref="547">#547</xref>, so its precise affiliation
+    remains uncertain.</par>

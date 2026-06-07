@@ -1,0 +1,42 @@
+tag: 6133
+grpid: 2
+proto_language: PTB
+protoform: (p/b)aːy
+gloss: LAME / LIMP / ASKEW
+semkey: 1.5.12
+sequence: 2254.0
+status: KEEP
+public: true
+references: cf. HPTB pp.210, 221
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ɓa(a)y ⪤ pa(a)y
+  gloss: LAME / LIMP / HALTING (speech)
+- grpid: 12
+  group: 1.7.2
+  form: baːy
+  gloss: JUMP
+notes:
+- type: T
+  text: <par>W.T. French 1983:503 reconstructs Proto Northern Naga <latinform>*baːy</latinform> with the
+    meaning JUMP, clearly a related notion to LAME / LIMP in the sense that special movements of the lower
+    limbs are involved.</par>
+- type: F
+  text: '<par>The following set of Chinese etyma is offered on the basis of discussion in Schuessler 2007:158-9,
+    170-71 <emph>et pass</emph>; (also see Matisoff 1995: ST Palatal Suffixes Revisited). These etyma
+    can be considered allofams within Chinese, as well as primary comparanda for PTB <latinform>*(p/b)aːy</latinform>
+    on both phonological and semantic grounds:</par><par><hanform>跛</hanform> OC <latinform>*pwɑ̂</latinform>,
+    GSR #25m &apos;walk lame&apos;; Schuessler 2007:171 <latinform>*pâiʔ</latinform>; B &amp; S 2011:
+    <latinform>*pˁajʔ</latinform>; Mand. <latinform>bǒ</latinform>.<br /><hanform>頗</hanform> OC <latinform>*p’wɑ̂</latinform>,
+    GSR #25p &apos;slanting, oblique, perverse&apos;; Schuessler 2007:158 <latinform>*phâi</latinform>;
+    Mand. <latinform>pō</latinform>.<br /><hanform>坡</hanform> OC (<latinform>*p’wɑ̂</latinform>), (not
+    in GSR #25) &apos;slope, slanted&apos;; Schuessler 2007:158 <latinform>*phâi</latinform>; Mand. <latinform>pō</latinform>.<br
+    /><hanform>陂</hanform> OC <latinform>*piɑ</latinform>, GSR #25i &apos;river bank, dike&apos;; Schuessler
+    2007: <latinform>*pai</latinform>; B &amp; S 2011: <latinform>*paj {p(r)a[j]}</latinform>; Mand. <latinform>bēi,
+    bī</latinform>.<br /><hanform>詖</hanform> OC <latinform>*piɑ</latinform>, GSR #25h &apos;biased, insincere&apos;;
+    Schuessler 2007:158 <latinform>*paih</latinform>; Mand. <latinform>bì</latinform>.</par>'
+- type: T
+  text: <par>This etymon is certainly co-allofamic with <xref ref="2154">#2154</xref>, via a set of semantic
+    associations familiar from Western languages, where left-handedness has been regarded as &quot;gauche&quot;
+    or &quot;sinister&quot;. </par>

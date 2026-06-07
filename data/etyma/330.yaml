@@ -1,0 +1,20 @@
+tag: 330
+grpid: 2
+proto_language: PTB
+protoform: (t)s(y)ow
+gloss: FINGER
+semkey: 1.5.6
+sequence: 3.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: co
+  initial: c
+  rhyme: o ~ tso
+  initcover: TS
+  rhymecover: TS
+notes:
+- type: T
+  text: <par>This root appears almost entirely in Himalayish, especially the Kiranti group. There is a
+    possible Northern Naga cognate.</par>

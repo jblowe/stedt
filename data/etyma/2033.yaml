@@ -1,0 +1,16 @@
+tag: 2033
+grpid: 0
+protoform: ka
+gloss: FACE
+semkey: 1.2.5
+sequence: 6.0
+status: DELETE
+public: false
+xrefs: '273'
+references: '("PHM") '
+phonology:
+  handle: ka
+  initial: k
+  rhyme: a
+  initcover: K
+  rhymecover: V

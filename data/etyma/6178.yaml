@@ -1,0 +1,18 @@
+tag: 6178
+grpid: 2
+proto_language: PTB
+protoform: g-sik
+gloss: NEW
+semkey: 9.6.1.1
+sequence: 7.0
+status: KEEP
+public: false
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: C-syik
+  gloss: NEW
+notes:
+- type: F
+  text: <par><latinform>Comment:</latinform> Cf. <hanform>新</hanform> <latinform>xīn</latinform>, comparandum
+    for <xref ref="2658">#2658</xref>.</par>

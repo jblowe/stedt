@@ -1,0 +1,24 @@
+tag: 753
+grpid: 2
+proto_language: PTB
+protoform: m/p/s-(l/d)ap
+gloss: ARM / HAND / WING
+semkey: 1.5.1.2
+sequence: 17.0
+status: KEEP
+public: true
+references: PAF
+phonology:
+  handle: p/buk
+  initial: p/b
+  rhyme: uk
+  initcover: P
+  rhymecover: T
+notes:
+- type: T
+  text: '<par>This well-established root is attested in the North Assam group and Himalayish. The basic
+    allofam has a simple lateral initial, but several prefixes (<latinform>p-</latinform> and <latinform>n-</latinform>)
+    are also attested. The initial is realized as a dental stop after the nasal prefix (see <latinform>n-dap</latinform>
+    below). Possibly ultimately related is the root <latinform> yaːp</latinform> &quot;wave, fan, paddle&quot;
+    [HPTB p.340]</par><par>There is a similar root <xref ref="824">#824</xref> (STC #321), with  perhaps
+    the same origin, the connection being the perceived flatness of leaves and wings.</par>'

@@ -1,0 +1,22 @@
+tag: 2009
+grpid: 2
+proto_language: PTB
+protoform: nu-(ŋ/k) ⪤ nwa-(ŋ/k)
+gloss: HORN
+semkey: 1.2.2
+sequence: 1.2
+status: KEEP
+public: true
+xrefs: '814'
+phonology:
+  handle: nu
+  initial: n
+  rhyme: u-((ŋ/k)
+  suffix: (ŋ/
+  initcover: M
+  rhymecover: VNT
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: noŋᴬ
+  gloss: HORN

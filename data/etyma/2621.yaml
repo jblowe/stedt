@@ -1,0 +1,63 @@
+tag: 2621
+grpid: 2
+proto_language: PTB
+protoform: d-k-ruk
+gloss: SIX
+semkey: '9.9'
+sequence: 6.0
+status: KEEP
+public: true
+references: STC#411; cf. HPTB pp. 23, 44, 71, 140, 145, 148, 149, 357, 360, 361, 363
+phonology:
+  handle: ruk
+  prefix: d
+  initial: r
+  rhyme: uk
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ruk
+  gloss: SIX
+- grpid: 5
+  group: 1.1.1
+  form: krə
+  gloss: SIX
+- grpid: 66
+  group: 1.3.4
+  form: ruk
+  gloss: SIX
+- grpid: 50
+  group: '7'
+  form: khrowᴬ
+  gloss: SIX
+- grpid: 63
+  group: 1.3.1
+  form: t-ruk
+  gloss: SIX
+- grpid: 42
+  group: '6.1'
+  form: C-krokᴸ
+  gloss: SIX
+- grpid: 12
+  group: 1.7.2
+  form: d-ruk
+  gloss: SIX
+- grpid: 23
+  group: 2.1.4
+  form: ᴮɖu,ᴮɖuː,ᴮɖuk
+  gloss: SIX
+notes:
+- type: T
+  text: '<par>Some reflexes of this extremely widespread etymon reflect the minimal form <reconstruction>*ruk</reconstruction>;
+    others descend from a <reconstruction>*kr-</reconstruction> cluster; while still others come from
+    a <reconstruction>*d-r-</reconstruction> combination.</par><par>The PLB form <reconstruction>*C-krokᴸ</reconstruction>
+    is reconstructed with a voiced prefix (represented by the cover symbol <latinform>C-</latinform>),
+    since its reflexes derive from the Proto-Loloish low-stopped tone, which can only come from a *voiced
+    initial sequence. Cf. Matisoff 1972: #35.</par><par>For additional discussion of the numeral SIX,
+    see Matisoff 1995 (&quot;Numerals&quot;), pp. 193-197.</par>'
+- type: F
+  text: '<par><hanform>六</hanform> OC <latinform>*̂liôk</latinform>, GSR #1032a-d &apos;six&apos;; Coblin
+    86:133 ST <latinform>*dljəkw</latinform> &gt; OC <latinform>*ljəkw</latinform>; Schuessler 2007:362
+    <latinform>*ruk</latinform>; B &amp; S 2011: <latinform>*k.ruk </latinform>; Mand. <latinform>liù</latinform>.</par>'

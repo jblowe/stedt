@@ -1,0 +1,18 @@
+tag: 1773
+grpid: 32
+proto_language: PTQ
+protoform: N-t(s)a
+gloss: CHEW / BITE
+semkey: 1.3.4
+sequence: 10.0
+status: DELETE
+public: false
+xrefs: '1799'
+references: Qiangish
+phonology:
+  handle: tsa
+  prefix: N
+  initial: t(s)
+  rhyme: a
+  initcover: TS
+  rhymecover: V

@@ -1,0 +1,16 @@
+tag: 3330
+grpid: 2
+proto_language: PTB
+protoform: paw
+gloss: WAIST / BACK / BUTTOCK
+semkey: 1.4.6
+sequence: 15.0
+status: KEEP
+public: true
+references: 'attested: Achang, Maram, Jingpho, Langsu'
+phonology:
+  handle: paw
+  initial: p
+  rhyme: aw
+  initcover: P
+  rhymecover: W

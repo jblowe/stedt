@@ -1,0 +1,16 @@
+tag: 544
+grpid: 2
+proto_language: PTB
+protoform: kaw ~ gaw
+gloss: PHLEGM
+semkey: 1.8.3
+sequence: 1.0
+status: DELETE
+public: false
+xrefs: '540'
+phonology:
+  handle: kaw
+  initial: k
+  rhyme: aw ~ gaw
+  initcover: K
+  rhymecover: W

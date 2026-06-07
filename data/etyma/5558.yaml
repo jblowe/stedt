@@ -1,0 +1,23 @@
+tag: 5558
+grpid: 2
+proto_language: PTB
+protoform: glyaːk
+gloss: THUNDERBOLT / LIGHTNING
+semkey: 3.2.1
+sequence: 4.0
+status: KEEP
+public: true
+references: cf. HPTB p. 373, STC p.41
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: kreek
+  gloss: LIGHTNING / THUNDER
+- grpid: 8
+  group: '1.2'
+  form: gleːk
+  gloss: THUNDERBOLT
+notes:
+- type: T
+  text: '<par>For a discussion of possible alternative etymologies, see HPTB:373-374.</par><par>This root
+    is reconstructed as PLB <latinform>*trek</latinform> in LTSR #67.</par>'

@@ -1,0 +1,15 @@
+tag: 3390
+grpid: 42
+proto_language: PLB
+protoform: la
+gloss: BACK
+semkey: 1.4.8
+sequence: 18.0
+status: DELETE
+public: false
+phonology:
+  handle: la
+  initial: l
+  rhyme: a
+  initcover: L
+  rhymecover: V

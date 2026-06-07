@@ -1,0 +1,43 @@
+tag: 3451
+grpid: 2
+proto_language: PTB
+protoform: m-ʔum ⪤ mum
+gloss: HOLD IN MOUTH / CHEW / EAT / KISS
+semkey: 1.3.2.2
+sequence: 19.0
+status: KEEP
+public: true
+references: ("Kmr") sound symbolic?; often occurs as prefix before 3450 *m-bup/t, maybe < 34
+phonology:
+  handle: mum
+  initial: m
+  rhyme: um
+  initcover: M
+  rhymecover: N
+mesoroots:
+- grpid: 70
+  group: 1.2.2
+  form: hmoom
+  gloss: HOLD (in the mouth)
+notes:
+- type: T
+  text: <par>This root frequently occurs in compounds in Northeast Indian languages before <xref ref="3450">#3450</xref>
+    (e.g. Milang <latinform>mum-pup</latinform>). In fact several of the forms treated under <xref ref="3450">#3450
+    </xref> as having prefixal <reconstruction>*mV-</reconstruction> (e.g. Angami <latinform>me³¹bo¹¹</latinform>)
+    might be better analyzed as compounds with <reconstruction>*mum</reconstruction> as the first constituent.</par><par>STC
+    reconstructs a root <reconstruction>*um</reconstruction> (#108), later changed to <reconstruction>*(m)-u·m</reconstruction>
+    &apos;hold in the mouth/mouthful&apos; on the basis of a group of zero/glottal stop-initialled forms
+    like WT <latinform>(ʔ)um</latinform> and the prefixed Jingpho form <latinform>məūm</latinform>. These
+    have been combined with a group of NE India forms meaning &apos;kiss&apos; to form the present set.</par>
+- type: F
+  text: '<par>A Chinese comparandum was recognized already in STC #181 as <hanform>唵</hanform> <latinform>*ʔəm</latinform>,
+    Mand. <latinform>ǎn</latinform>. This form does not occur in GSR #614, but is to be found in Karlgren
+    1923 (<emph>Analytic Dictionary</emph>, set #238, p. 96).<br />[JAM]</par>'
+- type: F
+  text: '<par><hanform>唵</hanform> <latinform>ǎn</latinform> &apos;hold in the mouth, put in the mouth&apos;</par><par>GSR:
+    not in GSR #614 Karlgren: <reconstruction>*·əm</reconstruction> Li: <reconstruction>*·əm</reconstruction>
+    Baxter: <reconstruction>*ʔɨ/umʔ</reconstruction></par><par>In Baxter&apos;s system the vowel cannot
+    be determined from the Middle Chinese vocalism, and in this case there is also insufficient rhyming
+    or phonetic-series evidence.</par><par>The correspondence between OC <reconstruction>*ə</reconstruction>
+    (Li)/<reconstruction>*ɨ/u</reconstruction> (Baxter) and PTB <reconstruction>*u</reconstruction> before
+    labials is regular.  See under <xref ref="5541">#5541</xref> for examples.<br />[ZJH]</par>'

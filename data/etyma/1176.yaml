@@ -1,0 +1,19 @@
+tag: 1176
+grpid: 2
+proto_language: PTB
+protoform: bu(k/p)
+gloss: TOOTH (MOLAR) / WISDOM TOOTH
+semkey: 1.3.4
+sequence: 5.0
+status: KEEP
+public: true
+phonology:
+  handle: bak
+  initial: b
+  rhyme: ak ⪤ bok
+  initcover: P
+  rhymecover: T
+notes:
+- type: T
+  text: <par>The Kiranti languages reflect a final velar stop, while Tibetan points to a final labial,
+    with this latter development perhaps due to assimilation to the initial labial.</par>

@@ -1,0 +1,31 @@
+tag: 634
+grpid: 2
+proto_language: PTB
+protoform: s-ŋya
+gloss: TUSK / TOOTH
+semkey: 1.3.4.1
+sequence: 1.0
+status: KEEP
+public: false
+exemplary: true
+xrefs: '633'
+references: cf. HPTB p. 175
+phonology:
+  handle: ŋa
+  prefix: s
+  initial: ŋ
+  rhyme: a
+  initcover: M
+  rhymecover: V
+mesoroots:
+- grpid: 70
+  group: 1.2.2
+  form: hŋaw
+  gloss: FANG / CANINE TOOTH
+notes:
+- type: F
+  text: '<par><hanform>牙</hanform> OC <latinform>*ngɑ̊</latinform>, GSR #37a-b; B &amp; S 2011: <latinform>*m-ɢˁ‹r›a</latinform>;
+    Mand. <latinform>yá</latinform>.</par>'
+- type: T
+  text: <par>This root was set up as <latinform>*d-ŋa</latinform> in HPTB 175, with the erroneous note
+    that the only reflex in TB was the Pa-O Karen form.</par>

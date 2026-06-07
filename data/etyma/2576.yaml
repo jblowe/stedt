@@ -1,0 +1,30 @@
+tag: 2576
+grpid: 2
+proto_language: PTB
+protoform: prut
+gloss: BOIL (v.)
+semkey: '6.6'
+sequence: 1222.0
+status: KEEP
+public: true
+references: STC#131, HPTB p.364
+phonology:
+  handle: prut
+  initial: pr
+  rhyme: ut
+  initcover: P
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ɓut-I, ɓuʔ-II
+  gloss: BOIL (v.)
+- grpid: 50
+  group: '7'
+  form: phrɔᴬ
+  gloss: BOIL (v.)
+notes:
+- type: F
+  text: '<par><hanform>沸</hanform> OC <latinform>*pi̯wəd</latinform>, GSR #500q &apos;boil&apos;; Schuessler
+    2007:233-4 <latinform>*pəts</latinform> &lt; <latinform>*puts</latinform>; B &amp; S 2011: <latinform>*Nə.put-s
+    {Nə.p[u][t]-s}</latinform>; Mand. <latinform>fèi</latinform>.</par>'

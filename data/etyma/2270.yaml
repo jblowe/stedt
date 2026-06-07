@@ -1,0 +1,16 @@
+tag: 2270
+grpid: 2
+proto_language: PTB
+protoform: hwaŋ
+gloss: ENCIRCLE / CIRCULAR / FENCE
+semkey: 9.7.2
+sequence: 1797.0
+status: KEEP
+public: true
+references: cf. STC#217, HPTB p.269
+phonology:
+  handle: hwaŋ
+  initial: hw
+  rhyme: aŋ
+  initcover: H
+  rhymecover: N

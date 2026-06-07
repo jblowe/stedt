@@ -1,0 +1,29 @@
+tag: 731
+grpid: 2
+proto_language: PTB
+protoform: g-(t)syəw-k/ŋ
+gloss: WING / HAND
+semkey: 1.5.1.3
+sequence: 19.0
+status: KEEP
+public: true
+references: incl 728,732,733; cf. HPTB p.199
+phonology:
+  handle: tsy
+  initial: (t)s(y
+  rhyme: əw-k
+  initcover: TS
+  rhymecover: VWT
+notes:
+- type: T
+  text: <par>The nasal-final allofam of this widespread root is attested in Chepang and Nungic. Note the
+    semantic association in Tibetan between WING and SIDE OF BODY. The velar prefix shows up in Tibetan
+    and Qiangic.</par><par>It is sometimes difficult to distinguish reflexes of this etymon from those
+    of <xref ref="737">#737</xref>.</par><par>There is a Chinese comparandum.</par>
+- type: F
+  text: '<par><hanform>手</hanform> OC <latinform>*śi̯ôg</latinform> GSR #1101a-b &apos;hand&apos;; Li
+    1971/76: <latinform>(*hrjəgwx)</latinform>; Baxter 1992 #274: <reconstruction>*hjuʔ</reconstruction>;  B
+    &amp; S 2011: <latinform>*n̥uʔ</latinform>; Schuessler 2007:469; Mand. <latinform>shǒu</latinform>.</par><par>ZJH:
+    Contra Karlgren’s GSR reconstruction, this Chinese word certainly did not begin with a coronal fricative
+    in Chinese. More recent scholarship shows that the initial was a voiceless resonant of some sort.
+    The comparison with the PTB root is therefore unsustainable.</par>'

@@ -1,0 +1,15 @@
+tag: 224
+grpid: 45
+proto_language: PL
+protoform: ʔb(r)ay² or ʔb(r)an²
+gloss: NECK / ROUNDED PART
+semkey: 1.4.2
+sequence: 7.0
+status: DELETE
+public: false
+phonology:
+  handle: ʔbra
+  initial: ʔb(r)
+  rhyme: ay² or ʔ
+  initcover: H
+  rhymecover: LW

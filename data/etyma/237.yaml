@@ -1,0 +1,38 @@
+tag: 237
+grpid: 2
+proto_language: PTB
+protoform: g-ra-t
+gloss: BONE
+semkey: 1.6.3
+sequence: 3.0
+status: KEEP
+public: true
+references: cf. HPTB p.173
+phonology:
+  handle: g/s-
+  initial: r(w)
+  rhyme: a-s
+  initcover: L
+  rhymecover: VS
+notes:
+- type: T
+  text: <par>There are several Tujia forms with initial velar (e.g. <latinform>si³lu¹<emph>ga¹</emph></latinform>
+    &apos;pig&apos;s bone&apos;, <latinform>lu¹<emph>ga¹</emph></latinform> &apos;bone&apos;), which might
+    belong to this root, if we assume preemption by the prefix. On the other hand, we are considering
+    the Bai forms to descend from this etymon on the strength of the <latinform>-w-</latinform> medial.</par><par>Jingpho
+    has developed a nasal prefix with this root.</par>
+- type: F
+  text: '<par><hanform>呂</hanform> / <hanform>吕</hanform> OC <latinform>*gli̯o</latinform>, GSR #76a-c
+    &apos;spine; pitchpipe&apos;; Schuessler 2007:367 <latinform>*raʔ</latinform>; B &amp; S 2011: <latinform>*raʔ
+    {[r]aʔ}</latinform>; Mand. <latinform>lǚ</latinform>.<br /><hanform>梠</hanform> OC <latinform>*gli̯o</latinform>,
+    GSR #76e-f &apos;beam supporting rafters of a roof&apos;; Schuessler 2007:367 <latinform>*raʔ</latinform>;
+    B &amp; S 2011: (<latinform>*raʔ {[r]aʔ}</latinform>); Mand. <latinform>lǚ</latinform>.<br /><hanform>旅</hanform>
+    OC <latinform>*gli̯o</latinform>, GSR #77a &apos;arrange in a series; one after another; troops, multitude&apos;;
+    Schuessler 2007:367 <latinform>*raʔ</latinform>; B &amp; S 2011: <latinform>*raʔ {[r]aʔ}</latinform>;
+    Mand. <latinform>lǚ</latinform>.</par><par><latinform>Comment:</latinform> The etymon above glossed
+    &apos;arrange in a series...&apos;, etc. is apparently the earliest to be associated with the graph
+    <hanform>旅</hanform> <latinform>lǚ</latinform> in Chinese. The same graph, <hanform>旅</hanform>, was
+    later borrowed to represent another, unrelated etymon glossed &apos;guest, stranger, ... lodging&apos;,
+    which is also a comparandum for <xref ref="5531">#5531</xref>.</par><par>Note that the graph <hanform>膂</hanform>
+    (GSR #77e), Mand. <latinform>lǚ</latinform>, is essentially the same etymon as <hanform>旅</hanform>,
+    with the same OC reconstruction.</par>'

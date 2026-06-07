@@ -1,0 +1,19 @@
+tag: 5598
+grpid: 2
+proto_language: PTB
+protoform: m-n(w)ay
+gloss: YAM / TARO
+semkey: 3.1.5
+sequence: 3.0
+status: KEEP
+public: true
+references: cf. HPTB pp. 215, 217
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: hnwɛᴮ
+  gloss: YAM, POTATO
+notes:
+- type: T
+  text: <par>Forms with initial <latinform>*m-</latinform> are e.g. Lahu <latinform>mə̄</latinform> show
+    preemption by the nasal prefix.</par>

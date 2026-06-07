@@ -1,0 +1,34 @@
+tag: 60
+grpid: 2
+proto_language: PTB
+protoform: saːw
+gloss: FAT (n.) / GREASE / OIL / SWEAT
+semkey: 1.6.4.1
+sequence: 3.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: OIL, GREASE
+references: cf. STC#272, GSR 1134e, HPTB
+phonology:
+  handle: saːw
+  initial: s
+  rhyme: aːw
+  initcover: S
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: thaaw
+  gloss: FAT / GREASE
+- grpid: 66
+  group: 1.3.4
+  form: tʰaw
+  gloss: FAT
+notes:
+- type: F
+  text: '<par><hanform>臊</hanform> OC <latinform>*sɑ̂u</latinform>, GSR #1134e; B &amp; S 2011: <latinform>*m-sˁaw</latinform>;
+    Mand. <latinform>sāo</latinform>.</par>'
+- type: T
+  text: <par>This well-established root has acquired an <latinform>-s</latinform> suffix of unknown meaning
+    in Magar.</par>

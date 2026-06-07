@@ -1,0 +1,31 @@
+tag: 2183
+grpid: 2
+proto_language: PTB
+protoform: bʷaŋ ⪤ pʷaŋ
+gloss: UNCLE / ELDER BROTHER / SENIOR MALE RELATIVE
+semkey: 4.7.1
+sequence: 9.0
+status: KEEP
+public: false
+references: cf. STC p.23, JAM 2000:#21, HPTB pp.269, 303
+phonology:
+  handle: bwaŋ
+  initial: bʷ/pʷ
+  rhyme: aŋ
+  initcover: P
+  rhymecover: N
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: paŋ
+  gloss: UNCLE (paternal)
+notes:
+- type: F
+  text: <par><plainlatinform>STC p. 174</plainlatinform> derives <plainlatinform>GSR</plainlatinform>&apos;s
+    OC <latinform>*xi̯wăŋ</latinform> from an earlier <latinform>**plwăŋ</latinform> on the basis of
+    a possible connection with <hanform>伯</hanform> OC <latinform>*păk</latinform> (<plainlatinform>GSR
+    782i</plainlatinform>) &apos;eldest brother&apos;, as well as a putative parallel example of PST <reconstruction>*labial-plus-w</reconstruction>
+    clusters becoming <latinform>χw-</latinform> in OC, i.e., <xref ref="2152">#2152</xref> <hanform>燔</hanform>
+    <latinform>*b‘i̯wăn</latinform> BURN / ROAST (<plainlatinform>GSR 195i</plainlatinform>) ⪤ <hanform>火</hanform>
+    <latinform>*χwâr</latinform> (<plainlatinform>GSR 353a-c</plainlatinform>).</par><par>Also see <xref
+    ref="2440">#2440</xref>.</par>

@@ -1,0 +1,48 @@
+tag: 2651
+grpid: 2
+proto_language: PTB
+protoform: g-sar
+gloss: NEW / FRESH
+semkey: 9.6.1.1
+sequence: 8.0
+status: KEEP
+public: false
+references: STC p.147
+phonology:
+  handle: sar
+  initial: s
+  rhyme: ar
+  initcover: S
+  rhymecover: L
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: saːr
+  gloss: NEW
+- grpid: 50
+  group: '7'
+  form: san / sành
+  gloss: NEW
+- grpid: 8
+  group: '1.2'
+  form: thar
+  gloss: NEW / FRESH
+- grpid: 66
+  group: 1.3.4
+  form: tʰar
+  gloss: NEW
+- grpid: 50
+  group: '7'
+  form: saNᴬ
+  gloss: NEW
+- grpid: 63
+  group: 1.3.1
+  form: a-saːn
+  gloss: NEW
+notes:
+- type: F
+  text: '<par><hanform>鮮</hanform> OC <latinform>*si̯an</latinform>, GSR #209a-c &apos;fresh in general
+    (originally of fish or meat)&apos;; Coblin 86:112 ST <latinform>*gsjar</latinform> &gt; OC <latinform>*sjan</latinform>;
+    Schuessler 2007:528 <latinform>*san</latinform>; B &amp; S 2011: <latinform>*ser {[s][e]r}</latinform>;
+    Mand. <latinform>xiān</latinform>.</par><par><latinform>Comment:</latinform> Cf. also <hanform>新</hanform>
+    <latinform>xīn</latinform>, comparandum for <xref ref="2658">#2658</xref>.</par>'

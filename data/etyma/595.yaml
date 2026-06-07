@@ -1,0 +1,22 @@
+tag: 595
+grpid: 2
+proto_language: PTB
+protoform: s-lwa
+gloss: SKIN
+semkey: 1.6.5
+sequence: 20.0
+status: KEEP
+public: true
+phonology:
+  handle: lwa-
+  prefix: s
+  initial: l(w)
+  rhyme: a-p
+  suffix: p
+  initcover: L
+  rhymecover: VT
+notes:
+- type: T
+  text: <par>This root resembles <xref ref="598">#598</xref>, and Phunoi seems to show variation between
+    an open and a stopped reflex. We tentatively include the Phunoi forms under this open syllable etymon
+    because Phunoi does preserve PTB <reconstruction>*-p</reconstruction>.</par>

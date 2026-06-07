@@ -1,0 +1,30 @@
+tag: 623
+grpid: 2
+proto_language: PTB
+protoform: s/m-l(y)a-t
+gloss: TONGUE
+semkey: 1.3.3
+sequence: 1.2
+status: KEEP
+public: true
+references: cf. HPTB pp. 50, 165, 171, 215, 487, 511
+phonology:
+  handle: s/m-l
+  prefix: s/m
+  initial: l(y)
+  rhyme: a-t
+  initcover: L
+  rhymecover: VT
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: rjo
+  gloss: TONGUE
+notes:
+- type: F
+  text: '<par><hanform>舌</hanform> OC <latinform>*d̑ʼi̯ɑt</latinform>, GSR #288a &apos;tongue&apos;; B
+    &amp; S 2011: <latinform>*mə.lat</latinform>; Mand. <latinform>shé</latinform>.</par>'
+- type: T
+  text: <par>The present allofam of this complex word family has reflexes both with open <latinform>-a</latinform>
+    and with a <latinform>-t</latinform> final. The latter variant is attested in Jingpho, Lepcha, Magar,
+    Limbu, and Chinese.</par>

@@ -1,0 +1,19 @@
+tag: 3334
+grpid: 2
+proto_language: PTB
+protoform: tsyu(m/p)
+gloss: HIP
+semkey: 1.4.9.2
+sequence: 2.0
+status: KEEP
+public: true
+references: '("HIM") Attested: Tamang, Kham'
+phonology:
+  handle: tšum/
+  initial: tš
+  rhyme: um/p
+  initcover: TS
+  rhymecover: NT
+notes:
+- type: T
+  text: <par>This weakly attested root requires further confirmation.</par>

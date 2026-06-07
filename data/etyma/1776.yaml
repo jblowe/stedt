@@ -1,0 +1,16 @@
+tag: 1776
+grpid: 2
+proto_language: PTB
+protoform: tyok
+gloss: BITE
+semkey: 1.3.4.4
+sequence: 6.1
+status: DELETE
+public: false
+xrefs: '1799'
+phonology:
+  handle: tyok
+  initial: ty
+  rhyme: ok
+  initcover: T
+  rhymecover: T

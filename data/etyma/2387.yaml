@@ -1,0 +1,25 @@
+tag: 2387
+grpid: 2
+proto_language: PTB
+protoform: b-la
+gloss: COTTON
+semkey: '5.1'
+sequence: 1487.0
+status: KEEP
+public: true
+references: cf. STC p.111, HPTB pp.130,251
+phonology:
+  handle: la
+  prefix: b
+  initial: l
+  rhyme: a
+  initcover: L
+  rhymecover: V
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: laa
+  gloss: COTTON
+notes:
+- type: T
+  text: <par>This root looks as if it might be related to <xref ref="5661">#5661</xref>.</par>

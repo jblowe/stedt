@@ -1,0 +1,19 @@
+tag: 1731
+grpid: 2
+proto_language: PTB
+protoform: C-raŋ
+gloss: URINE
+semkey: 1.8.4
+sequence: 7.0
+status: KEEP
+public: true
+phonology:
+  handle: raŋ
+  prefix: C
+  initial: r
+  rhyme: aŋ
+  initcover: L
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This tentatively reconstructed root shows evidence of both a labial and a velar prefix.</par>

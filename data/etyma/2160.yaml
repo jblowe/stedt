@@ -1,0 +1,37 @@
+tag: 2160
+grpid: 2
+proto_language: PTB
+protoform: (p/b)lyaŋ
+gloss: STRAIGHT / STRAIGHTEN
+semkey: 7.1.5.1
+sequence: 15.0
+status: KEEP
+public: true
+references: STC#352, HPTB
+phonology:
+  handle: bleŋ
+  initial: bl/pl
+  rhyme: eŋ
+  initcover: P
+  rhymecover: NLT
+notes:
+- type: T
+  text: <par>As discussed in Matisoff 1988 (&quot;Straight, flat, full&quot;), this root is allofamically
+    related both to <xref ref="707">#707</xref> and <xref ref="111">#111</xref>, the common semantic core
+    being &quot;a complete or ideal realization of a quality appropriate to a particular dimensionality
+    in space&quot;.</par>
+- type: F
+  text: '<par><unicode>2123c</unicode> OC <latinform>*t’ieng</latinform>, GSR #835a-c &apos;good (virtuous);
+    be good at&apos;; Schuessler 2007: (<latinform>*lhêŋʔ</latinform>); B &amp; S 2011: <latinform>*l̥ˁeŋʔ</latinform>;
+    Mand. <latinform>tǐng</latinform>.<br /><hanform>挺</hanform> OC <latinform>*d’ieng</latinform>, GSR
+    #835i &apos;stick out, straighten up; straight, stiff; quite (adv.)&apos;; Schuessler 2007:498 <latinform>*lhêŋʔ</latinform>;
+    Mand. <latinform>tǐng</latinform>.<br /><hanform>庭</hanform> OC <latinform>*d’ieng</latinform>, GSR
+    #835h &apos;straight (of growing grain), upright (of morality); Schuessler 2007:498 <latinform>*lêŋ</latinform>;
+    Mand. <latinform>tíng</latinform>.</par><par><hanform>梃</hanform> OC <latinform>*d’ieng</latinform>,
+    GSR #835j &apos;stick, staff, club&apos;; Schuessler 2007:499 <latinform>*lêŋʔ</latinform>; Mand.
+    <latinform>tǐng</latinform>.<br /><hanform>筳</hanform> OC <latinform>*t’i̯ĕng</latinform>, GSR #835k-l
+    &apos;bamboo rod&apos;; Schuessler 2007:499 <latinform>*lêŋ</latinform>; Mand. <latinform>tíng</latinform>.<br
+    /><hanform>鋌</hanform> OC <latinform>*d’ieng</latinform>, GSR #835o &apos;metal rod, ingot&apos;;
+    Schuessler 2007:499 <latinform>*lêŋʔ</latinform>; Mand. <latinform>dìng</latinform>.<br /><hanform>珽</hanform>
+    OC <latinform>*t’ieng</latinform>, GSR #835p &apos;jade scepter&apos;; Schuessler 2007:499 <latinform>*lêŋʔ</latinform>;
+    Mand. <latinform>tǐng</latinform>.</par>'

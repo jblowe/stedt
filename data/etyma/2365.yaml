@@ -1,0 +1,44 @@
+tag: 2365
+grpid: 2
+proto_language: PTB
+protoform: r-kəw ⪤ hu
+gloss: STEAL
+semkey: 6.2.2.1
+sequence: 1.1
+status: KEEP
+public: true
+xrefs: '2622'
+references: STC#033
+phonology:
+  handle: kuw
+  prefix: r
+  initial: k
+  rhyme: uw=r-kəw
+  initcover: K
+  rhymecover: VLWT
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: howᴮ
+  gloss: STEAL (v.)
+- grpid: 45
+  group: 6.1.2
+  form: ko²
+  gloss: STEAL
+- grpid: 42
+  group: '6.1'
+  form: kəw²
+  gloss: STEAL
+- grpid: 63
+  group: 1.3.1
+  form: a-hu
+  gloss: STEAL
+- grpid: 12
+  group: 1.7.2
+  form: C̬-kəːw
+  gloss: STEAL
+notes:
+- type: F
+  text: '<par><hanform>寇</hanform> OC <latinform>*k’u</latinform>, GSR #111a-b &apos;rob&apos;; Schuessler
+    2007:336 <latinform>*khôh</latinform>; B &amp; S 2011: <latinform>*kʰˁo-s {[k]ʰˁ(r)o-s}</latinform>;
+    Mand. <latinform>kòu</latinform>.</par>'

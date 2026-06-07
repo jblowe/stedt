@@ -1,0 +1,23 @@
+tag: 104
+grpid: 2
+proto_language: PTB
+protoform: nwaŋ
+gloss: HUNGRY
+semkey: 1.1.3
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: noŋ
+  initial: n
+  rhyme: oŋ
+  initcover: M
+  rhymecover: N
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: kV-noŋ
+  gloss: HUNGRY
+notes:
+- type: T
+  text: <par>The meaning of the first element in the Tani binomes is still obscure.</par>

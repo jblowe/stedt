@@ -1,0 +1,17 @@
+tag: 2297
+grpid: 2
+proto_language: PTB
+protoform: kap
+gloss: NEEDLE
+semkey: '5.1'
+sequence: 1.3
+status: DELETE
+public: true
+xrefs: '5398'
+references: cf. STC#052, HPTB pp. 198, 251, 342
+phonology:
+  handle: kap
+  initial: k
+  rhyme: ap=kəp
+  initcover: K
+  rhymecover: T

@@ -1,0 +1,18 @@
+tag: 604
+grpid: 2
+proto_language: PTB
+protoform: twəy
+gloss: SPIT
+semkey: 1.8.3
+sequence: 3.0
+status: DELETE
+public: true
+exemplary: true
+xrefs: '298'
+references: STC#168
+phonology:
+  handle: twəy
+  initial: tw
+  rhyme: əy
+  initcover: T
+  rhymecover: W

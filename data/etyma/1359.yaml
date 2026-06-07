@@ -1,0 +1,22 @@
+tag: 1359
+grpid: 2
+proto_language: PTB
+protoform: m-ba(k/ŋ)
+gloss: COPULATE / LOVE / WOMB
+semkey: 1.9.1.1
+sequence: 149.0
+status: KEEP
+public: true
+references: from byak VAGINA?
+phonology:
+  handle: baK
+  initial: b
+  rhyme: ak/ŋ
+  initcover: P
+  rhymecover: NT
+notes:
+- type: T
+  text: <par>This etymon, which seems to cover quite an unusual semantic range, including COPULATE / LOVE,
+    and WOMB / NEST, is fairly broadly distributed, with likely reflexes in the NE Indian Areal Group,
+    Himalayish, Loloish, and Tangut (Xixia). Allofams with final velar stop and final velar nasal both
+    occur. The nasal prefix is directly attested in Moyon, Bisu, and Tangut.</par>

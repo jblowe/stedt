@@ -1,0 +1,17 @@
+tag: 644
+grpid: 2
+proto_language: PTB
+protoform: grwak
+gloss: FRIEND / ASSIST
+semkey: 4.4.2
+sequence: 1980.0
+status: KEEP
+public: true
+references: cf. HPTB p.327
+notes:
+- type: T
+  text: '<par>The Chinese/WT comparison is due to Gong 2001: #28.</par>'
+- type: F
+  text: '<par><hanform>仇</hanform> Coblin 84 GSR #992</par>'
+- type: I
+  text: <par>OC forms not in db (see HPTB p.327).</par>

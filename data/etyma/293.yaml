@@ -1,0 +1,20 @@
+tag: 293
+grpid: 2
+proto_language: PTB
+protoform: lay
+gloss: LEAF / PAPER
+semkey: 3.1.3
+sequence: 2279.0
+status: KEEP
+public: true
+references: 'cf. HPTB p,209, GSTC #123'
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: lay
+  gloss: LEAF / BOOK
+notes:
+- type: T
+  text: '<par>This etymon is derived from the Indo-Aryan root <emph>LIKH</emph> &apos;scratch, write&apos;
+    (Turner 1966: 640-641). Compare Skt. <emph>likhá-</emph> &apos;writer&apos; with Jingpho <latinform>làikā</latinform>
+    &apos;book&apos;.</par>'

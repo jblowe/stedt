@@ -1,0 +1,21 @@
+tag: 2463
+grpid: 2
+proto_language: PTB
+protoform: (m/b)rəw
+gloss: GRAIN / SEED / LINEAGE
+semkey: 3.1.6.2
+sequence: 2040.0
+status: KEEP
+public: true
+references: STC p.43
+phonology:
+  handle: mruw
+  initial: mr
+  rhyme: uw~mrəw
+  initcover: M
+  rhymecover: NLW
+notes:
+- type: F
+  text: '<par><hanform>物</hanform> OC <latinform>*mi̯wət</latinform>, GSR #503h &apos;variety, sort, class,
+    thing; to sort&apos;; Schuessler 2007:520 <latinform>*mət</latinform>; B &amp; S 2011: <latinform>*C.mut</latinform>;
+    Mand. <latinform>wù</latinform>.</par>'

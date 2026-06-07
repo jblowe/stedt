@@ -1,0 +1,17 @@
+tag: 3306
+grpid: 2
+proto_language: PTB
+protoform: de-n
+gloss: SLEEP
+semkey: 1.1.4.1
+sequence: 10.0
+status: DELETE
+public: false
+references: DOUBTFUL
+phonology:
+  handle: de-n
+  initial: d
+  rhyme: e-n
+  suffix: n
+  initcover: T
+  rhymecover: VN

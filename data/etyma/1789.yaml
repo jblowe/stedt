@@ -1,0 +1,20 @@
+tag: 1789
+grpid: 2
+proto_language: PTB
+protoform: l-kuk
+gloss: MUTE / DUMB
+semkey: 8.5.4.4
+sequence: 2.0
+status: KEEP
+public: false
+references: Bodish
+phonology:
+  handle: kuk
+  prefix: l
+  initial: k
+  rhyme: uk
+  initcover: K
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root seems to be independent of <xref ref="1752">#1752</xref>.</par>

@@ -1,0 +1,16 @@
+tag: 3392
+grpid: 2
+proto_language: PTB
+protoform: ya
+gloss: BACK
+semkey: 1.4.8
+sequence: 20.0
+status: DELETE
+public: false
+xrefs: '208'
+phonology:
+  handle: ya
+  initial: y
+  rhyme: a
+  initcover: L
+  rhymecover: V

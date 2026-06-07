@@ -1,0 +1,19 @@
+tag: 708
+grpid: 3
+proto_language: NEIA
+protoform: p(r)ak ⪤ r-pak
+gloss: LEAF / PALM
+semkey: 3.1.3
+sequence: 1.1
+status: DELETE
+public: false
+exemplary: true
+xrefs: '821'
+possallo: '776'
+references: incl 706,707
+phonology:
+  handle: prak
+  initial: p(r)
+  rhyme: ak ⪤ r-p
+  initcover: P
+  rhymecover: VLT

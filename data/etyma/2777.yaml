@@ -1,0 +1,54 @@
+tag: 2777
+grpid: 2
+proto_language: PTB
+protoform: d-wam
+gloss: BEAR (animal)
+semkey: 2.2.3
+sequence: 1132.0
+status: KEEP
+public: true
+references: STC#461, HPTB
+phonology:
+  handle: wam
+  prefix: d
+  initial: w
+  rhyme: am
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: wom
+  gloss: BEAR (animal)
+- grpid: 5
+  group: 1.1.1
+  form: tum
+  gloss: BEAR (animal)
+- grpid: 42
+  group: '6.1'
+  form: d-wam¹/²
+  gloss: BEAR
+- grpid: 66
+  group: 1.3.4
+  form: him
+  gloss: BEAR
+- grpid: 45
+  group: 6.1.2
+  form: k-d-wam¹
+  gloss: BEAR
+- grpid: 50
+  group: '7'
+  form: thamᴬ
+  gloss: BEAR (animal)
+- grpid: 66
+  group: 1.3.4
+  form: ŋom
+  gloss: BEAR
+notes:
+- type: T
+  text: <par>A number of languages (Tani, Tibetan, Lepcha, Lahu) show preemption of the initial by the
+    dental prefix.</par><par>Jingpho has acquired the homorganic stop in this root.</par>
+- type: F
+  text: '<par><hanform>熊</hanform> OC <latinform>*d-wɑm</latinform>, GSR #674a-b ‘bear’; Coblin 86:40
+    ST <latinform>*dɣwjəm</latinform> &gt; OC <latinform>*gwjəm</latinform>; Schuessler 2007:542 <latinform>*wəm</latinform>;
+    B &amp; S 2011: <latinform>*C.ɢʷəm {C.[ɢ]ʷ(r)əm}</latinform>; Mand. <latinform>xióng</latinform>.</par>'

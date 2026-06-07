@@ -1,0 +1,31 @@
+tag: 2152
+grpid: 2
+proto_language: PTB
+protoform: bʷar ⪤ pʷar
+gloss: BURN / FIRE / KINDLE / ROAST
+semkey: 3.2.12.1
+sequence: 2.1
+status: KEEP
+public: true
+xrefs: =2135
+references: cf. STC#220, but cf. HPTB p.428
+phonology:
+  handle: bar
+  initial: bʷ/pʷ
+  rhyme: ar
+  initcover: P
+  rhymecover: LT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ʔur
+  gloss: BURN / SCORCH
+- grpid: 5
+  group: 1.1.1
+  form: par
+  gloss: IGNITE
+notes:
+- type: F
+  text: '<par><hanform>燔</hanform> OC <latinform>*b’i̯wɑ̆n</latinform>, GSR #195i &apos;burn, roast&apos;;
+    Coblin 86:50: ST <latinform>*bjar</latinform> &gt; OC <latinform>*bjan</latinform>; Schuessler 2007:229-30
+    <latinform>*ban</latinform>; B &amp; S 2011: <latinform>*bar {[b]ar}</latinform>; Mand. <latinform>fán</latinform>.</par>'

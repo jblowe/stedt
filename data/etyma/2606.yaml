@@ -1,0 +1,27 @@
+tag: 2606
+grpid: 2
+proto_language: PTB
+protoform: b-rey
+gloss: BUY / BARTER
+semkey: '6.22'
+sequence: 1.3
+status: KEEP
+public: true
+xrefs: =2137
+references: cf. STC#293, HPTB
+phonology:
+  handle: rey
+  prefix: b
+  initial: r
+  rhyme: ey
+  initcover: L
+  rhymecover: W
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: rəː
+  gloss: BUY
+- grpid: 50
+  group: '7'
+  form: breᴬ
+  gloss: BUY

@@ -1,0 +1,25 @@
+tag: 161
+grpid: 2
+proto_language: PTB
+protoform: twal
+gloss: STRONG / HARD / TOUGH
+semkey: 9.6.1.1
+sequence: 9.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: tol
+  initial: t
+  rhyme: ol
+  initcover: T
+  rhymecover: L
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: tol
+  gloss: STRONG
+notes:
+- type: T
+  text: <par>This root may be safely reconstructed for Proto-Tani, although it might ultimately be of
+    Indo-Aryan origin. Cf. Sanskrit <emph>sthūra- ~ sthūla-</emph> &apos;stout, broad, strong&apos;.</par>

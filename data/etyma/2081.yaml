@@ -1,0 +1,16 @@
+tag: 2081
+grpid: 2
+proto_language: PTB
+protoform: pwap
+gloss: HOLE / CRACK / APERTURE
+semkey: 3.2.7
+sequence: 15.0
+status: KEEP
+public: true
+references: cf. STC#345, HPTB p.381
+phonology:
+  handle: pop
+  initial: p
+  rhyme: op
+  initcover: P
+  rhymecover: T

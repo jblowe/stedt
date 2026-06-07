@@ -1,0 +1,30 @@
+tag: 1619
+grpid: 2
+proto_language: PTB
+protoform: ma
+gloss: FEMALE / MOTHER / PRINCIPAL PART / FEMININE SUFFIX
+semkey: 1.9.3
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+allofams: '1623'
+references: STC#487, incl 1330
+phonology:
+  handle: ma
+  initial: m
+  rhyme: a
+  initcover: M
+  rhymecover: V
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: C-ma³
+  gloss: FEMALE SUFFIX
+- grpid: 50
+  group: '7'
+  form: məᴮ
+  gloss: MOTHER, FEMALE (OF ANIMALS)
+notes:
+- type: F
+  text: '<par>GSR #40 (not)</par>'

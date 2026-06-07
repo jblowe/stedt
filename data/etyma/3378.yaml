@@ -1,0 +1,16 @@
+tag: 3378
+grpid: 29
+proto_language: PKir
+protoform: pwam
+gloss: CHEST
+semkey: 1.4.4.3
+sequence: 18.0
+status: KEEP
+public: true
+xrefs: ?137 *p-wam BELLY ??
+phonology:
+  handle: pom
+  initial: p
+  rhyme: om
+  initcover: P
+  rhymecover: N

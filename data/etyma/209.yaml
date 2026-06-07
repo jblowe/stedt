@@ -1,0 +1,31 @@
+tag: 209
+grpid: 2
+proto_language: PTB
+protoform: g/b-liŋ ⪤ g/b-lyaŋ
+gloss: BACK / SPINE
+semkey: 1.4.8
+sequence: 3.0
+status: KEEP
+public: true
+xrefs: LOWER BACK/HIPS
+possallo: 1374,208
+references: incl old 210,1374.  GSR 76a-c, WSC p. 138 *gljagx
+phonology:
+  handle: g/b-li
+  initial: l
+  rhyme: iŋ⪤g/b-l
+  initcover: L
+  rhymecover: VNL
+mesoroots:
+- grpid: 12
+  group: 1.7.2
+  form: kʰeːŋ
+  gloss: BACK (BODY)
+- grpid: 23
+  group: 2.1.4
+  form: ᴬʰli
+  gloss: BACK / BACKSIDE
+notes:
+- type: T
+  text: <par>The Lepcha form <latinform>glyan̊</latinform> provides the best evidence for the allofam
+    with the <latinform>*-yaŋ</latinform> rhyme.</par>

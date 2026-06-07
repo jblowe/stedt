@@ -1,0 +1,20 @@
+tag: 358
+grpid: 2
+proto_language: PTB
+protoform: ta-y
+gloss: FOREHEAD
+semkey: 1.2.5.1
+sequence: 1.0
+status: KEEP
+public: true
+phonology:
+  handle: ta
+  initial: t
+  rhyme: a-y
+  suffix: y
+  initcover: T
+  rhymecover: VW
+notes:
+- type: T
+  text: <par>This provisionally reconstructed root seems to appear only in non-initial position in compounds.
+    The vocalism mostly varies from <latinform>-a</latinform> to <latinform>-i</latinform> or <latinform>-e</latinform>.</par>

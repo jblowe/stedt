@@ -1,0 +1,46 @@
+tag: 705
+grpid: 2
+proto_language: PTB
+protoform: p-yak
+gloss: ARM
+semkey: 1.5.1.2
+sequence: 1.6
+status: KEEP
+public: true
+possallo: '377'
+phonology:
+  handle: yak
+  prefix: p
+  initial: y
+  rhyme: ak
+  initcover: L
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This allofam is represented principally by a single WT form with honorific meaning. The source
+    of the labial prefix remains to be discovered. Jäschke (1881:347-8) gives &apos;bow, compliment, reverence&apos;
+    as an additional meaning. Whether this or &apos;hand&apos; is the basic meaning is reminiscent of
+    the phenomenon in the history of English whereby a verb meaning &apos;to pray&apos; had its reference
+    shifted by metonomy to &apos;bead used in prayer&apos;. (OE <latinform>gebed</latinform> &apos;prayer&apos;
+    &gt; ME <latinform>bede</latinform>, <latinform>bead</latinform> &apos;prayer, prayer bead, bead&apos;)</par><par>There
+    are also good-looking Lepcha, Limbu, and Karbi cognates, as well as a convincing Chinese comparandum.</par><par>The
+    Karbi variant with <latinform>pak</latinform> seems basically to mean &apos;leaf&apos;, or more generally
+    &apos;flat object&apos;. The Karbi morpheme <latinform>-pak</latinform> is glossed as &apos;num. part.,
+    flat things&apos; (Walker 1925:119). See also <xref ref="821">#821</xref>.</par>
+- type: F
+  text: '<par><hanform>臂</hanform> OC <reconstruction>*pi̯ĕg</reconstruction>, GSR #853s &apos;arm&apos;;
+    Li 1971: <latinform>(*pjigh)</latinform>; Baxter 1992: <latinform>(*pjeks)</latinform>; B &amp; S
+    2011: <reconstruction>*pek-s</reconstruction>; Schuessler 2007:164; Mand. <latinform>bì</latinform>.</par><par>ZJH:
+    The front vowel in Old Chinese would normally preclude a correspondence to PTB <reconstruction>*a</reconstruction>.
+    However, it can be noted that the bulk of the TB evidence points to <reconstruction>*e</reconstruction>;
+    Tibetan occasionally has (dialectally-influenced?) <latinform>ya</latinform> &lt; <reconstruction>*e</reconstruction>
+    where we would normally expect <latinform>e</latinform>. (Tibetan also has <latinform>(y)a</latinform>
+    &lt; PTB <reconstruction>*e</reconstruction> before dental codas, but that is not relevant here.)
+    The comparison can stand, but only if the PTB form is reconstructed as <reconstruction>*pek</reconstruction>,
+    which would have a number of ramifications for the TB etymology, viz.: (1) Unless reconstructed <reconstruction>*pek
+    ⪤ *pyak</reconstruction>, the word-family connection to <reconstruction>*yak</reconstruction> ‘arm’
+    would be harder to maintain; (2) the Karbi form <latinform>ri-pak</latinform> would have to be attributed
+    entirely to a separate root <reconstruction>*r-pak</reconstruction> ‘leaf’, with subsequent conflation
+    within Karbi of <reconstruction>*pak</reconstruction> and <reconstruction>*pek</reconstruction> because
+    of semantic and phonetic overlap. In short, the validity of this Chinese comparison is subject to
+    the uncertainty of the PTB reconstruction stemming from the small number of identified reflexes.  </par>'

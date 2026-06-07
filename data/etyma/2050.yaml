@@ -1,0 +1,16 @@
+tag: 2050
+grpid: 62
+proto_language: IA
+protoform: gālā
+gloss: CHEEK
+semkey: 1.2.5.2
+sequence: 19.0
+status: KEEP
+public: false
+references: LOAN < Nepali
+phonology:
+  handle: gālā
+  initial: g ̄
+  rhyme: alā
+  initcover: K
+  rhymecover: L

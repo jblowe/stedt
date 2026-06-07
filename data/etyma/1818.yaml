@@ -1,0 +1,15 @@
+tag: 1818
+grpid: 2
+proto_language: PTB
+protoform: si ⪤ zi
+gloss: LIVE
+semkey: 1.1.2.1
+sequence: 11.0
+status: DELETE
+public: false
+phonology:
+  handle: si
+  initial: s
+  rhyme: i⪤zi
+  initcover: S
+  rhymecover: V

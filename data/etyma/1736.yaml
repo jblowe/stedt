@@ -1,0 +1,16 @@
+tag: 1736
+grpid: 2
+proto_language: PTB
+protoform: ŋaw
+gloss: PALATE
+semkey: 1.3.1.1
+sequence: 7.0
+status: DELETE
+public: false
+references: Meithei
+phonology:
+  handle: ŋaw
+  initial: ŋ
+  rhyme: aw
+  initcover: M
+  rhymecover: W

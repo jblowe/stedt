@@ -1,0 +1,18 @@
+tag: 1324
+grpid: 2
+proto_language: PTB
+protoform: plik ⪤ pliŋ
+gloss: SPLEEN
+semkey: 1.7.4
+sequence: 7.0
+status: DELETE
+public: false
+possallo: 1325,1320
+references: incl 1321,1319
+phonology:
+  handle: lik/
+  prefix: p
+  initial: l
+  rhyme: i((k/ŋ))
+  initcover: L
+  rhymecover: NT

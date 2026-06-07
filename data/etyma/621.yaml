@@ -1,0 +1,43 @@
+tag: 621
+grpid: 2
+proto_language: PTB
+protoform: m/s-lay ⪤ s-ley
+gloss: TONGUE
+semkey: 1.3.3
+sequence: 1.1
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#281
+phonology:
+  handle: m/s-la
+  prefix: m/s
+  initial: l
+  rhyme: ay
+  initcover: L
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: lay
+  gloss: TONGUE
+- grpid: 66
+  group: 1.3.4
+  form: lej
+  gloss: TONGUE
+- grpid: 50
+  group: '7'
+  form: bleᴬ
+  gloss: TONGUE
+- grpid: 63
+  group: 1.3.1
+  form: m-lej(ʔ)
+  gloss: TONGUE
+- grpid: 50
+  group: '7'
+  form: hlajᴮ
+  gloss: LICK (v.)
+notes:
+- type: T
+  text: <par>Mikir and Khoirao have a dental stop instead of the lateral. Kham shows preemption by the
+    <latinform>*s-</latinform> prefix.</par>

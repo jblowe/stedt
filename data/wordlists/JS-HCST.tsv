@@ -1,0 +1,2108 @@
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
+173031	360	Bokar	ta-čit	ta-čit	abscess	abscess		1.8.6.2		0		p,6283
+173032	1253	Padam-Mishing [Abor-Miri]	ta-sut	ta-sut	abscess	abscess		1.8.6.2		0		p,6283
+173033	287	Apatani	tur	tur	alive	alive		1.1.2.1		0		6626
+173034	333	Bengni	a-tɯr	a-tɯr	alive	alive		1.1.2.1		0		p,6626
+173035	360	Bokar	tur	tur	alive	alive		1.1.2.1		0		6626
+173036	1253	Padam-Mishing [Abor-Miri]	tur	tur	alive	alive		1.1.2.1		0		6626
+173037	360	Bokar	-mur	-mur	amiss (verbal particle)	amiss (verbal particle)				0		6682
+173038	1079	Mishing [Miri]	-mur	-mur	amiss (verbal particle)	amiss (verbal particle)				0		6682
+173039	1251	Padam [Abor]	-mul	-mul	amiss (verbal particle)	amiss (verbal particle)				0		6682
+173040	360	Bokar	čuŋ-dum	čuŋ-dum	angle	angle		1.5.8		0		6285,m
+173041	1253	Padam-Mishing [Abor-Miri]	suŋ-ken	suŋ-ken	angle	angle		1.5.8		0		6285,m
+173042	333	Bengni	haː-fak	haː-fak	angry	angry		8.3.1.6.1		0		6201,6302
+173043	1253	Padam-Mishing [Abor-Miri]	ak	ak	angry	angry		8.3.1.6.1		0		6302
+173044	287	Apatani	ta-ruʔ	ta-ruʔ	ant	ant		2.2.6		0		p,6580
+173045	333	Bengni	ta-rup	ta-rup	ant	ant		2.2.6		0		p,6580
+173046	360	Bokar	ta-ruk	ta-ruk	ant	ant		2.2.6		0		p,6580
+173047	1251	Padam [Abor]	ta-ruk	ta-ruk	ant	ant		2.2.6		0		p,6580
+173048	287	Apatani	ɯ-mrjo	ɯ-mrjo	arrow poison (aconite)	arrow poison (aconite)		5.15		0		p,6469
+173049	333	Bengni	u-mjuː	u-mjuː	arrow poison (aconite)	arrow poison (aconite)		5.15		0		p,6469
+173050	360	Bokar	o-moː	o-moː	arrow poison (aconite)	arrow poison (aconite)		5.15		0		p,6469
+173051	1079	Mishing [Miri]	joŋ-mo	joŋ-mo	arrow poison (aconite)	arrow poison (aconite)		5.15		0		m,6469
+173052	1251	Padam [Abor]	ə-mo	ə-mo	arrow poison (aconite)	arrow poison (aconite)		5.15		0		p,6469
+173053	287	Apatani	a-pu	a-pu	arrow	arrow		5.15		0		p,6536
+173054	333	Bengni	u-puk	u-puk	arrow	arrow		5.15		0		p,6536
+173055	360	Bokar	u-puk	u-puk	arrow	arrow		5.15		0		p,6536
+173056	1253	Padam-Mishing [Abor-Miri]	ə-puk	ə-puk	arrow	arrow		5.15		0		p,6536
+173057	287	Apatani	go-ča	go-ča	ascend	ascend		6.7.7		0		m,6279
+173058	333	Bengni	čaː	čaː	ascend	ascend		6.7.7		0		6279
+173059	360	Bokar	čaŋ	čaŋ	ascend	ascend		6.7.7		0		6279
+173060	1252	Padam [Abor]	saŋ	saŋ	ascend	ascend		6.7.7		0		6279
+173061	287	Apatani	ja-hɯ	ja-hɯ	ax	ax		5.11.5.3		0		p,2772
+173062	333	Bengni	ɯ-fɯː	ɯ-fɯː	ax	ax		5.11.5.3		0		p,2772
+173063	360	Bokar	jaː	jaː	ax	ax		5.11.5.3		0		
+173064	1079	Mishing [Miri]	ɯ-gɯŋ	ɯ-gɯŋ	ax	ax		5.11.5.3		0		2772,m
+173065	333	Bengni	a-ŋɯː	a-ŋɯː	baby	baby		4.2.11		0		p,90
+173066	360	Bokar	a-ŋaː	a-ŋaː	baby	baby		4.2.11		0		p,90
+173067	287	Apatani	kur	kur	back	back (adv.)	adv	1.4.8		0		2827
+173068	333	Bengni	kɯr	kɯr	back	back (adv.)	adv	1.4.8		0		2827
+173069	360	Bokar	kur	kur	back	back (adv.)	adv	1.4.8		0		2827
+173070	287	Apatani	kɯ-|lĩ	kɯ-lĩ	back	back (n.)	n	1.4.8		0		6417
+173071	333	Bengni	lam-|ku	lam-|ku	back	back (n.)	n	1.4.8		0		6417
+173072	360	Bokar	lam-|ko	lam-|ko	back	back (n.)	n	1.4.8		0		6417
+173073	1253	Padam-Mishing [Abor-Miri]	lam-|ku	lam-|ku	back	back (n.)	n	1.4.8		0		6417
+173074	333	Bengni	ɯː	ɯː	bamboo (large species)	bamboo (large species)		3.1.1		0		6665
+173075	1251	Padam [Abor]	eŋ	eŋ	bamboo (large species)	bamboo (large species)		3.1.1		0		6665
+173076	287	Apatani	(kɯ-pa) ko-|pa	(kɯ-pa) ko-|pa	banana	banana		3.1.5		0		m,m,6381
+173077	333	Bengni	ku-|pak	ku-|pak	banana	banana		3.1.5		0		6381
+173078	1253	Padam-Mishing [Abor-Miri]	ko-|pak	ko-|pak	banana	banana		3.1.5		0		6381
+173079	287	Apatani	sɯ-dĩ	sɯ-dĩ	barking deer	barking deer		2.1.11.1		0		m,6293
+173080	333	Bengni	šu-dum	šu-dum	barking deer	barking deer		2.1.11.1		0		m,6293
+173081	360	Bokar	šu-dum	šu-dum	barking deer	barking deer		2.1.11.1		0		m,6293
+173082	1253	Padam-Mishing [Abor-Miri]	si-dum	si-dum	barking deer	barking deer		2.1.11.1		0		m,6293
+173083	333	Bengni	pin-tɕi	pin-tɕi	bat / flying fox	bat / flying fox		2.2.4.1		0		6524,m
+173084	360	Bokar	ta-pen	ta-pen	bat / flying fox	bat / flying fox		2.2.4.1		0		p,6524
+173085	1253	Padam-Mishing [Abor-Miri]	pon-sik	pon-sik	bat / flying fox	bat / flying fox		2.2.4.1		0		6524,m
+173086	287	Apatani	hi-|bu	hi-|bu	beak	beak		1.3.1.2		0		476
+173087	333	Bengni	fi-|buŋ	fi-|buŋ	beak	beak		1.3.1.2		0		476
+173088	360	Bokar	ji-|buŋ	ji-|buŋ	beak	beak		1.3.1.2		0		476
+173089	287	Apatani	pe-rũ	pe-rũ	beans	beans		3.1.4		0		2155,m
+173090	333	Bengni	ta-piː	ta-piː	beans	beans		3.1.4		0		p,2155
+173091	360	Bokar	ta-peː	ta-peː	beans	beans		3.1.4		0		p,2155
+173092	1079	Mishing [Miri]	pe-ret	pe-ret	beans	beans		3.1.4		0		2155,m
+173093	1251	Padam [Abor]	pe-ron	pe-ron	beans	beans		3.1.4		0		2155,m
+173094	287	Apatani	si-tĩ	si-tĩ	bear (animal)	bear (animal)		2.2.3		0		m,2777
+173095	333	Bengni	šu-tum	šu-tum	bear (animal)	bear (animal)		2.2.3		0		m,2777
+173096	360	Bokar	šu-tum	šu-tum	bear (animal)	bear (animal)		2.2.3		0		m,2777
+173097	1253	Padam-Mishing [Abor-Miri]	si-tum	si-tum	bear (animal)	bear (animal)		2.2.3		0		m,2777
+173098	287	Apatani	dã	dã	beat / flog	beat / flog		6.8		0		296
+173099	333	Bengni	ǰiŋ	ǰiŋ	beat / flog	beat / flog		6.8		0		296
+173100	1253	Padam-Mishing [Abor-Miri]	dɯŋ	dɯŋ	beat / flog	beat / flog		6.8		0		296
+173101	360	Bokar	jit	jit	beat	beatª		6.8		0		6642
+173102	1079	Mishing [Miri]	sit	sit	beat	beatª		6.8		0		6642
+173103	1251	Padam [Abor]	it	it	beat	beatª		6.8		0		6642
+173104	287	Apatani	ka-prjo|	ka-prjo|	beautiful / good-looking	beautiful / good-looking		7.1.3		0		6154
+173105	333	Bengni	kaː-puː|	kaː-puː|	beautiful / good-looking	beautiful / good-looking		7.1.3		0		6154
+173106	360	Bokar	koŋ-po|	koŋ-po|	beautiful / good-looking	beautiful / good-looking		7.1.3		0		6154
+173107	1251	Padam [Abor]	kam-po| < kaŋ-po	kam-po| < kaŋ-po	beautiful / good-looking	beautiful / good-looking		7.1.3		0		6154
+173108	287	Apatani	ta-bu	ta-bu	bedbug	bedbug		2.2.6		0		p,6271
+173109	333	Bengni	ta-bɯː	ta-bɯː	bedbug	bedbug		2.2.6		0		p,6271
+173110	1253	Padam-Mishing [Abor-Miri]	tab-bə	tab-bə	bedbug	bedbug		2.2.6		0		p,6271
+173111	287	Apatani	ku rhyme!	ku rhyme!	beg / request	beg / request		8.5.10.3		0	E	6380
+173112	333	Bengni	du-ku	du-ku	beg / request	beg / request		8.5.10.3		0		m,6380
+173113	360	Bokar	dok-ko	dok-ko	beg / request	beg / request		8.5.10.3		0		m,6380
+173114	1253	Padam-Mishing [Abor-Miri]	lak-ko	lak-ko	beg / request	beg / request		8.5.10.3		0		695,6380
+173115	333	Bengni	-tɯː	-tɯː	big	big		9.7.2		0		2697
+173116	360	Bokar	təː-bə	təː-bə	big	big		9.7.2		0		2697,m
+173117	1253	Padam-Mishing [Abor-Miri]	bot-tə~ bot-ta	bot-tə~ bot-ta	big	big		9.7.2		0		m,2697,m,2697
+173118	287	Apatani	pɯ-ta	pɯ-ta	bird	bird		2.2.4		0		m,6616
+173119	333	Bengni	pɯ-taː	pɯ-taː	bird	bird		2.2.4		0		m,6616
+173120	360	Bokar	pə-taŋ	pə-taŋ	bird	bird		2.2.4		0		m,6616
+173121	1253	Padam-Mishing [Abor-Miri]	pət-taŋ	pət-taŋ	bird	bird		2.2.4		0		m,6616
+173122	333	Bengni	gam	gam	bite	bite		1.3.4.4		0		2231
+173123	360	Bokar	gam	gam	bite	bite		1.3.4.4		0		2231
+173124	1253	Padam-Mishing [Abor-Miri]	gam~ ǰam	gam~ ǰam	bite	bite		1.3.4.4		0		2231,2231
+173125	287	Apatani	ko-čiʔ	ko-čiʔ	bitter	bitter		7.1.4.4		0		229,m
+173126	333	Bengni	kɯː-čak	kɯː-čak	bitter	bitter		7.1.4.4		0		229,m
+173127	360	Bokar	kaː-čak	kaː-čak	bitter	bitter		7.1.4.4		0		229,m
+173128	1253	Padam-Mishing [Abor-Miri]	ko-saŋ	ko-saŋ	bitter	bitter		7.1.4.4		0		229,m
+173129	333	Bengni	šɯr-pi	šɯr-pi	bladder	bladder		1.7.8		0		6604,m
+173130	360	Bokar	šer-pum	šer-pum	bladder	bladder		1.7.8		0		6604,777
+173131	1253	Padam-Mishing [Abor-Miri]	pum-sur	pum-sur	bladder	bladder		1.7.8		0		777,6604
+173132	287	Apatani	a-ji	a-ji	blood	blood		1.6.2		0		p,230
+173133	333	Bengni	uː-vi	uː-vi	blood	blood		1.6.2		0		p,230
+173134	360	Bokar	u-jiː	u-jiː	blood	blood		1.6.2		0		p,230
+173135	1253	Padam-Mishing [Abor-Miri]	i-ji	i-ji	blood	blood		1.6.2		0		p,230
+173136	287	Apatani	muʔ(-ka)	muʔ(-ka)	blow (with mouth)	blow (with mouth)		1.3.1.4		0		503,m
+173137	333	Bengni	mit	mit	blow (with mouth)	blow (with mouth)		1.3.1.4		0		503
+173138	360	Bokar	mit	mit	blow (with mouth)	blow (with mouth)		1.3.1.4		0		503
+173139	1253	Padam-Mishing [Abor-Miri]	mut	mut	blow (with mouth)	blow (with mouth)		1.3.1.4		0		503
+173140	333	Bengni	šiŋ-|pjaː	šiŋ-|pjaː	board / plank	board / plank		5.11.9		0		6607
+173141	360	Bokar	šɯŋ-|paŋ	šɯŋ-|paŋ	board / plank	board / plank		5.11.9		0		6607
+173142	1253	Padam-Mishing [Abor-Miri]	sɯ-|paŋ	sɯ-|paŋ	board / plank	board / plank		5.11.9		0		6607
+173143	333	Bengni	ši-|pɯ	ši-|pɯ	boat	boat		5.1		0		6598
+173144	360	Bokar	šɯ-|pɯ	šɯ-|pɯ	boat	boat		5.1		0		6598
+173145	333	Bengni	ta-kit	ta-kit	body dirt	body dirt		1.8.1.2		0		p,6385
+173146	360	Bokar	ta-ket	ta-ket	body dirt	body dirt		1.8.1.2		0		p,6385
+173147	1253	Padam-Mishing [Abor-Miri]	ta-kot	ta-kot	body dirt	body dirt		1.8.1.2		0		p,6385
+173148	287	Apatani	a-wu	a-wu	body	body		1.1.1		0		p,18
+173149	360	Bokar	a-ɯ	a-ɯ	body	body		1.1.1		0		p,18
+173150	287	Apatani	xrjɯ	xrjɯ	boil (e.g. meat)	boil (e.g. meat)		6.6		0		6408
+173151	333	Bengni	kɯŋ	kɯŋ	boil (e.g. meat)	boil (e.g. meat)		6.6		0		6408
+173152	360	Bokar	kəŋ	kəŋ	boil (e.g. meat)	boil (e.g. meat)		6.6		0		6408
+173153	1253	Padam-Mishing [Abor-Miri]	kəŋ	kəŋ	boil (e.g. meat)	boil (e.g. meat)		6.6		0		6408
+173154	287	Apatani	hu-grjaʔ	hu-grjaʔ	boil	boil (v.i.)	v.i.	6.6		0		6314,m
+173155	333	Bengni	fu	fu	boil	boil (v.i.)	v.i.	6.6		0		6314
+173156	360	Bokar	wu =ɦu	wu =ɦu	boil	boil (v.i.)	v.i.	6.6		0		6314
+173157	1253	Padam-Mishing [Abor-Miri]	u-saŋ	u-saŋ	boil	boil (v.i.)	v.i.	6.6		0		6314,m
+173158	287	Apatani	čar-grju	č̀ar-grju	boil (water)	boil (water)		6.6		0		6378,m
+173159	1079	Mishing [Miri]	kir-gu	kir-gu	boil (water)	boil (water)		6.6		0		6378,m
+173160	1252	Padam [Abor]	kil	kil	boil (water)	boil (water)		6.6		0		6378
+173161	287	Apatani	a-lo	a-lo	bone	bone		1.6.3		0		p,238
+173162	333	Bengni	a-loː	a-loː	bone	bone		1.6.3		0		p,238
+173163	360	Bokar	loŋ-poŋ	loŋ-poŋ	bone	bone		1.6.3		0		238,1469
+173164	1253	Padam-Mishing [Abor-Miri]	a-loŋ	a-loŋ	bone	bone		1.6.3		0		p,238
+173165	287	Apatani	nar	nar	borrow / lend	borrow / lend		6.22		0		6493
+173166	333	Bengni	nɯr	nɯr	borrow / lend	borrow / lend		6.22		0		6493
+173167	360	Bokar	nar	nar	borrow / lend	borrow / lend		6.22		0		6493
+173168	1253	Padam-Mishing [Abor-Miri]	nar	nar	borrow / lend	borrow / lend		6.22		0		6493
+173169	287	Apatani	a-li	a-li	bow (weapon)	bow (weapon)		5.15		0		p,2411
+173170	333	Bengni	ə-rji	ə-rji	bow (weapon)	bow (weapon)		5.15		0		p,2411
+173171	360	Bokar	iː =/i-ji/	iː =/i-ji/	bow (weapon)	bow (weapon)		5.15		0		2411
+173172	1253	Padam-Mishing [Abor-Miri]	i-ji	i-ji	bow (weapon)	bow (weapon)		5.15		0		p,2411
+173173	287	Apatani	pu-|ñu rhyme!	pu-|ñu rhyme!	brain	brain		1.2.4		0		252
+173174	333	Bengni	puk-|ni	puk-|ni	brain	brain		1.2.4		0		252
+173175	360	Bokar	pɯ-|niː	pɯ-|niː	brain	brain		1.2.4		0		252
+173176	1079	Mishing [Miri]	pun-|ni	pun-|ni	brain	brain		1.2.4		0		252
+173177	1251	Padam [Abor]	pin-|ño rhyme!	pin-|ño rhyme!	brain	brain		1.2.4		0		252
+173178	287	Apatani	san a-ha	san a-ha	branch	branch		1.5.3.1		0		2658,p,1278
+173179	360	Bokar	a-hak	a-hak	branch	branch		1.5.3.1		0		p,1278
+173180	1079	Mishing [Miri]	ak-ləŋ	ak-ləŋ	branch	branch		1.5.3.1		0		1278,m
+173181	1251	Padam [Abor]	ak	ak	branch	branch		1.5.3.1		0		1278
+173182	287	Apatani	dar~ tar	dar~ tar	break (st. stiff with hand)	break (st. stiff with hand)		9.5		0		6635,6635
+173183	333	Bengni	tɯr	tɯr	break (st. stiff with hand)	break (st. stiff with hand)		9.5		0		6635
+173184	360	Bokar	dɯr	dɯr	break (st. stiff with hand)	break (st. stiff with hand)		9.5		0		6635
+173185	1253	Padam-Mishing [Abor-Miri]	dir~ tir	dir~ tir	break (st. stiff with hand)	break (st. stiff with hand)		9.5		0		6635,6635
+173186	287	Apatani	saʔ	saʔ	breathe / breath	breathe / breath		1.1.2.2		0		32
+173187	333	Bengni	šak	šak	breathe / breath	breathe / breath		1.1.2.2		0		32
+173188	360	Bokar	šak	šak	breathe / breath	breathe / breath		1.1.2.2		0		32
+173189	287	Apatani	a-wã	a-wã	brother (elder)	brother (elder)		1.5.3.2		0		p,6277
+173190	333	Bengni	a-bɯŋ	a-bɯŋ	brother (elder)	brother (elder)		1.5.3.2		0		p,6277
+173191	360	Bokar	a-bɯŋ	a-bɯŋ	brother (elder)	brother (elder)		1.5.3.2		0		p,6277
+173192	287	Apatani	a-nu	a-nu	brother (younger)	brother (younger)		1.5.3.2		0		p,2492
+173193	360	Bokar	nɯ-ro	nɯ-ro	brother (younger)	brother (younger)		1.5.3.2		0		2492,m
+173194	333	Bengni	guː	guː	burn	burn (v.i.)	v.i.	3.2.12.1		0		6334
+173195	360	Bokar	guː	guː	burn	burn (v.i.)	v.i.	3.2.12.1		0		6334
+173196	1253	Padam-Mishing [Abor-Miri]	gu	gu	burn	burn (v.i.)	v.i.	3.2.12.1		0		6334
+173197	287	Apatani	rõ	rõ	burn / roast over fire	burn / roast over fire		3.2.12.1		0		6577
+173198	333	Bengni	ram	ram	burn / roast over fire	burn / roast over fire		3.2.12.1		0		6577
+173199	1253	Padam-Mishing [Abor-Miri]	rom	rom	burn / roast over fire	burn / roast over fire		3.2.12.1		0		6577
+173200	287	Apatani	a-li	a-li	bury	bury		6.11		0		p,6568
+173201	333	Bengni	ri	ri	bury	bury		6.11		0		6568
+173202	360	Bokar	jiː	jiː	bury	bury		6.11		0		6568
+173203	1253	Padam-Mishing [Abor-Miri]	ju	ju	bury	bury		6.11		0		6568
+173204	333	Bengni	ño-|maː	ño-|maː	busy	busy		9.6.3		0		6465
+173205	1253	Padam-Mishing [Abor-Miri]	moŋ-|maŋ	moŋ-|maŋ	busy	busy		9.6.3		0		6465
+173206	287	Apatani	rɯ	rɯ	buy	buy		6.22		0		2606
+173207	333	Bengni	rɯː	rɯː	buy	buy		6.22		0		2606
+173208	360	Bokar	rəː	rəː	buy	buy		6.22		0		2606
+173209	1253	Padam-Mishing [Abor-Miri]	re rhyme!	re rhyme!	buy	buy		6.22		0		2606
+173210	287	Apatani	grjoʔ (-tu)	grjoʔ (-tu)	call / shout	call / shout		8.5.13		0		6330,m
+173211	333	Bengni	guk	guk	call / shout	call / shout		8.5.13		0		6330
+173212	360	Bokar	gok	gok	call / shout	call / shout		8.5.13		0		6330
+173213	1253	Padam-Mishing [Abor-Miri]	gok	gok	call / shout	call / shout		8.5.13		0		6330
+173214	333	Bengni	-tɯr	-tɯr	callus	callus		1.6.5.3		0		6614
+173215	1253	Padam-Mishing [Abor-Miri]	-tal	-tal	callus	callus		1.6.5.3		0		6614
+173216	287	Apatani	-la	-la	can / able to (verbal particle)	can / able to (verbal particle)		10.2.2		0		6422
+173217	1253	Padam-Mishing [Abor-Miri]	laŋ	laŋ	can / able to (verbal particle)	can / able to (verbal particle)		10.2.2		0		6422
+173218	287	Apatani	brjo-|pa	brjo-|pa	cane hat	cane hat		5.11.8.2.2		0		6265
+173219	333	Bengni	boː-|pa	boː-|pa	cane hat	cane hat		5.11.8.2.2		0		6265
+173220	287	Apatani	baʔ	baʔ	carry on back	carry on back		6.2.2.2.1		0		570
+173221	333	Bengni	bak	bak	carry on back	carry on back		6.2.2.2.1		0		570
+173222	287	Apatani	ə-ŋa gɯ	ə-ŋa gɯ	carry on back / pregnant	carry on back / pregnant		6.2.2.2.1		0		p,90,6339
+173223	333	Bengni	kuː gɯː	kuː gɯː	carry on back / pregnant	carry on back / pregnant		6.2.2.2.1		0		6388,6339
+173224	360	Bokar	a-ɦo gəː	a-ɦo gəː	carry on back / pregnant	carry on back / pregnant		6.2.2.2.1		0		p,6658,6339
+173225	1253	Padam-Mishing [Abor-Miri]	a-o gə; ko gə	a-o gə; ko gə	carry on back / pregnant	carry on back / pregnant		6.2.2.2.1		0		p,6658,6339,m,6339
+173226	287	Apatani	čiʔ	čiʔ	cast (spear)	cast (spear)		6.12		0		6284
+173227	333	Bengni	čit	čit	cast (spear)	cast (spear)		6.12		0		6284
+173228	1253	Padam-Mishing [Abor-Miri]	sut	sut	cast (spear)	cast (spear)		6.12		0		6284
+173229	287	Apatani	ja-lã lum-pɯ	ja-lã lum-pɯ	cave	cave		3.2.7		0		p,1269,690,164
+173230	333	Bengni	lɯŋ-pɯk	lɯŋ-pɯk	cave	cave		3.2.7		0		1269,164
+173231	360	Bokar	lɯŋ-pɯk	lɯŋ-pɯk	cave	cave		3.2.7		0		1269,164
+173232	1253	Padam-Mishing [Abor-Miri]	sap-pɯk	sap-pɯk	cave	cave		3.2.7		0		m,164
+173233	287	Apatani	mõ	mõ	chase	chase		6.7.10		0		6467
+173234	360	Bokar	men	men	chase	chase		6.7.10		0		6467
+173235	1251	Padam [Abor]	mon	mon	chase	chase		6.7.10		0		6467
+173236	287	Apatani	a-mu-pa lu	a-mu-pa lu	cheat / lie	cheat / lie		6.19		0		p,6477,m,m
+173237	333	Bengni	mɯː	mɯː	cheat / lie	cheat / lie		6.19		0		6477
+173238	360	Bokar	məː-noː	məː-noː	cheat / lie	cheat / lie		6.19		0		6477,m
+173239	1253	Padam-Mishing [Abor-Miri]	me-nam lu	me-nam lu	cheat / lie	cheat / lie		6.19		0		6477,s,m
+173240	287	Apatani	ha-|brjã	ha-|brjã	chest	chest		1.4.4.3		0		6342
+173241	333	Bengni	haː-|kɯŋ	haː-|kɯŋ	chest	chest		1.4.4.3		0	u	6342
+173242	360	Bokar	hoŋ-|boŋ	hoŋ-|boŋ	chest	chest		1.4.4.3		0		6342
+173243	1253	Padam-Mishing [Abor-Miri]	aŋ-|kəŋ	aŋ-|kəŋ	chest	chest		1.4.4.3		0		6342
+173244	287	Apatani	pa-ro (pa-ču)	pa-ro (pa-ču)	chicken	chicken		2.1.10		0		m,1606
+173245	333	Bengni	pu-ruk	pu-ruk	chicken	chicken		2.1.10		0		m,1606
+173246	360	Bokar	po-rok	po-rok	chicken	chicken		2.1.10		0		m,1606
+173247	1079	Mishing [Miri]	po-rok	po-rok	chicken	chicken		2.1.10		0		m,1606
+173248	1251	Padam [Abor]	pə-rok	pə-rok	chicken	chicken		2.1.10		0		m,1606
+173249	287	Apatani	o-ho	o-ho	child (offspring)	child (offspring)		1.5.3.2		0		p,6658
+173250	361	Bokar	a-ho	a-ho	child (offspring)	child (offspring)		1.5.3.2		0		p,6658
+173251	1079	Mishing [Miri]	a-o	a-o	child (offspring)	child (offspring)		1.5.3.2		0		p,6658
+173252	1251	Padam [Abor]	o	o	child (offspring)	child (offspring)		1.5.3.2		0		6658
+173253	333	Bengni	kuː	kuː	child	child		1.5.3.2		0		6388
+173254	1253	Padam-Mishing [Abor-Miri]	ko	ko	child	child		1.5.3.2		0		6388
+173255	333	Bengni	čuk-|pjaː	čuk-|pjaː	chin	chin		1.2.5.3		0		2056,6280
+173256	360	Bokar	bor	bor	classifier for flat, thin obje	classifier for flat, thin obje		10.1.3		0		6672
+173257	1253	Padam-Mishing [Abor-Miri]	bor	bor	classifier for flat, thin obje	classifier for flat, thin obje		10.1.3		0		6672
+173258	333	Bengni	tɯŋ	tɯŋ	classifier for group (of anima	classifier for group (of anima		10.1.3		0		6686
+173259	360	Bokar	a-tɯŋ	a-tɯŋ	classifier for group (of anima	classifier for group (of anima		10.1.3		0		p,6686
+173260	287	Apatani	so	so	classifier for long, slender o	classifier for long, slender o		10.1.3		0		6684
+173261	333	Bengni	šoː	šoː	classifier for long, slender o	classifier for long, slender o		10.1.3		0		6684
+173262	360	Bokar	a-hoŋ	a-hoŋ	classifier for long, slender o	classifier for long, slender o		10.1.3		0		p,6684
+173263	1253	Padam-Mishing [Abor-Miri]	soŋ	soŋ	classifier for long, slender o	classifier for long, slender o		10.1.3		0		6684
+173264	287	Apatani	bar	bar	classifier for round flat objects (e.g. coins)	classifier for round flat obje		10.1.3		0		6671
+173265	1079	Mishing [Miri]	bar	bar	classifier for round flat objects (e.g. coins)	classifier for round flat obje		10.1.3		0		6671
+173266	1251	Padam [Abor]	bal	bal	classifier for round flat objects (e.g. coins)	classifier for round flat obje		10.1.3		0		6671
+173267	287	Apatani	pɯr	pɯr	classifier for small round obj	classifier for small round obj		10.1.3		0		6522
+173268	333	Bengni	čɯr	čɯr	classifier for small round obj	classifier for small round obj		10.1.3		0		6522
+173269	360	Bokar	a-pir	a-pir	classifier for small round obj	classifier for small round obj		10.1.3		0		p,6522
+173270	1079	Mishing [Miri]	pir	pir	classifier for small round obj	classifier for small round obj		10.1.3		0		6522
+173271	1251	Padam [Abor]	pil	pil	classifier for small round obj	classifier for small round obj		10.1.3		0		6522
+173272	287	Apatani	taʔ	taʔ	classifier for thin, flat objects (e.g. pieces of cloth)	classifier for thin, flat obje		10.1.3		0		6685
+173273	333	Bengni	tak	tak	classifier for thin, flat objects (e.g. pieces of cloth)	classifier for thin, flat obje		10.1.3		0		6685
+173274	360	Bokar	tak	tak	classifier for thin, flat objects (e.g. pieces of cloth)	classifier for thin, flat obje		10.1.3		0		6685
+173275	1253	Padam-Mishing [Abor-Miri]	tak	tak	classifier for thin, flat objects (e.g. pieces of cloth)	classifier for thin, flat obje		10.1.3		0		6685
+173276	333	Bengni	ɯ-ǰiː	ɯ-ǰiː	clothes	clothes		5.11.8.2.1		0		p,2256
+173277	360	Bokar	e-če	e-če	clothes	clothes		5.11.8.2.1		0		p,2256
+173278	1251	Padam [Abor]	ə-gə	ə-gə	clothes	clothes		5.11.8.2.1		0		p,2256
+173279	1079	Mishing [Miri]	e-ge	e-ge	clothes	clothes		5.11.8.2.1		0		p,2256
+173280	287	Apatani	ǰo-mɯʔ~ ŋo-mɯʔ	ǰo-mɯʔ~ ŋo-mɯʔ	cloud	cloud		3.2.1		0		m,2473,m,2473
+173281	333	Bengni	doː-mɯk	doː-mɯk	cloud	cloud		3.2.1		0		3570,2473
+173282	360	Bokar	doŋ-muk	doŋ-muk	cloud	cloud		3.2.1		0		3570,2473
+173283	1253	Padam-Mishing [Abor-Miri]	do-muk	do-muk	cloud	cloud		3.2.1		0		3570,2473
+173284	333	Bengni	ha-rjik	ha-rjik	cold (water)	cold (water)		7.1.2.3		0		6340,m
+173285	360	Bokar	hen-jik	hen-jik	cold (water)	cold (water)		7.1.2.3		0		6340,m
+173286	1253	Padam-Mishing [Abor-Miri]	an(-siŋ)	an(-siŋ)	cold (water)	cold (water)		7.1.2.3		0		6340,m
+173287	287	Apatani	a-xrjiʔ	a-xrjiʔ	comb	comb (n.)	n	1.2.2.1		0		p,6308
+173288	333	Bengni	ta-fi	ta-fi	comb	comb (n.)	n	1.2.2.1		0		p,6308
+173289	287	Apatani	dĩ tu	dĩ tu dĩ = ʻheadʼ	comb	comb (v.)	v	1.2.2.1		0		1425,6623
+173290	333	Bengni	tuk	tuk	comb	comb (v.)	v	1.2.2.1		0		6623
+173291	360	Bokar	tup	tup	comb	comb (v.)	v	1.2.2.1		0		6623
+173292	1253	Padam-Mishing [Abor-Miri]	tup	tup	comb	comb (v.)	v	1.2.2.1		0		6623
+173293	360	Bokar	nuː~ nu	nuː~ nu	cooked	cooked		5.5		0		6498,6498
+173294	333	Bengni	nu	nu	cooked	cooked		5.5		0		6498
+173295	1253	Padam-Mishing [Abor-Miri]	nu	nu	cooked	cooked		5.5		0		6498
+173296	333	Bengni	ju	ju	copulate	copulate		1.9.1.1		0		3470
+173297	360	Bokar	jo	jo	copulate	copulate		1.9.1.1		0		3470
+173298	1253	Padam-Mishing [Abor-Miri]	jo	jo	copulate	copulate		1.9.1.1		0		3470
+173299	287	Apatani	xrje rhyme!	xrje rhyme!	count / calculate	count / calculate		6.2.2.2		0		6175,m
+173300	333	Bengni	ki	ki	count / calculate	count / calculate		6.2.2.2		0		6175
+173301	360	Bokar	kɯː	kɯː	count / calculate	count / calculate		6.2.2.2		0		6175
+173302	1253	Padam-Mishing [Abor-Miri]	kɯ(-ki)	kɯ(-ki)	count / calculate	count / calculate		6.2.2.2		0		6175,m
+173303	333	Bengni	ta-čiː kə-riː	ta-čiː kə-riː	crab	crab		2.2.5		0		m,2304,m,m
+173304	360	Bokar	ta-če paŋ-tɯr	ta-če paŋ-tɯr	crab	crab		2.2.5		0		m,2304,m,m
+173305	1253	Padam-Mishing [Abor-Miri]	ta-ke	ta-ke	crab	crab		2.2.5		0		m,2304
+173306	333	Bengni	ru-gak	ru-gak	crazy / mad	crazy / madÁ		8.3.1.11.3		0		6094,6328
+173307	287	Apatani	ru-nɯ	ru-nɯ	crazy / mad	crazy / madª		8.3.1.11.3		0		6094,s
+173308	333	Bengni	šu-ru; ru-gak	šu-ru; ru-gak	crazy / mad	crazy / madª		8.3.1.11.3		0		m,6094,6094,6328
+173309	287	Apatani	lɯ-gɯr ba-gɯr	lɯ-gɯr ba-gɯr	crooked	crooked		9.7.2		0		m,6338,m,6338
+173310	360	Bokar	pa-gɯr	pa-gɯr	crooked	crooked		9.7.2		0		m,6338
+173311	1251	Padam [Abor]	gər; (in compounds)-gɯr	gər; (in compounds)-gɯr	crooked	crooked		9.7.2		0		6338
+173312	287	Apatani	pɯ-waʔ	pɯ-waʔ	crow (bird)	crow (bird)		2.2.4.1		0		m,6695
+173313	333	Bengni	pu-wak	pu-wak	crow (bird)	crow (bird)		2.2.4.1		0		m,6695
+173314	360	Bokar	po-ak	po-ak	crow (bird)	crow (bird)		2.2.4.1		0		m,6695
+173315	1253	Padam-Mishing [Abor-Miri]	pɯ-ak	pɯ-ak	crow (bird)	crow (bird)		2.2.4.1		0		m,6695
+173316	500	Damu	ʔak-kaː	ʔak-kaː	crow (bird)	crow (bird)		2.2.4.1		0		6695
+173317	287	Apatani	xrjo	xrjo	crow	crow	v	2.2.4.1		0		6397
+173318	333	Bengni	kuk	kuk	crow	crow	v	2.2.4.1		0		6397
+173319	1253	Padam-Mishing [Abor-Miri]	kok	kok	crow	crow	v	2.2.4.1		0		6397
+173320	287	Apatani	ta-kuʔ	ta-kuʔ	cucumber	cucumber		3.1.5		0		p,6412
+173321	1251	Padam [Abor]	ma-kuŋ	ma-kuŋ	cucumber	cucumber		3.1.5		0	u	m,6412
+173322	287	Apatani	be	be	curse	curse (v.)	v	8.5.1		0		6258
+173323	333	Bengni	biː	biː	curse	curse (v.)	v	8.5.1		0		6258
+173324	360	Bokar	beː	beː	curse	curse (v.)	v	8.5.1		0		6258
+173325	1251	Padam [Abor]	be	be	curse	curse (v.)	v	8.5.1		0		6258
+173326	360	Bokar	gaː	gaː	cut (as in reaping crops)	cut (as in reaping crops)		6.9.3		0		6323
+173327	1253	Padam-Mishing [Abor-Miri]	gat	gat	cut (as in reaping crops)	cut (as in reaping crops)		6.9.3		0		6323
+173328	287	Apatani	pa	pa	cut (e.g. with machete)	cut (e.g. with machete)		6.9.3		0		6504
+173329	333	Bengni	pa	pa	cut (e.g. with machete)	cut (e.g. with machete)		6.9.3		0		6504
+173330	360	Bokar	pa	pa	cut (e.g. with machete)	cut (e.g. with machete)		6.9.3		0		6504
+173331	1253	Padam-Mishing [Abor-Miri]	pa	pa	cut (e.g. with machete)	cut (e.g. with machete)		6.9.3		0		6504
+173332	333	Bengni	tɯk-mɯk	tɯk-mɯk	cut up / mince	cut up / mince		6.9.3		0		2709,m
+173333	360	Bokar	tək-mak	tək-mak	cut up / mince	cut up / mince		6.9.3		0		2709,m
+173334	1253	Padam-Mishing [Abor-Miri]	tek	tek	cut up / mince	cut up / mince		6.9.3		0		2709
+173335	287	Apatani	pi	pi	cut / slice	cut / slice		6.9.3		0		6514
+173336	333	Bengni	piː	piː	cut / slice	cut / slice		6.9.3		0		6514
+173337	360	Bokar	peː	peː	cut / slice	cut / slice		6.9.3		0		6514
+173338	1253	Padam-Mishing [Abor-Miri]	pe	pe	cut / slice	cut / slice		6.9.3		0		6514
+173339	287	Apatani	pa	pa	cut; (e.g. with machete)	cut; (e.g. with machete)		6.9.3		0		6504
+173340	333	Bengni	pa	pa	cut; (e.g. with machete)	cut; (e.g. with machete)		6.9.3		0		6504
+173341	360	Bokar	pa	pa	cut; (e.g. with machete)	cut; (e.g. with machete)		6.9.3		0		6504
+173342	1253	Padam-Mishing [Abor-Miri]	pa	pa	cut; (e.g. with machete)	cut; (e.g. with machete)		6.9.3		0		6504
+173343	333	Bengni	rjuk-|čik	rjuk-|čik	dagger	dagger		5.15		0		6571
+173344	360	Bokar	jok-|čik	jok-|čik	dagger	dagger		5.15		0		6571
+173345	1253	Padam-Mishing [Abor-Miri]	jok-|sik	jok-|sik	dagger	dagger		5.15		0		6571
+173346	287	Apatani	a-lo	a-lo	day	day		1.5.3.2		0		p,6432
+173347	333	Bengni	a-luː	a-luː	day	day		1.5.3.2		0		p,6432
+173348	360	Bokar	loː	loː	day	day		1.5.3.2		0		6432
+173349	1253	Padam-Mishing [Abor-Miri]	si-lo ʻtodayʼ	si-lo ʻtodayʼ	day	day		1.5.3.2		0		m,6432
+173350	333	Bengni	-kiː	-kiː	dead (resultative verbal particle)	dead (resultative verbal parti		10.0		0		3301
+173351	360	Bokar	-keː	-keː	dead (resultative verbal particle)	dead (resultative verbal parti		10.0		0		3301
+173352	1079	Mishing [Miri]	-ke	-ke	dead (resultative verbal particle)	dead (resultative verbal parti		10.0		0		3301
+173353	1251	Padam [Abor]	-ka	-ka	dead (resultative verbal particle)	dead (resultative verbal parti		10.0		0		3301
+173354	287	Apatani	sɯ-ma	sɯ-|ma	dead body	dead body		1.1.6.1		0		27,17
+173355	333	Bengni	ši-maː	ši-|maː	dead body	dead body		1.1.6.1		0		27,17
+173356	360	Bokar	šo-moŋ~ ši-|moŋ	šo-|moŋ~ ši-|moŋ	dead body	dead body		1.1.6.1		0		27,17,17
+173357	1253	Padam-Mishing [Abor-Miri]	si-maŋ	si-|maŋ	dead body	dead body		1.1.6.1		0		27,17
+173358	287	Apatani	u-rã	u-rã	deep	deep		7.1.5.3		0		p,6589
+173359	333	Bengni	a-rɯŋ	a-rɯŋ	deep	deep		7.1.5.3		0		p,6589
+173360	360	Bokar	a-rɯŋ	a-rɯŋ	deep	deep		7.1.5.3		0		p,6589
+173361	1079	Mishing [Miri]	o-rɯŋ	o-rɯŋ	deep	deep		7.1.5.3		0		p,6589
+173362	1251	Padam [Abor]	ə-rɯŋ~ a-rɯŋ	ə-rɯŋ~ a-rɯŋ	deep	deep		7.1.5.3		0		p,6589,p,6589
+173363	287	Apatani	u-i	u-i	demon / evil spirit	demon / evil spirit		4.2.12.2		0		p,6366
+173364	360	Bokar	u-ju	u-ju	demon / evil spirit	demon / evil spirit		4.2.12.2		0		p,6366
+173365	333	Bengni	u-ju	u-ju	demon / evil spirit	demon / evil spirit		4.2.12.2		0		p,6366
+173366	1253	Padam-Mishing [Abor-Miri]	u-ju	u-ju	demon / evil spirit	demon / evil spirit		4.2.12.2		0		p,6366
+173367	287	Apatani	sɯ rhyme!	sɯ rhyme!	die	die		1.1.6		0		27
+173368	333	Bengni	ši	ši	die	die		1.1.6		0		27
+173369	360	Bokar	šiː	šiː	die	die		1.1.6		0		27
+173370	1253	Padam-Mishing [Abor-Miri]	si	si	die	die		1.1.6		0		27
+173371	333	Bengni	koː rhyme!	koː rhyme!	dig (hole)	dig (hole)		6.11		0		2325
+173372	360	Bokar	koː	koː	dig (hole)	dig (hole)		6.11		0		2325
+173373	1251	Padam [Abor]	ko	ko	dig (hole)	dig (hole)		6.11		0		2325
+173374	333	Bengni	du	du	dig	dig		6.11		0		3573
+173375	360	Bokar	du ʻdig (well)ʼ	du ʻdig (well)ʼ	dig	dig		6.11		0		3573
+173376	1253	Padam-Mishing [Abor-Miri]	du	du	dig	dig		6.11		0		3573
+173379	333	Bengni	hɯr	hɯr	distribute	distribute		6.23		0	D1	5470
+173380	1253	Padam-Mishing [Abor-Miri]	or	or	distribute	distribute		6.23		0	D1	5470
+173381	333	Bengni	rji	rji	do	do		6.1.1.1		0		6573
+173382	360	Bokar	i	i	do	do		6.1.1.1		0		6573
+173383	1253	Padam-Mishing [Abor-Miri]	i	i	do	do		6.1.1.1		0		6573
+173384	287	Apatani	a-ki	a-ki	dog	dog		2.1.11		0		p,1764
+173385	333	Bengni	ə-ki	ə-ki	dog	dog		2.1.11		0		p,1764
+173386	360	Bokar	i-kiː	i-kiː	dog	dog		2.1.11		0		p,1764
+173387	1253	Padam-Mishing [Abor-Miri]	e-ki	e-ki	dog	dog		2.1.11		0		p,1764
+173388	287	Apatani	a-lje(ʔ)	a-lje(ʔ)	door	door		5.11.9.3		0		p,6563
+173389	333	Bengni	a-rjap	a-rjap	door	door		5.11.9.3		0		p,6563
+173390	360	Bokar	jap-go	jap-go	door	door		5.11.9.3		0		6563,m
+173391	1253	Padam-Mishing [Abor-Miri]	ə-(j)ap	ə-(j)ap	door	door		5.11.9.3		0		p,6563
+173392	287	Apatani	pa-ku	pa-ku	dove / pigeon	dove / pigeon		2.2.4.1		0		m,2346
+173393	333	Bengni	pɯ-kɯ	pɯ-kɯ	dove / pigeon	dove / pigeon		2.2.4.1		0		m,2346
+173394	360	Bokar	taŋ-kɯ	taŋ-kɯ	dove / pigeon	dove / pigeon		2.2.4.1		0		6616,2346
+173395	1253	Padam-Mishing [Abor-Miri]	pə-kɯ	pə-kɯ	dove / pigeon	dove / pigeon		2.2.4.1		0		m,2346
+173396	287	Apatani	tã	tã	drink	drink				0		502
+173397	333	Bengni	tɯŋ	tɯŋ	drink	drink				0		502
+173398	360	Bokar	tɯŋ	tɯŋ	drink	drink				0		502
+173399	1253	Padam-Mishing [Abor-Miri]	tɯŋ	tɯŋ	drink	drink				0		502
+173400	333	Bengni	toː-di	toː-di	drip	drip		6.6		0		m,6296
+173401	360	Bokar	dɯ	dɯ	drip	drip		6.6		0		6296
+173402	1253	Padam-Mishing [Abor-Miri]	dɯ	dɯ	drip	drip		6.6		0		6296
+173403	333	Bengni	(tɯŋ)-kjum	(tɯŋ)-kjum	drunk	drunk		1.3.5.9		0		502,6405
+173404	360	Bokar	(tɯŋ)-kum	(tɯŋ)-kum	drunk	drunk		1.3.5.9		0		502,6405
+173405	333	Bengni	fam-šin	fam-šin	dry something near fire	dry something near fire		6.6		0		3515,6591
+173406	360	Bokar	ham-pɯ	ham-pɯ	dry something near fire	dry something near fire		6.6		0		3515,m
+173407	1253	Padam-Mishing [Abor-Miri]	am-pɯ	am-pɯ	dry something near fire	dry something near fire		6.6		0		3515,m
+173408	287	Apatani	pa-ǰeʔ	pa-ǰeʔ	duck	duck		2.1.10		0		m,6351
+173409	333	Bengni	pɯ-ǰap	pɯ-ǰap	duck	duck		2.1.10		0		m,6351
+173410	1253	Padam-Mishing [Abor-Miri]	pə-ǰap	pə-ǰap	duck	duck		2.1.10		0		m,6351
+173411	287	Apatani	pa-mu	pa-mu	eagle / hawk	eagle / hawk		2.2.4.1		0		m,2471
+173412	333	Bengni	pɯ-mɯ	pɯ-mɯ	eagle / hawk	eagle / hawk		2.2.4.1		0		m,2471
+173413	360	Bokar	pa-mɯ	pa-mɯ	eagle / hawk	eagle / hawk		2.2.4.1		0		m,2471
+173414	1253	Padam-Mishing [Abor-Miri]	pə-mɯ	pə-mɯ	eagle / hawk	eagle / hawk		2.2.4.1		0		m,2471
+173415	287	Apatani	ja-|ru	ja-|ru	ear	ear		1.2.7		0		6487
+173416	333	Bengni	ñu-|ruŋ	ñu-|ruŋ	ear	ear		1.2.7		0		6487
+173417	360	Bokar	ña-|ruŋ	ña-|ruŋ	ear	ear		1.2.7		0		6487
+173418	1079	Mishing [Miri]	je-|ruŋ~ ñe-|ruŋ	je-|ruŋ~ ñe-|ruŋ	ear	ear		1.2.7		0		6487,6487
+173419	1251	Padam [Abor]	ño-|ruŋ	ño-|ruŋ	ear	ear		1.2.7		0		6487
+173420	287	Apatani	a-ro kon-či	a-ro kon-či	early morning	early morning		9.1.1		0		p,144,6228
+173421	333	Bengni	a-ruː kam-či	a-ruː kam-či	early morning	early morning		9.1.1		0		p,144,6228
+173422	360	Bokar	a-ro kum-či	a-ro kum-či	early morning	early morning		9.1.1		0		p,144,6228
+173423	1253	Padam-Mishing [Abor-Miri]	ro kom-pə	ro kom-pə	early morning	early morning		9.1.1		0		144,6228
+173424	287	Apatani	dor-gi	dor-gi	earthworm	earthworm		2.2.6		0		6622,m
+173425	333	Bengni	ta-tɯr	ta-tɯr	earthworm	earthworm		2.2.6		0		p,6622
+173426	360	Bokar	ta-tor	ta-tor	earthworm	earthworm		2.2.6		0		p,6622
+173427	1253	Padam-Mishing [Abor-Miri]	dor-kaŋ	dor-kaŋ	earthworm	earthworm		2.2.6		0		6622,m
+173428	287	Apatani	dɯ	dɯ	eat	eat		1.5.3.2		0		5363
+173429	333	Bengni	dɯ, duː	dɯ, duː	eat	eat		1.5.3.2		0		5363,5363
+173430	360	Bokar	doː	doː	eat	eat		1.5.3.2		0		5363
+173431	1253	Padam-Mishing [Abor-Miri]	do	do	eat	eat		1.5.3.2		0		5363
+173432	333	Bengni	(rjuk-)hɯr	(rjuk-)hɯr	edge (of knife)	edge (of knife)		9.2.7		0		6570,6655
+173433	360	Bokar	ar	ar	edge (of knife)	edge (of knife)		9.2.7		0		6655
+173434	1253	Padam-Mishing [Abor-Miri]	ar	ar	edge (of knife)	edge (of knife)		9.2.7		0		6655
+173435	287	Apatani	pa-pu	pa-pu	egg	egg				0		m,1654
+173436	333	Bengni	pɯ-pɯ	pɯ-pɯ	egg	egg				0		m,1654
+173437	360	Bokar	pɯ-pɯ	pɯ-pɯ	egg	egg				0		m,1654
+173438	1253	Padam-Mishing [Abor-Miri]	a-pɯ	a-pɯ	egg	egg				0		p,1654
+173439	333	Bengni	bja-|jam	bja-|jam	eggplant	eggplant		3.1.5		0		6264
+173440	360	Bokar	baŋ-|jum	baŋ-|jum	eggplant	eggplant		3.1.5		0		6264
+173441	1253	Padam-Mishing [Abor-Miri]	ba-|jom	ba-|jom	eggplant	eggplant		3.1.5		0		6264
+173442	287	Apatani	p(rj)ɯʔ-ñi|	p(rj)ɯʔ-ñi|	eight	eight		9.9		0		2409,2504
+173443	333	Bengni	piː-ni|	piː-ni|	eight	eight		9.9		0		2409,2504
+173444	360	Bokar	piː-ñi|	piː-ñi|	eight	eight		9.9		0		2409,2504
+173445	1079	Mishing [Miri]	pi-ñi|	pi-ñi|	eight	eight		9.9		0		2409,2504
+173446	1251	Padam [Abor]	pɯ-ñi|	pɯ-ñi|	eight	eight		9.9		0		2409,2504
+173447	287	Apatani	laʔ-du mi-ru	laʔ-du mi-ru	elbow	elbow		1.5.8.3		0		695,306,682,m
+173448	333	Bengni	lak-du	lak-du	elbow	elbow		1.5.8.3		0		695,306
+173449	360	Bokar	lok-du	lok-du	elbow	elbow		1.5.8.3		0		695,306
+173450	1253	Padam-Mishing [Abor-Miri]	lag-du	lag-du	elbow	elbow		1.5.8.3		0		695,306
+173451	287	Apatani	a-ra	a-ra	empty	empty		7.1.2.1		0		p,6208
+173452	333	Bengni	hi-roː	hi-roː	empty	empty		7.1.2.1		0		m,6208
+173453	360	Bokar	a-roŋ	a-roŋ	empty	empty		7.1.2.1		0		p,6208
+173454	1079	Mishing [Miri]	aŋ a-raŋ	aŋ a-raŋ	empty	empty		7.1.2.1		0		m,p,6208
+173455	1251	Padam [Abor]	a-raŋ	a-raŋ	empty	empty		7.1.2.1		0		p,6208
+173456	1252	Padam [Abor]	mi-rol	mi-rol	enemy	enemy		4.2.6		0		m,2596
+173457	333	Bengni	kit	kit	escape / flee	escape / flee		6.7.2		0		6705
+173458	360	Bokar	ket	ket	escape / flee	escape / flee		6.7.2		0		6705
+173459	287	Apatani	a-ljĩ	a-ljĩ	evening	evening		9.1.4		0		p,6572
+173460	333	Bengni	a-rjum	a-rjum	evening	evening		9.1.4		0		p,6572
+173461	360	Bokar	a-jum	a-jum	evening	evening		9.1.4		0		p,6572
+173462	1253	Padam-Mishing [Abor-Miri]	jum-ə	jum-ə	evening	evening		9.1.4		0		6572,m
+173463	333	Bengni	lɯk mu-šu	lɯk mu-šu	exchange	exchange		6.22		0		6441,m,m
+173464	360	Bokar	lɯk-raː	lɯk-raː	exchange	exchange		6.22		0		6441,m
+173465	1253	Padam-Mishing [Abor-Miri]	lik-su	lik-su	exchange	exchange		6.22		0		6441,m
+173466	287	Apatani	i-paʔ	i-paʔ	excrement	excrement		1.8.5		0		576,575
+173467	333	Bengni	iː	iː	excrement	excrement		1.8.5		0		576
+173468	360	Bokar	eː	eː	excrement	excrement		1.8.5		0		576
+173469	1253	Padam-Mishing [Abor-Miri]	ta-je	ta-je	excrement	excrement		1.8.5		0		p,576
+173470	333	Bengni	lin	lin	exit	exit (v.)	v	6.7.2		0		6425
+173471	360	Bokar	len	len	exit	exit (v.)	v	6.7.2		0		6425
+173472	1253	Padam-Mishing [Abor-Miri]	len	len	exit	exit (v.)	v	6.7.2		0		6425
+173473	287	Apatani	miʔ	miʔ	extinguished	extinguished		3.2.12.1		0		31
+173474	333	Bengni	ñit	ñit	extinguished	extinguished		3.2.12.1		0		31
+173475	360	Bokar	mit	mit	extinguished	extinguished		3.2.12.1		0		31
+173476	1253	Padam-Mishing [Abor-Miri]	mit	mit	extinguished	extinguished		3.2.12.1		0		31
+173477	287	Apatani	a-miʔ	a-miʔ	eye	eye		1.2.6		0		p,682
+173478	333	Bengni	ñik	ñik	eye	eye		1.2.6		0		682
+173479	360	Bokar	mik	mik	eye	eye		1.2.6		0		682
+173480	1253	Padam-Mishing [Abor-Miri]	a-mik	a-mik	eye	eye		1.2.6		0		p,682
+173481	287	Apatani	ñiʔ-mo	ñiʔ-mo	face / cheek	face / cheek		1.2.5		0		682,5662
+173482	333	Bengni	ñik-muː	ñik-muː	face / cheek	face / cheek		1.2.5		0		682,5662
+173483	360	Bokar	mi-mo	mi-mo	face / cheek	face / cheek		1.2.5		0		682,5662
+173484	1253	Padam-Mishing [Abor-Miri]	miŋ-mo < mik-mo	miŋ-mo < mik-mo	face / cheek	face / cheek		1.2.5		0		682,5662
+173485	287	Apatani	mɯ-je	mɯ-je	fan	fan		5.4		0		m,2790
+173486	333	Bengni	mɯ-jap	mɯ-jap	fan	fan		5.4		0		m,2790
+173487	360	Bokar	ma-jap	ma-jap	fan	fan		5.4		0		m,2790
+173488	1253	Padam-Mishing [Abor-Miri]	mə-jap	mə-jap	fan	fan		5.4		0		m,2790
+173489	287	Apatani	a-do	a-do	far	far		9.2.4		0		p,6290
+173490	333	Bengni	a-duː	a-duː	far	far		9.2.4		0		p,6290
+173491	360	Bokar	a-to	a-to	far	far		9.2.4		0		p,6290
+173492	1251	Padam [Abor]	mo-do	mo-do	far	far		9.2.4		0		m,6290
+173493	333	Bengni	ɯ-pɯː	ɯ-pɯː	fart	fart (n.)	n	1.8.5.2		0		576,316
+173494	360	Bokar	ə-pəː	ə-pəː	fart	fart (n.)	n	1.8.5.2		0		576,316
+173495	1253	Padam-Mishing [Abor-Miri]	je-pə	je-pə	fart	fart (n.)	n	1.8.5.2		0		576,316
+173496	287	Apatani	hu-	hu-	fat (meat) / greasy	fat (meat) / greasy		1.6.4		0		6311
+173497	333	Bengni	a-fu	a-fu	fat (meat) / greasy	fat (meat) / greasy		1.6.4		0		p,6311
+173498	360	Bokar	huː	huː	fat (meat) / greasy	fat (meat) / greasy		1.6.4		0		6311
+173499	1253	Padam-Mishing [Abor-Miri]	u	u	fat (meat) / greasy	fat (meat) / greasy		1.6.4		0		6311
+173500	287	Apatani	ǰan-tu	ǰan-tu	fat (not thin)	fat (not thin)		1.6.4		0		6260,m
+173501	333	Bengni	ǰiŋ-tɯŋ	ǰiŋ-tɯŋ	fat (not thin)	fat (not thin)		1.6.4		0		6260,m
+173502	1079	Mishing [Miri]	ǰɯŋ	ǰɯŋ	fat (not thin)	fat (not thin)		1.6.4		0		6260
+173503	333	Bengni	a-buː	a-buː	father	father		4.7.1		0		p,6261
+173504	360	Bokar	a-bo	a-bo	father	father		4.7.1		0		p,6261
+173505	1253	Padam-Mishing [Abor-Miri]	a-bu~ ab-bo	a-bu~ ab-bo	father	father		4.7.1		0		p,6261,p,6261
+173506	287	Apatani	a-to	a-to	father-in-law	father-in-law		4.7.4		0		p,6619
+173507	333	Bengni	a-tu	a-tu	father-in-law	father-in-law		4.7.4		0		p,6619
+173508	360	Bokar	a-to	a-to	father-in-law	father-in-law		4.7.4		0		p,6619
+173509	1253	Padam-Mishing [Abor-Miri]	a-to	a-to	father-in-law	father-in-law		4.7.4		0		p,6619
+173510	333	Bengni	rjam	rjam	fathom	fathom		9.8		0		1310
+173511	360	Bokar	jam	jam	fathom	fathom		9.8		0		1310
+173512	1253	Padam-Mishing [Abor-Miri]	bom-jam	bom-jam	fathom	fathom		9.8		0		m,1310
+173513	287	Apatani	hẽ	hẽ	feel	feel (v.t.)	v.t.	8.4		0		6654
+173514	333	Bengni	hin-kaː	hin-kaː	feel	feel (v.t.)	v.t.	8.4		0		6654,m
+173515	1253	Padam-Mishing [Abor-Miri]	an	an	feel	feel (v.t.)	v.t.	8.4		0		6654
+173516	333	Bengni	lak-čiŋ	lak-|čiŋ	finger	finger		1.5.6		0		695,6689
+173517	360	Bokar	lok-čəŋ	lok-|čəŋ	finger	finger		1.5.6		0		695,6689
+173518	1253	Padam-Mishing [Abor-Miri]	lak-ke	lak-|ke	finger	finger		1.5.6		0		695,6689
+173519	333	Bengni	ta-ru	ta-ru	fir / pitch-pine	fir / pitch-pine		3.1.1		0		p,2620
+173520	360	Bokar	ta-ru	ta-ru	fir / pitch-pine	fir / pitch-pine		3.1.1		0		p,2620
+173521	287	Apatani	ja-mu	ja-mu	fire	fire		3.2.12.2		0		p,2136
+173522	333	Bengni	ɯ-mɯː	ɯ-mɯː	fire	fire		3.2.12.2		0		p,2136
+173523	360	Bokar	ə-mə	ə-mə	fire	fire		3.2.12.2		0		p,2136
+173524	1079	Mishing [Miri]	ɯ-mɯ rhyme!	ɯ-mɯ rhyme!	fire	fire		3.2.12.2		0		p,2136
+173525	1251	Padam [Abor]	ə-mə	ə-mə	fire	fire		3.2.12.2		0		p,2136
+173526	287	Apatani	reʔ-ke?	reʔ-ke?	fireplace shelf	fireplace shelf		5.11.5.5		0		2599,m
+173527	333	Bengni	rap-kiː	rap-kiː	fireplace shelf	fireplace shelf		5.11.5.5		0		2599,m
+173528	1253	Padam-Mishing [Abor-Miri]	pə-rap	pə-rap	fireplace shelf	fireplace shelf		5.11.5.5		0		m,2599
+173529	360	Bokar	mə-rom	mə-rom	fireplace / hearth	fireplace / hearth		5.11.5.5		0		2136,2599
+173530	1251	Padam [Abor]	mə-rom	mə-rom	fireplace / hearth	fireplace / hearth		5.11.5.5		0		2136,2599
+173531	1079	Mishing [Miri]	mə-ram	mə-ram	fireplace / hearth	fireplace / hearth		5.11.5.5		0		2136,2599
+173532	333	Bengni	a-dɯŋ	a-dɯŋ	firm	firm		7.1.4.2		0		p,6300
+173533	360	Bokar	a-dɯŋ	a-dɯŋ	firm	firm		7.1.4.2		0		p,6300
+173534	1251	Padam [Abor]	ə-dɯŋ	ə-dɯŋ	firm	firm		7.1.4.2		0		p,6300
+173535	287	Apatani	prjo	prjo	first (adverbial verbal particle)	first (adverbial verbal partic		9.9		0		6519
+173536	333	Bengni	čoː	čoː	first (adverbial verbal particle)	first (adverbial verbal partic		9.9		0		6519
+173537	360	Bokar	pjoŋ	pjoŋ	first (adverbial verbal particle)	first (adverbial verbal partic		9.9		0		6519
+173538	1253	Padam-Mishing [Abor-Miri]	poŋ	poŋ	first (adverbial verbal particle)	first (adverbial verbal partic		9.9		0		6519
+173539	287	Apatani	ŋɯ-i rhyme!	ŋɯ-i rhyme!	fish	fish		2.2.5		0		1455,m
+173540	333	Bengni	ŋu-i	ŋu-i	fish	fish		2.2.5		0		1455,m
+173541	360	Bokar	o-ŋoː	o-ŋoː	fish	fish		2.2.5		0		p,1455
+173542	1079	Mishing [Miri]	o-ŋo	o-ŋo	fish	fish		2.2.5		0		p,1455
+173543	1251	Padam [Abor]	ə-ŋo	ə-ŋo	fish	fish		2.2.5		0		p,1455
+173544	287	Apatani	ja-ŋo	ja-ŋo	five	five		9.9		0		p,1306
+173545	333	Bengni	u-ŋu	u-ŋu	five	five		9.9		0		p,1306
+173546	360	Bokar	o-ŋo	o-ŋo	five	five		9.9		0		p,1306
+173547	1253	Padam-Mishing [Abor-Miri]	a-ŋo	a-ŋo	five	five		9.9		0		p,1306
+173548	333	Bengni	a-ǰap	a-ǰap	flat	flat		7.1.5.1		0		p,2432
+173549	360	Bokar	a-ǰap	a-ǰap	flat	flat		7.1.5.1		0		p,2432
+173550	1253	Padam-Mishing [Abor-Miri]	a-ǰep	a-ǰep	flat	flat		7.1.5.1		0		p,2432
+173551	287	Apatani	ta-xi	ta-xi	flea	flea		2.2.6		0		m,2414
+173552	333	Bengni	ta-fi	ta-fi	flea	flea		2.2.6		0		m,2414
+173553	360	Bokar	te-i	te-i	flea	flea		2.2.6		0		m,2414
+173554	1253	Padam-Mishing [Abor-Miri]	i-po	i-po	flea	flea		2.2.6		0		2414,m
+173555	287	Apatani	a-jaʔ	a-jaʔ	flesh (human)	flesh (human)		1.1.1.1		0		p,35
+173556	333	Bengni	a-jak	a-jak	flesh (human)	flesh (human)		1.1.1.1		0		p,35
+173557	1253	Padam-Mishing [Abor-Miri]	a-jak	a-jak	flesh (human)	flesh (human)		1.1.1.1		0		p,35
+173558	287	Apatani	bi	bi	flow	flow		6.6.1		0		6276
+173559	333	Bengni	bi	bi	flow	flow		6.6.1		0		6276
+173560	360	Bokar	bit	bit	flow	flow		6.6.1		0		6276
+173561	1079	Mishing [Miri]	bit	bit	flow	flow		6.6.1		0		6276
+173562	1251	Padam [Abor]	bɯt	bɯt	flow	flow		6.6.1		0		6276
+173563	287	Apatani	a-pu (la-lu)	a-pu (la-lu)	flower	flower		3.1.4		0		p,6538,m,m
+173564	333	Bengni	a-pjuŋ	a-pjuŋ	flower	flower		3.1.4		0		p,6538
+173565	360	Bokar	puŋ-pin	puŋ-pin	flower	flower		3.1.4		0		6538,m
+173566	1253	Padam-Mishing [Abor-Miri]	ap-pun	ap-pun	flower	flower		3.1.4		0		p,6538
+173567	333	Bengni	pjuŋ-ri	pjuŋ-ri	flute	flute		5.1		0		6532,m
+173568	360	Bokar	ta-puŋ	ta-puŋ	flute	flute		5.1		0		p,6532
+173569	1253	Padam-Mishing [Abor-Miri]	ta-puŋ	ta-puŋ	flute	flute		5.1		0		p,6532
+173570	333	Bengni	ta-jiŋ	ta-jiŋ	fly	fly (n.)	n	2.2.6		0		p,6359
+173571	360	Bokar	ta-jiŋ	ta-jiŋ	fly	fly (n.)	n	2.2.6		0		p,6359
+173572	1253	Padam-Mishing [Abor-Miri]	ta-iŋ	ta-iŋ	fly	fly (n.)	n	2.2.6		0		p,6359
+173573	333	Bengni	ǰɯr	ǰɯr	fly	fly (v.)	v	2.2.6		0		2189
+173574	360	Bokar	bjar	bjar	fly	fly (v.)	v	2.2.6		0		2189
+173575	1253	Padam-Mishing [Abor-Miri]	ber	ber	fly	fly (v.)	v	2.2.6		0		2189
+173576	333	Bengni	ši-pit	ši-pit	foam	foam		3.2.3		0		m,6540
+173577	360	Bokar	ha-pit	ha-pit	foam	foam		3.2.3		0		m,6540
+173578	1253	Padam-Mishing [Abor-Miri]	a-put; sɯ-put	a-put; sɯ-put	foam	foam		3.2.3		0		p,6540,m,6540
+173579	287	Apatani	pu-lje per	pu-lje per rhyme!	fold	fold (v.t.)	v.t.	1.4.4.2		0		m,m,5700
+173580	1079	Mishing [Miri]	pir	pir	fold	fold (v.t.)	v.t.	1.4.4.2		0		5700
+173581	333	Bengni	-pit	-pit	force into (a crack)	force into (a crack)		6.2.2.1		0		6512
+173582	360	Bokar	-pet	-pet	force into (a crack)	force into (a crack)		6.2.2.1		0		6512
+173583	1253	Padam-Mishing [Abor-Miri]	pet	pet	force into (a crack)	force into (a crack)		6.2.2.1		0		6512
+173584	360	Bokar	mit-pen	mit-|pen	forget	forget		8.3.1.16.1		0		1383
+173585	1253	Padam-Mishing [Abor-Miri]	mit-pan	mit-|pan	forget	forget		8.3.1.16.1		0		1383
+173586	287	Apatani	pɯ-lje|	pɯ-lje|	four	four		9.9		0		2409
+173587	333	Bengni	a-pi	a-pi|	four	four		9.9		0		p,2409
+173588	360	Bokar	a-piː	a-piː|	four	four		9.9		0		p,2409
+173589	1253	Padam-Mishing [Abor-Miri]	a-pi	a-pi|	four	four		9.9		0		p,2409
+173590	287	Apatani	a-ǰĩ rhyme!	a-ǰĩ rhyme!	friend	friend		4.4.2		0		p,6362
+173591	333	Bengni	a-ǰin	a-ǰin	friend	friend		4.4.2		0		p,6362
+173592	360	Bokar	a-čen	a-čen	friend	friend		4.4.2		0		p,6362
+173593	1253	Padam-Mishing [Abor-Miri]	a-ǰon	a-ǰon	friend	friend		4.4.2		0		p,6362
+173594	287	Apatani	ta-tɯʔ	ta-tɯʔ	frog	frog		2.1.6.2		0		p,645
+173595	333	Bengni	ta-tɯk	ta-tɯk	frog	frog		2.1.6.2		0		p,645
+173596	360	Bokar	ta-tɯk	ta-tɯk	frog	frog		2.1.6.2		0		p,645
+173597	1253	Padam-Mishing [Abor-Miri]	ta-tɯk~ tik	ta-tɯk~ tik	frog	frog		2.1.6.2		0		p,645
+173598	287	Apatani	a-ji	a-ji	fruit	fruit		3.1.5		0		p,1019
+173599	333	Bengni	šiŋ-šiː	šiŋ-šiː	fruit	fruit		3.1.5		0		2658,1019
+173600	1253	Padam-Mishing [Abor-Miri]	a-je	a-je	fruit	fruit		3.1.5		0		p,1019
+173601	333	Bengni	biŋ	biŋ	full (not empty)	full (not empty)		1.1.3.2		0		111
+173602	360	Bokar	biŋ	biŋ	full (not empty)	full (not empty)		1.1.3.2		0		111
+173603	1079	Mishing [Miri]	biŋ	biŋ	full (not empty)	full (not empty)		1.1.3.2		0		111
+173604	1251	Padam [Abor]	bɯŋ	bɯŋ	full (not empty)	full (not empty)		1.1.3.2		0		111
+173605	333	Bengni	ta-jup	ta-jup	gadfly	gadfly		2.2.6		0		p,6367
+173606	1253	Padam-Mishing [Abor-Miri]	ta-jup	ta-jup	gadfly	gadfly		2.2.6		0		p,6367
+173607	333	Bengni	pi	pi	gall	gall		1.7.3.1		0		6546
+173608	360	Bokar	a-pɯ	a-pɯ	gall	gall		1.7.3.1		0		p,6546
+173609	1079	Mishing [Miri]	pɯ-iŋ	pɯ-iŋ	gall	gall		1.7.3.1		0	u	6546,m
+173610	1251	Padam [Abor]	a-pi	a-pi	gall	gall		1.7.3.1		0		p,6546
+173611	333	Bengni	a-ram	a-ram	ghost (ancestral)	ghost (ancestral)		4.2.12.2		0		p,12
+173612	360	Bokar	o-rom	o-rom	ghost (ancestral)	ghost (ancestral)		4.2.12.2		0		p,12
+173613	1253	Padam-Mishing [Abor-Miri]	u-rom	u-rom	ghost (ancestral)	ghost (ancestral)		4.2.12.2		0		p,12
+173614	287	Apatani	ta-ki	ta-ki	ginger	ginger		3.1.5		0		p,6394
+173615	333	Bengni	ta-kiː	ta-kiː	ginger	ginger		3.1.5		0		p,6394
+173616	360	Bokar	ta-keː	ta-keː	ginger	ginger		3.1.5		0		p,6394
+173617	1253	Padam-Mishing [Abor-Miri]	ta-ke	ta-ke	ginger	ginger		3.1.5		0		p,6394
+173618	287	Apatani	bi	bi	give	give		6.23		0		2158
+173619	333	Bengni	ǰi	ǰi	give	give		6.23		0		2158
+173620	360	Bokar	biː	biː	give	give		6.23		0		2158
+173621	1253	Padam-Mishing [Abor-Miri]	bi	bi	give	give		6.23		0		2158
+173622	287	Apatani	ta-miʔ	ta-miʔ	gnat	gnat		2.2.6		0		p,6459
+173623	333	Bengni	ta-ñit	ta-ñit	gnat	gnat		2.2.6		0		p,6459
+173624	360	Bokar	ta-mit	ta-mit	gnat	gnat		2.2.6		0		p,6459
+173625	1253	Padam-Mishing [Abor-Miri]	ta-mik rhyme!	ta-mik rhyme!	gnat	gnat		2.2.6		0		p,6459
+173626	287	Apatani	ĩ	ĩ	go	go		6.7.2		0		6347
+173627	360	Bokar	in	in	go	go		6.7.2		0		6347
+173628	287	Apatani	a-jĩ	a-jĩ	gold	gold		3.2.4		0		p,6651
+173629	333	Bengni	in	in	gold	gold		3.2.4		0		6651
+173630	1079	Mishing [Miri]	a-ɯn	a-ɯn	gold	gold		3.2.4		0		p,6651
+173631	1251	Padam [Abor]	a-ŋɯn	a-ŋɯn	gold	gold		3.2.4		0		p,6651
+173632	287	Apatani	-prjo	-prjo	good (verbal particle)	good (verbal particle)		9.6.1.1		0		2572
+173633	333	Bengni	-puː	-puː	good (verbal particle)	good (verbal particle)		9.6.1.1		0		2572
+173634	360	Bokar	-po	-po	good (verbal particle)	good (verbal particle)		9.6.1.1		0		2572
+173635	1253	Padam-Mishing [Abor-Miri]	-po	-po	good (verbal particle)	good (verbal particle)		9.6.1.1		0		2572
+173636	287	Apatani	a-jo	a-jo	grandmother	grandmother		4.7.1		0		p,6134
+173637	333	Bengni	a-juː	a-juː	grandmother	grandmother		4.7.1		0		p,6134
+173638	360	Bokar	a-jo	a-jo	grandmother	grandmother		4.7.1		0		p,6134
+173639	1079	Mishing [Miri]	(j)a-jo	(j)a-jo	grandmother	grandmother		4.7.1		0		m,6134
+173640	1251	Padam [Abor]	an-nə (ə-jo)	an-nə (ə-jo)	grandmother	grandmother		4.7.1		0		p,1621,p,6134
+173641	287	Apatani	ko-waʔ	ko-waʔ	grasshopper	grasshopper		2.2.6		0		6382,m
+173642	333	Bengni	ta-kam	ta-kam	grasshopper	grasshopper		2.2.6		0		p,6382
+173643	360	Bokar	ta-kom	ta-kom	grasshopper	grasshopper		2.2.6		0		p,6382
+173644	1253	Padam-Mishing [Abor-Miri]	ta-kom	ta-kom	grasshopper	grasshopper		2.2.6		0		p,6382
+173645	287	Apatani	bru	bru	grave	grave		9.10.6		0		6267
+173646	333	Bengni	ñi-bjuŋ	ñi-bjuŋ	grave	grave		9.10.6		0		m,6267
+173647	287	Apatani	ri-mũ	ri-mũ	grind (crush into powder)	grind (crush into powder)		9.5		0		2333,m
+173648	333	Bengni	rit	rit	grind (crush into powder)	grind (crush into powder)		9.5		0		2333
+173649	287	Apatani	a-pi rhyme!	a-pi rhyme!	grind (sharpen)	grind (sharpen)		9.5		0		p,6547
+173650	333	Bengni	pɯ-rit	pɯ-rit	grind (sharpen)	grind (sharpen)		9.5		0		6547,6559
+173651	360	Bokar	pɯ	pɯ	grind (sharpen)	grind (sharpen)		9.5		0		6547
+173652	1253	Padam-Mishing [Abor-Miri]	pɯ-rat	pɯ-rat	grind (sharpen)	grind (sharpen)		9.5		0		6547,6559
+173653	333	Bengni	hup-kaː	hup-kaː	grope	grope		8.4		0		6345,m
+173654	360	Bokar	hup	hup	grope	grope		8.4		0		6345
+173655	1253	Padam-Mishing [Abor-Miri]	up-ki	up-ki	grope	grope		8.4		0		6345,m
+173656	287	Apatani	sã	sã	grow	grow (v.i.)	v.i.	9.7.2		0		6605
+173657	333	Bengni	šɯŋ	šɯŋ	grow	grow (v.i.)	v.i.	9.7.2		0		6605
+173658	360	Bokar	šɯŋ	šɯŋ	grow	grow (v.i.)	v.i.	9.7.2		0		6605
+173659	1253	Padam-Mishing [Abor-Miri]	sɯŋ	sɯŋ	grow	grow (v.i.)	v.i.	9.7.2		0		6605
+173660	287	Apatani	ñi-|bo	ñi-|bo	guest / outsider	guest / outsider		4.4.3		0		6462
+173661	360	Bokar	ño-|bo	ño-|bo	guest / outsider	guest / outsider		4.4.3		0		6462
+173662	1253	Padam-Mishing [Abor-Miri]	mi-|bo	mi-|bo	guest / outsider	guest / outsider		4.4.3		0		6462
+173663	287	Apatani	a-mu	a-mu	hair (of body)	hair (of body)		1.2.3		0		p,1429
+173664	333	Bengni	a-mɯ	a-mɯ	hair (of body)	hair (of body)		1.2.3		0		p,1429
+173665	360	Bokar	a-mɯ	a-mɯ	hair (of body)	hair (of body)		1.2.3		0		p,1429
+173666	1253	Padam-Mishing [Abor-Miri]	a-mɯt	a-mɯt	hair (of body)	hair (of body)		1.2.3		0		p,1429
+173667	287	Apatani	pa-če	pa-če	half	half		9.8		0		m,6374
+173668	333	Bengni	pa-čiː	pa-čiː	half	half		9.8		0		m,6374
+173669	360	Bokar	pa-čeː	pa-čeː	half	half		9.8		0		m,6374
+173670	1251	Padam [Abor]	a-ke	a-ke	half	half		9.8		0		p,6374
+173671	287	Apatani	a-laʔ	a-laʔ	hand / arm	hand / arm		1.5.1.1		0		p,695
+173672	333	Bengni	lak	lak	hand / arm	hand / arm		1.5.1.1		0		695
+173673	360	Bokar	a-lok	a-lok	hand / arm	hand / arm		1.5.1.1		0		p,695
+173674	1253	Padam-Mishing [Abor-Miri]	a-lak	a-lak	hand / arm	hand / arm		1.5.1.1		0		p,695
+173675	333	Bengni	gap	gap	handspan	handspan		1.5.9.4		0		6326
+173676	360	Bokar	gop	gop	handspan	handspan		1.5.9.4		0		6326
+173677	1253	Padam-Mishing [Abor-Miri]	pin-gop	pin-gop	handspan	handspan		1.5.9.4		0		m,6326
+173678	287	Apatani	a-haʔ	a-haʔ	hang (against wall)	hang (against wall)		6.1.1.5		0		p,3509
+173679	333	Bengni	hak-pɯː	hak-pɯː	hang (against wall)	hang (against wall)		6.1.1.5		0		3509,6510
+173680	360	Bokar	hak-paː	hak-paː	hang (against wall)	hang (against wall)		6.1.1.5		0		3509,6510
+173681	287	Apatani	a-dĩ	a-dĩ	head	head		1.2.1		0		p,1425
+173682	333	Bengni	dum-poː	dum-poː	head	head		1.2.1		0		1425,388
+173683	360	Bokar	dum-pɯr	dum-pɯr	head	head		1.2.1		0		1425,388
+173684	1251	Padam [Abor]	dum-poŋ	dum-poŋ	head	head		1.2.1		0		1425,388
+173685	287	Apatani	a-ha	a-ha	heart	heart		1.7.1		0		p,6201
+173688	1079	Mishing [Miri]	a-puk < aŋ-puk	a-puk < aŋ-puk	heart	heart		1.7.1		0		6201,164,6201,164
+173689	333	Bengni	haː-puk	haː-puk	heart	heart		1.7.1		0	D1	6201,164
+173690	360	Bokar	hoŋ-puk	hoŋ-puk	heart	heart		1.7.1		0	D1	6201,164
+173691	1079	Mishing [Miri]	a-puk	a-puk	heart	heart		1.7.1		0		6201,164
+173692	1251	Padam [Abor]	puk-pɯ	puk-pɯ	heart	heart		1.7.1		0		164,m
+173693	287	Apatani	a-iʔ < *a-hiʔ	a-iʔ < *a-hiʔ	heavy	heavy		9.6.2		0		p,2415
+173694	360	Bokar	ə-i	ə-i	heavy	heavy		9.6.2		0		p,2415
+173695	287	Apatani	lɯ-|du	lɯ-|du	heel	heel		1.5.2.1		0		574
+173696	333	Bengni	lu-|du	lu-|du	heel	heel		1.5.2.1		0		574
+173697	361	Bokar	li-|du	li-|du	heel	heel		1.5.2.1		0		574
+173698	1253	Padam-Mishing [Abor-Miri]	le-|du	le-|du	heel	heel		1.5.2.1		0		574
+173699	1250	Padam [Abor]	-gul	-gul	help	help (v.t.)	v.t.	6.2.2.1		0	u	6336
+173700	333	Bengni	ǰɯk	ǰɯk	hit (target)	hit (target)		6.8		0		6259
+173701	1253	Padam-Mishing [Abor-Miri]	bek	bek	hit (target)	hit (target)		6.8		0		6259
+173702	333	Bengni	čum	čum	hold on both palms	hold on both palms		6.16		0		6521
+173703	360	Bokar	a-pjum	a-pjum	hold on both palms	hold on both palms		6.16		0		p,6521
+173704	333	Bengni	šap	šap	hold / nip (e.g. with tweezers, chopsticks)	hold / nip (e.g. with tweezers,		6.16		0		6593
+173705	360	Bokar	šap	šap	hold / nip (e.g. with tweezers, chopsticks)	hold / nip (e.g. with tweezers,		6.16		0		6593
+173706	1253	Padam-Mishing [Abor-Miri]	sep	sep	hold / nip (e.g. with tweezers, chopsticks)	hold / nip (e.g. with tweezers,		6.16		0		6593
+173707	333	Bengni	gak-	gak-	hold / seize	hold / seize		6.16		0		6316
+173708	360	Bokar	gok-	gok-	hold / seize	hold / seize		6.16		0		6316
+173709	1253	Padam-Mishing [Abor-Miri]	gak	gak	hold / seize	hold / seize		6.16		0		6316
+173710	287	Apatani	-ru	-ru as in ja-ru ʻearʼ	hole / dent	hole / dent		3.2.7		0		2070
+173711	333	Bengni	uŋ-ruŋ	uŋ-ruŋ ʻdentʼ	hole / dent	hole / dent		3.2.7		0		p,2070
+173712	360	Bokar	a-ruŋ	a-ruŋ	hole / dent	hole / dent		3.2.7		0		p,2070
+173713	1253	Padam-Mishing [Abor-Miri]	a-ruŋ	a-ruŋ	hole / dent	hole / dent		3.2.7		0		p,2070
+173714	287	Apatani	ta-ŋu	ta-ŋu	honey bee	honey bee		2.2.6		0		p,6649
+173715	333	Bengni	ŋu-ñaː	ŋu-ñaː	honey bee	honey bee		2.2.6		0		6649,m
+173716	360	Bokar	tu-ŋu	tu-ŋu	honey bee	honey bee		2.2.6		0		p,6649
+173717	1253	Padam-Mishing [Abor-Miri]	ta-ŋut	ta-ŋut	honey bee	honey bee		2.2.6		0		p,6649
+173718	287	Apatani	a-rɯ	a-rɯ	horn	horn		1.2.2		0		p,814
+173719	333	Bengni	rɯŋ	rɯŋ	horn	horn		1.2.2		0		814
+173720	360	Bokar	a-rəŋ	a-rəŋ	horn	horn		1.2.2		0		p,814
+173721	1253	Padam-Mishing [Abor-Miri]	a-rəŋ	a-rəŋ	horn	horn		1.2.2		0		p,814
+173722	287	Apatani	pə-grja	pə-grja	hornbill	hornbill		2.2.4.1		0		m,6329
+173723	1253	Padam-Mishing [Abor-Miri]	pə-gaŋ	pə-gaŋ	hornbill	hornbill		2.2.4.1		0		m,6329
+173724	333	Bengni	ta-gaː	ta-gaː	hornet	hornet		2.2.6		0		p,6319
+173725	360	Bokar	ta-gaː	ta-gaː	hornet	hornet		2.2.6		0		p,6319
+173726	1253	Padam-Mishing [Abor-Miri]	ta-gaŋ	ta-gaŋ	hornet	hornet		2.2.6		0		p,6319
+173727	333	Bengni	ši-kiː	ši-kiː	horse	horse		2.1.7		0		m,6023
+173728	360	Bokar	šə-kɯ	šə-kɯ	horse	horse		2.1.7		0		m,6023
+173729	287	Apatani	ɯ-dɯʔ	ɯ-dɯʔ	hot (spicy)	hot (spicy)				0		p,6634
+173730	333	Bengni	ɯ-tɯk	ɯ-tɯk	hot (spicy)	hot (spicy)				0		p,6634
+173731	360	Bokar	a-tɯk	a-tɯk	hot (spicy)	hot (spicy)				0		p,6634
+173732	1253	Padam-Mishing [Abor-Miri]	dik	dik	hot (spicy)	hot (spicy)				0		6634
+173733	287	Apatani	grju-buʔ	grju-buʔ	hot / warm	hot / warm				0		6335,m
+173734	333	Bengni	a-wu <*a-gu	a-wu <*a-gu	hot / warm	hot / warm				0		p,6335
+173735	360	Bokar	a-gu	a-gu	hot / warm	hot / warm				0		p,6335
+173736	1253	Padam-Mishing [Abor-Miri]	gu	gu	hot / warm	hot / warm				0		6335
+173737	287	Apatani	laŋ-e	laŋ-e	hundred	hundred		9.9		0		6169
+173738	333	Bengni	lɯŋ	lɯŋ	hundred	hundred		9.9		0		6169
+173739	360	Bokar	lɯŋ	lɯŋ	hundred	hundred		9.9		0		6169
+173740	1253	Padam-Mishing [Abor-Miri]	lɯŋ	lɯŋ	hundred	hundred		9.9		0		6169
+173741	333	Bengni	ka-|noː	ka-|noː	hungry	hungry		1.1.3		0		104
+173742	360	Bokar	ki-|noŋ	ki-|noŋ	hungry	hungry		1.1.3		0		104
+173743	1253	Padam-Mishing [Abor-Miri]	kə-|noŋ	kə-|noŋ	hungry	hungry		1.1.3		0		104
+173744	287	Apatani	mi-|lo	mi-|lo	husband	husband		4.7.4		0		6455
+173745	333	Bengni	ñu-|luː	ñu-luː	husband	husband		4.7.4		0		6455
+173746	360	Bokar	me-|lo	me-|lo	husband	husband		4.7.4		0		6455
+173747	1252	Padam [Abor]	mi-|lo	mi-|lo	husband	husband		4.7.4		0		6455
+173748	287	Apatani	ŋo	ŋo	I	I		4.1		0		2530
+173749	333	Bengni	ŋuː	ŋuː	I	I		4.1		0		2530
+173750	360	Bokar	ŋoː	ŋoː	I	I		4.1		0		2530
+173751	1253	Padam-Mishing [Abor-Miri]	ŋo	ŋo	I	I		4.1		0		2530
+173752	333	Bengni	pɯr	pɯr	ignite	ignite		3.2.12.1		0		2152
+173753	1253	Padam-Mishing [Abor-Miri]	par	par	ignite	ignite		3.2.12.1		0		2152
+173754	287	Apatani	a-či	a-či	ill	ill		1.1.5.1		0		p,1847
+173755	333	Bengni	a-či	a-či	ill	ill		1.1.5.1		0		p,1847
+173756	360	Bokar	a-či	a-či	ill	ill		1.1.5.1		0		p,1847
+173757	1253	Padam-Mishing [Abor-Miri]	ki	ki	ill	ill		1.1.5.1		0		1847
+173758	287	Apatani	xrjɯ-ǰã(~ ro)	xrjɯ-ǰã(~ ro) rhyme!	intestines	intestines		1.7.7		0		2125,m
+173759	333	Bengni	a-ki	a-ki	intestines	intestines		1.7.7		0		p,2125
+173760	360	Bokar	a-kiː	a-kiː	intestines	intestines		1.7.7		0		p,2125
+173761	1253	Padam-Mishing [Abor-Miri]	a-ki	a-ki	intestines	intestines		1.7.7		0		p,2125
+173762	287	Apatani	a-haʔ	a-haʔ	itch	itch		1.6.5.5		0		p,1457
+173763	333	Bengni	a-fak	a-fak	itch	itch		1.6.5.5		0		p,1457
+173764	360	Bokar	ak	ak	itch	itch		1.6.5.5		0		1457
+173765	1253	Padam-Mishing [Abor-Miri]	ak	ak	itch	itch		1.6.5.5		0		1457
+173766	287	Apatani	gaŋ-|gu	gaŋ-|gu	jew's harp	jew's harp		4.6		0		6337
+173767	333	Bengni	guŋ-|gaː	guŋ-gaː	jew's harp	jew's harp		4.6		0		6337
+173768	360	Bokar	goŋ-|gaŋ	goŋ-|gaŋ	jew's harp	jew's harp		4.6		0		6337
+173769	1079	Mishing [Miri]	guŋ-|gaŋ	guŋ-gaŋ	jew's harp	jew's harp		4.6		0		6337
+173770	1251	Padam [Abor]	goŋ-|gaŋ~ koŋ-|gaŋ	goŋ-gaŋ~ koŋ-gaŋ	jew's harp	jew's harp		4.6		0		6337,6337
+173771	287	Apatani	poʔ	poʔ	jump	jump		6.7.8		0		6707
+173772	333	Bengni	puk	puk	jump	jump		6.7.8		0		6707
+173773	360	Bokar	pok	pok	jump	jump		6.7.8		0		6707
+173774	1253	Padam-Mishing [Abor-Miri]	pok	pok	jump	jump		6.7.8		0		6707
+173775	287	Apatani	a-xrjeʔ	a-xrjeʔ	kidney	kidney		1.7.5		0		
+173776	333	Bengni	kiː-čɯr	kiː-čɯr	kidney	kidney		1.7.5		0		
+173777	360	Bokar	ka-|pir	ka-|pir	kidney	kidney		1.7.5		0		2120
+173778	1253	Padam-Mishing [Abor-Miri]	kat-|pil	kat-|pil	kidney	kidney		1.7.5		0		2120
+173779	287	Apatani	mẽ	mẽ	kill	kill		6.4		0		6447
+173780	333	Bengni	min	min	kill	kill		6.4		0		6447
+173781	360	Bokar	men	men	kill	kill		6.4		0		6447
+173782	333	Bengni	pɯr-nuː	pɯr-nuː	kindle	kindle		3.2.12.1		0		2152,6239
+173783	360	Bokar	pa-no	pa-no	kindle	kindle		3.2.12.1		0		m,6239
+173784	1079	Mishing [Miri]	par-not	par-not	kindle	kindle		3.2.12.1		0		2152,6239
+173785	1251	Padam [Abor]	pa(r)-ñot	pa(r)-ñot	kindle	kindle		3.2.12.1		0		2152,6239
+173786	333	Bengni	muː-pup	muː-pup	kiss	kiss		1.3.2.2		0		3451,3450
+173787	360	Bokar	a-pup	a-pup	kiss	kiss		1.3.2.2		0		p,3450
+173788	1253	Padam-Mishing [Abor-Miri]	mam-puk	mam-puk	kiss	kiss		1.3.2.2		0		3451,3450
+173789	287	Apatani	lɯ-|bã	lɯ-|bã	knee	knee		1.5.8.4		0		6437
+173790	333	Bengni	lɯ-|bɯŋ	lɯ-|bɯŋ	knee	knee		1.5.8.4		0		6437
+173791	360	Bokar	lɯ-|bɯŋ	lɯ-|bɯŋ	knee	knee		1.5.8.4		0		6437
+173792	1253	Padam-Mishing [Abor-Miri]	le-|bɯŋ	le-|bɯŋ	knee	knee		1.5.8.4		0		6437
+173793	333	Bengni	jɯk-tup	jɯk-tup	knot	knot		5.1		0		6369,m
+173794	360	Bokar	jək-tup	jək-tup	knot	knot		5.1		0		6369,m
+173795	1253	Padam-Mishing [Abor-Miri]	jek-tum-nam	jek-tum-nam	knot	knot		5.1		0		6369,m,s
+173796	287	Apatani	čĩ	čĩ	know	know		8.3.1.12.1		0		1229
+173797	333	Bengni	čin	čin	know	know		8.3.1.12.1		0		1229
+173798	360	Bokar	čen	čen	know	know		8.3.1.12.1		0		1229
+173799	1253	Padam-Mishing [Abor-Miri]	ken	ken	know	know		8.3.1.12.1		0		1229
+173800	287	Apatani	a-brja	a-brja	ladder	ladder		5.4		0		p,6262
+173801	333	Bengni	baː-fjak	baː-fjak	ladder	ladder		5.4		0		6262,m
+173802	360	Bokar	ə-paŋ	ə-paŋ	ladder	ladder		5.4		0		p,6262
+173803	1079	Mishing [Miri]	ko-baŋ	ko-baŋ	ladder	ladder		5.4		0		m,6262
+173804	1251	Padam [Abor]	lə-baŋ; ə-baŋ	lə-baŋ; ə-baŋ	ladder	ladder		5.4		0		m,6262,m,6262
+173805	287	Apatani	a-gũ rhyme!	a-gũ rhyme!	language / speech	language / speech		5.8		0		p,6324
+173806	333	Bengni	gam	gam	language / speech	language / speech		5.8		0		6324
+173807	360	Bokar	(a-) gom	(a-) gom	language / speech	language / speech		5.8		0		p,6324
+173808	1253	Padam-Mishing [Abor-Miri]	a-gom	a-gom	language / speech	language / speech		5.8		0		p,6324
+173809	287	Apatani	ŋar	ŋar	laugh	laugh		1.8.8.1		0		1142
+173810	333	Bengni	ñir	ñir	laugh	laugh		1.8.8.1		0		1142
+173811	360	Bokar	ñir	ñir	laugh	laugh		1.8.8.1		0		1142
+173812	1079	Mishing [Miri]	jir < ñir	jir < ñir	laugh	laugh		1.8.8.1		0		1142
+173813	1251	Padam [Abor]	ŋil	ŋil	laugh	laugh		1.8.8.1		0		1142
+173814	287	Apatani	(j)a-nɯ	(j)a-nɯ	leaf	leaf		3.1.3		0		p,402
+173815	333	Bengni	na-nɯː	na-nɯː	leaf	leaf		3.1.3		0		m,402
+173816	360	Bokar	(ɯ-šɯŋ) a-nə	(ɯ-šɯŋ) a-nə	leaf	leaf		3.1.3		0		p,2658,p,402
+173817	1253	Padam-Mishing [Abor-Miri]	an-nə; na-nə	an-nə; na-nə	leaf	leaf		3.1.3		0		m,402,m,402
+173818	333	Bengni	-gjɯŋ	-gjɯŋ	lean against	lean against		1.1.1		0		6333
+173819	360	Bokar	-gəŋ	-gəŋ	lean against	lean against		1.1.1		0		6333
+173820	1253	Padam-Mishing [Abor-Miri]	gəŋ	gəŋ	lean against	lean against		1.1.1		0		6333
+173821	287	Apatani	ta-peʔ	ta-peʔ	leech (land)	leech (land)		2.2.6		0		p,2555
+173822	333	Bengni	ta-pit	ta-pit	leech (land)	leech (land)		2.2.6		0		p,2555
+173823	360	Bokar	ta-pet	ta-pet	leech (land)	leech (land)		2.2.6		0		p,2555
+173824	1253	Padam-Mishing [Abor-Miri]	ta-pat	ta-pat	leech (land)	leech (land)		2.2.6		0		p,2555
+173825	287	Apatani	laʔ-či	laʔ-|či	left (-hand)	left (-hand)		1.5.3.2		0		695,5624
+173826	333	Bengni	lak-či	lak-|či	left (-hand)	left (-hand)		1.5.3.2		0		695,5624
+173827	360	Bokar	lak-če	lak-|če	left (-hand)	left (-hand)		1.5.3.2		0		695,5624
+173828	1253	Padam-Mishing [Abor-Miri]	lak-ke	lak-|ke	left (-hand)	left (-hand)		1.5.3.2		0		695,5624
+173829	333	Bengni	du-|ŋoː	du-|ŋoː	leftover (food)	leftover (food)		5.5		0		6291
+173830	1253	Padam-Mishing [Abor-Miri]	do-|ŋoŋ	do-|ŋoŋ	leftover (food)	leftover (food)		5.5		0		6291
+173831	287	Apatani	a-li rhyme!	a-li rhyme!	leg	leg		1.5.7		0		p,350
+173832	333	Bengni	lɯ-paː	lɯ-paː	leg	leg		1.5.7		0		350,m
+173833	360	Bokar	a-lə	a-lə	leg	leg		1.5.7		0		p,350
+173834	1079	Mishing [Miri]	a-le	a-le	leg	leg		1.5.7		0		p,350
+173835	1251	Padam [Abor]	a-lə	a-lə	leg	leg		1.5.7		0		p,350
+173836	333	Bengni	ta-jit	ta-jit	leprosy	leprosy		5.3		0		p,6357
+173837	360	Bokar	ta-it	ta-it	leprosy	leprosy		5.3		0		p,6357
+173838	1253	Padam-Mishing [Abor-Miri]	tɯt <ta-it?	tɯt <ta-it?	leprosy	leprosy		5.3		0		6357
+173839	287	Apatani	grjɯ-a	grjɯ-a	lie down	lie down		6.1.1.4		0		6332,m
+173840	333	Bengni	git-pɯː	git-pɯː	lie down	lie down		6.1.1.4		0		6332,m
+173841	1253	Padam-Mishing [Abor-Miri]	kət	kət	lie down	lie down		6.1.1.4		0		6332
+173842	287	Apatani	ǰo	ǰo	lift	lift		6.16		0		6363
+173843	333	Bengni	ǰoː	ǰoː	lift	lift		6.16		0		6363
+173844	360	Bokar	ǰoŋ	ǰoŋ	lift	lift		6.16		0		6363
+173845	1253	Padam-Mishing [Abor-Miri]	ǰoŋ	ǰoŋ	lift	lift		6.16		0		6363
+173846	333	Bengni	a-kɯŋ gam-bɯr	a-kɯŋ gam-bɯr	lip	lip		1.3.2		0		p,m,454,452
+173847	1079	Mishing [Miri]	nab-ber	nab-ber	lip	lip		1.3.2		0		470,452
+173848	1252	Padam [Abor]	nap-bel	nap-bel	lip	lip		1.3.2		0		m,452
+173849	287	Apatani	o	o	liquor	liquor		3.1.6.3		0		6526
+173850	333	Bengni	u-poː	u-poː	liquor	liquor		3.1.6.3		0		m,6526
+173851	360	Bokar	oː	oː rhyme!	liquor	liquor		3.1.6.3		0		6526
+173852	1253	Padam-Mishing [Abor-Miri]	a-poŋ	a-poŋ	liquor	liquor		3.1.6.3		0		m,6526
+173853	287	Apatani	ta	ta	listen / hear	listen / hear		1.2.7.4		0		1408
+173854	333	Bengni	tɯː	tɯː	listen / hear	listen / hear		1.2.7.4		0		1408
+173855	360	Bokar	taː	taː	listen / hear	listen / hear		1.2.7.4		0		1408
+173856	1253	Padam-Mishing [Abor-Miri]	tat	tat	listen / hear	listen / hear		1.2.7.4		0		1408
+173857	287	Apatani	pa-ĩ	pa-ĩ	liver	liver		1.7.3		0		p,1390
+173858	333	Bengni	šin	šin	liver	liver		1.7.3		0		1390
+173859	360	Bokar	jin	jin	liver	liver		1.7.3		0		1390
+173860	1079	Mishing [Miri]	a-sin	a-sin	liver	liver		1.7.3		0		p,1390
+173861	1251	Padam [Abor]	a-in	a-in	liver	liver		1.7.3		0		p,1390
+173862	333	Bengni	ha-gin	ha-gin	loincloth	loincloth		5.11.8.2.1.3		0		m,6325
+173863	361	Bokar	ho-ken	ho-ken	loincloth	loincloth		5.11.8.2.1.3		0		m,6325
+173864	1253	Padam-Mishing [Abor-Miri]	u-gon	u-gon	loincloth	loincloth		5.11.8.2.1.3		0		p,6325
+173865	287	Apatani	ka	ka	look	look		1.2.6.11		0		6373
+173866	333	Bengni	kaː	kaː	look	look		1.2.6.11		0		6373
+173867	360	Bokar	koŋ	koŋ	look	look		1.2.6.11		0		6373
+173868	1253	Padam-Mishing [Abor-Miri]	kaŋ	kaŋ	look	look		1.2.6.11		0		6373
+173869	360	Bokar	ñeː-ñok	ñeː-ñok	lose	lose (v.t.)	v.t.	6.10.1		0		m,6495
+173870	1253	Padam-Mishing [Abor-Miri]	ñok	ñok	lose	lose (v.t.)	v.t.	6.10.1		0		6495
+173871	287	Apatani	ta-xrjɯʔ	ta-xrjɯʔ	louse (head)	louse (head)		2.2.6		0		p,2609
+173872	333	Bengni	ta-fɯk	ta-fɯk	louse (head)	louse (head)		2.2.6		0		p,2609
+173873	360	Bokar	ta-jɯk	ta-jɯk	louse (head)	louse (head)		2.2.6		0		p,2609
+173874	1079	Mishing [Miri]	ta-ik	ta-ik	louse (head)	louse (head)		2.2.6		0		p,2609
+173875	1251	Padam [Abor]	t◦ɯk < ta-ɯk	t◦ɯk < ta-ɯk	louse (head)	louse (head)		2.2.6		0		p,2609
+173876	333	Bengni	haː-|ru	haː-|ru	lungs	lungs		1.7.2		0		6343
+173877	287	Apatani	i-ljo	i-ljo	machete / dao	machete / dao		5.3		0		p,6570
+173878	333	Bengni	u-rjuk	u-rjuk	machete / dao	machete / dao		5.3		0		p,6570
+173879	360	Bokar	o-rjok	o-rjok	machete / dao	machete / dao		5.3		0		p,6570
+173880	1251	Padam [Abor]	ə-jok	ə-jok	machete / dao	machete / dao		5.3		0		p,6570
+173881	287	Apatani	mju < /mi-ju/	mju < /mi-ju/	man (homo)	man (homo)		1.9.6.1		0		1002
+173882	333	Bengni	ñiː	ñiː	man (homo)	man (homo)		1.9.6.1		0		1002
+173883	360	Bokar	miː	miː	man (homo)	man (homo)		1.9.6.1		0		1002
+173884	1253	Padam-Mishing [Abor-Miri]	a-mi	a-mi	man (homo)	man (homo)		1.9.6.1		0		p,1002
+173885	287	Apatani	lo-|čũ rhyme!	lo-|čũ rhyme!	marrow	marrow		1.6.3.5		0		6433
+173886	333	Bengni	loː-|čin	loː-|čin	marrow	marrow		1.6.3.5		0		6433
+173887	1253	Padam-Mishing [Abor-Miri]	loŋ-|kin	loŋ-|kin	marrow	marrow		1.6.3.5		0		6433
+173888	333	Bengni	a-din	a-din	meat	meat		1.1.1.1		0		p,6299
+173889	360	Bokar	i-din	i-din	meat	meat		1.1.1.1		0		p,6299
+173890	1253	Padam-Mishing [Abor-Miri]	a-din	a-din	meat	meat		1.1.1.1		0		p,6299
+173891	287	Apatani	ǰi-ǰa-nə-ku	ǰi-ǰa-nə-ku	melt	melt		9.5		0		6358,m,m,m
+173892	333	Bengni	ǰit	ǰit	melt	melt		9.5		0		6358
+173893	360	Bokar	ǰit	ǰit	melt	melt		9.5		0		6358
+173894	1251	Padam [Abor]	ǰit~ ǰet	ǰit~ ǰet	melt	melt		9.5		0		6358,6358
+173895	360	Bokar	ta-jak	ta-jak	millet (fox-tail)	millet (fox-tail)		1.5.3.2		0		p,6350
+173896	500	Damu	ta-jak	ta-jak	millet (fox-tail)	millet (fox-tail)		1.5.3.2		0		p,6350
+173897	1253	Padam-Mishing [Abor-Miri]	a-jak	a-jak	millet (fox-tail)	millet (fox-tail)		1.5.3.2		0		p,6350
+173898	333	Bengni	ta-ñit	ta-ñit	millet (job's tear)	millet (job's tear)		1.5.3.2		0		p,6494
+173899	1253	Padam-Mishing [Abor-Miri]	a-ñat	a-ñat	millet (job's tear)	millet (job's tear)		1.5.3.2		0		p,6494
+173900	287	Apatani	si-bi	si-bi	monkey	monkey		2.1.9		0		m,2782
+173901	333	Bengni	ši-biː	ši-biː	monkey	monkey		2.1.9		0		m,2782
+173902	360	Bokar	šə-be	šə-be	monkey	monkey		2.1.9		0		m,2782
+173903	1253	Padam-Mishing [Abor-Miri]	si-be	si-be	monkey	monkey		2.1.9		0		m,2782
+173904	287	Apatani	pɯ-lo|	pɯ-lo|	moon	moon		3.2.2		0		1016
+173905	333	Bengni	poː-lu|	poː-lu|	moon	moon		3.2.2		0		1016
+173906	360	Bokar	poŋ-lo|	poŋ-lo|	moon	moon		3.2.2		0		1016
+173907	1253	Padam-Mishing [Abor-Miri]	po-lo|	po-lo|	moon	moon		3.2.2		0		1016
+173908	287	Apatani	-ja	-ja	more (verbal particle of comparison)	more (verbal particle of compa		9.9		0		6678
+173909	333	Bengni	-jaː	-jaː	more (verbal particle of comparison)	more (verbal particle of compa		9.9		0		6678
+173910	360	Bokar	-joŋ	-joŋ	more (verbal particle of comparison)	more (verbal particle of compa		9.9		0		6678
+173911	1253	Padam-Mishing [Abor-Miri]	-jaŋ	-jaŋ	more (verbal particle of comparison)	more (verbal particle of compa		9.9		0		6678
+173912	287	Apatani	a-ro	a-ro	morning	morning		9.1.4		0		p,144
+173913	333	Bengni	a-ruː	a-ruː	morning	morning		9.1.4		0		p,144
+173914	360	Bokar	a-ro	a-ro	morning	morning		9.1.4		0		p,144
+173915	1253	Padam-Mishing [Abor-Miri]	ro	ro	morning	morning		9.1.4		0		144
+173916	287	Apatani	ja-pɯr	ja-pɯr	mortar	mortar		5.5		0		p,6504
+173917	333	Bengni	čiŋ-pɯr	čiŋ-pɯr	mortar	mortar		5.5		0		m,6504
+173918	360	Bokar	ta-par	ta-par	mortar	mortar		5.5		0		p,6504
+173919	1253	Padam-Mishing [Abor-Miri]	ki-par	ki-par	mortar	mortar		5.5		0		m,6504
+173920	287	Apatani	ta-ru	ta-ru	mosquito	mosquito		2.2.6		0		p,6583
+173921	333	Bengni	ta-ruŋ gam-buŋ	ta-ruŋ gam-buŋ	mosquito	mosquito		2.2.6		0		p,6583,m,m
+173922	1253	Padam-Mishing [Abor-Miri]	ta-ru suŋ-gu	ta-ru suŋ-gu	mosquito	mosquito		2.2.6		0		p,6583,m,m
+173923	287	Apatani	a-nə	a-nə	mother	mother		4.7.1		0		p,1621
+173924	333	Bengni	a-nɯː	a-nɯː	mother	mother		4.7.1		0		p,1621
+173925	360	Bokar	a-nə	a-nə	mother	mother		4.7.1		0	u	p,1621
+173926	1079	Mishing [Miri]	a-nə, na-nə	a-nə, na-nə	mother	mother		4.7.1		0		p,1621,m,1621
+173927	1251	Padam [Abor]	an-nə	an-nə	mother	mother		4.7.1		0		p,1621
+173928	333	Bengni	ñoː-di	ñoː-di	mountain / hill	mountain / hill		3.2.5		0		6470,6222
+173929	360	Bokar	a-tiː	a-tiː	mountain / hill	mountain / hill		3.2.5		0		p,6222
+173930	1079	Mishing [Miri]	a-di	a-di	mountain / hill	mountain / hill		3.2.5		0		m,6222
+173931	1251	Padam [Abor]	di-tə	di-tə	mountain / hill	mountain / hill		3.2.5		0		6222
+173932	287	Apatani	a(r)-brju a-te	a(r)-brju a-te	move	move (v.i.)	v.i.	6.7.11		0		p,6268,p,m
+173933	333	Bengni	bi	bi	move	move (v.i.)	v.i.	6.7.11		0		6268
+173934	360	Bokar	bɯː	bɯː	move	move (v.i.)	v.i.	6.7.11		0		6268
+173935	1251	Padam [Abor]	bə-ləŋ	bə-ləŋ	move	move (v.i.)	v.i.	6.7.11		0		6268,m
+173936	287	Apatani	ta-jĩ	ta-jĩ =ʻfungusʼ	mushroom	mushroom		3.1.7		0		p,3328
+173937	333	Bengni	ta-jin	ta-jin	mushroom	mushroom		3.1.7		0		p,3328
+173938	360	Bokar	ta-jin	ta-jin	mushroom	mushroom		3.1.7		0		p,3328
+173939	287	Apatani	laʔ-|ĩ	laʔ-|ĩ	nail (body part)	nail (body part)		1.5.10		0		6691
+173940	333	Bengni	lak-|šin	lak-|šin	nail (body part)	nail (body part)		1.5.10		0		6691
+173941	360	Bokar	lu-|gin < lok+jin	lu-|gin < lok+jin	nail (body part)	nail (body part)		1.5.10		0		6691
+173942	1079	Mishing [Miri]	lak-|sin	lak-|sin	nail (body part)	nail (body part)		1.5.10		0		6691
+173943	1251	Padam [Abor]	lag-|jin	lag-|jin	nail (body part)	nail (body part)		1.5.10		0		6691
+173944	287	Apatani	ar-mrjã	ar-mrjã	name	name		5.8		0		m,2450
+173945	333	Bengni	pi-min	pi-min	name	name		5.8		0		m,2450
+173946	360	Bokar	a-min	a-min	name	name		5.8		0		p,2450
+173947	1251	Padam [Abor]	mɯn	mɯn	name	name		5.8		0		2450
+173948	1079	Mishing [Miri]	min	min	name	name		5.8		0		2450
+173949	287	Apatani	xrjɯ-|nɯ	xrjɯ-|nɯ	navel	navel		1.9.4		0		6396
+173950	333	Bengni	ki-|ni	ki-|ni	navel	navel		1.9.4		0		6396
+173951	360	Bokar	kiː-|niː	kiː-|niː	navel	navel		1.9.4		0		6396
+173952	1253	Padam-Mishing [Abor-Miri]	ki-|ni	ki-|ni	navel	navel		1.9.4		0		6396
+173953	287	Apatani	lã-gu	lã-gu	neck	neck		1.4.2		0		479,5651
+173954	333	Bengni	lɯŋ-poː	lɯŋ-poː	neck	neck		1.4.2		0		479,3404
+173955	360	Bokar	lɯŋ-poŋ	lɯŋ-poŋ	neck	neck		1.4.2		0		479,3404
+173956	1251	Padam [Abor]	a-lɯŋ	a-lɯŋ	neck	neck		1.4.2		0		p,479
+173957	287	Apatani	ma	ma	negator	negator		10.6.2		0		6449
+173958	333	Bengni	maː	maː	negator	negator		10.6.2		0		6449
+173959	360	Bokar	moŋ	moŋ	negator	negator		10.6.2		0		6449
+173960	1253	Padam-Mishing [Abor-Miri]	maŋ	maŋ	negator	negator		10.6.2		0		6449
+173961	287	Apatani	a-siʔ	a-siʔ	nest / lair	nest / lair		2.2.4		0		p,1613
+173962	333	Bengni	taː-šup	taː-šup	nest / lair	nest / lair		2.2.4		0		m,1613
+173963	360	Bokar	a-šup	a-šup	nest / lair	nest / lair		2.2.4		0		p,1613
+173964	1253	Padam-Mishing [Abor-Miri]	a-sup	a-sup	nest / lair	nest / lair		2.2.4		0		p,1613
+173965	333	Bengni	a-šap	a-šap	net	net		5.11.5.4		0		p,6592
+173966	1253	Padam-Mishing [Abor-Miri]	ə-sap	ə-sap	net	net		5.11.5.4		0		p,6592
+173967	287	Apatani	a-jo	a-jo	night	night		9.1.4		0		p,2784
+173968	333	Bengni	a-juː	a-juː	night	night		9.1.4		0		p,2784
+173969	360	Bokar	a-joː	a-joː	night	night		9.1.4		0		p,2784
+173970	1253	Padam-Mishing [Abor-Miri]	jo; jo-ə	jo; jo-ə	night	night		9.1.4		0		2784,2784,m
+173971	287	Apatani	ko-wa|	ko-wa|	nine	nine		9.9		0		6204
+173972	333	Bengni	kju-aː|	kju-aː|	nine	nine		9.9		0		6204
+173973	360	Bokar	ko-noŋ|	ko-noŋ|	nine	nine		9.9		0		6204
+173974	1253	Padam-Mishing [Abor-Miri]	ko-naŋ|	ko-naŋ|	nine	nine		9.9		0		6204
+173975	333	Bengni	fɯk-ri	fɯk-ri	nit	nit		2.2.6		0		2609,1172
+173976	361	Bokar	hɯk-rɯː	hɯk-rɯː	nit	nit		2.2.6		0		2609,1172
+173977	1253	Padam-Mishing [Abor-Miri]	ɯk-rɯ	ɯk-rɯ	nit	nit		2.2.6		0		2609,1172
+173978	333	Bengni	lɯ-čit	lɯ-čit	numb (in the feet)	numb (in the feet)		1.5.11		0		
+173979	1253	Padam-Mishing [Abor-Miri]	le-|pit	le-|pit	numb (in the feet)	numb (in the feet)		1.5.11		0		6424
+173980	287	Apatani	na-ru	na-ru	odor / smell	odor / smell		7.1.4.5		0		803,2607
+173981	360	Bokar	a-rɯː	a-rɯː	odor / smell	odor / smell		7.1.4.5		0		p,2607
+173982	1253	Padam-Mishing [Abor-Miri]	a-rɯ	a-rɯ	odor / smell	odor / smell		7.1.4.5		0		p,2607
+173983	287	Apatani	xrju	xrju	old (not new)	old (not new)		7.1.8.3		0		6410
+173984	333	Bengni	a-ku	a-ku	old (not new)	old (not new)		7.1.8.3		0		p,6410
+173985	1253	Padam-Mishing [Abor-Miri]	a-ku	a-ku	old (not new)	old (not new)		7.1.8.3		0		p,6410
+173986	1079	Mishing [Miri]	a-ter	a-ter	one	one		9.9		0		
+173987	1251	Padam [Abor]	a-tel	a-tel	one	one		9.9		0		
+173988	287	Apatani	kũ~ kõ	kũ~ kõ	one	one		9.9		0		6383,6383
+173989	333	Bengni	a-kin	a-kin	one	one		9.9		0		p,6383
+173990	360	Bokar	a-ken	a-ken	one	one		9.9		0		p,6383
+173991	1253	Padam-Mishing [Abor-Miri]	a-kon	a-kon	one	one		9.9		0		p,6383
+173992	287	Apatani	-ko	-ko	open (verbal particle)	open (verbal particle)		6.2.2.6.1		0		6667
+173993	333	Bengni	-ku	-ku	open (verbal particle)	open (verbal particle)		6.2.2.6.1		0		6667
+173994	360	Bokar	-ko	-ko	open (verbal particle)	open (verbal particle)		6.2.2.6.1		0	u	6667
+173995	1253	Padam-Mishing [Abor-Miri]	-ko	-ko	open (verbal particle)	open (verbal particle)		6.2.2.6.1		0		6667
+173996	333	Bengni	hu-|pin	hu-|pin	orphan	orphan		4.3		0		6643
+173997	1253	Padam-Mishing [Abor-Miri]	o-|pan	o-|pan	orphan	orphan		4.3		0		6643
+173998	287	Apatani	sɯ-rĩ	sɯ-rĩ	otter	otter		2.2.7.1		0		p,2595
+173999	333	Bengni	šɯ-ram	šɯ-ram	otter	otter		2.2.7.1		0		p,2595
+174000	360	Bokar	šə-ram	šə-ram	otter	otter		2.2.7.1		0		p,2595
+174001	1253	Padam-Mishing [Abor-Miri]	si-ram	si-ram	otter	otter		2.2.7.1		0		m,2595
+174002	333	Bengni	lin	lin	out (verbal particle)	out (verbal particle)		9.2		0		6426
+174003	360	Bokar	len	len	out (verbal particle)	out (verbal particle)		9.2		0		6426
+174004	1253	Padam-Mishing [Abor-Miri]	len	len	out (verbal particle)	out (verbal particle)		9.2		0		6426
+174005	287	Apatani	pa-xrju	pa-xrju ʻshellʼ	outer covering	outer covering		3.1.2		0		m,586
+174006	333	Bengni	ka-kuk	ka-kuk ʻdried barkʼ	outer covering	outer covering		3.1.2		0		m,586
+174007	287	Apatani	laʔ-pʰrjo	laʔ-|pʰrjo	palm (of hand)	palm (of hand)		1.5.5		0		695,776
+174008	333	Bengni	lak-čuː	lak-čuː	palm (of hand)	palm (of hand)		1.5.5		0		695,776
+174009	360	Bokar	lok-pjo	lok-|pjo	palm (of hand)	palm (of hand)		1.5.5		0		695,776
+174010	1079	Mishing [Miri]	lak-po	lak-|po	palm (of hand)	palm (of hand)		1.5.5		0		695,776
+174011	1251	Padam [Abor]	lak-pjo	lak-|pjo	palm (of hand)	palm (of hand)		1.5.5		0		695,776
+174012	287	Apatani	si-pi	si-pi	pangolin	pangolin		2.2.7		0		m,6517
+174013	333	Bengni	ši-čit lo-poː	ši-čit lo-poː	pangolin	pangolin		2.2.7		0		m,6517
+174014	1253	Padam-Mishing [Abor-Miri]	si-pit	si-pit	pangolin	pangolin		2.2.7		0		m,6517
+174015	333	Bengni	u-hɯr	u-hɯr	panji (pointed spike)	panji (pointed spike)		5.11.9		0		p,6660
+174016	1253	Padam-Mishing [Abor-Miri]	or	or	panji (pointed spike)	panji (pointed spike)		5.11.9		0		6660
+174017	333	Bengni	ñak	ñak	penis	penis				0		548
+174018	1253	Padam-Mishing [Abor-Miri]	ə-mak	ə-mak	penis	penis				0		p,548
+174019	333	Bengni	ta-kak	ta-kak	phlegm	phlegm		1.8.3		0		p,540
+174020	360	Bokar	ta-kak	ta-kak	phlegm	phlegm		1.8.3		0		p,540
+174021	1079	Mishing [Miri]	ta-kak	ta-kak	phlegm	phlegm		1.8.3		0		p,540
+174022	333	Bengni	pu	pu	pick (flower, fruit)	pick (flower, fruit)		6.10.4		0		6534
+174023	360	Bokar	pu	pu	pick (flower, fruit)	pick (flower, fruit)		6.10.4		0		6534
+174024	1253	Padam-Mishing [Abor-Miri]	pu	pu	pick (flower, fruit)	pick (flower, fruit)		6.10.4		0		6534
+174025	287	Apatani	ǰo-tu	ǰo-tu	pick up	pick up		6.10.4		0		6363,6631
+174026	333	Bengni	ka-ti	ka-ti	pick up	pick up		6.10.4		0		m,6631
+174027	360	Bokar	tɯː	tɯː	pick up	pick up		6.10.4		0		6631
+174028	1253	Padam-Mishing [Abor-Miri]	tɯ	tɯ	pick up	pick up		6.10.4		0		6631
+174029	287	Apatani	a-ljiʔ	a-ljiʔ	pig	pig		2.1.12		0		p,6019
+174030	333	Bengni	ə-rjɯk	ə-rjɯk	pig	pig		2.1.12		0		p,6019
+174031	360	Bokar	ə-jək	ə-jək	pig	pig		2.1.12		0		p,6019
+174032	1253	Padam-Mishing [Abor-Miri]	e-ek; jek	e-ek; jek	pig	pig		2.1.12		0		p,6019,6019
+174033	333	Bengni	in	in	pinch (with fingernail)	pinch (with fingernail)		8.4		0		6348
+174034	1253	Padam-Mishing [Abor-Miri]	in	in	pinch (with fingernail)	pinch (with fingernail)		8.4		0		6348
+174035	333	Bengni	nɯ-mam	nɯ-mam	placenta	placenta				0		m,3444
+174036	360	Bokar	nə-mam	nə-mam	placenta	placenta				0		m,3444
+174037	1251	Padam [Abor]	a-mam	a-mam	placenta	placenta				0		p,3444
+174041	287	Apatani	prja-sɯ	prja-sɯ	plait	plait		1.2.3.2		0	D1	2018,m
+174042	333	Bengni	pjɯː	pjɯː	plait	plait		1.2.3.2		0	D1	2018
+174043	1253	Padam-Mishing [Abor-Miri]	pet <*pjat<*prat	pet <*pjat<*prat	plait	plait		1.2.3.2		0	D1	2018
+174044	360	Bokar	diː	diː	plant (v.t., e.g. ~ tree)	plant (v.t., e.g. ±  tree)		3.1.10		0		6288
+174045	1253	Padam-Mishing [Abor-Miri]	diŋ	diŋ	plant (v.t., e.g. ~ tree)	plant (v.t., e.g. ±  tree)		3.1.10		0		6288
+174046	287	Apatani	so-|mĩ so-ĩ	so-|mĩ so-ĩ	play	play		6.1.1.3		0		6600,m,m
+174047	333	Bengni	šoː-|min	šoː-|min	play	play		6.1.1.3		0		6600
+174048	360	Bokar	šoŋ-|men	šoŋ-|men	play	play		6.1.1.3		0		6600
+174049	1253	Padam-Mishing [Abor-Miri]	so-|man	so-|man	play	play		6.1.1.3		0		6600
+174050	333	Bengni	dɯ-dɯk	dɯ-dɯk	poison (generic)	poison (generic)		6.4		0		m,2202
+174051	360	Bokar	dɯk	dɯk	poison (generic)	poison (generic)		6.4		0		2202
+174052	1253	Padam-Mishing [Abor-Miri]	dik	dik	poison (generic)	poison (generic)		6.4		0		2202
+174053	360	Bokar	bɯr-|toŋ	bɯr-|toŋ	poisonous snake / viper	poisonous snake / viper		2.1.6		0		2623
+174054	333	Bengni	bɯr-|taː	bɯr-|taː	poisonous snake / viper	poisonous snake / viper		2.1.6		0		2623
+174058	287	Apatani	sɯ-xrjɯ	sɯ-xrjɯ	porcupine	porcupine		2.1.1		0	D1	m,6393
+174059	333	Bengni	ši-kit	ši-kit	porcupine	porcupine		2.1.1		0	D1	m,6393
+174060	360	Bokar	šə-ket	šə-ket	porcupine	porcupine		2.1.1		0	D1	m,6393
+174061	287	Apatani	pɯ-čã	pɯ-|čã	pot (generic)	pot (generic)		5.5		0		7617,6541
+174062	333	Bengni	pɯ-čiŋ	pɯ-|čiŋ	pot (generic)	pot (generic)		5.5		0		7617,6541
+174063	1253	Padam-Mishing [Abor-Miri]	pə-ki < *pə-kiŋ	pə-|ki < *pə-kiŋ	pot (generic)	pot (generic)		5.5		0		7617,6541
+174064	287	Apatani	ti-lɯ	ti-lɯ	pour	pour		6.6		0		m,6442
+174065	333	Bengni	pɯ-lɯk	pɯ-lɯk	pour	pour		6.6		0		m,6442
+174066	360	Bokar	lɯk	lɯk	pour	pour		6.6		0		6442
+174067	1253	Padam-Mishing [Abor-Miri]	lik	lik	pour	pour		6.6		0		6442
+174068	287	Apatani	pa-mɯʔ	pa-mɯʔ	powder	powder		3.2.11		0		m,6479
+174069	333	Bengni	a-mɯk	a-mɯk	powder	powder		3.2.11		0		p,6479
+174070	360	Bokar	a-mɯk	a-mɯk	powder	powder		3.2.11		0		p,6479
+174071	1253	Padam-Mishing [Abor-Miri]	pe-mɯk	pe-mɯk	powder	powder		3.2.11		0		m,6479
+174072	287	Apatani	a-ri	a-ri	price	price		5.9		0		p,6584
+174073	333	Bengni	a-rɯː	a-rɯː	price	price		5.9		0		p,6584
+174074	360	Bokar	a-rəː	a-rəː	price	price		5.9		0		p,6584
+174075	1253	Padam-Mishing [Abor-Miri]	a-rə	a-rə	price	price		5.9		0		p,6584
+174076	287	Apatani	ñi-|bu	ñi-|bu	priest / shaman	priest / shaman		4.2.4		0		6463
+174077	333	Bengni	ñu-|bu	ñu-|bu	priest / shaman	priest / shaman		4.2.4		0		6463
+174078	360	Bokar	ñu-|buː	ñu-|buː	priest / shaman	priest / shaman		4.2.4		0		6463
+174079	287	Apatani	jo	jo	prohibitive marker	prohibitive marker		8.5.1		0		6679
+174080	360	Bokar	jo	jo	prohibitive marker	prohibitive marker		8.5.1		0		6679
+174081	1253	Padam-Mishing [Abor-Miri]	jo	jo	prohibitive marker	prohibitive marker		8.5.1		0		6679
+174082	287	Apatani	kɯ	kɯ	punch (downward) with fist	punch (downward) with fist		6.8		0		6416
+174083	333	Bengni	kɯ	kɯ	punch (downward) with fist	punch (downward) with fist		6.8		0		6416
+174084	360	Bokar	kɯː	kɯː	punch (downward) with fist	punch (downward) with fist		6.8		0		6416
+174085	1253	Padam-Mishing [Abor-Miri]	kɯt	kɯt	punch (downward) with fist	punch (downward) with fist		6.8		0		6416
+174086	333	Bengni	pɯː	pɯː	put	put		6.17		0		6510
+174087	360	Bokar	paː	paː	put	put		6.17		0		6510
+174088	287	Apatani	bu-rũ	bu-|rũ	python	python		2.1.6		0		2178,m
+174089	333	Bengni	bɯ-ram	bɯ-|ram	python	python		2.1.6		0		2178,m
+174090	1253	Padam-Mishing [Abor-Miri]	bɯ-rem	bɯ-|rem	python	python		2.1.6		0		2178,m
+174091	287	Apatani	a-pu a-ge	a-pu a-ge	quiver (for arrows)	quiver (for arrows)		6.7.4		0		p,6536,p,6318
+174092	333	Bengni	a-git	a-git	quiver (for arrows)	quiver (for arrows)		6.7.4		0		p,6318
+174093	360	Bokar	git-buŋ	git-buŋ	quiver (for arrows)	quiver (for arrows)		6.7.4		0		6318,m
+174094	1253	Padam-Mishing [Abor-Miri]	gat-buŋ	gat-buŋ	quiver (for arrows)	quiver (for arrows)		6.7.4		0		6318
+174095	287	Apatani	mɯ-do	mɯ-|do	rain	rain (n.)	n	3.2.1		0		2473,3570
+174096	333	Bengni	ñi-doː	ñi-|doː	rain	rain (n.)	n	3.2.1		0		2473,3570
+174097	360	Bokar	me-doŋ	me-|doŋ	rain	rain (n.)	n	3.2.1		0		2473,3570
+174098	1253	Padam-Mishing [Abor-Miri]	pə-doŋ	pə-|doŋ	rain	rain (n.)	n	3.2.1		0	u	3570
+174099	287	Apatani	hu	hu	rain / fall from a height	rain (v.) / fall from a height	v	3.2.1		0		3507
+174100	333	Bengni	huː	huː	rain / fall from a height	rain (v.) / fall from a height	v	3.2.1		0		3507
+174101	360	Bokar	hoː	hoː	rain / fall from a height	rain (v.) / fall from a height	v	3.2.1		0		3507
+174102	1253	Padam-Mishing [Abor-Miri]	o	o	rain / fall from a height	rain (v.) / fall from a height	v	3.2.1		0		3507
+174103	287	Apatani	ku-|bu~ bu-|ku	ku-|bu~ bu-|ku	rat (generic)	rat (generic)		2.1.1		0		6411,6411
+174104	333	Bengni	ku-|buŋ	ku-|buŋ	rat (generic)	rat (generic)		2.1.1		0		6411
+174105	360	Bokar	ku-|buŋ	ku-|buŋ	rat (generic)	rat (generic)		2.1.1		0		6411
+174106	1253	Padam-Mishing [Abor-Miri]	kə-|buŋ	kə-|buŋ	rat (generic)	rat (generic)		2.1.1		0		6411
+174107	287	Apatani	ja-so	ja-so	rattan / cane	rattan / cane		3.1.6.4		0		p,6599
+174108	333	Bengni	u-šoː	u-šoː	rattan / cane	rattan / cane		3.1.6.4		0		p,6599
+174109	360	Bokar	kər-ku o-šoŋ	kər-ku o-šoŋ	rattan / cane	rattan / cane		3.1.6.4		0		m,m,p,6599
+174110	1253	Padam-Mishing [Abor-Miri]	ə-soŋ	ə-soŋ	rattan / cane	rattan / cane		3.1.6.4		0		p,6599
+174111	333	Bengni	-liː	-liː	raw (uncooked)	raw (uncooked)		7.1.8.3		0		6423
+174112	360	Bokar	le(-jək)	le(-jək)	raw (uncooked)	raw (uncooked)		7.1.8.3		0		6423,m
+174113	1079	Mishing [Miri]	le	le	raw (uncooked)	raw (uncooked)		7.1.8.3		0		6423
+174114	287	Apatani	lan-čã	lan-čã	red	red		9.4		0		6137,m
+174115	333	Bengni	lɯŋ-čiŋ	lɯŋ-čiŋ	red	red		9.4		0		6137,m
+174116	360	Bokar	lɯŋ-kaŋ	lɯŋ-kaŋ	red	red		9.4		0		6137,m 
+174117	1079	Mishing [Miri]	lɯŋ	lɯŋ	red	red		9.4		0		6137
+174118	1251	Padam [Abor]	ja-lɯŋ	ja-lɯŋ	red	red		9.4		0		m,6137
+174119	287	Apatani	-su	-su	reflexive marker	reflexive marker		10.4.2		0		6668
+174120	333	Bengni	-šu	-šu	reflexive marker	reflexive marker		10.4.2		0		6668
+174121	360	Bokar	-šuː	-šuː	reflexive marker	reflexive marker		10.4.2		0		6668
+174122	1253	Padam-Mishing [Abor-Miri]	-su	-su	reflexive marker	reflexive marker		10.4.2		0		6668
+174123	333	Bengni	mɯ-tin	mɯ-tin	repair	repair		6.14		0		m,6617
+174124	360	Bokar	moː-ten	moː-ten	repair	repair		6.14		0		m,6617
+174125	1253	Padam-Mishing [Abor-Miri]	mo-ten	mo-ten	repair	repair		6.14		0		m,6617
+174126	287	Apatani	-xrja	-xrja	resultative particle (=off, away)	resultative particle (=off, aw		10.0		0		6680
+174127	333	Bengni	-kjak	-kjak	resultative particle (=off, away)	resultative particle (=off, aw		10.0		0		6680
+174128	360	Bokar	-kak	-kak	resultative particle (=off, away)	resultative particle (=off, aw		10.0		0		6680
+174129	1253	Padam-Mishing [Abor-Miri]	-kak	-kak	resultative particle (=off, away)	resultative particle (=off, aw		10.0		0		6680
+174130	287	Apatani	a-pĩ	a-pĩ	rice (cooked)	rice (cooked)		3.1.4		0		m,6245
+174131	333	Bengni	a-čin	a-čin	rice (cooked)	rice (cooked)		3.1.4		0		p,6245
+174132	1079	Mishing [Miri]	a-pin	a-pin	rice (cooked)	rice (cooked)		3.1.4		0		p,6245
+174133	1251	Padam [Abor]	a-pim	a-pim	rice (cooked)	rice (cooked)		3.1.4		0		m,6245
+174134	287	Apatani	em-|bĩ	em-|bĩ	rice (uncooked)	rice (uncooked)		3.1.4		0		6243
+174135	333	Bengni	am-|bin	am-|bin	rice (uncooked)	rice (uncooked)		3.1.4		0		6243
+174136	1253	Padam-Mishing [Abor-Miri]	am-|bɯn	am-|bɯn	rice (uncooked)	rice (uncooked)		3.1.4		0		6243
+174137	287	Apatani	laʔ-bi	laʔ-|bi	right (hand)	right (hand)		1.5.3.2		0		695,5761
+174138	333	Bengni	lak-bik	lak-|bik	right (hand)	right (hand)		1.5.3.2		0		695,5761
+174139	360	Bokar	lok-bik	lok-|bik	right (hand)	right (hand)		1.5.3.2		0		695,5761
+174140	1253	Padam-Mishing [Abor-Miri]	lak-bɯk	lak-|bɯk	right (hand)	right (hand)		1.5.3.2		0		695,5761
+174141	287	Apatani	ar-mĩ	ar-mĩ	ripe	ripe		3.1.10		0		m,2449
+174142	333	Bengni	ñin	ñin	ripe	ripe		3.1.10		0		2449
+174143	360	Bokar	min	min	ripe	ripe		3.1.10		0		2449
+174144	1253	Padam-Mishing [Abor-Miri]	min	min	ripe	ripe		3.1.10		0		2449
+174145	287	Apatani	len-da	len-da	road	road		9.10.1		0		1017,m
+174146	333	Bengni	lam-tɯː	lam-tɯː	road	road		9.10.1		0		1017
+174147	360	Bokar	lam-tə	lam-tə	road	road		9.10.1		0		1017
+174148	1253	Padam-Mishing [Abor-Miri]	lam-tə; lam-bə	lam-tə; lam-bə	road	road		9.10.1		0		1017,m,1017
+174149	287	Apatani	ha	ha	roast in a pan (without adding oil)/parch	roast in a pan (without adding		5.5		0		6638
+174150	333	Bengni	vɯː	vɯː	roast in a pan (without adding oil)/parch	roast in a pan (without adding		5.5		0		6638
+174151	360	Bokar	haː	haː	roast in a pan (without adding oil)/parch	roast in a pan (without adding		5.5		0		6638
+174152	1253	Padam-Mishing [Abor-Miri]	a	a	roast in a pan (without adding oil)/parch	roast in a pan (without adding		5.5		0		6638
+174153	360	Bokar	pa-pɯr	pa-pɯr	root	root		3.1.2		0		m,6554
+174154	1253	Padam-Mishing [Abor-Miri]	a-pɯr; le-pɯr	a-pɯr; le-pɯr	root	root		3.1.2		0		p,6554,m,6554
+174155	287	Apatani	ja-	ja-	rot / rotten	rot / rotten		3.1.10		0		6353
+174156	333	Bengni	jaː	jaː	rot / rotten	rot / rotten		3.1.10		0		6353,m
+174157	360	Bokar	jaŋ	jaŋ	rot / rotten	rot / rotten		3.1.10		0		6353
+174158	1253	Padam-Mishing [Abor-Miri]	jaŋ	jaŋ	rot / rotten	rot / rotten		3.1.10		0		6353
+174159	333	Bengni	a-lum	a-lum	round (globular)	round (globular)		9.7.1		0		p,690
+174160	1253	Padam-Mishing [Abor-Miri]	a-lum	a-lum	round (globular)	round (globular)		9.7.1		0		p,690
+174161	333	Bengni	nu	nu	rub (skin)	rub (skin)	v	8.4		0		4819
+174162	360	Bokar	nuː	nuː	rub (skin)	rub (skin)	v	8.4		0		4819
+174163	1253	Padam-Mishing [Abor-Miri]	not	not	rub (skin)	rub (skin)	v	8.4		0		4819
+174164	287	Apatani	a-lo	a-lo	salt	salt		3.2.4		0		p,2385
+174165	333	Bengni	a-luː	a-luː	salt	salt		3.2.4		0		p,2385
+174166	360	Bokar	o-lo	o-lo	salt	salt		3.2.4		0		p,2385
+174167	1253	Padam-Mishing [Abor-Miri]	a-lo	a-lo	salt	salt		3.2.4		0		p,2385
+174168	360	Bokar	la-jen	la-jen	satiated / tired of	satiated / tired of		1.1.3.2		0		m,1830
+174169	1253	Padam-Mishing [Abor-Miri]	jem~ em	jem~ em	satiated / tired of	satiated / tired of		1.1.3.2		0		1830,1830
+174170	360	Bokar	ben	ben	say / speak	say / speak		1.8.7		0		6699
+174171	333	Bengni	bin	bin	say / speak	say / speak		1.8.7		0		6699
+174172	1253	Padam-Mishing [Abor-Miri]	ban	ban	say / speak	say / speak		1.8.7		0		6699
+174173	333	Bengni	šuk	šuk	scoop / ladle	scoop / ladle (v.)	v	6.11		0		6601
+174174	360	Bokar	šuk	šuk	scoop / ladle	scoop / ladle (v.)	v	6.11		0		6601
+174175	1253	Padam-Mishing [Abor-Miri]	ǰuk	ǰuk	scoop / ladle	scoop / ladle (v.)	v	6.11		0		6601
+174176	287	Apatani	hoʔ	hoʔ	scratch (to stop an itch)	scratch (to stop an itch)		1.6.5.5		0		1458
+174177	333	Bengni	uk	uk	scratch (to stop an itch)	scratch (to stop an itch)		1.6.5.5		0		1458
+174178	361	Bokar	hok	hok	scratch (to stop an itch)	scratch (to stop an itch)		1.6.5.5		0		1458
+174179	1253	Padam-Mishing [Abor-Miri]	ok	ok	scratch (to stop an itch)	scratch (to stop an itch)		1.6.5.5		0		1458
+174180	333	Bengni	gaː	gaː	scratch (with claws)	scratch (with claws)		1.6.5.5		0		6320
+174181	1253	Padam-Mishing [Abor-Miri]	gaŋ	gaŋ	scratch (with claws)	scratch (with claws)		1.6.5.5		0		6320
+174182	287	Apatani	me	me	search, look for	search, look for		6.2.2.2		0		6448
+174183	333	Bengni	miː	miː	search, look for	search, look for		6.2.2.2		0		6448
+174184	360	Bokar	ma	ma	search, look for	search, look for		6.2.2.2		0		6448
+174185	1253	Padam-Mishing [Abor-Miri]	ma	ma	search, look for	search, look for		6.2.2.2		0		6448
+174186	333	Bengni	a-li	a-li	seed	seed		3.1.4		0		p,3560
+174187	360	Bokar	um-liː	um-liː	seed	seed		3.1.4		0		m,3560
+174188	1251	Padam [Abor]	a-li~ am-li	a-li~ am-li	seed	seed		3.1.4		0		p,3560,p,3560
+174189	1079	Mishing [Miri]	mɯ-sur	mɯ-sur	seedling	seedling		3.1.8		0		m,6281
+174190	287	Apatani	prju(ʔ)	prju(ʔ)	sell	sell		6.22		0		6531
+174191	333	Bengni	pjuk	pjuk	sell	sell		6.22		0		6531
+174192	360	Bokar	puk	puk	sell	sell		6.22		0		6531
+174193	287	Apatani	-pe	-pe	separate (verbal particle)	separate (verbal particle)		6.10.4		0		6683
+174194	333	Bengni	-pin	-pin	separate (verbal particle)	separate (verbal particle)		6.10.4		0		6683
+174195	360	Bokar	-pen	-pen	separate (verbal particle)	separate (verbal particle)		6.10.4		0		6683
+174196	1253	Padam-Mishing [Abor-Miri]	-pan	-pan	separate (verbal particle)	separate (verbal particle)		6.10.4		0		6683
+174197	287	Apatani	sɯ-brjɯ	sɯ-brjɯ	serow (goat antelope)	serow (goat antelope)		2.1.8		0		m,6030
+174198	333	Bengni	ši-bi	ši-bi	serow (goat antelope)	serow (goat antelope)		2.1.8		0		m,6030
+174199	360	Bokar	šɯ-bɯ	šɯ-bɯ	serow (goat antelope)	serow (goat antelope)		2.1.8		0		m,6030
+174200	1253	Padam-Mishing [Abor-Miri]	si-bɯ	si-bɯ	serow (goat antelope)	serow (goat antelope)		2.1.8		0		p,6030
+174201	287	Apatani	ha~ a	ha~ a	set (sun)	set (sun)		6.17		0		6211,6211
+174202	333	Bengni	vaː	vaː	set (sun)	set (sun)		6.17		0		6211
+174203	360	Bokar	oŋ	oŋ	set (sun)	set (sun)		6.17		0		6211
+174204	1253	Padam-Mishing [Abor-Miri]	o-aŋ|	o-aŋ|	set (sun)	set (sun)		6.17		0		p,6211
+174205	287	Apatani	ka-nu|	ka-nu|	seven	seven		9.9		0		2505
+174206	333	Bengni	ka-ni|	ka-ni|	seven	seven		9.9		0		2505
+174207	360	Bokar	kɯ-nɯ|	kɯ-nɯ|	seven	seven		9.9		0		2505
+174208	1253	Padam-Mishing [Abor-Miri]	ki-nit|	ki-nit|	seven	seven		9.9		0		2505
+174209	333	Bengni	ham	ham	sew / patch	sew / patch		5.1		0		6659
+174210	360	Bokar	hom	hom	sew / patch	sew / patch		5.1		0		6659
+174211	1253	Padam-Mishing [Abor-Miri]	om	om	sew / patch	sew / patch		5.1		0		6659
+174212	287	Apatani	mrjo-|lji	mrjo-|lji	shady side of mountain	shady side of mountain		3.2.10		0		6466
+174213	333	Bengni	ñoː-|rji	ñoː-|rji	shady side of mountain	shady side of mountain		3.2.10		0		6466
+174214	333	Bengni	din	din	shake	shake		6.7.9		0		6287
+174215	360	Bokar	den	den	shake	shake		6.7.9		0		6287
+174216	1253	Padam-Mishing [Abor-Miri]	dan	dan	shake	shake		6.7.9		0		6287
+174217	333	Bengni	bɯ-|čɯr	bɯ-|čɯr	shallow / thin (paper)	shallow / thin (paper)		7.1.5.3		0		6270
+174218	360	Bokar	be-|čor	be-|čor	shallow / thin (paper)	shallow / thin (paper)		7.1.5.3		0		6270
+174219	1253	Padam-Mishing [Abor-Miri]	be-|sor	be-|sor	shallow / thin (paper)	shallow / thin (paper)		7.1.5.3		0		6270
+174220	287	Apatani	a-reʔ	a-reʔ	sharp(-edged)	sharp(-edged)		6.9.2		0		p,6559
+174221	333	Bengni	a-rit	a-rit	sharp(-edged)	sharp(-edged)		6.9.2		0		p,6559
+174222	360	Bokar	ret-po	ret-po	sharp(-edged)	sharp(-edged)		6.9.2		0		6559,m
+174223	1253	Padam-Mishing [Abor-Miri]	rat	rat	sharp(-edged)	sharp(-edged)		6.9.2		0		6559
+174224	287	Apatani	hu-brju	hu-brju	sheath	sheath		5.14		0		m,6266
+174225	360	Bokar	ču-buk	ču-buk	sheath	sheath		5.14		0		m,6266
+174226	1253	Padam-Mishing [Abor-Miri]	so-buk	so-buk	sheath	sheath		5.14		0		m,6266
+174227	287	Apatani	lɯ-pʰrja (a-lo)	lɯ-pʰrja (a-lo)	shin / shank	shin / shank		1.5.7.2		0		m,6528,p,238
+174228	360	Bokar	lə-paŋ	lə-paŋ	shin / shank	shin / shank		1.5.7.2		0		m,6528
+174229	333	Bengni	lɯ-|kjam	lɯ-|kjam	shoe	shoe		5.11.8.1		0		6439
+174230	360	Bokar	lə-|kam	lə-|kam	shoe	shoe		5.11.8.1		0		574
+174231	287	Apatani	eʔ	eʔ	shoot	shoot (v.)	v	6.2.2.1		0		2232
+174232	333	Bengni	ap	ap	shoot	shoot (v.)	v	6.2.2.1		0		2232
+174233	360	Bokar	op rhyme!	op rhyme!	shoot	shoot (v.)	v	6.2.2.1		0		2232
+174234	1253	Padam-Mishing [Abor-Miri]	ap	ap	shoot	shoot (v.)	v	6.2.2.1		0		2232
+174235	287	Apatani	tu-dɯ	tu-dɯ	short	short		9.7.2		0		m,7173
+174236	333	Bengni	haː-tɯŋ	haː-tɯŋ	short	short		9.7.2		0		m,7173
+174237	360	Bokar	a-təŋ	a-təŋ	short	short		9.7.2		0		p,7173
+174238	1253	Padam-Mishing [Abor-Miri]	an-dəŋ	an-dəŋ	short	short		9.7.2		0		m,7173
+174239	287	Apatani	gor-bã	gor-bã	shoulder	shoulder		1.4.3		0		6327,1327
+174240	333	Bengni	gɯr-bɯŋ	gɯr-bɯŋ	shoulder	shoulder		1.4.3		0		6327,1327
+174241	360	Bokar	gur-bɯŋ	gur-bɯŋ	shoulder	shoulder		1.4.3		0		6327,1327
+174242	1253	Padam-Mishing [Abor-Miri]	gor-duŋ	gor-duŋ	shoulder	shoulder		1.4.3		0		6327,3343
+174243	287	Apatani	hɯ-|ña	hɯ-|ña	shy / ashamed	shy / ashamed		9.6.3		0		6341
+174244	333	Bengni	ha-|ñiŋ	ha-|ñiŋ	shy / ashamed	shy / ashamed		9.6.3		0		6341
+174245	361	Bokar	hen-|ñiŋ	hen-|ñiŋ	shy / ashamed	shy / ashamed		9.6.3		0		6341
+174246	1253	Padam-Mishing [Abor-Miri]	a-|ñiŋ	a-|ñiŋ	shy / ashamed	shy / ashamed		9.6.3		0		6341
+174247	333	Bengni	a-fuː	a-fuː	sinew / vein	sinew / vein		1.6.6.1		0		p,530
+174248	1253	Padam-Mishing [Abor-Miri]	ɯ-joŋ	ɯ-joŋ	sinew / vein	sinew / vein		1.6.6.1		0		m,m
+174249	333	Bengni	baː	baː	singe / roast in fire	singe / roast in fire		3.2.12.1		0		6263
+174250	1253	Padam-Mishing [Abor-Miri]	baŋ	baŋ	singe / roast in fire	singe / roast in fire		3.2.12.1		0		6263
+174251	287	Apatani	a-mi	a-mi	sister (elder)	sister (elder)		4.7.2		0		p,6450
+174252	333	Bengni	a-ñiː	a-ñiː	sister (elder)	sister (elder)		4.7.2		0		p,6450
+174253	360	Bokar	a-meː	a-meː	sister (elder)	sister (elder)		4.7.2		0		p,6450
+174254	1253	Padam-Mishing [Abor-Miri]	bɯr-|me	bɯr-|me	sister (elder)	sister (elder)		4.7.2		0		6274
+174255	287	Apatani	bar-|mɯ	bar-|mɯ	sister (younger)	sister (younger)		4.7.2		0		6274
+174256	333	Bengni	bɯr-|mə:	bɯr-|mə:	sister (younger)	sister (younger)		4.7.2		0		6274
+174257	360	Bokar	bɯr-|məː	bɯr-|məː	sister (younger)	sister (younger)		4.7.2		0		6274
+174258	1253	Padam-Mishing [Abor-Miri]	bɯr-|mə	bɯr-|mə	sister (younger)	sister (younger)		4.7.2		0		6274
+174259	333	Bengni	gup	gup	sit on eggs / hatch	sit on eggs / hatch		6.1.1.4.1		0		1233
+174260	361	Bokar	gup	gup	sit on eggs / hatch	sit on eggs / hatch		6.1.1.4.1		0		1233
+174261	1253	Padam-Mishing [Abor-Miri]	gup	gup	sit on eggs / hatch	sit on eggs / hatch		6.1.1.4.1		0		1233
+174262	287	Apatani	du-(mo)	du-(mo)	sit	sit		6.1.1.4.1		0		1906,m
+174263	333	Bengni	doː	doː rhyme!	sit	sit		6.1.1.4.1		0		1906
+174264	360	Bokar	duŋ	duŋ	sit	sit		6.1.1.4.1		0		1906
+174265	1253	Padam-Mishing [Abor-Miri]	duŋ	duŋ	sit	sit		6.1.1.4.1		0		1906
+174266	287	Apatani	xrjɯ	xrjɯ	six	six		9.9		0		2621
+174267	333	Bengni	a-kjɯː	a-kjɯː	six	six		9.9		0		p,2621
+174268	360	Bokar	a-kɯ	a-kɯ	six	six		9.9		0		p,2621
+174269	1079	Mishing [Miri]	a-kəŋ	a-kəŋ	six	six		9.9		0		p,2621
+174270	1251	Padam [Abor]	a-ke	a-ke	six	six		9.9		0		p,2621
+174271	333	Bengni	a-pin	a-pin	skin	skin	n	1.6.5		0		p,591
+174272	360	Bokar	a-pin	a-pin	skin	skin	n	1.6.5		0		p,591
+174273	287	Apatani	a-ljo	a-ljo	skin	skin	n	1.6.5		0		p,599
+174274	1252	Padam [Abor]	a-jo	a-jo	skin	skin	n	1.6.5		0		p,599
+174275	333	Bengni	di	di	skin / flay	skin / flay	v	1.6.5		0		6297
+174276	360	Bokar	dɯ	dɯ	skin / flay	skin / flay	v	1.6.5		0		6297
+174277	1253	Padam-Mishing [Abor-Miri]	dɯ	dɯ	skin / flay	skin / flay	v	1.6.5		0		6297
+174278	333	Bengni	paː-rjɯŋ	paː-rjɯŋ	slanting	slanting		7.1.5.1		0		m,6440
+174279	360	Bokar	pa-jəŋ	pa-jəŋ	slanting	slanting		7.1.5.1		0		m,6440
+174280	1253	Padam-Mishing [Abor-Miri]	ləŋ	ləŋ	slanting	slanting		7.1.5.1		0		6440
+174281	287	Apatani	i-mi	i-mi	sleep	sleep		1.1.4.1		0		m,130
+174282	333	Bengni	jup~ jip	jup~ jip	sleep	sleep		1.1.4.1		0		127,127
+174283	360	Bokar	jup	jup	sleep	sleep		1.1.4.1		0		127
+174284	1079	Mishing [Miri]	jup	jup	sleep	sleep		1.1.4.1		0		127
+174285	1251	Padam [Abor]	ip	ip	sleep	sleep		1.1.4.1		0		127
+174286	287	Apatani	i-mi nan	i-mi nan	sleepy	sleepy		1.1.4.1		0		m,130,m
+174287	333	Bengni	jip-miː jip-maː	jip-miː jip-maː	sleepy	sleepy		1.1.4.1		0		127,130,127,m
+174288	1079	Mishing [Miri]	jup-mi (aŋ)	jup-mi (aŋ)	sleepy	sleepy		1.1.4.1		0		127,130,m
+174289	1251	Padam [Abor]	im-mi (aŋ)	im-mi (aŋ)	sleepy	sleepy		1.1.4.1		0		m,130,m
+174290	333	Bengni	paː-lit	paː-lit	slip	slip (v.)	v	6.7.3		0		m,2425
+174291	1253	Padam-Mishing [Abor-Miri]	lut	lut	slip	slip (v.)	v	6.7.3		0		2425
+174292	287	Apatani	bo-leʔ	bo-leʔ	slippery	slippery		7.1.4.2		0		m,6418
+174293	333	Bengni	ha-lap	ha-lap	slippery	slippery		7.1.4.2		0		m,6418
+174294	360	Bokar	a-lap	a-lap	slippery	slippery		7.1.4.2		0		p,6418
+174295	1253	Padam-Mishing [Abor-Miri]	be-lap	be-lap	slippery	slippery		7.1.4.2		0		m,6418
+174296	287	Apatani	ta-bũ rhyme!	ta-bũ rhyme!	smallpox	smallpox		5.3		0		p,6269
+174297	333	Bengni	ta-bum	ta-bum	smallpox	smallpox		5.3		0		p,6269
+174298	360	Bokar	ta-bum	ta-bum	smallpox	smallpox		5.3		0		p,6269
+174299	1253	Padam-Mishing [Abor-Miri]	ta-bum	ta-bum	smallpox	smallpox		5.3		0		p,6269
+174300	287	Apatani	neŋ-ka	neŋ-ka	smell	smell (v.)	v	1.2.8.5		0		1415,m
+174301	333	Bengni	nam	nam	smell	smell (v.)	v	1.2.8.5		0		1415
+174302	360	Bokar	nam	nam	smell	smell (v.)	v	1.2.8.5		0		1415
+174303	1253	Padam-Mishing [Abor-Miri]	nam	nam	smell	smell (v.)	v	1.2.8.5		0		1415
+174304	287	Apatani	mu-|ku	mu-|ku	smoke	smoke		3.2.12.2		0		2361
+174305	333	Bengni	mɯ-|kɯ	mɯ-|kɯ	smoke	smoke		3.2.12.2		0		2361
+174306	360	Bokar	mɯ-|kɯ	mɯ-|kɯ	smoke	smoke		3.2.12.2		0		2361
+174307	1079	Mishing [Miri]	mik-|ki	mik-|ki	smoke	smoke		3.2.12.2		0		2361
+174308	1251	Padam [Abor]	mɯk-|kɯ	mɯk-|kɯ	smoke	smoke		3.2.12.2		0		2361
+174309	287	Apatani	ta-no gor-go	ta-no gor-go	snail	snail		2.2.5		0		p,6109,m,m
+174310	333	Bengni	ta-nuː	ta-nuː	snail	snail		2.2.5		0		p,6109
+174311	1253	Padam-Mishing [Abor-Miri]	ta-ño	ta-ño	snail	snail		2.2.5		0		p,6109
+174312	287	Apatani	ta-bu	ta-bu	snake	snake		2.1.6.1		0		p,2178
+174313	333	Bengni	ta-bɯ	ta-bɯ	snake	snake		2.1.6.1		0		p,2178
+174314	360	Bokar	ta-bɯ	ta-bɯ	snake	snake		2.1.6.1		0		p,2178
+174315	1253	Padam-Mishing [Abor-Miri]	ta-bɯ	ta-bɯ	snake	snake		2.1.6.1		0		p,2178
+174318	287	Apatani	ta-noʔ	ta-noʔ	snot	snot		1.8.2		0		p,805
+174319	333	Bengni	nap-li	nap-li	snot	snot		1.8.2		0	D1	805,m
+174320	360	Bokar	ta-nap	ta-nap	snot	snot		1.8.2		0	D1	p,805
+174321	1079	Mishing [Miri]	ñop-si	ñop-si	snot	snot		1.8.2		0		805,m
+174322	1251	Padam [Abor]	ta-ñop	ta-ñop	snot	snot		1.8.2		0		p,805
+174323	287	Apatani	ta-pĩ	ta-pĩ	snow	snow		3.2.1		0		p,6505
+174324	333	Bengni	ta-pam	ta-pam	snow	snow		3.2.1		0		p,6505
+174325	360	Bokar	ta-pam	ta-pam	snow	snow		3.2.1		0		p,6505
+174326	1253	Padam-Mishing [Abor-Miri]	ta-pam	ta-pam	snow	snow		3.2.1		0		p,6505
+174327	287	Apatani	põ-ǰeʔ	põ-ǰeʔ	soak	soak		6.6		0		6523,m
+174328	333	Bengni	pjam-pɯː	pjam-pɯː	soak	soak		6.6		0		6523,m
+174329	1253	Padam-Mishing [Abor-Miri]	pom~ pjom	pom~ pjom	soak	soak		6.6		0		6523,6523
+174330	333	Bengni	ñi-ñak	ñi-ñak	soft	soft		7.1.4.2		0		m,6155
+174331	361	Bokar	rəː-ñak	rəː-ñak	soft	soft		7.1.4.2		0		m,6155
+174332	1253	Padam-Mishing [Abor-Miri]	re-mak	re-mak	soft	soft		7.1.4.2		0		m,6155
+174333	287	Apatani	maʔ-|bo	maʔ-|bo	son-in-law	son-in-law		4.7.4		0		547
+174334	333	Bengni	mak-|buː	mak-|buː	son-in-law	son-in-law		4.7.4		0		547
+174335	360	Bokar	maː-|bo rhyme!	maː-|bo rhyme!	son-in-law	son-in-law		4.7.4		0		
+174336	1253	Padam-Mishing [Abor-Miri]	mak-|bo	mak-|bo	son-in-law	son-in-law		4.7.4		0		547
+174337	287	Apatani	ja-|lo	ja-|lo	soul	soul		1.10		0		6349
+174338	333	Bengni	ja-|lu	ja-|lu	soul	soul		1.10		0		6349
+174339	360	Bokar	ja-|lo	ja-|lo	soul	soul		1.10		0		6349
+174340	1079	Mishing [Miri]	ja-|lo	ja-|lo	soul	soul		1.10		0		6349
+174341	287	Apatani	a-du	a-du	sound	sound		9.3		0		p,6295
+174342	333	Bengni	(šu) du-bu	(šu) du-bu	sound	sound		9.3		0		m,6295,m
+174343	360	Bokar	a-tu	a-tu	sound	sound		9.3		0		p,6295
+174344	1253	Padam-Mishing [Abor-Miri]	a-dut	a-dut	sound	sound		9.3		0		p,6295
+174345	287	Apatani	a-la	a-la	soup	soup		5.5		0		p,191
+174346	333	Bengni	a-laː	a-laː	soup	soup		5.5		0		p,191
+174347	360	Bokar	a-laŋ	a-laŋ	soup	soup		5.5		0		p,191
+174348	1253	Padam-Mishing [Abor-Miri]	a-laŋ	a-laŋ	soup	soup		5.5		0		p,191
+174349	287	Apatani	xru-jiʔ	xru-jiʔ	sour	sour		7.1.4.4		0		6406,m
+174350	333	Bengni	kjuŋ-šuk	kjuŋ-šuk	sour	sour		7.1.4.4		0		6406,m
+174351	360	Bokar	kuː-čup	kuː-čup	sour	sour		7.1.4.4		0		6406,m
+174352	1253	Padam-Mishing [Abor-Miri]	ko-saŋ	ko-saŋ rhyme!	sour	sour		7.1.4.4		0		229,m
+174353	287	Apatani	mu-|ǰɯr	mu-|ǰɯr	spark	spark		3.2.12.2		0		6474
+174354	333	Bengni	mɯ-|ǰir	mɯ-|ǰir	spark	spark		3.2.12.2		0		6474
+174355	1253	Padam-Mishing [Abor-Miri]	me-|ǰer	me-|ǰer	spark	spark		3.2.12.2		0		6474
+174356	287	Apatani	ri-mi < rim-bi	ri-mi < rim-bi	spider	spider		2.2.6		0		6581,m
+174357	360	Bokar	ta-rum	ta-rum	spider	spider		2.2.6		0		p,6581
+174358	1251	Padam [Abor]	ta-rum	ta-rum	spider	spider		2.2.6		0		p,6581
+174359	1079	Mishing [Miri]	ta-rum bu-ti	ta-rum bu-ti	spider	spider		2.2.6		0		p,6581,m,m
+174360	287	Apatani	či-kɯr	či-kɯr	spittle	spittle		1.2.6		0		m,6379
+174361	333	Bengni	ta-čɯr	ta-čɯr	spittle	spittle		1.2.6		0		p,6379
+174362	360	Bokar	ta-čur	ta-čur	spittle	spittle		1.2.6		0		p,6379
+174363	1079	Mishing [Miri]	ta-kir	ta-kir	spittle	spittle		1.2.6		0		p,6379
+174364	1251	Padam [Abor]	ta-kil	ta-kil	spittle	spittle		1.2.6		0		p,6379
+174365	333	Bengni	pju	pju	spread out (e.g. bedding)	spread out (e.g. bedding)		9.5		0		6530
+174366	360	Bokar	puː	puː	spread out (e.g. bedding)	spread out (e.g. bedding)		9.5		0		6530
+174367	1253	Padam-Mishing [Abor-Miri]	pu	pu	spread out (e.g. bedding)	spread out (e.g. bedding)		9.5		0		6530
+174368	333	Bengni	tu-kjɯː	tu-kjɯː	sprinkle / water (plant)	sprinkle / water (plant)		6.10.3		0		m,6391
+174369	1253	Padam-Mishing [Abor-Miri]	tik-kat	tik-kat	sprinkle / water (plant)	sprinkle / water (plant)		6.10.3		0		m,6391
+174370	333	Bengni	ñum	ñum	squeeze with fingers	squeeze with fingers		9.5		0		6499
+174371	1253	Padam-Mishing [Abor-Miri]	ñum	ñum	squeeze with fingers	squeeze with fingers		9.5		0		6499
+174372	287	Apatani	ta-xrjɯ	ta-xrjɯ	squirrel (generic)	squirrel (generic)		2.1.1		0		p,6407
+174373	333	Bengni	ta-kjɯː	ta-kjɯː	squirrel (generic)	squirrel (generic)		2.1.1		0		p,6407
+174374	360	Bokar	ta-kə	ta-kə	squirrel (generic)	squirrel (generic)		2.1.1		0		p,6407
+174375	287	Apatani	nɯʔ	nɯʔ	stab	stab		6.9.2		0		6503
+174376	333	Bengni	nɯk	nɯk	stab	stab		6.9.2		0		6503
+174377	360	Bokar	nɯk	nɯk	stab	stab		6.9.2		0		6503
+174378	1253	Padam-Mishing [Abor-Miri]	nik	nik	stab	stab		6.9.2		0		6503
+174379	333	Bengni	dak	dak	stand (posture)	stand (posture)		1.5.2		0		6286
+174380	1253	Padam-Mishing [Abor-Miri]	dak	dak	stand (posture)	stand (posture)		1.5.2		0		6286
+174381	333	Bengni	dag-rap	dag-rap	stand up / get up	stand up / get up		9.2.1		0		6286,145
+174382	360	Bokar	rop	rop	stand up / get up	stand up / get up		9.2.1		0		145
+174383	1079	Mishing [Miri]	da-rop < dak-rop	da-rop < dak-rop	stand up / get up	stand up / get up		9.2.1		0		6286,145
+174384	1251	Padam [Abor]	dag-rep rhyme!	dag-rep rhyme!	stand up / get up	stand up / get up		9.2.1		0		6286,145
+174385	287	Apatani	ta-kɯr	ta-kɯr	star	star		3.2.2		0		p,2300
+174386	333	Bengni	ta-kar	ta-kar	star	star		3.2.2		0		p,2300
+174387	360	Bokar	ta-kar	ta-kar	star	star		3.2.2		0		p,2300
+174388	1253	Padam-Mishing [Abor-Miri]	ta-kar	ta-kar	star	star		3.2.2		0		p,2300
+174389	333	Bengni	gok-lam	gok-lam	startle (verbal particle)	startle (verbal particle)		8.3.1.9.1		0		m,6681
+174390	360	Bokar	ben-lom	ben-lom	startle (verbal particle)	startle (verbal particle)		8.3.1.9.1		0		6699,6681
+174391	1253	Padam-Mishing [Abor-Miri]	-lom	-lom	startle (verbal particle)	startle (verbal particle)		8.3.1.9.1		0		6681
+174392	287	Apatani	dɯ-pʰrjo	dɯ-pʰrjo	steal	steal		6.2.2.1		0		5363,6520
+174393	333	Bengni	dɯ-čoː	dɯ-čoː	steal	steal		6.2.2.1		0		5363,6520
+174394	360	Bokar	do-pjoŋ	do-pjoŋ	steal	steal		6.2.2.1		0		5363,6520
+174395	1253	Padam-Mishing [Abor-Miri]	do-pjoŋ	do-pjoŋ	steal	steal		6.2.2.1		0		5363,6520
+174396	287	Apatani	ja-lã	ja-|lã	stone	stone		3.2.9		0		p,1269
+174397	333	Bengni	ɯ-lɯŋ	ɯ-lɯŋ	stone	stone		3.2.9		0		p,1269
+174398	360	Bokar	ɯ-lɯŋ	ɯ-lɯŋ	stone	stone		3.2.9		0		p,1269
+174399	1079	Mishing [Miri]	ɯ-liŋ rhyme!	ɯ-liŋ rhyme!	stone	stone		3.2.9		0		m,1269
+174400	1251	Padam [Abor]	ə-lɯŋ	ə-lɯŋ	stone	stone		3.2.9		0		p,1269
+174401	333	Bengni	gu-ǰin	gu-ǰin	stretch oneself	stretch oneself		9.5		0		m,6361
+174402	1253	Padam-Mishing [Abor-Miri]	gə-ǰon	gə-ǰon	stretch oneself	stretch oneself		9.5		0		m,6361
+174403	333	Bengni	tup	tup	strike	strike		6.8		0		2206
+174404	360	Bokar	tup	tup	strike	strike		6.8		0		2206
+174405	1253	Padam-Mishing [Abor-Miri]	tup	tup	strike	strike		6.8		0		2206
+174406	333	Bengni	a-tɯr	a-tɯr	strong	strong		9.6.1.1		0		p,161
+174407	360	Bokar	tor	tor	strong	strong		9.6.1.1		0		161
+174408	1079	Mishing [Miri]	tor	tor	strong	strong		9.6.1.1		0		161
+174409	1251	Padam [Abor]	tol	tol	strong	strong		9.6.1.1		0		161
+174410	287	Apatani	brju	brju	suck	suck		1.3.2.1		0		3453
+174411	333	Bengni	bjuŋ	bjuŋ	suck	suck		1.3.2.1		0		3453
+174412	360	Bokar	bjuŋ	bjuŋ	suck	suck		1.3.2.1		0		3453
+174413	1251	Padam [Abor]	bu	bu	suck	suck		1.3.2.1		0		3453
+174414	287	Apatani	da-ñi	da-ñi	sun	sun		3.2.10		0		3570,85
+174415	333	Bengni	doː-ñi	doː-ñi	sun	sun		3.2.10		0		3570,85
+174416	360	Bokar	duŋ-ñi	duŋ-ñi	sun	sun		3.2.10		0		3570,85
+174417	1253	Padam-Mishing [Abor-Miri]	do-ñi	do-ñi	sun	sun		3.2.10		0		3570,85
+174418	333	Bengni	dɯː-mit	dɯː-mit	swallow	swallow (v.)	v	1.3.5.6		0		5363,6451
+174419	360	Bokar	jom-met	jom-met	swallow	swallow (v.)	v	1.3.5.6		0		m,6451
+174420	1253	Padam-Mishing [Abor-Miri]	met	met	swallow	swallow (v.)	v	1.3.5.6		0		6451
+174421	287	Apatani	ɯ-pɯʔ	ɯ-pɯʔ	sweep	sweep		6.2.2.5.3		0		p,2587
+174422	333	Bengni	pɯk	pɯk	sweep	sweep		6.2.2.5.3		0		2587
+174423	360	Bokar	pək	pək	sweep	sweep		6.2.2.5.3		0		2587
+174424	1253	Padam-Mishing [Abor-Miri]	pək	pək	sweep	sweep		6.2.2.5.3		0		2587
+174425	287	Apatani	tiʔ	tiʔ	sweet	sweet		7.1.4.4		0		2721
+174426	333	Bengni	ti-təŋ	ti-təŋ	sweet	sweet		7.1.4.4		0		2721
+174427	360	Bokar	tiː-po	tiː-po	sweet	sweet		7.1.4.4		0		2721
+174428	1079	Mishing [Miri]	tiː	tiː	sweet	sweet		7.1.4.4		0		2721
+174429	1251	Padam [Abor]	tɯ	tɯ	sweet	sweet		7.1.4.4		0		2721
+174430	333	Bengni	rɯk-paː	rɯk-paː	swidden	swidden		9.10.4		0		6588,m
+174431	360	Bokar	a-rɯk	a-rɯk	swidden	swidden		9.10.4		0		p,6588
+174432	1253	Padam-Mishing [Abor-Miri]	a-rik	a-rik	swidden	swidden		9.10.4		0		p,6588
+174433	333	Bengni	ǰaː	ǰaː	swim	swim		6.6		0		6237
+174434	360	Bokar	bjoŋ	bjoŋ	swim	swim		6.6		0		6237
+174435	1253	Padam-Mishing [Abor-Miri]	baŋ	baŋ	swim	swim		6.6		0		6237
+174436	287	Apatani	a-mi	a-mi	tail	tail		1.4.10.1		0		p,1288
+174437	333	Bengni	ñu-bjuŋ	ñu-bjuŋ	tail	tail		1.4.10.1		0		1288,3331
+174438	360	Bokar	e-mño	e-mño	tail	tail		1.4.10.1		0		p,1288
+174439	1079	Mishing [Miri]	ta-mño	ta-mño	tail	tail		1.4.10.1		0		p,1288
+174440	1251	Padam [Abor]	ta-me ~ a-me	ta-me ~ a-me	tail	tail		1.4.10.1		0		p,1288,p,1288
+174441	333	Bengni	kɯr	kɯr	take a step	take a step		6.21		0		6384
+174442	360	Bokar	kor	kor	take a step	take a step		6.21		0		6384
+174443	1253	Padam-Mishing [Abor-Miri]	kor	kor	take a step	take a step		6.21		0		6384
+174444	287	Apatani	xrju	xrju	take aim	take aim		6.21		0		6409
+174445	333	Bengni	ki	ki	take aim	take aim		6.21		0		6409
+174446	287	Apatani	la-	la-	take	take		6.21		0		6421
+174447	333	Bengni	laː	laː	take	take		6.21		0		6421
+174448	360	Bokar	loŋ	loŋ	take	take		6.21		0		6421
+174449	1253	Padam-Mishing [Abor-Miri]	laŋ	laŋ	take	take		6.21		0		6421
+174450	287	Apatani	sɯ-bĩ	sɯ-bĩ	takin (Budorcas taxicolor)	takin (Budorcas taxicolor)				0		m,6257
+174451	333	Bengni	ši-bin	ši-bin	takin (Budorcas taxicolor)	takin (Budorcas taxicolor)				0		m,6257
+174452	360	Bokar	šə-ben	šə-ben	takin (Budorcas taxicolor)	takin (Budorcas taxicolor)				0		m,6257
+174453	1253	Padam-Mishing [Abor-Miri]	so-ben	so-ben	takin (Budorcas taxicolor)	takin (Budorcas taxicolor)				0		m,6257
+174454	287	Apatani	o-ho	o-ho	tall / high	tall / high		9.7.2		0		p,6661
+174455	333	Bengni	a-wuː	a-wuː	tall / high	tall / high		9.7.2		0		p,6661
+174456	1253	Padam-Mishing [Abor-Miri]	ot	ot	tall / high	tall / high		9.7.2		0		6661
+174457	287	Apatani	ljã	ljã	ten	ten		9.9		0		6168
+174458	333	Bengni	ɯ-rjɯŋ	ɯ-rjɯŋ	ten	ten		9.9		0		p,6168
+174459	360	Bokar	ɯ-jɯŋ	ɯ-jɯŋ	ten	ten		9.9		0		p,6168
+174460	1253	Padam-Mishing [Abor-Miri]	ə-jiŋ	ə-jiŋ	ten	ten		9.9		0		p,6168
+174461	333	Bengni	čam-ñi	čam-ñi	tens (e.g. twenty)	tens (e.g. twenty)		9.9		0		3610,2504
+174462	333	Bengni	ɯː	ɯː	that (demonstrative)	that (demonstrative)		10.1		0		6669
+174463	361	Bokar	aː	aː	that (demonstrative)	that (demonstrative)		10.1		0		6669
+174464	287	Apatani	brjã-kɯ-rɯ	brjã-kɯ-rɯ	thick (e.g. book)	thick (e.g. book)		9.7.2		0		6260,m,m
+174465	333	Bengni	ǰɯŋ-kɯr	ǰɯŋ-kɯr	thick (e.g. book)	thick (e.g. book)		9.7.2		0		6260,m
+174466	360	Bokar	biŋ-čam	biŋ-čam	thick (e.g. book)	thick (e.g. book)		9.7.2		0		6260,m
+174467	1253	Padam-Mishing [Abor-Miri]	bi-sam	bi-sam	thick (e.g. book)	thick (e.g. book)		9.7.2		0		6260,m
+174468	287	Apatani	har-lã	har-lã	thigh / leg	thigh / leg		1.5.7.1		0		6304,m
+174469	333	Bengni	fɯr-poː	fɯr-poː	thigh / leg	thigh / leg		1.5.7.1		0		6304,m
+174470	1253	Padam-Mishing [Abor-Miri]	ar-bjaŋ	ar-bjaŋ	thigh / leg	thigh / leg		1.5.7.1		0		6304,m
+174474	333	Bengni	mɯŋ	mɯŋ	think	think		8.3.1.13.1		0	D1	6200
+174475	360	Bokar	mɯŋ	mɯŋ	think	think		8.3.1.13.1		0	D1	6200
+174476	1253	Padam-Mishing [Abor-Miri]	mɯŋ	mɯŋ	think	think		8.3.1.13.1		0	D1	6200
+174477	287	Apatani	si	si	this	this		10.4.3.2		0		6595
+174478	333	Bengni	šiː	šiː	this	this		10.4.3.2		0		6595
+174479	360	Bokar	šiː	šiː	this	this		10.4.3.2		0		6595
+174480	1253	Padam-Mishing [Abor-Miri]	si	si	this	this		10.4.3.2		0		6595
+174481	287	Apatani	no	no	thou	thou		10.2.3.1		0		2489
+174482	333	Bengni	nuː	nuː	thou	thou		10.2.3.1		0		2489
+174483	360	Bokar	noː	noː	thou	thou		10.2.3.1		0		2489
+174484	1253	Padam-Mishing [Abor-Miri]	no	no	thou	thou		10.2.3.1		0		2489
+174485	287	Apatani	hĩ	hĩ	three	three		9.9		0		2666
+174486	333	Bengni	ɯ-um	ɯ-um	three	three		9.9		0		p,2666
+174487	360	Bokar	a-hum	a-hum	three	three		9.9		0		p,2666
+174488	1251	Padam [Abor]	a-ŋum	a-ŋum	three	three		9.9		0		m,2666
+174489	1079	Mishing [Miri]	a-um	a-um	three	three		9.9		0		p,2666
+174490	287	Apatani	grui-grju-ro	grui-grju-ro	throat	throat		1.3.5		0		3361,3361,488
+174491	333	Bengni	lɯŋ-guŋ	lɯŋ-guŋ	throat	throat		1.3.5		0		479,3361
+174492	360	Bokar	lɯŋ-guŋ	lɯŋ-guŋ	throat	throat		1.3.5		0		479,3361
+174493	1251	Padam [Abor]	lɯŋ-guŋ	lɯŋ-guŋ	throat	throat		1.3.5		0		479,3361
+174494	333	Bengni	vɯr	vɯr	throw / cast	throw / cast		6.12		0		3528
+174495	360	Bokar	or	or	throw / cast	throw / cast		6.12		0		3528
+174496	287	Apatani	ja-pũ gẽ rhyme!	ja-pũ gẽ rhyme!	thunder	thunder		3.2.1		0		m,m,6141
+174497	333	Bengni	doː-gum	doː-gum	thunder	thunder		3.2.1		0		3570,6141
+174498	360	Bokar	doŋ-gum	doŋ-gum	thunder	thunder		3.2.1		0		3570,6141
+174499	333	Bengni	pi-rjap	pi-rjap	tick	tick		2.2.6		0		6515,m
+174500	360	Bokar	šə-rə ta-piː	šə-rə ta-piː	tick	tick		2.2.6		0		b,b,p,6515
+174501	1253	Padam-Mishing [Abor-Miri]	ta-pi	ta-pi	tick	tick		2.2.6		0		p,6515
+174502	360	Bokar	šo-mjo	šo-mjo	tiger	tiger		2.1.3		0		6074,2618
+174503	1079	Mishing [Miri]	ši-mjo	ši-mjo	tiger	tiger		2.1.3		0		6074,2618
+174504	1251	Padam [Abor]	si-mño~ ño-nə	si-mño~ ño-nə	tiger	tiger		2.1.3		0		m,2618,2618,1621
+174505	333	Bengni	a-piː	a-piː	tired / rest	tired / rest		9.6.2.2		0		p,6511
+174506	360	Bokar	a-peː	a-peː	tired / rest	tired / rest		9.6.2.2		0		p,6511
+174507	1253	Padam-Mishing [Abor-Miri]	a-pe	a-pe	tired / rest	tired / rest		9.6.2.2		0		p,6511
+174508	287	Apatani	a-ljo	a-ljo	tongue	tongue		1.3.3		0		p,623
+174509	333	Bengni	rjuː	rjuː	tongue	tongue		1.3.3		0		623
+174510	360	Bokar	a-jo	a-jo	tongue	tongue		1.3.3		0		p,623
+174511	1253	Padam-Mishing [Abor-Miri]	a-jo	a-jo	tongue	tongue		1.3.3		0		p,623
+174512	287	Apatani	a-hi	a-hi	tooth	tooth		1.3.4		0		p,632
+174513	333	Bengni	fi	fi	tooth	tooth		1.3.4		0		632
+174514	360	Bokar	jiː-čuŋ	jiː-čuŋ	tooth	tooth		1.3.4		0		632,2813
+174515	1253	Padam-Mishing [Abor-Miri]	i-paŋ	i-paŋ	tooth	tooth		1.3.4		0		632,1728
+174516	333	Bengni	mu-|ru	mu-|ru	torch	torch		5.11.5.5		0		6476
+174517	360	Bokar	mə-|ru	mə-|ru	torch	torch		5.11.5.5		0		6476
+174518	1253	Padam-Mishing [Abor-Miri]	mə-|ru	mə-|ru	torch	torch		5.11.5.5		0		6476
+174519	287	Apatani	sa-mĩ ra-|koʔ	sa-mĩ ra-|koʔ	tortoise	tortoise		2.1.6		0		m,m,6560
+174520	1253	Padam-Mishing [Abor-Miri]	raŋ-|kop	raŋ-|kop	tortoise	tortoise		2.1.6		0		6560
+174521	287	Apatani	ča-ǰe	ča-ǰe	tread / trample	tread / trample		6.7.4		0		6278,2432
+174522	333	Bengni	ča-ǰap	ča-ǰap	tread / trample	tread / trample		6.7.4		0		6278,2432
+174523	1253	Padam-Mishing [Abor-Miri]	sa-tan	sa-tan	tread / trample	tread / trample		6.7.4		0		6278,m
+174524	333	Bengni	bɯŋ pjam-bu	bɯŋ pjam-bu	twin	twin		4.7.2		0		m,6529,m
+174525	1253	Padam-Mishing [Abor-Miri]	o-pem-su-nam	o-pem-su-nam	twin	twin		4.7.2		0		6658,6529,m,m
+174526	333	Bengni	rit	rit	twist (strands of rope)	twist (strands of rope)		6.7.6		0		6564
+174527	360	Bokar	jet	jet	twist (strands of rope)	twist (strands of rope)		6.7.6		0		6564
+174528	1253	Padam-Mishing [Abor-Miri]	jat	jat	twist (strands of rope)	twist (strands of rope)		6.7.6		0		6564
+174529	287	Apatani	hiʔ-khrjɯ	hiʔ-khrjɯ	twist / turn	twist / turn		6.7.6		0		3257,m
+174530	333	Bengni	vit	vit	twist / turn	twist / turn		6.7.6		0		3257
+174531	360	Bokar	jet	jet	twist / turn	twist / turn		6.7.6		0		3257
+174532	1253	Padam-Mishing [Abor-Miri]	et	et	twist / turn	twist / turn		6.7.6		0		3257
+174533	287	Apatani	a-ku	a-ku	uncle (maternal)	uncle (maternal)		4.7.1		0		p,2362
+174534	333	Bengni	a-kɯ	a-kɯ	uncle (maternal)	uncle (maternal)		4.7.1		0		p,2362
+174535	360	Bokar	a-kɯ	a-kɯ	uncle (maternal)	uncle (maternal)		4.7.1		0		p,2362
+174536	1253	Padam-Mishing [Abor-Miri]	a-kɯ; ka-kɯ	a-kɯ; ka-kɯ	uncle (maternal)	uncle (maternal)		4.7.1		0		p,2362,m,2362
+174537	333	Bengni	a-paː	a-paː	uncle (paternal)	uncle (paternal)		4.7.1		0		p,2183
+174538	360	Bokar	a-paŋ	a-paŋ	uncle (paternal)	uncle (paternal)		4.7.1		0		p,2183
+174539	1079	Mishing [Miri]	(b)a-bu	(b)a-bu	uncle (paternal)	uncle (paternal)		4.7.1		0		
+174540	1251	Padam [Abor]	pa-	pa-	uncle (paternal)	uncle (paternal)		4.7.1		0		2183
+174541	287	Apatani	prjɯ	prjɯ	undress	undress		6.1.1		0		6533
+174542	333	Bengni	pi	pi	undress	undress		6.1.1		0		6533
+174543	360	Bokar	pi	pi	undress	undress		6.1.1		0		6533
+174544	1253	Padam-Mishing [Abor-Miri]	pɯt	pɯt	undress	undress		6.1.1		0		6533
+174545	287	Apatani	siʔ	siʔ	urine	urine		1.8.4		0		650
+174546	360	Bokar	i-šiː	i-šiː	urine	urine		1.8.4		0		p,650
+174547	1253	Padam-Mishing [Abor-Miri]	je-si	je-si	urine	urine		1.8.4		0		p,650
+174548	333	Bengni	u-šum	u-šum	urine	urine		1.8.4		0		p,1730
+174549	287	Apatani	ha-mã	ha-mã rhyme!	vegetable / curry	vegetable / curry		3.1.2		0		6662,m
+174550	333	Bengni	uː	uː	vegetable / curry	vegetable / curry		3.1.2		0		6662
+174551	1253	Padam-Mishing [Abor-Miri]	o-jiŋ	o-jiŋ	vegetable / curry	vegetable / curry		3.1.2		0		6662,m
+174552	287	Apatani	ba	ba	vomit	vomit		1.8.3.2		0		1145
+174553	333	Bengni	bɯː	bɯː	vomit	vomit		1.8.3.2		0		1145
+174554	360	Bokar	baː	baː	vomit	vomit		1.8.3.2		0		1145
+174555	1253	Padam-Mishing [Abor-Miri]	bat	bat	vomit	vomit		1.8.3.2		0		1145
+174556	333	Bengni	tiː	tiː	vulva / vagina	vulva / vagina				0		661
+174557	1253	Padam-Mishing [Abor-Miri]	ɯt-tɯ	ɯt-tɯ	vulva / vagina	vulva / vagina				0		p,661
+174558	287	Apatani	daʔ-lja; ka-lja	daʔ-lja; ka-lja	wait for	wait for		6.1.1.6		0		m,5577,m,5577
+174559	333	Bengni	kaː-jaː	kaː-jaː	wait for	wait for		6.1.1.6		0		m,5577
+174560	360	Bokar	kə-jaŋ	kə-jaŋ	wait for	wait for		6.1.1.6		0		m,5577
+174561	1079	Mishing [Miri]	to-jaŋ	to-jaŋ	wait for	wait for		6.1.1.6		0		m,5577
+174562	1251	Padam [Abor]	ka-jaŋ	ka-jaŋ	wait for	wait for		6.1.1.6		0		m,5577
+174563	287	Apatani	i-mi a-hu	i-mi a-hu	wake up	wake up		1.1.4		0		m,130,p,6664
+174564	333	Bengni	hu-rap	hu-rap	wake up	wake up		1.1.4		0		6664,145
+174565	360	Bokar	hu-ru	hu-ru	wake up	wake up		1.1.4		0		6664,m
+174566	1253	Padam-Mishing [Abor-Miri]	ut	ut	wake up	wake up		1.1.4		0		6664
+174567	333	Bengni	hi	hi	warm oneself near fire	warm oneself near fire		7.1.2.3		0		6657
+174568	360	Bokar	jiː	jiː	warm oneself near fire	warm oneself near fire		7.1.2.3		0		6657
+174569	1253	Padam-Mishing [Abor-Miri]	i-pam	i-pam	warm oneself near fire	warm oneself near fire		7.1.2.3		0		6657,m
+174570	287	Apatani	har-su	har-su	wash	wash		6.2.2.5.2		0		3519,6668
+174571	333	Bengni	hɯr	hɯr	wash	wash		6.2.2.5.2		0		3519
+174572	360	Bokar	hɯr-šuː	hɯr-šuː	wash	wash		6.2.2.5.2		0		3519,6668
+174573	1079	Mishing [Miri]	ɯr	ɯr	wash	wash		6.2.2.5.2		0		3519
+174574	1251	Padam [Abor]	ɯr~ ar	ɯr~ ar	wash	wash		6.2.2.5.2		0		3519,3519
+174575	287	Apatani	ja-si	ja-si	water	water		3.2.3		0		m,189
+174576	333	Bengni	ɯ-ši	ɯ-ši	water	water		3.2.3		0		m,189
+174577	360	Bokar	i-ši	i-ši	water	water		3.2.3		0		m,189
+174578	1253	Padam-Mishing [Abor-Miri]	a-si	a-si	water	water		3.2.3		0		p,189
+174579	287	Apatani	čĩ	čĩ	weave	weave		5.1		0		6282
+174580	333	Bengni	čum	čum	weave	weave		5.1		0		6282
+174581	360	Bokar	u-čum čum	u-čum čum	weave	weave		5.1		0		m,6282,6282
+174582	1253	Padam-Mishing [Abor-Miri]	sum	sum	weave	weave		5.1		0		6282
+174583	287	Apatani	xrjeʔ	xrjeʔ	weep	weep		1.8.8.2		0		1103
+174584	333	Bengni	kap	kap	weep	weep		1.8.8.2		0		1103
+174585	360	Bokar	kap	kap	weep	weep		1.8.8.2		0		1103
+174586	1253	Padam-Mishing [Abor-Miri]	kap	kap	weep	weep		1.8.8.2		0		1103
+174587	287	Apatani	ǰu-ǰa|	ǰu-ǰa|	wet	wet		6.6		0		6205
+174588	333	Bengni	ǰi-ǰaː|	ǰi-ǰaː|	wet	wet		6.6		0		6205
+174589	360	Bokar	ǰu-ǰaŋ|	ǰu-ǰaŋ|	wet	wet		6.6		0		6205
+174590	1253	Padam-Mishing [Abor-Miri]	ǰu-ǰaŋ|	ǰu-ǰaŋ|	wet	wet		6.6		0		6205
+174591	287	Apatani	pu-lu	pu-lu	white	white		9.4		0		6097,m
+174592	333	Bengni	puŋ-tɯŋ	puŋ-tɯŋ	white	white		9.4		0		6097,m
+174593	360	Bokar	puŋ-lu	puŋ-lu	white	white		9.4		0		6097,m
+174594	1251	Padam [Abor]	pun; puŋ	pun; puŋ	white	white		9.4		0		6097,6097
+174595	287	Apatani	taʔ(-ro)	taʔ(-ro)	wide	wide		9.7.2		0		6613,m
+174596	333	Bengni	tak-tɯː	tak-tɯː	wide	wide		9.7.2		0		6613,m
+174597	360	Bokar	tak-tə	tak-tə	wide	wide		9.7.2		0		6613,m
+174598	1253	Padam-Mishing [Abor-Miri]	a-tak	a-tak	wide	wide		9.7.2		0		p,6613
+174599	287	Apatani	mi-|hi	mi-|hi	wife	wife		4.7.4		0		1618
+174600	333	Bengni	ni-|fɯŋ	ni-fɯŋ	wife	wife		4.7.4		0		1618
+174601	360	Bokar	me-|jaŋ	me-jaŋ	wife	wife		4.7.4		0		1618
+174602	1079	Mishing [Miri]	mi-|eŋ	mi-|eŋ	wife	wife		4.7.4		0		1618
+174603	287	Apatani	sɯ-re ra-nɯ	sɯ-re ra-nɯ	wild boar	wild boar		3.2.5		0		m,6555,6555,m
+174604	333	Bengni	ši-rɯː ra-nɯː	ši-rɯː ra-nɯː	wild boar	wild boar		3.2.5		0		m,6555,6555,1621
+174605	1253	Padam-Mishing [Abor-Miri]	si-ra	si-ra	wild boar	wild boar		3.2.5		0		m,6555
+174606	287	Apatani	so-me	so-me	wild cat	wild cat		3.2.5		0		6074,m
+174607	360	Bokar	ta-šo	ta-šo	wild cat	wild cat		3.2.5		0		p,6074
+174608	1253	Padam-Mishing [Abor-Miri]	ta-so	ta-so	wild cat	wild cat		3.2.5		0		p,6074
+174609	333	Bengni	ši-čaː	ši-čaː	wild dog	wild dog		3.2.5		0		m,6051
+174610	1253	Padam-Mishing [Abor-Miri]	si-pjaŋ	si-pjaŋ	wild dog	wild dog		3.2.5		0		m,6051
+174611	287	Apatani	ta-le	ta-le	wild green onion	wild green onion		3.2.5		0		p,6419
+174612	1253	Padam-Mishing [Abor-Miri]	ta-lap	ta-lap	wild green onion	wild green onion		3.2.5		0		p,6419
+174613	333	Bengni	ta-lap	ta-lap	wild green onion	wild green onion		3.2.5		0		p,6419
+174614	287	Apatani	a-lji	a-lji	wind	wind (n.)	n	3.2.1		0		p,2412
+174615	333	Bengni	doː-ri	doː-ri	wind	wind (n.)	n	3.2.1		0		3570,2412
+174616	287	Apatani	a-le	a-le	wing	wing		1.5.1.3		0	HIDE	DUPE IN SOURCE
+174617	333	Bengni	lap	lap	wing	wing		1.5.1.3		0		757
+174618	360	Bokar	a-lap	a-lap	wing	wing		1.5.1.3		0		p,757
+174619	1253	Padam-Mishing [Abor-Miri]	a-lap	a-lap	wing	wing		1.5.1.3		0		p,757
+174620	333	Bengni	kjap-	kjap-	winnow	winnow		3.1.10		0		2329
+174621	1253	Padam-Mishing [Abor-Miri]	kap-	kap-	winnow	winnow		3.1.10		0		2329
+174622	287	Apatani	tiʔ-pa	tiʔ-pa	wipe	wipe		6.2.2.1		0		5594,m
+174623	333	Bengni	tit-kak	tit-kak	wipe	wipe		6.2.2.1		0		5594,6680
+174624	360	Bokar	tit-kak	tit-kak	wipe	wipe		6.2.2.1		0		5594,6680
+174625	1253	Padam-Mishing [Abor-Miri]	tit	tit	wipe	wipe		6.2.2.1		0		5594
+174626	287	Apatani	sẽ	sẽ	wither / dry	wither / dry		3.1.10		0		6591
+174627	333	Bengni	šin	šin	wither / dry	wither / dry		3.1.10		0		6591
+174628	360	Bokar	šen	šen	wither / dry	wither / dry		3.1.10		0		6591
+174629	1253	Padam-Mishing [Abor-Miri]	san	san	wither / dry	wither / dry		3.1.10		0		6591
+174630	287	Apatani	ñi-|mũ	ñi-|mũ	woman	woman		1.9.3		0		1618
+174631	333	Bengni	ñi-|mɯː	ñi-|mɯː	woman	woman		1.9.3		0		1618
+174632	360	Bokar	ñe-|məː	ñe-|məː	woman	woman		1.9.3		0		1618
+174633	1251	Padam [Abor]	mi-|mə	mi-|mə	woman	woman		1.9.3		0		1618
+174634	287	Apatani	ja-sã	ja-sã	wood / tree	wood / tree		3.1.2		0		p,2658
+174635	333	Bengni	ɯ-šɯŋ	ɯ-šɯŋ	wood / tree	wood / tree		3.1.2		0		p,2658
+174636	360	Bokar	ɯ-šɯŋ	ɯ-šɯŋ	wood / tree	wood / tree		3.1.2		0		p,2658
+174637	1253	Padam-Mishing [Abor-Miri]	ə-siŋ	ə-siŋ	wood / tree	wood / tree		3.1.2		0		m,2658
+174638	333	Bengni	tɯ-čak	tɯ-čak	wool	wool		1.6.1.3		0		p,3288
+174639	360	Bokar	ta-pjak	ta-pjak	wool	wool		1.6.1.3		0		p,3288
+174640	287	Apatani	mro-~ mrjo-	mro-~ mrjo-	world / land / earth	world / land / earth		9.10.2		0		6470,6470
+174641	333	Bengni	ñoː-	ñoː-	world / land / earth	world / land / earth		9.10.2		0		6470
+174642	360	Bokar	moŋ-	moŋ-	world / land / earth	world / land / earth		9.10.2		0		6470
+174643	1253	Padam-Mishing [Abor-Miri]	a-moŋ	a-moŋ	world / land / earth	world / land / earth		9.10.2		0		p,6470
+174644	333	Bengni	ta-pum	ta-pum	worm / insect	worm / insect		2.2.6		0		p,6537
+174645	360	Bokar	ta-pum	ta-pum	worm / insect	worm / insect		2.2.6		0		p,6537
+174646	1253	Padam-Mishing [Abor-Miri]	ta-pum	ta-pum	worm / insect	worm / insect		2.2.6		0		p,6537
+174647	287	Apatani	u-ne	u-ne	wound	wound (n.)	n	1.8.6.2		0		6637,m
+174648	333	Bengni	uŋ-nɯː	uŋ-nɯː	wound	wound (n.)	n	1.8.6.2		0		6637,m
+174649	360	Bokar	pu	pu	wrap up in a bundle	wrap up in a bundle		6.2.2.1		0		6535
+174650	333	Bengni	pu	pu	wrap up in a bundle	wrap up in a bundle		6.2.2.1		0		6535
+174651	1253	Padam-Mishing [Abor-Miri]	pu	pu	wrap up in a bundle	wrap up in a bundle		6.2.2.1		0		6535
+174652	287	Apatani	laʔ-|ŋɯr	laʔ-|ŋɯr	wrist	wrist		1.5.8.1		0		6692
+174653	360	Bokar	lok-|ŋər	lok-|ŋər	wrist	wrist		1.5.8.1		0		6692
+174654	1253	Padam-Mishing [Abor-Miri]	lak-|ŋar	lak-|ŋar	wrist	wrist		1.5.8.1		0		6692
+174655	333	Bengni	fit	fit	write	write		6.2.2.9.1		0		6305
+174656	1253	Padam-Mishing [Abor-Miri]	at	at	write	write		6.2.2.9.1		0		6305
+174657	287	Apatani	a-ña	a-ña	year	year		9.1.2		0		p,2501
+174658	333	Bengni	a-ñiŋ	a-ñiŋ	year	year		9.1.2		0		p,2501
+174659	360	Bokar	ñiŋ	ñiŋ	year	year		9.1.2		0		2501
+174660	1253	Padam-Mishing [Abor-Miri]	-ñiŋ	-ñiŋ	year	year		9.1.2		0		2501
+174661	287	Apatani	i-poʔ	i-poʔ	yeast	yeast		3.1.6.3		0		p,6525
+174662	333	Bengni	a-pap	a-pap	yeast	yeast		3.1.6.3		0		p,6525
+174663	360	Bokar	oː-pop	oː-pop	yeast	yeast		3.1.6.3		0		p,6525
+174664	1253	Padam-Mishing [Abor-Miri]	ə-pop	ə-pop	yeast	yeast		3.1.6.3		0		p,6525
+283010	173	*Tani	čut¹	čut¹	abscess	abscess		1.8.6.2	1	0		6283
+283011	173	*Tani	tur	tur	alive	alive		1.1.2.1	2	0		6626
+283012	173	*Tani	mul	mul	amiss (verbal particle)	amiss (verbal particle)			3	0		6682
+283013	173	*Tani	čuŋ	čuŋ	angle	angle		1.5.8	4	0		6285
+283014	173	*Tani	fak	fak	angry	angry		8.3.1.6.1	5	0		6302
+283015	173	*Tani	ruk~ rup	ruk~ rup	ant	ant		2.2.6	6	0		6580,6580
+283016	173	*Tani	mro	mro	arrow poison (aconite)	arrow poison (aconite)		5.15	7	0		6469
+283017	173	*Tani	puk	puk	arrow	arrow		5.15	8	0		6536
+283018	173	*Tani	čaŋ	čaŋ	ascend	ascend		6.7.7	9	0		6279
+283019	173	*Tani	faː?	faː?	ax	ax		5.11.5.3	100	0		2772
+283020	173	*Tani	ŋaː	ŋaː	baby	baby		4.2.11	11	0		90
+283021	173	*Tani	kur	kur	back	back (adv.)	adv	1.4.8	12	0		2827
+283022	173	*Tani	lam-|ku	lam-|ku	back	back (n.)	n	1.4.8	13	0		6417
+283023	173	*Tani	ɦəː	ɦəː	bamboo (large species)	bamboo (large species)		3.1.1	14	0		6665
+283024	173	*Tani	ko-|pak	ko-|pak	banana	banana		3.1.5	15	0		6381
+283025	173	*Tani	dum	dum	barking deer	barking deer		2.1.11.1	16	0		6293
+283026	173	*Tani	pon	pon	bat / flying fox	bat / flying fox		2.2.4.1	17	0		6524
+283027	173	*Tani	fi-|buŋ	fi-|buŋ	beak	beak		1.3.1.2	18	0		476
+283028	173	*Tani	peː	peː	beans	beans		3.1.4	19	0		2155
+283029	173	*Tani	tum	tum	bear (animal)	bear (animal)		2.2.3	20	0		2777
+283030	173	*Tani	dɯŋ~ ǰɯŋ	dɯŋ~ ǰɯŋ	beat / flog	beat / flog		6.8	21	0		296,296
+283031	173	*Tani	zit	zit	beat	beatª		6.8	22	0		6642
+283032	173	*Tani	kaŋ-pro|	kaŋ-pro|	beautiful / good-looking	beautiful / good-looking		7.1.3	23	0		6154
+283033	173	*Tani	bə~ ba	bə~ ba	bedbug	bedbug		2.2.6	24	0		6271,6271
+283034	173	*Tani	ko	ko	beg / request	beg / request		8.5.10.3	25	0		6380
+283035	173	*Tani	tə~ ta	tə~ ta	big	big		9.7.2	26	0		2697,2697
+283036	173	*Tani	taŋ	taŋ	bird	bird		2.2.4	27	0		6616
+283037	173	*Tani	gam (~ gjam?)	gam (~ gjam?)	bite	bite		1.3.4.4	28	0		2231,2231
+283038	173	*Tani	ko~ kaː	ko~ kaː	bitter	bitter		7.1.4.4	29	0		229,229
+283039	173	*Tani	sur	sur	bladder	bladder		1.7.8	30	0		6604
+283040	173	*Tani	viː	viː	blood	blood		1.6.2	31	0		230
+283041	173	*Tani	mut¹	mut¹	blow (with mouth)	blow (with mouth)		1.3.1.4	32	0		503
+283042	173	*Tani	sɯŋ-|praŋ?	sɯŋ-|praŋ?	board / plank	board / plank		5.11.9	33	0		6607
+283043	173	*Tani	si-|pɯ	si-|pɯ	boat	boat		5.1	34	0		6598
+283044	173	*Tani	kot¹	kot¹	body dirt	body dirt		1.8.1.2	35	0		6385
+283045	173	*Tani	ɯ	ɯ	body	body		1.1.1	36	0		18
+283046	173	*Tani	krəŋ	krəŋ	boil (e.g. meat)	boil (e.g. meat)		6.6	37	0		6408
+283047	173	*Tani	fu	fu	boil	boil (v.i.)	v.i.	6.6	38	0		6314
+283048	173	*Tani	kil	kil	boil (water)	boil (water)		6.6	39	0		6378
+283049	173	*Tani	loŋ	loŋ	bone	bone		1.6.3	40	0		238
+283050	173	*Tani	nar	nar	borrow / lend	borrow / lend		6.22	41	0		6493
+283051	173	*Tani	rji	rji	bow (weapon)	bow (weapon)		5.15	42	0		2411
+283052	173	*Tani	pVk-|ni?	pVk-|ni?	brain	brain		1.2.4	43	0		252
+283053	173	*Tani	ɦak	ɦak	branch	branch		1.5.3.1	44	0		1278
+283054	173	*Tani	tɯr~ dɯr	tɯr~ dɯr	break (st. stiff with hand)	break (st. stiff with hand)		9.5	45	0		6635,6635
+283055	187	*Western Tani	sak	sak	breathe / breath	breathe / breath		1.1.2.2	46	0		32
+283056	173	*Tani	bɯŋ	bɯŋ	brother (elder)	brother (elder)		1.5.3.2	47	0		6277
+283057	173	*Tani	nɯ	nɯ	brother (younger)	brother (younger)		1.5.3.2	48	0		2492
+283058	173	*Tani	gu	gu	burn	burn (v.i.)	v.i.	3.2.12.1	49	0		6334
+283059	173	*Tani	rom	rom	burn / roast over fire	burn / roast over fire		3.2.12.1	50	0		6577
+283060	173	*Tani	rji~ rju	rji~ rju	bury	bury		6.11	51	0		6568,6568
+283061	173	*Tani	mjoŋ-|maŋ	mjoŋ-|maŋ	busy	busy		9.6.3	52	0		6465
+283062	173	*Tani	rəː	rəː	buy	buy		6.22	53	0		2606
+283063	173	*Tani	grok	grok	call / shout	call / shout		8.5.13	54	0		6330
+283064	173	*Tani	tal	tal	callus	callus		1.6.5.3	55	0		6614
+283065	173	*Tani	laŋ	laŋ	can / able to (verbal particle)	can / able to (verbal particle)		10.2.2	56	0		6422
+283066	173	*Tani	broŋ-|pa?	broŋ-|pa?	cane hat	cane hat		5.11.8.2.2	57	0		6265
+283067	173	*Tani	bak	bak	carry on back	carry on back		6.2.2.2.1	58	0		570
+283068	173	*Tani	gəː	gəː	carry on back / pregnant	carry on back / pregnant		6.2.2.2.1	59	0		6339
+283069	173	*Tani	čut¹	čut¹	cast (spear)	cast (spear)		6.12	60	0		6284
+283070	173	*Tani	pɯk	pɯk	cave	cave		3.2.7	61	0		164
+283071	173	*Tani	mon	mon	chase	chase		6.7.10	62	0		6467
+283072	173	*Tani	məː	məː	cheat / lie	cheat / lie		6.19	63	0		6477
+283073	173	*Tani	haŋ-|braŋ/haŋ-|kɯŋ	haŋ-|braŋ/*haŋ-|kɯŋ	chest	chest		1.4.4.3	64	0		6342,6342
+283074	173	*Tani	rok	rok	chicken	chicken		2.1.10	65	0		1606
+283075	173	*Tani	ɦo	ɦo	child (offspring)	child (offspring)		1.5.3.2	66	0		6658
+283076	173	*Tani	koː	koː	child	child		1.5.3.2	67	0		6388
+283077	173	*Tani	čok-praŋ	čok-|praŋ	chin	chin		1.2.5.3	68	0		2056,6280
+283078	173	*Tani	bor	bor	clf for flat, thin objects	clf for flat, thin objects		10.1.3	69	0		6672
+283079	173	*Tani	tɯŋ	tɯŋ	clf for group (of animals)	clf for group (of animals)		10.1.3	70	0		6686
+283080	173	*Tani	soŋ	soŋ	clf for long, slender objects	clf for long, slender objects		10.1.3	71	0		6684
+283081	173	*Tani	bal	bal	clf for round flat objects (e.g. coins)	clf for round flat objects (e.		10.1.3	72	0		6671
+283082	173	*Tani	pjɯl	pjɯl	clf for small round objects	clf for small round objects		10.1.3	73	0		6522
+283083	173	*Tani	tak	tak	clf for thin, flat objects (e.g. pieces of cloth)	clf for thin, flat objects (e.		10.1.3	74	0		6685
+283084	173	*Tani	ge◦?	ge?	clothes	clothes		5.11.8.2.1	75	0		2256
+283085	173	*Tani	mək~ muk	mək~ muk	cloud	cloud		3.2.1	76	0		2473,2473
+283086	173	*Tani	han	han	cold (water)	cold (water)		7.1.2.3	77	0		6340
+283087	173	*Tani	fi	fi	comb	comb (n.)	n	1.2.2.1	78	0		6308
+283088	173	*Tani	tuk~ tup	tuk~ tup	comb	comb (v.)	v	1.2.2.1	79	0		6623,6623
+283089	173	*Tani	nu	nu	cooked	cooked		5.5	80	0		6498
+283090	173	*Tani	jo	jo	copulate	copulate		1.9.1.1	81	0		3470
+283091	173	*Tani	krɯ	krɯ	count / calculate	count / calculate		6.2.2.2	82	0		6175
+283092	173	*Tani	ke~ kjo	ke~ kjo	crab	crab		2.2.5	83	0		2304,2304
+283093	173	*Tani	grak	grak	crazy / mad	crazy / madÁ		8.3.1.11.3	84	0		6328
+283094	173	*Tani	ru	ru	crazy / mad	crazy / madª		8.3.1.11.3	85	0		6094
+283095	173	*Tani	gər	gər	crooked	crooked		9.7.2	86	0		6338
+283096	173	*Tani	ak	ak	crow (bird)	crow (bird)		2.2.4.1	87	0		6695
+283097	173	*Tani	krok	krok	crow	crow	v	2.2.4.1	88	0		6397
+283098	173	*Tani	kuŋ	kuŋ	cucumber	cucumber		3.1.5	89	0		6412
+283099	173	*Tani	be	be	curse	curse (v.)	v	8.5.1	90	0		6258
+283100	173	*Tani	gjat²	gjat²	cut (as in reaping crops)	cut (as in reaping crops)		6.9.3	91	0		6323
+283101	173	*Tani	pa	pa	cut (e.g. with machete)	cut (e.g. with machete)		6.9.3	92	0		6504
+283102	173	*Tani	tək	tək	cut up / mince	cut up / mince		6.9.3	93	0		2709
+283103	173	*Tani	peː	peː	cut / slice	cut / slice		6.9.3	94	0		6514
+283104	173	*Tani	pa	pa	cut; (e.g. with machete)	cut; (e.g. with machete)		6.9.3	95	0		6504
+283105	173	*Tani	rjok-|čik	rjok-|čik	dagger	dagger		5.15	96	0		6571
+283106	173	*Tani	lo	lo	day	day		1.5.3.2	97	0		6432
+283107	173	*Tani	-ka~-ke	-ka~  *-ke	dead (resultative verbal particle)	dead (resultative verbal parti		10.0	98	0		3301
+283108	173	*Tani	si-maŋ	si-|maŋ	dead body	dead body		1.1.6.1	99	0		27,17
+283109	173	*Tani	rɯŋ	rɯŋ	deep	deep		7.1.5.3	100	0		6589
+283110	173	*Tani	ju	ju	demon / evil spirit	demon / evil spirit		4.2.12.2	101	0		6366
+283111	173	*Tani	si	si	die	die		1.1.6	102	0		27
+283112	173	*Tani	ko~ kjo	ko~ kjo	dig (hole)	dig (hole)		6.11	103	0		2325,2325
+283113	173	*Tani	du	du	dig	dig		6.11	104	0		3573
+283114	173	*Tani	hor	hor	distribute	distribute		6.23	105	0	HIDE	DUPE IN SOURCE
+283115	173	*Tani	hor	hor	distribute	distribute		6.23	106	0	D1	5470
+283116	173	*Tani	rjɯ	rjɯ	do	do		6.1.1.1	107	0		6573
+283117	173	*Tani	kwiː	kwiː	dog	dog		2.1.11	108	0		1764
+283118	173	*Tani	rjap	rjap	door	door		5.11.9.3	109	0		6563
+283119	173	*Tani	kɯ	kɯ	dove / pigeon	dove / pigeon		2.2.4.1	110	0		2346
+283120	173	*Tani	tɯŋ	tɯŋ	drink	drink			111	0		502
+283121	173	*Tani	dɯ	dɯ	drip	drip		6.6	112	0		6296
+283122	173	*Tani	krum	krum	drunk	drunk		1.3.5.9	113	0		6405
+283123	173	*Tani	fam	fam	dry something near fire	dry something near fire		6.6	114	0		3515
+283124	173	*Tani	ǰap	ǰap	duck	duck		2.1.10	115	0		6351
+283125	173	*Tani	mɯ	mɯ	eagle / hawk	eagle / hawk		2.2.4.1	116	0		2471
+283126	173	*Tani	ña-|ruŋ	ña-|ruŋ	ear	ear		1.2.7	117	0		6487
+283127	173	*Tani	kom	kom	early morning	early morning		9.1.1	118	0		6228
+283128	173	*Tani	tol~dol	tol~  *dol	earthworm	earthworm		2.2.6	119	0		6622,6622
+283129	173	*Tani	do	do	eat	eat		1.5.3.2	120	0		5363
+283130	173	*Tani	ɦar	ɦar	edge (of knife)	edge (of knife)		9.2.7	121	0		6655
+283131	173	*Tani	pɯ	pɯ	egg	egg			122	0		1654
+283132	173	*Tani	braŋ-|jom	braŋ-|jom	eggplant	eggplant		3.1.5	123	0		6264
+283133	173	*Tani	pri-ñi	pri-ñi|	eight	eight		9.9	124	0		2409,2504
+283134	173	*Tani	du	du	elbow	elbow		1.5.8.3	125	0		306
+283135	173	*Tani	raŋ ~ roŋ	raŋ ~  *roŋ	empty	empty		7.1.2.1	126	0		6208,6208
+283136	173	*Tani	rol	rol	enemy	enemy		4.2.6	127	0		2596
+283137	173	*Tani	kat¹	kat¹	escape / flee	escape / flee		6.7.2	128	0		6705
+283138	173	*Tani	rjum	rjum	evening	evening		9.1.4	129	0		6572
+283139	173	*Tani	lɯk	lɯk	exchange	exchange		6.22	130	0		6441
+283140	173	*Tani	eː	eː	excrement	excrement		1.8.5	131	0		576
+283141	173	*Tani	len	len	exit	exit (v.)	v	6.7.2	132	0		6425
+283142	173	*Tani	mit	mit	extinguished	extinguished		3.2.12.1	133	0		31
+283143	173	*Tani	mik	mik	eye	eye		1.2.6	134	0		682
+283144	173	*Tani	-moː	-moː	face / cheek	face / cheek		1.2.5	135	0		5662
+283145	173	*Tani	jap	jap	fan	fan		5.4	136	0		2790
+283146	173	*Tani	do	do	far	far		9.2.4	137	0		6290
+283147	173	*Tani	pəː~ pɯ	pəː~ pɯ	fart	fart (n.)	n	1.8.5.2	138	0		316,316
+283148	173	*Tani	fu	fu	fat (meat) / greasy	fat (meat) / greasy		1.6.4	139	0		6311
+283149	173	*Tani	ǰɯŋ	ǰɯŋ	fat (not thin)	fat (not thin)		1.6.4	140	0		6260
+283150	173	*Tani	bo	bo	father	father		4.7.1	141	0		6261
+283151	173	*Tani	to	to	father-in-law	father-in-law		4.7.4	142	0		6619
+283152	173	*Tani	rjam	rjam	fathom	fathom		9.8	143	0		1310
+283153	173	*Tani	ɦan	ɦan	feel	feel (v.t.)	v.t.	8.4	144	0		6654
+283154	173	*Tani	lak-keŋ	lak-|keŋ	finger	finger		1.5.6	145	0		695,6689
+283155	173	*Tani	ru	ru	fir / pitch-pine	fir / pitch-pine		3.1.1	146	0		2620
+283156	173	*Tani	mə	mə	fire	fire		3.2.12.2	147	0		2136
+283157	173	*Tani	rap	rap	fireplace shelf	fireplace shelf		5.11.5.5	148	0		2599
+283158	173	*Tani	ram~ rom	ram~ rom	fireplace / hearth	fireplace / hearth		5.11.5.5	149	0		2599,2599
+283159	173	*Tani	dɯŋ	dɯŋ	firm	firm		7.1.4.2	150	0		6300
+283160	173	*Tani	pjoŋ	pjoŋ	first (adverbial verbal particle)	first (adverbial verbal partic		9.9	151	0		6519
+283161	173	*Tani	ŋo	ŋo	fish	fish		2.2.5	152	0		1455
+283162	173	*Tani	ŋo	ŋo	five	five		9.9	153	0		1306
+283163	173	*Tani	ǰep~ rjap?	ǰep~ rjap?	flat	flat		7.1.5.1	154	0		2432,2432
+283164	173	*Tani	fi	fi	flea	flea		2.2.6	155	0		2414
+283165	173	*Tani	jak	jak	flesh (human)	flesh (human)		1.1.1.1	156	0		35
+283166	173	*Tani	bɯt	bɯt	flow	flow		6.6.1	157	0		6276
+283167	173	*Tani	pun	pun	flower	flower		3.1.4	158	0		6538
+283168	173	*Tani	pruŋ	pruŋ	flute	flute		5.1	159	0		6532
+283169	173	*Tani	jiŋ	jiŋ	fly	fly (n.)	n	2.2.6	160	0		6359
+283170	173	*Tani	bjar	bjar	fly	fly (v.)	v	2.2.6	161	0		2189
+283171	173	*Tani	put¹	put¹	foam	foam		3.2.3	162	0		6540
+283172	173	*Tani	pil	pil	fold	fold (v.t.)	v.t.	1.4.4.2	163	0		5700
+283173	173	*Tani	pet	pet	force into (a crack)	force into (a crack)		6.2.2.1	164	0		6512
+283174	173	*Tani	mit-pran	mit-|pran	forget	forget		8.3.1.16.1	165	0		1383,m
+283175	173	*Tani	pri	pri	four	four		9.9	166	0		2409
+283176	173	*Tani	ǰon~ ǰen	ǰon~ ǰen	friend	friend		4.4.2	167	0		6362,6362
+283177	173	*Tani	tɯk	tɯk	frog	frog		2.1.6.2	168	0		645
+283178	173	*Tani	ze	ze	fruit	fruit		3.1.5	169	0		1019
+283179	173	*Tani	brɯŋ	brɯŋ	full (not empty)	full (not empty)		1.1.3.2	170	0		111
+283180	173	*Tani	jup	jup	gadfly	gadfly		2.2.6	171	0		6367
+283181	173	*Tani	pɯ	pɯ	gall	gall		1.7.3.1	172	0		6546
+283182	173	*Tani	rom	rom	ghost (ancestral)	ghost (ancestral)		4.2.12.2	173	0		12
+283183	173	*Tani	kreː ?	kreː ?	ginger	ginger		3.1.5	174	0		6394
+283184	173	*Tani	bi	bi	give	give		6.23	175	0		2158
+283185	173	*Tani	mit	mit	gnat	gnat		2.2.6	176	0		6459
+283186	173	*Tani	in	in	go	go		6.7.2	177	0		6347
+283187	173	*Tani	ɯn	ɯn	gold	gold		3.2.4	178	0		6651
+283188	173	*Tani	-pro?	-pro?	good (verbal particle)	good (verbal particle)		9.6.1.1	179	0		2572
+283189	173	*Tani	jo	jo	grandmother	grandmother		4.7.1	180	0		6134
+283190	173	*Tani	kom	kom	grasshopper	grasshopper		2.2.6	181	0		6382
+283191	173	*Tani	bruŋ	bruŋ	grave	grave		9.10.6	182	0		6267
+283192	173	*Tani	rit	rit	grind (crush into powder)	grind (crush into powder)		9.5	183	0		2333
+283193	173	*Tani	pɯ	pɯ	grind (sharpen)	grind (sharpen)		9.5	184	0		6547
+283194	173	*Tani	hup	hup	grope	grope		8.4	185	0		6345
+283195	173	*Tani	sɯŋ	sɯŋ	grow	grow (v.i.)	v.i.	9.7.2	186	0		6605
+283196	173	*Tani	mji-|bo	mji-|bo	guest / outsider	guest / outsider		4.4.3	187	0		6462
+283197	173	*Tani	mɯt	mɯt	hair (of body)	hair (of body)		1.2.3	188	0		1429
+283198	173	*Tani	ke	ke	half	half		9.8	189	0		6374
+283199	173	*Tani	lak	lak	hand / arm	hand / arm		1.5.1.1	190	0		695
+283200	173	*Tani	gop	gop	handspan	handspan		1.5.9.4	191	0		6326
+283201	173	*Tani	ɦak	ɦak	hang (against wall)	hang (against wall)		6.1.1.5	192	0		3509
+283202	173	*Tani	dum	dum	head	head		1.2.1	193	0		1425
+283203	173	*Tani	haŋ (-puk)	haŋ (-puk)	heart	heart		1.7.1	194	0		6201,164
+283204	173	*Tani	puk	puk	heart	heart		1.7.1	195	0		164
+283205	173	*Tani	ɦit	ɦit	heavy	heavy		9.6.2	196	0		2415
+283206	173	*Tani	lə-|du	lə-|du	heel	heel		1.5.2.1	197	0		574
+283207	173	*Tani	gul	gul	help	help (v.t.)	v.t.	6.2.2.1	198	0		6336
+283208	173	*Tani	bjək	bjək	hit (target)	hit (target)		6.8	199	0		6259
+283209	173	*Tani	pjum	pjum	hold on both palms	hold on both palms		6.16	200	0		6521
+283210	173	*Tani	sep	sep	hold / nip (e.g. with tweezers, chopsticks)	hold / nip (e.g. with tweezers,		6.16	201	0		6593
+283211	173	*Tani	gak	gak	hold / seize	hold / seize		6.16	202	0		6316
+283212	173	*Tani	ruŋ	ruŋ	hole / dent	hole / dent		3.2.7	203	0		2070
+283213	173	*Tani	ŋut²	ŋut²	honey bee	honey bee		2.2.6	204	0		6649
+283214	173	*Tani	rəŋ	rəŋ	horn	horn		1.2.2	205	0		814
+283215	173	*Tani	graŋ	graŋ	hornbill	hornbill		2.2.4.1	206	0		6329
+283216	173	*Tani	gaŋ	gaŋ	hornet	hornet		2.2.6	207	0		6319
+283217	173	*Tani	kɯ	kɯ	horse	horse		2.1.7	208	0		6023
+283218	173	*Tani	tɯk~ dɯk	tɯk~ dɯk	hot (spicy)	hot (spicy)			209	0		6634,6634
+283219	173	*Tani	gu ~ gju?	gu ~ gju?	hot / warm	hot / warm			210	0		6335,6335
+283220	173	*Tani	lɯŋ	lɯŋ	hundred	hundred		9.9	211	0		6169
+283221	173	*Tani	kV-|noŋ	kV-|noŋ	hungry	hungry		1.1.3	212	0		104
+283222	173	*Tani	mi-|lo	mi-|lo	husband	husband		4.7.4	213	0		6455
+283223	173	*Tani	ŋoː	ŋoː	I	I		4.1	214	0		2530
+283224	173	*Tani	par	par	ignite	ignite		3.2.12.1	215	0		2152
+283225	173	*Tani	ki	ki	ill	ill		1.1.5.1	216	0		1847
+283226	173	*Tani	kri	kri	intestines / belly	intestines / belly		1.7.7	217	0		2125
+283227	173	*Tani	fak	fak	itch	itch		1.6.5.5	218	0		1457
+283228	173	*Tani	guŋ-|gaŋ	guŋ-|gaŋ	jew's harp	jew's harp		4.6	219	0		6337
+283229	173	*Tani	pok	pok	jump	jump		6.7.8	220	0		6707
+283230	173	*Tani	krat¹-|pjɯl	krat¹-|pjɯl	kidney	kidney		1.7.5	221	0		2120
+283231	173	*Tani	man	man	kill	kill		6.4	222	0		6447
+283232	173	*Tani	-not²~ ñot²	-not²~ ñot²	kindle	kindle		3.2.12.1	223	0		6239,6239
+283233	173	*Tani	pup ~ puk|	pup ~ puk|	kiss	kiss		1.3.2.2	224	0		3450,3450
+283234	173	*Tani	lə-|bɯŋ	lə-|bɯŋ	knee	knee		1.5.8.4	225	0		6437
+283235	173	*Tani	jək	jək	knot	knot		5.1	226	0		6369
+283236	173	*Tani	ken	ken	know	know		8.3.1.12.1	227	0		1229
+283237	173	*Tani	braŋ	braŋ	ladder	ladder		5.4	228	0		6262
+283238	173	*Tani	gom	gom	language / speech	language / speech		5.8	229	0		6324
+283239	173	*Tani	ŋil	ŋil	laugh	laugh		1.8.8.1	230	0		1142
+283240	173	*Tani	nə	nə	leaf	leaf		3.1.3	231	0		402
+283241	173	*Tani	grəŋ	grəŋ	lean against	lean against		1.1.1	232	0		6333
+283242	173	*Tani	pat¹	pat¹	leech (land)	leech (land)		2.2.6	233	0		2555
+283243	173	*Tani	lak-ke	lak-|ke	left (-hand)	left (-hand)		1.5.3.2	234	0		695,5624
+283244	173	*Tani	do-|ŋoŋ?	do-|ŋoŋ?	leftover (food)	leftover (food)		5.5	235	0		6291
+283245	173	*Tani	lə(~ le?)	lə(~ le?)	leg	leg		1.5.7	236	0		350,350
+283246	173	*Tani	jit	jit	leprosy	leprosy		5.3	237	0		6357
+283247	173	*Tani	grət~ krət	grət~ krət	lie down	lie down		6.1.1.4	238	0		6332,6332
+283248	173	*Tani	ǰoŋ	ǰoŋ	lift	lift		6.16	239	0		6363
+283249	173	*Tani	bel	bel	lip	lip		1.3.2	240	0		452
+283250	173	*Tani	poŋ?	poŋ?	liquor	liquor		3.1.6.3	241	0		6526
+283251	173	*Tani	tat²	tat²	listen / hear	listen / hear		1.2.7.4	242	0		1408
+283252	173	*Tani	zin	zin	liver	liver		1.7.3	243	0		1390
+283253	173	*Tani	gon	gon	loincloth	loincloth		5.11.8.2.1.3	244	0		6325
+283254	173	*Tani	kaŋ	kaŋ	look	look		1.2.6.11	245	0		6373
+283255	173	*Tani	ñok	ñok	lose	lose (v.t.)	v.t.	6.10.1	246	0		6495
+283256	173	*Tani	fɯk	fɯk	louse (head)	louse (head)		2.2.6	247	0		2609
+283257	173	*Tani	haŋ-|ru?	haŋ-|ru?	lungs	lungs		1.7.2	248	0		6343
+283258	173	*Tani	rjok	rjok	machete / dao	machete / dao		5.3	249	0		6570
+283259	173	*Tani	miː	miː	man (homo)	man (homo)		1.9.6.1	250	0		1002
+283260	173	*Tani	loŋ-|kin	loŋ-|kin	marrow	marrow		1.6.3.5	251	0		6433
+283261	173	*Tani	dɯn	dɯn	meat	meat		1.1.1.1	252	0		6299
+283262	173	*Tani	ǰit ~  ǰet	ǰit ~  ǰet	melt	melt		9.5	253	0		6358,6358
+283263	173	*Tani	jak	jak	millet (fox-tail)	millet (fox-tail)		1.5.3.2	254	0		6350
+283264	173	*Tani	ñat¹	ñat¹	millet (job's tear)	millet (job's tear)		1.5.3.2	255	0		6494
+283265	173	*Tani	beː	beː	monkey	monkey		2.1.9	256	0		2782
+283266	173	*Tani	po-lo|	po-lo|	moon	moon		3.2.2	257	0		1016
+283267	173	*Tani	jaŋ	jaŋ	more (verbal particle of comparison)	more (verbal particle of compa		9.9	258	0		6678
+283268	173	*Tani	ro	ro	morning	morning		9.1.4	259	0		144
+283269	173	*Tani	par	par	mortar	mortar		5.5	260	0		6507
+283270	173	*Tani	ruŋ	ruŋ	mosquito	mosquito		2.2.6	261	0		6583
+283271	173	*Tani	nə	nə	mother	mother		4.7.1	262	0		1621
+283272	173	*Tani	di	di	mountain / hill	mountain / hill		3.2.5	263	0		6222
+283273	173	*Tani	brɯ	brɯ	move	move (v.i.)	v.i.	6.7.11	264	0		6268
+283274	173	*Tani	jin	jin	mushroom	mushroom		3.1.7	265	0		3328
+283275	173	*Tani	lak-|zin	lak-|zin	nail (body part)	nail (body part)		1.5.10	266	0		6691
+283276	173	*Tani	mɯn~ mrɯŋ	mɯn~ mrɯŋ	name	name		5.8	267	0		2450,2450
+283277	173	*Tani	kri-|ni	kri-|ni	navel	navel		1.9.4	268	0		6396
+283278	173	*Tani	lɯŋ	lɯŋ	neck	neck		1.4.2	269	0		479
+283279	173	*Tani	maŋ	maŋ	negator	negator		10.6.2	270	0		6449
+283280	173	*Tani	sup	sup	nest / lair	nest / lair		2.2.4	271	0		1613
+283281	173	*Tani	sap	sap	net	net		5.11.5.4	272	0		6592
+283282	173	*Tani	joː	joː	night	night		9.1.4	273	0		2784
+283283	173	*Tani	kV-(n)aŋ|	kV-(n)aŋ|	nine	nine		9.9	274	0		6204
+283284	173	*Tani	rɯ	rɯ	nit	nit		2.2.6	275	0		1172
+283285	173	*Tani	le-|pit	le-|pit	numb (in the feet)	numb (in the feet)		1.5.11	276	0		6424
+283286	173	*Tani	rɯː	rɯː	odor / smell	odor / smell		7.1.4.5	277	0		2607
+283287	173	*Tani	ku ~ kju?	ku ~ kju?	old (not new)	old (not new)		7.1.8.3	278	0		6410,6410
+283288	116	*Eastern Tani	tel	tel	one	one		9.9	279	0		
+283289	173	*Tani	kon	kon	one	one		9.9	280	0		6383
+283290	173	*Tani	-ko	-ko	open (verbal particle)	open (verbal particle)		6.2.2.6.1	281	0		6667
+283291	173	*Tani	ɦo-|pran	ɦo-|pran	orphan	orphan		4.3	282	0		6643
+283292	173	*Tani	ram	ram	otter	otter		2.2.7.1	283	0		2595
+283293	173	*Tani	len	len	out (verbal particle)	out (verbal particle)		9.2	284	0		6426
+283294	173	*Tani	kruk	kruk	outer covering	outer covering		3.1.2	285	0		586
+283295	173	*Tani	lak-pro	lak-|pro	palm (of hand)	palm (of hand)		1.5.5	286	0		695,776
+283296	173	*Tani	pit	pit	pangolin	pangolin		2.2.7	287	0		6517
+283297	173	*Tani	ɦor	ɦor	panji (pointed spike)	panji (pointed spike)		5.11.9	288	0		6660
+283298	173	*Tani	mrak	mrak	penis	penis			289	0		548
+283299	173	*Tani	kak	kak	phlegm	phlegm		1.8.3	290	0		540
+283300	173	*Tani	pu	pu	pick (flower, fruit)	pick (flower, fruit)		6.10.4	291	0		6534
+283301	173	*Tani	tɯ	tɯ	pick up	pick up		6.10.4	292	0		6631
+283302	173	*Tani	rjek	rjek	pig	pig		2.1.12	293	0		6019
+283303	173	*Tani	in	in	pinch (with fingernail)	pinch (with fingernail)		8.4	294	0		6348
+283304	173	*Tani	mam	mam	placenta	placenta			295	0		3444
+283305	173	*Tani	prat²	prat²	plait	plait		1.2.3.2	296	0	HIDE	DUPE IN SOURCE
+283306	173	*Tani	prat²	prat²	plait	plait		1.2.3.2	297	0	D1	2018
+283307	173	*Tani	diː~ diŋ	diː~ diŋ	plant (v.t., e.g. ~ tree)	plant (v.t., e.g. ±  tree)		3.1.10	298	0		6288,6288
+283308	173	*Tani	soŋ-|man	soŋ-|man	play	play		6.1.1.3	299	0		6600
+283309	173	*Tani	dɯk	dɯk	poison (generic)	poison (generic)		6.4	300	0		2202
+283310	173	*Tani	bɯr-|taŋ	bɯr-|taŋ	poisonous snake / viper	poisonous snake / viper		2.1.6	301	0		2623
+283311	173	*Tani	kret	kret	porcupine	porcupine		2.1.1	302	0	HIDE	DUPE IN SOURCE
+283312	173	*Tani	kret	kret	porcupine	porcupine		2.1.1	303	0	D1	6393
+283313	173	*Tani	pV-kiŋ	pV-|kiŋ	pot (generic)	pot (generic)		5.5	304	0		7617,6541
+283314	173	*Tani	lɯk	lɯk	pour	pour		6.6	305	0		6442
+283315	173	*Tani	mɯk	mɯk	powder	powder		3.2.11	306	0		6479
+283316	173	*Tani	rə (~ re◦?)	rə (~ re?)	price	price		5.9	307	0		6584
+283317	173	*Tani	mji-|bu	mji-|bu	priest / shaman	priest / shaman		4.2.4	308	0		6463
+283318	173	*Tani	jo	jo	prohibitive marker	prohibitive marker		8.5.1	309	0		6679
+283319	173	*Tani	kɯt	kɯt	punch (downward) with fist	punch (downward) with fist		6.8	310	0		6416
+283320	173	*Tani	paː	paː	put	put		6.17	311	0		6510
+283321	173	*Tani	bɯ-rem	bɯ-|rem	python	python		2.1.6	312	0		2178,m
+283322	173	*Tani	gat¹-	gat¹-	quiver (for arrows)	quiver (for arrows)		6.7.4	313	0		6318
+283323	173	*Tani	mV-doŋ~ pV-doŋ	mV-|doŋ~ pV-|doŋ	rain	rain (n.)	n	3.2.1	314	0		2473,3570,2473,3570
+283324	173	*Tani	ho	ho	rain / fall from a height	rain (v.) / fall from a height	v	3.2.1	315	0		3507
+283325	173	*Tani	ku-|buŋ	ku-|buŋ	rat (generic)	rat (generic)		2.1.1	316	0		6411
+283326	173	*Tani	soŋ	soŋ	rattan / cane	rattan / cane		3.1.6.4	317	0		6599
+283327	173	*Tani	le	le	raw (uncooked)	raw (uncooked)		7.1.8.3	318	0		6423
+283328	173	*Tani	lɯŋ	lɯŋ	red	red		9.4	319	0		6137
+283329	173	*Tani	-su	-su	reflexive marker	reflexive marker		10.4.2	320	0		6668
+283330	173	*Tani	ten	ten	repair	repair		6.14	321	0		6617
+283331	173	*Tani	krak	krak	resultative particle (=off, away)	resultative particle (=off, aw		10.0	322	0		6680
+283332	173	*Tani	pim	pim	rice (cooked)	rice (cooked)		3.1.4	323	0		6245
+283333	173	*Tani	am-|bɯn	am-|bɯn	rice (uncooked)	rice (uncooked)		3.1.4	324	0		6243
+283334	173	*Tani	lak-brɯk	lak-|brɯk	right (hand)	right (hand)		1.5.3.2	325	0		695,5761
+283335	173	*Tani	min	min	ripe	ripe		3.1.10	326	0		2449
+283336	173	*Tani	lam	lam	road	road		9.10.1	327	0		1017
+283337	173	*Tani	vaː	vaː	roast in a pan (without adding oil)/parch	roast in a pan (without adding		5.5	328	0		6638
+283338	173	*Tani	pɯr?	pɯr?	root	root		3.1.2	329	0		6554
+283339	173	*Tani	jaŋ	jaŋ	rot / rotten	rot / rotten		3.1.10	330	0		6353
+283340	173	*Tani	lum	lum	round (globular)	round (globular)		9.7.1	331	0		690
+283341	173	*Tani	not²	not²	rub (skin)	rub (skin)	v	8.4	332	0		4819
+283342	173	*Tani	lo	lo	salt	salt		3.2.4	333	0		2385
+283343	173	*Tani	jem?	jem?	satiated / tired of	satiated / tired of		1.1.3.2	334	0		1830
+283344	173	*Tani	ban~man	ban~ man	say / speak	say / speak		1.8.7	335	0		6699,6699
+283345	173	*Tani	suk~ ǰuk	suk~ ǰuk	scoop / ladle	scoop / ladle (v.)	v	6.11	336	0		6601,6601
+283346	173	*Tani	ɦok	ɦok	scratch (to stop an itch)	scratch (to stop an itch)		1.6.5.5	337	0		1458
+283347	173	*Tani	gaŋ	gaŋ	scratch (with claws)	scratch (with claws)		1.6.5.5	338	0		6320
+283348	173	*Tani	ma~ me	ma~ me	search, look for	search, look for		6.2.2.2	339	0		6448,6448
+283349	173	*Tani	li	li	seed	seed		3.1.4	340	0		3560
+283350	173	*Tani	čul	čul	seedling	seedling		3.1.8	341	0		6281
+283351	173	*Tani	pruk	pruk	sell	sell		6.22	342	0		6531
+283352	173	*Tani	pan	pan	separate (verbal particle)	separate (verbal particle)		6.10.4	343	0		6683
+283353	173	*Tani	brɯ	brɯ	serow (goat antelope)	serow (goat antelope)		2.1.8	344	0		6030
+283354	173	*Tani	vaŋ	vaŋ	set (sun)	set (sun)		6.17	345	0		6211
+283355	173	*Tani	kV-nɯt|	kV-nɯt|	seven	seven		9.9	346	0		2505
+283356	173	*Tani	ɦom	ɦom	sew / patch	sew / patch		5.1	347	0		6659
+283357	173	*Tani	mloŋ-|rji	mloŋ-|rji	shady side of mountain	shady side of mountain		3.2.10	348	0		6466
+283358	173	*Tani	dan	dan	shake	shake		6.7.9	349	0		6287
+283359	173	*Tani	bV-|čor	bV-|čor	shallow / thin (paper)	shallow / thin (paper)		7.1.5.3	350	0		6270
+283360	173	*Tani	rat¹	rat¹	sharp(-edged)	sharp(-edged)		6.9.2	351	0		6559
+283361	173	*Tani	bruk	bruk	sheath	sheath		5.14	352	0		6266
+283362	173	*Tani	praŋ	praŋ	shin / shank	shin / shank		1.5.7.2	353	0		6528
+283363	173	*Tani	lə-|kram	lə-|kram	shoe	shoe		5.11.8.1	354	0		6439
+283364	173	*Tani	ap	ap	shoot	shoot (v.)	v	6.2.2.1	355	0		2232
+283365	173	*Tani	təŋ~ dəŋ	təŋ~ dəŋ	short	short		9.7.2	356	0		7173,7173
+283366	173	*Tani	gor	gor	shoulder	shoulder		1.4.3	357	0		6327
+283367	173	*Tani	han(?)-|ñiŋ	han(?)-|ñiŋ	shy / ashamed	shy / ashamed		9.6.3	358	0		6341
+283368	173	*Tani	fo	fo	sinew / vein	sinew / vein		1.6.6.1	359	0		530
+283369	173	*Tani	braŋ	braŋ	singe / roast in fire	singe / roast in fire		3.2.12.1	360	0		6263
+283370	173	*Tani	me	me	sister (elder)	sister (elder)		4.7.2	361	0		6450
+283371	173	*Tani	bɯr-|məː	bɯr-|məː	sister (younger)	sister (younger)		4.7.2	362	0		6274
+283372	173	*Tani	gup	gup	sit on eggs / hatch	sit on eggs / hatch		6.1.1.4.1	363	0		1233
+283373	173	*Tani	duŋ	duŋ	sit	sit		6.1.1.4.1	364	0		1906
+283374	173	*Tani	krə	krə	six	six		9.9	365	0		2621
+283375	173	*Tani	pɯn	pɯn	skin	skin	n	1.6.5	366	0		591
+283376	173	*Tani	rjo	rjo	skin	skin	n	1.6.5	367	0		599
+283377	173	*Tani	dɯ	dɯ	skin / flay	skin / flay	v	1.6.5	368	0		6297
+283378	173	*Tani	ləŋ~ rjəŋ	ləŋ~ rjəŋ	slanting	slanting		7.1.5.1	369	0		6440,6440
+283379	173	*Tani	jup	jup	sleep	sleep		1.1.4.1	370	0		127
+283380	173	*Tani	mi	mi	sleepy	sleepy		1.1.4.1	371	0		130
+283381	173	*Tani	lut¹	lut¹	slip	slip (v.)	v	6.7.3	372	0		2425
+283382	173	*Tani	lap	lap	slippery	slippery		7.1.4.2	373	0		6418
+283383	173	*Tani	bum	bum	smallpox	smallpox		5.3	374	0		6269
+283384	173	*Tani	nam	nam	smell	smell (v.)	v	1.2.8.5	375	0		1415
+283385	173	*Tani	mə-|kɯ	mə-|kɯ	smoke	smoke		3.2.12.2	376	0		2361
+283386	173	*Tani	no~ ño	no~ ño	snail	snail		2.2.5	377	0		6109,6109
+283387	173	*Tani	bɯ	bɯ	snake	snake		2.1.6.1	378	0		2178
+283388	173	*Tani	nap	nap	snot	snot		1.8.2	379	0		805
+283389	173	*Tani	nap~ nop	nap~ nop	snot	snot		1.8.2	380	0		805,805
+283390	173	*Tani	pam	pam	snow	snow		3.2.1	381	0		6505
+283391	173	*Tani	pom~ prom?	pom~ prom?	soak	soak		6.6	382	0		6523,6523
+283392	173	*Tani	mjak	mjak	soft	soft		7.1.4.2	383	0		6155
+283393	173	*Tani	mak-|bo	mak-|bo	son-in-law	son-in-law		4.7.4	384	0		547
+283394	173	*Tani	ja-|lo	ja-|lo	soul	soul		1.10	385	0		6349
+283395	173	*Tani	dut²	dut²	sound	sound		9.3	386	0		6295
+283396	173	*Tani	laŋ	laŋ	soup	soup		5.5	387	0		191
+283397	173	*Tani	kruŋ	kruŋ	sour	sour		7.1.4.4	388	0		6406
+283398	173	*Tani	mə-|ǰer?	mə-|ǰer?	spark	spark		3.2.12.2	389	0		6474
+283399	173	*Tani	rum	rum	spider	spider		2.2.6	390	0		6581
+283400	173	*Tani	kjul?	kjul?	spittle	spittle		1.2.6	391	0		6379
+283401	173	*Tani	pru?	pru?	spread out (e.g. bedding)	spread out (e.g. bedding)		9.5	392	0		6530
+283402	173	*Tani	krat² (?)	krat² (?)	sprinkle / water (plant)	sprinkle / water (plant)		6.10.3	393	0		6391
+283403	173	*Tani	ñum	ñum	squeeze with fingers	squeeze with fingers		9.5	394	0		6499
+283404	173	*Tani	krə	krə	squirrel (generic)	squirrel (generic)		2.1.1	395	0		6407
+283405	173	*Tani	nɯk	nɯk	stab	stab		6.9.2	396	0		6503
+283406	173	*Tani	dak	dak	stand (posture)	stand (posture)		1.5.2	397	0		6286
+283407	173	*Tani	rop	rop	stand up / get up	stand up / get up		9.2.1	398	0		145
+283408	173	*Tani	kar	kar	star	star		3.2.2	399	0		2300
+283409	173	*Tani	lom	lom	startle (verbal particle)	startle (verbal particle)		8.3.1.9.1	400	0		6681
+283410	173	*Tani	pjoŋ	pjoŋ	steal	steal		6.2.2.1	401	0		6520
+283411	173	*Tani	lɯŋ	lɯŋ	stone	stone		3.2.9	402	0		1269
+283412	173	*Tani	ǰon	ǰon	stretch oneself	stretch oneself		9.5	403	0		6361
+283413	173	*Tani	tup	tup	strike	strike		6.8	404	0		2206
+283414	173	*Tani	tol	tol	strong	strong		9.6.1.1	405	0		161
+283415	173	*Tani	bruŋ	bruŋ	suck	suck		1.3.2.1	406	0		3453
+283416	173	*Tani	ñi	ñi	sun	sun		3.2.10	407	0		85
+283417	173	*Tani	met	met	swallow	swallow (v.)	v	1.3.5.6	408	0		6451
+283418	173	*Tani	pək	pək	sweep	sweep		6.2.2.5.3	409	0		2587
+283419	173	*Tani	tiː	tiː	sweet	sweet		7.1.4.4	410	0		2721
+283420	173	*Tani	rɯk	rɯk	swidden	swidden		9.10.4	411	0		6588
+283421	173	*Tani	bjaŋ	bjaŋ	swim	swim		6.6	412	0		6237
+283422	173	*Tani	me~ mjo	me~ mjo	tail	tail		1.4.10.1	413	0		1288,1288
+283423	173	*Tani	kor	kor	take a step	take a step		6.21	414	0		6384
+283424	173	*Tani	krɯ	krɯ	take aim	take aim		6.21	415	0		6409
+283425	173	*Tani	laŋ	laŋ	take	take		6.21	416	0		6421
+283426	173	*Tani	ben~ bren	ben~ bren	takin (Budorcas taxicolor)	takin (Budorcas taxicolor)			417	0		6257,6257
+283427	173	*Tani	ɦot²	ɦot²	tall / high	tall / high		9.7.2	418	0		6661
+283428	173	*Tani	rjɯŋ	rjɯŋ	ten	ten		9.9	419	0		6168
+283429	173	*Tani	čam	čam	tens (e.g. twenty)	tens (e.g. twenty)		9.9	420	0		3610
+283430	173	*Tani	aː (?)	aː (?)	that (demonstrative)	that (demonstrative)		10.1	421	0		6669
+283431	173	*Tani	bjɯŋ	bjɯŋ	thick (e.g. book)	thick (e.g. book)		9.7.2	422	0		6260
+283432	173	*Tani	far-	far-	thigh / leg	thigh / leg		1.5.7.1	423	0		6304
+283433	173	*Tani	mɯŋ	mɯŋ	think	think		8.3.1.13.1	424	0	HIDE	DUPE IN SOURCE
+283434	173	*Tani	mɯŋ	mɯŋ	think	think		8.3.1.13.1	425	0	D1	6200
+283435	173	*Tani	si	si	this	this		10.4.3.2	426	0		6595
+283436	173	*Tani	noː	noː	thou	thou		10.2.3.1	427	0		2489
+283437	173	*Tani	ɦum	ɦum	three	three		9.9	428	0		2666
+283438	173	*Tani	gruŋ?	gruŋ?	throat	throat		1.3.5	429	0		3361
+283439	173	*Tani	vor?	vor?	throw / cast	throw / cast		6.12	430	0		3528
+283440	173	*Tani	gum	gum	thunder	thunder		3.2.1	431	0		6141
+283441	173	*Tani	pi	pi	tick	tick		2.2.6	432	0		6515
+283442	173	*Tani	mjo	mjo	tiger	tiger		2.1.3	433	0		2618
+283443	173	*Tani	pe	pe	tired / rest	tired / rest		9.6.2.2	434	0		6511
+283444	173	*Tani	rjo	rjo	tongue	tongue		1.3.3	435	0		623
+283445	173	*Tani	fiː	fiː	tooth	tooth		1.3.4	436	0		632
+283446	173	*Tani	mə-|ru	mə-|ru	torch	torch		5.11.5.5	437	0		6476
+283447	173	*Tani	raŋ-|kop	raŋ-|kop	tortoise	tortoise		2.1.6	438	0		6560
+283448	173	*Tani	ča	ča	tread / trample	tread / trample		6.7.4	439	0		6278
+283449	173	*Tani	prem	prem	twin	twin		4.7.2	440	0		6529
+283450	173	*Tani	rjat¹	rjat¹	twist (strands of rope)	twist (strands of rope)		6.7.6	441	0		6564
+283451	173	*Tani	vet	vet	twist / turn	twist / turn		6.7.6	442	0		3257
+283452	173	*Tani	kɯ	kɯ	uncle (maternal)	uncle (maternal)		4.7.1	443	0		2362
+283453	173	*Tani	paŋ	paŋ	uncle (paternal)	uncle (paternal)		4.7.1	444	0		2183
+283454	173	*Tani	prɯt	prɯt	undress	undress		6.1.1	445	0		6533
+283455	173	*Tani	si	si	urine	urine		1.8.4	446	0		650
+283456	173	*Tani	sum	sum	urine	urine		1.8.4	447	0		1730
+283457	173	*Tani	ɦoː	ɦoː	vegetable / curry	vegetable / curry		3.1.2	448	0		6662
+283458	173	*Tani	b(r)at²	b(r)at²	vomit	vomit		1.8.3.2	449	0		1145
+283459	173	*Tani	tɯ	tɯ	vulva / vagina	vulva / vagina			450	0		661
+283460	173	*Tani	rjaŋ	rjaŋ	wait for	wait for		6.1.1.6	451	0		5577
+283461	173	*Tani	ɦut²	ɦut²	wake up	wake up		1.1.4	452	0		6664
+283462	173	*Tani	ɦiː	ɦiː	warm oneself near fire	warm oneself near fire		7.1.2.3	453	0		6657
+283463	173	*Tani	hɯr	hɯr	wash	wash		6.2.2.5.2	454	0		3519
+283464	173	*Tani	si	si	water	water		3.2.3	455	0		189
+283465	173	*Tani	čum	čum	weave	weave		5.1	456	0		6282
+283466	173	*Tani	krap	krap	weep	weep		1.8.8.2	457	0		1103
+283467	173	*Tani	ǰu-ǰaŋ|	ǰu-ǰaŋ|	wet	wet		6.6	458	0		6205
+283468	173	*Tani	pun~ puŋ	pun~ puŋ	white	white		9.4	459	0		6097,6097
+283469	173	*Tani	tak	tak	wide	wide		9.7.2	460	0		6613
+283470	173	*Tani	mi-|fVŋ?	mi-|fVŋ?	wife	wife		4.7.4	461	0		1618
+283471	173	*Tani	ra	ra	wild boar	wild boar		3.2.5	462	0		6555
+283472	173	*Tani	so	so	wild cat	wild cat		3.2.5	463	0		6074
+283473	173	*Tani	pjaŋ	pjaŋ	wild dog	wild dog		3.2.5	464	0		6051
+283474	173	*Tani	lap	lap	wild green onion	wild green onion		3.2.5	465	0		6419
+283475	173	*Tani	rji	rji	wind	wind (n.)	n	3.2.1	466	0		2412
+283476	173	*Tani	lap	lap	wing	wing		1.5.1.3	467	0		757
+283477	173	*Tani	krap	krap	winnow	winnow		3.1.10	468	0		2329
+283478	173	*Tani	tit	tit	wipe	wipe		6.2.2.1	469	0		5594
+283479	173	*Tani	san	san	wither / dry	wither / dry		3.1.10	470	0		6591
+283480	173	*Tani	mji-|məː	mji-|məː	woman	woman		1.9.3	471	0		1618
+283481	173	*Tani	sɯŋ	sɯŋ	wood / tree	wood / tree		3.1.2	472	0		2658
+283482	173	*Tani	pjak	pjak	wool	wool		1.6.1.3	473	0		3288
+283483	173	*Tani	mroŋ	mroŋ	world / land / earth	world / land / earth		9.10.2	474	0		6470
+283484	173	*Tani	pum	pum	worm / insect	worm / insect		2.2.6	475	0		6537
+283485	173	*Tani	un	un	wound	wound (n.)	n	1.8.6.2	476	0		6637
+283486	173	*Tani	pu	pu	wrap up in a bundle	wrap up in a bundle		6.2.2.1	477	0		2579?,6535
+283487	173	*Tani	lak-|ŋər?	lak-|ŋər?	wrist	wrist		1.5.8.1	478	0		6692
+283488	173	*Tani	fat¹	fat¹	write	write		6.2.2.9.1	479	0		6305
+283489	173	*Tani	ñiŋ	ñiŋ	year	year		9.1.2	480	0		2501
+283490	173	*Tani	pop	pop	yeast	yeast		3.1.6.3	481	0		6525
+441457	1652	Yano	mlak	mlak	penis	penis			131	0		548
+441458	1443	Tagin	(a-)mlak	(a-)mlak	penis	penis			131	0		p,548
+441459	369	Bokar	mok	mok	penis	penis			131	0		548
+441460	1939	Sulung [Puroik]	a³³ laʔ⁵³	a³³ laʔ⁵³	penis	penis			334	0		p,548
+441462	1940	Bangru	mə³³lɔʔ⁵³	mə³³lɔʔ⁵³	penis	penis			334	0		p,548
+441463	1941	Sherdukpen	lak	lak	penis	penis			334	0		548
+621373	1227	Nyisu	xrap-		winnow				132	0		2329

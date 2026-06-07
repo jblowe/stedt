@@ -1,0 +1,22 @@
+tag: 5572
+grpid: 2
+proto_language: PTB
+protoform: m-p(y)up
+gloss: TURN OVER / ROLL OVER / SEARCH FOR
+semkey: 6.2.2.2
+sequence: 3385.0
+status: KEEP
+public: false
+references: cf. HPTB pp. 337, 369
+notes:
+- type: T
+  text: '<par>On the basis of the Akha doublet <latinform>po HS</latinform> &apos;roll over, search for&apos;
+    and <latinform>pyaw ̂</latinform> &apos;turn over, be twisted&apos;, two separate allofamic roots
+    were reconstructed in <plainlatinform>LTSR ##19-20</plainlatinform> and in <plainlatinform>HPTB pp.
+    337, 369</plainlatinform>. However, it now seems better to simply combine them. The Akha doublet is
+    handled by positing a variant with medial <latinform>-y-</latinform>. Further accurately transcribed
+    Loloish forms will clarify this etymology.</par>'
+- type: F
+  text: '<par><hanform>覆</hanform> OC <latinform>*pʼi̯ôk</latinform>, GSR #1034m &apos;turn over, overthrow&apos;;
+    Schuessler 2007:246 <latinform>*phuk</latinform>; B &amp; S 2011: <latinform>*pʰuk {pʰ(r)uk}</latinform>;
+    Mand. <latinform>fù</latinform>.</par>'

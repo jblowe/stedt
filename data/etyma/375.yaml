@@ -1,0 +1,24 @@
+tag: 375
+grpid: 2
+proto_language: PTB
+protoform: ya
+gloss: LEG / FOOT
+semkey: 1.5.7
+sequence: 1.8
+status: KEEP
+public: true
+exemplary: true
+xrefs: '350'
+phonology:
+  handle: ya
+  initial: y
+  rhyme: a
+  initcover: L
+  rhymecover: V
+notes:
+- type: T
+  text: <par>Further support for the notion that this and the preceding etymon are related to the basic
+    root <reconstruction>*lak</reconstruction> is provided by the parallelism of allofamy between <reconstruction>*la</reconstruction>/<reconstruction>*ya</reconstruction>
+    and <reconstruction>*lak</reconstruction>/<reconstruction>*yak</reconstruction>. Furthermore, there
+    are a group of forms with initial affricates in the Bodo-Garo family that are parallel to <reconstruction>*d-yak</reconstruction>
+    or <reconstruction>*g-yak</reconstruction>. See <xref ref="888">#888 </xref> below.</par>

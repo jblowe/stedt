@@ -1,0 +1,21 @@
+tag: 1318
+grpid: 2
+proto_language: PTB
+protoform: s-nak
+gloss: SNOT
+semkey: 1.8.2
+sequence: 1.0
+status: KEEP
+public: true
+xrefs: =805
+references: incl 3194,3195. cf PKB's article in Sprigg Festschr
+phonology:
+  handle: nap/k
+  initial: n
+  rhyme: ap/k
+  initcover: M
+  rhymecover: T
+notes:
+- type: T
+  text: <par>We set up this root provisionally as being separate from the much better attested <xref ref="805">#805</xref>.
+    The Yimchungrü form is included here because of the velar final, despite its anomalous initial.</par>

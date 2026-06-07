@@ -1,0 +1,18 @@
+tag: 3407
+grpid: 2
+proto_language: PTB
+protoform: dwar
+gloss: NECK
+semkey: 1.4.2
+sequence: 14.0
+status: KEEP
+public: true
+phonology:
+  handle: dor
+  initial: d
+  rhyme: or
+  initcover: T
+  rhymecover: L
+notes:
+- type: T
+  text: <par>This etymon requires further review before it can be fully established.</par>

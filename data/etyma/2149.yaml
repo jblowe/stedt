@@ -1,0 +1,27 @@
+tag: 2149
+grpid: 2
+proto_language: PTB
+protoform: (b/p)am
+gloss: BE DEFEATED / SIT / DEFEAT
+semkey: '6.5'
+sequence: 3.0
+status: KEEP
+public: true
+references: STC#471
+phonology:
+  handle: bam
+  initial: b
+  rhyme: am~pam
+  initcover: P
+  rhymecover: NT
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: pam
+  gloss: SIT
+notes:
+- type: F
+  text: '<par><hanform>貶</hanform> OC <latinform>*pi̯ɑm</latinform> ~ <latinform>*pi̯ɑ̆m</latinform>,
+    GSR #641d &apos;diminish; demote; reduce; wanting, of inferior quality&apos;; Coblin 86:63-4 ST <latinform>*pjam</latinform>
+    &gt; OC <latinform>*pjamx</latinform>; Schuessler 2007:166 <latinform>*pamʔ</latinform>; B &amp; S
+    2011: <latinform>*pomʔ {p(r)[o]mʔ}</latinform> ~ <latinform>*promʔ {pr[o]mʔ}</latinform>; Mand. <latinform>biǎn</latinform>.</par>'

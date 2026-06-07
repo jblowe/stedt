@@ -1,0 +1,24 @@
+tag: 6312
+grpid: 3
+proto_language: NEIA
+protoform: t(s)iŋ
+gloss: CELESTIAL / SKY / WEATHER
+semkey: 5.8.1.3
+sequence: 11.0
+status: KEEP
+public: false
+references: ("KMR") tentative transcription
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: tsiŋ
+  gloss: SKY / HEAVEN / RAIN
+- grpid: 63
+  group: 1.3.1
+  form: tsiŋ
+  gloss: CELESTIAL / SKY / WEATHER
+notes:
+- type: T
+  text: '<par>Clark (1911:898): &quot;TSUNG in <emph>Zungi</emph> and <emph>Mungsen</emph> seems to have
+    an idea of divine, heavenly, or supernatural as indicated in such words as <emph>tsungi</emph>, <emph>tsungpret</emph>,
+    <emph>tsunglu</emph>, <emph>tsungmuk</emph>, <emph>tsungru</emph>, etc.&quot;</par>'

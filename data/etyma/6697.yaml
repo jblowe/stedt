@@ -1,0 +1,23 @@
+tag: 6697
+grpid: 2
+proto_language: PTB
+protoform: m-dzəy
+gloss: CHISEL
+semkey: 5.11.5.3
+sequence: 1386.0
+status: KEEP
+public: true
+phonology:
+  initial: dz
+  rhyme: ay
+  tone: ²
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: dzəy²
+  gloss: CHISEL
+notes:
+- type: T
+  text: <par>This etymon has so far only been discovered in Loloish and Qiangic. The nasal prefix is reconstructed
+    on the basis of Qiangic reflexes.</par><par>A number of Loloish forms in this set may actually be
+    borrowings from Chinese, cf. Mandarin <latinform>záozi</latinform> <hanform>鑿</hanform>.</par>

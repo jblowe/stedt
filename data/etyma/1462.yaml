@@ -1,0 +1,21 @@
+tag: 1462
+grpid: 2
+proto_language: PTB
+protoform: k(i/u)t
+gloss: SCRAPE / RULE (LINE) / SCRATCH / ITCH / CUT / CARVE
+semkey: 1.6.5.5
+sequence: 7.0
+status: KEEP
+public: true
+references: cf. STC#383, HPTB pp. 364, 496
+phonology:
+  handle: kit
+  initial: k
+  rhyme: it ⪤ kut
+  initcover: K
+  rhymecover: T
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: kʰot
+  gloss: SCRATCH / SCRAPE

@@ -1,0 +1,15 @@
+tag: 3360
+grpid: 2
+proto_language: PTB
+protoform: b/p-(t)ša
+gloss: BUTTOCK
+semkey: 1.4.9.2
+sequence: 10.0
+status: DELETE
+public: false
+phonology:
+  handle: tsa
+  initial: (t)š
+  rhyme: a
+  initcover: TS
+  rhymecover: V

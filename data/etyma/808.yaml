@@ -1,0 +1,18 @@
+tag: 808
+grpid: 2
+proto_language: PTB
+protoform: t(w)a(ŋ/n)
+gloss: NOSE
+semkey: 1.2.8
+sequence: 6.0
+status: KEEP
+public: false
+phonology:
+  handle: twaŋ
+  initial: t(w)
+  rhyme: aŋ/n
+  initcover: T
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This etymon typically occurs as second element in compounds beginning with <xref ref="803">#803</xref>.</par>

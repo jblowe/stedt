@@ -1,0 +1,31 @@
+tag: 3564
+grpid: 2
+proto_language: PTB
+protoform: d-ra-t
+gloss: CUT / SLASH
+semkey: 6.9.3
+sequence: 1555.0
+status: KEEP
+public: false
+references: cf. STC#458, HPTB p.145
+phonology:
+  handle: ra
+  prefix: d
+  initial: r
+  rhyme: a-t
+  suffix: t
+  initcover: L
+  rhymecover: VT
+notes:
+- type: T
+  text: <par>This etymon bears some resemblance to <xref ref="2615">#2615</xref>, but should be kept distinct.</par>
+- type: F
+  text: '<par><hanform>剌</hanform> OC <latinform>*lɑ̂t</latinform>, GSR #272a &apos;wicked; cut, hurt&apos;;
+    Schuessler 2007:342 <latinform>*rât</latinform>; B &amp; S 2011: <latinform>*rˁat</latinform> (~<latinform>*C.rˁat
+    ?</latinform>); Mand. <latinform>là</latinform>.<br /><hanform>割</hanform> OC <latinform>*kɑ̂t</latinform>,
+    GSR #314d-e &apos;cut, harm&apos;; Schuessler 2007:252 <latinform>*kât</latinform>; B &amp; S 2011:
+    <latinform>*Cə-kˁat</latinform>; Mand. <latinform>gē</latinform>.<br /><hanform>害</hanform> OC <latinform>*g’ɑ̂d</latinform>,
+    GSR #314a-b &apos;injure; harm&apos;; Schuessler 2007:252 <latinform>*gâts</latinform>; B &amp; S
+    2011: <latinform>*m-kˁat-s</latinform>; Mand. <latinform>hài</latinform>.<br /><hanform>犗</hanform>
+    OC <latinform>*kɑd</latinform>, GSR #314c &apos;castrate&apos;; Schuessler 2007:252 <latinform>*krâts</latinform>;
+    B &amp; S 2011: <latinform>*kˁrat-s</latinform>; Mand. <latinform>jiè</latinform>.</par>'

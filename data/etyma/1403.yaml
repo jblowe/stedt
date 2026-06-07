@@ -1,0 +1,15 @@
+tag: 1403
+grpid: 2
+proto_language: PTB
+protoform: nyam
+gloss: SEE
+semkey: 1.2.6.10
+sequence: 5.1
+status: DELETE
+public: false
+phonology:
+  handle: nyam
+  initial: ny
+  rhyme: am
+  initcover: M
+  rhymecover: N

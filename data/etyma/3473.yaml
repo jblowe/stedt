@@ -1,0 +1,23 @@
+tag: 3473
+grpid: 2
+proto_language: PTB
+protoform: m-brel
+gloss: COPULATE / CONNECT
+semkey: 1.9.1.1
+sequence: 148.0
+status: KEEP
+public: true
+references: '("HIM") '
+phonology:
+  handle: brel
+  initial: br
+  rhyme: el
+  initcover: P
+  rhymecover: L
+notes:
+- type: T
+  text: <par>The basic meaning of this etymon seems to be &apos;hang together; cohere; be connected; come
+    together; meet, join&apos; (see the range of meanings in WT, Jäschke p. 402). It is attested chiefly
+    in Himalayish, with apparently excellent Qiangic cognates. The nasal prefix is reflected by the WT
+    a-chung (<latinform>ḥ-</latinform>), and directly by the Northern rGyalrong form. It is of course
+    quite possible that the rGyalrong and Ergong forms are borrowings from Tibetan.</par>

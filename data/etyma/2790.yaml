@@ -1,0 +1,25 @@
+tag: 2790
+grpid: 2
+proto_language: PTB
+protoform: g-yaːp
+gloss: FAN / WINNOW / PADDLE / WAVE (v.)
+semkey: '5.4'
+sequence: 12.1
+status: KEEP
+public: true
+references: cf. STC#092, HPTB pp.45, 137, 339, 340
+phonology:
+  handle: yaːp
+  initial: y
+  rhyme: aːp
+  initcover: L
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: yaap
+  gloss: FAN (v.) / WINNOW / FLUTTER
+- grpid: 5
+  group: 1.1.1
+  form: jap
+  gloss: FAN

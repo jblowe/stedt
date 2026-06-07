@@ -1,0 +1,25 @@
+tag: 1749
+grpid: 2
+proto_language: PTB
+protoform: ʔaw
+gloss: VOMIT
+semkey: 1.8.3.2
+sequence: 3.0
+status: KEEP
+public: true
+references: cf. HPTB p. 227, Sinitic
+phonology:
+  handle: ow
+  rhyme: ow
+  rhymecover: W
+notes:
+- type: F
+  text: '<par><hanform>嘔</hanform> OC <latinform>*ʔu</latinform>, GSR #122i &apos;vomit; babble&apos;;
+    Schuessler 2007:595 <latinform>*ʔôʔ</latinform>; B &amp; S 2011: <latinform>*qˁoʔ {qˁ(r)oʔ}</latinform>;
+    Mand. <latinform>ǒu</latinform>.<br /><hanform>嘔</hanform> OC <latinform>*ʔi̯wɑ̆t</latinform>, GSR
+    #346j &apos;vomit&apos;; Schuessler 2007:595 <latinform>*ʔwat</latinform> or <latinform>*ʔot</latinform>;
+    Mand. <latinform>yuē</latinform>.</par>'
+- type: T
+  text: <par>The Chinese comparandum to the WB form was hesitantly suggested in STC n. 491, p. 192.</par><par>Since
+    the Chinese form could also mean &apos;babble as a child&apos;, it cannot be excluded that this etymon
+    is related to <xref ref="5452">#5452</xref>.</par>

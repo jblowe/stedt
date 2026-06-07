@@ -1,0 +1,30 @@
+tag: 5719
+grpid: 2
+proto_language: PTB
+protoform: p-(r/y)an
+gloss: SPREAD (wide) / STRETCH OUT
+sequence: 3130.0
+status: KEEP
+public: true
+references: Matisoff 85 GSTC:015
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ʔwan
+  gloss: WIDE
+notes:
+- type: T
+  text: <par>WB has a simplex/causative pair, and Jingpho has a complex word family.</par><par>Lahu <latinform>fe</latinform>
+    &apos;wide&apos; seems to reflect a PLB allofam <latinform>*ʔwan</latinform> (either Tone *1 or Tone
+    *3).</par>
+- type: F
+  text: '<par><hanform>徧</hanform>/<hanform>遍</hanform> OC <latinform>*piɑn</latinform>, GSR #246b-c &apos;all
+    around, universally&apos;; B &amp; S 2011: <latinform>*pˁen-s {pˁe[n]-s}</latinform>; Mand. <latinform>biàn</latinform>.<br
+    /><hanform>衍</hanform> OC <latinform>*gi̯ɑn</latinform>, GSR #197a &apos;overflowing; abundant, extensive&apos;;
+    Schuessler 2007:554 <latinform>*janʔ/s</latinform>; B &amp; S 2011: <latinform>*N-qanʔ {N-q(r)anʔ}</latinform>;
+    Mand. <latinform>yǎn</latinform> ~ <latinform>yàn</latinform>.<br /><hanform>演</hanform> OC <latinform>*di̯ɑn</latinform>,
+    GSR #450k-l &apos;flow out, extend&apos;; Schuessler 2007:554 <latinform>*janʔ</latinform>; B &amp;
+    S 2011: <latinform>*ɢerʔ {[ɢ][a][r]ʔ}</latinform>; Mand. <latinform>yǎn</latinform>.<br /><hanform>延</hanform><br
+    /><hanform>愆</hanform> OC <latinform>*k’i̯ɑn</latinform>, GSR #197b &apos;exceed; err, lose; error&apos;;
+    Schuessler 2007:554 <latinform>*khrian</latinform>; B &amp; S 2011: <latinform>*C.ɢran {C.qʰra[n]}</latinform>;
+    Mand. <latinform>qiān</latinform>.</par>'

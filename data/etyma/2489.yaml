@@ -1,0 +1,55 @@
+tag: 2489
+grpid: 2
+proto_language: PTB
+protoform: na-ŋ
+gloss: YOU / THOU / 2ND PERSON PRONOUN
+semkey: 10.2.3.1
+sequence: 3575.0
+status: KEEP
+public: true
+references: cf. STC#407, HPTB pp.2, 177, 264
+phonology:
+  handle: naŋ
+  initial: n
+  rhyme: a-ŋ
+  initcover: M
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: naŋ
+  gloss: YOU
+- grpid: 5
+  group: 1.1.1
+  form: noː
+  gloss: THOU
+- grpid: 66
+  group: 1.3.4
+  form: naŋ
+  gloss: 2ND PERSON
+- grpid: 42
+  group: '6.1'
+  form: naŋ¹
+  gloss: 2ND PERSON PRONOUN
+- grpid: 12
+  group: 1.7.2
+  form: naŋ
+  gloss: THOU
+notes:
+- type: T
+  text: <par>As is frequently the case with pronouns, there is quite a bit of variation with this etymon.
+    In particular, the Loloish languages have multiple reflexes for YOU (sg.), YOU (du.) and YOU (pl.).
+    A number of languages have an open-syllable allofam, but most reflexes have the final velar nasal.</par><par>See
+    e.g. <latinform>nɔ̀-hɨ</latinform>, <latinform>nì-hɨ</latinform>, <latinform>nɨ̀-hɨ</latinform> &apos;you
+    (pl.)&apos; (<plainlatinform>DL</plainlatinform> 792). For an analysis of pronominal paradigms in
+    Loloish, see Matisoff 1993 (&quot;Sangkong&quot;).</par>
+- type: F
+  text: '<par><hanform>汝</hanform> OC <latinform>*ńi̯o</latinform>, GSR #94j-k &apos;you (sg.)&apos;;
+    B &amp; S 2011: <latinform>*naʔ</latinform>; Mand. <latinform>rǔ</latinform>.<br /><hanform>若</hanform>
+    OC <latinform>*ńi̯ɑk</latinform>, GSR #777a &apos;you (sg.)&apos;; B &amp; S 2011: <latinform>*nak</latinform>;
+    Mand. <latinform>ruò</latinform>.<br /><hanform>爾</hanform> OC <latinform>*ńiɑ</latinform>, GSR #359a
+    &apos;your&apos; ; B &amp; S 2011: <latinform>*neʔ {ne(j)ʔ}</latinform>; Mand. <latinform>ěr</latinform>.<br
+    /><hanform>而</hanform> OC <latinform>*ńi̯əg</latinform>, GSR #982a-b &apos;your&apos;; Schuessler
+    2007:226 <latinform>*nə</latinform>; B &amp; S 2011: <latinform>*nə</latinform>; Mand. <latinform>ér</latinform>.<br
+    /><hanform>乃</hanform> OC <latinform>*nəg</latinform>, GSR #945a &apos;your&apos; ; B &amp; S 2011:
+    <latinform>*nˁəʔ {nˁə(ŋ)ʔ}</latinform>; Mand. <latinform>nǎi</latinform>.</par>'

@@ -1,0 +1,16 @@
+tag: 1781
+grpid: 2
+proto_language: PTB
+protoform: kwar
+gloss: WEEP
+semkey: 1.8.8.2
+sequence: 3.0
+status: KEEP
+public: true
+references: Newari, Kham?
+phonology:
+  handle: kwor/
+  initial: kw
+  rhyme: o(r/l)
+  initcover: K
+  rhymecover: L

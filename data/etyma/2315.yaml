@@ -1,0 +1,62 @@
+tag: 2315
+grpid: 2
+proto_language: PTB
+protoform: (k/g)la-k/y/t
+gloss: FALL
+semkey: 6.1.1.4.2
+sequence: 1839.0
+status: KEEP
+public: true
+references: cf. STC#123, HPTB
+phonology:
+  handle: kla
+  initial: kl
+  rhyme: a=gla~kl
+  initcover: K
+  rhymecover: LT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: klaa-I, klaak-II
+  gloss: FALL / DROP (v.i.)
+  variant: a
+- grpid: 8
+  group: '1.2'
+  form: khlaa-I, khlaak-II
+  gloss: DROP (v.t.) / LET FALL
+  variant: b
+- grpid: 66
+  group: 1.3.4
+  form: loj
+  gloss: FALL (FROM A HEIGHT)
+- grpid: 42
+  group: '6.1'
+  form: gla-y³ ⪤ ʔgla-y¹
+  gloss: FALL
+notes:
+- type: T
+  text: <par>A number of languages (e.g., Burmese, Mizo) have developed simplex/causative pairs from this
+    etymon. </par>
+- type: F
+  text: '<par><hanform>落</hanform> OC <reconstruction>*glɑ̂k</reconstruction>, GSR ＃766q&apos; &apos;fall,
+    drop; perish&apos;; Schuessler 2007:371 <latinform>*râk</latinform>; B &amp; S 2011: <latinform>*kə.rˁak</latinform>;
+    Mand. <latinform>luò</latinform>.<br /><hanform>露</hanform> OC <reconstruction>*glɑ̂g</reconstruction>
+    GSR #766t&apos; &apos;dew&apos;; Schuessler 2007:366 <latinform>*râkh</latinform>; B &amp; S 2011:
+    <latinform>*p.rˁak-s</latinform>; Mand. <latinform>lù</latinform>.<br /><hanform>下</hanform> OC <reconstruction>*gʼɑ̊</reconstruction>,
+    GSR #35a &apos;down; descend&apos;; Schuessler 2007:527 <latinform>*grâʔ</latinform> &apos;down&apos;,
+    <latinform>*grâh</latinform> &apos;descend&apos;; B &amp; S 2011: <latinform>*ɡˁraʔ</latinform> &apos;down&apos;,
+    <latinform>*m-ɡˁraʔ-s</latinform> &apos;descend&apos;; Mand. <latinform>xià</latinform>.</par><par>Schuessler
+    (2007:371) attributes OC initial <latinform>*r-</latinform> in <hanform>落</hanform> <latinform>*râk</latinform>
+    to Austroasiatic influence, where OC initial <latinform>*l-</latinform> might otherwise be expected
+    based on comparison with TB <reconstruction>*(C‑)l-</reconstruction> for this etymon. In this regard,
+    however, Matisoff identifies  &quot;...several etyma where PTB <reconstruction>*(C-)l</reconstruction>-
+    seems to correspond to Baxter’s <latinform>*(C)-r-</latinform>, including ‘fall’, ‘good’, ‘neck’,
+    ‘salty’, ‘strength / arm’, and ‘young man / husband’&quot;(HPTB:53). We reiterate here Matisoff&apos;s
+    (ibid.) claim that the  relationship between TB <latinform>*l-/*r-</latinform> and OC <latinform>*l-/*r-</latinform>
+    is complex and has yet to be fully clarified. Apparent irregularities in correspondences between TB/OC
+    <latinform>*l-/*r-</latinform> may therefore not always be attributable to loans to or borrowings
+    into TB/OC.</par><par><hanform>陊</hanform> OC <latinform>*d’iɑ</latinform>, GSR #3o-p &apos;fall down,
+    collapse&apos;; Schuessler 2007:619 <latinform>*d-laiʔ </latinform>; B &amp; S 2011: (<latinform>*t-lajʔ</latinform>);
+    Mand. <latinform>duò</latinform>.<br /><hanform>阤</hanform> OC <latinform>*d’iɑ</latinform>, GSR #4z
+    &apos;fall down, collapse&apos;; Schuessler 2007:619 <latinform>*d-laiʔ</latinform>; B &amp; S 2011:
+    (<latinform>*t-lajʔ</latinform>); Mand. <latinform>tuó</latinform> ~ <latinform>zhì</latinform>.</par>'

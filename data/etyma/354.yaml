@@ -1,0 +1,22 @@
+tag: 354
+grpid: 2
+proto_language: PTB
+protoform: s-mawŋ
+gloss: FOREHEAD
+semkey: 1.2.5.1
+sequence: 2.0
+status: KEEP
+public: true
+phonology:
+  handle: moŋ
+  prefix: s
+  initial: m
+  rhyme: oŋ
+  initcover: M
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root is of restricted occurrence, although the Lepcha / WB correspondence looks particularly
+    good; Lepcha medial <latinform>-y-</latinform> is a frequent reflex of the PTB <latinform>*s-</latinform>
+    prefix, as shown long ago in Benedict (1941), while the WB voiceless nasal has a similar origin.</par><par>The
+    Tujia form is also provisionally assigned to this root.</par>

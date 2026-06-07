@@ -1,0 +1,37 @@
+tag: 587
+grpid: 2
+proto_language: PTB
+protoform: (s/z)a-y
+gloss: EARTH / SAND
+semkey: 3.2.11
+sequence: 1756.0
+status: KEEP
+public: true
+references: cf. HPTB p.176
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: say²
+  gloss: SAND
+- grpid: 45
+  group: 6.1.2
+  form: say²
+  gloss: SAND
+- grpid: 12
+  group: 1.7.2
+  form: ʔ-saːy
+  gloss: SAND
+notes:
+- type: T
+  text: '<par>The Phunoi, Mpi, and Bisu forms are probably loans from Tai (cf. Siamese <latinform>saaj</latinform>
+    &lt; Proto-Tai <latinform>*zaay</latinform>). The Siamese word is written with an initial indicating
+    Proto-Tai <latinform>*dr-</latinform>, but this is held to be spurious by Li Fang Kuei (1977:161-162).</par><par>If
+    the WT form meaning &apos;earth&apos; is indeed cognate to Chinese <latinform>shā</latinform> &apos;sand&apos;
+    (OC <latinform>sa</latinform>) [GSR #16a-c] / <latinform>*srāj</latinform> [WHB]), as suggested in
+    STC p. 188, it is possible that this is an old loan from Sino-Tibetan into Tai.</par><par>The palatal
+    suffix in this root, perhaps with a diminutive meaning, is discussed in Matisoff (1995).</par><par>A
+    medial <latinform>-l-</latinform> turns up in the WB variant form <latinform>sa-lâi</latinform>, in
+    Achang, and in Southern Plains Chin.</par>'
+- type: F
+  text: '<par><hanform>沙</hanform> OC <latinform>*sɑ</latinform>, GSR #16a-c &apos;sand&apos;; B &amp;
+    S 2011: <latinform>*{[s]ˁraj}</latinform>; Mand. <latinform>shā</latinform>.</par>'

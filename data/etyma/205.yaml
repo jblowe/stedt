@@ -1,0 +1,17 @@
+tag: 205
+grpid: 2
+proto_language: PTB
+protoform: r-ŋa
+gloss: TAIL / BACK
+semkey: 1.4.10.1
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: ŋa
+  prefix: r
+  initial: ŋ
+  rhyme: a
+  initcover: M
+  rhymecover: V

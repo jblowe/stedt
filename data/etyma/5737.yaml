@@ -1,0 +1,14 @@
+tag: 5737
+grpid: 2
+proto_language: PTB
+protoform: pwar
+gloss: LUNG
+sequence: 2384.0
+status: KEEP
+public: true
+references: JAM
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: pʰaar
+  gloss: LUNG

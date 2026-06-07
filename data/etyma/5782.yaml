@@ -1,0 +1,21 @@
+tag: 5782
+grpid: 2
+proto_language: PTB
+protoform: yam ⪤ ʔam
+gloss: POT / GOURD
+sequence: 1.0
+status: KEEP
+public: false
+mesoroots:
+- grpid: 35
+  group: '3.3'
+  form: t-yam
+  gloss: POT
+- grpid: 8
+  group: '1.2'
+  form: ʔ(u/a)m
+  gloss: GOURD / POT
+- grpid: 66
+  group: 1.3.4
+  form: am
+  gloss: POT

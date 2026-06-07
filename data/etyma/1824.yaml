@@ -1,0 +1,16 @@
+tag: 1824
+grpid: 29
+proto_language: PKir
+protoform: sok
+gloss: HUNGRY
+semkey: 1.1.3
+sequence: 7.0
+status: KEEP
+public: false
+references: BM
+phonology:
+  handle: sok
+  initial: s
+  rhyme: ok
+  initcover: S
+  rhymecover: T

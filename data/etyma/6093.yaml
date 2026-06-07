@@ -1,0 +1,39 @@
+tag: 6093
+grpid: 2
+proto_language: PTB
+protoform: ram
+gloss: JUNGLE / FOREST / COUNTRY / FIELD
+semkey: 3.2.5
+sequence: 4.0
+status: KEEP
+public: false
+references: cf. HPTB p.299
+phonology:
+  initial: r
+  rhyme: am
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ram
+  gloss: LAND / COUNTRY / FOREST
+- grpid: 66
+  group: 1.3.4
+  form: ram
+  gloss: VILLAGE / LAND
+- grpid: 12
+  group: 1.7.2
+  form: C̬-ram
+  gloss: JUNGLE
+- grpid: 63
+  group: 1.3.1
+  form: raːm
+  gloss: JUNGLE, FOREST
+notes:
+- type: T
+  text: <par>This root is attested in the NE Indian areal group, with a very likely Chinese cognate.</par>
+- type: F
+  text: '<par><hanform>林</hanform> OC <latinform>*gli̯əm</latinform>, GSR #655a-d &apos;forest&apos;;
+    Schuessler 2007:358-9 <latinform>*rəm</latinform>; B &amp; S 2011: <latinform>*k.rəm {k.r[ə]m}</latinform>;
+    Mand. <latinform>lín</latinform>.<br /><hanform>森</hanform> OC <latinform>*ṣi̯əm</latinform>, GSR
+    #664a &apos;dense trees, thicket, grove&apos;; Schuessler 2007:358-9 <latinform>*srəm</latinform>;
+    B &amp; S 2011: (<latinform>*s.r̥əm</latinform>); Mand. <latinform>sēn</latinform>.</par>'

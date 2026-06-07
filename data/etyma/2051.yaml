@@ -1,0 +1,19 @@
+tag: 2051
+grpid: 2
+proto_language: PTB
+protoform: tsyi(p/m)
+gloss: CHEEK / CHIN
+semkey: 1.2.5.2
+sequence: 7.0
+status: KEEP
+public: true
+phonology:
+  handle: tšip
+  initial: tš
+  rhyme: ip ⪤ tš
+  initcover: TS
+  rhymecover: TS
+notes:
+- type: T
+  text: <par>This root seems solid, despite its rather sparse attestation. Note the alternation between
+    the homorganic final stop and nasal.</par>

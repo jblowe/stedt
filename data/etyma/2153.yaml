@@ -1,0 +1,34 @@
+tag: 2153
+grpid: 2
+proto_language: PTB
+protoform: baːr
+gloss: BLOOM / FLOWER
+semkey: 3.1.10
+sequence: 1207.0
+status: KEEP
+public: true
+references: STC#001, HPTB
+phonology:
+  handle: bar
+  initial: b
+  rhyme: a-r
+  suffix: r
+  initcover: P
+  rhymecover: VL
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: paar
+  gloss: FLOWER
+- grpid: 66
+  group: 1.3.4
+  form: bon
+  gloss: FLOWER
+notes:
+- type: T
+  text: <par>These Qiangic forms have been assigned to <xref ref="2153">#2153</xref>, although it cannot
+    yet be ruled out that they descend rather from <xref ref="2185">#2185</xref>.</par>
+- type: F
+  text: '<par><hanform>葩</hanform> OC (<latinform>*p’ɑ̊</latinform>), GSR (not in #38) &apos;flower&apos;;
+    Schuessler 2007:408 (<latinform>*phrâ</latinform>); B &amp; S 2011: (<latinform>*pʰˁra</latinform>);
+    Mand. <latinform>pā</latinform>.</par>'

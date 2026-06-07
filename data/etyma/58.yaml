@@ -1,0 +1,26 @@
+tag: 58
+grpid: 2
+proto_language: PTB
+protoform: dzay ⪤ tsaːy
+gloss: CATTLE / LIVESTOCK / DOMESTIC ANIMAL
+semkey: '2.3'
+sequence: 15.0
+status: KEEP
+public: true
+phonology:
+  handle: dzay²
+  initial: dz
+  rhyme: ay²
+  tone: ²
+  initcover: TS
+  rhymecover: W
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: dzay²
+  gloss: ANIMAL (DOMESTIC) / LIVESTOCK
+notes:
+- type: T
+  text: '<par>GSTC #129; <latinform>⪤ *tsaːy </latinform>&apos;property, cattle, economically valuable
+    animal&apos;. Same root as GSTC #143 ‘elephant, cattle’ as discussed in Matisoff 1988, ‘Universal
+    semantics and allofamic identification... property, livestock, talent.’</par>'

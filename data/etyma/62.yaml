@@ -1,0 +1,21 @@
+tag: 62
+grpid: 2
+proto_language: PTB
+protoform: mwa-n/s
+gloss: LIFE / BREATH
+semkey: 1.1.2.1
+sequence: 9.0
+status: KEEP
+public: true
+phonology:
+  handle: mwaN
+  initial: mw
+  rhyme: a-(n/s)
+  suffix: (n
+  initcover: M
+  rhymecover: VNS
+notes:
+- type: T
+  text: <par>This etymon is well-attested in Karenic and Newar, with likely cognates in Limbu and Loloish.
+    Qiangic has developed an <latinform>-s</latinform> suffix.</par><par>Many of the Karenic forms are
+    compounds containing both <xref ref="32">#32</xref> and the present root.</par>

@@ -1,0 +1,38 @@
+tag: 2304
+grpid: 2
+proto_language: PTB
+protoform: d-k(y)aːy
+gloss: CRAB
+semkey: 2.2.5
+sequence: 1.1
+status: KEEP
+public: true
+references: cf. STC#051, HPTB
+phonology:
+  handle: kaːy
+  prefix: d
+  initial: k
+  rhyme: aːy
+  initcover: K
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ʔaay
+  gloss: CRAB
+- grpid: 5
+  group: 1.1.1
+  form: ke ~ kjo
+  gloss: CRAB
+- grpid: 8
+  group: '1.2'
+  form: kaay- ⪤ ŋaay-kuaŋ
+  gloss: LOBSTER / CRAB / SHRIMP
+- grpid: 50
+  group: '7'
+  form: chwɛᴮ
+  gloss: CRAB
+notes:
+- type: F
+  text: '<par><hanform>蟹</hanform> OC <latinform>*g’ĕg</latinform>, GSR #861d &apos;crab&apos;; Schuessler
+    2007:538 <latinform>*grêʔ</latinform>; B &amp; S 2011: <latinform>*m-kˁreʔ </latinform>; Mand. <latinform>xiè</latinform>.</par>'

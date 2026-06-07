@@ -1,0 +1,18 @@
+tag: 292
+grpid: 2
+proto_language: PTB
+protoform: sak
+gloss: CHEST / BREATH / LIFE / HEART
+semkey: 1.4.4.3
+sequence: 3.0
+status: DELETE
+public: true
+exemplary: true
+xrefs: '32'
+references: STC#485
+phonology:
+  handle: sak
+  initial: s
+  rhyme: ak
+  initcover: S
+  rhymecover: T

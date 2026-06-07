@@ -1,0 +1,34 @@
+tag: 1284
+grpid: 2
+proto_language: PTB
+protoform: m-ley ⪤ m-li
+gloss: PENIS
+sequence: 114.1
+status: KEEP
+public: true
+exemplary: true
+references: STC#262
+phonology:
+  handle: ley
+  prefix: m
+  initial: l
+  rhyme: ey
+  initcover: L
+  rhymecover: W
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: (n)-li²
+  gloss: PENIS
+notes:
+- type: H
+  text: <par>There is apparently a slight variation in the rhyme of this etymon between <reconstruction>*-ey</reconstruction>
+    and <reconstruction>*-i</reconstruction>, although the reflexes of these two rhymes are not distinguishable
+    for many TB languages at present. STC (#262 and note 197) recognizes &quot;vowel gradation&quot; in
+    this root, assigning Kanauri <latinform>kut-li</latinform>, Bahing <latinform>bli</latinform>, WB
+    <latinform>lî</latinform>, Garo <latinform>ri-gaŋ</latinform>, and Dimasa <latinform>li</latinform>
+    to PTB <reconstruction>*li</reconstruction>, but WT <latinform>mdźe</latinform> to <reconstruction>*m-ley</reconstruction>.
+    For convenience, we are grouping all the reflexes of this etymon with lateral initials together in
+    <xref ref="1284">#1284 </xref>, regardless of the precise proto-rhyme to which they may eventually
+    be assigned.</par><par>See also HPTB <reconstruction>*m-ley ⪤ *m-li</reconstruction>, pp. 47, 49,
+    153, 219, 509.</par>

@@ -1,0 +1,33 @@
+tag: 2232
+grpid: 2
+proto_language: PTB
+protoform: ʔap ⪤ gaːp
+gloss: SHOOT
+semkey: 6.2.2.1
+sequence: 32.0
+status: KEEP
+public: true
+references: cf. STC#219, HPTB pp. 57, 137, 340
+phonology:
+  handle: gaːp
+  initial: g
+  rhyme: aːp
+  initcover: K
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: kaap
+  gloss: SHOOT
+- grpid: 5
+  group: 1.1.1
+  form: ap
+  gloss: SHOOT (v.)
+- grpid: 66
+  group: 1.3.4
+  form: kaap
+  gloss: SHOOT
+- grpid: 50
+  group: '7'
+  form: khaɁᴰ
+  gloss: SHOOT (v.)

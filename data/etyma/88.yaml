@@ -1,0 +1,19 @@
+tag: 88
+grpid: 2
+proto_language: PTB
+protoform: b-gryas
+gloss: OLD
+semkey: 7.1.8.3
+sequence: 2546.0
+status: KEEP
+public: true
+references: 'Gong 2001:25; HPTB: 437'
+notes:
+- type: T
+  text: <par>This root, originally proposed in Gong (2001), has been identified only in WT and WB. It
+    is possible that some Himalayish forms ascribed to <xref ref="2228">#2228</xref> should rather be
+    assigned to this etymon.</par>
+- type: F
+  text: '<par><hanform>耆</hanform> OC <latinform>*k’iər</latinform>, GSR #552l &apos;old&apos;; Schuessler
+    2007:421 <latinform>*gri</latinform>; B &amp; S 2011: <latinform>*ɡrij {[ɡ]rij}</latinform>; Mand.
+    <latinform>qí</latinform>.</par>'

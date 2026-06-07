@@ -1,0 +1,17 @@
+tag: 45
+grpid: 2
+proto_language: PTB
+protoform: kruk ⪤ s-gyuk
+gloss: LEAN (MEAT)
+semkey: 1.1.1
+sequence: 8.0
+status: KEEP
+public: true
+xrefs: LEAN PERSON
+phonology:
+  handle: gryu
+  initial: gr(y)
+  rhyme: u-k
+  suffix: k
+  initcover: K
+  rhymecover: VT

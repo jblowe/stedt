@@ -1,0 +1,38 @@
+tag: 116
+grpid: 2
+proto_language: PTB
+protoform: k(w)am
+gloss: THIRSTY / DRIED OUT
+semkey: 1.1.3.1
+sequence: 13.0
+status: KEEP
+public: true
+references: PLB *n-kam
+phonology:
+  handle: kwam
+  prefix: s
+  initial: k(w)
+  rhyme: am
+  initcover: K
+  rhymecover: N
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: N-kam²
+  gloss: THIRSTY / DRIED OUT
+notes:
+- type: T
+  text: '<par>Three different prefixes are attested with this root: Written Tibetan has <latinform>s-</latinform>,
+    but some modern dialects have <latinform>r-</latinform>. The voiced initial in the Lahu form reflexes
+    a nasal prefix at the PLB level.</par><par>The Written Tibetan doublet <latinform>skam-po</latinform>
+    &apos;dry&apos; and <latinform>skom-pa</latinform> &apos;thirst&apos; strongly supports the reconstruction
+    of <reconstruction>*-wa-</reconstruction>.</par>'
+- type: T
+  text: <par>This root bears some resemblance to <xref ref="2347">#2347</xref>, the common core of meaning
+    perhaps residing in the dry sound made by fallen leaves.</par>
+- type: F
+  text: '<par><hanform>顑</hanform> OC <latinform>*χəm</latinform>~<latinform>*k’əm</latinform>, GSR #671m
+    &apos;emaciated, gaunt&apos;; Coblin 86:148-9 ST <latinform>*khəm</latinform> &gt; OC <latinform>*khəmx</latinform>;
+    Schuessler 2007:332 <latinform>*hə̂ms</latinform>~<latinform>*khə̂mʔ</latinform>; Mand. <latinform>kǎn</latinform>.<br
+    /><hanform>歁</hanform> OC (<latinform>*k’əm</latinform>), (not in GSR #658) &apos;famished&apos;;
+    Schuessler 2007:332 <latinform>*khə̂mʔ</latinform>; Mand. <latinform> kǎn</latinform>.</par>'

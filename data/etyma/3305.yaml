@@ -1,0 +1,16 @@
+tag: 3305
+grpid: 2
+proto_language: PTB
+protoform: sok
+gloss: ILL
+semkey: 1.1.5.1
+sequence: 9.0
+status: DELETE
+public: false
+references: P-form; MEI; KAR; doubtful
+phonology:
+  handle: sok
+  initial: s
+  rhyme: ok
+  initcover: S
+  rhymecover: T

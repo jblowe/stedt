@@ -1,0 +1,54 @@
+tag: 2449
+grpid: 2
+proto_language: PTB
+protoform: s-min
+gloss: RIPE / COOKED / DELICIOUS
+semkey: 7.1.4.4
+sequence: 2821.0
+status: KEEP
+public: true
+references: cf. STC#432, HPTB pp. 277, 296, 495, 496
+phonology:
+  handle: min
+  prefix: s
+  initial: m
+  rhyme: in
+  initcover: M
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: hmin
+  gloss: RIPE / WELL-COOKED
+- grpid: 42
+  group: '6.1'
+  form: s/ʔ-min¹
+  gloss: RIPE / SWEET / DELICIOUS
+- grpid: 5
+  group: 1.1.1
+  form: min
+  gloss: RIPE
+- grpid: 66
+  group: 1.3.4
+  form: min
+  gloss: RIPE / WELL-COOKED
+- grpid: 50
+  group: '7'
+  form: hminᴬ
+  gloss: RIPE, COOKED
+- grpid: 63
+  group: 1.3.1
+  form: hmən
+  gloss: RIPEN, BE RIPE / BE COOKED
+- grpid: 12
+  group: 1.7.2
+  form: min
+  gloss: RIPE
+- grpid: 45
+  group: 6.1.2
+  form: s-miŋ³
+  gloss: RIPE
+notes:
+- type: T
+  text: <par>The Tani languages show variation among initial <latinform>m-</latinform> ⪤ <latinform>ñ-</latinform>
+    ⪤ <latinform>ŋ-</latinform>.</par>

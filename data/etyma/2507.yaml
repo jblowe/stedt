@@ -1,0 +1,25 @@
+tag: 2507
+grpid: 2
+proto_language: PTB
+protoform: ney ⪤ ni(y)
+gloss: AUNT / MOTHER-IN-LAW
+semkey: 4.7.1
+sequence: 4.0
+status: KEEP
+public: true
+references: cf. STC#316, HPTB
+phonology:
+  handle: niy
+  initial: n
+  rhyme: i(y)
+  initcover: M
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: nii
+  gloss: AUNT (father's sister)
+- grpid: 66
+  group: 1.3.4
+  form: ni
+  gloss: MOTHER-IN-LAW / PATERNAL AUNT

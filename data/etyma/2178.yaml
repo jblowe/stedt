@@ -1,0 +1,37 @@
+tag: 2178
+grpid: 2
+proto_language: PTB
+protoform: bəw
+gloss: INSECT / SNAKE / VERMIN / BUG
+semkey: 2.2.6
+sequence: 2213.0
+status: KEEP
+public: true
+xrefs: '2623'
+references: STC#027, HPTB
+phonology:
+  handle: buw
+  initial: b
+  rhyme: əw
+  initcover: P
+  rhymecover: W
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: bɯ
+  gloss: SNAKE
+- grpid: 42
+  group: '6.1'
+  form: bəw²
+  gloss: INSECT / VERMIN / BUG / SNAKE
+- grpid: 5
+  group: 1.1.1
+  form: bɯ-rem
+  gloss: PYTHON
+notes:
+- type: T
+  text: '<par>See also the semantically and phonologically similar root #2623 <latinform>s-b/m-ruːl</latinform>
+    &apos;snake&apos;.</par>'
+- type: F
+  text: '<par><hanform>蜉</hanform> OC <latinform>*b’i̯ôg</latinform>, GSR #1233n ‘mayfly’; Schuessler
+    2007:242 <latinform>*bu</latinform>; B &amp; S 2011: <latinform>*bu {[b](r)u}</latinform>; Mand. <latinform>fú</latinform>.</par>'

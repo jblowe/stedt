@@ -1,0 +1,17 @@
+tag: 3540
+grpid: 2
+proto_language: PTB
+protoform: ʔa
+gloss: ONE
+semkey: '9.9'
+sequence: 23.0
+status: KEEP
+public: false
+references: JAM-LITB 7.1
+phonology:
+  rhyme: a
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This &quot;minimalist&quot; morpheme has only been unearthed in a couple of languages so
+    far but represents a genuine etymon.</par>

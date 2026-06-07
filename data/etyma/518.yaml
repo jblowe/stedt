@@ -1,0 +1,55 @@
+tag: 518
+grpid: 2
+proto_language: PTB
+protoform: m/s-la(ː)y ⪤ s-tay
+gloss: NAVEL
+semkey: 1.9.4
+sequence: 40.0
+status: KEEP
+public: true
+references: PAF
+notes:
+- type: T
+  text: '<par>A root <reconstruction>*laːy</reconstruction> is set up in STC #287 with the meaning MIDDLE/CENTER,
+    on the basis of WB <latinform>ălai</latinform> and Lushai (Mizo) <latinform>lai</latinform>.<footnote>This
+    root, widespread in Chin languages, is also used in an ethno-geographical sense. The glossonym <emph>Lai</emph>
+    is used broadly for a group of languages in the <emph>central</emph> subdivision of the Chin area
+    in Burma, and more narrowly for the language of Hakha, its most important town.</footnote> Elsewhere,
+    STC presents two additional roots: <reconstruction>*s-tay</reconstruction> &apos;navel&apos; (STC
+    #299), based on WT <latinform>lte-ba</latinform>, Jingpho <latinform>dài ~ šədāi</latinform>, Garo
+    <latinform>ste</latinform>; and <reconstruction>*tay</reconstruction> &apos;self&apos; (STC #284),
+    based on Jingpho <latinform>dāi</latinform> (also <latinform>dāidāi</latinform>) and Lushai (Mizo)
+    <latinform>tei</latinform>. Yet Benedict himself implies by a cross-reference (p. 65) that these latter
+    two roots are really one and the same. I wish to go a step further to claim that all three STC roots
+    (#284, #287, #299) are co-allofamic.</par><par>The interchange of <latinform>l-</latinform> with dental
+    stops occurs in several other TB roots, including TONGUE and ARROW (and this phenomenon is known from
+    other language families as well, notably Indo-European, where by coincidence TONGUE is also one of
+    the best examples (cf. Latin <emph>lingua</emph> vs. pGmc <emph>*tungōn-</emph>), alongside TEAR (cf.
+    Latin <emph>lacrima</emph> vs. pGmc <emph>*tahr- ⪤ *tagr-</emph>), BROTHER-IN-LAW (cf. Latin <emph>lēvir</emph>
+    vs. Lithuanian <emph>dieverìs</emph>), etc.<footnote>See Matisoff 2013 (&quot;The dinguist&apos;s
+    dilemma&quot;). See also the discussion in HPTB, pp. 50-53.</footnote></par><par>There is strong evidence
+    for both a nasal and a sibilant prefix with this root (occasionally with both together, as in the
+    Ashö Sandoway form <latinform>ă`hmlai¹</latinform> &apos;navel&apos; &lt; <reconstruction>*s-m-laːy</reconstruction>).
+    However, the appearance of a cluster like <latinform>tl-</latinform> in TB words for SELF or NAVEL
+    does not by itself indicate the co-allofamy of the stop and lateral prototypes, since <latinform>tl-</latinform>
+    is frequently the reflex of <reconstruction>*sl-</reconstruction> (especially in Kuki-Chin and other
+    languages of the NE Indian Areal Group), so that these forms could be referred directly to <reconstruction>*s-laːy</reconstruction>.
+    See the Lakher (Mara), Miju, Bantawa, and Kham forms below.</par>'
+- type: T
+  text: '<par>In forms like Ao <latinform>²tɯ ²pɯ ²la</latinform>, Rengma <latinform>¹a ²bvɯ ³li</latinform>,
+    it might be plausible to treat the second syllables like dimidiations (syllabizations) of the labial
+    prefix <reconstruction>*bV- ⪤ *mV-</reconstruction>, since in that position many other languages have
+    elements with unstressed vowels (transcribed <latinform>pə-</latinform>, <latinform>mə-</latinform>,
+    <latinform>pü-</latinform>, etc.). On the other hand, when the quality of the vowel in such a syllable
+    is clearly [<latinform>u</latinform>], it seems preferable to analyze this element as descending from
+    <xref ref="164">#164</xref> or <xref ref="2111">#2111</xref>. This is especially clear in Himalayish:
+    cf. the Bantawa and Kham reflexes.</par><par>Both the lateral- and stop-initialled variants of this
+    etymon are widely attested in TB. In the following sections, the reflexes are divided between the
+    two allofams.</par><par>The semantic scope of this etymon is already quite broad, but I would like
+    to claim that there is also a genuine phonosemantic connection with a root meaning BELT / ZONE / WAIST
+    (see below).</par><par>There is an interesting Dumi compound <latinform>saː◦khil◦tɨm</latinform> &apos;navel&apos;
+    composed of <latinform>saː◦khil</latinform> &apos;viscera, guts&apos; &lt; <latinform>khil</latinform>
+    &apos;feces&apos;, plus <latinform>tɨm</latinform> &apos;head, leader&apos;: i.e. the navel is viewed
+    in Dumi as the leader of the intestines. See van Driem 1993:415.</par>'
+- type: H
+  text: <par>See HPTB <reconstruction>*laːy ⪤ *m/s-taːy</reconstruction>, pp. 52, 210.</par>

@@ -1,0 +1,16 @@
+tag: 2634
+grpid: 2
+proto_language: PTB
+protoform: s-rwəy
+gloss: SLANT / SLOPE
+semkey: 7.1.5.1
+sequence: 3006.0
+status: KEEP
+public: true
+references: cf. STC#200, HPTB p. 195
+phonology:
+  handle: rwiy
+  initial: rw
+  rhyme: iy=(s-)r
+  initcover: L
+  rhymecover: VLWS

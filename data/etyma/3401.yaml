@@ -1,0 +1,18 @@
+tag: 3401
+grpid: 2
+proto_language: PTB
+protoform: ywa(p/m)
+gloss: THROAT
+semkey: 1.3.5
+sequence: 18.0
+status: KEEP
+public: true
+phonology:
+  handle: yop
+  initial: y
+  rhyme: op⪤yom
+  initcover: L
+  rhymecover: NWT
+notes:
+- type: T
+  text: <par>This etymon requires further support.</par>

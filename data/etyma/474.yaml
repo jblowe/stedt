@@ -1,0 +1,23 @@
+tag: 474
+grpid: 2
+proto_language: PTB
+protoform: ak
+gloss: CRACK OPEN / MOUTH / CHIN
+semkey: 3.2.7
+sequence: 5.0
+status: KEEP
+public: true
+exemplary: true
+references: STC#106
+phonology:
+  handle: ak
+  rhyme: ak
+  rhymecover: T
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: ɁaNᴬ
+  gloss: OPEN (THE MOUTH)
+notes:
+- type: T
+  text: <par>The Karenic languages have apparently substituted the homorganic velar nasal for <latinform>-k</latinform>.</par>

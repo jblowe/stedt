@@ -1,0 +1,16 @@
+tag: 423
+grpid: 2
+proto_language: PTB
+protoform: k-ri
+gloss: JOINT
+semkey: 1.5.8
+sequence: 7.1
+status: DELETE
+public: false
+phonology:
+  handle: ri
+  prefix: k
+  initial: r
+  rhyme: i
+  initcover: L
+  rhymecover: V

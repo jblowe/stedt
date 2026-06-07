@@ -1,0 +1,58 @@
+tag: 1787
+grpid: 2
+proto_language: PTB
+protoform: (p/b)rat
+gloss: BREAK / WEAN
+semkey: '9.5'
+sequence: 22.0
+status: KEEP
+public: true
+references: Burmish, Qiangish, Geman
+phonology:
+  handle: prat
+  prefix: N
+  initial: pr
+  rhyme: at
+  initcover: P
+  rhymecover: T
+notes:
+- type: T
+  text: <par>Jingpho <latinform>pràt</latinform>, <latinform>šə pràt</latinform> &apos;bear, give birth&apos;
+    are probably to be assigned to this etymon, the semantic connection being the separation of the child
+    from the mother.</par>
+- type: I
+  text: '<par>Likely comparanda are:</par><par><hanform>裂</hanform> OC <latinform>*li̯ɑt</latinform>,
+    GSR #291f; Mand. <latinform>liè</latinform> &apos;tear asunder; divide&apos;<br /><hanform>別</hanform>
+    OC <reconstruction>*b&apos;i̯ɑt</reconstruction>, GSR #292a; Mand. <latinform>bié</latinform> &apos;divide,
+    separate, distinguish, different&apos;.</par>'
+- type: H
+  text: <par>See <reconstruction>*brat ⪤ *prat</reconstruction> &apos;cut apart, cut open&apos;, HPTB:330,334.</par>
+- type: F
+  text: '<par><hanform>別</hanform> OC <latinform>*pi̯ɑt</latinform>, GSR #292a &apos;divide, separate&apos;;
+    Li 1971: <latinform>*pjiat</latinform>; Baxter 1992: <latinform>*prjat</latinform>; Mand. <latinform>bié</latinform>.</par><par>There
+    is a related Chinese word with voiced initial, GSR <reconstruction>*b&apos;i̯ɑt</reconstruction> (<emph>ibid.</emph>),
+    also written <hanform>別</hanform>, meaning &apos;to be different&apos;.  This voicing alternation
+    is a common Old Chinese morphological process seen in transitive/intransitive verb pairs.  Although
+    the TB etymon also has a voicing alternation, this is likely to be an independent phenomenon.</par><par>The
+    Chinese and PTB forms correspond perfectly.  This cognate set has been proposed by Gong (1995 #209).  Gong
+    2001 reconstructs the intransitive Chinese verb as <reconstruction>*N-brjat</reconstruction> &gt;
+    <reconstruction>*brjat</reconstruction> and the transitive counterpart as <reconstruction>*s-brjat</reconstruction>
+    &gt; <reconstruction>*s-prjat</reconstruction> &gt; <reconstruction>*prjat</reconstruction>.</par>'
+- type: F
+  text: '<par><hanform>列</hanform> OC <latinform>*li̯ɑt</latinform>, GSR #291a &apos;divide, distribute,
+    arrange, rank&apos;; Li 1971: <latinform>*ljat</latinform>; Baxter 1992: <latinform>*C-rjat</latinform>;
+    Mand. <latinform>liè</latinform>.</par><par><hanform>裂</hanform> OC <latinform>*li̯ɑt</latinform>,
+    GSR #291f &apos;tear asunder, divide&apos;; Li 1971: <latinform>*ljat</latinform>; Baxter 1992: <latinform>*C-rjat</latinform>;
+    Mand. <latinform>liè</latinform>.</par><par>These two homophonous Chinese words are clearly related.  Gong
+    (2001) relates <hanform>裂</hanform> <latinform>liè</latinform> to the two words written with <hanform>別</hanform>
+    <latinform>bié</latinform>, while Schuessler (2007:167) says that <hanform>別</hanform> <latinform>bié</latinform>
+    is probably cognate to <hanform>列</hanform> <latinform>liè</latinform>.<footnote>Schuessler gives
+    the Baxter system reconstruction of <hanform>別</hanform> as <reconstruction>*prjet</reconstruction>.  While
+    this is a possible reconstruction, <reconstruction>*prjat</reconstruction> is more likely given the
+    word-family connections.</footnote>  Gong reconstructs <hanform>裂</hanform> <latinform>liè</latinform>
+    as <reconstruction>*brjat</reconstruction> &gt; <reconstruction>*rjat</reconstruction>, treating it
+    as the root from which the two words written with  <hanform>別</hanform> <latinform>bié</latinform>
+    are derived.</par><par>On Baxter&apos;s <reconstruction>*C-r-</reconstruction>, see the discussion
+    under <xref ref="3438">#3438</xref>.  The relationship to <hanform>別</hanform> <latinform>bié</latinform>
+    suggests that in Baxter&apos;s reconstruction the consonant represented by <reconstruction>*C</reconstruction>
+    would most likely be reconstructed as <reconstruction>*b</reconstruction>.<br />[ZJH]</par>'

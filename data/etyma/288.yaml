@@ -1,0 +1,30 @@
+tag: 288
+grpid: 2
+proto_language: PTB
+protoform: b/g-raŋ
+gloss: CHEST
+semkey: 1.4.4.3
+sequence: 2.0
+status: KEEP
+public: true
+references: cf. HPTB p.146
+phonology:
+  handle: raŋ
+  prefix: b/g
+  initial: r
+  rhyme: aŋ
+  initcover: L
+  rhymecover: N
+notes:
+- type: F
+  text: '<par><hanform>匈</hanform>/<hanform>胷</hanform>/<hanform>胸</hanform> OC <latinform>*χi̯ung</latinform>,
+    GSR #1183d-f &apos;breast(bone); chest&apos;; Schuessler 2007:541 <latinform>*hoŋ</latinform>; B &amp;
+    S 2011: (<latinform>*qʰoŋ {qʰ(r)oŋ}</latinform>); Mand. <latinform>xiōng</latinform>.<br /><hanform>膺</hanform>
+    OC <latinform>*ʔi̯əng</latinform>, GSR #890e &apos;breast, chest; breastplate; resist, oppose&apos;;
+    Coblin 86:85 ST <latinform>*ʔƚjəng</latinform> &gt; PC <latinform>*ʔljəng</latinform> &gt; OC <latinform>*ʔjəng</latinform>;
+    Schuessler 2007:574-5 <latinform>*ʔəŋ</latinform>; B &amp; S 2011: <latinform>*qəŋ {[q](r)əŋ}</latinform>;
+    Mand. <latinform>yīng</latinform>.<br /><hanform>應</hanform> OC <latinform>*ʔi̯əng</latinform>, GSR
+    #890d &apos;to face, respond; correspond, agree&apos;; Schuessler 2007:575 <latinform>*ʔəŋh</latinform>;
+    B &amp; S 2011: (<latinform>*qəŋ-s</latinform>); Mand. <latinform>yìng</latinform>.<br /><hanform>應</hanform>
+    OC <latinform>*ʔi̯əng</latinform>, GSR #890d &apos;ought to, must; rightfully&apos;; Schuessler 2007:575
+    <latinform>*ʔəŋ</latinform>; B &amp; S 2011: (<latinform>*qəŋ</latinform>); Mand. <latinform>yīng</latinform>.</par>'

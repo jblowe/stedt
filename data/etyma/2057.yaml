@@ -1,0 +1,17 @@
+tag: 2057
+grpid: 2
+proto_language: PTB
+protoform: s-kow
+gloss: CHIN
+semkey: 1.2.5.3
+sequence: 6.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: kow
+  prefix: s
+  initial: k
+  rhyme: ow
+  initcover: K
+  rhymecover: W

@@ -1,0 +1,20 @@
+tag: 3414
+grpid: 2
+proto_language: PTB
+protoform: h(w)a-k
+gloss: EAT
+semkey: 1.5.3.2
+sequence: 5.0
+status: KEEP
+public: true
+possallo: '238'
+references: JAM-LITB 5.3
+phonology:
+  handle: ha
+  initial: h
+  rhyme: a-k
+  initcover: H
+  rhymecover: VT
+notes:
+- type: T
+  text: <par>This promising root is nowhere nearly as well attested as the basic TB etymon <xref ref="36">#36</xref>.</par>

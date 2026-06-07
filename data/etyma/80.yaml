@@ -1,0 +1,20 @@
+tag: 80
+grpid: 2
+proto_language: PTB
+protoform: ts(y)ow
+gloss: LIVE
+semkey: 1.1.2.1
+sequence: 8.0
+status: KEEP
+public: true
+phonology:
+  handle: tsyow
+  initial: ts(y)
+  rhyme: ow
+  initcover: TS
+  rhymecover: W
+notes:
+- type: T
+  text: <par>Lahu <latinform>co</latinform> &apos;one&apos;s life; period of time&apos; looks superficially
+    like the present root, but is actually a borrowing from Tai (cf. Shan <latinform>soo</latinform>,
+    Siamese <latinform>chûa</latinform>, White Tai <latinform>čoo</latinform>. See DL:478.</par>

@@ -1,0 +1,30 @@
+tag: 3435
+grpid: 2
+proto_language: PTB
+protoform: m-ta:y
+gloss: STING (as bee) / SCOLD (a person)
+semkey: 2.4.2
+sequence: 3172.0
+status: KEEP
+public: false
+references: 'DL 708-9; GSTC #93'
+phonology:
+  handle: ta:y
+  initial: t
+  rhyme: a:y > PL
+  initcover: T
+  rhymecover: W
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: N-day²
+  gloss: STING / SCOLD
+- grpid: 50
+  group: '7'
+  form: (dəŋᴮ)Ɂdeᴬ
+  gloss: WASP
+notes:
+- type: T
+  text: <par>The cognacy of the forms with initial <latinform>r-</latinform> is perhaps dubious, implying
+    an allofam <reconstruction>*s-ray</reconstruction>. This is perhaps rendered more probable by the
+    alternation within Bodo (also called Boro) between dental stop and <latinform>r</latinform>.</par>

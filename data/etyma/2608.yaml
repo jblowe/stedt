@@ -1,0 +1,27 @@
+tag: 2608
+grpid: 2
+proto_language: PTB
+protoform: s-ri-t ⪤ s-rut
+gloss: BE / EXIST / COPULA
+semkey: 10.4.1.1
+sequence: 5.0
+status: KEEP
+public: true
+references: STC#264
+phonology:
+  handle: ri
+  prefix: s
+  initial: r
+  rhyme: i
+  initcover: L
+  rhymecover: V
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: li
+  gloss: BE, EXIST, LIVE (COPULA) / HAVE
+notes:
+- type: F
+  text: '<par><hanform>體</hanform> OC <latinform>*t’liər</latinform>, GSR #597i ‘body’; Schuessler 2007:494
+    <latinform>*rhîʔ</latinform>; B &amp; S 2011: <latinform>*r̥ˁijʔ</latinform>; Mand. <latinform>tǐ</latinform>.</par><par><latinform>Comment:</latinform>
+    Cf. all comparanda for <xref ref="71">#71</xref>.</par>'

@@ -1,0 +1,21 @@
+tag: 679
+grpid: 2
+proto_language: PTB
+protoform: tsat
+gloss: WOMB / PLACENTA / NEST
+sequence: 101.0
+status: KEEP
+public: true
+phonology:
+  handle: tsat
+  initial: ts
+  rhyme: at
+  initcover: TS
+  rhymecover: T
+notes:
+- type: T
+  text: <par>This root is well distributed among the subgroups of TB, with strong (though rather scattered)
+    cognates in the NE Indian Areal Group, Himalayish, Lolo-Burmese, Jingpho, and Karenic. The basic meaning
+    of this etymon may be &apos;add, increase; breed, bear young&apos;, since that is the meaning of the
+    free Jingpho verb <latinform>jàt</latinform> (Hanson, p. 206; Dai Qingxia et al. 1983:345), as well
+    as of the Thulung form.</par>

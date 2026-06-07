@@ -1,0 +1,17 @@
+tag: 108
+grpid: 2
+proto_language: PTB
+protoform: si
+gloss: HUNGRY
+semkey: 1.1.3
+sequence: 5.0
+status: DELETE
+public: false
+exemplary: true
+xrefs: '101'
+phonology:
+  handle: si
+  initial: s
+  rhyme: i
+  initcover: S
+  rhymecover: V

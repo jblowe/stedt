@@ -1,0 +1,18 @@
+tag: 6621
+grpid: 2
+proto_language: PTB
+protoform: myəy
+gloss: DESIDERATIVE / WISH, WANT
+semkey: 8.3.1.14.3
+sequence: 1619.0
+status: KEEP
+public: false
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: -məj
+  gloss: DESIDERATIVE
+notes:
+- type: T
+  text: <par>Many of the reflexes have an alveolar rather than a labial nasal, a phenomenon which occurs
+    with other roots with high front vowels, (cf. <xref ref="33">#33</xref>).</par>

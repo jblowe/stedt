@@ -1,0 +1,16 @@
+tag: 2044
+grpid: 0
+protoform: mot
+gloss: FACE
+semkey: 1.2.5
+sequence: 14.0
+status: DELETE
+public: true
+xrefs: '1187'
+references: '("WHI") '
+phonology:
+  handle: mot
+  initial: m
+  rhyme: ot
+  initcover: M
+  rhymecover: T

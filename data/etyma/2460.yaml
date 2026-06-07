@@ -1,0 +1,28 @@
+tag: 2460
+grpid: 2
+proto_language: PTB
+protoform: m(r)(u/a)k
+gloss: GRASS / WEEDS
+semkey: 3.1.8
+sequence: 5.0
+status: KEEP
+public: true
+xrefs: '2464'
+references: cf. STC#149, HPTB pp.80, 360, 482, 513
+phonology:
+  handle: mrak
+  initial: mr
+  rhyme: ak=m-lya
+  initcover: M
+  rhymecover: VNLW
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: (C)-mrukᴸ
+  gloss: GRASS
+notes:
+- type: T
+  text: '<par>This etymon was formerly divided between two separate etyma, one meaning GRASS and the other
+    meaning WEEDS / DETRITUS. The latter was reconstructed both in STC #363 and in HPTB:360 as <reconstruction>*muːk</reconstruction>.
+    However, despite the WB doublet <latinform>mrak</latinform> &apos;grass&apos; and <latinform>ăhmuik</latinform>
+    &apos;refuse, dust&apos;, we have now decided to combine them into a single etymon.</par>'

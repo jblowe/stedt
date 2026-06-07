@@ -1,0 +1,17 @@
+tag: 3312
+grpid: 2
+proto_language: PTB
+protoform: siy = səy
+gloss: DIE
+semkey: 1.1.6
+sequence: 12.0
+status: DELETE
+public: false
+xrefs: '27'
+references: STC#232
+phonology:
+  handle: siy
+  initial: s
+  rhyme: iy=səy
+  initcover: S
+  rhymecover: WS

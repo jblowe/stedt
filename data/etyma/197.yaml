@@ -1,0 +1,21 @@
+tag: 197
+grpid: 2
+proto_language: PTB
+protoform: bruk
+gloss: PIEBALD / SPECKLED
+semkey: '9.4'
+sequence: 2629.0
+status: KEEP
+public: true
+references: HPTB p.363
+phonology:
+  initial: br
+  rhyme: uk
+notes:
+- type: F
+  text: '<par><hanform>駁</hanform> OC <latinform>*pŏk</latinform>, GSR #1127a-b &apos;piebald horse&apos;;
+    Coblin 1986 <latinform>*prakw</latinform>; Schuessler 2007:170-1 <latinform>*prâuk</latinform>; Mand.
+    <latinform>bó</latinform>.<br /><hanform>豹</hanform> OC <latinform>*pau-</latinform>, GSR #1244k &apos;leopard&apos;;
+    Schuessler 2007:171 <latinform>*prâukh</latinform>; Mand. <latinform>bào</latinform>.</par>'
+- type: T
+  text: <par>This root resembles <xref ref="5407">#5407</xref>, but is best kept distinct.</par>

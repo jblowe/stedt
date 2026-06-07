@@ -1,0 +1,21 @@
+tag: 2691
+grpid: 2
+proto_language: PTB
+protoform: g-(t/d)ap
+gloss: FIREPLACE / ASHES
+semkey: 5.11.5.5
+sequence: 1907.0
+status: KEEP
+public: true
+references: cf. STC#018, HPTB pp.336, 339
+phonology:
+  handle: tap
+  initial: t
+  rhyme: ap
+  initcover: T
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tap
+  gloss: FIREPLACE / HEARTH

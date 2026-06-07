@@ -1,0 +1,17 @@
+tag: 2239
+grpid: 2
+proto_language: PTB
+protoform: glaŋ
+gloss: COLD / FREEZE
+semkey: 7.1.2.3
+sequence: 1.2
+status: DELETE
+public: true
+xrefs: '443'
+references: STC p.39
+phonology:
+  handle: glaŋ
+  initial: gl
+  rhyme: aŋ
+  initcover: K
+  rhymecover: N

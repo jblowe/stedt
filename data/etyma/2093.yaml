@@ -1,0 +1,18 @@
+tag: 2093
+grpid: 2
+proto_language: PTB
+protoform: ka ⪤ ŋa
+gloss: NOSE
+semkey: 1.2.8
+sequence: 8.0
+status: KEEP
+public: true
+references: last element in compounds
+phonology:
+  handle: nka
+  initial: -nk
+  rhyme: a
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This etymon occurs only as a non-initial syllable in compounds.</par>

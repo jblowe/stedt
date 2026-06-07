@@ -1,0 +1,15 @@
+tag: 3555
+grpid: 2
+proto_language: PTB
+protoform: pʷu
+gloss: POISON
+semkey: '6.4'
+sequence: 2665.0
+status: KEEP
+public: true
+references: JAM-LITB 8.0
+phonology:
+  initial: w
+  rhyme: u
+  initcover: L
+  rhymecover: V

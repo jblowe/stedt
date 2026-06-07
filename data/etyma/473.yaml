@@ -1,0 +1,20 @@
+tag: 473
+grpid: 2
+proto_language: PTB
+protoform: kwaŋ
+gloss: MOUTH
+semkey: 1.3.1
+sequence: 14.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: LIP
+phonology:
+  handle: g/koŋ
+  initial: g/k
+  rhyme: oŋ
+  initcover: K
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root might be allofamically related to <xref ref="1723">#1723</xref>.</par>

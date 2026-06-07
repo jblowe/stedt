@@ -1,0 +1,24 @@
+tag: 154
+grpid: 2
+proto_language: PTB
+protoform: (t)sin-t
+gloss: WAKE
+semkey: 1.1.4
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: tsin
+  initial: (t)s
+  rhyme: in-t
+  suffix: t
+  initcover: TS
+  rhymecover: VNT
+notes:
+- type: I
+  text: <par>needs support - BM *sen (where does this reconstruction appear?). ID# 144255.</par>
+- type: I
+  text: <par>BM *sen (does he make this reconstruction?).</par>
+- type: T
+  text: <par>Michailovsky reconstructs two variants for this root, one at the &quot;BSDTK&quot; level
+    (Proto-Central West Kiranti) and one for Proto-Kiranti. Further microlinguistic work is necessary.</par>

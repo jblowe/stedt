@@ -1,0 +1,15 @@
+tag: 285
+grpid: 2
+proto_language: PTB
+protoform: pem ⪤ tem
+gloss: CHIN / CHEEK
+semkey: 1.2.5.3
+sequence: 10.0
+status: DELETE
+public: false
+phonology:
+  handle: pem
+  initial: p
+  rhyme: em ⪤ tem
+  initcover: P
+  rhymecover: NT

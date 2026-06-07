@@ -1,0 +1,26 @@
+tag: 6107
+grpid: 2
+proto_language: PTB
+protoform: k-ru ⪤ k-rwa
+gloss: SNAIL
+semkey: 2.2.5
+sequence: 3043.0
+status: KEEP
+public: false
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: khlo
+  gloss: SNAIL
+- grpid: 50
+  group: '7'
+  form: khloᴮ
+  gloss: SNAIL (LAND~)
+notes:
+- type: F
+  text: '<par><hanform>蠃</hanform> OC <latinform>*lwɑ̂</latinform>, GSR #14b; B &amp; S 2011: <latinform>*rˁojʔ
+    {[r]ˁo[j]ʔ}</latinform>; Mand. <latinform>luǒ</latinform>.<br /><hanform>蝸</hanform> OC <latinform>*kwɑ</latinform>,
+    GSR #18c; B &amp; S 2011: <latinform>*k.rˁoj (dial. › kˁroj)</latinform>; Mand. <latinform>wō</latinform>.</par>'
+- type: T
+  text: <par>The medial consonant should perhaps be reconstructed as <latinform>*-l-</latinform> on the
+    basis of the Karen forms.</par><par>The cognacy of the Central Naga forms is open to question.</par>

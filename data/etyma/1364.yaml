@@ -1,0 +1,20 @@
+tag: 1364
+grpid: 2
+proto_language: PTB
+protoform: hwaŋ
+gloss: BELOW / BUTTOCKS / LOWER BACK
+semkey: 9.2.2
+sequence: 8.0
+status: KEEP
+public: true
+references: 'related to #2542?'
+phonology:
+  handle: ʔok
+  initial: ʔ
+  rhyme: ok⪤ʔoŋ
+  initcover: H
+  rhymecover: NT
+notes:
+- type: T
+  text: <par>This root is undoubtedly related to <xref ref="2542">#2542</xref>, but is here treated separately
+    in view of the considerable semantic difference between the two.</par>

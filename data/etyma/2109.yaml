@@ -1,0 +1,19 @@
+tag: 2109
+grpid: 2
+proto_language: PTB
+protoform: pam
+gloss: BELLY / STOMACH
+semkey: 1.4.7
+sequence: 1157.0
+status: DELETE
+public: false
+xrefs: '674'
+allofams: '2108'
+possallo: '777'
+references: cf. VSTB126
+phonology:
+  handle: pam
+  initial: p
+  rhyme: am
+  initcover: P
+  rhymecover: N

@@ -1,0 +1,25 @@
+tag: 370
+grpid: 2
+proto_language: PTB
+protoform: (t)su-ŋ
+gloss: HAIR / MANE / BEARD
+semkey: 1.2.3
+sequence: 6.0
+status: KEEP
+public: true
+references: Ch. zōng 'mane'
+phonology:
+  handle: tsu-
+  initial: (t)s
+  rhyme: u-ŋ
+  suffix: ŋ
+  initcover: TS
+  rhymecover: VN
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: chuNᴮ
+  gloss: FEATHER / FUR / BODY HAIR
+notes:
+- type: I
+  text: <par>Duplicate forms should be weeded out.</par>

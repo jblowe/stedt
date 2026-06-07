@@ -1,0 +1,54 @@
+tag: 36
+grpid: 2
+proto_language: PTB
+protoform: m-dz(y)a-k/n/t/s
+gloss: EAT / FOOD / FEED / RICE
+semkey: 1.5.3.2
+sequence: 1.0
+status: KEEP
+public: true
+references: cf. STC#066, HPTB
+phonology:
+  handle: dzya
+  initial: dz(y)
+  rhyme: a
+  suffix: k
+  initcover: TS
+  rhymecover: VT
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: tsa
+  gloss: EAT
+  variant: a
+- grpid: 66
+  group: 1.3.4
+  form: tsaat
+  gloss: RICE (COOKED)
+  variant: b
+- grpid: 63
+  group: 1.3.1
+  form: tsaʔ
+  gloss: EAT
+- grpid: 8
+  group: '1.2'
+  form: θaʔ
+  gloss: FEED
+- grpid: 63
+  group: 1.3.1
+  form: a-tsa-k
+  gloss: RICE (paddy)
+notes:
+- type: I
+  text: <par>JS notes that in the compound for &apos;steal&apos;, &quot;... the first element seems to
+    come from <latinform>*do</latinform> &apos;eat&apos;.&quot; JS, HCST:138.</par>
+- type: T
+  text: '<par>This root evidently could take a variety of suffixes, as well as a nasal prefix (Qiangic
+    / rGyalrongic, Baima, and Naxi). The <latinform>-t</latinform> and <latinform>-n</latinform> suffixes
+    had a nominalizing force, giving meanings like &apos;food&apos;, &apos;rice&apos;, &apos;deer&apos;
+    (see the references to #66 in the Index of STC, p. 200).</par>'
+- type: F
+  text: '<par><hanform>咀</hanform> OC <latinform>*dzi̯o</latinform>, GSR #46u &apos;chew&apos;; Schuessler
+    2007:323 <latinform>*dzaʔ</latinform>; B &amp; S 2011: (<latinform>*dzaʔ</latinform>); Mand. <latinform>jǔ</latinform>.<br
+    /><hanform>餐</hanform> OC <latinform>*ts’ɑ̂n</latinform>, GSR #154c &apos;eat; food, meal&apos;; Schuessler
+    2007:323 <latinform>*tshân</latinform>; B &amp; S 2011: (<latinform>*tsʰˁar</latinform>); Mand. <latinform>cān</latinform>.</par>'

@@ -1,0 +1,26 @@
+tag: 3444
+grpid: 2
+proto_language: PTB
+protoform: mam
+gloss: WOMB / PLACENTA / NEST
+sequence: 98.4
+status: KEEP
+public: true
+phonology:
+  handle: mam
+  initial: m
+  rhyme: am
+  initcover: M
+  rhymecover: N
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: mam
+  gloss: PLACENTA
+notes:
+- type: T
+  text: <par>This etymon probably also stands in an allofamic relationship with <xref ref="674">#674</xref>,
+    in view of the identical rhymes that they share. Perhaps these forms with initial <latinform>m-</latinform>
+    descend from fusions with the bodypart prefix <reconstruction>*mi-</reconstruction> (&lt; <reconstruction>*mi-n</reconstruction>
+    &apos;person&apos;) <xref ref="1002">#1002</xref>, i.e. <reconstruction>*mi-wam</reconstruction> or
+    <reconstruction>*mi-pam</reconstruction>.</par>

@@ -1,0 +1,20 @@
+tag: 340
+grpid: 2
+proto_language: PTB
+protoform: duk
+gloss: BURN / KINDLE
+semkey: 3.2.12.1
+sequence: 7.0
+status: KEEP
+public: true
+references: HPTB pp.331, 362
+phonology:
+  initial: d
+  rhyme: uk
+notes:
+- type: F
+  text: '<par><hanform>燭</hanform> OC <latinform>*t̂i̯uk</latinform>, GSR #1224e &apos;candle, taper;
+    shine, illuminate&apos;; Schuessler 2007:625 <latinform>*tok</latinform>; B &amp; S 2011: (<latinform>*tok</latinform>);
+    Mand. <latinform>zhú</latinform>.</par><par><latinform>Comment:</latinform> Also see <hanform>灼</hanform>
+    <latinform>zhuó</latinform> and <hanform>的</hanform> <latinform>dì</latinform>, comparanda for <xref
+    ref="5387">#5387</xref>.</par>'

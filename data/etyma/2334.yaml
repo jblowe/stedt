@@ -1,0 +1,19 @@
+tag: 2334
+grpid: 2
+proto_language: PTB
+protoform: (m-)kri-t
+gloss: BILE
+semkey: 1.7.3.1
+sequence: 1170.0
+status: DELETE
+public: false
+xrefs: '227'
+references: STC#412 (< STC#413)
+phonology:
+  handle: m-kr
+  prefix: m
+  initial: )kr
+  rhyme: i-t
+  suffix: t
+  initcover: K
+  rhymecover: VT

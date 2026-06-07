@@ -1,0 +1,29 @@
+tag: 1110
+grpid: 2
+proto_language: PTB
+protoform: ka
+gloss: BALL / EGG / TESTICLE / EYEBALL
+sequence: 134.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: ka
+  initial: k
+  rhyme: a
+  initcover: K
+  rhymecover: V
+notes:
+- type: T
+  text: <par>This root seems basically to have meant &apos;ball&apos;, with natural extensions to EGG
+    / TESTICLE and EYEBALL. A number of Himalayish compounds meaning PENIS have similar-looking morphemes
+    (e.g. Baima <latinform><emph>khɑ¹³</emph> ndʐɿ⁵³</latinform>, Bunan/Manchati <latinform><emph>kha</emph>-ṭa</latinform>,
+    Tamang <latinform>mlẽ-<emph>ka</emph></latinform>) though the semantic development BALL --&gt; TESTICLE
+    --&gt; PENIS is improbable, and these syllables must be assumed to reflect a separate etymon.</par><par>The
+    Newar form <latinform>kwaa-si</latinform> does not belong in this set. According to K. P. Malla, it
+    means literally &quot;hot-fruits&quot; (<latinform>si</latinform> &lt; <xref ref="1019">#1019</xref>).
+    The true Newar cognate is represented by the second syllable of <latinform>mi-kha</latinform> &apos;eyeball&apos;,
+    below.</par>
+- type: T
+  text: <par>In Tangut this morpheme has apparently become a general word for EYE, alongside <latinform>mej</latinform>
+    (see <xref ref="681">#681</xref>).</par>

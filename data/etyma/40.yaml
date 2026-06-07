@@ -1,0 +1,22 @@
+tag: 40
+grpid: 2
+proto_language: PTB
+protoform: s-ryak
+gloss: OIL / FAT / GREASE
+semkey: 1.6.4.1
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#204, HPTB pp.323, 327; incl 309
+phonology:
+  handle: ryak
+  prefix: s
+  initial: ry
+  rhyme: ak
+  initcover: L
+  rhymecover: T
+notes:
+- type: F
+  text: '<par><hanform>液</hanform> OC <latinform>*zi̯ɑk</latinform>, GSR #800n-o; Baxter 92: <latinform>*(l)jAk</latinform>;
+    B &amp; S 2011: <latinform>*N.rak {N.rAk}</latinform>; Mand. <latinform>yè</latinform>.</par>'

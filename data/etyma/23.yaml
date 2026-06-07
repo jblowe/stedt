@@ -1,0 +1,15 @@
+tag: 23
+grpid: 2
+proto_language: PTB
+protoform: tuŋ
+gloss: CORPSE
+semkey: 1.1.6.1
+sequence: 7.0
+status: KEEP
+public: true
+phonology:
+  handle: tuŋ
+  initial: t
+  rhyme: uŋ
+  initcover: T
+  rhymecover: N

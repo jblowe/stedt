@@ -1,0 +1,31 @@
+tag: 5709
+grpid: 2
+proto_language: PTB
+protoform: pi-t
+gloss: CLOSE (v.)
+sequence: 1421.0
+status: KEEP
+public: false
+references: Bradley 79 PLo:715a
+mesoroots:
+- grpid: 45
+  group: 6.1.2
+  form: pi²
+  gloss: CLOSE
+- grpid: 50
+  group: '7'
+  form: Ɂbiᴮ
+  gloss: CLOSE (ONE’S EYES)
+- grpid: 50
+  group: '7'
+  form: p/biɁᴰ
+  gloss: EXTINGUISH (v.t.)
+notes:
+- type: I
+  text: <par>Promote to PLB or PTB? i.e., with a reconstruction *pit. Sak form is probably a borrowing
+    from Burmese. Dulong form may also be a borrowing.</par>
+- type: F
+  text: '<par><hanform>閉</hanform> OC <latinform>*pied</latinform> ~ <latinform>*piet</latinform> &apos;close,
+    obstruct&apos;, GSR #412a; B &amp; S 2011: <latinform>*pˁit-s {*pˁi[t]-s}</latinform>; Mand. <latinform>bì</latinform>.</par>'
+- type: T
+  text: '<par>There is a similar Tai root: cf. Siamese <latinform>pìt</latinform>.</par>'

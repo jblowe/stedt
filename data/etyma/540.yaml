@@ -1,0 +1,36 @@
+tag: 540
+grpid: 2
+proto_language: PTB
+protoform: k(r)aːk
+gloss: PHLEGM / SPUTUM / MUCUS
+semkey: 1.8.3
+sequence: 2.0
+status: KEEP
+public: true
+possallo: '1795'
+references: cf. STC p.71, HPTB p. 325, JS-HCST: 215
+phonology:
+  handle: ka
+  initial: k
+  rhyme: a-k
+  initcover: K
+  rhymecover: VT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: khaak
+  gloss: PHLEGM / MUCUS
+- grpid: 29
+  group: '2.3'
+  form: khakma
+  gloss: SPUTUM
+- grpid: 5
+  group: 1.1.1
+  form: kak
+  gloss: PHLEGM
+notes:
+- type: T
+  text: <par>For evidence of the liquid medial, see e.g. Apatani, Idu, Geman, Bahing, Sunwar, Tamang,
+    and Pattani.</par><par>This root is perhaps allofamically related to <xref ref="1795">#1795</xref>
+    and/or <xref ref="2260">#2260</xref>.</par><par>This root is much more widespread than the resemblant
+    <xref ref="539">#539</xref> and seems distinct from it.</par>

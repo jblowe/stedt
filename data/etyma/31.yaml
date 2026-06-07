@@ -1,0 +1,52 @@
+tag: 31
+grpid: 2
+proto_language: PTB
+protoform: s-miːt
+gloss: EXTINGUISH / SHUT ABRUPTLY / WINK / BLINK / DIE
+semkey: 1.1.6
+sequence: 2.0
+status: KEEP
+public: false
+exemplary: true
+xrefs: '139'
+references: cf. HPTB pp.350, 352, 519
+phonology:
+  handle: miːt
+  initial: m
+  rhyme: iːt
+  initcover: M
+  rhymecover: T
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: mit
+  gloss: GO OUT (light) / EXTINGUISH
+- grpid: 66
+  group: 1.3.4
+  form: met
+  gloss: SQUEEZE / EXTINGUISH
+- grpid: 5
+  group: 1.1.1
+  form: mit
+  gloss: EXTINGUISH / EXTINGUISHED
+- grpid: 63
+  group: 1.3.1
+  form: hmət
+  gloss: EXTINGUISH / BLOW
+notes:
+- type: T
+  text: '<par>Chinese character. STC #374; Matisoff 1983 (&quot;Translucent insights&quot;) #59; GSR 294b.</par>'
+- type: F
+  text: '<par><hanform>滅</hanform> OC <latinform>*mi̯ɑt</latinform>, GSR #294b &apos;drown, extinguish,
+    destroy&apos;; Schuessler 2007:385 <latinform>*met</latinform>; B &amp; S 2011: <latinform>*met</latinform>;
+    Mand. <latinform>miè</latinform>.<br /><hanform>烕</hanform> OC <latinform>*χmi̯wɑt</latinform>, GSR
+    #294a &apos;extinguish, destroy&apos;; Schuessler 2007:385 <latinform>*hmet</latinform>; B &amp; S
+    2011: <latinform>*m̥et</latinform>; Mand. <latinform>xuè</latinform>.<br /><hanform>沒</hanform> OC
+    <latinform>*mwət</latinform>, GSR #492b &apos;disappear, die, destroy&apos;; Schuessler 2007:389-90
+    <latinform>*mə̂t</latinform>; B &amp; S 2011: (<latinform>*mˁut</latinform>); Mand. <latinform>mò</latinform>.<br
+    /><unicode>2510e</unicode> OC <latinform>*χi̯wɑd</latinform>, GSR #293a-b &apos;wink; signal with
+    eyes&apos;; Schuessler 2007:548 <latinform>*hmat</latinform> or <latinform>*hmet</latinform>; Mand.
+    <latinform>xuè</latinform>.</par>'
+- type: T
+  text: <par>Written Burmese has an allofamic form with homorganic final nasal <latinform>hmîn</latinform>
+    &apos;have the eyes shut&apos;.</par>

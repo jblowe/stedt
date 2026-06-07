@@ -1,0 +1,16 @@
+tag: 2072
+grpid: 2
+proto_language: PTB
+protoform: s-kywar
+gloss: EYEBALL / EYEBROW / EYELASH
+semkey: 1.2.6.1
+sequence: 9.0
+status: KEEP
+public: true
+references: '("HIM") '
+phonology:
+  handle: skywar
+  initial: skyw
+  rhyme: ar
+  initcover: S
+  rhymecover: L

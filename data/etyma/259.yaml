@@ -1,0 +1,20 @@
+tag: 259
+grpid: 2
+proto_language: PTB
+protoform: s-nəw(k/ŋ)
+gloss: BREAST / MILK
+semkey: 1.4.4.3
+sequence: 2.3
+status: KEEP
+public: true
+phonology:
+  handle: nyu
+  initial: n(y)
+  rhyme: u(k/ŋ)
+  initcover: M
+  rhymecover: NT
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: náun'
+  gloss: BREAST

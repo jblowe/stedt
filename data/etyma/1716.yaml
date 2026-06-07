@@ -1,0 +1,27 @@
+tag: 1716
+grpid: 2
+proto_language: PTB
+protoform: ha-y
+gloss: YAWN
+semkey: 1.3.1.3
+sequence: 1.0
+status: KEEP
+public: true
+phonology:
+  handle: hV
+  initial: h
+  rhyme: V
+  initcover: H
+  rhymecover: V
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: xa
+  gloss: YAWN (v.)
+notes:
+- type: T
+  text: <par>The reflexes show a certain amount of vocalic variation, only to be expected in such a sound-symbolic
+    root.</par><par>There is a similar root <xref ref="1715">#1715</xref>, which should be kept distinct,
+    since some languages (Nocte, Tangsa, Tamang) have compounds containing both etyma.</par><par>Several
+    forms reflect a diphthongal rhyme <latinform>*-ay</latinform>, either directly (Tangsa, Lalung, Thakali,
+    Lahu) or indirectly via a fronted vowel (Apatani, Chokri, Karbi).</par>

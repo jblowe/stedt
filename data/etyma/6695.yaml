@@ -1,0 +1,19 @@
+tag: 6695
+grpid: 3
+proto_language: NEIA
+protoform: a(ː)k
+gloss: CROW / RAVEN
+semkey: 2.2.4.1
+sequence: 1524.0
+status: KEEP
+public: false
+references: ("KMR") tentative transcription
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: ʔaak
+  gloss: RAVEN / CROW (n.)
+- grpid: 5
+  group: 1.1.1
+  form: ak
+  gloss: CROW (bird)

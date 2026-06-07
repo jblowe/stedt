@@ -1,0 +1,22 @@
+tag: 526
+grpid: 2
+proto_language: PTB
+protoform: (t)sum
+gloss: NAVEL
+semkey: 1.9.4
+sequence: 45.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: tsum
+  prefix: t
+  initial: (t)s
+  rhyme: um
+  initcover: TS
+  rhymecover: N
+notes:
+- type: T
+  text: <par>This root is virtually confined to Himalayish. The Konyak form with initial <latinform>h-</latinform>
+    is also probably related. Note the two Thulung forms, which may be co-allofams; <latinform>theom</latinform>
+    seems to fit better phonologically, despite the semantic divergence.</par>

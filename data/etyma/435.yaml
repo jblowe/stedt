@@ -1,0 +1,21 @@
+tag: 435
+grpid: 2
+proto_language: PTB
+protoform: pu
+gloss: KNEE
+semkey: 1.5.8.4
+sequence: 1.2
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: pu
+  prefix: s
+  initial: p
+  rhyme: u
+  initcover: P
+  rhymecover: V
+notes:
+- type: T
+  text: <par>There is a possible connection between this allofam of the etymon and <xref ref="1654">#1654</xref>,
+    owing to the ball-like appearance of the patella.</par>

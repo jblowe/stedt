@@ -1,0 +1,22 @@
+tag: 3416
+grpid: 2
+proto_language: PTB
+protoform: hyak
+gloss: FLESH
+semkey: 1.1.1.1
+sequence: 15.0
+status: DELETE
+public: false
+xrefs: '2971'
+references: JAM-LITB 6.4
+phonology:
+  handle: hyak
+  initial: hy
+  rhyme: ak
+  initcover: H
+  rhymecover: T
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: jak
+  gloss: FLESH (human)

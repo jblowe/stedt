@@ -1,0 +1,21 @@
+tag: 2338
+grpid: 2
+proto_language: PTB
+protoform: k/s-rwak
+gloss: SOUR / ACID
+semkey: 7.1.4.4
+sequence: 3090.0
+status: KEEP
+public: true
+references: ("PKN") STC p.41
+phonology:
+  handle: krok
+  initial: kr
+  rhyme: ok=k(h)r
+  initcover: K
+  rhymecover: LT
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: k(h)rok
+  gloss: SOUR

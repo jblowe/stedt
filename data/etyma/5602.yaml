@@ -1,0 +1,15 @@
+tag: 5602
+grpid: 2
+proto_language: PTB
+protoform: tu
+gloss: SHEEP / GOAT
+semkey: 2.1.8
+sequence: 2946.0
+status: KEEP
+public: true
+references: JAM
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: tuu
+  gloss: SHEEP

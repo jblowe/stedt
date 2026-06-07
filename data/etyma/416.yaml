@@ -1,0 +1,15 @@
+tag: 416
+grpid: 2
+proto_language: PTB
+protoform: m(y)uk ⪤ r-mi-k
+gloss: NAIL / CLAW / HOOF
+semkey: 1.5.10
+sequence: 2.0
+status: KEEP
+public: true
+phonology:
+  handle: myuk
+  initial: m(y)
+  rhyme: uk ⪤ r-m
+  initcover: M
+  rhymecover: VNLT

@@ -1,0 +1,30 @@
+tag: 479
+grpid: 2
+proto_language: PTB
+protoform: g/m-liŋ
+gloss: NECK
+semkey: 1.4.2
+sequence: 1.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: liŋ
+  initial: l
+  rhyme: iŋ
+  initcover: L
+  rhymecover: N
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: lɯŋ
+  gloss: NECK
+notes:
+- type: T
+  text: <par>It is difficult to decide whether these Qiangic forms with eroded finals belong to <xref
+    ref="479">#479</xref> or <xref ref="5650">#5650</xref>.</par>
+- type: F
+  text: '<par><hanform>領</hanform> OC <latinform>*li̯ĕng</latinform>, GSR #823f; Coblin 86:112 <latinform>*ljingx</latinform>;
+    B &amp; S 2011: <latinform>*reŋʔ {[r]eŋʔ}</latinform>; Mand. <latinform>lǐng</latinform>.<br /><hanform>頸</hanform>
+    OC <latinform>*ki̯ĕng</latinform>, GSR #831n; B &amp; S 2011: <latinform>*keŋʔ {[k]eŋʔ}</latinform>~<latinform>*m-keŋ
+    {m-[k]eŋ}</latinform>; Mand. <latinform>jǐng</latinform>.</par>'

@@ -1,0 +1,34 @@
+tag: 517
+grpid: 2
+proto_language: PTB
+protoform: m/s-la(ː)y
+gloss: NAVEL / CENTER / SELF
+semkey: 1.9.4
+sequence: 40.1
+status: KEEP
+public: true
+references: Tangkhul points to *s-
+phonology:
+  handle: m/s-la
+  initial: l
+  rhyme: a(ː)y
+  initcover: L
+  rhymecover: W
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: laay
+  gloss: CENTER / MIDDLE / NAVEL
+- grpid: 66
+  group: 1.3.4
+  form: laj
+  gloss: NAVEL
+- grpid: 63
+  group: 1.3.1
+  form: ph-laj
+  gloss: NAVEL, BELLY BUTTON
+notes:
+- type: T
+  text: <par>Reflexes of this allofam occur in the NE Indian Areal Group, Himalayish, and Lolo-Burmese,
+    as well as in Tujia.</par><par>The initial nasals of the Bodo-Garo forms are presumably due to prefix
+    preemption.</par>

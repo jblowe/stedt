@@ -1,0 +1,34 @@
+tag: 6186
+grpid: 2
+proto_language: PTB
+protoform: gyap
+gloss: NARROW / CROWDED
+semkey: 9.7.2
+sequence: 2494.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: gyapᴸ
+  gloss: NARROW
+notes:
+- type: F
+  text: '<par><hanform>夾</hanform> OC <latinform>*kɑ̆p</latinform>, GSR #630a &apos;support (v.); press
+    between; tweezers&apos;; Schuessler 2007:300 (<latinform>*krêp</latinform>); B &amp; S 2011: <latinform>*C.kˁ‹r›ep</latinform>;
+    Mand. <latinform>jiā</latinform>.<br /><hanform>狹</hanform> OC <reconstruction>*g&apos;ɑ̆p</reconstruction>,
+    GSR #630e &apos;narrow&apos;; Schuessler 2007:300 <latinform>*grêp</latinform>; B &amp; S 2011: <latinform>*N-kˁ‹r›ep</latinform>;
+    Mand. <latinform>xiá</latinform>.<br /><hanform>梜</hanform> OC <latinform>*kɑp</latinform> ~ <latinform>*ki̯ɑp</latinform>,
+    GSR #630f &apos;chopsticks&apos;; Schuessler 2007:300 <latinform>*krêp</latinform>; B &amp; S 2011:
+    <latinform>*kˁ‹r›ep</latinform>; Mand. <latinform>jiā</latinform> ~ <latinform>jié</latinform>.<br
+    /><hanform>頰</hanform> OC <latinform>*kiɑp</latinform>, GSR #630h &apos;cheek, jowl&apos;; Schuessler
+    2007:537 <latinform>*kêp</latinform>; Mand. <latinform>jiá</latinform>.<br /><hanform>挾</hanform>
+    OC <latinform>*g’iɑp</latinform>, GSR #630l &apos;grasp, hold, clasp under arm&apos;; Schuessler 2007:300
+    <latinform>*krêp</latinform>; B &amp; S 2011: <latinform>*m-kˁep</latinform>; Mand. <latinform>xié</latinform>.<br
+    /><hanform>協</hanform> OC <latinform>*g’iɑp</latinform>, GSR #639b &apos;in harmony, together; conform&apos;;
+    Schuessler 2007:537 <latinform>*gêp</latinform>; Mand. <latinform>xié</latinform>.<br /><hanform>脅</hanform>
+    OC <latinform>*χi̯ɑ̆p</latinform>, GSR #639e &apos;flank, side of body, ribs&apos;; Schuessler 2007:300
+    (<latinform>*khrêp</latinform>); B &amp; S 2011: <latinform>*qʰ‹r›ep</latinform>; Mand. <latinform>xié</latinform>.</par><par><latinform>Comment</latinform>:
+    Regarding the above Chinese etyma, <hanform>夾</hanform> Mand. <latinform>jiā</latinform> and <hanform>梜</hanform>
+    Mand. <latinform>jié, jiā</latinform> could in particular be treated as comparanda for <xref ref="1279">#1279</xref>,
+    q.v.</par>'

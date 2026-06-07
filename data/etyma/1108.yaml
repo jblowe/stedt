@@ -1,0 +1,41 @@
+tag: 1108
+grpid: 2
+proto_language: PTB
+protoform: s-r(y)a-y/s/t
+gloss: LAUGH
+semkey: 1.8.8.1
+sequence: 2.0
+status: KEEP
+public: true
+references: 'cf. STC#202, HPTB, GSTC #1'
+phonology:
+  handle: rya
+  initial: ry
+  rhyme: a-t
+  suffix: t
+  initcover: L
+  rhymecover: VT
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: ray¹
+  gloss: LAUGH / SMILE
+notes:
+- type: T
+  text: <par>This widespread root displays several types of variation. While many languages reflect a
+    <latinform>-y-</latinform> medial, Lolo-Burmese seems to have metathesized the palatal element to
+    the post-vocalic position (PLB <latinform>*ray¹</latinform>). </par><par>A number of Himalayan languages
+    (Written Tibetan, Thebor, Bunan, Magar, Bahing, Khaling, and Nachereng) attest to a dental stop suffix,
+    as do Nung and Idu. An <latinform>-s</latinform> suffix appears in Written Tibetan and Nachereng,
+    while Bahing shows variation between <latinform>-t</latinform> and <latinform>-s</latinform>. It is
+    possible that a sequence of two suffixal elements (<latinform>-t-s</latinform>) was involved.</par><par>An
+    <latinform>s-</latinform> prefix is reflected in Bunan <latinform>sred</latinform> &lt; <latinform>*s-ryat</latinform>
+    and Nachereng <latinform>hres</latinform>.</par>
+- type: F
+  text: '<par><hanform>戲</hanform> OC <latinform>*χiɑ</latinform>, GSR #22b &apos;to sport, joke&apos;;
+    Coblin 86:99 ST <latinform>*xyaƚ</latinform> &gt; OC <latinform>*hjarh</latinform>; Schuessler 2007:526
+    <latinform>*haih</latinform>; B &amp; S 2011: <latinform>*ŋ̊ar-s {ŋ̊(r)ar-s}</latinform>; Mand. <latinform>xì</latinform>.<br
+    /><hanform>嘕</hanform> C99 200b χi̯an</par><par><hanform>辴</hanform> OC <latinform>*t’i̯ər</latinform>,
+    GSR #455t &apos;laugh&apos;; Schuessler 2007:184 <latinform>*thrəi</latinform>; Mand. <latinform>chī</latinform>.<br
+    /><hanform>辴</hanform> OC <latinform>*t’i̯ən</latinform>, GSR #455t &apos;laugh&apos;; Schuessler
+    2007:184 <latinform>*thrənʔ</latinform>; B &amp; S 2011: <latinform>*tʰrər</latinform>; Mand. <latinform>chěn</latinform>.</par>'

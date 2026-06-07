@@ -1,0 +1,20 @@
+tag: 1190
+grpid: 2
+proto_language: PTB
+protoform: zyal
+gloss: FACE / MOUTH
+semkey: 1.2.5
+sequence: 2.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: zyal
+  initial: zy
+  rhyme: al
+  initcover: S
+  rhymecover: L
+notes:
+- type: T
+  text: <par>The cognacy of the Jingpho morpheme is open to question, since final <latinform>*-l</latinform>
+    usually becomes Jingpho <latinform>-n</latinform>.</par>

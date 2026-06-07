@@ -1,0 +1,19 @@
+tag: 5482
+grpid: 2
+proto_language: PTB
+protoform: s-wap
+gloss: LUNG
+semkey: 1.7.2
+sequence: 1.3
+status: KEEP
+public: true
+references: cf. HPTB pp. 66, 338
+mesoroots:
+- grpid: 66
+  group: 1.3.4
+  form: cop
+  gloss: LUNG
+notes:
+- type: T
+  text: <par>The <latinform>*s-</latinform> prefix might well be a reduction of <xref ref="34">#34</xref>,
+    which appears in many words for parts of the body in various Tibeto-Burman languages.</par>

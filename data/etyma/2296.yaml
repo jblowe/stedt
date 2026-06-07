@@ -1,0 +1,29 @@
+tag: 2296
+grpid: 2
+proto_language: PTB
+protoform: kaː(p/m)
+gloss: DRAW (water) / SCOOP (water) / CONCAVE
+semkey: 3.2.3
+sequence: 1692.0
+status: KEEP
+public: true
+references: cf. STC#336, HPTB pp.341, 517
+phonology:
+  handle: kaːp
+  initial: k
+  rhyme: aːp/m
+  initcover: K
+  rhymecover: T
+mesoroots:
+- grpid: 42
+  group: '6.1'
+  form: '{C}-kap~kam'
+  gloss: DRAW WATER
+notes:
+- type: F
+  text: '<par><hanform>汲</hanform> OC <latinform>*ki̯əp</latinform>, GSR #681h &apos;draw water&apos;;
+    Coblin 86:66 ST <latinform>*kjəp</latinform> &gt; OC <latinform>*kjəp</latinform>; Schuessler 2007:292
+    <latinform>*kəp</latinform>; B &amp; S 2011: (<latinform>*k-rəp</latinform>); Mand. <latinform>jī</latinform>.</par>'
+- type: T
+  text: <par>See the discussion of the alternation between final stop and nasal in this root in VSTB pp.
+    17, 109.</par>

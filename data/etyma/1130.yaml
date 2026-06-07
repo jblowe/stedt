@@ -1,0 +1,23 @@
+tag: 1130
+grpid: 2
+proto_language: PTB
+protoform: ka-y
+gloss: FLESH / MEAT
+semkey: 1.1.1.1
+sequence: 4.0
+status: KEEP
+public: true
+phonology:
+  handle: ka
+  initial: k
+  rhyme: a-y
+  suffix: y
+  initcover: K
+  rhymecover: VW
+notes:
+- type: T
+  text: <par>This root bears a certain resemblance to <xref ref="49">#49</xref>, but the different semantics
+    leads us to set it up as a separate etymon.</par>
+- type: F
+  text: '<par><hanform>肌</hanform> OC <latinform>*ki̯ɛr</latinform>, GSR #602d; B &amp; S 2011: <latinform>*krəj
+    {krə[j]}</latinform>; Mand. <latinform>jī</latinform>.</par>'

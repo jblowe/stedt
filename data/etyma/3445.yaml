@@ -1,0 +1,20 @@
+tag: 3445
+grpid: 2
+proto_language: PTB
+protoform: twaŋ
+gloss: NEST / WOMB
+semkey: 2.2.4
+sequence: 106.0
+status: KEEP
+public: true
+phonology:
+  handle: toK
+  initial: t
+  rhyme: ok/ŋ  ⪤
+  initcover: T
+  rhymecover: NT
+notes:
+- type: T
+  text: '<par>This sparsely attested and speculative etymon rests on the Jingpho, Nungic, and Tujia forms.
+    Apparently distinct is Bahing <latinform>dzok-</latinform> &apos;nest&apos;. The WB form “<latinform>thok</latinform>”
+    cited in ZMYYC #368 appears to be spurious.</par>'

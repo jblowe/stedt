@@ -1,0 +1,28 @@
+tag: 2202
+grpid: 2
+proto_language: PTB
+protoform: (d/t)uk
+gloss: POISON
+semkey: '6.4'
+sequence: 2664.0
+status: KEEP
+public: true
+references: cf. STC#472, HPTB pp. 357, 363
+phonology:
+  handle: duk
+  initial: d
+  rhyme: uk~tuk
+  initcover: T
+  rhymecover: T
+mesoroots:
+- grpid: 5
+  group: 1.1.1
+  form: dɯk
+  gloss: POISON (generic)
+notes:
+- type: F
+  text: '<par><hanform>毒</hanform> OC <latinform>*d’ôk</latinform>, GSR #1016a; B &amp; S 2011: <latinform>*dˁuk
+    {[d]ˁuk}</latinform>; Mand. <latinform>dú</latinform>. This Chinese character contains the graph for
+    &apos;mother&apos; (<hanform>母</hanform>, Mand. <latinform>mǔ</latinform>), which seems to suggest
+    that the original meaning might have been &quot;be revolted by food, as a pregnant woman&quot;. Cf.
+    Lahu <latinform>tɔ̀ʔ</latinform>, which means both &apos;poison&apos; and &apos;be revolted by food&apos;.</par>'

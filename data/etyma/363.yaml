@@ -1,0 +1,37 @@
+tag: 363
+grpid: 2
+proto_language: PTB
+protoform: s/r-mul ⪤ s-mil ⪤ s-myal
+gloss: HAIR / FUR / FEATHER
+semkey: 1.2.3
+sequence: 1.0
+status: KEEP
+public: true
+references: cf. STC#002, HPTB
+phonology:
+  handle: s/r-m
+  prefix: s
+  initial: m(
+  rhyme: u/i/ya)l
+  initcover: M
+  rhymecover: LW
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: mul ⪤ hmul
+  gloss: HAIR (body) / FUR / WOOL
+notes:
+- type: I
+  text: <par>The fourth syllable of Jingpho <latinform>n-mun n-mau</latinform> cannot be directly assigned
+    to this root, since the Jingpho reflex of PTB <latinform>*mul</latinform> is <latinform>mun</latinform>.
+    Bola <latinform>ʃă³⁵ mau³⁵</latinform> might well be a borrowing from Jingpho.</par>
+- type: T
+  text: <par>Although a number of rGyalrongic forms apparently descend from this root, many others are
+    better assigned to a prototype with front vowel, i.e. <xref ref="368">#368</xref>.</par>
+- type: I
+  text: <par>The denasalization of <latinform>m-</latinform> to <latinform>p-</latinform> in this Chepang
+    form is undoubtedly due to assimilation to the final stop of the preceding syllable.</par>
+- type: F
+  text: '<par><hanform>眉</hanform> OC <latinform>*mi̯ər</latinform> GSR #567a-c; B &amp; S 2011 <latinform>*mrər</latinform>;
+    Mand. <latinform>méi</latinform>.<br /><hanform>毛</hanform> OC <latinform>*mog</latinform>, GSR 1137a-b;
+    B &amp; S 2011 <latinform>*C.mˁaw</latinform>; Mand. <latinform>máo</latinform>.</par>'

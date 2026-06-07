@@ -1,0 +1,24 @@
+tag: 5531
+grpid: 2
+proto_language: PTB
+protoform: d-gra
+gloss: STRANGER / ENEMY
+semkey: 4.4.3
+sequence: 3188.0
+status: KEEP
+public: true
+references: cf. HPTB p. 73
+notes:
+- type: T
+  text: '<par>The Qiangic / rGyalrongic forms are probably borrowings from Tibetan. This root is undoubtedly
+    allofamically related to <xref ref="2596">#2596</xref>.</par><par>A Chinese comparandum <hanform>旅</hanform>
+    OC <latinform>gli̯o</latinform> GSR #77a  Mand. lyǔ &apos;guest, stranger; traveller&apos; has been
+    suggested by Gong Hwang-cherng (2001:27). The semantic connection between &apos;enemy&apos; and &apos;guest&apos;
+    is paralleled in Indo-European: PIE <latinform>*ghos-ti-</latinform> &gt; PGermanic <latinform>*gastiz</latinform>
+    &apos;guest&apos;, Latin <latinform>hostis</latinform> &apos;enemy&apos; (&lt; &apos;stranger&apos;).
+    Cf. also the opposed meanings of English &apos;host&apos;: (a) &apos;entertainer of guests&apos;,
+    (b) &apos;army of foes&apos;.</par>'
+- type: F
+  text: '<par><hanform>旅</hanform> OC <latinform>*gli̯o</latinform>, GSR #77a &apos;guest, stranger; traveller;
+    to travel, lodge; lodging&apos;; Schuessler 2007:367 <latinform>*raʔ</latinform>; B &amp; S 2011:
+    <latinform>*raʔ {[r]aʔ}</latinform>; Mand. <latinform>lǚ</latinform>.</par>'

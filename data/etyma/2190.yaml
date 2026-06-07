@@ -1,0 +1,20 @@
+tag: 2190
+grpid: 2
+proto_language: PTB
+protoform: bywan
+gloss: GO (out) / COME (out)
+semkey: 6.7.2
+sequence: 2028.0
+status: KEEP
+public: true
+references: STC#179, HPTB p.291
+phonology:
+  handle: byon
+  initial: by
+  rhyme: 'on'
+  initcover: P
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>This etymon, reconstructed already in STC #179 as <latinform>byon</latinform>, is so far
+    attested only in two languages.</par>'

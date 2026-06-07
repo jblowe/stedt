@@ -1,0 +1,23 @@
+tag: 2788
+grpid: 2
+proto_language: PTB
+protoform: s-b-(r/y)aŋ
+gloss: FLY (n.) / BEE
+semkey: 2.2.6
+sequence: 27.0
+status: KEEP
+public: true
+references: cf. STC#492, HPTB p.302
+phonology:
+  handle: yaŋ
+  prefix: s
+  initial: y
+  rhyme: aŋ=(s-)b
+  initcover: L
+  rhymecover: VNS
+notes:
+- type: F
+  text: '<par><hanform>蠅</hanform> OC <latinform>*di̯əng</latinform>, GSR #892a &apos;fly (n.)&apos;;
+    Coblin 86:82 <latinform>*rəng</latinform>;  B &amp; S 2011: <latinform>*m.rəŋ</latinform>; Mand. <latinform>yíng</latinform>.<br
+    /><hanform>䖟</hanform> OC <latinform>*mɑ̆ng</latinform>, GSR #742s &apos;horsefly&apos;; B &amp; S
+    2011: <latinform>*mˁraŋ</latinform>; Mand. <latinform>méng</latinform>.</par>'

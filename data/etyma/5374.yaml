@@ -1,0 +1,20 @@
+tag: 5374
+grpid: 2
+proto_language: PTB
+protoform: ram
+gloss: BURY / BEAR / ENDURE
+semkey: '6.11'
+sequence: 1291.0
+status: KEEP
+public: true
+mesoroots:
+- grpid: 63
+  group: 1.3.1
+  form: ram
+  gloss: BURY / ENDURE, BEAR
+notes:
+- type: T
+  text: <par>This promising root is attested mostly in Central Naga (see Bruhn 2014), but with an excellent
+    Galo cognate.</par><par>Bruhn (2014:218) suggests the connection between BURY and ENDURE as stemming
+    from the conception of endurance as &apos;burying something in one&apos;s mind&apos; (see also Clark
+    1911:114).</par>

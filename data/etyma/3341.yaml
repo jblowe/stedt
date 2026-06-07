@@ -1,0 +1,20 @@
+tag: 3341
+grpid: 2
+proto_language: PTB
+protoform: b-la
+gloss: GROIN / CROTCH
+semkey: 1.4.9
+sequence: 4.0
+status: KEEP
+public: true
+exemplary: true
+references: 'cf. *g-la #2812 ''kidney/spleen'''
+phonology:
+  handle: la
+  initial: l
+  rhyme: a ⪤ b-la
+  initcover: L
+  rhymecover: VL
+notes:
+- type: T
+  text: <par>This putative root has scattered reflexes.</par>

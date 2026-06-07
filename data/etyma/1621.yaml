@@ -1,0 +1,46 @@
+tag: 1621
+grpid: 2
+proto_language: PTB
+protoform: n(y)u
+gloss: FEMALE / MOTHER
+semkey: 1.9.3
+sequence: 4.0
+status: KEEP
+public: true
+references: incl 3077
+phonology:
+  handle: nu
+  initial: n
+  rhyme: u
+  initcover: M
+  rhymecover: V
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: nuu
+  gloss: FEMALE
+  variant: a
+- grpid: 8
+  group: '1.2'
+  form: nuu
+  gloss: MOTHER
+  variant: b
+- grpid: 12
+  group: 1.7.2
+  form: ɲəːw
+  gloss: BIG / MOTHER
+- grpid: 5
+  group: 1.1.1
+  form: nə
+  gloss: MOTHER
+- grpid: 8
+  group: '1.2'
+  form: nu-ŋaak ⪤ ŋaak-nuu
+  gloss: MAIDEN / BELLE / WOMAN (unmarried)
+  variant: c
+notes:
+- type: T
+  text: <par>This root has frequently grammaticalized as a suffix in nouns denoting large or important
+    objects. See Matisoff 1991, &quot;The mother of all morphemes&quot;.</par><par>The present root seems
+    to overlap somewhat with <xref ref="5595">#5595</xref> and <xref ref="1623">#1623</xref>, and further
+    microlinguistic work will be necessary to separate them out.</par>

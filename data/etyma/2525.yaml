@@ -1,0 +1,25 @@
+tag: 2525
+grpid: 2
+proto_language: PTB
+protoform: s-ŋa
+gloss: BEFORE / FRONT
+semkey: 9.1.5
+sequence: 3.3
+status: KEEP
+public: true
+references: STC p.141
+phonology:
+  handle: ŋa
+  prefix: s
+  initial: ŋ
+  rhyme: a
+  initcover: M
+  rhymecover: V
+mesoroots:
+- grpid: 50
+  group: '7'
+  form: hŋaᴬ
+  gloss: FRONT
+notes:
+- type: T
+  text: <par></par>

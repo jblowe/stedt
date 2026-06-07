@@ -1,0 +1,26 @@
+tag: 442
+grpid: 2
+proto_language: PTB
+protoform: m-ts(y)ul
+gloss: NOSE AND MOUTH / LIP / LOWER PART OF FACE
+semkey: 1.3.2
+sequence: 1.0
+status: KEEP
+public: true
+xrefs: ↭ 686
+phonology:
+  handle: m/s-d
+  prefix: m/s
+  initial: d(y)
+  rhyme: u-l/r/n
+  initcover: T
+  rhymecover: VNL
+notes:
+- type: F
+  text: '<par><hanform>觜</hanform> OC <latinform>*tsi̯ɑ̆r</latinform>, GSR #358t &apos;beak, snout, mouth&apos;;
+    Schuessler 2007:636 <latinform>*tse</latinform> or <latinform>*tsai</latinform>; Mand. <latinform>zī</latinform>.<br
+    /><hanform>觜</hanform>/<hanform>嘴</hanform> OC <latinform>*tsi̯wɑ̆r</latinform>, GSR #358t &apos;beak,
+    snout, mouth&apos;; Schuessler 2007:636 <latinform>*tsoiʔ</latinform>; Mand. <latinform>zǔi</latinform>.<br
+    /><hanform>脣</hanform>/<hanform>唇</hanform> OC <latinform>*d̑’i̯wən</latinform>, GSR #455u &apos;lips&apos;;
+    Schuessler 2007:197 <latinform>*m-dun</latinform>; B &amp; S 2011: <latinform>*sə.dur {sə.[d]ur}</latinform>;
+    Mand. <latinform>chun</latinform>.</par>'

@@ -1,0 +1,20 @@
+tag: 1806
+grpid: 2
+proto_language: PTB
+protoform: syi
+gloss: LEAN (MEAT, PERSON)
+semkey: 1.1.1
+sequence: 4.0
+status: KEEP
+public: true
+exemplary: true
+phonology:
+  handle: ši
+  initial: š
+  rhyme: i
+  initcover: S
+  rhymecover: V
+notes:
+- type: T
+  text: <par>The stronghold of this etymon seems to be Lolo-Burmese, with likely cognates in Jingpho and
+    Tujia. </par>

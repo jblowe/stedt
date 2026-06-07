@@ -1,0 +1,18 @@
+tag: 1126
+grpid: 2
+proto_language: PTB
+protoform: tsyi
+gloss: BODY
+semkey: 1.1.1
+sequence: 10.0
+status: KEEP
+public: true
+exemplary: true
+xrefs: FRONT
+references: ↭*ti
+phonology:
+  handle: tši
+  initial: tš
+  rhyme: i
+  initcover: TS
+  rhymecover: V

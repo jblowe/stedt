@@ -1,0 +1,15 @@
+tag: 7
+grpid: 2
+proto_language: PTB
+protoform: (p/b)aŋ
+gloss: BODY
+semkey: 1.1.1
+sequence: 13.0
+status: KEEP
+public: true
+phonology:
+  handle: paŋ
+  initial: p
+  rhyme: aŋ⪤baŋ
+  initcover: P
+  rhymecover: N

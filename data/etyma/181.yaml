@@ -1,0 +1,35 @@
+tag: 181
+grpid: 2
+proto_language: PTB
+protoform: s-nya-s ⪤ s-nyan
+gloss: PUNISH / OPPRESS / COERCE
+semkey: 6.2.2.1
+sequence: 17.0
+status: KEEP
+public: true
+exemplary: true
+references: cf. STC#193, HPTB pp.204, 290, 296
+phonology:
+  handle: nyen
+  initial: ny
+  rhyme: en
+  initcover: M
+  rhymecover: N
+notes:
+- type: T
+  text: '<par>We are combining two roots set up separately in STC: <latinform>*nye</latinform> &apos;punish&apos;
+    (#252) and <latinform>s-nyen</latinform> &apos;oppress, coerce&apos; (#193).</par>'
+- type: F
+  text: '<par>The primary comparandum is:</par><par><hanform>蹍</hanform> OC <latinform>*ni̯ɑn</latinform>,
+    GSR #201c &apos;trample&apos;; B &amp; S 2011: <latinform>*nranʔ {[n]r[a][n]ʔ}</latinform>;  Mand.
+    <latinform>niǎn</latinform>.</par><par>But consider the following as well:</par><par><hanform>展</hanform>
+    OC <latinform>*ti̯ɑn</latinform>, GSR #201a &apos;roll over, unfold, develop&apos;; B &amp; S 2011:
+    <latinform>*trenʔ</latinform>; Mand. <latinform>zhǎn</latinform>.<br /><hanform>輾</hanform> OC <latinform>*ti̯ɑn</latinform>,
+    GSR #201b &apos;roll over and back, roll to the side&apos;; B &amp; S 2011: <latinform>*trenʔ {tre[n]ʔ</latinform>;
+    Mand. <latinform>zhǎn</latinform>.<br /><hanform>碾</hanform> OC <latinform>(*ni̯ɑn)</latinform>, <emph>not
+    in GSR #201, but attested in MC</emph>, &apos;grind, crush, husk; stone roller&apos;, Mand. <latinform>niǎn</latinform>.</par><par>All
+    four of the above etyma have a common semantic focus, i.e. &apos;roll over&apos;. Moreover, the first
+    three (and likely the last) belong to the same OC phonetic series, and show OC *alveolar initials
+    differing only in manner. This strongly suggests an allofamic relationship between <hanform>蹍</hanform>,
+    <hanform>展</hanform>, <hanform>輾</hanform>, and possibly <hanform>碾</hanform>, to be reconstructed
+    as <latinform>*ti̯ɑn ⪤ *ni̯ɑn</latinform> or similar for Old Chinese, if not earlier.</par>'

@@ -1,0 +1,16 @@
+tag: 2036
+grpid: 3
+proto_language: NEIA
+protoform: tsa
+gloss: FACE
+semkey: 1.2.5
+sequence: 12.0
+status: DELETE
+public: false
+xrefs: '2034'
+phonology:
+  handle: tsa
+  initial: ts
+  rhyme: a
+  initcover: TS
+  rhymecover: V

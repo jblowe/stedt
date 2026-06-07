@@ -1,0 +1,17 @@
+tag: 1217
+grpid: 42
+proto_language: PLB
+protoform: ru²
+gloss: FRONT / BEFORE
+semkey: 1.4.4
+sequence: 8.0
+status: KEEP
+public: true
+allofams: '220'
+possallo: '1260'
+phonology:
+  handle: ru
+  initial: r
+  rhyme: u
+  initcover: L
+  rhymecover: V

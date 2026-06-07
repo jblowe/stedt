@@ -1,0 +1,27 @@
+tag: 680
+grpid: 2
+proto_language: PTB
+protoform: s-lam
+gloss: WOMB / PLACENTA
+sequence: 97.0
+status: KEEP
+public: true
+phonology:
+  prefix: s
+  initial: l
+  rhyme: am
+  initcover: P
+  rhymecover: N
+mesoroots:
+- grpid: 8
+  group: '1.2'
+  form: hlam
+  gloss: PLACENTA / AFTERBIRTH
+- grpid: 66
+  group: 1.3.4
+  form: laam
+  gloss: PLACENTA
+notes:
+- type: T
+  text: '<par>This etymon is now considered be a separate etymon from the phonologically similar root
+    <xref ref="670">#670</xref>. See VSTB pp. 224-227; TBRS #97; HPTB p. 250.</par>'
