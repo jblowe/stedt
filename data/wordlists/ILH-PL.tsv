@@ -423,7 +423,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 133310	228	Akha	phù	phù	gourd	gourd			3.1.6.4	167	0			5797
 133312	784	Hani (Khatu)	phm̀	phm̀	gourd	gourd			3.1.6.4	167	0			5797
 133313	1299	Hani (Pijo)	phfù	phfù	gourd	gourd			3.1.6.4	167	0			5797
-133314	1115	Mpi	tɕhoʔ⁵phu⁵	tɕhoʔ⁵phu⁵	gourd	gourd			3.1.6.4	167	0			m,2792,5797,5797
+133314	1115	Mpi	tɕhoʔ⁵phu⁵	tɕhoʔ⁵phu⁵	gourd	gourd			3.1.6.4	167	0			2792|m,5797|5797
 133315	153	*Loloish	plu¹	plu¹	white	white			9.4	165	0			1235
 133316	394	Burmese (Written)	phru	phru	white	white			9.4	165	0			1235
 133317	228	Akha	pjhú	pjhú	white	white			9.4	165	0			1235
@@ -564,7 +564,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 133503	1299	Hani (Pijo)	njí	njí	finger	finger			1.5.6	354	0			1104*
 133504	1115	Mpi	ni⁶/ɲɯ⁶	ni⁶/ɲɯ⁶	finger	finger			1.5.6	354	0			
 133505	153	*Loloish	ʒo¹	ʒo¹	sheep	sheep			2.1.8	282	0			6028
-133506	394	Burmese (Written)	sûi	sûi	sheep	sheep			2.1.8	282	0			R,6080
+133506	394	Burmese (Written)	sûi	sûi	sheep	sheep			2.1.8	282	0			6080|R
 133507	228	Akha	jɔ́	jɔ́	sheep	sheep			2.1.8	282	0			6028
 133510	153	*Loloish	ʃə-ro²	ʃə-ro²	bone	bone			1.6.3	370	0			34,232
 133511	394	Burmese (Written)	ʔa◦ʔrûi	ʔa◦ʔrûi	bone	bone			1.6.3	370	0			m,234
@@ -2964,7 +2964,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 136231	1299	Hani (Pijo)	nà na	nà na	morning	morning			9.1.4	281	0			
 136232	243	Akha (Thai)	jɔ́	jɔ́	sheep	sheep			2.1.8	282	0			6028
 136234	635	Hani (Wordlist)	aq◦yol	aqyol	sheep	sheep			2.1.8	282	0			p,6028
-136235	633	Hani (Lüchun)	a tjhì	a tjhì	sheep	sheep			2.1.8	282	0			p,p,1226
+136235	633	Hani (Lüchun)	a tjhì	a tjhì	sheep	sheep			2.1.8	282	0			p|p,1226
 136237	1299	Hani (Pijo)	ʒú	ʒú	sheep	sheep			2.1.8	282	0			6028
 136238	243	Akha (Thai)	jɔ-sháŋ	jɔ-sháŋ	owner	owner			6.19	283	0	jbl5	HIDE	DUPE IN SOURCE
 136239	244	Akha (Yunnan)	jɔ sháŋ	jɔ sháŋ	owner	owner			6.19	283	0			
@@ -3335,7 +3335,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 136629	1299	Hani (Pijo)	vỳ khí	vỳ khí	horn	horn			1.2.2	345	0			385,819
 136630	243	Akha (Thai)	tjhö	tjhö	capable, able	capable, able			9.6.1.2	346	0			
 136631	244	Akha (Yunnan)	jɔ gáŋ	jɔ gáŋ	capable, able	capable, able			9.6.1.2	346	0			
-136632	635	Hani (Wordlist)	kyul	kyul	capable, able	capable, able			9.6.1.2	346	0			819,m
+136632	635	Hani (Wordlist)	kyul	kyul	capable, able	capable, able			9.6.1.2	346	0			819|m
 136633	633	Hani (Lüchun)	khü	khü	capable, able	capable, able			9.6.1.2	346	0			
 136634	784	Hani (Khatu)	lìng	lìng	capable, able	capable, able			9.6.1.2	346	0			
 136635	1299	Hani (Pijo)	kə̀	kə̀	capable, able	capable, able			9.6.1.2	346	0			

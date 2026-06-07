@@ -12,7 +12,11 @@ mesoroots:
   group: '1.2'
   form: kuun
   gloss: BEND / DROOP / STOOP
+  source: 'PKC #257'
+  old_tag: 4257
 - grpid: 8
   group: '1.2'
   form: kuul
   gloss: HUNCHBACKED
+  source: 'PKC #293'
+  old_tag: 4293

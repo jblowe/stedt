@@ -19,30 +19,44 @@ mesoroots:
   group: '1.2'
   form: thii-I, thiʔ-II
   gloss: DIE / DEAD / EXTINCT
+  source: 'PKC #384'
+  old_tag: 4384
 - grpid: 5
   group: 1.1.1
   form: si
   gloss: DIE
+  source: JS-HCST: 105
+  old_tag: 6594
 - grpid: 66
   group: 1.3.4
   form: tʰi
   gloss: DIE
+  source: DRM#349
+  old_tag: 6762
 - grpid: 12
   group: 1.7.2
   form: səy
   gloss: DIE
+  source: WTF-PNN:476
+  old_tag: 7195
 - grpid: 42
   group: '6.1'
   form: səy¹
   gloss: DIE
+  source: cf. HPTB p.27
+  old_tag: 546
 - grpid: 50
   group: '7'
   form: sejᴬ
   gloss: DEAD, DIE
+  source: TL#76
+  old_tag: 7281
 - grpid: 63
   group: 1.3.1
   form: səj
   gloss: DIE
+  source: 'PCN #106'
+  old_tag: 7653
 notes:
 - type: I
   text: <par>Insert WTF’ s PNN recon. Combine AW-TBT 192, 727. GSR 558a-c. <reconstruction>*si̯er/si</reconstruction>.

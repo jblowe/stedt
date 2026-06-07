@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: yaa
   gloss: HUNDRED
+  source: 'PKC #1207'
+  old_tag: 5207
 - grpid: 50
   group: '7'
   form: g-rjaᴬ
   gloss: HUNDRED
+  source: TL#150
+  old_tag: 7354
 - grpid: 12
   group: 1.7.2
   form: C̬-kʰya
@@ -32,6 +36,8 @@ mesoroots:
   group: 1.3.4
   form: ʃa
   gloss: HUNDRED
+  source: DRM#332
+  old_tag: 6745
 notes:
 - type: F
   text: '<par><hanform>百</hanform> OC <latinform>*pɑ̆k</latinform>, GSR #781a-e &apos;hundred&apos;; Coblin

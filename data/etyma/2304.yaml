@@ -20,18 +20,26 @@ mesoroots:
   group: '1.2'
   form: ʔaay
   gloss: CRAB
+  source: 'PKC #472'
+  old_tag: 4472
 - grpid: 5
   group: 1.1.1
   form: ke ~ kjo
   gloss: CRAB
+  source: JS-HCST: 91
+  old_tag: 6376
 - grpid: 8
   group: '1.2'
   form: kaay- ⪤ ŋaay-kuaŋ
   gloss: LOBSTER / CRAB / SHRIMP
+  source: 'PKC #299'
+  old_tag: 4299
 - grpid: 50
   group: '7'
   form: chwɛᴮ
   gloss: CRAB
+  source: TL#64
+  old_tag: 7269
 notes:
 - type: F
   text: '<par><hanform>蟹</hanform> OC <latinform>*g’ĕg</latinform>, GSR #861d &apos;crab&apos;; Schuessler

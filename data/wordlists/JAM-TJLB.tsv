@@ -63,7 +63,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 31382	676	Jingpho	bòp	bòp	calf of leg	calf of leg			1.5.7	382	0			163
 31383	676	Jingpho	khūm-bòp	khūm-bòp	foam, bubble	foam, bubble			3.2.3	382	0			
 31384	838	Lahu (Black)	phòʔ	phòʔ	swollen	swollen			1.1.5.2	382	0			163
-31385	676	Jingpho	kròp	kròp	rustle, as dry leaves; be dry, hoarse	rustle, as dry leaves; be dry,			6.6	381	0			e,2347
+31385	676	Jingpho	kròp	kròp	rustle, as dry leaves; be dry, hoarse	rustle, as dry leaves; be dry,			6.6	381	0			2347|e
 31386	838	Lahu (Black)	gô	gô	dried up	dried up	be v.	be v.	6.6	381	0			116
 31387	838	Lahu (Black)	gòʔ	gòʔ	dried-up thing	dried-up thing			6.6	381	0			
 31388	401	Burmese (Written)	khrwap	khrwap	rustlingly	rustlingly			9.3	381	0			2347
@@ -128,7 +128,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 31447	676	Jingpho	túk	túk	poison	poison			6.4	358	0			2202
 31448	838	Lahu (Black)	ɔ̀-tɔ̀ʔ	ɔ̀-tɔ̀ʔ	poison	poison			6.4	358	0			p,2202
 31449	676	Jingpho	tšít-sà	tšít-sà	deer	deer			2.2.2	357	0			i,34
-31450	838	Lahu (Black)	á-chèʔ	á-chèʔ	goat	goat			2.1.8	357	0		D0	p,5450,1226
+31450	838	Lahu (Black)	á-chèʔ	á-chèʔ	goat	goat			2.1.8	357	0		D0	5450|p,1226
 31451	676	Jingpho	khyóp	khyóp	grab up, scoop up	grab up, scoop up			9.2.1	356	0			
 31452	233	Akha	k'aw˰	k'aw˰	draw water	draw water			5.8	356	0			2296
 31453	401	Burmese (Written)	khap	khap	draw water	draw water			5.8	356	0			2296
@@ -149,7 +149,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 31471	676	Jingpho	tók	tók	cut (blow) / hack	cut (blow) / hack			6.9.3	349	0			
 31472	838	Lahu (Black)	tɔ̂ʔ	tɔ̂ʔ	cut (blow) / hack	cut (blow) / hack			6.9.3	349	0			2709
 31473	233	Akha	deuˆ	deuˆ	cut (blow) / hack	cut (blow) / hack			6.9.3	349	0			
-31474	676	Jingpho	kríp	kríp	die down, abate	die down, abate			1.1.6	348	0			m,2614?
+31474	676	Jingpho	kríp	kríp	die down, abate	die down, abate			1.1.6	348	0			2614?|m
 31475	401	Burmese (Written)	rip	rip	throw a shadow	throw a shadow			6.12	348	0			2614
 31476	838	Lahu (Black)	ɔ̀-g̈ə̂ʔ	ɔ̀-g̈ə̂ʔ	shadow	shadow			3.2.10	348	0			5450,2614
 31477	676	Jingpho	thùp	thùp	wrap up	wrap up			6.2.2.1	347	0			5440
@@ -1085,9 +1085,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 32458	676	Jingpho	thùm	thùm	mortar	mortar			5.5	35	0			2742
 32459	401	Burmese (Written)	chum	chum	mortar	mortar			5.5	35	0			2742
 32460	838	Lahu (Black)	chɛ-má-qō	chɛ-má-qō	mortar	mortar			5.5	35	0			2742,m,m
-32461	676	Jingpho	khàŋ-khyì	khàŋ-khyì	lion	lion			2.1.3	34	0	jbl5	HIDE	DUPE IN SOURCE,bBurmese
-32462	401	Burmese (Written)	khraŋ-se'	khraŋ-se'	lion	lion			2.1.3	34	0			6114,m,bIndic,m
-32463	401	Burmese (Written)	khyaŋ-se'	khyaŋ-se'	lion	lion			2.1.3	34	0			6114,b,m
+32461	676	Jingpho	khàŋ-khyì	khàŋ-khyì	lion	lion			2.1.3	34	0	jbl5	HIDE	DUPE IN SOURCE|bBurmese
+32462	401	Burmese (Written)	khraŋ-se'	khraŋ-se'	lion	lion			2.1.3	34	0			6114|m,bIndic|m
+32463	401	Burmese (Written)	khyaŋ-se'	khyaŋ-se'	lion	lion			2.1.3	34	0			6114|b,m
 32464	676	Jingpho	khì	khì	exhausted	exhausted			6.2.2.1	33	0			
 32465	676	Jingpho	khì-bá	khì-bá	exhausted	exhausted			6.2.2.1	33	0			
 32466	401	Burmese (Written)	khe	khe	weak, ineficient (contempt)	weak, ineficient (contempt)			1.1.5	33	0			

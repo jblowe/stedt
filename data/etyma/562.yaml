@@ -22,10 +22,14 @@ mesoroots:
   group: '1.2'
   form: hlip
   gloss: SCAB / SCALE
+  source: 'PKC #1048'
+  old_tag: 5048
 - grpid: 66
   group: 1.3.4
   form: hlip
   gloss: SCALE (OF FISH)
+  source: DRM#533
+  old_tag: 6938
 - grpid: 68
   group: 1.2.1.1
   form: lip

@@ -13,10 +13,13 @@ mesoroots:
   group: '6.1'
   form: wan¹
   gloss: JACKAL / WOLF / DHOLE / WILD DOG
+  old_tag: 6052
 - grpid: 12
   group: 1.7.2
   form: C-khyual
   gloss: WOLF
+  source: WTF-PNN p.580
+  old_tag: 6101
 notes:
 - type: T
   text: '<par>This PTB root was borrowed into Indo-Aryan at an early date; cf. Sanskrit <latinform>śr̥gāla-</latinform>.

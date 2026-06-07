@@ -27,8 +27,8 @@ TABLES = {
             'format','callnumber','scope','totalnum','refonly','citechk','pi','infascicle','haveit',
             'todo','proofer','inputter','dbprep','dbload','dbcheck','notes'],
  'notes': ['rn','tag','id','notetype','spec','ord','noteid','xmlnote'],
- 'mesoroots': ['tag','grpid','form','gloss','id','variant'],
- 'hptb': ['hptbid','plg','protoform','protogloss','pages','mainpage','bare','semclass1','semclass2'],
+ 'mesoroots': ['tag','grpid','form','gloss','id','variant','old_tag','old_note'],
+ 'hptb': ['hptbid','plg','protoform','protogloss','pages','mainpage','init','bare','semclass1','semclass2','tags'],
  'et_hptb_hash': ['tag','hptbid','ord'],
  'otherchapters': ['chapter','heading','semcat','subcat','cf','n'],
  'majorcats': ['chapter','subchapter','semcat','heading','frqdb','frqsubcats'],
@@ -38,9 +38,15 @@ TABLES = {
 PK = {'etyma':'tag','lexicon':'rn','languagenames':'lgid','languagegroups':'grpid',
       'chapters':'id','notes':'noteid','mesoroots':'id'}
 INT = {'rn','tag','lgid','grpid','noteid','id','ind','ord','src_set_rn','genetic','lgcode','public',
-       'pi_page','grp0','grp1','grp2','grp3','grp4','scope','infascicle','hptbid','frqdb','frqsubcats','n','page'}
-def coldef(cols, pk):
-    return ', '.join((f"{x} INTEGER" if x in INT else x) + (" PRIMARY KEY" if x == pk else "") for x in cols)
+       'pi_page','grp0','grp1','grp2','grp3','grp4','scope','infascicle','hptbid','frqdb','frqsubcats',
+       'n','page','old_tag'}
+TEXT_OVERRIDE = {('notes', 'id')}  # notes.id is polymorphic (semkey for C, srcabbr for S) -> keep TEXT
+def coldef(cols, pk, table=None):
+    parts = []
+    for x in cols:
+        is_int = x in INT and (table, x) not in TEXT_OVERRIDE
+        parts.append((f"{x} INTEGER" if is_int else x) + (" PRIMARY KEY" if x == pk else ""))
+    return ', '.join(parts)
 def loadyaml(p): return yaml.safe_load(open(p, encoding='utf-8')) or []
 
 def main():
@@ -48,7 +54,7 @@ def main():
     db = sqlite3.connect(OUT); c = db.cursor()
     c.execute("PRAGMA journal_mode=OFF"); c.execute("PRAGMA synchronous=OFF")
     for t, cols in TABLES.items():
-        c.execute(f"CREATE TABLE {t} ({coldef(cols, PK.get(t))})")
+        c.execute(f"CREATE TABLE {t} ({coldef(cols, PK.get(t), t)})")
     def insert(t, rowdicts):
         cols = TABLES[t]
         c.executemany(f"INSERT INTO {t} VALUES ({','.join('?'*len(cols))})",
@@ -93,7 +99,8 @@ def main():
     hptb_yaml = loadyaml(f"{ROOT}/reference/hptb.yaml")
     insert('hptb', [{'hptbid': h.get('hptbid'), 'plg': h.get('plg'), 'protoform': h.get('protoform'),
         'protogloss': h.get('gloss'), 'pages': h.get('pages'), 'mainpage': h.get('mainpage'),
-        'bare': h.get('allofams'), 'semclass1': h.get('semclass'), 'semclass2': h.get('semclass2')} for h in hptb_yaml])
+        'init': h.get('init'), 'bare': h.get('allofams'), 'semclass1': h.get('semclass'),
+        'semclass2': h.get('semclass2'), 'tags': h.get('tags')} for h in hptb_yaml])
     ehh = []
     for h in hptb_yaml:
         for o, tg in enumerate(h.get('etyma') or []):
@@ -127,7 +134,8 @@ def main():
         for m in d.get('mesoroots', []):
             mid += 1
             meso.append({'tag': d['tag'], 'grpid': m.get('grpid'), 'form': m.get('form'),
-                         'gloss': m.get('gloss'), 'id': mid, 'variant': m.get('variant')})
+                         'gloss': m.get('gloss'), 'id': mid, 'variant': m.get('variant'),
+                         'old_tag': m.get('old_tag'), 'old_note': m.get('source')})
         add_note('E', d['tag'], d.get('notes'))
     insert('etyma', ety); insert('mesoroots', meso)
     print(f"  etyma {len(ety)}  mesoroots {len(meso)}")
@@ -148,12 +156,21 @@ def main():
                     'src_set_rn': int(row['src_set_rn']) if row.get('src_set_rn') else 0})
                 an = row.get('analysis') or ''
                 if an:
-                    for ind, tok in enumerate(an.split(',')):
-                        m = re.match(r'\d+', tok)   # tag = leading digits ('4?', '1pl+two' -> 4, 1)
-                        links.append({'rn': rn, 'tag': int(m.group()) if m else 0,
-                                      'ind': ind, 'tag_str': tok})
+                    for ind, slot in enumerate(an.split(',')):   # slots = morpheme positions
+                        for tok in slot.split('|'):               # '|' = multiple tags at one ind
+                            m = re.match(r'\d+', tok)   # tag = leading digits ('4?','1pl+two' -> 4,1)
+                            links.append({'rn': rn, 'tag': int(m.group()) if m else 0,
+                                          'ind': ind, 'tag_str': tok})
         if len(lex) > 200000:
             insert('lexicon', lex); insert('lx_et_hash', links); lex, links = [], []
+    # orphan lx_et_hash rows (rn absent from lexicon) preserved verbatim
+    opath = f"{ROOT}/reference/orphan-links.tsv"
+    if os.path.exists(opath):
+        with open(opath, encoding='utf-8', newline='') as f:
+            for row in csv.DictReader(f, delimiter='\t'):
+                m = re.match(r'\d+', row['tag_str'] or '')
+                links.append({'rn': int(row['rn']), 'tag': int(m.group()) if m else 0,
+                              'ind': int(row['ind']) if row['ind'] else 0, 'tag_str': row['tag_str']})
     insert('lexicon', lex); insert('lx_et_hash', links)
     insert('notes', notes)
     db.commit()

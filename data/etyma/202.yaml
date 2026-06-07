@@ -21,6 +21,8 @@ mesoroots:
   group: '1.2'
   form: khel
   gloss: HIP / LOINS
+  source: 'PKC #448'
+  old_tag: 4448
 notes:
 - type: T
   text: <par>The PKC etymon <latinform>*kal</latinform> (a meso-root of <xref ref="201">#201</xref>) definitely

@@ -20,18 +20,26 @@ mesoroots:
   group: '1.2'
   form: niʔ ⪤ hniʔ
   gloss: TWO
+  source: 'PKC #844'
+  old_tag: 4844
 - grpid: 66
   group: 1.3.4
   form: ni
   gloss: TWO
+  source: DRM#361
+  old_tag: 6774
 - grpid: 50
   group: '7'
   form: k-hnejᴬ
   gloss: TWO
+  source: TL#313
+  old_tag: 7518
 - grpid: 63
   group: 1.3.1
   form: a-ni(t)
   gloss: TWO
+  source: 'PCN #062'
+  old_tag: 7609
 - grpid: 16
   group: 1.7.1
   form: ni

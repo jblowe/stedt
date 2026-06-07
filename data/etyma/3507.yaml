@@ -18,6 +18,8 @@ mesoroots:
   group: 1.1.1
   form: ho
   gloss: RAIN (v.) / FALL FROM A HEIGHT
+  source: JS-HCST: 111
+  old_tag: 6344
 notes:
 - type: T
   text: <par>This root does not seem related to <xref ref="2080">#2080</xref>.</par>

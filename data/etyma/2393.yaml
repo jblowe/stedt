@@ -19,10 +19,14 @@ mesoroots:
   group: 1.3.4
   form: laaŋ
   gloss: RAPTOR
+  source: DRM#613
+  old_tag: 7013
 - grpid: 50
   group: '7'
   form: hlaŋᴬ/ᴮ k-daɁᴰ
   gloss: VULTURE
+  source: TL#317
+  old_tag: 7522
 notes:
 - type: T
   text: <par>This root seems certainly to be an old loanword from Mon-Khmer. For details, see <plainlatinform>STC

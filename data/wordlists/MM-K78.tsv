@@ -120,12 +120,12 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 47903	1525	Thakali (Syang)	ᴴrʌ	ᴴrʌ	goat	goat			2.1.8	16	0			6031
 47904	603	Gurung (Ghachok)	¹ra	¹ra	goat	goat			2.1.8	16	0			6031
 47905	1001	Manang (Ngawal)	¹ʒɤ	¹ʒɤ	goat	goat			2.1.8	16	0			6031
-47906	1454	Tamang (Risiangku)	¹hlaŋ◦mo	¹hlaŋmo	steam	steam			6.6	17	0			5806,5806,m,m
-47907	1466	Tamang (Taglung)	¹laŋ	¹laŋ	steam	steam			6.6	17	0			5806,5806,m
-47908	1529	Thakali (Tukche)	¹hlaŋ◦mʌ	¹hlaŋmʌ	steam	steam			6.6	17	0			5806,5806,m
-47909	1523	Thakali (Marpha)	ᴴlaŋbo	ᴴlaŋbo	steam	steam			6.6	17	0			5806,5806
-47910	1525	Thakali (Syang)	ᴴhlaŋ◦ma	ᴴhlaŋma	steam	steam			6.6	17	0			5806,5806
-47911	603	Gurung (Ghachok)	ᴴlõmãː	ᴴlõmãː	steam	steam			6.6	17	0			5806,5806
+47906	1454	Tamang (Risiangku)	¹hlaŋ◦mo	¹hlaŋmo	steam	steam			6.6	17	0			5806|5806,m|m
+47907	1466	Tamang (Taglung)	¹laŋ	¹laŋ	steam	steam			6.6	17	0			5806|5806,m
+47908	1529	Thakali (Tukche)	¹hlaŋ◦mʌ	¹hlaŋmʌ	steam	steam			6.6	17	0			5806|5806,m
+47909	1523	Thakali (Marpha)	ᴴlaŋbo	ᴴlaŋbo	steam	steam			6.6	17	0			5806|5806
+47910	1525	Thakali (Syang)	ᴴhlaŋ◦ma	ᴴhlaŋma	steam	steam			6.6	17	0			5806|5806
+47911	603	Gurung (Ghachok)	ᴴlõmãː	ᴴlõmãː	steam	steam			6.6	17	0			5806|5806
 47912	1454	Tamang (Risiangku)	¹lu	¹lu	snake-god	snake-god			5.8.1.1	18	0			8004
 47913	1461	Tamang (Sahu)	¹lu	¹lu	snake-god	snake-god			5.8.1.1	18	0			8004
 47914	1466	Tamang (Taglung)	¹lu	¹lu	snake-god	snake-god			5.8.1.1	18	0			8004
@@ -207,7 +207,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 47990	1525	Thakali (Syang)	²ku(ː)	²ku(ː)	nine	nine			9.9	28	0			2364
 47991	603	Gurung (Ghachok)	²ku	²ku	nine	nine			9.9	28	0			2364
 47992	1001	Manang (Ngawal)	²ku	²ku	nine	nine			9.9	28	0			2364
-47993	1454	Tamang (Risiangku)	²kat	²kat	voice	voice			8.5.5	29	0			1754,8007
+47993	1454	Tamang (Risiangku)	²kat	²kat	voice	voice			8.5.5	29	0			1754|8007
 47994	1461	Tamang (Sahu)	²ket	²ket	voice	voice			8.5.5	29	0		D0	8007
 47995	1529	Thakali (Tukche)	ᴴkʌi	ᴴkʌi	voice	voice			8.5.5	29	0			8007
 47996	1523	Thakali (Marpha)	ᴴkʌi	ᴴkʌi	voice	voice			8.5.5	29	0			8007
@@ -412,13 +412,13 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 48195	1525	Thakali (Syang)	lim	lim	snow	snow			3.2.1	57	0			8022
 48196	603	Gurung (Ghachok)	²ɬĩ	²ɬĩ	snow	snow			3.2.1	57	0			8022
 48197	1001	Manang (Ngawal)	⁴khĩ	⁴khĩ	snow	snow			3.2.1	57	0			8022
-48198	1454	Tamang (Risiangku)	⁴kjat	⁴kjat	work	work			6.1.1	58	0			5827,8023
-48199	1466	Tamang (Taglung)	⁴keː	⁴keː	work	work			6.1.1	58	0			5827,8023
-48200	1529	Thakali (Tukche)	⁴ke	⁴ke	work	work			6.1.1	58	0			5827,8023
-48201	1523	Thakali (Marpha)	⁴kje	⁴kje	work	work			6.1.1	58	0			5827,8023
-48202	1525	Thakali (Syang)	⁴ke	⁴ke	work	work			6.1.1	58	0			5827,8023
-48203	603	Gurung (Ghachok)	⁴ke	⁴ke	work	work			6.1.1	58	0			5827,8023
-48204	1001	Manang (Ngawal)	⁴khje	⁴khje	work	work			6.1.1	58	0			5827,8023
+48198	1454	Tamang (Risiangku)	⁴kjat	⁴kjat	work	work			6.1.1	58	0			5827|8023
+48199	1466	Tamang (Taglung)	⁴keː	⁴keː	work	work			6.1.1	58	0			5827|8023
+48200	1529	Thakali (Tukche)	⁴ke	⁴ke	work	work			6.1.1	58	0			5827|8023
+48201	1523	Thakali (Marpha)	⁴kje	⁴kje	work	work			6.1.1	58	0			5827|8023
+48202	1525	Thakali (Syang)	⁴ke	⁴ke	work	work			6.1.1	58	0			5827|8023
+48203	603	Gurung (Ghachok)	⁴ke	⁴ke	work	work			6.1.1	58	0			5827|8023
+48204	1001	Manang (Ngawal)	⁴khje	⁴khje	work	work			6.1.1	58	0			5827|8023
 48205	1454	Tamang (Risiangku)	⁴kjam	⁴kjam	road	road			9.10.1	59	0			1017
 48206	1461	Tamang (Sahu)	⁴kjam	⁴kjam	road	road			9.10.1	59	0			1017
 48207	1466	Tamang (Taglung)	⁴kjam	⁴kjam	road	road			9.10.1	59	0			1017
@@ -509,7 +509,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 48292	171	*TGTM	ᴬʰmje	mʰje¹	fire	fire			3.2.12.2	14	0			2136
 48293	171	*TGTM	ᴬʰmeː	mʰeː¹	tail	tail			1.4.10.1	15	0			1288
 48294	171	*TGTM	ᴬʰra	rʰa¹	goat	goat			2.1.8	16	0			6031
-48295	171	*TGTM	ᴬ(h)ʰlaŋ	(h)lʰaŋ¹	steam	steam			6.6	17	0			5806,5806
+48295	171	*TGTM	ᴬ(h)ʰlaŋ	(h)lʰaŋ¹	steam	steam			6.6	17	0			5806|5806
 48296	171	*TGTM	ᴬʰlu	lʰu¹	snake-god	snake-god			5.8.1.1	18	0			8004
 48297	171	*TGTM	ᴮpho	pho¹	belly	belly			1.4.7	19	0			2103
 48298	171	*TGTM	ᴮta	ta²	horse	horse			2.1.7	20	0			5
@@ -550,7 +550,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 48334	171	*TGTM	ᴮglwap/ᴬglwap	glwap³,⁴	lungs	lungs			1.7.2	55	0			2121
 48335	171	*TGTM	ᴮglaː/ᴬglaː	klaː⁴	place	place			9.10.5	56	0			8021
 48336	171	*TGTM	ᴮgliŋ	gliŋ⁴	snow	snow			3.2.1	57	0			8022
-48337	171	*TGTM	ᴮgjat	gjat⁴	work	work			6.1.1	58	0			5827,8023
+48337	171	*TGTM	ᴮgjat	gjat⁴	work	work			6.1.1	58	0			5827|8023
 48338	171	*TGTM	ᴮgjam	gjam⁴	road	road			9.10.1	59	0			1017
 48339	171	*TGTM	ᴮgra	gra⁴	enemy	enemy			4.2.6	60	0			5531
 48340	171	*TGTM	ᴮɖaː	ɖaː⁴	tumpline / carrying headband	tumpline / carrying headband			5.11.8.2.1.1	61	0		z	8025

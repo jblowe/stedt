@@ -21,10 +21,14 @@ mesoroots:
   group: '1.2'
   form: thaaw
   gloss: FAT / GREASE
+  source: 'PKC #385'
+  old_tag: 4385
 - grpid: 66
   group: 1.3.4
   form: tʰaw
   gloss: FAT
+  source: DRM#389
+  old_tag: 6802
 notes:
 - type: F
   text: '<par><hanform>臊</hanform> OC <latinform>*sɑ̂u</latinform>, GSR #1134e; B &amp; S 2011: <latinform>*m-sˁaw</latinform>;

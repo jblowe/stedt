@@ -13,6 +13,8 @@ mesoroots:
   group: 1.2.2
   form: hruay
   gloss: LEAD / GUIDE
+  source: 'PKC #1087 ("PCC")'
+  old_tag: 5087
 notes:
 - type: T
   text: <par>This etymon is perhaps allofamic with <xref ref="2783">#2783</xref>.</par>

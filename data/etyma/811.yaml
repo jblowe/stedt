@@ -21,20 +21,28 @@ mesoroots:
   group: '1.2'
   form: naa ⪤ hnaa
   gloss: EAR
+  source: 'PKC #812'
+  old_tag: 4812
 - grpid: 66
   group: 1.3.4
   form: na
   gloss: EAR
   variant: a
+  source: DRM#340
+  old_tag: 6753
 - grpid: 66
   group: 1.3.4
   form: na
   gloss: HEAR
   variant: b
+  source: DRM#342
+  old_tag: 6755
 - grpid: 50
   group: '7'
   form: -hnaᴮ
   gloss: LISTEN TO
+  source: TL#171
+  old_tag: 7375
 - grpid: 12
   group: 1.7.2
   form: na
@@ -48,15 +56,21 @@ mesoroots:
   form: hnaʔ
   gloss: EAR
   variant: a
+  source: 'PCN #007'
+  old_tag: 7554
 - grpid: 63
   group: 1.3.1
   form: a-hŋaj
   gloss: HEAR, LISTEN
   variant: b
+  source: 'PCN #046'
+  old_tag: 7593
 - grpid: 50
   group: '7'
   form: naᴮ
   gloss: EAR
+  source: TL#95
+  old_tag: 7300
 notes:
 - type: T
   text: <par>This root has acquired a variety of final consonants in Himalayish languages, including <latinform>-k</latinform>

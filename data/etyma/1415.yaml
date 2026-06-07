@@ -21,26 +21,38 @@ mesoroots:
   group: 1.1.1
   form: nam
   gloss: SMELL (v.)
+  source: JS-HCST: 171
+  old_tag: 3190
 - grpid: 8
   group: '1.2'
   form: nam
   gloss: SMELL (v.)
+  source: 'PKC #835'
+  old_tag: 4835
 - grpid: 66
   group: 1.3.4
   form: nam
   gloss: SMELL
+  source: DRM#442
+  old_tag: 6853
 - grpid: 50
   group: '7'
   form: (h)nɨmᴬ
   gloss: SMELL (v.)
+  source: TL#263
+  old_tag: 7467
 - grpid: 63
   group: 1.3.1
   form: m-hnaːm
   gloss: SMELL / STINK
+  source: 'PCN #116'
+  old_tag: 7663
 - grpid: 70
   group: 1.2.2
   form: hniim
   gloss: SNIFF / SMELL (v.)
+  source: 'PKC #904 ("PCC")'
+  old_tag: 4904
 notes:
 - type: T
   text: <par>This etymon could take either the <latinform>*m-</latinform> prefix, originally giving the

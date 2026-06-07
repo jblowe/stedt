@@ -20,14 +20,20 @@ mesoroots:
   group: '1.2'
   form: lay ⪤ hlay
   gloss: BUY /  EXCHANGE
+  source: 'PKC #997'
+  old_tag: 4997
 - grpid: 66
   group: 1.3.4
   form: lo
   gloss: BUY
+  source: DRM#362
+  old_tag: 6775
 - grpid: 68
   group: 1.2.1.1
   form: laay
   gloss: CHANGE
+  source: 'PKC #1001 ("PNC")'
+  old_tag: 5001
 - grpid: 12
   group: 1.7.2
   form: lyay

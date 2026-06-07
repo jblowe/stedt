@@ -20,10 +20,14 @@ mesoroots:
   group: 1.3.4
   form: ta
   gloss: BIRD
+  source: DRM#714
+  old_tag: 7096
 - grpid: 50
   group: '7'
   form: thoᴮ
   gloss: BIRD
+  source: TL#22
+  old_tag: 7227
 notes:
 - type: F
   text: '<par><hanform>鳥</hanform> OC <latinform>*tiôg</latinform>, GSR #1116a &apos;bird&apos;; Schuessler

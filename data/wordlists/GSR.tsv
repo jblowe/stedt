@@ -639,7 +639,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 169873	1007	Chinese (Mandarin)	yen	yen	gullet	gullet			1.3.5.5	370h	0			
 169874	1007	Chinese (Mandarin)	yen	yen	swallow	swallow (n.)	n		1.3.5.6	370h	0	dwb33		
 169875	1007	Chinese (Mandarin)	chen	chen	black hair	black hair			9.4	375d	0			
-169876	1007	Chinese (Mandarin)	tien	tien	top of the head, fall down, be	top of the head, fall down, be			1.2.1.3	375m	0			2725,e
+169876	1007	Chinese (Mandarin)	tien	tien	top of the head, fall down, be	top of the head, fall down, be			1.2.1.3	375m	0			2725|e
 169877	1007	Chinese (Mandarin)	tien	tien	eye-tooth	eye-tooth			1.3.4.1	375o	0			
 169878	1007	Chinese (Mandarin)	shen	shen	body, person	body, person			1.1.1	386a-c	0			
 169879	1007	Chinese (Mandarin)	lin	lin	scales of fish or reptile	scales of fish or reptile			1.6.5.2	387k	0			
@@ -1147,7 +1147,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 328477	481	Chinese (Old/Mid)	sɑ̆n/ṣɑ̆n	sɑ̆n/ṣɑ̆n	mountain / hill	mountain / hill			3.2.5	193a-c	0			
 328478	481	Chinese (Old/Mid)	dʼi̯ɑn/d̂i̯ɑ̈n	dʼi̯an/d̂i̯ɑ̈n	soil belonging to one peasant family / farm / farmyar	soil belonging to one peasant family / farm  / farmyar			3.2.11	204a	0	jbl3		e
 328479	481	Chinese (Old/Mid)	śi̯ɑn/śi̯ɑ̈n-	śi̯ɑn/śi̯ɑ̈n-	blaze	blaze			3.2.12.2	212c	0			
-328480	481	Chinese (Old/Mid)	li̯ɑn/li̯än:	li̯ɑn/li̯än:	carriage (kind of); connect / unite;in a row;consecu	carriage (kind of); connect / unite;in a row;consecu			10.1.1	213a	0			2603,e,2603
+328480	481	Chinese (Old/Mid)	li̯ɑn/li̯än:	li̯ɑn/li̯än:	carriage (kind of); connect / unite;in a row;consecu	carriage (kind of); connect / unite;in a row;consecu			10.1.1	213a	0			2603|e,2603
 328481	481	Chinese (Old/Mid)	pi̯wən/pi̯uən-	pi̯wən/pi̯uən-	dust	dust	v	v	3.2.11	220d	0			
 328482	481	Chinese (Old/Mid)	mwər/muɑ̣̂i:	mwər/muɑ̣̂i:	water (smoothly flowing)	water (smoothly flowing)			3.2.3	222l	0			
 328483	481	Chinese (Old/Mid)	mwər/muɑ̣̂i:	mwər/muɑ̣̂i:	defile	defile	v	v		222l	0			
@@ -1889,7 +1889,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 621389	481	Chinese (Old/Mid)	d̂i̯əng		lift; to present; support, assist					896c	0			1722
 621401	481	Chinese (Old/Mid)	gʼi̯ăn		strong					249g	0			
 621402	481	Chinese (Old/Mid)	gʼå		far, distant					33j	0			5458
-621417	481	Chinese (Old/Mid)	dʼi̯wəd		cause resentment, dissatisfied					511i	0			5412,2206
+621417	481	Chinese (Old/Mid)	dʼi̯wəd		cause resentment, dissatisfied					511i	0			2206|5412
 622063	481	Chinese (Old/Mid)	gi̯ək		drip		v.		6.6	954i	0			555
 622064	481	Chinese (Old/Mid)	t̑i̯o		boil, cook		v.		5.7	45m	0			2749
 622065	1007	Chinese (Mandarin)	lɑ̂d ~ li̯ɑd ~ lɑ̂t		coarse grain		n.		1.2.6	340g	0			2071,2071,2071

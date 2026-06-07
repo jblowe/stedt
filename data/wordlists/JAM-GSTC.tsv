@@ -204,8 +204,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 29286	397	Burmese (Written)	hrac	hrac	eight	eight			9.9	041	0			2259
 29287	833	Lahu (Black)	hí	hí	eight	eight			9.9	041	0			2259
 29288	397	Burmese (Written)	chit	chit	goat	goat			2.1.8	042	0			1226
-29289	833	Lahu (Black)	á-chèʔ	á-chèʔ	goat	goat			2.1.8	042	0		D0	p,5450,1226
-29290	1604	Trung [Dulong]	a¹²-tšit⁴⁴s	a¹²-tšit⁴⁴s	goat	goat			2.1.8	042	0			p,p,1226
+29289	833	Lahu (Black)	á-chèʔ	á-chèʔ	goat	goat			2.1.8	042	0		D0	5450|p,1226
+29290	1604	Trung [Dulong]	a¹²-tšit⁴⁴s	a¹²-tšit⁴⁴s	goat	goat			2.1.8	042	0			p|p,1226
 29291	397	Burmese (Written)	hmit	hmit	wink, shut the eyes	wink, shut the eyes			1.2.6.12	043	0			31
 29293	230	Akha	miʔ³³	miʔ³³	extinguished	extinguished	be v.	be v.	3.2.12.1	043	0			31
 29294	230	Akha	myaʔ³³-nuiʔ³³ miʔ³³-eu	myaʔ³³-nuiʔ³³ miʔ³³-eu	close one's eyes tightly	close one's eyes tightly			6.2.2.6.2	043	0			m,m,31,m
@@ -460,7 +460,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 29566	1276	Pwo (Moulmein)	de	de	navel	navel			1.9.4	071	0			519
 29567	1270	Pwo (Bassein)	dé	dé	navel	navel			1.9.4	071	0			519
 29568	1473	Tangkhul	hay◦toŋ	hay◦toŋ	navel	navel			1.9.4	071	0			m,3447
-29569	1473	Tangkhul	hay◦zo	hay◦zo	navel	navel			1.9.4	071	0			517,?,659,659
+29569	1473	Tangkhul	hay◦zo	hay◦zo	navel	navel			1.9.4	071	0			517|?,659|659
 29570	160	*Northern Naga	taːy	taːy	navel	navel			1.9.4	071	0			519
 29571	1189	Nocte	po-te	po-te	navel	navel			1.9.4	071	0			m,519
 29572	302	Bahing	meri	meri	tail	tail			1.4.10.1	072	0			1288
@@ -601,7 +601,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 29713	1594	Tiddim	ˊtaːi	ˊtaːi	scold, blame, nag	scold, blame, nag			8.5.1	093	0			3435
 29714	1594	Tiddim	ˋtaːi	ˋtaːi	scold, blame, nag	scold, blame, nag			8.5.1	093	0			3435
 29715	979	Lushai [Mizo]	tai-t̥êm~tai-t̥êng	tai-t̥êm~tai-t̥êng	name of a stinging nettle	name of a stinging nettle			5.8	093	0			3435,m,3435,m
-29717	1065	Mikir [Karbi]	ing dèy	ingdèy	sting (as a nettle)	sting (as a nettle)			2.4.2	093	0			3435,p
+29717	1065	Mikir [Karbi]	ing dèy	ingdèy	sting (as a nettle)	sting (as a nettle)			2.4.2	093	0			3435|p
 29718	190	Padam-Mishing [Abor-Miri]	té	té	sting, as a bee	sting, as a bee			2.4.2	093	0			3435
 29719	353	Bodo	ray	ray	scold, rebuke	scold, rebuke			8.5.1	093	0			
 29720	353	Bodo	ray-sin	ray-sin	scold, severely	scold, severely			8.5.1	093	0			
@@ -759,7 +759,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 29919	672	Jingpho	mətài	mətài	vengeance	vengeance			1.5.3.2	118	0			
 29923	474	Chinese (Old)	twəd	twəd	respond, in response; reply	respond, in response; reply			8.5.6	118	0			
 29924	2118	Chinese (Middle)	tuậi	tuḁ̂i	respond, in response; reply	respond, in response; reply			8.5.6	118	0			
-29925	474	Chinese (Old)	d̂'i̯wəd	d̂'i̯wəd	cause resentment	cause resentment			8.2	118	0			5412,2206
+29925	474	Chinese (Old)	d̂'i̯wəd	d̂'i̯wəd	cause resentment	cause resentment			8.2	118	0			2206|5412
 29926	2118	Chinese (Middle)	d̂'wi-	d̂'wi-	cause resentment	cause resentment			8.2	118	0			
 29927	672	Jingpho	tòi	tòi	even with	even with	be v.	be v.	10.1.2.2	119	0			5381
 29928	672	Jingpho	tòi-tòi	tòi-tòi	even with	even with	be v.	be v.	10.1.2.2	119	0			5381,5381
@@ -825,7 +825,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 29996	1473	Tangkhul	sa-ngai kachi	sa-ngai kachi	desire	desire			8.3.1.14.3	126	0			m,1160,m
 29997	1473	Tangkhul	ngai◦lon	ngai◦lon	gentle	gentle			9.6.1.2	126	0			1160,m
 29998	1473	Tangkhul	khə◦ŋáy	khə◦ŋáy	desire	desire			8.3.1.14.3	126	0		D0	p,1160
-29999	397	Burmese (Written)	prâi	prâi	gape, expand, flare	gape, expand, flare			1.3.1	127	0			m,5616
+29999	397	Burmese (Written)	prâi	prâi	gape, expand, flare	gape, expand, flare			1.3.1	127	0			5616|m
 30000	833	Lahu (Black)	pé ɛ̀	pé ɛ̀	flaring, wider at the tip	flaring, wider at the tip			10.0	127	0			
 30002	230	Akha	i⁵⁵	i⁵⁵	go down	go down			6.7.2	128	0			657
 30003	926	Lisu	ye⁴~jye⁴	ye⁴~jye⁴	go	go			6.7.2	128	0			657,657
@@ -889,7 +889,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 30070	1604	Trung [Dulong]	rɔm⁵⁵ bu⁵⁵ tɕui⁵⁵	rɔm⁵⁵ bu⁵⁵ tɕui⁵⁵	elephant / cattle	elephant / cattle			2.2.1	143	0			bTibetan
 30071	1674	Tangsa (Yogli)	sei	sei	eat	eat			1.5.3.2	144	0			1708
 30072	808	Konyak	hei	hei	food	food			5.5	144	0			1708
-30073	1138	Mzieme	tei	tei	eat	eat			1.5.3.2	144	0		u	1708,?
+30073	1138	Mzieme	tei	tei	eat	eat			1.5.3.2	144	0		u	1708|?
 30074	979	Lushai [Mizo]	ei	ei	taste; eat	taste; eat			1.3.5.8	144	0			
 30075	833	Lahu (Black)	ni	ni	look at; look after, care for	look at; look after, care for			1.2.6.11	145	0			5419
 30076	833	Lahu (Black)	câ ni ve	câ ni ve	try eating; have a taste	try eating; have a taste			1.3.5.8	145	0			36,5419,450

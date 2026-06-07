@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: khlik ⪤ khliŋ
   gloss: MARROW / SAP
+  source: 'PKC #1294'
+  old_tag: 5294
 - grpid: 66
   group: 1.3.4
   form: tliŋ
   gloss: MARROW
+  source: DRM#584
+  old_tag: 6986
 - grpid: 42
   group: '6.1'
   form: ʔkraŋ¹ ⪤ ʔkyaŋ¹

@@ -22,10 +22,14 @@ mesoroots:
   group: '1.2'
   form: kal
   gloss: KIDNEY
+  source: 'PKC #297'
+  old_tag: 4297
 - grpid: 66
   group: 1.3.4
   form: kal
   gloss: KIDNEY
+  source: DRM#630
+  old_tag: 7027
 notes:
 - type: T
   text: <par>The PKC etymon <latinform>*khel</latinform> (a meso-root of <xref ref="202">#202</xref>)

@@ -20,6 +20,8 @@ mesoroots:
   group: '1.2'
   form: tsuap
   gloss: LUNG
+  source: 'PKC #547'
+  old_tag: 4547
 notes:
 - type: T
   text: '<par>As explained at length in VSTB:113-123, the root reconstructed as <latinform>*tsywap</latinform>

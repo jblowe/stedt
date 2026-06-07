@@ -18,10 +18,14 @@ mesoroots:
   group: '1.2'
   form: ʔuay ⪤ wuay
   gloss: WILT / SHRIVEL / WITHER
+  source: 'PKC #518'
+  old_tag: 4518
 - grpid: 66
   group: 1.3.4
   form: hoj
   gloss: WITHER / FADE
+  source: DRM#432
+  old_tag: 6844
 notes:
 - type: F
   text: '<par><hanform>萎</hanform> OC <latinform>*ʔi̯wɑ̆r</latinform>, GSR #357d &apos;wither&apos;; Schuessler

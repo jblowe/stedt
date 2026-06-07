@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: ɓuy ⪤ wuy
   gloss: ELEPHANT
+  source: 'PKC #23'
+  old_tag: 4023
 - grpid: 66
   group: 1.3.4
   form: m-pu
   gloss: ELEPHANT
+  source: DRM#608
+  old_tag: 7008
 notes:
 - type: F
   text: '<par><hanform>爲</hanform> OC <latinform>*gwiɑ</latinform>, GSR #27a-e  &apos;elephant&apos;;

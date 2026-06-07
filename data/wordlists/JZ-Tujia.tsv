@@ -161,7 +161,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 43506	1617	Tujia (Southern)	ʔa²¹ bo⁵⁵	ʔa²¹ bo⁵⁵	head	head			1.2.1		0			p,388
 43507	1617	Tujia (Southern)	ŋai¹³ mẽ³³	ŋai¹³ mẽ³³	forehead	forehead			1.2.5.1		0			356,354
 43508	1617	Tujia (Southern)	ʔa²¹ so²¹	ʔa²¹ so²¹	hair (head)	hair (head)			1.2.3		0			p,370
-43509	1617	Tujia (Southern)	pia¹³ tsi³³	pia¹³ tsi³³	braid (hair)	braid (hair)	n	n	1.2.3.2		0			2018,bChinese,s
+43509	1617	Tujia (Southern)	pia¹³ tsi³³	pia¹³ tsi³³	braid (hair)	braid (hair)	n	n	1.2.3.2		0			2018|bChinese,s
 43510	1617	Tujia (Southern)	laɨ⁵⁵ suĩ³³	laɨ⁵⁵ suĩ³³	brain	brain			1.2.4		0			m,5485
 43511	1617	Tujia (Southern)	ʔa²¹ gu²¹ pʰo⁵⁵	ʔa²¹ gu²¹ pʰo⁵⁵	face	face			1.2.5		0			p,273
 43512	1617	Tujia (Southern)	ʔa²¹ la⁵⁵ ʔa²¹ so²¹	ʔa²¹ la⁵⁵ ʔa²¹ so²¹	eyebrow	eyebrow			1.2.6.6		0			p,1427,p,370
@@ -195,10 +195,10 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 43540	1617	Tujia (Southern)	tɕĩ²¹	tɕĩ²¹	muscle	muscle			1.6.6.2		0			372
 43541	1617	Tujia (Southern)	me²¹ me²¹	me²¹ me²¹	blood	blood			1.6.2		0			m
 43542	1617	Tujia (Southern)	wei¹³	wei¹³	stomach	stomach			1.7.6		0			b
-43543	1617	Tujia (Southern)	jiaɨ⁵⁵ tsi²¹	jiaɨ⁵⁵ tsi²¹	kidney	kidney			1.7.5		0			b,bChinese,1019
+43543	1617	Tujia (Southern)	jiaɨ⁵⁵ tsi²¹	jiaɨ⁵⁵ tsi²¹	kidney	kidney			1.7.5		0			b|bChinese,1019
 43544	1617	Tujia (Southern)	ka²¹ bu²¹ lo⁵⁵	ka²¹ bu²¹ lo⁵⁵	intestines	intestines			1.7.7		0			
 43545	1617	Tujia (Southern)	li²¹ ŋa²¹	li²¹ ŋa²¹	heart	heart			1.7.1		0			m,m
-43546	1617	Tujia (Southern)	kã³³	kã³³	liver	liver			1.7.3		0			229,bChinese
+43546	1617	Tujia (Southern)	kã³³	kã³³	liver	liver			1.7.3		0			229|bChinese
 43547	1617	Tujia (Southern)	fei¹³	fei¹³	lung	lung			1.7.2		0			bChinese
 43548	1617	Tujia (Southern)	tã²¹	tã²¹	gall	gall			1.7.3.1		0			bChinese
 43549	1617	Tujia (Southern)	tsʰe⁵⁵ tsʰe³⁵ pʰaɨ¹³	tsʰe⁵⁵ tsʰe³⁵ pʰaɨ¹³	bladder	bladder			1.7.8		0			650,650,m
@@ -374,7 +374,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 288538	1616	Tujia (Northern)	ai³⁵thiã⁵⁵le²¹	ai³⁵thiã⁵⁵le²¹	from now on	from now on			10.1.1		0			
 288539	1616	Tujia (Northern)	zuã³⁵	zuã³⁵	water buffalo	water buffalo			3.2.3		0			
 288540	1616	Tujia (Northern)	wu³⁵	wu³⁵	common cattle	common cattle			7.1.7.2		0			
-288541	1616	Tujia (Northern)	ma⁵⁵	ma⁵⁵	horse	horse			2.1.7		0			1431,bChinese
+288541	1616	Tujia (Northern)	ma⁵⁵	ma⁵⁵	horse	horse			2.1.7		0			1431|bChinese
 288542	1616	Tujia (Northern)	tsi⁵⁵	tsi⁵⁵	pig	pig			2.1.12		0			
 288543	1616	Tujia (Northern)	zo³⁵	zo³⁵	goat / sheep	goat / sheep			2.1.8		0			6028
 288544	1616	Tujia (Northern)	xa⁵⁵le²¹|	xa⁵⁵le²¹|	dog	dog			2.1.11		0			999R
@@ -705,7 +705,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 288869	1616	Tujia (Northern)	xuei⁵⁵tɕi⁵⁵	xuei⁵⁵tɕi⁵⁵	airplane	airplane			5.1		0			bChinese
 288870	1616	Tujia (Northern)	je²¹lu²¹tsu³⁵	je²¹lu²¹tsu³⁵	shop	shop			9.10.6		0			
 288871	1616	Tujia (Northern)	thũ²¹tɕhiã²¹	thũ²¹tɕhiã²¹	money	money			5.9		0			bChinese
-288872	1616	Tujia (Northern)	tɕia³⁵tɕhiã²¹	tɕia³⁵tɕhiã²¹	price	price			5.9		0			b?,bChinese
+288872	1616	Tujia (Northern)	tɕia³⁵tɕhiã²¹	tɕia³⁵tɕhiã²¹	price	price			5.9		0			b?|bChinese
 288873	1616	Tujia (Northern)	nĩ²¹xã²¹	nĩ²¹xã²¹	bank (for money)	bank (for money)			9.10.2		0			bChinese
 288874	1616	Tujia (Northern)	si⁵⁵kha⁵⁵	si⁵⁵kha⁵⁵	interest	interest			8.3.2.6.1		0			
 288875	1616	Tujia (Northern)	xu²¹tsi²¹	xu²¹tsi²¹	wages	wages			5.9		0			
@@ -1315,7 +1315,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 289479	1617	Tujia (Southern)	mɨe⁵⁵khɨe²¹ta²¹nã³⁵	mɨe⁵⁵khɨe²¹ta²¹nã³⁵	from now on	from now on			10.1.1		0			
 289480	1617	Tujia (Southern)	si³⁵nõ²¹	si³⁵nõ²¹	water buffalo	water buffalo			3.2.3		0			
 289481	1617	Tujia (Southern)	wo²¹nõ²¹	wo²¹nõ²¹	common cattle	common cattle			7.1.7.2		0			
-289482	1617	Tujia (Southern)	mo¹³	mo¹³	horse	horse			2.1.7		0			1431,bChinese
+289482	1617	Tujia (Southern)	mo¹³	mo¹³	horse	horse			2.1.7		0			1431|bChinese
 289483	1617	Tujia (Southern)	dzi¹³	dzi¹³	pig	pig			2.1.12		0			
 289484	1617	Tujia (Southern)	zo²¹	zo²¹	goat / sheep	goat / sheep			2.1.8		0			6028
 289485	1617	Tujia (Southern)	tshe⁵⁵	tshe⁵⁵	dog	dog			2.1.11		0			1764
@@ -1336,7 +1336,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 289500	1617	Tujia (Southern)	tɕhi⁵⁵ni³⁵	tɕhi⁵⁵ni³⁵	hen	hen			2.1.10		0			
 289501	1617	Tujia (Southern)	jia⁵⁵|tsi²¹	jia⁵⁵tsi²¹	duck	duck			2.1.10		0			5718
 289502	1617	Tujia (Southern)	ŋo²¹	ŋo²¹	goose	goose			2.1.10		0			2527
-289503	1617	Tujia (Southern)	ko²¹tsi²¹	ko²¹tsi²¹	pigeon	pigeon			2.2.4.1		0			2346,bChinese
+289503	1617	Tujia (Southern)	ko²¹tsi²¹	ko²¹tsi²¹	pigeon	pigeon			2.2.4.1		0			2346|bChinese
 289504	1617	Tujia (Southern)	lõ²¹h̄õ²¹tei⁵⁵tɕhi⁵⁵	lõ²¹h̄õ²¹tei⁵⁵tɕhi⁵⁵	pheasant	pheasant			2.2.4.1		0			
 289505	1617	Tujia (Southern)	kɨ²¹tso²¹	kɨ²¹tso²¹	bird	bird			2.2.4		0			b?
 289506	1617	Tujia (Southern)	ba³³ŋɨ³³	ba³³ŋɨ³³	eagle	eagle			2.2.4.1		0			

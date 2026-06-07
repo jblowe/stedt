@@ -18,6 +18,8 @@ mesoroots:
   group: 1.2.2
   form: hmuy
   gloss: SMELL (good) / FRAGRANT
+  source: 'PKC #881 ("PCC")'
+  old_tag: 4881
 notes:
 - type: T
   text: <par>This etymon shows an unusual variation between final <latinform>-y</latinform> and <latinform>-r</latinform>.

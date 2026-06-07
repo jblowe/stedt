@@ -67,7 +67,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 44220	564	Galo	ko◦ki	ko◦ki	back	back			1.4.8		0			211,m
 44221	564	Galo	u◦gi-a◦lo	u◦gi-a◦lo	backbone	backbone			1.4.8.2		0			p,202,p,238
 44222	564	Galo	lɤ◦lu	lɤ◦lu	shoulder	shoulder			1.4.3		0			
-44223	564	Galo	lɤ◦bi	lɤ◦bi	shoulder	shoulder			1.4.3		0			m,m,276,m
+44223	564	Galo	lɤ◦bi	lɤ◦bi	shoulder	shoulder			1.4.3		0			m|m,276|m
 44224	564	Galo	a◦ki	a◦ki	chest	chest			1.4.4.3		0			p,3398
 44225	564	Galo	a◦up	a◦up	rib	rib			1.4.4.3		0			p,291
 44226	564	Galo	aro	aro	lungs	lungs			1.7.2		0			6343
@@ -304,7 +304,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 44460	564	Galo	ku◦suk	ku◦suk	sour	sour			7.1.4.4		0			6406,m
 44461	564	Galo	do-nam	do-nam	eating	eating	v	v	1.3.5.8		0			5363,s
 44462	564	Galo	tɯ-nam	tɯ-nam	drinking	drinking	v	v	1.3.5.9		0			502,s
-44463	564	Galo	men-nam	men-nam	swallowing	swallowing	v	v	1.3.5.6		0			m,m,s,s
+44463	564	Galo	men-nam	men-nam	swallowing	swallowing	v	v	1.3.5.6		0			m|m,s|s
 44464	564	Galo	rak-nam	rak-nam	licking	licking	v	v	1.3.3.1		0			629,s
 44465	564	Galo	yak-nam	yak-nam	licking	licking	v	v	1.3.3.1		0			629,s
 44466	564	Galo	buː-nam	buː-nam	sucking	sucking	v	v	1.3.2.1		0			3450,s
@@ -1129,7 +1129,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 45293	564	Galo	hag-nam	hag-nam	breathe	breathe	v	v	1.1.2.2		0			32,s
 45294	564	Galo	(ao) bɤ-nam	(ao) bɤ-nam	breed	breed	v	v	1.9.1.1		0			m,m,s
 45295	564	Galo	bɤ-a-nam	bɤ-a-nam	bring	bring	v	v	6.2.2.2.2		0			m,m,s
-45296	564	Galo	mɯ-nam	mɯ-nam	brood	brood	v	v	2.2.4		0			1234,m,s,s
+45296	564	Galo	mɯ-nam	mɯ-nam	brood	brood	v	v	2.2.4		0			1234|m,s|s
 45297	564	Galo	mo-nam	mo-nam	build (house)	build (house)	v	v	6.14		0			m,s
 45298	564	Galo	go-nam	go-nam	build (bridge)	build (bridge)	v	v	6.14		0			m,s
 45299	564	Galo	gu-nam	gu-nam	burn (lamp)	burn (lamp)	v	v	3.2.12.1		0			6334,s
@@ -1331,7 +1331,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 45495	564	Galo	ogen-nam	ogen-nam	hang thing	hang thing	v	v	6.1.1.5		0			m,s
 45496	564	Galo	am-la-nam	am-la-nam	harvest (reap)	harvest (reap)	v	v	3.1.10		0			m,m,s
 45497	564	Galo	rɯ-ba-bɤ rɯ-nam	rɯ-ba-bɤ rɯ-nam	hasten	hasten	v	v	6.7.3		0			m,m,m,m,s
-45498	564	Galo	po◦rok-ape gup-nam	po◦rok-ape gup-nam	hatch	hatch	v	v	1.1.2		0			m,2ndroot=2767,1606,m,1233,s
+45498	564	Galo	po◦rok-ape gup-nam	po◦rok-ape gup-nam	hatch	hatch	v	v	1.1.2		0			2ndroot=2767|m,1606,m,1233,s
 45499	564	Galo	ta-nam	ta-nam	hear	hear	v	v	1.2.7.4		0			1408,s
 45500	564	Galo	i◦dum-nam	idum-nam	help	help	v	v	6.2.2.1		0			m,s
 45501	564	Galo	i◦gur-nam	i◦gur-nam	help	help	v	v	6.2.2.1		0			m,6336,s

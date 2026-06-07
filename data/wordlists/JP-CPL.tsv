@@ -75,7 +75,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 517888	2016	Phola	mɔ³¹kʰi̠³¹	mɔ³¹kʰi̠³¹	afternoon	afternoon			9.1.4	72	0			
 517889	2016	Phola	ɕi⁵⁵ɬɛ³³qɔ⁵⁵	ɕi⁵⁵ɬɛ³³qɔ⁵⁵	night(time)	night(time)			9.1.4	74	0			
 517890	2016	Phola	ʑɑ³³mɔ³¹kʰi̠³¹	ʑɑ³³mɔ³¹kʰi̠³¹	this evening	this evening			10.4.3.2	75	0			
-517891	2016	Phola	i³³ɕɔ³¹nɛ⁵⁵	i³³ɕɔ³¹nɛ⁵⁵	this morning	this morning			10.4.3.2	76	0			m,5807,1837,m,m
+517891	2016	Phola	i³³ɕɔ³¹nɛ⁵⁵	i³³ɕɔ³¹nɛ⁵⁵	this morning	this morning			10.4.3.2	76	0			5807|m,1837|m,m
 517892	2016	Phola	ȵɯ³¹	ȵɯ³¹	cow	cow			2.1.2	78	0			
 517893	2016	Phola	æ̠³³ȵɯ³¹	æ̠³³ȵɯ³¹	buffalo (water)	buffalo (water)			2.1.2	79	0			
 517894	2016	Phola	ȵɯ³¹nɛ⁵⁵	ȵɯ³¹nɛ⁵⁵	field cow	field cow			3.2.5	80	0			
@@ -1224,7 +1224,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 519037	2017	Phuza	m̩³¹ʦʰi³³	m̩³¹ʦʰi³³	night(time)	night(time)			9.1.4	74	0			
 519038	2017	Phuza	ti³¹ja⁵⁵tʰa³³jɛ¹³	ti³¹ja⁵⁵tʰa³³jɛ¹³	night(time)	night(time)			9.1.4	74	0			
 519039	2017	Phuza	i¹³kʰə⁵⁵	i¹³kʰə⁵⁵	this evening	this evening			10.4.3.2	75	0			5807,m
-519040	2017	Phuza	i³¹xɔ³³	i³¹xɔ³³	this morning	this morning			10.4.3.2	76	0			m,5807,1837,m
+519040	2017	Phuza	i³¹xɔ³³	i³¹xɔ³³	this morning	this morning			10.4.3.2	76	0			5807|m,1837|m
 519041	2017	Phuza	tʰa³³	tʰa³³	time	time			9.1.5	77	0			
 519042	2017	Phuza	ȵi¹³	ȵi¹³	cow	cow			2.1.2	78	0			
 519043	2017	Phuza	ɛ⁵⁵	ɛ⁵⁵	buffalo (water)	buffalo (water)			2.1.2	79	0			
@@ -4892,7 +4892,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 522705	2020	Azha	ʑɛ³³ŋɔ²¹	ʑɛ³³ŋɔ²¹	goose	goose			2.1.10	112	0			m,2527
 522706	2020	Azha	ȵɛ⁴⁴	ȵɛ⁴⁴	bird	bird			2.2.4	113	0			
 522707	2020	Azha	ȵɛ⁴⁴vɛ²²	ȵɛ⁴⁴vɛ²²	swallow	swallow			1.3.5.6	114	0			
-522708	2020	Azha	a⁴⁴tʂa²¹kɯ⁴⁴	a⁴⁴tʂa²¹kɯ⁴⁴	sparrow	sparrow			2.2.4.1	115	0			5413,p
+522708	2020	Azha	a⁴⁴tʂa²¹kɯ⁴⁴	a⁴⁴tʂa²¹kɯ⁴⁴	sparrow	sparrow			2.2.4.1	115	0			5413|p
 522709	2020	Azha	a⁴⁴nɛ³³	a⁴⁴nɛ³³	crow	crow			2.2.4.1	116	0			
 522710	2020	Azha	ti⁴⁴li⁴⁴ʦʰi³³	ti⁴⁴li⁴⁴ʦʰi³³	magpie	magpie			2.2.4.1	117	0			
 522711	2020	Azha	a⁴⁴xi²¹	a⁴⁴xi²¹	dove; pigeon	dove; pigeon			2.2.4.1	118	0			

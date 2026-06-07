@@ -20,18 +20,26 @@ mesoroots:
   group: '1.2'
   form: mii
   gloss: PERSON / MAN / PEOPLE
+  source: 'PKC #779'
+  old_tag: 4779
 - grpid: 66
   group: 1.3.4
   form: mi
   gloss: MAN / HUMAN
+  source: DRM#671
+  old_tag: 7060
 - grpid: 5
   group: 1.1.1
   form: miː
   gloss: MAN (homo)
+  source: JS-HCST: 113
+  old_tag: 6461
 - grpid: 63
   group: 1.3.1
   form: a-[h]məjʔ
   gloss: PERSON, HUMAN
+  source: 'PCN #102'
+  old_tag: 7649
 - grpid: 12
   group: 1.7.2
   form: C̥-məy

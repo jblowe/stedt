@@ -393,7 +393,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 301993	856	Lahu (Yellow)	ȵiu³	ȵiu³	zodiac year (Ox)	zodiac year (Ox)			9.1.2		0			2538
 301994	856	Lahu (Yellow)	la³	la³	zodiac year (Tiger)	zodiac year (Tiger)			9.1.2		0			5560
 301995	856	Lahu (Yellow)	thɔ³	thɔ³	zodiac year (Rabbit)	zodiac year (Rabbit)			9.1.2		0			5356
-301996	856	Lahu (Yellow)	lɔ³	lɔ³	zodiac year (Dragon)	zodiac year (Dragon)			9.1.2		0			b,bChinese
+301996	856	Lahu (Yellow)	lɔ³	lɔ³	zodiac year (Dragon)	zodiac year (Dragon)			9.1.2		0			b|bChinese
 301997	856	Lahu (Yellow)	ɕɛ¹	ɕɛ¹	zodiac year (Serpent)	zodiac year (Serpent)			2.1.6		0			
 301998	856	Lahu (Yellow)	mv̩³	mv̩³	zodiac year (Horse)	zodiac year (Horse)			9.1.2		0			1431
 301999	856	Lahu (Yellow)	zɔ²	zɔ²	zodiac year (Sheep)	zodiac year (Sheep)			9.1.2		0			6028
@@ -423,7 +423,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 302023	856	Lahu (Yellow)	ȵiu³	ȵiu³	common cattle	common cattle			7.1.7.2		0			
 302024	856	Lahu (Yellow)	mv̩³	mv̩³	horse	horse			2.1.7		0			1431
 302025	856	Lahu (Yellow)	va⁵	va⁵	pig	pig			2.1.12		0			1006
-302026	856	Lahu (Yellow)	a¹tshɤ²	a¹tshɤ²	goat	goat			2.1.8		0			p,5450,1226
+302026	856	Lahu (Yellow)	a¹tshɤ²	a¹tshɤ²	goat	goat			2.1.8		0			5450|p,1226
 302027	856	Lahu (Yellow)	phɯ³	phɯ³	dog	dog			2.1.11		0			1764
 302028	856	Lahu (Yellow)	mɯ¹nɛ⁶	mɯ¹nɛ⁶	cat	cat			2.1.3		0			
 302029	856	Lahu (Yellow)	dzɿ³	dzɿ³	dragon	dragon			2.1.5		0			
@@ -768,7 +768,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 302368	856	Lahu (Yellow)	tsɿ¹~tsɿ¹qhɔ¹	tsɿ¹~tsɿ¹qhɔ¹	market (periodic)	market (periodic)			9.10.6		0			
 302369	856	Lahu (Yellow)	khu³xɔ³kɯ²	khu³xɔ³kɯ²	shop / store	shop / store	n.	n.	9.10.6		0			
 302370	856	Lahu (Yellow)	phv̩¹	phv̩¹	money	money			5.9		0			
-302371	856	Lahu (Yellow)	ɔ²phv̩³~ɔ²ka¹	ɔ²phv̩³~ɔ²ka¹	price	price			5.9		0			p,p,2583,2583,p,p,m,5827
+302371	856	Lahu (Yellow)	ɔ²phv̩³~ɔ²ka¹	ɔ²phv̩³~ɔ²ka¹	price	price			5.9		0			p|p,2583|2583,p|p,5827|m
 302372	856	Lahu (Yellow)	phv̩¹khu⁴	phv̩¹khu⁴	bank (for money)	bank (for money)			9.10.2		0			
 302373	856	Lahu (Yellow)	khɔ²	khɔ²	tax	tax			5.9		0			
 302374	856	Lahu (Yellow)	ɣa³phv̩³	ɣa³phv̩³	wages	wages			5.9		0			m,2583

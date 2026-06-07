@@ -1,3687 +1,3687 @@
 - chapter: 6b
   heading: Colors
   semcat: Col
-  n: '55'
+  n: 55
 - chapter: x
   heading: Errors and apocrypha
   semcat: Error
   cf: '*'
-  n: '1089'
+  n: 1089
 - chapter: '8'
   heading: Grammatical Elements
   semcat: G
-  n: '75'
+  n: 75
 - chapter: '8'
   heading: Ontological
   semcat: G
   subcat: '1'
   cf: x
-  n: '30'
+  n: 30
 - chapter: '8'
   heading: Prepositions
   semcat: G
   subcat: '1.1'
-  n: '18'
+  n: 18
 - chapter: '8'
   heading: Compound
   semcat: G
   subcat: 1.2.1
-  n: '5'
+  n: 5
 - chapter: '8'
   heading: Subordination
   semcat: G
   subcat: 1.2.2
-  n: '5'
+  n: 5
 - chapter: '8'
   heading: Classifiers
   semcat: G
   subcat: '1.3'
-  n: '5'
+  n: 5
 - chapter: '8'
   heading: Articles
   semcat: G
   subcat: '2'
-  n: '4'
+  n: 4
 - chapter: '8'
   heading: Grammatical identifiers
   semcat: G
   subcat: '2.1'
-  n: '19'
+  n: 19
 - chapter: '8'
   heading: Phonological entities
   semcat: G
   subcat: 2.1.1
-  n: '4'
+  n: 4
 - chapter: '8'
   heading: Morphological identifiers
   semcat: G
   subcat: '2.2'
-  n: '5'
+  n: 5
 - chapter: '8'
   heading: Nominative-accusative
   semcat: G
   subcat: 2.3.1
-  n: '5'
+  n: 5
 - chapter: '8'
   heading: Possessive
   semcat: G
   subcat: 2.3.2
-  n: '4'
+  n: 4
 - chapter: '8'
   heading: Affixes
   semcat: G
   subcat: '4'
-  n: '5'
+  n: 5
 - chapter: '8'
   heading: Grammatical case
   semcat: G
   subcat: 4.1.1
-  n: '13'
+  n: 13
 - chapter: '8'
   heading: Animacy
   semcat: G
   subcat: 4.1.2
-  n: '2'
+  n: 2
 - chapter: '8'
   heading: Diminutivizer, intensifier, etc.
   semcat: G
   subcat: 4.1.3
-  n: '3'
+  n: 3
 - chapter: '8'
   heading: 'Person, #, gender'
   semcat: G
   subcat: 4.1.4
-  n: '8'
+  n: 8
 - chapter: '8'
   heading: Verbal
   semcat: G
   subcat: '4.2'
-  n: '5'
+  n: 5
 - chapter: '8'
   heading: Mood
   semcat: G
   subcat: 4.2.1
-  n: '7'
+  n: 7
 - chapter: '8'
   heading: Aspect, (in)transitivity, ergativity, ca
   semcat: G
   subcat: 4.2.4
-  n: '6'
+  n: 6
 - chapter: '8'
   heading: Participles, gerunds, etc.
   semcat: G
   subcat: 4.2.6
-  n: '3'
+  n: 3
 - chapter: '8'
   heading: Nominalizers
   semcat: G
   subcat: 4.2.7
-  n: '3'
+  n: 3
 - chapter: '8'
   heading: Degrees of comparison
   semcat: G
   subcat: 4.3.1
-  n: '7'
+  n: 7
 - chapter: '8'
   heading: Demonstrators
   semcat: G
   subcat: 4.3.2
-  n: '4'
+  n: 4
 - chapter: '8'
   heading: Structuring Words
   semcat: G
   subcat: '5.1'
-  n: '6'
+  n: 6
 - chapter: '8'
   heading: Grammatical functions
   semcat: G
   subcat: '5.2'
-  n: '3'
+  n: 3
 - chapter: '8'
   heading: WH words
   semcat: G
   subcat: '6.1'
-  n: '27'
+  n: 27
 - chapter: '8'
   heading: Affirmative
   semcat: G
   subcat: '7.1'
-  n: '0'
+  n: 0
 - chapter: '8'
   heading: Negative
   semcat: G
   subcat: '7.2'
-  n: '10'
+  n: 10
 - chapter: '8'
   heading: Ejaculations
   semcat: G
   subcat: '8'
-  n: '13'
+  n: 13
 - chapter: 6g
   heading: Measure Words
   semcat: Meas
-  n: '43'
+  n: 43
 - chapter: 9d
   heading: Monetary Tems
   semcat: N$
-  n: '58'
+  n: 58
 - chapter: 5a
   heading: Abstract Entities
   semcat: Nabst
-  n: '114'
+  n: 114
 - chapter: 2a.1
   heading: Animals
   semcat: Nanim
-  n: '0'
+  n: 0
 - chapter: 2a.1
   heading: Bovine
   semcat: Nanim
   subcat: '1'
-  n: '29'
+  n: 29
 - chapter: 2a.1
   heading: Equine
   semcat: Nanim
   subcat: '2'
-  n: '17'
+  n: 17
 - chapter: 2a.1
   heading: Porcine
   semcat: Nanim
   subcat: '3'
-  n: '14'
+  n: 14
 - chapter: 2a.1
   heading: Ovine and Hircine
   semcat: Nanim
   subcat: '4'
-  n: '19'
+  n: 19
 - chapter: 2a.1
   heading: Pachyderms
   semcat: Nanim
   subcat: '5'
-  n: '5'
+  n: 5
 - chapter: 2a.1
   heading: Canine
   semcat: Nanim
   subcat: '6'
-  n: '22'
+  n: 22
 - chapter: 2a.1
   heading: Feline
   semcat: Nanim
   subcat: '7'
-  n: '17'
+  n: 17
 - chapter: 2a.1
   heading: Cervidae
   semcat: Nanim
   subcat: '8'
-  n: '14'
+  n: 14
 - chapter: 2a.1
   heading: Ursine
   semcat: Nanim
   subcat: '9'
-  n: '3'
+  n: 3
 - chapter: 2a.1
   heading: Simian
   semcat: Nanim
   subcat: '10'
-  n: '10'
+  n: 10
 - chapter: 2a.1
   heading: Birds (in general)
   semcat: Nanim
   subcat: '11'
-  n: '9'
+  n: 9
 - chapter: 2a.1
   heading: Fowl (i.e. Domestic Birds)
   semcat: Nanim
   subcat: '11.1'
-  n: '28'
+  n: 28
 - chapter: 2a.1
   heading: Particular birds
   semcat: Nanim
   subcat: '11.2'
-  n: '61'
+  n: 61
 - chapter: 2a.1
   heading: Reptiles and amphibians
   semcat: Nanim
   subcat: '12'
-  n: '25'
+  n: 25
 - chapter: 2a.1
   heading: Fish & Mollusks
   semcat: Nanim
   subcat: '13'
-  n: '38'
+  n: 38
 - chapter: 2a.1
   heading: Insects, Arachnids, & Worm
   semcat: Nanim
   subcat: '14'
-  n: '94'
+  n: 94
 - chapter: 2a.1
   heading: Other Mammals
   semcat: Nanim
   subcat: '15'
-  n: '18'
+  n: 18
 - chapter: 2a.1
   heading: Rodents and Lagomorphs
   semcat: Nanim
   subcat: '16'
-  n: '19'
+  n: 19
 - chapter: 2a.1
   heading: Mythical animals
   semcat: Nanim
   subcat: '17'
-  n: '4'
+  n: 4
 - chapter: 2a.1
   heading: Associated Animal Terms
   semcat: Nanim
   subcat: '18'
-  n: '23'
+  n: 23
 - chapter: 9f
   heading: Artifacts (unclassified as yet)
   semcat: Nart
-  n: '68'
+  n: 68
 - chapter: 1a
   heading: Body parts
   semcat: Nbp
   cf: '*'
-  n: '19'
+  n: 19
 - chapter: 1a
   heading: The Body
   semcat: Nbp
   subcat: '1.0'
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Body
   semcat: Nbp
   subcat: '1.1'
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Flesh/Meat
   semcat: Nbp
   subcat: 1.1.1
-  n: '8'
+  n: 8
 - chapter: 1a
   heading: Lean (Meat)
   semcat: Nbp
   subcat: 1.1.2
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Born/Birth/Give Birth
   semcat: Nbp
   subcat: '1.2'
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Life/Live
   semcat: Nbp
   subcat: 1.2.1
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Breath/Breathe
   semcat: Nbp
   subcat: 1.2.2
-  n: '9'
+  n: 9
 - chapter: 1a
   heading: Existence
   semcat: Nbp
   subcat: 1.2.3
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Hungry
   semcat: Nbp
   subcat: '1.3'
-  n: '8'
+  n: 8
 - chapter: 1a
   heading: Thirsty
   semcat: Nbp
   subcat: 1.3.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Satiated/Full
   semcat: Nbp
   subcat: 1.3.2
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Wake/Conscious
   semcat: Nbp
   subcat: '1.4'
-  n: '13'
+  n: 13
 - chapter: 1a
   heading: Sleep
   semcat: Nbp
   subcat: 1.4.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Dream
   semcat: Nbp
   subcat: 1.4.2
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Strength
   semcat: Nbp
   subcat: '1.5'
-  n: '10'
+  n: 10
 - chapter: 1a
   heading: Sick/Hurt
   semcat: Nbp
   subcat: 1.5.1
-  n: '25'
+  n: 25
 - chapter: 1a
   heading: Swollen/Swell
   semcat: Nbp
   subcat: 1.5.2
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Die
   semcat: Nbp
   subcat: '1.6'
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Carcass/Dead Body
   semcat: Nbp
   subcat: 1.6.1
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Head and Face
   semcat: Nbp
   subcat: '2.0'
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Head
   semcat: Nbp
   subcat: '2.1'
-  n: '13'
+  n: 13
 - chapter: 1a
   heading: Skull
   semcat: Nbp
   subcat: 2.1.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Crown/Pate
   semcat: Nbp
   subcat: 2.1.2
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Fontanel
   semcat: Nbp
   subcat: 2.1.3
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Caul
   semcat: Nbp
   subcat: 2.1.4
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Scalp
   semcat: Nbp
   subcat: 2.1.5
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Horn/Antler
   semcat: Nbp
   subcat: '2.2'
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Comb/Crest
   semcat: Nbp
   subcat: 2.2.1
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Hair of Head
   semcat: Nbp
   subcat: '2.3'
-  n: '13'
+  n: 13
 - chapter: 1a
   heading: Cowlick/Flexure
   semcat: Nbp
   subcat: 2.3.1
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Queue/Braid
   semcat: Nbp
   subcat: 2.3.2
-  n: '11'
+  n: 11
 - chapter: 1a
   heading: Bald
   semcat: Nbp
   subcat: 2.3.3
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Brain
   semcat: Nbp
   subcat: '2.4'
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Face
   semcat: Nbp
   subcat: '2.5'
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Forehead/Temples
   semcat: Nbp
   subcat: 2.5.1
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Jaw/Cheek
   semcat: Nbp
   subcat: 2.5.2
-  n: '16'
+  n: 16
 - chapter: 1a
   heading: Chin
   semcat: Nbp
   subcat: 2.5.3
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Beard/Moustache/Facial Hair
   semcat: Nbp
   subcat: 2.5.5
-  n: '10'
+  n: 10
 - chapter: 1a
   heading: Eye
   semcat: Nbp
   subcat: '2.6'
-  n: '11'
+  n: 11
 - chapter: 1a
   heading: Eyeball
   semcat: Nbp
   subcat: 2.6.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Blink/Wink
   semcat: Nbp
   subcat: 2.6.10
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Eye Illness
   semcat: Nbp
   subcat: 2.6.11
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Iris/Pupil
   semcat: Nbp
   subcat: 2.6.2
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: White of Eye
   semcat: Nbp
   subcat: 2.6.3
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Eyelid
   semcat: Nbp
   subcat: 2.6.4
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Eyelash
   semcat: Nbp
   subcat: 2.6.5
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Eyebrow
   semcat: Nbp
   subcat: 2.6.6
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Tears
   semcat: Nbp
   subcat: 2.6.7
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Eye Sand
   semcat: Nbp
   subcat: 2.6.8
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: See/Look
   semcat: Nbp
   subcat: 2.6.9
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Ear
   semcat: Nbp
   subcat: '2.7'
-  n: '11'
+  n: 11
 - chapter: 1a
   heading: Earlobe
   semcat: Nbp
   subcat: 2.7.1
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Eardrum
   semcat: Nbp
   subcat: 2.7.2
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Earwax
   semcat: Nbp
   subcat: 2.7.3
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Hear/Listen
   semcat: Nbp
   subcat: 2.7.4
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Deaf
   semcat: Nbp
   subcat: 2.7.5
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Nose
   semcat: Nbp
   subcat: '2.8'
-  n: '9'
+  n: 9
 - chapter: 1a
   heading: Nostril
   semcat: Nbp
   subcat: 2.8.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Alae Nasi
   semcat: Nbp
   subcat: 2.8.2
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Mouth and Throat
   semcat: Nbp
   subcat: '3.0'
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Mouth
   semcat: Nbp
   subcat: '3.1'
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Palate
   semcat: Nbp
   subcat: 3.1.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Beak/Bill
   semcat: Nbp
   subcat: 3.1.2
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Yawn/Gape
   semcat: Nbp
   subcat: 3.1.3
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Lip
   semcat: Nbp
   subcat: '3.2'
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Suck/Suckle
   semcat: Nbp
   subcat: 3.2.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Kiss
   semcat: Nbp
   subcat: 3.2.2
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Tongue
   semcat: Nbp
   subcat: '3.3'
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Tooth
   semcat: Nbp
   subcat: '3.4'
-  n: '8'
+  n: 8
 - chapter: 1a
   heading: Eyetooth/Tusk/Canine Tooth
   semcat: Nbp
   subcat: 3.4.1
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Molar
   semcat: Nbp
   subcat: 3.4.2
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Gums
   semcat: Nbp
   subcat: 3.4.3
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Throat/Pharanx
   semcat: Nbp
   subcat: '3.5'
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Uvula
   semcat: Nbp
   subcat: 3.5.1
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Windpipe/Trachea
   semcat: Nbp
   subcat: 3.5.2
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Gill
   semcat: Nbp
   subcat: 3.5.3
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Adam's Apple/Larynx
   semcat: Nbp
   subcat: 3.5.4
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Gullet/Esophagus
   semcat: Nbp
   subcat: 3.5.5
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Drunkedness
   semcat: Nbp
   subcat: 3.5.8
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Torso
   semcat: Nbp
   subcat: '4.0'
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Torso/Trunk
   semcat: Nbp
   subcat: '4.1'
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Buttocks/Rump
   semcat: Nbp
   subcat: '4.10'
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Tail
   semcat: Nbp
   subcat: 4.10.1
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Anus/Rectum
   semcat: Nbp
   subcat: 4.10.2
-  n: '8'
+  n: 8
 - chapter: 1a
   heading: Neck
   semcat: Nbp
   subcat: '4.2'
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Nape of Neck
   semcat: Nbp
   subcat: 4.2.1
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Goiter
   semcat: Nbp
   subcat: 4.2.2
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Shoulder
   semcat: Nbp
   subcat: '4.3'
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Collarbone/Clavicle
   semcat: Nbp
   subcat: 4.3.1
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Shoulderblade/Scapula
   semcat: Nbp
   subcat: 4.3.2
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Front
   semcat: Nbp
   subcat: '4.4'
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Bosom/Lap
   semcat: Nbp
   subcat: 4.4.1
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Chest
   semcat: Nbp
   subcat: 4.4.2
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Ribs/Ribcage
   semcat: Nbp
   subcat: 4.4.3
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Chest Hair
   semcat: Nbp
   subcat: 4.4.4
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Sides
   semcat: Nbp
   subcat: '4.5'
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Waist
   semcat: Nbp
   subcat: '4.6'
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Belly/Abdomen
   semcat: Nbp
   subcat: '4.7'
-  n: '9'
+  n: 9
 - chapter: 1a
   heading: Back
   semcat: Nbp
   subcat: '4.8'
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Lower Back/Small of Back
   semcat: Nbp
   subcat: 4.8.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Spine/Backbone
   semcat: Nbp
   subcat: 4.8.2
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Hunchback
   semcat: Nbp
   subcat: 4.8.3
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Loins/Groin
   semcat: Nbp
   subcat: '4.9'
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Crotch/Fork
   semcat: Nbp
   subcat: 4.9.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Hips/Pelvis/Haunches
   semcat: Nbp
   subcat: 4.9.2
-  n: '9'
+  n: 9
 - chapter: 1a
   heading: Arm, hand, wing
   semcat: Nbp
   subcat: '5'
   cf: x
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Hand
   semcat: Nbp
   subcat: '5.1'
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Fist
   semcat: Nbp
   subcat: 5.1.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Wing
   semcat: Nbp
   subcat: '5.10'
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Fin
   semcat: Nbp
   subcat: 5.10.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Joint
   semcat: Nbp
   subcat: '5.11'
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Wrist
   semcat: Nbp
   subcat: 5.11.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Ankle
   semcat: Nbp
   subcat: 5.11.2
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Elbow
   semcat: Nbp
   subcat: 5.11.3
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Knee
   semcat: Nbp
   subcat: 5.11.4
-  n: '9'
+  n: 9
 - chapter: 1a
   heading: Knuckle/Phalanx
   semcat: Nbp
   subcat: 5.11.5
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Cubit
   semcat: Nbp
   subcat: '5.14'
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Span/Handspan
   semcat: Nbp
   subcat: '5.15'
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Fathom/Cord
   semcat: Nbp
   subcat: '5.16'
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Nail
   semcat: Nbp
   subcat: '5.17'
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Fingernail
   semcat: Nbp
   subcat: 5.17.1
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Toenail
   semcat: Nbp
   subcat: 5.17.2
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Cuticle
   semcat: Nbp
   subcat: 5.17.3
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Claw/Talon/Pincer
   semcat: Nbp
   subcat: 5.17.4
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Numb/Paralyzed
   semcat: Nbp
   subcat: '5.18'
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Lame/Limp
   semcat: Nbp
   subcat: '5.19'
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Foot
   semcat: Nbp
   subcat: '5.2'
-  n: '10'
+  n: 10
 - chapter: 1a
   heading: Heel
   semcat: Nbp
   subcat: 5.2.1
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Instep
   semcat: Nbp
   subcat: 5.2.2
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Arch
   semcat: Nbp
   subcat: 5.2.3
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Footprint
   semcat: Nbp
   subcat: 5.2.5
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Hands and Feet/Arms and Legs
   semcat: Nbp
   subcat: '5.3'
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Limb/Branch
   semcat: Nbp
   subcat: 5.3.1
-  n: '13'
+  n: 13
 - chapter: 1a
   heading: Hoof/Paw
   semcat: Nbp
   subcat: '5.4'
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Palm/Sole
   semcat: Nbp
   subcat: '5.6'
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Finger/Toe
   semcat: Nbp
   subcat: '5.7'
-  n: '17'
+  n: 17
 - chapter: 1a
   heading: Thumb/Big Toe
   semcat: Nbp
   subcat: 5.7.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Other Specific Digits
   semcat: Nbp
   subcat: 5.7.2
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Fingerprint
   semcat: Nbp
   subcat: 5.7.3
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Arm
   semcat: Nbp
   subcat: '5.8'
-  n: '8'
+  n: 8
 - chapter: 1a
   heading: Bicep/Upper Arm
   semcat: Nbp
   subcat: 5.8.1
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Forearm
   semcat: Nbp
   subcat: 5.8.2
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Underarm/Armpit
   semcat: Nbp
   subcat: 5.8.3
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Tickle
   semcat: Nbp
   subcat: 5.8.4
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Leg
   semcat: Nbp
   subcat: '5.9'
-  n: '12'
+  n: 12
 - chapter: 1a
   heading: Thigh
   semcat: Nbp
   subcat: 5.9.1
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Shin/Tibia
   semcat: Nbp
   subcat: 5.9.2
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Calf
   semcat: Nbp
   subcat: 5.9.3
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Diffuse Organs
   semcat: Nbp
   subcat: '6.0'
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Body Hair/Fur
   semcat: Nbp
   subcat: '6.1'
-  n: '14'
+  n: 14
 - chapter: 1a
   heading: Feather
   semcat: Nbp
   subcat: 6.1.1
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Wool
   semcat: Nbp
   subcat: 6.1.3
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Blood/Bleed
   semcat: Nbp
   subcat: '6.2'
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Blood Vessel/Vein/Artery
   semcat: Nbp
   subcat: 6.2.1
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Bone
   semcat: Nbp
   subcat: '6.3'
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Skeleton
   semcat: Nbp
   subcat: 6.3.1
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Breastbone/Sternum
   semcat: Nbp
   subcat: 6.3.2
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Spine/Backbone
   semcat: Nbp
   subcat: 6.3.3
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Cartilage/Gristle
   semcat: Nbp
   subcat: 6.3.4
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Marrow
   semcat: Nbp
   subcat: 6.3.5
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Fat
   semcat: Nbp
   subcat: '6.4'
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Oil/Grease
   semcat: Nbp
   subcat: 6.4.1
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Skin
   semcat: Nbp
   subcat: '6.5'
-  n: '11'
+  n: 11
 - chapter: 1a
   heading: Hide/Leather
   semcat: Nbp
   subcat: 6.5.1
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Scale (of fish, snake)
   semcat: Nbp
   subcat: 6.5.2
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Skin Blemish/Freckle
   semcat: Nbp
   subcat: 6.5.3
-  n: '23'
+  n: 23
 - chapter: 1a
   heading: Itch/Scratch
   semcat: Nbp
   subcat: 6.5.4
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Obscure Internal Channels
   semcat: Nbp
   subcat: '6.6'
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Sinew/Tendon/Ligament
   semcat: Nbp
   subcat: 6.6.1
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Muscle
   semcat: Nbp
   subcat: 6.6.2
-  n: '10'
+  n: 10
 - chapter: 1a
   heading: Nerve
   semcat: Nbp
   subcat: 6.6.3
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Lymph
   semcat: Nbp
   subcat: 6.6.4
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Internal Organs
   semcat: Nbp
   subcat: '7.0'
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Heart
   semcat: Nbp
   subcat: '7.1'
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Heartbeat/Pulse
   semcat: Nbp
   subcat: 7.1.1
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Lung
   semcat: Nbp
   subcat: '7.2'
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Liver
   semcat: Nbp
   subcat: '7.3'
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Gall/Bile
   semcat: Nbp
   subcat: 7.3.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Spleen
   semcat: Nbp
   subcat: '7.4'
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Kidney
   semcat: Nbp
   subcat: '7.5'
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Stomach
   semcat: Nbp
   subcat: '7.6'
-  n: '10'
+  n: 10
 - chapter: 1a
   heading: Gizzard/Crop
   semcat: Nbp
   subcat: 7.6.1
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Intestines/Bowels/Guts
   semcat: Nbp
   subcat: '7.7'
-  n: '14'
+  n: 14
 - chapter: 1a
   heading: Bladder
   semcat: Nbp
   subcat: '7.8'
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Sweat
   semcat: Nbp
   subcat: '8.2'
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Pore
   semcat: Nbp
   subcat: 8.2.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Body Dirt
   semcat: Nbp
   subcat: 8.2.2
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Snot/Nasal Mucus
   semcat: Nbp
   subcat: '8.3'
-  n: '8'
+  n: 8
 - chapter: 1a
   heading: Sneeze
   semcat: Nbp
   subcat: 8.3.1
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Snore
   semcat: Nbp
   subcat: 8.3.2
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Spit/Saliva
   semcat: Nbp
   subcat: '8.4'
-  n: '9'
+  n: 9
 - chapter: 1a
   heading: Vomit
   semcat: Nbp
   subcat: 8.4.2
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Hiccup
   semcat: Nbp
   subcat: 8.4.5
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Urine/Piss
   semcat: Nbp
   subcat: '8.5'
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Feces/Shit/Dung/Filth/Excremen
   semcat: Nbp
   subcat: '8.6'
-  n: '19'
+  n: 19
 - chapter: 1a
   heading: Fart
   semcat: Nbp
   subcat: 8.6.2
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Pus/Gleet
   semcat: Nbp
   subcat: '8.7'
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Abcess/Ulcer
   semcat: Nbp
   subcat: 8.7.1
-  n: '8'
+  n: 8
 - chapter: 1a
   heading: Speak/Say/Tell
   semcat: Nbp
   subcat: '8.8'
-  n: '8'
+  n: 8
 - chapter: 1a
   heading: Stutter/Stammer
   semcat: Nbp
   subcat: 8.8.2
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Laugh
   semcat: Nbp
   subcat: '8.9'
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Reproductive System
   semcat: Nbp
   subcat: '9.0'
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Genitals/Pudenda
   semcat: Nbp
   subcat: '9.1'
-  n: '10'
+  n: 10
 - chapter: 1a
   heading: Copulate/Fuck/Intercourse
   semcat: Nbp
   subcat: 9.1.1
-  n: '7'
+  n: 7
 - chapter: 1a
   heading: Male
   semcat: Nbp
   subcat: '9.2'
-  n: '11'
+  n: 11
 - chapter: 1a
   heading: Penis
   semcat: Nbp
   subcat: 9.2.1
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Foreskin/Prepuce
   semcat: Nbp
   subcat: 9.2.1.1
-  n: '3'
+  n: 3
 - chapter: 1a
   heading: Glans penis
   semcat: Nbp
   subcat: 9.2.1.2
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Testicles/Virility
   semcat: Nbp
   subcat: 9.2.2
-  n: '9'
+  n: 9
 - chapter: 1a
   heading: Scrotum/Pouch
   semcat: Nbp
   subcat: 9.2.2.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Sperm/Semen
   semcat: Nbp
   subcat: 9.2.2.2
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Ejaculate
   semcat: Nbp
   subcat: 9.2.2.3
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Male Pubic Hair
   semcat: Nbp
   subcat: 9.2.3
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Female
   semcat: Nbp
   subcat: '9.3'
-  n: '9'
+  n: 9
 - chapter: 1a
   heading: Breast
   semcat: Nbp
   subcat: 9.3.1
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Milk
   semcat: Nbp
   subcat: 9.3.1.1
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Wean
   semcat: Nbp
   subcat: 9.3.1.3
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Vagina
   semcat: Nbp
   subcat: 9.3.2
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Vulva/Labia
   semcat: Nbp
   subcat: 9.3.2.1
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Clitoris
   semcat: Nbp
   subcat: 9.3.2.2
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Egg
   semcat: Nbp
   subcat: 9.3.3
-  n: '10'
+  n: 10
 - chapter: 1a
   heading: Menstruation
   semcat: Nbp
   subcat: 9.3.3.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Womb/Uterus
   semcat: Nbp
   subcat: 9.3.4
-  n: '4'
+  n: 4
 - chapter: 1a
   heading: Pregnant
   semcat: Nbp
   subcat: 9.3.4.1
-  n: '5'
+  n: 5
 - chapter: 1a
   heading: Amniotic sac/Amniotic fluid
   semcat: Nbp
   subcat: 9.3.4.2
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Placenta/Afterbirth
   semcat: Nbp
   subcat: 9.3.4.3
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Female Pubic Hair
   semcat: Nbp
   subcat: 9.3.5
-  n: '0'
+  n: 0
 - chapter: 1a
   heading: Navel/Center
   semcat: Nbp
   subcat: '9.4'
-  n: '6'
+  n: 6
 - chapter: 1a
   heading: Umbilical Cord
   semcat: Nbp
   subcat: 9.4.1
-  n: '2'
+  n: 2
 - chapter: 1a
   heading: Mind
   semcat: Nbp
   subcat: '10.0'
-  n: '10'
+  n: 10
 - chapter: 9a
   heading: Containers
   semcat: Ncont
-  n: '52'
+  n: 52
 - chapter: 9a
   heading: Conveyances
   semcat: Nconv
-  n: '30'
+  n: 30
 - chapter: 9b
   heading: Cooking Implements
   semcat: Ncook
-  n: '42'
+  n: 42
 - chapter: 9c
   heading: Construction
   semcat: Ncstr
-  n: '27'
+  n: 27
 - chapter: 9d
   heading: Items of Culture
   semcat: Ncult
-  n: '69'
+  n: 69
 - chapter: 9c
   heading: Dwellings
   semcat: Ndwel
-  n: '29'
+  n: 29
 - chapter: 9c
   heading: Kinds of dwellings
   semcat: Ndwel
   subcat: '1'
-  n: '18'
+  n: 18
 - chapter: 9c
   heading: Rooms
   semcat: Ndwel
   subcat: '2'
-  n: '7'
+  n: 7
 - chapter: 9c
   heading: Parts of the structure
   semcat: Ndwel
   subcat: '3'
-  n: '13'
+  n: 13
 - chapter: 9c
   heading: Internal
   semcat: Ndwel
   subcat: '3.1'
-  n: '16'
+  n: 16
 - chapter: 9c
   heading: External
   semcat: Ndwel
   subcat: '3.2'
-  n: '9'
+  n: 9
 - chapter: 9c
   heading: Furnishings
   semcat: Ndwel
   subcat: '4'
-  n: '31'
+  n: 31
 - chapter: 9c
   heading: Outdoor/Temporary structures
   semcat: Ndwel
   subcat: '5'
-  n: '10'
+  n: 10
 - chapter: 9c
   heading: General
   semcat: Ndwel
   subcat: '6'
-  n: '9'
+  n: 9
 - chapter: 9c
   heading: Fasteners
   semcat: Nfast
   cf: '*'
-  n: '11'
+  n: 11
 - chapter: 2c.3
   heading: Objects associated with fire
   semcat: Nfire
   subcat: '1'
-  n: '21'
+  n: 21
 - chapter: 2c.3
   heading: Fire, flames, and burnt things
   semcat: Nfire
   subcat: '3.3'
-  n: '28'
+  n: 28
 - chapter: 9b
   heading: Culinary  nouns
   semcat: Nfood
   cf: '*'
-  n: '48'
+  n: 48
 - chapter: 3a
   heading: Ethnonyms/Place names
   semcat: Nhum
   subcat: '1'
-  n: '56'
+  n: 56
 - chapter: 3a
   heading: Pronouns
   semcat: Nhum
   subcat: '2'
-  n: '27'
+  n: 27
 - chapter: 3a
   heading: Roles
   semcat: Nhum
   subcat: '3.0'
-  n: '0'
+  n: 0
 - chapter: 3a
   heading: Occupations
   semcat: Nhum
   subcat: '3.1'
-  n: '17'
+  n: 17
 - chapter: 3a
   heading: Agriculture/Husbandry/Hunting
   semcat: Nhum
   subcat: 3.1.1
-  n: '6'
+  n: 6
 - chapter: 3a
   heading: Commercial Roles
   semcat: Nhum
   subcat: 3.1.2
-  n: '2'
+  n: 2
 - chapter: 3a
   heading: Artists and Artisans
   semcat: Nhum
   subcat: 3.1.4
-  n: '13'
+  n: 13
 - chapter: 3a
   heading: Health-care
   semcat: Nhum
   subcat: 3.1.5
-  n: '5'
+  n: 5
 - chapter: 3a
   heading: Ceremonial
   semcat: Nhum
   subcat: 3.1.6
-  n: '0'
+  n: 0
 - chapter: 3a
   heading: General
   semcat: Nhum
   subcat: 3.1.7
-  n: '0'
+  n: 0
 - chapter: 3a
   heading: Teacher-Student roles
   semcat: Nhum
   subcat: '3.2'
-  n: '3'
+  n: 3
 - chapter: 3a
   heading: General roles
   semcat: Nhum
   subcat: '3.3'
-  n: '14'
+  n: 14
 - chapter: 3a
   heading: Religious Roles
   semcat: Nhum
   subcat: '4'
-  n: '13'
+  n: 13
 - chapter: 3a
   heading: Nobility
   semcat: Nhum
   subcat: '5'
-  n: '15'
+  n: 15
 - chapter: 3a
   heading: Titles
   semcat: Nhum
   subcat: 5.1.2
-  n: '6'
+  n: 6
 - chapter: 3a
   heading: Civil leaders
   semcat: Nhum
   subcat: '5.2'
-  n: '6'
+  n: 6
 - chapter: 3a
   heading: Owners
   semcat: Nhum
   subcat: '5.4'
-  n: '5'
+  n: 5
 - chapter: 3a
   heading: Military roles
   semcat: Nhum
   subcat: '6'
-  n: '12'
+  n: 12
 - chapter: 3a
   heading: Challenged
   semcat: Nhum
   subcat: '7.1'
-  n: '9'
+  n: 9
 - chapter: 3a
   heading: Marital roles
   semcat: Nhum
   subcat: '7.2'
-  n: '15'
+  n: 15
 - chapter: 3a
   heading: Sporting
   semcat: Nhum
   subcat: '8'
-  n: '5'
+  n: 5
 - chapter: 3a
   heading: Stages of growth
   semcat: Nhum
   subcat: '9.1'
-  n: '16'
+  n: 16
 - chapter: 3a
   heading: People
   semcat: Nhum
   subcat: '9.2'
-  n: '2'
+  n: 2
 - chapter: 3a
   heading: Servants
   semcat: Nhum
   subcat: '10'
-  n: '9'
+  n: 9
 - chapter: 3a
   heading: Criminals
   semcat: Nhum
   subcat: '11.1'
-  n: '9'
+  n: 9
 - chapter: 3a
   heading: Scary things
   semcat: Nhum
   subcat: '11.2'
-  n: '12'
+  n: 12
 - chapter: 3a
   heading: Insulting names
   semcat: Nhum
   subcat: '11.3'
-  n: '8'
+  n: 8
 - chapter: 3a
   heading: Groups
   semcat: Nhum
   subcat: '12'
-  n: '14'
+  n: 14
 - chapter: 3a
   heading: Clans and neighbors
   semcat: Nhum
   subcat: '12.2'
-  n: '21'
+  n: 21
 - chapter: 3a
   heading: Outsiders
   semcat: Nhum
   subcat: '12.3'
-  n: '9'
+  n: 9
 - chapter: 3a
   heading: Friends and Acquaintances
   semcat: Nhum
   subcat: '12.4'
-  n: '0'
+  n: 0
 - chapter: 3a
   heading: Other Collective terms
   semcat: Nhum
   subcat: '13'
-  n: '11'
+  n: 11
 - chapter: 9e
   heading: Husbandry
   semcat: Nhusb
   cf: '*'
-  n: '37'
+  n: 37
 - chapter: 3b
   heading: Previous generation
   semcat: Nkin
   subcat: '1'
-  n: '33'
+  n: 33
 - chapter: 3b
   heading: Same generation
   semcat: Nkin
   subcat: '2'
-  n: '14'
+  n: 14
 - chapter: 3b
   heading: Later generation
   semcat: Nkin
   subcat: '3'
-  n: '28'
+  n: 28
 - chapter: 3b
   heading: Related by marriage
   semcat: Nkin
   subcat: '4'
-  n: '22'
+  n: 22
 - chapter: 3b
   heading: General
   semcat: Nkin
   subcat: '5'
-  n: '15'
+  n: 15
 - chapter: 9d
   heading: Leisure
   semcat: Nleis
   cf: '*'
-  n: '32'
+  n: 32
 - chapter: 6k
   heading: Roads and Ways
   semcat: Nloc
   subcat: '1'
-  n: '20'
+  n: 20
 - chapter: 6k
   heading: Waterways/Having to do with water
   semcat: Nloc
   subcat: '2'
-  n: '16'
+  n: 16
 - chapter: 6k
   heading: Governable units (towns, parts of towns)
   semcat: Nloc
   subcat: '3'
-  n: '22'
+  n: 22
 - chapter: 6k
   heading: Farm/Agricultural places
   semcat: Nloc
   subcat: '4'
-  n: '12'
+  n: 12
 - chapter: 6k
   heading: Places in general, countries
   semcat: Nloc
   subcat: '4.0'
-  n: '43'
+  n: 43
 - chapter: 6k
   heading: Functional buildings/places
   semcat: Nloc
   subcat: '5'
-  n: '22'
+  n: 22
 - chapter: 9a
   heading: Diseases
   semcat: Nmed
   subcat: '1'
-  n: '30'
+  n: 30
 - chapter: 9a
   heading: Instruments and therapies
   semcat: Nmed
   subcat: '2'
-  n: '17'
+  n: 17
 - chapter: 9a
   heading: Musical objects
   semcat: Nmus
   cf: '*'
-  n: '48'
+  n: 48
 - chapter: 2c.1
   heading: Weather and seasons
   semcat: Nnat
   subcat: '1'
-  n: '45'
+  n: 45
 - chapter: 2c.1
   heading: Planets/Meteorological objects/Sky
   semcat: Nnat
   subcat: '3'
-  n: '29'
+  n: 29
 - chapter: 2c.1
   heading: Water and other liquids
   semcat: Nnat
   subcat: '4'
-  n: '61'
+  n: 61
 - chapter: 2c.1
   heading: Elements, metals, alloys
   semcat: Nnat
   subcat: '5'
-  n: '41'
+  n: 41
 - chapter: 2c.1
   heading: Landforms and geographical features
   semcat: Nnat
   subcat: '6'
-  n: '69'
+  n: 69
 - chapter: 2c.1
   heading: Natural disasters
   semcat: Nnat
   subcat: '7'
-  n: '7'
+  n: 7
 - chapter: 2c.1
   heading: Cracks/Chasms/Crevices
   semcat: Nnat
   subcat: '8'
-  n: '28'
+  n: 28
 - chapter: 2c.1
   heading: Organic matter/Organic compounds
   semcat: Nnat
   subcat: '9'
-  n: '7'
+  n: 7
 - chapter: 2c.1
   heading: Rocks and minerals
   semcat: Nnat
   subcat: '10'
-  n: '28'
+  n: 28
 - chapter: 2c.1
   heading: Light or lack of light
   semcat: Nnat
   subcat: '11'
-  n: '19'
+  n: 19
 - chapter: 2c.1
   heading: Ground/Earth/Soil/Dirt
   semcat: Nnat
   subcat: '12'
-  n: '37'
+  n: 37
 - chapter: 9d
   heading: Ornaments
   semcat: Norn
   cf: '*'
-  n: '17'
+  n: 17
 - chapter: 3c
   heading: Footwear
   semcat: Npers
   subcat: '1'
-  n: '15'
+  n: 15
 - chapter: 3c
   heading: Clothes (general)
   semcat: Npers
   subcat: '2.1'
-  n: '12'
+  n: 12
 - chapter: 3c
   heading: Head
   semcat: Npers
   subcat: 2.1.1
-  n: '17'
+  n: 17
 - chapter: 3c
   heading: Upper body
   semcat: Npers
   subcat: 2.1.2
-  n: '8'
+  n: 8
 - chapter: 3c
   heading: Lower body
   semcat: Npers
   subcat: 2.1.3
-  n: '17'
+  n: 17
 - chapter: 3c
   heading: Special clothes and equipment
   semcat: Npers
   subcat: '2.2'
-  n: '18'
+  n: 18
 - chapter: 3c
   heading: Parts of clothing
   semcat: Npers
   subcat: '2.3'
-  n: '10'
+  n: 10
 - chapter: 3c
   heading: Jewelry and Accessories
   semcat: Npers
   subcat: '3'
-  n: '31'
+  n: 31
 - chapter: 3c
   heading: Toiletries
   semcat: Npers
   subcat: '4'
-  n: '7'
+  n: 7
 - chapter: 9d
   heading: Religion
   semcat: Nrel
   cf: '*'
-  n: '68'
+  n: 68
 - chapter: 9d
   heading: Deities/Spiritual Beings
   semcat: Nrel
   subcat: '1.1'
-  n: '7'
+  n: 7
 - chapter: 9d
   heading: Spiritual Beings
   semcat: Nrel
   subcat: '1.2'
-  n: '6'
+  n: 6
 - chapter: 9d
   heading: General/Other Religious
   semcat: Nrel
   subcat: '1.3'
-  n: '2'
+  n: 2
 - chapter: 9d
   heading: Occupations
   semcat: Nrel
   subcat: '2.1'
-  n: '5'
+  n: 5
 - chapter: 9d
   heading: Group appellation
   semcat: Nrel
   subcat: '2.2'
-  n: '2'
+  n: 2
 - chapter: 9d
   heading: Religious persons/things
   semcat: Nrel
   subcat: '2.3'
-  n: '0'
+  n: 0
 - chapter: 9d
   heading: Religious Events
   semcat: Nrel
   subcat: '3.1'
-  n: '8'
+  n: 8
 - chapter: 9d
   heading: Magical
   semcat: Nrel
   subcat: '3.2'
-  n: '6'
+  n: 6
 - chapter: 9d
   heading: Heaven/Hell
   semcat: Nrel
   subcat: '4'
   cf: x
-  n: '4'
+  n: 4
 - chapter: 9a
   heading: Rope
   semcat: Nrope
   cf: '*'
-  n: '26'
+  n: 26
 - chapter: 6e
   heading: Shape and size
   semcat: Nshiz
   cf: '*'
-  n: '62'
+  n: 62
 - chapter: 9d
   heading: Social interactions
   semcat: Nsoc
   cf: '*'
-  n: '47'
+  n: 47
 - chapter: 6i
   heading: Adverbial uses
   semcat: Ntime
-  n: '28'
+  n: 28
 - chapter: 6i
   heading: Months and Years
   semcat: Ntime
   subcat: '1'
-  n: '21'
+  n: 21
 - chapter: 6i
   heading: Days
   semcat: Ntime
   subcat: '2'
-  n: '25'
+  n: 25
 - chapter: 6i
   heading: Hours
   semcat: Ntime
   subcat: '3'
-  n: '25'
+  n: 25
 - chapter: 6i
   heading: Other Intervals
   semcat: Ntime
   subcat: '4'
-  n: '34'
+  n: 34
 - chapter: 6i
   heading: Years
   semcat: Ntime
   subcat: '5'
-  n: '0'
+  n: 0
 - chapter: 9a
   heading: Tools
   semcat: Ntool
   cf: '*'
-  n: '40'
+  n: 40
 - chapter: 9a
   heading: Agricultural use
   semcat: Ntool
   subcat: '1'
-  n: '16'
+  n: 16
 - chapter: 9a
   heading: Home/Non-specialized use
   semcat: Ntool
   subcat: '2'
-  n: '15'
+  n: 15
 - chapter: 9a
   heading: Cutting/Boring
   semcat: Ntool
   subcat: '3'
-  n: '13'
+  n: 13
 - chapter: 9a
   heading: Workshop use/Equipment
   semcat: Ntool
   subcat: '4'
-  n: '8'
+  n: 8
 - chapter: 9a
   heading: Equipment
   semcat: Ntool
   subcat: '6'
   cf: x
-  n: '8'
+  n: 8
 - chapter: 9a
   heading: Textile
   semcat: Ntxtl
   cf: '*'
-  n: '58'
+  n: 58
 - chapter: 6h
   heading: Numbers and numeric expression
   semcat: Num
   cf: '*'
-  n: '135'
+  n: 135
 - chapter: 2b.1
   heading: Names of trees and shrubs
   semcat: Nveg
   subcat: '1.1'
-  n: '50'
+  n: 50
 - chapter: 2b.1
   heading: Plant parts and types
   semcat: Nveg
   subcat: '1.2'
-  n: '70'
+  n: 70
 - chapter: 2b.1
   heading: Seeds and flowers, nuts
   semcat: Nveg
   subcat: '3.1'
-  n: '76'
+  n: 76
 - chapter: 2b.1
   heading: Fruits and vegetables
   semcat: Nveg
   subcat: '3.2'
-  n: '66'
+  n: 66
 - chapter: 2b.1
   heading: Leafy vegetables
   semcat: Nveg
   subcat: 3.2.1
-  n: '20'
+  n: 20
 - chapter: 2b.1
   heading: Extracts and processed forms
   semcat: Nveg
   subcat: '3.3'
-  n: '15'
+  n: 15
 - chapter: 2b.1
   heading: Spices
   semcat: Nveg
   subcat: 3.3.1
-  n: '21'
+  n: 21
 - chapter: 2b.1
   heading: Other ground and milled food
   semcat: Nveg
   subcat: 3.3.2
-  n: '19'
+  n: 19
 - chapter: 2b.1
   heading: Juices, beers, etc.
   semcat: Nveg
   subcat: 3.3.3
-  n: '19'
+  n: 19
 - chapter: 2b.1
   heading: Building, Non-edible
   semcat: Nveg
   subcat: 3.3.4
-  n: '15'
+  n: 15
 - chapter: 2b.1
   heading: Leaves
   semcat: Nveg
   subcat: '3.4'
-  n: '8'
+  n: 8
 - chapter: 2b.1
   heading: Fungi
   semcat: Nveg
   subcat: '4.1'
-  n: '22'
+  n: 22
 - chapter: 2b.1
   heading: Other wild plants
   semcat: Nveg
   subcat: '4.2'
-  n: '17'
+  n: 17
 - chapter: 2b.1
   heading: Vegetative/Agricultural activity
   semcat: Nveg
   subcat: '5'
-  n: '3'
+  n: 3
 - chapter: 9e
   heading: War and violence
   semcat: Nwar
   cf: '*'
-  n: '43'
+  n: 43
 - chapter: 9a
   heading: Waste products
   semcat: Nwast
   cf: '*'
-  n: '18'
+  n: 18
 - chapter: 9a
   heading: Writing Implements
   semcat: Nwrit
-  n: '32'
+  n: 32
 - chapter: 6a
   heading: Sounds
   semcat: Sound
   cf: '*'
-  n: '51'
+  n: 51
 - chapter: 6j
   heading: Spatial terms
   semcat: Spat
   cf: '*'
-  n: '19'
+  n: 19
 - chapter: 6j
   heading: Up
   semcat: Spat
   subcat: '1'
-  n: '19'
+  n: 19
 - chapter: 6j
   heading: Down
   semcat: Spat
   subcat: '2'
-  n: '12'
+  n: 12
 - chapter: 6j
   heading: Sideways
   semcat: Spat
   subcat: '3'
-  n: '10'
+  n: 10
 - chapter: 6j
   heading: Apart
   semcat: Spat
   subcat: '4'
-  n: '8'
+  n: 8
 - chapter: 6j
   heading: Amid
   semcat: Spat
   subcat: '5'
-  n: '10'
+  n: 10
 - chapter: 6j
   heading: Around
   semcat: Spat
   subcat: '6'
-  n: '2'
+  n: 2
 - chapter: 6j
   heading: Extent
   semcat: Spat
   subcat: '7'
-  n: '31'
+  n: 31
 - chapter: 6j
   heading: Directions
   semcat: Spat
   subcat: '8'
-  n: '39'
+  n: 39
 - chapter: 5b
   heading: Abstract verbs
   semcat: Vabst
   cf: '*'
-  n: '43'
+  n: 43
 - chapter: 5b
   heading: Be
   semcat: Vabst
   subcat: 1.2.3
   cf: x
-  n: '15'
+  n: 15
 - chapter: 4f.3
   heading: Acquisitions
   semcat: Vacq
   cf: '*'
-  n: '38'
+  n: 38
 - chapter: 4a
   heading: with Patient
   semcat: Vact
-  n: '127'
+  n: 127
 - chapter: 4a
   heading: Affect
   semcat: Vact
   subcat: '1'
   cf: x
-  n: '33'
+  n: 33
 - chapter: 4a
   heading: To do/act
   semcat: Vact
   subcat: '1.1'
-  n: '8'
+  n: 8
 - chapter: 4a
   heading: Redo, repeat
   semcat: Vact
   subcat: 1.1.2
-  n: '6'
+  n: 6
 - chapter: 4a
   heading: Play
   semcat: Vact
   subcat: '1.3'
-  n: '6'
+  n: 6
 - chapter: 4a
   heading: Lie
   semcat: Vact
   subcat: '1.4'
-  n: '0'
+  n: 0
 - chapter: 4a
   heading: Sit
   semcat: Vact
   subcat: 1.4.1
-  n: '4'
+  n: 4
 - chapter: 4a
   heading: Sprawl
   semcat: Vact
   subcat: 1.4.2.1
-  n: '3'
+  n: 3
 - chapter: 4a
   heading: Fall
   semcat: Vact
   subcat: 1.4.4
-  n: '2'
+  n: 2
 - chapter: 4a
   heading: Hang
   semcat: Vact
   subcat: '1.5'
-  n: '6'
+  n: 6
 - chapter: 4a
   heading: Wait
   semcat: Vact
   subcat: '1.6'
-  n: '4'
+  n: 4
 - chapter: 4a
   heading: Assorted action verbs
   semcat: Vact
   subcat: '2.1'
   cf: x
-  n: '161'
+  n: 161
 - chapter: 4a
   heading: Move an object
   semcat: Vact
   subcat: '2.2'
-  n: '62'
+  n: 62
 - chapter: 4a
   heading: Carry
   semcat: Vact
   subcat: 2.2.1
-  n: '6'
+  n: 6
 - chapter: 4a
   heading: Bring
   semcat: Vact
   subcat: 2.2.3
-  n: '3'
+  n: 3
 - chapter: 4a
   heading: Push
   semcat: Vact
   subcat: 2.3.1
-  n: '9'
+  n: 9
 - chapter: 4a
   heading: Pull
   semcat: Vact
   subcat: 2.3.2
-  n: '2'
+  n: 2
 - chapter: 4a
   heading: Kick
   semcat: Vact
   subcat: 2.3.4
-  n: '2'
+  n: 2
 - chapter: 4a
   heading: Clear
   semcat: Vact
   subcat: 2.5.1
-  n: '4'
+  n: 4
 - chapter: 4a
   heading: Wash (v.i./v.t.)
   semcat: Vact
   subcat: 2.5.2
-  n: '4'
+  n: 4
 - chapter: 4a
   heading: Sweep
   semcat: Vact
   subcat: 2.5.3
-  n: '3'
+  n: 3
 - chapter: 4a
   heading: Open
   semcat: Vact
   subcat: 2.6.1
-  n: '3'
+  n: 3
 - chapter: 4a
   heading: Close
   semcat: Vact
   subcat: 2.6.2
-  n: '0'
+  n: 0
 - chapter: 4a
   heading: Use
   semcat: Vact
   subcat: 2.7.1
-  n: '8'
+  n: 8
 - chapter: 4a
   heading: Practice
   semcat: Vact
   subcat: 2.7.2
-  n: '2'
+  n: 2
 - chapter: 4a
   heading: Show
   semcat: Vact
   subcat: '2.8'
-  n: '6'
+  n: 6
 - chapter: 4a
   heading: Write
   semcat: Vact
   subcat: 2.9.1
-  n: '4'
+  n: 4
 - chapter: 4a
   heading: Draw
   semcat: Vact
   subcat: 2.9.2
-  n: '2'
+  n: 2
 - chapter: 4a
   heading: Read
   semcat: Vact
   subcat: 2.9.3
-  n: '2'
+  n: 2
 - chapter: 5c
   heading: Adjectives  and attributives
   semcat: Vadj
   cf: '*'
-  n: '127'
+  n: 127
 - chapter: 5c
   heading: Emotive
   semcat: Vadj
   subcat: '1'
-  n: '20'
+  n: 20
 - chapter: 5c
   heading: Quantity - general
   semcat: Vadj
   subcat: '2.1'
-  n: '52'
+  n: 52
 - chapter: 5c
   heading: Degree
   semcat: Vadj
   subcat: '2.2'
-  n: '32'
+  n: 32
 - chapter: 5c
   heading: Temperature
   semcat: Vadj
   subcat: '2.4'
   cf: Vbp!
-  n: '7'
+  n: 7
 - chapter: 5c
   heading: General  - other than appearance
   semcat: Vadj
   subcat: '3.1'
-  n: '159'
+  n: 159
 - chapter: 5c
   heading: Appearance
   semcat: Vadj
   subcat: '3.2'
-  n: '15'
+  n: 15
 - chapter: 5c
   heading: Sight
   semcat: Vadj
   subcat: '4.1'
-  n: '4'
+  n: 4
 - chapter: 5c
   heading: Feel/Tactile/Texture
   semcat: Vadj
   subcat: '4.2'
-  n: '33'
+  n: 33
 - chapter: 5c
   heading: Hear
   semcat: Vadj
   subcat: '4.3'
-  n: '7'
+  n: 7
 - chapter: 5c
   heading: Taste
   semcat: Vadj
   subcat: '4.4'
-  n: '20'
+  n: 20
 - chapter: 5c
   heading: Smell
   semcat: Vadj
   subcat: '4.5'
-  n: '16'
+  n: 16
 - chapter: 5c
   heading: General - form
   semcat: Vadj
   subcat: '5.1'
-  n: '125'
+  n: 125
 - chapter: 5c
   heading: Texture
   semcat: Vadj
   subcat: '5.2'
-  n: '0'
+  n: 0
 - chapter: 5c
   heading: Position - high/low
   semcat: Vadj
   subcat: '5.3'
-  n: '11'
+  n: 11
 - chapter: 5c
   heading: Position - front/back/side-side
   semcat: Vadj
   subcat: '5.4'
-  n: '7'
+  n: 7
 - chapter: 5c
   heading: Single/part/few
   semcat: Vadj
   subcat: '6.1'
-  n: '8'
+  n: 8
 - chapter: 5c
   heading: Accompanied/whole/many
   semcat: Vadj
   subcat: '6.2'
-  n: '9'
+  n: 9
 - chapter: 5c
   heading: Unique/important/special
   semcat: Vadj
   subcat: '7.1'
-  n: '23'
+  n: 23
 - chapter: 5c
   heading: Mundane/unimportant/same/routine
   semcat: Vadj
   subcat: '7.2'
-  n: '8'
+  n: 8
 - chapter: 5c
   heading: Positive term
   semcat: Vadj
   subcat: '8.1'
-  n: '39'
+  n: 39
 - chapter: 5c
   heading: Negative term
   semcat: Vadj
   subcat: '8.2'
-  n: '50'
+  n: 50
 - chapter: 5c
   heading: Neutral term
   semcat: Vadj
   subcat: '8.3'
-  n: '79'
+  n: 79
 - chapter: 5c
   heading: Abruptly
   semcat: Vadj
   subcat: '10'
   cf: x
-  n: '69'
+  n: 69
 - chapter: 5c
   heading: Light
   semcat: Vadj
   subcat: '11.1'
-  n: '22'
+  n: 22
 - chapter: 5c
   heading: Dark
   semcat: Vadj
   subcat: '11.2'
-  n: '2'
+  n: 2
 - chapter: 2a.2
   heading: Animate verbs
   semcat: Vanim
   cf: '*'
-  n: '1'
+  n: 1
 - chapter: 2a.2
   heading: Caponize
   semcat: Vanim
   subcat: '11.1'
-  n: '2'
+  n: 2
 - chapter: 2a.2
   heading: Sting
   semcat: Vanim
   subcat: '14'
-  n: '5'
+  n: 5
 - chapter: 2a.2
   heading: Animal Qualities
   semcat: Vanim
   subcat: '18'
-  n: '8'
+  n: 8
 - chapter: 1b
   heading: Body part verbs
   semcat: Vbp
   cf: '*'
-  n: '8'
+  n: 8
 - chapter: 1b
   heading: Bodied
   semcat: Vbp
   subcat: '1.1'
   cf: x
-  n: '7'
+  n: 7
 - chapter: 1b
   heading: Bear a child
   semcat: Vbp
   subcat: '1.2'
   cf: x
-  n: '8'
+  n: 8
 - chapter: 1b
   heading: Alive
   semcat: Vbp
   subcat: 1.2.1
   cf: x
-  n: '7'
+  n: 7
 - chapter: 1b
   heading: Breathe
   semcat: Vbp
   subcat: 1.2.2
   cf: x
-  n: '10'
+  n: 10
 - chapter: 1b
   heading: Be able
   semcat: Vbp
   subcat: 1.2.3
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Be hungry
   semcat: Vbp
   subcat: '1.3'
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Be thirsty
   semcat: Vbp
   subcat: 1.3.1
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Enough
   semcat: Vbp
   subcat: 1.3.2
   cf: x
-  n: '5'
+  n: 5
 - chapter: 1b
   heading: Alert
   semcat: Vbp
   subcat: '1.4'
   cf: x
-  n: '11'
+  n: 11
 - chapter: 1b
   heading: Be asleep
   semcat: Vbp
   subcat: 1.4.1
   cf: x
-  n: '12'
+  n: 12
 - chapter: 1b
   heading: Get
   semcat: Vbp
   subcat: '1.5'
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Ache
   semcat: Vbp
   subcat: 1.5.1
   cf: x
-  n: '28'
+  n: 28
 - chapter: 1b
   heading: Bloated
   semcat: Vbp
   subcat: 1.5.2
   cf: x
-  n: '6'
+  n: 6
 - chapter: 1b
   heading: Deathly
   semcat: Vbp
   subcat: '1.6'
   cf: x
-  n: '6'
+  n: 6
 - chapter: 1b
   heading: Headed
   semcat: Vbp
   subcat: '2.1'
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Horned
   semcat: Vbp
   subcat: '2.2'
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Long-haired
   semcat: Vbp
   subcat: '2.3'
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Bald
   semcat: Vbp
   subcat: 2.3.3
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Bearded
   semcat: Vbp
   subcat: '2.5'
   cf: x
-  n: '6'
+  n: 6
 - chapter: 1b
   heading: Eyed
   semcat: Vbp
   subcat: '2.6'
   cf: x
-  n: '3'
+  n: 3
 - chapter: 1b
   heading: Squint
   semcat: Vbp
   subcat: 2.6.10
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Cross-eyed
   semcat: Vbp
   subcat: 2.6.11
   cf: x
-  n: '3'
+  n: 3
 - chapter: 1b
   heading: Blind
   semcat: Vbp
   subcat: 2.6.11.1
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Dilate
   semcat: Vbp
   subcat: 2.6.2
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Watch
   semcat: Vbp
   subcat: 2.6.7
   cf: x
-  n: '5'
+  n: 5
 - chapter: 1b
   heading: Behold
   semcat: Vbp
   subcat: 2.6.9
   cf: x
-  n: '19'
+  n: 19
 - chapter: 1b
   heading: Audible
   semcat: Vbp
   subcat: 2.7.4
   cf: x
-  n: '8'
+  n: 8
 - chapter: 1b
   heading: Smell
   semcat: Vbp
   subcat: 2.8.5
   cf: x
-  n: '5'
+  n: 5
 - chapter: 1b
   heading: Gape
   semcat: Vbp
   subcat: '3.1'
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Blow
   semcat: Vbp
   subcat: 3.1.4
   cf: x
-  n: '6'
+  n: 6
 - chapter: 1b
   heading: Sucker
   semcat: Vbp
   subcat: 3.2.1
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Lick
   semcat: Vbp
   subcat: 3.3.1
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Bite
   semcat: Vbp
   subcat: 3.4.4
   cf: x
-  n: '10'
+  n: 10
 - chapter: 1b
   heading: Chew
   semcat: Vbp
   subcat: 3.4.5
   cf: x
-  n: '8'
+  n: 8
 - chapter: 1b
   heading: Choke
   semcat: Vbp
   subcat: 3.5.6
   cf: x
-  n: '10'
+  n: 10
 - chapter: 1b
   heading: Devour
   semcat: Vbp
   subcat: 3.5.7
   cf: x
-  n: '19'
+  n: 19
 - chapter: 1b
   heading: Drinkable
   semcat: Vbp
   subcat: 3.5.8
   cf: x
-  n: '5'
+  n: 5
 - chapter: 1b
   heading: Short-tailed
   semcat: Vbp
   subcat: 4.10.1
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Neck-shaped
   semcat: Vbp
   subcat: '4.2'
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Carry on shoulder
   semcat: Vbp
   subcat: '4.3'
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Folded
   semcat: Vbp
   subcat: 4.4.1
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Spinal
   semcat: Vbp
   subcat: '4.8'
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Crouch
   semcat: Vbp
   subcat: 4.8.3
   cf: x
-  n: '5'
+  n: 5
 - chapter: 1b
   heading: Four-handed
   semcat: Vbp
   subcat: '5.1'
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Knee-deep
   semcat: Vbp
   subcat: 5.11.4
   cf: x
-  n: '3'
+  n: 3
 - chapter: 1b
   heading: Paralysed
   semcat: Vbp
   subcat: '5.18'
   cf: x
-  n: '3'
+  n: 3
 - chapter: 1b
   heading: Lame
   semcat: Vbp
   subcat: '5.19'
   cf: x
-  n: '6'
+  n: 6
 - chapter: 1b
   heading: Footed
   semcat: Vbp
   subcat: '5.2'
   cf: x
-  n: '3'
+  n: 3
 - chapter: 1b
   heading: Bandy-legged
   semcat: Vbp
   subcat: '5.3'
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Bristle
   semcat: Vbp
   subcat: '6.1'
   cf: x
-  n: '3'
+  n: 3
 - chapter: 1b
   heading: Bleed
   semcat: Vbp
   subcat: '6.2'
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Chubby
   semcat: Vbp
   subcat: '6.4'
   cf: x
-  n: '7'
+  n: 7
 - chapter: 1b
   heading: Molt
   semcat: Vbp
   subcat: '6.5'
   cf: x
-  n: '3'
+  n: 3
 - chapter: 1b
   heading: Blistered
   semcat: Vbp
   subcat: 6.5.3
   cf: x
-  n: '8'
+  n: 8
 - chapter: 1b
   heading: Itching
   semcat: Vbp
   subcat: 6.5.4
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Cramped
   semcat: Vbp
   subcat: 6.6.2
   cf: x
-  n: '5'
+  n: 5
 - chapter: 1b
   heading: Digest
   semcat: Vbp
   subcat: '7.6'
   cf: x
-  n: '3'
+  n: 3
 - chapter: 1b
   heading: Constipated
   semcat: Vbp
   subcat: '7.7'
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Perspire
   semcat: Vbp
   subcat: '8.2'
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Cough
   semcat: Vbp
   subcat: '8.4'
   cf: x
-  n: '5'
+  n: 5
 - chapter: 1b
   heading: Belch
   semcat: Vbp
   subcat: 8.4.4
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Defecate
   semcat: Vbp
   subcat: '8.6'
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Flatulate
   semcat: Vbp
   subcat: 8.6.2
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Discharge
   semcat: Vbp
   subcat: '8.7'
   cf: x
-  n: '3'
+  n: 3
 - chapter: 1b
   heading: Chuckle
   semcat: Vbp
   subcat: '8.9'
   cf: x
-  n: '9'
+  n: 9
 - chapter: 1b
   heading: Cry
   semcat: Vbp
   subcat: 8.9.1
   cf: x
-  n: '11'
+  n: 11
 - chapter: 1b
   heading: Bark
   semcat: Vbp
   subcat: 8.9.4
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Reproduce
   semcat: Vbp
   subcat: '9.0'
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Bred
   semcat: Vbp
   subcat: 9.1.1
   cf: x
-  n: '7'
+  n: 7
 - chapter: 1b
   heading: Circumcise
   semcat: Vbp
   subcat: 9.2.1.1
   cf: x
-  n: '3'
+  n: 3
 - chapter: 1b
   heading: Sterile
   semcat: Vbp
   subcat: 9.2.2
   cf: x
-  n: '2'
+  n: 2
 - chapter: 1b
   heading: Castrate
   semcat: Vbp
   subcat: 9.2.2.4
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Brood on egg
   semcat: Vbp
   subcat: 9.3.3
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Menstrual
   semcat: Vbp
   subcat: 9.3.4
   cf: x
-  n: '4'
+  n: 4
 - chapter: 1b
   heading: Barren
   semcat: Vbp
   subcat: 9.3.4.1
   cf: x
-  n: '2'
+  n: 2
 - chapter: 2c.2
   heading: Burn, illuminate
   semcat: Vburn
   cf: '*'
-  n: '27'
+  n: 27
 - chapter: 6c
   heading: Change of state
   semcat: Vcos
   cf: '*'
-  n: '141'
+  n: 141
 - chapter: 4c.4
   heading: Carve, shave
   semcat: Vcut
   subcat: '1'
-  n: '31'
+  n: 31
 - chapter: 4c.4
   heading: Chop, slice
   semcat: Vcut
   subcat: '2'
-  n: '24'
+  n: 24
 - chapter: 4c.4
   heading: Mince, shred
   semcat: Vcut
   subcat: '3'
-  n: '10'
+  n: 10
 - chapter: 4c.8
   heading: Digging, excavation
   semcat: Vdig
   cf: '*'
-  n: '18'
+  n: 18
 - chapter: 4f.4
   heading: Exchanges
   semcat: Vexch
   cf: '*'
-  n: '50'
+  n: 50
 - chapter: 5e
   heading: Feeling
   semcat: Vfeel
   cf: '*'
-  n: '36'
+  n: 36
 - chapter: 4b.2
   heading: Fighting
   semcat: Vfigh
-  n: '39'
+  n: 39
 - chapter: 9b
   heading: Culinary verbs
   semcat: Vfood
   cf: '*'
-  n: '32'
+  n: 32
 - chapter: 4f.5
   heading: Giving
   semcat: Vgive
   cf: '*'
-  n: '16'
+  n: 16
 - chapter: 4b.1
   heading: Harm
   semcat: Vharm
   cf: '*'
-  n: '56'
+  n: 56
 - chapter: 4e.4
   heading: Possession
   semcat: Vhave
   cf: '*'
-  n: '6'
+  n: 6
 - chapter: 4f.2
   heading: Helping
   semcat: Vhelp
   cf: '*'
-  n: '6'
+  n: 6
 - chapter: 4c.1
   heading: Striking, hitting verbs
   semcat: Vhit
   cf: '*'
-  n: '29'
+  n: 29
 - chapter: 4e.2
   heading: Holding
   semcat: Vhold
   cf: '*'
-  n: '21'
+  n: 21
 - chapter: 4d.2
   heading: Tying
   semcat: Vjoin
   subcat: '1.1'
-  n: '16'
+  n: 16
 - chapter: 4d.2
   heading: Adhesion
   semcat: Vjoin
   subcat: '1.2'
-  n: '11'
+  n: 11
 - chapter: 4d.2
   heading: With Tools
   semcat: Vjoin
   subcat: '1.3'
-  n: '17'
+  n: 17
 - chapter: 4d.2
   heading: Mix
   semcat: Vjoin
   subcat: '3'
-  n: '13'
+  n: 13
 - chapter: 4d.2
   heading: Join (general)
   semcat: Vjoin
   subcat: '5'
-  n: '13'
+  n: 13
 - chapter: 4b.3
   heading: Verbs requiring liquids
   semcat: Vliq
   cf: '*'
-  n: '102'
+  n: 102
 - chapter: 4b.3
   heading: Float
   semcat: Vliq
   subcat: '5'
   cf: x
-  n: '13'
+  n: 13
 - chapter: 4b.3
   heading: Dissolve
   semcat: Vliq
   subcat: '9'
   cf: x
-  n: '3'
+  n: 3
 - chapter: 4d.3
   heading: Construction
   semcat: Vmake
   cf: '*'
-  n: '30'
+  n: 30
 - chapter: 4d.4
   heading: Repair
   semcat: Vmend
   cf: '*'
-  n: '6'
+  n: 6
 - chapter: 4b.4
   heading: Inward
   semcat: Vmot
   subcat: '1'
-  n: '14'
+  n: 14
 - chapter: 4b.4
   heading: Outward
   semcat: Vmot
   subcat: '2'
-  n: '27'
+  n: 27
 - chapter: 4b.4
   heading: Awkwardly, Irregularly
   semcat: Vmot
   subcat: '3'
-  n: '28'
+  n: 28
 - chapter: 4b.4
   heading: Regular, Cyclic, Smoothly
   semcat: Vmot
   subcat: '4'
-  n: '43'
+  n: 43
 - chapter: 4b.4
   heading: Medium Primary (e.g. air)
   semcat: Vmot
   subcat: '5'
-  n: '13'
+  n: 13
 - chapter: 4b.4
   heading: Circularly
   semcat: Vmot
   subcat: '6'
-  n: '25'
+  n: 25
 - chapter: 4b.4
   heading: Up, etc.
   semcat: Vmot
   subcat: '7'
-  n: '13'
+  n: 13
 - chapter: 4b.4
   heading: Downward
   semcat: Vmot
   subcat: '8'
-  n: '12'
+  n: 12
 - chapter: 4b.4
   heading: Manner is primary
   semcat: Vmot
   subcat: '9'
-  n: '31'
+  n: 31
 - chapter: 4b.4
   heading: Move with something else
   semcat: Vmot
   subcat: '10'
-  n: '36'
+  n: 36
 - chapter: 4b.4
   heading: Movement (general)
   semcat: Vmot
   subcat: '11'
-  n: '15'
+  n: 15
 - chapter: 9d
   heading: Ornamentation
   semcat: Vorn
   cf: '*'
-  n: '25'
+  n: 25
 - chapter: 5d
   heading: Psychological verbs
   semcat: Vpsi
   cf: '*'
-  n: '100'
+  n: 100
 - chapter: 5d
   heading: Like
   semcat: Vpsi
   subcat: 1.1.1
-  n: '30'
+  n: 30
 - chapter: 5d
   heading: Dislike
   semcat: Vpsi
   subcat: 1.1.2
-  n: '12'
+  n: 12
 - chapter: 5d
   heading: Satisfied
   semcat: Vpsi
   subcat: 1.1.3
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Fear
   semcat: Vpsi
   subcat: 1.10.2
-  n: '11'
+  n: 11
 - chapter: 5d
   heading: Positive
   semcat: Vpsi
   subcat: 1.10.4.1
-  n: '8'
+  n: 8
 - chapter: 5d
   heading: Hesitate
   semcat: Vpsi
   subcat: 1.10.5
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Alert
   semcat: Vpsi
   subcat: 1.11.1
-  n: '9'
+  n: 9
 - chapter: 5d
   heading: Tired
   semcat: Vpsi
   subcat: 1.11.10
-  n: '5'
+  n: 5
 - chapter: 5d
   heading: Thrilled, Dizzy
   semcat: Vpsi
   subcat: 1.11.11
-  n: '26'
+  n: 26
 - chapter: 5d
   heading: Know, Believe
   semcat: Vpsi
   subcat: 1.12.1
-  n: '15'
+  n: 15
 - chapter: 5d
   heading: Think/plan
   semcat: Vpsi
   subcat: '1.13'
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Think
   semcat: Vpsi
   subcat: 1.13.1
-  n: '24'
+  n: 24
 - chapter: 5d
   heading: Plan
   semcat: Vpsi
   subcat: 1.13.2
-  n: '10'
+  n: 10
 - chapter: 5d
   heading: Imagination
   semcat: Vpsi
   subcat: 1.13.8
   cf: x
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Longing
   semcat: Vpsi
   subcat: 1.14.1
   cf: x
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Avarice
   semcat: Vpsi
   subcat: 1.14.2
   cf: x
-  n: '7'
+  n: 7
 - chapter: 5d
   heading: Desirable
   semcat: Vpsi
   subcat: 1.14.3
   cf: x
-  n: '8'
+  n: 8
 - chapter: 5d
   heading: Awe
   semcat: Vpsi
   subcat: '1.15'
   cf: x
-  n: '19'
+  n: 19
 - chapter: 5d
   heading: Forget
   semcat: Vpsi
   subcat: 1.16.1
   cf: x
-  n: '10'
+  n: 10
 - chapter: 5d
   heading: Accept
   semcat: Vpsi
   subcat: 1.2.1
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Blame
   semcat: Vpsi
   subcat: 1.3.2
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Agree
   semcat: Vpsi
   subcat: 1.4.1
-  n: '5'
+  n: 5
 - chapter: 5d
   heading: Happy
   semcat: Vpsi
   subcat: 1.5.1
-  n: '14'
+  n: 14
 - chapter: 5d
   heading: Sad
   semcat: Vpsi
   subcat: 1.5.2
-  n: '13'
+  n: 13
 - chapter: 5d
   heading: Grief
   semcat: Vpsi
   subcat: 1.5.2.2
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Emotional
   semcat: Vpsi
   subcat: 1.5.3
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Enthusiastic
   semcat: Vpsi
   subcat: 1.5.4
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Excited
   semcat: Vpsi
   subcat: 1.5.6
-  n: '8'
+  n: 8
 - chapter: 5d
   heading: Frustrated
   semcat: Vpsi
   subcat: 1.5.7
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Angry
   semcat: Vpsi
   subcat: 1.6.1
-  n: '11'
+  n: 11
 - chapter: 5d
   heading: Distress
   semcat: Vpsi
   subcat: 1.6.2
-  n: '4'
+  n: 4
 - chapter: 5d
   heading: Positive
   semcat: Vpsi
   subcat: 1.7.1
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Negative (e.g. dread)
   semcat: Vpsi
   subcat: 1.7.2
-  n: '4'
+  n: 4
 - chapter: 5d
   heading: Neutral or ambiguous
   semcat: Vpsi
   subcat: 1.7.3
-  n: '5'
+  n: 5
 - chapter: 5d
   heading: Relieved
   semcat: Vpsi
   subcat: 1.7.5
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Willing
   semcat: Vpsi
   subcat: 1.8.3
-  n: '4'
+  n: 4
 - chapter: 5d
   heading: Surprised
   semcat: Vpsi
   subcat: 1.9.1
-  n: '8'
+  n: 8
 - chapter: 5d
   heading: Worry
   semcat: Vpsi
   subcat: 1.9.2
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Friendly
   semcat: Vpsi
   subcat: 2.1.1
-  n: '4'
+  n: 4
 - chapter: 5d
   heading: appease
   semcat: Vpsi
   subcat: 2.2.1
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Comfort
   semcat: Vpsi
   subcat: 2.3.1
-  n: '11'
+  n: 11
 - chapter: 5d
   heading: Pity
   semcat: Vpsi
   subcat: 2.3.2
-  n: '9'
+  n: 9
 - chapter: 5d
   heading: Encourage
   semcat: Vpsi
   subcat: 2.3.3
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Defer
   semcat: Vpsi
   subcat: 2.5.1
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Honor
   semcat: Vpsi
   subcat: 2.5.2
-  n: '7'
+  n: 7
 - chapter: 5d
   heading: Flatter
   semcat: Vpsi
   subcat: 2.5.3
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Tolerate
   semcat: Vpsi
   subcat: 2.5.4
-  n: '4'
+  n: 4
 - chapter: 5d
   heading: Ignore
   semcat: Vpsi
   subcat: 2.5.5
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Disobedient
   semcat: Vpsi
   subcat: 2.5.6
   cf: x
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Trust
   semcat: Vpsi
   subcat: 2.5.7
   cf: x
-  n: '4'
+  n: 4
 - chapter: 5d
   heading: Admire
   semcat: Vpsi
   subcat: 2.6.1
-  n: '7'
+  n: 7
 - chapter: 5d
   heading: Envy
   semcat: Vpsi
   subcat: 2.6.2
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Flirt, seduce
   semcat: Vpsi
   subcat: 2.7.1
-  n: '4'
+  n: 4
 - chapter: 5d
   heading: Entice, tempt
   semcat: Vpsi
   subcat: 2.7.2
-  n: '4'
+  n: 4
 - chapter: 5d
   heading: Forgive
   semcat: Vpsi
   subcat: 2.9.1
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Correct
   semcat: Vpsi
   subcat: '3.10'
   cf: x
-  n: '4'
+  n: 4
 - chapter: 5d
   heading: Kind
   semcat: Vpsi
   subcat: 3.2.1
-  n: '5'
+  n: 5
 - chapter: 5d
   heading: Cruel
   semcat: Vpsi
   subcat: 3.2.2
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Discern
   semcat: Vpsi
   subcat: 3.3.1
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Honest
   semcat: Vpsi
   subcat: 3.4.1
-  n: '3'
+  n: 3
 - chapter: 5d
   heading: Earnest/sincere
   semcat: Vpsi
   subcat: 3.4.3
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Deceive
   semcat: Vpsi
   subcat: 3.4.4
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Positive/neutral
   semcat: Vpsi
   subcat: 3.4.4.1
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Negative
   semcat: Vpsi
   subcat: 3.4.4.2
-  n: '7'
+  n: 7
 - chapter: 5d
   heading: Guilty
   semcat: Vpsi
   subcat: 3.6.2
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Modest
   semcat: Vpsi
   subcat: 3.8.1
-  n: '2'
+  n: 2
 - chapter: 5d
   heading: Ashamed
   semcat: Vpsi
   subcat: 3.8.3
-  n: '7'
+  n: 7
 - chapter: 4e.3
   heading: Putting
   semcat: Vput
   cf: '*'
-  n: '24'
+  n: 24
 - chapter: 6d
   heading: Positive/Desirable qualities
   semcat: Vqual
   subcat: '1'
-  n: '19'
+  n: 19
 - chapter: 6d
   heading: Neutral and Negative qualities
   semcat: Vqual
   subcat: '2'
-  n: '30'
+  n: 30
 - chapter: 4a.2
   heading: Friction
   semcat: Vrub
   cf: '*'
-  n: '8'
+  n: 8
 - chapter: 4c.7
   heading: Unintentional loss -Misplace
   semcat: Vsep
   subcat: '1.1'
-  n: '7'
+  n: 7
 - chapter: 4c.7
   heading: Intentional loss - Abandon
   semcat: Vsep
   subcat: '1.2'
-  n: '16'
+  n: 16
 - chapter: 4c.7
   heading: Wide separation - Scatter
   semcat: Vsep
   subcat: '2'
-  n: '9'
+  n: 9
 - chapter: 4c.7
   heading: Intentional separation - Sort
   semcat: Vsep
   subcat: '4'
-  n: '28'
+  n: 28
 - chapter: 6f
   heading: Verbs referring to size/shape
   semcat: Vshiz
   cf: '*'
-  n: '65'
+  n: 65
 - chapter: 4f.1
   heading: Social action
   semcat: Vsoc
   cf: '*'
-  n: '65'
+  n: 65
 - chapter: 4c.9
   heading: Throwing
   semcat: Vthrw
   cf: '*'
-  n: '17'
+  n: 17
 - chapter: 4c.5
   heading: Undoing
   semcat: Vundo
   cf: '*'
-  n: '25'
+  n: 25
 - chapter: 5f
   heading: Utterance
   semcat: Vutt
   cf: '*'
-  n: '72'
+  n: 72
 - chapter: 5f
   heading: Scold
   semcat: Vutt
   subcat: '1'
-  n: '24'
+  n: 24
 - chapter: 5f
   heading: Complain
   semcat: Vutt
   subcat: '2.1'
-  n: '12'
+  n: 12
 - chapter: 5f
   heading: Complement, praise
   semcat: Vutt
   subcat: '2.2'
-  n: '2'
+  n: 2
 - chapter: 5f
   heading: Declare
   semcat: Vutt
   subcat: '3'
-  n: '14'
+  n: 14
 - chapter: 5f
   heading: Loud
   semcat: Vutt
   subcat: '4.1'
-  n: '9'
+  n: 9
 - chapter: 5f
   heading: Soft
   semcat: Vutt
   subcat: '4.2'
-  n: '4'
+  n: 4
 - chapter: 5f
   heading: Accented
   semcat: Vutt
   subcat: '4.3'
-  n: '3'
+  n: 3
 - chapter: 5f
   semcat: Vutt
   subcat: '4.6'
-  n: '5'
+  n: 5
 - chapter: 5f
   heading: Choppy
   semcat: Vutt
   subcat: '4.7'
-  n: '2'
+  n: 2
 - chapter: 5f
   heading: Sounds
   semcat: Vutt
   subcat: '5'
   cf: x
-  n: '30'
+  n: 30
 - chapter: 5f
   heading: Answer
   semcat: Vutt
   subcat: '6'
   cf: x
-  n: '8'
+  n: 8
 - chapter: 5f
   heading: Bid
   semcat: Vutt
   subcat: '7'
   cf: x
-  n: '3'
+  n: 3
 - chapter: 5f
   heading: Ask
   semcat: Vutt
   subcat: '7.1'
   cf: x
-  n: '5'
+  n: 5
 - chapter: 5f
   heading: Implore/Coax
   semcat: Vutt
   subcat: '7.2'
   cf: x
-  n: '2'
+  n: 2
 - chapter: 5f
   heading: Coax
   semcat: Vutt
   subcat: '7.3'
   cf: x
-  n: '4'
+  n: 4
 - chapter: 5f
   heading: Banter/Discourse
   semcat: Vutt
   subcat: '8'
   cf: x
-  n: '14'
+  n: 14
 - chapter: 5f
   heading: Jest
   semcat: Vutt
   subcat: '9'
   cf: x
-  n: '4'
+  n: 4
 - chapter: 5f
   heading: Talk, say
   semcat: Vutt
   subcat: '10.1'
-  n: '15'
+  n: 15
 - chapter: 5f
   heading: Garrulosity, verbosity
   semcat: Vutt
   subcat: '10.2'
-  n: '10'
+  n: 10
 - chapter: 5f
   heading: Talk with purpose of convincing
   semcat: Vutt
   subcat: '10.3'
-  n: '2'
+  n: 2
 - chapter: 5f
   heading: Falsehood
   semcat: Vutt
   subcat: '10.4'
   cf: x
-  n: '4'
+  n: 4
 - chapter: 5f
   heading: Formulaic
   semcat: Vutt
   subcat: '11'
-  n: '6'
+  n: 6
 - chapter: 5f
   heading: Introduction
   semcat: Vutt
   subcat: '11.2'
-  n: '2'
+  n: 2
 - chapter: 5f
   heading: Farewells
   semcat: Vutt
   subcat: '11.3'
-  n: '3'
+  n: 3
 - chapter: 5f
   heading: Apology/excuse
   semcat: Vutt
   subcat: '11.5'
-  n: '3'
+  n: 3
 - chapter: 5f
   heading: Invite
   semcat: Vutt
   subcat: '11.6'
-  n: '2'
+  n: 2
 - chapter: 5f
   heading: Beckon
   semcat: Vutt
   subcat: '13'
   cf: x
-  n: '9'
+  n: 9
 - chapter: 5f
   heading: Spread information, present ideas
   semcat: Vutt
   subcat: '14.1'
-  n: '4'
+  n: 4
 - chapter: 5f
   heading: Reveal or give information
   semcat: Vutt
   subcat: '14.2'
-  n: '8'
+  n: 8
 - chapter: 5f
   heading: Explain
   semcat: Vutt
   subcat: '14.3'
-  n: '3'
+  n: 3
 - chapter: 5f
   heading: Boast
   semcat: Vutt
   subcat: '15'
   cf: x
-  n: '9'
+  n: 9
 - chapter: 5f
   heading: Dedicate
   semcat: Vutt
   subcat: '16'
   cf: x
-  n: '12'
+  n: 12
 - chapter: 2b.2
   heading: Verbs involving plants
   semcat: Vveg
-  n: '65'
+  n: 65
 - chapter: x
   semcat: x
   cf: x
-  n: '57'
+  n: 57

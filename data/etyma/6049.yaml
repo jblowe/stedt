@@ -12,7 +12,11 @@ mesoroots:
   group: '1.2'
   form: yooŋ
   gloss: MONKEY
+  source: 'PKC #1217'
+  old_tag: 5217
 - grpid: 66
   group: 1.3.4
   form: joŋ
   gloss: MONKEY
+  source: DRM#494
+  old_tag: 6901

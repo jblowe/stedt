@@ -20,18 +20,26 @@ mesoroots:
   group: '1.2'
   form: sʰam
   gloss: HAIR (head)
+  source: 'PKC #688'
+  old_tag: 4688
 - grpid: 66
   group: 1.3.4
   form: sam
   gloss: HAIR (HEAD)
+  source: DRM#436
+  old_tag: 6848
 - grpid: 63
   group: 1.3.1
   form: a-tshaːm
   gloss: HAIR (FACE / HEAD)
+  source: 'PCN #121'
+  old_tag: 7668
 - grpid: 63
   group: 1.3.1
   form: a-həm
   gloss: HAIR / LEAF / FEATHER
+  source: 'PCN #148'
+  old_tag: 7695
 notes:
 - type: I
   text: <par>Chinese character (three upward strokes) [not in GSR, but cf. GSR 1154a (a similar Chinese

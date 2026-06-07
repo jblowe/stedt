@@ -19,10 +19,14 @@ mesoroots:
   group: '6.1'
   form: myukᴸ
   gloss: MONKEY
+  source: JAM-TSR: 133
+  old_tag: 6040
 - grpid: 50
   group: '7'
   form: joɁᴰ
   gloss: MONKEY
+  source: TL#192
+  old_tag: 7396
 notes:
 - type: T
   text: <par>Several Northern Loloish and Burmish languages have developed dental nasals from the original

@@ -17,6 +17,8 @@ mesoroots:
   group: '1.2'
   form: til
   gloss: TESTICLE / SCROTUM
+  source: 'PKC #238'
+  old_tag: 4238
 notes:
 - type: T
   text: <par>This etymon is sometimes hard to distinguish from <xref ref="300">#300</xref>, above. It

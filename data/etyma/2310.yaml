@@ -21,11 +21,15 @@ mesoroots:
   form: kil
   gloss: ANGLE / CORNER
   variant: a
+  source: 'PKC #251'
+  old_tag: 4251
 - grpid: 8
   group: '1.2'
   form: kir
   gloss: CURL
   variant: b
+  source: 'PKC #270'
+  old_tag: 4270
 - grpid: 23
   group: 2.1.4
   form: ᴬkʰil
@@ -34,14 +38,20 @@ mesoroots:
   group: '1.2'
   form: y(i/u)al
   gloss: ROLL / ROLL UP
+  source: 'PKC #1231'
+  old_tag: 5231
 - grpid: 3
   group: '1'
   form: s-(g)ril
   gloss: MOVE / ROLL / TWIST
+  source: cf. HPTB pp. 410, 411
+  old_tag: 5436
 - grpid: 8
   group: '1.2'
   form: hrual
   gloss: ROLL / TWIST
+  source: 'PKC #1096'
+  old_tag: 5096
 notes:
 - type: T
   text: '<par>There is an unfortunate mistake in the index to STC (p.201) where this etymon is glossed

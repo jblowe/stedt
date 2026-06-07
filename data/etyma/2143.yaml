@@ -20,6 +20,8 @@ mesoroots:
   form: pan
   gloss: THIN / LANK / SPARSE
   variant: b
+  source: 'PKC #165'
+  old_tag: 4165
 notes:
 - type: T
   text: '<par>Some languages point to a voiceless initial with this root, although most forms descend

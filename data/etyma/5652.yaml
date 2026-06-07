@@ -12,6 +12,8 @@ mesoroots:
   group: '1.2'
   form: ŋam
   gloss: DARE
+  source: 'PKC #849'
+  old_tag: 4849
 notes:
 - type: T
   text: <par>The initial <latinform>ŋ-</latinform> in the Chin forms is probably due to assimilation to

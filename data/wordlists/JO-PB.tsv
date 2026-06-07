@@ -8,7 +8,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 34352	404	Burmese (Written)	kyay	kyay	wide	wide			9.7.2		0			
 34353	382	Burmese (Inscriptional)	klay	klay	wide	wide			9.7.2		0			3574
 34354	290	Arakanese	cei	cei	wide	wide			9.7.2		0			3574
-34355	290	Arakanese	"ce[?sc.""]"	"ce[?sc.""]"	wide	wide			9.7.2		0			e,e
+34355	290	Arakanese	"ce[?sc.""]"	"ce[?sc.""]"	wide	wide			9.7.2		0			e|e
 34356	663	Intha	kle	kle	wide	wide			9.7.2		0			
 34357	1503	Tavoyan	kle	kle	wide	wide			9.7.2		0			
 34358	387	Burmese (Standard Spoken)	hcoù	hcoù	wash	wash			6.2.2.5.2		0			
@@ -29,7 +29,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 34374	404	Burmese (Written)	kyā:	kyā:	tiger	tiger			2.1.3		0			5560
 34375	382	Burmese (Inscriptional)	klā	klā	tiger	tiger			2.1.3		0			5560
 34376	290	Arakanese	cà	cà	tiger	tiger			2.1.3		0			5560
-34377	663	Intha	cà	cà	tiger	tiger			2.1.3		0			5560?,b?Burmese
+34377	663	Intha	cà	cà	tiger	tiger			2.1.3		0			5560?|b?Burmese
 34378	1503	Tavoyan	klà	klà	tiger	tiger			2.1.3		0			5560
 34379	1029	Maru [Langsu]	lō	lō	tiger	tiger			2.1.3		0			5560
 34380	387	Burmese (Standard Spoken)	hci	hci	tie	tie			6.13.1		0			
@@ -389,12 +389,12 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 34735	1503	Tavoyan	keí	keí	look	look			1.2.6.11		0			
 34736	1503	Tavoyan	krei	krei	look	look			1.2.6.11		0			m
 34737	387	Burmese (Standard Spoken)	hcin-dhei	hcin-dhei	lion	lion			2.1.3		0			6114,m
-34738	404	Burmese (Written)	khran̊◦se.	khran̊◦se.	lion	lion			2.1.3		0			6114,b,m
-34739	382	Burmese (Inscriptional)	khran̊-siy	khran̊-siy	lion	lion			2.1.3		0			b,6114,m
-34740	290	Arakanese	hkron-	hkron-	lion	lion			2.1.3		0			bBurmese,6114
-34741	663	Intha	hyen-	hyen-	lion	lion			2.1.3		0			bBurmese,6114,m
+34738	404	Burmese (Written)	khran̊◦se.	khran̊◦se.	lion	lion			2.1.3		0			6114|b,m
+34739	382	Burmese (Inscriptional)	khran̊-siy	khran̊-siy	lion	lion			2.1.3		0			6114|b,m
+34740	290	Arakanese	hkron-	hkron-	lion	lion			2.1.3		0			6114|bBurmese
+34741	663	Intha	hyen-	hyen-	lion	lion			2.1.3		0			6114|bBurmese,m
 34742	1503	Tavoyan	hcä-	hcä-	lion	lion			2.1.3		0			bBurmese
-34743	1029	Maru [Langsu]	khàng khì	khàng khì	lion	lion			2.1.3		0			bBurmese,6114,m
+34743	1029	Maru [Langsu]	khàng khì	khàng khì	lion	lion			2.1.3		0			6114|bBurmese,m
 34744	387	Burmese (Standard Spoken)	cai'	cai'	like	like			8.3.1.1.1		0			
 34745	404	Burmese (Written)	kruik	kruik	like	like			8.3.1.1.1		0			
 34746	290	Arakanese	krai'	krai'	like	like			8.3.1.1.1		0			
@@ -853,7 +853,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 35205	113	*Burmese	khr	khr	rafter	rafter			5.11.9		0			
 35206	113	*Burmese	khi	khi	praise	praise			8.5.2.2		0			
 35207	113	*Burmese	khy	khy	pointed	pointed			6.2.2.2		0			
-35208	113	*Burmese	?	?	plait	plait			1.2.3.2		0			x,e
+35208	113	*Burmese	?	?	plait	plait			1.2.3.2		0			e|x
 35209	113	*Burmese	khr	khr	pimple	pimple			1.6.5.3		0			
 35210	113	*Burmese	ki	ki	parrot	parrot			2.2.4.1		0			
 35211	113	*Burmese	kl	kl	outcome	outcome			8.1		0			

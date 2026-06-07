@@ -193,7 +193,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 64709	604	Gurung (Ghachok)	koloq	koloq	child	child			1.5.3.2	2.A.40	0			
 64710	604	Gurung (Ghachok)	kʰa◦qi	kʰa◦qi	kidney	kidney			1.7.5	2.A.41	0			201,m
 64711	604	Gurung (Ghachok)	(N)pʰiyo	(N)pʰi◦yo	spleen	spleen			1.7.4	2.A.42	0			5636
-64712	604	Gurung (Ghachok)	(X)nãːhnu (N)bũhɖiq	(X)nãːhnu (N)bũhɖiq	intestines	intestines			1.7.7	2.A.43	0			2118,xx,b,loan
+64712	604	Gurung (Ghachok)	(X)nãːhnu (N)bũhɖiq	(X)nãːhnu (N)bũhɖiq	intestines	intestines			1.7.7	2.A.43	0			2118|xx,b|loan
 64713	604	Gurung (Ghachok)	mae sĩq	mae sĩq	hip	hip			1.4.9.2	2.A.44	0			1288,m
 64714	604	Gurung (Ghachok)	(N)mũjĩ	(N)mũjĩ	buttock	buttock			1.4.9.2	2.A.45	0			b
 64715	604	Gurung (Ghachok)	(N)muq◦ji	(N)muq◦ji	anus / rectum	anus / rectum			1.4.10.2	2.A.46	0			b
@@ -271,7 +271,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 64787	604	Gurung (Ghachok)	tiliq tohbaː	tiliq tohbaː	boar	boar			2.1.12	3.A.42	0			
 64788	604	Gurung (Ghachok)	sũ	sũ	snout	snout			1.2.8	3.A.43	0			477
 64789	604	Gurung (Ghachok)	(N)gohɖaːq	(N)gohɖaːq	horse	horse			2.1.7	3.A.44	0			6023
-64790	604	Gurung (Ghachok)	(N)gadaː	(N)gadaː	donkey	donkey			2.1.7	3.A.45	0			b,b
+64790	604	Gurung (Ghachok)	(N)gadaː	(N)gadaː	donkey	donkey			2.1.7	3.A.45	0			b|b
 64791	604	Gurung (Ghachok)	(N)cyãːŋgra	(N)cyãːŋgra	yak	yak			2.1.2	3.A.46	0			
 64792	604	Gurung (Ghachok)	(N)gaĩɖa	(N)gaĩɖa	rhinoceros	rhinoceros			2.2.1	3.A.47	0			bNepali
 64793	604	Gurung (Ghachok)	(N)nõwãː	(N)nõwãː	cat	cat			2.1.3	3.A.48	0			b
@@ -1138,7 +1138,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 65672	604	Gurung (Ghachok)	-r	-r	be	be	v.	v.	10.4.1.1	13.B.29	0			
 65673	604	Gurung (Ghachok)	(N)	(N)	be	be	v.	v.	10.4.1.1	13.B.29	0			
 65674	604	Gurung (Ghachok)	-lāi	-lāi	be	be	v.	v.	10.4.1.1	13.B.29	0			
-65675	604	Gurung (Ghachok)	-ne	-ne	be	be	v.	v.	10.4.1.1	13.B.29	0			1863,ERASEtotallywrongent
+65675	604	Gurung (Ghachok)	-ne	-ne	be	be	v.	v.	10.4.1.1	13.B.29	0			1863|ERASEtotallywrongent
 65676	604	Gurung (Ghachok)	-di	-di	by	by			10.0	13.B.30	0			
 65677	604	Gurung (Ghachok)	-ri	-ri	by	by			10.0	13.B.30	0			
 65678	604	Gurung (Ghachok)	cẽdoq	cẽdoq	by	by			10.0	13.B.30	0			
@@ -1394,7 +1394,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 65937	604	Gurung (Ghachok)	pʰi◦baq	pʰi◦baq	birth, give	birth, give			1.1.2	3.B.46	0			m,s
 65938	604	Gurung (Ghachok)	pʰa maehba	pʰa maehba	in heat, be	in heat, be			10.1.1		0			
 65939	604	Gurung (Ghachok)	baːd ʈibaq	baːd ʈibaq	pregnant (animals)	pregnant (animals)			1.9.6.1		0			m,m
-65943	604	Gurung (Ghachok)	(N)kʰasiq la◦baq	(N)kʰasiq la◦baq	castrate (goats, sheep)	castrate (goats, sheep)			2.1.8	3.B.47	0			m,b,m,m,s,s
+65943	604	Gurung (Ghachok)	(N)kʰasiq la◦baq	(N)kʰasiq la◦baq	castrate (goats, sheep)	castrate (goats, sheep)			2.1.8	3.B.47	0			b|m,m|m,s|s
 65944	604	Gurung (Ghachok)	sũwãːrdi◦baq	sũwãːrdi◦baq	castrate (bulls)	castrate  (bulls)			1.9.2.3	3.B.48	0	jbl3		m,s
 65945	604	Gurung (Ghachok)	pae prihba	pae prihba	shear (sheep)	shear (sheep)			6.9.3	3.B.49	0			
 65946	604	Gurung (Ghachok)	(N)huldiqba	(N)huldiqba	pen up (animals)	pen up (animals)			5.1	3.B.50	0			
@@ -2185,7 +2185,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 147458	604	Gurung (Ghachok)	ŋẽbaq	ŋẽbaq	agree / comply (with suggestion)	agree / comply (with suggestion)			8.3.1.4.1	10.B.1.13	0			
 147459	604	Gurung (Ghachok)	cʰerbaq	cʰerbaq	disgust (feel) / annoyed / exasperated	disgust (feel) / annoyed / exasperated			8.3.1.6.1	10.B.1.68	0			
 147460	604	Gurung (Ghachok)	ni herarra labaq	ni herarra labaq	smile (in friendliness, mockery)	smile (in friendliness, mockery)			1.8.8.1	10.B.3.13	0			1105,m,m
-147461	604	Gurung (Ghachok)	cʰiɖ praːq◦ba	cʰiɖ praːqba	sprinkle (water of purification)	sprinkle (water of purification)			6.10.3	11.B.2.24	0			b,b,m,5695,s,s
+147461	604	Gurung (Ghachok)	cʰiɖ praːq◦ba	cʰiɖ praːqba	sprinkle (water of purification)	sprinkle (water of purification)			6.10.3	11.B.2.24	0			b|b,5695|m,s|s
 168330	604	Gurung (Ghachok)	(N)saːrdiwaːbaq	(N)saːrdiwaːbaq	shift (sthg.)	shift (sthg.)	v.t.	v.t.	6.7.3	2.B.1. 54.	0			
 168331	604	Gurung (Ghachok)	kwiqba	kwiqba	pick up	pick up	v.t.	v.t.	6.10.4	2.B.1. 59.	0			
 168332	604	Gurung (Ghachok)	--	--	birth, give	birth, give			1.1.2	2.B.2. 11.	0			

@@ -22,14 +22,20 @@ mesoroots:
   group: '1.2'
   form: thaw-I, thoʔ-II
   gloss: RISE / GET UP / STAND UP
+  source: 'PKC #404'
+  old_tag: 4404
 - grpid: 66
   group: 1.3.4
   form: tʰow
   gloss: AWAKEN
+  source: DRM#413
+  old_tag: 6826
 - grpid: 63
   group: 1.3.1
   form: m-su
   gloss: LIFT / AWAKEN
+  source: 'PCN #085'
+  old_tag: 7632
 notes:
 - type: T
   text: <par>A Proto-Karenic form has yet to be reconstructed.</par>

@@ -13,6 +13,8 @@ mesoroots:
   group: 1.3.4
   form: mej
   gloss: TAIL
+  source: DRM#409
+  old_tag: 6822
 - grpid: 12
   group: 1.7.2
   form: C̥-meːy
@@ -21,7 +23,11 @@ mesoroots:
   group: 1.3.1
   form: a-hmej
   gloss: TAIL
+  source: 'PCN #055'
+  old_tag: 7602
 - grpid: 50
   group: '7'
   form: meᴮ
   gloss: TAIL
+  source: TL#289
+  old_tag: 7493

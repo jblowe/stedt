@@ -19,6 +19,8 @@ mesoroots:
   group: '1.2'
   form: taay
   gloss: WAIST
+  source: 'PKC #242'
+  old_tag: 4242
 - grpid: 42
   group: '6.1'
   form: N-day³

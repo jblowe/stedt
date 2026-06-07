@@ -24,10 +24,14 @@ mesoroots:
   group: '1.2'
   form: khraŋ-I, khran-II
   gloss: GROW / INCREASE / RISE
+  source: 'PKC #1345'
+  old_tag: 5345
 - grpid: 63
   group: 1.3.1
   form: m-raŋ
   gloss: HARD / STRONG
+  source: 'PCN #206; meso of #1842?'
+  old_tag: 7753
 - grpid: 8
   group: '1.2'
   form: khrooŋ

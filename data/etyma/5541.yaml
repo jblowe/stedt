@@ -25,10 +25,14 @@ mesoroots:
   group: '1.2'
   form: θeep
   gloss: SUCK / SMOKE (v.)
+  source: 'PKC #632'
+  old_tag: 4632
 - grpid: 63
   group: 1.3.1
   form: m-tshəp
   gloss: SUCK / KISS
+  source: 'PCN #156'
+  old_tag: 7703
 notes:
 - type: I
   text: <par>Jingpho has a double reflex of this root, one with <latinform>-p</latinform> and one with

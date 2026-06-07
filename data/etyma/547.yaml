@@ -18,22 +18,32 @@ mesoroots:
   group: '1.2'
   form: maak
   gloss: SON-IN-LAW
+  source: 'PKC #792'
+  old_tag: 4792
 - grpid: 5
   group: 1.1.1
   form: mak-bo
   gloss: SON-IN-LAW
+  source: JS-HCST: 213
+  old_tag: 6445
 - grpid: 66
   group: 1.3.4
   form: maak
   gloss: BROTHER-IN-LAW
+  source: DRM#414
+  old_tag: 6827
 - grpid: 50
   group: '7'
   form: maɁᴰ
   gloss: SON-IN-LAW
+  source: TL#267
+  old_tag: 7471
 - grpid: 63
   group: 1.3.1
   form: a-mjak
   gloss: IN-LAW
+  source: 'PCN #235'
+  old_tag: 7782
 notes:
 - type: T
   text: '<par>This etymon seems basically to belong in masculine semantic space, since most TB reflexes

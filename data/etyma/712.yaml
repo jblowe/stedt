@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: kut ⪤ khut
   gloss: HAND
+  source: 'PKC #287'
+  old_tag: 4287
 - grpid: 66
   group: 1.3.4
   form: kʰut
   gloss: HAND / ARM
+  source: DRM#
+  old_tag: 7162
 - grpid: 8
   group: '1.2'
   form: kut-tum ⪤ khut-tum

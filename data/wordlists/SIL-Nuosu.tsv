@@ -679,10 +679,10 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 459940	1962	Yi (Liangshan)	tʂhɿ̱³⁴khɛ³³	tʂhɿ̱³⁴khɛ³³	negotiate	negotiate				index	0			
 459941	1962	Yi (Liangshan)	tʂhɿ⁵⁵	tʂhɿ⁵⁵	goat	goat			2.1.8	index	0			1226
 459942	1962	Yi (Liangshan)	tʂhɿ⁵⁵bu³³	tʂhɿ⁵⁵bu³³	goat, billy	goat, billy			2.1.8	index	0			1226,m
-459943	1962	Yi (Liangshan)	tʂhɿ⁵⁵khɔ³³mo²¹	tʂhɿ⁵⁵khɔ³³mo²¹	goat, young female	goat, young female			2.1.8	index	0			1226,m,m,m,1620
+459943	1962	Yi (Liangshan)	tʂhɿ⁵⁵khɔ³³mo²¹	tʂhɿ⁵⁵khɔ³³mo²¹	goat, young female	goat, young female			2.1.8	index	0			1226,m|m,1620|m
 459944	1962	Yi (Liangshan)	tʂhɿ⁵⁵mo²¹	tʂhɿ⁵⁵mo²¹	goat, nanny	goat, nanny			2.1.8	index	0			1226,m
 459945	1962	Yi (Liangshan)	tʂhɿ⁵⁵ʂa³³	tʂhɿ⁵⁵ʂa³³	goat, castrated	goat, castrated			2.1.8	index	0			1226,m
-459946	1962	Yi (Liangshan)	tʂhɿ⁵⁵zɯ³³	tʂhɿ⁵⁵zɯ³³	kid (goat)	kid (goat)			2.1.8	index	0			1226,m,1012
+459946	1962	Yi (Liangshan)	tʂhɿ⁵⁵zɯ³³	tʂhɿ⁵⁵zɯ³³	kid (goat)	kid (goat)			2.1.8	index	0			1226,1012|m
 459947	1962	Yi (Liangshan)	tʂhɿ⁵⁵thɔ³³bu³³	tʂhɿ⁵⁵thɔ³³bu³³	goat, young male	goat, young male			2.1.8	index	0			1226,m,m
 459948	1962	Yi (Liangshan)	tʂhɿ³⁴ʣɛ³³	tʂhɿ³⁴ʣɛ³³	chop (meat)	chop (meat)			6.9.3	index	0			
 459949	1962	Yi (Liangshan)	ʦhi³³	ʦhi³³	ten	ten			9.9	index	0			2748
@@ -1228,7 +1228,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 460489	1962	Yi (Liangshan)	kɯ⁵⁵lu³³	kɯ⁵⁵lu³³	skill; technology	skill; technology			9.6.1	index	0			
 460490	1962	Yi (Liangshan)	kɯ⁵⁵ŋgu³³kɯ⁵⁵ŋgɯ³³	kɯ⁵⁵ŋgu³³kɯ⁵⁵ŋgɯ³³	tool, metal working	tool, metal working			5.11.5.4	index	0			
 460491	1962	Yi (Liangshan)	kɯ⁵⁵mo²¹	kɯ⁵⁵mo²¹	craftsman	craftsman				index	0			
-460492	1962	Yi (Liangshan)	kɯ⁵⁵mu³³	kɯ⁵⁵mu³³	do (one's work)	do (one's work)			6.1.1.1	index	0			m,bChinese,2455,2455
+460492	1962	Yi (Liangshan)	kɯ⁵⁵mu³³	kɯ⁵⁵mu³³	do (one's work)	do (one's work)			6.1.1.1	index	0			bChinese|m,2455|2455
 460493	1962	Yi (Liangshan)	kɯ⁵⁵ȵo²¹	kɯ⁵⁵ȵo²¹	industry	industry			5.11	index	0			
 460494	1962	Yi (Liangshan)	kɯ⁵⁵zɯ³³	kɯ⁵⁵zɯ³³	apprentice	apprentice			4.2.1	index	0			
 460495	1962	Yi (Liangshan)	kɯ⁵⁵ʑi³³	kɯ⁵⁵ʑi³³	factory	factory			9.10.6	index	0			
@@ -2810,7 +2810,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 462071	1962	Yi (Liangshan)	lo³⁴ʑo³³	lo³⁴ʑo³³	sheep, wild	sheep, wild			2.1.8	index	0			m,6028
 462072	1962	Yi (Liangshan)	lo³⁴ʦu̱³³	lo³⁴ʦu̱³³	end (last part)	end (last part)			9.5	index	0			
 462073	1962	Yi (Liangshan)	lu³³	lu³³	always	always			9.1.1	index	0			
-462074	1962	Yi (Liangshan)	lu³³	lu³³	dragon	dragon			2.1.5	index	0			bChinese,b
+462074	1962	Yi (Liangshan)	lu³³	lu³³	dragon	dragon			2.1.5	index	0			b|bChinese
 462075	1962	Yi (Liangshan)	lu³³pɿ³⁴	lu³³pɿ³⁴	proverb, Nuosu; saying (Nuosu proverb)	proverb, Nuosu; saying (Nuosu proverb)			1.8.7	index	0			
 462076	1962	Yi (Liangshan)	lu³³di³³xo³³	lu³³di³³xo³³	southeast	southeast				index	0			
 462077	1962	Yi (Liangshan)	lu³³ȵi³³	lu³³ȵi³³	serious (earnest)	serious (earnest)			8.3.3.4.2	index	0			
@@ -3050,7 +3050,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 462311	1962	Yi (Liangshan)	ŋgu²¹	ŋgu²¹	exorcise	exorcise			5.8.3.1	index	0			
 462312	1962	Yi (Liangshan)	ŋgu²¹	ŋgu²¹	rectify; resolve (disagreement)	rectify; resolve (disagreement)			8.5.2.1	index	0			
 462313	1962	Yi (Liangshan)	ŋgu̱³³	ŋgu̱³³	pick up	pick up			6.10.4	index	0			
-462314	1962	Yi (Liangshan)	ŋgu̱³³	ŋgu̱³³	bump (hit); strike (hit)	bump (hit); strike (hit)			6.8	index	0			445,5821
+462314	1962	Yi (Liangshan)	ŋgu̱³³	ŋgu̱³³	bump (hit); strike (hit)	bump (hit); strike (hit)			6.8	index	0			445|5821
 462315	1962	Yi (Liangshan)	ŋgu̱³⁴sɛ³³	ŋgu̱³⁴sɛ³³	provoke	provoke			6.2.2.1	index	0			
 462316	1962	Yi (Liangshan)	ŋgu̱³⁴ʣɛ³³	ŋgu̱³⁴ʣɛ³³	bully (mistreat)	bully (mistreat)			4.4.2	index	0			
 462317	1962	Yi (Liangshan)	ŋgu⁵⁵	ŋgu⁵⁵	pierce; stab; stick into	pierce; stab; stick into			6.9.2	index	0			
@@ -5375,8 +5375,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 464636	1962	Yi (Liangshan)	ʑi²¹xa⁵⁵xa²¹	ʑi²¹xa⁵⁵xa²¹	all; completely	all; completely			9.9	index	0			
 464637	1962	Yi (Liangshan)	ʑi²¹khu³³	ʑi²¹khu³³	boast (brag); brag	boast (brag); brag			8.5.15	index	0			
 464638	1962	Yi (Liangshan)	ʑi²¹ndi⁵⁵	ʑi²¹ndi⁵⁵	foolish; silly; stupid	foolish; silly; stupid			9.6.2.2	index	0			
-464639	1962	Yi (Liangshan)	ʑi²¹nʥɿ³³	ʑi²¹nʥɿ³³	cape, sheepskin	cape, sheepskin			5.11.8.2.2	index	0			6028,m,m
-464640	1962	Yi (Liangshan)	ʑi²¹nʥɿ³³ʂɔ³³mo²¹	ʑi²¹nʥɿ³³ʂɔ³³mo²¹	cape, goat skin	cape, goat skin			5.11.8.2.2	index	0			6028,m,m,m,m
+464639	1962	Yi (Liangshan)	ʑi²¹nʥɿ³³	ʑi²¹nʥɿ³³	cape, sheepskin	cape, sheepskin			5.11.8.2.2	index	0			6028,m|m
+464640	1962	Yi (Liangshan)	ʑi²¹nʥɿ³³ʂɔ³³mo²¹	ʑi²¹nʥɿ³³ʂɔ³³mo²¹	cape, goat skin	cape, goat skin			5.11.8.2.2	index	0			6028,m|m,m,m
 464641	1962	Yi (Liangshan)	ʑi²¹su³³	ʑi²¹su³³	please	please			8.3.1.1.1	index	0			
 464642	1962	Yi (Liangshan)	ʑi²¹sɿ³³	ʑi²¹sɿ³³	also; still (continuing); yet	also; still (continuing); yet			10.1.2.1	index	0			
 464643	1962	Yi (Liangshan)	ʑi²¹sɿ²¹	ʑi²¹sɿ²¹	attentive; careful	attentive; careful			8.3.1.11.1	index	0			
@@ -5413,17 +5413,17 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 464674	1962	Yi (Liangshan)	ʑi³⁴vu³³	ʑi³⁴vu³³	pipe stem	pipe stem			5.8	index	0			
 464675	1962	Yi (Liangshan)	ʑi³⁴vu³³ka³⁴ʂa³³	ʑi³⁴vu³³ka³⁴ʂa³³	house, narrow	house, narrow			5.11.9.1	index	0			1612,m,m,m
 464676	1962	Yi (Liangshan)	ʑo³³	ʑo³³	sheep	sheep			2.1.8	index	0			6028,m
-464677	1962	Yi (Liangshan)	ʑo³³nʥɿ³³	ʑo³³nʥɿ³³	leather, sheep; skin, sheep	leather, sheep; skin, sheep			2.1.8	index	0			6028,m,m
+464677	1962	Yi (Liangshan)	ʑo³³nʥɿ³³	ʑo³³nʥɿ³³	leather, sheep; skin, sheep	leather, sheep; skin, sheep			2.1.8	index	0			6028,m|m
 464678	1962	Yi (Liangshan)	ʑo³³nʣɿ³⁴	ʑo³³nʣɿ³⁴	acne	acne			1.6.5.3	index	0			
-464679	1962	Yi (Liangshan)	ʑo³³ʐɿ³³	ʑo³³ʐɿ³³	sheep, early	sheep, early			2.1.8	index	0			6028,m,m
+464679	1962	Yi (Liangshan)	ʑo³³ʐɿ³³	ʑo³³ʐɿ³³	sheep, early	sheep, early			2.1.8	index	0			6028,m|m
 464680	1962	Yi (Liangshan)	ʑo³³ʂɿ⁵⁵mo²¹	ʑo³³ʂɿ⁵⁵mo²¹	ewe	ewe			2.1.8	index	0			
-464681	1962	Yi (Liangshan)	ʑo²¹ɬɿ⁵⁵	ʑo²¹ɬɿ⁵⁵	bag, sheepskin	bag, sheepskin				index	0			6028,m,m
+464681	1962	Yi (Liangshan)	ʑo²¹ɬɿ⁵⁵	ʑo²¹ɬɿ⁵⁵	bag, sheepskin	bag, sheepskin				index	0			6028,m|m
 464682	1962	Yi (Liangshan)	ʑo²¹	ʑo²¹	oil (petroleum); oil, vegetable	oil (petroleum); oil, vegetable			1.6.4.1	index	0			bChinese
 464683	1962	Yi (Liangshan)	ʑo²¹	ʑo²¹	pound, tenth [classifier]	pound, tenth [classifier]			6.8	index	0			
 464684	1962	Yi (Liangshan)	ʑo²¹	ʑo²¹	shake; sway (move)	shake; sway (move)			6.7.9	index	0			
 464685	1962	Yi (Liangshan)	ʑo²¹	ʑo²¹	weigh	weigh			9.8	index	0			
 464686	1962	Yi (Liangshan)	ʑo²¹gɯ³⁴	ʑo²¹gɯ³⁴	slosh	slosh				index	0			
-464687	1962	Yi (Liangshan)	ʑo²¹lɿ²¹	ʑo²¹lɿ²¹	sheep, late	sheep, late			2.1.8	index	0			6028,m,m
+464687	1962	Yi (Liangshan)	ʑo²¹lɿ²¹	ʑo²¹lɿ²¹	sheep, late	sheep, late			2.1.8	index	0			6028,m|m
 464688	1962	Yi (Liangshan)	ʑo²¹mo²¹	ʑo²¹mo²¹	ewe	ewe			2.1.8	index	0			
 464689	1962	Yi (Liangshan)	ʑo²¹ʑɿ³³	ʑo²¹ʑɿ³³	oil (petroleum); oil, vegetable	oil (petroleum); oil, vegetable			1.6.4.1	index	0			bChinese,m
 464690	1962	Yi (Liangshan)	ʑo⁵⁵	ʑo⁵⁵	incorrect; mistaken	incorrect; mistaken			6.2	index	0			
@@ -5435,7 +5435,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 464696	1962	Yi (Liangshan)	ʑo⁵⁵ʂɿ²¹	ʑo⁵⁵ʂɿ²¹	bottle	bottle			5.1	index	0			
 464697	1962	Yi (Liangshan)	ʑo⁵⁵vi³³	ʑo⁵⁵vi³³	crime; offense	crime; offense			6.4	index	0			
 464698	1962	Yi (Liangshan)	ʑo³⁴mu³³	ʑo³⁴mu³³	fly (insect); fly, blue bottle	fly (insect); fly, blue bottle			2.2.6	index	0			
-464699	1962	Yi (Liangshan)	ʑo³⁴nʥɿ³³	ʑo³⁴nʥɿ³³	sheepskin	sheepskin			2.1.8	index	0			6028,m,m
+464699	1962	Yi (Liangshan)	ʑo³⁴nʥɿ³³	ʑo³⁴nʥɿ³³	sheepskin	sheepskin			2.1.8	index	0			6028,m|m
 464700	1962	Yi (Liangshan)	ʑo³⁴ʂɯ³³	ʑo³⁴ʂɯ³³	mutton	mutton			2.1.8	index	0			
 464701	1962	Yi (Liangshan)	ʑo³⁴si³³go³³	ʑo³⁴si³³go³³	southwest	southwest				index	0			
 464702	1962	Yi (Liangshan)	ʑo³⁴so³³	ʑo³⁴so³³	light (weight)	light (weight)			7.1.11.1	index	0			
@@ -5444,9 +5444,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 464705	1962	Yi (Liangshan)	ʑu³³	ʑu³³	grab; pick up	grab; pick up			6.16	index	0			
 464706	1962	Yi (Liangshan)	ʑɔ³³	ʑɔ³³	person [classifier]	person [classifier]			4.5	index	0			
 464707	1962	Yi (Liangshan)	ʑɔ³³gu²¹gu²¹	ʑɔ³³gu²¹gu²¹	experienced (skillful); skillful	experienced (skillful); skillful			9.6.1.2	index	0			
-464708	1962	Yi (Liangshan)	ʑɔ³³la³³	ʑɔ³³la³³	ram (sheep)	ram (sheep)			2.1.8	index	0			6028,m,m
+464708	1962	Yi (Liangshan)	ʑɔ³³la³³	ʑɔ³³la³³	ram (sheep)	ram (sheep)			2.1.8	index	0			6028,m|m
 464709	1962	Yi (Liangshan)	ʑɔ²¹	ʑɔ²¹	person [classifier]	person [classifier]			4.5	index	0			
-464710	1962	Yi (Liangshan)	ʑɔ²¹n̥a⁵⁵	ʑɔ²¹n̥a⁵⁵	sheep, neutered	sheep, neutered			2.1.8	index	0			6028,m,m
+464710	1962	Yi (Liangshan)	ʑɔ²¹n̥a⁵⁵	ʑɔ²¹n̥a⁵⁵	sheep, neutered	sheep, neutered			2.1.8	index	0			6028,m|m
 464711	1962	Yi (Liangshan)	ʑɔ⁵⁵	ʑɔ⁵⁵	person [classifier]	person [classifier]			4.5	index	0			
 464712	1962	Yi (Liangshan)	ʑɔ³⁴phɛ³³	ʑɔ³⁴phɛ³³	delicate; exquisite	delicate; exquisite			7.1.5.1	index	0			
 464713	1962	Yi (Liangshan)	ʑu̱³³	ʑu̱³³	bear (a child)	bear (a child)			2.2.3	index	0			
@@ -5604,7 +5604,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 464865	1962	Yi (Liangshan)	tʂɯ²¹khi⁵⁵	tʂɯ²¹khi⁵⁵	eliminate	eliminate			9.5	index	0			
 464866	1962	Yi (Liangshan)	tʂɯ²¹ŋgo⁵⁵	tʂɯ²¹ŋgo⁵⁵	breed (livestock); select (livestock)	breed (livestock); select (livestock)			1.1.1.1	index	0			
 464867	1962	Yi (Liangshan)	tʂɯ²¹ʨho⁵⁵	tʂɯ²¹ʨho⁵⁵	breed (animals); hybrid; mutation	breed (animals); hybrid; mutation			1.9.1.1	index	0			
-464868	1962	Yi (Liangshan)	tʂɯ⁵⁵	tʂɯ⁵⁵	all right; correct (true); OK; right (correct); yes	all right; correct (true); OK; right (correct); yes			1.5.3.2	index	0			b?,5790
+464868	1962	Yi (Liangshan)	tʂɯ⁵⁵	tʂɯ⁵⁵	all right; correct (true); OK; right (correct); yes	all right; correct (true); OK; right (correct); yes			1.5.3.2	index	0			5790|b?
 464869	1962	Yi (Liangshan)	tʂɯ⁵⁵	tʂɯ⁵⁵	photograph; press down; press flat; print; take (a picture)	photograph; press down; press flat; print; take (a picture)			9.5	index	0			
 464870	1962	Yi (Liangshan)	tʂɯ⁵⁵	tʂɯ⁵⁵	dew	dew				index	0			59
 464871	1962	Yi (Liangshan)	tʂɯ⁵⁵ga³³	tʂɯ⁵⁵ga³³	Milky Way	Milky Way				index	0			3574,5668

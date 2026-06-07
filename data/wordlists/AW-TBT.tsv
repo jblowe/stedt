@@ -723,7 +723,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 2916	568	Garo	ri	ri	penis	penis				142	0			1284
 2917	421	Chokri	²u²tho²la	²u²tho²la	penis	penis				142	0			p,3420,1624
 2918	1381	Sema [Sumi]	²a²phi²ɣi	²a²phi²ɣi	penis	penis				142	0			
-2919	275	Ao (Chungli)	³ta³miʔ	³ta³miʔ	penis	penis				142	0			p,p,547,?
+2919	275	Ao (Chungli)	³ta³miʔ	³ta³miʔ	penis	penis				142	0			p|p,547|?
 2920	905	Liangmei	ka-lɛ̃	ka-lɛ̃	penis	penis				142	0			m,1638
 2921	910	Limbu	mi◦khuː◦ma	mikhuːma	smoke	smoke	n.	n.	3.2.12.2	143	0		D1	2136,2361,m
 2922	910	Limbu	[miː◦khuʔ]	[miːkhuʔ]	smoke	smoke	n.	n.	3.2.12.2	143	0			2136,2361
@@ -1057,7 +1057,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 3253	962	Lotha Naga	¹o³rʏ(ʔ)	¹o³rʏ(ʔ)	bone	bone			1.6.3	173	0			m,232
 3254	1363	Sangtam	¹a²rɯ	¹a²rɯ	bone	bone			1.6.3	173	0			m,232
 3255	275	Ao (Chungli)	³tɯ³rɯt	³tɯ³rɯt	bone	bone			1.6.3	173	0			p,232
-3256	428	Chang	ló	ló	bone	bone			1.6.3	173	0		D1	238,m
+3256	428	Chang	ló	ló	bone	bone			1.6.3	173	0		D1	238|m
 3257	786	Khiamngan	¹ᴜ	¹ᴜ	bone	bone			1.6.3	173	0		D1	m
 3258	910	Limbu	yɛp◦pa	yɛp◦pa	bone	bone			1.6.3	173	0			554,s
 3259	442	Chepang	hrus	hrus	bone	bone			1.6.3	173	0		D1	234
@@ -3142,8 +3142,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 5350	905	Liangmei	mai-shan-bût	mai-shan-bût	pimple	pimple			1.6.5.3	451	0			
 5351	1338	Rengma (Southern)	¹n⁴šɤ̃	¹n⁴šɤ̃	pimple	pimple			1.6.5.3	451	0			
 5352	134	*Kuki-Naga-Chin	(s-)|rim	(s-)|rim	smell	smell	n.	n.	1.2.8.5	465	0			1416
-5353	257	Angami Naga	⁴re	⁴re	smell	smell	n.	n.	1.2.8.5	465	0			2607?,1416
-5354	421	Chokri	²u⁵rɤ	²u⁵rɤ	smell	smell	n.	n.	1.2.8.5	465	0			p,p,2607?,1416
+5353	257	Angami Naga	⁴re	⁴re	smell	smell	n.	n.	1.2.8.5	465	0			1416|2607?
+5354	421	Chokri	²u⁵rɤ	²u⁵rɤ	smell	smell	n.	n.	1.2.8.5	465	0			p|p,1416|2607?
 5355	975	Lushai [Mizo]	rím	rím	smell	smell	n.	n.	1.2.8.5	465	0			1416
 5356	962	Lotha Naga	¹o¹rhɯm	¹o¹rhɯm	smell	smell	n.	n.	1.2.8.5	465	0			m,1416
 5357	1671	Yimchungrü	²a◦²hrɯm [¹]	²a◦²hrɯm [¹]	smell	smell	n.	n.	1.2.8.5	465	0			m,1416
@@ -3855,7 +3855,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 6065	275	Ao (Chungli)	³a³maʔ	³a³maʔ	forget	forget	v.	v.	8.3.1.16.1	710	0	jbl5	HIDE	DUPE IN SOURCE
 6066	1458	Tamang (Sahu)	'syeː-	'syeː-	know	know	v.	v.	8.3.1.12.1	711	0			2670
 6067	1468	Tamang (Bagmati)	'seː-	'seː-	know	know	v.	v.	8.3.1.12.1	711	0			2670
-6068	1562	Tibetan (Written)	śes-ap	śes-ap	know	know	v.	v.	8.3.1.12.1	711	0			2670,e,m
+6068	1562	Tibetan (Written)	śes-ap	śes-ap	know	know	v.	v.	8.3.1.12.1	711	0			2670|e,m
 6069	1551	Tibetan (Central)	šēː̀-	šēː̀-	know	know	v.	v.	8.3.1.12.1	711	0			2670
 6070	275	Ao (Chungli)	³mɯ³tɯt	³mɯ³tɯt	know	know	v.	v.	8.3.1.12.1	711	0			m,2670
 6071	1468	Tamang (Bagmati)	'meʱ	'meʱ	cow / cattle	cow / cattle			2.1.2	712	0			

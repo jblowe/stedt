@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: hnooy
   gloss: BREAST
+  source: 'PKC #886'
+  old_tag: 4886
 - grpid: 66
   group: 1.3.4
   form: nu
   gloss: BREAST
+  source: DRM#366
+  old_tag: 6779
 - grpid: 50
   group: '7'
   form: nu'
@@ -32,6 +36,8 @@ mesoroots:
   group: '7'
   form: nuᴮ
   gloss: BREASTS
+  source: TL#35
+  old_tag: 7240
 notes:
 - type: T
   text: <par>Despite the phonological similarity of the Newar forms <latinform>nu gɔr</latinform> (Dolakhali)
@@ -39,16 +45,16 @@ notes:
     etymon, K. P. Malla denies their cognacy.</par><par>In fact, the semantic connection, between BREAST
     (of female) and HEART has yet to be demonstrated for Tibeto-Burman.</par>
 - type: F
-  text: '<par><hanform>乳</hanform> OC <latinform>*ńi̯u</latinform>, GSR #135a ‘breast’; Li 1971: <reconstruction>*njugx</reconstruction>;
-    Baxter 1992: <reconstruction>*njoʔ</reconstruction>; Mand. <latinform>rǔ</latinform>.</par><par>This
-    is a long-recognized cognate (see Shafer IST 1966:38; STC p. 184; Bodman 1980:171 #444;  Coblin 1986:48;
-    Gong 1995 #16, #70; Schuessler 2007:446).</par><par>The correspondence of TB final <reconstruction>*‑əw</reconstruction>
-    (or <reconstruction>*‑u</reconstruction>) to OC <reconstruction>*‑ug</reconstruction> (Li)/<reconstruction>*‑o</reconstruction>
-    (Baxter) is regular. For example:</par><par><hanform>頭</hanform> OC <reconstruction>*dug</reconstruction>
-    &apos;head&apos;; (Li)/<reconstruction>*do</reconstruction>; Baxter, TB <reconstruction>*d‑bu</reconstruction>;
-    Mand. <latinform>tóu</latinform><br /><hanform>霧</hanform> OC <reconstruction>*mjugh</reconstruction>
-    &apos;fog&apos;; (Li)/<reconstruction>*m(r)jos</reconstruction> (Baxter); TB <reconstruction>*r‑məw</reconstruction>;
-    Mand. <latinform>wù</latinform><br /><hanform>寇</hanform> OC <reconstruction>*khugs</reconstruction>
-    ‘steal’, (Li)/<reconstruction>*kh(r)os</reconstruction> (Baxter), TB <reconstruction>*r‑kəw</reconstruction>;
-    Mand. <latinform>kòu</latinform>.</par><par>This TB final also corresponds to OC <reconstruction>*‑əgw</reconstruction>
-    (Li)/<reconstruction>*‑u</reconstruction> (Baxter), as seen in #1733.<br />     [ZJH]</par>'
+  text: "<par><hanform>乳</hanform> OC <latinform>*ńi̯u</latinform>, GSR #135a ‘breast’; Li 1971: <reconstruction>*njugx</reconstruction>;\
+    \ Baxter 1992: <reconstruction>*njoʔ</reconstruction>; Mand. <latinform>rǔ</latinform>.</par><par>This\
+    \ is a long-recognized cognate (see Shafer IST 1966:38; STC p. 184; Bodman 1980:171 #444;  Coblin\
+    \ 1986:48; Gong 1995 #16, #70; Schuessler 2007:446).</par><par>The correspondence of TB final <reconstruction>*‑əw</reconstruction>\
+    \ (or <reconstruction>*‑u</reconstruction>) to OC <reconstruction>*‑ug</reconstruction> (Li)/<reconstruction>*‑o</reconstruction>\
+    \ (Baxter) is regular. For example:</par><par><hanform>頭</hanform> OC <reconstruction>*dug</reconstruction>\
+    \ &apos;head&apos;; (Li)/<reconstruction>*do</reconstruction>; Baxter, TB <reconstruction>*d‑bu</reconstruction>;\
+    \ Mand. <latinform>tóu</latinform><br /><hanform>霧</hanform> OC <reconstruction>*mjugh</reconstruction>\
+    \ &apos;fog&apos;; (Li)/<reconstruction>*m(r)jos</reconstruction> (Baxter); TB <reconstruction>*r‑məw</reconstruction>;\
+    \ Mand. <latinform>wù</latinform><br /><hanform>寇</hanform> OC <reconstruction>*khugs</reconstruction>\
+    \ ‘steal’, (Li)/<reconstruction>*kh(r)os</reconstruction> (Baxter), TB <reconstruction>*r‑kəw</reconstruction>;\
+    \ Mand. <latinform>kòu</latinform>.</par><par>This TB final also corresponds to OC <reconstruction>*‑əgw</reconstruction>\
+    \ (Li)/<reconstruction>*‑u</reconstruction> (Baxter), as seen in #1733.<br />\L[ZJH]</par>"

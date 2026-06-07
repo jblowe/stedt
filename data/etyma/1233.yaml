@@ -18,18 +18,26 @@ mesoroots:
   group: 1.1.1
   form: gup
   gloss: SIT ON EGGS / HATCH
+  source: 'JS-HCST: 199'
+  old_tag: 6676
 - grpid: 8
   group: '1.2'
   form: khup-I, khuʔ-II
   gloss: COVER / TURN UPSIDE DOWN
+  source: 'PKC #434'
+  old_tag: 4434
 - grpid: 68
   group: 1.2.1.1
   form: huap
   gloss: INCLUDE / COVER
+  source: 'PKC #723 ("PNC")'
+  old_tag: 4723
 - grpid: 8
   group: '1.2'
   form: hup-I, huʔ-II
   gloss: COVER / PROTECT
+  source: 'PKC #708'
+  old_tag: 4708
 notes:
 - type: T
   text: '<par>The present reconstruction is a revision of <latinform>gop ⪤ kop</latinform>, found in HPTB

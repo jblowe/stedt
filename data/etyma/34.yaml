@@ -19,14 +19,20 @@ mesoroots:
   group: '1.2'
   form: sʰaa
   gloss: ANIMAL / FLESH / MEAT
+  source: 'PKC #686'
+  old_tag: 4686
 - grpid: 66
   group: 1.3.4
   form: sa
   gloss: FLESH / MEAT / ANIMAL
+  source: DRM#334
+  old_tag: 6747
 - grpid: 63
   group: 1.3.1
   form: a-ʃaʔ
   gloss: ANIMAL / MEAT, FLESH
+  source: 'PCN #015'
+  old_tag: 7562
 notes:
 - type: T
   text: <par>Several of these Tani forms refer specifically to cattle rather than to animals in general.

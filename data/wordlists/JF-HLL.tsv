@@ -724,7 +724,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 285338	943	Lisu (Central)	pyá³	pyá³	flat, be	flat, be			7.1.5.1		0			
 285339	943	Lisu (Central)	krgh⁵-trghe²	krgh⁵-trghe²	flea	flea			2.2.6		0			
 285340	943	Lisu (Central)	hchye²-jye⁴	hchye²-jye⁴	flee	flee			6.7.2		0			6705,m
-285341	943	Lisu (Central)	a³-raw³ mū³	a³-raw³ mū³	fleece (sheep's wool)	fleece (sheep's wool)			1.6.1.3		0			p,p,6031,m,363
+285341	943	Lisu (Central)	a³-raw³ mū³	a³-raw³ mū³	fleece (sheep's wool)	fleece (sheep's wool)			1.6.1.3		0			p|p,6031,363|m
 285342	943	Lisu (Central)	hwa⁵	hwa⁵	flesh	flesh			1.1.1.1		0			34
 285343	943	Lisu (Central)	bu⁴-jye⁴	bu⁴-jye⁴	float away	float away	v.	v.	6.6.1		0			
 285344	943	Lisu (Central)	jaw⁴-ma³	jaw⁴-ma³	floor	floor			5.11.9.3		0			
@@ -807,7 +807,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 285421	943	Lisu (Central)	bye⁶-lye⁶-mu³	bye⁶-lye⁶-mu³	glittering	glittering					0			
 285422	943	Lisu (Central)	jye⁴	jye⁴	go	go			6.7.2		0			
 285423	943	Lisu (Central)	ye⁴	ye⁴	go	go			6.7.2		0			657
-285424	943	Lisu (Central)	a¹-hchï⁶	a¹-hchï⁶	goat	goat			2.1.8		0			p,p,1226
+285424	943	Lisu (Central)	a¹-hchï⁶	a¹-hchï⁶	goat	goat			2.1.8		0			p|p,1226
 285425	943	Lisu (Central)	wu⁴-sa⁴	wu⁴-sa⁴	God, the creator	God, the creator			5.8.1.1		0			658,5792
 285426	943	Lisu (Central)	shï³	shï³	gold	gold			3.2.4		0			3496
 285427	943	Lisu (Central)	chaw³law⁵	chaw³law⁵	gong	gong			5.1		0			
@@ -1702,7 +1702,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 286316	943	Lisu (Central)	a¹-hta⁵ byá⁶-gu³	a¹-hta⁵ byá⁶-gu³	sheath (sword)	sheath (sword)			5.14		0			
 286317	943	Lisu (Central)	hʼi⁴ ra⁵	hʼi⁴ ra⁵	shed	shed	n.	n.	5.11.9.1		0			
 286318	943	Lisu (Central)	haw¹-lye³	haw¹-lye³	shed / spill	shed / spill	v.	v.	5.11.9.1		0			
-286319	943	Lisu (Central)	a³-raw³	a³-raw³	sheep	sheep			2.1.8		0			p,p,6031
+286319	943	Lisu (Central)	a³-raw³	a³-raw³	sheep	sheep			2.1.8		0			p|p,6031
 286320	943	Lisu (Central)	taw²-nyá²	taw²-nyá²	shelter (from rain)	shelter (from rain)			5.11.9.1		0			
 286321	943	Lisu (Central)	chya³-ni³	chya³-ni³	shield	shield	n.	n.	5.15		0			
 286322	943	Lisu (Central)	bū⁴-htsï⁵	bū⁴-htsï⁵	shirt	shirt	n.	n.	5.11.8.2.1.2		0			
@@ -2149,7 +2149,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 286763	943	Lisu (Central)	si²-da⁴	si²-da⁴	wood (timber)	wood (timber)			3.1.2		0			2658,m
 286764	943	Lisu (Central)	si²-chaw³	si²-chaw³	wood (firewood)	wood (firewood)			3.1.2		0			2658,m
 286765	943	Lisu (Central)	sa³-la⁵	sa³-la⁵	wool (cotton)	wool (cotton)			1.6.1.3		0			m,2387
-286766	943	Lisu (Central)	a³-raw³ mū³	a³-raw³ mū³	wool (sheep's)	wool (sheep's)			1.6.1.3		0			p,p,6031,m,363
+286766	943	Lisu (Central)	a³-raw³ mū³	a³-raw³ mū³	wool (sheep's)	wool (sheep's)			1.6.1.3		0			p|p,6031,363|m
 286767	943	Lisu (Central)	mi⁵ ye³	mi⁵ ye³	work, do / cultivation	work, do / cultivation			6.1.1		0			2455,m
 286768	943	Lisu (Central)	mi³-ná³	mi³-ná³	world / earth	world / earth			9.10.2		0			2453,m
 286769	943	Lisu (Central)	ngwa¹-na¹-bi⁵-di⁴	ngwa¹-na¹-bi⁵-di⁴	worm	worm	n.	n.	2.2.6		0			

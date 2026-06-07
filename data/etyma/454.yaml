@@ -20,10 +20,14 @@ mesoroots:
   group: 1.2.2
   form: kam
   gloss: BANK / SIDE / SHORE
+  source: 'PKC #255 ("PCC")'
+  old_tag: 4255
 - grpid: 8
   group: '1.2'
   form: kam
   gloss: MOUTH
+  source: 'PKC #301'
+  old_tag: 4301
 notes:
 - type: T
   text: <par>Since the PTB prefix <latinform>*r-</latinform> regularly develops into the Jingpho syllabic

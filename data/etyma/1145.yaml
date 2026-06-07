@@ -19,10 +19,14 @@ mesoroots:
   group: 1.1.1
   form: b(r)at²
   gloss: VOMIT
+  source: JS-HCST: 129
+  old_tag: 6670
 - grpid: 50
   group: '7'
   form: prɔɁᴰ
   gloss: VOMIT (v.)
+  source: TL#316
+  old_tag: 7521
 - grpid: 12
   group: 1.7.2
   form: pʰaːt

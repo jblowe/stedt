@@ -113,7 +113,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 506351	1997	Qiang (Mianchi)	ʐì	ʐì	road	road			9.10.1	41	0			
 506352	1996	Qiang (Longxi)	bà tò	bà tò	plain	plain			3.2.5	42	0			
 506353	1997	Qiang (Mianchi)	dá tʂhɨ̀ sɨ̀	dá tʂhɨ̀ sɨ̀	flatlands	flatlands				42	0			
-506354	1997	Qiang (Mianchi)	sɨ̀-phìŋ phíŋ	sɨ̀-phìŋ phíŋ	grassland [grass-b(flat)]	grassland [grass-b(flat)]			9.10.4	43	0			m,5642,bChinese,b,bChinese,b
+506354	1997	Qiang (Mianchi)	sɨ̀-phìŋ phíŋ	sɨ̀-phìŋ phíŋ	grassland [grass-b(flat)]	grassland [grass-b(flat)]			9.10.4	43	0			5642|m,b|bChinese,b|bChinese
 506355	1996	Qiang (Longxi)	χà qə́ bà tò	χà qə́ bà tò	grassy plain	grassy plain			3.1.10	43	0			
 506356	1997	Qiang (Mianchi)	χoù-bá	χoù-bá	grassland [m-b]	grassland [m-b]			9.10.4	43	0			
 506357	1997	Qiang (Mianchi)	sɨ̀-ué sɨ̀	sɨ̀-ué sɨ̀	grassland [grass-place.for.growing]	grassland [grass-place.for.growing]			9.10.4	43	0			5642,m,m
@@ -871,7 +871,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 507109	1996	Qiang (Longxi)	ià |tsɨ̀	ià tsɨ̀	duck {b}	duck {b}			2.1.10	372	0			5718
 507110	1996	Qiang (Longxi)	ʁò	ʁò	goose {b?}	goose {b?}			2.1.10	373	0			b?
 507111	1997	Qiang (Mianchi)	uò	uò	goose {b}	goose {b}			2.1.10	373	0			
-507112	1996	Qiang (Longxi)	ỳ gù	ỳ gù	dove, pigeon [bird-b]	dove, pigeon [bird-b]			2.2.4.1	374	0			m,m,2346,bChinese
+507112	1996	Qiang (Longxi)	ỳ gù	ỳ gù	dove, pigeon [bird-b]	dove, pigeon [bird-b]			2.2.4.1	374	0			m|m,2346|bChinese
 507113	1997	Qiang (Mianchi)	kò tsɨ̀	kò tsɨ̀	dove, pigeon {b}	dove, pigeon {b}			2.2.4.1	374	0			bChinese
 507114	1997	Qiang (Mianchi)	ɕỳ	ɕỳ	wild carnivore	wild carnivore			3.2.5	375	0			
 507115	1996	Qiang (Longxi)	pià-χó	pià-χó	wild carnivore [tiger?-wild]	wild carnivore [tiger?-wild]			3.2.5	375	0			
@@ -1224,7 +1224,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 507462	1997	Qiang (Mianchi)	à dà-nə̀ kɛ́	à dà-nə̀ kɛ́	wood ear fungus [grandmother-ear]	wood ear fungus [grandmother-ear]			1.2.7	567	0			p,m,811,820
 507463	1996	Qiang (Longxi)	ɚ́ tsɨ́	ɚ́ tsɨ́	wood ear fungus	wood ear fungus			3.1.2	567	0			bChinese
 507464	1996	Qiang (Longxi)	mú-qhú	mú-qhú	tobacco [smoke-m]	tobacco [smoke-m]			3.1.6.2	568	0			
-507465	1996	Qiang (Longxi)	iá	iá	tobacco {b}	tobacco {b}			3.1.6.2	568	0			bChinese,b
+507465	1996	Qiang (Longxi)	iá	iá	tobacco {b}	tobacco {b}			3.1.6.2	568	0			b|bChinese
 507466	1997	Qiang (Mianchi)	mù qhué	mù qhué	tobacco	tobacco			3.1.6.2	568	0			m,2361
 507467	1996	Qiang (Longxi)	ià pú-lə̀	ià pú-lə̀	tobacco pipe [m-stick.up]	tobacco pipe [m-stick.up]			3.1.6.2	568.1	0			bChinese,m,m
 507468	1996	Qiang (Longxi)	iǽN-káŋ	iǽN-káŋ	tobacco pipe [b-m]	tobacco pipe [b-m]			3.1.6.2	568.1	0			bChinese,m
@@ -1321,7 +1321,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 507559	1996	Qiang (Longxi)	tsù lə̀ qə̀	tsù lə̀ qə̀	tea	tea			3.1.1	610	0			m,786,m
 507560	1997	Qiang (Mianchi)	ɕà qɛ̀	ɕà qɛ̀	tea (leaves)	tea (leaves)			3.1.1	610	0			
 507561	1997	Qiang (Mianchi)	mù khuɛ́	mù khuɛ́	tobacco	tobacco			3.1.6.2	611	0			m,2361
-507562	1996	Qiang (Longxi)	ià	ià	tobacco {b?}	tobacco {b?}			3.1.6.2	611	0			b,bChinese
+507562	1996	Qiang (Longxi)	ià	ià	tobacco {b?}	tobacco {b?}			3.1.6.2	611	0			b|bChinese
 507563	1997	Qiang (Mianchi)	ià phiæ̀N iáN	ià phiæ̀N iáN	opium {b}	opium {b}			3.1.6.2	612	0			
 507564	1996	Qiang (Longxi)	ià phièN iá	ià phièN iá	opium {b}	opium {b}			3.1.6.2	612	0			
 507565	1996	Qiang (Longxi)	sɨ́ ká	sɨ́ ká	medicine	medicine			5.4	613	0			
@@ -1818,8 +1818,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 508056	1996	Qiang (Longxi)	tà |í	tà í	ax (<WT sta ri)	ax (<WT sta ri)			5.11.5.3	850	0			2684
 508057	1997	Qiang (Mianchi)	tè |ʐì	tè ʐì	ax (<WT sta ri)	ax (<WT sta ri)			5.11.5.3	850	0			2684
 508058	1996	Qiang (Longxi)	tshueì tshueí	tshueì tshueí	hammer {b}	hammer {b}			5.11.5.4	851	0			bChinese
-508059	1996	Qiang (Longxi)	tuà liú	tuà liú	hammer	hammer			5.11.5.4	851	0			676,bChinese,m
-508060	1997	Qiang (Mianchi)	tuà liò	tuà liò	hammer	hammer			5.11.5.4	851	0			676,bChinese,m
+508059	1996	Qiang (Longxi)	tuà liú	tuà liú	hammer	hammer			5.11.5.4	851	0			676|bChinese,m
+508060	1997	Qiang (Mianchi)	tuà liò	tuà liò	hammer	hammer			5.11.5.4	851	0			676|bChinese,m
 508061	1997	Qiang (Mianchi)	tʂhuèi tʂhuèi	tʂhuèi tʂhuèi	hammer {b}	hammer {b}			5.11.5.4	851	0			bChinese
 508062	1996	Qiang (Longxi)	tshǒ tsɨ̀	tshǒ tsɨ̀	chisel {b}	chisel {b}			5.11.5.3	852	0			b
 508063	1997	Qiang (Mianchi)	zò	zò	chisel {b?}	chisel {b?}			5.11.5.3	852	0			6697?
@@ -5431,7 +5431,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 511669	1996	Qiang (Longxi)	tsà	tsà	guard, defend	guard, defend			6.2.2.1	2338	0			
 511670	1997	Qiang (Mianchi)	dʐù	dʐù	guard, defend	guard, defend			6.2.2.1	2338	0			
 511671	1996	Qiang (Longxi)	zì	zì	guard, defend	guard, defend			6.2.2.1	2338	0			
-511672	1996	Qiang (Longxi)	ɕý	ɕý	brush, comb	brush, comb	v.	v.	5.11.8.4	2339	0			1219,bChinese
+511672	1996	Qiang (Longxi)	ɕý	ɕý	brush, comb	brush, comb	v.	v.	5.11.8.4	2339	0			1219|bChinese
 511673	1997	Qiang (Mianchi)	qà tó suí	qà tó suí	brush, comb	brush, comb	v.	v.	5.11.8.4	2339	0			386,m,1219
 511674	1996	Qiang (Longxi)	sú-dà	sú-dà	transport [b-s]	transport [b-s]			6.2.2.1	2340	0			bChinese,s
 511675	1997	Qiang (Mianchi)	dɛ̀ ɕoù ɕá	dɛ̀ ɕoù ɕá	redeem, ransom	redeem, ransom			6.22	2341	0			

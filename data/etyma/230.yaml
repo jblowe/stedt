@@ -20,22 +20,32 @@ mesoroots:
   group: '1.2'
   form: thii
   gloss: BLOOD
+  source: 'PKC #375'
+  old_tag: 4375
 - grpid: 5
   group: 1.1.1
   form: viː
   gloss: BLOOD
+  source: JS-HCST: 103
+  old_tag: 6640
 - grpid: 66
   group: 1.3.4
   form: ʃi
   gloss: BLOOD
+  source: DRM#346
+  old_tag: 6759
 - grpid: 50
   group: '7'
   form: swiᴮ
   gloss: BLOOD
+  source: TL#25
+  old_tag: 7230
 - grpid: 63
   group: 1.3.1
   form: a-(h)jəjʔ
   gloss: BLOOD
+  source: 'PCN #108'
+  old_tag: 7655
 - grpid: 42
   group: '6.1'
   form: swəy²

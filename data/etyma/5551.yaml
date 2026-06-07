@@ -21,14 +21,20 @@ mesoroots:
   group: '7'
   form: Ɂbaᴮ
   gloss: CLASSIFIER FOR FLAT OBJECTS
+  source: TL#53
+  old_tag: 7258
 - grpid: 50
   group: '7'
   form: pjaᴮ
   gloss: FLAT
+  source: TL#118
+  old_tag: 7323
 - grpid: 50
   group: '7'
   form: ɁbVᴬ
   gloss: THIN (as of cloth)
+  source: TL#297
+  old_tag: 7501
 notes:
 - type: T
   text: <par>This root has also acquired both the <latinform>-n</latinform> and <latinform>-t</latinform>

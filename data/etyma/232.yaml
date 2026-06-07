@@ -20,18 +20,26 @@ mesoroots:
   group: '1.2'
   form: ruʔ
   gloss: BONE
+  source: 'PKC #922'
+  old_tag: 4922
 - grpid: 66
   group: 1.3.4
   form: ru
   gloss: BONE
+  source: DRM#365
+  old_tag: 6778
 - grpid: 63
   group: 1.3.1
   form: a-rut
   gloss: BONE
+  source: 'PCN #188'
+  old_tag: 7735
 - grpid: 50
   group: '7'
   form: khrwitᴰ
   gloss: BONE
+  source: TL#31
+  old_tag: 7236
 notes:
 - type: T
   text: <par>A few languages (Jingpho, Ntenyi, Puiron, Rongmei) have developed a nasal prefix in this

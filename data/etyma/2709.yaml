@@ -19,10 +19,14 @@ mesoroots:
   group: 1.3.4
   form: tɐk
   gloss: GRIND / POUND / CRUSH
+  source: DRM#580
+  old_tag: 6982
 - grpid: 8
   group: '1.2'
   form: tuu-I, tuk-II
   gloss: STRIKE / FIGHT
+  source: 'PKC #235'
+  old_tag: 4235
 - grpid: 42
   group: '6.1'
   form: ʔtök
@@ -35,6 +39,8 @@ mesoroots:
   group: 1.1.1
   form: tək
   gloss: CUT UP / MINCE
+  source: JS-HCST: 220
+  old_tag: 6627
 notes:
 - type: T
   text: <par>This root is very likely related to <xref ref="1799">#1799</xref>, as well as to <xref ref="296">#296</xref>.</par>

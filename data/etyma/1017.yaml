@@ -21,14 +21,20 @@ mesoroots:
   group: '1.2'
   form: lam
   gloss: WAY / PATH / ROAD
+  source: 'PKC #1067'
+  old_tag: 5067
 - grpid: 5
   group: 1.1.1
   form: lam
   gloss: ROAD
+  source: JS-HCST: 170
+  old_tag: 6213
 - grpid: 63
   group: 1.3.1
   form: laːm
   gloss: PATH, ROAD, WAY
+  source: 'PCN #126'
+  old_tag: 7673
 - grpid: 16
   group: 1.7.1
   form: lam
@@ -41,6 +47,8 @@ mesoroots:
   group: '1.2'
   form: lam
   gloss: DIRECTION / SIDE / TOWARDS
+  source: 'PKC #1010'
+  old_tag: 5010
 - grpid: 23
   group: 2.1.4
   form: ᴮgjam

@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: tshaʔ
   gloss: THICK / DENSE
+  source: 'PKC #606'
+  old_tag: 4606
 - grpid: 66
   group: 1.3.4
   form: ʃa
   gloss: THICK
+  source: DRM#738
+  old_tag: 7117
 notes:
 - type: T
   text: '<par>STC #426 originally reconstructed this root as <latinform>*r-ta-t</latinform>, but this

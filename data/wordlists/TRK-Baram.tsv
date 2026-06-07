@@ -18,7 +18,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 478520	1976	Baram	luŋdziŋ	luŋdziŋ	fingernail	fingernail			1.5.10.1	17	0			
 478521	1976	Baram	undzik	undzik	leg	leg			1.5.7	18	0			
 478522	1976	Baram	chala	chala	skin (Nepali/Sanskrit loan)	skin (Nepali/Sanskrit loan)			1.6.5	19	0			b
-478523	1976	Baram	haD	haD	bone (Nepali/Sanskrit loan)	bone (Nepali/Sanskrit loan)			1.6.3	20	0			bIndic,b
+478523	1976	Baram	haD	haD	bone (Nepali/Sanskrit loan)	bone (Nepali/Sanskrit loan)			1.6.3	20	0			b|bIndic
 478524	1976	Baram	muTu	muTu	heart (Nepali/Sanskrit loan)	heart (Nepali/Sanskrit loan)			1.7.1	21	0			b
 478525	1976	Baram	cihui	cihui	blood	blood			1.6.2	22	0			
 478526	1976	Baram	ci	ci	urine	urine			1.8.4	23	0			650
@@ -26,12 +26,12 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 478528	1976	Baram	hannuŋ	hannuŋ	village (Nepali/Sanskrit loan)	village (Nepali/Sanskrit loan)			5.8	25	0			b
 478529	1976	Baram	nam	nam	house	house			5.11.9.1	26	0			
 478530	1976	Baram	chano	chano	roof	roof			5.11.9	27	0			
-478531	1976	Baram	Dhoka	Dhoka	door (Nepali/Sanskrit loan)	door (Nepali/Sanskrit loan)			5.11.9.3	28	0			bIndic,b
+478531	1976	Baram	Dhoka	Dhoka	door (Nepali/Sanskrit loan)	door (Nepali/Sanskrit loan)			5.11.9.3	28	0			b|bIndic
 478532	1976	Baram	siŋ	siŋ	firewood	firewood			5.11.5.5	29	0			2658
 478533	1976	Baram	astuŋ	astuŋ	broom	broom			5.4	30	0			
 478534	1976	Baram	siləuTo	siləuTo	mortar (Nepali/Sanskrit loan)	mortar (Nepali/Sanskrit loan)			5.5	31	0			b
 478535	1976	Baram	lohoro	lohoro	pestle	pestle			5.5	32	0			
-478536	1976	Baram	hətəuDo	hətəuDo	hammer (Nepali/Sanskrit loan)	hammer (Nepali/Sanskrit loan)			5.11.5.4	33	0			bIndic,b
+478536	1976	Baram	hətəuDo	hətəuDo	hammer (Nepali/Sanskrit loan)	hammer (Nepali/Sanskrit loan)			5.11.5.4	33	0			b|bIndic
 478537	1976	Baram	ukhmen	ukhmen	knife	knife			5.5	34	0			
 478538	1976	Baram	kəm	kəm	axe	axe			5.11.5.3	35	0			
 478539	1976	Baram	Dori	Dori	rope (Nepali/Sanskrit loan)	rope (Nepali/Sanskrit loan)			5.11.4	36	0			b
@@ -58,7 +58,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 478560	1976	Baram	maju	maju	ash	ash			3.2.12.2	57	0			
 478561	1976	Baram	nəsa	nəsa	mud	mud			3.2.11	58	0			
 478562	1976	Baram	dhulo	dhulo	dust	dust			3.2.11	59	0			
-478563	1976	Baram	sun	sun	gold (Nepali/Sanskrit loan)	gold (Nepali/Sanskrit loan)			3.2.4	60	0			b,b
+478563	1976	Baram	sun	sun	gold (Nepali/Sanskrit loan)	gold (Nepali/Sanskrit loan)			3.2.4	60	0			b|b
 478564	1976	Baram	sjaŋma	sjaŋma	tree	tree			3.1.2	61	0			
 478565	1976	Baram	su	su	leaf	leaf			3.1.3	62	0			
 478566	1976	Baram	dzəra	dzəra	root	root			3.1.2	63	0			
@@ -70,8 +70,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 478572	1976	Baram	gəu	gəu	wheat (husked)	wheat (husked)			3.1.4	69	0			
 478573	1976	Baram	dzəu	dzəu	barley	barley			3.1.4	70	0			
 478574	1976	Baram	hadza	hadza	rice (husked)	rice (husked)			3.1.4	71	0			
-478575	1976	Baram	alu	alu	potato (Nepali/Sanskrit loan)	potato (Nepali/Sanskrit loan)			3.1.5	72	0			b,b
-478576	1976	Baram	bhənTa	bhənTa	eggplant (Nepali/Sanskrit loan)	eggplant (Nepali/Sanskrit loan)			3.1.5	73	0			b,b
+478575	1976	Baram	alu	alu	potato (Nepali/Sanskrit loan)	potato (Nepali/Sanskrit loan)			3.1.5	72	0			b|b
+478576	1976	Baram	bhənTa	bhənTa	eggplant (Nepali/Sanskrit loan)	eggplant (Nepali/Sanskrit loan)			3.1.5	73	0			b|b
 478577	1976	Baram	bədam	bədam	groundnut (Nepali/Sanskrit loan)	groundnut (Nepali/Sanskrit loan)			3.1.4	74	0			b
 478578	1976	Baram	asok	asok	chili	chili			3.1.5	75	0			
 478579	1976	Baram	besar	besar	turmeric (Nepali/Sanskrit loan)	turmeric (Nepali/Sanskrit loan)			3.1.6.1	76	0			b
@@ -88,11 +88,11 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 478590	1976	Baram	hocca	hocca	chicken	chicken			2.1.10	87	0			
 478591	1976	Baram	ohom	ohom	egg	egg				88	0			
 478592	1976	Baram	sja	sja	cow	cow			2.1.2	89	0			34
-478593	1976	Baram	bhəisi	bhəisi	buffalo (Nepali/Sanskrit loan)	buffalo (Nepali/Sanskrit loan)			2.1.2	90	0			b,b
+478593	1976	Baram	bhəisi	bhəisi	buffalo (Nepali/Sanskrit loan)	buffalo (Nepali/Sanskrit loan)			2.1.2	90	0			b|b
 478594	1976	Baram	nənu	nənu	milk	milk				91	0			
 478595	1976	Baram	ujuŋ	ujuŋ	horns	horns			1.2.2	92	0			
 478596	1976	Baram	pitik	pitik	tail	tail			1.4.10.1	93	0			
-478597	1976	Baram	mi◦chja	mi◦chja	goat	goat			2.1.8	94	0			4769,m,m
+478597	1976	Baram	mi◦chja	mi◦chja	goat	goat			2.1.8	94	0			4769,m|m
 478598	1976	Baram	a◦kja	akja	dog	dog			2.1.11	95	0			p,1764
 478599	1976	Baram	pəi◦hu	pəi◦hu	snake	snake			2.1.6.1	96	0			2623,m
 478600	1976	Baram	pəi◦huk	pəi◦huk	monkey	monkey			2.1.9	97	0			m,2462

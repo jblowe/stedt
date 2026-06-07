@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: luu
   gloss: HEAD
+  source: 'PKC #1024'
+  old_tag: 5024
 - grpid: 50
   group: '7'
   form: kləɁᴰ
   gloss: HEAD
+  source: TL#141
+  old_tag: 7345
 notes:
 - type: T
   text: <par>Many languages (e.g. in the Chin group) reflect the simple form <latinform>*lu</latinform>.

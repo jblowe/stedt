@@ -21,6 +21,8 @@ mesoroots:
   group: '1.2'
   form: kii
   gloss: HORN
+  source: 'PKC #291'
+  old_tag: 4291
 notes:
 - type: T
   text: <par>This root is quite distinct from <xref ref="819">#819</xref>.</par>

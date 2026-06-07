@@ -20,18 +20,26 @@ mesoroots:
   group: '1.2'
   form: wom
   gloss: BEAR (animal)
+  source: 'PKC #1132'
+  old_tag: 5132
 - grpid: 5
   group: 1.1.1
   form: tum
   gloss: BEAR (animal)
+  source: JS-HCST: 173
+  old_tag: 6624
 - grpid: 42
   group: '6.1'
   form: d-wam¹/²
   gloss: BEAR
+  source: HPTB p.253
+  old_tag: 293
 - grpid: 66
   group: 1.3.4
   form: him
   gloss: BEAR
+  source: DRM#658
+  old_tag: 7048
 - grpid: 45
   group: 6.1.2
   form: k-d-wam¹
@@ -40,10 +48,14 @@ mesoroots:
   group: '7'
   form: thamᴬ
   gloss: BEAR (animal)
+  source: TL#15
+  old_tag: 7220
 - grpid: 66
   group: 1.3.4
   form: ŋom
   gloss: BEAR
+  source: DRM#444
+  old_tag: 6855
 notes:
 - type: T
   text: <par>A number of languages (Tani, Tibetan, Lepcha, Lahu) show preemption of the initial by the

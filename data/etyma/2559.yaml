@@ -19,10 +19,14 @@ mesoroots:
   group: '1.2'
   form: pii
   gloss: GRANDMOTHER
+  source: 'PKC #151'
+  old_tag: 4151
 - grpid: 66
   group: 1.3.4
   form: bɨ
   gloss: GRANDMOTHER / MOTHER / AUNT / FEMALE
+  source: DRM#596
+  old_tag: 6996
 notes:
 - type: F
   text: '<par><hanform>妣</hanform> OC <latinform>*pi̯ər</latinform>, GSR #566a-f &apos;mother (deceased),

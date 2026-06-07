@@ -2110,7 +2110,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 152683	334	Bengni	ti-ti	ti-ti	crop (of a bird)	crop (of a bird)			1.7.6.1		0			
 152684	365	Bokar	tɯ-tɯ	tɯ-tɯ	crop (of chicken)	crop (of chicken)			1.7.6.1		0			
 152685	498	Damu	la-dʑap-ra	la-dʑap-ra	cross	cross			6.7.10		0			
-152686	334	Bengni	ɯ-si rap-pit	ɯ-si rap-pit	cross (river)	cross (river)			6.7.10		0			p,p,189,189,m,5826,m,m
+152686	334	Bengni	ɯ-si rap-pit	ɯ-si rap-pit	cross (river)	cross (river)			6.7.10		0			p|p,189|189,5826|m,m|m
 152687	285	Apatani	im-pò	im-pò	cross	cross v.	v		6.7.10		0	dwb39		6347,m
 152688	365	Bokar	kor-boŋ	kor-boŋ	cross	cross v.	v		6.7.10		0	dwb39		6384,m
 152689	365	Bokar	rap	rap	cross v. (~ river)	cross v. (± river)			6.7.10		0			5826
@@ -2587,7 +2587,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 153161	285	Apatani	à-kì tà-pu	à-kì tà-pu	dog (white)	dog (white)			2.1.11		0			p,1764,p,6097
 153162	285	Apatani	à-kì a-mi	à-kì a-mi	dog tail	dog tail			2.1.11		0			p,1764,p,1288
 153163	286	Apatani	a-so-nɯ	a-so-nɯ	domestic	domestic			2.3		0			
-153164	334	Bengni	ga-taː	ga-taː	donkey	donkey			2.1.7		0			m,b,5
+153164	334	Bengni	ga-taː	ga-taː	donkey	donkey			2.1.7		0			b|m,5
 153165	365	Bokar	ku-|ru	ku-|ru	donkey	donkey			2.1.7		0			5357
 153166	285	Apatani	a-lje	a-lje	door	door			5.11.9.3		0			p,6563
 153167	286	Apatani	a-lje(ʔ)	a-lje(ʔ)	door	door			5.11.9.3		0			p,6563
@@ -3223,7 +3223,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 153797	498	Damu	ʔa-paː	ʔa-paː	father	father			4.7.1		0			p,6261?
 153798	286	Apatani	a-te	a-te	father's brother	father's brother			1.5.3.2		0			
 153799	498	Damu	ʔa-baː	ʔa-baː	father's elder brother	father's elder brother			4.7.1		0			
-153800	498	Damu	ʔa-niː	ʔa-niː	father's elder brother's wife	father's elder brother's wife			1.5.3.2		0			p,p,1621,m
+153800	498	Damu	ʔa-niː	ʔa-niː	father's elder brother's wife	father's elder brother's wife			1.5.3.2		0			p|p,1621|m
 153801	498	Damu	ʔa-niː	ʔa-niː	father's sister	father's sister			4.7.1		0			p,6450
 153802	498	Damu	ʔa-ja	ʔa-ja	father's sister's husband	father's sister's husband			1.5.3.2		0		z	
 153803	498	Damu	paː-ji	paː-ji	father's younger brother	father's younger brother			1.5.3.2		0			2183,m
@@ -4675,7 +4675,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 155249	365	Bokar	me-|lo	me-|lo	husband	husband			4.7.4		0		z	6455
 155250	498	Damu	maʔ-bo	maʔ-bo	husband	husband			4.7.4		0		z	
 155251	498	Damu	ʔa-jaː	ʔa-jaː	husband's father	husband's father			4.7.4		0		z	
-155252	498	Damu	ʔa-niː	ʔa-niː	husband's mother	husband's mother			4.7.4		0		z	p,p,1621,m
+155252	498	Damu	ʔa-niː	ʔa-niː	husband's mother	husband's mother			4.7.4		0		z	p|p,1621|m
 155253	285	Apatani	pɯ-na	pɯ-na	husk	husk			3.1.2		0			
 155254	286	Apatani	pɯ-na	pɯ-na	husk	husk			3.1.2		0			
 155255	286	Apatani	po-na	po-na	husk	husk			3.1.2		0			
@@ -4929,7 +4929,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 155503	285	Apatani	bjá-pe	bjá-pe	junction (road)	junction (road)			9.10.1		0			
 155504	286	Apatani	mo-re	mo-re	jungle	jungle			3.2.5		0			6470,m
 155505	334	Bengni	ñu-ruː	ñu-ruː	jungle	jungle			3.2.5		0			
-155506	286	Apatani	ja-mu ron	ja-mu ron	jungle burning	jungle burning			3.2.5		0			p,p,6373?,2136,m,6577
+155506	286	Apatani	ja-mu ron	ja-mu ron	jungle burning	jungle burning			3.2.5		0			p|p,2136|6373?,6577|m
 155507	286	Apatani	roʔ-bĩ pa-du	roʔ-bĩ pa-du	jungle cutting	jungle cutting			3.2.5		0			
 155508	286	Apatani	roʔ-bĩ pa-nɯ	roʔ-bĩ pa-nɯ	jungle cutting	jungle cutting			3.2.5		0			
 155509	286	Apatani	pa-rĩ	pa-rĩ	jungle fowl	jungle fowl			3.2.5		0			
@@ -4963,7 +4963,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 155537	365	Bokar	duk	duk	kick	kick			6.2.2.3.3		0			6706
 155538	498	Damu	bət-təŋ	bət-təŋ	kick	kick			6.2.2.3.3		0			
 155539	286	Apatani	sɯ-bĩ a-tu	sɯ-bĩ a-tu	kid	kid			2.1.8		0			m,6033,p,m
-155540	334	Bengni	rik-ǰuŋ	rik-ǰuŋ	kid (young goat)	kid (young goat)			2.1.8		0			R,6038,6028
+155540	334	Bengni	rik-ǰuŋ	rik-ǰuŋ	kid (young goat)	kid (young goat)			2.1.8		0			6038|R,6028
 155541	334	Bengni	su-ru-nɯː kuː	su-ru-nɯː kuː	kid of wild goat	kid of wild goat			2.1.8		0			m,6030,1621,m
 155542	285	Apatani	a-he	a-he	kidney	kidney			1.7.5		0			
 155543	285	Apatani	à-xe	à-xe	kidney	kidney			1.7.5		0			
@@ -6003,7 +6003,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 156579	498	Damu	ʔa-maː	ʔa-maː	mother	mother			4.7.1		0			
 156580	286	Apatani	a-nə	a-nə	mother	mother			4.7.1		0			p,1621
 156581	498	Damu	ʔa-jaː	ʔa-jaː	mother's brother	mother's brother			1.5.3.2		0			
-156582	498	Damu	ʔa-niː	ʔa-niː	mother's brother's wife	mother's brother's wife			1.5.3.2		0			p,p,1621,m
+156582	498	Damu	ʔa-niː	ʔa-niː	mother's brother's wife	mother's brother's wife			1.5.3.2		0			p|p,1621|m
 156583	498	Damu	ʔa-maː	ʔa-maː	mother's sister	mother's sister			4.7.1		0			
 156584	498	Damu	pa-jiː	pa-jiː	mother's sister's husband	mother's sister's husband			1.5.3.2		0		z	
 156585	285	Apatani	à-jò	à-jò	mother-in-law	mother-in-law			4.7.4		0			
@@ -7840,7 +7840,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 158417	334	Bengni	uk	uk	scratch, claw	scratch, claw			1.6.5.5		0			1458
 158418	334	Bengni	guk-liː	guk-liː	scream	scream			8.5.4.1		0			6330,m
 158419	286	Apatani	grju	grju	scream	scream			8.5.4.1		0			6330
-158420	334	Bengni	faː-kjak	faː-kjak	scrub clean	scrub clean			6.3		0			4613?,4613?,m,6680
+158420	334	Bengni	faː-kjak	faː-kjak	scrub clean	scrub clean			6.3		0			4613?|4613?,6680|m
 158421	286	Apatani	ta-gi	ta-gi	scythe	scythe			5.3		0			
 158422	498	Damu	xəː-poː ʔa-tøː[sic]-duŋ	xəː-poː ʔa-tøː[sic]-duŋ	sea	sea			3.2.3		0			
 158423	365	Bokar	si-tə	si-tə	sea, ocean	sea, ocean			3.2.3		0			189,m
@@ -8019,7 +8019,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 158607	334	Bengni	jaː-nɯː	jaː-nɯː	sheep (female)	sheep (female)			2.1.8		0			6028,1621
 158608	334	Bengni	jaː-puː	jaː-puː	sheep (male)	sheep (male)			2.1.8		0			6028,1635
 158609	365	Bokar	ra	ra	sheep / goat (generic)	sheep / goat (generic)			2.1.8		0			6031
-158610	334	Bengni	a-pin si-|pɯ	a-pin si-|pɯ	sheepskin boat	sheepskin boat			2.1.8		0			R,p,591,6598
+158610	334	Bengni	a-pin si-|pɯ	a-pin si-|pɯ	sheepskin boat	sheepskin boat			2.1.8		0			R|p,591,6598
 158611	286	Apatani	a-ji pa-kʰrju	a-ji pa-kʰrju	shell	shell			2.2.5		0			p,m,m,586
 158612	285	Apatani	ta-kiŋ	ta-kiŋ	shell (kind)	shell (kind)			2.2.5		0			
 158613	285	Apatani	sɯ sòr-nɯ	sɯ sòr-nɯ	shepherd	shepherd			4.2.1.1		0			
@@ -8825,9 +8825,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 159413	334	Bengni	pu-puː	pu-puː	sting	sting			2.4.2		0			
 159414	498	Damu	nək	nək	sting	sting			2.4.2		0			6503
 159415	365	Bokar	gam	gam	sting v. (bee)	sting  v. (bee)			2.4.2		0	jbl3		2231
-159416	285	Apatani	i-ta	i-ta	sting	sting n.	n		2.4.2		0	dwb40		3435,p
-159417	286	Apatani	i-ta	i-ta	sting	sting n.	n		2.4.2		0	dwb40		3435,p
-159418	286	Apatani	ar-ta	ar-ta	sting	sting n.	n		2.4.2		0	dwb40		3435,p
+159416	285	Apatani	i-ta	i-ta	sting	sting n.	n		2.4.2		0	dwb40		3435|p
+159417	286	Apatani	i-ta	i-ta	sting	sting n.	n		2.4.2		0	dwb40		3435|p
+159418	286	Apatani	ar-ta	ar-ta	sting	sting n.	n		2.4.2		0	dwb40		3435|p
 159419	285	Apatani	pà-no	pà-no	sting	sting v.	v		2.4.2		0	dwb39		
 159420	334	Bengni	puː-nuː	puː-nuː	sting	sting v.	v		2.4.2		0	dwb39		
 159421	286	Apatani	a-sɯ bɯ	a-sɯ bɯ	sting	sting v.	v		2.4.2		0	dwb39		
@@ -9839,7 +9839,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 160428	286	Apatani	ñi-kʰrã-he	ñi-kʰrã-he	twenty	twenty			9.9		0			2504
 160429	334	Bengni	čam-ñi (gu)◦la a-kin	čam-ñi (gu)◦la a-kin	twenty-one	twenty-one			9.9		0			3610,2504,m,m,p,6383
 160430	365	Bokar	keː la-ken	keː la-ken	twenty-one	twenty-one			9.9		0			m,m,6383
-160431	365	Bokar	(LW) keː a-ken	(LW) keː a-ken	twenty-one	twenty-one			9.9		0			m,e,m,p,6383
+160431	365	Bokar	(LW) keː a-ken	(LW) keː a-ken	twenty-one	twenty-one			9.9		0			e|m,m,p,6383
 160432	286	Apatani	ro ñi-e	ro ñi-e	twice	twice			9.9		0			
 160433	286	Apatani	ja-nə a-ǰã	ja-nə a-ǰã	twig	twig			3.1.2		0			p,402,p,m
 160434	286	Apatani	san a-ǰã	san a-ǰã	twig	twig			3.1.2		0			
@@ -10085,11 +10085,11 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 160674	286	Apatani	pə-gĩ	pə-gĩ	vulture	vulture			2.2.4.1		0			
 160675	498	Damu	ʔɯt-tɯ	ʔɯt-tɯ	vulva	vulva					0			p,661
 160676	285	Apatani	lje	lje	wade	wade			6.6		0			
-160677	334	Bengni	ɯ-si joː-rap	ɯ-si joː-rap	wade	wade			6.6		0			p,p,189,189,m,m,m,5826
+160677	334	Bengni	ɯ-si joː-rap	ɯ-si joː-rap	wade	wade			6.6		0			p|p,189|189,m|m,5826|m
 160678	365	Bokar	siŋ	siŋ	wade	wade			6.6		0			
 160679	365	Bokar	rap	rap	wade	wade			6.6		0			5826
 160680	498	Damu	ʔa-ɕi-ɕiŋ-ra-ʔin-ɕe	ʔa-ɕi-ɕiŋ-ra-ʔin-ɕe	wade	wade			6.6		0			p,189,m,m,m,m
-160681	286	Apatani	(ja-si) reʔ-bo	(ja-si) reʔ-bo	wade	wade			6.6		0			m,m,189,189,m,5825,m,m
+160681	286	Apatani	(ja-si) reʔ-bo	(ja-si) reʔ-bo	wade	wade			6.6		0			m|m,189|189,5825|m,m|m
 160682	498	Damu	ciʔ	ciʔ	waft	waft			6.16		0			
 160683	285	Apatani	pɯ-ñe	pɯ-ñe	wage	wage n.	n		5.9		0	dwb40		
 160684	334	Bengni	ñi-lap	ñi-lap	wages	wages			5.9		0			
@@ -10180,7 +10180,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 160770	334	Bengni	kjuk-kjak	kjuk-kjak	wash away	wash away			6.2.2.5.2		0			m,6680
 160771	365	Bokar	pɯ-kak	pɯ-kak	wash away	wash away			6.2.2.5.2		0			m,6680
 160772	365	Bokar	*duŋben	*duŋben	wash basin	wash basin n.	n		6.2.2.5.2		0	dwb40		
-160773	334	Bengni	moː-mit	moː-mit	wash face	wash face			6.2.2.5.2		0			5662,m,m,m
+160773	334	Bengni	moː-mit	moː-mit	wash face	wash face			6.2.2.5.2		0			5662|m,m|m
 160774	334	Bengni	lɯ-suk	lɯ-suk	wash hands	wash hands			6.2.2.5.2		0			m,5645
 160775	334	Bengni	lak-suk	lak-suk	wash hands	wash hands			6.2.2.5.2		0			695,m
 160776	334	Bengni	lak-suk ǰiː	lak-suk ǰiː	wash hands	wash hands			6.2.2.5.2		0			695,m,m
@@ -10336,7 +10336,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 160926	286	Apatani	cu-ča	cu-ča	wet	wet			6.6		0			
 160927	286	Apatani	ja-si a-ǰĩ	ja-si a-ǰĩ	wet cultivation (terrace)	wet cultivation (terrace)			6.6		0			m,189,p,m
 160928	286	Apatani	jeʔ-bi a-ǰi	jeʔ-bi a-ǰi	wet cultivation (terrace)	wet cultivation (terrace)			6.6		0			
-160929	334	Bengni	nɯ-bɯŋ	nɯ-bɯŋ	wet nurse	wet nurse			6.6		0			1621,m,m,m
+160929	334	Bengni	nɯ-bɯŋ	nɯ-bɯŋ	wet nurse	wet nurse			6.6		0			1621|m,m|m
 160930	365	Bokar	nɯ-bɯŋ	nɯ-bɯŋ	wet nurse	wet nurse			6.6		0			
 160931	285	Apatani	nɯ	nɯ	what	what			10.5.3		0			
 160932	334	Bengni	hu-guː (ɯː)	hu-guː (ɯː)	what	what			10.5.3		0			
@@ -10444,7 +10444,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 161034	286	Apatani	mi-|hi nə-tə	mi-|hi nə-tə	wife (first~)	wife (first±)			4.7.4		0			1618,1621,m
 161035	286	Apatani	mi-|hi a-ǰã	mi-|hi a-ǰã	wife (junior~)	wife (junior±)			4.7.4		0			1618,p,m
 161036	498	Damu	ʔa-jaː	ʔa-jaː	wife's father	wife's father			4.7.4		0			
-161037	498	Damu	ʔa-niː	ʔa-niː	wife's mother	wife's mother			4.7.4		0			p,p,1621,m
+161037	498	Damu	ʔa-niː	ʔa-niː	wife's mother	wife's mother			4.7.4		0			p|p,1621|m
 161038	334	Bengni	a-bɯr	a-bɯr	wife's sister's husband	wife's sister's husband			4.7.4		0		z	
 161039	334	Bengni	rjuː	rjuː	wife's younger paternal uncle	wife's younger paternal uncle			4.7.1		0			
 161040	286	Apatani	mo-re ho daʔ-nɯ	mo-re ho daʔ-nɯ	wild	wild			3.2.5		0			6470,m,m,m,m

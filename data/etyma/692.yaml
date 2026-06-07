@@ -20,18 +20,26 @@ mesoroots:
   group: '1.2'
   form: kham ⪤ khum
   gloss: PILLOW
+  source: 'PKC #455'
+  old_tag: 4455
 - grpid: 42
   group: '6.1'
   form: m-kum²
   gloss: BLOCK / PILLOW
+  source: HPTB pp.124, 249
+  old_tag: 378
 - grpid: 63
   group: 1.3.1
   form: m-kham
   gloss: BENCH, BLOCK / PILLOW
+  source: 'PCN #132'
+  old_tag: 7679
 - grpid: 8
   group: '1.2'
   form: khu(m/n)
   gloss: BED / COUCH
+  source: 'PKC #422'
+  old_tag: 4422
 notes:
 - type: T
   text: '<par>This is one of several roots showing alternation between initial velar and glottal stop

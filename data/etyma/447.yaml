@@ -13,6 +13,8 @@ mesoroots:
   group: '1.2'
   form: k(r)um
   gloss: DECREASE / DESCEND / SHRINK
+  source: 'PKC #1316'
+  old_tag: 5316
 notes:
 - type: T
   text: <par>The Lai and Lahu forms reflect <reconstruction>*-r-</reconstruction>, but WB has <latinform>-y-</latinform>;

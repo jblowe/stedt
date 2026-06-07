@@ -15,7 +15,11 @@ mesoroots:
   group: '1.2'
   form: ʔ(u/a)m
   gloss: GOURD / POT
+  source: 'PKC #488'
+  old_tag: 4488
 - grpid: 66
   group: 1.3.4
   form: am
   gloss: POT
+  source: DRM#439
+  old_tag: 6850

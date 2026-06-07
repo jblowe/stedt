@@ -16,7 +16,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 39235	1085	Tsangla (Motuo)	moŋ¹³ naŋ¹³	moŋ¹³ naŋ¹³	animal skin	animal skin			2.3		0			54,m
 39236	1085	Tsangla (Motuo)	tor⁵⁵ tɕo⁵⁵	tor⁵⁵ tɕo⁵⁵	cockscomb	cockscomb			1.2.2.1		0			
 39237	1085	Tsangla (Motuo)	sep⁵⁵	sep⁵⁵	scales	scales			1.6.5.2		0			1454
-39238	1085	Tsangla (Motuo)	lup¹³ su⁵⁵	lup¹³ su⁵⁵	body	body			1.1.1		0			11,e,1902
+39238	1085	Tsangla (Motuo)	lup¹³ su⁵⁵	lup¹³ su⁵⁵	body	body			1.1.1		0			11|e,1902
 39239	1085	Tsangla (Motuo)	kʰok⁵⁵ tøʔ⁵⁵	kʰok⁵⁵ tøʔ⁵⁵	upper body	upper body			9.2.1		0			5364,21
 39240	1085	Tsangla (Motuo)	kʰoŋ⁵⁵ meʔ⁵⁵	kʰoŋ⁵⁵ meʔ⁵⁵	lower body	lower body			1.1.1		0		W	5364,m
 39241	1085	Tsangla (Motuo)	ɕa⁵⁵ raŋ¹³	ɕa⁵⁵ raŋ¹³	head	head			1.2.1		0			m,392
@@ -372,7 +372,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 296636	1085	Tsangla (Motuo)	ko¹³ma¹³	ko¹³ma¹³	in the past	in the past			10.1.1		0			
 296637	1085	Tsangla (Motuo)	tɕuʔ¹³	tɕuʔ¹³	from now on	from now on			10.1.1		0			
 296638	1085	Tsangla (Motuo)	wa¹³	wa¹³	common cattle	common cattle			7.1.7.2		0			
-296639	1085	Tsangla (Motuo)	kur⁵⁵ta⁵⁵	kur⁵⁵ta⁵⁵	horse	horse			2.1.7		0			m,6023,5,5
+296639	1085	Tsangla (Motuo)	kur⁵⁵ta⁵⁵	kur⁵⁵ta⁵⁵	horse	horse			2.1.7		0			6023|m,5|5
 296640	1085	Tsangla (Motuo)	pʻak⁵⁵pa⁵⁵	pʻak⁵⁵pa⁵⁵	pig	pig			2.1.12		0			1006,m
 296641	1085	Tsangla (Motuo)	ra¹³pa¹³	ra¹³pa¹³	goat	goat			2.1.8		0			6031,m
 296642	1085	Tsangla (Motuo)	ɕi⁵⁵ɕa⁵⁵	ɕi⁵⁵ɕa⁵⁵	sheep	sheep			2.1.8		0			
@@ -1200,7 +1200,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 297466	1089	Tsangla (Tilang)	bui-nang	bui-nang	night	night			9.1.4		0			
 297467	1089	Tsangla (Tilang)	om-la	om-la	now	now			9.1.5		0			
 297468	1089	Tsangla (Tilang)	wa	wa	common cattle	common cattle			7.1.7.2		0			
-297469	1089	Tsangla (Tilang)	kur◦ta	kur◦ta	horse	horse			2.1.7		0			m,6023,5,5
+297469	1089	Tsangla (Tilang)	kur◦ta	kur◦ta	horse	horse			2.1.7		0			6023|m,5|5
 297470	1089	Tsangla (Tilang)	phak-pa	phak-pa	pig	pig			2.1.12		0			1006,m
 297471	1089	Tsangla (Tilang)	ra-wa	ra-wa	goat	goat			2.1.8		0			6031,m
 297472	1089	Tsangla (Tilang)	khu	khu	dog	dog			2.1.11		0			1764
@@ -1490,7 +1490,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 297756	1089	Tsangla (Tilang)	zhin-tha	zhin-tha	hang	hang			6.1.1.5		0			
 297757	1089	Tsangla (Tilang)	chang	chang	tie / fasten	tie / fasten			6.13.1		0			
 297758	1089	Tsangla (Tilang)	phyak	phyak	untie	untie			6.13.1		0			5824
-297759	1089	Tsangla (Tilang)	phyak-kho	phyak-kho	release	release			6.10.1		0			5824,2573,m
+297759	1089	Tsangla (Tilang)	phyak-kho	phyak-kho	release	release			6.10.1		0			2573|5824,m
 297760	1089	Tsangla (Tilang)	thik	thik	tie (e.g. firewood) into a bundle	tie (e.g. firewood) into a bundle			6.13.1		0			
 297761	1089	Tsangla (Tilang)	dam	dam	load	load	v.	v.	6.2.2.1		0			
 297762	1089	Tsangla (Tilang)	gum	gum	hide	hide			1.6.5.1		0			

@@ -20,6 +20,8 @@ mesoroots:
   group: '1.2'
   form: khlaa
   gloss: WING
+  source: 'PKC #1309'
+  old_tag: 5309
 notes:
 - type: T
   text: <par>Note the &quot;brightening&quot; of the vowel from <latinform>*-a</latinform> to <latinform>-i</latinform>

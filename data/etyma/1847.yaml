@@ -20,6 +20,8 @@ mesoroots:
   group: 1.1.1
   form: ki
   gloss: ILL
+  source: JS-HCST: 91
+  old_tag: 6377
 notes:
 - type: T
   text: <par>This root is well attested in scattered subgroups (Tani, Qiangic, Karenic).</par>

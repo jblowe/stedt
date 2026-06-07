@@ -13,6 +13,8 @@ mesoroots:
   group: 1.2.1.1
   form: paay
   gloss: GO
+  source: 'PKC #149 ("PNC")'
+  old_tag: 4149
 notes:
 - type: T
   text: <par>This root bares a fortuitous resemblance to a Proto-Tai root, cf. Siamese <latinform>paj</latinform>

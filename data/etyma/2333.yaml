@@ -19,6 +19,8 @@ mesoroots:
   group: 1.1.1
   form: rit
   gloss: GRIND (CRUSH INTO POWDER)
+  source: JS-HCST: 206
+  old_tag: 6561
 - grpid: 42
   group: '6.1'
   form: Nkrit

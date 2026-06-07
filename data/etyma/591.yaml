@@ -20,6 +20,8 @@ mesoroots:
   group: '1.2'
   form: wun
   gloss: SKIN (n.) / LEATHER
+  source: 'PKC #1169'
+  old_tag: 5169
 - grpid: 12
   group: 1.7.2
   form: s-wun ⪤ wur
@@ -28,10 +30,14 @@ mesoroots:
   group: 1.1.1
   form: pɯn
   gloss: SKIN
+  source: JS-HCST: 185
+  old_tag: 6553
 - grpid: 66
   group: 1.3.4
   form: hol
   gloss: SKIN / BARK
+  source: DRM#506
+  old_tag: 6912
 notes:
 - type: T
   text: <par>Like other roots reconstructed with <reconstruction>*pʷ-</reconstruction>, the reflexes of

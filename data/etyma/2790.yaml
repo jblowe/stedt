@@ -19,7 +19,11 @@ mesoroots:
   group: '1.2'
   form: yaap
   gloss: FAN (v.) / WINNOW / FLUTTER
+  source: 'PKC #1199'
+  old_tag: 5199
 - grpid: 5
   group: 1.1.1
   form: jap
   gloss: FAN
+  source: JS-HCST: 198
+  old_tag: 6352

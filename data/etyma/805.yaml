@@ -22,14 +22,20 @@ mesoroots:
   group: '1.2'
   form: hnap
   gloss: SNOT / MUCUS (nasal)
+  source: 'PKC #906'
+  old_tag: 4906
 - grpid: 5
   group: 1.1.1
   form: nap ~ nop
   gloss: SNOT
+  source: JS-HCST: 115
+  old_tag: 6492
 - grpid: 66
   group: 1.3.4
   form: nap
   gloss: SNOT
+  source: DRM#526
+  old_tag: 6931
 - grpid: 42
   group: '6.1'
   form: ʔ-napᴸ

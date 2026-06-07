@@ -16,11 +16,17 @@ mesoroots:
   group: 1.3.1
   form: m-ja
   gloss: PALM OF HAND
+  source: 'PCN #030'
+  old_tag: 7577
 - grpid: 66
   group: 1.3.4
   form: ja
   gloss: PALM (HAND)
+  source: DRM#336
+  old_tag: 6749
 - grpid: 50
   group: '7'
   form: ɲaᴬ
   gloss: PALM (OF THE HAND)
+  source: TL#210
+  old_tag: 7414

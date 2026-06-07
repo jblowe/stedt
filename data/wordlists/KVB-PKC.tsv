@@ -3972,7 +3972,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 445428	1929	Khumi	muu	muu	seed	seed			3.1.4	786	0			685
 445429	1947	Lai (Hakha)	meet-I, meʔ-II	meet-I, meʔ-II	shave, peel off (skin), pare	shave, peel off (skin), pare			6.9.2	787	0			475
 445430	1923	Lai (Falam)	mêet-I, mèet-II	mêet-I, mèet-II	peel off (skin), pare, shave (hair)	peel off (skin), pare, shave (hair)			6.9.2	787	0			475
-445431	1924	Lushai [Mizo]	mêet-I, mèh-II	mêet-I, mèh-II	cut (the hair), to clip (as hair or wool), to shear (as wool or sheep, etc), to shave	to cut (the hair), to clip (as hair or wool), to shear (as wool or sheep, etc), to shave	v		10.1.1	787	0	dwb20		475,R
+445431	1924	Lushai [Mizo]	mêet-I, mèh-II	mêet-I, mèh-II	cut (the hair), to clip (as hair or wool), to shear (as wool or sheep, etc), to shave	to cut (the hair), to clip (as hair or wool), to shear (as wool or sheep, etc), to shave	v		10.1.1	787	0	dwb20		475|R
 445432	1925	Tiddim	meːt¹	meːt¹	shave, cut hair, pare the skin (of apples, cucumbers)	shave, cut hair, pare the skin (of apples, cucumbers)			6.9.2	787	0			475
 445433	1930	Paite	meet khia	meet khia	pare	pare			6.9.2	787	0			475
 445434	1928	Cho (Mindat)	met	met	scratch (with knife)	scratch (with knife)			1.6.5.5	787	0			475
@@ -5102,7 +5102,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 446558	1921	Lakher [Mara]	lá	lá	direction	direction			9.2.8	1010	0			1017
 446559	1923	Lai (Falam)	lám	lám	direction, side, towards	direction, side, towards			9.2.8	1010	0			1017
 446560	1924	Lushai [Mizo]	lǎm	lǎm	direction, side	direction, side			9.2.8	1010	0			1017
-446561	1925	Tiddim	hiʔ³ lam¹	hiʔ³ lam¹	this side	this side			10.4.3.2	1010	0			m,5807,1017,m
+446561	1925	Tiddim	hiʔ³ lam¹	hiʔ³ lam¹	this side	this side			10.4.3.2	1010	0			5807|m,1017|m
 446562	1926	Thado	lâm	lâm	towards	towards			9.2.8	1010	0			1017
 446563	1949	Daai	ʔsɔŋ lám	ʔsɔŋ lám	left side	left side			1.5.3.2	1010	0			1017
 446564	1921	Lakher [Mara]	lāo	lāo	lose	lose			6.10.1	1011	0			5011

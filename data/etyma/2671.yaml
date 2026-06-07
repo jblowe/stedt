@@ -19,6 +19,8 @@ mesoroots:
   group: '1.2'
   form: sil
   gloss: WASH
+  source: 'PKC #681'
+  old_tag: 4681
 notes:
 - type: T
   text: <par>This root bears a strong resemblance to <xref ref="5647">#5647</xref>, and should perhaps

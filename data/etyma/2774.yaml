@@ -20,10 +20,14 @@ mesoroots:
   group: 1.3.4
   form: wa
   gloss: GO
+  source: DRM#329
+  old_tag: 6743
 - grpid: 63
   group: 1.3.1
   form: wa
   gloss: GO
+  source: 'PCN #025'
+  old_tag: 7572
 notes:
 - type: F
   text: '<par><hanform>于</hanform> OC <latinform>*gi̯wo</latinform>, GSR #97a-g &apos;proceed; go&apos;;

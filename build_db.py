@@ -6,7 +6,7 @@ parsed and loaded with real relations preserved. Cognate links come from the
 authoritative lx_et_hash table. FTS5 (diacritic-folded) is built over reflexes
 joined to their language name.
 """
-import sqlite3, os, time
+import sqlite3, os, time, re
 
 BASE = "/home/luke/local/stedt/stedtdb_v1.0"
 SQLDUMP = os.path.join(BASE, "STEDT_public_20160602.sql")
@@ -41,7 +41,10 @@ PK = {'etyma':'tag','lexicon':'rn','languagenames':'lgid','languagegroups':'grpi
       'chapters':'id','notes':'noteid','mesoroots':'id'}
 INT_COLS = {'rn','tag','lgid','grpid','noteid','uid','id','ord','mseq','hptbid','src_set_rn',
             'public','refcount','seqlocked','ind','genetic','lgcode','pi_page','scope','infascicle',
-            'frqdb','frqsubcats','v','f','c','s1','s2','s3','grp0','grp1','grp2','grp3','grp4','old_tag'}
+            'frqdb','frqsubcats','v','f','c','s1','s2','s3','grp0','grp1','grp2','grp3','grp4','old_tag',
+            'n','page'}
+# columns whose NAME is in INT_COLS but which must stay TEXT in a specific table
+TEXT_OVERRIDE = {('notes', 'id')}  # notes.id is polymorphic (semkey for C-notes, srcabbr for S-notes)
 
 ESC = {'n':'\n','t':'\t','r':'\r','0':'\0','\\':'\\',"'":"'",'"':'"','Z':'\x1a','b':'\b'}
 def decode(x):
@@ -64,6 +67,7 @@ def parse_values(s):
                 j=i+1
                 while True:
                     q=s.find("'", j)
+                    if q==-1: raise ValueError(f"unterminated string in INSERT values near: {s[i:i+60]!r}")
                     b=q-1; cnt=0
                     while s[b]=='\\': cnt+=1; b-=1
                     if cnt%2==0: break
@@ -87,13 +91,26 @@ def parse_values(s):
         else: break
     return rows
 
-def coldef(cols, pk):
+def coldef(cols, pk, table=None):
     parts=[]
     for x in cols:
-        d = f"{x} INTEGER" if x in INT_COLS else x
+        is_int = x in INT_COLS and (table, x) not in TEXT_OVERRIDE
+        d = f"{x} INTEGER" if is_int else x
         if x==pk: d += " PRIMARY KEY"
         parts.append(d)
     return ', '.join(parts)
+
+# Repair CESU-8 surrogate pairs (6 bytes) -> real supplementary-plane codepoint,
+# so a supplementary CJK char survives instead of being mangled by errors='replace'.
+_CESU = re.compile(b'\xed[\xa0-\xaf][\x80-\xbf]\xed[\xb0-\xbf][\x80-\xbf]')
+def _fix_cesu(b):
+    def repl(m):
+        s = m.group()
+        hi = ((s[0] & 0x0f) << 12) | ((s[1] & 0x3f) << 6) | (s[2] & 0x3f)
+        lo = ((s[3] & 0x0f) << 12) | ((s[4] & 0x3f) << 6) | (s[5] & 0x3f)
+        cp = 0x10000 + ((hi - 0xd800) << 10) + (lo - 0xdc00)
+        return chr(cp).encode('utf-8')
+    return _CESU.sub(repl, b) if b'\xed' in b else b
 
 def main():
     t0=time.time()
@@ -101,12 +118,14 @@ def main():
     db=sqlite3.connect(OUT); c=db.cursor()
     c.execute("PRAGMA journal_mode=OFF"); c.execute("PRAGMA synchronous=OFF")
     for t,cols in TABLES.items():
-        c.execute(f"CREATE TABLE {t} ({coldef(cols, PK.get(t))})")
+        c.execute(f"CREATE TABLE {t} ({coldef(cols, PK.get(t), t)})")
     ins = {t: f"INSERT INTO {t} VALUES ({','.join('?'*len(cols))})" for t,cols in TABLES.items()}
     counts = {t:0 for t in TABLES}
 
-    with open(SQLDUMP, encoding='utf-8', errors='replace') as f:
-        for line in f:
+    # binary read + CESU-8 repair, then strict UTF-8 (fail loudly on any other bad bytes)
+    with open(SQLDUMP, 'rb') as f:
+        for raw in f:
+            line = _fix_cesu(raw).decode('utf-8')
             if not line.startswith("INSERT INTO `"): continue
             end = line.index('`', 13); t = line[13:end]
             if t not in TABLES: continue

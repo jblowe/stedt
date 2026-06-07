@@ -20,26 +20,38 @@ mesoroots:
   group: '1.2'
   form: hmin
   gloss: RIPE / WELL-COOKED
+  source: 'PKC #879'
+  old_tag: 4879
 - grpid: 42
   group: '6.1'
   form: s/ʔ-min¹
   gloss: RIPE / SWEET / DELICIOUS
+  source: JAM-HPTB: 602
+  old_tag: 6148
 - grpid: 5
   group: 1.1.1
   form: min
   gloss: RIPE
+  source: JS-HCST: 179
+  old_tag: 6457
 - grpid: 66
   group: 1.3.4
   form: min
   gloss: RIPE / WELL-COOKED
+  source: DRM#467
+  old_tag: 6877
 - grpid: 50
   group: '7'
   form: hminᴬ
   gloss: RIPE, COOKED
+  source: TL#239
+  old_tag: 7443
 - grpid: 63
   group: 1.3.1
   form: hmən
   gloss: RIPEN, BE RIPE / BE COOKED
+  source: 'PCN #170'
+  old_tag: 7717
 - grpid: 12
   group: 1.7.2
   form: min

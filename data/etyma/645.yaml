@@ -13,14 +13,20 @@ mesoroots:
   group: 1.1.1
   form: tɯk
   gloss: FROG
+  source: JS-HCST: 222
+  old_tag: 6633
 - grpid: 50
   group: '7'
   form: Ɂdeᴮ
   gloss: FROG
+  source: TL#126
+  old_tag: 7330
 - grpid: 50
   group: '7'
   form: Ɂdeᴮsowᴮ
   gloss: TOAD
+  source: TL#305
+  old_tag: 7510
 notes:
 - type: T
   text: <par>Note that the <reconstruction>*-u- ⪤ *-i-</reconstruction> variation occurs within Tani,

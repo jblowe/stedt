@@ -19,7 +19,11 @@ mesoroots:
   group: '1.2'
   form: muu ⪤ hmuu
   gloss: HAWK / BIRD OF PREY
+  source: 'PKC #771'
+  old_tag: 4771
 - grpid: 5
   group: 1.1.1
   form: mɯ
   gloss: EAGLE / HAWK
+  source: JS-HCST: 168
+  old_tag: 6478

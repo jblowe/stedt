@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: thiʔ
   gloss: COMB (n.)
+  source: 'PKC #380'
+  old_tag: 4380
 - grpid: 66
   group: 1.3.4
   form: si
   gloss: COMB
+  source: DRM#348
+  old_tag: 6761
 notes:
 - type: I
   text: <par>Check glosses of all forms.</par>

@@ -4243,7 +4243,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 529250	2031	*Tangkhulic	se	se	cattle / buffalo	cattle / buffalo			2.1.2		529250			7160
 529251	2031	*Tangkhulic	kʰo	kʰo	foot	foot			1.5.2		529251			7161
 529252	2031	*Tangkhulic	kʰut	kʰut	hand / arm	hand / arm			1.5.1.1		529252			712
-529253	2031	*Tangkhulic	mit	mit	eye	eye			1.2.6		529253			682,b?
+529253	2031	*Tangkhulic	mit	mit	eye	eye			1.2.6		529253			682|b?
 529254	2031	*Tangkhulic	pi	pi	sleep	sleep			1.1.4.1		529254			7164
 620490	2024	Tusom	sɯə̃-ʃi	sɯə̃-ʃi	domestic animal	domestic animal				Animals.002	0			
 620491	2024	Tusom	ʃi	ʃi	cattle	cattle				Animals.009	529250			7160
@@ -4534,7 +4534,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 620776	2024	Tusom	kə-kʰi-tχa n-tsɯ	kə-kʰi-tχa n-tsɯ	bile	bile				BodyParts.276	528788			m,m,m,m,227
 620777	2024	Tusom	əŋ-ka-tχa	əŋ-ka-tχa	kidney	kidney				BodyParts.277	0			
 620778	2024	Tusom	ŋ-ka-tχa	ŋ-ka-tχa	kidney	kidney				BodyParts.278	529057			m,201,m
-620779	2024	Tusom	zam-pi-tsy	zam-pi-tsy	urine	urine				BodyParts.280	0			m,650,m,m,650,m
+620779	2024	Tusom	zam-pi-tsy	zam-pi-tsy	urine	urine				BodyParts.280	0			650|m,m|m,650|m
 620780	2024	Tusom	zaŋ-kə-pi	zaŋ-kə-pi	urinate	urinate				BodyParts.281	0			
 620781	2024	Tusom	ʔɯ-pu	ʔɯ-pu	stomach	stomach				BodyParts.282	0			
 620782	2024	Tusom	i-pie-pʰũ	i-pie-pʰũ	spleen	spleen				BodyParts.285	0			

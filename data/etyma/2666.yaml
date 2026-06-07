@@ -20,22 +20,32 @@ mesoroots:
   group: '1.2'
   form: thum
   gloss: THREE
+  source: 'PKC #416'
+  old_tag: 4416
 - grpid: 5
   group: 1.1.1
   form: ɦum
   gloss: THREE
+  source: JS-HCST: 109
+  old_tag: 6663
 - grpid: 66
   group: 1.3.4
   form: tʰum
   gloss: THREE
+  source: DRM#455
+  old_tag: 6866
 - grpid: 50
   group: '7'
   form: səmᴬ
   gloss: THREE
+  source: TL#300
+  old_tag: 7505
 - grpid: 63
   group: 1.3.1
   form: a-sam
   gloss: THREE
+  source: 'PCN #133'
+  old_tag: 7680
 - grpid: 16
   group: 1.7.1
   form: ta'm

@@ -19,10 +19,14 @@ mesoroots:
   group: '1.2'
   form: ŋaaw
   gloss: MONKEY (long tail / grey)
+  source: 'PKC #863'
+  old_tag: 4863
 - grpid: 63
   group: 1.3.1
   form: ŋa
   gloss: MONKEY
+  source: 'PCN #011'
+  old_tag: 7558
 notes:
 - type: I
   text: <par>Mongsen Ao <latinform>ŋa</latinform> derives from PTB <latinform>*ŋa</latinform> (cf. <xref

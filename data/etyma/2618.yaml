@@ -19,10 +19,14 @@ mesoroots:
   group: 6.1.2
   form: k-roŋ¹ 
   gloss: CAT, LEOPARD
+  source: DB-PLolo: 16
+  old_tag: 6062
 - grpid: 42
   group: '6.1'
   form: k-roŋ¹
   gloss: CAT / WILDCAT
+  source: HPTB p.138
+  old_tag: 364
 - grpid: 5
   group: 1.1.1
   form: mjo

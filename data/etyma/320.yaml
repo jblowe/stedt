@@ -19,14 +19,20 @@ mesoroots:
   group: '1.2'
   form: yuŋ
   gloss: FINGER / TOE / ROOT
+  source: 'PKC #1201'
+  old_tag: 5201
 - grpid: 66
   group: 1.3.4
   form: juŋ
   gloss: ROOT
+  source: DRM#500
+  old_tag: 6906
 - grpid: 63
   group: 1.3.1
   form: m-juŋ
   gloss: DIGIT (FINGER / TOE)
+  source: 'PCN #224'
+  old_tag: 7771
 notes:
 - type: T
   text: <par>The cognacy of these Tujia syllables is uncertain.</par>

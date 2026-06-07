@@ -19,11 +19,17 @@ mesoroots:
   group: 1.2.2
   form: rap
   gloss: SHELF (over fireplace)
+  source: 'PKC #972 ("PCC")'
+  old_tag: 4972
 - grpid: 5
   group: 1.1.1
   form: rap
   gloss: FIREPLACE SHELF
+  source: JS-HCST: 197
+  old_tag: 6558
 - grpid: 5
   group: 1.1.1
   form: r(a/o)m
   gloss: FIREPLACE / HEARTH
+  source: JS-HCST: 176
+  old_tag: 6557

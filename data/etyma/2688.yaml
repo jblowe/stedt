@@ -19,6 +19,8 @@ mesoroots:
   group: '1.2'
   form: thal
   gloss: ARROW
+  source: 'PKC #374'
+  old_tag: 4374
 notes:
 - type: F
   text: <par>Benedict (STC 169n452) suggests a connection with <plainlatinform>GSR 560a-d</plainlatinform>.</par>

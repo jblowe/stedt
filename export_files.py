@@ -5,18 +5,24 @@
   data/wordlists/<srcabbr>.tsv reflexes grouped by source; morpheme tagging in 'analysis'
   data/reference/*.yaml        thesaurus, languages, languagegroups, bibliography
 
-Lossless for meaningful data. Intentionally dropped (documented): modtime/uid (Git
-provides history/authorship), public/refcount/seqlocked (stale workflow flags),
-legacy 'chapter'/'semcat' duplicates of semkey. 'ind' gaps are re-densified by
-morpheme position (cognate membership unaffected).
+Lossless for curated content. Intentionally dropped (documented): modtime/uid (Git
+provides history/authorship), refcount/seqlocked (derived/stale workflow flags), and
+legacy lexicon 'chapter'/'semcat' (chapter mirrors semkey; semcat is a superseded
+hand-entered category code, NOT a duplicate of semkey). Morpheme 'ind' gaps are
+re-densified by position; same-slot tags are preserved via '|' within a slot; orphan
+lx_et_hash rows (rn absent from lexicon) are preserved in reference/orphan-links.tsv.
 """
 import sqlite3, os, csv, yaml, re
+from itertools import groupby
 
 DB = "/home/luke/local/stedt/stedt.sqlite"
 ROOT = "/home/luke/local/stedt/data"
 
 class _D(yaml.SafeDumper): pass
+_NEL = ('\x85', ' ', ' ')   # YAML folds these to spaces; double-quote forces \-escaping
 def _str(d, s):
+    if any(ch in s for ch in _NEL):
+        return d.represent_scalar('tag:yaml.org,2002:str', s, style='"')
     return d.represent_scalar('tag:yaml.org,2002:str', s, style='|' if '\n' in s else None)
 _D.add_representer(str, _str)
 def dump(o): return yaml.dump(o, Dumper=_D, allow_unicode=True, sort_keys=False, width=100)
@@ -39,8 +45,8 @@ def main():
         if not clean(r['xmlnote']): continue
         rec = {'type': r['notetype'], 'text': r['xmlnote']}
         if r['spec'] == 'E':   enotes.setdefault(r['tag'], []).append(rec)
-        elif r['spec'] == 'C': cnotes.setdefault(r['id'], []).append(rec)
-        elif r['spec'] == 'S': snotes.setdefault(r['id'], []).append(rec)
+        elif r['spec'] == 'C': cnotes.setdefault(clean(r['id']), []).append(rec)
+        elif r['spec'] == 'S': snotes.setdefault(clean(r['id']), []).append(rec)
         elif r['spec'] == 'L': lnotes.append({'rn': r['rn'], **rec})
 
     # ---- reference files ----
@@ -102,10 +108,16 @@ def main():
     for r in c.execute("SELECT * FROM hptb ORDER BY hptbid"):
         e = {k: v for k, v in {
             'hptbid': r['hptbid'], 'plg': r['plg'], 'protoform': r['protoform'], 'gloss': r['protogloss'],
-            'pages': r['pages'], 'mainpage': r['mainpage'], 'allofams': r['bare'],
-            'semclass': r['semclass1'], 'semclass2': r['semclass2'],
+            'pages': r['pages'], 'mainpage': r['mainpage'], 'init': r['init'], 'allofams': r['bare'],
+            'semclass': r['semclass1'], 'semclass2': r['semclass2'], 'tags': r['tags'],
         }.items() if clean(v)}
-        if r['hptbid'] in hlinks: e['etyma'] = hlinks[r['hptbid']]
+        # etyma links = UNION of et_hptb_hash and the richer hptb.tags string (order-preserving)
+        links = list(hlinks.get(r['hptbid'], []))
+        for tok in clean(r['tags']).split(','):
+            m = re.match(r'\d+', tok.strip())
+            if m and int(m.group()) not in links:
+                links.append(int(m.group()))
+        if links: e['etyma'] = links
         hptb.append(e)
     open(f"{ROOT}/reference/hptb.yaml", "w").write(dump(hptb))
 
@@ -141,6 +153,8 @@ def main():
         m = {'grpid': r['grpid'], 'group': (gg['grpno'] if gg else None),
              'form': r['form'], 'gloss': r['gloss']}
         if clean(r['variant']): m['variant'] = r['variant']
+        if clean(r['old_note']): m['source'] = r['old_note']   # bibliographic provenance citation
+        if r['old_tag']: m['old_tag'] = r['old_tag']
         meso.setdefault(r['tag'], []).append({k: v for k, v in m.items() if v not in ('', None)})
     PHON =['handle', 'prefix', 'initial', 'medial', 'rhyme', 'tone', 'suffix', 'initcover', 'rhymecover']
     n_ety = 0
@@ -153,7 +167,7 @@ def main():
              'gloss': r['protogloss'],
              'semkey': r['semkey'],
              'sequence': float(r['sequence']) if r['sequence'] is not None else None,
-             'status': r['status'] or '',          # KEEP | DELETE | '' (blank) — always recorded
+             'status': {'DELETE': 'DELETE', 'KEEP': 'KEEP'}.get((r['status'] or '').upper(), r['status'] or ''),  # canonical-cased
              'public': bool(r['public'])}          # original publish flag (historically unreliable)
         if r['exemplary'] == 'x': d['exemplary'] = True
         for k in ('xrefs', 'allofams', 'possallo'):
@@ -170,9 +184,21 @@ def main():
     print(f"  etyma: {n_ety} files")
 
     # ---- wordlists (reflexes grouped by source), with reconstructed analysis ----
-    analysis = {row[0]: row[1] for row in c.execute(
-        "SELECT rn, group_concat(tag_str, ',') FROM "
-        "(SELECT rn, ind, tag_str FROM lx_et_hash ORDER BY rn, ind) GROUP BY rn")}
+    # analysis: morpheme slots separated by ',', same-ind tags joined by '|', deterministic order.
+    analysis = {}
+    hashrows = c.execute("SELECT rn, ind, tag_str FROM lx_et_hash ORDER BY rn, ind, tag_str").fetchall()
+    for rn, grp_rows in groupby(hashrows, key=lambda r: r['rn']):
+        slots = ['|'.join(clean(x['tag_str']) for x in srows)
+                 for _, srows in groupby(grp_rows, key=lambda r: r['ind'])]
+        analysis[rn] = ','.join(slots)
+    # orphan lx_et_hash rows (rn absent from lexicon) preserved verbatim so the link count round-trips
+    lex_rns = {row[0] for row in c.execute("SELECT rn FROM lexicon")}
+    orphans = [[clean(r['rn']), clean(r['ind']), clean(r['tag_str'])]
+               for r in c.execute("SELECT rn, ind, tag_str FROM lx_et_hash ORDER BY rn, ind")
+               if r['rn'] not in lex_rns]
+    with open(f"{ROOT}/reference/orphan-links.tsv", "w", newline='') as f:
+        w = csv.writer(f, delimiter='\t', lineterminator='\n')
+        w.writerow(['rn', 'ind', 'tag_str']); w.writerows(orphans)
     COLS = ['rn', 'lgid', 'language', 'reflex', 'originalreflex', 'gloss', 'originalgloss',
             'gfn', 'originalgfn', 'semkey', 'srcid', 'src_set_rn', 'maintainer', 'status', 'analysis']
     buckets = {}

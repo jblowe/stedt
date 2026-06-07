@@ -13,6 +13,8 @@ mesoroots:
   group: '1.2'
   form: maay
   gloss: PUMPKIN
+  source: 'PKC #781'
+  old_tag: 4781
 notes:
 - type: T
   text: <par>This root has been discovered in Kuki-Chin and Loloish.</par>

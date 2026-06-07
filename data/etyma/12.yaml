@@ -18,10 +18,14 @@ mesoroots:
   group: '1.2'
   form: ruak ⪤ ruaŋ
   gloss: CORPSE / DEAD BODY
+  source: 'PKC #927'
+  old_tag: 4927
 - grpid: 5
   group: 1.1.1
   form: rom
   gloss: GHOST (ANCESTRAL)
+  source: JS-HCST: 176
+  old_tag: 6576
 notes:
 - type: T
   text: '<par>A number of languages in Eastern Nepal have developed final labials in this root, also showing

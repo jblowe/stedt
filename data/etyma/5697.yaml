@@ -12,6 +12,8 @@ mesoroots:
   group: '1.2'
   form: ru(u)y
   gloss: DRUNK / INTOXICATED / NAUSEATED
+  source: 'PKC #932'
+  old_tag: 4932
 notes:
 - type: T
   text: <par>This root (originally proposed by Weidert 1987:477) is distinct from <xref ref="1783">#1783</xref>.

@@ -17,14 +17,20 @@ mesoroots:
   group: '1.2'
   form: thut-I, thuʔ-II
   gloss: WIPE / ANOINT / PAINT
+  source: 'PKC #419'
+  old_tag: 4419
 - grpid: 66
   group: 1.3.4
   form: ʃut
   gloss: RUB / BRUSH
+  source: DRM#579
+  old_tag: 6981
 - grpid: 5
   group: 1.1.1
   form: tit
   gloss: WIPE
+  source: JS-HCST: 88
+  old_tag: 6618
 notes:
 - type: F
   text: '<par><hanform>恤</hanform> OC <latinform>*swət</latinform>, GSR #410e &apos;rub, brush&apos;;

@@ -71,7 +71,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 314	1070	Milang	a◦ŋu-coŋ kep	a◦ŋu-coŋ kep	baskets for fish	baskets for fish			5.1		0			p,1455,m,m
 315	1070	Milang	copur	copur	baskets for storing	baskets for storing			5.1		0			
 316	1070	Milang	bari	bari	baskets for storing	baskets for storing			5.1		0			
-317	1070	Milang	cal◦ma	cal◦ma	forehead band	forehead band			1.2.5.1		0		z	384,m,m,m
+317	1070	Milang	cal◦ma	cal◦ma	forehead band	forehead band			1.2.5.1		0		z	384|m,m|m
 318	1070	Milang	(L)lam	(L)lam	lamp	lamp			5.11.5.5		0			bEnglish
 319	1070	Milang	sonyot	sonyot	match	match			5.11.5.5		0			
 320	1070	Milang	mi-le	mi-le	flame	flame			3.2.12.2		0		D1	2136,621
@@ -136,7 +136,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 379	1070	Milang	dokpun podat	dokpun podat	bead	bead			5.11.8.3		0			
 380	1070	Milang	kob-gi	kob-gi	ornament on arm (male)	ornament on arm		m.	5.8		0			
 381	1070	Milang	kob-gi	kob-gi	ornament on arm	ornament on arm		f.	5.8		0	dwb	DELETED	
-382	1070	Milang	kob-gi la-do	la-do	ornament on arm (female)	ornament on arm		f.	5.8		0			m,m,m,m,695,?,m,m
+382	1070	Milang	kob-gi la-do	la-do	ornament on arm (female)	ornament on arm		f.	5.8		0			m|m,m|m,695|?,m|m
 383	1070	Milang	lak-sing	lak-sing	ring	ring			5.11.8.3		0			695,m
 384	1070	Milang	ta-li ma-lu-miu-ki muna	ta-li ma-lu-miu-ki	bag (male)	bag		m.			0			
 385	1070	Milang	muna	muna	bag	bag	m.	m.			0		DELETED	
@@ -383,7 +383,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 628	1070	Milang	ma-se	ma-se	wife	wife			4.7.4		0			
 629	1070	Milang	o◦ru	o◦ru	son	son			4.7.3		0			6658,m
 630	1070	Milang	or-mi	or-mi	daughter	daughter			4.7.3		0			6658,m
-631	1070	Milang	a◦be	a◦be	father	father			4.7.1		0			x,p,6261?
+631	1070	Milang	a◦be	a◦be	father	father			4.7.1		0			p|x,6261?
 632	1070	Milang	aɟi	aɟi	mother	mother			4.7.1		0			
 633	1070	Milang	baru	baru	brother	brother			1.5.3.2		0			
 634	1070	Milang	bar-|mi	bar-|mi	sister	sister			4.7.2		0			6274
@@ -406,8 +406,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 652	1070	Milang	u-ki-u-ten	u-ki-u-ten	daughter's son	daughter's son			4.7.3		0			
 653	1070	Milang	o◦ru	o◦ru	brother's son	brother's son			1.5.3.2		0			6658,m
 654	1070	Milang	or-mi-u	or-mi-u	sister's son	sister's son			4.7.2		0			6658,m,m
-655	1070	Milang	o-mi-u	o-mi-u	brother's / sister's daughter,	brother's / sister's daughter,			1.5.3.2		0			e,6658,m,m
-656	1070	Milang	a◦cu a-be	a◦cu a-be	husband's / wife's father,	husband's / wife's father,			4.7.4		0		z	e,p,m,p,6261?
+655	1070	Milang	o-mi-u	o-mi-u	brother's / sister's daughter,	brother's / sister's daughter,			1.5.3.2		0			6658|e,m,m
+656	1070	Milang	a◦cu a-be	a◦cu a-be	husband's / wife's father,	husband's / wife's father,			4.7.4		0		z	e|p,m,p,6261?
 657	1070	Milang	ayu aɟi	ayu aɟi	mother-in-law	mother-in-law			4.7.4		0			
 658	1070	Milang	ayu	ayu	husband's / wife's mother,	husband's / wife's mother,			4.7.4		0		z	e
 659	1070	Milang	yak-bu	yak-bu	brother-in-law	brother-in-law			4.7.4		0			
@@ -950,7 +950,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 1210	1070	Milang	a-ɲuk-u-ki	a-ɲuk-u-ki	domestic	domestic			2.3		0			
 1211	1070	Milang	a-yu-caŋ-duk-ɲi	a-yu-caŋ-duk-ɲi	drunk	drunk			1.3.5.9		0			m,m,m,m,s
 1212	1070	Milang	tol-ŋe-ɲi	tol-ŋe-ɲi	dull	dull			7.1.5.1		0			
-1213	1070	Milang	kyak-ma-ɲi	kyak-ma-ɲi	dumb	dumb			8.5.4.4		0			1789,m,m,m,s,s
+1213	1070	Milang	kyak-ma-ɲi	kyak-ma-ɲi	dumb	dumb			8.5.4.4		0			1789|m,m|m,s|s
 1214	1070	Milang	mi-bu-ɲi	mi-bu-ɲi	dusty	dusty			3.2.11		0			
 1215	1070	Milang	ager-lu-ɲi-ru-ŋa-ka	ager-lu-ɲi-ru-ŋa-ka	dutiful	dutiful			8.1		0			
 1216	1070	Milang	ha-re ɲi	ha-re ɲi	dry	dry			6.6		0			

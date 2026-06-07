@@ -13,14 +13,20 @@ mesoroots:
   group: '6.1'
   form: ru²
   gloss: CRAZY
+  source: cf. HPTB p.180
+  old_tag: 6095
 - grpid: 5
   group: 1.1.1
   form: ru
   gloss: CRAZY / MAD
+  source: 'from JS-HCST: 153'
+  old_tag: 6096
 - grpid: 8
   group: '1.2'
   form: ruut ⪤ hruut
   gloss: FOOLISH / MAD
+  source: 'PKC #940'
+  old_tag: 4940
 notes:
 - type: T
   text: <par>Kuki-Chin reflects the <latinform>*-t</latinform> suffix for this root.</par>

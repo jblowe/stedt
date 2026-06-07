@@ -19,10 +19,14 @@ mesoroots:
   group: 1.3.1
   form: m-p[a/ə]n
   gloss: WEAR (CLOTHES)
+  source: 'PCN #181'
+  old_tag: 7728
 - grpid: 8
   group: '1.2'
   form: puan
   gloss: BLANKET / COVER / GARMENT
+  source: 'PKC #125'
+  old_tag: 4125
 notes:
 - type: T
   text: '<par>This root has perhaps developed into Proto Tani <xref ref="6535">#6535</xref>, in which

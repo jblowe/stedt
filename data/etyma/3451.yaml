@@ -19,6 +19,8 @@ mesoroots:
   group: 1.2.2
   form: hmoom
   gloss: HOLD (in the mouth)
+  source: 'PKC #875 ("PCC")'
+  old_tag: 4875
 notes:
 - type: T
   text: <par>This root frequently occurs in compounds in Northeast Indian languages before <xref ref="3450">#3450</xref>

@@ -20,14 +20,20 @@ mesoroots:
   group: '1.2'
   form: hram
   gloss: OTTER
+  source: 'PKC #1091'
+  old_tag: 5091
 - grpid: 5
   group: 1.1.1
   form: ram
   gloss: OTTER
+  source: JS-HCST: 118
+  old_tag: 6556
 - grpid: 66
   group: 1.3.4
   form: ram
   gloss: OTTER
+  source: DRM#438
+  old_tag: 6849
 - grpid: 42
   group: '6.1'
   form: sram¹
@@ -40,6 +46,8 @@ mesoroots:
   group: 1.3.1
   form: raːm
   gloss: OTTER
+  source: 'PCN #124'
+  old_tag: 7671
 notes:
 - type: T
   text: <par>Written Burmese <latinform>phyam</latinform> has always presented a puzzle (see <plainlatinform>STC

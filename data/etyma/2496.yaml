@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: naay ⪤ hnaay
   gloss: NEAR / CLOSE / ADJACENT
+  source: 'PKC #823'
+  old_tag: 4823
 - grpid: 66
   group: 1.3.4
   form: naj
   gloss: NEAR
+  source: DRM#378
+  old_tag: 6791
 notes:
 - type: F
   text: '<par><hanform>邇</hanform> OC <latinform>*ńi̯ɑ̆r</latinform>, GSR #359c &apos;near&apos;; Coblin

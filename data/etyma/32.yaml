@@ -22,6 +22,8 @@ mesoroots:
   group: 1.3.1
   form: sak
   gloss: BREATH
+  source: 'PCN #242'
+  old_tag: 7789
 notes:
 - type: T
   text: '<par>Chinese character; STC #485; LTSR #123 (PLB <reconstruction>*C-sak¹</reconstruction>); GSR

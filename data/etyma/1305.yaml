@@ -19,10 +19,14 @@ mesoroots:
   group: '1.2'
   form: ɓa(a)ŋ ⪤ pa(a)ŋ
   gloss: WALL / FLANK / SIDE
+  source: 'PKC #55'
+  old_tag: 4055
 - grpid: 66
   group: 1.3.4
   form: bak
   gloss: SIDE
+  source: DRM#718
+  old_tag: 7100
 notes:
 - type: F
   text: '<par><hanform>旁</hanform> OC <latinform>*b’wɑ̂ng</latinform>, GSR #740f&apos; &apos;side&apos;;

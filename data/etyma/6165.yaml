@@ -15,14 +15,20 @@ mesoroots:
   group: '1.2'
   form: kum
   gloss: AGE / YEAR
+  source: 'PKC #249'
+  old_tag: 4249
 - grpid: 66
   group: 1.3.4
   form: kum
   gloss: YEAR
+  source: DRM#457
+  old_tag: 6868
 - grpid: 63
   group: 1.3.1
   form: a-kam
   gloss: YEAR / SEASON
+  source: 'PCN #129'
+  old_tag: 7676
 notes:
 - type: T
   text: <par>This root seems to be confined to the NE Indian areal group.</par>

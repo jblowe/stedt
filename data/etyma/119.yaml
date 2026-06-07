@@ -21,24 +21,34 @@ mesoroots:
   form: kaŋ
   gloss: BAKE / FRY / ROAST
   variant: a
+  source: 'PKC #253'
+  old_tag: 4253
 - grpid: 8
   group: '1.2'
   form: kaaŋ-I, kaŋʔ ⪤ kan-II
   gloss: BURN / BLAZE
   variant: b
+  source: 'PKC #260'
+  old_tag: 4260
 - grpid: 8
   group: '1.2'
   form: kaŋ-I, kan-II
   gloss: DRY UP / EVAPORATE
   variant: c
+  source: 'PKC #275'
+  old_tag: 4275
 - grpid: 66
   group: 1.3.4
   form: kaŋ
   gloss: BURN / SCORCH
+  source: DRM#752
+  old_tag: 7130
 - grpid: 63
   group: 1.3.1
   form: a-kuŋ
   gloss: DRY (BE) / THIN, LEAN
+  source: 'PCN #219'
+  old_tag: 7766
 notes:
 - type: T
   text: '<par>STC sets up two separate roots: <xref ref="330">#330</xref> <reconstruction>*kaːŋ</reconstruction>

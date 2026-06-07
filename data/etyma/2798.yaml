@@ -19,6 +19,8 @@ mesoroots:
   group: '1.2'
   form: yuu
   gloss: BEER / LIQUOR
+  source: 'PKC #1188'
+  old_tag: 5188
 notes:
 - type: F
   text: '<par><hanform>酉</hanform> OC <latinform>*zi̯ôg</latinform>, GSR #1096a &apos;spirits, wine&apos;;

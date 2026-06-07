@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: pliŋ
   gloss: FULL / COMPLETE / ATTAIN TO
+  source: 'PKC #1249'
+  old_tag: 5249
 - grpid: 5
   group: 1.1.1
   form: brɯŋ
   gloss: FULL (not empty)
+  source: JS-HCST: 128
+  old_tag: 6207
 - grpid: 42
   group: '6.1'
   form: ʔ-bliŋ¹
@@ -32,6 +36,8 @@ mesoroots:
   group: '7'
   form: pwɛᴬ
   gloss: FULL
+  source: TL#129
+  old_tag: 7333
 notes:
 - type: T
   text: '<par>Contra STC #142, Lahu <latinform>bî </latinform> ‘full’ is not from this etymon, but rather

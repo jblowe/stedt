@@ -13,14 +13,20 @@ mesoroots:
   group: 1.1.1
   form: du
   gloss: DIG
+  source: JS-HCST: 153
+  old_tag: 6292
 - grpid: 12
   group: 1.7.2
   form: tʰu
   gloss: DIG
+  source: 'WTF-PNN: 477'
+  old_tag: 7196
 - grpid: 8
   group: '1.2'
   form: tuu
   gloss: HOE (n.)
+  source: 'Meso of #3573? PKC #201'
+  old_tag: 4201
 - grpid: 42
   group: '6.1'
   form: 'n‑du² '

@@ -18,6 +18,8 @@ mesoroots:
   group: 1.2.1.1
   form: hil ⪤ hel
   gloss: MIX
+  source: 'PKC #727 ("PNC")'
+  old_tag: 4727
 notes:
 - type: T
   text: <par>This reconstruction replaces <latinform>hwel</latinform> offered in HPTB:420. It is meant

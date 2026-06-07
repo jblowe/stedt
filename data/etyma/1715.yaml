@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: haam
   gloss: YAWN
+  source: 'PKC #747'
+  old_tag: 4747
 - grpid: 66
   group: 1.3.4
   form: ham
   gloss: YAWN
+  source: DRM#619
+  old_tag: 7018
 notes:
 - type: T
   text: <par>This root is still another example of the widespread variational pattern between <latinform>h-</latinform>

@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: hluum
   gloss: ROUND
+  source: 'PKC #1118'
+  old_tag: 5118
 - grpid: 5
   group: 1.1.1
   form: lum
   gloss: ROUND (GLOBULAR)
+  source: JS-HCST: 173
+  old_tag: 6434
 notes:
 - type: T
   text: '<par>In Qiangic and Burmish languages, this morpheme appears as a final element in compounds

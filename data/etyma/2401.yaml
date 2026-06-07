@@ -19,10 +19,14 @@ mesoroots:
   group: '1.2'
   form: hlip ⪤ hlep
   gloss: CUT (flesh) / SKIN (v.)
+  source: 'PKC #1105'
+  old_tag: 5105
 - grpid: 63
   group: 1.3.1
   form: ləp
   gloss: CUT (v.)
+  source: 'PCN #157'
+  old_tag: 7704
 notes:
 - type: T
   text: '<par>This etymon was reconstructed as <latinform>lep</latinform> in STC #351.</par><par>The velar

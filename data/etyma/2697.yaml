@@ -19,10 +19,14 @@ mesoroots:
   group: 1.1.1
   form: tə ~ ta
   gloss: BIG
+  source: JS-HCST: 165
+  old_tag: 6628
 - grpid: 66
   group: 1.3.4
   form: dej
   gloss: LARGE / BIG
+  source: DRM#609
+  old_tag: 7009
 notes:
 - type: F
   text: '<par><hanform>大</hanform> OC <latinform>*d’ɑ̂d</latinform> ~ <latinform>*t’ɑ̂d</latinform>, GSR

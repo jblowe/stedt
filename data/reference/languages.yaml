@@ -1692,7 +1692,7 @@
   source: AW-TBT
   iso: csh
   lgcode: 46
-  sort: 'ASH    O'
+  sort: "ASH\NO"
   srcofdata: AW-TBT
 - lgid: 292
   name: Asho (Sandoway)
@@ -1701,7 +1701,7 @@
   source: GHL-PPB
   iso: csh
   lgcode: 46
-  sort: 'ASH    O'
+  sort: "ASH\NO"
   srcofdata: GHL-PPB
 - lgid: 293
   name: Athpare (Rai)
@@ -11674,7 +11674,7 @@
   source: ACST
   iso: csh
   lgcode: 46
-  sort: 'ASH    O'
+  sort: "ASH\NO"
 - lgid: 1412
   name: Asho
   abbr: Sho
@@ -11682,7 +11682,7 @@
   source: GHL-PPB
   iso: csh
   lgcode: 46
-  sort: 'ASH    O'
+  sort: "ASH\NO"
   srcofdata: GHL-PPB
 - lgid: 1413
   name: Asho
@@ -11691,7 +11691,7 @@
   source: RJL-DPTB
   iso: csh
   lgcode: 46
-  sort: 'ASH    O'
+  sort: "ASH\NO"
 - lgid: 1414
   name: Asho
   abbr: Sho
@@ -11699,7 +11699,7 @@
   source: STC
   iso: csh
   lgcode: 46
-  sort: 'ASH    O'
+  sort: "ASH\NO"
 - lgid: 1415
   name: Asho
   abbr: Ashö
@@ -11707,7 +11707,7 @@
   source: STE-Asho
   iso: csh
   lgcode: 46
-  sort: 'ASH    O'
+  sort: "ASH\NO"
 - lgid: 1416
   name: Hani (Shuikui)
   abbr: Hani.Shuikui32

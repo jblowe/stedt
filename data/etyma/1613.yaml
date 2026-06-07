@@ -17,14 +17,19 @@ mesoroots:
   group: 1.1.1
   form: sup
   gloss: NEST / LAIR
+  source: JS-HCST: 105
+  old_tag: 6603
 - grpid: 63
   group: 1.3.1
   form: a-sap
   gloss: NEST / WEB
+  source: 'PCN #152'
+  old_tag: 7699
 - grpid: 45
   group: 6.1.2
   form: (d)zyi
   gloss: PLACENTA / NEST
+  old_tag: 1347
 notes:
 - type: T
   text: '<par>This etymon is tentatively set up for PTB on rather shaky evidence: several forms from Loloish,

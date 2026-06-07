@@ -22,10 +22,14 @@ mesoroots:
   group: '1.2'
   form: tsal
   gloss: FOREHEAD / BROW
+  source: 'PKC #538'
+  old_tag: 4538
 - grpid: 12
   group: 1.7.2
   form: tʰəːl
   gloss: FACE
+  source: 'WTF-PNN: 484'
+  old_tag: 6711
 notes:
 - type: T
   text: <par>Jingpho <latinform>-n</latinform> is the regular reflex of PTB <latinform>-l</latinform>.

@@ -20,6 +20,8 @@ mesoroots:
   group: '1.2'
   form: khaak
   gloss: PHLEGM / MUCUS
+  source: 'PKC #454'
+  old_tag: 4454
 - grpid: 29
   group: '2.3'
   form: khakma
@@ -28,6 +30,8 @@ mesoroots:
   group: 1.1.1
   form: kak
   gloss: PHLEGM
+  source: JS-HCST: 215
+  old_tag: 6370
 notes:
 - type: T
   text: <par>For evidence of the liquid medial, see e.g. Apatani, Idu, Geman, Bahing, Sunwar, Tamang,

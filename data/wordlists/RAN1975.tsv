@@ -1,14 +1,14 @@
 rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
 290306	1586	Tibetan (Balti)	išʌn	išʌn	enough	enough			1.1.3.2	15	0	jbl5	HIDE	DUPE IN SOURCE
-290307	1586	Tibetan (Balti)	isṯifa·	isṯifa·	resign	resign			6.2	15	0	jbl5	HIDE	DUPE IN SOURCE,b
+290307	1586	Tibetan (Balti)	isṯifa·	isṯifa·	resign	resign			6.2	15	0	jbl5	HIDE	DUPE IN SOURCE|b
 290308	1586	Tibetan (Balti)	inka:rbya·	inka:rbya·	deny	deny			8.5.6	15	0			b
 290309	1586	Tibetan (Balti)	imtiha: lenma·	imtiha: lenma·	examine	examine			6.2	15	0			b
-290310	1586	Tibetan (Balti)	izʌṯ	izʌṯ	respect	respect			8.3.2.6.1	15	0	jbl5	HIDE	DUPE IN SOURCE,b
+290310	1586	Tibetan (Balti)	izʌṯ	izʌṯ	respect	respect			8.3.2.6.1	15	0	jbl5	HIDE	DUPE IN SOURCE|b
 290311	1586	Tibetan (Balti)	cʰimimi·	cʰimimi·	man (old)	man (old)			1.9.6.1	15	0			
 290312	1586	Tibetan (Balti)	riŋmo·	riŋmo·	tall	tall			9.7.2	15	0	jbl5	HIDE	DUPE IN SOURCE
 290313	1586	Tibetan (Balti)	pʰoṛiyʌŋ	pʰoṛiyʌŋ	widower	widower			4.2.8	15	0	jbl5	HIDE	DUPE IN SOURCE
 290314	1586	Tibetan (Balti)	kʰimo·	kʰimo·	bitch	bitch			2.1.11	15	0	jbl5	HIDE	DUPE IN SOURCE
-290315	1586	Tibetan (Balti)	bila·	bila·	cat	cat			2.1.3	15	0	jbl5	HIDE	DUPE IN SOURCE,b?
+290315	1586	Tibetan (Balti)	bila·	bila·	cat	cat			2.1.3	15	0	jbl5	HIDE	DUPE IN SOURCE|b?
 290316	1586	Tibetan (Balti)	i:ðul zoha·	i:ðul zoha·	end of Ramzan	end of Ramzan			9.5	15	0			
 290317	1586	Tibetan (Balti)	ri:čo·	ri:čo·	horn	horn			1.2.2	15	0	jbl5	HIDE	DUPE IN SOURCE
 290318	1586	Tibetan (Balti)	ṯi:l	ṯi:l	oil	oil			1.6.4.1	15	0	jbl5	HIDE	DUPE IN SOURCE
@@ -20,7 +20,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290324	1586	Tibetan (Balti)	bi·	bi·	sparrow	sparrow			2.2.4.1	15	0			
 290325	1586	Tibetan (Balti)	skʌrgi·	skʌrgi·	blade	blade			1.4.3.2	15	0			
 290326	1586	Tibetan (Balti)	eun	eun	those	those			10.4.3.2	16	0	jbl5	HIDE	DUPE IN SOURCE
-290327	1586	Tibetan (Balti)	eksʌl	eksʌl	axle	axle				16	0	jbl5	HIDE	DUPE IN SOURCE,b
+290327	1586	Tibetan (Balti)	eksʌl	eksʌl	axle	axle				16	0	jbl5	HIDE	DUPE IN SOURCE|b
 290328	1586	Tibetan (Balti)	esʌq	esʌq	other	other			8.1	16	0	jbl5	HIDE	DUPE IN SOURCE
 290329	1586	Tibetan (Balti)	serpa·	serpa·	wet	wet			6.6	16	0			
 290330	1586	Tibetan (Balti)	sŋezbol	sŋezbol	pillow	pillow			1.2.1	16	0	jbl5	HIDE	DUPE IN SOURCE
@@ -94,8 +94,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290398	1586	Tibetan (Balti)	a◦pi·	api·	grandmother	grandmother			4.7.1	21	0		D5	m,2559
 290399	1586	Tibetan (Balti)	ane·	ane·	wife	wife			4.7.4	21	0			
 290400	1586	Tibetan (Balti)	ažʌŋ	ažʌŋ	uncle (maternal)	uncle (maternal)			4.7.1	21	0	jbl5	HIDE	DUPE IN SOURCE
-290401	1586	Tibetan (Balti)	a:m	a:m	mango	mango				21	0	jbl5	HIDE	DUPE IN SOURCE,b
-290402	1586	Tibetan (Balti)	a:za:ði·	a:za:ði·	freedom	freedom				21	0	jbl5	HIDE	DUPE IN SOURCE,b
+290401	1586	Tibetan (Balti)	a:m	a:m	mango	mango				21	0	jbl5	HIDE	DUPE IN SOURCE|b
+290402	1586	Tibetan (Balti)	a:za:ði·	a:za:ði·	freedom	freedom				21	0	jbl5	HIDE	DUPE IN SOURCE|b
 290403	1586	Tibetan (Balti)	za:ŋzbu·	za:ŋzbu·	pot	pot			5.5	21	0		D1	
 290404	1586	Tibetan (Balti)	ya:ŋ	ya:ŋ	another	another			9.9	21	0			
 290405	1586	Tibetan (Balti)	serga:r	serga:r	goldsmith	goldsmith			4.2.1.4	21	0			
@@ -103,16 +103,16 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290407	1586	Tibetan (Balti)	gʌrba·	gʌrba·	blacksmith	blacksmith			4.2.1.4	21	0			
 290408	1586	Tibetan (Balti)	ŋa·	ŋa·	I	I			4.1	21	0	jbl5	HIDE	DUPE IN SOURCE
 290409	1586	Tibetan (Balti)	kʌka·	kʌka·	brother	brother			1.5.3.2	21	0			
-290410	1586	Tibetan (Balti)	bila·	bila·	cat	cat			2.1.3	21	0	jbl5	HIDE	DUPE IN SOURCE,b?
+290410	1586	Tibetan (Balti)	bila·	bila·	cat	cat			2.1.3	21	0	jbl5	HIDE	DUPE IN SOURCE|b?
 290411	1586	Tibetan (Balti)	smik◦pa·	smik◦pa·	horse shoe	horse shoe			2.1.7	21	0			
-290412	1586	Tibetan (Balti)	pišu·	pišu·	fly	fly			2.2.6	22	0	jbl5	HIDE	DUPE IN SOURCE,b
+290412	1586	Tibetan (Balti)	pišu·	pišu·	fly	fly			2.2.6	22	0	jbl5	HIDE	DUPE IN SOURCE|b
 290413	1586	Tibetan (Balti)	pice·	pice·	rat	rat			2.1.1	22	0	jbl5	HIDE	DUPE IN SOURCE
 290414	1586	Tibetan (Balti)	pʌqzer	pʌqzer	disease (skin)	disease (skin)			1.1.5.1	22	0			
 290415	1586	Tibetan (Balti)	pʌqspa·	pʌqspa·	leather	leather			1.6.5.1	22	0			
 290416	1586	Tibetan (Balti)	po:lo·	po:lo·	ball	ball			9.7.1	22	0			1275,m
 290417	1586	Tibetan (Balti)	pipi·	pipi·	breast	breast			1.4.4.3	22	0	jbl5	HIDE	DUPE IN SOURCE
 290418	1586	Tibetan (Balti)	popoṯ	popoṯ	gur	gur				22	0	jbl5	HIDE	DUPE IN SOURCE
-290419	1586	Tibetan (Balti)	isṯifa·	isṯifa·	resign	resign			6.2	22	0	jbl5	HIDE	DUPE IN SOURCE,b
+290419	1586	Tibetan (Balti)	isṯifa·	isṯifa·	resign	resign			6.2	22	0	jbl5	HIDE	DUPE IN SOURCE|b
 290420	1586	Tibetan (Balti)	sprin	sprin	cloud	cloud			3.2.1	22	0			
 290421	1586	Tibetan (Balti)	spulu·	spulu·	feather	feather			1.6.1.1	22	0	jbl5	HIDE	DUPE IN SOURCE
 290422	1586	Tibetan (Balti)	tʰup	tʰup	darkness	darkness			9.4	23	0	jbl5	HIDE	DUPE IN SOURCE
@@ -167,12 +167,12 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290471	1586	Tibetan (Balti)	sṯoṉṯʰoq	sṯoṉṯʰoq	harvest	harvest			3.1.10	25	0	jbl5	HIDE	DUPE IN SOURCE
 290472	1586	Tibetan (Balti)	ḏika·	ḏika·	here	here			9.2.3	25	0	jbl5	HIDE	DUPE IN SOURCE
 290473	1586	Tibetan (Balti)	ḏoyinnʌŋ	ḏoyinnʌŋ	even though	even though			10.1.2.2	25	0			
-290474	1586	Tibetan (Balti)	ḏo:bi·	ḏo:bi·	washerman	washerman				25	0	jbl5	HIDE	DUPE IN SOURCE,b
+290474	1586	Tibetan (Balti)	ḏo:bi·	ḏo:bi·	washerman	washerman				25	0	jbl5	HIDE	DUPE IN SOURCE|b
 290475	1586	Tibetan (Balti)	ḏʌrba·	ḏʌrba·	buttermilk	buttermilk				25	0			
 290476	1586	Tibetan (Balti)	ḏa·	ḏa·	arrow	arrow			5.15	25	0	jbl5	HIDE	DUPE IN SOURCE
 290477	1586	Tibetan (Balti)	meṉḏoq	meṉḏoq	flower	flower			3.1.4	25	0	jbl5	HIDE	DUPE IN SOURCE
 290478	1586	Tibetan (Balti)	ḏʌṉḏʌl	ḏʌṉḏʌl	sieve	sieve			5.5	25	0	jbl5	HIDE	DUPE IN SOURCE
-290479	1586	Tibetan (Balti)	qoḏrʌṯ	qoḏrʌṯ	nature	nature			3.2.1	25	0	jbl5	HIDE	DUPE IN SOURCE,b
+290479	1586	Tibetan (Balti)	qoḏrʌṯ	qoḏrʌṯ	nature	nature			3.2.1	25	0	jbl5	HIDE	DUPE IN SOURCE|b
 290480	1586	Tibetan (Balti)	bʌŋzḏur	bʌŋzḏur	race	race			6.7.9	25	0	jbl5	HIDE	DUPE IN SOURCE
 290481	1586	Tibetan (Balti)	skʌrḏa·	skʌrḏa·	meteor	meteor			3.2.2	25	0	jbl5	HIDE	DUPE IN SOURCE
 290482	1586	Tibetan (Balti)	tilbu·	tilbu·	anklet	anklet			5.11.8.3	26	0	jbl5	HIDE	DUPE IN SOURCE
@@ -183,7 +183,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290487	1586	Tibetan (Balti)	hʌtipa·	hʌtipa·	shopkeeper	shopkeeper			9.10.6	26	0	jbl5	HIDE	DUPE IN SOURCE
 290488	1586	Tibetan (Balti)	kʰa:ti·	kʰa:ti·	basket	basket			5.1	26	0	jbl5	HIDE	DUPE IN SOURCE
 290489	1586	Tibetan (Balti)	lʌlten	lʌlten	lantern	lantern				26	0	jbl5	HIDE	DUPE IN SOURCE
-290490	1586	Tibetan (Balti)	ba:lti·	ba:lti·	bucket	bucket			5.1	26	0	jbl5	HIDE	DUPE IN SOURCE,b
+290490	1586	Tibetan (Balti)	ba:lti·	ba:lti·	bucket	bucket			5.1	26	0	jbl5	HIDE	DUPE IN SOURCE|b
 290491	1586	Tibetan (Balti)	pʌtsʌn	pʌtsʌn	jute	jute				26	0	jbl5	HIDE	DUPE IN SOURCE
 290492	1586	Tibetan (Balti)	agʌnbo:t	agʌnbo:t	steamer	steamer				26	0			
 290493	1586	Tibetan (Balti)	ko:t	ko:t	coat	coat			5.11.8.2.1.2	26	0			b
@@ -202,7 +202,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290506	1586	Tibetan (Balti)	dʌqčuŋ	dʌqčuŋ	beans	beans			3.1.4	27	0	jbl5	HIDE	DUPE IN SOURCE
 290507	1586	Tibetan (Balti)	dyu·	dyu·	it	it			8.1	27	0	jbl5	HIDE	DUPE IN SOURCE
 290508	1586	Tibetan (Balti)	dyun	dyun	these	these			10.4.3.2	27	0			
-290509	1586	Tibetan (Balti)	po:st ka:rd	po:st ka:rd	postcard	postcard				27	0			bEnglish,b
+290509	1586	Tibetan (Balti)	po:st ka:rd	po:st ka:rd	postcard	postcard				27	0			b|bEnglish
 290510	1586	Tibetan (Balti)	kiṯili·	kiṯili·	kettle	kettle			5.5	27	0			b
 290511	1586	Tibetan (Balti)	kisṯi:pa·	kisṯi:pa·	sailor	sailor				27	0		D1	b,m
 290512	1586	Tibetan (Balti)	kupʌs	kupʌs	cotton	cotton			5.1	27	0			
@@ -241,10 +241,10 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290545	1586	Tibetan (Balti)	rgyʌl	rgyʌl	victory	victory			6.5	28	0	jbl5	HIDE	DUPE IN SOURCE
 290546	1586	Tibetan (Balti)	qa:r	qa:r	blanket	blanket			5.11.9.4	29	0	jbl5	HIDE	DUPE IN SOURCE
 290547	1586	Tibetan (Balti)	qa:nun	qa:nun	law	law			5.8	29	0			b
-290548	1586	Tibetan (Balti)	qa:ṯil	qa:ṯil	murderer	murderer			6.4	29	0	jbl5	HIDE	DUPE IN SOURCE,b
-290549	1586	Tibetan (Balti)	qʌlʌm	qʌlʌm	pen	pen			5.1	29	0	jbl5	HIDE	DUPE IN SOURCE,b
-290550	1586	Tibetan (Balti)	qʌbza·	qʌbza·	hinge	hinge			5.11.9	29	0	jbl5	HIDE	DUPE IN SOURCE,b
-290551	1586	Tibetan (Balti)	qoḏrʌṯ	qoḏrʌṯ	nature	nature			3.2.1	29	0	jbl5	HIDE	DUPE IN SOURCE,b
+290548	1586	Tibetan (Balti)	qa:ṯil	qa:ṯil	murderer	murderer			6.4	29	0	jbl5	HIDE	DUPE IN SOURCE|b
+290549	1586	Tibetan (Balti)	qʌlʌm	qʌlʌm	pen	pen			5.1	29	0	jbl5	HIDE	DUPE IN SOURCE|b
+290550	1586	Tibetan (Balti)	qʌbza·	qʌbza·	hinge	hinge			5.11.9	29	0	jbl5	HIDE	DUPE IN SOURCE|b
+290551	1586	Tibetan (Balti)	qoḏrʌṯ	qoḏrʌṯ	nature	nature			3.2.1	29	0	jbl5	HIDE	DUPE IN SOURCE|b
 290552	1586	Tibetan (Balti)	dʌqčuŋ	dʌqčuŋ	beans	beans			3.1.4	29	0	jbl5	HIDE	DUPE IN SOURCE
 290553	1586	Tibetan (Balti)	ṯʰʌqpa·	ṯʰʌqpa·	rope	rope			5.11.4	29	0	jbl5	HIDE	DUPE IN SOURCE
 290554	1586	Tibetan (Balti)	kʌqpa·	kʌqpa·	imprisonment	imprisonment			5.11.9.1	29	0	jbl5	HIDE	DUPE IN SOURCE
@@ -275,13 +275,13 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290579	1586	Tibetan (Balti)	cʰikpa·	cʰikpa·	jealousy	jealousy			8.3.2.6.2	30	0			
 290580	1586	Tibetan (Balti)	cʰuzga:s	cʰuzga:s	shop	shop			9.10.6	30	0			
 290581	1586	Tibetan (Balti)	cʰucʰik	cʰucʰik	drought	drought			3.2.3	30	0			
-290582	1586	Tibetan (Balti)	bucʰa·	bucʰa·	boy	boy			1.9.6.1	30	0	jbl5	HIDE	DUPE IN SOURCE,b
+290582	1586	Tibetan (Balti)	bucʰa·	bucʰa·	boy	boy			1.9.6.1	30	0	jbl5	HIDE	DUPE IN SOURCE|b
 290583	1586	Tibetan (Balti)	norcʰosa·	norcʰosa·	pasture	pasture			3.2.5	30	0			
 290584	1586	Tibetan (Balti)	ŋʌl◦chua·	ŋʌlchua·	rest	rest			1.1.4.1	30	0			129,m
 290585	1586	Tibetan (Balti)	byʌlcʰoŋs	byʌlcʰoŋs	animal (wild)	animal (wild)			2.3	30	0			
 290586	1586	Tibetan (Balti)	čoṯ	čoṯ	regard	regard			6.2.2.2	31	0			
 290587	1586	Tibetan (Balti)	ču◦ču·	ču◦ču·	nipple	nipple				31	0	jbl5	HIDE	DUPE IN SOURCE
-290588	1586	Tibetan (Balti)	čena·	čena·	gram	gram			9.8	31	0	jbl5	HIDE	DUPE IN SOURCE,b
+290588	1586	Tibetan (Balti)	čena·	čena·	gram	gram			9.8	31	0	jbl5	HIDE	DUPE IN SOURCE|b
 290589	1586	Tibetan (Balti)	čurgu·	čurgu·	nineteen	nineteen			9.9	31	0			
 290590	1586	Tibetan (Balti)	čutki·	čutki·	bolt	bolt			5.11.9	31	0			
 290591	1586	Tibetan (Balti)	čik◦čik	čikčik	one	one			9.9	31	0		D1	2726,2726
@@ -305,7 +305,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290609	1586	Tibetan (Balti)	ɬ̥čʰoŋ	ɬ̥čʰoŋ	gout	gout			5.3	31	0			
 290610	1586	Tibetan (Balti)	rgunčʰʌŋ	rgunčʰʌŋ	wine	wine			3.1.6.3	31	0			
 290611	1586	Tibetan (Balti)	ǰezba·	ǰezba·	spirit	spirit			5.8.1.1	32	0			b
-290612	1586	Tibetan (Balti)	ǰurma:na·	ǰurma:na·	fine	fine			9.7.2	32	0	jbl5	HIDE	DUPE IN SOURCE,b
+290612	1586	Tibetan (Balti)	ǰurma:na·	ǰurma:na·	fine	fine			9.7.2	32	0	jbl5	HIDE	DUPE IN SOURCE|b
 290613	1586	Tibetan (Balti)	ǰʌzi:ra·	ǰʌzi:ra·	island	island			3.2.5	32	0			b
 290614	1586	Tibetan (Balti)	ǰaɣʌm	ǰaɣʌm	wound	wound			1.8.6.2	32	0			b
 290615	1586	Tibetan (Balti)	ka:ǰu·	ka:ǰu·	cashew nut	cashew nut			3.1.4	32	0			b
@@ -319,16 +319,16 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290623	1586	Tibetan (Balti)	bila:fun	bila:fun	firefly	firefly			2.2.6	32	0	jbl5	HIDE	DUPE IN SOURCE
 290624	1586	Tibetan (Balti)	sef◦ṣṯa·	sef◦ṣṯa·	stallion	stallion			2.1.7	32	0	jbl5	HIDE	DUPE IN SOURCE
 290625	1586	Tibetan (Balti)	gofoṯo·	gofoṯo·	skull	skull			1.2.1.1	32	0			
-290626	1586	Tibetan (Balti)	ka:fi·	ka:fi·	coffee	coffee				32	0	jbl5	HIDE	DUPE IN SOURCE,b
+290626	1586	Tibetan (Balti)	ka:fi·	ka:fi·	coffee	coffee				32	0	jbl5	HIDE	DUPE IN SOURCE|b
 290627	1586	Tibetan (Balti)	mo:ŋfʌli·	mo:ŋfʌli·	groundnut	groundnut			3.1.4	32	0			b
 290628	1586	Tibetan (Balti)	gule· afṯa:p	gule· afṯa:p	sunflower	sunflower			3.1.4	32	0			b
 290629	1586	Tibetan (Balti)	byʌ◦fo·	byʌ◦fo·	cock	cock			2.1.10	32	0			2187,1635
 290630	1586	Tibetan (Balti)	i:ðul gʌðir	i:ðul gʌðir	Day-Hazarat Ali got hilafat-spiritual charge	Day-Hazarat Ali got hilafat-spiritual charge			1.5.3.2	33	0			
-290631	1586	Tibetan (Balti)	aðiṯ	aðiṯ	Sunday	Sunday			9.1.3	33	0	jbl5	HIDE	DUPE IN SOURCE,b
+290631	1586	Tibetan (Balti)	aðiṯ	aðiṯ	Sunday	Sunday			9.1.3	33	0	jbl5	HIDE	DUPE IN SOURCE|b
 290632	1586	Tibetan (Balti)	aða:lʌṯ	aða:lʌṯ	court	court			5.8	33	0			b
-290633	1586	Tibetan (Balti)	aza:ði·	aza:ði·	freedom	freedom				33	0	jbl5	HIDE	DUPE IN SOURCE,b
+290633	1586	Tibetan (Balti)	aza:ði·	aza:ði·	freedom	freedom				33	0	jbl5	HIDE	DUPE IN SOURCE|b
 290634	1586	Tibetan (Balti)	pa:ðiri·	pa:ðiri·	clergyman	clergyman				33	0			b
-290635	1586	Tibetan (Balti)	pya:ða·	pya:ða·	infantry	infantry			5.15	33	0	jbl5	HIDE	DUPE IN SOURCE,b
+290635	1586	Tibetan (Balti)	pya:ða·	pya:ða·	infantry	infantry			5.15	33	0	jbl5	HIDE	DUPE IN SOURCE|b
 290636	1586	Tibetan (Balti)	suin	suin	three	three			9.9	33	0			2666
 290637	1586	Tibetan (Balti)	sṯa·	sṯa·	under (a stick)	under (a stick)			9.2.2	33	0			
 290638	1586	Tibetan (Balti)	sṯik◦pa·	sṯikpa·	build (a house)	build (a house)			6.14	33	0			5773,s
@@ -353,7 +353,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290657	1586	Tibetan (Balti)	zʌn	zʌn	food	food			5.5	34	0			
 290658	1586	Tibetan (Balti)	zima·	zima·	violet	violet				34	0	jbl5	HIDE	DUPE IN SOURCE
 290659	1586	Tibetan (Balti)	zermo·	zermo·	sick	sick			1.1.5.1	34	0			
-290660	1586	Tibetan (Balti)	izʌṯ	izʌṯ	respect	respect			8.3.2.6.1	34	0	jbl5	HIDE	DUPE IN SOURCE,b
+290660	1586	Tibetan (Balti)	izʌṯ	izʌṯ	respect	respect			8.3.2.6.1	34	0	jbl5	HIDE	DUPE IN SOURCE|b
 290661	1586	Tibetan (Balti)	aza:ði·	aza:ði·	freedom	freedom				34	0		D1	b
 290662	1586	Tibetan (Balti)	ḏozʌq	ḏozʌq	hell	hell			5.8.4	34	0	jbl5	HIDE	DUPE IN SOURCE
 290663	1586	Tibetan (Balti)	kʌbzi·	kʌbzi·	constipation	constipation			1.7.7	34	0			
@@ -372,17 +372,17 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290676	1586	Tibetan (Balti)	ṣṯikṣpon	ṣṯikṣpon	mason	mason				34	0			
 290677	1586	Tibetan (Balti)	rgyʌp◦ṣkʌŋ	rgyʌpṣkʌŋ	leg (hind)	leg (hind)			1.5.7	34	0			m,336
 290678	1586	Tibetan (Balti)	šerba·	šerba·	people	people			4.5	35	0			
-290679	1586	Tibetan (Balti)	ša:l	ša:l	shawl	shawl			5.11.8.2.1.1	35	0	jbl5	HIDE	DUPE IN SOURCE,b
+290679	1586	Tibetan (Balti)	ša:l	ša:l	shawl	shawl			5.11.8.2.1.1	35	0	jbl5	HIDE	DUPE IN SOURCE|b
 290680	1586	Tibetan (Balti)	šorba·	šorba·	soup	soup			5.5	35	0	jbl5	HIDE	DUPE IN SOURCE
 290681	1586	Tibetan (Balti)	šʌla·	šʌla·	harrow	harrow			5.3	35	0			
 290682	1586	Tibetan (Balti)	šʌmo·	šʌmo·	mushroom	mushroom			3.1.7	35	0			
 290683	1586	Tibetan (Balti)	šʌrba· usu·	šʌrba· usu·	coriander (green)	coriander (green)			3.1.6.1	35	0			
-290684	1586	Tibetan (Balti)	pišu·	pišu·	fly	fly			2.2.6	35	0	jbl5	HIDE	DUPE IN SOURCE,b
+290684	1586	Tibetan (Balti)	pišu·	pišu·	fly	fly			2.2.6	35	0	jbl5	HIDE	DUPE IN SOURCE|b
 290685	1586	Tibetan (Balti)	gʌša·	gʌša·	charm	charm			8.3.1.1.1	35	0			
-290686	1586	Tibetan (Balti)	penšin	penšin	retire	retire				35	0	jbl5	HIDE	DUPE IN SOURCE,b
+290686	1586	Tibetan (Balti)	penšin	penšin	retire	retire				35	0	jbl5	HIDE	DUPE IN SOURCE|b
 290687	1586	Tibetan (Balti)	kʌpša·	kʌpša·	shoe	shoe			5.11.8.1	35	0	jbl5	HIDE	DUPE IN SOURCE
-290688	1586	Tibetan (Balti)	rišim	rišim	silk	silk				35	0	jbl5	HIDE	DUPE IN SOURCE,b
-290689	1586	Tibetan (Balti)	ǰo:š	ǰo:š	spirit	spirit			5.8.1.1	35	0	jbl5	HIDE	DUPE IN SOURCE,b
+290688	1586	Tibetan (Balti)	rišim	rišim	silk	silk				35	0	jbl5	HIDE	DUPE IN SOURCE|b
+290689	1586	Tibetan (Balti)	ǰo:š	ǰo:š	spirit	spirit			5.8.1.1	35	0	jbl5	HIDE	DUPE IN SOURCE|b
 290690	1586	Tibetan (Balti)	behʌš	behʌš	heaven	heaven			5.8.4	35	0			b
 290691	1586	Tibetan (Balti)	sa:ziš	sa:ziš	plot / conspiracy	plot / conspiracy			8.3	35	0			b
 290692	1586	Tibetan (Balti)	sufa:riš	sufa:riš	recommend	recommend			6.2.2.2	35	0			
@@ -402,7 +402,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290706	1586	Tibetan (Balti)	x̣o·	x̣o·	bitter	bitter			7.1.4.4	36	0	jbl5	HIDE	DUPE IN SOURCE
 290707	1586	Tibetan (Balti)	x̣atu·	x̣atu·	hut	hut			5.11.9.1	36	0			
 290708	1586	Tibetan (Balti)	x̣orma·	x̣orma·	datepalm	datepalm				36	0	jbl5	HIDE	DUPE IN SOURCE
-290709	1586	Tibetan (Balti)	x̣ʌčʌr	x̣ʌčʌr	mule	mule			2.1.7	36	0	jbl5	HIDE	DUPE IN SOURCE,b
+290709	1586	Tibetan (Balti)	x̣ʌčʌr	x̣ʌčʌr	mule	mule			2.1.7	36	0	jbl5	HIDE	DUPE IN SOURCE|b
 290710	1586	Tibetan (Balti)	x̣ʌmloq	x̣ʌmloq	dirty	dirty			3.2.11	36	0	jbl5	HIDE	DUPE IN SOURCE
 290711	1586	Tibetan (Balti)	x̣ožiŋ	x̣ožiŋ	hearth	hearth			5.11.9.3.1	36	0			
 290712	1586	Tibetan (Balti)	bʌx̣o·	bʌx̣o·	cave	cave			3.2.7	36	0			
@@ -428,12 +428,12 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290732	1586	Tibetan (Balti)	hup	hup	pin	pin			5.11.9	37	0			
 290733	1586	Tibetan (Balti)	hiliŋ	hiliŋ	noise	noise			7.1.4.3	37	0			
 290734	1586	Tibetan (Balti)	hiya·	hiya·	itch	itch			1.6.5.5	37	0			
-290735	1586	Tibetan (Balti)	hegmʌṯ	hegmʌṯ	courage	courage				37	0	jbl5	HIDE	DUPE IN SOURCE,b
+290735	1586	Tibetan (Balti)	hegmʌṯ	hegmʌṯ	courage	courage				37	0	jbl5	HIDE	DUPE IN SOURCE|b
 290736	1586	Tibetan (Balti)	biha·	biha·	locust	locust			2.2.6	37	0	jbl5	HIDE	DUPE IN SOURCE
-290737	1586	Tibetan (Balti)	borha·	borha·	veil	veil			5.11.8.2.1.1	37	0	jbl5	HIDE	DUPE IN SOURCE,b
-290738	1586	Tibetan (Balti)	ṯʌhʌṯ	ṯʌhʌṯ	throne	throne				37	0	jbl5	HIDE	DUPE IN SOURCE,b
+290737	1586	Tibetan (Balti)	borha·	borha·	veil	veil			5.11.8.2.1.1	37	0	jbl5	HIDE	DUPE IN SOURCE|b
+290738	1586	Tibetan (Balti)	ṯʌhʌṯ	ṯʌhʌṯ	throne	throne				37	0	jbl5	HIDE	DUPE IN SOURCE|b
 290739	1586	Tibetan (Balti)	lehmo·	lehmo·	right	right			1.5.3.2	37	0	jbl5	HIDE	DUPE IN SOURCE
-290740	1586	Tibetan (Balti)	sʌrhʌṯ	sʌrhʌṯ	boundary	boundary			9.2.7	37	0	jbl5	HIDE	DUPE IN SOURCE,b
+290740	1586	Tibetan (Balti)	sʌrhʌṯ	sʌrhʌṯ	boundary	boundary			9.2.7	37	0	jbl5	HIDE	DUPE IN SOURCE|b
 290741	1586	Tibetan (Balti)	mi·	mi·	man	man			1.9.6.1	38	0	jbl5	HIDE	DUPE IN SOURCE
 290742	1586	Tibetan (Balti)	meṯ	meṯ	not	not			1.5.3.2	38	0			
 290743	1586	Tibetan (Balti)	mik	mik	eye	eye			1.2.6	38	0			682
@@ -454,7 +454,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290758	1586	Tibetan (Balti)	zgoðem	zgoðem	go down	go down			6.7.2	38	0			
 290759	1586	Tibetan (Balti)	cʌṉḏʌn	cʌṉḏʌn	sandals	sandals			5.11.8.1	38	0			b
 290760	1586	Tibetan (Balti)	meṉḏoq	meṉḏoq	flower	flower			3.1.4	38	0	jbl5	HIDE	DUPE IN SOURCE
-290761	1586	Tibetan (Balti)	mʌṉḏʌr	mʌṉḏʌr	temple	temple			1.2.5.1	38	0	jbl5	HIDE	DUPE IN SOURCE,bNepali
+290761	1586	Tibetan (Balti)	mʌṉḏʌr	mʌṉḏʌr	temple	temple			1.2.5.1	38	0	jbl5	HIDE	DUPE IN SOURCE|bNepali
 290762	1586	Tibetan (Balti)	goṉḏe·	goṉḏe·	yesterday	yesterday			9.1.3	38	0	jbl5	HIDE	DUPE IN SOURCE
 290763	1586	Tibetan (Balti)	gʌṉḏʌk	gʌṉḏʌk	sulphur	sulphur			3.2.4	38	0			5764
 290764	1586	Tibetan (Balti)	čʌṉḏa·	čʌṉḏa·	pocket	pocket			5.11.8.2.3	38	0	jbl5	HIDE	DUPE IN SOURCE
@@ -486,7 +486,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290790	1586	Tibetan (Balti)	mʌñǰa·	mʌñǰa·	peacock	peacock			2.2.4.1	40	0		D1	6698
 290791	1586	Tibetan (Balti)	sʌñǰʌk	sʌñǰʌk	limestone	limestone				40	0			
 290792	1586	Tibetan (Balti)	ɣʌñǰʌr	ɣʌñǰʌr	naked	naked			1.1.1	40	0	jbl5	HIDE	DUPE IN SOURCE
-290793	1586	Tibetan (Balti)	añǰur	añǰur	fig	fig			3.1.5	40	0	jbl5	HIDE	DUPE IN SOURCE,b
+290793	1586	Tibetan (Balti)	añǰur	añǰur	fig	fig			3.1.5	40	0	jbl5	HIDE	DUPE IN SOURCE|b
 290794	1586	Tibetan (Balti)	sñerma· tʰi:ñi·	sñerma· tʰi:ñi·	chilly	chilly			9.5	40	0			
 290795	1586	Tibetan (Balti)	tʰa:li·	tʰa:li·	tinplate	tinplate				40	0			
 290796	1586	Tibetan (Balti)	ŋa·	ŋa·	I	I			4.1	40	0	jbl5	HIDE	DUPE IN SOURCE
@@ -517,9 +517,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290821	1586	Tibetan (Balti)	milʌn	milʌn	lane	lane			9.10.1	41	0		D1	
 290822	1586	Tibetan (Balti)	melʌn	melʌn	tongs	tongs			5.4	41	0	jbl5	HIDE	DUPE IN SOURCE
 290823	1586	Tibetan (Balti)	rgulʌp	rgulʌp	rose	rose			3.1.4	41	0			
-290824	1586	Tibetan (Balti)	ša:l	ša:l	shawl	shawl			5.11.8.2.1.1	41	0	jbl5	HIDE	DUPE IN SOURCE,b
+290824	1586	Tibetan (Balti)	ša:l	ša:l	shawl	shawl			5.11.8.2.1.1	41	0	jbl5	HIDE	DUPE IN SOURCE|b
 290825	1586	Tibetan (Balti)	tʰul	tʰul	egg	egg				41	0			1181
-290826	1586	Tibetan (Balti)	qa:ṯil	qa:ṯil	murderer	murderer			6.4	41	0	jbl5	HIDE	DUPE IN SOURCE,b
+290826	1586	Tibetan (Balti)	qa:ṯil	qa:ṯil	murderer	murderer			6.4	41	0	jbl5	HIDE	DUPE IN SOURCE|b
 290827	1586	Tibetan (Balti)	ṣmul	ṣmul	silver	silver			3.2.4	41	0		D1	5519
 290828	1586	Tibetan (Balti)	ɣo◦tʰul	ɣo◦tʰul	testicle	testicle				41	0	jbl5	HIDE	DUPE IN SOURCE
 290829	1586	Tibetan (Balti)	ryʌl	ryʌl	fibre	fibre			3.1.2	41	0			
@@ -548,13 +548,13 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290852	1586	Tibetan (Balti)	yurba·	yurba·	canal	canal			9.10.2	42	0	jbl5	HIDE	DUPE IN SOURCE
 290853	1586	Tibetan (Balti)	šorba·	šorba·	soup	soup			5.5	42	0	jbl5	HIDE	DUPE IN SOURCE
 290854	1586	Tibetan (Balti)	qa:r	qa:r	blanket	blanket			5.11.9.4	42	0	jbl5	HIDE	DUPE IN SOURCE
-290855	1586	Tibetan (Balti)	box̣a:r	box̣a:r	fever	fever			1.1.5.1	42	0	jbl5	HIDE	DUPE IN SOURCE,b
+290855	1586	Tibetan (Balti)	box̣a:r	box̣a:r	fever	fever			1.1.5.1	42	0	jbl5	HIDE	DUPE IN SOURCE|b
 290856	1586	Tibetan (Balti)	beka:r	beka:r	idle	idle			9.6.2.2	42	0			b
 290857	1586	Tibetan (Balti)	mʌṉḏʌr	mʌṉḏʌr	temple	temple			1.2.5.1	42	0		D1	bNepali
 290858	1586	Tibetan (Balti)	añǰur	añǰur	fig	fig			3.1.5	42	0		D1	b
 290859	1586	Tibetan (Balti)	ñuŋskʌr	ñuŋskʌr	mustard	mustard			3.1.4	42	0		D1	
 290860	1586	Tibetan (Balti)	beṛa·	beṛa·	musician	musician			5.1	43	0	jbl5	HIDE	DUPE IN SOURCE
-290861	1586	Tibetan (Balti)	gʌṛi·	gʌṛi·	clock	clock			5.11.9.4	43	0	jbl5	HIDE	DUPE IN SOURCE,b
+290861	1586	Tibetan (Balti)	gʌṛi·	gʌṛi·	clock	clock			5.11.9.4	43	0	jbl5	HIDE	DUPE IN SOURCE|b
 290862	1586	Tibetan (Balti)	re:ṛa·	re:ṛa·	barrow	barrow				43	0		D1	
 290863	1586	Tibetan (Balti)	kʌbʌri·	kʌbʌri·	kabadi	kabadi				43	0			b
 290864	1586	Tibetan (Balti)	hʌṯkʌṛi·	hʌṯkʌṛi·	handcuff	handcuff			5.11	43	0	jbl5	HIDE	DUPE IN SOURCE
@@ -579,17 +579,17 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290883	1586	Tibetan (Balti)	yurba·	yurba·	canal	canal			9.10.2	44	0		D1	
 290884	1586	Tibetan (Balti)	ñimiyoṯ	ñimiyoṯ	sunshine	sunshine			3.2.10	44	0			
 290885	1586	Tibetan (Balti)	mʌya:r	mʌya:r	standard	standard			8.1	44	0			
-290886	1586	Tibetan (Balti)	pya:ða·	pya:ða·	infantry	infantry			5.15	44	0	jbl5	HIDE	DUPE IN SOURCE,b
+290886	1586	Tibetan (Balti)	pya:ða·	pya:ða·	infantry	infantry			5.15	44	0	jbl5	HIDE	DUPE IN SOURCE|b
 290887	1586	Tibetan (Balti)	šyʌqs	šyʌqs	judgement	judgement			6.19	44	0			
 290888	1586	Tibetan (Balti)	ñya·	ñya·	fish	fish			2.2.5	44	0	jbl5	HIDE	DUPE IN SOURCE
 290889	1586	Tibetan (Balti)	rya:sʌṯ	rya:sʌṯ	state	state			8.5.3	44	0			
-290890	1586	Tibetan (Balti)	izʌṯ	izʌṯ	respect	respect			8.3.2.6.1	46	0	jbl5	HIDE	DUPE IN SOURCE,b
+290890	1586	Tibetan (Balti)	izʌṯ	izʌṯ	respect	respect			8.3.2.6.1	46	0	jbl5	HIDE	DUPE IN SOURCE|b
 290891	1586	Tibetan (Balti)	iṯuk	iṯuk	memory	memory			8.3.1.16.1	46	0			
 290892	1586	Tibetan (Balti)	išʌn	išʌn	enough	enough			1.1.3.2	46	0		D1	
 290893	1586	Tibetan (Balti)	ŋispa·	ŋispa·	second	second			9.9	46	0			
 290894	1586	Tibetan (Balti)	ṣcis	ṣcis	counted	counted				46	0			
 290895	1586	Tibetan (Balti)	esʌk	esʌk	other	other			8.1	46	0			
-290896	1586	Tibetan (Balti)	eksʌl	eksʌl	axle	axle				46	0	jbl5	HIDE	DUPE IN SOURCE,b
+290896	1586	Tibetan (Balti)	eksʌl	eksʌl	axle	axle				46	0	jbl5	HIDE	DUPE IN SOURCE|b
 290897	1586	Tibetan (Balti)	eun	eun	those	those			10.4.3.2	46	0	jbl5	HIDE	DUPE IN SOURCE
 290898	1586	Tibetan (Balti)	ŋespa·	ŋespa·	sin	sin			5.8.3.1	46	0		D1	
 290899	1586	Tibetan (Balti)	ṣces	ṣces	danced	danced				46	0			
@@ -610,7 +610,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290914	1586	Tibetan (Balti)	pʰiŋma·	pʰiŋma·	rug	rug			5.11.9.4	47	0			
 290915	1586	Tibetan (Balti)	pʰis	pʰis	clean	clean			6.2.2.5.2	47	0			
 290916	1586	Tibetan (Balti)	sil	sil	shade	shade			3.2.10	47	0	jbl5	HIDE	DUPE IN SOURCE
-290917	1586	Tibetan (Balti)	ba:mir	ba:mir	priest	priest			4.2.4	47	0	jbl5	HIDE	DUPE IN SOURCE,b
+290917	1586	Tibetan (Balti)	ba:mir	ba:mir	priest	priest			4.2.4	47	0	jbl5	HIDE	DUPE IN SOURCE|b
 290918	1586	Tibetan (Balti)	pʰi:ŋma	pʰi:ŋma	get out	get out			1.1.5	47	0			
 290919	1586	Tibetan (Balti)	pʰi:s	pʰi:s	fees	fees				47	0			
 290921	1586	Tibetan (Balti)	zʌmi:r	zʌmi:r	conscience	conscience			1.5.3.2	47	0			
@@ -618,18 +618,18 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290923	1586	Tibetan (Balti)	pipi·	pipi·	breast	breast			1.4.4.3	47	0		D1	3450
 290924	1586	Tibetan (Balti)	bi·	bi·	bird	bird			2.2.4	47	0			2187
 290925	1586	Tibetan (Balti)	bʌrmi·	bʌrmi·	broker	broker			4.2.1	47	0	jbl5	HIDE	DUPE IN SOURCE
-290926	1586	Tibetan (Balti)	ḏo:sṯi·	ḏo:sṯi·	friendship	friendship			8.3.2.1.1	47	0	jbl5	HIDE	DUPE IN SOURCE,b
-290927	1586	Tibetan (Balti)	ka:pi·	ka:pi·	notebook	notebook				47	0	jbl5	HIDE	DUPE IN SOURCE,b
+290926	1586	Tibetan (Balti)	ḏo:sṯi·	ḏo:sṯi·	friendship	friendship			8.3.2.1.1	47	0	jbl5	HIDE	DUPE IN SOURCE|b
+290927	1586	Tibetan (Balti)	ka:pi·	ka:pi·	notebook	notebook				47	0	jbl5	HIDE	DUPE IN SOURCE|b
 290928	1586	Tibetan (Balti)	ace·	ace·	uncle (paternal)	uncle (paternal)			4.7.1	47	0	jbl5	HIDE	DUPE IN SOURCE
 290929	1586	Tibetan (Balti)	pice·	pice·	rat	rat			2.1.1	47	0	jbl5	HIDE	DUPE IN SOURCE
 290930	1586	Tibetan (Balti)	dre·	dre·	ghost	ghost			4.2.12.2	47	0			
-290931	1586	Tibetan (Balti)	bʌŋge·	bʌŋge·	opium	opium			3.1.6.2	47	0	jbl5	HIDE	DUPE IN SOURCE,b
+290931	1586	Tibetan (Balti)	bʌŋge·	bʌŋge·	opium	opium			3.1.6.2	47	0	jbl5	HIDE	DUPE IN SOURCE|b
 290932	1586	Tibetan (Balti)	ḏʌre·	ḏʌre·	now	now			9.1.5	47	0			
 290933	1586	Tibetan (Balti)	kʌŋse·	kʌŋse·	sock	sock				47	0			
 290934	1586	Tibetan (Balti)	pʰʌli·	pʰʌli·	shield	shield			5.15	47	0	jbl5	HIDE	DUPE IN SOURCE
 290935	1586	Tibetan (Balti)	kʰi·	kʰi·	dog	dog			2.1.11	47	0	jbl5	HIDE	DUPE IN SOURCE
 290937	1586	Tibetan (Balti)	usu·	usu·	coriander seed	coriander seed			3.1.6.1	47	0	jbl5	HIDE	DUPE IN SOURCE
-290938	1586	Tibetan (Balti)	pišu·	pišu·	fly	fly			2.2.6	47	0	jbl5	HIDE	DUPE IN SOURCE,b
+290938	1586	Tibetan (Balti)	pišu·	pišu·	fly	fly			2.2.6	47	0	jbl5	HIDE	DUPE IN SOURCE|b
 290939	1586	Tibetan (Balti)	pʰʌlu·	pʰʌlu·	alphabet	alphabet				47	0			
 290940	1586	Tibetan (Balti)	ṯʰu·	ṯʰu·	spitting	spitting			1.8.3	47	0			
 290941	1586	Tibetan (Balti)	tukču·	tukču·	sixty	sixty			9.9	47	0	jbl5	HIDE	DUPE IN SOURCE
@@ -642,13 +642,13 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290948	1586	Tibetan (Balti)	ami:r	ami:r	noble (man)	noble (man)			1.9.6.1	47	0			b
 290949	1586	Tibetan (Balti)	pʰi:ŋma·	pʰi:ŋma·	get out	get out			1.1.5	47	0			
 290950	1586	Tibetan (Balti)	ba:wa:si:r	ba:wa:si:r	piles	piles			6.2.2.1	47	0			b
-290951	1586	Tibetan (Balti)	ba:lti·	ba:lti·	bucket	bucket			5.1	48	0	jbl5	HIDE	DUPE IN SOURCE,b
+290951	1586	Tibetan (Balti)	ba:lti·	ba:lti·	bucket	bucket			5.1	48	0	jbl5	HIDE	DUPE IN SOURCE|b
 290952	1586	Tibetan (Balti)	bʌrmi·	bʌrmi·	broker	broker			4.2.1	48	0		D1	
 290953	1586	Tibetan (Balti)	kisṯi·	kisṯi·	boat	boat			5.1	48	0			b
-290954	1586	Tibetan (Balti)	kursi·	kursi·	chair	chair			5.11.9.4	48	0	jbl5	HIDE	DUPE IN SOURCE,b
+290954	1586	Tibetan (Balti)	kursi·	kursi·	chair	chair			5.11.9.4	48	0	jbl5	HIDE	DUPE IN SOURCE|b
 290955	1586	Tibetan (Balti)	ḏʌlčini·	ḏʌlčini·	cassia leaf	cassia leaf			3.1.1	48	0			b
-290956	1586	Tibetan (Balti)	ḏo:sṯi·	ḏo:sṯi·	friendship	friendship			8.3.2.1.1	48	0	jbl5	HIDE	DUPE IN SOURCE,b
-290957	1586	Tibetan (Balti)	ba:mir	ba:mir	priest	priest			4.2.4	48	0	jbl5	HIDE	DUPE IN SOURCE,b
+290956	1586	Tibetan (Balti)	ḏo:sṯi·	ḏo:sṯi·	friendship	friendship			8.3.2.1.1	48	0	jbl5	HIDE	DUPE IN SOURCE|b
+290957	1586	Tibetan (Balti)	ba:mir	ba:mir	priest	priest			4.2.4	48	0	jbl5	HIDE	DUPE IN SOURCE|b
 290958	1586	Tibetan (Balti)	bʌniyʌn	bʌniyʌn	banian	banian				48	0			
 290959	1586	Tibetan (Balti)	kisṯ	kisṯ	installment	installment				48	0			
 290960	1586	Tibetan (Balti)	kir◦kir	kirkir	circle	circle			9.7.1	48	0			2310,2310
@@ -665,7 +665,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 290971	1586	Tibetan (Balti)	senmo·	senmo·	funny	funny			9.6.1.2	48	0			
 290972	1586	Tibetan (Balti)	zermo·	zermo·	pain	pain			1.1.5.1	48	0	jbl5	HIDE	DUPE IN SOURCE
 290973	1586	Tibetan (Balti)	šel	šel	glass (raw)	glass (raw)			5.11	48	0	jbl5	HIDE	DUPE IN SOURCE
-290974	1586	Tibetan (Balti)	hegmʌṯ	hegmʌṯ	courage	courage				48	0	jbl5	HIDE	DUPE IN SOURCE,b
+290974	1586	Tibetan (Balti)	hegmʌṯ	hegmʌṯ	courage	courage				48	0	jbl5	HIDE	DUPE IN SOURCE|b
 290975	1586	Tibetan (Balti)	čʰos	čʰos	religion	religion			5.8.3.2	48	0			
 290976	1586	Tibetan (Balti)	sorpo:n	sorpo:n	cook	cook			5.5	48	0	jbl5	HIDE	DUPE IN SOURCE
 290977	1586	Tibetan (Balti)	son	son	seed	seed			3.1.4	48	0	jbl5	HIDE	DUPE IN SOURCE
@@ -732,7 +732,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291039	1586	Tibetan (Balti)	lembo·	lembo·	right	right			1.5.3.2	50	0			
 291040	1586	Tibetan (Balti)	re◦wʌq	re◦wʌq	goat-she	goat-she			2.1.8	50	0			6031,m
 291041	1586	Tibetan (Balti)	yelḏʌq	yelḏʌq	branch	branch			1.5.3.1	50	0			
-291042	1586	Tibetan (Balti)	amen	amen	peace	peace			5.8	50	0	jbl5	HIDE	DUPE IN SOURCE,b
+291042	1586	Tibetan (Balti)	amen	amen	peace	peace			5.8	50	0	jbl5	HIDE	DUPE IN SOURCE|b
 291043	1586	Tibetan (Balti)	ama·	ama·	mother	mother			4.7.1	50	0			
 291044	1586	Tibetan (Balti)	ɔma·	ɔma·	curds	curds				50	0	jbl5	HIDE	DUPE IN SOURCE
 291045	1586	Tibetan (Balti)	abrʌq	abrʌq	mica	mica				50	0	jbl5	HIDE	DUPE IN SOURCE
@@ -740,7 +740,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291047	1586	Tibetan (Balti)	pʌtʌq	pʌtʌq	herb	herb			3.1.6.1	50	0	jbl5	HIDE	DUPE IN SOURCE
 291048	1586	Tibetan (Balti)	kʌlʌq	kʌlʌq	clay	clay			3.2.11	50	0	jbl5	HIDE	DUPE IN SOURCE
 291049	1586	Tibetan (Balti)	aphor	aphor	glass	glass			5.11	51	0			
-291050	1586	Tibetan (Balti)	aðʌp	aðʌp	literature	literature				51	0	jbl5	HIDE	DUPE IN SOURCE,b
+291050	1586	Tibetan (Balti)	aðʌp	aðʌp	literature	literature				51	0	jbl5	HIDE	DUPE IN SOURCE|b
 291051	1586	Tibetan (Balti)	ažʌŋ	ažʌŋ	uncle (maternal)	uncle (maternal)			4.7.1	51	0	jbl5	HIDE	DUPE IN SOURCE
 291052	1586	Tibetan (Balti)	kʌrpo·	kʌrpo·	white	white			9.4	51	0			
 291053	1586	Tibetan (Balti)	ḏʌnmo·	ḏʌnmo·	antelope	antelope			2.2.2	51	0	jbl5	HIDE	DUPE IN SOURCE
@@ -751,13 +751,13 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291058	1586	Tibetan (Balti)	aṯa·	aṯa·	father	father			4.7.1	51	0		D1	
 291059	1586	Tibetan (Balti)	purča·	purča·	peg	peg			5.11	51	0	jbl5	HIDE	DUPE IN SOURCE
 291060	1586	Tibetan (Balti)	bila·	bila·	cat	cat			2.1.3	51	0		D1	b?
-291061	1586	Tibetan (Balti)	bucʰa·	bucʰa·	boy	boy			1.9.6.1	51	0	jbl5	HIDE	DUPE IN SOURCE,b
+291061	1586	Tibetan (Balti)	bucʰa·	bucʰa·	boy	boy			1.9.6.1	51	0	jbl5	HIDE	DUPE IN SOURCE|b
 291062	1586	Tibetan (Balti)	ṯuṯpa·	ṯuṯpa·	smoke	smoke			3.2.12.2	51	0		D1	
-291063	1586	Tibetan (Balti)	ima:ṉḏa:r	ima:ṉḏa:r	honest	honest			8.3.3.4.1	51	0	jbl5	HIDE	DUPE IN SOURCE,b
+291063	1586	Tibetan (Balti)	ima:ṉḏa:r	ima:ṉḏa:r	honest	honest			8.3.3.4.1	51	0	jbl5	HIDE	DUPE IN SOURCE|b
 291064	1586	Tibetan (Balti)	imṯiha:n	imṯiha:n	examination	examination			6.2	51	0			b
 291065	1586	Tibetan (Balti)	usṯa:ṯ	usṯa:ṯ	master	master			4.2.5.1	51	0		D1	
 291066	1586	Tibetan (Balti)	ɛla:č	ɛla:č	remedy	remedy			5.4	51	0		D1	
-291067	1586	Tibetan (Balti)	pa:ca·	pa:ca·	king	king			4.2.5	51	0	jbl5	HIDE	DUPE IN SOURCE,b
+291067	1586	Tibetan (Balti)	pa:ca·	pa:ca·	king	king			4.2.5	51	0	jbl5	HIDE	DUPE IN SOURCE|b
 291068	1586	Tibetan (Balti)	ba:mir	ba:mir	priest	priest			4.2.4	51	0		D1	b
 291069	1586	Tibetan (Balti)	bʌrga·	bʌrga·	sometimes	sometimes			9.1.5	51	0			
 291070	1586	Tibetan (Balti)	brʌqčʰa·	brʌqčʰa·	echo	echo			9.3	51	0	jbl5	HIDE	DUPE IN SOURCE
@@ -790,7 +790,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291097	1586	Tibetan (Balti)	kučur	kučur	latch	latch			5.11.9	52	0			
 291099	1586	Tibetan (Balti)	tu:p	tu:p	tube	tube				52	0	jbl5	HIDE	DUPE IN SOURCE
 291100	1586	Tibetan (Balti)	ǰulu:s	ǰulu:s	second (wife)	second (wife)			9.9	52	0			b
-291101	1586	Tibetan (Balti)	ṯʌmbu:r	ṯʌmbu:r	tambura	tambura				52	0	jbl5	HIDE	DUPE IN SOURCE,b
+291101	1586	Tibetan (Balti)	ṯʌmbu:r	ṯʌmbu:r	tambura	tambura				52	0	jbl5	HIDE	DUPE IN SOURCE|b
 291102	1586	Tibetan (Balti)	kosu:rwa:r	kosu:rwa:r	guilty	guilty			8.3.3.6.1	52	0			
 291105	1586	Tibetan (Balti)	rgu·	rgu·	nine	nine			9.9	52	0			2364
 291106	1586	Tibetan (Balti)	zgru·	zgru·	hunchback	hunchback			1.4.8.3	52	0		D1	
@@ -818,7 +818,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291128	1586	Tibetan (Balti)	usu·	usu·	coriander seed	coriander seed			3.1.6.1	53	0		D1	
 291129	1586	Tibetan (Balti)	aŋga:ru·	aŋga:ru·	Tuesday	Tuesday			9.1.3	53	0			b
 291130	1586	Tibetan (Balti)	alu·	alu·	potato	potato			3.1.5	53	0			b
-291131	1586	Tibetan (Balti)	pišu·	pišu·	fly	fly			2.2.6	53	0	jbl5	HIDE	DUPE IN SOURCE,b
+291131	1586	Tibetan (Balti)	pišu·	pišu·	fly	fly			2.2.6	53	0	jbl5	HIDE	DUPE IN SOURCE|b
 291132	1586	Tibetan (Balti)	pʌqbu·	pʌqbu·	brick	brick			5.11.9.3	53	0			
 291133	1586	Tibetan (Balti)	bo:ŋ◦bu·	bo:ŋbu·	donkey	donkey			2.1.7	53	0			1432,m
 291134	1586	Tibetan (Balti)	kurḏo:s	kurḏo:s	lock	lock			1.2.3	53	0			
@@ -841,7 +841,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291152	1586	Tibetan (Balti)	ṯʌsma·	ṯʌsma·	lace	lace				53	0	jbl5	HIDE	DUPE IN SOURCE
 291153	1586	Tibetan (Balti)	ḏʌzgro:m	ḏʌzgro:m	quiver	quiver			6.7.4	53	0	jbl5	HIDE	DUPE IN SOURCE
 291154	1586	Tibetan (Balti)	soba·	soba·	province	province			9.10.3	53	0			
-291155	1586	Tibetan (Balti)	boṯʌl	boṯʌl	bottle	bottle			5.1	53	0	jbl5	HIDE	DUPE IN SOURCE,b
+291155	1586	Tibetan (Balti)	boṯʌl	boṯʌl	bottle	bottle			5.1	53	0	jbl5	HIDE	DUPE IN SOURCE|b
 291156	1586	Tibetan (Balti)	ṯoŋ	ṯoŋ	give	give			6.23	53	0	jbl5	HIDE	DUPE IN SOURCE
 291157	1586	Tibetan (Balti)	ḏoq◦mo·	ḏoqmo·	narrow	narrow			9.7.2	53	0			5728,s
 291158	1586	Tibetan (Balti)	ḏozʌq	ḏozʌq	hell	hell			5.8.4	53	0		D1	
@@ -849,7 +849,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291160	1586	Tibetan (Balti)	bo:ðu·	bo:ðu·	Wednesday	Wednesday			9.1.3	53	0			b
 291161	1586	Tibetan (Balti)	bo:spa·	bo:spa·	cries (various)	cries (various)			8.5.2.1	53	0			
 291162	1586	Tibetan (Balti)	ṯo:p	ṯo:p	cannon	cannon			5.15	53	0	jbl5	HIDE	DUPE IN SOURCE
-291163	1586	Tibetan (Balti)	ḏo:sṯi·	ḏo:sṯi·	friendship	friendship			8.3.2.1.1	53	0	jbl5	HIDE	DUPE IN SOURCE,b
+291163	1586	Tibetan (Balti)	ḏo:sṯi·	ḏo:sṯi·	friendship	friendship			8.3.2.1.1	53	0	jbl5	HIDE	DUPE IN SOURCE|b
 291164	1586	Tibetan (Balti)	ḏo:ra:n	ḏo:ra:n	during	during			10.1	53	0			b
 291165	1586	Tibetan (Balti)	ḏʌnmo·	ḏʌnmo·	antelope	antelope			2.2.2	54	0		D1	
 291166	1586	Tibetan (Balti)	ḏremo·	ḏremo·	demon	demon			4.2.12.2	54	0			
@@ -888,7 +888,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291199	1586	Tibetan (Balti)	pisṯo:l	pisṯo:l	piston	piston				55	0			
 291200	1586	Tibetan (Balti)	puks◦mo·	puksmo·	knee	knee			1.5.8.4	55	0			
 291201	1586	Tibetan (Balti)	pʌŋkʰa·	pʌŋkʰa·	fan	fan			5.4	55	0		D1	
-291202	1586	Tibetan (Balti)	pya:ða·	pya:ða·	infantry	infantry			5.15	55	0	jbl5	HIDE	DUPE IN SOURCE,b
+291202	1586	Tibetan (Balti)	pya:ða·	pya:ða·	infantry	infantry			5.15	55	0	jbl5	HIDE	DUPE IN SOURCE|b
 291203	1586	Tibetan (Balti)	pʌri·	pʌri·	kind of wooden vessel	kind of wooden vessel			8.3.3.2.1	55	0		D1	
 291205	1586	Tibetan (Balti)	pʰukma·	pʰukma·	straw	straw			3.1.6.2	55	0	jbl5	HIDE	DUPE IN SOURCE
 291206	1586	Tibetan (Balti)	pʰoso·	pʰoso·	pride	pride			1.5.3.2	55	0	jbl5	HIDE	DUPE IN SOURCE
@@ -958,7 +958,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291270	1586	Tibetan (Balti)	pʰuṯums	pʰuṯums	sleeve	sleeve			5.11.8.2.3	57	0		D1	
 291271	1586	Tibetan (Balti)	aṯir	aṯir	scent	scent			7.1.4.5	57	0			
 291272	1586	Tibetan (Balti)	aṯʌma·	aṯʌma·	parents	parents			4.7.1	57	0		D1	
-291273	1586	Tibetan (Balti)	ba:ðem	ba:ðem	almond	almond				57	0	jbl5	HIDE	DUPE IN SOURCE,b
+291273	1586	Tibetan (Balti)	ba:ðem	ba:ðem	almond	almond				57	0	jbl5	HIDE	DUPE IN SOURCE|b
 291274	1586	Tibetan (Balti)	pya:ða·	pya:ða·	infantry	infantry			5.15	57	0		D1	b
 291275	1586	Tibetan (Balti)	aða:lʌṯ	aða:lʌṯ	court (criminal)	court (criminal)			5.8	57	0			b
 291276	1586	Tibetan (Balti)	aðʌp	aðʌp	literature	literature				57	0		D1	b
@@ -990,7 +990,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291304	1586	Tibetan (Balti)	tilbu·	tilbu·	anklet	anklet			5.11.8.3	58	0		D1	
 291305	1586	Tibetan (Balti)	tulu·	tulu·	ornament (ear)	ornament (ear)			5.8	58	0			
 291306	1586	Tibetan (Balti)	cʰotok	cʰotok	island	island			3.2.5	58	0	jbl5	HIDE	DUPE IN SOURCE
-291307	1586	Tibetan (Balti)	gʌnta·	gʌnta·	hour	hour			9.1.4	58	0	jbl5	HIDE	DUPE IN SOURCE,b
+291307	1586	Tibetan (Balti)	gʌnta·	gʌnta·	hour	hour			9.1.4	58	0	jbl5	HIDE	DUPE IN SOURCE|b
 291308	1586	Tibetan (Balti)	čʰʌnti·	čʰʌnti·	short	short			9.7.2	58	0			
 291309	1586	Tibetan (Balti)	tʌŋkuŋ	tʌŋkuŋ	bow	bow			5.15	58	0		D1	
 291310	1586	Tibetan (Balti)	dulba·	dulba·	march	march			9.1.2	58	0	jbl5	HIDE	DUPE IN SOURCE
@@ -1051,7 +1051,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291370	1586	Tibetan (Balti)	ṯʌqriŋs	ṯʌqriŋs	far	far			9.2.4	60	0			
 291371	1586	Tibetan (Balti)	ṯuru·	ṯuru·	spindle	spindle			5.1	60	0	jbl5	HIDE	DUPE IN SOURCE
 291372	1586	Tibetan (Balti)	ṯurbʌps	ṯurbʌps	slope	slope			3.2.5	60	0		D1	
-291373	1586	Tibetan (Balti)	ṯʌhʌṯ	ṯʌhʌṯ	throne	throne				60	0	jbl5	HIDE	DUPE IN SOURCE,b
+291373	1586	Tibetan (Balti)	ṯʌhʌṯ	ṯʌhʌṯ	throne	throne				60	0	jbl5	HIDE	DUPE IN SOURCE|b
 291374	1586	Tibetan (Balti)	dim	dim	trunk (of tree)	trunk (of tree)			1.4.1	60	0			
 291375	1586	Tibetan (Balti)	dʌqčuŋ	dʌqčuŋ	beans	beans			3.1.4	60	0	jbl5	HIDE	DUPE IN SOURCE
 291376	1586	Tibetan (Balti)	dra:ma·	dra:ma·	drama	drama			5.8	60	0			b
@@ -1099,20 +1099,20 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291419	1586	Tibetan (Balti)	ka:fir	ka:fir	atheist	atheist				62	0			b
 291420	1586	Tibetan (Balti)	cʰiks	cʰiks	joint	joint			1.5.8	62	0	jbl5	HIDE	DUPE IN SOURCE
 291421	1586	Tibetan (Balti)	zḏikpa·	zḏikpa·	innocent	innocent			9.6.3	62	0			
-291422	1586	Tibetan (Balti)	qʌbza·	qʌbza·	hinge	hinge			5.11.9	62	0	jbl5	HIDE	DUPE IN SOURCE,b
-291423	1586	Tibetan (Balti)	qʌlʌm	qʌlʌm	pen	pen			5.1	62	0	jbl5	HIDE	DUPE IN SOURCE,b
-291424	1586	Tibetan (Balti)	qa:ṯil	qa:ṯil	murderer	murderer			6.4	62	0	jbl5	HIDE	DUPE IN SOURCE,b
+291422	1586	Tibetan (Balti)	qʌbza·	qʌbza·	hinge	hinge			5.11.9	62	0	jbl5	HIDE	DUPE IN SOURCE|b
+291423	1586	Tibetan (Balti)	qʌlʌm	qʌlʌm	pen	pen			5.1	62	0	jbl5	HIDE	DUPE IN SOURCE|b
+291424	1586	Tibetan (Balti)	qa:ṯil	qa:ṯil	murderer	murderer			6.4	62	0	jbl5	HIDE	DUPE IN SOURCE|b
 291425	1586	Tibetan (Balti)	ṯʰʌqpa·	ṯʰʌqpa·	rope	rope			5.11.4	62	0	jbl5	HIDE	DUPE IN SOURCE
 291426	1586	Tibetan (Balti)	coqs	coqs	like	like			8.3.1.1.1	62	0		D1	
 291427	1586	Tibetan (Balti)	kʌqpa·	kʌqpa·	imprisonment	imprisonment			5.11.9.1	62	0	jbl5	HIDE	DUPE IN SOURCE
 291428	1586	Tibetan (Balti)	kornʌq	kornʌq	oilcake	oilcake				62	0			
 291429	1586	Tibetan (Balti)	kʌska·	kʌska·	ladder	ladder			5.4	62	0			
-291430	1586	Tibetan (Balti)	sʌrka:r	sʌrka:r	government	government			5.8	62	0	jbl5	HIDE	DUPE IN SOURCE,b
+291430	1586	Tibetan (Balti)	sʌrka:r	sʌrka:r	government	government			5.8	62	0	jbl5	HIDE	DUPE IN SOURCE|b
 291431	1586	Tibetan (Balti)	anika·	anika·	loudly	loudly			9.3	62	0			
 291432	1586	Tibetan (Balti)	x̣orma·	x̣orma·	datepalm	datepalm				62	0	jbl5	HIDE	DUPE IN SOURCE
 291433	1586	Tibetan (Balti)	x̣ʌšx̣ʌš	x̣ʌšx̣ʌš	arum	arum			3.1.8	62	0		D1	
 291434	1586	Tibetan (Balti)	x̣ɔ	x̣ɔ	bitter	bitter			7.1.4.4	62	0			229
-291435	1586	Tibetan (Balti)	box̣a:r	box̣a:r	fever	fever			1.1.5.1	62	0	jbl5	HIDE	DUPE IN SOURCE,b
+291435	1586	Tibetan (Balti)	box̣a:r	box̣a:r	fever	fever			1.1.5.1	62	0	jbl5	HIDE	DUPE IN SOURCE|b
 291436	1586	Tibetan (Balti)	x̣ʌrx̣ʌtu·	x̣ʌrx̣ʌtu·	ant	ant			2.2.6	62	0	jbl5	HIDE	DUPE IN SOURCE
 291437	1586	Tibetan (Balti)	ax̣on	ax̣on	preceptor	preceptor			4.2.2	62	0	jbl5	HIDE	DUPE IN SOURCE
 291438	1586	Tibetan (Balti)	kʌpša·	kʌpša·	shoe	shoe			5.11.8.1	62	0		D1	
@@ -1130,10 +1130,10 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291450	1586	Tibetan (Balti)	sʌrka:r	sʌrka:r	government	government			5.8	63	0		D1	b
 291451	1586	Tibetan (Balti)	ha·	ha·	yawn	yawn			1.3.1.3	63	0	jbl5	HIDE	DUPE IN SOURCE
 291452	1586	Tibetan (Balti)	hʌq	hʌq	truth	truth			8.3.2.5.7	63	0			b
-291453	1586	Tibetan (Balti)	hʌmla·	hʌmla·	attack	attack			6.5	63	0	jbl5	HIDE	DUPE IN SOURCE,b
+291453	1586	Tibetan (Balti)	hʌmla·	hʌmla·	attack	attack			6.5	63	0	jbl5	HIDE	DUPE IN SOURCE|b
 291454	1586	Tibetan (Balti)	lehmo·	lehmo·	right	right			1.5.3.2	63	0	jbl5	HIDE	DUPE IN SOURCE
 291455	1586	Tibetan (Balti)	sihʌṯ	sihʌṯ	health	health				63	0			
-291456	1586	Tibetan (Balti)	sʌrhʌṯ	sʌrhʌṯ	boundary	boundary			9.2.7	63	0	jbl5	HIDE	DUPE IN SOURCE,b
+291456	1586	Tibetan (Balti)	sʌrhʌṯ	sʌrhʌṯ	boundary	boundary			9.2.7	63	0	jbl5	HIDE	DUPE IN SOURCE|b
 291457	1586	Tibetan (Balti)	go·	go·	head	head			1.2.1	63	0	jbl5	HIDE	DUPE IN SOURCE
 291459	1586	Tibetan (Balti)	gri·	gri·	knife	knife			5.5	63	0			2247
 291460	1586	Tibetan (Balti)	dyʌŋgu·	dyʌŋgu·	pandal	pandal				63	0			
@@ -1148,9 +1148,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291469	1586	Tibetan (Balti)	ga:m	ga:m	village	village			5.8	63	0			b
 291470	1586	Tibetan (Balti)	žʌga·	žʌga·	daily	daily			9.1.3	63	0			
 291471	1586	Tibetan (Balti)	berga·	berga·	stick	stick			3.1.2	63	0			
-291472	1586	Tibetan (Balti)	qʌlʌm	qʌlʌm	pen	pen			5.1	63	0	jbl5	HIDE	DUPE IN SOURCE,b
+291472	1586	Tibetan (Balti)	qʌlʌm	qʌlʌm	pen	pen			5.1	63	0	jbl5	HIDE	DUPE IN SOURCE|b
 291473	1586	Tibetan (Balti)	qa:r	qa:r	blanket	blanket			5.11.9.4	63	0	jbl5	HIDE	DUPE IN SOURCE
-291474	1586	Tibetan (Balti)	qo:m	qo:m	nation	nation			5.8	63	0	jbl5	HIDE	DUPE IN SOURCE,b
+291474	1586	Tibetan (Balti)	qo:m	qo:m	nation	nation			5.8	63	0	jbl5	HIDE	DUPE IN SOURCE|b
 291475	1586	Tibetan (Balti)	niqa:p	niqa:p	veil	veil			5.11.8.2.1.1	63	0	jbl5	HIDE	DUPE IN SOURCE
 291476	1586	Tibetan (Balti)	dʌrqa:s	dʌrqa:s	petition	petition			6.19	63	0			
 291477	1586	Tibetan (Balti)	goma·	goma·	first	first			9.9	64	0			
@@ -1159,7 +1159,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291480	1586	Tibetan (Balti)	gonpa·	gonpa·	temple (Buddhist)	temple (Buddhist)			1.2.5.1	64	0			
 291481	1586	Tibetan (Balti)	x̣orma·	x̣orma·	datepalm	datepalm				64	0	jbl5	HIDE	DUPE IN SOURCE
 291482	1586	Tibetan (Balti)	x̣o·	x̣o·	bitter	bitter			7.1.4.4	64	0	jbl5	HIDE	DUPE IN SOURCE
-291483	1586	Tibetan (Balti)	x̣ʌčʌr	x̣ʌčʌr	mule	mule			2.1.7	64	0	jbl5	HIDE	DUPE IN SOURCE,b
+291483	1586	Tibetan (Balti)	x̣ʌčʌr	x̣ʌčʌr	mule	mule			2.1.7	64	0	jbl5	HIDE	DUPE IN SOURCE|b
 291484	1586	Tibetan (Balti)	x̣ombu·	x̣ombu·	deep	deep			7.1.5.3	64	0			
 291485	1586	Tibetan (Balti)	bux̣o·	bux̣o·	cave	cave			3.2.7	64	0			
 291486	1586	Tibetan (Balti)	ga·	ga·	which	which			10.5.3	64	0			
@@ -1176,12 +1176,12 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291497	1586	Tibetan (Balti)	goṉḏa·	goṉḏa·	kind of cap made up of skin	kind of cap made up of skin			10.1.1	64	0			
 291498	1586	Tibetan (Balti)	goṯ	goṯ	loss	loss			6.10.1	64	0		D1	
 291499	1586	Tibetan (Balti)	gʌmla·	gʌmla·	pot (for plant)	pot (for plant)			5.5	64	0			
-291500	1586	Tibetan (Balti)	gʌnti·	gʌnti·	bell	bell			5.1	64	0	jbl5	HIDE	DUPE IN SOURCE,b
+291500	1586	Tibetan (Balti)	gʌnti·	gʌnti·	bell	bell			5.1	64	0	jbl5	HIDE	DUPE IN SOURCE|b
 291501	1586	Tibetan (Balti)	ciga·	ciga·	someone	to someone	v		4.1	64	0	dwb20		
 291502	1586	Tibetan (Balti)	hegmʌṯ	hegmʌṯ	courage	courage				64	0		D1	b
 291503	1586	Tibetan (Balti)	hendʌq	hendʌq	terrace	terrace			3.2.5	64	0			
 291504	1586	Tibetan (Balti)	hʌṯkʌṛi·	hʌṯkʌṛi·	handcuff	handcuff			5.11	64	0	jbl5	HIDE	DUPE IN SOURCE
-291505	1586	Tibetan (Balti)	hʌmla·	hʌmla·	attack	attack			6.5	64	0	jbl5	HIDE	DUPE IN SOURCE,b
+291505	1586	Tibetan (Balti)	hʌmla·	hʌmla·	attack	attack			6.5	64	0	jbl5	HIDE	DUPE IN SOURCE|b
 291506	1586	Tibetan (Balti)	hʌndʌŋ	hʌndʌŋ	dumb	dumb			8.5.4.4	64	0			
 291507	1586	Tibetan (Balti)	biha·	biha·	locust	locust			2.2.6	64	0		D1	
 291508	1586	Tibetan (Balti)	lehmo·	lehmo·	right	right			1.5.3.2	64	0	jbl5	HIDE	DUPE IN SOURCE
@@ -1190,7 +1190,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291511	1586	Tibetan (Balti)	kʰʌr	kʰʌr	palace	palace			5.11.9.1	65	0		D1	
 291512	1586	Tibetan (Balti)	berkʰa·	berkʰa·	stick	stick			3.1.2	65	0		D1	
 291513	1586	Tibetan (Balti)	tikʰa·	tikʰa·	contract	contract				65	0		D1	
-291514	1586	Tibetan (Balti)	qʌbza·	qʌbza·	hinge	hinge			5.11.9	65	0	jbl5	HIDE	DUPE IN SOURCE,b
+291514	1586	Tibetan (Balti)	qʌbza·	qʌbza·	hinge	hinge			5.11.9	65	0	jbl5	HIDE	DUPE IN SOURCE|b
 291515	1586	Tibetan (Balti)	qa:ṯil	qa:ṯil	murderer	murderer			6.4	65	0		D1	b
 291516	1586	Tibetan (Balti)	qa:r	qa:r	blanket	blanket			5.11.9.4	65	0	jbl5	HIDE	DUPE IN SOURCE
 291517	1586	Tibetan (Balti)	ḏʌrqa:s	ḏʌrqa:s	petition	petition			6.19	65	0			
@@ -1202,7 +1202,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291523	1586	Tibetan (Balti)	x̣o·	x̣o·	bitter	bitter			7.1.4.4	65	0	jbl5	HIDE	DUPE IN SOURCE
 291524	1586	Tibetan (Balti)	x̣otu·	x̣otu·	hut	hut			5.11.9.1	65	0			
 291525	1586	Tibetan (Balti)	x̣ʌrča·	x̣ʌrča·	allowance	allowance				65	0			
-291526	1586	Tibetan (Balti)	box̣a:r	box̣a:r	fever	fever			1.1.5.1	65	0	jbl5	HIDE	DUPE IN SOURCE,b
+291526	1586	Tibetan (Balti)	box̣a:r	box̣a:r	fever	fever			1.1.5.1	65	0	jbl5	HIDE	DUPE IN SOURCE|b
 291527	1586	Tibetan (Balti)	ax̣on	ax̣on	preceptor	preceptor			4.2.2	65	0		D1	
 291528	1586	Tibetan (Balti)	kʰiri·	kʰiri·	your	your			4.1	65	0		D1	
 291529	1586	Tibetan (Balti)	kʰon	kʰon	enmity	enmity			8.3.1.1.2	65	0			
@@ -1251,7 +1251,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291573	1586	Tibetan (Balti)	kʌlwa:yi·	kʌlwa:yi·	confectioner	confectioner				66	0			b
 291574	1586	Tibetan (Balti)	ha:r	ha:r	garland	garland			5.8	66	0			
 291575	1586	Tibetan (Balti)	lehmo·	lehmo·	right	right			1.5.3.2	66	0		D1	
-291576	1586	Tibetan (Balti)	sʌrhʌṯ	sʌrhʌṯ	boundary	boundary			9.2.7	66	0	jbl5	HIDE	DUPE IN SOURCE,b
+291576	1586	Tibetan (Balti)	sʌrhʌṯ	sʌrhʌṯ	boundary	boundary			9.2.7	66	0	jbl5	HIDE	DUPE IN SOURCE|b
 291577	1586	Tibetan (Balti)	biha:	biha:	locust	locust			2.2.6	66	0			
 291578	1586	Tibetan (Balti)	cele·	cele·	kind of insect	kind of insect			8.3.3.2.1	67	0			
 291579	1586	Tibetan (Balti)	coŋ	coŋ	onion	onion			3.1.5	67	0		D1	141
@@ -1263,7 +1263,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291585	1586	Tibetan (Balti)	cʰoŋ	cʰoŋ	trade	trade			6.2.2.1	67	0			
 291586	1586	Tibetan (Balti)	cʰonma·	cʰonma·	vegetable	vegetable			3.1.2	67	0	jbl5	HIDE	DUPE IN SOURCE
 291587	1586	Tibetan (Balti)	acʰe·	acʰe·	wife's elder brother	wifeÕs elder brother			1.5.3.2	67	0			
-291588	1586	Tibetan (Balti)	bucʰa·	bucʰa·	boy	boy			1.9.6.1	67	0	jbl5	HIDE	DUPE IN SOURCE,b
+291588	1586	Tibetan (Balti)	bucʰa·	bucʰa·	boy	boy			1.9.6.1	67	0	jbl5	HIDE	DUPE IN SOURCE|b
 291589	1586	Tibetan (Balti)	ŋʌlcʰua·	ŋʌlcʰua·	rest	rest			1.1.4.1	67	0	jbl5	HIDE	DUPE IN SOURCE
 291590	1586	Tibetan (Balti)	cʌqpa·	cʌqpa·	till	till			3.1.10	67	0	jbl5	HIDE	DUPE IN SOURCE
 291591	1586	Tibetan (Balti)	cukse·	cukse·	putting (something on the floor)	putting (something on the floor)			6.17	67	0			
@@ -1276,8 +1276,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291598	1586	Tibetan (Balti)	ceroq	ceroq	suspicion	suspicion				67	0	jbl5	HIDE	DUPE IN SOURCE
 291599	1586	Tibetan (Balti)	cʌṉḏʌn	cʌṉḏʌn	sandal	sandal			5.11.8.1	67	0	jbl5	HIDE	DUPE IN SOURCE
 291600	1586	Tibetan (Balti)	kucu:r	kucu:r	latch	latch			5.11.9	67	0		D1	
-291601	1586	Tibetan (Balti)	ǰernʌl	ǰernʌl	general	general			10.4.1.1	67	0	jbl5	HIDE	DUPE IN SOURCE,b
-291602	1586	Tibetan (Balti)	ǰunup	ǰunup	south	south			9.2.8	67	0	jbl5	HIDE	DUPE IN SOURCE,b
+291601	1586	Tibetan (Balti)	ǰernʌl	ǰernʌl	general	general			10.4.1.1	67	0	jbl5	HIDE	DUPE IN SOURCE|b
+291602	1586	Tibetan (Balti)	ǰunup	ǰunup	south	south			9.2.8	67	0	jbl5	HIDE	DUPE IN SOURCE|b
 291603	1586	Tibetan (Balti)	ǰʌnda·	ǰʌnda·	flag	flag			5.1	67	0			b
 291604	1586	Tibetan (Balti)	ka:ǰu	ka:ǰu	cashewnut	cashewnut				67	0			b
 291605	1586	Tibetan (Balti)	rʌǰʌp	rʌǰʌp	birthday of Hazarat Ali	birthday of Hazarat Ali			1.1.2	67	0			b
@@ -1330,7 +1330,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291653	1586	Tibetan (Balti)	cʰʌn	cʰʌn	night	night			9.1.4	69	0			
 291654	1586	Tibetan (Balti)	cʰele·	cʰele·	hut	hut			5.11.9.1	69	0		D1	
 291655	1586	Tibetan (Balti)	ǰo:š	ǰo:š	spirit	spirit			5.8.1.1	69	0		D1	b
-291656	1586	Tibetan (Balti)	ǰʌngi·	ǰʌngi·	mosquito	mosquito			2.2.6	69	0	jbl5	HIDE	DUPE IN SOURCE,b
+291656	1586	Tibetan (Balti)	ǰʌngi·	ǰʌngi·	mosquito	mosquito			2.2.6	69	0	jbl5	HIDE	DUPE IN SOURCE|b
 291657	1586	Tibetan (Balti)	ǰernʌl	ǰernʌl	general	general			10.4.1.1	69	0		D1	b
 291658	1586	Tibetan (Balti)	cʰʌŋʌya·	cʰʌŋʌya·	twin	twin			4.7.2	70	0			
 291659	1586	Tibetan (Balti)	čʰucʰik	čʰucʰik	drought	drought			3.2.3	70	0		D1	
@@ -1420,7 +1420,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 291744	1586	Tibetan (Balti)	ša·	ša·	meat	meat			1.1.1.1	72	0	jbl5	HIDE	DUPE IN SOURCE
 291745	1586	Tibetan (Balti)	serpo·	serpo·	yellow	yellow			9.4	73	0			
 291746	1586	Tibetan (Balti)	solba·	solba·	coal	coal			3.2.4	73	0		D1	
-291747	1586	Tibetan (Balti)	pensil	pensil	pencil	pencil			5.1	73	0			bEnglish,b
+291747	1586	Tibetan (Balti)	pensil	pensil	pencil	pencil			5.1	73	0			b|bEnglish
 291748	1586	Tibetan (Balti)	pʰoso·	pʰoso·	pride	pride			1.5.3.2	73	0		D1	
 291749	1586	Tibetan (Balti)	šerpa·	šerpa·	wet	wet			6.6	73	0			
 291750	1586	Tibetan (Balti)	šorba·	šorba·	soup	soup			5.5	73	0		D1	

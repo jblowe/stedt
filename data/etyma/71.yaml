@@ -20,20 +20,28 @@ mesoroots:
   group: '1.2'
   form: hriŋ-I, hrin-II
   gloss: GREEN / ALIVE / FRESH
+  source: 'PKC #1085'
+  old_tag: 5085
 - grpid: 66
   group: 1.3.4
   form: hriŋ
   gloss: ALIVE
+  source: DRM#487
+  old_tag: 6895
 - grpid: 12
   group: 1.7.2
   form: criŋ
   gloss: ALIVE
   variant: a
+  source: WTF-PNN:449
+  old_tag: 7192
 - grpid: 12
   group: 1.7.2
   form: C-raŋ
   gloss: ALIVE
   variant: b
+  source: WTF-PNN:449
+  old_tag: 7194
 - grpid: 29
   group: '2.3'
   form: hiŋ-

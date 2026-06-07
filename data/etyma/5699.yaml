@@ -11,10 +11,14 @@ mesoroots:
   group: '1.2'
   form: hŋaak-I, hŋaʔ-II
   gloss: WAIT
+  source: 'PKC #917'
+  old_tag: 4917
 - grpid: 66
   group: 1.3.4
   form: ŋɐk
   gloss: WAIT
+  source: DRM#778
+  old_tag: 7156
 notes:
 - type: I
   text: '<par>transcription doesn&apos;t conform to PTB inventory: recommend <latinform>*s-ŋaː-k</latinform></par>'

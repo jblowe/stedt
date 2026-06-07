@@ -11,7 +11,11 @@ mesoroots:
   group: 1.7.2
   form: ley
   gloss: BE
+  source: WTF pp.454-5
+  old_tag: 1903
 - grpid: 66
   group: 1.3.4
   form: lej
   gloss: BE / EXIST / HAVE
+  source: DRM#397
+  old_tag: 6810

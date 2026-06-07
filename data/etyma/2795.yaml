@@ -20,11 +20,15 @@ mesoroots:
   form: yun
   gloss: URINE
   variant: b
+  source: 'PKC #1245'
+  old_tag: 5245
 - grpid: 8
   group: '1.2'
   form: yut ⪤ yun
   gloss: LEAK / RUN OUT
   variant: a
+  source: 'PKC #1213'
+  old_tag: 5213
 notes:
 - type: T
   text: <par>This root is very well established. The labial prefix is attested in Kuki-Chin, and is possibly

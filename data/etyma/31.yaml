@@ -21,18 +21,26 @@ mesoroots:
   group: '1.2'
   form: mit
   gloss: GO OUT (light) / EXTINGUISH
+  source: 'PKC #768'
+  old_tag: 4768
 - grpid: 66
   group: 1.3.4
   form: met
   gloss: SQUEEZE / EXTINGUISH
+  source: DRM#542
+  old_tag: 6947
 - grpid: 5
   group: 1.1.1
   form: mit
   gloss: EXTINGUISH / EXTINGUISHED
+  source: JS-HCST: 205
+  old_tag: 6458
 - grpid: 63
   group: 1.3.1
   form: hmət
   gloss: EXTINGUISH / BLOW
+  source: 'PCN #189'
+  old_tag: 7736
 notes:
 - type: T
   text: '<par>Chinese character. STC #374; Matisoff 1983 (&quot;Translucent insights&quot;) #59; GSR 294b.</par>'

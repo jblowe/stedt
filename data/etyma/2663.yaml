@@ -20,18 +20,26 @@ mesoroots:
   group: 1.3.4
   form: lej
   gloss: SQUIRREL
+  source: DRM#408
+  old_tag: 6821
 - grpid: 50
   group: '7'
   form: hliᴮ
   gloss: SQUIRREL
+  source: TL#276
+  old_tag: 7480
 - grpid: 8
   group: '1.2'
   form: yu-lay
   gloss: SQUIRREL
+  source: 'PKC #1053'
+  old_tag: 5053
 - grpid: 8
   group: '1.2'
   form: thia-hlay
   gloss: SQUIRREL
+  source: 'PKC #413'
+  old_tag: 4413
 notes:
 - type: T
   text: <par>The unusual <latinform>*-y</latinform> ⪤ <latinform>*-ŋ</latinform> alternation in coda may

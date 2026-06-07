@@ -18,14 +18,20 @@ mesoroots:
   group: 1.3.4
   form: han
   gloss: CURRY / GREEN VEGETABLE
+  source: DRM#459
+  old_tag: 6870
 - grpid: 63
   group: 1.3.1
   form: a-haːn
   gloss: CURRY
+  source: 'PCN #164'
+  old_tag: 7711
 - grpid: 8
   group: '1.2'
   form: ʔan
   gloss: VEGETABLES / PLANT (edible)
+  source: 'PKC #516'
+  old_tag: 4516
 notes:
 - type: T
   text: <par>For a phonosemantically similar root, see <xref ref="3527">#3527</xref>.</par>

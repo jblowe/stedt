@@ -908,7 +908,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 77179	168	*Sino-Tibetan	gwljiang	gwljiang	long / stretch	long / stretch			9.7.2	105	0			
 77180	168	*Sino-Tibetan	ring	ring	long / stretch	long / stretch			9.7.2	105	0			1011
 77181	168	*Sino-Tibetan	mak	mak	long for / wish	long for / wish			9.7.2	105	0			
-77182	168	*Sino-Tibetan	hl+|ot/|l+|ot/|lot	hl+ot/l+ot/lot	loose / free / take off	loose / free / take off			6.13.1	105	0			2543,2425
+77182	168	*Sino-Tibetan	hl+|ot/|l+|ot/|lot	hl+ot/l+ot/lot	loose / free / take off	loose / free / take off			6.13.1	105	0			2425|2543
 77183	168	*Sino-Tibetan	pjang	pjang	loosen / release / throw	loosen / release / throw			6.13.1	106	0			
 77184	168	*Sino-Tibetan	sryik	sryik	louse	louse			2.2.6	106	0			
 77185	100	"""Pre-Chinese"""	srjik	srjik	louse	louse			2.2.6	106	0			
@@ -941,9 +941,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 77221	168	*Sino-Tibetan	r+ngjap	r+ngjap	mow	mow	v.		6.9.4	111	0			5815
 77224	168	*Sino-Tibetan	mying	mying	name	name			5.8	111	0			2450
 77225	168	*Sino-Tibetan	nyɨy	nyɨy	near	near			9.2.3	111	0			2496
-77226	168	*Sino-Tibetan	kul~gul	kul~gul	neck	neck			1.4.2	112	0			496,2032,496
-77227	478	Chinese (Old)	kenx	kenx	neck	neck			1.4.2	112	0			496,2032
-77228	468	Chinese (Middle)	kən:	kən:	neck	neck			1.4.2	112	0			496,2032
+77226	168	*Sino-Tibetan	kul~gul	kul~gul	neck	neck			1.4.2	112	0			2032|496,496
+77227	478	Chinese (Old)	kenx	kenx	neck	neck			1.4.2	112	0			2032|496
+77228	468	Chinese (Middle)	kən:	kən:	neck	neck			1.4.2	112	0			2032|496
 77229	168	*Sino-Tibetan	bl+ying~ml+ying	bl+ying~ml+ying	neck	neck			1.4.2	112	0			479,479
 77230	100	"""Pre-Chinese"""	bljingx	bljingx	neck	neck			1.4.2	112	0			479
 77231	478	Chinese (Old)	ljingx	ljingx	neck	neck			1.4.2	112	0			479

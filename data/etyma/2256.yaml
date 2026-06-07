@@ -20,6 +20,8 @@ mesoroots:
   group: 1.1.1
   form: ge ?
   gloss: CLOTHES
+  source: JS-HCST: 98
+  old_tag: 6322
 - grpid: 42
   group: '6.1'
   form: gwa²

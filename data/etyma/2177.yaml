@@ -19,15 +19,23 @@ mesoroots:
   group: '1.2'
   form: puu-I, put-II
   gloss: CARRY (on shoulder)
+  source: 'PKC #131'
+  old_tag: 4131
 - grpid: 42
   group: '6.1'
   form: bəw²
   gloss: CARRY ON BACK
+  source: HPTB pp.183, 477
+  old_tag: 200
 - grpid: 63
   group: 1.3.1
   form: pu(ʔ)
   gloss: CARRY (SHOULDER / BACK)
+  source: 'PCN #067'
+  old_tag: 7614
 - grpid: 66
   group: 1.3.4
   form: wu
   gloss: CARRY (ON SHOULDERS)
+  source: DRM#367
+  old_tag: 6780

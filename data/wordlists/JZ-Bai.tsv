@@ -53,7 +53,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 38856	310	Bai (Bijiang)	dʐẽʴ³³	dʐẽʴ³³	kidney	kidney			1.7.5		0			
 38857	310	Bai (Bijiang)	ʈõ̱²¹	ʈõ̱²¹	intestines	intestines			1.7.7		0			m
 38858	310	Bai (Bijiang)	sẽ⁵⁵	sẽ⁵⁵	heart	heart			1.7.1		0			66
-38859	310	Bai (Bijiang)	qɑ̃³⁵	qɑ̃³⁵	liver	liver			1.7.3		0			229,bChinese
+38859	310	Bai (Bijiang)	qɑ̃³⁵	qɑ̃³⁵	liver	liver			1.7.3		0			229|bChinese
 38860	310	Bai (Bijiang)	tɕhuɑ̱⁴⁴	tɕhuɑ̱⁴⁴	lung	lung			1.7.2		0			
 38861	310	Bai (Bijiang)	tĩ³³	tĩ³³	gall	gall			1.7.3.1		0			bChinese
 38862	310	Bai (Bijiang)	phu⁵⁵	phu⁵⁵	bladder	bladder			1.7.8		0			779
@@ -128,7 +128,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 38931	310	Bai (Bijiang)	ʈhɑ̱⁴⁴ ji³³	ʈhɑ̱⁴⁴ ji³³	lean (person)	lean (person)			1.1.1		0			1807,49
 38932	310	Bai (Bijiang)	bv̩³³	bv̩³³	full, satiated	full, satiated			1.1.3.2		0			100
 38933	310	Bai (Bijiang)	tɕi⁵⁵ qhv̩̄⁴⁴	tɕi⁵⁵ qhv̩̄⁴⁴	hungry	hungry			1.1.3		0			101,105
-38934	310	Bai (Bijiang)	qhv̩̄⁴⁴	qhv̩̄⁴⁴	thirsty	thirsty			1.1.3.1		0			105,b
+38934	310	Bai (Bijiang)	qhv̩̄⁴⁴	qhv̩̄⁴⁴	thirsty	thirsty			1.1.3.1		0			105|b
 38935	310	Bai (Bijiang)	ne̱⁴² lɑ̱⁴²	ne̱⁴² lɑ̱⁴²	tired	tired			9.6.2.2		0			
 38936	310	Bai (Bijiang)	ȵo³³	ȵo³³	itchy	itchy			1.6.5.5		0			m
 38937	310	Bai (Bijiang)	sõ̱⁴²	sõ̱⁴²	painful	painful			1.1.5.1		0			
@@ -186,7 +186,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 38989	313	Bai (Dali)	jo³⁵ tsi̱⁴⁴	jo³⁵ tsi̱⁴⁴	kidney	kidney			1.7.5		0			bChinese
 38990	313	Bai (Dali)	tso̱u²¹	tso̱u²¹	intestines	intestines			1.7.7		0			m
 38991	313	Bai (Dali)	ɕi³⁵	ɕi³⁵	heart	heart			1.7.1		0			66
-38992	313	Bai (Dali)	kɑ³⁵	kɑ³⁵	liver	liver			1.7.3		0			229,bChinese
+38992	313	Bai (Dali)	kɑ³⁵	kɑ³⁵	liver	liver			1.7.3		0			229|bChinese
 38993	313	Bai (Dali)	phiɑ̱⁴⁴	phiɑ̱⁴⁴	lung	lung			1.7.2		0			
 38994	313	Bai (Dali)	tɑ³³	tɑ³³	gall	gall			1.7.3.1		0			bChinese
 38995	313	Bai (Dali)	ti⁵⁵ pu³³	ti⁵⁵ pu³³	bladder	bladder			1.7.8		0			m,779
@@ -260,7 +260,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 39063	313	Bai (Dali)	sɑ³⁵	sɑ³⁵	lean (person)	lean (person)			1.1.1		0			
 39064	313	Bai (Dali)	pu³³	pu³³	full, satiated	full, satiated			1.1.3.2		0			100
 39065	313	Bai (Dali)	tɕi⁵⁵ khɑ̱⁴⁴	tɕi⁵⁵ khɑ̱⁴⁴	hungry	hungry			1.1.3		0			101,105
-39066	313	Bai (Dali)	khɑ̱⁴⁴	khɑ̱⁴⁴	thirsty	thirsty			1.1.3.1		0			105,b
+39066	313	Bai (Dali)	khɑ̱⁴⁴	khɑ̱⁴⁴	thirsty	thirsty			1.1.3.1		0			105|b
 39067	313	Bai (Dali)	so³⁵ khu³³	so³⁵ khu³³	tired	tired			9.6.2.2		0			
 39068	313	Bai (Dali)	jo̱u⁴⁴	jo̱u⁴⁴	itchy	itchy			1.6.5.5		0			1456
 39069	313	Bai (Dali)	si³¹	si³¹	painful	painful			1.1.5.1		0			
@@ -328,7 +328,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 39131	316	Bai (Jianchuan)	jɑo⁵⁵ tsi³³	jɑo⁵⁵ tsi³³	kidney	kidney			1.7.5		0			bChinese
 39132	316	Bai (Jianchuan)	tsõ̱⁴²	tsõ̱⁴²	intestines	intestines			1.7.7		0			m
 39133	316	Bai (Jianchuan)	ɕĩ⁵⁵	ɕĩ⁵⁵	heart	heart			1.7.1		0			66
-39134	316	Bai (Jianchuan)	kɑ̃⁵⁵	kɑ̃⁵⁵	liver	liver			1.7.3		0			229,bChinese
+39134	316	Bai (Jianchuan)	kɑ̃⁵⁵	kɑ̃⁵⁵	liver	liver			1.7.3		0			229|bChinese
 39135	316	Bai (Jianchuan)	phiɑ̱⁴⁴	phiɑ̱⁴⁴	lung	lung			1.7.2		0			
 39136	316	Bai (Jianchuan)	tɑ̃³³	tɑ̃³³	gall	gall			1.7.3.1		0			bChinese
 39137	316	Bai (Jianchuan)	phɛ⁵⁵ u³³	phɛ⁵⁵ u³³	bladder	bladder			1.7.8		0			779,m

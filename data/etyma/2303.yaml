@@ -19,7 +19,11 @@ mesoroots:
   group: '1.2'
   form: khaaw
   gloss: GRASSHOPPER
+  source: 'PKC #445'
+  old_tag: 4445
 - grpid: 66
   group: 1.3.4
   form: kʰaw
   gloss: GRASSHOPPER
+  source: DRM#390
+  old_tag: 6803

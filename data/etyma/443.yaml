@@ -14,15 +14,21 @@ mesoroots:
   form: 's-krak ⪤ s-krok '
   gloss: COLD / DRIED OUT / LEFTOVER
   variant: a
+  source: JAM-TSR: 53
+  old_tag: 7200
 - grpid: 42
   group: '6.1'
   form: m-graŋ
   gloss: COLD
   variant: b
+  source: Benedict 72 STC: 39n124
+  old_tag: 7201
 - grpid: 63
   group: 1.3.1
   form: a-tshak
   gloss: COLD
+  source: 'PCN #247'
+  old_tag: 7794
 notes:
 - type: T
   text: <par>Burmish forms have back vowels, while Loloish reflects <latinform>*-a-</latinform>.</par>

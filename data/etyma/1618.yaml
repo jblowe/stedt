@@ -24,18 +24,25 @@ mesoroots:
   group: '7'
   form: hmɨᴮ
   gloss: FEMALE, WOMAN
+  source: TL#112
+  old_tag: 7317
 - grpid: 5
   group: 1.1.1
   form: mji-məː
   gloss: WOMAN
+  source: JS-HCST: 140
+  old_tag: 6464
 - grpid: 5
   group: 1.1.1
   form: mi-fVŋ?
   gloss: WIFE
+  source: JS-HCST: 99
+  old_tag: 6454
 - grpid: 42
   group: '6.1'
   form: m(y)i-n²
   gloss: WIFE
+  old_tag: 5803
 notes:
 - type: T
   text: <par>This etymon evidently took a sibilant prefix in various languages (cf. Daofu <latinform>sme</latinform>,

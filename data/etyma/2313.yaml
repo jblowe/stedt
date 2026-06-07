@@ -20,14 +20,20 @@ mesoroots:
   group: '7'
   form: d-khejᴬ
   gloss: DEER (BARKING~)
+  source: TL#79
+  old_tag: 7284
 - grpid: 66
   group: 1.3.4
   form: caw
   gloss: DEER
+  source: DRM#387
+  old_tag: 6800
 - grpid: 8
   group: '1.2'
   form: sha-khii
   gloss: DEER
+  source: 'PKC #437'
+  old_tag: 4437
 notes:
 - type: T
   text: <par>As indicated in HPTB p. 380, it is sometimes quite difficult to distinguish the Loloish reflexes

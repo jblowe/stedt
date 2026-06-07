@@ -31,10 +31,10 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 271906	946	Lisu (Northern)	a⁵⁵pɤ⁵⁵	a⁵⁵pɤ⁵⁵	see-saw	see-saw	N	N	5.8		0			
 271907	946	Lisu (Northern)	a⁵⁵pɔ⁵⁵ ka²¹hĩ³³	a⁵⁵pɔ⁵⁵ ka²¹hĩ³³	sentry post	sentry post	N	N	4.2.6		0			
 271908	946	Lisu (Northern)	a⁵⁵tʃhɿ³³	a⁵⁵tʃhɿ³³	sixth sister	sixth sister	N	N	9.9		0			
-271909	946	Lisu (Northern)	a⁵⁵tʃhɿʔ²¹	a⁵⁵tʃhɿʔ²¹	goat	goat	N	N	2.1.8		0			p,p,1226
-271910	946	Lisu (Northern)	a⁵⁵tʃhɿʔ²¹bø³³	a⁵⁵tʃhɿʔ²¹bø³³	sheep pen	sheep pen			2.1.8		0			p,p,1226,m
-271911	946	Lisu (Northern)	a⁵⁵tʃhɿʔ²¹dʑi³³	a⁵⁵tʃhɿʔ²¹dʑi³³	sheepskin	sheepskin			2.1.8		0			p,p,m,1226
-271912	946	Lisu (Northern)	a⁵⁵tʃhɿʔ²¹ mu²¹khu²¹	a⁵⁵tʃhɿʔ²¹ mu²¹khu²¹	orchid-smoke (lit. goat smoke)	orchid-smoke (lit. goat smoke)			3.2.12.2		0			p,p,1226,m,m,m,m
+271909	946	Lisu (Northern)	a⁵⁵tʃhɿʔ²¹	a⁵⁵tʃhɿʔ²¹	goat	goat	N	N	2.1.8		0			p|p,1226
+271910	946	Lisu (Northern)	a⁵⁵tʃhɿʔ²¹bø³³	a⁵⁵tʃhɿʔ²¹bø³³	sheep pen	sheep pen			2.1.8		0			p|p,1226,m
+271911	946	Lisu (Northern)	a⁵⁵tʃhɿʔ²¹dʑi³³	a⁵⁵tʃhɿʔ²¹dʑi³³	sheepskin	sheepskin			2.1.8		0			p|p,1226|m
+271912	946	Lisu (Northern)	a⁵⁵tʃhɿʔ²¹ mu²¹khu²¹	a⁵⁵tʃhɿʔ²¹ mu²¹khu²¹	orchid-smoke (lit. goat smoke)	orchid-smoke (lit. goat smoke)			3.2.12.2		0			p|p,1226,m|m,m|m
 271913	946	Lisu (Northern)	a⁵⁵tʃhɿʔ²¹ za³⁵za²¹	a⁵⁵tʃhɿʔ²¹ za³⁵za²¹	little lamb	little lamb			9.7.2		0			
 271914	946	Lisu (Northern)	a⁵⁵tʃhɿʔ²¹za²¹	a⁵⁵tʃhɿʔ²¹za²¹	lamb	lamb			2.1.8		0			
 271915	946	Lisu (Northern)	a⁵⁵tʃhɿʔ²¹ na³³pɔ³³dzi³³	a⁵⁵tʃhɿʔ²¹ na³³pɔ³³dzi³³	kind of herb, Inula cappa (herb with medicinal roots)	kind of herb, Inula cappa (herb with medicinal roots)	N	N	10.1.1		0			
@@ -479,7 +479,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 272355	946	Lisu (Northern)	pæ³⁵	pæ³⁵	split	split	V	V	6.9.3		0			
 272356	946	Lisu (Northern)	pæ³⁵pæ³⁵ɤ²¹	pæ³⁵pæ³⁵ɤ²¹	public ownership	public ownership	N	N	5.8		0			
 272357	946	Lisu (Northern)	pæ³⁵dɔ⁴⁴	pæ³⁵dɔ⁴⁴	drink together (Two people drink from the same wine glass, with cheeks touching)	drink together (Two people drink from the same wine glass, with cheeks touching)	V	V	10.1.1		0			m,502
-272358	946	Lisu (Northern)	pæ³⁵fa²¹	pæ³⁵fa²¹	method	method	N	N	8.1		0			bChinese,bChinese
+272358	946	Lisu (Northern)	pæ³⁵fa²¹	pæ³⁵fa²¹	method	method	N	N	8.1		0			bChinese|bChinese
 272359	946	Lisu (Northern)	pæ³⁵fɯ³³tɕæ³⁵	pæ³⁵fɯ³³tɕæ³⁵	semi-feudal	semi-feudal	V	V			0			bChinese
 272360	946	Lisu (Northern)	pæ³⁵kɔ³³	pæ³⁵kɔ³³	do office work	do office work	V	V	6.1.1.1		0			bChinese
 272361	946	Lisu (Northern)	pæ³⁵kɔ³³ʃɿ²¹	pæ³⁵kɔ³³ʃɿ²¹	office	office	N	N			0			bChinese
@@ -506,7 +506,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 272382	946	Lisu (Northern)	pao³³fu³³	pao³³fu³³	parcel	parcel	N	N	5.11		0			bChinese
 272383	946	Lisu (Northern)	pao³³kɔ³³	pao³³kɔ³³	contract for a job	contract for a job	N	N	10.1		0			bChinese
 272384	946	Lisu (Northern)	pao³³kwa³³jæ²¹	pao³³kwa³³jæ²¹	storekeeper	storekeeper	N	N			0			bChinese
-272385	946	Lisu (Northern)	pao³³hu³⁵	pao³³hu³⁵	protect	protect	V	V	6.2.2.1		0			bChinese,bChinese
+272385	946	Lisu (Northern)	pao³³hu³⁵	pao³³hu³⁵	protect	protect	V	V	6.2.2.1		0			bChinese|bChinese
 272386	946	Lisu (Northern)	pa⁵⁵tɕæ³⁵jæ²¹	pa⁵⁵tɕæ³⁵jæ²¹	health worker	health worker	N	N	6.1.1		0			bChinese
 272387	946	Lisu (Northern)	pao³³tɕæ³⁵tʃa³⁵	pao³³tɕæ³⁵tʃa³⁵	health centre	health centre	N	N	9.2.5		0			bChinese
 272388	946	Lisu (Northern)	pao³³mi²¹	pao³³mi²¹	keep a secret	keep a secret	V	V	6.18		0			bChinese
@@ -523,7 +523,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 272399	946	Lisu (Northern)	pa²¹kwa⁵⁵	pa²¹kwa⁵⁵	trumpet	trumpet	N	N	5.1		0			
 272400	946	Lisu (Northern)	pa²¹kwa⁵⁵ my³³su³³	pa²¹kwa⁵⁵ my³³su³³	trumpeter; wind-instrument player	trumpeter; wind-instrument player			4.2.9		0			
 272401	946	Lisu (Northern)	pa²¹li³³	pa²¹li³³	knife with curved shape	knife with curved shape	N	N	5.5		0			
-272402	946	Lisu (Northern)	pa²¹lu³⁵tɕwei³³	pa²¹lu³⁵tɕwei³³	Eighth Route Army	Eighth Route Army	N	N	9.9		0			bChinese,bChinese
+272402	946	Lisu (Northern)	pa²¹lu³⁵tɕwei³³	pa²¹lu³⁵tɕwei³³	Eighth Route Army	Eighth Route Army	N	N	9.9		0			bChinese|bChinese
 272403	946	Lisu (Northern)	pa³³tsi³³	pa³³tsi³³	bamboo tube (container for food or wine) = tsha²¹thu²¹	bamboo tube (container for food or wine) = tshaªÁthuªÁ	N	N	3.1.1		0			
 272404	946	Lisu (Northern)	pa³³tsi³³gɔ²¹	pa³³tsi³³gɔ²¹	long bamboo tube (for storing water)	long bamboo tube (for storing water)			9.7.2		0			
 272405	946	Lisu (Northern)	pa³³tsi³³ khɔ²¹hɔ³⁵	pa³³tsi³³ khɔ²¹hɔ³⁵	lid for bamboo tube	lid for bamboo tube			5.1		0			
@@ -1047,7 +1047,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 272923	946	Lisu (Northern)	pjou⁴⁴æ³⁵	pjou⁴⁴æ³⁵	behave	behave	V	V	6.2		0			bChinese
 272924	946	Lisu (Northern)	pjou³³jæ³³	pjou³³jæ³³	perform	perform	V	V	6.2.2.2		0			bChinese
 272925	946	Lisu (Northern)	pjou³³ja²¹	pjou³³ja²¹	praise	praise	V	V	8.5.2.2		0			bChinese
-272926	946	Lisu (Northern)	pjou³³tʃwei³³ji³³	pjou³³tʃwei³³ji³³	standard sound	standard sound	N	N	8.1		0			bChinese,bChinese
+272926	946	Lisu (Northern)	pjou³³tʃwei³³ji³³	pjou³³tʃwei³³ji³³	standard sound	standard sound	N	N	8.1		0			bChinese|bChinese
 272927	946	Lisu (Northern)	pi³³si³³ pi³³si³³	pi³³si³³ pi³³si³³	noise made by air stream	noise made by air stream	O	O	7.1.4.3		0			
 272928	946	Lisu (Northern)	pi³³si³³le³⁵	pi³³si³³le³⁵	quiet; quietly	quiet; quietly	A	A	7.1.8.3		0			
 272929	946	Lisu (Northern)	pi³³si³³ le³⁵za²¹	pi³³si³³ le³⁵za²¹	calm; quiet; tranquil	calm; quiet; tranquil	V	V	9.6.1.2		0			
@@ -1103,7 +1103,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 272979	946	Lisu (Northern)	py³⁵	py³⁵	knead; mould	knead; mould	V	V	5.5		0			
 272980	946	Lisu (Northern)	pu³⁵twei³⁵	pu³⁵twei³⁵	army	army	N	N	5.15		0			bChinese
 272981	946	Lisu (Northern)	pu³⁵kao³⁵	pu³⁵kao³⁵	notice, bulletin	notice, bulletin	N	N	8.3.1.11.1		0			bChinese
-272982	946	Lisu (Northern)	pu³⁵phjou³⁵	pu³⁵phjou³⁵	cotton coupon	cotton coupon	N	N	5.1		0			bChinese,bChinese
+272982	946	Lisu (Northern)	pu³⁵phjou³⁵	pu³⁵phjou³⁵	cotton coupon	cotton coupon	N	N	5.1		0			bChinese|bChinese
 272983	946	Lisu (Northern)	pu³⁵tʃɿ²¹	pu³⁵tʃɿ²¹	assign; arrange	assign; arrange	V	V	6.17		0			bChinese
 272984	946	Lisu (Northern)	puʔ²¹	puʔ²¹	time, occasion	time, occasion	C	C	9.1.5		0			5562
 272985	946	Lisu (Northern)	puʔ²¹gɔ²¹	puʔ²¹gɔ²¹	notice	notice	N	N	8.3.1.11.1		0			
@@ -1253,18 +1253,18 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 273129	946	Lisu (Northern)	tʃhɿʔ²¹	tʃhɿʔ²¹	cold; chilly; icy cold	cold; chilly; icy cold	V	V	7.1.2.3		0			
 273130	946	Lisu (Northern)	tʃhɿʔ²¹be²¹	tʃhɿʔ²¹be²¹	male sheep	male sheep	N	N	1.9.6.1		0			1226,m
 273131	946	Lisu (Northern)	tʃhɿʔ²¹bø⁴⁴	tʃhɿʔ²¹bø⁴⁴	sheep pen	sheep pen			2.1.8		0			1226,m
-273132	946	Lisu (Northern)	tʃhɿʔ²¹gɔ⁵⁵lɔ⁵⁵	tʃhɿʔ²¹gɔ⁵⁵lɔ⁵⁵	thin sheep (legendary sheep)	thin sheep (legendary sheep)			2.1.8		0			1226,m,m,m,m
+273132	946	Lisu (Northern)	tʃhɿʔ²¹gɔ⁵⁵lɔ⁵⁵	tʃhɿʔ²¹gɔ⁵⁵lɔ⁵⁵	thin sheep (legendary sheep)	thin sheep (legendary sheep)			2.1.8		0			1226,m|m,m|m
 273133	946	Lisu (Northern)	tʃhɿʔ²¹lɔ⁵⁵ rɔ³³lɔ⁵⁵ mɔ²	tʃhɿʔ²¹lɔ⁵⁵ rɔ³³lɔ⁵⁵ mɔ²	Song of Herding Sheep (name of a long Lisu poem)	Song of Herding Sheep (name of a long Lisu poem)			10.1.1		0			1226,m,m,m,m
 273134	946	Lisu (Northern)	tʃhɿʔ²¹ma³³	tʃhɿʔ²¹ma³³	female sheep	female sheep			1.9.3		0			1226,m
 273135	946	Lisu (Northern)	tʃhɿʔ²¹ma³³lø³³	tʃhɿʔ²¹ma³³lø³³	female sheep in the period of feeding lambs milk	female sheep in the period of feeding lambs milk			10.1.1		0			1226,m,m
-273136	946	Lisu (Northern)	tʃhɿʔ²¹ma³³mɤ⁴⁴	tʃhɿʔ²¹ma³³mɤ⁴⁴	female sheep that does not reproduce	female sheep that does not reproduce			1.9.3		0			1226,m,1619,m,m
-273137	946	Lisu (Northern)	tʃhɿʔ²¹næ³³	tʃhɿʔ²¹næ³³	black goat	black goat			9.4		0			1226,m,2483
+273136	946	Lisu (Northern)	tʃhɿʔ²¹ma³³mɤ⁴⁴	tʃhɿʔ²¹ma³³mɤ⁴⁴	female sheep that does not reproduce	female sheep that does not reproduce			1.9.3		0			1226,1619|m,m|m
+273137	946	Lisu (Northern)	tʃhɿʔ²¹næ³³	tʃhɿʔ²¹næ³³	black goat	black goat			9.4		0			1226,2483|m
 273138	946	Lisu (Northern)	tʃhɿʔ²¹na⁵⁵	tʃhɿʔ²¹na⁵⁵	wether	wether			2.1.8		0			
 273139	946	Lisu (Northern)	tʃhɿʔ²¹na⁵⁵dʑi⁴⁴	tʃhɿʔ²¹na⁵⁵dʑi⁴⁴	skin of wether	skin of wether			1.6.5		0			m,m,596
-273140	946	Lisu (Northern)	tʃhɿʔ²¹phu³³	tʃhɿʔ²¹phu³³	white goat	white goat			9.4		0			1226,m,1235
+273140	946	Lisu (Northern)	tʃhɿʔ²¹phu³³	tʃhɿʔ²¹phu³³	white goat	white goat			9.4		0			1226,1235|m
 273141	946	Lisu (Northern)	tʃhɿʔ²¹dzi²¹ma³³	tʃhɿʔ²¹dzi²¹ma³³	bellwether	bellwether					0			
 273142	946	Lisu (Northern)	tʃhɿʔ²¹dzu⁴⁴	tʃhɿʔ²¹dzu⁴⁴	flock of sheep	flock of sheep			2.2.4.1		0			1226,m
-273143	946	Lisu (Northern)	tʃhɿʔ²¹◦dzu⁴⁴ tʃhɿʔ²¹◦mæʔ	tʃhɿʔ²¹dzu⁴⁴ tʃhɿʔ²¹mæʔ	flock of sheep	flock of sheep			2.2.4.1		0			1226,m,m,1226,m,m
+273143	946	Lisu (Northern)	tʃhɿʔ²¹◦dzu⁴⁴ tʃhɿʔ²¹◦mæʔ	tʃhɿʔ²¹dzu⁴⁴ tʃhɿʔ²¹mæʔ	flock of sheep	flock of sheep			2.2.4.1		0			1226,m|m,1226,m|m
 273144	946	Lisu (Northern)	tʃhɿʔ²¹mja³³ du²¹tɕwa³³	tʃhɿʔ²¹mja³³ du²¹tɕwa³³	kind of oil-hemp-vine	kind of oil-hemp-vine	N	N	8.3.3.2.1		0			
 273145	946	Lisu (Northern)	tʃhɿʔ²¹mja³³ gæʔ²¹læʔ²¹	tʃhɿʔ²¹mja³³ gæʔ²¹læʔ²¹	white babbler (also known as sparrow-babbler)	white babbler (also known as sparrow-babbler)	N	N	9.4		0			
 273146	946	Lisu (Northern)	tʃhɿʔ²¹je³³	tʃhɿʔ²¹je³³	burnt; charred	burnt; charred	V	V	3.2.12.1		0			
@@ -1309,7 +1309,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 273185	946	Lisu (Northern)	tʃhu²¹dʑɔ⁴⁴su³³ tæ⁵⁵ fu³⁵	tʃhu²¹dʑɔ⁴⁴su³³ tæ⁵⁵ fu³⁵	traitor	traitor					0			
 273186	946	Lisu (Northern)	tʃhu²¹sɤ²¹	tʃhu²¹sɤ²¹	kind of herb, Rubus palmatus (with yellow fruit)	kind of herb, Rubus palmatus (with yellow fruit)	N	N	10.1.1		0			
 273187	946	Lisu (Northern)	tʃhu²¹ʃɯ³³	tʃhu²¹ʃɯ³³	family origin	family origin	N	N	4.7.5		0			bChinese
-273188	946	Lisu (Northern)	tʃhu³³tʃɔ³³	tʃhu³³tʃɔ³³	junior high school	junior high school	N	N	4.7.3		0			bChinese,bChinese
+273188	946	Lisu (Northern)	tʃhu³³tʃɔ³³	tʃhu³³tʃɔ³³	junior high school	junior high school	N	N	4.7.3		0			bChinese|bChinese
 273189	946	Lisu (Northern)	tshi³³	tshi³³	welcome; substitute	welcome; substitute	V	V	8.5.11		0			
 273190	946	Lisu (Northern)	tshi³³	tshi³³	narrow; thin, small	narrow; thin, small	V	V	9.7.2		0			6186
 273191	946	Lisu (Northern)	tshi³³tshi³³ dʑwa⁴⁴dʑwa⁴⁴	tshi³³tshi³³ dʑwa⁴⁴dʑwa⁴⁴	slim	slim			7.1.3		0			
@@ -1625,9 +1625,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 273501	946	Lisu (Northern)	ta³⁵bja²¹	ta³⁵bja²¹	two or more storied building	two or more storied building	N	N	9.9		0			
 273502	946	Lisu (Northern)	ta³⁵bja²¹ khɔ²¹du³³	ta³⁵bja²¹ khɔ²¹du³³	floor	floor	N	N	5.11.9.3		0			
 273503	946	Lisu (Northern)	ta³⁵bja²¹ khɔ²¹dzø³³	ta³⁵bja²¹ khɔ²¹dzø³³	staircase; ladder	staircase; ladder	N	N	5.11.9.3.1		0			m,m,260,3604
-273504	946	Lisu (Northern)	ta³⁵tʃhwei³³	ta³⁵tʃhwei³³	big-spring	big-spring	N	N	9.7.2		0			bChinese,bChinese,bChinese
+273504	946	Lisu (Northern)	ta³⁵tʃhwei³³	ta³⁵tʃhwei³³	big-spring	big-spring	N	N	9.7.2		0			bChinese|bChinese,bChinese
 273505	946	Lisu (Northern)	ta³⁵twei³⁵	ta³⁵twei³⁵	brigade	brigade	N	N			0			bChinese
-273506	946	Lisu (Northern)	ta³⁵kɯ²¹mi³⁵	ta³⁵kɯ²¹mi³⁵	great revolution	great revolution	N	N	9.6.1		0			bChinese,bChinese
+273506	946	Lisu (Northern)	ta³⁵kɯ²¹mi³⁵	ta³⁵kɯ²¹mi³⁵	great revolution	great revolution	N	N	9.6.1		0			bChinese|bChinese
 273507	946	Lisu (Northern)	ta³⁵ga³³	ta³⁵ga³³	stride	stride	V	V	6.7.4		0			
 273508	946	Lisu (Northern)	ta³⁵ga⁴⁴ ta³⁵ga⁴⁴	ta³⁵ga⁴⁴ ta³⁵ga⁴⁴	walk quickly	walk quickly	V	V	6.7.4		0			
 273509	946	Lisu (Northern)	ta³⁵ga³³pha²¹	ta³⁵ga³³pha²¹	very tall person; tall person	very tall person; tall person	N	N	4.5		0			
@@ -1637,7 +1637,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 273513	946	Lisu (Northern)	ta³⁵hwei³⁵	ta³⁵hwei³⁵	conference	conference	N	N	8.5.8		0			bChinese
 273514	946	Lisu (Northern)	ta³⁵li³³	ta³⁵li³³	Dali (a town in Yunnan)	Dali (a town in Yunnan)	N	N	10.1.1		0			bChinese
 273515	946	Lisu (Northern)	ta³⁵li³³dʒɿ⁴⁴	ta³⁵li³³dʒɿ⁴⁴	Dali street	Dali street			9.10.1		0			
-273516	946	Lisu (Northern)	ta³⁵li³³ʃɿ²¹	ta³⁵li³³ʃɿ²¹	marble ('Dali stone')	marble ('Dali stone')			3.2.9		0			bChinese,bChinese
+273516	946	Lisu (Northern)	ta³⁵li³³ʃɿ²¹	ta³⁵li³³ʃɿ²¹	marble ('Dali stone')	marble ('Dali stone')			3.2.9		0			bChinese|bChinese
 273517	946	Lisu (Northern)	ta³⁵li²¹a²¹	ta³⁵li²¹a²¹	big hall	big hall	N	N	9.7.2		0			bChinese
 273518	946	Lisu (Northern)	ta³⁵maʔ²¹fu³³	ta³⁵maʔ²¹fu³³	leprosy	leprosy	N	N	5.3		0			bChinese
 273519	946	Lisu (Northern)	ta³⁵tɕhæʔ²¹læʔ²¹	ta³⁵tɕhæʔ²¹læʔ²¹	gauze	gauze	N	N			0			
@@ -1950,7 +1950,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 273826	946	Lisu (Northern)	ti³³	ti³³	pay tribute; offer sacrifice	pay tribute; offer sacrifice	V	V	6.22		0			
 273827	946	Lisu (Northern)	ti³³	ti³³	cloudy	cloudy	V	V	3.2.2		0			
 273828	946	Lisu (Northern)	tjæ³⁵	tjæ³⁵	electricity	electricity	N	N	5.11		0			bChinese
-273829	946	Lisu (Northern)	tjæ³⁵pao³⁵	tjæ³⁵pao³⁵	telegram	telegram					0			bChinese,bChinese
+273829	946	Lisu (Northern)	tjæ³⁵pao³⁵	tjæ³⁵pao³⁵	telegram	telegram					0			bChinese|bChinese
 273830	946	Lisu (Northern)	tjæ³⁵tʃhɯ³³	tjæ³⁵tʃhɯ³³	tram	tram					0			bChinese
 273831	946	Lisu (Northern)	tjæ³⁵tʃhɿ²¹	tjæ³⁵tʃhɿ²¹	battery	battery					0			bChinese
 273832	946	Lisu (Northern)	tjæ³⁵tɤ³³	tjæ³⁵tɤ³³	electric light	electric light			7.1.11.1		0			bChinese
@@ -1961,11 +1961,11 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 273837	946	Lisu (Northern)	tjæ³⁵ʃɿ³⁵	tjæ³⁵ʃɿ³⁵	television	television					0			bChinese
 273838	946	Lisu (Northern)	tjæ³⁵ʃɿ³⁵tɕi³³	tjæ³⁵ʃɿ³⁵tɕi³³	television set	television set			6.17		0			bChinese
 273839	946	Lisu (Northern)	tjæ³⁵thæ²¹	tjæ³⁵thæ²¹	radio station	radio station			5.8		0			bChinese
-273840	946	Lisu (Northern)	tjæ³⁵thu²¹	tjæ³⁵thu²¹	flashlight	flashlight			5.11.5.5		0			bChinese,bChinese
-273841	946	Lisu (Northern)	tjæ³⁵ji³³	tjæ³⁵ji³³	film	film			5.11		0			bChinese,bChinese
-273842	946	Lisu (Northern)	tjæ³⁵ji³³twei³⁵	tjæ³⁵ji³³twei³⁵	film projection team	film projection team			5.11		0			bChinese,bChinese
-273843	946	Lisu (Northern)	tjæ³⁵ji³³ fu³³su³³	tjæ³⁵ji³³ fu³³su³³	film projectionist	film projectionist			5.11		0			bChinese,bChinese
-273844	946	Lisu (Northern)	tjæ³⁵ji³³tɕi³³	tjæ³⁵ji³³tɕi³³	film projector	film projector			5.11		0			bChinese,bChinese
+273840	946	Lisu (Northern)	tjæ³⁵thu²¹	tjæ³⁵thu²¹	flashlight	flashlight			5.11.5.5		0			bChinese|bChinese
+273841	946	Lisu (Northern)	tjæ³⁵ji³³	tjæ³⁵ji³³	film	film			5.11		0			bChinese|bChinese
+273842	946	Lisu (Northern)	tjæ³⁵ji³³twei³⁵	tjæ³⁵ji³³twei³⁵	film projection team	film projection team			5.11		0			bChinese|bChinese
+273843	946	Lisu (Northern)	tjæ³⁵ji³³ fu³³su³³	tjæ³⁵ji³³ fu³³su³³	film projectionist	film projectionist			5.11		0			bChinese|bChinese
+273844	946	Lisu (Northern)	tjæ³⁵ji³³tɕi³³	tjæ³⁵ji³³tɕi³³	film projector	film projector			5.11		0			bChinese|bChinese
 273845	946	Lisu (Northern)	tjæ³⁵ji³³jæ³⁵	tjæ³⁵ji³³jæ³⁵	cinema	cinema					0			bChinese
 273846	946	Lisu (Northern)	tja³⁵	tja³⁵	(locative)	(locative)	Pn	Pn			0			
 273847	946	Lisu (Northern)	ti³³du³³	ti³³du³³	sacrificial offering	sacrificial offering	N	N	5.8.1.3		0			
@@ -2538,7 +2538,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 274415	946	Lisu (Northern)	ji⁵⁵miʔ²¹	ji⁵⁵miʔ²¹	tender sprout; tender	tender sprout; tender	N	N	7.1.4.2		0			
 274416	946	Lisu (Northern)	ji⁵⁵mi²¹	ji⁵⁵mi²¹	dirt; sweat stain	dirt; sweat stain	N	N	1.5.3.2		0			m,3568
 274417	946	Lisu (Northern)	ji⁵⁵mi⁴⁴	ji⁵⁵mi⁴⁴	field	field	N	N	3.2.5		0			5544,2453
-274418	946	Lisu (Northern)	phu²¹tʃhɿ³³ ji⁵⁵mi⁴⁴	phu²¹tʃhɿ³³ ji⁵⁵mi⁴⁴	watermelon field	watermelon field			3.1.5		0			m,5797,m,m,m,m,2453,2453
+274418	946	Lisu (Northern)	phu²¹tʃhɿ³³ ji⁵⁵mi⁴⁴	phu²¹tʃhɿ³³ ji⁵⁵mi⁴⁴	watermelon field	watermelon field			3.1.5		0			5797|m,m|m,m|m,2453|2453
 274419	946	Lisu (Northern)	ji⁵⁵mɔ³⁵	ji⁵⁵mɔ³⁵	specification; model; sample; mould; standard	specification; model; sample; mould; standard	N	N	8.1		0			
 274420	946	Lisu (Northern)	ji⁵⁵mɔ²¹	ji⁵⁵mɔ²¹	old	old	V	V	7.1.8.3		0			m,2440
 274421	946	Lisu (Northern)	ji⁵⁵mɔ²¹ ji⁵⁵kɯʔ²¹	ji⁵⁵mɔ²¹ ji⁵⁵kɯʔ²¹	senile	senile					0			
@@ -2912,7 +2912,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 274789	946	Lisu (Northern)	fa³³ã³⁵	fa³³ã³⁵	scheme	scheme	N	N	8.3.1.13.2		0			bChinese
 274790	946	Lisu (Northern)	fa³³tɔ³⁵phæ³⁵	fa³³tɔ³⁵phæ³⁵	reactionary	reactionary	N	N			0			bChinese
 274791	946	Lisu (Northern)	fa³³tɔ³⁵ sæʔ²¹wa²¹	fa³³tɔ³⁵ sæʔ²¹wa²¹	reactionary force	reactionary force	N	N	6.2.2.1		0			bChinese
-274792	946	Lisu (Northern)	fa³³fa²¹	fa³³fa²¹	method	method	N	N	8.1		0			bChinese,bChinese
+274792	946	Lisu (Northern)	fa³³fa²¹	fa³³fa²¹	method	method	N	N	8.1		0			bChinese|bChinese
 274793	946	Lisu (Northern)	fa³³fa²¹lwei³⁵	fa³³fa²¹lwei³⁵	methodology	methodology					0			bChinese
 274794	946	Lisu (Northern)	fa³⁵tɕa³⁵	fa³⁵tɕa³⁵	have holiday	have holiday	V	V	8.2		0			bChinese
 274795	946	Lisu (Northern)	fa²¹	fa²¹	penalise	penalise	N	N			0			bChinese
@@ -3027,7 +3027,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 274904	946	Lisu (Northern)	ka⁵⁵thja³³	ka⁵⁵thja³³	portion (a portion of meat divided according to the number of households)	portion (a portion of meat divided according to the number of households)	N	N	10.1.1		0			
 274905	946	Lisu (Northern)	ka⁵⁵tʃɿ⁵⁵	ka⁵⁵tʃɿ⁵⁵	proof; grounds of argument; evidence	proof; grounds of argument; evidence	N	N	8.1		0			
 274906	946	Lisu (Northern)	kao³³ʃɯ³⁵phao³³	kao³³ʃɯ³⁵phao³³	anti-aircraft gun	anti-aircraft gun	N	N	5.15		0			bChinese
-274907	946	Lisu (Northern)	kao³³tʃɔ³³	kao³³tʃɔ³³	senior high school	senior high school	N	N	4.2.11		0			bChinese,bChinese
+274907	946	Lisu (Northern)	kao³³tʃɔ³³	kao³³tʃɔ³³	senior high school	senior high school	N	N	4.2.11		0			bChinese|bChinese
 274908	946	Lisu (Northern)	ka³⁵	ka³⁵	storeroom; box	storeroom; box	N	N	5.1		0			
 274909	946	Lisu (Northern)	ka³⁵hĩ³³	ka³⁵hĩ³³	warehouse	warehouse					0			
 274910	946	Lisu (Northern)	ka³⁵	ka³⁵	stand	stand	V	V	1.5.2		0			
@@ -3151,9 +3151,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 275028	946	Lisu (Northern)	kɯʔ²¹tɯʔ²¹sɤ²¹	kɯʔ²¹tɯʔ²¹sɤ²¹	fruit of glossy privet (fr	fruit of glossy privet (fr	N	N	3.1.5		0			
 275029	946	Lisu (Northern)	kɯʔ²¹kɯʔ²¹	kɯʔ²¹kɯʔ²¹	(sound of trembling)	(sound of trembling)	O	O			0			o
 275030	946	Lisu (Northern)	kɯʔ²¹kɯʔ²¹mu³³	kɯʔ²¹kɯʔ²¹mu³³	curl up the body due to cold	curl up the body due to cold			6.2.2.1		0			
-275031	946	Lisu (Northern)	kɯ²¹mi³⁵	kɯ²¹mi³⁵	revolution	revolution	N	N			0			bChinese,bChinese
+275031	946	Lisu (Northern)	kɯ²¹mi³⁵	kɯ²¹mi³⁵	revolution	revolution	N	N			0			bChinese|bChinese
 275032	946	Lisu (Northern)	kɯ²¹mi³⁵ tshɔ³³dzu³³	kɯ²¹mi³⁵ tshɔ³³dzu³³	revolutionary masses	revolutionary masses					0			bChinese
-275033	946	Lisu (Northern)	kɯ²¹mi³⁵ da²¹ma³³	kɯ²¹mi³⁵ da²¹ma³³	great revolution	great revolution			9.6.1		0			bChinese,bChinese
+275033	946	Lisu (Northern)	kɯ²¹mi³⁵ da²¹ma³³	kɯ²¹mi³⁵ da²¹ma³³	great revolution	great revolution			9.6.1		0			bChinese|bChinese
 275034	946	Lisu (Northern)	kɯ²¹mi³⁵ ji⁵⁵tɕe³³mu²¹	kɯ²¹mi³⁵ ji⁵⁵tɕe³³mu²¹	revolutionary basis	revolutionary basis					0			bChinese
 275035	946	Lisu (Northern)	kɯ²¹mi³⁵su³³	kɯ²¹mi³⁵su³³	revolutionary	a revolutionary	n				0	dwb6		bChinese
 275036	946	Lisu (Northern)	ga³³	ga³³	seek	seek	V	V	6.2.2.2		0			
@@ -3454,7 +3454,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 275332	946	Lisu (Northern)	kɔ³³ma³³ze³³ khi²¹	kɔ³³ma³³ze³³ khi²¹	graphite; asbestos; meteorite	graphite; asbestos; meteorite					0			
 275333	946	Lisu (Northern)	kɔ³³mi²¹	kɔ³³mi²¹	citizen	citizen	N	N			0			bChinese
 275334	946	Lisu (Northern)	kɔ³³nø³³	kɔ³³nø³³	kind of treeViburnum cylindricum (tree)	kind of treeViburnum cylindricum (tree)	N	N	8.3.3.2.1		0			
-275335	946	Lisu (Northern)	kɔ³³nɔ²¹ ljæ²¹mɔ²¹	kɔ³³nɔ²¹ ljæ²¹mɔ²¹	worker-peasant alliance	worker-peasant alliance	N	N	6.1.1		0			bChinese,bChinese
+275335	946	Lisu (Northern)	kɔ³³nɔ²¹ ljæ²¹mɔ²¹	kɔ³³nɔ²¹ ljæ²¹mɔ²¹	worker-peasant alliance	worker-peasant alliance	N	N	6.1.1		0			bChinese|bChinese
 275336	946	Lisu (Northern)	kɔ³³phi³³	kɔ³³phi³³	rope for carrying things on back	rope for carrying things on back	N	N	5.11.4		0			
 275337	946	Lisu (Northern)	kɔ³³phu³³	kɔ³³phu³³	timber from the outer layer of tree	timber from the outer layer of tree	N	N	10.1.1		0			
 275338	946	Lisu (Northern)	kɔ³³phu³³	kɔ³³phu³³	public money	public money	N	N	5.8		0			bChinese
@@ -3485,7 +3485,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 275363	946	Lisu (Northern)	kɔ³³si³³	kɔ³³si³³	company	company	N	N	4.4		0			bChinese
 275364	946	Lisu (Northern)	kɔ²¹	kɔ²¹	(exclamation of surprise)	(exclamation of surprise)	O	O			0			
 275365	946	Lisu (Northern)	kɔ²¹	kɔ²¹	frame (bamboo strip lining at the bottom of dustpin)	frame (bamboo strip lining at the bottom of dustpin)	N	N	10.0		0			
-275366	946	Lisu (Northern)	kɔ²¹	kɔ²¹	country	country	N	N	9.10.3		0			bChinese,bChinese
+275366	946	Lisu (Northern)	kɔ²¹	kɔ²¹	country	country	N	N	9.10.3		0			bChinese|bChinese
 275367	946	Lisu (Northern)	kɔ²¹tæ⁵⁵ ni³⁵nu³³su³³	kɔ²¹tæ⁵⁵ ni³⁵nu³³su³³	patriot	patriot	N	N			0			
 275368	946	Lisu (Northern)	kɔ²¹tæ⁵⁵ phɔ³⁵su³³	kɔ²¹tæ⁵⁵ phɔ³⁵su³³	traitor to country	traitor to country	N	N	9.10.3		0			
 275369	946	Lisu (Northern)	kɔ²¹tæ⁵⁵ vu²¹zaʔ²¹su³³	kɔ²¹tæ⁵⁵ vu²¹zaʔ²¹su³³	traitor who sells out the country	traitor who sells out the country	N	N	10.5.3		0			m,m,m,m,5632
@@ -4134,7 +4134,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 276013	946	Lisu (Northern)	hwa²¹my³³	hwa²¹my³³	wool; woollen cloth	wool; woollen cloth	N	N	1.6.1.3		0			589,363
 276014	946	Lisu (Northern)	hwa²¹my³³ ba³³tshi²¹	hwa²¹my³³ ba³³tshi²¹	woollen clothing	woollen clothing			5.11.8.2.1		0			
 276015	946	Lisu (Northern)	hwa²¹my³³ ji³⁵bu³³	hwa²¹my³³ ji³⁵bu³³	woollen blanket	woollen blanket			5.11.9.4		0			
-276016	946	Lisu (Northern)	hwa²¹tɕhao²¹	hwa²¹tɕhao²¹	overseas-Chinese	overseas-Chinese	N	N	4.6		0			bChinese,bChinese
+276016	946	Lisu (Northern)	hwa²¹tɕhao²¹	hwa²¹tɕhao²¹	overseas-Chinese	overseas-Chinese	N	N	4.6		0			bChinese|bChinese
 276017	946	Lisu (Northern)	hwa²¹si²¹	hwa²¹si²¹	liver	liver	N	N	1.7.3		0			34,1390
 276018	946	Lisu (Northern)	hwa²¹si²¹	hwa²¹si²¹	blood (animal blood used in making a vow)	blood (animal blood used in making a vow)	N	N	1.6.2		0			m,230
 276019	946	Lisu (Northern)	hwa²¹si²¹ dɔ⁴⁴	hwa²¹si²¹ dɔ⁴⁴	suck blood wine	suck blood wine			1.3.2.1		0			34,230,502
@@ -4277,7 +4277,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 276156	946	Lisu (Northern)	thɔʔ²¹tɕɤ³⁵je³³	thɔʔ²¹tɕɤ³⁵je³³	slip in the step	a slip in the step	n		6.7.3		0	dwb6		m,m,2425
 276157	946	Lisu (Northern)	tɕɤ³³dzi³³	tɕɤ³³dzi³³	kind of shrub, Coriaria sinica (with poisonous fruit)	kind of shrub, Coriaria sinica (with poisonous fruit)	N	N	10.1.1		0			
 276158	946	Lisu (Northern)	tɕi³³	tɕi³³	cover	cover	V	V	5.8		0			
-276159	946	Lisu (Northern)	tɕi³³tʃha²¹	tɕi³³tʃha²¹	police	police	N	N	4.2.1		0			bChinese,bChinese
+276159	946	Lisu (Northern)	tɕi³³tʃha²¹	tɕi³³tʃha²¹	police	police	N	N	4.2.1		0			bChinese|bChinese
 276160	946	Lisu (Northern)	tɕi³³kwa³³	tɕi³³kwa³³	organisation	organisation	N	N			0			bChinese
 276161	946	Lisu (Northern)	tɕi³³kwa³⁵a³³	tɕi³³kwa³⁵a³³	machine-gun	machine-gun	N	N	5.1		0			bChinese
 276162	946	Lisu (Northern)	tɕi³³hwei³⁵ tʃu³³ji³⁵	tɕi³³hwei³⁵ tʃu³³ji³⁵	opportunism	opportunism	N	N			0			bChinese
@@ -4328,7 +4328,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 276207	946	Lisu (Northern)	tɕi³⁵ɲa³⁵pe³³	tɕi³⁵ɲa³⁵pe³³	monument	monument	N	N	5.8		0			bChinese
 276208	946	Lisu (Northern)	tɕi³⁵ɲa³⁵tha²¹	tɕi³⁵ɲa³⁵tha²¹	memorial hall	memorial hall	N	N	8.3		0			bChinese
 276209	946	Lisu (Northern)	tɕi³⁵ʃu²¹	tɕi³⁵ʃu²¹	technique	technique	N	N			0			bChinese
-276210	946	Lisu (Northern)	tɕi³⁵ʃu²¹ kɯ²¹mi³⁵	tɕi³⁵ʃu²¹ kɯ²¹mi³⁵	technical revolution	technical revolution	N	N			0			bChinese,bChinese
+276210	946	Lisu (Northern)	tɕi³⁵ʃu²¹ kɯ²¹mi³⁵	tɕi³⁵ʃu²¹ kɯ²¹mi³⁵	technical revolution	technical revolution	N	N			0			bChinese|bChinese
 276211	946	Lisu (Northern)	tɕi³³ʃɯ²¹	tɕi³³ʃɯ²¹	spirit	spirit	N	N	5.8.1.1		0			bChinese
 276212	946	Lisu (Northern)	tɕi³³zaʔ²¹	tɕi³³zaʔ²¹	thrifty	thrifty	V	V	5.9		0			
 276213	946	Lisu (Northern)	tɕi²¹thi³³	tɕi²¹thi³³	collective	collective	N	N			0			bChinese
@@ -4561,7 +4561,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 276440	946	Lisu (Northern)	tɕɔ³⁵fu³³kɯ³³	tɕɔ³⁵fu³³kɯ³³	root out	root out			3.1.2		0			
 276441	946	Lisu (Northern)	tɕɔ³⁵	tɕɔ³⁵	scare; threaten	scare; threaten	V	V	8.3.1.10.1		0			
 276442	946	Lisu (Northern)	tɕɔ³⁵	tɕɔ³⁵	should; need	should; need	M	M	9.6.2		0			
-276443	946	Lisu (Northern)	tɕɔ³⁵tsɤ³³	tɕɔ³⁵tsɤ³³	table	table	N	N	5.11.9.4		0			bChinese,bChinese
+276443	946	Lisu (Northern)	tɕɔ³⁵tsɤ³³	tɕɔ³⁵tsɤ³³	table	table	N	N	5.11.9.4		0			bChinese|bChinese
 276444	946	Lisu (Northern)	tɕɔ²¹	tɕɔ²¹	ten cents	ten cents	C, N	C, N	9.9		0			bChinese
 276445	946	Lisu (Northern)	ji³⁵khwæ³³ ji³⁵tɕɔ²¹	ji³⁵khwæ³³ ji³⁵tɕɔ²¹	one yuan and ten cents	one yuan and ten cents			9.9		0			bChinese,bChinese,bChinese,m
 276446	946	Lisu (Northern)	tɕɔ²¹	tɕɔ²¹	rotation	rotation	N, C	N, C			0			
@@ -5358,7 +5358,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 277237	946	Lisu (Northern)	lɤ³⁵	lɤ³⁵	wear (of women wearing ornaments on head)	wear (of women wearing ornaments on head)	V	V	6.2.2.1		0			
 277238	946	Lisu (Northern)	lɤ³⁵	lɤ³⁵	play (a musical instrument)	play (a musical instrument)	V	V	5.1		0			
 277239	946	Lisu (Northern)	lɤʔ²¹	lɤʔ²¹	lick; taste	lick; taste	V	V	1.3.3.1		0			629
-277240	946	Lisu (Northern)	lɤ³³ʃwei³³ku²¹	lɤ³³ʃwei³³ku²¹	rice grown in cold water	rice grown in cold water	N	N	3.1.4		0			bChinese,m,bChinese,bChinese
+277240	946	Lisu (Northern)	lɤ³³ʃwei³³ku²¹	lɤ³³ʃwei³³ku²¹	rice grown in cold water	rice grown in cold water	N	N	3.1.4		0			bChinese|m,bChinese,bChinese
 277241	946	Lisu (Northern)	lɤ²¹	lɤ²¹	embroider (embroider the fringe of sleeves or skirts)	embroider (embroider the fringe of sleeves or skirts)	V	V	10.1.1		0			
 277242	946	Lisu (Northern)	lɤ²¹lɤ²¹	lɤ²¹lɤ²¹	full; many	full; many	V	V	1.1.3.2		0			
 277243	946	Lisu (Northern)	lɤ²¹lɤ²¹ bi⁵⁵ji³³	lɤ²¹lɤ²¹ bi⁵⁵ji³³	very full (of small volume)	very full (of small volume)			7.1.2.2		0			
@@ -5417,7 +5417,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 277296	946	Lisu (Northern)	li³³lwei³⁵	li³³lwei³⁵	theory	theory	N	N			0			bChinese
 277297	946	Lisu (Northern)	ljou²¹ ʃao³⁵tɕhi²¹	ljou²¹ ʃao³⁵tɕhi²¹	Liu Shaoqi	Liu Shaoqi	N	N			0			bChinese
 277298	946	Lisu (Northern)	li³³su³³	li³³su³³	Lisu	Lisu	N	N	4.6		0			m,5632
-277299	946	Lisu (Northern)	li³³su³³ aʔ²¹pu³³	li³³su³³ aʔ²¹pu³³	Lisu cucumber	Lisu cucumber			4.6		0			m,m,5632,m,p,p,m,5797
+277299	946	Lisu (Northern)	li³³su³³ aʔ²¹pu³³	li³³su³³ aʔ²¹pu³³	Lisu cucumber	Lisu cucumber			4.6		0			m|m,5632|m,p|p,5797|m
 277300	946	Lisu (Northern)	li³³su³³ma³³	li³³su³³ma³³	Lisu woman	Lisu woman			4.6		0			m,5632,m
 277301	946	Lisu (Northern)	li³³su³³my²¹	li³³su³³my²¹	Lisu area	Lisu area			4.6		0			m,5632,m
 277302	946	Lisu (Northern)	li³³su³³ŋɔ²¹	li³³su³³ŋɔ²¹	Lisu language (spoken)	Lisu language (spoken)			4.6		0			m,5632,m
@@ -5569,7 +5569,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 277449	946	Lisu (Northern)	lɔ²¹bɔ²¹	lɔ²¹bɔ²¹	cotton quilt	cotton quilt	N	N	5.1		0			
 277450	946	Lisu (Northern)	lɔ²¹ti⁵⁵sɔ³³	lɔ²¹ti⁵⁵sɔ³³	peanut	peanut (same as híªÁn¿££)	N	N	3.1.4		0	jbl1		
 277451	946	Lisu (Northern)	lɔ²¹ʃɿ²¹	lɔ²¹ʃɿ²¹	practicable	practicable	V	V			0			
-277452	946	Lisu (Northern)	lɔ²¹thɔ²¹	lɔ²¹thɔ²¹	camel	camel	N	N	2.2.7		0			bChinese,b
+277452	946	Lisu (Northern)	lɔ²¹thɔ²¹	lɔ²¹thɔ²¹	camel	camel	N	N	2.2.7		0			b|bChinese
 277453	946	Lisu (Northern)	lɔ²¹thɔ²¹my³³ ba³³tshi²¹	lɔ²¹thɔ²¹my³³ ba³³tshi²¹	camelhair clothing	camelhair clothing			5.11.8.2.1		0			
 277454	946	Lisu (Northern)	lɔ³³thu³³	lɔ³³thu³³	trough	trough	N	N	5.14		0			
 277455	946	Lisu (Northern)	lɔ⁴⁴	lɔ⁴⁴	ravine	ravine	N	N	3.2.5		0			191
@@ -5582,7 +5582,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 277462	946	Lisu (Northern)	lɔ⁴⁴	lɔ⁴⁴	basket carried on back	basket carried on back	N	N	5.1		0			
 277463	946	Lisu (Northern)	lɔ⁴⁴da²¹ma³³	lɔ⁴⁴da²¹ma³³	big basket carried on back	big basket carried on back			9.7.2		0			
 277464	946	Lisu (Northern)	lɔ⁴⁴za²¹	lɔ⁴⁴za²¹	small basket carried on back	small basket carried on back			9.7.2		0			
-277465	946	Lisu (Northern)	lɔ³³|tsɯ³³	lɔ³³tsɯ³³	mule	mule	N	N	2.1.7		0			5732,b
+277465	946	Lisu (Northern)	lɔ³³|tsɯ³³	lɔ³³tsɯ³³	mule	mule	N	N	2.1.7		0			5732|b
 277466	946	Lisu (Northern)	lɔ³³tʃɿ³³	lɔ³³tʃɿ³³	real; true	real; true (same as l¿££tûi££)	V	V	7.1.8.3		0	jbl1		
 277467	946	Lisu (Northern)	lu³³	lu³³	move (intransitive); move from side to side	move (intransitive); move from side to side	V	V	6.7.11		0			
 277468	946	Lisu (Northern)	ly³³	ly³³	old (of things)	old (of things)	N	N	7.1.8.3		0			7183
@@ -5610,14 +5610,14 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 277490	946	Lisu (Northern)	lu³⁵ɕæ³⁵	lu³⁵ɕæ³⁵	line	line	N	N	9.7.1		0			bChinese
 277491	946	Lisu (Northern)	luʔ²¹	luʔ²¹	anchor	anchor	N	N			0			
 277492	946	Lisu (Northern)	luʔ²¹tɤ⁵⁵	luʔ²¹tɤ⁵⁵	berth	berth	N	N			0			
-277493	946	Lisu (Northern)	lu²¹	lu²¹	dragon	dragon	N	N	2.1.5		0			bChinese,bChinese,b
-277494	946	Lisu (Northern)	lu²¹khɔʔ²¹	lu²¹khɔʔ²¹	year of the dragon	year of the dragon			9.1.2		0			b,b,2252,m
-277495	946	Lisu (Northern)	lu²¹khɔʔ²¹su³³	lu²¹khɔʔ²¹su³³	born in the year of the dragon	born in the year of the dragon			10.1.1		0			b,b,m,2252,m,m
-277496	946	Lisu (Northern)	lu²¹ma³³	lu²¹ma³³	mother dragon	mother dragon			4.7.1		0			b,bChinese,m,m
-277497	946	Lisu (Northern)	lu²¹ni³³	lu²¹ni³³	day of the dragon	day of the dragon			1.5.3.2		0			b,b,m,85
-277498	946	Lisu (Northern)	lu²¹pha²¹	lu²¹pha²¹	father dragon; dragon king	father dragon; dragon king			2.1.5		0			bChinese,b,m,m
-277499	946	Lisu (Northern)	lu²¹pha²¹ zaʔ²¹mɤʔ²¹	lu²¹pha²¹ zaʔ²¹mɤʔ²¹	dragon princess	dragon princess			2.1.5		0			bChinese,b,m,m,m,m,m,m
-277500	946	Lisu (Northern)	lu²¹pha²¹za²¹	lu²¹pha²¹za²¹	dragon prince	dragon prince			2.1.5		0			bChinese,b,m,m,m,m
+277493	946	Lisu (Northern)	lu²¹	lu²¹	dragon	dragon	N	N	2.1.5		0			b|bChinese|bChinese
+277494	946	Lisu (Northern)	lu²¹khɔʔ²¹	lu²¹khɔʔ²¹	year of the dragon	year of the dragon			9.1.2		0			b|b,2252|m
+277495	946	Lisu (Northern)	lu²¹khɔʔ²¹su³³	lu²¹khɔʔ²¹su³³	born in the year of the dragon	born in the year of the dragon			10.1.1		0			b|b,2252|m,m|m
+277496	946	Lisu (Northern)	lu²¹ma³³	lu²¹ma³³	mother dragon	mother dragon			4.7.1		0			b|bChinese,m|m
+277497	946	Lisu (Northern)	lu²¹ni³³	lu²¹ni³³	day of the dragon	day of the dragon			1.5.3.2		0			b|b,85|m
+277498	946	Lisu (Northern)	lu²¹pha²¹	lu²¹pha²¹	father dragon; dragon king	father dragon; dragon king			2.1.5		0			b|bChinese,m|m
+277499	946	Lisu (Northern)	lu²¹pha²¹ zaʔ²¹mɤʔ²¹	lu²¹pha²¹ zaʔ²¹mɤʔ²¹	dragon princess	dragon princess			2.1.5		0			b|bChinese,m|m,m|m,m|m
+277500	946	Lisu (Northern)	lu²¹pha²¹za²¹	lu²¹pha²¹za²¹	dragon prince	dragon prince			2.1.5		0			b|bChinese,m|m,m|m
 277501	946	Lisu (Northern)	lu²¹	lu²¹	increase	increase	V	V	9.5		0			
 277502	946	Lisu (Northern)	lu²¹bø³³	lu²¹bø³³	sea; lake	sea; lake	N	N	3.2.3		0			
 277503	946	Lisu (Northern)	lu²¹bø³³ da²¹ma³³	lu²¹bø³³ da²¹ma³³	sea; ocean	sea; ocean			3.2.3		0			
@@ -5630,7 +5630,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 277510	946	Lisu (Northern)	lu²¹hɔ³⁵ lu²¹tha³³	lu²¹hɔ³⁵ lu²¹tha³³	mountain torrent	mountain torrent			3.2.5		0			
 277511	946	Lisu (Northern)	lu²¹hɔ³⁵tɕhɯ³⁵	lu²¹hɔ³⁵tɕhɯ³⁵	sign of flood	sign of flood			8.1		0			
 277512	946	Lisu (Northern)	lu²¹jiʔ²¹	lu²¹jiʔ²¹	fast asleep	fast asleep	V	V	9.6.1.1		0			
-277513	946	Lisu (Northern)	lu²¹jiʔ²¹ a³³ le³³	lu²¹jiʔ²¹ a³³ le³³	fast asleep like a dragon (poetic)	fast asleep like a dragon (poetic)			9.6.1.1		0			bChinese,b,m,m,m,m,m,m
+277513	946	Lisu (Northern)	lu²¹jiʔ²¹ a³³ le³³	lu²¹jiʔ²¹ a³³ le³³	fast asleep like a dragon (poetic)	fast asleep like a dragon (poetic)			9.6.1.1		0			b|bChinese,m|m,m|m,m|m
 277514	946	Lisu (Northern)	lu²¹tsi³³	lu²¹tsi³³	climber-shaped evergreen shrub gnetum parvifolium	climber-shaped evergreen shrub gnetum parvifolium	N	N	6.7.7		0			bChinese
 277515	946	Lisu (Northern)	lu⁴⁴	lu⁴⁴	stir fry	stir fry	V	V	5.5		0			5684
 277516	946	Lisu (Northern)	lu⁴⁴dza⁴⁴	lu⁴⁴dza⁴⁴	fried rice	fried rice			5.5		0			
@@ -5964,7 +5964,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 277845	946	Lisu (Northern)	me³⁵ læ²¹hɔ³³	me³⁵ læ²¹hɔ³³	competition	competition					0			
 277846	946	Lisu (Northern)	me³³se³³	me³³se³³	interest	interest			8.3.2.6.1		0			
 277847	946	Lisu (Northern)	me³⁵si³³	me³⁵si³³	backwards	backwards	A	A	9.2.8		0			
-277848	946	Lisu (Northern)	me²¹	me²¹	coal	coal	N	N	3.2.4		0			bChinese,bChinese
+277848	946	Lisu (Northern)	me²¹	me²¹	coal	coal	N	N	3.2.4		0			bChinese|bChinese
 277849	946	Lisu (Northern)	me²¹	me²¹	dirt	dirt	N	N	1.5.3.2		0			3568
 277850	946	Lisu (Northern)	me²¹tshiʔ²¹	me²¹tshiʔ²¹	soap	soap			5.11.8.4		0			
 277851	946	Lisu (Northern)	me²¹le³³	me²¹le³³	shock; coma	shock; coma	N	N	8.3.1.9.1		0			
@@ -6246,7 +6246,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 278128	946	Lisu (Northern)	mi²¹je³³ sæʔ²¹wa²¹	mi²¹je³³ sæʔ²¹wa²¹	labour power	labour power			6.1.1		0			
 278129	946	Lisu (Northern)	mi²¹je³³su³³	mi²¹je³³su³³	worker; labourer	worker; labourer			6.1.1		0			
 278130	946	Lisu (Northern)	mi²¹je³³su³³ rɤ²¹mi²¹	mi²¹je³³su³³ rɤ²¹mi²¹	labouring people	labouring people			4.5		0			
-278131	946	Lisu (Northern)	mi²¹je³³ wa²¹phu²¹	mi²¹je³³ wa²¹phu²¹	work for pay; wages	work for pay; wages			6.1.1		0			2455,2455,m,m,m,m,m,2583
+278131	946	Lisu (Northern)	mi²¹je³³ wa²¹phu²¹	mi²¹je³³ wa²¹phu²¹	work for pay; wages	work for pay; wages			6.1.1		0			2455|2455,m|m,m|m,2583|m
 278132	946	Lisu (Northern)	mi²¹dzi²¹pha²¹	mi²¹dzi²¹pha²¹	manager (in administration of the church)	manager (in administration of the church)			10.1.1		0			
 278133	946	Lisu (Northern)	mi²¹	mi²¹	land; earth; place; cf. mi³³, my²¹	land; earth; place; cf. mi££, myªÁ	N	N	3.2.5		0			2453
 278134	946	Lisu (Northern)	mi²¹bi²¹	mi²¹bi²¹	map	map					0			
@@ -6254,7 +6254,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 278136	946	Lisu (Northern)	mi²¹by²¹	mi²¹by²¹	geography; environment	geography; environment					0			
 278137	946	Lisu (Northern)	mi²¹pɤ⁵⁵ lɔ³³pɤ⁵⁵	mi²¹pɤ⁵⁵ lɔ³³pɤ⁵⁵	edge of earth (legendary)	edge of earth (legendary)			9.2.7		0			2453,m,m,m
 278138	946	Lisu (Northern)	mi²¹pɤ⁵⁵ mi³³pɤ⁵⁵	mi²¹pɤ⁵⁵ mi³³pɤ⁵⁵	edge of land; change in situation	edge of land; change in situation			10.1.1		0			2453,m,m,m
-278139	946	Lisu (Northern)	mi²¹dɔ³³	mi²¹dɔ³³	beginning of the world; si	beginning of the world; si			9.5		0			m,e,2718
+278139	946	Lisu (Northern)	mi²¹dɔ³³	mi²¹dɔ³³	beginning of the world; si	beginning of the world; si			9.5		0			e|m,2718
 278140	946	Lisu (Northern)	mi²¹dɔ³³ tsha³³dɔ³³	mi²¹dɔ³³ tsha³³dɔ³³	beginning of world	beginning of world			9.5		0			m,2718
 278141	946	Lisu (Northern)	mi²¹dɔ³³ hã³³dɔ³³	mi²¹dɔ³³ hã³³dɔ³³	beginning of world	beginning of world			9.5		0			m,2718
 278142	946	Lisu (Northern)	mi²¹hwa³³	mi²¹hwa³³	look for a place	look for a place			1.2.6.11		0			m,5799
@@ -6274,13 +6274,13 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 278156	946	Lisu (Northern)	mi²¹hĩ³³sæʔ²¹ ɕwa³³du³³	mi²¹hĩ³³sæʔ²¹ ɕwa³³du³³	radio	radio (same as sÖªÁûwa££du££)			5.8		0	jbl1		
 278157	946	Lisu (Northern)	mi²¹hĩ³³ wa³³du³³	mi²¹hĩ³³ wa³³du³³	fan	fan			5.4		0			
 278158	946	Lisu (Northern)	mi²¹hwa⁵⁵	mi²¹hwa⁵⁵	diligent	diligent	V	V	9.6.1.2		0			
-278159	946	Lisu (Northern)	mi²¹tɕi³³	mi²¹tɕi³³	civil police	civil police	N	N	4.2.1		0			bChinese,bChinese
+278159	946	Lisu (Northern)	mi²¹tɕi³³	mi²¹tɕi³³	civil police	civil police	N	N	4.2.1		0			bChinese|bChinese
 278160	946	Lisu (Northern)	mi²¹tɕhæ³⁵pɔ³³	mi²¹tɕhæ³⁵pɔ³³	cannon	cannon	N	N	5.15		0			
 278161	946	Lisu (Northern)	mi²¹ʃɿ³³ga²¹	mi²¹ʃɿ³³ga²¹	machine-gun	machine-gun	N	N	5.1		0			
 278162	946	Lisu (Northern)	mi²¹ʃu³³	mi²¹ʃu³³	secretary	secretary	N	N			0			bChinese
 278163	946	Lisu (Northern)	mi²¹ɕi³⁵ si³³ɕa³³	mi²¹ɕi³⁵ si³³ɕa³³	superstitious idea	superstitious idea	N	N	8.3.1.13.1		0			
 278164	946	Lisu (Northern)	mi²¹tʃu³³	mi²¹tʃu³³	democracy	democracy	N	N			0			bChinese
-278165	946	Lisu (Northern)	mi²¹tʃu³³ kæ³³kɤ²¹	mi²¹tʃu³³ kæ³³kɤ²¹	democratic reform	democratic reform					0			bChinese,bChinese,bChinese,bChinese,bChinese
+278165	946	Lisu (Northern)	mi²¹tʃu³³ kæ³³kɤ²¹	mi²¹tʃu³³ kæ³³kɤ²¹	democratic reform	democratic reform					0			bChinese|bChinese,bChinese,bChinese,bChinese
 278166	946	Lisu (Northern)	mi⁴⁴	mi⁴⁴	with relish; nice	with relish; nice	V	V	10.1.1		0			
 278167	946	Lisu (Northern)	mi⁴⁴by²¹	mi⁴⁴by²¹	fragrance	fragrance	V	V	3.1.2		0			
 278168	946	Lisu (Northern)	mi⁴⁴tshiʔ²¹	mi⁴⁴tshiʔ²¹	scent; spice	scent; spice	N	N	7.1.4.5		0			
@@ -7285,8 +7285,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 279168	946	Lisu (Northern)	nɔ³⁵nɔ³⁵mu³³	nɔ³⁵nɔ³⁵mu³³	bulging	bulging	V	V			0			
 279169	946	Lisu (Northern)	nɔ³⁵nɔʔ²¹	nɔ³⁵nɔʔ²¹	milk; breast	milk; breast	N	N			0			253,259
 279170	946	Lisu (Northern)	nɔ²¹nɔ²¹dza²¹	nɔ²¹nɔ²¹dza²¹	wolf down	wolf down	V	V	2.1.11		0			
-279171	946	Lisu (Northern)	nɔ²¹je²¹	nɔ²¹je²¹	agriculture	agriculture	N	N	3.1.9		0			bChinese,bChinese
-279172	946	Lisu (Northern)	nɔ²¹je²¹ pa²¹tsi³⁵ ɕæ³⁵fa	nɔ²¹je²¹ pa²¹tsi³⁵ ɕæ³⁵fa	Eight Character Agricultural Constitution	Eight Character Agricultural Constitution			9.9		0			bChinese,bChinese
+279171	946	Lisu (Northern)	nɔ²¹je²¹	nɔ²¹je²¹	agriculture	agriculture	N	N	3.1.9		0			bChinese|bChinese
+279172	946	Lisu (Northern)	nɔ²¹je²¹ pa²¹tsi³⁵ ɕæ³⁵fa	nɔ²¹je²¹ pa²¹tsi³⁵ ɕæ³⁵fa	Eight Character Agricultural Constitution	Eight Character Agricultural Constitution			9.9		0			bChinese|bChinese
 279173	946	Lisu (Northern)	nɔ²¹je²¹ tɕi³³kæ³⁵hwa³⁵	nɔ²¹je²¹ tɕi³³kæ³⁵hwa³⁵	agricultural mechanisation	agricultural mechanisation					0			bChinese
 279174	946	Lisu (Northern)	nɔ²¹jɔ²¹	nɔ²¹jɔ²¹	pesticide	pesticide	N	N			0			bChinese
 279175	946	Lisu (Northern)	nu³³	nu³³	you (single)	you (single)	P	P	4.1		0			2489
@@ -7556,7 +7556,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 279440	946	Lisu (Northern)	phæ³⁵je³³	phæ³⁵je³³	deviate; part and go in different directions	deviate; part and go in different directions			8.2		0			
 279441	946	Lisu (Northern)	phæ³⁵	phæ³⁵	classifier for earrings	classifier for earrings	C	C	10.1.3		0			
 279442	946	Lisu (Northern)	phu³³na³³khɔ³⁵ thi²¹ phæ³	phu³³na³³khɔ³⁵ thi²¹ phæ³	one earring	one earring			9.9		0			
-279443	946	Lisu (Northern)	phæ³⁵tʃhu²¹sɔ³³	phæ³⁵tʃhu²¹sɔ³³	local police station	local police station	N	N	9.10.3		0			bChinese,bChinese
+279443	946	Lisu (Northern)	phæ³⁵tʃhu²¹sɔ³³	phæ³⁵tʃhu²¹sɔ³³	local police station	local police station	N	N	9.10.3		0			bChinese|bChinese
 279444	946	Lisu (Northern)	phæʔ²¹	phæʔ²¹	flag; banner	flag; banner	N	N	5.1		0			
 279445	946	Lisu (Northern)	phæʔ²¹læʔ²¹læʔ²¹	phæʔ²¹læʔ²¹læʔ²¹	flutter	flutter			6.7.5		0			
 279446	946	Lisu (Northern)	phæʔ²¹si²¹	phæʔ²¹si²¹	red flag	red flag			9.4		0			
@@ -7684,7 +7684,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 279568	946	Lisu (Northern)	phi⁵⁵du³³	phi⁵⁵du³³	plane (carpenter's tool)	plane (carpenter's tool)	N	N	5.1		0			
 279569	946	Lisu (Northern)	phi³³mɤ⁵⁵	phi³³mɤ⁵⁵	front piece of jacket	front piece of jacket	N	N	1.4.4		0			
 279570	946	Lisu (Northern)	phi³³na³³	phi³³na³³	have burning pain; itchy	have burning pain; itchy	V	V	8.2		0			
-279571	946	Lisu (Northern)	phjou³⁵	phjou³⁵	ticket	ticket	N	N			0			bChinese,bChinese
+279571	946	Lisu (Northern)	phjou³⁵	phjou³⁵	ticket	ticket	N	N			0			bChinese|bChinese
 279572	946	Lisu (Northern)	phjou³⁵vu²¹su³³	phjou³⁵vu²¹su³³	person who sells tickets	person who sells tickets	N	N	4.5		0			m,m,5632
 279573	946	Lisu (Northern)	phi³³phi²¹	phi³³phi²¹	criticise	criticise	V	V			0			bChinese
 279574	946	Lisu (Northern)	phiʔ²¹	phiʔ²¹	defeated	defeated	V	V	6.5		0			
@@ -7733,8 +7733,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 279617	946	Lisu (Northern)	phi²¹	phi²¹	weave; plait	weave; plait	V	V	5.1		0			2018
 279618	946	Lisu (Northern)	phi²¹	phi²¹	piece	piece	N, C	N, C	7.1.6.1		0			
 279619	946	Lisu (Northern)	phi²¹kɔ³³	phi²¹kɔ³³	apple	apple	N	N	3.1.5		0			bChinese
-279620	946	Lisu (Northern)	phi²¹nɔ²¹	phi²¹nɔ²¹	poor peasant	poor peasant	N	N	9.6.2.2		0			bChinese,bChinese
-279621	946	Lisu (Northern)	phi²¹tɕhɔ²¹	phi²¹tɕhɔ²¹	rubber ball	rubber ball	N	N	3.1.6.4		0			bChinese,bChinese
+279620	946	Lisu (Northern)	phi²¹nɔ²¹	phi²¹nɔ²¹	poor peasant	poor peasant	N	N	9.6.2.2		0			bChinese|bChinese
+279621	946	Lisu (Northern)	phi²¹tɕhɔ²¹	phi²¹tɕhɔ²¹	rubber ball	rubber ball	N	N	3.1.6.4		0			bChinese|bChinese
 279622	946	Lisu (Northern)	phi²¹tɕhɔ²¹ dɤ²¹	phi²¹tɕhɔ²¹ dɤ²¹	play with ball	play with ball			6.1.1.3		0			bChinese,bChinese,m
 279623	946	Lisu (Northern)	phi²¹tɕhɔ²¹ dɤ²¹pe⁵⁵	phi²¹tɕhɔ²¹ dɤ²¹pe⁵⁵	net for ball game	net for ball game			5.11.5.4		0			bChinese,bChinese,m,m
 279624	946	Lisu (Northern)	phi²¹tɕhɔ²¹ dɤ²¹tɤ⁵⁵	phi²¹tɕhɔ²¹ dɤ²¹tɤ⁵⁵	court for ball game	court for ball game			5.8		0			bChinese,bChinese,m,m
@@ -7848,12 +7848,12 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 279732	946	Lisu (Northern)	phy²¹mɤ⁴⁴ʃɿ⁵⁵	phy²¹mɤ⁴⁴ʃɿ⁵⁵	wax gourd seed	wax gourd seed			2.2.6		0			5797,166,m
 279733	946	Lisu (Northern)	phy²¹næ³³	phy²¹næ³³	kind of melon, Terminalia chebula	kind of melon, Terminalia chebula			8.3.3.2.1		0			5797
 279734	946	Lisu (Northern)	phy²¹phja²¹	phy²¹phja²¹	melon leaf	melon leaf			3.1.5		0			5797
-279735	946	Lisu (Northern)	phy²¹phu³³	phy²¹phu³³	white melon	white melon			9.4		0			m,5797,1235
+279735	946	Lisu (Northern)	phy²¹phu³³	phy²¹phu³³	white melon	white melon			9.4		0			5797|m,1235
 279736	946	Lisu (Northern)	phy²¹tɕhɯ³³	phy²¹tɕhɯ³³	bottle gourd	bottle gourd			5.1		0			5797,m
 279737	946	Lisu (Northern)	phy²¹sɤ²¹	phy²¹sɤ²¹	melon	melon			3.1.5		0			5797
 279738	946	Lisu (Northern)	phy²¹ʃɿ³³	phy²¹ʃɿ³³	golden melon	golden melon			9.4		0			5797
 279739	946	Lisu (Northern)	phy²¹ʃɿ⁵⁵	phy²¹ʃɿ⁵⁵	melon seed	melon seed			3.1.5		0			5797
-279740	946	Lisu (Northern)	phy²¹ve³³	phy²¹ve³³	melon flower	melon flower			3.1.5		0			m,5797,2185
+279740	946	Lisu (Northern)	phy²¹ve³³	phy²¹ve³³	melon flower	melon flower			3.1.5		0			5797|m,2185
 279741	946	Lisu (Northern)	phy²¹tsɔ³⁵	phy²¹tsɔ³⁵	melon plot	melon plot			3.1.5		0			5797
 279742	946	Lisu (Northern)	phy²¹tsɔ³⁵mɤ⁴⁴	phy²¹tsɔ³⁵mɤ⁴⁴	base of melon	base of melon			5.11.9		0			5797
 279743	946	Lisu (Northern)	phy²¹	phy²¹	precious; N money, funds; cf. phu³³	precious; N money, funds; cf. phu££	V	V	9.6.1.1		0			
@@ -7874,7 +7874,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 279758	946	Lisu (Northern)	phy²¹za²¹ dʑi⁴⁴ma³³	phy²¹za²¹ dʑi⁴⁴ma³³	wealth; riches	wealth; riches			5.9		0			
 279759	946	Lisu (Northern)	phy²¹za²¹ dʑi⁴⁴za²¹	phy²¹za²¹ dʑi⁴⁴za²¹	property	property			9.10.3		0			
 279760	946	Lisu (Northern)	phu²¹la³³	phu²¹la³³	Bodhisattva; god	Bodhisattva; god	N	N	5.8.1.1		0			
-279761	946	Lisu (Northern)	phu³³thɔ³³hwa³⁵	phu³³thɔ³³hwa³⁵	standard Chinese	standard Chinese	N	N	8.1		0			bChinese,bChinese
+279761	946	Lisu (Northern)	phu³³thɔ³³hwa³⁵	phu³³thɔ³³hwa³⁵	standard Chinese	standard Chinese	N	N	8.1		0			bChinese|bChinese
 279762	946	Lisu (Northern)	phy²¹pha²¹	phy²¹pha²¹	ancestor; ancestry; forfathers	ancestor; ancestry; forfathers	N	N			0			
 279763	946	Lisu (Northern)	phy²¹pha²¹ pa³³pha²¹	phy²¹pha²¹ pa³³pha²¹	ancester; ancestry; forfathers	ancester; ancestry; forfathers					0			
 279764	946	Lisu (Northern)	phy²¹pha²¹kɔ²¹	phy²¹pha²¹kɔ²¹	motherland	motherland					0			
@@ -7892,7 +7892,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 279776	946	Lisu (Northern)	tɕha³³la³³	tɕha³³la³³	invade	invade			6.5		0			
 279777	946	Lisu (Northern)	tɕha³³ni³³thɯ³³	tɕha³³ni³³thɯ³³	look for; seek	look for; seek			1.2.6.11		0			5799,5419,m
 279778	946	Lisu (Northern)	tɕhæ³³	tɕhæ³³	willing; agree	willing; agree	V	V	8.3.1.8.1		0			
-279779	946	Lisu (Northern)	tɕhæ³³pi²¹	tɕhæ³³pi²¹	pencil	pencil	N	N	5.1		0			bChinese,bChinese
+279779	946	Lisu (Northern)	tɕhæ³³pi²¹	tɕhæ³³pi²¹	pencil	pencil	N	N	5.1		0			bChinese|bChinese
 279780	946	Lisu (Northern)	tɕhæ⁵⁵	tɕhæ⁵⁵	dance	dance	V	V	6.7.9		0			6705
 279781	946	Lisu (Northern)	tɕhæ⁵⁵ŋɔ²¹	tɕhæ⁵⁵ŋɔ²¹	dance	dance (noun)	n		6.7.9		0	dwb44		6705,m
 279782	946	Lisu (Northern)	tɕhæ³⁵	tɕhæ³⁵	dismantle; withdraw	dismantle; withdraw	V	V	6.9		0			
@@ -8068,9 +8068,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 279952	946	Lisu (Northern)	tɕhi³³my³³	tɕhi³³my³³	kind of wild mushroom, Lactarius piperatus	kind of wild mushroom, Lactarius piperatus	N	N	8.3.3.2.1		0			m,2472
 279953	946	Lisu (Northern)	tɕhi³⁵a³³	tɕhi³⁵a³³	thought	thought	V	V	8.3		0			
 279954	946	Lisu (Northern)	tɕhi³⁵æ³⁵	tɕhi³⁵æ³⁵	string bag	string bag	N	N	5.1		0			
-279955	946	Lisu (Northern)	tɕhi³⁵tʃhɯ³³	tɕhi³⁵tʃhɯ³³	motor vehicle	motor vehicle	N	N	5.1		0			bChinese,bChinese
-279956	946	Lisu (Northern)	tɕhi³⁵tʃhɯ³³ kɔ³³si³³	tɕhi³⁵tʃhɯ³³ kɔ³³si³³	bus company	bus company	N	N	4.4		0			bChinese,bChinese
-279957	946	Lisu (Northern)	tɕhi³⁵tɤ³³	tɕhi³⁵tɤ³³	gas lamp	gas lamp	N	N	3.2.8		0			bChinese,bChinese
+279955	946	Lisu (Northern)	tɕhi³⁵tʃhɯ³³	tɕhi³⁵tʃhɯ³³	motor vehicle	motor vehicle	N	N	5.1		0			bChinese|bChinese
+279956	946	Lisu (Northern)	tɕhi³⁵tʃhɯ³³ kɔ³³si³³	tɕhi³⁵tʃhɯ³³ kɔ³³si³³	bus company	bus company	N	N	4.4		0			bChinese|bChinese
+279957	946	Lisu (Northern)	tɕhi³⁵tɤ³³	tɕhi³⁵tɤ³³	gas lamp	gas lamp	N	N	3.2.8		0			bChinese|bChinese
 279958	946	Lisu (Northern)	tɕhi³³tɕhi³³ ma²¹ tɕhi³³	tɕhi³³tɕhi³³ ma²¹ tɕhi³³	barely make it; nearly	barely make it; nearly	V	V	7.1.2.2		0			
 279959	946	Lisu (Northern)	tɕhi³⁵ɕa³⁵tʃa³⁵	tɕhi³⁵ɕa³⁵tʃa³⁵	meteorological observatory	meteorological observatory	N	N			0			bChinese
 279960	946	Lisu (Northern)	tɕhi³⁵je²¹	tɕhi³⁵je²¹	enterprise	enterprise	N	N			0			bChinese
@@ -8172,7 +8172,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 280056	946	Lisu (Northern)	rɯ²¹mi²¹kɔ³⁵hɔ²¹kɔ²¹	rɯ²¹mi²¹kɔ³⁵hɔ²¹kɔ²¹	People's Republic	People's Republic	N	N	4.5		0			bChinese
 280057	946	Lisu (Northern)	rɯ²¹mi²¹ kɔ²¹tɕa³³	rɯ²¹mi²¹ kɔ²¹tɕa³³	citizens	citizens	N	N			0			bChinese
 280058	946	Lisu (Northern)	rɯ²¹mi²¹tɕæ³³tʃha²¹jæ³⁵	rɯ²¹mi²¹tɕæ³³tʃha²¹jæ³⁵	People's Procuratorate	People's Procuratorate	N	N	4.5		0			bChinese
-280059	946	Lisu (Northern)	rɯ²¹mi²¹tɕi³³tʃha²¹	rɯ²¹mi²¹tɕi³³tʃha²¹	People's Police	People's Police	N	N	4.5		0			bChinese,bChinese
+280059	946	Lisu (Northern)	rɯ²¹mi²¹tɕi³³tʃha²¹	rɯ²¹mi²¹tɕi³³tʃha²¹	People's Police	People's Police	N	N	4.5		0			bChinese|bChinese
 280060	946	Lisu (Northern)	rɯ²¹mi²¹ mi²¹tʃu³³ kɔ²¹tɕ	rɯ²¹mi²¹ mi²¹tʃu³³ kɔ²¹tɕ	people's democratic country	people's democratic country	N	N	4.5		0			bChinese
 280061	946	Lisu (Northern)	rɯ²¹mi²¹ mi²¹tʃu³³ tʃwa³³	rɯ²¹mi²¹ mi²¹tʃu³³ tʃwa³³	people's democratic dictatorship	people's democratic dictatorship	N	N	4.5		0			bChinese
 280062	946	Lisu (Northern)	rɯ²¹mi²¹ʒɿ²¹pao³⁵	rɯ²¹mi²¹ʒɿ²¹pao³⁵	People's Daily	People's Daily	N	N	4.5		0			bChinese
@@ -8196,8 +8196,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 280080	946	Lisu (Northern)	rɔ³³	rɔ³³	small	small (same as j¿££)	V	V	9.7.2		0	jbl1		
 280081	946	Lisu (Northern)	rɔ²¹	rɔ²¹	we (not including listener); we (including listener)	we (not including listener); we (including listener) (same as j¿ªÁ)	P	P	4.1		0	jbl1		
 280082	946	Lisu (Northern)	rɔ⁴⁴	rɔ⁴⁴	sheep; goat (in the calendrical cycle)	sheep; goat (in the calendrical cycle)	N	N	2.1.8		0			6031
-280083	946	Lisu (Northern)	rɔ⁴⁴khɔʔ²¹	rɔ⁴⁴khɔʔ²¹	year of goat	year of goat			9.1.2		0			m,m,2252
-280084	946	Lisu (Northern)	rɔ⁴⁴ni³³	rɔ⁴⁴ni³³	day of the goat	day of the goat			1.5.3.2		0			m,m,85
+280083	946	Lisu (Northern)	rɔ⁴⁴khɔʔ²¹	rɔ⁴⁴khɔʔ²¹	year of goat	year of goat			9.1.2		0			m,2252|m
+280084	946	Lisu (Northern)	rɔ⁴⁴ni³³	rɔ⁴⁴ni³³	day of the goat	day of the goat			1.5.3.2		0			m,85|m
 280085	946	Lisu (Northern)	rɔ⁴⁴	rɔ⁴⁴	rancid	rancid	V	V	7.1.4.4		0			1655
 280086	946	Lisu (Northern)	dʒɿ³³	dʒɿ³³	attack with head, butt; touch	attack with head, butt; touch	V	V	6.5		0			
 280087	946	Lisu (Northern)	dʒɿ³³ læ²¹hɔ³³	dʒɿ³³ læ²¹hɔ³³	attack each other with head	attack each other with head			6.5		0			
@@ -8381,7 +8381,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 280265	946	Lisu (Northern)	sa⁵⁵zaʔ²¹	sa⁵⁵zaʔ²¹	nephew	nephew	N	N	4.7.3		0			
 280266	946	Lisu (Northern)	sa⁵⁵jiʔ²¹	sa⁵⁵jiʔ²¹	polite; decline a favour	polite; decline a favour	V	V	6.19		0			
 280267	946	Lisu (Northern)	sa⁵⁵ji⁴⁴	sa⁵⁵ji⁴⁴	water in the top pot (when distilling wine, water put in the pot on top of the earthen jar used for distilling)	water in the top pot (when distilling wine, water put in the pot on top of the earthen jar used for distilling)	N	N	10.1.1		0			
-280268	946	Lisu (Northern)	sao³³ma²¹	sao³³ma²¹	wipe out illiteracy	wipe out illiteracy	V	V	6.2.2.1		0			bChinese,bChinese
+280268	946	Lisu (Northern)	sao³³ma²¹	sao³³ma²¹	wipe out illiteracy	wipe out illiteracy	V	V	6.2.2.1		0			bChinese|bChinese
 280269	946	Lisu (Northern)	sa³³sɔ³³	sa³³sɔ³³	cotton cloth; cloth; cf. sa³³laʔ²¹	cotton cloth; cloth; cf. sa££laÖªÁ	N	N	5.1		0			
 280270	946	Lisu (Northern)	sa³³sɔ³³dɔ³³	sa³³sɔ³³dɔ³³	piece goods	piece goods (same as mí££d¿££)			7.1.6.1		0	jbl1		
 280271	946	Lisu (Northern)	sa³³sɔ³³næ³³	sa³³sɔ³³næ³³	black cloth	black cloth (same as mí££n££)			9.4		0	jbl1		m,m,2483
@@ -8576,7 +8576,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 280460	946	Lisu (Northern)	ʃɿ²¹ʃɿ³³	ʃɿ²¹ʃɿ³³	embroidery frame; hoop	embroidery frame; hoop	N	N	5.8		0			
 280461	946	Lisu (Northern)	ʃɿ²¹thæ²¹	ʃɿ²¹thæ²¹	early; morning; dawn	early; morning; dawn	N	N	9.1.4		0			1837,m
 280462	946	Lisu (Northern)	ʃɿ²¹thu²¹ dʑi⁴⁴	ʃɿ²¹thu²¹ dʑi⁴⁴	dawn; daybreak (poetic)	dawn; daybreak (poetic)	N	N	9.1.4		0			
-280463	946	Lisu (Northern)	ʃou³³tu³³	ʃou³³tu³³	capital city	capital city	N	N	9.10.3		0			bChinese,bChinese
+280463	946	Lisu (Northern)	ʃou³³tu³³	ʃou³³tu³³	capital city	capital city	N	N	9.10.3		0			bChinese|bChinese
 280464	946	Lisu (Northern)	ʃou³³ljou²¹ta³⁵	ʃou³³ljou²¹ta³⁵	hand grenade	hand grenade	N	N	1.5.1.1		0			bChinese
 280465	946	Lisu (Northern)	ʃu³³	ʃu³³	breathe in; suck	breathe in; suck	V	V	1.1.2.2		0			
 280466	946	Lisu (Northern)	ʃu³³	ʃu³³	outer cover	outer cover	N	N	9.2		0			
@@ -8949,7 +8949,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 280833	946	Lisu (Northern)	su³³thɤ³³	su³³thɤ³³	instigate; uproar	instigate; uproar					0			
 280834	946	Lisu (Northern)	swa³⁵phæ²¹	swa³⁵phæ²¹	abacus	abacus	N	N			0			bChinese
 280835	946	Lisu (Northern)	swa³⁵ʃu²¹	swa³⁵ʃu²¹	arithmetic	arithmetic	N	N			0			bChinese
-280836	946	Lisu (Northern)	swaʔ²¹	swaʔ²¹	calculate	calculate	V	V	8.3.1.13.1		0			bChinese,bChinese
+280836	946	Lisu (Northern)	swaʔ²¹	swaʔ²¹	calculate	calculate	V	V	8.3.1.13.1		0			bChinese|bChinese
 280837	946	Lisu (Northern)	swaʔ²¹tshɯ³⁵kɯ³³	swaʔ²¹tshɯ³⁵kɯ³³	final accounts	final accounts					0			
 280838	946	Lisu (Northern)	swaʔ²¹hã³⁵	swaʔ²¹hã³⁵	make calculation	make calculation			6.14		0			
 280839	946	Lisu (Northern)	swaʔ²¹ni³³	swaʔ²¹ni³³	budget	budget					0			
@@ -8958,7 +8958,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 280842	946	Lisu (Northern)	swaʔ²¹wa³³	swaʔ²¹wa³³	predict rightly; estimate	predict rightly; estimate			8.5.14.2		0			
 280843	946	Lisu (Northern)	swaʔ²¹wa³³	swaʔ²¹wa³³	understand; guess out	understand; guess out			8.3.1.13.1		0			
 280844	946	Lisu (Northern)	su³³ta³³	su³³ta³³	soda	soda	N	N			0			bChinese
-280845	946	Lisu (Northern)	swei³⁵ɔ²¹	swei³⁵ɔ²¹	water polo	water polo	N	N	3.2.3		0			bChinese,bChinese
+280845	946	Lisu (Northern)	swei³⁵ɔ²¹	swei³⁵ɔ²¹	water polo	water polo	N	N	3.2.3		0			bChinese|bChinese
 280846	946	Lisu (Northern)	su⁵⁵	su⁵⁵	fill the air; cover	fill the air; cover	V	V	6.11		0			
 280847	946	Lisu (Northern)	su⁵⁵	su⁵⁵	wrinkle; shrink	wrinkle; shrink	V	V	9.6.2		0			
 280848	946	Lisu (Northern)	su⁵⁵su⁵⁵mu³³	su⁵⁵su⁵⁵mu³³	frown; purse the lips	frown; purse the lips			1.8.8.1		0			
@@ -9313,7 +9313,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 281197	946	Lisu (Northern)	thɔ²¹ɤ²¹ tsɔ³⁵	thɔ²¹ɤ²¹ tsɔ³⁵	written form of language; word	written form of language; word			6.2.2.9.1		0			
 281198	946	Lisu (Northern)	thɔ²¹ɤ²¹ tsɔ³⁵ bɔ³³ŋɔ²¹	thɔ²¹ɤ²¹ tsɔ³⁵ bɔ³³ŋɔ²¹	calligraphy	calligraphy					0			
 281199	946	Lisu (Northern)	thɔ²¹ɤ²¹ tsɔ³⁵ ma³³ti³³	thɔ²¹ɤ²¹ tsɔ³⁵ ma³³ti³³	letter (in writing)	letter (in writing)			5.1		0			
-281200	946	Lisu (Northern)	thɔ²¹tɕi³³ tɔ³³pa³³	thɔ²¹tɕi³³ tɔ³³pa³³	engage in speculation and profiteering	engage in speculation and profiteering	V	V	6.2.2.1		0			bChinese,bChinese
+281200	946	Lisu (Northern)	thɔ²¹tɕi³³ tɔ³³pa³³	thɔ²¹tɕi³³ tɔ³³pa³³	engage in speculation and profiteering	engage in speculation and profiteering	V	V	6.2.2.1		0			bChinese|bChinese
 281201	946	Lisu (Northern)	thɔ²¹hɤ³³ɣɔʔ²¹	thɔ²¹hɤ³³ɣɔʔ²¹	fennel	fennel	N	N			0			
 281202	946	Lisu (Northern)	thɔ²¹khu²¹	thɔ²¹khu²¹	pangolin	pangolin	N	N	2.2.7		0			
 281203	946	Lisu (Northern)	thɔ²¹li²¹tɕi³³	thɔ²¹li²¹tɕi³³	thresher	thresher	N	N			0			bChinese
@@ -9462,7 +9462,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 281346	946	Lisu (Northern)	wa³³ti⁵⁵kɔ²¹	wa³³ti⁵⁵kɔ²¹	monarchical state	monarchical state			8.5.3		0			bChinese
 281347	946	Lisu (Northern)	wa³³ti⁵⁵hĩ³³	wa³³ti⁵⁵hĩ³³	imperial palace; palace	imperial palace; palace			5.11.9.1		0			
 281348	946	Lisu (Northern)	wæ³³	wæ³³	(interrogative)	(interrogative)	Pf	Pf			0			
-281349	946	Lisu (Northern)	wæ³⁵kɔ²¹	wæ³⁵kɔ²¹	foreign country	foreign country	N	N	4.4.3		0			bChinese,bChinese
+281349	946	Lisu (Northern)	wæ³⁵kɔ²¹	wæ³⁵kɔ²¹	foreign country	foreign country	N	N	4.4.3		0			bChinese|bChinese
 281350	946	Lisu (Northern)	wæ³⁵khɔ³³	wæ³⁵khɔ³³	surgery	surgery	N	N			0			bChinese
 281351	946	Lisu (Northern)	wæ³⁵ læ²¹hɔ³³	wæ³⁵ læ²¹hɔ³³	match well	match well	V	V	5.11.5.5		0			
 281352	946	Lisu (Northern)	wa³³tɕe³³	wa³³tɕe³³	sieve	sieve	N	N	5.5		0			
@@ -9694,7 +9694,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 281578	946	Lisu (Northern)	ɕi³³hæ³⁵ kɯ²¹mi³⁵	ɕi³³hæ³⁵ kɯ²¹mi³⁵	1911 Revolution	1911 Revolution	N	N			0		c	bChinese
 281579	946	Lisu (Northern)	ɕi³³hwa²¹ʃɯ³⁵	ɕi³³hwa²¹ʃɯ³⁵	New China News Agency	New China News Agency	N	N	9.6.1.1		0			bChinese
 281580	946	Lisu (Northern)	ɕi³³hwa²¹ʃu³³tja³⁵	ɕi³³hwa²¹ʃu³³tja³⁵	New China Bookshop	New China Bookshop	N	N	9.6.1.1		0			bChinese
-281581	946	Lisu (Northern)	ɕi³³mi²¹tʃu³³ tʃu³³ji³⁵ k	ɕi³³mi²¹tʃu³³ tʃu³³ji³⁵ k	new democratic revolution	new democratic revolution	N	N	9.6.1.1		0			bChinese,bChinese
+281581	946	Lisu (Northern)	ɕi³³mi²¹tʃu³³ tʃu³³ji³⁵ k	ɕi³³mi²¹tʃu³³ tʃu³³ji³⁵ k	new democratic revolution	new democratic revolution	N	N	9.6.1.1		0			bChinese|bChinese
 281582	946	Lisu (Northern)	ɕjou³³tʃɯ³⁵ tʃu³³ji³⁵	ɕjou³³tʃɯ³⁵ tʃu³³ji³⁵	revisionism	revisionism	N	N			0			bChinese
 281583	946	Lisu (Northern)	ɕi³⁵jɔ³⁵ʃɤ³⁵	ɕi³⁵jɔ³⁵ʃɤ³⁵	credit cooperative	credit cooperative	N	N	6.19		0			bChinese
 281584	946	Lisu (Northern)	ɕi²¹æ²¹ ʃa³⁵ɕɔ²¹	ɕi²¹æ²¹ ʃa³⁵ɕɔ²¹	metaphysics	metaphysics	N	N			0			bChinese
@@ -9837,7 +9837,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 281721	946	Lisu (Northern)	ɕwa⁵⁵thø³³khɤ²¹	ɕwa⁵⁵thø³³khɤ²¹	utterance; word; sentence; opinion on public affairs	utterance; word; sentence; opinion on public affairs			8.5.10.1		0			
 281722	946	Lisu (Northern)	ɕwa⁵⁵wa³³thø³³	ɕwa⁵⁵wa³³thø³³	talk	talk	V	V	8.5.10.1		0			
 281723	946	Lisu (Northern)	jæ³³	jæ³³	shake	shake	V	V	6.7.9		0			
-281724	946	Lisu (Northern)	jæ³³	jæ³³	tobacco	tobacco	N	N	3.1.6.2		0			bChinese,bChinese
+281724	946	Lisu (Northern)	jæ³³	jæ³³	tobacco	tobacco	N	N	3.1.6.2		0			bChinese|bChinese
 281725	946	Lisu (Northern)	jæ³³kwa⁵⁵	jæ³³kwa⁵⁵	pipe	pipe			5.8		0			
 281726	946	Lisu (Northern)	jæ³³tæ³⁵	jæ³³tæ³⁵	pay tribute to	pay tribute to	V	V	6.22		0			
 281727	946	Lisu (Northern)	jæ³³ka⁵⁵	jæ³³ka⁵⁵	tool used in twisting hemp thread	tool used in twisting hemp thread	N	N	5.11.5.4		0			
@@ -10015,11 +10015,11 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 281899	946	Lisu (Northern)	jɔ²¹gu³³ jɔ²¹dzi²¹	jɔ²¹gu³³ jɔ²¹dzi²¹	independent; administer by oneself; have self-determination	independent; administer by oneself; have self-determination	V	V	4.1		0			
 281900	946	Lisu (Northern)	jɔ²¹tɕi²¹twei³⁵	jɔ²¹tɕi²¹twei³⁵	guerrilla forces	guerrilla forces	N	N			0			bChinese
 281901	946	Lisu (Northern)	jɔ²¹pha²¹	jɔ²¹pha²¹	wife's brother	wife's brother	N	N	1.5.3.2		0			
-281902	946	Lisu (Northern)	jɔ²¹phjou³⁵	jɔ²¹phjou³⁵	postage stamp	postage stamp	N	N	6.2.2.1		0			bChinese,bChinese
+281902	946	Lisu (Northern)	jɔ²¹phjou³⁵	jɔ²¹phjou³⁵	postage stamp	postage stamp	N	N	6.2.2.1		0			bChinese|bChinese
 281903	946	Lisu (Northern)	jɔ⁴⁴	jɔ⁴⁴	rancid	rancid	V	V	7.1.4.4		0			1655
 281904	946	Lisu (Northern)	jɔ⁴⁴	jɔ⁴⁴	sheep; (in animal cycle) goat	sheep; (in animal cycle) goat	N	N	2.1.8		0			6028
-281905	946	Lisu (Northern)	jɔ⁴⁴khɔʔ²¹	jɔ⁴⁴khɔʔ²¹	year of goat	year of goat			9.1.2		0			m,m,2252
-281906	946	Lisu (Northern)	jɔ⁴⁴ni³³	jɔ⁴⁴ni³³	day of goat	day of goat			1.5.3.2		0			m,m,85
+281905	946	Lisu (Northern)	jɔ⁴⁴khɔʔ²¹	jɔ⁴⁴khɔʔ²¹	year of goat	year of goat			9.1.2		0			m,2252|m
+281906	946	Lisu (Northern)	jɔ⁴⁴ni³³	jɔ⁴⁴ni³³	day of goat	day of goat			1.5.3.2		0			m,85|m
 281907	946	Lisu (Northern)	jwei³³ mɔ²¹tɕhɔ²¹	jwei³³ mɔ²¹tɕhɔ²¹	badminton	badminton	N	N			0			bChinese
 281908	946	Lisu (Northern)	jwei³⁵tɔ³⁵hwei³⁵	jwei³⁵tɔ³⁵hwei³⁵	sports meet	sports meet	N	N	6.2		0			bChinese
 281909	946	Lisu (Northern)	jwei³⁵tɔ³⁵jæ²¹	jwei³⁵tɔ³⁵jæ²¹	sportsman	sportsman	N	N			0			bChinese
@@ -10145,7 +10145,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 282029	946	Lisu (Northern)	tʃɿ³⁵ni²¹tʃɿ³⁵	tʃɿ³⁵ni²¹tʃɿ³⁵	convulsion; epilepsy	convulsion; epilepsy	V	V	6.7.3		0			
 282030	946	Lisu (Northern)	tʃɿ³⁵tɕhi³³	tʃɿ³⁵tɕhi³³	involve; relate to	involve; relate to	V	V	10.1.1		0			
 282031	946	Lisu (Northern)	tʃɿ³⁵thu²¹	tʃɿ³⁵thu²¹	water gun (toy made of bamboo which can squirt water)	water gun (toy made of bamboo which can squirt water)	N	N	3.2.3		0			
-282032	946	Lisu (Northern)	tʃɿ³⁵jæ³⁵tɕwei³³	tʃɿ³⁵jæ³⁵tɕwei³³	Chinese volunteers	Chinese volunteers	N	N	4.6		0			bChinese,bChinese
+282032	946	Lisu (Northern)	tʃɿ³⁵jæ³⁵tɕwei³³	tʃɿ³⁵jæ³⁵tɕwei³³	Chinese volunteers	Chinese volunteers	N	N	4.6		0			bChinese|bChinese
 282033	946	Lisu (Northern)	tʃɿ³³ʃɿ²¹ fɯ³⁵tsi³³	tʃɿ³³ʃɿ²¹ fɯ³⁵tsi³³	intellectual	intellectual	N	N			0			bChinese
 282034	946	Lisu (Northern)	tʃɿ³³ʃɿ²¹ tɕhi³³ɲa²¹	tʃɿ³³ʃɿ²¹ tɕhi³³ɲa²¹	educated youth	educated youth	N	N	6.19		0			bChinese
 282035	946	Lisu (Northern)	tʃɿ³³zaʔ²¹ tshe²¹zaʔ²¹	tʃɿ³³zaʔ²¹ tshe²¹zaʔ²¹	diligent and thrifty	diligent and thrifty	V	V	9.6.1.2		0			
@@ -10158,11 +10158,11 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 282042	946	Lisu (Northern)	tʃou³³ ɤ̃³³læ²¹	tʃou³³ ɤ̃³³læ²¹	Zhou Enlai	Zhou Enlai	N	N			0			bChinese
 282043	946	Lisu (Northern)	tʃɔ³³kɔ²¹	tʃɔ³³kɔ²¹	China	China	N	N			0			bChinese
 282044	946	Lisu (Northern)	tʃɔ³³kɔ²¹ kɔ³⁵tʃha³³ta³³	tʃɔ³³kɔ²¹ kɔ³⁵tʃha³³ta³³	Communist Party of China	Communist Party of China			10.1.1		0			bChinese
-282045	946	Lisu (Northern)	tʃɔ³³kɔ²¹ kɔ³⁵tʃha³³ tʃu³	tʃɔ³³kɔ²¹ kɔ³⁵tʃha³³ tʃu³	Chinese Communist Youth League	Chinese Communist Youth League			4.6		0			bChinese,bChinese
-282046	946	Lisu (Northern)	tʃɔ³³kɔ²¹ rɯ²¹mi²¹ kæ³³fa	tʃɔ³³kɔ²¹ rɯ²¹mi²¹ kæ³³fa	Chinese People's Liberation Army	Chinese People's Liberation Army			4.6		0			bChinese,bChinese
+282045	946	Lisu (Northern)	tʃɔ³³kɔ²¹ kɔ³⁵tʃha³³ tʃu³	tʃɔ³³kɔ²¹ kɔ³⁵tʃha³³ tʃu³	Chinese Communist Youth League	Chinese Communist Youth League			4.6		0			bChinese|bChinese
+282046	946	Lisu (Northern)	tʃɔ³³kɔ²¹ rɯ²¹mi²¹ kæ³³fa	tʃɔ³³kɔ²¹ rɯ²¹mi²¹ kæ³³fa	Chinese People's Liberation Army	Chinese People's Liberation Army			4.6		0			bChinese|bChinese
 282047	946	Lisu (Northern)	tʃɔ³³ kɔ³⁵ tʃɔ³³ja³³ tʃɯ³	tʃɔ³³ kɔ³⁵ tʃɔ³³ja³³ tʃɯ³	Politbureau of the Central Committee of the Communist Party of China	Politbureau of the Central Committee of the Communist Party of China			10.1.1		0			bChinese
 282048	946	Lisu (Northern)	tʃɔ³³hwa²¹ rɯ²¹mi²¹ kɔ³⁵h	tʃɔ³³hwa²¹ rɯ²¹mi²¹ kɔ³⁵h	People's Republic of China	People's Republic of China	N	N	4.5		0			bChinese
-282049	946	Lisu (Northern)	tʃɔ³³nɔ²¹	tʃɔ³³nɔ²¹	middle peasant	middle peasant	N	N	1.9.4		0			bChinese,bChinese
+282049	946	Lisu (Northern)	tʃɔ³³nɔ²¹	tʃɔ³³nɔ²¹	middle peasant	middle peasant	N	N	1.9.4		0			bChinese|bChinese
 282050	946	Lisu (Northern)	tʃɔ³³ɕɔ²¹	tʃɔ³³ɕɔ²¹	middle school	middle school	N	N	1.9.4		0			bChinese
 282051	946	Lisu (Northern)	tʃɔ³³ja³³ tɕhæ²¹hwei³⁵	tʃɔ³³ja³³ tɕhæ²¹hwei³⁵	plenary session of the central committee of CPC	plenary session of the central committee of CPC	N	N	10.1.1		0			bChinese
 282052	946	Lisu (Northern)	tʃu³³	tʃu³³	oval	oval	V	V	9.7.1		0			
@@ -10182,7 +10182,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 282066	946	Lisu (Northern)	tsi³³fu³³kɯ³³	tsi³³fu³³kɯ³³	dispatch; send	dispatch; send			6.22		0			
 282067	946	Lisu (Northern)	tsi³³	tsi³³	ask	ask	V	V	8.5.7.1		0			
 282068	946	Lisu (Northern)	tsi³³	tsi³³	generate	generate	V	V			0			
-282069	946	Lisu (Northern)	tsi³³pa³³ku²¹	tsi³³pa³³ku²¹	purple sticky rice	purple sticky rice	N	N	9.4		0			bChinese,bChinese
+282069	946	Lisu (Northern)	tsi³³pa³³ku²¹	tsi³³pa³³ku²¹	purple sticky rice	purple sticky rice	N	N	9.4		0			bChinese|bChinese
 282070	946	Lisu (Northern)	tsi³³pɯ³³tɕa³³	tsi³³pɯ³³tɕa³³	capitalist	capitalist	N	N			0			bChinese
 282071	946	Lisu (Northern)	tsi³³pɯ³³ tʃu³³ji³⁵ ʃɤ³⁵h	tsi³³pɯ³³ tʃu³³ji³⁵ ʃɤ³⁵h	capitalist society	capitalist society			5.8		0			bChinese
 282072	946	Lisu (Northern)	tsi³³tʃha³³ kæ³³tɕi²¹	tsi³³tʃha³³ kæ³³tɕi²¹	bourgeoisie	bourgeoisie	N	N			0			bChinese
@@ -10201,7 +10201,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 282085	946	Lisu (Northern)	tsi³⁵le³³	tsi³⁵le³³	Chinese mountain francolin (partridge which lives in mountains at 3250-3600m)	Chinese mountain francolin (partridge which lives in mountains at 3250-3600m)	N	N	2.2.4.1		0			
 282086	946	Lisu (Northern)	tsi³⁵ljou²¹ti³⁵	tsi³⁵ljou²¹ti³⁵	private plot of land	private plot of land	N	N	10.1.1		0			bChinese
 282087	946	Lisu (Northern)	tsi³⁵ljou²¹ dʑɯ²¹za²¹	tsi³⁵ljou²¹ dʑɯ²¹za²¹	privately owned animal	privately owned animal	N	N	2.3		0			
-282088	946	Lisu (Northern)	tsi³⁵mu³³	tsi³⁵mu³³	letter	letter	N	N	5.1		0			bChinese,bChinese
+282088	946	Lisu (Northern)	tsi³⁵mu³³	tsi³⁵mu³³	letter	letter	N	N	5.1		0			bChinese|bChinese
 282089	946	Lisu (Northern)	tsi³⁵ra²¹ khɔ³³ɕɔ²¹	tsi³⁵ra²¹ khɔ³³ɕɔ²¹	natural sciences	natural sciences	N	N	3.2.1		0			bChinese
 282090	946	Lisu (Northern)	tsi³⁵jɔ²¹ tʃu³³ji³⁵	tsi³⁵jɔ²¹ tʃu³³ji³⁵	liberalism	liberalism	N	N			0			bChinese
 282091	946	Lisu (Northern)	tsi³⁵tʃɿ³⁵ tɕi³³kwa³³	tsi³⁵tʃɿ³⁵ tɕi³³kwa³³	organ of self-government	organ of self-government	N	N	1.6		0			bChinese
@@ -10728,7 +10728,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 282612	944	Lisu (Central)	lɔ³³dʑø³³ɣɔʔ²¹	lɔ³³dʑø³³ɣɔʔ²¹	pile of stone	pile of stone			6.2.2.1		0			1269
 282613	944	Lisu (Central)	lɔ⁵⁵ɲi³³	lɔ⁵⁵ɲi³³	look; have a look; oversee	look; have a look; oversee			1.2.6.11		0			
 282614	944	Lisu (Central)	lɔ³⁵je³³ ma³³ hæ̃ʔ²¹ɲi³³	lɔ³⁵je³³ ma³³ hæ̃ʔ²¹ɲi³³	doomsday; history	doomsday; history					0			
-282615	944	Lisu (Central)	lu²¹ɲi³³	lu²¹ɲi³³	day of the dragon	day of the dragon			1.5.3.2		0			b,b,85,m
+282615	944	Lisu (Central)	lu²¹ɲi³³	lu²¹ɲi³³	day of the dragon	day of the dragon			1.5.3.2		0			b|b,85|m
 282616	944	Lisu (Central)	ma³³khwa²¹myʔ²¹	ma³³khwa²¹myʔ²¹	dragon bamboo shoot	dragon bamboo shoot			2.1.5		0			5664,m,m
 282617	944	Lisu (Central)	ma³³myʔ²¹	ma³³myʔ²¹	bamboo shoot	bamboo shoot			3.1.1		0			5664,2477
 282618	944	Lisu (Central)	ma²¹ ni³⁵tɕhø³⁵	ma²¹ ni³⁵tɕhø³⁵	not worry; not rash; steady; prudent	not worry; not rash; steady; prudent			1.5.3.2		0			2436,m,m
@@ -10760,7 +10760,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 282644	944	Lisu (Central)	mjø²¹je³³ sæʔ²¹wa²¹	mjø²¹je³³ sæʔ²¹wa²¹	labour power	labour power			6.1.1		0			
 282645	944	Lisu (Central)	mjø²¹je³³su³³	mjø²¹je³³su³³	worker; labourer	worker; labourer			6.1.1		0			
 282646	944	Lisu (Central)	mjø²¹je³³ rɤ²¹mi²¹	mjø²¹je³³ rɤ²¹mi²¹	labouring people	labouring people			4.5		0			
-282647	944	Lisu (Central)	mjø²¹je³³ wa²¹phu²¹	mjø²¹je³³ wa²¹phu²¹	work for pay; wages	work for pay; wages			6.1.1		0			2455,2455,m,m,m,m,m,2583
+282647	944	Lisu (Central)	mjø²¹je³³ wa²¹phu²¹	mjø²¹je³³ wa²¹phu²¹	work for pay; wages	work for pay; wages			6.1.1		0			2455|2455,m|m,m|m,2583|m
 282648	944	Lisu (Central)	my²¹dzi²¹pha²¹	my²¹dzi²¹pha²¹	manager (in administration of the church)	manager (in administration of the church)			10.1.1		0			
 282649	944	Lisu (Central)	my²¹bjø²¹	my²¹bjø²¹	map	map					0			
 282650	944	Lisu (Central)	my²¹bjø²¹ tø³⁵du³³	my²¹bjø²¹ tø³⁵du³³	telescope	telescope					0			
@@ -11009,7 +11009,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 282893	944	Lisu (Central)	tɕhɔ²¹ɲi³³	tɕhɔ²¹ɲi³³	call on; visit; see	call on; visit; see			8.5.13		0			
 282894	944	Lisu (Central)	tɕhø³³	tɕhø³³	rice; cf. tɕhɤ³³	rice; cf. tûhí££	N	N	3.1.4		0			
 282895	944	Lisu (Central)	tɕhø³³mi³³phu³³	tɕhø³³mi³³phu³³	irrigated paddy field	irrigated paddy field			6.6		0			
-282896	944	Lisu (Central)	rɔ⁴⁴ɲi³³	rɔ⁴⁴ɲi³³	day of the goat	day of the goat			1.5.3.2		0			m,m,85
+282896	944	Lisu (Central)	rɔ⁴⁴ɲi³³	rɔ⁴⁴ɲi³³	day of the goat	day of the goat			1.5.3.2		0			m,85|m
 282897	944	Lisu (Central)	dʒɿ²¹ɲi⁵⁵thi³³	dʒɿ²¹ɲi⁵⁵thi³³	throne	throne					0			
 282898	944	Lisu (Central)	ru³³ɲi⁵⁵	ru³³ɲi⁵⁵	catch	catch			6.21		0			
 282899	944	Lisu (Central)	sæ⁵⁵tɕø³⁵	sæ⁵⁵tɕø³⁵	resurrect; restore (spirit)	resurrect; restore (spirit)			5.8.1.1		0			
@@ -11097,7 +11097,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 282981	944	Lisu (Central)	jiʔ²¹zaʔ²¹ ɲi³³zaʔ²¹	jiʔ²¹zaʔ²¹ ɲi³³zaʔ²¹	brothers; compatriots	brothers; compatriots			4.7.2		0			
 282982	944	Lisu (Central)	jɔ³³mjø²¹ je³³su³³	jɔ³³mjø²¹ je³³su³³	petty producer	petty producer			7.1.7.2		0			
 282983	944	Lisu (Central)	jɔ³³dʑø⁴⁴	jɔ³³dʑø⁴⁴	later generation	later generation			9.1.5		0			
-282984	944	Lisu (Central)	jɔ⁴⁴ɲi³³	jɔ⁴⁴ɲi³³	day of goat	day of goat			1.5.3.2		0			m,m,85
+282984	944	Lisu (Central)	jɔ⁴⁴ɲi³³	jɔ⁴⁴ɲi³³	day of goat	day of goat			1.5.3.2		0			m,85|m
 282985	944	Lisu (Central)	tʃa³⁵ɲi³³	tʃa³⁵ɲi³³	estimate	estimate	V	V	8.3.1.13.2		0			
 282986	944	Lisu (Central)	tʃɿ⁵⁵ɲi³³	tʃɿ⁵⁵ɲi³³	dew	dew	N	N			0			59,m
 282987	944	Lisu (Central)	tʃɿ³⁵ne²¹tʃɿ³⁵	tʃɿ³⁵ne²¹tʃɿ³⁵	convulsion; epilepsy	convulsion; epilepsy	V	V	6.7.3		0			

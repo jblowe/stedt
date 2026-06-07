@@ -20,24 +20,34 @@ mesoroots:
   form: nuu
   gloss: FEMALE
   variant: a
+  source: 'PKC #814'
+  old_tag: 4814
 - grpid: 8
   group: '1.2'
   form: nuu
   gloss: MOTHER
   variant: b
+  source: 'PKC #820'
+  old_tag: 4820
 - grpid: 12
   group: 1.7.2
   form: ɲəːw
   gloss: BIG / MOTHER
+  source: from WTF-PNN:458
+  old_tag: 6116
 - grpid: 5
   group: 1.1.1
   form: nə
   gloss: MOTHER
+  source: JS-HCST: 114
+  old_tag: 6501
 - grpid: 8
   group: '1.2'
   form: nu-ŋaak ⪤ ŋaak-nuu
   gloss: MAIDEN / BELLE / WOMAN (unmarried)
   variant: c
+  source: 'PKC #818'
+  old_tag: 4818
 notes:
 - type: T
   text: <par>This root has frequently grammaticalized as a suffix in nouns denoting large or important

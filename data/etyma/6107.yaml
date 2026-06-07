@@ -12,10 +12,13 @@ mesoroots:
   group: '7'
   form: khlo
   gloss: SNAIL
+  old_tag: 6108
 - grpid: 50
   group: '7'
   form: khloᴮ
   gloss: SNAIL (LAND~)
+  source: TL#264
+  old_tag: 7468
 notes:
 - type: F
   text: '<par><hanform>蠃</hanform> OC <latinform>*lwɑ̂</latinform>, GSR #14b; B &amp; S 2011: <latinform>*rˁojʔ

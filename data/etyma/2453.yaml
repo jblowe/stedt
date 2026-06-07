@@ -20,18 +20,26 @@ mesoroots:
   group: 1.3.4
   form: lej
   gloss: EARTH
+  source: DRM#401
+  old_tag: 6814
 - grpid: 63
   group: 1.3.1
   form: a-lej
   gloss: GROUND, EARTH / FIELD
+  source: 'PCN #057'
+  old_tag: 7604
 - grpid: 8
   group: '1.2'
   form: lay
   gloss: EARTH / SOIL / WORLD
+  source: 'PKC #1013'
+  old_tag: 5013
 - grpid: 50
   group: '7'
   form: miᴬ
   gloss: WILD
+  source: TL#333
+  old_tag: 7538
 notes:
 - type: T
   text: <par>Many reflexes of this etymon are good examples of the process of &quot;prefix pre-emption&quot;,

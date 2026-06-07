@@ -18,7 +18,11 @@ mesoroots:
   group: '1.2'
   form: kut-tum ⪤ khut-tum
   gloss: FIST
+  source: 'PKC #281'
+  old_tag: 4281
 - grpid: 8
   group: '1.2'
   form: tum
   gloss: CLENCH
+  source: 'PKC #186'
+  old_tag: 4186

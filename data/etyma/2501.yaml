@@ -20,14 +20,20 @@ mesoroots:
   group: 1.1.1
   form: ñiŋ
   gloss: YEAR
+  source: 'JS-HCST: 188'
+  old_tag: 6166
 - grpid: 50
   group: '7'
   form: hneŋ
   gloss: YEAR
+  source: STC 79n243, 136n369
+  old_tag: 6167
 - grpid: 63
   group: 1.3.1
   form: niŋ
   gloss: SKY / YEAR
+  source: 'PCN #210'
+  old_tag: 7757
 - grpid: 45
   group: 6.1.2
   form: s-nikᴴ
@@ -36,6 +42,8 @@ mesoroots:
   group: '7'
   form: hneŋᴮ
   gloss: YEAR
+  source: TL#338
+  old_tag: 7543
 notes:
 - type: F
   text: '<par><hanform>年</hanform> OC <latinform>*nien</latinform>, GSR #364a-c &apos;year&apos;; B &amp;

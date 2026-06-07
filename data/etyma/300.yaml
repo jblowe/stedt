@@ -18,14 +18,20 @@ mesoroots:
   group: '1.2'
   form: ɗu(u)y ⪤ tu(u)y
   gloss: EGG
+  source: 'PKC #79'
+  old_tag: 4079
 - grpid: 66
   group: 1.3.4
   form: dɨ
   gloss: EGG
+  source: DRM#393
+  old_tag: 6806
 - grpid: 50
   group: '7'
   form: Ɂdejᴮ
   gloss: EGG
+  source: TL#99
+  old_tag: 7304
 notes:
 - type: T
   text: <par>Especially in Himalayish and the NE Indian Areal Group, it is often difficult to distinguish

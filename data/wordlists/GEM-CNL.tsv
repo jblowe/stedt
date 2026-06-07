@@ -20,7 +20,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 19474	963	Lotha Naga	e◦mhen	e◦mhen	tail	tail			1.4.10.1	735	0			
 19478	963	Lotha Naga	tarosi-ti-ing	tarosi-ti-ing	seventeen	seventeen			9.9		0			
 19486	963	Lotha Naga	nli	nli	tongue	tongue			1.3.3	784	0			621
-19493	963	Lotha Naga	e◦ze◦m-mho	ezem-mho	ugly	ugly			7.1.3	803	0	jbl5	HIDE	DUPE IN SOURCE,p,m,p,m
+19493	963	Lotha Naga	e◦ze◦m-mho	ezem-mho	ugly	ugly			7.1.3	803	0	jbl5	HIDE	DUPE IN SOURCE|p,m,p,m
 19501	963	Lotha Naga	mpoa-chan	mpoa-chan	whisper	whisper			8.5.4.2	846	0			
 19504	963	Lotha Naga	e◦lu◦e	elue	woman	woman			1.9.3	867	0			p,5493,s
 19509	963	Lotha Naga	khyangdroe	khyangdroe	young	young			7.1.8.3	889	0	jbl5	HIDE	DUPE IN SOURCE
@@ -287,7 +287,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 165207	254	Angami (Kohima)	u◦ru	u◦ru	bone	bone			1.6.3		0			m,232
 165208	270	Ao (Chungli)	te◦ret	te◦ret	bone	bone			1.6.3		0			p,232
 165209	273	Ao (Mongsen: Longchang)	te◦rat	terat	bone	bone			1.6.3		0			p,232
-165210	429	Chang	luo	luo	bone	bone			1.6.3		0			238,m
+165210	429	Chang	luo	luo	bone	bone			1.6.3		0			238|m
 165211	790	Khoirao	ta◦ru	ta◦ru	bone	bone			1.6.3		0			p,232
 165212	807	Konyak	wan	wan	bone	bone			1.6.3		0			238
 165213	906	Liangmei	pa◦rah	parah	bone	bone			1.6.3		0			m,237
@@ -1237,7 +1237,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 166290	1301	Puiron	koi	koi	navel	navel			1.9.4		0			3446
 166291	1335	Rengma	nnu	nnu	navel	navel			1.9.4		0			517
 166292	1382	Sema [Sumi]	a◦pfo◦la	a◦pfo◦la	navel	navel			1.9.4		0			p,2103,517
-166293	1471	Tangkhul	hai◦zo	hai◦zo	navel	navel			1.9.4		0			517,?,659,659
+166293	1471	Tangkhul	hai◦zo	hai◦zo	navel	navel			1.9.4		0			517|?,659|659
 166294	1628	Wancho	sung	sung	navel	navel			1.9.4		0			1628
 166295	1694	Zeme	mi◦la◦ria	mi◦la◦ria	navel	navel			1.9.4		0			1002,517,m
 166296	392	Burmese (Written)	khyak	khyak	navel	navel			1.9.4		0			525
@@ -3358,7 +3358,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 236539	1564	Tibetan (Written)	'dzeg	'dzeg	ascend	ascend			6.7.7		0			
 236540	252	Angami (Khonoma)	mi◦ge	mi◦ge	ashes	ashes			3.2.12.2		0			2136,m
 236541	254	Angami (Kohima)	mi◦ge	mi◦ge	ashes	ashes			3.2.12.2		0			2136,m
-236542	270	Ao (Chungli)	ap	ap	ashes	ashes			3.2.12.2		0			?,2691
+236542	270	Ao (Chungli)	ap	ap	ashes	ashes			3.2.12.2		0			2691|?
 236543	270	Ao (Chungli)	a◦ot	aot	ashes	ashes			3.2.12.2		0			p,3514
 236544	273	Ao (Mongsen: Longchang)	o◦pu	opu	ashes	ashes			3.2.12.2		0			p,3514
 236545	429	Chang	tap	tap	ashes	ashes			3.2.12.2		0			2691
@@ -6272,7 +6272,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 239453	1062	Mikir [Karbi]	aning-kave	aning-kave	cruel	cruel			8.3.3.2.2		0			
 239454	1564	Tibetan (Written)	ɣñyanpa	ɣñyanpa	cruel	cruel			8.3.3.2.2		0			
 239455	252	Angami (Khonoma)	kra	kra	cry (weep)	cry (weep)	v	v	1.8.8.2		0			1103
-239456	254	Angami (Kohima)	kr	kr	cry (weep)	cry (weep)	v	v	1.8.8.2		0			1103,e?
+239456	254	Angami (Kohima)	kr	kr	cry (weep)	cry (weep)	v	v	1.8.8.2		0			1103|e?
 239457	270	Ao (Chungli)	a◦jep	a◦jep	cry (weep)	cry (weep)			1.8.8.2		0			p,1103
 239458	273	Ao (Mongsen: Longchang)	chep	chep	cry (weep)	cry (weep)			1.8.8.2		0			1103
 239459	429	Chang	hap	hap	cry (weep)	cry (weep)			1.8.8.2		0			1103
@@ -6625,7 +6625,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 239806	254	Angami (Kohima)	kesou	kesou	deep	deep			7.1.5.3		0			
 239807	270	Ao (Chungli)	azü	azü	deep	deep			7.1.5.3		0			
 239808	270	Ao (Chungli)	tarok	tarok	deep	deep			7.1.5.3		0			
-239809	273	Ao (Mongsen: Longchang)	te◦suk	te◦suk	deep	deep			7.1.5.3		0			p,p,2712,?
+239809	273	Ao (Mongsen: Longchang)	te◦suk	te◦suk	deep	deep			7.1.5.3		0			p|p,2712|?
 239810	273	Ao (Mongsen: Longchang)	tarok	tarok	deep	deep			7.1.5.3		0			
 239811	429	Chang	haulangbü	haulangbü	deep	deep			7.1.5.3		0			
 239812	486	Chokri	kümüsü	kümüsü	deep	deep			7.1.5.3		0			
@@ -12976,7 +12976,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 246159	1137	Mzieme	kehegwa	kehegwa	old (of things)	old (of things)			7.1.8.3		0			
 246160	1188	Nocte	te◦ka	teka	old (of things)	old (of things)			7.1.8.3		0			p,2228
 246161	1347	Rongmei / Nruanghmei	karanmei	karanmei	old (of things)	old (of things)			7.1.8.3		0			
-246162	1196	Ntenyi	ka◦gha	kagha	old (of things)	old (of things)			7.1.8.3		0			2228?,p,2228
+246162	1196	Ntenyi	ka◦gha	kagha	old (of things)	old (of things)			7.1.8.3		0			2228?|p,2228
 246163	1281	Phom	jangpü	jangpü	old (of things)	old (of things)			7.1.8.3		0			
 246164	1301	Puiron	marannu	marannu	old (of things)	old (of things)			7.1.8.3		0			
 246165	1335	Rengma	kewhen	kewhen	old (of things)	old (of things)			7.1.8.3		0			
@@ -13189,7 +13189,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 246372	1347	Rongmei / Nruanghmei	komla	komla	orange	orange	n	n	3.1.5		0			bIndic
 246373	1335	Rengma	homthira	homthira	orange	orange	n	n	3.1.5		0			
 246374	1364	Sangtam	honghi	honghi	orange	orange	n	n	3.1.5		0			
-246375	1364	Sangtam	naring	naring	orange	orange	n	n	3.1.5		0			b,bIndic
+246375	1364	Sangtam	naring	naring	orange	orange	n	n	3.1.5		0			b|bIndic
 246376	1382	Sema [Sumi]	mushoti	mushoti	orange	orange	n	n	3.1.5		0			
 246377	1471	Tangkhul	komola	komola	orange	orange	n	n	3.1.5		0			bIndic
 246378	1694	Zeme	banterachi	banterachi	orange	orange	n	n	3.1.5		0			
@@ -14083,7 +14083,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 247267	252	Angami (Khonoma)	chopa	chopa	pumpkin	pumpkin			3.1.5		0			
 247268	254	Angami (Kohima)	rümo	rümo	pumpkin	pumpkin			3.1.5		0			
 247269	270	Ao (Chungli)	koromeja	koromeja	pumpkin	pumpkin			3.1.5		0			b
-247270	273	Ao (Mongsen: Longchang)	ma◦phu	maphu	pumpkin	pumpkin			3.1.5		0			166,166,m,5797
+247270	273	Ao (Mongsen: Longchang)	ma◦phu	maphu	pumpkin	pumpkin			3.1.5		0			166|166,5797|m
 247271	429	Chang	chilimo	chilimo	pumpkin	pumpkin			3.1.5		0			
 247272	790	Khoirao	maithei	maithei	pumpkin	pumpkin			3.1.5		0			
 247273	906	Liangmei	chamana	chamana	pumpkin	pumpkin			3.1.5		0			
@@ -22444,26 +22444,26 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 255636	252	Angami (Khonoma)	thu◦do	thu◦do	bull	bull			2.1.2		0			
 255637	254	Angami (Kohima)	thu◦do	thu◦do	bull	bull			2.1.2		0			
 255638	270	Ao (Chungli)	nashi-pung◦chi	nashi-pung◦chi	bull	bull			2.1.2		0			b,3471,m
-255639	273	Ao (Mongsen: Longchang)	masü-bong◦tsü	masü-bong◦tsü	bull	bull			2.1.2		0			b,b,m,3471,m
+255639	273	Ao (Mongsen: Longchang)	masü-bong◦tsü	masü-bong◦tsü	bull	bull			2.1.2		0			b|b,3471|m,m
 255640	429	Chang	masu◦pang	masu◦pang	bull	bull			2.1.2		0			b,m
 255641	486	Chokri	thüdo	thüdo	bull	bull			2.1.2		0			
 255642	750	Khezha	medo	medo	bull	bull			2.1.2		0			
 255643	790	Khoirao	tompaba	tompaba	bull	bull			2.1.2		0			
 255644	807	Konyak	mahupong	mahupong	bull	bull			2.1.2		0			
-255645	963	Lotha Naga	mangsü-o◦pong	mangsü-o◦pong	bull	bull			2.1.2		0			b,b,m,p,3471
+255645	963	Lotha Naga	mangsü-o◦pong	mangsü-o◦pong	bull	bull			2.1.2		0			b|b,m|p,3471
 255646	1017	Mao	otumo	otumo	bull	bull			2.1.2		0			
 255647	1050	Meluri	amesü-avo	amesü-avo	bull	bull			2.1.2		0			b,m
 255648	1137	Mzieme	tumseu	tumseu	bull	bull			2.1.2		0			
 255649	1188	Nocte	manpong	manpong	bull	bull			2.1.2		0			
 255650	1347	Rongmei / Nruanghmei	siammai-gwaici	siammai-gwaici	bull	bull			2.1.2		0			
-255651	1196	Ntenyi	amesü-se◦pung	amesü-se◦pung	bull	bull			2.1.2		0			b,b,m,m,3471
+255651	1196	Ntenyi	amesü-se◦pung	amesü-se◦pung	bull	bull			2.1.2		0			b|b,m|m,3471
 255652	1335	Rengma	methitse	methitse	bull	bull			2.1.2		0			b
 255653	1364	Sangtam	misü◦bong	misü◦bong	bull	bull			2.1.2		0			b,3471
 255654	1382	Sema [Sumi]	a◦mishi◦tsü	a◦mishi◦tsü	bull	bull			2.1.2		0			p,b,m
 255655	1471	Tangkhul	simukava	simukava	bull	bull			2.1.2		0			
 255656	1489	Tangsa (Moshang)	mansu◦pung	mansu◦pung	bull	bull			2.1.2		0			
 255657	1628	Wancho	maihu-hapang	maihu-hapang	bull	bull			2.1.2		0			b
-255658	1672	Yimchungrü	moshi◦bung	moshi◦bung	bull	bull			2.1.2		0			b,b,m,3471
+255658	1672	Yimchungrü	moshi◦bung	moshi◦bung	bull	bull			2.1.2		0			b|b,3471|m
 255659	1694	Zeme	getumsei	getumsei	bull	bull			2.1.2		0			
 255660	392	Burmese (Written)	nwā:◦thī:	nwā:◦thī:	bull	bull			2.1.2		0			2538,m
 255661	531	Dimasa	musu◦jala	musu◦jala	bull	bull			2.1.2		0			b,m
@@ -22799,8 +22799,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 255992	1564	Tibetan (Written)	sdigsrin	sdigsrin	crab	crab			2.2.5		0			
 255993	252	Angami (Khonoma)	chezha	chezha	crow (bird)	crow (bird)			2.2.4.1		0			
 255994	254	Angami (Kohima)	shüzha	shüzha	crow (bird)	crow (bird)			2.2.4.1		0			
-255995	270	Ao (Chungli)	wa◦ro	wa◦ro	crow (bird)	crow (bird)			2.2.4.1		0			m,1603,?,1606
-255996	273	Ao (Mongsen: Longchang)	wa◦ru	wa◦ru	crow (bird)	crow (bird)			2.2.4.1		0			m,1603,?,1606
+255995	270	Ao (Chungli)	wa◦ro	wa◦ro	crow (bird)	crow (bird)			2.2.4.1		0			1603|m,1606|?
+255996	273	Ao (Mongsen: Longchang)	wa◦ru	wa◦ru	crow (bird)	crow (bird)			2.2.4.1		0			1603|m,1606|?
 255997	429	Chang	au◦kumatpa	au◦kumatpa	crow (bird)	crow (bird)			2.2.4.1		0			1603,m
 255998	486	Chokri	shizho	shizho	crow (bird)	crow (bird)			2.2.4.1		0			
 255999	790	Khoirao	chaghak	chaghak	crow (bird)	crow (bird)			2.2.4.1		0			
@@ -23508,7 +23508,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 256701	254	Angami (Kohima)	khu◦r◦hü	khu◦r◦hü	leopard	leopard			2.1.3		0			2308,m,m
 256702	270	Ao (Chungli)	chungnü	chungnü	leopard	leopard			2.1.3		0			
 256703	270	Ao (Chungli)	keyi	keyi	leopard	leopard			2.1.3		0			2308
-256704	273	Ao (Mongsen: Longchang)	a◦khu	a◦khu	leopard	leopard			2.1.3		0			p,p,2308,?
+256704	273	Ao (Mongsen: Longchang)	a◦khu	a◦khu	leopard	leopard			2.1.3		0			p|p,2308|?
 256705	429	Chang	kongkuh	kongkuh	leopard	leopard			2.1.3		0			
 256706	486	Chokri	kho◦r◦hanu	kho◦r◦hanu	leopard	leopard			2.1.3		0			2308,m,m
 256707	790	Khoirao	kathi	kathi	leopard	leopard			2.1.3		0			
@@ -24014,7 +24014,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 257207	254	Angami (Kohima)	the◦zu	the◦zu	rat	rat			2.1.1		0			m,2796
 257208	270	Ao (Chungli)	kwi◦ya	kwiya	rat	rat			2.1.1		0			2632,s
 257209	273	Ao (Mongsen: Longchang)	aphi	aphi	rat	rat			2.1.1		0			
-257210	273	Ao (Mongsen: Longchang)	a◦yi	ayi	rat	rat			2.1.1		0			p,?,2796
+257210	273	Ao (Mongsen: Longchang)	a◦yi	ayi	rat	rat			2.1.1		0			?|p,2796
 257211	429	Chang	yi◦buk	yibuk	rat	rat			2.1.1		0			2796
 257212	486	Chokri	thüzo	thüzo	rat	rat			2.1.1		0			
 257213	790	Khoirao	niu	niu	rat	rat			2.1.1		0			
@@ -24098,7 +24098,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 257291	906	Liangmei	mi◦ria	mi◦ria	sheep	sheep			2.1.8		0			m,6031
 257292	963	Lotha Naga	o◦lyu	o◦lyu	sheep	sheep			2.1.8		0			p,6027
 257293	963	Lotha Naga	kacho	kacho	sheep	sheep			2.1.8		0			R
-257294	1017	Mao	ko◦latu	kolatu	sheep	sheep			2.1.8		0			R,6034,m
+257294	1017	Mao	ko◦latu	kolatu	sheep	sheep			2.1.8		0			6034|R,m
 257295	1137	Mzieme	meu◦rün	meu◦rün	sheep	sheep			2.1.8		0			4769,6035
 257296	1347	Rongmei / Nruanghmei	lau◦jiu	lau◦jiu	sheep	sheep			2.1.8		0			R
 257297	1196	Ntenyi	kha◦nyün◦nyün	kha◦nyün◦nyün	sheep	sheep			2.1.8		0			m,6037,6037
@@ -24109,7 +24109,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 257302	1471	Tangkhul	yao	yao	sheep	sheep			2.1.8		0			6028
 257303	1672	Yimchungrü	bherü	bherü	sheep	sheep			2.1.8		0			b
 257304	1694	Zeme	ke◦mei◦me◦li	ke◦mei◦me◦li	sheep	sheep			2.1.8		0			m,4769,m,m
-257305	392	Burmese (Written)	sui:	sui:	sheep	sheep			2.1.8		0			R,6080
+257305	392	Burmese (Written)	sui:	sui:	sheep	sheep			2.1.8		0			6080|R
 257306	531	Dimasa	melma	melma	sheep	sheep			2.1.8		0			b
 257307	669	Jingpho	sha◦gu	sha◦gu	sheep	sheep			2.1.8		0			p,6034
 257308	669	Jingpho	yang	yang	sheep	sheep			2.1.8		0			bChinese
@@ -24267,7 +24267,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 257460	252	Angami (Khonoma)	te◦khu	te◦khu	tiger	tiger			2.1.3		0			p,2308
 257461	254	Angami (Kohima)	te◦khu	te◦khu	tiger	tiger			2.1.3		0			p,2308
 257462	270	Ao (Chungli)	keyi	keyi	tiger	tiger			2.1.3		0			2308
-257463	273	Ao (Mongsen: Longchang)	a◦kwu	a◦kwu	tiger	tiger			2.1.3		0			p,p,2308,?
+257463	273	Ao (Mongsen: Longchang)	a◦kwu	a◦kwu	tiger	tiger			2.1.3		0			p|p,2308|?
 257464	429	Chang	sau◦yang	sau◦yang	tiger	tiger			2.1.3		0			5560,m
 257465	429	Chang	sau◦nyu	sau◦nyu	tiger	tiger			2.1.3		0			5560,1621
 257466	486	Chokri	tü◦kho	tü◦kho	tiger	tiger			2.1.3		0			p,2308
@@ -25458,7 +25458,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 258654	1382	Sema [Sumi]	atzüzü	atzüzü	dew	dew					0			
 258655	1471	Tangkhul	ikra	ikra	dew	dew					0			
 258656	1628	Wancho	rangphum	rangphum	dew	dew					0			
-258657	392	Burmese (Written)	chī:◦nhaṅ:	chī:nhaṅ:	dew	dew					0			59,59,m,3565
+258657	392	Burmese (Written)	chī:◦nhaṅ:	chī:nhaṅ:	dew	dew					0			59|59,3565|m
 258658	531	Dimasa	rabamdi	rabamdi	dew	dew					0			
 258659	669	Jingpho	namri	namri	dew	dew					0			
 258660	976	Lushai [Mizo]	dai	dai	dew	dew					0			6170
@@ -25734,12 +25734,12 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 258930	1281	Phom	hon	hon	gold	gold			3.2.4		0			b
 258931	1301	Puiron	kachak	kachak	gold	gold			3.2.4		0			
 258932	1335	Rengma	suna	suna	gold	gold			3.2.4		0			b
-258933	1364	Sangtam	hon	hon	gold	gold			3.2.4		0			b,b
+258933	1364	Sangtam	hon	hon	gold	gold			3.2.4		0			b|b
 258934	1382	Sema [Sumi]	suna	suna	gold	gold			3.2.4		0			b
 258935	1471	Tangkhul	sina	sina	gold	gold			3.2.4		0			b
 258936	1628	Wancho	sien	sien	gold	gold			3.2.4		0			b
-258937	1640	Yacham-Tengsa	hun	hun	gold	gold			3.2.4		0			b,b
-258938	1672	Yimchungrü	shuna	shuna	gold	gold			3.2.4		0			b,b
+258937	1640	Yacham-Tengsa	hun	hun	gold	gold			3.2.4		0			b|b
+258938	1672	Yimchungrü	shuna	shuna	gold	gold			3.2.4		0			b|b
 258939	1694	Zeme	gechak	gechak	gold	gold			3.2.4		0			
 258940	392	Burmese (Written)	rhwe	rhwe	gold	gold			3.2.4		0			3496
 258941	531	Dimasa	ga◦jao	ga◦jao	gold	gold			3.2.4		0			
@@ -25968,7 +25968,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 259164	790	Khoirao	ha	ha	moon	moon			3.2.2		0			
 259165	807	Konyak	lin◦nyu	linnyu	moon	moon			3.2.2		0			3579,1621
 259166	906	Liangmei	chahiu	chahiu	moon	moon			3.2.2		0			
-259167	963	Lotha Naga	cho◦ro	cho◦ro	moon	moon			3.2.2		0			m,m,1016,?
+259167	963	Lotha Naga	cho◦ro	cho◦ro	moon	moon			3.2.2		0			m|m,1016|?
 259168	1017	Mao	o◦khro	okhro	moon	moon			3.2.2		0			p,5404
 259169	1018	Maram	siko	siko	moon	moon			3.2.2		0			
 259170	1019	Maring	tang◦la	tangla	moon	moon			3.2.2		0			m,1016

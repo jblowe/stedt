@@ -153,7 +153,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 311665	1786	Sani [Nyi]	dza²¹	dza²¹	eat	eat			1.5.3.2	5.	0			36
 311666	1786	Sani [Nyi]	ɣa²¹	ɣa²¹	strength	strength			1.1.5	6.	0			5677
 311667	1786	Sani [Nyi]	ga²¹	ga²¹	chew	chew			1.3.4	7.	0			1762
-311668	1786	Sani [Nyi]	lu²¹	lu²¹	dragon	dragon			2.1.5	8.	0			bChinese,b
+311668	1786	Sani [Nyi]	lu²¹	lu²¹	dragon	dragon			2.1.5	8.	0			b|bChinese
 311669	1786	Sani [Nyi]	bu²¹	bu²¹	deaf	deaf			1.2.7.5	9.	0			
 311670	1786	Sani [Nyi]	qho²¹	qho²¹	under	under			9.2.2	10.	0			
 311671	1786	Sani [Nyi]	tho²¹	tho²¹	pine	pine			3.1.1	11.	0			2690
@@ -355,7 +355,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 311868	1780	Ahi	dzo²¹	dzo²¹	eat	eat			1.5.3.2	5.	0			36
 311869	1780	Ahi	ɣo²¹	ɣo²¹	strength	strength			1.1.5	6.	0			5677
 311870	1780	Ahi	go²¹	go²¹	chew	chew			1.3.4	7.	0			1762
-311871	1780	Ahi	lo²¹	lo²¹	dragon	dragon			2.1.5	8.	0			bChinese,b
+311871	1780	Ahi	lo²¹	lo²¹	dragon	dragon			2.1.5	8.	0			b|bChinese
 311872	1780	Ahi	bo²¹	bo²¹	deaf	deaf			1.2.7.5	9.	0			
 311873	1780	Ahi	ko²¹	ko²¹	under	under			9.2.2	10.	0			
 311874	1780	Ahi	tho²¹	tho²¹	pine	pine			3.1.1	11.	0			2690
@@ -557,7 +557,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 312071	1163	Nesu	dzo³³	dzo³³	eat	eat			1.5.3.2	5.	0			36
 312072	1163	Nesu	ɣo³³	ɣo³³	strength	strength			1.1.5	6.	0			5677
 312073	1163	Nesu	go³³	go³³	chew	chew			1.3.4	7.	0			1762
-312074	1163	Nesu	lo³³	lo³³	dragon	dragon			2.1.5	8.	0			bChinese,b
+312074	1163	Nesu	lo³³	lo³³	dragon	dragon			2.1.5	8.	0			b|bChinese
 312075	1163	Nesu	ba³³	ba³³	deaf	deaf			1.2.7.5	9.	0			
 312076	1163	Nesu	ka³³	ka³³	under	under			9.2.2	10.	0			
 312077	1163	Nesu	tha³³	tha³³	pine	pine			3.1.1	11.	0			2690
@@ -759,7 +759,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 312274	1781	Lalo	dza²¹	dza²¹	eat	eat			1.5.3.2	5.	0			36
 312275	1781	Lalo	ɣa²¹	ɣa²¹	strength	strength			1.1.5	6.	0			5677
 312276	1781	Lalo	ga²¹	ga²¹	chew	chew			1.3.4	7.	0			1762
-312277	1781	Lalo	lu²¹	lu²¹	dragon	dragon			2.1.5	8.	0			b,bChinese
+312277	1781	Lalo	lu²¹	lu²¹	dragon	dragon			2.1.5	8.	0			b|bChinese
 312278	1781	Lalo	bu²¹	bu²¹	deaf	deaf			1.2.7.5	9.	0			
 312279	1781	Lalo	ku²¹	ku²¹	under	under			9.2.2	10.	0			
 312280	1781	Lalo	thu²¹	thu²¹	pine	pine			3.1.1	11.	0			2690
@@ -961,7 +961,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 312477	1782	Lipho	dzo²¹	dzo²¹	eat	eat			1.5.3.2	5.	0			36
 312478	1782	Lipho	ɣo²¹	ɣo²¹	strength	strength			1.1.5	6.	0			5677
 312479	1782	Lipho	go²¹	go²¹	chew	chew			1.3.4	7.	0			1762
-312480	1782	Lipho	lu²¹	lu²¹	dragon	dragon			2.1.5	8.	0			b,bChinese
+312480	1782	Lipho	lu²¹	lu²¹	dragon	dragon			2.1.5	8.	0			b|bChinese
 312481	1782	Lipho	ba²¹	ba²¹	deaf	deaf			1.2.7.5	9.	0			
 312482	1782	Lipho	ka²¹	ka²¹	under	under			9.2.2	10.	0			
 312483	1782	Lipho	tha²¹	tha²¹	pine	pine			3.1.1	11.	0			2690
@@ -1163,7 +1163,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 312680	1783	Nasu	dzo³³	dzo³³	eat	eat			1.5.3.2	5.	0			36
 312681	1783	Nasu	ɣo³³	ɣo³³	strength	strength			1.1.5	6.	0			5677
 312682	1783	Nasu	ngho³³	ngho³³	chew	chew			1.3.4	7.	0			1762
-312683	1783	Nasu	lu³³	lu³³	dragon	dragon			2.1.5	8.	0			bChinese,b
+312683	1783	Nasu	lu³³	lu³³	dragon	dragon			2.1.5	8.	0			b|bChinese
 312684	1783	Nasu	bɔ³³	bɔ³³	deaf	deaf			1.2.7.5	9.	0			
 312685	1783	Nasu	kɔ³³	kɔ³³	under	under			9.2.2	10.	0			
 312686	1783	Nasu	thɔ³³	thɔ³³	pine	pine			3.1.1	11.	0			2690
@@ -1365,7 +1365,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 312883	1791	Neisu	dzu³³	dzu³³	eat	eat			1.5.3.2	5.	0			36
 312884	1791	Neisu	ɣu³³	ɣu³³	strength	strength			1.1.5	6.	0			5677
 312885	1791	Neisu	ngu³³	ngu³³	chew	chew			1.3.4	7.	0			1762
-312886	1791	Neisu	lu³³	lu³³	dragon	dragon			2.1.5	8.	0			bChinese,b
+312886	1791	Neisu	lu³³	lu³³	dragon	dragon			2.1.5	8.	0			b|bChinese
 312887	1791	Neisu	bo³³	bo³³	deaf	deaf			1.2.7.5	9.	0			
 312888	1791	Neisu	ko³³	ko³³	under	under			9.2.2	10.	0			
 312889	1791	Neisu	tho³³	tho³³	pine	pine			3.1.1	11.	0			2690
@@ -1567,7 +1567,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 313086	1785	Nosu	dzɯ³³	dzɯ³³	eat	eat			1.5.3.2	5.	0			36
 313087	1785	Nosu	ɣɯ³³	ɣɯ³³	strength	strength			1.1.5	6.	0			5677
 313088	1785	Nosu	ngɯ³³	ngɯ³³	chew	chew			1.3.4	7.	0			1762
-313089	1785	Nosu	lu³³	lu³³	dragon	dragon			2.1.5	8.	0			bChinese,b
+313089	1785	Nosu	lu³³	lu³³	dragon	dragon			2.1.5	8.	0			b|bChinese
 313090	1785	Nosu	bo³³	bo³³	deaf	deaf			1.2.7.5	9.	0			
 313091	1785	Nosu	ko³³	ko³³	under	under			9.2.2	10.	0			
 313092	1785	Nosu	tho³³	tho³³	pine	pine			3.1.1	11.	0			2690

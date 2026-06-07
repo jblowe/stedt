@@ -21,14 +21,20 @@ mesoroots:
   group: 1.3.1
   form: a-khləjʔ
   gloss: FECES, EXCREMENT
+  source: 'PCN #105'
+  old_tag: 7652
 - grpid: 8
   group: '1.2'
   form: mik-khlii
   gloss: TEARS
+  source: 'PKC #1306'
+  old_tag: 5306
 - grpid: 50
   group: '7'
   form: khrejᴮ
   gloss: BODY DIRT
+  source: TL#29
+  old_tag: 7234
 - grpid: 23
   group: 2.1.4
   form: ᴬkli

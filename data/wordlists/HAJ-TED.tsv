@@ -266,7 +266,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 232960	1567	Tibetan (Written)	spre	spre	monkey (grayish yellow brown	monkey (grayish yellow brown			9.4		0			5566
 232961	1567	Tibetan (Written)	spré-mo	spré-mo	monkey (female)	monkey (female)			2.1.9		0			5566,1620
 232962	1567	Tibetan (Written)	spre◦u-z̀ɑ́r-mɑ	spreu-z̀ɑ́r-mɑ	monkey (blind female)	monkey (blind female)			2.1.9		0			5566,s,m,m
-232963	1567	Tibetan (Written)	spre◦u	spreu	monkey (grayish yellow brown,	monkey (grayish yellow brown,			9.4		0			5566,e,s
+232963	1567	Tibetan (Written)	spre◦u	spreu	monkey (grayish yellow brown,	monkey (grayish yellow brown,			9.4		0			5566|e,s
 232964	1567	Tibetan (Written)	spre-pʻrúg	spre-pʻrúg	monkey (young)	monkey (young)			2.1.9		0			5566,m
 232965	1567	Tibetan (Written)	pʻɑ-wɑ́ŋ	pʻɑ-wɑ́ŋ	bat	bat			2.2.4.1		0			
 232966	1567	Tibetan (Written)	pʻɑ́-rɑ	pʻɑ́-rɑ	buck (breeding)	buck (breeding)			2.2.2		0			
@@ -428,7 +428,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 233122	1567	Tibetan (Written)	rɑ-rgód	rɑ-rgód	goat (wild)	goat (wild)			2.1.8		0		D1	6031,m
 233123	1567	Tibetan (Written)	rɑ-po-c̀ʻé	rɑ-po-c̀ʻé	goat (wild)	goat (wild)			2.1.8		0			6031,m,m
 233124	1567	Tibetan (Written)	rɑ-t'úg	rɑ-t'úg	goat (male)	goat (male)			2.1.8		0			6031,m
-233125	1567	Tibetan (Written)	pʻɑ́-rɑ	pʻɑ́-rɑ	goat (male)	goat (male)			2.1.8		0			m,p,6031
+233125	1567	Tibetan (Written)	pʻɑ́-rɑ	pʻɑ́-rɑ	goat (male)	goat (male)			2.1.8		0			m|p,6031
 233126	1567	Tibetan (Written)	rɑ-tʻóŋ	rɑ-tʻóŋ	goat (male of two years) /	goat (male of two years) /			2.1.8		0			6031,m
 233127	1567	Tibetan (Written)	rɑ-pʻó	rɑ-pʻó	goat (gelded male)	goat (gelded male)			2.1.8		0			6031,m
 233128	1567	Tibetan (Written)	rí-gu	rí-gu	goat (young) / kid	goat (young) / kid			2.1.8		0			6038,m
@@ -439,7 +439,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 233133	1567	Tibetan (Written)	ru-léb	ru-léb	reindeer / elk	reindeer / elk			2.2.7		0			
 233134	1567	Tibetan (Written)	s̀ɑ́-bɑ ru-léb	s̀ɑ́-bɑ ru-léb	reindeer (domesticated)	reindeer (domesticated)			2.2.7		0			34,m,m,m
 233135	1567	Tibetan (Written)	ḥbróg-gi ru-léb	h̥bróg-gi ru-léb	reindeer (wild)	reindeer (wild)			2.2.7		0			
-233136	1567	Tibetan (Written)	rlúŋ-rtɑ	rlúŋ-rtɑ	horse (airy)	horse (airy)			2.1.7		0			m,m,5
+233136	1567	Tibetan (Written)	rlúŋ-rtɑ	rlúŋ-rtɑ	horse (airy)	horse (airy)			2.1.7		0			m|m,5
 233137	1567	Tibetan (Written)	lɑ-kʻyí-mo	lɑ-kʻyí-mo	weasel (mountain)	weasel (mountain)			2.2.7		0			
 233138	1567	Tibetan (Written)	lɑg-ldɑ́n	lɑg-ldɑ́n	elephant (having hand or trunk, hence elephant)	elephant (having hand or trunk, hence elephant)			2.2.1		0			695,m
 233139	1567	Tibetan (Written)	liŋ-gol-mɑ	liŋ-gol-mɑ	hornet (large)	hornet (large)			2.2.6		0			
@@ -448,9 +448,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 233142	1567	Tibetan (Written)	lú-gu	lú-gu	lamb	lamb			2.1.8		0			
 233143	1567	Tibetan (Written)	lúg-gu	lúg-gu	lamb	lamb			2.1.8		0			
 233144	1567	Tibetan (Written)	lug	lug	sheep	sheep			2.1.8		0			6027
-233145	1567	Tibetan (Written)	ḍó-lug	ḍó-lug	sheep for slaughter (W.)	sheep for slaughter (W.)			2.1.8		0			m,m,6027
-233146	1567	Tibetan (Written)	s̀í-lug	s̀í-lug	sheep for slaughter (W.)	sheep for slaughter (W.)			2.1.8		0			m,m,6027
-233147	1567	Tibetan (Written)	bsɑ́d-lug	bsɑ́d-lug	sheep for slaughter (W.)	sheep for slaughter (W.)			2.1.8		0			m,m,6027
+233145	1567	Tibetan (Written)	ḍó-lug	ḍó-lug	sheep for slaughter (W.)	sheep for slaughter (W.)			2.1.8		0			m|m,6027
+233146	1567	Tibetan (Written)	s̀í-lug	s̀í-lug	sheep for slaughter (W.)	sheep for slaughter (W.)			2.1.8		0			m|m,6027
+233147	1567	Tibetan (Written)	bsɑ́d-lug	bsɑ́d-lug	sheep for slaughter (W.)	sheep for slaughter (W.)			2.1.8		0			m|m,6027
 233148	1567	Tibetan (Written)	lúg-kʻyu	lúg-kʻyu	sheep (flock of)	sheep (flock of)			2.1.8		0			6027,m
 233149	1567	Tibetan (Written)	lug-tʻúg	lug-tʻúg	ram	ram			2.1.8		0			
 233150	1567	Tibetan (Written)	rgyɑ-ru-lug-tʻúg	rgyɑ-ru-lug-tʻúg	ram (Saiga)	ram (Saiga)			2.1.8		0			
@@ -619,7 +619,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 233313	1567	Tibetan (Written)	rɑ	rɑ	goat / she-goat	goat / she-goat			2.1.8		0			6031
 233314	1567	Tibetan (Written)	ru-ru	ru-ru	deer	deer			2.2.2		0			
 233315	1567	Tibetan (Written)	ri-rgyɑ́	ri-rgyɑ́	foxes / fox-skins	foxes / fox-skins			2.1.11		0			
-233316	1567	Tibetan (Written)	rɑ-mɑ-lúg	rɑ-mɑ-lúg	goats and sheep	goats and sheep			2.1.8		0			6031,m,m,6027
+233316	1567	Tibetan (Written)	rɑ-mɑ-lúg	rɑ-mɑ-lúg	goats and sheep	goats and sheep			2.1.8		0			6031,m|m,6027
 233317	1567	Tibetan (Written)	rɑ-lúg	rɑ-lúg	goats and sheep	goats and sheep			2.1.8		0			6031,6027
 233318	1567	Tibetan (Written)	s̀ɑ́-mo	s̀ɑ́-mo	hind / roe	hind / roe			1.5.7		0			34,m
 233319	1567	Tibetan (Written)	s̀ɑ-pʻrúg	s̀ɑ-pʻrúg	deer (young) / fawn	deer (young) / fawn			2.2.2		0			34,m

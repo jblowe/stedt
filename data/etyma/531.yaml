@@ -17,6 +17,8 @@ mesoroots:
   group: '1.2'
   form: tshuk/ŋ ⪤ yu-k/ŋ
   gloss: SLOPE (downward) / DESCENT
+  source: 'PKC #600'
+  old_tag: 4600
 notes:
 - type: T
   text: <par>Jingpho illustrates both the <latinform>*s-</latinform> and the <latinform>*ʔ-</latinform>

@@ -19,6 +19,8 @@ mesoroots:
   group: 1.1.1
   form: tol
   gloss: STRONG
+  source: 'JS-HCST: 234'
+  old_tag: 6620
 notes:
 - type: T
   text: <par>This root may be safely reconstructed for Proto-Tani, although it might ultimately be of

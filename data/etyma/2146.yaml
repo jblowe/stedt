@@ -20,14 +20,20 @@ mesoroots:
   group: '1.2'
   form: ɓaak
   gloss: BAT
+  source: 'PKC #6'
+  old_tag: 4006
 - grpid: 12
   group: 1.7.2
   form: C̬-bak
   gloss: BAT
+  source: 'WTF-PNN: 454'
+  old_tag: 6710
 - grpid: 66
   group: 1.3.4
   form: paak
   gloss: BAT
+  source: DRM#724
+  old_tag: 7103
 notes:
 - type: T
   text: <par>This root appears mostly in the NE Indian areal group, but also in Kiranti.</par>

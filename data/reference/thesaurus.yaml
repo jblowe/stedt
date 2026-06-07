@@ -3831,6 +3831,10 @@
   semcat: Nbp
   old_chapter: 1a
   old_subchapter: '9.0'
+  notes:
+  - type: T
+    text: <par>Most of the etyma in this chapter were previously published in <emph>The Tibeto-Burman
+      Reproductive System</emph> (Matisoff 2008).</par>
 - semkey: 1.9.1
   title: Egg
   semcat: Nbp

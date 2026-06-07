@@ -29,10 +29,14 @@ mesoroots:
   group: '7'
   form: chejᴮ
   gloss: URINE
+  source: TL#314
+  old_tag: 7519
 - grpid: 5
   group: 1.1.1
   form: si
   gloss: URINE
+  source: JS-HCST: 151
+  old_tag: 6596
 notes:
 - type: T
   text: '<par>This root exemplifies several typical TB allofamic patterns: variation in initial voicing,

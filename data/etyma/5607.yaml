@@ -13,6 +13,8 @@ mesoroots:
   group: 1.3.4
   form: muk
   gloss: CATTLE
+  source: DRM#759
+  old_tag: 7137
 notes:
 - type: T
   text: <par>This root is quite promising, but further confirmation would be welcome.</par>

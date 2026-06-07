@@ -18,6 +18,8 @@ mesoroots:
   group: '1.2'
   form: tsoo-I, tsoot-II
   gloss: BLIND
+  source: 'PKC #523'
+  old_tag: 4523
 notes:
 - type: T
   text: <par>Some reflexes of this root have front mid vowels, while others have back mid ones, suggesting

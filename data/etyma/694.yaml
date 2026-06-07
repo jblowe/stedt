@@ -13,7 +13,11 @@ mesoroots:
   group: '1.2'
   form: haal
   gloss: BURN / SET FIRE
+  source: 'PKC #702'
+  old_tag: 4702
 - grpid: 8
   group: '1.2'
   form: ʔal-I, ʔalʔ-II
   gloss: FLAME / BLAZE
+  source: 'PKC #485'
+  old_tag: 4485

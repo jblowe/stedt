@@ -19,6 +19,7 @@ mesoroots:
   group: '6.1'
   form: san¹/²
   gloss: LOUSE
+  old_tag: 6703
 - grpid: 29
   group: '2.3'
   form: seri
@@ -27,6 +28,8 @@ mesoroots:
   group: '7'
   form: swɨNᴮ
   gloss: LOUSE (head)
+  source: TL#179
+  old_tag: 7383
 notes:
 - type: I
   text: '<par>While the Loloish languages reflect PLB Tone *1, the Written Burmese form comes from Tone

@@ -434,7 +434,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 114244	602	Gurung (Ghachok)	DāːhDāq	DāːhDāq	backbone / spine	backbone / spine			1.4.8.2		0			b
 114245	913	Limbu	ek◦sī	ek◦sī	backbone / spine	backbone / spine			1.4.8.2		0			214,m
 114246	1459	Tamang (Sahu)	'ko◦hi◦pot	'ko◦hi◦pot	backbone / spine	backbone / spine			1.4.8.2		0			211,m,m
-114247	1527	Thakali (Tukche)	koh kuhng naTi	koh kuhng naTi	backbone / spine	backbone / spine			1.4.8.2		0			"211,NOT219:""middle"",219,m"
+114247	1527	Thakali (Tukche)	koh kuhng naTi	koh kuhng naTi	backbone / spine	backbone / spine			1.4.8.2		0			"211|NOT219:""middle"",219,m"
 114248	763	Kham	'wḁ̄h ruhs	'wḁ̄h ruhs	backbone / spine	backbone / spine			1.4.8.2		0			137,232
 114249	724	Kaike	nhing◦ā◦nāthyāngā	nhing◦ā◦nāthyāngā	backbone / spine	backbone / spine			1.4.8.2		0			203,s,m
 114250	702	Tibetan (Jirel)	chiː◦bāq	chiː◦bāq	backbone / spine	backbone / spine			1.4.8.2		0			
@@ -789,7 +789,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 114619	1527	Thakali (Tukche)	sā	sā	breath / life	breath / life			1.1.2.2		0			32
 114620	732	Kanauri	dɔ̆m	dɔ̆m	breath / life	breath / life			1.1.2.2		0			73
 114621	732	Kanauri	riṅ◦sā	riṅ◦sā	breath / life	breath / life			1.1.2.2		0			71,32
-114622	732	Kanauri	sā◦söṅ	sā◦söṅ	breath / life	breath / life			1.1.2.2		0			32,b?,71
+114622	732	Kanauri	sā◦söṅ	sā◦söṅ	breath / life	breath / life			1.1.2.2		0			32|b?,71
 114623	763	Kham	'saː	'saː	breath / life	breath / life			1.1.2.2		0			32
 114624	702	Tibetan (Jirel)	'nyeː◦pākq	'nyeː◦pākq	breath / life	breath / life			1.1.2.2		0			251,m
 114625	994	Magar	sās	sā◦s	breath / life	breath / life			1.1.2.2		0			bNepali
@@ -2816,7 +2816,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 116781	1286	Côông [Phunoi]	ʔãˊ ʔú	ʔãˊ ʔú	intestines / bowels	intestines / bowels			1.7.7		0			5450,2102
 116782	1568	Tibetan (Written)	rgyú-ma	rgyú-ma	small intestine	small intestine			9.7.2		0			2116,s
 116783	1405	Sherpa	ge◦mā	ge◦mā	intestines / bowels	intestines / bowels			1.7.7		0			2116?,1384
-116784	602	Gurung (Ghachok)	nā̩ːhnu bu̩hDiq	nā̩ːhnu bu̩hDiq	intestines / bowels	intestines / bowels			1.7.7		0			2118,xx,b,loan
+116784	602	Gurung (Ghachok)	nā̩ːhnu bu̩hDiq	nā̩ːhnu bu̩hDiq	intestines / bowels	intestines / bowels			1.7.7		0			2118|xx,b|loan
 116785	913	Limbu	the◦gyāŋ	thegyāŋ	large intestine	large intestine			1.7.7		0			m,2117
 116786	1459	Tamang (Sahu)	kruhng	kruhng	intestines / bowels	intestines / bowels			1.7.7		0			2116
 116787	1527	Thakali (Tukche)	nahro	nahro	intestines / bowels	intestines / bowels			1.7.7		0			2118,m
@@ -2858,7 +2858,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 116823	894	Lepcha	pʻok duṅ	pʻok duṅ	colon	colon			1.7.7		0			
 116824	189	Padam-Mishing [Abor-Miri]	ki-muik	ki-muik	small intestine	small intestine			9.7.2		0			2125,m
 116825	503	Darang [Taraon]	kalhai-laːi	kalhai-laːi	entrails	entrails			1.7.7		0			
-116826	871	Lakher [Mara]	ri chi	ri chi	small intestine,	small intestine,			9.7.2		0			e,2127,2117
+116826	871	Lakher [Mara]	ri chi	ri chi	small intestine,	small intestine,			9.7.2		0			2127|e,2117
 116827	978	Lushai [Mizo]	tai	tai	lower extremity of bowel	lower extremity of bowel					0		W	
 116828	1472	Tangkhul	āwuksā	āwuksā	entrails	entrails			1.7.7		0			
 116829	1123	Mru	yoi ca	yoi ca	intestine	intestine			1.7.6		0			
@@ -3170,7 +3170,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 117150	229	Akha	aˇ◦tsui˰	aˇtsui˰	joint	joint			1.5.8		0			p,418
 117151	1568	Tibetan (Written)	tʻsigs	tʻsigs	joint	joint			1.5.8		0			418
 117152	1405	Sherpa	'chi	'chi	joint	joint			1.5.8		0			418
-117153	602	Gurung (Ghachok)	jorne	jorne	joint	joint			1.5.8		0			b,bNepali
+117153	602	Gurung (Ghachok)	jorne	jorne	joint	joint			1.5.8		0			b|bNepali
 117154	913	Limbu	kedumbā	kedumbā	joint	joint			1.5.8		0			
 117155	1459	Tamang (Sahu)	ciːh	ciːh	joint	joint			1.5.8		0			418
 117156	1527	Thakali (Tukche)	thuy-ci-wa kyāh	thuy-ci-wa kyāh	joint	joint			1.5.8		0			
@@ -3706,7 +3706,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 117716	1603	Trung [Dulong]	pu⁴⁴ ñin⁴²	pu⁴⁴ ñin⁴²	navel	navel			1.9.4		0			m,529
 117717	871	Lakher [Mara]	palia	palia	navel	navel			1.9.4		0			517
 117718	978	Lushai [Mizo]	lai	lai	navel;middle;center	navel;middle;center			1.9.4		0			517
-117719	1472	Tangkhul	hai◦zo	hai◦zo	navel	navel			1.9.4		0			517,?,659,659
+117719	1472	Tangkhul	hai◦zo	hai◦zo	navel	navel			1.9.4		0			517|?,659|659
 117720	1042	Meithei	khôi	khôi	navel	navel			1.9.4		0			3446
 117721	1064	Mikir [Karbi]	che◦te	che◦te	navel	navel			1.9.4		0			m,519
 117722	1123	Mru	dai	dai	navel	navel			1.9.4		0			519
@@ -4723,7 +4723,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 118807	1459	Tamang (Sahu)	'Tuː	'Tuː	sweat	sweat	n.	n.	1.8.1		0			m
 118808	1527	Thakali (Tukche)	chap-kyu	chap-kyu	sweat	sweat	n.	n.	1.8.1		0			m,1631
 118809	732	Kanauri	dŭs-tī	dŭs-tī	sweat	sweat	n.	n.	1.8.1		0			m,298
-118810	763	Kham	'pasyo̥	'pasyo̥	sweat	sweat	n.	n.	1.8.1		0			b,bNepali
+118810	763	Kham	'pasyo̥	'pasyo̥	sweat	sweat	n.	n.	1.8.1		0			b|bNepali
 118812	702	Tibetan (Jirel)	'Thot	'Thot	sweat	sweat	n.	n.	1.8.1		0			
 118813	994	Magar	nām-sos	nām=sos	sweat	sweat	n.	n.	1.8.1		0			616,60
 118814	894	Lepcha	čit	čit	sweat	sweat	n.	n.	1.8.1		0			m
@@ -4731,7 +4731,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 118816	644	Hayu	buk-tsa	buk=tsa	sweat	sweat	n.	n.	1.8.1		0			m,m
 118817	445	Chepang	hlap	hlap	sweat	sweat	n.	n.	1.8.1		0			611
 118818	755	Khaling	'ghal	'ghal	sweat	sweat	n.	n.	1.8.1		0			615
-118819	1437	Sunwar	pasna	pasna	sweat	sweat	n.	n.	1.8.1		0			b,bNepali
+118819	1437	Sunwar	pasna	pasna	sweat	sweat	n.	n.	1.8.1		0			b|bNepali
 118820	1169	Newar	caː◦ti	caː◦ti	sweat	sweat	n.	n.	1.8.1		0			615,m
 118821	189	Padam-Mishing [Abor-Miri]	ang-kir	ang-kir	sweat	sweat	n.	n.	1.8.1		0			m,615
 118822	189	Padam-Mishing [Abor-Miri]	ír-nâm	ír-nâm	sweat	sweat	n.	n.	1.8.1		0			4513,s
@@ -4744,7 +4744,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 118829	1472	Tangkhul	hup kha-laŋ	hup kha=laŋ	sweat	sweat	n.,v.	n.,v.	1.8.1		0			611,m,191
 118830	1472	Tangkhul	shai-|ran-ra	shai=ran=ra	sweat	sweat	n.,v.	n.,v.	1.8.1		0			610,1013
 118831	1042	Meithei	hû◦mâng	hû◦mâng	sweat	sweat	n.	n.	1.8.1		0			615,619
-118832	1064	Mikir [Karbi]	ing-i	ing=i	sweat	sweat	n.	n.	1.8.1		0			4513,p
+118832	1064	Mikir [Karbi]	ing-i	ing=i	sweat	sweat	n.	n.	1.8.1		0			4513|p
 118833	1161	Nepali	pasinā	pasinā	sweat	sweat	n.	n.	1.8.1		0			
 118834	1543	Thulung	gāl-a	gāl=a	sweat	sweat			1.8.1		0			615,s
 118835	325	Bantawa	hak-nu-wa	hak=nu=wa	sweat	sweat			1.8.1		0			m,m,2080
@@ -5071,7 +5071,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 119173	871	Lakher [Mara]	phei-tia	phei-tia	little toe	little toe			9.7.2		0			
 119174	871	Lakher [Mara]	ti-ta	ti-ta	little toe	little toe			9.7.2		0			
 119175	871	Lakher [Mara]	tia-tia	tia-tia	little toe	little toe			9.7.2		0			
-119177	1238	Pa-O	khú-khrí	khú=khrí	body-dirt	body-dirt			1.8.1.2		0			m,2088,572,572
+119177	1238	Pa-O	khú-khrí	khú=khrí	body-dirt	body-dirt			1.8.1.2		0			2088|m,572|572
 119178	1275	Pwo (Moulmein)	xíʔ	xíʔ	body-dirt	body-dirt			1.8.1.2		0			572
 119179	1269	Pwo (Bassein)	xì	xì	body-dirt	body-dirt			1.8.1.2		0			572
 119180	1256	Palaychi	krìq	krìq	body-dirt	body-dirt			1.8.1.2		0			572

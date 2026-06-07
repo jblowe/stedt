@@ -20,10 +20,14 @@ mesoroots:
   group: 1.1.1
   form: beː 
   gloss: MONKEY
+  source: JS-HCST: 45
+  old_tag: 6042
 - grpid: 12
   group: 1.7.2
   form: woːy
   gloss: MONKEY
+  source: WTF-PNN: 522; JAM-GSTC: 091
+  old_tag: 6044
 notes:
 - type: T
   text: '<par>Suffixal <latinform>*-n</latinform> is set up on the basis of the Chinese comparandum <hanform>猿</hanform>

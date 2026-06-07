@@ -19,14 +19,20 @@ mesoroots:
   group: '1.2'
   form: phay
   gloss: THIGH / LEG
+  source: 'PKC #360'
+  old_tag: 4360
 - grpid: 66
   group: 1.3.4
   form: pʰej
   gloss: FOOT / LEG
+  source: DRM#403
+  old_tag: 6816
 - grpid: 63
   group: 1.3.1
   form: phej
   gloss: THIGH
+  source: 'PCN #053'
+  old_tag: 7600
 notes:
 - type: F
   text: '<par><hanform>腓</hanform> OC <latinform>*b’i̯wər</latinform>, GSR #579q &apos;calf of leg&apos;;

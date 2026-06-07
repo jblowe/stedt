@@ -19,10 +19,14 @@ mesoroots:
   group: 1.3.4
   form: plaj
   gloss: EASY / CHEAP
+  source: DRM#373
+  old_tag: 6786
 - grpid: 63
   group: 1.3.1
   form: m-laj
   gloss: EASY
+  source: 'PCN #050'
+  old_tag: 7597
 notes:
 - type: F
   text: '<par><hanform>易</hanform> OC <latinform>*di̯ĕg</latinform>, GSR #850a-e &apos;easy&apos;; Schuessler

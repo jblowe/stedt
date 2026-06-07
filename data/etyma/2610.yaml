@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: rik ⪤ hrik
   gloss: PHEASANT
+  source: 'PKC #961'
+  old_tag: 4961
 - grpid: 50
   group: '7'
   form: (thoᴮ)reɁᴰ
   gloss: PHEASANT
+  source: TL#217
+  old_tag: 7421
 - grpid: 42
   group: '6.1'
   form: rwakᴸ

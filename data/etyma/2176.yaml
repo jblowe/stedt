@@ -19,10 +19,14 @@ mesoroots:
   group: '1.2'
   form: ɓul
   gloss: STUMP / BASE
+  source: 'PKC #48'
+  old_tag: 4048
 - grpid: 66
   group: 1.3.4
   form: pal
   gloss: TRUNK (OF TREE)
+  source: DRM#674
+  old_tag: 7063
 notes:
 - type: I
   text: <par>Needs E Tusom supporting forms (waiting on data from DRM).</par>

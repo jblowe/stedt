@@ -3273,7 +3273,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 263698	1166	Newar	du:benke	du:benke	purification, fulfill works of	purification, fulfill works of	v	v	5.8.3.1	11b2.23	0			
 263699	441	Chepang	jay.lauʔ.sā	jay.lauʔ.sā	purification, fulfill works of	purification, fulfill works of	v	v	5.8.3.1	11b2.23	0			
 263700	1160	Nepali	chiTo halnu	chiTo halnu	sprinkle (water of purificatio	sprinkle (water of purificatio	v	v	6.10.3	11b2.24	0			
-263701	596	Gurung	chiD prā:q◦bā	chiD prā:qbā	sprinkle (water of purificatio	sprinkle (water of purificatio	v	v	6.10.3	11b2.24	0			b,b,m,5695,s,s
+263701	596	Gurung	chiD prā:q◦bā	chiD prā:qbā	sprinkle (water of purificatio	sprinkle (water of purificatio	v	v	6.10.3	11b2.24	0			b|b,5695|m,s|s
 263702	1457	Tamang (Sahu)	'ki phrok-pā	'ki phrok-pā	sprinkle (water of purificatio	sprinkle (water of purificatio	v	v	6.10.3	11b2.24	0			m,5695,m
 263703	1520	Thakali	chiTo pun-la	chiTo pun-la	sprinkle (water of purificatio	sprinkle (water of purificatio	v	v	6.10.3	11b2.24	0			
 263704	990	Magar	chiTā kā-ke	chiTā kā-ke	sprinkle (water of purificatio	sprinkle (water of purificatio	v	v	6.10.3	11b2.24	0			
@@ -4510,7 +4510,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 264944	701	Tibetan (Jirel)	'sumq	'sumq	three	three			9.9	09.01	0			2666
 264945	1402	Tibetan (Sherpa)	sumq	sumq	three	three			9.9	09.01	0			2666
 264946	1433	Sunwar	'sā̩:	'sā̩:	three	three			9.9	09.01	0			2666
-264947	752	Khaling	'suhpu	'suhpu	three	three			9.9	09.01	0			2666,?
+264947	752	Khaling	'suhpu	'suhpu	three	three			9.9	09.01	0			2666|?
 264948	1166	Newar	swa̩-gu:	swa̩-gu:	three	three			9.9	09.01	0			2666
 264949	441	Chepang	sum.joʔ	sum.joʔ	three	three			9.9	09.01	0			2666
 264950	1160	Nepali	cār	cār	four	four			9.9	09.02	0			
@@ -9207,7 +9207,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 269700	990	Magar	majur	majur	peacock	peacock	n	n	2.2.4.1	03a.009	0			6698
 269701	759	Kham	mo̩jar	mo̩jar	peacock	peacock	n	n	2.2.4.1	03a.009	0			6698
 269702	721	Kaike	māpchyā	māpchyā	peacock	peacock	n	n	2.2.4.1	03a.009	0			
-269703	701	Tibetan (Jirel)	mujur	mujur	peacock	peacock	n	n	2.2.4.1	03a.009	0			b,6698
+269703	701	Tibetan (Jirel)	mujur	mujur	peacock	peacock	n	n	2.2.4.1	03a.009	0			6698|b
 269706	752	Khaling	'jā	'jā	peacock	peacock	n	n	2.2.4.1	03a.009	0			
 269707	1166	Newar	mhāe-khā	mhāe-khā	peacock	peacock	n	n	2.2.4.1	03a.009	0			
 269709	1160	Nepali	bhangero	bhangero	sparrow	sparrow	n	n	2.2.4.1	03a.010	0			
@@ -9292,7 +9292,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 269790	1520	Thakali	'tāhprāng	'tāhprāng	crow (bird)	crow (bird)	n	n	2.2.4.1	03a.016	0			
 269791	990	Magar	kāgā	kāgā	crow (bird)	crow (bird)	n	n	2.2.4.1	03a.016	0			b
 269792	759	Kham	kāga	kāga	crow (bird)	crow (bird)	n	n	2.2.4.1	03a.016	0			b
-269793	721	Kaike	khā	khā	crow (bird)	crow (bird)	n	n	2.2.4.1	03a.016	0			b?,2279
+269793	721	Kaike	khā	khā	crow (bird)	crow (bird)	n	n	2.2.4.1	03a.016	0			2279|b?
 269794	701	Tibetan (Jirel)	khā◦dākq	khādākq	crow (bird)	crow (bird)	n	n	2.2.4.1	03a.016	0			2279,m
 269795	1402	Tibetan (Sherpa)	kalak	kalak	crow (bird)	crow (bird)	n	n	2.2.4.1	03a.016	0			
 269796	1433	Sunwar	khada	khada	crow (bird)	crow (bird)	n	n	2.2.4.1	03a.016	0			
@@ -9558,7 +9558,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 270078	759	Kham	rhā 'mā	rhā 'mā	nanny goat	nanny goat	n	n	4.2.10	03a.038	0			6031
 270079	721	Kaike	ra mā	ra mā	nanny goat	nanny goat	n	n	4.2.10	03a.038	0			6031
 270080	701	Tibetan (Jirel)	'ci◦muq	'ci◦muq	nanny goat	nanny goat	n	n	4.2.10	03a.038	0			1226,m
-270081	1402	Tibetan (Sherpa)	're◦rum, 're◦ruk	're◦rum, 're◦ruk	nanny goat	nanny goat	n	n	4.2.10	03a.038	0			6031,m,m,6031,m,m
+270081	1402	Tibetan (Sherpa)	're◦rum, 're◦ruk	're◦rum, 're◦ruk	nanny goat	nanny goat	n	n	4.2.10	03a.038	0			6031,m|m,6031,m|m
 270082	1433	Sunwar	pā:thā:	pā:thā:	nanny goat	nanny goat	n	n	4.2.10	03a.038	0			
 270083	752	Khaling	grodū	grodū	nanny goat	nanny goat	n	n	4.2.10	03a.038	0			
 270084	1166	Newar	cwalae	cwalae	nanny goat	nanny goat	n	n	4.2.10	03a.038	0			
@@ -9636,15 +9636,15 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 270161	752	Khaling	ghora	ghora	horse	horse	n	n	2.1.7	03a.044	0			6023
 270162	1166	Newar	sala	sala	horse	horse	n	n	2.1.7	03a.044	0			
 270164	1160	Nepali	gaDhā	gaDhā	donkey	donkey	n	n	2.1.7	03a.045	0			b
-270165	596	Gurung	gādā:	gādā:	donkey	donkey	n	n	2.1.7	03a.045	0			b,b
+270165	596	Gurung	gādā:	gādā:	donkey	donkey	n	n	2.1.7	03a.045	0			b|b
 270166	1457	Tamang (Sahu)	'puhng◦ku	'puhngku	donkey	donkey	n	n	2.1.7	03a.045	0			1432,m
 270167	1520	Thakali	'puhm◦pu	'puhmpu	donkey	donkey	n	n	2.1.7	03a.045	0			1432,m
-270168	990	Magar	gadhā	gadhā	donkey	donkey	n	n	2.1.7	03a.045	0			b,b
-270169	759	Kham	gadahā	gadahā	donkey	donkey	n	n	2.1.7	03a.045	0			b,b
+270168	990	Magar	gadhā	gadhā	donkey	donkey	n	n	2.1.7	03a.045	0			b|b
+270169	759	Kham	gadahā	gadahā	donkey	donkey	n	n	2.1.7	03a.045	0			b|b
 270170	721	Kaike	pu̩:	pu̩:	donkey	donkey	n	n	2.1.7	03a.045	0			
-270171	701	Tibetan (Jirel)	'gādā	'gādā	donkey	donkey	n	n	2.1.7	03a.045	0			b,b
+270171	701	Tibetan (Jirel)	'gādā	'gādā	donkey	donkey	n	n	2.1.7	03a.045	0			b|b
 270172	1402	Tibetan (Sherpa)	pung◦ā	pung◦ā	donkey	donkey	n	n	2.1.7	03a.045	0			1432,m
-270174	752	Khaling	gadhā:	gadhā:	donkey	donkey	n	n	2.1.7	03a.045	0			b,b
+270174	752	Khaling	gadhā:	gadhā:	donkey	donkey	n	n	2.1.7	03a.045	0			b|b
 270175	1166	Newar	garā-cā	garā-cā	donkey-(diminutive)	donkey-(diminutive)	n	n	2.1.7	03a.045	0			b,2727
 270177	1160	Nepali	cau̩ri	cau̩ri	yak	yak	n	n	2.1.2	03a.046	0			
 270178	596	Gurung	cyā̩:nggrā	cyā̩:nggrā	yak	yak	n	n	2.1.2	03a.046	0			
@@ -9772,7 +9772,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 270323	596	Gurung	pho	pho	deer	deer	n	n	2.2.2	03a.057	0			
 270324	1457	Tamang (Sahu)	tengke	tengke	deer	deer	n	n	2.2.2	03a.057	0			
 270325	1520	Thakali	pho	pho	deer	deer	n	n	2.2.2	03a.057	0			
-270326	990	Magar	mirgo	mirgo	deer	deer	n	n	2.2.2	03a.057	0			b?,NEPALI
+270326	990	Magar	mirgo	mirgo	deer	deer	n	n	2.2.2	03a.057	0			NEPALI|b?
 270327	759	Kham	ratuwā	ratuwā	deer	deer	n	n	2.2.2	03a.057	0			
 270328	721	Kaike	sar, tānglā, war bang	sar, tānglā, war bang	deer	deer	n	n	2.2.2	03a.057	0			
 270329	701	Tibetan (Jirel)	khā:syākq	khā:syākq	deer	deer	n	n	2.2.2	03a.057	0			

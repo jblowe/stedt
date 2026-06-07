@@ -20,14 +20,20 @@ mesoroots:
   group: 1.3.4
   form: ʃok
   gloss: EMERGE / EXIT / COME OUT
+  source: 'DRM#565, #677'
+  old_tag: 6968
 - grpid: 42
   group: '6.1'
   form: ʔ-twakᴴ
   gloss: COME OUT, GO OUT, EMERGE
+  source: HPTB pp.62, 315
+  old_tag: 390
 - grpid: 8
   group: '1.2'
   form: tshuak-I, tshuaʔ-II
   gloss: COME OUT / EMERGE / APPEAR
+  source: 'PKC #581'
+  old_tag: 4581
 notes:
 - type: T
   text: <par>This root is extremely well-attested, in Lolo-Burmese and many other branches of the family.

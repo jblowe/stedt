@@ -13,10 +13,14 @@ mesoroots:
   group: '6.1'
   form: (k-)la
   gloss: TIGER
+  source: STC p.26
+  old_tag: 2389
 - grpid: 12
   group: 1.7.2
   form: C-gya
   gloss: TIGER
+  source: 'from WTF-PNN: 569'
+  old_tag: 6115
 notes:
 - type: T
   text: '<par>French says, &quot;Cf. Burmese-Lolo <latinform>(*k-)la</latinform> (&gt; WB <latinform>kyà</latinform>),

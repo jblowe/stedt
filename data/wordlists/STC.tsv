@@ -1467,7 +1467,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 70777	1068	Mikir [Karbi]	a◦rnu	arnu	roast, bake, fry, grill	roast, bake, fry, grill			5.5	270	0			p,2528
 70778	1484	Tangkhul	khə◦ŋui	khəŋui	fry	fry			5.5	270	0			p,2528
 70780	1578	Tibetan (Written)	nu-m	nu-m	younger sister	younger sister				271	0			2492
-70781	900	Lepcha	nŭm-nu	nŭm-nu	blood relation	blood relation			1.6.2	271	0			2492,?
+70781	900	Lepcha	nŭm-nu	nŭm-nu	blood relation	blood relation			1.6.2	271	0			2492|?
 70782	685	Jingpho	nău	nău	younger sibling	younger sibling				271	0			2492
 70783	984	Lushai [Mizo]	nău	nău	younger sibling	younger sibling				271	0			2492
 70784	579	Garo	no	no	younger sister	younger sister				271	0			2492
@@ -1766,7 +1766,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 71113	984	Lushai [Mizo]	kap	kap	fork of the legs	fork of the legs			1.4.9.1	338	0			1279
 71114	984	Lushai [Mizo]	kap	kap	gag, wedge open	gag, wedge open	v.	v.	1.3.5.7	338	0			1279
 71115	534	Dimasa	ya-khap	ya-khap	groin / fork	groin / fork			1.4.9	338	0			375,1279
-71116	665	Jili	tə◦khyen	tə◦khyen	goat	goat			2.1.8	339	0			p,p,2306
+71116	665	Jili	tə◦khyen	tə◦khyen	goat	goat			2.1.8	339	0			p|p,2306
 71117	984	Lushai [Mizo]	keːl	keːl	goat	goat			2.1.8	339	0			2306
 71118	534	Dimasa	ge◦pher	ge◦pher	flat	flat			7.1.5.1	340	0			m,2557
 71119	984	Lushai [Mizo]	peːr	peːr	flat and thin	flat and thin			7.1.5.1	340	0			2557
@@ -2453,7 +2453,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 71856	534	Dimasa	ra	ra	cut, reap, pine away	cut, reap, pine away			6.9.3	458	0			3564
 71857	1578	Tibetan (Written)	dri(-ma)	dri(-ma)	dirt, filth, ordure; odor	dirt, filth, ordure; odor			1.8.5	459	0			2607,s
 71858	305	Bahing	ri ⪤ ə◦ri	ri ⪤ ə◦ri	odor	odor			7.1.4.5	459	0			2607,p,2607
-71859	305	Bahing	ri-ku	ri-ku	filth, dirt	filth, dirt			1.8.5	459	0			2607,2607,m,2088
+71859	305	Bahing	ri-ku	ri-ku	filth, dirt	filth, dirt			1.8.5	459	0			2607|2607,2088|m
 71860	900	Lepcha	mə◦ri	mə◦ri	dirt	dirt			1.5.3.2	459	0			p,2607
 71861	736	Kanauri	kri	kri	dirt, dirty	dirt,dirty			1.5.3.2	460	0			2336
 71862	1539	Thebor	kri	kri	dirt, dirty	dirt,dirty			1.5.3.2	460	0			2336
@@ -4637,7 +4637,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 304358	844	Lahu	a-vi-a-ni	a-vi-a-ni	brothers (older and younger)	brothers (older and younger)				121n335	0		s	
 304359	844	Lahu	a-pi	a-pi	grandmother	grandmother			4.7.1	121n335	0		s	p,2559
 304360	844	Lahu	á-lɛ̀ʔ	á-lɛ̀ʔ	salt	salt			3.2.4	121n335	0		s	5450,m
-304361	844	Lahu	á-chèʔ	á-chèʔ	goat	goat			2.1.8	121n335	0		s	p,5450,1226
+304361	844	Lahu	á-chèʔ	á-chèʔ	goat	goat			2.1.8	121n335	0		s	5450|p,1226
 304362	844	Lahu	á-phèʔ	á-phèʔ	pepper	pepper			3.1.5	121n335	0		s	5450,m
 304363	358	Bodo	aŋ-ni afa	aŋ-ni afa	my father	my father			10.2.3.2	121n336	0		s	
 304364	358	Bodo	naŋ-ni naŋfa	naŋ-ni naŋfa	thy father	thy father			4.1	121n336	0		s	
@@ -5051,7 +5051,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 304772	1578	Tibetan (Written)	bźi	bźi	four	four			9.9	162n436	0		D2	2409
 304773	1736	*Karen	lwi-t	lwi-t	four	four			9.9	162n436	0			2409
 304774	1578	Tibetan (Written)	dźa	dźa	tea	tea			3.1.1	163n439	0		s	
-304775	409	Burmese (Written)	khraŋ-sé	khraŋ-sé	lion	lion			2.1.3	163n439	0		s	b,6114,m
+304775	409	Burmese (Written)	khraŋ-sé	khraŋ-sé	lion	lion			2.1.3	163n439	0		s	6114|b,m
 304776	1578	Tibetan (Written)	doŋts(h)e	doŋts(h)e	coin	coin			5.9	163n439	0		s	
 304777	1578	Tibetan (Written)	mig-gi miu	mig-gi miu	pupil (of eye)	pupil (of eye)			1.2.6.2	163n439	0		s	682
 304778	1578	Tibetan (Written)	rdeu	rdeu	stone (little-)	stone (little-)			3.2.9	163n439	0		s	
@@ -5408,7 +5408,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 536385	1732	*Kuki-Naga	(s-)|ryam		sharp				6.9.2	171n457	0			2639
 536386	460	Chinese (Old/Mid)	sri̯am / si̯äm		sharp				6.9.2	171n457	0			2639,2639
 536395	1068	Mikir [Karbi]	vi		tend, graze (flocks)					p.83	0			2783
-536396	984	Lushai [Mizo]	vul		keep or rear (domestic animals)					p.83	0			5166?,2783
+536396	984	Lushai [Mizo]	vul		keep or rear (domestic animals)					p.83	0			2783|5166?
 550922	877	Lakher [Mara]	tśə◦khei		pick (as a sore), dig out (as a thorn)		v.			p.68	0			m,2307
 550923	984	Lushai [Mizo]	kheuʔ~khei		pick (as a sore), dig out (as a thorn)		v.			p.68	0			2307,2307
 609150	1736	*Karen	p(h)le ~ ʔble		slippery				7.1.4.2	148n407	0			2159,2159

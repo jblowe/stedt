@@ -20,6 +20,8 @@ mesoroots:
   form: nuul
   gloss: RUB / BRUSH / WIPE
   variant: a
+  source: 'PKC #830'
+  old_tag: 4830
 - grpid: 8
   group: '1.2'
   form: hnor ⪤ hnur

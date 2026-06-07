@@ -20,26 +20,38 @@ mesoroots:
   group: '1.2'
   form: luŋ
   gloss: STONE / ROCK
+  source: 'PKC #1054'
+  old_tag: 5054
 - grpid: 42
   group: '6.1'
   form: k-lok ⪤ k-loŋ
   gloss: STONE
+  source: JAM-TIL: 47
+  old_tag: 6145
 - grpid: 5
   group: 1.1.1
   form: lɯŋ
   gloss: STONE
+  source: JS-HCST: 195
+  old_tag: 6444
 - grpid: 66
   group: 1.3.4
   form: luŋ
   gloss: STONE
+  source: DRM#501
+  old_tag: 6907
 - grpid: 50
   group: '7'
   form: loŋᴮ
   gloss: STONE, ROCK
+  source: TL#282
+  old_tag: 7486
 - grpid: 63
   group: 1.3.1
   form: luŋ
   gloss: STONE, ROCK
+  source: 'PCN #229'
+  old_tag: 7776
 - grpid: 16
   group: 1.7.1
   form: loʔŋ-tai

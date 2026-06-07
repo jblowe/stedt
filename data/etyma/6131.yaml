@@ -12,6 +12,7 @@ mesoroots:
   group: '6.1'
   form: m-krak
   gloss: SCRATCH
+  old_tag: 1465
 - grpid: 42
   group: '6.1'
   form: Nkret
@@ -28,6 +29,8 @@ mesoroots:
   group: 1.2.1.1
   form: kiat
   gloss: SCRAPE
+  source: 'PKC #307 ("PNC")'
+  old_tag: 4307
 notes:
 - type: T
   text: <par>This etymon was formerly reconstructed as <latinform>*m-kret</latinform> (HPTB:375).</par>

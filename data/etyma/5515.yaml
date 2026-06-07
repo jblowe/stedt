@@ -13,10 +13,14 @@ mesoroots:
   group: '6.1'
   form: takᴴ
   gloss: SHARP
+  source: STC p.87
+  old_tag: 2685
 - grpid: 50
   group: '7'
   form: thaŋᴬ
   gloss: SHARP
+  source: TL#252
+  old_tag: 7456
 notes:
 - type: T
   text: <par>The nasal prefix is directly attested in Namuyi. Several other languages (e.g., Proto-Northern

@@ -19,10 +19,14 @@ mesoroots:
   group: '1.2'
   form: ɓee
   gloss: BEAN / PEA
+  source: 'PKC #7'
+  old_tag: 4007
 - grpid: 5
   group: 1.1.1
   form: peː
   gloss: BEANS
+  source: JS-HCST: 157
+  old_tag: 6513
 notes:
 - type: T
   text: '<par>This is definitely an areal word, found in Mon-Khmer and Tai as well as in TB and perhaps

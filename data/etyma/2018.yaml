@@ -19,6 +19,8 @@ mesoroots:
   group: 1.1.1
   form: prat²
   gloss: PLAIT
+  source: JS-HCST: 124
+  old_tag: 6527
 - grpid: 42
   group: '6.1'
   form: pan¹/² ⪤ Ȼ-pat
@@ -27,6 +29,8 @@ mesoroots:
   group: '1.2'
   form: phan
   gloss: WEAVE / CREATE / KNIT
+  source: 'PKC #366'
+  old_tag: 4366
 notes:
 - type: F
   text: '<par><hanform>編</hanform> OC <latinform>*b’i̯ɑn</latinform>, GSR #246e &apos;braid, plait&apos;;

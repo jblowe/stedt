@@ -23,7 +23,11 @@ mesoroots:
   group: '1.2'
   form: kray
   gloss: BITE / CHEW
+  source: 'PKC #1313'
+  old_tag: 5313
 - grpid: 66
   group: 1.3.4
   form: kej
   gloss: BITE
+  source: DRM#398
+  old_tag: 6811

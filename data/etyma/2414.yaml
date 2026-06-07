@@ -20,14 +20,20 @@ mesoroots:
   group: '1.2'
   form: ʔuy-hlii
   gloss: FLEA
+  source: 'PKC #1110'
+  old_tag: 5110
 - grpid: 5
   group: 1.1.1
   form: fi
   gloss: FLEA
+  source: JS-HCST: 101
+  old_tag: 6307
 - grpid: 63
   group: 1.3.1
   form: a-hləj(ʔ)
   gloss: FLEA
+  source: 'PCN #115'
+  old_tag: 7662
 - grpid: 42
   group: '6.1'
   form: ʔ-liy²
@@ -36,6 +42,8 @@ mesoroots:
   group: '7'
   form: kliᴬ ⪤ kliɁᴰ
   gloss: FLEA
+  source: cf. TL#119
+  old_tag: 7324
 notes:
 - type: I
   text: <par>mesoroot of <xref ref="2414">#2414</xref> with different prefix?</par>

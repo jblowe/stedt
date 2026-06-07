@@ -13,6 +13,8 @@ mesoroots:
   group: '7'
   form: hloŋᴮ
   gloss: MAGGOT
+  source: TL#181
+  old_tag: 7385
 - grpid: 12
   group: 1.7.2
   form: gluŋ
@@ -25,6 +27,8 @@ mesoroots:
   group: '1.2'
   form: luŋ
   gloss: MAGGOT / WORM
+  source: 'PKC #1034'
+  old_tag: 5034
 notes:
 - type: F
   text: '<par><hanform>蟲</hanform>/<hanform>虫</hanform> OC <latinform>*dʼi̯ông</latinform>, GSR #1009c

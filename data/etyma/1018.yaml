@@ -21,10 +21,14 @@ mesoroots:
   group: '1.2'
   form: that-I, -thaʔ-II
   gloss: KILL
+  source: 'PKC #394'
+  old_tag: 4394
 - grpid: 66
   group: 1.3.4
   form: tʰat
   gloss: KILL
+  source: DRM#537
+  old_tag: 6942
 - grpid: 12
   group: 1.7.2
   form: ʔsot

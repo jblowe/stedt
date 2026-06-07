@@ -19,7 +19,11 @@ mesoroots:
   group: '1.2'
   form: kriʔ
   gloss: FEAR / AFRAID
+  source: 'PKC #1321'
+  old_tag: 5321
 - grpid: 66
   group: 1.3.4
   form: ci
   gloss: FEAR
+  source: DRM#350
+  old_tag: 6763

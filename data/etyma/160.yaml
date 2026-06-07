@@ -20,10 +20,14 @@ mesoroots:
   group: 1.3.4
   form: na
   gloss: HURT
+  source: DRM#773
+  old_tag: 7151
 - grpid: 8
   group: '1.2'
   form: naa-I, nat-II
   gloss: PAINFUL / SICK
+  source: 'PKC #825'
+  old_tag: 4825
 - grpid: 45
   group: 6.1.2
   form: C-natᴸ

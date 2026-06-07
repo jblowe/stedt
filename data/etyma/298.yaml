@@ -21,18 +21,26 @@ mesoroots:
   group: '1.2'
   form: tuy
   gloss: WATER / FLUID / LIQUID
+  source: 'PKC #243'
+  old_tag: 4243
 - grpid: 66
   group: 1.3.4
   form: dɨ
   gloss: WATER
+  source: DRM#396
+  old_tag: 6809
 - grpid: 42
   group: '6.1'
   form: m/ʔ-titᴴ
   gloss: WET / SOAK
+  source: HPTB:351
+  old_tag: 7204
 - grpid: 50
   group: '7'
   form: thejᴬ
   gloss: WATER
+  source: TL#324
+  old_tag: 7529
 notes:
 - type: T
   text: <par>This is a rather complex word family in which all three dental suffixes /<latinform>-t, -s,

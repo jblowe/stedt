@@ -21,38 +21,54 @@ mesoroots:
   group: '1.2'
   form: ʔuy
   gloss: DOG
+  source: 'PKC #476'
+  old_tag: 4476
 - grpid: 5
   group: 1.1.1
   form: kwiː
   gloss: DOG
+  source: JS-HCST: 90
+  old_tag: 6016
 - grpid: 12
   group: 1.7.2
   form: kuəy (kreːŋ)
   gloss: DOG
+  source: WTF p.479
+  old_tag: 6017
 - grpid: 42
   group: '6.1'
   form: kʷəy²
   gloss: DOG
+  old_tag: 6045
 - grpid: 50
   group: '7'
   form: thwíʔ
   gloss: DOG
+  old_tag: 6047
 - grpid: 66
   group: 1.3.4
   form: hwɨ
   gloss: DOG
+  source: DRM#392
+  old_tag: 6805
 - grpid: 50
   group: '7'
   form: thwiᴮ
   gloss: DOG
+  source: TL#87
+  old_tag: 7292
 - grpid: 63
   group: 1.3.1
   form: khjəj
   gloss: DOG
+  source: 'PCN #104'
+  old_tag: 7651
 - grpid: 50
   group: '7'
   form: thwiᴮmiᴬ
   gloss: FOX, WOLF
+  source: TL#125
+  old_tag: 7329
 notes:
 - type: T
   text: <par>Root-initial <latinform>*k-</latinform> in <xref ref="1764">#1764</xref> reanalyzed as prefix,

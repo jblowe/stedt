@@ -13,6 +13,8 @@ mesoroots:
   group: '1.2'
   form: kril
   gloss: FALL (leaves, fruits, hairs)
+  source: 'PKC #1319'
+  old_tag: 5319
 notes:
 - type: T
   text: <par>This etymon comprises a simplex/causative pair.</par>

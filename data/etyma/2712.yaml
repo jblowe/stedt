@@ -19,10 +19,14 @@ mesoroots:
   group: '1.2'
   form: thuuk
   gloss: DEEP / PROFOUND
+  source: 'PKC #382'
+  old_tag: 4382
 - grpid: 66
   group: 1.3.4
   form: tʰuk
   gloss: DEEP
+  source: DRM#570
+  old_tag: 6973
 notes:
 - type: T
   text: <par>Languages like Ao and Zeme have a sibilant fricative or affricate initial, although this

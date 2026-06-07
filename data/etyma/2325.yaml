@@ -21,10 +21,14 @@ mesoroots:
   group: 1.1.1
   form: ko ~ kjo
   gloss: DIG (HOLE)
+  source: JS-HCST: 162
+  old_tag: 6387
 - grpid: 50
   group: '7'
   form: khuᴮ
   gloss: DIG
+  source: TL#83
+  old_tag: 7288
 notes:
 - type: F
   text: '<par><hanform>堀</hanform> OC <latinform>*k’wət</latinform>, GSR #496p; B &amp; S 2011: <latinform>*kʰˁut

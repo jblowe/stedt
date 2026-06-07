@@ -18,19 +18,27 @@ mesoroots:
   form: tsii
   gloss: SEED / CROP
   variant: a
+  source: 'PKC #560'
+  old_tag: 4560
 - grpid: 8
   group: '1.2'
   form: khlaay-tsii
   gloss: SEED / CROP
   variant: b
+  source: 'PKC #1298'
+  old_tag: 5298
 - grpid: 63
   group: 1.3.1
   form: ma-tʃəjʔ
   gloss: SEED
+  source: 'PCN #107'
+  old_tag: 7654
 - grpid: 66
   group: 1.3.4
   form: tʰa
   gloss: SEED
+  source: DRM#660
+  old_tag: 7050
 notes:
 - type: T
   text: <par>The basic meaning of this etymon seems to be SEED, with extensions into SMALL ROUND OBJECT,

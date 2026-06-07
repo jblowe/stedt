@@ -16,6 +16,8 @@ mesoroots:
   group: '1.2'
   form: pha-lep
   gloss: BUTTERFLY
+  source: 'PKC #329'
+  old_tag: 4329
 notes:
 - type: F
   text: '<par><hanform>蝶</hanform> OC <latinform>*dʼiɑp</latinform>, GSR #633h &apos;butterfly&apos;;

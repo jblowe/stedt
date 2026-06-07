@@ -21,10 +21,14 @@ mesoroots:
   group: '1.2'
   form: ruaʔ
   gloss: RAIN (n.)
+  source: 'PKC #964'
+  old_tag: 4964
 - grpid: 63
   group: 1.3.1
   form: rwa/ru
   gloss: RAIN
+  source: 'PCN #039'
+  old_tag: 7586
 notes:
 - type: F
   text: '<par><hanform>雨</hanform> OC <latinform>*gi̯wo</latinform>, GSR #100a-e; B &amp; S 2011: <latinform>*C.ɢʷa

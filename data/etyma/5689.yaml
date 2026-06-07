@@ -12,10 +12,14 @@ mesoroots:
   group: 1.2.2
   form: toŋ-I, ton-II
   gloss: MEET / CONTACT
+  source: 'PKC #207 ("PCC")'
+  old_tag: 4207
 - grpid: 8
   group: '1.2'
   form: ɗoŋ-I, ɗon-II
   gloss: MEET / WELCOME / RECEIVE / COLLECT
+  source: 'PKC #96'
+  old_tag: 4096
 - grpid: 45
   group: 6.1.2
   form: C-doŋ²

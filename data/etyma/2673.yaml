@@ -20,14 +20,20 @@ mesoroots:
   group: '1.2'
   form: thiir
   gloss: IRON / METAL / STEEL
+  source: 'PKC #392'
+  old_tag: 4392
 - grpid: 66
   group: 1.3.4
   form: tʰir
   gloss: IRON
+  source: DRM#673
+  old_tag: 7062
 - grpid: 63
   group: 1.3.1
   form: jən
   gloss: IRON
+  source: 'PCN #174'
+  old_tag: 7721
 notes:
 - type: T
   text: <par>Benedict <plainlatinform>(STC, n. 244, p. 80)</plainlatinform> suggests that the rhyme alternation

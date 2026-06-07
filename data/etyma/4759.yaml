@@ -13,14 +13,20 @@ mesoroots:
   group: '1.2'
   form: man
   gloss: COST / PRICE
+  source: 'PKC #759'
+  old_tag: 4759
 - grpid: 66
   group: 1.3.4
   form: man
   gloss: PRICE
+  source: DRM#771
+  old_tag: 7149
 - grpid: 63
   group: 1.3.1
   form: a-maːn
   gloss: PRICE, COST, VALUE
+  source: 'PCN #159'
+  old_tag: 7706
 notes:
 - type: T
   text: <par>This root so far seems to be confined to the NE Indian areal group. There is in fact a resemblant

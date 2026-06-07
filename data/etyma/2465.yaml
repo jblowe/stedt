@@ -20,10 +20,14 @@ mesoroots:
   group: 1.7.2
   form: muk
   gloss: THUNDER
+  source: WTF-PNN: 568
+  old_tag: 6144
 - grpid: 63
   group: 1.3.1
   form: '[h]muk'
   gloss: THUNDER
+  source: 'PCN #262'
+  old_tag: 7809
 notes:
 - type: T
   text: <par>This root seems to be allofamically related to <xref ref="522">#522</xref>.</par>

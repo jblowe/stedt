@@ -19,10 +19,14 @@ mesoroots:
   group: 1.1.1
   form: fi-buŋ
   gloss: BEAK
+  source: JS-HCST: 92
+  old_tag: 6309
 - grpid: 63
   group: 1.3.1
   form: paŋ
   gloss: MOUTH
+  source: 'PCN #194'
+  old_tag: 7741
 notes:
 - type: T
   text: <par>&quot;The first morpheme is &apos;tooth&apos;; the second morpheme can be identified with

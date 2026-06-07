@@ -19,11 +19,17 @@ mesoroots:
   group: '1.2'
   form: yuar
   gloss: SELL
+  source: 'PKC #1234'
+  old_tag: 5234
 - grpid: 66
   group: 1.3.4
   form: jwor
   gloss: SELL
+  source: DRM#521
+  old_tag: 6926
 - grpid: 63
   group: 1.3.1
   form: jən
   gloss: SELL
+  source: 'PCN #173'
+  old_tag: 7720

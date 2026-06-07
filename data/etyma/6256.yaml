@@ -13,10 +13,14 @@ mesoroots:
   group: '1.2'
   form: puak-I, puaʔ-II
   gloss: BLAST / BURST / EXPLODE
+  source: 'PKC #126'
+  old_tag: 4126
 - grpid: 66
   group: 1.3.4
   form: wok
   gloss: BURST
+  source: DRM#681
+  old_tag: 7069
 notes:
 - type: F
   text: '<par><hanform>卜</hanform> OC <latinform>*puk</latinform>, GSR #1210a-d &apos;divine using pyromancy

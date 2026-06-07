@@ -13,7 +13,11 @@ mesoroots:
   group: '1.2'
   form: ʔaak
   gloss: RAVEN / CROW (n.)
+  source: 'PKC #499'
+  old_tag: 4499
 - grpid: 5
   group: 1.1.1
   form: ak
   gloss: CROW (bird)
+  source: JS-HCST: 145
+  old_tag: 6242

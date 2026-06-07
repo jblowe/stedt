@@ -19,6 +19,8 @@ mesoroots:
   group: '1.2'
   form: wil
   gloss: WATCH / LOOK AFTER  / CARE FOR
+  source: 'PKC #1179'
+  old_tag: 5179
 notes:
 - type: T
   text: <par>This etymon is perhaps allofamic with <xref ref="6173">#6173</xref>.</par>

@@ -12,7 +12,11 @@ mesoroots:
   group: '1.2'
   form: waa
   gloss: HUSBAND
+  source: 'PKC #1154'
+  old_tag: 5154
 - grpid: 50
   group: '7'
   form: khwaᴬ
   gloss: MAN, MALE
+  source: TL#183
+  old_tag: 7387

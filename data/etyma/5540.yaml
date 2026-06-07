@@ -13,10 +13,14 @@ mesoroots:
   group: 1.2.2
   form: zuu-I, zuuk-II
   gloss: SUCK / SMOKE (v.)
+  source: 'PKC #1239 ("PCC")'
+  old_tag: 5239
 - grpid: 50
   group: '7'
   form: cwiKᴰ
   gloss: SUCK
+  source: TL#284
+  old_tag: 7488
 notes:
 - type: I
   text: <par>Jingpho has a double reflex of this root, one with <latinform>-p</latinform> and one with

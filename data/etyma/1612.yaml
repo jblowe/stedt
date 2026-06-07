@@ -20,18 +20,26 @@ mesoroots:
   group: '1.2'
   form: ʔim
   gloss: HOUSE
+  source: 'PKC #492'
+  old_tag: 4492
 - grpid: 42
   group: '6.1'
   form: yim¹
   gloss: HOUSE
+  source: JAM-MLBM:90, HPTB:35
+  old_tag: 6125
 - grpid: 66
   group: 1.3.4
   form: ʃim
   gloss: HOUSE
+  source: DRM#448
+  old_tag: 6859
 - grpid: 63
   group: 1.3.1
   form: a-jam
   gloss: HOUSE / VILLAGE
+  source: 'PCN #135'
+  old_tag: 7682
 - grpid: 45
   group: 6.1.2
   form: yim¹

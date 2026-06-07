@@ -21,10 +21,14 @@ mesoroots:
   group: 1.3.4
   form: ŋar
   gloss: SNORE
+  source: DRM#774
+  old_tag: 7152
 - grpid: 70
   group: 1.2.2
   form: hnaar
   gloss: SNORE
+  source: 'PKC #905 ("PCC")'
+  old_tag: 4905
 notes:
 - type: T
   text: <par>This root was set up as <latinform>*s-ŋor</latinform> in HPTB:400.</par><par>As noted in

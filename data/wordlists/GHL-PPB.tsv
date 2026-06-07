@@ -1428,7 +1428,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 162807	1508	Tha'oa	huːt⁴	huːt⁴	blow (with mouth)	blow (with mouth)	v.	v.	1.3.1.4	P.25	0			503
 162808	1508	Tha'oa	huᵊt⁴	huᵊt⁴	blow (with mouth)	blow (with mouth)	v.	v.	1.3.1.4	P.25	0			503
 162809	1633	Womatu	muʔ²	muʔ²	blow (with mouth)	blow (with mouth)	v.	v.	1.3.1.4	P.25	0			503
-162810	221	Khumi (Ahraing)	hm⁵ [Imp. hm¹]	hm⁵ [Imp. hm¹]	blow (with mouth)	blow (with mouth)	v.	v.	1.3.1.4	P.25	0			503,e
+162810	221	Khumi (Ahraing)	hm⁵ [Imp. hm¹]	hm⁵ [Imp. hm¹]	blow (with mouth)	blow (with mouth)	v.	v.	1.3.1.4	P.25	0			503|e
 162811	296	Awa Khumi	mũ¹	mũ¹	blow (with mouth)	blow (with mouth)	v.	v.	1.3.1.4	P.25	0			
 162812	292	Asho (Sandoway)	hmuᵊt²	hmuᵊt²	blow (with mouth)	blow (with mouth)	v.	v.	1.3.1.4	P.25	0			503
 162813	966	Lothvo (Hiranpi)	rə³	rə³	corpse, dead body	corpse, dead body			1.1.6.1	P.26	0			12
@@ -2113,7 +2113,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 163492	472	Chinese (Old)	[nâu	[nâu	brains	brains			1.2.4	U.43	0			
 163493	593	Chinese (GSR #)	Anc. Chin. 1244f	Anc. Chin. 1244f	brains	brains			1.2.4	U.43	0			
 163494	620	Lai (Hakha)	[Imp. hmü²]	[Imp. hmü²]	see	see	v.	v.	1.2.6.10	O.7	0			e
-163495	292	Asho (Sandoway)	[Imp. hmü²]	[Imp. hmü²]	see	see	v.	v.	1.2.6.10	O.7	0			m,e,4880
+163495	292	Asho (Sandoway)	[Imp. hmü²]	[Imp. hmü²]	see	see	v.	v.	1.2.6.10	O.7	0			e|m,4880
 163496	221	Khumi (Ahraing)	[Imp. neᴜ¹]	[Imp. neᴜ¹]	see	see	v.	v.	1.2.6.10	O.7	0			e
 163497	1280	Pwo (Tenasserim)	kʻlɑ⁵	kʻlɑ⁵	bald	bald			1.2.3.4	E.1	0			
 163498	1273	Pwo (Delta)	kʻlɑ²	kʻlɑ²	bald	bald			1.2.3.4	E.1	0			
@@ -2256,10 +2256,10 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 163635	1273	Pwo (Delta)	ɓɤ⁴	ɓɤ⁴	paddy, grain	paddy, grain			9.10.5	E.36	0			
 163636	1389	Sgaw	ɓɤ¹	ɓɤ¹	paddy, grain	paddy, grain			9.10.5	E.36	0			
 163637	1254	Paku	ɓɤ¹	ɓɤ¹	paddy, grain	paddy, grain			9.10.5	E.36	0			
-163638	1280	Pwo (Tenasserim)	θo¹	θo¹	sheep	sheep			2.1.8	E.37	0			R,6080
-163639	1273	Pwo (Delta)	θᴜ¹	θᴜ¹	sheep	sheep			2.1.8	E.37	0			R,6080
-163640	1389	Sgaw	θo¹	θo¹	sheep	sheep			2.1.8	E.37	0			R,6080
-163641	1254	Paku	θᴜ¹	θᴜ¹	sheep	sheep			2.1.8	E.37	0			R,6080
+163638	1280	Pwo (Tenasserim)	θo¹	θo¹	sheep	sheep			2.1.8	E.37	0			6080|R
+163639	1273	Pwo (Delta)	θᴜ¹	θᴜ¹	sheep	sheep			2.1.8	E.37	0			6080|R
+163640	1389	Sgaw	θo¹	θo¹	sheep	sheep			2.1.8	E.37	0			6080|R
+163641	1254	Paku	θᴜ¹	θᴜ¹	sheep	sheep			2.1.8	E.37	0			6080|R
 163642	1280	Pwo (Tenasserim)	lɑ¹	lɑ¹	leaf	leaf			3.1.3	E.38	0			
 163643	1273	Pwo (Delta)	lɑ⁴	lɑ⁴	leaf	leaf			3.1.3	E.38	0			
 163644	1389	Sgaw	lɑ⁴	lɑ⁴	leaf	leaf			3.1.3	E.38	0			
@@ -2417,9 +2417,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 163796	415	Bwe (Western)	ɓu²	ɓu²	paddy, grain	paddy, grain			9.10.5	E.36	0			
 163797	588	Geba	bu²	bu²	paddy, grain	paddy, grain			9.10.5	E.36	0			
 163798	1233	Pa-O (Northern)	bɯ⁶	bɯ⁶	paddy, grain	paddy, grain			9.10.5	E.36	0			
-163799	415	Bwe (Western)	θᴜ¹	θᴜ¹	sheep	sheep			2.1.8	E.37	0			R,6080
-163800	588	Geba	θo²	θo²	sheep	sheep			2.1.8	E.37	0			R,6080
-163801	1233	Pa-O (Northern)	sʻɤ⁵	sʻɤ⁵	sheep	sheep			2.1.8	E.37	0			R,6080
+163799	415	Bwe (Western)	θᴜ¹	θᴜ¹	sheep	sheep			2.1.8	E.37	0			6080|R
+163800	588	Geba	θo²	θo²	sheep	sheep			2.1.8	E.37	0			6080|R
+163801	1233	Pa-O (Northern)	sʻɤ⁵	sʻɤ⁵	sheep	sheep			2.1.8	E.37	0			6080|R
 163802	415	Bwe (Western)	lɛ²	lɛ²	leaf	leaf			3.1.3	E.38	0			
 163803	588	Geba	hlɛ²	hlɛ²	leaf	leaf			3.1.3	E.38	0			
 163804	1233	Pa-O (Northern)	lɑ¹	lɑ¹	leaf	leaf			3.1.3	E.38	0			

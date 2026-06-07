@@ -20,18 +20,25 @@ mesoroots:
   group: '1.2'
   form: riat
   gloss: EIGHT
+  source: 'PKC #935'
+  old_tag: 4935
 - grpid: 42
   group: '6.1'
   form: ʔ-ritᴸ
   gloss: EIGHT
+  old_tag: 94
 - grpid: 66
   group: 1.3.4
   form: ʃɐt
   gloss: EIGHT
+  source: DRM#539
+  old_tag: 6944
 - grpid: 50
   group: '7'
   form: khrɔtᴰ/grɔtᴰ
   gloss: EIGHT
+  source: TL#101
+  old_tag: 7306
 - grpid: 45
   group: 6.1.2
   form: C-yetᴸ

@@ -105,13 +105,13 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 33076	234	Akha	kʻeh LS|	kʻeh LS|	break by bending	break by bending			9.5	25	0			
 33077	839	Lahu (Black)	fâʔ-chàʔ	fâʔ-chàʔ	rat	rat			2.1.1	26	0			2630,5564
 33078	234	Akha	ho-ca M-LS	ho-ca M-LS	rat	rat			2.1.1	26	0			2630,5564
-33079	839	Lahu (Black)	á-chèʔ	á-chèʔ	goat	goat			2.1.8	27	0		D0	p,5450,1226
+33079	839	Lahu (Black)	á-chèʔ	á-chèʔ	goat	goat			2.1.8	27	0		D0	5450|p,1226
 33080	234	Akha	ci LS|	ci LS|	goat	goat			2.1.8	27	0			1226
 33081	214	Ahi	tšhi 44s|	tšhi 44s|	goat	goat			2.1.8	27	0			1226
 33082	1368	Sani [Nyi]	tšhi 22s|	tšhi 22s|	goat	goat			2.1.8	27	0		u	1226
 33083	632	Hani (Kao Hua-Nien)	tshi 21|	tshi 21|	goat	goat			2.1.8	27	0			1226
-33084	631	Hani (Hu T’an)	a-tsi 21-21c	a-tsi 21-21c	goat	goat			2.1.8	27	0			p,p,1226
-33085	930	Lisu	a1-hchï6	a1-hchï6	goat	goat			2.1.8	27	0			p,p,1226
+33084	631	Hani (Hu T’an)	a-tsi 21-21c	a-tsi 21-21c	goat	goat			2.1.8	27	0			p|p,1226
+33085	930	Lisu	a1-hchï6	a1-hchï6	goat	goat			2.1.8	27	0			p|p,1226
 33086	972	Luquan	tʂʻI 55c|	tʂʻI 55c|	goat	goat			2.1.8	27	0			1226
 33087	1152	Nasu	tšʻi 55|	tšʻi 55|	goat	goat			2.1.8	27	0			1226
 33088	1315	Qiang (ChiuTzuYing)	tšhe	tšhe	goat	goat			2.1.8	27	0			1226
@@ -337,8 +337,8 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 33340	632	Hani (Kao Hua-Nien)	tsu 55|	tsu 55|	chain / lock / key	chain / lock / key			5.1	79	0			
 33341	1635	Woni	tsu-tʻi 55-21	tsu-tʻi 55-21	chain / lock / key	chain / lock / key			5.1	79	0			
 33342	972	Luquan	ntʂu 22s|	ntʂu 22s|	chain / lock / key	chain / lock / key			5.1	79	0			
-33344	839	Lahu (Black)	gûʔ	gûʔ	collide / butt / bump into	collide / butt / bump into			1.4.10	80	0			445,5821
-33345	1368	Sani [Nyi]	gɤ 44|	gɤ 44|	collide / butt / bump into	collide / butt / bump into			1.4.10	80	0			445,5821
+33344	839	Lahu (Black)	gûʔ	gûʔ	collide / butt / bump into	collide / butt / bump into			1.4.10	80	0			445|5821
+33345	1368	Sani [Nyi]	gɤ 44|	gɤ 44|	collide / butt / bump into	collide / butt / bump into			1.4.10	80	0			445|5821
 33346	930	Lisu	jē3	jē3	collide / butt / bump into	collide / butt / bump into			1.4.10	80	0			
 33347	839	Lahu (Black)	gâʔ qay ~ gá-go-lo te	gâʔ qay ~ gá-go-lo te	crawl / creep	crawl / creep			6.7.9	81	0			5784,273,m,m,m,m
 33348	839	Lahu (Black)		ga-i HS-H		crawl / creep			6.7.9	81	0			

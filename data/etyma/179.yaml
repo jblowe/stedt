@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: sik-I, siʔ-II
   gloss: PINCH / NIP / PLUCK
+  source: 'PKC #666'
+  old_tag: 4666
 - grpid: 66
   group: 1.3.4
   form: sik
   gloss: PINCH
+  source: DRM#728
+  old_tag: 7107
 - grpid: 42
   group: '6.1'
   form: r-sik ⪤ *s-yik

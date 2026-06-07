@@ -11,10 +11,14 @@ mesoroots:
   group: '1.2'
   form: ɓil
   gloss: FOLD
+  source: 'PKC #28'
+  old_tag: 4028
 - grpid: 5
   group: 1.1.1
   form: pil
   gloss: FOLD (v.t.)
+  source: JS-HCST: 231
+  old_tag: 6516
 notes:
 - type: T
   text: <par>The Lepcha cognate <latinform>bíl</latinform> makes it possible to reconstruct this root

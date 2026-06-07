@@ -21,14 +21,20 @@ mesoroots:
   group: '1.2'
   form: muut
   gloss: BLOW / SMOULDER
+  source: 'PKC #753'
+  old_tag: 4753
 - grpid: 5
   group: 1.1.1
   form: mut¹
   gloss: BLOW (WITH MOUTH)
+  source: JS-HCST: 207; note that ¹ is not a tone
+  old_tag: 6471
 - grpid: 42
   group: '6.1'
   form: s-mutᴴ
   gloss: BLOW
+  source: HPTB pp.37, 315
+  old_tag: 16
 - grpid: 45
   group: 6.1.2
   form: s-mutᴴ
@@ -37,6 +43,8 @@ mesoroots:
   group: '7'
   form: Ɂuᴬ
   gloss: BLOW (a fire)
+  source: TL#26
+  old_tag: 7231
 notes:
 - type: T
   text: <par>This root, like many others, displays variation between medial <latinform>*-u-</latinform>

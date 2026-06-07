@@ -19,6 +19,8 @@ mesoroots:
   group: 1.2.2
   form: wal
   gloss: ENCIRCLE
+  source: 'PKC #1145 ("PCC")'
+  old_tag: 5145
 notes:
 - type: F
   text: '<par>Additional comparanda:</par><par><hanform>圈</hanform> OC <reconstruction>*gʼi̯wɑn</reconstruction>

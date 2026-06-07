@@ -19,10 +19,14 @@ mesoroots:
   group: 1.1.1
   form: kɯ
   gloss: UNCLE (maternal)
+  source: JS-HCST: 90
+  old_tag: 6415
 - grpid: 63
   group: 1.3.1
   form: ku
   gloss: UNCLE / FATHER-IN-LAW
+  source: 'PCN #076'
+  old_tag: 7623
 notes:
 - type: F
   text: '<par><hanform>舊</hanform> OC <latinform>*kôg</latinform>, GSR #1067c-e &apos;old (not new); ancient&apos;;

@@ -19,26 +19,38 @@ mesoroots:
   group: 1.7.2
   form: saːr
   gloss: NEW
+  source: 'WTF-PNN: 526'
+  old_tag: 6176
 - grpid: 50
   group: '7'
   form: san / sành
   gloss: NEW
+  source: STC:147n401, RBJ-KLS:171
+  old_tag: 6177
 - grpid: 8
   group: '1.2'
   form: thar
   gloss: NEW / FRESH
+  source: 'PKC #401'
+  old_tag: 4401
 - grpid: 66
   group: 1.3.4
   form: tʰar
   gloss: NEW
+  source: DRM#512
+  old_tag: 6918
 - grpid: 50
   group: '7'
   form: saNᴬ
   gloss: NEW
+  source: TL#202
+  old_tag: 7406
 - grpid: 63
   group: 1.3.1
   form: a-saːn
   gloss: NEW
+  source: 'PCN #160'
+  old_tag: 7707
 notes:
 - type: F
   text: '<par><hanform>鮮</hanform> OC <latinform>*si̯an</latinform>, GSR #209a-c &apos;fresh in general

@@ -19,20 +19,28 @@ mesoroots:
   group: '1.2'
   form: luŋ
   gloss: HEART / LIVER
+  source: 'PKC #1025'
+  old_tag: 5025
 - grpid: 66
   group: 1.3.4
   form: luŋ
   gloss: HEART
+  source: DRM#496
+  old_tag: 6903
 - grpid: 63
   group: 1.3.1
   form: m-luŋ
   gloss: HEART / BE ROUND
   variant: a
+  source: 'PCN #231'
+  old_tag: 7778
 - grpid: 63
   group: 1.3.1
   form: ləm
   gloss: HEAD / HEART / MIND
   variant: b
+  source: 'PCN #147'
+  old_tag: 7694
 notes:
 - type: T
   text: <par>Kuki-Chin languages systematically confuse the meanings HEART and LIVER for this etymon,

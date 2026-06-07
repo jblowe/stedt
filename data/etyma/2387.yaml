@@ -20,6 +20,8 @@ mesoroots:
   group: '1.2'
   form: laa
   gloss: COTTON
+  source: 'PKC #1004'
+  old_tag: 5004
 notes:
 - type: T
   text: <par>This root looks as if it might be related to <xref ref="5661">#5661</xref>.</par>

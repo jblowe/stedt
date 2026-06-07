@@ -20,15 +20,21 @@ mesoroots:
   form: tak
   gloss: ACTUAL / REAL
   variant: a
+  source: 'PKC #171'
+  old_tag: 4171
 - grpid: 8
   group: '1.2'
   form: ɗik ⪤ ɗiŋ
   gloss: TRUE /  RIGHT / STRAIGHT
   variant: b
+  source: 'PKC #114'
+  old_tag: 4114
 - grpid: 42
   group: '6.1'
   form: m-d(y)ak
   gloss: GOOD / PRETTY / FINE
+  source: cf. HPTB p.51; 2722 *tyak 'very/real/just'
+  old_tag: 3380
 notes:
 - type: T
   text: <par>This etymon has a very likely connection with <xref ref="663">#663</xref>, illustrating the

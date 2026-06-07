@@ -18,19 +18,27 @@ mesoroots:
   form: hnaʔ-tsaŋ
   gloss: BANANA LEAF / PLANTAIN
   variant: a
+  source: 'PKC #520'
+  old_tag: 4520
 - grpid: 8
   group: '1.2'
   form: hnaʔ
   gloss: LEAF / FOLIAGE
   variant: b
+  source: 'PKC #896'
+  old_tag: 4896
 - grpid: 5
   group: 1.1.1
   form: nə
   gloss: LEAF
+  source: JS-HCST: 163
+  old_tag: 6500
 - grpid: 66
   group: 1.3.4
   form: na
   gloss: LEAF
+  source: DRM#343
+  old_tag: 6756
 notes:
 - type: T
   text: <par>This root is well attested in the NE Indian areal group, but has so far not been found elsewhere.</par>

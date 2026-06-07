@@ -20,15 +20,23 @@ mesoroots:
   group: '1.2'
   form: phiat ⪤ phiak
   gloss: SWEEP
+  source: 'PKC #359'
+  old_tag: 4359
 - grpid: 42
   group: '6.1'
   form: k-yak
   gloss: SCOOP / SWEEP
+  source: JAM-DL:1263
+  old_tag: 6158
 - grpid: 5
   group: 1.1.1
   form: pək
   gloss: SWEEP
+  source: JS-HCSTː 219
+  old_tag: 6404
 - grpid: 63
   group: 1.3.1
   form: (w)uk
   gloss: SWEEP
+  source: 'PCN #265'
+  old_tag: 7812

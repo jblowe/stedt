@@ -21,14 +21,20 @@ mesoroots:
   group: '1.2'
   form: kul
   gloss: TWENTY
+  source: 'PKC #320'
+  old_tag: 4320
 - grpid: 66
   group: 1.3.4
   form: kul
   gloss: TWENTY
+  source: DRM#508
+  old_tag: 6914
 - grpid: 63
   group: 1.3.1
   form: mu-kju
   gloss: TWENTY
+  source: 'PCN #083'
+  old_tag: 7630
 notes:
 - type: T
   text: '<par>STC originally set up two separate roots: <reconstruction>*kun</reconstruction> ALL (#10)

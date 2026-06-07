@@ -19,7 +19,11 @@ mesoroots:
   group: '1.2'
   form: nii
   gloss: AUNT (father's sister)
+  source: 'PKC #801'
+  old_tag: 4801
 - grpid: 66
   group: 1.3.4
   form: ni
   gloss: MOTHER-IN-LAW / PATERNAL AUNT
+  source: DRM#355
+  old_tag: 6768

@@ -21,18 +21,26 @@ mesoroots:
   group: '1.2'
   form: ruy ⪤ hruy
   gloss: ROPE / CORD / STRING / RATTAN
+  source: 'PKC #967'
+  old_tag: 4967
 - grpid: 66
   group: 1.3.4
   form: hroj
   gloss: ROPE / STRING / THREAD NEEDLE
+  source: DRM#756
+  old_tag: 7134
 - grpid: 50
   group: '7'
   form: reᴮ
   gloss: RATTAN
+  source: TL#235
+  old_tag: 7439
 - grpid: 63
   group: 1.3.1
   form: a-(h)rəj
   gloss: CANE, RATTAN
+  source: 'PCN #110'
+  old_tag: 7657
 notes:
 - type: T
   text: <par>The basic meaning of this etymon seems to be &apos;cord, string&apos;. It also appears in

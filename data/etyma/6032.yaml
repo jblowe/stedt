@@ -12,7 +12,11 @@ mesoroots:
   group: '1.2'
   form: sha-yaa
   gloss: IBEX / WILD GOAT
+  source: 'PKC #1208; all supporting forms moved to #6032'
+  old_tag: 5208
 - grpid: 50
   group: '7'
   form: jajᴬ
   gloss: SEROW, MOUNTAIN GOAT
+  source: TL#249
+  old_tag: 7453

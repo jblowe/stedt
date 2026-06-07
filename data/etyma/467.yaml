@@ -21,14 +21,20 @@ mesoroots:
   group: '1.2'
   form: hmuur
   gloss: LIP / BEAK / MOUTH / TIP
+  source: 'PKC #876'
+  old_tag: 4876
 - grpid: 66
   group: 1.3.4
   form: mor
   gloss: MOUTH
+  source: DRM#520
+  old_tag: 6925
 - grpid: 63
   group: 1.3.1
   form: mən
   gloss: MOUTH
+  source: 'PCN #169'
+  old_tag: 7716
 notes:
 - type: I
   text: <par>maybe move some of the reflexes with <latinform>ni-, ȵi-</latinform> out of this ety; e.g.,

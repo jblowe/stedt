@@ -5,7 +5,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 127295	1612	Tujia	mɯe⁵⁵ kʰɯe²¹	mɯe⁵⁵ kʰɯe²¹	back	back			1.4.8	1.4	0			
 127296	1612	Tujia	dɯ⁵⁵ go³⁵	dɯ⁵⁵ go³⁵	front	front			1.4.4	1.5	0			m,m
 127297	1612	Tujia	dʑi³⁵ du̵⁵⁵	dʑi³⁵ du̵⁵⁵	lap	lap			1.4.4.2	1.8	0			m,1193
-127298	1612	Tujia	to⁵⁵ po²¹ dɯ²¹ go³⁵	to⁵⁵ po²¹ dɯ²¹ go³⁵	bosom	bosom			1.4.4.2	1.9	0			m,m,398,?,m,m,m,m
+127298	1612	Tujia	to⁵⁵ po²¹ dɯ²¹ go³⁵	to⁵⁵ po²¹ dɯ²¹ go³⁵	bosom	bosom			1.4.4.2	1.9	0			m|m,398|?,m|m,m|m
 127299	1612	Tujia	si³⁵	si³⁵	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		34
 127300	1612	Tujia	se²¹	se²¹	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		27
 127301	1612	Tujia	ne²¹	ne²¹	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		129
@@ -115,7 +115,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 127406	1612	Tujia	xa³³	xa³³	gill (of fish)	gill (of fish)			1.3.5.3	9.2.4	0			
 127407	1612	Tujia	dã³³	dã³³	phlegm	phlegm			1.8.3	9.2.5	0			
 127408	1612	Tujia	li²¹ ŋa²¹	li²¹ ŋa²¹	heart	heart			1.7.1	9.3	0			m,m
-127409	1612	Tujia	kã³³	kã³³	liver	liver			1.7.3	9.5	0			229,bChinese
+127409	1612	Tujia	kã³³	kã³³	liver	liver			1.7.3	9.5	0			229|bChinese
 127410	1612	Tujia	tã²¹	tã²¹	gall bladder	gall bladder			1.7.3	9.5.2	0			bChinese
 127411	1612	Tujia	ʑiaɯ⁵⁵ tsi²¹	ʑiaɯ⁵⁵ tsi²¹	kidney	kidney			1.7.5	9.6	0			b
 127412	1612	Tujia	tsʰe⁵⁵ tsʰe³⁵ pʰaɯ¹³	tsʰe⁵⁵ tsʰe³⁵ pʰaɯ¹³	urinary bladder	urinary bladder			1.7.8	9.7	0			

@@ -19,10 +19,14 @@ mesoroots:
   group: '1.2'
   form: waay
   gloss: HUSK / CHAFF
+  source: 'PKC #1155'
+  old_tag: 5155
 - grpid: 12
   group: 1.7.2
   form: C-weːk
   gloss: HUSK / HUSKS / CHAFF
+  source: 'WTF-PNN: 506'
+  old_tag: 6153
 - grpid: 42
   group: '6.1'
   form: pway²
@@ -31,6 +35,8 @@ mesoroots:
   group: '7'
   form: pheᴬ
   gloss: BRAN, CHAFF
+  source: TL#34
+  old_tag: 7239
 notes:
 - type: T
   text: '<par>From French 1983 (p.506): &quot;Probably to be referred to PTB <latinform>*pwaːy</latinform>

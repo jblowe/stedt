@@ -22,6 +22,8 @@ mesoroots:
   group: '1.2'
   form: C-may
   gloss: TAIL
+  source: 'cf. PKC #794; cf. ''fire'''
+  old_tag: 4794
 - grpid: 45
   group: 6.1.2
   form: ʔmri²
@@ -30,6 +32,8 @@ mesoroots:
   group: 1.1.1
   form: me ~ mjo
   gloss: TAIL
+  source: JS-HCST: 45
+  old_tag: 6452
 - grpid: 42
   group: '6.1'
   form: ʔ-m(r)ay²

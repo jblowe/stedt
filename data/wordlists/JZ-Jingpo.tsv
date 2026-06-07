@@ -328,7 +328,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 334129	679	Jingpho	khɹaŋ³¹khji⁵⁵	khɹaŋ³¹khji⁵⁵	radish	radish			3.1.5		0			
 334130	679	Jingpho	lo³¹pu³³	lo³¹pu³³	radish	radish			3.1.5		0			bChinese
 334131	679	Jingpho	kau³¹poŋ³³	kau³¹poŋ³³	green onion	green onion			9.4		0			
-334132	679	Jingpho	la³¹|son³³	la³¹son³³	garlic	garlic			3.1.5		0			bIndic,5679
+334132	679	Jingpho	la³¹|son³³	la³¹son³³	garlic	garlic			3.1.5		0			5679|bIndic
 334133	679	Jingpho	ʃă⁵nam⁵⁵	ʃă⁵nam⁵⁵	ginger	ginger			3.1.5		0			
 334134	679	Jingpho	mă⁵tʃap⁵⁵	mă⁵tʃap⁵⁵	hot pepper	hot pepper					0			
 334135	679	Jingpho	nam³¹si³¹	nam³¹si³¹	fruit	fruit			3.1.5		0			
@@ -431,7 +431,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 334232	679	Jingpho	n̩³³kha³³	n̩³³kha³³	door	door			5.11.9.3		0			
 334233	679	Jingpho	khă⁵lap⁵⁵	khă⁵lap⁵⁵	window	window			5.11.9.3		0			
 334234	679	Jingpho	tʃă¹khui³³	tʃă¹khui³³	lime (mineral)	lime (mineral)			3.1.5		0			
-334235	679	Jingpho	wut³¹	wut³¹	brick	brick			5.11.9.3		0			bBurmese,5751
+334235	679	Jingpho	wut³¹	wut³¹	brick	brick			5.11.9.3		0			5751|bBurmese
 334236	679	Jingpho	wa⁵⁵	wa⁵⁵	tile	tile			5.8		0			bChinese
 334237	679	Jingpho	phun⁵⁵pjen³³	phun⁵⁵pjen³³	board / plank	board / plank			5.11.9		0			m,707
 334238	679	Jingpho	tin³¹tse³¹	tin³¹tse³¹	nail (tool)	nail (tool)			1.5.10		0			
@@ -929,7 +929,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 334730	679	Jingpho	n̩⁵⁵kă¹tʃa³³	n̩⁵⁵kă¹tʃa³³	bad	bad			9.6.2.1		0			
 334731	679	Jingpho	tʃa̱ŋ³¹	tʃa̱ŋ³¹	fast	fast			9.6.1.1		0			
 334732	679	Jingpho	lă¹ŋja̱n³¹	lă¹ŋja̱n³¹	slow	slow			9.6.2.1		0			
-334733	679	Jingpho	ka̱³³	ka̱³³	dry	dry			6.6		0			120?,7203
+334733	679	Jingpho	ka̱³³	ka̱³³	dry	dry			6.6		0			120?|7203
 334734	679	Jingpho	mă¹|ti³³	mă¹ti³³	wet	wet			6.6		0			298
 334735	679	Jingpho	tiŋ³¹la³³	tiŋ³¹la³³	old (men)	old (men)			7.1.8.3		0			
 334736	679	Jingpho	kum³¹kai³³	kum³¹kai³³	old (women)	old (women)			7.1.8.3		0			

@@ -20,6 +20,8 @@ mesoroots:
   group: '1.2'
   form: lua-I, luak-II
   gloss: VOMIT
+  source: 'PKC #1063'
+  old_tag: 5063
 notes:
 - type: T
   text: <par>There is an apparent Newar doublet <latinform>lhwa</latinform> ?⪤? <latinform>wak</latinform>.</par>

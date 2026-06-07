@@ -13,18 +13,26 @@ mesoroots:
   group: '1.2'
   form: tar
   gloss: OLD / SENILE
+  source: 'PKC #214'
+  old_tag: 4214
 - grpid: 66
   group: 1.3.4
   form: saar
   gloss: OLD
+  source: DRM#518
+  old_tag: 6923
 - grpid: 42
   group: '6.1'
   form: san²
   gloss: OLD (of things)
+  source: DL:1174
+  old_tag: 7180
 - grpid: 50
   group: '7'
   form: saʔ
   gloss: OLD (of people)
+  source: JAM
+  old_tag: 7182
 notes:
 - type: T
   text: <par>This root shows up in several different subgroups, with the usual meaning &quot;old (of things)&quot;.

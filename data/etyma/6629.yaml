@@ -16,14 +16,20 @@ mesoroots:
   group: 1.3.4
   form: ra
   gloss: TEN
+  source: DRM#339
+  old_tag: 6752
 - grpid: 8
   group: '1.2'
   form: hraa
   gloss: TEN
+  source: 'PKC #1100'
+  old_tag: 5100
 - grpid: 63
   group: 1.3.1
   form: th-ra
   gloss: (TIMES) TEN
+  source: 'PCN #033'
+  old_tag: 7580
 notes:
 - type: T
   text: <par>This etymon seems to be confined to the Northeast Indian areal group. It is not properly

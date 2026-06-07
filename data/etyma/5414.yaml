@@ -13,20 +13,28 @@ mesoroots:
   group: '1.2'
   form: tooy
   gloss: SHORT / BRIEF
+  source: 'PKC #226'
+  old_tag: 4226
 - grpid: 66
   group: 1.3.4
   form: tew
   gloss: SMALL / FEW
   variant: a
+  source: DRM#593
+  old_tag: 6993
 - grpid: 66
   group: 1.3.4
   form: tu
   gloss: SHORT (LENGTH OR HEIGHT)
   variant: b
+  source: DRM#760
+  old_tag: 7138
 - grpid: 42
   group: '6.1'
   form: dəw¹
   gloss: SHORT
+  source: JAM
+  old_tag: 7174
 notes:
 - type: F
   text: '<par><hanform>短</hanform> OC <latinform>*twɑ̂n</latinform>, GSR #169a-c &apos;short&apos;; Schuessler

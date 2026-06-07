@@ -21,10 +21,14 @@ mesoroots:
   group: 1.7.2
   form: ma
   gloss: LOSE
+  source: 'WTF-PNN: 516'
+  old_tag: 6214
 - grpid: 50
   group: '7'
   form: maᴮ
   gloss: DISAPPEAR, LOST
+  source: TL#86
+  old_tag: 7291
 notes:
 - type: T
   text: <par>This etymon resembles <xref ref="5575">#5575</xref>, but must be kept distinct, as witness

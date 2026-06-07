@@ -19,6 +19,8 @@ mesoroots:
   group: '1.2'
   form: kop
   gloss: ADHERE / STICK TO
+  source: 'PKC #247'
+  old_tag: 4247
 notes:
 - type: I
   text: <par>compare chinese <latinform>hé</latinform>? cf. GSR</par>

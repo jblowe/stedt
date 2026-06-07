@@ -20,10 +20,14 @@ mesoroots:
   group: 1.1.1
   form: bi
   gloss: GIVE
+  source: JS-HCST: 92
+  old_tag: 6250
 - grpid: 42
   group: '6.1'
   form: bəy²
   gloss: GIVE
+  source: HPTB p.19
+  old_tag: 204
 - grpid: 8
   group: '1.2'
   form: pia-I, piak-II

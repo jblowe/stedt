@@ -18,7 +18,11 @@ mesoroots:
   group: '1.2'
   form: woor-I, worʔ-II
   gloss: THROW / SCATTER / TOSS
+  source: 'PKC #1174'
+  old_tag: 5174
 - grpid: 5
   group: 1.1.1
   form: vor?
   gloss: THROW / CAST
+  source: JS-HCST: 103
+  old_tag: 6639

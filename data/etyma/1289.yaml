@@ -21,10 +21,14 @@ mesoroots:
   group: 1.3.4
   form: rik
   gloss: ARMPIT
+  source: DRM#601
+  old_tag: 7001
 - grpid: 63
   group: 1.3.1
   form: k-lik
   gloss: TICKLE
+  source: 'PCN #259'
+  old_tag: 7806
 notes:
 - type: T
   text: '<par>This &quot;funny&quot; root is quite well attested in several branches of the family, usually

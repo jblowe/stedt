@@ -21,10 +21,14 @@ mesoroots:
   group: '1.2'
   form: yuu
   gloss: MOUSE / RAT
+  source: 'PKC #1219'
+  old_tag: 5219
 - grpid: 50
   group: '7'
   form: jowᴮ
   gloss: MOUSE, RAT
+  source: TL#195
+  old_tag: 7399
 notes:
 - type: T
   text: '<par>A suffixal element <latinform>-n</latinform> appears in several languages, including WB,

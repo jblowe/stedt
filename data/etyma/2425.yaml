@@ -20,14 +20,20 @@ mesoroots:
   group: '1.2'
   form: khlaʔ
   gloss: RELEASE / SET FREE
+  source: 'PKC #1297'
+  old_tag: 5297
 - grpid: 8
   group: '1.2'
   form: hloo-I, hloot-II
   gloss: EXPEL / ABANDON
+  source: 'PKC #1107'
+  old_tag: 5107
 - grpid: 5
   group: 1.1.1
   form: lut¹
   gloss: SLIP (v.)
+  source: JS-HCST: 208; note that ¹ is not a tone
+  old_tag: 6435
 notes:
 - type: T
   text: <par>A number of languages (WT, WB, and Kuki-Chin) reflect two different prefixes with this root.

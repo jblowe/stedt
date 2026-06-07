@@ -20,10 +20,14 @@ mesoroots:
   group: 1.3.4
   form: ʃak
   gloss: DIFFICULT / HARD
+  source: DRM#699
+  old_tag: 7082
 - grpid: 63
   group: 1.3.1
   form: a-tʃhak
   gloss: DIFFICULT / HARD / DEAR, COSTLY
+  source: 'PCN #252'
+  old_tag: 7799
 notes:
 - type: I
   text: <par>perhaps<latinform>⪤ *sak</latinform> ROUGH/SCALY.</par>

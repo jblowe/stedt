@@ -20,11 +20,17 @@ mesoroots:
   group: '1.2'
   form: hmaa
   gloss: WOUND / SCAR
+  source: 'PKC #883'
+  old_tag: 4883
 - grpid: 66
   group: 1.3.4
   form: ma
   gloss: SCAR / WOUND
+  source: DRM#744
+  old_tag: 7122
 - grpid: 63
   group: 1.3.1
   form: hma
   gloss: WOUND, SORE
+  source: 'PCN #004'
+  old_tag: 7551

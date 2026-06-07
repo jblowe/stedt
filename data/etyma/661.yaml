@@ -17,10 +17,14 @@ mesoroots:
   group: '1.2'
   form: tshuu
   gloss: VULVA / VAGINA
+  source: 'PKC #609'
+  old_tag: 4609
 - grpid: 5
   group: 1.1.1
   form: tɯ
   gloss: VULVA / VAGINA
+  source: JS-HCST: 168
+  old_tag: 6632
 - grpid: 29
   group: '2.3'
   form: tu

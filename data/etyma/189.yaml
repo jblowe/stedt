@@ -19,6 +19,8 @@ mesoroots:
   group: 1.1.1
   form: si
   gloss: WATER
+  source: JS-HCST: 58
+  old_tag: 6139
 notes:
 - type: T
   text: <par>This root is abundantly attested in Tani, with scattered apparent cognates elsewhere.</par>

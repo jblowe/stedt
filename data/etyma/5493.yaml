@@ -13,14 +13,20 @@ mesoroots:
   group: '1.2'
   form: laa
   gloss: FEMALE (adolescent stage)
+  source: 'PKC #1018'
+  old_tag: 5018
 - grpid: 66
   group: 1.3.4
   form: la
   gloss: DAUGHTER
+  source: DRM#602
+  old_tag: 7002
 - grpid: 63
   group: 1.3.1
   form: la
   gloss: FEMALE, WOMAN
+  source: 'PCN #034'
+  old_tag: 7581
 - grpid: 12
   group: 1.7.2
   form: C̥-glaᴮ

@@ -929,7 +929,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 479641	1977	Chepang	kris-	kris-	ripe (almost), mature, ready to take from tree (esp. bananas, for ripening artificially)	be ripe (almost), mature, ready to take from tree (esp. bananas, for ripening artificially)	va.	va.	3.1.10		0	dwb15		
 479642	1977	Chepang	kru	kru	cubit	cubit	nm.	nm.	1.5.9.3		0			307
 479643	1977	Chepang	tup.kru	tup.kru	short cubit (elbow to end of closed fist)	short cubit (elbow to end of closed fist)	nm.	nm.	10.1.1		0			1282,307
-479644	1977	Chepang	phyah.kru	phyah.kru	long cubit (elbow to tip of extended fingers)	long cubit (elbow to tip of extended fingers)	nm.	nm.	10.1.1		0			m,5824,307
+479644	1977	Chepang	phyah.kru	phyah.kru	long cubit (elbow to tip of extended fingers)	long cubit (elbow to tip of extended fingers)	nm.	nm.	10.1.1		0			5824|m,307
 479645	1977	Chepang	kru-	kru-	measure against arm, be many short lengths	measure against arm, be many short lengths	vat.	vat.	9.8		0			
 479646	1977	Chepang	kruʔ-	kruʔ-	tangled, knotted, wasted (rope or work), of short lengths only	be tangled, knotted, wasted (rope or work), of short lengths only	va.	va.	7.1.5.1		0	dwb15		
 479647	1977	Chepang	kruk-	kruk-	express liquid (esp. milk), wring out cloth	express liquid (esp. milk), wring out cloth	vt1.	vt1.	8.5.14.2		0			
@@ -1331,7 +1331,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 480043	1977	Chepang	khuyŋʔ-	khuyŋʔ-	light (weight)	light (weight)	vi.	vi.	7.1.11.1		0			
 480044	1977	Chepang	-khuyh	-khuyh	handful (cupped)	handful (cupped)	nm.	nm.	9.8		0			
 480045	1977	Chepang	khuyh-	khuyh-	scoop up a handful (with one hand), put out hand to receive	scoop up a handful (with one hand), put out hand to receive	vt.	vt.	1.5.1.1		0			
-480046	1977	Chepang	khur-	khur-	trim, shave, cut off short (hair, grass, etc.) (<N khurkənu scrape off?)	trim, shave, cut off short (hair, grass, etc.) (<N khurkənu scrape off?)	vt.	vt.	6.9.2		0			bNepali?,1461
+480046	1977	Chepang	khur-	khur-	trim, shave, cut off short (hair, grass, etc.) (<N khurkənu scrape off?)	trim, shave, cut off short (hair, grass, etc.) (<N khurkənu scrape off?)	vt.	vt.	6.9.2		0			1461|bNepali?
 480047	1977	Chepang	khurʔ-	khurʔ-	stoop when moving	stoop when moving	vi.	vi.	6.7.3		0			
 480048	1977	Chepang	giŋ khurʔ.ʔo	giŋ khurʔ.ʔo	hunchback	hunchback	n.	n.	1.4.8.3		0			
 480049	1977	Chepang	khurʔ-	khurʔ-	scratch hard	scratch hard	vt.	vt.	1.6.5.5		0			
@@ -5380,7 +5380,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 484092	1977	Chepang	phuŋ	phuŋ	pot used for steaming	pot used for steaming	n.	n.	5.5		0			7617
 484093	1977	Chepang	phuŋ	phuŋ	pop, crack	pop, crack	onom.	onom.	9.3		0			
 484094	1977	Chepang	phuŋ-	phuŋ-	pass through, ascend through (earth, from underground or underworld), percolate through	pass through, ascend through (earth, from underground or underworld), percolate through	vi.	vi.	9.2.8		0			
-484095	1977	Chepang	phuŋ-	phuŋ-	steam in pot	steam in pot	vt.	vt.	6.6		0			7617,5825
+484095	1977	Chepang	phuŋ-	phuŋ-	steam in pot	steam in pot	vt.	vt.	6.6		0			5825|7617
 484096	1977	Chepang	phut	phut	make dusty, grey	make dusty, grey	onom.	onom.	6.14		0			
 484097	1977	Chepang	phut hoyo.bhoyoʔ	phut hoyo.bhoyoʔ	grey and white (of clouds)	grey and white (of clouds)	onom.	onom.	9.4		0			
 484098	1977	Chepang	phut hlyo.po.tyo	phut hlyo.po.tyo	make dusty, grey	make dusty, grey	onom.	onom.	6.14		0			
@@ -5446,7 +5446,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 484158	1977	Chepang	phyas-	phyas-	brush off (with hand), clear off field (of weeds, rubbish)	brush off (with hand), clear off field (of weeds, rubbish)	vt.	vt.	10.1.1		0			
 484159	1977	Chepang	phyah-	phyah-	opened, teased out, combed (hair, etc.), spread out (hand)	be opened, teased out, combed (hair, etc.), spread out (hand)	vai.	vai.	9.2		0	dwb15		5824
 484160	1977	Chepang	krut dom phyah.tak.ti wah-	krut dom phyah.tak.ti wah-	walk back and forth	walk back and forth	vi.	vi.	6.7.4		0			
-484161	1977	Chepang	phyah.kru	phyah.kru	cubit (long), with fingers extended	cubit (long), with fingers extended	nm.	nm.	1.5.9.3		0			5824,m,307
+484161	1977	Chepang	phyah.kru	phyah.kru	cubit (long), with fingers extended	cubit (long), with fingers extended	nm.	nm.	1.5.9.3		0			5824|m,307
 484162	1977	Chepang	phyuŋ.luk	phyuŋ.luk	movement (of Barking Deer)	movement (of Barking Deer)	onom.	onom.	2.1.11.1		0			
 484163	1977	Chepang	phyuŋʔ	phyuŋʔ	straight (tree)	straight (tree)	onom.	onom.	7.1.5.1		0			
 484164	1977	Chepang	phyun	phyun	leave quickly, swiftly	leave quickly, swiftly	onom.	onom.	6.10.2		0			
@@ -6219,7 +6219,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 484931	1977	Chepang	mar.pha.rat	mar.pha.rat	plant (sp.), with small yellow flowers - leaves crushed, used to clear nose, Clematis barbellata	plant (sp.), with small yellow flowers - leaves crushed, used to clear nose, Clematis barbellata	n.	n.	10.1.1		0			
 484932	1977	Chepang	marʔ	marʔ	soft, woody part of bamboo from which skin (cyas) has been stripped	soft, woody part of bamboo from which skin (cyas) has been stripped	n.	n.	10.1.1		0			
 484933	1977	Chepang	malʔ-	malʔ-	level with, pass close to top	be level with, pass close to top	vai.	vai.	10.1.1		0	dwb15		
-484934	1977	Chepang	mas	mas	pulse (sp.), a black lentil (<N)	pulse (sp.), a black lentil (<N)	n.	n.	1.7.1.1		0			bNepali,b
+484934	1977	Chepang	mas	mas	pulse (sp.), a black lentil (<N)	pulse (sp.), a black lentil (<N)	n.	n.	1.7.1.1		0			b|bNepali
 484935	1977	Chepang	maha	maha	great, supreme (<N)	great, supreme (<N)	adj.	adj.	9.6.1		0			bNepali
 484936	1977	Chepang	mi-	mi-	very small	be very small	va.	va.	7.1.2.2		0	dwb15		
 484937	1977	Chepang	hluŋ mi-	hluŋ mi-	unhappy	be unhappy	vr.	vr.	8.3.1.5.2		0	dwb16		1381,m
@@ -6657,7 +6657,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 485369	1977	Chepang	yo.horʔ-	yo.horʔ-	drain off (pool, for fishing), drain away	drain off (pool, for fishing), drain away	v.	v.	9.2.4		0			
 485370	1977	Chepang	yo.lok	yo.lok	disappear (down hole)	disappear (down hole)	onom.	onom.	9.5		0			
 485371	1977	Chepang	yoʔ-	yoʔ-	decrease, diminish in volume; be used, empty (partly)	decrease, diminish in volume; be used, empty (partly)	vi.	vi.	9.5		0			
-485372	1977	Chepang	yoʔ.syaʔ	yoʔ.syaʔ	animal (sp.), Serow or Goat Antelope (large)	animal (sp.), Serow or Goat Antelope (large)	n.	n.	2.1.8		0			6032,34,m
+485372	1977	Chepang	yoʔ.syaʔ	yoʔ.syaʔ	animal (sp.), Serow or Goat Antelope (large)	animal (sp.), Serow or Goat Antelope (large)	n.	n.	2.1.8		0			6032,34|m
 485373	1977	Chepang	yok-	yok-	swallow	swallow	vt.	vt.	1.3.5.6		0			627
 485374	1977	Chepang	yokoʔ-	yokoʔ-	hang, swing, suspend from	hang, swing, suspend from	vit.	vit.	6.1.1.5		0			
 485375	1977	Chepang	yoŋ	yoŋ	belly, stomach (B)	belly, stomach (B)	n.	n.	1.4.7		0			
@@ -6756,10 +6756,10 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 485468	1977	Chepang	ra.ŋaʔ	ra.ŋaʔ	fish (sp.), flat circular with dorsal and ventral spines, tasty flesh, Colisa fasciatus	fish (sp.), flat circular with dorsal and ventral spines, tasty flesh, Colisa fasciatus	n.	n.	2.2.5		0			m,1455
 485469	1977	Chepang	ra.ca.daŋʔ	ra.ca.daŋʔ	bristle (as a porcupine)	bristle (as a porcupine)	onom.	onom.	1.6.1.4		0			
 485470	1977	Chepang	ra.ces	ra.ces	evil spirit (<N races demon)	evil spirit (<N races demon)	nn.	nn.	8.3.1.15		0			
-485471	1977	Chepang	ra.ja	ra.ja	king (<N)	king (<N)	n.	n.	4.2.5		0			bNepali,b
+485471	1977	Chepang	ra.ja	ra.ja	king (<N)	king (<N)	n.	n.	4.2.5		0			b|bNepali
 485472	1977	Chepang	ra.ja.gwah.puk.ro	ra.ja.gwah.puk.ro	plant (sp.), with large yellow flower - like Hollyhock	plant (sp.), with large yellow flower - like Hollyhock	n.	n.	3.1.10		0			
 485473	1977	Chepang	ra.ja.dhuk.mu	ra.ja.dhuk.mu	fungus (sp.), very poisonous	fungus (sp.), very poisonous	n.	n.	3.1.7		0			
-485474	1977	Chepang	ra.ni	ra.ni	queen (<N)	queen (<N)	n.	n.	4.2.5		0			bNepali,b
+485474	1977	Chepang	ra.ni	ra.ni	queen (<N)	queen (<N)	n.	n.	4.2.5		0			b|bNepali
 485475	1977	Chepang	ra.ni.mu.sa	ra.ni.mu.sa	fungus (sp.), edible, Pleuroticus (<N)	fungus (sp.), edible, Pleuroticus (<N)	n.	n.	3.1.7		0			
 485476	1977	Chepang	ra.ni.ryaŋ.ka	ra.ni.ryaŋ.ka	insect (sp.), wasp, yellow and black striped, nest hangs by a stalk	insect (sp.), wasp, yellow and black striped, nest hangs by a stalk	n.	n.	9.4		0			
 485477	1977	Chepang	ra.ni.siŋ.ka	ra.ni.siŋ.ka	plant (sp.), fine leaves, small white flowers Dunstaedtia appendiculata?	plant (sp.), fine leaves, small white flowers Dunstaedtia appendiculata?	n.	n.	9.7.2		0			m,m,2658,m
@@ -8212,9 +8212,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 486924	1977	Chepang	goʔ.syaʔ	goʔ.syaʔ	Large Indian Civet	Large Indian Civet	n.	n.	9.7.1		0			m,34
 486925	1977	Chepang	tah.syaʔ	tah.syaʔ	Himalayan Palm Civet	Himalayan Palm Civet	n.	n.	3.2.5		0			m,34
 486926	1977	Chepang	yaw.syaʔ	yaw.syaʔ	bull, bullock	bull, bullock	n.	n.	2.1.2		0			m,34
-486927	1977	Chepang	yoʔ.syaʔ	yoʔ.syaʔ	Serow, a goat-antelope	Serow, a goat-antelope	n.	n.	2.1.8		0			6032,34,m
+486927	1977	Chepang	yoʔ.syaʔ	yoʔ.syaʔ	Serow, a goat-antelope	Serow, a goat-antelope	n.	n.	2.1.8		0			6032,34|m
 486928	1977	Chepang	ruyŋ.syaʔ	ruyŋ.syaʔ	Sambar Deer	Sambar Deer	n.	n.	2.2.2		0			m,34
-486929	1977	Chepang	syarʔ.syaʔ	syarʔ.syaʔ	Goral, a goat-antelope	Goral, a goat-antelope	n.	n.	2.2.2		0			4372,m,34
+486929	1977	Chepang	syarʔ.syaʔ	syarʔ.syaʔ	Goral, a goat-antelope	Goral, a goat-antelope	n.	n.	2.2.2		0			4372,34|m
 486930	1977	Chepang	syaʔ.kliʔ	syaʔ.kliʔ	cowdung	cowdung	n.	n.			0			
 486931	1977	Chepang	syaʔ.kliʔ.ʔay.sayʔ	syaʔ.kliʔ.ʔay.sayʔ	plant (sp.), wild cucumber - very bitter, used for washing	plant (sp.), wild cucumber - very bitter, used for washing	n.	n.	3.1.10		0			
 486932	1977	Chepang	syaʔ.rip	syaʔ.rip	plant (sp.), shrub or small tree, large leaves, woody stems eaten by cattle	plant (sp.), shrub or small tree, large leaves, woody stems eaten by cattle	n.	n.	3.1.2		0			34,m
@@ -8266,7 +8266,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 486978	1977	Chepang	syar.(loʔ)	syar.(loʔ)	banana leaf, stripped from centre stalk, used as leafplate	banana leaf, stripped from centre stalk, used as leafplate	n.	n.	3.1.5		0			
 486979	1977	Chepang	syar.ʔeʔ	syar.ʔeʔ	knowledge, learning	knowledge, learning	n.	n.	8.3.1.12.1		0			
 486980	1977	Chepang	syar.me	syar.me	knowledge, learning	knowledge, learning	n.	n.	8.3.1.12.1		0			
-486981	1977	Chepang	syarʔ.syaʔ	syarʔ.syaʔ	animal (sp.), Goral, goat-antelope	animal (sp.), Goral, goat-antelope	n.	n.	2.2.2		0			4372,m,34
+486981	1977	Chepang	syarʔ.syaʔ	syarʔ.syaʔ	animal (sp.), Goral, goat-antelope	animal (sp.), Goral, goat-antelope	n.	n.	2.2.2		0			4372,34|m
 486982	1977	Chepang	syarʔ.syaʔ.goyʔ	syarʔ.syaʔ.goyʔ	plant (sp.), ground orchid, white-flowers, hairy, edible tuber	plant (sp.), ground orchid, white-flowers, hairy, edible tuber	n.	n.	3.1.4		0			
 486983	1977	Chepang	syarh-	syarh-	scorch, burn (radiant heat); scold, talk severely to (met.)	scorch, burn (radiant heat); scold, talk severely to (met.)	vt.	vt.	3.2.12.2		0			
 486984	1977	Chepang	syal	syal	jackal (<N)	jackal (<N)	n.	n.	2.1.11		0			6053
@@ -8859,7 +8859,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 487571	1977	Chepang	hməyʔ-	hməyʔ-	wipe out, erase, fade, lose (sad memory with passing time)	wipe out, erase, fade, lose (sad memory with passing time)	vi.	vi.	6.2.2.1		0			
 487572	1977	Chepang	hməyk	hməyk	enchantment, spell	enchantment, spell	n.	n.	5.8		0			
 487573	1977	Chepang	hməyk-	hməyk-	put under spell (esp. put to sleep by spell)	put under spell (esp. put to sleep by spell)	vt.	vt.	6.17		0			
-487574	1977	Chepang	hməyŋ-	hməyŋ-	have smell (sp.), pleasantly sweet (as of tobacco, etc.)	have smell (sp.), pleasantly sweet (as of tobacco, etc.)	va.	va.	8.2		0			1420,?
+487574	1977	Chepang	hməyŋ-	hməyŋ-	have smell (sp.), pleasantly sweet (as of tobacco, etc.)	have smell (sp.), pleasantly sweet (as of tobacco, etc.)	va.	va.	8.2		0			1420|?
 487575	1977	Chepang	hməyŋ.hməyŋ	hməyŋ.hməyŋ	sweet, pleasant smelling	sweet, pleasant smelling	onom.	onom.	7.1.4.4		0			
 487576	1977	Chepang	hmər	hmər	smell (sp.) associated with fertility of field	smell (sp.) associated with fertility of field	adjn.	adjn.	10.1.1		0			1420
 487577	1977	Chepang	hmər-	hmər-	think, think about; (with Negative - not like)	think, think about; (with Negative - not like)	vi.	vi.	8.3.1.13.1		0			

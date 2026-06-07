@@ -20,14 +20,20 @@ mesoroots:
   group: 1.1.1
   form: po-lo
   gloss: MOON
+  source: JS-HCST: 87
+  old_tag: 3072
 - grpid: 8
   group: '1.2'
   form: khlaa
   gloss: MOON / MONTH
+  source: 'PKC #1295'
+  old_tag: 5295
 - grpid: 50
   group: '7'
   form: Ɂlaᴬ
   gloss: MOON, MONTH
+  source: TL#193
+  old_tag: 7397
 - grpid: 12
   group: 1.7.2
   form: gla poy

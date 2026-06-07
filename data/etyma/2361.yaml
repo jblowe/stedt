@@ -20,23 +20,33 @@ mesoroots:
   form: khuu
   gloss: FUMES / STEAM / SMOKE (n.)
   variant: a
+  source: 'PKC #444'
+  old_tag: 4444
 - grpid: 8
   group: '1.2'
   form: may-khuu
   gloss: SMOKE (n.)
   variant: b
+  source: 'PKC #789'
+  old_tag: 4789
 - grpid: 5
   group: 1.1.1
   form: mə-kɯ
   gloss: SMOKE
+  source: JS-HCST: 168
+  old_tag: 6475
 - grpid: 66
   group: 1.3.4
   form: kʰut
   gloss: SMOKE
+  source: DRM#549
+  old_tag: 6953
 - grpid: 42
   group: '6.1'
   form: kəw²
   gloss: SMOKE
+  source: HPTB p.182
+  old_tag: 382
 - grpid: 12
   group: 1.7.2
   form: kʰəw
@@ -45,6 +55,8 @@ mesoroots:
   group: 1.3.1
   form: khuʔ
   gloss: SMOKE
+  source: 'PCN #081'
+  old_tag: 7628
 - grpid: 16
   group: 1.7.1
   form: ku

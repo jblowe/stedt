@@ -20,6 +20,8 @@ mesoroots:
   group: 1.3.4
   form: now
   gloss: FRY
+  source: DRM#684
+  old_tag: 7071
 notes:
 - type: F
   text: '<par><hanform>熬</hanform> OC <latinform>*ngog</latinform>, GSR #1130h ‘roast, fry’; Schuessler

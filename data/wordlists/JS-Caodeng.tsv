@@ -107,7 +107,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 329969	1797	Caodeng	ngo-skjə-lɐʔ	ngo-skjə-lɐʔ	bald-headed person	bald-headed person			1.2.3.4		0			
 329970	1797	Caodeng	rgaŋluʔ	rgaŋluʔ	ball	ball			9.7.1		0			
 329971	1797	Caodeng	ndʒweʔ	ndʒweʔ	bamboo	bamboo			3.1.1		0			2549,m
-329972	1797	Caodeng	ndʒwe-lvaʔ	ndʒwe-lvaʔ	bamboo leaf	bamboo leaf			3.1.1		0			m,2549,821?,821
+329972	1797	Caodeng	ndʒwe-lvaʔ	ndʒwe-lvaʔ	bamboo leaf	bamboo leaf			3.1.1		0			2549|m,821|821?
 329973	1797	Caodeng	ndʒwe-roʔ	ndʒwe-roʔ	bamboo stick	bamboo stick			3.1.1		0			2549,m
 329974	1797	Caodeng	mtsʰo-kʰe	mtsʰo-kʰe	bank (of river or lake)	bank (of river or lake)			9.10.2		0			
 329975	1797	Caodeng	tətʃi-vzər	tətʃi-vzər	bank (of river or lake)	bank (of river or lake)			9.10.2		0			
@@ -1006,7 +1006,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 330869	1797	Caodeng	kɐ-skɔr	kɐ-skɔr	go in circles	go in circles			6.7.2		0			
 330870	1797	Caodeng	kɐ-ʃɐ	kɐ-ʃɐ	go	go			6.7.2		0			
 330871	1797	Caodeng	kjot kɐ-fʃet	kjot kɐ-fʃet	go to law; sue	go to law; sue			6.7.2		0			
-330872	1797	Caodeng	tsʰét-mo	tsʰét-mo	goat (female)	goat (female)			2.1.8		0			1226,m,1620
+330872	1797	Caodeng	tsʰét-mo	tsʰét-mo	goat (female)	goat (female)			2.1.8		0			1226,1620|m
 330873	1797	Caodeng	ɬe	ɬe	god	god			5.8.1.1		0			2264
 330874	1797	Caodeng	sqɐ◦zdʒe~rqɐ◦rdʒe	sqɐzdʒe~rqɐrdʒe	goiter	goiter			1.4.2.2		0			
 330875	1797	Caodeng	χser	χser	gold	gold			3.2.4		0			
@@ -1474,7 +1474,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 331337	1797	Caodeng	ʒɐ-le	ʒɐ-le	mud (for making wall)	mud (for making wall)			3.2.11		0			
 331338	1797	Caodeng	ndɐ-nbaʔ	ndɐ-nbaʔ	mud	mud			3.2.11		0			
 331339	1797	Caodeng	kə-qá-rndom	kə-qá-rndom	muddy	muddy			3.2.11		0			
-331340	1797	Caodeng	tɐ-rkɐ	tɐ-rkɐ	mule	mule			2.1.7		0			p,5,m,m
+331340	1797	Caodeng	tɐ-rkɐ	tɐ-rkɐ	mule	mule			2.1.7		0			5|p,m|m
 331341	1797	Caodeng	kɐ-wɐ-npʰel	kɐ-wɐ-npʰel	multiply; develop	multiply; develop	v.i.	v.i.	6.2		0			
 331342	1797	Caodeng	kɐ-sə-npʰel	kɐ-sə-npʰel	multiply; develop	multiply; develop	v.t.	v.t.	6.2		0			
 331343	1797	Caodeng	kə-pɐ́-jmo	kə-pɐ́-jmo	mushroom	mushroom			3.1.7		0			p,m,2472
@@ -1732,7 +1732,7 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 331595	1797	Caodeng	kɐ́-stʰɔ	kɐ́-stʰɔ	press with finger	press with finger			9.5		0			
 331596	1797	Caodeng	kɐ-nə-ʃpəs	kɐ-nə-ʃpəs	pretend	pretend			8.3.3.4.3.1		0			
 331597	1797	Caodeng	kə-sɐ-ntsʰe	kə-sɐ-ntsʰe	pretty; lovely	pretty; lovely			7.1.3		0			
-331598	1797	Caodeng	tə́-pʰu	tə́-pʰu	price	price			5.9		0			p,m,2583,2583
+331598	1797	Caodeng	tə́-pʰu	tə́-pʰu	price	price			5.9		0			m|p,2583|2583
 331599	1797	Caodeng	koŋʔ	koŋʔ	price	price			5.9		0			5828
 331600	1797	Caodeng	kɐ-sə-spɔʔ	kɐ-sə-spɔʔ	prick	prick	v.t.	v.t.	8.4		0			
 331601	1797	Caodeng	srɐʔs	srɐʔs	prince	prince			4.2.5		0			
@@ -1994,9 +1994,9 @@ rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semke
 331857	1797	Caodeng	kɐ-kʰjop	kɐ-kʰjop	shatter	shatter			9.5		0			
 331858	1797	Caodeng	kɐ́-qros	kɐ́-qros	shave	shave	v.t.	v.t.	6.9.2		0			
 331859	1797	Caodeng	nbrə-kju-kɐmʔ	nbrə-kju-kɐmʔ	sheath	sheath			5.14		0			
-331860	1797	Caodeng	qɐ-gji-mo	qɐ-gji-mo	sheep (female)	sheep (female)			2.1.8		0			p,p,6028,m,1620
-331861	1797	Caodeng	qɐ-gjiʔ	qɐ-gjiʔ	sheep	sheep			2.1.8		0			p,p,6028
-331862	1797	Caodeng	qɐ-gjí-mo	qɐ-gjí-mo	sheep-herder	sheep-herder			2.1.8		0			p,p,6028,m,s
+331860	1797	Caodeng	qɐ-gji-mo	qɐ-gji-mo	sheep (female)	sheep (female)			2.1.8		0			p|p,6028,1620|m
+331861	1797	Caodeng	qɐ-gjiʔ	qɐ-gjiʔ	sheep	sheep			2.1.8		0			p|p,6028
+331862	1797	Caodeng	qɐ-gjí-mo	qɐ-gjí-mo	sheep-herder	sheep-herder			2.1.8		0			p|p,6028,m|s
 331863	1797	Caodeng	kə-lvaʔ	kə-lvaʔ	sheet	sheet			5.11.9.4		0			
 331864	1797	Caodeng	tɐ-rngjiʔ	tɐ-rngjiʔ	shelves for dining ware	shelves for dining ware			6.17		0			
 331865	1797	Caodeng	tɐ-riʔ	tɐ-riʔ	shelves for storing grain	shelves for storing grain			6.17		0			

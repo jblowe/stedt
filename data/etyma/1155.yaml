@@ -20,6 +20,8 @@ mesoroots:
   group: '1.2'
   form: tshan
   gloss: GENERATION / ERA
+  source: 'PKC #589'
+  old_tag: 4589
 notes:
 - type: T
   text: <par>The rGyalrong form is likely to be a borrowing from Tibetan.</par><par>The putative semantic

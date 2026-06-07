@@ -12,7 +12,11 @@ mesoroots:
   group: '1.2'
   form: waar
   gloss: FAIR (color) / PALE / WHITE
+  source: 'PKC #1146'
+  old_tag: 5146
 - grpid: 66
   group: 1.3.4
   form: hwor
   gloss: LIGHT / SHINE
+  source: DRM#743
+  old_tag: 7121

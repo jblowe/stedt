@@ -20,15 +20,21 @@ mesoroots:
   form: klaa-I, klaak-II
   gloss: FALL / DROP (v.i.)
   variant: a
+  source: 'PKC #1259'
+  old_tag: 5259
 - grpid: 8
   group: '1.2'
   form: khlaa-I, khlaak-II
   gloss: DROP (v.t.) / LET FALL
   variant: b
+  source: 'PKC #1285'
+  old_tag: 5285
 - grpid: 66
   group: 1.3.4
   form: loj
   gloss: FALL (FROM A HEIGHT)
+  source: DRM#479
+  old_tag: 6888
 - grpid: 42
   group: '6.1'
   form: gla-y³ ⪤ ʔgla-y¹

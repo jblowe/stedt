@@ -19,10 +19,14 @@ mesoroots:
   group: '1.2'
   form: ɓut-I, ɓuʔ-II
   gloss: BOIL (v.)
+  source: 'PKC #9'
+  old_tag: 4009
 - grpid: 50
   group: '7'
   form: phrɔᴬ
   gloss: BOIL (v.)
+  source: TL#30
+  old_tag: 7235
 notes:
 - type: F
   text: '<par><hanform>沸</hanform> OC <latinform>*pi̯wəd</latinform>, GSR #500q &apos;boil&apos;; Schuessler

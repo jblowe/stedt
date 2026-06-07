@@ -12,10 +12,14 @@ mesoroots:
   group: '7'
   form: pɨᴮ
   gloss: CARRY (ON THE BACK)
+  source: TL#40
+  old_tag: 7245
 - grpid: 66
   group: 1.3.4
   form: pʰuŋ
   gloss: CARRY (ON SHOULDERS)
+  source: DRM#690
+  old_tag: 7076
 notes:
 - type: T
   text: <par>This root bears a strong resemblance to the widespread etymon <xref ref="2177">#2177</xref>,

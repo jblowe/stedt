@@ -20,6 +20,8 @@ mesoroots:
   group: '6.1'
   form: put
   gloss: KNEE
+  source: RJL-DPTB: 70
+  old_tag: 6721
 notes:
 - type: T
   text: <par>Written Tibetan <latinform>pus</latinform> is from <latinform>*put-s</latinform>, since WT

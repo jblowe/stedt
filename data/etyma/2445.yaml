@@ -19,6 +19,8 @@ mesoroots:
   group: 1.3.4
   form: ma
   gloss: RICE (IN FIELD)
+  source: DRM#746
+  old_tag: 7124
 - grpid: 50
   group: '7'
   form: may

@@ -20,10 +20,14 @@ mesoroots:
   group: '1.2'
   form: maw
   gloss: BRIDE / GROOM
+  source: 'PKC #754'
+  old_tag: 4754
 - grpid: 50
   group: '7'
   form: muᴮ
   gloss: FEMALE (HUMANS), MOTHER
+  source: TL#113
+  old_tag: 7318
 notes:
 - type: F
   text: '<par><hanform>母</hanform> OC <latinform>*mə̯u</latinform>, GSR #947a-e ‘mother’; Schuessler 2007:392

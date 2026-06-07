@@ -19,10 +19,14 @@ mesoroots:
   group: 1.1.1
   form: puk
   gloss: HEART
+  source: 'JS-HCST: 57'
+  old_tag: 6202
 - grpid: 66
   group: 1.3.4
   form: buk
   gloss: BELLY / STOMACH
+  source: DRM#568
+  old_tag: 6971
 - grpid: 5
   group: 1.1.1
   form: pɯk
@@ -31,6 +35,8 @@ mesoroots:
   group: 1.3.1
   form: puk
   gloss: STOMACH, BELLY
+  source: 'PCN #261'
+  old_tag: 7808
 notes:
 - type: T
   text: <par>The dental prefix is attested in Ao, Lepcha, and rGyalrong. The Chepang, Magar, and Maru

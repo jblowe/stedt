@@ -20,14 +20,20 @@ mesoroots:
   group: '1.2'
   form: rua
   gloss: BAMBOO
+  source: 'PKC #919'
+  old_tag: 4919
 - grpid: 50
   group: '7'
   form: hwa
   gloss: BAMBOO
+  source: STC 139n374, HPTB p.305
+  old_tag: 6712
 - grpid: 66
   group: 1.3.4
   form: hwa
   gloss: BAMBOO
+  source: DRM#316
+  old_tag: 6730
 - grpid: 42
   group: '6.1'
   form: wa²
@@ -41,15 +47,21 @@ mesoroots:
   form: r-hwaʔ
   gloss: BAMBOO
   variant: b
+  source: 'PCN #028'
+  old_tag: 7575
 - grpid: 63
   group: 1.3.1
   form: pwa/pu
   gloss: BAMBOO
   variant: a
+  source: 'PCN #038'
+  old_tag: 7585
 - grpid: 50
   group: '7'
   form: hwaᴮ
   gloss: BAMBOO
+  source: TL#8
+  old_tag: 7213
 notes:
 - type: T
   text: <par>The Qiangic languages attest both of the principal roots for BAMBOO, the present root and

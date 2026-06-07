@@ -20,6 +20,8 @@ mesoroots:
   group: '7'
   form: hmejᴬ
   gloss: LIE DOWN, SLEEP
+  source: TL#165
+  old_tag: 7369
 - grpid: 50
   group: '7'
   form: hmajᴬnajᴮ
@@ -28,6 +30,8 @@ mesoroots:
   group: 1.1.1
   form: mi
   gloss: SLEEPY
+  source: JS-HCST: 151
+  old_tag: 6453
 notes:
 - type: F
   text: '<par><hanform>寐</hanform> OC <latinform>*mi̯əd</latinform>, GSR #531i-j &apos;sleep&apos;; B

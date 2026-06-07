@@ -19,10 +19,14 @@ mesoroots:
   group: '1.2'
   form: thuaʔ
   gloss: LAYER / FOLD
+  source: 'PKC #396'
+  old_tag: 4396
 - grpid: 8
   group: '1.2'
   form: khlep
   gloss: FOLD
+  source: 'PKC #1287'
+  old_tag: 5287
 notes:
 - type: T
   text: <par>Several languages point to the presence of a palatal semivowel in this root (rGyalrongic,

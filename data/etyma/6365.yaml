@@ -17,10 +17,14 @@ mesoroots:
   group: '7'
   form: thaɁᴰ
   gloss: IRON
+  source: TL#155
+  old_tag: 7359
 - grpid: 50
   group: '7'
   form: th(á/a)ʔ
   gloss: IRON / NEEDLE
+  source: RBJ-KLS: 84; STC: 9n33
+  old_tag: 6078
 notes:
 - type: F
   text: '<par><hanform>鐵</hanform> OC <latinform>*t’iet</latinform>, GSR #1256b &apos;iron&apos;; Coblin
