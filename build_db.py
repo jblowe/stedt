@@ -33,6 +33,9 @@ TABLES = {
  'glosswords': ['word','rn','semcat','subcat','id','modtime','semkey'],
  'majorcats': ['chapter','subchapter','semcat','heading','frqdb','frqsubcats','id'],
  'hptb': ['hptbid','plg','protoform','protogloss','mainpage','pages','tags','modtime','init','bare','semclass1','semclass2'],
+ 'et_hptb_hash': ['tag','hptbid','ord'],
+ 'otherchapters': ['chapter','heading','semcat','subcat','cf','n','id'],
+ 'pi': ['lgid','page'],
 }
 PK = {'etyma':'tag','lexicon':'rn','languagenames':'lgid','languagegroups':'grpid',
       'chapters':'id','notes':'noteid','mesoroots':'id'}

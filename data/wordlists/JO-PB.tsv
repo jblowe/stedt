@@ -1,947 +1,947 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-34346	387	Burmese (Standard Spoken)	hcé	hcé	widen	widen		9.2.7		0		
-34347	404	Burmese (Written)	khyai	khyai	widen	widen		9.2.7		0		
-34348	290	Arakanese	hceí	hceí	widen	widen		9.2.7		0		
-34349	663	Intha	hklé	hklé	widen	widen		9.2.7		0		
-34350	1503	Tavoyan	hklé	hklé	widen	widen		9.2.7		0		
-34351	387	Burmese (Standard Spoken)	ce	ce	wide	wide		9.7.2		0		3574
-34352	404	Burmese (Written)	kyay	kyay	wide	wide		9.7.2		0		
-34353	382	Burmese (Inscriptional)	klay	klay	wide	wide		9.7.2		0		3574
-34354	290	Arakanese	cei	cei	wide	wide		9.7.2		0		3574
-34355	290	Arakanese	"ce[?sc.""]"	"ce[?sc.""]"	wide	wide		9.7.2		0		e,e
-34356	663	Intha	kle	kle	wide	wide		9.7.2		0		
-34357	1503	Tavoyan	kle	kle	wide	wide		9.7.2		0		
-34358	387	Burmese (Standard Spoken)	hcoù	hcoù	wash	wash		6.2.2.5.2		0		
-34359	404	Burmese (Written)	khyui:	khyui:	wash	wash		6.2.2.5.2		0		2344
-34360	382	Burmese (Inscriptional)	khluiw	khluiw	wash	wash		6.2.2.5.2		0		2344
-34361	663	Intha	hyoù	hyoù	wash	wash		6.2.2.5.2		0		
-34362	1503	Tavoyan	hkloù	hkloù	wash	wash		6.2.2.5.2		0		
-34363	1503	Tavoyan	hcoù	hcoù	wash	wash		6.2.2.5.2		0		
-34364	387	Burmese (Standard Spoken)	hcin	hcin	want	want		8.3.1.14.3		0		
-34365	404	Burmese (Written)	khyan̊	khyan̊	want	want		8.3.1.14.3		0		
-34366	382	Burmese (Inscriptional)	khlyan̊	khlyan̊	want	want		8.3.1.14.3		0		
-34367	290	Arakanese	hcon	hcon	want	want		8.3.1.14.3		0	D1	
-34368	290	Arakanese	hyon	hyon	want	want		8.3.1.14.3		0		
-34370	663	Intha	hyen	hyen	want	want		8.3.1.14.3		0		
-34371	663	Intha	hcen	hcen	want	want		8.3.1.14.3		0		
-34372	1503	Tavoyan	hyin	hyin	want	want		8.3.1.14.3		0		
-34373	387	Burmese (Standard Spoken)	ca	ca	tiger	tiger		2.1.3		0		
-34374	404	Burmese (Written)	kyā:	kyā:	tiger	tiger		2.1.3		0		5560
-34375	382	Burmese (Inscriptional)	klā	klā	tiger	tiger		2.1.3		0		5560
-34376	290	Arakanese	cà	cà	tiger	tiger		2.1.3		0		5560
-34377	663	Intha	cà	cà	tiger	tiger		2.1.3		0		5560?,b?Burmese
-34378	1503	Tavoyan	klà	klà	tiger	tiger		2.1.3		0		5560
-34379	1029	Maru [Langsu]	lō	lō	tiger	tiger		2.1.3		0		5560
-34380	387	Burmese (Standard Spoken)	hci	hci	tie	tie		6.13.1		0		
-34381	404	Burmese (Written)	khyaññ	khyaññ	tie	tie		6.13.1		0		
-34382	290	Arakanese	hcain	hcain	tie	tie		6.13.1		0		
-34383	1503	Tavoyan	hke	hke	tie	tie		6.13.1		0		
-34384	404	Burmese (Written)	hcoùn	hcoùn	thunder	thunder		3.2.1		0		
-34385	382	Burmese (Inscriptional)	khyun:	khyun:	thunder	thunder		3.2.1		0		
-34386	290	Arakanese	khrun	khrun	thunder	thunder		3.2.1		0		
-34387	1503	Tavoyan	hkloùn	hkloùn	thunder	thunder		3.2.1		0		
-34388	1029	Maru [Langsu]	hcaòn̈	hcaòn̈	thunder	thunder		3.2.1		0		
-34389	387	Burmese (Standard Spoken)	hcaùn	hcaùn	throat	throat		1.3.5		0		489
-34390	404	Burmese (Written)	khron̊:	khron̊:	throat	throat		1.3.5		0		489
-34391	382	Burmese (Inscriptional)	khlon̊	khlon̊	throat	throat		1.3.5		0		489
-34392	290	Arakanese	hkraùn	hkraùn	throat	throat		1.3.5		0		489
-34393	1503	Tavoyan	hkòn	hkòn	throat	throat		1.3.5		0		489
-34394	1503	Tavoyan	hcòn	hcòn	throat	throat		1.3.5		0		489
-34395	1029	Maru [Langsu]	khyaūng	khyaūng	throat	throat		1.3.5		0		489
-34396	387	Burmese (Standard Spoken)	hci	hci	thread	thread		5.11.6		0		
-34397	404	Burmese (Written)	khraññ	khraññ	thread	thread		5.11.6		0		
-34398	382	Burmese (Inscriptional)	khraññ	khraññ	thread	thread		5.11.6		0		
-34399	290	Arakanese	hkrei	hkrei	thread	thread		5.11.6		0		
-34400	663	Intha	hci	hci	thread	thread		5.11.6		0		
-34401	1503	Tavoyan	hke	hke	thread	thread		5.11.6		0		
-34402	1029	Maru [Langsu]	khyàng	khyàng	thread	thread		5.11.6		0		
-34403	387	Burmese (Standard Spoken)	hcá	hcá	termite	termite		2.2.6		0		
-34404	404	Burmese (Written)	khra	khra	termite	termite		2.2.6		0		
-34405	290	Arakanese	hkrá	hkrá	termite	termite		2.2.6		0		
-34406	663	Intha	hcá	hcá	termite	termite		2.2.6		0		
-34407	1503	Tavoyan	hcá	hcá	termite	termite		2.2.6		0		
-34408	387	Burmese (Standard Spoken)	cei'	cei'	ten	ten		9.9		0		2748
-34409	404	Burmese (Written)	kyip	kyip	ten	ten		9.9		0		2238
-34410	382	Burmese (Inscriptional)	kip	kip	ten	ten		9.9		0		2238
-34411	387	Burmese (Standard Spoken)	cùn	cùn	teak	teak		3.1.1		0		
-34412	404	Burmese (Written)	kywan:	kywan:	teak	teak		3.1.1		0		
-34413	382	Burmese (Inscriptional)	kywan	kywan	teak	teak		3.1.1		0		
-34414	290	Arakanese	cwèn	cwèn	teak	teak		3.1.1		0		
-34415	663	Intha	cùn	cùn	teak	teak		3.1.1		0		
-34416	1503	Tavoyan	cùn	cùn	teak	teak		3.1.1		0		
-34417	387	Burmese (Standard Spoken)	-jì	-jì	tamarind	tamarind		3.1.5		0		
-34418	404	Burmese (Written)	-kyaññ:	-kyaññ:	tamarind	tamarind		3.1.5		0		
-34419	382	Burmese (Inscriptional)	-klaññ	-klaññ	tamarind	tamarind		3.1.5		0		
-34420	290	Arakanese	-jòn	-jòn	tamarind	tamarind		3.1.5		0		
-34421	663	Intha	-keì	-keì	tamarind	tamarind		3.1.5		0		
-34422	1029	Maru [Langsu]	-k'yìn	-k'yìn	tamarind	tamarind		3.1.5		0		
-34423	387	Burmese (Standard Spoken)	ca	ca	take time	take time		6.21		0		
-34424	404	Burmese (Written)	krā	krā	take time	take time		6.21		0		
-34425	382	Burmese (Inscriptional)	krā	krā	take time	take time		6.21		0		
-34426	290	Arakanese	kra	kra	take time	take time		6.21		0		
-34427	663	Intha	ca	ca	take time	take time		6.21		0		
-34428	1503	Tavoyan	ca	ca	take time	take time		6.21		0		
-34429	387	Burmese (Standard Spoken)	cu'	cu'	taken off	taken off		6.21		0		
-34430	404	Burmese (Written)	kywat	kywat	taken off	taken off		6.21		0		
-34431	382	Burmese (Inscriptional)	klwat	klwat	taken off	taken off		6.21		0		
-34432	290	Arakanese	klwat	klwat	taken off	taken off		6.21		0		
-34433	663	Intha	cwe'	cwe'	taken off	taken off		6.21		0		
-34434	1503	Tavoyan	kwu'	kwu'	taken off	taken off		6.21		0		
-34435	1029	Maru [Langsu]	klu'	klu'	taken off	taken off		6.21		0		
-34436	387	Burmese (Standard Spoken)	hcu'	hcu'	take off	take off		6.21		0		
-34437	404	Burmese (Written)	khywat	khywat	take off	take off		6.21		0		2425
-34438	382	Burmese (Inscriptional)	khlwat	khlwat	take off	take off		6.21		0		
-34439	290	Arakanese	hcwe'	hcwe'	take off	take off		6.21		0		
-34440	663	Intha	hkwu'	hkwu'	take off	take off		6.21		0		
-34441	1503	Tavoyan	hklu'	hklu'	take off	take off		6.21		0		
-34442	1029	Maru [Langsu]	khyát	khyát	take off	take off		6.21		0		
-34443	387	Burmese (Standard Spoken)	hcou	hcou	sweet	sweet		7.1.4.4		0		2380
-34444	404	Burmese (Written)	khyui	khyui	sweet	sweet		7.1.4.4		0		2380
-34445	382	Burmese (Inscriptional)	khyuiw	khyuiw	sweet	sweet		7.1.4.4		0		2380
-34446	290	Arakanese	hcou	hcou	sweet	sweet		7.1.4.4		0		2380
-34447	663	Intha	hyou	hyou	sweet	sweet		7.1.4.4		0		2380
-34448	663	Intha	hcou	hcou	sweet	sweet		7.1.4.4		0		2380
-34449	1503	Tavoyan	hyou	hyou	sweet	sweet		7.1.4.4		0		2380
-34450	1029	Maru [Langsu]	chùk	chùk	sweet	sweet		7.1.4.4		0		2380
-34451	387	Burmese (Standard Spoken)	hcweì	hcweì	sweat	sweat		1.8.1		0		615
-34452	404	Burmese (Written)	(khywe:)M	(khywe:)M	sweat	sweat		1.8.1		0		615
-34453	382	Burmese (Inscriptional)	khruy	khruy	sweat	sweat		1.8.1		0		615
-34454	290	Arakanese	hkwì	hkwì	sweat	sweat		1.8.1		0		615
-34455	290	Arakanese	hcwei	hcwei	sweat	sweat		1.8.1		0		615
-34456	663	Intha	hcweì	hcweì	sweat	sweat		1.8.1		0		615
-34457	1503	Tavoyan	hkwì	hkwì	sweat	sweat		1.8.1		0		615
-34458	1503	Tavoyan	tjwe	tjwe	sweat	sweat		1.8.1		0		615
-34459	1029	Maru [Langsu]	k'yō	k'yō	sweat	sweat		1.8.1		0		615
-34460	387	Burmese (Standard Spoken)	can	can	sugar cane	sugar cane		3.1.6.2		0		
-34461	404	Burmese (Written)	kram̊	kram̊	sugar cane	sugar cane		3.1.6.2		0		
-34462	663	Intha	can	can	sugar cane	sugar cane		3.1.6.2		0		
-34463	1503	Tavoyan	can	can	sugar cane	sugar cane		3.1.6.2		0		
-34464	1029	Maru [Langsu]	laūng	laūng	sugar cane	sugar cane		3.1.6.2		0		
-34465	387	Burmese (Standard Spoken)	coù	coù	strive	strive		6.2.2.1		0		
-34466	404	Burmese (Written)	krui:	krui:	strive	strive		6.2.2.1		0		
-34467	663	Intha	coù	coù	strive	strive		6.2.2.1		0		
-34468	1503	Tavoyan	coù	coù	strive	strive		6.2.2.1		0		
-34469	1029	Maru [Langsu]	yúk	yúk	strive	strive		6.2.2.1		0		
-34470	387	Burmese (Standard Spoken)	hcaùn	hcaùn	stream	stream		3.2.3		0		
-34471	404	Burmese (Written)	khyon̊:	khyon̊:	stream	stream		3.2.3		0		2322
-34472	382	Burmese (Inscriptional)	khlon̊	khlon̊	stream	stream		3.2.3		0		2322
-34473	290	Arakanese	hcaùn	hcaùn	stream	stream		3.2.3		0		
-34474	663	Intha	hcòn	hcòn	stream	stream		3.2.3		0		
-34475	1503	Tavoyan	hklòn	hklòn	stream	stream		3.2.3		0		2322
-34476	1029	Maru [Langsu]	kyaūng	kyaūng	stream	stream		3.2.3		0		2322
-34477	1029	Maru [Langsu]	lōn̈	lōn̈	stream	stream		3.2.3		0		
-34478	387	Burmese (Standard Spoken)	cau'	cau'	stone	stone		3.2.9		0		1269
-34479	404	Burmese (Written)	kyok	kyok	stone	stone		3.2.9		0		1269
-34480	382	Burmese (Inscriptional)	klok	klok	stone	stone		3.2.9		0		1269
-34481	290	Arakanese	cau'	cau'	stone	stone		3.2.9		0		
-34482	663	Intha	co'	co'	stone	stone		3.2.9		0		
-34483	1503	Tavoyan	klo'	klo'	stone	stone		3.2.9		0		1269
-34484	1029	Maru [Langsu]	laù'	laù'	stone	stone		3.2.9		0		1269
-34485	387	Burmese (Standard Spoken)	ce	ce	star	star		3.2.2		0		3574
-34486	404	Burmese (Written)	kray	kray	star	star		3.2.2		0		3574
-34487	382	Burmese (Inscriptional)	kray	kray	star	star		3.2.2		0		3574
-34488	290	Arakanese	krei	krei	star	star		3.2.2		0		3574
-34489	663	Intha	ce	ce	star	star		3.2.2		0		3574
-34490	1503	Tavoyan	ce	ce	star	star		3.2.2		0		3574
-34491	1029	Maru [Langsu]	k	k	star	star		3.2.2		0		e?
-34492	1029	Maru [Langsu]	yì	yì	star	star		3.2.2		0		
-34493	387	Burmese (Standard Spoken)	hcàn	hcàn	split	split		6.9.3		0		
-34494	404	Burmese (Written)	khram:	khram:	split	split		6.9.3		0		
-34495	382	Burmese (Inscriptional)	?khram	?khram	split	split		6.9.3		0		
-34496	290	Arakanese	hkrèn	hkrèn	split	split		6.9.3		0		
-34497	663	Intha	hcàn	hcàn	split	split		6.9.3		0		
-34498	1503	Tavoyan	Jhcàn	Jhcàn	split	split		6.9.3		0		
-34499	1029	Maru [Langsu]	khyē?	khyē?	split	split		6.9.3		0		
-34500	387	Burmese (Standard Spoken)	cè	cè	sow	sow		2.1.12		0		
-34501	404	Burmese (Written)	krai	krai	sow	sow		2.1.12		0		
-34502	382	Burmese (Inscriptional)	kray	kray	sow	sow		2.1.12		0		
-34503	663	Intha	hcè	hcè	sow	sow		2.1.12		0		
-34504	1503	Tavoyan	cè	cè	sow	sow		2.1.12		0		
-34505	387	Burmese (Standard Spoken)	hcin	hcin	sour	sour		7.1.4.4		0		7205
-34506	404	Burmese (Written)	khyañ	khyañ	sour	sour		7.1.4.4		0		7205
-34507	382	Burmese (Inscriptional)	khyan	khyan	sour	sour		7.1.4.4		0		7205
-34508	382	Burmese (Inscriptional)	khlañ	khlañ	sour	sour		7.1.4.4		0		7205
-34509	290	Arakanese	hyain	hyain	sour	sour		7.1.4.4		0		7205
-34510	663	Intha	hcin	hcin	sour	sour		7.1.4.4		0		7205
-34511	1503	Tavoyan	hyin	hyin	sour	sour		7.1.4.4		0		7205
-34512	1029	Maru [Langsu]	c'ìn	c'ìn	sour	sour		7.1.4.4		0		7205
-34513	387	Burmese (Standard Spoken)	tahcoú	tahcoú	some	some		9.9		0		
-34514	404	Burmese (Written)	ta-khyui	ta-khyui	some	some		9.9		0		
-34515	663	Intha	-hyoú	-hyoú	some	some		9.9		0		
-34516	1503	Tavoyan	-hcoú	-hcoú	some	some		9.9		0		
-34517	387	Burmese (Standard Spoken)	hcò	hcò	smooth	smooth		7.1.4.2		0		
-34518	404	Burmese (Written)	khyo	khyo	smooth	smooth		7.1.4.2		0		
-34519	663	Intha	hyò	hyò	smooth	smooth		7.1.4.2		0		
-34520	1503	Tavoyan	hcò	hcò	smooth	smooth		7.1.4.2		0		
-34521	387	Burmese (Standard Spoken)	ceìn	ceìn	smart	smart		8.3		0		
-34522	404	Burmese (Written)	krim:	krim:	smart	smart		8.3		0		
-34523	663	Intha	ceìn	ceìn	smart	smart		8.3		0		
-34524	1503	Tavoyan	kì:n	kì:n	smart	smart		8.3		0		
-34525	1503	Tavoyan	klì:n	klì:n	smart	smart		8.3		0		
-34526	387	Burmese (Standard Spoken)	hco	hco	slip	slip		6.7.3		0		
-34527	404	Burmese (Written)	khyō	khyō	slip	slip		6.7.3		0		
-34528	663	Intha	hklo	hklo	slip	slip		6.7.3		0		
-34529	663	Intha	hyo	hyo	slip	slip		6.7.3		0		
-34530	1503	Tavoyan	hyo	hyo	slip	slip		6.7.3		0		
-34531	387	Burmese (Standard Spoken)	ceìn	ceìn	sleep	sleep		1.1.4.1		0		140
-34532	404	Burmese (Written)	kyin:	kyin:	sleep	sleep		1.1.4.1		0		140
-34533	382	Burmese (Inscriptional)	kin	kin	sleep	sleep		1.1.4.1		0		140
-34534	387	Burmese (Standard Spoken)	cun	cun	slave	slave		4.2.10		0		5524
-34535	404	Burmese (Written)	kywan	kywan	slave	slave		4.2.10		0		5524
-34536	382	Burmese (Inscriptional)	kywan	kywan	slave	slave		4.2.10		0		5524
-34537	290	Arakanese	cwen	cwen	slave	slave		4.2.10		0		5524
-34538	663	Intha	cun	cun	slave	slave		4.2.10		0		5524
-34539	1503	Tavoyan	cun	cun	slave	slave		4.2.10		0		5524
-34540	1029	Maru [Langsu]	cùm?	cùm?	slave	slave		4.2.10		0		5524
-34541	387	Burmese (Standard Spoken)	hcau'	hcau'	six	six		9.9		0		2621
-34542	404	Burmese (Written)	khrok	khrok	six	six		9.9		0		2621
-34543	382	Burmese (Inscriptional)	khrok	khrok	six	six		9.9		0		2621
-34544	290	Arakanese	hkrau'	hkrau'	six	six		9.9		0		2621
-34545	663	Intha	hyo'	hyo'	six	six		9.9		0		
-34546	663	Intha	hco'	hco'	six	six		9.9		0		
-34547	1503	Tavoyan	hco'	hco'	six	six		9.9		0		
-34548	1029	Maru [Langsu]	khyaú	khyaú	six	six		9.9		0		2621
-34549	1029	Maru [Langsu]	laú'	laú'	six	six		9.9		0		
-34550	387	Burmese (Standard Spoken)	cun	cun	sink thru'	sink thru'		6.6		0		
-34551	404	Burmese (Written)	kywam̊	kywam̊	sink thru'	sink thru'		6.6		0		
-34552	1503	Tavoyan	klun	klun	sink thru'	sink thru'		6.6		0		
-34553	387	Burmese (Standard Spoken)	hcou'	hcou'	sew	sew		5.1		0		
-34554	404	Burmese (Written)	khrup	khrup	sew	sew		5.1		0		2627
-34555	382	Burmese (Inscriptional)	khlup	khlup	sew	sew		5.1		0		2627
-34556	382	Burmese (Inscriptional)	khyop	khyop	sew	sew		5.1		0		2627
-34557	290	Arakanese	hkrou'	hkrou'	sew	sew		5.1		0		2627
-34558	663	Intha	hyou'	hyou'	sew	sew		5.1		0		
-34559	663	Intha	hcou'	hcou'	sew	sew		5.1		0		
-34560	1503	Tavoyan	hcao'	hcao'	sew	sew		5.1		0		
-34561	1029	Maru [Langsu]	khyáp	khyáp	sew	sew		5.1		0		2627
-34562	387	Burmese (Standard Spoken)	hcà	hcà	separate	separate		6.10.4		0		
-34563	404	Burmese (Written)	khrā:	khrā:	separate	separate		6.10.4		0		
-34564	382	Burmese (Inscriptional)	khrā	khrā	separate	separate		6.10.4		0		
-34565	290	Arakanese	krà	krà	separate	separate		6.10.4		0		
-34566	387	Burmese (Standard Spoken)	hci'	hci'	scrape	scrape		6.3		0		
-34567	404	Burmese (Written)	khrac	khrac	scrape	scrape		6.3		0		6131
-34568	290	Arakanese	hkrai'	hkrai'	scrape	scrape		6.3		0		
-34569	663	Intha	hyi'	hyi'	scrape	scrape		6.3		0		
-34570	1503	Tavoyan	hci'	hci'	scrape	scrape		6.3		0		
-34571	1029	Maru [Langsu]	khyát	khyát	scrape	scrape		6.3		0		6131
-34572	387	Burmese (Standard Spoken)	-ceì	-ceì	scale	scale		1.6.5.2		0		596
-34573	404	Burmese (Written)	-kre:	-kre:	scale	scale		1.6.5.2		0		596
-34574	290	Arakanese	-krì	-krì	scale	scale		1.6.5.2		0		596
-34575	663	Intha	-cì	-cì	scale	scale		1.6.5.2		0		596
-34576	1503	Tavoyan	-ceì	-ceì	scale	scale		1.6.5.2		0		596
-34577	387	Burmese (Standard Spoken)	ca'	ca'	rupee	rupee		5.9		0		
-34578	404	Burmese (Written)	kyap	kyap	rupee	rupee		5.9		0		
-34579	382	Burmese (Inscriptional)	klyap	klyap	rupee	rupee		5.9		0		
-34580	1029	Maru [Langsu]	k'yé'	k'yé'	rupee	rupee		5.9		0		
-34581	387	Burmese (Standard Spoken)	càn	càn	rough	rough		7.1.4.2		0		
-34582	404	Burmese (Written)	kram:	kram:	rough	rough		7.1.4.2		0		1867
-34583	290	Arakanese	krèn	krèn	rough	rough		7.1.4.2		0		1867
-34584	663	Intha	càn	càn	rough	rough		7.1.4.2		0		
-34585	1503	Tavoyan	càn	càn	rough	rough		7.1.4.2		0		
-34586	387	Burmese (Standard Spoken)	coù	coù	rope	rope		5.11.4		0		
-34587	404	Burmese (Written)	krui:	krui:	rope	rope		5.11.4		0		
-34588	290	Arakanese	kroù	kroù	rope	rope		5.11.4		0		
-34589	663	Intha	coù	coù	rope	rope		5.11.4		0		
-34590	1503	Tavoyan	coù	coù	rope	rope		5.11.4		0		
-34591	387	Burmese (Standard Spoken)	cwe	cwe	rich	rich		5.9		0		
-34592	404	Burmese (Written)	krway	krway	rich	rich		5.9		0		
-34593	382	Burmese (Inscriptional)	krway	krway	rich	rich		5.9		0		
-34594	1503	Tavoyan	kwe	kwe	rich	rich		5.9		0		
-34595	387	Burmese (Standard Spoken)	cán	cán	rhinoceros	rhinoceros		2.2.1		0		
-34596	404	Burmese (Written)	kram̊.	kram̊.	rhinoceros	rhinoceros		2.2.1		0		
-34597	663	Intha	cán	cán	rhinoceros	rhinoceros		2.2.1		0		
-34598	1503	Tavoyan	cán	cán	rhinoceros	rhinoceros		2.2.1		0		
-34599	387	Burmese (Standard Spoken)	hcou'	hcou'	restrict	restrict		6.2.2.1		0		
-34600	404	Burmese (Written)	khyup	khyup	restrict	restrict		6.2.2.1		0		
-34601	382	Burmese (Inscriptional)	khlup	khlup	restrict	restrict		6.2.2.1		0		
-34602	290	Arakanese	hcou'	hcou'	restrict	restrict		6.2.2.1		0		
-34603	663	Intha	hyou'	hyou'	restrict	restrict		6.2.2.1		0		
-34604	663	Intha	hcou'	hcou'	restrict	restrict		6.2.2.1		0		
-34605	1503	Tavoyan	hcao'	hcao'	restrict	restrict		6.2.2.1		0		
-34606	387	Burmese (Standard Spoken)	cu	cu	reed	reed		3.1.8		0		
-34607	404	Burmese (Written)	kyˉ	kyˉ	reed	reed		3.1.8		0		
-34608	663	Intha	klu	klu	reed	reed		3.1.8		0		
-34609	1503	Tavoyan	cu	cu	reed	reed		3.1.8		0		
-34610	387	Burmese (Standard Spoken)	cein	cein	rattan	rattan		3.1.6.4		0		
-34611	404	Burmese (Written)	krim	krim	rattan	rattan		3.1.6.4		0		
-34612	382	Burmese (Inscriptional)	krim	krim	rattan	rattan		3.1.6.4		0		
-34613	663	Intha	cein	cein	rattan	rattan		3.1.6.4		0		
-34614	1503	Tavoyan	ki:n	ki:n	rattan	rattan		3.1.6.4		0		
-34615	1029	Maru [Langsu]	yàm	yàm	rattan	rattan		3.1.6.4		0		
-34616	387	Burmese (Standard Spoken)	cwe'	cwe'	rat	rat		2.1.1		0		2630
-34617	404	Burmese (Written)	krwak	krwak	rat	rat		2.1.1		0		2630
-34618	382	Burmese (Inscriptional)	krwak	krwak	rat	rat		2.1.1		0		2630
-34619	290	Arakanese	krwo'	krwo'	rat	rat		2.1.1		0		2630
-34620	663	Intha	cwe'	cwe'	rat	rat		2.1.1		0		2630
-34621	1503	Tavoyan	kwa'	kwa'	rat	rat		2.1.1		0		2630
-34622	1029	Maru [Langsu]	yùk	yùk	rat	rat		2.1.1		0		2630
-34623	387	Burmese (Standard Spoken)	-hcin	-hcin	rafter	rafter		5.11.9		0		
-34624	404	Burmese (Written)	-khran̊	-khran̊	rafter	rafter		5.11.9		0		
-34625	382	Burmese (Inscriptional)	-khran̊	-khran̊	rafter	rafter		5.11.9		0		
-34626	1029	Maru [Langsu]	khyòn̈	khyòn̈	rafter	rafter		5.11.9		0		
-34627	387	Burmese (Standard Spoken)	hcì-	hcì-	praise	praise		8.5.2.2		0		
-34628	404	Burmese (Written)	khyī:-	khyī:-	praise	praise		8.5.2.2		0		
-34629	382	Burmese (Inscriptional)	khī	khī	praise	praise		8.5.2.2		0		
-34630	290	Arakanese	hcì-	hcì-	praise	praise		8.5.2.2		0		
-34631	663	Intha	hcì-	hcì-	praise	praise		8.5.2.2		0		
-34632	1503	Tavoyan	hcì-	hcì-	praise	praise		8.5.2.2		0		
-34633	387	Burmese (Standard Spoken)	hcun	hcun	pointed	pointed		6.2.2.2		0		
-34634	404	Burmese (Written)	khywan	khywan	pointed	pointed		6.2.2.2		0		
-34635	290	Arakanese	hcen	hcen	pointed	pointed		6.2.2.2		0		
-34636	663	Intha	hcun	hcun	pointed	pointed		6.2.2.2		0		
-34637	1503	Tavoyan	hyun	hyun	pointed	pointed		6.2.2.2		0		
-34638	1029	Maru [Langsu]	chùm	chùm	pointed	pointed		6.2.2.2		0		
-34639	387	Burmese (Standard Spoken)	ci'	ci'	plait	plait		1.2.3.2		0		
-34640	404	Burmese (Written)	kyac	kyac	plait	plait		1.2.3.2		0		
-34641	290	Arakanese	cai'	cai'	plait	plait		1.2.3.2		0		
-34642	663	Intha	ci'	ci'	plait	plait		1.2.3.2		0		
-34643	1503	Tavoyan	ci'	ci'	plait	plait		1.2.3.2		0		
-34644	387	Burmese (Standard Spoken)	-hcan	-hcan	pimple	pimple		1.6.5.3		0		
-34645	404	Burmese (Written)	-khram	-khram	pimple	pimple		1.6.5.3		0		
-34646	290	Arakanese	hkron	hkron	pimple	pimple		1.6.5.3		0		
-34647	663	Intha	hyan	hyan	pimple	pimple		1.6.5.3		0		
-34648	1503	Tavoyan	hcin	hcin	pimple	pimple		1.6.5.3		0		
-34649	387	Burmese (Standard Spoken)	ceì	ceì	parrot	parrot		2.2.4.1		0		7416
-34650	404	Burmese (Written)	key:	key:	parrot	parrot		2.2.4.1		0		7416
-34651	382	Burmese (Inscriptional)	kiy	kiy	parrot	parrot		2.2.4.1		0		7416
-34652	1029	Maru [Langsu]	cìt	cìt	parrot	parrot		2.2.4.1		0		7416
-34653	387	Burmese (Standard Spoken)	-coù	-coù	outcome	outcome		8.1		0		
-34654	404	Burmese (Written)	-kyui:	-kyui:	outcome	outcome		8.1		0		
-34655	382	Burmese (Inscriptional)	-kluiw	-kluiw	outcome	outcome		8.1		0		
-34656	663	Intha	-coù	-coù	outcome	outcome		8.1		0		
-34657	1503	Tavoyan	-coù	-coù	outcome	outcome		8.1		0		
-34658	387	Burmese (Standard Spoken)	ce'◦thun	ce'thun	onion	onion		3.1.5		0		1606,5494
-34659	404	Burmese (Written)	krak'swan	krak'swan	onion	onion		3.1.5		0		1606,5494
-34660	382	Burmese (Inscriptional)	ka◦swan	kaswan	onion	onion		3.1.5		0		m,5494
-34661	290	Arakanese	kro'-	kro'-	onion	onion		3.1.5		0		
-34662	663	Intha	ce'-	ce'-	onion	onion		3.1.5		0		
-34663	1503	Tavoyan	ci'-	ci'-	onion	onion		3.1.5		0		
-34664	1029	Maru [Langsu]	haū-	haū-	onion	onion		3.1.5		0		
-34665	387	Burmese (Standard Spoken)	cin	cin	numb	numb		1.5.11		0		
-34666	404	Burmese (Written)	kyañ	kyañ	numb	numb		1.5.11		0		
-34667	663	Intha	klin	klin	numb	numb		1.5.11		0		
-34668	1503	Tavoyan	cin	cin	numb	numb		1.5.11		0		
-34669	387	Burmese (Standard Spoken)	hce'	hce'	navel	navel		1.9.4		0		525
-34670	404	Burmese (Written)	khyak	khyak	navel	navel		1.9.4		0		525
-34671	290	Arakanese	hco'	hco'	navel	navel		1.9.4		0		525
-34672	663	Intha	hye'	hye'	navel	navel		1.9.4		0		525
-34673	1503	Tavoyan	hyi'	hyi'	navel	navel		1.9.4		0		525
-34674	1029	Maru [Langsu]	chó'	chó'	navel	navel		1.9.4		0		525
-34675	387	Burmese (Standard Spoken)	cìn	cìn	narrow	narrow		9.7.2		0		7169
-34676	404	Burmese (Written)	kya:̃	kya:̃	narrow	narrow		9.7.2		0		
-34677	290	Arakanese	caìn	caìn	narrow	narrow		9.7.2		0		
-34678	663	Intha	cìn	cìn	narrow	narrow		9.7.2		0		7169
-34679	1503	Tavoyan	cìn	cìn	narrow	narrow		9.7.2		0		7169
-34680	387	Burmese (Standard Spoken)	-hcìn	-hcìn	mutual	mutual		10.0		0		
-34681	404	Burmese (Written)	khyan̊:	khyan̊:	mutual	mutual		10.0		0		
-34682	290	Arakanese	-hcòn	-hcòn	mutual	mutual		10.0		0		
-34683	663	Intha	-hyèn	-hyèn	mutual	mutual		10.0		0		
-34684	1503	Tavoyan	-hyìn	-hyìn	mutual	mutual		10.0		0		
-34685	387	Burmese (Standard Spoken)	hcin	hcin	mosquito	mosquito		2.2.6		0		2328
-34686	404	Burmese (Written)	khran̊	khran̊	mosquito	mosquito		2.2.6		0		2328
-34687	290	Arakanese	hkron	hkron	mosquito	mosquito		2.2.6		0		2328
-34688	663	Intha	hyen	hyen	mosquito	mosquito		2.2.6		0		2328
-34689	663	Intha	hcen	hcen	mosquito	mosquito		2.2.6		0		2328
-34690	1503	Tavoyan	hcin	hcin	mosquito	mosquito		2.2.6		0		2328
-34691	1029	Maru [Langsu]	k'yòn̈	k'yòn̈	mosquito	mosquito		2.2.6		0		2328
-34692	387	Burmese (Standard Spoken)	caùn	caùn	monastery	monastery		5.11.9.1		0		
-34693	404	Burmese (Written)	kyon̊:	kyon̊:	monastery	monastery		5.11.9.1		0		
-34694	382	Burmese (Inscriptional)	klon̊	klon̊	monastery	monastery		5.11.9.1		0		
-34695	663	Intha	còn	còn	monastery	monastery		5.11.9.1		0		
-34696	1503	Tavoyan	klòn	klòn	monastery	monastery		5.11.9.1		0		
-34697	1503	Tavoyan	còn	còn	monastery	monastery		5.11.9.1		0		
-34698	387	Burmese (Standard Spoken)	coun	coun	meet	meet		6.2		0		
-34699	404	Burmese (Written)	krum̊	krum̊	meet	meet		6.2		0		5391
-34700	663	Intha	coun	coun	meet	meet		6.2		0		
-34701	1503	Tavoyan	coun	coun	meet	meet		6.2		0		
-34702	387	Burmese (Standard Spoken)	hcein	hcein	measure	measure		9.8		0		
-34703	404	Burmese (Written)	khyin	khyin	measure	measure		9.8		0		
-34704	382	Burmese (Inscriptional)	khin	khin	measure	measure		9.8		0		
-34705	290	Arakanese	hcein	hcein	measure	measure		9.8		0		
-34706	663	Intha	hyein	hyein	measure	measure		9.8		0		
-34707	663	Intha	hcein	hcein	measure	measure		9.8		0		
-34708	1503	Tavoyan	hki	hki	measure	measure		9.8		0		
-34709	1503	Tavoyan	hci:n	hci:n	measure	measure		9.8		0		
-34710	1029	Maru [Langsu]	chìn	chìn	measure	measure		9.8		0		
-34711	387	Burmese (Standard Spoken)	hcin-	hcin-	marrow	marrow		1.6.3.5		0		459
-34712	404	Burmese (Written)	khran̊-	khran̊-	marrow	marrow		1.6.3.5		0		459
-34713	1029	Maru [Langsu]	khyòh	khyòh	marrow	marrow		1.6.3.5		0		459
-34714	387	Burmese (Standard Spoken)	hei'	hei'	love	love		8.3.1.1.1		0		
-34715	404	Burmese (Written)	khyac	khyac	love	love		8.3.1.1.1		0		1645
-34716	382	Burmese (Inscriptional)	khyat	khyat	love	love		8.3.1.1.1		0		1645
-34717	290	Arakanese	hcat	hcat	love	love		8.3.1.1.1		0		1645
-34718	663	Intha	hyi’	hyi’	love	love		8.3.1.1.1		0	D1	1645
-34719	663	Intha	hei'	hei'	love	love		8.3.1.1.1		0		
-34721	1503	Tavoyan	hyi’	hyi’	love	love		8.3.1.1.1		0		1645
-34722	1029	Maru [Langsu]	c'ít	c'ít	love	love		8.3.1.1.1		0		1645
-34723	387	Burmese (Standard Spoken)	hcain	hcain	lop	lop		6.9.3		0		
-34724	404	Burmese (Written)	khyuin̊	khyuin̊	lop	lop		6.9.3		0		
-34725	1503	Tavoyan	hkain	hkain	lop	lop		6.9.3		0		
-34726	387	Burmese (Standard Spoken)	hcaun	hcaun	loose	loose		6.13.1		0		
-34727	404	Burmese (Written)	khyon̊	khyon̊	loose	loose		6.13.1		0		
-34728	663	Intha	hyon	hyon	loose	loose		6.13.1		0		
-34729	663	Intha	hcon	hcon	loose	loose		6.13.1		0		
-34730	387	Burmese (Standard Spoken)	cì	cì	look	look		1.2.6.11		0		m
-34731	404	Burmese (Written)	kraññ.	kraññ.	look	look		1.2.6.11		0		m
-34732	382	Burmese (Inscriptional)	kraññ	kraññ	look	look		1.2.6.11		0		m
-34733	290	Arakanese	kreí	kreí	look	look		1.2.6.11		0		m
-34734	663	Intha	cí	cí	look	look		1.2.6.11		0		m
-34735	1503	Tavoyan	keí	keí	look	look		1.2.6.11		0		
-34736	1503	Tavoyan	krei	krei	look	look		1.2.6.11		0		m
-34737	387	Burmese (Standard Spoken)	hcin-dhei	hcin-dhei	lion	lion		2.1.3		0		6114,m
-34738	404	Burmese (Written)	khran̊◦se.	khran̊◦se.	lion	lion		2.1.3		0		6114,b,m
-34739	382	Burmese (Inscriptional)	khran̊-siy	khran̊-siy	lion	lion		2.1.3		0		b,6114,m
-34740	290	Arakanese	hkron-	hkron-	lion	lion		2.1.3		0		bBurmese,6114
-34741	663	Intha	hyen-	hyen-	lion	lion		2.1.3		0		bBurmese,6114,m
-34742	1503	Tavoyan	hcä-	hcä-	lion	lion		2.1.3		0		bBurmese
-34743	1029	Maru [Langsu]	khàng khì	khàng khì	lion	lion		2.1.3		0		bBurmese,6114,m
-34744	387	Burmese (Standard Spoken)	cai'	cai'	like	like		8.3.1.1.1		0		
-34745	404	Burmese (Written)	kruik	kruik	like	like		8.3.1.1.1		0		
-34746	290	Arakanese	krai'	krai'	like	like		8.3.1.1.1		0		
-34747	663	Intha	cai'	cai'	like	like		8.3.1.1.1		0		
-34748	663	Intha	cei'	cei'	like	like		8.3.1.1.1		0		
-34749	1503	Tavoyan	cai'	cai'	like	like		8.3.1.1.1		0		
-34750	387	Burmese (Standard Spoken)	hcì	hcì	lend	lend		6.22		0		
-34751	387	Burmese (Standard Spoken)	hceì	hceì	lend	lend		6.22		0		
-34752	404	Burmese (Written)	khye:	khye:	lend	lend		6.22		0		2314
-34753	382	Burmese (Inscriptional)	khiy	khiy	lend	lend		6.22		0		2314
-34754	290	Arakanese	hcì	hcì	lend	lend		6.22		0		
-34755	663	Intha	hkeì	hkeì	lend	lend		6.22		0		
-34756	1503	Tavoyan	hceì	hceì	lend	lend		6.22		0		
-34757	1029	Maru [Langsu]	c'ít?	c'ít?	lend	lend		6.22		0		
-34758	387	Burmese (Standard Spoken)	cwìn	cwìn	left over	left over		1.5.3.2		0		
-34759	404	Burmese (Written)	krwan̊:	krwan̊:	left over	left over		1.5.3.2		0		
-34760	382	Burmese (Inscriptional)	krwan̊	krwan̊	left over	left over		1.5.3.2		0		
-34761	387	Burmese (Standard Spoken)	can	can	left out	left out		1.5.3.2		0		
-34762	404	Burmese (Written)	kyan	kyan	left out	left out		1.5.3.2		0		
-34763	382	Burmese (Inscriptional)	kyan	kyan	left out	left out		1.5.3.2		0		
-34764	663	Intha	klan	klan	left out	left out		1.5.3.2		0		
-34765	1503	Tavoyan	can	can	left out	left out		1.5.3.2		0		
-34766	1029	Maru [Langsu]	tjàn	tjàn	left out	left out		1.5.3.2		0		
-34767	387	Burmese (Standard Spoken)	cu'	cu'	leech	leech		2.2.6		0		
-34768	404	Burmese (Written)	krwat	krwat	leech	leech		2.2.6		0		2555
-34769	382	Burmese (Inscriptional)	krwat	krwat	leech	leech		2.2.6		0		2555
-34770	290	Arakanese	krwe'	krwe'	leech	leech		2.2.6		0		
-34771	663	Intha	cu'	cu'	leech	leech		2.2.6		0		
-34772	1503	Tavoyan	cu'	cu'	leech	leech		2.2.6		0		
-34773	1029	Maru [Langsu]	v'é	v'é	leech	leech		2.2.6		0		2555
-34774	1029	Maru [Langsu]	se'	se'	leech	leech		2.2.6		0		
-34775	1029	Maru [Langsu]	y'úp-v'é'	y'úp-v'é'	leech	leech		2.2.6		0		m,2555
-34776	387	Burmese (Standard Spoken)	hcan	hcan	leave out	leave out		6.10.2		0		
-34777	404	Burmese (Written)	khyab	khyab	leave out	leave out		6.10.2		0		
-34778	663	Intha	hklan	hklan	leave out	leave out		6.10.2		0		
-34779	1503	Tavoyan	hcan	hcan	leave out	leave out		6.10.2		0		
-34780	387	Burmese (Standard Spoken)	hcei'	hcei'	lac	lac		2.2.6		0		2331
-34781	404	Burmese (Written)	khrit	khrit	lac	lac		2.2.6		0		2331
-34782	382	Burmese (Inscriptional)	khrit	khrit	lac	lac		2.2.6		0		2331
-34783	1029	Maru [Langsu]	yàp?	yàp?	lac	lac		2.2.6		0		2331
-34784	387	Burmese (Standard Spoken)	cau'	cau'	kick	kick		6.2.2.3.3		0		
-34785	404	Burmese (Written)	kyok	kyok	kick	kick		6.2.2.3.3		0		
-34786	663	Intha	klo'	klo'	kick	kick		6.2.2.3.3		0		
-34787	387	Burmese (Standard Spoken)	cùn	cùn	island	island		3.2.5		0		
-34788	404	Burmese (Written)	kywan:	kywan:	island	island		3.2.5		0		
-34789	382	Burmese (Inscriptional)	klwan	klwan	island	island		3.2.5		0		
-34790	290	Arakanese	cwèn	cwèn	island	island		3.2.5		0		
-34791	663	Intha	cùn	cùn	island	island		3.2.5		0		
-34792	1503	Tavoyan	cùn	cùn	island	island		3.2.5		0		
-34793	387	Burmese (Standard Spoken)	-jou	-jou	horn	horn		1.2.2		0		819
-34794	404	Burmese (Written)	-khrui	-khrui	horn	horn		1.2.2		0		819
-34795	382	Burmese (Inscriptional)	-khruiw	-khruiw	horn	horn		1.2.2		0		819
-34796	290	Arakanese	-grou	-grou	horn	horn		1.2.2		0		819
-34797	663	Intha	-hyou	-hyou	horn	horn		1.2.2		0		819
-34798	1503	Tavoyan	-hcou	-hcou	horn	horn		1.2.2		0		p,819
-34799	1029	Maru [Langsu]	khyùk	khyùk	horn	horn		1.2.2		0		819
-34800	387	Burmese (Standard Spoken)	hcei'	hcei'	hook	hook		5.4		0		
-34801	404	Burmese (Written)	khyit	khyit	hook	hook		5.4		0		
-34802	290	Arakanese	hcei'	hcei'	hook	hook		5.4		0		
-34803	663	Intha	hyai'	hyai'	hook	hook		5.4		0		
-34804	663	Intha	hyei'	hyei'	hook	hook		5.4		0		
-34805	1503	Tavoyan	hkí	hkí	hook	hook		5.4		0		
-34806	387	Burmese (Standard Spoken)	caùn	caùn	herd	herd		2.1.2		0		
-34807	404	Burmese (Written)	kyon̊:	kyon̊:	herd	herd		2.1.2		0		
-34808	382	Burmese (Inscriptional)	klon̊	klon̊	herd	herd		2.1.2		0		
-34809	290	Arakanese	caùn	caùn	herd	herd		2.1.2		0		
-34810	663	Intha	còn	còn	herd	herd		2.1.2		0		
-34811	663	Intha	Kòn	Kòn	herd	herd		2.1.2		0		
-34812	1503	Tavoyan	còn	còn	herd	herd		2.1.2		0		
-34813	387	Burmese (Standard Spoken)	cà	cà	hear	hear		1.2.7.4		0		1411
-34814	404	Burmese (Written)	krā:	krā:	hear	hear		1.2.7.4		0		1411
-34815	382	Burmese (Inscriptional)	krá	krá	hear	hear		1.2.7.4		0		1411
-34816	290	Arakanese	krà	krà	hear	hear		1.2.7.4		0		1411
-34817	663	Intha	cà	cà	hear	hear		1.2.7.4		0		1411
-34818	1503	Tavoyan	cà	cà	hear	hear		1.2.7.4		0		1411
-34819	1029	Maru [Langsu]	kyō	kyō	hear	hear		1.2.7.4		0		1411
-34820	1029	Maru [Langsu]	tjō	tjō	hear	hear		1.2.7.4		0		1411
-34821	387	Burmese (Standard Spoken)	cei'	cei'	grind	grind		9.5		0		
-34822	404	Burmese (Written)	krit	krit	grind	grind		9.5		0		2333
-34823	663	Intha	cai'	cai'	grind	grind		9.5		0		
-34824	1503	Tavoyan	kli	kli	grind	grind		9.5		0		
-34825	1029	Maru [Langsu]	khyát?	khyát?	grind	grind		9.5		0		
-34826	1029	Maru [Langsu]	chè'	chè'	grind	grind		9.5		0		
-34827	387	Burmese (Standard Spoken)	cu'	cu'	gt gd child??	gt gd child??		1.5.3.2		0		
-34828	404	Burmese (Written)	krwat	krwat	gt gd child??	gt gd child??		1.5.3.2		0		
-34829	290	Arakanese	krwe'	krwe'	gt gd child??	gt gd child??		1.5.3.2		0		e
-34830	663	Intha	cu'	cu'	gt gd child??	gt gd child??		1.5.3.2		0		
-34831	1503	Tavoyan	cu'	cu'	gt gd child??	gt gd child??		1.5.3.2		0		
-34832	387	Burmese (Standard Spoken)	-jaìn	-jaìn	graveyard	graveyard		9.10.6		0		
-34833	404	Burmese (Written)	-khyuin̊:	-khyuin̊:	graveyard	graveyard		9.10.6		0		
-34834	382	Burmese (Inscriptional)	-khluin	-khluin	graveyard	graveyard		9.10.6		0		
-34835	1503	Tavoyan	-hklaìn	-hklaìn	graveyard	graveyard		9.10.6		0		
-34836	387	Burmese (Standard Spoken)	ci	ci	granary	granary		5.11.9.5		0		
-34837	404	Burmese (Written)	kyī	kyī	granary	granary		5.11.9.5		0		
-34838	382	Burmese (Inscriptional)	kī	kī	granary	granary		5.11.9.5		0		
-34839	663	Intha	ci	ci	granary	granary		5.11.9.5		0		
-34840	1029	Maru [Langsu]	c'ì	c'ì	granary	granary		5.11.9.5		0		
-34841	387	Burmese (Standard Spoken)	jìn	jìn	ginger	ginger		3.1.5		0		
-34842	404	Burmese (Written)	khyan̊:	khyan̊:	ginger	ginger		3.1.5		0		647
-34843	382	Burmese (Inscriptional)	khen̊	khen̊	ginger	ginger		3.1.5		0		
-34844	1029	Maru [Langsu]	chōn̈	chōn̈	ginger	ginger		3.1.5		0		
-34845	387	Burmese (Standard Spoken)	hcou'	hcou'	get dark	get dark		1.1.5		0		
-34846	404	Burmese (Written)	khyut	khyut	get dark	get dark		1.1.5		0		
-34847	382	Burmese (Inscriptional)	khyut	khyut	get dark	get dark		1.1.5		0		
-34848	1029	Maru [Langsu]	c'at?	c'at?	get dark	get dark		1.1.5		0		
-34849	387	Burmese (Standard Spoken)	coùn	coùn	gather	gather		6.13.5		0		
-34850	404	Burmese (Written)	kyum̊:	kyum̊:	gather	gather		6.13.5		0		
-34851	382	Burmese (Inscriptional)	klum	klum	gather	gather		6.13.5		0		
-34852	387	Burmese (Standard Spoken)	hcan	hcan	garden	garden		9.10.4		0		3606
-34853	404	Burmese (Written)	khram̊	khram̊	garden	garden		9.10.4		0		3606
-34854	382	Burmese (Inscriptional)	khram	khram	garden	garden		9.10.4		0		3606
-34855	290	Arakanese	hkren	hkren	garden	garden		9.10.4		0		3606
-34856	1503	Tavoyan	hcan	hcan	garden	garden		9.10.4		0		3606
-34857	1029	Maru [Langsu]	khyè	khyè	garden	garden		9.10.4		0		3606
-34858	387	Burmese (Standard Spoken)	-jei	-jei	gall	gall		1.7.3.1		0		227
-34859	404	Burmese (Written)	-khre	-khre	gall	gall		1.7.3.1		0		227
-34860	290	Arakanese	-hkri	-hkri	gall	gall		1.7.3.1		0		227
-34861	663	Intha	-hyei	-hyei	gall	gall		1.7.3.1		0		228
-34862	1503	Tavoyan	-hkei	-hkei	gall	gall		1.7.3.1		0		227
-34863	1029	Maru [Langsu]	-kyìt?	-kyìt?	gall	gall		1.7.3.1		0		227
-34864	387	Burmese (Standard Spoken)	co	co	fry	fry		5.5		0		
-34865	404	Burmese (Written)	kyō	kyō	fry	fry		5.5		0		
-34866	404	Burmese (Written)	krō	krō	fry	fry		5.5		0		
-34867	290	Arakanese	co	co	fry	fry		5.5		0		
-34868	663	Intha	hyo	hyo	fry	fry		5.5		0		
-34869	1503	Tavoyan	co	co	fry	fry		5.5		0		
-34870	387	Burmese (Standard Spoken)	cau'	cau'	frightened	frightened		8.3.1.10.1		0		
-34871	404	Burmese (Written)	krok	krok	frightened	frightened		8.3.1.10.1		0		
-34872	382	Burmese (Inscriptional)	krok	krok	frightened	frightened		8.3.1.10.1		0		
-34873	290	Arakanese	krau'	krau'	frightened	frightened		8.3.1.10.1		0		
-34874	663	Intha	co'.	co'.	frightened	frightened		8.3.1.10.1		0		
-34875	1503	Tavoyan	co'	co'	frightened	frightened		8.3.1.10.1		0		
-34876	1503	Tavoyan	klo'	klo'	frightened	frightened		8.3.1.10.1		0		
-34877	1029	Maru [Langsu]	kyaù'	kyaù'	frightened	frightened		8.3.1.10.1		0		
-34878	387	Burmese (Standard Spoken)	hcau'	hcau'	frighten	frighten		8.3.1.10.1		0		2249
-34879	404	Burmese (Written)	khrok	khrok	frighten	frighten		8.3.1.10.1		0		2249
-34880	290	Arakanese	"hkrau"""	"hkrau"""	frighten	frighten		8.3.1.10.1		0		2249
-34881	663	Intha	hklo'	hklo'	frighten	frighten		8.3.1.10.1		0		2249
-34882	1503	Tavoyan	khyaú'	khyaú'	frighten	frighten		8.3.1.10.1		0		2249
-34883	1029	Maru [Langsu]	khr	khr	frighten	frighten		8.3.1.10.1		0		
-34884	387	Burmese (Standard Spoken)	cain	cain	fragrant	fragrant		3.1.10		0		
-34885	404	Burmese (Written)	kruin̊	kruin̊	fragrant	fragrant		3.1.10		0		
-34886	663	Intha	klein	klein	fragrant	fragrant		3.1.10		0		
-34887	1503	Tavoyan	cain	cain	fragrant	fragrant		3.1.10		0		
-34888	387	Burmese (Standard Spoken)	ce'	ce'	fowl	fowl		2.1.10		0		1606
-34889	404	Burmese (Written)	krak	krak	fowl	fowl		2.1.10		0		1606
-34890	382	Burmese (Inscriptional)	krak	krak	fowl	fowl		2.1.10		0		1606
-34891	290	Arakanese	kro'	kro'	fowl	fowl		2.1.10		0		1606
-34892	663	Intha	ce'	ce'	fowl	fowl		2.1.10		0		
-34893	1503	Tavoyan	ci'	ci'	fowl	fowl		2.1.10		0		
-34894	1029	Maru [Langsu]	yò'	yò'	fowl	fowl		2.1.10		0		2187
-34895	387	Burmese (Standard Spoken)	hci	hci	foot	foot		1.5.2		0		335
-34896	387	Burmese (Standard Spoken)	hcei	hcei	foot	foot		1.5.2		0		335
-34897	404	Burmese (Written)	khre	khre	foot	foot		1.5.2		0		335
-34898	382	Burmese (Inscriptional)	khriy	khriy	foot	foot		1.5.2		0		335
-34899	290	Arakanese	hkri	hkri	foot	foot		1.5.2		0		335
-34900	663	Intha	hkei	hkei	foot	foot		1.5.2		0		335
-34901	1503	Tavoyan	hkei	hkei	foot	foot		1.5.2		0		335
-34902	1029	Maru [Langsu]	khyìt	khyìt	foot	foot		1.5.2		0		
-34903	1029	Maru [Langsu]	chi	chi	foot	foot		1.5.2		0		
-34904	1029	Maru [Langsu]	tśik	tśik	foot	foot		1.5.2		0		
-34905	387	Burmese (Standard Spoken)	hcìn	hcìn	follow	follow		6.7.10		0		
-34906	404	Burmese (Written)	(khyañ:)F	(khyañ:)F	follow	follow		6.7.10		0		
-34907	382	Burmese (Inscriptional)	khyan̊	khyan̊	follow	follow		6.7.10		0		
-34908	1029	Maru [Langsu]	chōn̈	chōn̈	follow	follow		6.7.10		0		
-34909	387	Burmese (Standard Spoken)	-hca'	-hca'	flat	flat		7.1.5.1		0		
-34910	404	Burmese (Written)	-khyap	-khyap	flat	flat		7.1.5.1		0		
-34911	382	Burmese (Inscriptional)	-khlap	-khlap	flat	flat		7.1.5.1		0		
-34912	663	Intha	-hya'	-hya'	flat	flat		7.1.5.1		0		
-34913	1503	Tavoyan	-hca'	-hca'	flat	flat		7.1.5.1		0		
-34914	387	Burmese (Standard Spoken)	-hcaùn	-hcaùn	finger	finger		1.5.6		0		
-34915	404	Burmese (Written)	-khyon̊:	-khyon̊:	finger	finger		1.5.6		0		
-34916	290	Arakanese	-hcaùn	-hcaùn	finger	finger		1.5.6		0		
-34917	663	Intha	-hyòn	-hyòn	finger	finger		1.5.6		0		
-34918	1503	Tavoyan	-hyòn	-hyòn	finger	finger		1.5.6		0		
-34919	387	Burmese (Standard Spoken)	-hcìn	-hcìn	fact	fact		8.1		0		
-34920	404	Burmese (Written)	-khran̊:	-khran̊:	fact	fact		8.1		0		
-34921	382	Burmese (Inscriptional)	-khran̊	-khran̊	fact	fact		8.1		0		
-34922	290	Arakanese	-hkròn	-hkròn	fact	fact		8.1		0		
-34923	1503	Tavoyan	-hcìn	-hcìn	fact	fact		8.1		0		
-34924	387	Burmese (Standard Spoken)	-caùn	-caùn	fact / line	fact / line		8.1		0		
-34925	404	Burmese (Written)	-kron̊:	-kron̊:	fact / line	fact / line		8.1		0		
-34926	382	Burmese (Inscriptional)	-kron̊	-kron̊	fact / line	fact / line		8.1		0		
-34927	290	Arakanese	-kraùn	-kraùn	fact / line	fact / line		8.1		0		
-34928	663	Intha	-còn	-còn	fact / line	fact / line		8.1		0		
-34929	1503	Tavoyan	còn	còn	fact / line	fact / line		8.1		0		
-34930	387	Burmese (Standard Spoken)	co	co	exceed	exceed		9.9		0		
-34931	404	Burmese (Written)	kyō	kyō	exceed	exceed		9.9		0		
-34932	663	Intha	co	co	exceed	exceed		9.9		0		
-34933	1503	Tavoyan	co	co	exceed	exceed		9.9		0		
-34934	387	Burmese (Standard Spoken)	hcì	hcì	dung	dung		1.8.5		0		572
-34935	387	Burmese (Standard Spoken)	hceì	hceì	dung	dung		1.8.5		0		572
-34936	404	Burmese (Written)	khye:	khye:	dung	dung		1.8.5		0		572
-34937	382	Burmese (Inscriptional)	khliy	khliy	dung	dung		1.8.5		0		572
-34938	290	Arakanese	hcì	hcì	dung	dung		1.8.5		0		
-34939	663	Intha	hkeì	hkeì	dung	dung		1.8.5		0		
-34940	1503	Tavoyan	hkleì	hkleì	dung	dung		1.8.5		0		572
-34941	1029	Maru [Langsu]	khyít	khyít	dung	dung		1.8.5		0		
-34942	387	Burmese (Standard Spoken)	hcau'	hcau'	dry	dry		6.6		0		443a
-34943	404	Burmese (Written)	khrok	khrok	dry	dry		6.6		0		
-34944	382	Burmese (Inscriptional)	khrok	khrok	dry	dry		6.6		0		
-34945	290	Arakanese	hkrau'	hkrau'	dry	dry		6.6		0		443a
-34946	663	Intha	hyo'	hyo'	dry	dry		6.6		0		
-34947	1503	Tavoyan	hco'	hco'	dry	dry		6.6		0		
-34948	1029	Maru [Langsu]	k'yaó'	k'yaó'	dry	dry		6.6		0		
-34949	1029	Maru [Langsu]	tjaù'	tjaù'	dry	dry		6.6		0		443a
-34950	387	Burmese (Standard Spoken)	cá	cá	dropped	dropped		6.16		0		
-34951	404	Burmese (Written)	kya	kya	dropped	dropped		6.16		0		
-34952	382	Burmese (Inscriptional)	kla	kla	dropped	dropped		6.16		0		
-34953	290	Arakanese	cá	cá	dropped	dropped		6.16		0		
-34954	663	Intha	klá	klá	dropped	dropped		6.16		0		
-34955	1503	Tavoyan	klá	klá	dropped	dropped		6.16		0		
-34956	1503	Tavoyan	cá	cá	dropped	dropped		6.16		0		
-34957	1029	Maru [Langsu]	kyó	kyó	dropped	dropped		6.16		0		
-34958	387	Burmese (Standard Spoken)	hcá	hcá	drop	drop		6.16		0		
-34959	404	Burmese (Written)	khya	khya	drop	drop		6.16		0		
-34960	382	Burmese (Inscriptional)	khla	khla	drop	drop		6.16		0		
-34961	290	Arakanese	hcá	hcá	drop	drop		6.16		0		
-34962	663	Intha	hklá	hklá	drop	drop		6.16		0		
-34963	663	Intha	hcá	hcá	drop	drop		6.16		0		
-34964	1503	Tavoyan	hklá	hklá	drop	drop		6.16		0		
-34965	387	Burmese (Standard Spoken)	-jou	-jou	dove	dove		2.2.4.1		0		
-34966	404	Burmese (Written)	-khrui	-khrui	dove	dove		2.2.4.1		0		
-34967	1029	Maru [Langsu]	-khyúk	-khyúk	dove	dove		2.2.4.1		0		
-34968	1029	Maru [Langsu]	tjò'	tjò'	dove	dove		2.2.4.1		0		
-34969	387	Burmese (Standard Spoken)	hcaín	hcaín	dent	dent		1.5.3.2		0		
-34970	404	Burmese (Written)	khyuin̊	khyuin̊	dent	dent		1.5.3.2		0		
-34971	663	Intha	hceín	hceín	dent	dent		1.5.3.2		0		
-34972	1503	Tavoyan	hklaìn	hklaìn	dent	dent		1.5.3.2		0		
-34973	387	Burmese (Standard Spoken)	ji	ji	deer (barking)	deer (barking)		2.2.2		0		2313
-34974	404	Burmese (Written)	khye	khye	deer (barking)	deer (barking)		2.2.2		0		2313
-34975	1503	Tavoyan	hkei	hkei	deer (barking)	deer (barking)		2.2.2		0		2313
-34976	1029	Maru [Langsu]	chit	chit	deer (barking)	deer (barking)		2.2.2		0		
-34977	1029	Maru [Langsu]	tse	tse	deer (barking)	deer (barking)		2.2.2		0		2313
-34978	387	Burmese (Standard Spoken)	-cweì	-cweì	debt	debt		5.9		0		
-34979	404	Burmese (Written)	-krwe:	-krwe:	debt	debt		5.9		0		
-34980	290	Arakanese	-krwì	-krwì	debt	debt		5.9		0		
-34981	663	Intha	-cweì	-cweì	debt	debt		5.9		0		
-34982	1503	Tavoyan	kwì	kwì	debt	debt		5.9		0		
-34983	387	Burmese (Standard Spoken)	cein	cein	curse	curse		8.5.1		0		
-34984	404	Burmese (Written)	kyin	kyin	curse	curse		8.5.1		0		
-34985	382	Burmese (Inscriptional)	kin	kin	curse	curse		8.5.1		0		
-34986	387	Burmese (Standard Spoken)	cei	cei	crumbled	crumbled		5.5		0		
-34987	404	Burmese (Written)	kre	kre	crumbled	crumbled		5.5		0		
-34988	382	Burmese (Inscriptional)	kriy	kriy	crumbled	crumbled		5.5		0		
-34989	290	Arakanese	kri	kri	crumbled	crumbled		5.5		0		
-34990	663	Intha	klei	klei	crumbled	crumbled		5.5		0		
-34991	1503	Tavoyan	cei	cei	crumbled	crumbled		5.5		0		
-34992	387	Burmese (Standard Spoken)	hcei	hcei	crumble	crumble		5.5		0		
-34993	404	Burmese (Written)	khre	khre	crumble	crumble		5.5		0		
-34994	290	Arakanese	hkrwi	hkrwi	crumble	crumble		5.5		0		
-34995	663	Intha	hklei	hklei	crumble	crumble		5.5		0		
-34996	1503	Tavoyan	hcei	hcei	crumble	crumble		5.5		0		
-34997	387	Burmese (Standard Spoken)	cì	cì	crow	crow		2.2.4.1		0		
-34998	404	Burmese (Written)	kyī:	kyī:	crow	crow		2.2.4.1		0		
-34999	382	Burmese (Inscriptional)	klī	klī	crow	crow		2.2.4.1		0		
-35000	663	Intha	klì	klì	crow	crow		2.2.4.1		0		
-35001	1503	Tavoyan	klì	klì	crow	crow		2.2.4.1		0		
-35002	387	Burmese (Standard Spoken)	-jaùn	-jaùn	crocodile	crocodile		2.1.6		0		
-35003	404	Burmese (Written)	-kyon̊:	-kyon̊:	crocodile	crocodile		2.1.6		0		
-35004	382	Burmese (Inscriptional)	-kyon̊	-kyon̊	crocodile	crocodile		2.1.6		0		
-35005	1029	Maru [Langsu]	c'aūng	c'aūng	crocodile	crocodile		2.1.6		0		
-35006	387	Burmese (Standard Spoken)	cwei	cwei	cowry	cowry		2.2.5		0		
-35007	404	Burmese (Written)	krwe	krwe	cowry	cowry		2.2.5		0		
-35008	290	Arakanese	krwi	krwi	cowry	cowry		2.2.5		0		
-35009	663	Intha	cwei	cwei	cowry	cowry		2.2.5		0		
-35010	1503	Tavoyan	cwei	cwei	cowry	cowry		2.2.5		0		
-35011	1029	Maru [Langsu]	kyö̀ ̈	kyö̀ ̈	cowry	cowry		2.2.5		0		
-35012	387	Burmese (Standard Spoken)	hcoun	hcoun	cover	cover		5.8		0		
-35013	404	Burmese (Written)	khrum̊	khrum̊	cover	cover		5.8		0		
-35014	663	Intha	hyoun	hyoun	cover	cover		5.8		0		
-35015	1503	Tavoyan	hcaon̈	hcaon̈	cover	cover		5.8		0		
-35016	387	Burmese (Standard Spoken)	cì	cì	copper	copper		3.2.4		0		
-35017	387	Burmese (Standard Spoken)	ceì	ceì	copper	copper		3.2.4		0		
-35018	404	Burmese (Written)	kre:	kre:	copper	copper		3.2.4		0		2247
-35019	382	Burmese (Inscriptional)	kriy	kriy	copper	copper		3.2.4		0		2247
-35020	290	Arakanese	krì	krì	copper	copper		3.2.4		0	D1	2247
-35021	290	Arakanese	cì	cì	copper	copper		3.2.4		0		
-35023	663	Intha	cì	cì	copper	copper		3.2.4		0		
-35024	1503	Tavoyan	ceì	ceì	copper	copper		3.2.4		0		2247
-35025	1029	Maru [Langsu]	kyít	kyít	copper	copper		3.2.4		0		2247
-35026	387	Burmese (Standard Spoken)	ce'	ce'	cooked	cooked		5.5		0		
-35027	404	Burmese (Written)	kyak	kyak	cooked	cooked		5.5		0		
-35028	382	Burmese (Inscriptional)	kyad	kyad	cooked	cooked		5.5		0		
-35029	663	Intha	ce'	ce'	cooked	cooked		5.5		0		
-35030	1503	Tavoyan	ci'	ci'	cooked	cooked		5.5		0		
-35031	387	Burmese (Standard Spoken)	hce'	hce'	cook	cook		5.5		0		2316
-35032	404	Burmese (Written)	khyak	khyak	cook	cook		5.5		0		2316
-35033	382	Burmese (Inscriptional)	khyak	khyak	cook	cook		5.5		0		2316
-35034	290	Arakanese	hco'	hco'	cook	cook		5.5		0		
-35035	663	Intha	hye'	hye'	cook	cook		5.5		0		
-35036	663	Intha	hce'	hce'	cook	cook		5.5		0		2316
-35037	1503	Tavoyan	hyi'	hyi'	cook	cook		5.5		0		
-35038	1503	Tavoyan	hyi	hyi	cook	cook		5.5		0		
-35039	1029	Maru [Langsu]	chaw	chaw	cook	cook		5.5		0		
-35040	1029	Maru [Langsu]	hyo'	hyo'	cook	cook		5.5		0		
-35041	387	Burmese (Standard Spoken)	hcàn	hcàn	cold	cold		7.1.2.3		0		
-35042	404	Burmese (Written)	khyam:	khyam:	cold	cold		7.1.2.3		0		2374
-35043	382	Burmese (Inscriptional)	khyam	khyam	cold	cold		7.1.2.3		0		2374
-35044	290	Arakanese	hcèn	hcèn	cold	cold		7.1.2.3		0		
-35045	663	Intha	hyàn	hyàn	cold	cold		7.1.2.3		0		
-35046	663	Intha	hcàn	hcàn	cold	cold		7.1.2.3		0		
-35047	1503	Tavoyan	hyàn	hyàn	cold	cold		7.1.2.3		0		
-35048	387	Burmese (Standard Spoken)	hcó	hcó	coax	coax		8.5.7.2		0		
-35049	404	Burmese (Written)	khyo	khyo	coax	coax		8.5.7.2		0		
-35050	663	Intha	hyó	hyó	coax	coax		8.5.7.2		0		
-35051	1503	Tavoyan	hcó	hcó	coax	coax		8.5.7.2		0		
-35052	387	Burmese (Standard Spoken)	ci	ci	clear	clear		9.6.1.1		0		
-35053	404	Burmese (Written)	kraññ	kraññ	clear	clear		9.6.1.1		0		
-35054	382	Burmese (Inscriptional)	kraññ	kraññ	clear	clear		9.6.1.1		0		
-35055	290	Arakanese	krain	krain	clear	clear		9.6.1.1		0		
-35056	663	Intha	ci	ci	clear	clear		9.6.1.1		0		
-35057	1503	Tavoyan	ce	ce	clear	clear		9.6.1.1		0		
-35058	1029	Maru [Langsu]	tjàng	tjàng	clear	clear		9.6.1.1		0		
-35059	1029	Maru [Langsu]	kyèng	kyèng	clear	clear		9.6.1.1		0		
-35060	1029	Maru [Langsu]	cèng	cèng	clear	clear		9.6.1.1		0		
-35061	387	Burmese (Standard Spoken)	caun	caun	cat	cat		2.1.3		0		2618
-35062	404	Burmese (Written)	kron̊	kron̊	cat	cat		2.1.3		0		2618
-35063	382	Burmese (Inscriptional)	kron	kron	cat	cat		2.1.3		0		2618
-35064	290	Arakanese	kraun	kraun	cat	cat		2.1.3		0		2618
-35065	663	Intha	con	con	cat	cat		2.1.3		0		2618
-35066	1503	Tavoyan	con	con	cat	cat		2.1.3		0		2618
-35067	1029	Maru [Langsu]	yaùng	yaùng	cat	cat		2.1.3		0		2618
-35068	387	Burmese (Standard Spoken)	hci	hci	carry	carry		6.2.2.2.1		0		
-35069	404	Burmese (Written)	khyī	khyī	carry	carry		6.2.2.2.1		0		
-35070	382	Burmese (Inscriptional)	khī	khī	carry	carry		6.2.2.2.1		0		
-35071	290	Arakanese	hci	hci	carry	carry		6.2.2.2.1		0		
-35072	1503	Tavoyan	hki	hki	carry	carry		6.2.2.2.1		0		
-35073	387	Burmese (Standard Spoken)	cei	cei	cancelled	cancelled		6.9		0		
-35074	404	Burmese (Written)	kye	kye	cancelled	cancelled		6.9		0		
-35075	1503	Tavoyan	cei	cei	cancelled	cancelled		6.9		0		
-35076	387	Burmese (Standard Spoken)	hcei	hcei	cancel	cancel		6.9		0		
-35077	404	Burmese (Written)	khye	khye	cancel	cancel		6.9		0		
-35078	382	Burmese (Inscriptional)	khliy	khliy	cancel	cancel		6.9		0		
-35079	290	Arakanese	hci	hci	cancel	cancel		6.9		0		
-35080	387	Burmese (Standard Spoken)	ceìn	ceìn	calculation	calculation		8.3.1.13.1		0		
-35081	404	Burmese (Written)	kyin:	kyin:	calculation	calculation		8.3.1.13.1		0		
-35082	1503	Tavoyan	kì:n	kì:n	calculation	calculation		8.3.1.13.1		0		
-35083	387	Burmese (Standard Spoken)	hcoun	hcoun	bush	bush		3.1.1		0		
-35084	404	Burmese (Written)	khrum̊	khrum̊	bush	bush		3.1.1		0		
-35085	382	Burmese (Inscriptional)	khrum	khrum	bush	bush		3.1.1		0		
-35086	663	Intha	hyoun	hyoun	bush	bush		3.1.1		0		
-35087	1503	Tavoyan	hcaon̈	hcaon̈	bush	bush		3.1.1		0		
-35088	387	Burmese (Standard Spoken)	cwè	cwè	buffalo	buffalo		2.1.2		0		
-35089	404	Burmese (Written)	k◦ywai	k◦ywai	buffalo	buffalo		2.1.2		0		p,2427
-35090	382	Burmese (Inscriptional)	k◦lwai	k◦lwai	buffalo	buffalo		2.1.2		0		p,2427
-35091	290	Arakanese	cweì	cweì	buffalo	buffalo		2.1.2		0		
-35092	663	Intha	kwè	kwè	buffalo	buffalo		2.1.2		0		
-35093	1503	Tavoyan	kwè	kwè	buffalo	buffalo		2.1.2		0		
-35094	1029	Maru [Langsu]	loī	loī	buffalo	buffalo		2.1.2		0		
-35095	387	Burmese (Standard Spoken)	coù	coù	broken	broken		7.1.5.1		0		
-35096	404	Burmese (Written)	kyui:	kyui:	broken	broken		7.1.5.1		0		
-35097	290	Arakanese	coù	coù	broken	broken		7.1.5.1		0		
-35098	663	Intha	kloù	kloù	broken	broken		7.1.5.1		0		
-35099	1503	Tavoyan	kloù	kloù	broken	broken		7.1.5.1		0		
-35100	1029	Maru [Langsu]	k'yúk?	k'yúk?	broken	broken		7.1.5.1		0		
-35101	387	Burmese (Standard Spoken)	hcoù	hcoù	break	break		9.5		0		
-35102	404	Burmese (Written)	khyui:	khyui:	break	break		9.5		0		
-35103	382	Burmese (Inscriptional)	khluiw	khluiw	break	break		9.5		0		
-35104	290	Arakanese	hcoù	hcoù	break	break		9.5		0		
-35105	663	Intha	hkloù	hkloù	break	break		9.5		0		
-35106	1503	Tavoyan	hkloù	hkloù	break	break		9.5		0		
-35107	1029	Maru [Langsu]	khyùk	khyùk	break	break		9.5		0		
-35108	387	Burmese (Standard Spoken)	cou'	cou'	box	box		5.1		0		
-35109	404	Burmese (Written)	krut	krut	box	box		5.1		0		
-35110	382	Burmese (Inscriptional)	krwac	krwac	box	box		5.1		0		
-35111	663	Intha	cou'	cou'	box	box		5.1		0		
-35112	1503	Tavoyan	cao'	cao'	box	box		5.1		0		
-35113	387	Burmese (Standard Spoken)	cou	cou	boil	boil		6.6		0		
-35114	404	Burmese (Written)	krui	krui	boil	boil		6.6		0		
-35115	663	Intha	cou	cou	boil	boil		6.6		0		
-35116	1503	Tavoyan	cou	cou	boil	boil		6.6		0		
-35117	1029	Maru [Langsu]	k'yùk?	k'yùk?	boil	boil		6.6		0		
-35118	387	Burmese (Standard Spoken)	cì	cì	big	big		9.7.2		0		
-35119	404	Burmese (Written)	krī:	krī:	big	big		9.7.2		0		88
-35120	382	Burmese (Inscriptional)	krī	krī	big	big		9.7.2		0		88
-35121	290	Arakanese	krì	krì	big	big		9.7.2		0		
-35122	663	Intha	cì	cì	big	big		9.7.2		0		
-35123	1503	Tavoyan	kì	kì	big	big		9.7.2		0		
-35124	1029	Maru [Langsu]	yī	yī	big	big		9.7.2		0		
-35125	387	Burmese (Standard Spoken)	-ca	-ca	between	between		9.2.3		0		691
-35126	404	Burmese (Written)	-krā:	-krā:	between	between		9.2.3		0		691
-35127	382	Burmese (Inscriptional)	-krā	-krā	between	between		9.2.3		0		691
-35128	290	Arakanese	krà	krà	between	between		9.2.3		0		691
-35129	663	Intha	klà	klà	between	between		9.2.3		0		691
-35130	1503	Tavoyan	klà	klà	between	between		9.2.3		0		691
-35131	1029	Maru [Langsu]	kyō	kyō	between	between		9.2.3		0		691
-35132	1029	Maru [Langsu]	cō?	cō?	between	between		9.2.3		0		
-35133	387	Burmese (Standard Spoken)	hcu	hcu	bell	bell		5.1		0		
-35134	404	Burmese (Written)	khyū	khyū	bell	bell		5.1		0		
-35135	1029	Maru [Langsu]	c'ù?	c'ù?	bell	bell		5.1		0		
-35136	387	Burmese (Standard Spoken)	hcìn	hcìn	basket	basket		5.1		0		
-35137	404	Burmese (Written)	khran̊:	khran̊:	basket	basket		5.1		0		
-35138	663	Intha	hyèn	hyèn	basket	basket		5.1		0		
-35139	1503	Tavoyan	hcìn	hcìn	basket	basket		5.1		0		
-35140	1029	Maru [Langsu]	kyàn	kyàn	basket	basket		5.1		0		
-35141	387	Burmese (Standard Spoken)	cò	cò	back	back		1.4.8		0		211
-35142	404	Burmese (Written)	kro	kro	back	back		1.4.8		0		215
-35143	290	Arakanese	krò	krò	back	back		1.4.8		0		211
-35144	663	Intha	cò	cò	back	back		1.4.8		0		211
-35145	1503	Tavoyan	cò	cò	back	back		1.4.8		0		215
-35146	387	Burmese (Standard Spoken)	hceìn	hceìn	appoint	appoint		6.2.2.1		0		
-35147	404	Burmese (Written)	khyin:	khyin:	appoint	appoint		6.2.2.1		0		
-35148	663	Intha	hyeìn	hyeìn	appoint	appoint		6.2.2.1		0		
-35149	1503	Tavoyan	hcì:n	hcì:n	appoint	appoint		6.2.2.1		0		
-35150	387	Burmese (Standard Spoken)	cou	cou	anticipate	anticipate		8.3.1.7.3		0		
-35151	404	Burmese (Written)	krui	krui	anticipate	anticipate		8.3.1.7.3		0		
-35152	663	Intha	cou	cou	anticipate	anticipate		8.3.1.7.3		0		
-35153	1503	Tavoyan	cou	cou	anticipate	anticipate		8.3.1.7.3		0		
-35154	113	*Burmese	khl	khl	widen	widen		9.2.7		0		
-35155	113	*Burmese	kl	kl	wide	wide		9.7.2		0		
-35157	113	*Burmese	khl	khl	wash	wash		6.2.2.5.2		0		
-35158	113	*Burmese	?	?	want	want		8.3.1.14.3		0		e
-35160	113	*Burmese	kl	kl	tiger	tiger		2.1.3		0		
-35161	113	*Burmese	?	?	tie	tie		6.13.1		0		e
-35162	113	*Burmese	khr	khr	thunder	thunder		3.2.1		0		
-35163	113	*Burmese	khroŋ	khroŋ	throat	throat		1.3.5		0		489
-35165	113	*Burmese	khr	khr	thread	thread		5.11.6		0		
-35166	113	*Burmese	khr	khr	termite	termite		2.2.6		0		
-35167	113	*Burmese	ki	ki	ten	ten		9.9		0		
-35168	113	*Burmese	ky	ky	teak	teak		3.1.1		0		
-35169	113	*Burmese	kl	kl	tamarind	tamarind		3.1.5		0		
-35170	113	*Burmese	kr	kr	take time	take time		6.21		0		
-35171	113	*Burmese	kl	kl	taken off	taken off		6.21		0		
-35172	113	*Burmese	khl	khl	take off	take off		6.21		0		
-35173	113	*Burmese	khy	khy	sweet	sweet		7.1.4.4		0		2380
-35174	113	*Burmese	khrwê	khrwê	sweat	sweat		1.8.1		0		615
-35175	113	*Burmese	?kr	?kr	sugar cane	sugar cane		3.1.6.2		0		
-35176	113	*Burmese	?kr	?kr	strive	strive		6.2.2.1		0		
-35177	113	*Burmese	khl	khl	stream	stream		3.2.3		0		
-35178	113	*Burmese	kl	kl	stone	stone		3.2.9		0		
-35179	113	*Burmese	kr	kr	star	star		3.2.2		0		
-35180	113	*Burmese	khr	khr	split	split		6.9.3		0		
-35181	113	*Burmese	kr	kr	sow	sow		2.1.12		0		
-35182	113	*Burmese	khy	khy	sour	sour		7.1.4.4		0		e
-35183	113	*Burmese	?	?	some	some		9.9		0		e
-35184	113	*Burmese	?	?	smooth	smooth		7.1.4.2		0		e
-35185	113	*Burmese	?	?	smart	smart		8.3		0		e
-35186	113	*Burmese	khl	khl	slip	slip		6.7.3		0		
-35187	113	*Burmese	ki	ki	sleep	sleep		1.1.4.1		0		
-35189	113	*Burmese	ky	ky	slave	slave		4.2.10		0	E	e
-35190	113	*Burmese	khr	khr	six	six		9.9		0		
-35191	113	*Burmese	kl	kl	sink thru'	sink thru'		6.6		0		
-35192	113	*Burmese	?khr	?khr	sew	sew		5.1		0		
-35193	113	*Burmese	khr	khr	separate	separate		6.10.4		0		
-35194	113	*Burmese	khr	khr	scrape	scrape		6.3		0		e
-35196	113	*Burmese	?	?	rupee	rupee		5.9		0		e
-35197	113	*Burmese	kr	kr	rough	rough		7.1.4.2		0		
-35198	113	*Burmese	kr	kr	rope	rope		5.11.4		0		
-35199	113	*Burmese	kr	kr	rich	rich		5.9		0		
-35200	113	*Burmese	?kr	?kr	rhinoceros	rhinoceros		2.2.1		0		
-35201	113	*Burmese	khl	khl	restrict	restrict		6.2.2.1		0		
-35202	113	*Burmese	kl	kl	reed	reed		3.1.8		0		
-35203	113	*Burmese	kr	kr	rattan	rattan		3.1.6.4		0		
-35204	113	*Burmese	kr	kr	rat	rat		2.1.1		0		2630
-35205	113	*Burmese	khr	khr	rafter	rafter		5.11.9		0		
-35206	113	*Burmese	khi	khi	praise	praise		8.5.2.2		0		
-35207	113	*Burmese	khy	khy	pointed	pointed		6.2.2.2		0		
-35208	113	*Burmese	?	?	plait	plait		1.2.3.2		0		x,e
-35209	113	*Burmese	khr	khr	pimple	pimple		1.6.5.3		0		
-35210	113	*Burmese	ki	ki	parrot	parrot		2.2.4.1		0		
-35211	113	*Burmese	kl	kl	outcome	outcome		8.1		0		
-35212	113	*Burmese	?	?	onion	onion		3.1.5		0		e
-35213	113	*Burmese	kl	kl	numb	numb		1.5.11		0		
-35214	113	*Burmese	khyak	khyak	navel	navel		1.9.4		0		525
-35215	113	*Burmese	?	?	narrow	narrow		9.7.2		0		e
-35216	113	*Burmese	?khy	?khy	mutual	mutual		10.0		0		
-35217	113	*Burmese	khr	khr	mosquito	mosquito		2.2.6		0		
-35218	113	*Burmese	kl	kl	monastery	monastery		5.11.9.1		0		
-35219	113	*Burmese	?kr	?kr	meet	meet		6.2		0		e
-35220	113	*Burmese	khi	khi	measure	measure		9.8		0		
-35221	113	*Burmese	?khr	?khr	marrow	marrow		1.6.3.5		0		459
-35222	113	*Burmese	khy-	khy-	love	love		8.3.1.1.1		0		
-35223	113	*Burmese	?	?	lop	lop		6.9.3		0		e
-35224	113	*Burmese	?	?	loose	loose		6.13.1		0		e
-35225	113	*Burmese	kr	kr	look	look		1.2.6.11		0	E	e
-35226	113	*Burmese	khr	khr	lion	lion		2.1.3		0		
-35227	113	*Burmese	kr	kr	like	like		8.3.1.1.1		0		
-35228	113	*Burmese	khi	khi	lend	lend		6.22		0		2314
-35229	113	*Burmese	kr	kr	left over	left over		1.5.3.2		0		
-35230	113	*Burmese	ky	ky	left out	left out		1.5.3.2		0		
-35231	113	*Burmese	kr	kr	leech	leech		2.2.6		0		
-35232	113	*Burmese	khy	khy	leave out	leave out		6.10.2		0		
-35233	113	*Burmese	khr	khr	lac	lac		2.2.6		0		
-35234	113	*Burmese	kl	kl	kick	kick		6.2.2.3.3		0		
-35235	113	*Burmese	kl	kl	island	island		3.2.5		0		
-35236	113	*Burmese	khr	khr	horn	horn		1.2.2		0		
-35237	113	*Burmese	khi	khi	hook	hook		5.4		0		
-35238	113	*Burmese	kl	kl	herd	herd		2.1.2		0		
-35239	113	*Burmese	krâ	krâ	hear	hear		1.2.7.4		0		1411
-35240	113	*Burmese	?	?	grind	grind		9.5		0		e
-35241	113	*Burmese	kr	kr	gt gd child??	gt gd child??		1.5.3.2		0		
-35242	113	*Burmese	khl	khl	graveyard	graveyard		9.10.6		0		
-35243	113	*Burmese	ki	ki	granary	granary		5.11.9.5		0		
-35244	113	*Burmese	khy	khy	ginger	ginger		3.1.5		0		
-35245	113	*Burmese	khy	khy	get dark	get dark		1.1.5		0		
-35246	113	*Burmese	kl	kl	gather	gather		6.13.5		0		
-35247	113	*Burmese	khr	khr	garden	garden		9.10.4		0		
-35248	113	*Burmese	khre	khre	gall	gall		1.7.3.1		0		227
-35249	113	*Burmese	?	?	fry	fry		5.5		0		e
-35250	113	*Burmese	kr	kr	frightened	frightened		8.3.1.10.1		0		
-35251	113	*Burmese	khr	khr	frighten	frighten		8.3.1.10.1		0		
-35252	113	*Burmese	?	?	fragrant	fragrant		3.1.10		0		e
-35253	113	*Burmese	kr	kr	fowl	fowl		2.1.10		0		1606
-35254	113	*Burmese	khr	khr	foot	foot		1.5.2		0		
-35255	113	*Burmese	khy	khy	follow	follow		6.7.10		0		
-35256	113	*Burmese	khl	khl	flat	flat		7.1.5.1		0		
-35257	113	*Burmese	?khy	?khy	finger	finger		1.5.6		0		e
-35261	113	*Burmese	khr	khr	fact	fact		8.1		0		
-35262	113	*Burmese	kr	kr	fact / line	fact / line		8.1		0		
-35263	113	*Burmese	?	?	exceed	exceed		9.9		0		e
-35265	113	*Burmese	khl	khl	dung	dung		1.8.5		0		
-35266	113	*Burmese	khr	khr	dry	dry		6.6		0		
-35267	113	*Burmese	kl	kl	dropped	dropped		6.16		0		
-35268	113	*Burmese	khl	khl	drop	drop		6.16		0		
-35269	113	*Burmese	?khr	?khr	dove	dove		2.2.4.1		0		
-35270	113	*Burmese	khl	khl	dent	dent		1.5.3.2		0		
-35271	113	*Burmese	khi	khi	deer (barking)	deer (barking)		2.2.2		0		
-35272	113	*Burmese	kr	kr	debt	debt		5.9		0		
-35273	113	*Burmese	ki	ki	curse	curse		8.5.1		0		
-35274	113	*Burmese	kr	kr	crumbled	crumbled		5.5		0		
-35275	113	*Burmese	?khr	?khr	crumble	crumble		5.5		0		
-35276	113	*Burmese	kl	kl	crow	crow		2.2.4.1		0		
-35277	113	*Burmese	ky	ky	crocodile	crocodile		2.1.6		0		
-35278	113	*Burmese	kr	kr	cowry	cowry		2.2.5		0		
-35279	113	*Burmese	?khr	?khr	cover	cover		5.8		0		
-35280	113	*Burmese	kr	kr	copper	copper		3.2.4		0		
-35281	113	*Burmese	ky	ky	cooked	cooked		5.5		0		
-35282	113	*Burmese	khy	khy	cook	cook		5.5		0		
-35283	113	*Burmese	khy	khy	cold	cold		7.1.2.3		0		
-35284	113	*Burmese	?	?	coax	coax		8.5.7.2		0		e
-35285	113	*Burmese	kr	kr	clear	clear		9.6.1.1		0		
-35286	113	*Burmese	kr	kr	cat	cat		2.1.3		0		
-35287	113	*Burmese	khi	khi	carry	carry		6.2.2.2.1		0		
-35288	113	*Burmese	kl	kl	cancelled	cancelled		6.9		0		
-35289	113	*Burmese	khl	khl	cancel	cancel		6.9		0		
-35290	113	*Burmese	?ki	?ki	calculation	calculation		8.3.1.13.1		0		
-35291	113	*Burmese	khr	khr	bush	bush		3.1.1		0		
-35292	113	*Burmese	kl	kl	buffalo	buffalo		2.1.2		0		
-35293	113	*Burmese	kl	kl	broken	broken		7.1.5.1		0		
-35294	113	*Burmese	khl	khl	break	break		9.5		0		
-35295	113	*Burmese	kr	kr	box	box		5.1		0		
-35297	113	*Burmese	?kr	?kr	boil	boil		6.6		0		
-35298	113	*Burmese	kr	kr	big	big		9.7.2		0		
-35299	113	*Burmese	kr	kr	between	between		9.2.3		0		
-35300	113	*Burmese	khy	khy	bell	bell		5.1		0		
-35301	113	*Burmese	?khr	?khr	basket	basket		5.1		0		
-35302	113	*Burmese	kr	kr	back	back		1.4.8		0		x
-35303	113	*Burmese	?khi	?khi	appoint	appoint		6.2.2.1		0		
-35304	113	*Burmese	?kr	?kr	anticipate	anticipate		8.3.1.7.3		0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+34346	387	Burmese (Standard Spoken)	hcé	hcé	widen	widen			9.2.7		0			
+34347	404	Burmese (Written)	khyai	khyai	widen	widen			9.2.7		0			
+34348	290	Arakanese	hceí	hceí	widen	widen			9.2.7		0			
+34349	663	Intha	hklé	hklé	widen	widen			9.2.7		0			
+34350	1503	Tavoyan	hklé	hklé	widen	widen			9.2.7		0			
+34351	387	Burmese (Standard Spoken)	ce	ce	wide	wide			9.7.2		0			3574
+34352	404	Burmese (Written)	kyay	kyay	wide	wide			9.7.2		0			
+34353	382	Burmese (Inscriptional)	klay	klay	wide	wide			9.7.2		0			3574
+34354	290	Arakanese	cei	cei	wide	wide			9.7.2		0			3574
+34355	290	Arakanese	"ce[?sc.""]"	"ce[?sc.""]"	wide	wide			9.7.2		0			e,e
+34356	663	Intha	kle	kle	wide	wide			9.7.2		0			
+34357	1503	Tavoyan	kle	kle	wide	wide			9.7.2		0			
+34358	387	Burmese (Standard Spoken)	hcoù	hcoù	wash	wash			6.2.2.5.2		0			
+34359	404	Burmese (Written)	khyui:	khyui:	wash	wash			6.2.2.5.2		0			2344
+34360	382	Burmese (Inscriptional)	khluiw	khluiw	wash	wash			6.2.2.5.2		0			2344
+34361	663	Intha	hyoù	hyoù	wash	wash			6.2.2.5.2		0			
+34362	1503	Tavoyan	hkloù	hkloù	wash	wash			6.2.2.5.2		0			
+34363	1503	Tavoyan	hcoù	hcoù	wash	wash			6.2.2.5.2		0			
+34364	387	Burmese (Standard Spoken)	hcin	hcin	want	want			8.3.1.14.3		0			
+34365	404	Burmese (Written)	khyan̊	khyan̊	want	want			8.3.1.14.3		0			
+34366	382	Burmese (Inscriptional)	khlyan̊	khlyan̊	want	want			8.3.1.14.3		0			
+34367	290	Arakanese	hcon	hcon	want	want			8.3.1.14.3		0		D1	
+34368	290	Arakanese	hyon	hyon	want	want			8.3.1.14.3		0			
+34370	663	Intha	hyen	hyen	want	want			8.3.1.14.3		0			
+34371	663	Intha	hcen	hcen	want	want			8.3.1.14.3		0			
+34372	1503	Tavoyan	hyin	hyin	want	want			8.3.1.14.3		0			
+34373	387	Burmese (Standard Spoken)	ca	ca	tiger	tiger			2.1.3		0			
+34374	404	Burmese (Written)	kyā:	kyā:	tiger	tiger			2.1.3		0			5560
+34375	382	Burmese (Inscriptional)	klā	klā	tiger	tiger			2.1.3		0			5560
+34376	290	Arakanese	cà	cà	tiger	tiger			2.1.3		0			5560
+34377	663	Intha	cà	cà	tiger	tiger			2.1.3		0			5560?,b?Burmese
+34378	1503	Tavoyan	klà	klà	tiger	tiger			2.1.3		0			5560
+34379	1029	Maru [Langsu]	lō	lō	tiger	tiger			2.1.3		0			5560
+34380	387	Burmese (Standard Spoken)	hci	hci	tie	tie			6.13.1		0			
+34381	404	Burmese (Written)	khyaññ	khyaññ	tie	tie			6.13.1		0			
+34382	290	Arakanese	hcain	hcain	tie	tie			6.13.1		0			
+34383	1503	Tavoyan	hke	hke	tie	tie			6.13.1		0			
+34384	404	Burmese (Written)	hcoùn	hcoùn	thunder	thunder			3.2.1		0			
+34385	382	Burmese (Inscriptional)	khyun:	khyun:	thunder	thunder			3.2.1		0			
+34386	290	Arakanese	khrun	khrun	thunder	thunder			3.2.1		0			
+34387	1503	Tavoyan	hkloùn	hkloùn	thunder	thunder			3.2.1		0			
+34388	1029	Maru [Langsu]	hcaòn̈	hcaòn̈	thunder	thunder			3.2.1		0			
+34389	387	Burmese (Standard Spoken)	hcaùn	hcaùn	throat	throat			1.3.5		0			489
+34390	404	Burmese (Written)	khron̊:	khron̊:	throat	throat			1.3.5		0			489
+34391	382	Burmese (Inscriptional)	khlon̊	khlon̊	throat	throat			1.3.5		0			489
+34392	290	Arakanese	hkraùn	hkraùn	throat	throat			1.3.5		0			489
+34393	1503	Tavoyan	hkòn	hkòn	throat	throat			1.3.5		0			489
+34394	1503	Tavoyan	hcòn	hcòn	throat	throat			1.3.5		0			489
+34395	1029	Maru [Langsu]	khyaūng	khyaūng	throat	throat			1.3.5		0			489
+34396	387	Burmese (Standard Spoken)	hci	hci	thread	thread			5.11.6		0			
+34397	404	Burmese (Written)	khraññ	khraññ	thread	thread			5.11.6		0			
+34398	382	Burmese (Inscriptional)	khraññ	khraññ	thread	thread			5.11.6		0			
+34399	290	Arakanese	hkrei	hkrei	thread	thread			5.11.6		0			
+34400	663	Intha	hci	hci	thread	thread			5.11.6		0			
+34401	1503	Tavoyan	hke	hke	thread	thread			5.11.6		0			
+34402	1029	Maru [Langsu]	khyàng	khyàng	thread	thread			5.11.6		0			
+34403	387	Burmese (Standard Spoken)	hcá	hcá	termite	termite			2.2.6		0			
+34404	404	Burmese (Written)	khra	khra	termite	termite			2.2.6		0			
+34405	290	Arakanese	hkrá	hkrá	termite	termite			2.2.6		0			
+34406	663	Intha	hcá	hcá	termite	termite			2.2.6		0			
+34407	1503	Tavoyan	hcá	hcá	termite	termite			2.2.6		0			
+34408	387	Burmese (Standard Spoken)	cei'	cei'	ten	ten			9.9		0			2748
+34409	404	Burmese (Written)	kyip	kyip	ten	ten			9.9		0			2238
+34410	382	Burmese (Inscriptional)	kip	kip	ten	ten			9.9		0			2238
+34411	387	Burmese (Standard Spoken)	cùn	cùn	teak	teak			3.1.1		0			
+34412	404	Burmese (Written)	kywan:	kywan:	teak	teak			3.1.1		0			
+34413	382	Burmese (Inscriptional)	kywan	kywan	teak	teak			3.1.1		0			
+34414	290	Arakanese	cwèn	cwèn	teak	teak			3.1.1		0			
+34415	663	Intha	cùn	cùn	teak	teak			3.1.1		0			
+34416	1503	Tavoyan	cùn	cùn	teak	teak			3.1.1		0			
+34417	387	Burmese (Standard Spoken)	-jì	-jì	tamarind	tamarind			3.1.5		0			
+34418	404	Burmese (Written)	-kyaññ:	-kyaññ:	tamarind	tamarind			3.1.5		0			
+34419	382	Burmese (Inscriptional)	-klaññ	-klaññ	tamarind	tamarind			3.1.5		0			
+34420	290	Arakanese	-jòn	-jòn	tamarind	tamarind			3.1.5		0			
+34421	663	Intha	-keì	-keì	tamarind	tamarind			3.1.5		0			
+34422	1029	Maru [Langsu]	-k'yìn	-k'yìn	tamarind	tamarind			3.1.5		0			
+34423	387	Burmese (Standard Spoken)	ca	ca	take time	take time			6.21		0			
+34424	404	Burmese (Written)	krā	krā	take time	take time			6.21		0			
+34425	382	Burmese (Inscriptional)	krā	krā	take time	take time			6.21		0			
+34426	290	Arakanese	kra	kra	take time	take time			6.21		0			
+34427	663	Intha	ca	ca	take time	take time			6.21		0			
+34428	1503	Tavoyan	ca	ca	take time	take time			6.21		0			
+34429	387	Burmese (Standard Spoken)	cu'	cu'	taken off	taken off			6.21		0			
+34430	404	Burmese (Written)	kywat	kywat	taken off	taken off			6.21		0			
+34431	382	Burmese (Inscriptional)	klwat	klwat	taken off	taken off			6.21		0			
+34432	290	Arakanese	klwat	klwat	taken off	taken off			6.21		0			
+34433	663	Intha	cwe'	cwe'	taken off	taken off			6.21		0			
+34434	1503	Tavoyan	kwu'	kwu'	taken off	taken off			6.21		0			
+34435	1029	Maru [Langsu]	klu'	klu'	taken off	taken off			6.21		0			
+34436	387	Burmese (Standard Spoken)	hcu'	hcu'	take off	take off			6.21		0			
+34437	404	Burmese (Written)	khywat	khywat	take off	take off			6.21		0			2425
+34438	382	Burmese (Inscriptional)	khlwat	khlwat	take off	take off			6.21		0			
+34439	290	Arakanese	hcwe'	hcwe'	take off	take off			6.21		0			
+34440	663	Intha	hkwu'	hkwu'	take off	take off			6.21		0			
+34441	1503	Tavoyan	hklu'	hklu'	take off	take off			6.21		0			
+34442	1029	Maru [Langsu]	khyát	khyát	take off	take off			6.21		0			
+34443	387	Burmese (Standard Spoken)	hcou	hcou	sweet	sweet			7.1.4.4		0			2380
+34444	404	Burmese (Written)	khyui	khyui	sweet	sweet			7.1.4.4		0			2380
+34445	382	Burmese (Inscriptional)	khyuiw	khyuiw	sweet	sweet			7.1.4.4		0			2380
+34446	290	Arakanese	hcou	hcou	sweet	sweet			7.1.4.4		0			2380
+34447	663	Intha	hyou	hyou	sweet	sweet			7.1.4.4		0			2380
+34448	663	Intha	hcou	hcou	sweet	sweet			7.1.4.4		0			2380
+34449	1503	Tavoyan	hyou	hyou	sweet	sweet			7.1.4.4		0			2380
+34450	1029	Maru [Langsu]	chùk	chùk	sweet	sweet			7.1.4.4		0			2380
+34451	387	Burmese (Standard Spoken)	hcweì	hcweì	sweat	sweat			1.8.1		0			615
+34452	404	Burmese (Written)	(khywe:)M	(khywe:)M	sweat	sweat			1.8.1		0			615
+34453	382	Burmese (Inscriptional)	khruy	khruy	sweat	sweat			1.8.1		0			615
+34454	290	Arakanese	hkwì	hkwì	sweat	sweat			1.8.1		0			615
+34455	290	Arakanese	hcwei	hcwei	sweat	sweat			1.8.1		0			615
+34456	663	Intha	hcweì	hcweì	sweat	sweat			1.8.1		0			615
+34457	1503	Tavoyan	hkwì	hkwì	sweat	sweat			1.8.1		0			615
+34458	1503	Tavoyan	tjwe	tjwe	sweat	sweat			1.8.1		0			615
+34459	1029	Maru [Langsu]	k'yō	k'yō	sweat	sweat			1.8.1		0			615
+34460	387	Burmese (Standard Spoken)	can	can	sugar cane	sugar cane			3.1.6.2		0			
+34461	404	Burmese (Written)	kram̊	kram̊	sugar cane	sugar cane			3.1.6.2		0			
+34462	663	Intha	can	can	sugar cane	sugar cane			3.1.6.2		0			
+34463	1503	Tavoyan	can	can	sugar cane	sugar cane			3.1.6.2		0			
+34464	1029	Maru [Langsu]	laūng	laūng	sugar cane	sugar cane			3.1.6.2		0			
+34465	387	Burmese (Standard Spoken)	coù	coù	strive	strive			6.2.2.1		0			
+34466	404	Burmese (Written)	krui:	krui:	strive	strive			6.2.2.1		0			
+34467	663	Intha	coù	coù	strive	strive			6.2.2.1		0			
+34468	1503	Tavoyan	coù	coù	strive	strive			6.2.2.1		0			
+34469	1029	Maru [Langsu]	yúk	yúk	strive	strive			6.2.2.1		0			
+34470	387	Burmese (Standard Spoken)	hcaùn	hcaùn	stream	stream			3.2.3		0			
+34471	404	Burmese (Written)	khyon̊:	khyon̊:	stream	stream			3.2.3		0			2322
+34472	382	Burmese (Inscriptional)	khlon̊	khlon̊	stream	stream			3.2.3		0			2322
+34473	290	Arakanese	hcaùn	hcaùn	stream	stream			3.2.3		0			
+34474	663	Intha	hcòn	hcòn	stream	stream			3.2.3		0			
+34475	1503	Tavoyan	hklòn	hklòn	stream	stream			3.2.3		0			2322
+34476	1029	Maru [Langsu]	kyaūng	kyaūng	stream	stream			3.2.3		0			2322
+34477	1029	Maru [Langsu]	lōn̈	lōn̈	stream	stream			3.2.3		0			
+34478	387	Burmese (Standard Spoken)	cau'	cau'	stone	stone			3.2.9		0			1269
+34479	404	Burmese (Written)	kyok	kyok	stone	stone			3.2.9		0			1269
+34480	382	Burmese (Inscriptional)	klok	klok	stone	stone			3.2.9		0			1269
+34481	290	Arakanese	cau'	cau'	stone	stone			3.2.9		0			
+34482	663	Intha	co'	co'	stone	stone			3.2.9		0			
+34483	1503	Tavoyan	klo'	klo'	stone	stone			3.2.9		0			1269
+34484	1029	Maru [Langsu]	laù'	laù'	stone	stone			3.2.9		0			1269
+34485	387	Burmese (Standard Spoken)	ce	ce	star	star			3.2.2		0			3574
+34486	404	Burmese (Written)	kray	kray	star	star			3.2.2		0			3574
+34487	382	Burmese (Inscriptional)	kray	kray	star	star			3.2.2		0			3574
+34488	290	Arakanese	krei	krei	star	star			3.2.2		0			3574
+34489	663	Intha	ce	ce	star	star			3.2.2		0			3574
+34490	1503	Tavoyan	ce	ce	star	star			3.2.2		0			3574
+34491	1029	Maru [Langsu]	k	k	star	star			3.2.2		0			e?
+34492	1029	Maru [Langsu]	yì	yì	star	star			3.2.2		0			
+34493	387	Burmese (Standard Spoken)	hcàn	hcàn	split	split			6.9.3		0			
+34494	404	Burmese (Written)	khram:	khram:	split	split			6.9.3		0			
+34495	382	Burmese (Inscriptional)	?khram	?khram	split	split			6.9.3		0			
+34496	290	Arakanese	hkrèn	hkrèn	split	split			6.9.3		0			
+34497	663	Intha	hcàn	hcàn	split	split			6.9.3		0			
+34498	1503	Tavoyan	Jhcàn	Jhcàn	split	split			6.9.3		0			
+34499	1029	Maru [Langsu]	khyē?	khyē?	split	split			6.9.3		0			
+34500	387	Burmese (Standard Spoken)	cè	cè	sow	sow			2.1.12		0			
+34501	404	Burmese (Written)	krai	krai	sow	sow			2.1.12		0			
+34502	382	Burmese (Inscriptional)	kray	kray	sow	sow			2.1.12		0			
+34503	663	Intha	hcè	hcè	sow	sow			2.1.12		0			
+34504	1503	Tavoyan	cè	cè	sow	sow			2.1.12		0			
+34505	387	Burmese (Standard Spoken)	hcin	hcin	sour	sour			7.1.4.4		0			7205
+34506	404	Burmese (Written)	khyañ	khyañ	sour	sour			7.1.4.4		0			7205
+34507	382	Burmese (Inscriptional)	khyan	khyan	sour	sour			7.1.4.4		0			7205
+34508	382	Burmese (Inscriptional)	khlañ	khlañ	sour	sour			7.1.4.4		0			7205
+34509	290	Arakanese	hyain	hyain	sour	sour			7.1.4.4		0			7205
+34510	663	Intha	hcin	hcin	sour	sour			7.1.4.4		0			7205
+34511	1503	Tavoyan	hyin	hyin	sour	sour			7.1.4.4		0			7205
+34512	1029	Maru [Langsu]	c'ìn	c'ìn	sour	sour			7.1.4.4		0			7205
+34513	387	Burmese (Standard Spoken)	tahcoú	tahcoú	some	some			9.9		0			
+34514	404	Burmese (Written)	ta-khyui	ta-khyui	some	some			9.9		0			
+34515	663	Intha	-hyoú	-hyoú	some	some			9.9		0			
+34516	1503	Tavoyan	-hcoú	-hcoú	some	some			9.9		0			
+34517	387	Burmese (Standard Spoken)	hcò	hcò	smooth	smooth			7.1.4.2		0			
+34518	404	Burmese (Written)	khyo	khyo	smooth	smooth			7.1.4.2		0			
+34519	663	Intha	hyò	hyò	smooth	smooth			7.1.4.2		0			
+34520	1503	Tavoyan	hcò	hcò	smooth	smooth			7.1.4.2		0			
+34521	387	Burmese (Standard Spoken)	ceìn	ceìn	smart	smart			8.3		0			
+34522	404	Burmese (Written)	krim:	krim:	smart	smart			8.3		0			
+34523	663	Intha	ceìn	ceìn	smart	smart			8.3		0			
+34524	1503	Tavoyan	kì:n	kì:n	smart	smart			8.3		0			
+34525	1503	Tavoyan	klì:n	klì:n	smart	smart			8.3		0			
+34526	387	Burmese (Standard Spoken)	hco	hco	slip	slip			6.7.3		0			
+34527	404	Burmese (Written)	khyō	khyō	slip	slip			6.7.3		0			
+34528	663	Intha	hklo	hklo	slip	slip			6.7.3		0			
+34529	663	Intha	hyo	hyo	slip	slip			6.7.3		0			
+34530	1503	Tavoyan	hyo	hyo	slip	slip			6.7.3		0			
+34531	387	Burmese (Standard Spoken)	ceìn	ceìn	sleep	sleep			1.1.4.1		0			140
+34532	404	Burmese (Written)	kyin:	kyin:	sleep	sleep			1.1.4.1		0			140
+34533	382	Burmese (Inscriptional)	kin	kin	sleep	sleep			1.1.4.1		0			140
+34534	387	Burmese (Standard Spoken)	cun	cun	slave	slave			4.2.10		0			5524
+34535	404	Burmese (Written)	kywan	kywan	slave	slave			4.2.10		0			5524
+34536	382	Burmese (Inscriptional)	kywan	kywan	slave	slave			4.2.10		0			5524
+34537	290	Arakanese	cwen	cwen	slave	slave			4.2.10		0			5524
+34538	663	Intha	cun	cun	slave	slave			4.2.10		0			5524
+34539	1503	Tavoyan	cun	cun	slave	slave			4.2.10		0			5524
+34540	1029	Maru [Langsu]	cùm?	cùm?	slave	slave			4.2.10		0			5524
+34541	387	Burmese (Standard Spoken)	hcau'	hcau'	six	six			9.9		0			2621
+34542	404	Burmese (Written)	khrok	khrok	six	six			9.9		0			2621
+34543	382	Burmese (Inscriptional)	khrok	khrok	six	six			9.9		0			2621
+34544	290	Arakanese	hkrau'	hkrau'	six	six			9.9		0			2621
+34545	663	Intha	hyo'	hyo'	six	six			9.9		0			
+34546	663	Intha	hco'	hco'	six	six			9.9		0			
+34547	1503	Tavoyan	hco'	hco'	six	six			9.9		0			
+34548	1029	Maru [Langsu]	khyaú	khyaú	six	six			9.9		0			2621
+34549	1029	Maru [Langsu]	laú'	laú'	six	six			9.9		0			
+34550	387	Burmese (Standard Spoken)	cun	cun	sink thru'	sink thru'			6.6		0			
+34551	404	Burmese (Written)	kywam̊	kywam̊	sink thru'	sink thru'			6.6		0			
+34552	1503	Tavoyan	klun	klun	sink thru'	sink thru'			6.6		0			
+34553	387	Burmese (Standard Spoken)	hcou'	hcou'	sew	sew			5.1		0			
+34554	404	Burmese (Written)	khrup	khrup	sew	sew			5.1		0			2627
+34555	382	Burmese (Inscriptional)	khlup	khlup	sew	sew			5.1		0			2627
+34556	382	Burmese (Inscriptional)	khyop	khyop	sew	sew			5.1		0			2627
+34557	290	Arakanese	hkrou'	hkrou'	sew	sew			5.1		0			2627
+34558	663	Intha	hyou'	hyou'	sew	sew			5.1		0			
+34559	663	Intha	hcou'	hcou'	sew	sew			5.1		0			
+34560	1503	Tavoyan	hcao'	hcao'	sew	sew			5.1		0			
+34561	1029	Maru [Langsu]	khyáp	khyáp	sew	sew			5.1		0			2627
+34562	387	Burmese (Standard Spoken)	hcà	hcà	separate	separate			6.10.4		0			
+34563	404	Burmese (Written)	khrā:	khrā:	separate	separate			6.10.4		0			
+34564	382	Burmese (Inscriptional)	khrā	khrā	separate	separate			6.10.4		0			
+34565	290	Arakanese	krà	krà	separate	separate			6.10.4		0			
+34566	387	Burmese (Standard Spoken)	hci'	hci'	scrape	scrape			6.3		0			
+34567	404	Burmese (Written)	khrac	khrac	scrape	scrape			6.3		0			6131
+34568	290	Arakanese	hkrai'	hkrai'	scrape	scrape			6.3		0			
+34569	663	Intha	hyi'	hyi'	scrape	scrape			6.3		0			
+34570	1503	Tavoyan	hci'	hci'	scrape	scrape			6.3		0			
+34571	1029	Maru [Langsu]	khyát	khyát	scrape	scrape			6.3		0			6131
+34572	387	Burmese (Standard Spoken)	-ceì	-ceì	scale	scale			1.6.5.2		0			596
+34573	404	Burmese (Written)	-kre:	-kre:	scale	scale			1.6.5.2		0			596
+34574	290	Arakanese	-krì	-krì	scale	scale			1.6.5.2		0			596
+34575	663	Intha	-cì	-cì	scale	scale			1.6.5.2		0			596
+34576	1503	Tavoyan	-ceì	-ceì	scale	scale			1.6.5.2		0			596
+34577	387	Burmese (Standard Spoken)	ca'	ca'	rupee	rupee			5.9		0			
+34578	404	Burmese (Written)	kyap	kyap	rupee	rupee			5.9		0			
+34579	382	Burmese (Inscriptional)	klyap	klyap	rupee	rupee			5.9		0			
+34580	1029	Maru [Langsu]	k'yé'	k'yé'	rupee	rupee			5.9		0			
+34581	387	Burmese (Standard Spoken)	càn	càn	rough	rough			7.1.4.2		0			
+34582	404	Burmese (Written)	kram:	kram:	rough	rough			7.1.4.2		0			1867
+34583	290	Arakanese	krèn	krèn	rough	rough			7.1.4.2		0			1867
+34584	663	Intha	càn	càn	rough	rough			7.1.4.2		0			
+34585	1503	Tavoyan	càn	càn	rough	rough			7.1.4.2		0			
+34586	387	Burmese (Standard Spoken)	coù	coù	rope	rope			5.11.4		0			
+34587	404	Burmese (Written)	krui:	krui:	rope	rope			5.11.4		0			
+34588	290	Arakanese	kroù	kroù	rope	rope			5.11.4		0			
+34589	663	Intha	coù	coù	rope	rope			5.11.4		0			
+34590	1503	Tavoyan	coù	coù	rope	rope			5.11.4		0			
+34591	387	Burmese (Standard Spoken)	cwe	cwe	rich	rich			5.9		0			
+34592	404	Burmese (Written)	krway	krway	rich	rich			5.9		0			
+34593	382	Burmese (Inscriptional)	krway	krway	rich	rich			5.9		0			
+34594	1503	Tavoyan	kwe	kwe	rich	rich			5.9		0			
+34595	387	Burmese (Standard Spoken)	cán	cán	rhinoceros	rhinoceros			2.2.1		0			
+34596	404	Burmese (Written)	kram̊.	kram̊.	rhinoceros	rhinoceros			2.2.1		0			
+34597	663	Intha	cán	cán	rhinoceros	rhinoceros			2.2.1		0			
+34598	1503	Tavoyan	cán	cán	rhinoceros	rhinoceros			2.2.1		0			
+34599	387	Burmese (Standard Spoken)	hcou'	hcou'	restrict	restrict			6.2.2.1		0			
+34600	404	Burmese (Written)	khyup	khyup	restrict	restrict			6.2.2.1		0			
+34601	382	Burmese (Inscriptional)	khlup	khlup	restrict	restrict			6.2.2.1		0			
+34602	290	Arakanese	hcou'	hcou'	restrict	restrict			6.2.2.1		0			
+34603	663	Intha	hyou'	hyou'	restrict	restrict			6.2.2.1		0			
+34604	663	Intha	hcou'	hcou'	restrict	restrict			6.2.2.1		0			
+34605	1503	Tavoyan	hcao'	hcao'	restrict	restrict			6.2.2.1		0			
+34606	387	Burmese (Standard Spoken)	cu	cu	reed	reed			3.1.8		0			
+34607	404	Burmese (Written)	kyˉ	kyˉ	reed	reed			3.1.8		0			
+34608	663	Intha	klu	klu	reed	reed			3.1.8		0			
+34609	1503	Tavoyan	cu	cu	reed	reed			3.1.8		0			
+34610	387	Burmese (Standard Spoken)	cein	cein	rattan	rattan			3.1.6.4		0			
+34611	404	Burmese (Written)	krim	krim	rattan	rattan			3.1.6.4		0			
+34612	382	Burmese (Inscriptional)	krim	krim	rattan	rattan			3.1.6.4		0			
+34613	663	Intha	cein	cein	rattan	rattan			3.1.6.4		0			
+34614	1503	Tavoyan	ki:n	ki:n	rattan	rattan			3.1.6.4		0			
+34615	1029	Maru [Langsu]	yàm	yàm	rattan	rattan			3.1.6.4		0			
+34616	387	Burmese (Standard Spoken)	cwe'	cwe'	rat	rat			2.1.1		0			2630
+34617	404	Burmese (Written)	krwak	krwak	rat	rat			2.1.1		0			2630
+34618	382	Burmese (Inscriptional)	krwak	krwak	rat	rat			2.1.1		0			2630
+34619	290	Arakanese	krwo'	krwo'	rat	rat			2.1.1		0			2630
+34620	663	Intha	cwe'	cwe'	rat	rat			2.1.1		0			2630
+34621	1503	Tavoyan	kwa'	kwa'	rat	rat			2.1.1		0			2630
+34622	1029	Maru [Langsu]	yùk	yùk	rat	rat			2.1.1		0			2630
+34623	387	Burmese (Standard Spoken)	-hcin	-hcin	rafter	rafter			5.11.9		0			
+34624	404	Burmese (Written)	-khran̊	-khran̊	rafter	rafter			5.11.9		0			
+34625	382	Burmese (Inscriptional)	-khran̊	-khran̊	rafter	rafter			5.11.9		0			
+34626	1029	Maru [Langsu]	khyòn̈	khyòn̈	rafter	rafter			5.11.9		0			
+34627	387	Burmese (Standard Spoken)	hcì-	hcì-	praise	praise			8.5.2.2		0			
+34628	404	Burmese (Written)	khyī:-	khyī:-	praise	praise			8.5.2.2		0			
+34629	382	Burmese (Inscriptional)	khī	khī	praise	praise			8.5.2.2		0			
+34630	290	Arakanese	hcì-	hcì-	praise	praise			8.5.2.2		0			
+34631	663	Intha	hcì-	hcì-	praise	praise			8.5.2.2		0			
+34632	1503	Tavoyan	hcì-	hcì-	praise	praise			8.5.2.2		0			
+34633	387	Burmese (Standard Spoken)	hcun	hcun	pointed	pointed			6.2.2.2		0			
+34634	404	Burmese (Written)	khywan	khywan	pointed	pointed			6.2.2.2		0			
+34635	290	Arakanese	hcen	hcen	pointed	pointed			6.2.2.2		0			
+34636	663	Intha	hcun	hcun	pointed	pointed			6.2.2.2		0			
+34637	1503	Tavoyan	hyun	hyun	pointed	pointed			6.2.2.2		0			
+34638	1029	Maru [Langsu]	chùm	chùm	pointed	pointed			6.2.2.2		0			
+34639	387	Burmese (Standard Spoken)	ci'	ci'	plait	plait			1.2.3.2		0			
+34640	404	Burmese (Written)	kyac	kyac	plait	plait			1.2.3.2		0			
+34641	290	Arakanese	cai'	cai'	plait	plait			1.2.3.2		0			
+34642	663	Intha	ci'	ci'	plait	plait			1.2.3.2		0			
+34643	1503	Tavoyan	ci'	ci'	plait	plait			1.2.3.2		0			
+34644	387	Burmese (Standard Spoken)	-hcan	-hcan	pimple	pimple			1.6.5.3		0			
+34645	404	Burmese (Written)	-khram	-khram	pimple	pimple			1.6.5.3		0			
+34646	290	Arakanese	hkron	hkron	pimple	pimple			1.6.5.3		0			
+34647	663	Intha	hyan	hyan	pimple	pimple			1.6.5.3		0			
+34648	1503	Tavoyan	hcin	hcin	pimple	pimple			1.6.5.3		0			
+34649	387	Burmese (Standard Spoken)	ceì	ceì	parrot	parrot			2.2.4.1		0			7416
+34650	404	Burmese (Written)	key:	key:	parrot	parrot			2.2.4.1		0			7416
+34651	382	Burmese (Inscriptional)	kiy	kiy	parrot	parrot			2.2.4.1		0			7416
+34652	1029	Maru [Langsu]	cìt	cìt	parrot	parrot			2.2.4.1		0			7416
+34653	387	Burmese (Standard Spoken)	-coù	-coù	outcome	outcome			8.1		0			
+34654	404	Burmese (Written)	-kyui:	-kyui:	outcome	outcome			8.1		0			
+34655	382	Burmese (Inscriptional)	-kluiw	-kluiw	outcome	outcome			8.1		0			
+34656	663	Intha	-coù	-coù	outcome	outcome			8.1		0			
+34657	1503	Tavoyan	-coù	-coù	outcome	outcome			8.1		0			
+34658	387	Burmese (Standard Spoken)	ce'◦thun	ce'thun	onion	onion			3.1.5		0			1606,5494
+34659	404	Burmese (Written)	krak'swan	krak'swan	onion	onion			3.1.5		0			1606,5494
+34660	382	Burmese (Inscriptional)	ka◦swan	kaswan	onion	onion			3.1.5		0			m,5494
+34661	290	Arakanese	kro'-	kro'-	onion	onion			3.1.5		0			
+34662	663	Intha	ce'-	ce'-	onion	onion			3.1.5		0			
+34663	1503	Tavoyan	ci'-	ci'-	onion	onion			3.1.5		0			
+34664	1029	Maru [Langsu]	haū-	haū-	onion	onion			3.1.5		0			
+34665	387	Burmese (Standard Spoken)	cin	cin	numb	numb			1.5.11		0			
+34666	404	Burmese (Written)	kyañ	kyañ	numb	numb			1.5.11		0			
+34667	663	Intha	klin	klin	numb	numb			1.5.11		0			
+34668	1503	Tavoyan	cin	cin	numb	numb			1.5.11		0			
+34669	387	Burmese (Standard Spoken)	hce'	hce'	navel	navel			1.9.4		0			525
+34670	404	Burmese (Written)	khyak	khyak	navel	navel			1.9.4		0			525
+34671	290	Arakanese	hco'	hco'	navel	navel			1.9.4		0			525
+34672	663	Intha	hye'	hye'	navel	navel			1.9.4		0			525
+34673	1503	Tavoyan	hyi'	hyi'	navel	navel			1.9.4		0			525
+34674	1029	Maru [Langsu]	chó'	chó'	navel	navel			1.9.4		0			525
+34675	387	Burmese (Standard Spoken)	cìn	cìn	narrow	narrow			9.7.2		0			7169
+34676	404	Burmese (Written)	kya:̃	kya:̃	narrow	narrow			9.7.2		0			
+34677	290	Arakanese	caìn	caìn	narrow	narrow			9.7.2		0			
+34678	663	Intha	cìn	cìn	narrow	narrow			9.7.2		0			7169
+34679	1503	Tavoyan	cìn	cìn	narrow	narrow			9.7.2		0			7169
+34680	387	Burmese (Standard Spoken)	-hcìn	-hcìn	mutual	mutual			10.0		0			
+34681	404	Burmese (Written)	khyan̊:	khyan̊:	mutual	mutual			10.0		0			
+34682	290	Arakanese	-hcòn	-hcòn	mutual	mutual			10.0		0			
+34683	663	Intha	-hyèn	-hyèn	mutual	mutual			10.0		0			
+34684	1503	Tavoyan	-hyìn	-hyìn	mutual	mutual			10.0		0			
+34685	387	Burmese (Standard Spoken)	hcin	hcin	mosquito	mosquito			2.2.6		0			2328
+34686	404	Burmese (Written)	khran̊	khran̊	mosquito	mosquito			2.2.6		0			2328
+34687	290	Arakanese	hkron	hkron	mosquito	mosquito			2.2.6		0			2328
+34688	663	Intha	hyen	hyen	mosquito	mosquito			2.2.6		0			2328
+34689	663	Intha	hcen	hcen	mosquito	mosquito			2.2.6		0			2328
+34690	1503	Tavoyan	hcin	hcin	mosquito	mosquito			2.2.6		0			2328
+34691	1029	Maru [Langsu]	k'yòn̈	k'yòn̈	mosquito	mosquito			2.2.6		0			2328
+34692	387	Burmese (Standard Spoken)	caùn	caùn	monastery	monastery			5.11.9.1		0			
+34693	404	Burmese (Written)	kyon̊:	kyon̊:	monastery	monastery			5.11.9.1		0			
+34694	382	Burmese (Inscriptional)	klon̊	klon̊	monastery	monastery			5.11.9.1		0			
+34695	663	Intha	còn	còn	monastery	monastery			5.11.9.1		0			
+34696	1503	Tavoyan	klòn	klòn	monastery	monastery			5.11.9.1		0			
+34697	1503	Tavoyan	còn	còn	monastery	monastery			5.11.9.1		0			
+34698	387	Burmese (Standard Spoken)	coun	coun	meet	meet			6.2		0			
+34699	404	Burmese (Written)	krum̊	krum̊	meet	meet			6.2		0			5391
+34700	663	Intha	coun	coun	meet	meet			6.2		0			
+34701	1503	Tavoyan	coun	coun	meet	meet			6.2		0			
+34702	387	Burmese (Standard Spoken)	hcein	hcein	measure	measure			9.8		0			
+34703	404	Burmese (Written)	khyin	khyin	measure	measure			9.8		0			
+34704	382	Burmese (Inscriptional)	khin	khin	measure	measure			9.8		0			
+34705	290	Arakanese	hcein	hcein	measure	measure			9.8		0			
+34706	663	Intha	hyein	hyein	measure	measure			9.8		0			
+34707	663	Intha	hcein	hcein	measure	measure			9.8		0			
+34708	1503	Tavoyan	hki	hki	measure	measure			9.8		0			
+34709	1503	Tavoyan	hci:n	hci:n	measure	measure			9.8		0			
+34710	1029	Maru [Langsu]	chìn	chìn	measure	measure			9.8		0			
+34711	387	Burmese (Standard Spoken)	hcin-	hcin-	marrow	marrow			1.6.3.5		0			459
+34712	404	Burmese (Written)	khran̊-	khran̊-	marrow	marrow			1.6.3.5		0			459
+34713	1029	Maru [Langsu]	khyòh	khyòh	marrow	marrow			1.6.3.5		0			459
+34714	387	Burmese (Standard Spoken)	hei'	hei'	love	love			8.3.1.1.1		0			
+34715	404	Burmese (Written)	khyac	khyac	love	love			8.3.1.1.1		0			1645
+34716	382	Burmese (Inscriptional)	khyat	khyat	love	love			8.3.1.1.1		0			1645
+34717	290	Arakanese	hcat	hcat	love	love			8.3.1.1.1		0			1645
+34718	663	Intha	hyi’	hyi’	love	love			8.3.1.1.1		0		D1	1645
+34719	663	Intha	hei'	hei'	love	love			8.3.1.1.1		0			
+34721	1503	Tavoyan	hyi’	hyi’	love	love			8.3.1.1.1		0			1645
+34722	1029	Maru [Langsu]	c'ít	c'ít	love	love			8.3.1.1.1		0			1645
+34723	387	Burmese (Standard Spoken)	hcain	hcain	lop	lop			6.9.3		0			
+34724	404	Burmese (Written)	khyuin̊	khyuin̊	lop	lop			6.9.3		0			
+34725	1503	Tavoyan	hkain	hkain	lop	lop			6.9.3		0			
+34726	387	Burmese (Standard Spoken)	hcaun	hcaun	loose	loose			6.13.1		0			
+34727	404	Burmese (Written)	khyon̊	khyon̊	loose	loose			6.13.1		0			
+34728	663	Intha	hyon	hyon	loose	loose			6.13.1		0			
+34729	663	Intha	hcon	hcon	loose	loose			6.13.1		0			
+34730	387	Burmese (Standard Spoken)	cì	cì	look	look			1.2.6.11		0			m
+34731	404	Burmese (Written)	kraññ.	kraññ.	look	look			1.2.6.11		0			m
+34732	382	Burmese (Inscriptional)	kraññ	kraññ	look	look			1.2.6.11		0			m
+34733	290	Arakanese	kreí	kreí	look	look			1.2.6.11		0			m
+34734	663	Intha	cí	cí	look	look			1.2.6.11		0			m
+34735	1503	Tavoyan	keí	keí	look	look			1.2.6.11		0			
+34736	1503	Tavoyan	krei	krei	look	look			1.2.6.11		0			m
+34737	387	Burmese (Standard Spoken)	hcin-dhei	hcin-dhei	lion	lion			2.1.3		0			6114,m
+34738	404	Burmese (Written)	khran̊◦se.	khran̊◦se.	lion	lion			2.1.3		0			6114,b,m
+34739	382	Burmese (Inscriptional)	khran̊-siy	khran̊-siy	lion	lion			2.1.3		0			b,6114,m
+34740	290	Arakanese	hkron-	hkron-	lion	lion			2.1.3		0			bBurmese,6114
+34741	663	Intha	hyen-	hyen-	lion	lion			2.1.3		0			bBurmese,6114,m
+34742	1503	Tavoyan	hcä-	hcä-	lion	lion			2.1.3		0			bBurmese
+34743	1029	Maru [Langsu]	khàng khì	khàng khì	lion	lion			2.1.3		0			bBurmese,6114,m
+34744	387	Burmese (Standard Spoken)	cai'	cai'	like	like			8.3.1.1.1		0			
+34745	404	Burmese (Written)	kruik	kruik	like	like			8.3.1.1.1		0			
+34746	290	Arakanese	krai'	krai'	like	like			8.3.1.1.1		0			
+34747	663	Intha	cai'	cai'	like	like			8.3.1.1.1		0			
+34748	663	Intha	cei'	cei'	like	like			8.3.1.1.1		0			
+34749	1503	Tavoyan	cai'	cai'	like	like			8.3.1.1.1		0			
+34750	387	Burmese (Standard Spoken)	hcì	hcì	lend	lend			6.22		0			
+34751	387	Burmese (Standard Spoken)	hceì	hceì	lend	lend			6.22		0			
+34752	404	Burmese (Written)	khye:	khye:	lend	lend			6.22		0			2314
+34753	382	Burmese (Inscriptional)	khiy	khiy	lend	lend			6.22		0			2314
+34754	290	Arakanese	hcì	hcì	lend	lend			6.22		0			
+34755	663	Intha	hkeì	hkeì	lend	lend			6.22		0			
+34756	1503	Tavoyan	hceì	hceì	lend	lend			6.22		0			
+34757	1029	Maru [Langsu]	c'ít?	c'ít?	lend	lend			6.22		0			
+34758	387	Burmese (Standard Spoken)	cwìn	cwìn	left over	left over			1.5.3.2		0			
+34759	404	Burmese (Written)	krwan̊:	krwan̊:	left over	left over			1.5.3.2		0			
+34760	382	Burmese (Inscriptional)	krwan̊	krwan̊	left over	left over			1.5.3.2		0			
+34761	387	Burmese (Standard Spoken)	can	can	left out	left out			1.5.3.2		0			
+34762	404	Burmese (Written)	kyan	kyan	left out	left out			1.5.3.2		0			
+34763	382	Burmese (Inscriptional)	kyan	kyan	left out	left out			1.5.3.2		0			
+34764	663	Intha	klan	klan	left out	left out			1.5.3.2		0			
+34765	1503	Tavoyan	can	can	left out	left out			1.5.3.2		0			
+34766	1029	Maru [Langsu]	tjàn	tjàn	left out	left out			1.5.3.2		0			
+34767	387	Burmese (Standard Spoken)	cu'	cu'	leech	leech			2.2.6		0			
+34768	404	Burmese (Written)	krwat	krwat	leech	leech			2.2.6		0			2555
+34769	382	Burmese (Inscriptional)	krwat	krwat	leech	leech			2.2.6		0			2555
+34770	290	Arakanese	krwe'	krwe'	leech	leech			2.2.6		0			
+34771	663	Intha	cu'	cu'	leech	leech			2.2.6		0			
+34772	1503	Tavoyan	cu'	cu'	leech	leech			2.2.6		0			
+34773	1029	Maru [Langsu]	v'é	v'é	leech	leech			2.2.6		0			2555
+34774	1029	Maru [Langsu]	se'	se'	leech	leech			2.2.6		0			
+34775	1029	Maru [Langsu]	y'úp-v'é'	y'úp-v'é'	leech	leech			2.2.6		0			m,2555
+34776	387	Burmese (Standard Spoken)	hcan	hcan	leave out	leave out			6.10.2		0			
+34777	404	Burmese (Written)	khyab	khyab	leave out	leave out			6.10.2		0			
+34778	663	Intha	hklan	hklan	leave out	leave out			6.10.2		0			
+34779	1503	Tavoyan	hcan	hcan	leave out	leave out			6.10.2		0			
+34780	387	Burmese (Standard Spoken)	hcei'	hcei'	lac	lac			2.2.6		0			2331
+34781	404	Burmese (Written)	khrit	khrit	lac	lac			2.2.6		0			2331
+34782	382	Burmese (Inscriptional)	khrit	khrit	lac	lac			2.2.6		0			2331
+34783	1029	Maru [Langsu]	yàp?	yàp?	lac	lac			2.2.6		0			2331
+34784	387	Burmese (Standard Spoken)	cau'	cau'	kick	kick			6.2.2.3.3		0			
+34785	404	Burmese (Written)	kyok	kyok	kick	kick			6.2.2.3.3		0			
+34786	663	Intha	klo'	klo'	kick	kick			6.2.2.3.3		0			
+34787	387	Burmese (Standard Spoken)	cùn	cùn	island	island			3.2.5		0			
+34788	404	Burmese (Written)	kywan:	kywan:	island	island			3.2.5		0			
+34789	382	Burmese (Inscriptional)	klwan	klwan	island	island			3.2.5		0			
+34790	290	Arakanese	cwèn	cwèn	island	island			3.2.5		0			
+34791	663	Intha	cùn	cùn	island	island			3.2.5		0			
+34792	1503	Tavoyan	cùn	cùn	island	island			3.2.5		0			
+34793	387	Burmese (Standard Spoken)	-jou	-jou	horn	horn			1.2.2		0			819
+34794	404	Burmese (Written)	-khrui	-khrui	horn	horn			1.2.2		0			819
+34795	382	Burmese (Inscriptional)	-khruiw	-khruiw	horn	horn			1.2.2		0			819
+34796	290	Arakanese	-grou	-grou	horn	horn			1.2.2		0			819
+34797	663	Intha	-hyou	-hyou	horn	horn			1.2.2		0			819
+34798	1503	Tavoyan	-hcou	-hcou	horn	horn			1.2.2		0			p,819
+34799	1029	Maru [Langsu]	khyùk	khyùk	horn	horn			1.2.2		0			819
+34800	387	Burmese (Standard Spoken)	hcei'	hcei'	hook	hook			5.4		0			
+34801	404	Burmese (Written)	khyit	khyit	hook	hook			5.4		0			
+34802	290	Arakanese	hcei'	hcei'	hook	hook			5.4		0			
+34803	663	Intha	hyai'	hyai'	hook	hook			5.4		0			
+34804	663	Intha	hyei'	hyei'	hook	hook			5.4		0			
+34805	1503	Tavoyan	hkí	hkí	hook	hook			5.4		0			
+34806	387	Burmese (Standard Spoken)	caùn	caùn	herd	herd			2.1.2		0			
+34807	404	Burmese (Written)	kyon̊:	kyon̊:	herd	herd			2.1.2		0			
+34808	382	Burmese (Inscriptional)	klon̊	klon̊	herd	herd			2.1.2		0			
+34809	290	Arakanese	caùn	caùn	herd	herd			2.1.2		0			
+34810	663	Intha	còn	còn	herd	herd			2.1.2		0			
+34811	663	Intha	Kòn	Kòn	herd	herd			2.1.2		0			
+34812	1503	Tavoyan	còn	còn	herd	herd			2.1.2		0			
+34813	387	Burmese (Standard Spoken)	cà	cà	hear	hear			1.2.7.4		0			1411
+34814	404	Burmese (Written)	krā:	krā:	hear	hear			1.2.7.4		0			1411
+34815	382	Burmese (Inscriptional)	krá	krá	hear	hear			1.2.7.4		0			1411
+34816	290	Arakanese	krà	krà	hear	hear			1.2.7.4		0			1411
+34817	663	Intha	cà	cà	hear	hear			1.2.7.4		0			1411
+34818	1503	Tavoyan	cà	cà	hear	hear			1.2.7.4		0			1411
+34819	1029	Maru [Langsu]	kyō	kyō	hear	hear			1.2.7.4		0			1411
+34820	1029	Maru [Langsu]	tjō	tjō	hear	hear			1.2.7.4		0			1411
+34821	387	Burmese (Standard Spoken)	cei'	cei'	grind	grind			9.5		0			
+34822	404	Burmese (Written)	krit	krit	grind	grind			9.5		0			2333
+34823	663	Intha	cai'	cai'	grind	grind			9.5		0			
+34824	1503	Tavoyan	kli	kli	grind	grind			9.5		0			
+34825	1029	Maru [Langsu]	khyát?	khyát?	grind	grind			9.5		0			
+34826	1029	Maru [Langsu]	chè'	chè'	grind	grind			9.5		0			
+34827	387	Burmese (Standard Spoken)	cu'	cu'	gt gd child??	gt gd child??			1.5.3.2		0			
+34828	404	Burmese (Written)	krwat	krwat	gt gd child??	gt gd child??			1.5.3.2		0			
+34829	290	Arakanese	krwe'	krwe'	gt gd child??	gt gd child??			1.5.3.2		0			e
+34830	663	Intha	cu'	cu'	gt gd child??	gt gd child??			1.5.3.2		0			
+34831	1503	Tavoyan	cu'	cu'	gt gd child??	gt gd child??			1.5.3.2		0			
+34832	387	Burmese (Standard Spoken)	-jaìn	-jaìn	graveyard	graveyard			9.10.6		0			
+34833	404	Burmese (Written)	-khyuin̊:	-khyuin̊:	graveyard	graveyard			9.10.6		0			
+34834	382	Burmese (Inscriptional)	-khluin	-khluin	graveyard	graveyard			9.10.6		0			
+34835	1503	Tavoyan	-hklaìn	-hklaìn	graveyard	graveyard			9.10.6		0			
+34836	387	Burmese (Standard Spoken)	ci	ci	granary	granary			5.11.9.5		0			
+34837	404	Burmese (Written)	kyī	kyī	granary	granary			5.11.9.5		0			
+34838	382	Burmese (Inscriptional)	kī	kī	granary	granary			5.11.9.5		0			
+34839	663	Intha	ci	ci	granary	granary			5.11.9.5		0			
+34840	1029	Maru [Langsu]	c'ì	c'ì	granary	granary			5.11.9.5		0			
+34841	387	Burmese (Standard Spoken)	jìn	jìn	ginger	ginger			3.1.5		0			
+34842	404	Burmese (Written)	khyan̊:	khyan̊:	ginger	ginger			3.1.5		0			647
+34843	382	Burmese (Inscriptional)	khen̊	khen̊	ginger	ginger			3.1.5		0			
+34844	1029	Maru [Langsu]	chōn̈	chōn̈	ginger	ginger			3.1.5		0			
+34845	387	Burmese (Standard Spoken)	hcou'	hcou'	get dark	get dark			1.1.5		0			
+34846	404	Burmese (Written)	khyut	khyut	get dark	get dark			1.1.5		0			
+34847	382	Burmese (Inscriptional)	khyut	khyut	get dark	get dark			1.1.5		0			
+34848	1029	Maru [Langsu]	c'at?	c'at?	get dark	get dark			1.1.5		0			
+34849	387	Burmese (Standard Spoken)	coùn	coùn	gather	gather			6.13.5		0			
+34850	404	Burmese (Written)	kyum̊:	kyum̊:	gather	gather			6.13.5		0			
+34851	382	Burmese (Inscriptional)	klum	klum	gather	gather			6.13.5		0			
+34852	387	Burmese (Standard Spoken)	hcan	hcan	garden	garden			9.10.4		0			3606
+34853	404	Burmese (Written)	khram̊	khram̊	garden	garden			9.10.4		0			3606
+34854	382	Burmese (Inscriptional)	khram	khram	garden	garden			9.10.4		0			3606
+34855	290	Arakanese	hkren	hkren	garden	garden			9.10.4		0			3606
+34856	1503	Tavoyan	hcan	hcan	garden	garden			9.10.4		0			3606
+34857	1029	Maru [Langsu]	khyè	khyè	garden	garden			9.10.4		0			3606
+34858	387	Burmese (Standard Spoken)	-jei	-jei	gall	gall			1.7.3.1		0			227
+34859	404	Burmese (Written)	-khre	-khre	gall	gall			1.7.3.1		0			227
+34860	290	Arakanese	-hkri	-hkri	gall	gall			1.7.3.1		0			227
+34861	663	Intha	-hyei	-hyei	gall	gall			1.7.3.1		0			228
+34862	1503	Tavoyan	-hkei	-hkei	gall	gall			1.7.3.1		0			227
+34863	1029	Maru [Langsu]	-kyìt?	-kyìt?	gall	gall			1.7.3.1		0			227
+34864	387	Burmese (Standard Spoken)	co	co	fry	fry			5.5		0			
+34865	404	Burmese (Written)	kyō	kyō	fry	fry			5.5		0			
+34866	404	Burmese (Written)	krō	krō	fry	fry			5.5		0			
+34867	290	Arakanese	co	co	fry	fry			5.5		0			
+34868	663	Intha	hyo	hyo	fry	fry			5.5		0			
+34869	1503	Tavoyan	co	co	fry	fry			5.5		0			
+34870	387	Burmese (Standard Spoken)	cau'	cau'	frightened	frightened			8.3.1.10.1		0			
+34871	404	Burmese (Written)	krok	krok	frightened	frightened			8.3.1.10.1		0			
+34872	382	Burmese (Inscriptional)	krok	krok	frightened	frightened			8.3.1.10.1		0			
+34873	290	Arakanese	krau'	krau'	frightened	frightened			8.3.1.10.1		0			
+34874	663	Intha	co'.	co'.	frightened	frightened			8.3.1.10.1		0			
+34875	1503	Tavoyan	co'	co'	frightened	frightened			8.3.1.10.1		0			
+34876	1503	Tavoyan	klo'	klo'	frightened	frightened			8.3.1.10.1		0			
+34877	1029	Maru [Langsu]	kyaù'	kyaù'	frightened	frightened			8.3.1.10.1		0			
+34878	387	Burmese (Standard Spoken)	hcau'	hcau'	frighten	frighten			8.3.1.10.1		0			2249
+34879	404	Burmese (Written)	khrok	khrok	frighten	frighten			8.3.1.10.1		0			2249
+34880	290	Arakanese	"hkrau"""	"hkrau"""	frighten	frighten			8.3.1.10.1		0			2249
+34881	663	Intha	hklo'	hklo'	frighten	frighten			8.3.1.10.1		0			2249
+34882	1503	Tavoyan	khyaú'	khyaú'	frighten	frighten			8.3.1.10.1		0			2249
+34883	1029	Maru [Langsu]	khr	khr	frighten	frighten			8.3.1.10.1		0			
+34884	387	Burmese (Standard Spoken)	cain	cain	fragrant	fragrant			3.1.10		0			
+34885	404	Burmese (Written)	kruin̊	kruin̊	fragrant	fragrant			3.1.10		0			
+34886	663	Intha	klein	klein	fragrant	fragrant			3.1.10		0			
+34887	1503	Tavoyan	cain	cain	fragrant	fragrant			3.1.10		0			
+34888	387	Burmese (Standard Spoken)	ce'	ce'	fowl	fowl			2.1.10		0			1606
+34889	404	Burmese (Written)	krak	krak	fowl	fowl			2.1.10		0			1606
+34890	382	Burmese (Inscriptional)	krak	krak	fowl	fowl			2.1.10		0			1606
+34891	290	Arakanese	kro'	kro'	fowl	fowl			2.1.10		0			1606
+34892	663	Intha	ce'	ce'	fowl	fowl			2.1.10		0			
+34893	1503	Tavoyan	ci'	ci'	fowl	fowl			2.1.10		0			
+34894	1029	Maru [Langsu]	yò'	yò'	fowl	fowl			2.1.10		0			2187
+34895	387	Burmese (Standard Spoken)	hci	hci	foot	foot			1.5.2		0			335
+34896	387	Burmese (Standard Spoken)	hcei	hcei	foot	foot			1.5.2		0			335
+34897	404	Burmese (Written)	khre	khre	foot	foot			1.5.2		0			335
+34898	382	Burmese (Inscriptional)	khriy	khriy	foot	foot			1.5.2		0			335
+34899	290	Arakanese	hkri	hkri	foot	foot			1.5.2		0			335
+34900	663	Intha	hkei	hkei	foot	foot			1.5.2		0			335
+34901	1503	Tavoyan	hkei	hkei	foot	foot			1.5.2		0			335
+34902	1029	Maru [Langsu]	khyìt	khyìt	foot	foot			1.5.2		0			
+34903	1029	Maru [Langsu]	chi	chi	foot	foot			1.5.2		0			
+34904	1029	Maru [Langsu]	tśik	tśik	foot	foot			1.5.2		0			
+34905	387	Burmese (Standard Spoken)	hcìn	hcìn	follow	follow			6.7.10		0			
+34906	404	Burmese (Written)	(khyañ:)F	(khyañ:)F	follow	follow			6.7.10		0			
+34907	382	Burmese (Inscriptional)	khyan̊	khyan̊	follow	follow			6.7.10		0			
+34908	1029	Maru [Langsu]	chōn̈	chōn̈	follow	follow			6.7.10		0			
+34909	387	Burmese (Standard Spoken)	-hca'	-hca'	flat	flat			7.1.5.1		0			
+34910	404	Burmese (Written)	-khyap	-khyap	flat	flat			7.1.5.1		0			
+34911	382	Burmese (Inscriptional)	-khlap	-khlap	flat	flat			7.1.5.1		0			
+34912	663	Intha	-hya'	-hya'	flat	flat			7.1.5.1		0			
+34913	1503	Tavoyan	-hca'	-hca'	flat	flat			7.1.5.1		0			
+34914	387	Burmese (Standard Spoken)	-hcaùn	-hcaùn	finger	finger			1.5.6		0			
+34915	404	Burmese (Written)	-khyon̊:	-khyon̊:	finger	finger			1.5.6		0			
+34916	290	Arakanese	-hcaùn	-hcaùn	finger	finger			1.5.6		0			
+34917	663	Intha	-hyòn	-hyòn	finger	finger			1.5.6		0			
+34918	1503	Tavoyan	-hyòn	-hyòn	finger	finger			1.5.6		0			
+34919	387	Burmese (Standard Spoken)	-hcìn	-hcìn	fact	fact			8.1		0			
+34920	404	Burmese (Written)	-khran̊:	-khran̊:	fact	fact			8.1		0			
+34921	382	Burmese (Inscriptional)	-khran̊	-khran̊	fact	fact			8.1		0			
+34922	290	Arakanese	-hkròn	-hkròn	fact	fact			8.1		0			
+34923	1503	Tavoyan	-hcìn	-hcìn	fact	fact			8.1		0			
+34924	387	Burmese (Standard Spoken)	-caùn	-caùn	fact / line	fact / line			8.1		0			
+34925	404	Burmese (Written)	-kron̊:	-kron̊:	fact / line	fact / line			8.1		0			
+34926	382	Burmese (Inscriptional)	-kron̊	-kron̊	fact / line	fact / line			8.1		0			
+34927	290	Arakanese	-kraùn	-kraùn	fact / line	fact / line			8.1		0			
+34928	663	Intha	-còn	-còn	fact / line	fact / line			8.1		0			
+34929	1503	Tavoyan	còn	còn	fact / line	fact / line			8.1		0			
+34930	387	Burmese (Standard Spoken)	co	co	exceed	exceed			9.9		0			
+34931	404	Burmese (Written)	kyō	kyō	exceed	exceed			9.9		0			
+34932	663	Intha	co	co	exceed	exceed			9.9		0			
+34933	1503	Tavoyan	co	co	exceed	exceed			9.9		0			
+34934	387	Burmese (Standard Spoken)	hcì	hcì	dung	dung			1.8.5		0			572
+34935	387	Burmese (Standard Spoken)	hceì	hceì	dung	dung			1.8.5		0			572
+34936	404	Burmese (Written)	khye:	khye:	dung	dung			1.8.5		0			572
+34937	382	Burmese (Inscriptional)	khliy	khliy	dung	dung			1.8.5		0			572
+34938	290	Arakanese	hcì	hcì	dung	dung			1.8.5		0			
+34939	663	Intha	hkeì	hkeì	dung	dung			1.8.5		0			
+34940	1503	Tavoyan	hkleì	hkleì	dung	dung			1.8.5		0			572
+34941	1029	Maru [Langsu]	khyít	khyít	dung	dung			1.8.5		0			
+34942	387	Burmese (Standard Spoken)	hcau'	hcau'	dry	dry			6.6		0			443a
+34943	404	Burmese (Written)	khrok	khrok	dry	dry			6.6		0			
+34944	382	Burmese (Inscriptional)	khrok	khrok	dry	dry			6.6		0			
+34945	290	Arakanese	hkrau'	hkrau'	dry	dry			6.6		0			443a
+34946	663	Intha	hyo'	hyo'	dry	dry			6.6		0			
+34947	1503	Tavoyan	hco'	hco'	dry	dry			6.6		0			
+34948	1029	Maru [Langsu]	k'yaó'	k'yaó'	dry	dry			6.6		0			
+34949	1029	Maru [Langsu]	tjaù'	tjaù'	dry	dry			6.6		0			443a
+34950	387	Burmese (Standard Spoken)	cá	cá	dropped	dropped			6.16		0			
+34951	404	Burmese (Written)	kya	kya	dropped	dropped			6.16		0			
+34952	382	Burmese (Inscriptional)	kla	kla	dropped	dropped			6.16		0			
+34953	290	Arakanese	cá	cá	dropped	dropped			6.16		0			
+34954	663	Intha	klá	klá	dropped	dropped			6.16		0			
+34955	1503	Tavoyan	klá	klá	dropped	dropped			6.16		0			
+34956	1503	Tavoyan	cá	cá	dropped	dropped			6.16		0			
+34957	1029	Maru [Langsu]	kyó	kyó	dropped	dropped			6.16		0			
+34958	387	Burmese (Standard Spoken)	hcá	hcá	drop	drop			6.16		0			
+34959	404	Burmese (Written)	khya	khya	drop	drop			6.16		0			
+34960	382	Burmese (Inscriptional)	khla	khla	drop	drop			6.16		0			
+34961	290	Arakanese	hcá	hcá	drop	drop			6.16		0			
+34962	663	Intha	hklá	hklá	drop	drop			6.16		0			
+34963	663	Intha	hcá	hcá	drop	drop			6.16		0			
+34964	1503	Tavoyan	hklá	hklá	drop	drop			6.16		0			
+34965	387	Burmese (Standard Spoken)	-jou	-jou	dove	dove			2.2.4.1		0			
+34966	404	Burmese (Written)	-khrui	-khrui	dove	dove			2.2.4.1		0			
+34967	1029	Maru [Langsu]	-khyúk	-khyúk	dove	dove			2.2.4.1		0			
+34968	1029	Maru [Langsu]	tjò'	tjò'	dove	dove			2.2.4.1		0			
+34969	387	Burmese (Standard Spoken)	hcaín	hcaín	dent	dent			1.5.3.2		0			
+34970	404	Burmese (Written)	khyuin̊	khyuin̊	dent	dent			1.5.3.2		0			
+34971	663	Intha	hceín	hceín	dent	dent			1.5.3.2		0			
+34972	1503	Tavoyan	hklaìn	hklaìn	dent	dent			1.5.3.2		0			
+34973	387	Burmese (Standard Spoken)	ji	ji	deer (barking)	deer (barking)			2.2.2		0			2313
+34974	404	Burmese (Written)	khye	khye	deer (barking)	deer (barking)			2.2.2		0			2313
+34975	1503	Tavoyan	hkei	hkei	deer (barking)	deer (barking)			2.2.2		0			2313
+34976	1029	Maru [Langsu]	chit	chit	deer (barking)	deer (barking)			2.2.2		0			
+34977	1029	Maru [Langsu]	tse	tse	deer (barking)	deer (barking)			2.2.2		0			2313
+34978	387	Burmese (Standard Spoken)	-cweì	-cweì	debt	debt			5.9		0			
+34979	404	Burmese (Written)	-krwe:	-krwe:	debt	debt			5.9		0			
+34980	290	Arakanese	-krwì	-krwì	debt	debt			5.9		0			
+34981	663	Intha	-cweì	-cweì	debt	debt			5.9		0			
+34982	1503	Tavoyan	kwì	kwì	debt	debt			5.9		0			
+34983	387	Burmese (Standard Spoken)	cein	cein	curse	curse			8.5.1		0			
+34984	404	Burmese (Written)	kyin	kyin	curse	curse			8.5.1		0			
+34985	382	Burmese (Inscriptional)	kin	kin	curse	curse			8.5.1		0			
+34986	387	Burmese (Standard Spoken)	cei	cei	crumbled	crumbled			5.5		0			
+34987	404	Burmese (Written)	kre	kre	crumbled	crumbled			5.5		0			
+34988	382	Burmese (Inscriptional)	kriy	kriy	crumbled	crumbled			5.5		0			
+34989	290	Arakanese	kri	kri	crumbled	crumbled			5.5		0			
+34990	663	Intha	klei	klei	crumbled	crumbled			5.5		0			
+34991	1503	Tavoyan	cei	cei	crumbled	crumbled			5.5		0			
+34992	387	Burmese (Standard Spoken)	hcei	hcei	crumble	crumble			5.5		0			
+34993	404	Burmese (Written)	khre	khre	crumble	crumble			5.5		0			
+34994	290	Arakanese	hkrwi	hkrwi	crumble	crumble			5.5		0			
+34995	663	Intha	hklei	hklei	crumble	crumble			5.5		0			
+34996	1503	Tavoyan	hcei	hcei	crumble	crumble			5.5		0			
+34997	387	Burmese (Standard Spoken)	cì	cì	crow	crow			2.2.4.1		0			
+34998	404	Burmese (Written)	kyī:	kyī:	crow	crow			2.2.4.1		0			
+34999	382	Burmese (Inscriptional)	klī	klī	crow	crow			2.2.4.1		0			
+35000	663	Intha	klì	klì	crow	crow			2.2.4.1		0			
+35001	1503	Tavoyan	klì	klì	crow	crow			2.2.4.1		0			
+35002	387	Burmese (Standard Spoken)	-jaùn	-jaùn	crocodile	crocodile			2.1.6		0			
+35003	404	Burmese (Written)	-kyon̊:	-kyon̊:	crocodile	crocodile			2.1.6		0			
+35004	382	Burmese (Inscriptional)	-kyon̊	-kyon̊	crocodile	crocodile			2.1.6		0			
+35005	1029	Maru [Langsu]	c'aūng	c'aūng	crocodile	crocodile			2.1.6		0			
+35006	387	Burmese (Standard Spoken)	cwei	cwei	cowry	cowry			2.2.5		0			
+35007	404	Burmese (Written)	krwe	krwe	cowry	cowry			2.2.5		0			
+35008	290	Arakanese	krwi	krwi	cowry	cowry			2.2.5		0			
+35009	663	Intha	cwei	cwei	cowry	cowry			2.2.5		0			
+35010	1503	Tavoyan	cwei	cwei	cowry	cowry			2.2.5		0			
+35011	1029	Maru [Langsu]	kyö̀ ̈	kyö̀ ̈	cowry	cowry			2.2.5		0			
+35012	387	Burmese (Standard Spoken)	hcoun	hcoun	cover	cover			5.8		0			
+35013	404	Burmese (Written)	khrum̊	khrum̊	cover	cover			5.8		0			
+35014	663	Intha	hyoun	hyoun	cover	cover			5.8		0			
+35015	1503	Tavoyan	hcaon̈	hcaon̈	cover	cover			5.8		0			
+35016	387	Burmese (Standard Spoken)	cì	cì	copper	copper			3.2.4		0			
+35017	387	Burmese (Standard Spoken)	ceì	ceì	copper	copper			3.2.4		0			
+35018	404	Burmese (Written)	kre:	kre:	copper	copper			3.2.4		0			2247
+35019	382	Burmese (Inscriptional)	kriy	kriy	copper	copper			3.2.4		0			2247
+35020	290	Arakanese	krì	krì	copper	copper			3.2.4		0		D1	2247
+35021	290	Arakanese	cì	cì	copper	copper			3.2.4		0			
+35023	663	Intha	cì	cì	copper	copper			3.2.4		0			
+35024	1503	Tavoyan	ceì	ceì	copper	copper			3.2.4		0			2247
+35025	1029	Maru [Langsu]	kyít	kyít	copper	copper			3.2.4		0			2247
+35026	387	Burmese (Standard Spoken)	ce'	ce'	cooked	cooked			5.5		0			
+35027	404	Burmese (Written)	kyak	kyak	cooked	cooked			5.5		0			
+35028	382	Burmese (Inscriptional)	kyad	kyad	cooked	cooked			5.5		0			
+35029	663	Intha	ce'	ce'	cooked	cooked			5.5		0			
+35030	1503	Tavoyan	ci'	ci'	cooked	cooked			5.5		0			
+35031	387	Burmese (Standard Spoken)	hce'	hce'	cook	cook			5.5		0			2316
+35032	404	Burmese (Written)	khyak	khyak	cook	cook			5.5		0			2316
+35033	382	Burmese (Inscriptional)	khyak	khyak	cook	cook			5.5		0			2316
+35034	290	Arakanese	hco'	hco'	cook	cook			5.5		0			
+35035	663	Intha	hye'	hye'	cook	cook			5.5		0			
+35036	663	Intha	hce'	hce'	cook	cook			5.5		0			2316
+35037	1503	Tavoyan	hyi'	hyi'	cook	cook			5.5		0			
+35038	1503	Tavoyan	hyi	hyi	cook	cook			5.5		0			
+35039	1029	Maru [Langsu]	chaw	chaw	cook	cook			5.5		0			
+35040	1029	Maru [Langsu]	hyo'	hyo'	cook	cook			5.5		0			
+35041	387	Burmese (Standard Spoken)	hcàn	hcàn	cold	cold			7.1.2.3		0			
+35042	404	Burmese (Written)	khyam:	khyam:	cold	cold			7.1.2.3		0			2374
+35043	382	Burmese (Inscriptional)	khyam	khyam	cold	cold			7.1.2.3		0			2374
+35044	290	Arakanese	hcèn	hcèn	cold	cold			7.1.2.3		0			
+35045	663	Intha	hyàn	hyàn	cold	cold			7.1.2.3		0			
+35046	663	Intha	hcàn	hcàn	cold	cold			7.1.2.3		0			
+35047	1503	Tavoyan	hyàn	hyàn	cold	cold			7.1.2.3		0			
+35048	387	Burmese (Standard Spoken)	hcó	hcó	coax	coax			8.5.7.2		0			
+35049	404	Burmese (Written)	khyo	khyo	coax	coax			8.5.7.2		0			
+35050	663	Intha	hyó	hyó	coax	coax			8.5.7.2		0			
+35051	1503	Tavoyan	hcó	hcó	coax	coax			8.5.7.2		0			
+35052	387	Burmese (Standard Spoken)	ci	ci	clear	clear			9.6.1.1		0			
+35053	404	Burmese (Written)	kraññ	kraññ	clear	clear			9.6.1.1		0			
+35054	382	Burmese (Inscriptional)	kraññ	kraññ	clear	clear			9.6.1.1		0			
+35055	290	Arakanese	krain	krain	clear	clear			9.6.1.1		0			
+35056	663	Intha	ci	ci	clear	clear			9.6.1.1		0			
+35057	1503	Tavoyan	ce	ce	clear	clear			9.6.1.1		0			
+35058	1029	Maru [Langsu]	tjàng	tjàng	clear	clear			9.6.1.1		0			
+35059	1029	Maru [Langsu]	kyèng	kyèng	clear	clear			9.6.1.1		0			
+35060	1029	Maru [Langsu]	cèng	cèng	clear	clear			9.6.1.1		0			
+35061	387	Burmese (Standard Spoken)	caun	caun	cat	cat			2.1.3		0			2618
+35062	404	Burmese (Written)	kron̊	kron̊	cat	cat			2.1.3		0			2618
+35063	382	Burmese (Inscriptional)	kron	kron	cat	cat			2.1.3		0			2618
+35064	290	Arakanese	kraun	kraun	cat	cat			2.1.3		0			2618
+35065	663	Intha	con	con	cat	cat			2.1.3		0			2618
+35066	1503	Tavoyan	con	con	cat	cat			2.1.3		0			2618
+35067	1029	Maru [Langsu]	yaùng	yaùng	cat	cat			2.1.3		0			2618
+35068	387	Burmese (Standard Spoken)	hci	hci	carry	carry			6.2.2.2.1		0			
+35069	404	Burmese (Written)	khyī	khyī	carry	carry			6.2.2.2.1		0			
+35070	382	Burmese (Inscriptional)	khī	khī	carry	carry			6.2.2.2.1		0			
+35071	290	Arakanese	hci	hci	carry	carry			6.2.2.2.1		0			
+35072	1503	Tavoyan	hki	hki	carry	carry			6.2.2.2.1		0			
+35073	387	Burmese (Standard Spoken)	cei	cei	cancelled	cancelled			6.9		0			
+35074	404	Burmese (Written)	kye	kye	cancelled	cancelled			6.9		0			
+35075	1503	Tavoyan	cei	cei	cancelled	cancelled			6.9		0			
+35076	387	Burmese (Standard Spoken)	hcei	hcei	cancel	cancel			6.9		0			
+35077	404	Burmese (Written)	khye	khye	cancel	cancel			6.9		0			
+35078	382	Burmese (Inscriptional)	khliy	khliy	cancel	cancel			6.9		0			
+35079	290	Arakanese	hci	hci	cancel	cancel			6.9		0			
+35080	387	Burmese (Standard Spoken)	ceìn	ceìn	calculation	calculation			8.3.1.13.1		0			
+35081	404	Burmese (Written)	kyin:	kyin:	calculation	calculation			8.3.1.13.1		0			
+35082	1503	Tavoyan	kì:n	kì:n	calculation	calculation			8.3.1.13.1		0			
+35083	387	Burmese (Standard Spoken)	hcoun	hcoun	bush	bush			3.1.1		0			
+35084	404	Burmese (Written)	khrum̊	khrum̊	bush	bush			3.1.1		0			
+35085	382	Burmese (Inscriptional)	khrum	khrum	bush	bush			3.1.1		0			
+35086	663	Intha	hyoun	hyoun	bush	bush			3.1.1		0			
+35087	1503	Tavoyan	hcaon̈	hcaon̈	bush	bush			3.1.1		0			
+35088	387	Burmese (Standard Spoken)	cwè	cwè	buffalo	buffalo			2.1.2		0			
+35089	404	Burmese (Written)	k◦ywai	k◦ywai	buffalo	buffalo			2.1.2		0			p,2427
+35090	382	Burmese (Inscriptional)	k◦lwai	k◦lwai	buffalo	buffalo			2.1.2		0			p,2427
+35091	290	Arakanese	cweì	cweì	buffalo	buffalo			2.1.2		0			
+35092	663	Intha	kwè	kwè	buffalo	buffalo			2.1.2		0			
+35093	1503	Tavoyan	kwè	kwè	buffalo	buffalo			2.1.2		0			
+35094	1029	Maru [Langsu]	loī	loī	buffalo	buffalo			2.1.2		0			
+35095	387	Burmese (Standard Spoken)	coù	coù	broken	broken			7.1.5.1		0			
+35096	404	Burmese (Written)	kyui:	kyui:	broken	broken			7.1.5.1		0			
+35097	290	Arakanese	coù	coù	broken	broken			7.1.5.1		0			
+35098	663	Intha	kloù	kloù	broken	broken			7.1.5.1		0			
+35099	1503	Tavoyan	kloù	kloù	broken	broken			7.1.5.1		0			
+35100	1029	Maru [Langsu]	k'yúk?	k'yúk?	broken	broken			7.1.5.1		0			
+35101	387	Burmese (Standard Spoken)	hcoù	hcoù	break	break			9.5		0			
+35102	404	Burmese (Written)	khyui:	khyui:	break	break			9.5		0			
+35103	382	Burmese (Inscriptional)	khluiw	khluiw	break	break			9.5		0			
+35104	290	Arakanese	hcoù	hcoù	break	break			9.5		0			
+35105	663	Intha	hkloù	hkloù	break	break			9.5		0			
+35106	1503	Tavoyan	hkloù	hkloù	break	break			9.5		0			
+35107	1029	Maru [Langsu]	khyùk	khyùk	break	break			9.5		0			
+35108	387	Burmese (Standard Spoken)	cou'	cou'	box	box			5.1		0			
+35109	404	Burmese (Written)	krut	krut	box	box			5.1		0			
+35110	382	Burmese (Inscriptional)	krwac	krwac	box	box			5.1		0			
+35111	663	Intha	cou'	cou'	box	box			5.1		0			
+35112	1503	Tavoyan	cao'	cao'	box	box			5.1		0			
+35113	387	Burmese (Standard Spoken)	cou	cou	boil	boil			6.6		0			
+35114	404	Burmese (Written)	krui	krui	boil	boil			6.6		0			
+35115	663	Intha	cou	cou	boil	boil			6.6		0			
+35116	1503	Tavoyan	cou	cou	boil	boil			6.6		0			
+35117	1029	Maru [Langsu]	k'yùk?	k'yùk?	boil	boil			6.6		0			
+35118	387	Burmese (Standard Spoken)	cì	cì	big	big			9.7.2		0			
+35119	404	Burmese (Written)	krī:	krī:	big	big			9.7.2		0			88
+35120	382	Burmese (Inscriptional)	krī	krī	big	big			9.7.2		0			88
+35121	290	Arakanese	krì	krì	big	big			9.7.2		0			
+35122	663	Intha	cì	cì	big	big			9.7.2		0			
+35123	1503	Tavoyan	kì	kì	big	big			9.7.2		0			
+35124	1029	Maru [Langsu]	yī	yī	big	big			9.7.2		0			
+35125	387	Burmese (Standard Spoken)	-ca	-ca	between	between			9.2.3		0			691
+35126	404	Burmese (Written)	-krā:	-krā:	between	between			9.2.3		0			691
+35127	382	Burmese (Inscriptional)	-krā	-krā	between	between			9.2.3		0			691
+35128	290	Arakanese	krà	krà	between	between			9.2.3		0			691
+35129	663	Intha	klà	klà	between	between			9.2.3		0			691
+35130	1503	Tavoyan	klà	klà	between	between			9.2.3		0			691
+35131	1029	Maru [Langsu]	kyō	kyō	between	between			9.2.3		0			691
+35132	1029	Maru [Langsu]	cō?	cō?	between	between			9.2.3		0			
+35133	387	Burmese (Standard Spoken)	hcu	hcu	bell	bell			5.1		0			
+35134	404	Burmese (Written)	khyū	khyū	bell	bell			5.1		0			
+35135	1029	Maru [Langsu]	c'ù?	c'ù?	bell	bell			5.1		0			
+35136	387	Burmese (Standard Spoken)	hcìn	hcìn	basket	basket			5.1		0			
+35137	404	Burmese (Written)	khran̊:	khran̊:	basket	basket			5.1		0			
+35138	663	Intha	hyèn	hyèn	basket	basket			5.1		0			
+35139	1503	Tavoyan	hcìn	hcìn	basket	basket			5.1		0			
+35140	1029	Maru [Langsu]	kyàn	kyàn	basket	basket			5.1		0			
+35141	387	Burmese (Standard Spoken)	cò	cò	back	back			1.4.8		0			211
+35142	404	Burmese (Written)	kro	kro	back	back			1.4.8		0			215
+35143	290	Arakanese	krò	krò	back	back			1.4.8		0			211
+35144	663	Intha	cò	cò	back	back			1.4.8		0			211
+35145	1503	Tavoyan	cò	cò	back	back			1.4.8		0			215
+35146	387	Burmese (Standard Spoken)	hceìn	hceìn	appoint	appoint			6.2.2.1		0			
+35147	404	Burmese (Written)	khyin:	khyin:	appoint	appoint			6.2.2.1		0			
+35148	663	Intha	hyeìn	hyeìn	appoint	appoint			6.2.2.1		0			
+35149	1503	Tavoyan	hcì:n	hcì:n	appoint	appoint			6.2.2.1		0			
+35150	387	Burmese (Standard Spoken)	cou	cou	anticipate	anticipate			8.3.1.7.3		0			
+35151	404	Burmese (Written)	krui	krui	anticipate	anticipate			8.3.1.7.3		0			
+35152	663	Intha	cou	cou	anticipate	anticipate			8.3.1.7.3		0			
+35153	1503	Tavoyan	cou	cou	anticipate	anticipate			8.3.1.7.3		0			
+35154	113	*Burmese	khl	khl	widen	widen			9.2.7		0			
+35155	113	*Burmese	kl	kl	wide	wide			9.7.2		0			
+35157	113	*Burmese	khl	khl	wash	wash			6.2.2.5.2		0			
+35158	113	*Burmese	?	?	want	want			8.3.1.14.3		0			e
+35160	113	*Burmese	kl	kl	tiger	tiger			2.1.3		0			
+35161	113	*Burmese	?	?	tie	tie			6.13.1		0			e
+35162	113	*Burmese	khr	khr	thunder	thunder			3.2.1		0			
+35163	113	*Burmese	khroŋ	khroŋ	throat	throat			1.3.5		0			489
+35165	113	*Burmese	khr	khr	thread	thread			5.11.6		0			
+35166	113	*Burmese	khr	khr	termite	termite			2.2.6		0			
+35167	113	*Burmese	ki	ki	ten	ten			9.9		0			
+35168	113	*Burmese	ky	ky	teak	teak			3.1.1		0			
+35169	113	*Burmese	kl	kl	tamarind	tamarind			3.1.5		0			
+35170	113	*Burmese	kr	kr	take time	take time			6.21		0			
+35171	113	*Burmese	kl	kl	taken off	taken off			6.21		0			
+35172	113	*Burmese	khl	khl	take off	take off			6.21		0			
+35173	113	*Burmese	khy	khy	sweet	sweet			7.1.4.4		0			2380
+35174	113	*Burmese	khrwê	khrwê	sweat	sweat			1.8.1		0			615
+35175	113	*Burmese	?kr	?kr	sugar cane	sugar cane			3.1.6.2		0			
+35176	113	*Burmese	?kr	?kr	strive	strive			6.2.2.1		0			
+35177	113	*Burmese	khl	khl	stream	stream			3.2.3		0			
+35178	113	*Burmese	kl	kl	stone	stone			3.2.9		0			
+35179	113	*Burmese	kr	kr	star	star			3.2.2		0			
+35180	113	*Burmese	khr	khr	split	split			6.9.3		0			
+35181	113	*Burmese	kr	kr	sow	sow			2.1.12		0			
+35182	113	*Burmese	khy	khy	sour	sour			7.1.4.4		0			e
+35183	113	*Burmese	?	?	some	some			9.9		0			e
+35184	113	*Burmese	?	?	smooth	smooth			7.1.4.2		0			e
+35185	113	*Burmese	?	?	smart	smart			8.3		0			e
+35186	113	*Burmese	khl	khl	slip	slip			6.7.3		0			
+35187	113	*Burmese	ki	ki	sleep	sleep			1.1.4.1		0			
+35189	113	*Burmese	ky	ky	slave	slave			4.2.10		0		E	e
+35190	113	*Burmese	khr	khr	six	six			9.9		0			
+35191	113	*Burmese	kl	kl	sink thru'	sink thru'			6.6		0			
+35192	113	*Burmese	?khr	?khr	sew	sew			5.1		0			
+35193	113	*Burmese	khr	khr	separate	separate			6.10.4		0			
+35194	113	*Burmese	khr	khr	scrape	scrape			6.3		0			e
+35196	113	*Burmese	?	?	rupee	rupee			5.9		0			e
+35197	113	*Burmese	kr	kr	rough	rough			7.1.4.2		0			
+35198	113	*Burmese	kr	kr	rope	rope			5.11.4		0			
+35199	113	*Burmese	kr	kr	rich	rich			5.9		0			
+35200	113	*Burmese	?kr	?kr	rhinoceros	rhinoceros			2.2.1		0			
+35201	113	*Burmese	khl	khl	restrict	restrict			6.2.2.1		0			
+35202	113	*Burmese	kl	kl	reed	reed			3.1.8		0			
+35203	113	*Burmese	kr	kr	rattan	rattan			3.1.6.4		0			
+35204	113	*Burmese	kr	kr	rat	rat			2.1.1		0			2630
+35205	113	*Burmese	khr	khr	rafter	rafter			5.11.9		0			
+35206	113	*Burmese	khi	khi	praise	praise			8.5.2.2		0			
+35207	113	*Burmese	khy	khy	pointed	pointed			6.2.2.2		0			
+35208	113	*Burmese	?	?	plait	plait			1.2.3.2		0			x,e
+35209	113	*Burmese	khr	khr	pimple	pimple			1.6.5.3		0			
+35210	113	*Burmese	ki	ki	parrot	parrot			2.2.4.1		0			
+35211	113	*Burmese	kl	kl	outcome	outcome			8.1		0			
+35212	113	*Burmese	?	?	onion	onion			3.1.5		0			e
+35213	113	*Burmese	kl	kl	numb	numb			1.5.11		0			
+35214	113	*Burmese	khyak	khyak	navel	navel			1.9.4		0			525
+35215	113	*Burmese	?	?	narrow	narrow			9.7.2		0			e
+35216	113	*Burmese	?khy	?khy	mutual	mutual			10.0		0			
+35217	113	*Burmese	khr	khr	mosquito	mosquito			2.2.6		0			
+35218	113	*Burmese	kl	kl	monastery	monastery			5.11.9.1		0			
+35219	113	*Burmese	?kr	?kr	meet	meet			6.2		0			e
+35220	113	*Burmese	khi	khi	measure	measure			9.8		0			
+35221	113	*Burmese	?khr	?khr	marrow	marrow			1.6.3.5		0			459
+35222	113	*Burmese	khy-	khy-	love	love			8.3.1.1.1		0			
+35223	113	*Burmese	?	?	lop	lop			6.9.3		0			e
+35224	113	*Burmese	?	?	loose	loose			6.13.1		0			e
+35225	113	*Burmese	kr	kr	look	look			1.2.6.11		0		E	e
+35226	113	*Burmese	khr	khr	lion	lion			2.1.3		0			
+35227	113	*Burmese	kr	kr	like	like			8.3.1.1.1		0			
+35228	113	*Burmese	khi	khi	lend	lend			6.22		0			2314
+35229	113	*Burmese	kr	kr	left over	left over			1.5.3.2		0			
+35230	113	*Burmese	ky	ky	left out	left out			1.5.3.2		0			
+35231	113	*Burmese	kr	kr	leech	leech			2.2.6		0			
+35232	113	*Burmese	khy	khy	leave out	leave out			6.10.2		0			
+35233	113	*Burmese	khr	khr	lac	lac			2.2.6		0			
+35234	113	*Burmese	kl	kl	kick	kick			6.2.2.3.3		0			
+35235	113	*Burmese	kl	kl	island	island			3.2.5		0			
+35236	113	*Burmese	khr	khr	horn	horn			1.2.2		0			
+35237	113	*Burmese	khi	khi	hook	hook			5.4		0			
+35238	113	*Burmese	kl	kl	herd	herd			2.1.2		0			
+35239	113	*Burmese	krâ	krâ	hear	hear			1.2.7.4		0			1411
+35240	113	*Burmese	?	?	grind	grind			9.5		0			e
+35241	113	*Burmese	kr	kr	gt gd child??	gt gd child??			1.5.3.2		0			
+35242	113	*Burmese	khl	khl	graveyard	graveyard			9.10.6		0			
+35243	113	*Burmese	ki	ki	granary	granary			5.11.9.5		0			
+35244	113	*Burmese	khy	khy	ginger	ginger			3.1.5		0			
+35245	113	*Burmese	khy	khy	get dark	get dark			1.1.5		0			
+35246	113	*Burmese	kl	kl	gather	gather			6.13.5		0			
+35247	113	*Burmese	khr	khr	garden	garden			9.10.4		0			
+35248	113	*Burmese	khre	khre	gall	gall			1.7.3.1		0			227
+35249	113	*Burmese	?	?	fry	fry			5.5		0			e
+35250	113	*Burmese	kr	kr	frightened	frightened			8.3.1.10.1		0			
+35251	113	*Burmese	khr	khr	frighten	frighten			8.3.1.10.1		0			
+35252	113	*Burmese	?	?	fragrant	fragrant			3.1.10		0			e
+35253	113	*Burmese	kr	kr	fowl	fowl			2.1.10		0			1606
+35254	113	*Burmese	khr	khr	foot	foot			1.5.2		0			
+35255	113	*Burmese	khy	khy	follow	follow			6.7.10		0			
+35256	113	*Burmese	khl	khl	flat	flat			7.1.5.1		0			
+35257	113	*Burmese	?khy	?khy	finger	finger			1.5.6		0			e
+35261	113	*Burmese	khr	khr	fact	fact			8.1		0			
+35262	113	*Burmese	kr	kr	fact / line	fact / line			8.1		0			
+35263	113	*Burmese	?	?	exceed	exceed			9.9		0			e
+35265	113	*Burmese	khl	khl	dung	dung			1.8.5		0			
+35266	113	*Burmese	khr	khr	dry	dry			6.6		0			
+35267	113	*Burmese	kl	kl	dropped	dropped			6.16		0			
+35268	113	*Burmese	khl	khl	drop	drop			6.16		0			
+35269	113	*Burmese	?khr	?khr	dove	dove			2.2.4.1		0			
+35270	113	*Burmese	khl	khl	dent	dent			1.5.3.2		0			
+35271	113	*Burmese	khi	khi	deer (barking)	deer (barking)			2.2.2		0			
+35272	113	*Burmese	kr	kr	debt	debt			5.9		0			
+35273	113	*Burmese	ki	ki	curse	curse			8.5.1		0			
+35274	113	*Burmese	kr	kr	crumbled	crumbled			5.5		0			
+35275	113	*Burmese	?khr	?khr	crumble	crumble			5.5		0			
+35276	113	*Burmese	kl	kl	crow	crow			2.2.4.1		0			
+35277	113	*Burmese	ky	ky	crocodile	crocodile			2.1.6		0			
+35278	113	*Burmese	kr	kr	cowry	cowry			2.2.5		0			
+35279	113	*Burmese	?khr	?khr	cover	cover			5.8		0			
+35280	113	*Burmese	kr	kr	copper	copper			3.2.4		0			
+35281	113	*Burmese	ky	ky	cooked	cooked			5.5		0			
+35282	113	*Burmese	khy	khy	cook	cook			5.5		0			
+35283	113	*Burmese	khy	khy	cold	cold			7.1.2.3		0			
+35284	113	*Burmese	?	?	coax	coax			8.5.7.2		0			e
+35285	113	*Burmese	kr	kr	clear	clear			9.6.1.1		0			
+35286	113	*Burmese	kr	kr	cat	cat			2.1.3		0			
+35287	113	*Burmese	khi	khi	carry	carry			6.2.2.2.1		0			
+35288	113	*Burmese	kl	kl	cancelled	cancelled			6.9		0			
+35289	113	*Burmese	khl	khl	cancel	cancel			6.9		0			
+35290	113	*Burmese	?ki	?ki	calculation	calculation			8.3.1.13.1		0			
+35291	113	*Burmese	khr	khr	bush	bush			3.1.1		0			
+35292	113	*Burmese	kl	kl	buffalo	buffalo			2.1.2		0			
+35293	113	*Burmese	kl	kl	broken	broken			7.1.5.1		0			
+35294	113	*Burmese	khl	khl	break	break			9.5		0			
+35295	113	*Burmese	kr	kr	box	box			5.1		0			
+35297	113	*Burmese	?kr	?kr	boil	boil			6.6		0			
+35298	113	*Burmese	kr	kr	big	big			9.7.2		0			
+35299	113	*Burmese	kr	kr	between	between			9.2.3		0			
+35300	113	*Burmese	khy	khy	bell	bell			5.1		0			
+35301	113	*Burmese	?khr	?khr	basket	basket			5.1		0			
+35302	113	*Burmese	kr	kr	back	back			1.4.8		0			x
+35303	113	*Burmese	?khi	?khi	appoint	appoint			6.2.2.1		0			
+35304	113	*Burmese	?kr	?kr	anticipate	anticipate			8.3.1.7.3		0			

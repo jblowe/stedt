@@ -1,230 +1,230 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-126911	1426	Spiti	zuo	zuo	body	body		1.1.1	1.1	0		4
-126912	1426	Spiti	ye◦wa	ye◦wa	side (right)	side (right)		1.4.5	1.2	0		2786,m
-126913	1426	Spiti	yunma	yunma	side (left)	side (left)		1.4.5	1.3	0		
-126914	1426	Spiti	gyap	gyap	back	back		1.4.8	1.4	0	HIDE	DUPE IN SOURCE
-126915	1426	Spiti	dun	dun	front	front		1.4.4	1.5	0		
-126916	1426	Spiti	kãlag	kãlag	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
-126917	1426	Spiti	pàŋ	pàŋ	lap	lap		1.4.4.2	1.8	0		1255
-126918	1426	Spiti	šà	šà	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34
-126919	1426	Spiti	son◦po/son◦po dice	son◦po/son◦po dice	alive / be living	alive  /  be living		1.1.2.1	1.12	0		77,m,77,m,m
-126920	1426	Spiti	ši◦je	ši◦je	die / be dead	die  /  be dead		1.1.6	1.13	0		27,s
-126921	1426	Spiti	rò	rò	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		19
-126922	1426	Spiti	ñik	ñik	sleep	sleep (n.)	n	1.1.4.1	1.16	0		131
-126923	1426	Spiti	ñyal◦še	ñyal◦še	sleep	sleep (v.)	v	1.1.4.1	1.16	0		129,m
-126924	1426	Spiti	ñik sa◦ce	ñik sace	awake / be awake	awake  /  be awake		1.1.4	1.17	0		131?,150,m
-126925	1426	Spiti	mi◦lam	mi◦lam	dream	dream (n.)	n	1.1.4.2	1.18	0		130,1017
-126926	1426	Spiti	mi◦lam yoŋ◦je	mi◦lam yoŋ◦je	dream	dream (v.)	v	1.1.4.2	1.18	0		130,1017,m,m
-126927	1426	Spiti	gò	gò	head	head		1.2.1	2.1	0		386
-126928	1426	Spiti	tsho◦ma	tsho◦ma	fontanel (soft spots in baby s	fontanel (soft spots in baby s		1.2.1.3	2.3	0		2007,s
-126929	1426	Spiti	thod◦pa	thod◦pa	skull	skull		1.2.1.1	2.4	0		2002,s
-126930	1426	Spiti	let◦pa	let◦pa	brain (physical)	brain (physical)		1.2.4	2.5	0		465,s
-126931	1426	Spiti	rik◦pa	rik◦pa	brain (mental capacity)	brain (mental capacity)		1.2.4	2.5	0		m,s
-126932	1426	Spiti	ṣà	ṣà	hair of head	hair of head		1.2.3	2.7	0	HIDE	DUPE IN SOURCE
-126933	1426	Spiti	kàwi	kàwi	bald	bald		1.2.3.4		0		m
-126934	1426	Spiti	rha◦co	rha◦co	horn (of animal)	horn (of animal)		1.2.2	2.10	0		814,m
-126935	1426	Spiti	rà◦co	rà◦co	horn (of animal)	horn (of animal)		1.2.2	2.10	0		814,m
-126936	1426	Spiti	doŋ	doŋ	face	face		1.2.5	3.1	0		2031
-126937	1426	Spiti	ṣal◦a	ṣal◦a	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		384,s
-126938	1426	Spiti	carsaŋ	carsaŋ	temple	temple		1.2.5.1	3.3	0		
-126939	1426	Spiti	mik	mik	eye	eye		1.2.6	3.4	0		682
-126940	1426	Spiti	mik šok	mik šok	eyelid	eyelid		1.2.6.4	3.4.1	0		682,731
-126941	1426	Spiti	gyal◦mo	gyal◦mo	eyeball	eyeball		1.2.6.1	3.4.2	0		2072,m
-126942	1426	Spiti	mik◦bu	mik◦bu	eyebrow	eyebrow		1.2.6.6	3.4.3	0		682,1228
-126943	1426	Spiti	mik◦šok◦pu	mik◦šok◦pu	eyelash	eyelash		1.2.6.5	3.4.4	0		682,731,1228
-126944	1426	Spiti	mik sup	mik sup	blink	blink (v.)	v	1.2.6.12	3.4.5	0		682,m
-126945	1426	Spiti	mik shup	mik shup	close eye	close eye (v.)	v	6.2.2.6.2	3.4.5	0		682
-126946	1426	Spiti	chi◦ma	chi◦ma	tears	tears		1.2.6.7	3.4.6	0		298,s
-126947	1426	Spiti	ŋo◦je	ŋo◦je	cry  /  weep	cry  /  weep (v.)	v	1.8.8.2	3.4.8	0		1104,m
-126948	1426	Spiti	ta◦je	taje	see  /  look	see  /  look (v.)	v	1.2.6.10	3.4.9	0		5405,m
-126949	1426	Spiti	šara	šara	blind	blind		1.2.6.14.2	3.4.10	0		m
-126950	1426	Spiti	nà	nà	nose	nose		1.2.8	3.5	0		803
-126951	1426	Spiti	na◦yi mi◦kum	na◦yi mikum	nostril	nostril		1.2.8.1	3.5.2	0		803,m,m,809
-126952	1426	Spiti	na◦yi pu	na◦yi pu	nose hair	nose hair		1.2.8	3.5.4	0		803,m,1228
-126953	1426	Spiti	nap◦luk	napluk	liquid mucus	liquid mucus		3.2.3	3.5.6	0		805,m
-126954	1426	Spiti	nau	nau	solid mucus	solid mucus		1.1.5	3.5.7	0		
-126955	1426	Spiti	nau pice	nau pice	blow nose	blow nose (v.)	v	1.3.1.4	3.5.8	0		
-126956	1426	Spiti	num◦je	num◦je	smell  /  sniff	smell  /  sniff (v.)	v	1.2.8.5	3.5.9	0		1415,m
-126957	1426	Spiti	a◦mjok	a◦mjok	ear	ear		1.2.7	3.6	0		p,816
-126958	1426	Spiti	a◦mjok phila	amjok phila	outer ear	outer ear		9.2	3.6.2	0		p,816,m
-126959	1426	Spiti	a◦mjok naŋ	amjok naŋ	inner ear	inner ear		9.2.5	3.6.3	0		p,816,m
-126960	1426	Spiti	ñyaje	ñyaje	hear	hear (v.)	v	1.2.7.4	3.6.7	0		
-126961	1426	Spiti	ondo	ondo	deaf man	deaf man		1.2.7.5	3.6.8	0		
-126962	1426	Spiti	on◦mo	on◦mo	deaf woman	deaf woman		1.2.7.5	3.6.8	0		m,1620
-126963	1426	Spiti	khà	khà	mouth	mouth		1.3.1	3.7	0		273
-126964	1426	Spiti	ya◦ken	ya◦ken	palate	palate		1.3.1.1	3.7.1	0		m,636
-126965	1426	Spiti	ñil	ñil	gums	gums		1.3.4.3	3.7.3	0		504
-126966	1426	Spiti	ñilken	ñilken	uvula	uvula		1.3.5.1	3.7.4	0		
-126967	1426	Spiti	chi◦mak	chimak	saliva	saliva		1.8.3	3.7.5	0		600,m
-126968	1426	Spiti	sa◦je	sa◦je	eat	eat (v.)	v	1.5.3.2	3.7.6	0		36,s
-126969	1426	Spiti	thuŋ◦je	thuŋ◦je	drink	drink (v.)	v		3.7.7	0		502,s
-126970	1426	Spiti	kum◦ḍi yoŋ◦je	kum◦ḍi yoŋ◦je	thirsty	thirsty	be	1.1.3.1	3.7.8	0		116,m,m,m
-126971	1426	Spiti	tore yoŋ◦je	tore yoŋje	hungry	hungry	be	1.1.3	3.7.9	0		m,3550,m
-126972	1426	Spiti	ḍãŋ◦še	ḍãŋ◦še	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		114,m
-126973	1426	Spiti	chimak poje	chimak poje	spit	spit (v.)	v	1.8.3	3.7.11	0		
-126974	1426	Spiti	kyu◦wa	kyu◦wa	vomit	vomit (n.)	n	1.8.3.2	3.7.12	0		1750,s
-126975	1426	Spiti	kyu◦wa kyuk◦ce	kyu◦wa kyuk◦ce	vomit	vomit (v.)	v	1.8.3.2	3.7.13	0		1750,s,1750,s
-126976	1426	Spiti	kha◦ru porše	kharu porše	hold in mouth	hold in mouth (v.)	v	1.3.4.4	3.7.14	0		273,m,m
-126977	1426	Spiti	khà pe◦je	khà pe◦je	gape  /  open mouth	gape  /  open mouth (v.)	v	1.3.1	3.7.15	0		273,m,s
-126978	1426	Spiti	al tonje	al tonje	yawn	yawn (v.)	v	1.3.1.3	3.7.16	0		
-126979	1426	Spiti	ce	ce	tongue	tongue		1.3.3	3.8	0		621
-126980	1426	Spiti	lap taŋ◦je	lap taŋ◦je	speak	speak (v.)	v	8.5.10.1	3.8.1	0		m,1757,s
-126981	1426	Spiti	apdal	apdal	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
-126982	1426	Spiti	kolto	kolto	mute male	mute male		1.5.3.2	3.8.3	0		
-126983	1426	Spiti	kolmo	kolmo	mute femal	mute femal		1.5.3.2	3.8.3	0		
-126984	1426	Spiti	dàk◦ce	dàk◦ce	lick	lick		1.3.3.1	3.8.4	0		629,m
-126985	1426	Spiti	chù◦to	chù◦to	lip	lip		1.3.2	3.9	0		442,2095
-126986	1426	Spiti	chùto yašo	chùto yašo	upper lip	upper lip		9.2.1	3.9.1	0		
-126987	1426	Spiti	chù◦to mašo	chù◦to mašo	lower lip	lower lip			3.9.2	0		442,2095,m
-126988	1426	Spiti	ci sul◦to	ci sul◦to	beak / bill	beak / bill		1.3.1.2	3.9.3	0		m,442,2095
-126989	1426	Spiti	go◦ce	go◦ce	smile	smile (v.)	v	1.8.8.1	3.9.4	0		1116,s
-126990	1426	Spiti	po lenje	po lenje	kiss	kiss		1.3.2.2	3.9.5	0		3450,m
-126991	1426	Spiti	sò	sò	tooth	tooth		1.3.4	3.10	0		632
-126992	1426	Spiti	dun◦sò	dun◦sò	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		796,632
-126993	1426	Spiti	buk◦so	buk◦so	molar	molar		1.3.4.2	3.10.2	0		1176,632
-126994	1426	Spiti	chi◦ya	chi◦ya	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		635,634
-126995	1426	Spiti	omo◦sò	omosò	baby tooth	baby tooth		4.2.11	3.10.5	0		m,632
-126996	1426	Spiti	sona ce◦ce	sona ce◦ce	bite	bite (v.)	v	1.3.4.4	3.10.7	0		m,m,m,s
-126997	1426	Spiti	de◦ce	de◦ce	chew	chew (v.)	v	1.3.4	3.10.8	0		1147,s
-126998	1426	Spiti	ḍam◦pa	ḍam◦pa	cheek	cheek		1.2.5.2	3.11	0		262,s
-126999	1426	Spiti	me◦le	me◦le	chin	chin		1.2.5.3	3.12	0		m,287
-127000	1426	Spiti	tshul◦to	tshul◦to	jaw	jaw		1.2.5.2	3.13	0		m,280
-127001	1426	Spiti	ma◦ken	ma◦ken	lower jaw / mandible	lower jaw  /  mandible		1.2.5.2	3.13.1	0		m,274
-127002	1426	Spiti	ya◦ken	ya◦ken	upper jaw / maxilla	upper jaw  /  maxilla		1.2.5.2	3.13.2	0		m,274
-127003	1426	Spiti	jiŋ◦ba	jiŋ◦ba	neck	neck		1.4.2	4.1	0		479,s
-127004	1426	Spiti	ba	ba	goiter	goiter		1.4.2.2	4.1.1	0		1854
-127005	1426	Spiti	mit◦pa	mit◦pa	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		505,s
-127006	1426	Spiti	ṭhi◦ya	ṭhi◦ya	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		m,m
-127007	1426	Spiti	mit◦pa	mit◦pa	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		505,s
-127008	1426	Spiti	mi◦ce	mi◦ce	swallow	swallow (v.)	v	1.3.5.6	4.2.3	0		505,s
-127009	1426	Spiti	changok	changok	torso	torso		1.5.3.2	5	0		m
-127010	1426	Spiti	ṭhaŋ◦gok	ṭhaŋ◦gok	chest	chest		1.4.4.3	5.1	0		288,5364
-127011	1426	Spiti	si◦wa	si◦wa	rib	rib		1.4.4.3	5.1.2	0		554,s
-127012	1426	Spiti	jiŋ◦ba	jiŋ◦ba	shoulder	shoulder		1.4.3	5.3	0		m,s
-127013	1426	Spiti	todko šuk◦ce	todko šuk◦ce	shrug shoulders	shrug shoulders (v.)	v	1.4.3.3	5.3.2	0		m,m,s
-127014	1426	Spiti	caŋ◦go	caŋ◦go	breast	breast		1.4.4.3	5.4	0		
-127015	1426	Spiti	a◦pu	a◦pu	nipple	nipple			5.4.1	0		
-127016	1426	Spiti	numa	numa	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		
-127017	1426	Spiti	o◦ma	o◦ma	milk	milk			5.4.3	0		3464,s
-127018	1426	Spiti	jip◦ce	jip◦ce	suck	suck		1.3.2.1	5.4.5	0		5541,s
-127019	1426	Spiti	ṣàl◦še	ṣàl◦še	nurse  /  suckle	nurse  /  suckle (v.)	v	4.2.1.5	5.4.6	0		
-127020	1426	Spiti	o◦ma ci◦ce	o◦ma ci◦ce	wean	wean			5.4.7	0		m,m,m,s
-127021	1426	Spiti	gyap	gyap	back	back		1.4.8	5.5	0	D1	213
-127022	1426	Spiti	gyap tud	gyap tud	upper back	upper back		9.2.1	5.5.1	0		213,m
-127023	1426	Spiti	gyap mid	gyap mid	lower back	lower back		1.4.8.1	5.5.2	0		213,m
-127024	1426	Spiti	gyap◦i ri◦wa	gyap◦i ri◦wa	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		213,s,232,m
-127025	1426	Spiti	kuru	kuru	hunchback	hunchback		1.4.8.3	5.5.6	0		m
-127026	1426	Spiti	kyet◦pa	kyet◦pa	waist	waist		1.4.6	5.6	0		217,s
-127027	1426	Spiti	ṭhut◦pa	ṭhut◦pa	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)		1.4.7	5.7	0		2112,m
-127028	1426	Spiti	tiya	tiya	navel	navel		1.9.4	5.7.1	0		519
-127029	1426	Spiti	cõŋ◦to	cõŋ◦to	hips	hips		1.4.9.2	5.8.1	0		
-127030	1426	Spiti	cõŋ◦to ri◦wa	cõŋ◦to ri◦wa	hipbone	hipbone		1.4.9.2	5.8.2	0		m,m,232,s
-127031	1426	Spiti	cõŋ◦to	cõŋ◦to	buttocks	buttocks		1.4.10	5.10.1	0		3331,5639
-127032	1426	Spiti	ŋa◦ma	ŋa◦ma	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		205,s
-127033	1426	Spiti	kaŋ◦doŋ	kaŋ◦doŋ	arm	arm		1.5.1.2	6.1	0		240,711
-127034	1426	Spiti	tsilig	tsilig	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
-127035	1426	Spiti	tsilig coje	tsilig coje	tickle	tickle		1.5.1.2.4	6.1.1.1	0		
-127036	1426	Spiti	kaŋdoŋ gò	kaŋdoŋ gò	upperarm	upperarm		1.5.1.2.1	6.1.2	0		
-127037	1426	Spiti	ṭemo juŋ	ṭemo juŋ	elbow	elbow		1.5.8.3	6.1.4	0		
-127038	1426	Spiti	lak◦pa	lak◦pa	hand	hand		1.5.1.1	6.1.7	0		695,s
-127039	1426	Spiti	lakthil	lakthil	palm	palm		1.5.5	6.1.7.1	0		
-127040	1426	Spiti	multuk	multuk	fist	fist		1.5.1.1.1	6.1.7.3	0		
-127041	1426	Spiti	lak◦pa ye◦wa	lak◦pa ye◦wa	right hand	right hand		1.5.3.2	6.1.7.4	0		695,s,2786,m
-127042	1426	Spiti	lak◦pa yun◦ma	lak◦pa yun◦ma	left hand	left hand		1.5.3.2	6.1.7.5	0		695,s,m,m
-127043	1426	Spiti	cha◦šok	cha◦šok	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		m,731
-127044	1426	Spiti	darmo	darmo	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
-127045	1426	Spiti	kaŋ◦ba	kaŋ◦ba	leg	leg		1.5.7	6.2	0		336,m
-127046	1426	Spiti	laša	laša	thigh	thigh		1.5.7.1	6.2.1	0		
-127047	1426	Spiti	pilmo	pilmo	knee	knee		1.5.8.4	6.2.2	0		
-127048	1426	Spiti	pilmo meloŋ	pilmo meloŋ	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		
-127049	1426	Spiti	gitpa	gitpa	calf	calf		1.5.7	6.2.4	0		
-127050	1426	Spiti	muklò	muklò	ankle	ankle		1.5.8.2	6.2.5	0		
-127051	1426	Spiti	kaŋ◦ba	kaŋ◦ba	foot	foot		1.5.2	6.2.6	0		336,s
-127052	1426	Spiti	tiŋ◦pa	tiŋpa	heel	heel		1.5.2.1	6.2.6.1	0		394,s
-127053	1426	Spiti	kaŋ◦thil	kaŋ◦thil	sole	sole		1.5.5	6.2.6.5	0		336,m
-127054	1426	Spiti	kaŋ◦je	kaŋ◦je	footprint	footprint		1.5.2.5	6.2.6.7	0		336,m
-127055	1426	Spiti	tirawo	tirawo	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		
-127056	1426	Spiti	kaŋdum	kaŋdum	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-127057	1426	Spiti	thaŋce	thaŋce	limp	limp (v.)	v	1.5.12	6.2.8	0		
-127058	1426	Spiti	zugu	zugu	finger	finger		1.5.6	7.1	0		
-127059	1426	Spiti	zugu juŋma	zugu juŋma	middle finger	middle finger		1.9.4	7.1.2	0		
-127060	1426	Spiti	thip cuŋma	thip cuŋma	little finger	little finger		9.7.2	7.1.4	0		
-127061	1426	Spiti	thewo	thewo	thumb	thumb		1.5.6.1	7.1.5	0		
-127062	1426	Spiti	sen◦mo	senmo	nail	nail		1.5.10	7.4	0		512,s
-127063	1426	Spiti	pu	pu	hair (general)	hair (general)		1.2.3	8.1	0		1228
-127064	1426	Spiti	ṣà	ṣà	hair of head	hair of head		1.2.3	8.1.1	0	D1	366
-127065	1426	Spiti	khi◦wu	khi◦wu	beard	beard		1.2.5.5	8.1.2.1	0		m,1228
-127066	1426	Spiti	khi◦wu	khi◦wu	moustache	moustache		1.2.5.5	8.1.2.3	0		
-127067	1426	Spiti	zui bu	zui bu	body hair	body hair		1.6.1	8.1.3	0		4,1902
-127068	1426	Spiti	ce◦pu	ce◦pu	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		m,1228
-127069	1426	Spiti	ti si◦ya	ti si◦ya	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		m,m
-127070	1426	Spiti	pa◦wo	pa◦wo	skin	skin		1.6.5	8.2	0		588,s
-127071	1426	Spiti	chet◦pa	chet◦pa	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		m,s
-127072	1426	Spiti	phol	phol	pimple	pimple		1.6.5.3	8.2.3.2	0		
-127073	1426	Spiti	mi◦yã	miyã	mole	mole		2.2.7	8.2.3.3	0		2447,m
-127074	1426	Spiti	je	je	scar	scar		1.6.5.3	8.2.3.7	0		
-127075	1426	Spiti	ceti je	ceti je	scar of a cut	scar of a cut		1.6.5.3	8.2.3.7	0		
-127076	1426	Spiti	sul	sul	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
-127077	1426	Spiti	ŋò (n.)	ŋò (n.)	itch	itch (n.)	n	1.6.5.5	8.2.3.10	0		m
-127078	1426	Spiti	ŋò	ŋò	scab	scab		1.6.5.3	8.2.4	0		
-127079	1426	Spiti	ku◦wa	ku◦wa	hide / leather (dried animal s	hide  /  leather (dried animal s		1.6.5.1	8.2.6	0		589,s
-127080	1426	Spiti	ḍõ◦bo	ḍõ◦bo	fat	fat		1.6.4	8.3	0		
-127081	1426	Spiti	tsil	tsil	fat around intestines / omentum	fat around intestines / omentum		1.6.4	8.3.1	0		48
-127082	1426	Spiti	mar◦ku	mar◦ku	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		1470,1440
-127083	1426	Spiti	rui◦wa	rui◦wa	bone	bone		1.6.3	8.4	0		232,m
-127084	1426	Spiti	zui ḍui◦wa	zui ḍui◦wa	skeleton	skeleton		1.6.3.1	8.4.1	0		4,232,s
-127085	1426	Spiti	kàŋ	kàŋ	marrow	marrow		1.6.3.5	8.4.3	0		459
-127086	1426	Spiti	ṭhak	ṭhak	blood	blood		1.6.2	8.7	0		231
-127087	1426	Spiti	tsà	tsà	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		530
-127088	1426	Spiti	ṭhà tonje	ṭhà tonje	bleed	bleed (v.)	v	1.6.2	8.7.2	0		231,m
-127089	1426	Spiti	thud	thud	joint	joint		1.5.8	8.9	0		
-127090	1426	Spiti	lu◦a	lu◦a	lung	lung		1.7.2	9.2	0		2121,m
-127091	1426	Spiti	u◦ton◦je	u◦ton◦je	breathe	breathe (v.)	v	1.1.2.2	9.2.1	0		65,m,m
-127092	1426	Spiti	lut◦pa	lut◦pa	phlegm	phlegm		1.8.3	9.2.5	0		
-127093	1426	Spiti	ñiŋ	ñiŋ	heart	heart		1.7.1	9.3	0		251
-127094	1426	Spiti	ñiŋ dapce	ñiŋ dapce	heartbeat	heartbeat		1.7.1.1	9.3.1	0		251
-127095	1426	Spiti	tsà	tsà	pulse	pulse		1.7.1.1	9.3.2	0		530
-127096	1426	Spiti	chin◦ba	chinba	liver	liver		1.7.3	9.5	0		1390,s
-127097	1426	Spiti	ṭhiwa	ṭhiwa	gall bladder	gall bladder		1.7.3	9.5.2	0		
-127098	1426	Spiti	paŋ pilik	paŋ pilik	kidney	kidney		1.7.5	9.6	0		778,m
-127099	1426	Spiti	koto	koto	urinary bladder	urinary bladder		1.7.8	9.7	0		
-127100	1426	Spiti	cin	cin	urine	urine		1.8.4	9.7.1	0		650
-127101	1426	Spiti	zak	zak	urine	urine		1.8.4	9.7.1	0		m
-127102	1426	Spiti	chi◦chi	chi◦chi	urine	urine		1.8.4	9.7.1	0		650,650
-127103	1426	Spiti	cin tanje	cin tanje	urinate	urinate (v.)	v	1.5.3.2	9.7.2	0		650,m
-127104	1426	Spiti	ṭhot◦pi naŋ	ṭhot◦pi naŋ	stomach	stomach		1.7.6	9.10	0		m,s,2118
-127105	1426	Spiti	gyu◦tod	gyutod	large intestine	large intestine		1.7.7	9.11.1	0		2116,m
-127106	1426	Spiti	gyu◦met	gyumet	small intestine	small intestine		9.7.2	9.11.2	0		2116,m
-127107	1426	Spiti	kya◦kup	kya◦kup	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		577,405
-127108	1426	Spiti	a◦ka	a◦ka	feces / shit	feces  /  shit		1.8.5	9.12.1	0		p,m
-127109	1426	Spiti	kyakpa	kyakpa	meconium / baby shit	meconium  /  baby shit		1.8.5	9.12.2	0		
-127110	1426	Spiti	kyakpa tanje	kyakpa tanje	defecate	defecate (v.)	v	1.8.5.4	9.12.3	0		
-127111	1426	Spiti	jo◦je	jo◦je	copulate	copulate		1.9.1.1	10.2	0		3470,3475
-127112	1426	Spiti	phu◦tsa	phu◦tsa	male	male		1.9.6.1	10.3	0		1635,m
-127113	1426	Spiti	koto	koto	penis	penis			10.3.1	0		3420
-127114	1426	Spiti	bu◦tsu	bu◦tsu	penis	penis			10.3.1	0		m,3423
-127115	1426	Spiti	lik◦pa	lik◦pa	testicle	testicle			10.3.5	0		1286,s
-127116	1426	Spiti	mi◦yu	mi◦yu	male pubic hair	male pubic hair			10.3.6	0		1002,m
-127117	1426	Spiti	ṭin	ṭin	semen	semen			10.3.7	0		
-127118	1426	Spiti	men coje	men coje	castrate	castrate (v.)	v	1.9.2.3	10.3.9	0		475,m
-127119	1426	Spiti	po◦mo	po◦mo	female	female		1.9.3	10.4	0		m,1620
-127120	1426	Spiti	tu˜◦kup	tu˜◦kup	vagina	vagina			10.4.1	0		661,405
-127121	1426	Spiti	pui◦net	pui◦net	womb	womb			10.4.8	0		1633,471
-127122	1426	Spiti	ti◦ya	ti◦ya	umbilical cord	umbilical cord			10.4.12	0		
-127123	1426	Spiti	ṭu caŋše	ṭu caŋše	pregnant	pregnant	be	1.9.6.1	10.4.14	0		
-127124	1426	Spiti	ṭu ke◦ze	ṭu ke◦ze	birth, give	birth, give		1.1.2	10.4.15	0		m,95,m
-127125	1426	Spiti	gõ-ŋa	gõ-ŋa	egg (of animal)	egg (of animal)			10.4.16	0		305,1610
-127126	1426	Spiti	lut◦pa	lut◦pa	cough	cough		1.8.3.3	11.1	0		
-127127	1426	Spiti	ik	ik	hiccup	hiccup		1.8.3.5	11.2	0		3443
-127128	1426	Spiti	rit◦pa	rit◦pa	sneeze	sneeze		1.8.2.1	11.3	0		2130,s
-127129	1426	Spiti	al	al	snore	snore		1.8.2.2	11.4	0		1785
-127130	1426	Spiti	šui◦wa	šui◦wa	whistle	whistle		8.5.5	11.5	0		m,m
-127131	1426	Spiti	gar◦wa	garwa	burp / belch	burp  /  belch		1.8.3	11.6	0		bIndic,s
-127132	1426	Spiti	phen	phen	fart	fart		1.8.5.2	11.7	0		311
-127133	1426	Spiti	go◦ce	go◦ce	laugh	laugh		1.8.8.1	11.9	0		1116,s
-127134	1426	Spiti	dar◦še	darše	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		5570,m
-127135	1426	Spiti	tshozar yonje	tshozar yonje	sick / be ill / hurt	sick  /  be ill  /  hurt	be	1.1.5.1	12.2	0		
-127136	1426	Spiti	bed bed doje	bed bed doje	numb /  be paralyzed	numb  /   be paralyzed	be	1.5.11	12.3	0		
-127137	1426	Spiti	boiše	boiše	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
-127138	1426	Spiti	nak	nak	pus	pus		1.8.6.1	12.5	0		1297
-127139	1426	Spiti	ṭhù	ṭhù	hand span	hand span		1.5.9.4	13.2	0		1281
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+126911	1426	Spiti	zuo	zuo	body	body			1.1.1	1.1	0			4
+126912	1426	Spiti	ye◦wa	ye◦wa	side (right)	side (right)			1.4.5	1.2	0			2786,m
+126913	1426	Spiti	yunma	yunma	side (left)	side (left)			1.4.5	1.3	0			
+126914	1426	Spiti	gyap	gyap	back	back			1.4.8	1.4	0	jbl5	HIDE	DUPE IN SOURCE
+126915	1426	Spiti	dun	dun	front	front			1.4.4	1.5	0			
+126916	1426	Spiti	kãlag	kãlag	limbs / arms and legs	limbs  /  arms and legs			1.5.3.1	1.7	0	jbl3		
+126917	1426	Spiti	pàŋ	pàŋ	lap	lap			1.4.4.2	1.8	0			1255
+126918	1426	Spiti	šà	šà	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		34
+126919	1426	Spiti	son◦po/son◦po dice	son◦po/son◦po dice	alive / be living	alive  /  be living			1.1.2.1	1.12	0	jbl3		77,m,77,m,m
+126920	1426	Spiti	ši◦je	ši◦je	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		27,s
+126921	1426	Spiti	rò	rò	corpse / dead body	corpse  /  dead body			1.1.6.1	1.14	0	jbl3		19
+126922	1426	Spiti	ñik	ñik	sleep	sleep (n.)	n		1.1.4.1	1.16	0	dwb33		131
+126923	1426	Spiti	ñyal◦še	ñyal◦še	sleep	sleep (v.)	v		1.1.4.1	1.16	0	dwb21		129,m
+126924	1426	Spiti	ñik sa◦ce	ñik sace	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		131?,150,m
+126925	1426	Spiti	mi◦lam	mi◦lam	dream	dream (n.)	n		1.1.4.2	1.18	0	dwb33		130,1017
+126926	1426	Spiti	mi◦lam yoŋ◦je	mi◦lam yoŋ◦je	dream	dream (v.)	v		1.1.4.2	1.18	0	dwb21		130,1017,m,m
+126927	1426	Spiti	gò	gò	head	head			1.2.1	2.1	0			386
+126928	1426	Spiti	tsho◦ma	tsho◦ma	fontanel (soft spots in baby s	fontanel (soft spots in baby s			1.2.1.3	2.3	0			2007,s
+126929	1426	Spiti	thod◦pa	thod◦pa	skull	skull			1.2.1.1	2.4	0			2002,s
+126930	1426	Spiti	let◦pa	let◦pa	brain (physical)	brain (physical)			1.2.4	2.5	0			465,s
+126931	1426	Spiti	rik◦pa	rik◦pa	brain (mental capacity)	brain (mental capacity)			1.2.4	2.5	0			m,s
+126932	1426	Spiti	ṣà	ṣà	hair of head	hair of head			1.2.3	2.7	0	jbl5	HIDE	DUPE IN SOURCE
+126933	1426	Spiti	kàwi	kàwi	bald	bald			1.2.3.4		0			m
+126934	1426	Spiti	rha◦co	rha◦co	horn (of animal)	horn (of animal)			1.2.2	2.10	0			814,m
+126935	1426	Spiti	rà◦co	rà◦co	horn (of animal)	horn (of animal)			1.2.2	2.10	0			814,m
+126936	1426	Spiti	doŋ	doŋ	face	face			1.2.5	3.1	0			2031
+126937	1426	Spiti	ṣal◦a	ṣal◦a	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		384,s
+126938	1426	Spiti	carsaŋ	carsaŋ	temple	temple			1.2.5.1	3.3	0			
+126939	1426	Spiti	mik	mik	eye	eye			1.2.6	3.4	0			682
+126940	1426	Spiti	mik šok	mik šok	eyelid	eyelid			1.2.6.4	3.4.1	0			682,731
+126941	1426	Spiti	gyal◦mo	gyal◦mo	eyeball	eyeball			1.2.6.1	3.4.2	0			2072,m
+126942	1426	Spiti	mik◦bu	mik◦bu	eyebrow	eyebrow			1.2.6.6	3.4.3	0			682,1228
+126943	1426	Spiti	mik◦šok◦pu	mik◦šok◦pu	eyelash	eyelash			1.2.6.5	3.4.4	0			682,731,1228
+126944	1426	Spiti	mik sup	mik sup	blink	blink (v.)	v		1.2.6.12	3.4.5	0	dwb21		682,m
+126945	1426	Spiti	mik shup	mik shup	close eye	close eye (v.)	v		6.2.2.6.2	3.4.5	0	dwb21		682
+126946	1426	Spiti	chi◦ma	chi◦ma	tears	tears			1.2.6.7	3.4.6	0			298,s
+126947	1426	Spiti	ŋo◦je	ŋo◦je	cry  /  weep	cry  /  weep (v.)	v		1.8.8.2	3.4.8	0	dwb21		1104,m
+126948	1426	Spiti	ta◦je	taje	see  /  look	see  /  look (v.)	v		1.2.6.10	3.4.9	0	dwb21		5405,m
+126949	1426	Spiti	šara	šara	blind	blind			1.2.6.14.2	3.4.10	0			m
+126950	1426	Spiti	nà	nà	nose	nose			1.2.8	3.5	0			803
+126951	1426	Spiti	na◦yi mi◦kum	na◦yi mikum	nostril	nostril			1.2.8.1	3.5.2	0			803,m,m,809
+126952	1426	Spiti	na◦yi pu	na◦yi pu	nose hair	nose hair			1.2.8	3.5.4	0			803,m,1228
+126953	1426	Spiti	nap◦luk	napluk	liquid mucus	liquid mucus			3.2.3	3.5.6	0			805,m
+126954	1426	Spiti	nau	nau	solid mucus	solid mucus			1.1.5	3.5.7	0			
+126955	1426	Spiti	nau pice	nau pice	blow nose	blow nose (v.)	v		1.3.1.4	3.5.8	0	dwb21		
+126956	1426	Spiti	num◦je	num◦je	smell  /  sniff	smell  /  sniff (v.)	v		1.2.8.5	3.5.9	0	dwb21		1415,m
+126957	1426	Spiti	a◦mjok	a◦mjok	ear	ear			1.2.7	3.6	0			p,816
+126958	1426	Spiti	a◦mjok phila	amjok phila	outer ear	outer ear			9.2	3.6.2	0			p,816,m
+126959	1426	Spiti	a◦mjok naŋ	amjok naŋ	inner ear	inner ear			9.2.5	3.6.3	0			p,816,m
+126960	1426	Spiti	ñyaje	ñyaje	hear	hear (v.)	v		1.2.7.4	3.6.7	0	dwb21		
+126961	1426	Spiti	ondo	ondo	deaf man	deaf man			1.2.7.5	3.6.8	0			
+126962	1426	Spiti	on◦mo	on◦mo	deaf woman	deaf woman			1.2.7.5	3.6.8	0			m,1620
+126963	1426	Spiti	khà	khà	mouth	mouth			1.3.1	3.7	0			273
+126964	1426	Spiti	ya◦ken	ya◦ken	palate	palate			1.3.1.1	3.7.1	0			m,636
+126965	1426	Spiti	ñil	ñil	gums	gums			1.3.4.3	3.7.3	0			504
+126966	1426	Spiti	ñilken	ñilken	uvula	uvula			1.3.5.1	3.7.4	0			
+126967	1426	Spiti	chi◦mak	chimak	saliva	saliva			1.8.3	3.7.5	0			600,m
+126968	1426	Spiti	sa◦je	sa◦je	eat	eat (v.)	v		1.5.3.2	3.7.6	0	dwb21		36,s
+126969	1426	Spiti	thuŋ◦je	thuŋ◦je	drink	drink (v.)	v			3.7.7	0	dwb21		502,s
+126970	1426	Spiti	kum◦ḍi yoŋ◦je	kum◦ḍi yoŋ◦je	thirsty	thirsty	be	be	1.1.3.1	3.7.8	0			116,m,m,m
+126971	1426	Spiti	tore yoŋ◦je	tore yoŋje	hungry	hungry	be	be	1.1.3	3.7.9	0			m,3550,m
+126972	1426	Spiti	ḍãŋ◦še	ḍãŋ◦še	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		114,m
+126973	1426	Spiti	chimak poje	chimak poje	spit	spit (v.)	v		1.8.3	3.7.11	0	dwb21		
+126974	1426	Spiti	kyu◦wa	kyu◦wa	vomit	vomit (n.)	n		1.8.3.2	3.7.12	0	dwb33		1750,s
+126975	1426	Spiti	kyu◦wa kyuk◦ce	kyu◦wa kyuk◦ce	vomit	vomit (v.)	v		1.8.3.2	3.7.13	0	dwb21		1750,s,1750,s
+126976	1426	Spiti	kha◦ru porše	kharu porše	hold in mouth	hold in mouth (v.)	v		1.3.4.4	3.7.14	0	dwb21		273,m,m
+126977	1426	Spiti	khà pe◦je	khà pe◦je	gape  /  open mouth	gape  /  open mouth (v.)	v		1.3.1	3.7.15	0	dwb21		273,m,s
+126978	1426	Spiti	al tonje	al tonje	yawn	yawn (v.)	v		1.3.1.3	3.7.16	0	dwb21		
+126979	1426	Spiti	ce	ce	tongue	tongue			1.3.3	3.8	0			621
+126980	1426	Spiti	lap taŋ◦je	lap taŋ◦je	speak	speak (v.)	v		8.5.10.1	3.8.1	0	dwb21		m,1757,s
+126981	1426	Spiti	apdal	apdal	stutter / stammer	stutter  /  stammer			8.5.4.5	3.8.2	0	jbl3		
+126982	1426	Spiti	kolto	kolto	mute male	mute male			1.5.3.2	3.8.3	0			
+126983	1426	Spiti	kolmo	kolmo	mute femal	mute femal			1.5.3.2	3.8.3	0			
+126984	1426	Spiti	dàk◦ce	dàk◦ce	lick	lick			1.3.3.1	3.8.4	0			629,m
+126985	1426	Spiti	chù◦to	chù◦to	lip	lip			1.3.2	3.9	0			442,2095
+126986	1426	Spiti	chùto yašo	chùto yašo	upper lip	upper lip			9.2.1	3.9.1	0			
+126987	1426	Spiti	chù◦to mašo	chù◦to mašo	lower lip	lower lip				3.9.2	0			442,2095,m
+126988	1426	Spiti	ci sul◦to	ci sul◦to	beak / bill	beak / bill			1.3.1.2	3.9.3	0			m,442,2095
+126989	1426	Spiti	go◦ce	go◦ce	smile	smile (v.)	v		1.8.8.1	3.9.4	0	dwb21		1116,s
+126990	1426	Spiti	po lenje	po lenje	kiss	kiss			1.3.2.2	3.9.5	0			3450,m
+126991	1426	Spiti	sò	sò	tooth	tooth			1.3.4	3.10	0			632
+126992	1426	Spiti	dun◦sò	dun◦sò	tooth (incisor)	tooth (incisor)			1.3.4	3.10.1	0			796,632
+126993	1426	Spiti	buk◦so	buk◦so	molar	molar			1.3.4.2	3.10.2	0			1176,632
+126994	1426	Spiti	chi◦ya	chi◦ya	tooth (wisdom)	tooth (wisdom)			1.3.4	3.10.4	0			635,634
+126995	1426	Spiti	omo◦sò	omosò	baby tooth	baby tooth			4.2.11	3.10.5	0			m,632
+126996	1426	Spiti	sona ce◦ce	sona ce◦ce	bite	bite (v.)	v		1.3.4.4	3.10.7	0	dwb21		m,m,m,s
+126997	1426	Spiti	de◦ce	de◦ce	chew	chew (v.)	v		1.3.4	3.10.8	0	dwb21		1147,s
+126998	1426	Spiti	ḍam◦pa	ḍam◦pa	cheek	cheek			1.2.5.2	3.11	0			262,s
+126999	1426	Spiti	me◦le	me◦le	chin	chin			1.2.5.3	3.12	0			m,287
+127000	1426	Spiti	tshul◦to	tshul◦to	jaw	jaw			1.2.5.2	3.13	0			m,280
+127001	1426	Spiti	ma◦ken	ma◦ken	lower jaw / mandible	lower jaw  /  mandible			1.2.5.2	3.13.1	0	jbl3		m,274
+127002	1426	Spiti	ya◦ken	ya◦ken	upper jaw / maxilla	upper jaw  /  maxilla			1.2.5.2	3.13.2	0	jbl3		m,274
+127003	1426	Spiti	jiŋ◦ba	jiŋ◦ba	neck	neck			1.4.2	4.1	0			479,s
+127004	1426	Spiti	ba	ba	goiter	goiter			1.4.2.2	4.1.1	0			1854
+127005	1426	Spiti	mit◦pa	mit◦pa	adam's apple / larynx	adam's apple  /  larynx			1.5.3.2	4.1.4	0	jbl3		505,s
+127006	1426	Spiti	ṭhi◦ya	ṭhi◦ya	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		m,m
+127007	1426	Spiti	mit◦pa	mit◦pa	windpipe / trachea	windpipe  /  trachea			1.3.5.2	4.2.1	0	jbl3		505,s
+127008	1426	Spiti	mi◦ce	mi◦ce	swallow	swallow (v.)	v		1.3.5.6	4.2.3	0	dwb21		505,s
+127009	1426	Spiti	changok	changok	torso	torso			1.5.3.2	5	0			m
+127010	1426	Spiti	ṭhaŋ◦gok	ṭhaŋ◦gok	chest	chest			1.4.4.3	5.1	0			288,5364
+127011	1426	Spiti	si◦wa	si◦wa	rib	rib			1.4.4.3	5.1.2	0			554,s
+127012	1426	Spiti	jiŋ◦ba	jiŋ◦ba	shoulder	shoulder			1.4.3	5.3	0			m,s
+127013	1426	Spiti	todko šuk◦ce	todko šuk◦ce	shrug shoulders	shrug shoulders (v.)	v		1.4.3.3	5.3.2	0	dwb21		m,m,s
+127014	1426	Spiti	caŋ◦go	caŋ◦go	breast	breast			1.4.4.3	5.4	0			
+127015	1426	Spiti	a◦pu	a◦pu	nipple	nipple				5.4.1	0			
+127016	1426	Spiti	numa	numa	udder (of cow, goat)	udder (of cow, goat)				5.4.2	0			
+127017	1426	Spiti	o◦ma	o◦ma	milk	milk				5.4.3	0			3464,s
+127018	1426	Spiti	jip◦ce	jip◦ce	suck	suck			1.3.2.1	5.4.5	0			5541,s
+127019	1426	Spiti	ṣàl◦še	ṣàl◦še	nurse  /  suckle	nurse  /  suckle (v.)	v		4.2.1.5	5.4.6	0	dwb21		
+127020	1426	Spiti	o◦ma ci◦ce	o◦ma ci◦ce	wean	wean				5.4.7	0			m,m,m,s
+127021	1426	Spiti	gyap	gyap	back	back			1.4.8	5.5	0		D1	213
+127022	1426	Spiti	gyap tud	gyap tud	upper back	upper back			9.2.1	5.5.1	0			213,m
+127023	1426	Spiti	gyap mid	gyap mid	lower back	lower back			1.4.8.1	5.5.2	0			213,m
+127024	1426	Spiti	gyap◦i ri◦wa	gyap◦i ri◦wa	backbone / spine	backbone / spine			1.4.8.2	5.5.4	0			213,s,232,m
+127025	1426	Spiti	kuru	kuru	hunchback	hunchback			1.4.8.3	5.5.6	0			m
+127026	1426	Spiti	kyet◦pa	kyet◦pa	waist	waist			1.4.6	5.6	0			217,s
+127027	1426	Spiti	ṭhut◦pa	ṭhut◦pa	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)			1.4.7	5.7	0	jbl3		2112,m
+127028	1426	Spiti	tiya	tiya	navel	navel			1.9.4	5.7.1	0			519
+127029	1426	Spiti	cõŋ◦to	cõŋ◦to	hips	hips			1.4.9.2	5.8.1	0			
+127030	1426	Spiti	cõŋ◦to ri◦wa	cõŋ◦to ri◦wa	hipbone	hipbone			1.4.9.2	5.8.2	0			m,m,232,s
+127031	1426	Spiti	cõŋ◦to	cõŋ◦to	buttocks	buttocks			1.4.10	5.10.1	0			3331,5639
+127032	1426	Spiti	ŋa◦ma	ŋa◦ma	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			205,s
+127033	1426	Spiti	kaŋ◦doŋ	kaŋ◦doŋ	arm	arm			1.5.1.2	6.1	0			240,711
+127034	1426	Spiti	tsilig	tsilig	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		
+127035	1426	Spiti	tsilig coje	tsilig coje	tickle	tickle			1.5.1.2.4	6.1.1.1	0			
+127036	1426	Spiti	kaŋdoŋ gò	kaŋdoŋ gò	upperarm	upperarm			1.5.1.2.1	6.1.2	0			
+127037	1426	Spiti	ṭemo juŋ	ṭemo juŋ	elbow	elbow			1.5.8.3	6.1.4	0			
+127038	1426	Spiti	lak◦pa	lak◦pa	hand	hand			1.5.1.1	6.1.7	0			695,s
+127039	1426	Spiti	lakthil	lakthil	palm	palm			1.5.5	6.1.7.1	0			
+127040	1426	Spiti	multuk	multuk	fist	fist			1.5.1.1.1	6.1.7.3	0			
+127041	1426	Spiti	lak◦pa ye◦wa	lak◦pa ye◦wa	right hand	right hand			1.5.3.2	6.1.7.4	0			695,s,2786,m
+127042	1426	Spiti	lak◦pa yun◦ma	lak◦pa yun◦ma	left hand	left hand			1.5.3.2	6.1.7.5	0			695,s,m,m
+127043	1426	Spiti	cha◦šok	cha◦šok	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			m,731
+127044	1426	Spiti	darmo	darmo	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			
+127045	1426	Spiti	kaŋ◦ba	kaŋ◦ba	leg	leg			1.5.7	6.2	0			336,m
+127046	1426	Spiti	laša	laša	thigh	thigh			1.5.7.1	6.2.1	0			
+127047	1426	Spiti	pilmo	pilmo	knee	knee			1.5.8.4	6.2.2	0			
+127048	1426	Spiti	pilmo meloŋ	pilmo meloŋ	knee cap / patella	knee cap  /  patella			1.5.8.4	6.2.2.1	0	jbl3		
+127049	1426	Spiti	gitpa	gitpa	calf	calf			1.5.7	6.2.4	0			
+127050	1426	Spiti	muklò	muklò	ankle	ankle			1.5.8.2	6.2.5	0			
+127051	1426	Spiti	kaŋ◦ba	kaŋ◦ba	foot	foot			1.5.2	6.2.6	0			336,s
+127052	1426	Spiti	tiŋ◦pa	tiŋpa	heel	heel			1.5.2.1	6.2.6.1	0			394,s
+127053	1426	Spiti	kaŋ◦thil	kaŋ◦thil	sole	sole			1.5.5	6.2.6.5	0			336,m
+127054	1426	Spiti	kaŋ◦je	kaŋ◦je	footprint	footprint			1.5.2.5	6.2.6.7	0			336,m
+127055	1426	Spiti	tirawo	tirawo	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			
+127056	1426	Spiti	kaŋdum	kaŋdum	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+127057	1426	Spiti	thaŋce	thaŋce	limp	limp (v.)	v		1.5.12	6.2.8	0	dwb21		
+127058	1426	Spiti	zugu	zugu	finger	finger			1.5.6	7.1	0			
+127059	1426	Spiti	zugu juŋma	zugu juŋma	middle finger	middle finger			1.9.4	7.1.2	0			
+127060	1426	Spiti	thip cuŋma	thip cuŋma	little finger	little finger			9.7.2	7.1.4	0			
+127061	1426	Spiti	thewo	thewo	thumb	thumb			1.5.6.1	7.1.5	0			
+127062	1426	Spiti	sen◦mo	senmo	nail	nail			1.5.10	7.4	0			512,s
+127063	1426	Spiti	pu	pu	hair (general)	hair (general)			1.2.3	8.1	0			1228
+127064	1426	Spiti	ṣà	ṣà	hair of head	hair of head			1.2.3	8.1.1	0		D1	366
+127065	1426	Spiti	khi◦wu	khi◦wu	beard	beard			1.2.5.5	8.1.2.1	0			m,1228
+127066	1426	Spiti	khi◦wu	khi◦wu	moustache	moustache			1.2.5.5	8.1.2.3	0			
+127067	1426	Spiti	zui bu	zui bu	body hair	body hair			1.6.1	8.1.3	0			4,1902
+127068	1426	Spiti	ce◦pu	ce◦pu	feather (of bird)	feather (of bird)			1.6.1.1	8.1.5	0			m,1228
+127069	1426	Spiti	ti si◦ya	ti si◦ya	mane (of horse, lion)	mane (of horse, lion)			1.6.1	8.1.6	0			m,m
+127070	1426	Spiti	pa◦wo	pa◦wo	skin	skin			1.6.5	8.2	0			588,s
+127071	1426	Spiti	chet◦pa	chet◦pa	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		m,s
+127072	1426	Spiti	phol	phol	pimple	pimple			1.6.5.3	8.2.3.2	0			
+127073	1426	Spiti	mi◦yã	miyã	mole	mole			2.2.7	8.2.3.3	0			2447,m
+127074	1426	Spiti	je	je	scar	scar			1.6.5.3	8.2.3.7	0			
+127075	1426	Spiti	ceti je	ceti je	scar of a cut	scar of a cut			1.6.5.3	8.2.3.7	0			
+127076	1426	Spiti	sul	sul	wrinkle	wrinkle			9.6.2	8.2.3.8	0			
+127077	1426	Spiti	ŋò (n.)	ŋò (n.)	itch	itch (n.)	n		1.6.5.5	8.2.3.10	0	dwb33		m
+127078	1426	Spiti	ŋò	ŋò	scab	scab			1.6.5.3	8.2.4	0			
+127079	1426	Spiti	ku◦wa	ku◦wa	hide / leather (dried animal s	hide  /  leather (dried animal s			1.6.5.1	8.2.6	0	jbl3		589,s
+127080	1426	Spiti	ḍõ◦bo	ḍõ◦bo	fat	fat			1.6.4	8.3	0			
+127081	1426	Spiti	tsil	tsil	fat around intestines / omentum	fat around intestines / omentum			1.6.4	8.3.1	0	jbl2		48
+127082	1426	Spiti	mar◦ku	mar◦ku	oil / grease (for cooking)	oil  /  grease (for cooking)			1.6.4.1	8.3.2	0	jbl3		1470,1440
+127083	1426	Spiti	rui◦wa	rui◦wa	bone	bone			1.6.3	8.4	0			232,m
+127084	1426	Spiti	zui ḍui◦wa	zui ḍui◦wa	skeleton	skeleton			1.6.3.1	8.4.1	0			4,232,s
+127085	1426	Spiti	kàŋ	kàŋ	marrow	marrow			1.6.3.5	8.4.3	0			459
+127086	1426	Spiti	ṭhak	ṭhak	blood	blood			1.6.2	8.7	0			231
+127087	1426	Spiti	tsà	tsà	blood vessel / vein / artery	blood vessel  /  vein  /  artery			1.6.2.1	8.7.1	0	jbl3		530
+127088	1426	Spiti	ṭhà tonje	ṭhà tonje	bleed	bleed (v.)	v		1.6.2	8.7.2	0	dwb21		231,m
+127089	1426	Spiti	thud	thud	joint	joint			1.5.8	8.9	0			
+127090	1426	Spiti	lu◦a	lu◦a	lung	lung			1.7.2	9.2	0			2121,m
+127091	1426	Spiti	u◦ton◦je	u◦ton◦je	breathe	breathe (v.)	v		1.1.2.2	9.2.1	0	dwb21		65,m,m
+127092	1426	Spiti	lut◦pa	lut◦pa	phlegm	phlegm			1.8.3	9.2.5	0			
+127093	1426	Spiti	ñiŋ	ñiŋ	heart	heart			1.7.1	9.3	0			251
+127094	1426	Spiti	ñiŋ dapce	ñiŋ dapce	heartbeat	heartbeat			1.7.1.1	9.3.1	0			251
+127095	1426	Spiti	tsà	tsà	pulse	pulse			1.7.1.1	9.3.2	0			530
+127096	1426	Spiti	chin◦ba	chinba	liver	liver			1.7.3	9.5	0			1390,s
+127097	1426	Spiti	ṭhiwa	ṭhiwa	gall bladder	gall bladder			1.7.3	9.5.2	0			
+127098	1426	Spiti	paŋ pilik	paŋ pilik	kidney	kidney			1.7.5	9.6	0			778,m
+127099	1426	Spiti	koto	koto	urinary bladder	urinary bladder			1.7.8	9.7	0			
+127100	1426	Spiti	cin	cin	urine	urine			1.8.4	9.7.1	0			650
+127101	1426	Spiti	zak	zak	urine	urine			1.8.4	9.7.1	0			m
+127102	1426	Spiti	chi◦chi	chi◦chi	urine	urine			1.8.4	9.7.1	0			650,650
+127103	1426	Spiti	cin tanje	cin tanje	urinate	urinate (v.)	v		1.5.3.2	9.7.2	0	dwb21		650,m
+127104	1426	Spiti	ṭhot◦pi naŋ	ṭhot◦pi naŋ	stomach	stomach			1.7.6	9.10	0			m,s,2118
+127105	1426	Spiti	gyu◦tod	gyutod	large intestine	large intestine			1.7.7	9.11.1	0			2116,m
+127106	1426	Spiti	gyu◦met	gyumet	small intestine	small intestine			9.7.2	9.11.2	0			2116,m
+127107	1426	Spiti	kya◦kup	kya◦kup	anus / rectum	anus  /  rectum			1.4.10.2	9.12	0	jbl3		577,405
+127108	1426	Spiti	a◦ka	a◦ka	feces / shit	feces  /  shit			1.8.5	9.12.1	0	jbl3		p,m
+127109	1426	Spiti	kyakpa	kyakpa	meconium / baby shit	meconium  /  baby shit			1.8.5	9.12.2	0	jbl3		
+127110	1426	Spiti	kyakpa tanje	kyakpa tanje	defecate	defecate (v.)	v		1.8.5.4	9.12.3	0	dwb21		
+127111	1426	Spiti	jo◦je	jo◦je	copulate	copulate			1.9.1.1	10.2	0			3470,3475
+127112	1426	Spiti	phu◦tsa	phu◦tsa	male	male			1.9.6.1	10.3	0			1635,m
+127113	1426	Spiti	koto	koto	penis	penis				10.3.1	0			3420
+127114	1426	Spiti	bu◦tsu	bu◦tsu	penis	penis				10.3.1	0			m,3423
+127115	1426	Spiti	lik◦pa	lik◦pa	testicle	testicle				10.3.5	0			1286,s
+127116	1426	Spiti	mi◦yu	mi◦yu	male pubic hair	male pubic hair				10.3.6	0			1002,m
+127117	1426	Spiti	ṭin	ṭin	semen	semen				10.3.7	0			
+127118	1426	Spiti	men coje	men coje	castrate	castrate (v.)	v		1.9.2.3	10.3.9	0	dwb21		475,m
+127119	1426	Spiti	po◦mo	po◦mo	female	female			1.9.3	10.4	0			m,1620
+127120	1426	Spiti	tu˜◦kup	tu˜◦kup	vagina	vagina				10.4.1	0			661,405
+127121	1426	Spiti	pui◦net	pui◦net	womb	womb				10.4.8	0			1633,471
+127122	1426	Spiti	ti◦ya	ti◦ya	umbilical cord	umbilical cord				10.4.12	0			
+127123	1426	Spiti	ṭu caŋše	ṭu caŋše	pregnant	pregnant	be	be	1.9.6.1	10.4.14	0			
+127124	1426	Spiti	ṭu ke◦ze	ṭu ke◦ze	birth, give	birth, give			1.1.2	10.4.15	0			m,95,m
+127125	1426	Spiti	gõ-ŋa	gõ-ŋa	egg (of animal)	egg (of animal)				10.4.16	0			305,1610
+127126	1426	Spiti	lut◦pa	lut◦pa	cough	cough			1.8.3.3	11.1	0			
+127127	1426	Spiti	ik	ik	hiccup	hiccup			1.8.3.5	11.2	0			3443
+127128	1426	Spiti	rit◦pa	rit◦pa	sneeze	sneeze			1.8.2.1	11.3	0			2130,s
+127129	1426	Spiti	al	al	snore	snore			1.8.2.2	11.4	0			1785
+127130	1426	Spiti	šui◦wa	šui◦wa	whistle	whistle			8.5.5	11.5	0			m,m
+127131	1426	Spiti	gar◦wa	garwa	burp / belch	burp  /  belch			1.8.3	11.6	0	jbl3		bIndic,s
+127132	1426	Spiti	phen	phen	fart	fart			1.8.5.2	11.7	0			311
+127133	1426	Spiti	go◦ce	go◦ce	laugh	laugh			1.8.8.1	11.9	0			1116,s
+127134	1426	Spiti	dar◦še	darše	tremble / shiver / shudder	tremble  /  shiver  /  shudder			1.6.6.2.1	12.1	0	jbl3		5570,m
+127135	1426	Spiti	tshozar yonje	tshozar yonje	sick / be ill / hurt	sick  /  be ill  /  hurt	be	be	1.1.5.1	12.2	0	jbl3		
+127136	1426	Spiti	bed bed doje	bed bed doje	numb /  be paralyzed	numb  /   be paralyzed	be	be	1.5.11	12.3	0	jbl3		
+127137	1426	Spiti	boiše	boiše	swell /  be swollen	swell  /   be swollen	v.	v.	1.1.5.2	12.4	0	jbl3		
+127138	1426	Spiti	nak	nak	pus	pus			1.8.6.1	12.5	0			1297
+127139	1426	Spiti	ṭhù	ṭhù	hand span	hand span			1.5.9.4	13.2	0			1281

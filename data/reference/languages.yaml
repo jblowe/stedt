@@ -21,7 +21,9 @@
   iso: pkh
   lgcode: 224
   sort: PAANG
+  srcofdata: LL-PRPL
   notes: forms identical in BP & LP except where BP lacks (ra)
+  pi_page: 315
 - lgid: 103
   name: '*Austro-Tai'
   abbr: PAustro-Tai
@@ -29,6 +31,7 @@
   source: JAM-GSTC
   lgcode: 5
   sort: '*AUSTRO-TAI'
+  srcofdata: '***'
 - lgid: 104
   name: '*Bah-Sun'
   abbr: wk
@@ -36,6 +39,7 @@
   source: BM-PK7
   lgcode: 391
   sort: '*KIRANTI'
+  srcofdata: '***'
 - lgid: 105
   name: '*Barish'
   abbr: BAR
@@ -43,6 +47,7 @@
   source: AW-TBT
   lgcode: 6
   sort: '*BARISH'
+  srcofdata: '***'
 - lgid: 106
   name: '*Barish'
   abbr: PBarish
@@ -50,6 +55,7 @@
   source: JAM-II
   lgcode: 6
   sort: '*BARISH'
+  srcofdata: '***'
 - lgid: 107
   name: '*Barish (East)'
   abbr: E.Bar
@@ -57,6 +63,7 @@
   source: AW-TBT
   lgcode: 382
   sort: '*BARISH E'
+  srcofdata: '***'
 - lgid: 108
   name: '*Bodish'
   abbr: PTB (Bodish)
@@ -64,6 +71,7 @@
   source: ACST
   lgcode: 7
   sort: '*BODISH'
+  srcofdata: '***'
 - lgid: 109
   name: '*Bodo-Garo'
   abbr: P B-G
@@ -71,6 +79,7 @@
   source: ACST
   lgcode: 8
   sort: '*BODO-GARO'
+  srcofdata: '***'
 - lgid: 110
   name: '*Bodo-Garo'
   abbr: Bodo-Garo
@@ -78,6 +87,7 @@
   source: JAM-GSTC
   lgcode: 8
   sort: '*BODO-GARO'
+  srcofdata: Bhat, Burling
 - lgid: 111
   name: '*BSDTK'
   abbr: cwk
@@ -85,6 +95,7 @@
   source: BM-PK7
   lgcode: 393
   sort: '*KIRANTI'
+  srcofdata: '***'
   notes: Bahing-Sunwar-Dumi-Thulung-Khaling (Proto-Central-West-Kiranti)
 - lgid: 112
   name: '*Burmese'
@@ -93,6 +104,7 @@
   source: AW-TBT
   lgcode: 9
   sort: '*BURMESE'
+  srcofdata: '***'
 - lgid: 113
   name: '*Burmese'
   abbr: PB
@@ -100,6 +112,7 @@
   source: JO-PB
   lgcode: 9
   sort: '*BURMESE'
+  srcofdata: '***'
 - lgid: 114
   name: '*Chin'
   abbr: PChin
@@ -107,6 +120,7 @@
   source: AW-TBT
   lgcode: 346
   sort: '*CHIN'
+  srcofdata: '***'
 - lgid: 115
   name: '*Dum-Thu-Kha'
   abbr: ck
@@ -114,6 +128,7 @@
   source: BM-PK7
   lgcode: 390
   sort: '*KIRANTI'
+  srcofdata: '***'
 - lgid: 116
   name: '*Eastern Tani'
   abbr: PET
@@ -128,6 +143,7 @@
   source: ACST
   lgcode: 3
   sort: '*HMONG-MIEN'
+  srcofdata: '***'
 - lgid: 118
   name: '*Jingpho'
   abbr: PJg
@@ -135,6 +151,7 @@
   source: AW-TBT
   lgcode: 10
   sort: '*JINGPHO'
+  srcofdata: '***'
 - lgid: 119
   name: '*Karen'
   abbr: PK
@@ -142,6 +159,7 @@
   source: ACST
   lgcode: 11
   sort: '*KAREN'
+  srcofdata: '***'
 - lgid: 120
   name: '*Karen'
   abbr: PK
@@ -149,6 +167,7 @@
   source: AW-TBT
   lgcode: 11
   sort: '*KAREN'
+  srcofdata: '***'
   notes: from Mazaudon
 - lgid: 121
   name: '*Karen'
@@ -157,6 +176,7 @@
   source: JAM-GSTC
   lgcode: 11
   sort: '*KAREN'
+  srcofdata: '***'
 - lgid: 122
   name: '*Karen'
   abbr: '*PK'
@@ -164,6 +184,7 @@
   source: RBJ-KLS
   lgcode: 11
   sort: '*KAREN'
+  srcofdata: '***'
 - lgid: 123
   name: '*Karen (Pwo)'
   abbr: '*P'
@@ -171,6 +192,7 @@
   source: RBJ-KLS
   lgcode: 384
   sort: '*KAREN'
+  srcofdata: '***'
 - lgid: 124
   name: '*Karen (Pwo-Sgaw)'
   abbr: '*PS'
@@ -178,6 +200,7 @@
   source: RBJ-KLS
   lgcode: 385
   sort: '*KAREN'
+  srcofdata: '***'
   notes: might be Palaychi-Sgaw
 - lgid: 125
   name: '*Karen (Sgaw)'
@@ -186,6 +209,7 @@
   source: RBJ-KLS
   lgcode: 383
   sort: '*KAREN'
+  srcofdata: '***'
   notes: this a proto-lang
 - lgid: 126
   name: '*Karen (TP)'
@@ -194,6 +218,7 @@
   source: RBJ-KLS
   lgcode: 384
   sort: '*KAREN'
+  srcofdata: '***'
   notes: probably proto-Taungthu-Pho
 - lgid: 127
   name: '*Karen'
@@ -202,6 +227,7 @@
   source: PKB-KLH
   lgcode: 11
   sort: '*KAREN'
+  srcofdata: '***'
 - lgid: 128
   name: '*Kiranti'
   abbr: PKir
@@ -209,6 +235,7 @@
   source: AW-TBT
   lgcode: 12
   sort: '*KIRANTI'
+  srcofdata: '***'
 - lgid: 129
   name: '*Kiranti'
   abbr: PKir
@@ -216,6 +243,7 @@
   source: BM-PK7
   lgcode: 12
   sort: '*KIRANTI'
+  srcofdata: '***'
 - lgid: 130
   name: '*Kiranti'
   abbr: P.Kir
@@ -223,6 +251,7 @@
   source: AW-TBT
   lgcode: 12
   sort: '*KIRANTI'
+  srcofdata: '***'
 - lgid: 131
   name: '*Kuki'
   abbr: PKk
@@ -230,6 +259,7 @@
   source: AW-TBT
   lgcode: 148
   sort: '*KUKI'
+  srcofdata: '***'
 - lgid: 132
   name: '*Kuki-Naga'
   abbr: K-N
@@ -237,6 +267,7 @@
   source: ACST
   lgcode: 13
   sort: '*KUKI-NAGA'
+  srcofdata: '***'
 - lgid: 133
   name: '*Kuki-Naga'
   abbr: PNg-Kuk
@@ -251,6 +282,7 @@
   source: AW-TBT
   lgcode: 14
   sort: '*KUKI-NAGA-CHIN'
+  srcofdata: '***'
 - lgid: 135
   name: '*Kul-Cham-Ban'
   abbr: sk
@@ -258,6 +290,7 @@
   source: BM-PK7
   lgcode: 392
   sort: '*KIRANTI'
+  srcofdata: '***'
 - lgid: 136
   name: '*Lolo-Burmese'
   abbr: P B-L
@@ -265,6 +298,7 @@
   source: ACST
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 137
   name: '*Lolo-Burmese'
   abbr: LB
@@ -272,6 +306,7 @@
   source: AW-TBT
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 138
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -279,6 +314,7 @@
   source: AW-TBT
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 139
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -286,6 +322,7 @@
   source: JAM-DL
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 140
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -293,6 +330,7 @@
   source: JAM-Ety
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 141
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -300,6 +338,7 @@
   source: JAM-GSTC
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 142
   name: '*Lolo-Burmese'
   abbr: '*Lolo-Burmese'
@@ -307,6 +346,7 @@
   source: JAM-II
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 143
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -314,6 +354,7 @@
   source: JAM-MLBM
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 144
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -321,6 +362,7 @@
   source: JAM-TIL
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 145
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -328,6 +370,7 @@
   source: JAM-TJLB
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 146
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -335,6 +378,7 @@
   source: JAM-TSR
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 147
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -342,6 +386,7 @@
   source: PC
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 148
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -349,6 +394,7 @@
   source: RJL-DPTB
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: JAM/STC
 - lgid: 149
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -356,6 +402,7 @@
   source: STC
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 150
   name: '*Lolo-Burmese'
   abbr: PLB
@@ -363,6 +410,7 @@
   source: WSC-SH
   lgcode: 15
   sort: '*LOLO-BURMESE'
+  srcofdata: '***'
 - lgid: 151
   name: '*Loloish'
   abbr: PL
@@ -370,6 +418,7 @@
   source: AW-TBT
   lgcode: 16
   sort: '*LOLOISH'
+  srcofdata: '***'
 - lgid: 152
   name: '*Loloish'
   abbr: PLol
@@ -377,6 +426,7 @@
   source: DB-PLolo
   lgcode: 16
   sort: '*LOLOISH'
+  srcofdata: '***'
 - lgid: 153
   name: '*Loloish'
   abbr: '*PL'
@@ -384,6 +434,7 @@
   source: ILH-PL
   lgcode: 16
   sort: '*LOLOISH'
+  srcofdata: '***'
 - lgid: 154
   name: '*Loloish'
   abbr: PLol
@@ -391,6 +442,7 @@
   source: JAM-GSTC
   lgcode: 16
   sort: '*LOLOISH'
+  srcofdata: '***'
 - lgid: 155
   name: '*Loloish'
   abbr: PLol
@@ -398,6 +450,7 @@
   source: JAM-II
   lgcode: 16
   sort: '*LOLOISH'
+  srcofdata: '***'
 - lgid: 156
   name: '*Loloish'
   abbr: Loloish
@@ -405,6 +458,7 @@
   source: RJL-DPTB
   lgcode: 16
   sort: '*LOLOISH'
+  srcofdata: '***'
 - lgid: 157
   name: '*Naga'
   abbr: PNg
@@ -412,6 +466,7 @@
   source: AW-TBT
   lgcode: 17
   sort: '*NAGA'
+  srcofdata: '***'
 - lgid: 158
   name: '*Naga'
   abbr: PNg-I
@@ -419,6 +474,7 @@
   source: AW-TBT
   lgcode: 17
   sort: '*NAGA'
+  srcofdata: '***'
 - lgid: 159
   name: '*North Assam'
   abbr: N.Ass
@@ -435,6 +491,7 @@
   source: JAM-GSTC
   lgcode: 18
   sort: '*NAGA (NORTHERN)'
+  srcofdata: '***'
 - lgid: 161
   name: '*Northern Naga'
   abbr: PNN
@@ -442,6 +499,7 @@
   source: WTF-PNN
   lgcode: 18
   sort: '*NAGA (NORTHERN)'
+  srcofdata: '***'
 - lgid: 162
   name: '*Nung'
   abbr: PTB (Nung)
@@ -449,6 +507,7 @@
   source: ACST
   lgcode: 220
   sort: '*NUNG'
+  srcofdata: '***'
   notes: proto-lang?
 - lgid: 163
   name: '*SE Kiranti'
@@ -457,6 +516,7 @@
   source: BM-PK7
   lgcode: 389
   sort: '*KIRANTI'
+  srcofdata: '***'
 - lgid: 164
   name: '*Sino-Tibetan'
   abbr: PST
@@ -464,6 +524,7 @@
   source: ACST
   lgcode: 19
   sort: '*SINO-TIBETAN'
+  srcofdata: '***'
 - lgid: 165
   name: '*Sino-Tibetan'
   abbr: PST
@@ -471,6 +532,7 @@
   source: JAM-GSTC
   lgcode: 19
   sort: '*SINO-TIBETAN'
+  srcofdata: '***'
 - lgid: 166
   name: '*Sino-Tibetan'
   abbr: PST
@@ -478,6 +540,7 @@
   source: JAM-TIL
   lgcode: 19
   sort: '*SINO-TIBETAN'
+  srcofdata: '***'
 - lgid: 167
   name: '*Sino-Tibetan'
   abbr: PST
@@ -485,6 +548,7 @@
   source: STC
   lgcode: 19
   sort: '*SINO-TIBETAN'
+  srcofdata: '***'
 - lgid: 168
   name: '*Sino-Tibetan'
   abbr: ST
@@ -492,6 +556,7 @@
   source: WSC-SH
   lgcode: 19
   sort: '*SINO-TIBETAN'
+  srcofdata: '***'
 - lgid: 169
   name: '*Tai'
   abbr: PTai
@@ -499,6 +564,7 @@
   source: JAM-GSTC
   lgcode: 20
   sort: '*TAI'
+  srcofdata: '***'
 - lgid: 170
   name: '*TGTM'
   abbr: PTm
@@ -506,6 +572,7 @@
   source: JAM-GSTC
   lgcode: 21
   sort: '*TAMANG'
+  srcofdata: '***'
   notes: Proto-Tamang?
 - lgid: 171
   name: '*TGTM'
@@ -514,6 +581,7 @@
   source: MM-K78
   lgcode: 21
   sort: '*TAMANG'
+  srcofdata: MM-K78
 - lgid: 172
   name: '*TGTM'
   abbr: TGTM
@@ -521,6 +589,7 @@
   source: MM-Thesis
   lgcode: 21
   sort: '*TGTM'
+  srcofdata: original
 - lgid: 173
   name: '*Tani'
   abbr: PT
@@ -535,6 +604,7 @@
   source: ACST
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: '***'
 - lgid: 175
   name: '*Tibeto-Burman'
   abbr: PTB
@@ -542,6 +612,7 @@
   source: AW-TBT
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: '***'
 - lgid: 176
   name: '*Tibeto-Burman'
   abbr: PTB
@@ -549,6 +620,7 @@
   source: BM-PK7
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: '***'
 - lgid: 177
   name: '*Tibeto-Burman'
   abbr: PTB
@@ -556,6 +628,7 @@
   source: JAM-GSTC
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: '***'
 - lgid: 178
   name: '*Tibeto-Burman'
   abbr: PTB
@@ -563,6 +636,7 @@
   source: JAM-TIL
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: '***'
 - lgid: 179
   name: '*Tibeto-Burman'
   abbr: PTB
@@ -570,6 +644,7 @@
   source: JAM-TSR
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: '***'
 - lgid: 180
   name: '*Tibeto-Burman'
   abbr: PTB
@@ -577,6 +652,7 @@
   source: JAM-VSTB
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: '***'
 - lgid: 181
   name: '*Tibeto-Burman'
   abbr: PTB
@@ -584,6 +660,7 @@
   source: RJL-DPTB
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: JAM/STC
 - lgid: 182
   name: '*Tibeto-Burman'
   abbr: PTB
@@ -591,6 +668,7 @@
   source: STC
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: '***'
 - lgid: 183
   name: '*Tibeto-Burman'
   abbr: TB
@@ -598,6 +676,7 @@
   source: WSC-SH
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: '***'
 - lgid: 185
   name: '*Tibeto-Burman'
   abbr: PTB
@@ -605,6 +684,7 @@
   source: WTF-PNN
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: '***'
 - lgid: 186
   name: '*Tibeto-Karen'
   abbr: TK
@@ -612,6 +692,7 @@
   source: ACST
   lgcode: 24
   sort: '*TIBETO-KAREN'
+  srcofdata: '***'
 - lgid: 187
   name: '*Western Tani'
   abbr: PWT
@@ -627,6 +708,9 @@
   iso: adi
   lgcode: 25
   sort: ABOR
+  srcofdata: JHL-AM
+  picode: Pada2
+  pi_page: 317
 - lgid: 189
   name: Padam-Mishing [Abor-Miri]
   abbr: AM
@@ -635,7 +719,10 @@
   iso: adi
   lgcode: 26
   sort: ABOR-MIRI
+  srcofdata: STC<JHL-AM
+  picode: Pada2
   notes: also Miri [mrg]
+  pi_page: 317
 - lgid: 190
   name: Padam-Mishing [Abor-Miri]
   abbr: AM
@@ -644,6 +731,7 @@
   iso: adi
   lgcode: 26
   sort: ABOR-MIRI
+  srcofdata: STC<JHL-AM
   notes: also Miri [mrg]
 - lgid: 191
   name: Padam-Mishing [Abor-Miri]
@@ -671,6 +759,7 @@
   iso: adi
   lgcode: 26
   sort: ABOR-MIRI
+  srcofdata: STC<JHL-AM
   notes: also Miri [mrg]
 - lgid: 194
   name: Padam-Mishing [Abor-Miri]
@@ -680,6 +769,7 @@
   iso: adi
   lgcode: 26
   sort: ABOR-MIRI
+  srcofdata: JAM/STC<JHL-AM
   notes: also Miri [mrg]
 - lgid: 195
   name: Padam-Mishing [Abor-Miri]
@@ -689,6 +779,7 @@
   iso: adi
   lgcode: 26
   sort: ABOR-MIRI
+  srcofdata: JHL-AM
   notes: also Miri [mrg]
 - lgid: 196
   name: Padam-Mishing [Abor-Miri]
@@ -698,6 +789,7 @@
   iso: adi
   lgcode: 26
   sort: ABOR-MIRI
+  srcofdata: JHL-AM
   notes: also Miri [mrg]
 - lgid: 197
   name: Achang
@@ -731,6 +823,9 @@
   iso: acn
   lgcode: 29
   sort: ACHANG LO
+  srcofdata: ZMYYC
+  picode: Acha2
+  pi_page: 2
 - lgid: 201
   name: Achang (Lianghe)
   abbr: AClh
@@ -739,6 +834,9 @@
   iso: acn
   lgcode: 28
   sort: ACHANG LI
+  srcofdata: JZ-Achang
+  picode: Acha1
+  pi_page: 1
 - lgid: 202
   name: Achang (Lianghe)
   abbr: Achang Lianghe
@@ -755,6 +853,7 @@
   iso: acn
   lgcode: 28
   sort: ACHANG LI
+  srcofdata: JZ-Achang
 - lgid: 204
   name: Achang (Longchuan)
   abbr: AClc
@@ -763,6 +862,9 @@
   iso: acn
   lgcode: 29
   sort: ACHANG LO
+  srcofdata: JZ-Achang
+  picode: Acha2
+  pi_page: 2
 - lgid: 205
   name: Achang (Longchuan)
   abbr: Achang Longchuan
@@ -779,6 +881,7 @@
   iso: acn
   lgcode: 29
   sort: ACHANG LO
+  srcofdata: JZ-Achang
 - lgid: 207
   name: Achang (Luxi)
   abbr: AClx
@@ -787,6 +890,9 @@
   iso: acn
   lgcode: 30
   sort: ACHANG LU
+  srcofdata: JZ-Achang
+  picode: Acha3
+  pi_page: 4
 - lgid: 208
   name: Achang (Luxi)
   abbr: LXA
@@ -795,6 +901,7 @@
   iso: acn
   lgcode: 30
   sort: ACHANG LU
+  srcofdata: JZ-Achang
 - lgid: 209
   name: Achang (Xiandao)
   abbr: Xiandao
@@ -803,6 +910,7 @@
   iso: xia
   lgcode: 31
   sort: ACHANG X
+  srcofdata: DQ-Xiandao
 - lgid: 210
   name: Ahi
   abbr: Axi
@@ -811,7 +919,10 @@
   iso: yix
   lgcode: 32
   sort: AHI
+  srcofdata: CK-YiQ
+  picode: Ahi3
   notes: 'almost same dial. as ZMYYC #25 Yi:Mile'
+  pi_page: 9
 - lgid: 211
   name: Ahi
   abbr: Axi
@@ -837,6 +948,7 @@
   iso: yix
   lgcode: 32
   sort: AHI
+  srcofdata: YC-FAPL
 - lgid: 214
   name: Ahi
   abbr: Ahi
@@ -845,6 +957,9 @@
   iso: yix
   lgcode: 32
   sort: AHI
+  srcofdata: YC-FAPL
+  picode: Ahi1
+  pi_page: 6
 - lgid: 215
   name: Ahi
   abbr: Ahi
@@ -853,6 +968,7 @@
   iso: yix
   lgcode: 32
   sort: AHI
+  srcofdata: YC-FAPL
 - lgid: 216
   name: Ahi
   abbr: Ay
@@ -861,6 +977,9 @@
   iso: yix
   lgcode: 32
   sort: AHI
+  srcofdata: LMZ-AhiQ
+  picode: Ahi2
+  pi_page: 8
 - lgid: 217
   name: Ahi
   abbr: Ahi
@@ -869,6 +988,7 @@
   iso: yix
   lgcode: 32
   sort: AHI
+  srcofdata: YC-FAPL
 - lgid: 218
   name: Ahi
   abbr: Ahi
@@ -877,6 +997,7 @@
   iso: yix
   lgcode: 32
   sort: AHI
+  srcofdata: YC-FAPL
 - lgid: 219
   name: Ahi
   abbr: Ahi
@@ -885,6 +1006,9 @@
   iso: yix
   lgcode: 32
   sort: AHI
+  srcofdata: YC-FAPL
+  picode: Ahi1
+  pi_page: 6
 - lgid: 220
   name: Ahi
   abbr: Ahi
@@ -935,6 +1059,7 @@
   iso: hru
   lgcode: 34
   sort: AKA
+  srcofdata: SHA1947
   notes: JS-HCST:13 says Hruso is not Tani
 - lgid: 226
   name: Akha
@@ -952,6 +1077,7 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: PL-AED, Nishida
 - lgid: 228
   name: Akha
   abbr: Akha
@@ -960,6 +1086,9 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: ILH-PL
+  picode: Akha1
+  pi_page: 11
 - lgid: 229
   name: Akha
   abbr: Ak
@@ -968,6 +1097,9 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: PL-AED
+  picode: Akha2
+  pi_page: 12
 - lgid: 230
   name: Akha
   abbr: Ak
@@ -976,6 +1108,9 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: PL-AED
+  picode: Akha2
+  pi_page: 12
 - lgid: 231
   name: Akha
   abbr: Ak
@@ -984,6 +1119,7 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: PL-AED
 - lgid: 232
   name: Akha
   abbr: Ak
@@ -992,6 +1128,7 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: PL-AED
 - lgid: 233
   name: Akha
   abbr: Ak
@@ -1000,6 +1137,7 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: PL-AED
 - lgid: 234
   name: Akha
   abbr: Ak
@@ -1008,6 +1146,9 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: PL-AED
+  picode: Akha2
+  pi_page: 12
 - lgid: 235
   name: Akha
   abbr: Ak (Burling)
@@ -1016,6 +1157,7 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: '?'
   notes: <RB-GG??
 - lgid: 236
   name: Akha
@@ -1025,6 +1167,7 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: PL-AED
 - lgid: 237
   name: Akha
   abbr: Akha
@@ -1050,6 +1193,9 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: PL-AED
+  picode: Akha2
+  pi_page: 12
 - lgid: 240
   name: Akha
   abbr: Akha
@@ -1067,6 +1213,7 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: PL-AED
 - lgid: 242
   name: Akha
   abbr: Akha
@@ -1083,6 +1230,9 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: ILH-PL
+  picode: Akha1
+  pi_page: 11
 - lgid: 244
   name: Akha (Yunnan)
   abbr: Ak2
@@ -1091,6 +1241,9 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: ILH-PL
+  picode: Akha1
+  pi_page: 11
 - lgid: 245
   name: Anal
   abbr: Anal
@@ -1107,6 +1260,7 @@
   iso: anm
   lgcode: 36
   sort: ANAL
+  srcofdata: OT-KnsI
 - lgid: 247
   name: Anal
   abbr: Anal
@@ -1123,6 +1277,7 @@
   iso: anm
   lgcode: 36
   sort: ANAL
+  srcofdata: OT-KnsI
 - lgid: 249
   name: Anal
   abbr: Anal
@@ -1139,6 +1294,7 @@
   iso: kdv
   lgcode: 37
   sort: ANDRO
+  srcofdata: '***'
 - lgid: 251
   name: Andro
   abbr: Andro
@@ -1147,6 +1303,7 @@
   iso: kdv
   lgcode: 37
   sort: ANDRO
+  srcofdata: '***'
 - lgid: 252
   name: Angami (Khonoma)
   abbr: Angami (Khon)
@@ -1155,6 +1312,9 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI KHO
+  srcofdata: MCC1887
+  picode: Anga1
+  pi_page: 14
 - lgid: 253
   name: Angami (Khonoma)
   abbr: Angami (Khon)
@@ -1163,6 +1323,9 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI KHO
+  srcofdata: BLBC-Khonom
+  picode: Anga2
+  pi_page: 15
 - lgid: 254
   name: Angami (Kohima)
   abbr: Angami (Koh)
@@ -1171,7 +1334,10 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI KOH
+  srcofdata: GEM-CNL
+  picode: Anga3
   notes: <various srcs, see Appendix II p. 331
+  pi_page: 18
 - lgid: 255
   name: Angami (Kohima)
   abbr: Angami (Kohima)
@@ -1180,6 +1346,9 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI KOH
+  srcofdata: RAV1974
+  picode: Anga4
+  pi_page: 16
 - lgid: 256
   name: Angami (Kohima)
   abbr: Angami (Kohima)
@@ -1196,6 +1365,7 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI
+  srcofdata: '***'
   notes: appears to be Kohima dialect
 - lgid: 258
   name: Angami Naga
@@ -1205,6 +1375,7 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI
+  srcofdata: '***'
 - lgid: 259
   name: Angami Naga
   abbr: Angami Naga
@@ -1213,6 +1384,7 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI
+  srcofdata: '***'
 - lgid: 260
   name: Angami Naga
   abbr: Ang Nag
@@ -1221,6 +1393,7 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI
+  srcofdata: '***'
 - lgid: 261
   name: Angami Naga
   abbr: Angami Naga
@@ -1229,6 +1402,7 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI
+  srcofdata: '***'
 - lgid: 262
   name: Angami Naga
   abbr: Angami Naga
@@ -1237,6 +1411,7 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI
+  srcofdata: '***'
 - lgid: 263
   name: Angami Naga
   abbr: Angami Naga
@@ -1245,6 +1420,7 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI
+  srcofdata: '***'
 - lgid: 264
   name: Angami Naga
   abbr: Angami Naga
@@ -1253,6 +1429,7 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI
+  srcofdata: MCC1887
 - lgid: 265
   name: Angami (Kohima)
   abbr: Angami Naga
@@ -1261,6 +1438,9 @@
   iso: njm
   lgcode: 38
   sort: ANGAMI KOH
+  srcofdata: MCC1887
+  picode: Anga1
+  pi_page: 14
 - lgid: 266
   name: Anong
   abbr: Anong (Nungish)
@@ -1294,6 +1474,9 @@
   iso: nun
   lgcode: 220
   sort: NUNG
+  srcofdata: ZMYYC
+  picode: Nung1
+  pi_page: 306
 - lgid: 270
   name: Ao (Chungli)
   abbr: Ao (Chung)
@@ -1302,7 +1485,10 @@
   iso: njo
   lgcode: 41
   sort: AO CHONGLI
+  srcofdata: GEM-Ao, EWC-Ao
+  picode: AoC1
   notes: <Mills 1926? see pp. 347-348
+  pi_page: 22
 - lgid: 271
   name: Ao (Chungli)
   abbr: Ao (Chungli)
@@ -1311,6 +1497,9 @@
   iso: njo
   lgcode: 41
   sort: AO CHONGLI
+  srcofdata: GOW1972
+  picode: AoC2
+  pi_page: 20
 - lgid: 272
   name: Ao (Chungli)
   abbr: Ao Chongli
@@ -1327,7 +1516,10 @@
   iso: njo
   lgcode: 42
   sort: AO MONGSEN L
+  srcofdata: JPM-Mong
+  picode: AoM1
   notes: <Mills 1926? see pp. 347-348; Longchang village variety
+  pi_page: 23
 - lgid: 274
   name: 'Ao (Mongsen: Longchang)'
   abbr: Ao Mongsen
@@ -1336,6 +1528,7 @@
   iso: njo
   lgcode: 42
   sort: AO MONGSEN L
+  srcofdata: GEM-CNL
 - lgid: 275
   name: Ao (Chungli)
   abbr: Ao
@@ -1353,6 +1546,7 @@
   iso: njo
   lgcode: 41
   sort: AO CHONGLI
+  srcofdata: CLA1911?
 - lgid: 277
   name: Ao (Chungli)
   abbr: Ao Naga
@@ -1361,6 +1555,7 @@
   iso: njo
   lgcode: 41
   sort: AO CHONGLI
+  srcofdata: STC??
 - lgid: 278
   name: Ao (Chungli)
   abbr: Ao Naga
@@ -1369,6 +1564,7 @@
   iso: njo
   lgcode: 41
   sort: AO CHONGLI
+  srcofdata: STC
 - lgid: 279
   name: Ao (Chungli)
   abbr: Ao
@@ -1377,6 +1573,7 @@
   iso: njo
   lgcode: 41
   sort: AO CHONGLI
+  srcofdata: CLA1911
 - lgid: 280
   name: Ao (Chungli)
   abbr: Ao Naga
@@ -1385,6 +1582,7 @@
   iso: njo
   lgcode: 41
   sort: AO CHONGLI
+  srcofdata: CLA1911
 - lgid: 281
   name: Ao (Chungli)
   abbr: Ao Naga
@@ -1393,6 +1591,7 @@
   iso: njo
   lgcode: 41
   sort: AO CHONGLI
+  srcofdata: STC<CLA1911
 - lgid: 282
   name: Apatani
   abbr: Apatani
@@ -1401,6 +1600,9 @@
   iso: apt
   lgcode: 44
   sort: APATANI
+  srcofdata: ABR1985
+  picode: Apat1
+  pi_page: 25
 - lgid: 283
   name: Apatani
   abbr: Ap
@@ -1409,7 +1611,10 @@
   iso: apt
   lgcode: 44
   sort: APATANI
+  srcofdata: AW-TBT
+  picode: Apat2
   notes: trans. normalized
+  pi_page: 26
 - lgid: 284
   name: Apatani
   abbr: Apatani
@@ -1418,6 +1623,9 @@
   iso: apt
   lgcode: 44
   sort: APATANI
+  srcofdata: IMS-Apatani
+  picode: Apat3
+  pi_page: 24
 - lgid: 285
   name: Apatani
   abbr: Apatani A
@@ -1426,6 +1634,9 @@
   iso: apt
   lgcode: 44
   sort: APATANI
+  srcofdata: ABR1985
+  picode: Apat1
+  pi_page: 25
 - lgid: 286
   name: Apatani
   abbr: Apatani S
@@ -1434,6 +1645,9 @@
   iso: apt
   lgcode: 44
   sort: APATANI
+  srcofdata: IMS-Apatani
+  picode: Apat3
+  pi_page: 24
 - lgid: 287
   name: Apatani
   abbr: Apatani S
@@ -1442,6 +1656,9 @@
   iso: apt
   lgcode: 44
   sort: APATANI
+  srcofdata: IMS-Apatani
+  picode: Apat3
+  pi_page: 24
 - lgid: 288
   name: Apatani
   abbr: Apatani W
@@ -1450,6 +1667,7 @@
   iso: apt
   lgcode: 44
   sort: APATANI
+  srcofdata: AW-TBT
 - lgid: 289
   name: Arakanese
   abbr: Arakanese
@@ -1466,6 +1684,7 @@
   iso: rki
   lgcode: 45
   sort: ARAKANESE
+  srcofdata: JO-PB
 - lgid: 291
   name: Asho
   abbr: As
@@ -1474,6 +1693,7 @@
   iso: csh
   lgcode: 46
   sort: 'ASH    O'
+  srcofdata: AW-TBT
 - lgid: 292
   name: Asho (Sandoway)
   abbr: Asho (Sandoway)
@@ -1482,6 +1702,7 @@
   iso: csh
   lgcode: 46
   sort: 'ASH    O'
+  srcofdata: GHL-PPB
 - lgid: 293
   name: Athpare (Rai)
   abbr: Ath
@@ -1490,6 +1711,7 @@
   iso: aph
   lgcode: 241
   sort: ATHPARE
+  srcofdata: AW-TBT?
 - lgid: 294
   name: Atong
   abbr: Ato
@@ -1498,6 +1720,9 @@
   iso: aot
   lgcode: 47
   sort: ATONG
+  srcofdata: RB-PB
+  picode: Aton1
+  pi_page: 28
 - lgid: 295
   name: Atong
   abbr: Atong
@@ -1506,6 +1731,9 @@
   iso: aot
   lgcode: 47
   sort: ATONG
+  srcofdata: RB-PB
+  picode: Aton1
+  pi_page: 28
 - lgid: 296
   name: Awa Khumi
   abbr: Awa Khumi
@@ -1531,6 +1759,7 @@
   iso: bhj
   lgcode: 48
   sort: BAHING
+  srcofdata: BM-Bah
   notes: As BM-PK7.bah
 - lgid: 300
   name: Bahing
@@ -1540,6 +1769,7 @@
   iso: bhj
   lgcode: 48
   sort: BAHING
+  srcofdata: HOD1857?
 - lgid: 301
   name: Bahing
   abbr: Bh
@@ -1548,6 +1778,7 @@
   iso: bhj
   lgcode: 48
   sort: BAHING
+  srcofdata: STC
 - lgid: 302
   name: Bahing
   abbr: Bahing
@@ -1556,6 +1787,7 @@
   iso: bhj
   lgcode: 48
   sort: BAHING
+  srcofdata: STC
 - lgid: 303
   name: Bahing
   abbr: Bahing
@@ -1564,6 +1796,7 @@
   iso: bhj
   lgcode: 48
   sort: BAHING
+  srcofdata: STC
 - lgid: 304
   name: Bahing
   abbr: Bahing
@@ -1580,6 +1813,7 @@
   iso: bhj
   lgcode: 48
   sort: BAHING
+  srcofdata: HOD1857
 - lgid: 306
   name: Bahing
   abbr: Bahing
@@ -1588,6 +1822,7 @@
   iso: bhj
   lgcode: 48
   sort: BAHING
+  srcofdata: STC
 - lgid: 307
   name: Bahing
   abbr: bah
@@ -1596,6 +1831,8 @@
   iso: bhj
   lgcode: 48
   sort: BAHING
+  srcofdata: BM-PK7
+  pinotes: Do PI for Edition 2
 - lgid: 308
   name: Bahing-Rumdali
   abbr: Bah-Rum
@@ -1612,7 +1849,10 @@
   iso: bca
   lgcode: 373
   sort: BAI JC
+  srcofdata: ZYS-Bai
+  picode: Bai7
   notes: trans. normalized; Jianchuan Bai
+  pi_page: 37
 - lgid: 310
   name: Bai (Bijiang)
   abbr: BAIbj
@@ -1621,6 +1861,9 @@
   iso: bfc
   lgcode: 371
   sort: BAI BJ
+  srcofdata: JZ-Bai
+  picode: Bai2
+  pi_page: 30
 - lgid: 311
   name: Bai (Bijiang)
   abbr: Bai.Bijiang37
@@ -1629,6 +1872,9 @@
   iso: bfc
   lgcode: 371
   sort: BAI BJ
+  srcofdata: ZMYYC
+  picode: Bai1
+  pi_page: 29
 - lgid: 312
   name: Bai (Dali)
   abbr: Bai
@@ -1637,6 +1883,9 @@
   iso: bfs
   lgcode: 372
   sort: BAI DL
+  srcofdata: FD-Bai
+  picode: Bai3
+  pi_page: 31
 - lgid: 313
   name: Bai (Dali)
   abbr: BAIdl
@@ -1645,6 +1894,9 @@
   iso: bfs
   lgcode: 372
   sort: BAI DL
+  srcofdata: JZ-Bai
+  picode: Bai4
+  pi_page: 33
 - lgid: 314
   name: Bai (Dali)
   abbr: Bai.Dali35
@@ -1653,6 +1905,9 @@
   iso: bfs
   lgcode: 372
   sort: BAI DL
+  srcofdata: ZMYYC
+  picode: Bai4
+  pi_page: 33
 - lgid: 315
   name: Bai (Jianchuan)
   abbr: Bai
@@ -1661,7 +1916,10 @@
   iso: bca
   lgcode: 373
   sort: BAI JC
+  srcofdata: DQ-Bai
+  picode: Bai5
   notes: by Li Shaoni
+  pi_page: 34
 - lgid: 316
   name: Bai (Jianchuan)
   abbr: BAIjc
@@ -1670,6 +1928,9 @@
   iso: bca
   lgcode: 373
   sort: BAI JC
+  srcofdata: JZ-Bai
+  picode: Bai6
+  pi_page: 35
 - lgid: 317
   name: Bai (Jianchuan)
   abbr: Bai.Jianchuan36
@@ -1678,6 +1939,9 @@
   iso: bca
   lgcode: 373
   sort: BAI JC
+  srcofdata: ZMYYC
+  picode: Bai6
+  pi_page: 35
 - lgid: 318
   name: Bai
   abbr: Bai
@@ -1694,6 +1958,9 @@
   iso: bqh
   lgcode: 53
   sort: BAIMA
+  srcofdata: SHK-Baima
+  picode: Baim1
+  pi_page: 39
 - lgid: 320
   name: Banjogi
   abbr: Banjogi
@@ -1710,6 +1977,7 @@
   iso: bap
   lgcode: 55
   sort: BANTAWA
+  srcofdata: AW-TBT
 - lgid: 322
   name: Bantawa
   abbr: Bantawa
@@ -1718,6 +1986,7 @@
   iso: bap
   lgcode: 55
   sort: BANTAWA
+  srcofdata: BM-PTNL
 - lgid: 323
   name: Bantawa
   abbr: ban
@@ -1726,6 +1995,7 @@
   iso: bap
   lgcode: 55
   sort: BANTAWA
+  srcofdata: BM-PK7
 - lgid: 324
   name: Bantawa
   abbr: banr
@@ -1734,6 +2004,7 @@
   iso: bap
   lgcode: 55
   sort: BANTAWA
+  srcofdata: NKR-Bant
 - lgid: 325
   name: Bantawa
   abbr: Bt
@@ -1758,7 +2029,10 @@
   iso: bap
   lgcode: 55
   sort: BANTAWA
+  srcofdata: original
+  picode: Bant1
   notes: bodypart words
+  pi_page: 40
 - lgid: 328
   name: Bantawa
   abbr: Bantawa
@@ -1776,6 +2050,9 @@
   iso: khq
   lgcode: 296
   sort: TIBETAN (BATANG )
+  srcofdata: DQ-Batang
+  picode: TibBt2
+  pi_page: 396
 - lgid: 330
   name: Tibetan (Batang)
   abbr: Batang
@@ -1784,6 +2061,9 @@
   iso: khq
   lgcode: 296
   sort: TIBETAN (BATANG )
+  srcofdata: GJ-Batang
+  picode: TibBt1
+  pi_page: 393
 - lgid: 331
   name: Bawm
   abbr: Bawm
@@ -1800,6 +2080,9 @@
   iso: bgr
   lgcode: 56
   sort: BAWM
+  srcofdata: VS-GBL
+  picode: Bawm1
+  pi_page: 42
 - lgid: 333
   name: Bengni
   abbr: Bengni S
@@ -1808,7 +2091,10 @@
   iso: njz
   lgcode: 58
   sort: BENGNI
+  srcofdata: JS-HCST
+  picode: Beng1
   notes: JS's original data
+  pi_page: 44
 - lgid: 334
   name: Bengni
   abbr: Bengni S
@@ -1817,7 +2103,10 @@
   iso: njz
   lgcode: 58
   sort: BENGNI
+  srcofdata: JS-Tani
+  picode: Beng1
   notes: JS's original data
+  pi_page: 44
 - lgid: 335
   name: Bete
   abbr: Bete
@@ -1842,6 +2131,7 @@
   iso: brd
   lgcode: 60
   sort: BARAM
+  srcofdata: LSI?
 - lgid: 338
   name: Bisu
   abbr: Bisu
@@ -1850,7 +2140,10 @@
   iso: bzi
   lgcode: 61
   sort: BISU
+  srcofdata: NT-Bisu
+  picode: Bisu1
   notes: transcription normalized?
+  pi_page: 48
 - lgid: 339
   name: Bisu
   abbr: Bisu
@@ -1859,6 +2152,7 @@
   iso: bzi
   lgcode: 61
   sort: BISU
+  srcofdata: NT-Bisu
 - lgid: 340
   name: Bisu
   abbr: Bu
@@ -1867,6 +2161,7 @@
   iso: bzi
   lgcode: 61
   sort: BISU
+  srcofdata: NT-Bisu
 - lgid: 341
   name: Bisu
   abbr: Bi
@@ -1875,6 +2170,9 @@
   iso: bzi
   lgcode: 61
   sort: BISU
+  srcofdata: NT-Bisu
+  picode: Bisu1
+  pi_page: 48
 - lgid: 342
   name: Bisu
   abbr: Bisu
@@ -1883,6 +2181,7 @@
   iso: bzi
   lgcode: 61
   sort: BISU
+  srcofdata: NT-Bisu
 - lgid: 343
   name: Bisu
   abbr: Bisu
@@ -1891,6 +2190,9 @@
   iso: bzi
   lgcode: 61
   sort: BISU
+  srcofdata: NT-Bisu
+  picode: Bisu1
+  pi_page: 48
 - lgid: 344
   name: Bisu
   abbr: Bisu
@@ -1899,7 +2201,11 @@
   iso: bzi
   lgcode: 61
   sort: BISU
+  srcofdata: PB-Bisu
+  picode: Bisu2
+  pinotes: transcription normalized in the STEDT db
   notes: same as PB-MB
+  pi_page: 46
 - lgid: 345
   name: Bisu
   abbr: Bisu
@@ -1916,7 +2222,10 @@
   iso: bzi
   lgcode: 61
   sort: BISU
+  srcofdata: NT-Bisu
+  picode: Bisu1
   notes: transcription normalized
+  pi_page: 48
 - lgid: 347
   name: Bisu
   abbr: Bisu
@@ -1925,7 +2234,10 @@
   iso: bzi
   lgcode: 61
   sort: BISU
+  srcofdata: PB-MB
+  picode: Bisu2
   notes: sim to PB-Bisu
+  pi_page: 46
 - lgid: 348
   name: Bodo
   abbr: Bodo
@@ -1934,6 +2246,7 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: STC
 - lgid: 349
   name: Bodo
   abbr: Boro
@@ -1950,6 +2263,9 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: Bhat-Boro
+  picode: Bodo1
+  pi_page: 50
 - lgid: 351
   name: Bodo
   abbr: Bodo
@@ -1958,6 +2274,7 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: HOD1847a?
 - lgid: 352
   name: Bodo
   abbr: Bo
@@ -1966,6 +2283,10 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: Bhat-Boro, RB-PB
+  picode: Bodo1
+  pinotes: actually also in Bodo3
+  pi_page: 50
 - lgid: 353
   name: Bodo
   abbr: Bo
@@ -1974,6 +2295,10 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: Bhat-Boro, RB-PB
+  picode: Bodo1
+  pinotes: actually also in Bodo3
+  pi_page: 50
 - lgid: 354
   name: Bodo
   abbr: Boro
@@ -1982,6 +2307,7 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: Bhat-Boro, RB-PB
 - lgid: 355
   name: Bodo
   abbr: Kachari
@@ -1990,6 +2316,9 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: RB-PB
+  picode: Bodo3
+  pi_page: 52
 - lgid: 356
   name: Bodo
   abbr: Bodo
@@ -2006,6 +2335,8 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: SKR1889
+  pinotes: don't do
 - lgid: 358
   name: Bodo
   abbr: Bodo
@@ -2014,6 +2345,7 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: HOD1847a, SKR1889
 - lgid: 359
   name: Bodo
   abbr: Bodo
@@ -2022,6 +2354,7 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: STC
 - lgid: 360
   name: Bokar
   abbr: Bokar OY
@@ -2030,6 +2363,9 @@
   iso: adi
   lgcode: 63
   sort: BOKAR
+  srcofdata: JZ-Luoba, ZMYYC
+  picode: Boka1
+  pi_page: 55
 - lgid: 361
   name: Bokar
   abbr: Bokar S
@@ -2038,6 +2374,7 @@
   iso: adi
   lgcode: 63
   sort: BOKAR
+  srcofdata: JS-HCST
   notes: JS's own data
 - lgid: 362
   name: Bokar
@@ -2047,6 +2384,9 @@
   iso: adi
   lgcode: 63
   sort: BOKAR
+  srcofdata: JZ-Luoba
+  picode: Boka1
+  pi_page: 55
 - lgid: 363
   name: Bokar
   abbr: Bokar
@@ -2055,6 +2395,9 @@
   iso: adi
   lgcode: 63
   sort: BOKAR
+  srcofdata: MEG1990
+  picode: Boka2
+  pi_page: 54
 - lgid: 364
   name: Bokar
   abbr: Bokar
@@ -2071,6 +2414,7 @@
   iso: adi
   lgcode: 63
   sort: BOKAR
+  srcofdata: JS-Tani
 - lgid: 366
   name: Bokar Lhoba
   abbr: LBml
@@ -2079,6 +2423,9 @@
   iso: adi
   lgcode: 63
   sort: BOKAR L
+  srcofdata: SLZO-MLD
+  picode: Boka1
+  pi_page: 55
 - lgid: 367
   name: Bokar Lhoba
   abbr: Luoba
@@ -2095,6 +2442,9 @@
   iso: adi
   lgcode: 63
   sort: BOKAR L
+  srcofdata: ZMYYC
+  picode: Boka1
+  pi_page: 55
 - lgid: 369
   name: Bokar
   abbr: Bokar M
@@ -2103,6 +2453,9 @@
   iso: adi
   lgcode: 63
   sort: BOKAR
+  srcofdata: MEG1990
+  picode: Boka2
+  pi_page: 54
 - lgid: 370
   name: Bola
   abbr: Bola
@@ -2111,6 +2464,9 @@
   iso: bxd
   lgcode: 64
   sort: BOLA
+  srcofdata: DQ-Bola
+  picode: Bola1
+  pi_page: 57
 - lgid: 371
   name: Bola
   abbr: Bola
@@ -2127,6 +2483,9 @@
   iso: bxd
   lgcode: 64
   sort: BOLA
+  srcofdata: DHFRL
+  picode: Bola1
+  pi_page: 57
 - lgid: 373
   name: Bori
   abbr: Bori
@@ -2135,6 +2494,9 @@
   iso: adi
   lgcode: 347
   sort: BORI
+  srcofdata: MEG1988
+  picode: Bori1
+  pi_page: 59
 - lgid: 374
   name: Bori
   abbr: Bori M
@@ -2143,6 +2505,7 @@
   iso: adi
   lgcode: 347
   sort: BORI
+  srcofdata: MEG1988
 - lgid: 375
   name: Bumthang
   abbr: Bum
@@ -2175,6 +2538,9 @@
   iso: bfu
   lgcode: 66
   sort: BUNAN
+  srcofdata: SBN-BunQ
+  picode: Buna1
+  pi_page: 60
 - lgid: 379
   name: Bunan
   abbr: Bunan
@@ -2191,6 +2557,7 @@
   iso: bfu
   lgcode: 66
   sort: BUNAN
+  srcofdata: STC
 - lgid: 381
   name: Burmese (Inscriptional)
   abbr: OB
@@ -2199,6 +2566,7 @@
   iso: obr
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 382
   name: Burmese (Inscriptional)
   abbr: OB
@@ -2223,6 +2591,9 @@
   iso: mya
   lgcode: 67
   sort: BURMESE (MODERN)
+  srcofdata: RB-PLB?
+  picode: Burm2
+  pi_page: 63
 - lgid: 385
   name: Burmese (Modern)
   abbr: Burmese (Modern)
@@ -2231,6 +2602,8 @@
   iso: mya
   lgcode: 67
   sort: BURMESE (MODERN)
+  picode: Burm3
+  pi_page: 65
 - lgid: 386
   name: Burmese (Spoken)
   abbr: Burmese
@@ -2254,6 +2627,7 @@
   source: ACST
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 390
   name: Burmese (Written)
   abbr: Bs
@@ -2261,6 +2635,7 @@
   source: AW-TBT
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 391
   name: Burmese (Written)
   abbr: WB
@@ -2268,6 +2643,7 @@
   source: AW-TBT
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 392
   name: Burmese (Written)
   abbr: Burmese (Wr)
@@ -2289,6 +2665,7 @@
   source: ILH-PL
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 395
   name: Burmese (Written)
   abbr: WB
@@ -2303,6 +2680,7 @@
   source: JAM-Ety
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 397
   name: Burmese (Written)
   abbr: WB
@@ -2310,6 +2688,7 @@
   source: JAM-GSTC
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 398
   name: Burmese (Written)
   abbr: WB
@@ -2324,6 +2703,7 @@
   source: JAM-MLBM
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 400
   name: Burmese (Written)
   abbr: WB
@@ -2331,6 +2711,7 @@
   source: JAM-TIL
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 401
   name: Burmese (Written)
   abbr: WB
@@ -2338,6 +2719,7 @@
   source: JAM-TJLB
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 402
   name: Burmese (Written)
   abbr: WB
@@ -2345,6 +2727,7 @@
   source: JAM-TSR
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 403
   name: Burmese (Written)
   abbr: WB
@@ -2352,6 +2735,7 @@
   source: JAM-VSTB
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC/AJ-BED?
 - lgid: 404
   name: Burmese (Written)
   abbr: WB
@@ -2373,7 +2757,10 @@
   source: PKB-WBRD
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: AJ-BED
+  picode: Burm1
   notes: Perhaps a note saying AJ-BED also source of numerous other srcs?
+  pi_page: 61
 - lgid: 407
   name: Burmese (Written)
   abbr: B
@@ -2381,6 +2768,7 @@
   source: RJL-DPTB
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC or PKB-WBRD
 - lgid: 408
   name: Burmese (Written)
   abbr: WB
@@ -2402,6 +2790,7 @@
   source: WSC-SH
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: STC
 - lgid: 411
   name: Burmese (Written)
   abbr: WB39
@@ -2417,7 +2806,10 @@
   iso: bwe
   lgcode: 70
   sort: BWE
+  srcofdata: AW-TBT
+  picode: Kare2
   notes: '"Chitabu dialect" (p.334)'
+  pi_page: 159
 - lgid: 413
   name: Bwe
   abbr: Bwe
@@ -2426,6 +2818,9 @@
   iso: bwe
   lgcode: 70
   sort: BWE
+  srcofdata: EJAH-BKD
+  picode: Kare1
+  pi_page: 158
 - lgid: 414
   name: Bwe (Western)
   abbr: W.Bw
@@ -2467,7 +2862,10 @@
   iso: hni
   lgcode: 111
   sort: HANI (BIYUE)
+  srcofdata: ZMYYC
+  picode: Hani2
   notes: 云南省墨江县菜园碧约话
+  pi_page: 130
 - lgid: 419
   name: Chairel
   abbr: C
@@ -2490,6 +2888,7 @@
   iso: nri
   lgcode: 87
   sort: CHOKRI
+  srcofdata: AW-TBT
   notes: 'AW-TBT: "Chakrü"'
 - lgid: 422
   name: Chamba Lahuli
@@ -2507,6 +2906,7 @@
   iso: rab
   lgcode: 73
   sort: CHAMLING
+  srcofdata: AW-TBT
 - lgid: 424
   name: Chamling
   abbr: cha
@@ -2524,7 +2924,10 @@
   iso: rab
   lgcode: 73
   sort: CHAMLING
+  srcofdata: WW-Cham
+  picode: Cham1
   notes: bodypart items
+  pi_page: 73
 - lgid: 426
   name: Chamling
   abbr: Chamling
@@ -2533,7 +2936,10 @@
   iso: rab
   lgcode: 73
   sort: CHAMLING
+  srcofdata: WW-Cham
+  picode: Cham1
   notes: animal items
+  pi_page: 73
 - lgid: 427
   name: Chang
   abbr: Ch Naga
@@ -2550,6 +2956,7 @@
   iso: nbc
   lgcode: 74
   sort: CHANG
+  srcofdata: AW-TBT
 - lgid: 429
   name: Chang
   abbr: Chang
@@ -2558,7 +2965,10 @@
   iso: nbc
   lgcode: 74
   sort: CHANG
+  srcofdata: HUT1929
+  picode: Chng1
   notes: <HUT1929
+  pi_page: 74
 - lgid: 430
   name: Chang
   abbr: Chang
@@ -2567,6 +2977,9 @@
   iso: nbc
   lgcode: 74
   sort: CHANG
+  srcofdata: HUT1929?
+  picode: Chng1
+  pi_page: 74
 - lgid: 431
   name: Chang
   abbr: Chang
@@ -2575,6 +2988,8 @@
   iso: nbc
   lgcode: 74
   sort: CHANG
+  srcofdata: WTF-PNN, GEM-CNL
+  pinotes: no Srcofsrc info
 - lgid: 432
   name: Chang
   abbr: Chang
@@ -2600,6 +3015,8 @@
   iso: nbc
   lgcode: 74
   sort: CHANG
+  srcofdata: HUT1929
+  pinotes: no Srcofsrc info
 - lgid: 435
   name: Chang
   abbr: Ch
@@ -2608,6 +3025,9 @@
   iso: nbc
   lgcode: 74
   sort: CHANG
+  srcofdata: GEM-CNL
+  picode: Chng1
+  pi_page: 74
 - lgid: 436
   name: Chantyal
   abbr: ChanQ
@@ -2616,6 +3036,9 @@
   iso: chx
   lgcode: 75
   sort: CHANTYAL
+  srcofdata: NPB-ChanQ
+  picode: Chtl1
+  pi_page: 75
 - lgid: 437
   name: Chaudangsi
   abbr: Chaudangsi
@@ -2640,6 +3063,7 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  srcofdata: STC
 - lgid: 440
   name: Chepang
   abbr: Chepang
@@ -2648,6 +3072,7 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  srcofdata: STC
 - lgid: 441
   name: Chepang
   abbr: Ch
@@ -2656,7 +3081,10 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  picode: Chep1
+  pinotes: trans. normalized;  <Bhobikan Chepang, Ross and Kathleen Caughley
   notes: trans. normalized
+  pi_page: 78
 - lgid: 442
   name: Chepang
   abbr: Chep
@@ -2665,6 +3093,7 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  srcofdata: AW-TBT
 - lgid: 443
   name: Chepang
   abbr: che
@@ -2673,6 +3102,7 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  srcofdata: BM-PK7?
 - lgid: 444
   name: Chepang
   abbr: Chepang
@@ -2681,6 +3111,7 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  srcofdata: HOD1848?
 - lgid: 445
   name: Chepang
   abbr: Cp
@@ -2689,6 +3120,8 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  srcofdata: AH-CSDPN
+  pinotes: no Srcofsrc info
 - lgid: 446
   name: Chepang
   abbr: Chepang
@@ -2705,6 +3138,8 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  srcofdata: AH-CSDPN
+  pinotes: no Srcofsrc info
 - lgid: 448
   name: Chepang
   abbr: Chepang
@@ -2713,6 +3148,7 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  srcofdata: JAM/AH-CSDPN?
 - lgid: 449
   name: Chepang
   abbr: Chep
@@ -2721,7 +3157,11 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  srcofdata: SIL-Chep
+  picode: Chep2
+  pinotes: trans. normalized
   notes: trans. normalized
+  pi_page: 76
 - lgid: 450
   name: Chepang
   abbr: Chepang
@@ -2730,6 +3170,7 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  srcofdata: HOD1848
 - lgid: 451
   name: Chepang
   abbr: Chepang
@@ -2738,6 +3179,7 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG
+  srcofdata: STC
 - lgid: 452
   name: Chepang (Eastern)
   abbr: Chep
@@ -2746,6 +3188,9 @@
   iso: cdm
   lgcode: 76
   sort: CHEPANG E
+  srcofdata: RC-ChepQ
+  picode: Chep2
+  pi_page: 76
 - lgid: 453
   name: Lai (Hakha)
   abbr: Chin Haka (=Lai)
@@ -2770,6 +3215,7 @@
   iso: mwq
   lgcode: 77
   sort: CHINBOK
+  srcofdata: OT-KnsI
 - lgid: 456
   name: Chinbok
   abbr: Chinbok
@@ -2786,6 +3232,7 @@
   iso: mwq
   lgcode: 77
   sort: CHINBOK
+  srcofdata: OT-KnsI?
 - lgid: 458
   name: Chinbok
   abbr: Chinbok
@@ -2818,6 +3265,7 @@
   source: ACST
   lgcode: 81
   sort: CHINESE (MIDDLE)
+  srcofdata: GSR
 - lgid: 462
   name: Chinese (Middle)
   abbr: MC
@@ -2825,6 +3273,7 @@
   source: WHB-OC
   lgcode: 81
   sort: CHINESE (MIDDLE)
+  srcofdata: WHB-OC
 - lgid: 463
   name: Chinese (Middle)
   abbr: Mid Chin
@@ -2840,6 +3289,8 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  picode: Garo1
+  pi_page: 106
 - lgid: 465
   name: Chinese (Middle)
   abbr: MC
@@ -2847,6 +3298,7 @@
   source: JAM-Ety
   lgcode: 81
   sort: CHINESE (MIDDLE)
+  srcofdata: GSR
 - lgid: 466
   name: Chinese (Middle)
   abbr: MC
@@ -2861,6 +3313,7 @@
   source: RJL-DPTB
   lgcode: 81
   sort: CHINESE (MIDDLE)
+  srcofdata: GSR
 - lgid: 468
   name: Chinese (Middle)
   abbr: MC
@@ -2876,6 +3329,7 @@
   iso: och
   lgcode: 78
   sort: CHINESE (OLD)
+  srcofdata: GSR
 - lgid: 470
   name: Chinese (Old)
   abbr: Chs
@@ -2884,6 +3338,7 @@
   iso: och
   lgcode: 78
   sort: CHINESE (OLD)
+  srcofdata: GSR
 - lgid: 471
   name: Chinese (Old)
   abbr: OC
@@ -2892,6 +3347,7 @@
   iso: och
   lgcode: 78
   sort: CHINESE (OLD)
+  srcofdata: WHB-OC
 - lgid: 472
   name: Chinese (Old)
   abbr: Archaic Chinese
@@ -2908,6 +3364,7 @@
   iso: och
   lgcode: 78
   sort: CHINESE (OLD)
+  srcofdata: GSR
 - lgid: 474
   name: Chinese (Old)
   abbr: Chinese
@@ -2916,6 +3373,7 @@
   iso: och
   lgcode: 78
   sort: CHINESE (OLD)
+  srcofdata: GSR
 - lgid: 475
   name: Chinese (Old)
   abbr: AC
@@ -2924,6 +3382,7 @@
   iso: och
   lgcode: 78
   sort: CHINESE (OLD)
+  srcofdata: GSR
 - lgid: 476
   name: Chinese (Old)
   abbr: AC
@@ -2940,6 +3399,7 @@
   iso: och
   lgcode: 78
   sort: CHINESE (OLD)
+  srcofdata: LI1980
 - lgid: 478
   name: Chinese (Old)
   abbr: OC
@@ -2948,6 +3408,7 @@
   iso: och
   lgcode: 78
   sort: CHINESE (OLD)
+  srcofdata: LI1980
 - lgid: 479
   name: Chinese (Old)
   abbr: OC
@@ -2980,6 +3441,7 @@
   iso: och
   lgcode: 82
   sort: CHINESE
+  srcofdata: GSR
 - lgid: 483
   name: Chhintang
   abbr: Chingtang
@@ -3004,6 +3466,7 @@
   iso: cdf
   lgcode: 86
   sort: CHIRU
+  srcofdata: AW-TBT??
 - lgid: 486
   name: Chokri
   abbr: Chokri
@@ -3012,6 +3475,9 @@
   iso: nri
   lgcode: 87
   sort: CHOKRI
+  srcofdata: GEM-Chok
+  picode: Chok1
+  pi_page: 80
 - lgid: 487
   name: Chokri
   abbr: Chokri
@@ -3020,6 +3486,9 @@
   iso: nri
   lgcode: 87
   sort: CHOKRI
+  srcofdata: VN-ChkQ
+  picode: Chok2
+  pi_page: 79
 - lgid: 488
   name: Chourasya
   abbr: Chourasya
@@ -3092,6 +3561,9 @@
   iso: adi
   lgcode: 89
   sort: DAMU
+  srcofdata: JZ-Luoba, Ouyang PC
+  picode: Damu1
+  pi_page: 86
 - lgid: 499
   name: Damu
   abbr: Damu
@@ -3108,6 +3580,9 @@
   iso: adi
   lgcode: 89
   sort: DAMU
+  srcofdata: JZ-Luoba, Ouyang PC
+  picode: Damu1
+  pi_page: 86
 - lgid: 501
   name: Danaw (Mon-Khmer)
   abbr: Danaw
@@ -3132,6 +3607,7 @@
   iso: mhu
   lgcode: 91
   sort: DARANG
+  srcofdata: NEFA-DTL
 - lgid: 504
   name: Darang [Taraon]
   abbr: Taraon
@@ -3140,6 +3616,7 @@
   iso: mhu
   lgcode: 91
   sort: DARANG
+  srcofdata: NEFA-DTL
 - lgid: 505
   name: Darang [Taraon]
   abbr: DGdr
@@ -3148,6 +3625,9 @@
   iso: mhu
   lgcode: 91
   sort: DARANG
+  srcofdata: SLZO-MLD
+  picode: Dara1
+  pi_page: 88
 - lgid: 506
   name: Darang [Taraon]
   abbr: Taraon
@@ -3156,6 +3636,7 @@
   iso: mhu
   lgcode: 91
   sort: DARANG
+  srcofdata: NEFA-DTL
 - lgid: 507
   name: Darang [Taraon]
   abbr: DRD
@@ -3164,6 +3645,7 @@
   iso: mhu
   lgcode: 91
   sort: DARANG
+  srcofdata: SLZO-MLD
 - lgid: 508
   name: Darang [Taraon]
   abbr: Taraon
@@ -3172,6 +3654,7 @@
   iso: mhu
   lgcode: 91
   sort: DARANG
+  srcofdata: JFN-DMT
 - lgid: 509
   name: Darang [Taraon]
   abbr: Darang49
@@ -3180,6 +3663,9 @@
   iso: mhu
   lgcode: 91
   sort: DARANG
+  srcofdata: ZMYYC
+  picode: Dara1
+  pi_page: 88
 - lgid: 510
   name: Hani (Dazhai)
   abbr: Hani.Dazhai31
@@ -3188,7 +3674,9 @@
   iso: hni
   lgcode: 111
   sort: HANI
+  picode: Hani6
   notes: 云南省绿春县大寨话
+  pi_page: 125
 - lgid: 513
   name: Deori/Deuri
   abbr: Deuri
@@ -3206,6 +3694,9 @@
   iso: der
   lgcode: 93
   sort: DEORI
+  srcofdata: WBB-Deuri?
+  picode: Deur1
+  pi_page: 90
 - lgid: 515
   name: Dhimal
   abbr: Dhimal
@@ -3222,6 +3713,7 @@
   iso: dhi
   lgcode: 94
   sort: DHIMAL
+  srcofdata: AW-TBT
 - lgid: 517
   name: Dhimal
   abbr: Dhimal
@@ -3230,6 +3722,7 @@
   iso: dhi
   lgcode: 94
   sort: DHIMAL
+  srcofdata: HOD1847a?
 - lgid: 518
   name: Dhimal
   abbr: Dhimal
@@ -3246,6 +3739,9 @@
   iso: dhi
   lgcode: 94
   sort: DHIMAL
+  srcofdata: JK-Dh
+  picode: Dhim1
+  pi_page: 92
 - lgid: 520
   name: Dhimal
   abbr: Dhimal
@@ -3254,6 +3750,7 @@
   iso: dhi
   lgcode: 94
   sort: DHIMAL
+  srcofdata: JAM/STC?
 - lgid: 521
   name: Dhimal
   abbr: Dhimal
@@ -3262,6 +3759,7 @@
   iso: dhi
   lgcode: 94
   sort: DHIMAL
+  srcofdata: HOD1947a
 - lgid: 522
   name: Dhimal
   abbr: Dhimal
@@ -3286,6 +3784,7 @@
   iso: mhu
   lgcode: 95
   sort: DIGARO
+  srcofdata: NEFA-DTL
 - lgid: 525
   name: Digaro
   abbr: Digaro
@@ -3310,6 +3809,7 @@
   iso: mhu
   lgcode: 95
   sort: DIGARO
+  srcofdata: JFN-DMT
 - lgid: 528
   name: Digaro
   abbr: Digaro
@@ -3318,6 +3818,7 @@
   iso: mhu
   lgcode: 95
   sort: DIGARO
+  srcofdata: STC
 - lgid: 529
   name: Dimasa
   abbr: Dimasa
@@ -3326,6 +3827,7 @@
   iso: dis
   lgcode: 96
   sort: DIMASA
+  srcofdata: STC
 - lgid: 530
   name: Dimasa
   abbr: Dimasa (=Kachari)
@@ -3334,6 +3836,7 @@
   iso: dis
   lgcode: 96
   sort: DIMASA
+  srcofdata: DUN1908?
 - lgid: 531
   name: Dimasa
   abbr: Dimasa
@@ -3351,6 +3854,7 @@
   iso: dis
   lgcode: 96
   sort: DIMASA
+  srcofdata: STC
 - lgid: 533
   name: Dimasa
   abbr: Dimasa
@@ -3359,6 +3863,7 @@
   iso: dis
   lgcode: 96
   sort: DIMASA
+  srcofdata: JAM/STC
 - lgid: 534
   name: Dimasa
   abbr: Dimasa
@@ -3367,6 +3872,7 @@
   iso: dis
   lgcode: 96
   sort: DIMASA
+  srcofdata: DUN1908
 - lgid: 535
   name: Dimasa
   abbr: Dimasa
@@ -3375,6 +3881,7 @@
   iso: dis
   lgcode: 96
   sort: DIMASA
+  srcofdata: STC
 - lgid: 537
   name: Trung [Dulong]
   abbr: Dulong46
@@ -3383,6 +3890,8 @@
   iso: duu
   lgcode: 310
   sort: TRUNG
+  picode: Trun1
+  pi_page: 415
 - lgid: 538
   name: Trung [Dulong] (Dulonghe)
   abbr: DLdh
@@ -3391,6 +3900,9 @@
   iso: duu
   lgcode: 311
   sort: TRUNG D
+  srcofdata: JZ-Dulong
+  picode: Trun1
+  pi_page: 415
 - lgid: 539
   name: Trung [Dulong] (Dulonghe)
   abbr: DLa
@@ -3399,6 +3911,7 @@
   iso: duu
   lgcode: 311
   sort: TRUNG D
+  srcofdata: JZ-Dulong
 - lgid: 540
   name: Trung [Dulong] (Nujiang)
   abbr: DLnj
@@ -3407,6 +3920,9 @@
   iso: duu
   lgcode: 312
   sort: TRUNG N
+  srcofdata: JZ-Dulong
+  picode: Trun2
+  pi_page: 417
 - lgid: 541
   name: Trung [Dulong] (Nujiang)
   abbr: DLb
@@ -3415,6 +3931,7 @@
   iso: duu
   lgcode: 312
   sort: TRUNG N
+  srcofdata: JZ-Dulong
 - lgid: 542
   name: Trung [Dulong]
   abbr: Dulong
@@ -3423,6 +3940,7 @@
   iso: duu
   lgcode: 310
   sort: TRUNG
+  srcofdata: LCP-Trung
 - lgid: 543
   name: Dumi
   abbr: Dumi
@@ -3431,6 +3949,7 @@
   iso: dus
   lgcode: 97
   sort: DUMI
+  srcofdata: AW-TBT
 - lgid: 544
   name: Dumi
   abbr: dum
@@ -3439,6 +3958,7 @@
   iso: dus
   lgcode: 97
   sort: DUMI
+  srcofdata: BM-PK7
 - lgid: 545
   name: Dumi
   abbr: Dumi
@@ -3463,6 +3983,9 @@
   iso: dus
   lgcode: 97
   sort: DUMI
+  srcofdata: SVD-Dumi
+  picode: Dumi1
+  pi_page: 94
 - lgid: 548
   name: Dungmali
   abbr: Dung
@@ -3471,6 +3994,7 @@
   iso: raa
   lgcode: 98
   sort: DUNGMALI
+  srcofdata: AW-TBT
 - lgid: 549
   name: Dungmali
   abbr: Dungmali
@@ -3487,6 +4011,7 @@
   iso: dzo
   lgcode: 99
   sort: DZONGKHA
+  srcofdata: AW-TBT
 - lgid: 551
   name: Dzongkha
   abbr: Dzongkha
@@ -3495,6 +4020,8 @@
   iso: dzo
   lgcode: 99
   sort: DZONGKHA
+  picode: Dzon1
+  pi_page: 96
 - lgid: 552
   name: Karen (Eastern Kayah = Red Karen)
   abbr: EKayah
@@ -3503,6 +4030,9 @@
   iso: eky
   lgcode: 130
   sort: KAYAH
+  srcofdata: DS-Kayah
+  picode: Kare4
+  pi_page: 161
 - lgid: 554
   name: Zeme
   abbr: Empeo
@@ -3519,6 +4049,7 @@
   iso: nzm
   lgcode: 335
   sort: ZEME
+  srcofdata: SOP1885?
 - lgid: 556
   name: Zeme
   abbr: Empeo
@@ -3527,6 +4058,7 @@
   iso: nzm
   lgcode: 335
   sort: ZEME
+  srcofdata: SOP1885
 - lgid: 557
   name: Ergong (Danba)
   abbr: Ergong14
@@ -3535,6 +4067,9 @@
   iso: ero
   lgcode: 100
   sort: ERGONG
+  srcofdata: ZMYYC
+  picode: Ergo2
+  pi_page: 99
 - lgid: 558
   name: Ergong (Danba)
   abbr: ErgongD
@@ -3543,6 +4078,7 @@
   iso: ero
   lgcode: 100
   sort: ERGONG
+  srcofdata: SHK-ErgDQ
 - lgid: 559
   name: Ergong (Daofu)
   abbr: Daofu
@@ -3551,7 +4087,10 @@
   iso: ero
   lgcode: 100
   sort: ERGONG
+  srcofdata: DQ-Daofu
+  picode: Ergo1
   notes: by Ma Erji
+  pi_page: 98
 - lgid: 560
   name: Ergong (Northern)
   abbr: Ergong
@@ -3560,6 +4099,7 @@
   iso: ero
   lgcode: 100
   sort: ERGONG
+  srcofdata: SHK-ErgNQ
 - lgid: 561
   name: Ersu
   abbr: Ersu18
@@ -3568,6 +4108,9 @@
   iso: ers
   lgcode: 101
   sort: ERSU
+  srcofdata: ZMYYC
+  picode: Ersu1
+  pi_page: 101
 - lgid: 562
   name: Ersu
   abbr: Ersu
@@ -3576,6 +4119,7 @@
   iso: ers
   lgcode: 205
   sort: ERSU
+  srcofdata: SHK-ErsCQ
 - lgid: 563
   name: Galo
   abbr: Gl
@@ -3584,6 +4128,9 @@
   iso: adl
   lgcode: 102
   sort: GALO
+  srcofdata: AW-TBT?
+  picode: Gall1
+  pi_page: 104
 - lgid: 564
   name: Galo
   abbr: Gallong
@@ -3592,7 +4139,11 @@
   iso: adl
   lgcode: 102
   sort: GALO
+  srcofdata: KDG-IGL
+  picode: Gall2
+  pinotes: trans. normalized
   notes: trans. normalized
+  pi_page: 105
 - lgid: 565
   name: Galo
   abbr: Gallong DG
@@ -3601,6 +4152,7 @@
   iso: adl
   lgcode: 102
   sort: GALO
+  srcofdata: KDG-IGL
 - lgid: 566
   name: Ganan
   abbr: Ganan
@@ -3617,6 +4169,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: STC
 - lgid: 568
   name: Garo
   abbr: Garo
@@ -3625,6 +4178,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: AW-TBT
 - lgid: 569
   name: Garo
   abbr: Garo
@@ -3633,6 +4187,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: BON1930-31?
 - lgid: 570
   name: Garo
   abbr: Garo
@@ -3641,6 +4196,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: CHU1867?
 - lgid: 571
   name: Garo
   abbr: G
@@ -3649,6 +4205,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: RB-PB/STC
 - lgid: 572
   name: Garo
   abbr: G
@@ -3657,6 +4214,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: RB-PB/STC
 - lgid: 573
   name: Garo
   abbr: Garo
@@ -3673,6 +4231,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: RB-PB/STC
 - lgid: 575
   name: Garo
   abbr: Garo
@@ -3681,6 +4240,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: KEI1873?
 - lgid: 576
   name: Garo
   abbr: Garo
@@ -3689,6 +4249,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: PHI1904?
 - lgid: 577
   name: Garo
   abbr: Garo
@@ -3697,6 +4258,9 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: RB-PB?
+  picode: Garo1
+  pi_page: 106
 - lgid: 578
   name: Garo
   abbr: G
@@ -3705,6 +4269,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: JAM/STC
 - lgid: 579
   name: Garo
   abbr: G
@@ -3713,6 +4278,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: BON1930-31, etc., see n
   notes: BON1930-31, CHU1867, MIS1905,KEI1873
 - lgid: 580
   name: Garo
@@ -3722,6 +4288,7 @@
   iso: grt
   lgcode: 104
   sort: GARO
+  srcofdata: STC
 - lgid: 581
   name: Garo (Bangladesh)
   abbr: Garo-Bang
@@ -3737,6 +4304,7 @@
   source: STC
   lgcode: 104
   sort: '*GARO'
+  srcofdata: see notes
   notes: BON1930-31, CHU1867, MIS1905,KEI1873
 - lgid: 583
   name: Gasu
@@ -3746,6 +4314,9 @@
   iso: ykt
   lgcode: 350
   sort: GASU
+  srcofdata: WZL-Gasu
+  picode: Gasu1
+  pi_page: 108
 - lgid: 584
   name: Gazhuo
   abbr: Gazhuo
@@ -3754,7 +4325,10 @@
   iso: kaf
   lgcode: 105
   sort: GAZHUO
+  srcofdata: DQ-Gazhuo
+  picode: Gazh1
   notes: by Dai Qingxia
+  pi_page: 110
 - lgid: 585
   name: Gazhuo
   abbr: Gazhuo
@@ -3763,6 +4337,8 @@
   iso: kaf
   lgcode: 105
   sort: GAZHUO
+  picode: Gazh1
+  pi_page: 110
 - lgid: 586
   name: Gazhuo
   abbr: Gazhuo
@@ -3771,6 +4347,8 @@
   iso: kaf
   lgcode: 105
   sort: GAZHUO
+  picode: Gazh1
+  pi_page: 110
 - lgid: 587
   name: Geba
   abbr: Geba
@@ -3795,6 +4373,7 @@
   iso: mxj
   lgcode: 107
   sort: GEMAN
+  srcofdata: STC?
 - lgid: 590
   name: Kaman [Miju]
   abbr: DGgm
@@ -3803,6 +4382,9 @@
   iso: mxj
   lgcode: 107
   sort: GEMAN
+  srcofdata: SLZO
+  picode: Gema1
+  pi_page: 112
 - lgid: 591
   name: Kaman [Miju]
   abbr: GMD
@@ -3811,6 +4393,7 @@
   iso: mxj
   lgcode: 107
   sort: GEMAN
+  srcofdata: SLZO-MLD
 - lgid: 592
   name: Kaman [Miju]
   abbr: Geman48
@@ -3819,6 +4402,9 @@
   iso: mxj
   lgcode: 107
   sort: GEMAN
+  srcofdata: ZMYYC
+  picode: Gema1
+  pi_page: 112
 - lgid: 593
   name: 'Chinese (GSR #)'
   abbr: GSR
@@ -3835,6 +4421,9 @@
   iso: gqi
   lgcode: 108
   sort: GUIQIONG
+  srcofdata: SHK-GuiqQ
+  picode: Guiq1
+  pi_page: 114
 - lgid: 595
   name: Guiqiong
   abbr: Guiqiong17
@@ -3843,6 +4432,9 @@
   iso: gqi
   lgcode: 108
   sort: GUIQIONG
+  srcofdata: ZMYYC
+  picode: Guiq1
+  pi_page: 114
 - lgid: 596
   name: Gurung
   abbr: G
@@ -3851,7 +4443,10 @@
   iso: gvr
   lgcode: 109
   sort: GURUNG
+  picode: Guru1
+  pinotes: <Deu Bahadur Gurung, Warren and Jessie Glover
   notes: uses the same informant as Glover (from Ghachok)
+  pi_page: 116
 - lgid: 597
   name: Gurung
   abbr: Gur
@@ -3860,6 +4455,7 @@
   iso: gvr
   lgcode: 109
   sort: GURUNG
+  srcofdata: AW-TBT
   notes: appears to be W. Gurung
 - lgid: 598
   name: Gurung
@@ -3868,6 +4464,7 @@
   source: JAM-GSTC
   lgcode: 109
   sort: GURUNG
+  srcofdata: STC
 - lgid: 599
   name: Gurung
   abbr: Gurung
@@ -3876,6 +4473,7 @@
   iso: gvr
   lgcode: 109
   sort: GURUNG
+  srcofdata: AH-CSDPN
 - lgid: 600
   name: Gurung
   abbr: gha
@@ -3884,7 +4482,11 @@
   iso: gvr
   lgcode: 109
   sort: GURUNG
+  srcofdata: Glover1977, SIL-Gur
+  picode: Guru2
+  pinotes: based on GLO 1977 but reanalysis of the data and different transcription system
   notes: Glover 1977 =Ghachok =Western Gurung
+  pi_page: 117
 - lgid: 601
   name: Gurung
   abbr: Gurung
@@ -3892,6 +4494,7 @@
   source: STC
   lgcode: 109
   sort: GURUNG
+  srcofdata: unknown
 - lgid: 602
   name: Gurung (Ghachok)
   abbr: Gu
@@ -3900,6 +4503,9 @@
   iso: gvr
   lgcode: 109
   sort: GURUNG
+  srcofdata: AH-CSDPN
+  picode: Guru1
+  pi_page: 116
 - lgid: 603
   name: Gurung (Ghachok)
   abbr: gha
@@ -3908,6 +4514,9 @@
   iso: gvr
   lgcode: 109
   sort: GURUNG
+  srcofdata: MM-K78
+  picode: Guru2
+  pi_page: 117
 - lgid: 604
   name: Gurung (Ghachok)
   abbr: Gur
@@ -3916,7 +4525,9 @@
   iso: gvr
   lgcode: 109
   sort: GURUNG
+  picode: Guru1
   notes: =Glover 1977
+  pi_page: 116
 - lgid: 605
   name: rGyalrong
   abbr: Gyarung
@@ -3933,6 +4544,7 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: DQ-Jiarong
 - lgid: 607
   name: rGyalrong
   abbr: Gyarong
@@ -3941,6 +4553,7 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: EDG1932?
 - lgid: 608
   name: rGyalrong
   abbr: Gyarong
@@ -3949,6 +4562,7 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: YN-HSJVS
 - lgid: 609
   name: rGyalrong
   abbr: Jyarung
@@ -3957,6 +4571,7 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: YN-HSJVS
 - lgid: 610
   name: rGyalrong
   abbr: Gyarung
@@ -3965,6 +4580,7 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: JAM/STC
 - lgid: 611
   name: rGyalrong
   abbr: Gyarung
@@ -3973,6 +4589,7 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: CK-pGd,EDG1932,WOL1966
 - lgid: 612
   name: rGyalrong
   abbr: Gyarong
@@ -3981,6 +4598,7 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: WOL1966?
 - lgid: 613
   name: rGyalrong
   abbr: Gyarung
@@ -3989,6 +4607,7 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: STC
 - lgid: 614
   name: rGyalrong
   abbr: Gyarong
@@ -3997,6 +4616,9 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: YN-HSJVS
+  picode: Gyar1
+  pi_page: 122
 - lgid: 615
   name: rGyalrong
   abbr: Jiarong
@@ -4005,6 +4627,9 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: LXR-Jiarong
+  picode: Gyar3
+  pi_page: 120
 - lgid: 616
   name: rGyalrong (Eastern)
   abbr: rGyaE
@@ -4013,6 +4638,7 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: SHK-rGEQ
 - lgid: 617
   name: rGyalrong (Northern)
   abbr: rGyaN
@@ -4021,6 +4647,7 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: SHK-rGNQ
 - lgid: 618
   name: rGyalrong (NW)
   abbr: rGyaNW
@@ -4029,6 +4656,7 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: SHK-rGNWQ
 - lgid: 620
   name: Lai (Hakha)
   abbr: Haka (Lai)
@@ -4053,7 +4681,10 @@
   iso: hni
   lgcode: 111
   sort: HANI
+  srcofdata: DQ-Hani
+  picode: Hani6
   notes: by Dai Qingxia
+  pi_page: 125
 - lgid: 623
   name: Hani
   abbr: Hani
@@ -4062,6 +4693,7 @@
   iso: hni
   lgcode: 111
   sort: HANI
+  srcofdata: HU-Hani
 - lgid: 624
   name: Hani
   abbr: Hani
@@ -4070,6 +4702,7 @@
   iso: hni
   lgcode: 111
   sort: HANI
+  srcofdata: GAO1952
 - lgid: 625
   name: Hani
   abbr: Hani
@@ -4086,6 +4719,7 @@
   iso: hni
   lgcode: 111
   sort: HANI
+  srcofdata: GAO1952
 - lgid: 627
   name: Hani
   abbr: Hani
@@ -4102,6 +4736,9 @@
   iso: hni
   lgcode: 111
   sort: HANI (BIYUE)
+  srcofdata: JZ-Hani
+  picode: Hani2
+  pi_page: 130
 - lgid: 629
   name: Hani (Dazhai)
   abbr: HNdz
@@ -4110,6 +4747,9 @@
   iso: hni
   lgcode: 111
   sort: HANI
+  srcofdata: JZ-Hani
+  picode: Hani6
+  pi_page: 125
 - lgid: 630
   name: Hani (Gelanghe)
   abbr: HNgl
@@ -4118,6 +4758,7 @@
   iso: hni
   lgcode: 111
   sort: HANI (GELANGHE)
+  srcofdata: JZ-Hani
 - lgid: 631
   name: Hani (Hu T’an)
   abbr: Ha [HT]
@@ -4126,6 +4767,7 @@
   iso: hni
   lgcode: 111
   sort: HANI
+  srcofdata: HU-Hani
 - lgid: 632
   name: Hani (Kao Hua-Nien)
   abbr: Ha [K]
@@ -4134,6 +4776,7 @@
   iso: hni
   lgcode: 111
   sort: HANI
+  srcofdata: GAO1952
 - lgid: 633
   name: Hani (Lüchun)
   abbr: HaL
@@ -4142,6 +4785,9 @@
   iso: enu
   lgcode: 113
   sort: HANI
+  srcofdata: ILH-PL
+  picode: Hani3
+  pi_page: 126
 - lgid: 634
   name: Hani (Shuikui)
   abbr: HNsk
@@ -4150,6 +4796,9 @@
   iso: hni
   lgcode: 111
   sort: HANI (HAONI)
+  srcofdata: JZ-Hani
+  picode: Hani4
+  pi_page: 129
 - lgid: 635
   name: Hani (Wordlist)
   abbr: HaW
@@ -4158,6 +4807,7 @@
   iso: hni
   lgcode: 111
   sort: HANI (HAONI)
+  srcofdata: ILH-PCAH
 - lgid: 637
   name: Hani (Haoni)
   abbr: Haoni
@@ -4166,6 +4816,9 @@
   iso: how
   lgcode: 114
   sort: HANI (HAONI)
+  srcofdata: DQ-Haoni
+  picode: Hani4
+  pi_page: 129
 - lgid: 638
   name: Haoni
   abbr: Hao
@@ -4174,6 +4827,7 @@
   iso: how
   lgcode: 114
   sort: HANI (HAONI)
+  srcofdata: ILH-PL
 - lgid: 639
   name: Hayu
   abbr: Vayu
@@ -4198,7 +4852,10 @@
   iso: vay
   lgcode: 116
   sort: HAYU
+  srcofdata: BM-Hay
+  picode: Hayu1
   notes: trans. normalized
+  pi_page: 134
 - lgid: 642
   name: Hayu
   abbr: Hayu
@@ -4207,6 +4864,9 @@
   iso: vay
   lgcode: 116
   sort: HAYU
+  srcofdata: BM-LH
+  picode: Hayu1
+  pi_page: 134
 - lgid: 643
   name: Hayu
   abbr: hay
@@ -4215,7 +4875,10 @@
   iso: vay
   lgcode: 116
   sort: HAYU
+  srcofdata: BM-PK7
+  picode: Hayu1
   notes: trans. normalized
+  pi_page: 134
 - lgid: 644
   name: Hayu
   abbr: Hy
@@ -4224,6 +4887,9 @@
   iso: vay
   lgcode: 116
   sort: HAYU
+  srcofdata: BM
+  picode: Hayu1
+  pi_page: 134
 - lgid: 645
   name: Hayu
   abbr: Vayu
@@ -4232,6 +4898,7 @@
   iso: vay
   lgcode: 116
   sort: HAYU
+  srcofdata: BM
 - lgid: 646
   name: Hayu
   abbr: Hayu
@@ -4240,6 +4907,7 @@
   iso: vay
   lgcode: 116
   sort: HAYU
+  srcofdata: BM
 - lgid: 647
   name: Hayu
   abbr: Vayu
@@ -4248,6 +4916,7 @@
   iso: vay
   lgcode: 116
   sort: HAYU
+  srcofdata: JAM/STC?
 - lgid: 648
   name: Hayu
   abbr: Vayu
@@ -4256,6 +4925,7 @@
   iso: vay
   lgcode: 116
   sort: HAYU
+  srcofdata: HOD1857, LSI
 - lgid: 649
   name: Hayu
   abbr: Vayu
@@ -4280,6 +4950,9 @@
   iso: dhi
   lgcode: 94
   sort: DHIMAL
+  srcofdata: Luce
+  picode: Dhim1
+  pi_page: 92
 - lgid: 652
   name: Hpun (Metjo)
   abbr: Hpun (Metjo)
@@ -4296,7 +4969,10 @@
   iso: hpo
   lgcode: 118
   sort: HPUN
+  srcofdata: Luce
+  picode: Hpun1
   notes: Luce's data
+  pi_page: 136
 - lgid: 654
   name: Hpun
   abbr: Hpun
@@ -4313,6 +4989,7 @@
   iso: hru
   lgcode: 34
   sort: AKA
+  srcofdata: STC?
   notes: JS-HCST:13 says Hruso is not Tani
 - lgid: 657
   name: Aka [Hruso]
@@ -4322,6 +4999,7 @@
   iso: hru
   lgcode: 34
   sort: AKA
+  srcofdata: SHA1947
   notes: JS-HCST:13 says Hruso is not Tani
 - lgid: 658
   name: Hwalngau
@@ -4339,7 +5017,10 @@
   iso: clk
   lgcode: 120
   sort: IDU
+  srcofdata: JP-Idu
+  picode: Idu1
   notes: identical to NEFA-PBI
+  pi_page: 139
 - lgid: 660
   name: Idu
   abbr: PBI
@@ -4348,7 +5029,10 @@
   iso: clk
   lgcode: 120
   sort: IDU
+  srcofdata: NEFA-PBI?
+  picode: Idu1
   notes: identical to JP-Idu
+  pi_page: 139
 - lgid: 661
   name: Idu
   abbr: Idu
@@ -4357,6 +5041,7 @@
   iso: clk
   lgcode: 120
   sort: IDU
+  srcofdata: SHK-Idu
 - lgid: 662
   name: Idu
   abbr: Idu50
@@ -4365,6 +5050,9 @@
   iso: clk
   lgcode: 120
   sort: IDU
+  srcofdata: ZMYYC
+  picode: Idu2
+  pi_page: 140
 - lgid: 663
   name: Intha
   abbr: IT
@@ -4398,6 +5086,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: STC
 - lgid: 667
   name: Jingpho
   abbr: Jg
@@ -4415,6 +5104,9 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: JCD
+  picode: Jing1
+  pi_page: 143
 - lgid: 669
   name: Jingpho
   abbr: Kachin
@@ -4423,6 +5115,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  pinotes: No Jingpho PI in GEM
 - lgid: 670
   name: Jingpho
   abbr: Jingpho
@@ -4439,6 +5132,9 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: OH-DKL
+  picode: Jing3
+  pi_page: 144
 - lgid: 672
   name: Jingpho
   abbr: Jg
@@ -4447,6 +5143,9 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: OH-DKL
+  picode: Jing3
+  pi_page: 144
 - lgid: 673
   name: Jingpho
   abbr: Jg
@@ -4463,6 +5162,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: OH-DKL
 - lgid: 675
   name: Jingpho
   abbr: Jingpho
@@ -4471,6 +5171,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: OH-DKL
 - lgid: 676
   name: Jingpho
   abbr: Jg
@@ -4479,6 +5180,9 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: OH-DKL
+  picode: Jing3
+  pi_page: 144
 - lgid: 677
   name: Jingpho
   abbr: Jg
@@ -4495,6 +5199,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: OH-DKL
 - lgid: 679
   name: Jingpho
   abbr: JPek
@@ -4503,6 +5208,9 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: JZ-Jingpo
+  picode: Jing4
+  pi_page: 146
 - lgid: 680
   name: Jingpho
   abbr: Jingpho
@@ -4520,6 +5228,9 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: OH-DKL?
+  picode: Jing3
+  pi_page: 144
 - lgid: 682
   name: Jingpho
   abbr: Jinghpo
@@ -4536,6 +5247,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: JZ-Jingpo?
   notes: '"Enkun Jingpho"'
 - lgid: 684
   name: Jingpho
@@ -4545,6 +5257,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: STC
 - lgid: 685
   name: Jingpho
   abbr: K
@@ -4553,6 +5266,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: OH-DKL
 - lgid: 686
   name: Jingpho
   abbr: Kachin
@@ -4561,6 +5275,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: OH-DKL
 - lgid: 687
   name: Jingpho
   abbr: K
@@ -4569,6 +5284,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: STC
 - lgid: 689
   name: Jingpho
   abbr: Jg
@@ -4585,6 +5301,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: ZMYYC
 - lgid: 691
   name: Jingpho (Assam)
   abbr: K (Assam dial.)
@@ -4625,6 +5342,7 @@
   iso: jiu
   lgcode: 125
   sort: JINUO
+  srcofdata: JZ-Jinuo?
 - lgid: 696
   name: Jinuo
   abbr: Jinuo34
@@ -4633,6 +5351,9 @@
   iso: jiu
   lgcode: 125
   sort: JINUO
+  srcofdata: ZMYYC
+  picode: Jinu2
+  pi_page: 151
 - lgid: 697
   name: Jinuo (Baka)
   abbr: JinB
@@ -4641,6 +5362,7 @@
   iso: jiu
   lgcode: 125
   sort: JINUO
+  srcofdata: DQ-JinB
 - lgid: 698
   name: Jinuo (Baya/Banai)
   abbr: JinA
@@ -4649,6 +5371,7 @@
   iso: jiu
   lgcode: 125
   sort: JINUO
+  srcofdata: DQ-JinA
 - lgid: 699
   name: Jinuo (Buyuan)
   abbr: JNby
@@ -4657,6 +5380,9 @@
   iso: jiy
   lgcode: 119
   sort: JINUO
+  srcofdata: JZ-Jinuo
+  picode: Jinu1
+  pi_page: 148
 - lgid: 700
   name: Jinuo (Youle)
   abbr: JNyl
@@ -4665,6 +5391,9 @@
   iso: jiu
   lgcode: 125
   sort: JINUO
+  srcofdata: JZ-Jinuo
+  picode: Jinu3
+  pi_page: 149
 - lgid: 701
   name: Tibetan (Jirel)
   abbr: J
@@ -4673,6 +5402,9 @@
   iso: jul
   lgcode: 298
   sort: TIBETAN (JIREL)
+  picode: TibJ1
+  pinotes: <Olak Bahadur Jirel, Esther Strahm, Anita Maibaum
+  pi_page: 397
 - lgid: 702
   name: Tibetan (Jirel)
   abbr: Jir
@@ -4681,6 +5413,9 @@
   iso: jul
   lgcode: 298
   sort: TIBETAN (JIREL)
+  srcofdata: AH-CSDPN
+  picode: TibJ1
+  pi_page: 397
 - lgid: 703
   name: Jirel
   abbr: Jir
@@ -4721,7 +5456,10 @@
   iso: nbu
   lgcode: 248
   sort: RONGMEI
+  srcofdata: SIN1986
+  picode: Rong1
   notes: PRS?
+  pi_page: 341
 - lgid: 709
   name: Dimasa
   abbr: Dimasa
@@ -4730,6 +5468,7 @@
   iso: dis
   lgcode: 96
   sort: DIMASA
+  srcofdata: STC
 - lgid: 710
   name: Bodo
   abbr: Kachari
@@ -4738,6 +5477,7 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: STC
 - lgid: 711
   name: Bodo
   abbr: Kachari
@@ -4754,6 +5494,7 @@
   iso: brx
   lgcode: 62
   sort: BODO
+  srcofdata: WIL1869?
 - lgid: 714
   name: Jingpho
   abbr: Kachin
@@ -4762,6 +5503,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  picode: Jing2
   notes: dittoed handout
 - lgid: 715
   name: Kadu
@@ -4771,6 +5513,7 @@
   iso: zkd
   lgcode: 126
   sort: KADU
+  srcofdata: BRO1920
 - lgid: 716
   name: Kadu
   abbr: Kadu
@@ -4787,6 +5530,7 @@
   iso: zkd
   lgcode: 126
   sort: KADU
+  srcofdata: STC
 - lgid: 718
   name: Kadu
   abbr: Kadu
@@ -4795,6 +5539,7 @@
   iso: zkd
   lgcode: 126
   sort: KADU
+  srcofdata: JAM/STC
 - lgid: 719
   name: Kadu
   abbr: Kadu
@@ -4803,6 +5548,7 @@
   iso: zkd
   lgcode: 126
   sort: KADU
+  srcofdata: BRO1920
 - lgid: 720
   name: Kadu (Kantu)
   abbr: Kadu (Kantu)
@@ -4835,6 +5581,7 @@
   iso: kzq
   lgcode: 127
   sort: KAIKE
+  srcofdata: not original?
 - lgid: 724
   name: Kaike
   abbr: Kk
@@ -4843,6 +5590,7 @@
   iso: kzq
   lgcode: 127
   sort: KAIKE
+  srcofdata: AH-CSDPN
 - lgid: 725
   name: Kaike
   abbr: Kaike
@@ -4851,6 +5599,7 @@
   iso: kzq
   lgcode: 127
   sort: KAIKE
+  srcofdata: AH-CSDPN
 - lgid: 726
   name: Kamarupan
   abbr: Kmrp
@@ -4858,6 +5607,7 @@
   source: JAM-GSTC
   lgcode: 1
   sort: '!KAMARUPAN'
+  srcofdata: '***'
 - lgid: 727
   name: Kanashi
   abbr: Kanashi
@@ -4882,6 +5632,7 @@
   iso: kfk
   lgcode: 129
   sort: KANAURI
+  srcofdata: BAI1909
 - lgid: 730
   name: Kanauri
   abbr: Kanauri
@@ -4890,6 +5641,8 @@
   iso: kfk
   lgcode: 129
   sort: KANAURI
+  srcofdata: BAI1911?
+  picode: Kana2
   notes: trans. normalized
 - lgid: 731
   name: Kanauri
@@ -4899,6 +5652,9 @@
   iso: kfk
   lgcode: 129
   sort: KANAURI
+  srcofdata: DS-Kan?
+  picode: Kana1
+  pi_page: 154
 - lgid: 732
   name: Kanauri
   abbr: Knr
@@ -4907,6 +5663,9 @@
   iso: kfk
   lgcode: 129
   sort: KANAURI
+  srcofdata: STC
+  picode: Kana2
+  pi_page: 156
 - lgid: 733
   name: Kanauri
   abbr: Knr
@@ -4923,6 +5682,7 @@
   iso: kfk
   lgcode: 129
   sort: KANAURI
+  srcofdata: STC
 - lgid: 735
   name: Kanauri
   abbr: Kanauri
@@ -4931,6 +5691,7 @@
   iso: kfk
   lgcode: 129
   sort: KANAURI
+  srcofdata: JAM/STC
 - lgid: 736
   name: Kanauri
   abbr: Kanauri
@@ -4939,6 +5700,9 @@
   iso: kfk
   lgcode: 129
   sort: KANAURI
+  srcofdata: BAI1909,BAI1911,JTR-GDK
+  picode: Kana2
+  pi_page: 156
 - lgid: 737
   name: Kanauri
   abbr: Kanauri
@@ -4947,6 +5711,7 @@
   iso: kfk
   lgcode: 129
   sort: KANAURI
+  srcofdata: STC
 - lgid: 738
   name: Kanauri
   abbr: Kanauri
@@ -4955,6 +5720,7 @@
   iso: kfk
   lgcode: 129
   sort: KANAURI
+  srcofdata: JTR-GDK?
 - lgid: 740
   name: Karen
   abbr: Karen
@@ -4962,6 +5728,7 @@
   source: ACST
   lgcode: 11
   sort: KAREN
+  srcofdata: STC
   notes: proto-Karen?
 - lgid: 741
   name: Karen
@@ -4970,6 +5737,7 @@
   source: JAM-Ety
   lgcode: 11
   sort: KAREN
+  srcofdata: RBJ-KLS,STC
 - lgid: 742
   name: Karen
   abbr: Karen
@@ -4977,6 +5745,7 @@
   source: RBJ-KLS
   lgcode: 11
   sort: KAREN
+  srcofdata: RBJ-KLS
 - lgid: 743
   name: Karen
   abbr: Karen
@@ -4984,6 +5753,7 @@
   source: RJL-DPTB
   lgcode: 11
   sort: KAREN
+  srcofdata: RBJ-KLS
   notes: proto-Karen
 - lgid: 744
   name: Karen (Pho)
@@ -5009,6 +5779,7 @@
   iso: ksw
   lgcode: 257
   sort: SGAW HIN
+  srcofdata: DQ-KarenB
 - lgid: 747
   name: Karen (Sgaw/Yue)
   abbr: KarenA
@@ -5017,6 +5788,7 @@
   iso: ksw
   lgcode: 257
   sort: SGAW YUE
+  srcofdata: DQ-KarenA
 - lgid: 750
   name: Khezha
   abbr: Kezhama
@@ -5025,6 +5797,9 @@
   iso: nkh
   lgcode: 138
   sort: KHEZHA
+  srcofdata: LSI
+  picode: Khez1
+  pi_page: 178
 - lgid: 751
   name: Kha Li
   abbr: Kha Li
@@ -5041,6 +5816,9 @@
   iso: klr
   lgcode: 131
   sort: KHALING
+  picode: Khal1
+  pinotes: <Sapta Man Khaling, Sueyoshi and Ingrid Toba
+  pi_page: 174
 - lgid: 753
   name: Khaling
   abbr: Khal
@@ -5049,6 +5827,7 @@
   iso: klr
   lgcode: 131
   sort: KHALING
+  srcofdata: AW-TBT?
 - lgid: 754
   name: Khaling
   abbr: kg
@@ -5057,6 +5836,7 @@
   iso: klr
   lgcode: 131
   sort: KHALING
+  srcofdata: BM-PK7
 - lgid: 755
   name: Khaling
   abbr: Kg
@@ -5065,6 +5845,7 @@
   iso: klr
   lgcode: 131
   sort: KHALING
+  srcofdata: AH-CSDPN
 - lgid: 756
   name: Khaling
   abbr: Khaling
@@ -5073,6 +5854,7 @@
   iso: klr
   lgcode: 131
   sort: KHALING
+  srcofdata: AH-CSDPN
 - lgid: 757
   name: Khaling
   abbr: Khaling
@@ -5090,6 +5872,7 @@
   iso: raf
   lgcode: 293
   sort: BALALI
+  srcofdata: old
 - lgid: 759
   name: Kham
   abbr: Kh
@@ -5097,6 +5880,9 @@
   source: AH-CSDPN
   lgcode: 132
   sort: KHAM
+  picode: Kham1
+  pinotes: <Hasta Ram Buhda, David and Nancy Watters
+  pi_page: 176
 - lgid: 760
   name: Kham
   abbr: Kham
@@ -5118,7 +5904,10 @@
   source: DNW-Gloss
   lgcode: 132
   sort: KHAM
+  srcofdata: DNW-Gloss
+  picode: Kham2
   notes: SIL-Kham=DNW-KhamQ=DNW-Gloss
+  pi_page: 175
 - lgid: 763
   name: Kham
   abbr: Km
@@ -5126,6 +5915,9 @@
   source: JAM-Ety
   lgcode: 132
   sort: KHAM
+  srcofdata: AH-CSDPN
+  picode: Kham1
+  pi_page: 176
 - lgid: 764
   name: Kham
   abbr: Km
@@ -5133,6 +5925,7 @@
   source: JAM-GSTC
   lgcode: 132
   sort: KHAM
+  srcofdata: AH-CSDPN (& DNW?)
 - lgid: 765
   name: Kham
   abbr: Kham
@@ -5140,6 +5933,7 @@
   source: JAM-VSTB
   lgcode: 132
   sort: KHAM
+  srcofdata: AH-CSDPN
 - lgid: 766
   name: Kham
   abbr: Kham
@@ -5147,7 +5941,10 @@
   source: DNW-KhamQ
   lgcode: 132
   sort: KHAM
+  srcofdata: DNW-KhamQ
+  picode: Kham2
   notes: data accidentally entered twice--count should be 194. SIL-Kham=DNW-KhamQ=DNW-Gloss
+  pi_page: 175
 - lgid: 767
   name: Kham
   abbr: Kham
@@ -5162,6 +5959,7 @@
   source: SIL-Kham
   lgcode: 132
   sort: KHAM
+  srcofdata: SIL-Kham
   notes: SIL-Kham=DNW-KhamQ=DNW-Gloss
 - lgid: 769
   name: Khamba
@@ -5220,6 +6018,7 @@
   iso: cnk
   lgcode: 134
   sort: KHAMI
+  srcofdata: HOU1895
 - lgid: 776
   name: Khami
   abbr: Khami
@@ -5276,6 +6075,7 @@
   iso: cnk
   lgcode: 134
   sort: KHAMI (SOUTHERN)
+  srcofdata: HOU1895
 - lgid: 783
   name: Kharmile
   abbr: Khar
@@ -5291,7 +6091,10 @@
   iso: ktp
   lgcode: 115
   sort: HANI (KHATU)
+  srcofdata: IHL-PL
+  picode: Hani5
   notes: should this group with Hani?
+  pi_page: 133
 - lgid: 785
   name: Khezha
   abbr: Khez
@@ -5308,6 +6111,7 @@
   iso: kix
   lgcode: 139
   sort: KHIAMNGAN
+  srcofdata: AW-TBT?
 - lgid: 787
   name: '*Khmer'
   abbr: Khmer
@@ -5340,6 +6144,9 @@
   iso: nki
   lgcode: 141
   sort: KHOIRAO
+  srcofdata: LSI
+  picode: Khoi1
+  pi_page: 181
 - lgid: 791
   name: Khoirao
   abbr: Khoirao
@@ -5364,6 +6171,7 @@
   iso: cnk
   lgcode: 134
   sort: KHUMI
+  srcofdata: OT-KnsI
 - lgid: 794
   name: Khumi
   abbr: Khumi
@@ -5372,6 +6180,7 @@
   iso: cnk
   lgcode: 134
   sort: KHUMI
+  srcofdata: OT-KnsI
 - lgid: 795
   name: Khumi
   abbr: Khumi
@@ -5380,6 +6189,7 @@
   iso: cnk
   lgcode: 134
   sort: KHUMI
+  srcofdata: STI1866?
 - lgid: 796
   name: Khezha
   abbr: Khozha
@@ -5388,6 +6198,9 @@
   iso: nkh
   lgcode: 138
   sort: KHEZHA
+  srcofdata: "SY-Kh\x9AzhaQ"
+  picode: Khez2
+  pi_page: 179
 - lgid: 797
   name: '*Kiranti'
   abbr: Kiranti
@@ -5434,7 +6247,10 @@
   iso: trp
   lgcode: 145
   sort: KOKBOROK
+  srcofdata: KAR1972
+  picode: Kokb1
   notes: PRS
+  pi_page: 183
 - lgid: 803
   name: Kokborok
   abbr: Kok
@@ -5443,6 +6259,9 @@
   iso: trp
   lgcode: 145
   sort: KOKBOROK
+  srcofdata: PT-Kok
+  picode: Kokb2
+  pi_page: 185
 - lgid: 804
   name: Kom Rem
   abbr: Kom
@@ -5459,6 +6278,9 @@
   iso: kmm
   lgcode: 146
   sort: KOM=KOMREM
+  srcofdata: T-KomRQ
+  picode: Kom1
+  pi_page: 188
 - lgid: 806
   name: Konyak
   abbr: Kon
@@ -5476,6 +6298,9 @@
   iso: nbe
   lgcode: 147
   sort: KONYAK
+  srcofdata: GEM-Kon
+  picode: Kony1
+  pi_page: 189
 - lgid: 808
   name: Konyak
   abbr: Konyak
@@ -5484,6 +6309,7 @@
   iso: nbe
   lgcode: 147
   sort: KONYAK
+  srcofdata: GEM-CNL
 - lgid: 809
   name: Konyak
   abbr: Ky
@@ -5492,6 +6318,9 @@
   iso: nbe
   lgcode: 147
   sort: KONYAK
+  srcofdata: GEM-CNL
+  picode: Kony1
+  pi_page: 189
 - lgid: 810
   name: Konyak (Tamlu)
   abbr: Tam-Kon
@@ -5591,6 +6420,8 @@
   iso: kle
   lgcode: 149
   sort: KULUNG
+  picode: Kulu1
+  pi_page: 191
 - lgid: 823
   name: Kurtöp
   abbr: Kurt
@@ -5624,7 +6455,10 @@
   iso: lbj
   lgcode: 300
   sort: TIBETAN (LADAKHI)
+  srcofdata: KOS1976?
+  picode: TibLa1
   notes: PRS
+  pi_page: 400
 - lgid: 827
   name: Ladakhi
   abbr: Ladakhi
@@ -5641,6 +6475,9 @@
   iso: lbf
   lgcode: 155
   sort: LAHULI
+  srcofdata: JDS-Lahauli?
+  picode: Lahl1
+  pi_page: 199
 - lgid: 829
   name: Lahu
   abbr: Lahu
@@ -5665,6 +6502,9 @@
   iso: lhu
   lgcode: 152
   sort: LAHU B
+  srcofdata: JAM-DL
+  picode: Lahu1
+  pi_page: 192
 - lgid: 832
   name: Lahu (Black)
   abbr: Lh
@@ -5673,6 +6513,9 @@
   iso: lhu
   lgcode: 152
   sort: LAHU B
+  srcofdata: JAM-DL
+  picode: Lahu1
+  pi_page: 192
 - lgid: 833
   name: Lahu (Black)
   abbr: Lh
@@ -5681,6 +6524,9 @@
   iso: lhu
   lgcode: 152
   sort: LAHU B
+  srcofdata: JAM-DL
+  picode: Lahu1
+  pi_page: 192
 - lgid: 834
   name: Lahu (Black)
   abbr: Lh
@@ -5689,6 +6535,7 @@
   iso: lhu
   lgcode: 152
   sort: LAHU B
+  srcofdata: JAM-DL
 - lgid: 835
   name: Lahu (Black)
   abbr: Lh
@@ -5697,6 +6544,9 @@
   iso: lhu
   lgcode: 152
   sort: LAHU B
+  srcofdata: JAM-DL
+  picode: Lahu1
+  pi_page: 192
 - lgid: 836
   name: Lahu
   abbr: Lh
@@ -5705,6 +6555,7 @@
   iso: lhu
   lgcode: 151
   sort: LAHU
+  srcofdata: JAM-DL
 - lgid: 837
   name: Lahu
   abbr: Lh
@@ -5713,6 +6564,7 @@
   iso: lhu
   lgcode: 151
   sort: LAHU
+  srcofdata: JAM-DL
 - lgid: 838
   name: Lahu (Black)
   abbr: Lh
@@ -5721,6 +6573,9 @@
   iso: lhu
   lgcode: 152
   sort: LAHU B
+  srcofdata: JAM-DL
+  picode: Lahu1
+  pi_page: 192
 - lgid: 839
   name: Lahu (Black)
   abbr: Lh
@@ -5729,6 +6584,9 @@
   iso: lhu
   lgcode: 152
   sort: LAHU B
+  srcofdata: JAM-DL
+  picode: Lahu1
+  pi_page: 192
 - lgid: 840
   name: Lahu
   abbr: Lahu
@@ -5737,6 +6595,7 @@
   iso: lhu
   lgcode: 151
   sort: LAHU
+  srcofdata: JAM-DL
 - lgid: 841
   name: Lahu
   abbr: Lahu
@@ -5777,6 +6636,7 @@
   iso: lhu
   lgcode: 151
   sort: LAHU
+  srcofdata: JAM
 - lgid: 846
   name: Lahu (Bakeo)
   abbr: Bakeo
@@ -5785,6 +6645,9 @@
   iso: lhi
   lgcode: 154
   sort: LAHU YBAK
+  srcofdata: DB-Lahu
+  picode: Lahu3
+  pi_page: 195
 - lgid: 847
   name: Lahu (Banlan)
   abbr: Banlan
@@ -5793,6 +6656,9 @@
   iso: lhi
   lgcode: 154
   sort: LAHU YBAN
+  srcofdata: DB-Lahu
+  picode: Lahu4
+  pi_page: 197
 - lgid: 848
   name: Lahu (Black)
   abbr: Lahu-Na (Kengtung)
@@ -5809,6 +6675,8 @@
   iso: lhu
   lgcode: 152
   sort: LAHU B
+  srcofdata: JAM-DL
+  pi_page: 192
 - lgid: 850
   name: Lahu (Black)
   abbr: LHna
@@ -5817,6 +6685,9 @@
   iso: lhu
   lgcode: 152
   sort: LAHU B
+  srcofdata: JZ-Lahu
+  picode: Lahu2
+  pi_page: 193
 - lgid: 851
   name: Lahu (Black)
   abbr: Lahu33
@@ -5825,6 +6696,9 @@
   iso: lhu
   lgcode: 152
   sort: LAHU B
+  picode: Lahu2
+  pinotes: not good PI source
+  pi_page: 193
 - lgid: 852
   name: Lahu (Red)
   abbr: Lahu (red)
@@ -5833,6 +6707,7 @@
   iso: lhu
   lgcode: 153
   sort: LAHU R
+  pinotes: no inv. needed--close to Lahu Xi
 - lgid: 853
   name: Lahu (Yellow)
   abbr: Lahu (Yellow)
@@ -5865,6 +6740,7 @@
   iso: lhi
   lgcode: 154
   sort: LAHU Y
+  srcofdata: JZ-Lahu
 - lgid: 857
   name: Lahu (Yellow)
   abbr: Yellow Lahu
@@ -5889,6 +6765,7 @@
   iso: lbf
   lgcode: 155
   sort: LAHULI
+  srcofdata: ROE1933?
 - lgid: 860
   name: Lai (Hakha)
   abbr: Lai
@@ -5897,6 +6774,7 @@
   iso: cnh
   lgcode: 156
   sort: LAI
+  srcofdata: OT-KnsI??
   notes: Lai or Laizo?
 - lgid: 861
   name: Lai (Hakha)
@@ -5923,6 +6801,7 @@
   iso: cfm
   lgcode: 158
   sort: LAIZO
+  srcofdata: OT-KnsI
 - lgid: 864
   name: Laizo
   abbr: Laizo
@@ -5931,6 +6810,7 @@
   iso: cfm
   lgcode: 158
   sort: LAIZO
+  srcofdata: OT-KnsI
 - lgid: 865
   name: Laizo
   abbr: Bawm (=Laizo)
@@ -5939,6 +6819,9 @@
   iso: bgr
   lgcode: 158
   sort: LAIZO
+  srcofdata: AO-diss
+  picode: Laiz1
+  pi_page: 200
 - lgid: 866
   name: Laizo
   abbr: Lai/Laizo
@@ -5947,6 +6830,7 @@
   iso: cfm
   lgcode: 158
   sort: LAIZO
+  srcofdata: OT-KnsI
   notes: Lai­Laizo--check!!
 - lgid: 867
   name: Laizo
@@ -5956,6 +6840,7 @@
   iso: cfm
   lgcode: 158
   sort: LAIZO
+  srcofdata: JAM ??
 - lgid: 868
   name: Laizo
   abbr: Laiyo
@@ -5972,6 +6857,7 @@
   iso: cfm
   lgcode: 158
   sort: LAIZO
+  srcofdata: STE-Zo
 - lgid: 870
   name: Lakher [Mara]
   abbr: Lak
@@ -5988,6 +6874,7 @@
   iso: mrh
   lgcode: 159
   sort: LAKHER
+  srcofdata: SAV1908
 - lgid: 872
   name: Lakher [Mara]
   abbr: Lk
@@ -5996,6 +6883,7 @@
   iso: mrh
   lgcode: 159
   sort: LAKHER
+  srcofdata: SAV1908
 - lgid: 873
   name: Lakher [Mara]
   abbr: Lakher
@@ -6004,6 +6892,7 @@
   iso: mrh
   lgcode: 159
   sort: LAKHER
+  srcofdata: SAV1908
 - lgid: 874
   name: Lakher [Mara]
   abbr: Lakher
@@ -6020,6 +6909,9 @@
   iso: mrh
   lgcode: 159
   sort: LAKHER
+  srcofdata: RAL-GDL
+  picode: Lakh1
+  pi_page: 202
 - lgid: 876
   name: Lakher [Mara]
   abbr: Lakher
@@ -6028,6 +6920,7 @@
   iso: mrh
   lgcode: 159
   sort: LAKHER
+  srcofdata: JAM ??
 - lgid: 877
   name: Lakher [Mara]
   abbr: Lakher
@@ -6036,6 +6929,7 @@
   iso: mrh
   lgcode: 159
   sort: LAKHER
+  srcofdata: SAV1908
 - lgid: 878
   name: Lalo
   abbr: Lalo
@@ -6044,7 +6938,10 @@
   iso: ywt
   lgcode: 160
   sort: LALO
+  srcofdata: CK-YiQ
+  picode: Lalo1
   notes: CK-YiQ=CK-CS
+  pi_page: 203
 - lgid: 879
   name: Lalo
   abbr: Lalo
@@ -6053,6 +6950,9 @@
   iso: ywt
   lgcode: 160
   sort: LALO
+  srcofdata: SB-Lalo
+  picode: Lalo2
+  pi_page: 204
 - lgid: 880
   name: Lalung [Tiwa]
   abbr: Lalung
@@ -6061,6 +6961,9 @@
   iso: lax
   lgcode: 344
   sort: LALUNG
+  srcofdata: MB-Lal
+  picode: Lalu1
+  pi_page: 206
 - lgid: 881
   name: Lambichong
   abbr: Lambichong
@@ -6101,7 +7004,10 @@
   iso: lsi
   lgcode: 163
   sort: LASHI
+  srcofdata: DQ-Lashi
+  picode: Lash2
   notes: by Xu Xijian
+  pi_page: 207
 - lgid: 887
   name: Lashi
   abbr: Lashi
@@ -6134,6 +7040,7 @@
   iso: cfm
   lgcode: 158
   sort: LENTE
+  srcofdata: STE-Lente?
 - lgid: 891
   name: Lepcha
   abbr: Lepcha
@@ -6158,6 +7065,9 @@
   iso: lep
   lgcode: 164
   sort: LEPCHA
+  srcofdata: GBM-Lepcha
+  picode: Lepc1
+  pi_page: 209
 - lgid: 894
   name: Lepcha
   abbr: Lp
@@ -6166,6 +7076,9 @@
   iso: lep
   lgcode: 164
   sort: LEPCHA
+  srcofdata: GBM-Lepcha
+  picode: Lepc1
+  pi_page: 209
 - lgid: 895
   name: Lepcha
   abbr: Lp
@@ -6174,6 +7087,7 @@
   iso: lep
   lgcode: 164
   sort: LEPCHA
+  srcofdata: GBM-Lepcha
 - lgid: 896
   name: Lepcha
   abbr: Lepcha
@@ -6182,6 +7096,7 @@
   iso: lep
   lgcode: 164
   sort: LEPCHA
+  srcofdata: GBM-Lepcha
 - lgid: 897
   name: Lepcha
   abbr: Lepcha
@@ -6190,6 +7105,7 @@
   iso: lep
   lgcode: 164
   sort: LEPCHA
+  srcofdata: GBM-Lepcha
 - lgid: 898
   name: Lepcha
   abbr: Lepcha
@@ -6198,6 +7114,7 @@
   iso: lep
   lgcode: 164
   sort: LEPCHA
+  srcofdata: GBM-Lepcha
 - lgid: 899
   name: Lepcha
   abbr: Lepcha
@@ -6206,6 +7123,7 @@
   iso: lep
   lgcode: 164
   sort: LEPCHA
+  srcofdata: JAM/GBM-Lepcha
 - lgid: 900
   name: Lepcha
   abbr: Lepcha
@@ -6214,6 +7132,7 @@
   iso: lep
   lgcode: 164
   sort: LEPCHA
+  srcofdata: GBM-Lepcha
 - lgid: 901
   name: Lepcha
   abbr: Lepcha
@@ -6222,6 +7141,7 @@
   iso: lep
   lgcode: 164
   sort: LEPCHA
+  srcofdata: GBM-Lepcha
 - lgid: 904
   name: Lipho
   abbr: Li
@@ -6230,6 +7150,9 @@
   iso: lpo
   lgcode: 167
   sort: LIPHO
+  srcofdata: CK-YiQ
+  picode: Li1
+  pi_page: 211
 - lgid: 905
   name: Liangmei
   abbr: Liam
@@ -6246,6 +7169,9 @@
   iso: njn
   lgcode: 165
   sort: LIANGMEI
+  srcofdata: GEM-Liang
+  picode: Lian1
+  pi_page: 212
 - lgid: 907
   name: Liangmei
   abbr: Liangmai
@@ -6254,6 +7180,7 @@
   iso: njn
   lgcode: 165
   sort: LIANGMEI
+  srcofdata: GEM-CNL
 - lgid: 908
   name: Naxi (Lijiang)
   abbr: Naxi.Lijiang28
@@ -6262,6 +7189,9 @@
   iso: nbf
   lgcode: 210
   sort: NAXI
+  srcofdata: ZMYYC
+  picode: Naxi3
+  pi_page: 278
 - lgid: 909
   name: Limbu
   abbr: Limbu
@@ -6278,6 +7208,7 @@
   iso: lif
   lgcode: 166
   sort: LIMBU
+  srcofdata: AW-TBT
 - lgid: 911
   name: Limbu
   abbr: Limbu
@@ -6286,6 +7217,7 @@
   iso: lif
   lgcode: 166
   sort: LIMBU
+  srcofdata: BM-Lim
 - lgid: 912
   name: Limbu
   abbr: lim
@@ -6294,6 +7226,7 @@
   iso: lif
   lgcode: 166
   sort: LIMBU
+  srcofdata: BM-PK7
 - lgid: 913
   name: Limbu
   abbr: Lb
@@ -6302,6 +7235,7 @@
   iso: lif
   lgcode: 166
   sort: LIMBU
+  srcofdata: STC
 - lgid: 914
   name: Limbu
   abbr: Limbu
@@ -6310,6 +7244,7 @@
   iso: lif
   lgcode: 166
   sort: LIMBU
+  srcofdata: STC
 - lgid: 915
   name: Limbu
   abbr: Limbu
@@ -6318,6 +7253,7 @@
   iso: lif
   lgcode: 166
   sort: LIMBU
+  srcofdata: STC
 - lgid: 916
   name: Limbu
   abbr: Limbu
@@ -6326,6 +7262,7 @@
   iso: lif
   lgcode: 166
   sort: LIMBU
+  srcofdata: STC
 - lgid: 917
   name: Limbu
   abbr: Limbu
@@ -6334,6 +7271,7 @@
   iso: lif
   lgcode: 166
   sort: LIMBU
+  srcofdata: JAM
 - lgid: 918
   name: Limbu
   abbr: Limbu
@@ -6350,7 +7288,10 @@
   iso: lif
   lgcode: 166
   sort: LIMBU
+  srcofdata: SVD-Lim
+  picode: Limb1
   notes: best
+  pi_page: 214
 - lgid: 920
   name: Lisu
   abbr: Lisu
@@ -6359,6 +7300,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: STC
 - lgid: 921
   name: Lisu
   abbr: Lisu
@@ -6367,6 +7309,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: AW-TBT?
 - lgid: 922
   name: Lisu
   abbr: Lisu
@@ -6375,6 +7318,9 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: Anony1959
+  picode: Lisu1
+  pi_page: 217
 - lgid: 923
   name: Lisu
   abbr: L
@@ -6383,6 +7329,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JF-HLL
 - lgid: 924
   name: Lisu
   abbr: Lisu
@@ -6391,6 +7338,8 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  picode: Lisu7
+  pi_page: 225
 - lgid: 925
   name: Lisu
   abbr: Ls
@@ -6399,6 +7348,9 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JF-HLL
+  picode: Lisu2
+  pi_page: 221
 - lgid: 926
   name: Lisu
   abbr: Lisu
@@ -6407,6 +7359,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JF-HLL,RB-PLB, JUI1948
 - lgid: 927
   name: Lisu
   abbr: Ls
@@ -6415,6 +7368,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JF-HLL,RB-PLB, JUI1948
 - lgid: 928
   name: Lisu
   abbr: Lisu
@@ -6423,6 +7377,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JF-HLL,RB-PLB, JUI1948
 - lgid: 929
   name: Lisu
   abbr: Ls
@@ -6431,6 +7386,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JF-HLL,RB-PLB, JUI1948
 - lgid: 930
   name: Lisu
   abbr: Li
@@ -6439,7 +7395,11 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: Anony1959, RB-PLB, JF-H
+  picode: Lisu1
+  pinotes: should also be associated with Lisu2 and Lisu3
   notes: based on Anony1959, RB-PLB, JF-HLL, JUI1948
+  pi_page: 217
 - lgid: 931
   name: Lisu
   abbr: Li (Nu-C)
@@ -6456,6 +7416,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JF-HLL
 - lgid: 933
   name: Lisu
   abbr: Li [J]
@@ -6464,6 +7425,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JUI1948
 - lgid: 934
   name: Lisu
   abbr: Li [Nu-chiang]
@@ -6488,6 +7450,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JF-HLL,RB-PLB,JUI1948
 - lgid: 937
   name: Lisu
   abbr: Lisu
@@ -6496,6 +7459,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JUI1948
 - lgid: 938
   name: Lisu
   abbr: Lisu
@@ -6504,6 +7468,9 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: RB-PLB
+  picode: Lisu3
+  pi_page: 223
 - lgid: 939
   name: Lisu
   abbr: Lisu
@@ -6512,6 +7479,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JAM
 - lgid: 940
   name: Lisu
   abbr: Lisu
@@ -6520,6 +7488,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JF-HLL
 - lgid: 941
   name: Lisu
   abbr: Lisu
@@ -6536,6 +7505,9 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: ZMYYC
+  picode: Lisu6
+  pi_page: 219
 - lgid: 943
   name: Lisu (Central)
   abbr: Lisu
@@ -6544,6 +7516,9 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: JF-HLL
+  picode: Lisu2
+  pi_page: 221
 - lgid: 944
   name: Lisu (Central)
   abbr: CLisu
@@ -6552,7 +7527,10 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  picode: Lisu4
+  pinotes: transcription normalized
   notes: trans. normalized
+  pi_page: 221
 - lgid: 945
   name: Lisu (Luquan)
   abbr: LSlq
@@ -6561,6 +7539,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  pinotes: no phon info
 - lgid: 946
   name: Lisu (Northern)
   abbr: NLisu
@@ -6569,7 +7548,10 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  picode: Lisu5
+  pinotes: transcription normalized
   notes: trans. normalized
+  pi_page: 216
 - lgid: 947
   name: Lisu (Nujiang)
   abbr: LSnj
@@ -6578,6 +7560,8 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  picode: Lisu6
+  pi_page: 219
 - lgid: 948
   name: Lisu (Phuthao)
   abbr: Lisu (Phuthao)
@@ -6610,6 +7594,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  pinotes: no phon info
 - lgid: 952
   name: Lohorong
   abbr: Loh
@@ -6617,6 +7602,7 @@
   source: AW-TBT
   lgcode: 169
   sort: LOHORONG
+  srcofdata: AW-TBT
 - lgid: 953
   name: Lohorong
   abbr: Lohorong
@@ -6624,6 +7610,7 @@
   source: RJL-DPTB
   lgcode: 169
   sort: LOHORONG
+  srcofdata: STC?
 - lgid: 954
   name: Lohorong
   abbr: Lohorong
@@ -6638,6 +7625,7 @@
   source: RJL-DPTB
   lgcode: 170
   sort: LOLO
+  srcofdata: STC?
 - lgid: 956
   name: Lolo
   abbr: Lolo
@@ -6661,6 +7649,9 @@
   iso: ycl
   lgcode: 171
   sort: LOLOPHO
+  srcofdata: DQ-Lolopho
+  picode: Lolo1
+  pi_page: 227
 - lgid: 959
   name: Lolopho
   abbr: Lolopho
@@ -6685,7 +7676,10 @@
   iso: njh
   lgcode: 172
   sort: LOTHA NAGA
+  srcofdata: ACH1975
+  picode: Loth1
   notes: PRS
+  pi_page: 228
 - lgid: 962
   name: Lotha Naga
   abbr: Lot
@@ -6694,6 +7688,7 @@
   iso: njh
   lgcode: 172
   sort: LOTHA NAGA
+  srcofdata: AW-TBT?
 - lgid: 963
   name: Lotha Naga
   abbr: Lotha
@@ -6702,6 +7697,9 @@
   iso: njh
   lgcode: 172
   sort: LOTHA NAGA
+  srcofdata: WIT-Lotha
+  picode: Loth2
+  pi_page: 229
 - lgid: 964
   name: Lotha Naga
   abbr: Lotha Naga
@@ -6718,6 +7716,7 @@
   iso: njh
   lgcode: 172
   sort: LOTHA NAGA
+  srcofdata: VN-LothQ
 - lgid: 966
   name: Lothvo (Hiranpi)
   abbr: Lothvo (Hiranpi)
@@ -6726,6 +7725,7 @@
   iso: mrh
   lgcode: 159
   sort: LOTHVO
+  srcofdata: '***'
   notes: prob. Hriangpi village
 - lgid: 967
   name: Lui
@@ -6735,6 +7735,7 @@
   iso: kdv
   lgcode: 173
   sort: LUI
+  srcofdata: Lui?
   notes: Andro, Sengmai, and Chairel *are* the Lui languages
 - lgid: 968
   name: Lui
@@ -6744,6 +7745,7 @@
   iso: kdv
   lgcode: 173
   sort: LUI
+  srcofdata: LL-CS
   notes: consists of Andro, Sengmai, and Chairel data taken from LL-CS (originally from MacCulloch 1859)
 - lgid: 969
   name: Luquan
@@ -6752,6 +7754,7 @@
   source: JAM-GSTC
   lgcode: 174
   sort: LUQUAN
+  srcofdata: MXL-Lolo
 - lgid: 970
   name: Luquan
   abbr: Lu-ch
@@ -6759,6 +7762,7 @@
   source: JAM-MLBM
   lgcode: 174
   sort: LUQUAN
+  srcofdata: MXL-Lolo
 - lgid: 971
   name: Luquan
   abbr: Lu-ch
@@ -6766,6 +7770,7 @@
   source: JAM-TIL
   lgcode: 174
   sort: LUQUAN
+  srcofdata: MXL-Lolo
 - lgid: 972
   name: Luquan
   abbr: LC
@@ -6773,6 +7778,9 @@
   source: JAM-TSR
   lgcode: 174
   sort: LUQUAN
+  srcofdata: MXL-Lolo
+  picode: Luqu1
+  pi_page: 231
 - lgid: 973
   name: Luquan
   abbr: YiLQ
@@ -6780,6 +7788,9 @@
   source: MXL-Lolo
   lgcode: 174
   sort: LUQUAN
+  srcofdata: MXL-Lolo
+  picode: Luqu1
+  pi_page: 231
 - lgid: 974
   name: Lushai [Mizo]
   abbr: Lushai
@@ -6796,6 +7807,7 @@
   iso: lus
   lgcode: 175
   sort: LUSHAI
+  srcofdata: AW-TBT
 - lgid: 976
   name: Lushai [Mizo]
   abbr: Lushai
@@ -6804,6 +7816,7 @@
   iso: lus
   lgcode: 175
   sort: LUSHAI
+  srcofdata: JML-Lushai
   notes: <Lloyd 1956
 - lgid: 977
   name: Lushai [Mizo]
@@ -6821,6 +7834,9 @@
   iso: lus
   lgcode: 175
   sort: LUSHAI
+  srcofdata: JHL-Lu
+  picode: Lush1
+  pi_page: 233
 - lgid: 979
   name: Lushai [Mizo]
   abbr: Lu
@@ -6829,6 +7845,9 @@
   iso: lus
   lgcode: 175
   sort: LUSHAI
+  srcofdata: JHL-Lu
+  picode: Lush1
+  pi_page: 233
 - lgid: 980
   name: Lushai [Mizo]
   abbr: Lushai
@@ -6837,6 +7856,7 @@
   iso: lus
   lgcode: 175
   sort: LUSHAI
+  srcofdata: JHL-Lu
 - lgid: 981
   name: Lushai [Mizo]
   abbr: Lushai
@@ -6845,6 +7865,9 @@
   iso: lus
   lgcode: 175
   sort: LUSHAI
+  srcofdata: JHL-Lu
+  picode: Lush1
+  pi_page: 233
 - lgid: 982
   name: Lushai [Mizo]
   abbr: Lushai
@@ -6861,6 +7884,7 @@
   iso: lus
   lgcode: 175
   sort: LUSHAI
+  srcofdata: STC
 - lgid: 984
   name: Lushai [Mizo]
   abbr: L
@@ -6869,6 +7893,9 @@
   iso: lus
   lgcode: 175
   sort: LUSHAI
+  srcofdata: JHL-Lu
+  picode: Lush1
+  pi_page: 233
 - lgid: 985
   name: Lushai [Mizo]
   abbr: Lushei
@@ -6877,6 +7904,9 @@
   iso: lus
   lgcode: 175
   sort: LUSHAI
+  srcofdata: JHL-Lu
+  picode: Lush1
+  pi_page: 233
 - lgid: 986
   name: Lushai [Mizo]
   abbr: L
@@ -6893,6 +7923,7 @@
   iso: nep
   lgcode: 211
   sort: '!LW *'
+  srcofdata: '***'
 - lgid: 988
   name: Lyuzu
   abbr: Lüsu
@@ -6901,6 +7932,8 @@
   iso: ers
   lgcode: 240
   sort: LYUZU
+  picode: Lüsu1
+  pi_page: 235
 - lgid: 989
   name: Magar
   abbr: Magari
@@ -6915,7 +7948,10 @@
   source: AH-CSDPN
   lgcode: 176
   sort: MAGAR
+  picode: Maga1
+  pinotes: <Krishna Bahadur Thapa Magar, Gary and Barbara Shepherd
   notes: Eastern or Western?
+  pi_page: 237
 - lgid: 991
   name: Magar
   abbr: Mag
@@ -6923,6 +7959,7 @@
   source: AW-TBT
   lgcode: 176
   sort: MAGAR
+  srcofdata: AW-TBT
 - lgid: 992
   name: Magar
   abbr: Magari
@@ -6930,6 +7967,7 @@
   source: BM-PTNL
   lgcode: 176
   sort: MAGAR
+  srcofdata: not original?
 - lgid: 993
   name: Magar
   abbr: mag
@@ -6944,6 +7982,9 @@
   source: JAM-Ety
   lgcode: 176
   sort: MAGAR
+  srcofdata: AH-CSDPN
+  picode: Maga1
+  pi_page: 237
 - lgid: 995
   name: Magar
   abbr: Magari
@@ -6951,6 +7992,7 @@
   source: JAM-VSTB
   lgcode: 176
   sort: MAGAR
+  srcofdata: AH-CSDPN
 - lgid: 996
   name: Magar
   abbr: Magari
@@ -6958,6 +8000,7 @@
   source: RJL-DPTB
   lgcode: 176
   sort: MAGAR
+  srcofdata: AH-CSDPN
   notes: original is probably a typo for "Magari"
 - lgid: 997
   name: Magar
@@ -6981,6 +8024,9 @@
   iso: nmm
   lgcode: 177
   sort: MANANG G
+  srcofdata: YN-Man
+  picode: Mana1
+  pi_page: 239
 - lgid: 1000
   name: Manang (Manang)
   abbr: Manangi?
@@ -6997,6 +8043,7 @@
   iso: nmm
   lgcode: 177
   sort: MANANG N
+  srcofdata: MM-K78
 - lgid: 1002
   name: Manang (Prakaa)
   abbr: Prak
@@ -7005,6 +8052,9 @@
   iso: nmm
   lgcode: 177
   sort: MANANG P
+  srcofdata: HM-Prak
+  picode: Mana2
+  pi_page: 240
 - lgid: 1003
   name: Manang (Prakaa)
   abbr: pra
@@ -7013,6 +8063,9 @@
   iso: nmm
   lgcode: 177
   sort: MANANG P
+  srcofdata: HM-Prak
+  picode: Mana2
+  pi_page: 240
 - lgid: 1005
   name: Pattani [Manchati]
   abbr: Manch
@@ -7021,6 +8074,9 @@
   iso: lae
   lgcode: 227
   sort: PATTANI
+  srcofdata: STP-ManQ
+  picode: Patt1
+  pi_page: 319
 - lgid: 1006
   name: Pattani [Manchati]
   abbr: Manchati
@@ -7045,6 +8101,7 @@
   iso: och
   lgcode: 82
   sort: CHINESE
+  srcofdata: GSR
 - lgid: 1009
   name: Chinese (Mandarin)
   abbr: Chinese (Mand)
@@ -7079,7 +8136,10 @@
   iso: mni
   lgcode: 187
   sort: MEITHEI
+  srcofdata: SIN1975?
+  picode: Meit3
   notes: PRS
+  pi_page: 252
 - lgid: 1014
   name: Manyak
   abbr: Manyak
@@ -7104,6 +8164,7 @@
   iso: nbi
   lgcode: 181
   sort: MAO
+  srcofdata: AW-TBT?
 - lgid: 1017
   name: Mao
   abbr: Mao
@@ -7112,6 +8173,9 @@
   iso: nbi
   lgcode: 181
   sort: MAO
+  srcofdata: GEM-Mao
+  picode: Mao1
+  pi_page: 243
 - lgid: 1018
   name: Maram
   abbr: Maram
@@ -7120,7 +8184,10 @@
   iso: nma
   lgcode: 182
   sort: MARAM *
+  srcofdata: WM-Cha
+  picode: Mara1
   notes: appears to be Maram Naga
+  pi_page: 245
 - lgid: 1019
   name: Maring
   abbr: Maring
@@ -7129,6 +8196,9 @@
   iso: nng
   lgcode: 183
   sort: MARING
+  srcofdata: LSI
+  picode: Mari1
+  pi_page: 246
 - lgid: 1020
   name: Maring
   abbr: Maring
@@ -7169,7 +8239,10 @@
   iso: mhx
   lgcode: 184
   sort: MARU
+  srcofdata: DQ-Langsu
+  picode: Maru1
   notes: by Xu Xijian
+  pi_page: 248
 - lgid: 1025
   name: Maru [Langsu]
   abbr: Maru
@@ -7218,6 +8291,9 @@
   iso: mhx
   lgcode: 184
   sort: MARU
+  srcofdata: RB-PLB
+  picode: Maru2
+  pi_page: 247
 - lgid: 1031
   name: Maru [Langsu]
   abbr: Maru
@@ -7250,6 +8326,7 @@
   iso: mhx
   lgcode: 184
   sort: MARU
+  srcofdata: ZMYYC
 - lgid: 1035
   name: Matupi
   abbr: Matupi
@@ -7275,6 +8352,10 @@
   iso: mni
   lgcode: 187
   sort: MEITHEI
+  srcofdata: AAAM-SSM
+  picode: Meit1
+  pinotes: good source
+  pi_page: 250
 - lgid: 1038
   name: Meithei
   abbr: Mani
@@ -7291,6 +8372,9 @@
   iso: mni
   lgcode: 187
   sort: MEITHEI
+  picode: Meit2
+  pinotes: good source
+  pi_page: 251
 - lgid: 1040
   name: Meithei
   abbr: MEITHEI
@@ -7363,6 +8447,7 @@
   iso: mni
   lgcode: 187
   sort: MEITHEI
+  pinotes: best source
 - lgid: 1049
   name: Meithei
   abbr: Meithei
@@ -7379,6 +8464,9 @@
   iso: npo
   lgcode: 188
   sort: MELURI
+  srcofdata: JPM-Reng
+  picode: Melu1
+  pi_page: 254
 - lgid: 1051
   name: Menia
   abbr: Menia
@@ -7387,6 +8475,7 @@
   iso: mvm
   lgcode: 180
   sort: '!MENIA *'
+  srcofdata: '***'
 - lgid: 1052
   name: Mera
   abbr: Mera (Darling)
@@ -7395,6 +8484,7 @@
   iso: mrh
   lgcode: 159
   sort: MERA
+  srcofdata: '***'
   notes: prob. Mara (Darling village)
 - lgid: 1053
   name: Miji
@@ -7404,7 +8494,10 @@
   iso: sjl
   lgcode: 189
   sort: MIJI
+  picode: Miji1
+  pinotes: trans normalized
   notes: trans. normalized
+  pi_page: 255
 - lgid: 1054
   name: Kaman [Miju]
   abbr: Miju
@@ -7413,6 +8506,7 @@
   iso: mxj
   lgcode: 107
   sort: GEMAN
+  srcofdata: AW-TBT
 - lgid: 1055
   name: Kaman [Miju]
   abbr: Miju
@@ -7421,6 +8515,7 @@
   iso: mxj
   lgcode: 107
   sort: GEMAN
+  srcofdata: JFN-DMT?
 - lgid: 1056
   name: Kaman [Miju]
   abbr: Miju
@@ -7429,6 +8524,7 @@
   iso: mxj
   lgcode: 107
   sort: GEMAN
+  srcofdata: JFN-DMT
 - lgid: 1057
   name: Kaman [Miju]
   abbr: Miju
@@ -7461,6 +8557,7 @@
   iso: mjw
   lgcode: 190
   sort: MIKIR
+  srcofdata: GDW-DML?
 - lgid: 1062
   name: Mikir [Karbi]
   abbr: Mikir
@@ -7477,6 +8574,9 @@
   iso: mjw
   lgcode: 190
   sort: MIKIR
+  srcofdata: KHG-MEG?
+  picode: Miki1
+  pi_page: 256
 - lgid: 1064
   name: Mikir [Karbi]
   abbr: Mk
@@ -7485,6 +8585,7 @@
   iso: mjw
   lgcode: 190
   sort: MIKIR
+  srcofdata: GDW-DML
 - lgid: 1065
   name: Mikir [Karbi]
   abbr: Mk
@@ -7533,7 +8634,11 @@
   iso: adi
   lgcode: 191
   sort: MILANG
+  srcofdata: AT-MPB?
+  picode: Mila1
+  pinotes: trans normalized
   notes: trans. normalized
+  pi_page: 257
 - lgid: 1071
   name: Mishing [Miri]
   abbr: Miri
@@ -7550,6 +8655,7 @@
   iso: mrg
   lgcode: 192
   sort: MIRI
+  srcofdata: JHL-AM
 - lgid: 1073
   name: Mishing [Miri]
   abbr: Miri
@@ -7566,6 +8672,9 @@
   iso: mrg
   lgcode: 192
   sort: MIRI
+  srcofdata: JHL-AM
+  picode: Misi3
+  pi_page: 259
 - lgid: 1075
   name: Mishing [Miri]
   abbr: Miri
@@ -7574,6 +8683,7 @@
   iso: mrg
   lgcode: 192
   sort: MIRI
+  srcofdata: JHL-AM
 - lgid: 1076
   name: Mishing [Miri]
   abbr: Miri
@@ -7582,6 +8692,9 @@
   iso: mrg
   lgcode: 192
   sort: MIRI
+  srcofdata: JHL-AM
+  picode: Misi3
+  pi_page: 259
 - lgid: 1077
   name: Mishing [Miri]
   abbr: Miri
@@ -7590,6 +8703,7 @@
   iso: mrg
   lgcode: 192
   sort: MIRI
+  srcofdata: JHL-AM
 - lgid: 1078
   name: Miri, Hill
   abbr: Miri
@@ -7598,7 +8712,11 @@
   iso: mrg
   lgcode: 193
   sort: MIRI HILL
+  srcofdata: IMS-HMLG?
+  picode: MirH1
+  pinotes: trans. normalized
   notes: trans. normalized
+  pi_page: 258
 - lgid: 1079
   name: Mishing [Miri]
   abbr: Mising L
@@ -7607,6 +8725,9 @@
   iso: mrg
   lgcode: 192
   sort: MIRI
+  srcofdata: JHL-AM
+  picode: Misi3
+  pi_page: 259
 - lgid: 1080
   name: Mishing [Miri]
   abbr: Mising
@@ -7615,6 +8736,9 @@
   iso: mrg
   lgcode: 192
   sort: MIRI
+  srcofdata: TAI1987?
+  picode: Misi2
+  pi_page: 260
 - lgid: 1081
   name: Mishing [Miri]
   abbr: Mising T
@@ -7630,6 +8754,9 @@
   source: WU1993
   lgcode: 142
   sort: MO-ANG
+  srcofdata: WU1993
+  picode: Mo-A1
+  pi_page: 262
 - lgid: 1083
   name: Monpa
   abbr: Monpa
@@ -7637,6 +8764,7 @@
   source: AW-TBT
   lgcode: 194
   sort: MONPA
+  srcofdata: AW-TBT?
   notes: which dialect?
 - lgid: 1085
   name: Tsangla (Motuo)
@@ -7646,6 +8774,9 @@
   iso: tsj
   lgcode: 195
   sort: MONPA CA M
+  srcofdata: JZ-CLMenba
+  picode: Cang2
+  pi_page: 68
 - lgid: 1086
   name: Tsangla (Motuo)
   abbr: MBmt
@@ -7654,6 +8785,9 @@
   iso: tsj
   lgcode: 195
   sort: MONPA CA M
+  srcofdata: SLZO-MLD
+  picode: Cang3
+  pi_page: 69
 - lgid: 1087
   name: Tsangla (Motuo)
   abbr: MBb
@@ -7662,6 +8796,7 @@
   iso: tsj
   lgcode: 195
   sort: MONPA CA M
+  srcofdata: SLZO-MLD
 - lgid: 1088
   name: Tsangla (Motuo)
   abbr: Monpa.Motuo7
@@ -7670,6 +8805,9 @@
   iso: tsj
   lgcode: 195
   sort: MONPA CA M
+  srcofdata: ZMYYC
+  picode: Cang3
+  pi_page: 69
 - lgid: 1089
   name: Tsangla (Tilang)
   abbr: CLtl
@@ -7678,7 +8816,10 @@
   iso: tsj
   lgcode: 195
   sort: MONPA CA T
+  srcofdata: KDG-ICL
+  picode: Cang4
   notes: transcription  normalized
+  pi_page: 71
 - lgid: 1090
   name: Tshona (Mama)
   abbr: MBcn
@@ -7687,7 +8828,10 @@
   iso: twm
   lgcode: 199
   sort: MONPA CU S
+  srcofdata: SLZO-MLD?
+  picode: Cuon2
   notes: =Southern dial.
+  pi_page: 82
 - lgid: 1091
   name: Tshona (Mama)
   abbr: MBa
@@ -7696,6 +8840,7 @@
   iso: twm
   lgcode: 199
   sort: MONPA CU S
+  srcofdata: SLZO-MLD
 - lgid: 1092
   name: Tshona (Mama)
   abbr: Monpa.Cuona6
@@ -7704,7 +8849,10 @@
   iso: twm
   lgcode: 199
   sort: MONPA CU S
+  srcofdata: ZMYYC?
+  picode: Cuon2
   notes: =Southern dial.
+  pi_page: 82
 - lgid: 1093
   name: Tshona (Wenlang)
   abbr: CNwl
@@ -7713,7 +8861,10 @@
   iso: twm
   lgcode: 198
   sort: MONPA CU N
+  srcofdata: JZ-CNMenba?
+  picode: Cuon1
   notes: =Northern dial.
+  pi_page: 84
 - lgid: 1094
   name: Tsangla
   abbr: Tsangla
@@ -7730,7 +8881,10 @@
   iso: tsj
   lgcode: 195
   sort: MONPA CA
+  srcofdata: EA-Tsh
+  picode: Cang1
   notes: =Central Monpa
+  pi_page: 67
 - lgid: 1096
   name: Tsangla
   abbr: MonpaC
@@ -7739,7 +8893,9 @@
   iso: tsj
   lgcode: 195
   sort: MONPA CA
+  picode: Cang4
   notes: =Central Monpa
+  pi_page: 71
 - lgid: 1097
   name: Tsangla
   abbr: Tsangla
@@ -7817,6 +8973,7 @@
   iso: nst
   lgcode: 276
   sort: TANGSA (MOSHANG)
+  srcofdata: GEM-CNL
 - lgid: 1108
   name: Moso
   abbr: Moso (B-L)
@@ -7833,6 +8990,7 @@
   iso: nbf
   lgcode: 200
   sort: MOSO
+  srcofdata: LL-MSTC?
 - lgid: 1110
   name: Moso
   abbr: Moso
@@ -7841,6 +8999,7 @@
   iso: nbf
   lgcode: 200
   sort: MOSO
+  srcofdata: LL-MSTC?
 - lgid: 1111
   name: Moso
   abbr: Moso
@@ -7857,7 +9016,10 @@
   iso: nmo
   lgcode: 201
   sort: MOYON
+  srcofdata: DK-Moyon
+  picode: Moyo1
   notes: dial. of Meithei--resort?
+  pi_page: 264
 - lgid: 1113
   name: Moyon
   abbr: Moyon
@@ -7874,6 +9036,9 @@
   iso: mpz
   lgcode: 202
   sort: MPI
+  srcofdata: SD-MPD
+  picode: Mpi1
+  pi_page: 266
 - lgid: 1115
   name: Mpi
   abbr: Mpi
@@ -7882,6 +9047,9 @@
   iso: mpz
   lgcode: 202
   sort: MPI
+  srcofdata: SD-MPD
+  picode: Mpi1
+  pi_page: 266
 - lgid: 1116
   name: Mpi
   abbr: Mpi
@@ -7890,6 +9058,7 @@
   iso: mpz
   lgcode: 202
   sort: MPI
+  srcofdata: SD-MPD
 - lgid: 1117
   name: Mpi
   abbr: Mpi
@@ -7898,6 +9067,9 @@
   iso: mpz
   lgcode: 202
   sort: MPI
+  srcofdata: SD-MPD
+  picode: Mpi1
+  pi_page: 266
 - lgid: 1118
   name: Mpi
   abbr: Mpi
@@ -7906,6 +9078,7 @@
   iso: mpz
   lgcode: 202
   sort: MPI
+  srcofdata: SD-MPD
 - lgid: 1119
   name: Mpi
   abbr: Mpi
@@ -7914,6 +9087,7 @@
   iso: mpz
   lgcode: 202
   sort: MPI
+  srcofdata: SD-MPD
 - lgid: 1120
   name: Mpi
   abbr: Mpi
@@ -7922,6 +9096,9 @@
   iso: mpz
   lgcode: 202
   sort: MPI
+  srcofdata: SD-MPD
+  picode: Mpi1
+  pi_page: 266
 - lgid: 1121
   name: Mru
   abbr: Mru
@@ -7946,6 +9123,9 @@
   iso: mro
   lgcode: 203
   sort: MRU
+  srcofdata: LL-CMST
+  picode: Mru1
+  pi_page: 268
 - lgid: 1124
   name: Mru
   abbr: Mru
@@ -7954,6 +9134,7 @@
   iso: mro
   lgcode: 203
   sort: MRU
+  srcofdata: LL-CMST
 - lgid: 1125
   name: Mru
   abbr: Mru
@@ -7962,6 +9143,7 @@
   iso: mro
   lgcode: 203
   sort: MRU
+  srcofdata: LL-CMST
 - lgid: 1126
   name: Mru
   abbr: Mru
@@ -7970,6 +9152,9 @@
   iso: mro
   lgcode: 203
   sort: MRU
+  srcofdata: LL-CMST
+  picode: Mru1
+  pi_page: 268
 - lgid: 1127
   name: Mru
   abbr: Mru
@@ -8034,7 +9219,10 @@
   iso: mvm
   lgcode: 180
   sort: MUYA (=MINYAK)
+  srcofdata: SHK-MuyaQ
+  picode: Muya1
   notes: = ZMYYC
+  pi_page: 269
 - lgid: 1136
   name: Muya [Minyak]
   abbr: Muya15
@@ -8043,6 +9231,9 @@
   iso: mvm
   lgcode: 180
   sort: MUYA (=MINYAK)
+  srcofdata: ZMYYC
+  picode: Muya1
+  pi_page: 269
 - lgid: 1137
   name: Mzieme
   abbr: Mzieme
@@ -8051,6 +9242,9 @@
   iso: nme
   lgcode: 336
   sort: ZEME NE
+  srcofdata: GEM-Mzieme
+  picode: Mzie1
+  pi_page: 271
 - lgid: 1138
   name: Mzieme
   abbr: Mzieme
@@ -8082,6 +9276,7 @@
   source: RJL-DPTB
   lgcode: 176
   sort: MAGAR
+  srcofdata: STC
   notes: original is probably a typo for "Magari"
 - lgid: 1143
   name: Magar
@@ -8107,7 +9302,10 @@
   iso: nmy
   lgcode: 208
   sort: NAMUYI
+  srcofdata: SHK-NamuQ
+  picode: Namu1
   notes: =ZMYYC
+  pi_page: 273
 - lgid: 1147
   name: Namuyi
   abbr: Namuyi19
@@ -8116,6 +9314,9 @@
   iso: nmy
   lgcode: 208
   sort: NAMUYI
+  srcofdata: ZMYYC
+  picode: Namu1
+  pi_page: 273
 - lgid: 1148
   name: Nasu
   abbr: Nasu
@@ -8124,6 +9325,9 @@
   iso: ywq
   lgcode: 209
   sort: NASU
+  srcofdata: CK-YiQ
+  picode: Nasu1
+  pi_page: 275
 - lgid: 1149
   name: Nasu
   abbr: Nasu
@@ -8132,6 +9336,9 @@
   iso: ywq
   lgcode: 209
   sort: NASU
+  srcofdata: GAO1958
+  picode: Nasu2
+  pi_page: 276
 - lgid: 1150
   name: Nasu
   abbr: Nasu
@@ -8156,6 +9363,9 @@
   iso: ywq
   lgcode: 209
   sort: NASU
+  srcofdata: GAO1958
+  picode: Nasu2
+  pi_page: 276
 - lgid: 1153
   name: Nasu
   abbr: Nasu
@@ -8172,6 +9382,7 @@
   iso: nbf
   lgcode: 210
   sort: NAXI
+  srcofdata: DQ-Naxi
   notes: probably Western dialect
 - lgid: 1155
   name: Naxi
@@ -8189,6 +9400,9 @@
   iso: nbf
   lgcode: 210
   sort: NAXI
+  srcofdata: ROC1963
+  picode: Naxi2
+  pi_page: 279
 - lgid: 1157
   name: Naxi (Eastern)
   abbr: NaxiE
@@ -8197,6 +9411,9 @@
   iso: nbf
   lgcode: 210
   sort: NAXI
+  srcofdata: JZ-Naxi
+  picode: Naxi1
+  pi_page: 282
 - lgid: 1158
   name: Naxi (Rock)
   abbr: Naxi [Rock]
@@ -8205,6 +9422,7 @@
   iso: nbf
   lgcode: 210
   sort: NAXI
+  srcofdata: ROC1963
 - lgid: 1159
   name: Naxi (Western)
   abbr: NaxiW
@@ -8213,6 +9431,9 @@
   iso: nbf
   lgcode: 210
   sort: NAXI
+  srcofdata: JZ-Naxi
+  picode: Naxi3
+  pi_page: 278
 - lgid: 1160
   name: Nepali
   abbr: Np
@@ -8221,6 +9442,9 @@
   iso: nep
   lgcode: 211
   sort: NEPALI
+  picode: Nepa1
+  pinotes: <Chudamani Bandhu, Maria Hari
+  pi_page: 284
 - lgid: 1161
   name: Nepali
   abbr: Np
@@ -8237,6 +9461,9 @@
   iso: nep
   lgcode: 211
   sort: NEPALI
+  srcofdata: RLS-PDMN
+  picode: Nepa2
+  pi_page: 284
 - lgid: 1163
   name: Nesu
   abbr: Nesu
@@ -8251,6 +9478,9 @@
   source: CK-YiQ
   lgcode: 212
   sort: NESU
+  srcofdata: CK-YiQ
+  picode: Nesu1
+  pi_page: 286
 - lgid: 1165
   name: Newar
   abbr: Newari
@@ -8267,6 +9497,9 @@
   iso: new
   lgcode: 213
   sort: NEWAR
+  picode: Newa3
+  pinotes: <Thakurlal Manandhar, Margrit and Austin Hale
+  pi_page: 292
 - lgid: 1167
   name: Newar
   abbr: New
@@ -8315,6 +9548,9 @@
   iso: new
   lgcode: 213
   sort: NEWAR
+  srcofdata: MAL
+  picode: Newa4
+  pi_page: 288
 - lgid: 1173
   name: Newar
   abbr: Newari
@@ -8331,6 +9567,9 @@
   iso: new
   lgcode: 213
   sort: NEWAR
+  srcofdata: SH-KNw
+  picode: Newa5
+  pi_page: 294
 - lgid: 1175
   name: Newar
   abbr: Newari
@@ -8347,6 +9586,9 @@
   iso: new
   lgcode: 213
   sort: NEWAR
+  srcofdata: CG-Dolak
+  picode: Newa1
+  pi_page: 287
 - lgid: 1177
   name: Newar (Kathmandu)
   abbr: Newari
@@ -8355,6 +9597,8 @@
   iso: new
   lgcode: 213
   sort: NEWAR
+  srcofdata: CG-Kath
+  pinotes: trans too diff from CG-Diss.  If comparison to CG-Diss done, then add to Mng 3
 - lgid: 1178
   name: Newar (Dolakha)
   abbr: Newari
@@ -8363,6 +9607,9 @@
   iso: new
   lgcode: 213
   sort: NEWAR
+  srcofdata: CG-Diss
+  picode: Newa1
+  pi_page: 287
 - lgid: 1179
   name: Newar (Kathmandu)
   abbr: Newari
@@ -8371,6 +9618,9 @@
   iso: new
   lgcode: 213
   sort: NEWAR
+  srcofdata: CG-Diss
+  picode: Newa6
+  pi_page: 291
 - lgid: 1180
   name: Ngawn
   abbr: Ng
@@ -8379,6 +9629,7 @@
   iso: cnw
   lgcode: 214
   sort: NGAWN
+  srcofdata: OT-KnsI
 - lgid: 1181
   name: Ngawn
   abbr: Ngaun
@@ -8387,6 +9638,7 @@
   iso: cnw
   lgcode: 214
   sort: NGAWN
+  srcofdata: OT-KnsI
 - lgid: 1182
   name: Ngawn
   abbr: Ngawn
@@ -8395,6 +9647,7 @@
   iso: cnw
   lgcode: 214
   sort: NGAWN
+  srcofdata: OT-KnsI
 - lgid: 1183
   name: Nishi [Dafla]
   abbr: Nishi
@@ -8403,6 +9656,9 @@
   iso: njz
   lgcode: 215
   sort: NISHI
+  srcofdata: TC-list?
+  picode: Nish1
+  pi_page: 295
 - lgid: 1184
   name: Nishi [Dafla]
   abbr: Nishi C
@@ -8411,6 +9667,9 @@
   iso: njz
   lgcode: 215
   sort: NISHI
+  srcofdata: TC-list
+  picode: Nish1
+  pi_page: 295
 - lgid: 1186
   name: Nishing
   abbr: Nishing DG
@@ -8419,7 +9678,10 @@
   iso: njz
   lgcode: 215
   sort: NISHING
+  srcofdata: KDG-Daf
+  picode: Nish3
   notes: not used as a 'key' lg in reconstructions
+  pi_page: 297
 - lgid: 1187
   name: Nocte
   abbr: Noc
@@ -8428,6 +9690,7 @@
   iso: njb
   lgcode: 216
   sort: NOCTE
+  srcofdata: AW-TBT
 - lgid: 1188
   name: Nocte
   abbr: Nocte
@@ -8436,6 +9699,9 @@
   iso: njb
   lgcode: 216
   sort: NOCTE
+  srcofdata: BRO1851
+  picode: Noct1
+  pi_page: 299
 - lgid: 1189
   name: Nocte
   abbr: Nocte
@@ -8444,6 +9710,7 @@
   iso: njb
   lgcode: 216
   sort: NOCTE
+  srcofdata: GEM-CNL
 - lgid: 1190
   name: Nocte
   abbr: Nocte
@@ -8452,6 +9719,9 @@
   iso: njb
   lgcode: 216
   sort: NOCTE
+  srcofdata: KDG-INL
+  picode: Noct2
+  pi_page: 300
 - lgid: 1191
   name: Nocte
   abbr: Nocte
@@ -8468,6 +9738,9 @@
   iso: njb
   lgcode: 216
   sort: NOCTE
+  srcofdata: GEM-CNL
+  picode: Noct1
+  pi_page: 299
 - lgid: 1193
   name: Noesu
   abbr: Noesu
@@ -8475,6 +9748,9 @@
   source: CK-YiQ
   lgcode: 217
   sort: NOESU
+  srcofdata: CK-YiQ
+  picode: Noes1
+  pi_page: 302
 - lgid: 1194
   name: Nosu
   abbr: Nosu
@@ -8483,6 +9759,9 @@
   iso: iii
   lgcode: 218
   sort: NOSU
+  srcofdata: CK-YiQ
+  picode: Nosu1
+  pi_page: 303
 - lgid: 1196
   name: Ntenyi
   abbr: Ntenyi
@@ -8491,6 +9770,9 @@
   iso: nnl
   lgcode: 219
   sort: NTENYI
+  srcofdata: JPM-Reng
+  picode: Nten1
+  pi_page: 304
 - lgid: 1198
   name: Anong
   abbr: Nung
@@ -8499,6 +9781,7 @@
   iso: duu
   lgcode: 220
   sort: NUNG
+  srcofdata: LC-Trung
 - lgid: 1199
   name: Anong
   abbr: Nung
@@ -8507,6 +9790,7 @@
   iso: duu
   lgcode: 220
   sort: NUNG
+  srcofdata: LC-Trung
 - lgid: 1200
   name: Anong
   abbr: Nung
@@ -8515,6 +9799,7 @@
   iso: duu
   lgcode: 220
   sort: NUNG
+  srcofdata: LC-Trung
 - lgid: 1201
   name: Anong
   abbr: Nung
@@ -8531,6 +9816,7 @@
   iso: duu
   lgcode: 220
   sort: NUNG
+  srcofdata: LC-Trung
 - lgid: 1203
   name: Anong
   abbr: N
@@ -8539,6 +9825,7 @@
   iso: duu
   lgcode: 220
   sort: NUNG
+  srcofdata: LC-Trung
   notes: < STC
 - lgid: 1204
   name: Anong
@@ -8548,6 +9835,7 @@
   iso: duu
   lgcode: 220
   sort: NUNG
+  srcofdata: LC-Trung
 - lgid: 1205
   name: Anong
   abbr: Nung
@@ -8556,6 +9844,7 @@
   iso: duu
   lgcode: 220
   sort: NUNG
+  srcofdata: LC-Trung
 - lgid: 1206
   name: Anong
   abbr: Nung
@@ -8564,6 +9853,7 @@
   iso: duu
   lgcode: 220
   sort: NUNG
+  srcofdata: LC-Trung
 - lgid: 1207
   name: Anong (dialect)
   abbr: N dialect
@@ -8572,6 +9862,7 @@
   iso: nun
   lgcode: 220
   sort: NUNG
+  srcofdata: STC
   notes: error?
 - lgid: 1208
   name: Anong (dialect)
@@ -8589,6 +9880,7 @@
   iso: duu
   lgcode: 220
   sort: NUNG
+  srcofdata: LC-Trung
 - lgid: 1211
   name: Anong (Rawang)
   abbr: Nung (Rawang)
@@ -8597,6 +9889,7 @@
   iso: raw
   lgcode: 220
   sort: NUNG
+  srcofdata: MOR1963
 - lgid: 1212
   name: Anong (Rawang)
   abbr: Rawang
@@ -8621,6 +9914,7 @@
   iso: nuf
   lgcode: 221
   sort: NUSU
+  srcofdata: DQ-Nusu
   notes: from big black binder
 - lgid: 1215
   name: Nusu (Bijiang)
@@ -8630,6 +9924,8 @@
   iso: nuf
   lgcode: 221
   sort: NUSU
+  picode: Nusu1
+  pi_page: 309
 - lgid: 1216
   name: Nusu (Central)
   abbr: NusuB
@@ -8638,6 +9934,7 @@
   iso: nuf
   lgcode: 221
   sort: NUSU
+  srcofdata: DQ-NusuB
   notes: 'from spiral notebook #2; Dai and Fu'
 - lgid: 1217
   name: Nusu (Central)
@@ -8655,6 +9952,7 @@
   iso: nuf
   lgcode: 221
   sort: NUSU
+  srcofdata: DQ-NusuA
   notes: 'from spiral notebook #2; Dai and Fu'
 - lgid: 1219
   name: Nusu (Northern)
@@ -8672,6 +9970,9 @@
   iso: nuf
   lgcode: 221
   sort: NUSU
+  srcofdata: JZ-Nusu?
+  picode: Nusu1
+  pi_page: 309
 - lgid: 1221
   name: Sani [Nyi]
   abbr: Nyi
@@ -8680,6 +9981,8 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: MXL-Sani
+  picode: Nyi3
 - lgid: 1222
   name: Sani [Nyi]
   abbr: Nyi
@@ -8696,6 +9999,9 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: CK-YiQ
+  picode: Nyi1
+  pi_page: 314
 - lgid: 1224
   name: Sani [Nyi]
   abbr: Nyiq
@@ -8704,6 +10010,7 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: DQ-Nyiq
   notes: what is this? see ZJH-CG p.8
 - lgid: 1226
   name: Nishi [Dafla]
@@ -8713,6 +10020,9 @@
   iso: njz
   lgcode: 215
   sort: NISHI
+  srcofdata: HAM1900?
+  picode: Nish2
+  pi_page: 396
 - lgid: 1227
   name: Nyisu
   abbr: Nyisu H
@@ -8721,6 +10031,9 @@
   iso: njz
   lgcode: 215
   sort: NYISU
+  srcofdata: HAM1900
+  picode: Nish2
+  pi_page: 296
 - lgid: 1228
   name: Old Meithei
   abbr: Old Meithei
@@ -8754,6 +10067,7 @@
   iso: wme
   lgcode: 241
   sort: OMBULE
+  srcofdata: AW-TBT
 - lgid: 1232
   name: Ong-Be
   abbr: Ong-Be
@@ -8780,6 +10094,7 @@
   iso: blk
   lgcode: 223
   sort: PA-O
+  srcofdata: RBJ-KLS
   notes: from Jones 1961
 - lgid: 1235
   name: Pa-O
@@ -8805,6 +10120,8 @@
   iso: blk
   lgcode: 223
   sort: PA-O
+  picode: Kare5
+  pi_page: 163
 - lgid: 1238
   name: Pa-O
   abbr: Thu
@@ -8813,6 +10130,8 @@
   iso: blk
   lgcode: 223
   sort: PA-O
+  srcofdata: NJA-TR
+  pi_page: 163
 - lgid: 1239
   name: Pa-O
   abbr: Pa-O
@@ -8845,6 +10164,9 @@
   iso: blk
   lgcode: 223
   sort: PA-O
+  srcofdata: RBJ-KLS
+  picode: Kare5
+  pi_page: 163
 - lgid: 1243
   name: Pa-O
   abbr: Thaungthu
@@ -8861,6 +10183,7 @@
   iso: pkh
   lgcode: 224
   sort: PAANG
+  srcofdata: AW-TBT
 - lgid: 1245
   name: Paangkhua
   abbr: Paang
@@ -8878,6 +10201,9 @@
   iso: pkh
   lgcode: 224
   sort: PAANG
+  srcofdata: LL-PRPL
+  picode: Paan1
+  pi_page: 315
 - lgid: 1247
   name: Paangkhua
   abbr: BP
@@ -8886,7 +10212,10 @@
   iso: pkh
   lgcode: 224
   sort: PAANG
+  srcofdata: LL-PRPL
+  picode: Paan1
   notes: (Bawm infl.)
+  pi_page: 315
 - lgid: 1248
   name: Paangkhua
   abbr: LP
@@ -8895,7 +10224,10 @@
   iso: pkh
   lgcode: 224
   sort: PAANG
+  srcofdata: LL-PRPL
+  picode: Paan1
   notes: (Lushai infl.)
+  pi_page: 315
 - lgid: 1249
   name: Padam [Abor]
   abbr: Padam
@@ -8904,6 +10236,9 @@
   iso: adi
   lgcode: 25
   sort: ABOR
+  srcofdata: AT-Padam
+  picode: Pada1
+  pi_page: 317
 - lgid: 1250
   name: Padam [Abor]
   abbr: Padam DG
@@ -8912,6 +10247,7 @@
   iso: adi
   lgcode: 25
   sort: ABOR
+  srcofdata: ???
 - lgid: 1251
   name: Padam [Abor]
   abbr: Padam L
@@ -8920,6 +10256,9 @@
   iso: adi
   lgcode: 25
   sort: ABOR
+  srcofdata: JHL-AM
+  picode: Pada2
+  pi_page: 317
 - lgid: 1252
   name: Padam [Abor]
   abbr: Padam T
@@ -8928,6 +10267,7 @@
   iso: adi
   lgcode: 25
   sort: ABOR
+  srcofdata: AT-Padam
 - lgid: 1253
   name: Padam-Mishing [Abor-Miri]
   abbr: Padam-Mising L
@@ -8936,7 +10276,11 @@
   iso: adi
   lgcode: 26
   sort: ABOR-MIRI
+  srcofdata: JHL-AM
+  picode: Misi3
+  pinotes: should this go under Pada2 or Misi3?
   notes: also Miri [mrg]
+  pi_page: 259
 - lgid: 1254
   name: Paku
   abbr: Paku
@@ -8961,6 +10305,9 @@
   iso: kpp
   lgcode: 225
   sort: PALAYCHI
+  srcofdata: RBJ-KLS
+  picode: Kare6
+  pi_page: 164
 - lgid: 1257
   name: Palaychi
   abbr: Karen (Palaychi)
@@ -8986,6 +10333,9 @@
   iso: kpp
   lgcode: 225
   sort: PALAYCHI
+  srcofdata: RBJ-KLS
+  picode: Kare6
+  pi_page: 164
 - lgid: 1260
   name: Pankhu
   abbr: Pankhu
@@ -9010,6 +10360,7 @@
   iso: lae
   lgcode: 227
   sort: PATTANI
+  srcofdata: DS-Patt
 - lgid: 1263
   name: Pattani [Manchati]
   abbr: Manchati
@@ -9025,6 +10376,7 @@
   source: ACST
   lgcode: 228
   sort: PWO
+  srcofdata: RBJ-KLS
 - lgid: 1265
   name: Pwo
   abbr: P
@@ -9032,6 +10384,7 @@
   source: AW-TBT
   lgcode: 228
   sort: PWO
+  srcofdata: RBJ-KLS
 - lgid: 1266
   name: Pwo
   abbr: Pwo
@@ -9039,6 +10392,7 @@
   source: JAM-GSTC
   lgcode: 228
   sort: PWO
+  srcofdata: RBJ-KLS
 - lgid: 1267
   name: Pwo (Bassein)
   abbr: B Pho
@@ -9055,6 +10409,9 @@
   iso: pwo
   lgcode: 229
   sort: PWO (BASSEIN)
+  srcofdata: RBJ-KLS
+  picode: Kare7
+  pi_page: 166
 - lgid: 1269
   name: Pwo (Bassein)
   abbr: BP
@@ -9063,6 +10420,9 @@
   iso: pwo
   lgcode: 229
   sort: PWO (BASSEIN)
+  srcofdata: RBJ-KLS
+  picode: Kare7
+  pi_page: 166
 - lgid: 1270
   name: Pwo (Bassein)
   abbr: BP
@@ -9079,6 +10439,7 @@
   iso: pwo
   lgcode: 229
   sort: PWO (BASSEIN)
+  srcofdata: RBJ-KLS
 - lgid: 1272
   name: Pwo (Bassein)
   abbr: BP
@@ -9087,6 +10448,9 @@
   iso: pwo
   lgcode: 229
   sort: PWO (BASSEIN)
+  srcofdata: RBJ-KLS
+  picode: Kare7
+  pi_page: 166
 - lgid: 1273
   name: Pwo (Delta)
   abbr: Pwo (Delta)
@@ -9103,6 +10467,9 @@
   iso: kjp
   lgcode: 230
   sort: PWO (MOULMEIN)
+  srcofdata: RBJ-KLS
+  picode: Kare8
+  pi_page: 167
 - lgid: 1275
   name: Pwo (Moulmein)
   abbr: MP
@@ -9111,6 +10478,9 @@
   iso: kjp
   lgcode: 230
   sort: PWO (MOULMEIN)
+  srcofdata: RBJ-KLS
+  picode: Kare8
+  pi_page: 172
 - lgid: 1276
   name: Pwo (Moulmein)
   abbr: MP
@@ -9127,6 +10497,7 @@
   iso: kjp
   lgcode: 230
   sort: PWO (MOULMEIN)
+  srcofdata: RBJ-KLS
 - lgid: 1278
   name: Pwo (Moulmein)
   abbr: M Pho
@@ -9143,6 +10514,9 @@
   iso: kjp
   lgcode: 230
   sort: PWO (MOULMEIN)
+  srcofdata: RBJ-KLS
+  picode: Kare8
+  pi_page: 167
 - lgid: 1280
   name: Pwo (Tenasserim)
   abbr: Pwo (Tenasserim)
@@ -9159,6 +10533,9 @@
   iso: nph
   lgcode: 231
   sort: PHOM
+  srcofdata: GEM-Phom
+  picode: Phom1
+  pi_page: 321
 - lgid: 1282
   name: Phom
   abbr: Phom
@@ -9167,6 +10544,7 @@
   iso: nph
   lgcode: 231
   sort: PHOM
+  srcofdata: GEM-CNL
 - lgid: 1283
   name: Phom
   abbr: Ph
@@ -9175,6 +10553,9 @@
   iso: nph
   lgcode: 231
   sort: PHOM
+  srcofdata: GEM-CNL
+  picode: Phom1
+  pi_page: 321
 - lgid: 1284
   name: Côông [Phunoi]
   abbr: Phunoi
@@ -9183,6 +10564,9 @@
   iso: pho
   lgcode: 232
   sort: PHUNOI
+  srcofdata: DB-PLolo
+  picode: Phun1
+  pi_page: 322
 - lgid: 1285
   name: Côông [Phunoi]
   abbr: Phunoi
@@ -9235,7 +10619,10 @@
   iso: pho
   lgcode: 232
   sort: PHUNOI
+  srcofdata: MF-PhnQ
+  picode: Phun2
   notes: see Matt's DETS reports re MF-PhnQ vs MF-Phunoi
+  pi_page: 323
 - lgid: 1291
   name: Côông [Phunoi]
   abbr: Phunoi
@@ -9292,6 +10679,9 @@
   iso: byo
   lgcode: 112
   sort: HANI (BIYUE)
+  srcofdata: ILH-PL
+  picode: Hani1
+  pi_page: 132
 - lgid: 1301
   name: Puiron
   abbr: Puiron
@@ -9300,7 +10690,10 @@
   iso: nbu
   lgcode: 233
   sort: PUIRON
+  srcofdata: WM-Cha
+  picode: Puir1
   notes: dialect of Rongmei
+  pi_page: 325
 - lgid: 1302
   name: Puiron
   abbr: Poeron
@@ -9318,6 +10711,7 @@
   iso: pmj
   lgcode: 234
   sort: PUMI
+  srcofdata: JZ-Pumi
   notes: 'if not PMa or PMb, probably means both dialects, but form matches TBL: Pumi (Lanping)'
 - lgid: 1304
   name: Pumi (Qinghua)
@@ -9327,7 +10721,10 @@
   iso: pmj
   lgcode: 234
   sort: PUMI Q
+  srcofdata: JZ-Pumi
+  picode: Pumi1
   notes: 箐花
+  pi_page: 326
 - lgid: 1305
   name: Pumi (Qinghua)
   abbr: PMa
@@ -9336,6 +10733,7 @@
   iso: pmj
   lgcode: 234
   sort: PUMI Q
+  srcofdata: JZ-Pumi
 - lgid: 1306
   name: Pumi (Qinghua)
   abbr: Pumi.Qinghua11
@@ -9344,6 +10742,9 @@
   iso: pmj
   lgcode: 234
   sort: PUMI Q
+  srcofdata: ZMYYC
+  picode: Pumi1
+  pi_page: 326
 - lgid: 1307
   name: Pumi (Taoba)
   abbr: PMtb
@@ -9352,6 +10753,9 @@
   iso: pmi
   lgcode: 235
   sort: PUMI T
+  srcofdata: JZ-Pumi
+  picode: Pumi2
+  pi_page: 328
 - lgid: 1308
   name: Pumi (Taoba)
   abbr: PMb
@@ -9360,6 +10764,7 @@
   iso: pmi
   lgcode: 235
   sort: PUMI T
+  srcofdata: JZ-Pumi
 - lgid: 1309
   name: Pumi (Taoba)
   abbr: Pumi.Taoba10
@@ -9368,6 +10773,9 @@
   iso: pmi
   lgcode: 235
   sort: PUMI T
+  srcofdata: ZMYYC
+  picode: Pumi2
+  pi_page: 328
 - lgid: 1310
   name: Purik
   abbr: Purik
@@ -9392,6 +10800,7 @@
   iso: pyy
   lgcode: 355
   sort: '!PYEN *'
+  srcofdata: '***'
 - lgid: 1313
   name: Pyu
   abbr: Pyu
@@ -9400,6 +10809,7 @@
   iso: pyx
   lgcode: 236
   sort: '!PYU *'
+  srcofdata: '***'
 - lgid: 1314
   name: Qiang
   abbr: Ch'iang (Chang Kun)
@@ -9416,6 +10826,7 @@
   source: JAM-TSR
   lgcode: 237
   sort: QIANG
+  srcofdata: (???)
   notes: dialect?
 - lgid: 1316
   name: Qiang (Mawo)
@@ -9425,6 +10836,9 @@
   iso: cng
   lgcode: 238
   sort: QIANG M
+  srcofdata: JZ-Qiang
+  picode: QiaN1
+  pi_page: 330
 - lgid: 1317
   name: Qiang (Mawo)
   abbr: QQmw
@@ -9433,6 +10847,9 @@
   iso: cng
   lgcode: 238
   sort: QIANG M
+  srcofdata: JZ-Qiang
+  picode: QiaN1
+  pi_page: 330
 - lgid: 1318
   name: Qiang (Mawo)
   abbr: MW
@@ -9441,6 +10858,7 @@
   iso: cng
   lgcode: 238
   sort: QIANG M
+  srcofdata: JZ-Qiang
 - lgid: 1319
   name: Qiang (Mawo)
   abbr: Mawo
@@ -9449,6 +10867,7 @@
   iso: cng
   lgcode: 238
   sort: QIANG M
+  srcofdata: SHK-MawoQ
 - lgid: 1320
   name: Qiang (Mawo)
   abbr: Qiang.Mawo8
@@ -9457,6 +10876,8 @@
   iso: cng
   lgcode: 238
   sort: QIANG M
+  picode: QiaN1
+  pi_page: 330
 - lgid: 1321
   name: Qiang (Taoping)
   abbr: QQtp
@@ -9465,6 +10886,9 @@
   iso: qxs
   lgcode: 239
   sort: QIANG T
+  srcofdata: JZ-Qiang
+  picode: QiaS1
+  pi_page: 335
 - lgid: 1322
   name: Qiang (Taoping)
   abbr: TP
@@ -9473,6 +10897,7 @@
   iso: qxs
   lgcode: 239
   sort: QIANG T
+  srcofdata: JZ-Qiang
 - lgid: 1323
   name: Qiang (Taoping)
   abbr: Qiang.Taoping9
@@ -9481,6 +10906,8 @@
   iso: qxs
   lgcode: 239
   sort: QIANG T
+  picode: QiaS1
+  pi_page: 335
 - lgid: 1324
   name: Qiang (Yadu)
   abbr: Qiang
@@ -9497,7 +10924,10 @@
   iso: cng
   lgcode: 238
   sort: QIANG Y
+  srcofdata: DQ-QiangN
+  picode: QiaN2
   notes: Huang Chenglong
+  pi_page: 333
 - lgid: 1326
   name: Rabha
   abbr: Rabha
@@ -9513,6 +10943,7 @@
   source: RJL-DPTB
   lgcode: 241
   sort: RAI
+  srcofdata: STC
 - lgid: 1328
   name: Rai
   abbr: Rai
@@ -9552,6 +10983,7 @@
   iso: raw
   lgcode: 220
   sort: NUNG
+  srcofdata: MOR1963
 - lgid: 1335
   name: Rengma
   abbr: Rengma
@@ -9560,6 +10992,9 @@
   iso: nre
   lgcode: 244
   sort: RENGMA
+  srcofdata: GEM-Reng
+  picode: Reng1
+  pi_page: 338
 - lgid: 1336
   name: Rengma
   abbr: Rengma Naga
@@ -9576,6 +11011,7 @@
   iso: nnl
   lgcode: 245
   sort: RENGMA (NORTHERN)?
+  srcofdata: AW-TBT
 - lgid: 1338
   name: Rengma (Southern)
   abbr: S.Reng
@@ -9584,6 +11020,7 @@
   iso: nre
   lgcode: 246
   sort: RENGMA (SOUTHERN)
+  srcofdata: AW-TBT
 - lgid: 1339
   name: rGyalrong
   abbr: Jy
@@ -9600,6 +11037,9 @@
   iso: jya
   lgcode: 110
   sort: GYARONG
+  srcofdata: ZMYYC
+  picode: Gyar2
+  pi_page: 123
 - lgid: 1341
   name: Riang
   abbr: Riang
@@ -9624,6 +11064,7 @@
   iso: rab
   lgcode: 73
   sort: CHAMLING
+  srcofdata: old sources
 - lgid: 1345
   name: Rokhung
   abbr: Rokh
@@ -9639,6 +11080,7 @@
   iso: nbu
   lgcode: 248
   sort: RONGMEI
+  srcofdata: AW-TBT
 - lgid: 1347
   name: Rongmei / Nruanghmei
   abbr: Nruanghmei
@@ -9647,6 +11089,9 @@
   iso: nbu
   lgcode: 248
   sort: RONGMEI
+  srcofdata: GEM-Nruan
+  picode: Rong2
+  pi_page: 340
 - lgid: 1348
   name: Rongmei / Nruanghmei
   abbr: Rongmei
@@ -9671,6 +11116,7 @@
   iso: bhj
   lgcode: 48
   sort: RUMDALI
+  srcofdata: AW-TBT
 - lgid: 1351
   name: Rungchangbung
   abbr: Rungchang-bung
@@ -9718,6 +11164,7 @@
   source: AW-TBT
   lgcode: 251
   sort: SAKKA TROKPA
+  srcofdata: AW-TBT
   notes: dissimilar to both Khams and Amdo
 - lgid: 1357
   name: Samong
@@ -9735,6 +11182,7 @@
   iso: rav
   lgcode: 252
   sort: SAMPANG
+  srcofdata: AW-TBT
 - lgid: 1359
   name: Sampang
   abbr: Sangpang
@@ -9767,7 +11215,10 @@
   iso: sgk
   lgcode: 253
   sort: SANGKONG
+  srcofdata: LYS-Sangkon
+  picode: Sang1
   notes: Error corr.; this source was orig. called LY-Sangkong
+  pi_page: 344
 - lgid: 1363
   name: Sangtam
   abbr: Sang
@@ -9776,6 +11227,7 @@
   iso: nsa
   lgcode: 254
   sort: SANGTAM
+  srcofdata: AW-TBT
 - lgid: 1364
   name: Sangtam
   abbr: Sangtam
@@ -9784,6 +11236,9 @@
   iso: nsa
   lgcode: 254
   sort: SANGTAM
+  srcofdata: GEM-Sang
+  picode: Sang2
+  pi_page: 345
 - lgid: 1365
   name: Sani [Nyi]
   abbr: SaniYi
@@ -9792,6 +11247,8 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: MXL-SaniQ
+  pi_page: 312
 - lgid: 1366
   name: Sani [Nyi]
   abbr: SaniYi
@@ -9800,7 +11257,10 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: WAH-Sani
+  picode: Nyi2
   notes: =YHJC-Sani, but normalized in db
+  pi_page: 311
 - lgid: 1367
   name: Sani [Nyi]
   abbr: Sani
@@ -9809,6 +11269,7 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: MXL-Sani
 - lgid: 1368
   name: Sani [Nyi]
   abbr: Sa
@@ -9817,6 +11278,9 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: MXL-Sani
+  picode: Nyi3
+  pi_page: 312
 - lgid: 1369
   name: Sani [Nyi]
   abbr: Sa (Vial)
@@ -9825,6 +11289,7 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: VIA1909
 - lgid: 1370
   name: Sani [Nyi]
   abbr: Sani
@@ -9833,6 +11298,7 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: MXL-Sani
 - lgid: 1371
   name: Sani [Nyi]
   abbr: Sani
@@ -9849,6 +11315,7 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: MXL-Sani?
 - lgid: 1373
   name: Sani [Nyi]
   abbr: Nyi Lolo
@@ -9865,6 +11332,7 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: MXL-Sani
 - lgid: 1375
   name: Sani [Nyi]
   abbr: Sani Yi
@@ -9889,6 +11357,7 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: VIA1909
 - lgid: 1378
   name: Sani [Nyi]
   abbr: Sani
@@ -9905,7 +11374,10 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  srcofdata: YHJC-Sani
+  picode: Nyi2
   notes: =WAH-Sani, but not normalized in db.
+  pi_page: 311
 - lgid: 1380
   name: Tibetan (Khams:Dege)
   abbr: Tibetan.Khams3
@@ -9914,7 +11386,10 @@
   iso: khg
   lgcode: 299
   sort: TIBETAN (KHAMS)
+  srcofdata: ZMYYC
+  picode: TibK1
   notes: (Dege = sDe-dge)
+  pi_page: 399
 - lgid: 1381
   name: Sema [Sumi]
   abbr: Sema
@@ -9931,6 +11406,9 @@
   iso: nsm
   lgcode: 255
   sort: SUMI
+  srcofdata: BOR-Sema
+  picode: Sema1
+  pi_page: 347
 - lgid: 1383
   name: Sema [Sumi]
   abbr: Sema
@@ -9939,7 +11417,10 @@
   iso: nsm
   lgcode: 255
   sort: SUMI
+  srcofdata: SRE1976
+  picode: Sema2
   notes: PRS
+  pi_page: 348
 - lgid: 1384
   name: Sema [Sumi]
   abbr: Sema Naga
@@ -9972,6 +11453,7 @@
   iso: ksw
   lgcode: 257
   sort: SGAW
+  srcofdata: RBJ-KLS
 - lgid: 1388
   name: Sgaw
   abbr: Sg
@@ -9980,6 +11462,7 @@
   iso: ksw
   lgcode: 257
   sort: SGAW
+  srcofdata: AW-TBT
   notes: 'Weidert: "...I recorded in the field" (p.334)'
 - lgid: 1389
   name: Sgaw
@@ -9997,6 +11480,7 @@
   iso: ksw
   lgcode: 257
   sort: SGAW
+  srcofdata: RBJ-KLS
 - lgid: 1391
   name: Sgaw
   abbr: Sgaw
@@ -10021,6 +11505,9 @@
   iso: ksw
   lgcode: 258
   sort: SGAW B
+  srcofdata: RBJ-KLS
+  picode: Kare9
+  pi_page: 170
 - lgid: 1394
   name: Sgaw (Bassein)
   abbr: BS
@@ -10029,6 +11516,9 @@
   iso: ksw
   lgcode: 258
   sort: SGAW B
+  srcofdata: RBJ-KLS
+  picode: Kare9
+  pi_page: 170
 - lgid: 1395
   name: Sgaw (Bassein)
   abbr: Karen (BS)
@@ -10037,6 +11527,7 @@
   iso: ksw
   lgcode: 258
   sort: SGAW B
+  srcofdata: RBJ-KLS
 - lgid: 1396
   name: Sgaw (Delugong)
   abbr: Sgaw
@@ -10045,6 +11536,9 @@
   iso: ksw
   lgcode: 257
   sort: SGAW DELU
+  srcofdata: DHFRL
+  picode: Kare3
+  pi_page: 171
 - lgid: 1397
   name: Sgaw (Moulmein)
   abbr: MS
@@ -10053,6 +11547,9 @@
   iso: ksw
   lgcode: 259
   sort: SGAW M
+  srcofdata: RBJ-KLS
+  picode: Kare10
+  pi_page: 172
 - lgid: 1398
   name: Sgaw (Moulmein)
   abbr: Karen (MS)
@@ -10069,6 +11566,9 @@
   iso: ksw
   lgcode: 259
   sort: SGAW M
+  srcofdata: RBJ-KLS
+  picode: Kare10
+  pi_page: 172
 - lgid: 1400
   name: Shangge
   abbr: Shange
@@ -10093,6 +11593,9 @@
   iso: xsr
   lgcode: 303
   sort: TIBETAN (SHERPA)
+  picode: TibSh2
+  pinotes: <Ang Nyima Lama, Burkhard and Heiderose Schoettelndreyer
+  pi_page: 406
 - lgid: 1403
   name: Sherpa
   abbr: Sherpa
@@ -10101,6 +11604,7 @@
   iso: xsr
   lgcode: 303
   sort: TIBETAN (SHERPA)
+  srcofdata: AW-TBT
 - lgid: 1404
   name: Gurung
   abbr: Gurung
@@ -10109,6 +11613,7 @@
   iso: gvr
   lgcode: 109
   sort: GURUNG
+  srcofdata: GLO1969
 - lgid: 1405
   name: Sherpa
   abbr: Sh
@@ -10117,6 +11622,7 @@
   iso: xsr
   lgcode: 303
   sort: TIBETAN (SHERPA)
+  srcofdata: AH-CSDPN
 - lgid: 1406
   name: Sherpa
   abbr: Sherpa
@@ -10125,6 +11631,7 @@
   iso: xsr
   lgcode: 303
   sort: TIBETAN (SHERPA)
+  srcofdata: AH-CSDPN
 - lgid: 1407
   name: Tibetan (Sherpa:Helambu)
   abbr: SherpaH
@@ -10133,6 +11640,9 @@
   iso: scp
   lgcode: 362
   sort: TIBETAN (SHERPA)
+  srcofdata: B-ShrpaHQ
+  picode: TibSh1
+  pi_page: 405
 - lgid: 1408
   name: Xumi
   abbr: Shix
@@ -10141,7 +11651,10 @@
   iso: sxg
   lgcode: 261
   sort: XUMI
+  srcofdata: SHK-ShixQ
+  picode: Shix1
   notes: called "Shixing" by SHK
+  pi_page: 351
 - lgid: 1409
   name: Xumi
   abbr: Shixing20
@@ -10150,7 +11663,10 @@
   iso: sxg
   lgcode: 261
   sort: XUMI
+  srcofdata: ZMYYC
+  picode: Shix1
   notes: called "Shixing" by SHK
+  pi_page: 351
 - lgid: 1411
   name: Asho
   abbr: Sho
@@ -10167,6 +11683,7 @@
   iso: csh
   lgcode: 46
   sort: 'ASH    O'
+  srcofdata: GHL-PPB
 - lgid: 1413
   name: Asho
   abbr: Sho
@@ -10199,6 +11716,8 @@
   iso: hni
   lgcode: 111
   sort: HANI (HAONI)
+  picode: Hani4
+  pi_page: 129
 - lgid: 1417
   name: Siyin
   abbr: Siyin
@@ -10239,6 +11758,7 @@
   iso: csy
   lgcode: 262
   sort: SIYIN
+  srcofdata: STE1955
 - lgid: 1422
   name: Siyin
   abbr: Siyin
@@ -10279,6 +11799,7 @@
   iso: spt
   lgcode: 304
   sort: TIBETAN (SPITI)
+  srcofdata: CB-SpitiQ
 - lgid: 1427
   name: Tibetan (Spiti)
   abbr: Spiti
@@ -10287,6 +11808,9 @@
   iso: spt
   lgcode: 304
   sort: TIBETAN (SPITI)
+  srcofdata: SRS-PSS
+  picode: TibSp1
+  pi_page: 408
 - lgid: 1428
   name: Burmese (Spoken Rangoon)
   abbr: BurmeseMod40
@@ -10312,7 +11836,10 @@
   iso: suv
   lgcode: 264
   sort: SULUNG
+  srcofdata: SHK-Sulung
+  picode: Sulo1
   notes: JS-HCST:13 says Sulung is not Tani
+  pi_page: 353
 - lgid: 1431
   name: Sulung [Puroik]
   abbr: Sulong52
@@ -10321,7 +11848,10 @@
   iso: suv
   lgcode: 264
   sort: SULUNG
+  srcofdata: ZMYYC
+  picode: Sulo1
   notes: JS-HCST:13 says Sulung is not Tani
+  pi_page: 353
 - lgid: 1432
   name: Sunwar
   abbr: Sunwar
@@ -10338,6 +11868,9 @@
   iso: suz
   lgcode: 265
   sort: SUNWAR
+  picode: Sunw1
+  pinotes: <Gyen Singh Sunwar, Dora Bieri, Marlene Schulze
+  pi_page: 356
 - lgid: 1434
   name: Sunwar
   abbr: Sun
@@ -10404,6 +11937,7 @@
   iso: tgj
   lgcode: 266
   sort: TAGIN
+  srcofdata: BOR1938
 - lgid: 1443
   name: Tagin
   abbr: Tagen B
@@ -10412,6 +11946,7 @@
   iso: tgj
   lgcode: 266
   sort: TAGIN
+  srcofdata: BOR1938
 - lgid: 1444
   name: Tagin
   abbr: Tagin
@@ -10420,7 +11955,10 @@
   iso: tgj
   lgcode: 266
   sort: TAGIN
+  srcofdata: KDG-Tag
+  picode: Tagi1
   notes: (­ Nishi)
+  pi_page: 358
 - lgid: 1445
   name: Tagin
   abbr: Tagin DG
@@ -10429,6 +11967,7 @@
   iso: tgj
   lgcode: 266
   sort: TAGIN
+  srcofdata: KDG-Tag
 - lgid: 1446
   name: Takpa
   abbr: Takpa
@@ -10453,6 +11992,7 @@
   iso: tdg
   lgcode: 271
   sort: '!TAM-SEM *'
+  srcofdata: '***'
   notes: 'AW-TBT: "Semdzong Pyt., Western Tamang"'
 - lgid: 1449
   name: Taman
@@ -10477,6 +12017,7 @@
   source: MM1973
   lgcode: 269
   sort: TAMANG R
+  srcofdata: MM1973
   notes: best source; =Risiangku? [Taylor/Hari/Pike var????]
 - lgid: 1452
   name: Tamang
@@ -10502,6 +12043,7 @@
   iso: taj
   lgcode: 270
   sort: TAMANG R
+  srcofdata: MM-K78
 - lgid: 1455
   name: Tamang (Risiangku)
   abbr: Tam-Ris
@@ -10519,6 +12061,8 @@
   iso: taj
   lgcode: 270
   sort: TAMANG R
+  picode: Tama1
+  pi_page: 359
 - lgid: 1457
   name: Tamang (Sahu)
   abbr: T
@@ -10527,6 +12071,9 @@
   iso: tdg
   lgcode: 271
   sort: TAMANG S
+  picode: Tama2
+  pinotes: <Karna Bahadur Tamang, Doreen Taylor, Fay Everitt
+  pi_page: 362
 - lgid: 1458
   name: Tamang (Sahu)
   abbr: Tam-Sahu
@@ -10543,6 +12090,7 @@
   iso: tdg
   lgcode: 271
   sort: TAMANG S
+  srcofdata: MM,AH-CSDPN
 - lgid: 1460
   name: Tamang (Sahu)
   abbr: Tamang
@@ -10551,6 +12099,7 @@
   iso: tdg
   lgcode: 271
   sort: TAMANG S
+  srcofdata: AH-CSDPN
 - lgid: 1461
   name: Tamang (Sahu)
   abbr: sahu
@@ -10559,6 +12108,7 @@
   iso: tdg
   lgcode: 271
   sort: TAMANG S
+  srcofdata: MM-K78
 - lgid: 1462
   name: Tamang (Sahu)
   abbr: sahu
@@ -10567,6 +12117,9 @@
   iso: tdg
   lgcode: 271
   sort: TAMANG S
+  srcofdata: SIL-Sahu
+  picode: Tama3
+  pi_page: 360
 - lgid: 1463
   name: Tamang (Sahu)
   abbr: Tamang Sahu
@@ -10583,6 +12136,7 @@
   iso: tdg
   lgcode: 271
   sort: TAMANG S
+  srcofdata: SIL-Sahu
   notes: =AH-CSDPN
 - lgid: 1465
   name: Tamang (Sindhuli)
@@ -10600,6 +12154,7 @@
   source: MM-K78
   lgcode: 273
   sort: TAMANG T
+  srcofdata: MM-K78
 - lgid: 1467
   name: Tamang (Taglung)
   abbr: tag
@@ -10607,6 +12162,8 @@
   source: MM-Thesis
   lgcode: 273
   sort: TAMANG T
+  picode: Tama4
+  pi_page: 363
 - lgid: 1468
   name: Tamang (Bagmati)
   abbr: Tam-TP
@@ -10623,6 +12180,7 @@
   iso: nmf
   lgcode: 274
   sort: TANGKHUL
+  srcofdata: AW-TBT
 - lgid: 1470
   name: Tangkhul
   abbr: TN
@@ -10631,6 +12189,7 @@
   iso: nmf
   lgcode: 274
   sort: TANGKHUL
+  srcofdata: Bhat-TNL
 - lgid: 1471
   name: Tangkhul
   abbr: Tangkhul
@@ -10639,7 +12198,10 @@
   iso: nmf
   lgcode: 274
   sort: TANGKHUL
+  srcofdata: WP-TNgd
+  picode: Tank2
   notes: <WP-TNgd
+  pi_page: 365
 - lgid: 1472
   name: Tangkhul
   abbr: TN
@@ -10656,6 +12218,7 @@
   iso: nmf
   lgcode: 274
   sort: TANGKHUL
+  srcofdata: WP-TNgd,Bhat-TNV
 - lgid: 1474
   name: Tangkhul
   abbr: TN
@@ -10672,6 +12235,7 @@
   iso: nmf
   lgcode: 274
   sort: TANGKHUL
+  srcofdata: WP-TNgd,Bhat-TNV
 - lgid: 1476
   name: Tangkhul
   abbr: Tangkhul Naga
@@ -10680,6 +12244,7 @@
   iso: nmf
   lgcode: 274
   sort: TANGKHUL
+  srcofdata: WP-TNgd,Bhat-TNV
 - lgid: 1477
   name: Tangkhul
   abbr: TN
@@ -10696,6 +12261,9 @@
   iso: nmf
   lgcode: 274
   sort: TANGKHUL
+  srcofdata: WP-TNgd
+  picode: Tank2
+  pi_page: 365
 - lgid: 1480
   name: Tangkhul
   abbr: TN
@@ -10760,7 +12328,10 @@
   iso: nmf
   lgcode: 274
   sort: TANGKHUL U
+  srcofdata: ARO1980
+  picode: Tank1
   notes: PRS
+  pi_page: 366
 - lgid: 1488
   name: Tangsa
   abbr: Tang
@@ -10769,6 +12340,7 @@
   iso: nst
   lgcode: 275
   sort: TANGSA
+  srcofdata: AW-TBT
 - lgid: 1489
   name: Tangsa (Moshang)
   abbr: Tangsa (Mo)
@@ -10777,6 +12349,9 @@
   iso: nst
   lgcode: 276
   sort: TANGSA (MOSHANG)
+  srcofdata: WAL1948
+  picode: Tans1
+  pi_page: 369
 - lgid: 1490
   name: Tangsa (Yogli)
   abbr: Tangsa (Yog)
@@ -10785,6 +12360,9 @@
   iso: nst
   lgcode: 277
   sort: TANGSA (YOGLI)
+  srcofdata: WAL1948
+  picode: Tans1
+  pi_page: 369
 - lgid: 1491
   name: Tangut [Xixia]
   abbr: XIXIA
@@ -10809,6 +12387,9 @@
   iso: txg
   lgcode: 278
   sort: TANGUT
+  srcofdata: MVS-Grin
+  picode: Xixi1
+  pi_page: 428
 - lgid: 1494
   name: Tangut [Xixia]
   abbr: Tangut1
@@ -10817,7 +12398,9 @@
   iso: txg
   lgcode: 278
   sort: TANGUT
+  picode: Xixi2
   notes: transcription normalized
+  pi_page: 427
 - lgid: 1495
   name: Tangut [Xixia]
   abbr: Tangut2
@@ -10826,7 +12409,9 @@
   iso: txg
   lgcode: 278
   sort: TANGUT
+  picode: Xixi2
   notes: From 'Pearl in the Palm'
+  pi_page: 427
 - lgid: 1496
   name: Tangut [Xixia]
   abbr: Tangut13
@@ -10843,6 +12428,7 @@
   iso: tsj
   lgcode: 195
   sort: TASHIGANG
+  srcofdata: RBJ-KLS
   notes: ?? Is it from RBJ-KLS
 - lgid: 1499
   name: Taung-Yo
@@ -10860,6 +12446,7 @@
   iso: tvn
   lgcode: 281
   sort: TAVOYAN
+  srcofdata: BER1965
 - lgid: 1503
   name: Tavoyan
   abbr: TV
@@ -10868,6 +12455,7 @@
   iso: tvn
   lgcode: 281
   sort: TAVOYAN
+  srcofdata: JO-PB
   notes: Not "PB":WRITE JO for inventory (along with Arakanese).
 - lgid: 1504
   name: Tavoyan
@@ -10877,6 +12465,7 @@
   iso: tvn
   lgcode: 281
   sort: TAVOYAN
+  srcofdata: PE1933
 - lgid: 1505
   name: Tavoyan
   abbr: Tavoyan
@@ -10910,6 +12499,7 @@
   source: GHL-PPB
   lgcode: 4
   sort: THA'OA
+  srcofdata: '***'
   notes: prob. Thangaw village
 - lgid: 1509
   name: Thado
@@ -10919,7 +12509,10 @@
   iso: tcz
   lgcode: 283
   sort: THADO
+  srcofdata: THI1972
+  picode: Thad1
   notes: PRS
+  pi_page: 370
 - lgid: 1510
   name: Thado
   abbr: Thado
@@ -10984,6 +12577,9 @@
   iso: tcz
   lgcode: 283
   sort: THADO
+  srcofdata: KRI1980
+  picode: Thad2
+  pi_page: 371
 - lgid: 1518
   name: Thai
   abbr: Siamese
@@ -11008,6 +12604,9 @@
   iso: ths
   lgcode: 285
   sort: THAKALI
+  picode: Thak3
+  pinotes: <Narendra Garchan, Nila Gauchan, Maria Hari
+  pi_page: 376
 - lgid: 1521
   name: Thakali
   abbr: Thak
@@ -11032,6 +12631,7 @@
   iso: ths
   lgcode: 286
   sort: THAKALI M
+  srcofdata: MM-K78
 - lgid: 1524
   name: Thakali (Marpha)
   abbr: mar
@@ -11040,6 +12640,8 @@
   iso: ths
   lgcode: 286
   sort: THAKALI M
+  picode: Thak1
+  pi_page: 373
 - lgid: 1525
   name: Thakali (Syang)
   abbr: syang
@@ -11048,6 +12650,7 @@
   iso: ths
   lgcode: 287
   sort: THAKALI S
+  srcofdata: MM-K78
 - lgid: 1526
   name: Thakali (Syang)
   abbr: syang
@@ -11056,6 +12659,8 @@
   iso: ths
   lgcode: 287
   sort: THAKALI S
+  picode: Thak2
+  pi_page: 375
 - lgid: 1527
   name: Thakali (Tukche)
   abbr: Tk
@@ -11064,6 +12669,9 @@
   iso: ths
   lgcode: 288
   sort: THAKALI T
+  srcofdata: AH-CSDPN
+  picode: Thak3
+  pi_page: 376
 - lgid: 1528
   name: Thakali (Tukche)
   abbr: Thakali
@@ -11072,6 +12680,7 @@
   iso: ths
   lgcode: 288
   sort: THAKALI T
+  srcofdata: AH-CSDPN
 - lgid: 1529
   name: Thakali (Tukche)
   abbr: tuk
@@ -11080,6 +12689,7 @@
   iso: ths
   lgcode: 288
   sort: THAKALI T
+  srcofdata: MM-K78
 - lgid: 1530
   name: Thakali (Tukche)
   abbr: tuk
@@ -11088,6 +12698,9 @@
   iso: ths
   lgcode: 288
   sort: THAKALI T
+  srcofdata: SIL-Thak
+  picode: Thak4
+  pi_page: 378
 - lgid: 1531
   name: Thakali (Tukche)
   abbr: Thak
@@ -11096,7 +12709,11 @@
   iso: ths
   lgcode: 288
   sort: THAKALI T
+  srcofdata: SIL-Thak
+  picode: Thak3
+  pinotes: trans. normalized
   notes: trans. normalized
+  pi_page: 376
 - lgid: 1532
   name: Thangmi
   abbr: Thami
@@ -11105,6 +12722,7 @@
   iso: thf
   lgcode: 289
   sort: THANGI
+  srcofdata: AW-TBT
 - lgid: 1533
   name: Thangmi
   abbr: Thami
@@ -11184,6 +12802,7 @@
   iso: tdh
   lgcode: 292
   sort: THULUNG
+  srcofdata: BM-PK7
 - lgid: 1543
   name: Thulung
   abbr: TR
@@ -11192,6 +12811,9 @@
   iso: tdh
   lgcode: 292
   sort: THULUNG
+  srcofdata: NJA-Thulung
+  picode: Thul1
+  pi_page: 381
 - lgid: 1544
   name: Thulung
   abbr: Thulung Rai
@@ -11200,6 +12822,7 @@
   iso: tdh
   lgcode: 292
   sort: THULUNG
+  srcofdata: NJA-Thulung
 - lgid: 1545
   name: Thulung
   abbr: Thulung
@@ -11208,6 +12831,9 @@
   iso: tdh
   lgcode: 292
   sort: THULUNG
+  srcofdata: NJA-Thulung
+  picode: Thul1
+  pi_page: 381
 - lgid: 1546
   name: Thulung
   abbr: Thulung
@@ -11216,6 +12842,7 @@
   iso: tdh
   lgcode: 292
   sort: THULUNG
+  srcofdata: NJA-Thulung
 - lgid: 1547
   name: Thulung
   abbr: Thulung
@@ -11248,6 +12875,9 @@
   iso: adx
   lgcode: 294
   sort: TIBETAN (AMDO/B)
+  srcofdata: ZMYYC
+  picode: TibA1
+  pi_page: 388
 - lgid: 1551
   name: Tibetan (Central)
   abbr: C.Tib
@@ -11305,6 +12935,9 @@
   iso: bod
   lgcode: 301
   sort: TIBETAN (LHASA)
+  srcofdata: ZMYYC
+  picode: TibLh1
+  pi_page: 403
 - lgid: 1558
   name: Tibetan (Spoken)
   abbr: Tib
@@ -11320,6 +12953,7 @@
   source: RJL-DPTB
   lgcode: 306
   sort: TIBETAN (WESTERN)
+  srcofdata: STC
   notes: Is this really Western T?
 - lgid: 1560
   name: Tibetan (Western)
@@ -11377,6 +13011,8 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: HAJ-TED
+  picode: WT1
 - lgid: 1567
   name: Tibetan (Written)
   abbr: WT
@@ -11385,6 +13021,9 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: HAJ-TED
+  picode: WT1
+  pi_page: 383
 - lgid: 1568
   name: Tibetan (Written)
   abbr: WT
@@ -11393,6 +13032,9 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: HAJ-TED
+  picode: WT1
+  pi_page: 383
 - lgid: 1569
   name: Tibetan (Written)
   abbr: WT
@@ -11401,6 +13043,9 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: HAJ-TED
+  picode: WT1
+  pi_page: 383
 - lgid: 1570
   name: Tibetan (Written)
   abbr: WT
@@ -11409,6 +13054,7 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: '***'
 - lgid: 1571
   name: Tibetan (Written)
   abbr: WT
@@ -11417,6 +13063,7 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: '***'
 - lgid: 1572
   name: Tibetan (Written)
   abbr: WT
@@ -11425,6 +13072,9 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: HAJ-TED
+  picode: WT1
+  pi_page: 383
 - lgid: 1573
   name: Tibetan (Written)
   abbr: WT
@@ -11433,6 +13083,9 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: HAJ-TED
+  picode: WT1
+  pi_page: 383
 - lgid: 1574
   name: Tibetan (Written)
   abbr: WT
@@ -11441,6 +13094,9 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: HAJ-TED
+  picode: WT1
+  pi_page: 383
 - lgid: 1575
   name: Tibetan (Written)
   abbr: WTibetan
@@ -11449,6 +13105,9 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: HAJ-TED
+  picode: WT1
+  pi_page: 383
 - lgid: 1576
   name: Tibetan (Written)
   abbr: WT
@@ -11465,6 +13124,7 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: HAJ-TED
   notes: <STC
 - lgid: 1578
   name: Tibetan (Written)
@@ -11510,6 +13170,7 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  pinotes: donÕt use
 - lgid: 1584
   name: Tibetan (Amdo:Zeku)
   abbr: Amdo
@@ -11518,6 +13179,7 @@
   iso: adx
   lgcode: 294
   sort: TIBETAN (AMDO/Z)
+  srcofdata: JS-Amdo
 - lgid: 1585
   name: Tibetan (Amdo:Zeku)
   abbr: Tibetan.Amdo5
@@ -11526,6 +13188,9 @@
   iso: adx
   lgcode: 294
   sort: TIBETAN (AMDO/Z)
+  srcofdata: ZMYYC
+  picode: TibA2
+  pi_page: 389
 - lgid: 1586
   name: Tibetan (Balti)
   abbr: Balti
@@ -11534,7 +13199,10 @@
   iso: bft
   lgcode: 295
   sort: TIBETAN (BALTI)
+  srcofdata: RAN1975
+  picode: TibBl1
   notes: PRS     ;  (=sBalti)
+  pi_page: 391
 - lgid: 1587
   name: Tibetan (Balti)
   abbr: West T(Balti)
@@ -11551,6 +13219,7 @@
   iso: ctd
   lgcode: 309
   sort: TIDDIM
+  srcofdata: EJAH-TC
 - lgid: 1589
   name: Tiddim
   abbr: Tid
@@ -11559,6 +13228,7 @@
   iso: ctd
   lgcode: 309
   sort: TIDDIM
+  srcofdata: AW-TBT
 - lgid: 1590
   name: Tiddim
   abbr: Tiddim
@@ -11567,6 +13237,8 @@
   iso: ctd
   lgcode: 309
   sort: TIDDIM
+  srcofdata: EJAH-TC
+  picode: Tidd1
 - lgid: 1591
   name: Tiddim
   abbr: Chin Tedim
@@ -11591,6 +13263,9 @@
   iso: ctd
   lgcode: 309
   sort: TIDDIM
+  srcofdata: EJAH-TC
+  picode: Tidd1
+  pi_page: 410
 - lgid: 1594
   name: Tiddim
   abbr: Tiddim
@@ -11599,6 +13274,9 @@
   iso: ctd
   lgcode: 309
   sort: TIDDIM
+  srcofdata: EJAH-TC
+  picode: Tidd1
+  pi_page: 410
 - lgid: 1595
   name: Tiddim
   abbr: Tiddim Chin
@@ -11607,6 +13285,7 @@
   iso: ctd
   lgcode: 309
   sort: TIDDIM
+  srcofdata: EJAH-TC
 - lgid: 1596
   name: Tiddim
   abbr: OT-KnsI
@@ -11615,6 +13294,7 @@
   iso: ctd
   lgcode: 309
   sort: TIDDIM
+  srcofdata: OT-KnsI
 - lgid: 1597
   name: Tiddim
   abbr: TC
@@ -11632,6 +13312,7 @@
   iso: ctd
   lgcode: 309
   sort: TIDDIM
+  srcofdata: EJAH-TC
 - lgid: 1599
   name: Pyu [Tircul]
   abbr: Tircul (Pyu)
@@ -11648,7 +13329,10 @@
   iso: ers
   lgcode: 205
   sort: TOSU
+  srcofdata: NT-Tosu
+  picode: Tosu1
   notes: should this be under Qiangic? [yes -DY]
+  pi_page: 413
 - lgid: 1602
   name: Trung [Dulong]
   abbr: Trung
@@ -11657,6 +13341,7 @@
   iso: duu
   lgcode: 310
   sort: TRUNG
+  srcofdata: STC
 - lgid: 1603
   name: Trung [Dulong]
   abbr: Tg
@@ -11665,6 +13350,7 @@
   iso: duu
   lgcode: 310
   sort: TRUNG
+  srcofdata: LCP-Trung
 - lgid: 1604
   name: Trung [Dulong]
   abbr: Tg
@@ -11673,6 +13359,7 @@
   iso: duu
   lgcode: 310
   sort: TRUNG
+  srcofdata: LCP-Trung
 - lgid: 1605
   name: Trung [Dulong]
   abbr: Tg
@@ -11689,6 +13376,7 @@
   iso: duu
   lgcode: 310
   sort: TRUNG
+  srcofdata: LCP-Trung?
 - lgid: 1607
   name: Trung [Dulong]
   abbr: Trung
@@ -11697,6 +13385,7 @@
   iso: duu
   lgcode: 310
   sort: TRUNG
+  srcofdata: LCP-Trung ?
 - lgid: 1611
   name: Tujia
   abbr: TujB
@@ -11705,6 +13394,7 @@
   iso: tji
   lgcode: 313
   sort: TUJIA
+  srcofdata: CK-TujBQ
   notes: appears to be Northern Tujia (cf. JZ-Tujia)
 - lgid: 1612
   name: Tujia
@@ -11714,6 +13404,7 @@
   iso: tjs
   lgcode: 314
   sort: TUJIA
+  srcofdata: CK-TujMQ
   notes: appears to be Southern Tujia (cf. JZ-Tujia)
 - lgid: 1613
   name: Tujia
@@ -11722,6 +13413,7 @@
   source: DQ-Tujia
   lgcode: 313
   sort: TUJIA
+  srcofdata: DQ-Tujia
 - lgid: 1614
   name: Tujia
   abbr: Tujia
@@ -11748,7 +13440,10 @@
   iso: tji
   lgcode: 313
   sort: TUJIA
+  srcofdata: JZ-Tujia
+  picode: Tuji1
   notes: (Longshan County)
+  pi_page: 419
 - lgid: 1617
   name: Tujia (Southern)
   abbr: TJlx
@@ -11757,7 +13452,10 @@
   iso: tjs
   lgcode: 314
   sort: TUJIA
+  srcofdata: JZ-Tujia
+  picode: Tuji2
   notes: (Luxi County)
+  pi_page: 421
 - lgid: 1618
   name: Ugong
   abbr: Ugong
@@ -11766,6 +13464,9 @@
   iso: ugo
   lgcode: 243
   sort: UGONG
+  srcofdata: DB-Ugong
+  picode: Ugon1
+  pi_page: 423
 - lgid: 1619
   name: Ugong
   abbr: Kanburi Lawa=Ugong
@@ -11782,6 +13483,7 @@
   iso: vay
   lgcode: 116
   sort: HAYU
+  srcofdata: HOD1857?
 - lgid: 1622
   name: Hayu
   abbr: Vayu
@@ -11790,6 +13492,7 @@
   iso: vay
   lgcode: 116
   sort: HAYU
+  srcofdata: LSI?
 - lgid: 1623
   name: Vietnamese
   abbr: Vn
@@ -11822,6 +13525,7 @@
   iso: kdq
   lgcode: 316
   sort: WANANG
+  srcofdata: RB-PB
 - lgid: 1627
   name: Wanang
   abbr: Wanang
@@ -11830,6 +13534,9 @@
   iso: kdq
   lgcode: 316
   sort: WANANG
+  srcofdata: RB-PB
+  picode: Wana1
+  pi_page: 425
 - lgid: 1628
   name: Wancho
   abbr: Wancho
@@ -11838,6 +13545,9 @@
   iso: nnp
   lgcode: 317
   sort: WANCHO
+  srcofdata: PEA1972, PEA1873
+  picode: Wanc1
+  pi_page: 426
 - lgid: 1629
   name: Wancho
   abbr: Wan
@@ -11846,6 +13556,7 @@
   iso: nnp
   lgcode: 317
   sort: WANCHO
+  srcofdata: GEM-CNL
 - lgid: 1630
   name: Wancho
   abbr: Wancho
@@ -11854,6 +13565,7 @@
   iso: nnp
   lgcode: 317
   sort: WANCHO
+  srcofdata: GEM-CNL
 - lgid: 1631
   name: Wancho
   abbr: Wancho
@@ -11870,6 +13582,9 @@
   iso: nnp
   lgcode: 317
   sort: WANCHO
+  srcofdata: GEM-CNL
+  picode: Wanc1
+  pi_page: 426
 - lgid: 1633
   name: Womatu
   abbr: Womatu
@@ -11887,6 +13602,7 @@
   iso: how
   lgcode: 114
   sort: WONI
+  srcofdata: YC-Woni
 - lgid: 1635
   name: Woni
   abbr: Wo
@@ -11895,6 +13611,7 @@
   iso: how
   lgcode: 114
   sort: WONI
+  srcofdata: YC-Woni
 - lgid: 1636
   name: Woni
   abbr: Woni
@@ -11903,6 +13620,7 @@
   iso: how
   lgcode: 114
   sort: WONI
+  srcofdata: YC-Woni
 - lgid: 1638
   name: Xongsai
   abbr: Xongsai
@@ -11929,6 +13647,9 @@
   iso: njo
   lgcode: 322
   sort: YACHAM-TENGSA
+  srcofdata: JPM-Ao
+  picode: Yach1
+  pi_page: 431
 - lgid: 1641
   name: Yacham-Tengsa
   abbr: Yacham-Tengsa
@@ -11961,6 +13682,9 @@
   iso: ybh
   lgcode: 323
   sort: YAKHA
+  srcofdata: TK-Yakha
+  picode: Yakh1
+  pi_page: 433
 - lgid: 1645
   name: Yakha
   abbr: Yakha
@@ -12011,6 +13735,7 @@
   iso: njz
   lgcode: 305
   sort: YANO
+  srcofdata: BOR1938
 - lgid: 1652
   name: Yano
   abbr: Yano B
@@ -12019,6 +13744,7 @@
   iso: njz
   lgcode: 305
   sort: YANO
+  srcofdata: BOR1938
 - lgid: 1653
   name: Yawdwin
   abbr: Yawdwin
@@ -12051,6 +13777,8 @@
   iso: yig
   lgcode: 326
   sort: YI (DAFANG)
+  picode: YiDf1
+  pi_page: 434
 - lgid: 1657
   name: Yi (Dafang)
   abbr: Dafang
@@ -12067,6 +13795,9 @@
   iso: yig
   lgcode: 326
   sort: YI (DAFANG)
+  srcofdata: ZMYYC
+  picode: YiDf1
+  pi_page: 434
 - lgid: 1659
   name: Yi (Liangshan)
   abbr: Yi
@@ -12075,6 +13806,7 @@
   iso: iii
   lgcode: 332
   sort: YI (LIANGSHAN)
+  srcofdata: LI1981?
 - lgid: 1660
   name: Yi (Liangshan)
   abbr: Yi (Liangshan)
@@ -12099,6 +13831,9 @@
   source: ZMYYC
   lgcode: 328
   sort: YI (MILE)
+  srcofdata: ZMYYC
+  picode: YiMl1
+  pi_page: 435
 - lgid: 1663
   name: Yi (Mojiang)
   abbr: Yi.Mojiang26
@@ -12107,6 +13842,9 @@
   iso: nsd
   lgcode: 329
   sort: YI (MOJIANG)
+  srcofdata: ZMYYC
+  picode: YiMj1
+  pi_page: 437
 - lgid: 1664
   name: Yi (Nanhua)
   abbr: Yi.Nanhua24
@@ -12115,6 +13853,9 @@
   iso: ycl
   lgcode: 330
   sort: YI (NANHUA)
+  srcofdata: ZMYYC
+  picode: YiNh1
+  pi_page: 439
 - lgid: 1665
   name: Yi (Nanjian)
   abbr: YInj
@@ -12123,6 +13864,9 @@
   iso: ywt
   lgcode: 331
   sort: YI (NANJIAN)
+  srcofdata: JZ-Yi
+  picode: YiNj1
+  pi_page: 440
 - lgid: 1666
   name: Yi (Nanjian)
   abbr: Yi.Nanjian23
@@ -12131,6 +13875,9 @@
   iso: ywt
   lgcode: 331
   sort: YI (NANJIAN)
+  srcofdata: ZMYYC
+  picode: YiNj1
+  pi_page: 440
 - lgid: 1667
   name: Yi (Xide)
   abbr: XYi
@@ -12139,6 +13886,7 @@
   iso: iii
   lgcode: 332
   sort: YI (XIDE)
+  srcofdata: CSL-YIzd
 - lgid: 1668
   name: Yi (Xide)
   abbr: Xide Loloish
@@ -12155,6 +13903,9 @@
   iso: iii
   lgcode: 332
   sort: YI (XIDE)
+  srcofdata: JZ-Yi
+  picode: YiXd1
+  pi_page: 442
 - lgid: 1670
   name: Yi (Xide)
   abbr: Yi.Xide21
@@ -12163,6 +13914,9 @@
   iso: iii
   lgcode: 332
   sort: YI (XIDE)
+  srcofdata: ZMYYC
+  picode: YiXd1
+  pi_page: 442
 - lgid: 1671
   name: Yimchungrü
   abbr: Yim
@@ -12171,6 +13925,7 @@
   iso: yim
   lgcode: 333
   sort: YIMCHUNGER
+  srcofdata: AW-TBT
 - lgid: 1672
   name: Yimchungrü
   abbr: Yimchungrü
@@ -12179,6 +13934,9 @@
   iso: yim
   lgcode: 333
   sort: YIMCHUNGER
+  srcofdata: GEM-Yimch
+  picode: Yimc1
+  pi_page: 444
 - lgid: 1674
   name: Tangsa (Yogli)
   abbr: Yogli
@@ -12187,6 +13945,7 @@
   iso: nst
   lgcode: 277
   sort: TANGSA (YOGLI)
+  srcofdata: GEM-CNL
 - lgid: 1675
   name: Tangsa (Yogli)
   abbr: Yo
@@ -12195,6 +13954,7 @@
   iso: nst
   lgcode: 275
   sort: TANGSA (YOGLI)
+  srcofdata: GEM-CNL
 - lgid: 1676
   name: Naxi (Yongning)
   abbr: Naxi.Yongning29
@@ -12203,7 +13963,10 @@
   iso: nbf
   lgcode: 210
   sort: NAXI
+  srcofdata: ZMYYC
+  picode: Naxi1
   notes: Yongning=Moso
+  pi_page: 282
 - lgid: 1677
   name: Atsi [Zaiwa]
   abbr: Atsi
@@ -12260,6 +14023,7 @@
   iso: atb
   lgcode: 334
   sort: ZAIWA
+  srcofdata: RB-PLB
 - lgid: 1684
   name: Atsi [Zaiwa]
   abbr: At
@@ -12268,6 +14032,7 @@
   iso: atb
   lgcode: 334
   sort: ZAIWA
+  srcofdata: RB-PLB
 - lgid: 1685
   name: Atsi [Zaiwa]
   abbr: Atsi
@@ -12276,6 +14041,7 @@
   iso: atb
   lgcode: 334
   sort: ZAIWA
+  srcofdata: RB-PLB
 - lgid: 1686
   name: Atsi [Zaiwa]
   abbr: ZW
@@ -12284,6 +14050,8 @@
   iso: atb
   lgcode: 334
   sort: ZAIWA
+  picode: Zaiw2
+  pi_page: 446
 - lgid: 1687
   name: Atsi [Zaiwa]
   abbr: Atsi
@@ -12292,6 +14060,9 @@
   iso: atb
   lgcode: 334
   sort: ZAIWA
+  srcofdata: RB-PLB
+  picode: Zaiw1
+  pi_page: 445
 - lgid: 1688
   name: Atsi [Zaiwa]
   abbr: Zaiwa
@@ -12308,6 +14079,7 @@
   iso: atb
   lgcode: 334
   sort: ZAIWA
+  srcofdata: JAM
 - lgid: 1690
   name: Atsi [Zaiwa]
   abbr: Zaiwa
@@ -12316,6 +14088,7 @@
   iso: atb
   lgcode: 334
   sort: ZAIWA
+  srcofdata: JZ-Zaiwa
 - lgid: 1691
   name: Atsi [Zaiwa]
   abbr: Atsi
@@ -12332,6 +14105,9 @@
   iso: atb
   lgcode: 334
   sort: ZAIWA
+  srcofdata: YS-Zaiwa
+  picode: Zaiw3
+  pi_page: 448
 - lgid: 1693
   name: Atsi [Zaiwa]
   abbr: Zaiwa42
@@ -12340,6 +14116,9 @@
   iso: atb
   lgcode: 334
   sort: ZAIWA
+  srcofdata: ZMYYC
+  picode: Zaiw2
+  pi_page: 446
 - lgid: 1694
   name: Zeme
   abbr: Zeme
@@ -12348,6 +14127,9 @@
   iso: nzm
   lgcode: 335
   sort: ZEME
+  srcofdata: GEM-Zeme
+  picode: Zeme1
+  pi_page: 451
 - lgid: 1695
   name: Zeme
   abbr: Zem
@@ -12379,6 +14161,7 @@
   iso: qvy
   lgcode: 337
   sort: QUEYU
+  srcofdata: SHK-ZhabQ
 - lgid: 1699
   name: Queyu (Yajiang) [Zhaba]
   abbr: Queyu16
@@ -12387,6 +14170,8 @@
   iso: qvy
   lgcode: 337
   sort: QUEYU
+  picode: Zhab1
+  pi_page: 453
 - lgid: 1700
   name: Zotung
   abbr: Zotung (V)
@@ -12411,7 +14196,10 @@
   iso: ckh
   lgcode: 250
   sort: SAK
+  srcofdata: LB-LC
+  picode: Sak1
   notes: entered by Leela
+  pi_page: 342
 - lgid: 1703
   name: Lahu (Nyi)
   abbr: Nyi
@@ -12420,6 +14208,7 @@
   iso: lhu
   lgcode: 153
   sort: LAHU
+  srcofdata: DB-Lahu
 - lgid: 1704
   name: Lahu (Shehleh)
   abbr: Shehleh
@@ -12428,6 +14217,7 @@
   iso: lhu
   lgcode: 151
   sort: LAHU
+  srcofdata: DB-Lahu
 - lgid: 1705
   name: Pwo (Moulmein)
   abbr: Pwo Karen
@@ -12445,6 +14235,8 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  picode: Akha1
+  pi_page: 11
 - lgid: 1707
   name: Apatani
   abbr: Apatani A
@@ -12453,6 +14245,9 @@
   iso: apt
   lgcode: 44
   sort: APATANI
+  srcofdata: ABR1985
+  picode: Apat1
+  pi_page: 25
 - lgid: 1708
   name: Tshona (Mama)
   abbr: CNmm
@@ -12461,7 +14256,9 @@
   iso: twm
   lgcode: 199
   sort: MONPA CU S
+  picode: Cuon2
   notes: =Southern dial.
+  pi_page: 82
 - lgid: 1709
   name: Jingpho
   abbr: Jingpho
@@ -12470,6 +14267,8 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  picode: Jing3
+  pi_page: 144
 - lgid: 1710
   name: Thakali
   abbr: Thakali (Tukche)
@@ -12478,6 +14277,7 @@
   iso: ths
   lgcode: 285
   sort: THAKALI
+  picode: Thak3
 - lgid: 1717
   name: Akha
   abbr: Akha
@@ -12662,6 +14462,7 @@
   iso: lhu
   lgcode: 151
   sort: LAHU
+  srcofdata: Telford
 - lgid: 1740
   name: Anong (Rawang/Lungmi)
   abbr: Lungmi
@@ -12670,6 +14471,7 @@
   iso: raw
   lgcode: 220
   sort: NUNG
+  srcofdata: N. Bodman
 - lgid: 1741
   name: Anong (Rawang/Metu)
   abbr: Metu
@@ -12876,6 +14678,8 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  picode: Akha2
+  pi_page: 12
 - lgid: 1771
   name: Belhare
   abbr: Belhare
@@ -12892,6 +14696,7 @@
   iso: lis
   lgcode: 168
   sort: LISU
+  srcofdata: unknown
 - lgid: 1774
   name: Hani
   abbr: Hani
@@ -12900,6 +14705,7 @@
   iso: hni
   lgcode: 111
   sort: HANI
+  srcofdata: unknown
 - lgid: 1775
   name: Kanauri
   abbr: Kanauri
@@ -12908,6 +14714,7 @@
   iso: kfk
   lgcode: 129
   sort: KANAURI
+  srcofdata: Bailey 1911
 - lgid: 1776
   name: Yi (Southern)
   abbr: Southern Yi
@@ -12915,6 +14722,7 @@
   source: RSB-STV
   lgcode: 367
   sort: YI (SOUTHERN)
+  srcofdata: Bradley P.C.
   notes: SouthernNisu [nsd]?
 - lgid: 1777
   name: Moso (Weixi)
@@ -12924,6 +14732,7 @@
   iso: nbf
   lgcode: 200
   sort: MOSO
+  srcofdata: Bradley P.C.
 - lgid: 1778
   name: Tiddim
   abbr: TC
@@ -12948,6 +14757,7 @@
   iso: yix
   lgcode: 32
   sort: AHI
+  picode: Ahi3
   notes: 'almost same dial. as ZMYYC #25 Yi:Mile'
 - lgid: 1781
   name: Lalo
@@ -12957,6 +14767,7 @@
   iso: ywt
   lgcode: 160
   sort: LALO
+  picode: Lalo1
   notes: CK-YiQ=CK-CS
 - lgid: 1782
   name: Lipho
@@ -12966,6 +14777,7 @@
   iso: lpo
   lgcode: 167
   sort: LIPHO
+  picode: Li1
 - lgid: 1783
   name: Nasu
   abbr: nasu
@@ -12974,6 +14786,7 @@
   iso: ywq
   lgcode: 209
   sort: NASU
+  picode: Nasu1
 - lgid: 1784
   name: Noesu
   abbr: noesu
@@ -12981,6 +14794,7 @@
   source: CK-CS
   lgcode: 217
   sort: NOESU
+  picode: Noes1
 - lgid: 1785
   name: Nosu
   abbr: nosu
@@ -12989,6 +14803,7 @@
   iso: iii
   lgcode: 218
   sort: NOSU
+  picode: Nosu1
 - lgid: 1786
   name: Sani [Nyi]
   abbr: sani
@@ -12997,6 +14812,7 @@
   iso: ysn
   lgcode: 222
   sort: NYI
+  picode: Nyi1
 - lgid: 1788
   name: Kanauri
   abbr: Kan
@@ -13005,6 +14821,7 @@
   iso: kfk
   lgcode: 129
   sort: KANAURI
+  pi_page: 156
 - lgid: 1789
   name: Newar
   abbr: Newari
@@ -13037,6 +14854,9 @@
   iso: njz
   lgcode: 215
   sort: NISHING
+  srcofdata: KDG-Daf
+  picode: Nish3
+  pi_page: 297
 - lgid: 1793
   name: Bai (Dali)
   abbr: Bai
@@ -13054,6 +14874,7 @@
   iso: ctd
   lgcode: 309
   sort: TIDDIM
+  pi_page: 410
 - lgid: 1796
   name: rGyalrong
   abbr: Gyarong.Nagano
@@ -13106,6 +14927,7 @@
   iso: bap
   lgcode: 55
   sort: BANTAWA
+  pi_page: 40
 - lgid: 1802
   name: Kuki-Chin
   abbr: KC
@@ -13560,6 +15382,8 @@
   iso: chx
   lgcode: 75
   sort: CHANTYAL
+  srcofdata: NPB-ChanQ
+  picode: Chtl1
 - lgid: 1859
   name: Tibetan (Written)
   abbr: WT
@@ -13568,6 +15392,8 @@
   iso: xct
   lgcode: 307
   sort: TIBETAN (WRITTEN)
+  srcofdata: DAS-TED
+  picode: WT1
 - lgid: 1860
   name: Burmese (Written)
   abbr: WB
@@ -13575,6 +15401,8 @@
   source: AJ-BED
   lgcode: 69
   sort: BURMESE (WRITTEN)
+  srcofdata: AJ-BED
+  picode: Burm1
   notes: Perhaps a note saying AJ-BED also source of numerous other srcs?
 - lgid: 1861
   name: Naxi (Lijiang)
@@ -13692,6 +15520,8 @@
   iso: ksw
   lgcode: 258
   sort: SGAW B
+  srcofdata: RBJ-KLS
+  picode: Kare9
 - lgid: 1876
   name: Lai (Hakha)
   abbr: Lai
@@ -13708,6 +15538,8 @@
   iso: ywt
   lgcode: 160
   sort: LALO
+  srcofdata: SB-Lalo
+  picode: Lalo2
 - lgid: 1878
   name: Limbu
   abbr: Limbu
@@ -13716,6 +15548,8 @@
   iso: lif
   lgcode: 166
   sort: LIMBU
+  srcofdata: SVD-Lim
+  picode: Limb1
   notes: best
 - lgid: 1909
   name: Sani [Nyi]
@@ -13749,6 +15583,7 @@
   iso: suv
   lgcode: 264
   sort: SULUNG
+  srcofdata: Sulong Jianzhi
   notes: JS-HCST:13 says Sulung is not Tani
 - lgid: 1913
   name: Qiang (Mianchi)
@@ -13758,6 +15593,7 @@
   iso: qxs
   lgcode: 239
   sort: QIANG MIANCHI
+  srcofdata: Jonathan Evans, p.c.
 - lgid: 1914
   name: Yi (Xide)
   abbr: Yi.Xide
@@ -13782,6 +15618,7 @@
   iso: new
   lgcode: 213
   sort: NEWAR
+  srcofdata: K. Malla, p.c.
 - lgid: 1917
   name: Lushai [Mizo]
   abbr: Lushai
@@ -14391,6 +16228,7 @@
   iso: klr
   lgcode: 131
   sort: KHALING
+  srcofdata: STC
 - lgid: 1994
   name: Balali
   abbr: Balali
@@ -14399,6 +16237,7 @@
   iso: raf
   lgcode: 293
   sort: BALALI
+  srcofdata: STC
 - lgid: 1995
   name: Adi
   abbr: Abor
@@ -14449,6 +16288,7 @@
   iso: ckh
   lgcode: 250
   sort: SAK
+  srcofdata: Bernot (Pakistan)
 - lgid: 2001
   name: Sak
   abbr: LCP
@@ -14457,6 +16297,7 @@
   iso: ckh
   lgcode: 250
   sort: SAK
+  srcofdata: Löffler (Pakistan)
 - lgid: 2002
   name: Sak
   abbr: HdCA
@@ -14465,6 +16306,7 @@
   iso: ckh
   lgcode: 250
   sort: SAK
+  srcofdata: Hodgson (Arakan)
 - lgid: 2003
   name: Kadu
   abbr: HtK
@@ -14473,6 +16315,7 @@
   iso: zkd
   lgcode: 126
   sort: KADU
+  srcofdata: Houghton (Katha)
 - lgid: 2004
   name: Kadu
   abbr: LSIK
@@ -14481,6 +16324,7 @@
   iso: zkd
   lgcode: 126
   sort: KADU
+  srcofdata: LSI
 - lgid: 2005
   name: Andro
   abbr: McAM
@@ -14489,6 +16333,7 @@
   iso: kdv
   lgcode: 37
   sort: ANDRO
+  srcofdata: McCulloch 1859
 - lgid: 2006
   name: Sengmai
   abbr: McSM
@@ -14497,6 +16342,7 @@
   iso: kdv
   lgcode: 256
   sort: SENGMAI
+  srcofdata: McCulloch 1859
 - lgid: 2007
   name: Meithei
   abbr: McMa
@@ -14505,6 +16351,7 @@
   iso: mni
   lgcode: 187
   sort: MEITHEI
+  srcofdata: McCulloch 1859
 - lgid: 2008
   name: Chairel
   abbr: McChairel
@@ -14512,6 +16359,7 @@
   source: LB-Cak
   lgcode: 72
   sort: CHAIREL
+  srcofdata: McCulloch 1859
 - lgid: 2009
   name: Akha
   abbr: Akha
@@ -14520,6 +16368,7 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: ILH
 - lgid: 2010
   name: Limbu
   abbr: Limbu
@@ -14625,6 +16474,7 @@
   source: DRM-Tk
   lgcode: 39
   sort: KACHAI
+  srcofdata: Mortensen
 - lgid: 2023
   name: Huishu
   abbr: 2.Huishu
@@ -14632,6 +16482,7 @@
   source: DRM-Tk
   lgcode: 83
   sort: HUISHU
+  srcofdata: Mortensen
 - lgid: 2024
   name: Tusom
   abbr: 3.Tusom
@@ -14639,6 +16490,7 @@
   source: DRM-Tk
   lgcode: 117
   sort: TUSOM
+  srcofdata: Mortensen
   notes: Tones omitted pending verification
 - lgid: 2025
   name: Ukhrul
@@ -14648,6 +16500,7 @@
   iso: nmf
   lgcode: 274
   sort: UKHRUL
+  srcofdata: Bhat, Pettigrew, DRM
   notes: 'DRM: "a mixture of contemporary Ukhrul and the more conservative Standard Tangkhul"'
 - lgid: 2026
   name: Tankghul (Central)
@@ -14656,6 +16509,7 @@
   source: BRO1837
   lgcode: 274
   sort: TANGKHUL C
+  srcofdata: BRO1837
   notes: langid 10 in DRM db
 - lgid: 2027
   name: Tangkhul (Northern)
@@ -14664,6 +16518,7 @@
   source: BRO1837
   lgcode: 274
   sort: TANGKHUL N
+  srcofdata: BRO1837
   notes: langid 11 in DRM db
 - lgid: 2028
   name: Tangkhul (Standard)
@@ -14673,6 +16528,7 @@
   iso: nmf
   lgcode: 274
   sort: TANGKHUL S
+  srcofdata: BRO1837
   notes: langid 12 in DRM db
 - lgid: 2029
   name: Champhung
@@ -14682,6 +16538,7 @@
   iso: nmf
   lgcode: 135
   sort: CHAMPHUNG
+  srcofdata: BRO1837
   notes: langid 13 in DRM db
 - lgid: 2030
   name: Sorbung
@@ -14698,6 +16555,7 @@
   source: DRM-Tk
   lgcode: 157
   sort: '*TANGKHULIC'
+  srcofdata: Mortensen
 - lgid: 2032
   name: '*Tibeto-Burman'
   abbr: 18.PTB
@@ -14705,6 +16563,7 @@
   source: DRM-Tk
   lgcode: 23
   sort: '*TIBETO-BURMAN'
+  srcofdata: HPTB
 - lgid: 2033
   name: Sorbung
   abbr: S.Tangkhul
@@ -14712,6 +16571,7 @@
   source: BRO1837
   lgcode: 136
   sort: SORBUNG
+  srcofdata: BRO1837
   notes: langid 9 in DRM db
 - lgid: 2034
   name: Maring
@@ -14721,6 +16581,7 @@
   iso: nng
   lgcode: 183
   sort: MARING
+  srcofdata: BRO1837
   notes: langid 6 in DRM db
 - lgid: 2035
   name: Khoibu
@@ -14730,6 +16591,7 @@
   iso: nkb
   lgcode: 140
   sort: KHOIBU
+  srcofdata: BRO1837
   notes: langid 7 in DRM db; GEM-CNL says this is a dialect of Maring
 - lgid: 2036
   name: Rongmei / Nruanghmei
@@ -14739,6 +16601,7 @@
   iso: nbu
   lgcode: 248
   sort: RONGMEI
+  srcofdata: BRO1837
   notes: langid 8 in DRM db; Inpui Naga [nkf] ??
 - lgid: 2037
   name: '*Northern Naga'
@@ -14747,6 +16610,7 @@
   source: JAM-HPTB
   lgcode: 18
   sort: '*NAGA (NORTHERN)'
+  srcofdata: WTF-PNN
 - lgid: 2038
   name: '*Karen'
   abbr: PK
@@ -14754,6 +16618,7 @@
   source: TL-PK
   lgcode: 11
   sort: '*KAREN'
+  srcofdata: TL-PK
 - lgid: 2039
   name: '*Karen [Burling]'
   abbr: RB
@@ -14761,6 +16626,7 @@
   source: TL-PK
   lgcode: 11
   sort: '*KAREN'
+  srcofdata: RB-PKR
   notes: from Burling 1969
 - lgid: 2040
   name: Pa-O (Northern)
@@ -14801,6 +16667,7 @@
   iso: bwe
   lgcode: 70
   sort: BWE
+  srcofdata: EJAH-BKD
   notes: from Henderson
 - lgid: 2045
   name: Kayaw
@@ -14906,6 +16773,7 @@
   iso: sxg
   lgcode: 261
   sort: XUMI
+  srcofdata: KC-UXW
   notes: distinct from "Lower Xumi"
 - lgid: 2059
   name: Chinese (Old)
@@ -14953,6 +16821,7 @@
   source: RB-PB
   lgcode: 8
   sort: '*BODO-GARO'
+  srcofdata: RB-PB
 - lgid: 2065
   name: '*Koch'
   abbr: Proto-Koch
@@ -14960,6 +16829,7 @@
   source: RB-PB
   lgcode: 316
   sort: '*KOCH'
+  srcofdata: RB-PB
 - lgid: 2066
   name: '*Garo-Kachari'
   abbr: Proto-Garo-Kachari
@@ -14967,6 +16837,7 @@
   source: RB-PB
   lgcode: 394
   sort: '*GARO-KACHARI'
+  srcofdata: RB-PB
 - lgid: 2067
   name: Daai
   abbr: Daai
@@ -14990,6 +16861,7 @@
   iso: blk
   lgcode: 223
   sort: PA-O
+  srcofdata: D. Solnit
 - lgid: 2070
   name: Pwo
   abbr: Pwo
@@ -14998,6 +16870,7 @@
   iso: pwo
   lgcode: 228
   sort: PWO
+  srcofdata: D. Solnit
 - lgid: 2071
   name: Sgaw
   abbr: Sgaw
@@ -15006,6 +16879,7 @@
   iso: ksw
   lgcode: 257
   sort: SGAW
+  srcofdata: D. Solnit
 - lgid: 2072
   name: Kayah Li
   abbr: EKayah
@@ -15014,6 +16888,7 @@
   iso: eky
   lgcode: 130
   sort: KAYAH
+  srcofdata: D. Solnit
 - lgid: 2073
   name: Kayaw
   abbr: KW
@@ -15022,6 +16897,7 @@
   iso: kvl
   lgcode: 186
   sort: KAYAW
+  srcofdata: D. Solnit
 - lgid: 2074
   name: Blimaw
   abbr: Blimaw
@@ -15029,6 +16905,7 @@
   source: JAM-HPTB
   lgcode: 395
   sort: BLIMAW
+  srcofdata: D. Solnit
   notes: =Bwe?
 - lgid: 2075
   name: Kokborok
@@ -15070,6 +16947,7 @@
   iso: cnh
   lgcode: 156
   sort: LAI
+  srcofdata: KVB??
 - lgid: 2080
   name: Lushai [Mizo]
   abbr: Mizo
@@ -15078,6 +16956,7 @@
   iso: lus
   lgcode: 175
   sort: LUSHAI
+  srcofdata: KVB
 - lgid: 2081
   name: Kulung
   abbr: Kulung
@@ -15110,6 +16989,7 @@
   iso: taj
   lgcode: 270
   sort: TAMANG R
+  srcofdata: Personal communication
 - lgid: 2085
   name: Tamang (Sahu)
   abbr: Tamang Sahu
@@ -15118,6 +16998,7 @@
   iso: tdg
   lgcode: 271
   sort: TAMANG S
+  srcofdata: Personal communication
 - lgid: 2086
   name: Chantyal
   abbr: ChanQ
@@ -15126,6 +17007,7 @@
   iso: chx
   lgcode: 75
   sort: CHANTYAL
+  srcofdata: Personal communication
 - lgid: 2087
   name: Manang
   abbr: Manang
@@ -15134,6 +17016,7 @@
   iso: nmm
   lgcode: 177
   sort: MANANG
+  srcofdata: Personal communication
 - lgid: 2088
   name: Nepali
   abbr: Nep
@@ -15142,6 +17025,7 @@
   iso: nep
   lgcode: 211
   sort: NEPALI
+  srcofdata: Personal communication
 - lgid: 2092
   name: Tagin
   abbr: Tagin
@@ -15150,6 +17034,7 @@
   iso: tgj
   lgcode: 266
   sort: TAGIN
+  srcofdata: '?'
 - lgid: 2093
   name: Khaling
   abbr: Khaling
@@ -15158,6 +17043,7 @@
   iso: klr
   lgcode: 131
   sort: KHALING
+  srcofdata: '?'
 - lgid: 2094
   name: Luquan
   abbr: Lu-Ch'üan
@@ -15165,6 +17051,7 @@
   source: JAM-Quo
   lgcode: 174
   sort: LUQUAN
+  srcofdata: JW-LC
 - lgid: 2095
   name: Bokar
   abbr: Bokar Adi
@@ -15173,6 +17060,7 @@
   iso: adi
   lgcode: 63
   sort: BOKAR
+  srcofdata: '?'
 - lgid: 2097
   name: Chairel
   abbr: Chairel
@@ -15180,6 +17068,7 @@
   source: JAM-HPTB
   lgcode: 72
   sort: CHAIREL
+  srcofdata: '?'
 - lgid: 2098
   name: Lahu (Black)
   abbr: Lh
@@ -15257,6 +17146,7 @@
   iso: kac
   lgcode: 123
   sort: JINGPHO
+  srcofdata: '?'
 - lgid: 2117
   name: Tangkhul
   abbr: Tangkhul
@@ -15265,6 +17155,7 @@
   iso: nmf
   lgcode: 274
   sort: TANGKHUL
+  srcofdata: '?'
 - lgid: 2118
   name: Chinese (Middle)
   abbr: Chinese
@@ -15272,6 +17163,7 @@
   source: JAM-GSTC
   lgcode: 81
   sort: CHINESE (MIDDLE)
+  srcofdata: GSR
 - lgid: 2119
   name: rGyalrong (Aba Rongan Menggucun)
   abbr: 02rong
@@ -15343,6 +17235,7 @@
   iso: nun
   lgcode: 220
   sort: NUNG
+  srcofdata: '?'
 - lgid: 2128
   name: Lakher [Mara]
   abbr: Lakher
@@ -15351,6 +17244,7 @@
   iso: mrh
   lgcode: 159
   sort: LAKHER
+  srcofdata: '?'
 - lgid: 2129
   name: Khaling
   abbr: Khaling
@@ -16093,6 +17987,7 @@
   source: JAM-HPTB
   lgcode: 220
   sort: NUNG
+  srcofdata: TBL?
 - lgid: 2213
   name: Limbu
   abbr: Limbu
@@ -16101,6 +17996,7 @@
   iso: lif
   lgcode: 166
   sort: LIMBU
+  srcofdata: '?'
 - lgid: 2214
   name: Kaman [Miju]
   abbr: Geman
@@ -16109,6 +18005,7 @@
   iso: mxj
   lgcode: 107
   sort: GEMAN
+  srcofdata: '?'
 - lgid: 2215
   name: Lalo
   abbr: Lalo
@@ -16117,6 +18014,7 @@
   iso: ywt
   lgcode: 160
   sort: LALO
+  srcofdata: '?'
 - lgid: 2216
   name: Meithei
   abbr: Meithei
@@ -16158,6 +18056,7 @@
   iso: njh
   lgcode: 172
   sort: LOTHA NAGA
+  srcofdata: LLC-ALV
 - lgid: 2221
   name: Akha
   abbr: Akha
@@ -16166,6 +18065,7 @@
   iso: ahk
   lgcode: 35
   sort: AKHA
+  srcofdata: ILH-PL?
 - lgid: 2222
   name: Rawang (Mvtwang)
   abbr: Rawang
@@ -16237,6 +18137,7 @@
   source: JAM-HPTB
   lgcode: 410
   sort: PUMI D
+  srcofdata: '?'
 - lgid: 2231
   name: Lotha Naga
   abbr: Lotha
@@ -16254,6 +18155,7 @@
   iso: sgk
   lgcode: 253
   sort: SANGKONG
+  srcofdata: '?'
 - lgid: 2236
   name: Tangut [Xixia]
   abbr: Xixia
@@ -16262,6 +18164,7 @@
   iso: txg
   lgcode: 278
   sort: TANGUT
+  srcofdata: GHC-XCS
 - lgid: 2237
   name: Tibetan (Spoken)
   abbr: TibSpoken
@@ -16285,6 +18188,7 @@
   source: JAM-HPTB
   lgcode: 174
   sort: LUQUAN
+  srcofdata: MXL-Lolo?
 - lgid: 2240
   name: Dimasa
   abbr: Dimasa

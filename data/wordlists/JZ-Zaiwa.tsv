@@ -1,136 +1,136 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-44020	1686	Atsi [Zaiwa]	xi⁵¹	xi⁵¹	front	front		1.4.4		0		1214
-44021	1686	Atsi [Zaiwa]	thaŋ⁵¹	thaŋ⁵¹	back (side)	back (side)		1.4.8		0		225
-44022	1686	Atsi [Zaiwa]	loʔ²¹ pa̱i²¹	loʔ²¹ pa̱i²¹	left	left		1.5.3.2		0		695,2154
-44023	1686	Atsi [Zaiwa]	loʔ²¹ jo⁵¹	loʔ²¹ jo⁵¹	right (side)	right (side)		1.5.3.2		0		695,2786
-44024	1686	Atsi [Zaiwa]	a²¹ jam⁵¹	a²¹ jam⁵¹	side	side		1.4.5		0		
-44025	1686	Atsi [Zaiwa]	a²¹ u⁵⁵	a²¹ u⁵⁵	egg	egg				0		p,301
-44026	1686	Atsi [Zaiwa]	tuŋ⁵¹	tuŋ⁵¹	wing	wing		1.5.1.3		0		711
-44027	1686	Atsi [Zaiwa]	ʃŏ²¹ mau⁵⁵	ʃŏ²¹ mau⁵⁵	fur	fur		1.6.1		0		m,363
-44028	1686	Atsi [Zaiwa]	san²¹	san²¹	claw	claw		1.5.10.4		0		
-44029	1686	Atsi [Zaiwa]	khji⁵¹	khji⁵¹	hoof	hoof		1.5.4		0		335
-44030	1686	Atsi [Zaiwa]	khjui⁵¹	khjui⁵¹	horn	horn		1.2.2		0		819
-44031	1686	Atsi [Zaiwa]	ʃŏ²¹ mji²¹	ʃŏ²¹ mji²¹	tail	tail		1.4.10.1		0		34,1288
-44032	1686	Atsi [Zaiwa]	tʃoʔ²¹ pan²¹	tʃoʔ²¹ pan²¹	cockscomb	cockscomb		1.2.2.1		0		1144,2016
-44033	1686	Atsi [Zaiwa]	ŋŏ²¹ tuŋ⁵¹	ŋŏ²¹ tuŋ⁵¹	gills	gills		1.3.5.3		0		
-44034	1686	Atsi [Zaiwa]	ŋŏ²¹ kja̱p⁵⁵	ŋŏ²¹ kja̱p⁵⁵	scales	scales		1.6.5.2		0		1455,783
-44035	1686	Atsi [Zaiwa]	kuŋ⁵¹ tu²¹	kuŋ⁵¹ tu²¹	body	body		1.1.1		0		1,14
-44036	1686	Atsi [Zaiwa]	u²¹ lu̱m²¹	u²¹ lu̱m²¹	head	head		1.2.1		0		385,690
-44037	1686	Atsi [Zaiwa]	ŋĕ²¹ laŋ²¹	ŋĕ²¹ laŋ²¹	forehead	forehead		1.2.5.1		0		356,392
-44038	1686	Atsi [Zaiwa]	u²¹ tsham⁵¹	u²¹ tsham⁵¹	hair (head)	hair (head)		1.2.3		0		385,366
-44039	1686	Atsi [Zaiwa]	tsham⁵¹ pan²¹	tsham⁵¹ pan²¹	braid (hair)	braid (hair)	n	1.2.3.2		0		366,2018
-44040	1686	Atsi [Zaiwa]	u²¹ nuʔ⁵⁵	u²¹ nuʔ⁵⁵	brain	brain		1.2.4		0		385,243
-44041	1686	Atsi [Zaiwa]	mjoʔ²¹ toŋ²¹	mjoʔ²¹ toŋ²¹	face	face		1.2.5		0		681,2031
-44042	1686	Atsi [Zaiwa]	mjoʔ²¹ mui²¹	mjoʔ²¹ mui²¹	eyebrow	eyebrow		1.2.6.6		0		681,363
-44043	1686	Atsi [Zaiwa]	mjoʔ²¹ tʃi⁵⁵	mjoʔ²¹ tʃi⁵⁵	eye	eye		1.2.6		0		681,3559
-44044	1686	Atsi [Zaiwa]	ŋau⁵¹ pji²¹	ŋau⁵¹ pji²¹	tears	tears		1.2.6.7		0		681,187
-44045	1686	Atsi [Zaiwa]	no̱⁵¹	no̱⁵¹	nose	nose		1.2.8		0		803
-44046	1686	Atsi [Zaiwa]	nŏ²¹ phjo²¹	nŏ²¹ phjo²¹	ear	ear		1.2.7		0		811,812
-44047	1686	Atsi [Zaiwa]	nu̱t⁵⁵	nu̱t⁵⁵	mouth	mouth		1.3.1		0		471
-44048	1686	Atsi [Zaiwa]	nu̱t⁵⁵ ku̱ʔ⁵⁵	nu̱t⁵⁵ ku̱ʔ⁵⁵	lip	lip		1.3.2		0		471,586
-44049	1686	Atsi [Zaiwa]	tsui⁵¹	tsui⁵¹	tooth	tooth		1.3.4		0		635
-44050	1686	Atsi [Zaiwa]	ʃo⁵¹	ʃo⁵¹	tongue	tongue		1.3.3		0		623
-44051	1686	Atsi [Zaiwa]	nu̱t⁵⁵ mui²¹	nu̱t⁵⁵ mui²¹	beard	beard		1.2.5.5		0		471,363
-44052	1686	Atsi [Zaiwa]	liŋ⁵¹ tsiŋ²¹	liŋ⁵¹ tsiŋ²¹	neck	neck		1.4.2		0		479,255
-44053	1686	Atsi [Zaiwa]	khjuŋ²¹	khjuŋ²¹	throat	throat		1.3.5		0		489
-44054	1686	Atsi [Zaiwa]	koʔ²¹ san⁵¹	koʔ²¹ san⁵¹	shoulder	shoulder		1.4.3		0		m,3348
-44055	1686	Atsi [Zaiwa]	loʔ²¹	loʔ²¹	hand	hand		1.5.1.1		0		695
-44056	1686	Atsi [Zaiwa]	loʔ²¹ pu⁵⁵	loʔ²¹ pu⁵⁵	arm	arm		1.5.1.2		0		695,1327
-44057	1686	Atsi [Zaiwa]	loʔ²¹ ŋju̱i²¹	loʔ²¹ ŋju̱i²¹	finger	finger		1.5.6		0		695,320
-44058	1686	Atsi [Zaiwa]	loʔ²¹ siŋ²¹	loʔ²¹ siŋ²¹	nail	nail		1.5.10		0		695,512
-44059	1686	Atsi [Zaiwa]	vaŋ⁵¹ kaŋ⁵¹	vaŋ⁵¹ kaŋ⁵¹	chest (of body)	chest (of body)		1.4.4.3		0		288,2000
-44060	1686	Atsi [Zaiwa]	nuŋ⁵¹ khuŋ⁵¹	nuŋ⁵¹ khuŋ⁵¹	back (of body)	back (of body)		1.4.8		0		203,219
-44061	1686	Atsi [Zaiwa]	nau⁵⁵	nau⁵⁵	breast	breast		1.4.4.3		0		253
-44062	1686	Atsi [Zaiwa]	vam²¹	vam²¹	belly	belly		1.4.7		0		137
-44063	1686	Atsi [Zaiwa]	tʃhoʔ⁵⁵	tʃhoʔ⁵⁵	navel	navel		1.9.4		0		525
-44064	1686	Atsi [Zaiwa]	phji²¹ tum²¹	phji²¹ tum²¹	waist	waist		1.4.6		0		1361,1362
-44065	1686	Atsi [Zaiwa]	khji⁵¹	khji⁵¹	foot	foot		1.5.2		0		335
-44066	1686	Atsi [Zaiwa]	ta̱ŋ²¹ pau⁵⁵	ta̱ŋ²¹ pau⁵⁵	thigh	thigh		1.5.7.1		0		
-44067	1686	Atsi [Zaiwa]	khji⁵¹ phut⁵⁵	khji⁵¹ phut⁵⁵	knee	knee		1.5.8.4		0		m,436
-44068	1686	Atsi [Zaiwa]	kă²¹ tʃo̱k⁵⁵ khoŋ²¹	kă²¹ tʃo̱k⁵⁵ khoŋ²¹	armpit	armpit		1.5.1.2.3		0		
-44069	1686	Atsi [Zaiwa]	ʃŏ²¹ ku̱ʔ⁵⁵	ʃŏ²¹ ku̱ʔ⁵⁵	skin	skin		1.6.5		0		34,586
-44070	1686	Atsi [Zaiwa]	ʃŏ²¹ vui²¹	ʃŏ²¹|vui²¹	bone	bone		1.6.3		0		34,232
-44071	1686	Atsi [Zaiwa]	ʃŏ²¹ kji²¹	ʃŏ²¹ kji²¹	muscle	muscle		1.6.6.2		0		34,372
-44072	1686	Atsi [Zaiwa]	sui²¹	sui²¹	blood	blood		1.6.2		0		230
-44073	1686	Atsi [Zaiwa]	khji²¹ pham²¹	khji²¹ pham²¹	stomach	stomach		1.7.6		0		2125,137
-44074	1686	Atsi [Zaiwa]	u⁵¹	u⁵¹	intestines	intestines		1.7.7		0		2102
-44075	1686	Atsi [Zaiwa]	ni̱k⁵⁵ lu̱m²¹	ni̱k⁵⁵ lu̱m²¹	heart	heart		1.7.1		0		1385,1381
-44076	1686	Atsi [Zaiwa]	siŋ²¹	siŋ²¹	liver	liver		1.7.3		0		1390
-44077	1686	Atsi [Zaiwa]	tsu̱t⁵⁵	tsu̱t⁵⁵	lung	lung		1.7.2		0		
-44078	1686	Atsi [Zaiwa]	siŋ²¹ kji̱⁵¹	siŋ²¹ kji̱⁵¹	gall	gall		1.7.3.1		0		1390,227
-44079	1686	Atsi [Zaiwa]	tʃi²¹ poŋ⁵⁵	tʃi²¹ poŋ⁵⁵	bladder	bladder		1.7.8		0		650,778
-44080	1686	Atsi [Zaiwa]	pui⁵¹ pu⁵¹	pui⁵¹ pu⁵¹	sweat	sweat		1.8.1		0		800,m
-44081	1686	Atsi [Zaiwa]	na̱p⁵⁵	na̱p⁵⁵	mucus	mucus		1.8.2		0		805
-44082	1686	Atsi [Zaiwa]	khjuŋ²¹ kjo̱ʔ⁵⁵	khjuŋ²¹ kjo̱ʔ⁵⁵	phlegm	phlegm		1.8.3		0		m,540
-44083	1686	Atsi [Zaiwa]	tʃi̱²¹	tʃi̱²¹	saliva	saliva		1.8.3		0		
-44084	1686	Atsi [Zaiwa]	nau⁵⁵	nau⁵⁵	milk	milk				0		253
-44085	1686	Atsi [Zaiwa]	khji²¹	khji²¹	shit	shit		1.8.5		0		572
-44086	1686	Atsi [Zaiwa]	i²¹	i²¹	urine	urine		1.8.4		0		650
-44087	1686	Atsi [Zaiwa]	pjiŋ⁵¹	pjiŋ⁵¹	ulcer, sore	ulcer, sore		1.8.6.2		0		1292
-44088	1686	Atsi [Zaiwa]	pjiŋ⁵¹ viŋ²¹	pjiŋ⁵¹ viŋ²¹	pus	pus		1.8.6.1		0		1292,m
-44089	1686	Atsi [Zaiwa]	pan²¹	pan²¹	smallpox	smallpox		5.3		0		2153
-44090	1686	Atsi [Zaiwa]	vaŋ²¹	vaŋ²¹	malaria	malaria		5.3		0		
-44091	1686	Atsi [Zaiwa]	mjoʔ²¹ tʃit²¹	mjoʔ²¹ tʃit²¹	blind person	blind person		1.2.6.14.2		0		681,1401
-44092	1686	Atsi [Zaiwa]	nŏ²¹ tʃit²¹	nŏ²¹ tʃit²¹	deaf person	deaf person		1.2.7.5		0		
-44093	1686	Atsi [Zaiwa]	nu̱t⁵⁵ tʃit²¹	nu̱t⁵⁵ tʃit²¹	mute person	mute person		1.5.3.2		0		
-44094	1686	Atsi [Zaiwa]	pju⁵¹ na²¹	pju⁵¹ na²¹	insane person	insane person		8.3.1.11.3		0		
-44095	1686	Atsi [Zaiwa]	khji⁵¹ ʒe̱ʔ⁵⁵	khji⁵¹ ʒe̱ʔ⁵⁵	lame person	lame person		1.5.12		0		
-44096	1686	Atsi [Zaiwa]	tshu⁵¹	tshu⁵¹	oil	oil		1.6.4.1		0		42
-44097	1686	Atsi [Zaiwa]	ʃo²¹	ʃo²¹	meat, flesh	meat, flesh		1.1.1.1		0		34
-44098	1686	Atsi [Zaiwa]	phun⁵⁵	phun⁵⁵	fertilizer	fertilizer		1.9		0	D0	
-44099	1686	Atsi [Zaiwa]	tʃuŋ²¹	tʃuŋ²¹	manure	manure		1.8.5		0		
-44100	1686	Atsi [Zaiwa]	taŋ²¹	taŋ²¹	speech	speech		1.8.7		0		
-44101	1686	Atsi [Zaiwa]	the⁵¹	the⁵¹	sound	sound		9.3		0		
-44102	1686	Atsi [Zaiwa]	ju̱p⁵⁵ moʔ²¹	ju̱p⁵⁵ moʔ²¹	dream	dream		1.1.4.2		0		127,126
-44103	1686	Atsi [Zaiwa]	vup²¹ tso²¹	vup²¹ tso²¹	shadow	shadow		3.2.10		0		
-44104	1686	Atsi [Zaiwa]	nat²¹	nat²¹	spirit	spirit		5.8.1.1		0		160
-44105	1686	Atsi [Zaiwa]	nat²¹	nat²¹	ghost	ghost		4.2.12.2		0		160
-44106	1686	Atsi [Zaiwa]	vu⁵⁵	vu⁵⁵	look at	look at		1.2.6.11		0		m
-44107	1686	Atsi [Zaiwa]	mjaŋ⁵¹	mjaŋ⁵¹	see	see		1.2.6.10		0		1227
-44108	1686	Atsi [Zaiwa]	tʃhum²¹	tʃhum²¹	close (eyes)	close (eyes)		6.2.2.6.2		0		5708
-44109	1686	Atsi [Zaiwa]	kjo²¹	kjo²¹	listen	listen		1.2.7.4		0		1411
-44110	1686	Atsi [Zaiwa]	tso²¹	tso²¹	eat	eat		1.5.3.2		0		36
-44111	1686	Atsi [Zaiwa]	ʃuʔ⁵⁵	ʃuʔ⁵⁵	drink	drink				0		3462
-44112	1686	Atsi [Zaiwa]	ŋat²¹	ŋat²¹	bite	bite		1.3.4.4		0		1761
-44113	1686	Atsi [Zaiwa]	ne̱²¹	ne̱²¹	chew	chew		1.3.4		0		
-44114	1686	Atsi [Zaiwa]	joʔ²¹	joʔ²¹	lick	lick		1.3.3.1		0		629
-44115	1686	Atsi [Zaiwa]	ŋum⁵¹	ŋum⁵¹	hold in mouth	hold in mouth		1.3.4.4		0		
-44116	1686	Atsi [Zaiwa]	khe²¹	khe²¹	gnaw	gnaw		1.3.4.4		0		
-44117	1686	Atsi [Zaiwa]	mji̱⁵¹	mji̱⁵¹	swallow	swallow	v.t.	1.3.5.6		0		627
-44118	1686	Atsi [Zaiwa]	mji̱⁵¹	mji̱⁵¹	swallow	swallow	v.i.	1.3.5.6		0		627
-44119	1686	Atsi [Zaiwa]	pje⁵⁵	pje⁵⁵	spit	spit		1.8.3		0		
-44120	1686	Atsi [Zaiwa]	phat⁵⁵	phat⁵⁵	vomit	vomit		1.8.3.2		0		1145
-44121	1686	Atsi [Zaiwa]	khjuŋ²¹ tsau²¹	khjuŋ²¹ tsau²¹	cough	cough		1.8.3.3		0		
-44122	1686	Atsi [Zaiwa]	mut²¹	mut²¹	blow (with mouth)	blow (with mouth)		1.3.1.4		0		503
-44123	1686	Atsi [Zaiwa]	tai²¹	tai²¹	say	say		1.8.7		0		
-44124	1686	Atsi [Zaiwa]	ŋa̱p⁵⁵	ŋa̱p⁵⁵	read	read		6.2.2.9.3		0		
-44125	1686	Atsi [Zaiwa]	vut²¹	vut²¹	cry out	cry out		1.8.8.2		0		
-44126	1686	Atsi [Zaiwa]	nam⁵¹	nam⁵¹	smell	smell	v	1.2.8.5		0		1415
-44127	1686	Atsi [Zaiwa]	ju̱p⁵⁵	ju̱p⁵⁵	sleep	sleep		1.1.4.1		0		127
-44128	1686	Atsi [Zaiwa]	pun²¹	pun²¹	wake	wake		1.1.4		0		151
-44129	1686	Atsi [Zaiwa]	vui⁵¹	vui⁵¹	laugh	laugh		1.8.8.1		0		1108
-44130	1686	Atsi [Zaiwa]	ŋau⁵¹	ŋau⁵¹	cry, weep	cry, weep		1.8.8.2		0		1104
-44131	1686	Atsi [Zaiwa]	pau²¹	pau²¹	birth, give	birth, give		1.1.2		0		1811
-44132	1686	Atsi [Zaiwa]	vo⁵⁵	vo⁵⁵	birth, give (child)	birth, give  (child)		1.1.2		0		98
-44133	1686	Atsi [Zaiwa]	ko̱²¹	ko̱²¹	grow (up)	grow (up)		9.7.2		0		
-44134	1686	Atsi [Zaiwa]	no⁵¹	no⁵¹	sick	sick	v.	1.1.5.1		0		160
-44135	1686	Atsi [Zaiwa]	nan⁵⁵	nan⁵⁵	shake / shiver	shake / shiver		6.7.9		0		
-44136	1686	Atsi [Zaiwa]	vam²¹	vam²¹	swell up	swell up		1.1.5.2		0		
-44137	1686	Atsi [Zaiwa]	ʃi⁵¹	ʃi⁵¹	die	die		1.1.6		0		27
-44138	1686	Atsi [Zaiwa]	taŋ²¹	taŋ²¹	fly	fly	v	2.2.6		0		
-44139	1686	Atsi [Zaiwa]	vap²¹	vap²¹	bark	bark	v	2.1.11.1		0		
-44140	1686	Atsi [Zaiwa]	tu̱n⁵¹	tu̱n⁵¹	caw, crow	caw, crow		2.2.4.1		0		
-44141	1686	Atsi [Zaiwa]	khjo⁵⁵	khjo⁵⁵	lay (egg)	lay (egg)		6.17		0		
-44142	1686	Atsi [Zaiwa]	up⁵⁵	up⁵⁵	sit on (egg)	sit on (egg)		6.1.1.4.1		0		2767
-44143	1686	Atsi [Zaiwa]	sai⁵⁵	sai⁵⁵	castrate (caponize)	castrate (caponize)		1.9.2.3		0		m
-44144	1686	Atsi [Zaiwa]	mjum⁵¹	mjum⁵¹	fat (person)	fat (person)		1.6.4		0		
-44145	1686	Atsi [Zaiwa]	tshu⁵¹	tshu⁵¹	fat (meat)	fat (meat)		1.6.4		0		42
-44146	1686	Atsi [Zaiwa]	kji⁵⁵	kji⁵⁵	lean (meat)	lean (meat)		1.1.1		0		49
-44147	1686	Atsi [Zaiwa]	kji⁵⁵	kji⁵⁵	lean (person)	lean (person)		1.1.1		0		49
-44148	1686	Atsi [Zaiwa]	kji²¹	kji²¹	full, satiated	full, satiated		1.1.3.2		0		112
-44149	1686	Atsi [Zaiwa]	tso²¹ mut⁵⁵	tso²¹ mut⁵⁵	hungry	hungry		1.1.3		0		m,99
-44150	1686	Atsi [Zaiwa]	vui⁵¹ ʃit⁵⁵	vui⁵¹ ʃit⁵⁵	thirsty	thirsty		1.1.3.1		0		1013,101
-44151	1686	Atsi [Zaiwa]	vut²¹	vut²¹	drunk	drunk		1.3.5.9		0		
-44152	1686	Atsi [Zaiwa]	moi²¹	moi²¹	tired	tired		9.6.2.2		0		
-44153	1686	Atsi [Zaiwa]	jo²¹	jo²¹	itchy	itchy		1.6.5.5		0		1456
-44154	1686	Atsi [Zaiwa]	no⁵¹	no⁵¹	painful	painful		1.1.5.1		0		160
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+44020	1686	Atsi [Zaiwa]	xi⁵¹	xi⁵¹	front	front			1.4.4		0			1214
+44021	1686	Atsi [Zaiwa]	thaŋ⁵¹	thaŋ⁵¹	back (side)	back (side)			1.4.8		0			225
+44022	1686	Atsi [Zaiwa]	loʔ²¹ pa̱i²¹	loʔ²¹ pa̱i²¹	left	left			1.5.3.2		0			695,2154
+44023	1686	Atsi [Zaiwa]	loʔ²¹ jo⁵¹	loʔ²¹ jo⁵¹	right (side)	right (side)			1.5.3.2		0			695,2786
+44024	1686	Atsi [Zaiwa]	a²¹ jam⁵¹	a²¹ jam⁵¹	side	side			1.4.5		0			
+44025	1686	Atsi [Zaiwa]	a²¹ u⁵⁵	a²¹ u⁵⁵	egg	egg					0			p,301
+44026	1686	Atsi [Zaiwa]	tuŋ⁵¹	tuŋ⁵¹	wing	wing			1.5.1.3		0			711
+44027	1686	Atsi [Zaiwa]	ʃŏ²¹ mau⁵⁵	ʃŏ²¹ mau⁵⁵	fur	fur			1.6.1		0			m,363
+44028	1686	Atsi [Zaiwa]	san²¹	san²¹	claw	claw			1.5.10.4		0			
+44029	1686	Atsi [Zaiwa]	khji⁵¹	khji⁵¹	hoof	hoof			1.5.4		0			335
+44030	1686	Atsi [Zaiwa]	khjui⁵¹	khjui⁵¹	horn	horn			1.2.2		0			819
+44031	1686	Atsi [Zaiwa]	ʃŏ²¹ mji²¹	ʃŏ²¹ mji²¹	tail	tail			1.4.10.1		0			34,1288
+44032	1686	Atsi [Zaiwa]	tʃoʔ²¹ pan²¹	tʃoʔ²¹ pan²¹	cockscomb	cockscomb			1.2.2.1		0			1144,2016
+44033	1686	Atsi [Zaiwa]	ŋŏ²¹ tuŋ⁵¹	ŋŏ²¹ tuŋ⁵¹	gills	gills			1.3.5.3		0			
+44034	1686	Atsi [Zaiwa]	ŋŏ²¹ kja̱p⁵⁵	ŋŏ²¹ kja̱p⁵⁵	scales	scales			1.6.5.2		0			1455,783
+44035	1686	Atsi [Zaiwa]	kuŋ⁵¹ tu²¹	kuŋ⁵¹ tu²¹	body	body			1.1.1		0			1,14
+44036	1686	Atsi [Zaiwa]	u²¹ lu̱m²¹	u²¹ lu̱m²¹	head	head			1.2.1		0			385,690
+44037	1686	Atsi [Zaiwa]	ŋĕ²¹ laŋ²¹	ŋĕ²¹ laŋ²¹	forehead	forehead			1.2.5.1		0			356,392
+44038	1686	Atsi [Zaiwa]	u²¹ tsham⁵¹	u²¹ tsham⁵¹	hair (head)	hair (head)			1.2.3		0			385,366
+44039	1686	Atsi [Zaiwa]	tsham⁵¹ pan²¹	tsham⁵¹ pan²¹	braid (hair)	braid (hair)	n	n	1.2.3.2		0			366,2018
+44040	1686	Atsi [Zaiwa]	u²¹ nuʔ⁵⁵	u²¹ nuʔ⁵⁵	brain	brain			1.2.4		0			385,243
+44041	1686	Atsi [Zaiwa]	mjoʔ²¹ toŋ²¹	mjoʔ²¹ toŋ²¹	face	face			1.2.5		0			681,2031
+44042	1686	Atsi [Zaiwa]	mjoʔ²¹ mui²¹	mjoʔ²¹ mui²¹	eyebrow	eyebrow			1.2.6.6		0			681,363
+44043	1686	Atsi [Zaiwa]	mjoʔ²¹ tʃi⁵⁵	mjoʔ²¹ tʃi⁵⁵	eye	eye			1.2.6		0			681,3559
+44044	1686	Atsi [Zaiwa]	ŋau⁵¹ pji²¹	ŋau⁵¹ pji²¹	tears	tears			1.2.6.7		0			681,187
+44045	1686	Atsi [Zaiwa]	no̱⁵¹	no̱⁵¹	nose	nose			1.2.8		0			803
+44046	1686	Atsi [Zaiwa]	nŏ²¹ phjo²¹	nŏ²¹ phjo²¹	ear	ear			1.2.7		0			811,812
+44047	1686	Atsi [Zaiwa]	nu̱t⁵⁵	nu̱t⁵⁵	mouth	mouth			1.3.1		0			471
+44048	1686	Atsi [Zaiwa]	nu̱t⁵⁵ ku̱ʔ⁵⁵	nu̱t⁵⁵ ku̱ʔ⁵⁵	lip	lip			1.3.2		0			471,586
+44049	1686	Atsi [Zaiwa]	tsui⁵¹	tsui⁵¹	tooth	tooth			1.3.4		0			635
+44050	1686	Atsi [Zaiwa]	ʃo⁵¹	ʃo⁵¹	tongue	tongue			1.3.3		0			623
+44051	1686	Atsi [Zaiwa]	nu̱t⁵⁵ mui²¹	nu̱t⁵⁵ mui²¹	beard	beard			1.2.5.5		0			471,363
+44052	1686	Atsi [Zaiwa]	liŋ⁵¹ tsiŋ²¹	liŋ⁵¹ tsiŋ²¹	neck	neck			1.4.2		0			479,255
+44053	1686	Atsi [Zaiwa]	khjuŋ²¹	khjuŋ²¹	throat	throat			1.3.5		0			489
+44054	1686	Atsi [Zaiwa]	koʔ²¹ san⁵¹	koʔ²¹ san⁵¹	shoulder	shoulder			1.4.3		0			m,3348
+44055	1686	Atsi [Zaiwa]	loʔ²¹	loʔ²¹	hand	hand			1.5.1.1		0			695
+44056	1686	Atsi [Zaiwa]	loʔ²¹ pu⁵⁵	loʔ²¹ pu⁵⁵	arm	arm			1.5.1.2		0			695,1327
+44057	1686	Atsi [Zaiwa]	loʔ²¹ ŋju̱i²¹	loʔ²¹ ŋju̱i²¹	finger	finger			1.5.6		0			695,320
+44058	1686	Atsi [Zaiwa]	loʔ²¹ siŋ²¹	loʔ²¹ siŋ²¹	nail	nail			1.5.10		0			695,512
+44059	1686	Atsi [Zaiwa]	vaŋ⁵¹ kaŋ⁵¹	vaŋ⁵¹ kaŋ⁵¹	chest (of body)	chest (of body)			1.4.4.3		0			288,2000
+44060	1686	Atsi [Zaiwa]	nuŋ⁵¹ khuŋ⁵¹	nuŋ⁵¹ khuŋ⁵¹	back (of body)	back (of body)			1.4.8		0			203,219
+44061	1686	Atsi [Zaiwa]	nau⁵⁵	nau⁵⁵	breast	breast			1.4.4.3		0			253
+44062	1686	Atsi [Zaiwa]	vam²¹	vam²¹	belly	belly			1.4.7		0			137
+44063	1686	Atsi [Zaiwa]	tʃhoʔ⁵⁵	tʃhoʔ⁵⁵	navel	navel			1.9.4		0			525
+44064	1686	Atsi [Zaiwa]	phji²¹ tum²¹	phji²¹ tum²¹	waist	waist			1.4.6		0			1361,1362
+44065	1686	Atsi [Zaiwa]	khji⁵¹	khji⁵¹	foot	foot			1.5.2		0			335
+44066	1686	Atsi [Zaiwa]	ta̱ŋ²¹ pau⁵⁵	ta̱ŋ²¹ pau⁵⁵	thigh	thigh			1.5.7.1		0			
+44067	1686	Atsi [Zaiwa]	khji⁵¹ phut⁵⁵	khji⁵¹ phut⁵⁵	knee	knee			1.5.8.4		0			m,436
+44068	1686	Atsi [Zaiwa]	kă²¹ tʃo̱k⁵⁵ khoŋ²¹	kă²¹ tʃo̱k⁵⁵ khoŋ²¹	armpit	armpit			1.5.1.2.3		0			
+44069	1686	Atsi [Zaiwa]	ʃŏ²¹ ku̱ʔ⁵⁵	ʃŏ²¹ ku̱ʔ⁵⁵	skin	skin			1.6.5		0			34,586
+44070	1686	Atsi [Zaiwa]	ʃŏ²¹ vui²¹	ʃŏ²¹|vui²¹	bone	bone			1.6.3		0			34,232
+44071	1686	Atsi [Zaiwa]	ʃŏ²¹ kji²¹	ʃŏ²¹ kji²¹	muscle	muscle			1.6.6.2		0			34,372
+44072	1686	Atsi [Zaiwa]	sui²¹	sui²¹	blood	blood			1.6.2		0			230
+44073	1686	Atsi [Zaiwa]	khji²¹ pham²¹	khji²¹ pham²¹	stomach	stomach			1.7.6		0			2125,137
+44074	1686	Atsi [Zaiwa]	u⁵¹	u⁵¹	intestines	intestines			1.7.7		0			2102
+44075	1686	Atsi [Zaiwa]	ni̱k⁵⁵ lu̱m²¹	ni̱k⁵⁵ lu̱m²¹	heart	heart			1.7.1		0			1385,1381
+44076	1686	Atsi [Zaiwa]	siŋ²¹	siŋ²¹	liver	liver			1.7.3		0			1390
+44077	1686	Atsi [Zaiwa]	tsu̱t⁵⁵	tsu̱t⁵⁵	lung	lung			1.7.2		0			
+44078	1686	Atsi [Zaiwa]	siŋ²¹ kji̱⁵¹	siŋ²¹ kji̱⁵¹	gall	gall			1.7.3.1		0			1390,227
+44079	1686	Atsi [Zaiwa]	tʃi²¹ poŋ⁵⁵	tʃi²¹ poŋ⁵⁵	bladder	bladder			1.7.8		0			650,778
+44080	1686	Atsi [Zaiwa]	pui⁵¹ pu⁵¹	pui⁵¹ pu⁵¹	sweat	sweat			1.8.1		0			800,m
+44081	1686	Atsi [Zaiwa]	na̱p⁵⁵	na̱p⁵⁵	mucus	mucus			1.8.2		0			805
+44082	1686	Atsi [Zaiwa]	khjuŋ²¹ kjo̱ʔ⁵⁵	khjuŋ²¹ kjo̱ʔ⁵⁵	phlegm	phlegm			1.8.3		0			m,540
+44083	1686	Atsi [Zaiwa]	tʃi̱²¹	tʃi̱²¹	saliva	saliva			1.8.3		0			
+44084	1686	Atsi [Zaiwa]	nau⁵⁵	nau⁵⁵	milk	milk					0			253
+44085	1686	Atsi [Zaiwa]	khji²¹	khji²¹	shit	shit			1.8.5		0			572
+44086	1686	Atsi [Zaiwa]	i²¹	i²¹	urine	urine			1.8.4		0			650
+44087	1686	Atsi [Zaiwa]	pjiŋ⁵¹	pjiŋ⁵¹	ulcer, sore	ulcer, sore			1.8.6.2		0			1292
+44088	1686	Atsi [Zaiwa]	pjiŋ⁵¹ viŋ²¹	pjiŋ⁵¹ viŋ²¹	pus	pus			1.8.6.1		0			1292,m
+44089	1686	Atsi [Zaiwa]	pan²¹	pan²¹	smallpox	smallpox			5.3		0			2153
+44090	1686	Atsi [Zaiwa]	vaŋ²¹	vaŋ²¹	malaria	malaria			5.3		0			
+44091	1686	Atsi [Zaiwa]	mjoʔ²¹ tʃit²¹	mjoʔ²¹ tʃit²¹	blind person	blind person			1.2.6.14.2		0			681,1401
+44092	1686	Atsi [Zaiwa]	nŏ²¹ tʃit²¹	nŏ²¹ tʃit²¹	deaf person	deaf person			1.2.7.5		0			
+44093	1686	Atsi [Zaiwa]	nu̱t⁵⁵ tʃit²¹	nu̱t⁵⁵ tʃit²¹	mute person	mute person			1.5.3.2		0			
+44094	1686	Atsi [Zaiwa]	pju⁵¹ na²¹	pju⁵¹ na²¹	insane person	insane person			8.3.1.11.3		0			
+44095	1686	Atsi [Zaiwa]	khji⁵¹ ʒe̱ʔ⁵⁵	khji⁵¹ ʒe̱ʔ⁵⁵	lame person	lame person			1.5.12		0			
+44096	1686	Atsi [Zaiwa]	tshu⁵¹	tshu⁵¹	oil	oil			1.6.4.1		0			42
+44097	1686	Atsi [Zaiwa]	ʃo²¹	ʃo²¹	meat, flesh	meat, flesh			1.1.1.1		0			34
+44098	1686	Atsi [Zaiwa]	phun⁵⁵	phun⁵⁵	fertilizer	fertilizer			1.9		0		D0	
+44099	1686	Atsi [Zaiwa]	tʃuŋ²¹	tʃuŋ²¹	manure	manure			1.8.5		0			
+44100	1686	Atsi [Zaiwa]	taŋ²¹	taŋ²¹	speech	speech			1.8.7		0			
+44101	1686	Atsi [Zaiwa]	the⁵¹	the⁵¹	sound	sound			9.3		0			
+44102	1686	Atsi [Zaiwa]	ju̱p⁵⁵ moʔ²¹	ju̱p⁵⁵ moʔ²¹	dream	dream			1.1.4.2		0			127,126
+44103	1686	Atsi [Zaiwa]	vup²¹ tso²¹	vup²¹ tso²¹	shadow	shadow			3.2.10		0			
+44104	1686	Atsi [Zaiwa]	nat²¹	nat²¹	spirit	spirit			5.8.1.1		0			160
+44105	1686	Atsi [Zaiwa]	nat²¹	nat²¹	ghost	ghost			4.2.12.2		0			160
+44106	1686	Atsi [Zaiwa]	vu⁵⁵	vu⁵⁵	look at	look at			1.2.6.11		0			m
+44107	1686	Atsi [Zaiwa]	mjaŋ⁵¹	mjaŋ⁵¹	see	see			1.2.6.10		0			1227
+44108	1686	Atsi [Zaiwa]	tʃhum²¹	tʃhum²¹	close (eyes)	close (eyes)			6.2.2.6.2		0			5708
+44109	1686	Atsi [Zaiwa]	kjo²¹	kjo²¹	listen	listen			1.2.7.4		0			1411
+44110	1686	Atsi [Zaiwa]	tso²¹	tso²¹	eat	eat			1.5.3.2		0			36
+44111	1686	Atsi [Zaiwa]	ʃuʔ⁵⁵	ʃuʔ⁵⁵	drink	drink					0			3462
+44112	1686	Atsi [Zaiwa]	ŋat²¹	ŋat²¹	bite	bite			1.3.4.4		0			1761
+44113	1686	Atsi [Zaiwa]	ne̱²¹	ne̱²¹	chew	chew			1.3.4		0			
+44114	1686	Atsi [Zaiwa]	joʔ²¹	joʔ²¹	lick	lick			1.3.3.1		0			629
+44115	1686	Atsi [Zaiwa]	ŋum⁵¹	ŋum⁵¹	hold in mouth	hold in mouth			1.3.4.4		0			
+44116	1686	Atsi [Zaiwa]	khe²¹	khe²¹	gnaw	gnaw			1.3.4.4		0			
+44117	1686	Atsi [Zaiwa]	mji̱⁵¹	mji̱⁵¹	swallow	swallow	v.t.	v.t.	1.3.5.6		0			627
+44118	1686	Atsi [Zaiwa]	mji̱⁵¹	mji̱⁵¹	swallow	swallow	v.i.	v.i.	1.3.5.6		0			627
+44119	1686	Atsi [Zaiwa]	pje⁵⁵	pje⁵⁵	spit	spit			1.8.3		0			
+44120	1686	Atsi [Zaiwa]	phat⁵⁵	phat⁵⁵	vomit	vomit			1.8.3.2		0			1145
+44121	1686	Atsi [Zaiwa]	khjuŋ²¹ tsau²¹	khjuŋ²¹ tsau²¹	cough	cough			1.8.3.3		0			
+44122	1686	Atsi [Zaiwa]	mut²¹	mut²¹	blow (with mouth)	blow (with mouth)			1.3.1.4		0			503
+44123	1686	Atsi [Zaiwa]	tai²¹	tai²¹	say	say			1.8.7		0			
+44124	1686	Atsi [Zaiwa]	ŋa̱p⁵⁵	ŋa̱p⁵⁵	read	read			6.2.2.9.3		0			
+44125	1686	Atsi [Zaiwa]	vut²¹	vut²¹	cry out	cry out			1.8.8.2		0			
+44126	1686	Atsi [Zaiwa]	nam⁵¹	nam⁵¹	smell	smell	v	v	1.2.8.5		0			1415
+44127	1686	Atsi [Zaiwa]	ju̱p⁵⁵	ju̱p⁵⁵	sleep	sleep			1.1.4.1		0			127
+44128	1686	Atsi [Zaiwa]	pun²¹	pun²¹	wake	wake			1.1.4		0			151
+44129	1686	Atsi [Zaiwa]	vui⁵¹	vui⁵¹	laugh	laugh			1.8.8.1		0			1108
+44130	1686	Atsi [Zaiwa]	ŋau⁵¹	ŋau⁵¹	cry, weep	cry, weep			1.8.8.2		0			1104
+44131	1686	Atsi [Zaiwa]	pau²¹	pau²¹	birth, give	birth, give			1.1.2		0			1811
+44132	1686	Atsi [Zaiwa]	vo⁵⁵	vo⁵⁵	birth, give (child)	birth, give  (child)			1.1.2		0	jbl3		98
+44133	1686	Atsi [Zaiwa]	ko̱²¹	ko̱²¹	grow (up)	grow (up)			9.7.2		0			
+44134	1686	Atsi [Zaiwa]	no⁵¹	no⁵¹	sick	sick	v.	v.	1.1.5.1		0			160
+44135	1686	Atsi [Zaiwa]	nan⁵⁵	nan⁵⁵	shake / shiver	shake / shiver			6.7.9		0			
+44136	1686	Atsi [Zaiwa]	vam²¹	vam²¹	swell up	swell up			1.1.5.2		0			
+44137	1686	Atsi [Zaiwa]	ʃi⁵¹	ʃi⁵¹	die	die			1.1.6		0			27
+44138	1686	Atsi [Zaiwa]	taŋ²¹	taŋ²¹	fly	fly	v	v	2.2.6		0			
+44139	1686	Atsi [Zaiwa]	vap²¹	vap²¹	bark	bark	v	v	2.1.11.1		0			
+44140	1686	Atsi [Zaiwa]	tu̱n⁵¹	tu̱n⁵¹	caw, crow	caw, crow			2.2.4.1		0			
+44141	1686	Atsi [Zaiwa]	khjo⁵⁵	khjo⁵⁵	lay (egg)	lay (egg)			6.17		0			
+44142	1686	Atsi [Zaiwa]	up⁵⁵	up⁵⁵	sit on (egg)	sit on (egg)			6.1.1.4.1		0			2767
+44143	1686	Atsi [Zaiwa]	sai⁵⁵	sai⁵⁵	castrate (caponize)	castrate (caponize)			1.9.2.3		0			m
+44144	1686	Atsi [Zaiwa]	mjum⁵¹	mjum⁵¹	fat (person)	fat (person)			1.6.4		0			
+44145	1686	Atsi [Zaiwa]	tshu⁵¹	tshu⁵¹	fat (meat)	fat (meat)			1.6.4		0			42
+44146	1686	Atsi [Zaiwa]	kji⁵⁵	kji⁵⁵	lean (meat)	lean (meat)			1.1.1		0			49
+44147	1686	Atsi [Zaiwa]	kji⁵⁵	kji⁵⁵	lean (person)	lean (person)			1.1.1		0			49
+44148	1686	Atsi [Zaiwa]	kji²¹	kji²¹	full, satiated	full, satiated			1.1.3.2		0			112
+44149	1686	Atsi [Zaiwa]	tso²¹ mut⁵⁵	tso²¹ mut⁵⁵	hungry	hungry			1.1.3		0			m,99
+44150	1686	Atsi [Zaiwa]	vui⁵¹ ʃit⁵⁵	vui⁵¹ ʃit⁵⁵	thirsty	thirsty			1.1.3.1		0			1013,101
+44151	1686	Atsi [Zaiwa]	vut²¹	vut²¹	drunk	drunk			1.3.5.9		0			
+44152	1686	Atsi [Zaiwa]	moi²¹	moi²¹	tired	tired			9.6.2.2		0			
+44153	1686	Atsi [Zaiwa]	jo²¹	jo²¹	itchy	itchy			1.6.5.5		0			1456
+44154	1686	Atsi [Zaiwa]	no⁵¹	no⁵¹	painful	painful			1.1.5.1		0			160

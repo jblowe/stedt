@@ -1,183 +1,183 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-169000	1095	Tsangla (Central)	lus◦pu	luspu	body	body		1.1.1	1	0		11,1902
-169001	1095	Tsangla (Central)	sha◦rang	sharang	head	head		1.2.1	2	0		m,392
-169002	1095	Tsangla (Central)	tsham	tsham	hair	hair		1.2.3	3	0		366
-169003	1095	Tsangla (Central)	zu	zu	face	face		1.2.5	4	0		
-169004	1095	Tsangla (Central)	ming	ming	eye	eye		1.2.6	5	0		682
-169005	1095	Tsangla (Central)	na	na	ear	ear		1.2.7	6	0		811
-169006	1095	Tsangla (Central)	na◦wung	na◦wung	nose	nose		1.2.8	7	0		803,806
-169007	1095	Tsangla (Central)	nu◦wang	nu◦wang	mouth	mouth		1.3.1	8	0		470,476
-169008	1095	Tsangla (Central)	sha	sha	tooth	tooth		1.3.4	9	0		632
-169009	1095	Tsangla (Central)	le	le	tongue	tongue		1.3.3	10	0		621
-169010	1095	Tsangla (Central)	nu◦ma	nu◦ma	breast (woman's)	breast (woman's)		1.4.4.3	11	0		253,s
-169011	1095	Tsangla (Central)	pho◦lang	pho◦lang	belly	belly		1.4.7	12	0		2103,3460
-169012	1095	Tsangla (Central)	gadang-gure	gadang-gure	arm	arm		1.5.1.2	13	0		720
-169013	1095	Tsangla (Central)	nyizing	nyizing	elbow	elbow		1.5.8.3	14	0		
-169014	1095	Tsangla (Central)	gadang-wung	gadang-wung	palm	palm		1.5.5	15	0	D0	
-169015	1095	Tsangla (Central)	gadang-bruma	gadang-bruma	finger	finger		1.5.6	16	0		
-169016	1095	Tsangla (Central)	tsingnang	tsingnang	nail	nail		1.5.10	17	0		
-169017	1095	Tsangla (Central)	bi	bi	leg	leg		1.5.7	18	0		343
-169018	1095	Tsangla (Central)	mong◦nang	mong◦nang	skin	skin		1.6.5	19	0		54,m
-169019	1095	Tsangla (Central)	khang	khang	bone	bone		1.6.3	20	0		
-169020	1095	Tsangla (Central)	thing◦lom	thing◦lom	heart	heart		1.7.1	21	0		1387,1381
-169021	1095	Tsangla (Central)	yi	yi	blood	blood		1.6.2	22	0		230
-169022	1095	Tsangla (Central)	chhe◦rang	chherang	urine	urine		1.8.4	23	0		650,1731
-169023	1095	Tsangla (Central)	khi	khi	feces	feces		1.8.5	24	0		572
-169024	1095	Tsangla (Central)	dung	dung	village	village		5.8	25	0		
-169025	1095	Tsangla (Central)	phai	phai	house	house		5.11.9.1	26	0		
-169026	1095	Tsangla (Central)	bungnang	bungnang	roof	roof		5.11.9	27	0		
-169027	1095	Tsangla (Central)	ko	ko	door	door		5.11.9.3	28	0		
-169028	1095	Tsangla (Central)	miga-shing	miga-shing	firewood	firewood		5.11.5.5	29	0		m,2658
-169029	1095	Tsangla (Central)	brang◦phak◦tsam	brang◦phak◦tsam	broom	broom		5.4	30	0		m,2587,m
-169030	1095	Tsangla (Central)	toktsing-lung	toktsing-lung	mortar	mortar		5.5	31	0		
-169031	1095	Tsangla (Central)	toktsing	toktsing	pestle	pestle		5.5	32	0		
-169032	1095	Tsangla (Central)	thong	thong	hammer	hammer		5.11.5.4	33	0		
-169033	1095	Tsangla (Central)	khachhi	khachhi	knife	knife		5.5	34	0		
-169034	1095	Tsangla (Central)	bengra	bengra	axe	axe		5.11.5.3	35	0		
-169035	1095	Tsangla (Central)	rongshom	rongshom	rope	rope		5.11.4	36	0		
-169036	1095	Tsangla (Central)	kutpa	kutpa	thread	thread		5.11.6	37	0		
-169037	1095	Tsangla (Central)	khap	khap	needle	needle		5.1	38	0		
-169038	1095	Tsangla (Central)	khamung	khamung	cloth	cloth		5.1	39	0		
-169039	1095	Tsangla (Central)	tsedum	tsedum	ring	ring		5.11.8.3	40	0		
-169040	1095	Tsangla (Central)	ngam	ngam	sun	sun		3.2.10	41	0		2484
-169041	1095	Tsangla (Central)	la◦nyi-ngam	lanyi-ngam	moon	moon		3.2.2	42	0		1016,m,m
-169042	1095	Tsangla (Central)	ngam	ngam	sky	sky		3.2.2	43	0		2484
-169043	1095	Tsangla (Central)	kar◦ma	kar◦ma	star	star		3.2.2	44	0		2300,s
-169044	1095	Tsangla (Central)	ngam◦su	ngam◦su	rain	rain		3.2.1	45	0		2484,2080
-169045	1095	Tsangla (Central)	ri	ri	water	water		3.2.3	46	0		1013
-169046	1095	Tsangla (Central)	ri	ri	river	river		3.2.3	47	0		
-169047	1095	Tsangla (Central)	muk◦pa	muk◦pa	cloud	cloud		3.2.1	48	0		2465,s
-169048	1095	Tsangla (Central)	namcha-khena	namcha-khena	lightning	lightning		3.2.1	49	0		
-169049	1095	Tsangla (Central)	jang-shar◦la	jang-sharla	rainbow	rainbow		3.2.1	50	0		6007,m,m
-169050	1095	Tsangla (Central)	ridi	ridi	wind	wind		3.2.1	51	0		
-169051	1095	Tsangla (Central)	lung	lung	stone	stone		3.2.9	52	0		1269
-169052	1095	Tsangla (Central)	lam	lam	path	path		9.10.1	53	0		1017
-169053	1095	Tsangla (Central)	betsa	betsa	sand	sand		3.2.11	54	0		
-169054	1095	Tsangla (Central)	mi	mi	fire	fire		3.2.12.2	55	0		
-169055	1095	Tsangla (Central)	mu◦gu	mugu	smoke	smoke		3.2.12.2	56	0		2136,2361
-169056	1095	Tsangla (Central)	thulu	thulu	ash	ash		3.2.12.2	57	0		
-169057	1095	Tsangla (Central)	jintsang	jintsang	mud	mud		3.2.11	58	0		
-169058	1095	Tsangla (Central)	phurtsi	phurtsi	dust	dust		3.2.11	59	0		
-169059	1095	Tsangla (Central)	ser	ser	gold	gold		3.2.4	60	0		
-169060	1095	Tsangla (Central)	shing	shing	tree	tree		3.1.2	61	0		2658
-169061	1095	Tsangla (Central)	shing-shaba	shing-shaba	leaf	leaf		3.1.3	62	0		2658,m
-169062	1095	Tsangla (Central)	shing-tsa	shing-tsa	root	root		3.1.2	63a	0		2658,m
-169063	1095	Tsangla (Central)	rachi	rachi	root	root		3.1.2	63b	0		
-169064	1095	Tsangla (Central)	tsang	tsang	thorn	thorn		3.1.2	64a	0		
-169065	1095	Tsangla (Central)	zu	zu	thorn	thorn		3.1.2	64b	0		
-169066	1095	Tsangla (Central)	meto	meto	flower	flower		3.1.4	65	0		
-169067	1095	Tsangla (Central)	se	se	fruit	fruit		3.1.5	66	0		
-169068	1095	Tsangla (Central)	am-chukuli	am-chukuli	mango	mango			67	0		
-169069	1095	Tsangla (Central)	laisi	laisi	banana	banana		3.1.5	68	0		
-169070	1095	Tsangla (Central)	phemung	phemung	wheat (white)	wheat (white)		3.1.4	69a	0		
-169071	1095	Tsangla (Central)	bong	bong	wheat (dark)	wheat (dark)		3.1.4	69b	0		
-169072	1095	Tsangla (Central)	kongpu	kongpu	millet	millet		1.5.3.2	70	0		
-169073	1095	Tsangla (Central)	khu	khu	rice	rice		3.1.4	71	0		5817
-169074	1095	Tsangla (Central)	joktang	joktang	potato	potato		3.1.5	72	0		
-169075	1095	Tsangla (Central)	bantho	bantho	eggplant	eggplant		3.1.5	73	0		b
-169076	1095	Tsangla (Central)	badam	badam	groundnut	groundnut		3.1.4	74	0		
-169077	1095	Tsangla (Central)	solo	solo	chili	chili		3.1.5	75	0		
-169078	1095	Tsangla (Central)	jung	jung	tumeric	tumeric		3.1.6.1	76	0		
-169079	1095	Tsangla (Central)	lam	lam	garlic	garlic		3.1.5	77	0		
-169080	1095	Tsangla (Central)	kok◦pa	kokpa	onion	onion		3.1.5	78	0		
-169081	1095	Tsangla (Central)	lambenda	lambenda	tomato	tomato		3.1.5	79	0		
-169082	1095	Tsangla (Central)	kopi	kopi	cabbage	cabbage		3.1.5.1	80	0		bIndic
-169083	1095	Tsangla (Central)	si	si	oil	oil		1.6.4.1	81	0		48
-169084	1095	Tsangla (Central)	in◦chha	in◦chha	salt	salt		3.2.4	82	0		m,2729
-169085	1095	Tsangla (Central)	sha	sha	meat	meat		1.1.1.1	83	0		34
-169086	1095	Tsangla (Central)	yan	yan	fat	fat		1.6.4	84	0		
-169087	1095	Tsangla (Central)	nga	nga	fish	fish		2.2.5	85	0		1455
-169088	1095	Tsangla (Central)	go◦ga	go◦ga	chicken	chicken		2.1.10	86	0		
-169089	1095	Tsangla (Central)	go◦tham	go◦tham	egg	egg			87	0		305,646
-169090	1095	Tsangla (Central)	wa	wa	cow	cow		2.1.2	88	0		
-169091	1095	Tsangla (Central)	brung	brung	buffalo	buffalo		2.1.2	89	0		2170
-169092	1095	Tsangla (Central)	nu	nu	milk	milk			90	0		253
-169093	1095	Tsangla (Central)	wa◦rong	wa◦rong	horn	horn		1.2.2	91	0		m,814
-169094	1095	Tsangla (Central)	sham=pi	sham=pi	tail	tail		1.4.10.1	92	0		m,1361
-169095	1095	Tsangla (Central)	ra◦ba	ra◦ba	goat	goat		2.1.8	93	0		6031,m
-169096	1095	Tsangla (Central)	khu	khu	dog	dog		2.1.11	94	0		1764
-169097	1095	Tsangla (Central)	bu◦chhi◦la	bu◦chhi◦la	snake	snake		2.1.6.1	95	0		2623,m,m
-169098	1095	Tsangla (Central)	zala	zala	monkey	monkey		2.1.9	96	0		
-169099	1095	Tsangla (Central)	trongchung	trongchung	mosquito	mosquito		2.2.6	97	0		
-169100	1095	Tsangla (Central)	khangjila	khangjila	ant	ant		2.2.6	98	0		
-169101	1095	Tsangla (Central)	shongbu	shongbu	spider	spider		2.2.6	99	0		
-169102	1095	Tsangla (Central)	ming	ming	name	name		5.8	100	0		2450
-169103	1095	Tsangla (Central)	songo	songo	man / person	man / person		1.9.6.1	101a	0		
-169104	1095	Tsangla (Central)	pheaktsa	pheaktsa	person	person		4.5	101b	0		
-169105	1095	Tsangla (Central)	meaktsa	meaktsa	woman	woman		1.9.3	102	0		
-169106	1095	Tsangla (Central)	waktsa	waktsa	child	child		1.5.3.2	103	0		
-169107	1095	Tsangla (Central)	apa	apa	father	father		4.7.1	104	0		
-169108	1095	Tsangla (Central)	ama	ama	mother	mother		4.7.1	105	0		
-169109	1095	Tsangla (Central)	ata	ata	older brother	older brother			106	0		
-169110	1095	Tsangla (Central)	kota	kota	younger brother	younger brother			107	0		
-169111	1095	Tsangla (Central)	ana	ana	older sister	older sister			108	0		
-169112	1095	Tsangla (Central)	usa	usa	younger sister	younger sister			109	0		
-169113	1095	Tsangla (Central)	za	za	son	son		4.7.3	110	0		
-169114	1095	Tsangla (Central)	zamin	zamin	daughter	daughter		4.7.3	111	0		
-169115	1095	Tsangla (Central)	pheaktsa	pheaktsa	husband	husband		4.7.4	112	0		
-169116	1095	Tsangla (Central)	meaktsa	meaktsa	wife	wife		4.7.4	113	0		
-169117	1095	Tsangla (Central)	za	za	boy	boy		1.9.6.1	114	0		
-169118	1095	Tsangla (Central)	zamin	zamin	girl	girl		1.9.3	115	0		
-169119	1095	Tsangla (Central)	ngam	ngam	day	day		1.5.3.2	116	0		2484
-169120	1095	Tsangla (Central)	binang	binang	night	night		9.1.4	117	0		
-169121	1095	Tsangla (Central)	wun-betpe	wun-betpe	morning	morning		9.1.4	118	0		
-169122	1095	Tsangla (Central)	ngam-barka	ngam-barka	noon	noon		9.1.4	119	0		2484,m
-169123	1095	Tsangla (Central)	ngeri	ngeri	evening / afternoon	evening / afternoon		9.1.4	120	0		
-169124	1095	Tsangla (Central)	inying	inying	yesterday	yesterday		9.1.3	121	0		
-169125	1095	Tsangla (Central)	thinong	thinong	today	today		9.1.3	122	0		
-169126	1095	Tsangla (Central)	namning	namning	tomorrow	tomorrow		9.1.3	123	0		
-169127	1095	Tsangla (Central)	hapta	hapta	week	week		9.1.3	124	0		
-169128	1095	Tsangla (Central)	lanyi	lanyi	month	month		9.1.2	125	0		
-169129	1095	Tsangla (Central)	nying	nying	year	year		9.1.2	126	0		2501
-169130	1095	Tsangla (Central)	manma	manma	old (thing)	old (thing)		7.1.8.3	127	0		
-169131	1095	Tsangla (Central)	singma	singma	new	new		9.6.1.1	128	0		
-169132	1095	Tsangla (Central)	lek◦pu	lekpu	good	good		9.6.1.1	129	0		663,m
-169133	1095	Tsangla (Central)	chamu	chamu	bad	bad		9.6.2.1	130a	0		
-169134	1095	Tsangla (Central)	ma◦lek◦pa	malekpa	bad	bad		9.6.2.1	130b	0		2436,663,s
-169135	1095	Tsangla (Central)	yitpa	yitpa	wet	wet		6.6	131	0		
-169136	1095	Tsangla (Central)	sangma	sangma	dry	dry		6.6	132	0		
-169137	1095	Tsangla (Central)	ring◦mu	ring◦mu	long	long		9.7.2	133	0		1011,m
-169138	1095	Tsangla (Central)	thumu	thumu	short	short		9.7.2	134	0		
-169139	1095	Tsangla (Central)	tshalu	tshalu	hot	hot			135	0		
-169140	1095	Tsangla (Central)	chhangpu	chhangpu	cold	cold		7.1.2.3	136	0		
-169141	1095	Tsangla (Central)	la◦nyong	la◦nyong	right	right		1.5.3.2	137	0		
-169142	1095	Tsangla (Central)	me◦nyong	me◦nyong	left	left		1.5.3.2	138	0		
-169143	1095	Tsangla (Central)	reka	reka	near	near		9.2.3	139	0		
-169144	1095	Tsangla (Central)	tha-ring◦sa	tha-ringsa	far	far		9.2.4	140	0		
-169145	1095	Tsangla (Central)	katang	katang	big	big		9.7.2	141	0		
-169146	1095	Tsangla (Central)	zemu	zemu	small	small		9.7.2	142	0		
-169147	1095	Tsangla (Central)	chit◦pu	chitpu	heavy	heavy		9.6.2	143	0		2415,s
-169148	1095	Tsangla (Central)	yang◦pu	yangpu	light	light		7.1.11.1	144	0		2789,s
-169149	1095	Tsangla (Central)	thunga	thunga	above	above		9.2.1	145	0		
-169150	1095	Tsangla (Central)	raga	raga	below	below		9.2.2	146	0		
-169151	1095	Tsangla (Central)	balingmu	balingmu	black	black		9.4	147	0		
-169152	1095	Tsangla (Central)	chhang◦lu	chhanglu	black	black		9.4	148	0		2683,m
-169153	1095	Tsangla (Central)	tsalu	tsalu	red	red		9.4	149	0		
-169154	1095	Tsangla (Central)	thur	thur	one	one		9.9	150	0		
-169155	1095	Tsangla (Central)	n(y)iktsing	n(y)iktsing	two	two		9.9	151	0		
-169156	1095	Tsangla (Central)	sam	sam	three	three		9.9	152	0		2666
-169157	1095	Tsangla (Central)	pshi	pshi	four	four		9.9	153	0		2409
-169158	1095	Tsangla (Central)	nga	nga	five	five		9.9	154	0		1306
-169159	1095	Tsangla (Central)	khung	khung	six	six		9.9	155	0		
-169160	1095	Tsangla (Central)	zum	zum	seven	seven		9.9	156	0		
-169161	1095	Tsangla (Central)	yen	yen	eight	eight		9.9	157	0		
-169162	1095	Tsangla (Central)	gu	gu	nine	nine		9.9	158	0		2364
-169163	1095	Tsangla (Central)	se	se	ten	ten		9.9	159	0		
-169164	1095	Tsangla (Central)	song-thur	song-thur	eleven	eleven		9.9	160	0		
-169165	1095	Tsangla (Central)	song-nyiktsing	song-nyiktsing	twelve	twelve		9.9	161	0		
-169166	1095	Tsangla (Central)	khai-thur	khai-thur	twenty	twenty		9.9	162	0		2355
-169167	1095	Tsangla (Central)	khai-nga	khai-nga	one hundred	one hundred		9.9	163	0		
-169168	1095	Tsangla (Central)	ibi	ibi	who?	who?		10.5.3	164	0		
-169169	1095	Tsangla (Central)	hang	hang	what?	what?		10.5.3	165	0		
-169170	1095	Tsangla (Central)	oga	oga	where?	where?		10.5.3	166	0		
-169171	1095	Tsangla (Central)	hala	hala	when?	when?		10.5.3	167a	0		
-169172	1095	Tsangla (Central)	giti	giti	when?	when?		10.5.3	167b	0		
-169173	1095	Tsangla (Central)	haptur	haptur	how many?	how many?		10.1	168	0		
-169174	1095	Tsangla (Central)	hang-dawa	hang-dawa	what kind?	what kind?		10.5.3	169	0		
-169175	1095	Tsangla (Central)	uthu	uthu	this	this		10.4.3.2	170	0		
-169176	1095	Tsangla (Central)	onya	onya	that	that		10.1	171	0		
-169177	1095	Tsangla (Central)	uthu-ba	uthu-ba	these	these		10.4.3.2	172	0		
-169178	1095	Tsangla (Central)	onya-ba	onya-ba	those	those		10.4.3.2	173	0		
-169179	1095	Tsangla (Central)	pruskin	pruskin	same	same		7.1.7.2	174	0		
-169180	1095	Tsangla (Central)	soso	soso	different	different		7.1.7.1	175	0		
-169181	1095	Tsangla (Central)	maphotpa	maphotpa	whole (unbroken)	whole (unbroken)		7.1.6.2	176	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+169000	1095	Tsangla (Central)	lus◦pu	luspu	body	body			1.1.1	1	0			11,1902
+169001	1095	Tsangla (Central)	sha◦rang	sharang	head	head			1.2.1	2	0			m,392
+169002	1095	Tsangla (Central)	tsham	tsham	hair	hair			1.2.3	3	0			366
+169003	1095	Tsangla (Central)	zu	zu	face	face			1.2.5	4	0			
+169004	1095	Tsangla (Central)	ming	ming	eye	eye			1.2.6	5	0			682
+169005	1095	Tsangla (Central)	na	na	ear	ear			1.2.7	6	0			811
+169006	1095	Tsangla (Central)	na◦wung	na◦wung	nose	nose			1.2.8	7	0			803,806
+169007	1095	Tsangla (Central)	nu◦wang	nu◦wang	mouth	mouth			1.3.1	8	0			470,476
+169008	1095	Tsangla (Central)	sha	sha	tooth	tooth			1.3.4	9	0			632
+169009	1095	Tsangla (Central)	le	le	tongue	tongue			1.3.3	10	0			621
+169010	1095	Tsangla (Central)	nu◦ma	nu◦ma	breast (woman's)	breast (woman's)			1.4.4.3	11	0			253,s
+169011	1095	Tsangla (Central)	pho◦lang	pho◦lang	belly	belly			1.4.7	12	0			2103,3460
+169012	1095	Tsangla (Central)	gadang-gure	gadang-gure	arm	arm			1.5.1.2	13	0			720
+169013	1095	Tsangla (Central)	nyizing	nyizing	elbow	elbow			1.5.8.3	14	0			
+169014	1095	Tsangla (Central)	gadang-wung	gadang-wung	palm	palm			1.5.5	15	0		D0	
+169015	1095	Tsangla (Central)	gadang-bruma	gadang-bruma	finger	finger			1.5.6	16	0			
+169016	1095	Tsangla (Central)	tsingnang	tsingnang	nail	nail			1.5.10	17	0			
+169017	1095	Tsangla (Central)	bi	bi	leg	leg			1.5.7	18	0			343
+169018	1095	Tsangla (Central)	mong◦nang	mong◦nang	skin	skin			1.6.5	19	0			54,m
+169019	1095	Tsangla (Central)	khang	khang	bone	bone			1.6.3	20	0			
+169020	1095	Tsangla (Central)	thing◦lom	thing◦lom	heart	heart			1.7.1	21	0			1387,1381
+169021	1095	Tsangla (Central)	yi	yi	blood	blood			1.6.2	22	0			230
+169022	1095	Tsangla (Central)	chhe◦rang	chherang	urine	urine			1.8.4	23	0			650,1731
+169023	1095	Tsangla (Central)	khi	khi	feces	feces			1.8.5	24	0			572
+169024	1095	Tsangla (Central)	dung	dung	village	village			5.8	25	0			
+169025	1095	Tsangla (Central)	phai	phai	house	house			5.11.9.1	26	0			
+169026	1095	Tsangla (Central)	bungnang	bungnang	roof	roof			5.11.9	27	0			
+169027	1095	Tsangla (Central)	ko	ko	door	door			5.11.9.3	28	0			
+169028	1095	Tsangla (Central)	miga-shing	miga-shing	firewood	firewood			5.11.5.5	29	0			m,2658
+169029	1095	Tsangla (Central)	brang◦phak◦tsam	brang◦phak◦tsam	broom	broom			5.4	30	0			m,2587,m
+169030	1095	Tsangla (Central)	toktsing-lung	toktsing-lung	mortar	mortar			5.5	31	0			
+169031	1095	Tsangla (Central)	toktsing	toktsing	pestle	pestle			5.5	32	0			
+169032	1095	Tsangla (Central)	thong	thong	hammer	hammer			5.11.5.4	33	0			
+169033	1095	Tsangla (Central)	khachhi	khachhi	knife	knife			5.5	34	0			
+169034	1095	Tsangla (Central)	bengra	bengra	axe	axe			5.11.5.3	35	0			
+169035	1095	Tsangla (Central)	rongshom	rongshom	rope	rope			5.11.4	36	0			
+169036	1095	Tsangla (Central)	kutpa	kutpa	thread	thread			5.11.6	37	0			
+169037	1095	Tsangla (Central)	khap	khap	needle	needle			5.1	38	0			
+169038	1095	Tsangla (Central)	khamung	khamung	cloth	cloth			5.1	39	0			
+169039	1095	Tsangla (Central)	tsedum	tsedum	ring	ring			5.11.8.3	40	0			
+169040	1095	Tsangla (Central)	ngam	ngam	sun	sun			3.2.10	41	0			2484
+169041	1095	Tsangla (Central)	la◦nyi-ngam	lanyi-ngam	moon	moon			3.2.2	42	0			1016,m,m
+169042	1095	Tsangla (Central)	ngam	ngam	sky	sky			3.2.2	43	0			2484
+169043	1095	Tsangla (Central)	kar◦ma	kar◦ma	star	star			3.2.2	44	0			2300,s
+169044	1095	Tsangla (Central)	ngam◦su	ngam◦su	rain	rain			3.2.1	45	0			2484,2080
+169045	1095	Tsangla (Central)	ri	ri	water	water			3.2.3	46	0			1013
+169046	1095	Tsangla (Central)	ri	ri	river	river			3.2.3	47	0			
+169047	1095	Tsangla (Central)	muk◦pa	muk◦pa	cloud	cloud			3.2.1	48	0			2465,s
+169048	1095	Tsangla (Central)	namcha-khena	namcha-khena	lightning	lightning			3.2.1	49	0			
+169049	1095	Tsangla (Central)	jang-shar◦la	jang-sharla	rainbow	rainbow			3.2.1	50	0			6007,m,m
+169050	1095	Tsangla (Central)	ridi	ridi	wind	wind			3.2.1	51	0			
+169051	1095	Tsangla (Central)	lung	lung	stone	stone			3.2.9	52	0			1269
+169052	1095	Tsangla (Central)	lam	lam	path	path			9.10.1	53	0			1017
+169053	1095	Tsangla (Central)	betsa	betsa	sand	sand			3.2.11	54	0			
+169054	1095	Tsangla (Central)	mi	mi	fire	fire			3.2.12.2	55	0			
+169055	1095	Tsangla (Central)	mu◦gu	mugu	smoke	smoke			3.2.12.2	56	0			2136,2361
+169056	1095	Tsangla (Central)	thulu	thulu	ash	ash			3.2.12.2	57	0			
+169057	1095	Tsangla (Central)	jintsang	jintsang	mud	mud			3.2.11	58	0			
+169058	1095	Tsangla (Central)	phurtsi	phurtsi	dust	dust			3.2.11	59	0			
+169059	1095	Tsangla (Central)	ser	ser	gold	gold			3.2.4	60	0			
+169060	1095	Tsangla (Central)	shing	shing	tree	tree			3.1.2	61	0			2658
+169061	1095	Tsangla (Central)	shing-shaba	shing-shaba	leaf	leaf			3.1.3	62	0			2658,m
+169062	1095	Tsangla (Central)	shing-tsa	shing-tsa	root	root			3.1.2	63a	0			2658,m
+169063	1095	Tsangla (Central)	rachi	rachi	root	root			3.1.2	63b	0			
+169064	1095	Tsangla (Central)	tsang	tsang	thorn	thorn			3.1.2	64a	0			
+169065	1095	Tsangla (Central)	zu	zu	thorn	thorn			3.1.2	64b	0			
+169066	1095	Tsangla (Central)	meto	meto	flower	flower			3.1.4	65	0			
+169067	1095	Tsangla (Central)	se	se	fruit	fruit			3.1.5	66	0			
+169068	1095	Tsangla (Central)	am-chukuli	am-chukuli	mango	mango				67	0			
+169069	1095	Tsangla (Central)	laisi	laisi	banana	banana			3.1.5	68	0			
+169070	1095	Tsangla (Central)	phemung	phemung	wheat (white)	wheat (white)			3.1.4	69a	0			
+169071	1095	Tsangla (Central)	bong	bong	wheat (dark)	wheat (dark)			3.1.4	69b	0			
+169072	1095	Tsangla (Central)	kongpu	kongpu	millet	millet			1.5.3.2	70	0			
+169073	1095	Tsangla (Central)	khu	khu	rice	rice			3.1.4	71	0			5817
+169074	1095	Tsangla (Central)	joktang	joktang	potato	potato			3.1.5	72	0			
+169075	1095	Tsangla (Central)	bantho	bantho	eggplant	eggplant			3.1.5	73	0			b
+169076	1095	Tsangla (Central)	badam	badam	groundnut	groundnut			3.1.4	74	0			
+169077	1095	Tsangla (Central)	solo	solo	chili	chili			3.1.5	75	0			
+169078	1095	Tsangla (Central)	jung	jung	tumeric	tumeric			3.1.6.1	76	0			
+169079	1095	Tsangla (Central)	lam	lam	garlic	garlic			3.1.5	77	0			
+169080	1095	Tsangla (Central)	kok◦pa	kokpa	onion	onion			3.1.5	78	0			
+169081	1095	Tsangla (Central)	lambenda	lambenda	tomato	tomato			3.1.5	79	0			
+169082	1095	Tsangla (Central)	kopi	kopi	cabbage	cabbage			3.1.5.1	80	0			bIndic
+169083	1095	Tsangla (Central)	si	si	oil	oil			1.6.4.1	81	0			48
+169084	1095	Tsangla (Central)	in◦chha	in◦chha	salt	salt			3.2.4	82	0			m,2729
+169085	1095	Tsangla (Central)	sha	sha	meat	meat			1.1.1.1	83	0			34
+169086	1095	Tsangla (Central)	yan	yan	fat	fat			1.6.4	84	0			
+169087	1095	Tsangla (Central)	nga	nga	fish	fish			2.2.5	85	0			1455
+169088	1095	Tsangla (Central)	go◦ga	go◦ga	chicken	chicken			2.1.10	86	0			
+169089	1095	Tsangla (Central)	go◦tham	go◦tham	egg	egg				87	0			305,646
+169090	1095	Tsangla (Central)	wa	wa	cow	cow			2.1.2	88	0			
+169091	1095	Tsangla (Central)	brung	brung	buffalo	buffalo			2.1.2	89	0			2170
+169092	1095	Tsangla (Central)	nu	nu	milk	milk				90	0			253
+169093	1095	Tsangla (Central)	wa◦rong	wa◦rong	horn	horn			1.2.2	91	0			m,814
+169094	1095	Tsangla (Central)	sham=pi	sham=pi	tail	tail			1.4.10.1	92	0			m,1361
+169095	1095	Tsangla (Central)	ra◦ba	ra◦ba	goat	goat			2.1.8	93	0			6031,m
+169096	1095	Tsangla (Central)	khu	khu	dog	dog			2.1.11	94	0			1764
+169097	1095	Tsangla (Central)	bu◦chhi◦la	bu◦chhi◦la	snake	snake			2.1.6.1	95	0			2623,m,m
+169098	1095	Tsangla (Central)	zala	zala	monkey	monkey			2.1.9	96	0			
+169099	1095	Tsangla (Central)	trongchung	trongchung	mosquito	mosquito			2.2.6	97	0			
+169100	1095	Tsangla (Central)	khangjila	khangjila	ant	ant			2.2.6	98	0			
+169101	1095	Tsangla (Central)	shongbu	shongbu	spider	spider			2.2.6	99	0			
+169102	1095	Tsangla (Central)	ming	ming	name	name			5.8	100	0			2450
+169103	1095	Tsangla (Central)	songo	songo	man / person	man / person			1.9.6.1	101a	0			
+169104	1095	Tsangla (Central)	pheaktsa	pheaktsa	person	person			4.5	101b	0			
+169105	1095	Tsangla (Central)	meaktsa	meaktsa	woman	woman			1.9.3	102	0			
+169106	1095	Tsangla (Central)	waktsa	waktsa	child	child			1.5.3.2	103	0			
+169107	1095	Tsangla (Central)	apa	apa	father	father			4.7.1	104	0			
+169108	1095	Tsangla (Central)	ama	ama	mother	mother			4.7.1	105	0			
+169109	1095	Tsangla (Central)	ata	ata	older brother	older brother				106	0			
+169110	1095	Tsangla (Central)	kota	kota	younger brother	younger brother				107	0			
+169111	1095	Tsangla (Central)	ana	ana	older sister	older sister				108	0			
+169112	1095	Tsangla (Central)	usa	usa	younger sister	younger sister				109	0			
+169113	1095	Tsangla (Central)	za	za	son	son			4.7.3	110	0			
+169114	1095	Tsangla (Central)	zamin	zamin	daughter	daughter			4.7.3	111	0			
+169115	1095	Tsangla (Central)	pheaktsa	pheaktsa	husband	husband			4.7.4	112	0			
+169116	1095	Tsangla (Central)	meaktsa	meaktsa	wife	wife			4.7.4	113	0			
+169117	1095	Tsangla (Central)	za	za	boy	boy			1.9.6.1	114	0			
+169118	1095	Tsangla (Central)	zamin	zamin	girl	girl			1.9.3	115	0			
+169119	1095	Tsangla (Central)	ngam	ngam	day	day			1.5.3.2	116	0			2484
+169120	1095	Tsangla (Central)	binang	binang	night	night			9.1.4	117	0			
+169121	1095	Tsangla (Central)	wun-betpe	wun-betpe	morning	morning			9.1.4	118	0			
+169122	1095	Tsangla (Central)	ngam-barka	ngam-barka	noon	noon			9.1.4	119	0			2484,m
+169123	1095	Tsangla (Central)	ngeri	ngeri	evening / afternoon	evening / afternoon			9.1.4	120	0			
+169124	1095	Tsangla (Central)	inying	inying	yesterday	yesterday			9.1.3	121	0			
+169125	1095	Tsangla (Central)	thinong	thinong	today	today			9.1.3	122	0			
+169126	1095	Tsangla (Central)	namning	namning	tomorrow	tomorrow			9.1.3	123	0			
+169127	1095	Tsangla (Central)	hapta	hapta	week	week			9.1.3	124	0			
+169128	1095	Tsangla (Central)	lanyi	lanyi	month	month			9.1.2	125	0			
+169129	1095	Tsangla (Central)	nying	nying	year	year			9.1.2	126	0			2501
+169130	1095	Tsangla (Central)	manma	manma	old (thing)	old (thing)			7.1.8.3	127	0			
+169131	1095	Tsangla (Central)	singma	singma	new	new			9.6.1.1	128	0			
+169132	1095	Tsangla (Central)	lek◦pu	lekpu	good	good			9.6.1.1	129	0			663,m
+169133	1095	Tsangla (Central)	chamu	chamu	bad	bad			9.6.2.1	130a	0			
+169134	1095	Tsangla (Central)	ma◦lek◦pa	malekpa	bad	bad			9.6.2.1	130b	0			2436,663,s
+169135	1095	Tsangla (Central)	yitpa	yitpa	wet	wet			6.6	131	0			
+169136	1095	Tsangla (Central)	sangma	sangma	dry	dry			6.6	132	0			
+169137	1095	Tsangla (Central)	ring◦mu	ring◦mu	long	long			9.7.2	133	0			1011,m
+169138	1095	Tsangla (Central)	thumu	thumu	short	short			9.7.2	134	0			
+169139	1095	Tsangla (Central)	tshalu	tshalu	hot	hot				135	0			
+169140	1095	Tsangla (Central)	chhangpu	chhangpu	cold	cold			7.1.2.3	136	0			
+169141	1095	Tsangla (Central)	la◦nyong	la◦nyong	right	right			1.5.3.2	137	0			
+169142	1095	Tsangla (Central)	me◦nyong	me◦nyong	left	left			1.5.3.2	138	0			
+169143	1095	Tsangla (Central)	reka	reka	near	near			9.2.3	139	0			
+169144	1095	Tsangla (Central)	tha-ring◦sa	tha-ringsa	far	far			9.2.4	140	0			
+169145	1095	Tsangla (Central)	katang	katang	big	big			9.7.2	141	0			
+169146	1095	Tsangla (Central)	zemu	zemu	small	small			9.7.2	142	0			
+169147	1095	Tsangla (Central)	chit◦pu	chitpu	heavy	heavy			9.6.2	143	0			2415,s
+169148	1095	Tsangla (Central)	yang◦pu	yangpu	light	light			7.1.11.1	144	0			2789,s
+169149	1095	Tsangla (Central)	thunga	thunga	above	above			9.2.1	145	0			
+169150	1095	Tsangla (Central)	raga	raga	below	below			9.2.2	146	0			
+169151	1095	Tsangla (Central)	balingmu	balingmu	black	black			9.4	147	0			
+169152	1095	Tsangla (Central)	chhang◦lu	chhanglu	black	black			9.4	148	0			2683,m
+169153	1095	Tsangla (Central)	tsalu	tsalu	red	red			9.4	149	0			
+169154	1095	Tsangla (Central)	thur	thur	one	one			9.9	150	0			
+169155	1095	Tsangla (Central)	n(y)iktsing	n(y)iktsing	two	two			9.9	151	0			
+169156	1095	Tsangla (Central)	sam	sam	three	three			9.9	152	0			2666
+169157	1095	Tsangla (Central)	pshi	pshi	four	four			9.9	153	0			2409
+169158	1095	Tsangla (Central)	nga	nga	five	five			9.9	154	0			1306
+169159	1095	Tsangla (Central)	khung	khung	six	six			9.9	155	0			
+169160	1095	Tsangla (Central)	zum	zum	seven	seven			9.9	156	0			
+169161	1095	Tsangla (Central)	yen	yen	eight	eight			9.9	157	0			
+169162	1095	Tsangla (Central)	gu	gu	nine	nine			9.9	158	0			2364
+169163	1095	Tsangla (Central)	se	se	ten	ten			9.9	159	0			
+169164	1095	Tsangla (Central)	song-thur	song-thur	eleven	eleven			9.9	160	0			
+169165	1095	Tsangla (Central)	song-nyiktsing	song-nyiktsing	twelve	twelve			9.9	161	0			
+169166	1095	Tsangla (Central)	khai-thur	khai-thur	twenty	twenty			9.9	162	0			2355
+169167	1095	Tsangla (Central)	khai-nga	khai-nga	one hundred	one hundred			9.9	163	0			
+169168	1095	Tsangla (Central)	ibi	ibi	who?	who?			10.5.3	164	0			
+169169	1095	Tsangla (Central)	hang	hang	what?	what?			10.5.3	165	0			
+169170	1095	Tsangla (Central)	oga	oga	where?	where?			10.5.3	166	0			
+169171	1095	Tsangla (Central)	hala	hala	when?	when?			10.5.3	167a	0			
+169172	1095	Tsangla (Central)	giti	giti	when?	when?			10.5.3	167b	0			
+169173	1095	Tsangla (Central)	haptur	haptur	how many?	how many?			10.1	168	0			
+169174	1095	Tsangla (Central)	hang-dawa	hang-dawa	what kind?	what kind?			10.5.3	169	0			
+169175	1095	Tsangla (Central)	uthu	uthu	this	this			10.4.3.2	170	0			
+169176	1095	Tsangla (Central)	onya	onya	that	that			10.1	171	0			
+169177	1095	Tsangla (Central)	uthu-ba	uthu-ba	these	these			10.4.3.2	172	0			
+169178	1095	Tsangla (Central)	onya-ba	onya-ba	those	those			10.4.3.2	173	0			
+169179	1095	Tsangla (Central)	pruskin	pruskin	same	same			7.1.7.2	174	0			
+169180	1095	Tsangla (Central)	soso	soso	different	different			7.1.7.1	175	0			
+169181	1095	Tsangla (Central)	maphotpa	maphotpa	whole (unbroken)	whole (unbroken)			7.1.6.2	176	0			

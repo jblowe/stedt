@@ -1,248 +1,248 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-15429	886	Lashi	kuŋ³¹	kuŋ³¹	body	body		1.1.1	1.1	0		1
-15430	886	Lashi	nuŋ⁵⁵ khuŋ³³	nuŋ⁵⁵ khuŋ³³	back	back		1.4.8	1.4	0	D1	203,219
-15431	886	Lashi	kuŋ³³	kuŋ³³	torso / trunk	torso  /  trunk		1.5.3.2	1.6	0		1
-15432	886	Lashi	khjei³³ lɔʔ³¹	khjei³³ lɔʔ³¹	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
-15433	886	Lashi	ta̱ŋ⁵⁵ kɔ:i⁵⁵	ta̱ŋ⁵⁵ kɔ:i⁵⁵	lap	lap		1.4.4.2	1.8	0		289,2326
-15434	886	Lashi	jaŋ³¹ kaŋ³¹	jaŋ³¹ kaŋ³¹	bosom	bosom		1.4.4.2	1.9	0		m,m
-15435	886	Lashi	ta̱ŋ⁵⁵ kɔ:i⁵⁵ khjo³³	ta̱ŋ⁵⁵ kɔ:i⁵⁵ khjo³³	groin / loins	groin  /  loins		1.4.9	1.10	0		225,m,m
-15436	886	Lashi	ʃo⁵⁵	ʃo⁵⁵	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34
-15437	886	Lashi	tə³¹ tsə⁵⁵	tə³¹ tsə⁵⁵	alive / be living	alive  /  be living		1.1.2.1	1.12	0		m,71
-15438	886	Lashi	ʃə̱i³³ tsə⁵⁵	ʃə̱i³³ tsə⁵⁵	die / be dead	die  /  be dead		1.1.6	1.13	0		27,m
-15439	886	Lashi	maŋ³¹	maŋ³¹	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		17
-15440	886	Lashi	maŋ³¹	maŋ³¹	carcass / dead animal	carcass  /  dead animal		1.1.6.1	1.15	0		17
-15441	886	Lashi	ju̱:p⁵⁵	ju̱:p⁵⁵	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		127
-15442	886	Lashi	ʃu̱:p⁵⁵	ʃu̱:p⁵⁵	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		127
-15443	886	Lashi	pu:n³³	pu:n³³	awake / be awake	awake  /  be awake		1.1.4	1.17	0		151
-15444	886	Lashi	mɔ:ʔ³¹	mɔ:ʔ³¹	dream	dream	v.	1.1.4.2	1.18	0		126
-15445	886	Lashi	wo̱⁵⁵ lɔ̱m⁵³	wo̱⁵⁵ lɔ̱m⁵³	head	head		1.2.1	2.1	0		385,690
-15446	886	Lashi	wo̱⁵⁵ nə̱:⁵³	wo̱⁵⁵ nə̱:⁵³	fontanel	fontanel		1.2.1.3	2.3	0		385,1197
-15447	886	Lashi	wo̱⁵⁵ ʃǒ⁵⁵ jou³³	wo̱⁵⁵ ʃǒ⁵⁵ jou³³	skull	skull		1.2.1.1	2.4	0		385,p,234
-15448	886	Lashi	u̱⁵⁵ nuʔ³¹	u̱⁵⁵ nuʔ³¹	brain	brain		1.2.4	2.5	0		385,243
-15449	886	Lashi	tsham³³	tsham³³	hair of head	hair of head		1.2.3	2.7	0	D1	366
-15450	886	Lashi	wo̱⁵⁵ ku̱k⁵⁵	wo̱⁵⁵ ku̱k⁵⁵	scalp	scalp		1.2.1.5	2.8	0		385,m
-15451	886	Lashi	kjɔʔ³¹ pjɛn³³	kjɔʔ³¹ pjɛn³³	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		1606,2016
-15452	886	Lashi	khjou³³	khjou³³	horn (of animal)	horn (of animal)		1.2.2	2.10	0		819
-15453	886	Lashi	tshat⁵⁵ khjou³³	tshat⁵⁵ khjou³³	antler (of deer)	antler (of deer)		1.2.2	2.11	0		2739,819
-15454	886	Lashi	mjɔʔ³¹ tuaŋ³³	mjɔʔ³¹ tuaŋ³³	face	face		1.2.5	3.1	0		681,2031
-15455	886	Lashi	ŋə̌⁵⁵ laŋ⁵⁵	ŋə̌⁵⁵ laŋ⁵⁵	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		356,392
-15456	886	Lashi	mjɔʔ³¹	mjɔʔ³¹	eye	eye		1.2.6	3.4	0		681
-15457	886	Lashi	mjɔʔ³¹ ku̱k⁵⁵	mjɔʔ³¹ ku̱k⁵⁵	eyelid	eyelid		1.2.6.4	3.4.1	0		681,586
-15458	886	Lashi	mjɔʔ³¹ tʃham⁵⁵	mjɔʔ³¹ tʃham⁵⁵	eyeball	eyeball		1.2.6.1	3.4.2	0		681,m
-15459	886	Lashi	mjɔʔ³¹ mɔ:i⁵⁵	mjɔʔ³¹ mɔ:i⁵⁵	iris	iris		1.2.6.2	3.4.2.1	0		681,m
-15460	886	Lashi	mjɔʔ³¹ tso³³	mjɔʔ³¹ tso³³	pupil	pupil		1.2.6.2	3.4.2.2	0		681,2727
-15461	886	Lashi	mjɔʔ³¹ phju:³³	mjɔʔ³¹ phju:³³	white of eye	white of eye		1.2.6.3	3.4.2.3	0		681,1235
-15462	886	Lashi	mjɔʔ³¹ tsham³³	mjɔʔ³¹ tsham³³	eyebrow	eyebrow		1.2.6.6	3.4.3	0		681,366
-15463	886	Lashi	mjɔʔ³¹ tsham³³	mjɔʔ³¹ tsham³³	eyelash	eyelash		1.2.6.5	3.4.4	0		681,366
-15464	886	Lashi	la:p³¹	la:p³¹	blink	blink	v.	1.2.6.12	3.4.5	0		m
-15465	886	Lashi	ŋou³¹ pi³¹	ŋou³¹ pi³¹	tears	tears	n	1.2.6.7	3.4.6	0		681,187
-15466	886	Lashi	mjɔʔ³¹ khjei⁵⁵	mjɔʔ³¹ khjei⁵⁵	eye sand	eye sand		1.2.6.8	3.4.7	0		681,572
-15467	886	Lashi	ŋa:u³¹	ŋa:u³¹	cry / weep	cry  /  weep	v.	1.8.8.2	3.4.8	0		1104
-15468	886	Lashi	jo:⁵⁵	jo:⁵⁵	look	look	v.	1.2.6.11	3.4.9	0		m
-15469	886	Lashi	mja:ŋ³¹	mja:ŋ³¹	see	see	v.	1.2.6.10	3.4.9	0		1227
-15470	886	Lashi	tʃi:t³¹	tʃi:t³¹	blind	blind		1.2.6.14.2	3.4.10	0		1401
-15471	886	Lashi	no̱³³	no̱³³	nose	nose		1.2.8	3.5	0		803
-15472	886	Lashi	no̱³³ khjuŋ⁵⁵	no̱³³ khjuŋ⁵⁵	nostril	nostril		1.2.8.1	3.5.2	0		803,809
-15473	886	Lashi	no̱³³ mou⁵⁵	no̱³³ mou⁵⁵	nose hair	nose hair		1.2.8	3.5.4	0		803,363
-15474	886	Lashi	vuʔ³¹ no̱³³	vuʔ³¹ no̱³³	snout (pig)	snout (pig)		1.2.8	3.5.5	0		1006,471
-15475	886	Lashi	ʃə̌⁵⁵ ka̱n⁵⁵	ʃə̌⁵⁵ ka̱n⁵⁵	liquid mucus	liquid mucus		3.2.3	3.5.6	0		m,539
-15476	886	Lashi	ʃə̌⁵⁵ ka̱n⁵⁵	ʃə̌⁵⁵ ka̱n⁵⁵	solid mucus	solid mucus		1.1.5	3.5.7	0		m,539
-15477	886	Lashi	khja:u⁵³	khja:u⁵³	blow nose	blow nose	v.	1.3.1.4	3.5.8	0		
-15478	886	Lashi	na:m³¹	na:m³¹	smell / sniff	smell  /  sniff	v.	1.2.8.5	3.5.9	0		1415
-15479	886	Lashi	nə̌³³ khjap⁵⁵	nə̌³³ khjap⁵⁵	ear	ear		1.2.7	3.6	0		811,823
-15480	886	Lashi	nə̌³³ jam³¹	nə̌³³ jam³¹	outer ear	outer ear		9.2	3.6.2	0		811,m
-15481	886	Lashi	nə̌³³ tuaŋ³³ khou³³	nə̌³³ tuaŋ³³ khou³³	inner ear	inner ear		9.2.5	3.6.3	0		811,822,m
-15482	886	Lashi	nə̌³³ tuaŋ³³	nə̌³³ tuaŋ³³	ear canal	ear canal		1.2.7	3.6.4	0		811,822
-15483	886	Lashi	nə̌³³ khjei⁵⁵	nə̌³³ khjei⁵⁵	earwax	earwax		1.2.7.3	3.6.6	0		811,572
-15484	886	Lashi	kjɔ:³³	kjɔ:³³	hear	hear	v.	1.2.7.4	3.6.7	0		1411
-15485	886	Lashi	jɔ:³³ kjɔ:³³	jɔ:³³ kjɔ:³³	hear	hear	v.	1.2.7.4	3.6.7	0		m,1411
-15486	886	Lashi	tʃi:t³¹	tʃi:t³¹	deaf	deaf		1.2.7.5	3.6.8	0		m
-15487	886	Lashi	nua̱t⁵⁵	nua̱t⁵⁵	mouth	mouth		1.3.1	3.7	0		471
-15488	886	Lashi	ŋa̱m³³	ŋa̱m³³	palate	palate		1.3.1.1	3.7.1	0		1720
-15489	886	Lashi	ŋjəŋ³¹	ŋjəŋ³¹	gums	gums		1.3.4.3	3.7.3	0		504
-15490	886	Lashi	ɣə⁵⁵	ɣə⁵⁵	saliva	saliva		1.8.3	3.7.5	0		
-15491	886	Lashi	tsɔ:³³	tsɔ:³³	eat	eat	v.	1.5.3.2	3.7.6	0		36
-15492	886	Lashi	ʃu:k⁵⁵	ʃu:k⁵⁵	drink	drink	v.		3.7.7	0		3462
-15493	886	Lashi	khjuŋ⁵⁵ xə:⁵³	khjuŋ⁵⁵ xə:⁵³	thirsty	thirsty	be v.	1.1.3.1	3.7.8	0		1825,3298
-15494	886	Lashi	mu:t⁵⁵	mu:t⁵⁵	hungry	hungry	be v.	1.1.3	3.7.9	0		99
-15495	886	Lashi	kji:³³	kji:³³	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		112
-15496	886	Lashi	py:³³	py:³³	spit	spit	v.	1.8.3	3.7.11	0		
-15497	886	Lashi	py:³³ ta⁵⁵	py:³³ ta⁵⁵	vomit	vomit	n.	1.8.3.2	3.7.12	0		1145,m
-15498	886	Lashi	py:³³	py:³³	vomit	vomit	v.	1.8.3.2	3.7.13	0		1145
-15499	886	Lashi	ŋu:m³¹	ŋu:m³¹	hold in mouth	hold in mouth	v.	1.3.4.4	3.7.14	0		1772
-15500	886	Lashi	xɔ:⁵³	xɔ:⁵³	gape / open mouth	gape  /  open mouth	v.	1.3.1	3.7.15	0		1716
-15501	886	Lashi	a³¹ xam⁵⁵ xam⁵⁵	a³¹ xam⁵⁵ xam⁵⁵	yawn	yawn	v.	1.3.1.3	3.7.16	0		p,1715,1715
-15502	886	Lashi	jo̱³³	jo̱³³	tongue	tongue		1.3.3	3.8	0		623
-15503	886	Lashi	ta̱:i⁵³	ta̱:i⁵³	speak	speak	v.	8.5.10.1	3.8.1	0		
-15504	886	Lashi	wo̱t⁵⁵ tə̱⁵⁵	wo̱t⁵⁵ tə̱⁵⁵	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
-15505	886	Lashi	tʃi:t³¹	tʃi:t³¹	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		
-15506	886	Lashi	jɔ:ʔ³¹	jɔ:ʔ³¹	lick	lick	v.	1.3.3.1	3.8.4	0		629
-15507	886	Lashi	nua̱t⁵⁵ ku̱k⁵⁵	nua̱t⁵⁵ ku̱k⁵⁵	lip	lip		1.3.2	3.9	0		471,586
-15508	886	Lashi	thɔʔ⁵⁵ tauŋ³¹	thɔʔ⁵⁵ tauŋ³¹	upper lip	upper lip		9.2.1	3.9.1	0		
-15509	886	Lashi	kjei⁵⁵tauŋ³¹	kjei⁵⁵tauŋ³¹	lower lip	lower lip			3.9.2	0		
-15510	886	Lashi	nua̱t⁵⁵	nua̱t⁵⁵	beak / bill	beak / bill		1.3.1.2	3.9.3	0		471
-15511	886	Lashi	ji:³¹	ji:³¹	smile	smile	v.	1.8.8.1	3.9.4	0		1108
-15512	886	Lashi	tsɿ³¹	tsɿ³¹	tooth	tooth		1.3.4	3.10	0		635
-15513	886	Lashi	ʃə̱k⁵⁵ tsɿ³¹	ʃə̱k⁵⁵ tsɿ³¹	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		m,635
-15514	886	Lashi	tsɿ³¹ thu:ŋ⁵⁵	tsɿ³¹ thu:ŋ⁵⁵	molar	molar		1.3.4.2	3.10.2	0		635,2813
-15515	886	Lashi	khui⁵⁵ tsɿ³¹	khui⁵⁵ tsɿ³¹	eyetooth / canine tooth	eyetooth  /  canine tooth		1.3.4.1	3.10.3	0		1764,635
-15516	886	Lashi	tsɿ³¹ thaŋ³³	tsɿ³¹ thaŋ³³	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		635,3316
-15517	886	Lashi	nou⁵⁵ tsɿ³¹	nou⁵⁵ tsɿ³¹	baby tooth	baby tooth		4.2.11	3.10.5	0		
-15518	886	Lashi	tshaŋ³³ tsɿ³¹	tshaŋ³³ tsɿ³¹	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		2731,635
-15519	886	Lashi	ŋa:t³¹	ŋa:t³¹	bite	bite	v.	1.3.4.4	3.10.7	0		1761
-15520	886	Lashi	nɛ̱:⁵⁵	nɛ̱:⁵⁵	chew	chew	v.	1.3.4	3.10.8	0		
-15521	886	Lashi	mjɔʔ³¹ tuaŋ³³	mjɔʔ³¹ tuaŋ³³	cheek	cheek		1.2.5.2	3.11	0		681,286
-15522	886	Lashi	ŋa̱m³³ thaŋ³³	ŋa̱m³³ thaŋ³³	chin	chin		1.2.5.3	3.12	0		2059,286
-15523	886	Lashi	ləŋ³¹ tsəŋ³³	ləŋ³¹ tsəŋ³³	neck	neck		1.4.2	4.1	0		479,255
-15524	886	Lashi	khjuŋ⁵⁵	khjuŋ⁵⁵	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		489
-15525	886	Lashi	sɔʔ⁵⁵ khjo³³	sɔʔ⁵⁵ khjo³³	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		32,489
-15526	886	Lashi	tsɔ:³³ khjo³³	tsɔ:³³ khjo³³	esophagus	esophagus		1.3.5.5	4.2.2	0		
-15527	886	Lashi	mja̱:u³³	mja̱:u³³	swallow	swallow	v.	1.3.5.6	4.2.3	0		627
-15528	886	Lashi	kjɔʔ³¹ khjei⁵⁵ pham⁵⁵	kjɔʔ³¹ khjei⁵⁵ pham⁵⁵	gizzard / crop of bird	gizzard  /  crop of bird		1.7.6.1	4.2.4	0		
-15529	886	Lashi	jaŋ³¹ kaŋ³¹	jaŋ³¹ kaŋ³¹	chest	chest		1.4.4.3	5.1	0		288,2000
-15530	886	Lashi	nam³¹ tʃham⁵⁵ jou³³	nam³¹ tʃham⁵⁵ jou³³	rib cage	rib cage		1.4.4.3	5.1.1	0		553,558,232
-15531	886	Lashi	nam³¹ tʃham⁵⁵ jou³³	nam³¹ tʃham⁵⁵ jou³³	rib	rib		1.4.4.3	5.1.2	0		553,558,232
-15532	886	Lashi	lɔʔ³¹ sa̱n³³	lɔʔ³¹ sa̱n³³	shoulder	shoulder		1.4.3	5.3	0		695,3348
-15533	886	Lashi	lɔʔ³¹ sa̱n³³ jou³³	lɔʔ³¹ sa̱n³³ jou³³	shoulder blade / scapula	shoulder blade  /  scapula		1.4.3.2	5.3.1	0		695,3348,232
-15534	886	Lashi	nou⁵⁵	nou⁵⁵	breast	breast		1.4.4.3	5.4	0		253
-15535	886	Lashi	nou⁵⁵ sɿ⁵⁵	nou⁵⁵ sɿ⁵⁵	nipple	nipple			5.4.1	0		253,1019
-15536	886	Lashi	nou⁵⁵	nou⁵⁵	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		253
-15537	886	Lashi	nou⁵⁵ jiŋ³¹	nou⁵⁵ jiŋ³¹	milk	milk			5.4.3	0		253,m
-15538	886	Lashi	ʃɛ̱:³³	ʃɛ̱:³³	suck	suck	v.	1.3.2.1	5.4.5	0		5541
-15539	886	Lashi	tʃu̱:k⁵⁵	tʃu̱:k⁵⁵	nurse / suckle	nurse  /  suckle	v.	4.2.1.5	5.4.6	0		5540
-15540	886	Lashi	nuŋ⁵⁵ khuŋ³³	nuŋ⁵⁵ khuŋ³³	back	back		1.4.8	5.5	0	HIDE	DUPE IN SOURCE
-15541	886	Lashi	kjei³¹ mɔn³¹ nuŋ⁵⁵ khuŋ³³	kjei³¹ mɔn³¹ nuŋ⁵⁵ khuŋ³³	upper back	upper back		9.2.1	5.5.1	0		
-15543	886	Lashi	phji⁵⁵ tɔm³³	phji⁵⁵ tɔm³³	small of back	small of back		1.4.8.1	5.5.3	0		1361,1362
-15544	886	Lashi	nuŋ⁵⁵ khuŋ³³ jou³³	nuŋ⁵⁵ khuŋ³³ jou³³	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		203,219,232
-15545	886	Lashi	jou³³ khjaŋ³³	jou³³ khjaŋ³³	spinal cord	spinal cord		1.4.8.2	5.5.5	0	HIDE	DUPE IN SOURCE
-15546	886	Lashi	taŋ³¹ kou⁵⁵	taŋ³¹ kou⁵⁵	hunchback	hunchback		1.4.8.3	5.5.6	0		m,m
-15547	886	Lashi	phji⁵⁵ tɔm³³	phji⁵⁵ tɔm³³	waist	waist		1.4.6	5.6	0		1361,1362
-15548	886	Lashi	wɔm³³ tou³³	wɔm³³ tou³³	belly / abdomen	belly  /  abdomen		1.4.7	5.7	0		137,m
-15549	886	Lashi	tʃhɔʔ⁵⁵	tʃhɔʔ⁵⁵	navel	navel		1.9.4	5.7.1	0		525
-15550	886	Lashi	tʃhə̌⁵⁵ khuŋ⁵⁵	tʃhə̌⁵⁵ khuŋ⁵⁵	hips	hips		1.4.9.2	5.8.1	0		215,219
-15551	886	Lashi	tʃhə̌⁵⁵ khuŋ⁵⁵ jou³³	tʃhə̌⁵⁵ khuŋ⁵⁵ jou³³	hipbone	hipbone		1.4.9.2	5.8.2	0		215,219,232
-15552	886	Lashi	ta̱ŋ⁵⁵ pou⁵⁵ pɔ̱n³³	ta̱ŋ⁵⁵ pou⁵⁵ pɔ̱n³³	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		m,m,m
-15553	886	Lashi	ta̱ŋ⁵⁵ pou⁵⁵ ʃo⁵⁵	ta̱ŋ⁵⁵ pou⁵⁵ ʃo⁵⁵	rump	rump		1.4.10	5.10	0		225,404,m
-15554	886	Lashi	tʃhə̌⁵⁵ khuŋ⁵⁵	tʃhə̌⁵⁵ khuŋ⁵⁵	buttocks	buttocks		1.4.10	5.10.1	0		215,219
-15555	886	Lashi	ʃə̌⁵⁵ mji³³	ʃə̌⁵⁵ mji³³	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		34,1288
-15556	886	Lashi	lɔʔ³¹ pu⁵³	lɔʔ³¹ pu⁵³	arm	arm		1.5.1.2	6.1	0		695,1327
-15557	886	Lashi	lɔʔ³¹ tʃhap⁵⁵	lɔʔ³¹ tʃhap⁵⁵	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
-15558	886	Lashi	kji̱:n³¹	kji̱:n³¹	tickle	tickle	v.	1.5.1.2.4	6.1.1.1	0		
-15559	886	Lashi	lɔʔ³¹ pu⁵³	lɔʔ³¹ pu⁵³	upperarm	upperarm		1.5.1.2.1	6.1.2	0		
-15561	886	Lashi	lɔʔ³¹ thuŋ⁵⁵ jou³³	lɔʔ³¹ thuŋ⁵⁵ jou³³	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		695,m,m
-15562	886	Lashi	lɔʔ³¹ mjɔʔ³¹	lɔʔ³¹ mjɔʔ³¹	wrist	wrist		1.5.8.1	6.1.6	0		695,681
-15563	886	Lashi	lɔʔ³¹	lɔʔ³¹	hand	hand		1.5.1.1	6.1.7	0		695
-15564	886	Lashi	lɔʔ³¹ nuŋ⁵⁵ khuŋ³³	lɔʔ³¹ nuŋ⁵⁵ khuŋ³³	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		695,203,219
-15565	886	Lashi	lɔʔ³¹ tsɔ̱p⁵⁵	lɔʔ³¹ tsɔ̱p⁵⁵	fist	fist		1.5.1.1.1	6.1.7.3	0		695,86
-15566	886	Lashi	lɔʔ³¹ jo³¹ lɔʔ³¹	lɔʔ³¹ jo³¹ lɔʔ³¹	right hand	right hand		1.5.3.2	6.1.7.4	0		695,2786,695
-15567	886	Lashi	lɔʔ³¹ pe̱i⁵⁵ lɔʔ³¹	lɔʔ³¹ pe̱i⁵⁵ lɔʔ³¹	left hand	left hand		1.5.3.2	6.1.7.5	0		695,2154,695
-15568	886	Lashi	tuŋ³¹	tuŋ³¹	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		711
-15569	886	Lashi	lɔʔ³¹ sə̱ŋ³³	lɔʔ³¹ sə̱ŋ³³	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
-15570	886	Lashi	khjei³³	khjei³³	leg	leg		1.5.7	6.2	0		335
-15571	886	Lashi	ta̱ŋ⁵⁵ pou⁵⁵	ta̱ŋ⁵⁵ pou⁵⁵	thigh	thigh		1.5.7.1	6.2.1	0		
-15572	886	Lashi	ta̱ŋ⁵⁵ pou⁵⁵ ʃǒ⁵⁵ jou³³	ta̱ŋ⁵⁵ pou⁵⁵ ʃǒ⁵⁵ jou³³	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		
-15573	886	Lashi	pɔ̱t⁵⁵ luʔ³¹	pɔ̱t⁵⁵ luʔ³¹	knee	knee		1.5.8.4	6.2.2	0		436,m
-15574	886	Lashi	pɔ̱t⁵⁵ luʔ³¹ ʃǒ⁵⁵ jou³³	pɔ̱t⁵⁵ luʔ³¹ ʃǒ⁵⁵ jou³³	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		436,m,m,m
-15575	886	Lashi	khjei³³ pu⁵³	khjei³³ pu⁵³	calf	calf		1.5.7	6.2.4	0		
-15576	886	Lashi	khjei³³	khjei³³	foot	foot		1.5.2	6.2.6	0		335
-15577	886	Lashi	khjei³³ ʃǒ⁵⁵ kji³³	khjei³³ ʃǒ⁵⁵ kji³³	achilles tendon	achilles tendon		1.6.6.1	6.2.6.2	0		
-15578	886	Lashi	khjei³³ a³¹ ka̱ŋ⁵³	khjei³³ a³¹ ka̱ŋ⁵³	arch	arch		1.5.2.3	6.2.6.3	0		
-15579	886	Lashi	khjei³³ kho³³	khjei³³ kho³³	footprint	footprint		1.5.2.5	6.2.6.7	0		
-15580	886	Lashi	khjei³³ səŋ⁵⁵	khjei³³ səŋ⁵⁵	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		335,m
-15581	886	Lashi	lɔʔ³¹ sə̱ŋ³³	lɔʔ³¹ sə̱ŋ³³	paw (of animal)	paw (of animal)		1.5.4	6.2.6.9	0		
-15582	886	Lashi	khjei³³ kui⁵⁵	khjei³³ kui⁵⁵	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-15583	886	Lashi	khjei³³ kɔi⁵⁵ kɔi⁵⁵	khjei³³ kɔi⁵⁵ kɔi⁵⁵	limp	limp	v.	1.5.12	6.2.8	0		
-15584	886	Lashi	lɔʔ³¹ ŋjo̱⁵⁵	lɔʔ³¹ ŋjo̱⁵⁵	finger	finger		1.5.6	7.1	0		
-15585	886	Lashi	tua̱ŋ⁵⁵ ŋjo̱⁵⁵	tua̱ŋ⁵⁵ ŋjo̱⁵⁵	index finger	index finger		1.0	7.1.1	0		
-15586	886	Lashi	lɔʔ³¹ thaŋ⁵³ ŋjo̱⁵⁵	lɔʔ³¹ thaŋ⁵³ ŋjo̱⁵⁵	little finger	little finger		9.7.2	7.1.4	0		695,m,320
-15587	886	Lashi	lɔʔ³¹ mo⁵⁵ tʃham⁵⁵	lɔʔ³¹ mo⁵⁵ tʃham⁵⁵	thumb	thumb		1.5.6.1	7.1.5	0		
-15588	886	Lashi	lɔʔ³¹ sə̱ŋ³³	lɔʔ³¹ sə̱ŋ³³	nail	nail		1.5.10	7.4	0		695,512
-15589	886	Lashi	lɔʔ³¹ sə̱ŋ³³	lɔʔ³¹ sə̱ŋ³³	fingernail	fingernail		1.5.10.1	7.4.1	0		
-15590	886	Lashi	lɔʔ³¹ sə̱ŋ³³	lɔʔ³¹ sə̱ŋ³³	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		695,m
-15591	886	Lashi	sə̱ŋ⁵⁵	sə̱ŋ⁵⁵	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		
-15592	886	Lashi	tsham³³	tsham³³	hair	hair		1.2.3	8.1	0		366
-15593	886	Lashi	tsham³³	tsham³³	hair of head	hair of head		1.2.3	8.1.1	0	D5	366
-15594	886	Lashi	tsho³³ ȵa⁵³	tsho³³ ȵa⁵³	beard / moustache	beard / moustache		1.2.5.5	8.1.2	0		370,m
-15595	886	Lashi	nua̱t⁵⁵ mə³³	nua̱t⁵⁵ mə³³	beard	beard		1.2.5.5	8.1.2.1	0		471,363
-15597	886	Lashi	nua̱t⁵⁵ mou⁵⁵	nua̱t⁵⁵ mou⁵⁵	moustache	moustache		1.2.5.5	8.1.2.3	0		471,363
-15598	886	Lashi	mou⁵⁵	mou⁵⁵	body hair	body hair		1.6.1	8.1.3	0		363
-15599	886	Lashi	lɔʔ³¹ tʃhap⁵⁵ mou⁵⁵	lɔʔ³¹ tʃhap⁵⁵ mou⁵⁵	underarm hair	underarm hair		1.5.1.2.3	8.1.3.1	0		m,m,363
-15600	886	Lashi	jaŋ³¹-kaŋ³¹ mou⁵⁵	jaŋ³¹-kaŋ³¹ mou⁵⁵	chest hair	chest hair		1.4.4.5	8.1.3.2	0		288,2000,363
-15601	886	Lashi	khjei³³ mou⁵⁵	khjei³³ mou⁵⁵	leg hair	leg hair		1.5.7	8.1.3.3	0		335,363
-15602	886	Lashi	sei⁵⁵ jɔ³¹ ŋjou⁵³ mou⁵⁵	sei⁵⁵ jɔ³¹ ŋjou⁵³ mou⁵⁵	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		m,m,m,363
-15603	886	Lashi	ʃǒ⁵⁵ mou⁵⁵	ʃǒ⁵⁵ mou⁵⁵	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		
-15604	886	Lashi	(mjaŋ³³) tsham³³	(mjaŋ³³) tsham³³	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		1431,366
-15605	886	Lashi	nua̱t⁵⁵ mou⁵⁵	nua̱t⁵⁵ mou⁵⁵	whiskers (of animal)	whiskers (of animal)		1.2.5.5	8.1.7	0		471,363
-15606	886	Lashi	ʃǒ⁵⁵ ku̱k⁵⁵	ʃǒ⁵⁵ ku̱k⁵⁵	skin	skin		1.6.5	8.2	0		34,586
-15607	886	Lashi	pei³¹ ky⁵⁵	pei³¹ ky⁵⁵	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		800,615
-15608	886	Lashi	ŋɔʔ³¹ mui⁵⁵	ŋɔʔ³¹ mui⁵⁵	mole	mole		2.2.7	8.2.3.3	0		m,2447
-15609	886	Lashi	maŋ³³ kho³³	maŋ³³ kho³³	age spot / liver spot	age spot  /  liver spot		6.2	8.2.3.6	0		
-15610	886	Lashi	tam³¹ kho³³	tam³¹ kho³³	scar	scar		1.6.5.3	8.2.3.7	0		
-15611	886	Lashi	jɔ:³³	jɔ:³³	itch  / be itchy	itch   /  be itchy	v.	1.6.5.5	8.2.3.10	0		1456
-15612	886	Lashi	ŋə̌³¹ pjɛ̱n³³	ŋə̌³¹ pjɛ̱n³³	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		1455,m
-15613	886	Lashi	ʃə̌⁵⁵ ku̱k⁵⁵	ʃə̌⁵⁵ ku̱k⁵⁵	hide / leather	hide  /  leather		1.6.5.1	8.2.6	0		34,586
-15614	886	Lashi	tshu³³	tshu³³	fat	fat		1.6.4	8.3	0		42
-15615	886	Lashi	u̱³³ tshu³³	u̱³³ tshu³³	fat intestines / omentum	fat intestines  /  omentum		1.6.4	8.3.1	0		2102,42
-15616	886	Lashi	tshu³³	tshu³³	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		42
-15617	886	Lashi	ʃǒ⁵⁵ |jou³³	ʃǒ⁵⁵ jou³³	bone	bone		1.6.3	8.4	0		234
-15618	886	Lashi	ʃǒ⁵⁵ |jou³³	ʃǒ⁵⁵ jou³³	skeleton	skeleton		1.6.3.1	8.4.1	0		234
-15619	886	Lashi	jou³³ nə̱:⁵³	jou³³ nə̱:⁵³	cartilage / grist	cartilage  /  grist		1.6.3.4	8.4.4	0		232,275
-15620	886	Lashi	ʃǒ⁵⁵ kji³³	ʃǒ⁵⁵ kji³³	ligament (bone to bone)	ligament (bone to bone)		1.6.3	8.6	0		34,372
-15621	886	Lashi	sui⁵⁵	sui⁵⁵	blood	blood		1.6.2	8.7	0		230
-15622	886	Lashi	sui⁵⁵ khjo³³	sui⁵⁵ khjo³³	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		230,536
-15623	886	Lashi	sui⁵⁵ thu:ʔ⁵⁵	sui⁵⁵ thu:ʔ⁵⁵	bleed	bleed	v.	1.6.2	8.7.2	0		230,m
-15624	886	Lashi	ʃo⁵⁵	ʃo⁵⁵	muscle	muscle		1.6.6.2	8.8	0		530
-15625	886	Lashi	jou³³ mjɔʔ³¹	jou³³ mjɔʔ³¹	joint	joint		1.5.8	8.9	0		232,681
-15626	886	Lashi	ʃǒ⁵⁵ kji³³	ʃǒ⁵⁵ kji³³	nerve	nerve		1.6.6.3	8.10	0		34,372
-15628	886	Lashi	jou³³ khjaŋ³³	jou³³ khjaŋ³³	spinal cord	spinal cord		1.4.8.2	9.1.1	0	D1	232,459
-15629	886	Lashi	jou³³ khjaŋ³³	jou³³ khjaŋ³³	marrow	marrow		1.6.3.5	9.1.2	0		232,459
-15630	886	Lashi	tsɔ̱t⁵⁵	tsɔ̱t⁵⁵	lung	lung		1.7.2	9.2	0		458
-15631	886	Lashi	sɔʔ⁵⁵ ʃɛ̱:³³	sɔʔ⁵⁵ ʃɛ̱:³³	breathe	breathe	v.	1.1.2.2	9.2.1	0		32,m
-15632	886	Lashi	ʃɛ̱:³³	ʃɛ̱:³³	pant	pant	v.	1.1.2.2	9.2.2	0		32
-15633	886	Lashi	mu:t³¹	mu:t³¹	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		503
-15634	886	Lashi	ʃɛ̌⁵⁵ ka̱n⁵⁵	ʃɛ̌⁵⁵ ka̱n⁵⁵	phlegm	phlegm		1.8.3	9.2.5	0		m,539
-15635	886	Lashi	nə̱k⁵⁵ lɔm³³	nə̱k⁵⁵ lɔm³³	heart	heart		1.7.1	9.3	0		1385,1381
-15636	886	Lashi	nə̱k⁵⁵ lɔm³³	nə̱k⁵⁵ lɔm³³	heartbeat	heartbeat		1.7.1.1	9.3.1	0		1385,1381
-15637	886	Lashi	sui⁵⁵ khjo³³	sui⁵⁵ khjo³³	pulse	pulse		1.7.1.1	9.3.2	0		230,m
-15638	886	Lashi	səŋ⁵⁵	səŋ⁵⁵	liver	liver		1.7.3	9.5	0		1390
-15639	886	Lashi	u̱⁵⁵ nuʔ³¹	u̱⁵⁵ nuʔ³¹	bile	bile		1.7.3.1	9.5.1	0		m,m
-15640	886	Lashi	tʃɛʔ³¹ pɔŋ³³	tʃɛʔ³¹ pɔŋ³³	urinary bladder	urinary bladder		1.7.8	9.7	0		
-15641	886	Lashi	je̱i⁵⁵	je̱i⁵⁵	urine	urine		1.8.4	9.7.1	0		650
-15642	886	Lashi	tə̱:k⁵⁵	tə̱:k⁵⁵	urinate	urinate	v.	1.5.3.2	9.7.2	0		
-15643	886	Lashi	khjei⁵⁵ pham⁵⁵	khjei⁵⁵ pham⁵⁵	stomach	stomach		1.7.6	9.10	0		2125,137
-15644	886	Lashi	u̱³³	u̱³³	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		2102
-15645	886	Lashi	u̱³³ kji:³³	u̱³³ kji:³³	large intestine	large intestine		1.7.7	9.11.1	0		2102,m
-15646	886	Lashi	u̱³³ tso³³	u̱³³ tso³³	small intestine	small intestine		9.7.2	9.11.2	0		2102,m
-15647	886	Lashi	tʃhə̌⁵⁵ khuŋ⁵⁵ tuaŋ³³	tʃhə̌⁵⁵ khuŋ⁵⁵ tuaŋ³³	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		577,820,822
-15648	886	Lashi	khjei⁵⁵	khjei⁵⁵	feces / shit	feces  /  shit		1.8.5	9.12.1	0		572
-15649	886	Lashi	khje:⁵⁵ nɔ:ʔ³¹	khje:⁵⁵ nɔ:ʔ³¹	meconium / baby shit	meconium  /  baby shit		1.8.5	9.12.2	0		
-15650	886	Lashi	ʃɔ̱:³³	ʃɔ̱:³³	defecate	defecate	v.	1.8.5.4	9.12.3	0		
-15651	886	Lashi	tʃuʔ³¹	tʃuʔ³¹	genitalia / pudenda	genitalia  /  pudenda		1.9.1	10.1	0		1356
-15652	886	Lashi	lo³³	lo³³	male	male		1.9.6.1	10.3	0		1624
-15653	886	Lashi	ŋji̱⁵⁵ tʃei⁵⁵	ŋji̱⁵⁵ tʃei⁵⁵	testicle	testicle			10.3.5	0		545,3559
-15654	886	Lashi	ŋji̱⁵⁵ mou⁵⁵	ŋji̱⁵⁵ mou⁵⁵	male pubic hair	male pubic hair			10.3.6	0		m,363
-15655	886	Lashi	tɔ:ŋ³³	tɔ:ŋ³³	castrate	castrate	v.	1.9.2.3	10.3.9	0		
-15656	886	Lashi	tsəŋ³¹	tsəŋ³¹	female	female		1.9.3	10.4	0		
-15657	886	Lashi	mji̱⁵³	mji̱⁵³	female	female		1.9.3	10.4	0		1618
-15658	886	Lashi	tʃuʔ³¹ mou⁵⁵	tʃuʔ³¹ mou⁵⁵	female pubic hair	female pubic hair			10.4.5	0		m,363
-15659	886	Lashi	tso³³ sɔ̱t⁵⁵	tso³³ sɔ̱t⁵⁵	womb	womb			10.4.8	0		2727,679
-15660	886	Lashi	kjei³¹	kjei³¹	amniotic fluid	amniotic fluid			10.4.10	0		
-15661	886	Lashi	wɔm³³ pu:t³¹	wɔm³³ pu:t³¹	pregnant	pregnant	be v.	1.9.6.1	10.4.14	0		137,1855
-15662	886	Lashi	su:t⁵⁵	su:t⁵⁵	birth, give	birth, give		1.1.2	10.4.15	0		3485
-15663	886	Lashi	u̱⁵³	u̱⁵³	egg (of animal)	egg (of animal)			10.4.16	0		301
-15664	886	Lashi	khjuŋ⁵⁵ tsa̱:u⁵⁵	khjuŋ⁵⁵ tsa̱:u⁵⁵	cough	cough		1.8.3.3	11.1	0		
-15665	886	Lashi	ə̱k⁵⁵ thuŋ⁵⁵	ə̱k⁵⁵ thuŋ⁵⁵	hiccup	hiccup		1.8.3.5	11.2	0		3443,m
-15666	886	Lashi	a⁵⁵ |tʃhou⁵³ |tʃhou⁵³	a⁵⁵ tʃhou⁵³ tʃhou⁵³	sneeze	sneeze		1.8.2.1	11.3	0		2131
-15667	886	Lashi	jɔ̱p⁵⁵ khu⁵³ khu⁵³	jɔ̱p⁵⁵ khu⁵³ khu⁵³	snore	snore		1.8.2.2	11.4	0		127,m,m
-15668	886	Lashi	ə̱k⁵⁵ thuŋ⁵⁵	ə̱k⁵⁵ thuŋ⁵⁵	burp / belch	burp  /  belch		1.8.3	11.6	0		3443,m
-15669	886	Lashi	khjei⁵⁵ xu:p⁵⁵	khjei⁵⁵ xu:p⁵⁵	fart	fart		1.8.5.2	11.7	0		572,m
-15670	886	Lashi	ji:³¹	ji:³¹	laugh	laugh		1.8.8.1	11.9	0		1108
-15671	886	Lashi	na:n⁵⁵	na:n⁵⁵	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
-15672	886	Lashi	nɔ:³¹	nɔ:³¹	sick / be ill / hurt	sick  /  be ill  /  hurt	be v.	1.1.5.1	12.2	0		160
-15673	886	Lashi	pjə:ŋ³¹	pjə:ŋ³¹	numb /  be paralyzed	numb  /   be paralyzed	be v.	1.5.11	12.3	0		
-15674	886	Lashi	pɔ:ŋ³³	pɔ:ŋ³³	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		163?
-15675	886	Lashi	xua̱t⁵⁵	xua̱t⁵⁵	pus	pus		1.8.6.1	12.5	0		m
-15676	886	Lashi	tho̱³³	tho̱³³	hand span	hand span		1.5.9.4	13.2	0		1281
-15677	886	Lashi	tuŋ³³	tuŋ³³	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		710
-15678	886	Lashi	lam³¹	lam³¹	cord / fathom	cord  /  fathom		1.5.9.5	13.4	0		1310
-15679	886	Lashi	lam³¹	lam³¹	fingertip to fingertip	fingertip to fingertip	v.	1.5.6	13.4.2	0		1310
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+15429	886	Lashi	kuŋ³¹	kuŋ³¹	body	body			1.1.1	1.1	0			1
+15430	886	Lashi	nuŋ⁵⁵ khuŋ³³	nuŋ⁵⁵ khuŋ³³	back	back			1.4.8	1.4	0		D1	203,219
+15431	886	Lashi	kuŋ³³	kuŋ³³	torso / trunk	torso  /  trunk			1.5.3.2	1.6	0	jbl3		1
+15432	886	Lashi	khjei³³ lɔʔ³¹	khjei³³ lɔʔ³¹	limbs / arms and legs	limbs  /  arms and legs			1.5.3.1	1.7	0	jbl3		
+15433	886	Lashi	ta̱ŋ⁵⁵ kɔ:i⁵⁵	ta̱ŋ⁵⁵ kɔ:i⁵⁵	lap	lap			1.4.4.2	1.8	0			289,2326
+15434	886	Lashi	jaŋ³¹ kaŋ³¹	jaŋ³¹ kaŋ³¹	bosom	bosom			1.4.4.2	1.9	0			m,m
+15435	886	Lashi	ta̱ŋ⁵⁵ kɔ:i⁵⁵ khjo³³	ta̱ŋ⁵⁵ kɔ:i⁵⁵ khjo³³	groin / loins	groin  /  loins			1.4.9	1.10	0	jbl3		225,m,m
+15436	886	Lashi	ʃo⁵⁵	ʃo⁵⁵	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		34
+15437	886	Lashi	tə³¹ tsə⁵⁵	tə³¹ tsə⁵⁵	alive / be living	alive  /  be living			1.1.2.1	1.12	0	jbl3		m,71
+15438	886	Lashi	ʃə̱i³³ tsə⁵⁵	ʃə̱i³³ tsə⁵⁵	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		27,m
+15439	886	Lashi	maŋ³¹	maŋ³¹	corpse / dead body	corpse  /  dead body			1.1.6.1	1.14	0	jbl3		17
+15440	886	Lashi	maŋ³¹	maŋ³¹	carcass / dead animal	carcass  /  dead animal			1.1.6.1	1.15	0	jbl3		17
+15441	886	Lashi	ju̱:p⁵⁵	ju̱:p⁵⁵	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		127
+15442	886	Lashi	ʃu̱:p⁵⁵	ʃu̱:p⁵⁵	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		127
+15443	886	Lashi	pu:n³³	pu:n³³	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		151
+15444	886	Lashi	mɔ:ʔ³¹	mɔ:ʔ³¹	dream	dream	v.	v.	1.1.4.2	1.18	0			126
+15445	886	Lashi	wo̱⁵⁵ lɔ̱m⁵³	wo̱⁵⁵ lɔ̱m⁵³	head	head			1.2.1	2.1	0			385,690
+15446	886	Lashi	wo̱⁵⁵ nə̱:⁵³	wo̱⁵⁵ nə̱:⁵³	fontanel	fontanel			1.2.1.3	2.3	0			385,1197
+15447	886	Lashi	wo̱⁵⁵ ʃǒ⁵⁵ jou³³	wo̱⁵⁵ ʃǒ⁵⁵ jou³³	skull	skull			1.2.1.1	2.4	0			385,p,234
+15448	886	Lashi	u̱⁵⁵ nuʔ³¹	u̱⁵⁵ nuʔ³¹	brain	brain			1.2.4	2.5	0			385,243
+15449	886	Lashi	tsham³³	tsham³³	hair of head	hair of head			1.2.3	2.7	0		D1	366
+15450	886	Lashi	wo̱⁵⁵ ku̱k⁵⁵	wo̱⁵⁵ ku̱k⁵⁵	scalp	scalp			1.2.1.5	2.8	0			385,m
+15451	886	Lashi	kjɔʔ³¹ pjɛn³³	kjɔʔ³¹ pjɛn³³	comb (of rooster)	comb (of rooster)			1.2.2.1	2.9	0			1606,2016
+15452	886	Lashi	khjou³³	khjou³³	horn (of animal)	horn (of animal)			1.2.2	2.10	0			819
+15453	886	Lashi	tshat⁵⁵ khjou³³	tshat⁵⁵ khjou³³	antler (of deer)	antler (of deer)			1.2.2	2.11	0			2739,819
+15454	886	Lashi	mjɔʔ³¹ tuaŋ³³	mjɔʔ³¹ tuaŋ³³	face	face			1.2.5	3.1	0			681,2031
+15455	886	Lashi	ŋə̌⁵⁵ laŋ⁵⁵	ŋə̌⁵⁵ laŋ⁵⁵	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		356,392
+15456	886	Lashi	mjɔʔ³¹	mjɔʔ³¹	eye	eye			1.2.6	3.4	0			681
+15457	886	Lashi	mjɔʔ³¹ ku̱k⁵⁵	mjɔʔ³¹ ku̱k⁵⁵	eyelid	eyelid			1.2.6.4	3.4.1	0			681,586
+15458	886	Lashi	mjɔʔ³¹ tʃham⁵⁵	mjɔʔ³¹ tʃham⁵⁵	eyeball	eyeball			1.2.6.1	3.4.2	0			681,m
+15459	886	Lashi	mjɔʔ³¹ mɔ:i⁵⁵	mjɔʔ³¹ mɔ:i⁵⁵	iris	iris			1.2.6.2	3.4.2.1	0			681,m
+15460	886	Lashi	mjɔʔ³¹ tso³³	mjɔʔ³¹ tso³³	pupil	pupil			1.2.6.2	3.4.2.2	0			681,2727
+15461	886	Lashi	mjɔʔ³¹ phju:³³	mjɔʔ³¹ phju:³³	white of eye	white of eye			1.2.6.3	3.4.2.3	0			681,1235
+15462	886	Lashi	mjɔʔ³¹ tsham³³	mjɔʔ³¹ tsham³³	eyebrow	eyebrow			1.2.6.6	3.4.3	0			681,366
+15463	886	Lashi	mjɔʔ³¹ tsham³³	mjɔʔ³¹ tsham³³	eyelash	eyelash			1.2.6.5	3.4.4	0			681,366
+15464	886	Lashi	la:p³¹	la:p³¹	blink	blink	v.	v.	1.2.6.12	3.4.5	0			m
+15465	886	Lashi	ŋou³¹ pi³¹	ŋou³¹ pi³¹	tears	tears	n	n	1.2.6.7	3.4.6	0			681,187
+15466	886	Lashi	mjɔʔ³¹ khjei⁵⁵	mjɔʔ³¹ khjei⁵⁵	eye sand	eye sand			1.2.6.8	3.4.7	0			681,572
+15467	886	Lashi	ŋa:u³¹	ŋa:u³¹	cry / weep	cry  /  weep	v.	v.	1.8.8.2	3.4.8	0	jbl3		1104
+15468	886	Lashi	jo:⁵⁵	jo:⁵⁵	look	look	v.	v.	1.2.6.11	3.4.9	0			m
+15469	886	Lashi	mja:ŋ³¹	mja:ŋ³¹	see	see	v.	v.	1.2.6.10	3.4.9	0			1227
+15470	886	Lashi	tʃi:t³¹	tʃi:t³¹	blind	blind			1.2.6.14.2	3.4.10	0			1401
+15471	886	Lashi	no̱³³	no̱³³	nose	nose			1.2.8	3.5	0			803
+15472	886	Lashi	no̱³³ khjuŋ⁵⁵	no̱³³ khjuŋ⁵⁵	nostril	nostril			1.2.8.1	3.5.2	0			803,809
+15473	886	Lashi	no̱³³ mou⁵⁵	no̱³³ mou⁵⁵	nose hair	nose hair			1.2.8	3.5.4	0			803,363
+15474	886	Lashi	vuʔ³¹ no̱³³	vuʔ³¹ no̱³³	snout (pig)	snout (pig)			1.2.8	3.5.5	0			1006,471
+15475	886	Lashi	ʃə̌⁵⁵ ka̱n⁵⁵	ʃə̌⁵⁵ ka̱n⁵⁵	liquid mucus	liquid mucus			3.2.3	3.5.6	0			m,539
+15476	886	Lashi	ʃə̌⁵⁵ ka̱n⁵⁵	ʃə̌⁵⁵ ka̱n⁵⁵	solid mucus	solid mucus			1.1.5	3.5.7	0			m,539
+15477	886	Lashi	khja:u⁵³	khja:u⁵³	blow nose	blow nose	v.	v.	1.3.1.4	3.5.8	0			
+15478	886	Lashi	na:m³¹	na:m³¹	smell / sniff	smell  /  sniff	v.	v.	1.2.8.5	3.5.9	0	jbl3		1415
+15479	886	Lashi	nə̌³³ khjap⁵⁵	nə̌³³ khjap⁵⁵	ear	ear			1.2.7	3.6	0			811,823
+15480	886	Lashi	nə̌³³ jam³¹	nə̌³³ jam³¹	outer ear	outer ear			9.2	3.6.2	0			811,m
+15481	886	Lashi	nə̌³³ tuaŋ³³ khou³³	nə̌³³ tuaŋ³³ khou³³	inner ear	inner ear			9.2.5	3.6.3	0			811,822,m
+15482	886	Lashi	nə̌³³ tuaŋ³³	nə̌³³ tuaŋ³³	ear canal	ear canal			1.2.7	3.6.4	0			811,822
+15483	886	Lashi	nə̌³³ khjei⁵⁵	nə̌³³ khjei⁵⁵	earwax	earwax			1.2.7.3	3.6.6	0			811,572
+15484	886	Lashi	kjɔ:³³	kjɔ:³³	hear	hear	v.	v.	1.2.7.4	3.6.7	0			1411
+15485	886	Lashi	jɔ:³³ kjɔ:³³	jɔ:³³ kjɔ:³³	hear	hear	v.	v.	1.2.7.4	3.6.7	0			m,1411
+15486	886	Lashi	tʃi:t³¹	tʃi:t³¹	deaf	deaf			1.2.7.5	3.6.8	0			m
+15487	886	Lashi	nua̱t⁵⁵	nua̱t⁵⁵	mouth	mouth			1.3.1	3.7	0			471
+15488	886	Lashi	ŋa̱m³³	ŋa̱m³³	palate	palate			1.3.1.1	3.7.1	0			1720
+15489	886	Lashi	ŋjəŋ³¹	ŋjəŋ³¹	gums	gums			1.3.4.3	3.7.3	0			504
+15490	886	Lashi	ɣə⁵⁵	ɣə⁵⁵	saliva	saliva			1.8.3	3.7.5	0			
+15491	886	Lashi	tsɔ:³³	tsɔ:³³	eat	eat	v.	v.	1.5.3.2	3.7.6	0			36
+15492	886	Lashi	ʃu:k⁵⁵	ʃu:k⁵⁵	drink	drink	v.	v.		3.7.7	0			3462
+15493	886	Lashi	khjuŋ⁵⁵ xə:⁵³	khjuŋ⁵⁵ xə:⁵³	thirsty	thirsty	be v.	be v.	1.1.3.1	3.7.8	0			1825,3298
+15494	886	Lashi	mu:t⁵⁵	mu:t⁵⁵	hungry	hungry	be v.	be v.	1.1.3	3.7.9	0			99
+15495	886	Lashi	kji:³³	kji:³³	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		112
+15496	886	Lashi	py:³³	py:³³	spit	spit	v.	v.	1.8.3	3.7.11	0			
+15497	886	Lashi	py:³³ ta⁵⁵	py:³³ ta⁵⁵	vomit	vomit	n.	n.	1.8.3.2	3.7.12	0			1145,m
+15498	886	Lashi	py:³³	py:³³	vomit	vomit	v.	v.	1.8.3.2	3.7.13	0			1145
+15499	886	Lashi	ŋu:m³¹	ŋu:m³¹	hold in mouth	hold in mouth	v.	v.	1.3.4.4	3.7.14	0			1772
+15500	886	Lashi	xɔ:⁵³	xɔ:⁵³	gape / open mouth	gape  /  open mouth	v.	v.	1.3.1	3.7.15	0	jbl3		1716
+15501	886	Lashi	a³¹ xam⁵⁵ xam⁵⁵	a³¹ xam⁵⁵ xam⁵⁵	yawn	yawn	v.	v.	1.3.1.3	3.7.16	0			p,1715,1715
+15502	886	Lashi	jo̱³³	jo̱³³	tongue	tongue			1.3.3	3.8	0			623
+15503	886	Lashi	ta̱:i⁵³	ta̱:i⁵³	speak	speak	v.	v.	8.5.10.1	3.8.1	0			
+15504	886	Lashi	wo̱t⁵⁵ tə̱⁵⁵	wo̱t⁵⁵ tə̱⁵⁵	stutter / stammer	stutter  /  stammer			8.5.4.5	3.8.2	0	jbl3		
+15505	886	Lashi	tʃi:t³¹	tʃi:t³¹	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		
+15506	886	Lashi	jɔ:ʔ³¹	jɔ:ʔ³¹	lick	lick	v.	v.	1.3.3.1	3.8.4	0			629
+15507	886	Lashi	nua̱t⁵⁵ ku̱k⁵⁵	nua̱t⁵⁵ ku̱k⁵⁵	lip	lip			1.3.2	3.9	0			471,586
+15508	886	Lashi	thɔʔ⁵⁵ tauŋ³¹	thɔʔ⁵⁵ tauŋ³¹	upper lip	upper lip			9.2.1	3.9.1	0			
+15509	886	Lashi	kjei⁵⁵tauŋ³¹	kjei⁵⁵tauŋ³¹	lower lip	lower lip				3.9.2	0			
+15510	886	Lashi	nua̱t⁵⁵	nua̱t⁵⁵	beak / bill	beak / bill			1.3.1.2	3.9.3	0			471
+15511	886	Lashi	ji:³¹	ji:³¹	smile	smile	v.	v.	1.8.8.1	3.9.4	0			1108
+15512	886	Lashi	tsɿ³¹	tsɿ³¹	tooth	tooth			1.3.4	3.10	0			635
+15513	886	Lashi	ʃə̱k⁵⁵ tsɿ³¹	ʃə̱k⁵⁵ tsɿ³¹	tooth (incisor)	tooth (incisor)			1.3.4	3.10.1	0			m,635
+15514	886	Lashi	tsɿ³¹ thu:ŋ⁵⁵	tsɿ³¹ thu:ŋ⁵⁵	molar	molar			1.3.4.2	3.10.2	0			635,2813
+15515	886	Lashi	khui⁵⁵ tsɿ³¹	khui⁵⁵ tsɿ³¹	eyetooth / canine tooth	eyetooth  /  canine tooth			1.3.4.1	3.10.3	0	jbl3		1764,635
+15516	886	Lashi	tsɿ³¹ thaŋ³³	tsɿ³¹ thaŋ³³	tooth (wisdom)	tooth (wisdom)			1.3.4	3.10.4	0			635,3316
+15517	886	Lashi	nou⁵⁵ tsɿ³¹	nou⁵⁵ tsɿ³¹	baby tooth	baby tooth			4.2.11	3.10.5	0			
+15518	886	Lashi	tshaŋ³³ tsɿ³¹	tshaŋ³³ tsɿ³¹	tusk (of elephant, boar)	tusk (of elephant, boar)			1.3.4.1	3.10.6	0			2731,635
+15519	886	Lashi	ŋa:t³¹	ŋa:t³¹	bite	bite	v.	v.	1.3.4.4	3.10.7	0			1761
+15520	886	Lashi	nɛ̱:⁵⁵	nɛ̱:⁵⁵	chew	chew	v.	v.	1.3.4	3.10.8	0			
+15521	886	Lashi	mjɔʔ³¹ tuaŋ³³	mjɔʔ³¹ tuaŋ³³	cheek	cheek			1.2.5.2	3.11	0			681,286
+15522	886	Lashi	ŋa̱m³³ thaŋ³³	ŋa̱m³³ thaŋ³³	chin	chin			1.2.5.3	3.12	0			2059,286
+15523	886	Lashi	ləŋ³¹ tsəŋ³³	ləŋ³¹ tsəŋ³³	neck	neck			1.4.2	4.1	0			479,255
+15524	886	Lashi	khjuŋ⁵⁵	khjuŋ⁵⁵	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		489
+15525	886	Lashi	sɔʔ⁵⁵ khjo³³	sɔʔ⁵⁵ khjo³³	windpipe / trachea	windpipe  /  trachea			1.3.5.2	4.2.1	0	jbl3		32,489
+15526	886	Lashi	tsɔ:³³ khjo³³	tsɔ:³³ khjo³³	esophagus	esophagus			1.3.5.5	4.2.2	0			
+15527	886	Lashi	mja̱:u³³	mja̱:u³³	swallow	swallow	v.	v.	1.3.5.6	4.2.3	0			627
+15528	886	Lashi	kjɔʔ³¹ khjei⁵⁵ pham⁵⁵	kjɔʔ³¹ khjei⁵⁵ pham⁵⁵	gizzard / crop of bird	gizzard  /  crop of bird			1.7.6.1	4.2.4	0	jbl3		
+15529	886	Lashi	jaŋ³¹ kaŋ³¹	jaŋ³¹ kaŋ³¹	chest	chest			1.4.4.3	5.1	0			288,2000
+15530	886	Lashi	nam³¹ tʃham⁵⁵ jou³³	nam³¹ tʃham⁵⁵ jou³³	rib cage	rib cage			1.4.4.3	5.1.1	0			553,558,232
+15531	886	Lashi	nam³¹ tʃham⁵⁵ jou³³	nam³¹ tʃham⁵⁵ jou³³	rib	rib			1.4.4.3	5.1.2	0			553,558,232
+15532	886	Lashi	lɔʔ³¹ sa̱n³³	lɔʔ³¹ sa̱n³³	shoulder	shoulder			1.4.3	5.3	0			695,3348
+15533	886	Lashi	lɔʔ³¹ sa̱n³³ jou³³	lɔʔ³¹ sa̱n³³ jou³³	shoulder blade / scapula	shoulder blade  /  scapula			1.4.3.2	5.3.1	0	jbl3		695,3348,232
+15534	886	Lashi	nou⁵⁵	nou⁵⁵	breast	breast			1.4.4.3	5.4	0			253
+15535	886	Lashi	nou⁵⁵ sɿ⁵⁵	nou⁵⁵ sɿ⁵⁵	nipple	nipple				5.4.1	0			253,1019
+15536	886	Lashi	nou⁵⁵	nou⁵⁵	udder (of cow, goat)	udder (of cow, goat)				5.4.2	0			253
+15537	886	Lashi	nou⁵⁵ jiŋ³¹	nou⁵⁵ jiŋ³¹	milk	milk				5.4.3	0			253,m
+15538	886	Lashi	ʃɛ̱:³³	ʃɛ̱:³³	suck	suck	v.	v.	1.3.2.1	5.4.5	0			5541
+15539	886	Lashi	tʃu̱:k⁵⁵	tʃu̱:k⁵⁵	nurse / suckle	nurse  /  suckle	v.	v.	4.2.1.5	5.4.6	0	jbl3		5540
+15540	886	Lashi	nuŋ⁵⁵ khuŋ³³	nuŋ⁵⁵ khuŋ³³	back	back			1.4.8	5.5	0	jbl5	HIDE	DUPE IN SOURCE
+15541	886	Lashi	kjei³¹ mɔn³¹ nuŋ⁵⁵ khuŋ³³	kjei³¹ mɔn³¹ nuŋ⁵⁵ khuŋ³³	upper back	upper back			9.2.1	5.5.1	0			
+15543	886	Lashi	phji⁵⁵ tɔm³³	phji⁵⁵ tɔm³³	small of back	small of back			1.4.8.1	5.5.3	0			1361,1362
+15544	886	Lashi	nuŋ⁵⁵ khuŋ³³ jou³³	nuŋ⁵⁵ khuŋ³³ jou³³	backbone / spine	backbone / spine			1.4.8.2	5.5.4	0			203,219,232
+15545	886	Lashi	jou³³ khjaŋ³³	jou³³ khjaŋ³³	spinal cord	spinal cord			1.4.8.2	5.5.5	0	jbl5	HIDE	DUPE IN SOURCE
+15546	886	Lashi	taŋ³¹ kou⁵⁵	taŋ³¹ kou⁵⁵	hunchback	hunchback			1.4.8.3	5.5.6	0			m,m
+15547	886	Lashi	phji⁵⁵ tɔm³³	phji⁵⁵ tɔm³³	waist	waist			1.4.6	5.6	0			1361,1362
+15548	886	Lashi	wɔm³³ tou³³	wɔm³³ tou³³	belly / abdomen	belly  /  abdomen			1.4.7	5.7	0	jbl3		137,m
+15549	886	Lashi	tʃhɔʔ⁵⁵	tʃhɔʔ⁵⁵	navel	navel			1.9.4	5.7.1	0			525
+15550	886	Lashi	tʃhə̌⁵⁵ khuŋ⁵⁵	tʃhə̌⁵⁵ khuŋ⁵⁵	hips	hips			1.4.9.2	5.8.1	0			215,219
+15551	886	Lashi	tʃhə̌⁵⁵ khuŋ⁵⁵ jou³³	tʃhə̌⁵⁵ khuŋ⁵⁵ jou³³	hipbone	hipbone			1.4.9.2	5.8.2	0			215,219,232
+15552	886	Lashi	ta̱ŋ⁵⁵ pou⁵⁵ pɔ̱n³³	ta̱ŋ⁵⁵ pou⁵⁵ pɔ̱n³³	haunches (of animal)	haunches (of animal)			1.4.9.2	5.8.3	0			m,m,m
+15553	886	Lashi	ta̱ŋ⁵⁵ pou⁵⁵ ʃo⁵⁵	ta̱ŋ⁵⁵ pou⁵⁵ ʃo⁵⁵	rump	rump			1.4.10	5.10	0			225,404,m
+15554	886	Lashi	tʃhə̌⁵⁵ khuŋ⁵⁵	tʃhə̌⁵⁵ khuŋ⁵⁵	buttocks	buttocks			1.4.10	5.10.1	0			215,219
+15555	886	Lashi	ʃə̌⁵⁵ mji³³	ʃə̌⁵⁵ mji³³	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			34,1288
+15556	886	Lashi	lɔʔ³¹ pu⁵³	lɔʔ³¹ pu⁵³	arm	arm			1.5.1.2	6.1	0			695,1327
+15557	886	Lashi	lɔʔ³¹ tʃhap⁵⁵	lɔʔ³¹ tʃhap⁵⁵	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		
+15558	886	Lashi	kji̱:n³¹	kji̱:n³¹	tickle	tickle	v.	v.	1.5.1.2.4	6.1.1.1	0			
+15559	886	Lashi	lɔʔ³¹ pu⁵³	lɔʔ³¹ pu⁵³	upperarm	upperarm			1.5.1.2.1	6.1.2	0			
+15561	886	Lashi	lɔʔ³¹ thuŋ⁵⁵ jou³³	lɔʔ³¹ thuŋ⁵⁵ jou³³	elbow bone	elbow bone			1.5.8.3	6.1.4.1	0			695,m,m
+15562	886	Lashi	lɔʔ³¹ mjɔʔ³¹	lɔʔ³¹ mjɔʔ³¹	wrist	wrist			1.5.8.1	6.1.6	0			695,681
+15563	886	Lashi	lɔʔ³¹	lɔʔ³¹	hand	hand			1.5.1.1	6.1.7	0			695
+15564	886	Lashi	lɔʔ³¹ nuŋ⁵⁵ khuŋ³³	lɔʔ³¹ nuŋ⁵⁵ khuŋ³³	back of hand	back of hand			1.5.1.1.2	6.1.7.2	0			695,203,219
+15565	886	Lashi	lɔʔ³¹ tsɔ̱p⁵⁵	lɔʔ³¹ tsɔ̱p⁵⁵	fist	fist			1.5.1.1.1	6.1.7.3	0			695,86
+15566	886	Lashi	lɔʔ³¹ jo³¹ lɔʔ³¹	lɔʔ³¹ jo³¹ lɔʔ³¹	right hand	right hand			1.5.3.2	6.1.7.4	0			695,2786,695
+15567	886	Lashi	lɔʔ³¹ pe̱i⁵⁵ lɔʔ³¹	lɔʔ³¹ pe̱i⁵⁵ lɔʔ³¹	left hand	left hand			1.5.3.2	6.1.7.5	0			695,2154,695
+15568	886	Lashi	tuŋ³¹	tuŋ³¹	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			711
+15569	886	Lashi	lɔʔ³¹ sə̱ŋ³³	lɔʔ³¹ sə̱ŋ³³	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			
+15570	886	Lashi	khjei³³	khjei³³	leg	leg			1.5.7	6.2	0			335
+15571	886	Lashi	ta̱ŋ⁵⁵ pou⁵⁵	ta̱ŋ⁵⁵ pou⁵⁵	thigh	thigh			1.5.7.1	6.2.1	0			
+15572	886	Lashi	ta̱ŋ⁵⁵ pou⁵⁵ ʃǒ⁵⁵ jou³³	ta̱ŋ⁵⁵ pou⁵⁵ ʃǒ⁵⁵ jou³³	thigh bone / femur	thigh bone  /  femur			1.5.7.1	6.2.1.1	0	jbl3		
+15573	886	Lashi	pɔ̱t⁵⁵ luʔ³¹	pɔ̱t⁵⁵ luʔ³¹	knee	knee			1.5.8.4	6.2.2	0			436,m
+15574	886	Lashi	pɔ̱t⁵⁵ luʔ³¹ ʃǒ⁵⁵ jou³³	pɔ̱t⁵⁵ luʔ³¹ ʃǒ⁵⁵ jou³³	knee cap / patella	knee cap  /  patella			1.5.8.4	6.2.2.1	0	jbl3		436,m,m,m
+15575	886	Lashi	khjei³³ pu⁵³	khjei³³ pu⁵³	calf	calf			1.5.7	6.2.4	0			
+15576	886	Lashi	khjei³³	khjei³³	foot	foot			1.5.2	6.2.6	0			335
+15577	886	Lashi	khjei³³ ʃǒ⁵⁵ kji³³	khjei³³ ʃǒ⁵⁵ kji³³	achilles tendon	achilles tendon			1.6.6.1	6.2.6.2	0			
+15578	886	Lashi	khjei³³ a³¹ ka̱ŋ⁵³	khjei³³ a³¹ ka̱ŋ⁵³	arch	arch			1.5.2.3	6.2.6.3	0			
+15579	886	Lashi	khjei³³ kho³³	khjei³³ kho³³	footprint	footprint			1.5.2.5	6.2.6.7	0			
+15580	886	Lashi	khjei³³ səŋ⁵⁵	khjei³³ səŋ⁵⁵	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			335,m
+15581	886	Lashi	lɔʔ³¹ sə̱ŋ³³	lɔʔ³¹ sə̱ŋ³³	paw (of animal)	paw (of animal)			1.5.4	6.2.6.9	0			
+15582	886	Lashi	khjei³³ kui⁵⁵	khjei³³ kui⁵⁵	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+15583	886	Lashi	khjei³³ kɔi⁵⁵ kɔi⁵⁵	khjei³³ kɔi⁵⁵ kɔi⁵⁵	limp	limp	v.	v.	1.5.12	6.2.8	0			
+15584	886	Lashi	lɔʔ³¹ ŋjo̱⁵⁵	lɔʔ³¹ ŋjo̱⁵⁵	finger	finger			1.5.6	7.1	0			
+15585	886	Lashi	tua̱ŋ⁵⁵ ŋjo̱⁵⁵	tua̱ŋ⁵⁵ ŋjo̱⁵⁵	index finger	index finger			1.0	7.1.1	0			
+15586	886	Lashi	lɔʔ³¹ thaŋ⁵³ ŋjo̱⁵⁵	lɔʔ³¹ thaŋ⁵³ ŋjo̱⁵⁵	little finger	little finger			9.7.2	7.1.4	0			695,m,320
+15587	886	Lashi	lɔʔ³¹ mo⁵⁵ tʃham⁵⁵	lɔʔ³¹ mo⁵⁵ tʃham⁵⁵	thumb	thumb			1.5.6.1	7.1.5	0			
+15588	886	Lashi	lɔʔ³¹ sə̱ŋ³³	lɔʔ³¹ sə̱ŋ³³	nail	nail			1.5.10	7.4	0			695,512
+15589	886	Lashi	lɔʔ³¹ sə̱ŋ³³	lɔʔ³¹ sə̱ŋ³³	fingernail	fingernail			1.5.10.1	7.4.1	0			
+15590	886	Lashi	lɔʔ³¹ sə̱ŋ³³	lɔʔ³¹ sə̱ŋ³³	claw (of animal)	claw (of animal)			1.5.10.4	7.4.3	0			695,m
+15591	886	Lashi	sə̱ŋ⁵⁵	sə̱ŋ⁵⁵	talon (of bird)	talon (of bird)			1.5.10.4	7.4.4	0			
+15592	886	Lashi	tsham³³	tsham³³	hair	hair			1.2.3	8.1	0			366
+15593	886	Lashi	tsham³³	tsham³³	hair of head	hair of head			1.2.3	8.1.1	0		D5	366
+15594	886	Lashi	tsho³³ ȵa⁵³	tsho³³ ȵa⁵³	beard / moustache	beard / moustache			1.2.5.5	8.1.2	0			370,m
+15595	886	Lashi	nua̱t⁵⁵ mə³³	nua̱t⁵⁵ mə³³	beard	beard			1.2.5.5	8.1.2.1	0			471,363
+15597	886	Lashi	nua̱t⁵⁵ mou⁵⁵	nua̱t⁵⁵ mou⁵⁵	moustache	moustache			1.2.5.5	8.1.2.3	0			471,363
+15598	886	Lashi	mou⁵⁵	mou⁵⁵	body hair	body hair			1.6.1	8.1.3	0			363
+15599	886	Lashi	lɔʔ³¹ tʃhap⁵⁵ mou⁵⁵	lɔʔ³¹ tʃhap⁵⁵ mou⁵⁵	underarm hair	underarm hair			1.5.1.2.3	8.1.3.1	0			m,m,363
+15600	886	Lashi	jaŋ³¹-kaŋ³¹ mou⁵⁵	jaŋ³¹-kaŋ³¹ mou⁵⁵	chest hair	chest hair			1.4.4.5	8.1.3.2	0			288,2000,363
+15601	886	Lashi	khjei³³ mou⁵⁵	khjei³³ mou⁵⁵	leg hair	leg hair			1.5.7	8.1.3.3	0			335,363
+15602	886	Lashi	sei⁵⁵ jɔ³¹ ŋjou⁵³ mou⁵⁵	sei⁵⁵ jɔ³¹ ŋjou⁵³ mou⁵⁵	fur (of animal)	fur (of animal)			1.6.1	8.1.4	0			m,m,m,363
+15603	886	Lashi	ʃǒ⁵⁵ mou⁵⁵	ʃǒ⁵⁵ mou⁵⁵	feather (of bird)	feather (of bird)			1.6.1.1	8.1.5	0			
+15604	886	Lashi	(mjaŋ³³) tsham³³	(mjaŋ³³) tsham³³	mane (of horse, lion)	mane (of horse, lion)			1.6.1	8.1.6	0			1431,366
+15605	886	Lashi	nua̱t⁵⁵ mou⁵⁵	nua̱t⁵⁵ mou⁵⁵	whiskers (of animal)	whiskers (of animal)			1.2.5.5	8.1.7	0			471,363
+15606	886	Lashi	ʃǒ⁵⁵ ku̱k⁵⁵	ʃǒ⁵⁵ ku̱k⁵⁵	skin	skin			1.6.5	8.2	0			34,586
+15607	886	Lashi	pei³¹ ky⁵⁵	pei³¹ ky⁵⁵	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		800,615
+15608	886	Lashi	ŋɔʔ³¹ mui⁵⁵	ŋɔʔ³¹ mui⁵⁵	mole	mole			2.2.7	8.2.3.3	0			m,2447
+15609	886	Lashi	maŋ³³ kho³³	maŋ³³ kho³³	age spot / liver spot	age spot  /  liver spot			6.2	8.2.3.6	0	jbl3		
+15610	886	Lashi	tam³¹ kho³³	tam³¹ kho³³	scar	scar			1.6.5.3	8.2.3.7	0			
+15611	886	Lashi	jɔ:³³	jɔ:³³	itch  / be itchy	itch   /  be itchy	v.	v.	1.6.5.5	8.2.3.10	0	jbl3		1456
+15612	886	Lashi	ŋə̌³¹ pjɛ̱n³³	ŋə̌³¹ pjɛ̱n³³	scales (of fish)	scales (of fish)			1.6.5.2	8.2.5	0			1455,m
+15613	886	Lashi	ʃə̌⁵⁵ ku̱k⁵⁵	ʃə̌⁵⁵ ku̱k⁵⁵	hide / leather	hide  /  leather			1.6.5.1	8.2.6	0	jbl3		34,586
+15614	886	Lashi	tshu³³	tshu³³	fat	fat			1.6.4	8.3	0			42
+15615	886	Lashi	u̱³³ tshu³³	u̱³³ tshu³³	fat intestines / omentum	fat intestines  /  omentum			1.6.4	8.3.1	0	jbl3		2102,42
+15616	886	Lashi	tshu³³	tshu³³	oil / grease (for cooking)	oil  /  grease (for cooking)			1.6.4.1	8.3.2	0	jbl3		42
+15617	886	Lashi	ʃǒ⁵⁵ |jou³³	ʃǒ⁵⁵ jou³³	bone	bone			1.6.3	8.4	0			234
+15618	886	Lashi	ʃǒ⁵⁵ |jou³³	ʃǒ⁵⁵ jou³³	skeleton	skeleton			1.6.3.1	8.4.1	0			234
+15619	886	Lashi	jou³³ nə̱:⁵³	jou³³ nə̱:⁵³	cartilage / grist	cartilage  /  grist			1.6.3.4	8.4.4	0	jbl3		232,275
+15620	886	Lashi	ʃǒ⁵⁵ kji³³	ʃǒ⁵⁵ kji³³	ligament (bone to bone)	ligament (bone to bone)			1.6.3	8.6	0			34,372
+15621	886	Lashi	sui⁵⁵	sui⁵⁵	blood	blood			1.6.2	8.7	0			230
+15622	886	Lashi	sui⁵⁵ khjo³³	sui⁵⁵ khjo³³	blood vessel / vein / artery	blood vessel  /  vein  /  artery			1.6.2.1	8.7.1	0	jbl3		230,536
+15623	886	Lashi	sui⁵⁵ thu:ʔ⁵⁵	sui⁵⁵ thu:ʔ⁵⁵	bleed	bleed	v.	v.	1.6.2	8.7.2	0			230,m
+15624	886	Lashi	ʃo⁵⁵	ʃo⁵⁵	muscle	muscle			1.6.6.2	8.8	0			530
+15625	886	Lashi	jou³³ mjɔʔ³¹	jou³³ mjɔʔ³¹	joint	joint			1.5.8	8.9	0			232,681
+15626	886	Lashi	ʃǒ⁵⁵ kji³³	ʃǒ⁵⁵ kji³³	nerve	nerve			1.6.6.3	8.10	0			34,372
+15628	886	Lashi	jou³³ khjaŋ³³	jou³³ khjaŋ³³	spinal cord	spinal cord			1.4.8.2	9.1.1	0		D1	232,459
+15629	886	Lashi	jou³³ khjaŋ³³	jou³³ khjaŋ³³	marrow	marrow			1.6.3.5	9.1.2	0			232,459
+15630	886	Lashi	tsɔ̱t⁵⁵	tsɔ̱t⁵⁵	lung	lung			1.7.2	9.2	0			458
+15631	886	Lashi	sɔʔ⁵⁵ ʃɛ̱:³³	sɔʔ⁵⁵ ʃɛ̱:³³	breathe	breathe	v.	v.	1.1.2.2	9.2.1	0			32,m
+15632	886	Lashi	ʃɛ̱:³³	ʃɛ̱:³³	pant	pant	v.	v.	1.1.2.2	9.2.2	0			32
+15633	886	Lashi	mu:t³¹	mu:t³¹	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			503
+15634	886	Lashi	ʃɛ̌⁵⁵ ka̱n⁵⁵	ʃɛ̌⁵⁵ ka̱n⁵⁵	phlegm	phlegm			1.8.3	9.2.5	0			m,539
+15635	886	Lashi	nə̱k⁵⁵ lɔm³³	nə̱k⁵⁵ lɔm³³	heart	heart			1.7.1	9.3	0			1385,1381
+15636	886	Lashi	nə̱k⁵⁵ lɔm³³	nə̱k⁵⁵ lɔm³³	heartbeat	heartbeat			1.7.1.1	9.3.1	0			1385,1381
+15637	886	Lashi	sui⁵⁵ khjo³³	sui⁵⁵ khjo³³	pulse	pulse			1.7.1.1	9.3.2	0			230,m
+15638	886	Lashi	səŋ⁵⁵	səŋ⁵⁵	liver	liver			1.7.3	9.5	0			1390
+15639	886	Lashi	u̱⁵⁵ nuʔ³¹	u̱⁵⁵ nuʔ³¹	bile	bile			1.7.3.1	9.5.1	0			m,m
+15640	886	Lashi	tʃɛʔ³¹ pɔŋ³³	tʃɛʔ³¹ pɔŋ³³	urinary bladder	urinary bladder			1.7.8	9.7	0			
+15641	886	Lashi	je̱i⁵⁵	je̱i⁵⁵	urine	urine			1.8.4	9.7.1	0			650
+15642	886	Lashi	tə̱:k⁵⁵	tə̱:k⁵⁵	urinate	urinate	v.	v.	1.5.3.2	9.7.2	0			
+15643	886	Lashi	khjei⁵⁵ pham⁵⁵	khjei⁵⁵ pham⁵⁵	stomach	stomach			1.7.6	9.10	0			2125,137
+15644	886	Lashi	u̱³³	u̱³³	intestines / bowels	intestines  /  bowels			1.7.7	9.11	0	jbl3		2102
+15645	886	Lashi	u̱³³ kji:³³	u̱³³ kji:³³	large intestine	large intestine			1.7.7	9.11.1	0			2102,m
+15646	886	Lashi	u̱³³ tso³³	u̱³³ tso³³	small intestine	small intestine			9.7.2	9.11.2	0			2102,m
+15647	886	Lashi	tʃhə̌⁵⁵ khuŋ⁵⁵ tuaŋ³³	tʃhə̌⁵⁵ khuŋ⁵⁵ tuaŋ³³	anus / rectum	anus  /  rectum			1.4.10.2	9.12	0	jbl3		577,820,822
+15648	886	Lashi	khjei⁵⁵	khjei⁵⁵	feces / shit	feces  /  shit			1.8.5	9.12.1	0	jbl3		572
+15649	886	Lashi	khje:⁵⁵ nɔ:ʔ³¹	khje:⁵⁵ nɔ:ʔ³¹	meconium / baby shit	meconium  /  baby shit			1.8.5	9.12.2	0	jbl3		
+15650	886	Lashi	ʃɔ̱:³³	ʃɔ̱:³³	defecate	defecate	v.	v.	1.8.5.4	9.12.3	0			
+15651	886	Lashi	tʃuʔ³¹	tʃuʔ³¹	genitalia / pudenda	genitalia  /  pudenda			1.9.1	10.1	0	jbl3		1356
+15652	886	Lashi	lo³³	lo³³	male	male			1.9.6.1	10.3	0			1624
+15653	886	Lashi	ŋji̱⁵⁵ tʃei⁵⁵	ŋji̱⁵⁵ tʃei⁵⁵	testicle	testicle				10.3.5	0			545,3559
+15654	886	Lashi	ŋji̱⁵⁵ mou⁵⁵	ŋji̱⁵⁵ mou⁵⁵	male pubic hair	male pubic hair				10.3.6	0			m,363
+15655	886	Lashi	tɔ:ŋ³³	tɔ:ŋ³³	castrate	castrate	v.	v.	1.9.2.3	10.3.9	0			
+15656	886	Lashi	tsəŋ³¹	tsəŋ³¹	female	female			1.9.3	10.4	0			
+15657	886	Lashi	mji̱⁵³	mji̱⁵³	female	female			1.9.3	10.4	0			1618
+15658	886	Lashi	tʃuʔ³¹ mou⁵⁵	tʃuʔ³¹ mou⁵⁵	female pubic hair	female pubic hair				10.4.5	0			m,363
+15659	886	Lashi	tso³³ sɔ̱t⁵⁵	tso³³ sɔ̱t⁵⁵	womb	womb				10.4.8	0			2727,679
+15660	886	Lashi	kjei³¹	kjei³¹	amniotic fluid	amniotic fluid				10.4.10	0			
+15661	886	Lashi	wɔm³³ pu:t³¹	wɔm³³ pu:t³¹	pregnant	pregnant	be v.	be v.	1.9.6.1	10.4.14	0			137,1855
+15662	886	Lashi	su:t⁵⁵	su:t⁵⁵	birth, give	birth, give			1.1.2	10.4.15	0			3485
+15663	886	Lashi	u̱⁵³	u̱⁵³	egg (of animal)	egg (of animal)				10.4.16	0			301
+15664	886	Lashi	khjuŋ⁵⁵ tsa̱:u⁵⁵	khjuŋ⁵⁵ tsa̱:u⁵⁵	cough	cough			1.8.3.3	11.1	0			
+15665	886	Lashi	ə̱k⁵⁵ thuŋ⁵⁵	ə̱k⁵⁵ thuŋ⁵⁵	hiccup	hiccup			1.8.3.5	11.2	0			3443,m
+15666	886	Lashi	a⁵⁵ |tʃhou⁵³ |tʃhou⁵³	a⁵⁵ tʃhou⁵³ tʃhou⁵³	sneeze	sneeze			1.8.2.1	11.3	0			2131
+15667	886	Lashi	jɔ̱p⁵⁵ khu⁵³ khu⁵³	jɔ̱p⁵⁵ khu⁵³ khu⁵³	snore	snore			1.8.2.2	11.4	0			127,m,m
+15668	886	Lashi	ə̱k⁵⁵ thuŋ⁵⁵	ə̱k⁵⁵ thuŋ⁵⁵	burp / belch	burp  /  belch			1.8.3	11.6	0	jbl3		3443,m
+15669	886	Lashi	khjei⁵⁵ xu:p⁵⁵	khjei⁵⁵ xu:p⁵⁵	fart	fart			1.8.5.2	11.7	0			572,m
+15670	886	Lashi	ji:³¹	ji:³¹	laugh	laugh			1.8.8.1	11.9	0			1108
+15671	886	Lashi	na:n⁵⁵	na:n⁵⁵	tremble / shiver / shudder	tremble  /  shiver  /  shudder			1.6.6.2.1	12.1	0	jbl3		
+15672	886	Lashi	nɔ:³¹	nɔ:³¹	sick / be ill / hurt	sick  /  be ill  /  hurt	be v.	be v.	1.1.5.1	12.2	0	jbl3		160
+15673	886	Lashi	pjə:ŋ³¹	pjə:ŋ³¹	numb /  be paralyzed	numb  /   be paralyzed	be v.	be v.	1.5.11	12.3	0	jbl3		
+15674	886	Lashi	pɔ:ŋ³³	pɔ:ŋ³³	swell /  be swollen	swell  /   be swollen	v.	v.	1.1.5.2	12.4	0	jbl3		163?
+15675	886	Lashi	xua̱t⁵⁵	xua̱t⁵⁵	pus	pus			1.8.6.1	12.5	0			m
+15676	886	Lashi	tho̱³³	tho̱³³	hand span	hand span			1.5.9.4	13.2	0			1281
+15677	886	Lashi	tuŋ³³	tuŋ³³	cubit (elbow to fingers)	cubit (elbow to fingers)			1.5.9.3	13.3	0			710
+15678	886	Lashi	lam³¹	lam³¹	cord / fathom	cord  /  fathom			1.5.9.5	13.4	0	jbl3		1310
+15679	886	Lashi	lam³¹	lam³¹	fingertip to fingertip	fingertip to fingertip	v.	v.	1.5.6	13.4.2	0			1310

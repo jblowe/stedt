@@ -1,1138 +1,1138 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-20604	1002	Manang (Prakaa)	³pakli	³pakli	head	head		1.2.1	0001	0		m
-20605	1002	Manang (Prakaa)	³krə	³krə	hair (of head)	hair (of head)		1.2.3	0002	0		367
-20606	1002	Manang (Prakaa)	²ŋo◦kroŋ	²ŋo◦kroŋ	forehead	forehead		1.2.5.1	0003	0		356,2025
-20607	1002	Manang (Prakaa)	³miː◦tsẽ	³miː◦tsẽ	eyebrow	eyebrow		1.2.6.6	0004	0		682,366
-20608	1002	Manang (Prakaa)	¹mi	¹mi	eye	eye		1.2.6	0005	0		682
-20609	1002	Manang (Prakaa)	³mi◦ki	³mi◦ki	tears	tears		1.2.6.7	0006	0		682,572
-20610	1002	Manang (Prakaa)	²ɲe◦maŋ	²ɲe◦maŋ	ear	ear		1.2.7	0007	0		811,2084
-20611	1002	Manang (Prakaa)	³nə	³nə	nose	nose		1.2.8	0008a	0		803
-20612	1002	Manang (Prakaa)	³nə◦kuŋ	³nə◦kuŋ	nose	nose		1.2.8	0008b	0		803,809
-20613	1002	Manang (Prakaa)	³suŋ	³suŋ	mouth	mouth		1.3.1	0009	0		477
-20614	1002	Manang (Prakaa)	²mə̃◦ci	²mə̃◦ci	lip	lip		1.3.2	0010	0		467,686
-20615	1002	Manang (Prakaa)	¹liʔ◦e	¹liʔ◦e	tongue	tongue		1.3.3	0011	0		621,m
-20616	1002	Manang (Prakaa)	¹tʰaː	¹tʰaː	spit	spit		1.8.3	0012	0		603
-20617	1002	Manang (Prakaa)	³sə	³sə	tooth	tooth		1.3.4	0013	0		632
-20618	1002	Manang (Prakaa)	¹kə̃◦ta	¹kə̃◦ta	chin	chin		1.2.5.3	0014	0		630,m
-20619	1002	Manang (Prakaa)	²krə◦mə	²krə◦mə	cheek	cheek		1.2.5.2	0015	0		262,m
-20620	1002	Manang (Prakaa)	³mon◦ʈe	³mon◦ʈe	moustache	moustache		1.2.5.5	0016	0		1114,1265
-20621	1002	Manang (Prakaa)	¹li	¹li	face	face		1.2.5	0017	0		1184
-20622	1002	Manang (Prakaa)	³kʰaː◦r	³kʰaː◦r	neck	neck		1.4.2	0018	0		494,5650
-20623	1002	Manang (Prakaa)	³mlaŋ◦kuŋ	³mlaŋ◦kuŋ	throat	throat		1.3.5	0019	0		479,3361
-20624	1002	Manang (Prakaa)	²pən◦taː	²pən◦taː	shoulder	shoulder		1.4.3	0020	0		745,m
-20625	1002	Manang (Prakaa)	²teː◦ɲe	²teː◦ɲe	back (body)	back (body)		1.4.8	0021	0		
-20626	1002	Manang (Prakaa)	³kre	³kre	waist	waist		1.4.6	0022	0		217
-20627	1002	Manang (Prakaa)	³pi◦ɕi	³pi◦ɕi	buttock	buttock		1.4.9.2	0023	0		1361,223
-20628	1002	Manang (Prakaa)	³ku	³ku	chest	chest		1.4.4.3	0024	0		2
-20629	1002	Manang (Prakaa)	²ɲok◦roː	²ɲok◦roː	breast	breast		1.4.4.3	0025	0		259,m
-20630	1002	Manang (Prakaa)	¹pʰwo	¹pʰwo	belly	belly		1.4.7	0026	0		2103
-20631	1002	Manang (Prakaa)	²pi◦te	²pi◦te	navel	navel		1.9.4	0027	0		m,519
-20632	1002	Manang (Prakaa)	³yaː◦kaŋ	³yaː◦kaŋ	arm	arm		1.5.1.2	0028	0		696,240
-20633	1002	Manang (Prakaa)	³yaː◦kru	³yaː◦kru	elbow	elbow		1.5.8.3	0029	0		696,307
-20634	1002	Manang (Prakaa)	³yaː	³yaː	hand	hand		1.5.1.1	0030	0		696
-20635	1002	Manang (Prakaa)	³ʈi	³ʈi	finger	finger		1.5.6	0031	0		
-20636	1002	Manang (Prakaa)	³ɕĩ	³ɕĩ	nail	nail		1.5.10	0032	0		512
-20637	1002	Manang (Prakaa)	²pəle	²pəle	leg	leg		1.5.7	0033	0		
-20638	1002	Manang (Prakaa)	¹puci	¹puci	knee	knee		1.5.8.4	0034	0		
-20639	1002	Manang (Prakaa)	³cʰĩ◦pə	³cʰĩ◦pə	liver	liver		1.7.3	0035	0		1390,s
-20640	1002	Manang (Prakaa)	³tĩ	³tĩ	heart	heart		1.7.1	0036	0		1387
-20641	1002	Manang (Prakaa)	²kuruŋ	²kuruŋ	guts	guts		1.7.7	0037	0		m
-20642	1002	Manang (Prakaa)	²ʈi	²ʈi	skin	skin		1.6.5	0038	0		596
-20643	1002	Manang (Prakaa)	¹ʈu	¹ʈu	sweat	sweat		1.8.1	0039	0		m
-20644	1002	Manang (Prakaa)	²kri	²kri	filth / grime	filth / grime		1.8.5	0040	0		
-20645	1002	Manang (Prakaa)	²naː	²naː	pus	pus		1.8.6.1	0041	0		1297
-20646	1002	Manang (Prakaa)	¹muʔi	¹muʔi	hair (body)	hair (body)		1.2.3	0042	0		363
-20647	1002	Manang (Prakaa)	¹cʰi	¹cʰi	fat / grease	fat / grease		1.6.4	0043	0		48
-20648	1002	Manang (Prakaa)	¹kaː	¹kaː	blood	blood		1.6.2	0044	0		231
-20649	1002	Manang (Prakaa)	¹no◦kre	¹no◦kre	bone	bone		1.6.3	0045	0		m,232
-20650	1002	Manang (Prakaa)	³ɕyə	³ɕyə	flesh	flesh		1.1.1.1	0046	0		34
-20651	1002	Manang (Prakaa)	²suː◦pə	²suː◦pə	body	body		1.1.1	0047	0		4,1902
-20652	1002	Manang (Prakaa)	¹nə◦pə	¹nə◦pə	disease / illness / sickness	disease / illness / sickness		1.1.5.1	0048	0		160,s
-20653	1002	Manang (Prakaa)	²moko	²moko	wound	wound		1.8.6.2	0049	0		
-20654	1002	Manang (Prakaa)	³mẽ	³mẽ	medicine	medicine		5.4	0050	0		5434
-20655	1002	Manang (Prakaa)	³ɕi	³ɕi	rice	rice		3.1.4	0051a	0		
-20656	1002	Manang (Prakaa)	³kyẽ	³kyẽ	rice (cooked)	rice (cooked)		3.1.4	0051b	0		
-20657	1002	Manang (Prakaa)	⁴pr̥a	⁴pr̥a	powder	powder		3.2.11	0052	0		
-20658	1002	Manang (Prakaa)	³tsətsə	³tsətsə	salt	salt		3.2.4	0053	0		
-20659	1002	Manang (Prakaa)	³cʰu◦ku	³cʰuku	oil	oil		1.6.4.1	0054	0		42,1440
-20660	1002	Manang (Prakaa)	³pʰi	³pʰi	liquor (fermented)	liquor (fermented)		3.1.6.3	0055a	0		
-20661	1002	Manang (Prakaa)	³ʔara	³ʔara	liquor (distilled)	liquor (distilled)		3.1.6.3	0055b	0		
-20662	1002	Manang (Prakaa)	³ɕukri	³ɕukri	tobacco	tobacco		3.1.6.2	0056	0		
-20663	1002	Manang (Prakaa)	²ʈu	²ʈu	taste / flavor	taste / flavor		1.3.5.8	0057	0	z	
-20664	1002	Manang (Prakaa)	³tʰaŋ	³tʰaŋ	smell / scent / odour	smell / scent / odour		7.1.4.5	0058	0		
-20665	1002	Manang (Prakaa)	²səki	²səki	food	food		5.5	0059	0		
-20666	1002	Manang (Prakaa)	³ɕyə	³ɕyə	meat	meat		1.1.1.1	0060	0		34
-20667	1002	Manang (Prakaa)	¹pʰuŋ	¹pʰuŋ	egg	egg			0061	0		304
-20668	1002	Manang (Prakaa)	¹nə◦kə	¹nə◦kə	fowl / hen / cock	fowl / hen / cock		2.1.10	0062	0		3442,m
-20669	1002	Manang (Prakaa)	³ɲemə	³ɲemə	bird	bird		2.2.4	0063	0		
-20670	1002	Manang (Prakaa)	³ɕi◦pyə	³ɕi◦pyə	wing	wing		1.5.1.3	0064	0		m,760
-20671	1002	Manang (Prakaa)	¹muʔi	¹muʔi	feather / plume	feather / plume		1.6.1.1	0065	0		363
-20672	1002	Manang (Prakaa)	²tsaŋ	²tsaŋ	nest	nest		2.2.4	0066	0		1615
-20673	1002	Manang (Prakaa)	³suŋ	³suŋ	beak / bill	beak / bill		1.3.1.2	0067	0		477
-20674	1002	Manang (Prakaa)	³ru	³ru	horn	horn		1.2.2	0068	0		814
-20675	1002	Manang (Prakaa)	⁴miʔe	⁴miʔe	cattle	cattle		2.1.2	0069a	0		
-20676	1002	Manang (Prakaa)	⁴myekye	⁴myekye	cattle (bull)	cattle (bull)		2.1.2	0069b	0		
-20677	1002	Manang (Prakaa)	⁴myamə	⁴myamə	cattle (cow)	cattle (cow)		2.1.2	0069c	0		
-20678	1002	Manang (Prakaa)	³kəlti	³kəlti	knife / sword	knife / sword		5.5	0070	0		
-20679	1002	Manang (Prakaa)	³kəlti	³kəlti	sword	sword		5.15	0071a	0		
-20680	1002	Manang (Prakaa)	²ɕaːlaŋ	²ɕaːlaŋ	sword	sword		5.15	0071b	0		
-20681	1002	Manang (Prakaa)	³kʰə	³kʰə	blade / edge	blade / edge		1.4.3.2	0072	0		
-20682	1002	Manang (Prakaa)	²pyarka	²pyarka	pole / bar / stick	pole / bar / stick		9.7.1	0073a	0		
-20683	1002	Manang (Prakaa)	²pyerka	²pyerka	pole / bar / stick	pole / bar / stick		9.7.1	0073b	0		
-20684	1002	Manang (Prakaa)	²telẽ	²telẽ	bow	bow		5.15	0074	0		
-20685	1002	Manang (Prakaa)	³myetɕo	³myetɕo	arrow	arrow		5.15	0075a	0		
-20686	1002	Manang (Prakaa)	³myotɕo	³myotɕo	arrow	arrow		5.15	0075b	0		
-20687	1002	Manang (Prakaa)	⁴tuŋ	⁴tuŋ	lance / spear	lance / spear		5.15	0076	0		2205
-20688	1002	Manang (Prakaa)	¹ʈu	¹ʈu	thread	thread		5.11.6	0077	0		
-20689	1002	Manang (Prakaa)	⁴tʰe	⁴tʰe	needle	needle		5.1	0078	0		
-20690	1002	Manang (Prakaa)	³kwẽ	³kwẽ	clothes / clothing	clothes / clothing		5.11.8.2.1	0079	0		
-20691	1002	Manang (Prakaa)	³ɕoɕo	³ɕoɕo	paper	paper		5.1	0080	0		
-20692	1002	Manang (Prakaa)	²pərpə	²pərpə	thing	thing		8.1	0081	0		
-20693	1002	Manang (Prakaa)	²pu◦kriː	²pu◦kriː	snake	snake		2.1.6.1	0082	0		2623,6104
-20694	1002	Manang (Prakaa)	²pu◦luŋ	²puluŋ	worm / insect	worm / insect		2.2.6	0083	0		2178,5432
-20695	1002	Manang (Prakaa)	³naːpraŋ	³naːpraŋ	fly	fly		2.2.6	0084	0		
-20696	1002	Manang (Prakaa)	³məcʰeri	³məcʰeri	mosquito	mosquito		2.2.6	0085	0		bIndic
-20697	1002	Manang (Prakaa)	³taːɲi	³taːɲi	flea	flea		2.2.6	0086	0		
-20698	1002	Manang (Prakaa)	¹ɕye	¹ɕye	louse	louse		2.2.6	0087	0		
-20699	1002	Manang (Prakaa)	³nokro	³nokro	ant	ant		2.2.6	0088	0		
-20700	1002	Manang (Prakaa)	¹tə◦rŋə	¹tə◦rŋə	fish	fish		2.2.5	0089	0		p,1455
-20701	1002	Manang (Prakaa)	⁴tumpuluŋ	⁴tumpuluŋ	shellfish	shellfish		2.2.5	0090a	0		
-20702	1002	Manang (Prakaa)	²tumpuluŋ	²tumpuluŋ	shellfish	shellfish		2.2.5	0090b	0		
-20703	1002	Manang (Prakaa)	³sem◦cẽ ²ritaː	³sem◦cẽ ²ritaː	animal	animal		2.3	0091a	0		m,m,1862
-20704	1002	Manang (Prakaa)	²ritaː	²ritaː	animal	animal		2.3	0091b	0		1862
-20705	1002	Manang (Prakaa)	³kira	³kira	hunting	hunting		6.2.2.1	0092	0		
-20706	1002	Manang (Prakaa)	²tsali	²tsali	net	net		5.11.5.4	0093	0		
-20707	1002	Manang (Prakaa)	³ɲu◦kyu	³ɲu◦kyu	dog	dog		2.1.11	0094a	0		6026,1764
-20708	1002	Manang (Prakaa)	³ɲə◦kyu	³ɲə◦kyu	dog	dog		2.1.11	0094b	0		6026,1764
-20709	1002	Manang (Prakaa)	³tɕo ⁴tʰumpə	³tɕo ⁴tʰumpə	rope	rope		5.11.4	0095	0		
-20710	1002	Manang (Prakaa)	³tɕo ¹prəpə	³tɕo ¹prəpə	string	string		5.1	0096	0		
-20711	1002	Manang (Prakaa)	⁴kʰyu	⁴kʰyu	sheep	sheep		2.1.8	0097	0		6027
-20712	1002	Manang (Prakaa)	¹tə	¹tə	horse	horse		2.1.7	0098	0		5
-20713	1002	Manang (Prakaa)	¹suŋkur	¹suŋkur	pig	pig		2.1.12	0099	0		b
-20714	1002	Manang (Prakaa)	³me	³me	tail	tail		1.4.10.1	0100	0		1288
-20715	1002	Manang (Prakaa)	¹muʔi	¹muʔi	hair (of animal)	hair (of animal)		1.2.3	0101	0		363
-20716	1002	Manang (Prakaa)	²ʈʰi	²ʈʰi	fur	fur		1.6.1	0102	0		m
-20717	1002	Manang (Prakaa)	³kyalpu	³kyalpu	sack / bag	sack / bag		5.1	0103	0		
-20718	1002	Manang (Prakaa)	¹taŋ	¹taŋ	pan / pot	pan / pot		5.5	0104	0		
-20719	1002	Manang (Prakaa)	⁴tʰi	⁴tʰi	kettle	kettle		5.5	0105	0		
-20720	1002	Manang (Prakaa)	³pu	³pu	jar	jar		5.1	0106a	0		
-20721	1002	Manang (Prakaa)	²kaːkri	²kaːkri	jar	jar		5.1	0106b	0		
-20722	1002	Manang (Prakaa)	³pu	³pu	pot	pot		5.5	0107a	0		
-20723	1002	Manang (Prakaa)	²puŋɲi	²puŋɲi	pot	pot		5.5	0107b	0		
-20724	1002	Manang (Prakaa)	²kape	²kape	roof	roof		5.11.9	0108	0		
-20725	1002	Manang (Prakaa)	³ro	³ro	wall	wall		5.11.9.3	0109	0		
-20726	1002	Manang (Prakaa)	¹kʰuŋ	¹kʰuŋ	window	window		5.11.9.3	0110	0		b
-20727	1002	Manang (Prakaa)	¹mre	¹mre	door	door		5.11.9.3	0111	0		
-20728	1002	Manang (Prakaa)	⁴tʰĩ	⁴tʰĩ	house / home	house / home		5.11.9.1	0112	0		
-20729	1002	Manang (Prakaa)	³moʈor	³moʈor	vehicle / car	vehicle / car		5.1	0113	0		bEnglish
-20730	1002	Manang (Prakaa)	²təti	²təti	vessel / ship	vessel / ship		5.1	0114	0		
-20731	1002	Manang (Prakaa)	¹kyu ³kul	¹kyu ³kul	well	well		9.6.1.1	0115a	0		
-20732	1002	Manang (Prakaa)	³kul	³kul	well	well		9.6.1.1	0115b	0		
-20733	1002	Manang (Prakaa)	⁴kʰye	⁴kʰye	business / job / work / task	business / job / work / task		5.8	0116	0		5827
-20734	1002	Manang (Prakaa)	⁴muʔi	⁴muʔi	money	money		5.9	0117a	0		
-20735	1002	Manang (Prakaa)	³ɕeka	³ɕeka	money	money		5.9	0117b	0		
-20736	1002	Manang (Prakaa)	³ɕika	³ɕika	money	money		5.9	0117c	0		
-20737	1002	Manang (Prakaa)	¹ɕĩ	¹ɕĩ	tree	tree		3.1.2	0118	0		2658
-20738	1002	Manang (Prakaa)	²ɕĩtuŋ	²ɕĩtuŋ	stem / trunk	stem / trunk		3.1.2	0119	0		
-20739	1002	Manang (Prakaa)	²yelkə	²yelkə	branch	branch		1.5.3.1	0120	0		
-20740	1002	Manang (Prakaa)	³cʰi	³cʰi	grass	grass		3.1.8	0121	0		
-20741	1002	Manang (Prakaa)	⁴tʰuŋ	⁴tʰuŋ	stalk	stalk		3.1.2	0122	0		
-20742	1002	Manang (Prakaa)	¹ʈə	¹ʈə	root	root		3.1.2	0123	0		
-20743	1002	Manang (Prakaa)	²paː	²paː	leaf	leaf		3.1.3	0124	0		
-20744	1002	Manang (Prakaa)	²mĩtoː	²mĩtoː	flower / blossom	flower / blossom		3.1.4	0125	0		
-20745	1002	Manang (Prakaa)	³ɕĩtoː	³ɕĩtoː	fruit / nut	fruit / nut		3.1.5	0126	0		
-20746	1002	Manang (Prakaa)	⁴pl̥u	⁴pl̥u	seed	seed		3.1.4	0127	0		2463
-20747	1002	Manang (Prakaa)	³pyoko	³pyoko	bark	bark		2.1.11.1	0128	0		
-20748	1002	Manang (Prakaa)	³kye	³kye	field (cultivated )	field  (cultivated )		3.2.5	0129	0		
-20749	1002	Manang (Prakaa)	²naː	²naː	grove / cope / wood	grove / cope / wood		9.10.4	0130	0		
-20750	1002	Manang (Prakaa)	²naː ¹huŋ	²naː ¹huŋ	forest	forest		3.2.5	0131	0		
-20751	1002	Manang (Prakaa)	⁴kʰyẽ	⁴kʰyẽ	way / road	way / road		9.2.8	0132	0		1017
-20752	1002	Manang (Prakaa)	¹kʰuŋ	¹kʰuŋ	hole / pit	hole / pit		3.2.7	0133	0		820
-20753	1002	Manang (Prakaa)	³tsẽ	³tsẽ	bridge	bridge		9.10.2	0134	0		3604
-20754	1002	Manang (Prakaa)	³ɕyoŋ	³ɕyoŋ	river	river		3.2.3	0135	0		
-20755	1002	Manang (Prakaa)	⁴pokto	⁴pokto	mountain	mountain		3.2.5	0136a	0		
-20756	1002	Manang (Prakaa)	²mal◦kaŋ	²mal◦kaŋ	mountain (snow-covered)	mountain (snow-covered)		3.2.5	0136b	0		m,m,m,3581
-20757	1002	Manang (Prakaa)	³tʰaŋ ³cãpə	³tʰaŋ ³cãpə	field	field		3.2.5	0137	0		
-20758	1002	Manang (Prakaa)	³tʰaŋ ³tʰyepə	³tʰaŋ ³tʰyepə	plain	plain		3.2.5	0138a	0		
-20759	1002	Manang (Prakaa)	³tʰaŋ ²yaŋpə	³tʰaŋ ²yaŋpə	plain	plain		3.2.5	0138b	0		
-20760	1002	Manang (Prakaa)	¹kyu ³tsʰo	¹kyu ³tsʰo	pond	pond		3.2.3	0139	0		
-20761	1002	Manang (Prakaa)	³tsʰo	³tsʰo	lake	lake		3.2.5	0140	0		
-20762	1002	Manang (Prakaa)	⁴kyamtso	⁴kyamtso	sea	sea		3.2.3	0141	0		
-20763	1002	Manang (Prakaa)	--	--	island	island		3.2.5	0142	0		
-20764	1002	Manang (Prakaa)	¹kyu	¹kyu	water	water		3.2.3	0143	0		
-20765	1002	Manang (Prakaa)	³taŋkyaŋ	³taŋkyaŋ	ice	ice		3.2.3	0144	0		
-20766	1002	Manang (Prakaa)	¹yuŋ	¹yuŋ	stone	stone		3.2.9	0145	0		1269
-20767	1002	Manang (Prakaa)	³sə	³sə	earth	earth		3.2.11	0146	0		
-20768	1002	Manang (Prakaa)	²pyomə	²pyomə	sand	sand		3.2.11	0147	0		
-20769	1002	Manang (Prakaa)	²səpraː	²səpraː	dust	dust		3.2.11	0148	0		
-20770	1002	Manang (Prakaa)	³myu◦ku	³myuku	smoke	smoke		3.2.12.2	0149	0		2136,2361
-20771	1002	Manang (Prakaa)	¹myepraː	¹myepraː	ash	ash		3.2.12.2	0150	0		
-20772	1002	Manang (Prakaa)	³miʔe	³miʔe	fire	fire		3.2.12.2	0151	0		
-20773	1002	Manang (Prakaa)	³l̥aː◦pə	³l̥aːpə	wind	wind		3.2.1	0152	0		2412,m
-20774	1002	Manang (Prakaa)	³muk◦pə	³muk◦pə	cloud	cloud		3.2.1	0153	0		2465,s
-20775	1002	Manang (Prakaa)	³muk◦pə	³muk◦pə	fog	fog		3.2.1	0154	0		2465,s
-20776	1002	Manang (Prakaa)	³mwo	³mwo	rain	rain		3.2.1	0155	0		2473
-20777	1002	Manang (Prakaa)	²kaŋ	²kaŋ	snow	snow		3.2.1	0156	0		
-20778	1002	Manang (Prakaa)	²mwo	²mwo	sky	sky		3.2.2	0157a	0		2473
-20779	1002	Manang (Prakaa)	²naŋ◦kuŋ	²naŋ◦kuŋ	sky	sky		3.2.2	0157b	0		2484
-20780	1002	Manang (Prakaa)	⁴ɕyə	⁴ɕyə	rainbow	rainbow		3.2.1	0158	0		6000
-20781	1002	Manang (Prakaa)	²tʰi◦ŋi	²tʰi◦ŋi	sun	sun		3.2.10	0159	0		m,85
-20782	1002	Manang (Prakaa)	¹lə◦ɲi	¹lə◦ɲi	moon	moon		3.2.2	0160	0		1016,m
-20783	1002	Manang (Prakaa)	¹kri	¹kri	shadow	shadow		3.2.10	0161	0		2614
-20784	1002	Manang (Prakaa)	¹sər	¹sər	star	star		3.2.2	0162	0		2300
-20785	1002	Manang (Prakaa)	-ra	-ra	day	day		1.5.3.2	0163	0		
-20786	1002	Manang (Prakaa)	⁴tera ²kraŋtsə	⁴tera ²kraŋtsə	daily / every day	daily / every day		9.1.3	0164	0		
-20787	1002	Manang (Prakaa)	²tĩʈaː	²tĩʈaː	week	week		9.1.3	0165a	0		
-20788	1002	Manang (Prakaa)	¹ɲiːra	¹ɲiːra	week	week		9.1.3	0165b	0		
-20789	1002	Manang (Prakaa)	³haptə	³haptə	week	week		9.1.3	0165c	0		
-20790	1002	Manang (Prakaa)	¹lə	¹lə	month	month		9.1.2	0166	0		
-20791	1002	Manang (Prakaa)	²lo	²lo	year	year		9.1.2	0167	0		
-20792	1002	Manang (Prakaa)	²nentaŋ	²nentaŋ	morning	morning		9.1.4	0168	0		
-20793	1002	Manang (Prakaa)	²tʰĩtse	²tʰĩtse	afternoon	afternoon		9.1.4	0169	0		
-20794	1002	Manang (Prakaa)	³ɲətse	³ɲətse	evening	evening		9.1.4	0170	0		
-20795	1002	Manang (Prakaa)	²muntse	²muntse	night	night		9.1.4	0171	0		
-20796	1002	Manang (Prakaa)	¹huɲi	¹huɲi	yesterday	yesterday		9.1.3	0172	0		
-20797	1002	Manang (Prakaa)	³neːse	³neːse	tomorrow	tomorrow		9.1.3	0173	0		
-20798	1002	Manang (Prakaa)	³tiŋi	³tiŋi	today	today		9.1.3	0174	0		
-20799	1002	Manang (Prakaa)	²toso	²toso	now	now		9.1.5	0175	0		
-20800	1002	Manang (Prakaa)	³hayaŋ	³hayaŋ	when	when		10.5.3	0176	0		
-20801	1002	Manang (Prakaa)	³cʰutse ²kəti	³cʰutse ²kəti	what time is it?	what time is it?		10.5.3	0177	0		
-20802	1002	Manang (Prakaa)	³cʰutse	³cʰutse	hour / time	hour / time		9.1.4	0178	0		
-20803	1002	Manang (Prakaa)	⁴kr̥iː	⁴kr̥iː	one	one		9.9	0179a	0		
-20804	1002	Manang (Prakaa)	⁴r̥iː	⁴r̥iː	one	one		9.9	0179b	0		
-20805	1002	Manang (Prakaa)	⁴ɲiː	⁴ɲiː	two	two		9.9	0180	0		2504
-20806	1002	Manang (Prakaa)	¹sẽ	¹sẽ	three	three		9.9	0181	0		2666
-20807	1002	Manang (Prakaa)	⁴pl̥i	⁴pl̥i	four	four		9.9	0182	0		2409
-20808	1002	Manang (Prakaa)	⁴ŋə	⁴ŋə	five	five		9.9	0183	0		1306
-20809	1002	Manang (Prakaa)	⁴ʈʰu	⁴ʈʰu	six	six		9.9	0184	0		2621
-20810	1002	Manang (Prakaa)	¹ɲiː	¹ɲiː	seven	seven		9.9	0185	0		2505
-20811	1002	Manang (Prakaa)	⁴pr̥eː	⁴pr̥eː	eight	eight		9.9	0186	0		
-20812	1002	Manang (Prakaa)	¹ku	¹ku	nine	nine		9.9	0187	0		
-20813	1002	Manang (Prakaa)	¹cu	¹cu	ten	ten		9.9	0188	0		
-20814	1002	Manang (Prakaa)	²ɲu◦ɕu	²ɲu◦ɕu	twenty	twenty		9.9	0189	0		2504
-20815	1002	Manang (Prakaa)	⁴pr̥ə	⁴pr̥ə	hundred	hundred		9.9	0190	0		
-20816	1002	Manang (Prakaa)	²kəti	²kəti	how much	how much		10.1	0191	0		
-20817	1002	Manang (Prakaa)	²kəti	²kəti	how many	how many		10.1	0192	0		
-20818	1002	Manang (Prakaa)	¹kəʈe	¹kəʈe	half	half		9.8	0193a	0		
-20819	1002	Manang (Prakaa)	⁴ʈʰaʈe	⁴ʈʰaʈe	half	half		9.8	0193b	0		
-20820	1002	Manang (Prakaa)	²tsʰaːraŋ	²tsʰaːraŋ	altogether / all / whole	altogether / all / whole		8.2	0194	0		
-20821	1002	Manang (Prakaa)	⁴tsa ³pri	⁴tsa ³pri	some	some		9.9	0195	0		
-20822	1002	Manang (Prakaa)	⁴ləmpər	⁴ləmpər	number	number		9.9	0196	0		
-20823	1002	Manang (Prakaa)	²lo	²lo	age	age		9.1.2	0197	0		
-20824	1002	Manang (Prakaa)	²lẽ	²lẽ	time (first, second...)	time (first, second...)		9.9	0198	0		
-20825	1002	Manang (Prakaa)	³pʰə	³pʰə	husband	husband		4.7.4	0199	0	z	
-20826	1002	Manang (Prakaa)	²piʔe	²piʔe	wife	wife		4.7.4	0200	0		
-20827	1002	Manang (Prakaa)	³tsaŋ ⁴tsʰaŋpə	³tsaŋ ⁴tsʰaŋpə	marriage	marriage		5.8	0201	0		
-20828	1002	Manang (Prakaa)	³ʔapə	³ʔapə	father / papa	father / papa		4.7.1	0202	0		x
-20829	1002	Manang (Prakaa)	³ʔamə	³ʔamə	mother / mama	mother / mama		4.7.1	0203	0		
-20830	1002	Manang (Prakaa)	³ʔakʰye	³ʔakʰye	grandfather / grandpapa	grandfather / grandpapa		4.7.1	0204	0		
-20831	1002	Manang (Prakaa)	³me	³me	grandmother / grandmama	grandmother / grandmama		4.7.1	0205	0		
-20832	1002	Manang (Prakaa)	³ʔale	³ʔale	son	son		4.7.3	0206	0		
-20833	1002	Manang (Prakaa)	³ʔaŋə	³ʔaŋə	daughter	daughter		4.7.3	0207	0		
-20834	1002	Manang (Prakaa)	³kola	³kola	child	child		1.5.3.2	0208	0		
-20835	1002	Manang (Prakaa)	²tsətsə	²tsətsə	young (animal)	young (animal)		7.1.8.3	0209	0		
-20836	1002	Manang (Prakaa)	³ʔakwẽ	³ʔakwẽ	grandchild	grandchild		4.7.3	0210a	0		
-20837	1002	Manang (Prakaa)	³kwẽ	³kwẽ	grandchild (male)	grandchild (male)		4.7.3	0210b	0		
-20838	1002	Manang (Prakaa)	³kweme	³kweme	grandchild (female)	grandchild (female)		4.7.3	0210c	0		
-20839	1002	Manang (Prakaa)	³ʔatə	³ʔatə	elder brother	elder brother		4.7.1	0211	0		
-20840	1002	Manang (Prakaa)	³ʔanə	³ʔanə	elder sister	elder sister		4.7.1	0212	0		
-20841	1002	Manang (Prakaa)	³ʔacoŋ	³ʔacoŋ	younger brother	younger brother			0213	0		
-20842	1002	Manang (Prakaa)	³naɲi	³naɲi	younger sister	younger sister			0214	0		
-20843	1002	Manang (Prakaa)	¹pyũ ³kola	¹pyũ ³kola	brothers	brothers		4.7.2	0215a	0		
-20844	1002	Manang (Prakaa)	¹tʰe	¹tʰe	brothers	brothers		4.7.2	0215b	0		
-20845	1002	Manang (Prakaa)	¹tʰe ²naŋ	¹tʰe ²naŋ	brothers	brothers		4.7.2	0215c	0		
-20846	1002	Manang (Prakaa)	³mrĩ ³kola	³mrĩ ³kola	sisters	sisters		4.7.2	0216	0		
-20847	1002	Manang (Prakaa)	²mome	²mome	family	family		4.7.5	0217	0		
-20848	1002	Manang (Prakaa)	²roːpə	²roːpə	friend / mate (male)	friend / mate  (male)		4.4.2	0218a	0		
-20849	1002	Manang (Prakaa)	²roːmə	²roːmə	friend / mate (female)	friend / mate  (female)		4.4.2	0218b	0		
-20850	1002	Manang (Prakaa)	²paŋpə	²paŋpə	quarrel	quarrel		8.5.8	0219a	0		
-20851	1002	Manang (Prakaa)	¹kəteːpə	¹kəteːpə	quarrel	quarrel		8.5.8	0219b	0		
-20852	1002	Manang (Prakaa)	¹tsʰeːpə	¹tsʰeːpə	quarrel	quarrel		8.5.8	0219c	0		
-20853	1002	Manang (Prakaa)	⁴pʰaŋ	⁴pʰaŋ	force / strength / power / might	force / strength / power / might		1.1.5	0220	0		157
-20854	1002	Manang (Prakaa)	²pilaː ⁴ʔakʰyẽpə	²pilaː ⁴ʔakʰyẽpə	dumb	dumb		8.5.4.4	0221	0		
-20855	1002	Manang (Prakaa)	²ɲe◦maŋ	²ɲe◦maŋ	deaf	deaf		1.2.7.5	0222	0	E	e
-20856	1002	Manang (Prakaa)	¹mi ⁴ʔamrampə	¹mi ⁴ʔamrampə	blind	blind		1.2.6.14.2	0223	0		682,m
-20857	1002	Manang (Prakaa)	¹pyũ	¹pyũ	man / male	man / male		1.9.6.1	0224	0		m
-20858	1002	Manang (Prakaa)	³mrĩ	³mrĩ	woman / female	woman / female		1.9.3	0225	0		m
-20859	1002	Manang (Prakaa)	²mi	²mi	person / man	person / man		4.5	0226	0		
-20860	1002	Manang (Prakaa)	³ŋə	³ŋə	I	I		4.1	0227	0		2530
-20861	1002	Manang (Prakaa)	⁴kyə	⁴kyə	you	you		4.1	0228	0		
-20862	1002	Manang (Prakaa)	³kʰi	³kʰi	he	he		4.1	0229	0		
-20863	1002	Manang (Prakaa)	³kʰi	³kʰi	she	she		4.1	0230	0		
-20864	1002	Manang (Prakaa)	¹ɲila	¹ɲila	we	we		4.1	0231	0		
-20865	1002	Manang (Prakaa)	⁴kimi ³tsʰaːraŋ	⁴kimi ³tsʰaːraŋ	you (plural)	you (plural)		4.1	0232	0		
-20866	1002	Manang (Prakaa)	¹kʰimi	¹kʰimi	they (male)	they (male)		4.1	0233	0		
-20867	1002	Manang (Prakaa)	¹kʰimi	¹kʰimi	they (female)	they (female)		4.1	0234	0		
-20868	1002	Manang (Prakaa)	⁴r̥ake	⁴r̥ake	oneself / self	oneself / self		4.1	0235	0		
-20869	1002	Manang (Prakaa)	²ɕẽ	²ɕẽ	else / other	else / other		10.1	0236	0		
-20870	1002	Manang (Prakaa)	⁴su	⁴su	who	who		10.5.3	0237	0		
-20871	1002	Manang (Prakaa)	³mĩ	³mĩ	name / name (first)	name / name (first)		5.8	0238	0		2450
-20872	1002	Manang (Prakaa)	³mĩ	³mĩ	name	name		5.8	0239	0		2450
-20873	1002	Manang (Prakaa)	²yikə	²yikə	letter / character	letter / character		5.1	0240	0		
-20874	1002	Manang (Prakaa)	¹kye	¹kye	voice	voice		8.5.5	0241	0		
-20875	1002	Manang (Prakaa)	¹kye	¹kye	sound	sound		9.3	0242	0		
-20876	1002	Manang (Prakaa)	¹kye	¹kye	language / speech	language / speech		5.8	0243	0		
-20877	1002	Manang (Prakaa)	³sẽ	³sẽ	mind / heart	mind / heart		1.10	0244	0		66
-20878	1002	Manang (Prakaa)	³l̥lə	³l̥lə	god	god		5.8.1.1	0245	0		2264
-20879	1002	Manang (Prakaa)	²ɲaŋku	²ɲaŋku	feast / festival	feast / festival		5.5	0246	0		
-20880	1002	Manang (Prakaa)	²sur	²sur	village	village		5.8	0247	0		
-20881	1002	Manang (Prakaa)	²pətsər	²pətsər	town	town		9.10.3	0248a	0		
-20882	1002	Manang (Prakaa)	²yul	²yul	town	town		9.10.3	0248b	0		
-20883	1002	Manang (Prakaa)	³tsu	³tsu	this (one)	this (one)		10.4.3.2	0249	0		
-20884	1002	Manang (Prakaa)	³tsu	³tsu	it	it		8.1	0250	0		
-20885	1002	Manang (Prakaa)	⁴ʔutsu	⁴ʔutsu	that (one)	that (one)		10.1	0251	0		
-20886	1002	Manang (Prakaa)	⁴halə	⁴halə	which (one)	which (one)		10.5.3	0252	0		
-20887	1002	Manang (Prakaa)	⁴taː	⁴taː	what	what		10.5.3	0253	0		
-20888	1002	Manang (Prakaa)	⁴taː ²piː	⁴taː ²piː	why	why		10.5.3	0254a	0		
-20889	1002	Manang (Prakaa)	⁴taː ²pitse	⁴taː ²pitse	why	why		10.5.3	0254b	0		
-20890	1002	Manang (Prakaa)	⁴ʔuːp	⁴ʔuːp	these (ones)	these (ones)		10.4.3.2	0255	0		
-20891	1002	Manang (Prakaa)	³haʔi ³lətsə	³haʔi ³lətsə	how	how		10.1	0256	0		
-20892	1002	Manang (Prakaa)	³tsuri	³tsuri	here	here		9.2.3	0257	0		
-20893	1002	Manang (Prakaa)	³tsuri	³tsuri	there	there		9.2.7	0258	0		
-20894	1002	Manang (Prakaa)	⁴ʔuri	⁴ʔuri	that place / over there	that place / over there		10.1	0259a	0		
-20895	1002	Manang (Prakaa)	¹tũ ³tiri	¹tũ ³tiri	that place / over there	that place / over there		10.1	0259b	0		
-20896	1002	Manang (Prakaa)	⁴hãti	⁴hãti	where / anywhere	where / anywhere		10.5.3	0260a	0		
-20897	1002	Manang (Prakaa)	⁴haci	⁴haci	where / anywhere	where / anywhere		10.5.3	0260b	0		
-20898	1002	Manang (Prakaa)	⁴hãtse	⁴hãtse	where / anywhere	where / anywhere		10.5.3	0260c	0		
-20899	1002	Manang (Prakaa)	³ŋontsari	³ŋontsari	this way	this way		10.4.3.2	0261	0		
-20900	1002	Manang (Prakaa)	³tsuri	³tsuri	that way	that way		10.1	0262a	0		
-20901	1002	Manang (Prakaa)	³ʔutsuri	³ʔutsuri	that way	that way		10.1	0262b	0		
-20902	1002	Manang (Prakaa)	⁴ʔuri	⁴ʔuri	away / that way	away / that way		9.2.4	0263	0		
-20903	1002	Manang (Prakaa)	⁴haci	⁴haci	where	where		10.5.3	0264	0		
-20904	1002	Manang (Prakaa)	⁴kʰya	⁴kʰya	place	place		9.10.5	0265a	0		
-20905	1002	Manang (Prakaa)	³sə	³sə	place	place		9.10.5	0265b	0		
-20906	1002	Manang (Prakaa)	²tortse	²tortse	left	left		1.5.3.2	0266	0		
-20907	1002	Manang (Prakaa)	³kyeː◦tse	³kyeː◦tse	right	right		1.5.3.2	0267	0		2786
-20908	1002	Manang (Prakaa)	³ŋwẽ	³ŋwẽ	front	front		1.4.4	0268	0	D1	m
-20909	1002	Manang (Prakaa)	³liː	³liː	back / backside	back / backside		1.4.8	0269a	0		209
-20910	1002	Manang (Prakaa)	³liː◦tse	³liːtse	back / backside	back / backside		1.4.8	0269b	0		209,m
-20911	1002	Manang (Prakaa)	²naŋ	²naŋ	inside / inward / interior	inside / inward / interior		9.2.5	0270	0		2118
-20912	1002	Manang (Prakaa)	³pʰi	³pʰi	out / outside / exterior	out / outside / exterior		9.2	0271a	0		
-20913	1002	Manang (Prakaa)	³pʰitse	³pʰitse	out / outside / exterior	out / outside / exterior		9.2	0271b	0		
-20914	1002	Manang (Prakaa)	¹pər	¹pər	space	space		9.2.7	0272a	0		
-20915	1002	Manang (Prakaa)	³tɕẽ	³tɕẽ	space	space		9.2.7	0272b	0		
-20916	1002	Manang (Prakaa)	³pʰi	³pʰi	up	up		9.2.1	273	0		
-20917	1002	Manang (Prakaa)	³piɕi	³piɕi	down	down		9.2.2	0274	0		
-20918	1002	Manang (Prakaa)	²ɲo-	²ɲo-	look / see	look / see		1.2.6.11	0275	0		
-20919	1002	Manang (Prakaa)	³tẽ-	³tẽ-	show	show		6.2.2.8	0276	0		
-20920	1002	Manang (Prakaa)	³ɲẽ-	³ɲẽ-	hear	hear		1.2.7.4	0277	0		1410
-20921	1002	Manang (Prakaa)	³tʰaŋ ³kʰə-	³tʰaŋ ³kʰə-	smell at	smell at		1.2.8.5	0278	0		
-20922	1002	Manang (Prakaa)	³sa ²ti-	³sa ²ti-	breathe	breathe	in	1.1.2.2	0279a	0		32,m
-20923	1002	Manang (Prakaa)	³sa ²piː-	³sa ²piː-	breathe (out)	breathe (out)		1.1.2.2	0279b	0		32,m
-20924	1002	Manang (Prakaa)	³ɕeː-	³ɕeː-	say	say		1.8.7	0280	0		1755
-20925	1002	Manang (Prakaa)	⁴we-	⁴we-	call	call		8.5.13	0281	0		
-20926	1002	Manang (Prakaa)	¹kye◦te-	¹kye◦te-	cry	cry		1.8.8.2	0282	0		1103,s
-20927	1002	Manang (Prakaa)	⁴kʰwe ¹prĩ-	⁴kʰwe ¹prĩ-	sing	sing		5.1	0283	0		
-20928	1002	Manang (Prakaa)	¹ɕo-	¹ɕo-	dance	dance		6.7.9	0284	0		
-20929	1002	Manang (Prakaa)	²laŋpə ³ɕeː-	²laŋpə ³ɕeː-	talk	talk		8.5.10.1	0285	0		
-20930	1002	Manang (Prakaa)	⁴kaːkor ³kwol-	⁴kaːkor ³kwol-	inform / announce	inform / announce		8.5.14.2	0286	0		
-20931	1002	Manang (Prakaa)	⁴ɲeː-	⁴ɲeː-	suck	suck		1.3.2.1	0287	0		254
-20932	1002	Manang (Prakaa)	¹riː-	¹riː-	vomit	vomit		1.8.3.2	0288	0		5697
-20933	1002	Manang (Prakaa)	¹tʰaː ⁴tʰi ³lə-	¹tʰaː ⁴tʰi ³lə-	spit	spit	v.	1.8.3	0289	0		603
-20934	1002	Manang (Prakaa)	³sə ³ɲeː-	³sə ³ɲeː-	bite	bite		1.3.4.4	0290	0		
-20935	1002	Manang (Prakaa)	¹ɲiː-	¹ɲiː-	laugh	laugh		1.8.8.1	0291a	0		1105
-20936	1002	Manang (Prakaa)	¹ɲiː ³ɕor-	¹ɲiː ³ɕor-	laugh	laugh		1.8.8.1	0291b	0		1105,1780
-20937	1002	Manang (Prakaa)	³kraː-	³kraː-	weep	weep		1.8.8.2	0292	0		1103
-20938	1002	Manang (Prakaa)	³sẽ ³kiː-	³sẽ ³kiː-	rejoice / glad	rejoice / glad		8.3.1.5.1	0293	0		
-20939	1002	Manang (Prakaa)	²ʔasu-	²ʔasu-	fear / afraid / scared / dreadful	fear / afraid / scared / dreadful		8.3.1.10.1	0294a	0		
-20940	1002	Manang (Prakaa)	²ɲĩ-	²ɲĩ-	fear / afraid / scared / dreadful	fear / afraid / scared / dreadful		8.3.1.10.1	0294b	0		
-20941	1002	Manang (Prakaa)	³ʈʰaluŋ ³kʰə-	³ʈʰaluŋ ³kʰə-	grieve / sad	grieve / sad		8.3.1.5.1.1	0295	0		
-20942	1002	Manang (Prakaa)	²ɕetaŋ ³kʰə-	²ɕetaŋ ³kʰə-	angry, get	angry, get		8.3.1.6.1	0296	0		
-20943	1002	Manang (Prakaa)	³pʰə ⁴kyer ⁴jə-	³pʰə ⁴kyer ⁴jə-	startled	startled		8.3.1.9.1	0297a	0		
-20944	1002	Manang (Prakaa)	³pʰə ⁴kyer-	³pʰə ⁴kyer-	startled	startled		8.3.1.9.1	0297b	0		
-20945	1002	Manang (Prakaa)	¹pʰo-	¹pʰo-	strike / beat / hit	strike / beat / hit		6.8	0298	0		5822
-20946	1002	Manang (Prakaa)	¹prĩ-	¹prĩ-	shoot	shoot		6.2.2.1	0299	0		
-20947	1002	Manang (Prakaa)	¹kuntu ¹prĩ-	¹kuntu ¹prĩ-	thrash / strike / punch	thrash / strike / punch		6.8	0300	0		
-20948	1002	Manang (Prakaa)	⁴ʈaː-	⁴ʈaː-	heal / cure	heal / cure		1.1.5.1	0301	0		
-20949	1002	Manang (Prakaa)	¹kyẽ-	¹kyẽ-	repair / mend	repair / mend		6.14	0302	0		5386
-20950	1002	Manang (Prakaa)	²li-	²li-	throw / cast	throw / cast		6.12	0303	0		
-20951	1002	Manang (Prakaa)	¹kyaː-	¹kyaː-	thrust / dab	thrust / dab		6.7.2	0304	0		
-20952	1002	Manang (Prakaa)	⁴pl̥o-	⁴pl̥o-	strike / pierce	strike / pierce		6.8	0305	0		5822
-20953	1002	Manang (Prakaa)	²prapraː ²sə-	²prapraː ²sə-	crush / shutter (to pieces)	crush / shutter (to pieces)		9.5	0306a	0		
-20954	1002	Manang (Prakaa)	¹to-	¹to-	crush / shutter (to pieces)	crush / shutter (to pieces)		9.5	0306b	0		
-20955	1002	Manang (Prakaa)	³kʰotolo ³tə-	³kʰotolo ³tə-	broken, be	broken, be		7.1.5.1	0307	0		
-20956	1002	Manang (Prakaa)	⁴kʰyər-	⁴kʰyər-	push	push		6.2.2.3.1	0308	0		
-20957	1002	Manang (Prakaa)	²ʈi-	²ʈi-	pull	pull		6.2.2.3.1	0309	0		
-20958	1002	Manang (Prakaa)	-ri... ³mo	-ri... ³mo	have	have		8.2	0310	0		
-20959	1002	Manang (Prakaa)	³kyĩ-	³kyĩ-	seize	seize		6.21	0311	0		
-20960	1002	Manang (Prakaa)	³yaː ³lə-	³yaː ³lə-	touch	touch		8.4	0312a	0		
-20961	1002	Manang (Prakaa)	²te-	²te-	touch	touch		8.4	0312b	0		
-20962	1002	Manang (Prakaa)	⁴pr̥iː-	⁴pr̥iː-	rub / scrub	rub / scrub		8.4	0313	0		
-20963	1002	Manang (Prakaa)	¹tseː-	¹tseː-	scratch	scratch		1.6.5.5	0314a	0		m
-20964	1002	Manang (Prakaa)	¹r̥eː-	¹r̥eː-	scratch	scratch		1.6.5.5	0314b	0		2615
-20965	1002	Manang (Prakaa)	¹ʈaŋ-	¹ʈaŋ-	swell	swell		1.1.5.2	0315a	0		
-20966	1002	Manang (Prakaa)	³pʰuʔi-	³pʰuʔi-	swell / rise	swell / rise		1.1.5.2	0315b	0		
-20967	1002	Manang (Prakaa)	²kom-	²kom-	walk	walk		6.7.4	0316a	0		
-20968	1002	Manang (Prakaa)	²kompə ²neː-	²kompə ²neː-	walk	walk		6.7.4	0316b	0		
-20969	1002	Manang (Prakaa)	¹naŋ-	¹naŋ-	tread	tread		6.7.4	0317	0		2134
-20970	1002	Manang (Prakaa)	³cʰoŋ-	³cʰoŋ-	jump	jump		6.7.8	0318	0		6708
-20971	1002	Manang (Prakaa)	³kyu-	³kyu-	run	run		6.7.4	0319	0		
-20972	1002	Manang (Prakaa)	²lapaː ¹prĩ-	²lapaː ¹prĩ-	kick	kick		6.2.2.3.3	0320	0		
-20973	1002	Manang (Prakaa)	³r̥eː-	³r̥eː-	stand	stand		1.5.2	0321	0		145
-20974	1002	Manang (Prakaa)	³ʈu-	³ʈu-	sit	sit		6.1.1.4.1	0322	0		3596
-20975	1002	Manang (Prakaa)	¹kuː ³lətse ⁴pr̥o-	¹kuː ³lətse ⁴pr̥o-	crawl / creep	crawl / creep		6.7.9	0323	0		
-20976	1002	Manang (Prakaa)	⁴nuː-	⁴nuː-	lie / lie down	lie / lie down		8.5.10.4	0324	0		
-20977	1002	Manang (Prakaa)	⁴nuː ²rə-	⁴nuː ²rə-	sleep	sleep		1.1.4.1	0325	0		129,m
-20978	1002	Manang (Prakaa)	⁴nuː- ³cʰĩ-	⁴nuː- ³cʰĩ-	wake up	wake up		1.1.4	0326	0		129,154
-20979	1002	Manang (Prakaa)	³r̥eː-	³r̥eː-	rise / get up	rise / get up		1.1.4	0327	0		
-20980	1002	Manang (Prakaa)	³tsə-	³tsə-	eat	eat		1.5.3.2	0328	0		36
-20981	1002	Manang (Prakaa)	¹tʰuŋ-	¹tʰuŋ-	drink	drink			0329	0		502
-20982	1002	Manang (Prakaa)	¹mrẽ-	¹mrẽ-	drunken, be	drunken, be		1.3.5.9	0330	0		
-20983	1002	Manang (Prakaa)	¹pʰwo ³krẽ-	¹pʰwo ³krẽ-	starve / hungry, be	starve / hungry, be		1.1.3	0331	0		m,106
-20984	1002	Manang (Prakaa)	³kom◦te ³kʰə-	³kom◦te ³kʰə-	thirsty, be	thirsty, be		1.1.3.1	0332	0		116,m,m
-20985	1002	Manang (Prakaa)	²sə-	²sə-	like	like		8.3.1.1.1	0333	0		
-20986	1002	Manang (Prakaa)	²ʔasə-	²ʔasə-	dislike	dislike		8.3.1.1.2	0334	0		
-20987	1002	Manang (Prakaa)	¹neː-	¹neː-	rot / rotten, become	rot / rotten, become		3.1.10	0335	0		
-20988	1002	Manang (Prakaa)	¹tʰi-	¹tʰi-	crack / smash	crack / smash		3.2.7	0336a	0		
-20989	1002	Manang (Prakaa)	¹pəti ⁴yə-	¹pəti ⁴yə-	crack / smash	crack / smash		3.2.7	0336b	0		
-20990	1002	Manang (Prakaa)	¹pʰyaŋ-	¹pʰyaŋ-	fly	fly		2.2.6	0337	0		
-20991	1002	Manang (Prakaa)	⁴cal ¹ti-	⁴cal ¹ti-	swim	swim		6.6	0338	0		
-20992	1002	Manang (Prakaa)	³pʰiri ³ʈu-	³pʰiri ³ʈu-	drift / float	drift / float		6.6.1	0339	0		
-20993	1002	Manang (Prakaa)	²naŋri ⁴yə-	²naŋri ⁴yə-	sink	sink		6.6	0340a	0		
-20994	1002	Manang (Prakaa)	³tiŋri ⁴yə-	³tiŋri ⁴yə-	sink	sink		6.6	0340b	0		
-20995	1002	Manang (Prakaa)	⁴ʈaː-	⁴ʈaː-	tear	tear		1.8.8.1	0341	0		
-20996	1002	Manang (Prakaa)	⁴ʈaː-	⁴ʈaː-	torn, be	torn, be		6.9.4	0342	0		5335
-20997	1002	Manang (Prakaa)	¹pʰiː-	¹pʰiː-	peel	peel		1.5.3.2	0343	0		590
-20998	1002	Manang (Prakaa)	⁴plaːkya ²sə-	⁴plaːkya ²sə-	crush	crush		9.5	0344	0		
-20999	1002	Manang (Prakaa)	¹r̥aŋ-	¹r̥aŋ-	roast	roast		5.5	0345	0		
-21000	1002	Manang (Prakaa)	⁴tsu-	⁴tsu-	boil / cook	boil / cook		6.6	0346	0		
-21001	1002	Manang (Prakaa)	³pyuː ⁴yə-	³pyuː ⁴yə-	drive / run after	drive / run after		6.7.10	0347	0		
-21002	1002	Manang (Prakaa)	¹laː ⁴yə-	¹laː ⁴yə-	escape / run away	escape / run away		6.7.2	0348a	0		
-21003	1002	Manang (Prakaa)	¹laː-	¹laː-	escape / run away	escape / run away		6.7.2	0348b	0		
-21004	1002	Manang (Prakaa)	³seː-	³seː-	kill	kill		6.4	0349	0		1018
-21005	1002	Manang (Prakaa)	⁴pʰəteː ¹prĩ-	⁴pʰəteː ¹prĩ-	tie	tie		6.13.1	0350	0		
-21006	1002	Manang (Prakaa)	⁴pʰəteː ⁴pl̥o-	⁴pʰəteː ⁴pl̥o-	release / untie	release / untie		6.10.1	0351	0		
-21007	1002	Manang (Prakaa)	⁴pʰəteː ¹piː-	⁴pʰəteː ¹piː-	set free	set free		6.17	0352a	0		
-21008	1002	Manang (Prakaa)	³kyataː ¹piː-	³kyataː ¹piː-	set free	set free		6.17	0352b	0		
-21009	1002	Manang (Prakaa)	⁴ʈʰu-	⁴ʈʰu-	sew	sew		5.1	0353	0		2627
-21010	1002	Manang (Prakaa)	¹r̥u-	¹r̥u-	wash	wash		6.2.2.5.2	0354	0		2344
-21011	1002	Manang (Prakaa)	¹pʰyaː-	¹pʰyaː-	wipe	wipe		6.2.2.1	0355	0		2587
-21012	1002	Manang (Prakaa)	³kwẽ-	³kwẽ-	wear / put on	wear / put on		6.2.2.1	0356	0		2256
-21013	1002	Manang (Prakaa)	¹pʰĩ-	¹pʰĩ-	take off	take off		6.21	0357	0		
-21014	1002	Manang (Prakaa)	²pri-	²pri-	write	write		6.2.2.9.1	0358	0		2616
-21015	1002	Manang (Prakaa)	³ʈoː-	³ʈoː-	read	read		6.2.2.9.3	0359	0		
-21016	1002	Manang (Prakaa)	³loː-	³loː-	instruct / teach	instruct / teach		6.19	0360	0		5433
-21017	1002	Manang (Prakaa)	³tuː-	³tuː-	cut	cut		6.9.3	0361	0		
-21018	1002	Manang (Prakaa)	²sə-	²sə-	make	make		6.14	0362	0		
-21019	1002	Manang (Prakaa)	³pʰaŋ-	³pʰaŋ-	open	open		6.2.2.6.1	0363	0		5704
-21020	1002	Manang (Prakaa)	¹prĩ-	¹prĩ-	close	close		6.2.2.6.2	0364	0		
-21021	1002	Manang (Prakaa)	³ʈu-	³ʈu-	live / dwell	live / dwell		1.1.2.1	0365	0		3602
-21022	1002	Manang (Prakaa)	⁴kʰye ³lə-	⁴kʰye ³lə-	work	work		6.1.1	0366	0		5827
-21023	1002	Manang (Prakaa)	³tʰaŋ ³cʰeː-	³tʰaŋ ³cʰeː-	tired, be	tired, be		9.6.2.2	0367	0		
-21024	1002	Manang (Prakaa)	²pleː ³saŋ-	²pleː ³saŋ-	repose / rest, take	repose / rest, take		6.1.1.4	0368a	0		
-21025	1002	Manang (Prakaa)	²pleː-	²pleː-	repose / rest, take	repose / rest, take		6.1.1.4	0368b	0		
-21026	1002	Manang (Prakaa)	⁴kʰyu-	⁴kʰyu-	buy / purchase	buy / purchase		6.22	0369	0		
-21027	1002	Manang (Prakaa)	¹tsuŋ-	¹tsuŋ-	sell	sell		6.22	0370	0		
-21028	1002	Manang (Prakaa)	³yaŋ-	³yaŋ-	get / obtain	get / obtain		1.1.5	0371	0		
-21029	1002	Manang (Prakaa)	³kʰu-	³kʰu-	steal	steal		6.2.2.1	0372a	0		
-21030	1002	Manang (Prakaa)	⁴yo ³kʰu-	⁴yo ³kʰu-	steal	steal		6.2.2.1	0372b	0		
-21031	1002	Manang (Prakaa)	³ɲẽ-	³ɲẽ-	lend	lend		6.22	0373	0		
-21032	1002	Manang (Prakaa)	³ɲẽ-	³ɲẽ-	borrow	borrow		6.22	0374	0		
-21033	1002	Manang (Prakaa)	¹mĩ-	¹mĩ-	ripe, become / ripen	ripe, become / ripen		3.1.10	0375	0		2449
-21034	1002	Manang (Prakaa)	³kiː-	³kiː-	break	break		9.5	0376	0		
-21035	1002	Manang (Prakaa)	⁴yo-	⁴yo-	shake	shake		6.7.9	0377	0		
-21036	1002	Manang (Prakaa)	¹tiː-	¹tiː-	take / adopt	take / adopt		6.21	0378a	0		
-21037	1002	Manang (Prakaa)	³ʈʰu-	³ʈʰu-	take / adopt	take / adopt		6.21	0378b	0		
-21038	1002	Manang (Prakaa)	¹te-	¹te-	dig	dig		6.11	0379	0		
-21039	1002	Manang (Prakaa)	⁴pr̥o-	⁴pr̥o-	flow / stream	flow / stream		6.6.1	0380	0		
-21040	1002	Manang (Prakaa)	³kreː-	³kreː-	climb	climb		6.7.7	0381	0		
-21041	1002	Manang (Prakaa)	¹kyoroː ⁴yə-	¹kyoroː ⁴yə-	climb down / descend	climb down / descend		6.7.7	0382	0		
-21042	1002	Manang (Prakaa)	²kaŋroː ⁴yə-	²kaŋroː ⁴yə-	ascend / rise	ascend / rise		6.7.7	0383a	0		
-21043	1002	Manang (Prakaa)	¹pʰyaː-	¹pʰyaː-	ascend / sunrise	ascend / sunrise		6.7.7	0383b	0		
-21044	1002	Manang (Prakaa)	⁴pʰəteː ⁴yə-	⁴pʰəteː ⁴yə-	fall	fall		6.1.1.4.2	0384a	0		
-21045	1002	Manang (Prakaa)	³pʰeː-	³pʰeː-	fall / sunset	fall / sunset		6.1.1.4.2	0384b	0		
-21046	1002	Manang (Prakaa)	¹luŋ-	¹luŋ-	burn / blaze	burn / blaze		3.2.12.1	0385	0		
-21047	1002	Manang (Prakaa)	³l̥aː◦pə ³kʰə-	³l̥aːpə ³kʰə-	blow (wind)	blow (wind)		1.3.1.4	0386a	0		2412,m,m
-21048	1002	Manang (Prakaa)	²pʰu ³lə-	²pʰu ³lə-	blow (breath)	blow (breath)		1.3.1.4	0386b	0		75,1744
-21049	1002	Manang (Prakaa)	³mwo ¹yu-	³mwo ¹yu-	rain	rain		3.2.1	0387	0		2473,531
-21050	1002	Manang (Prakaa)	³tyelaː ³tə-	³tyelaː ³tə-	wet, get / damp	wet, get / damp		6.6	0388	0		
-21051	1002	Manang (Prakaa)	³kʰərkyaː ³tə-	³kʰərkyaː ³tə-	dry	dry		6.6	0389	0		
-21052	1002	Manang (Prakaa)	¹tsʰuŋ-	¹tsʰuŋ-	hide / conceal	hide / conceal		1.6.5.1	0390	0		x
-21053	1002	Manang (Prakaa)	³caː-	³caː-	search	search		6.2.2.2	0391	0		
-21054	1002	Manang (Prakaa)	³yaŋ-	³yaŋ-	find	find		6.21	0392	0		
-21055	1002	Manang (Prakaa)	⁴cʰaː-	⁴cʰaː-	reckon	reckon		8.3.1.13.1	0393	0		
-21056	1002	Manang (Prakaa)	²nə-	²nə-	bear	bear		2.2.3	0394	0		
-21057	1002	Manang (Prakaa)	²nə-	²nə-	born, be	born, be		1.1.2	0395	0		1863
-21058	1002	Manang (Prakaa)	³tʰyepə ³tə-	³tʰyepə ³tə-	grow up	grow up		9.7.2	0396	0		
-21059	1002	Manang (Prakaa)	³ɕi-	³ɕi-	die	die		1.1.6	0397	0		27
-21060	1002	Manang (Prakaa)	³ʈu-	³ʈu-	live	live		1.1.2.1	0398	0		3602
-21061	1002	Manang (Prakaa)	³kyaŋ-	³kyaŋ-	play	play		6.1.1.3	0399	0		5707
-21062	1002	Manang (Prakaa)	²roː ³lə-	²roː ³lə-	help / assist	help / assist		6.2.2.1	0400	0		
-21063	1002	Manang (Prakaa)	²kuː-	²kuː-	wait	wait		6.1.1.6	0401	0		
-21064	1002	Manang (Prakaa)	²to-	²to-	meet	meet		6.2	0402	0		5689
-21065	1002	Manang (Prakaa)	⁴maː ³lə-	⁴maː ³lə-	fight	fight		6.5	0403	0		
-21066	1002	Manang (Prakaa)	²kyel-	²kyel-	win	win		6.19	0404	0		
-21067	1002	Manang (Prakaa)	²preː-	²preː-	lose / defeated, be	lose / defeated, be		6.10.1	0405	0		
-21068	1002	Manang (Prakaa)	³naŋsẽ ³toŋ-	³naŋsẽ ³toŋ-	think	think		8.3.1.13.1	0406	0		
-21069	1002	Manang (Prakaa)	¹ɕo◦mleː ⁴yə-	¹ɕomleː ⁴yə-	forget	forget		8.3.1.16.1	0407a	0		m,2395,m
-21070	1002	Manang (Prakaa)	¹ɕo◦mleː	¹ɕomleː	forget	forget		8.3.1.16.1	0407b	0		m,2395
-21071	1002	Manang (Prakaa)	³tʰẽ-	³tʰẽ-	set / put	set / put		6.17	0408	0		
-21072	1002	Manang (Prakaa)	³pʰuŋ-	³pʰuŋ-	ride / mount	ride / mount		6.2	0409	0		
-21073	1002	Manang (Prakaa)	²tuŋ-	²tuŋ-	come out	come out		6.7.2	0410	0		2199
-21074	1002	Manang (Prakaa)	²ɕuː-	²ɕuː-	enter	enter		6.7.1	0411	0		
-21075	1002	Manang (Prakaa)	³kʰə-	³kʰə-	come	come		6.7.1	0412a	0		
-21076	1002	Manang (Prakaa)	³pʰeː-	³pʰeː-	come	come		6.7.1	0412b	0		
-21077	1002	Manang (Prakaa)	¹yu-	¹yu-	come (from upside)	come (from upside)		6.7.1	0412c	0		
-21078	1002	Manang (Prakaa)	⁴yə-	⁴yə-	go	go		6.7.2	0413	0		
-21079	1002	Manang (Prakaa)	¹r̥ul ³lə-	¹r̥ul ³lə-	collect / gather	collect / gather		6.21	0414	0		
-21080	1002	Manang (Prakaa)	²ʈeː-	²ʈeː-	mix / blend	mix / blend		6.13.4	0415	0		
-21081	1002	Manang (Prakaa)	⁴kokor ³lə-	⁴kokor ³lə-	move	move	v.i.	6.7.11	0416	0		
-21082	1002	Manang (Prakaa)	³tə-	³tə-	suit / fit	suit / fit		5.11.8.2.1	0417	0		
-21083	1002	Manang (Prakaa)	³pĩ-	³pĩ-	give	give		6.23	0418	0		2158
-21084	1002	Manang (Prakaa)	³lə-	³lə-	do	do		6.1.1.1	0419	0		
-21085	1002	Manang (Prakaa)	³naŋsẽ ³kʰə-	³naŋsẽ ³kʰə-	think	think		8.3.1.13.1	0420	0		
-21086	1002	Manang (Prakaa)	¹ɕiː-	¹ɕiː-	know	know		8.3.1.12.1	0421	0		2670
-21087	1002	Manang (Prakaa)	- p ³saŋ ³kʰə-	- p ³saŋ ³kʰə-	desire / wish for	desire / wish for		8.3.1.14.3	0422	0		
-21088	1002	Manang (Prakaa)	- la ²rẽ	- la ²rẽ	can / possible, be	can / possible, be		10.2.2	0423	0		
-21089	1002	Manang (Prakaa)	³mwo-	³mwo-	exist	exist		1.1.2.3	0424	0		
-21090	1002	Manang (Prakaa)	³mwo-	³mwo-	stay	stay		6.7.11	0425	0		
-21091	1002	Manang (Prakaa)	⁴ʔare	⁴ʔare	not / nonexistent	not / nonexistent		1.5.3.2	0426	0		
-21092	1002	Manang (Prakaa)	³tʰyepə	³tʰyepə	big / large	big / large		9.7.2	0427a	0		
-21093	1002	Manang (Prakaa)	²wo ³tʰyepə	²wo ³tʰyepə	big / large	big / large		9.7.2	0427b	0		
-21094	1002	Manang (Prakaa)	²preːtsə	²preːtsə	little / small	little / small		9.7.2	0428	0		
-21095	1002	Manang (Prakaa)	³tʰyepə	³tʰyepə	high (stature)	high (stature)		7.1.5.3	0429a	0		
-21096	1002	Manang (Prakaa)	²ruŋpə	²ruŋpə	high (tree, person)	high (tree, person)		7.1.5.3	0429b	0		
-21097	1002	Manang (Prakaa)	¹nopə	¹nopə	high (building)	high (building)		7.1.5.3	0429c	0		
-21098	1002	Manang (Prakaa)	³puturu	³puturu	low (stature)	low (stature)		7.1.5.3	0430a	0		
-21099	1002	Manang (Prakaa)	¹məpə	¹məpə	low	low		7.1.5.3	0430b	0		
-21100	1002	Manang (Prakaa)	⁴mre◦pə	⁴mre◦pə	fat	fat		1.6.4	0431	0		1452,s
-21101	1002	Manang (Prakaa)	²kuːpə	²kuːpə	lean	lean	v.	1.1.1	0432	0		x
-21102	1002	Manang (Prakaa)	¹r̥uŋpə	¹r̥uŋpə	thick	thick		9.7.2	0433	0		
-21103	1002	Manang (Prakaa)	³pə◦pə	³pəpə	thin	thin		9.7.2	0434	0		5551,5551
-21104	1002	Manang (Prakaa)	²li◦pə	²lipə	heavy	heavy		9.6.2	0435	0		2415,s
-21105	1002	Manang (Prakaa)	¹ɲaŋpə	¹ɲaŋpə	light	light		7.1.11.1	0436	0		
-21106	1002	Manang (Prakaa)	³ɕeː ³tʰyepə	³ɕeː ³tʰyepə	strong	strong		9.6.1.1	0437	0		
-21107	1002	Manang (Prakaa)	⁴pʰaŋ ⁴ʔarupə	⁴pʰaŋ ⁴ʔarupə	weak	weak		1.1.5	0438	0		
-21108	1002	Manang (Prakaa)	²ʔatyepə	²ʔatyepə	sore / painful	sore / painful		1.1.5.1	0439	0		
-21109	1002	Manang (Prakaa)	²kyoŋ◦pə	²kyoŋ◦pə	hard	hard		9.6.2	0440	0		185,s
-21110	1002	Manang (Prakaa)	²pwʰolpə	²pwʰolpə	soft	soft		7.1.4.2	0441	0		
-21111	1002	Manang (Prakaa)	³ki ³kyəpə	³ki ³kyəpə	sweet	sweet		7.1.4.4	0442	0		
-21112	1002	Manang (Prakaa)	⁴tsətsə ²sampə	⁴tsətsə ²sampə	salty	salty		3.2.4	0443	0		
-21113	1002	Manang (Prakaa)	³mətsə ¹tsʰəpə	³mətsə ¹tsʰəpə	hot / pungent	hot / pungent			0444	0		
-21114	1002	Manang (Prakaa)	³kyẽpə	³kyẽpə	bitter	bitter		7.1.4.4	0445	0		
-21115	1002	Manang (Prakaa)	²kyoːpə	²kyoːpə	fast / quick	fast / quick		9.6.1.1	0446	0		
-21116	1002	Manang (Prakaa)	⁴koleː	⁴koleː	slow	slow		9.6.2.1	0447	0		
-21117	1002	Manang (Prakaa)	²kikil	²kikil	round	round		9.7.1	0448a	0		
-21118	1002	Manang (Prakaa)	⁴kwor	⁴kwor	round	round		9.7.1	0448b	0		5748
-21119	1002	Manang (Prakaa)	¹cʰərmu	¹cʰərmu	sharp / acute	sharp / acute		6.9.2	0449	0		
-21120	1002	Manang (Prakaa)	⁴ʔacʰarmu	⁴ʔacʰarmu	blunt / dull	blunt / dull		7.1.5.1	0450	0		
-21121	1002	Manang (Prakaa)	²cʰemu	²cʰemu	smooth	smooth		7.1.4.2	0451a	0		
-21122	1002	Manang (Prakaa)	²cʰẽpə	²cʰẽpə	smooth	smooth		7.1.4.2	0451b	0		
-21123	1002	Manang (Prakaa)	¹tʰənye	¹tʰənye	straight	straight		7.1.5.1	0452	0		
-21124	1002	Manang (Prakaa)	¹ŋuʔi ³tsaŋ◦pə	¹ŋuʔi ³tsaŋpə	pretty / clean	pretty / clean		7.1.3	0453a	0		m,2745,s
-21125	1002	Manang (Prakaa)	³tsaŋ◦pə	³tsaŋpə	pretty / clean	pretty / clean		7.1.3	0453b	0		2745,s
-21126	1002	Manang (Prakaa)	²tʰi ³lə-	²tʰi ³lə-	pretty	pretty		7.1.3	0453c	0		
-21127	1002	Manang (Prakaa)	⁴ʔatsaŋpa	⁴ʔatsaŋpa	dirty	dirty		3.2.11	0454a	0		
-21128	1002	Manang (Prakaa)	¹ŋuʔi ⁴ʔatsaŋpə	¹ŋuʔi ⁴ʔatsaŋpə	dirty	dirty		3.2.11	0454b	0		
-21129	1002	Manang (Prakaa)	²ʔu◦ruŋ◦pə	²ʔu◦ruŋ◦pə	long	long		9.7.2	0455a	0		m,1011,m
-21130	1002	Manang (Prakaa)	²ruŋ◦pə	²ruŋ◦pə	long	long		9.7.2	0455b	0		1011,m
-21131	1002	Manang (Prakaa)	³r̥uŋpə	³r̥uŋpə	brief / short	brief / short		9.1.1	0456	0		
-21132	1002	Manang (Prakaa)	³tʰaː ²ruŋpə	³tʰaː ²ruŋpə	distant / far	distant / far		9.2.7	0457	0		
-21133	1002	Manang (Prakaa)	⁴ɲe◦pə	⁴ɲepə	near	near		9.2.3	0458	0		2496,m
-21134	1002	Manang (Prakaa)	⁴kʰye ³tʰyepə	⁴kʰye ³tʰyepə	broad / wide	broad / wide		7.1.5.1	0459a	0		
-21135	1002	Manang (Prakaa)	⁴kʰye ²yaŋpə	⁴kʰye ²yaŋpə	broad / wide	broad / wide		7.1.5.1	0459b	0		
-21136	1002	Manang (Prakaa)	²toːpə	²toːpə	narrow	narrow		9.7.2	0460a	0		
-21137	1002	Manang (Prakaa)	⁴kʰye ²toːpə	⁴kʰye ²toːpə	narrow	narrow		9.7.2	0460b	0		
-21138	1002	Manang (Prakaa)	³tsʰeːpə ³kʰəpə	³tsʰeːpə ³kʰəpə	hot	hot			0461	0		
-21139	1002	Manang (Prakaa)	¹kʰaŋpə	¹kʰaŋpə	cold / chilly	cold / chilly		7.1.2.3	0462	0		
-21140	1002	Manang (Prakaa)	²ʈe ³kʰəpə	²ʈe ³kʰəpə	warm	warm		7.1.2.3	0463a	0		
-21141	1002	Manang (Prakaa)	⁴ʈʰopə	⁴ʈʰopə	warm	warm		7.1.2.3	0463b	0		
-21142	1002	Manang (Prakaa)	²plaːpə	²plaːpə	cold / freezing	cold / freezing		7.1.2.3	0464	0		
-21143	1002	Manang (Prakaa)	²syẽpə	²syẽpə	young	young		7.1.8.3	0465	0		
-21144	1002	Manang (Prakaa)	²nəsə ⁴yəpə	²nəsə ⁴yəpə	old / aged	old / aged		7.1.8.3	0466	0		
-21145	1002	Manang (Prakaa)	³sẽpə	³sẽpə	new	new		9.6.1.1	0467	0		
-21146	1002	Manang (Prakaa)	³ɲĩpə	³ɲĩpə	old / ancient	old / ancient		7.1.8.3	0468	0		
-21147	1002	Manang (Prakaa)	²tsaː ³ʈutseː	²tsaː ³ʈutseː	always	always		9.1.1	0469	0		
-21148	1002	Manang (Prakaa)	¹neː ³mwo◦pə	¹neː ³mwo◦pə	full	full		1.1.3.2	0470	0		5715,m,s
-21149	1002	Manang (Prakaa)	⁴kaː ²ti	⁴kaː ²ti	many	many		9.9	0471	0		
-21150	1002	Manang (Prakaa)	⁴tsaː ²pri	⁴tsaː ²pri	few	few		9.9	0472	0		
-21151	1002	Manang (Prakaa)	⁴tsʰaːraŋ	⁴tsʰaːraŋ	all	all		9.9	0473	0		
-21152	1002	Manang (Prakaa)	³tʰaŋ ³səl◦pə	³tʰaŋ ³səlpə	bright / light	bright / light		7.1.11.1	0474a	0		m,156,s
-21153	1002	Manang (Prakaa)	³tʰoŋ ³səl◦pə	³tʰoŋ ³səlpə	bright / light	bright / light		7.1.11.1	0474b	0		m,156,s
-21154	1002	Manang (Prakaa)	²mun◦naː	²munnaː	dark	dark		9.4	0475	0		522,m
-21155	1002	Manang (Prakaa)	²we	²we	light / ray	light / ray		7.1.11.1	0476	0		2271
-21156	1002	Manang (Prakaa)	³tərkya	³tərkya	white	white		9.4	0477	0		m
-21157	1002	Manang (Prakaa)	³mlã◦kya	³mlãkya	black	black		9.4	0478	0		6130,m
-21158	1002	Manang (Prakaa)	³wolkya	³wolkya	red	red		9.4	0479	0		
-21159	1002	Manang (Prakaa)	³pĩkya	³pĩkya	blue	blue		9.4	0480	0		
-21160	1002	Manang (Prakaa)	²caŋku	²caŋku	green	green		9.4	0481	0		
-21161	1002	Manang (Prakaa)	³ʔurkya	³ʔurkya	yellow	yellow		9.4	0482	0		
-21162	1002	Manang (Prakaa)	¹tsʰeː	¹tsʰeː	colour	colour		9.4	0483	0		
-21163	1002	Manang (Prakaa)	²kyeːpə	²kyeːpə	beautiful / fine	beautiful / fine		7.1.3	0484	0		
-21164	1002	Manang (Prakaa)	²səpə	²səpə	good	good		9.6.1.1	0485	0		
-21165	1002	Manang (Prakaa)	²ʔasəpə	²ʔasəpə	wrong	wrong		9.6.2.1	0486	0		
-21166	1002	Manang (Prakaa)	²ŋotoː	²ŋotoː	right / correct	right / correct		1.5.3.2	0487	0		
-21167	1002	Manang (Prakaa)	⁴r̥iː	⁴r̥iː	same	same		7.1.7.2	0488a	0		
-21168	1002	Manang (Prakaa)	³coː ²coŋpə	³coː ²coŋpə	same	same		7.1.7.2	0488b	0		
-21169	1002	Manang (Prakaa)	²raŋtse	²raŋtse	different	different		7.1.7.1	0489	0		
-21170	1002	Manang (Prakaa)	⁴lakyẽ	⁴lakyẽ	again	again		10.1	0490	0		
-21171	1002	Manang (Prakaa)	- kyena	- kyena	if	if		10.1.2.2	0491	0		
-21172	1002	Manang (Prakaa)	³kəso	³kəso	yes	yes		1.5.3.2	0492a	0		
-21173	1002	Manang (Prakaa)	⁴ʔorcʰeː	⁴ʔorcʰeː	yes	yes		1.5.3.2	0492b	0		
-21174	1002	Manang (Prakaa)	⁴ʔətə	⁴ʔətə	no	no		10.6.2	0493	0		
-21175	1002	Manang (Prakaa)	³pʰeːkə ²ciː	³pʰeːkə ²ciː	good day	good day		9.6.1.1	0494a	0		
-21176	1002	Manang (Prakaa)	²tẽ ³cʰatse ²moː	²tẽ ³cʰatse ²moː	good day	good day		9.6.1.1	0494b	0		
-21177	1002	Manang (Prakaa)	⁴koleː ³pʰeːto ²ʔoː	⁴koleː ³pʰeːto ²ʔoː	good-bye / bye-bye	good-bye / bye-bye		8.5.11	0495a	0		
-21178	1002	Manang (Prakaa)	²tẽ ³cʰaːto ²ʔoː	²tẽ ³cʰaːto ²ʔoː	good-bye / bye-bye	good-bye / bye-bye		8.5.11	0495b	0		
-21179	1002	Manang (Prakaa)	⁴ri	⁴ri	at	at		10.0	0496	0		
-21180	1002	Manang (Prakaa)	³ne	³ne	and	and		10.1.2.1	0497	0		
-21181	1002	Manang (Prakaa)	⁴yoŋ	⁴yoŋ	with / together / along with	with / together / along with		10.1.1	0498	0		
-21182	1002	Manang (Prakaa)	⁴yĩ	⁴yĩ	be / is / are	be / is / are	be v.	10.4.1.1	0499a	0		
-21183	1002	Manang (Prakaa)	³tẽ	³tẽ	be / is / are	be / is / are	be v.	10.4.1.1	0499b	0		
-21184	1002	Manang (Prakaa)	⁴ʔayĩ	⁴ʔayĩ	not	not		1.5.3.2	0500a	0		
-21185	1002	Manang (Prakaa)	⁴ʔala	⁴ʔala	not	not		1.5.3.2	0500b	0		
-21186	1002	Manang (Prakaa)	³ɕa◦kri	³ɕa◦kri	brain	brain		1.2.4	0501	0		464,m
-21187	1002	Manang (Prakaa)	³yaː◦pla	³yaː◦pla	palm	palm		1.5.5	0502a	0		696,776
-21188	1002	Manang (Prakaa)	³pla	³pla	palm	palm		1.5.5	0502b	0		
-21189	1002	Manang (Prakaa)	³cʰamnaŋ	³cʰamnaŋ	fist	fist		1.5.1.1.1	0503a	0		
-21190	1002	Manang (Prakaa)	³yaː◦cʰamnaŋ	³yaː◦cʰamnaŋ	fist	fist		1.5.1.1.1	0503b	0		696,m
-21191	1002	Manang (Prakaa)	³ɕye◦mo	³ɕye◦mo	muscle	muscle		1.6.6.2	0504	0		m,s
-21192	1002	Manang (Prakaa)	²kyəpə	²kyəpə	lung	lung		1.7.2	0505	0		
-21193	1002	Manang (Prakaa)	¹kyʰe	¹kyʰe	kidney	kidney		1.7.5	0506	0		207
-21194	1002	Manang (Prakaa)	⁴lə̃◦ku	⁴lə̃◦ku	stomach (human)	stomach (human)		1.7.6	0507a	0		3460,m
-21195	1002	Manang (Prakaa)	³ɕə◦pə	³ɕə◦pə	stomach (animal)	stomach (animal)		1.7.6	0507b	0		1390,s
-21196	1002	Manang (Prakaa)	³ki	³ki	feces / stool	feces / stool		1.8.5	0508	0		572
-21197	1002	Manang (Prakaa)	³kuŋ	³kuŋ	urine	urine		1.8.4	0509	0		656
-21198	1002	Manang (Prakaa)	²mle	²mle	penis	penis			0510	0		1284
-21199	1002	Manang (Prakaa)	³tu	³tu	pubes / pubenda	pubes / pubenda		1.9.1	0511	0		
-21200	1002	Manang (Prakaa)	²kunʈulu	²kunʈulu	nudity	nudity		1.1.1	0512	0		
-21201	1002	Manang (Prakaa)	³kʰiːpə	³kʰiːpə	sneeze	sneeze		1.8.2.1	0513	0		
-21202	1002	Manang (Prakaa)	³l̥lo	³l̥lo	cough	cough		1.8.3.3	0514	0		
-21203	1002	Manang (Prakaa)	¹kʰyẽpə	¹kʰyẽpə	yawn	yawn		1.3.1.3	0515	0		
-21204	1002	Manang (Prakaa)	³r̥oː	³r̥oː	life	life		1.1.2.1	0516	0		81
-21205	1002	Manang (Prakaa)	⁴tuk	⁴tuk	poison	poison		6.4	0517	0		2202
-21206	1002	Manang (Prakaa)	¹kyẽ	¹kyẽ	rice (boiled)	rice (boiled)		3.1.4	0518	0		
-21207	1002	Manang (Prakaa)	²kyaŋ	²kyaŋ	bread	bread		5.5	0519	0		
-21208	1002	Manang (Prakaa)	¹ʔalo	¹ʔalo	potato	potato		3.1.5	0520	0		b
-21209	1002	Manang (Prakaa)	²ʈu	²ʈu	corn / grain	corn / grain		3.1.4	0521	0		
-21210	1002	Manang (Prakaa)	³meːtaː	³meːtaː	flour	flour		3.1.6.2	0522	0		
-21211	1002	Manang (Prakaa)	¹kʰanʈi	¹kʰanʈi	sugar	sugar		3.1.6.2	0523	0		
-21212	1002	Manang (Prakaa)	³kʰotsol	³kʰotsol	cake	cake		5.5	0524	0		
-21213	1002	Manang (Prakaa)	¹tʰuŋ◦pə	¹tʰuŋ◦pə	drink	drink	n.		0525	0		502,s
-21214	1002	Manang (Prakaa)	²ceː	²ceː	tea	tea		3.1.1	0526	0		
-21215	1002	Manang (Prakaa)	¹kyu ¹tsəpə	¹kyu ¹tsəpə	hot water	hot water			0527	0		
-21216	1002	Manang (Prakaa)	²ɲeː	²ɲeː	milk	milk			0528	0		254
-21217	1002	Manang (Prakaa)	³kuni	³kuni	vegetable	vegetable		3.1.2	0529	0		
-21218	1002	Manang (Prakaa)	⁴kolo	⁴kolo	beans	beans		3.1.4	0530	0		
-21219	1002	Manang (Prakaa)	⁴r̥o	⁴r̥o	wheat	wheat		3.1.4	0531a	0		
-21220	1002	Manang (Prakaa)	³karu	³karu	barley	barley		3.1.4	0531b	0		
-21221	1002	Manang (Prakaa)	¹sĩ	¹sĩ	paddy plant	paddy plant		9.10.5	0532	0		
-21222	1002	Manang (Prakaa)	²sərki ⁴tsəpə	²sərki ⁴tsəpə	meal	meal		5.5	0533	0		
-21223	1002	Manang (Prakaa)	²ru◦puŋ	²ru◦puŋ	hare / rabbit	hare / rabbit		2.1.1	0534a	0		6076,1432
-21224	1002	Manang (Prakaa)	²ri◦puŋ	²ri◦puŋ	hare / rabbit	hare / rabbit		2.1.1	0534b	0		6076,1432
-21225	1002	Manang (Prakaa)	³ɲumũ	³ɲumũ	rat	rat		2.1.1	0535	0		
-21226	1002	Manang (Prakaa)	³ɕaː	³ɕaː	tusk / fang	tusk / fang		1.3.4.1	0536	0		632
-21227	1002	Manang (Prakaa)	³nokor	³nokor	cat	cat		2.1.3	0537	0		
-21228	1002	Manang (Prakaa)	³ʔati	³ʔati	crow	crow		2.2.4.1	0538	0		
-21229	1002	Manang (Prakaa)	³poro	³poro	pigeon	pigeon		2.2.4.1	0539	0		
-21230	1002	Manang (Prakaa)	³tyu◦mũ	³tyu◦mũ	monkey	monkey		2.1.9	0540	0		p,2462
-21231	1002	Manang (Prakaa)	³semcẽ	³semcẽ	beast	beast		2.3	0541	0		
-21232	1002	Manang (Prakaa)	³pʰwo	³pʰwo	male	male		1.9.6.1	0542	0		1635
-21233	1002	Manang (Prakaa)	²mwo	²mwo	female	female		1.9.3	0543	0		1620
-21234	1002	Manang (Prakaa)	²təse	²təse	victim / sacrifice	victim / sacrifice		4.2.3	0544	0		
-21235	1002	Manang (Prakaa)	³pʰu	³pʰu	trap	trap		5.14	0545	0		
-21236	1002	Manang (Prakaa)	³tsʰaŋ	³tsʰaŋ	cage / basket	cage / basket		1.4.4.3	0546	0		
-21237	1002	Manang (Prakaa)	¹tʰaːkyẽ	¹tʰaːkyẽ	box / case	box / case		5.1	0547	0		
-21238	1002	Manang (Prakaa)	²kyeː	²kyeː	lid	lid		5.1	0548	0		
-21239	1002	Manang (Prakaa)	²miʔeɕar	²miʔeɕar	match	match		5.11.5.5	0549	0		
-21240	1002	Manang (Prakaa)	¹tʰa	¹tʰa	board / plank	board / plank		5.11.9	0550	0		
-21241	1002	Manang (Prakaa)	³ɕel	³ɕel	glass	glass		5.11	0551	0		
-21242	1002	Manang (Prakaa)	²ɕelpuŋ	²ɕelpuŋ	bottle	bottle		5.1	0552	0		
-21243	1002	Manang (Prakaa)	¹tʰali	¹tʰali	plate	plate		5.5	0553	0		
-21244	1002	Manang (Prakaa)	¹kəlɕoː	¹kəlɕoː	cup	cup		5.1	0554	0		
-21245	1002	Manang (Prakaa)	⁴kʰye	⁴kʰye	spoon	spoon		5.5	0555	0		
-21246	1002	Manang (Prakaa)	²sərki ²tsupə	²sərki ²tsupə	cooking	cooking		5.5	0556	0		
-21247	1002	Manang (Prakaa)	¹kəltaːni	¹kəltaːni	scissors	scissors		5.11.5.3	0557	0		
-21248	1002	Manang (Prakaa)	²ʈʰupə	²ʈʰupə	sewing	sewing		5.1	0558	0		
-21249	1002	Manang (Prakaa)	³kaŋ◦kyi	³kaŋ◦kyi	comb	comb		1.2.2.1	0559	0		m,bNepali
-21250	1002	Manang (Prakaa)	²meːlaŋ	²meːlaŋ	looking glass / mirror	looking glass / mirror		1.2.6.11	0560	0		
-21251	1002	Manang (Prakaa)	³mẽ ¹pʰorpə	³mẽ ¹pʰorpə	toilet	toilet		5.11.9.4	0561	0		
-21252	1002	Manang (Prakaa)	³saːra ²tʰẽpə	³saːra ²tʰẽpə	tool / instrument	tool / instrument		5.11.5.4	0562	0		
-21253	1002	Manang (Prakaa)	³pulu	³pulu	hat / cap	hat / cap		5.11.8.2.1.1	0563	0		
-21254	1002	Manang (Prakaa)	³tsʰaːta	³tsʰaːta	umbrella	umbrella		5.11.8.2.2	0564	0		b?
-21255	1002	Manang (Prakaa)	⁴kʰaːnə	⁴kʰaːnə	necklace	necklace		5.11.8.3	0565	0		
-21256	1002	Manang (Prakaa)	²puʈul	²puʈul	bangle	bangle		5.11.8.3	0566	0		
-21257	1002	Manang (Prakaa)	³kʰolẽ	³kʰolẽ	ring / wheel	ring / wheel		5.11.8.3	0567	0		bTibetan
-21258	1002	Manang (Prakaa)	¹pʰiki	¹pʰiki	band / belt / sash	band / belt / sash		5.11.9	0568	0	z	
-21259	1002	Manang (Prakaa)	²noŋke	²noŋke	trousers	trousers		5.11.8.2.1.3	0569	0		
-21260	1002	Manang (Prakaa)	³poli	³poli	shoe	shoe		5.11.8.1	0570	0		
-21261	1002	Manang (Prakaa)	³tʰaŋ	³tʰaŋ	floor	floor		5.11.9.3	0571	0		
-21262	1002	Manang (Prakaa)	³coktsə	³coktsə	desk	desk		5.11.9.4	0572	0		
-21263	1002	Manang (Prakaa)	¹kʰurɕĩ	¹kʰurɕĩ	chair	chair		5.11.9.4	0573	0		
-21264	1002	Manang (Prakaa)	²tsəpe	²tsəpe	room	room		5.11.9.2	0574	0		
-21265	1002	Manang (Prakaa)	²ta	²ta	pillar	pillar		5.11.9.3.1	0575	0		
-21266	1002	Manang (Prakaa)	³ʈəʈi	³ʈəʈi	lavatory / privy	lavatory / privy		5.11	0576	0		
-21267	1002	Manang (Prakaa)	³pʰyaːpə	³pʰyaːpə	cleaning	cleaning		6.2.2.5.2	0577	0		
-21268	1002	Manang (Prakaa)	¹mre	¹mre	gate	gate		5.11.9.5	0578a	0		
-21269	1002	Manang (Prakaa)	⁴ko	⁴ko	gate	gate		5.11.9.5	0578b	0		
-21270	1002	Manang (Prakaa)	¹mre ⁴ko	¹mre ⁴ko	gate	gate		5.11.9.5	0578c	0		
-21271	1002	Manang (Prakaa)	²tore	²tore	tomb	tomb		9.10.6	0579	0		
-21272	1002	Manang (Prakaa)	²naraː	²naraː	funeral ceremony	funeral ceremony		5.8	0580	0		
-21273	1002	Manang (Prakaa)	⁴mər	⁴mər	gold	gold		3.2.4	0581	0		1470
-21274	1002	Manang (Prakaa)	⁴muʔ◦iɕə	⁴muʔiɕə	silver	silver		3.2.4	0582	0		5519,m
-21275	1002	Manang (Prakaa)	²kʰyor	²kʰyor	copper	copper		3.2.4	0583	0		
-21276	1002	Manang (Prakaa)	¹pʰeː	¹pʰeː	iron	iron		3.2.4	0584	0		
-21277	1002	Manang (Prakaa)	³miɕĩ	³miɕĩ	machine	machine		5.1	0585	0		
-21278	1002	Manang (Prakaa)	³moʈor	³moʈor	car / automobile / motor-car	car / automobile / motor-car		5.1	0586	0		bEnglish
-21279	1002	Manang (Prakaa)	⁴lakcʰə	⁴lakcʰə	arms / weapon	arms / weapon		1.5.1.2	0587	0		
-21280	1002	Manang (Prakaa)	²taŋtu	²taŋtu	drum	drum		5.1	0588	0		
-21281	1002	Manang (Prakaa)	³yerkə	³yerkə	bell	bell		5.1	0589	0		
-21282	1002	Manang (Prakaa)	²kiliŋ	²kiliŋ	flute	flute		5.1	0590	0		2242
-21283	1002	Manang (Prakaa)	²tuŋtar	²tuŋtar	banner / flag	banner / flag		5.11	0591a	0		
-21284	1002	Manang (Prakaa)	²tarɕoː	²tarɕoː	prayer flag	prayer flag		5.8.3.1	0591b	0		
-21285	1002	Manang (Prakaa)	⁴kyəproː	⁴kyəproː	ally	ally		5.8	0592	0		
-21286	1002	Manang (Prakaa)	⁴r̥ə	⁴r̥ə	enemy	enemy		4.2.6	0593	0		
-21287	1002	Manang (Prakaa)	⁴maː	⁴maː	war / warfare	war / warfare		5.15	0594	0		257
-21288	1002	Manang (Prakaa)	³miʔe ⁴yəpə	³miʔe ⁴yəpə	burning / fire	burning / fire		3.2.12.1	0595	0		
-21289	1002	Manang (Prakaa)	²loyoː	²loyoː	punishment	punishment		6.2.2.1	0596	0		
-21290	1002	Manang (Prakaa)	³r̥əl	³r̥əl	tax	tax		5.9	0597	0		
-21291	1002	Manang (Prakaa)	¹seː	¹seː	price / cost	price / cost		5.9	0598	0		
-21292	1002	Manang (Prakaa)	³ɕuɕoː ²puk	³ɕuɕoː ²puk	book	book		5.1	0599a	0		
-21293	1002	Manang (Prakaa)	²cʰeː	²cʰeː	book (sutras)	book (sutras)		5.1	0599b	0		
-21294	1002	Manang (Prakaa)	³pyepər	³pyepər	newspaper	newspaper		5.1	0600	0		
-21295	1002	Manang (Prakaa)	²rimə	²rimə	drawing / painting / picture	drawing / painting / picture		5.8	0601	0		
-21296	1002	Manang (Prakaa)	²yikə	²yikə	letter / mail	letter / mail		5.1	0602	0		
-21297	1002	Manang (Prakaa)	²laŋpə	²laŋpə	talk / tale / story	talk / tale / story		5.8	0603	0		
-21298	1002	Manang (Prakaa)	⁴kwʰe	⁴kwʰe	song	song		5.1	0604	0		
-21299	1002	Manang (Prakaa)	²ɕəpʈi	²ɕəpʈi	dance	dance		6.7.9	0605	0		
-21300	1002	Manang (Prakaa)	³kwor ⁴yəpə	³kwor ⁴yəpə	journey / trip / tour	journey / trip / tour		6.7.2	0606	0		
-21301	1002	Manang (Prakaa)	²pleː	²pleː	rest	rest	n.	1.1.4.1	0607a	0		
-21302	1002	Manang (Prakaa)	³cʰuti	³cʰuti	rest	rest	n.	1.1.4.1	0607b	0		
-21303	1002	Manang (Prakaa)	³sə ²wepə	³sə ²wepə	cultivation / tillage	cultivation / tillage		3.1.10	0608	0		
-21304	1002	Manang (Prakaa)	¹to	¹to	hoe	hoe	n	5.3	0609a	0		3573
-21305	1002	Manang (Prakaa)	³katali	³katali	hoe	hoe		5.3	0609b	0		
-21306	1002	Manang (Prakaa)	⁴kworɕĩ	⁴kworɕĩ	plough	plough		5.3	0610	0		
-21307	1002	Manang (Prakaa)	²cʰətaː	²cʰətaː	mortar	mortar		5.5	0611	0		
-21308	1002	Manang (Prakaa)	³cʰimi	³cʰimi	fountain / spring	fountain / spring		9.10.2	0612	0		
-21309	1002	Manang (Prakaa)	³ɕyoŋ	³ɕyoŋ	valley	valley		3.2.5	0613	0		
-21310	1002	Manang (Prakaa)	³pəkə	³pəkə	bank / shore	bank / shore		9.10.2	0614	0		
-21311	1002	Manang (Prakaa)	¹kyu ³ʔaloŋ	¹kyu ³ʔaloŋ	wave	wave		6.7.4	0615a	0		
-21312	1002	Manang (Prakaa)	³ʔaloŋ	³ʔaloŋ	wave	wave		6.7.4	0615b	0		
-21313	1002	Manang (Prakaa)	¹kyu ³pəpe	¹kyu ³pəpe	foam	foam		3.2.3	0616a	0		
-21314	1002	Manang (Prakaa)	³pəpe	³pəpe	foam	foam		3.2.3	0616b	0		
-21315	1002	Manang (Prakaa)	³mwo ²prilo	³mwo ²prilo	thunder	thunder		3.2.1	0617	0		2473
-21316	1002	Manang (Prakaa)	³tipli	³tipli	lightning	lightning		3.2.1	0618	0		
-21317	1002	Manang (Prakaa)	³l̥aːpə	³l̥aːpə	air	air		1.1.2.2	0619	0		x
-21318	1002	Manang (Prakaa)	³mwo	³mwo	weather	weather		3.2.1	0620	0		2473
-21319	1002	Manang (Prakaa)	³mwo ²yuptiː	³mwo ²yuptiː	rainy season	rainy season		3.2.1	0621	0		2473
-21320	1002	Manang (Prakaa)	³mwo ²ʔayuptiː	³mwo ²ʔayuptiː	dry season	dry season		6.6	0622	0		
-21321	1002	Manang (Prakaa)	³piːkə	³piːkə	spring	spring		6.7.9	0623	0		
-21322	1002	Manang (Prakaa)	³yərkə	³yərkə	summer	summer		3.2.1	0624	0		
-21323	1002	Manang (Prakaa)	³tẽkə	³tẽkə	autumn / fall	autumn / fall		9.1.2	0625	0		
-21324	1002	Manang (Prakaa)	²kũtse	²kũtse	winter	winter		9.1.2	0626	0		
-21325	1002	Manang (Prakaa)	⁴towə ²taŋpə	⁴towə ²taŋpə	January	January		9.1.2	0627	0		
-21326	1002	Manang (Prakaa)	⁴towə ⁴ɲipə	⁴towə ⁴ɲipə	February	February		9.1.2	0628	0		
-21327	1002	Manang (Prakaa)	⁴towə ³sumpə	⁴towə ³sumpə	March	March		9.1.2	0629	0		
-21328	1002	Manang (Prakaa)	⁴towə ⁴ɕipə	⁴towə ⁴ɕipə	April	April		9.1.2	0630	0		
-21329	1002	Manang (Prakaa)	⁴towə ¹ŋəpə	⁴towə ¹ŋəpə	May	May		9.1.2	0631	0		
-21330	1002	Manang (Prakaa)	⁴towə ⁴ʈukpə	⁴towə ⁴ʈukpə	June	June		9.1.2	0632	0		
-21331	1002	Manang (Prakaa)	⁴towə ⁴tĩpə	⁴towə ⁴tĩpə	July	July		9.1.2	0633	0		
-21332	1002	Manang (Prakaa)	⁴towə ⁴kyeːpə	⁴towə ⁴kyeːpə	August	August		9.1.2	0634	0		
-21333	1002	Manang (Prakaa)	⁴towə ⁴kupə	⁴towə ⁴kupə	September	September		9.1.2	0635	0		
-21334	1002	Manang (Prakaa)	⁴towə ¹cupə	⁴towə ¹cupə	October	October		9.1.2	0636	0		
-21335	1002	Manang (Prakaa)	⁴towə ¹cukciːpə	⁴towə ¹cukciːpə	November	November		9.1.2	0637	0		
-21336	1002	Manang (Prakaa)	⁴towə ³cuŋɲipə	⁴towə ³cuŋɲipə	December	December		9.1.2	0638	0		
-21337	1002	Manang (Prakaa)	⁴sə ²towə	⁴sə ²towə	Monday	Monday		9.1.3	0639	0		
-21338	1002	Manang (Prakaa)	⁴sə ³miːmər	⁴sə ³miːmər	Tuesday	Tuesday		9.1.3	0640	0		
-21339	1002	Manang (Prakaa)	⁴sə ³l̥akpə	⁴sə ³l̥akpə	Wednesday	Wednesday		9.1.3	0641	0		
-21340	1002	Manang (Prakaa)	⁴sə ³pʰurpə	⁴sə ³pʰurpə	Thursday	Thursday		9.1.3	0642	0		
-21341	1002	Manang (Prakaa)	⁴sə ³pəlsaŋ	⁴sə ³pəlsaŋ	Friday	Friday		9.1.3	0643	0		
-21342	1002	Manang (Prakaa)	⁴sə ¹pyõpə	⁴sə ¹pyõpə	Saturday	Saturday		9.1.3	0644	0		
-21343	1002	Manang (Prakaa)	⁴sə ²ɲima	⁴sə ²ɲima	Sunday	Sunday		9.1.3	0645	0		
-21344	1002	Manang (Prakaa)	-ra	-ra	day / number of days	day / number of days		1.5.3.2	0646	0		
-21345	1002	Manang (Prakaa)	³cʰutseː	³cʰutseː	o'clock	o'clock		9.1.4	0647	0		
-21346	1002	Manang (Prakaa)	¹meleː	¹meleː	minute	minute		9.1.4	0648	0		
-21347	1002	Manang (Prakaa)	--	--	second	second		9.9	0649	0		
-21348	1002	Manang (Prakaa)	²nentaŋ	²nentaŋ	morning / a.m.	morning / a.m.		9.1.4	0650	0		
-21349	1002	Manang (Prakaa)	³ɲətseː	³ɲətseː	afternoon / p.m.	afternoon / p.m.		9.1.4	0651	0		
-21350	1002	Manang (Prakaa)	¹huɲi ³nəraŋ	¹huɲi ³nəraŋ	day before yesterday	day before yesterday		1.5.3.2	0652	0		
-21351	1002	Manang (Prakaa)	³raːɲiː	³raːɲiː	day after tomorrow	day after tomorrow		1.5.3.2	0653	0		
-21352	1002	Manang (Prakaa)	¹huɲi ¹lə	¹huɲi ¹lə	last month	last month		9.9	0654	0		
-21353	1002	Manang (Prakaa)	²cucuː ¹lə	²cucuː ¹lə	next month	next month		9.9	0655	0		
-21354	1002	Manang (Prakaa)	³titĩ	³titĩ	this year	this year		10.4.3.2	0656	0		
-21355	1002	Manang (Prakaa)	³nəraŋ ²lo	³nəraŋ ²lo	last year	last year		9.9	0657	0		
-21356	1002	Manang (Prakaa)	²cucuː ²lo	²cucuː ²lo	next year	next year		9.9	0658	0		
-21357	1002	Manang (Prakaa)	²taŋpə ²taŋpə	²taŋpə ²taŋpə	ancient times	ancient times		9.1.5	0659	0		
-21358	1002	Manang (Prakaa)	²təle	²təle	some day / one day	some day / one day		9.9	0660	0		
-21359	1002	Manang (Prakaa)	³nəraŋ	³nəraŋ	before / ago	before / ago		9.1.5	0661	0		
-21360	1002	Manang (Prakaa)	²cucuː	²cucuː	afterward	afterward		9.1.5	0662	0		
-21361	1002	Manang (Prakaa)	³nəraŋ	³nəraŋ	beginning	beginning		9.5	0663	0		
-21362	1002	Manang (Prakaa)	²cucuː	²cucuː	end	end		9.5	0664	0		
-21363	1002	Manang (Prakaa)	²cucuː	²cucuː	next	next		9.9	0665	0		
-21364	1002	Manang (Prakaa)	--	--	zero	zero		9.9	0666	0		
-21365	1002	Manang (Prakaa)	³tsukriː	³tsukriː	eleven	eleven		9.9	0667	0		
-21366	1002	Manang (Prakaa)	³tsuŋɲiː	³tsuŋɲiː	twelve	twelve		9.9	0668	0		
-21367	1002	Manang (Prakaa)	³tsupsẽ	³tsupsẽ	thirteen	thirteen		9.9	0669	0		
-21368	1002	Manang (Prakaa)	⁴tsupli	⁴tsupli	fourteen	fourteen		9.9	0670	0		
-21369	1002	Manang (Prakaa)	³tsoːŋə	³tsoːŋə	fifteen	fifteen		9.9	0671	0		
-21370	1002	Manang (Prakaa)	³tsuʈu	³tsuʈu	sixteen	sixteen		9.9	0672	0		
-21371	1002	Manang (Prakaa)	³tseːɲiː	³tseːɲiː	seventeen	seventeen		9.9	0673	0		
-21372	1002	Manang (Prakaa)	³tsəpreː	³tsəpreː	eighteen	eighteen		9.9	0674	0		
-21373	1002	Manang (Prakaa)	³tsurku	³tsurku	nineteen	nineteen		9.9	0675	0		
-21374	1002	Manang (Prakaa)	³sum◦cu	³sum◦cu	thirty	thirty		9.9	0676	0		2666
-21375	1002	Manang (Prakaa)	²pli◦cu	²pli◦cu	forty	forty		9.9	0677	0		2409
-21376	1002	Manang (Prakaa)	²ŋə◦cu	²ŋə◦cu	fifty	fifty		9.9	0678	0		1306
-21377	1002	Manang (Prakaa)	²tuk◦cu	²tuk◦cu	sixty	sixty		9.9	0679	0		2621,m
-21378	1002	Manang (Prakaa)	¹ɲĩ◦cu	¹ɲĩ◦cu	seventy	seventy		9.9	0680	0		2505,m
-21379	1002	Manang (Prakaa)	²preːcu	²preːcu	eighty	eighty		9.9	0681	0		
-21380	1002	Manang (Prakaa)	¹kucu	¹kucu	ninety	ninety		9.9	0682	0		
-21381	1002	Manang (Prakaa)	³toŋraː ⁴r̥iː	³toŋraː ⁴r̥iː	thousand	thousand		9.9	0683	0		
-21382	1002	Manang (Prakaa)	³toŋra ¹cu	³toŋra ¹cu	ten thousands	ten thousands		9.9	0684	0		
-21383	1002	Manang (Prakaa)	¹tʰentẽ	¹tʰentẽ	first	first		9.9	0685	0		
-21384	1002	Manang (Prakaa)	²ɲale	²ɲale	second	second		9.9	0686	0		
-21385	1002	Manang (Prakaa)	²səle	²səle	third	third		9.9	0687	0		
-21386	1002	Manang (Prakaa)	⁴r̥ake	⁴r̥ake	alone / one person	alone / one person		7.1.6.1	0688	0		
-21387	1002	Manang (Prakaa)	²mi ⁴ɲiː	²mi ⁴ɲiː	two persons	two persons		9.9	0689	0		m,2504
-21388	1002	Manang (Prakaa)	¹mi ¹sẽ	¹mi ¹sẽ	three persons	three persons		9.9	0690	0		
-21389	1002	Manang (Prakaa)	³tsʰepə ⁴r̥iː	³tsʰepə ⁴r̥iː	first day of a month	first day of a month		9.9	0691	0		
-21390	1002	Manang (Prakaa)	³tsʰepə ⁴ɲiː	³tsʰepə ⁴ɲiː	second day of a month	second day of a month		9.9	0692	0		
-21391	1002	Manang (Prakaa)	³tsʰepə ¹sẽ	³tsʰepə ¹sẽ	third day of a month	third day of a month		9.9	0693	0		
-21392	1002	Manang (Prakaa)	¹lẽ	¹lẽ	number (one)	number (one)		9.9	0694	0		
-21393	1002	Manang (Prakaa)	⁴muʔi	⁴muʔi	monetary unit	monetary unit		5.9	0695	0		
-21394	1002	Manang (Prakaa)	²lo	²lo	year old	year old	s	9.1.2	0696	0		
-21395	1002	Manang (Prakaa)	³kola ²preːtsə	³kola ²preːtsə	baby	baby		4.2.11	0697	0		
-21396	1002	Manang (Prakaa)	³ʔumər ¹yoːpə	³ʔumər ¹yoːpə	grown-up / adult	grown-up / adult		4.2.11	0698	0		
-21397	1002	Manang (Prakaa)	²nəsə ⁴yər ²cĩpə	²nəsə ⁴yər ²cĩpə	old person	old person		7.1.8.3	0699a	0		
-21398	1002	Manang (Prakaa)	³kʰuyu	³kʰuyu	old person (female)	old person (female)		7.1.8.3	0699b	0		
-21399	1002	Manang (Prakaa)	¹kʰyokro	¹kʰyokro	old person (male)	old person (male)		7.1.8.3	0699c	0		
-21400	1002	Manang (Prakaa)	³pʰəmə	³pʰəmə	parents	parents		4.7.1	0700	0		
-21401	1002	Manang (Prakaa)	³pʰa ²səme	³pʰa ²səme	husband and wife	husband and wife		4.7.4	0701	0	z	
-21402	1002	Manang (Prakaa)	²taŋpə ³ʔakʰye ³me	²taŋpə ³ʔakʰye ³me	ancestor	ancestor			0702	0		
-21403	1002	Manang (Prakaa)	--	--	nephew	nephew		4.7.3	0703	0		
-21404	1002	Manang (Prakaa)	--	--	niece	niece		4.7.3	0704	0		
-21405	1002	Manang (Prakaa)	¹tʰeː	¹tʰeː	cousin	cousin		4.7.2	0705a	0		
-21406	1002	Manang (Prakaa)	¹tʰeː ²naŋ	¹tʰeː ²naŋ	cousin	cousin		4.7.2	0705b	0		
-21407	1002	Manang (Prakaa)	³ɲentsen	³ɲentsen	relation / kindred	relation / kindred		4.7.5	0706	0		
-21408	1002	Manang (Prakaa)	¹man ³ləpə	¹man ³ləpə	greeting / salute	greeting / salute		8.5.11	0707	0		
-21409	1002	Manang (Prakaa)	--	--	Mr. / Mrs. / Miss	Mr. / Mrs. / Miss		4.2.5.1	0708	0		
-21410	1002	Manang (Prakaa)	²lẽ	²lẽ	answer	answer		8.5.6	0709	0		
-21411	1002	Manang (Prakaa)	²lẽ	²lẽ	reply	reply		8.5.6	0710	0		
-21412	1002	Manang (Prakaa)	³lopci ³pĩpə	³lopci ³pĩpə	teacher	teacher		6.19	0711a	0		
-21413	1002	Manang (Prakaa)	⁴kyekyẽ	⁴kyekyẽ	teacher	teacher		6.19	0711b	0		
-21414	1002	Manang (Prakaa)	³cʰeː ³loːpə	³cʰeː ³loːpə	pupil	pupil		1.2.6.2	0712	0		m
-21415	1002	Manang (Prakaa)	²mi tʰyepə	²mi tʰyepə	host / master	host / master		4.4.2	0713a	0		
-21416	1002	Manang (Prakaa)	⁴tĩ ³ləpə	⁴tĩ ³ləpə	host / master	host / master		4.4.2	0713a	0		
-21417	1002	Manang (Prakaa)	⁴kʰyaːpə	⁴kʰyaːpə	king	king		4.2.5	0714	0		
-21418	1002	Manang (Prakaa)	³sarkaː ⁴kyʰe ³ləpə	³sarkaː ⁴kyʰe ³ləpə	officer / official	officer / official		4.2.6	0715	0		
-21419	1002	Manang (Prakaa)	³tsʰoŋpẽ	³tsʰoŋpẽ	merchant / trader	merchant / trader		4.2.1	0716	0		
-21420	1002	Manang (Prakaa)	³ʔamci	³ʔamci	doctor (medical)	doctor (medical)		4.2.1.5	0717	0		
-21421	1002	Manang (Prakaa)	⁴kʰye	⁴kʰye	occupation	occupation		4.2.1	0718	0		
-21422	1002	Manang (Prakaa)	²syəpkyel	²syəpkyel	cripple	cripple		4.2.7	0719	0		
-21423	1002	Manang (Prakaa)	⁴yo	⁴yo	thief	thief		4.2.12.1	0720	0		
-21424	1002	Manang (Prakaa)	⁴ʈʰima ⁴ʔarapə	⁴ʈʰima ⁴ʔarapə	fool	fool		4.2.12.3	0721	0		
-21425	1002	Manang (Prakaa)	³sẽ	³sẽ	mind / feeling	mind / feeling		1.10	0722	0		66
-21426	1002	Manang (Prakaa)	²maŋ	²maŋ	dream	dream		1.1.4.2	0723	0		126
-21427	1002	Manang (Prakaa)	⁴tʰentaː	⁴tʰentaː	sense / meaning	sense / meaning		8.4	0724	0		
-21428	1002	Manang (Prakaa)	²yul	²yul	country / state / nation	country / state / nation		9.10.3	0725	0		
-21429	1002	Manang (Prakaa)	⁴tsompaliŋ	⁴tsompaliŋ	world	world		9.10.2	0726	0		
-21430	1002	Manang (Prakaa)	³l̥ə◦kã	³l̥ə◦kã	temple	temple		1.2.5.1	0727	0		b?Tibetan
-21431	1002	Manang (Prakaa)	¹yuskul	¹yuskul	school	school		5.8	0728	0		
-21432	1002	Manang (Prakaa)	²pətsər	²pətsər	market	market		9.10.6	0729	0		
-21433	1002	Manang (Prakaa)	⁴tukaŋ	⁴tukaŋ	store / shop	store / shop		9.10.6	0730	0		
-21434	1002	Manang (Prakaa)	²paːsə	²paːsə	address	address		5.11.9.6	0731	0		
-21435	1002	Manang (Prakaa)	³kʰyentseː	³kʰyentseː	neighbour	neighbour		4.4.2	0732	0		
-21436	1002	Manang (Prakaa)	³sətsẽ	³sətsẽ	border / frontier	border / frontier		9.2.7	0733	0		
-21437	1002	Manang (Prakaa)	³ɕyər	³ɕyər	east	east		9.2.8	0734	0		2677
-21438	1002	Manang (Prakaa)	²nuː	²nuː	west	west		9.2.8	0735	0		2517
-21439	1002	Manang (Prakaa)	³l̥lo	³l̥lo	south	south		9.2.8	0736	0		
-21440	1002	Manang (Prakaa)	²cʰaŋ	²cʰaŋ	north	north		9.2.8	0737	0		
-21441	1002	Manang (Prakaa)	³cʰoː	³cʰoː	direction	direction		9.2.8	0738	0		
-21442	1002	Manang (Prakaa)	²tswo	²tswo	point / tip	point / tip		6.2.2.2	0739	0		
-21443	1002	Manang (Prakaa)	¹pʰwo	¹pʰwo	length	length			0740	0		
-21444	1002	Manang (Prakaa)	¹ceː	¹ceː	width (horizontal)	width (horizontal)		9.2.7	0741	0		
-21445	1002	Manang (Prakaa)	²syiaŋ	²syiaŋ	breadth / width	breadth / width		9.2.7	0742	0		
-21446	1002	Manang (Prakaa)	³ʈiː	³ʈiː	beside / alongside	beside / alongside		9.2.3	0743	0		
-21448	1002	Manang (Prakaa)	³ŋwẽ	³ŋwẽ	front	front		1.4.4	0745a	0	HIDE	DUPE IN SOURCE
-21449	1002	Manang (Prakaa)	³ŋwẽtsə	³ŋwẽtsə	front	front		1.4.4	0745b	0		m
-21450	1002	Manang (Prakaa)	³liː	³liː	back	back		1.4.8	0746a	0		209
-21451	1002	Manang (Prakaa)	³liː◦tsə	³liː◦tsə	back	back		1.4.8	0746b	0		209,m
-21452	1002	Manang (Prakaa)	²kriːnaː	²kriːnaː	shade	shade		3.2.10	0747	0		
-21453	1002	Manang (Prakaa)	²kuŋ	²kuŋ	middle	middle		1.9.4	0748	0		
-21454	1002	Manang (Prakaa)	³piɕi	³piɕi	bottom	bottom		9.2.2	0749	0		
-21455	1002	Manang (Prakaa)	²ki◦kil	²kikil	circle	circle		9.7.1	0750	0		2310,2310
-21456	1002	Manang (Prakaa)	³tʰiː	³tʰiː	line	line		9.7.1	0751	0		
-21457	1002	Manang (Prakaa)	³taː	³taː	mark	mark		5.1	0752	0		
-21458	1002	Manang (Prakaa)	⁴ʈicẽ	⁴ʈicẽ	form / shape	form / shape		9.7.1	0753	0		
-21459	1002	Manang (Prakaa)	²raŋtse ²raŋtse	²raŋtse ²raŋtse	each one / every one	each one / every one		9.9	0754	0		
-21460	1002	Manang (Prakaa)	³taː ³molaŋ ⁴r̥iː	³taː ³molaŋ ⁴r̥iː	anything / something	anything / something		8.1	0755	0		
-21461	1002	Manang (Prakaa)	²mul-	²mul-	chew	chew		1.3.4	0756	0		467
-21462	1002	Manang (Prakaa)	²lẽ-	²lẽ-	lick	lick		1.3.3.1	0757	0		625
-21463	1002	Manang (Prakaa)	¹cʰe-	¹cʰe-	bark	bark	v.	2.1.11.1	0758	0		1792
-21464	1002	Manang (Prakaa)	¹kyeteː-	¹kyeteː-	howl (animal) / sing (bird)	howl (animal) / sing (bird)		8.5.5	0759	0		
-21465	1002	Manang (Prakaa)	³tʰaːyaŋ-	³tʰaːyaŋ-	notice	notice		8.3.1.11.1	0760	0		
-21466	1002	Manang (Prakaa)	³kwʰor ²tsʰaŋ-	³kwʰor ²tsʰaŋ-	remember	remember		8.3.1.16.1	0761	0		
-21467	1002	Manang (Prakaa)	²ʈẽ-	²ʈẽ-	remind / recollect	remind / recollect		8.5.16	0762a	0		
-21468	1002	Manang (Prakaa)	³naŋsẽ ³kʰə-	³naŋsẽ ³kʰə-	remind / recollect	remind / recollect		8.5.16	0762b	0		
-21469	1002	Manang (Prakaa)	¹maya ³lə-	¹maya ³lə-	believe	believe		8.3.1.12.1	0763	0		
-21470	1002	Manang (Prakaa)	³tʰaː ²ʔayaŋ-	³tʰaː ²ʔayaŋ-	astray, go	astray, go		6.7.2	0764	0		
-21471	1002	Manang (Prakaa)	³nəmtoː ³lə-	³nəmtoː ³lə-	suspect	suspect		6.2.2.2	0765	0		
-21472	1002	Manang (Prakaa)	¹ɲi-	¹ɲi-	question / ask	question / ask		8.5.7.1	0766	0		
-21473	1002	Manang (Prakaa)	²pi-	²pi-	reply / answer	reply / answer		8.5.6	0767	0		
-21474	1002	Manang (Prakaa)	³ʔoloː ²pi-	³ʔoloː ²pi-	bid / order	bid / order		8.5.7.1	0768	0		
-21475	1002	Manang (Prakaa)	²pila ⁴ʔatə-	²pila ⁴ʔatə-	prohibit / forbid	prohibit / forbid		8.5.1	0769a	0		
-21476	1002	Manang (Prakaa)	³kaː-	³kaː-	prohibit / forbid	prohibit / forbid		8.5.1	0769b	0		
-21477	1002	Manang (Prakaa)	⁴ʔorcʰeː pʰyaːpul ²pi-	⁴ʔorcʰeː pʰyaːpul ²pi-	apologize	apologize		8.5.11	0770	0		
-21478	1002	Manang (Prakaa)	²ceːluː ³tə-	²ceːluː ³tə-	praise	praise		8.5.2.2	0771	0		
-21479	1002	Manang (Prakaa)	²ɕetaŋ ³lə-	²ɕetaŋ ³lə-	scold	scold		8.5.1	0772	0		
-21480	1002	Manang (Prakaa)	³kra ³kor-	³kra ³kor-	cheat	cheat		6.19	0773	0		
-21481	1002	Manang (Prakaa)	¹nəpə ³tʰu-	¹nəpə ³tʰu-	suffer / feel pain	suffer / feel pain		6.2	0774	0		
-21482	1002	Manang (Prakaa)	²tuku ³tə-	²tuku ³tə-	distressed, be / troubled, be	distressed, be / troubled, be		10.4.1.1	0775	0		
-21483	1002	Manang (Prakaa)	⁴tuŋkar ³kʰə-	⁴tuŋkar ³kʰə-	worry	worry		8.3.1.7.2	0776	0		
-21484	1002	Manang (Prakaa)	³sẽ ³ki-	³sẽ ³ki-	relieved, feel	relieved, feel		8.3.1.7.4	0777	0		
-21485	1002	Manang (Prakaa)	³kwʰo-	³kwʰo-	love	love		8.3.1.1.1	0778	0		
-21486	1002	Manang (Prakaa)	²səpə ²taloː-	²səpə ²taloː-	pray	pray		5.8.3.1	0779	0		
-21487	1002	Manang (Prakaa)	³pʰyaːpul-	³pʰyaːpul-	worship	worship		5.8.1.3	0780	0		
-21488	1002	Manang (Prakaa)	²laŋpə ²tsʰã-	²laŋpə ²tsʰã-	imitate	imitate		6.1.1.1.1	0781	0		
-21489	1002	Manang (Prakaa)	²tur-	²tur-	compare	compare		8.3	0782	0		
-21490	1002	Manang (Prakaa)	³sẽ ³kʰə-	³sẽ ³kʰə-	select / choose	select / choose		6.10.4	0783	0		
-21491	1002	Manang (Prakaa)	²ʈiː-	²ʈiː-	draw	draw		5.8	0784	0		
-21492	1002	Manang (Prakaa)	¹pər ¹kwe-	¹pər ¹kwe-	weigh / measure	weigh / measure		9.8	0785	0		
-21493	1002	Manang (Prakaa)	²roː ³lə-	²roː ³lə-	help	help		6.2.2.1	0786	0		
-21494	1002	Manang (Prakaa)	³tsʰər-	³tsʰər-	foster / bring up	foster / bring up		6.2	0787	0		
-21495	1002	Manang (Prakaa)	³cʰaŋ	³cʰaŋ	keep / raise	keep / raise		6.18	0788	0		
-21496	1002	Manang (Prakaa)	³tərŋə ²raː-	³tərŋə ²raː-	fish / angle	fish / angle		2.2.5	0789	0		
-21497	1002	Manang (Prakaa)	¹cʰĩ-	¹cʰĩ-	catch	catch		6.21	0790	0		
-21498	1002	Manang (Prakaa)	⁴kurman ³lə-	⁴kurman ³lə-	grasp / grip	grasp / grip		6.16	0791	0		
-21499	1002	Manang (Prakaa)	³pʰate ⁴yə-	³pʰate ⁴yə-	drop	drop		6.16	0792	0		
-21500	1002	Manang (Prakaa)	⁴tʰiː-	⁴tʰiː-	pick up	pick up		6.10.4	0793	0		
-21501	1002	Manang (Prakaa)	²liː-	²liː-	abandon / cast away	abandon / cast away		6.10.2	0794a	0	z	
-21502	1002	Manang (Prakaa)	³kʰyaː-	³kʰyaː-	abandon / cast away	abandon / cast away		6.10.2	0794b	0	z	5758
-21503	1002	Manang (Prakaa)	²tomoː ⁴yə-	²tomoː ⁴yə-	lost, be / disappear	lost, be / disappear		6.10.1	0795	0		
-21504	1002	Manang (Prakaa)	²pyuː-	²pyuː-	bury	bury		6.11	0796	0		
-21505	1002	Manang (Prakaa)	²ʔuː-	²ʔuː-	cover	cover		5.8	0797	0		2767
-21506	1002	Manang (Prakaa)	⁴tsʰor-	⁴tsʰor-	pack / wrap	pack / wrap		6.2	0798	0		
-21507	1002	Manang (Prakaa)	¹co-	¹co-	hang down / suspend	hang down / suspend		6.1.1.5	0799	0		
-21508	1002	Manang (Prakaa)	³kʰyeː-	³kʰyeː-	hook	hook		5.4	0800	0		
-21509	1002	Manang (Prakaa)	³cĩ ³tʰẽ-	³cĩ ³tʰẽ-	connect / fasten	connect / fasten		6.13.3	0801	0		
-21510	1002	Manang (Prakaa)	²ʈiː-	²ʈiː-	wind	wind	v.	3.2.1	0802a	0		
-21511	1002	Manang (Prakaa)	⁴tuŋ-	⁴tuŋ-	wind	wind	v.	3.2.1	0802b	0		
-21512	1002	Manang (Prakaa)	¹mwor-	¹mwor-	wind	wind	v.	3.2.1	0802c	0		
-21513	1002	Manang (Prakaa)	¹raː-	¹raː-	knit / weave	knit / weave		6.14	0803	0		5669
-21514	1002	Manang (Prakaa)	¹raː-	¹raː-	weave	weave		5.1	0804	0		5669
-21515	1002	Manang (Prakaa)	²tẽ-	²tẽ-	bind	bind		6.13.1	0805	0		
-21516	1002	Manang (Prakaa)	³ɕeː ²tẽ-	³ɕeː ²tẽ-	fasten / tighten	fasten / tighten		6.13.3	0806	0		
-21517	1002	Manang (Prakaa)	⁴tuŋtuŋ ³lə-	⁴tuŋtuŋ ³lə-	knock / tap	knock / tap		6.8	0807	0		
-21518	1002	Manang (Prakaa)	⁴kwor ⁴yə-	⁴kwor ⁴yə-	bent, be	bent, be		9.7.2	0808	0		
-21519	1002	Manang (Prakaa)	⁴kwor ³lə-	⁴kwor ³lə-	bend	bend		9.5	0809	0		
-21520	1002	Manang (Prakaa)	³siː-	³siː-	break / destroy	break / destroy		9.5	0810	0		
-21521	1002	Manang (Prakaa)	²laŋ ¹to-	²laŋ ¹to-	pound / hull	pound / hull		6.8	0811	0		
-21522	1002	Manang (Prakaa)	²rẽtaː ²praː-	²rẽtaː ²praː-	grind	grind		9.5	0812	0		
-21523	1002	Manang (Prakaa)	²ʈaː-	²ʈaː-	torn, be	torn, be		6.9.4	0813	0		5335
-21524	1002	Manang (Prakaa)	²ʈaː-	²ʈaː-	tear / break	tear / break		1.8.8.1	0814	0		
-21525	1002	Manang (Prakaa)	¹tʰi-	¹tʰi-	cracked apart, be	cracked apart, be		3.2.7	0815	0		
-21526	1002	Manang (Prakaa)	²praː-	²praː-	mow / cut	mow / cut		6.9.4	0816	0		
-21527	1002	Manang (Prakaa)	¹saŋ-	¹saŋ-	dry / dry, make	dry / dry, make		6.6	0817	0		
-21528	1002	Manang (Prakaa)	⁴we-	⁴we-	cultivate / till	cultivate / till		3.1.10	0818	0		
-21529	1002	Manang (Prakaa)	²to-	²to-	plant	plant		3.1.10	0819	0		
-21530	1002	Manang (Prakaa)	⁴pl̥u ¹prĩ-	⁴pl̥u ¹prĩ-	sow	sow		2.1.12	0820	0		
-21531	1002	Manang (Prakaa)	¹tʰor-	¹tʰor-	scatter	scatter		6.10.3	0821	0		
-21532	1002	Manang (Prakaa)	⁴tsʰu-	⁴tsʰu-	divide	divide		6.10.4	0822a	0		
-21533	1002	Manang (Prakaa)	¹kəʈeː ³lə-	¹kəʈeː ³lə-	divide	divide		6.10.4	0822b	0		
-21534	1002	Manang (Prakaa)	²cər-	²cər-	attach	attach		6.13.3	0823	0		
-21535	1002	Manang (Prakaa)	²ʈiː ³tʰam-	²ʈiː ³tʰam-	line up / dispose	line up / dispose		9.7.1	0824a	0		
-21536	1002	Manang (Prakaa)	²ʈiː-	²ʈiː-	line up / dispose	line up / dispose		9.7.1	0824b	0		
-21537	1002	Manang (Prakaa)	⁴tsʰu-	⁴tsʰu-	distribute	distribute		6.23	0825	0		
-21538	1002	Manang (Prakaa)	³pĩ-	³pĩ-	present	present		5.8	0826	0		
-21539	1002	Manang (Prakaa)	³kĩ-	³kĩ-	receive / accept	receive / accept		6.21	0827	0		
-21540	1002	Manang (Prakaa)	¹cʰĩ-	¹cʰĩ-	embrace	embrace		8.4	0828	0		
-21541	1002	Manang (Prakaa)	⁴preː-	⁴preː-	shoulder	shoulder	v.	1.4.3	0829	0		568
-21542	1002	Manang (Prakaa)	¹naː-	¹naː-	bear on one's back	bear on one's back	v	2.2.3	0830	0		
-21543	1002	Manang (Prakaa)	²pwor-	²pwor-	carry	carry		6.2.2.2.1	0831	0		
-21544	1002	Manang (Prakaa)	¹tʰaː-	¹tʰaː-	cross / ferry	cross / ferry		6.7.10	0832	0		5808
-21545	1002	Manang (Prakaa)	⁴tsʰã-	⁴tsʰã-	send	send		6.2.2.2	0833a	0		
-21546	1002	Manang (Prakaa)	¹pi-	¹pi-	send	send		6.2.2.2	0833b	0		
-21547	1002	Manang (Prakaa)	²kini ³lə-	²kini ³lə-	hurry	hurry		6.7.3	0834	0		
-21548	1002	Manang (Prakaa)	⁴yə-	⁴yə-	return / come back	return / come back		6.2.2.1	0835	0		
-21549	1002	Manang (Prakaa)	²toː-	²toː-	arrive	arrive		6.7.1	0836	0		
-21550	1002	Manang (Prakaa)	³yeː-	³yeː-	pass	pass		6.7.10	0837	0		
-21551	1002	Manang (Prakaa)	³tʰẽ-	³tʰẽ-	stop	stop	v.i.	6.7.11	0838a	0		
-21552	1002	Manang (Prakaa)	⁴ʈu-	⁴ʈu-	stop	stop	v.i.	6.7.11	0838b	0		
-21553	1002	Manang (Prakaa)	³kaː-	³kaː-	stop	stop	v.t.	6.7.11	0839	0		
-21554	1002	Manang (Prakaa)	¹toplaŋ ⁴yə-	¹toplaŋ ⁴yə-	fall down	fall down		6.1.1.4.2	0840	0		5810
-21555	1002	Manang (Prakaa)	³tẽ-	³tẽ-	put out / take out	put out / take out		9.2	0841	0		
-21556	1002	Manang (Prakaa)	⁴tsʰaŋ	⁴tsʰaŋ	put in	put in		6.17	0842	0		
-21557	1002	Manang (Prakaa)	¹kwe-	¹kwe-	lift	lift		6.16	0843	0		
-21558	1002	Manang (Prakaa)	³kʰyoː-	³kʰyoː-	draw up	draw up		5.8	0844	0		
-21559	1002	Manang (Prakaa)	³miʔe ¹teː-	³miʔe ¹teː-	kindle	kindle		3.2.12.1	0845	0		
-21560	1002	Manang (Prakaa)	³seː-	³seː-	put out / extinguish	put out / extinguish		6.17	0846	0		
-21561	1002	Manang (Prakaa)	¹pwʰor-	¹pwʰor-	smear	smear		5.8	0847	0		
-21562	1002	Manang (Prakaa)	¹prĩ-	¹prĩ-	build	build		6.14	0848	0		
-21563	1002	Manang (Prakaa)	²kyeː-	²kyeː-	adorn / decorate	adorn / decorate		5.8	0849a	0		
-21564	1002	Manang (Prakaa)	²kyeːpə ³lə-	²kyeːpə ³lə-	adorn / decorate	adorn / decorate		5.8	0849b	0		
-21565	1002	Manang (Prakaa)	³toː-	³toː-	use / emply / utilize	use / emply / utilize		6.2.2.7.1	0850	0		
-21566	1002	Manang (Prakaa)	²roː ³lə-	²roː ³lə-	request / ask	request / ask		8.5.7.1	0851a	0		
-21567	1002	Manang (Prakaa)	²ɕu-	²ɕu-	request / ask	request / ask		8.5.7.1	0851b	0		
-21568	1002	Manang (Prakaa)	³tə-	³tə-	undertake	undertake		6.1.1.1	0852	0		
-21569	1002	Manang (Prakaa)	³tʰaː ³cʰeː-	³tʰaː ³cʰeː-	decide	decide		8.3.3.9	0853	0		
-21570	1002	Manang (Prakaa)	³tə-	³tə-	admit / grant / allow	admit / grant / allow		6.19	0854	0		
-21571	1002	Manang (Prakaa)	⁴ʔatə-	⁴ʔatə-	refuse	refuse		8.5.6	0855	0		
-21572	1002	Manang (Prakaa)	³sẽ ⁴r̥iː ³lə-	³sẽ ⁴r̥iː ³lə-	approve	approve		8.3.1.1.1	0856a	0		
-21573	1002	Manang (Prakaa)	³sẽ ²kriː-	³sẽ ²kriː-	approve	approve		8.3.1.1.1	0856b	0		
-21574	1002	Manang (Prakaa)	³sẽ ²ʔakriː-	³sẽ ²ʔakriː-	oppose	oppose		6.5	0857	0		
-21575	1002	Manang (Prakaa)	²paŋ-	²paŋ-	contest / dispute	contest / dispute		5.8	0858a	0		
-21576	1002	Manang (Prakaa)	¹tsʰeː-	¹tsʰeː-	contest / dispute	contest / dispute		5.8	0858b	0		
-21577	1002	Manang (Prakaa)	³taktaː ³lə-	³taktaː ³lə-	promise	promise		8.5.16	0859	0		
-21578	1002	Manang (Prakaa)	¹pr̥aː-	¹pr̥aː-	part / separate	part / separate		6.10.2	0860	0		5616
-21579	1002	Manang (Prakaa)	⁴kʰəm ²ʔate-	⁴kʰəm ²ʔate-	fed up, be	fed up, be		1.3.5.8	0861	0		
-21580	1002	Manang (Prakaa)	³tʰentaː ²ʈu-	³tʰentaː ²ʈu-	succeed	succeed		6.2	0862	0		
-21581	1002	Manang (Prakaa)	³tʰentaː ²ʔaʈu-	³tʰentaː ²ʔaʈu-	fail	fail		6.1.1	0863	0		
-21582	1002	Manang (Prakaa)	²nuŋ-	²nuŋ-	mistake, make	mistake, make		6.2	0864	0		
-21583	1002	Manang (Prakaa)	³lə-	³lə-	become / be	become / be		9.5	0865	0		
-21584	1002	Manang (Prakaa)	³tə-	³tə-	arise / happen	arise / happen		1.1.4	0866	0		
-21585	1002	Manang (Prakaa)	²kʰwol ¹ti-	²kʰwol ¹ti-	begin	begin	v.i.	9.5	0867	0		
-21586	1002	Manang (Prakaa)	⁴ko ³tsuː-	⁴ko ³tsuː-	begin	begin	v.t.	9.5	0868	0		
-21587	1002	Manang (Prakaa)	²cĩ-	²cĩ-	finish / end	finish / end		9.5	0869	0		614
-21588	1002	Manang (Prakaa)	²kyur-	²kyur-	change	change	v.i.	9.5	0870	0		
-21589	1002	Manang (Prakaa)	²kyur-	²kyur-	change	change	v.t.	9.5	0871	0		
-21590	1002	Manang (Prakaa)	³tsʰeːri ³ʈu-	³tsʰeːri ³ʈu-	take one's place	take one's place		6.21	0872	0		
-21591	1002	Manang (Prakaa)	³pʰwo-	³pʰwo-	replace / exchange	replace / exchange		6.2	0873	0		
-21592	1002	Manang (Prakaa)	¹preː-	¹preː-	cease	cease		9.5	0874	0		
-21593	1002	Manang (Prakaa)	¹piː-	¹piː-	stop / give up	stop / give up		6.7.11	0875	0		
-21594	1002	Manang (Prakaa)	³cʰẽ ³lə-	³cʰẽ ³lə-	continue	continue	v.i.	9.5	0876	0		
-21595	1002	Manang (Prakaa)	³cʰẽ ³lə-	³cʰẽ ³lə-	continue	continue	v.t.	9.5	0877	0		
-21596	1002	Manang (Prakaa)	⁴ʔur ³tə-	⁴ʔur ³tə-	gather / assemble	gather / assemble		6.13.5	0878	0		
-21597	1002	Manang (Prakaa)	¹kul◦kul ³lə-	¹kulkul ³lə-	move	move	v.t.	6.7.11	0879	0		
-21598	1002	Manang (Prakaa)	⁴yo-	⁴yo-	sway	sway		6.7.4	0880	0		
-21599	1002	Manang (Prakaa)	³koroː ¹prĩ-	³koroː ¹prĩ-	turn / round	turn / round		6.7.6	0881	0		
-21600	1002	Manang (Prakaa)	³kwor-	³kwor-	turn to	turn to	v.	6.7.6	0882	0		
-21601	1002	Manang (Prakaa)	³liːʈo ⁴yə-	³liːʈo ⁴yə-	withdraw / go down	withdraw / go down		6.7.10	0883a	0		
-21602	1002	Manang (Prakaa)	³cʰaː-	³cʰaː-	withdraw / go down (price)	withdraw / go down  (price)		6.7.10	0883b	0		
-21603	1002	Manang (Prakaa)	⁴pl̥aː-	⁴pl̥aː-	grow (grass)	grow (grass)		9.7.2	0884	0		
-21604	1002	Manang (Prakaa)	³ɕi-	³ɕi-	wither	wither		3.1.10	0885	0		
-21605	1002	Manang (Prakaa)	¹tsʰər-	¹tsʰər-	bloom	bloom		3.1.10	0886	0		
-21606	1002	Manang (Prakaa)	³ɕĩtoː ¹co-	³ɕĩtoː ¹co-	grow (fruit) / bear	grow (fruit) / bear		9.7.2	0887	0		
-21607	1002	Manang (Prakaa)	³pʰyel-	³pʰyel-	increase	increase		9.5	0888	0		
-21608	1002	Manang (Prakaa)	²paːtoŋ ⁴yə-	²paːtoŋ ⁴yə-	decrease	decrease		9.5	0889	0		
-21609	1002	Manang (Prakaa)	³tʰaŋ ³kʰə-	³tʰaŋ ³kʰə-	smell of	smell of		1.2.8.5	0890	0		
-21610	1002	Manang (Prakaa)	²we ³kʰə-	²we ³kʰə-	glitter / shine	glitter / shine		7.1.11.1	0891	0		
-21611	1002	Manang (Prakaa)	³kʰyaː-	³kʰyaː-	freeze	freeze		9.5	0892a	0		
-21612	1002	Manang (Prakaa)	³tʰaŋkyaŋ ³cʰaː-	³tʰaŋkyaŋ ³cʰaː-	freeze	freeze		9.5	0892b	0		
-21613	1002	Manang (Prakaa)	⁴ɲu-	⁴ɲu-	melt / solve	melt / solve		9.5	0893	0		
-21614	1002	Manang (Prakaa)	²ʈaː-	²ʈaː-	recover / heal	recover / heal		1.1.5.1	0894	0		
-21615	1002	Manang (Prakaa)	²laː-	²laː-	remain	remain		6.7.11	0895	0		
-21616	1002	Manang (Prakaa)	¹yoː-	¹yoː-	sufficient, be	sufficient, be		1.1.3.2	0896	0		
-21617	1002	Manang (Prakaa)	³toː-	³toː-	need	need		9.6.2	0897	0		
-21618	1002	Manang (Prakaa)	-p ri (⁴yə-)	-p ri (⁴yə-)	let one (go)	let one (go)		6.19	0898	0		
-21619	1002	Manang (Prakaa)	-³sã ³kʰə-	-³sã ³kʰə-	want to (go)	want to (go)		8.3.1.14.3	0899	0		
-21620	1002	Manang (Prakaa)	--	--	passive	passive		10.0	0900	0		
-21621	1002	Manang (Prakaa)	²tiŋtiŋ	²tiŋtiŋ	deep	deep		7.1.5.3	0901	0		
-21622	1002	Manang (Prakaa)	³pəpə	³pəpə	shallow	shallow		7.1.5.3	0902	0		
-21623	1002	Manang (Prakaa)	⁴tʰuŋpə	⁴tʰuŋpə	thick / burly	thick / burly		9.7.2	0903a	0		
-21624	1002	Manang (Prakaa)	⁴ʔutʰuŋpə	⁴ʔutʰuŋpə	thick / burly	thick / burly		9.7.2	0903b	0		
-21625	1002	Manang (Prakaa)	¹pr̥əpə	¹pr̥əpə	fine / slender	fine / slender		9.7.2	0904	0		
-21626	1002	Manang (Prakaa)	²prapraː	²prapraː	fine / detailed	fine / detailed		9.7.2	0905a	0		
-21627	1002	Manang (Prakaa)	¹tiːpə	¹tiːpə	fine / detailed	fine / detailed		9.7.2	0905b	0		
-21628	1002	Manang (Prakaa)	⁴ʔatiːpə	⁴ʔatiːpə	rough / coarse	rough / coarse		7.1.4.2	0906a	0		
-21629	1002	Manang (Prakaa)	⁴rolaː ¹ruliː	⁴rolaː ¹ruliː	rough / coarse	rough / coarse		7.1.4.2	0906b	0		
-21630	1002	Manang (Prakaa)	²saŋpə	²saŋpə	strong / heavy	strong / heavy		9.6.1.1	0907	0		
-21631	1002	Manang (Prakaa)	²ʔasaŋpə	²ʔasaŋpə	weak / thin	weak / thin		1.1.5	0908	0		
-21632	1002	Manang (Prakaa)	¹kyũ◦pə	¹kyũpə	sour	sour		7.1.4.4	0909	0		6406,s
-21633	1002	Manang (Prakaa)	³tʰaŋ ²ʔasəpə ³kʰəpə	³tʰaŋ ²ʔasəpə ³kʰəpə	stinking / smelling	stinking / smelling		7.1.4.5	0910	0		
-21634	1002	Manang (Prakaa)	²ʈoplaː ³kʰəpə	²ʈoplaː ³kʰəpə	delicious	delicious		7.1.4.4	0911a	0		
-21635	1002	Manang (Prakaa)	²səpə	²səpə	delicious	delicious		7.1.4.4	0911b	0		
-21636	1002	Manang (Prakaa)	²ʈoplaː ³ʔakʰpə	²ʈoplaː ³ʔakʰpə	unsavory	unsavory		7.1.4.4	0912	0	z	
-21637	1002	Manang (Prakaa)	³cʰĩ-	³cʰĩ-	raw	raw		7.1.8.3	0913	0		
-21638	1002	Manang (Prakaa)	³tʰẽ-	³tʰẽ-	bacant / empty	bacant / empty		7.1.2.1	0914	0		
-21639	1002	Manang (Prakaa)	⁴pli ²sur	⁴pli ²sur	square	square		9.7.1	0915	0		
-21640	1002	Manang (Prakaa)	³plaːkya	³plaːkya	flat	flat		7.1.5.1	0916	0		
-21641	1002	Manang (Prakaa)	⁴korã ¹kurĩ	⁴korã ¹kurĩ	crooked / bent	crooked / bent		9.7.2	0917	0		
-21642	1002	Manang (Prakaa)	³kʰyepə	³kʰyepə	cheap	cheap		5.9	0918a	0		bTibetan
-21643	1002	Manang (Prakaa)	²koŋ ³kʰyepə	²koŋ ³kʰyepə	cheap	cheap		5.9	0918b	0		bTibetan
-21644	1002	Manang (Prakaa)	¹se ³tʰyepə	¹se ³tʰyepə	expensive	expensive		5.9	0919	0		
-21645	1002	Manang (Prakaa)	⁴pl̥opə	⁴pl̥opə	rich	rich		5.9	0920	0		
-21646	1002	Manang (Prakaa)	²tuːpə	²tuːpə	poor	poor		9.6.2.2	0921	0		
-21647	1002	Manang (Prakaa)	³teːmə ³tʰyepə	³teːmə ³tʰyepə	interesting	interesting		8.3.2.6.1	0922a	0		
-21648	1002	Manang (Prakaa)	³ɲẽpə	³ɲẽpə	interesting	interesting		8.3.2.6.1	0922b	0		
-21649	1002	Manang (Prakaa)	³kiːpə	³kiːpə	happy	happy		8.3.1.5.1	0923	0		
-21650	1002	Manang (Prakaa)	²ʈeːsẽ ³ɲenpə	²ʈeːsẽ ³ɲenpə	cool	cool		7.1.2.3	0924	0		
-21651	1002	Manang (Prakaa)	³noŋ ²yaŋpə	³noŋ ²yaŋpə	calm / quiet	calm / quiet		9.6.1.2	0925a	0		
-21652	1002	Manang (Prakaa)	³noŋ ³kipə	³noŋ ³kipə	calm / quiet	calm / quiet		9.6.1.2	0925b	0		
-21653	1002	Manang (Prakaa)	²nə ¹nəpə	²nə ¹nəpə	noisy	noisy		7.1.4.3	0926	0		
-21654	1002	Manang (Prakaa)	²ɲĩpə	²ɲĩpə	dangerous	dangerous		9.6.2.1	0927	0		
-21655	1002	Manang (Prakaa)	⁴teːla ³tʰyepə	⁴teːla ³tʰyepə	busy	busy		9.6.3	0928	0		
-21656	1002	Manang (Prakaa)	¹yoːpə	¹yoːpə	early	early		9.1.1	0929a	0		
-21657	1002	Manang (Prakaa)	²kyoːpə	²kyoːpə	early	early		9.1.1	0929b	0		
-21658	1002	Manang (Prakaa)	³pʰipə	³pʰipə	late	late		9.1.1	0930	0		
-21659	1002	Manang (Prakaa)	⁴nuː ²rə◦pə	⁴nuː ²rə◦pə	sleepy	sleepy		1.1.4.1	0931	0		129,m,s
-21660	1002	Manang (Prakaa)	³kyeː◦pə	³kyeː◦pə	itching	itching		1.6.5.5	0932	0		1456,s
-21661	1002	Manang (Prakaa)	³tsaŋ◦pə	³tsaŋpə	clean	clean		6.2.2.5.2	0933	0		2745,s
-21662	1002	Manang (Prakaa)	²ʔakyeːpə	²ʔakyeːpə	ugly	ugly		7.1.3	0934	0		
-21663	1002	Manang (Prakaa)	¹pʰa ³peːpə	¹pʰa ³peːpə	shameful	shameful		8.3.3.8.2	0935	0		
-21664	1002	Manang (Prakaa)	³syom ²loːpə	³syom ²loːpə	abominable	abominable			0936	0		
-21665	1002	Manang (Prakaa)	³tʰiː ²rəpə	³tʰiː ²rəpə	lovely / charming	lovely / charming		7.1.3	0937	0		
-21666	1002	Manang (Prakaa)	³tʰiː ²rəpə	³tʰiː ²rəpə	pitiable	pitiable		8.3.2.3.2	0938	0		
-21667	1002	Manang (Prakaa)	⁴ʈəmpə	⁴ʈəmpə	honest	honest		8.3.3.4.1	0939	0		
-21668	1002	Manang (Prakaa)	³ɲĩciː ³ləpə	³ɲĩciː ³ləpə	tender / gentle	tender / gentle		7.1.4.2	0940	0		
-21669	1002	Manang (Prakaa)	³ɲĩciː	³ɲĩciː	kind	kind		8.3.3.2.1	0941	0		
-21670	1002	Manang (Prakaa)	³pəkaː ³təpə	³pəkaː ³təpə	stout (thing)	stout (thing)		7.1.3	0942a	0		
-21671	1002	Manang (Prakaa)	³ɕuː ³tʰyepə	³ɕuː ³tʰyepə	stout (man)	stout (man)		7.1.3	0942b	0		
-21672	1002	Manang (Prakaa)	³pyaŋpə	³pyaŋpə	wise	wise		8.3.3.3.1	0943	0		
-21673	1002	Manang (Prakaa)	³tʰyepə	³tʰyepə	great	great		9.6.1	0944	0		
-21674	1002	Manang (Prakaa)	³ɕepalu ³tʰyepə	³ɕepalu ³tʰyepə	expert / skillful	expert / skillful		4.2.3	0945	0		
-21675	1002	Manang (Prakaa)	³ɕepalu ²ʔarəpə	³ɕepalu ²ʔarəpə	inexpert / unskillful	inexpert / unskillful		9.6.2.2	0946	0		
-21676	1002	Manang (Prakaa)	⁴leː ³ləpə	⁴leː ³ləpə	easy	easy		9.6.1.1	0947	0		
-21677	1002	Manang (Prakaa)	³kəleː ³kʰəpə	³kəleː ³kʰəpə	difficult	difficult		9.6.2	0948	0		
-21678	1002	Manang (Prakaa)	¹pərti	¹pərti	normal / common	normal / common		7.1.7.2	0949	0		
-21679	1002	Manang (Prakaa)	¹tsa ³tʰyepə	¹tsa ³tʰyepə	important	important		7.1.7.1	0950	0		
-21680	1002	Manang (Prakaa)	- ɕoː	- ɕoː	best / most / superlative	best / most / superlative		9.6.1.1	0951a	0		
-21681	1002	Manang (Prakaa)	²saɕoː	²saɕoː	best	best		9.6.1.1	0951b	0		
-21682	1002	Manang (Prakaa)	⁴r̥iː	⁴r̥iː	certain / some	certain / some		8.3.1.12.1	0952	0		
-21683	1002	Manang (Prakaa)	²ʔocoŋpə	²ʔocoŋpə	such / like this	such / like this		10.1	0953	0		
-21684	1002	Manang (Prakaa)	²ʔocoŋpə	²ʔocoŋpə	such	such		10.1	0954	0		
-21685	1002	Manang (Prakaa)	³hala	³hala	which	which		10.5.3	0955	0		
-21686	1002	Manang (Prakaa)	²hacoŋpə	²hacoŋpə	what kind of	what kind of		10.5.3	0956	0		
-21687	1002	Manang (Prakaa)	²tsʰaːraŋ ²naŋri	²tsʰaːraŋ ²naŋri	especially	especially		7.1.2.2	0957	0		
-21688	1002	Manang (Prakaa)	²ŋotoː	²ŋotoː	truly	truly		7.1.8.3	0958	0		
-21689	1002	Manang (Prakaa)	³taktaː	³taktaː	just	just		9.1.1	0959	0		
-21690	1002	Manang (Prakaa)	⁴məɕeraŋ	⁴məɕeraŋ	quite / completely	quite / completely		10.0	0960	0		
-21691	1002	Manang (Prakaa)	¹tayĩli ⁴ʔayĩli	¹tayĩli ⁴ʔayĩli	without fail / certainly	without fail / certainly		10.1.1	0961	0		
-21692	1002	Manang (Prakaa)	²tosaraŋ	²tosaraŋ	soon	soon		9.1.1	0962a	0		
-21693	1002	Manang (Prakaa)	²kini	²kini	soon	soon		9.1.1	0962b	0		
-21694	1002	Manang (Prakaa)	⁴kole ⁴kole	⁴kole ⁴kole	slowly	slowly		9.1.1	0963a	0		
-21695	1002	Manang (Prakaa)	⁴kole ³lətse	⁴kole ³lətse	slowly	slowly		9.1.1	0963b	0		
-21696	1002	Manang (Prakaa)	⁴tsaːtsa	⁴tsaːtsa	sometimes	sometimes		9.1.5	0964	0		
-21697	1002	Manang (Prakaa)	⁴lakẽ ¹lakẽ	⁴lakẽ ¹lakẽ	often	often		9.1.1	0965	0		
-21698	1002	Manang (Prakaa)	⁴lakẽ	⁴lakẽ	also	also		10.1.2.1	0966	0		
-21699	1002	Manang (Prakaa)	²toso	²toso	still / yet	still / yet		9.1.1	0967	0		
-21700	1002	Manang (Prakaa)	²tosaraŋ	²tosaraŋ	already	already		10.1	0968	0		
-21701	1002	Manang (Prakaa)	²tẽ ³cʰaːtse ²moː	²tẽ ³cʰaːtse ²moː	good morning	good morning		9.6.1.1	0969a	0		
-21702	1002	Manang (Prakaa)	⁴ʈutse ²moː	⁴ʈutse ²moː	good morning	good morning		9.6.1.1	0969b	0		
-21703	1002	Manang (Prakaa)	³pʰeːka ³ciː	³pʰeːka ³ciː	good morning	good morning		9.6.1.1	0969c	0		
-21704	1002	Manang (Prakaa)	⁴nuːto ¹ʔoː	⁴nuːto ¹ʔoː	good night	good night		9.6.1.1	0970	0		
-21705	1002	Manang (Prakaa)	²tẽ ³cʰaːtse ²moː	²tẽ ³cʰaːtse ²moː	good evening	good evening		9.6.1.1	0971a	0		
-21706	1002	Manang (Prakaa)	⁴ʈutse ²moː	⁴ʈutse ²moː	good evening	good evening		9.6.1.1	0971b	0		
-21707	1002	Manang (Prakaa)	³pʰeːka ³ciː	³pʰeːka ³ciː	good evening	good evening		9.6.1.1	0971c	0		
-21708	1002	Manang (Prakaa)	⁴ʔorcʰeː	⁴ʔorcʰeː	please	please		8.3.1.1.1	0972	0		
-21709	1002	Manang (Prakaa)	⁴ʔorcʰeː ¹pʰyaːpul	⁴ʔorcʰeː ¹pʰyaːpul	excuse me	excuse me		8.5.11	0973	0		
-21710	1002	Manang (Prakaa)	¹təpko	¹təpko	all right	all right		9.9	0974	0		
-21711	1002	Manang (Prakaa)	²səpə ³təciː	²səpə ³təciː	congratulations	congratulations		8.5.11	0975a	0		
-21712	1002	Manang (Prakaa)	⁴ɕap ⁴ɕapə	⁴ɕap ⁴ɕapə	congratulations	congratulations		8.5.11	0975b	0		
-21713	1002	Manang (Prakaa)	⁴ʔatse	⁴ʔatse	and / and then	and / and then		10.1.2.1	0976a	0		
-21714	1002	Manang (Prakaa)	³lətse	³lətse	and / and then	and / and then		10.1.2.1	0976b	0		
-21715	1002	Manang (Prakaa)	⁴ʔatse ³lətse	⁴ʔatse ³lətse	then	then		9.1.5	0977	0		
-21716	1002	Manang (Prakaa)	³ʔoso ³lətse	³ʔoso ³lətse	therefore / so / accordingly	therefore / so / accordingly		10.1	0978	0		
-21717	1002	Manang (Prakaa)	³haciː ²ləliː	³haciː ²ləliː	because / for	because / for		10.1.2.2	0979	0		
-21718	1002	Manang (Prakaa)	²ʔocoŋ ⁴təli	²ʔocoŋ ⁴təli	but / however	but / however		10.0	0980a	0		
-21719	1002	Manang (Prakaa)	²ʔocoŋ ⁴tətuli	²ʔocoŋ ⁴tətuli	but / however	but / however		10.0	0980b	0		
-21720	1002	Manang (Prakaa)	ʔa -li	ʔa -li	or	or		10.1.2.1	0981	0		
-21721	1002	Manang (Prakaa)	- pə	- pə	when (conj.)	when (conj.)		10.5.3	0982	0		
-21722	1002	Manang (Prakaa)	ʔa -pli	ʔa -pli	before	before		9.1.5	0983a	0		
-21723	1002	Manang (Prakaa)	ʔa -cili	ʔa -cili	before	before		9.1.5	0983b	0		
-21724	1002	Manang (Prakaa)	³kʰakori	³kʰakori	around	around		9.2.5	0984	0		
-21725	1002	Manang (Prakaa)	¹hantsəri	¹hantsəri	towards	towards		9.2.8	0985	0		
-21727	1002	Manang (Prakaa)	³tsʰeːri	³tsʰeːri	instead of	instead of		10.2.1	0987	0		
-21728	1002	Manang (Prakaa)	⁴tʰentaːri	⁴tʰentaːri	for / owing to / in order to	for / owing to / in order to		10.1.1	0988	0		
-21729	1002	Manang (Prakaa)	³tʰoːri	³tʰoːri	concerning / about	concerning / about		8.3.1.9.2	0989	0		
-21730	1002	Manang (Prakaa)	-tse	-tse	by	by		10.0	0990	0		
-21731	1002	Manang (Prakaa)	-tse	-tse	by means of	by means of		10.0	0991	0		
-21732	1002	Manang (Prakaa)	⁴ʔare ¹kyena	⁴ʔare ¹kyena	without	without		10.1.1	0992	0		
-21733	1002	Manang (Prakaa)	¹palani ²ʔocoŋpə	¹palani ²ʔocoŋpə	etc.	etc.		1.5.3.2	0993	0	x	
-21734	1002	Manang (Prakaa)	--	--	about / approximately	about / approximately		10.1	0994	0		
-21735	1002	Manang (Prakaa)	³ɕa	³ɕa	only	only		7.1.6.1	0995	0		
-21736	1002	Manang (Prakaa)	-la	-la	of (genit. p.)	of (genit. p.)		10.1.1	0996	0		
-21738	1002	Manang (Prakaa)	⁴tse	⁴tse	from	from		10.1.1	0998	0		
-21739	1002	Manang (Prakaa)	²toːni	²toːni	till / until	till / until		3.1.10	0999	0		
-21740	1002	Manang (Prakaa)	²pili	²pili	than	than		10.1	1000	0		
-146071	1002	Manang (Prakaa)	³kʰaːkwor	³kʰaːkwor	surrounding / environment / circumference	surrounding / environment / circumference		6.2.2.2	0744	0		
-146072	1002	Manang (Prakaa)	²naŋri	²naŋri	in / among / midst / mid / amid / amongst	in / among / midst / mid / amid / amongst		9.2.5	0986	0		
-146073	1002	Manang (Prakaa)	AUTHOR: Hoshi Monumenta S	AUTHOR: Hoshi Monumenta S	dialect of Prakaa, Manang district, Nepal	dialect of Prakaa, Manang district, Nepal		5.8	INDEX	0	D1	e
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+20604	1002	Manang (Prakaa)	³pakli	³pakli	head	head			1.2.1	0001	0			m
+20605	1002	Manang (Prakaa)	³krə	³krə	hair (of head)	hair (of head)			1.2.3	0002	0			367
+20606	1002	Manang (Prakaa)	²ŋo◦kroŋ	²ŋo◦kroŋ	forehead	forehead			1.2.5.1	0003	0			356,2025
+20607	1002	Manang (Prakaa)	³miː◦tsẽ	³miː◦tsẽ	eyebrow	eyebrow			1.2.6.6	0004	0			682,366
+20608	1002	Manang (Prakaa)	¹mi	¹mi	eye	eye			1.2.6	0005	0			682
+20609	1002	Manang (Prakaa)	³mi◦ki	³mi◦ki	tears	tears			1.2.6.7	0006	0			682,572
+20610	1002	Manang (Prakaa)	²ɲe◦maŋ	²ɲe◦maŋ	ear	ear			1.2.7	0007	0			811,2084
+20611	1002	Manang (Prakaa)	³nə	³nə	nose	nose			1.2.8	0008a	0			803
+20612	1002	Manang (Prakaa)	³nə◦kuŋ	³nə◦kuŋ	nose	nose			1.2.8	0008b	0			803,809
+20613	1002	Manang (Prakaa)	³suŋ	³suŋ	mouth	mouth			1.3.1	0009	0			477
+20614	1002	Manang (Prakaa)	²mə̃◦ci	²mə̃◦ci	lip	lip			1.3.2	0010	0			467,686
+20615	1002	Manang (Prakaa)	¹liʔ◦e	¹liʔ◦e	tongue	tongue			1.3.3	0011	0			621,m
+20616	1002	Manang (Prakaa)	¹tʰaː	¹tʰaː	spit	spit			1.8.3	0012	0			603
+20617	1002	Manang (Prakaa)	³sə	³sə	tooth	tooth			1.3.4	0013	0			632
+20618	1002	Manang (Prakaa)	¹kə̃◦ta	¹kə̃◦ta	chin	chin			1.2.5.3	0014	0			630,m
+20619	1002	Manang (Prakaa)	²krə◦mə	²krə◦mə	cheek	cheek			1.2.5.2	0015	0			262,m
+20620	1002	Manang (Prakaa)	³mon◦ʈe	³mon◦ʈe	moustache	moustache			1.2.5.5	0016	0			1114,1265
+20621	1002	Manang (Prakaa)	¹li	¹li	face	face			1.2.5	0017	0			1184
+20622	1002	Manang (Prakaa)	³kʰaː◦r	³kʰaː◦r	neck	neck			1.4.2	0018	0			494,5650
+20623	1002	Manang (Prakaa)	³mlaŋ◦kuŋ	³mlaŋ◦kuŋ	throat	throat			1.3.5	0019	0			479,3361
+20624	1002	Manang (Prakaa)	²pən◦taː	²pən◦taː	shoulder	shoulder			1.4.3	0020	0			745,m
+20625	1002	Manang (Prakaa)	²teː◦ɲe	²teː◦ɲe	back (body)	back (body)			1.4.8	0021	0			
+20626	1002	Manang (Prakaa)	³kre	³kre	waist	waist			1.4.6	0022	0			217
+20627	1002	Manang (Prakaa)	³pi◦ɕi	³pi◦ɕi	buttock	buttock			1.4.9.2	0023	0			1361,223
+20628	1002	Manang (Prakaa)	³ku	³ku	chest	chest			1.4.4.3	0024	0			2
+20629	1002	Manang (Prakaa)	²ɲok◦roː	²ɲok◦roː	breast	breast			1.4.4.3	0025	0			259,m
+20630	1002	Manang (Prakaa)	¹pʰwo	¹pʰwo	belly	belly			1.4.7	0026	0			2103
+20631	1002	Manang (Prakaa)	²pi◦te	²pi◦te	navel	navel			1.9.4	0027	0			m,519
+20632	1002	Manang (Prakaa)	³yaː◦kaŋ	³yaː◦kaŋ	arm	arm			1.5.1.2	0028	0			696,240
+20633	1002	Manang (Prakaa)	³yaː◦kru	³yaː◦kru	elbow	elbow			1.5.8.3	0029	0			696,307
+20634	1002	Manang (Prakaa)	³yaː	³yaː	hand	hand			1.5.1.1	0030	0			696
+20635	1002	Manang (Prakaa)	³ʈi	³ʈi	finger	finger			1.5.6	0031	0			
+20636	1002	Manang (Prakaa)	³ɕĩ	³ɕĩ	nail	nail			1.5.10	0032	0			512
+20637	1002	Manang (Prakaa)	²pəle	²pəle	leg	leg			1.5.7	0033	0			
+20638	1002	Manang (Prakaa)	¹puci	¹puci	knee	knee			1.5.8.4	0034	0			
+20639	1002	Manang (Prakaa)	³cʰĩ◦pə	³cʰĩ◦pə	liver	liver			1.7.3	0035	0			1390,s
+20640	1002	Manang (Prakaa)	³tĩ	³tĩ	heart	heart			1.7.1	0036	0			1387
+20641	1002	Manang (Prakaa)	²kuruŋ	²kuruŋ	guts	guts			1.7.7	0037	0			m
+20642	1002	Manang (Prakaa)	²ʈi	²ʈi	skin	skin			1.6.5	0038	0			596
+20643	1002	Manang (Prakaa)	¹ʈu	¹ʈu	sweat	sweat			1.8.1	0039	0			m
+20644	1002	Manang (Prakaa)	²kri	²kri	filth / grime	filth / grime			1.8.5	0040	0			
+20645	1002	Manang (Prakaa)	²naː	²naː	pus	pus			1.8.6.1	0041	0			1297
+20646	1002	Manang (Prakaa)	¹muʔi	¹muʔi	hair (body)	hair (body)			1.2.3	0042	0			363
+20647	1002	Manang (Prakaa)	¹cʰi	¹cʰi	fat / grease	fat / grease			1.6.4	0043	0			48
+20648	1002	Manang (Prakaa)	¹kaː	¹kaː	blood	blood			1.6.2	0044	0			231
+20649	1002	Manang (Prakaa)	¹no◦kre	¹no◦kre	bone	bone			1.6.3	0045	0			m,232
+20650	1002	Manang (Prakaa)	³ɕyə	³ɕyə	flesh	flesh			1.1.1.1	0046	0			34
+20651	1002	Manang (Prakaa)	²suː◦pə	²suː◦pə	body	body			1.1.1	0047	0			4,1902
+20652	1002	Manang (Prakaa)	¹nə◦pə	¹nə◦pə	disease / illness / sickness	disease / illness / sickness			1.1.5.1	0048	0			160,s
+20653	1002	Manang (Prakaa)	²moko	²moko	wound	wound			1.8.6.2	0049	0			
+20654	1002	Manang (Prakaa)	³mẽ	³mẽ	medicine	medicine			5.4	0050	0			5434
+20655	1002	Manang (Prakaa)	³ɕi	³ɕi	rice	rice			3.1.4	0051a	0			
+20656	1002	Manang (Prakaa)	³kyẽ	³kyẽ	rice (cooked)	rice (cooked)			3.1.4	0051b	0			
+20657	1002	Manang (Prakaa)	⁴pr̥a	⁴pr̥a	powder	powder			3.2.11	0052	0			
+20658	1002	Manang (Prakaa)	³tsətsə	³tsətsə	salt	salt			3.2.4	0053	0			
+20659	1002	Manang (Prakaa)	³cʰu◦ku	³cʰuku	oil	oil			1.6.4.1	0054	0			42,1440
+20660	1002	Manang (Prakaa)	³pʰi	³pʰi	liquor (fermented)	liquor (fermented)			3.1.6.3	0055a	0			
+20661	1002	Manang (Prakaa)	³ʔara	³ʔara	liquor (distilled)	liquor (distilled)			3.1.6.3	0055b	0			
+20662	1002	Manang (Prakaa)	³ɕukri	³ɕukri	tobacco	tobacco			3.1.6.2	0056	0			
+20663	1002	Manang (Prakaa)	²ʈu	²ʈu	taste / flavor	taste / flavor			1.3.5.8	0057	0		z	
+20664	1002	Manang (Prakaa)	³tʰaŋ	³tʰaŋ	smell / scent / odour	smell / scent / odour			7.1.4.5	0058	0			
+20665	1002	Manang (Prakaa)	²səki	²səki	food	food			5.5	0059	0			
+20666	1002	Manang (Prakaa)	³ɕyə	³ɕyə	meat	meat			1.1.1.1	0060	0			34
+20667	1002	Manang (Prakaa)	¹pʰuŋ	¹pʰuŋ	egg	egg				0061	0			304
+20668	1002	Manang (Prakaa)	¹nə◦kə	¹nə◦kə	fowl / hen / cock	fowl / hen / cock			2.1.10	0062	0			3442,m
+20669	1002	Manang (Prakaa)	³ɲemə	³ɲemə	bird	bird			2.2.4	0063	0			
+20670	1002	Manang (Prakaa)	³ɕi◦pyə	³ɕi◦pyə	wing	wing			1.5.1.3	0064	0			m,760
+20671	1002	Manang (Prakaa)	¹muʔi	¹muʔi	feather / plume	feather / plume			1.6.1.1	0065	0			363
+20672	1002	Manang (Prakaa)	²tsaŋ	²tsaŋ	nest	nest			2.2.4	0066	0			1615
+20673	1002	Manang (Prakaa)	³suŋ	³suŋ	beak / bill	beak / bill			1.3.1.2	0067	0			477
+20674	1002	Manang (Prakaa)	³ru	³ru	horn	horn			1.2.2	0068	0			814
+20675	1002	Manang (Prakaa)	⁴miʔe	⁴miʔe	cattle	cattle			2.1.2	0069a	0			
+20676	1002	Manang (Prakaa)	⁴myekye	⁴myekye	cattle (bull)	cattle (bull)			2.1.2	0069b	0			
+20677	1002	Manang (Prakaa)	⁴myamə	⁴myamə	cattle (cow)	cattle (cow)			2.1.2	0069c	0			
+20678	1002	Manang (Prakaa)	³kəlti	³kəlti	knife / sword	knife / sword			5.5	0070	0			
+20679	1002	Manang (Prakaa)	³kəlti	³kəlti	sword	sword			5.15	0071a	0			
+20680	1002	Manang (Prakaa)	²ɕaːlaŋ	²ɕaːlaŋ	sword	sword			5.15	0071b	0			
+20681	1002	Manang (Prakaa)	³kʰə	³kʰə	blade / edge	blade / edge			1.4.3.2	0072	0			
+20682	1002	Manang (Prakaa)	²pyarka	²pyarka	pole / bar / stick	pole / bar / stick			9.7.1	0073a	0			
+20683	1002	Manang (Prakaa)	²pyerka	²pyerka	pole / bar / stick	pole / bar / stick			9.7.1	0073b	0			
+20684	1002	Manang (Prakaa)	²telẽ	²telẽ	bow	bow			5.15	0074	0			
+20685	1002	Manang (Prakaa)	³myetɕo	³myetɕo	arrow	arrow			5.15	0075a	0			
+20686	1002	Manang (Prakaa)	³myotɕo	³myotɕo	arrow	arrow			5.15	0075b	0			
+20687	1002	Manang (Prakaa)	⁴tuŋ	⁴tuŋ	lance / spear	lance / spear			5.15	0076	0			2205
+20688	1002	Manang (Prakaa)	¹ʈu	¹ʈu	thread	thread			5.11.6	0077	0			
+20689	1002	Manang (Prakaa)	⁴tʰe	⁴tʰe	needle	needle			5.1	0078	0			
+20690	1002	Manang (Prakaa)	³kwẽ	³kwẽ	clothes / clothing	clothes / clothing			5.11.8.2.1	0079	0			
+20691	1002	Manang (Prakaa)	³ɕoɕo	³ɕoɕo	paper	paper			5.1	0080	0			
+20692	1002	Manang (Prakaa)	²pərpə	²pərpə	thing	thing			8.1	0081	0			
+20693	1002	Manang (Prakaa)	²pu◦kriː	²pu◦kriː	snake	snake			2.1.6.1	0082	0			2623,6104
+20694	1002	Manang (Prakaa)	²pu◦luŋ	²puluŋ	worm / insect	worm / insect			2.2.6	0083	0			2178,5432
+20695	1002	Manang (Prakaa)	³naːpraŋ	³naːpraŋ	fly	fly			2.2.6	0084	0			
+20696	1002	Manang (Prakaa)	³məcʰeri	³məcʰeri	mosquito	mosquito			2.2.6	0085	0			bIndic
+20697	1002	Manang (Prakaa)	³taːɲi	³taːɲi	flea	flea			2.2.6	0086	0			
+20698	1002	Manang (Prakaa)	¹ɕye	¹ɕye	louse	louse			2.2.6	0087	0			
+20699	1002	Manang (Prakaa)	³nokro	³nokro	ant	ant			2.2.6	0088	0			
+20700	1002	Manang (Prakaa)	¹tə◦rŋə	¹tə◦rŋə	fish	fish			2.2.5	0089	0			p,1455
+20701	1002	Manang (Prakaa)	⁴tumpuluŋ	⁴tumpuluŋ	shellfish	shellfish			2.2.5	0090a	0			
+20702	1002	Manang (Prakaa)	²tumpuluŋ	²tumpuluŋ	shellfish	shellfish			2.2.5	0090b	0			
+20703	1002	Manang (Prakaa)	³sem◦cẽ ²ritaː	³sem◦cẽ ²ritaː	animal	animal			2.3	0091a	0			m,m,1862
+20704	1002	Manang (Prakaa)	²ritaː	²ritaː	animal	animal			2.3	0091b	0			1862
+20705	1002	Manang (Prakaa)	³kira	³kira	hunting	hunting			6.2.2.1	0092	0			
+20706	1002	Manang (Prakaa)	²tsali	²tsali	net	net			5.11.5.4	0093	0			
+20707	1002	Manang (Prakaa)	³ɲu◦kyu	³ɲu◦kyu	dog	dog			2.1.11	0094a	0			6026,1764
+20708	1002	Manang (Prakaa)	³ɲə◦kyu	³ɲə◦kyu	dog	dog			2.1.11	0094b	0			6026,1764
+20709	1002	Manang (Prakaa)	³tɕo ⁴tʰumpə	³tɕo ⁴tʰumpə	rope	rope			5.11.4	0095	0			
+20710	1002	Manang (Prakaa)	³tɕo ¹prəpə	³tɕo ¹prəpə	string	string			5.1	0096	0			
+20711	1002	Manang (Prakaa)	⁴kʰyu	⁴kʰyu	sheep	sheep			2.1.8	0097	0			6027
+20712	1002	Manang (Prakaa)	¹tə	¹tə	horse	horse			2.1.7	0098	0			5
+20713	1002	Manang (Prakaa)	¹suŋkur	¹suŋkur	pig	pig			2.1.12	0099	0			b
+20714	1002	Manang (Prakaa)	³me	³me	tail	tail			1.4.10.1	0100	0			1288
+20715	1002	Manang (Prakaa)	¹muʔi	¹muʔi	hair (of animal)	hair (of animal)			1.2.3	0101	0			363
+20716	1002	Manang (Prakaa)	²ʈʰi	²ʈʰi	fur	fur			1.6.1	0102	0			m
+20717	1002	Manang (Prakaa)	³kyalpu	³kyalpu	sack / bag	sack / bag			5.1	0103	0			
+20718	1002	Manang (Prakaa)	¹taŋ	¹taŋ	pan / pot	pan / pot			5.5	0104	0			
+20719	1002	Manang (Prakaa)	⁴tʰi	⁴tʰi	kettle	kettle			5.5	0105	0			
+20720	1002	Manang (Prakaa)	³pu	³pu	jar	jar			5.1	0106a	0			
+20721	1002	Manang (Prakaa)	²kaːkri	²kaːkri	jar	jar			5.1	0106b	0			
+20722	1002	Manang (Prakaa)	³pu	³pu	pot	pot			5.5	0107a	0			
+20723	1002	Manang (Prakaa)	²puŋɲi	²puŋɲi	pot	pot			5.5	0107b	0			
+20724	1002	Manang (Prakaa)	²kape	²kape	roof	roof			5.11.9	0108	0			
+20725	1002	Manang (Prakaa)	³ro	³ro	wall	wall			5.11.9.3	0109	0			
+20726	1002	Manang (Prakaa)	¹kʰuŋ	¹kʰuŋ	window	window			5.11.9.3	0110	0			b
+20727	1002	Manang (Prakaa)	¹mre	¹mre	door	door			5.11.9.3	0111	0			
+20728	1002	Manang (Prakaa)	⁴tʰĩ	⁴tʰĩ	house / home	house / home			5.11.9.1	0112	0			
+20729	1002	Manang (Prakaa)	³moʈor	³moʈor	vehicle / car	vehicle / car			5.1	0113	0			bEnglish
+20730	1002	Manang (Prakaa)	²təti	²təti	vessel / ship	vessel / ship			5.1	0114	0			
+20731	1002	Manang (Prakaa)	¹kyu ³kul	¹kyu ³kul	well	well			9.6.1.1	0115a	0			
+20732	1002	Manang (Prakaa)	³kul	³kul	well	well			9.6.1.1	0115b	0			
+20733	1002	Manang (Prakaa)	⁴kʰye	⁴kʰye	business / job / work / task	business / job / work / task			5.8	0116	0			5827
+20734	1002	Manang (Prakaa)	⁴muʔi	⁴muʔi	money	money			5.9	0117a	0			
+20735	1002	Manang (Prakaa)	³ɕeka	³ɕeka	money	money			5.9	0117b	0			
+20736	1002	Manang (Prakaa)	³ɕika	³ɕika	money	money			5.9	0117c	0			
+20737	1002	Manang (Prakaa)	¹ɕĩ	¹ɕĩ	tree	tree			3.1.2	0118	0			2658
+20738	1002	Manang (Prakaa)	²ɕĩtuŋ	²ɕĩtuŋ	stem / trunk	stem / trunk			3.1.2	0119	0			
+20739	1002	Manang (Prakaa)	²yelkə	²yelkə	branch	branch			1.5.3.1	0120	0			
+20740	1002	Manang (Prakaa)	³cʰi	³cʰi	grass	grass			3.1.8	0121	0			
+20741	1002	Manang (Prakaa)	⁴tʰuŋ	⁴tʰuŋ	stalk	stalk			3.1.2	0122	0			
+20742	1002	Manang (Prakaa)	¹ʈə	¹ʈə	root	root			3.1.2	0123	0			
+20743	1002	Manang (Prakaa)	²paː	²paː	leaf	leaf			3.1.3	0124	0			
+20744	1002	Manang (Prakaa)	²mĩtoː	²mĩtoː	flower / blossom	flower / blossom			3.1.4	0125	0			
+20745	1002	Manang (Prakaa)	³ɕĩtoː	³ɕĩtoː	fruit / nut	fruit / nut			3.1.5	0126	0			
+20746	1002	Manang (Prakaa)	⁴pl̥u	⁴pl̥u	seed	seed			3.1.4	0127	0			2463
+20747	1002	Manang (Prakaa)	³pyoko	³pyoko	bark	bark			2.1.11.1	0128	0			
+20748	1002	Manang (Prakaa)	³kye	³kye	field (cultivated )	field  (cultivated )			3.2.5	0129	0	jbl3		
+20749	1002	Manang (Prakaa)	²naː	²naː	grove / cope / wood	grove / cope / wood			9.10.4	0130	0			
+20750	1002	Manang (Prakaa)	²naː ¹huŋ	²naː ¹huŋ	forest	forest			3.2.5	0131	0			
+20751	1002	Manang (Prakaa)	⁴kʰyẽ	⁴kʰyẽ	way / road	way / road			9.2.8	0132	0			1017
+20752	1002	Manang (Prakaa)	¹kʰuŋ	¹kʰuŋ	hole / pit	hole / pit			3.2.7	0133	0			820
+20753	1002	Manang (Prakaa)	³tsẽ	³tsẽ	bridge	bridge			9.10.2	0134	0			3604
+20754	1002	Manang (Prakaa)	³ɕyoŋ	³ɕyoŋ	river	river			3.2.3	0135	0			
+20755	1002	Manang (Prakaa)	⁴pokto	⁴pokto	mountain	mountain			3.2.5	0136a	0			
+20756	1002	Manang (Prakaa)	²mal◦kaŋ	²mal◦kaŋ	mountain (snow-covered)	mountain (snow-covered)			3.2.5	0136b	0			m,m,m,3581
+20757	1002	Manang (Prakaa)	³tʰaŋ ³cãpə	³tʰaŋ ³cãpə	field	field			3.2.5	0137	0			
+20758	1002	Manang (Prakaa)	³tʰaŋ ³tʰyepə	³tʰaŋ ³tʰyepə	plain	plain			3.2.5	0138a	0			
+20759	1002	Manang (Prakaa)	³tʰaŋ ²yaŋpə	³tʰaŋ ²yaŋpə	plain	plain			3.2.5	0138b	0			
+20760	1002	Manang (Prakaa)	¹kyu ³tsʰo	¹kyu ³tsʰo	pond	pond			3.2.3	0139	0			
+20761	1002	Manang (Prakaa)	³tsʰo	³tsʰo	lake	lake			3.2.5	0140	0			
+20762	1002	Manang (Prakaa)	⁴kyamtso	⁴kyamtso	sea	sea			3.2.3	0141	0			
+20763	1002	Manang (Prakaa)	--	--	island	island			3.2.5	0142	0			
+20764	1002	Manang (Prakaa)	¹kyu	¹kyu	water	water			3.2.3	0143	0			
+20765	1002	Manang (Prakaa)	³taŋkyaŋ	³taŋkyaŋ	ice	ice			3.2.3	0144	0			
+20766	1002	Manang (Prakaa)	¹yuŋ	¹yuŋ	stone	stone			3.2.9	0145	0			1269
+20767	1002	Manang (Prakaa)	³sə	³sə	earth	earth			3.2.11	0146	0			
+20768	1002	Manang (Prakaa)	²pyomə	²pyomə	sand	sand			3.2.11	0147	0			
+20769	1002	Manang (Prakaa)	²səpraː	²səpraː	dust	dust			3.2.11	0148	0			
+20770	1002	Manang (Prakaa)	³myu◦ku	³myuku	smoke	smoke			3.2.12.2	0149	0			2136,2361
+20771	1002	Manang (Prakaa)	¹myepraː	¹myepraː	ash	ash			3.2.12.2	0150	0			
+20772	1002	Manang (Prakaa)	³miʔe	³miʔe	fire	fire			3.2.12.2	0151	0			
+20773	1002	Manang (Prakaa)	³l̥aː◦pə	³l̥aːpə	wind	wind			3.2.1	0152	0			2412,m
+20774	1002	Manang (Prakaa)	³muk◦pə	³muk◦pə	cloud	cloud			3.2.1	0153	0			2465,s
+20775	1002	Manang (Prakaa)	³muk◦pə	³muk◦pə	fog	fog			3.2.1	0154	0			2465,s
+20776	1002	Manang (Prakaa)	³mwo	³mwo	rain	rain			3.2.1	0155	0			2473
+20777	1002	Manang (Prakaa)	²kaŋ	²kaŋ	snow	snow			3.2.1	0156	0			
+20778	1002	Manang (Prakaa)	²mwo	²mwo	sky	sky			3.2.2	0157a	0			2473
+20779	1002	Manang (Prakaa)	²naŋ◦kuŋ	²naŋ◦kuŋ	sky	sky			3.2.2	0157b	0			2484
+20780	1002	Manang (Prakaa)	⁴ɕyə	⁴ɕyə	rainbow	rainbow			3.2.1	0158	0			6000
+20781	1002	Manang (Prakaa)	²tʰi◦ŋi	²tʰi◦ŋi	sun	sun			3.2.10	0159	0			m,85
+20782	1002	Manang (Prakaa)	¹lə◦ɲi	¹lə◦ɲi	moon	moon			3.2.2	0160	0			1016,m
+20783	1002	Manang (Prakaa)	¹kri	¹kri	shadow	shadow			3.2.10	0161	0			2614
+20784	1002	Manang (Prakaa)	¹sər	¹sər	star	star			3.2.2	0162	0			2300
+20785	1002	Manang (Prakaa)	-ra	-ra	day	day			1.5.3.2	0163	0			
+20786	1002	Manang (Prakaa)	⁴tera ²kraŋtsə	⁴tera ²kraŋtsə	daily / every day	daily / every day			9.1.3	0164	0			
+20787	1002	Manang (Prakaa)	²tĩʈaː	²tĩʈaː	week	week			9.1.3	0165a	0			
+20788	1002	Manang (Prakaa)	¹ɲiːra	¹ɲiːra	week	week			9.1.3	0165b	0			
+20789	1002	Manang (Prakaa)	³haptə	³haptə	week	week			9.1.3	0165c	0			
+20790	1002	Manang (Prakaa)	¹lə	¹lə	month	month			9.1.2	0166	0			
+20791	1002	Manang (Prakaa)	²lo	²lo	year	year			9.1.2	0167	0			
+20792	1002	Manang (Prakaa)	²nentaŋ	²nentaŋ	morning	morning			9.1.4	0168	0			
+20793	1002	Manang (Prakaa)	²tʰĩtse	²tʰĩtse	afternoon	afternoon			9.1.4	0169	0			
+20794	1002	Manang (Prakaa)	³ɲətse	³ɲətse	evening	evening			9.1.4	0170	0			
+20795	1002	Manang (Prakaa)	²muntse	²muntse	night	night			9.1.4	0171	0			
+20796	1002	Manang (Prakaa)	¹huɲi	¹huɲi	yesterday	yesterday			9.1.3	0172	0			
+20797	1002	Manang (Prakaa)	³neːse	³neːse	tomorrow	tomorrow			9.1.3	0173	0			
+20798	1002	Manang (Prakaa)	³tiŋi	³tiŋi	today	today			9.1.3	0174	0			
+20799	1002	Manang (Prakaa)	²toso	²toso	now	now			9.1.5	0175	0			
+20800	1002	Manang (Prakaa)	³hayaŋ	³hayaŋ	when	when			10.5.3	0176	0			
+20801	1002	Manang (Prakaa)	³cʰutse ²kəti	³cʰutse ²kəti	what time is it?	what time is it?			10.5.3	0177	0			
+20802	1002	Manang (Prakaa)	³cʰutse	³cʰutse	hour / time	hour / time			9.1.4	0178	0			
+20803	1002	Manang (Prakaa)	⁴kr̥iː	⁴kr̥iː	one	one			9.9	0179a	0			
+20804	1002	Manang (Prakaa)	⁴r̥iː	⁴r̥iː	one	one			9.9	0179b	0			
+20805	1002	Manang (Prakaa)	⁴ɲiː	⁴ɲiː	two	two			9.9	0180	0			2504
+20806	1002	Manang (Prakaa)	¹sẽ	¹sẽ	three	three			9.9	0181	0			2666
+20807	1002	Manang (Prakaa)	⁴pl̥i	⁴pl̥i	four	four			9.9	0182	0			2409
+20808	1002	Manang (Prakaa)	⁴ŋə	⁴ŋə	five	five			9.9	0183	0			1306
+20809	1002	Manang (Prakaa)	⁴ʈʰu	⁴ʈʰu	six	six			9.9	0184	0			2621
+20810	1002	Manang (Prakaa)	¹ɲiː	¹ɲiː	seven	seven			9.9	0185	0			2505
+20811	1002	Manang (Prakaa)	⁴pr̥eː	⁴pr̥eː	eight	eight			9.9	0186	0			
+20812	1002	Manang (Prakaa)	¹ku	¹ku	nine	nine			9.9	0187	0			
+20813	1002	Manang (Prakaa)	¹cu	¹cu	ten	ten			9.9	0188	0			
+20814	1002	Manang (Prakaa)	²ɲu◦ɕu	²ɲu◦ɕu	twenty	twenty			9.9	0189	0			2504
+20815	1002	Manang (Prakaa)	⁴pr̥ə	⁴pr̥ə	hundred	hundred			9.9	0190	0			
+20816	1002	Manang (Prakaa)	²kəti	²kəti	how much	how much			10.1	0191	0			
+20817	1002	Manang (Prakaa)	²kəti	²kəti	how many	how many			10.1	0192	0			
+20818	1002	Manang (Prakaa)	¹kəʈe	¹kəʈe	half	half			9.8	0193a	0			
+20819	1002	Manang (Prakaa)	⁴ʈʰaʈe	⁴ʈʰaʈe	half	half			9.8	0193b	0			
+20820	1002	Manang (Prakaa)	²tsʰaːraŋ	²tsʰaːraŋ	altogether / all / whole	altogether / all / whole			8.2	0194	0			
+20821	1002	Manang (Prakaa)	⁴tsa ³pri	⁴tsa ³pri	some	some			9.9	0195	0			
+20822	1002	Manang (Prakaa)	⁴ləmpər	⁴ləmpər	number	number			9.9	0196	0			
+20823	1002	Manang (Prakaa)	²lo	²lo	age	age			9.1.2	0197	0			
+20824	1002	Manang (Prakaa)	²lẽ	²lẽ	time (first, second...)	time (first, second...)			9.9	0198	0			
+20825	1002	Manang (Prakaa)	³pʰə	³pʰə	husband	husband			4.7.4	0199	0		z	
+20826	1002	Manang (Prakaa)	²piʔe	²piʔe	wife	wife			4.7.4	0200	0			
+20827	1002	Manang (Prakaa)	³tsaŋ ⁴tsʰaŋpə	³tsaŋ ⁴tsʰaŋpə	marriage	marriage			5.8	0201	0			
+20828	1002	Manang (Prakaa)	³ʔapə	³ʔapə	father / papa	father / papa			4.7.1	0202	0			x
+20829	1002	Manang (Prakaa)	³ʔamə	³ʔamə	mother / mama	mother / mama			4.7.1	0203	0			
+20830	1002	Manang (Prakaa)	³ʔakʰye	³ʔakʰye	grandfather / grandpapa	grandfather / grandpapa			4.7.1	0204	0			
+20831	1002	Manang (Prakaa)	³me	³me	grandmother / grandmama	grandmother / grandmama			4.7.1	0205	0			
+20832	1002	Manang (Prakaa)	³ʔale	³ʔale	son	son			4.7.3	0206	0			
+20833	1002	Manang (Prakaa)	³ʔaŋə	³ʔaŋə	daughter	daughter			4.7.3	0207	0			
+20834	1002	Manang (Prakaa)	³kola	³kola	child	child			1.5.3.2	0208	0			
+20835	1002	Manang (Prakaa)	²tsətsə	²tsətsə	young (animal)	young (animal)			7.1.8.3	0209	0			
+20836	1002	Manang (Prakaa)	³ʔakwẽ	³ʔakwẽ	grandchild	grandchild			4.7.3	0210a	0			
+20837	1002	Manang (Prakaa)	³kwẽ	³kwẽ	grandchild (male)	grandchild (male)			4.7.3	0210b	0			
+20838	1002	Manang (Prakaa)	³kweme	³kweme	grandchild (female)	grandchild (female)			4.7.3	0210c	0			
+20839	1002	Manang (Prakaa)	³ʔatə	³ʔatə	elder brother	elder brother			4.7.1	0211	0			
+20840	1002	Manang (Prakaa)	³ʔanə	³ʔanə	elder sister	elder sister			4.7.1	0212	0			
+20841	1002	Manang (Prakaa)	³ʔacoŋ	³ʔacoŋ	younger brother	younger brother				0213	0			
+20842	1002	Manang (Prakaa)	³naɲi	³naɲi	younger sister	younger sister				0214	0			
+20843	1002	Manang (Prakaa)	¹pyũ ³kola	¹pyũ ³kola	brothers	brothers			4.7.2	0215a	0			
+20844	1002	Manang (Prakaa)	¹tʰe	¹tʰe	brothers	brothers			4.7.2	0215b	0			
+20845	1002	Manang (Prakaa)	¹tʰe ²naŋ	¹tʰe ²naŋ	brothers	brothers			4.7.2	0215c	0			
+20846	1002	Manang (Prakaa)	³mrĩ ³kola	³mrĩ ³kola	sisters	sisters			4.7.2	0216	0			
+20847	1002	Manang (Prakaa)	²mome	²mome	family	family			4.7.5	0217	0			
+20848	1002	Manang (Prakaa)	²roːpə	²roːpə	friend / mate (male)	friend / mate  (male)			4.4.2	0218a	0	jbl3		
+20849	1002	Manang (Prakaa)	²roːmə	²roːmə	friend / mate (female)	friend / mate  (female)			4.4.2	0218b	0	jbl3		
+20850	1002	Manang (Prakaa)	²paŋpə	²paŋpə	quarrel	quarrel			8.5.8	0219a	0			
+20851	1002	Manang (Prakaa)	¹kəteːpə	¹kəteːpə	quarrel	quarrel			8.5.8	0219b	0			
+20852	1002	Manang (Prakaa)	¹tsʰeːpə	¹tsʰeːpə	quarrel	quarrel			8.5.8	0219c	0			
+20853	1002	Manang (Prakaa)	⁴pʰaŋ	⁴pʰaŋ	force / strength / power / might	force / strength / power / might			1.1.5	0220	0			157
+20854	1002	Manang (Prakaa)	²pilaː ⁴ʔakʰyẽpə	²pilaː ⁴ʔakʰyẽpə	dumb	dumb			8.5.4.4	0221	0			
+20855	1002	Manang (Prakaa)	²ɲe◦maŋ	²ɲe◦maŋ	deaf	deaf			1.2.7.5	0222	0		E	e
+20856	1002	Manang (Prakaa)	¹mi ⁴ʔamrampə	¹mi ⁴ʔamrampə	blind	blind			1.2.6.14.2	0223	0			682,m
+20857	1002	Manang (Prakaa)	¹pyũ	¹pyũ	man / male	man / male			1.9.6.1	0224	0			m
+20858	1002	Manang (Prakaa)	³mrĩ	³mrĩ	woman / female	woman / female			1.9.3	0225	0			m
+20859	1002	Manang (Prakaa)	²mi	²mi	person / man	person / man			4.5	0226	0			
+20860	1002	Manang (Prakaa)	³ŋə	³ŋə	I	I			4.1	0227	0			2530
+20861	1002	Manang (Prakaa)	⁴kyə	⁴kyə	you	you			4.1	0228	0			
+20862	1002	Manang (Prakaa)	³kʰi	³kʰi	he	he			4.1	0229	0			
+20863	1002	Manang (Prakaa)	³kʰi	³kʰi	she	she			4.1	0230	0			
+20864	1002	Manang (Prakaa)	¹ɲila	¹ɲila	we	we			4.1	0231	0			
+20865	1002	Manang (Prakaa)	⁴kimi ³tsʰaːraŋ	⁴kimi ³tsʰaːraŋ	you (plural)	you (plural)			4.1	0232	0			
+20866	1002	Manang (Prakaa)	¹kʰimi	¹kʰimi	they (male)	they (male)			4.1	0233	0			
+20867	1002	Manang (Prakaa)	¹kʰimi	¹kʰimi	they (female)	they (female)			4.1	0234	0			
+20868	1002	Manang (Prakaa)	⁴r̥ake	⁴r̥ake	oneself / self	oneself / self			4.1	0235	0			
+20869	1002	Manang (Prakaa)	²ɕẽ	²ɕẽ	else / other	else / other			10.1	0236	0			
+20870	1002	Manang (Prakaa)	⁴su	⁴su	who	who			10.5.3	0237	0			
+20871	1002	Manang (Prakaa)	³mĩ	³mĩ	name / name (first)	name / name (first)			5.8	0238	0			2450
+20872	1002	Manang (Prakaa)	³mĩ	³mĩ	name	name			5.8	0239	0			2450
+20873	1002	Manang (Prakaa)	²yikə	²yikə	letter / character	letter / character			5.1	0240	0			
+20874	1002	Manang (Prakaa)	¹kye	¹kye	voice	voice			8.5.5	0241	0			
+20875	1002	Manang (Prakaa)	¹kye	¹kye	sound	sound			9.3	0242	0			
+20876	1002	Manang (Prakaa)	¹kye	¹kye	language / speech	language / speech			5.8	0243	0			
+20877	1002	Manang (Prakaa)	³sẽ	³sẽ	mind / heart	mind / heart			1.10	0244	0			66
+20878	1002	Manang (Prakaa)	³l̥lə	³l̥lə	god	god			5.8.1.1	0245	0			2264
+20879	1002	Manang (Prakaa)	²ɲaŋku	²ɲaŋku	feast / festival	feast / festival			5.5	0246	0			
+20880	1002	Manang (Prakaa)	²sur	²sur	village	village			5.8	0247	0			
+20881	1002	Manang (Prakaa)	²pətsər	²pətsər	town	town			9.10.3	0248a	0			
+20882	1002	Manang (Prakaa)	²yul	²yul	town	town			9.10.3	0248b	0			
+20883	1002	Manang (Prakaa)	³tsu	³tsu	this (one)	this (one)			10.4.3.2	0249	0			
+20884	1002	Manang (Prakaa)	³tsu	³tsu	it	it			8.1	0250	0			
+20885	1002	Manang (Prakaa)	⁴ʔutsu	⁴ʔutsu	that (one)	that (one)			10.1	0251	0			
+20886	1002	Manang (Prakaa)	⁴halə	⁴halə	which (one)	which (one)			10.5.3	0252	0			
+20887	1002	Manang (Prakaa)	⁴taː	⁴taː	what	what			10.5.3	0253	0			
+20888	1002	Manang (Prakaa)	⁴taː ²piː	⁴taː ²piː	why	why			10.5.3	0254a	0			
+20889	1002	Manang (Prakaa)	⁴taː ²pitse	⁴taː ²pitse	why	why			10.5.3	0254b	0			
+20890	1002	Manang (Prakaa)	⁴ʔuːp	⁴ʔuːp	these (ones)	these (ones)			10.4.3.2	0255	0			
+20891	1002	Manang (Prakaa)	³haʔi ³lətsə	³haʔi ³lətsə	how	how			10.1	0256	0			
+20892	1002	Manang (Prakaa)	³tsuri	³tsuri	here	here			9.2.3	0257	0			
+20893	1002	Manang (Prakaa)	³tsuri	³tsuri	there	there			9.2.7	0258	0			
+20894	1002	Manang (Prakaa)	⁴ʔuri	⁴ʔuri	that place / over there	that place / over there			10.1	0259a	0			
+20895	1002	Manang (Prakaa)	¹tũ ³tiri	¹tũ ³tiri	that place / over there	that place / over there			10.1	0259b	0			
+20896	1002	Manang (Prakaa)	⁴hãti	⁴hãti	where / anywhere	where / anywhere			10.5.3	0260a	0			
+20897	1002	Manang (Prakaa)	⁴haci	⁴haci	where / anywhere	where / anywhere			10.5.3	0260b	0			
+20898	1002	Manang (Prakaa)	⁴hãtse	⁴hãtse	where / anywhere	where / anywhere			10.5.3	0260c	0			
+20899	1002	Manang (Prakaa)	³ŋontsari	³ŋontsari	this way	this way			10.4.3.2	0261	0			
+20900	1002	Manang (Prakaa)	³tsuri	³tsuri	that way	that way			10.1	0262a	0			
+20901	1002	Manang (Prakaa)	³ʔutsuri	³ʔutsuri	that way	that way			10.1	0262b	0			
+20902	1002	Manang (Prakaa)	⁴ʔuri	⁴ʔuri	away / that way	away / that way			9.2.4	0263	0			
+20903	1002	Manang (Prakaa)	⁴haci	⁴haci	where	where			10.5.3	0264	0			
+20904	1002	Manang (Prakaa)	⁴kʰya	⁴kʰya	place	place			9.10.5	0265a	0			
+20905	1002	Manang (Prakaa)	³sə	³sə	place	place			9.10.5	0265b	0			
+20906	1002	Manang (Prakaa)	²tortse	²tortse	left	left			1.5.3.2	0266	0			
+20907	1002	Manang (Prakaa)	³kyeː◦tse	³kyeː◦tse	right	right			1.5.3.2	0267	0			2786
+20908	1002	Manang (Prakaa)	³ŋwẽ	³ŋwẽ	front	front			1.4.4	0268	0		D1	m
+20909	1002	Manang (Prakaa)	³liː	³liː	back / backside	back / backside			1.4.8	0269a	0			209
+20910	1002	Manang (Prakaa)	³liː◦tse	³liːtse	back / backside	back / backside			1.4.8	0269b	0			209,m
+20911	1002	Manang (Prakaa)	²naŋ	²naŋ	inside / inward / interior	inside / inward / interior			9.2.5	0270	0			2118
+20912	1002	Manang (Prakaa)	³pʰi	³pʰi	out / outside / exterior	out / outside / exterior			9.2	0271a	0			
+20913	1002	Manang (Prakaa)	³pʰitse	³pʰitse	out / outside / exterior	out / outside / exterior			9.2	0271b	0			
+20914	1002	Manang (Prakaa)	¹pər	¹pər	space	space			9.2.7	0272a	0			
+20915	1002	Manang (Prakaa)	³tɕẽ	³tɕẽ	space	space			9.2.7	0272b	0			
+20916	1002	Manang (Prakaa)	³pʰi	³pʰi	up	up			9.2.1	273	0			
+20917	1002	Manang (Prakaa)	³piɕi	³piɕi	down	down			9.2.2	0274	0			
+20918	1002	Manang (Prakaa)	²ɲo-	²ɲo-	look / see	look / see			1.2.6.11	0275	0			
+20919	1002	Manang (Prakaa)	³tẽ-	³tẽ-	show	show			6.2.2.8	0276	0			
+20920	1002	Manang (Prakaa)	³ɲẽ-	³ɲẽ-	hear	hear			1.2.7.4	0277	0			1410
+20921	1002	Manang (Prakaa)	³tʰaŋ ³kʰə-	³tʰaŋ ³kʰə-	smell at	smell at			1.2.8.5	0278	0			
+20922	1002	Manang (Prakaa)	³sa ²ti-	³sa ²ti-	breathe	breathe	in	in	1.1.2.2	0279a	0			32,m
+20923	1002	Manang (Prakaa)	³sa ²piː-	³sa ²piː-	breathe (out)	breathe (out)			1.1.2.2	0279b	0			32,m
+20924	1002	Manang (Prakaa)	³ɕeː-	³ɕeː-	say	say			1.8.7	0280	0			1755
+20925	1002	Manang (Prakaa)	⁴we-	⁴we-	call	call			8.5.13	0281	0			
+20926	1002	Manang (Prakaa)	¹kye◦te-	¹kye◦te-	cry	cry			1.8.8.2	0282	0			1103,s
+20927	1002	Manang (Prakaa)	⁴kʰwe ¹prĩ-	⁴kʰwe ¹prĩ-	sing	sing			5.1	0283	0			
+20928	1002	Manang (Prakaa)	¹ɕo-	¹ɕo-	dance	dance			6.7.9	0284	0			
+20929	1002	Manang (Prakaa)	²laŋpə ³ɕeː-	²laŋpə ³ɕeː-	talk	talk			8.5.10.1	0285	0			
+20930	1002	Manang (Prakaa)	⁴kaːkor ³kwol-	⁴kaːkor ³kwol-	inform / announce	inform / announce			8.5.14.2	0286	0			
+20931	1002	Manang (Prakaa)	⁴ɲeː-	⁴ɲeː-	suck	suck			1.3.2.1	0287	0			254
+20932	1002	Manang (Prakaa)	¹riː-	¹riː-	vomit	vomit			1.8.3.2	0288	0			5697
+20933	1002	Manang (Prakaa)	¹tʰaː ⁴tʰi ³lə-	¹tʰaː ⁴tʰi ³lə-	spit	spit	v.	v.	1.8.3	0289	0			603
+20934	1002	Manang (Prakaa)	³sə ³ɲeː-	³sə ³ɲeː-	bite	bite			1.3.4.4	0290	0			
+20935	1002	Manang (Prakaa)	¹ɲiː-	¹ɲiː-	laugh	laugh			1.8.8.1	0291a	0			1105
+20936	1002	Manang (Prakaa)	¹ɲiː ³ɕor-	¹ɲiː ³ɕor-	laugh	laugh			1.8.8.1	0291b	0			1105,1780
+20937	1002	Manang (Prakaa)	³kraː-	³kraː-	weep	weep			1.8.8.2	0292	0			1103
+20938	1002	Manang (Prakaa)	³sẽ ³kiː-	³sẽ ³kiː-	rejoice / glad	rejoice / glad			8.3.1.5.1	0293	0			
+20939	1002	Manang (Prakaa)	²ʔasu-	²ʔasu-	fear / afraid / scared / dreadful	fear / afraid / scared / dreadful			8.3.1.10.1	0294a	0			
+20940	1002	Manang (Prakaa)	²ɲĩ-	²ɲĩ-	fear / afraid / scared / dreadful	fear / afraid / scared / dreadful			8.3.1.10.1	0294b	0			
+20941	1002	Manang (Prakaa)	³ʈʰaluŋ ³kʰə-	³ʈʰaluŋ ³kʰə-	grieve / sad	grieve / sad			8.3.1.5.1.1	0295	0			
+20942	1002	Manang (Prakaa)	²ɕetaŋ ³kʰə-	²ɕetaŋ ³kʰə-	angry, get	angry, get			8.3.1.6.1	0296	0			
+20943	1002	Manang (Prakaa)	³pʰə ⁴kyer ⁴jə-	³pʰə ⁴kyer ⁴jə-	startled	startled			8.3.1.9.1	0297a	0			
+20944	1002	Manang (Prakaa)	³pʰə ⁴kyer-	³pʰə ⁴kyer-	startled	startled			8.3.1.9.1	0297b	0			
+20945	1002	Manang (Prakaa)	¹pʰo-	¹pʰo-	strike / beat / hit	strike / beat / hit			6.8	0298	0			5822
+20946	1002	Manang (Prakaa)	¹prĩ-	¹prĩ-	shoot	shoot			6.2.2.1	0299	0			
+20947	1002	Manang (Prakaa)	¹kuntu ¹prĩ-	¹kuntu ¹prĩ-	thrash / strike / punch	thrash / strike / punch			6.8	0300	0			
+20948	1002	Manang (Prakaa)	⁴ʈaː-	⁴ʈaː-	heal / cure	heal / cure			1.1.5.1	0301	0			
+20949	1002	Manang (Prakaa)	¹kyẽ-	¹kyẽ-	repair / mend	repair / mend			6.14	0302	0			5386
+20950	1002	Manang (Prakaa)	²li-	²li-	throw / cast	throw / cast			6.12	0303	0			
+20951	1002	Manang (Prakaa)	¹kyaː-	¹kyaː-	thrust / dab	thrust / dab			6.7.2	0304	0			
+20952	1002	Manang (Prakaa)	⁴pl̥o-	⁴pl̥o-	strike / pierce	strike / pierce			6.8	0305	0			5822
+20953	1002	Manang (Prakaa)	²prapraː ²sə-	²prapraː ²sə-	crush / shutter (to pieces)	crush / shutter (to pieces)			9.5	0306a	0			
+20954	1002	Manang (Prakaa)	¹to-	¹to-	crush / shutter (to pieces)	crush / shutter (to pieces)			9.5	0306b	0			
+20955	1002	Manang (Prakaa)	³kʰotolo ³tə-	³kʰotolo ³tə-	broken, be	broken, be			7.1.5.1	0307	0			
+20956	1002	Manang (Prakaa)	⁴kʰyər-	⁴kʰyər-	push	push			6.2.2.3.1	0308	0			
+20957	1002	Manang (Prakaa)	²ʈi-	²ʈi-	pull	pull			6.2.2.3.1	0309	0			
+20958	1002	Manang (Prakaa)	-ri... ³mo	-ri... ³mo	have	have			8.2	0310	0			
+20959	1002	Manang (Prakaa)	³kyĩ-	³kyĩ-	seize	seize			6.21	0311	0			
+20960	1002	Manang (Prakaa)	³yaː ³lə-	³yaː ³lə-	touch	touch			8.4	0312a	0			
+20961	1002	Manang (Prakaa)	²te-	²te-	touch	touch			8.4	0312b	0			
+20962	1002	Manang (Prakaa)	⁴pr̥iː-	⁴pr̥iː-	rub / scrub	rub / scrub			8.4	0313	0			
+20963	1002	Manang (Prakaa)	¹tseː-	¹tseː-	scratch	scratch			1.6.5.5	0314a	0			m
+20964	1002	Manang (Prakaa)	¹r̥eː-	¹r̥eː-	scratch	scratch			1.6.5.5	0314b	0			2615
+20965	1002	Manang (Prakaa)	¹ʈaŋ-	¹ʈaŋ-	swell	swell			1.1.5.2	0315a	0			
+20966	1002	Manang (Prakaa)	³pʰuʔi-	³pʰuʔi-	swell / rise	swell / rise			1.1.5.2	0315b	0			
+20967	1002	Manang (Prakaa)	²kom-	²kom-	walk	walk			6.7.4	0316a	0			
+20968	1002	Manang (Prakaa)	²kompə ²neː-	²kompə ²neː-	walk	walk			6.7.4	0316b	0			
+20969	1002	Manang (Prakaa)	¹naŋ-	¹naŋ-	tread	tread			6.7.4	0317	0			2134
+20970	1002	Manang (Prakaa)	³cʰoŋ-	³cʰoŋ-	jump	jump			6.7.8	0318	0			6708
+20971	1002	Manang (Prakaa)	³kyu-	³kyu-	run	run			6.7.4	0319	0			
+20972	1002	Manang (Prakaa)	²lapaː ¹prĩ-	²lapaː ¹prĩ-	kick	kick			6.2.2.3.3	0320	0			
+20973	1002	Manang (Prakaa)	³r̥eː-	³r̥eː-	stand	stand			1.5.2	0321	0			145
+20974	1002	Manang (Prakaa)	³ʈu-	³ʈu-	sit	sit			6.1.1.4.1	0322	0			3596
+20975	1002	Manang (Prakaa)	¹kuː ³lətse ⁴pr̥o-	¹kuː ³lətse ⁴pr̥o-	crawl / creep	crawl / creep			6.7.9	0323	0			
+20976	1002	Manang (Prakaa)	⁴nuː-	⁴nuː-	lie / lie down	lie / lie down			8.5.10.4	0324	0			
+20977	1002	Manang (Prakaa)	⁴nuː ²rə-	⁴nuː ²rə-	sleep	sleep			1.1.4.1	0325	0			129,m
+20978	1002	Manang (Prakaa)	⁴nuː- ³cʰĩ-	⁴nuː- ³cʰĩ-	wake up	wake up			1.1.4	0326	0			129,154
+20979	1002	Manang (Prakaa)	³r̥eː-	³r̥eː-	rise / get up	rise / get up			1.1.4	0327	0			
+20980	1002	Manang (Prakaa)	³tsə-	³tsə-	eat	eat			1.5.3.2	0328	0			36
+20981	1002	Manang (Prakaa)	¹tʰuŋ-	¹tʰuŋ-	drink	drink				0329	0			502
+20982	1002	Manang (Prakaa)	¹mrẽ-	¹mrẽ-	drunken, be	drunken, be			1.3.5.9	0330	0			
+20983	1002	Manang (Prakaa)	¹pʰwo ³krẽ-	¹pʰwo ³krẽ-	starve / hungry, be	starve / hungry, be			1.1.3	0331	0			m,106
+20984	1002	Manang (Prakaa)	³kom◦te ³kʰə-	³kom◦te ³kʰə-	thirsty, be	thirsty, be			1.1.3.1	0332	0			116,m,m
+20985	1002	Manang (Prakaa)	²sə-	²sə-	like	like			8.3.1.1.1	0333	0			
+20986	1002	Manang (Prakaa)	²ʔasə-	²ʔasə-	dislike	dislike			8.3.1.1.2	0334	0			
+20987	1002	Manang (Prakaa)	¹neː-	¹neː-	rot / rotten, become	rot / rotten, become			3.1.10	0335	0			
+20988	1002	Manang (Prakaa)	¹tʰi-	¹tʰi-	crack / smash	crack / smash			3.2.7	0336a	0			
+20989	1002	Manang (Prakaa)	¹pəti ⁴yə-	¹pəti ⁴yə-	crack / smash	crack / smash			3.2.7	0336b	0			
+20990	1002	Manang (Prakaa)	¹pʰyaŋ-	¹pʰyaŋ-	fly	fly			2.2.6	0337	0			
+20991	1002	Manang (Prakaa)	⁴cal ¹ti-	⁴cal ¹ti-	swim	swim			6.6	0338	0			
+20992	1002	Manang (Prakaa)	³pʰiri ³ʈu-	³pʰiri ³ʈu-	drift / float	drift / float			6.6.1	0339	0			
+20993	1002	Manang (Prakaa)	²naŋri ⁴yə-	²naŋri ⁴yə-	sink	sink			6.6	0340a	0			
+20994	1002	Manang (Prakaa)	³tiŋri ⁴yə-	³tiŋri ⁴yə-	sink	sink			6.6	0340b	0			
+20995	1002	Manang (Prakaa)	⁴ʈaː-	⁴ʈaː-	tear	tear			1.8.8.1	0341	0			
+20996	1002	Manang (Prakaa)	⁴ʈaː-	⁴ʈaː-	torn, be	torn, be			6.9.4	0342	0			5335
+20997	1002	Manang (Prakaa)	¹pʰiː-	¹pʰiː-	peel	peel			1.5.3.2	0343	0			590
+20998	1002	Manang (Prakaa)	⁴plaːkya ²sə-	⁴plaːkya ²sə-	crush	crush			9.5	0344	0			
+20999	1002	Manang (Prakaa)	¹r̥aŋ-	¹r̥aŋ-	roast	roast			5.5	0345	0			
+21000	1002	Manang (Prakaa)	⁴tsu-	⁴tsu-	boil / cook	boil / cook			6.6	0346	0			
+21001	1002	Manang (Prakaa)	³pyuː ⁴yə-	³pyuː ⁴yə-	drive / run after	drive / run after			6.7.10	0347	0			
+21002	1002	Manang (Prakaa)	¹laː ⁴yə-	¹laː ⁴yə-	escape / run away	escape / run away			6.7.2	0348a	0			
+21003	1002	Manang (Prakaa)	¹laː-	¹laː-	escape / run away	escape / run away			6.7.2	0348b	0			
+21004	1002	Manang (Prakaa)	³seː-	³seː-	kill	kill			6.4	0349	0			1018
+21005	1002	Manang (Prakaa)	⁴pʰəteː ¹prĩ-	⁴pʰəteː ¹prĩ-	tie	tie			6.13.1	0350	0			
+21006	1002	Manang (Prakaa)	⁴pʰəteː ⁴pl̥o-	⁴pʰəteː ⁴pl̥o-	release / untie	release / untie			6.10.1	0351	0			
+21007	1002	Manang (Prakaa)	⁴pʰəteː ¹piː-	⁴pʰəteː ¹piː-	set free	set free			6.17	0352a	0			
+21008	1002	Manang (Prakaa)	³kyataː ¹piː-	³kyataː ¹piː-	set free	set free			6.17	0352b	0			
+21009	1002	Manang (Prakaa)	⁴ʈʰu-	⁴ʈʰu-	sew	sew			5.1	0353	0			2627
+21010	1002	Manang (Prakaa)	¹r̥u-	¹r̥u-	wash	wash			6.2.2.5.2	0354	0			2344
+21011	1002	Manang (Prakaa)	¹pʰyaː-	¹pʰyaː-	wipe	wipe			6.2.2.1	0355	0			2587
+21012	1002	Manang (Prakaa)	³kwẽ-	³kwẽ-	wear / put on	wear / put on			6.2.2.1	0356	0			2256
+21013	1002	Manang (Prakaa)	¹pʰĩ-	¹pʰĩ-	take off	take off			6.21	0357	0			
+21014	1002	Manang (Prakaa)	²pri-	²pri-	write	write			6.2.2.9.1	0358	0			2616
+21015	1002	Manang (Prakaa)	³ʈoː-	³ʈoː-	read	read			6.2.2.9.3	0359	0			
+21016	1002	Manang (Prakaa)	³loː-	³loː-	instruct / teach	instruct / teach			6.19	0360	0			5433
+21017	1002	Manang (Prakaa)	³tuː-	³tuː-	cut	cut			6.9.3	0361	0			
+21018	1002	Manang (Prakaa)	²sə-	²sə-	make	make			6.14	0362	0			
+21019	1002	Manang (Prakaa)	³pʰaŋ-	³pʰaŋ-	open	open			6.2.2.6.1	0363	0			5704
+21020	1002	Manang (Prakaa)	¹prĩ-	¹prĩ-	close	close			6.2.2.6.2	0364	0			
+21021	1002	Manang (Prakaa)	³ʈu-	³ʈu-	live / dwell	live / dwell			1.1.2.1	0365	0			3602
+21022	1002	Manang (Prakaa)	⁴kʰye ³lə-	⁴kʰye ³lə-	work	work			6.1.1	0366	0			5827
+21023	1002	Manang (Prakaa)	³tʰaŋ ³cʰeː-	³tʰaŋ ³cʰeː-	tired, be	tired, be			9.6.2.2	0367	0			
+21024	1002	Manang (Prakaa)	²pleː ³saŋ-	²pleː ³saŋ-	repose / rest, take	repose / rest, take			6.1.1.4	0368a	0			
+21025	1002	Manang (Prakaa)	²pleː-	²pleː-	repose / rest, take	repose / rest, take			6.1.1.4	0368b	0			
+21026	1002	Manang (Prakaa)	⁴kʰyu-	⁴kʰyu-	buy / purchase	buy / purchase			6.22	0369	0			
+21027	1002	Manang (Prakaa)	¹tsuŋ-	¹tsuŋ-	sell	sell			6.22	0370	0			
+21028	1002	Manang (Prakaa)	³yaŋ-	³yaŋ-	get / obtain	get / obtain			1.1.5	0371	0			
+21029	1002	Manang (Prakaa)	³kʰu-	³kʰu-	steal	steal			6.2.2.1	0372a	0			
+21030	1002	Manang (Prakaa)	⁴yo ³kʰu-	⁴yo ³kʰu-	steal	steal			6.2.2.1	0372b	0			
+21031	1002	Manang (Prakaa)	³ɲẽ-	³ɲẽ-	lend	lend			6.22	0373	0			
+21032	1002	Manang (Prakaa)	³ɲẽ-	³ɲẽ-	borrow	borrow			6.22	0374	0			
+21033	1002	Manang (Prakaa)	¹mĩ-	¹mĩ-	ripe, become / ripen	ripe, become / ripen			3.1.10	0375	0			2449
+21034	1002	Manang (Prakaa)	³kiː-	³kiː-	break	break			9.5	0376	0			
+21035	1002	Manang (Prakaa)	⁴yo-	⁴yo-	shake	shake			6.7.9	0377	0			
+21036	1002	Manang (Prakaa)	¹tiː-	¹tiː-	take / adopt	take / adopt			6.21	0378a	0			
+21037	1002	Manang (Prakaa)	³ʈʰu-	³ʈʰu-	take / adopt	take / adopt			6.21	0378b	0			
+21038	1002	Manang (Prakaa)	¹te-	¹te-	dig	dig			6.11	0379	0			
+21039	1002	Manang (Prakaa)	⁴pr̥o-	⁴pr̥o-	flow / stream	flow / stream			6.6.1	0380	0			
+21040	1002	Manang (Prakaa)	³kreː-	³kreː-	climb	climb			6.7.7	0381	0			
+21041	1002	Manang (Prakaa)	¹kyoroː ⁴yə-	¹kyoroː ⁴yə-	climb down / descend	climb down / descend			6.7.7	0382	0			
+21042	1002	Manang (Prakaa)	²kaŋroː ⁴yə-	²kaŋroː ⁴yə-	ascend / rise	ascend / rise			6.7.7	0383a	0			
+21043	1002	Manang (Prakaa)	¹pʰyaː-	¹pʰyaː-	ascend / sunrise	ascend / sunrise			6.7.7	0383b	0			
+21044	1002	Manang (Prakaa)	⁴pʰəteː ⁴yə-	⁴pʰəteː ⁴yə-	fall	fall			6.1.1.4.2	0384a	0			
+21045	1002	Manang (Prakaa)	³pʰeː-	³pʰeː-	fall / sunset	fall / sunset			6.1.1.4.2	0384b	0			
+21046	1002	Manang (Prakaa)	¹luŋ-	¹luŋ-	burn / blaze	burn / blaze			3.2.12.1	0385	0			
+21047	1002	Manang (Prakaa)	³l̥aː◦pə ³kʰə-	³l̥aːpə ³kʰə-	blow (wind)	blow (wind)			1.3.1.4	0386a	0			2412,m,m
+21048	1002	Manang (Prakaa)	²pʰu ³lə-	²pʰu ³lə-	blow (breath)	blow (breath)			1.3.1.4	0386b	0			75,1744
+21049	1002	Manang (Prakaa)	³mwo ¹yu-	³mwo ¹yu-	rain	rain			3.2.1	0387	0			2473,531
+21050	1002	Manang (Prakaa)	³tyelaː ³tə-	³tyelaː ³tə-	wet, get / damp	wet, get / damp			6.6	0388	0			
+21051	1002	Manang (Prakaa)	³kʰərkyaː ³tə-	³kʰərkyaː ³tə-	dry	dry			6.6	0389	0			
+21052	1002	Manang (Prakaa)	¹tsʰuŋ-	¹tsʰuŋ-	hide / conceal	hide / conceal			1.6.5.1	0390	0			x
+21053	1002	Manang (Prakaa)	³caː-	³caː-	search	search			6.2.2.2	0391	0			
+21054	1002	Manang (Prakaa)	³yaŋ-	³yaŋ-	find	find			6.21	0392	0			
+21055	1002	Manang (Prakaa)	⁴cʰaː-	⁴cʰaː-	reckon	reckon			8.3.1.13.1	0393	0			
+21056	1002	Manang (Prakaa)	²nə-	²nə-	bear	bear			2.2.3	0394	0			
+21057	1002	Manang (Prakaa)	²nə-	²nə-	born, be	born, be			1.1.2	0395	0			1863
+21058	1002	Manang (Prakaa)	³tʰyepə ³tə-	³tʰyepə ³tə-	grow up	grow up			9.7.2	0396	0			
+21059	1002	Manang (Prakaa)	³ɕi-	³ɕi-	die	die			1.1.6	0397	0			27
+21060	1002	Manang (Prakaa)	³ʈu-	³ʈu-	live	live			1.1.2.1	0398	0			3602
+21061	1002	Manang (Prakaa)	³kyaŋ-	³kyaŋ-	play	play			6.1.1.3	0399	0			5707
+21062	1002	Manang (Prakaa)	²roː ³lə-	²roː ³lə-	help / assist	help / assist			6.2.2.1	0400	0			
+21063	1002	Manang (Prakaa)	²kuː-	²kuː-	wait	wait			6.1.1.6	0401	0			
+21064	1002	Manang (Prakaa)	²to-	²to-	meet	meet			6.2	0402	0			5689
+21065	1002	Manang (Prakaa)	⁴maː ³lə-	⁴maː ³lə-	fight	fight			6.5	0403	0			
+21066	1002	Manang (Prakaa)	²kyel-	²kyel-	win	win			6.19	0404	0			
+21067	1002	Manang (Prakaa)	²preː-	²preː-	lose / defeated, be	lose / defeated, be			6.10.1	0405	0			
+21068	1002	Manang (Prakaa)	³naŋsẽ ³toŋ-	³naŋsẽ ³toŋ-	think	think			8.3.1.13.1	0406	0			
+21069	1002	Manang (Prakaa)	¹ɕo◦mleː ⁴yə-	¹ɕomleː ⁴yə-	forget	forget			8.3.1.16.1	0407a	0			m,2395,m
+21070	1002	Manang (Prakaa)	¹ɕo◦mleː	¹ɕomleː	forget	forget			8.3.1.16.1	0407b	0			m,2395
+21071	1002	Manang (Prakaa)	³tʰẽ-	³tʰẽ-	set / put	set / put			6.17	0408	0			
+21072	1002	Manang (Prakaa)	³pʰuŋ-	³pʰuŋ-	ride / mount	ride / mount			6.2	0409	0			
+21073	1002	Manang (Prakaa)	²tuŋ-	²tuŋ-	come out	come out			6.7.2	0410	0			2199
+21074	1002	Manang (Prakaa)	²ɕuː-	²ɕuː-	enter	enter			6.7.1	0411	0			
+21075	1002	Manang (Prakaa)	³kʰə-	³kʰə-	come	come			6.7.1	0412a	0			
+21076	1002	Manang (Prakaa)	³pʰeː-	³pʰeː-	come	come			6.7.1	0412b	0			
+21077	1002	Manang (Prakaa)	¹yu-	¹yu-	come (from upside)	come (from upside)			6.7.1	0412c	0			
+21078	1002	Manang (Prakaa)	⁴yə-	⁴yə-	go	go			6.7.2	0413	0			
+21079	1002	Manang (Prakaa)	¹r̥ul ³lə-	¹r̥ul ³lə-	collect / gather	collect / gather			6.21	0414	0			
+21080	1002	Manang (Prakaa)	²ʈeː-	²ʈeː-	mix / blend	mix / blend			6.13.4	0415	0			
+21081	1002	Manang (Prakaa)	⁴kokor ³lə-	⁴kokor ³lə-	move	move	v.i.	v.i.	6.7.11	0416	0			
+21082	1002	Manang (Prakaa)	³tə-	³tə-	suit / fit	suit / fit			5.11.8.2.1	0417	0			
+21083	1002	Manang (Prakaa)	³pĩ-	³pĩ-	give	give			6.23	0418	0			2158
+21084	1002	Manang (Prakaa)	³lə-	³lə-	do	do			6.1.1.1	0419	0			
+21085	1002	Manang (Prakaa)	³naŋsẽ ³kʰə-	³naŋsẽ ³kʰə-	think	think			8.3.1.13.1	0420	0			
+21086	1002	Manang (Prakaa)	¹ɕiː-	¹ɕiː-	know	know			8.3.1.12.1	0421	0			2670
+21087	1002	Manang (Prakaa)	- p ³saŋ ³kʰə-	- p ³saŋ ³kʰə-	desire / wish for	desire / wish for			8.3.1.14.3	0422	0			
+21088	1002	Manang (Prakaa)	- la ²rẽ	- la ²rẽ	can / possible, be	can / possible, be			10.2.2	0423	0			
+21089	1002	Manang (Prakaa)	³mwo-	³mwo-	exist	exist			1.1.2.3	0424	0			
+21090	1002	Manang (Prakaa)	³mwo-	³mwo-	stay	stay			6.7.11	0425	0			
+21091	1002	Manang (Prakaa)	⁴ʔare	⁴ʔare	not / nonexistent	not / nonexistent			1.5.3.2	0426	0			
+21092	1002	Manang (Prakaa)	³tʰyepə	³tʰyepə	big / large	big / large			9.7.2	0427a	0			
+21093	1002	Manang (Prakaa)	²wo ³tʰyepə	²wo ³tʰyepə	big / large	big / large			9.7.2	0427b	0			
+21094	1002	Manang (Prakaa)	²preːtsə	²preːtsə	little / small	little / small			9.7.2	0428	0			
+21095	1002	Manang (Prakaa)	³tʰyepə	³tʰyepə	high (stature)	high (stature)			7.1.5.3	0429a	0			
+21096	1002	Manang (Prakaa)	²ruŋpə	²ruŋpə	high (tree, person)	high (tree, person)			7.1.5.3	0429b	0			
+21097	1002	Manang (Prakaa)	¹nopə	¹nopə	high (building)	high (building)			7.1.5.3	0429c	0			
+21098	1002	Manang (Prakaa)	³puturu	³puturu	low (stature)	low (stature)			7.1.5.3	0430a	0			
+21099	1002	Manang (Prakaa)	¹məpə	¹məpə	low	low			7.1.5.3	0430b	0			
+21100	1002	Manang (Prakaa)	⁴mre◦pə	⁴mre◦pə	fat	fat			1.6.4	0431	0			1452,s
+21101	1002	Manang (Prakaa)	²kuːpə	²kuːpə	lean	lean	v.	v.	1.1.1	0432	0			x
+21102	1002	Manang (Prakaa)	¹r̥uŋpə	¹r̥uŋpə	thick	thick			9.7.2	0433	0			
+21103	1002	Manang (Prakaa)	³pə◦pə	³pəpə	thin	thin			9.7.2	0434	0			5551,5551
+21104	1002	Manang (Prakaa)	²li◦pə	²lipə	heavy	heavy			9.6.2	0435	0			2415,s
+21105	1002	Manang (Prakaa)	¹ɲaŋpə	¹ɲaŋpə	light	light			7.1.11.1	0436	0			
+21106	1002	Manang (Prakaa)	³ɕeː ³tʰyepə	³ɕeː ³tʰyepə	strong	strong			9.6.1.1	0437	0			
+21107	1002	Manang (Prakaa)	⁴pʰaŋ ⁴ʔarupə	⁴pʰaŋ ⁴ʔarupə	weak	weak			1.1.5	0438	0			
+21108	1002	Manang (Prakaa)	²ʔatyepə	²ʔatyepə	sore / painful	sore / painful			1.1.5.1	0439	0			
+21109	1002	Manang (Prakaa)	²kyoŋ◦pə	²kyoŋ◦pə	hard	hard			9.6.2	0440	0			185,s
+21110	1002	Manang (Prakaa)	²pwʰolpə	²pwʰolpə	soft	soft			7.1.4.2	0441	0			
+21111	1002	Manang (Prakaa)	³ki ³kyəpə	³ki ³kyəpə	sweet	sweet			7.1.4.4	0442	0			
+21112	1002	Manang (Prakaa)	⁴tsətsə ²sampə	⁴tsətsə ²sampə	salty	salty			3.2.4	0443	0			
+21113	1002	Manang (Prakaa)	³mətsə ¹tsʰəpə	³mətsə ¹tsʰəpə	hot / pungent	hot / pungent				0444	0			
+21114	1002	Manang (Prakaa)	³kyẽpə	³kyẽpə	bitter	bitter			7.1.4.4	0445	0			
+21115	1002	Manang (Prakaa)	²kyoːpə	²kyoːpə	fast / quick	fast / quick			9.6.1.1	0446	0			
+21116	1002	Manang (Prakaa)	⁴koleː	⁴koleː	slow	slow			9.6.2.1	0447	0			
+21117	1002	Manang (Prakaa)	²kikil	²kikil	round	round			9.7.1	0448a	0			
+21118	1002	Manang (Prakaa)	⁴kwor	⁴kwor	round	round			9.7.1	0448b	0			5748
+21119	1002	Manang (Prakaa)	¹cʰərmu	¹cʰərmu	sharp / acute	sharp / acute			6.9.2	0449	0			
+21120	1002	Manang (Prakaa)	⁴ʔacʰarmu	⁴ʔacʰarmu	blunt / dull	blunt / dull			7.1.5.1	0450	0			
+21121	1002	Manang (Prakaa)	²cʰemu	²cʰemu	smooth	smooth			7.1.4.2	0451a	0			
+21122	1002	Manang (Prakaa)	²cʰẽpə	²cʰẽpə	smooth	smooth			7.1.4.2	0451b	0			
+21123	1002	Manang (Prakaa)	¹tʰənye	¹tʰənye	straight	straight			7.1.5.1	0452	0			
+21124	1002	Manang (Prakaa)	¹ŋuʔi ³tsaŋ◦pə	¹ŋuʔi ³tsaŋpə	pretty / clean	pretty / clean			7.1.3	0453a	0			m,2745,s
+21125	1002	Manang (Prakaa)	³tsaŋ◦pə	³tsaŋpə	pretty / clean	pretty / clean			7.1.3	0453b	0			2745,s
+21126	1002	Manang (Prakaa)	²tʰi ³lə-	²tʰi ³lə-	pretty	pretty			7.1.3	0453c	0			
+21127	1002	Manang (Prakaa)	⁴ʔatsaŋpa	⁴ʔatsaŋpa	dirty	dirty			3.2.11	0454a	0			
+21128	1002	Manang (Prakaa)	¹ŋuʔi ⁴ʔatsaŋpə	¹ŋuʔi ⁴ʔatsaŋpə	dirty	dirty			3.2.11	0454b	0			
+21129	1002	Manang (Prakaa)	²ʔu◦ruŋ◦pə	²ʔu◦ruŋ◦pə	long	long			9.7.2	0455a	0			m,1011,m
+21130	1002	Manang (Prakaa)	²ruŋ◦pə	²ruŋ◦pə	long	long			9.7.2	0455b	0			1011,m
+21131	1002	Manang (Prakaa)	³r̥uŋpə	³r̥uŋpə	brief / short	brief / short			9.1.1	0456	0			
+21132	1002	Manang (Prakaa)	³tʰaː ²ruŋpə	³tʰaː ²ruŋpə	distant / far	distant / far			9.2.7	0457	0			
+21133	1002	Manang (Prakaa)	⁴ɲe◦pə	⁴ɲepə	near	near			9.2.3	0458	0			2496,m
+21134	1002	Manang (Prakaa)	⁴kʰye ³tʰyepə	⁴kʰye ³tʰyepə	broad / wide	broad / wide			7.1.5.1	0459a	0			
+21135	1002	Manang (Prakaa)	⁴kʰye ²yaŋpə	⁴kʰye ²yaŋpə	broad / wide	broad / wide			7.1.5.1	0459b	0			
+21136	1002	Manang (Prakaa)	²toːpə	²toːpə	narrow	narrow			9.7.2	0460a	0			
+21137	1002	Manang (Prakaa)	⁴kʰye ²toːpə	⁴kʰye ²toːpə	narrow	narrow			9.7.2	0460b	0			
+21138	1002	Manang (Prakaa)	³tsʰeːpə ³kʰəpə	³tsʰeːpə ³kʰəpə	hot	hot				0461	0			
+21139	1002	Manang (Prakaa)	¹kʰaŋpə	¹kʰaŋpə	cold / chilly	cold / chilly			7.1.2.3	0462	0			
+21140	1002	Manang (Prakaa)	²ʈe ³kʰəpə	²ʈe ³kʰəpə	warm	warm			7.1.2.3	0463a	0			
+21141	1002	Manang (Prakaa)	⁴ʈʰopə	⁴ʈʰopə	warm	warm			7.1.2.3	0463b	0			
+21142	1002	Manang (Prakaa)	²plaːpə	²plaːpə	cold / freezing	cold / freezing			7.1.2.3	0464	0			
+21143	1002	Manang (Prakaa)	²syẽpə	²syẽpə	young	young			7.1.8.3	0465	0			
+21144	1002	Manang (Prakaa)	²nəsə ⁴yəpə	²nəsə ⁴yəpə	old / aged	old / aged			7.1.8.3	0466	0			
+21145	1002	Manang (Prakaa)	³sẽpə	³sẽpə	new	new			9.6.1.1	0467	0			
+21146	1002	Manang (Prakaa)	³ɲĩpə	³ɲĩpə	old / ancient	old / ancient			7.1.8.3	0468	0			
+21147	1002	Manang (Prakaa)	²tsaː ³ʈutseː	²tsaː ³ʈutseː	always	always			9.1.1	0469	0			
+21148	1002	Manang (Prakaa)	¹neː ³mwo◦pə	¹neː ³mwo◦pə	full	full			1.1.3.2	0470	0			5715,m,s
+21149	1002	Manang (Prakaa)	⁴kaː ²ti	⁴kaː ²ti	many	many			9.9	0471	0			
+21150	1002	Manang (Prakaa)	⁴tsaː ²pri	⁴tsaː ²pri	few	few			9.9	0472	0			
+21151	1002	Manang (Prakaa)	⁴tsʰaːraŋ	⁴tsʰaːraŋ	all	all			9.9	0473	0			
+21152	1002	Manang (Prakaa)	³tʰaŋ ³səl◦pə	³tʰaŋ ³səlpə	bright / light	bright / light			7.1.11.1	0474a	0			m,156,s
+21153	1002	Manang (Prakaa)	³tʰoŋ ³səl◦pə	³tʰoŋ ³səlpə	bright / light	bright / light			7.1.11.1	0474b	0			m,156,s
+21154	1002	Manang (Prakaa)	²mun◦naː	²munnaː	dark	dark			9.4	0475	0			522,m
+21155	1002	Manang (Prakaa)	²we	²we	light / ray	light / ray			7.1.11.1	0476	0			2271
+21156	1002	Manang (Prakaa)	³tərkya	³tərkya	white	white			9.4	0477	0			m
+21157	1002	Manang (Prakaa)	³mlã◦kya	³mlãkya	black	black			9.4	0478	0			6130,m
+21158	1002	Manang (Prakaa)	³wolkya	³wolkya	red	red			9.4	0479	0			
+21159	1002	Manang (Prakaa)	³pĩkya	³pĩkya	blue	blue			9.4	0480	0			
+21160	1002	Manang (Prakaa)	²caŋku	²caŋku	green	green			9.4	0481	0			
+21161	1002	Manang (Prakaa)	³ʔurkya	³ʔurkya	yellow	yellow			9.4	0482	0			
+21162	1002	Manang (Prakaa)	¹tsʰeː	¹tsʰeː	colour	colour			9.4	0483	0			
+21163	1002	Manang (Prakaa)	²kyeːpə	²kyeːpə	beautiful / fine	beautiful / fine			7.1.3	0484	0			
+21164	1002	Manang (Prakaa)	²səpə	²səpə	good	good			9.6.1.1	0485	0			
+21165	1002	Manang (Prakaa)	²ʔasəpə	²ʔasəpə	wrong	wrong			9.6.2.1	0486	0			
+21166	1002	Manang (Prakaa)	²ŋotoː	²ŋotoː	right / correct	right / correct			1.5.3.2	0487	0			
+21167	1002	Manang (Prakaa)	⁴r̥iː	⁴r̥iː	same	same			7.1.7.2	0488a	0			
+21168	1002	Manang (Prakaa)	³coː ²coŋpə	³coː ²coŋpə	same	same			7.1.7.2	0488b	0			
+21169	1002	Manang (Prakaa)	²raŋtse	²raŋtse	different	different			7.1.7.1	0489	0			
+21170	1002	Manang (Prakaa)	⁴lakyẽ	⁴lakyẽ	again	again			10.1	0490	0			
+21171	1002	Manang (Prakaa)	- kyena	- kyena	if	if			10.1.2.2	0491	0			
+21172	1002	Manang (Prakaa)	³kəso	³kəso	yes	yes			1.5.3.2	0492a	0			
+21173	1002	Manang (Prakaa)	⁴ʔorcʰeː	⁴ʔorcʰeː	yes	yes			1.5.3.2	0492b	0			
+21174	1002	Manang (Prakaa)	⁴ʔətə	⁴ʔətə	no	no			10.6.2	0493	0			
+21175	1002	Manang (Prakaa)	³pʰeːkə ²ciː	³pʰeːkə ²ciː	good day	good day			9.6.1.1	0494a	0			
+21176	1002	Manang (Prakaa)	²tẽ ³cʰatse ²moː	²tẽ ³cʰatse ²moː	good day	good day			9.6.1.1	0494b	0			
+21177	1002	Manang (Prakaa)	⁴koleː ³pʰeːto ²ʔoː	⁴koleː ³pʰeːto ²ʔoː	good-bye / bye-bye	good-bye / bye-bye			8.5.11	0495a	0			
+21178	1002	Manang (Prakaa)	²tẽ ³cʰaːto ²ʔoː	²tẽ ³cʰaːto ²ʔoː	good-bye / bye-bye	good-bye / bye-bye			8.5.11	0495b	0			
+21179	1002	Manang (Prakaa)	⁴ri	⁴ri	at	at			10.0	0496	0			
+21180	1002	Manang (Prakaa)	³ne	³ne	and	and			10.1.2.1	0497	0			
+21181	1002	Manang (Prakaa)	⁴yoŋ	⁴yoŋ	with / together / along with	with / together / along with			10.1.1	0498	0			
+21182	1002	Manang (Prakaa)	⁴yĩ	⁴yĩ	be / is / are	be / is / are	be v.	be v.	10.4.1.1	0499a	0			
+21183	1002	Manang (Prakaa)	³tẽ	³tẽ	be / is / are	be / is / are	be v.	be v.	10.4.1.1	0499b	0			
+21184	1002	Manang (Prakaa)	⁴ʔayĩ	⁴ʔayĩ	not	not			1.5.3.2	0500a	0			
+21185	1002	Manang (Prakaa)	⁴ʔala	⁴ʔala	not	not			1.5.3.2	0500b	0			
+21186	1002	Manang (Prakaa)	³ɕa◦kri	³ɕa◦kri	brain	brain			1.2.4	0501	0			464,m
+21187	1002	Manang (Prakaa)	³yaː◦pla	³yaː◦pla	palm	palm			1.5.5	0502a	0			696,776
+21188	1002	Manang (Prakaa)	³pla	³pla	palm	palm			1.5.5	0502b	0			
+21189	1002	Manang (Prakaa)	³cʰamnaŋ	³cʰamnaŋ	fist	fist			1.5.1.1.1	0503a	0			
+21190	1002	Manang (Prakaa)	³yaː◦cʰamnaŋ	³yaː◦cʰamnaŋ	fist	fist			1.5.1.1.1	0503b	0			696,m
+21191	1002	Manang (Prakaa)	³ɕye◦mo	³ɕye◦mo	muscle	muscle			1.6.6.2	0504	0			m,s
+21192	1002	Manang (Prakaa)	²kyəpə	²kyəpə	lung	lung			1.7.2	0505	0			
+21193	1002	Manang (Prakaa)	¹kyʰe	¹kyʰe	kidney	kidney			1.7.5	0506	0			207
+21194	1002	Manang (Prakaa)	⁴lə̃◦ku	⁴lə̃◦ku	stomach (human)	stomach (human)			1.7.6	0507a	0			3460,m
+21195	1002	Manang (Prakaa)	³ɕə◦pə	³ɕə◦pə	stomach (animal)	stomach (animal)			1.7.6	0507b	0			1390,s
+21196	1002	Manang (Prakaa)	³ki	³ki	feces / stool	feces / stool			1.8.5	0508	0			572
+21197	1002	Manang (Prakaa)	³kuŋ	³kuŋ	urine	urine			1.8.4	0509	0			656
+21198	1002	Manang (Prakaa)	²mle	²mle	penis	penis				0510	0			1284
+21199	1002	Manang (Prakaa)	³tu	³tu	pubes / pubenda	pubes / pubenda			1.9.1	0511	0			
+21200	1002	Manang (Prakaa)	²kunʈulu	²kunʈulu	nudity	nudity			1.1.1	0512	0			
+21201	1002	Manang (Prakaa)	³kʰiːpə	³kʰiːpə	sneeze	sneeze			1.8.2.1	0513	0			
+21202	1002	Manang (Prakaa)	³l̥lo	³l̥lo	cough	cough			1.8.3.3	0514	0			
+21203	1002	Manang (Prakaa)	¹kʰyẽpə	¹kʰyẽpə	yawn	yawn			1.3.1.3	0515	0			
+21204	1002	Manang (Prakaa)	³r̥oː	³r̥oː	life	life			1.1.2.1	0516	0			81
+21205	1002	Manang (Prakaa)	⁴tuk	⁴tuk	poison	poison			6.4	0517	0			2202
+21206	1002	Manang (Prakaa)	¹kyẽ	¹kyẽ	rice (boiled)	rice (boiled)			3.1.4	0518	0			
+21207	1002	Manang (Prakaa)	²kyaŋ	²kyaŋ	bread	bread			5.5	0519	0			
+21208	1002	Manang (Prakaa)	¹ʔalo	¹ʔalo	potato	potato			3.1.5	0520	0			b
+21209	1002	Manang (Prakaa)	²ʈu	²ʈu	corn / grain	corn / grain			3.1.4	0521	0			
+21210	1002	Manang (Prakaa)	³meːtaː	³meːtaː	flour	flour			3.1.6.2	0522	0			
+21211	1002	Manang (Prakaa)	¹kʰanʈi	¹kʰanʈi	sugar	sugar			3.1.6.2	0523	0			
+21212	1002	Manang (Prakaa)	³kʰotsol	³kʰotsol	cake	cake			5.5	0524	0			
+21213	1002	Manang (Prakaa)	¹tʰuŋ◦pə	¹tʰuŋ◦pə	drink	drink	n.	n.		0525	0			502,s
+21214	1002	Manang (Prakaa)	²ceː	²ceː	tea	tea			3.1.1	0526	0			
+21215	1002	Manang (Prakaa)	¹kyu ¹tsəpə	¹kyu ¹tsəpə	hot water	hot water				0527	0			
+21216	1002	Manang (Prakaa)	²ɲeː	²ɲeː	milk	milk				0528	0			254
+21217	1002	Manang (Prakaa)	³kuni	³kuni	vegetable	vegetable			3.1.2	0529	0			
+21218	1002	Manang (Prakaa)	⁴kolo	⁴kolo	beans	beans			3.1.4	0530	0			
+21219	1002	Manang (Prakaa)	⁴r̥o	⁴r̥o	wheat	wheat			3.1.4	0531a	0			
+21220	1002	Manang (Prakaa)	³karu	³karu	barley	barley			3.1.4	0531b	0			
+21221	1002	Manang (Prakaa)	¹sĩ	¹sĩ	paddy plant	paddy plant			9.10.5	0532	0			
+21222	1002	Manang (Prakaa)	²sərki ⁴tsəpə	²sərki ⁴tsəpə	meal	meal			5.5	0533	0			
+21223	1002	Manang (Prakaa)	²ru◦puŋ	²ru◦puŋ	hare / rabbit	hare / rabbit			2.1.1	0534a	0			6076,1432
+21224	1002	Manang (Prakaa)	²ri◦puŋ	²ri◦puŋ	hare / rabbit	hare / rabbit			2.1.1	0534b	0			6076,1432
+21225	1002	Manang (Prakaa)	³ɲumũ	³ɲumũ	rat	rat			2.1.1	0535	0			
+21226	1002	Manang (Prakaa)	³ɕaː	³ɕaː	tusk / fang	tusk / fang			1.3.4.1	0536	0			632
+21227	1002	Manang (Prakaa)	³nokor	³nokor	cat	cat			2.1.3	0537	0			
+21228	1002	Manang (Prakaa)	³ʔati	³ʔati	crow	crow			2.2.4.1	0538	0			
+21229	1002	Manang (Prakaa)	³poro	³poro	pigeon	pigeon			2.2.4.1	0539	0			
+21230	1002	Manang (Prakaa)	³tyu◦mũ	³tyu◦mũ	monkey	monkey			2.1.9	0540	0			p,2462
+21231	1002	Manang (Prakaa)	³semcẽ	³semcẽ	beast	beast			2.3	0541	0			
+21232	1002	Manang (Prakaa)	³pʰwo	³pʰwo	male	male			1.9.6.1	0542	0			1635
+21233	1002	Manang (Prakaa)	²mwo	²mwo	female	female			1.9.3	0543	0			1620
+21234	1002	Manang (Prakaa)	²təse	²təse	victim / sacrifice	victim / sacrifice			4.2.3	0544	0			
+21235	1002	Manang (Prakaa)	³pʰu	³pʰu	trap	trap			5.14	0545	0			
+21236	1002	Manang (Prakaa)	³tsʰaŋ	³tsʰaŋ	cage / basket	cage / basket			1.4.4.3	0546	0			
+21237	1002	Manang (Prakaa)	¹tʰaːkyẽ	¹tʰaːkyẽ	box / case	box / case			5.1	0547	0			
+21238	1002	Manang (Prakaa)	²kyeː	²kyeː	lid	lid			5.1	0548	0			
+21239	1002	Manang (Prakaa)	²miʔeɕar	²miʔeɕar	match	match			5.11.5.5	0549	0			
+21240	1002	Manang (Prakaa)	¹tʰa	¹tʰa	board / plank	board / plank			5.11.9	0550	0			
+21241	1002	Manang (Prakaa)	³ɕel	³ɕel	glass	glass			5.11	0551	0			
+21242	1002	Manang (Prakaa)	²ɕelpuŋ	²ɕelpuŋ	bottle	bottle			5.1	0552	0			
+21243	1002	Manang (Prakaa)	¹tʰali	¹tʰali	plate	plate			5.5	0553	0			
+21244	1002	Manang (Prakaa)	¹kəlɕoː	¹kəlɕoː	cup	cup			5.1	0554	0			
+21245	1002	Manang (Prakaa)	⁴kʰye	⁴kʰye	spoon	spoon			5.5	0555	0			
+21246	1002	Manang (Prakaa)	²sərki ²tsupə	²sərki ²tsupə	cooking	cooking			5.5	0556	0			
+21247	1002	Manang (Prakaa)	¹kəltaːni	¹kəltaːni	scissors	scissors			5.11.5.3	0557	0			
+21248	1002	Manang (Prakaa)	²ʈʰupə	²ʈʰupə	sewing	sewing			5.1	0558	0			
+21249	1002	Manang (Prakaa)	³kaŋ◦kyi	³kaŋ◦kyi	comb	comb			1.2.2.1	0559	0			m,bNepali
+21250	1002	Manang (Prakaa)	²meːlaŋ	²meːlaŋ	looking glass / mirror	looking glass / mirror			1.2.6.11	0560	0			
+21251	1002	Manang (Prakaa)	³mẽ ¹pʰorpə	³mẽ ¹pʰorpə	toilet	toilet			5.11.9.4	0561	0			
+21252	1002	Manang (Prakaa)	³saːra ²tʰẽpə	³saːra ²tʰẽpə	tool / instrument	tool / instrument			5.11.5.4	0562	0			
+21253	1002	Manang (Prakaa)	³pulu	³pulu	hat / cap	hat / cap			5.11.8.2.1.1	0563	0			
+21254	1002	Manang (Prakaa)	³tsʰaːta	³tsʰaːta	umbrella	umbrella			5.11.8.2.2	0564	0			b?
+21255	1002	Manang (Prakaa)	⁴kʰaːnə	⁴kʰaːnə	necklace	necklace			5.11.8.3	0565	0			
+21256	1002	Manang (Prakaa)	²puʈul	²puʈul	bangle	bangle			5.11.8.3	0566	0			
+21257	1002	Manang (Prakaa)	³kʰolẽ	³kʰolẽ	ring / wheel	ring / wheel			5.11.8.3	0567	0			bTibetan
+21258	1002	Manang (Prakaa)	¹pʰiki	¹pʰiki	band / belt / sash	band / belt / sash			5.11.9	0568	0		z	
+21259	1002	Manang (Prakaa)	²noŋke	²noŋke	trousers	trousers			5.11.8.2.1.3	0569	0			
+21260	1002	Manang (Prakaa)	³poli	³poli	shoe	shoe			5.11.8.1	0570	0			
+21261	1002	Manang (Prakaa)	³tʰaŋ	³tʰaŋ	floor	floor			5.11.9.3	0571	0			
+21262	1002	Manang (Prakaa)	³coktsə	³coktsə	desk	desk			5.11.9.4	0572	0			
+21263	1002	Manang (Prakaa)	¹kʰurɕĩ	¹kʰurɕĩ	chair	chair			5.11.9.4	0573	0			
+21264	1002	Manang (Prakaa)	²tsəpe	²tsəpe	room	room			5.11.9.2	0574	0			
+21265	1002	Manang (Prakaa)	²ta	²ta	pillar	pillar			5.11.9.3.1	0575	0			
+21266	1002	Manang (Prakaa)	³ʈəʈi	³ʈəʈi	lavatory / privy	lavatory / privy			5.11	0576	0			
+21267	1002	Manang (Prakaa)	³pʰyaːpə	³pʰyaːpə	cleaning	cleaning			6.2.2.5.2	0577	0			
+21268	1002	Manang (Prakaa)	¹mre	¹mre	gate	gate			5.11.9.5	0578a	0			
+21269	1002	Manang (Prakaa)	⁴ko	⁴ko	gate	gate			5.11.9.5	0578b	0			
+21270	1002	Manang (Prakaa)	¹mre ⁴ko	¹mre ⁴ko	gate	gate			5.11.9.5	0578c	0			
+21271	1002	Manang (Prakaa)	²tore	²tore	tomb	tomb			9.10.6	0579	0			
+21272	1002	Manang (Prakaa)	²naraː	²naraː	funeral ceremony	funeral ceremony			5.8	0580	0			
+21273	1002	Manang (Prakaa)	⁴mər	⁴mər	gold	gold			3.2.4	0581	0			1470
+21274	1002	Manang (Prakaa)	⁴muʔ◦iɕə	⁴muʔiɕə	silver	silver			3.2.4	0582	0			5519,m
+21275	1002	Manang (Prakaa)	²kʰyor	²kʰyor	copper	copper			3.2.4	0583	0			
+21276	1002	Manang (Prakaa)	¹pʰeː	¹pʰeː	iron	iron			3.2.4	0584	0			
+21277	1002	Manang (Prakaa)	³miɕĩ	³miɕĩ	machine	machine			5.1	0585	0			
+21278	1002	Manang (Prakaa)	³moʈor	³moʈor	car / automobile / motor-car	car / automobile / motor-car			5.1	0586	0			bEnglish
+21279	1002	Manang (Prakaa)	⁴lakcʰə	⁴lakcʰə	arms / weapon	arms / weapon			1.5.1.2	0587	0			
+21280	1002	Manang (Prakaa)	²taŋtu	²taŋtu	drum	drum			5.1	0588	0			
+21281	1002	Manang (Prakaa)	³yerkə	³yerkə	bell	bell			5.1	0589	0			
+21282	1002	Manang (Prakaa)	²kiliŋ	²kiliŋ	flute	flute			5.1	0590	0			2242
+21283	1002	Manang (Prakaa)	²tuŋtar	²tuŋtar	banner / flag	banner / flag			5.11	0591a	0			
+21284	1002	Manang (Prakaa)	²tarɕoː	²tarɕoː	prayer flag	prayer flag			5.8.3.1	0591b	0			
+21285	1002	Manang (Prakaa)	⁴kyəproː	⁴kyəproː	ally	ally			5.8	0592	0			
+21286	1002	Manang (Prakaa)	⁴r̥ə	⁴r̥ə	enemy	enemy			4.2.6	0593	0			
+21287	1002	Manang (Prakaa)	⁴maː	⁴maː	war / warfare	war / warfare			5.15	0594	0			257
+21288	1002	Manang (Prakaa)	³miʔe ⁴yəpə	³miʔe ⁴yəpə	burning / fire	burning / fire			3.2.12.1	0595	0			
+21289	1002	Manang (Prakaa)	²loyoː	²loyoː	punishment	punishment			6.2.2.1	0596	0			
+21290	1002	Manang (Prakaa)	³r̥əl	³r̥əl	tax	tax			5.9	0597	0			
+21291	1002	Manang (Prakaa)	¹seː	¹seː	price / cost	price / cost			5.9	0598	0			
+21292	1002	Manang (Prakaa)	³ɕuɕoː ²puk	³ɕuɕoː ²puk	book	book			5.1	0599a	0			
+21293	1002	Manang (Prakaa)	²cʰeː	²cʰeː	book (sutras)	book (sutras)			5.1	0599b	0			
+21294	1002	Manang (Prakaa)	³pyepər	³pyepər	newspaper	newspaper			5.1	0600	0			
+21295	1002	Manang (Prakaa)	²rimə	²rimə	drawing / painting / picture	drawing / painting / picture			5.8	0601	0			
+21296	1002	Manang (Prakaa)	²yikə	²yikə	letter / mail	letter / mail			5.1	0602	0			
+21297	1002	Manang (Prakaa)	²laŋpə	²laŋpə	talk / tale / story	talk / tale / story			5.8	0603	0			
+21298	1002	Manang (Prakaa)	⁴kwʰe	⁴kwʰe	song	song			5.1	0604	0			
+21299	1002	Manang (Prakaa)	²ɕəpʈi	²ɕəpʈi	dance	dance			6.7.9	0605	0			
+21300	1002	Manang (Prakaa)	³kwor ⁴yəpə	³kwor ⁴yəpə	journey / trip / tour	journey / trip / tour			6.7.2	0606	0			
+21301	1002	Manang (Prakaa)	²pleː	²pleː	rest	rest	n.	n.	1.1.4.1	0607a	0			
+21302	1002	Manang (Prakaa)	³cʰuti	³cʰuti	rest	rest	n.	n.	1.1.4.1	0607b	0			
+21303	1002	Manang (Prakaa)	³sə ²wepə	³sə ²wepə	cultivation / tillage	cultivation / tillage			3.1.10	0608	0			
+21304	1002	Manang (Prakaa)	¹to	¹to	hoe	hoe	n		5.3	0609a	0			3573
+21305	1002	Manang (Prakaa)	³katali	³katali	hoe	hoe			5.3	0609b	0			
+21306	1002	Manang (Prakaa)	⁴kworɕĩ	⁴kworɕĩ	plough	plough			5.3	0610	0			
+21307	1002	Manang (Prakaa)	²cʰətaː	²cʰətaː	mortar	mortar			5.5	0611	0			
+21308	1002	Manang (Prakaa)	³cʰimi	³cʰimi	fountain / spring	fountain / spring			9.10.2	0612	0			
+21309	1002	Manang (Prakaa)	³ɕyoŋ	³ɕyoŋ	valley	valley			3.2.5	0613	0			
+21310	1002	Manang (Prakaa)	³pəkə	³pəkə	bank / shore	bank / shore			9.10.2	0614	0			
+21311	1002	Manang (Prakaa)	¹kyu ³ʔaloŋ	¹kyu ³ʔaloŋ	wave	wave			6.7.4	0615a	0			
+21312	1002	Manang (Prakaa)	³ʔaloŋ	³ʔaloŋ	wave	wave			6.7.4	0615b	0			
+21313	1002	Manang (Prakaa)	¹kyu ³pəpe	¹kyu ³pəpe	foam	foam			3.2.3	0616a	0			
+21314	1002	Manang (Prakaa)	³pəpe	³pəpe	foam	foam			3.2.3	0616b	0			
+21315	1002	Manang (Prakaa)	³mwo ²prilo	³mwo ²prilo	thunder	thunder			3.2.1	0617	0			2473
+21316	1002	Manang (Prakaa)	³tipli	³tipli	lightning	lightning			3.2.1	0618	0			
+21317	1002	Manang (Prakaa)	³l̥aːpə	³l̥aːpə	air	air			1.1.2.2	0619	0			x
+21318	1002	Manang (Prakaa)	³mwo	³mwo	weather	weather			3.2.1	0620	0			2473
+21319	1002	Manang (Prakaa)	³mwo ²yuptiː	³mwo ²yuptiː	rainy season	rainy season			3.2.1	0621	0			2473
+21320	1002	Manang (Prakaa)	³mwo ²ʔayuptiː	³mwo ²ʔayuptiː	dry season	dry season			6.6	0622	0			
+21321	1002	Manang (Prakaa)	³piːkə	³piːkə	spring	spring			6.7.9	0623	0			
+21322	1002	Manang (Prakaa)	³yərkə	³yərkə	summer	summer			3.2.1	0624	0			
+21323	1002	Manang (Prakaa)	³tẽkə	³tẽkə	autumn / fall	autumn / fall			9.1.2	0625	0			
+21324	1002	Manang (Prakaa)	²kũtse	²kũtse	winter	winter			9.1.2	0626	0			
+21325	1002	Manang (Prakaa)	⁴towə ²taŋpə	⁴towə ²taŋpə	January	January			9.1.2	0627	0			
+21326	1002	Manang (Prakaa)	⁴towə ⁴ɲipə	⁴towə ⁴ɲipə	February	February			9.1.2	0628	0			
+21327	1002	Manang (Prakaa)	⁴towə ³sumpə	⁴towə ³sumpə	March	March			9.1.2	0629	0			
+21328	1002	Manang (Prakaa)	⁴towə ⁴ɕipə	⁴towə ⁴ɕipə	April	April			9.1.2	0630	0			
+21329	1002	Manang (Prakaa)	⁴towə ¹ŋəpə	⁴towə ¹ŋəpə	May	May			9.1.2	0631	0			
+21330	1002	Manang (Prakaa)	⁴towə ⁴ʈukpə	⁴towə ⁴ʈukpə	June	June			9.1.2	0632	0			
+21331	1002	Manang (Prakaa)	⁴towə ⁴tĩpə	⁴towə ⁴tĩpə	July	July			9.1.2	0633	0			
+21332	1002	Manang (Prakaa)	⁴towə ⁴kyeːpə	⁴towə ⁴kyeːpə	August	August			9.1.2	0634	0			
+21333	1002	Manang (Prakaa)	⁴towə ⁴kupə	⁴towə ⁴kupə	September	September			9.1.2	0635	0			
+21334	1002	Manang (Prakaa)	⁴towə ¹cupə	⁴towə ¹cupə	October	October			9.1.2	0636	0			
+21335	1002	Manang (Prakaa)	⁴towə ¹cukciːpə	⁴towə ¹cukciːpə	November	November			9.1.2	0637	0			
+21336	1002	Manang (Prakaa)	⁴towə ³cuŋɲipə	⁴towə ³cuŋɲipə	December	December			9.1.2	0638	0			
+21337	1002	Manang (Prakaa)	⁴sə ²towə	⁴sə ²towə	Monday	Monday			9.1.3	0639	0			
+21338	1002	Manang (Prakaa)	⁴sə ³miːmər	⁴sə ³miːmər	Tuesday	Tuesday			9.1.3	0640	0			
+21339	1002	Manang (Prakaa)	⁴sə ³l̥akpə	⁴sə ³l̥akpə	Wednesday	Wednesday			9.1.3	0641	0			
+21340	1002	Manang (Prakaa)	⁴sə ³pʰurpə	⁴sə ³pʰurpə	Thursday	Thursday			9.1.3	0642	0			
+21341	1002	Manang (Prakaa)	⁴sə ³pəlsaŋ	⁴sə ³pəlsaŋ	Friday	Friday			9.1.3	0643	0			
+21342	1002	Manang (Prakaa)	⁴sə ¹pyõpə	⁴sə ¹pyõpə	Saturday	Saturday			9.1.3	0644	0			
+21343	1002	Manang (Prakaa)	⁴sə ²ɲima	⁴sə ²ɲima	Sunday	Sunday			9.1.3	0645	0			
+21344	1002	Manang (Prakaa)	-ra	-ra	day / number of days	day / number of days			1.5.3.2	0646	0			
+21345	1002	Manang (Prakaa)	³cʰutseː	³cʰutseː	o'clock	o'clock			9.1.4	0647	0			
+21346	1002	Manang (Prakaa)	¹meleː	¹meleː	minute	minute			9.1.4	0648	0			
+21347	1002	Manang (Prakaa)	--	--	second	second			9.9	0649	0			
+21348	1002	Manang (Prakaa)	²nentaŋ	²nentaŋ	morning / a.m.	morning / a.m.			9.1.4	0650	0			
+21349	1002	Manang (Prakaa)	³ɲətseː	³ɲətseː	afternoon / p.m.	afternoon / p.m.			9.1.4	0651	0			
+21350	1002	Manang (Prakaa)	¹huɲi ³nəraŋ	¹huɲi ³nəraŋ	day before yesterday	day before yesterday			1.5.3.2	0652	0			
+21351	1002	Manang (Prakaa)	³raːɲiː	³raːɲiː	day after tomorrow	day after tomorrow			1.5.3.2	0653	0			
+21352	1002	Manang (Prakaa)	¹huɲi ¹lə	¹huɲi ¹lə	last month	last month			9.9	0654	0			
+21353	1002	Manang (Prakaa)	²cucuː ¹lə	²cucuː ¹lə	next month	next month			9.9	0655	0			
+21354	1002	Manang (Prakaa)	³titĩ	³titĩ	this year	this year			10.4.3.2	0656	0			
+21355	1002	Manang (Prakaa)	³nəraŋ ²lo	³nəraŋ ²lo	last year	last year			9.9	0657	0			
+21356	1002	Manang (Prakaa)	²cucuː ²lo	²cucuː ²lo	next year	next year			9.9	0658	0			
+21357	1002	Manang (Prakaa)	²taŋpə ²taŋpə	²taŋpə ²taŋpə	ancient times	ancient times			9.1.5	0659	0			
+21358	1002	Manang (Prakaa)	²təle	²təle	some day / one day	some day / one day			9.9	0660	0			
+21359	1002	Manang (Prakaa)	³nəraŋ	³nəraŋ	before / ago	before / ago			9.1.5	0661	0			
+21360	1002	Manang (Prakaa)	²cucuː	²cucuː	afterward	afterward			9.1.5	0662	0			
+21361	1002	Manang (Prakaa)	³nəraŋ	³nəraŋ	beginning	beginning			9.5	0663	0			
+21362	1002	Manang (Prakaa)	²cucuː	²cucuː	end	end			9.5	0664	0			
+21363	1002	Manang (Prakaa)	²cucuː	²cucuː	next	next			9.9	0665	0			
+21364	1002	Manang (Prakaa)	--	--	zero	zero			9.9	0666	0			
+21365	1002	Manang (Prakaa)	³tsukriː	³tsukriː	eleven	eleven			9.9	0667	0			
+21366	1002	Manang (Prakaa)	³tsuŋɲiː	³tsuŋɲiː	twelve	twelve			9.9	0668	0			
+21367	1002	Manang (Prakaa)	³tsupsẽ	³tsupsẽ	thirteen	thirteen			9.9	0669	0			
+21368	1002	Manang (Prakaa)	⁴tsupli	⁴tsupli	fourteen	fourteen			9.9	0670	0			
+21369	1002	Manang (Prakaa)	³tsoːŋə	³tsoːŋə	fifteen	fifteen			9.9	0671	0			
+21370	1002	Manang (Prakaa)	³tsuʈu	³tsuʈu	sixteen	sixteen			9.9	0672	0			
+21371	1002	Manang (Prakaa)	³tseːɲiː	³tseːɲiː	seventeen	seventeen			9.9	0673	0			
+21372	1002	Manang (Prakaa)	³tsəpreː	³tsəpreː	eighteen	eighteen			9.9	0674	0			
+21373	1002	Manang (Prakaa)	³tsurku	³tsurku	nineteen	nineteen			9.9	0675	0			
+21374	1002	Manang (Prakaa)	³sum◦cu	³sum◦cu	thirty	thirty			9.9	0676	0			2666
+21375	1002	Manang (Prakaa)	²pli◦cu	²pli◦cu	forty	forty			9.9	0677	0			2409
+21376	1002	Manang (Prakaa)	²ŋə◦cu	²ŋə◦cu	fifty	fifty			9.9	0678	0			1306
+21377	1002	Manang (Prakaa)	²tuk◦cu	²tuk◦cu	sixty	sixty			9.9	0679	0			2621,m
+21378	1002	Manang (Prakaa)	¹ɲĩ◦cu	¹ɲĩ◦cu	seventy	seventy			9.9	0680	0			2505,m
+21379	1002	Manang (Prakaa)	²preːcu	²preːcu	eighty	eighty			9.9	0681	0			
+21380	1002	Manang (Prakaa)	¹kucu	¹kucu	ninety	ninety			9.9	0682	0			
+21381	1002	Manang (Prakaa)	³toŋraː ⁴r̥iː	³toŋraː ⁴r̥iː	thousand	thousand			9.9	0683	0			
+21382	1002	Manang (Prakaa)	³toŋra ¹cu	³toŋra ¹cu	ten thousands	ten thousands			9.9	0684	0			
+21383	1002	Manang (Prakaa)	¹tʰentẽ	¹tʰentẽ	first	first			9.9	0685	0			
+21384	1002	Manang (Prakaa)	²ɲale	²ɲale	second	second			9.9	0686	0			
+21385	1002	Manang (Prakaa)	²səle	²səle	third	third			9.9	0687	0			
+21386	1002	Manang (Prakaa)	⁴r̥ake	⁴r̥ake	alone / one person	alone / one person			7.1.6.1	0688	0			
+21387	1002	Manang (Prakaa)	²mi ⁴ɲiː	²mi ⁴ɲiː	two persons	two persons			9.9	0689	0			m,2504
+21388	1002	Manang (Prakaa)	¹mi ¹sẽ	¹mi ¹sẽ	three persons	three persons			9.9	0690	0			
+21389	1002	Manang (Prakaa)	³tsʰepə ⁴r̥iː	³tsʰepə ⁴r̥iː	first day of a month	first day of a month			9.9	0691	0			
+21390	1002	Manang (Prakaa)	³tsʰepə ⁴ɲiː	³tsʰepə ⁴ɲiː	second day of a month	second day of a month			9.9	0692	0			
+21391	1002	Manang (Prakaa)	³tsʰepə ¹sẽ	³tsʰepə ¹sẽ	third day of a month	third day of a month			9.9	0693	0			
+21392	1002	Manang (Prakaa)	¹lẽ	¹lẽ	number (one)	number (one)			9.9	0694	0			
+21393	1002	Manang (Prakaa)	⁴muʔi	⁴muʔi	monetary unit	monetary unit			5.9	0695	0			
+21394	1002	Manang (Prakaa)	²lo	²lo	year old	year old	s	s	9.1.2	0696	0			
+21395	1002	Manang (Prakaa)	³kola ²preːtsə	³kola ²preːtsə	baby	baby			4.2.11	0697	0			
+21396	1002	Manang (Prakaa)	³ʔumər ¹yoːpə	³ʔumər ¹yoːpə	grown-up / adult	grown-up / adult			4.2.11	0698	0			
+21397	1002	Manang (Prakaa)	²nəsə ⁴yər ²cĩpə	²nəsə ⁴yər ²cĩpə	old person	old person			7.1.8.3	0699a	0			
+21398	1002	Manang (Prakaa)	³kʰuyu	³kʰuyu	old person (female)	old person (female)			7.1.8.3	0699b	0			
+21399	1002	Manang (Prakaa)	¹kʰyokro	¹kʰyokro	old person (male)	old person (male)			7.1.8.3	0699c	0			
+21400	1002	Manang (Prakaa)	³pʰəmə	³pʰəmə	parents	parents			4.7.1	0700	0			
+21401	1002	Manang (Prakaa)	³pʰa ²səme	³pʰa ²səme	husband and wife	husband and wife			4.7.4	0701	0		z	
+21402	1002	Manang (Prakaa)	²taŋpə ³ʔakʰye ³me	²taŋpə ³ʔakʰye ³me	ancestor	ancestor				0702	0			
+21403	1002	Manang (Prakaa)	--	--	nephew	nephew			4.7.3	0703	0			
+21404	1002	Manang (Prakaa)	--	--	niece	niece			4.7.3	0704	0			
+21405	1002	Manang (Prakaa)	¹tʰeː	¹tʰeː	cousin	cousin			4.7.2	0705a	0			
+21406	1002	Manang (Prakaa)	¹tʰeː ²naŋ	¹tʰeː ²naŋ	cousin	cousin			4.7.2	0705b	0			
+21407	1002	Manang (Prakaa)	³ɲentsen	³ɲentsen	relation / kindred	relation / kindred			4.7.5	0706	0			
+21408	1002	Manang (Prakaa)	¹man ³ləpə	¹man ³ləpə	greeting / salute	greeting / salute			8.5.11	0707	0			
+21409	1002	Manang (Prakaa)	--	--	Mr. / Mrs. / Miss	Mr. / Mrs. / Miss			4.2.5.1	0708	0			
+21410	1002	Manang (Prakaa)	²lẽ	²lẽ	answer	answer			8.5.6	0709	0			
+21411	1002	Manang (Prakaa)	²lẽ	²lẽ	reply	reply			8.5.6	0710	0			
+21412	1002	Manang (Prakaa)	³lopci ³pĩpə	³lopci ³pĩpə	teacher	teacher			6.19	0711a	0			
+21413	1002	Manang (Prakaa)	⁴kyekyẽ	⁴kyekyẽ	teacher	teacher			6.19	0711b	0			
+21414	1002	Manang (Prakaa)	³cʰeː ³loːpə	³cʰeː ³loːpə	pupil	pupil			1.2.6.2	0712	0			m
+21415	1002	Manang (Prakaa)	²mi tʰyepə	²mi tʰyepə	host / master	host / master			4.4.2	0713a	0			
+21416	1002	Manang (Prakaa)	⁴tĩ ³ləpə	⁴tĩ ³ləpə	host / master	host / master			4.4.2	0713a	0			
+21417	1002	Manang (Prakaa)	⁴kʰyaːpə	⁴kʰyaːpə	king	king			4.2.5	0714	0			
+21418	1002	Manang (Prakaa)	³sarkaː ⁴kyʰe ³ləpə	³sarkaː ⁴kyʰe ³ləpə	officer / official	officer / official			4.2.6	0715	0			
+21419	1002	Manang (Prakaa)	³tsʰoŋpẽ	³tsʰoŋpẽ	merchant / trader	merchant / trader			4.2.1	0716	0			
+21420	1002	Manang (Prakaa)	³ʔamci	³ʔamci	doctor (medical)	doctor (medical)			4.2.1.5	0717	0			
+21421	1002	Manang (Prakaa)	⁴kʰye	⁴kʰye	occupation	occupation			4.2.1	0718	0			
+21422	1002	Manang (Prakaa)	²syəpkyel	²syəpkyel	cripple	cripple			4.2.7	0719	0			
+21423	1002	Manang (Prakaa)	⁴yo	⁴yo	thief	thief			4.2.12.1	0720	0			
+21424	1002	Manang (Prakaa)	⁴ʈʰima ⁴ʔarapə	⁴ʈʰima ⁴ʔarapə	fool	fool			4.2.12.3	0721	0			
+21425	1002	Manang (Prakaa)	³sẽ	³sẽ	mind / feeling	mind / feeling			1.10	0722	0			66
+21426	1002	Manang (Prakaa)	²maŋ	²maŋ	dream	dream			1.1.4.2	0723	0			126
+21427	1002	Manang (Prakaa)	⁴tʰentaː	⁴tʰentaː	sense / meaning	sense / meaning			8.4	0724	0			
+21428	1002	Manang (Prakaa)	²yul	²yul	country / state / nation	country / state / nation			9.10.3	0725	0			
+21429	1002	Manang (Prakaa)	⁴tsompaliŋ	⁴tsompaliŋ	world	world			9.10.2	0726	0			
+21430	1002	Manang (Prakaa)	³l̥ə◦kã	³l̥ə◦kã	temple	temple			1.2.5.1	0727	0			b?Tibetan
+21431	1002	Manang (Prakaa)	¹yuskul	¹yuskul	school	school			5.8	0728	0			
+21432	1002	Manang (Prakaa)	²pətsər	²pətsər	market	market			9.10.6	0729	0			
+21433	1002	Manang (Prakaa)	⁴tukaŋ	⁴tukaŋ	store / shop	store / shop			9.10.6	0730	0			
+21434	1002	Manang (Prakaa)	²paːsə	²paːsə	address	address			5.11.9.6	0731	0			
+21435	1002	Manang (Prakaa)	³kʰyentseː	³kʰyentseː	neighbour	neighbour			4.4.2	0732	0			
+21436	1002	Manang (Prakaa)	³sətsẽ	³sətsẽ	border / frontier	border / frontier			9.2.7	0733	0			
+21437	1002	Manang (Prakaa)	³ɕyər	³ɕyər	east	east			9.2.8	0734	0			2677
+21438	1002	Manang (Prakaa)	²nuː	²nuː	west	west			9.2.8	0735	0			2517
+21439	1002	Manang (Prakaa)	³l̥lo	³l̥lo	south	south			9.2.8	0736	0			
+21440	1002	Manang (Prakaa)	²cʰaŋ	²cʰaŋ	north	north			9.2.8	0737	0			
+21441	1002	Manang (Prakaa)	³cʰoː	³cʰoː	direction	direction			9.2.8	0738	0			
+21442	1002	Manang (Prakaa)	²tswo	²tswo	point / tip	point / tip			6.2.2.2	0739	0			
+21443	1002	Manang (Prakaa)	¹pʰwo	¹pʰwo	length	length				0740	0			
+21444	1002	Manang (Prakaa)	¹ceː	¹ceː	width (horizontal)	width (horizontal)			9.2.7	0741	0			
+21445	1002	Manang (Prakaa)	²syiaŋ	²syiaŋ	breadth / width	breadth / width			9.2.7	0742	0			
+21446	1002	Manang (Prakaa)	³ʈiː	³ʈiː	beside / alongside	beside / alongside			9.2.3	0743	0			
+21448	1002	Manang (Prakaa)	³ŋwẽ	³ŋwẽ	front	front			1.4.4	0745a	0	jbl5	HIDE	DUPE IN SOURCE
+21449	1002	Manang (Prakaa)	³ŋwẽtsə	³ŋwẽtsə	front	front			1.4.4	0745b	0			m
+21450	1002	Manang (Prakaa)	³liː	³liː	back	back			1.4.8	0746a	0			209
+21451	1002	Manang (Prakaa)	³liː◦tsə	³liː◦tsə	back	back			1.4.8	0746b	0			209,m
+21452	1002	Manang (Prakaa)	²kriːnaː	²kriːnaː	shade	shade			3.2.10	0747	0			
+21453	1002	Manang (Prakaa)	²kuŋ	²kuŋ	middle	middle			1.9.4	0748	0			
+21454	1002	Manang (Prakaa)	³piɕi	³piɕi	bottom	bottom			9.2.2	0749	0			
+21455	1002	Manang (Prakaa)	²ki◦kil	²kikil	circle	circle			9.7.1	0750	0			2310,2310
+21456	1002	Manang (Prakaa)	³tʰiː	³tʰiː	line	line			9.7.1	0751	0			
+21457	1002	Manang (Prakaa)	³taː	³taː	mark	mark			5.1	0752	0			
+21458	1002	Manang (Prakaa)	⁴ʈicẽ	⁴ʈicẽ	form / shape	form / shape			9.7.1	0753	0			
+21459	1002	Manang (Prakaa)	²raŋtse ²raŋtse	²raŋtse ²raŋtse	each one / every one	each one / every one			9.9	0754	0			
+21460	1002	Manang (Prakaa)	³taː ³molaŋ ⁴r̥iː	³taː ³molaŋ ⁴r̥iː	anything / something	anything / something			8.1	0755	0			
+21461	1002	Manang (Prakaa)	²mul-	²mul-	chew	chew			1.3.4	0756	0			467
+21462	1002	Manang (Prakaa)	²lẽ-	²lẽ-	lick	lick			1.3.3.1	0757	0			625
+21463	1002	Manang (Prakaa)	¹cʰe-	¹cʰe-	bark	bark	v.	v.	2.1.11.1	0758	0			1792
+21464	1002	Manang (Prakaa)	¹kyeteː-	¹kyeteː-	howl (animal) / sing (bird)	howl (animal) / sing (bird)			8.5.5	0759	0			
+21465	1002	Manang (Prakaa)	³tʰaːyaŋ-	³tʰaːyaŋ-	notice	notice			8.3.1.11.1	0760	0			
+21466	1002	Manang (Prakaa)	³kwʰor ²tsʰaŋ-	³kwʰor ²tsʰaŋ-	remember	remember			8.3.1.16.1	0761	0			
+21467	1002	Manang (Prakaa)	²ʈẽ-	²ʈẽ-	remind / recollect	remind / recollect			8.5.16	0762a	0			
+21468	1002	Manang (Prakaa)	³naŋsẽ ³kʰə-	³naŋsẽ ³kʰə-	remind / recollect	remind / recollect			8.5.16	0762b	0			
+21469	1002	Manang (Prakaa)	¹maya ³lə-	¹maya ³lə-	believe	believe			8.3.1.12.1	0763	0			
+21470	1002	Manang (Prakaa)	³tʰaː ²ʔayaŋ-	³tʰaː ²ʔayaŋ-	astray, go	astray, go			6.7.2	0764	0			
+21471	1002	Manang (Prakaa)	³nəmtoː ³lə-	³nəmtoː ³lə-	suspect	suspect			6.2.2.2	0765	0			
+21472	1002	Manang (Prakaa)	¹ɲi-	¹ɲi-	question / ask	question / ask			8.5.7.1	0766	0			
+21473	1002	Manang (Prakaa)	²pi-	²pi-	reply / answer	reply / answer			8.5.6	0767	0			
+21474	1002	Manang (Prakaa)	³ʔoloː ²pi-	³ʔoloː ²pi-	bid / order	bid / order			8.5.7.1	0768	0			
+21475	1002	Manang (Prakaa)	²pila ⁴ʔatə-	²pila ⁴ʔatə-	prohibit / forbid	prohibit / forbid			8.5.1	0769a	0			
+21476	1002	Manang (Prakaa)	³kaː-	³kaː-	prohibit / forbid	prohibit / forbid			8.5.1	0769b	0			
+21477	1002	Manang (Prakaa)	⁴ʔorcʰeː pʰyaːpul ²pi-	⁴ʔorcʰeː pʰyaːpul ²pi-	apologize	apologize			8.5.11	0770	0			
+21478	1002	Manang (Prakaa)	²ceːluː ³tə-	²ceːluː ³tə-	praise	praise			8.5.2.2	0771	0			
+21479	1002	Manang (Prakaa)	²ɕetaŋ ³lə-	²ɕetaŋ ³lə-	scold	scold			8.5.1	0772	0			
+21480	1002	Manang (Prakaa)	³kra ³kor-	³kra ³kor-	cheat	cheat			6.19	0773	0			
+21481	1002	Manang (Prakaa)	¹nəpə ³tʰu-	¹nəpə ³tʰu-	suffer / feel pain	suffer / feel pain			6.2	0774	0			
+21482	1002	Manang (Prakaa)	²tuku ³tə-	²tuku ³tə-	distressed, be / troubled, be	distressed, be / troubled, be			10.4.1.1	0775	0			
+21483	1002	Manang (Prakaa)	⁴tuŋkar ³kʰə-	⁴tuŋkar ³kʰə-	worry	worry			8.3.1.7.2	0776	0			
+21484	1002	Manang (Prakaa)	³sẽ ³ki-	³sẽ ³ki-	relieved, feel	relieved, feel			8.3.1.7.4	0777	0			
+21485	1002	Manang (Prakaa)	³kwʰo-	³kwʰo-	love	love			8.3.1.1.1	0778	0			
+21486	1002	Manang (Prakaa)	²səpə ²taloː-	²səpə ²taloː-	pray	pray			5.8.3.1	0779	0			
+21487	1002	Manang (Prakaa)	³pʰyaːpul-	³pʰyaːpul-	worship	worship			5.8.1.3	0780	0			
+21488	1002	Manang (Prakaa)	²laŋpə ²tsʰã-	²laŋpə ²tsʰã-	imitate	imitate			6.1.1.1.1	0781	0			
+21489	1002	Manang (Prakaa)	²tur-	²tur-	compare	compare			8.3	0782	0			
+21490	1002	Manang (Prakaa)	³sẽ ³kʰə-	³sẽ ³kʰə-	select / choose	select / choose			6.10.4	0783	0			
+21491	1002	Manang (Prakaa)	²ʈiː-	²ʈiː-	draw	draw			5.8	0784	0			
+21492	1002	Manang (Prakaa)	¹pər ¹kwe-	¹pər ¹kwe-	weigh / measure	weigh / measure			9.8	0785	0			
+21493	1002	Manang (Prakaa)	²roː ³lə-	²roː ³lə-	help	help			6.2.2.1	0786	0			
+21494	1002	Manang (Prakaa)	³tsʰər-	³tsʰər-	foster / bring up	foster / bring up			6.2	0787	0			
+21495	1002	Manang (Prakaa)	³cʰaŋ	³cʰaŋ	keep / raise	keep / raise			6.18	0788	0			
+21496	1002	Manang (Prakaa)	³tərŋə ²raː-	³tərŋə ²raː-	fish / angle	fish / angle			2.2.5	0789	0			
+21497	1002	Manang (Prakaa)	¹cʰĩ-	¹cʰĩ-	catch	catch			6.21	0790	0			
+21498	1002	Manang (Prakaa)	⁴kurman ³lə-	⁴kurman ³lə-	grasp / grip	grasp / grip			6.16	0791	0			
+21499	1002	Manang (Prakaa)	³pʰate ⁴yə-	³pʰate ⁴yə-	drop	drop			6.16	0792	0			
+21500	1002	Manang (Prakaa)	⁴tʰiː-	⁴tʰiː-	pick up	pick up			6.10.4	0793	0			
+21501	1002	Manang (Prakaa)	²liː-	²liː-	abandon / cast away	abandon / cast away			6.10.2	0794a	0		z	
+21502	1002	Manang (Prakaa)	³kʰyaː-	³kʰyaː-	abandon / cast away	abandon / cast away			6.10.2	0794b	0		z	5758
+21503	1002	Manang (Prakaa)	²tomoː ⁴yə-	²tomoː ⁴yə-	lost, be / disappear	lost, be / disappear			6.10.1	0795	0			
+21504	1002	Manang (Prakaa)	²pyuː-	²pyuː-	bury	bury			6.11	0796	0			
+21505	1002	Manang (Prakaa)	²ʔuː-	²ʔuː-	cover	cover			5.8	0797	0			2767
+21506	1002	Manang (Prakaa)	⁴tsʰor-	⁴tsʰor-	pack / wrap	pack / wrap			6.2	0798	0			
+21507	1002	Manang (Prakaa)	¹co-	¹co-	hang down / suspend	hang down / suspend			6.1.1.5	0799	0			
+21508	1002	Manang (Prakaa)	³kʰyeː-	³kʰyeː-	hook	hook			5.4	0800	0			
+21509	1002	Manang (Prakaa)	³cĩ ³tʰẽ-	³cĩ ³tʰẽ-	connect / fasten	connect / fasten			6.13.3	0801	0			
+21510	1002	Manang (Prakaa)	²ʈiː-	²ʈiː-	wind	wind	v.	v.	3.2.1	0802a	0			
+21511	1002	Manang (Prakaa)	⁴tuŋ-	⁴tuŋ-	wind	wind	v.	v.	3.2.1	0802b	0			
+21512	1002	Manang (Prakaa)	¹mwor-	¹mwor-	wind	wind	v.	v.	3.2.1	0802c	0			
+21513	1002	Manang (Prakaa)	¹raː-	¹raː-	knit / weave	knit / weave			6.14	0803	0			5669
+21514	1002	Manang (Prakaa)	¹raː-	¹raː-	weave	weave			5.1	0804	0			5669
+21515	1002	Manang (Prakaa)	²tẽ-	²tẽ-	bind	bind			6.13.1	0805	0			
+21516	1002	Manang (Prakaa)	³ɕeː ²tẽ-	³ɕeː ²tẽ-	fasten / tighten	fasten / tighten			6.13.3	0806	0			
+21517	1002	Manang (Prakaa)	⁴tuŋtuŋ ³lə-	⁴tuŋtuŋ ³lə-	knock / tap	knock / tap			6.8	0807	0			
+21518	1002	Manang (Prakaa)	⁴kwor ⁴yə-	⁴kwor ⁴yə-	bent, be	bent, be			9.7.2	0808	0			
+21519	1002	Manang (Prakaa)	⁴kwor ³lə-	⁴kwor ³lə-	bend	bend			9.5	0809	0			
+21520	1002	Manang (Prakaa)	³siː-	³siː-	break / destroy	break / destroy			9.5	0810	0			
+21521	1002	Manang (Prakaa)	²laŋ ¹to-	²laŋ ¹to-	pound / hull	pound / hull			6.8	0811	0			
+21522	1002	Manang (Prakaa)	²rẽtaː ²praː-	²rẽtaː ²praː-	grind	grind			9.5	0812	0			
+21523	1002	Manang (Prakaa)	²ʈaː-	²ʈaː-	torn, be	torn, be			6.9.4	0813	0			5335
+21524	1002	Manang (Prakaa)	²ʈaː-	²ʈaː-	tear / break	tear / break			1.8.8.1	0814	0			
+21525	1002	Manang (Prakaa)	¹tʰi-	¹tʰi-	cracked apart, be	cracked apart, be			3.2.7	0815	0			
+21526	1002	Manang (Prakaa)	²praː-	²praː-	mow / cut	mow / cut			6.9.4	0816	0			
+21527	1002	Manang (Prakaa)	¹saŋ-	¹saŋ-	dry / dry, make	dry / dry, make			6.6	0817	0			
+21528	1002	Manang (Prakaa)	⁴we-	⁴we-	cultivate / till	cultivate / till			3.1.10	0818	0			
+21529	1002	Manang (Prakaa)	²to-	²to-	plant	plant			3.1.10	0819	0			
+21530	1002	Manang (Prakaa)	⁴pl̥u ¹prĩ-	⁴pl̥u ¹prĩ-	sow	sow			2.1.12	0820	0			
+21531	1002	Manang (Prakaa)	¹tʰor-	¹tʰor-	scatter	scatter			6.10.3	0821	0			
+21532	1002	Manang (Prakaa)	⁴tsʰu-	⁴tsʰu-	divide	divide			6.10.4	0822a	0			
+21533	1002	Manang (Prakaa)	¹kəʈeː ³lə-	¹kəʈeː ³lə-	divide	divide			6.10.4	0822b	0			
+21534	1002	Manang (Prakaa)	²cər-	²cər-	attach	attach			6.13.3	0823	0			
+21535	1002	Manang (Prakaa)	²ʈiː ³tʰam-	²ʈiː ³tʰam-	line up / dispose	line up / dispose			9.7.1	0824a	0			
+21536	1002	Manang (Prakaa)	²ʈiː-	²ʈiː-	line up / dispose	line up / dispose			9.7.1	0824b	0			
+21537	1002	Manang (Prakaa)	⁴tsʰu-	⁴tsʰu-	distribute	distribute			6.23	0825	0			
+21538	1002	Manang (Prakaa)	³pĩ-	³pĩ-	present	present			5.8	0826	0			
+21539	1002	Manang (Prakaa)	³kĩ-	³kĩ-	receive / accept	receive / accept			6.21	0827	0			
+21540	1002	Manang (Prakaa)	¹cʰĩ-	¹cʰĩ-	embrace	embrace			8.4	0828	0			
+21541	1002	Manang (Prakaa)	⁴preː-	⁴preː-	shoulder	shoulder	v.	v.	1.4.3	0829	0			568
+21542	1002	Manang (Prakaa)	¹naː-	¹naː-	bear on one's back	bear on one's back	v	v	2.2.3	0830	0			
+21543	1002	Manang (Prakaa)	²pwor-	²pwor-	carry	carry			6.2.2.2.1	0831	0			
+21544	1002	Manang (Prakaa)	¹tʰaː-	¹tʰaː-	cross / ferry	cross / ferry			6.7.10	0832	0			5808
+21545	1002	Manang (Prakaa)	⁴tsʰã-	⁴tsʰã-	send	send			6.2.2.2	0833a	0			
+21546	1002	Manang (Prakaa)	¹pi-	¹pi-	send	send			6.2.2.2	0833b	0			
+21547	1002	Manang (Prakaa)	²kini ³lə-	²kini ³lə-	hurry	hurry			6.7.3	0834	0			
+21548	1002	Manang (Prakaa)	⁴yə-	⁴yə-	return / come back	return / come back			6.2.2.1	0835	0			
+21549	1002	Manang (Prakaa)	²toː-	²toː-	arrive	arrive			6.7.1	0836	0			
+21550	1002	Manang (Prakaa)	³yeː-	³yeː-	pass	pass			6.7.10	0837	0			
+21551	1002	Manang (Prakaa)	³tʰẽ-	³tʰẽ-	stop	stop	v.i.	v.i.	6.7.11	0838a	0			
+21552	1002	Manang (Prakaa)	⁴ʈu-	⁴ʈu-	stop	stop	v.i.	v.i.	6.7.11	0838b	0			
+21553	1002	Manang (Prakaa)	³kaː-	³kaː-	stop	stop	v.t.	v.t.	6.7.11	0839	0			
+21554	1002	Manang (Prakaa)	¹toplaŋ ⁴yə-	¹toplaŋ ⁴yə-	fall down	fall down			6.1.1.4.2	0840	0			5810
+21555	1002	Manang (Prakaa)	³tẽ-	³tẽ-	put out / take out	put out / take out			9.2	0841	0			
+21556	1002	Manang (Prakaa)	⁴tsʰaŋ	⁴tsʰaŋ	put in	put in			6.17	0842	0			
+21557	1002	Manang (Prakaa)	¹kwe-	¹kwe-	lift	lift			6.16	0843	0			
+21558	1002	Manang (Prakaa)	³kʰyoː-	³kʰyoː-	draw up	draw up			5.8	0844	0			
+21559	1002	Manang (Prakaa)	³miʔe ¹teː-	³miʔe ¹teː-	kindle	kindle			3.2.12.1	0845	0			
+21560	1002	Manang (Prakaa)	³seː-	³seː-	put out / extinguish	put out / extinguish			6.17	0846	0			
+21561	1002	Manang (Prakaa)	¹pwʰor-	¹pwʰor-	smear	smear			5.8	0847	0			
+21562	1002	Manang (Prakaa)	¹prĩ-	¹prĩ-	build	build			6.14	0848	0			
+21563	1002	Manang (Prakaa)	²kyeː-	²kyeː-	adorn / decorate	adorn / decorate			5.8	0849a	0			
+21564	1002	Manang (Prakaa)	²kyeːpə ³lə-	²kyeːpə ³lə-	adorn / decorate	adorn / decorate			5.8	0849b	0			
+21565	1002	Manang (Prakaa)	³toː-	³toː-	use / emply / utilize	use / emply / utilize			6.2.2.7.1	0850	0			
+21566	1002	Manang (Prakaa)	²roː ³lə-	²roː ³lə-	request / ask	request / ask			8.5.7.1	0851a	0			
+21567	1002	Manang (Prakaa)	²ɕu-	²ɕu-	request / ask	request / ask			8.5.7.1	0851b	0			
+21568	1002	Manang (Prakaa)	³tə-	³tə-	undertake	undertake			6.1.1.1	0852	0			
+21569	1002	Manang (Prakaa)	³tʰaː ³cʰeː-	³tʰaː ³cʰeː-	decide	decide			8.3.3.9	0853	0			
+21570	1002	Manang (Prakaa)	³tə-	³tə-	admit / grant / allow	admit / grant / allow			6.19	0854	0			
+21571	1002	Manang (Prakaa)	⁴ʔatə-	⁴ʔatə-	refuse	refuse			8.5.6	0855	0			
+21572	1002	Manang (Prakaa)	³sẽ ⁴r̥iː ³lə-	³sẽ ⁴r̥iː ³lə-	approve	approve			8.3.1.1.1	0856a	0			
+21573	1002	Manang (Prakaa)	³sẽ ²kriː-	³sẽ ²kriː-	approve	approve			8.3.1.1.1	0856b	0			
+21574	1002	Manang (Prakaa)	³sẽ ²ʔakriː-	³sẽ ²ʔakriː-	oppose	oppose			6.5	0857	0			
+21575	1002	Manang (Prakaa)	²paŋ-	²paŋ-	contest / dispute	contest / dispute			5.8	0858a	0			
+21576	1002	Manang (Prakaa)	¹tsʰeː-	¹tsʰeː-	contest / dispute	contest / dispute			5.8	0858b	0			
+21577	1002	Manang (Prakaa)	³taktaː ³lə-	³taktaː ³lə-	promise	promise			8.5.16	0859	0			
+21578	1002	Manang (Prakaa)	¹pr̥aː-	¹pr̥aː-	part / separate	part / separate			6.10.2	0860	0			5616
+21579	1002	Manang (Prakaa)	⁴kʰəm ²ʔate-	⁴kʰəm ²ʔate-	fed up, be	fed up, be			1.3.5.8	0861	0			
+21580	1002	Manang (Prakaa)	³tʰentaː ²ʈu-	³tʰentaː ²ʈu-	succeed	succeed			6.2	0862	0			
+21581	1002	Manang (Prakaa)	³tʰentaː ²ʔaʈu-	³tʰentaː ²ʔaʈu-	fail	fail			6.1.1	0863	0			
+21582	1002	Manang (Prakaa)	²nuŋ-	²nuŋ-	mistake, make	mistake, make			6.2	0864	0			
+21583	1002	Manang (Prakaa)	³lə-	³lə-	become / be	become / be			9.5	0865	0			
+21584	1002	Manang (Prakaa)	³tə-	³tə-	arise / happen	arise / happen			1.1.4	0866	0			
+21585	1002	Manang (Prakaa)	²kʰwol ¹ti-	²kʰwol ¹ti-	begin	begin	v.i.	v.i.	9.5	0867	0			
+21586	1002	Manang (Prakaa)	⁴ko ³tsuː-	⁴ko ³tsuː-	begin	begin	v.t.	v.t.	9.5	0868	0			
+21587	1002	Manang (Prakaa)	²cĩ-	²cĩ-	finish / end	finish / end			9.5	0869	0			614
+21588	1002	Manang (Prakaa)	²kyur-	²kyur-	change	change	v.i.	v.i.	9.5	0870	0			
+21589	1002	Manang (Prakaa)	²kyur-	²kyur-	change	change	v.t.	v.t.	9.5	0871	0			
+21590	1002	Manang (Prakaa)	³tsʰeːri ³ʈu-	³tsʰeːri ³ʈu-	take one's place	take one's place			6.21	0872	0			
+21591	1002	Manang (Prakaa)	³pʰwo-	³pʰwo-	replace / exchange	replace / exchange			6.2	0873	0			
+21592	1002	Manang (Prakaa)	¹preː-	¹preː-	cease	cease			9.5	0874	0			
+21593	1002	Manang (Prakaa)	¹piː-	¹piː-	stop / give up	stop / give up			6.7.11	0875	0			
+21594	1002	Manang (Prakaa)	³cʰẽ ³lə-	³cʰẽ ³lə-	continue	continue	v.i.	v.i.	9.5	0876	0			
+21595	1002	Manang (Prakaa)	³cʰẽ ³lə-	³cʰẽ ³lə-	continue	continue	v.t.	v.t.	9.5	0877	0			
+21596	1002	Manang (Prakaa)	⁴ʔur ³tə-	⁴ʔur ³tə-	gather / assemble	gather / assemble			6.13.5	0878	0			
+21597	1002	Manang (Prakaa)	¹kul◦kul ³lə-	¹kulkul ³lə-	move	move	v.t.	v.t.	6.7.11	0879	0			
+21598	1002	Manang (Prakaa)	⁴yo-	⁴yo-	sway	sway			6.7.4	0880	0			
+21599	1002	Manang (Prakaa)	³koroː ¹prĩ-	³koroː ¹prĩ-	turn / round	turn / round			6.7.6	0881	0			
+21600	1002	Manang (Prakaa)	³kwor-	³kwor-	turn to	turn to	v.	v.	6.7.6	0882	0			
+21601	1002	Manang (Prakaa)	³liːʈo ⁴yə-	³liːʈo ⁴yə-	withdraw / go down	withdraw / go down			6.7.10	0883a	0			
+21602	1002	Manang (Prakaa)	³cʰaː-	³cʰaː-	withdraw / go down (price)	withdraw / go down  (price)			6.7.10	0883b	0	jbl3		
+21603	1002	Manang (Prakaa)	⁴pl̥aː-	⁴pl̥aː-	grow (grass)	grow (grass)			9.7.2	0884	0			
+21604	1002	Manang (Prakaa)	³ɕi-	³ɕi-	wither	wither			3.1.10	0885	0			
+21605	1002	Manang (Prakaa)	¹tsʰər-	¹tsʰər-	bloom	bloom			3.1.10	0886	0			
+21606	1002	Manang (Prakaa)	³ɕĩtoː ¹co-	³ɕĩtoː ¹co-	grow (fruit) / bear	grow (fruit) / bear			9.7.2	0887	0			
+21607	1002	Manang (Prakaa)	³pʰyel-	³pʰyel-	increase	increase			9.5	0888	0			
+21608	1002	Manang (Prakaa)	²paːtoŋ ⁴yə-	²paːtoŋ ⁴yə-	decrease	decrease			9.5	0889	0			
+21609	1002	Manang (Prakaa)	³tʰaŋ ³kʰə-	³tʰaŋ ³kʰə-	smell of	smell of			1.2.8.5	0890	0			
+21610	1002	Manang (Prakaa)	²we ³kʰə-	²we ³kʰə-	glitter / shine	glitter / shine			7.1.11.1	0891	0			
+21611	1002	Manang (Prakaa)	³kʰyaː-	³kʰyaː-	freeze	freeze			9.5	0892a	0			
+21612	1002	Manang (Prakaa)	³tʰaŋkyaŋ ³cʰaː-	³tʰaŋkyaŋ ³cʰaː-	freeze	freeze			9.5	0892b	0			
+21613	1002	Manang (Prakaa)	⁴ɲu-	⁴ɲu-	melt / solve	melt / solve			9.5	0893	0			
+21614	1002	Manang (Prakaa)	²ʈaː-	²ʈaː-	recover / heal	recover / heal			1.1.5.1	0894	0			
+21615	1002	Manang (Prakaa)	²laː-	²laː-	remain	remain			6.7.11	0895	0			
+21616	1002	Manang (Prakaa)	¹yoː-	¹yoː-	sufficient, be	sufficient, be			1.1.3.2	0896	0			
+21617	1002	Manang (Prakaa)	³toː-	³toː-	need	need			9.6.2	0897	0			
+21618	1002	Manang (Prakaa)	-p ri (⁴yə-)	-p ri (⁴yə-)	let one (go)	let one (go)			6.19	0898	0			
+21619	1002	Manang (Prakaa)	-³sã ³kʰə-	-³sã ³kʰə-	want to (go)	want to (go)			8.3.1.14.3	0899	0			
+21620	1002	Manang (Prakaa)	--	--	passive	passive			10.0	0900	0			
+21621	1002	Manang (Prakaa)	²tiŋtiŋ	²tiŋtiŋ	deep	deep			7.1.5.3	0901	0			
+21622	1002	Manang (Prakaa)	³pəpə	³pəpə	shallow	shallow			7.1.5.3	0902	0			
+21623	1002	Manang (Prakaa)	⁴tʰuŋpə	⁴tʰuŋpə	thick / burly	thick / burly			9.7.2	0903a	0			
+21624	1002	Manang (Prakaa)	⁴ʔutʰuŋpə	⁴ʔutʰuŋpə	thick / burly	thick / burly			9.7.2	0903b	0			
+21625	1002	Manang (Prakaa)	¹pr̥əpə	¹pr̥əpə	fine / slender	fine / slender			9.7.2	0904	0			
+21626	1002	Manang (Prakaa)	²prapraː	²prapraː	fine / detailed	fine / detailed			9.7.2	0905a	0			
+21627	1002	Manang (Prakaa)	¹tiːpə	¹tiːpə	fine / detailed	fine / detailed			9.7.2	0905b	0			
+21628	1002	Manang (Prakaa)	⁴ʔatiːpə	⁴ʔatiːpə	rough / coarse	rough / coarse			7.1.4.2	0906a	0			
+21629	1002	Manang (Prakaa)	⁴rolaː ¹ruliː	⁴rolaː ¹ruliː	rough / coarse	rough / coarse			7.1.4.2	0906b	0			
+21630	1002	Manang (Prakaa)	²saŋpə	²saŋpə	strong / heavy	strong / heavy			9.6.1.1	0907	0			
+21631	1002	Manang (Prakaa)	²ʔasaŋpə	²ʔasaŋpə	weak / thin	weak / thin			1.1.5	0908	0			
+21632	1002	Manang (Prakaa)	¹kyũ◦pə	¹kyũpə	sour	sour			7.1.4.4	0909	0			6406,s
+21633	1002	Manang (Prakaa)	³tʰaŋ ²ʔasəpə ³kʰəpə	³tʰaŋ ²ʔasəpə ³kʰəpə	stinking / smelling	stinking / smelling			7.1.4.5	0910	0			
+21634	1002	Manang (Prakaa)	²ʈoplaː ³kʰəpə	²ʈoplaː ³kʰəpə	delicious	delicious			7.1.4.4	0911a	0			
+21635	1002	Manang (Prakaa)	²səpə	²səpə	delicious	delicious			7.1.4.4	0911b	0			
+21636	1002	Manang (Prakaa)	²ʈoplaː ³ʔakʰpə	²ʈoplaː ³ʔakʰpə	unsavory	unsavory			7.1.4.4	0912	0		z	
+21637	1002	Manang (Prakaa)	³cʰĩ-	³cʰĩ-	raw	raw			7.1.8.3	0913	0			
+21638	1002	Manang (Prakaa)	³tʰẽ-	³tʰẽ-	bacant / empty	bacant / empty			7.1.2.1	0914	0			
+21639	1002	Manang (Prakaa)	⁴pli ²sur	⁴pli ²sur	square	square			9.7.1	0915	0			
+21640	1002	Manang (Prakaa)	³plaːkya	³plaːkya	flat	flat			7.1.5.1	0916	0			
+21641	1002	Manang (Prakaa)	⁴korã ¹kurĩ	⁴korã ¹kurĩ	crooked / bent	crooked / bent			9.7.2	0917	0			
+21642	1002	Manang (Prakaa)	³kʰyepə	³kʰyepə	cheap	cheap			5.9	0918a	0			bTibetan
+21643	1002	Manang (Prakaa)	²koŋ ³kʰyepə	²koŋ ³kʰyepə	cheap	cheap			5.9	0918b	0			bTibetan
+21644	1002	Manang (Prakaa)	¹se ³tʰyepə	¹se ³tʰyepə	expensive	expensive			5.9	0919	0			
+21645	1002	Manang (Prakaa)	⁴pl̥opə	⁴pl̥opə	rich	rich			5.9	0920	0			
+21646	1002	Manang (Prakaa)	²tuːpə	²tuːpə	poor	poor			9.6.2.2	0921	0			
+21647	1002	Manang (Prakaa)	³teːmə ³tʰyepə	³teːmə ³tʰyepə	interesting	interesting			8.3.2.6.1	0922a	0			
+21648	1002	Manang (Prakaa)	³ɲẽpə	³ɲẽpə	interesting	interesting			8.3.2.6.1	0922b	0			
+21649	1002	Manang (Prakaa)	³kiːpə	³kiːpə	happy	happy			8.3.1.5.1	0923	0			
+21650	1002	Manang (Prakaa)	²ʈeːsẽ ³ɲenpə	²ʈeːsẽ ³ɲenpə	cool	cool			7.1.2.3	0924	0			
+21651	1002	Manang (Prakaa)	³noŋ ²yaŋpə	³noŋ ²yaŋpə	calm / quiet	calm / quiet			9.6.1.2	0925a	0			
+21652	1002	Manang (Prakaa)	³noŋ ³kipə	³noŋ ³kipə	calm / quiet	calm / quiet			9.6.1.2	0925b	0			
+21653	1002	Manang (Prakaa)	²nə ¹nəpə	²nə ¹nəpə	noisy	noisy			7.1.4.3	0926	0			
+21654	1002	Manang (Prakaa)	²ɲĩpə	²ɲĩpə	dangerous	dangerous			9.6.2.1	0927	0			
+21655	1002	Manang (Prakaa)	⁴teːla ³tʰyepə	⁴teːla ³tʰyepə	busy	busy			9.6.3	0928	0			
+21656	1002	Manang (Prakaa)	¹yoːpə	¹yoːpə	early	early			9.1.1	0929a	0			
+21657	1002	Manang (Prakaa)	²kyoːpə	²kyoːpə	early	early			9.1.1	0929b	0			
+21658	1002	Manang (Prakaa)	³pʰipə	³pʰipə	late	late			9.1.1	0930	0			
+21659	1002	Manang (Prakaa)	⁴nuː ²rə◦pə	⁴nuː ²rə◦pə	sleepy	sleepy			1.1.4.1	0931	0			129,m,s
+21660	1002	Manang (Prakaa)	³kyeː◦pə	³kyeː◦pə	itching	itching			1.6.5.5	0932	0			1456,s
+21661	1002	Manang (Prakaa)	³tsaŋ◦pə	³tsaŋpə	clean	clean			6.2.2.5.2	0933	0			2745,s
+21662	1002	Manang (Prakaa)	²ʔakyeːpə	²ʔakyeːpə	ugly	ugly			7.1.3	0934	0			
+21663	1002	Manang (Prakaa)	¹pʰa ³peːpə	¹pʰa ³peːpə	shameful	shameful			8.3.3.8.2	0935	0			
+21664	1002	Manang (Prakaa)	³syom ²loːpə	³syom ²loːpə	abominable	abominable				0936	0			
+21665	1002	Manang (Prakaa)	³tʰiː ²rəpə	³tʰiː ²rəpə	lovely / charming	lovely / charming			7.1.3	0937	0			
+21666	1002	Manang (Prakaa)	³tʰiː ²rəpə	³tʰiː ²rəpə	pitiable	pitiable			8.3.2.3.2	0938	0			
+21667	1002	Manang (Prakaa)	⁴ʈəmpə	⁴ʈəmpə	honest	honest			8.3.3.4.1	0939	0			
+21668	1002	Manang (Prakaa)	³ɲĩciː ³ləpə	³ɲĩciː ³ləpə	tender / gentle	tender / gentle			7.1.4.2	0940	0			
+21669	1002	Manang (Prakaa)	³ɲĩciː	³ɲĩciː	kind	kind			8.3.3.2.1	0941	0			
+21670	1002	Manang (Prakaa)	³pəkaː ³təpə	³pəkaː ³təpə	stout (thing)	stout (thing)			7.1.3	0942a	0			
+21671	1002	Manang (Prakaa)	³ɕuː ³tʰyepə	³ɕuː ³tʰyepə	stout (man)	stout (man)			7.1.3	0942b	0			
+21672	1002	Manang (Prakaa)	³pyaŋpə	³pyaŋpə	wise	wise			8.3.3.3.1	0943	0			
+21673	1002	Manang (Prakaa)	³tʰyepə	³tʰyepə	great	great			9.6.1	0944	0			
+21674	1002	Manang (Prakaa)	³ɕepalu ³tʰyepə	³ɕepalu ³tʰyepə	expert / skillful	expert / skillful			4.2.3	0945	0			
+21675	1002	Manang (Prakaa)	³ɕepalu ²ʔarəpə	³ɕepalu ²ʔarəpə	inexpert / unskillful	inexpert / unskillful			9.6.2.2	0946	0			
+21676	1002	Manang (Prakaa)	⁴leː ³ləpə	⁴leː ³ləpə	easy	easy			9.6.1.1	0947	0			
+21677	1002	Manang (Prakaa)	³kəleː ³kʰəpə	³kəleː ³kʰəpə	difficult	difficult			9.6.2	0948	0			
+21678	1002	Manang (Prakaa)	¹pərti	¹pərti	normal / common	normal / common			7.1.7.2	0949	0			
+21679	1002	Manang (Prakaa)	¹tsa ³tʰyepə	¹tsa ³tʰyepə	important	important			7.1.7.1	0950	0			
+21680	1002	Manang (Prakaa)	- ɕoː	- ɕoː	best / most / superlative	best / most / superlative			9.6.1.1	0951a	0			
+21681	1002	Manang (Prakaa)	²saɕoː	²saɕoː	best	best			9.6.1.1	0951b	0			
+21682	1002	Manang (Prakaa)	⁴r̥iː	⁴r̥iː	certain / some	certain / some			8.3.1.12.1	0952	0			
+21683	1002	Manang (Prakaa)	²ʔocoŋpə	²ʔocoŋpə	such / like this	such / like this			10.1	0953	0			
+21684	1002	Manang (Prakaa)	²ʔocoŋpə	²ʔocoŋpə	such	such			10.1	0954	0			
+21685	1002	Manang (Prakaa)	³hala	³hala	which	which			10.5.3	0955	0			
+21686	1002	Manang (Prakaa)	²hacoŋpə	²hacoŋpə	what kind of	what kind of			10.5.3	0956	0			
+21687	1002	Manang (Prakaa)	²tsʰaːraŋ ²naŋri	²tsʰaːraŋ ²naŋri	especially	especially			7.1.2.2	0957	0			
+21688	1002	Manang (Prakaa)	²ŋotoː	²ŋotoː	truly	truly			7.1.8.3	0958	0			
+21689	1002	Manang (Prakaa)	³taktaː	³taktaː	just	just			9.1.1	0959	0			
+21690	1002	Manang (Prakaa)	⁴məɕeraŋ	⁴məɕeraŋ	quite / completely	quite / completely			10.0	0960	0			
+21691	1002	Manang (Prakaa)	¹tayĩli ⁴ʔayĩli	¹tayĩli ⁴ʔayĩli	without fail / certainly	without fail / certainly			10.1.1	0961	0			
+21692	1002	Manang (Prakaa)	²tosaraŋ	²tosaraŋ	soon	soon			9.1.1	0962a	0			
+21693	1002	Manang (Prakaa)	²kini	²kini	soon	soon			9.1.1	0962b	0			
+21694	1002	Manang (Prakaa)	⁴kole ⁴kole	⁴kole ⁴kole	slowly	slowly			9.1.1	0963a	0			
+21695	1002	Manang (Prakaa)	⁴kole ³lətse	⁴kole ³lətse	slowly	slowly			9.1.1	0963b	0			
+21696	1002	Manang (Prakaa)	⁴tsaːtsa	⁴tsaːtsa	sometimes	sometimes			9.1.5	0964	0			
+21697	1002	Manang (Prakaa)	⁴lakẽ ¹lakẽ	⁴lakẽ ¹lakẽ	often	often			9.1.1	0965	0			
+21698	1002	Manang (Prakaa)	⁴lakẽ	⁴lakẽ	also	also			10.1.2.1	0966	0			
+21699	1002	Manang (Prakaa)	²toso	²toso	still / yet	still / yet			9.1.1	0967	0			
+21700	1002	Manang (Prakaa)	²tosaraŋ	²tosaraŋ	already	already			10.1	0968	0			
+21701	1002	Manang (Prakaa)	²tẽ ³cʰaːtse ²moː	²tẽ ³cʰaːtse ²moː	good morning	good morning			9.6.1.1	0969a	0			
+21702	1002	Manang (Prakaa)	⁴ʈutse ²moː	⁴ʈutse ²moː	good morning	good morning			9.6.1.1	0969b	0			
+21703	1002	Manang (Prakaa)	³pʰeːka ³ciː	³pʰeːka ³ciː	good morning	good morning			9.6.1.1	0969c	0			
+21704	1002	Manang (Prakaa)	⁴nuːto ¹ʔoː	⁴nuːto ¹ʔoː	good night	good night			9.6.1.1	0970	0			
+21705	1002	Manang (Prakaa)	²tẽ ³cʰaːtse ²moː	²tẽ ³cʰaːtse ²moː	good evening	good evening			9.6.1.1	0971a	0			
+21706	1002	Manang (Prakaa)	⁴ʈutse ²moː	⁴ʈutse ²moː	good evening	good evening			9.6.1.1	0971b	0			
+21707	1002	Manang (Prakaa)	³pʰeːka ³ciː	³pʰeːka ³ciː	good evening	good evening			9.6.1.1	0971c	0			
+21708	1002	Manang (Prakaa)	⁴ʔorcʰeː	⁴ʔorcʰeː	please	please			8.3.1.1.1	0972	0			
+21709	1002	Manang (Prakaa)	⁴ʔorcʰeː ¹pʰyaːpul	⁴ʔorcʰeː ¹pʰyaːpul	excuse me	excuse me			8.5.11	0973	0			
+21710	1002	Manang (Prakaa)	¹təpko	¹təpko	all right	all right			9.9	0974	0			
+21711	1002	Manang (Prakaa)	²səpə ³təciː	²səpə ³təciː	congratulations	congratulations			8.5.11	0975a	0			
+21712	1002	Manang (Prakaa)	⁴ɕap ⁴ɕapə	⁴ɕap ⁴ɕapə	congratulations	congratulations			8.5.11	0975b	0			
+21713	1002	Manang (Prakaa)	⁴ʔatse	⁴ʔatse	and / and then	and / and then			10.1.2.1	0976a	0			
+21714	1002	Manang (Prakaa)	³lətse	³lətse	and / and then	and / and then			10.1.2.1	0976b	0			
+21715	1002	Manang (Prakaa)	⁴ʔatse ³lətse	⁴ʔatse ³lətse	then	then			9.1.5	0977	0			
+21716	1002	Manang (Prakaa)	³ʔoso ³lətse	³ʔoso ³lətse	therefore / so / accordingly	therefore / so / accordingly			10.1	0978	0			
+21717	1002	Manang (Prakaa)	³haciː ²ləliː	³haciː ²ləliː	because / for	because / for			10.1.2.2	0979	0			
+21718	1002	Manang (Prakaa)	²ʔocoŋ ⁴təli	²ʔocoŋ ⁴təli	but / however	but / however			10.0	0980a	0			
+21719	1002	Manang (Prakaa)	²ʔocoŋ ⁴tətuli	²ʔocoŋ ⁴tətuli	but / however	but / however			10.0	0980b	0			
+21720	1002	Manang (Prakaa)	ʔa -li	ʔa -li	or	or			10.1.2.1	0981	0			
+21721	1002	Manang (Prakaa)	- pə	- pə	when (conj.)	when (conj.)			10.5.3	0982	0			
+21722	1002	Manang (Prakaa)	ʔa -pli	ʔa -pli	before	before			9.1.5	0983a	0			
+21723	1002	Manang (Prakaa)	ʔa -cili	ʔa -cili	before	before			9.1.5	0983b	0			
+21724	1002	Manang (Prakaa)	³kʰakori	³kʰakori	around	around			9.2.5	0984	0			
+21725	1002	Manang (Prakaa)	¹hantsəri	¹hantsəri	towards	towards			9.2.8	0985	0			
+21727	1002	Manang (Prakaa)	³tsʰeːri	³tsʰeːri	instead of	instead of			10.2.1	0987	0			
+21728	1002	Manang (Prakaa)	⁴tʰentaːri	⁴tʰentaːri	for / owing to / in order to	for / owing to / in order to			10.1.1	0988	0			
+21729	1002	Manang (Prakaa)	³tʰoːri	³tʰoːri	concerning / about	concerning / about			8.3.1.9.2	0989	0			
+21730	1002	Manang (Prakaa)	-tse	-tse	by	by			10.0	0990	0			
+21731	1002	Manang (Prakaa)	-tse	-tse	by means of	by means of			10.0	0991	0			
+21732	1002	Manang (Prakaa)	⁴ʔare ¹kyena	⁴ʔare ¹kyena	without	without			10.1.1	0992	0			
+21733	1002	Manang (Prakaa)	¹palani ²ʔocoŋpə	¹palani ²ʔocoŋpə	etc.	etc.			1.5.3.2	0993	0		x	
+21734	1002	Manang (Prakaa)	--	--	about / approximately	about / approximately			10.1	0994	0			
+21735	1002	Manang (Prakaa)	³ɕa	³ɕa	only	only			7.1.6.1	0995	0			
+21736	1002	Manang (Prakaa)	-la	-la	of (genit. p.)	of (genit. p.)			10.1.1	0996	0			
+21738	1002	Manang (Prakaa)	⁴tse	⁴tse	from	from			10.1.1	0998	0			
+21739	1002	Manang (Prakaa)	²toːni	²toːni	till / until	till / until			3.1.10	0999	0			
+21740	1002	Manang (Prakaa)	²pili	²pili	than	than			10.1	1000	0			
+146071	1002	Manang (Prakaa)	³kʰaːkwor	³kʰaːkwor	surrounding / environment / circumference	surrounding / environment / circumference			6.2.2.2	0744	0			
+146072	1002	Manang (Prakaa)	²naŋri	²naŋri	in / among / midst / mid / amid / amongst	in / among / midst / mid / amid / amongst			9.2.5	0986	0			
+146073	1002	Manang (Prakaa)	AUTHOR: Hoshi Monumenta S	AUTHOR: Hoshi Monumenta S	dialect of Prakaa, Manang district, Nepal	dialect of Prakaa, Manang district, Nepal			5.8	INDEX	0		D1	e

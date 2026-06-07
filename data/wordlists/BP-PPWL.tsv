@@ -1,844 +1,844 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-488002	1978	Phom	pʰom⁵⁵	pʰom⁵⁵	cloud	cloud		3.2.1		0		
-488003	1978	Phom	bɛ⁵⁵di³¹ʒuk⁵⁵	bɛ⁵⁵di³¹ʒuk⁵⁵	earthquake	earthquake		3.2.6		0		
-488004	1978	Phom	ñaɯ³³	ñaɯ³³	fog / mist	fog / mist		3.2.1		0		
-488005	1978	Phom	gɛ³³laŋ³³	gɛ³³laŋ³³	lightning	lightning		3.2.1		0		
-488006	1978	Phom	len³¹ñɯ³³	len³¹ñɯ³³	moon ('month'+'mother')	moon ('month'+'mother')		3.2.2		0		3579,1621
-488007	1978	Phom	ʒaŋ⁵⁵	ʒaŋ⁵⁵	rain	rain		3.2.1		0		3571
-488008	1978	Phom	pʰom⁵⁵ʃaŋ³³	pʰom⁵⁵ʃaŋ³³	sky	sky		3.2.2		0		
-488009	1978	Phom	ʃʌ⁵⁵	ʃʌ⁵⁵	snow	snow		3.2.1		0		
-488010	1978	Phom	lit³³hæ³³	lit³³hæ³³	star	star		3.2.2		0		3579,m
-488011	1978	Phom	ʒaŋ⁵⁵he⁵⁵	ʒaŋ⁵⁵he⁵⁵	sun	sun		3.2.10		0		
-488012	1978	Phom	ʒaŋ⁵⁵muk³³	ʒaŋ⁵⁵muk³³	thunder	thunder		3.2.1		0		m,2465
-488013	1978	Phom	ʒaŋ⁵⁵lɯk³³	ʒaŋ⁵⁵lɯk³³	wind (air)	wind (air)		3.2.1		0		
-488014	1978	Phom	pʰiʔ³³læ³¹	pʰiʔ³³læ³¹	dust ('sand'+?)	dust ('sand'+?)		3.2.11		0		
-488015	1978	Phom	gaʔ◦dɔk³³	gaʔdɔk³³	earth / soil	earth / soil		3.2.11		0		2284,m
-488016	1978	Phom	ʃam⁵⁵yoŋ⁵⁵	ʃam⁵⁵yoŋ⁵⁵	lake ('house'+'water')	lake ('house'+'water')		3.2.5		0		1612,7197
-488017	1978	Phom	gæʔ³³ʃaŋ³³	gæʔ³³ʃaŋ³³	mountain	mountain		3.2.5		0		
-488018	1978	Phom	ñaɯ⁵⁵hot⁵⁵	ñaɯ⁵⁵hot⁵⁵	mud	mud		3.2.11		0		
-488019	1978	Phom	pʰi³³yoŋ⁵⁵	pʰi³³yoŋ⁵⁵	puddle	puddle		3.2.3		0		
-488020	1978	Phom	yoŋ⁵⁵ñɯ³³	yoŋ⁵⁵ñɯ³³	river (large)	river (large)		3.2.3		0		7770?,1621
-488021	1978	Phom	yoŋ⁵⁵yɛn³¹	yoŋ⁵⁵yɛn³¹	river (small)	river (small)		3.2.3		0		7770?,m
-488022	1978	Phom	ʃɯ³¹	ʃɯ³¹	saline spring	saline spring		6.7.9		0		
-488023	1978	Phom	pʰiʔ³³	pʰiʔ³³	sand	sand		3.2.11		0		
-488024	1978	Phom	yoŋ⁵⁵čɯŋ³³	yoŋ⁵⁵čɯŋ³³	sea / ocean	sea / ocean		3.2.3		0		
-488025	1978	Phom	yoŋ⁵⁵lok³³	yoŋ⁵⁵lok³³	spring (for water)	spring (for water)		6.7.9		0		7197,m
-488026	1978	Phom	yɔŋ³³	yɔŋ³³	stone	stone		3.2.9		0		1269
-488027	1978	Phom	gæʔ³³či⁵⁵	gæʔ³³či⁵⁵	valley	valley		3.2.5		0		
-488028	1978	Phom	yoŋ⁵⁵	yoŋ⁵⁵	water	water		3.2.3		0		7197
-488029	1978	Phom	yoŋ⁵⁵lɔŋ³¹	yoŋ⁵⁵lɔŋ³¹	waterfall	waterfall		3.2.3		0		
-488030	1978	Phom	yam³¹hi³³mæk⁵⁵	yam³¹hi³³mæk⁵⁵	animal	animal		2.3		0		6093,m,m
-488031	1978	Phom	ʃʌk⁵⁵	ʃʌk⁵⁵	buffalo (of the plains)	buffalo (of the plains)		2.1.2		0		
-488032	1978	Phom	ot³¹	ot³¹	camel	camel		2.2.7		0		5733?,b
-488033	1978	Phom	mæ⁵⁵ʃi⁵⁵	mæ⁵⁵ʃi⁵⁵	cat	cat		2.1.3		0		
-488034	1978	Phom	mo³³hoʔ³³	mo³³hoʔ³³	cattle / cow / ox	cattle / cow / ox		2.1.2		0		b
-488035	1978	Phom	ʃi³³	ʃi³³	dog	dog		2.1.11		0		1764
-488036	1978	Phom	yom⁵⁵	yom⁵⁵	goat	goat		2.1.8		0		6028
-488037	1978	Phom	gɔ⁵⁵yʌy⁵⁵	gɔ⁵⁵yʌy⁵⁵	horse	horse		2.1.7		0		
-488038	1978	Phom	ñæ³¹	ñæ³¹	mithun (water buffalo)	mithun (water buffalo)		2.1.2		0		2538
-488039	1978	Phom	ok⁵⁵	ok⁵⁵	pig	pig		2.1.12		0		1006
-488040	1978	Phom	mi⁵⁵	mi⁵⁵	sheep	sheep		2.1.8		0		4769
-488041	1978	Phom	ap³³bak³³	ap³³bak³³	bat (animal)	bat (animal)		2.2.4.1		0		m,2146
-488042	1978	Phom	ʃap³³daw⁵⁵	ʃap³³daw⁵⁵	bear	bear		2.2.3		0		
-488043	1978	Phom	mʌy³¹ʃi³¹	mʌy³¹ʃi³¹	deer (barking)	deer (barking)		2.2.2		0		39,m
-488044	1978	Phom	ʃɔk³³	ʃɔk³³	deer (big horned)	deer (big horned)		2.2.2		0		
-488045	1978	Phom	mʌy³¹ñɯ³³	mʌy³¹ñɯ³³	elephant	elephant		2.2.1		0		2257,1621
-488046	1978	Phom	hu⁵⁵lu³³	hu⁵⁵lu³³	gibbon (black)	gibbon (black)		2.1.9		0		
-488047	1978	Phom	ʃi³³ŋæ⁵⁵	ʃi³³ŋæ⁵⁵	gibbon (brown)	gibbon (brown)		2.1.9		0		
-488048	1978	Phom	mæ³¹hu³¹	mæ³¹hu³¹	jackal / fox	jackal / fox		2.1.11		0		999R
-488049	1978	Phom	ʒɯ³¹	ʒɯ³¹	mole	mole		2.2.7		0		
-488050	1978	Phom	hap³³	hap³³	monkey (long-tailed langur)	monkey (long-tailed langur)		2.1.9		0		
-488051	1978	Phom	mʌy³¹ʃæŋ⁵⁵	mʌy³¹ʃæŋ⁵⁵	monkey (macaque)	monkey (macaque)		2.1.9		0		39,m
-488052	1978	Phom	mʌy³¹yaʔ³³	mʌy³¹yaʔ³³	mountain goat	mountain goat		3.2.5		0		m,6032
-488053	1978	Phom	yʌ³³pʰʌʔ³³oŋ⁵⁵	yʌ³³pʰʌʔ³³oŋ⁵⁵	rabbit	rabbit		2.1.1		0		
-488054	1978	Phom	yɯp³³hɯʔ³³	yɯp³³hɯʔ³³	rat	rat		2.1.1		0		2796,m
-488055	1978	Phom	goŋ⁵⁵aw⁵⁵	goŋ⁵⁵aw⁵⁵	squirrel	squirrel		2.1.1		0		
-488056	1978	Phom	ʃaʔ³³ñɯ³³	ʃaʔ³³ñɯ³³	tiger	tiger		2.1.3		0		5560,1621
-488057	1978	Phom	ʃɔ⁵⁵	ʃɔ⁵⁵	wolf	wolf		2.1.11		0		6053
-488058	1978	Phom	u³³	u³³	bird (general term) / fowl	bird (general term) / fowl		2.2.4		0		301
-488059	1978	Phom	u³³bɔŋ⁵⁵	u³³bɔŋ⁵⁵	cock / rooster	cock / rooster		2.1.10		0		
-488060	1978	Phom	a³³ʃæ⁵⁵	a³³ʃæ⁵⁵	crow	crow		2.2.4.1		0		
-488061	1978	Phom	a³³tʰu⁵⁵	a³³tʰu⁵⁵	dove	dove		2.2.4.1		0		
-488062	1978	Phom	bat⁵⁵æk⁵⁵|	bat⁵⁵æk⁵⁵	duck	duck		2.1.10		0		5716
-488063	1978	Phom	a³³læŋ⁵⁵	a³³læŋ⁵⁵	eagle	eagle		2.2.4.1		0		m,2393
-488064	1978	Phom	hæn³³	hæn³³	goose	goose		2.1.10		0		
-488065	1978	Phom	a³³ʃoŋ⁵⁵	a³³ʃoŋ⁵⁵	myna	myna				0		
-488066	1978	Phom	a³³ʃɯʔ³³lɔŋ³³gɔŋ³¹	a³³ʃɯʔ³³lɔŋ³³gɔŋ³¹	owl	owl		2.2.4.1		0		
-488067	1978	Phom	a³³dʌ⁵⁵	a³³dʌ⁵⁵	peacock	peacock		2.2.4.1		0		
-488068	1978	Phom	læŋ⁵⁵dæ³¹	læŋ⁵⁵dæ³¹	vulture	vulture		2.2.4.1		0		
-488069	1978	Phom	a³³ñæŋ⁵⁵	a³³ñæŋ⁵⁵	woodpecker	woodpecker		2.2.4.1		0		
-488070	1978	Phom	ñæʔ³³	ñæʔ³³	fish	fish		2.2.5		0		1455
-488071	1978	Phom	luk³³	luk³³	frog	frog		2.1.6.2		0		
-488072	1978	Phom	kʰaŋ⁵⁵hæ³³	kʰaŋ⁵⁵hæ³³	house lizard	house lizard		5.11.9.1		0		
-488073	1978	Phom	ʃok³³ʒæŋ⁵⁵	ʃok³³ʒæŋ⁵⁵	shrimp / prawn	shrimp / prawn		2.2.5		0		
-488074	1978	Phom	ʃap³³ʃoŋ⁵⁵	ʃap³³ʃoŋ⁵⁵	snail ('bear'+'shell')	snail ('bear'+'shell')		2.2.5		0		
-488075	1978	Phom	bɯ³¹	bɯ³¹	snake	snake		2.1.6.1		0		2178
-488076	1978	Phom	ʃok⁵⁵yæŋ⁵⁵	ʃok⁵⁵yæŋ⁵⁵	tortoise	tortoise		2.1.6		0		
-488077	1978	Phom	čæŋ⁵⁵nen⁵⁵	čæŋ⁵⁵nen⁵⁵	turtle (water)	turtle (water)		2.1.6		0		
-488078	1978	Phom	mɛ⁵⁵laɯ⁵⁵	mɛ⁵⁵laɯ⁵⁵	ant	ant		2.2.6		0		
-488079	1978	Phom	lʌŋ⁵⁵hʌŋ⁵⁵	lʌŋ⁵⁵hʌŋ⁵⁵	bedbug ('bed'+?)	bedbug ('bed'+?)		2.2.6		0		
-488080	1978	Phom	hʌŋ⁵⁵hʌŋ⁵⁵	hʌŋ⁵⁵hʌŋ⁵⁵	bedbug	bedbug		2.2.6		0		
-488081	1978	Phom	ñæʔ³³ñɯ³³	ñæʔ³³ñɯ³³	bee	bee		2.2.6		0		m,1621
-488082	1978	Phom	bi³³ʃok⁵⁵	bi³³ʃok⁵⁵	butterfly	butterfly		2.2.6		0		
-488083	1978	Phom	lak³³hak³³læ³³hak³³	lak³³hak³³læ³³hak³³	centipede ('arm'+'red'+'leg'+'red')	centipede ('arm'+'red'+'leg'+'red')		9.4		0		695,m,m,m
-488084	1978	Phom	yɯp³³ʃɔ⁵⁵	yɯp³³ʃɔ⁵⁵	cockroach	cockroach		2.2.6		0		
-488085	1978	Phom	iʔ³³tʰu⁵⁵	iʔ³³tʰu⁵⁵	dung beetle ('dung'+'dove')	dung beetle ('dung'+'dove')		1.8.5		0		
-488086	1978	Phom	ɔ³³læʔ³³	ɔ³³læʔ³³	firefly ('fire'+?)	firefly ('fire'+?)		2.2.6		0		
-488087	1978	Phom	mæn⁵⁵hæ³³	mæn⁵⁵hæ³³	fly	fly		2.2.6		0		
-488088	1978	Phom	bi⁵⁵bʌ³³	bi⁵⁵bʌ³³	flying insect	flying insect		6.7.5		0		
-488089	1978	Phom	ʃuk³³	ʃuk³³	grasshopper	grasshopper		2.2.6		0		
-488090	1978	Phom	ñæʔ³³ʃay³¹	ñæʔ³³ʃay³¹	honey bee	honey bee		2.2.6		0		
-488091	1978	Phom	yam³¹hæ³³mæk⁵⁵hæ³³	yam³¹hæ³³mæk⁵⁵hæ³³	insect / bug	insect / bug		2.2.6		0		
-488092	1978	Phom	op⁵⁵	op⁵⁵	leech (land)	leech (land)		2.2.6		0		
-488093	1978	Phom	dæk⁵⁵	dæk⁵⁵	leech (water)	leech (water)		2.2.6		0		
-488094	1978	Phom	dat³³	dat³³	louse	louse		2.2.6		0		
-488095	1978	Phom	mawʔ³³doŋ³³	mawʔ³³doŋ³³	mosquito	mosquito		2.2.6		0		
-488096	1978	Phom	mæk⁵⁵	mæk⁵⁵	spider	spider		2.2.6		0		bIndic
-488097	1978	Phom	pʰæ³¹pʰæ³¹	pʰæ³¹pʰæ³¹	tick (insect)	tick (insect)		2.2.6		0		
-488098	1978	Phom	mɛ³¹tʰaʔ³³	mɛ³¹tʰaʔ³³	white ant / termite	white ant / termite		2.2.6		0		
-488099	1978	Phom	lɔŋ³³	lɔŋ³³	worm	worm		2.2.6		0		5432
-488100	1978	Phom	huŋ³¹	huŋ³¹	bark (dog)	bark (dog)		2.1.11.1		0		6092
-488101	1978	Phom	mɯ⁵⁵	mɯ⁵⁵	goat's hair (dyed red, used for decoration)	goat's hair (dyed red, used for decoration)		2.1.8		0		
-488102	1978	Phom	a³³di⁵⁵	a³³di⁵⁵	egg	egg				0		
-488103	1978	Phom	a³³di⁵⁵ʃop⁵⁵	a³³di⁵⁵ʃop⁵⁵	egg shell	egg shell				0		
-488104	1978	Phom	yaŋ⁵⁵	yaŋ⁵⁵	feather	feather		1.6.1.1		0		720
-488105	1978	Phom	ŋɯŋ⁵⁵	ŋɯŋ⁵⁵	growl (animal)	growl (animal)		2.1.11.1		0		
-488106	1978	Phom	ñæʔ³³čɯ⁵⁵	ñæʔ³³čɯ⁵⁵	honey ('bee'+'juice')	honey ('bee'+'juice')		2.2.6		0		
-488107	1978	Phom	wɔŋ⁵⁵	wɔŋ⁵⁵	horn (of animal)	horn (of animal)		1.2.2		0		814
-488108	1978	Phom	čap³³	čap³³	nest	nest		2.2.4		0		
-488109	1978	Phom	ʃɔ³³	ʃɔ³³	path of an animal	path of an animal		9.10.1		0		
-488110	1978	Phom	ʃoŋ⁵⁵	ʃoŋ⁵⁵	shell (e.g. turtle's)	shell (e.g. turtle's)		2.2.5		0		
-488111	1978	Phom	mæk⁵⁵ñim⁵⁵	mæk⁵⁵ñim⁵⁵	spider web ('spider'+?)	spider web ('spider'+?)		2.2.6		0		bIndic,m
-488112	1978	Phom	ñɯʔ³³ʃʌy³¹	ñɯʔ³³ʃʌy³¹	sting	sting		2.4.2		0		
-488113	1978	Phom	mʌy³³	mʌy³³	tail	tail		1.4.10.1		0		5545
-488114	1978	Phom	ʃam³³	ʃam³³	trunk (elephant)	trunk (elephant)		1.4.1		0		
-488115	1978	Phom	mʌy³¹ñɯ³³pʰæ³¹	mʌy³¹ñɯ³³pʰæ³¹	tusk (elephant)	tusk (elephant)		1.3.4.1		0		2257,1621,m
-488116	1978	Phom	yaŋ⁵⁵	yaŋ⁵⁵	wing / feather	wing / feather		1.5.1.3		0		720
-488117	1978	Phom	pʰaɯ³³	pʰaɯ³³	forest / jungle	forest / jungle		3.2.5		0		
-488118	1978	Phom	ʃʌ³³	ʃʌ³³	forest / jungle	forest / jungle		3.2.5		0		
-488119	1978	Phom	bʌ⁵⁵	bʌ⁵⁵	tree	tree		3.1.2		0		
-488120	1978	Phom	gɔ⁵⁵čʌk⁵⁵	gɔ⁵⁵čʌk⁵⁵	areca nut	areca nut		3.1.1		0		
-488121	1978	Phom	woŋ⁵⁵	woŋ⁵⁵	bamboo	bamboo		3.1.1		0		
-488122	1978	Phom	ŋu³³	ŋu³³	banana	banana		3.1.5		0		
-488123	1978	Phom	bɛ⁵⁵lɔŋ⁵⁵	bɛ⁵⁵lɔŋ⁵⁵	jackfruit	jackfruit		3.1.5		0		
-488124	1978	Phom	tʰi⁵⁵yɔk⁵⁵hæŋ⁵⁵baw⁵⁵	tʰi⁵⁵yɔk⁵⁵hæŋ⁵⁵baw⁵⁵	lime (fruit)	lime (fruit)		3.1.5		0		
-488125	1978	Phom	a³³ʃoy³¹	a³³ʃoy³¹	mango	mango				0		
-488126	1978	Phom	ʒɯŋ⁵⁵ñaŋ⁵⁵hæŋ⁵⁵baw⁵⁵	ʒɯŋ⁵⁵ñaŋ⁵⁵hæŋ⁵⁵baw⁵⁵	orange	orange		3.1.5		0		
-488127	1978	Phom	am⁵⁵mi⁵⁵tʰæ³³	am⁵⁵mi⁵⁵tʰæ³³	papaya	papaya		3.1.5		0		
-488128	1978	Phom	yæ⁵⁵liŋ⁵⁵hæŋ⁵⁵baw⁵⁵	yæ⁵⁵liŋ⁵⁵hæŋ⁵⁵baw⁵⁵	pomelo	pomelo				0		
-488129	1978	Phom	oŋ⁵⁵čʌk⁵⁵	oŋ⁵⁵čʌk⁵⁵	maize	maize		3.1.5		0		
-488130	1978	Phom	ʃi⁵⁵	ʃi⁵⁵	millet	millet		1.5.3.2		0		
-488131	1978	Phom	nʌk³³	nʌk³³	rice (cooked)	rice (cooked)		3.1.4		0		
-488132	1978	Phom	ɔŋ⁵⁵	ɔŋ⁵⁵	rice (husked)	rice (husked)		3.1.4		0		
-488133	1978	Phom	haʔ³³	haʔ³³	rice plant / paddy	rice plant / paddy		3.1.4		0		
-488134	1978	Phom	nʌk³³čaɯ⁵⁵	nʌk³³čaɯ⁵⁵	rice (sticky)	rice (sticky)		3.1.4		0		
-488135	1978	Phom	doŋ³³	doŋ³³	arum	arum		3.1.8		0		
-488136	1978	Phom	hɯŋ⁵⁵	hɯŋ⁵⁵	ginger	ginger		3.1.5		0		647
-488137	1978	Phom	bʌ⁵⁵ʃe⁵⁵	bʌ⁵⁵ʃe⁵⁵	manioc / tapioca	manioc / tapioca				0		
-488138	1978	Phom	ʃe⁵⁵čʌk⁵⁵	ʃe⁵⁵čʌk⁵⁵	potato	potato		3.1.5		0		
-488139	1978	Phom	mɛ³³lɔŋ³³ʃe⁵⁵	mɛ³³lɔŋ³³ʃe⁵⁵	sweet potato	sweet potato		7.1.4.4		0		
-488140	1978	Phom	ʃe⁵⁵	ʃe⁵⁵	yam	yam		3.1.5		0		
-488141	1978	Phom	mʌy³³ʃʌy⁵⁵	mʌy³³ʃʌy⁵⁵	bamboo shoots (dry)	bamboo shoots (dry)		3.1.1		0		
-488142	1978	Phom	mʌy³³či⁵⁵	mʌy³³či⁵⁵	bamboo shoots (juice from)	bamboo shoots (juice from)		3.1.1		0		
-488143	1978	Phom	mʌy³³ʃɔŋ⁵⁵	mʌy³³ʃɔŋ⁵⁵	bamboo shoots (crushed)	bamboo shoots (crushed)		3.1.1		0		
-488144	1978	Phom	li³³haw⁵⁵	li³³haw⁵⁵	beans (green)	beans (green)		3.1.4		0		
-488145	1978	Phom	bɛ⁵⁵lu⁵⁵	bɛ⁵⁵lu⁵⁵	betel leaf, pan	betel leaf, pan		3.1.4		0		
-488146	1978	Phom	ʒʌy⁵⁵	ʒʌy⁵⁵	cane	cane		5.11.8.2.2		0		
-488147	1978	Phom	tʰoŋ⁵⁵hæŋ⁵⁵	tʰoŋ⁵⁵hæŋ⁵⁵	chili peppers	chili peppers		3.1.5		0		
-488148	1978	Phom	pʰɯm⁵⁵pʰaʔ³³	pʰɯm⁵⁵pʰaʔ³³	cotton	cotton		5.1		0		
-488149	1978	Phom	læŋ⁵⁵	læŋ⁵⁵	dyed cane	dyed cane		5.11.8.2.2		0		
-488150	1978	Phom	bin⁵⁵do⁵⁵	bin⁵⁵do⁵⁵	eggplant / brinjal	eggplant / brinjal		3.1.5		0		b
-488151	1978	Phom	a³³ʃɛʔ³³	a³³ʃɛʔ³³	garlic	garlic		3.1.5		0		
-488152	1978	Phom	law³³	law³³	gourd	gourd		3.1.6.4		0		
-488153	1978	Phom	tʰɯŋ⁵⁵	tʰɯŋ⁵⁵	grass	grass		3.1.8		0		
-488154	1978	Phom	goŋ⁵⁵æŋ⁵⁵	goŋ⁵⁵æŋ⁵⁵	mushroom	mushroom		3.1.7		0		
-488155	1978	Phom	laŋ⁵⁵	laŋ⁵⁵	straw	straw		3.1.6.2		0		
-488156	1978	Phom	yæŋ⁵⁵	yæŋ⁵⁵	sugarcane	sugarcane		3.1.5		0		
-488157	1978	Phom	æn⁵⁵	æn⁵⁵	bread	bread		5.5		0		
-488158	1978	Phom	laŋ³¹	laŋ³¹	cooked food	cooked food		5.5		0		
-488159	1978	Phom	haw³³	haw³³	curry	curry		3.1.6		0		
-488160	1978	Phom	ñæʔ³³ʒæn³¹	ñæʔ³³ʒæn³¹	dried fish ('fish'+'dry')	dried fish ('fish'+'dry')		6.6		0		1455,m
-488161	1978	Phom	čʌɯ³¹	čʌɯ³¹	fat / grease	fat / grease		1.6.4		0		60
-488162	1978	Phom	mɔ⁵⁵	mɔ⁵⁵	feast	feast		5.5		0		
-488163	1978	Phom	pʰay⁵⁵	pʰay⁵⁵	meat / flesh	meat / flesh		1.1.1.1		0		22
-488164	1978	Phom	may⁵⁵ŋæ⁵⁵	may⁵⁵ŋæ⁵⁵	oil (cooking)	oil (cooking)		1.6.4.1		0		
-488165	1978	Phom	hɯm³³	hɯm³³	salt	salt		3.2.4		0		2644
-488166	1978	Phom	yɯ³¹	yɯ³¹	wine / liquor / rice beer	wine / liquor / rice beer		3.1.6.3		0		
-488167	1978	Phom	dɔ³³	dɔ³³	yeast	yeast		3.1.6.3		0		
-488168	1978	Phom	ʃɔ⁵⁵	ʃɔ⁵⁵	bark	bark		2.1.11.1		0		1792
-488169	1978	Phom	gaw³³	gaw³³	branch	branch		1.5.3.1		0		
-488170	1978	Phom	čɯ³³	čɯ³³	flower	flower		3.1.4		0		
-488171	1978	Phom	bɛt³³čʌk⁵⁵	bɛt³³čʌk⁵⁵	fruit	fruit		3.1.5		0		
-488172	1978	Phom	woŋ⁵⁵mʌk³³	woŋ⁵⁵mʌk³³	joint (of bamboo) ('bamboo'+'eye')	joint (of bamboo) ('bamboo'+'eye')		3.1.1		0		m,682
-488173	1978	Phom	woŋ⁵⁵ ʃɯʔ³³	woŋ⁵⁵ ʃɯʔ³³	joint (of bamboo) ('bamboo'+?)	joint (of bamboo) ('bamboo'+?)		3.1.1		0		
-488174	1978	Phom	čɯ⁵⁵	čɯ⁵⁵	juice	juice		3.1.6.3		0		
-488175	1978	Phom	lʌɯ³¹	lʌɯ³¹	poison	poison		6.4		0		
-488176	1978	Phom	dɯŋ⁵⁵læŋ⁵⁵	dɯŋ⁵⁵læŋ⁵⁵	root	root		3.1.2		0		
-488177	1978	Phom	ʒæŋ³³	ʒæŋ³³	seed	seed		3.1.4		0		
-488178	1978	Phom	lʌŋ³³	lʌŋ³³	stick	stick		3.1.2		0		
-488179	1978	Phom	hɯʔ³³	hɯʔ³³	thorn	thorn		3.1.2		0		
-488180	1978	Phom	bʌ⁵⁵ñɯ³³bɯm³¹	bʌ⁵⁵ñɯ³³bɯm³¹	trunk (of tree) ('tree'+'mother'+?)	trunk (of tree) ('tree'+'mother'+?)		3.1.2		0		m,1621,m
-488181	1978	Phom	ñæ⁵⁵lɯŋ⁵⁵ŋɔ⁵⁵bay⁵⁵	ñæ⁵⁵lɯŋ⁵⁵ŋɔ⁵⁵bay⁵⁵	vine	vine		3.1.7		0		
-488182	1978	Phom	boŋ⁵⁵	boŋ⁵⁵	bloom	bloom		3.1.10		0		
-488183	1978	Phom	ʃe³³	ʃe³³	decay	decay		9.5		0		
-488184	1978	Phom	ʃɯm³³	ʃɯm³³	ripe	ripe		3.1.10		0		
-488185	1978	Phom	li³¹	li³¹	ripe / mature	ripe / mature		3.1.10		0		
-488186	1978	Phom	ʃe³³	ʃe³³	rot	rot	v.i.	3.1.10		0		
-488187	1978	Phom	ʃe³¹	ʃe³¹	rot, cause to	rot, cause to	v.t.	3.1.10		0		
-488188	1978	Phom	li⁵⁵	li⁵⁵	seedling	seedling		3.1.8		0		
-488189	1978	Phom	ʃuŋ³¹	ʃuŋ³¹	shoot of plant	shoot of plant		6.2.2.1		0		
-488190	1978	Phom	mæŋ³³	mæŋ³³	spoil	spoil		9.5		0		
-488191	1978	Phom	in³¹	in³¹	sprout (n.) / germinate (v.)	sprout (n.) / germinate (v.)	n./v.	3.1.10		0		
-488192	1978	Phom	tʰɯŋ⁵⁵	tʰɯŋ⁵⁵	unripe / green	unripe / green		3.1.10		0		
-488193	1978	Phom	haŋ⁵⁵	haŋ⁵⁵	body	body		1.1.1		0		
-488194	1978	Phom	om³¹tʰɔŋ³³	om³¹tʰɔŋ³³	cheek (?+'ear')	cheek (?+'ear')		1.2.5.2		0		
-488195	1978	Phom	ʃaʔ³³ʒæŋ³³	ʃaʔ³³ʒæŋ³³	chin	chin		1.2.5.3		0		
-488196	1978	Phom	tʰɔŋ³³	tʰɔŋ³³	ear	ear		1.2.7		0		
-488197	1978	Phom	mɯk³³	mɯk³³	eye	eye		1.2.6		0		682
-488198	1978	Phom	tʰe³¹	tʰe³¹	face	face		1.2.5		0		384
-488199	1978	Phom	ʃaŋ⁵⁵bæ³¹	ʃaŋ⁵⁵bæ³¹	forehead	forehead		1.2.5.1		0		
-488200	1978	Phom	ʃaŋ⁵⁵čɯŋ⁵⁵	ʃaŋ⁵⁵čɯŋ⁵⁵	head	head		1.2.1		0		
-488201	1978	Phom	ču⁵⁵ban³³	ču⁵⁵ban³³	lip	lip		1.3.2		0		
-488202	1978	Phom	ču⁵⁵	ču⁵⁵	mouth	mouth		1.3.1		0		
-488203	1978	Phom	ɯŋ³³	ɯŋ³³	neck	neck		1.4.2		0		479
-488204	1978	Phom	ʃoŋ³³	ʃoŋ³³	nose	nose		1.2.8		0		
-488205	1978	Phom	yʌy⁵⁵	yʌy⁵⁵	tongue	tongue		1.3.3		0		621
-488206	1978	Phom	pʰæ³¹	pʰæ³¹	tooth	tooth		1.3.4		0		
-488207	1978	Phom	dɔk³³	dɔk³³	back (of body)	back (of body)		1.4.8		0		
-488208	1978	Phom	wom³³	wom³³	belly	belly		1.4.7		0		
-488209	1978	Phom	am⁵⁵mæ⁵⁵	am⁵⁵mæ⁵⁵	breast / milk	breast / milk		1.4.4.3		0		p,3457
-488210	1978	Phom	čæ⁵⁵bæ³¹	čæ⁵⁵bæ³¹	chest	chest		1.4.4.3		0		
-488211	1978	Phom	huŋ³³	huŋ³³	navel	navel		1.9.4		0		
-488212	1978	Phom	am⁵⁵mæ⁵⁵ču⁵⁵	am⁵⁵mæ⁵⁵ču⁵⁵	nipple (am⁵⁵mæ⁵⁵ 'breast'; ču⁵⁵ 'mouth')	nipple (am⁵⁵mæ⁵⁵ 'breast'; ču⁵⁵ 'mouth')				0		p,3457,m
-488213	1978	Phom	ʃʌŋ³³	ʃʌŋ³³	waist	waist		1.4.6		0		222
-488214	1978	Phom	gom⁵⁵	gom⁵⁵	anus	anus		1.4.10.2		0		
-488215	1978	Phom	ŋap³³	ŋap³³	buttocks	buttocks		1.4.10		0		
-488216	1978	Phom	hɔ³³	hɔ³³	clitoris	clitoris				0		
-488217	1978	Phom	daŋ³³	daŋ³³	penis	penis				0		
-488218	1978	Phom	daŋ³³a³³di⁵⁵	daŋ³³a³³di⁵⁵	testicle	testicle				0		
-488219	1978	Phom	ʃɯʔ³³	ʃɯʔ³³	vulva	vulva				0		
-488220	1978	Phom	lak³³	lak³³	arm / hand	arm / hand		1.5.1.2		0		695
-488221	1978	Phom	pʰak³³ʃæ⁵⁵	pʰak³³ʃæ⁵⁵	armpit	armpit		1.5.1.2.3		0		
-488222	1978	Phom	lak³³nawʔ³³	lak³³nawʔ³³	elbow	elbow		1.5.8.3		0		695,m
-488223	1978	Phom	lak³³čæŋ⁵⁵	lak³³čæŋ⁵⁵	finger	finger		1.5.6		0		695,5628
-488224	1978	Phom	lak³³hæp⁵⁵	lak³³hæp⁵⁵	hand	hand		1.5.1.1		0		695,m
-488225	1978	Phom	lak³³tʰan³¹	lak³³tʰan³¹	nail (finger)	nail (finger)		1.5.10		0		695,m
-488226	1978	Phom	lak³³pʰæ³¹	lak³³pʰæ³¹	palm (of hand)	palm (of hand)		1.5.5		0		695,m
-488227	1978	Phom	pʰak³³čɔŋ³³	pʰak³³čɔŋ³³	shoulder	shoulder		1.4.3		0		568,3346
-488228	1978	Phom	læ³³dɔk³³	læ³³dɔk³³	instep (?+'back')	instep (?+'back')		1.5.2.2		0		
-488229	1978	Phom	læ³³men⁵⁵	læ³³men⁵⁵	footprint	footprint		1.5.2.5		0		
-488230	1978	Phom	læ³³oŋ⁵⁵	læ³³oŋ⁵⁵	heel	heel		1.5.2.1		0		
-488231	1978	Phom	læ³³ʃɯʔ³³	læ³³ʃɯʔ³³	knee	knee		1.5.8.4		0		350,m
-488232	1978	Phom	læ³³	læ³³	leg / foot	leg / foot		1.5.7		0		350
-488233	1978	Phom	ʃʌŋ⁵⁵, ʃʌŋ⁵⁵goŋ⁵⁵	ʃʌŋ⁵⁵, ʃʌŋ⁵⁵goŋ⁵⁵	thigh / lap	thigh / lap		1.5.7.1		0		
-488235	1978	Phom	ʃaŋ⁵⁵bæŋ⁵⁵	ʃaŋ⁵⁵bæŋ⁵⁵	bald	bald		1.2.3.4		0		
-488236	1978	Phom	ču⁵⁵mom⁵⁵	ču⁵⁵mom⁵⁵	beard / mustache	beard / mustache		1.2.5.5		0		m,2058
-488237	1978	Phom	mɯk³³mom⁵⁵	mɯk³³mom⁵⁵	eyebrow	eyebrow		1.2.6.6		0		
-488238	1978	Phom	mom⁵⁵	mom⁵⁵	hair (body)	hair (body)		1.2.3		0		2058
-488239	1978	Phom	ʃu⁵⁵	ʃu⁵⁵	hair (head)	hair (head)		1.2.3		0		
-488240	1978	Phom	pʰak³³ʃæ⁵⁵mom⁵⁵	pʰak³³ʃæ⁵⁵mom⁵⁵	hair (underarm)	hair (underarm)		1.2.3		0		m,m,2058
-488241	1978	Phom	i³³	i³³	blood	blood		1.6.2		0		230
-488242	1978	Phom	nɯ³¹hi³³næm³³	nɯ³¹hi³³næm³³	dirt / feces	dirt / feces		1.5.3.2		0		
-488243	1978	Phom	iʔ³³du³¹	iʔ³³du³¹	fart ('feces'+'blow')	fart ('feces'+'blow')		1.8.5.2		0		
-488244	1978	Phom	lɯ⁵⁵	lɯ⁵⁵	fart slowly	fart slowly		1.8.5.2		0		
-488245	1978	Phom	iʔ³³	iʔ³³	feces / dung	feces / dung		1.8.5		0		
-488246	1978	Phom	am⁵⁵mæ⁵⁵	am⁵⁵mæ⁵⁵	milk / breast	milk / breast				0		p,3457
-488247	1978	Phom	u³¹	u³¹	nose dirt / snot	nose dirt / snot		1.2.8		0		
-488248	1978	Phom	lam³³	lam³³	placenta	placenta				0		
-488249	1978	Phom	mæ³¹ʃɯ³³	mæ³¹ʃɯ³³	pus	pus		1.8.6.1		0		
-488250	1978	Phom	gɔ³³	gɔ³³	scars	scars				0		
-488251	1978	Phom	ʃɔ⁵⁵	ʃɔ⁵⁵	skin	skin		1.6.5		0		
-488252	1978	Phom	yo³³up⁵⁵	yo³³up⁵⁵	spit / saliva	spit / saliva		1.8.3		0		
-488253	1978	Phom	lam⁵⁵ɔ³¹	lam⁵⁵ɔ³¹	sweat	sweat		1.8.1		0		797,m
-488254	1978	Phom	mɯk³³pʰi³¹	mɯk³³pʰi³¹	tears	tears		1.2.6.7		0		
-488255	1978	Phom	ʃen³¹	ʃen³¹	urine	urine		1.8.4		0		
-488256	1978	Phom	pʰay³¹	pʰay³¹	vomit	vomit		1.8.3.2		0		1145
-488257	1978	Phom	ʃom⁵⁵bu⁵⁵	ʃom⁵⁵bu⁵⁵	bladder	bladder		1.7.8		0		
-488258	1978	Phom	ʃu⁵⁵li⁵⁵	ʃu⁵⁵li⁵⁵	brain	brain		1.2.4		0		
-488259	1978	Phom	pʰay⁵⁵	pʰay⁵⁵	flesh / meat	flesh / meat		1.1.1.1		0		22
-488260	1978	Phom	yɯ³¹	yɯ³¹	gall bladder	gall bladder		1.7.3		0		
-488261	1978	Phom	lʌy³³	lʌy³³	guts / intestines	guts / intestines		1.7.7		0		
-488262	1978	Phom	mɔŋ⁵⁵daŋ³³	mɔŋ⁵⁵daŋ³³	heart	heart		1.7.1		0		1392
-488263	1978	Phom	ʃe³³	ʃe³³	kidney	kidney		1.7.5		0		
-488264	1978	Phom	tʰan³³	tʰan³³	liver	liver		1.7.3		0		1390
-488265	1978	Phom	yu⁵⁵	yu⁵⁵	muscle	muscle		1.6.6.2		0		
-488266	1978	Phom	wom³³	wom³³	stomach	stomach		1.7.6		0		
-488267	1978	Phom	naɯ⁵⁵u⁵⁵ʃɯŋ³³	naɯ⁵⁵u⁵⁵ʃɯŋ³³	womb / uterus ('baby'+'sit'+'place')	womb / uterus ('baby'+'sit'+'place')				0		
-488268	1978	Phom	ʒæŋ³³	ʒæŋ³³	bone	bone		1.6.3		0		238
-488269	1978	Phom	dɔk³³ʒæŋ³³	dɔk³³ʒæŋ³³	backbone	backbone		1.4.8.2		0		
-488270	1978	Phom	ʃæʔ³³ʒæŋ³³	ʃæʔ³³ʒæŋ³³	jawbone	jawbone		1.2.5.2		0		
-488271	1978	Phom	ʒæŋ³³ni⁵⁵	ʒæŋ³³ni⁵⁵	marrow	marrow		1.6.3.5		0		
-488272	1978	Phom	hæm⁵⁵bæt⁵⁵ʒæŋ³³	hæm⁵⁵bæt⁵⁵ʒæŋ³³	rib	rib		1.4.4.3		0		
-488273	1978	Phom	ʃaŋ⁵⁵ʒæŋ³³	ʃaŋ⁵⁵ʒæŋ³³	skull	skull		1.2.1.1		0		
-488274	1978	Phom	ŋʌy³³	ŋʌy³³	I	I		4.1		0		2530
-488275	1978	Phom	nɯŋ³³	nɯŋ³³	you (sg.)	you (sg.)		4.1		0		2489
-488276	1978	Phom	bin³³ñɯ⁵⁵	bin³³ñɯ⁵⁵	she	she		4.1		0		
-488277	1978	Phom	bʌ³³bæ⁵⁵	bʌ³³bæ⁵⁵	he	he		4.1		0		
-488278	1978	Phom	hæm³³pʰoŋ³³	hæm³³pʰoŋ³³	we (exclusive)	we (exclusive)		4.1		0		
-488279	1978	Phom	či⁵⁵	či⁵⁵	we (dual, inclusive)	we (dual, inclusive)		4.1		0		
-488280	1978	Phom	æm³³pʰoŋ³³	æm³³pʰoŋ³³	you (pl.)	you (pl.)		4.1		0		
-488281	1978	Phom	čom⁵⁵pʰoŋ³³	čom⁵⁵pʰoŋ³³	they	they		4.1		0		
-488282	1978	Phom	ñɯŋ³¹ñɯŋ³¹	ñɯŋ³¹ñɯŋ³¹	self	self		4.1		0		
-488283	1978	Phom	nɛ³³tʰe⁵⁵	nɛ³³tʰe⁵⁵	adolescent boy	adolescent boy		1.9.6.1		0		
-488284	1978	Phom	nɛ³³læ⁵⁵	nɛ³³læ⁵⁵	adolescent girl	adolescent girl		1.9.3		0		m,5493
-488285	1978	Phom	naɯ⁵⁵	naɯ⁵⁵	baby	baby		4.2.11		0		
-488286	1978	Phom	ʃoŋ³¹hæ³³	ʃoŋ³¹hæ³³	bastard	bastard		4.7.3		0		
-488287	1978	Phom	ba³³hæ⁵⁵naɯ⁵⁵	ba³³hæ⁵⁵naɯ⁵⁵	boy	boy		1.9.6.1		0		1634,m,s
-488288	1978	Phom	hæ³³ʃiʔ³³	hæ³³ʃiʔ³³	child (young person)	child (young person)		1.5.3.2		0		
-488289	1978	Phom	ñɯ³³hæ⁵⁵naɯ⁵⁵	ñɯ³³hæ⁵⁵naɯ⁵⁵	girl	girl		1.9.3		0		1621,m,s
-488290	1978	Phom	yan³³	yan³³	guest	guest		4.4.3		0		
-488291	1978	Phom	oŋ⁵⁵	oŋ⁵⁵	king	king		4.2.5		0		
-488292	1978	Phom	may³³	may³³	lover	lover		8.3.1.1.1		0		
-488293	1978	Phom	ba³³hæ⁵⁵	ba³³hæ⁵⁵	man (male person)	man (male person)		1.9.6.1		0		1634,m
-488294	1978	Phom	ʒɯ³¹bæ³³	ʒɯ³¹bæ³³	old man	old man		7.1.8.3		0		
-488295	1978	Phom	ʒɯ³¹ñɯ³³	ʒɯ³¹ñɯ³³	old woman	old woman		7.1.8.3		0		m,1621
-488296	1978	Phom	ʃan³¹ñak³³	ʃan³¹ñak³³	person	person		4.5		0		
-488297	1978	Phom	daw⁵⁵bæ³³	daw⁵⁵bæ³³	poor man	poor man		9.6.2.2		0		
-488298	1978	Phom	ban³¹	ban³¹	settler from outside	settler from outside		10.1.1		0		
-488299	1978	Phom	æ⁵⁵	æ⁵⁵	slave	slave		4.2.10		0		
-488300	1978	Phom	loŋ³³	loŋ³³	subjects (of a king, etc.)	subjects (of a king, etc.)		1.5.3.2		0		
-488301	1978	Phom	gɯʔ³³bæ³³	gɯʔ³³bæ³³	thief ('steal'+?)	thief ('steal'+?)		4.2.12.1		0		2365,m
-488302	1978	Phom	ʒam⁵⁵ñɯ³³	ʒam⁵⁵ñɯ³³	widow	widow		4.2.8		0		m,1621
-488303	1978	Phom	ʒam⁵⁵bæ³³	ʒam⁵⁵bæ³³	widower	widower		4.2.8		0		
-488304	1978	Phom	ñɯ³³hæ⁵⁵	ñɯ³³hæ⁵⁵	woman	woman		1.9.3		0		1621,m
-488305	1978	Phom	tʰe⁵⁵hi³³læ⁵⁵	tʰe⁵⁵hi³³læ⁵⁵	young people / youth (cf. 'adolescent boy, girl')	young people / youth (cf. 'adolescent boy, girl')		7.1.8.3		0		m,m,5493
-488306	1978	Phom	o³³bɯ³³	o³³bɯ³³	grandfather	grandfather		4.7.1		0		
-488307	1978	Phom	o³³bi³³	o³³bi³³	grandmother	grandmother		4.7.1		0		
-488308	1978	Phom	bæ³³	bæ³³	father	father		4.7.1		0		
-488309	1978	Phom	bæ³³baʔ³³he³³bæ⁵⁵	bæ³³baʔ³³he³³bæ⁵⁵	father's older brother	father's older brother		1.5.3.2		0		
-488310	1978	Phom	ñʌy³³	ñʌy³³	father's sister	father's sister		4.7.1		0		
-488311	1978	Phom	bæ³³naɯ⁵⁵e⁵⁵bæ³³	bæ³³naɯ⁵⁵e⁵⁵bæ³³	father's younger brother	father's younger brother		1.5.3.2		0		
-488312	1978	Phom	ñɯ³³	ñɯ³³	mother	mother		4.7.1		0		1621
-488313	1978	Phom	gu³³	gu³³	mother's brother	mother's brother		1.5.3.2		0		
-488314	1978	Phom	čʌy³³	čʌy³³	older brother	older brother				0		6429
-488315	1978	Phom	ñæ³³	ñæ³³	older sister	older sister				0		
-488316	1978	Phom	naɯ⁵⁵bʌɯ³¹	naɯ⁵⁵bʌɯ³¹	younger sibling	younger sibling				0		
-488317	1978	Phom	hæ³³bʌɯ³¹	hæ³³bʌɯ³¹	child (kin term)	child (kin term)		1.5.3.2		0		
-488318	1978	Phom	yɯk³³hæ³³	yɯk³³hæ³³	daughter	daughter		4.7.3		0		
-488319	1978	Phom	li³¹bʌɯ³¹	li³¹bʌɯ³¹	nephew / niece	nephew / niece		4.7.3		0		
-488320	1978	Phom	ye⁵⁵ʃaŋ⁵⁵	ye⁵⁵ʃaŋ⁵⁵	son	son		4.7.3		0		
-488321	1978	Phom	hɯ³³bʌɯ³¹	hɯ³³bʌɯ³¹	grandchild	grandchild		4.7.3		0		
-488322	1978	Phom	ʃaŋ³¹	ʃaŋ³¹	sick / ill	sick / ill		1.1.5.1		0		
-488323	1978	Phom	dɯŋ⁵⁵	dɯŋ⁵⁵	sick / ill	sick / ill		1.1.5.1		0		
-488324	1978	Phom	maw³³	maw³³	constipation	constipation		1.7.7		0		
-488325	1978	Phom	æŋ⁵⁵	æŋ⁵⁵	deaf	deaf		1.2.7.5		0		
-488326	1978	Phom	hʌ³¹	hʌ³¹	deaf	deaf		1.2.7.5		0		
-488327	1978	Phom	mæ³¹yæʔ³³	mæ³¹yæʔ³³	injury	injury		1.1.5.1		0		
-488328	1978	Phom	ŋɯʔ³³	ŋɯʔ³³	itch	itch		1.6.5.5		0		
-488329	1978	Phom	kʰaw⁵⁵dɛ³³gɛ³³	kʰaw⁵⁵dɛ³³gɛ³³	shock with depression	shock with depression		8.3.1.9.1		0		
-488330	1978	Phom	bok⁵⁵	bok⁵⁵	swell up	swell up		1.1.5.2		0		
-488331	1978	Phom	daw³³	daw³³	swell up	swell up		1.1.5.2		0		
-488332	1978	Phom	hæʔ³³ʌ⁵⁵	hæʔ³³ʌ⁵⁵	container for paddy (made from a mat)	container for paddy (made from a mat)		5.1		0		
-488333	1978	Phom	haw³³dʌk³³	haw³³dʌk³³	curry pot ('curry'+?)	curry pot ('curry'+?)		3.1.6		0		
-488334	1978	Phom	ʃam³³ʃak³³	ʃam³³ʃak³³	mortar (for pounding rice)	mortar (for pounding rice)		5.5		0		
-488335	1978	Phom	mʌ⁵⁵	mʌ⁵⁵	pestle	pestle		5.5		0		
-488336	1978	Phom	nʌk³³ʃoŋ⁵⁵	nʌk³³ʃoŋ⁵⁵	rice plate ('rice'+'shell')	rice plate ('rice'+'shell')		3.1.4		0		
-488337	1978	Phom	nʌk³³dʌk³³	nʌk³³dʌk³³	rice pot ('rice'+?)	rice pot ('rice'+?)		3.1.4		0		
-488338	1978	Phom	kʰuŋ³³	kʰuŋ³³	bag	bag				0		
-488339	1978	Phom	dɔ⁵⁵	dɔ⁵⁵	basket (general term)	basket (general term)		5.1		0		
-488340	1978	Phom	om⁵⁵	om⁵⁵	basket (winnowing)	basket (winnowing)		5.1		0		
-488341	1978	Phom	u³³dɔ⁵⁵	u³³dɔ⁵⁵	bird basket / bird cage ('bird'+?)	bird basket / bird cage ('bird'+?)		2.2.4		0		301,m
-488342	1978	Phom	bak³³	bak³³	carrying strap / tump line	carrying strap / tump line		6.2.2.2.1		0		
-488343	1978	Phom	pʰom⁵⁵	pʰom⁵⁵	cloth	cloth		5.1		0		
-488344	1978	Phom	ɔ³¹	ɔ³¹	clothing	clothing		5.11.8.2.1		0		
-488345	1978	Phom	tʰoy³¹læ³³ʒɯ³³	tʰoy³¹læ³³ʒɯ³³	jute cloth	jute cloth		5.1		0		
-488346	1978	Phom	am⁵⁵	am⁵⁵	mat	mat		5.11.9.4		0		3532
-488347	1978	Phom	ʒɯ³³	ʒɯ³³	rope	rope		5.11.4		0		
-488348	1978	Phom	ʒi³³	ʒi³³	thread	thread		5.11.6		0		
-488349	1978	Phom	luŋ⁵⁵	luŋ⁵⁵	tying strips (flexible bamboo)	tying strips (flexible bamboo)		6.13.1		0		
-488350	1978	Phom	læʔ³³hæn⁵⁵	læʔ³³hæn⁵⁵	arrow	arrow		5.15		0		2386,74
-488351	1978	Phom	æ³¹	æ³¹	ax	ax		5.11.5.3		0		
-488352	1978	Phom	bʌ³³læʔ³³	bʌ³³læʔ³³	bow ('tree, wood'+?)	bow ('tree, wood'+?)	n.	3.1.2		0		
-488353	1978	Phom	woŋ⁵⁵læʔ³³	woŋ⁵⁵læʔ³³	bow ('bamboo'+?)	bow ('bamboo'+?)	n.	5.15		0		
-488354	1978	Phom	loŋ³³kʰoyʔ³³	loŋ³³kʰoyʔ³³	knife	knife		5.5		0		
-488355	1978	Phom	hu³³	hu³³	knitting	knitting				0		
-488356	1978	Phom	tʰay⁵⁵	tʰay⁵⁵	ladder / bridge	ladder / bridge		5.4		0		
-488357	1978	Phom	yæn⁵⁵	yæn⁵⁵	large knife / sword / dao	large knife / sword / dao		9.7.1		0		6235
-488358	1978	Phom	ñam⁵⁵mɛt³³	ñam⁵⁵mɛt³³	needle ('iron'+?)	needle ('iron'+?)		5.1		0		
-488359	1978	Phom	i⁵⁵	i⁵⁵	shield	shield	n.	5.15		0		
-488360	1978	Phom	day⁵⁵	day⁵⁵	snare	snare	n.	5.14		0		
-488361	1978	Phom	ŋɔ³³	ŋɔ³³	spear	spear	n.	5.14		0		
-488362	1978	Phom	a³³čap⁵⁵	a³³čap⁵⁵	tongs	tongs		5.4		0		
-488363	1978	Phom	čuŋ⁵⁵	čuŋ⁵⁵	trap	trap	n.	5.14		0		
-488364	1978	Phom	lʌŋ⁵⁵	lʌŋ⁵⁵	bed	bed		1.5.3.2		0		
-488365	1978	Phom	čoŋ³³	čoŋ³³	bird coop / chicken coop (placed high as in a tree, but made by people)	bird coop / chicken coop (placed high as in a tree, but made by people)		10.0		0		
-488366	1978	Phom	ʃæ³¹dan³¹	ʃæ³¹dan³¹	door	door		5.11.9.3		0		
-488367	1978	Phom	yɔ³¹	yɔ³¹	dormitory for young men or women	dormitory for young men or women		5.11.9.1		0		
-488368	1978	Phom	ɔ³³dap³³	ɔ³³dap³³	fireplace (ɔ³³ 'fire'; dap³³læ³¹ 'ashes')	fireplace (ɔ³³ 'fire'; dap³³læ³¹ 'ashes')		3.2.12.2		0		m,2691
-488369	1978	Phom	buŋ⁵⁵	buŋ⁵⁵	granary	granary		5.11.9.5		0		
-488370	1978	Phom	pʰæk⁵⁵	pʰæk⁵⁵	horn-shaped hook for hanging things	horn-shaped hook for hanging things		1.2.2		0		
-488371	1978	Phom	ʃam⁵⁵	ʃam⁵⁵	house	house		5.11.9.1		0		1612
-488372	1978	Phom	u³³kʰɔk³³	u³³kʰɔk³³	pen for animals (on the ground)	pen for animals (on the ground)		5.1		0		
-488373	1978	Phom	ʃam⁵⁵a³³dɔk³³	ʃam⁵⁵a³³dɔk³³	roof ('house'+?+'back')	roof ('house'+?+'back')		5.11.9		0		1612,m,m
-488374	1978	Phom	dʌ³¹	dʌ³¹	sitting platform	sitting platform		6.1.1.4.1		0		
-488375	1978	Phom	yuʔ³³	yuʔ³³	thatch	thatch		3.1.6.4		0		
-488376	1978	Phom	bæŋ³³	bæŋ³³	village meeting house	village meeting house		5.8		0		
-488377	1978	Phom	pʰæm³³	pʰæm³³	wall	wall		5.11.9.3		0		
-488378	1978	Phom	tʰay⁵⁵	tʰay⁵⁵	bridge / ladder	bridge / ladder		9.10.2		0		
-488379	1978	Phom	gæʔ³³	gæʔ³³	fields	fields		3.2.5		0		
-488380	1978	Phom	be⁵⁵	be⁵⁵	garden / fence	garden / fence		9.10.4		0		
-488381	1978	Phom	ʌɯ³¹	ʌɯ³¹	retaining log to hold back dirt	retaining log to hold back dirt		1.5.3.2		0		
-488382	1978	Phom	lam⁵⁵	lam⁵⁵	road / path	road / path		9.10.1		0		1017
-488383	1978	Phom	čɯŋ³³	čɯŋ³³	village	village		5.8		0		5776
-488384	1978	Phom	yoŋ⁵⁵gok⁵⁵	yoŋ⁵⁵gok⁵⁵	well ('water'+?)	well ('water'+?)		9.6.1.1		0		7197,m
-488385	1978	Phom	ay³¹	ay³¹	boat made from bamboo	boat made from bamboo		5.1		0		
-488386	1978	Phom	lay⁵⁵	lay⁵⁵	book	book		5.1		0		
-488387	1978	Phom	li⁵⁵biŋ³¹	li⁵⁵biŋ³¹	flute (musical)	flute (musical)		5.1		0		
-488388	1978	Phom	pʰɯ³¹	pʰɯ³¹	umbrella	umbrella		5.11.8.2.2		0		
-488389	1978	Phom	ɔ³³niʔ³³	ɔ³³niʔ³³	ashes ('fire'+?)	ashes ('fire'+?)		3.2.12.2		0		
-488390	1978	Phom	dap³³læ³¹	dap³³læ³¹	ashes	ashes		3.2.12.2		0		2691,5606
-488391	1978	Phom	mʌ⁵⁵	mʌ⁵⁵	bride price	bride price		4.2.8		0		
-488392	1978	Phom	pʰu⁵⁵	pʰu⁵⁵	chips (from chopping)	chips (from chopping)		3.2.7		0		
-488393	1978	Phom	pʰaŋ⁵⁵	pʰaŋ⁵⁵	clan (kin group)	clan (kin group)		4.4.2		0		
-488394	1978	Phom	maŋ⁵⁵	maŋ⁵⁵	corpse	corpse		1.1.6.1		0		17
-488395	1978	Phom	yan³¹	yan³¹	correction	correction				0		
-488396	1978	Phom	laɯ³¹	laɯ³¹	correction	correction				0		
-488397	1978	Phom	ʒaŋ³¹	ʒaŋ³¹	cultivation	cultivation		3.1.10		0		
-488398	1978	Phom	mak³³	mak³³	dirt	dirt		1.5.3.2		0		
-488399	1978	Phom	maŋ³¹	maŋ³¹	evil spirit	evil spirit		8.3.1.15		0		
-488400	1978	Phom	woŋ³¹	woŋ³¹	fragrance / perfume	fragrance / perfume		3.1.2		0		
-488401	1978	Phom	ɔ³³	ɔ³³	fire	fire		3.2.12.2		0		
-488402	1978	Phom	bʌ⁵⁵	bʌ⁵⁵	firewood	firewood		5.11.5.5		0		
-488403	1978	Phom	bɯŋ³¹, bɯŋ³¹hi³³yaŋ⁵⁵	bɯŋ³¹, bɯŋ³¹hi³³yaŋ⁵⁵	flood	flood		3.2.3		0		
-488405	1978	Phom	o³³	o³³	folk song	folk song		5.1		0		
-488406	1978	Phom	wɔŋ³¹	wɔŋ³¹	force / power / strength (e.g. of a man, elephant) (cf. 'difficult')	force / power / strength (e.g. of a man, elephant) (cf. 'difficult')		1.1.5		0		1842
-488407	1978	Phom	hon³¹	hon³¹	gold	gold		3.2.4		0		b
-488408	1978	Phom	ʃæ⁵⁵	ʃæ⁵⁵	hole	hole		3.2.7		0		
-488409	1978	Phom	ñam⁵⁵	ñam⁵⁵	iron	iron		3.2.4		0		
-488410	1978	Phom	bɔŋ³¹	bɔŋ³¹	joint / seam (e.g. between cloth, boards)	joint / seam (e.g. between cloth, boards)		5.1		0		
-488411	1978	Phom	ʃaʔ³³	ʃaʔ³³	language (cf. 'chin')	language (cf. 'chin')		5.8		0		
-488412	1978	Phom	tʰoŋ³³	tʰoŋ³³	lime (mineral)	lime (mineral)		3.1.5		0		
-488413	1978	Phom	mɛ⁵⁵li⁵⁵|	mɛ⁵⁵li⁵⁵|	medicine	medicine		5.4		0		7660?
-488414	1978	Phom	lop³¹	lop³¹	money	money		5.9		0		
-488415	1978	Phom	mɛn³¹	mɛn³¹	name	name	n.	5.8		0		2450
-488416	1978	Phom	baŋ³³	baŋ³³	pit / trench	pit / trench		3.1.2		0		
-488417	1978	Phom	ʃɯŋ³³	ʃɯŋ³³	place	place	n.	9.10.5		0		
-488418	1978	Phom	pʰu⁵⁵	pʰu⁵⁵	property mark	property mark		9.10.3		0		
-488419	1978	Phom	aw³³bʌ³³	aw³³bʌ³³	remainder / remnant	remainder / remnant		8.1		0		
-488420	1978	Phom	lʌŋ³¹	lʌŋ³¹	row / line / queue	row / line / queue		6.2.2.1		0		
-488421	1978	Phom	dɯ³³	dɯ³³	rust	rust		3.2.4		0		5442
-488422	1978	Phom	tʰɯm³¹	tʰɯm³¹	shade / shadow	shade / shadow		3.2.10		0		
-488423	1978	Phom	ŋin⁵⁵	ŋin⁵⁵	silver	silver		3.2.4		0		2536
-488424	1978	Phom	mæŋ³³	mæŋ³³	sin (cf. 'spoil')	sin (cf. 'spoil')		5.8.3.1		0		
-488425	1978	Phom	ɔ³³ʃit³³	ɔ³³ʃit³³	smoke ('fire'+?)	smoke ('fire'+?)		3.2.12.2		0		
-488426	1978	Phom	haʔ³³ ʃʌ⁵⁵	haʔ³³ ʃʌ⁵⁵	sneeze [two words]	sneeze [two words]	n.	1.8.2.1		0		
-488427	1978	Phom	læʔ³³æŋ³³hæ⁵⁵	læʔ³³æŋ³³hæ⁵⁵	soul / spirit	soul / spirit		1.10		0		
-488428	1978	Phom	gon³¹	gon³¹	wisdom	wisdom		8.3.3.3.1		0		
-488429	1978	Phom	pʰʌy⁵⁵gʌ³³	pʰʌy⁵⁵gʌ³³	after	after		9.1.5		0		7190,m
-488430	1978	Phom	æŋ³³	æŋ³³	after a while	after a while		9.1.5		0		
-488431	1978	Phom	ʃaw⁵⁵	ʃaw⁵⁵	again	again		10.1		0		
-488432	1978	Phom	nʌŋ⁵⁵ʌy³³	nʌŋ⁵⁵ʌy³³	again / right after	again / right after		10.1		0		
-488433	1978	Phom	dʌŋ³¹	dʌŋ³¹	always	always		9.1.1		0		
-488434	1978	Phom	ʃe⁵⁵gʌ³³	ʃe⁵⁵gʌ³³	before	before		9.1.5		0		
-488435	1978	Phom	hɔŋ³¹	hɔŋ³¹	cold season	cold season		7.1.2.3		0		
-488436	1978	Phom	ñiʔ³³nɯŋ³³	ñiʔ³³nɯŋ³³	day (not night) (cf. 'morning')	day (not night) (cf. 'morning')		1.5.3.2		0		
-488437	1978	Phom	ñiʔ³³	ñiʔ³³	day (unit of time)	day (unit of time)		1.5.3.2		0		
-488438	1978	Phom	om³¹	om³¹	evening	evening		9.1.4		0		
-488439	1978	Phom	ñiʔ³³čʌyʔ³³	ñiʔ³³čʌyʔ³³	every day	every day		9.9		0		
-488440	1978	Phom	ʃom³¹	ʃom³¹	last	last		9.9		0		
-488441	1978	Phom	gæ⁵⁵	gæ⁵⁵	late	late		9.1.1		0		
-488442	1978	Phom	len³¹	len³¹	month (cf. 'moon')	month (cf. 'moon')		9.1.2		0		3579
-488443	1978	Phom	nap³³nɯŋ³³	nap³³nɯŋ³³	morning (cf. 'day [not night]')	morning (cf. 'day [not night]')		9.1.4		0		6227
-488444	1978	Phom	ʒaŋ⁵⁵ñak³³	ʒaŋ⁵⁵ñak³³	night (?+'dark')	night (?+'dark')		9.1.4		0		m,2483
-488445	1978	Phom	mæŋ⁵⁵	mæŋ⁵⁵	not yet	not yet		1.5.3.2		0		
-488446	1978	Phom	ʃæʔ³³æŋ⁵⁵	ʃæʔ³³æŋ⁵⁵	now	now		9.1.5		0		
-488447	1978	Phom	ŋæ³³ŋæ³³hɯk³³	ŋæ³³ŋæ³³hɯk³³	suddenly	suddenly		9.1.1		0		
-488448	1978	Phom	ʃaw³¹	ʃaw³¹	summer	summer		3.2.1		0		
-488449	1978	Phom	ʃin³¹ñiʔ³³	ʃin³¹ñiʔ³³	today	today		9.1.3		0		
-488450	1978	Phom	ŋin³¹ñiʔ³³	ŋin³¹ñiʔ³³	tomorrow	tomorrow		9.1.3		0		
-488451	1978	Phom	ʌ³¹ñʌ³¹	ʌ³¹ñʌ³¹	winter	winter		9.1.2		0		
-488452	1978	Phom	ʒaŋ⁵⁵bo³¹	ʒaŋ⁵⁵bo³¹	year	year		9.1.2		0		
-488453	1978	Phom	min³¹ñiʔ³³	min³¹ñiʔ³³	yesterday	yesterday		9.1.3		0		
-488454	1978	Phom	hɯk³³	hɯk³³	one	one		9.9		0		
-488455	1978	Phom	ñi³¹	ñi³¹	two	two		9.9		0		2504
-488456	1978	Phom	čam⁵⁵	čam⁵⁵	three	three		9.9		0		
-488457	1978	Phom	a⁵⁵◦li⁵⁵	a⁵⁵li⁵⁵|	four	four		9.9		0		p,2409
-488458	1978	Phom	ŋæ³¹	ŋæ³¹	five	five		9.9		0		1306
-488459	1978	Phom	wɔk³³	wɔk³³	six	six		9.9		0		2621
-488460	1978	Phom	ñat³³	ñat³³	seven	seven		9.9		0		2505
-488461	1978	Phom	ʃat³³	ʃat³³	eight	eight		9.9		0		2259
-488462	1978	Phom	ʃɯ³³	ʃɯ³³	nine	nine		9.9		0		
-488463	1978	Phom	an³¹	an³¹	ten	ten		9.9		0		
-488464	1978	Phom	goŋ³³	goŋ³³	zero	zero		9.9		0		
-488465	1978	Phom	guk⁵⁵hæ⁵⁵	guk⁵⁵hæ⁵⁵	twenty	twenty		9.9		0		
-488466	1978	Phom	kʰɔ³³hɯk³³	kʰɔ³³hɯk³³	one hundred (?+'one')	one hundred (?+'one')		9.9		0		
-488467	1978	Phom	ñak³³læ⁵⁵	ñak³³læ⁵⁵	black	black		9.4		0		2483,m
-488468	1978	Phom	ʒaŋ⁵⁵ñak³³	ʒaŋ⁵⁵ñak³³	dark (?+'black')	dark (?+'black')		9.4		0		m,2483
-488469	1978	Phom	tʰɯŋ⁵⁵læ⁵⁵	tʰɯŋ⁵⁵læ⁵⁵	green	green		9.4		0		
-488470	1978	Phom	ʒaŋ⁵⁵ŋay³¹	ʒaŋ⁵⁵ŋay³¹	light (not dark)	light (not dark)		7.1.11.1		0		
-488471	1978	Phom	hak³³læ⁵⁵	hak³³læ⁵⁵	red	red		9.4		0		
-488472	1978	Phom	ʃu³³læ⁵⁵	ʃu³³læ⁵⁵	white	white		9.4		0		
-488473	1978	Phom	woŋ⁵⁵læ⁵⁵	woŋ⁵⁵læ⁵⁵	yellow	yellow		9.4		0		
-488474	1978	Phom	ʃæʔ³³yæk⁵⁵	ʃæʔ³³yæk⁵⁵	bitter	bitter		7.1.4.4		0		
-488475	1978	Phom	haɯ⁵⁵	haɯ⁵⁵	hot / spicy	hot / spicy				0		
-488476	1978	Phom	tʰi⁵⁵	tʰi⁵⁵	sour	sour		7.1.4.4		0		
-488477	1978	Phom	tʰi⁵⁵yɔk⁵⁵	tʰi⁵⁵yɔk⁵⁵	sour thing	sour thing		7.1.4.4		0		
-488478	1978	Phom	ʒɯŋ⁵⁵ñaŋ⁵⁵	ʒɯŋ⁵⁵ñaŋ⁵⁵	sweet	sweet		7.1.4.4		0		m,6218
-488479	1978	Phom	lɔŋ⁵⁵	lɔŋ⁵⁵	big	big		9.7.2		0		
-488480	1978	Phom	čɯ³³	čɯ³³	deep	deep		7.1.5.3		0		
-488481	1978	Phom	day⁵⁵	day⁵⁵	far	far		9.2.4		0		
-488482	1978	Phom	nit³³	nit³³	fat (of people)	fat (of people)		1.6.4		0		
-488483	1978	Phom	ʃaw³¹	ʃaw³¹	high	high		7.1.5.3		0		4661
-488484	1978	Phom	moŋ³¹	moŋ³¹	long	long		9.7.2		0		
-488485	1978	Phom	lu³³	lu³³	long (time, roads)	long (time, roads)		9.7.2		0		2418
-488486	1978	Phom	ʃɔ³³ʃɯp³³	ʃɔ³³ʃɯp³³	narrow	narrow		9.7.2		0		
-488487	1978	Phom	pʰay³³le(ʔ)⁵⁵, pʰoy³³leʔ⁵⁵	pʰay³³le(ʔ)⁵⁵, pʰoy³³leʔ⁵⁵	shallow	shallow		7.1.5.3		0		
-488489	1978	Phom	ʃaw³¹ʃɔʔ³³	ʃaw³¹ʃɔʔ³³	short (people)	short (people)		9.7.2		0		
-488490	1978	Phom	ʃɔʔ³³lɔʔ³³	ʃɔʔ³³lɔʔ³³	short (time, roads)	short (time, roads)		9.7.2		0		
-488491	1978	Phom	mæn⁵⁵	mæn⁵⁵	small	small		9.7.2		0		
-488492	1978	Phom	ʃaw³¹lu³³	ʃaw³¹lu³³	tall (people) (?+'long')	tall (people) (?+'long')		9.7.2		0		4661,m
-488493	1978	Phom	ʃaw³¹	ʃaw³¹	tall (objects)	tall (objects)		9.7.2		0		4661
-488494	1978	Phom	čat³³lʌ³³	čat³³lʌ³³	thick	thick		9.7.2		0		
-488495	1978	Phom	baɯ³¹ñaŋ³³	baɯ³¹ñaŋ³³	thin	thin		9.7.2		0		
-488496	1978	Phom	goyʔ³³	goyʔ³³	thin (people)	thin (people)		9.7.2		0		
-488497	1978	Phom	bæ³¹lɔŋ⁵⁵	bæ³¹lɔŋ⁵⁵	wide (?+'big')	wide (?+'big')		9.7.2		0		
-488498	1978	Phom	ñam³¹	ñam³¹	afraid / fearful	afraid / fearful		7.1.1		0		
-488499	1978	Phom	yam³¹	yam³¹	alive	alive		1.1.2.1		0		
-488500	1978	Phom	bʌɯ³¹	bʌɯ³¹	all	all		9.9		0		
-488501	1978	Phom	mɔŋ⁵⁵ʃiʔ³³	mɔŋ⁵⁵ʃiʔ³³	angry ('heart'+?)	angry ('heart'+?)		8.3.1.6.1		0		1392
-488502	1978	Phom	ʒʌɯ³¹	ʒʌɯ³¹	ashamed	ashamed		8.3.3.8.2		0		
-488503	1978	Phom	nɛ³³mʌy⁵⁵	nɛ³³mʌy⁵⁵	bad	bad		9.6.2.1		0		m,2457
-488504	1978	Phom	gɔk³³	gɔk³³	bent / crooked	bent / crooked		9.7.2		0		
-488505	1978	Phom	li³¹	li³¹	careful	careful		8.3.2.3.1		0		
-488506	1978	Phom	daɯ³³laŋ⁵⁵	daɯ³³laŋ⁵⁵	clean	clean		6.2.2.5.2		0		
-488507	1978	Phom	ʒɯŋ⁵⁵mæk⁵⁵	ʒɯŋ⁵⁵mæk⁵⁵	cold	cold		7.1.2.3		0		
-488508	1978	Phom	law⁵⁵law⁵⁵	law⁵⁵law⁵⁵	different / distinct	different / distinct		7.1.7.1		0		
-488509	1978	Phom	wɔŋ³¹	wɔŋ³¹	difficult	difficult		9.6.2		0		1842
-488510	1978	Phom	mak³³hat³³	mak³³hat³³	dirty	dirty		3.2.11		0		
-488511	1978	Phom	næʔ³³čʌŋ⁵⁵	næʔ³³čʌŋ⁵⁵	dull / blunt	dull / blunt		7.1.5.1		0		
-488512	1978	Phom	yɔ⁵⁵bay⁵⁵	yɔ⁵⁵bay⁵⁵	easy	easy		9.6.1.1		0		
-488513	1978	Phom	goŋ³³	goŋ³³	empty	empty		7.1.2.1		0		820
-488514	1978	Phom	loy³³	loy³³	extreme / too much	extreme / too much		7.1.2.2		0		
-488515	1978	Phom	ʃæ⁵⁵	ʃæ⁵⁵	fast / quick	fast / quick		9.6.1.1		0		
-488516	1978	Phom	dɛŋ⁵⁵	dɛŋ⁵⁵	fed up / tired of	fed up / tired of		1.3.5.8		0		
-488517	1978	Phom	mæ³¹	mæ³¹	full	full		1.1.3.2		0		1834
-488518	1978	Phom	mʌy⁵⁵	mʌy⁵⁵	good	good		9.6.1.1		0		2457
-488519	1978	Phom	ʃay³³	ʃay³³	guilty	guilty		8.3.3.6.1		0		
-488520	1978	Phom	mɔŋ⁵⁵ɔŋ³³	mɔŋ⁵⁵ɔŋ³³	happy / joyful ('heart'+'climb, go up')	happy / joyful ('heart'+'climb, go up')		8.3.1.5.1		0		1392
-488521	1978	Phom	ʒæn⁵⁵	ʒæn⁵⁵	hard (firm)	hard (firm)		9.6.2		0		159
-488522	1978	Phom	ʒiʔ³³	ʒiʔ³³	heavy	heavy		9.6.2		0		2415
-488523	1978	Phom	ʃæm⁵⁵lok⁵⁵	ʃæm⁵⁵lok⁵⁵	hot / warm	hot / warm				0		
-488524	1978	Phom	ay³¹	ay³¹	hungry	hungry		1.1.3		0		
-488525	1978	Phom	le⁵⁵	le⁵⁵	identical	identical		7.1.7.2		0		
-488526	1978	Phom	ʒæk³³	ʒæk³³	lazy	lazy		9.6.2.2		0		
-488527	1978	Phom	lak³³ñɔŋ³¹	lak³³ñɔŋ³¹	left side ('hand, arm'+?)	left side ('hand, arm'+?)		1.5.3.2		0		695,m
-488528	1978	Phom	gom³¹	gom³¹	less	less		7.1.2.1		0		
-488529	1978	Phom	æŋ³³kʰæʔ³³	æŋ³³kʰæʔ³³	light (weight)	light (weight)		7.1.11.1		0		
-488530	1978	Phom	bɔŋ³³	bɔŋ³³	male (animal)	male (animal)		1.9.6.1		0		
-488531	1978	Phom	lɔŋ⁵⁵ŋi³³	lɔŋ⁵⁵ŋi³³	many / very ('big'+?)	many / very ('big'+?)		9.9		0		
-488532	1978	Phom	yɔ⁵⁵	yɔ⁵⁵	near	near		9.2.3		0		
-488533	1978	Phom	čæ⁵⁵	čæ⁵⁵	new	new		9.6.1.1		0		2651
-488534	1978	Phom	ne³³yʌy³³	ne³³yʌy³³	next	next		9.9		0		
-488535	1978	Phom	nɛ⁵⁵hæ⁵⁵gæ⁵⁵	nɛ⁵⁵hæ⁵⁵gæ⁵⁵	not cautious of	not cautious of		1.5.3.2		0		
-488536	1978	Phom	ɯŋ⁵⁵	ɯŋ⁵⁵	not eloquent	not eloquent		1.5.3.2		0		
-488537	1978	Phom	ʒɯ³¹	ʒɯ³¹	old (people)	old (people)		7.1.8.3		0		
-488538	1978	Phom	čaŋ³³	čaŋ³³	old (things)	old (things)		7.1.8.3		0		
-488539	1978	Phom	lɛp³³bɯ³³	lɛp³³bɯ³³	other	other		8.1		0		
-488540	1978	Phom	yaw³¹	yaw³¹	perceptive / discerning	perceptive / discerning				0		
-488541	1978	Phom	daw⁵⁵	daw⁵⁵	poor	poor		9.6.2.2		0		
-488542	1978	Phom	han³¹	han³¹	portion / share	portion / share		6.10.2		0		
-488543	1978	Phom	naɯ⁵⁵gɔʔ³³	naɯ⁵⁵gɔʔ³³	pregnant ('baby'+?)	pregnant ('baby'+?)		1.9.6.1		0		
-488544	1978	Phom	tʰɯŋ⁵⁵	tʰɯŋ⁵⁵	raw / uncooked	raw / uncooked		7.1.8.3		0		
-488545	1978	Phom	ʃam⁵⁵mʌy⁵⁵	ʃam⁵⁵mʌy⁵⁵	rich / wealthy ('house'+'good')	rich / wealthy ('house'+'good')		5.9		0		1612,2457
-488546	1978	Phom	lak³³dæʔ³³	lak³³dæʔ³³	right side ('hand, arm'+?)	right side ('hand, arm'+?)		1.5.3.2		0		695,m
-488547	1978	Phom	čɯ⁵⁵	čɯ⁵⁵	right / correct	right / correct		1.5.3.2		0		
-488548	1978	Phom	pʰæ⁵⁵pʰæ⁵⁵læ⁵⁵	pʰæ⁵⁵pʰæ⁵⁵læ⁵⁵	rough	rough		7.1.4.2		0		
-488549	1978	Phom	doy⁵⁵laŋ⁵⁵	doy⁵⁵laŋ⁵⁵	round	round		9.7.1		0		
-488550	1978	Phom	uŋ³³	uŋ³³	royal	royal		5.8		0		
-488551	1978	Phom	ay³¹hʌk³³	ay³¹hʌk³³	same	same		7.1.7.2		0		
-488552	1978	Phom	lu⁵⁵lu⁵⁵	lu⁵⁵lu⁵⁵	separate / apart / in different places	separate / apart / in different places		6.10.4		0		
-488553	1978	Phom	laɯ⁵⁵	laɯ⁵⁵	sexy	sexy				0		
-488554	1978	Phom	næʔ³³	næʔ³³	sharp	sharp		6.9.2		0		5515
-488555	1978	Phom	ʃʌ³³	ʃʌ³³	sincere	sincere		9.6.1.2		0		
-488556	1978	Phom	maŋ⁵⁵	maŋ⁵⁵	slow	slow		9.6.2.1		0		
-488557	1978	Phom	yoŋ³¹mʌ³³	yoŋ³¹mʌ³³	slowly	slowly		9.1.1		0		
-488558	1978	Phom	na³³	na³³	smart	smart		8.3		0		
-488559	1978	Phom	ñʌ³³lʌk⁵⁵	ñʌ³³lʌk⁵⁵	smooth / slippery	smooth / slippery		7.1.4.2		0		
-488560	1978	Phom	in³³	in³³	soft	soft		7.1.4.2		0		
-488561	1978	Phom	hæn⁵⁵nʌy³³	hæn⁵⁵nʌy³³	some	some		9.9		0		
-488562	1978	Phom	tʰɔŋ³¹	tʰɔŋ³¹	steep (cf. 'step down')	steep (cf. 'step down')		7.1.5.3		0		
-488563	1978	Phom	kʰam⁵⁵	kʰam⁵⁵	sticky	sticky		7.1.4.2		0		
-488564	1978	Phom	laɯ³¹lʌk⁵⁵	laɯ³¹lʌk⁵⁵	straight	straight		7.1.5.1		0		
-488565	1978	Phom	wɔŋ³¹gɔʔ³³	wɔŋ³¹gɔʔ³³	strong ('power; difficult'+?)	strong ('power; difficult'+?)		9.6.1.1		0		1842,m
-488566	1978	Phom	yoy³¹	yoy³¹	stupid	stupid		8.3		0		
-488567	1978	Phom	gʌ⁵⁵	gʌ⁵⁵	swept clean (of dirt, water)	swept clean (of dirt, water)		6.2.2.5.2		0		
-488568	1978	Phom	hɯŋ³³mʌy⁵⁵	hɯŋ³³mʌy⁵⁵	true / correct	true / correct		9.6.1.1		0		6197,m
-488569	1978	Phom	mɔŋ⁵⁵mæŋ³³	mɔŋ⁵⁵mæŋ³³	unhappy / sad ('heart'+'spoil')	unhappy / sad ('heart'+'spoil')		8.3.1.5.2		0		1392
-488570	1978	Phom	dak³³	dak³³	weak	weak		1.1.5		0		
-488571	1978	Phom	wɔŋ³¹nɛ³³gɔʔ³³	wɔŋ³¹nɛ³³gɔʔ³³	weak (wɔŋ³¹gɔʔ³³ 'strong'; nɛ³³ 'negative')	weak (wɔŋ³¹gɔʔ³³ 'strong'; nɛ³³ 'negative')		1.1.5		0		162,m,m
-488572	1978	Phom	gam³³	gam³³	whole / entire	whole / entire		7.1.6.2		0		
-488573	1978	Phom	boŋ⁵⁵	boŋ⁵⁵	wrong / at fault	wrong / at fault		9.6.2.1		0		
-488574	1978	Phom	læŋ³¹	læŋ³¹	able to earn livelihood	able to earn livelihood		1.1.2.4		0		
-488575	1978	Phom	moŋ⁵⁵	moŋ⁵⁵	accompany / go with	accompany / go with		6.7.10		0		
-488576	1978	Phom	noŋ³¹	noŋ³¹	accuse	accuse		8.3.1.3.1		0		
-488577	1978	Phom	ɔ⁵⁵	ɔ⁵⁵	agree	agree		8.3.1.4.1		0		
-488578	1978	Phom	pʰɔ⁵⁵	pʰɔ⁵⁵	anoint / apply ointment (cf. 'wash face')	anoint / apply ointment (cf. 'wash face')		6.2		0		
-488579	1978	Phom	ŋoy⁵⁵	ŋoy⁵⁵	arrive / reach	arrive / reach		6.7.1		0		
-488580	1978	Phom	pʰe⁵⁵	pʰe⁵⁵	ask	ask		8.5.7.1		0		
-488581	1978	Phom	haw⁵⁵	haw⁵⁵	attend	attend		6.2.2.2		0		
-488582	1978	Phom	haŋ⁵⁵hæ⁵⁵lak³³	haŋ⁵⁵hæ⁵⁵lak³³	bathe / take a bath ('body'+?+?)	bathe / take a bath ('body'+?+?)		6.6		0		
-488583	1978	Phom	aŋ³¹	aŋ³¹	born	be born	be v.	1.1.2		0		
-488584	1978	Phom	lak³³yʌp³³	lak³³yʌp³³	beckon / wave ('hand, arm'+?)	beckon / wave ('hand, arm'+?)		8.5.13		0		695,m
-488585	1978	Phom	yɔ³³	yɔ³³	bend	bend		9.5		0		
-488586	1978	Phom	gɯ³³	gɯ³³	bend by force	bend by force		9.5		0		
-488587	1978	Phom	gat³³	gat³³	bite	bite		1.3.4.4		0		
-488588	1978	Phom	moy³¹	moy³¹	bless / touch	bless / touch		5.8		0		7594?
-488589	1978	Phom	du³¹	du³¹	blow (with mouth)	blow (with mouth)		1.3.1.4		0		
-488590	1978	Phom	ʃæm³¹	ʃæm³¹	boil	boil		6.6		0		
-488591	1978	Phom	lu³³	lu³³	borrow	borrow		6.22		0		
-488592	1978	Phom	tʰɔŋ⁵⁵	tʰɔŋ⁵⁵	bow down	bow down		5.15		0		
-488593	1978	Phom	pʰaw³¹dʌk⁵⁵	pʰaw³¹dʌk⁵⁵	break (e.g. glass)	break (e.g. glass)		9.5		0		
-488594	1978	Phom	ŋʌ³¹hɛ⁵⁵	ŋʌ³¹hɛ⁵⁵	breathe	breathe		1.1.2.2		0		
-488595	1978	Phom	lʌy³¹	lʌy³¹	bring / bring back	bring / bring back		6.2.2.2.2		0		
-488596	1978	Phom	bæʔ³³	bæʔ³³	burn	burn	v.i	3.2.12.1		0		
-488597	1978	Phom	čak³³	čak³³	burn	burn	v.t.	3.2.12.1		0		
-488598	1978	Phom	pʰaw³¹	pʰaw³¹	burst	burst		9.5		0		
-488599	1978	Phom	ʒʌ⁵⁵	ʒʌ⁵⁵	bury (the dead)	bury (the dead)		6.11		0		
-488600	1978	Phom	duŋ³¹	duŋ³¹	bury (in ground)	bury (in ground)		6.11		0		
-488601	1978	Phom	ʃak³³	ʃak³³	buy	buy		6.22		0		
-488602	1978	Phom	hoy³³	hoy³³	call / cry out	call / cry out		8.5.13		0		
-488603	1978	Phom	uŋ³¹	uŋ³¹	care for / foster	care for / foster		8.3.2.3.1		0		
-488604	1978	Phom	gɔ⁵⁵	gɔ⁵⁵	carry from a tump line	carry from a tump line		6.2.2.2.1		0		
-488605	1978	Phom	bam⁵⁵	bam⁵⁵	carry in the arms (esp. baby)	carry in the arms (esp. baby)		6.2.2.2.1		0		
-488606	1978	Phom	yʌŋ³³	yʌŋ³³	carry in the hand	carry in the hand		6.2.2.2.1		0		
-488607	1978	Phom	bay⁵⁵	bay⁵⁵	carry on the shoulder	carry on the shoulder		6.2.2.2.1		0		
-488608	1978	Phom	ʃay⁵⁵	ʃay⁵⁵	chew	chew		1.3.4		0		
-488609	1978	Phom	ɔŋ³³	ɔŋ³³	climb / go up	climb / go up		6.7.7		0		
-488610	1978	Phom	gap³³	gap³³	close (box, etc.) / cover	close (box, etc.) / cover		6.2.2.6.2		0		1233
-488611	1978	Phom	kʰɯm³³	kʰɯm³³	close (mouth)	close (mouth)		6.2.2.6.2		0		
-488612	1978	Phom	hʌyʔ³³	hʌyʔ³³	come	come		6.7.1		0		
-488613	1978	Phom	lʌy⁵⁵	lʌy⁵⁵	come / return	come / return		6.7.1		0		
-488614	1978	Phom	čʌɯ³¹	čʌɯ³¹	cook	cook		5.5		0		
-488615	1978	Phom	gay⁵⁵	gay⁵⁵	cough	cough		1.8.3.3		0		
-488616	1978	Phom	lɯŋ³¹	lɯŋ³¹	crack	crack	v.i	3.2.7		0		
-488617	1978	Phom	ʃom⁵⁵	ʃom⁵⁵	crawl	crawl		6.7.9		0		
-488618	1978	Phom	tʰap³³	tʰap³³	cry / weep	cry / weep		1.8.8.2		0		1103
-488619	1978	Phom	hay⁵⁵	hay⁵⁵	cut with an axe	cut with an axe		6.9.3		0		
-488620	1978	Phom	ʒɛt³³	ʒɛt³³	cut with a knife	cut with a knife		6.9.3		0		
-488621	1978	Phom	den³³	den³³	damage	damage		6.4		0		
-488622	1978	Phom	pʰɔk⁵⁵dʌy⁵⁵	pʰɔk⁵⁵dʌy⁵⁵	dance (?+'mutual, reciprocal')	dance (?+'mutual, reciprocal')		10.0		0		6707,m
-488623	1978	Phom	lɔ⁵⁵	lɔ⁵⁵	deceive	deceive		8.3.3.4.3.2		0		
-488624	1978	Phom	lʌɯ³³	lʌɯ³³	dedicate (church)	dedicate (church)		8.5.16		0		
-488625	1978	Phom	ʃʌyʔ³³	ʃʌyʔ³³	defile	defile				0		
-488626	1978	Phom	ɔŋ³¹	ɔŋ³¹	depend on others	depend on others		6.2.2.2		0		
-488627	1978	Phom	yɯ³¹	yɯ³¹	descend / go down a little way	descend / go down a little way		6.7.8		0		531
-488628	1978	Phom	ʃæ³³	ʃæ³³	descend / go down a long way	descend / go down a long way		6.7.8		0		
-488629	1978	Phom	di³¹	di³¹	die	die		1.1.6		0		
-488630	1978	Phom	ʃu³³	ʃu³³	dig	dig		6.11		0		
-488631	1978	Phom	ʃu³¹	ʃu³¹	disappear, cause to	disappear, cause to	v.t.	9.5		0		
-488632	1978	Phom	ʃu⁵⁵	ʃu⁵⁵	disappear / melt	disappear / melt	v.i	9.5		0		
-488633	1978	Phom	a³¹yʌp³³ʃʌ⁵⁵	a³¹yʌp³³ʃʌ⁵⁵	dive / sink	dive / sink		6.7.8		0		
-488634	1978	Phom	dʌk³³	dʌk³³	do	do		6.1.1.1		0		
-488635	1978	Phom	maŋ³³	maŋ³³	dream	dream		1.1.4.2		0		126
-488636	1978	Phom	yɯŋ⁵⁵	yɯŋ⁵⁵	drink	drink				0		1705
-488637	1978	Phom	æt³¹	æt³¹	drive (animals)	drive (animals)		6.7.10		0		
-488638	1978	Phom	laŋ³³	laŋ³³	drown	drown		6.6		0		
-488639	1978	Phom	ʒæn³³	ʒæn³³	dry	dry	v.i	6.6		0		
-488640	1978	Phom	ʒæn³¹	ʒæn³¹	dry	dry	v.t.	6.6		0		
-488641	1978	Phom	haʔ³³	haʔ³³	eat	eat		1.5.3.2		0		3414
-488642	1978	Phom	kʰay⁵⁵, ak³³kʰay⁵⁵	kʰay⁵⁵, ak³³kʰay⁵⁵	embrace	embrace		8.4		0		
-488644	1978	Phom	ʒæm³³	ʒæm³³	emerge / come out gradually	emerge / come out gradually		6.7.2		0		
-488645	1978	Phom	law³¹	law³¹	emerge / come out suddenly	emerge / come out suddenly		6.7.2		0		
-488646	1978	Phom	len³³	len³³	encroach (as into a bordering field)	encroach (as into a bordering field)		6.7.10		0		
-488647	1978	Phom	ʃʌ⁵⁵	ʃʌ⁵⁵	enter	enter		6.7.1		0		
-488648	1978	Phom	hɛŋ³³	hɛŋ³³	exhort	exhort				0		
-488649	1978	Phom	mat³³	mat³³	extinguish	extinguish		3.2.12.1		0		
-488650	1978	Phom	dɔ⁵⁵	dɔ⁵⁵	fall	fall		6.1.1.4.2		0		
-488651	1978	Phom	ʒʌ⁵⁵	ʒʌ⁵⁵	fall down	fall down		6.1.1.4.2		0		
-488652	1978	Phom	yɯŋ³¹	yɯŋ³¹	feed liquid / make drink	feed liquid / make drink		1.3.5.8		0		1705
-488653	1978	Phom	ton⁵⁵	ton⁵⁵	feel very cold	feel very cold		8.4		0		
-488654	1978	Phom	ʌp³³dʌy⁵⁵	ʌp³³dʌy⁵⁵	fight (?+'mutual, reciprocal')	fight (?+'mutual, reciprocal')		10.0		0		
-488655	1978	Phom	pʰɔŋ³³	pʰɔŋ³³	float	float		6.6.1		0		
-488656	1978	Phom	yan⁵⁵	yan⁵⁵	flow	flow		6.6.1		0		
-488657	1978	Phom	bi⁵⁵	bi⁵⁵	fly	fly		2.2.6		0		
-488658	1978	Phom	mʌ³³	mʌ³³	follow	follow	v.t.	6.7.10		0		
-488659	1978	Phom	be³¹	be³¹	forget	forget		8.3.1.16.1		0		
-488660	1978	Phom	tʰan⁵⁵	tʰan⁵⁵	freeze	freeze		9.5		0		
-488661	1978	Phom	baw³¹	baw³¹	frighten (of animals)	frighten (of animals)		8.3.1.10.1		0		
-488662	1978	Phom	tʰay³³	tʰay³³	gather / collect	gather / collect		6.13.5		0		
-488663	1978	Phom	bu³³	bu³³	get up from bed	get up from bed		1.1.5		0		
-488664	1978	Phom	ʃuʔ³³	ʃuʔ³³	give	give		6.23		0		
-488665	1978	Phom	bɯʔ³³	bɯʔ³³	give birth	give birth		1.1.2		0		3480
-488666	1978	Phom	loy³¹	loy³¹	give shelter / take into one's home	give shelter / take into one's home		6.23		0		
-488667	1978	Phom	day³³, lʌ⁵⁵day³³	day³³, lʌ⁵⁵day³³	go / leave	go / leave		6.7.2		0		
-488669	1978	Phom	læ³¹	læ³¹	gossip	gossip		8.5.8		0		
-488670	1978	Phom	daw³¹	daw³¹	grab and pull	grab and pull		6.16		0		
-488671	1978	Phom	ŋɯm⁵⁵	ŋɯm⁵⁵	grind (e.g. spices)	grind (e.g. spices)		9.5		0		
-488672	1978	Phom	ʃoŋ³¹	ʃoŋ³¹	handle	handle		5.1		0		
-488673	1978	Phom	dæn³¹	dæn³¹	hear	hear		1.2.7.4		0		
-488674	1978	Phom	gæp³¹	gæp³¹	help	help		6.2.2.1		0		
-488675	1978	Phom	ʃaɯ³³	ʃaɯ³³	help	help		6.2.2.1		0		
-488676	1978	Phom	čɔ³¹	čɔ³¹	hide	hide		1.6.5.1		0		
-488677	1978	Phom	gɔŋ³¹	gɔŋ³¹	hit	hit		6.8		0		
-488678	1978	Phom	ʌp³³	ʌp³³	hit / beat	hit / beat		6.8		0		
-488679	1978	Phom	nɔ³³	nɔ³³	hold in hand	hold in hand		6.16		0		
-488680	1978	Phom	le⁵⁵	le⁵⁵	imagine	imagine		8.3.1.13.3		0		
-488681	1978	Phom	ʃuŋ³³	ʃuŋ³³	inject	inject		6.9.3		0		
-488682	1978	Phom	ʃʌ³¹	ʃʌ³¹	insert	insert		6.2		0		
-488683	1978	Phom	laɯ³³	laɯ³³	insert a stick	insert a stick		6.2		0		
-488684	1978	Phom	it³³	it³³	insert / put between	insert / put between		6.2		0		
-488685	1978	Phom	ŋɯʔ³³	ŋɯʔ³³	itch / scratch	itch / scratch		1.6.5.5		0		
-488686	1978	Phom	beŋ³¹	beŋ³¹	join together (as bringing in an accomplice, putting meat on a rod)	join together (as bringing in an accomplice, putting meat on a rod)		10.1.1		0		
-488687	1978	Phom	kʰay⁵⁵	kʰay⁵⁵	join / connect	join / connect		6.13.5		0		
-488688	1978	Phom	lɔŋ³¹	lɔŋ³¹	jump down	jump down		6.7.8		0		
-488689	1978	Phom	duʔ³³	duʔ³³	keep	keep		6.18		0		
-488690	1978	Phom	hɛŋ⁵⁵	hɛŋ⁵⁵	keep orderly / put neatly	keep orderly / put neatly		9.6.1.1		0		3526
-488691	1978	Phom	haw³¹	haw³¹	kick	kick		6.2.2.3.3		0		
-488692	1978	Phom	cʌ³¹	cʌ³¹	kill	kill		6.4		0		
-488693	1978	Phom	ñɯŋ³¹	ñɯŋ³¹	know / learn / imitate	know / learn / imitate		8.3.1.12.1		0		2488
-488694	1978	Phom	ñi⁵⁵	ñi⁵⁵	laugh	laugh		1.8.8.1		0		1105
-488695	1978	Phom	lʌ⁵⁵day³³	lʌ⁵⁵day³³	leave / go	leave / go		6.10.2		0		
-488696	1978	Phom	ʒʌ³¹	ʒʌ³¹	let fall / cause to fall	let fall / cause to fall		6.1.1.4.2		0		
-488697	1978	Phom	dʌy³¹dʌk⁵⁵	dʌy³¹dʌk⁵⁵	let go / set free	let go / set free		6.19		0		
-488698	1978	Phom	lay³¹, lay³¹dʌk⁵⁵	lay³¹, lay³¹dʌk⁵⁵	let loose	let loose		6.19		0		
-488700	1978	Phom	lay³³	lay³³	lick	lick		1.3.3.1		0		
-488701	1978	Phom	lam³¹	lam³¹	lie down	lie down		6.1.1.4		0		
-488702	1978	Phom	yaŋ⁵⁵ñu³³	yaŋ⁵⁵ñu³³	life	life		1.1.2.1		0		
-488703	1978	Phom	bæŋ³³	bæŋ³³	listen	listen		1.2.7.4		0		
-488704	1978	Phom	lɯŋ³³	lɯŋ³³	make	make		6.14		0		
-488705	1978	Phom	æ³³	æ³³	make a bamboo wall	make a bamboo wall		6.14		0		
-488706	1978	Phom	lɔ³¹	lɔ³¹	make a hole through	make a hole through		6.14		0		
-488707	1978	Phom	gʌ³³	gʌ³³	match / be alike	match / be alike		5.11.5.5		0		
-488708	1978	Phom	ñaɯ⁵⁵	ñaɯ⁵⁵	melt / dissolve (e.g. water, wax, fat)	melt / dissolve (e.g. water, wax, fat)		9.5		0		
-488709	1978	Phom	čay³³	čay³³	miss the target	miss the target		8.3.1.5.2		0		
-488710	1978	Phom	yoŋ³¹	yoŋ³¹	mourn / lament	mourn / lament		8.3.1.5.2		0		
-488711	1978	Phom	bɔ⁵⁵	bɔ⁵⁵	move restlessly	move restlessly		6.7.11		0		
-488712	1978	Phom	næ⁵⁵	næ⁵⁵	need / want	need / want		9.6.2		0		
-488713	1978	Phom	ʃæʔ³³čæŋ³³	ʃæʔ³³čæŋ³³	news	news				0		
-488714	1978	Phom	ʃæ³¹æp⁵⁵	ʃæ³¹æp⁵⁵	open (door)	open (door)		6.2.2.6.1		0		
-488715	1978	Phom	ap⁵⁵	ap⁵⁵	open (door, box)	open (door, box)		6.2.2.6.1		0		
-488716	1978	Phom	gæ³¹	gæ³¹	open (earth, mouth)	open (earth, mouth)		6.2.2.6.1		0		
-488717	1978	Phom	yʌy³¹	yʌy³¹	overtake / run ahead	overtake / run ahead		6.7.10		0		
-488718	1978	Phom	bʌyʔ³³	bʌyʔ³³	pass through	pass through		6.7.10		0		
-488719	1978	Phom	pʰɔŋ³¹	pʰɔŋ³¹	pile up in an orderly way	pile up in an orderly way		6.2.2.1		0		
-488720	1978	Phom	loŋ³¹	loŋ³¹	pile up / heap up	pile up / heap up		6.2.2.1		0		
-488721	1978	Phom	ʃɯŋ³¹	ʃɯŋ³¹	pile up / heap up messily	pile up / heap up messily		6.2.2.1		0		
-488722	1978	Phom	ŋæʔ⁵⁵	ŋæʔ⁵⁵	play	play		6.1.1.3		0		
-488723	1978	Phom	ʒɯŋ³¹	ʒɯŋ³¹	play (musical instruments)	play (musical instruments)		6.1.1.3		0		
-488724	1978	Phom	ʃɯŋ⁵⁵	ʃɯŋ⁵⁵	point	point		6.2.2.2		0		
-488725	1978	Phom	ʃɯ³³	ʃɯ³³	pound (rice)	pound (rice)		6.8		0		
-488726	1978	Phom	du³³	du³³	praise	praise		8.5.2.2		0		
-488727	1978	Phom	baŋ³¹	baŋ³¹	prevent	prevent		6.2.2.1		0		
-488728	1978	Phom	ʃɯ⁵⁵	ʃɯ⁵⁵	pull	pull		6.2.2.3.1		0		5618
-488729	1978	Phom	daw³¹	daw³¹	pull up	pull up		6.2.2.3.1		0		
-488730	1978	Phom	hoŋ⁵⁵	hoŋ⁵⁵	push	push		6.2.2.3.1		0		
-488731	1978	Phom	lʌ³¹	lʌ³¹	push down slanting	push down slanting		6.2.2.3.1		0		
-488732	1978	Phom	ʃiʔ³³	ʃiʔ³³	put (inside)	put (inside)		6.17		0		
-488733	1978	Phom	hʌ³³	hʌ³³	put in	put in		6.17		0		
-488734	1978	Phom	haɯ³¹	haɯ³¹	put on / place	put on / place		6.17		0		
-488735	1978	Phom	de³¹	de³¹	quarrel (with words)	quarrel (with words)		8.5.8		0		
-488736	1978	Phom	e³¹	e³¹	read / count	read / count		6.2.2.9.3		0		3552
-488737	1978	Phom	aŋ³³ŋʌy³³, aŋ³³ʌy³³	aŋ³³ŋʌy³³, aŋ³³ʌy³³	redeem / accept back smn. who has done wrong	redeem / accept back smn. who has done wrong		6.22		0		
-488739	1978	Phom	yay³³duʔ³³	yay³³duʔ³³	remove from mouth	remove from mouth		6.10.4		0		
-488740	1978	Phom	dʌŋ³¹	dʌŋ³¹	resist	resist		6.5		0		
-488741	1978	Phom	lʌy⁵⁵	lʌy⁵⁵	return / come	return / come		6.2.2.1		0		
-488742	1978	Phom	lʌ⁵⁵dʌy⁵⁵	lʌ⁵⁵dʌy⁵⁵	roam	roam		6.7.2		0		
-488743	1978	Phom	lʌ⁵⁵bʌ⁵⁵	lʌ⁵⁵bʌ⁵⁵	roam	roam		6.7.2		0		
-488744	1978	Phom	ŋɔ³¹	ŋɔ³¹	roll down	roll down	v.i	6.7.6		0		
-488745	1978	Phom	dʌ³³	dʌ³³	roll up	roll up		6.7.6		0		
-488746	1978	Phom	mɔk³³	mɔk³³	run / flee	run / flee		6.7.4		0		
-488747	1978	Phom	nay⁵⁵	nay⁵⁵	sag (as strung up wires)	sag (as strung up wires)		9.7.2		0		
-488748	1978	Phom	e³³	e³³	say / speak / talk	say / speak / talk		8.5.10.1		0		
-488749	1978	Phom	hay³¹	hay³¹	scatter	scatter		6.10.3		0		
-488750	1978	Phom	yæn³¹	yæn³¹	scatter	scatter		6.10.3		0		
-488751	1978	Phom	ʒaɯ³³	ʒaɯ³³	scream	scream		8.5.4.1		0		
-488752	1978	Phom	e⁵⁵	e⁵⁵	see	see		1.2.6.10		0		
-488753	1978	Phom	yu³¹	yu³¹	sell	sell		6.22		0		
-488754	1978	Phom	pʰɔŋ³¹	pʰɔŋ³¹	send a message to someone	send a message to someone		6.2.2.2		0		
-488755	1978	Phom	hɔŋ³³	hɔŋ³³	set up (as a post)	set up (as a post)		6.17		0		
-488756	1978	Phom	tʰɯŋ⁵⁵	tʰɯŋ⁵⁵	sew / stitch	sew / stitch		5.1		0		
-488757	1978	Phom	kʰʌɯ⁵⁵	kʰʌɯ⁵⁵	shake	shake	v.i	6.7.9		0		
-488758	1978	Phom	tʰi³¹	tʰi³¹	shake	shake	v.t.	6.7.9		0		
-488759	1978	Phom	kʰaŋ⁵⁵	kʰaŋ⁵⁵	shine	shine		1.1.2.1		0		
-488760	1978	Phom	læʔ³³gæp⁵⁵	læʔ³³gæp⁵⁵	shoot (as a gun)	shoot (as a gun)		6.2.2.1		0		m,2232
-488761	1978	Phom	hu³¹	hu³¹	show	show		6.2.2.8		0		
-488762	1978	Phom	lɔk³³	lɔk³³	sing	sing		5.1		0		
-488763	1978	Phom	u⁵⁵	u⁵⁵	sit	sit		6.1.1.4.1		0		3603
-488764	1978	Phom	u³¹	u³¹	sit, cause to (e.g. baby, chicken)	sit, cause to (e.g. baby, chicken)		6.1.1.4.1		0		3603
-488765	1978	Phom	pʰæk³¹	pʰæk³¹	sit idly	sit idly		6.1.1.4.1		0		
-488766	1978	Phom	ʃi³¹	ʃi³¹	sleep	sleep		1.1.4.1		0		140
-488767	1978	Phom	bʌ³³	bʌ³³	smell (notice smell)	smell (notice smell)		1.2.8.5		0		
-488768	1978	Phom	dɯm³¹	dɯm³¹	smell (test by smelling)	smell (test by smelling)		1.2.8.5		0		
-488769	1978	Phom	ʃe³¹bʌ³³	ʃe³¹bʌ³³	smell bad ('rot'+?)	smell bad ('rot'+?)		1.2.8.5		0		
-488770	1978	Phom	ŋʌ³¹mʌy⁵⁵	ŋʌ³¹mʌy⁵⁵	smell good ('breathe'+'good')	smell good ('breathe'+'good')		9.6.1.1		0		m,2457
-488771	1978	Phom	ʃʌ⁵⁵	ʃʌ⁵⁵	sneeze	sneeze		1.8.2.1		0		
-488772	1978	Phom	ʃɔŋ³³hɔk⁵⁵	ʃɔŋ³³hɔk⁵⁵	snore	snore		1.8.2.2		0		
-488773	1978	Phom	læŋ³³	læŋ³³	spill / overflow / pour down	spill / overflow / pour down		6.6		0		
-488774	1978	Phom	gæk⁵⁵	gæk⁵⁵	split	split		6.9.3		0		
-488775	1978	Phom	noy⁵⁵	noy⁵⁵	squeeze / rub on body	squeeze / rub on body		9.5		0		4903
-488776	1978	Phom	hɯm³¹	hɯm³¹	stab (with spear)	stab (with spear)		6.9.2		0		
-488777	1978	Phom	bap³³	bap³³	stab (with large knife, dao)	stab (with large knife, dao)		6.9.2		0		
-488778	1978	Phom	yɔŋ³³	yɔŋ³³	stand	stand		1.5.2		0		
-488779	1978	Phom	lɯŋ⁵⁵ʌy³³yɔŋ³³	lɯŋ⁵⁵ʌy³³yɔŋ³³	stand in line (lɯŋ⁵⁵ʌy³³ 'line, queue'; yɔŋ³³ 'stand')	stand in line (lɯŋ⁵⁵ʌy³³ 'line, queue'; yɔŋ³³ 'stand')		1.5.2		0		
-488780	1978	Phom	baŋ⁵⁵	baŋ⁵⁵	start	start		9.5		0		
-488781	1978	Phom	gɯʔ³³	gɯʔ³³	steal (theft)	steal (theft)		6.2.2.1		0		2365
-488782	1978	Phom	tʰɔŋ³¹	tʰɔŋ³¹	step down	step down		6.7.4		0		
-488783	1978	Phom	lʌɯ⁵⁵le⁵⁵	lʌɯ⁵⁵le⁵⁵	stir (as curry)	stir (as curry)		6.2.2.1		0		
-488784	1978	Phom	gaŋ³³ŋʌy³³, gaŋ³³ʌy³³	gaŋ³³ŋʌy³³, gaŋ³³ʌy³³	stretch by bending (body, stick)	stretch by bending (body, stick)		9.5		0		
-488786	1978	Phom	čʌp³³	čʌp³³	suck	suck		1.3.2.1		0		
-488787	1978	Phom	ɔ³¹	ɔ³¹	swim	swim		6.6		0		
-488788	1978	Phom	čay³¹	čay³¹	taboo	taboo		5.8		0		
-488789	1978	Phom	yæʔ³³	yæʔ³³	take	take		6.21		0		
-488790	1978	Phom	loy⁵⁵	loy⁵⁵	take shelter (e.g. from rain) / become a member	take shelter (e.g. from rain) / become a member		6.21		0		
-488791	1978	Phom	ʒan³¹	ʒan³¹	teach	teach		6.19		0		
-488792	1978	Phom	lay³¹	lay³¹	tear off	tear off		1.8.8.1		0		
-488793	1978	Phom	dʌyʔ³³	dʌyʔ³³	think / remember	think / remember		8.3.1.13.1		0		
-488794	1978	Phom	ʃʌk⁵⁵	ʃʌk⁵⁵	throw	throw		6.12		0		
-488795	1978	Phom	yak³³dʌk⁵⁵	yak³³dʌk⁵⁵	throw away	throw away		6.12		0		m,6717?
-488796	1978	Phom	ʃɯʔ³³	ʃɯʔ³³	throw spear from a distance	throw spear from a distance		6.12		0		
-488797	1978	Phom	dom³¹do³³	dom³¹do³³	throw upward	throw upward		6.12		0		
-488798	1978	Phom	dɯ⁵⁵	dɯ⁵⁵	tickle	tickle		1.5.1.2.4		0		
-488799	1978	Phom	hin³¹	hin³¹	tie a knot	tie a knot		6.13.1		0		
-488800	1978	Phom	ʃæ³¹	ʃæ³¹	tie (with bamboo strips) / bind / wrap / bind (of law)	tie (with bamboo strips) / bind / wrap / bind (of law)		6.13.1		0		
-488801	1978	Phom	ñɔ⁵⁵	ñɔ⁵⁵	tired	tired		9.6.2.2		0		
-488802	1978	Phom	ʒin³¹	ʒin³¹	torture	torture		6.4		0		
-488803	1978	Phom	hoŋ³³	hoŋ³³	touch	touch		8.4		0		
-488804	1978	Phom	kʰɛ⁵⁵	kʰɛ⁵⁵	try	try		6.1.1.1		0		
-488805	1978	Phom	ʃin³¹	ʃin³¹	turn	turn		6.7.6		0		
-488806	1978	Phom	ʃe³³	ʃe³³	untie	untie		6.13.1		0		
-488807	1978	Phom	ʃɔ⁵⁵	ʃɔ⁵⁵	use up / run out	use up / run out		6.2.2.7.1		0		
-488808	1978	Phom	baw³³	baw³³	wake up	wake up	v.i	1.1.4		0		
-488809	1978	Phom	pʰok⁵⁵	pʰok⁵⁵	wake up	wake up	v.t.	1.1.4		0		
-488810	1978	Phom	gæm³³	gæm³³	walk	walk		6.7.4		0		
-488811	1978	Phom	næ⁵⁵	næ⁵⁵	want / need	want / need		8.3.1.14.3		0		
-488812	1978	Phom	gaŋ³¹	gaŋ³¹	warm at fire (e.g. hands, food)	warm at fire (e.g. hands, food)		7.1.2.3		0		119
-488813	1978	Phom	tʰe³¹ pʰɔ⁵⁵	tʰe³¹ pʰɔ⁵⁵	wash face (tʰe³¹ 'face')	wash face (tʰe³¹ 'face')		1.2.5		0		
-488814	1978	Phom	lak³³hɯʔ³³	lak³³hɯʔ³³	wash hands ('arm/hand'+?)	wash hands ('arm/hand'+?)		1.5.1.1		0		695,m
-488815	1978	Phom	dak³³	dak³³	weave	weave		5.1		0		2686
-488816	1978	Phom	om³³bom³¹	om³³bom³¹	welcome warmly	welcome warmly		8.5.11		0		
-488817	1978	Phom	tʰit³³	tʰit³³	wipe / rub off dirt	wipe / rub off dirt		6.2.2.1		0		
-488818	1978	Phom	pʰɔ³¹	pʰɔ³¹	wrestle	wrestle		6.5		0		
-488819	1978	Phom	ɛ³³hɛm³³ʃʌɯ³³	ɛ³³hɛm³³ʃʌɯ³³	yawn	yawn		1.3.1.3		0		p,1715,m
-488820	1978	Phom	gok⁵⁵	gok⁵⁵	classifier for animals	classifier for animals		10.1.3		0		
-488821	1978	Phom	yaŋ³¹	yaŋ³¹	classifier for long things	classifier for long things		10.1.3		0		
-488822	1978	Phom	bæ³³	bæ³³	classifier for people (cf. 'father')	classifier for people  (cf. 'father')		10.1.3		0		
-488823	1978	Phom	ʃɔ³¹	ʃɔ³¹	classifier for short things	classifier for short things		10.1.3		0		
-488824	1978	Phom	pʰæ⁵⁵	pʰæ⁵⁵	classifier for thin things, paper	classifier for thin things, paper		10.1.3		0		
-488825	1978	Phom	mɛ³³ʃɯk³³	mɛ³³ʃɯk³³	how much?	how much?		10.1		0		
-488826	1978	Phom	mɛk³³kʌy³³	mɛk³³kʌy³³	how?	how?		10.1		0		
-488827	1978	Phom	me³³he⁵⁵	me³³he⁵⁵	what?	what?		10.5.3		0		
-488828	1978	Phom	mɛt³³čam⁵⁵	mɛt³³čam⁵⁵	when?	when?		10.5.3		0		
-488829	1978	Phom	mɛ³³lʌy⁵⁵	mɛ³³lʌy⁵⁵	where?	where?		10.5.3		0		
-488830	1978	Phom	ɯ³¹bæ³³	ɯ³¹bæ³³	who?	who?		10.5.3		0		
-488831	1978	Phom	ʃaŋ³³ʌy⁵⁵	ʃaŋ³³ʌy⁵⁵	above	above		9.2.1		0		
-488832	1978	Phom	æ⁵⁵gʌ³³	æ⁵⁵gʌ³³	between	between		9.2.3		0		
-488833	1978	Phom	æt⁵⁵	æt⁵⁵	beyond	beyond		9.2.8		0		
-488834	1978	Phom	-lʌy⁵⁵	-lʌy⁵⁵	from (suffix)	from (suffix)		10.1.1		0		
-488835	1978	Phom	daw³³ʌy⁵⁵	daw³³ʌy⁵⁵	in front of	in front of 		10.1.1		0		
-488836	1978	Phom	mɔŋ⁵⁵ŋʌy⁵⁵	mɔŋ⁵⁵ŋʌy⁵⁵	inside	inside		9.2.5		0		2118,m
-488837	1978	Phom	-ʌy³¹	-ʌy³¹	possessive (suffix)	possessive (suffix)		10.4.1.1		0		
-488838	1978	Phom	haw⁵⁵	haw⁵⁵	side / at the side	side / at the side		1.4.5		0		
-488839	1978	Phom	hom³¹	hom³¹	through	through		9.2.8		0		
-488840	1978	Phom	čɛm³³mi⁵⁵	čɛm³³mi⁵⁵	with / together	with / together		10.1.1		0		
-488841	1978	Phom	-duʔ³³	-duʔ³³	imperative suffix	imperative suffix		10.0		0		
-488842	1978	Phom	-dʌy⁵⁵	-dʌy⁵⁵	mutually / reciprocally	mutually / reciprocally		10.0		0		
-488843	1978	Phom	nɛ³³	nɛ³³	not / negative	not / negative		1.5.3.2		0		
-488844	1978	Phom	-aw⁵⁵	-aw⁵⁵	also	also	n. suffix	10.1.2.1		0		
-488845	1978	Phom	ha³³dʌ³³	ha³³dʌ³³	and	and		10.1.2.1		0		
-488846	1978	Phom	me³³he⁵⁵næŋ³¹gʌ³³	me³³he⁵⁵næŋ³¹gʌ³³	because	because		10.1.2.2		0		
-488847	1978	Phom	ham³¹mʌ³³	ham³¹mʌ³³	here	here		9.2.3		0		
-488848	1978	Phom	čɛ⁵⁵ma³³	čɛ⁵⁵ma³³	if	if		10.1.2.2		0		
-488849	1978	Phom	an⁵⁵de⁵⁵ba³³	an⁵⁵de⁵⁵ba³³	that	that		10.1		0		
-488850	1978	Phom	an⁵⁵de⁵⁵lʌy⁵⁵, an⁵⁵ do⁵⁵lʌy⁵⁵	an⁵⁵de⁵⁵lʌy⁵⁵, an⁵⁵ do⁵⁵lʌy⁵⁵	there	there		9.2.7		0		
-488852	1978	Phom	hæ⁵⁵	hæ⁵⁵	this	this		10.4.3.2		0		
-488853	1978	Phom	hap³³ba³³	hap³³ba³³	this	this		10.4.3.2		0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+488002	1978	Phom	pʰom⁵⁵	pʰom⁵⁵	cloud	cloud			3.2.1		0			
+488003	1978	Phom	bɛ⁵⁵di³¹ʒuk⁵⁵	bɛ⁵⁵di³¹ʒuk⁵⁵	earthquake	earthquake			3.2.6		0			
+488004	1978	Phom	ñaɯ³³	ñaɯ³³	fog / mist	fog / mist			3.2.1		0			
+488005	1978	Phom	gɛ³³laŋ³³	gɛ³³laŋ³³	lightning	lightning			3.2.1		0			
+488006	1978	Phom	len³¹ñɯ³³	len³¹ñɯ³³	moon ('month'+'mother')	moon ('month'+'mother')			3.2.2		0			3579,1621
+488007	1978	Phom	ʒaŋ⁵⁵	ʒaŋ⁵⁵	rain	rain			3.2.1		0			3571
+488008	1978	Phom	pʰom⁵⁵ʃaŋ³³	pʰom⁵⁵ʃaŋ³³	sky	sky			3.2.2		0			
+488009	1978	Phom	ʃʌ⁵⁵	ʃʌ⁵⁵	snow	snow			3.2.1		0			
+488010	1978	Phom	lit³³hæ³³	lit³³hæ³³	star	star			3.2.2		0			3579,m
+488011	1978	Phom	ʒaŋ⁵⁵he⁵⁵	ʒaŋ⁵⁵he⁵⁵	sun	sun			3.2.10		0			
+488012	1978	Phom	ʒaŋ⁵⁵muk³³	ʒaŋ⁵⁵muk³³	thunder	thunder			3.2.1		0			m,2465
+488013	1978	Phom	ʒaŋ⁵⁵lɯk³³	ʒaŋ⁵⁵lɯk³³	wind (air)	wind (air)			3.2.1		0			
+488014	1978	Phom	pʰiʔ³³læ³¹	pʰiʔ³³læ³¹	dust ('sand'+?)	dust ('sand'+?)			3.2.11		0			
+488015	1978	Phom	gaʔ◦dɔk³³	gaʔdɔk³³	earth / soil	earth / soil			3.2.11		0			2284,m
+488016	1978	Phom	ʃam⁵⁵yoŋ⁵⁵	ʃam⁵⁵yoŋ⁵⁵	lake ('house'+'water')	lake ('house'+'water')			3.2.5		0			1612,7197
+488017	1978	Phom	gæʔ³³ʃaŋ³³	gæʔ³³ʃaŋ³³	mountain	mountain			3.2.5		0			
+488018	1978	Phom	ñaɯ⁵⁵hot⁵⁵	ñaɯ⁵⁵hot⁵⁵	mud	mud			3.2.11		0			
+488019	1978	Phom	pʰi³³yoŋ⁵⁵	pʰi³³yoŋ⁵⁵	puddle	puddle			3.2.3		0			
+488020	1978	Phom	yoŋ⁵⁵ñɯ³³	yoŋ⁵⁵ñɯ³³	river (large)	river (large)			3.2.3		0			7770?,1621
+488021	1978	Phom	yoŋ⁵⁵yɛn³¹	yoŋ⁵⁵yɛn³¹	river (small)	river (small)			3.2.3		0			7770?,m
+488022	1978	Phom	ʃɯ³¹	ʃɯ³¹	saline spring	saline spring			6.7.9		0			
+488023	1978	Phom	pʰiʔ³³	pʰiʔ³³	sand	sand			3.2.11		0			
+488024	1978	Phom	yoŋ⁵⁵čɯŋ³³	yoŋ⁵⁵čɯŋ³³	sea / ocean	sea / ocean			3.2.3		0			
+488025	1978	Phom	yoŋ⁵⁵lok³³	yoŋ⁵⁵lok³³	spring (for water)	spring (for water)			6.7.9		0			7197,m
+488026	1978	Phom	yɔŋ³³	yɔŋ³³	stone	stone			3.2.9		0			1269
+488027	1978	Phom	gæʔ³³či⁵⁵	gæʔ³³či⁵⁵	valley	valley			3.2.5		0			
+488028	1978	Phom	yoŋ⁵⁵	yoŋ⁵⁵	water	water			3.2.3		0			7197
+488029	1978	Phom	yoŋ⁵⁵lɔŋ³¹	yoŋ⁵⁵lɔŋ³¹	waterfall	waterfall			3.2.3		0			
+488030	1978	Phom	yam³¹hi³³mæk⁵⁵	yam³¹hi³³mæk⁵⁵	animal	animal			2.3		0			6093,m,m
+488031	1978	Phom	ʃʌk⁵⁵	ʃʌk⁵⁵	buffalo (of the plains)	buffalo (of the plains)			2.1.2		0			
+488032	1978	Phom	ot³¹	ot³¹	camel	camel			2.2.7		0			5733?,b
+488033	1978	Phom	mæ⁵⁵ʃi⁵⁵	mæ⁵⁵ʃi⁵⁵	cat	cat			2.1.3		0			
+488034	1978	Phom	mo³³hoʔ³³	mo³³hoʔ³³	cattle / cow / ox	cattle / cow / ox			2.1.2		0			b
+488035	1978	Phom	ʃi³³	ʃi³³	dog	dog			2.1.11		0			1764
+488036	1978	Phom	yom⁵⁵	yom⁵⁵	goat	goat			2.1.8		0			6028
+488037	1978	Phom	gɔ⁵⁵yʌy⁵⁵	gɔ⁵⁵yʌy⁵⁵	horse	horse			2.1.7		0			
+488038	1978	Phom	ñæ³¹	ñæ³¹	mithun (water buffalo)	mithun (water buffalo)			2.1.2		0			2538
+488039	1978	Phom	ok⁵⁵	ok⁵⁵	pig	pig			2.1.12		0			1006
+488040	1978	Phom	mi⁵⁵	mi⁵⁵	sheep	sheep			2.1.8		0			4769
+488041	1978	Phom	ap³³bak³³	ap³³bak³³	bat (animal)	bat (animal)			2.2.4.1		0			m,2146
+488042	1978	Phom	ʃap³³daw⁵⁵	ʃap³³daw⁵⁵	bear	bear			2.2.3		0			
+488043	1978	Phom	mʌy³¹ʃi³¹	mʌy³¹ʃi³¹	deer (barking)	deer (barking)			2.2.2		0			39,m
+488044	1978	Phom	ʃɔk³³	ʃɔk³³	deer (big horned)	deer (big horned)			2.2.2		0			
+488045	1978	Phom	mʌy³¹ñɯ³³	mʌy³¹ñɯ³³	elephant	elephant			2.2.1		0			2257,1621
+488046	1978	Phom	hu⁵⁵lu³³	hu⁵⁵lu³³	gibbon (black)	gibbon (black)			2.1.9		0			
+488047	1978	Phom	ʃi³³ŋæ⁵⁵	ʃi³³ŋæ⁵⁵	gibbon (brown)	gibbon (brown)			2.1.9		0			
+488048	1978	Phom	mæ³¹hu³¹	mæ³¹hu³¹	jackal / fox	jackal / fox			2.1.11		0			999R
+488049	1978	Phom	ʒɯ³¹	ʒɯ³¹	mole	mole			2.2.7		0			
+488050	1978	Phom	hap³³	hap³³	monkey (long-tailed langur)	monkey (long-tailed langur)			2.1.9		0			
+488051	1978	Phom	mʌy³¹ʃæŋ⁵⁵	mʌy³¹ʃæŋ⁵⁵	monkey (macaque)	monkey (macaque)			2.1.9		0			39,m
+488052	1978	Phom	mʌy³¹yaʔ³³	mʌy³¹yaʔ³³	mountain goat	mountain goat			3.2.5		0			m,6032
+488053	1978	Phom	yʌ³³pʰʌʔ³³oŋ⁵⁵	yʌ³³pʰʌʔ³³oŋ⁵⁵	rabbit	rabbit			2.1.1		0			
+488054	1978	Phom	yɯp³³hɯʔ³³	yɯp³³hɯʔ³³	rat	rat			2.1.1		0			2796,m
+488055	1978	Phom	goŋ⁵⁵aw⁵⁵	goŋ⁵⁵aw⁵⁵	squirrel	squirrel			2.1.1		0			
+488056	1978	Phom	ʃaʔ³³ñɯ³³	ʃaʔ³³ñɯ³³	tiger	tiger			2.1.3		0			5560,1621
+488057	1978	Phom	ʃɔ⁵⁵	ʃɔ⁵⁵	wolf	wolf			2.1.11		0			6053
+488058	1978	Phom	u³³	u³³	bird (general term) / fowl	bird (general term) / fowl			2.2.4		0			301
+488059	1978	Phom	u³³bɔŋ⁵⁵	u³³bɔŋ⁵⁵	cock / rooster	cock / rooster			2.1.10		0			
+488060	1978	Phom	a³³ʃæ⁵⁵	a³³ʃæ⁵⁵	crow	crow			2.2.4.1		0			
+488061	1978	Phom	a³³tʰu⁵⁵	a³³tʰu⁵⁵	dove	dove			2.2.4.1		0			
+488062	1978	Phom	bat⁵⁵æk⁵⁵|	bat⁵⁵æk⁵⁵	duck	duck			2.1.10		0			5716
+488063	1978	Phom	a³³læŋ⁵⁵	a³³læŋ⁵⁵	eagle	eagle			2.2.4.1		0			m,2393
+488064	1978	Phom	hæn³³	hæn³³	goose	goose			2.1.10		0			
+488065	1978	Phom	a³³ʃoŋ⁵⁵	a³³ʃoŋ⁵⁵	myna	myna					0			
+488066	1978	Phom	a³³ʃɯʔ³³lɔŋ³³gɔŋ³¹	a³³ʃɯʔ³³lɔŋ³³gɔŋ³¹	owl	owl			2.2.4.1		0			
+488067	1978	Phom	a³³dʌ⁵⁵	a³³dʌ⁵⁵	peacock	peacock			2.2.4.1		0			
+488068	1978	Phom	læŋ⁵⁵dæ³¹	læŋ⁵⁵dæ³¹	vulture	vulture			2.2.4.1		0			
+488069	1978	Phom	a³³ñæŋ⁵⁵	a³³ñæŋ⁵⁵	woodpecker	woodpecker			2.2.4.1		0			
+488070	1978	Phom	ñæʔ³³	ñæʔ³³	fish	fish			2.2.5		0			1455
+488071	1978	Phom	luk³³	luk³³	frog	frog			2.1.6.2		0			
+488072	1978	Phom	kʰaŋ⁵⁵hæ³³	kʰaŋ⁵⁵hæ³³	house lizard	house lizard			5.11.9.1		0			
+488073	1978	Phom	ʃok³³ʒæŋ⁵⁵	ʃok³³ʒæŋ⁵⁵	shrimp / prawn	shrimp / prawn			2.2.5		0			
+488074	1978	Phom	ʃap³³ʃoŋ⁵⁵	ʃap³³ʃoŋ⁵⁵	snail ('bear'+'shell')	snail ('bear'+'shell')			2.2.5		0			
+488075	1978	Phom	bɯ³¹	bɯ³¹	snake	snake			2.1.6.1		0			2178
+488076	1978	Phom	ʃok⁵⁵yæŋ⁵⁵	ʃok⁵⁵yæŋ⁵⁵	tortoise	tortoise			2.1.6		0			
+488077	1978	Phom	čæŋ⁵⁵nen⁵⁵	čæŋ⁵⁵nen⁵⁵	turtle (water)	turtle (water)			2.1.6		0			
+488078	1978	Phom	mɛ⁵⁵laɯ⁵⁵	mɛ⁵⁵laɯ⁵⁵	ant	ant			2.2.6		0			
+488079	1978	Phom	lʌŋ⁵⁵hʌŋ⁵⁵	lʌŋ⁵⁵hʌŋ⁵⁵	bedbug ('bed'+?)	bedbug ('bed'+?)			2.2.6		0			
+488080	1978	Phom	hʌŋ⁵⁵hʌŋ⁵⁵	hʌŋ⁵⁵hʌŋ⁵⁵	bedbug	bedbug			2.2.6		0			
+488081	1978	Phom	ñæʔ³³ñɯ³³	ñæʔ³³ñɯ³³	bee	bee			2.2.6		0			m,1621
+488082	1978	Phom	bi³³ʃok⁵⁵	bi³³ʃok⁵⁵	butterfly	butterfly			2.2.6		0			
+488083	1978	Phom	lak³³hak³³læ³³hak³³	lak³³hak³³læ³³hak³³	centipede ('arm'+'red'+'leg'+'red')	centipede ('arm'+'red'+'leg'+'red')			9.4		0			695,m,m,m
+488084	1978	Phom	yɯp³³ʃɔ⁵⁵	yɯp³³ʃɔ⁵⁵	cockroach	cockroach			2.2.6		0			
+488085	1978	Phom	iʔ³³tʰu⁵⁵	iʔ³³tʰu⁵⁵	dung beetle ('dung'+'dove')	dung beetle ('dung'+'dove')			1.8.5		0			
+488086	1978	Phom	ɔ³³læʔ³³	ɔ³³læʔ³³	firefly ('fire'+?)	firefly ('fire'+?)			2.2.6		0			
+488087	1978	Phom	mæn⁵⁵hæ³³	mæn⁵⁵hæ³³	fly	fly			2.2.6		0			
+488088	1978	Phom	bi⁵⁵bʌ³³	bi⁵⁵bʌ³³	flying insect	flying insect			6.7.5		0			
+488089	1978	Phom	ʃuk³³	ʃuk³³	grasshopper	grasshopper			2.2.6		0			
+488090	1978	Phom	ñæʔ³³ʃay³¹	ñæʔ³³ʃay³¹	honey bee	honey bee			2.2.6		0			
+488091	1978	Phom	yam³¹hæ³³mæk⁵⁵hæ³³	yam³¹hæ³³mæk⁵⁵hæ³³	insect / bug	insect / bug			2.2.6		0			
+488092	1978	Phom	op⁵⁵	op⁵⁵	leech (land)	leech (land)			2.2.6		0			
+488093	1978	Phom	dæk⁵⁵	dæk⁵⁵	leech (water)	leech (water)			2.2.6		0			
+488094	1978	Phom	dat³³	dat³³	louse	louse			2.2.6		0			
+488095	1978	Phom	mawʔ³³doŋ³³	mawʔ³³doŋ³³	mosquito	mosquito			2.2.6		0			
+488096	1978	Phom	mæk⁵⁵	mæk⁵⁵	spider	spider			2.2.6		0			bIndic
+488097	1978	Phom	pʰæ³¹pʰæ³¹	pʰæ³¹pʰæ³¹	tick (insect)	tick (insect)			2.2.6		0			
+488098	1978	Phom	mɛ³¹tʰaʔ³³	mɛ³¹tʰaʔ³³	white ant / termite	white ant / termite			2.2.6		0			
+488099	1978	Phom	lɔŋ³³	lɔŋ³³	worm	worm			2.2.6		0			5432
+488100	1978	Phom	huŋ³¹	huŋ³¹	bark (dog)	bark (dog)			2.1.11.1		0			6092
+488101	1978	Phom	mɯ⁵⁵	mɯ⁵⁵	goat's hair (dyed red, used for decoration)	goat's hair (dyed red, used for decoration)			2.1.8		0			
+488102	1978	Phom	a³³di⁵⁵	a³³di⁵⁵	egg	egg					0			
+488103	1978	Phom	a³³di⁵⁵ʃop⁵⁵	a³³di⁵⁵ʃop⁵⁵	egg shell	egg shell					0			
+488104	1978	Phom	yaŋ⁵⁵	yaŋ⁵⁵	feather	feather			1.6.1.1		0			720
+488105	1978	Phom	ŋɯŋ⁵⁵	ŋɯŋ⁵⁵	growl (animal)	growl (animal)			2.1.11.1		0			
+488106	1978	Phom	ñæʔ³³čɯ⁵⁵	ñæʔ³³čɯ⁵⁵	honey ('bee'+'juice')	honey ('bee'+'juice')			2.2.6		0			
+488107	1978	Phom	wɔŋ⁵⁵	wɔŋ⁵⁵	horn (of animal)	horn (of animal)			1.2.2		0			814
+488108	1978	Phom	čap³³	čap³³	nest	nest			2.2.4		0			
+488109	1978	Phom	ʃɔ³³	ʃɔ³³	path of an animal	path of an animal			9.10.1		0			
+488110	1978	Phom	ʃoŋ⁵⁵	ʃoŋ⁵⁵	shell (e.g. turtle's)	shell (e.g. turtle's)			2.2.5		0			
+488111	1978	Phom	mæk⁵⁵ñim⁵⁵	mæk⁵⁵ñim⁵⁵	spider web ('spider'+?)	spider web ('spider'+?)			2.2.6		0			bIndic,m
+488112	1978	Phom	ñɯʔ³³ʃʌy³¹	ñɯʔ³³ʃʌy³¹	sting	sting			2.4.2		0			
+488113	1978	Phom	mʌy³³	mʌy³³	tail	tail			1.4.10.1		0			5545
+488114	1978	Phom	ʃam³³	ʃam³³	trunk (elephant)	trunk (elephant)			1.4.1		0			
+488115	1978	Phom	mʌy³¹ñɯ³³pʰæ³¹	mʌy³¹ñɯ³³pʰæ³¹	tusk (elephant)	tusk (elephant)			1.3.4.1		0			2257,1621,m
+488116	1978	Phom	yaŋ⁵⁵	yaŋ⁵⁵	wing / feather	wing / feather			1.5.1.3		0			720
+488117	1978	Phom	pʰaɯ³³	pʰaɯ³³	forest / jungle	forest / jungle			3.2.5		0			
+488118	1978	Phom	ʃʌ³³	ʃʌ³³	forest / jungle	forest / jungle			3.2.5		0			
+488119	1978	Phom	bʌ⁵⁵	bʌ⁵⁵	tree	tree			3.1.2		0			
+488120	1978	Phom	gɔ⁵⁵čʌk⁵⁵	gɔ⁵⁵čʌk⁵⁵	areca nut	areca nut			3.1.1		0			
+488121	1978	Phom	woŋ⁵⁵	woŋ⁵⁵	bamboo	bamboo			3.1.1		0			
+488122	1978	Phom	ŋu³³	ŋu³³	banana	banana			3.1.5		0			
+488123	1978	Phom	bɛ⁵⁵lɔŋ⁵⁵	bɛ⁵⁵lɔŋ⁵⁵	jackfruit	jackfruit			3.1.5		0			
+488124	1978	Phom	tʰi⁵⁵yɔk⁵⁵hæŋ⁵⁵baw⁵⁵	tʰi⁵⁵yɔk⁵⁵hæŋ⁵⁵baw⁵⁵	lime (fruit)	lime (fruit)			3.1.5		0			
+488125	1978	Phom	a³³ʃoy³¹	a³³ʃoy³¹	mango	mango					0			
+488126	1978	Phom	ʒɯŋ⁵⁵ñaŋ⁵⁵hæŋ⁵⁵baw⁵⁵	ʒɯŋ⁵⁵ñaŋ⁵⁵hæŋ⁵⁵baw⁵⁵	orange	orange			3.1.5		0			
+488127	1978	Phom	am⁵⁵mi⁵⁵tʰæ³³	am⁵⁵mi⁵⁵tʰæ³³	papaya	papaya			3.1.5		0			
+488128	1978	Phom	yæ⁵⁵liŋ⁵⁵hæŋ⁵⁵baw⁵⁵	yæ⁵⁵liŋ⁵⁵hæŋ⁵⁵baw⁵⁵	pomelo	pomelo					0			
+488129	1978	Phom	oŋ⁵⁵čʌk⁵⁵	oŋ⁵⁵čʌk⁵⁵	maize	maize			3.1.5		0			
+488130	1978	Phom	ʃi⁵⁵	ʃi⁵⁵	millet	millet			1.5.3.2		0			
+488131	1978	Phom	nʌk³³	nʌk³³	rice (cooked)	rice (cooked)			3.1.4		0			
+488132	1978	Phom	ɔŋ⁵⁵	ɔŋ⁵⁵	rice (husked)	rice (husked)			3.1.4		0			
+488133	1978	Phom	haʔ³³	haʔ³³	rice plant / paddy	rice plant / paddy			3.1.4		0			
+488134	1978	Phom	nʌk³³čaɯ⁵⁵	nʌk³³čaɯ⁵⁵	rice (sticky)	rice (sticky)			3.1.4		0			
+488135	1978	Phom	doŋ³³	doŋ³³	arum	arum			3.1.8		0			
+488136	1978	Phom	hɯŋ⁵⁵	hɯŋ⁵⁵	ginger	ginger			3.1.5		0			647
+488137	1978	Phom	bʌ⁵⁵ʃe⁵⁵	bʌ⁵⁵ʃe⁵⁵	manioc / tapioca	manioc / tapioca					0			
+488138	1978	Phom	ʃe⁵⁵čʌk⁵⁵	ʃe⁵⁵čʌk⁵⁵	potato	potato			3.1.5		0			
+488139	1978	Phom	mɛ³³lɔŋ³³ʃe⁵⁵	mɛ³³lɔŋ³³ʃe⁵⁵	sweet potato	sweet potato			7.1.4.4		0			
+488140	1978	Phom	ʃe⁵⁵	ʃe⁵⁵	yam	yam			3.1.5		0			
+488141	1978	Phom	mʌy³³ʃʌy⁵⁵	mʌy³³ʃʌy⁵⁵	bamboo shoots (dry)	bamboo shoots (dry)			3.1.1		0			
+488142	1978	Phom	mʌy³³či⁵⁵	mʌy³³či⁵⁵	bamboo shoots (juice from)	bamboo shoots (juice from)			3.1.1		0			
+488143	1978	Phom	mʌy³³ʃɔŋ⁵⁵	mʌy³³ʃɔŋ⁵⁵	bamboo shoots (crushed)	bamboo shoots (crushed)			3.1.1		0			
+488144	1978	Phom	li³³haw⁵⁵	li³³haw⁵⁵	beans (green)	beans (green)			3.1.4		0			
+488145	1978	Phom	bɛ⁵⁵lu⁵⁵	bɛ⁵⁵lu⁵⁵	betel leaf, pan	betel leaf, pan			3.1.4		0			
+488146	1978	Phom	ʒʌy⁵⁵	ʒʌy⁵⁵	cane	cane			5.11.8.2.2		0			
+488147	1978	Phom	tʰoŋ⁵⁵hæŋ⁵⁵	tʰoŋ⁵⁵hæŋ⁵⁵	chili peppers	chili peppers			3.1.5		0			
+488148	1978	Phom	pʰɯm⁵⁵pʰaʔ³³	pʰɯm⁵⁵pʰaʔ³³	cotton	cotton			5.1		0			
+488149	1978	Phom	læŋ⁵⁵	læŋ⁵⁵	dyed cane	dyed cane			5.11.8.2.2		0			
+488150	1978	Phom	bin⁵⁵do⁵⁵	bin⁵⁵do⁵⁵	eggplant / brinjal	eggplant / brinjal			3.1.5		0			b
+488151	1978	Phom	a³³ʃɛʔ³³	a³³ʃɛʔ³³	garlic	garlic			3.1.5		0			
+488152	1978	Phom	law³³	law³³	gourd	gourd			3.1.6.4		0			
+488153	1978	Phom	tʰɯŋ⁵⁵	tʰɯŋ⁵⁵	grass	grass			3.1.8		0			
+488154	1978	Phom	goŋ⁵⁵æŋ⁵⁵	goŋ⁵⁵æŋ⁵⁵	mushroom	mushroom			3.1.7		0			
+488155	1978	Phom	laŋ⁵⁵	laŋ⁵⁵	straw	straw			3.1.6.2		0			
+488156	1978	Phom	yæŋ⁵⁵	yæŋ⁵⁵	sugarcane	sugarcane			3.1.5		0			
+488157	1978	Phom	æn⁵⁵	æn⁵⁵	bread	bread			5.5		0			
+488158	1978	Phom	laŋ³¹	laŋ³¹	cooked food	cooked food			5.5		0			
+488159	1978	Phom	haw³³	haw³³	curry	curry			3.1.6		0			
+488160	1978	Phom	ñæʔ³³ʒæn³¹	ñæʔ³³ʒæn³¹	dried fish ('fish'+'dry')	dried fish ('fish'+'dry')			6.6		0			1455,m
+488161	1978	Phom	čʌɯ³¹	čʌɯ³¹	fat / grease	fat / grease			1.6.4		0			60
+488162	1978	Phom	mɔ⁵⁵	mɔ⁵⁵	feast	feast			5.5		0			
+488163	1978	Phom	pʰay⁵⁵	pʰay⁵⁵	meat / flesh	meat / flesh			1.1.1.1		0			22
+488164	1978	Phom	may⁵⁵ŋæ⁵⁵	may⁵⁵ŋæ⁵⁵	oil (cooking)	oil (cooking)			1.6.4.1		0			
+488165	1978	Phom	hɯm³³	hɯm³³	salt	salt			3.2.4		0			2644
+488166	1978	Phom	yɯ³¹	yɯ³¹	wine / liquor / rice beer	wine / liquor / rice beer			3.1.6.3		0			
+488167	1978	Phom	dɔ³³	dɔ³³	yeast	yeast			3.1.6.3		0			
+488168	1978	Phom	ʃɔ⁵⁵	ʃɔ⁵⁵	bark	bark			2.1.11.1		0			1792
+488169	1978	Phom	gaw³³	gaw³³	branch	branch			1.5.3.1		0			
+488170	1978	Phom	čɯ³³	čɯ³³	flower	flower			3.1.4		0			
+488171	1978	Phom	bɛt³³čʌk⁵⁵	bɛt³³čʌk⁵⁵	fruit	fruit			3.1.5		0			
+488172	1978	Phom	woŋ⁵⁵mʌk³³	woŋ⁵⁵mʌk³³	joint (of bamboo) ('bamboo'+'eye')	joint (of bamboo) ('bamboo'+'eye')			3.1.1		0			m,682
+488173	1978	Phom	woŋ⁵⁵ ʃɯʔ³³	woŋ⁵⁵ ʃɯʔ³³	joint (of bamboo) ('bamboo'+?)	joint (of bamboo) ('bamboo'+?)			3.1.1		0			
+488174	1978	Phom	čɯ⁵⁵	čɯ⁵⁵	juice	juice			3.1.6.3		0			
+488175	1978	Phom	lʌɯ³¹	lʌɯ³¹	poison	poison			6.4		0			
+488176	1978	Phom	dɯŋ⁵⁵læŋ⁵⁵	dɯŋ⁵⁵læŋ⁵⁵	root	root			3.1.2		0			
+488177	1978	Phom	ʒæŋ³³	ʒæŋ³³	seed	seed			3.1.4		0			
+488178	1978	Phom	lʌŋ³³	lʌŋ³³	stick	stick			3.1.2		0			
+488179	1978	Phom	hɯʔ³³	hɯʔ³³	thorn	thorn			3.1.2		0			
+488180	1978	Phom	bʌ⁵⁵ñɯ³³bɯm³¹	bʌ⁵⁵ñɯ³³bɯm³¹	trunk (of tree) ('tree'+'mother'+?)	trunk (of tree) ('tree'+'mother'+?)			3.1.2		0			m,1621,m
+488181	1978	Phom	ñæ⁵⁵lɯŋ⁵⁵ŋɔ⁵⁵bay⁵⁵	ñæ⁵⁵lɯŋ⁵⁵ŋɔ⁵⁵bay⁵⁵	vine	vine			3.1.7		0			
+488182	1978	Phom	boŋ⁵⁵	boŋ⁵⁵	bloom	bloom			3.1.10		0			
+488183	1978	Phom	ʃe³³	ʃe³³	decay	decay			9.5		0			
+488184	1978	Phom	ʃɯm³³	ʃɯm³³	ripe	ripe			3.1.10		0			
+488185	1978	Phom	li³¹	li³¹	ripe / mature	ripe / mature			3.1.10		0			
+488186	1978	Phom	ʃe³³	ʃe³³	rot	rot	v.i.	v.i.	3.1.10		0			
+488187	1978	Phom	ʃe³¹	ʃe³¹	rot, cause to	rot, cause to	v.t.	v.t.	3.1.10		0			
+488188	1978	Phom	li⁵⁵	li⁵⁵	seedling	seedling			3.1.8		0			
+488189	1978	Phom	ʃuŋ³¹	ʃuŋ³¹	shoot of plant	shoot of plant			6.2.2.1		0			
+488190	1978	Phom	mæŋ³³	mæŋ³³	spoil	spoil			9.5		0			
+488191	1978	Phom	in³¹	in³¹	sprout (n.) / germinate (v.)	sprout (n.) / germinate (v.)	n./v.	n./v.	3.1.10		0			
+488192	1978	Phom	tʰɯŋ⁵⁵	tʰɯŋ⁵⁵	unripe / green	unripe / green			3.1.10		0			
+488193	1978	Phom	haŋ⁵⁵	haŋ⁵⁵	body	body			1.1.1		0			
+488194	1978	Phom	om³¹tʰɔŋ³³	om³¹tʰɔŋ³³	cheek (?+'ear')	cheek (?+'ear')			1.2.5.2		0			
+488195	1978	Phom	ʃaʔ³³ʒæŋ³³	ʃaʔ³³ʒæŋ³³	chin	chin			1.2.5.3		0			
+488196	1978	Phom	tʰɔŋ³³	tʰɔŋ³³	ear	ear			1.2.7		0			
+488197	1978	Phom	mɯk³³	mɯk³³	eye	eye			1.2.6		0			682
+488198	1978	Phom	tʰe³¹	tʰe³¹	face	face			1.2.5		0			384
+488199	1978	Phom	ʃaŋ⁵⁵bæ³¹	ʃaŋ⁵⁵bæ³¹	forehead	forehead			1.2.5.1		0			
+488200	1978	Phom	ʃaŋ⁵⁵čɯŋ⁵⁵	ʃaŋ⁵⁵čɯŋ⁵⁵	head	head			1.2.1		0			
+488201	1978	Phom	ču⁵⁵ban³³	ču⁵⁵ban³³	lip	lip			1.3.2		0			
+488202	1978	Phom	ču⁵⁵	ču⁵⁵	mouth	mouth			1.3.1		0			
+488203	1978	Phom	ɯŋ³³	ɯŋ³³	neck	neck			1.4.2		0			479
+488204	1978	Phom	ʃoŋ³³	ʃoŋ³³	nose	nose			1.2.8		0			
+488205	1978	Phom	yʌy⁵⁵	yʌy⁵⁵	tongue	tongue			1.3.3		0			621
+488206	1978	Phom	pʰæ³¹	pʰæ³¹	tooth	tooth			1.3.4		0			
+488207	1978	Phom	dɔk³³	dɔk³³	back (of body)	back (of body)			1.4.8		0			
+488208	1978	Phom	wom³³	wom³³	belly	belly			1.4.7		0			
+488209	1978	Phom	am⁵⁵mæ⁵⁵	am⁵⁵mæ⁵⁵	breast / milk	breast / milk			1.4.4.3		0			p,3457
+488210	1978	Phom	čæ⁵⁵bæ³¹	čæ⁵⁵bæ³¹	chest	chest			1.4.4.3		0			
+488211	1978	Phom	huŋ³³	huŋ³³	navel	navel			1.9.4		0			
+488212	1978	Phom	am⁵⁵mæ⁵⁵ču⁵⁵	am⁵⁵mæ⁵⁵ču⁵⁵	nipple (am⁵⁵mæ⁵⁵ 'breast'; ču⁵⁵ 'mouth')	nipple (am⁵⁵mæ⁵⁵ 'breast'; ču⁵⁵ 'mouth')					0			p,3457,m
+488213	1978	Phom	ʃʌŋ³³	ʃʌŋ³³	waist	waist			1.4.6		0			222
+488214	1978	Phom	gom⁵⁵	gom⁵⁵	anus	anus			1.4.10.2		0			
+488215	1978	Phom	ŋap³³	ŋap³³	buttocks	buttocks			1.4.10		0			
+488216	1978	Phom	hɔ³³	hɔ³³	clitoris	clitoris					0			
+488217	1978	Phom	daŋ³³	daŋ³³	penis	penis					0			
+488218	1978	Phom	daŋ³³a³³di⁵⁵	daŋ³³a³³di⁵⁵	testicle	testicle					0			
+488219	1978	Phom	ʃɯʔ³³	ʃɯʔ³³	vulva	vulva					0			
+488220	1978	Phom	lak³³	lak³³	arm / hand	arm / hand			1.5.1.2		0			695
+488221	1978	Phom	pʰak³³ʃæ⁵⁵	pʰak³³ʃæ⁵⁵	armpit	armpit			1.5.1.2.3		0			
+488222	1978	Phom	lak³³nawʔ³³	lak³³nawʔ³³	elbow	elbow			1.5.8.3		0			695,m
+488223	1978	Phom	lak³³čæŋ⁵⁵	lak³³čæŋ⁵⁵	finger	finger			1.5.6		0			695,5628
+488224	1978	Phom	lak³³hæp⁵⁵	lak³³hæp⁵⁵	hand	hand			1.5.1.1		0			695,m
+488225	1978	Phom	lak³³tʰan³¹	lak³³tʰan³¹	nail (finger)	nail (finger)			1.5.10		0			695,m
+488226	1978	Phom	lak³³pʰæ³¹	lak³³pʰæ³¹	palm (of hand)	palm (of hand)			1.5.5		0			695,m
+488227	1978	Phom	pʰak³³čɔŋ³³	pʰak³³čɔŋ³³	shoulder	shoulder			1.4.3		0			568,3346
+488228	1978	Phom	læ³³dɔk³³	læ³³dɔk³³	instep (?+'back')	instep (?+'back')			1.5.2.2		0			
+488229	1978	Phom	læ³³men⁵⁵	læ³³men⁵⁵	footprint	footprint			1.5.2.5		0			
+488230	1978	Phom	læ³³oŋ⁵⁵	læ³³oŋ⁵⁵	heel	heel			1.5.2.1		0			
+488231	1978	Phom	læ³³ʃɯʔ³³	læ³³ʃɯʔ³³	knee	knee			1.5.8.4		0			350,m
+488232	1978	Phom	læ³³	læ³³	leg / foot	leg / foot			1.5.7		0			350
+488233	1978	Phom	ʃʌŋ⁵⁵, ʃʌŋ⁵⁵goŋ⁵⁵	ʃʌŋ⁵⁵, ʃʌŋ⁵⁵goŋ⁵⁵	thigh / lap	thigh / lap			1.5.7.1		0			
+488235	1978	Phom	ʃaŋ⁵⁵bæŋ⁵⁵	ʃaŋ⁵⁵bæŋ⁵⁵	bald	bald			1.2.3.4		0			
+488236	1978	Phom	ču⁵⁵mom⁵⁵	ču⁵⁵mom⁵⁵	beard / mustache	beard / mustache			1.2.5.5		0			m,2058
+488237	1978	Phom	mɯk³³mom⁵⁵	mɯk³³mom⁵⁵	eyebrow	eyebrow			1.2.6.6		0			
+488238	1978	Phom	mom⁵⁵	mom⁵⁵	hair (body)	hair (body)			1.2.3		0			2058
+488239	1978	Phom	ʃu⁵⁵	ʃu⁵⁵	hair (head)	hair (head)			1.2.3		0			
+488240	1978	Phom	pʰak³³ʃæ⁵⁵mom⁵⁵	pʰak³³ʃæ⁵⁵mom⁵⁵	hair (underarm)	hair (underarm)			1.2.3		0			m,m,2058
+488241	1978	Phom	i³³	i³³	blood	blood			1.6.2		0			230
+488242	1978	Phom	nɯ³¹hi³³næm³³	nɯ³¹hi³³næm³³	dirt / feces	dirt / feces			1.5.3.2		0			
+488243	1978	Phom	iʔ³³du³¹	iʔ³³du³¹	fart ('feces'+'blow')	fart ('feces'+'blow')			1.8.5.2		0			
+488244	1978	Phom	lɯ⁵⁵	lɯ⁵⁵	fart slowly	fart slowly			1.8.5.2		0			
+488245	1978	Phom	iʔ³³	iʔ³³	feces / dung	feces / dung			1.8.5		0			
+488246	1978	Phom	am⁵⁵mæ⁵⁵	am⁵⁵mæ⁵⁵	milk / breast	milk / breast					0			p,3457
+488247	1978	Phom	u³¹	u³¹	nose dirt / snot	nose dirt / snot			1.2.8		0			
+488248	1978	Phom	lam³³	lam³³	placenta	placenta					0			
+488249	1978	Phom	mæ³¹ʃɯ³³	mæ³¹ʃɯ³³	pus	pus			1.8.6.1		0			
+488250	1978	Phom	gɔ³³	gɔ³³	scars	scars					0			
+488251	1978	Phom	ʃɔ⁵⁵	ʃɔ⁵⁵	skin	skin			1.6.5		0			
+488252	1978	Phom	yo³³up⁵⁵	yo³³up⁵⁵	spit / saliva	spit / saliva			1.8.3		0			
+488253	1978	Phom	lam⁵⁵ɔ³¹	lam⁵⁵ɔ³¹	sweat	sweat			1.8.1		0			797,m
+488254	1978	Phom	mɯk³³pʰi³¹	mɯk³³pʰi³¹	tears	tears			1.2.6.7		0			
+488255	1978	Phom	ʃen³¹	ʃen³¹	urine	urine			1.8.4		0			
+488256	1978	Phom	pʰay³¹	pʰay³¹	vomit	vomit			1.8.3.2		0			1145
+488257	1978	Phom	ʃom⁵⁵bu⁵⁵	ʃom⁵⁵bu⁵⁵	bladder	bladder			1.7.8		0			
+488258	1978	Phom	ʃu⁵⁵li⁵⁵	ʃu⁵⁵li⁵⁵	brain	brain			1.2.4		0			
+488259	1978	Phom	pʰay⁵⁵	pʰay⁵⁵	flesh / meat	flesh / meat			1.1.1.1		0			22
+488260	1978	Phom	yɯ³¹	yɯ³¹	gall bladder	gall bladder			1.7.3		0			
+488261	1978	Phom	lʌy³³	lʌy³³	guts / intestines	guts / intestines			1.7.7		0			
+488262	1978	Phom	mɔŋ⁵⁵daŋ³³	mɔŋ⁵⁵daŋ³³	heart	heart			1.7.1		0			1392
+488263	1978	Phom	ʃe³³	ʃe³³	kidney	kidney			1.7.5		0			
+488264	1978	Phom	tʰan³³	tʰan³³	liver	liver			1.7.3		0			1390
+488265	1978	Phom	yu⁵⁵	yu⁵⁵	muscle	muscle			1.6.6.2		0			
+488266	1978	Phom	wom³³	wom³³	stomach	stomach			1.7.6		0			
+488267	1978	Phom	naɯ⁵⁵u⁵⁵ʃɯŋ³³	naɯ⁵⁵u⁵⁵ʃɯŋ³³	womb / uterus ('baby'+'sit'+'place')	womb / uterus ('baby'+'sit'+'place')					0			
+488268	1978	Phom	ʒæŋ³³	ʒæŋ³³	bone	bone			1.6.3		0			238
+488269	1978	Phom	dɔk³³ʒæŋ³³	dɔk³³ʒæŋ³³	backbone	backbone			1.4.8.2		0			
+488270	1978	Phom	ʃæʔ³³ʒæŋ³³	ʃæʔ³³ʒæŋ³³	jawbone	jawbone			1.2.5.2		0			
+488271	1978	Phom	ʒæŋ³³ni⁵⁵	ʒæŋ³³ni⁵⁵	marrow	marrow			1.6.3.5		0			
+488272	1978	Phom	hæm⁵⁵bæt⁵⁵ʒæŋ³³	hæm⁵⁵bæt⁵⁵ʒæŋ³³	rib	rib			1.4.4.3		0			
+488273	1978	Phom	ʃaŋ⁵⁵ʒæŋ³³	ʃaŋ⁵⁵ʒæŋ³³	skull	skull			1.2.1.1		0			
+488274	1978	Phom	ŋʌy³³	ŋʌy³³	I	I			4.1		0			2530
+488275	1978	Phom	nɯŋ³³	nɯŋ³³	you (sg.)	you (sg.)			4.1		0			2489
+488276	1978	Phom	bin³³ñɯ⁵⁵	bin³³ñɯ⁵⁵	she	she			4.1		0			
+488277	1978	Phom	bʌ³³bæ⁵⁵	bʌ³³bæ⁵⁵	he	he			4.1		0			
+488278	1978	Phom	hæm³³pʰoŋ³³	hæm³³pʰoŋ³³	we (exclusive)	we (exclusive)			4.1		0			
+488279	1978	Phom	či⁵⁵	či⁵⁵	we (dual, inclusive)	we (dual, inclusive)			4.1		0			
+488280	1978	Phom	æm³³pʰoŋ³³	æm³³pʰoŋ³³	you (pl.)	you (pl.)			4.1		0			
+488281	1978	Phom	čom⁵⁵pʰoŋ³³	čom⁵⁵pʰoŋ³³	they	they			4.1		0			
+488282	1978	Phom	ñɯŋ³¹ñɯŋ³¹	ñɯŋ³¹ñɯŋ³¹	self	self			4.1		0			
+488283	1978	Phom	nɛ³³tʰe⁵⁵	nɛ³³tʰe⁵⁵	adolescent boy	adolescent boy			1.9.6.1		0			
+488284	1978	Phom	nɛ³³læ⁵⁵	nɛ³³læ⁵⁵	adolescent girl	adolescent girl			1.9.3		0			m,5493
+488285	1978	Phom	naɯ⁵⁵	naɯ⁵⁵	baby	baby			4.2.11		0			
+488286	1978	Phom	ʃoŋ³¹hæ³³	ʃoŋ³¹hæ³³	bastard	bastard			4.7.3		0			
+488287	1978	Phom	ba³³hæ⁵⁵naɯ⁵⁵	ba³³hæ⁵⁵naɯ⁵⁵	boy	boy			1.9.6.1		0			1634,m,s
+488288	1978	Phom	hæ³³ʃiʔ³³	hæ³³ʃiʔ³³	child (young person)	child (young person)			1.5.3.2		0			
+488289	1978	Phom	ñɯ³³hæ⁵⁵naɯ⁵⁵	ñɯ³³hæ⁵⁵naɯ⁵⁵	girl	girl			1.9.3		0			1621,m,s
+488290	1978	Phom	yan³³	yan³³	guest	guest			4.4.3		0			
+488291	1978	Phom	oŋ⁵⁵	oŋ⁵⁵	king	king			4.2.5		0			
+488292	1978	Phom	may³³	may³³	lover	lover			8.3.1.1.1		0			
+488293	1978	Phom	ba³³hæ⁵⁵	ba³³hæ⁵⁵	man (male person)	man (male person)			1.9.6.1		0			1634,m
+488294	1978	Phom	ʒɯ³¹bæ³³	ʒɯ³¹bæ³³	old man	old man			7.1.8.3		0			
+488295	1978	Phom	ʒɯ³¹ñɯ³³	ʒɯ³¹ñɯ³³	old woman	old woman			7.1.8.3		0			m,1621
+488296	1978	Phom	ʃan³¹ñak³³	ʃan³¹ñak³³	person	person			4.5		0			
+488297	1978	Phom	daw⁵⁵bæ³³	daw⁵⁵bæ³³	poor man	poor man			9.6.2.2		0			
+488298	1978	Phom	ban³¹	ban³¹	settler from outside	settler from outside			10.1.1		0			
+488299	1978	Phom	æ⁵⁵	æ⁵⁵	slave	slave			4.2.10		0			
+488300	1978	Phom	loŋ³³	loŋ³³	subjects (of a king, etc.)	subjects (of a king, etc.)			1.5.3.2		0			
+488301	1978	Phom	gɯʔ³³bæ³³	gɯʔ³³bæ³³	thief ('steal'+?)	thief ('steal'+?)			4.2.12.1		0			2365,m
+488302	1978	Phom	ʒam⁵⁵ñɯ³³	ʒam⁵⁵ñɯ³³	widow	widow			4.2.8		0			m,1621
+488303	1978	Phom	ʒam⁵⁵bæ³³	ʒam⁵⁵bæ³³	widower	widower			4.2.8		0			
+488304	1978	Phom	ñɯ³³hæ⁵⁵	ñɯ³³hæ⁵⁵	woman	woman			1.9.3		0			1621,m
+488305	1978	Phom	tʰe⁵⁵hi³³læ⁵⁵	tʰe⁵⁵hi³³læ⁵⁵	young people / youth (cf. 'adolescent boy, girl')	young people / youth (cf. 'adolescent boy, girl')			7.1.8.3		0			m,m,5493
+488306	1978	Phom	o³³bɯ³³	o³³bɯ³³	grandfather	grandfather			4.7.1		0			
+488307	1978	Phom	o³³bi³³	o³³bi³³	grandmother	grandmother			4.7.1		0			
+488308	1978	Phom	bæ³³	bæ³³	father	father			4.7.1		0			
+488309	1978	Phom	bæ³³baʔ³³he³³bæ⁵⁵	bæ³³baʔ³³he³³bæ⁵⁵	father's older brother	father's older brother			1.5.3.2		0			
+488310	1978	Phom	ñʌy³³	ñʌy³³	father's sister	father's sister			4.7.1		0			
+488311	1978	Phom	bæ³³naɯ⁵⁵e⁵⁵bæ³³	bæ³³naɯ⁵⁵e⁵⁵bæ³³	father's younger brother	father's younger brother			1.5.3.2		0			
+488312	1978	Phom	ñɯ³³	ñɯ³³	mother	mother			4.7.1		0			1621
+488313	1978	Phom	gu³³	gu³³	mother's brother	mother's brother			1.5.3.2		0			
+488314	1978	Phom	čʌy³³	čʌy³³	older brother	older brother					0			6429
+488315	1978	Phom	ñæ³³	ñæ³³	older sister	older sister					0			
+488316	1978	Phom	naɯ⁵⁵bʌɯ³¹	naɯ⁵⁵bʌɯ³¹	younger sibling	younger sibling					0			
+488317	1978	Phom	hæ³³bʌɯ³¹	hæ³³bʌɯ³¹	child (kin term)	child (kin term)			1.5.3.2		0			
+488318	1978	Phom	yɯk³³hæ³³	yɯk³³hæ³³	daughter	daughter			4.7.3		0			
+488319	1978	Phom	li³¹bʌɯ³¹	li³¹bʌɯ³¹	nephew / niece	nephew / niece			4.7.3		0			
+488320	1978	Phom	ye⁵⁵ʃaŋ⁵⁵	ye⁵⁵ʃaŋ⁵⁵	son	son			4.7.3		0			
+488321	1978	Phom	hɯ³³bʌɯ³¹	hɯ³³bʌɯ³¹	grandchild	grandchild			4.7.3		0			
+488322	1978	Phom	ʃaŋ³¹	ʃaŋ³¹	sick / ill	sick / ill			1.1.5.1		0			
+488323	1978	Phom	dɯŋ⁵⁵	dɯŋ⁵⁵	sick / ill	sick / ill			1.1.5.1		0			
+488324	1978	Phom	maw³³	maw³³	constipation	constipation			1.7.7		0			
+488325	1978	Phom	æŋ⁵⁵	æŋ⁵⁵	deaf	deaf			1.2.7.5		0			
+488326	1978	Phom	hʌ³¹	hʌ³¹	deaf	deaf			1.2.7.5		0			
+488327	1978	Phom	mæ³¹yæʔ³³	mæ³¹yæʔ³³	injury	injury			1.1.5.1		0			
+488328	1978	Phom	ŋɯʔ³³	ŋɯʔ³³	itch	itch			1.6.5.5		0			
+488329	1978	Phom	kʰaw⁵⁵dɛ³³gɛ³³	kʰaw⁵⁵dɛ³³gɛ³³	shock with depression	shock with depression			8.3.1.9.1		0			
+488330	1978	Phom	bok⁵⁵	bok⁵⁵	swell up	swell up			1.1.5.2		0			
+488331	1978	Phom	daw³³	daw³³	swell up	swell up			1.1.5.2		0			
+488332	1978	Phom	hæʔ³³ʌ⁵⁵	hæʔ³³ʌ⁵⁵	container for paddy (made from a mat)	container for paddy (made from a mat)			5.1		0			
+488333	1978	Phom	haw³³dʌk³³	haw³³dʌk³³	curry pot ('curry'+?)	curry pot ('curry'+?)			3.1.6		0			
+488334	1978	Phom	ʃam³³ʃak³³	ʃam³³ʃak³³	mortar (for pounding rice)	mortar (for pounding rice)			5.5		0			
+488335	1978	Phom	mʌ⁵⁵	mʌ⁵⁵	pestle	pestle			5.5		0			
+488336	1978	Phom	nʌk³³ʃoŋ⁵⁵	nʌk³³ʃoŋ⁵⁵	rice plate ('rice'+'shell')	rice plate ('rice'+'shell')			3.1.4		0			
+488337	1978	Phom	nʌk³³dʌk³³	nʌk³³dʌk³³	rice pot ('rice'+?)	rice pot ('rice'+?)			3.1.4		0			
+488338	1978	Phom	kʰuŋ³³	kʰuŋ³³	bag	bag					0			
+488339	1978	Phom	dɔ⁵⁵	dɔ⁵⁵	basket (general term)	basket (general term)			5.1		0			
+488340	1978	Phom	om⁵⁵	om⁵⁵	basket (winnowing)	basket (winnowing)			5.1		0			
+488341	1978	Phom	u³³dɔ⁵⁵	u³³dɔ⁵⁵	bird basket / bird cage ('bird'+?)	bird basket / bird cage ('bird'+?)			2.2.4		0			301,m
+488342	1978	Phom	bak³³	bak³³	carrying strap / tump line	carrying strap / tump line			6.2.2.2.1		0			
+488343	1978	Phom	pʰom⁵⁵	pʰom⁵⁵	cloth	cloth			5.1		0			
+488344	1978	Phom	ɔ³¹	ɔ³¹	clothing	clothing			5.11.8.2.1		0			
+488345	1978	Phom	tʰoy³¹læ³³ʒɯ³³	tʰoy³¹læ³³ʒɯ³³	jute cloth	jute cloth			5.1		0			
+488346	1978	Phom	am⁵⁵	am⁵⁵	mat	mat			5.11.9.4		0			3532
+488347	1978	Phom	ʒɯ³³	ʒɯ³³	rope	rope			5.11.4		0			
+488348	1978	Phom	ʒi³³	ʒi³³	thread	thread			5.11.6		0			
+488349	1978	Phom	luŋ⁵⁵	luŋ⁵⁵	tying strips (flexible bamboo)	tying strips (flexible bamboo)			6.13.1		0			
+488350	1978	Phom	læʔ³³hæn⁵⁵	læʔ³³hæn⁵⁵	arrow	arrow			5.15		0			2386,74
+488351	1978	Phom	æ³¹	æ³¹	ax	ax			5.11.5.3		0			
+488352	1978	Phom	bʌ³³læʔ³³	bʌ³³læʔ³³	bow ('tree, wood'+?)	bow ('tree, wood'+?)	n.	n.	3.1.2		0			
+488353	1978	Phom	woŋ⁵⁵læʔ³³	woŋ⁵⁵læʔ³³	bow ('bamboo'+?)	bow ('bamboo'+?)	n.	n.	5.15		0			
+488354	1978	Phom	loŋ³³kʰoyʔ³³	loŋ³³kʰoyʔ³³	knife	knife			5.5		0			
+488355	1978	Phom	hu³³	hu³³	knitting	knitting					0			
+488356	1978	Phom	tʰay⁵⁵	tʰay⁵⁵	ladder / bridge	ladder / bridge			5.4		0			
+488357	1978	Phom	yæn⁵⁵	yæn⁵⁵	large knife / sword / dao	large knife / sword / dao			9.7.1		0			6235
+488358	1978	Phom	ñam⁵⁵mɛt³³	ñam⁵⁵mɛt³³	needle ('iron'+?)	needle ('iron'+?)			5.1		0			
+488359	1978	Phom	i⁵⁵	i⁵⁵	shield	shield	n.	n.	5.15		0			
+488360	1978	Phom	day⁵⁵	day⁵⁵	snare	snare	n.	n.	5.14		0			
+488361	1978	Phom	ŋɔ³³	ŋɔ³³	spear	spear	n.	n.	5.14		0			
+488362	1978	Phom	a³³čap⁵⁵	a³³čap⁵⁵	tongs	tongs			5.4		0			
+488363	1978	Phom	čuŋ⁵⁵	čuŋ⁵⁵	trap	trap	n.	n.	5.14		0			
+488364	1978	Phom	lʌŋ⁵⁵	lʌŋ⁵⁵	bed	bed			1.5.3.2		0			
+488365	1978	Phom	čoŋ³³	čoŋ³³	bird coop / chicken coop (placed high as in a tree, but made by people)	bird coop / chicken coop (placed high as in a tree, but made by people)			10.0		0			
+488366	1978	Phom	ʃæ³¹dan³¹	ʃæ³¹dan³¹	door	door			5.11.9.3		0			
+488367	1978	Phom	yɔ³¹	yɔ³¹	dormitory for young men or women	dormitory for young men or women			5.11.9.1		0			
+488368	1978	Phom	ɔ³³dap³³	ɔ³³dap³³	fireplace (ɔ³³ 'fire'; dap³³læ³¹ 'ashes')	fireplace (ɔ³³ 'fire'; dap³³læ³¹ 'ashes')			3.2.12.2		0			m,2691
+488369	1978	Phom	buŋ⁵⁵	buŋ⁵⁵	granary	granary			5.11.9.5		0			
+488370	1978	Phom	pʰæk⁵⁵	pʰæk⁵⁵	horn-shaped hook for hanging things	horn-shaped hook for hanging things			1.2.2		0			
+488371	1978	Phom	ʃam⁵⁵	ʃam⁵⁵	house	house			5.11.9.1		0			1612
+488372	1978	Phom	u³³kʰɔk³³	u³³kʰɔk³³	pen for animals (on the ground)	pen for animals (on the ground)			5.1		0			
+488373	1978	Phom	ʃam⁵⁵a³³dɔk³³	ʃam⁵⁵a³³dɔk³³	roof ('house'+?+'back')	roof ('house'+?+'back')			5.11.9		0			1612,m,m
+488374	1978	Phom	dʌ³¹	dʌ³¹	sitting platform	sitting platform			6.1.1.4.1		0			
+488375	1978	Phom	yuʔ³³	yuʔ³³	thatch	thatch			3.1.6.4		0			
+488376	1978	Phom	bæŋ³³	bæŋ³³	village meeting house	village meeting house			5.8		0			
+488377	1978	Phom	pʰæm³³	pʰæm³³	wall	wall			5.11.9.3		0			
+488378	1978	Phom	tʰay⁵⁵	tʰay⁵⁵	bridge / ladder	bridge / ladder			9.10.2		0			
+488379	1978	Phom	gæʔ³³	gæʔ³³	fields	fields			3.2.5		0			
+488380	1978	Phom	be⁵⁵	be⁵⁵	garden / fence	garden / fence			9.10.4		0			
+488381	1978	Phom	ʌɯ³¹	ʌɯ³¹	retaining log to hold back dirt	retaining log to hold back dirt			1.5.3.2		0			
+488382	1978	Phom	lam⁵⁵	lam⁵⁵	road / path	road / path			9.10.1		0			1017
+488383	1978	Phom	čɯŋ³³	čɯŋ³³	village	village			5.8		0			5776
+488384	1978	Phom	yoŋ⁵⁵gok⁵⁵	yoŋ⁵⁵gok⁵⁵	well ('water'+?)	well ('water'+?)			9.6.1.1		0			7197,m
+488385	1978	Phom	ay³¹	ay³¹	boat made from bamboo	boat made from bamboo			5.1		0			
+488386	1978	Phom	lay⁵⁵	lay⁵⁵	book	book			5.1		0			
+488387	1978	Phom	li⁵⁵biŋ³¹	li⁵⁵biŋ³¹	flute (musical)	flute (musical)			5.1		0			
+488388	1978	Phom	pʰɯ³¹	pʰɯ³¹	umbrella	umbrella			5.11.8.2.2		0			
+488389	1978	Phom	ɔ³³niʔ³³	ɔ³³niʔ³³	ashes ('fire'+?)	ashes ('fire'+?)			3.2.12.2		0			
+488390	1978	Phom	dap³³læ³¹	dap³³læ³¹	ashes	ashes			3.2.12.2		0			2691,5606
+488391	1978	Phom	mʌ⁵⁵	mʌ⁵⁵	bride price	bride price			4.2.8		0			
+488392	1978	Phom	pʰu⁵⁵	pʰu⁵⁵	chips (from chopping)	chips (from chopping)			3.2.7		0			
+488393	1978	Phom	pʰaŋ⁵⁵	pʰaŋ⁵⁵	clan (kin group)	clan (kin group)			4.4.2		0			
+488394	1978	Phom	maŋ⁵⁵	maŋ⁵⁵	corpse	corpse			1.1.6.1		0			17
+488395	1978	Phom	yan³¹	yan³¹	correction	correction					0			
+488396	1978	Phom	laɯ³¹	laɯ³¹	correction	correction					0			
+488397	1978	Phom	ʒaŋ³¹	ʒaŋ³¹	cultivation	cultivation			3.1.10		0			
+488398	1978	Phom	mak³³	mak³³	dirt	dirt			1.5.3.2		0			
+488399	1978	Phom	maŋ³¹	maŋ³¹	evil spirit	evil spirit			8.3.1.15		0			
+488400	1978	Phom	woŋ³¹	woŋ³¹	fragrance / perfume	fragrance / perfume			3.1.2		0			
+488401	1978	Phom	ɔ³³	ɔ³³	fire	fire			3.2.12.2		0			
+488402	1978	Phom	bʌ⁵⁵	bʌ⁵⁵	firewood	firewood			5.11.5.5		0			
+488403	1978	Phom	bɯŋ³¹, bɯŋ³¹hi³³yaŋ⁵⁵	bɯŋ³¹, bɯŋ³¹hi³³yaŋ⁵⁵	flood	flood			3.2.3		0			
+488405	1978	Phom	o³³	o³³	folk song	folk song			5.1		0			
+488406	1978	Phom	wɔŋ³¹	wɔŋ³¹	force / power / strength (e.g. of a man, elephant) (cf. 'difficult')	force / power / strength (e.g. of a man, elephant) (cf. 'difficult')			1.1.5		0			1842
+488407	1978	Phom	hon³¹	hon³¹	gold	gold			3.2.4		0			b
+488408	1978	Phom	ʃæ⁵⁵	ʃæ⁵⁵	hole	hole			3.2.7		0			
+488409	1978	Phom	ñam⁵⁵	ñam⁵⁵	iron	iron			3.2.4		0			
+488410	1978	Phom	bɔŋ³¹	bɔŋ³¹	joint / seam (e.g. between cloth, boards)	joint / seam (e.g. between cloth, boards)			5.1		0			
+488411	1978	Phom	ʃaʔ³³	ʃaʔ³³	language (cf. 'chin')	language (cf. 'chin')			5.8		0			
+488412	1978	Phom	tʰoŋ³³	tʰoŋ³³	lime (mineral)	lime (mineral)			3.1.5		0			
+488413	1978	Phom	mɛ⁵⁵li⁵⁵|	mɛ⁵⁵li⁵⁵|	medicine	medicine			5.4		0			7660?
+488414	1978	Phom	lop³¹	lop³¹	money	money			5.9		0			
+488415	1978	Phom	mɛn³¹	mɛn³¹	name	name	n.	n.	5.8		0			2450
+488416	1978	Phom	baŋ³³	baŋ³³	pit / trench	pit / trench			3.1.2		0			
+488417	1978	Phom	ʃɯŋ³³	ʃɯŋ³³	place	place	n.	n.	9.10.5		0			
+488418	1978	Phom	pʰu⁵⁵	pʰu⁵⁵	property mark	property mark			9.10.3		0			
+488419	1978	Phom	aw³³bʌ³³	aw³³bʌ³³	remainder / remnant	remainder / remnant			8.1		0			
+488420	1978	Phom	lʌŋ³¹	lʌŋ³¹	row / line / queue	row / line / queue			6.2.2.1		0			
+488421	1978	Phom	dɯ³³	dɯ³³	rust	rust			3.2.4		0			5442
+488422	1978	Phom	tʰɯm³¹	tʰɯm³¹	shade / shadow	shade / shadow			3.2.10		0			
+488423	1978	Phom	ŋin⁵⁵	ŋin⁵⁵	silver	silver			3.2.4		0			2536
+488424	1978	Phom	mæŋ³³	mæŋ³³	sin (cf. 'spoil')	sin (cf. 'spoil')			5.8.3.1		0			
+488425	1978	Phom	ɔ³³ʃit³³	ɔ³³ʃit³³	smoke ('fire'+?)	smoke ('fire'+?)			3.2.12.2		0			
+488426	1978	Phom	haʔ³³ ʃʌ⁵⁵	haʔ³³ ʃʌ⁵⁵	sneeze [two words]	sneeze [two words]	n.	n.	1.8.2.1		0			
+488427	1978	Phom	læʔ³³æŋ³³hæ⁵⁵	læʔ³³æŋ³³hæ⁵⁵	soul / spirit	soul / spirit			1.10		0			
+488428	1978	Phom	gon³¹	gon³¹	wisdom	wisdom			8.3.3.3.1		0			
+488429	1978	Phom	pʰʌy⁵⁵gʌ³³	pʰʌy⁵⁵gʌ³³	after	after			9.1.5		0			7190,m
+488430	1978	Phom	æŋ³³	æŋ³³	after a while	after a while			9.1.5		0			
+488431	1978	Phom	ʃaw⁵⁵	ʃaw⁵⁵	again	again			10.1		0			
+488432	1978	Phom	nʌŋ⁵⁵ʌy³³	nʌŋ⁵⁵ʌy³³	again / right after	again / right after			10.1		0			
+488433	1978	Phom	dʌŋ³¹	dʌŋ³¹	always	always			9.1.1		0			
+488434	1978	Phom	ʃe⁵⁵gʌ³³	ʃe⁵⁵gʌ³³	before	before			9.1.5		0			
+488435	1978	Phom	hɔŋ³¹	hɔŋ³¹	cold season	cold season			7.1.2.3		0			
+488436	1978	Phom	ñiʔ³³nɯŋ³³	ñiʔ³³nɯŋ³³	day (not night) (cf. 'morning')	day (not night) (cf. 'morning')			1.5.3.2		0			
+488437	1978	Phom	ñiʔ³³	ñiʔ³³	day (unit of time)	day (unit of time)			1.5.3.2		0			
+488438	1978	Phom	om³¹	om³¹	evening	evening			9.1.4		0			
+488439	1978	Phom	ñiʔ³³čʌyʔ³³	ñiʔ³³čʌyʔ³³	every day	every day			9.9		0			
+488440	1978	Phom	ʃom³¹	ʃom³¹	last	last			9.9		0			
+488441	1978	Phom	gæ⁵⁵	gæ⁵⁵	late	late			9.1.1		0			
+488442	1978	Phom	len³¹	len³¹	month (cf. 'moon')	month (cf. 'moon')			9.1.2		0			3579
+488443	1978	Phom	nap³³nɯŋ³³	nap³³nɯŋ³³	morning (cf. 'day [not night]')	morning (cf. 'day [not night]')			9.1.4		0			6227
+488444	1978	Phom	ʒaŋ⁵⁵ñak³³	ʒaŋ⁵⁵ñak³³	night (?+'dark')	night (?+'dark')			9.1.4		0			m,2483
+488445	1978	Phom	mæŋ⁵⁵	mæŋ⁵⁵	not yet	not yet			1.5.3.2		0			
+488446	1978	Phom	ʃæʔ³³æŋ⁵⁵	ʃæʔ³³æŋ⁵⁵	now	now			9.1.5		0			
+488447	1978	Phom	ŋæ³³ŋæ³³hɯk³³	ŋæ³³ŋæ³³hɯk³³	suddenly	suddenly			9.1.1		0			
+488448	1978	Phom	ʃaw³¹	ʃaw³¹	summer	summer			3.2.1		0			
+488449	1978	Phom	ʃin³¹ñiʔ³³	ʃin³¹ñiʔ³³	today	today			9.1.3		0			
+488450	1978	Phom	ŋin³¹ñiʔ³³	ŋin³¹ñiʔ³³	tomorrow	tomorrow			9.1.3		0			
+488451	1978	Phom	ʌ³¹ñʌ³¹	ʌ³¹ñʌ³¹	winter	winter			9.1.2		0			
+488452	1978	Phom	ʒaŋ⁵⁵bo³¹	ʒaŋ⁵⁵bo³¹	year	year			9.1.2		0			
+488453	1978	Phom	min³¹ñiʔ³³	min³¹ñiʔ³³	yesterday	yesterday			9.1.3		0			
+488454	1978	Phom	hɯk³³	hɯk³³	one	one			9.9		0			
+488455	1978	Phom	ñi³¹	ñi³¹	two	two			9.9		0			2504
+488456	1978	Phom	čam⁵⁵	čam⁵⁵	three	three			9.9		0			
+488457	1978	Phom	a⁵⁵◦li⁵⁵	a⁵⁵li⁵⁵|	four	four			9.9		0			p,2409
+488458	1978	Phom	ŋæ³¹	ŋæ³¹	five	five			9.9		0			1306
+488459	1978	Phom	wɔk³³	wɔk³³	six	six			9.9		0			2621
+488460	1978	Phom	ñat³³	ñat³³	seven	seven			9.9		0			2505
+488461	1978	Phom	ʃat³³	ʃat³³	eight	eight			9.9		0			2259
+488462	1978	Phom	ʃɯ³³	ʃɯ³³	nine	nine			9.9		0			
+488463	1978	Phom	an³¹	an³¹	ten	ten			9.9		0			
+488464	1978	Phom	goŋ³³	goŋ³³	zero	zero			9.9		0			
+488465	1978	Phom	guk⁵⁵hæ⁵⁵	guk⁵⁵hæ⁵⁵	twenty	twenty			9.9		0			
+488466	1978	Phom	kʰɔ³³hɯk³³	kʰɔ³³hɯk³³	one hundred (?+'one')	one hundred (?+'one')			9.9		0			
+488467	1978	Phom	ñak³³læ⁵⁵	ñak³³læ⁵⁵	black	black			9.4		0			2483,m
+488468	1978	Phom	ʒaŋ⁵⁵ñak³³	ʒaŋ⁵⁵ñak³³	dark (?+'black')	dark (?+'black')			9.4		0			m,2483
+488469	1978	Phom	tʰɯŋ⁵⁵læ⁵⁵	tʰɯŋ⁵⁵læ⁵⁵	green	green			9.4		0			
+488470	1978	Phom	ʒaŋ⁵⁵ŋay³¹	ʒaŋ⁵⁵ŋay³¹	light (not dark)	light (not dark)			7.1.11.1		0			
+488471	1978	Phom	hak³³læ⁵⁵	hak³³læ⁵⁵	red	red			9.4		0			
+488472	1978	Phom	ʃu³³læ⁵⁵	ʃu³³læ⁵⁵	white	white			9.4		0			
+488473	1978	Phom	woŋ⁵⁵læ⁵⁵	woŋ⁵⁵læ⁵⁵	yellow	yellow			9.4		0			
+488474	1978	Phom	ʃæʔ³³yæk⁵⁵	ʃæʔ³³yæk⁵⁵	bitter	bitter			7.1.4.4		0			
+488475	1978	Phom	haɯ⁵⁵	haɯ⁵⁵	hot / spicy	hot / spicy					0			
+488476	1978	Phom	tʰi⁵⁵	tʰi⁵⁵	sour	sour			7.1.4.4		0			
+488477	1978	Phom	tʰi⁵⁵yɔk⁵⁵	tʰi⁵⁵yɔk⁵⁵	sour thing	sour thing			7.1.4.4		0			
+488478	1978	Phom	ʒɯŋ⁵⁵ñaŋ⁵⁵	ʒɯŋ⁵⁵ñaŋ⁵⁵	sweet	sweet			7.1.4.4		0			m,6218
+488479	1978	Phom	lɔŋ⁵⁵	lɔŋ⁵⁵	big	big			9.7.2		0			
+488480	1978	Phom	čɯ³³	čɯ³³	deep	deep			7.1.5.3		0			
+488481	1978	Phom	day⁵⁵	day⁵⁵	far	far			9.2.4		0			
+488482	1978	Phom	nit³³	nit³³	fat (of people)	fat (of people)			1.6.4		0			
+488483	1978	Phom	ʃaw³¹	ʃaw³¹	high	high			7.1.5.3		0			4661
+488484	1978	Phom	moŋ³¹	moŋ³¹	long	long			9.7.2		0			
+488485	1978	Phom	lu³³	lu³³	long (time, roads)	long (time, roads)			9.7.2		0			2418
+488486	1978	Phom	ʃɔ³³ʃɯp³³	ʃɔ³³ʃɯp³³	narrow	narrow			9.7.2		0			
+488487	1978	Phom	pʰay³³le(ʔ)⁵⁵, pʰoy³³leʔ⁵⁵	pʰay³³le(ʔ)⁵⁵, pʰoy³³leʔ⁵⁵	shallow	shallow			7.1.5.3		0			
+488489	1978	Phom	ʃaw³¹ʃɔʔ³³	ʃaw³¹ʃɔʔ³³	short (people)	short (people)			9.7.2		0			
+488490	1978	Phom	ʃɔʔ³³lɔʔ³³	ʃɔʔ³³lɔʔ³³	short (time, roads)	short (time, roads)			9.7.2		0			
+488491	1978	Phom	mæn⁵⁵	mæn⁵⁵	small	small			9.7.2		0			
+488492	1978	Phom	ʃaw³¹lu³³	ʃaw³¹lu³³	tall (people) (?+'long')	tall (people) (?+'long')			9.7.2		0			4661,m
+488493	1978	Phom	ʃaw³¹	ʃaw³¹	tall (objects)	tall (objects)			9.7.2		0			4661
+488494	1978	Phom	čat³³lʌ³³	čat³³lʌ³³	thick	thick			9.7.2		0			
+488495	1978	Phom	baɯ³¹ñaŋ³³	baɯ³¹ñaŋ³³	thin	thin			9.7.2		0			
+488496	1978	Phom	goyʔ³³	goyʔ³³	thin (people)	thin (people)			9.7.2		0			
+488497	1978	Phom	bæ³¹lɔŋ⁵⁵	bæ³¹lɔŋ⁵⁵	wide (?+'big')	wide (?+'big')			9.7.2		0			
+488498	1978	Phom	ñam³¹	ñam³¹	afraid / fearful	afraid / fearful			7.1.1		0			
+488499	1978	Phom	yam³¹	yam³¹	alive	alive			1.1.2.1		0			
+488500	1978	Phom	bʌɯ³¹	bʌɯ³¹	all	all			9.9		0			
+488501	1978	Phom	mɔŋ⁵⁵ʃiʔ³³	mɔŋ⁵⁵ʃiʔ³³	angry ('heart'+?)	angry ('heart'+?)			8.3.1.6.1		0			1392
+488502	1978	Phom	ʒʌɯ³¹	ʒʌɯ³¹	ashamed	ashamed			8.3.3.8.2		0			
+488503	1978	Phom	nɛ³³mʌy⁵⁵	nɛ³³mʌy⁵⁵	bad	bad			9.6.2.1		0			m,2457
+488504	1978	Phom	gɔk³³	gɔk³³	bent / crooked	bent / crooked			9.7.2		0			
+488505	1978	Phom	li³¹	li³¹	careful	careful			8.3.2.3.1		0			
+488506	1978	Phom	daɯ³³laŋ⁵⁵	daɯ³³laŋ⁵⁵	clean	clean			6.2.2.5.2		0			
+488507	1978	Phom	ʒɯŋ⁵⁵mæk⁵⁵	ʒɯŋ⁵⁵mæk⁵⁵	cold	cold			7.1.2.3		0			
+488508	1978	Phom	law⁵⁵law⁵⁵	law⁵⁵law⁵⁵	different / distinct	different / distinct			7.1.7.1		0			
+488509	1978	Phom	wɔŋ³¹	wɔŋ³¹	difficult	difficult			9.6.2		0			1842
+488510	1978	Phom	mak³³hat³³	mak³³hat³³	dirty	dirty			3.2.11		0			
+488511	1978	Phom	næʔ³³čʌŋ⁵⁵	næʔ³³čʌŋ⁵⁵	dull / blunt	dull / blunt			7.1.5.1		0			
+488512	1978	Phom	yɔ⁵⁵bay⁵⁵	yɔ⁵⁵bay⁵⁵	easy	easy			9.6.1.1		0			
+488513	1978	Phom	goŋ³³	goŋ³³	empty	empty			7.1.2.1		0			820
+488514	1978	Phom	loy³³	loy³³	extreme / too much	extreme / too much			7.1.2.2		0			
+488515	1978	Phom	ʃæ⁵⁵	ʃæ⁵⁵	fast / quick	fast / quick			9.6.1.1		0			
+488516	1978	Phom	dɛŋ⁵⁵	dɛŋ⁵⁵	fed up / tired of	fed up / tired of			1.3.5.8		0			
+488517	1978	Phom	mæ³¹	mæ³¹	full	full			1.1.3.2		0			1834
+488518	1978	Phom	mʌy⁵⁵	mʌy⁵⁵	good	good			9.6.1.1		0			2457
+488519	1978	Phom	ʃay³³	ʃay³³	guilty	guilty			8.3.3.6.1		0			
+488520	1978	Phom	mɔŋ⁵⁵ɔŋ³³	mɔŋ⁵⁵ɔŋ³³	happy / joyful ('heart'+'climb, go up')	happy / joyful ('heart'+'climb, go up')			8.3.1.5.1		0			1392
+488521	1978	Phom	ʒæn⁵⁵	ʒæn⁵⁵	hard (firm)	hard (firm)			9.6.2		0			159
+488522	1978	Phom	ʒiʔ³³	ʒiʔ³³	heavy	heavy			9.6.2		0			2415
+488523	1978	Phom	ʃæm⁵⁵lok⁵⁵	ʃæm⁵⁵lok⁵⁵	hot / warm	hot / warm					0			
+488524	1978	Phom	ay³¹	ay³¹	hungry	hungry			1.1.3		0			
+488525	1978	Phom	le⁵⁵	le⁵⁵	identical	identical			7.1.7.2		0			
+488526	1978	Phom	ʒæk³³	ʒæk³³	lazy	lazy			9.6.2.2		0			
+488527	1978	Phom	lak³³ñɔŋ³¹	lak³³ñɔŋ³¹	left side ('hand, arm'+?)	left side ('hand, arm'+?)			1.5.3.2		0			695,m
+488528	1978	Phom	gom³¹	gom³¹	less	less			7.1.2.1		0			
+488529	1978	Phom	æŋ³³kʰæʔ³³	æŋ³³kʰæʔ³³	light (weight)	light (weight)			7.1.11.1		0			
+488530	1978	Phom	bɔŋ³³	bɔŋ³³	male (animal)	male (animal)			1.9.6.1		0			
+488531	1978	Phom	lɔŋ⁵⁵ŋi³³	lɔŋ⁵⁵ŋi³³	many / very ('big'+?)	many / very ('big'+?)			9.9		0			
+488532	1978	Phom	yɔ⁵⁵	yɔ⁵⁵	near	near			9.2.3		0			
+488533	1978	Phom	čæ⁵⁵	čæ⁵⁵	new	new			9.6.1.1		0			2651
+488534	1978	Phom	ne³³yʌy³³	ne³³yʌy³³	next	next			9.9		0			
+488535	1978	Phom	nɛ⁵⁵hæ⁵⁵gæ⁵⁵	nɛ⁵⁵hæ⁵⁵gæ⁵⁵	not cautious of	not cautious of			1.5.3.2		0			
+488536	1978	Phom	ɯŋ⁵⁵	ɯŋ⁵⁵	not eloquent	not eloquent			1.5.3.2		0			
+488537	1978	Phom	ʒɯ³¹	ʒɯ³¹	old (people)	old (people)			7.1.8.3		0			
+488538	1978	Phom	čaŋ³³	čaŋ³³	old (things)	old (things)			7.1.8.3		0			
+488539	1978	Phom	lɛp³³bɯ³³	lɛp³³bɯ³³	other	other			8.1		0			
+488540	1978	Phom	yaw³¹	yaw³¹	perceptive / discerning	perceptive / discerning					0			
+488541	1978	Phom	daw⁵⁵	daw⁵⁵	poor	poor			9.6.2.2		0			
+488542	1978	Phom	han³¹	han³¹	portion / share	portion / share			6.10.2		0			
+488543	1978	Phom	naɯ⁵⁵gɔʔ³³	naɯ⁵⁵gɔʔ³³	pregnant ('baby'+?)	pregnant ('baby'+?)			1.9.6.1		0			
+488544	1978	Phom	tʰɯŋ⁵⁵	tʰɯŋ⁵⁵	raw / uncooked	raw / uncooked			7.1.8.3		0			
+488545	1978	Phom	ʃam⁵⁵mʌy⁵⁵	ʃam⁵⁵mʌy⁵⁵	rich / wealthy ('house'+'good')	rich / wealthy ('house'+'good')			5.9		0			1612,2457
+488546	1978	Phom	lak³³dæʔ³³	lak³³dæʔ³³	right side ('hand, arm'+?)	right side ('hand, arm'+?)			1.5.3.2		0			695,m
+488547	1978	Phom	čɯ⁵⁵	čɯ⁵⁵	right / correct	right / correct			1.5.3.2		0			
+488548	1978	Phom	pʰæ⁵⁵pʰæ⁵⁵læ⁵⁵	pʰæ⁵⁵pʰæ⁵⁵læ⁵⁵	rough	rough			7.1.4.2		0			
+488549	1978	Phom	doy⁵⁵laŋ⁵⁵	doy⁵⁵laŋ⁵⁵	round	round			9.7.1		0			
+488550	1978	Phom	uŋ³³	uŋ³³	royal	royal			5.8		0			
+488551	1978	Phom	ay³¹hʌk³³	ay³¹hʌk³³	same	same			7.1.7.2		0			
+488552	1978	Phom	lu⁵⁵lu⁵⁵	lu⁵⁵lu⁵⁵	separate / apart / in different places	separate / apart / in different places			6.10.4		0			
+488553	1978	Phom	laɯ⁵⁵	laɯ⁵⁵	sexy	sexy					0			
+488554	1978	Phom	næʔ³³	næʔ³³	sharp	sharp			6.9.2		0			5515
+488555	1978	Phom	ʃʌ³³	ʃʌ³³	sincere	sincere			9.6.1.2		0			
+488556	1978	Phom	maŋ⁵⁵	maŋ⁵⁵	slow	slow			9.6.2.1		0			
+488557	1978	Phom	yoŋ³¹mʌ³³	yoŋ³¹mʌ³³	slowly	slowly			9.1.1		0			
+488558	1978	Phom	na³³	na³³	smart	smart			8.3		0			
+488559	1978	Phom	ñʌ³³lʌk⁵⁵	ñʌ³³lʌk⁵⁵	smooth / slippery	smooth / slippery			7.1.4.2		0			
+488560	1978	Phom	in³³	in³³	soft	soft			7.1.4.2		0			
+488561	1978	Phom	hæn⁵⁵nʌy³³	hæn⁵⁵nʌy³³	some	some			9.9		0			
+488562	1978	Phom	tʰɔŋ³¹	tʰɔŋ³¹	steep (cf. 'step down')	steep (cf. 'step down')			7.1.5.3		0			
+488563	1978	Phom	kʰam⁵⁵	kʰam⁵⁵	sticky	sticky			7.1.4.2		0			
+488564	1978	Phom	laɯ³¹lʌk⁵⁵	laɯ³¹lʌk⁵⁵	straight	straight			7.1.5.1		0			
+488565	1978	Phom	wɔŋ³¹gɔʔ³³	wɔŋ³¹gɔʔ³³	strong ('power; difficult'+?)	strong ('power; difficult'+?)			9.6.1.1		0			1842,m
+488566	1978	Phom	yoy³¹	yoy³¹	stupid	stupid			8.3		0			
+488567	1978	Phom	gʌ⁵⁵	gʌ⁵⁵	swept clean (of dirt, water)	swept clean (of dirt, water)			6.2.2.5.2		0			
+488568	1978	Phom	hɯŋ³³mʌy⁵⁵	hɯŋ³³mʌy⁵⁵	true / correct	true / correct			9.6.1.1		0			6197,m
+488569	1978	Phom	mɔŋ⁵⁵mæŋ³³	mɔŋ⁵⁵mæŋ³³	unhappy / sad ('heart'+'spoil')	unhappy / sad ('heart'+'spoil')			8.3.1.5.2		0			1392
+488570	1978	Phom	dak³³	dak³³	weak	weak			1.1.5		0			
+488571	1978	Phom	wɔŋ³¹nɛ³³gɔʔ³³	wɔŋ³¹nɛ³³gɔʔ³³	weak (wɔŋ³¹gɔʔ³³ 'strong'; nɛ³³ 'negative')	weak (wɔŋ³¹gɔʔ³³ 'strong'; nɛ³³ 'negative')			1.1.5		0			162,m,m
+488572	1978	Phom	gam³³	gam³³	whole / entire	whole / entire			7.1.6.2		0			
+488573	1978	Phom	boŋ⁵⁵	boŋ⁵⁵	wrong / at fault	wrong / at fault			9.6.2.1		0			
+488574	1978	Phom	læŋ³¹	læŋ³¹	able to earn livelihood	able to earn livelihood			1.1.2.4		0			
+488575	1978	Phom	moŋ⁵⁵	moŋ⁵⁵	accompany / go with	accompany / go with			6.7.10		0			
+488576	1978	Phom	noŋ³¹	noŋ³¹	accuse	accuse			8.3.1.3.1		0			
+488577	1978	Phom	ɔ⁵⁵	ɔ⁵⁵	agree	agree			8.3.1.4.1		0			
+488578	1978	Phom	pʰɔ⁵⁵	pʰɔ⁵⁵	anoint / apply ointment (cf. 'wash face')	anoint / apply ointment (cf. 'wash face')			6.2		0			
+488579	1978	Phom	ŋoy⁵⁵	ŋoy⁵⁵	arrive / reach	arrive / reach			6.7.1		0			
+488580	1978	Phom	pʰe⁵⁵	pʰe⁵⁵	ask	ask			8.5.7.1		0			
+488581	1978	Phom	haw⁵⁵	haw⁵⁵	attend	attend			6.2.2.2		0			
+488582	1978	Phom	haŋ⁵⁵hæ⁵⁵lak³³	haŋ⁵⁵hæ⁵⁵lak³³	bathe / take a bath ('body'+?+?)	bathe / take a bath ('body'+?+?)			6.6		0			
+488583	1978	Phom	aŋ³¹	aŋ³¹	born	be born	be v.		1.1.2		0	dwb13		
+488584	1978	Phom	lak³³yʌp³³	lak³³yʌp³³	beckon / wave ('hand, arm'+?)	beckon / wave ('hand, arm'+?)			8.5.13		0			695,m
+488585	1978	Phom	yɔ³³	yɔ³³	bend	bend			9.5		0			
+488586	1978	Phom	gɯ³³	gɯ³³	bend by force	bend by force			9.5		0			
+488587	1978	Phom	gat³³	gat³³	bite	bite			1.3.4.4		0			
+488588	1978	Phom	moy³¹	moy³¹	bless / touch	bless / touch			5.8		0			7594?
+488589	1978	Phom	du³¹	du³¹	blow (with mouth)	blow (with mouth)			1.3.1.4		0			
+488590	1978	Phom	ʃæm³¹	ʃæm³¹	boil	boil			6.6		0			
+488591	1978	Phom	lu³³	lu³³	borrow	borrow			6.22		0			
+488592	1978	Phom	tʰɔŋ⁵⁵	tʰɔŋ⁵⁵	bow down	bow down			5.15		0			
+488593	1978	Phom	pʰaw³¹dʌk⁵⁵	pʰaw³¹dʌk⁵⁵	break (e.g. glass)	break (e.g. glass)			9.5		0			
+488594	1978	Phom	ŋʌ³¹hɛ⁵⁵	ŋʌ³¹hɛ⁵⁵	breathe	breathe			1.1.2.2		0			
+488595	1978	Phom	lʌy³¹	lʌy³¹	bring / bring back	bring / bring back			6.2.2.2.2		0			
+488596	1978	Phom	bæʔ³³	bæʔ³³	burn	burn	v.i	v.i	3.2.12.1		0			
+488597	1978	Phom	čak³³	čak³³	burn	burn	v.t.	v.t.	3.2.12.1		0			
+488598	1978	Phom	pʰaw³¹	pʰaw³¹	burst	burst			9.5		0			
+488599	1978	Phom	ʒʌ⁵⁵	ʒʌ⁵⁵	bury (the dead)	bury (the dead)			6.11		0			
+488600	1978	Phom	duŋ³¹	duŋ³¹	bury (in ground)	bury (in ground)			6.11		0			
+488601	1978	Phom	ʃak³³	ʃak³³	buy	buy			6.22		0			
+488602	1978	Phom	hoy³³	hoy³³	call / cry out	call / cry out			8.5.13		0			
+488603	1978	Phom	uŋ³¹	uŋ³¹	care for / foster	care for / foster			8.3.2.3.1		0			
+488604	1978	Phom	gɔ⁵⁵	gɔ⁵⁵	carry from a tump line	carry from a tump line			6.2.2.2.1		0			
+488605	1978	Phom	bam⁵⁵	bam⁵⁵	carry in the arms (esp. baby)	carry in the arms (esp. baby)			6.2.2.2.1		0			
+488606	1978	Phom	yʌŋ³³	yʌŋ³³	carry in the hand	carry in the hand			6.2.2.2.1		0			
+488607	1978	Phom	bay⁵⁵	bay⁵⁵	carry on the shoulder	carry on the shoulder			6.2.2.2.1		0			
+488608	1978	Phom	ʃay⁵⁵	ʃay⁵⁵	chew	chew			1.3.4		0			
+488609	1978	Phom	ɔŋ³³	ɔŋ³³	climb / go up	climb / go up			6.7.7		0			
+488610	1978	Phom	gap³³	gap³³	close (box, etc.) / cover	close (box, etc.) / cover			6.2.2.6.2		0			1233
+488611	1978	Phom	kʰɯm³³	kʰɯm³³	close (mouth)	close (mouth)			6.2.2.6.2		0			
+488612	1978	Phom	hʌyʔ³³	hʌyʔ³³	come	come			6.7.1		0			
+488613	1978	Phom	lʌy⁵⁵	lʌy⁵⁵	come / return	come / return			6.7.1		0			
+488614	1978	Phom	čʌɯ³¹	čʌɯ³¹	cook	cook			5.5		0			
+488615	1978	Phom	gay⁵⁵	gay⁵⁵	cough	cough			1.8.3.3		0			
+488616	1978	Phom	lɯŋ³¹	lɯŋ³¹	crack	crack	v.i	v.i	3.2.7		0			
+488617	1978	Phom	ʃom⁵⁵	ʃom⁵⁵	crawl	crawl			6.7.9		0			
+488618	1978	Phom	tʰap³³	tʰap³³	cry / weep	cry / weep			1.8.8.2		0			1103
+488619	1978	Phom	hay⁵⁵	hay⁵⁵	cut with an axe	cut with an axe			6.9.3		0			
+488620	1978	Phom	ʒɛt³³	ʒɛt³³	cut with a knife	cut with a knife			6.9.3		0			
+488621	1978	Phom	den³³	den³³	damage	damage			6.4		0			
+488622	1978	Phom	pʰɔk⁵⁵dʌy⁵⁵	pʰɔk⁵⁵dʌy⁵⁵	dance (?+'mutual, reciprocal')	dance (?+'mutual, reciprocal')			10.0		0			6707,m
+488623	1978	Phom	lɔ⁵⁵	lɔ⁵⁵	deceive	deceive			8.3.3.4.3.2		0			
+488624	1978	Phom	lʌɯ³³	lʌɯ³³	dedicate (church)	dedicate (church)			8.5.16		0			
+488625	1978	Phom	ʃʌyʔ³³	ʃʌyʔ³³	defile	defile					0			
+488626	1978	Phom	ɔŋ³¹	ɔŋ³¹	depend on others	depend on others			6.2.2.2		0			
+488627	1978	Phom	yɯ³¹	yɯ³¹	descend / go down a little way	descend / go down a little way			6.7.8		0			531
+488628	1978	Phom	ʃæ³³	ʃæ³³	descend / go down a long way	descend / go down a long way			6.7.8		0			
+488629	1978	Phom	di³¹	di³¹	die	die			1.1.6		0			
+488630	1978	Phom	ʃu³³	ʃu³³	dig	dig			6.11		0			
+488631	1978	Phom	ʃu³¹	ʃu³¹	disappear, cause to	disappear, cause to	v.t.	v.t.	9.5		0			
+488632	1978	Phom	ʃu⁵⁵	ʃu⁵⁵	disappear / melt	disappear / melt	v.i	v.i	9.5		0			
+488633	1978	Phom	a³¹yʌp³³ʃʌ⁵⁵	a³¹yʌp³³ʃʌ⁵⁵	dive / sink	dive / sink			6.7.8		0			
+488634	1978	Phom	dʌk³³	dʌk³³	do	do			6.1.1.1		0			
+488635	1978	Phom	maŋ³³	maŋ³³	dream	dream			1.1.4.2		0			126
+488636	1978	Phom	yɯŋ⁵⁵	yɯŋ⁵⁵	drink	drink					0			1705
+488637	1978	Phom	æt³¹	æt³¹	drive (animals)	drive (animals)			6.7.10		0			
+488638	1978	Phom	laŋ³³	laŋ³³	drown	drown			6.6		0			
+488639	1978	Phom	ʒæn³³	ʒæn³³	dry	dry	v.i	v.i	6.6		0			
+488640	1978	Phom	ʒæn³¹	ʒæn³¹	dry	dry	v.t.	v.t.	6.6		0			
+488641	1978	Phom	haʔ³³	haʔ³³	eat	eat			1.5.3.2		0			3414
+488642	1978	Phom	kʰay⁵⁵, ak³³kʰay⁵⁵	kʰay⁵⁵, ak³³kʰay⁵⁵	embrace	embrace			8.4		0			
+488644	1978	Phom	ʒæm³³	ʒæm³³	emerge / come out gradually	emerge / come out gradually			6.7.2		0			
+488645	1978	Phom	law³¹	law³¹	emerge / come out suddenly	emerge / come out suddenly			6.7.2		0			
+488646	1978	Phom	len³³	len³³	encroach (as into a bordering field)	encroach (as into a bordering field)			6.7.10		0			
+488647	1978	Phom	ʃʌ⁵⁵	ʃʌ⁵⁵	enter	enter			6.7.1		0			
+488648	1978	Phom	hɛŋ³³	hɛŋ³³	exhort	exhort					0			
+488649	1978	Phom	mat³³	mat³³	extinguish	extinguish			3.2.12.1		0			
+488650	1978	Phom	dɔ⁵⁵	dɔ⁵⁵	fall	fall			6.1.1.4.2		0			
+488651	1978	Phom	ʒʌ⁵⁵	ʒʌ⁵⁵	fall down	fall down			6.1.1.4.2		0			
+488652	1978	Phom	yɯŋ³¹	yɯŋ³¹	feed liquid / make drink	feed liquid / make drink			1.3.5.8		0			1705
+488653	1978	Phom	ton⁵⁵	ton⁵⁵	feel very cold	feel very cold			8.4		0			
+488654	1978	Phom	ʌp³³dʌy⁵⁵	ʌp³³dʌy⁵⁵	fight (?+'mutual, reciprocal')	fight (?+'mutual, reciprocal')			10.0		0			
+488655	1978	Phom	pʰɔŋ³³	pʰɔŋ³³	float	float			6.6.1		0			
+488656	1978	Phom	yan⁵⁵	yan⁵⁵	flow	flow			6.6.1		0			
+488657	1978	Phom	bi⁵⁵	bi⁵⁵	fly	fly			2.2.6		0			
+488658	1978	Phom	mʌ³³	mʌ³³	follow	follow	v.t.	v.t.	6.7.10		0			
+488659	1978	Phom	be³¹	be³¹	forget	forget			8.3.1.16.1		0			
+488660	1978	Phom	tʰan⁵⁵	tʰan⁵⁵	freeze	freeze			9.5		0			
+488661	1978	Phom	baw³¹	baw³¹	frighten (of animals)	frighten (of animals)			8.3.1.10.1		0			
+488662	1978	Phom	tʰay³³	tʰay³³	gather / collect	gather / collect			6.13.5		0			
+488663	1978	Phom	bu³³	bu³³	get up from bed	get up from bed			1.1.5		0			
+488664	1978	Phom	ʃuʔ³³	ʃuʔ³³	give	give			6.23		0			
+488665	1978	Phom	bɯʔ³³	bɯʔ³³	give birth	give birth			1.1.2		0			3480
+488666	1978	Phom	loy³¹	loy³¹	give shelter / take into one's home	give shelter / take into one's home			6.23		0			
+488667	1978	Phom	day³³, lʌ⁵⁵day³³	day³³, lʌ⁵⁵day³³	go / leave	go / leave			6.7.2		0			
+488669	1978	Phom	læ³¹	læ³¹	gossip	gossip			8.5.8		0			
+488670	1978	Phom	daw³¹	daw³¹	grab and pull	grab and pull			6.16		0			
+488671	1978	Phom	ŋɯm⁵⁵	ŋɯm⁵⁵	grind (e.g. spices)	grind (e.g. spices)			9.5		0			
+488672	1978	Phom	ʃoŋ³¹	ʃoŋ³¹	handle	handle			5.1		0			
+488673	1978	Phom	dæn³¹	dæn³¹	hear	hear			1.2.7.4		0			
+488674	1978	Phom	gæp³¹	gæp³¹	help	help			6.2.2.1		0			
+488675	1978	Phom	ʃaɯ³³	ʃaɯ³³	help	help			6.2.2.1		0			
+488676	1978	Phom	čɔ³¹	čɔ³¹	hide	hide			1.6.5.1		0			
+488677	1978	Phom	gɔŋ³¹	gɔŋ³¹	hit	hit			6.8		0			
+488678	1978	Phom	ʌp³³	ʌp³³	hit / beat	hit / beat			6.8		0			
+488679	1978	Phom	nɔ³³	nɔ³³	hold in hand	hold in hand			6.16		0			
+488680	1978	Phom	le⁵⁵	le⁵⁵	imagine	imagine			8.3.1.13.3		0			
+488681	1978	Phom	ʃuŋ³³	ʃuŋ³³	inject	inject			6.9.3		0			
+488682	1978	Phom	ʃʌ³¹	ʃʌ³¹	insert	insert			6.2		0			
+488683	1978	Phom	laɯ³³	laɯ³³	insert a stick	insert a stick			6.2		0			
+488684	1978	Phom	it³³	it³³	insert / put between	insert / put between			6.2		0			
+488685	1978	Phom	ŋɯʔ³³	ŋɯʔ³³	itch / scratch	itch / scratch			1.6.5.5		0			
+488686	1978	Phom	beŋ³¹	beŋ³¹	join together (as bringing in an accomplice, putting meat on a rod)	join together (as bringing in an accomplice, putting meat on a rod)			10.1.1		0			
+488687	1978	Phom	kʰay⁵⁵	kʰay⁵⁵	join / connect	join / connect			6.13.5		0			
+488688	1978	Phom	lɔŋ³¹	lɔŋ³¹	jump down	jump down			6.7.8		0			
+488689	1978	Phom	duʔ³³	duʔ³³	keep	keep			6.18		0			
+488690	1978	Phom	hɛŋ⁵⁵	hɛŋ⁵⁵	keep orderly / put neatly	keep orderly / put neatly			9.6.1.1		0			3526
+488691	1978	Phom	haw³¹	haw³¹	kick	kick			6.2.2.3.3		0			
+488692	1978	Phom	cʌ³¹	cʌ³¹	kill	kill			6.4		0			
+488693	1978	Phom	ñɯŋ³¹	ñɯŋ³¹	know / learn / imitate	know / learn / imitate			8.3.1.12.1		0			2488
+488694	1978	Phom	ñi⁵⁵	ñi⁵⁵	laugh	laugh			1.8.8.1		0			1105
+488695	1978	Phom	lʌ⁵⁵day³³	lʌ⁵⁵day³³	leave / go	leave / go			6.10.2		0			
+488696	1978	Phom	ʒʌ³¹	ʒʌ³¹	let fall / cause to fall	let fall / cause to fall			6.1.1.4.2		0			
+488697	1978	Phom	dʌy³¹dʌk⁵⁵	dʌy³¹dʌk⁵⁵	let go / set free	let go / set free			6.19		0			
+488698	1978	Phom	lay³¹, lay³¹dʌk⁵⁵	lay³¹, lay³¹dʌk⁵⁵	let loose	let loose			6.19		0			
+488700	1978	Phom	lay³³	lay³³	lick	lick			1.3.3.1		0			
+488701	1978	Phom	lam³¹	lam³¹	lie down	lie down			6.1.1.4		0			
+488702	1978	Phom	yaŋ⁵⁵ñu³³	yaŋ⁵⁵ñu³³	life	life			1.1.2.1		0			
+488703	1978	Phom	bæŋ³³	bæŋ³³	listen	listen			1.2.7.4		0			
+488704	1978	Phom	lɯŋ³³	lɯŋ³³	make	make			6.14		0			
+488705	1978	Phom	æ³³	æ³³	make a bamboo wall	make a bamboo wall			6.14		0			
+488706	1978	Phom	lɔ³¹	lɔ³¹	make a hole through	make a hole through			6.14		0			
+488707	1978	Phom	gʌ³³	gʌ³³	match / be alike	match / be alike			5.11.5.5		0			
+488708	1978	Phom	ñaɯ⁵⁵	ñaɯ⁵⁵	melt / dissolve (e.g. water, wax, fat)	melt / dissolve (e.g. water, wax, fat)			9.5		0			
+488709	1978	Phom	čay³³	čay³³	miss the target	miss the target			8.3.1.5.2		0			
+488710	1978	Phom	yoŋ³¹	yoŋ³¹	mourn / lament	mourn / lament			8.3.1.5.2		0			
+488711	1978	Phom	bɔ⁵⁵	bɔ⁵⁵	move restlessly	move restlessly			6.7.11		0			
+488712	1978	Phom	næ⁵⁵	næ⁵⁵	need / want	need / want			9.6.2		0			
+488713	1978	Phom	ʃæʔ³³čæŋ³³	ʃæʔ³³čæŋ³³	news	news					0			
+488714	1978	Phom	ʃæ³¹æp⁵⁵	ʃæ³¹æp⁵⁵	open (door)	open (door)			6.2.2.6.1		0			
+488715	1978	Phom	ap⁵⁵	ap⁵⁵	open (door, box)	open (door, box)			6.2.2.6.1		0			
+488716	1978	Phom	gæ³¹	gæ³¹	open (earth, mouth)	open (earth, mouth)			6.2.2.6.1		0			
+488717	1978	Phom	yʌy³¹	yʌy³¹	overtake / run ahead	overtake / run ahead			6.7.10		0			
+488718	1978	Phom	bʌyʔ³³	bʌyʔ³³	pass through	pass through			6.7.10		0			
+488719	1978	Phom	pʰɔŋ³¹	pʰɔŋ³¹	pile up in an orderly way	pile up in an orderly way			6.2.2.1		0			
+488720	1978	Phom	loŋ³¹	loŋ³¹	pile up / heap up	pile up / heap up			6.2.2.1		0			
+488721	1978	Phom	ʃɯŋ³¹	ʃɯŋ³¹	pile up / heap up messily	pile up / heap up messily			6.2.2.1		0			
+488722	1978	Phom	ŋæʔ⁵⁵	ŋæʔ⁵⁵	play	play			6.1.1.3		0			
+488723	1978	Phom	ʒɯŋ³¹	ʒɯŋ³¹	play (musical instruments)	play (musical instruments)			6.1.1.3		0			
+488724	1978	Phom	ʃɯŋ⁵⁵	ʃɯŋ⁵⁵	point	point			6.2.2.2		0			
+488725	1978	Phom	ʃɯ³³	ʃɯ³³	pound (rice)	pound (rice)			6.8		0			
+488726	1978	Phom	du³³	du³³	praise	praise			8.5.2.2		0			
+488727	1978	Phom	baŋ³¹	baŋ³¹	prevent	prevent			6.2.2.1		0			
+488728	1978	Phom	ʃɯ⁵⁵	ʃɯ⁵⁵	pull	pull			6.2.2.3.1		0			5618
+488729	1978	Phom	daw³¹	daw³¹	pull up	pull up			6.2.2.3.1		0			
+488730	1978	Phom	hoŋ⁵⁵	hoŋ⁵⁵	push	push			6.2.2.3.1		0			
+488731	1978	Phom	lʌ³¹	lʌ³¹	push down slanting	push down slanting			6.2.2.3.1		0			
+488732	1978	Phom	ʃiʔ³³	ʃiʔ³³	put (inside)	put (inside)			6.17		0			
+488733	1978	Phom	hʌ³³	hʌ³³	put in	put in			6.17		0			
+488734	1978	Phom	haɯ³¹	haɯ³¹	put on / place	put on / place			6.17		0			
+488735	1978	Phom	de³¹	de³¹	quarrel (with words)	quarrel (with words)			8.5.8		0			
+488736	1978	Phom	e³¹	e³¹	read / count	read / count			6.2.2.9.3		0			3552
+488737	1978	Phom	aŋ³³ŋʌy³³, aŋ³³ʌy³³	aŋ³³ŋʌy³³, aŋ³³ʌy³³	redeem / accept back smn. who has done wrong	redeem / accept back smn. who has done wrong			6.22		0			
+488739	1978	Phom	yay³³duʔ³³	yay³³duʔ³³	remove from mouth	remove from mouth			6.10.4		0			
+488740	1978	Phom	dʌŋ³¹	dʌŋ³¹	resist	resist			6.5		0			
+488741	1978	Phom	lʌy⁵⁵	lʌy⁵⁵	return / come	return / come			6.2.2.1		0			
+488742	1978	Phom	lʌ⁵⁵dʌy⁵⁵	lʌ⁵⁵dʌy⁵⁵	roam	roam			6.7.2		0			
+488743	1978	Phom	lʌ⁵⁵bʌ⁵⁵	lʌ⁵⁵bʌ⁵⁵	roam	roam			6.7.2		0			
+488744	1978	Phom	ŋɔ³¹	ŋɔ³¹	roll down	roll down	v.i	v.i	6.7.6		0			
+488745	1978	Phom	dʌ³³	dʌ³³	roll up	roll up			6.7.6		0			
+488746	1978	Phom	mɔk³³	mɔk³³	run / flee	run / flee			6.7.4		0			
+488747	1978	Phom	nay⁵⁵	nay⁵⁵	sag (as strung up wires)	sag (as strung up wires)			9.7.2		0			
+488748	1978	Phom	e³³	e³³	say / speak / talk	say / speak / talk			8.5.10.1		0			
+488749	1978	Phom	hay³¹	hay³¹	scatter	scatter			6.10.3		0			
+488750	1978	Phom	yæn³¹	yæn³¹	scatter	scatter			6.10.3		0			
+488751	1978	Phom	ʒaɯ³³	ʒaɯ³³	scream	scream			8.5.4.1		0			
+488752	1978	Phom	e⁵⁵	e⁵⁵	see	see			1.2.6.10		0			
+488753	1978	Phom	yu³¹	yu³¹	sell	sell			6.22		0			
+488754	1978	Phom	pʰɔŋ³¹	pʰɔŋ³¹	send a message to someone	send a message to someone			6.2.2.2		0			
+488755	1978	Phom	hɔŋ³³	hɔŋ³³	set up (as a post)	set up (as a post)			6.17		0			
+488756	1978	Phom	tʰɯŋ⁵⁵	tʰɯŋ⁵⁵	sew / stitch	sew / stitch			5.1		0			
+488757	1978	Phom	kʰʌɯ⁵⁵	kʰʌɯ⁵⁵	shake	shake	v.i	v.i	6.7.9		0			
+488758	1978	Phom	tʰi³¹	tʰi³¹	shake	shake	v.t.	v.t.	6.7.9		0			
+488759	1978	Phom	kʰaŋ⁵⁵	kʰaŋ⁵⁵	shine	shine			1.1.2.1		0			
+488760	1978	Phom	læʔ³³gæp⁵⁵	læʔ³³gæp⁵⁵	shoot (as a gun)	shoot (as a gun)			6.2.2.1		0			m,2232
+488761	1978	Phom	hu³¹	hu³¹	show	show			6.2.2.8		0			
+488762	1978	Phom	lɔk³³	lɔk³³	sing	sing			5.1		0			
+488763	1978	Phom	u⁵⁵	u⁵⁵	sit	sit			6.1.1.4.1		0			3603
+488764	1978	Phom	u³¹	u³¹	sit, cause to (e.g. baby, chicken)	sit, cause to (e.g. baby, chicken)			6.1.1.4.1		0			3603
+488765	1978	Phom	pʰæk³¹	pʰæk³¹	sit idly	sit idly			6.1.1.4.1		0			
+488766	1978	Phom	ʃi³¹	ʃi³¹	sleep	sleep			1.1.4.1		0			140
+488767	1978	Phom	bʌ³³	bʌ³³	smell (notice smell)	smell (notice smell)			1.2.8.5		0			
+488768	1978	Phom	dɯm³¹	dɯm³¹	smell (test by smelling)	smell (test by smelling)			1.2.8.5		0			
+488769	1978	Phom	ʃe³¹bʌ³³	ʃe³¹bʌ³³	smell bad ('rot'+?)	smell bad ('rot'+?)			1.2.8.5		0			
+488770	1978	Phom	ŋʌ³¹mʌy⁵⁵	ŋʌ³¹mʌy⁵⁵	smell good ('breathe'+'good')	smell good ('breathe'+'good')			9.6.1.1		0			m,2457
+488771	1978	Phom	ʃʌ⁵⁵	ʃʌ⁵⁵	sneeze	sneeze			1.8.2.1		0			
+488772	1978	Phom	ʃɔŋ³³hɔk⁵⁵	ʃɔŋ³³hɔk⁵⁵	snore	snore			1.8.2.2		0			
+488773	1978	Phom	læŋ³³	læŋ³³	spill / overflow / pour down	spill / overflow / pour down			6.6		0			
+488774	1978	Phom	gæk⁵⁵	gæk⁵⁵	split	split			6.9.3		0			
+488775	1978	Phom	noy⁵⁵	noy⁵⁵	squeeze / rub on body	squeeze / rub on body			9.5		0			4903
+488776	1978	Phom	hɯm³¹	hɯm³¹	stab (with spear)	stab (with spear)			6.9.2		0			
+488777	1978	Phom	bap³³	bap³³	stab (with large knife, dao)	stab (with large knife, dao)			6.9.2		0			
+488778	1978	Phom	yɔŋ³³	yɔŋ³³	stand	stand			1.5.2		0			
+488779	1978	Phom	lɯŋ⁵⁵ʌy³³yɔŋ³³	lɯŋ⁵⁵ʌy³³yɔŋ³³	stand in line (lɯŋ⁵⁵ʌy³³ 'line, queue'; yɔŋ³³ 'stand')	stand in line (lɯŋ⁵⁵ʌy³³ 'line, queue'; yɔŋ³³ 'stand')			1.5.2		0			
+488780	1978	Phom	baŋ⁵⁵	baŋ⁵⁵	start	start			9.5		0			
+488781	1978	Phom	gɯʔ³³	gɯʔ³³	steal (theft)	steal (theft)			6.2.2.1		0			2365
+488782	1978	Phom	tʰɔŋ³¹	tʰɔŋ³¹	step down	step down			6.7.4		0			
+488783	1978	Phom	lʌɯ⁵⁵le⁵⁵	lʌɯ⁵⁵le⁵⁵	stir (as curry)	stir (as curry)			6.2.2.1		0			
+488784	1978	Phom	gaŋ³³ŋʌy³³, gaŋ³³ʌy³³	gaŋ³³ŋʌy³³, gaŋ³³ʌy³³	stretch by bending (body, stick)	stretch by bending (body, stick)			9.5		0			
+488786	1978	Phom	čʌp³³	čʌp³³	suck	suck			1.3.2.1		0			
+488787	1978	Phom	ɔ³¹	ɔ³¹	swim	swim			6.6		0			
+488788	1978	Phom	čay³¹	čay³¹	taboo	taboo			5.8		0			
+488789	1978	Phom	yæʔ³³	yæʔ³³	take	take			6.21		0			
+488790	1978	Phom	loy⁵⁵	loy⁵⁵	take shelter (e.g. from rain) / become a member	take shelter (e.g. from rain) / become a member			6.21		0			
+488791	1978	Phom	ʒan³¹	ʒan³¹	teach	teach			6.19		0			
+488792	1978	Phom	lay³¹	lay³¹	tear off	tear off			1.8.8.1		0			
+488793	1978	Phom	dʌyʔ³³	dʌyʔ³³	think / remember	think / remember			8.3.1.13.1		0			
+488794	1978	Phom	ʃʌk⁵⁵	ʃʌk⁵⁵	throw	throw			6.12		0			
+488795	1978	Phom	yak³³dʌk⁵⁵	yak³³dʌk⁵⁵	throw away	throw away			6.12		0			m,6717?
+488796	1978	Phom	ʃɯʔ³³	ʃɯʔ³³	throw spear from a distance	throw spear from a distance			6.12		0			
+488797	1978	Phom	dom³¹do³³	dom³¹do³³	throw upward	throw upward			6.12		0			
+488798	1978	Phom	dɯ⁵⁵	dɯ⁵⁵	tickle	tickle			1.5.1.2.4		0			
+488799	1978	Phom	hin³¹	hin³¹	tie a knot	tie a knot			6.13.1		0			
+488800	1978	Phom	ʃæ³¹	ʃæ³¹	tie (with bamboo strips) / bind / wrap / bind (of law)	tie (with bamboo strips) / bind / wrap / bind (of law)			6.13.1		0			
+488801	1978	Phom	ñɔ⁵⁵	ñɔ⁵⁵	tired	tired			9.6.2.2		0			
+488802	1978	Phom	ʒin³¹	ʒin³¹	torture	torture			6.4		0			
+488803	1978	Phom	hoŋ³³	hoŋ³³	touch	touch			8.4		0			
+488804	1978	Phom	kʰɛ⁵⁵	kʰɛ⁵⁵	try	try			6.1.1.1		0			
+488805	1978	Phom	ʃin³¹	ʃin³¹	turn	turn			6.7.6		0			
+488806	1978	Phom	ʃe³³	ʃe³³	untie	untie			6.13.1		0			
+488807	1978	Phom	ʃɔ⁵⁵	ʃɔ⁵⁵	use up / run out	use up / run out			6.2.2.7.1		0			
+488808	1978	Phom	baw³³	baw³³	wake up	wake up	v.i	v.i	1.1.4		0			
+488809	1978	Phom	pʰok⁵⁵	pʰok⁵⁵	wake up	wake up	v.t.	v.t.	1.1.4		0			
+488810	1978	Phom	gæm³³	gæm³³	walk	walk			6.7.4		0			
+488811	1978	Phom	næ⁵⁵	næ⁵⁵	want / need	want / need			8.3.1.14.3		0			
+488812	1978	Phom	gaŋ³¹	gaŋ³¹	warm at fire (e.g. hands, food)	warm at fire (e.g. hands, food)			7.1.2.3		0			119
+488813	1978	Phom	tʰe³¹ pʰɔ⁵⁵	tʰe³¹ pʰɔ⁵⁵	wash face (tʰe³¹ 'face')	wash face (tʰe³¹ 'face')			1.2.5		0			
+488814	1978	Phom	lak³³hɯʔ³³	lak³³hɯʔ³³	wash hands ('arm/hand'+?)	wash hands ('arm/hand'+?)			1.5.1.1		0			695,m
+488815	1978	Phom	dak³³	dak³³	weave	weave			5.1		0			2686
+488816	1978	Phom	om³³bom³¹	om³³bom³¹	welcome warmly	welcome warmly			8.5.11		0			
+488817	1978	Phom	tʰit³³	tʰit³³	wipe / rub off dirt	wipe / rub off dirt			6.2.2.1		0			
+488818	1978	Phom	pʰɔ³¹	pʰɔ³¹	wrestle	wrestle			6.5		0			
+488819	1978	Phom	ɛ³³hɛm³³ʃʌɯ³³	ɛ³³hɛm³³ʃʌɯ³³	yawn	yawn			1.3.1.3		0			p,1715,m
+488820	1978	Phom	gok⁵⁵	gok⁵⁵	classifier for animals	classifier for animals			10.1.3		0			
+488821	1978	Phom	yaŋ³¹	yaŋ³¹	classifier for long things	classifier for long things			10.1.3		0			
+488822	1978	Phom	bæ³³	bæ³³	classifier for people (cf. 'father')	classifier for people  (cf. 'father')			10.1.3		0	jbl3		
+488823	1978	Phom	ʃɔ³¹	ʃɔ³¹	classifier for short things	classifier for short things			10.1.3		0			
+488824	1978	Phom	pʰæ⁵⁵	pʰæ⁵⁵	classifier for thin things, paper	classifier for thin things, paper			10.1.3		0			
+488825	1978	Phom	mɛ³³ʃɯk³³	mɛ³³ʃɯk³³	how much?	how much?			10.1		0			
+488826	1978	Phom	mɛk³³kʌy³³	mɛk³³kʌy³³	how?	how?			10.1		0			
+488827	1978	Phom	me³³he⁵⁵	me³³he⁵⁵	what?	what?			10.5.3		0			
+488828	1978	Phom	mɛt³³čam⁵⁵	mɛt³³čam⁵⁵	when?	when?			10.5.3		0			
+488829	1978	Phom	mɛ³³lʌy⁵⁵	mɛ³³lʌy⁵⁵	where?	where?			10.5.3		0			
+488830	1978	Phom	ɯ³¹bæ³³	ɯ³¹bæ³³	who?	who?			10.5.3		0			
+488831	1978	Phom	ʃaŋ³³ʌy⁵⁵	ʃaŋ³³ʌy⁵⁵	above	above			9.2.1		0			
+488832	1978	Phom	æ⁵⁵gʌ³³	æ⁵⁵gʌ³³	between	between			9.2.3		0			
+488833	1978	Phom	æt⁵⁵	æt⁵⁵	beyond	beyond			9.2.8		0			
+488834	1978	Phom	-lʌy⁵⁵	-lʌy⁵⁵	from (suffix)	from (suffix)			10.1.1		0			
+488835	1978	Phom	daw³³ʌy⁵⁵	daw³³ʌy⁵⁵	in front of	in front of 			10.1.1		0	dwb38		
+488836	1978	Phom	mɔŋ⁵⁵ŋʌy⁵⁵	mɔŋ⁵⁵ŋʌy⁵⁵	inside	inside			9.2.5		0			2118,m
+488837	1978	Phom	-ʌy³¹	-ʌy³¹	possessive (suffix)	possessive (suffix)			10.4.1.1		0			
+488838	1978	Phom	haw⁵⁵	haw⁵⁵	side / at the side	side / at the side			1.4.5		0			
+488839	1978	Phom	hom³¹	hom³¹	through	through			9.2.8		0			
+488840	1978	Phom	čɛm³³mi⁵⁵	čɛm³³mi⁵⁵	with / together	with / together			10.1.1		0			
+488841	1978	Phom	-duʔ³³	-duʔ³³	imperative suffix	imperative suffix			10.0		0			
+488842	1978	Phom	-dʌy⁵⁵	-dʌy⁵⁵	mutually / reciprocally	mutually / reciprocally			10.0		0			
+488843	1978	Phom	nɛ³³	nɛ³³	not / negative	not / negative			1.5.3.2		0			
+488844	1978	Phom	-aw⁵⁵	-aw⁵⁵	also	also	n. suffix	n. suffix	10.1.2.1		0			
+488845	1978	Phom	ha³³dʌ³³	ha³³dʌ³³	and	and			10.1.2.1		0			
+488846	1978	Phom	me³³he⁵⁵næŋ³¹gʌ³³	me³³he⁵⁵næŋ³¹gʌ³³	because	because			10.1.2.2		0			
+488847	1978	Phom	ham³¹mʌ³³	ham³¹mʌ³³	here	here			9.2.3		0			
+488848	1978	Phom	čɛ⁵⁵ma³³	čɛ⁵⁵ma³³	if	if			10.1.2.2		0			
+488849	1978	Phom	an⁵⁵de⁵⁵ba³³	an⁵⁵de⁵⁵ba³³	that	that			10.1		0			
+488850	1978	Phom	an⁵⁵de⁵⁵lʌy⁵⁵, an⁵⁵ do⁵⁵lʌy⁵⁵	an⁵⁵de⁵⁵lʌy⁵⁵, an⁵⁵ do⁵⁵lʌy⁵⁵	there	there			9.2.7		0			
+488852	1978	Phom	hæ⁵⁵	hæ⁵⁵	this	this			10.4.3.2		0			
+488853	1978	Phom	hap³³ba³³	hap³³ba³³	this	this			10.4.3.2		0			

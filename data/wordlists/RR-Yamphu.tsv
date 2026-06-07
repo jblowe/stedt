@@ -1,503 +1,503 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-499523	1873	Yamphu	ak◦kr̂aŋ	ak◦kr̂aŋ	shoulder	shoulder	n	1.4.3	524.07	0		
-499524	1873	Yamphu	ak◦khan-lok◦ma	ak◦khan-lok◦ma	lump of earth	lump of earth	n	9.7.1	524.09	0		
-499525	1873	Yamphu	ak◦khra◦bhu	ak◦khra◦bhu	tree (Pilea wightii)	tree (Pilea wightii)	n	3.1.2	524.11	0		
-499526	1873	Yamphu	ak◦khu◦ma	ak◦khu◦ma	earth, soil, ground	earth, soil, ground	n	3.2.11	524.12	0		
-499527	1873	Yamphu	ak◦ma	ak◦ma	pig	pig	n	2.1.12	524.13	0		1006,m
-499528	1873	Yamphu	ak◦ma	ak◦ma	weave with straw or thread	to weave with straw or thread	v	5.1	524.15	0		
-499529	1873	Yamphu	ak◦ma◦sa	ak◦ma◦sa	pork	pork	n	2.1.12	524.16	0		1006,m,34
-499530	1873	Yamphu	ak◦pa◦sa	ak◦pa◦sa	piglet, small pig	piglet, small pig	n	2.1.12	524.18	0		1006,m,m
-499531	1873	Yamphu	ak◦yaʔ◦wa	ak◦yaʔ◦wa	buttocks	buttocks	n	1.4.10	525.03	0		
-499532	1873	Yamphu	am◦li	am◦li	finger	finger	n	1.5.6	525.06	0		
-499533	1873	Yamphu	a◦ŋa	a◦ŋa	father's younger brother	father's younger brother	n	1.5.3.2	525.11	0		
-499534	1873	Yamphu	aŋ◦ga◦lup◦ma	aŋ◦ga◦lup◦ma	reddish species of grasshopper (...)	a reddish species of grasshopper (...)	n	9.4	525.13	0		
-499535	1873	Yamphu	aŋ◦gem◦ba	aŋ◦gem◦ba	species of bird	species of bird	n	2.3	525.14	0		
-499536	1873	Yamphu	aŋ◦grok◦ca	aŋ◦grok◦ca	fruit of Mucuna monosperma or Mucuna macrocarpa	fruit of Mucuna monosperma or Mucuna macrocarpa	n	3.1.5	525.15	0		
-499537	1873	Yamphu	aŋ◦ghu	aŋ◦ghu	kind of chestnut (...)	kind of chestnut (...)	n	8.3.3.2.1	525.16	0		
-499538	1873	Yamphu	aŋ◦ghu	aŋ◦ghu	ankle, knee, or elbow joints	ankle, knee, or elbow joints	n	1.5.8.2	525.17	0		
-499539	1873	Yamphu	aŋ◦ji	aŋ◦ji	eight (OBSOLETE)	eight (OBSOLETE)	num	9.9	525.18	0		
-499540	1873	Yamphu	aŋ◦ma	aŋ◦ma	chop up, break/cut to pieces; to dissolve sth.	to chop up, break/cut to pieces; to dissolve sth.	v	6.9.3	525.19	0		
-499541	1873	Yamphu	ap◦ma	ap◦ma	embroider; to fasten buttons, to button	to embroider; to fasten buttons, to button	v	10.1.1	526.02	0		
-499542	1873	Yamphu	ap◦ma	ap◦ma	shoot (e.g. arrows, bullets)	to shoot (e.g. arrows, bullets)	v	6.2.2.1	526.03	0		2232,m
-499543	1873	Yamphu	a◦raʔ◦wa	a◦raʔ◦wa	crow, raven	crow, raven	n	2.2.4.1	526.04	0		
-499544	1873	Yamphu	a◦ʔi◦dum◦ba	a◦ʔi◦dum◦ba	species of insect which multiplies itself in dung	species of insect which multiplies itself in dung	n	10.1.1	526.11	0		
-499545	1873	Yamphu	aʔ◦wa	aʔ◦wa	leaf of a plant	leaf of a plant	n	3.1.3	526.12	0		
-499546	1873	Yamphu	a•◦bhu	a•◦bhu	bamboo (or shaft/patch of bamboo)	bamboo (or shaft/patch of bamboo)	n	3.1.1	526.13	0		
-499547	1873	Yamphu	a•◦mi	a•◦mi	young bamboo shoots	young bamboo shoots	n	7.1.8.3	526.16	0		
-499548	1873	Yamphu	æ◦dæp◦pa	æ◦dæp◦pa	small	small	adj	9.7.2	526.19	0		
-499549	1873	Yamphu	æk◦ma	æk◦ma	blossom, to flower	to blossom, to flower	v	3.1.4	527.01	0		
-499550	1873	Yamphu	æk◦taŋ◦gi◦ya	æk◦taŋ◦gi◦ya	tomato	tomato	n	3.1.5	527.04	0		
-499551	1873	Yamphu	æn◦dhi	æn◦dhi	axe	axe	n	5.11.5.3	527.1	0		
-499552	1873	Yamphu	æ◦ŋæʔ◦wa	æ◦ŋæʔ◦wa	species of wild mushroom	species of wild mushroom	n	2.3	527.12	0		
-499553	1873	Yamphu	æŋ◦dæk◦pa	æŋ◦dæk◦pa	species of toad	species of toad	n	2.3	527.14	0		
-499554	1873	Yamphu	æŋ◦gwak	æŋ◦gwak	back (i.e. the body part)	back (i.e. the body part)	n	1.4.8	527.15	0		
-499555	1873	Yamphu	æŋ◦ʔi◦ye	æŋ◦ʔi◦ye	long, tall	long, tall	adj	9.7.2	527.17	0		
-499556	1873	Yamphu	æʔ◦wa	æʔ◦wa	flower, blossom	flower, blossom	n	3.1.4	527.2	0		
-499557	1873	Yamphu	æ•t◦cæʔ◦ma	æ•t◦cæʔ◦ma	get fever	to get fever	v	1.1.5	527.22	0		
-499558	1873	Yamphu	berli	berli	cat	cat	n	2.1.3	528.03	0		b?
-499559	1873	Yamphu	bi◦jok	bi◦jok	species of mushroom	species of mushroom	n	2.3	528.06	0		
-499560	1873	Yamphu	bon◦pa◦la	bon◦pa◦la	forest; jungle	forest; jungle	n	3.2.5	528.08	0		
-499561	1873	Yamphu	ca◦bra	ca◦bra	bag; scrotum	bag; scrotum	n		528.11	0		
-499562	1873	Yamphu	cam	cam	paddy	paddy	n	9.10.5	528.15	0		
-499563	1873	Yamphu	cam◦lu◦ʔa	cam◦lu◦ʔa	partially-husked rice	partially-husked rice	n		529.01	0		
-499564	1873	Yamphu	caŋ◦ji◦ra	caŋ◦ji◦ra	something to wear, clothing	something to wear, clothing	n	8.1	529.04	0		
-499565	1873	Yamphu	cap	cap	spirit of a dead ancestor; evil spirit	spirit of a dead ancestor; evil spirit	n	5.8.1.1	529.07	0		
-499566	1873	Yamphu	ca◦ri	ca◦ri	seed	seed	n	3.1.4	529.09	0		
-499567	1873	Yamphu	ca◦riʔ◦wa◦riʔ	ca◦riʔ◦wa◦riʔ	seeds and grains	seeds and grains	n	3.1.4	529.1	0		
-499568	1873	Yamphu	car◦pa	car◦pa	bread	bread	n	5.5	529.12	0		
-499569	1873	Yamphu	ca◦sak	ca◦sak	cereals	cereals	n	3.1.4	529.13	0		
-499570	1873	Yamphu	ca◦wa	ca◦wa	spring belonging to a certain clan	spring belonging to a certain clan	n	6.7.9	529.14	0		
-499571	1873	Yamphu	ca•k◦pa	ca•k◦pa	millet bread	millet bread	n	1.5.3.2	529.17	0		
-499572	1873	Yamphu	ca•◦ma	ca•◦ma	cooked rice; meal; food	cooked rice; meal; food	n	5.5	529.18	0		
-499573	1873	Yamphu	cæk◦ci	cæk◦ci	iron	iron	n	3.2.4	529.24	0		b?Tibetan,m
-499574	1873	Yamphu	cæm◦ma	cæm◦ma	stand erect, have an erection; to pee far (in an arch)	to stand erect, have an erection; to pee far (in an arch)	v	10.1.1	530.01	0		
-499575	1873	Yamphu	cæn◦da	cæn◦da	porter's basket	porter's basket	n	4.2.1	530.02	0		
-499576	1873	Yamphu	cæ•n◦jruŋ	cæ•n◦jruŋ	large rock standing upright	large rock standing upright	n	9.7.1	530.05	0		
-499577	1873	Yamphu	cem◦laʔ◦wa	cem◦laʔ◦wa	leaf of banana tree	leaf of banana tree	n	3.1.3	530.06	0		
-499578	1873	Yamphu	cem◦maʔ◦la	cem◦maʔ◦la	banana	banana	n	3.1.5	530.08	0		
-499579	1873	Yamphu	cer◦phu	cer◦phu	species of tree (Maesa chisia)	species of tree (Maesa chisia)	n	2.3	530.11	0		
-499580	1873	Yamphu	cet◦cira	cet◦cira	plowing thing (i.e. anything related to a plow)	plowing thing (i.e. anything related to a plow)	n	8.1	530.12	0		
-499581	1873	Yamphu	ceʔ◦læʔ◦ŋa	ceʔ◦læʔ◦ŋa	species of fish	species of fish	n	2.3	530.13	0		m,m,1455
-499582	1873	Yamphu	ce•ʔ◦ma	ce•ʔ◦ma	spit	to spit	v	1.8.3	530.17	0		
-499583	1873	Yamphu	ci◦brik◦ki◦ya	ci◦brik◦ki◦ya	species of bird	species of bird	n	2.3	530.18	0		
-499584	1873	Yamphu	ci◦jeŋ	ci◦jeŋ	thorn	thorn	n	3.1.2	530.2	0		
-499585	1873	Yamphu	cik◦cik◦ya	cik◦cik◦ya	species of bird	species of bird	n	2.3	530.21	0		
-499586	1873	Yamphu	ciŋ◦yaʔ◦wa	ciŋ◦yaʔ◦wa	species of chicken with erect feathers	species of chicken with erect feathers	n	10.1.1	531.13	0		m,m,1603
-499587	1873	Yamphu	ciʔ◦wa	ciʔ◦wa	pheasant	pheasant	n	2.2.4.1	531.19	0		
-499588	1873	Yamphu	coik◦ŋi◦ma◦si◦giʔ	coik◦ŋi◦ma◦si◦giʔ	species of grasshopper	species of grasshopper	n	2.3	532.06	0		
-499589	1873	Yamphu	cok◦ki◦ʔa	cok◦ki◦ʔa	species of bird	species of bird	n	2.3	532.07	0		
-499590	1873	Yamphu	co◦ŋa◦ra	co◦ŋa◦ra	maize flower	maize flower	n	3.1.5	532.12	0		
-499591	1873	Yamphu	cos◦su	cos◦su	dragonfly	dragonfly	n	2.2.6	532.14	0		
-499592	1873	Yamphu	cuŋ◦ma	cuŋ◦ma	worship or make offerings to a deity	worship or make offerings to a deity	v	5.8.1.3	533.01	0		
-499593	1873	Yamphu	cu•◦bhu	cu•◦bhu	red Himalayan bamboo	red Himalayan bamboo	n	9.4	533.1	0		
-499594	1873	Yamphu	e◦ba	e◦ba	father's elder brother	father's elder brother	n	4.7.1	534.08	0		
-499595	1873	Yamphu	e◦ma	e◦ma	father's elder sister	father's elder sister	n	4.7.1	534.13	0		
-499596	1873	Yamphu	em◦ma	em◦ma	vomit, throw up	to vomit, throw up	v	1.8.3.2	534.14	0		
-499597	1873	Yamphu	en◦daŋ	en◦daŋ	neck	neck	n	1.4.2	534.17	0		
-499598	1873	Yamphu	e◦ne◦ne•◦ma	e◦ne◦ne•◦ma	species of caterpillar	species of caterpillar	n	2.3	534.19	0		
-499599	1873	Yamphu	es◦ræk◦ci	es◦ræk◦ci	jungle tree with edible sour fruit	jungle tree with edible sour fruit	n	3.2.5	534.22	0		
-499600	1873	Yamphu	e◦suk	e◦suk	ginger	ginger	n	3.1.5	534.23	0		
-499601	1873	Yamphu	et◦ci	et◦ci	seven (OBSOLETE)	seven (OBSOLETE)	num	9.9	534.24	0		
-499602	1873	Yamphu	eʔ◦ma	eʔ◦ma	pluck the fruit of a plant	to pluck the fruit of a plant	v	6.2.2.3.1	534.25	0		
-499603	1873	Yamphu	e•bha	e•bha	wolf	wolf	n	2.1.11	535.05	0		999R
-499604	1873	Yamphu	haŋ◦ba	haŋ◦ba	king	king	n	4.2.5	536.01	0		
-499605	1873	Yamphu	ha◦ri	ha◦ri	blood	blood	n	1.6.2	536.12	0		
-499606	1873	Yamphu	hæŋ◦ŋa	hæŋ◦ŋa	species of fish	species of fish	n	2.3	537.02	0		m,1455
-499607	1873	Yamphu	hæ•ʔ◦yoŋ	hæ•ʔ◦yoŋ	leopard	leopard	n	2.1.3	537.06	0		
-499608	1873	Yamphu	hi	hi	feces, turd	feces, turd	n	1.8.5	538.04	0		
-499609	1873	Yamphu	hi◦gaŋ◦lik	hi◦gaŋ◦lik	type of large firefly	type of large firefly	n	8.1	538.05	0		
-499610	1873	Yamphu	hi◦rum	hi◦rum	vulva	vulva	n		538.11	0		
-499611	1873	Yamphu	hi◦yaŋ	hi◦yaŋ	turd	turd	n		538.12	0		
-499612	1873	Yamphu	hiʔ◦ma	hiʔ◦ma	burnt, scorched, singed, to get burnt; to burn/scorch sth.	to be burnt, scorched, singed, to get burnt; to burn/scorch sth.	be v.	3.2.12.1	538.16	0		
-499613	1873	Yamphu	hiʔ◦wa◦ba	hiʔ◦wa◦ba	wind, air	wind, air	n	3.2.1	538.17	0		
-499614	1873	Yamphu	hom◦ma	hom◦ma	turn over earth, to rout up, to grub	to turn over earth, to rout up, to grub	v	9.2.1	538.28	0		
-499615	1873	Yamphu	hom◦yaŋ	hom◦yaŋ	pig, hog	pig, hog	n	2.1.12	539.01	0		
-499616	1873	Yamphu	ho◦ŋa◦ya	ho◦ŋa◦ya	hole	hole	n	3.2.7	539.04	0		
-499617	1873	Yamphu	hoŋ◦ma	hoŋ◦ma	stream, rivulet	stream, rivulet	n	3.2.3	539.07	0		
-499618	1873	Yamphu	hop◦præk	hop◦præk	empty	empty	adj	7.1.2.1	539.12	0		
-499619	1873	Yamphu	huk◦caŋ◦grik◦pa	huk◦caŋ◦grik◦pa	lizard	lizard	n	2.1.6	539.23	0		
-499620	1873	Yamphu	huk◦khæt◦ciʔ◦wa	huk◦khæt◦ciʔ◦wa	fingers	fingers	n	1.5.6	539.25	0		
-499621	1873	Yamphu	huk◦phæk◦ma	huk◦phæk◦ma	palm of the hand	palm of the hand	n	1.5.5	539.26	0		
-499622	1873	Yamphu	huk◦sim◦ba	huk◦sim◦ba	chapped / cracked skin on the hand	chapped / cracked skin on the hand	n	1.5.1.1	539.27	0		
-499623	1873	Yamphu	hur◦ca	hur◦ca	species of tiny fish (...)	species of tiny fish (...)	n	2.3	540.08	0		
-499624	1873	Yamphu	huʔ◦wa	huʔ◦wa	dog	dog	n	2.1.11	540.12	0		1764,s
-499625	1873	Yamphu	huʔ◦wa◦de•ʔ◦lem◦ba	huʔ◦wa◦de•ʔ◦lem◦ba	species of insect	species of insect	n	2.3	540.13	0		
-499626	1873	Yamphu	huʔ◦wa◦min◦jwa	huʔ◦wa◦min◦jwa	species of insect (found especially on dogs)	species of insect (found especially on dogs)	n	10.1.1	540.14	0		
-499627	1873	Yamphu	hu•◦ma	hu•◦ma	swarm, to be scattered; to scatter, strew; to winnow by wind; to squander	to swarm, to be scattered; to scatter, strew; to winnow by wind; to squander	v	10.1.1	540.15	0		
-499628	1873	Yamphu	iŋ◦bhu	iŋ◦bhu	Himalayan bamboo	Himalayan bamboo	n	3.2.5	542.15	0		
-499629	1873	Yamphu	i•	i•	beer	beer	n	3.1.6.3	543.11	0		
-499630	1873	Yamphu	kam◦ba	kam◦ba	wooden tongs for picking stinging nettle	wooden tongs for picking stinging nettle	n	3.1.2	544.06	0		
-499631	1873	Yamphu	kaŋ◦liŋ	kaŋ◦liŋ	shin-bone pipe used by Lamas in rituals.	shin-bone pipe used by Lamas in rituals.	n	1.5.7.2	544.14	0		
-499632	1873	Yamphu	kaʔ◦lok◦ma	kaʔ◦lok◦ma	lump of rice	lump of rice	n	9.7.1	544.17	0		
-499633	1873	Yamphu	ka•◦ŋa	ka•◦ŋa	kind of cricket which makes an unbroken sound	kind of cricket which makes an unbroken sound	n	8.3.3.2.1	544.2	0		
-499634	1873	Yamphu	kæk◦kræŋ◦ma	kæk◦kræŋ◦ma	bean	bean	n	3.1.4	544.21	0		
-499635	1873	Yamphu	kir◦mik	kir◦mik	species of small frog	species of small frog	n	2.3	545.18	0		
-499636	1873	Yamphu	kiʔ◦na	kiʔ◦na	elder brother's wife	elder brother's wife	n	1.5.3.2	546.02	0		
-499637	1873	Yamphu	ki◦ʔu	ki◦ʔu	elder sister's husband	elder sister's husband	n	4.7.1	546.03	0		
-499638	1873	Yamphu	ki•◦ba	ki•◦ba	tiger	tiger	n	2.1.3	546.05	0		2308,s
-499639	1873	Yamphu	ki•◦sa	ki•◦sa	deer	deer	n	2.2.2	546.09	0		
-499640	1873	Yamphu	kok◦ciŋ	kok◦ciŋ	species of insect	species of insect	n	2.3	546.14	0		
-499641	1873	Yamphu	koŋ◦griŋ	koŋ◦griŋ	species of colored lizard	species of colored lizard	n	2.3	546.2	0		6105,6104
-499642	1873	Yamphu	kup◦tu◦a◦ma	kup◦tu◦a◦ma	hen sitting on its eggs	hen sitting on its eggs	n	2.1.10	547.12	0		
-499643	1873	Yamphu	ku•◦dwæŋ	ku•◦dwæŋ	unhatched egg	unhatched egg	n		547.13	0		
-499644	1873	Yamphu	ku•◦jwak	ku•◦jwak	hot water	hot water	n		547.14	0		
-499645	1873	Yamphu	khak◦khak◦ma	khak◦khak◦ma	handle; penis	handle; penis	n	5.1	547.22	0		
-499646	1873	Yamphu	khak◦khup	khak◦khup	species of mushroom	species of mushroom	n	2.3	547.23	0		
-499647	1873	Yamphu	kham	kham	earth, soil	earth, soil	n	3.2.11	547.26	0		
-499648	1873	Yamphu	kham◦bri◦ʔa	kham◦bri◦ʔa	small earthenware pot or flask	small earthenware pot or flask	n	9.7.2	547.27	0		
-499649	1873	Yamphu	kham◦bu◦ma	kham◦bu◦ma	species of bug	species of bug	n	2.3	547.28	0		
-499650	1873	Yamphu	khap	khap	language	language	n	5.8	548.05	0		
-499651	1873	Yamphu	khap◦pi◦sik	khap◦pi◦sik	cotton	cotton	n	5.1	548.07	0		
-499652	1873	Yamphu	khas◦ma	khas◦ma	porcupine	porcupine	n	2.1.1	548.09	0		
-499653	1873	Yamphu	khaʔ◦mi	khaʔ◦mi	flour	flour	n	3.1.6.2	548.13	0		
-499654	1873	Yamphu	khaʔ◦wa	khaʔ◦wa	ear of millet	ear of millet	n	1.2.7	548.15	0		
-499655	1873	Yamphu	kha•◦sa	kha•◦sa	grass	grass	n	3.1.8	548.2	0		
-499656	1873	Yamphu	kha◦u◦suk	kha◦u◦suk	grits, the coarse parts of ground grains after sieving	grits, the coarse parts of ground grains after sieving	n	7.1.4.2	548.22	0		
-499657	1873	Yamphu	khæn◦sruk◦ma	khæn◦sruk◦ma	elbow	elbow	n	1.5.8.3	548.24	0		
-499658	1873	Yamphu	khæŋ	khæŋ	curried vegetables, gravy	curried vegetables, gravy	n	5.5	548.25	0		
-499659	1873	Yamphu	khæŋ◦saʔ◦wa	khæŋ◦saʔ◦wa	leafy, green vegetables	leafy, green vegetables	n	3.1.2	548.26	0		
-499660	1873	Yamphu	khæ◦o◦ro•k◦pa	khæ◦o◦ro•k◦pa	bulbul (species of bird)	bulbul (species of bird)	n	2.2.4.1	548.27	0		
-499661	1873	Yamphu	khæʔ◦æk	khæʔ◦æk	species of crab that lives in the water of paddy fields	species of crab that lives in the water of paddy fields	n	10.1.1	548.3	0		
-499662	1873	Yamphu	khæ•k◦ciʔ◦wa	khæ•k◦ciʔ◦wa	species of bird	species of bird	n	2.3	549.04	0		
-499663	1873	Yamphu	khet◦tiʔ◦wa	khet◦tiʔ◦wa	species of cricket	species of cricket	n	2.3	549.07	0		
-499664	1873	Yamphu	khe◦wa◦gham	khe◦wa◦gham	chalk clay	chalk clay	n	3.2.11	549.08	0		
-499665	1873	Yamphu	khe◦wa◦si	khe◦wa◦si	(lit 'chalk-fruit') species of plant from which a chalk-colored dish is prepared	(lit 'chalk-fruit') species of plant from which a chalk-colored dish is prepared	n	10.1.1	549.09	0		
-499666	1873	Yamphu	kheʔ◦ma	kheʔ◦ma	oblong shallow basket made of wood and reeds, used for drying things	oblong shallow basket made of wood and reeds, used for drying things	n	7.1.5.1	549.12	0		
-499667	1873	Yamphu	khe•◦dum◦ba	khe•◦dum◦ba	species of rodent	species of rodent	n	2.3	549.14	0		
-499668	1873	Yamphu	khi◦daŋ	khi◦daŋ	species of edible root	species of edible root	n	2.3	549.19	0		
-499669	1873	Yamphu	khim	khim	house	house	n	5.11.9.1	549.24	0		1612
-499670	1873	Yamphu	khim◦gu◦rik	khim◦gu◦rik	gecko	gecko	n	2.1.6	550.02	0		
-499671	1873	Yamphu	khim◦miʔ◦ma	khim◦miʔ◦ma	cloud, mist, haze	cloud, mist, haze	n	3.2.1	550.03	0		
-499672	1873	Yamphu	khi◦rik	khi◦rik	kidneys	kidneys	n	1.7.5	550.11	0		
-499673	1873	Yamphu	khi◦ri•ʔ◦wa	khi◦ri•ʔ◦wa	species of owl	species of owl	n	2.3	550.13	0		
-499674	1873	Yamphu	khi◦ʔu◦riŋ◦ba	khi◦ʔu◦riŋ◦ba	kind of red berry from a nettle	kind of red berry from a nettle	n	10.1.1	550.17	0		
-499675	1873	Yamphu	khiʔ◦wæŋ	khiʔ◦wæŋ	gall	gall	n	1.7.3.1	550.18	0		227,m
-499676	1873	Yamphu	khi•k◦ma	khi•k◦ma	comb oone's hair	to comb oone's hair	v	1.2.2.1	550.19	0		
-499677	1873	Yamphu	kho◦doʔ◦wa	kho◦doʔ◦wa	large boil	large boil	n	9.7.1	550.23	0		
-499678	1873	Yamphu	khoŋ	khoŋ	copper bowl	copper bowl	n	3.2.4	551.04	0		
-499679	1873	Yamphu	kho◦ʔi	kho◦ʔi	"kind of knife, a bit larger than a ""khoʔiriŋma"""	"kind of knife, a bit larger than a ""khoʔiriŋma"""	n	8.3.3.2.1	551.1	0		
-499680	1873	Yamphu	kho◦ʔi◦riŋ◦ma	kho◦ʔi◦riŋ◦ma	small kind of sickle, used for harvesting millet	small kind of sickle, used for harvesting millet	n	9.7.2	551.11	0		
-499681	1873	Yamphu	khoʔ◦wa◦si	khoʔ◦wa◦si	species of tree (Ficus lacor)	species of tree (Ficus lacor)	n	2.3	551.12	0		
-499682	1873	Yamphu	kho•ʔ◦wa	kho•ʔ◦wa	diarrhea	diarrhea	n	1.8.5	551.2	0		
-499683	1873	Yamphu	khu◦daŋ	khu◦daŋ	pork lard	pork lard	n	2.1.12	551.23	0		
-499684	1873	Yamphu	khup◦ma	khup◦ma	claw of a bird; hoof	claw of a bird; hoof	n	1.5.10.4	551.24	0		
-499685	1873	Yamphu	khur◦gik	khur◦gik	species of bird	species of bird	n	2.3	551.26	0		
-499686	1873	Yamphu	khwaŋ	khwaŋ	species of tree	species of tree	n	2.3	551.3	0		
-499687	1873	Yamphu	la	la	moon	moon	n	3.2.2	552.01	0		1016
-499688	1873	Yamphu	la◦bu◦a◦ma	la◦bu◦a◦ma	bat	bat	n	2.2.4.1	552.02	0		
-499689	1873	Yamphu	la◦hat◦ta	la◦hat◦ta	spinning wheel	spinning wheel	n	6.7.6	552.03	0		
-499690	1873	Yamphu	la◦luŋ◦gi◦ya	la◦luŋ◦gi◦ya	unground eye or germ of a maize grain	unground eye or germ of a maize grain	n	10.1.1	552.05	0		
-499691	1873	Yamphu	la◦mi•ʔ◦ma	la◦mi•ʔ◦ma	second wife, concubine	second wife, concubine	n	9.9	552.09	0		
-499692	1873	Yamphu	laŋ	laŋ	leg (only in the expression for 'go on foot')	leg (only in the expression for 'go on foot')	n	10.1.1	552.1	0		3580
-499693	1873	Yamphu	laŋ◦gam	laŋ◦gam	friend, companion, mate, etc.	friend, companion, mate, etc.	n	4.4.2	552.12	0		
-499694	1873	Yamphu	lap◦khæʔ◦wa	lap◦khæʔ◦wa	wing	wing	n	1.5.1.3	552.13	0		757,m,s
-499695	1873	Yamphu	lap◦pr̂aŋ	lap◦pr̂aŋ	wing	wing	n	1.5.1.3	552.15	0		757,707
-499696	1873	Yamphu	la◦wa	la◦wa	shadow; spirit, presence of mind, soul	shadow; spirit, presence of mind, soul	n	1.10	552.16	0		
-499697	1873	Yamphu	læk◦ku◦ma	læk◦ku◦ma	armpit	armpit	n	1.5.1.2.3	552.2	0		
-499698	1873	Yamphu	læʔ◦lup	læʔ◦lup	species of frog	species of frog	n	2.3	552.24	0		
-499699	1873	Yamphu	læʔ◦wa	læʔ◦wa	wet	wet	adj	6.6	553.02	0		
-499700	1873	Yamphu	læʔ◦wa◦si•◦si	læʔ◦wa◦si•◦si	wet from dew or rain	wet from dew or rain	adj	6.6	553.03	0		
-499701	1873	Yamphu	læ•k◦pu◦jik	læ•k◦pu◦jik	worm	worm	n	2.2.6	553.04	0		
-499702	1873	Yamphu	læ•◦ŋa	læ•◦ŋa	testicles	testicles	n		553.05	0		
-499703	1873	Yamphu	lem	lem	tongue	tongue	n	1.3.3	553.11	0		625
-499704	1873	Yamphu	len◦da	len◦da	afternoon (i.e. time between breakfast and about four o'clock)	afternoon (i.e. time between breakfast and about four o'clock)	n	9.1.4	553.15	0		
-499705	1873	Yamphu	len◦da◦wæʔ	len◦da◦wæʔ	in the afternoon	in the afternoon	adv	10.1.1	553.16	0		
-499706	1873	Yamphu	liŋ◦ghiʔ	liŋ◦ghiʔ	kind of bug	kind of bug	n	8.3.3.2.1	553.23	0		
-499707	1873	Yamphu	liʔ◦lik◦kum◦ma	liʔ◦lik◦kum◦ma	species of bird	species of bird	n	2.3	553.24	0		
-499708	1873	Yamphu	loʔ◦wæ	loʔ◦wæ	leech	leech	n	2.2.6	554.03	0		
-499709	1873	Yamphu	ma	ma	mother (bound morph)	mother (bound morph)	n	4.7.1	554.09	0		
-499710	1873	Yamphu	ma◦ba	ma◦ba	parents, mother and father	parents, mother and father	n	4.7.1	554.12	0		
-499711	1873	Yamphu	ma◦da•ŋ	ma◦da•ŋ	female animal with young	female animal with young	n	1.9.3	554.13	0		
-499712	1873	Yamphu	mak◦kham	mak◦kham	earth, ground, land	earth, ground, land	n	3.2.11	554.14	0		
-499713	1873	Yamphu	mak◦ma	mak◦ma	burn (v.i., v.t.)	to burn (v.i., v.t.)	v	3.2.12.1	554.15	0		
-499714	1873	Yamphu	mak◦ma	mak◦ma	dream	to dream	v	1.1.4.2	554.16	0		126,s
-499715	1873	Yamphu	mak◦mi◦wæʔ	mak◦mi◦wæʔ	in the morning	in the morning	adv	10.1.1	554.17	0		6227
-499716	1873	Yamphu	mak◦mis◦sel◦la	mak◦mis◦sel◦la	early in the morning	early in the morning	adv	9.1.1	554.18	0		6227
-499717	1873	Yamphu	mak◦miʔ	mak◦miʔ	morning	morning	n	9.1.4	554.19	0		6227
-499718	1873	Yamphu	mak◦sa	mak◦sa	son-in-law; husband of a younger sister	son-in-law; husband of a younger sister	n	10.1.1	554.21	0		547,m
-499719	1873	Yamphu	maŋ◦ba	maŋ◦ba	witch doctor, shaman	witch doctor, shaman	n	4.2.12.2	554.22	0		
-499720	1873	Yamphu	maŋ◦gai◦ma	maŋ◦gai◦ma	kind of tree (Vigna catjang)	kind of tree (Vigna catjang)	n	8.3.3.2.1	554.23	0		
-499721	1873	Yamphu	maŋ◦gik	maŋ◦gik	flea	flea	n	2.2.6	554.25	0		
-499722	1873	Yamphu	maŋ◦liŋ◦sa	maŋ◦liŋ◦sa	parasitic worm (any of the species of worms which can afflict human beings)	parasitic worm (any of the species of worms which can afflict human beings)	n	10.1.1	554.26	0		
-499723	1873	Yamphu	maŋ◦ma	maŋ◦ma	female shaman	female shaman	n	1.9.3	554.28	0		
-499724	1873	Yamphu	maŋ◦siʔ◦wa	maŋ◦siʔ◦wa	species of bee	species of bee	n	2.3	554.29	0		
-499725	1873	Yamphu	ma◦raŋ◦ma	ma◦raŋ◦ma	thumb (OBSOLETE)	thumb (OBSOLETE)	n	1.5.6.1	555.03	0		
-499726	1873	Yamphu	mar◦chu	mar◦chu	spanish pepper, red pepper, Capsicum annum	spanish pepper, red pepper, Capsicum annum	n	3.1.5	555.04	0		b
-499727	1873	Yamphu	mar◦chu◦wa	mar◦chu◦wa	spicy side-dish, pickles, chutney	spicy side-dish, pickles, chutney	n	7.1.4.4	555.05	0		
-499728	1873	Yamphu	ma◦ruʔ◦ma	ma◦ruʔ◦ma	female	female	n	1.9.3	555.06	0		
-499729	1873	Yamphu	ma◦yæ•k	ma◦yæ•k	term used to refer to Tibetans or Chinese	term used to refer to Tibetans or Chinese	n	10.1.1	555.08	0		
-499730	1873	Yamphu	maʔ◦luŋ	maʔ◦luŋ	hilltops, higher parts of the hills	hilltops, higher parts of the hills	n	10.1.1	555.1	0		
-499731	1873	Yamphu	maʔ◦luŋ◦raʔ◦wa	maʔ◦luŋ◦raʔ◦wa	raven	raven	n	2.2.4.1	555.12	0		
-499732	1873	Yamphu	maʔ◦ma	maʔ◦ma	grandmother	grandmother	n	4.7.1	555.13	0		
-499733	1873	Yamphu	maʔ◦niŋ	maʔ◦niŋ	middle-aged woman	middle-aged woman	n	1.9.4	555.14	0		
-499734	1873	Yamphu	ma•k◦ma	ma•k◦ma	moss, lichen	moss, lichen	n	3.1.7	555.15	0		
-499735	1873	Yamphu	ma•k◦sa	ma•k◦sa	bear	bear	n	2.2.3	555.16	0		
-499736	1873	Yamphu	ma•◦ma	ma•◦ma	mother, mom	mother, mom	n	4.7.1	555.18	0		
-499737	1873	Yamphu	ma•◦sik	ma•◦sik	lentils	lentils	n	3.1.4	555.22	0		
-499738	1873	Yamphu	ma•◦sik◦khæŋ	ma•◦sik◦khæŋ	lentil curry	lentil curry	n	3.1.4	555.23	0		
-499739	1873	Yamphu	ma•ʔ◦laŋ◦ma	ma•ʔ◦laŋ◦ma	species of bird	species of bird	n	2.3	555.24	0		
-499740	1873	Yamphu	maik	maik	black	black	adj	9.4	555.25	0		
-499741	1873	Yamphu	mæk◦khu	mæk◦khu	smoke	smoke	n	3.2.12.2	555.26	0		2136,2361
-499742	1873	Yamphu	mæʔ◦lok◦ki	mæʔ◦lok◦ki	species of tree (Erythryna indica)	species of tree (Erythryna indica)	n	2.3	555.31	0		
-499743	1873	Yamphu	mæ•ʔ◦ma	mæ•ʔ◦ma	goat	goat	n	2.1.8	555.36	0		4769,m,s
-499744	1873	Yamphu	meʔ◦na◦mip◦pu◦sa	meʔ◦na◦mip◦pu◦sa	daughter	daughter	n	4.7.3	556.09	0		
-499745	1873	Yamphu	meʔ◦na◦miʔ	meʔ◦na◦miʔ	woman	woman	n	1.9.3	556.1	0		
-499746	1873	Yamphu	mi	mi	fire	fire	n	3.2.12.2	556.13	0		
-499747	1873	Yamphu	mi◦buʔ◦lu◦ŋa	mi◦buʔ◦lu◦ŋa	smoldering firewood	smoldering firewood	n	5.11.5.5	556.15	0		
-499748	1873	Yamphu	mi◦gæ◦ŋa	mi◦gæ◦ŋa	glow or warmth of a fire	glow or warmth of a fire	n	3.2.12.1	556.16	0		
-499749	1873	Yamphu	mi◦jæʔ◦wa	mi◦jæʔ◦wa	species of tree, Mountain ebony (Bauhenia variegata)	species of tree, Mountain ebony (Bauhenia variegata)	n	2.3	556.17	0		
-499750	1873	Yamphu	mi◦juʔ◦liŋ	mi◦juʔ◦liŋ	flame	flame	n	3.2.12.2	556.19	0		
-499751	1873	Yamphu	mik	mik	eye	eye	n	1.2.6	556.2	0		682
-499752	1873	Yamphu	mik◦taŋ◦ghuʔ◦wa	mik◦taŋ◦ghuʔ◦wa	eyebrow; eyelash	eyebrow; eyelash	n	1.2.6.6	556.22	0		682,m,m,m
-499753	1873	Yamphu	mik◦te•ʔ◦wa	mik◦te•ʔ◦wa	species of insect	species of insect	n	2.3	556.23	0		
-499754	1873	Yamphu	mi◦ni◦ma	mi◦ni◦ma	cat	cat	n	2.1.3	556.29	0		
-499755	1873	Yamphu	min◦ju◦wa	min◦ju◦wa	fly (insect)	fly (insect)	n	2.2.6	556.3	0		
-499756	1873	Yamphu	mi◦ra	mi◦ra	tail	tail	n	1.4.10.1	556.31	0		1288,m
-499757	1873	Yamphu	miʔ◦wa	miʔ◦wa	tear	tear	n	1.8.8.1	557.04	0		
-499758	1873	Yamphu	mu◦a	mu◦a	hawk	hawk	n	2.2.4.1	557.23	0		2471,m
-499759	1873	Yamphu	muk◦kun◦daik	muk◦kun◦daik	species of creeper (Mucuna monosperma OR Mucuna macrocarpa)	species of creeper (Mucuna monosperma OR Mucuna macrocarpa)	n	2.3	557.24	0		
-499760	1873	Yamphu	muk◦nu◦ak	muk◦nu◦ak	dirt on the body, dust or dirtiness	dirt on the body, dust or dirtiness	n	1.5.3.2	557.26	0		
-499761	1873	Yamphu	mun◦da	mun◦da	money	money	n	5.9	557.27	0		
-499762	1873	Yamphu	mun◦dri	mun◦dri	ring	ring	n	5.11.8.3	557.28	0		
-499763	1873	Yamphu	na	na	fish	fish	n	2.2.5	558.03	0		
-499764	1873	Yamphu	na	na	elder sister (bound morph)	elder sister (bound morph)	n	4.7.1	558.04	0		
-499765	1873	Yamphu	na◦jik	na◦jik	face	face	n	1.2.5	558.07	0		
-499766	1873	Yamphu	nak◦poŋ	nak◦poŋ	fifty	fifty	num	9.9	558.11	0		
-499767	1873	Yamphu	nam	nam	sun, sunshine	sun, sunshine	n	3.2.10	558.13	0		2484
-499768	1873	Yamphu	nam◦ba	nam◦ba	father-in-law	father-in-law	n	4.7.4	558.14	0		
-499769	1873	Yamphu	nan◦bhu	nan◦bhu	large stomach of herbivores	the large stomach of herbivores	n	9.7.1	558.15	0		
-499770	1873	Yamphu	nam◦bhuŋ◦la	nam◦bhuŋ◦la	woods, forest	woods, forest	n	3.2.5	558.16	0		
-499771	1873	Yamphu	nam◦daŋ	nam◦daŋ	cheek	cheek	n	1.2.5.2	558.17	0		
-499772	1873	Yamphu	nam◦dræʔ◦wa	nam◦dræʔ◦wa	bolt of lightning	bolt of lightning	n	5.11.9	558.18	0		2484,m,m
-499773	1873	Yamphu	nam◦druŋ◦ma	nam◦druŋ◦ma	firmament, sky	firmament, sky	n	3.2.2	558.19	0		2484,m,m
-499774	1873	Yamphu	nam◦ji◦riʔ◦ha	nam◦ji◦riʔ◦ha	shade	shade	n	3.2.10	558.2	0		2484,m,m
-499775	1873	Yamphu	nam◦leʔ◦lum	nam◦leʔ◦lum	noon (time when sun is at its peak)	noon (time when sun is at its peak)	n	9.1.4	558.21	0		2484,m,m
-499776	1873	Yamphu	nam◦ma	nam◦ma	next year	next year	n	9.9	558.22	0		
-499777	1873	Yamphu	nam◦ma	nam◦ma	mother-in-law	mother-in-law	n	4.7.4	558.23	0		
-499778	1873	Yamphu	nam◦ma	nam◦ma	smell, to stink	to smell, to stink	v	1.2.8.5	558.24	0		1415
-499779	1873	Yamphu	nam◦ma	nam◦ma	singe, to brand, to cauterize a wound	to singe, to brand, to cauterize a wound	v	3.2.12.1	558.25	0		
-499780	1873	Yamphu	nam◦mi◦ma	nam◦mi◦ma	species of bird	species of bird	n	2.3	558.26	0		
-499781	1873	Yamphu	nam◦miʔ	nam◦miʔ	daughter-in-law; wife of a younger brother	daughter-in-law; wife of a younger brother	n	10.1.1	558.27	0		2486,m
-499782	1873	Yamphu	nam◦ni◦ya◦ma	nam◦ni◦ya◦ma	small species of bee	small species of bee	n	9.7.2	558.29	0		
-499783	1873	Yamphu	nam◦se◦læk◦pa	nam◦se◦læk◦pa	sheet lightning	sheet lightning	n	5.11.9.4	558.3	0		2484,m,m,m
-499784	1873	Yamphu	na◦nam◦ma	na◦nam◦ma	wife or husband's elder sister; elder brother's wife's elder sister	wife or husband's elder sister; elder brother's wife's elder sister	n	1.5.3.2	558.32	0		
-499785	1873	Yamphu	naŋ	naŋ	snow	snow	n	3.2.1	558.33	0		
-499786	1873	Yamphu	naŋ-khi	naŋ-khi	species of edible root (Dioscorea sagittata)	species of edible root (Dioscorea sagittata)	n	2.3	558.34	0		
-499787	1873	Yamphu	naŋ◦ma	naŋ◦ma	high tide, to have swollen with water	to be high tide, to have swollen with water	be v.	10.1.1	558.36	0		
-499788	1873	Yamphu	nap◦ma	nap◦ma	son or daughter's mother-in-law	son or daughter's mother-in-law	n	4.7.3	559.03	0		
-499789	1873	Yamphu	nap◦pa	nap◦pa	son or daughter's father-in-law	son or daughter's father-in-law	n	4.7.3	559.05	0		
-499790	1873	Yamphu	nap◦pruŋ◦gi	nap◦pruŋ◦gi	species of tree	species of tree	n	2.3	559.06	0		
-499791	1873	Yamphu	na◦ʔu	na◦ʔu	nose	nose	n	1.2.8	559.07	0		803,m
-499792	1873	Yamphu	na◦ʔum	na◦ʔum	five	five	num	9.9	559.08	0		1306
-499793	1873	Yamphu	na•◦na	na•◦na	elder sister	elder sister	n	4.7.1	559.12	0		
-499794	1873	Yamphu	na•ʔ◦la	na•ʔ◦la	buttocks	buttocks	n	1.4.10	559.15	0		
-499795	1873	Yamphu	na•ʔ◦wa	na•ʔ◦wa	snot	snot	n	1.8.2	559.16	0		805,m
-499796	1873	Yamphu	næ◦ʔæk	næ◦ʔæk	ear	ear	n	1.2.7	559.21	0		811,m
-499797	1873	Yamphu	net◦ti◦yaŋ◦ba	net◦ti◦yaŋ◦ba	wife or husband's younger brother	wife or husband's younger brother	n	4.7.4	559.32	0		
-499798	1873	Yamphu	net◦ti◦yaŋ◦ma	net◦ti◦yaŋ◦ma	wife or husband's younger sister	wife or husband's younger sister	n	4.7.4	559.33	0		
-499799	1873	Yamphu	ne•◦ma	ne•◦ma	cut down, to chop away	to cut down, to chop away	v	6.9.3	560.04	0		
-499800	1873	Yamphu	nin◦da◦ŋa	nin◦da◦ŋa	head	head	n	1.2.1	560.08	0		
-499801	1873	Yamphu	niŋ	niŋ	year (bound morph)	year (bound morph)	n	9.1.2	560.1	0		2501
-499802	1873	Yamphu	ni◦ŋi	ni◦ŋi	wife of mother's brother	wife of mother's brother	n	1.5.3.2	560.13	0		
-499803	1873	Yamphu	ni◦sa	ni◦sa	younger sibling	younger sibling	n		560.14	0		
-499804	1873	Yamphu	nit◦ci	nit◦ci	two	two	num	9.9	560.15	0		2504
-499805	1873	Yamphu	ni•◦boŋ	ni•◦boŋ	twenty	twenty	num	9.9	560.17	0		
-499806	1873	Yamphu	ni•◦ma	ni•◦ma	shine (said of sun or moon)	to shine (said of sun or moon)	v	1.1.2.1	560.21	0		
-499807	1873	Yamphu	nu◦a	nu◦a	breast(s)	breast(s)	n	1.4.4.3	561.01	0		
-499808	1873	Yamphu	nuk◦ci	nuk◦ci	nine	nine	num	9.9	561.02	0		
-499809	1873	Yamphu	ŋæ•◦ŋa	ŋæ•◦ŋa	species of fish	species of fish	n	2.3	561.11	0		m,1455
-499810	1873	Yamphu	ok◦ceʔ◦lem◦ba	ok◦ceʔ◦lem◦ba	species of bird	species of bird	n	2.3	561.17	0		
-499811	1873	Yamphu	ok◦ce•p◦phu	ok◦ce•p◦phu	species of tree	species of tree	n	2.3	561.18	0		
-499812	1873	Yamphu	ok◦ci◦ba	ok◦ci◦ba	owl	owl	n	2.2.4.1	561.19	0		
-499813	1873	Yamphu	ok◦krep◦pa	ok◦krep◦pa	belch, burp	belch, burp	n	1.8.3.4	561.2	0		
-499814	1873	Yamphu	ok◦naik	ok◦naik	navel	navel	n	1.9.4	561.26	0		
-499815	1873	Yamphu	ok◦thik	ok◦thik	tadpole	tadpole	n	2.1.6	561.28	0		
-499816	1873	Yamphu	om	om	hail	hail	n	3.2.1	561.29	0		
-499817	1873	Yamphu	o◦ŋæk	o◦ŋæk	child	child	n	1.5.3.2	561.34	0		
-499818	1873	Yamphu	op◦priŋ◦ga	op◦priŋ◦ga	species of insect	species of insect	n	2.3	562.08	0		
-499819	1873	Yamphu	o◦sræk◦ma	o◦sræk◦ma	big, flat rock	big, flat rock	n	9.7.2	562.11	0		
-499820	1873	Yamphu	oʔ◦ma•◦si	oʔ◦ma•◦si	eggplant, aubergine	eggplant, aubergine	n	3.1.5	562.13	0		
-499821	1873	Yamphu	oʔ◦wa◦ba	oʔ◦wa◦ba	species of insect (perhaps a kind of weevil?)	species of insect (perhaps a kind of weevil?)	n	10.1.1	562.14	0		
-499822	1873	Yamphu	o•◦bræk	o•◦bræk	big flat rock (on which grain is dried)	big flat rock (on which grain is dried)	n	9.7.2	562.16	0		p,2166
-499823	1873	Yamphu	pa◦joʔ◦wa	pa◦joʔ◦wa	male animal	male animal	n	1.9.6.1	562.25	0		
-499824	1873	Yamphu	pak	pak	kind of bamboo	kind of bamboo	n	8.3.3.2.1	562.26	0		
-499825	1873	Yamphu	pam◦la	pam◦la	species of tree	species of tree	n	2.3	563.03	0		
-499826	1873	Yamphu	paŋ◦gi◦ya	paŋ◦gi◦ya	millet	millet	n	1.5.3.2	563.06	0		
-499827	1873	Yamphu	paŋ◦laŋ	paŋ◦laŋ	species of edible root found in the jungle	species of edible root found in the jungle	n	10.1.1	563.07	0		
-499828	1873	Yamphu	pap◦pa	pap◦pa	grandfather	grandfather	n	4.7.1	563.16	0		
-499829	1873	Yamphu	pa◦sa	pa◦sa	child, offspring	child, offspring	n	1.5.3.2	563.21	0		
-499830	1873	Yamphu	pa◦sa◦yak◦ma◦ra	pa◦sa◦yak◦ma◦ra	placenta	placenta	n		563.23	0		
-499831	1873	Yamphu	pas◦taŋ◦ma	pas◦taŋ◦ma	woman who has borne children	woman who has borne children	n	1.9.3	563.26	0		
-499832	1873	Yamphu	pat◦ta◦li◦ya	pat◦ta◦li◦ya	kind of edible root	kind of edible root	n	8.3.3.2.1	563.27	0		
-499833	1873	Yamphu	pa◦ya•k	pa◦ya•k	toad	toad	n	2.1.6.2	563.28	0		
-499834	1873	Yamphu	pa•◦ba	pa•◦ba	father	father	n	4.7.1	563.29	0		
-499835	1873	Yamphu	pæ•◦bæʔ◦wa	pæ•◦bæʔ◦wa	tiny kind of frog	a tiny kind of frog	n	7.1.5.1	564.16	0		
-499836	1873	Yamphu	pæ•k◦pu◦liŋ	pæ•k◦pu◦liŋ	species of tree (obsolete name for pæ*ssi)	species of tree (obsolete name for pæ*ssi)	n	2.3	564.18	0		
-499837	1873	Yamphu	pæ•s◦si	pæ•s◦si	species of tree (Ficus lacor)	species of tree (Ficus lacor)	n	2.3	564.19	0		
-499838	1873	Yamphu	pe◦ro•t◦ti	pe◦ro•t◦ti	guava tree (Psidium guajava)	guava tree (Psidium guajava)	n	3.1.5	564.25	0		
-499839	1873	Yamphu	peʔ◦la	peʔ◦la	neck, throat	neck, throat	n	1.4.2	564.27	0		
-499840	1873	Yamphu	peʔ◦la◦jwæ•k◦ma	peʔ◦la◦jwæ•k◦ma	species of grasshopper	species of grasshopper	n	2.3	564.28	0		
-499841	1873	Yamphu	pe•◦ma	pe•◦ma	fly	to fly	v	2.2.6	565.02	0		
-499842	1873	Yamphu	pe•◦swa◦ra◦jik◦pa	pe•◦swa◦ra◦jik◦pa	yellow	yellow	adj	9.4	565.03	0		
-499843	1873	Yamphu	pik	pik	cow	cow	n	2.1.2	565.08	0		
-499844	1873	Yamphu	pik◦pa◦sa	pik◦pa◦sa	calf	calf	n	1.5.7	565.1	0		
-499845	1873	Yamphu	pim◦bhi	pim◦bhi	horsefly	horsefly	n	2.2.6	565.13	0		
-499846	1873	Yamphu	pin◦dum◦si	pin◦dum◦si	species of tree, Nepalese hog plum (Spondias axillaris)	species of tree, Nepalese hog plum (Spondias axillaris)	n	2.3	565.15	0		
-499847	1873	Yamphu	pis◦sa	pis◦sa	children, youngsters	children, youngsters	n	4.7.3	565.18	0		
-499848	1873	Yamphu	pit◦toŋ◦lo◦ʔa	pit◦toŋ◦lo◦ʔa	species of bird	species of bird	n	2.3	565.2	0		
-499849	1873	Yamphu	poik	poik	cucumber	cucumber	n	3.1.5	565.24	0		
-499850	1873	Yamphu	pok◦ma	pok◦ma	(of a fire or light) to shine, give light, glisten, twinkle	(of a fire or light) to shine, give light, glisten, twinkle	v	7.1.11.1	565.25	0		
-499851	1873	Yamphu	pu◦baŋ	pu◦baŋ	monkey	monkey	n	2.1.9	566.12	0		
-499852	1873	Yamphu	pu◦daŋ	pu◦daŋ	plant	plant	n	3.1.10	566.13	0		
-499853	1873	Yamphu	pu◦jik	pu◦jik	bug, insect, or worm	bug, insect, or worm	n	2.2.6	566.14	0		
-499854	1873	Yamphu	pu◦sa	pu◦sa	child, offspring (bound morph, only used with pronominal prefixes	child, offspring (bound morph, only used with pronominal prefixes	n	1.5.3.2	567.01	0		
-499855	1873	Yamphu	pu◦sæ•ʔ	pu◦sæ•ʔ	snake	snake	n	2.1.6.1	567.02	0		2623,m
-499856	1873	Yamphu	pu•k◦sa	pu•k◦sa	species of deer	species of deer	n	2.3	567.04	0		
-499857	1873	Yamphu	pha◦na•◦si	pha◦na•◦si	jack-fruit	jack-fruit	n	3.1.5	567.07	0		
-499858	1873	Yamphu	phæk◦kok◦mæŋ◦gok	phæk◦kok◦mæŋ◦gok	species of bird	species of bird	n	2.3	567.15	0		
-499859	1873	Yamphu	phæk◦saŋ◦ga	phæk◦saŋ◦ga	species of insect	species of insect	n	2.3	567.17	0		
-499860	1873	Yamphu	phæŋ◦loʔ◦wa	phæŋ◦loʔ◦wa	species of bird	species of bird	n	2.3	567.23	0		
-499861	1873	Yamphu	phæ◦ræŋ	phæ◦ræŋ	steep place	steep place	n	7.1.5.3	568.03	0		
-499862	1873	Yamphu	phæ◦ʔi◦riŋ	phæ◦ʔi◦riŋ	small basket for carrying fish	small basket for carrying fish	n	9.7.2	568.04	0		
-499863	1873	Yamphu	phi◦ba	phi◦ba	bugs or worms found in dung or spoiled food	bugs or worms found in dung or spoiled food	n	2.2.6	568.14	0		
-499864	1873	Yamphu	phoʔ◦wa	phoʔ◦wa	flower of the banana tree; penis	flower of the banana tree; penis	n	3.1.4	569.07	0		
-499865	1873	Yamphu	phu◦ru◦ma	phu◦ru◦ma	kind of bug	kind of bug	n	8.3.3.2.1	569.11	0		
-499866	1873	Yamphu	raŋ◦boʔ◦wa	raŋ◦boʔ◦wa	calf and shin, i.e. the part of the leg from knee to ankle	calf and shin, i.e. the part of the leg from knee to ankle	n	10.1.1	570.03	0		
-499867	1873	Yamphu	raŋ◦ghaʔ◦wa	raŋ◦ghaʔ◦wa	chapped skin of the foot	chapped skin of the foot	n	1.5.2	570.04	0		
-499868	1873	Yamphu	raŋ◦ma	raŋ◦ma	shine fiercely, shine to the exclusion of rain (only with 'nam' [sun] as subject)	to shine fiercely, shine to the exclusion of rain (only with 'nam' [sun] as subject)	v	10.1.1	570.05	0		
-499869	1873	Yamphu	raŋ◦mip◦pa	raŋ◦mip◦pa	widower	widower	n	4.2.8	570.06	0		
-499870	1873	Yamphu	raŋ◦miʔ	raŋ◦miʔ	young woman without children	young woman without children	n	7.1.8.3	570.07	0		
-499871	1873	Yamphu	raŋ◦miʔ◦ma	raŋ◦miʔ◦ma	widow	widow	n	4.2.8	570.08	0		m,4882,m
-499872	1873	Yamphu	ra•◦plaŋ◦ma	ra•◦plaŋ◦ma	kind of large frog	kind of large frog	n	8.3.3.2.1	570.12	0		
-499873	1873	Yamphu	rik◦na	rik◦na	species of water leech	species of water leech	n	2.3	571.16	0		
-499874	1873	Yamphu	rik◦poŋ	rik◦poŋ	forty	forty	num	9.9	571.17	0		
-499875	1873	Yamphu	riŋ	riŋ	sheaf of rice straw	sheaf of rice straw	n	3.1.8	571.21	0		
-499876	1873	Yamphu	ri◦ʔum	ri◦ʔum	four	four	num	9.9	571.25	0		
-499877	1873	Yamphu	ri•p◦si	ri•p◦si	mango	mango	n		572.02	0		
-499878	1873	Yamphu	ri•ʔ◦ma	ri•ʔ◦ma	plant (seedlings)	to plant (seedlings)	v	3.1.10	572.04	0		
-499879	1873	Yamphu	rum◦muk	rum◦muk	cave	cave	n	3.2.7	572.27	0		1269,164
-499880	1873	Yamphu	ruŋ◦daŋ	ruŋ◦daŋ	"cave, larger than a ""rummuk"""	"cave, larger than a ""rummuk"""	n	3.2.7	572.28	0		1269,822
-499881	1873	Yamphu	run◦ji◦ra	run◦ji◦ra	stones and earth	stones and earth	n	3.2.9	573.02	0		
-499882	1873	Yamphu	ruŋ◦ma	ruŋ◦ma	stomach	stomach	n	1.7.6	573.03	0		
-499883	1873	Yamphu	ruŋ◦ma◦ju◦wa	ruŋ◦ma◦ju◦wa	liver	liver	n	1.7.3	573.06	0		
-499884	1873	Yamphu	ruʔ◦mi	ruʔ◦mi	earthquake	earthquake	n	3.2.6	573.08	0		
-499885	1873	Yamphu	sa	sa	meat, flesh	meat, flesh	n	1.1.1.1	573.1	0		34
-499886	1873	Yamphu	sa◦gok◦nak◦pa	sa◦gok◦nak◦pa	species of mushroom	species of mushroom	n	2.3	573.111	0		
-499887	1873	Yamphu	sa◦jaŋ	sa◦jaŋ	horn	horn	n	1.2.2	573.12	0		
-499888	1873	Yamphu	sak◦caŋ	sak◦caŋ	money	money	n	5.9	573.14	0		
-499889	1873	Yamphu	sak◦tok◦kraŋ	sak◦tok◦kraŋ	stick insect	stick insect	n	3.1.2	573.21	0		
-499890	1873	Yamphu	sam◦ba◦ʔuŋ	sam◦ba◦ʔuŋ	rose	rose	n	3.1.4	573.25	0		
-499891	1873	Yamphu	sa◦nuŋ◦ba	sa◦nuŋ◦ba	father and child	father and child	n	4.7.1	573.3	0		
-499892	1873	Yamphu	sa◦nuŋ◦laiʔ◦ma	sa◦nuŋ◦laiʔ◦ma	elder and younger wife	elder and younger wife	n	4.7.1	573.31	0		
-499893	1873	Yamphu	sa◦nuŋ◦ma	sa◦nuŋ◦ma	mother and child	mother and child	n	4.7.1	573.32	0		
-499894	1873	Yamphu	sa◦nuŋ◦na	sa◦nuŋ◦na	elder sister and younger sibling	elder sister and younger sibling	n	4.7.2	574.01	0		
-499895	1873	Yamphu	sa◦nuŋ◦ʔu	sa◦nuŋ◦ʔu	elder brother and younger sibling	elder brother and younger sibling	n	4.7.1	574.02	0		
-499896	1873	Yamphu	sa◦ŋa	sa◦ŋa	buffalo	buffalo	n	2.1.2	574.03	0		34,2538
-499897	1873	Yamphu	sa◦ŋap◦sa	sa◦ŋap◦sa	buffalo calf	buffalo calf	n	2.1.2	574.04	0		
-499898	1873	Yamphu	saŋ◦ge	saŋ◦ge	star	star	n	3.2.2	574.06	0		
-499899	1873	Yamphu	saŋ◦ge◦bu◦sæ•ʔ	saŋ◦ge◦bu◦sæ•ʔ	species of snake	species of snake	n	2.3	574.07	0		m,m,2623,m
-499900	1873	Yamphu	sap◦ci◦du◦ba	sap◦ci◦du◦ba	great-great-grandfather	great-great-grandfather	n	9.6.1	574.13	0		
-499901	1873	Yamphu	sap◦ci◦du◦ma	sap◦ci◦du◦ma	great-great-grandmother	great-great-grandmother	n	9.6.1	574.14	0		
-499902	1873	Yamphu	sa◦raŋ	sa◦raŋ	lower part of leg, including the foot	lower part of leg, including the foot	n		574.19	0		
-499903	1873	Yamphu	sa◦raŋ◦ghæt◦cæʔ◦wa	sa◦raŋ◦ghæt◦cæʔ◦wa	toes	toes	n	1.5.6	574.2	0		
-499904	1873	Yamphu	sa◦ruk◦ma	sa◦ruk◦ma	childless woman	childless woman	n	1.9.3	574.21	0		
-499905	1873	Yamphu	sa◦ruk◦pa	sa◦ruk◦pa	childless man	childless man	n	1.9.6.1	574.22	0		
-499906	1873	Yamphu	sa◦sik	sa◦sik	fat	fat	n	1.6.4	574.24	0		
-499907	1873	Yamphu	sa◦sok	sa◦sok	entrails	entrails	n	1.7.7	574.25	0		
-499908	1873	Yamphu	sa◦srip◦pa	sa◦srip◦pa	wart	wart	n	1.6.5.3	574.26	0		
-499909	1873	Yamphu	saʔ◦wa	saʔ◦wa	species of bee or wasp	species of bee or wasp	n	2.2.6	574.27	0		
-499910	1873	Yamphu	sa•◦ma	sa•◦ma	breathe	to breathe	v	1.1.2.2	574.29	0		
-499911	1873	Yamphu	sa•ʔ◦wa	sa•ʔ◦wa	leafy vegetables	leafy vegetables	n	3.1.2	574.33	0		
-499912	1873	Yamphu	sauk	sauk	skin	skin	n	1.6.5	574.35	0		
-499913	1873	Yamphu	sæk◦kæʔ◦lem◦ma	sæk◦kæʔ◦lem◦ma	species of cricket	species of cricket	n	2.3	574.38	0		
-499914	1873	Yamphu	sæk◦koʔ◦wa	sæk◦koʔ◦wa	bone	bone	n	1.6.3	575.01	0		
-499915	1873	Yamphu	sæk◦kum◦bu	sæk◦kum◦bu	species of tree (Aconogonum molle)	species of tree (Aconogonum molle)	n	2.3	575.02	0		
-499916	1873	Yamphu	sæŋ◦ma	sæŋ◦ma	mother's younger sister	mother's younger sister	n	4.7.1	575.07	0		
-499917	1873	Yamphu	sæʔ◦li	sæʔ◦li	penis	penis	n		575.11	0		
-499918	1873	Yamphu	sæʔ◦na	sæʔ◦na	species of mushroom	species of mushroom	n	2.3	575.13	0		
-499919	1873	Yamphu	se◦du◦ba	se◦du◦ba	diarrhea	diarrhea	n	1.8.5	575.15	0		
-499920	1873	Yamphu	se◦gu◦ma	se◦gu◦ma	urine	urine	n	1.8.4	575.16	0		650,m,s
-499921	1873	Yamphu	sem◦dum◦ma	sem◦dum◦ma	fingernail	fingernail	n	1.5.10.1	575.19	0		
-499922	1873	Yamphu	sem◦la	sem◦la	voice	voice	n	8.5.5	575.21	0		
-499923	1873	Yamphu	se•◦bræk	se•◦bræk	thigh	thigh	n	1.5.7.1	576.07	0		
-499924	1873	Yamphu	se•◦bhu	se•◦bhu	species of tree (Thysanolaena maxima)	species of tree (Thysanolaena maxima)	n	2.3	576.08	0		
-499925	1873	Yamphu	si◦giʔ	si◦giʔ	species of locust	species of locust	n	2.3	576.16	0		
-499926	1873	Yamphu	sik	sik	louse	louse	n	2.2.6	576.17	0		
-499927	1873	Yamphu	sik◦ca	sik◦ca	poison	poison	n	6.4	576.18	0		
-499928	1873	Yamphu	si◦ma	si◦ma	wife of father's younger brother	wife of father's younger brother	n	1.5.3.2	576.21	0		
-499929	1873	Yamphu	si◦ŋak	si◦ŋak	large leaf, as of the sal or Indian chestnut trees	large leaf, as of the sal or Indian chestnut trees	n	10.0	577.09	0		
-499930	1873	Yamphu	siŋ◦bu	siŋ◦bu	tree; tree trunk	tree; tree trunk	n	3.1.2	577.1	0		2658,m
-499931	1873	Yamphu	siŋ◦ji◦ra	siŋ◦ji◦ra	wood and leaves	wood and leaves	n	3.1.2	577.12	0		2658,m,m
-499932	1873	Yamphu	siʔ◦læŋ◦græʔ◦ma	siʔ◦læŋ◦græʔ◦ma	cockroach	cockroach	n	2.2.6	577.28	0		
-499933	1873	Yamphu	siʔ◦lik	siʔ◦lik	bed-bug	bed-bug	n	1.5.3.2	577.29	0		
-499934	1873	Yamphu	siʔ◦nu◦ma	siʔ◦nu◦ma	mouse or rat	mouse or rat	n	2.1.1	578.01	0		
-499935	1873	Yamphu	si•◦gum◦ba	si•◦gum◦ba	fox	fox	n	2.1.11	578.02	0		
-499936	1873	Yamphu	si•ʔ◦wa	si•ʔ◦wa	dew	dew	n		578.18	0		59,m
-499937	1873	Yamphu	so◦bhiʔ◦wa	so◦bhiʔ◦wa	species of bird	species of bird	n	2.3	578.2	0		
-499938	1873	Yamphu	sok◦khu◦ma	sok◦khu◦ma	stinging nettle (Urtica dioica)	stinging nettle (Urtica dioica)	n	2.4.2	578.23	0		
-499939	1873	Yamphu	som	som	lungs	lungs	n	1.7.2	579.04	0		
-499940	1873	Yamphu	so◦ŋa	so◦ŋa	bird	bird	n	2.2.4	579.06	0		
-499941	1873	Yamphu	so◦ŋa◦ra	so◦ŋa◦ra	millet field	millet field	n	1.5.3.2	579.07	0		
-499942	1873	Yamphu	su◦i◦ma	su◦i◦ma	kind of bug	kind of bug	n	8.3.3.2.1	579.22	0		
-499943	1873	Yamphu	sum◦boŋ	sum◦boŋ	thirty	thirty	num	9.9	579.27	0		2666
-499944	1873	Yamphu	sum◦ji	sum◦ji	three	three	num	9.9	579.28	0		2666
-499945	1873	Yamphu	sum◦mak	sum◦mak	large mortar, made from a round, hollowed-out stone or log	large mortar, made from a round, hollowed-out stone or log	n	9.7.1	579.3	0		2742,m
-499946	1873	Yamphu	sum◦rik	sum◦rik	loins, waist	loins, waist	n	1.4.9	579.31	0		
-499947	1873	Yamphu	suŋ◦ma◦ra	suŋ◦ma◦ra	mugwort (Artemisia vulgaris)	mugwort (Artemisia vulgaris)	n		580.01	0		
-499948	1873	Yamphu	taŋ	taŋ	hair on the head	hair on the head	n	1.2.3	580.25	0		371
-499949	1873	Yamphu	taŋ-thrup◦ma	taŋ-thrup◦ma	lock of hair, tuft of hair	lock of hair, tuft of hair	n	1.2.3	580.26	0		
-499950	1873	Yamphu	taŋ◦baŋ	taŋ◦baŋ	relative	relative	n	4.7.5	581.01	0		
-499951	1873	Yamphu	taŋ◦na◦si	taŋ◦na◦si	brains	brains	n	1.2.4	581.04	0		
-499952	1873	Yamphu	tæk◦pra	tæk◦pra	penis	penis	n		581.17	0		
-499953	1873	Yamphu	tet◦tu◦ma	tet◦tu◦ma	vulva	vulva	n		582.08	0		
-499954	1873	Yamphu	tok◦ma	tok◦ma	congeal, freeze, become solid	to congeal, freeze, become solid	v	9.5	583.16	0		
-499955	1873	Yamphu	tok◦tok◦ma	tok◦tok◦ma	big rock on which one can sit	big rock on which one can sit	n	9.7.2	583.2	0		
-499956	1873	Yamphu	tom◦ma	tom◦ma	pond; well; deep part in a river or stream, pool	pond; well; deep part in a river or stream, pool	n	3.2.3	583.22	0		
-499957	1873	Yamphu	to◦ŋa◦ra	to◦ŋa◦ra	stick	stick	n	3.1.2	584.01	0		
-499958	1873	Yamphu	tu◦ba	tu◦ba	grandfather	grandfather	n	4.7.1	585.02	0		
-499959	1873	Yamphu	tu◦dak	tu◦dak	species of fish	species of fish	n	2.3	585.03	0		
-499960	1873	Yamphu	tu◦dhu	tu◦dhu	milk	milk	n		585.05	0		
-499961	1873	Yamphu	tu◦ma	tu◦ma	grandmother	grandmother	n	4.7.1	585.09	0		
-499962	1873	Yamphu	tum◦ruk	tum◦ruk	knee	knee	n	1.5.8.4	585.14	0		439,m
-499963	1873	Yamphu	tum◦mi	tum◦mi	first-born	first-born	n	4.2.11	585.13	0		
-499964	1873	Yamphu	tuŋ◦daŋ◦gi	tuŋ◦daŋ◦gi	species of rodent	species of rodent	n	2.3	585.15	0		
-499965	1873	Yamphu	tuŋ◦griŋ◦ba	tuŋ◦griŋ◦ba	kind of bug which lives in bamboo	kind of bug which lives in bamboo	n	10.1.1	585.17	0		
-499966	1873	Yamphu	tu◦ru◦wa	tu◦ru◦wa	brow, forehead	brow, forehead	n	1.5.3.1	585.23	0		
-499967	1873	Yamphu	tu•ŋ◦ghu	tu•ŋ◦ghu	species of monkey	species of monkey	n	2.3	585.26	0		
-499968	1873	Yamphu	tu•◦sa	tu•◦sa	child born out of wedlock, illegitimate child	child born out of wedlock, illegitimate child	n	1.5.3.2	585.27	0		
-499969	1873	Yamphu	tu•s◦mam◦ma	tu•s◦mam◦ma	mother of an illegitimate child	mother of an illegitimate child	n	4.7.1	585.28	0		
-499970	1873	Yamphu	thaŋ◦gem◦ba	thaŋ◦gem◦ba	species of bird	species of bird	n	2.3	586.06	0		
-499971	1873	Yamphu	thap◦pa	thap◦pa	old man; husband	old man; husband	n	7.1.8.3	586.08	0		
-499972	1873	Yamphu	thar◦kum◦ba	thar◦kum◦ba	squirrel	squirrel	n	2.1.1	586.1	0		
-499973	1873	Yamphu	thaʔ◦ma	thaʔ◦ma	old woman; wife	old woman; wife	n	7.1.8.3	586.11	0		
-499974	1873	Yamphu	thon◦dro	thon◦dro	pit, hollow place	pit, hollow place	n	3.1.2	587.09	0		
-499975	1873	Yamphu	uk◦cuŋ◦græk	uk◦cuŋ◦græk	naked	naked	adj	1.1.1	588.02	0		
-499976	1873	Yamphu	u◦nam◦ba	u◦nam◦ba	wife or husband's elder brother; elder brother's wife's elder brother	wife or husband's elder brother; elder brother's wife's elder brother	n	1.5.3.2	588.12	0		
-499977	1873	Yamphu	uŋ	uŋ	flower	flower	n	3.1.4	588.13	0		
-499978	1873	Yamphu	uŋ◦bhu	uŋ◦bhu	species of tree, Nepal cherry tree (Prunus cerasoides)	species of tree, Nepal cherry tree (Prunus cerasoides)	n	3.1.2	588.14	0		
-499979	1873	Yamphu	us◦ræ•k◦si	us◦ræ•k◦si	species of tree with sour edible fruit, Chinese sumac (Rhus javanica)	species of tree with sour edible fruit, Chinese sumac (Rhus javanica)	n	10.1.1	588.22	0		
-499980	1873	Yamphu	u•p◦ma	u•p◦ma	light, burn	to light, burn	v	7.1.11.1	589.06	0		
-499981	1873	Yamphu	u•p◦mik	u•p◦mik	large firefly	large firefly	n	9.7.1	589.07	0		
-499982	1873	Yamphu	wa	wa	chicken	chicken	n	2.1.10	589.1	0		1603
-499983	1873	Yamphu	wa◦di◦haŋ◦ma	wa◦di◦haŋ◦ma	kind of herb which is added to dough when making leaven	kind of herb which is added to dough when making leaven	n	10.5.3	589.12	0		
-499984	1873	Yamphu	wa◦gi◦ya	wa◦gi◦ya	tomorrow	tomorrow	adv	9.1.3	589.15	0		
-499985	1873	Yamphu	wa◦jik◦ci◦ba	wa◦jik◦ci◦ba	mole	mole	n	2.2.7	589.21	0		
-499986	1873	Yamphu	wa◦jok◦ma	wa◦jok◦ma	water, usually more specifically pool, pond, lake, tank, sea	water, usually more specifically pool, pond, lake, tank, sea	n	3.2.3	589.23	0		
-499987	1873	Yamphu	wa◦ma◦da•ŋ	wa◦ma◦da•ŋ	hen with little chicks	hen with little chicks	n	2.1.10	589.3	0		
-499988	1873	Yamphu	wap◦sa	wap◦sa	chick	chick	n	2.1.10	590.06	0		
-499989	1873	Yamphu	wa◦ʔiŋ	wa◦ʔiŋ	egg	egg	n		590.22	0		1603,m
-499990	1873	Yamphu	wa◦ʔiŋ◦ji	wa◦ʔiŋ◦ji	balls, testicles	balls, testicles	n	9.7.1	590.22	0		
-499991	1873	Yamphu	wa•◦wa	wa•◦wa	elder brother	elder brother	n	4.7.1	591.06	0		
-499992	1873	Yamphu	wai◦muʔ	wai◦muʔ	species of chestnut tree (Castonopsis tribuloides)	species of chestnut tree (Castonopsis tribuloides)	n	2.3	591.09	0		
-499993	1873	Yamphu	wai◦riŋ◦ga	wai◦riŋ◦ga	kind of bug that lives in trees	kind of bug that lives in trees	n	10.1.1	591.1	0		
-499994	1873	Yamphu	wai◦si	wai◦si	chestnut	chestnut	n	3.1.4	591.11	0		
-499995	1873	Yamphu	wen◦ja	wen◦ja	boy, youth, young guy	boy, youth, young guy	n	1.9.6.1	591.26	0		
-499996	1873	Yamphu	ya	ya	face	face	n	1.2.5	592.04	0		
-499997	1873	Yamphu	ya◦bræʔ◦wa	ya◦bræʔ◦wa	lower lip	lower lip	n		592.05	0		
-499998	1873	Yamphu	ya◦buk	ya◦buk	mouth; opening, entrance	mouth; opening, entrance	n	1.3.1	592.06	0		
-499999	1873	Yamphu	ya◦buk◦khup◦ma	ya◦buk◦khup◦ma	beak of a bird	beak of a bird	n	1.3.1.2	592.07	0		
-500000	1873	Yamphu	yak◦kha◦ni	yak◦kha◦ni	young, unmarried woman	young, unmarried woman	n	7.1.8.3	592.13	0		
-500001	1873	Yamphu	yak◦si	yak◦si	species of edible root	species of edible root	n	2.3	592.18	0		
-500002	1873	Yamphu	yak◦tuŋ	yak◦tuŋ	wrist (OBSOLETE)	wrist (OBSOLETE)	n	1.5.8.1	592.19	0		
-500003	1873	Yamphu	ya◦mi	ya◦mi	body hair, moustache	body hair, moustache	n	1.1.1	592.2	0		m,363
-500004	1873	Yamphu	ya◦ŋak	ya◦ŋak	wild boar	wild boar	n	3.2.5	592.24	0		
-500005	1873	Yamphu	yaŋ◦ghak◦pa	yaŋ◦ghak◦pa	spider	spider	n	2.2.6	593.01	0		
-500006	1873	Yamphu	yaŋ◦mæŋ	yaŋ◦mæŋ	grandchild	grandchild	n	4.7.3	593.05	0		
-500007	1873	Yamphu	yaŋ◦siŋ◦bhu	yaŋ◦siŋ◦bhu	species of tree (Schima wallichii)	species of tree (Schima wallichii)	n	2.3	593.07	0		m,2658,m
-500008	1873	Yamphu	yap◦ci◦du◦ba	yap◦ci◦du◦ba	great-grandfather	great-grandfather	n	4.7.1	593.09	0		
-500009	1873	Yamphu	yap◦ci◦du◦ma	yap◦ci◦du◦ma	great-grandmother	great-grandmother	n	4.7.1	593.1	0		
-500010	1873	Yamphu	ya◦ye◦wa	ya◦ye◦wa	upper lip	upper lip	n	9.2.1	593.13	0		
-500011	1873	Yamphu	yaʔ◦mi	yaʔ◦mi	man, person	man, person	n	1.9.6.1	593.14	0		
-500012	1873	Yamphu	yaʔ◦wa	yaʔ◦wa	small plant, weed	small plant, weed	n	9.7.2	593.15	0		
-500013	1873	Yamphu	yaʔ◦wa◦ma	yaʔ◦wa◦ma	kind of bee	kind of bee	n	8.3.3.2.1	593.16	0		
-500014	1873	Yamphu	ya•◦sa	ya•◦sa	species of deer	species of deer	n	2.3	593.22	0		
-500015	1873	Yamphu	yæ◦ŋæk◦kræk◦ma	yæ◦ŋæk◦kræk◦ma	centipede, millipede	centipede, millipede	n	2.2.6	593.26	0		
-500016	1873	Yamphu	yæ•◦su◦ba	yæ•◦su◦ba	goat	goat	n	2.1.8	594.05	0		6028,m,m
-500017	1873	Yamphu	yik◦siŋ◦bu	yik◦siŋ◦bu	species of tree	species of tree	n	2.3	594.3	0		m,2658,m
-500018	1873	Yamphu	yiŋ◦yaŋ	yiŋ◦yaŋ	elephant (agent participle of yiŋma 'to tear apart, wring, wrench')	elephant (agent participle of yiŋma 'to tear apart, wring, wrench')	n	10.1.1	595.09	0		
-500019	1873	Yamphu	yi•◦bhu	yi•◦bhu	species of tree (Quercus lineata, Quercus glauca)	species of tree (Quercus lineata, Quercus glauca)	n	2.3	595.13	0		
-500020	1873	Yamphu	yo◦ŋa	yo◦ŋa	water	water	n	3.2.3	596.05	0		
-500021	1873	Yamphu	yoŋ◦ni◦ba	yoŋ◦ni◦ba	sister's husband	sister's husband	n	4.7.2	596.09	0		
-500022	1873	Yamphu	yoŋ◦ni◦ma	yoŋ◦ni◦ma	brother's wife	brother's wife	n	1.5.3.2	596.1	0		
-500023	1873	Yamphu	yu◦a◦ma	yu◦a◦ma	black, largish bee	black, largish bee	n	9.4	596.31	0		
-500024	1873	Yamphu	ʔu	ʔu	elder brother (bound morph)	elder brother (bound morph)	n	4.7.1	598.03	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+499523	1873	Yamphu	ak◦kr̂aŋ	ak◦kr̂aŋ	shoulder	shoulder	n	n	1.4.3	524.07	0			
+499524	1873	Yamphu	ak◦khan-lok◦ma	ak◦khan-lok◦ma	lump of earth	lump of earth	n	n	9.7.1	524.09	0			
+499525	1873	Yamphu	ak◦khra◦bhu	ak◦khra◦bhu	tree (Pilea wightii)	tree (Pilea wightii)	n	n	3.1.2	524.11	0			
+499526	1873	Yamphu	ak◦khu◦ma	ak◦khu◦ma	earth, soil, ground	earth, soil, ground	n	n	3.2.11	524.12	0			
+499527	1873	Yamphu	ak◦ma	ak◦ma	pig	pig	n	n	2.1.12	524.13	0			1006,m
+499528	1873	Yamphu	ak◦ma	ak◦ma	weave with straw or thread	to weave with straw or thread	v	v	5.1	524.15	0	dwb18		
+499529	1873	Yamphu	ak◦ma◦sa	ak◦ma◦sa	pork	pork	n	n	2.1.12	524.16	0			1006,m,34
+499530	1873	Yamphu	ak◦pa◦sa	ak◦pa◦sa	piglet, small pig	piglet, small pig	n	n	2.1.12	524.18	0			1006,m,m
+499531	1873	Yamphu	ak◦yaʔ◦wa	ak◦yaʔ◦wa	buttocks	buttocks	n	n	1.4.10	525.03	0			
+499532	1873	Yamphu	am◦li	am◦li	finger	finger	n	n	1.5.6	525.06	0			
+499533	1873	Yamphu	a◦ŋa	a◦ŋa	father's younger brother	father's younger brother	n	n	1.5.3.2	525.11	0			
+499534	1873	Yamphu	aŋ◦ga◦lup◦ma	aŋ◦ga◦lup◦ma	reddish species of grasshopper (...)	a reddish species of grasshopper (...)	n	n	9.4	525.13	0	dwb5		
+499535	1873	Yamphu	aŋ◦gem◦ba	aŋ◦gem◦ba	species of bird	species of bird	n	n	2.3	525.14	0			
+499536	1873	Yamphu	aŋ◦grok◦ca	aŋ◦grok◦ca	fruit of Mucuna monosperma or Mucuna macrocarpa	fruit of Mucuna monosperma or Mucuna macrocarpa	n	n	3.1.5	525.15	0			
+499537	1873	Yamphu	aŋ◦ghu	aŋ◦ghu	kind of chestnut (...)	kind of chestnut (...)	n	n	8.3.3.2.1	525.16	0			
+499538	1873	Yamphu	aŋ◦ghu	aŋ◦ghu	ankle, knee, or elbow joints	ankle, knee, or elbow joints	n	n	1.5.8.2	525.17	0			
+499539	1873	Yamphu	aŋ◦ji	aŋ◦ji	eight (OBSOLETE)	eight (OBSOLETE)	num	num	9.9	525.18	0			
+499540	1873	Yamphu	aŋ◦ma	aŋ◦ma	chop up, break/cut to pieces; to dissolve sth.	to chop up, break/cut to pieces; to dissolve sth.	v	v	6.9.3	525.19	0	dwb18		
+499541	1873	Yamphu	ap◦ma	ap◦ma	embroider; to fasten buttons, to button	to embroider; to fasten buttons, to button	v	v	10.1.1	526.02	0	dwb18		
+499542	1873	Yamphu	ap◦ma	ap◦ma	shoot (e.g. arrows, bullets)	to shoot (e.g. arrows, bullets)	v	v	6.2.2.1	526.03	0	dwb18		2232,m
+499543	1873	Yamphu	a◦raʔ◦wa	a◦raʔ◦wa	crow, raven	crow, raven	n	n	2.2.4.1	526.04	0			
+499544	1873	Yamphu	a◦ʔi◦dum◦ba	a◦ʔi◦dum◦ba	species of insect which multiplies itself in dung	species of insect which multiplies itself in dung	n	n	10.1.1	526.11	0			
+499545	1873	Yamphu	aʔ◦wa	aʔ◦wa	leaf of a plant	leaf of a plant	n	n	3.1.3	526.12	0			
+499546	1873	Yamphu	a•◦bhu	a•◦bhu	bamboo (or shaft/patch of bamboo)	bamboo (or shaft/patch of bamboo)	n	n	3.1.1	526.13	0			
+499547	1873	Yamphu	a•◦mi	a•◦mi	young bamboo shoots	young bamboo shoots	n	n	7.1.8.3	526.16	0			
+499548	1873	Yamphu	æ◦dæp◦pa	æ◦dæp◦pa	small	small	adj	adj	9.7.2	526.19	0			
+499549	1873	Yamphu	æk◦ma	æk◦ma	blossom, to flower	to blossom, to flower	v	v	3.1.4	527.01	0	dwb18		
+499550	1873	Yamphu	æk◦taŋ◦gi◦ya	æk◦taŋ◦gi◦ya	tomato	tomato	n	n	3.1.5	527.04	0			
+499551	1873	Yamphu	æn◦dhi	æn◦dhi	axe	axe	n	n	5.11.5.3	527.1	0			
+499552	1873	Yamphu	æ◦ŋæʔ◦wa	æ◦ŋæʔ◦wa	species of wild mushroom	species of wild mushroom	n	n	2.3	527.12	0			
+499553	1873	Yamphu	æŋ◦dæk◦pa	æŋ◦dæk◦pa	species of toad	species of toad	n	n	2.3	527.14	0			
+499554	1873	Yamphu	æŋ◦gwak	æŋ◦gwak	back (i.e. the body part)	back (i.e. the body part)	n	n	1.4.8	527.15	0			
+499555	1873	Yamphu	æŋ◦ʔi◦ye	æŋ◦ʔi◦ye	long, tall	long, tall	adj	adj	9.7.2	527.17	0			
+499556	1873	Yamphu	æʔ◦wa	æʔ◦wa	flower, blossom	flower, blossom	n	n	3.1.4	527.2	0			
+499557	1873	Yamphu	æ•t◦cæʔ◦ma	æ•t◦cæʔ◦ma	get fever	to get fever	v	v	1.1.5	527.22	0	dwb18		
+499558	1873	Yamphu	berli	berli	cat	cat	n	n	2.1.3	528.03	0			b?
+499559	1873	Yamphu	bi◦jok	bi◦jok	species of mushroom	species of mushroom	n	n	2.3	528.06	0			
+499560	1873	Yamphu	bon◦pa◦la	bon◦pa◦la	forest; jungle	forest; jungle	n	n	3.2.5	528.08	0			
+499561	1873	Yamphu	ca◦bra	ca◦bra	bag; scrotum	bag; scrotum	n	n		528.11	0			
+499562	1873	Yamphu	cam	cam	paddy	paddy	n	n	9.10.5	528.15	0			
+499563	1873	Yamphu	cam◦lu◦ʔa	cam◦lu◦ʔa	partially-husked rice	partially-husked rice	n	n		529.01	0			
+499564	1873	Yamphu	caŋ◦ji◦ra	caŋ◦ji◦ra	something to wear, clothing	something to wear, clothing	n	n	8.1	529.04	0			
+499565	1873	Yamphu	cap	cap	spirit of a dead ancestor; evil spirit	spirit of a dead ancestor; evil spirit	n	n	5.8.1.1	529.07	0			
+499566	1873	Yamphu	ca◦ri	ca◦ri	seed	seed	n	n	3.1.4	529.09	0			
+499567	1873	Yamphu	ca◦riʔ◦wa◦riʔ	ca◦riʔ◦wa◦riʔ	seeds and grains	seeds and grains	n	n	3.1.4	529.1	0			
+499568	1873	Yamphu	car◦pa	car◦pa	bread	bread	n	n	5.5	529.12	0			
+499569	1873	Yamphu	ca◦sak	ca◦sak	cereals	cereals	n	n	3.1.4	529.13	0			
+499570	1873	Yamphu	ca◦wa	ca◦wa	spring belonging to a certain clan	spring belonging to a certain clan	n	n	6.7.9	529.14	0			
+499571	1873	Yamphu	ca•k◦pa	ca•k◦pa	millet bread	millet bread	n	n	1.5.3.2	529.17	0			
+499572	1873	Yamphu	ca•◦ma	ca•◦ma	cooked rice; meal; food	cooked rice; meal; food	n	n	5.5	529.18	0			
+499573	1873	Yamphu	cæk◦ci	cæk◦ci	iron	iron	n	n	3.2.4	529.24	0			b?Tibetan,m
+499574	1873	Yamphu	cæm◦ma	cæm◦ma	stand erect, have an erection; to pee far (in an arch)	to stand erect, have an erection; to pee far (in an arch)	v	v	10.1.1	530.01	0	dwb18		
+499575	1873	Yamphu	cæn◦da	cæn◦da	porter's basket	porter's basket	n	n	4.2.1	530.02	0			
+499576	1873	Yamphu	cæ•n◦jruŋ	cæ•n◦jruŋ	large rock standing upright	large rock standing upright	n	n	9.7.1	530.05	0			
+499577	1873	Yamphu	cem◦laʔ◦wa	cem◦laʔ◦wa	leaf of banana tree	leaf of banana tree	n	n	3.1.3	530.06	0			
+499578	1873	Yamphu	cem◦maʔ◦la	cem◦maʔ◦la	banana	banana	n	n	3.1.5	530.08	0			
+499579	1873	Yamphu	cer◦phu	cer◦phu	species of tree (Maesa chisia)	species of tree (Maesa chisia)	n	n	2.3	530.11	0			
+499580	1873	Yamphu	cet◦cira	cet◦cira	plowing thing (i.e. anything related to a plow)	plowing thing (i.e. anything related to a plow)	n	n	8.1	530.12	0			
+499581	1873	Yamphu	ceʔ◦læʔ◦ŋa	ceʔ◦læʔ◦ŋa	species of fish	species of fish	n	n	2.3	530.13	0			m,m,1455
+499582	1873	Yamphu	ce•ʔ◦ma	ce•ʔ◦ma	spit	to spit	v	v	1.8.3	530.17	0	dwb18		
+499583	1873	Yamphu	ci◦brik◦ki◦ya	ci◦brik◦ki◦ya	species of bird	species of bird	n	n	2.3	530.18	0			
+499584	1873	Yamphu	ci◦jeŋ	ci◦jeŋ	thorn	thorn	n	n	3.1.2	530.2	0			
+499585	1873	Yamphu	cik◦cik◦ya	cik◦cik◦ya	species of bird	species of bird	n	n	2.3	530.21	0			
+499586	1873	Yamphu	ciŋ◦yaʔ◦wa	ciŋ◦yaʔ◦wa	species of chicken with erect feathers	species of chicken with erect feathers	n	n	10.1.1	531.13	0			m,m,1603
+499587	1873	Yamphu	ciʔ◦wa	ciʔ◦wa	pheasant	pheasant	n	n	2.2.4.1	531.19	0			
+499588	1873	Yamphu	coik◦ŋi◦ma◦si◦giʔ	coik◦ŋi◦ma◦si◦giʔ	species of grasshopper	species of grasshopper	n	n	2.3	532.06	0			
+499589	1873	Yamphu	cok◦ki◦ʔa	cok◦ki◦ʔa	species of bird	species of bird	n	n	2.3	532.07	0			
+499590	1873	Yamphu	co◦ŋa◦ra	co◦ŋa◦ra	maize flower	maize flower	n	n	3.1.5	532.12	0			
+499591	1873	Yamphu	cos◦su	cos◦su	dragonfly	dragonfly	n	n	2.2.6	532.14	0			
+499592	1873	Yamphu	cuŋ◦ma	cuŋ◦ma	worship or make offerings to a deity	worship or make offerings to a deity	v	v	5.8.1.3	533.01	0			
+499593	1873	Yamphu	cu•◦bhu	cu•◦bhu	red Himalayan bamboo	red Himalayan bamboo	n	n	9.4	533.1	0			
+499594	1873	Yamphu	e◦ba	e◦ba	father's elder brother	father's elder brother	n	n	4.7.1	534.08	0			
+499595	1873	Yamphu	e◦ma	e◦ma	father's elder sister	father's elder sister	n	n	4.7.1	534.13	0			
+499596	1873	Yamphu	em◦ma	em◦ma	vomit, throw up	to vomit, throw up	v	v	1.8.3.2	534.14	0	dwb18		
+499597	1873	Yamphu	en◦daŋ	en◦daŋ	neck	neck	n	n	1.4.2	534.17	0			
+499598	1873	Yamphu	e◦ne◦ne•◦ma	e◦ne◦ne•◦ma	species of caterpillar	species of caterpillar	n	n	2.3	534.19	0			
+499599	1873	Yamphu	es◦ræk◦ci	es◦ræk◦ci	jungle tree with edible sour fruit	jungle tree with edible sour fruit	n	n	3.2.5	534.22	0			
+499600	1873	Yamphu	e◦suk	e◦suk	ginger	ginger	n	n	3.1.5	534.23	0			
+499601	1873	Yamphu	et◦ci	et◦ci	seven (OBSOLETE)	seven (OBSOLETE)	num	num	9.9	534.24	0			
+499602	1873	Yamphu	eʔ◦ma	eʔ◦ma	pluck the fruit of a plant	to pluck the fruit of a plant	v	v	6.2.2.3.1	534.25	0	dwb18		
+499603	1873	Yamphu	e•bha	e•bha	wolf	wolf	n	n	2.1.11	535.05	0			999R
+499604	1873	Yamphu	haŋ◦ba	haŋ◦ba	king	king	n	n	4.2.5	536.01	0			
+499605	1873	Yamphu	ha◦ri	ha◦ri	blood	blood	n	n	1.6.2	536.12	0			
+499606	1873	Yamphu	hæŋ◦ŋa	hæŋ◦ŋa	species of fish	species of fish	n	n	2.3	537.02	0			m,1455
+499607	1873	Yamphu	hæ•ʔ◦yoŋ	hæ•ʔ◦yoŋ	leopard	leopard	n	n	2.1.3	537.06	0			
+499608	1873	Yamphu	hi	hi	feces, turd	feces, turd	n	n	1.8.5	538.04	0			
+499609	1873	Yamphu	hi◦gaŋ◦lik	hi◦gaŋ◦lik	type of large firefly	type of large firefly	n	n	8.1	538.05	0			
+499610	1873	Yamphu	hi◦rum	hi◦rum	vulva	vulva	n	n		538.11	0			
+499611	1873	Yamphu	hi◦yaŋ	hi◦yaŋ	turd	turd	n	n		538.12	0			
+499612	1873	Yamphu	hiʔ◦ma	hiʔ◦ma	burnt, scorched, singed, to get burnt; to burn/scorch sth.	to be burnt, scorched, singed, to get burnt; to burn/scorch sth.	be v.	v	3.2.12.1	538.16	0	dwb11		
+499613	1873	Yamphu	hiʔ◦wa◦ba	hiʔ◦wa◦ba	wind, air	wind, air	n	n	3.2.1	538.17	0			
+499614	1873	Yamphu	hom◦ma	hom◦ma	turn over earth, to rout up, to grub	to turn over earth, to rout up, to grub	v	v	9.2.1	538.28	0	dwb18		
+499615	1873	Yamphu	hom◦yaŋ	hom◦yaŋ	pig, hog	pig, hog	n	n	2.1.12	539.01	0			
+499616	1873	Yamphu	ho◦ŋa◦ya	ho◦ŋa◦ya	hole	hole	n	n	3.2.7	539.04	0			
+499617	1873	Yamphu	hoŋ◦ma	hoŋ◦ma	stream, rivulet	stream, rivulet	n	n	3.2.3	539.07	0			
+499618	1873	Yamphu	hop◦præk	hop◦præk	empty	empty	adj	adj	7.1.2.1	539.12	0			
+499619	1873	Yamphu	huk◦caŋ◦grik◦pa	huk◦caŋ◦grik◦pa	lizard	lizard	n	n	2.1.6	539.23	0			
+499620	1873	Yamphu	huk◦khæt◦ciʔ◦wa	huk◦khæt◦ciʔ◦wa	fingers	fingers	n	n	1.5.6	539.25	0			
+499621	1873	Yamphu	huk◦phæk◦ma	huk◦phæk◦ma	palm of the hand	palm of the hand	n	n	1.5.5	539.26	0			
+499622	1873	Yamphu	huk◦sim◦ba	huk◦sim◦ba	chapped / cracked skin on the hand	chapped / cracked skin on the hand	n	n	1.5.1.1	539.27	0			
+499623	1873	Yamphu	hur◦ca	hur◦ca	species of tiny fish (...)	species of tiny fish (...)	n	n	2.3	540.08	0			
+499624	1873	Yamphu	huʔ◦wa	huʔ◦wa	dog	dog	n	n	2.1.11	540.12	0			1764,s
+499625	1873	Yamphu	huʔ◦wa◦de•ʔ◦lem◦ba	huʔ◦wa◦de•ʔ◦lem◦ba	species of insect	species of insect	n	n	2.3	540.13	0			
+499626	1873	Yamphu	huʔ◦wa◦min◦jwa	huʔ◦wa◦min◦jwa	species of insect (found especially on dogs)	species of insect (found especially on dogs)	n	n	10.1.1	540.14	0			
+499627	1873	Yamphu	hu•◦ma	hu•◦ma	swarm, to be scattered; to scatter, strew; to winnow by wind; to squander	to swarm, to be scattered; to scatter, strew; to winnow by wind; to squander	v	v	10.1.1	540.15	0	dwb18		
+499628	1873	Yamphu	iŋ◦bhu	iŋ◦bhu	Himalayan bamboo	Himalayan bamboo	n	n	3.2.5	542.15	0			
+499629	1873	Yamphu	i•	i•	beer	beer	n	n	3.1.6.3	543.11	0			
+499630	1873	Yamphu	kam◦ba	kam◦ba	wooden tongs for picking stinging nettle	wooden tongs for picking stinging nettle	n	n	3.1.2	544.06	0			
+499631	1873	Yamphu	kaŋ◦liŋ	kaŋ◦liŋ	shin-bone pipe used by Lamas in rituals.	shin-bone pipe used by Lamas in rituals.	n	n	1.5.7.2	544.14	0			
+499632	1873	Yamphu	kaʔ◦lok◦ma	kaʔ◦lok◦ma	lump of rice	lump of rice	n	n	9.7.1	544.17	0			
+499633	1873	Yamphu	ka•◦ŋa	ka•◦ŋa	kind of cricket which makes an unbroken sound	kind of cricket which makes an unbroken sound	n	n	8.3.3.2.1	544.2	0			
+499634	1873	Yamphu	kæk◦kræŋ◦ma	kæk◦kræŋ◦ma	bean	bean	n	n	3.1.4	544.21	0			
+499635	1873	Yamphu	kir◦mik	kir◦mik	species of small frog	species of small frog	n	n	2.3	545.18	0			
+499636	1873	Yamphu	kiʔ◦na	kiʔ◦na	elder brother's wife	elder brother's wife	n	n	1.5.3.2	546.02	0			
+499637	1873	Yamphu	ki◦ʔu	ki◦ʔu	elder sister's husband	elder sister's husband	n	n	4.7.1	546.03	0			
+499638	1873	Yamphu	ki•◦ba	ki•◦ba	tiger	tiger	n	n	2.1.3	546.05	0			2308,s
+499639	1873	Yamphu	ki•◦sa	ki•◦sa	deer	deer	n	n	2.2.2	546.09	0			
+499640	1873	Yamphu	kok◦ciŋ	kok◦ciŋ	species of insect	species of insect	n	n	2.3	546.14	0			
+499641	1873	Yamphu	koŋ◦griŋ	koŋ◦griŋ	species of colored lizard	species of colored lizard	n	n	2.3	546.2	0			6105,6104
+499642	1873	Yamphu	kup◦tu◦a◦ma	kup◦tu◦a◦ma	hen sitting on its eggs	hen sitting on its eggs	n	n	2.1.10	547.12	0			
+499643	1873	Yamphu	ku•◦dwæŋ	ku•◦dwæŋ	unhatched egg	unhatched egg	n	n		547.13	0			
+499644	1873	Yamphu	ku•◦jwak	ku•◦jwak	hot water	hot water	n	n		547.14	0			
+499645	1873	Yamphu	khak◦khak◦ma	khak◦khak◦ma	handle; penis	handle; penis	n	n	5.1	547.22	0			
+499646	1873	Yamphu	khak◦khup	khak◦khup	species of mushroom	species of mushroom	n	n	2.3	547.23	0			
+499647	1873	Yamphu	kham	kham	earth, soil	earth, soil	n	n	3.2.11	547.26	0			
+499648	1873	Yamphu	kham◦bri◦ʔa	kham◦bri◦ʔa	small earthenware pot or flask	small earthenware pot or flask	n	n	9.7.2	547.27	0			
+499649	1873	Yamphu	kham◦bu◦ma	kham◦bu◦ma	species of bug	species of bug	n	n	2.3	547.28	0			
+499650	1873	Yamphu	khap	khap	language	language	n	n	5.8	548.05	0			
+499651	1873	Yamphu	khap◦pi◦sik	khap◦pi◦sik	cotton	cotton	n	n	5.1	548.07	0			
+499652	1873	Yamphu	khas◦ma	khas◦ma	porcupine	porcupine	n	n	2.1.1	548.09	0			
+499653	1873	Yamphu	khaʔ◦mi	khaʔ◦mi	flour	flour	n	n	3.1.6.2	548.13	0			
+499654	1873	Yamphu	khaʔ◦wa	khaʔ◦wa	ear of millet	ear of millet	n	n	1.2.7	548.15	0			
+499655	1873	Yamphu	kha•◦sa	kha•◦sa	grass	grass	n	n	3.1.8	548.2	0			
+499656	1873	Yamphu	kha◦u◦suk	kha◦u◦suk	grits, the coarse parts of ground grains after sieving	grits, the coarse parts of ground grains after sieving	n	n	7.1.4.2	548.22	0			
+499657	1873	Yamphu	khæn◦sruk◦ma	khæn◦sruk◦ma	elbow	elbow	n	n	1.5.8.3	548.24	0			
+499658	1873	Yamphu	khæŋ	khæŋ	curried vegetables, gravy	curried vegetables, gravy	n	n	5.5	548.25	0			
+499659	1873	Yamphu	khæŋ◦saʔ◦wa	khæŋ◦saʔ◦wa	leafy, green vegetables	leafy, green vegetables	n	n	3.1.2	548.26	0			
+499660	1873	Yamphu	khæ◦o◦ro•k◦pa	khæ◦o◦ro•k◦pa	bulbul (species of bird)	bulbul (species of bird)	n	n	2.2.4.1	548.27	0			
+499661	1873	Yamphu	khæʔ◦æk	khæʔ◦æk	species of crab that lives in the water of paddy fields	species of crab that lives in the water of paddy fields	n	n	10.1.1	548.3	0			
+499662	1873	Yamphu	khæ•k◦ciʔ◦wa	khæ•k◦ciʔ◦wa	species of bird	species of bird	n	n	2.3	549.04	0			
+499663	1873	Yamphu	khet◦tiʔ◦wa	khet◦tiʔ◦wa	species of cricket	species of cricket	n	n	2.3	549.07	0			
+499664	1873	Yamphu	khe◦wa◦gham	khe◦wa◦gham	chalk clay	chalk clay	n	n	3.2.11	549.08	0			
+499665	1873	Yamphu	khe◦wa◦si	khe◦wa◦si	(lit 'chalk-fruit') species of plant from which a chalk-colored dish is prepared	(lit 'chalk-fruit') species of plant from which a chalk-colored dish is prepared	n	n	10.1.1	549.09	0			
+499666	1873	Yamphu	kheʔ◦ma	kheʔ◦ma	oblong shallow basket made of wood and reeds, used for drying things	oblong shallow basket made of wood and reeds, used for drying things	n	n	7.1.5.1	549.12	0			
+499667	1873	Yamphu	khe•◦dum◦ba	khe•◦dum◦ba	species of rodent	species of rodent	n	n	2.3	549.14	0			
+499668	1873	Yamphu	khi◦daŋ	khi◦daŋ	species of edible root	species of edible root	n	n	2.3	549.19	0			
+499669	1873	Yamphu	khim	khim	house	house	n	n	5.11.9.1	549.24	0			1612
+499670	1873	Yamphu	khim◦gu◦rik	khim◦gu◦rik	gecko	gecko	n	n	2.1.6	550.02	0			
+499671	1873	Yamphu	khim◦miʔ◦ma	khim◦miʔ◦ma	cloud, mist, haze	cloud, mist, haze	n	n	3.2.1	550.03	0			
+499672	1873	Yamphu	khi◦rik	khi◦rik	kidneys	kidneys	n	n	1.7.5	550.11	0			
+499673	1873	Yamphu	khi◦ri•ʔ◦wa	khi◦ri•ʔ◦wa	species of owl	species of owl	n	n	2.3	550.13	0			
+499674	1873	Yamphu	khi◦ʔu◦riŋ◦ba	khi◦ʔu◦riŋ◦ba	kind of red berry from a nettle	kind of red berry from a nettle	n	n	10.1.1	550.17	0			
+499675	1873	Yamphu	khiʔ◦wæŋ	khiʔ◦wæŋ	gall	gall	n	n	1.7.3.1	550.18	0			227,m
+499676	1873	Yamphu	khi•k◦ma	khi•k◦ma	comb oone's hair	to comb oone's hair	v	v	1.2.2.1	550.19	0	dwb18		
+499677	1873	Yamphu	kho◦doʔ◦wa	kho◦doʔ◦wa	large boil	large boil	n	n	9.7.1	550.23	0			
+499678	1873	Yamphu	khoŋ	khoŋ	copper bowl	copper bowl	n	n	3.2.4	551.04	0			
+499679	1873	Yamphu	kho◦ʔi	kho◦ʔi	"kind of knife, a bit larger than a ""khoʔiriŋma"""	"kind of knife, a bit larger than a ""khoʔiriŋma"""	n	n	8.3.3.2.1	551.1	0			
+499680	1873	Yamphu	kho◦ʔi◦riŋ◦ma	kho◦ʔi◦riŋ◦ma	small kind of sickle, used for harvesting millet	small kind of sickle, used for harvesting millet	n	n	9.7.2	551.11	0			
+499681	1873	Yamphu	khoʔ◦wa◦si	khoʔ◦wa◦si	species of tree (Ficus lacor)	species of tree (Ficus lacor)	n	n	2.3	551.12	0			
+499682	1873	Yamphu	kho•ʔ◦wa	kho•ʔ◦wa	diarrhea	diarrhea	n	n	1.8.5	551.2	0			
+499683	1873	Yamphu	khu◦daŋ	khu◦daŋ	pork lard	pork lard	n	n	2.1.12	551.23	0			
+499684	1873	Yamphu	khup◦ma	khup◦ma	claw of a bird; hoof	claw of a bird; hoof	n	n	1.5.10.4	551.24	0			
+499685	1873	Yamphu	khur◦gik	khur◦gik	species of bird	species of bird	n	n	2.3	551.26	0			
+499686	1873	Yamphu	khwaŋ	khwaŋ	species of tree	species of tree	n	n	2.3	551.3	0			
+499687	1873	Yamphu	la	la	moon	moon	n	n	3.2.2	552.01	0			1016
+499688	1873	Yamphu	la◦bu◦a◦ma	la◦bu◦a◦ma	bat	bat	n	n	2.2.4.1	552.02	0			
+499689	1873	Yamphu	la◦hat◦ta	la◦hat◦ta	spinning wheel	spinning wheel	n	n	6.7.6	552.03	0			
+499690	1873	Yamphu	la◦luŋ◦gi◦ya	la◦luŋ◦gi◦ya	unground eye or germ of a maize grain	unground eye or germ of a maize grain	n	n	10.1.1	552.05	0			
+499691	1873	Yamphu	la◦mi•ʔ◦ma	la◦mi•ʔ◦ma	second wife, concubine	second wife, concubine	n	n	9.9	552.09	0			
+499692	1873	Yamphu	laŋ	laŋ	leg (only in the expression for 'go on foot')	leg (only in the expression for 'go on foot')	n	n	10.1.1	552.1	0			3580
+499693	1873	Yamphu	laŋ◦gam	laŋ◦gam	friend, companion, mate, etc.	friend, companion, mate, etc.	n	n	4.4.2	552.12	0			
+499694	1873	Yamphu	lap◦khæʔ◦wa	lap◦khæʔ◦wa	wing	wing	n	n	1.5.1.3	552.13	0			757,m,s
+499695	1873	Yamphu	lap◦pr̂aŋ	lap◦pr̂aŋ	wing	wing	n	n	1.5.1.3	552.15	0			757,707
+499696	1873	Yamphu	la◦wa	la◦wa	shadow; spirit, presence of mind, soul	shadow; spirit, presence of mind, soul	n	n	1.10	552.16	0			
+499697	1873	Yamphu	læk◦ku◦ma	læk◦ku◦ma	armpit	armpit	n	n	1.5.1.2.3	552.2	0			
+499698	1873	Yamphu	læʔ◦lup	læʔ◦lup	species of frog	species of frog	n	n	2.3	552.24	0			
+499699	1873	Yamphu	læʔ◦wa	læʔ◦wa	wet	wet	adj	adj	6.6	553.02	0			
+499700	1873	Yamphu	læʔ◦wa◦si•◦si	læʔ◦wa◦si•◦si	wet from dew or rain	wet from dew or rain	adj	adj	6.6	553.03	0			
+499701	1873	Yamphu	læ•k◦pu◦jik	læ•k◦pu◦jik	worm	worm	n	n	2.2.6	553.04	0			
+499702	1873	Yamphu	læ•◦ŋa	læ•◦ŋa	testicles	testicles	n	n		553.05	0			
+499703	1873	Yamphu	lem	lem	tongue	tongue	n	n	1.3.3	553.11	0			625
+499704	1873	Yamphu	len◦da	len◦da	afternoon (i.e. time between breakfast and about four o'clock)	afternoon (i.e. time between breakfast and about four o'clock)	n	n	9.1.4	553.15	0			
+499705	1873	Yamphu	len◦da◦wæʔ	len◦da◦wæʔ	in the afternoon	in the afternoon	adv	adv	10.1.1	553.16	0			
+499706	1873	Yamphu	liŋ◦ghiʔ	liŋ◦ghiʔ	kind of bug	kind of bug	n	n	8.3.3.2.1	553.23	0			
+499707	1873	Yamphu	liʔ◦lik◦kum◦ma	liʔ◦lik◦kum◦ma	species of bird	species of bird	n	n	2.3	553.24	0			
+499708	1873	Yamphu	loʔ◦wæ	loʔ◦wæ	leech	leech	n	n	2.2.6	554.03	0			
+499709	1873	Yamphu	ma	ma	mother (bound morph)	mother (bound morph)	n	n	4.7.1	554.09	0			
+499710	1873	Yamphu	ma◦ba	ma◦ba	parents, mother and father	parents, mother and father	n	n	4.7.1	554.12	0			
+499711	1873	Yamphu	ma◦da•ŋ	ma◦da•ŋ	female animal with young	female animal with young	n	n	1.9.3	554.13	0			
+499712	1873	Yamphu	mak◦kham	mak◦kham	earth, ground, land	earth, ground, land	n	n	3.2.11	554.14	0			
+499713	1873	Yamphu	mak◦ma	mak◦ma	burn (v.i., v.t.)	to burn (v.i., v.t.)	v	v	3.2.12.1	554.15	0	dwb18		
+499714	1873	Yamphu	mak◦ma	mak◦ma	dream	to dream	v	v	1.1.4.2	554.16	0	dwb18		126,s
+499715	1873	Yamphu	mak◦mi◦wæʔ	mak◦mi◦wæʔ	in the morning	in the morning	adv	adv	10.1.1	554.17	0			6227
+499716	1873	Yamphu	mak◦mis◦sel◦la	mak◦mis◦sel◦la	early in the morning	early in the morning	adv	adv	9.1.1	554.18	0			6227
+499717	1873	Yamphu	mak◦miʔ	mak◦miʔ	morning	morning	n	n	9.1.4	554.19	0			6227
+499718	1873	Yamphu	mak◦sa	mak◦sa	son-in-law; husband of a younger sister	son-in-law; husband of a younger sister	n	n	10.1.1	554.21	0			547,m
+499719	1873	Yamphu	maŋ◦ba	maŋ◦ba	witch doctor, shaman	witch doctor, shaman	n	n	4.2.12.2	554.22	0			
+499720	1873	Yamphu	maŋ◦gai◦ma	maŋ◦gai◦ma	kind of tree (Vigna catjang)	kind of tree (Vigna catjang)	n	n	8.3.3.2.1	554.23	0			
+499721	1873	Yamphu	maŋ◦gik	maŋ◦gik	flea	flea	n	n	2.2.6	554.25	0			
+499722	1873	Yamphu	maŋ◦liŋ◦sa	maŋ◦liŋ◦sa	parasitic worm (any of the species of worms which can afflict human beings)	parasitic worm (any of the species of worms which can afflict human beings)	n	n	10.1.1	554.26	0			
+499723	1873	Yamphu	maŋ◦ma	maŋ◦ma	female shaman	female shaman	n	n	1.9.3	554.28	0			
+499724	1873	Yamphu	maŋ◦siʔ◦wa	maŋ◦siʔ◦wa	species of bee	species of bee	n	n	2.3	554.29	0			
+499725	1873	Yamphu	ma◦raŋ◦ma	ma◦raŋ◦ma	thumb (OBSOLETE)	thumb (OBSOLETE)	n	n	1.5.6.1	555.03	0			
+499726	1873	Yamphu	mar◦chu	mar◦chu	spanish pepper, red pepper, Capsicum annum	spanish pepper, red pepper, Capsicum annum	n	n	3.1.5	555.04	0			b
+499727	1873	Yamphu	mar◦chu◦wa	mar◦chu◦wa	spicy side-dish, pickles, chutney	spicy side-dish, pickles, chutney	n	n	7.1.4.4	555.05	0			
+499728	1873	Yamphu	ma◦ruʔ◦ma	ma◦ruʔ◦ma	female	female	n	n	1.9.3	555.06	0			
+499729	1873	Yamphu	ma◦yæ•k	ma◦yæ•k	term used to refer to Tibetans or Chinese	term used to refer to Tibetans or Chinese	n	n	10.1.1	555.08	0			
+499730	1873	Yamphu	maʔ◦luŋ	maʔ◦luŋ	hilltops, higher parts of the hills	hilltops, higher parts of the hills	n	n	10.1.1	555.1	0			
+499731	1873	Yamphu	maʔ◦luŋ◦raʔ◦wa	maʔ◦luŋ◦raʔ◦wa	raven	raven	n	n	2.2.4.1	555.12	0			
+499732	1873	Yamphu	maʔ◦ma	maʔ◦ma	grandmother	grandmother	n	n	4.7.1	555.13	0			
+499733	1873	Yamphu	maʔ◦niŋ	maʔ◦niŋ	middle-aged woman	middle-aged woman	n	n	1.9.4	555.14	0			
+499734	1873	Yamphu	ma•k◦ma	ma•k◦ma	moss, lichen	moss, lichen	n	n	3.1.7	555.15	0			
+499735	1873	Yamphu	ma•k◦sa	ma•k◦sa	bear	bear	n	n	2.2.3	555.16	0			
+499736	1873	Yamphu	ma•◦ma	ma•◦ma	mother, mom	mother, mom	n	n	4.7.1	555.18	0			
+499737	1873	Yamphu	ma•◦sik	ma•◦sik	lentils	lentils	n	n	3.1.4	555.22	0			
+499738	1873	Yamphu	ma•◦sik◦khæŋ	ma•◦sik◦khæŋ	lentil curry	lentil curry	n	n	3.1.4	555.23	0			
+499739	1873	Yamphu	ma•ʔ◦laŋ◦ma	ma•ʔ◦laŋ◦ma	species of bird	species of bird	n	n	2.3	555.24	0			
+499740	1873	Yamphu	maik	maik	black	black	adj	adj	9.4	555.25	0			
+499741	1873	Yamphu	mæk◦khu	mæk◦khu	smoke	smoke	n	n	3.2.12.2	555.26	0			2136,2361
+499742	1873	Yamphu	mæʔ◦lok◦ki	mæʔ◦lok◦ki	species of tree (Erythryna indica)	species of tree (Erythryna indica)	n	n	2.3	555.31	0			
+499743	1873	Yamphu	mæ•ʔ◦ma	mæ•ʔ◦ma	goat	goat	n	n	2.1.8	555.36	0			4769,m,s
+499744	1873	Yamphu	meʔ◦na◦mip◦pu◦sa	meʔ◦na◦mip◦pu◦sa	daughter	daughter	n	n	4.7.3	556.09	0			
+499745	1873	Yamphu	meʔ◦na◦miʔ	meʔ◦na◦miʔ	woman	woman	n	n	1.9.3	556.1	0			
+499746	1873	Yamphu	mi	mi	fire	fire	n	n	3.2.12.2	556.13	0			
+499747	1873	Yamphu	mi◦buʔ◦lu◦ŋa	mi◦buʔ◦lu◦ŋa	smoldering firewood	smoldering firewood	n	n	5.11.5.5	556.15	0			
+499748	1873	Yamphu	mi◦gæ◦ŋa	mi◦gæ◦ŋa	glow or warmth of a fire	glow or warmth of a fire	n	n	3.2.12.1	556.16	0			
+499749	1873	Yamphu	mi◦jæʔ◦wa	mi◦jæʔ◦wa	species of tree, Mountain ebony (Bauhenia variegata)	species of tree, Mountain ebony (Bauhenia variegata)	n	n	2.3	556.17	0			
+499750	1873	Yamphu	mi◦juʔ◦liŋ	mi◦juʔ◦liŋ	flame	flame	n	n	3.2.12.2	556.19	0			
+499751	1873	Yamphu	mik	mik	eye	eye	n	n	1.2.6	556.2	0			682
+499752	1873	Yamphu	mik◦taŋ◦ghuʔ◦wa	mik◦taŋ◦ghuʔ◦wa	eyebrow; eyelash	eyebrow; eyelash	n	n	1.2.6.6	556.22	0			682,m,m,m
+499753	1873	Yamphu	mik◦te•ʔ◦wa	mik◦te•ʔ◦wa	species of insect	species of insect	n	n	2.3	556.23	0			
+499754	1873	Yamphu	mi◦ni◦ma	mi◦ni◦ma	cat	cat	n	n	2.1.3	556.29	0			
+499755	1873	Yamphu	min◦ju◦wa	min◦ju◦wa	fly (insect)	fly (insect)	n	n	2.2.6	556.3	0			
+499756	1873	Yamphu	mi◦ra	mi◦ra	tail	tail	n	n	1.4.10.1	556.31	0			1288,m
+499757	1873	Yamphu	miʔ◦wa	miʔ◦wa	tear	tear	n	n	1.8.8.1	557.04	0			
+499758	1873	Yamphu	mu◦a	mu◦a	hawk	hawk	n	n	2.2.4.1	557.23	0			2471,m
+499759	1873	Yamphu	muk◦kun◦daik	muk◦kun◦daik	species of creeper (Mucuna monosperma OR Mucuna macrocarpa)	species of creeper (Mucuna monosperma OR Mucuna macrocarpa)	n	n	2.3	557.24	0			
+499760	1873	Yamphu	muk◦nu◦ak	muk◦nu◦ak	dirt on the body, dust or dirtiness	dirt on the body, dust or dirtiness	n	n	1.5.3.2	557.26	0			
+499761	1873	Yamphu	mun◦da	mun◦da	money	money	n	n	5.9	557.27	0			
+499762	1873	Yamphu	mun◦dri	mun◦dri	ring	ring	n	n	5.11.8.3	557.28	0			
+499763	1873	Yamphu	na	na	fish	fish	n	n	2.2.5	558.03	0			
+499764	1873	Yamphu	na	na	elder sister (bound morph)	elder sister (bound morph)	n	n	4.7.1	558.04	0			
+499765	1873	Yamphu	na◦jik	na◦jik	face	face	n	n	1.2.5	558.07	0			
+499766	1873	Yamphu	nak◦poŋ	nak◦poŋ	fifty	fifty	num	num	9.9	558.11	0			
+499767	1873	Yamphu	nam	nam	sun, sunshine	sun, sunshine	n	n	3.2.10	558.13	0			2484
+499768	1873	Yamphu	nam◦ba	nam◦ba	father-in-law	father-in-law	n	n	4.7.4	558.14	0			
+499769	1873	Yamphu	nan◦bhu	nan◦bhu	large stomach of herbivores	the large stomach of herbivores	n	n	9.7.1	558.15	0	dwb1		
+499770	1873	Yamphu	nam◦bhuŋ◦la	nam◦bhuŋ◦la	woods, forest	woods, forest	n	n	3.2.5	558.16	0			
+499771	1873	Yamphu	nam◦daŋ	nam◦daŋ	cheek	cheek	n	n	1.2.5.2	558.17	0			
+499772	1873	Yamphu	nam◦dræʔ◦wa	nam◦dræʔ◦wa	bolt of lightning	bolt of lightning	n	n	5.11.9	558.18	0			2484,m,m
+499773	1873	Yamphu	nam◦druŋ◦ma	nam◦druŋ◦ma	firmament, sky	firmament, sky	n	n	3.2.2	558.19	0			2484,m,m
+499774	1873	Yamphu	nam◦ji◦riʔ◦ha	nam◦ji◦riʔ◦ha	shade	shade	n	n	3.2.10	558.2	0			2484,m,m
+499775	1873	Yamphu	nam◦leʔ◦lum	nam◦leʔ◦lum	noon (time when sun is at its peak)	noon (time when sun is at its peak)	n	n	9.1.4	558.21	0			2484,m,m
+499776	1873	Yamphu	nam◦ma	nam◦ma	next year	next year	n	n	9.9	558.22	0			
+499777	1873	Yamphu	nam◦ma	nam◦ma	mother-in-law	mother-in-law	n	n	4.7.4	558.23	0			
+499778	1873	Yamphu	nam◦ma	nam◦ma	smell, to stink	to smell, to stink	v	v	1.2.8.5	558.24	0	dwb18		1415
+499779	1873	Yamphu	nam◦ma	nam◦ma	singe, to brand, to cauterize a wound	to singe, to brand, to cauterize a wound	v	v	3.2.12.1	558.25	0	dwb18		
+499780	1873	Yamphu	nam◦mi◦ma	nam◦mi◦ma	species of bird	species of bird	n	n	2.3	558.26	0			
+499781	1873	Yamphu	nam◦miʔ	nam◦miʔ	daughter-in-law; wife of a younger brother	daughter-in-law; wife of a younger brother	n	n	10.1.1	558.27	0			2486,m
+499782	1873	Yamphu	nam◦ni◦ya◦ma	nam◦ni◦ya◦ma	small species of bee	small species of bee	n	n	9.7.2	558.29	0			
+499783	1873	Yamphu	nam◦se◦læk◦pa	nam◦se◦læk◦pa	sheet lightning	sheet lightning	n	n	5.11.9.4	558.3	0			2484,m,m,m
+499784	1873	Yamphu	na◦nam◦ma	na◦nam◦ma	wife or husband's elder sister; elder brother's wife's elder sister	wife or husband's elder sister; elder brother's wife's elder sister	n	n	1.5.3.2	558.32	0			
+499785	1873	Yamphu	naŋ	naŋ	snow	snow	n	n	3.2.1	558.33	0			
+499786	1873	Yamphu	naŋ-khi	naŋ-khi	species of edible root (Dioscorea sagittata)	species of edible root (Dioscorea sagittata)	n	n	2.3	558.34	0			
+499787	1873	Yamphu	naŋ◦ma	naŋ◦ma	high tide, to have swollen with water	to be high tide, to have swollen with water	be v.	v	10.1.1	558.36	0	dwb11		
+499788	1873	Yamphu	nap◦ma	nap◦ma	son or daughter's mother-in-law	son or daughter's mother-in-law	n	n	4.7.3	559.03	0			
+499789	1873	Yamphu	nap◦pa	nap◦pa	son or daughter's father-in-law	son or daughter's father-in-law	n	n	4.7.3	559.05	0			
+499790	1873	Yamphu	nap◦pruŋ◦gi	nap◦pruŋ◦gi	species of tree	species of tree	n	n	2.3	559.06	0			
+499791	1873	Yamphu	na◦ʔu	na◦ʔu	nose	nose	n	n	1.2.8	559.07	0			803,m
+499792	1873	Yamphu	na◦ʔum	na◦ʔum	five	five	num	num	9.9	559.08	0			1306
+499793	1873	Yamphu	na•◦na	na•◦na	elder sister	elder sister	n	n	4.7.1	559.12	0			
+499794	1873	Yamphu	na•ʔ◦la	na•ʔ◦la	buttocks	buttocks	n	n	1.4.10	559.15	0			
+499795	1873	Yamphu	na•ʔ◦wa	na•ʔ◦wa	snot	snot	n	n	1.8.2	559.16	0			805,m
+499796	1873	Yamphu	næ◦ʔæk	næ◦ʔæk	ear	ear	n	n	1.2.7	559.21	0			811,m
+499797	1873	Yamphu	net◦ti◦yaŋ◦ba	net◦ti◦yaŋ◦ba	wife or husband's younger brother	wife or husband's younger brother	n	n	4.7.4	559.32	0			
+499798	1873	Yamphu	net◦ti◦yaŋ◦ma	net◦ti◦yaŋ◦ma	wife or husband's younger sister	wife or husband's younger sister	n	n	4.7.4	559.33	0			
+499799	1873	Yamphu	ne•◦ma	ne•◦ma	cut down, to chop away	to cut down, to chop away	v	v	6.9.3	560.04	0	dwb18		
+499800	1873	Yamphu	nin◦da◦ŋa	nin◦da◦ŋa	head	head	n	n	1.2.1	560.08	0			
+499801	1873	Yamphu	niŋ	niŋ	year (bound morph)	year (bound morph)	n	n	9.1.2	560.1	0			2501
+499802	1873	Yamphu	ni◦ŋi	ni◦ŋi	wife of mother's brother	wife of mother's brother	n	n	1.5.3.2	560.13	0			
+499803	1873	Yamphu	ni◦sa	ni◦sa	younger sibling	younger sibling	n	n		560.14	0			
+499804	1873	Yamphu	nit◦ci	nit◦ci	two	two	num	num	9.9	560.15	0			2504
+499805	1873	Yamphu	ni•◦boŋ	ni•◦boŋ	twenty	twenty	num	num	9.9	560.17	0			
+499806	1873	Yamphu	ni•◦ma	ni•◦ma	shine (said of sun or moon)	to shine (said of sun or moon)	v	v	1.1.2.1	560.21	0	dwb18		
+499807	1873	Yamphu	nu◦a	nu◦a	breast(s)	breast(s)	n	n	1.4.4.3	561.01	0			
+499808	1873	Yamphu	nuk◦ci	nuk◦ci	nine	nine	num	num	9.9	561.02	0			
+499809	1873	Yamphu	ŋæ•◦ŋa	ŋæ•◦ŋa	species of fish	species of fish	n	n	2.3	561.11	0			m,1455
+499810	1873	Yamphu	ok◦ceʔ◦lem◦ba	ok◦ceʔ◦lem◦ba	species of bird	species of bird	n	n	2.3	561.17	0			
+499811	1873	Yamphu	ok◦ce•p◦phu	ok◦ce•p◦phu	species of tree	species of tree	n	n	2.3	561.18	0			
+499812	1873	Yamphu	ok◦ci◦ba	ok◦ci◦ba	owl	owl	n	n	2.2.4.1	561.19	0			
+499813	1873	Yamphu	ok◦krep◦pa	ok◦krep◦pa	belch, burp	belch, burp	n	n	1.8.3.4	561.2	0			
+499814	1873	Yamphu	ok◦naik	ok◦naik	navel	navel	n	n	1.9.4	561.26	0			
+499815	1873	Yamphu	ok◦thik	ok◦thik	tadpole	tadpole	n	n	2.1.6	561.28	0			
+499816	1873	Yamphu	om	om	hail	hail	n	n	3.2.1	561.29	0			
+499817	1873	Yamphu	o◦ŋæk	o◦ŋæk	child	child	n	n	1.5.3.2	561.34	0			
+499818	1873	Yamphu	op◦priŋ◦ga	op◦priŋ◦ga	species of insect	species of insect	n	n	2.3	562.08	0			
+499819	1873	Yamphu	o◦sræk◦ma	o◦sræk◦ma	big, flat rock	big, flat rock	n	n	9.7.2	562.11	0			
+499820	1873	Yamphu	oʔ◦ma•◦si	oʔ◦ma•◦si	eggplant, aubergine	eggplant, aubergine	n	n	3.1.5	562.13	0			
+499821	1873	Yamphu	oʔ◦wa◦ba	oʔ◦wa◦ba	species of insect (perhaps a kind of weevil?)	species of insect (perhaps a kind of weevil?)	n	n	10.1.1	562.14	0			
+499822	1873	Yamphu	o•◦bræk	o•◦bræk	big flat rock (on which grain is dried)	big flat rock (on which grain is dried)	n	n	9.7.2	562.16	0			p,2166
+499823	1873	Yamphu	pa◦joʔ◦wa	pa◦joʔ◦wa	male animal	male animal	n	n	1.9.6.1	562.25	0			
+499824	1873	Yamphu	pak	pak	kind of bamboo	kind of bamboo	n	n	8.3.3.2.1	562.26	0			
+499825	1873	Yamphu	pam◦la	pam◦la	species of tree	species of tree	n	n	2.3	563.03	0			
+499826	1873	Yamphu	paŋ◦gi◦ya	paŋ◦gi◦ya	millet	millet	n	n	1.5.3.2	563.06	0			
+499827	1873	Yamphu	paŋ◦laŋ	paŋ◦laŋ	species of edible root found in the jungle	species of edible root found in the jungle	n	n	10.1.1	563.07	0			
+499828	1873	Yamphu	pap◦pa	pap◦pa	grandfather	grandfather	n	n	4.7.1	563.16	0			
+499829	1873	Yamphu	pa◦sa	pa◦sa	child, offspring	child, offspring	n	n	1.5.3.2	563.21	0			
+499830	1873	Yamphu	pa◦sa◦yak◦ma◦ra	pa◦sa◦yak◦ma◦ra	placenta	placenta	n	n		563.23	0			
+499831	1873	Yamphu	pas◦taŋ◦ma	pas◦taŋ◦ma	woman who has borne children	woman who has borne children	n	n	1.9.3	563.26	0			
+499832	1873	Yamphu	pat◦ta◦li◦ya	pat◦ta◦li◦ya	kind of edible root	kind of edible root	n	n	8.3.3.2.1	563.27	0			
+499833	1873	Yamphu	pa◦ya•k	pa◦ya•k	toad	toad	n	n	2.1.6.2	563.28	0			
+499834	1873	Yamphu	pa•◦ba	pa•◦ba	father	father	n	n	4.7.1	563.29	0			
+499835	1873	Yamphu	pæ•◦bæʔ◦wa	pæ•◦bæʔ◦wa	tiny kind of frog	a tiny kind of frog	n	n	7.1.5.1	564.16	0	dwb5		
+499836	1873	Yamphu	pæ•k◦pu◦liŋ	pæ•k◦pu◦liŋ	species of tree (obsolete name for pæ*ssi)	species of tree (obsolete name for pæ*ssi)	n	n	2.3	564.18	0			
+499837	1873	Yamphu	pæ•s◦si	pæ•s◦si	species of tree (Ficus lacor)	species of tree (Ficus lacor)	n	n	2.3	564.19	0			
+499838	1873	Yamphu	pe◦ro•t◦ti	pe◦ro•t◦ti	guava tree (Psidium guajava)	guava tree (Psidium guajava)	n	n	3.1.5	564.25	0			
+499839	1873	Yamphu	peʔ◦la	peʔ◦la	neck, throat	neck, throat	n	n	1.4.2	564.27	0			
+499840	1873	Yamphu	peʔ◦la◦jwæ•k◦ma	peʔ◦la◦jwæ•k◦ma	species of grasshopper	species of grasshopper	n	n	2.3	564.28	0			
+499841	1873	Yamphu	pe•◦ma	pe•◦ma	fly	to fly	v	v	2.2.6	565.02	0	dwb18		
+499842	1873	Yamphu	pe•◦swa◦ra◦jik◦pa	pe•◦swa◦ra◦jik◦pa	yellow	yellow	adj	adj	9.4	565.03	0			
+499843	1873	Yamphu	pik	pik	cow	cow	n	n	2.1.2	565.08	0			
+499844	1873	Yamphu	pik◦pa◦sa	pik◦pa◦sa	calf	calf	n	n	1.5.7	565.1	0			
+499845	1873	Yamphu	pim◦bhi	pim◦bhi	horsefly	horsefly	n	n	2.2.6	565.13	0			
+499846	1873	Yamphu	pin◦dum◦si	pin◦dum◦si	species of tree, Nepalese hog plum (Spondias axillaris)	species of tree, Nepalese hog plum (Spondias axillaris)	n	n	2.3	565.15	0			
+499847	1873	Yamphu	pis◦sa	pis◦sa	children, youngsters	children, youngsters	n	n	4.7.3	565.18	0			
+499848	1873	Yamphu	pit◦toŋ◦lo◦ʔa	pit◦toŋ◦lo◦ʔa	species of bird	species of bird	n	n	2.3	565.2	0			
+499849	1873	Yamphu	poik	poik	cucumber	cucumber	n	n	3.1.5	565.24	0			
+499850	1873	Yamphu	pok◦ma	pok◦ma	(of a fire or light) to shine, give light, glisten, twinkle	(of a fire or light) to shine, give light, glisten, twinkle	v	v	7.1.11.1	565.25	0			
+499851	1873	Yamphu	pu◦baŋ	pu◦baŋ	monkey	monkey	n	n	2.1.9	566.12	0			
+499852	1873	Yamphu	pu◦daŋ	pu◦daŋ	plant	plant	n	n	3.1.10	566.13	0			
+499853	1873	Yamphu	pu◦jik	pu◦jik	bug, insect, or worm	bug, insect, or worm	n	n	2.2.6	566.14	0			
+499854	1873	Yamphu	pu◦sa	pu◦sa	child, offspring (bound morph, only used with pronominal prefixes	child, offspring (bound morph, only used with pronominal prefixes	n	n	1.5.3.2	567.01	0			
+499855	1873	Yamphu	pu◦sæ•ʔ	pu◦sæ•ʔ	snake	snake	n	n	2.1.6.1	567.02	0			2623,m
+499856	1873	Yamphu	pu•k◦sa	pu•k◦sa	species of deer	species of deer	n	n	2.3	567.04	0			
+499857	1873	Yamphu	pha◦na•◦si	pha◦na•◦si	jack-fruit	jack-fruit	n	n	3.1.5	567.07	0			
+499858	1873	Yamphu	phæk◦kok◦mæŋ◦gok	phæk◦kok◦mæŋ◦gok	species of bird	species of bird	n	n	2.3	567.15	0			
+499859	1873	Yamphu	phæk◦saŋ◦ga	phæk◦saŋ◦ga	species of insect	species of insect	n	n	2.3	567.17	0			
+499860	1873	Yamphu	phæŋ◦loʔ◦wa	phæŋ◦loʔ◦wa	species of bird	species of bird	n	n	2.3	567.23	0			
+499861	1873	Yamphu	phæ◦ræŋ	phæ◦ræŋ	steep place	steep place	n	n	7.1.5.3	568.03	0			
+499862	1873	Yamphu	phæ◦ʔi◦riŋ	phæ◦ʔi◦riŋ	small basket for carrying fish	small basket for carrying fish	n	n	9.7.2	568.04	0			
+499863	1873	Yamphu	phi◦ba	phi◦ba	bugs or worms found in dung or spoiled food	bugs or worms found in dung or spoiled food	n	n	2.2.6	568.14	0			
+499864	1873	Yamphu	phoʔ◦wa	phoʔ◦wa	flower of the banana tree; penis	flower of the banana tree; penis	n	n	3.1.4	569.07	0			
+499865	1873	Yamphu	phu◦ru◦ma	phu◦ru◦ma	kind of bug	kind of bug	n	n	8.3.3.2.1	569.11	0			
+499866	1873	Yamphu	raŋ◦boʔ◦wa	raŋ◦boʔ◦wa	calf and shin, i.e. the part of the leg from knee to ankle	calf and shin, i.e. the part of the leg from knee to ankle	n	n	10.1.1	570.03	0			
+499867	1873	Yamphu	raŋ◦ghaʔ◦wa	raŋ◦ghaʔ◦wa	chapped skin of the foot	chapped skin of the foot	n	n	1.5.2	570.04	0			
+499868	1873	Yamphu	raŋ◦ma	raŋ◦ma	shine fiercely, shine to the exclusion of rain (only with 'nam' [sun] as subject)	to shine fiercely, shine to the exclusion of rain (only with 'nam' [sun] as subject)	v	v	10.1.1	570.05	0	dwb18		
+499869	1873	Yamphu	raŋ◦mip◦pa	raŋ◦mip◦pa	widower	widower	n	n	4.2.8	570.06	0			
+499870	1873	Yamphu	raŋ◦miʔ	raŋ◦miʔ	young woman without children	young woman without children	n	n	7.1.8.3	570.07	0			
+499871	1873	Yamphu	raŋ◦miʔ◦ma	raŋ◦miʔ◦ma	widow	widow	n	n	4.2.8	570.08	0			m,4882,m
+499872	1873	Yamphu	ra•◦plaŋ◦ma	ra•◦plaŋ◦ma	kind of large frog	kind of large frog	n	n	8.3.3.2.1	570.12	0			
+499873	1873	Yamphu	rik◦na	rik◦na	species of water leech	species of water leech	n	n	2.3	571.16	0			
+499874	1873	Yamphu	rik◦poŋ	rik◦poŋ	forty	forty	num	num	9.9	571.17	0			
+499875	1873	Yamphu	riŋ	riŋ	sheaf of rice straw	sheaf of rice straw	n	n	3.1.8	571.21	0			
+499876	1873	Yamphu	ri◦ʔum	ri◦ʔum	four	four	num	num	9.9	571.25	0			
+499877	1873	Yamphu	ri•p◦si	ri•p◦si	mango	mango	n	n		572.02	0			
+499878	1873	Yamphu	ri•ʔ◦ma	ri•ʔ◦ma	plant (seedlings)	to plant (seedlings)	v	v	3.1.10	572.04	0	dwb18		
+499879	1873	Yamphu	rum◦muk	rum◦muk	cave	cave	n	n	3.2.7	572.27	0			1269,164
+499880	1873	Yamphu	ruŋ◦daŋ	ruŋ◦daŋ	"cave, larger than a ""rummuk"""	"cave, larger than a ""rummuk"""	n	n	3.2.7	572.28	0			1269,822
+499881	1873	Yamphu	run◦ji◦ra	run◦ji◦ra	stones and earth	stones and earth	n	n	3.2.9	573.02	0			
+499882	1873	Yamphu	ruŋ◦ma	ruŋ◦ma	stomach	stomach	n	n	1.7.6	573.03	0			
+499883	1873	Yamphu	ruŋ◦ma◦ju◦wa	ruŋ◦ma◦ju◦wa	liver	liver	n	n	1.7.3	573.06	0			
+499884	1873	Yamphu	ruʔ◦mi	ruʔ◦mi	earthquake	earthquake	n	n	3.2.6	573.08	0			
+499885	1873	Yamphu	sa	sa	meat, flesh	meat, flesh	n	n	1.1.1.1	573.1	0			34
+499886	1873	Yamphu	sa◦gok◦nak◦pa	sa◦gok◦nak◦pa	species of mushroom	species of mushroom	n	n	2.3	573.111	0			
+499887	1873	Yamphu	sa◦jaŋ	sa◦jaŋ	horn	horn	n	n	1.2.2	573.12	0			
+499888	1873	Yamphu	sak◦caŋ	sak◦caŋ	money	money	n	n	5.9	573.14	0			
+499889	1873	Yamphu	sak◦tok◦kraŋ	sak◦tok◦kraŋ	stick insect	stick insect	n	n	3.1.2	573.21	0			
+499890	1873	Yamphu	sam◦ba◦ʔuŋ	sam◦ba◦ʔuŋ	rose	rose	n	n	3.1.4	573.25	0			
+499891	1873	Yamphu	sa◦nuŋ◦ba	sa◦nuŋ◦ba	father and child	father and child	n	n	4.7.1	573.3	0			
+499892	1873	Yamphu	sa◦nuŋ◦laiʔ◦ma	sa◦nuŋ◦laiʔ◦ma	elder and younger wife	elder and younger wife	n	n	4.7.1	573.31	0			
+499893	1873	Yamphu	sa◦nuŋ◦ma	sa◦nuŋ◦ma	mother and child	mother and child	n	n	4.7.1	573.32	0			
+499894	1873	Yamphu	sa◦nuŋ◦na	sa◦nuŋ◦na	elder sister and younger sibling	elder sister and younger sibling	n	n	4.7.2	574.01	0			
+499895	1873	Yamphu	sa◦nuŋ◦ʔu	sa◦nuŋ◦ʔu	elder brother and younger sibling	elder brother and younger sibling	n	n	4.7.1	574.02	0			
+499896	1873	Yamphu	sa◦ŋa	sa◦ŋa	buffalo	buffalo	n	n	2.1.2	574.03	0			34,2538
+499897	1873	Yamphu	sa◦ŋap◦sa	sa◦ŋap◦sa	buffalo calf	buffalo calf	n	n	2.1.2	574.04	0			
+499898	1873	Yamphu	saŋ◦ge	saŋ◦ge	star	star	n	n	3.2.2	574.06	0			
+499899	1873	Yamphu	saŋ◦ge◦bu◦sæ•ʔ	saŋ◦ge◦bu◦sæ•ʔ	species of snake	species of snake	n	n	2.3	574.07	0			m,m,2623,m
+499900	1873	Yamphu	sap◦ci◦du◦ba	sap◦ci◦du◦ba	great-great-grandfather	great-great-grandfather	n	n	9.6.1	574.13	0			
+499901	1873	Yamphu	sap◦ci◦du◦ma	sap◦ci◦du◦ma	great-great-grandmother	great-great-grandmother	n	n	9.6.1	574.14	0			
+499902	1873	Yamphu	sa◦raŋ	sa◦raŋ	lower part of leg, including the foot	lower part of leg, including the foot	n	n		574.19	0			
+499903	1873	Yamphu	sa◦raŋ◦ghæt◦cæʔ◦wa	sa◦raŋ◦ghæt◦cæʔ◦wa	toes	toes	n	n	1.5.6	574.2	0			
+499904	1873	Yamphu	sa◦ruk◦ma	sa◦ruk◦ma	childless woman	childless woman	n	n	1.9.3	574.21	0			
+499905	1873	Yamphu	sa◦ruk◦pa	sa◦ruk◦pa	childless man	childless man	n	n	1.9.6.1	574.22	0			
+499906	1873	Yamphu	sa◦sik	sa◦sik	fat	fat	n	n	1.6.4	574.24	0			
+499907	1873	Yamphu	sa◦sok	sa◦sok	entrails	entrails	n	n	1.7.7	574.25	0			
+499908	1873	Yamphu	sa◦srip◦pa	sa◦srip◦pa	wart	wart	n	n	1.6.5.3	574.26	0			
+499909	1873	Yamphu	saʔ◦wa	saʔ◦wa	species of bee or wasp	species of bee or wasp	n	n	2.2.6	574.27	0			
+499910	1873	Yamphu	sa•◦ma	sa•◦ma	breathe	to breathe	v	v	1.1.2.2	574.29	0	dwb18		
+499911	1873	Yamphu	sa•ʔ◦wa	sa•ʔ◦wa	leafy vegetables	leafy vegetables	n	n	3.1.2	574.33	0			
+499912	1873	Yamphu	sauk	sauk	skin	skin	n	n	1.6.5	574.35	0			
+499913	1873	Yamphu	sæk◦kæʔ◦lem◦ma	sæk◦kæʔ◦lem◦ma	species of cricket	species of cricket	n	n	2.3	574.38	0			
+499914	1873	Yamphu	sæk◦koʔ◦wa	sæk◦koʔ◦wa	bone	bone	n	n	1.6.3	575.01	0			
+499915	1873	Yamphu	sæk◦kum◦bu	sæk◦kum◦bu	species of tree (Aconogonum molle)	species of tree (Aconogonum molle)	n	n	2.3	575.02	0			
+499916	1873	Yamphu	sæŋ◦ma	sæŋ◦ma	mother's younger sister	mother's younger sister	n	n	4.7.1	575.07	0			
+499917	1873	Yamphu	sæʔ◦li	sæʔ◦li	penis	penis	n	n		575.11	0			
+499918	1873	Yamphu	sæʔ◦na	sæʔ◦na	species of mushroom	species of mushroom	n	n	2.3	575.13	0			
+499919	1873	Yamphu	se◦du◦ba	se◦du◦ba	diarrhea	diarrhea	n	n	1.8.5	575.15	0			
+499920	1873	Yamphu	se◦gu◦ma	se◦gu◦ma	urine	urine	n	n	1.8.4	575.16	0			650,m,s
+499921	1873	Yamphu	sem◦dum◦ma	sem◦dum◦ma	fingernail	fingernail	n	n	1.5.10.1	575.19	0			
+499922	1873	Yamphu	sem◦la	sem◦la	voice	voice	n	n	8.5.5	575.21	0			
+499923	1873	Yamphu	se•◦bræk	se•◦bræk	thigh	thigh	n	n	1.5.7.1	576.07	0			
+499924	1873	Yamphu	se•◦bhu	se•◦bhu	species of tree (Thysanolaena maxima)	species of tree (Thysanolaena maxima)	n	n	2.3	576.08	0			
+499925	1873	Yamphu	si◦giʔ	si◦giʔ	species of locust	species of locust	n	n	2.3	576.16	0			
+499926	1873	Yamphu	sik	sik	louse	louse	n	n	2.2.6	576.17	0			
+499927	1873	Yamphu	sik◦ca	sik◦ca	poison	poison	n	n	6.4	576.18	0			
+499928	1873	Yamphu	si◦ma	si◦ma	wife of father's younger brother	wife of father's younger brother	n	n	1.5.3.2	576.21	0			
+499929	1873	Yamphu	si◦ŋak	si◦ŋak	large leaf, as of the sal or Indian chestnut trees	large leaf, as of the sal or Indian chestnut trees	n	n	10.0	577.09	0			
+499930	1873	Yamphu	siŋ◦bu	siŋ◦bu	tree; tree trunk	tree; tree trunk	n	n	3.1.2	577.1	0			2658,m
+499931	1873	Yamphu	siŋ◦ji◦ra	siŋ◦ji◦ra	wood and leaves	wood and leaves	n	n	3.1.2	577.12	0			2658,m,m
+499932	1873	Yamphu	siʔ◦læŋ◦græʔ◦ma	siʔ◦læŋ◦græʔ◦ma	cockroach	cockroach	n	n	2.2.6	577.28	0			
+499933	1873	Yamphu	siʔ◦lik	siʔ◦lik	bed-bug	bed-bug	n	n	1.5.3.2	577.29	0			
+499934	1873	Yamphu	siʔ◦nu◦ma	siʔ◦nu◦ma	mouse or rat	mouse or rat	n	n	2.1.1	578.01	0			
+499935	1873	Yamphu	si•◦gum◦ba	si•◦gum◦ba	fox	fox	n	n	2.1.11	578.02	0			
+499936	1873	Yamphu	si•ʔ◦wa	si•ʔ◦wa	dew	dew	n	n		578.18	0			59,m
+499937	1873	Yamphu	so◦bhiʔ◦wa	so◦bhiʔ◦wa	species of bird	species of bird	n	n	2.3	578.2	0			
+499938	1873	Yamphu	sok◦khu◦ma	sok◦khu◦ma	stinging nettle (Urtica dioica)	stinging nettle (Urtica dioica)	n	n	2.4.2	578.23	0			
+499939	1873	Yamphu	som	som	lungs	lungs	n	n	1.7.2	579.04	0			
+499940	1873	Yamphu	so◦ŋa	so◦ŋa	bird	bird	n	n	2.2.4	579.06	0			
+499941	1873	Yamphu	so◦ŋa◦ra	so◦ŋa◦ra	millet field	millet field	n	n	1.5.3.2	579.07	0			
+499942	1873	Yamphu	su◦i◦ma	su◦i◦ma	kind of bug	kind of bug	n	n	8.3.3.2.1	579.22	0			
+499943	1873	Yamphu	sum◦boŋ	sum◦boŋ	thirty	thirty	num	num	9.9	579.27	0			2666
+499944	1873	Yamphu	sum◦ji	sum◦ji	three	three	num	num	9.9	579.28	0			2666
+499945	1873	Yamphu	sum◦mak	sum◦mak	large mortar, made from a round, hollowed-out stone or log	large mortar, made from a round, hollowed-out stone or log	n	n	9.7.1	579.3	0			2742,m
+499946	1873	Yamphu	sum◦rik	sum◦rik	loins, waist	loins, waist	n	n	1.4.9	579.31	0			
+499947	1873	Yamphu	suŋ◦ma◦ra	suŋ◦ma◦ra	mugwort (Artemisia vulgaris)	mugwort (Artemisia vulgaris)	n	n		580.01	0			
+499948	1873	Yamphu	taŋ	taŋ	hair on the head	hair on the head	n	n	1.2.3	580.25	0			371
+499949	1873	Yamphu	taŋ-thrup◦ma	taŋ-thrup◦ma	lock of hair, tuft of hair	lock of hair, tuft of hair	n	n	1.2.3	580.26	0			
+499950	1873	Yamphu	taŋ◦baŋ	taŋ◦baŋ	relative	relative	n	n	4.7.5	581.01	0			
+499951	1873	Yamphu	taŋ◦na◦si	taŋ◦na◦si	brains	brains	n	n	1.2.4	581.04	0			
+499952	1873	Yamphu	tæk◦pra	tæk◦pra	penis	penis	n	n		581.17	0			
+499953	1873	Yamphu	tet◦tu◦ma	tet◦tu◦ma	vulva	vulva	n	n		582.08	0			
+499954	1873	Yamphu	tok◦ma	tok◦ma	congeal, freeze, become solid	to congeal, freeze, become solid	v	v	9.5	583.16	0	dwb18		
+499955	1873	Yamphu	tok◦tok◦ma	tok◦tok◦ma	big rock on which one can sit	big rock on which one can sit	n	n	9.7.2	583.2	0			
+499956	1873	Yamphu	tom◦ma	tom◦ma	pond; well; deep part in a river or stream, pool	pond; well; deep part in a river or stream, pool	n	n	3.2.3	583.22	0			
+499957	1873	Yamphu	to◦ŋa◦ra	to◦ŋa◦ra	stick	stick	n	n	3.1.2	584.01	0			
+499958	1873	Yamphu	tu◦ba	tu◦ba	grandfather	grandfather	n	n	4.7.1	585.02	0			
+499959	1873	Yamphu	tu◦dak	tu◦dak	species of fish	species of fish	n	n	2.3	585.03	0			
+499960	1873	Yamphu	tu◦dhu	tu◦dhu	milk	milk	n	n		585.05	0			
+499961	1873	Yamphu	tu◦ma	tu◦ma	grandmother	grandmother	n	n	4.7.1	585.09	0			
+499962	1873	Yamphu	tum◦ruk	tum◦ruk	knee	knee	n	n	1.5.8.4	585.14	0			439,m
+499963	1873	Yamphu	tum◦mi	tum◦mi	first-born	first-born	n	n	4.2.11	585.13	0			
+499964	1873	Yamphu	tuŋ◦daŋ◦gi	tuŋ◦daŋ◦gi	species of rodent	species of rodent	n	n	2.3	585.15	0			
+499965	1873	Yamphu	tuŋ◦griŋ◦ba	tuŋ◦griŋ◦ba	kind of bug which lives in bamboo	kind of bug which lives in bamboo	n	n	10.1.1	585.17	0			
+499966	1873	Yamphu	tu◦ru◦wa	tu◦ru◦wa	brow, forehead	brow, forehead	n	n	1.5.3.1	585.23	0			
+499967	1873	Yamphu	tu•ŋ◦ghu	tu•ŋ◦ghu	species of monkey	species of monkey	n	n	2.3	585.26	0			
+499968	1873	Yamphu	tu•◦sa	tu•◦sa	child born out of wedlock, illegitimate child	child born out of wedlock, illegitimate child	n	n	1.5.3.2	585.27	0			
+499969	1873	Yamphu	tu•s◦mam◦ma	tu•s◦mam◦ma	mother of an illegitimate child	mother of an illegitimate child	n	n	4.7.1	585.28	0			
+499970	1873	Yamphu	thaŋ◦gem◦ba	thaŋ◦gem◦ba	species of bird	species of bird	n	n	2.3	586.06	0			
+499971	1873	Yamphu	thap◦pa	thap◦pa	old man; husband	old man; husband	n	n	7.1.8.3	586.08	0			
+499972	1873	Yamphu	thar◦kum◦ba	thar◦kum◦ba	squirrel	squirrel	n	n	2.1.1	586.1	0			
+499973	1873	Yamphu	thaʔ◦ma	thaʔ◦ma	old woman; wife	old woman; wife	n	n	7.1.8.3	586.11	0			
+499974	1873	Yamphu	thon◦dro	thon◦dro	pit, hollow place	pit, hollow place	n	n	3.1.2	587.09	0			
+499975	1873	Yamphu	uk◦cuŋ◦græk	uk◦cuŋ◦græk	naked	naked	adj	adj	1.1.1	588.02	0			
+499976	1873	Yamphu	u◦nam◦ba	u◦nam◦ba	wife or husband's elder brother; elder brother's wife's elder brother	wife or husband's elder brother; elder brother's wife's elder brother	n	n	1.5.3.2	588.12	0			
+499977	1873	Yamphu	uŋ	uŋ	flower	flower	n	n	3.1.4	588.13	0			
+499978	1873	Yamphu	uŋ◦bhu	uŋ◦bhu	species of tree, Nepal cherry tree (Prunus cerasoides)	species of tree, Nepal cherry tree (Prunus cerasoides)	n	n	3.1.2	588.14	0			
+499979	1873	Yamphu	us◦ræ•k◦si	us◦ræ•k◦si	species of tree with sour edible fruit, Chinese sumac (Rhus javanica)	species of tree with sour edible fruit, Chinese sumac (Rhus javanica)	n	n	10.1.1	588.22	0			
+499980	1873	Yamphu	u•p◦ma	u•p◦ma	light, burn	to light, burn	v	v	7.1.11.1	589.06	0	dwb18		
+499981	1873	Yamphu	u•p◦mik	u•p◦mik	large firefly	large firefly	n	n	9.7.1	589.07	0			
+499982	1873	Yamphu	wa	wa	chicken	chicken	n	n	2.1.10	589.1	0			1603
+499983	1873	Yamphu	wa◦di◦haŋ◦ma	wa◦di◦haŋ◦ma	kind of herb which is added to dough when making leaven	kind of herb which is added to dough when making leaven	n	n	10.5.3	589.12	0			
+499984	1873	Yamphu	wa◦gi◦ya	wa◦gi◦ya	tomorrow	tomorrow	adv	adv	9.1.3	589.15	0			
+499985	1873	Yamphu	wa◦jik◦ci◦ba	wa◦jik◦ci◦ba	mole	mole	n	n	2.2.7	589.21	0			
+499986	1873	Yamphu	wa◦jok◦ma	wa◦jok◦ma	water, usually more specifically pool, pond, lake, tank, sea	water, usually more specifically pool, pond, lake, tank, sea	n	n	3.2.3	589.23	0			
+499987	1873	Yamphu	wa◦ma◦da•ŋ	wa◦ma◦da•ŋ	hen with little chicks	hen with little chicks	n	n	2.1.10	589.3	0			
+499988	1873	Yamphu	wap◦sa	wap◦sa	chick	chick	n	n	2.1.10	590.06	0			
+499989	1873	Yamphu	wa◦ʔiŋ	wa◦ʔiŋ	egg	egg	n	n		590.22	0			1603,m
+499990	1873	Yamphu	wa◦ʔiŋ◦ji	wa◦ʔiŋ◦ji	balls, testicles	balls, testicles	n	n	9.7.1	590.22	0			
+499991	1873	Yamphu	wa•◦wa	wa•◦wa	elder brother	elder brother	n	n	4.7.1	591.06	0			
+499992	1873	Yamphu	wai◦muʔ	wai◦muʔ	species of chestnut tree (Castonopsis tribuloides)	species of chestnut tree (Castonopsis tribuloides)	n	n	2.3	591.09	0			
+499993	1873	Yamphu	wai◦riŋ◦ga	wai◦riŋ◦ga	kind of bug that lives in trees	kind of bug that lives in trees	n	n	10.1.1	591.1	0			
+499994	1873	Yamphu	wai◦si	wai◦si	chestnut	chestnut	n	n	3.1.4	591.11	0			
+499995	1873	Yamphu	wen◦ja	wen◦ja	boy, youth, young guy	boy, youth, young guy	n	n	1.9.6.1	591.26	0			
+499996	1873	Yamphu	ya	ya	face	face	n	n	1.2.5	592.04	0			
+499997	1873	Yamphu	ya◦bræʔ◦wa	ya◦bræʔ◦wa	lower lip	lower lip	n	n		592.05	0			
+499998	1873	Yamphu	ya◦buk	ya◦buk	mouth; opening, entrance	mouth; opening, entrance	n	n	1.3.1	592.06	0			
+499999	1873	Yamphu	ya◦buk◦khup◦ma	ya◦buk◦khup◦ma	beak of a bird	beak of a bird	n	n	1.3.1.2	592.07	0			
+500000	1873	Yamphu	yak◦kha◦ni	yak◦kha◦ni	young, unmarried woman	young, unmarried woman	n	n	7.1.8.3	592.13	0			
+500001	1873	Yamphu	yak◦si	yak◦si	species of edible root	species of edible root	n	n	2.3	592.18	0			
+500002	1873	Yamphu	yak◦tuŋ	yak◦tuŋ	wrist (OBSOLETE)	wrist (OBSOLETE)	n	n	1.5.8.1	592.19	0			
+500003	1873	Yamphu	ya◦mi	ya◦mi	body hair, moustache	body hair, moustache	n	n	1.1.1	592.2	0			m,363
+500004	1873	Yamphu	ya◦ŋak	ya◦ŋak	wild boar	wild boar	n	n	3.2.5	592.24	0			
+500005	1873	Yamphu	yaŋ◦ghak◦pa	yaŋ◦ghak◦pa	spider	spider	n	n	2.2.6	593.01	0			
+500006	1873	Yamphu	yaŋ◦mæŋ	yaŋ◦mæŋ	grandchild	grandchild	n	n	4.7.3	593.05	0			
+500007	1873	Yamphu	yaŋ◦siŋ◦bhu	yaŋ◦siŋ◦bhu	species of tree (Schima wallichii)	species of tree (Schima wallichii)	n	n	2.3	593.07	0			m,2658,m
+500008	1873	Yamphu	yap◦ci◦du◦ba	yap◦ci◦du◦ba	great-grandfather	great-grandfather	n	n	4.7.1	593.09	0			
+500009	1873	Yamphu	yap◦ci◦du◦ma	yap◦ci◦du◦ma	great-grandmother	great-grandmother	n	n	4.7.1	593.1	0			
+500010	1873	Yamphu	ya◦ye◦wa	ya◦ye◦wa	upper lip	upper lip	n	n	9.2.1	593.13	0			
+500011	1873	Yamphu	yaʔ◦mi	yaʔ◦mi	man, person	man, person	n	n	1.9.6.1	593.14	0			
+500012	1873	Yamphu	yaʔ◦wa	yaʔ◦wa	small plant, weed	small plant, weed	n	n	9.7.2	593.15	0			
+500013	1873	Yamphu	yaʔ◦wa◦ma	yaʔ◦wa◦ma	kind of bee	kind of bee	n	n	8.3.3.2.1	593.16	0			
+500014	1873	Yamphu	ya•◦sa	ya•◦sa	species of deer	species of deer	n	n	2.3	593.22	0			
+500015	1873	Yamphu	yæ◦ŋæk◦kræk◦ma	yæ◦ŋæk◦kræk◦ma	centipede, millipede	centipede, millipede	n	n	2.2.6	593.26	0			
+500016	1873	Yamphu	yæ•◦su◦ba	yæ•◦su◦ba	goat	goat	n	n	2.1.8	594.05	0			6028,m,m
+500017	1873	Yamphu	yik◦siŋ◦bu	yik◦siŋ◦bu	species of tree	species of tree	n	n	2.3	594.3	0			m,2658,m
+500018	1873	Yamphu	yiŋ◦yaŋ	yiŋ◦yaŋ	elephant (agent participle of yiŋma 'to tear apart, wring, wrench')	elephant (agent participle of yiŋma 'to tear apart, wring, wrench')	n	n	10.1.1	595.09	0			
+500019	1873	Yamphu	yi•◦bhu	yi•◦bhu	species of tree (Quercus lineata, Quercus glauca)	species of tree (Quercus lineata, Quercus glauca)	n	n	2.3	595.13	0			
+500020	1873	Yamphu	yo◦ŋa	yo◦ŋa	water	water	n	n	3.2.3	596.05	0			
+500021	1873	Yamphu	yoŋ◦ni◦ba	yoŋ◦ni◦ba	sister's husband	sister's husband	n	n	4.7.2	596.09	0			
+500022	1873	Yamphu	yoŋ◦ni◦ma	yoŋ◦ni◦ma	brother's wife	brother's wife	n	n	1.5.3.2	596.1	0			
+500023	1873	Yamphu	yu◦a◦ma	yu◦a◦ma	black, largish bee	black, largish bee	n	n	9.4	596.31	0			
+500024	1873	Yamphu	ʔu	ʔu	elder brother (bound morph)	elder brother (bound morph)	n	n	4.7.1	598.03	0			

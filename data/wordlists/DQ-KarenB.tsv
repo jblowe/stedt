@@ -1,292 +1,292 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-14880	746	Karen (Sgaw/Hinthada)	kʰo³¹ θa̱³¹	kʰo³¹ θa̱³¹	head	head		1.2.1	99	0		386,m
-14881	746	Karen (Sgaw/Hinthada)	kʰo³¹ tθui⁵⁵	kʰo³¹ tθui⁵⁵	hair (head)	hair (head)		1.2.3	100	0		386,5634
-14882	746	Karen (Sgaw/Hinthada)	kʰo³¹ θø⁵⁵	kʰo³¹ θø⁵⁵	hair (head)	hair (head)		1.2.3	100.1	0		386,5634
-14883	746	Karen (Sgaw/Hinthada)	tθi³³ kʰo³¹ tθui⁵⁵	tθi³³ kʰo³¹ tθui⁵⁵	braid (hair)	braid (hair)	n	1.2.3.2	101	0		7237,386,5634
-14884	746	Karen (Sgaw/Hinthada)	mi³³ tʰa⁵⁵ kʰo³¹	mi³³ tʰa⁵⁵ kʰo³¹	forehead	forehead		1.2.5.1	102	0		
-14885	746	Karen (Sgaw/Hinthada)	mi³³du³¹ tsʰu³¹	mi³³du³¹ tsʰu³¹	eyebrow	eyebrow		1.2.6.6	103	0		682,2068,m
-14886	746	Karen (Sgaw/Hinthada)	mi³³ kʰli̱⁵⁵	mi³³ kʰli̱⁵⁵	eye	eye		1.2.6	104	0		682,m
-14887	746	Karen (Sgaw/Hinthada)	mi³³ bua³³ pʰo⁵⁵	mi³³ bua³³ pʰo⁵⁵	eyeball	eyeball		1.2.6.1	104.1	0		682,163,1275
-14888	746	Karen (Sgaw/Hinthada)	mi³³ tsʰu³¹	mi³³ tsʰu³¹	eyelash	eyelash		1.2.6.5	105	0		682,m
-14889	746	Karen (Sgaw/Hinthada)	mi³³ kʰli̱⁵⁵ tsʰu³¹	mi³³ kʰli̱⁵⁵ tsʰu³¹	eyelash	eyelash		1.2.6.5	105.1	0		682,m,m
-14890	746	Karen (Sgaw/Hinthada)	nɔ³³ dze³³	nɔ³³ dze³³	nose	nose		1.2.8	106	0		803,m
-14891	746	Karen (Sgaw/Hinthada)	nɔ³³ dze³³ bu³³	nɔ³³ dze³³ bu³³	nostril	nostril		1.2.8.1	106.1	0		803,m,806
-14892	746	Karen (Sgaw/Hinthada)	na³¹	na³¹	ear	ear		1.2.7	107	0		811
-14893	746	Karen (Sgaw/Hinthada)	mi³³ tθa̱³¹	mi³³ tθa̱³¹	face	face		1.2.5	108	0		682,2034
-14894	746	Karen (Sgaw/Hinthada)	ho³¹ bu³³	ho³¹ bu³³	mouth	mouth		1.3.1	110	0		468,476
-14895	746	Karen (Sgaw/Hinthada)	tʰa⁵⁵ kʰo³¹	tʰa⁵⁵ kʰo³¹	lip	lip		1.3.2	111	0		
-14896	746	Karen (Sgaw/Hinthada)	nɔ³³ tsʰu³¹	nɔ³³ tsʰu³¹	beard	beard		1.2.5.5	112	0		471,5634
-14897	746	Karen (Sgaw/Hinthada)	kʰa³¹ tsʰu³¹	kʰa³¹ tsʰu³¹	whiskers	whiskers		1.2.5.5	113	0		273,m
-14898	746	Karen (Sgaw/Hinthada)	kʰa³¹	kʰa³¹	lower jaw, chin	lower jaw, chin			114	0		273
-14899	746	Karen (Sgaw/Hinthada)	kʰo³¹ dze³³	kʰo³¹ dze³³	neck	neck		1.4.2	115	0		486,m
-14900	746	Karen (Sgaw/Hinthada)	kʰo³¹ lø³¹ tʰi⁵⁵	kʰo³¹ lø³¹ tʰi⁵⁵	nape	nape		1.4.2.1	116	0		486,479,m
-14901	746	Karen (Sgaw/Hinthada)	pʰă⁵⁵ na⁵⁵ kʰo³¹	pʰă⁵⁵ na⁵⁵ kʰo³¹	shoulder	shoulder		1.4.3	117	0		563,m,3350
-14902	746	Karen (Sgaw/Hinthada)	kʰlø⁵⁵ xɯ̱i⁵⁵	kʰlø⁵⁵ xɯ̱i⁵⁵	back (body)	back (body)		1.4.8	118	0		3325,m
-14903	746	Karen (Sgaw/Hinthada)	dă³¹ la³¹ bu³³	dă³¹ la³¹ bu³³	armpit	armpit		1.5.1.2.3	119	0		
-14904	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ na⁵⁵ bua³¹	tθa̱⁵⁵ na⁵⁵ bua³¹	chest	chest		1.4.4.3	120	0		32,556,288
-14905	746	Karen (Sgaw/Hinthada)	ny³¹	ny³¹	breast	breast		1.4.4.3	121	0		253
-14906	746	Karen (Sgaw/Hinthada)	u⁵⁵ pʰɤ⁵⁵	u⁵⁵ pʰɤ⁵⁵	belly	belly		1.4.7	122	0		137,2111
-14907	746	Karen (Sgaw/Hinthada)	di̱⁵⁵ bɔ³³	di̱⁵⁵ bɔ³³	navel	navel		1.9.4	123	0		519,2103
-14908	746	Karen (Sgaw/Hinthada)	jɔ³¹ de̱ʔ⁵⁵	jɔ³¹ de̱ʔ⁵⁵	waist	waist		1.4.6	124	0		339,3340
-14909	746	Karen (Sgaw/Hinthada)	kɤ³³	kɤ³³	buttocks	buttocks		1.4.10	125	0		
-14910	746	Karen (Sgaw/Hinthada)	ge³³ de̱⁵⁵ tθa̱³¹	ge³³ de̱⁵⁵ tθa̱³¹	thigh	thigh		1.5.7.1	126.1	0		
-14911	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ lo³¹ du³³	kʰɔ³¹ lo³¹ du³³	knee	knee		1.5.8.4	127	0		336,m,m
-14912	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ lo³¹ xɯ̱i⁵⁵	kʰɔ³¹ lo³¹ xɯ̱i⁵⁵	knee	knee		1.5.8.4	127.1	0		336,m,m
-14913	746	Karen (Sgaw/Hinthada)	kʰɔ⁵⁵ de̱⁵⁵ tθa̱³¹	kʰɔ⁵⁵ de̱⁵⁵ tθa̱³¹	calf (leg)	calf (leg)		1.5.7	128	0		336,m,m
-14914	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ de̱⁵⁵	kʰɔ³¹ de̱⁵⁵	foot	foot		1.5.2	129	0		336,m
-14915	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ gă³¹ me³³	kʰɔ³¹ gă³¹ me³³	ankle	ankle		1.5.8.2	130	0		
-14916	746	Karen (Sgaw/Hinthada)	tsy̱³¹ gă³¹ me³³	tsy̱³¹ gă³¹ me³³	elbow	elbow		1.5.8.3	132	0		
-14917	746	Karen (Sgaw/Hinthada)	tsy̱³¹ de̱⁵⁵	tsy̱³¹ de̱⁵⁵	hand	hand		1.5.1.1	133	0		731,773
-14918	746	Karen (Sgaw/Hinthada)	tsy̱³¹ mø⁵⁵	tsy̱³¹ mø⁵⁵	finger	finger		1.5.6	135	0		
-14919	746	Karen (Sgaw/Hinthada)	tsy̱³¹ mø³¹	tsy̱³¹ mø³¹	thumb	thumb		1.5.6.1	136	0		
-14920	746	Karen (Sgaw/Hinthada)	tsy̱³¹ nø̱⁵⁵	tsy̱³¹ nø̱⁵⁵	index finger	index finger		1.0	137	0		
-14921	746	Karen (Sgaw/Hinthada)	tsy̱³¹ bla³¹	tsy̱³¹ bla³¹	middle finger	middle finger		1.9.4	138	0		
-14922	746	Karen (Sgaw/Hinthada)	tsy̱³¹ tsʰa³¹	tsy̱³¹ tsʰa³¹	ring finger	ring finger		1.5.6.2	139	0		
-14923	746	Karen (Sgaw/Hinthada)	tsy̱³¹ tsʰi⁵⁵	tsy̱³¹ tsʰi⁵⁵	little finger	little finger		9.7.2	140	0		
-14924	746	Karen (Sgaw/Hinthada)	tsy̱³¹ me³¹	tsy̱³¹ me³¹	fingernail	fingernail		1.5.10.1	141	0		
-14925	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ me³¹	kʰɔ³¹ me³¹	fingernail	fingernail		1.5.10.1	141.1	0		
-14926	746	Karen (Sgaw/Hinthada)	tsy̱⁵⁵ kʰă³¹ nu³¹	tsy̱⁵⁵ kʰă³¹ nu³¹	fist	fist		1.5.1.1.1	142	0		
-14927	746	Karen (Sgaw/Hinthada)	kʰi⁵⁵ bu³³	kʰi⁵⁵ bu³³	anus	anus		1.4.10.2	143	0		572,2103
-14928	746	Karen (Sgaw/Hinthada)	tʰe³¹	tʰe³¹	penis	penis			144	0		641
-14929	746	Karen (Sgaw/Hinthada)	di̱³¹ kʰli⁵⁵	di̱³¹ kʰli⁵⁵	testicles	testicles			145	0		300,m
-14930	746	Karen (Sgaw/Hinthada)	di̱³¹ bo̱³³	di̱³¹ bo̱³³	testicles	testicles			145.1	0		300,1654
-14931	746	Karen (Sgaw/Hinthada)	li³³	li³³	vagina	vagina			146	0		1616
-14932	746	Karen (Sgaw/Hinthada)	la̱⁵⁵ tθa̱³¹	la̱⁵⁵ tθa̱³¹	placenta	placenta			147	0		m,679
-14933	746	Karen (Sgaw/Hinthada)	a³¹ be̱³¹	a³¹ be̱³¹	skin	skin		1.6.5	150	0		
-14934	746	Karen (Sgaw/Hinthada)	pʰi⁵⁵ be̱³¹	pʰi⁵⁵ be̱³¹	skin	skin		1.6.5	150.1	0		590,m
-14935	746	Karen (Sgaw/Hinthada)	tsʰu³¹	tsʰu³¹	body hair	body hair		1.6.1	152	0		5634
-14936	746	Karen (Sgaw/Hinthada)	mɛ̱³¹ tθu̱⁵⁵	mɛ̱³¹ tθu̱⁵⁵	hemorrhoids	hemorrhoids		1.4.10.2	153	0		
-14937	746	Karen (Sgaw/Hinthada)	mɛ̱³¹ ɣo³³	mɛ̱³¹ ɣo³³	hemorrhoids	hemorrhoids		1.4.10.2	153.1	0		
-14938	746	Karen (Sgaw/Hinthada)	da³¹ bu³³ lɔ³¹	da³¹ bu³³ lɔ³¹	scar	scar		1.6.5.3	155	0		
-14939	746	Karen (Sgaw/Hinthada)	a³¹ bu³³ lɔ³¹	a³¹ bu³³ lɔ³¹	wound	wound	n	1.8.6.2	155.1	0		
-14940	746	Karen (Sgaw/Hinthada)	wi̱ʔ⁵⁵ θɛ̱ʔ⁵⁵	wi̱ʔ⁵⁵ θɛ̱ʔ⁵⁵	measles	measles		5.3	156	0		
-14941	746	Karen (Sgaw/Hinthada)	le³¹ ta³¹ tʰa⁵⁵	le³¹ ta³¹ tʰa⁵⁵	smallpox	smallpox		5.3	157	0		
-14942	746	Karen (Sgaw/Hinthada)	ta³¹ tʰɔ³¹ tʰa⁵⁵	ta³¹ tʰɔ³¹ tʰa⁵⁵	smallpox	smallpox		5.3	157.1	0		
-14943	746	Karen (Sgaw/Hinthada)	da³¹ ȵa³¹	da³¹ ȵa³¹	flesh	flesh		1.1.1.1	159	0		p,35
-14944	746	Karen (Sgaw/Hinthada)	a³¹ ȵa³¹	a³¹ ȵa³¹	flesh	flesh		1.1.1.1	159.1	0		p,35
-14945	746	Karen (Sgaw/Hinthada)	a³¹ tθui³¹	a³¹ tθui³¹	blood	blood		1.6.2	160	0		p,230
-14946	746	Karen (Sgaw/Hinthada)	da³¹ tθui³¹	da³¹ tθui³¹	blood	blood		1.6.2	160.1	0		p,230
-14947	746	Karen (Sgaw/Hinthada)	da³¹ ny³¹ tʰi⁵⁵	da³¹ ny³¹ tʰi⁵⁵	milk	milk			161	0		m,253,298
-14948	746	Karen (Sgaw/Hinthada)	a³¹ ɣi³¹	a³¹ ɣi³¹	muscle	muscle		1.6.6.2	162	0		p,533
-14949	746	Karen (Sgaw/Hinthada)	a³¹ tθui³¹ klɛ̱⁵⁵	a³¹ tθui³¹ klɛ̱⁵⁵	blood vessel	blood vessel		1.6.2.1	162.1	0		p,230,372
-14950	746	Karen (Sgaw/Hinthada)	kʰo³¹ nu³³	kʰo³¹ nu³³	brain (marrow)	brain (marrow)		1.2.4	164	0		386,243
-14951	746	Karen (Sgaw/Hinthada)	a³¹ xɯ̱i⁵⁵	a³¹ xɯ̱i⁵⁵	bone	bone		1.6.3	165	0		p,233
-14952	746	Karen (Sgaw/Hinthada)	da³¹ xɯ̱i⁵⁵	da³¹ xɯ̱i⁵⁵	bone	bone		1.6.3	165.1	0		p,233
-14953	746	Karen (Sgaw/Hinthada)	a³¹ gi³¹	a³¹ gi³¹	marrow	marrow		1.6.3.5	166	0		p,459
-14954	746	Karen (Sgaw/Hinthada)	ɣu³³ xɯ̱i⁵⁵	ɣu³³ xɯ̱i⁵⁵	rib	rib		1.4.4.3	168	0		288,233
-14955	746	Karen (Sgaw/Hinthada)	mɛ̱⁵⁵	mɛ̱⁵⁵	tooth	tooth		1.3.4	170	0		1187
-14956	746	Karen (Sgaw/Hinthada)	mɛ̱⁵⁵ kʰɔ⁵⁵	mɛ̱⁵⁵ kʰɔ⁵⁵	molar	molar		1.3.4.2	170.1	0		m,630
-14957	746	Karen (Sgaw/Hinthada)	mɛ̱⁵⁵ ni³³	mɛ̱⁵⁵ ni³³	milk tooth	milk tooth			170.2	0		
-14958	746	Karen (Sgaw/Hinthada)	ble³³	ble³³	tongue	tongue		1.3.3	172	0		621
-14959	746	Karen (Sgaw/Hinthada)	kʰo³¹ ko̱ʔ⁵⁵	kʰo³¹ ko̱ʔ⁵⁵	throat	throat		1.3.5	175	0		3361,486
-14960	746	Karen (Sgaw/Hinthada)	kɔ³¹ kʰli⁵⁵	kɔ³¹ kʰli⁵⁵	adam's apple	adam's apple		1.3.5.4	177	0		
-14961	746	Karen (Sgaw/Hinthada)	gă³¹ tθo̱³¹	gă³¹ tθo̱³¹	lungs	lungs		1.7.2	178	0		
-14962	746	Karen (Sgaw/Hinthada)	da³¹ tθo̱³¹	da³¹ tθo̱³¹	lungs	lungs		1.7.2	178.1	0		
-14963	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ pʰlø³¹	tθa̱⁵⁵ pʰlø³¹	heart	heart		1.7.1	179	0		32,1381
-14964	746	Karen (Sgaw/Hinthada)	da³¹ pʰlø³¹	da³¹ pʰlø³¹	heart	heart		1.7.1	179.1	0		32,1381
-14965	746	Karen (Sgaw/Hinthada)	a³¹ tθu̱³¹	a³¹ tθu̱³¹	liver	liver		1.7.3	180	0		p,1390
-14966	746	Karen (Sgaw/Hinthada)	da³¹ tθu̱³¹	da³¹ tθu̱³¹	liver	liver		1.7.3	180.1	0		p,1390
-14967	746	Karen (Sgaw/Hinthada)	a³¹ ga̯³¹ le³¹	a³¹ ga̯³¹ le³¹	kidneys	kidneys		1.7.5	181	0		
-14968	746	Karen (Sgaw/Hinthada)	da³¹ gă³¹ le³¹	da³¹ gă³¹ le³¹	kidneys	kidneys		1.7.5	181.1	0		
-14969	746	Karen (Sgaw/Hinthada)	a³¹ tθă³¹ dði̱⁵⁵	a³¹ tθă³¹ dði̱⁵⁵	gall bladder	gall bladder		1.7.3	183	0		p,m,m
-14970	746	Karen (Sgaw/Hinthada)	da³¹ tθă³¹ dði̱⁵⁵	da³¹ tθă³¹ dði̱⁵⁵	gall bladder	gall bladder		1.7.3	183.1	0		p,m,m
-14971	746	Karen (Sgaw/Hinthada)	pui³³	pui³³	intestines	intestines		1.7.7	184	0		575
-14972	746	Karen (Sgaw/Hinthada)	da³¹ pui³³	da³¹ pui³³	intestines	intestines		1.7.7	184.1	0		m,575
-14973	746	Karen (Sgaw/Hinthada)	a³¹ pui³³	a³¹ pui³³	intestines	intestines		1.7.7	184.2	0		m,575
-14974	746	Karen (Sgaw/Hinthada)	gă³¹ |pʰɯ⁵⁵	gă³¹ pʰɯ⁵⁵	stomach	stomach		1.7.6	185	0		2103
-14975	746	Karen (Sgaw/Hinthada)	a³¹ gă³¹ |pʰɯ⁵⁵	a³¹ gă³¹ pʰɯ⁵⁵	stomach	stomach		1.7.6	185.1	0		p,2103
-14976	746	Karen (Sgaw/Hinthada)	da³¹ gă³¹ |pʰɯ⁵⁵	da³¹ gă³¹ pʰɯ⁵⁵	stomach	stomach		1.7.6	185.2	0		m,2103
-14977	746	Karen (Sgaw/Hinthada)	kă³¹ |pʰu⁵⁵	kă³¹ pʰu⁵⁵	stomach	stomach		1.7.6	185.1	0	D0	2103
-14978	746	Karen (Sgaw/Hinthada)	da³¹ e̱³¹	da³¹ e̱³¹	feces	feces		1.8.5	187	0		5442,576
-14979	746	Karen (Sgaw/Hinthada)	da³¹ tɕʰe³¹	da³¹ tɕʰe³¹	urine	urine		1.8.4	188	0		m,650
-14980	746	Karen (Sgaw/Hinthada)	da³¹ tɕʰe³¹ tsʰa⁵⁵	da³¹ tɕʰe³¹ tsʰa⁵⁵	urinate	urinate		1.5.3.2	188.1	0		m,650,m
-14981	746	Karen (Sgaw/Hinthada)	i̱³¹ nɔ̱⁵⁵	i̱³¹ nɔ̱⁵⁵	fart	fart		1.8.5.2	189	0		m,m
-14982	746	Karen (Sgaw/Hinthada)	go³¹ bø³³	go³¹ bø³³	sweat	sweat		1.8.1	190	0		615,m
-14983	746	Karen (Sgaw/Hinthada)	tʰu³¹ pʰlɛ̱⁵⁵ tʰi⁵⁵	tʰu³¹ pʰlɛ̱⁵⁵ tʰi⁵⁵	saliva	saliva		1.8.3	192	0		601,607,m
-14984	746	Karen (Sgaw/Hinthada)	nɔ̱⁵⁵ e̱³¹	nɔ̱⁵⁵ e̱³¹	mucus	mucus		1.8.2	193	0		805,m
-14985	746	Karen (Sgaw/Hinthada)	mi³³ tʰi⁵⁵	mi³³ tʰi⁵⁵	tears	tears		1.2.6.7	194	0		682,298
-14986	746	Karen (Sgaw/Hinthada)	mi³³ pʰe⁵⁵	mi³³ pʰe⁵⁵	eye sand	eye sand		1.2.6.8	194.1	0		682,575
-14987	746	Karen (Sgaw/Hinthada)	a³¹ pʰɯ⁵⁵	a³¹ pʰɯ⁵⁵	pus	pus		1.8.6.1	195	0		p,1292
-14988	746	Karen (Sgaw/Hinthada)	a³¹ gă³¹ lø³¹	a³¹ gă³¹ lø³¹	sound	sound		9.3	197	0		
-14989	746	Karen (Sgaw/Hinthada)	da³¹ gă³¹ do³³	da³¹ gă³¹ do³³	speech	speech		1.8.7	198	0		
-14990	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵	tθa̱⁵⁵	breath (qixi)	breath (qixi)		1.1.2.2	199	0		32
-14991	746	Karen (Sgaw/Hinthada)	bua³³ mi³³ li̱⁵⁵	bua³³ mi³³ li̱⁵⁵	blind person	blind person		1.2.6.14.2	259	0		m,682,m
-14992	746	Karen (Sgaw/Hinthada)	bua³³ kʰɔ³¹ ga³¹	bua³³ kʰɔ³¹ ga³¹	lame person	lame person		1.5.12	260	0		
-14993	746	Karen (Sgaw/Hinthada)	bua³³ dă³¹ ɤ̱⁵⁵ na³¹	bua³³ dă³¹ ɤ̱⁵⁵ na³¹	deaf person	deaf person		1.2.7.5	261	0		
-14994	746	Karen (Sgaw/Hinthada)	bua³³ jɔ³¹ de̱⁵⁵ ke̱³¹	bua³³ jɔ³¹ de̱⁵⁵ ke̱³¹	hunchback	hunchback		1.4.8.3	263	0		163,m,m,m
-14995	746	Karen (Sgaw/Hinthada)	bua³³ plu³¹	bua³³ plu³¹	lunatic	lunatic		8.3	265	0		
-14996	746	Karen (Sgaw/Hinthada)	bua³³ u̱ʔ⁵⁵ a̱ʔ⁵⁵	bua³³ u̱ʔ⁵⁵ a̱ʔ⁵⁵	stutterer	stutterer		8.5.4.5	266	0		
-14997	746	Karen (Sgaw/Hinthada)	glɔ³¹ ny³¹ tʰi⁵⁵	glɔ³¹ ny³¹ tʰi⁵⁵	milk (cow's)	milk (cow's)			328	0		m,2538,298
-14998	746	Karen (Sgaw/Hinthada)	a³¹ ny³¹ tʰi⁵⁵	a³¹ ny³¹ tʰi⁵⁵	milk (cow's)	milk (cow's)			328.1	0		p,2538,298
-14999	746	Karen (Sgaw/Hinthada)	da³¹ ny³¹ tʰi⁵⁵	da³¹ ny³¹ tʰi⁵⁵	milk (cow's)	milk (cow's)			328.2	0		m,2538,298
-15000	746	Karen (Sgaw/Hinthada)	a³¹ nø³³	a³¹ nø³³	horn	horn		1.2.2	313	0		p,2009
-15001	746	Karen (Sgaw/Hinthada)	pʰi⁵⁵ be̱³¹	pʰi⁵⁵ be̱³¹	skin (animal)	skin (animal)		1.6.5	315	0		590,m
-15002	746	Karen (Sgaw/Hinthada)	a³¹ tsʰu³¹	a³¹ tsʰu³¹	hair (animal)	hair (animal)		1.2.3	316	0		p,5634
-15003	746	Karen (Sgaw/Hinthada)	da³¹ e̱³¹	da³¹ e̱³¹	excrement (animal)	excrement (animal)		1.8.5	333	0		m,576
-15004	746	Karen (Sgaw/Hinthada)	a³¹ e̱³¹	a³¹ e̱³¹	excrement (animal)	excrement (animal)		1.8.5	333.1	0		p,576
-15005	746	Karen (Sgaw/Hinthada)	me³¹	me³¹	tail	tail		1.4.10.1	317	0		1288
-15006	746	Karen (Sgaw/Hinthada)	tθo⁵⁵ tsʰu³¹	tθo⁵⁵ tsʰu³¹	wool	wool		1.6.1.3	350	0		6080,m
-15007	746	Karen (Sgaw/Hinthada)	tsʰɔ̱⁵⁵ pʰa⁵⁵ kʰo³³ tθi³¹	tsʰɔ̱⁵⁵ pʰa⁵⁵ kʰo³³ tθi³¹	cockscomb	cockscomb		1.2.2.1	346	0		
-15008	746	Karen (Sgaw/Hinthada)	di̱⁵⁵◦tsʰɛ⁵⁵	di̱⁵⁵◦tsʰɛ⁵⁵	wing	wing		1.5.1.3	347	0		773,m
-15009	746	Karen (Sgaw/Hinthada)	a³¹ tsʰu³¹	a³¹ tsʰu³¹	feathers	feathers		1.6.1.1	348	0		
-15010	746	Karen (Sgaw/Hinthada)	ȵa³¹ tθă³¹ bɯ³¹	ȵa³¹ tθă³¹ bɯ³¹	scales	scales		1.6.5.2	409	0		1455,m,m
-15011	746	Karen (Sgaw/Hinthada)	da³¹ ȵa³¹	da³¹ ȵa³¹	meat	meat		1.1.1.1	554	0		p,35
-15012	746	Karen (Sgaw/Hinthada)	a³¹ ȵa³¹	a³¹ ȵa³¹	meat	meat		1.1.1.1	554.1	0		p,35
-15013	746	Karen (Sgaw/Hinthada)	tθo̱⁵⁵	tθo̱⁵⁵	oil	oil		1.6.4.1	590	0		60
-15014	746	Karen (Sgaw/Hinthada)	di̱³¹	di̱³¹	egg	egg			573	0		300
-15015	746	Karen (Sgaw/Hinthada)	a³¹ di̱³¹	a³¹ di̱³¹	egg	egg			573.1	0		p,300
-15016	746	Karen (Sgaw/Hinthada)	dă³¹ mo³¹ xa³¹	dă³¹ mo³¹ xa³¹	ghost	ghost		4.2.12.2	938	0		
-15017	746	Karen (Sgaw/Hinthada)	ɣi³¹ ba̱⁵⁵	ɣi³¹ ba̱⁵⁵	energy	energy		1.1.4	961	0		
-15018	746	Karen (Sgaw/Hinthada)	a³¹ ɣi³¹ a³¹ ba̱⁵⁵	a³¹ ɣi³¹ a³¹ ba̱⁵⁵	energy	energy		1.1.4	961.1	0		
-15019	746	Karen (Sgaw/Hinthada)	da³¹ gă³¹ dø̱⁵⁵	da³¹ gă³¹ dø̱⁵⁵	shadow	shadow		3.2.10	1028	0		
-15020	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ mɔ³¹	mi̱⁵⁵ mɔ³¹	dream	dream		1.1.4.2	1029	0	D1	130,126
-15021	746	Karen (Sgaw/Hinthada)	a³¹ kʰɯ³¹ tθa̱⁵⁵	a³¹ kʰɯ³¹ tθa̱⁵⁵	center	center		1.9.4	1043	0		
-15022	746	Karen (Sgaw/Hinthada)	a³¹ gă³¹ ba³³	a³¹ gă³¹ ba³³	side	side		1.4.5	1022	0		
-15023	746	Karen (Sgaw/Hinthada)	tsy̱⁵⁵ tse̱³¹	tsy̱⁵⁵ tse̱³¹	left	left		1.5.3.2	1023	0		m,5624
-15024	746	Karen (Sgaw/Hinthada)	tsy̱⁵⁵ tʰuɛ̱⁵⁵	tsy̱⁵⁵ tʰuɛ̱⁵⁵	right	right		1.5.3.2	1024	0		
-15025	746	Karen (Sgaw/Hinthada)	a³¹ mi³³ ȵa̱⁵⁵	a³¹ mi³³ ȵa̱⁵⁵	front	front		1.4.4	1025	0		m,m,m
-15026	746	Karen (Sgaw/Hinthada)	a³¹ lɔ³¹ kʰi⁵⁵	a³¹ lɔ³¹ kʰi⁵⁵	back	back		1.4.8	1026	0		
-15027	746	Karen (Sgaw/Hinthada)	a³¹ lɔ³¹ kʰi̱⁵⁵	a³¹ lɔ³¹ kʰi̱⁵⁵	behind (beihou)	behind (beihou)		9.2.8	1060	0		
-15028	746	Karen (Sgaw/Hinthada)	buɛ³³	buɛ³³	full (man)	full (man)		1.1.3.2	1426	0		100
-15029	746	Karen (Sgaw/Hinthada)	gă³¹ du³¹	gă³¹ du³¹	wrinkled	wrinkled		9.6.2	1438	0		
-15030	746	Karen (Sgaw/Hinthada)	bɔ̱³¹	bɔ̱³¹	fat	fat		1.6.4	1472	0		50
-15031	746	Karen (Sgaw/Hinthada)	bɔ̱³¹ bɔ̱³¹	bɔ̱³¹ bɔ̱³¹	fat	fat		1.6.4	1472.1	0		50,50
-15032	746	Karen (Sgaw/Hinthada)	bɔ̱³¹	bɔ̱³¹	fat (pig)	fat (pig)		1.6.4	1473	0		50
-15033	746	Karen (Sgaw/Hinthada)	pʰui³¹	pʰui³¹	thin (person)	thin (person)		9.7.2	1474	0		
-15034	746	Karen (Sgaw/Hinthada)	nø̱⁵⁵	nø̱⁵⁵	greasy	greasy		7.1.4.2	1535	0		
-15035	746	Karen (Sgaw/Hinthada)	mu⁵⁵	mu⁵⁵	alive	alive		1.1.2.1	1546	0		62
-15036	746	Karen (Sgaw/Hinthada)	tθi⁵⁵	tθi⁵⁵	dead	dead		1.1.6	1547	0		27
-15037	746	Karen (Sgaw/Hinthada)	lə⁵⁵ ɔ³¹	lə⁵⁵ ɔ³¹	full (from eating)	full (from eating)		1.1.3.2	1652	0		138,1833
-15038	746	Karen (Sgaw/Hinthada)	buɛ³³	buɛ³³	full (from eating)	full (from eating)		1.1.3.2	1652.1	0		100
-15039	746	Karen (Sgaw/Hinthada)	dă³¹ tsʰu³¹	dă³¹ tsʰu³¹	sick	sick		1.1.5.1	1678	0		
-15040	746	Karen (Sgaw/Hinthada)	da³¹ tsʰa⁵⁵	da³¹ tsʰa⁵⁵	sick	sick		1.1.5.1	1678.1	0		m,1844
-15041	746	Karen (Sgaw/Hinthada)	tθa⁵⁵ wi³³	tθa⁵⁵ wi³³	sing	sing		5.1	1704	0		32
-15042	746	Karen (Sgaw/Hinthada)	da³¹ tθa⁵⁵ wi³³	da³¹ tθa⁵⁵ wi³³	sing	sing		5.1	1704.1	0		
-15043	746	Karen (Sgaw/Hinthada)	tθa⁵⁵ wi³³ da³¹	tθa⁵⁵ wi³³ da³¹	sing	sing		5.1	1704.2	0		32
-15044	746	Karen (Sgaw/Hinthada)	ɔ³¹	ɔ³¹	eat	eat		1.5.3.2	1722	0		487
-15045	746	Karen (Sgaw/Hinthada)	u̱⁵⁵	u̱⁵⁵	blow (trumpet)	blow (trumpet)		1.3.1.4	1748	0		503
-15046	746	Karen (Sgaw/Hinthada)	u̱⁵⁵	u̱⁵⁵	blow (dust)	blow (dust)		1.3.1.4	1749	0		503
-15047	746	Karen (Sgaw/Hinthada)	tʰɔ³¹	tʰɔ³¹	gasp, pant	gasp, pant	v	1.1.2.2	1752	0		
-15048	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ tʰɔ³¹	tθa̱⁵⁵ tʰɔ³¹	gasp, pant	gasp, pant	v	1.1.2.2	1752.1	0		32
-15049	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ tʰɔ³¹ tθa̱⁵⁵ lɔ³³	tθa̱⁵⁵ tʰɔ³¹ tθa̱⁵⁵ lɔ³³	gasp, pant	gasp, pant	v	1.1.2.2	1752.2	0		32,m,32,m
-15050	746	Karen (Sgaw/Hinthada)	tsʰɛ⁵⁵	tsʰɛ⁵⁵	sneeze	sneeze		1.8.2.1	1782	0		
-15051	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ tθă³¹ be³³	mi̱⁵⁵ tθă³¹ be³³	nap (take)	nap (take)	v	6.21	1783	0		
-15052	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ kʰɯ⁵⁵	mi̱⁵⁵ kʰɯ⁵⁵	nap (take)	nap (take)	v	6.21	1783.1	0		
-15053	746	Karen (Sgaw/Hinthada)	ɔ⁵⁵ tθă³¹ kɔ̱³¹	ɔ⁵⁵ tθă³¹ kɔ̱³¹	yawn	yawn		1.3.1.3	1785	0		
-15054	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ dă³¹ ku̱⁵⁵	tθa̱⁵⁵ dă³¹ ku̱⁵⁵	hiccup / belch	hiccup  /  belch		1.8.3.5	1786	0		32
-15055	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	bite, sting (mosquito)	bite, sting (mosquito)		1.3.4.4	1828	0		
-15056	746	Karen (Sgaw/Hinthada)	pʰa⁵⁵	pʰa⁵⁵	read (book)	read (book)		6.2.2.9.3	1841	0		b?
-15057	746	Karen (Sgaw/Hinthada)	pʰa⁵⁵ le³³	pʰa⁵⁵ le³³	read (book)	read (book)		6.2.2.9.3	1841.1	0		b?,m
-15058	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ gă³¹ dø³¹	tθa̱⁵⁵ gă³¹ dø³¹	die (breath one's last)	die (breath one's last)		9.9	1846	0		32,m,m
-15059	746	Karen (Sgaw/Hinthada)	tθa³¹ wi³¹	tθa³¹ wi³¹	hungry	hungry		1.1.3	1858	0		32,113
-15060	746	Karen (Sgaw/Hinthada)	gă³¹ nɔ̱⁵⁵	gă³¹ nɔ̱⁵⁵	tremble	tremble		6.7.3	1864	0		
-15061	746	Karen (Sgaw/Hinthada)	da³¹ go³¹ tʰɔ³¹	da³¹ go³¹ tʰɔ³¹	fever	fever		1.1.5.1	1866	0		
-15063	746	Karen (Sgaw/Hinthada)	ju³³	ju³³	fly	fly		2.2.6	1891	0		
-15064	746	Karen (Sgaw/Hinthada)	bly³¹	bly³¹	insane	insane		8.3.1.11.3	1897	0		
-15065	746	Karen (Sgaw/Hinthada)	xɯ̱⁵⁵	xɯ̱⁵⁵	incubate	incubate		1.9.1.2	1899	0		1233
-15066	746	Karen (Sgaw/Hinthada)	xɯ̱⁵⁵ di̱³¹	xɯ̱⁵⁵ di̱³¹	incubate	incubate		1.9.1.2	1899.1	0		1233,300
-15067	746	Karen (Sgaw/Hinthada)	da³¹ kʰɯ³¹ ba³¹	da³¹ kʰɯ³¹ ba³¹	have cold	have cold		8.2	1910	0		
-15068	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵	kɔ̱⁵⁵	call (to someone)	call (to someone)		8.5.13	1960	0		
-15069	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ gă³¹ lu⁵⁵	kɔ̱⁵⁵ gă³¹ lu⁵⁵	call out (hanjiao)	call out (hanjiao)		8.5.13	1961	0		
-15070	746	Karen (Sgaw/Hinthada)	ɔ̱⁵⁵	ɔ̱⁵⁵	drink	drink			1964	0		1713
-15071	746	Karen (Sgaw/Hinthada)	ɯ⁵⁵	ɯ⁵⁵	hum	hum		8.5.5	1970	0		5452
-15072	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ ɯ⁵⁵	tθa̱⁵⁵ ɯ⁵⁵	hum	hum		8.5.5	1970.1	0		32,5452
-15073	746	Karen (Sgaw/Hinthada)	bo³¹ bua³³	bo³¹ bua³³	dim, blurry (eyesight)	dim, blurry (eyesight)		1.2.6.10	1975	0		
-15074	746	Karen (Sgaw/Hinthada)	a³¹ pʰo⁵⁵ o̱³¹ tʰɔ³¹	a³¹ pʰo⁵⁵ o̱³¹ tʰɔ³¹	pregnant	pregnant		1.9.6.1	1981	0		m,m,m,m
-15075	746	Karen (Sgaw/Hinthada)	o³¹ tʰɔ³¹ a³¹ pʰo⁵⁵	o³¹ tʰɔ³¹ a³¹ pʰo⁵⁵	pregnant	pregnant		1.9.6.1	1981.1	0		m,m,m,m
-15076	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵	kɔ̱⁵⁵	call (to animal) (huan)	call (to animal) (huan)		8.5.13	1986	0		
-15077	746	Karen (Sgaw/Hinthada)	mu̱⁵⁵ tʰɔ³¹ ge³³	mu̱⁵⁵ tʰɔ³¹ ge³³	come alive (huoliao)	come alive (huoliao)		6.7.1	2003	0		62,m,m
-15078	746	Karen (Sgaw/Hinthada)	gă³¹ do³³	gă³¹ do³³	tell (story)	tell (story)		1.8.7	2035	0		
-15079	746	Karen (Sgaw/Hinthada)	tɛ⁵⁵	tɛ⁵⁵	tell (story)	tell (story)		1.8.7	2035.1	0		
-15080	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	chew	chew		1.3.4	2041	0		
-15081	746	Karen (Sgaw/Hinthada)	e³¹ me³³	e³¹ me³³	chew	chew		1.3.4	2041.1	0		
-15082	746	Karen (Sgaw/Hinthada)	o̱³¹ o̱⁵⁵	o̱³¹ o̱⁵⁵	crow (rooster)	crow (rooster)		2.2.4.1	2042	0		
-15083	746	Karen (Sgaw/Hinthada)	gɔ³¹ dɔ̱⁵⁵	gɔ³¹ dɔ̱⁵⁵	cackle (hen)	cackle (hen)		8.5.5	2043	0		
-15084	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	call (cat)	call (cat)		8.5.13	2044	0		o
-15085	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	bray (donkey)	bray (donkey)		8.5.4.1	2045	0		w
-15086	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	neigh (horse)	neigh (horse)		8.5.5	2046	0		
-15087	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	call (cow)	call (cow)		8.5.13	2047	0		
-15088	746	Karen (Sgaw/Hinthada)	mɔ³³ da³¹	mɔ³³ da³¹	bark (dog)	bark (dog)		2.1.11.1	2048	0		
-15089	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	grunt (pig)	grunt (pig)		2.1.11.1	2049	0		o
-15090	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	call (sheep)	call (sheep)		8.5.13	2050	0		
-15091	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	roar (tiger)	roar (tiger)		8.5.5	2051	0		o
-15092	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	roar (lion)	roar (lion)		8.5.5	2052	0		o
-15093	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	howl (wolf)	howl (wolf)		8.5.5	2053	0		
-15094	746	Karen (Sgaw/Hinthada)	mă³¹ da³³	mă³¹ da³³	call (name)	call (name)		8.5.13	2054	0		
-15095	746	Karen (Sgaw/Hinthada)	ɔ⁵⁵ tʰɔ³¹	ɔ⁵⁵ tʰɔ³¹	open (as door)	open (as door)		6.2.2.6.1	2092	0		
-15096	746	Karen (Sgaw/Hinthada)	gua³¹	gua³¹	look at	look at		1.2.6.11	2101	0		m
-15097	746	Karen (Sgaw/Hinthada)	tʰi³¹ ba̱³¹ li³³	tʰi³¹ ba̱³¹ li³³	see	see		1.2.6.10	2103	0		m
-15098	746	Karen (Sgaw/Hinthada)	tθă³¹ ku̱⁵⁵	tθă³¹ ku̱⁵⁵	cough	cough		1.8.3.3	2111	0		p,1795
-15099	746	Karen (Sgaw/Hinthada)	xe̱⁵⁵	xe̱⁵⁵	thirsty	thirsty		1.1.3.1	2112	0		3298
-15100	746	Karen (Sgaw/Hinthada)	ka³³ ju³³ xe̱⁵⁵	ka³³ ju³³ xe̱⁵⁵	thirsty	thirsty		1.1.3.1	2112.1	0		105,m,3298
-15101	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	gnaw	gnaw		1.3.4.4	2115	0		576
-15102	746	Karen (Sgaw/Hinthada)	hɔ³¹	hɔ³¹	cry	cry		1.8.8.2	2118	0		m
-15103	746	Karen (Sgaw/Hinthada)	da³¹ mo³¹ mi̱⁵⁵	da³¹ mo³¹ mi̱⁵⁵	tired, sleepy	tired, sleepy		9.6.2.2	2125	0		m,m,130
-15104	746	Karen (Sgaw/Hinthada)	e̱³¹ tsʰa⁵⁵	e̱³¹ tsʰa⁵⁵	defecate	defecate		1.8.5.4	2127	0		
-15105	746	Karen (Sgaw/Hinthada)	da³¹ bu̱i⁵⁵	da³¹ bu̱i⁵⁵	tired	tired		9.6.2.2	2135	0		
-15106	746	Karen (Sgaw/Hinthada)	dă³¹ ɤ̱⁵⁵	dă³¹ ɤ̱⁵⁵	deaf	deaf		1.2.7.5	2160	0		p,7282
-15107	746	Karen (Sgaw/Hinthada)	tɕi³¹	tɕi³¹	numb	numb		1.5.11	2165	0		
-15108	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ tθi³¹	kʰɔ³¹ tθi³¹	numb	numb		1.5.11	2165.1	0		m,7094
-15109	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ mɔ³¹	mi̱⁵⁵ mɔ³¹	dream	dream		1.1.4.2	2171	0	HIDE	DUPE IN SOURCE
-15110	746	Karen (Sgaw/Hinthada)	be̱³¹	be̱³¹	narrow eyes; squint	narrow eyes; squint		9.7.2	2179	0		
-15111	746	Karen (Sgaw/Hinthada)	be̱³¹ mi³³ kʰli⁵⁵	be̱³¹ mi³³ kʰli⁵⁵	narrow eyes; squint	narrow eyes; squint		9.7.2	2179.1	0		
-15112	746	Karen (Sgaw/Hinthada)	buɛ³³	buɛ³³	call (bird) (ming)	call (bird) (ming)		8.5.13	2180	0		
-15113	746	Karen (Sgaw/Hinthada)	bɔ̱³³	bɔ̱³³	vomit	vomit		1.8.3.2	2202	0		1145
-15114	746	Karen (Sgaw/Hinthada)	bla̱⁵⁵	bla̱⁵⁵	cured (illness)	cured (illness)	be v.	1.1.5.1	2265	0		
-15115	746	Karen (Sgaw/Hinthada)	bla̱⁵⁵	bla̱⁵⁵	heal (wound)	heal (wound)		1.1.5.1	2266	0		
-15116	746	Karen (Sgaw/Hinthada)	ga³¹	ga³¹	crippled	crippled		4.2.7	2268	0		
-15117	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ ga³¹	kʰɔ³¹ ga³¹	crippled	crippled		4.2.7	2268.1	0		
-15118	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ gă³¹ lu̱⁵⁵	kɔ̱⁵⁵ gă³¹ lu̱⁵⁵	shout, yell	shout, yell		8.5.4.1	2272	0		
-15119	746	Karen (Sgaw/Hinthada)	tsʰe³¹ tsʰa⁵⁵	tsʰe³¹ tsʰa⁵⁵	urinate	urinate		1.5.3.2	2286	0		650,m
-15120	746	Karen (Sgaw/Hinthada)	di̱⁵⁵	di̱⁵⁵	castrate	castrate		1.9.2.3	2303	0		
-15121	746	Karen (Sgaw/Hinthada)	di̱⁵⁵ glo³¹ di̱³¹	di̱⁵⁵ glo³¹ di̱³¹	castrate	castrate		1.9.2.3	2303.1	0		m,m,300
-15122	746	Karen (Sgaw/Hinthada)	pʰi⁵⁵ be̱³¹	pʰi⁵⁵ be̱³¹	grow (boil)	grow (boil)		9.7.2	2319	0		
-15123	746	Karen (Sgaw/Hinthada)	pʰi⁵⁵ be̱³¹ tθa̱⁵⁵	pʰi⁵⁵ be̱³¹ tθa̱⁵⁵	grow (boil)	grow (boil)		9.7.2	2319.1	0		
-15124	746	Karen (Sgaw/Hinthada)	o̱³¹ pʰlɛ³¹ a³¹ pʰo⁵⁵	o̱³¹ pʰlɛ³¹ a³¹ pʰo⁵⁵	birth, give	birth, give	v	1.1.2	2320	0		3482,70,p,1811
-15125	746	Karen (Sgaw/Hinthada)	xɛ̱³¹	xɛ̱³¹	thin	thin	v	9.7.2	2346	0		
-15126	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵	mi̱⁵⁵	sleep	sleep		1.1.4.1	2357	0		130
-15127	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ dă³¹ be³³	mi̱⁵⁵ dă³¹ be³³	asleep	asleep		1.1.4.1	2359	0		130,m,m
-15128	746	Karen (Sgaw/Hinthada)	ɔ̱⁵⁵	ɔ̱⁵⁵	suck (milk)	suck (milk)		1.3.2.1	2360	0		
-15129	746	Karen (Sgaw/Hinthada)	gă³¹ do³³	gă³¹ do³³	speak	speak		8.5.10.1	2361	0		
-15130	746	Karen (Sgaw/Hinthada)	gă³¹ do³³ da³¹	gă³¹ do³³ da³¹	speak	speak		8.5.10.1	2361.1	0		
-15131	746	Karen (Sgaw/Hinthada)	da³¹ gă³¹ do³³	da³¹ gă³¹ do³³	speak	speak		8.5.10.1	2361.2	0		
-15132	746	Karen (Sgaw/Hinthada)	tɛ⁵⁵	tɛ⁵⁵	speak	speak		8.5.10.1	2361.e	0		
-15133	746	Karen (Sgaw/Hinthada)	tθi⁵⁵	tθi⁵⁵	die	die		1.1.6	2363	0		27
-15134	746	Karen (Sgaw/Hinthada)	tsʰa⁵⁵	tsʰa⁵⁵	sore (leg)	sore (leg)		1.1.5.1	2368	0		
-15135	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ tsʰa⁵⁵	kʰɔ³¹ tsʰa⁵⁵	sore (leg)	sore (leg)		1.1.5.1	2368.1	0		336,m
-15136	746	Karen (Sgaw/Hinthada)	tsʰa⁵⁵	tsʰa⁵⁵	ache (teng)	ache (teng)		1.1.5.1	2391	0		1844
-15137	746	Karen (Sgaw/Hinthada)	ɔ³¹ li̱⁵⁵	ɔ³¹ li̱⁵⁵	lick	lick		1.3.3.1	2401	0		m,629
-15138	746	Karen (Sgaw/Hinthada)	gă³¹|na̱³¹	gă³¹|na̱³¹	listen	listen		1.2.7.4	2409	0		811
-15139	746	Karen (Sgaw/Hinthada)	na̱³¹ xu⁵⁵	na̱³¹ xu⁵⁵	hear	hear		1.2.7.4	2410	0		811,m
-15140	746	Karen (Sgaw/Hinthada)	ju³¹	ju³¹	swallow	swallow	v	1.3.5.6	2416	0	D1	627
-15141	746	Karen (Sgaw/Hinthada)	tʰo⁵⁵ wɛ̱³¹	tʰo⁵⁵ wɛ̱³¹	spit	spit		1.8.3	2421	0		601,607
-15142	746	Karen (Sgaw/Hinthada)	nø̱⁵⁵	nø̱⁵⁵	smell (with nose)	smell (with nose)		1.2.8.5	2450	0		1415
-15143	746	Karen (Sgaw/Hinthada)	gă³¹ li³¹	gă³¹ li³¹	inhale	inhale		1.1.2.2	2456	0		
-15144	746	Karen (Sgaw/Hinthada)	xa⁵⁵ ɣɔ³³	xa⁵⁵ ɣɔ³³	blind	blind		1.2.6.14.2	2465	0		m,m
-15145	746	Karen (Sgaw/Hinthada)	pʰui⁵⁵	pʰui⁵⁵	birth, give (to piglet)	birth, give  (to piglet)		1.1.2	2467	0		1811
-15146	746	Karen (Sgaw/Hinthada)	lɔ³³	lɔ³³	lay egg	lay egg		6.17	2468	0		
-15147	746	Karen (Sgaw/Hinthada)	tsʰɔ⁵⁵ di̱³¹ lɔ³³	tsʰɔ⁵⁵ di̱³¹ lɔ³³	lay egg	lay egg		6.17	2468.1	0		m,300,m
-15148	746	Karen (Sgaw/Hinthada)	lɔ³³ tθi⁵⁵	lɔ³³ tθi⁵⁵	recede (boil)	recede (boil)		6.7.1	2488	0		
-15149	746	Karen (Sgaw/Hinthada)	ni³³	ni³³	laugh	laugh		1.8.8.1	2492	0		1105
-15150	746	Karen (Sgaw/Hinthada)	ti̱⁵⁵	ti̱⁵⁵	blow nose	blow nose		1.3.1.4	2497	0		
-15151	746	Karen (Sgaw/Hinthada)	ti̱⁵⁵ nɔ̱³³ e̱³¹	ti̱⁵⁵ nɔ̱³³ e̱³¹	blow nose	blow nose		1.3.1.4	2497.1	0		
-15152	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ bø³¹ tʰɔ³¹	mi̱⁵⁵ bø³¹ tʰɔ³¹	wake	wake		1.1.4	2498	0		130,p,142
-15153	746	Karen (Sgaw/Hinthada)	o̱³¹ bu̱i⁵⁵	o̱³¹ bu̱i⁵⁵	rest	rest		1.1.4.1	2499	0		
-15154	746	Karen (Sgaw/Hinthada)	di̱⁵⁵	di̱⁵⁵	caponize	caponize		2.4.1	2509	0		m
-15155	746	Karen (Sgaw/Hinthada)	ju³¹	ju³¹	swallow	swallow	v	1.3.5.6	2511	0	HIDE	DUPE IN SOURCE
-15156	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵	tθa̱⁵⁵	itch	itch		1.6.5.5	2515	0		1457
-15157	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	bitten	bitten	be v.	1.3.4.4	2520	0		
-15158	746	Karen (Sgaw/Hinthada)	xɯi³¹	xɯi³¹	bitten	bitten	be v.	1.3.4.4	2520.1	0		
-15159	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	bite	bite		1.3.4.4	2521	0		
-15160	746	Karen (Sgaw/Hinthada)	xɯi³¹	xɯi³¹	bite	bite		1.3.4.4	2521.1	0		
-15161	746	Karen (Sgaw/Hinthada)	kʰo³¹ mu³³	kʰo³¹ mu³³	dizzy	dizzy		8.3.1.11.3	2550	0		
-15162	746	Karen (Sgaw/Hinthada)	e⁵⁵ tʰɔ³¹	e⁵⁵ tʰɔ³¹	blink	blink		1.2.6.12	2563	0		m,m
-15163	746	Karen (Sgaw/Hinthada)	ɔ̱⁵⁵ tʰɔ³¹	ɔ̱⁵⁵ tʰɔ³¹	open (mouth)	open (mouth)		6.2.2.6.1	2571	0		
-15164	746	Karen (Sgaw/Hinthada)	gă³¹ li³¹ tʰɔ³¹	gă³¹ li³¹ tʰɔ³¹	bloat (belly) (zhang)	bloat (belly) (zhang)		1.4.7	2574	0		
-15165	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ ko³¹	tθa̱⁵⁵ ko³¹	nervous	nervous		8.3.1.5.5	2577	0		32
-15166	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	sting	sting	v	2.4.2	2583	0		
-15167	746	Karen (Sgaw/Hinthada)	pʰu̱i⁵⁵	pʰu̱i⁵⁵	open (eyes)	open (eyes)		6.2.2.6.1	2584	0		
-15168	746	Karen (Sgaw/Hinthada)	jo⁵⁵ tʰɔ³¹	jo⁵⁵ tʰɔ³¹	swell up	swell up		1.1.5.2	2595	0		
-15169	746	Karen (Sgaw/Hinthada)	ȵɔ⁵⁵ tʰɔ³¹	ȵɔ⁵⁵ tʰɔ³¹	swell up	swell up		1.1.5.2	2595.1	0		
-15170	746	Karen (Sgaw/Hinthada)	mu³³	mu³³	drunk	drunk		1.3.5.9	2621	0		7298
-15171	746	Karen (Sgaw/Hinthada)	mu³³ tθi⁵⁵	mu³³ tθi⁵⁵	drunk	drunk		1.3.5.9	2621.1	0		7298,m
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+14880	746	Karen (Sgaw/Hinthada)	kʰo³¹ θa̱³¹	kʰo³¹ θa̱³¹	head	head			1.2.1	99	0			386,m
+14881	746	Karen (Sgaw/Hinthada)	kʰo³¹ tθui⁵⁵	kʰo³¹ tθui⁵⁵	hair (head)	hair (head)			1.2.3	100	0			386,5634
+14882	746	Karen (Sgaw/Hinthada)	kʰo³¹ θø⁵⁵	kʰo³¹ θø⁵⁵	hair (head)	hair (head)			1.2.3	100.1	0			386,5634
+14883	746	Karen (Sgaw/Hinthada)	tθi³³ kʰo³¹ tθui⁵⁵	tθi³³ kʰo³¹ tθui⁵⁵	braid (hair)	braid (hair)	n	n	1.2.3.2	101	0			7237,386,5634
+14884	746	Karen (Sgaw/Hinthada)	mi³³ tʰa⁵⁵ kʰo³¹	mi³³ tʰa⁵⁵ kʰo³¹	forehead	forehead			1.2.5.1	102	0			
+14885	746	Karen (Sgaw/Hinthada)	mi³³du³¹ tsʰu³¹	mi³³du³¹ tsʰu³¹	eyebrow	eyebrow			1.2.6.6	103	0			682,2068,m
+14886	746	Karen (Sgaw/Hinthada)	mi³³ kʰli̱⁵⁵	mi³³ kʰli̱⁵⁵	eye	eye			1.2.6	104	0			682,m
+14887	746	Karen (Sgaw/Hinthada)	mi³³ bua³³ pʰo⁵⁵	mi³³ bua³³ pʰo⁵⁵	eyeball	eyeball			1.2.6.1	104.1	0			682,163,1275
+14888	746	Karen (Sgaw/Hinthada)	mi³³ tsʰu³¹	mi³³ tsʰu³¹	eyelash	eyelash			1.2.6.5	105	0			682,m
+14889	746	Karen (Sgaw/Hinthada)	mi³³ kʰli̱⁵⁵ tsʰu³¹	mi³³ kʰli̱⁵⁵ tsʰu³¹	eyelash	eyelash			1.2.6.5	105.1	0			682,m,m
+14890	746	Karen (Sgaw/Hinthada)	nɔ³³ dze³³	nɔ³³ dze³³	nose	nose			1.2.8	106	0			803,m
+14891	746	Karen (Sgaw/Hinthada)	nɔ³³ dze³³ bu³³	nɔ³³ dze³³ bu³³	nostril	nostril			1.2.8.1	106.1	0			803,m,806
+14892	746	Karen (Sgaw/Hinthada)	na³¹	na³¹	ear	ear			1.2.7	107	0			811
+14893	746	Karen (Sgaw/Hinthada)	mi³³ tθa̱³¹	mi³³ tθa̱³¹	face	face			1.2.5	108	0			682,2034
+14894	746	Karen (Sgaw/Hinthada)	ho³¹ bu³³	ho³¹ bu³³	mouth	mouth			1.3.1	110	0			468,476
+14895	746	Karen (Sgaw/Hinthada)	tʰa⁵⁵ kʰo³¹	tʰa⁵⁵ kʰo³¹	lip	lip			1.3.2	111	0			
+14896	746	Karen (Sgaw/Hinthada)	nɔ³³ tsʰu³¹	nɔ³³ tsʰu³¹	beard	beard			1.2.5.5	112	0			471,5634
+14897	746	Karen (Sgaw/Hinthada)	kʰa³¹ tsʰu³¹	kʰa³¹ tsʰu³¹	whiskers	whiskers			1.2.5.5	113	0			273,m
+14898	746	Karen (Sgaw/Hinthada)	kʰa³¹	kʰa³¹	lower jaw, chin	lower jaw, chin				114	0			273
+14899	746	Karen (Sgaw/Hinthada)	kʰo³¹ dze³³	kʰo³¹ dze³³	neck	neck			1.4.2	115	0			486,m
+14900	746	Karen (Sgaw/Hinthada)	kʰo³¹ lø³¹ tʰi⁵⁵	kʰo³¹ lø³¹ tʰi⁵⁵	nape	nape			1.4.2.1	116	0			486,479,m
+14901	746	Karen (Sgaw/Hinthada)	pʰă⁵⁵ na⁵⁵ kʰo³¹	pʰă⁵⁵ na⁵⁵ kʰo³¹	shoulder	shoulder			1.4.3	117	0			563,m,3350
+14902	746	Karen (Sgaw/Hinthada)	kʰlø⁵⁵ xɯ̱i⁵⁵	kʰlø⁵⁵ xɯ̱i⁵⁵	back (body)	back (body)			1.4.8	118	0			3325,m
+14903	746	Karen (Sgaw/Hinthada)	dă³¹ la³¹ bu³³	dă³¹ la³¹ bu³³	armpit	armpit			1.5.1.2.3	119	0			
+14904	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ na⁵⁵ bua³¹	tθa̱⁵⁵ na⁵⁵ bua³¹	chest	chest			1.4.4.3	120	0			32,556,288
+14905	746	Karen (Sgaw/Hinthada)	ny³¹	ny³¹	breast	breast			1.4.4.3	121	0			253
+14906	746	Karen (Sgaw/Hinthada)	u⁵⁵ pʰɤ⁵⁵	u⁵⁵ pʰɤ⁵⁵	belly	belly			1.4.7	122	0			137,2111
+14907	746	Karen (Sgaw/Hinthada)	di̱⁵⁵ bɔ³³	di̱⁵⁵ bɔ³³	navel	navel			1.9.4	123	0			519,2103
+14908	746	Karen (Sgaw/Hinthada)	jɔ³¹ de̱ʔ⁵⁵	jɔ³¹ de̱ʔ⁵⁵	waist	waist			1.4.6	124	0			339,3340
+14909	746	Karen (Sgaw/Hinthada)	kɤ³³	kɤ³³	buttocks	buttocks			1.4.10	125	0			
+14910	746	Karen (Sgaw/Hinthada)	ge³³ de̱⁵⁵ tθa̱³¹	ge³³ de̱⁵⁵ tθa̱³¹	thigh	thigh			1.5.7.1	126.1	0			
+14911	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ lo³¹ du³³	kʰɔ³¹ lo³¹ du³³	knee	knee			1.5.8.4	127	0			336,m,m
+14912	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ lo³¹ xɯ̱i⁵⁵	kʰɔ³¹ lo³¹ xɯ̱i⁵⁵	knee	knee			1.5.8.4	127.1	0			336,m,m
+14913	746	Karen (Sgaw/Hinthada)	kʰɔ⁵⁵ de̱⁵⁵ tθa̱³¹	kʰɔ⁵⁵ de̱⁵⁵ tθa̱³¹	calf (leg)	calf (leg)			1.5.7	128	0			336,m,m
+14914	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ de̱⁵⁵	kʰɔ³¹ de̱⁵⁵	foot	foot			1.5.2	129	0			336,m
+14915	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ gă³¹ me³³	kʰɔ³¹ gă³¹ me³³	ankle	ankle			1.5.8.2	130	0			
+14916	746	Karen (Sgaw/Hinthada)	tsy̱³¹ gă³¹ me³³	tsy̱³¹ gă³¹ me³³	elbow	elbow			1.5.8.3	132	0			
+14917	746	Karen (Sgaw/Hinthada)	tsy̱³¹ de̱⁵⁵	tsy̱³¹ de̱⁵⁵	hand	hand			1.5.1.1	133	0			731,773
+14918	746	Karen (Sgaw/Hinthada)	tsy̱³¹ mø⁵⁵	tsy̱³¹ mø⁵⁵	finger	finger			1.5.6	135	0			
+14919	746	Karen (Sgaw/Hinthada)	tsy̱³¹ mø³¹	tsy̱³¹ mø³¹	thumb	thumb			1.5.6.1	136	0			
+14920	746	Karen (Sgaw/Hinthada)	tsy̱³¹ nø̱⁵⁵	tsy̱³¹ nø̱⁵⁵	index finger	index finger			1.0	137	0			
+14921	746	Karen (Sgaw/Hinthada)	tsy̱³¹ bla³¹	tsy̱³¹ bla³¹	middle finger	middle finger			1.9.4	138	0			
+14922	746	Karen (Sgaw/Hinthada)	tsy̱³¹ tsʰa³¹	tsy̱³¹ tsʰa³¹	ring finger	ring finger			1.5.6.2	139	0			
+14923	746	Karen (Sgaw/Hinthada)	tsy̱³¹ tsʰi⁵⁵	tsy̱³¹ tsʰi⁵⁵	little finger	little finger			9.7.2	140	0			
+14924	746	Karen (Sgaw/Hinthada)	tsy̱³¹ me³¹	tsy̱³¹ me³¹	fingernail	fingernail			1.5.10.1	141	0			
+14925	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ me³¹	kʰɔ³¹ me³¹	fingernail	fingernail			1.5.10.1	141.1	0			
+14926	746	Karen (Sgaw/Hinthada)	tsy̱⁵⁵ kʰă³¹ nu³¹	tsy̱⁵⁵ kʰă³¹ nu³¹	fist	fist			1.5.1.1.1	142	0			
+14927	746	Karen (Sgaw/Hinthada)	kʰi⁵⁵ bu³³	kʰi⁵⁵ bu³³	anus	anus			1.4.10.2	143	0			572,2103
+14928	746	Karen (Sgaw/Hinthada)	tʰe³¹	tʰe³¹	penis	penis				144	0			641
+14929	746	Karen (Sgaw/Hinthada)	di̱³¹ kʰli⁵⁵	di̱³¹ kʰli⁵⁵	testicles	testicles				145	0			300,m
+14930	746	Karen (Sgaw/Hinthada)	di̱³¹ bo̱³³	di̱³¹ bo̱³³	testicles	testicles				145.1	0			300,1654
+14931	746	Karen (Sgaw/Hinthada)	li³³	li³³	vagina	vagina				146	0			1616
+14932	746	Karen (Sgaw/Hinthada)	la̱⁵⁵ tθa̱³¹	la̱⁵⁵ tθa̱³¹	placenta	placenta				147	0			m,679
+14933	746	Karen (Sgaw/Hinthada)	a³¹ be̱³¹	a³¹ be̱³¹	skin	skin			1.6.5	150	0			
+14934	746	Karen (Sgaw/Hinthada)	pʰi⁵⁵ be̱³¹	pʰi⁵⁵ be̱³¹	skin	skin			1.6.5	150.1	0			590,m
+14935	746	Karen (Sgaw/Hinthada)	tsʰu³¹	tsʰu³¹	body hair	body hair			1.6.1	152	0			5634
+14936	746	Karen (Sgaw/Hinthada)	mɛ̱³¹ tθu̱⁵⁵	mɛ̱³¹ tθu̱⁵⁵	hemorrhoids	hemorrhoids			1.4.10.2	153	0			
+14937	746	Karen (Sgaw/Hinthada)	mɛ̱³¹ ɣo³³	mɛ̱³¹ ɣo³³	hemorrhoids	hemorrhoids			1.4.10.2	153.1	0			
+14938	746	Karen (Sgaw/Hinthada)	da³¹ bu³³ lɔ³¹	da³¹ bu³³ lɔ³¹	scar	scar			1.6.5.3	155	0			
+14939	746	Karen (Sgaw/Hinthada)	a³¹ bu³³ lɔ³¹	a³¹ bu³³ lɔ³¹	wound	wound	n	n	1.8.6.2	155.1	0			
+14940	746	Karen (Sgaw/Hinthada)	wi̱ʔ⁵⁵ θɛ̱ʔ⁵⁵	wi̱ʔ⁵⁵ θɛ̱ʔ⁵⁵	measles	measles			5.3	156	0			
+14941	746	Karen (Sgaw/Hinthada)	le³¹ ta³¹ tʰa⁵⁵	le³¹ ta³¹ tʰa⁵⁵	smallpox	smallpox			5.3	157	0			
+14942	746	Karen (Sgaw/Hinthada)	ta³¹ tʰɔ³¹ tʰa⁵⁵	ta³¹ tʰɔ³¹ tʰa⁵⁵	smallpox	smallpox			5.3	157.1	0			
+14943	746	Karen (Sgaw/Hinthada)	da³¹ ȵa³¹	da³¹ ȵa³¹	flesh	flesh			1.1.1.1	159	0			p,35
+14944	746	Karen (Sgaw/Hinthada)	a³¹ ȵa³¹	a³¹ ȵa³¹	flesh	flesh			1.1.1.1	159.1	0			p,35
+14945	746	Karen (Sgaw/Hinthada)	a³¹ tθui³¹	a³¹ tθui³¹	blood	blood			1.6.2	160	0			p,230
+14946	746	Karen (Sgaw/Hinthada)	da³¹ tθui³¹	da³¹ tθui³¹	blood	blood			1.6.2	160.1	0			p,230
+14947	746	Karen (Sgaw/Hinthada)	da³¹ ny³¹ tʰi⁵⁵	da³¹ ny³¹ tʰi⁵⁵	milk	milk				161	0			m,253,298
+14948	746	Karen (Sgaw/Hinthada)	a³¹ ɣi³¹	a³¹ ɣi³¹	muscle	muscle			1.6.6.2	162	0			p,533
+14949	746	Karen (Sgaw/Hinthada)	a³¹ tθui³¹ klɛ̱⁵⁵	a³¹ tθui³¹ klɛ̱⁵⁵	blood vessel	blood vessel			1.6.2.1	162.1	0			p,230,372
+14950	746	Karen (Sgaw/Hinthada)	kʰo³¹ nu³³	kʰo³¹ nu³³	brain (marrow)	brain (marrow)			1.2.4	164	0			386,243
+14951	746	Karen (Sgaw/Hinthada)	a³¹ xɯ̱i⁵⁵	a³¹ xɯ̱i⁵⁵	bone	bone			1.6.3	165	0			p,233
+14952	746	Karen (Sgaw/Hinthada)	da³¹ xɯ̱i⁵⁵	da³¹ xɯ̱i⁵⁵	bone	bone			1.6.3	165.1	0			p,233
+14953	746	Karen (Sgaw/Hinthada)	a³¹ gi³¹	a³¹ gi³¹	marrow	marrow			1.6.3.5	166	0			p,459
+14954	746	Karen (Sgaw/Hinthada)	ɣu³³ xɯ̱i⁵⁵	ɣu³³ xɯ̱i⁵⁵	rib	rib			1.4.4.3	168	0			288,233
+14955	746	Karen (Sgaw/Hinthada)	mɛ̱⁵⁵	mɛ̱⁵⁵	tooth	tooth			1.3.4	170	0			1187
+14956	746	Karen (Sgaw/Hinthada)	mɛ̱⁵⁵ kʰɔ⁵⁵	mɛ̱⁵⁵ kʰɔ⁵⁵	molar	molar			1.3.4.2	170.1	0			m,630
+14957	746	Karen (Sgaw/Hinthada)	mɛ̱⁵⁵ ni³³	mɛ̱⁵⁵ ni³³	milk tooth	milk tooth				170.2	0			
+14958	746	Karen (Sgaw/Hinthada)	ble³³	ble³³	tongue	tongue			1.3.3	172	0			621
+14959	746	Karen (Sgaw/Hinthada)	kʰo³¹ ko̱ʔ⁵⁵	kʰo³¹ ko̱ʔ⁵⁵	throat	throat			1.3.5	175	0			3361,486
+14960	746	Karen (Sgaw/Hinthada)	kɔ³¹ kʰli⁵⁵	kɔ³¹ kʰli⁵⁵	adam's apple	adam's apple			1.3.5.4	177	0			
+14961	746	Karen (Sgaw/Hinthada)	gă³¹ tθo̱³¹	gă³¹ tθo̱³¹	lungs	lungs			1.7.2	178	0			
+14962	746	Karen (Sgaw/Hinthada)	da³¹ tθo̱³¹	da³¹ tθo̱³¹	lungs	lungs			1.7.2	178.1	0			
+14963	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ pʰlø³¹	tθa̱⁵⁵ pʰlø³¹	heart	heart			1.7.1	179	0			32,1381
+14964	746	Karen (Sgaw/Hinthada)	da³¹ pʰlø³¹	da³¹ pʰlø³¹	heart	heart			1.7.1	179.1	0			32,1381
+14965	746	Karen (Sgaw/Hinthada)	a³¹ tθu̱³¹	a³¹ tθu̱³¹	liver	liver			1.7.3	180	0			p,1390
+14966	746	Karen (Sgaw/Hinthada)	da³¹ tθu̱³¹	da³¹ tθu̱³¹	liver	liver			1.7.3	180.1	0			p,1390
+14967	746	Karen (Sgaw/Hinthada)	a³¹ ga̯³¹ le³¹	a³¹ ga̯³¹ le³¹	kidneys	kidneys			1.7.5	181	0			
+14968	746	Karen (Sgaw/Hinthada)	da³¹ gă³¹ le³¹	da³¹ gă³¹ le³¹	kidneys	kidneys			1.7.5	181.1	0			
+14969	746	Karen (Sgaw/Hinthada)	a³¹ tθă³¹ dði̱⁵⁵	a³¹ tθă³¹ dði̱⁵⁵	gall bladder	gall bladder			1.7.3	183	0			p,m,m
+14970	746	Karen (Sgaw/Hinthada)	da³¹ tθă³¹ dði̱⁵⁵	da³¹ tθă³¹ dði̱⁵⁵	gall bladder	gall bladder			1.7.3	183.1	0			p,m,m
+14971	746	Karen (Sgaw/Hinthada)	pui³³	pui³³	intestines	intestines			1.7.7	184	0			575
+14972	746	Karen (Sgaw/Hinthada)	da³¹ pui³³	da³¹ pui³³	intestines	intestines			1.7.7	184.1	0			m,575
+14973	746	Karen (Sgaw/Hinthada)	a³¹ pui³³	a³¹ pui³³	intestines	intestines			1.7.7	184.2	0			m,575
+14974	746	Karen (Sgaw/Hinthada)	gă³¹ |pʰɯ⁵⁵	gă³¹ pʰɯ⁵⁵	stomach	stomach			1.7.6	185	0			2103
+14975	746	Karen (Sgaw/Hinthada)	a³¹ gă³¹ |pʰɯ⁵⁵	a³¹ gă³¹ pʰɯ⁵⁵	stomach	stomach			1.7.6	185.1	0			p,2103
+14976	746	Karen (Sgaw/Hinthada)	da³¹ gă³¹ |pʰɯ⁵⁵	da³¹ gă³¹ pʰɯ⁵⁵	stomach	stomach			1.7.6	185.2	0			m,2103
+14977	746	Karen (Sgaw/Hinthada)	kă³¹ |pʰu⁵⁵	kă³¹ pʰu⁵⁵	stomach	stomach			1.7.6	185.1	0		D0	2103
+14978	746	Karen (Sgaw/Hinthada)	da³¹ e̱³¹	da³¹ e̱³¹	feces	feces			1.8.5	187	0			5442,576
+14979	746	Karen (Sgaw/Hinthada)	da³¹ tɕʰe³¹	da³¹ tɕʰe³¹	urine	urine			1.8.4	188	0			m,650
+14980	746	Karen (Sgaw/Hinthada)	da³¹ tɕʰe³¹ tsʰa⁵⁵	da³¹ tɕʰe³¹ tsʰa⁵⁵	urinate	urinate			1.5.3.2	188.1	0			m,650,m
+14981	746	Karen (Sgaw/Hinthada)	i̱³¹ nɔ̱⁵⁵	i̱³¹ nɔ̱⁵⁵	fart	fart			1.8.5.2	189	0			m,m
+14982	746	Karen (Sgaw/Hinthada)	go³¹ bø³³	go³¹ bø³³	sweat	sweat			1.8.1	190	0			615,m
+14983	746	Karen (Sgaw/Hinthada)	tʰu³¹ pʰlɛ̱⁵⁵ tʰi⁵⁵	tʰu³¹ pʰlɛ̱⁵⁵ tʰi⁵⁵	saliva	saliva			1.8.3	192	0			601,607,m
+14984	746	Karen (Sgaw/Hinthada)	nɔ̱⁵⁵ e̱³¹	nɔ̱⁵⁵ e̱³¹	mucus	mucus			1.8.2	193	0			805,m
+14985	746	Karen (Sgaw/Hinthada)	mi³³ tʰi⁵⁵	mi³³ tʰi⁵⁵	tears	tears			1.2.6.7	194	0			682,298
+14986	746	Karen (Sgaw/Hinthada)	mi³³ pʰe⁵⁵	mi³³ pʰe⁵⁵	eye sand	eye sand			1.2.6.8	194.1	0			682,575
+14987	746	Karen (Sgaw/Hinthada)	a³¹ pʰɯ⁵⁵	a³¹ pʰɯ⁵⁵	pus	pus			1.8.6.1	195	0			p,1292
+14988	746	Karen (Sgaw/Hinthada)	a³¹ gă³¹ lø³¹	a³¹ gă³¹ lø³¹	sound	sound			9.3	197	0			
+14989	746	Karen (Sgaw/Hinthada)	da³¹ gă³¹ do³³	da³¹ gă³¹ do³³	speech	speech			1.8.7	198	0			
+14990	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵	tθa̱⁵⁵	breath (qixi)	breath (qixi)			1.1.2.2	199	0			32
+14991	746	Karen (Sgaw/Hinthada)	bua³³ mi³³ li̱⁵⁵	bua³³ mi³³ li̱⁵⁵	blind person	blind person			1.2.6.14.2	259	0			m,682,m
+14992	746	Karen (Sgaw/Hinthada)	bua³³ kʰɔ³¹ ga³¹	bua³³ kʰɔ³¹ ga³¹	lame person	lame person			1.5.12	260	0			
+14993	746	Karen (Sgaw/Hinthada)	bua³³ dă³¹ ɤ̱⁵⁵ na³¹	bua³³ dă³¹ ɤ̱⁵⁵ na³¹	deaf person	deaf person			1.2.7.5	261	0			
+14994	746	Karen (Sgaw/Hinthada)	bua³³ jɔ³¹ de̱⁵⁵ ke̱³¹	bua³³ jɔ³¹ de̱⁵⁵ ke̱³¹	hunchback	hunchback			1.4.8.3	263	0			163,m,m,m
+14995	746	Karen (Sgaw/Hinthada)	bua³³ plu³¹	bua³³ plu³¹	lunatic	lunatic			8.3	265	0			
+14996	746	Karen (Sgaw/Hinthada)	bua³³ u̱ʔ⁵⁵ a̱ʔ⁵⁵	bua³³ u̱ʔ⁵⁵ a̱ʔ⁵⁵	stutterer	stutterer			8.5.4.5	266	0			
+14997	746	Karen (Sgaw/Hinthada)	glɔ³¹ ny³¹ tʰi⁵⁵	glɔ³¹ ny³¹ tʰi⁵⁵	milk (cow's)	milk (cow's)				328	0			m,2538,298
+14998	746	Karen (Sgaw/Hinthada)	a³¹ ny³¹ tʰi⁵⁵	a³¹ ny³¹ tʰi⁵⁵	milk (cow's)	milk (cow's)				328.1	0			p,2538,298
+14999	746	Karen (Sgaw/Hinthada)	da³¹ ny³¹ tʰi⁵⁵	da³¹ ny³¹ tʰi⁵⁵	milk (cow's)	milk (cow's)				328.2	0			m,2538,298
+15000	746	Karen (Sgaw/Hinthada)	a³¹ nø³³	a³¹ nø³³	horn	horn			1.2.2	313	0			p,2009
+15001	746	Karen (Sgaw/Hinthada)	pʰi⁵⁵ be̱³¹	pʰi⁵⁵ be̱³¹	skin (animal)	skin (animal)			1.6.5	315	0			590,m
+15002	746	Karen (Sgaw/Hinthada)	a³¹ tsʰu³¹	a³¹ tsʰu³¹	hair (animal)	hair (animal)			1.2.3	316	0			p,5634
+15003	746	Karen (Sgaw/Hinthada)	da³¹ e̱³¹	da³¹ e̱³¹	excrement (animal)	excrement (animal)			1.8.5	333	0			m,576
+15004	746	Karen (Sgaw/Hinthada)	a³¹ e̱³¹	a³¹ e̱³¹	excrement (animal)	excrement (animal)			1.8.5	333.1	0			p,576
+15005	746	Karen (Sgaw/Hinthada)	me³¹	me³¹	tail	tail			1.4.10.1	317	0			1288
+15006	746	Karen (Sgaw/Hinthada)	tθo⁵⁵ tsʰu³¹	tθo⁵⁵ tsʰu³¹	wool	wool			1.6.1.3	350	0			6080,m
+15007	746	Karen (Sgaw/Hinthada)	tsʰɔ̱⁵⁵ pʰa⁵⁵ kʰo³³ tθi³¹	tsʰɔ̱⁵⁵ pʰa⁵⁵ kʰo³³ tθi³¹	cockscomb	cockscomb			1.2.2.1	346	0			
+15008	746	Karen (Sgaw/Hinthada)	di̱⁵⁵◦tsʰɛ⁵⁵	di̱⁵⁵◦tsʰɛ⁵⁵	wing	wing			1.5.1.3	347	0			773,m
+15009	746	Karen (Sgaw/Hinthada)	a³¹ tsʰu³¹	a³¹ tsʰu³¹	feathers	feathers			1.6.1.1	348	0			
+15010	746	Karen (Sgaw/Hinthada)	ȵa³¹ tθă³¹ bɯ³¹	ȵa³¹ tθă³¹ bɯ³¹	scales	scales			1.6.5.2	409	0			1455,m,m
+15011	746	Karen (Sgaw/Hinthada)	da³¹ ȵa³¹	da³¹ ȵa³¹	meat	meat			1.1.1.1	554	0			p,35
+15012	746	Karen (Sgaw/Hinthada)	a³¹ ȵa³¹	a³¹ ȵa³¹	meat	meat			1.1.1.1	554.1	0			p,35
+15013	746	Karen (Sgaw/Hinthada)	tθo̱⁵⁵	tθo̱⁵⁵	oil	oil			1.6.4.1	590	0			60
+15014	746	Karen (Sgaw/Hinthada)	di̱³¹	di̱³¹	egg	egg				573	0			300
+15015	746	Karen (Sgaw/Hinthada)	a³¹ di̱³¹	a³¹ di̱³¹	egg	egg				573.1	0			p,300
+15016	746	Karen (Sgaw/Hinthada)	dă³¹ mo³¹ xa³¹	dă³¹ mo³¹ xa³¹	ghost	ghost			4.2.12.2	938	0			
+15017	746	Karen (Sgaw/Hinthada)	ɣi³¹ ba̱⁵⁵	ɣi³¹ ba̱⁵⁵	energy	energy			1.1.4	961	0			
+15018	746	Karen (Sgaw/Hinthada)	a³¹ ɣi³¹ a³¹ ba̱⁵⁵	a³¹ ɣi³¹ a³¹ ba̱⁵⁵	energy	energy			1.1.4	961.1	0			
+15019	746	Karen (Sgaw/Hinthada)	da³¹ gă³¹ dø̱⁵⁵	da³¹ gă³¹ dø̱⁵⁵	shadow	shadow			3.2.10	1028	0			
+15020	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ mɔ³¹	mi̱⁵⁵ mɔ³¹	dream	dream			1.1.4.2	1029	0		D1	130,126
+15021	746	Karen (Sgaw/Hinthada)	a³¹ kʰɯ³¹ tθa̱⁵⁵	a³¹ kʰɯ³¹ tθa̱⁵⁵	center	center			1.9.4	1043	0			
+15022	746	Karen (Sgaw/Hinthada)	a³¹ gă³¹ ba³³	a³¹ gă³¹ ba³³	side	side			1.4.5	1022	0			
+15023	746	Karen (Sgaw/Hinthada)	tsy̱⁵⁵ tse̱³¹	tsy̱⁵⁵ tse̱³¹	left	left			1.5.3.2	1023	0			m,5624
+15024	746	Karen (Sgaw/Hinthada)	tsy̱⁵⁵ tʰuɛ̱⁵⁵	tsy̱⁵⁵ tʰuɛ̱⁵⁵	right	right			1.5.3.2	1024	0			
+15025	746	Karen (Sgaw/Hinthada)	a³¹ mi³³ ȵa̱⁵⁵	a³¹ mi³³ ȵa̱⁵⁵	front	front			1.4.4	1025	0			m,m,m
+15026	746	Karen (Sgaw/Hinthada)	a³¹ lɔ³¹ kʰi⁵⁵	a³¹ lɔ³¹ kʰi⁵⁵	back	back			1.4.8	1026	0			
+15027	746	Karen (Sgaw/Hinthada)	a³¹ lɔ³¹ kʰi̱⁵⁵	a³¹ lɔ³¹ kʰi̱⁵⁵	behind (beihou)	behind (beihou)			9.2.8	1060	0			
+15028	746	Karen (Sgaw/Hinthada)	buɛ³³	buɛ³³	full (man)	full (man)			1.1.3.2	1426	0			100
+15029	746	Karen (Sgaw/Hinthada)	gă³¹ du³¹	gă³¹ du³¹	wrinkled	wrinkled			9.6.2	1438	0			
+15030	746	Karen (Sgaw/Hinthada)	bɔ̱³¹	bɔ̱³¹	fat	fat			1.6.4	1472	0			50
+15031	746	Karen (Sgaw/Hinthada)	bɔ̱³¹ bɔ̱³¹	bɔ̱³¹ bɔ̱³¹	fat	fat			1.6.4	1472.1	0			50,50
+15032	746	Karen (Sgaw/Hinthada)	bɔ̱³¹	bɔ̱³¹	fat (pig)	fat (pig)			1.6.4	1473	0			50
+15033	746	Karen (Sgaw/Hinthada)	pʰui³¹	pʰui³¹	thin (person)	thin (person)			9.7.2	1474	0			
+15034	746	Karen (Sgaw/Hinthada)	nø̱⁵⁵	nø̱⁵⁵	greasy	greasy			7.1.4.2	1535	0			
+15035	746	Karen (Sgaw/Hinthada)	mu⁵⁵	mu⁵⁵	alive	alive			1.1.2.1	1546	0			62
+15036	746	Karen (Sgaw/Hinthada)	tθi⁵⁵	tθi⁵⁵	dead	dead			1.1.6	1547	0			27
+15037	746	Karen (Sgaw/Hinthada)	lə⁵⁵ ɔ³¹	lə⁵⁵ ɔ³¹	full (from eating)	full (from eating)			1.1.3.2	1652	0			138,1833
+15038	746	Karen (Sgaw/Hinthada)	buɛ³³	buɛ³³	full (from eating)	full (from eating)			1.1.3.2	1652.1	0			100
+15039	746	Karen (Sgaw/Hinthada)	dă³¹ tsʰu³¹	dă³¹ tsʰu³¹	sick	sick			1.1.5.1	1678	0			
+15040	746	Karen (Sgaw/Hinthada)	da³¹ tsʰa⁵⁵	da³¹ tsʰa⁵⁵	sick	sick			1.1.5.1	1678.1	0			m,1844
+15041	746	Karen (Sgaw/Hinthada)	tθa⁵⁵ wi³³	tθa⁵⁵ wi³³	sing	sing			5.1	1704	0			32
+15042	746	Karen (Sgaw/Hinthada)	da³¹ tθa⁵⁵ wi³³	da³¹ tθa⁵⁵ wi³³	sing	sing			5.1	1704.1	0			
+15043	746	Karen (Sgaw/Hinthada)	tθa⁵⁵ wi³³ da³¹	tθa⁵⁵ wi³³ da³¹	sing	sing			5.1	1704.2	0			32
+15044	746	Karen (Sgaw/Hinthada)	ɔ³¹	ɔ³¹	eat	eat			1.5.3.2	1722	0			487
+15045	746	Karen (Sgaw/Hinthada)	u̱⁵⁵	u̱⁵⁵	blow (trumpet)	blow (trumpet)			1.3.1.4	1748	0			503
+15046	746	Karen (Sgaw/Hinthada)	u̱⁵⁵	u̱⁵⁵	blow (dust)	blow (dust)			1.3.1.4	1749	0			503
+15047	746	Karen (Sgaw/Hinthada)	tʰɔ³¹	tʰɔ³¹	gasp, pant	gasp, pant	v	v	1.1.2.2	1752	0			
+15048	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ tʰɔ³¹	tθa̱⁵⁵ tʰɔ³¹	gasp, pant	gasp, pant	v	v	1.1.2.2	1752.1	0			32
+15049	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ tʰɔ³¹ tθa̱⁵⁵ lɔ³³	tθa̱⁵⁵ tʰɔ³¹ tθa̱⁵⁵ lɔ³³	gasp, pant	gasp, pant	v	v	1.1.2.2	1752.2	0			32,m,32,m
+15050	746	Karen (Sgaw/Hinthada)	tsʰɛ⁵⁵	tsʰɛ⁵⁵	sneeze	sneeze			1.8.2.1	1782	0			
+15051	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ tθă³¹ be³³	mi̱⁵⁵ tθă³¹ be³³	nap (take)	nap (take)	v	v	6.21	1783	0			
+15052	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ kʰɯ⁵⁵	mi̱⁵⁵ kʰɯ⁵⁵	nap (take)	nap (take)	v	v	6.21	1783.1	0			
+15053	746	Karen (Sgaw/Hinthada)	ɔ⁵⁵ tθă³¹ kɔ̱³¹	ɔ⁵⁵ tθă³¹ kɔ̱³¹	yawn	yawn			1.3.1.3	1785	0			
+15054	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ dă³¹ ku̱⁵⁵	tθa̱⁵⁵ dă³¹ ku̱⁵⁵	hiccup / belch	hiccup  /  belch			1.8.3.5	1786	0	jbl3		32
+15055	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	bite, sting (mosquito)	bite, sting (mosquito)			1.3.4.4	1828	0			
+15056	746	Karen (Sgaw/Hinthada)	pʰa⁵⁵	pʰa⁵⁵	read (book)	read (book)			6.2.2.9.3	1841	0			b?
+15057	746	Karen (Sgaw/Hinthada)	pʰa⁵⁵ le³³	pʰa⁵⁵ le³³	read (book)	read (book)			6.2.2.9.3	1841.1	0			b?,m
+15058	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ gă³¹ dø³¹	tθa̱⁵⁵ gă³¹ dø³¹	die (breath one's last)	die (breath one's last)			9.9	1846	0			32,m,m
+15059	746	Karen (Sgaw/Hinthada)	tθa³¹ wi³¹	tθa³¹ wi³¹	hungry	hungry			1.1.3	1858	0			32,113
+15060	746	Karen (Sgaw/Hinthada)	gă³¹ nɔ̱⁵⁵	gă³¹ nɔ̱⁵⁵	tremble	tremble			6.7.3	1864	0			
+15061	746	Karen (Sgaw/Hinthada)	da³¹ go³¹ tʰɔ³¹	da³¹ go³¹ tʰɔ³¹	fever	fever			1.1.5.1	1866	0			
+15063	746	Karen (Sgaw/Hinthada)	ju³³	ju³³	fly	fly			2.2.6	1891	0			
+15064	746	Karen (Sgaw/Hinthada)	bly³¹	bly³¹	insane	insane			8.3.1.11.3	1897	0			
+15065	746	Karen (Sgaw/Hinthada)	xɯ̱⁵⁵	xɯ̱⁵⁵	incubate	incubate			1.9.1.2	1899	0			1233
+15066	746	Karen (Sgaw/Hinthada)	xɯ̱⁵⁵ di̱³¹	xɯ̱⁵⁵ di̱³¹	incubate	incubate			1.9.1.2	1899.1	0			1233,300
+15067	746	Karen (Sgaw/Hinthada)	da³¹ kʰɯ³¹ ba³¹	da³¹ kʰɯ³¹ ba³¹	have cold	have cold			8.2	1910	0			
+15068	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵	kɔ̱⁵⁵	call (to someone)	call (to someone)			8.5.13	1960	0			
+15069	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ gă³¹ lu⁵⁵	kɔ̱⁵⁵ gă³¹ lu⁵⁵	call out (hanjiao)	call out (hanjiao)			8.5.13	1961	0			
+15070	746	Karen (Sgaw/Hinthada)	ɔ̱⁵⁵	ɔ̱⁵⁵	drink	drink				1964	0			1713
+15071	746	Karen (Sgaw/Hinthada)	ɯ⁵⁵	ɯ⁵⁵	hum	hum			8.5.5	1970	0			5452
+15072	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ ɯ⁵⁵	tθa̱⁵⁵ ɯ⁵⁵	hum	hum			8.5.5	1970.1	0			32,5452
+15073	746	Karen (Sgaw/Hinthada)	bo³¹ bua³³	bo³¹ bua³³	dim, blurry (eyesight)	dim, blurry (eyesight)			1.2.6.10	1975	0			
+15074	746	Karen (Sgaw/Hinthada)	a³¹ pʰo⁵⁵ o̱³¹ tʰɔ³¹	a³¹ pʰo⁵⁵ o̱³¹ tʰɔ³¹	pregnant	pregnant			1.9.6.1	1981	0			m,m,m,m
+15075	746	Karen (Sgaw/Hinthada)	o³¹ tʰɔ³¹ a³¹ pʰo⁵⁵	o³¹ tʰɔ³¹ a³¹ pʰo⁵⁵	pregnant	pregnant			1.9.6.1	1981.1	0			m,m,m,m
+15076	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵	kɔ̱⁵⁵	call (to animal) (huan)	call (to animal) (huan)			8.5.13	1986	0			
+15077	746	Karen (Sgaw/Hinthada)	mu̱⁵⁵ tʰɔ³¹ ge³³	mu̱⁵⁵ tʰɔ³¹ ge³³	come alive (huoliao)	come alive (huoliao)			6.7.1	2003	0			62,m,m
+15078	746	Karen (Sgaw/Hinthada)	gă³¹ do³³	gă³¹ do³³	tell (story)	tell (story)			1.8.7	2035	0			
+15079	746	Karen (Sgaw/Hinthada)	tɛ⁵⁵	tɛ⁵⁵	tell (story)	tell (story)			1.8.7	2035.1	0			
+15080	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	chew	chew			1.3.4	2041	0			
+15081	746	Karen (Sgaw/Hinthada)	e³¹ me³³	e³¹ me³³	chew	chew			1.3.4	2041.1	0			
+15082	746	Karen (Sgaw/Hinthada)	o̱³¹ o̱⁵⁵	o̱³¹ o̱⁵⁵	crow (rooster)	crow (rooster)			2.2.4.1	2042	0			
+15083	746	Karen (Sgaw/Hinthada)	gɔ³¹ dɔ̱⁵⁵	gɔ³¹ dɔ̱⁵⁵	cackle (hen)	cackle (hen)			8.5.5	2043	0			
+15084	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	call (cat)	call (cat)			8.5.13	2044	0			o
+15085	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	bray (donkey)	bray (donkey)			8.5.4.1	2045	0			w
+15086	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	neigh (horse)	neigh (horse)			8.5.5	2046	0			
+15087	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	call (cow)	call (cow)			8.5.13	2047	0			
+15088	746	Karen (Sgaw/Hinthada)	mɔ³³ da³¹	mɔ³³ da³¹	bark (dog)	bark (dog)			2.1.11.1	2048	0			
+15089	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	grunt (pig)	grunt (pig)			2.1.11.1	2049	0			o
+15090	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	call (sheep)	call (sheep)			8.5.13	2050	0			
+15091	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	roar (tiger)	roar (tiger)			8.5.5	2051	0			o
+15092	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	roar (lion)	roar (lion)			8.5.5	2052	0			o
+15093	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ kʰo³¹	kɔ̱⁵⁵ kʰo³¹	howl (wolf)	howl (wolf)			8.5.5	2053	0			
+15094	746	Karen (Sgaw/Hinthada)	mă³¹ da³³	mă³¹ da³³	call (name)	call (name)			8.5.13	2054	0			
+15095	746	Karen (Sgaw/Hinthada)	ɔ⁵⁵ tʰɔ³¹	ɔ⁵⁵ tʰɔ³¹	open (as door)	open (as door)			6.2.2.6.1	2092	0			
+15096	746	Karen (Sgaw/Hinthada)	gua³¹	gua³¹	look at	look at			1.2.6.11	2101	0			m
+15097	746	Karen (Sgaw/Hinthada)	tʰi³¹ ba̱³¹ li³³	tʰi³¹ ba̱³¹ li³³	see	see			1.2.6.10	2103	0			m
+15098	746	Karen (Sgaw/Hinthada)	tθă³¹ ku̱⁵⁵	tθă³¹ ku̱⁵⁵	cough	cough			1.8.3.3	2111	0			p,1795
+15099	746	Karen (Sgaw/Hinthada)	xe̱⁵⁵	xe̱⁵⁵	thirsty	thirsty			1.1.3.1	2112	0			3298
+15100	746	Karen (Sgaw/Hinthada)	ka³³ ju³³ xe̱⁵⁵	ka³³ ju³³ xe̱⁵⁵	thirsty	thirsty			1.1.3.1	2112.1	0			105,m,3298
+15101	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	gnaw	gnaw			1.3.4.4	2115	0			576
+15102	746	Karen (Sgaw/Hinthada)	hɔ³¹	hɔ³¹	cry	cry			1.8.8.2	2118	0			m
+15103	746	Karen (Sgaw/Hinthada)	da³¹ mo³¹ mi̱⁵⁵	da³¹ mo³¹ mi̱⁵⁵	tired, sleepy	tired, sleepy			9.6.2.2	2125	0			m,m,130
+15104	746	Karen (Sgaw/Hinthada)	e̱³¹ tsʰa⁵⁵	e̱³¹ tsʰa⁵⁵	defecate	defecate			1.8.5.4	2127	0			
+15105	746	Karen (Sgaw/Hinthada)	da³¹ bu̱i⁵⁵	da³¹ bu̱i⁵⁵	tired	tired			9.6.2.2	2135	0			
+15106	746	Karen (Sgaw/Hinthada)	dă³¹ ɤ̱⁵⁵	dă³¹ ɤ̱⁵⁵	deaf	deaf			1.2.7.5	2160	0			p,7282
+15107	746	Karen (Sgaw/Hinthada)	tɕi³¹	tɕi³¹	numb	numb			1.5.11	2165	0			
+15108	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ tθi³¹	kʰɔ³¹ tθi³¹	numb	numb			1.5.11	2165.1	0			m,7094
+15109	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ mɔ³¹	mi̱⁵⁵ mɔ³¹	dream	dream			1.1.4.2	2171	0	jbl5	HIDE	DUPE IN SOURCE
+15110	746	Karen (Sgaw/Hinthada)	be̱³¹	be̱³¹	narrow eyes; squint	narrow eyes; squint			9.7.2	2179	0			
+15111	746	Karen (Sgaw/Hinthada)	be̱³¹ mi³³ kʰli⁵⁵	be̱³¹ mi³³ kʰli⁵⁵	narrow eyes; squint	narrow eyes; squint			9.7.2	2179.1	0			
+15112	746	Karen (Sgaw/Hinthada)	buɛ³³	buɛ³³	call (bird) (ming)	call (bird) (ming)			8.5.13	2180	0			
+15113	746	Karen (Sgaw/Hinthada)	bɔ̱³³	bɔ̱³³	vomit	vomit			1.8.3.2	2202	0			1145
+15114	746	Karen (Sgaw/Hinthada)	bla̱⁵⁵	bla̱⁵⁵	cured (illness)	cured (illness)	be v.	be v.	1.1.5.1	2265	0			
+15115	746	Karen (Sgaw/Hinthada)	bla̱⁵⁵	bla̱⁵⁵	heal (wound)	heal (wound)			1.1.5.1	2266	0			
+15116	746	Karen (Sgaw/Hinthada)	ga³¹	ga³¹	crippled	crippled			4.2.7	2268	0			
+15117	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ ga³¹	kʰɔ³¹ ga³¹	crippled	crippled			4.2.7	2268.1	0			
+15118	746	Karen (Sgaw/Hinthada)	kɔ̱⁵⁵ gă³¹ lu̱⁵⁵	kɔ̱⁵⁵ gă³¹ lu̱⁵⁵	shout, yell	shout, yell			8.5.4.1	2272	0			
+15119	746	Karen (Sgaw/Hinthada)	tsʰe³¹ tsʰa⁵⁵	tsʰe³¹ tsʰa⁵⁵	urinate	urinate			1.5.3.2	2286	0			650,m
+15120	746	Karen (Sgaw/Hinthada)	di̱⁵⁵	di̱⁵⁵	castrate	castrate			1.9.2.3	2303	0			
+15121	746	Karen (Sgaw/Hinthada)	di̱⁵⁵ glo³¹ di̱³¹	di̱⁵⁵ glo³¹ di̱³¹	castrate	castrate			1.9.2.3	2303.1	0			m,m,300
+15122	746	Karen (Sgaw/Hinthada)	pʰi⁵⁵ be̱³¹	pʰi⁵⁵ be̱³¹	grow (boil)	grow (boil)			9.7.2	2319	0			
+15123	746	Karen (Sgaw/Hinthada)	pʰi⁵⁵ be̱³¹ tθa̱⁵⁵	pʰi⁵⁵ be̱³¹ tθa̱⁵⁵	grow (boil)	grow (boil)			9.7.2	2319.1	0			
+15124	746	Karen (Sgaw/Hinthada)	o̱³¹ pʰlɛ³¹ a³¹ pʰo⁵⁵	o̱³¹ pʰlɛ³¹ a³¹ pʰo⁵⁵	birth, give	birth, give	v	v	1.1.2	2320	0			3482,70,p,1811
+15125	746	Karen (Sgaw/Hinthada)	xɛ̱³¹	xɛ̱³¹	thin	thin	v	v	9.7.2	2346	0			
+15126	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵	mi̱⁵⁵	sleep	sleep			1.1.4.1	2357	0			130
+15127	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ dă³¹ be³³	mi̱⁵⁵ dă³¹ be³³	asleep	asleep			1.1.4.1	2359	0			130,m,m
+15128	746	Karen (Sgaw/Hinthada)	ɔ̱⁵⁵	ɔ̱⁵⁵	suck (milk)	suck (milk)			1.3.2.1	2360	0			
+15129	746	Karen (Sgaw/Hinthada)	gă³¹ do³³	gă³¹ do³³	speak	speak			8.5.10.1	2361	0			
+15130	746	Karen (Sgaw/Hinthada)	gă³¹ do³³ da³¹	gă³¹ do³³ da³¹	speak	speak			8.5.10.1	2361.1	0			
+15131	746	Karen (Sgaw/Hinthada)	da³¹ gă³¹ do³³	da³¹ gă³¹ do³³	speak	speak			8.5.10.1	2361.2	0			
+15132	746	Karen (Sgaw/Hinthada)	tɛ⁵⁵	tɛ⁵⁵	speak	speak			8.5.10.1	2361.e	0			
+15133	746	Karen (Sgaw/Hinthada)	tθi⁵⁵	tθi⁵⁵	die	die			1.1.6	2363	0			27
+15134	746	Karen (Sgaw/Hinthada)	tsʰa⁵⁵	tsʰa⁵⁵	sore (leg)	sore (leg)			1.1.5.1	2368	0			
+15135	746	Karen (Sgaw/Hinthada)	kʰɔ³¹ tsʰa⁵⁵	kʰɔ³¹ tsʰa⁵⁵	sore (leg)	sore (leg)			1.1.5.1	2368.1	0			336,m
+15136	746	Karen (Sgaw/Hinthada)	tsʰa⁵⁵	tsʰa⁵⁵	ache (teng)	ache (teng)			1.1.5.1	2391	0			1844
+15137	746	Karen (Sgaw/Hinthada)	ɔ³¹ li̱⁵⁵	ɔ³¹ li̱⁵⁵	lick	lick			1.3.3.1	2401	0			m,629
+15138	746	Karen (Sgaw/Hinthada)	gă³¹|na̱³¹	gă³¹|na̱³¹	listen	listen			1.2.7.4	2409	0			811
+15139	746	Karen (Sgaw/Hinthada)	na̱³¹ xu⁵⁵	na̱³¹ xu⁵⁵	hear	hear			1.2.7.4	2410	0			811,m
+15140	746	Karen (Sgaw/Hinthada)	ju³¹	ju³¹	swallow	swallow	v	v	1.3.5.6	2416	0		D1	627
+15141	746	Karen (Sgaw/Hinthada)	tʰo⁵⁵ wɛ̱³¹	tʰo⁵⁵ wɛ̱³¹	spit	spit			1.8.3	2421	0			601,607
+15142	746	Karen (Sgaw/Hinthada)	nø̱⁵⁵	nø̱⁵⁵	smell (with nose)	smell (with nose)			1.2.8.5	2450	0			1415
+15143	746	Karen (Sgaw/Hinthada)	gă³¹ li³¹	gă³¹ li³¹	inhale	inhale			1.1.2.2	2456	0			
+15144	746	Karen (Sgaw/Hinthada)	xa⁵⁵ ɣɔ³³	xa⁵⁵ ɣɔ³³	blind	blind			1.2.6.14.2	2465	0			m,m
+15145	746	Karen (Sgaw/Hinthada)	pʰui⁵⁵	pʰui⁵⁵	birth, give (to piglet)	birth, give  (to piglet)			1.1.2	2467	0	jbl3		1811
+15146	746	Karen (Sgaw/Hinthada)	lɔ³³	lɔ³³	lay egg	lay egg			6.17	2468	0			
+15147	746	Karen (Sgaw/Hinthada)	tsʰɔ⁵⁵ di̱³¹ lɔ³³	tsʰɔ⁵⁵ di̱³¹ lɔ³³	lay egg	lay egg			6.17	2468.1	0			m,300,m
+15148	746	Karen (Sgaw/Hinthada)	lɔ³³ tθi⁵⁵	lɔ³³ tθi⁵⁵	recede (boil)	recede (boil)			6.7.1	2488	0			
+15149	746	Karen (Sgaw/Hinthada)	ni³³	ni³³	laugh	laugh			1.8.8.1	2492	0			1105
+15150	746	Karen (Sgaw/Hinthada)	ti̱⁵⁵	ti̱⁵⁵	blow nose	blow nose			1.3.1.4	2497	0			
+15151	746	Karen (Sgaw/Hinthada)	ti̱⁵⁵ nɔ̱³³ e̱³¹	ti̱⁵⁵ nɔ̱³³ e̱³¹	blow nose	blow nose			1.3.1.4	2497.1	0			
+15152	746	Karen (Sgaw/Hinthada)	mi̱⁵⁵ bø³¹ tʰɔ³¹	mi̱⁵⁵ bø³¹ tʰɔ³¹	wake	wake			1.1.4	2498	0			130,p,142
+15153	746	Karen (Sgaw/Hinthada)	o̱³¹ bu̱i⁵⁵	o̱³¹ bu̱i⁵⁵	rest	rest			1.1.4.1	2499	0			
+15154	746	Karen (Sgaw/Hinthada)	di̱⁵⁵	di̱⁵⁵	caponize	caponize			2.4.1	2509	0			m
+15155	746	Karen (Sgaw/Hinthada)	ju³¹	ju³¹	swallow	swallow	v	v	1.3.5.6	2511	0	jbl5	HIDE	DUPE IN SOURCE
+15156	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵	tθa̱⁵⁵	itch	itch			1.6.5.5	2515	0			1457
+15157	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	bitten	bitten	be v.	be v.	1.3.4.4	2520	0			
+15158	746	Karen (Sgaw/Hinthada)	xɯi³¹	xɯi³¹	bitten	bitten	be v.	be v.	1.3.4.4	2520.1	0			
+15159	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	bite	bite			1.3.4.4	2521	0			
+15160	746	Karen (Sgaw/Hinthada)	xɯi³¹	xɯi³¹	bite	bite			1.3.4.4	2521.1	0			
+15161	746	Karen (Sgaw/Hinthada)	kʰo³¹ mu³³	kʰo³¹ mu³³	dizzy	dizzy			8.3.1.11.3	2550	0			
+15162	746	Karen (Sgaw/Hinthada)	e⁵⁵ tʰɔ³¹	e⁵⁵ tʰɔ³¹	blink	blink			1.2.6.12	2563	0			m,m
+15163	746	Karen (Sgaw/Hinthada)	ɔ̱⁵⁵ tʰɔ³¹	ɔ̱⁵⁵ tʰɔ³¹	open (mouth)	open (mouth)			6.2.2.6.1	2571	0			
+15164	746	Karen (Sgaw/Hinthada)	gă³¹ li³¹ tʰɔ³¹	gă³¹ li³¹ tʰɔ³¹	bloat (belly) (zhang)	bloat (belly) (zhang)			1.4.7	2574	0			
+15165	746	Karen (Sgaw/Hinthada)	tθa̱⁵⁵ ko³¹	tθa̱⁵⁵ ko³¹	nervous	nervous			8.3.1.5.5	2577	0			32
+15166	746	Karen (Sgaw/Hinthada)	e³¹	e³¹	sting	sting	v	v	2.4.2	2583	0			
+15167	746	Karen (Sgaw/Hinthada)	pʰu̱i⁵⁵	pʰu̱i⁵⁵	open (eyes)	open (eyes)			6.2.2.6.1	2584	0			
+15168	746	Karen (Sgaw/Hinthada)	jo⁵⁵ tʰɔ³¹	jo⁵⁵ tʰɔ³¹	swell up	swell up			1.1.5.2	2595	0			
+15169	746	Karen (Sgaw/Hinthada)	ȵɔ⁵⁵ tʰɔ³¹	ȵɔ⁵⁵ tʰɔ³¹	swell up	swell up			1.1.5.2	2595.1	0			
+15170	746	Karen (Sgaw/Hinthada)	mu³³	mu³³	drunk	drunk			1.3.5.9	2621	0			7298
+15171	746	Karen (Sgaw/Hinthada)	mu³³ tθi⁵⁵	mu³³ tθi⁵⁵	drunk	drunk			1.3.5.9	2621.1	0			7298,m

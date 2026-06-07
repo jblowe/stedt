@@ -1,322 +1,322 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-127517	436	Chantyal	jyu	jyu	body	body		1.1.1	1.1	0		15
-127518	436	Chantyal	ɦər	ɦər	body	body		1.1.1	1.1	0		
-127519	436	Chantyal	dayne ɦər	dayne ɦər	side (right)	side (right)		1.4.5	1.2	0		
-127520	436	Chantyal	dewrw ɦər	dewrw ɦər	side (left)	side (left)		1.4.5	1.3	0		bNepali,m
-127521	436	Chantyal	cak	cak	back	back		1.4.8	1.4	0		bNepali
-127522	436	Chantyal	kan◦na	kan◦na	back	back		1.4.8	1.4	0		
-127523	436	Chantyal	cha◦ti	chati	front	front		1.4.4	1.5	0		m,1212
-127524	436	Chantyal	pho	pho	front	front		1.4.4	1.5	0		
-127525	436	Chantyal	ya◦pɦale	ya◦pɦale	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
-127526	436	Chantyal	ko◦li	ko◦li	lap	lap		1.4.4.2	1.8	0		2326,m
-127527	436	Chantyal	nu◦nu	nu◦nu	bosom	bosom		1.4.4.2	1.9	0		253,253
-127528	436	Chantyal	cẽy pho	cẽy pho	groin / loins / hips	groin  /  loins  / hips		1.4.9	1.10	0		m,398
-127529	436	Chantyal	sya	sya	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34
-127530	436	Chantyal	so-wa	so-wa	alive / be living	alive  /  be living		1.1.2.1	1.12	0		80,s
-127531	436	Chantyal	si-wa	si-wa	die / be dead	die  /  be dead		1.1.6	1.13	0		27,s
-127532	436	Chantyal	mudar	mudar	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		
-127533	436	Chantyal	si-si-wa pasu	si-si-wa pasu	carcass / dead animal	carcass  /  dead animal		1.1.6.1	1.15	0		27,27,s,m
-127534	436	Chantyal	nɦu-wa	nɦu-wa	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		129,s
-127535	436	Chantyal	chi-wa	chi-wa	awake / be awake	awake  /  be awake		1.1.4	1.17	0		152,s
-127536	436	Chantyal	swi◦na mara-wa	swi◦na mara-wa	dream	dream (v.)	v	1.1.4.2	1.18	0		127,m,m,m
-127537	436	Chantyal	kəpal	kəpal	head	head		1.2.1	2.1	0		1241
-127538	436	Chantyal	thapla	thapla	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		
-127539	436	Chantyal	talo (C)̱	talo (C)̱	fontanel (soft spots in baby s	fontanel (soft spots in baby s		1.2.1.3	2.3	0		m
-127540	436	Chantyal	khoro	khoro	skull	skull		1.2.1.1	2.4	0		m
-127541	436	Chantyal	guri	guri	brain	brain		1.2.4	2.5	0	HIDE	DUPE IN SOURCE
-127542	436	Chantyal	jəkta	jəkta	hair of head	hair of head		1.2.3	2.7	0	HIDE	DUPE IN SOURCE
-127543	436	Chantyal	kəpal	kəpal	hair	hair		1.2.3		0		1241
-127544	436	Chantyal	kəpal-ye chala	kəpal-ye chala	scalp	scalp		1.2.1.5	2.8	0		1241,m,b
-127545	436	Chantyal	si◦ro	si◦ro	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		m,m
-127546	436	Chantyal	ruk	ruk	horn (of animal)	horn (of animal)		1.2.2	2.10	0		814
-127547	436	Chantyal	ruk	ruk	antler (of deer)	antler (of deer)		1.2.2	2.11	0		814
-127548	436	Chantyal	ɦənuwar	ɦə◦nu◦war	face	face		1.2.5	3.1	0		bNepali
-127549	436	Chantyal	suŋ	suŋ	mouth / face	mouth / face		1.3.1		0		477
-127550	436	Chantyal	ɦõ	ɦõ	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		356
-127551	436	Chantyal	kəncər	kəncər	temple	temple		1.2.5.1	3.3	0		bNepali
-127552	436	Chantyal	mi	mi	eye	eye		1.2.6	3.4	0		682
-127553	436	Chantyal	kwar◦lek	kwar◦lek	eyeball	eyeball		1.2.6.1	3.4.2	0		2072,m
-127554	436	Chantyal	mi-ye nani	mi-ye nani	iris	iris		1.2.6.2	3.4.2.1	0		682,m,m
-127555	436	Chantyal	mi-ye nani	mi-ye nani	pupil	pupil		1.2.6.2	3.4.2.2	0		682,m,m
-127556	436	Chantyal	ãkhibɦə̃w	ãkhibɦə̃w	eyebrow	eyebrow		1.2.6.6	3.4.3	0		bNepali
-127557	436	Chantyal	pərela	pərela	eyelash	eyelash		1.2.6.5	3.4.4	0		b
-127558	436	Chantyal	mi cimcim la-wa	mi cimcim la-wa	blink	blink (v.)	v	1.2.6.12	3.4.5	0		682,m,m,m
-127559	436	Chantyal	mi◦lim	mi◦lim	tears	tears		1.2.6.7	3.4.6	0		682,m
-127560	436	Chantyal	kət◦ca◦ra	kət◦ca◦ra	eye sand	eye sand		1.2.6.8	3.4.7	0		m,m,m
-127561	436	Chantyal	kara-wa	kara-wa	cry  /  weep	cry  /  weep (v.)	v	1.8.8.2	3.4.8	0		1103,s
-127562	436	Chantyal	mara -wa	mara -wa	see  /  look	see  /  look (v.)	v	1.2.6.10	3.4.9	0		m
-127563	436	Chantyal	sɦyw-wa	sɦyw-wa	look at	look at	v.	1.2.6.11		0		
-127564	436	Chantyal	kana	kan◦a	blind	blind		1.2.6.14.2	3.4.10	0		1407
-127565	436	Chantyal	nak/nakh	nak/nakh	nose	nose		1.2.8	3.5	0		bNepali,bNepali
-127566	436	Chantyal	nak-ye dãri	nak-ye dãri	nose bridge	nose bridge		1.2.8	3.5.1	0		
-127567	436	Chantyal	nak-ye dula	nak-ye dula	nostril	nostril		1.2.8.1	3.5.2	0		b,m,m
-127568	436	Chantyal	nak-nɦa-ri-wa  rə̃w	nak-nɦa-ri-wa  rə̃w	nose hair	nose hair		1.2.8	3.5.4	0		
-127569	436	Chantyal	thutno	thut◦no	snout	snout		1.2.8	3.5.5	0		bNepali
-127570	436	Chantyal	nap	nap	liquid mucus	liquid mucus		3.2.3	3.5.6	0		805
-127571	436	Chantyal	kɦotəl	kɦotəl	solid mucus	solid mucus		1.1.5	3.5.7	0		
-127572	436	Chantyal	nap khyala-wa	nap khyala-wa	blow nose	blow nose (v.)	v	1.3.1.4	3.5.8	0		805,m,m
-127573	436	Chantyal	suŋi-wa	suŋi-wa	sniff	sniff (v.)	v	1.2.8.5	3.5.9	0		
-127574	436	Chantyal	bəsə-wa	bəsə-wa	smell good	smell good		1.2.8.5	3.5.9	0		
-127575	436	Chantyal	thaŋkha-wa	thaŋkha-wa	stink	stink		7.1.4.5		0		
-127576	436	Chantyal	nɦa	nɦa	ear	ear		1.2.7	3.6	0		811
-127577	436	Chantyal	nɦa-ye loti	nɦa-ye loti	earlobe	earlobe		1.2.7.1	3.6.1	0		811,m,m
-127578	436	Chantyal	nɦa	nɦa	outer ear	outer ear		9.2	3.6.2	0		811
-127579	436	Chantyal	nɦa-ye dhoŋ◦ri	nɦa-ye dhoŋ◦ri	inner ear	inner ear		9.2.5	3.6.3	0		811,m,822,m
-127580	436	Chantyal	nɦa-ye dhoŋ◦ri	nɦa-ye dhoŋ◦ri	ear canal	ear canal		1.2.7	3.6.4	0		811,m,822,m
-127581	436	Chantyal	kɦana◦kuci	kɦana◦ku◦ci	earwax	earwax		1.2.7.3	3.6.6	0		bNepali
-127582	436	Chantyal	thasa-wa	thasa-wa	hear	hear (v.)	v	1.2.7.4	3.6.7	0		
-127583	436	Chantyal	bɦəyra	bɦəyra	deaf	deaf		1.2.7.5	3.6.8	0		m,b?
-127584	436	Chantyal	suŋ	suŋ	mouth	mouth		1.3.1	3.7	0		477
-127585	436	Chantyal	suŋ-ye ta◦la	suŋ-ye ta◦la	palate	palate		1.3.1.1	3.7.1	0		477,m,m,m
-127586	436	Chantyal	suŋ-ye ta◦la	suŋ-ye tala	soft palate	soft palate		7.1.4.2	3.7.2	0		477,m,m,m
-127587	436	Chantyal	gĩja	gĩja	gums	gums		1.3.4.3	3.7.3	0		b
-127588	436	Chantyal	tərkula	tərkula	uvula	uvula		1.3.5.1	3.7.4	0		
-127589	436	Chantyal	ral	ral	saliva	saliva		1.8.3	3.7.5	0		
-127590	436	Chantyal	ca-wa	ca-wa	eat	eat (v.)	v	1.5.3.2	3.7.6	0		36,s
-127591	436	Chantyal	thũ-wa	thũ-wa	drink	drink (v.)	v		3.7.7	0		502,s
-127592	436	Chantyal	tirkha	tirkha	thirsty	thirsty	be	1.1.3.1	3.7.8	0		m,m
-127593	436	Chantyal	khyana kha-wa	khyana kha-wa	hungry	hungry	be	1.1.3	3.7.9	0		b?
-127594	436	Chantyal	pho bɦəri-wa	pho bɦəri-wa	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		2103,b,s
-127595	436	Chantyal	thuk◦ki-wa	thuk◦ki-wa	spit	spit (v.)	v	1.8.3	3.7.11	0		601,m,m
-127596	436	Chantyal	wa◦khal	wa◦khal	vomit	vomit (n.)	n	1.8.3.2	3.7.12	0		
-127597	436	Chantyal	wa◦khal khya◦la-wa	wa◦khal khya◦la-wa	vomit	vomit (v.)	v	1.8.3.2	3.7.13	0		
-127598	436	Chantyal	capi-wa	capi-wa	hold in mouth	hold in mouth (v.)	v	1.3.4.4	3.7.14	0		
-127599	436	Chantyal	suŋ ã la-wa	suŋ ã la-wa	gape  /  open mouth	gape  /  open mouth (v.)	v	1.3.1	3.7.15	0		477,m,m,m
-127600	436	Chantyal	ɦayi la-wa	ɦayi la-wa	yawn	yawn (v.)	v	1.3.1.3	3.7.16	0		
-127601	436	Chantyal	khe◦le	khe◦le	tongue	tongue		1.3.3	3.8	0		p,621
-127602	436	Chantyal	boli-wa	boli-wa	speak	speak (v.)	v	8.5.10.1	3.8.1	0		b
-127603	436	Chantyal	phəkphəkə-wa	phəkphəkə-wa	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
-127604	436	Chantyal	lata	lata	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		
-127605	436	Chantyal	lɦe◦mə	lɦe◦mə	lick	lick		1.3.3.1	3.8.4	0		629,m
-127606	436	Chantyal	wəth	wəth	lip	lip		1.3.2	3.9	0		bNepali
-127607	436	Chantyal	phyãra-gã-wa wəth	phyãra-gã-wa wəth	upper lip	upper lip		9.2.1	3.9.1	0		
-127608	436	Chantyal	pɦiriŋ-gã-wa wəth	pɦiriŋ-gã-wa wəth	lower lip	lower lip			3.9.2	0		m,m,m,m
-127609	436	Chantyal	cuc◦co	cuc◦co	beak / bill	beak / bill		1.3.1.2	3.9.3	0		442,2095
-127610	436	Chantyal	ne◦rə-wa	ne◦rə-wa	smile	smile (v.)	v	1.8.8.1	3.9.4	0		1105,m,s
-127611	436	Chantyal	mway la-wa	mway la-wa	kiss	kiss		1.3.2.2	3.9.5	0		b,m,s
-127612	436	Chantyal	swa	swa	tooth	tooth		1.3.4	3.10	0		632
-127613	436	Chantyal	baŋra	baŋra	molar	molar		1.3.4.2	3.10.2	0		3319
-127614	436	Chantyal	na◦ku-ye swa	na◦ku-ye swa	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang		1.3.4.1	3.10.3	0		6026,1764,m,632
-127615	436	Chantyal	buri baŋra	buri baŋra	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		b
-127616	436	Chantyal	daara	daara	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		2814
-127617	436	Chantyal	jɦi-wa	jɦi-wa	bite	bite (v.)	v	1.3.4.4	3.10.7	0		
-127618	436	Chantyal	cəpə-wa	cəpə-wa	chew	chew (v.)	v	1.3.4	3.10.8	0		bNepali,s
-127619	436	Chantyal	gala	gala	cheek	cheek		1.2.5.2	3.11	0		2050
-127620	436	Chantyal	gala-ye ɦaar	gala-ye ɦaar	cheekbone	cheekbone		1.2.5.2	3.11.1	0		2050,m,m
-127621	436	Chantyal	cyũ	cyũ	chin	chin		1.2.5.3	3.12	0		bNepali
-127622	436	Chantyal	cyappu	cyap◦pu	jaw	jaw		1.2.5.2	3.13	0		bNepali
-127623	436	Chantyal	pɦiriŋ-gã-wa cyappu	pɦiriŋ-gã-wa cyap◦pu	lower jaw / mandible	lower jaw  /  mandible		1.2.5.2	3.13.1	0		m,m,m,bNepali
-127624	436	Chantyal	phyãraŋ-gã-wa cyappu	phyãraŋ-gã-wa cyap◦pu	upper jaw / maxilla	upper jaw  /  maxilla		1.2.5.2	3.13.2	0		m,m,m,bNepali
-127625	436	Chantyal	kha	kha	neck	neck		1.4.2	4.1	0		494
-127626	436	Chantyal	gãra	gãra	goiter	goiter		1.4.2.2	4.1.1	0		b
-127627	436	Chantyal	ga◦le kha-si-wa	gale kha-si-wa	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)		1.1.5.2	4.1.2	0		m,5650,m,m,s
-127628	436	Chantyal	khorpiti	khorpiti	nape of neck	nape of neck		1.4.2.1	4.1.3	0		m
-127629	436	Chantyal	kil◦tiŋ	kil◦tiŋ	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		496,m
-127630	436	Chantyal	gɦãti	gɦãti	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		b
-127631	436	Chantyal	bɦwamra	bɦwamra	esophagus	esophagus		1.3.5.5	4.2.2	0		
-127632	436	Chantyal	kɦilə-wa	kɦilə-wa	swallow	swallow (v.)	v	1.3.5.6	4.2.3	0		
-127633	436	Chantyal	jãte	jãte	gizzard / crop of bird	gizzard  /  crop of bird		1.7.6.1	4.2.4	0		
-127634	436	Chantyal	chati	chati	chest	chest		1.4.4.3	5.1	0		b
-127635	436	Chantyal	chati-ye kərəŋ	chati-ye kərəŋ	rib cage	rib cage		1.4.4.3	5.1.1	0		b,m,b
-127636	436	Chantyal	kərəŋ	kərəŋ	rib	rib		1.4.4.3	5.1.2	0		b
-127637	436	Chantyal	pɦam	pɦam	shoulder	shoulder		1.4.3	5.3	0		754
-127638	436	Chantyal	phir pata	phir pata	shoulder blade / scapula	shoulder blade  /  scapula		1.4.3.2	5.3.1	0		m,b
-127639	436	Chantyal	nu◦nu	nu◦nu	breast	breast		1.4.4.3	5.4	0		253,253
-127640	436	Chantyal	nu◦nu-ye kəpal	nu◦nu-ye kəpal	nipple	nipple			5.4.1	0		253,253,m,m
-127641	436	Chantyal	kəcuno	kəcuno	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		
-127642	436	Chantyal	nɦe	nɦe	milk	milk			5.4.3	0		254
-127643	436	Chantyal	bekuti	bekuti	colostrum	colostrum			5.4.4	0		
-127644	436	Chantyal	cu◦si-wa	cu◦si-wa	suck	suck		1.3.2.1	5.4.5	0		
-127645	436	Chantyal	nu◦nu khwaya-wa	nu◦nu khwaya-wa	nurse  /  suckle	nurse  /  suckle (v.)	v	4.2.1.5	5.4.6	0		253,253,m,m
-127646	436	Chantyal	kən◦nə	kən◦nə	back	back		1.4.8	5.5	0		
-127647	436	Chantyal	kən◦nə	kən◦nə	upper back	upper back		9.2.1	5.5.1	0		
-127648	436	Chantyal	cak	cak	lower back	lower back		1.4.8.1	5.5.2	0		bNepali
-127649	436	Chantyal	kən◦nyaw◦lo	kən◦nyaw◦lo	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		207,m,232
-127650	436	Chantyal	mɦasi	mɦasi	spinal cord	spinal cord		1.4.8.2	5.5.5	0	HIDE	DUPE IN SOURCE
-127651	436	Chantyal	kupre	kupre	hunchback	hunchback		1.4.8.3	5.5.6	0		m
-127652	436	Chantyal	dɦar	dɦar	waist	waist		1.4.6	5.6	0		212
-127653	436	Chantyal	bɦũri	bɦũ◦ri	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)		1.4.7	5.7	0		Neploan
-127654	436	Chantyal	põ◦ti	põ◦ti	navel	navel		1.9.4	5.7.1	0		2111,519
-127655	436	Chantyal	cak	cak	hips	hips		1.4.9.2	5.8.1	0		bNepali,bNepali
-127656	436	Chantyal	dɦar-ye ɦaar	dɦar-ye ɦaar	hipbone	hipbone		1.4.9.2	5.8.2	0		212,m,234
-127657	436	Chantyal	səpito	səpito	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		m
-127658	436	Chantyal	samra	samra	thigh	thigh		1.5.7.1		0	HIDE	DUPE IN SOURCE
-127659	436	Chantyal	cak	cak	rump	rump		1.4.10	5.10	0		bNepali
-127660	436	Chantyal	cak	cak	buttocks	buttocks		1.4.10	5.10.1	0		bNepali
-127661	436	Chantyal	puchchər-ye ɦaar	puchchər-ye ɦaar	tailbone / coccyx	tailbone  /  coccyx		1.6.3.3	5.10.2	0		b
-127662	436	Chantyal	puchchər	puchchər	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		b
-127663	436	Chantyal	ya	ya	arm	arm		1.5.1.2	6.1	0		696
-127664	436	Chantyal	kakhi	kakhi	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
-127665	436	Chantyal	kucikuci la-wa	kucikuci la-wa	tickle	tickle		1.5.1.2.4	6.1.1.1	0		
-127666	436	Chantyal	pwãja	pwãja	upperarm	upperarm		1.5.1.2.1	6.1.2	0		
-127667	436	Chantyal	pwãja	pwãja	arm muscles / biceps	arm muscles  /  biceps		1.5.1.2	6.1.3	0		
-127668	436	Chantyal	kwina	kwina	elbow	elbow		1.5.8.3	6.1.4	0		
-127669	436	Chantyal	kwina-ye ɦaar	kwina-ye ɦaar	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		m,m,b
-127670	436	Chantyal	pakhura	pakhura	forearm / lower arm	forearm  /  lower arm		1.5.1.2.2	6.1.5	0		
-127671	436	Chantyal	nari	nari	wrist	wrist		1.5.8.1	6.1.6	0		b
-127672	436	Chantyal	ya	ya	hand	hand		1.5.1.1	6.1.7	0		696
-127673	436	Chantyal	ləpta	ləpta	palm	palm		1.5.5	6.1.7.1	0		
-127674	436	Chantyal	murki	murki	fist	fist		1.5.1.1.1	6.1.7.3	0		b
-127675	436	Chantyal	ghussa	ghussa	front of fist, knuckles	front of fist, knuckles		1.4.4		0		
-127676	436	Chantyal	dayne ya	dayne ya	right hand	right hand		1.5.3.2	6.1.7.4	0		m,696
-127677	436	Chantyal	dewre ya	dewre ya	left hand	left hand		1.5.3.2	6.1.7.5	0		bNepali,696
-127678	436	Chantyal	pəkhyata	pəkhyata	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		706,m
-127679	436	Chantyal	pənja	pənja	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
-127680	436	Chantyal	pɦa◦le	pɦale	leg	leg		1.5.7	6.2	0		341,342
-127681	436	Chantyal	samra	samra	thigh	thigh		1.5.7.1	6.2.1	0	D1	
-127682	436	Chantyal	samra-ye ɦaar	samra-ye ɦaar	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		m,m,b
-127683	436	Chantyal	samra-ye pholce	samra-ye pholce	hamstring	hamstring		1.6.6.2	6.2.1.2	0		
-127684	436	Chantyal	gɦũra	gɦũra	knee	knee		1.5.8.4	6.2.2	0		b
-127685	436	Chantyal	gɦũra-ye ɦaar	gɦũra-ye ɦaar	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		b,m,b
-127686	436	Chantyal	gɦũra-ye khurpiti	gɦũra-ye khurpiti	knee hollow / popliteal region	knee hollow  /  popliteal region		1.5.8.4	6.2.2.2	0		b,m,m
-127687	436	Chantyal	tigra	tigra	shin	shin		1.5.7.2	6.2.3	0		
-127688	436	Chantyal	tigra-ye ɦaar	tigra-ye ɦaar	shin bone / tibia	shin bone  /  tibia		1.5.7.2	6.2.3.1	0		m,m,b
-127689	436	Chantyal	tigra-ye pholce	tigra-ye pholce	calf	calf		1.5.7	6.2.4	0		
-127690	436	Chantyal	goli aŋla	goli aŋla	ankle	ankle		1.5.8.2	6.2.5	0		
-127691	436	Chantyal	goli aŋla-ye ɦaar	goli aŋla-ye ɦaar	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		m,m,m,b
-127692	436	Chantyal	pɦa◦le	pɦale	foot	foot		1.5.2	6.2.6	0		341,342
-127693	436	Chantyal	karkucca	karkucca	heel	heel		1.5.2.1	6.2.6.1	0		b
-127694	436	Chantyal	pəytələ	pəytələ	sole	sole		1.5.5	6.2.6.5	0		
-127695	436	Chantyal	pɦal	pɦal	footprint	footprint		1.5.2.5	6.2.6.7	0		
-127696	436	Chantyal	khur◦i	khuri	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		414,m
-127697	436	Chantyal	pənja	pənja	paw (of animal)	paw (of animal)		1.5.4	6.2.6.9	0		
-127698	436	Chantyal	dũra	dũra	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-127699	436	Chantyal	khwaltyaŋ khwaltyaŋ la-wa	khwaltyaŋ khwaltyaŋ la-wa	limp	limp (v.)	v	1.5.12	6.2.8	0		
-127700	436	Chantyal	əŋŋula	əŋŋula	finger	finger		1.5.6	7.1	0		b
-127701	436	Chantyal	jethi əŋŋula	jethi əŋŋula	index finger	index finger		1.0	7.1.1	0		m,b
-127702	436	Chantyal	mayli əŋŋula	mayli əŋŋula	middle finger	middle finger		1.9.4	7.1.2	0		m,b
-127703	436	Chantyal	sãyli əŋŋula	sãyli əŋŋula	ring finger	ring finger		1.5.6.2	7.1.3	0		m,b
-127704	436	Chantyal	kanchi əŋŋula	kanchi əŋŋula	little finger	little finger		9.7.2	7.1.4	0		m,b
-127705	436	Chantyal	buri əŋŋula	buri əŋŋula	thumb	thumb		1.5.6.1	7.1.5	0		m,b
-127706	436	Chantyal	əŋŋual-ye chap	əŋŋual-ye chap	fingerprint	fingerprint		1.5.6.1	7.1.6	0		b
-127707	436	Chantyal	əŋŋula	əŋŋula	toe	toe		1.5.6	7.2	0		b
-127708	436	Chantyal	buri əŋŋula	buri əŋŋula	big toe	big toe		1.5.6.1	7.2.1	0		m,b
-127709	436	Chantyal	jethi əŋŋula	jethi əŋŋula	second toe	second toe		9.9	7.2.2	0		m,b
-127710	436	Chantyal	mayli əŋŋula	mayli əŋŋula	middle toe	middle toe		1.9.4	7.2.3	0		m,b
-127711	436	Chantyal	sãyli əŋŋula	sãyli əŋŋula	fourth toe	fourth toe		9.9	7.2.4	0		m,b
-127712	436	Chantyal	kanchi əŋŋula	kanchi əŋŋula	little toe	little toe		9.7.2	7.2.5	0		m,b
-127713	436	Chantyal	aŋla	aŋla	knuckle (joint of digit)	knuckle (joint of digit)		1.5.8.5	7.3	0		
-127714	436	Chantyal	nəŋ	nəŋ	nail	nail		1.5.10	7.4	0		
-127715	436	Chantyal	ya-ye nəŋ	ya-ye nəŋ	fingernail	fingernail		1.5.10.1	7.4.1	0		696,m,320
-127716	436	Chantyal	pɦale-ye nəŋ	pɦale-ye nəŋ	toenail	toenail		1.5.10.2	7.4.2	0		
-127717	436	Chantyal	nəŋra	nəŋra	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		
-127718	436	Chantyal	nəŋra	nəŋra	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		
-127719	436	Chantyal	sənnaso	sənnaso	pincers (eg. of crab)	pincers (eg. of crab)		1.5.10.4	7.4.5	0		
-127720	436	Chantyal	rə̃w	rə̃w	hair (general)	hair (general)		1.2.3	8.1	0		
-127721	436	Chantyal	jəkta	jəkta	hair of head	hair of head		1.2.3	8.1.1	0	D1	
-127722	436	Chantyal	dari◦kha◦ta	dari◦kha◦ta	beard / moustache	beard / moustache		1.2.5.5	8.1.2	0		2063,273,m
-127723	436	Chantyal	kha◦ta	kha◦ta	beard	beard		1.2.5.5	8.1.2.1	0		273,m
-127724	436	Chantyal	dari	dari	goatee	goatee		1.2.5.5	8.1.2.2	0		2063
-127725	436	Chantyal	juŋŋa	juŋŋa	moustache	moustache		1.2.5.5	8.1.2.3	0		b
-127726	436	Chantyal	bɦuwa	bɦuwa	body hair	body hair		1.6.1	8.1.3	0		
-127727	436	Chantyal	rə̃w	rə̃w	hair / fur	hair / fur		1.2.3		0		
-127728	436	Chantyal	jəyre	jəyre	underarm hair	underarm hair		1.5.1.2.3	8.1.3.1	0		m
-127729	436	Chantyal	chati-ye rə̃w	chati-ye rə̃w	chest hair	chest hair		1.4.4.5	8.1.3.2	0		b,m,m
-127730	436	Chantyal	pɦa◦le-ye rə̃w	pɦale-ye rə̃w	leg hair	leg hair		1.5.7	8.1.3.3	0		341,342,m,m
-127731	436	Chantyal	rə̃w	rə̃w	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		
-127732	436	Chantyal	bɦulla	bɦulla	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		
-127733	436	Chantyal	jək◦ta	jək◦ta	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		
-127734	436	Chantyal	jyuŋŋa	jyuŋŋa	whiskers (of animal)	whiskers (of animal)		1.2.5.5	8.1.7	0		b
-127735	436	Chantyal	chala	chala	skin	skin		1.6.5	8.2	0		b
-127736	436	Chantyal	pəsina	pəsina	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		b,bNepali
-127737	436	Chantyal	kɦwə̃yli	kɦwə̃yli	freckle	freckle		1.6.5.3	8.2.3.1	0		
-127738	436	Chantyal	dənnipor	dənnipor	pimple	pimple		1.6.5.3	8.2.3.2	0		
-127739	436	Chantyal	mo◦so	moso	mole	mole		2.2.7	8.2.3.3	0		2447,m
-127740	436	Chantyal	tilkusi	tilkusi	wart	wart		1.6.5.3	8.2.3.4	0		
-127741	436	Chantyal	məyo	məyo	cyst	cyst		1.6.5.3	8.2.3.5	0		
-127742	436	Chantyal	tata	tata	scar	scar		1.6.5.3	8.2.3.7	0		
-127743	436	Chantyal	cawre gala	cawre gala	wrinkle	wrinkle		9.6.2	8.2.3.8	0		b,m
-127744	436	Chantyal	cilə-wa	cilə-wa	itch  /  be itchy	itch (v.)  /  be itchy	v	1.6.5.5	8.2.3.10	0		m,s
-127745	436	Chantyal	chala	chala	hide / leather (dried animal s	hide  /  leather (dried animal s		1.6.5.1	8.2.6	0		b
-127746	436	Chantyal	bo◦cha	bo◦cha	fat	fat		1.6.4	8.3	0		50,42
-127747	436	Chantyal	ənnara-ye bo◦cho	ənnara-ye bo◦cho	fat around intestines / omentum	fat around intestines / omentum		1.6.4	8.3.1	0		b,m,50,42
-127748	436	Chantyal	tel	tel	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		b
-127749	436	Chantyal	ɦaar	ɦaar	bone	bone		1.6.3	8.4	0		b
-127750	436	Chantyal	ɦaar khor	ɦaar khor	skeleton	skeleton		1.6.3.1	8.4.1	0		b
-127751	436	Chantyal	mɦasi	mɦasi	marrow	marrow		1.6.3.5	8.4.3	0	HIDE	DUPE IN SOURCE
-127752	436	Chantyal	nə◦sa	nə◦sa	sinew / tendon (muscle to bone	sinew  /  tendon (muscle to bone		1.6.6.1	8.5	0		p,530
-127753	436	Chantyal	nə◦sa	nə◦sa	ligament (bone to bone)	ligament (bone to bone)		1.6.3	8.6	0		p,530
-127754	436	Chantyal	ka	ka	blood	blood		1.6.2	8.7	0		231
-127755	436	Chantyal	ka-ye dɦəyri	ka-ye dɦəyri	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		231,m,m
-127756	436	Chantyal	ka kha-wa	ka kha-wa	bleed	bleed (v.)	v	1.6.2	8.7.2	0		231,231,s
-127757	436	Chantyal	sya	sya	muscle / meat	muscle / meat		1.6.6.2	8.8	0		34
-127758	436	Chantyal	pholce	pholce	muscle, mass of meat	muscle, mass of meat		1.6.6.2		0		
-127759	436	Chantyal	aŋla	aŋla	joint	joint		1.5.8	8.9	0		
-127760	436	Chantyal	nə◦sa	nə◦sa	nerve	nerve		1.6.6.3	8.10	0		p,530
-127761	436	Chantyal	guri	guri	brain	brain		1.2.4	9.1	0	D1	m
-127762	436	Chantyal	mɦasi	mɦasi	spinal cord	spinal cord		1.4.8.2	9.1.1	0	D1	
-127763	436	Chantyal	mɦasi	mɦasi	marrow	marrow		1.6.3.5	9.1.2	0	D1	b
-127764	436	Chantyal	phwaksa	phwak◦sa	lung	lung		1.7.2	9.2	0		5680
-127765	436	Chantyal	sas pheri-wa	sas pheri-wa	breathe	breathe (v.)	v	1.1.2.2	9.2.1	0		b,s
-127766	436	Chantyal	syãsyã la-wa	syãsyã la-wa	pant	pant (v.)	v	1.1.2.2	9.2.2	0		
-127767	436	Chantyal	phurə-wa	phurə-wa	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		1743,s
-127768	436	Chantyal	kəp	kəp	phlegm	phlegm		1.8.3	9.2.5	0		540
-127769	436	Chantyal	mutu(k)	mutu(k)	heart	heart		1.7.1	9.3	0		b
-127770	436	Chantyal	mutu bɦətki-wa	mutu bɦətki-wa	heartbeat	heartbeat		1.7.1.1	9.3.1	0		b
-127771	436	Chantyal	nari bɦətki-wa	nari bɦətki-wa	pulse	pulse		1.7.1.1	9.3.2	0		m
-127772	436	Chantyal	ənnara bɦũri	ənnara bɦũri	viscera / guts / entrails (in	viscera  /  guts  /  entrails (in		1.7.7	9.4	0		b,b
-127773	436	Chantyal	kəlico	kəlico	liver	liver		1.7.3	9.5	0		m
-127774	436	Chantyal	bittə	bit◦tə	bile	bile		1.7.3.1	9.5.1	0		5637
-127775	436	Chantyal	bittə	bit◦tə	gall bladder	gall bladder		1.7.3	9.5.2	0		5637
-127776	436	Chantyal	mir◦kay◦lo	mir◦kay◦lo	kidney	kidney		1.7.5	9.6	0		m,201,2812
-127777	436	Chantyal	pɦomci	pɦomci	urinary bladder	urinary bladder		1.7.8	9.7	0		
-127778	436	Chantyal	kum	kum	urine	urine		1.8.4	9.7.1	0		656
-127779	436	Chantyal	kum piri-wa	kum piri-wa	urinate	urinate (v.)	v	1.5.3.2	9.7.2	0		656,m,m
-127780	436	Chantyal	patro (C?)	patro (C?)	spleen	spleen		1.7.4	9.8	0		m
-127781	436	Chantyal	pho	pho	stomach	stomach		1.7.6	9.10	0		2103
-127782	436	Chantyal	ən◦nara	ən◦nara	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		b
-127783	436	Chantyal	thyaw ənnara	thyaw ənnara	large intestine	large intestine		1.7.7	9.11.1	0		m,b
-127784	436	Chantyal	cẽy ənnara	cẽy ənnara	small intestine	small intestine		9.7.2	9.11.2	0		m,b
-127785	436	Chantyal	korle	korle	duodenum	duodenum		1.7.7		0		
-127786	436	Chantyal	beran	beran	anus / rectum	anus / rectum		1.4.10.2	9.12	0		399
-127787	436	Chantyal	mujika	mujika	anus	anus		1.4.10.2		0		b
-127788	436	Chantyal	kili	kili	feces (of humans / carnivores)	feces (of humans / carnivores)		1.8.5	9.12.1	0		572
-127789	436	Chantyal	gobər	gobər	feces (of herbivore)	feces (of herbivore)		1.8.5		0		
-127790	436	Chantyal	suli	suli	feces (of bird)	feces (of bird)		1.8.5		0		
-127791	436	Chantyal	kili piri-wa	kili piri-wa	defecate	defecate (v.)	v	1.8.5.4	9.12.3	0		572,m,m
-127792	436	Chantyal	pɦe-wa	pɦe-wa	copulate	copulate		1.9.1.1	10.2	0		3473,s
-127793	436	Chantyal	mɦo◦le	mɦo◦le	penis	penis			10.3.1	0		547,1284
-127794	436	Chantyal	pil◦te	pil◦te	glans penis	glans penis			10.3.2	0		1242,m
-127795	436	Chantyal	mɦole-ye chala	mɦole-ye chala	foreskin	foreskin			10.3.3	0		
-127796	436	Chantyal	gula-ye jyabi	gula-ye jyabi	scrotum	scrotum			10.3.4	0		
-127797	436	Chantyal	jɦus	jɦus	male pubic hair	male pubic hair			10.3.6	0		m
-127798	436	Chantyal	phu◦si	phu◦si	semen	semen			10.3.7	0		
-127799	436	Chantyal	swãt pəri-wa	swãt pəri-wa	ejaculate	ejaculate (v.)	v		10.3.8	0		m,m,m
-127800	436	Chantyal	thokki-wa	thokki-wa	castrate	castrate (v.)	v	1.9.2.3	10.3.9	0		m,m
-127801	436	Chantyal	ku◦pu	ku◦pu	vagina	vagina			10.4.1	0		m,668
-127802	436	Chantyal	ku◦pu-ye gala	ku◦pu-ye gala	vulva / labia	vulva  /  labia			10.4.2	0		m,668,m,m
-127803	436	Chantyal	ti◦si	ti◦si	clitoris	clitoris			10.4.4	0		1352,1349
-127804	436	Chantyal	jɦus	jɦus	female pubic hair	female pubic hair			10.4.5	0		m
-127805	436	Chantyal	ka kha-wa	ka kha-wa	menstruate	menstruate (v.)	v	1.9.11.1	10.4.6	0		231,m,m
-127806	436	Chantyal	nani-ye gɦar	nani-ye gɦar	womb	womb			10.4.8	0		b,b,b
-127807	436	Chantyal	kwi	kwi	amniotic fluid	amniotic fluid			10.4.10	0		
-127808	436	Chantyal	sal	sal	placenta	placenta			10.4.11	0		1651
-127809	436	Chantyal	nabi	nabi	umbilical cord	umbilical cord			10.4.12	0		b
-127810	436	Chantyal	jali	jali	caul (membrane on newborn head	caul (membrane on newborn head		1.2.1.4	10.4.13	0		m
-127811	436	Chantyal	nani yã-wa mũ-wa	nani yã-wa mũ-wa	pregnant	pregnant	be	1.9.6.1	10.4.14	0		b,m,m,m,m
-127812	436	Chantyal	nani yã-wã	nani yã-wã	birth, give	birth, give		1.1.2	10.4.15	0		b,3483,s
-127813	436	Chantyal	khwãy la-wa	khwãy la-wa	cough	cough		1.8.3.3	11.1	0		
-127814	436	Chantyal	khutuk la-wa	khutuk la-wa	hiccup	hiccup		1.8.3.5	11.2	0		
-127815	436	Chantyal	achchĩ la-wa	achchĩ la-wa	sneeze	sneeze		1.8.2.1	11.3	0		2131,m,m
-127816	436	Chantyal	ghã◦ti bə◦jə-wa	ghã◦ti bə◦jə-wa	snore	snore		1.8.2.2	11.4	0		m,m,m,m,s
-127817	436	Chantyal	phi◦phi la-wa	phi◦phi la-wa	whistle	whistle		8.5.5	11.5	0		m,m,m,s
-127818	436	Chantyal	ɦaap la-wa	ɦaap la-wa	burp / belch	burp  /  belch		1.8.3	11.6	0		
-127819	436	Chantyal	phẽs ◦pi◦ri-wa	phẽs ◦pi◦ri-wa	fart	fart		1.8.5.2	11.7	0		311,311,m,s
-127820	436	Chantyal	ne◦rə-wa	ne◦rə-wa	laugh / smile	laugh / smile		1.8.8.1	11.9	0		1105,m,s
-127821	436	Chantyal	gilla-wa	gilla-wa	laugh at	laugh at		1.8.8.1		0		
-127822	436	Chantyal	thara-wa	thara-wa	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
-127823	436	Chantyal	na-wa	na-wa	sick / be ill / hurt	sick  /  be ill  /  hurt	be	1.1.5.1	12.2	0		
-127824	436	Chantyal	cot lagi-wa	cot lagi-wa	hurt / injured	hurt / injured	be	1.1.5.1		0		
-127825	436	Chantyal	nirə-wa	nirə-wa	numb	numb	be	1.5.11	12.3	0		
-127826	436	Chantyal	sara-wa	sara-wa	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
-127827	436	Chantyal	pip	pip	pus	pus		1.8.6.1	12.5	0		b
-127828	436	Chantyal	pwor	pwor	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound		1.8.6.2	12.6	0		
-127829	436	Chantyal	õla	õla	finger width	finger width		1.5.6		0		
-127830	436	Chantyal	byata	byata	hand span	hand span		1.5.9.4	13.2	0		
-127831	436	Chantyal	ɦat	ɦat	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		
-127832	436	Chantyal	bãk	bãk	cord / fathom (outstretched ar	cord  /  fathom (outstretched ar		1.5.9.5	13.4	0		
-127833	436	Chantyal	bãk	bãk	left fingertip to right finger	left fingertip to right finger		1.5.3.2	13.4.2	0		
-127834	436	Chantyal	dimak	dimak	mind / locus of thought	mind  /  locus of thought		1.10	14.1	0		b?
-127835	436	Chantyal	mən	mən	heart / locus of emotions	heart  /  locus of emotions		1.7.1	14.2	0		m
-127836	436	Chantyal	mən	mən	heart / locus of personality	heart  /  locus of personality		1.7.1	14.3	0		m
-168982	436	Chantyal	gɦo	gɦo	body	body		1.1.1		0		2
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+127517	436	Chantyal	jyu	jyu	body	body			1.1.1	1.1	0			15
+127518	436	Chantyal	ɦər	ɦər	body	body			1.1.1	1.1	0			
+127519	436	Chantyal	dayne ɦər	dayne ɦər	side (right)	side (right)			1.4.5	1.2	0			
+127520	436	Chantyal	dewrw ɦər	dewrw ɦər	side (left)	side (left)			1.4.5	1.3	0			bNepali,m
+127521	436	Chantyal	cak	cak	back	back			1.4.8	1.4	0			bNepali
+127522	436	Chantyal	kan◦na	kan◦na	back	back			1.4.8	1.4	0			
+127523	436	Chantyal	cha◦ti	chati	front	front			1.4.4	1.5	0			m,1212
+127524	436	Chantyal	pho	pho	front	front			1.4.4	1.5	0			
+127525	436	Chantyal	ya◦pɦale	ya◦pɦale	limbs / arms and legs	limbs  /  arms and legs			1.5.3.1	1.7	0	jbl3		
+127526	436	Chantyal	ko◦li	ko◦li	lap	lap			1.4.4.2	1.8	0			2326,m
+127527	436	Chantyal	nu◦nu	nu◦nu	bosom	bosom			1.4.4.2	1.9	0			253,253
+127528	436	Chantyal	cẽy pho	cẽy pho	groin / loins / hips	groin  /  loins  / hips			1.4.9	1.10	0	jbl3		m,398
+127529	436	Chantyal	sya	sya	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		34
+127530	436	Chantyal	so-wa	so-wa	alive / be living	alive  /  be living			1.1.2.1	1.12	0	jbl3		80,s
+127531	436	Chantyal	si-wa	si-wa	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		27,s
+127532	436	Chantyal	mudar	mudar	corpse / dead body	corpse  /  dead body			1.1.6.1	1.14	0	jbl3		
+127533	436	Chantyal	si-si-wa pasu	si-si-wa pasu	carcass / dead animal	carcass  /  dead animal			1.1.6.1	1.15	0	jbl3		27,27,s,m
+127534	436	Chantyal	nɦu-wa	nɦu-wa	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		129,s
+127535	436	Chantyal	chi-wa	chi-wa	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		152,s
+127536	436	Chantyal	swi◦na mara-wa	swi◦na mara-wa	dream	dream (v.)	v		1.1.4.2	1.18	0	dwb21		127,m,m,m
+127537	436	Chantyal	kəpal	kəpal	head	head			1.2.1	2.1	0			1241
+127538	436	Chantyal	thapla	thapla	top of head / crown / pate	top of head  /  crown  /  pate			1.2.1.2	2.2	0	jbl3		
+127539	436	Chantyal	talo (C)̱	talo (C)̱	fontanel (soft spots in baby s	fontanel (soft spots in baby s			1.2.1.3	2.3	0			m
+127540	436	Chantyal	khoro	khoro	skull	skull			1.2.1.1	2.4	0			m
+127541	436	Chantyal	guri	guri	brain	brain			1.2.4	2.5	0	jbl5	HIDE	DUPE IN SOURCE
+127542	436	Chantyal	jəkta	jəkta	hair of head	hair of head			1.2.3	2.7	0	jbl5	HIDE	DUPE IN SOURCE
+127543	436	Chantyal	kəpal	kəpal	hair	hair			1.2.3		0			1241
+127544	436	Chantyal	kəpal-ye chala	kəpal-ye chala	scalp	scalp			1.2.1.5	2.8	0			1241,m,b
+127545	436	Chantyal	si◦ro	si◦ro	comb (of rooster)	comb (of rooster)			1.2.2.1	2.9	0			m,m
+127546	436	Chantyal	ruk	ruk	horn (of animal)	horn (of animal)			1.2.2	2.10	0			814
+127547	436	Chantyal	ruk	ruk	antler (of deer)	antler (of deer)			1.2.2	2.11	0			814
+127548	436	Chantyal	ɦənuwar	ɦə◦nu◦war	face	face			1.2.5	3.1	0			bNepali
+127549	436	Chantyal	suŋ	suŋ	mouth / face	mouth / face			1.3.1		0			477
+127550	436	Chantyal	ɦõ	ɦõ	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		356
+127551	436	Chantyal	kəncər	kəncər	temple	temple			1.2.5.1	3.3	0			bNepali
+127552	436	Chantyal	mi	mi	eye	eye			1.2.6	3.4	0			682
+127553	436	Chantyal	kwar◦lek	kwar◦lek	eyeball	eyeball			1.2.6.1	3.4.2	0			2072,m
+127554	436	Chantyal	mi-ye nani	mi-ye nani	iris	iris			1.2.6.2	3.4.2.1	0			682,m,m
+127555	436	Chantyal	mi-ye nani	mi-ye nani	pupil	pupil			1.2.6.2	3.4.2.2	0			682,m,m
+127556	436	Chantyal	ãkhibɦə̃w	ãkhibɦə̃w	eyebrow	eyebrow			1.2.6.6	3.4.3	0			bNepali
+127557	436	Chantyal	pərela	pərela	eyelash	eyelash			1.2.6.5	3.4.4	0			b
+127558	436	Chantyal	mi cimcim la-wa	mi cimcim la-wa	blink	blink (v.)	v		1.2.6.12	3.4.5	0	dwb21		682,m,m,m
+127559	436	Chantyal	mi◦lim	mi◦lim	tears	tears			1.2.6.7	3.4.6	0			682,m
+127560	436	Chantyal	kət◦ca◦ra	kət◦ca◦ra	eye sand	eye sand			1.2.6.8	3.4.7	0			m,m,m
+127561	436	Chantyal	kara-wa	kara-wa	cry  /  weep	cry  /  weep (v.)	v		1.8.8.2	3.4.8	0	dwb21		1103,s
+127562	436	Chantyal	mara -wa	mara -wa	see  /  look	see  /  look (v.)	v		1.2.6.10	3.4.9	0	dwb21		m
+127563	436	Chantyal	sɦyw-wa	sɦyw-wa	look at	look at	v.	v.	1.2.6.11		0			
+127564	436	Chantyal	kana	kan◦a	blind	blind			1.2.6.14.2	3.4.10	0			1407
+127565	436	Chantyal	nak/nakh	nak/nakh	nose	nose			1.2.8	3.5	0			bNepali,bNepali
+127566	436	Chantyal	nak-ye dãri	nak-ye dãri	nose bridge	nose bridge			1.2.8	3.5.1	0			
+127567	436	Chantyal	nak-ye dula	nak-ye dula	nostril	nostril			1.2.8.1	3.5.2	0			b,m,m
+127568	436	Chantyal	nak-nɦa-ri-wa  rə̃w	nak-nɦa-ri-wa  rə̃w	nose hair	nose hair			1.2.8	3.5.4	0			
+127569	436	Chantyal	thutno	thut◦no	snout	snout			1.2.8	3.5.5	0			bNepali
+127570	436	Chantyal	nap	nap	liquid mucus	liquid mucus			3.2.3	3.5.6	0			805
+127571	436	Chantyal	kɦotəl	kɦotəl	solid mucus	solid mucus			1.1.5	3.5.7	0			
+127572	436	Chantyal	nap khyala-wa	nap khyala-wa	blow nose	blow nose (v.)	v		1.3.1.4	3.5.8	0	dwb21		805,m,m
+127573	436	Chantyal	suŋi-wa	suŋi-wa	sniff	sniff (v.)	v		1.2.8.5	3.5.9	0	dwb21		
+127574	436	Chantyal	bəsə-wa	bəsə-wa	smell good	smell good			1.2.8.5	3.5.9	0			
+127575	436	Chantyal	thaŋkha-wa	thaŋkha-wa	stink	stink			7.1.4.5		0			
+127576	436	Chantyal	nɦa	nɦa	ear	ear			1.2.7	3.6	0			811
+127577	436	Chantyal	nɦa-ye loti	nɦa-ye loti	earlobe	earlobe			1.2.7.1	3.6.1	0			811,m,m
+127578	436	Chantyal	nɦa	nɦa	outer ear	outer ear			9.2	3.6.2	0			811
+127579	436	Chantyal	nɦa-ye dhoŋ◦ri	nɦa-ye dhoŋ◦ri	inner ear	inner ear			9.2.5	3.6.3	0			811,m,822,m
+127580	436	Chantyal	nɦa-ye dhoŋ◦ri	nɦa-ye dhoŋ◦ri	ear canal	ear canal			1.2.7	3.6.4	0			811,m,822,m
+127581	436	Chantyal	kɦana◦kuci	kɦana◦ku◦ci	earwax	earwax			1.2.7.3	3.6.6	0			bNepali
+127582	436	Chantyal	thasa-wa	thasa-wa	hear	hear (v.)	v		1.2.7.4	3.6.7	0	dwb21		
+127583	436	Chantyal	bɦəyra	bɦəyra	deaf	deaf			1.2.7.5	3.6.8	0			m,b?
+127584	436	Chantyal	suŋ	suŋ	mouth	mouth			1.3.1	3.7	0			477
+127585	436	Chantyal	suŋ-ye ta◦la	suŋ-ye ta◦la	palate	palate			1.3.1.1	3.7.1	0			477,m,m,m
+127586	436	Chantyal	suŋ-ye ta◦la	suŋ-ye tala	soft palate	soft palate			7.1.4.2	3.7.2	0			477,m,m,m
+127587	436	Chantyal	gĩja	gĩja	gums	gums			1.3.4.3	3.7.3	0			b
+127588	436	Chantyal	tərkula	tərkula	uvula	uvula			1.3.5.1	3.7.4	0			
+127589	436	Chantyal	ral	ral	saliva	saliva			1.8.3	3.7.5	0			
+127590	436	Chantyal	ca-wa	ca-wa	eat	eat (v.)	v		1.5.3.2	3.7.6	0	dwb21		36,s
+127591	436	Chantyal	thũ-wa	thũ-wa	drink	drink (v.)	v			3.7.7	0	dwb21		502,s
+127592	436	Chantyal	tirkha	tirkha	thirsty	thirsty	be	be	1.1.3.1	3.7.8	0			m,m
+127593	436	Chantyal	khyana kha-wa	khyana kha-wa	hungry	hungry	be	be	1.1.3	3.7.9	0			b?
+127594	436	Chantyal	pho bɦəri-wa	pho bɦəri-wa	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		2103,b,s
+127595	436	Chantyal	thuk◦ki-wa	thuk◦ki-wa	spit	spit (v.)	v		1.8.3	3.7.11	0	dwb21		601,m,m
+127596	436	Chantyal	wa◦khal	wa◦khal	vomit	vomit (n.)	n		1.8.3.2	3.7.12	0	dwb33		
+127597	436	Chantyal	wa◦khal khya◦la-wa	wa◦khal khya◦la-wa	vomit	vomit (v.)	v		1.8.3.2	3.7.13	0	dwb21		
+127598	436	Chantyal	capi-wa	capi-wa	hold in mouth	hold in mouth (v.)	v		1.3.4.4	3.7.14	0	dwb21		
+127599	436	Chantyal	suŋ ã la-wa	suŋ ã la-wa	gape  /  open mouth	gape  /  open mouth (v.)	v		1.3.1	3.7.15	0	dwb21		477,m,m,m
+127600	436	Chantyal	ɦayi la-wa	ɦayi la-wa	yawn	yawn (v.)	v		1.3.1.3	3.7.16	0	dwb21		
+127601	436	Chantyal	khe◦le	khe◦le	tongue	tongue			1.3.3	3.8	0			p,621
+127602	436	Chantyal	boli-wa	boli-wa	speak	speak (v.)	v		8.5.10.1	3.8.1	0	dwb21		b
+127603	436	Chantyal	phəkphəkə-wa	phəkphəkə-wa	stutter / stammer	stutter  /  stammer			8.5.4.5	3.8.2	0	jbl3		
+127604	436	Chantyal	lata	lata	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		
+127605	436	Chantyal	lɦe◦mə	lɦe◦mə	lick	lick			1.3.3.1	3.8.4	0			629,m
+127606	436	Chantyal	wəth	wəth	lip	lip			1.3.2	3.9	0			bNepali
+127607	436	Chantyal	phyãra-gã-wa wəth	phyãra-gã-wa wəth	upper lip	upper lip			9.2.1	3.9.1	0			
+127608	436	Chantyal	pɦiriŋ-gã-wa wəth	pɦiriŋ-gã-wa wəth	lower lip	lower lip				3.9.2	0			m,m,m,m
+127609	436	Chantyal	cuc◦co	cuc◦co	beak / bill	beak / bill			1.3.1.2	3.9.3	0			442,2095
+127610	436	Chantyal	ne◦rə-wa	ne◦rə-wa	smile	smile (v.)	v		1.8.8.1	3.9.4	0	dwb21		1105,m,s
+127611	436	Chantyal	mway la-wa	mway la-wa	kiss	kiss			1.3.2.2	3.9.5	0			b,m,s
+127612	436	Chantyal	swa	swa	tooth	tooth			1.3.4	3.10	0			632
+127613	436	Chantyal	baŋra	baŋra	molar	molar			1.3.4.2	3.10.2	0			3319
+127614	436	Chantyal	na◦ku-ye swa	na◦ku-ye swa	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang			1.3.4.1	3.10.3	0	jbl3		6026,1764,m,632
+127615	436	Chantyal	buri baŋra	buri baŋra	tooth (wisdom)	tooth (wisdom)			1.3.4	3.10.4	0			b
+127616	436	Chantyal	daara	daara	tusk (of elephant, boar)	tusk (of elephant, boar)			1.3.4.1	3.10.6	0			2814
+127617	436	Chantyal	jɦi-wa	jɦi-wa	bite	bite (v.)	v		1.3.4.4	3.10.7	0	dwb21		
+127618	436	Chantyal	cəpə-wa	cəpə-wa	chew	chew (v.)	v		1.3.4	3.10.8	0	dwb21		bNepali,s
+127619	436	Chantyal	gala	gala	cheek	cheek			1.2.5.2	3.11	0			2050
+127620	436	Chantyal	gala-ye ɦaar	gala-ye ɦaar	cheekbone	cheekbone			1.2.5.2	3.11.1	0			2050,m,m
+127621	436	Chantyal	cyũ	cyũ	chin	chin			1.2.5.3	3.12	0			bNepali
+127622	436	Chantyal	cyappu	cyap◦pu	jaw	jaw			1.2.5.2	3.13	0			bNepali
+127623	436	Chantyal	pɦiriŋ-gã-wa cyappu	pɦiriŋ-gã-wa cyap◦pu	lower jaw / mandible	lower jaw  /  mandible			1.2.5.2	3.13.1	0	jbl3		m,m,m,bNepali
+127624	436	Chantyal	phyãraŋ-gã-wa cyappu	phyãraŋ-gã-wa cyap◦pu	upper jaw / maxilla	upper jaw  /  maxilla			1.2.5.2	3.13.2	0	jbl3		m,m,m,bNepali
+127625	436	Chantyal	kha	kha	neck	neck			1.4.2	4.1	0			494
+127626	436	Chantyal	gãra	gãra	goiter	goiter			1.4.2.2	4.1.1	0			b
+127627	436	Chantyal	ga◦le kha-si-wa	gale kha-si-wa	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)			1.1.5.2	4.1.2	0			m,5650,m,m,s
+127628	436	Chantyal	khorpiti	khorpiti	nape of neck	nape of neck			1.4.2.1	4.1.3	0			m
+127629	436	Chantyal	kil◦tiŋ	kil◦tiŋ	adam's apple / larynx	adam's apple  /  larynx			1.5.3.2	4.1.4	0	jbl3		496,m
+127630	436	Chantyal	gɦãti	gɦãti	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		b
+127631	436	Chantyal	bɦwamra	bɦwamra	esophagus	esophagus			1.3.5.5	4.2.2	0			
+127632	436	Chantyal	kɦilə-wa	kɦilə-wa	swallow	swallow (v.)	v		1.3.5.6	4.2.3	0	dwb21		
+127633	436	Chantyal	jãte	jãte	gizzard / crop of bird	gizzard  /  crop of bird			1.7.6.1	4.2.4	0	jbl3		
+127634	436	Chantyal	chati	chati	chest	chest			1.4.4.3	5.1	0			b
+127635	436	Chantyal	chati-ye kərəŋ	chati-ye kərəŋ	rib cage	rib cage			1.4.4.3	5.1.1	0			b,m,b
+127636	436	Chantyal	kərəŋ	kərəŋ	rib	rib			1.4.4.3	5.1.2	0			b
+127637	436	Chantyal	pɦam	pɦam	shoulder	shoulder			1.4.3	5.3	0			754
+127638	436	Chantyal	phir pata	phir pata	shoulder blade / scapula	shoulder blade  /  scapula			1.4.3.2	5.3.1	0	jbl3		m,b
+127639	436	Chantyal	nu◦nu	nu◦nu	breast	breast			1.4.4.3	5.4	0			253,253
+127640	436	Chantyal	nu◦nu-ye kəpal	nu◦nu-ye kəpal	nipple	nipple				5.4.1	0			253,253,m,m
+127641	436	Chantyal	kəcuno	kəcuno	udder (of cow, goat)	udder (of cow, goat)				5.4.2	0			
+127642	436	Chantyal	nɦe	nɦe	milk	milk				5.4.3	0			254
+127643	436	Chantyal	bekuti	bekuti	colostrum	colostrum				5.4.4	0			
+127644	436	Chantyal	cu◦si-wa	cu◦si-wa	suck	suck			1.3.2.1	5.4.5	0			
+127645	436	Chantyal	nu◦nu khwaya-wa	nu◦nu khwaya-wa	nurse  /  suckle	nurse  /  suckle (v.)	v		4.2.1.5	5.4.6	0	dwb21		253,253,m,m
+127646	436	Chantyal	kən◦nə	kən◦nə	back	back			1.4.8	5.5	0			
+127647	436	Chantyal	kən◦nə	kən◦nə	upper back	upper back			9.2.1	5.5.1	0			
+127648	436	Chantyal	cak	cak	lower back	lower back			1.4.8.1	5.5.2	0			bNepali
+127649	436	Chantyal	kən◦nyaw◦lo	kən◦nyaw◦lo	backbone / spine	backbone / spine			1.4.8.2	5.5.4	0			207,m,232
+127650	436	Chantyal	mɦasi	mɦasi	spinal cord	spinal cord			1.4.8.2	5.5.5	0	jbl5	HIDE	DUPE IN SOURCE
+127651	436	Chantyal	kupre	kupre	hunchback	hunchback			1.4.8.3	5.5.6	0			m
+127652	436	Chantyal	dɦar	dɦar	waist	waist			1.4.6	5.6	0			212
+127653	436	Chantyal	bɦũri	bɦũ◦ri	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)			1.4.7	5.7	0	jbl3		Neploan
+127654	436	Chantyal	põ◦ti	põ◦ti	navel	navel			1.9.4	5.7.1	0			2111,519
+127655	436	Chantyal	cak	cak	hips	hips			1.4.9.2	5.8.1	0			bNepali,bNepali
+127656	436	Chantyal	dɦar-ye ɦaar	dɦar-ye ɦaar	hipbone	hipbone			1.4.9.2	5.8.2	0			212,m,234
+127657	436	Chantyal	səpito	səpito	haunches (of animal)	haunches (of animal)			1.4.9.2	5.8.3	0			m
+127658	436	Chantyal	samra	samra	thigh	thigh			1.5.7.1		0	jbl5	HIDE	DUPE IN SOURCE
+127659	436	Chantyal	cak	cak	rump	rump			1.4.10	5.10	0			bNepali
+127660	436	Chantyal	cak	cak	buttocks	buttocks			1.4.10	5.10.1	0			bNepali
+127661	436	Chantyal	puchchər-ye ɦaar	puchchər-ye ɦaar	tailbone / coccyx	tailbone  /  coccyx			1.6.3.3	5.10.2	0	jbl3		b
+127662	436	Chantyal	puchchər	puchchər	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			b
+127663	436	Chantyal	ya	ya	arm	arm			1.5.1.2	6.1	0			696
+127664	436	Chantyal	kakhi	kakhi	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		
+127665	436	Chantyal	kucikuci la-wa	kucikuci la-wa	tickle	tickle			1.5.1.2.4	6.1.1.1	0			
+127666	436	Chantyal	pwãja	pwãja	upperarm	upperarm			1.5.1.2.1	6.1.2	0			
+127667	436	Chantyal	pwãja	pwãja	arm muscles / biceps	arm muscles  /  biceps			1.5.1.2	6.1.3	0	jbl3		
+127668	436	Chantyal	kwina	kwina	elbow	elbow			1.5.8.3	6.1.4	0			
+127669	436	Chantyal	kwina-ye ɦaar	kwina-ye ɦaar	elbow bone	elbow bone			1.5.8.3	6.1.4.1	0			m,m,b
+127670	436	Chantyal	pakhura	pakhura	forearm / lower arm	forearm  /  lower arm			1.5.1.2.2	6.1.5	0	jbl3		
+127671	436	Chantyal	nari	nari	wrist	wrist			1.5.8.1	6.1.6	0			b
+127672	436	Chantyal	ya	ya	hand	hand			1.5.1.1	6.1.7	0			696
+127673	436	Chantyal	ləpta	ləpta	palm	palm			1.5.5	6.1.7.1	0			
+127674	436	Chantyal	murki	murki	fist	fist			1.5.1.1.1	6.1.7.3	0			b
+127675	436	Chantyal	ghussa	ghussa	front of fist, knuckles	front of fist, knuckles			1.4.4		0			
+127676	436	Chantyal	dayne ya	dayne ya	right hand	right hand			1.5.3.2	6.1.7.4	0			m,696
+127677	436	Chantyal	dewre ya	dewre ya	left hand	left hand			1.5.3.2	6.1.7.5	0			bNepali,696
+127678	436	Chantyal	pəkhyata	pəkhyata	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			706,m
+127679	436	Chantyal	pənja	pənja	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			
+127680	436	Chantyal	pɦa◦le	pɦale	leg	leg			1.5.7	6.2	0			341,342
+127681	436	Chantyal	samra	samra	thigh	thigh			1.5.7.1	6.2.1	0		D1	
+127682	436	Chantyal	samra-ye ɦaar	samra-ye ɦaar	thigh bone / femur	thigh bone  /  femur			1.5.7.1	6.2.1.1	0	jbl3		m,m,b
+127683	436	Chantyal	samra-ye pholce	samra-ye pholce	hamstring	hamstring			1.6.6.2	6.2.1.2	0			
+127684	436	Chantyal	gɦũra	gɦũra	knee	knee			1.5.8.4	6.2.2	0			b
+127685	436	Chantyal	gɦũra-ye ɦaar	gɦũra-ye ɦaar	knee cap / patella	knee cap  /  patella			1.5.8.4	6.2.2.1	0	jbl3		b,m,b
+127686	436	Chantyal	gɦũra-ye khurpiti	gɦũra-ye khurpiti	knee hollow / popliteal region	knee hollow  /  popliteal region			1.5.8.4	6.2.2.2	0	jbl3		b,m,m
+127687	436	Chantyal	tigra	tigra	shin	shin			1.5.7.2	6.2.3	0			
+127688	436	Chantyal	tigra-ye ɦaar	tigra-ye ɦaar	shin bone / tibia	shin bone  /  tibia			1.5.7.2	6.2.3.1	0	jbl3		m,m,b
+127689	436	Chantyal	tigra-ye pholce	tigra-ye pholce	calf	calf			1.5.7	6.2.4	0			
+127690	436	Chantyal	goli aŋla	goli aŋla	ankle	ankle			1.5.8.2	6.2.5	0			
+127691	436	Chantyal	goli aŋla-ye ɦaar	goli aŋla-ye ɦaar	ankle bone	ankle bone			1.5.8.2	6.2.5.1	0			m,m,m,b
+127692	436	Chantyal	pɦa◦le	pɦale	foot	foot			1.5.2	6.2.6	0			341,342
+127693	436	Chantyal	karkucca	karkucca	heel	heel			1.5.2.1	6.2.6.1	0			b
+127694	436	Chantyal	pəytələ	pəytələ	sole	sole			1.5.5	6.2.6.5	0			
+127695	436	Chantyal	pɦal	pɦal	footprint	footprint			1.5.2.5	6.2.6.7	0			
+127696	436	Chantyal	khur◦i	khuri	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			414,m
+127697	436	Chantyal	pənja	pənja	paw (of animal)	paw (of animal)			1.5.4	6.2.6.9	0			
+127698	436	Chantyal	dũra	dũra	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+127699	436	Chantyal	khwaltyaŋ khwaltyaŋ la-wa	khwaltyaŋ khwaltyaŋ la-wa	limp	limp (v.)	v		1.5.12	6.2.8	0	dwb21		
+127700	436	Chantyal	əŋŋula	əŋŋula	finger	finger			1.5.6	7.1	0			b
+127701	436	Chantyal	jethi əŋŋula	jethi əŋŋula	index finger	index finger			1.0	7.1.1	0			m,b
+127702	436	Chantyal	mayli əŋŋula	mayli əŋŋula	middle finger	middle finger			1.9.4	7.1.2	0			m,b
+127703	436	Chantyal	sãyli əŋŋula	sãyli əŋŋula	ring finger	ring finger			1.5.6.2	7.1.3	0			m,b
+127704	436	Chantyal	kanchi əŋŋula	kanchi əŋŋula	little finger	little finger			9.7.2	7.1.4	0			m,b
+127705	436	Chantyal	buri əŋŋula	buri əŋŋula	thumb	thumb			1.5.6.1	7.1.5	0			m,b
+127706	436	Chantyal	əŋŋual-ye chap	əŋŋual-ye chap	fingerprint	fingerprint			1.5.6.1	7.1.6	0			b
+127707	436	Chantyal	əŋŋula	əŋŋula	toe	toe			1.5.6	7.2	0			b
+127708	436	Chantyal	buri əŋŋula	buri əŋŋula	big toe	big toe			1.5.6.1	7.2.1	0			m,b
+127709	436	Chantyal	jethi əŋŋula	jethi əŋŋula	second toe	second toe			9.9	7.2.2	0			m,b
+127710	436	Chantyal	mayli əŋŋula	mayli əŋŋula	middle toe	middle toe			1.9.4	7.2.3	0			m,b
+127711	436	Chantyal	sãyli əŋŋula	sãyli əŋŋula	fourth toe	fourth toe			9.9	7.2.4	0			m,b
+127712	436	Chantyal	kanchi əŋŋula	kanchi əŋŋula	little toe	little toe			9.7.2	7.2.5	0			m,b
+127713	436	Chantyal	aŋla	aŋla	knuckle (joint of digit)	knuckle (joint of digit)			1.5.8.5	7.3	0			
+127714	436	Chantyal	nəŋ	nəŋ	nail	nail			1.5.10	7.4	0			
+127715	436	Chantyal	ya-ye nəŋ	ya-ye nəŋ	fingernail	fingernail			1.5.10.1	7.4.1	0			696,m,320
+127716	436	Chantyal	pɦale-ye nəŋ	pɦale-ye nəŋ	toenail	toenail			1.5.10.2	7.4.2	0			
+127717	436	Chantyal	nəŋra	nəŋra	claw (of animal)	claw (of animal)			1.5.10.4	7.4.3	0			
+127718	436	Chantyal	nəŋra	nəŋra	talon (of bird)	talon (of bird)			1.5.10.4	7.4.4	0			
+127719	436	Chantyal	sənnaso	sənnaso	pincers (eg. of crab)	pincers (eg. of crab)			1.5.10.4	7.4.5	0			
+127720	436	Chantyal	rə̃w	rə̃w	hair (general)	hair (general)			1.2.3	8.1	0			
+127721	436	Chantyal	jəkta	jəkta	hair of head	hair of head			1.2.3	8.1.1	0		D1	
+127722	436	Chantyal	dari◦kha◦ta	dari◦kha◦ta	beard / moustache	beard / moustache			1.2.5.5	8.1.2	0			2063,273,m
+127723	436	Chantyal	kha◦ta	kha◦ta	beard	beard			1.2.5.5	8.1.2.1	0			273,m
+127724	436	Chantyal	dari	dari	goatee	goatee			1.2.5.5	8.1.2.2	0			2063
+127725	436	Chantyal	juŋŋa	juŋŋa	moustache	moustache			1.2.5.5	8.1.2.3	0			b
+127726	436	Chantyal	bɦuwa	bɦuwa	body hair	body hair			1.6.1	8.1.3	0			
+127727	436	Chantyal	rə̃w	rə̃w	hair / fur	hair / fur			1.2.3		0			
+127728	436	Chantyal	jəyre	jəyre	underarm hair	underarm hair			1.5.1.2.3	8.1.3.1	0			m
+127729	436	Chantyal	chati-ye rə̃w	chati-ye rə̃w	chest hair	chest hair			1.4.4.5	8.1.3.2	0			b,m,m
+127730	436	Chantyal	pɦa◦le-ye rə̃w	pɦale-ye rə̃w	leg hair	leg hair			1.5.7	8.1.3.3	0			341,342,m,m
+127731	436	Chantyal	rə̃w	rə̃w	fur (of animal)	fur (of animal)			1.6.1	8.1.4	0			
+127732	436	Chantyal	bɦulla	bɦulla	feather (of bird)	feather (of bird)			1.6.1.1	8.1.5	0			
+127733	436	Chantyal	jək◦ta	jək◦ta	mane (of horse, lion)	mane (of horse, lion)			1.6.1	8.1.6	0			
+127734	436	Chantyal	jyuŋŋa	jyuŋŋa	whiskers (of animal)	whiskers (of animal)			1.2.5.5	8.1.7	0			b
+127735	436	Chantyal	chala	chala	skin	skin			1.6.5	8.2	0			b
+127736	436	Chantyal	pəsina	pəsina	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		b,bNepali
+127737	436	Chantyal	kɦwə̃yli	kɦwə̃yli	freckle	freckle			1.6.5.3	8.2.3.1	0			
+127738	436	Chantyal	dənnipor	dənnipor	pimple	pimple			1.6.5.3	8.2.3.2	0			
+127739	436	Chantyal	mo◦so	moso	mole	mole			2.2.7	8.2.3.3	0			2447,m
+127740	436	Chantyal	tilkusi	tilkusi	wart	wart			1.6.5.3	8.2.3.4	0			
+127741	436	Chantyal	məyo	məyo	cyst	cyst			1.6.5.3	8.2.3.5	0			
+127742	436	Chantyal	tata	tata	scar	scar			1.6.5.3	8.2.3.7	0			
+127743	436	Chantyal	cawre gala	cawre gala	wrinkle	wrinkle			9.6.2	8.2.3.8	0			b,m
+127744	436	Chantyal	cilə-wa	cilə-wa	itch  /  be itchy	itch (v.)  /  be itchy	v		1.6.5.5	8.2.3.10	0	dwb22		m,s
+127745	436	Chantyal	chala	chala	hide / leather (dried animal s	hide  /  leather (dried animal s			1.6.5.1	8.2.6	0	jbl3		b
+127746	436	Chantyal	bo◦cha	bo◦cha	fat	fat			1.6.4	8.3	0			50,42
+127747	436	Chantyal	ənnara-ye bo◦cho	ənnara-ye bo◦cho	fat around intestines / omentum	fat around intestines / omentum			1.6.4	8.3.1	0	jbl2		b,m,50,42
+127748	436	Chantyal	tel	tel	oil / grease (for cooking)	oil  /  grease (for cooking)			1.6.4.1	8.3.2	0	jbl3		b
+127749	436	Chantyal	ɦaar	ɦaar	bone	bone			1.6.3	8.4	0			b
+127750	436	Chantyal	ɦaar khor	ɦaar khor	skeleton	skeleton			1.6.3.1	8.4.1	0			b
+127751	436	Chantyal	mɦasi	mɦasi	marrow	marrow			1.6.3.5	8.4.3	0	jbl5	HIDE	DUPE IN SOURCE
+127752	436	Chantyal	nə◦sa	nə◦sa	sinew / tendon (muscle to bone	sinew  /  tendon (muscle to bone			1.6.6.1	8.5	0	jbl3		p,530
+127753	436	Chantyal	nə◦sa	nə◦sa	ligament (bone to bone)	ligament (bone to bone)			1.6.3	8.6	0			p,530
+127754	436	Chantyal	ka	ka	blood	blood			1.6.2	8.7	0			231
+127755	436	Chantyal	ka-ye dɦəyri	ka-ye dɦəyri	blood vessel / vein / artery	blood vessel  /  vein  /  artery			1.6.2.1	8.7.1	0	jbl3		231,m,m
+127756	436	Chantyal	ka kha-wa	ka kha-wa	bleed	bleed (v.)	v		1.6.2	8.7.2	0	dwb21		231,231,s
+127757	436	Chantyal	sya	sya	muscle / meat	muscle / meat			1.6.6.2	8.8	0			34
+127758	436	Chantyal	pholce	pholce	muscle, mass of meat	muscle, mass of meat			1.6.6.2		0			
+127759	436	Chantyal	aŋla	aŋla	joint	joint			1.5.8	8.9	0			
+127760	436	Chantyal	nə◦sa	nə◦sa	nerve	nerve			1.6.6.3	8.10	0			p,530
+127761	436	Chantyal	guri	guri	brain	brain			1.2.4	9.1	0		D1	m
+127762	436	Chantyal	mɦasi	mɦasi	spinal cord	spinal cord			1.4.8.2	9.1.1	0		D1	
+127763	436	Chantyal	mɦasi	mɦasi	marrow	marrow			1.6.3.5	9.1.2	0		D1	b
+127764	436	Chantyal	phwaksa	phwak◦sa	lung	lung			1.7.2	9.2	0			5680
+127765	436	Chantyal	sas pheri-wa	sas pheri-wa	breathe	breathe (v.)	v		1.1.2.2	9.2.1	0	dwb21		b,s
+127766	436	Chantyal	syãsyã la-wa	syãsyã la-wa	pant	pant (v.)	v		1.1.2.2	9.2.2	0	dwb21		
+127767	436	Chantyal	phurə-wa	phurə-wa	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			1743,s
+127768	436	Chantyal	kəp	kəp	phlegm	phlegm			1.8.3	9.2.5	0			540
+127769	436	Chantyal	mutu(k)	mutu(k)	heart	heart			1.7.1	9.3	0			b
+127770	436	Chantyal	mutu bɦətki-wa	mutu bɦətki-wa	heartbeat	heartbeat			1.7.1.1	9.3.1	0			b
+127771	436	Chantyal	nari bɦətki-wa	nari bɦətki-wa	pulse	pulse			1.7.1.1	9.3.2	0			m
+127772	436	Chantyal	ənnara bɦũri	ənnara bɦũri	viscera / guts / entrails (in	viscera  /  guts  /  entrails (in			1.7.7	9.4	0	jbl3		b,b
+127773	436	Chantyal	kəlico	kəlico	liver	liver			1.7.3	9.5	0			m
+127774	436	Chantyal	bittə	bit◦tə	bile	bile			1.7.3.1	9.5.1	0			5637
+127775	436	Chantyal	bittə	bit◦tə	gall bladder	gall bladder			1.7.3	9.5.2	0			5637
+127776	436	Chantyal	mir◦kay◦lo	mir◦kay◦lo	kidney	kidney			1.7.5	9.6	0			m,201,2812
+127777	436	Chantyal	pɦomci	pɦomci	urinary bladder	urinary bladder			1.7.8	9.7	0			
+127778	436	Chantyal	kum	kum	urine	urine			1.8.4	9.7.1	0			656
+127779	436	Chantyal	kum piri-wa	kum piri-wa	urinate	urinate (v.)	v		1.5.3.2	9.7.2	0	dwb21		656,m,m
+127780	436	Chantyal	patro (C?)	patro (C?)	spleen	spleen			1.7.4	9.8	0			m
+127781	436	Chantyal	pho	pho	stomach	stomach			1.7.6	9.10	0			2103
+127782	436	Chantyal	ən◦nara	ən◦nara	intestines / bowels	intestines  /  bowels			1.7.7	9.11	0	jbl3		b
+127783	436	Chantyal	thyaw ənnara	thyaw ənnara	large intestine	large intestine			1.7.7	9.11.1	0			m,b
+127784	436	Chantyal	cẽy ənnara	cẽy ənnara	small intestine	small intestine			9.7.2	9.11.2	0			m,b
+127785	436	Chantyal	korle	korle	duodenum	duodenum			1.7.7		0			
+127786	436	Chantyal	beran	beran	anus / rectum	anus / rectum			1.4.10.2	9.12	0			399
+127787	436	Chantyal	mujika	mujika	anus	anus			1.4.10.2		0			b
+127788	436	Chantyal	kili	kili	feces (of humans / carnivores)	feces (of humans / carnivores)			1.8.5	9.12.1	0			572
+127789	436	Chantyal	gobər	gobər	feces (of herbivore)	feces (of herbivore)			1.8.5		0			
+127790	436	Chantyal	suli	suli	feces (of bird)	feces (of bird)			1.8.5		0			
+127791	436	Chantyal	kili piri-wa	kili piri-wa	defecate	defecate (v.)	v		1.8.5.4	9.12.3	0	dwb21		572,m,m
+127792	436	Chantyal	pɦe-wa	pɦe-wa	copulate	copulate			1.9.1.1	10.2	0			3473,s
+127793	436	Chantyal	mɦo◦le	mɦo◦le	penis	penis				10.3.1	0			547,1284
+127794	436	Chantyal	pil◦te	pil◦te	glans penis	glans penis				10.3.2	0			1242,m
+127795	436	Chantyal	mɦole-ye chala	mɦole-ye chala	foreskin	foreskin				10.3.3	0			
+127796	436	Chantyal	gula-ye jyabi	gula-ye jyabi	scrotum	scrotum				10.3.4	0			
+127797	436	Chantyal	jɦus	jɦus	male pubic hair	male pubic hair				10.3.6	0			m
+127798	436	Chantyal	phu◦si	phu◦si	semen	semen				10.3.7	0			
+127799	436	Chantyal	swãt pəri-wa	swãt pəri-wa	ejaculate	ejaculate (v.)	v			10.3.8	0	dwb21		m,m,m
+127800	436	Chantyal	thokki-wa	thokki-wa	castrate	castrate (v.)	v		1.9.2.3	10.3.9	0	dwb21		m,m
+127801	436	Chantyal	ku◦pu	ku◦pu	vagina	vagina				10.4.1	0			m,668
+127802	436	Chantyal	ku◦pu-ye gala	ku◦pu-ye gala	vulva / labia	vulva  /  labia				10.4.2	0	jbl3		m,668,m,m
+127803	436	Chantyal	ti◦si	ti◦si	clitoris	clitoris				10.4.4	0			1352,1349
+127804	436	Chantyal	jɦus	jɦus	female pubic hair	female pubic hair				10.4.5	0			m
+127805	436	Chantyal	ka kha-wa	ka kha-wa	menstruate	menstruate (v.)	v		1.9.11.1	10.4.6	0	dwb21		231,m,m
+127806	436	Chantyal	nani-ye gɦar	nani-ye gɦar	womb	womb				10.4.8	0			b,b,b
+127807	436	Chantyal	kwi	kwi	amniotic fluid	amniotic fluid				10.4.10	0			
+127808	436	Chantyal	sal	sal	placenta	placenta				10.4.11	0			1651
+127809	436	Chantyal	nabi	nabi	umbilical cord	umbilical cord				10.4.12	0			b
+127810	436	Chantyal	jali	jali	caul (membrane on newborn head	caul (membrane on newborn head			1.2.1.4	10.4.13	0			m
+127811	436	Chantyal	nani yã-wa mũ-wa	nani yã-wa mũ-wa	pregnant	pregnant	be	be	1.9.6.1	10.4.14	0			b,m,m,m,m
+127812	436	Chantyal	nani yã-wã	nani yã-wã	birth, give	birth, give			1.1.2	10.4.15	0			b,3483,s
+127813	436	Chantyal	khwãy la-wa	khwãy la-wa	cough	cough			1.8.3.3	11.1	0			
+127814	436	Chantyal	khutuk la-wa	khutuk la-wa	hiccup	hiccup			1.8.3.5	11.2	0			
+127815	436	Chantyal	achchĩ la-wa	achchĩ la-wa	sneeze	sneeze			1.8.2.1	11.3	0			2131,m,m
+127816	436	Chantyal	ghã◦ti bə◦jə-wa	ghã◦ti bə◦jə-wa	snore	snore			1.8.2.2	11.4	0			m,m,m,m,s
+127817	436	Chantyal	phi◦phi la-wa	phi◦phi la-wa	whistle	whistle			8.5.5	11.5	0			m,m,m,s
+127818	436	Chantyal	ɦaap la-wa	ɦaap la-wa	burp / belch	burp  /  belch			1.8.3	11.6	0	jbl3		
+127819	436	Chantyal	phẽs ◦pi◦ri-wa	phẽs ◦pi◦ri-wa	fart	fart			1.8.5.2	11.7	0			311,311,m,s
+127820	436	Chantyal	ne◦rə-wa	ne◦rə-wa	laugh / smile	laugh / smile			1.8.8.1	11.9	0			1105,m,s
+127821	436	Chantyal	gilla-wa	gilla-wa	laugh at	laugh at			1.8.8.1		0			
+127822	436	Chantyal	thara-wa	thara-wa	tremble / shiver / shudder	tremble  /  shiver  /  shudder			1.6.6.2.1	12.1	0	jbl3		
+127823	436	Chantyal	na-wa	na-wa	sick / be ill / hurt	sick  /  be ill  /  hurt	be	be	1.1.5.1	12.2	0	jbl3		
+127824	436	Chantyal	cot lagi-wa	cot lagi-wa	hurt / injured	hurt / injured	be	be	1.1.5.1		0			
+127825	436	Chantyal	nirə-wa	nirə-wa	numb	numb	be	be	1.5.11	12.3	0			
+127826	436	Chantyal	sara-wa	sara-wa	swell /  be swollen	swell  /   be swollen	v.	v.	1.1.5.2	12.4	0	jbl3		
+127827	436	Chantyal	pip	pip	pus	pus			1.8.6.1	12.5	0			b
+127828	436	Chantyal	pwor	pwor	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound			1.8.6.2	12.6	0	jbl3		
+127829	436	Chantyal	õla	õla	finger width	finger width			1.5.6		0			
+127830	436	Chantyal	byata	byata	hand span	hand span			1.5.9.4	13.2	0			
+127831	436	Chantyal	ɦat	ɦat	cubit (elbow to fingers)	cubit (elbow to fingers)			1.5.9.3	13.3	0			
+127832	436	Chantyal	bãk	bãk	cord / fathom (outstretched ar	cord  /  fathom (outstretched ar			1.5.9.5	13.4	0	jbl3		
+127833	436	Chantyal	bãk	bãk	left fingertip to right finger	left fingertip to right finger			1.5.3.2	13.4.2	0			
+127834	436	Chantyal	dimak	dimak	mind / locus of thought	mind  /  locus of thought			1.10	14.1	0	jbl3		b?
+127835	436	Chantyal	mən	mən	heart / locus of emotions	heart  /  locus of emotions			1.7.1	14.2	0	jbl3		m
+127836	436	Chantyal	mən	mən	heart / locus of personality	heart  /  locus of personality			1.7.1	14.3	0	jbl3		m
+168982	436	Chantyal	gɦo	gɦo	body	body			1.1.1		0			2

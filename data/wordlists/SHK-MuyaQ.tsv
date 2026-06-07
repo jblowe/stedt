@@ -1,187 +1,187 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-129681	1135	Muya [Minyak]	qʰo⁵⁵pa⁵³	qʰo⁵⁵pa⁵³	body	body		1.1.1	1.1	0		5364,s
-129682	1135	Muya [Minyak]	qʰo⁵⁵pa⁵³mi⁵⁵ʐɐ³⁵	qʰo⁵⁵pa⁵³mi⁵⁵ʐɐ³⁵	side (right)	side (right)		1.4.5	1.2	0		5364,s,m,m
-129683	1135	Muya [Minyak]	qho⁵⁵pa⁵³ʁɒ³⁵ʐɐ³⁵	qho⁵⁵pa⁵³ʁɒ³⁵ʐɐ³⁵	side (left)	side (left)		1.4.5	1.3	0		5364,s,2154,m
-129684	1135	Muya [Minyak]	kʰo³⁵dyi⁵³	kʰo³⁵dyi⁵³	back	back		1.4.8	1.4	0		211,1243
-129685	1135	Muya [Minyak]	ʐɐ³⁵mbɐ⁵⁵	ʐɐ³⁵mbɐ⁵⁵	bosom	bosom		1.4.4.2	1.9	0		3376,1255
-129686	1135	Muya [Minyak]	ndo⁵⁵	ndo⁵⁵	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		38
-129687	1135	Muya [Minyak]	zɯ³⁵zɯ³⁵	zɯ³⁵zɯ³⁵	alive / be living	alive  /  be living		1.1.2.1	1.12	0		80,80
-129688	1135	Muya [Minyak]	sɯ⁵³	sɯ⁵³	die / be dead	die  /  be dead		1.1.6	1.13	0		27
-129689	1135	Muya [Minyak]	pø³⁵	pø³⁵	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		24
-129690	1135	Muya [Minyak]	kʰi⁵³	kʰi⁵³	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		128
-129691	1135	Muya [Minyak]	tɯ⁵⁵tɕɯ⁵³	tɯ⁵⁵tɕɯ⁵³	awake / be awake	awake  /  be awake		1.1.4	1.17	0		5770,5768
-129692	1135	Muya [Minyak]	mɐ⁵⁵mi⁵⁵	mɐ⁵⁵mi⁵⁵	dream	dream	v.	1.1.4.2	1.18	0		m,126
-129693	1135	Muya [Minyak]	ʁɐ³⁵lø³³	ʁɐ³⁵lø³³	head	head		1.2.1	2.1	0		385,690
-129694	1135	Muya [Minyak]	tsi⁵⁵	tsi⁵⁵	fontanel	fontanel		1.2.1.3	2.3	0		1196
-129695	1135	Muya [Minyak]	ȵi³⁵	ȵi³⁵	brain	brain		1.2.4	2.5	0		243
-129696	1135	Muya [Minyak]	ʁɐ³⁵mo³³	ʁɐ³⁵mo³³	hair of head	hair of head		1.2.3	2.7	0	HIDE	DUPE IN SOURCE
-129697	1135	Muya [Minyak]	tʰɯ⁵⁵dʑo³³	tʰɯ⁵⁵dʑo³³	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		1472,1144
-129698	1135	Muya [Minyak]	tsʰɯ⁵⁵mbɐ⁵³	tsʰɯ⁵⁵mbɐ⁵³	horn (of animal)	horn (of animal)		1.2.2	2.10	0		819,m
-129699	1135	Muya [Minyak]	ji³⁵tɐ⁵³	ji³⁵tɐ⁵³	face	face		1.2.5	3.1	0		
-129700	1135	Muya [Minyak]	tʰɯ⁵⁵pɛ³³	tʰɯ⁵⁵pɛ³³	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		2002,s
-129701	1135	Muya [Minyak]	nɛ³³tsɛ⁵³	nɛ³³tsɛ⁵³	temple	temple		1.2.5.1	3.3	0		
-129702	1135	Muya [Minyak]	mi⁵³	mi⁵³	eye	eye		1.2.6	3.4	0		681
-129703	1135	Muya [Minyak]	mi⁵⁵kɯ³³lø³⁵	mi⁵⁵kɯ³³lø³⁵	eyeball	eyeball		1.2.6.1	3.4.2	0		681,1110,1427
-129704	1135	Muya [Minyak]	mi³⁵ mɔ³⁵	mi³⁵ mɔ³⁵	eyebrow	eyebrow		1.2.6.6	3.4.3	0		681,363
-129705	1135	Muya [Minyak]	mi⁵⁵mu⁵⁵	mi⁵⁵mu⁵⁵	eyelash	eyelash		1.2.6.5	3.4.4	0		682,363
-129706	1135	Muya [Minyak]	mi⁵³tɕɯ⁵³	mi⁵³tɕɯ⁵³	tears	tears		1.2.6.7	3.4.6	0		681,1631
-129707	1135	Muya [Minyak]	NGɛ³⁵	NGɛ³⁵	cry / weep	cry  /  weep	v.	1.8.8.2	3.4.8	0		1104
-129708	1135	Muya [Minyak]	kʰɯ³³tɕɔ⁵³ri⁵⁵	kʰɯ³³tɕɔ⁵³ri⁵⁵	see / look	see  /  look	v.	1.2.6.10	3.4.9	0		m,m,m,m,1227
-129709	1135	Muya [Minyak]	lu⁵⁵wɛ⁵⁵	lu⁵⁵wɛ⁵⁵	blind	blind		1.2.6.14.2	3.4.10	0		m,m
-129710	1135	Muya [Minyak]	sɯ⁵³	sɯ⁵³	nose	nose		1.2.8	3.5	0		803
-129711	1135	Muya [Minyak]	sɯ⁵⁵ndʑɯ³⁵rø³⁵	sɯ⁵⁵ndʑɯ³⁵rø³⁵	nostril	nostril		1.2.8.1	3.5.2	0		m,442,2070
-129712	1135	Muya [Minyak]	sɯ⁵⁵mbɐ³⁵	sɯ⁵⁵mbɐ³⁵	liquid mucus	liquid mucus		3.2.3	3.5.6	0		
-129713	1135	Muya [Minyak]	kʰɯ⁵⁵nɯ⁵³	kʰɯ⁵⁵nɯ⁵³	smell / sniff	smell  /  sniff	v.	1.2.8.5	3.5.9	0		m,1415
-129714	1135	Muya [Minyak]	ȵyi³⁵	ȵyi³⁵	ear	ear		1.2.7	3.6	0		811
-129715	1135	Muya [Minyak]	ȵi³⁵tɕʰɯ⁵⁵	ȵi³⁵tɕʰɯ⁵⁵	earwax	earwax		1.2.7.3	3.6.6	0		811,2089
-129716	1135	Muya [Minyak]	sɯ⁵⁵ŋɑ³³	sɯ⁵⁵ŋɑ³³	hear	hear	v.	1.2.7.4	3.6.7	0		m,1410
-129717	1135	Muya [Minyak]	mbɑ³³pʰi³⁵	mbɑ³³pʰi³⁵	deaf	deaf		1.2.7.5	3.6.8	0		1409,m
-129718	1135	Muya [Minyak]	ŋɯ³⁵tsø³⁵	ŋɯ³⁵tsø³⁵	mouth	mouth		1.3.1	3.7	0	D0	2099,442
-129719	1135	Muya [Minyak]	xɯ⁵⁵ŋgɐ³⁵	xɯ⁵⁵ŋgɐ³⁵	gums	gums		1.3.4.3	3.7.3	0		632,m
-129720	1135	Muya [Minyak]	rɐ³⁵tɕe⁵³	rɐ³⁵tɕe⁵³	uvula	uvula		1.3.5.1	3.7.4	0		621,m
-129721	1135	Muya [Minyak]	ʐɐ³⁵mbɐ⁵³	ʐɐ³⁵mbɐ⁵³	saliva	saliva		1.8.3	3.7.5	0		m,607
-129722	1135	Muya [Minyak]	ndzɯ³⁵	ndzɯ³⁵	eat	eat	v.	1.5.3.2	3.7.6	0		36
-129723	1135	Muya [Minyak]	tɕʰyɯ⁵³	tɕʰyɯ⁵³	drink	drink	v.		3.7.7	0		502
-129724	1135	Muya [Minyak]	ti³³vi⁵³	ti³³vi⁵³	thirsty	thirsty	be	1.1.3.1	3.7.8	0		m,122
-129725	1135	Muya [Minyak]	to³⁵zo³⁵	to³⁵zo³⁵	hungry	hungry	be	1.1.3	3.7.9	0		m,1825
-129726	1135	Muya [Minyak]	tu³⁵tɕɯ⁵³	tu³⁵tɕɯ⁵³	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		
-129727	1135	Muya [Minyak]	ʁa³⁵vɛ⁵⁵	ʁa³⁵vɛ⁵⁵	spit	spit	v.	1.8.3	3.7.11	0		
-129728	1135	Muya [Minyak]	tu⁵⁵pʰɐ³³	tu⁵⁵pʰɐ³³	vomit	vomit	n.	1.8.3.2	3.7.12	0		p,1145
-129729	1135	Muya [Minyak]	ɦɛ⁵⁵tɕu⁵⁵tɕɐ⁵³	ɦɛ⁵⁵tɕu⁵⁵tɕɐ⁵³	hold in mouth	hold in mouth	v.	1.3.4.4	3.7.14	0		
-129730	1135	Muya [Minyak]	tɯ³³qɑ⁵³	tɯ³³qɑ⁵³	gape / open mouth	gape  /  open mouth	v.	1.3.1	3.7.15	0		m,273
-129731	1135	Muya [Minyak]	mi⁵⁵ntɕʰa³⁵	mi⁵⁵ntɕʰa³⁵	yawn	yawn	v.	1.3.1.3	3.7.16	0		
-129732	1135	Muya [Minyak]	ʐɐ³⁵	ʐɐ³⁵	tongue	tongue		1.3.3	3.8	0		621
-129733	1135	Muya [Minyak]	tu³³ɕɐ⁵³	tu³³ɕɐ⁵³	speak	speak	v.	8.5.10.1	3.8.1	0		m,1755
-129734	1135	Muya [Minyak]	tu³³ŋkʰe⁵⁵	tu³³ŋkʰe⁵⁵	stutter / stammer	stutter  /  stammer	v.	8.5.4.5	3.8.2	0		
-129735	1135	Muya [Minyak]	gø³⁵pʰɛ³³	gø³⁵pʰɛ³³	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		m,m
-129736	1135	Muya [Minyak]	tʰi⁵³ndʑyɛ⁵⁵lɛ³³	tʰi⁵³ndʑyɛ⁵⁵lɛ³³	lick	lick	v.	1.3.3.1	3.8.4	0		m,629,m
-129737	1135	Muya [Minyak]	ŋɯ³⁵tsø³⁵ʐɯ³³mbɐ⁵³	ŋɯ³⁵tsø³⁵ʐɯ³³mbɐ⁵³	lip	lip		1.3.2	3.9	0	D0	2099,442,m,m
-129738	1135	Muya [Minyak]	ni³⁵ri³⁵	ni³⁵ri³⁵	smile	smile	v.	1.8.8.1	3.9.4	0		1105,1108
-129739	1135	Muya [Minyak]	ʔu⁵⁵kʰɯ³³vɯ³³	ʔu⁵⁵kʰɯ³³vɯ³³	kiss	kiss	v.	1.3.2.2	3.9.5	0		
-129740	1135	Muya [Minyak]	xɯ³⁵	xɯ³⁵	tooth	tooth		1.3.4	3.10	0		632
-129741	1135	Muya [Minyak]	xɯ⁵⁵mɐ⁵³	xɯ⁵⁵mɐ⁵³	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		632,s
-129742	1135	Muya [Minyak]	qo⁵³	qo⁵³	molar	molar		1.3.4.2	3.10.2	0		630
-129743	1135	Muya [Minyak]	ndʐɯ³⁵	ndʐɯ³⁵	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang		1.3.4.1	3.10.3	0		635
-129744	1135	Muya [Minyak]	ndʐɯ³⁵	ndʐɯ³⁵	tusk	tusk		1.3.4.1	3.10.6	0		635
-129745	1135	Muya [Minyak]	kʰɯ⁵⁵vɐ⁵³	kʰɯ⁵⁵vɐ⁵³	bite	bite	v.	1.3.4.4	3.10.7	0		1762
-129746	1135	Muya [Minyak]	nɯ³³tsɯ³³tsɑ⁵³	nɯ³³tsɯ³³tsɑ⁵³	chew	chew	v.	1.3.4	3.10.8	0	D0	
-129747	1135	Muya [Minyak]	ndʐɐ³³mbɛ⁵⁵	ndʐɐ³³mbɛ⁵⁵	cheek	cheek		1.2.5.2	3.11	0		262,268
-129748	1135	Muya [Minyak]	mɐ⁵⁵ ŋkʰĩ⁵⁵	mɐ⁵⁵ŋkʰĩ⁵⁵	chin	chin		1.2.5.3	3.12	0		1187,273
-129749	1135	Muya [Minyak]	ʁɯ³⁵tsa⁵⁵	ʁɯ³⁵tsa⁵⁵	neck	neck		1.4.2	4.1	0	D0	479,255
-129750	1135	Muya [Minyak]	vɐ³³lø⁵⁵	vɐ³³lø⁵⁵	goiter	goiter		1.4.2.2	4.1.1	0		
-129751	1135	Muya [Minyak]	o⁵⁵ndy⁵⁵	o⁵⁵ndy⁵⁵	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		490,m
-129752	1135	Muya [Minyak]	u⁵⁵tʂʰo⁵³	u⁵⁵tʂʰo⁵³	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		490,3363
-129753	1135	Muya [Minyak]	o³³◦tʂʰo⁵⁵	o³³◦tʂʰo⁵⁵	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		490,3363
-129754	1135	Muya [Minyak]	mi⁵⁵kuɐ⁵³	mi⁵⁵kuɐ⁵³	esophagus	esophagus		1.3.5.5	4.2.2	0		m,389
-129755	1135	Muya [Minyak]	na³³ʁuɯ³⁵	na³³ʁuɯ³⁵	swallow	swallow	v.	1.3.5.6	4.2.3	0		
-129756	1135	Muya [Minyak]	ʐa³⁵mbɐ⁵⁵	ʐa³⁵mbɐ⁵⁵	chest	chest		1.4.4.3	5.1	0		3376,m
-129757	1135	Muya [Minyak]	no³⁵pɐ⁵³	no³⁵pɐ⁵³	rib	rib		1.4.4.3	5.1.2	0		553,m
-129758	1135	Muya [Minyak]	ʁua³⁵	ʁua³⁵	shoulder	shoulder		1.4.3	5.3	0	D0	3350
-129759	1135	Muya [Minyak]	nɯ³³nø⁵³	nɯ³³nø⁵³	breast	breast		1.4.4.3	5.4	0	D0	253,254
-129760	1135	Muya [Minyak]	nɯ³⁵nø³⁵	nɯ³⁵nø³⁵	nipple	nipple			5.4.1	0		253,254
-129761	1135	Muya [Minyak]	lɐ³⁵	lɐ³⁵	milk	milk			5.4.3	0		1786
-129762	1135	Muya [Minyak]	kʰɯ⁵⁵nɯ⁵⁵	kʰɯ⁵⁵nɯ⁵⁵	suck	suck	v.	1.3.2.1	5.4.5	0		m,253
-129763	1135	Muya [Minyak]	tʰɐ⁵⁵mɯ⁵³	tʰɐ⁵⁵mɯ⁵³	nurse / suckle	nurse  /  suckle	v.	4.2.1.5	5.4.6	0		
-129764	1135	Muya [Minyak]	kʰø³⁵dyi⁵³	kʰø³⁵dyi⁵³	back	back		1.4.8	5.5	0		211,1243
-129765	1135	Muya [Minyak]	nda⁵³	nda⁵³	waist	waist		1.4.6	5.6	0		406
-129766	1135	Muya [Minyak]	vu³⁵lø⁵³	vu³⁵lø⁵³	belly / abdomen	belly  /  abdomen		1.4.7	5.7	0		137,m
-129767	1135	Muya [Minyak]	vi³³tsʰa⁵³	vi³³tsʰa⁵³	navel	navel		1.9.4	5.7.1	0		2102,525
-129768	1135	Muya [Minyak]	zo⁵³	zo⁵³	haunches	haunches		1.4.9.2	5.8.3	0		m
-129769	1135	Muya [Minyak]	zo⁵³	zo⁵³	buttocks	buttocks		1.4.10	5.10.1	0		3333
-129770	1135	Muya [Minyak]	mɯ³⁵	mɯ³⁵	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		1288
-129771	1135	Muya [Minyak]	va³⁵	va³⁵	arm	arm		1.5.1.2	6.1	0		725
-129772	1135	Muya [Minyak]	ja³⁵na̱⁵⁵va̱³⁵	ja³⁵na̱⁵⁵va̱³⁵	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		m,m,725
-129773	1135	Muya [Minyak]	tʂɿ³³tʂɿ⁵⁵	tʂɿ³³tʂɿ⁵⁵	tickle	tickle	v.	1.5.1.2.4	6.1.1.1	0		
-129774	1135	Muya [Minyak]	ŋe⁵⁵ŋu⁵³	ŋe⁵⁵ŋu⁵³	elbow	elbow		1.5.8.3	6.1.4	0	D0	
-129775	1135	Muya [Minyak]	ɣi⁵⁵	ɣi⁵⁵	hand	hand		1.5.1.1	6.1.7	0		770
-129776	1135	Muya [Minyak]	ʐɯ³⁵tɐ⁵⁵ŋgɯ³⁵lɐ⁵³	ʐɯ³⁵tɐ⁵⁵ŋgɯ³⁵lɐ⁵³	palm	palm		1.5.5	6.1.7.1	0		
-129777	1135	Muya [Minyak]	ʐɐ³⁵ku³⁵tɑ⁵³	ʐɐ³⁵ku³⁵tɑ⁵³	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		
-129778	1135	Muya [Minyak]	rɐ³⁵tsʰɯ⁵⁵gø³⁵lø³⁵	rɐ³⁵tsʰɯ⁵⁵gø³⁵lø³⁵	fist	fist		1.5.1.1.1	6.1.7.3	0		
-129779	1135	Muya [Minyak]	ɣi⁵⁵mi⁵⁵ʐɐ³⁵	ɣi⁵⁵mi⁵⁵ʐɐ³⁵	right hand	right hand		1.5.3.2	6.1.7.4	0		770,m,m
-129780	1135	Muya [Minyak]	ɣi⁵⁵ʁɐ³⁵ʐɐ³⁵	ɣi⁵⁵ʁɐ³⁵ʐɐ³⁵	left hand	left hand		1.5.3.2	6.1.7.5	0		770,2154,m
-129781	1135	Muya [Minyak]	vɯ³⁵pʰɛ⁵⁵	vɯ³⁵pʰɛ⁵⁵	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		1603,714
-129782	1135	Muya [Minyak]	u⁵⁵ɣi⁵⁵ŋgɐ³⁵	u⁵⁵ɣi⁵⁵ŋgɐ³⁵	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
-129783	1135	Muya [Minyak]	lɛ³³ɕɛ⁵³	lɛ³³ɕɛ⁵³	leg	leg		1.5.7	6.2	0		
-129784	1135	Muya [Minyak]	ŋu⁵⁵pʰɯ⁵³la³⁵	ŋu⁵⁵pʰɯ⁵³la³⁵	knee	knee		1.5.8.4	6.2.2	0		
-129785	1135	Muya [Minyak]	ʐɯ³⁵mbɐ⁵³	ʐɯ³⁵mbɐ⁵³	shin	shin		1.5.7.2	6.2.3	0		
-129786	1135	Muya [Minyak]	mɐ³⁵dø⁵³	mɐ³⁵dø⁵³	calf	calf		1.5.7	6.2.4	0		
-129787	1135	Muya [Minyak]	mɑ³⁵ŋkʰua³⁵rɯ³⁵lɯ³⁵	mɑ³⁵ŋkʰua³⁵rɯ³⁵lɯ³⁵	ankle	ankle		1.5.8.2	6.2.5	0		m,m,232,m
-129788	1135	Muya [Minyak]	ma³⁵ŋkua³⁵rɯ³⁵lɯ³⁵	ma³⁵ŋkua³⁵rɯ³⁵lɯ³⁵	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		m,m,232,m
-129789	1135	Muya [Minyak]	ŋgɐ³⁵	ŋgɐ³⁵	foot	foot		1.5.2	6.2.6	0		
-129790	1135	Muya [Minyak]	mo³³so⁵⁵	mo³³so⁵⁵	heel	heel		1.5.2.1	6.2.6.1	0		
-129791	1135	Muya [Minyak]	mɐ⁵⁵kʰu⁵⁵	mɐ⁵⁵kʰu⁵⁵	arch	arch		1.5.2.3	6.2.6.3	0		
-129792	1135	Muya [Minyak]	mɐ⁵⁵dʑy³³	mɐ⁵⁵dʑy³³	instep	instep		1.5.2.2	6.2.6.6	0		
-129793	1135	Muya [Minyak]	pɯ⁵⁵rə³⁵	pɯ⁵⁵rə³⁵	footprint	footprint		1.5.2.5	6.2.6.7	0		
-129794	1135	Muya [Minyak]	quɐ³³tsʰɯ⁵³	quɐ³³tsʰɯ⁵³	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		417,m
-129795	1135	Muya [Minyak]	ŋgɐ³⁵ʑɛ³⁵	ŋgɐ³⁵ʑɛ³⁵	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-129796	1135	Muya [Minyak]	ʐɑ³⁵nɯ⁵⁵tɕe⁵³	ʐɑ³⁵nɯ⁵⁵tɕe⁵³	little finger	little finger		9.7.2	7.1.4	0		m,320,m
-129797	1135	Muya [Minyak]	tɑ⁵⁵mɐ⁵⁵	tɑ⁵⁵mɐ⁵⁵	thumb	thumb		1.5.6.1	7.1.5	0		m,1619
-129798	1135	Muya [Minyak]	ʐɐ³⁵ʐi³⁵mo³⁵	ʐɐ³⁵ʐi³⁵mo³⁵	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
-129799	1135	Muya [Minyak]	ʐa³⁵ndza⁵³	ʐa³⁵ndza⁵³	nail	nail		1.5.10	7.4	0		
-129800	1135	Muya [Minyak]	qʰo⁵⁵ndɐ⁵⁵	qʰo⁵⁵ndɐ⁵⁵	pincers	pincers		1.5.10.4	7.4.5	0		
-129801	1135	Muya [Minyak]	ʁɐ³⁵mo³³	ʁɐ³⁵mo³³	hair of head	hair of head		1.2.3	8.1.1	0	D1	385,363
-129802	1135	Muya [Minyak]	ɛ³³tsø⁵⁵	ɛ³³tsø⁵⁵	beard	beard		1.2.5.5	8.1.2.1	0	D0	m,370
-129803	1135	Muya [Minyak]	dʑɛ³⁵wu³⁵mo³⁵	dʑɛ³⁵wu³⁵mo³⁵	feather	feather		1.6.1.1	8.1.5	0		m,1603,363
-129804	1135	Muya [Minyak]	mo³⁵	mo³⁵	mane	mane		1.6.1	8.1.6	0		363
-129805	1135	Muya [Minyak]	ʐɯ³⁵mbɐ⁵³	ʐɯ³⁵mbɐ⁵³	skin	skin		1.6.5	8.2	0	D0	596,592
-129806	1135	Muya [Minyak]	ȵi³³tɕu⁵⁵	ȵi³³tɕu⁵⁵	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		615,1631
-129807	1135	Muya [Minyak]	tɕʰɯ⁵⁵ȵi⁵⁵	tɕʰɯ⁵⁵ȵi⁵⁵	mole	mole		2.2.7	8.2.3.3	0		
-129808	1135	Muya [Minyak]	ʐe³⁵	ʐe³⁵	cyst	cyst		1.6.5.3	8.2.3.5	0		
-129809	1135	Muya [Minyak]	tʰɯ³⁵rɯ⁵³	tʰɯ³⁵rɯ⁵³	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
-129810	1135	Muya [Minyak]	ŋ◦gi³⁵◦ŋɯ⁵⁵	ŋ◦gi³⁵ŋɯ⁵⁵	itch / be itchy	itch  /  be itchy	v.	1.6.5.5	8.2.3.10	0		p,1456,m
-129811	1135	Muya [Minyak]	dʑi⁵³rə⁵³	dʑi⁵³rə⁵³	fish scales	fish scales		1.6.5.2	8.2.5	0		
-129812	1135	Muya [Minyak]	lɯ³⁵qo⁵³	lɯ³⁵qo⁵³	hide / leather	hide  /  leather		1.6.5.1	8.2.6	0		
-129813	1135	Muya [Minyak]	tø⁵⁵mɛ⁵³	tø⁵⁵mɛ⁵³	fat	fat		1.6.4	8.3	0		42,1470
-129814	1135	Muya [Minyak]	(ʑy³³)tsɐ⁵⁵	(ʑy³³)tsɐ⁵⁵	oil / grease	oil  /  grease		1.6.4.1	8.3.2	0		m,42
-129815	1135	Muya [Minyak]	do³⁵pa⁵³ra³⁵ka⁵³	do³⁵pa⁵³ra³⁵ka⁵³	vertebrae	vertebrae		1.6.3.3	8.4.2	0		
-129816	1135	Muya [Minyak]	n◦dʐuɯ³⁵	n◦dʐuɯ³⁵	sinew / tendon	sinew  /  tendon		1.6.6.1	8.5	0		p,536
-129817	1135	Muya [Minyak]	sa⁵³	sa⁵³	blood	blood		1.6.2	8.7	0		230
-129818	1135	Muya [Minyak]	ndu³⁵	ndu³⁵	bleed	bleed	v.	1.6.2	8.7.2	0		m
-129819	1135	Muya [Minyak]	ndo⁵⁵	ndo⁵⁵	muscle	muscle		1.6.6.2	8.8	0		m
-129820	1135	Muya [Minyak]	tsʰi⁵⁵ntsʰɐ³⁵	tsʰi⁵⁵ntsʰɐ³⁵	joint	joint		1.5.8	8.9	0		m,418
-129821	1135	Muya [Minyak]	tsʰɯ̱³³	tsʰɯ̱³³	lung	lung		1.7.2	9.2	0		458
-129822	1135	Muya [Minyak]	tɯ³³tsʰɑ³⁵	tɯ³³tsʰɑ³⁵	pant	pant	v.	1.1.2.2	9.2.2	0		
-129823	1135	Muya [Minyak]	pʰɯ⁵⁵	pʰɯ⁵⁵	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		75
-129824	1135	Muya [Minyak]	mbɯ³³lø⁵⁵	mbɯ³³lø⁵⁵	gill	gill		1.3.5.3	9.2.4	0		
-129825	1135	Muya [Minyak]	dʑɯ³⁵mbɐ⁵⁵	dʑɯ³⁵mbɐ⁵⁵	phlegm	phlegm		1.8.3	9.2.5	0		
-129826	1135	Muya [Minyak]	jɐ⁵³pʰø⁵⁵sɯ⁵³ɣø³⁵	jɐ⁵³pʰø⁵⁵sɯ⁵³ɣø³⁵	heart	heart		1.7.1	9.3	0		
-129827	1135	Muya [Minyak]	zɯ⁵³	zɯ⁵³	liver	liver		1.7.3	9.5	0		1390
-129828	1135	Muya [Minyak]	tʂɯ⁵³	tʂɯ⁵³	gall bladder	gall bladder		1.7.3	9.5.2	0		227
-129829	1135	Muya [Minyak]	nda⁵³	nda⁵³	kidney	kidney		1.7.5	9.6	0		406
-129830	1135	Muya [Minyak]	pʰɯ³³si³⁵	pʰɯ³³si³⁵	urinary bladder	urinary bladder		1.7.8	9.7	0		
-129831	1135	Muya [Minyak]	bi³⁵	bi³⁵	urine	urine		1.8.4	9.7.1	0		1102
-129832	1135	Muya [Minyak]	bi³⁵	bi³⁵	urinate	urinate	v.	1.5.3.2	9.7.2	0		1102
-129833	1135	Muya [Minyak]	pɐ⁵³	pɐ⁵³	spleen	spleen		1.7.4	9.8	0		91
-129834	1135	Muya [Minyak]	tɯ⁵³kɯ⁵³lø⁵³	tɯ⁵³kɯ⁵³lø⁵³	stomach	stomach		1.7.6	9.10	0	D0	p,2123,690
-129835	1135	Muya [Minyak]	vɯ³³tɕʰa³⁵	vɯ³³tɕʰa³⁵	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		2102,m
-129836	1135	Muya [Minyak]	vɯ³³tɕʰa³⁵mbø⁵⁵mbø⁵⁵	vɯ³³tɕʰa³⁵mbø⁵⁵mbø⁵⁵	large intestine	large intestine		1.7.7	9.11.1	0		2102,m,m,m
-129837	1135	Muya [Minyak]	vɯ³³tɕʰa³⁵tsʰe³⁵tsʰe⁵⁵	vɯ³³tɕʰa³⁵tsʰe³⁵tsʰe⁵⁵	small intestine	small intestine		9.7.2	9.11.2	0		2102,m,m,m
-129838	1135	Muya [Minyak]	zo⁵³mbɯ⁵⁵lø³⁵	zo⁵³mbɯ⁵⁵lø³⁵	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		m,m,m
-129839	1135	Muya [Minyak]	ɣɯ³⁵mbɯ⁵³	ɣɯ³⁵mbɯ⁵³	feces / shit	feces  /  shit		1.8.5	9.12.1	0		m
-129840	1135	Muya [Minyak]	ʂɯ³⁵	ʂɯ³⁵	defecate	defecate	v.	1.8.5.4	9.12.3	0		
-129841	1135	Muya [Minyak]	tʰɯ³¹bu⁵³	tʰɯ³¹bu⁵³	testicle	testicle			10.3.5	0		m,1654
-129842	1135	Muya [Minyak]	no³³rɛ³⁵	no³³rɛ³⁵	castrate	castrate	v.	1.9.2.3	10.3.9	0		m,m
-129843	1135	Muya [Minyak]	ʐɯ⁵³	ʐɯ⁵³	amniotic sac / bag of waters	amniotic sac  /  bag of waters			10.4.9	0		1013
-129844	1135	Muya [Minyak]	kʰɯ³⁵vi³⁵tɕɯ⁵³	kʰɯ³⁵vi³⁵tɕɯ⁵³	pregnant	pregnant	be	1.9.6.1	10.4.14	0		
-129845	1135	Muya [Minyak]	mɯ⁵⁵zɯ⁵⁵	mɯ⁵⁵zɯ⁵⁵	birth, give	birth, give		1.1.2	10.4.15	0		m,1865
-129846	1135	Muya [Minyak]	vɑ³³vɑ⁵⁵	vɑ³³vɑ⁵⁵	egg (of animal)	egg (of animal)			10.4.16	0		1603,m
-129847	1135	Muya [Minyak]	nə³⁵sø³⁵	nə³⁵sø³⁵	cough	cough		1.8.3.3	11.1	0		
-129848	1135	Muya [Minyak]	tɯ⁵⁵ke⁵³	tɯ⁵⁵ke⁵³	hiccup	hiccup		1.8.3.5	11.2	0		
-129849	1135	Muya [Minyak]	nɯ⁵⁵ɕɯ⁵⁵	nɯ⁵⁵ɕɯ⁵⁵	sneeze	sneeze		1.8.2.1	11.3	0		
-129850	1135	Muya [Minyak]	ni³⁵ɣi³⁵	ni³⁵ɣi³⁵	laugh	laugh		1.8.8.1	11.9	0		1105,1108
-129851	1135	Muya [Minyak]	tɐ³⁵tɐ³³	tɐ³⁵tɐ³³	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
-129852	1135	Muya [Minyak]	ŋe⁵⁵	ŋe⁵⁵	sick	sick	be	1.1.5.1	12.2	0		160
-129853	1135	Muya [Minyak]	tʰi³⁵vɯ⁵³	tʰi³⁵vɯ⁵³	numb /  be paralyzed	numb  /   be paralyzed	be	1.5.11	12.3	0		7094,m
-129854	1135	Muya [Minyak]	ʐe³⁵	ʐe³⁵	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
-129855	1135	Muya [Minyak]	pɐ̱³⁵	pɐ̱³⁵	pus	pus		1.8.6.1	12.5	0		1295
-129856	1135	Muya [Minyak]	tɔ³³ʁo³⁵	tɔ³³ʁo³⁵	hand span	hand span		1.5.9.4	13.2	0		1281
-129857	1135	Muya [Minyak]	tɐ³⁵tɕuɯ⁵⁵	tɐ³⁵tɕuɯ⁵⁵	cubit	cubit		1.5.9.3	13.3	0		
-129858	1135	Muya [Minyak]	tɛ³⁵de³⁵	tɛ³⁵de³⁵	cord / fathom	cord  /  fathom		1.5.9.5	13.4	0		
-129859	1135	Muya [Minyak]	ʁo³⁵	ʁo³⁵	male	male		1.9.6.1	10.3	0		1638
-129860	1135	Muya [Minyak]	mɐ³⁵	mɐ³⁵	female	female		1.9.3	10.4	0		1619
-168684	1135	Muya [Minyak]	tø⁵⁵rɔ⁵⁵	tø⁵⁵rɔ⁵⁵	see / look	see  /  look	v.	1.2.6.10	3.4.9	0		m,m,m,m,1227
-168685	1135	Muya [Minyak]	xɯ⁵⁵nɑ⁵³	xɯ⁵⁵nɑ⁵³	gums	gums		1.3.4.3	3.7.3	0		632,m
-168686	1135	Muya [Minyak]	+rmk.	+rmk.	goiter	goiter		1.4.2.2	4.1.1	0		e
-168687	1135	Muya [Minyak]	kuɯ⁵³	kuɯ⁵³	testicle	testicle			10.3.5	0		305
-168688	1135	Muya [Minyak]	tɯ³³tsʰɐ⁵⁵qo³³	tɯ³³tsʰɐ⁵⁵qo³³	cough	cough		1.8.3.3	11.1	0		
-168689	1135	Muya [Minyak]	tɯ⁵⁵ŋe⁵⁵	tɯ⁵⁵ŋe⁵⁵	pain	pain	be	1.1.5.1	12.2	0		m,160
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+129681	1135	Muya [Minyak]	qʰo⁵⁵pa⁵³	qʰo⁵⁵pa⁵³	body	body			1.1.1	1.1	0			5364,s
+129682	1135	Muya [Minyak]	qʰo⁵⁵pa⁵³mi⁵⁵ʐɐ³⁵	qʰo⁵⁵pa⁵³mi⁵⁵ʐɐ³⁵	side (right)	side (right)			1.4.5	1.2	0			5364,s,m,m
+129683	1135	Muya [Minyak]	qho⁵⁵pa⁵³ʁɒ³⁵ʐɐ³⁵	qho⁵⁵pa⁵³ʁɒ³⁵ʐɐ³⁵	side (left)	side (left)			1.4.5	1.3	0			5364,s,2154,m
+129684	1135	Muya [Minyak]	kʰo³⁵dyi⁵³	kʰo³⁵dyi⁵³	back	back			1.4.8	1.4	0			211,1243
+129685	1135	Muya [Minyak]	ʐɐ³⁵mbɐ⁵⁵	ʐɐ³⁵mbɐ⁵⁵	bosom	bosom			1.4.4.2	1.9	0			3376,1255
+129686	1135	Muya [Minyak]	ndo⁵⁵	ndo⁵⁵	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		38
+129687	1135	Muya [Minyak]	zɯ³⁵zɯ³⁵	zɯ³⁵zɯ³⁵	alive / be living	alive  /  be living			1.1.2.1	1.12	0	jbl3		80,80
+129688	1135	Muya [Minyak]	sɯ⁵³	sɯ⁵³	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		27
+129689	1135	Muya [Minyak]	pø³⁵	pø³⁵	corpse / dead body	corpse  /  dead body			1.1.6.1	1.14	0	jbl3		24
+129690	1135	Muya [Minyak]	kʰi⁵³	kʰi⁵³	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		128
+129691	1135	Muya [Minyak]	tɯ⁵⁵tɕɯ⁵³	tɯ⁵⁵tɕɯ⁵³	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		5770,5768
+129692	1135	Muya [Minyak]	mɐ⁵⁵mi⁵⁵	mɐ⁵⁵mi⁵⁵	dream	dream	v.	v.	1.1.4.2	1.18	0			m,126
+129693	1135	Muya [Minyak]	ʁɐ³⁵lø³³	ʁɐ³⁵lø³³	head	head			1.2.1	2.1	0			385,690
+129694	1135	Muya [Minyak]	tsi⁵⁵	tsi⁵⁵	fontanel	fontanel			1.2.1.3	2.3	0			1196
+129695	1135	Muya [Minyak]	ȵi³⁵	ȵi³⁵	brain	brain			1.2.4	2.5	0			243
+129696	1135	Muya [Minyak]	ʁɐ³⁵mo³³	ʁɐ³⁵mo³³	hair of head	hair of head			1.2.3	2.7	0	jbl5	HIDE	DUPE IN SOURCE
+129697	1135	Muya [Minyak]	tʰɯ⁵⁵dʑo³³	tʰɯ⁵⁵dʑo³³	comb (of rooster)	comb (of rooster)			1.2.2.1	2.9	0			1472,1144
+129698	1135	Muya [Minyak]	tsʰɯ⁵⁵mbɐ⁵³	tsʰɯ⁵⁵mbɐ⁵³	horn (of animal)	horn (of animal)			1.2.2	2.10	0			819,m
+129699	1135	Muya [Minyak]	ji³⁵tɐ⁵³	ji³⁵tɐ⁵³	face	face			1.2.5	3.1	0			
+129700	1135	Muya [Minyak]	tʰɯ⁵⁵pɛ³³	tʰɯ⁵⁵pɛ³³	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		2002,s
+129701	1135	Muya [Minyak]	nɛ³³tsɛ⁵³	nɛ³³tsɛ⁵³	temple	temple			1.2.5.1	3.3	0			
+129702	1135	Muya [Minyak]	mi⁵³	mi⁵³	eye	eye			1.2.6	3.4	0			681
+129703	1135	Muya [Minyak]	mi⁵⁵kɯ³³lø³⁵	mi⁵⁵kɯ³³lø³⁵	eyeball	eyeball			1.2.6.1	3.4.2	0			681,1110,1427
+129704	1135	Muya [Minyak]	mi³⁵ mɔ³⁵	mi³⁵ mɔ³⁵	eyebrow	eyebrow			1.2.6.6	3.4.3	0			681,363
+129705	1135	Muya [Minyak]	mi⁵⁵mu⁵⁵	mi⁵⁵mu⁵⁵	eyelash	eyelash			1.2.6.5	3.4.4	0			682,363
+129706	1135	Muya [Minyak]	mi⁵³tɕɯ⁵³	mi⁵³tɕɯ⁵³	tears	tears			1.2.6.7	3.4.6	0			681,1631
+129707	1135	Muya [Minyak]	NGɛ³⁵	NGɛ³⁵	cry / weep	cry  /  weep	v.	v.	1.8.8.2	3.4.8	0	jbl3		1104
+129708	1135	Muya [Minyak]	kʰɯ³³tɕɔ⁵³ri⁵⁵	kʰɯ³³tɕɔ⁵³ri⁵⁵	see / look	see  /  look	v.	v.	1.2.6.10	3.4.9	0	jbl3		m,m,m,m,1227
+129709	1135	Muya [Minyak]	lu⁵⁵wɛ⁵⁵	lu⁵⁵wɛ⁵⁵	blind	blind			1.2.6.14.2	3.4.10	0			m,m
+129710	1135	Muya [Minyak]	sɯ⁵³	sɯ⁵³	nose	nose			1.2.8	3.5	0			803
+129711	1135	Muya [Minyak]	sɯ⁵⁵ndʑɯ³⁵rø³⁵	sɯ⁵⁵ndʑɯ³⁵rø³⁵	nostril	nostril			1.2.8.1	3.5.2	0			m,442,2070
+129712	1135	Muya [Minyak]	sɯ⁵⁵mbɐ³⁵	sɯ⁵⁵mbɐ³⁵	liquid mucus	liquid mucus			3.2.3	3.5.6	0			
+129713	1135	Muya [Minyak]	kʰɯ⁵⁵nɯ⁵³	kʰɯ⁵⁵nɯ⁵³	smell / sniff	smell  /  sniff	v.	v.	1.2.8.5	3.5.9	0	jbl3		m,1415
+129714	1135	Muya [Minyak]	ȵyi³⁵	ȵyi³⁵	ear	ear			1.2.7	3.6	0			811
+129715	1135	Muya [Minyak]	ȵi³⁵tɕʰɯ⁵⁵	ȵi³⁵tɕʰɯ⁵⁵	earwax	earwax			1.2.7.3	3.6.6	0			811,2089
+129716	1135	Muya [Minyak]	sɯ⁵⁵ŋɑ³³	sɯ⁵⁵ŋɑ³³	hear	hear	v.	v.	1.2.7.4	3.6.7	0			m,1410
+129717	1135	Muya [Minyak]	mbɑ³³pʰi³⁵	mbɑ³³pʰi³⁵	deaf	deaf			1.2.7.5	3.6.8	0			1409,m
+129718	1135	Muya [Minyak]	ŋɯ³⁵tsø³⁵	ŋɯ³⁵tsø³⁵	mouth	mouth			1.3.1	3.7	0		D0	2099,442
+129719	1135	Muya [Minyak]	xɯ⁵⁵ŋgɐ³⁵	xɯ⁵⁵ŋgɐ³⁵	gums	gums			1.3.4.3	3.7.3	0			632,m
+129720	1135	Muya [Minyak]	rɐ³⁵tɕe⁵³	rɐ³⁵tɕe⁵³	uvula	uvula			1.3.5.1	3.7.4	0			621,m
+129721	1135	Muya [Minyak]	ʐɐ³⁵mbɐ⁵³	ʐɐ³⁵mbɐ⁵³	saliva	saliva			1.8.3	3.7.5	0			m,607
+129722	1135	Muya [Minyak]	ndzɯ³⁵	ndzɯ³⁵	eat	eat	v.	v.	1.5.3.2	3.7.6	0			36
+129723	1135	Muya [Minyak]	tɕʰyɯ⁵³	tɕʰyɯ⁵³	drink	drink	v.	v.		3.7.7	0			502
+129724	1135	Muya [Minyak]	ti³³vi⁵³	ti³³vi⁵³	thirsty	thirsty	be	be	1.1.3.1	3.7.8	0			m,122
+129725	1135	Muya [Minyak]	to³⁵zo³⁵	to³⁵zo³⁵	hungry	hungry	be	be	1.1.3	3.7.9	0			m,1825
+129726	1135	Muya [Minyak]	tu³⁵tɕɯ⁵³	tu³⁵tɕɯ⁵³	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		
+129727	1135	Muya [Minyak]	ʁa³⁵vɛ⁵⁵	ʁa³⁵vɛ⁵⁵	spit	spit	v.	v.	1.8.3	3.7.11	0			
+129728	1135	Muya [Minyak]	tu⁵⁵pʰɐ³³	tu⁵⁵pʰɐ³³	vomit	vomit	n.	n.	1.8.3.2	3.7.12	0			p,1145
+129729	1135	Muya [Minyak]	ɦɛ⁵⁵tɕu⁵⁵tɕɐ⁵³	ɦɛ⁵⁵tɕu⁵⁵tɕɐ⁵³	hold in mouth	hold in mouth	v.	v.	1.3.4.4	3.7.14	0			
+129730	1135	Muya [Minyak]	tɯ³³qɑ⁵³	tɯ³³qɑ⁵³	gape / open mouth	gape  /  open mouth	v.	v.	1.3.1	3.7.15	0	jbl3		m,273
+129731	1135	Muya [Minyak]	mi⁵⁵ntɕʰa³⁵	mi⁵⁵ntɕʰa³⁵	yawn	yawn	v.	v.	1.3.1.3	3.7.16	0			
+129732	1135	Muya [Minyak]	ʐɐ³⁵	ʐɐ³⁵	tongue	tongue			1.3.3	3.8	0			621
+129733	1135	Muya [Minyak]	tu³³ɕɐ⁵³	tu³³ɕɐ⁵³	speak	speak	v.	v.	8.5.10.1	3.8.1	0			m,1755
+129734	1135	Muya [Minyak]	tu³³ŋkʰe⁵⁵	tu³³ŋkʰe⁵⁵	stutter / stammer	stutter  /  stammer	v.	v.	8.5.4.5	3.8.2	0	jbl3		
+129735	1135	Muya [Minyak]	gø³⁵pʰɛ³³	gø³⁵pʰɛ³³	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		m,m
+129736	1135	Muya [Minyak]	tʰi⁵³ndʑyɛ⁵⁵lɛ³³	tʰi⁵³ndʑyɛ⁵⁵lɛ³³	lick	lick	v.	v.	1.3.3.1	3.8.4	0			m,629,m
+129737	1135	Muya [Minyak]	ŋɯ³⁵tsø³⁵ʐɯ³³mbɐ⁵³	ŋɯ³⁵tsø³⁵ʐɯ³³mbɐ⁵³	lip	lip			1.3.2	3.9	0		D0	2099,442,m,m
+129738	1135	Muya [Minyak]	ni³⁵ri³⁵	ni³⁵ri³⁵	smile	smile	v.	v.	1.8.8.1	3.9.4	0			1105,1108
+129739	1135	Muya [Minyak]	ʔu⁵⁵kʰɯ³³vɯ³³	ʔu⁵⁵kʰɯ³³vɯ³³	kiss	kiss	v.	v.	1.3.2.2	3.9.5	0			
+129740	1135	Muya [Minyak]	xɯ³⁵	xɯ³⁵	tooth	tooth			1.3.4	3.10	0			632
+129741	1135	Muya [Minyak]	xɯ⁵⁵mɐ⁵³	xɯ⁵⁵mɐ⁵³	tooth (incisor)	tooth (incisor)			1.3.4	3.10.1	0			632,s
+129742	1135	Muya [Minyak]	qo⁵³	qo⁵³	molar	molar			1.3.4.2	3.10.2	0			630
+129743	1135	Muya [Minyak]	ndʐɯ³⁵	ndʐɯ³⁵	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang			1.3.4.1	3.10.3	0	jbl3		635
+129744	1135	Muya [Minyak]	ndʐɯ³⁵	ndʐɯ³⁵	tusk	tusk			1.3.4.1	3.10.6	0			635
+129745	1135	Muya [Minyak]	kʰɯ⁵⁵vɐ⁵³	kʰɯ⁵⁵vɐ⁵³	bite	bite	v.	v.	1.3.4.4	3.10.7	0			1762
+129746	1135	Muya [Minyak]	nɯ³³tsɯ³³tsɑ⁵³	nɯ³³tsɯ³³tsɑ⁵³	chew	chew	v.	v.	1.3.4	3.10.8	0		D0	
+129747	1135	Muya [Minyak]	ndʐɐ³³mbɛ⁵⁵	ndʐɐ³³mbɛ⁵⁵	cheek	cheek			1.2.5.2	3.11	0			262,268
+129748	1135	Muya [Minyak]	mɐ⁵⁵ ŋkʰĩ⁵⁵	mɐ⁵⁵ŋkʰĩ⁵⁵	chin	chin			1.2.5.3	3.12	0			1187,273
+129749	1135	Muya [Minyak]	ʁɯ³⁵tsa⁵⁵	ʁɯ³⁵tsa⁵⁵	neck	neck			1.4.2	4.1	0		D0	479,255
+129750	1135	Muya [Minyak]	vɐ³³lø⁵⁵	vɐ³³lø⁵⁵	goiter	goiter			1.4.2.2	4.1.1	0			
+129751	1135	Muya [Minyak]	o⁵⁵ndy⁵⁵	o⁵⁵ndy⁵⁵	adam's apple / larynx	adam's apple  /  larynx			1.5.3.2	4.1.4	0	jbl3		490,m
+129752	1135	Muya [Minyak]	u⁵⁵tʂʰo⁵³	u⁵⁵tʂʰo⁵³	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		490,3363
+129753	1135	Muya [Minyak]	o³³◦tʂʰo⁵⁵	o³³◦tʂʰo⁵⁵	windpipe / trachea	windpipe  /  trachea			1.3.5.2	4.2.1	0	jbl3		490,3363
+129754	1135	Muya [Minyak]	mi⁵⁵kuɐ⁵³	mi⁵⁵kuɐ⁵³	esophagus	esophagus			1.3.5.5	4.2.2	0			m,389
+129755	1135	Muya [Minyak]	na³³ʁuɯ³⁵	na³³ʁuɯ³⁵	swallow	swallow	v.	v.	1.3.5.6	4.2.3	0			
+129756	1135	Muya [Minyak]	ʐa³⁵mbɐ⁵⁵	ʐa³⁵mbɐ⁵⁵	chest	chest			1.4.4.3	5.1	0			3376,m
+129757	1135	Muya [Minyak]	no³⁵pɐ⁵³	no³⁵pɐ⁵³	rib	rib			1.4.4.3	5.1.2	0			553,m
+129758	1135	Muya [Minyak]	ʁua³⁵	ʁua³⁵	shoulder	shoulder			1.4.3	5.3	0		D0	3350
+129759	1135	Muya [Minyak]	nɯ³³nø⁵³	nɯ³³nø⁵³	breast	breast			1.4.4.3	5.4	0		D0	253,254
+129760	1135	Muya [Minyak]	nɯ³⁵nø³⁵	nɯ³⁵nø³⁵	nipple	nipple				5.4.1	0			253,254
+129761	1135	Muya [Minyak]	lɐ³⁵	lɐ³⁵	milk	milk				5.4.3	0			1786
+129762	1135	Muya [Minyak]	kʰɯ⁵⁵nɯ⁵⁵	kʰɯ⁵⁵nɯ⁵⁵	suck	suck	v.	v.	1.3.2.1	5.4.5	0			m,253
+129763	1135	Muya [Minyak]	tʰɐ⁵⁵mɯ⁵³	tʰɐ⁵⁵mɯ⁵³	nurse / suckle	nurse  /  suckle	v.	v.	4.2.1.5	5.4.6	0	jbl3		
+129764	1135	Muya [Minyak]	kʰø³⁵dyi⁵³	kʰø³⁵dyi⁵³	back	back			1.4.8	5.5	0			211,1243
+129765	1135	Muya [Minyak]	nda⁵³	nda⁵³	waist	waist			1.4.6	5.6	0			406
+129766	1135	Muya [Minyak]	vu³⁵lø⁵³	vu³⁵lø⁵³	belly / abdomen	belly  /  abdomen			1.4.7	5.7	0	jbl3		137,m
+129767	1135	Muya [Minyak]	vi³³tsʰa⁵³	vi³³tsʰa⁵³	navel	navel			1.9.4	5.7.1	0			2102,525
+129768	1135	Muya [Minyak]	zo⁵³	zo⁵³	haunches	haunches			1.4.9.2	5.8.3	0			m
+129769	1135	Muya [Minyak]	zo⁵³	zo⁵³	buttocks	buttocks			1.4.10	5.10.1	0			3333
+129770	1135	Muya [Minyak]	mɯ³⁵	mɯ³⁵	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			1288
+129771	1135	Muya [Minyak]	va³⁵	va³⁵	arm	arm			1.5.1.2	6.1	0			725
+129772	1135	Muya [Minyak]	ja³⁵na̱⁵⁵va̱³⁵	ja³⁵na̱⁵⁵va̱³⁵	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		m,m,725
+129773	1135	Muya [Minyak]	tʂɿ³³tʂɿ⁵⁵	tʂɿ³³tʂɿ⁵⁵	tickle	tickle	v.	v.	1.5.1.2.4	6.1.1.1	0			
+129774	1135	Muya [Minyak]	ŋe⁵⁵ŋu⁵³	ŋe⁵⁵ŋu⁵³	elbow	elbow			1.5.8.3	6.1.4	0		D0	
+129775	1135	Muya [Minyak]	ɣi⁵⁵	ɣi⁵⁵	hand	hand			1.5.1.1	6.1.7	0			770
+129776	1135	Muya [Minyak]	ʐɯ³⁵tɐ⁵⁵ŋgɯ³⁵lɐ⁵³	ʐɯ³⁵tɐ⁵⁵ŋgɯ³⁵lɐ⁵³	palm	palm			1.5.5	6.1.7.1	0			
+129777	1135	Muya [Minyak]	ʐɐ³⁵ku³⁵tɑ⁵³	ʐɐ³⁵ku³⁵tɑ⁵³	back of hand	back of hand			1.5.1.1.2	6.1.7.2	0			
+129778	1135	Muya [Minyak]	rɐ³⁵tsʰɯ⁵⁵gø³⁵lø³⁵	rɐ³⁵tsʰɯ⁵⁵gø³⁵lø³⁵	fist	fist			1.5.1.1.1	6.1.7.3	0			
+129779	1135	Muya [Minyak]	ɣi⁵⁵mi⁵⁵ʐɐ³⁵	ɣi⁵⁵mi⁵⁵ʐɐ³⁵	right hand	right hand			1.5.3.2	6.1.7.4	0			770,m,m
+129780	1135	Muya [Minyak]	ɣi⁵⁵ʁɐ³⁵ʐɐ³⁵	ɣi⁵⁵ʁɐ³⁵ʐɐ³⁵	left hand	left hand			1.5.3.2	6.1.7.5	0			770,2154,m
+129781	1135	Muya [Minyak]	vɯ³⁵pʰɛ⁵⁵	vɯ³⁵pʰɛ⁵⁵	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			1603,714
+129782	1135	Muya [Minyak]	u⁵⁵ɣi⁵⁵ŋgɐ³⁵	u⁵⁵ɣi⁵⁵ŋgɐ³⁵	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			
+129783	1135	Muya [Minyak]	lɛ³³ɕɛ⁵³	lɛ³³ɕɛ⁵³	leg	leg			1.5.7	6.2	0			
+129784	1135	Muya [Minyak]	ŋu⁵⁵pʰɯ⁵³la³⁵	ŋu⁵⁵pʰɯ⁵³la³⁵	knee	knee			1.5.8.4	6.2.2	0			
+129785	1135	Muya [Minyak]	ʐɯ³⁵mbɐ⁵³	ʐɯ³⁵mbɐ⁵³	shin	shin			1.5.7.2	6.2.3	0			
+129786	1135	Muya [Minyak]	mɐ³⁵dø⁵³	mɐ³⁵dø⁵³	calf	calf			1.5.7	6.2.4	0			
+129787	1135	Muya [Minyak]	mɑ³⁵ŋkʰua³⁵rɯ³⁵lɯ³⁵	mɑ³⁵ŋkʰua³⁵rɯ³⁵lɯ³⁵	ankle	ankle			1.5.8.2	6.2.5	0			m,m,232,m
+129788	1135	Muya [Minyak]	ma³⁵ŋkua³⁵rɯ³⁵lɯ³⁵	ma³⁵ŋkua³⁵rɯ³⁵lɯ³⁵	ankle bone	ankle bone			1.5.8.2	6.2.5.1	0			m,m,232,m
+129789	1135	Muya [Minyak]	ŋgɐ³⁵	ŋgɐ³⁵	foot	foot			1.5.2	6.2.6	0			
+129790	1135	Muya [Minyak]	mo³³so⁵⁵	mo³³so⁵⁵	heel	heel			1.5.2.1	6.2.6.1	0			
+129791	1135	Muya [Minyak]	mɐ⁵⁵kʰu⁵⁵	mɐ⁵⁵kʰu⁵⁵	arch	arch			1.5.2.3	6.2.6.3	0			
+129792	1135	Muya [Minyak]	mɐ⁵⁵dʑy³³	mɐ⁵⁵dʑy³³	instep	instep			1.5.2.2	6.2.6.6	0			
+129793	1135	Muya [Minyak]	pɯ⁵⁵rə³⁵	pɯ⁵⁵rə³⁵	footprint	footprint			1.5.2.5	6.2.6.7	0			
+129794	1135	Muya [Minyak]	quɐ³³tsʰɯ⁵³	quɐ³³tsʰɯ⁵³	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			417,m
+129795	1135	Muya [Minyak]	ŋgɐ³⁵ʑɛ³⁵	ŋgɐ³⁵ʑɛ³⁵	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+129796	1135	Muya [Minyak]	ʐɑ³⁵nɯ⁵⁵tɕe⁵³	ʐɑ³⁵nɯ⁵⁵tɕe⁵³	little finger	little finger			9.7.2	7.1.4	0			m,320,m
+129797	1135	Muya [Minyak]	tɑ⁵⁵mɐ⁵⁵	tɑ⁵⁵mɐ⁵⁵	thumb	thumb			1.5.6.1	7.1.5	0			m,1619
+129798	1135	Muya [Minyak]	ʐɐ³⁵ʐi³⁵mo³⁵	ʐɐ³⁵ʐi³⁵mo³⁵	fingerprint	fingerprint			1.5.6.1	7.1.6	0			
+129799	1135	Muya [Minyak]	ʐa³⁵ndza⁵³	ʐa³⁵ndza⁵³	nail	nail			1.5.10	7.4	0			
+129800	1135	Muya [Minyak]	qʰo⁵⁵ndɐ⁵⁵	qʰo⁵⁵ndɐ⁵⁵	pincers	pincers			1.5.10.4	7.4.5	0			
+129801	1135	Muya [Minyak]	ʁɐ³⁵mo³³	ʁɐ³⁵mo³³	hair of head	hair of head			1.2.3	8.1.1	0		D1	385,363
+129802	1135	Muya [Minyak]	ɛ³³tsø⁵⁵	ɛ³³tsø⁵⁵	beard	beard			1.2.5.5	8.1.2.1	0		D0	m,370
+129803	1135	Muya [Minyak]	dʑɛ³⁵wu³⁵mo³⁵	dʑɛ³⁵wu³⁵mo³⁵	feather	feather			1.6.1.1	8.1.5	0			m,1603,363
+129804	1135	Muya [Minyak]	mo³⁵	mo³⁵	mane	mane			1.6.1	8.1.6	0			363
+129805	1135	Muya [Minyak]	ʐɯ³⁵mbɐ⁵³	ʐɯ³⁵mbɐ⁵³	skin	skin			1.6.5	8.2	0		D0	596,592
+129806	1135	Muya [Minyak]	ȵi³³tɕu⁵⁵	ȵi³³tɕu⁵⁵	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		615,1631
+129807	1135	Muya [Minyak]	tɕʰɯ⁵⁵ȵi⁵⁵	tɕʰɯ⁵⁵ȵi⁵⁵	mole	mole			2.2.7	8.2.3.3	0			
+129808	1135	Muya [Minyak]	ʐe³⁵	ʐe³⁵	cyst	cyst			1.6.5.3	8.2.3.5	0			
+129809	1135	Muya [Minyak]	tʰɯ³⁵rɯ⁵³	tʰɯ³⁵rɯ⁵³	wrinkle	wrinkle			9.6.2	8.2.3.8	0			
+129810	1135	Muya [Minyak]	ŋ◦gi³⁵◦ŋɯ⁵⁵	ŋ◦gi³⁵ŋɯ⁵⁵	itch / be itchy	itch  /  be itchy	v.	v.	1.6.5.5	8.2.3.10	0	jbl3		p,1456,m
+129811	1135	Muya [Minyak]	dʑi⁵³rə⁵³	dʑi⁵³rə⁵³	fish scales	fish scales			1.6.5.2	8.2.5	0			
+129812	1135	Muya [Minyak]	lɯ³⁵qo⁵³	lɯ³⁵qo⁵³	hide / leather	hide  /  leather			1.6.5.1	8.2.6	0	jbl3		
+129813	1135	Muya [Minyak]	tø⁵⁵mɛ⁵³	tø⁵⁵mɛ⁵³	fat	fat			1.6.4	8.3	0			42,1470
+129814	1135	Muya [Minyak]	(ʑy³³)tsɐ⁵⁵	(ʑy³³)tsɐ⁵⁵	oil / grease	oil  /  grease			1.6.4.1	8.3.2	0	jbl3		m,42
+129815	1135	Muya [Minyak]	do³⁵pa⁵³ra³⁵ka⁵³	do³⁵pa⁵³ra³⁵ka⁵³	vertebrae	vertebrae			1.6.3.3	8.4.2	0			
+129816	1135	Muya [Minyak]	n◦dʐuɯ³⁵	n◦dʐuɯ³⁵	sinew / tendon	sinew  /  tendon			1.6.6.1	8.5	0	jbl3		p,536
+129817	1135	Muya [Minyak]	sa⁵³	sa⁵³	blood	blood			1.6.2	8.7	0			230
+129818	1135	Muya [Minyak]	ndu³⁵	ndu³⁵	bleed	bleed	v.	v.	1.6.2	8.7.2	0			m
+129819	1135	Muya [Minyak]	ndo⁵⁵	ndo⁵⁵	muscle	muscle			1.6.6.2	8.8	0			m
+129820	1135	Muya [Minyak]	tsʰi⁵⁵ntsʰɐ³⁵	tsʰi⁵⁵ntsʰɐ³⁵	joint	joint			1.5.8	8.9	0			m,418
+129821	1135	Muya [Minyak]	tsʰɯ̱³³	tsʰɯ̱³³	lung	lung			1.7.2	9.2	0			458
+129822	1135	Muya [Minyak]	tɯ³³tsʰɑ³⁵	tɯ³³tsʰɑ³⁵	pant	pant	v.	v.	1.1.2.2	9.2.2	0			
+129823	1135	Muya [Minyak]	pʰɯ⁵⁵	pʰɯ⁵⁵	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			75
+129824	1135	Muya [Minyak]	mbɯ³³lø⁵⁵	mbɯ³³lø⁵⁵	gill	gill			1.3.5.3	9.2.4	0			
+129825	1135	Muya [Minyak]	dʑɯ³⁵mbɐ⁵⁵	dʑɯ³⁵mbɐ⁵⁵	phlegm	phlegm			1.8.3	9.2.5	0			
+129826	1135	Muya [Minyak]	jɐ⁵³pʰø⁵⁵sɯ⁵³ɣø³⁵	jɐ⁵³pʰø⁵⁵sɯ⁵³ɣø³⁵	heart	heart			1.7.1	9.3	0			
+129827	1135	Muya [Minyak]	zɯ⁵³	zɯ⁵³	liver	liver			1.7.3	9.5	0			1390
+129828	1135	Muya [Minyak]	tʂɯ⁵³	tʂɯ⁵³	gall bladder	gall bladder			1.7.3	9.5.2	0			227
+129829	1135	Muya [Minyak]	nda⁵³	nda⁵³	kidney	kidney			1.7.5	9.6	0			406
+129830	1135	Muya [Minyak]	pʰɯ³³si³⁵	pʰɯ³³si³⁵	urinary bladder	urinary bladder			1.7.8	9.7	0			
+129831	1135	Muya [Minyak]	bi³⁵	bi³⁵	urine	urine			1.8.4	9.7.1	0			1102
+129832	1135	Muya [Minyak]	bi³⁵	bi³⁵	urinate	urinate	v.	v.	1.5.3.2	9.7.2	0			1102
+129833	1135	Muya [Minyak]	pɐ⁵³	pɐ⁵³	spleen	spleen			1.7.4	9.8	0			91
+129834	1135	Muya [Minyak]	tɯ⁵³kɯ⁵³lø⁵³	tɯ⁵³kɯ⁵³lø⁵³	stomach	stomach			1.7.6	9.10	0		D0	p,2123,690
+129835	1135	Muya [Minyak]	vɯ³³tɕʰa³⁵	vɯ³³tɕʰa³⁵	intestines / bowels	intestines  /  bowels			1.7.7	9.11	0	jbl3		2102,m
+129836	1135	Muya [Minyak]	vɯ³³tɕʰa³⁵mbø⁵⁵mbø⁵⁵	vɯ³³tɕʰa³⁵mbø⁵⁵mbø⁵⁵	large intestine	large intestine			1.7.7	9.11.1	0			2102,m,m,m
+129837	1135	Muya [Minyak]	vɯ³³tɕʰa³⁵tsʰe³⁵tsʰe⁵⁵	vɯ³³tɕʰa³⁵tsʰe³⁵tsʰe⁵⁵	small intestine	small intestine			9.7.2	9.11.2	0			2102,m,m,m
+129838	1135	Muya [Minyak]	zo⁵³mbɯ⁵⁵lø³⁵	zo⁵³mbɯ⁵⁵lø³⁵	anus / rectum	anus  /  rectum			1.4.10.2	9.12	0	jbl3		m,m,m
+129839	1135	Muya [Minyak]	ɣɯ³⁵mbɯ⁵³	ɣɯ³⁵mbɯ⁵³	feces / shit	feces  /  shit			1.8.5	9.12.1	0	jbl3		m
+129840	1135	Muya [Minyak]	ʂɯ³⁵	ʂɯ³⁵	defecate	defecate	v.	v.	1.8.5.4	9.12.3	0			
+129841	1135	Muya [Minyak]	tʰɯ³¹bu⁵³	tʰɯ³¹bu⁵³	testicle	testicle				10.3.5	0			m,1654
+129842	1135	Muya [Minyak]	no³³rɛ³⁵	no³³rɛ³⁵	castrate	castrate	v.	v.	1.9.2.3	10.3.9	0			m,m
+129843	1135	Muya [Minyak]	ʐɯ⁵³	ʐɯ⁵³	amniotic sac / bag of waters	amniotic sac  /  bag of waters				10.4.9	0	jbl3		1013
+129844	1135	Muya [Minyak]	kʰɯ³⁵vi³⁵tɕɯ⁵³	kʰɯ³⁵vi³⁵tɕɯ⁵³	pregnant	pregnant	be	be	1.9.6.1	10.4.14	0			
+129845	1135	Muya [Minyak]	mɯ⁵⁵zɯ⁵⁵	mɯ⁵⁵zɯ⁵⁵	birth, give	birth, give			1.1.2	10.4.15	0			m,1865
+129846	1135	Muya [Minyak]	vɑ³³vɑ⁵⁵	vɑ³³vɑ⁵⁵	egg (of animal)	egg (of animal)				10.4.16	0			1603,m
+129847	1135	Muya [Minyak]	nə³⁵sø³⁵	nə³⁵sø³⁵	cough	cough			1.8.3.3	11.1	0			
+129848	1135	Muya [Minyak]	tɯ⁵⁵ke⁵³	tɯ⁵⁵ke⁵³	hiccup	hiccup			1.8.3.5	11.2	0			
+129849	1135	Muya [Minyak]	nɯ⁵⁵ɕɯ⁵⁵	nɯ⁵⁵ɕɯ⁵⁵	sneeze	sneeze			1.8.2.1	11.3	0			
+129850	1135	Muya [Minyak]	ni³⁵ɣi³⁵	ni³⁵ɣi³⁵	laugh	laugh			1.8.8.1	11.9	0			1105,1108
+129851	1135	Muya [Minyak]	tɐ³⁵tɐ³³	tɐ³⁵tɐ³³	tremble / shiver / shudder	tremble  /  shiver  /  shudder			1.6.6.2.1	12.1	0	jbl3		
+129852	1135	Muya [Minyak]	ŋe⁵⁵	ŋe⁵⁵	sick	sick	be	be	1.1.5.1	12.2	0			160
+129853	1135	Muya [Minyak]	tʰi³⁵vɯ⁵³	tʰi³⁵vɯ⁵³	numb /  be paralyzed	numb  /   be paralyzed	be	be	1.5.11	12.3	0	jbl3		7094,m
+129854	1135	Muya [Minyak]	ʐe³⁵	ʐe³⁵	swell /  be swollen	swell  /   be swollen	v.	v.	1.1.5.2	12.4	0	jbl3		
+129855	1135	Muya [Minyak]	pɐ̱³⁵	pɐ̱³⁵	pus	pus			1.8.6.1	12.5	0			1295
+129856	1135	Muya [Minyak]	tɔ³³ʁo³⁵	tɔ³³ʁo³⁵	hand span	hand span			1.5.9.4	13.2	0			1281
+129857	1135	Muya [Minyak]	tɐ³⁵tɕuɯ⁵⁵	tɐ³⁵tɕuɯ⁵⁵	cubit	cubit			1.5.9.3	13.3	0			
+129858	1135	Muya [Minyak]	tɛ³⁵de³⁵	tɛ³⁵de³⁵	cord / fathom	cord  /  fathom			1.5.9.5	13.4	0	jbl3		
+129859	1135	Muya [Minyak]	ʁo³⁵	ʁo³⁵	male	male			1.9.6.1	10.3	0			1638
+129860	1135	Muya [Minyak]	mɐ³⁵	mɐ³⁵	female	female			1.9.3	10.4	0			1619
+168684	1135	Muya [Minyak]	tø⁵⁵rɔ⁵⁵	tø⁵⁵rɔ⁵⁵	see / look	see  /  look	v.	v.	1.2.6.10	3.4.9	0	jbl3		m,m,m,m,1227
+168685	1135	Muya [Minyak]	xɯ⁵⁵nɑ⁵³	xɯ⁵⁵nɑ⁵³	gums	gums			1.3.4.3	3.7.3	0			632,m
+168686	1135	Muya [Minyak]	+rmk.	+rmk.	goiter	goiter			1.4.2.2	4.1.1	0			e
+168687	1135	Muya [Minyak]	kuɯ⁵³	kuɯ⁵³	testicle	testicle				10.3.5	0			305
+168688	1135	Muya [Minyak]	tɯ³³tsʰɐ⁵⁵qo³³	tɯ³³tsʰɐ⁵⁵qo³³	cough	cough			1.8.3.3	11.1	0			
+168689	1135	Muya [Minyak]	tɯ⁵⁵ŋe⁵⁵	tɯ⁵⁵ŋe⁵⁵	pain	pain	be	be	1.1.5.1	12.2	0			m,160

@@ -1,350 +1,350 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-132259	1644	Yakha	dziu	dziu	body	body		1.1.1	1.1	0		15
-132260	1644	Yakha	cuptaŋ dziu	cuptaŋ dziu	side (right)	side (right)		1.4.5	1.2	0		
-132261	1644	Yakha	phɛksaŋ dziu	phɛksaŋ dziu	side (left)	side (left)		1.4.5	1.3	0		
-132262	1644	Yakha	hek◦saŋ	hek◦saŋ	back	back		1.4.8	1.4	0	HIDE	DUPE IN SOURCE
-132263	1644	Yakha	mi◦siŋ	mi◦siŋ	back	back		1.4.8	1.4	0	HIDE	DUPE IN SOURCE
-132264	1644	Yakha	agaːdi	agaːdi	front	front		1.4.4	1.5	0		m
-132265	1644	Yakha	dziu	dziu	torso / trunk	torso  /  trunk		1.5.3.2	1.6	0		b
-132266	1644	Yakha	laːŋci nuŋ muːkci	laːŋci nuŋ muːkci	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
-132267	1644	Yakha	laŋ◦coŋ	laŋ◦coŋ	lap	lap		1.4.4.2	1.8	0		
-132268	1644	Yakha	chaːti	chaːti	bosom	bosom		1.4.4.2	1.9	0		b
-132269	1644	Yakha	kɔmbur	kɔmbur	groin / loins / hips	groin  /  loins  / hips		1.4.9	1.10	0		b
-132270	1644	Yakha	saː	saː	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34
-132271	1644	Yakha	wə◦hiŋ◦glik	wə◦hiŋ◦glik	alive / be living	alive  /  be living		1.1.2.1	1.12	0		m,71,m
-132272	1644	Yakha	si◦maː	si◦maː	die / be dead	die  /  be dead		1.1.6	1.13	0		27,s
-132273	1644	Yakha	si◦ana yaʔmi	si◦ana yaʔmi	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		27,m,m
-132274	1644	Yakha	si◦nu	si◦nu	carcass / dead animal	carcass  /  dead animal		1.1.6.1	1.15	0		27,m
-132275	1644	Yakha	im◦maː	im◦maː	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		127,s
-132276	1644	Yakha	cem◦maː	cem◦maː	awake / be awake	awake  /  be awake		1.1.4	1.17	0		
-132277	1644	Yakha	sem◦maŋ ma?◦maː	sem◦maŋ ma?◦maː	dream	dream (v.)	v	1.1.4.2	1.18	0		147,126,126,m
-132278	1644	Yakha	tu◦khəruk	tu◦khəruk	head	head		1.2.1	2.1	0		1223,m
-132279	1644	Yakha	taʔmaluːŋ	taʔmaluːŋ	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		
-132280	1644	Yakha	picagaː taʔmaluŋ	picagaː taʔmaluŋ	fontanel (soft spots in baby s	fontanel (soft spots in baby s		1.2.1.3	2.3	0		m,m
-132281	1644	Yakha	khappar	khappar	skull	skull		1.2.1.1	2.4	0		1241
-132282	1644	Yakha	na◦gadziʔ◦wa	na◦gadziʔ◦wa	brain (= 9.1 )	brain (=  9.1  )		1.2.4	2.5	0		249,463,s
-132283	1644	Yakha	natri	natri	sinus	sinus		1.2.8.1	2.6	0		
-132284	1644	Yakha	tam◦phəwa	tam◦phəwa	hair of head	hair of head		1.2.3	2.7	0	HIDE	DUPE IN SOURCE
-132285	1644	Yakha	wəha◦rik	wəha◦rik	scalp	scalp		1.2.1.5	2.8	0		589,782
-132286	1644	Yakha	nam◦dzoŋ	nam◦dzoŋ	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		m,1471
-132287	1644	Yakha	taŋ	taŋ	horn (of animal)	horn (of animal)		1.2.2	2.10	0		371
-132288	1644	Yakha	taŋ◦gaː wəhak	taŋ◦gaː wəhak	antler (of deer)	antler (of deer)		1.2.2	2.11	0		371,m,2010
-132289	1644	Yakha	naː cik	naː cik	face	face		1.2.5	3.1	0		1192,2034
-132290	1644	Yakha	tuː◦aː	tuː◦aː	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		359,m
-132291	1644	Yakha	cacigeʔ	cacigeʔ	temple	temple		1.2.5.1	3.3	0		
-132292	1644	Yakha	miʔ	miʔ	eye	eye		1.2.6	3.4	0		682
-132293	1644	Yakha	miʔ wə◦ha◦rik	miʔ wə◦ha◦rik	eyelid	eyelid		1.2.6.4	3.4.1	0		682,m,m,782
-132294	1644	Yakha	miʔ◦kaː◦makurna	miʔ◦kaː◦makurna	iris	iris		1.2.6.2	3.4.2.1	0		682,1110,m
-132295	1644	Yakha	miʔ◦kaːnani	miʔ◦kaːnani	pupil	pupil		1.2.6.2	3.4.2.2	0		682,m
-132296	1644	Yakha	miʔ◦kaːphuna	miʔ◦kaːphuna	white of eye	white of eye		1.2.6.3	3.4.2.3	0		682,m
-132297	1644	Yakha	toːha miʔ◦taŋ◦khwa	toːha miʔ◦taŋ◦khwa	eyebrow	eyebrow		1.2.6.6	3.4.3	0		m,682,371,2072
-132298	1644	Yakha	moːha mi?◦taŋ◦khwa	moːha mi?◦taŋ◦khwa	eyelash	eyelash		1.2.6.5	3.4.4	0		m,682,371,2072
-132299	1644	Yakha	si◦miːk si◦miːk cokmaː	si◦miːk si◦miːk cokmaː	blink	blink (v.)	v	1.2.6.12	3.4.5	0		m,682,m,33,m
-132300	1644	Yakha	miʔ◦wa◦ha	miʔ◦wa◦ha	tears	tears		1.2.6.7	3.4.6	0		682,2080,m
-132301	1644	Yakha	miʔ◦kwiː	miʔ◦kwiː	eye sand	eye sand		1.2.6.8	3.4.7	0		682,572
-132302	1644	Yakha	hap◦maː	hap◦maː	cry  /  weep	cry  /  weep (v.)	v	1.8.8.2	3.4.8	0		1103,s
-132303	1644	Yakha	niː◦maː	niː◦maː	see	see (v.)	v	1.2.6.10	3.4.9	0		m,1227
-132304	1644	Yakha	soːʔ◦maː	soːʔ◦maː	look	look (v.)	v	1.2.6.11	3.4.9	0		m,1227
-132305	1644	Yakha	mik◦ŋa mɛniːma	mik◦ŋa mɛniːma	blind	blind		1.2.6.14.2	3.4.10	0		682,m,m
-132306	1644	Yakha	na◦buʔ	na◦buʔ	nose	nose		1.2.8	3.5	0		803,806
-132307	1644	Yakha	na-buʔ◦kaːkoŋ◦galik	na-buʔ◦kaːkoŋ◦galik	nose bridge	nose bridge		1.2.8	3.5.1	0		803,806,m,m
-132308	1644	Yakha	na◦bu?◦kaː ɔ◦hɔŋ	na◦bu?◦kaː ɔ◦hɔŋ	nostril	nostril		1.2.8.1	3.5.2	0		803,806,2093,p,3432
-132309	1644	Yakha	na◦buʔ◦kaː poŋma	nabuʔkaː poŋma	alae nasi (nose flaps)	alae nasi (nose flaps)		1.2.8.2	3.5.3	0		803,806,m,m
-132310	1644	Yakha	na◦buʔ muŋ	na◦buʔ muŋ	nose hair	nose hair		1.2.8	3.5.4	0		803,806,363
-132311	1644	Yakha	tutuna	tutuna	snout	snout		1.2.8	3.5.5	0		bNepali
-132312	1644	Yakha	pak◦ka u◦na◦buʔ	pak◦ka u◦na◦buʔ	snout	snout		1.2.8	3.5.5	0		1006,m,p,803,806
-132313	1644	Yakha	nagaʔma	nagaʔma	liquid mucus	liquid mucus		3.2.3	3.5.6	0		
-132314	1644	Yakha	totoʔa nagaʔma	totoʔa nagaʔma	solid mucus	solid mucus		1.1.5	3.5.7	0		
-132315	1644	Yakha	na◦gaʔma siŋmaː	nagaʔma siŋmaː	blow nose	blow nose (v.)	v	1.3.1.4	3.5.8	0		803,m,m
-132316	1644	Yakha	naːm◦maː	naːm◦maː	smell  /  sniff	smell  /  sniff (v.)	v	1.2.8.5	3.5.9	0		1415,m
-132317	1644	Yakha	na◦bak	na◦bak	ear	ear		1.2.7	3.6	0		811,821
-132318	1644	Yakha	na◦bak◦a loti	na◦bak◦a loti	earlobe	earlobe		1.2.7.1	3.6.1	0		811,821,m,m
-132319	1644	Yakha	na◦bak	na◦bak	outer ear	outer ear		9.2	3.6.2	0		811,821
-132320	1644	Yakha	na◦bak◦a ɔhɔŋ	na◦bak◦a ɔhɔŋ	inner ear	inner ear		9.2.5	3.6.3	0		811,821,m,m
-132321	1644	Yakha	na◦bak dzali	na◦bak dzali	eardrum	eardrum		1.2.7.2	3.6.5	0		811,821,2083
-132322	1644	Yakha	na◦bak ɔwi	na◦bak ɔwi	earwax	earwax		1.2.7.3	3.6.6	0		811,821,m
-132323	1644	Yakha	keːmmaː	keːmmaː	hear	hear (v.)	v	1.2.7.4	3.6.7	0		
-132324	1644	Yakha	mɛŋkeːmkuba	mɛŋkeːmkuba	deaf	deaf		1.2.7.5	3.6.8	0		m
-132325	1644	Yakha	ya	ya	mouth	mouth		1.3.1	3.7	0		2095
-132326	1644	Yakha	kɔːŋ◦daʔ◦maː	kɔːŋ◦daʔ◦maː	palate	palate		1.3.1.1	3.7.1	0		1723,1719,m
-132327	1644	Yakha	neːʔna kɔːŋ◦daʔ◦maː	neːʔna kɔːŋdaʔmaː	soft palate	soft palate		7.1.4.2	3.7.2	0		m,1723,1719,m
-132328	1644	Yakha	gidza	gidza	gums	gums		1.3.4.3	3.7.3	0		b
-132329	1644	Yakha	kilkile	kilkile	uvula	uvula		1.3.5.1	3.7.4	0		
-132330	1644	Yakha	leːŋwa	leːŋwa	saliva	saliva		1.8.3	3.7.5	0		
-132331	1644	Yakha	caː◦maː	caː◦maː	eat	eat (v.)	v	1.5.3.2	3.7.6	0		36,s
-132332	1644	Yakha	uŋ◦maː	uŋ◦maː	drink	drink (v.)	v		3.7.7	0		1714,s
-132333	1644	Yakha	hom◦maː	hom◦maː	drink	drink (v.)	v		3.7.7	0		1704,s
-132334	1644	Yakha	weʔ◦ma siː◦maː	weʔ◦ma siː◦maː	thirsty	thirsty	be	1.1.3.1	3.7.8	0		122,s,m,s
-132335	1644	Yakha	saʔŋa siːmaː	saʔŋa siːmaː	hungry	hungry	be	1.1.3	3.7.9	0		m
-132336	1644	Yakha	kaː◦maː	kaː◦maː	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		115,1834
-132337	1644	Yakha	thoːk◦maː	thoːk◦maː	spit	spit (v.)	v	1.8.3	3.7.11	0		601,s
-132338	1644	Yakha	pɔs◦ita	pɔs◦ita	vomit	vomit (n.)	n	1.8.3.2	3.7.12	0		1145,m
-132339	1644	Yakha	pɔs◦it◦ma / oː◦maː	pɔs◦it◦ma / oː◦maː	vomit	vomit (v.)	v	1.8.3.2	3.7.13	0		1145,m,m,m,m
-132340	1644	Yakha	uːm◦maː	uːm◦maː	hold in mouth	hold in mouth (v.)	v	1.3.4.4	3.7.14	0		3451,s
-132341	1644	Yakha	ya hoho cokmana	ya hoho cokmana	gape  /  open mouth	gape  /  open mouth (v.)	v	1.3.1	3.7.15	0		
-132342	1644	Yakha	ha◦kɔm◦ba tak◦ma◦na	ha◦kɔm◦ba tak◦ma◦na	yawn	yawn (v.)	v	1.3.1.3	3.7.16	0		1716,m,m,m,m,m
-132343	1644	Yakha	lɛm	lɛm	tongue	tongue		1.3.3	3.8	0		625
-132344	1644	Yakha	ceːkmaː	ceːkmaː	speak	speak (v.)	v	8.5.10.1	3.8.1	0		
-132345	1644	Yakha	yaphaːmsiʔmaː	yaphaːmsiʔmaː	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
-132346	1644	Yakha	yamɛndaːmaː	yamɛndaːmaː	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		
-132347	1644	Yakha	yamɛndakhuba	yamɛndakhuba	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		
-132348	1644	Yakha	leːk◦maː	leːk◦maː	lick	lick		1.3.3.1	3.8.4	0		629,m
-132349	1644	Yakha	ya◦bulu◦ʔa	ya◦bulu◦ʔa	lip	lip		1.3.2	3.9	0		m,456,m
-132350	1644	Yakha	tona yabuluʔa	tona yabuluʔa	upper lip	upper lip		9.2.1	3.9.1	0		
-132351	1644	Yakha	mona yabuluʔa	mona yabuluʔa	lower lip	lower lip			3.9.2	0		m,m
-132352	1644	Yakha	com◦naː	com◦naː	beak / bill	beak / bill		1.3.1.2	3.9.3	0		m,m
-132353	1644	Yakha	yun◦cik◦yun◦cik cok◦maː	yun◦cik◦yun◦cik cok◦maː	smile	smile (v.)	v	1.8.8.1	3.9.4	0		m,m,m,m,m,s
-132354	1644	Yakha	cup◦pa cok◦ma	cup◦pa cok◦ma	kiss	kiss		1.3.2.2	3.9.5	0		5541,s,m,s
-132355	1644	Yakha	keːŋ	keːŋ	tooth	tooth		1.3.4	3.10	0		637
-132356	1644	Yakha	agaːḍi keŋ	agaːḍi keŋ	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		m,637
-132357	1644	Yakha	u◦ma keŋ	u◦ma keŋ	molar	molar		1.3.4.2	3.10.2	0		m,m,637
-132358	1644	Yakha	kuː◦cuː◦ma keŋ	kuː◦cuː◦ma keŋ	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang		1.3.4.1	3.10.3	0		m,m,m,637
-132359	1644	Yakha	u◦luʔ◦ma keŋ	uluʔ◦ma keŋ	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		m,1322,s,637
-132360	1644	Yakha	piːca keŋ	piːca keŋ	baby tooth	baby tooth		4.2.11	3.10.5	0		
-132361	1644	Yakha	daːhra	daːhra	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		2814
-132362	1644	Yakha	haːp◦maː	haːp◦maː	bite	bite (v.)	v	1.3.4.4	3.10.7	0		743,m
-132363	1644	Yakha	kham◦maː	kham◦maː	chew	chew (v.)	v	1.3.4	3.10.8	0		630,m
-132364	1644	Yakha	ciːŋ◦bu◦luʔ◦ma	ciːŋ◦bu◦luʔ◦ma	cheek	cheek		1.2.5.2	3.11	0		2049,m,m,s
-132365	1644	Yakha	nam◦ci◦yəŋ	nam◦ci◦yəŋ	cheek	cheek		1.2.5.2	3.11	0		825,2037,2045
-132367	1644	Yakha	siŋ◦saː◦liː	siŋ◦saː◦liː	chin	chin		1.2.5.3	3.12	0		1112,m,287
-132368	1644	Yakha	baŋəra	baŋəra	jaw	jaw		1.2.5.2	3.13	0		2061
-132369	1644	Yakha	moː◦na baŋəra	moː◦na baŋəra	lower jaw / mandible	lower jaw  /  mandible		1.2.5.2	3.13.1	0		m,m,2061
-132370	1644	Yakha	toː◦na baŋəra	toː◦na baŋəra	upper jaw / maxilla	upper jaw  /  maxilla		1.2.5.2	3.13.2	0		m,m,2061
-132371	1644	Yakha	kɔn	kɔn	neck	neck		1.4.2	4.1	0		3361
-132372	1644	Yakha	kɔn toːtana	kɔn toːtana	goiter	goiter		1.4.2.2	4.1.1	0		3361,m
-132373	1644	Yakha	gal◦phuː◦la	gal◦phuː◦la	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)		1.1.5.2	4.1.2	0		m,163,m
-132374	1644	Yakha	guːʔ◦cuk	guːʔ◦cuk	nape of neck	nape of neck		1.4.2.1	4.1.3	0		m,393
-132375	1644	Yakha	cokcokna kɔn	cokcokna kɔn	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		
-132376	1644	Yakha	ik◦laːm	ik◦laːm	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		m,499
-132377	1644	Yakha	soʔ◦ma so◦ma◦na naːli	soʔ◦ma so◦ma◦na naːli	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		32,s,32,s,m,m
-132378	1644	Yakha	caːmaː lummana naːli	caːmaː lummana naːli	esophagus	esophagus		1.3.5.5	4.2.2	0		
-132379	1644	Yakha	lummaː	lummaː	swallow	swallow (v.)	v	1.3.5.6	4.2.3	0		
-132380	1644	Yakha	caːgɔn	caːgɔn	gizzard / crop of bird	gizzard  /  crop of bird		1.7.6.1	4.2.4	0		m
-132381	1644	Yakha	caːtiː	caːtiː	chest	chest		1.4.4.3	5.1	0		b
-132382	1644	Yakha	karaŋ◦ci	karaŋ◦ci	rib cage	rib cage		1.4.4.3	5.1.1	0		b,m
-132383	1644	Yakha	karaŋ	karaŋ	rib	rib		1.4.4.3	5.1.2	0		b
-132384	1644	Yakha	chatiga seːŋ◦kwɔk	chatiga seːŋ◦kwɔk	breastbone / sternum	breastbone  /  sternum		1.6.3.2	5.1.3	0		
-132385	1644	Yakha	konbeʔna mara seːŋkwɔk	konbeʔna mara seːŋkwɔk	collar bone / clavicle	collar bone  /  clavicle		1.4.3.1	5.2	0		
-132386	1644	Yakha	phak◦taŋ	phak◦taŋ	shoulder	shoulder		1.4.3	5.3	0		568,3343
-132387	1644	Yakha	phak◦taŋ seːŋ◦kwɔk	phak◦taŋ seːŋ◦kwɔk	shoulder blade / scapula	shoulder blade  /  scapula		1.4.3.2	5.3.1	0		568,3343,m,3350
-132388	1644	Yakha	phak◦taŋ yuŋmaː	phak◦taŋ yuŋmaː	shrug shoulders	shrug shoulders (v.)	v	1.4.3.3	5.3.2	0		568,3343,m
-132389	1644	Yakha	nuː	nuː	breast	breast		1.4.4.3	5.4	0		253
-132390	1644	Yakha	nuː◦ga ɔ◦cam	nuː◦ga ɔ◦cam	nipple	nipple			5.4.1	0		253,m,p,m
-132391	1644	Yakha	pika uːnuː	pika uːnuː	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		
-132392	1644	Yakha	duːruː	duːruː	milk	milk			5.4.3	0		b
-132393	1644	Yakha	pahile hanuː	pahile hanuː	colostrum	colostrum			5.4.4	0		
-132394	1644	Yakha	piːʔ◦maː	piːʔ◦maː	suck	suck		1.3.2.1	5.4.5	0		3450,s
-132395	1644	Yakha	nuː◦piʔ meʔmana	nuː◦piʔ meʔmana	nurse  /  suckle	nurse  /  suckle (v.)	v	4.2.1.5	5.4.6	0		253,3463,m
-132396	1644	Yakha	pahile caːmaː cameʔmana	pahile caːmaː cameʔmana	wean	wean			5.4.7	0		
-132397	1644	Yakha	mi◦siŋ	mi◦siŋ	back	back		1.4.8	5.5	0	D1	m,223
-132398	1644	Yakha	hek◦saŋ	hek◦saŋ	back	back		1.4.8	5.5	0	D1	214,m
-132399	1644	Yakha	toːna misiŋ	toːna misiŋ	upper back	upper back		9.2.1	5.5.1	0		
-132400	1644	Yakha	moːna misiŋ	moːna misiŋ	lower back	lower back		1.4.8.1	5.5.2	0		m,m
-132401	1644	Yakha	miː◦gɔk	miːgɔk	small of back	small of back		1.4.8.1	5.5.3	0		m,219
-132402	1644	Yakha	mi◦siŋ seːŋ◦kwɔk	mi◦siŋ seːŋ◦kwɔk	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		
-132403	1644	Yakha	misiŋ hupci	misiŋ hupci	spinal cord ( = 9.1.1 )	spinal cord ( =  9.1.1 )		1.4.8.2	5.5.5	0		
-132404	1644	Yakha	uŋdiʔmaː	uŋdiʔmaː	hunchback	hunchback (v.)	v	1.4.8.3	5.5.6	0		m
-132405	1644	Yakha	kɔmdiʔmaː	kɔmdiʔmaː	hunchback	hunchback (v.)	v	1.4.8.3	5.5.6	0		m
-132406	1644	Yakha	kambɔːr	kambɔːr	waist	waist		1.4.6	5.6	0		b
-132407	1644	Yakha	phoːk	phoːk	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)		1.4.7	5.7	0		164
-132408	1644	Yakha	phok◦su◦kəliːk	phok◦su◦kəliːk	navel	navel		1.9.4	5.7.1	0		164,526,m
-132409	1644	Yakha	kambɔːr betna seːŋkwɔk	kambɔːr betna seːŋkwɔk	pelvis / pelvic girdle	pelvis  /  pelvic girdle		1.4.9.2	5.8	0		b,m,m,m
-132410	1644	Yakha	toːk◦ca◦li	toːk◦ca◦li	hips	hips		1.4.9.2	5.8.1	0		3322,m,413
-132411	1644	Yakha	toːk◦ca◦li seːŋ◦kwɔk	toːk◦ca◦li seːŋ◦kwɔk	hipbone	hipbone		1.4.9.2	5.8.2	0		3322,m,413,m,m
-132412	1644	Yakha	toːk◦ca◦li saː	toː◦kca◦li saː	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		3322,215,413,m
-132413	1644	Yakha	hak◦maː	hak◦maː	crotch / fork of legs	crotch  /  fork of legs		1.4.9.1	5.9	0		214,s
-132414	1644	Yakha	toːk◦ca◦li	toːk◦ca◦li	rump	rump		1.4.10	5.10	0		3322,m,413
-132415	1644	Yakha	toːk◦ca◦li	toːk◦ca◦li	buttocks	buttocks		1.4.10	5.10.1	0		3322,m,413
-132416	1644	Yakha	mi◦lak seːŋ◦kwɔk	mi◦lak seːŋ◦kwɔk	tailbone / coccyx	tailbone  /  coccyx		1.6.3.3	5.10.2	0		1288,3332,m,219
-132417	1644	Yakha	mi◦lak	mi◦lak	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		1288,3332
-132418	1644	Yakha	muːk paːkhuːra	muːk paːkhuːra	arm	arm		1.5.1.2	6.1	0		769,m
-132419	1644	Yakha	leːkumaːŋ	leːkumaːŋ	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
-132420	1644	Yakha	yɛnsiʔmaː	yɛnsiʔmaː	tickle	tickle		1.5.1.2.4	6.1.1.1	0		
-132421	1644	Yakha	pakhuːra	pakhuːra	upperarm	upperarm		1.5.1.2.1	6.1.2	0		
-132422	1644	Yakha	guː◦saː	guː◦saː	elbow	elbow		1.5.8.3	6.1.4	0		307,m
-132423	1644	Yakha	guː◦saː seːŋkwɔk	guːsaː seːŋkwɔk	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		307,m,m
-132424	1644	Yakha	naːri	naːri	forearm / lower arm	forearm  /  lower arm		1.5.1.2.2	6.1.5	0		
-132425	1644	Yakha	muːkanari	muːkanari	wrist	wrist		1.5.8.1	6.1.6	0		
-132426	1644	Yakha	muːk	muːk	hand	hand		1.5.1.1	6.1.7	0		769
-132427	1644	Yakha	muːk taːpiː	muːk taːpiː	palm	palm		1.5.5	6.1.7.1	0		
-132428	1644	Yakha	muːk◦coːŋ	muːk◦coːŋ	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		769,m
-132429	1644	Yakha	mutthi	mutthi	fist	fist		1.5.1.1.1	6.1.7.3	0		b
-132430	1644	Yakha	cuptaŋ muːk	cuptaŋ muːk	right hand	right hand		1.5.3.2	6.1.7.4	0		m,769
-132431	1644	Yakha	phɛksaŋ muːk	phɛksaŋ muːk	left hand	left hand		1.5.3.2	6.1.7.5	0		m,769
-132432	1644	Yakha	naː◦saːgaː uːlap	naːsaːgaː uːlap	fin (of fish)	fin (of fish)		1.5.1.3.1	6.1.8	0		1455,m,m
-132433	1644	Yakha	uː◦lap	uː◦lap	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		1603,757
-132434	1644	Yakha	uːlaŋtaːpi	uːlaŋtaːpi	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
-132435	1644	Yakha	laŋ	laŋ	leg	leg		1.5.7	6.2	0		3580
-132436	1644	Yakha	laŋ phila	laŋ phila	thigh	thigh		1.5.7.1	6.2.1	0		
-132437	1644	Yakha	laŋ phila seːŋkwɔk	laŋ phila seːŋkwɔk	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		
-132438	1644	Yakha	laŋ phila sawa	laŋ phila sawa	hamstring	hamstring		1.6.6.2	6.2.1.2	0		
-132439	1644	Yakha	gɔ̃da	gɔ̃da	knee	knee		1.5.8.4	6.2.2	0		bNepali
-132440	1644	Yakha	laŋ aŋgolik	laŋ aŋgolik	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		3580,m
-132441	1644	Yakha	laŋ peːkmana	laŋ peːkmana	knee hollow / popliteal region	knee hollow  /  popliteal region		1.5.8.4	6.2.2.2	0		3580,m
-132442	1644	Yakha	nali seːnkwɔk	nali seːnkwɔk	shin	shin		1.5.7.2	6.2.3	0		b,m
-132443	1644	Yakha	nali seːnkwɔk	nali seːnkwɔk	shin bone / tibia	shin bone  /  tibia		1.5.7.2	6.2.3.1	0		b,m
-132444	1644	Yakha	laŋ cɛpari	laŋ cɛpari	calf	calf		1.5.7	6.2.4	0		
-132445	1644	Yakha	laŋ hup	laŋ hup	ankle	ankle		1.5.8.2	6.2.5	0		
-132446	1644	Yakha	laŋ hup seːŋkwɔk	laŋ hup seːŋkwɔk	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		
-132447	1644	Yakha	laŋ◦tapi	laŋtapi	foot	foot		1.5.2	6.2.6	0		3580,m
-132448	1644	Yakha	laŋ kuːrkuːca	laŋ kuːrkuːca	heel	heel		1.5.2.1	6.2.6.1	0		m,b
-132449	1644	Yakha	laŋ sawa	laŋ sawa	achilles tendon	achilles tendon		1.6.6.1	6.2.6.2	0		
-132450	1644	Yakha	pakpakna laŋtapi	pakpakna laŋtapi	arch	arch		1.5.2.3	6.2.6.3	0		
-132451	1644	Yakha	laŋtapi	laŋtapi	sole	sole		1.5.5	6.2.6.5	0		
-132452	1644	Yakha	yaŋlɔk	yaŋlɔk	footprint	footprint		1.5.2.5	6.2.6.7	0		
-132453	1644	Yakha	laŋ◦khuːr	laŋkhuːr	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		m,414
-132454	1644	Yakha	ɔːlaŋtapi	ɔːlaŋtapi	paw (of animal)	paw (of animal)		1.5.4	6.2.6.9	0		
-132455	1644	Yakha	laŋmɛndakuːbaː	laŋmɛndakuːbaː	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-132456	1644	Yakha	laŋ kolceːŋkolceːŋlamaː	laŋ kolceːŋkolceːŋlamaː	limp	limp (v.)	v	1.5.12	6.2.8	0		
-132457	1644	Yakha	muːkamli	muːkamli	finger	finger		1.5.6	7.1	0		
-132458	1644	Yakha	paila muːkamli	paila muːkamli	index finger	index finger		1.0	7.1.1	0		
-132459	1644	Yakha	uːlum muːkam◦li	uːlum muːkamli	middle finger	middle finger		1.9.4	7.1.2	0		
-132460	1644	Yakha	saili muːkamli	saili muːkamli	ring finger	ring finger		1.5.6.2	7.1.3	0		
-132461	1644	Yakha	kanci muːkamli	kanci muːkamli	little finger	little finger		9.7.2	7.1.4	0		
-132462	1644	Yakha	muːktɛːtu	muːktɛːtu	thumb	thumb		1.5.6.1	7.1.5	0		
-132463	1644	Yakha	muːka ɔːyuk	muːka ɔːyuk	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
-132464	1644	Yakha	laŋamli	laŋamli	toe	toe		1.5.6	7.2	0		
-132465	1644	Yakha	laŋ tɛːtu	laŋ tɛːtu	big toe	big toe		1.5.6.1	7.2.1	0		
-132466	1644	Yakha	paila laŋamli	paila laŋamli	second toe	second toe		9.9	7.2.2	0		
-132467	1644	Yakha	uːlum laŋam◦li	uːlum laŋamli	middle toe	middle toe		1.9.4	7.2.3	0		
-132468	1644	Yakha	saili laŋamli	saili laŋamli	fourth toe	fourth toe		9.9	7.2.4	0		
-132469	1644	Yakha	kanci laŋamli	kanci laŋamli	little toe	little toe		9.7.2	7.2.5	0		
-132470	1644	Yakha	muːk◦adzorni	muːkadzorni	knuckle (joint of digit)	knuckle (joint of digit)		1.5.8.5	7.3	0		769,m
-132471	1644	Yakha	cɛːn◦di	cɛːndi	nail	nail		1.5.10	7.4	0		512,m
-132472	1644	Yakha	muːk cɛːn◦di	muːk cɛːndi	fingernail	fingernail		1.5.10.1	7.4.1	0		m,512,508
-132473	1644	Yakha	laŋ cɛːndi	laŋ cɛːndi	toenail	toenail		1.5.10.2	7.4.2	0		
-132474	1644	Yakha	bɔːstuː cɛːndi	bɔːstuː cɛːndi	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		
-132475	1644	Yakha	nwɔːka ulaŋcɛːndi	nwɔːka ulaŋcɛːndi	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		
-132476	1644	Yakha	koːbeːkamara laŋ	koːbeːkamara laŋ	pincers (eg. of crab)	pincers (eg. of crab)		1.5.10.4	7.4.5	0		
-132477	1644	Yakha	muŋ	muŋ	hair (general)	hair (general)		1.2.3	8.1	0		363
-132478	1644	Yakha	tam◦phəwa	tam◦phəwa	hair of head	hair of head		1.2.3	8.1.1	0	D1	371,1228
-132479	1644	Yakha	wɔksaː tam◦phəwa	wɔksaː tam◦phəwa	cowlick (flexure in hair)	cowlick (flexure in hair)		1.2.3.1	8.1.1.1	0		m,371,1228
-132480	1644	Yakha	naː cik◦muŋ	naː cik◦muŋ	beard / moustache	beard / moustache		1.2.5.5	8.1.2	0		1192,2034,363
-132481	1644	Yakha	daːhri	daːhri	beard	beard		1.2.5.5	8.1.2.1	0		2063
-132482	1644	Yakha	siŋsali daːhri	siŋsali daːhri	goatee	goatee		1.2.5.5	8.1.2.2	0		m,2063
-132483	1644	Yakha	ya◦muŋ	ya◦muŋ	moustache	moustache		1.2.5.5	8.1.2.3	0		1115,363
-132484	1644	Yakha	dziu◦biya muŋ	dziu◦biya muŋ	body hair	body hair		1.6.1	8.1.3	0		15,m,363
-132485	1644	Yakha	lɛːkuːmaŋ muŋ	lɛːkuːmaŋ muŋ	underarm hair	underarm hair		1.5.1.2.3	8.1.3.1	0		m,363
-132486	1644	Yakha	chati muŋ	chati muŋ	chest hair	chest hair		1.4.4.5	8.1.3.2	0		b,363
-132487	1644	Yakha	laŋ biya muːŋ	laŋ biya muːŋ	leg hair	leg hair		1.5.7	8.1.3.3	0		3580,m,363
-132488	1644	Yakha	bɔːstuː◦muŋ	bɔːstuː◦muŋ	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		m,363
-132489	1644	Yakha	nwɔːka muŋ	nwɔːka muŋ	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		m,363
-132490	1644	Yakha	phak◦kau◦muŋ	phak◦kau◦muŋ	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		568,m,363
-132491	1644	Yakha	wiː◦ya◦muŋ	wiː◦ya◦muŋ	whiskers (of animal)	whiskers (of animal)		1.2.5.5	8.1.7	0		m,1115,363
-132492	1644	Yakha	wəha◦riːk	wəha◦riːk	skin	skin		1.6.5	8.2	0		589,782
-132493	1644	Yakha	wə◦haŋ◦ma	wə◦haŋ◦ma	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		m,m,s
-132494	1644	Yakha	wəhaŋmaga ɔhɔŋ	wəhaŋmaga ɔhɔŋ	pore	pore		1.8.1.1	8.2.2	0		
-132495	1644	Yakha	kiːcalɛːk	kiːcalɛːk	blemish on skin	blemish on skin		1.6.5	8.2.3	0		
-132496	1644	Yakha	laːmaːbihaː	laːmaːbihaː	freckle	freckle		1.6.5.3	8.2.3.1	0		
-132497	1644	Yakha	ḍanḍiːphor	ḍanḍiːphor	pimple	pimple		1.6.5.3	8.2.3.2	0		
-132498	1644	Yakha	maːklɛp	maːklɛp	mole	mole		2.2.7	8.2.3.3	0		
-132499	1644	Yakha	yumciːk	yumciːk	wart	wart		1.6.5.3	8.2.3.4	0		
-132500	1644	Yakha	wɔhɛːmacuk	wɔhɛːmacuk	cyst	cyst		1.6.5.3	8.2.3.5	0		
-132501	1644	Yakha	makuːra ɔyɔk	makuːra ɔyɔk	age spot / liver spot	age spot  /  liver spot		6.2	8.2.3.6	0		
-132502	1644	Yakha	ɔyɔk	ɔyɔk	scar	scar		1.6.5.3	8.2.3.7	0		
-132503	1644	Yakha	cuksabiya	cuksabiya	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
-132504	1644	Yakha	nampuː səruːkpa	nampuː səruːkpa	rash	rash		1.6.5.3	8.2.3.9	0		
-132505	1644	Yakha	wahaga ɔkɔp	wahaga ɔkɔp	scab	scab		1.6.5.3	8.2.4	0		
-132506	1644	Yakha	na◦saga ɔ◦kɔp	na◦saga ɔ◦kɔp	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		1455,m,m,783
-132507	1644	Yakha	hɛː◦rana wa◦rik	hɛː◦rana wa◦rik	hide / leather (dried animal s	hide  /  leather (dried animal s		1.6.5.1	8.2.6	0		m,m,589,782
-132508	1644	Yakha	ca◦ci◦bɔːk	ca◦ci◦bɔːk	fat	fat		1.6.4	8.3	0		m,48,m
-132509	1644	Yakha	ɔ◦phɔk ca◦ci◦bɔːk	ɔ◦phɔk ca◦ci◦bɔːk	fat around intestines / omentum	fat around intestines / omentum		1.6.4	8.3.1	0		p,164,m,48,m
-132510	1644	Yakha	khyu◦wa	khyu◦wa	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		
-132511	1644	Yakha	seːŋ◦kwɔk	seːŋ◦kwɔk	bone	bone		1.6.3	8.4	0		
-132512	1644	Yakha	yaʔmiga ophalik seːŋ◦kwɔk	yaʔmiga ophalik seːŋkwɔk	skeleton	skeleton		1.6.3.1	8.4.1	0		
-132513	1644	Yakha	misiŋhuːp	misiŋhuːp	vertebrae (of spine)	vertebrae (of spine)		1.6.3.3	8.4.2	0		
-132514	1644	Yakha	masi	masi	marrow ( = 9.1.2)	marrow ( = 9.1.2)		1.6.3.5	8.4.3	0		b
-132515	1644	Yakha	kuː◦truk◦pa	kuː◦truk◦pa	cartilage / grist	cartilage  /  grist		1.6.3.4	8.4.4	0		m,m,s
-132516	1644	Yakha	hɛː◦li	hɛː◦li	blood	blood		1.6.2	8.7	0		230,m
-132517	1644	Yakha	phim◦na sa◦wa	phim◦na sa◦wa	vein	vein		1.6.2.1	8.7.1	0		m,m,530,s
-132518	1644	Yakha	pham◦na sa◦wa	pham◦na sa◦wa	artery	artery		1.6.2.1	8.7.1	0		m,m,530,s
-132519	1644	Yakha	hɛː◦li loːmma	hɛː◦li loːmma	bleed	bleed (v.)	v	1.6.2	8.7.2	0		230,m,m
-132520	1644	Yakha	saː◦gaː musla	saː◦gaː musla	muscle	muscle		1.6.6.2	8.8	0		530,m,m
-132521	1644	Yakha	seːŋkwɔk coktaha	seːŋkwɔk coktaha	joint	joint		1.5.8	8.9	0		
-132522	1644	Yakha	na◦gaciʔ◦wa	na◦gaciʔ◦wa	brain (= 2.5 )	brain (= 2.5  )		1.2.4	9.1	0		249,463,s
-132523	1644	Yakha	sɔm	sɔm	lung	lung		1.7.2	9.2	0		66
-132524	1644	Yakha	sɔʔ◦ma sɔ◦ma◦na	sɔʔ◦ma sɔ◦ma◦na	breathe	breathe (v.)	v	1.1.2.2	9.2.1	0		32,s,m,s,m
-132525	1644	Yakha	heːsok heːsok leːŋmaː	heːsok heːsok leːŋmaː	pant	pant (v.)	v	1.1.2.2	9.2.2	0		
-132526	1644	Yakha	muʔ◦ma◦na	muʔ◦ma◦na	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		503,m,m
-132527	1644	Yakha	tup◦ma◦na	tup◦ma◦na	blow (for fire)	blow (for fire)		1.3.1.4	9.2.3	0		m,m,m
-132528	1644	Yakha	na◦saga uːnabak	nasaga uːnabak	gill (of fish)	gill (of fish)		1.3.5.3	9.2.4	0		1455,m,m
-132529	1644	Yakha	khakar	khakar	phlegm	phlegm		1.8.3	9.2.5	0		b
-132530	1644	Yakha	cuː◦waː	cuː◦waː	heart	heart		1.7.1	9.3	0		1382,m
-132531	1644	Yakha	luːŋma tukmana	luːŋma tukmana	heartbeat	heartbeat		1.7.1.1	9.3.1	0		
-132532	1644	Yakha	sa◦wa puŋmeʔna	sa◦wa puŋmeʔna	pulse	pulse		1.7.1.1	9.3.2	0		32,s,m
-132533	1644	Yakha	heːruʔwaci	heːruʔwaci	viscera of human	viscera of human		1.7	9.4	0		
-132534	1644	Yakha	weːruʔaci	weːruʔaci	viscera of animal	viscera of animal		1.7	9.4	0		
-132535	1644	Yakha	luŋ◦maː	luŋ◦maː	liver	liver		1.7.3	9.5	0		1381,1384
-132536	1644	Yakha	luŋ◦ma bɛ◦ha maŋcəwa	luŋ◦ma bɛ◦ha maŋcəwa	bile	bile		1.7.3.1	9.5.1	0		1381,1384
-132537	1644	Yakha	kiŋ	kiŋ	gall bladder	gall bladder		1.7.3	9.5.2	0		228
-132538	1644	Yakha	uːmi◦kluk	uːmi◦kluk	kidney	kidney		1.7.5	9.6	0		m,m
-132539	1644	Yakha	ciʔma yaŋdaŋ	ciʔma yaŋdaŋ	urinary bladder	urinary bladder		1.7.8	9.7	0		
-132540	1644	Yakha	ciʔ◦ma	ciʔ◦ma	urine	urine		1.8.4	9.7.1	0		650,s
-132541	1644	Yakha	ciʔ◦ma◦cima	ciʔmacima	urinate	urinate (v.)	v	1.5.3.2	9.7.2	0		650,s,m
-132542	1644	Yakha	phiyo	phi◦yo	spleen	spleen		1.7.4	9.8	0		5636
-132543	1644	Yakha	phiyo hɔːmana	phi◦yo hɔːmana	swollen spleen (illness)	swollen spleen (illness)		1.1.5.2	9.8.1	0		5636,m
-132544	1644	Yakha	kaŋ◦ma◦buk	kaŋ◦ma◦buk	pancreas	pancreas		1.7.7	9.9	0		m,1384,164
-132545	1644	Yakha	phok	phok	stomach	stomach		1.7.6	9.10	0		164
-132546	1644	Yakha	heː◦ruʔwa	heː◦ruʔwa	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		m,m
-132547	1644	Yakha	maːraː heːruʔwa	maːraː heːruʔwa	large intestine	large intestine		1.7.7	9.11.1	0		
-132548	1644	Yakha	miːnaː heːruʔwa	miːnaː heːruʔwa	small intestine	small intestine		9.7.2	9.11.2	0		m,m
-132549	1644	Yakha	heːmardaga ɔhɔŋ	heːmardaga ɔhɔŋ	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		
-132550	1644	Yakha	hiː	hiː	feces / shit	feces  /  shit		1.8.5	9.12.1	0		572
-132551	1644	Yakha	piːcaːga həwi	piːcaːga həwi	meconium / baby shit	meconium  /  baby shit		1.8.5	9.12.2	0		
-132552	1644	Yakha	eːmaː	eːmaː	defecate	defecate (v.)	v	1.8.5.4	9.12.3	0		
-132553	1644	Yakha	santan puːmana	santan puːmana	genitalia / pudenda (general)	genitalia  /  pudenda (general)		1.9.1	10.1	0		m,m
-132554	1644	Yakha	wempa yaʔ◦mi	wempa yaʔ◦mi	male	male		1.9.6.1	10.3	0		m,m,1002
-132555	1644	Yakha	babugaciʔmaciʔmana	babugaciʔmaciʔmana	penis	penis			10.3.1	0		
-132556	1644	Yakha	babugaciʔmaciʔmana ga oːc	babugaciʔmaciʔmana ga oːc	glans penis	glans penis			10.3.2	0		
-132557	1644	Yakha	liː◦gouː wə◦ha◦rik	liː◦gouː wə◦ha◦rik	foreskin	foreskin			10.3.3	0		
-132558	1644	Yakha	cuk◦saʔ◦bie◦na	cuk◦saʔ◦bie◦na	scrotum	scrotum			10.3.4	0		
-132561	1644	Yakha	kasi cokmana	kasi cokmana	castrate	castrate (v.)	v	1.9.2.3	10.3.9	0		m,m
-132562	1644	Yakha	me◦ca yaʔ◦mi	me◦ca yaʔ◦mi	female	female		1.9.3	10.4	0		1618,m,m,1002
-132563	1644	Yakha	mamugaciʔmaciʔmana	mamugaciʔmaciʔmana	vagina	vagina			10.4.1	0		
-132564	1644	Yakha	mamugaciʔmaciʔmana gə uːm	mamugaciʔmaciʔmana gə uːm	female pubic hair	female pubic hair			10.4.5	0		m,m,m
-132565	1644	Yakha	isiʔna	isiʔna	menstruate	menstruate (v.)	v	1.9.11.1	10.4.6	0		m
-132566	1644	Yakha	hɛ◦lɛ keʔma	hɛ◦lɛ keʔma	menstruate	menstruate (v.)	v	1.9.11.1	10.4.6	0		230,m,m
-132567	1644	Yakha	pateː◦ghar	pateː◦ghar	womb	womb			10.4.8	0		m,b
-132568	1644	Yakha	picaː yaŋ◦dɔŋ	picaː yaŋ◦dɔŋ	placenta	placenta			10.4.11	0		m,672,m
-132569	1644	Yakha	ɔ◦phɔk◦suglik	ɔ◦phɔk◦suglik	umbilical cord	umbilical cord			10.4.12	0		m,164,m
-132570	1644	Yakha	piːcaː wamana	piːcaː wamana	pregnant	pregnant	be	1.9.6.1	10.4.14	0		
-132571	1644	Yakha	sut◦keːri	sut◦keːri	birth, give	birth, give		1.1.2	10.4.15	0		3485,m,m
-132572	1644	Yakha	piːcaː wayamana	piːcaː wayamana	birth, give	birth, give		1.1.2	10.4.15	0		
-132573	1644	Yakha	win	win	egg (of animal)	egg (of animal)			10.4.16	0		
-132574	1644	Yakha	hoʔmana	hoʔmana	cough	cough		1.8.3.3	11.1	0		
-132575	1644	Yakha	hɛʔlupa	hɛʔlupa	hiccup	hiccup		1.8.3.5	11.2	0		
-132576	1644	Yakha	haʔcim◦ba	haʔcim◦ba	sneeze	sneeze		1.8.2.1	11.3	0		2131,s
-132577	1644	Yakha	ga◦naʔ◦waʔ◦luʔ◦maː	ga◦naʔ◦waʔ◦luʔ◦maː	snore	snore		1.8.2.2	11.4	0		m,m,m,m,s
-132578	1644	Yakha	su◦suʔ◦wa	su◦suʔ◦wa	whistle	whistle		8.5.5	11.5	0		m,m,s
-132579	1644	Yakha	dakar	dakar	burp / belch	burp  /  belch		1.8.3	11.6	0		b
-132580	1644	Yakha	toːomana	toːomana	burp / belch	burp  /  belch		1.8.3	11.6	0		
-132581	1644	Yakha	piːʔ◦maː	piːʔ◦maː	fart	fart		1.8.5.2	11.7	0		311,m
-132582	1644	Yakha	hommaː	hommaː	clear throat	clear throat		9.6.1.1	11.8	0		
-132583	1644	Yakha	yuːn◦cɛːm◦maː	yuːn◦cɛːm◦maː	laugh	laugh		1.8.8.1	11.9	0		m,m,s
-132584	1644	Yakha	yoːŋmaː	yoːŋmaː	tremble	tremble		6.7.3	12.1	0		
-132585	1644	Yakha	huluːkluːkyoːŋmaː	huluːkluːkyoːŋmaː	shiver	shiver		1.6.6.2.1	12.1	0		
-132586	1644	Yakha	siliklikpakɛʔma	siliklikpakɛʔma	shudder	shudder		1.6.6.2.1	12.1	0		
-132587	1644	Yakha	coːrʔleŋmaː	coːrʔleŋmaː	hurt	hurt	be	1.1.5.1	12.2	0		
-132588	1644	Yakha	tuʔmaː	tuʔmaː	ill	ill	be	1.1.5.1	12.2	0		
-132589	1644	Yakha	tɔndiʔmaː	tɔndiʔmaː	numb	numb	be	1.5.11	12.3	0		
-132590	1644	Yakha	puːmdiʔmaː	puːmdiʔmaː	paralyzed	paralyzed	be	1.5.11	12.3	0		
-132591	1644	Yakha	hom◦maː	hom◦maː	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		1856,s
-132592	1644	Yakha	wa◦ha	wa◦ha	pus	pus		1.8.6.1	12.5	0		m,m
-132593	1644	Yakha	suncama	suncama	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound		1.8.6.2	12.6	0		
-132594	1644	Yakha	umiːʔwaha	umiːʔwaha	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound		1.8.6.2	12.6	0		
-132595	1644	Yakha	muːkamliga kɛŋgetna seːŋk	muːkamliga kɛŋgetna seːŋk	base finger bone length	base finger bone length		5.11.9		0		
-132596	1644	Yakha	ulumbeʔna seːŋkwɔk	ulumbeʔna seːŋkwɔk	middle section of finger lengt	middle section of finger lengt		1.9.4		0		
-132597	1644	Yakha	ɔcɔmbeʔna seːŋkwɔk	ɔcɔmbeʔna seːŋkwɔk	tip bone of finger	tip bone of finger		9.2.1		0		
-132598	1644	Yakha	eko bita ciʔmana	eko bita ciʔmana	hand span	hand span		1.5.9.4	13.2	0		bChinese
-132599	1644	Yakha	muːk◦soːdzi ciʔmana	muːksoːdzi ciʔmana	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		769,m,m
-132600	1644	Yakha	hɔpɔŋgi eko	hɔpɔŋgi eko	two cupped hands held together	two cupped hands held together		9.9		0		
-132601	1644	Yakha	muːk eko	muːk eko	one cupped hand	one cupped hand		9.9		0		769,m
-132602	1644	Yakha	kiːnuː	kiːnuː	pinch (three fingers toge	pinch (n.) (three fingers toge	n	8.4		0		
-168984	1644	Yakha	nam◦ci◦yəŋ seŋ◦kwɔːk	nam◦ci◦yəŋ seŋ◦kwɔːk	cheekbone	cheekbone		1.2.5.2	3.11.1	0	D1	825,2037,2045,2049,267
-296538	1644	Yakha	liː	liː	penis	penis			10.3.1	0		1284
-296539	1644	Yakha	liː◦goː u◦tu◦kəruk	liː◦goː u◦tu◦kəruk	glans penis	glans penis			10.3.2	0		1284,m,m,1223,m
-296540	1644	Yakha	liː◦gəuː◦wə◦ha◦rik	liː◦gəuː◦wə◦ha◦rik	foreskin	foreskin			10.3.3	0		1284,m,m,m,782
-296541	1644	Yakha	liː◦geŋ	liː◦geŋ	testicle	testicle			10.3.5	0	D1	1284,m
-296542	1644	Yakha	liː◦goː u◦muŋ	liː◦goː u◦muŋ	male pubic hair	male pubic hair			10.3.6	0	D1	1284,m,m,363
-296543	1644	Yakha	siː	siː	vagina	vagina			10.4.1	0		1349
-311389	1644	Yakha	nuː uŋmeʔ	nuː uŋmeʔ	nurse  /  suckle	nurse  /  suckle (v.)	v	4.2.1.5	5.4.6	0		253,m
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+132259	1644	Yakha	dziu	dziu	body	body			1.1.1	1.1	0			15
+132260	1644	Yakha	cuptaŋ dziu	cuptaŋ dziu	side (right)	side (right)			1.4.5	1.2	0			
+132261	1644	Yakha	phɛksaŋ dziu	phɛksaŋ dziu	side (left)	side (left)			1.4.5	1.3	0			
+132262	1644	Yakha	hek◦saŋ	hek◦saŋ	back	back			1.4.8	1.4	0	jbl5	HIDE	DUPE IN SOURCE
+132263	1644	Yakha	mi◦siŋ	mi◦siŋ	back	back			1.4.8	1.4	0	jbl5	HIDE	DUPE IN SOURCE
+132264	1644	Yakha	agaːdi	agaːdi	front	front			1.4.4	1.5	0			m
+132265	1644	Yakha	dziu	dziu	torso / trunk	torso  /  trunk			1.5.3.2	1.6	0	jbl3		b
+132266	1644	Yakha	laːŋci nuŋ muːkci	laːŋci nuŋ muːkci	limbs / arms and legs	limbs  /  arms and legs			1.5.3.1	1.7	0	jbl3		
+132267	1644	Yakha	laŋ◦coŋ	laŋ◦coŋ	lap	lap			1.4.4.2	1.8	0			
+132268	1644	Yakha	chaːti	chaːti	bosom	bosom			1.4.4.2	1.9	0			b
+132269	1644	Yakha	kɔmbur	kɔmbur	groin / loins / hips	groin  /  loins  / hips			1.4.9	1.10	0	jbl3		b
+132270	1644	Yakha	saː	saː	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		34
+132271	1644	Yakha	wə◦hiŋ◦glik	wə◦hiŋ◦glik	alive / be living	alive  /  be living			1.1.2.1	1.12	0	jbl3		m,71,m
+132272	1644	Yakha	si◦maː	si◦maː	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		27,s
+132273	1644	Yakha	si◦ana yaʔmi	si◦ana yaʔmi	corpse / dead body	corpse  /  dead body			1.1.6.1	1.14	0	jbl3		27,m,m
+132274	1644	Yakha	si◦nu	si◦nu	carcass / dead animal	carcass  /  dead animal			1.1.6.1	1.15	0	jbl3		27,m
+132275	1644	Yakha	im◦maː	im◦maː	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		127,s
+132276	1644	Yakha	cem◦maː	cem◦maː	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		
+132277	1644	Yakha	sem◦maŋ ma?◦maː	sem◦maŋ ma?◦maː	dream	dream (v.)	v		1.1.4.2	1.18	0	dwb21		147,126,126,m
+132278	1644	Yakha	tu◦khəruk	tu◦khəruk	head	head			1.2.1	2.1	0			1223,m
+132279	1644	Yakha	taʔmaluːŋ	taʔmaluːŋ	top of head / crown / pate	top of head  /  crown  /  pate			1.2.1.2	2.2	0	jbl3		
+132280	1644	Yakha	picagaː taʔmaluŋ	picagaː taʔmaluŋ	fontanel (soft spots in baby s	fontanel (soft spots in baby s			1.2.1.3	2.3	0			m,m
+132281	1644	Yakha	khappar	khappar	skull	skull			1.2.1.1	2.4	0			1241
+132282	1644	Yakha	na◦gadziʔ◦wa	na◦gadziʔ◦wa	brain (= 9.1 )	brain (=  9.1  )			1.2.4	2.5	0	jbl3		249,463,s
+132283	1644	Yakha	natri	natri	sinus	sinus			1.2.8.1	2.6	0			
+132284	1644	Yakha	tam◦phəwa	tam◦phəwa	hair of head	hair of head			1.2.3	2.7	0	jbl5	HIDE	DUPE IN SOURCE
+132285	1644	Yakha	wəha◦rik	wəha◦rik	scalp	scalp			1.2.1.5	2.8	0			589,782
+132286	1644	Yakha	nam◦dzoŋ	nam◦dzoŋ	comb (of rooster)	comb (of rooster)			1.2.2.1	2.9	0			m,1471
+132287	1644	Yakha	taŋ	taŋ	horn (of animal)	horn (of animal)			1.2.2	2.10	0			371
+132288	1644	Yakha	taŋ◦gaː wəhak	taŋ◦gaː wəhak	antler (of deer)	antler (of deer)			1.2.2	2.11	0			371,m,2010
+132289	1644	Yakha	naː cik	naː cik	face	face			1.2.5	3.1	0			1192,2034
+132290	1644	Yakha	tuː◦aː	tuː◦aː	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		359,m
+132291	1644	Yakha	cacigeʔ	cacigeʔ	temple	temple			1.2.5.1	3.3	0			
+132292	1644	Yakha	miʔ	miʔ	eye	eye			1.2.6	3.4	0			682
+132293	1644	Yakha	miʔ wə◦ha◦rik	miʔ wə◦ha◦rik	eyelid	eyelid			1.2.6.4	3.4.1	0			682,m,m,782
+132294	1644	Yakha	miʔ◦kaː◦makurna	miʔ◦kaː◦makurna	iris	iris			1.2.6.2	3.4.2.1	0			682,1110,m
+132295	1644	Yakha	miʔ◦kaːnani	miʔ◦kaːnani	pupil	pupil			1.2.6.2	3.4.2.2	0			682,m
+132296	1644	Yakha	miʔ◦kaːphuna	miʔ◦kaːphuna	white of eye	white of eye			1.2.6.3	3.4.2.3	0			682,m
+132297	1644	Yakha	toːha miʔ◦taŋ◦khwa	toːha miʔ◦taŋ◦khwa	eyebrow	eyebrow			1.2.6.6	3.4.3	0			m,682,371,2072
+132298	1644	Yakha	moːha mi?◦taŋ◦khwa	moːha mi?◦taŋ◦khwa	eyelash	eyelash			1.2.6.5	3.4.4	0			m,682,371,2072
+132299	1644	Yakha	si◦miːk si◦miːk cokmaː	si◦miːk si◦miːk cokmaː	blink	blink (v.)	v		1.2.6.12	3.4.5	0	dwb21		m,682,m,33,m
+132300	1644	Yakha	miʔ◦wa◦ha	miʔ◦wa◦ha	tears	tears			1.2.6.7	3.4.6	0			682,2080,m
+132301	1644	Yakha	miʔ◦kwiː	miʔ◦kwiː	eye sand	eye sand			1.2.6.8	3.4.7	0			682,572
+132302	1644	Yakha	hap◦maː	hap◦maː	cry  /  weep	cry  /  weep (v.)	v		1.8.8.2	3.4.8	0	dwb21		1103,s
+132303	1644	Yakha	niː◦maː	niː◦maː	see	see (v.)	v		1.2.6.10	3.4.9	0	dwb21		m,1227
+132304	1644	Yakha	soːʔ◦maː	soːʔ◦maː	look	look (v.)	v		1.2.6.11	3.4.9	0	dwb21		m,1227
+132305	1644	Yakha	mik◦ŋa mɛniːma	mik◦ŋa mɛniːma	blind	blind			1.2.6.14.2	3.4.10	0			682,m,m
+132306	1644	Yakha	na◦buʔ	na◦buʔ	nose	nose			1.2.8	3.5	0			803,806
+132307	1644	Yakha	na-buʔ◦kaːkoŋ◦galik	na-buʔ◦kaːkoŋ◦galik	nose bridge	nose bridge			1.2.8	3.5.1	0			803,806,m,m
+132308	1644	Yakha	na◦bu?◦kaː ɔ◦hɔŋ	na◦bu?◦kaː ɔ◦hɔŋ	nostril	nostril			1.2.8.1	3.5.2	0			803,806,2093,p,3432
+132309	1644	Yakha	na◦buʔ◦kaː poŋma	nabuʔkaː poŋma	alae nasi (nose flaps)	alae nasi (nose flaps)			1.2.8.2	3.5.3	0			803,806,m,m
+132310	1644	Yakha	na◦buʔ muŋ	na◦buʔ muŋ	nose hair	nose hair			1.2.8	3.5.4	0			803,806,363
+132311	1644	Yakha	tutuna	tutuna	snout	snout			1.2.8	3.5.5	0			bNepali
+132312	1644	Yakha	pak◦ka u◦na◦buʔ	pak◦ka u◦na◦buʔ	snout	snout			1.2.8	3.5.5	0			1006,m,p,803,806
+132313	1644	Yakha	nagaʔma	nagaʔma	liquid mucus	liquid mucus			3.2.3	3.5.6	0			
+132314	1644	Yakha	totoʔa nagaʔma	totoʔa nagaʔma	solid mucus	solid mucus			1.1.5	3.5.7	0			
+132315	1644	Yakha	na◦gaʔma siŋmaː	nagaʔma siŋmaː	blow nose	blow nose (v.)	v		1.3.1.4	3.5.8	0	dwb21		803,m,m
+132316	1644	Yakha	naːm◦maː	naːm◦maː	smell  /  sniff	smell  /  sniff (v.)	v		1.2.8.5	3.5.9	0	dwb21		1415,m
+132317	1644	Yakha	na◦bak	na◦bak	ear	ear			1.2.7	3.6	0			811,821
+132318	1644	Yakha	na◦bak◦a loti	na◦bak◦a loti	earlobe	earlobe			1.2.7.1	3.6.1	0			811,821,m,m
+132319	1644	Yakha	na◦bak	na◦bak	outer ear	outer ear			9.2	3.6.2	0			811,821
+132320	1644	Yakha	na◦bak◦a ɔhɔŋ	na◦bak◦a ɔhɔŋ	inner ear	inner ear			9.2.5	3.6.3	0			811,821,m,m
+132321	1644	Yakha	na◦bak dzali	na◦bak dzali	eardrum	eardrum			1.2.7.2	3.6.5	0			811,821,2083
+132322	1644	Yakha	na◦bak ɔwi	na◦bak ɔwi	earwax	earwax			1.2.7.3	3.6.6	0			811,821,m
+132323	1644	Yakha	keːmmaː	keːmmaː	hear	hear (v.)	v		1.2.7.4	3.6.7	0	dwb21		
+132324	1644	Yakha	mɛŋkeːmkuba	mɛŋkeːmkuba	deaf	deaf			1.2.7.5	3.6.8	0			m
+132325	1644	Yakha	ya	ya	mouth	mouth			1.3.1	3.7	0			2095
+132326	1644	Yakha	kɔːŋ◦daʔ◦maː	kɔːŋ◦daʔ◦maː	palate	palate			1.3.1.1	3.7.1	0			1723,1719,m
+132327	1644	Yakha	neːʔna kɔːŋ◦daʔ◦maː	neːʔna kɔːŋdaʔmaː	soft palate	soft palate			7.1.4.2	3.7.2	0			m,1723,1719,m
+132328	1644	Yakha	gidza	gidza	gums	gums			1.3.4.3	3.7.3	0			b
+132329	1644	Yakha	kilkile	kilkile	uvula	uvula			1.3.5.1	3.7.4	0			
+132330	1644	Yakha	leːŋwa	leːŋwa	saliva	saliva			1.8.3	3.7.5	0			
+132331	1644	Yakha	caː◦maː	caː◦maː	eat	eat (v.)	v		1.5.3.2	3.7.6	0	dwb21		36,s
+132332	1644	Yakha	uŋ◦maː	uŋ◦maː	drink	drink (v.)	v			3.7.7	0	dwb21		1714,s
+132333	1644	Yakha	hom◦maː	hom◦maː	drink	drink (v.)	v			3.7.7	0	dwb21		1704,s
+132334	1644	Yakha	weʔ◦ma siː◦maː	weʔ◦ma siː◦maː	thirsty	thirsty	be	be	1.1.3.1	3.7.8	0			122,s,m,s
+132335	1644	Yakha	saʔŋa siːmaː	saʔŋa siːmaː	hungry	hungry	be	be	1.1.3	3.7.9	0			m
+132336	1644	Yakha	kaː◦maː	kaː◦maː	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		115,1834
+132337	1644	Yakha	thoːk◦maː	thoːk◦maː	spit	spit (v.)	v		1.8.3	3.7.11	0	dwb21		601,s
+132338	1644	Yakha	pɔs◦ita	pɔs◦ita	vomit	vomit (n.)	n		1.8.3.2	3.7.12	0	dwb33		1145,m
+132339	1644	Yakha	pɔs◦it◦ma / oː◦maː	pɔs◦it◦ma / oː◦maː	vomit	vomit (v.)	v		1.8.3.2	3.7.13	0	dwb21		1145,m,m,m,m
+132340	1644	Yakha	uːm◦maː	uːm◦maː	hold in mouth	hold in mouth (v.)	v		1.3.4.4	3.7.14	0	dwb21		3451,s
+132341	1644	Yakha	ya hoho cokmana	ya hoho cokmana	gape  /  open mouth	gape  /  open mouth (v.)	v		1.3.1	3.7.15	0	dwb21		
+132342	1644	Yakha	ha◦kɔm◦ba tak◦ma◦na	ha◦kɔm◦ba tak◦ma◦na	yawn	yawn (v.)	v		1.3.1.3	3.7.16	0	dwb21		1716,m,m,m,m,m
+132343	1644	Yakha	lɛm	lɛm	tongue	tongue			1.3.3	3.8	0			625
+132344	1644	Yakha	ceːkmaː	ceːkmaː	speak	speak (v.)	v		8.5.10.1	3.8.1	0	dwb21		
+132345	1644	Yakha	yaphaːmsiʔmaː	yaphaːmsiʔmaː	stutter / stammer	stutter  /  stammer			8.5.4.5	3.8.2	0	jbl3		
+132346	1644	Yakha	yamɛndaːmaː	yamɛndaːmaː	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		
+132347	1644	Yakha	yamɛndakhuba	yamɛndakhuba	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		
+132348	1644	Yakha	leːk◦maː	leːk◦maː	lick	lick			1.3.3.1	3.8.4	0			629,m
+132349	1644	Yakha	ya◦bulu◦ʔa	ya◦bulu◦ʔa	lip	lip			1.3.2	3.9	0			m,456,m
+132350	1644	Yakha	tona yabuluʔa	tona yabuluʔa	upper lip	upper lip			9.2.1	3.9.1	0			
+132351	1644	Yakha	mona yabuluʔa	mona yabuluʔa	lower lip	lower lip				3.9.2	0			m,m
+132352	1644	Yakha	com◦naː	com◦naː	beak / bill	beak / bill			1.3.1.2	3.9.3	0			m,m
+132353	1644	Yakha	yun◦cik◦yun◦cik cok◦maː	yun◦cik◦yun◦cik cok◦maː	smile	smile (v.)	v		1.8.8.1	3.9.4	0	dwb21		m,m,m,m,m,s
+132354	1644	Yakha	cup◦pa cok◦ma	cup◦pa cok◦ma	kiss	kiss			1.3.2.2	3.9.5	0			5541,s,m,s
+132355	1644	Yakha	keːŋ	keːŋ	tooth	tooth			1.3.4	3.10	0			637
+132356	1644	Yakha	agaːḍi keŋ	agaːḍi keŋ	tooth (incisor)	tooth (incisor)			1.3.4	3.10.1	0			m,637
+132357	1644	Yakha	u◦ma keŋ	u◦ma keŋ	molar	molar			1.3.4.2	3.10.2	0			m,m,637
+132358	1644	Yakha	kuː◦cuː◦ma keŋ	kuː◦cuː◦ma keŋ	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang			1.3.4.1	3.10.3	0	jbl3		m,m,m,637
+132359	1644	Yakha	u◦luʔ◦ma keŋ	uluʔ◦ma keŋ	tooth (wisdom)	tooth (wisdom)			1.3.4	3.10.4	0			m,1322,s,637
+132360	1644	Yakha	piːca keŋ	piːca keŋ	baby tooth	baby tooth			4.2.11	3.10.5	0			
+132361	1644	Yakha	daːhra	daːhra	tusk (of elephant, boar)	tusk (of elephant, boar)			1.3.4.1	3.10.6	0			2814
+132362	1644	Yakha	haːp◦maː	haːp◦maː	bite	bite (v.)	v		1.3.4.4	3.10.7	0	dwb21		743,m
+132363	1644	Yakha	kham◦maː	kham◦maː	chew	chew (v.)	v		1.3.4	3.10.8	0	dwb21		630,m
+132364	1644	Yakha	ciːŋ◦bu◦luʔ◦ma	ciːŋ◦bu◦luʔ◦ma	cheek	cheek			1.2.5.2	3.11	0			2049,m,m,s
+132365	1644	Yakha	nam◦ci◦yəŋ	nam◦ci◦yəŋ	cheek	cheek			1.2.5.2	3.11	0			825,2037,2045
+132367	1644	Yakha	siŋ◦saː◦liː	siŋ◦saː◦liː	chin	chin			1.2.5.3	3.12	0			1112,m,287
+132368	1644	Yakha	baŋəra	baŋəra	jaw	jaw			1.2.5.2	3.13	0			2061
+132369	1644	Yakha	moː◦na baŋəra	moː◦na baŋəra	lower jaw / mandible	lower jaw  /  mandible			1.2.5.2	3.13.1	0	jbl3		m,m,2061
+132370	1644	Yakha	toː◦na baŋəra	toː◦na baŋəra	upper jaw / maxilla	upper jaw  /  maxilla			1.2.5.2	3.13.2	0	jbl3		m,m,2061
+132371	1644	Yakha	kɔn	kɔn	neck	neck			1.4.2	4.1	0			3361
+132372	1644	Yakha	kɔn toːtana	kɔn toːtana	goiter	goiter			1.4.2.2	4.1.1	0			3361,m
+132373	1644	Yakha	gal◦phuː◦la	gal◦phuː◦la	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)			1.1.5.2	4.1.2	0			m,163,m
+132374	1644	Yakha	guːʔ◦cuk	guːʔ◦cuk	nape of neck	nape of neck			1.4.2.1	4.1.3	0			m,393
+132375	1644	Yakha	cokcokna kɔn	cokcokna kɔn	adam's apple / larynx	adam's apple  /  larynx			1.5.3.2	4.1.4	0	jbl3		
+132376	1644	Yakha	ik◦laːm	ik◦laːm	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		m,499
+132377	1644	Yakha	soʔ◦ma so◦ma◦na naːli	soʔ◦ma so◦ma◦na naːli	windpipe / trachea	windpipe  /  trachea			1.3.5.2	4.2.1	0	jbl3		32,s,32,s,m,m
+132378	1644	Yakha	caːmaː lummana naːli	caːmaː lummana naːli	esophagus	esophagus			1.3.5.5	4.2.2	0			
+132379	1644	Yakha	lummaː	lummaː	swallow	swallow (v.)	v		1.3.5.6	4.2.3	0	dwb21		
+132380	1644	Yakha	caːgɔn	caːgɔn	gizzard / crop of bird	gizzard  /  crop of bird			1.7.6.1	4.2.4	0	jbl3		m
+132381	1644	Yakha	caːtiː	caːtiː	chest	chest			1.4.4.3	5.1	0			b
+132382	1644	Yakha	karaŋ◦ci	karaŋ◦ci	rib cage	rib cage			1.4.4.3	5.1.1	0			b,m
+132383	1644	Yakha	karaŋ	karaŋ	rib	rib			1.4.4.3	5.1.2	0			b
+132384	1644	Yakha	chatiga seːŋ◦kwɔk	chatiga seːŋ◦kwɔk	breastbone / sternum	breastbone  /  sternum			1.6.3.2	5.1.3	0	jbl3		
+132385	1644	Yakha	konbeʔna mara seːŋkwɔk	konbeʔna mara seːŋkwɔk	collar bone / clavicle	collar bone  /  clavicle			1.4.3.1	5.2	0	jbl3		
+132386	1644	Yakha	phak◦taŋ	phak◦taŋ	shoulder	shoulder			1.4.3	5.3	0			568,3343
+132387	1644	Yakha	phak◦taŋ seːŋ◦kwɔk	phak◦taŋ seːŋ◦kwɔk	shoulder blade / scapula	shoulder blade  /  scapula			1.4.3.2	5.3.1	0	jbl3		568,3343,m,3350
+132388	1644	Yakha	phak◦taŋ yuŋmaː	phak◦taŋ yuŋmaː	shrug shoulders	shrug shoulders (v.)	v		1.4.3.3	5.3.2	0	dwb21		568,3343,m
+132389	1644	Yakha	nuː	nuː	breast	breast			1.4.4.3	5.4	0			253
+132390	1644	Yakha	nuː◦ga ɔ◦cam	nuː◦ga ɔ◦cam	nipple	nipple				5.4.1	0			253,m,p,m
+132391	1644	Yakha	pika uːnuː	pika uːnuː	udder (of cow, goat)	udder (of cow, goat)				5.4.2	0			
+132392	1644	Yakha	duːruː	duːruː	milk	milk				5.4.3	0			b
+132393	1644	Yakha	pahile hanuː	pahile hanuː	colostrum	colostrum				5.4.4	0			
+132394	1644	Yakha	piːʔ◦maː	piːʔ◦maː	suck	suck			1.3.2.1	5.4.5	0			3450,s
+132395	1644	Yakha	nuː◦piʔ meʔmana	nuː◦piʔ meʔmana	nurse  /  suckle	nurse  /  suckle (v.)	v		4.2.1.5	5.4.6	0	dwb21		253,3463,m
+132396	1644	Yakha	pahile caːmaː cameʔmana	pahile caːmaː cameʔmana	wean	wean				5.4.7	0			
+132397	1644	Yakha	mi◦siŋ	mi◦siŋ	back	back			1.4.8	5.5	0		D1	m,223
+132398	1644	Yakha	hek◦saŋ	hek◦saŋ	back	back			1.4.8	5.5	0		D1	214,m
+132399	1644	Yakha	toːna misiŋ	toːna misiŋ	upper back	upper back			9.2.1	5.5.1	0			
+132400	1644	Yakha	moːna misiŋ	moːna misiŋ	lower back	lower back			1.4.8.1	5.5.2	0			m,m
+132401	1644	Yakha	miː◦gɔk	miːgɔk	small of back	small of back			1.4.8.1	5.5.3	0			m,219
+132402	1644	Yakha	mi◦siŋ seːŋ◦kwɔk	mi◦siŋ seːŋ◦kwɔk	backbone / spine	backbone / spine			1.4.8.2	5.5.4	0			
+132403	1644	Yakha	misiŋ hupci	misiŋ hupci	spinal cord ( = 9.1.1 )	spinal cord ( =  9.1.1 )			1.4.8.2	5.5.5	0	jbl3		
+132404	1644	Yakha	uŋdiʔmaː	uŋdiʔmaː	hunchback	hunchback (v.)	v		1.4.8.3	5.5.6	0	dwb21		m
+132405	1644	Yakha	kɔmdiʔmaː	kɔmdiʔmaː	hunchback	hunchback (v.)	v		1.4.8.3	5.5.6	0	dwb21		m
+132406	1644	Yakha	kambɔːr	kambɔːr	waist	waist			1.4.6	5.6	0			b
+132407	1644	Yakha	phoːk	phoːk	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)			1.4.7	5.7	0	jbl3		164
+132408	1644	Yakha	phok◦su◦kəliːk	phok◦su◦kəliːk	navel	navel			1.9.4	5.7.1	0			164,526,m
+132409	1644	Yakha	kambɔːr betna seːŋkwɔk	kambɔːr betna seːŋkwɔk	pelvis / pelvic girdle	pelvis  /  pelvic girdle			1.4.9.2	5.8	0	jbl3		b,m,m,m
+132410	1644	Yakha	toːk◦ca◦li	toːk◦ca◦li	hips	hips			1.4.9.2	5.8.1	0			3322,m,413
+132411	1644	Yakha	toːk◦ca◦li seːŋ◦kwɔk	toːk◦ca◦li seːŋ◦kwɔk	hipbone	hipbone			1.4.9.2	5.8.2	0			3322,m,413,m,m
+132412	1644	Yakha	toːk◦ca◦li saː	toː◦kca◦li saː	haunches (of animal)	haunches (of animal)			1.4.9.2	5.8.3	0			3322,215,413,m
+132413	1644	Yakha	hak◦maː	hak◦maː	crotch / fork of legs	crotch  /  fork of legs			1.4.9.1	5.9	0	jbl3		214,s
+132414	1644	Yakha	toːk◦ca◦li	toːk◦ca◦li	rump	rump			1.4.10	5.10	0			3322,m,413
+132415	1644	Yakha	toːk◦ca◦li	toːk◦ca◦li	buttocks	buttocks			1.4.10	5.10.1	0			3322,m,413
+132416	1644	Yakha	mi◦lak seːŋ◦kwɔk	mi◦lak seːŋ◦kwɔk	tailbone / coccyx	tailbone  /  coccyx			1.6.3.3	5.10.2	0	jbl3		1288,3332,m,219
+132417	1644	Yakha	mi◦lak	mi◦lak	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			1288,3332
+132418	1644	Yakha	muːk paːkhuːra	muːk paːkhuːra	arm	arm			1.5.1.2	6.1	0			769,m
+132419	1644	Yakha	leːkumaːŋ	leːkumaːŋ	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		
+132420	1644	Yakha	yɛnsiʔmaː	yɛnsiʔmaː	tickle	tickle			1.5.1.2.4	6.1.1.1	0			
+132421	1644	Yakha	pakhuːra	pakhuːra	upperarm	upperarm			1.5.1.2.1	6.1.2	0			
+132422	1644	Yakha	guː◦saː	guː◦saː	elbow	elbow			1.5.8.3	6.1.4	0			307,m
+132423	1644	Yakha	guː◦saː seːŋkwɔk	guːsaː seːŋkwɔk	elbow bone	elbow bone			1.5.8.3	6.1.4.1	0			307,m,m
+132424	1644	Yakha	naːri	naːri	forearm / lower arm	forearm  /  lower arm			1.5.1.2.2	6.1.5	0	jbl3		
+132425	1644	Yakha	muːkanari	muːkanari	wrist	wrist			1.5.8.1	6.1.6	0			
+132426	1644	Yakha	muːk	muːk	hand	hand			1.5.1.1	6.1.7	0			769
+132427	1644	Yakha	muːk taːpiː	muːk taːpiː	palm	palm			1.5.5	6.1.7.1	0			
+132428	1644	Yakha	muːk◦coːŋ	muːk◦coːŋ	back of hand	back of hand			1.5.1.1.2	6.1.7.2	0			769,m
+132429	1644	Yakha	mutthi	mutthi	fist	fist			1.5.1.1.1	6.1.7.3	0			b
+132430	1644	Yakha	cuptaŋ muːk	cuptaŋ muːk	right hand	right hand			1.5.3.2	6.1.7.4	0			m,769
+132431	1644	Yakha	phɛksaŋ muːk	phɛksaŋ muːk	left hand	left hand			1.5.3.2	6.1.7.5	0			m,769
+132432	1644	Yakha	naː◦saːgaː uːlap	naːsaːgaː uːlap	fin (of fish)	fin (of fish)			1.5.1.3.1	6.1.8	0			1455,m,m
+132433	1644	Yakha	uː◦lap	uː◦lap	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			1603,757
+132434	1644	Yakha	uːlaŋtaːpi	uːlaŋtaːpi	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			
+132435	1644	Yakha	laŋ	laŋ	leg	leg			1.5.7	6.2	0			3580
+132436	1644	Yakha	laŋ phila	laŋ phila	thigh	thigh			1.5.7.1	6.2.1	0			
+132437	1644	Yakha	laŋ phila seːŋkwɔk	laŋ phila seːŋkwɔk	thigh bone / femur	thigh bone  /  femur			1.5.7.1	6.2.1.1	0	jbl3		
+132438	1644	Yakha	laŋ phila sawa	laŋ phila sawa	hamstring	hamstring			1.6.6.2	6.2.1.2	0			
+132439	1644	Yakha	gɔ̃da	gɔ̃da	knee	knee			1.5.8.4	6.2.2	0			bNepali
+132440	1644	Yakha	laŋ aŋgolik	laŋ aŋgolik	knee cap / patella	knee cap  /  patella			1.5.8.4	6.2.2.1	0	jbl3		3580,m
+132441	1644	Yakha	laŋ peːkmana	laŋ peːkmana	knee hollow / popliteal region	knee hollow  /  popliteal region			1.5.8.4	6.2.2.2	0	jbl3		3580,m
+132442	1644	Yakha	nali seːnkwɔk	nali seːnkwɔk	shin	shin			1.5.7.2	6.2.3	0			b,m
+132443	1644	Yakha	nali seːnkwɔk	nali seːnkwɔk	shin bone / tibia	shin bone  /  tibia			1.5.7.2	6.2.3.1	0	jbl3		b,m
+132444	1644	Yakha	laŋ cɛpari	laŋ cɛpari	calf	calf			1.5.7	6.2.4	0			
+132445	1644	Yakha	laŋ hup	laŋ hup	ankle	ankle			1.5.8.2	6.2.5	0			
+132446	1644	Yakha	laŋ hup seːŋkwɔk	laŋ hup seːŋkwɔk	ankle bone	ankle bone			1.5.8.2	6.2.5.1	0			
+132447	1644	Yakha	laŋ◦tapi	laŋtapi	foot	foot			1.5.2	6.2.6	0			3580,m
+132448	1644	Yakha	laŋ kuːrkuːca	laŋ kuːrkuːca	heel	heel			1.5.2.1	6.2.6.1	0			m,b
+132449	1644	Yakha	laŋ sawa	laŋ sawa	achilles tendon	achilles tendon			1.6.6.1	6.2.6.2	0			
+132450	1644	Yakha	pakpakna laŋtapi	pakpakna laŋtapi	arch	arch			1.5.2.3	6.2.6.3	0			
+132451	1644	Yakha	laŋtapi	laŋtapi	sole	sole			1.5.5	6.2.6.5	0			
+132452	1644	Yakha	yaŋlɔk	yaŋlɔk	footprint	footprint			1.5.2.5	6.2.6.7	0			
+132453	1644	Yakha	laŋ◦khuːr	laŋkhuːr	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			m,414
+132454	1644	Yakha	ɔːlaŋtapi	ɔːlaŋtapi	paw (of animal)	paw (of animal)			1.5.4	6.2.6.9	0			
+132455	1644	Yakha	laŋmɛndakuːbaː	laŋmɛndakuːbaː	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+132456	1644	Yakha	laŋ kolceːŋkolceːŋlamaː	laŋ kolceːŋkolceːŋlamaː	limp	limp (v.)	v		1.5.12	6.2.8	0	dwb21		
+132457	1644	Yakha	muːkamli	muːkamli	finger	finger			1.5.6	7.1	0			
+132458	1644	Yakha	paila muːkamli	paila muːkamli	index finger	index finger			1.0	7.1.1	0			
+132459	1644	Yakha	uːlum muːkam◦li	uːlum muːkamli	middle finger	middle finger			1.9.4	7.1.2	0			
+132460	1644	Yakha	saili muːkamli	saili muːkamli	ring finger	ring finger			1.5.6.2	7.1.3	0			
+132461	1644	Yakha	kanci muːkamli	kanci muːkamli	little finger	little finger			9.7.2	7.1.4	0			
+132462	1644	Yakha	muːktɛːtu	muːktɛːtu	thumb	thumb			1.5.6.1	7.1.5	0			
+132463	1644	Yakha	muːka ɔːyuk	muːka ɔːyuk	fingerprint	fingerprint			1.5.6.1	7.1.6	0			
+132464	1644	Yakha	laŋamli	laŋamli	toe	toe			1.5.6	7.2	0			
+132465	1644	Yakha	laŋ tɛːtu	laŋ tɛːtu	big toe	big toe			1.5.6.1	7.2.1	0			
+132466	1644	Yakha	paila laŋamli	paila laŋamli	second toe	second toe			9.9	7.2.2	0			
+132467	1644	Yakha	uːlum laŋam◦li	uːlum laŋamli	middle toe	middle toe			1.9.4	7.2.3	0			
+132468	1644	Yakha	saili laŋamli	saili laŋamli	fourth toe	fourth toe			9.9	7.2.4	0			
+132469	1644	Yakha	kanci laŋamli	kanci laŋamli	little toe	little toe			9.7.2	7.2.5	0			
+132470	1644	Yakha	muːk◦adzorni	muːkadzorni	knuckle (joint of digit)	knuckle (joint of digit)			1.5.8.5	7.3	0			769,m
+132471	1644	Yakha	cɛːn◦di	cɛːndi	nail	nail			1.5.10	7.4	0			512,m
+132472	1644	Yakha	muːk cɛːn◦di	muːk cɛːndi	fingernail	fingernail			1.5.10.1	7.4.1	0			m,512,508
+132473	1644	Yakha	laŋ cɛːndi	laŋ cɛːndi	toenail	toenail			1.5.10.2	7.4.2	0			
+132474	1644	Yakha	bɔːstuː cɛːndi	bɔːstuː cɛːndi	claw (of animal)	claw (of animal)			1.5.10.4	7.4.3	0			
+132475	1644	Yakha	nwɔːka ulaŋcɛːndi	nwɔːka ulaŋcɛːndi	talon (of bird)	talon (of bird)			1.5.10.4	7.4.4	0			
+132476	1644	Yakha	koːbeːkamara laŋ	koːbeːkamara laŋ	pincers (eg. of crab)	pincers (eg. of crab)			1.5.10.4	7.4.5	0			
+132477	1644	Yakha	muŋ	muŋ	hair (general)	hair (general)			1.2.3	8.1	0			363
+132478	1644	Yakha	tam◦phəwa	tam◦phəwa	hair of head	hair of head			1.2.3	8.1.1	0		D1	371,1228
+132479	1644	Yakha	wɔksaː tam◦phəwa	wɔksaː tam◦phəwa	cowlick (flexure in hair)	cowlick (flexure in hair)			1.2.3.1	8.1.1.1	0			m,371,1228
+132480	1644	Yakha	naː cik◦muŋ	naː cik◦muŋ	beard / moustache	beard / moustache			1.2.5.5	8.1.2	0			1192,2034,363
+132481	1644	Yakha	daːhri	daːhri	beard	beard			1.2.5.5	8.1.2.1	0			2063
+132482	1644	Yakha	siŋsali daːhri	siŋsali daːhri	goatee	goatee			1.2.5.5	8.1.2.2	0			m,2063
+132483	1644	Yakha	ya◦muŋ	ya◦muŋ	moustache	moustache			1.2.5.5	8.1.2.3	0			1115,363
+132484	1644	Yakha	dziu◦biya muŋ	dziu◦biya muŋ	body hair	body hair			1.6.1	8.1.3	0			15,m,363
+132485	1644	Yakha	lɛːkuːmaŋ muŋ	lɛːkuːmaŋ muŋ	underarm hair	underarm hair			1.5.1.2.3	8.1.3.1	0			m,363
+132486	1644	Yakha	chati muŋ	chati muŋ	chest hair	chest hair			1.4.4.5	8.1.3.2	0			b,363
+132487	1644	Yakha	laŋ biya muːŋ	laŋ biya muːŋ	leg hair	leg hair			1.5.7	8.1.3.3	0			3580,m,363
+132488	1644	Yakha	bɔːstuː◦muŋ	bɔːstuː◦muŋ	fur (of animal)	fur (of animal)			1.6.1	8.1.4	0			m,363
+132489	1644	Yakha	nwɔːka muŋ	nwɔːka muŋ	feather (of bird)	feather (of bird)			1.6.1.1	8.1.5	0			m,363
+132490	1644	Yakha	phak◦kau◦muŋ	phak◦kau◦muŋ	mane (of horse, lion)	mane (of horse, lion)			1.6.1	8.1.6	0			568,m,363
+132491	1644	Yakha	wiː◦ya◦muŋ	wiː◦ya◦muŋ	whiskers (of animal)	whiskers (of animal)			1.2.5.5	8.1.7	0			m,1115,363
+132492	1644	Yakha	wəha◦riːk	wəha◦riːk	skin	skin			1.6.5	8.2	0			589,782
+132493	1644	Yakha	wə◦haŋ◦ma	wə◦haŋ◦ma	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		m,m,s
+132494	1644	Yakha	wəhaŋmaga ɔhɔŋ	wəhaŋmaga ɔhɔŋ	pore	pore			1.8.1.1	8.2.2	0			
+132495	1644	Yakha	kiːcalɛːk	kiːcalɛːk	blemish on skin	blemish on skin			1.6.5	8.2.3	0			
+132496	1644	Yakha	laːmaːbihaː	laːmaːbihaː	freckle	freckle			1.6.5.3	8.2.3.1	0			
+132497	1644	Yakha	ḍanḍiːphor	ḍanḍiːphor	pimple	pimple			1.6.5.3	8.2.3.2	0			
+132498	1644	Yakha	maːklɛp	maːklɛp	mole	mole			2.2.7	8.2.3.3	0			
+132499	1644	Yakha	yumciːk	yumciːk	wart	wart			1.6.5.3	8.2.3.4	0			
+132500	1644	Yakha	wɔhɛːmacuk	wɔhɛːmacuk	cyst	cyst			1.6.5.3	8.2.3.5	0			
+132501	1644	Yakha	makuːra ɔyɔk	makuːra ɔyɔk	age spot / liver spot	age spot  /  liver spot			6.2	8.2.3.6	0	jbl3		
+132502	1644	Yakha	ɔyɔk	ɔyɔk	scar	scar			1.6.5.3	8.2.3.7	0			
+132503	1644	Yakha	cuksabiya	cuksabiya	wrinkle	wrinkle			9.6.2	8.2.3.8	0			
+132504	1644	Yakha	nampuː səruːkpa	nampuː səruːkpa	rash	rash			1.6.5.3	8.2.3.9	0			
+132505	1644	Yakha	wahaga ɔkɔp	wahaga ɔkɔp	scab	scab			1.6.5.3	8.2.4	0			
+132506	1644	Yakha	na◦saga ɔ◦kɔp	na◦saga ɔ◦kɔp	scales (of fish)	scales (of fish)			1.6.5.2	8.2.5	0			1455,m,m,783
+132507	1644	Yakha	hɛː◦rana wa◦rik	hɛː◦rana wa◦rik	hide / leather (dried animal s	hide  /  leather (dried animal s			1.6.5.1	8.2.6	0	jbl3		m,m,589,782
+132508	1644	Yakha	ca◦ci◦bɔːk	ca◦ci◦bɔːk	fat	fat			1.6.4	8.3	0			m,48,m
+132509	1644	Yakha	ɔ◦phɔk ca◦ci◦bɔːk	ɔ◦phɔk ca◦ci◦bɔːk	fat around intestines / omentum	fat around intestines / omentum			1.6.4	8.3.1	0	jbl2		p,164,m,48,m
+132510	1644	Yakha	khyu◦wa	khyu◦wa	oil / grease (for cooking)	oil  /  grease (for cooking)			1.6.4.1	8.3.2	0	jbl3		
+132511	1644	Yakha	seːŋ◦kwɔk	seːŋ◦kwɔk	bone	bone			1.6.3	8.4	0			
+132512	1644	Yakha	yaʔmiga ophalik seːŋ◦kwɔk	yaʔmiga ophalik seːŋkwɔk	skeleton	skeleton			1.6.3.1	8.4.1	0			
+132513	1644	Yakha	misiŋhuːp	misiŋhuːp	vertebrae (of spine)	vertebrae (of spine)			1.6.3.3	8.4.2	0			
+132514	1644	Yakha	masi	masi	marrow ( = 9.1.2)	marrow ( = 9.1.2)			1.6.3.5	8.4.3	0			b
+132515	1644	Yakha	kuː◦truk◦pa	kuː◦truk◦pa	cartilage / grist	cartilage  /  grist			1.6.3.4	8.4.4	0	jbl3		m,m,s
+132516	1644	Yakha	hɛː◦li	hɛː◦li	blood	blood			1.6.2	8.7	0			230,m
+132517	1644	Yakha	phim◦na sa◦wa	phim◦na sa◦wa	vein	vein			1.6.2.1	8.7.1	0			m,m,530,s
+132518	1644	Yakha	pham◦na sa◦wa	pham◦na sa◦wa	artery	artery			1.6.2.1	8.7.1	0			m,m,530,s
+132519	1644	Yakha	hɛː◦li loːmma	hɛː◦li loːmma	bleed	bleed (v.)	v		1.6.2	8.7.2	0	dwb21		230,m,m
+132520	1644	Yakha	saː◦gaː musla	saː◦gaː musla	muscle	muscle			1.6.6.2	8.8	0			530,m,m
+132521	1644	Yakha	seːŋkwɔk coktaha	seːŋkwɔk coktaha	joint	joint			1.5.8	8.9	0			
+132522	1644	Yakha	na◦gaciʔ◦wa	na◦gaciʔ◦wa	brain (= 2.5 )	brain (= 2.5  )			1.2.4	9.1	0	jbl3		249,463,s
+132523	1644	Yakha	sɔm	sɔm	lung	lung			1.7.2	9.2	0			66
+132524	1644	Yakha	sɔʔ◦ma sɔ◦ma◦na	sɔʔ◦ma sɔ◦ma◦na	breathe	breathe (v.)	v		1.1.2.2	9.2.1	0	dwb21		32,s,m,s,m
+132525	1644	Yakha	heːsok heːsok leːŋmaː	heːsok heːsok leːŋmaː	pant	pant (v.)	v		1.1.2.2	9.2.2	0	dwb21		
+132526	1644	Yakha	muʔ◦ma◦na	muʔ◦ma◦na	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			503,m,m
+132527	1644	Yakha	tup◦ma◦na	tup◦ma◦na	blow (for fire)	blow (for fire)			1.3.1.4	9.2.3	0			m,m,m
+132528	1644	Yakha	na◦saga uːnabak	nasaga uːnabak	gill (of fish)	gill (of fish)			1.3.5.3	9.2.4	0			1455,m,m
+132529	1644	Yakha	khakar	khakar	phlegm	phlegm			1.8.3	9.2.5	0			b
+132530	1644	Yakha	cuː◦waː	cuː◦waː	heart	heart			1.7.1	9.3	0			1382,m
+132531	1644	Yakha	luːŋma tukmana	luːŋma tukmana	heartbeat	heartbeat			1.7.1.1	9.3.1	0			
+132532	1644	Yakha	sa◦wa puŋmeʔna	sa◦wa puŋmeʔna	pulse	pulse			1.7.1.1	9.3.2	0			32,s,m
+132533	1644	Yakha	heːruʔwaci	heːruʔwaci	viscera of human	viscera of human			1.7	9.4	0			
+132534	1644	Yakha	weːruʔaci	weːruʔaci	viscera of animal	viscera of animal			1.7	9.4	0			
+132535	1644	Yakha	luŋ◦maː	luŋ◦maː	liver	liver			1.7.3	9.5	0			1381,1384
+132536	1644	Yakha	luŋ◦ma bɛ◦ha maŋcəwa	luŋ◦ma bɛ◦ha maŋcəwa	bile	bile			1.7.3.1	9.5.1	0			1381,1384
+132537	1644	Yakha	kiŋ	kiŋ	gall bladder	gall bladder			1.7.3	9.5.2	0			228
+132538	1644	Yakha	uːmi◦kluk	uːmi◦kluk	kidney	kidney			1.7.5	9.6	0			m,m
+132539	1644	Yakha	ciʔma yaŋdaŋ	ciʔma yaŋdaŋ	urinary bladder	urinary bladder			1.7.8	9.7	0			
+132540	1644	Yakha	ciʔ◦ma	ciʔ◦ma	urine	urine			1.8.4	9.7.1	0			650,s
+132541	1644	Yakha	ciʔ◦ma◦cima	ciʔmacima	urinate	urinate (v.)	v		1.5.3.2	9.7.2	0	dwb21		650,s,m
+132542	1644	Yakha	phiyo	phi◦yo	spleen	spleen			1.7.4	9.8	0			5636
+132543	1644	Yakha	phiyo hɔːmana	phi◦yo hɔːmana	swollen spleen (illness)	swollen spleen (illness)			1.1.5.2	9.8.1	0			5636,m
+132544	1644	Yakha	kaŋ◦ma◦buk	kaŋ◦ma◦buk	pancreas	pancreas			1.7.7	9.9	0			m,1384,164
+132545	1644	Yakha	phok	phok	stomach	stomach			1.7.6	9.10	0			164
+132546	1644	Yakha	heː◦ruʔwa	heː◦ruʔwa	intestines / bowels	intestines  /  bowels			1.7.7	9.11	0	jbl3		m,m
+132547	1644	Yakha	maːraː heːruʔwa	maːraː heːruʔwa	large intestine	large intestine			1.7.7	9.11.1	0			
+132548	1644	Yakha	miːnaː heːruʔwa	miːnaː heːruʔwa	small intestine	small intestine			9.7.2	9.11.2	0			m,m
+132549	1644	Yakha	heːmardaga ɔhɔŋ	heːmardaga ɔhɔŋ	anus / rectum	anus  /  rectum			1.4.10.2	9.12	0	jbl3		
+132550	1644	Yakha	hiː	hiː	feces / shit	feces  /  shit			1.8.5	9.12.1	0	jbl3		572
+132551	1644	Yakha	piːcaːga həwi	piːcaːga həwi	meconium / baby shit	meconium  /  baby shit			1.8.5	9.12.2	0	jbl3		
+132552	1644	Yakha	eːmaː	eːmaː	defecate	defecate (v.)	v		1.8.5.4	9.12.3	0	dwb21		
+132553	1644	Yakha	santan puːmana	santan puːmana	genitalia / pudenda (general)	genitalia  /  pudenda (general)			1.9.1	10.1	0	jbl3		m,m
+132554	1644	Yakha	wempa yaʔ◦mi	wempa yaʔ◦mi	male	male			1.9.6.1	10.3	0			m,m,1002
+132555	1644	Yakha	babugaciʔmaciʔmana	babugaciʔmaciʔmana	penis	penis				10.3.1	0			
+132556	1644	Yakha	babugaciʔmaciʔmana ga oːc	babugaciʔmaciʔmana ga oːc	glans penis	glans penis				10.3.2	0			
+132557	1644	Yakha	liː◦gouː wə◦ha◦rik	liː◦gouː wə◦ha◦rik	foreskin	foreskin				10.3.3	0			
+132558	1644	Yakha	cuk◦saʔ◦bie◦na	cuk◦saʔ◦bie◦na	scrotum	scrotum				10.3.4	0			
+132561	1644	Yakha	kasi cokmana	kasi cokmana	castrate	castrate (v.)	v		1.9.2.3	10.3.9	0	dwb21		m,m
+132562	1644	Yakha	me◦ca yaʔ◦mi	me◦ca yaʔ◦mi	female	female			1.9.3	10.4	0			1618,m,m,1002
+132563	1644	Yakha	mamugaciʔmaciʔmana	mamugaciʔmaciʔmana	vagina	vagina				10.4.1	0			
+132564	1644	Yakha	mamugaciʔmaciʔmana gə uːm	mamugaciʔmaciʔmana gə uːm	female pubic hair	female pubic hair				10.4.5	0			m,m,m
+132565	1644	Yakha	isiʔna	isiʔna	menstruate	menstruate (v.)	v		1.9.11.1	10.4.6	0	dwb21		m
+132566	1644	Yakha	hɛ◦lɛ keʔma	hɛ◦lɛ keʔma	menstruate	menstruate (v.)	v		1.9.11.1	10.4.6	0	dwb21		230,m,m
+132567	1644	Yakha	pateː◦ghar	pateː◦ghar	womb	womb				10.4.8	0			m,b
+132568	1644	Yakha	picaː yaŋ◦dɔŋ	picaː yaŋ◦dɔŋ	placenta	placenta				10.4.11	0			m,672,m
+132569	1644	Yakha	ɔ◦phɔk◦suglik	ɔ◦phɔk◦suglik	umbilical cord	umbilical cord				10.4.12	0			m,164,m
+132570	1644	Yakha	piːcaː wamana	piːcaː wamana	pregnant	pregnant	be	be	1.9.6.1	10.4.14	0			
+132571	1644	Yakha	sut◦keːri	sut◦keːri	birth, give	birth, give			1.1.2	10.4.15	0			3485,m,m
+132572	1644	Yakha	piːcaː wayamana	piːcaː wayamana	birth, give	birth, give			1.1.2	10.4.15	0			
+132573	1644	Yakha	win	win	egg (of animal)	egg (of animal)				10.4.16	0			
+132574	1644	Yakha	hoʔmana	hoʔmana	cough	cough			1.8.3.3	11.1	0			
+132575	1644	Yakha	hɛʔlupa	hɛʔlupa	hiccup	hiccup			1.8.3.5	11.2	0			
+132576	1644	Yakha	haʔcim◦ba	haʔcim◦ba	sneeze	sneeze			1.8.2.1	11.3	0			2131,s
+132577	1644	Yakha	ga◦naʔ◦waʔ◦luʔ◦maː	ga◦naʔ◦waʔ◦luʔ◦maː	snore	snore			1.8.2.2	11.4	0			m,m,m,m,s
+132578	1644	Yakha	su◦suʔ◦wa	su◦suʔ◦wa	whistle	whistle			8.5.5	11.5	0			m,m,s
+132579	1644	Yakha	dakar	dakar	burp / belch	burp  /  belch			1.8.3	11.6	0	jbl3		b
+132580	1644	Yakha	toːomana	toːomana	burp / belch	burp  /  belch			1.8.3	11.6	0	jbl3		
+132581	1644	Yakha	piːʔ◦maː	piːʔ◦maː	fart	fart			1.8.5.2	11.7	0			311,m
+132582	1644	Yakha	hommaː	hommaː	clear throat	clear throat			9.6.1.1	11.8	0			
+132583	1644	Yakha	yuːn◦cɛːm◦maː	yuːn◦cɛːm◦maː	laugh	laugh			1.8.8.1	11.9	0			m,m,s
+132584	1644	Yakha	yoːŋmaː	yoːŋmaː	tremble	tremble			6.7.3	12.1	0			
+132585	1644	Yakha	huluːkluːkyoːŋmaː	huluːkluːkyoːŋmaː	shiver	shiver			1.6.6.2.1	12.1	0			
+132586	1644	Yakha	siliklikpakɛʔma	siliklikpakɛʔma	shudder	shudder			1.6.6.2.1	12.1	0			
+132587	1644	Yakha	coːrʔleŋmaː	coːrʔleŋmaː	hurt	hurt	be	be	1.1.5.1	12.2	0			
+132588	1644	Yakha	tuʔmaː	tuʔmaː	ill	ill	be	be	1.1.5.1	12.2	0			
+132589	1644	Yakha	tɔndiʔmaː	tɔndiʔmaː	numb	numb	be	be	1.5.11	12.3	0			
+132590	1644	Yakha	puːmdiʔmaː	puːmdiʔmaː	paralyzed	paralyzed	be	be	1.5.11	12.3	0			
+132591	1644	Yakha	hom◦maː	hom◦maː	swell /  be swollen	swell  /   be swollen	v.	v.	1.1.5.2	12.4	0	jbl3		1856,s
+132592	1644	Yakha	wa◦ha	wa◦ha	pus	pus			1.8.6.1	12.5	0			m,m
+132593	1644	Yakha	suncama	suncama	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound			1.8.6.2	12.6	0	jbl3		
+132594	1644	Yakha	umiːʔwaha	umiːʔwaha	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound			1.8.6.2	12.6	0	jbl3		
+132595	1644	Yakha	muːkamliga kɛŋgetna seːŋk	muːkamliga kɛŋgetna seːŋk	base finger bone length	base finger bone length			5.11.9		0			
+132596	1644	Yakha	ulumbeʔna seːŋkwɔk	ulumbeʔna seːŋkwɔk	middle section of finger lengt	middle section of finger lengt			1.9.4		0			
+132597	1644	Yakha	ɔcɔmbeʔna seːŋkwɔk	ɔcɔmbeʔna seːŋkwɔk	tip bone of finger	tip bone of finger			9.2.1		0			
+132598	1644	Yakha	eko bita ciʔmana	eko bita ciʔmana	hand span	hand span			1.5.9.4	13.2	0			bChinese
+132599	1644	Yakha	muːk◦soːdzi ciʔmana	muːksoːdzi ciʔmana	cubit (elbow to fingers)	cubit (elbow to fingers)			1.5.9.3	13.3	0			769,m,m
+132600	1644	Yakha	hɔpɔŋgi eko	hɔpɔŋgi eko	two cupped hands held together	two cupped hands held together			9.9		0			
+132601	1644	Yakha	muːk eko	muːk eko	one cupped hand	one cupped hand			9.9		0			769,m
+132602	1644	Yakha	kiːnuː	kiːnuː	pinch (three fingers toge	pinch (n.) (three fingers toge	n		8.4		0	dwb34		
+168984	1644	Yakha	nam◦ci◦yəŋ seŋ◦kwɔːk	nam◦ci◦yəŋ seŋ◦kwɔːk	cheekbone	cheekbone			1.2.5.2	3.11.1	0		D1	825,2037,2045,2049,267
+296538	1644	Yakha	liː	liː	penis	penis				10.3.1	0			1284
+296539	1644	Yakha	liː◦goː u◦tu◦kəruk	liː◦goː u◦tu◦kəruk	glans penis	glans penis				10.3.2	0			1284,m,m,1223,m
+296540	1644	Yakha	liː◦gəuː◦wə◦ha◦rik	liː◦gəuː◦wə◦ha◦rik	foreskin	foreskin				10.3.3	0			1284,m,m,m,782
+296541	1644	Yakha	liː◦geŋ	liː◦geŋ	testicle	testicle				10.3.5	0		D1	1284,m
+296542	1644	Yakha	liː◦goː u◦muŋ	liː◦goː u◦muŋ	male pubic hair	male pubic hair				10.3.6	0		D1	1284,m,m,363
+296543	1644	Yakha	siː	siː	vagina	vagina				10.4.1	0			1349
+311389	1644	Yakha	nuː uŋmeʔ	nuː uŋmeʔ	nurse  /  suckle	nurse  /  suckle (v.)	v		4.2.1.5	5.4.6	0	dwb21		253,m

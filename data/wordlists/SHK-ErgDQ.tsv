@@ -1,160 +1,160 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-129524	558	Ergong (Danba)	hɛ zu pu	hɛ zu pu	body	body		1.1.1	1.1	0		m,4,s
-129525	558	Ergong (Danba)	hɛ zu pu ʐɛ ʐtʰɯ	hɛ zu pu ʐɛ ʐtʰɯ	side (right)	side (right)		1.4.5	1.2	0		m,4,1902,m,m
-129526	558	Ergong (Danba)	hɛ zu pu ʐɛ kua	hɛ zu pu ʐɛ kua	side (left)	side (left)		1.4.5	1.3	0		m,4,1902,2154,m
-129527	558	Ergong (Danba)	qo mȵo	qo mȵo	back	back		1.4.8	1.4	0	HIDE	DUPE IN SOURCE
-129528	558	Ergong (Danba)	rko⁵⁵ʐa⁵⁵	rko⁵⁵ʐa⁵⁵	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		5621,m
-129529	558	Ergong (Danba)	ʁɛ lɔ	ʁɛ lɔ	bosom	bosom		1.4.4.2	1.9	0		
-129530	558	Ergong (Danba)	ntʰu	ntʰu	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		38
-129531	558	Ergong (Danba)	wsɯ wsɯ	wsɯ wsɯ	alive / be living	alive  /  be living		1.1.2.1	1.12	0		80,80
-129532	558	Ergong (Danba)	sɛ	sɛ	die / be dead	die  /  be dead		1.1.6	1.13	0		27
-129533	558	Ergong (Danba)	ʐgin	ʐgin	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		128
-129534	558	Ergong (Danba)	sue	sue	awake / be awake	awake  /  be awake		1.1.4	1.17	0		150
-129535	558	Ergong (Danba)	ntsʰɛ lma	ntsʰɛ lma	dream	dream	v.	1.1.4.2	1.18	0		m,126
-129536	558	Ergong (Danba)	ʁuə	ʁuə	head	head		1.2.1	2.1	0		386
-129537	558	Ergong (Danba)	nua	nua	brain	brain		1.2.4	2.5	0		243
-129538	558	Ergong (Danba)	ʁuə ʐmi	ʁuə ʐmi	hair of head	hair of head		1.2.3	2.7	0	HIDE	DUPE IN SOURCE
-129539	558	Ergong (Danba)	qlɛ◦m |bɛ la	qlɛm bɛ la	horn (of animal)	horn (of animal)		1.2.2	2.10	0		819,m,m
-129540	558	Ergong (Danba)	ʐŋa	ʐŋa	face	face		1.2.5	3.1	0		1192
-129541	558	Ergong (Danba)	kɛ |pɛ |la	kɛ pɛ la	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		1241
-129542	558	Ergong (Danba)	mau	mau	eye	eye		1.2.6	3.4	0		681
-129543	558	Ergong (Danba)	mo ɣdzi	mo ɣdzi	pupil	pupil		1.2.6.2	3.4.2.2	0		681,m
-129544	558	Ergong (Danba)	mau pʰʂu	mau pʰʂu	white of eye	white of eye		1.2.6.3	3.4.2.3	0		682,1235
-129545	558	Ergong (Danba)	mau ʐmi	mau ʐmi	eyebrow	eyebrow		1.2.6.6	3.4.3	0		682,368
-129546	558	Ergong (Danba)	me tʰe	me tʰe	eyelash	eyelash		1.2.6.5	3.4.4	0		682,m
-129547	558	Ergong (Danba)	mau ble	mau ble	tears	tears		1.2.6.7	3.4.6	0		681,187
-129548	558	Ergong (Danba)	mau spɛ	mau spɛ	eye sand	eye sand		1.2.6.8	3.4.7	0		682,575
-129549	558	Ergong (Danba)	lmɛ mɛn	lmɛ mɛn	cry / weep	cry  /  weep	v.	1.8.8.2	3.4.8	0		
-129550	558	Ergong (Danba)	gɔ piɛ	gɔ piɛ	see / look	see  /  look	v.	1.2.6.10	3.4.9	0		m,m,m,m
-129551	558	Ergong (Danba)	lu va	lu va	blind	blind		1.2.6.14.2	3.4.10	0		m,m
-129552	558	Ergong (Danba)	sni	sni	nose	nose		1.2.8	3.5	0		803
-129553	558	Ergong (Danba)	snau	snau	liquid mucus	liquid mucus		3.2.3	3.5.6	0		805
-129554	558	Ergong (Danba)	snau qʰe	snau qʰe	solid mucus	solid mucus		1.1.5	3.5.7	0		805,m
-129555	558	Ergong (Danba)	snɯ no	snɯ no	smell / sniff	smell  /  sniff	v.	1.2.8.5	3.5.9	0		803,1415
-129556	558	Ergong (Danba)	ȵaŋ	ȵaŋ	ear	ear		1.2.7	3.6	0		1410
-129557	558	Ergong (Danba)	ȵɔ mpʰɯ	ȵɔ mpʰɯ	earwax	earwax		1.2.7.3	3.6.6	0		811,815
-129558	558	Ergong (Danba)	wu sŋi	wu sŋi	hear	hear	v.	1.2.7.4	3.6.7	0		m,1410
-129559	558	Ergong (Danba)	ndʑɛ kɛu	ndʑɛ kɛu	deaf	deaf		1.2.7.5	3.6.8	0		
-129560	558	Ergong (Danba)	ɦa mo	ɦa mo	mouth	mouth		1.3.1	3.7	0		m,687
-129561	558	Ergong (Danba)	ɕɯ◦zkʰa	ɕɯ◦zkʰa	gums	gums		1.3.4.3	3.7.3	0		632,636
-129562	558	Ergong (Danba)	ʐqua vʑɛ ze	ʐqua vʑɛ ze	uvula	uvula		1.3.5.1	3.7.4	0		
-129563	558	Ergong (Danba)	mdʑɯ	mdʑɯ	saliva	saliva		1.8.3	3.7.5	0		
-129564	558	Ergong (Danba)	ɣu ŋgi	ɣu ŋgi	eat	eat	v.	1.5.3.2	3.7.6	0		
-129565	558	Ergong (Danba)	wtʰi	wtʰi	drink	drink	v.		3.7.7	0		502
-129566	558	Ergong (Danba)	spʰɔŋ	spʰɔŋ	thirsty	thirsty	be	1.1.3.1	3.7.8	0		1826
-129567	558	Ergong (Danba)	wjɔŋ	wjɔŋ	hungry	hungry	be	1.1.3	3.7.9	0		3550
-129568	558	Ergong (Danba)	vkʰiɔŋ	vkʰiɔŋ	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		135
-129569	558	Ergong (Danba)	nɛ pʰɛ	nɛ pʰɛ	spit	spit	v.	1.8.3	3.7.11	0		m,607
-129570	558	Ergong (Danba)	ŋkʰɛʴ	ŋkʰɛʴ	vomit	vomit	n.	1.8.3.2	3.7.12	0		1751
-129571	558	Ergong (Danba)	ndʑɔ tɕɯ	ndʑɔ tɕɯ	hold in mouth	hold in mouth	v.	1.3.4.4	3.7.14	0		
-129572	558	Ergong (Danba)	ʐɿʴ zʁɛn	ʐɿʴ zʁɛn	gape / open mouth	gape  /  open mouth	v.	1.3.1	3.7.15	0		
-129573	558	Ergong (Danba)	zʁo	zʁo	yawn	yawn	v.	1.3.1.3	3.7.16	0		
-129574	558	Ergong (Danba)	vʑɛ	vʑɛ	tongue	tongue		1.3.3	3.8	0		621
-129575	558	Ergong (Danba)	vɕɛ	vɕɛ	speak	speak	v.	8.5.10.1	3.8.1	0		1755
-129576	558	Ergong (Danba)	lʁuə	lʁuə	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		
-129577	558	Ergong (Danba)	ȵɣia la	ȵɣia la	lick	lick	v.	1.3.3.1	3.8.4	0		629,m
-129578	558	Ergong (Danba)	ha məʴ	ha məʴ	lip	lip		1.3.2	3.9	0		m,467
-129579	558	Ergong (Danba)	qʰɛn	qʰɛn	smile	smile	v.	1.8.8.1	3.9.4	0		1116
-129580	558	Ergong (Danba)	bo pa	bo pa	kiss	kiss	v.	1.3.2.2	3.9.5	0		3450,m
-129581	558	Ergong (Danba)	ɕɯ	ɕɯ	tooth	tooth		1.3.4	3.10	0		632
-129582	558	Ergong (Danba)	ʐɛ◦jo ɕɯ◦mɛ	ʐɛ◦jo ɕɯ◦mɛ	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		m,m,632,s
-129583	558	Ergong (Danba)	ɕɯ gue	ɕɯ gue	molar	molar		1.3.4.2	3.10.2	0		632,630
-129584	558	Ergong (Danba)	ʐtɕɛ	ʐtɕɛ	bite	bite	v.	1.3.4.4	3.10.7	0		
-129585	558	Ergong (Danba)	ŋka ka	ŋka ka	chew	chew	v.	1.3.4	3.10.8	0		
-129586	558	Ergong (Danba)	ʐqua	ʐqua	neck	neck		1.4.2	4.1	0		389
-129587	558	Ergong (Danba)	ʐqua mtɕʰɯ	ʐqua mtɕʰɯ	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		389,3363
-129588	558	Ergong (Danba)	sqʰlɛ	sqʰlɛ	swallow	swallow	v.	1.3.5.6	4.2.3	0		3371
-129589	558	Ergong (Danba)	ʁɛ lɔ	ʁɛ lɔ	chest	chest		1.4.4.3	5.1	0		288,m
-129590	558	Ergong (Danba)	no pʰʐau	no pʰʐau	rib	rib		1.4.4.3	5.1.2	0		553,558
-129591	558	Ergong (Danba)	lvɛ	lvɛ	shoulder	shoulder		1.4.3	5.3	0	D0	3350
-129592	558	Ergong (Danba)	nu nu	nu nu	breast	breast		1.4.4.3	5.4	0		253,253
-129593	558	Ergong (Danba)	ɕʰɯ	ɕʰɯ	milk	milk			5.4.3	0		5541
-129594	558	Ergong (Danba)	wɯ mtsɯ mtsi	wɯ mtsɯ mtsi	suck	suck	v.	1.3.2.1	5.4.5	0		m,5541,5541
-129595	558	Ergong (Danba)	ʐquɛ sɯ	ʐquɛ sɯ	nurse / suckle	nurse  /  suckle	v.	4.2.1.5	5.4.6	0		
-129596	558	Ergong (Danba)	qo mȵo	qo mȵo	back	back		1.4.8	5.5	0	D1	211,203
-129597	558	Ergong (Danba)	dʑau	dʑau	waist	waist		1.4.6	5.6	0		215
-129598	558	Ergong (Danba)	vɛu	vɛu	belly / abdomen	belly  /  abdomen		1.4.7	5.7	0		137
-129599	558	Ergong (Danba)	wɯ tɕʰi	wɯ tɕʰi	navel	navel		1.9.4	5.7.1	0		2102,525
-129600	558	Ergong (Danba)	ɦɛ tʰɯ	ɦɛ tʰɯ	haunches	haunches		1.4.9.2	5.8.3	0		m,225
-129601	558	Ergong (Danba)	ɦɛ tʰɯ	ɦɛ tʰɯ	buttocks	buttocks		1.4.10	5.10.1	0		m,225
-129602	558	Ergong (Danba)	ʐɳɛ ma	ʐɳɛ ma	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		205,s
-129603	558	Ergong (Danba)	ʑa kʂɯ	ʑa kʂɯ	arm	arm		1.5.1.2	6.1	0		735,731
-129604	558	Ergong (Danba)	mtɕʰɛ kʰuə və	mtɕʰɛ kʰuə və	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
-129605	558	Ergong (Danba)	ʐ◦kiau	ʐkiau	elbow	elbow		1.5.8.3	6.1.4	0		696,307
-129606	558	Ergong (Danba)	ʑa	ʑa	hand	hand		1.5.1.1	6.1.7	0		696
-129607	558	Ergong (Danba)	ʑɛ ɦo tɕil	ʑɛ ɦo tɕil	palm	palm		1.5.5	6.1.7.1	0		
-129608	558	Ergong (Danba)	ʐgu lu	ʐgu lu	fist	fist		1.5.1.1.1	6.1.7.3	0		712,m
-129609	558	Ergong (Danba)	ʑa ʑɛ ʐtʰɯ	ʑa ʑɛ ʐtʰɯ	right hand	right hand		1.5.3.2	6.1.7.4	0		696,2154,m
-129610	558	Ergong (Danba)	ʑa ʑɛ kua	ʑa ʑɛ kua	left hand	left hand		1.5.3.2	6.1.7.5	0		696,2154,m
-129611	558	Ergong (Danba)	v◦dzo	v◦dzo	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		p,731
-129612	558	Ergong (Danba)	ʐko	ʐko	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		5621
-129613	558	Ergong (Danba)	blɛ	blɛ	leg	leg		1.5.7	6.2	0		
-129614	558	Ergong (Danba)	blɛ	blɛ	thigh	thigh		1.5.7.1	6.2.1	0		
-129615	558	Ergong (Danba)	rŋɛ mau	rŋɛ mau	knee	knee		1.5.8.4	6.2.2	0		
-129616	558	Ergong (Danba)	blɛ qʰo	blɛ qʰo	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		
-129617	558	Ergong (Danba)	dʑi dʑa	dʑi dʑa	shin	shin		1.5.7.2	6.2.3	0		x?
-129618	558	Ergong (Danba)	wdɯ lʁe	wdɯ lʁe	calf	calf		1.5.7	6.2.4	0		
-129619	558	Ergong (Danba)	ʐko	ʐko	foot	foot		1.5.2	6.2.6	0		5621
-129620	558	Ergong (Danba)	mɛ ȵo	mɛ ȵo	heel	heel		1.5.2.1	6.2.6.1	0		
-129621	558	Ergong (Danba)	mɛ rba	mɛ rba	sole	sole		1.5.5	6.2.6.5	0		
-129622	558	Ergong (Danba)	mɛ ʐɛ	mɛ ʐɛ	footprint	footprint		1.5.2.5	6.2.6.7	0		
-129623	558	Ergong (Danba)	ʐko	ʐko	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		417
-129624	558	Ergong (Danba)	ʐkiɔŋ ʐʁo	ʐkiɔŋ ʐʁo	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-129625	558	Ergong (Danba)	dɛ ʐʁo si	dɛ ʐʁo si	limp	limp	v.	1.5.12	6.2.8	0		
-129626	558	Ergong (Danba)	ʑɛ mɛ	ʑɛ mɛ	thumb	thumb		1.5.6.1	7.1.5	0		m,1619
-129627	558	Ergong (Danba)	ldzɯ	ldzɯ	nail	nail		1.5.10	7.4	0		
-129628	558	Ergong (Danba)	ndø	ndø	pincers	pincers		1.5.10.4	7.4.5	0		
-129629	558	Ergong (Danba)	ʁuə ʐmi	ʁuə ʐmi	hair of head	hair of head		1.2.3	8.1.1	0	D1	386,368
-129630	558	Ergong (Danba)	ɦɛ ma ʐmi	ɦɛ ma ʐmi	beard	beard		1.2.5.5	8.1.2.1	0		m,1114,368
-129631	558	Ergong (Danba)	wmə rɣia	wmə rɣia	feather	feather		1.6.1.1	8.1.5	0		363,m
-129632	558	Ergong (Danba)	wmə ʐʑia	wmə ʐʑia	mane	mane		1.6.1	8.1.6	0		m,m
-129633	558	Ergong (Danba)	dʑi dʑa	dʑi dʑa	skin	skin		1.6.5	8.2	0		596,448
-129634	558	Ergong (Danba)	wɕi	wɕi	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		615
-129635	558	Ergong (Danba)	me	me	mole	mole		2.2.7	8.2.3.3	0		2447
-129636	558	Ergong (Danba)	vo	vo	cyst	cyst		1.6.5.3	8.2.3.5	0		
-129637	558	Ergong (Danba)	wmɛ stʰi	wmɛ stʰi	scar	scar		1.6.5.3	8.2.3.7	0		
-129638	558	Ergong (Danba)	jɯ ʐɛ	jɯ ʐɛ	itch / be itchy	itch  /  be itchy	v.	1.6.5.5	8.2.3.10	0		56,1456
-129639	558	Ergong (Danba)	wmɛ stʰi	wmɛ stʰi	scab	scab		1.6.5.3	8.2.4	0		
-129640	558	Ergong (Danba)	ʐgo dʑɛ	ʐgo dʑɛ	hide / leather	hide  /  leather		1.6.5.1	8.2.6	0		m,m
-129641	558	Ergong (Danba)	snəm	snəm	fat	fat		1.6.4	8.3	0		1443
-129642	558	Ergong (Danba)	tɕʰi |ʐi	tɕʰi ʐi	bone	bone		1.6.3	8.4	0		234
-129643	558	Ergong (Danba)	ʐtsa	ʐtsa	sinew / tendon	sinew  /  tendon		1.6.6.1	8.5	0		530
-129644	558	Ergong (Danba)	sʰe	sʰe	blood	blood		1.6.2	8.7	0		230
-129645	558	Ergong (Danba)	ndɛ ʐɛ	ndɛ ʐɛ	bleed	bleed	v.	1.6.2	8.7.2	0		m,230
-129646	558	Ergong (Danba)	n◦tʰu	n◦tʰu	muscle	muscle		1.6.6.2	8.8	0		p,538
-129647	558	Ergong (Danba)	ʐvɛ ɕɯu	ʐvɛ ɕɯu	joint	joint		1.5.8	8.9	0		
-129649	558	Ergong (Danba)	ʐtsʰe	ʐtsʰe	lung	lung		1.7.2	9.2	0		458
-129650	558	Ergong (Danba)	wɕe zʁai	wɕe zʁai	pant	pant	v.	1.1.2.2	9.2.2	0		
-129651	558	Ergong (Danba)	gɯ |wmɯ	gɯ wmɯ	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		503
-129652	558	Ergong (Danba)	sqʰaʴ	sqʰaʴ	phlegm	phlegm		1.8.3	9.2.5	0		540
-129653	558	Ergong (Danba)	zɣiaʴ	zɣiaʴ	heart	heart		1.7.1	9.3	0		1387
-129654	558	Ergong (Danba)	sʰe	sʰe	liver	liver		1.7.3	9.5	0		1390
-129655	558	Ergong (Danba)	skʂɯ	skʂɯ	gall bladder	gall bladder		1.7.3	9.5.2	0		227
-129656	558	Ergong (Danba)	dʐau	dʐau	kidney	kidney		1.7.5	9.6	0		b
-129657	558	Ergong (Danba)	wsi	wsi	urinary bladder	urinary bladder		1.7.8	9.7	0		
-129658	558	Ergong (Danba)	lbi	lbi	urine	urine		1.8.4	9.7.1	0		1102
-129659	558	Ergong (Danba)	se qʰo	se qʰo	stomach	stomach		1.7.6	9.10	0		p,2102
-129660	558	Ergong (Danba)	ɦŋua	ɦŋua	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		
-129661	558	Ergong (Danba)	ɦɛ su	ɦɛ su	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		
-129662	558	Ergong (Danba)	ʐtɕɔ ɕɯ	ʐtɕɔ ɕɯ	feces / shit	feces  /  shit		1.8.5	9.12.1	0		577,m
-129663	558	Ergong (Danba)	vʐa	vʐa	castrate	castrate	v.	1.9.2.3	10.3.9	0		m,m
-129664	558	Ergong (Danba)	lŋɑ ntɕʰo ʐɛ	lŋɑ ntɕʰo ʐɛ	pregnant	pregnant	be	1.9.6.1	10.4.14	0		
-129665	558	Ergong (Danba)	ȵʑɛ	ȵʑɛ	birth, give	birth, give		1.1.2	10.4.15	0		95
-129666	558	Ergong (Danba)	ʐa stu	ʐa stu	egg (of animal)	egg (of animal)			10.4.16	0		m,1609
-129667	558	Ergong (Danba)	gɛ ʐtsʰɯ	gɛ ʐtsʰɯ	cough	cough		1.8.3.3	11.1	0		
-129668	558	Ergong (Danba)	bɯ qɯ ʐa	bɯ qɯ ʐa	hiccup	hiccup		1.8.3.5	11.2	0		
-129669	558	Ergong (Danba)	ɛ |tʰiau	ɛ tʰiau	sneeze	sneeze		1.8.2.1	11.3	0		2131
-129670	558	Ergong (Danba)	gɯ wmɯ	gɯ wmɯ	whistle	whistle		8.5.5	11.5	0		m,m
-129671	558	Ergong (Danba)	bɯ qɯ ʐa	bɯ qɯ ʐa	burp / belch	burp  /  belch		1.8.3	11.6	0		
-129672	558	Ergong (Danba)	qʰɛn	qʰɛn	laugh	laugh		1.8.8.1	11.9	0		1116
-129673	558	Ergong (Danba)	ŋkʂɛ	ŋkʂɛ	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
-129674	558	Ergong (Danba)	ŋo(sick)	ŋo(sick)	sick / be ill / hurt	sick  /  be ill  /  hurt	be	1.1.5.1	12.2	0		e
-129675	558	Ergong (Danba)	vo	vo	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
-129676	558	Ergong (Danba)	spɛ	spɛ	pus	pus		1.8.6.1	12.5	0		1295
-129677	558	Ergong (Danba)	tɕɯ	tɕɯ	cubit	cubit		1.5.9.3	13.3	0		
-129678	558	Ergong (Danba)	gʐɛl	gʐɛl	cord / fathom	cord  /  fathom		1.5.9.5	13.4	0		
-129679	558	Ergong (Danba)	vɛ	vɛ	male	male		1.9.6.1	10.3	0		5484
-129680	558	Ergong (Danba)	mɛ	mɛ	female	female		1.9.3	10.4	0		1618
-168681	558	Ergong (Danba)	dɛ vdo	dɛ vdo	see / look	see  /  look	v.	1.2.6.10	3.4.9	0		
-168682	558	Ergong (Danba)	dɛ ʑa si	dɛ ʑa si	limp	limp	v.	1.5.12	6.2.8	0		
-168683	558	Ergong (Danba)	vtɕe	vtɕe	castrate	castrate	v.	1.9.2.3	10.3.9	0		m,m
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+129524	558	Ergong (Danba)	hɛ zu pu	hɛ zu pu	body	body			1.1.1	1.1	0			m,4,s
+129525	558	Ergong (Danba)	hɛ zu pu ʐɛ ʐtʰɯ	hɛ zu pu ʐɛ ʐtʰɯ	side (right)	side (right)			1.4.5	1.2	0			m,4,1902,m,m
+129526	558	Ergong (Danba)	hɛ zu pu ʐɛ kua	hɛ zu pu ʐɛ kua	side (left)	side (left)			1.4.5	1.3	0			m,4,1902,2154,m
+129527	558	Ergong (Danba)	qo mȵo	qo mȵo	back	back			1.4.8	1.4	0	jbl5	HIDE	DUPE IN SOURCE
+129528	558	Ergong (Danba)	rko⁵⁵ʐa⁵⁵	rko⁵⁵ʐa⁵⁵	limbs / arms and legs	limbs  /  arms and legs			1.5.3.1	1.7	0	jbl3		5621,m
+129529	558	Ergong (Danba)	ʁɛ lɔ	ʁɛ lɔ	bosom	bosom			1.4.4.2	1.9	0			
+129530	558	Ergong (Danba)	ntʰu	ntʰu	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		38
+129531	558	Ergong (Danba)	wsɯ wsɯ	wsɯ wsɯ	alive / be living	alive  /  be living			1.1.2.1	1.12	0	jbl3		80,80
+129532	558	Ergong (Danba)	sɛ	sɛ	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		27
+129533	558	Ergong (Danba)	ʐgin	ʐgin	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		128
+129534	558	Ergong (Danba)	sue	sue	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		150
+129535	558	Ergong (Danba)	ntsʰɛ lma	ntsʰɛ lma	dream	dream	v.	v.	1.1.4.2	1.18	0			m,126
+129536	558	Ergong (Danba)	ʁuə	ʁuə	head	head			1.2.1	2.1	0			386
+129537	558	Ergong (Danba)	nua	nua	brain	brain			1.2.4	2.5	0			243
+129538	558	Ergong (Danba)	ʁuə ʐmi	ʁuə ʐmi	hair of head	hair of head			1.2.3	2.7	0	jbl5	HIDE	DUPE IN SOURCE
+129539	558	Ergong (Danba)	qlɛ◦m |bɛ la	qlɛm bɛ la	horn (of animal)	horn (of animal)			1.2.2	2.10	0			819,m,m
+129540	558	Ergong (Danba)	ʐŋa	ʐŋa	face	face			1.2.5	3.1	0			1192
+129541	558	Ergong (Danba)	kɛ |pɛ |la	kɛ pɛ la	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		1241
+129542	558	Ergong (Danba)	mau	mau	eye	eye			1.2.6	3.4	0			681
+129543	558	Ergong (Danba)	mo ɣdzi	mo ɣdzi	pupil	pupil			1.2.6.2	3.4.2.2	0			681,m
+129544	558	Ergong (Danba)	mau pʰʂu	mau pʰʂu	white of eye	white of eye			1.2.6.3	3.4.2.3	0			682,1235
+129545	558	Ergong (Danba)	mau ʐmi	mau ʐmi	eyebrow	eyebrow			1.2.6.6	3.4.3	0			682,368
+129546	558	Ergong (Danba)	me tʰe	me tʰe	eyelash	eyelash			1.2.6.5	3.4.4	0			682,m
+129547	558	Ergong (Danba)	mau ble	mau ble	tears	tears			1.2.6.7	3.4.6	0			681,187
+129548	558	Ergong (Danba)	mau spɛ	mau spɛ	eye sand	eye sand			1.2.6.8	3.4.7	0			682,575
+129549	558	Ergong (Danba)	lmɛ mɛn	lmɛ mɛn	cry / weep	cry  /  weep	v.	v.	1.8.8.2	3.4.8	0	jbl3		
+129550	558	Ergong (Danba)	gɔ piɛ	gɔ piɛ	see / look	see  /  look	v.	v.	1.2.6.10	3.4.9	0	jbl3		m,m,m,m
+129551	558	Ergong (Danba)	lu va	lu va	blind	blind			1.2.6.14.2	3.4.10	0			m,m
+129552	558	Ergong (Danba)	sni	sni	nose	nose			1.2.8	3.5	0			803
+129553	558	Ergong (Danba)	snau	snau	liquid mucus	liquid mucus			3.2.3	3.5.6	0			805
+129554	558	Ergong (Danba)	snau qʰe	snau qʰe	solid mucus	solid mucus			1.1.5	3.5.7	0			805,m
+129555	558	Ergong (Danba)	snɯ no	snɯ no	smell / sniff	smell  /  sniff	v.	v.	1.2.8.5	3.5.9	0	jbl3		803,1415
+129556	558	Ergong (Danba)	ȵaŋ	ȵaŋ	ear	ear			1.2.7	3.6	0			1410
+129557	558	Ergong (Danba)	ȵɔ mpʰɯ	ȵɔ mpʰɯ	earwax	earwax			1.2.7.3	3.6.6	0			811,815
+129558	558	Ergong (Danba)	wu sŋi	wu sŋi	hear	hear	v.	v.	1.2.7.4	3.6.7	0			m,1410
+129559	558	Ergong (Danba)	ndʑɛ kɛu	ndʑɛ kɛu	deaf	deaf			1.2.7.5	3.6.8	0			
+129560	558	Ergong (Danba)	ɦa mo	ɦa mo	mouth	mouth			1.3.1	3.7	0			m,687
+129561	558	Ergong (Danba)	ɕɯ◦zkʰa	ɕɯ◦zkʰa	gums	gums			1.3.4.3	3.7.3	0			632,636
+129562	558	Ergong (Danba)	ʐqua vʑɛ ze	ʐqua vʑɛ ze	uvula	uvula			1.3.5.1	3.7.4	0			
+129563	558	Ergong (Danba)	mdʑɯ	mdʑɯ	saliva	saliva			1.8.3	3.7.5	0			
+129564	558	Ergong (Danba)	ɣu ŋgi	ɣu ŋgi	eat	eat	v.	v.	1.5.3.2	3.7.6	0			
+129565	558	Ergong (Danba)	wtʰi	wtʰi	drink	drink	v.	v.		3.7.7	0			502
+129566	558	Ergong (Danba)	spʰɔŋ	spʰɔŋ	thirsty	thirsty	be	be	1.1.3.1	3.7.8	0			1826
+129567	558	Ergong (Danba)	wjɔŋ	wjɔŋ	hungry	hungry	be	be	1.1.3	3.7.9	0			3550
+129568	558	Ergong (Danba)	vkʰiɔŋ	vkʰiɔŋ	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		135
+129569	558	Ergong (Danba)	nɛ pʰɛ	nɛ pʰɛ	spit	spit	v.	v.	1.8.3	3.7.11	0			m,607
+129570	558	Ergong (Danba)	ŋkʰɛʴ	ŋkʰɛʴ	vomit	vomit	n.	n.	1.8.3.2	3.7.12	0			1751
+129571	558	Ergong (Danba)	ndʑɔ tɕɯ	ndʑɔ tɕɯ	hold in mouth	hold in mouth	v.	v.	1.3.4.4	3.7.14	0			
+129572	558	Ergong (Danba)	ʐɿʴ zʁɛn	ʐɿʴ zʁɛn	gape / open mouth	gape  /  open mouth	v.	v.	1.3.1	3.7.15	0	jbl3		
+129573	558	Ergong (Danba)	zʁo	zʁo	yawn	yawn	v.	v.	1.3.1.3	3.7.16	0			
+129574	558	Ergong (Danba)	vʑɛ	vʑɛ	tongue	tongue			1.3.3	3.8	0			621
+129575	558	Ergong (Danba)	vɕɛ	vɕɛ	speak	speak	v.	v.	8.5.10.1	3.8.1	0			1755
+129576	558	Ergong (Danba)	lʁuə	lʁuə	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		
+129577	558	Ergong (Danba)	ȵɣia la	ȵɣia la	lick	lick	v.	v.	1.3.3.1	3.8.4	0			629,m
+129578	558	Ergong (Danba)	ha məʴ	ha məʴ	lip	lip			1.3.2	3.9	0			m,467
+129579	558	Ergong (Danba)	qʰɛn	qʰɛn	smile	smile	v.	v.	1.8.8.1	3.9.4	0			1116
+129580	558	Ergong (Danba)	bo pa	bo pa	kiss	kiss	v.	v.	1.3.2.2	3.9.5	0			3450,m
+129581	558	Ergong (Danba)	ɕɯ	ɕɯ	tooth	tooth			1.3.4	3.10	0			632
+129582	558	Ergong (Danba)	ʐɛ◦jo ɕɯ◦mɛ	ʐɛ◦jo ɕɯ◦mɛ	tooth (incisor)	tooth (incisor)			1.3.4	3.10.1	0			m,m,632,s
+129583	558	Ergong (Danba)	ɕɯ gue	ɕɯ gue	molar	molar			1.3.4.2	3.10.2	0			632,630
+129584	558	Ergong (Danba)	ʐtɕɛ	ʐtɕɛ	bite	bite	v.	v.	1.3.4.4	3.10.7	0			
+129585	558	Ergong (Danba)	ŋka ka	ŋka ka	chew	chew	v.	v.	1.3.4	3.10.8	0			
+129586	558	Ergong (Danba)	ʐqua	ʐqua	neck	neck			1.4.2	4.1	0			389
+129587	558	Ergong (Danba)	ʐqua mtɕʰɯ	ʐqua mtɕʰɯ	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		389,3363
+129588	558	Ergong (Danba)	sqʰlɛ	sqʰlɛ	swallow	swallow	v.	v.	1.3.5.6	4.2.3	0			3371
+129589	558	Ergong (Danba)	ʁɛ lɔ	ʁɛ lɔ	chest	chest			1.4.4.3	5.1	0			288,m
+129590	558	Ergong (Danba)	no pʰʐau	no pʰʐau	rib	rib			1.4.4.3	5.1.2	0			553,558
+129591	558	Ergong (Danba)	lvɛ	lvɛ	shoulder	shoulder			1.4.3	5.3	0		D0	3350
+129592	558	Ergong (Danba)	nu nu	nu nu	breast	breast			1.4.4.3	5.4	0			253,253
+129593	558	Ergong (Danba)	ɕʰɯ	ɕʰɯ	milk	milk				5.4.3	0			5541
+129594	558	Ergong (Danba)	wɯ mtsɯ mtsi	wɯ mtsɯ mtsi	suck	suck	v.	v.	1.3.2.1	5.4.5	0			m,5541,5541
+129595	558	Ergong (Danba)	ʐquɛ sɯ	ʐquɛ sɯ	nurse / suckle	nurse  /  suckle	v.	v.	4.2.1.5	5.4.6	0	jbl3		
+129596	558	Ergong (Danba)	qo mȵo	qo mȵo	back	back			1.4.8	5.5	0		D1	211,203
+129597	558	Ergong (Danba)	dʑau	dʑau	waist	waist			1.4.6	5.6	0			215
+129598	558	Ergong (Danba)	vɛu	vɛu	belly / abdomen	belly  /  abdomen			1.4.7	5.7	0	jbl3		137
+129599	558	Ergong (Danba)	wɯ tɕʰi	wɯ tɕʰi	navel	navel			1.9.4	5.7.1	0			2102,525
+129600	558	Ergong (Danba)	ɦɛ tʰɯ	ɦɛ tʰɯ	haunches	haunches			1.4.9.2	5.8.3	0			m,225
+129601	558	Ergong (Danba)	ɦɛ tʰɯ	ɦɛ tʰɯ	buttocks	buttocks			1.4.10	5.10.1	0			m,225
+129602	558	Ergong (Danba)	ʐɳɛ ma	ʐɳɛ ma	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			205,s
+129603	558	Ergong (Danba)	ʑa kʂɯ	ʑa kʂɯ	arm	arm			1.5.1.2	6.1	0			735,731
+129604	558	Ergong (Danba)	mtɕʰɛ kʰuə və	mtɕʰɛ kʰuə və	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		
+129605	558	Ergong (Danba)	ʐ◦kiau	ʐkiau	elbow	elbow			1.5.8.3	6.1.4	0			696,307
+129606	558	Ergong (Danba)	ʑa	ʑa	hand	hand			1.5.1.1	6.1.7	0			696
+129607	558	Ergong (Danba)	ʑɛ ɦo tɕil	ʑɛ ɦo tɕil	palm	palm			1.5.5	6.1.7.1	0			
+129608	558	Ergong (Danba)	ʐgu lu	ʐgu lu	fist	fist			1.5.1.1.1	6.1.7.3	0			712,m
+129609	558	Ergong (Danba)	ʑa ʑɛ ʐtʰɯ	ʑa ʑɛ ʐtʰɯ	right hand	right hand			1.5.3.2	6.1.7.4	0			696,2154,m
+129610	558	Ergong (Danba)	ʑa ʑɛ kua	ʑa ʑɛ kua	left hand	left hand			1.5.3.2	6.1.7.5	0			696,2154,m
+129611	558	Ergong (Danba)	v◦dzo	v◦dzo	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			p,731
+129612	558	Ergong (Danba)	ʐko	ʐko	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			5621
+129613	558	Ergong (Danba)	blɛ	blɛ	leg	leg			1.5.7	6.2	0			
+129614	558	Ergong (Danba)	blɛ	blɛ	thigh	thigh			1.5.7.1	6.2.1	0			
+129615	558	Ergong (Danba)	rŋɛ mau	rŋɛ mau	knee	knee			1.5.8.4	6.2.2	0			
+129616	558	Ergong (Danba)	blɛ qʰo	blɛ qʰo	knee cap / patella	knee cap  /  patella			1.5.8.4	6.2.2.1	0	jbl3		
+129617	558	Ergong (Danba)	dʑi dʑa	dʑi dʑa	shin	shin			1.5.7.2	6.2.3	0			x?
+129618	558	Ergong (Danba)	wdɯ lʁe	wdɯ lʁe	calf	calf			1.5.7	6.2.4	0			
+129619	558	Ergong (Danba)	ʐko	ʐko	foot	foot			1.5.2	6.2.6	0			5621
+129620	558	Ergong (Danba)	mɛ ȵo	mɛ ȵo	heel	heel			1.5.2.1	6.2.6.1	0			
+129621	558	Ergong (Danba)	mɛ rba	mɛ rba	sole	sole			1.5.5	6.2.6.5	0			
+129622	558	Ergong (Danba)	mɛ ʐɛ	mɛ ʐɛ	footprint	footprint			1.5.2.5	6.2.6.7	0			
+129623	558	Ergong (Danba)	ʐko	ʐko	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			417
+129624	558	Ergong (Danba)	ʐkiɔŋ ʐʁo	ʐkiɔŋ ʐʁo	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+129625	558	Ergong (Danba)	dɛ ʐʁo si	dɛ ʐʁo si	limp	limp	v.	v.	1.5.12	6.2.8	0			
+129626	558	Ergong (Danba)	ʑɛ mɛ	ʑɛ mɛ	thumb	thumb			1.5.6.1	7.1.5	0			m,1619
+129627	558	Ergong (Danba)	ldzɯ	ldzɯ	nail	nail			1.5.10	7.4	0			
+129628	558	Ergong (Danba)	ndø	ndø	pincers	pincers			1.5.10.4	7.4.5	0			
+129629	558	Ergong (Danba)	ʁuə ʐmi	ʁuə ʐmi	hair of head	hair of head			1.2.3	8.1.1	0		D1	386,368
+129630	558	Ergong (Danba)	ɦɛ ma ʐmi	ɦɛ ma ʐmi	beard	beard			1.2.5.5	8.1.2.1	0			m,1114,368
+129631	558	Ergong (Danba)	wmə rɣia	wmə rɣia	feather	feather			1.6.1.1	8.1.5	0			363,m
+129632	558	Ergong (Danba)	wmə ʐʑia	wmə ʐʑia	mane	mane			1.6.1	8.1.6	0			m,m
+129633	558	Ergong (Danba)	dʑi dʑa	dʑi dʑa	skin	skin			1.6.5	8.2	0			596,448
+129634	558	Ergong (Danba)	wɕi	wɕi	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		615
+129635	558	Ergong (Danba)	me	me	mole	mole			2.2.7	8.2.3.3	0			2447
+129636	558	Ergong (Danba)	vo	vo	cyst	cyst			1.6.5.3	8.2.3.5	0			
+129637	558	Ergong (Danba)	wmɛ stʰi	wmɛ stʰi	scar	scar			1.6.5.3	8.2.3.7	0			
+129638	558	Ergong (Danba)	jɯ ʐɛ	jɯ ʐɛ	itch / be itchy	itch  /  be itchy	v.	v.	1.6.5.5	8.2.3.10	0	jbl3		56,1456
+129639	558	Ergong (Danba)	wmɛ stʰi	wmɛ stʰi	scab	scab			1.6.5.3	8.2.4	0			
+129640	558	Ergong (Danba)	ʐgo dʑɛ	ʐgo dʑɛ	hide / leather	hide  /  leather			1.6.5.1	8.2.6	0	jbl3		m,m
+129641	558	Ergong (Danba)	snəm	snəm	fat	fat			1.6.4	8.3	0			1443
+129642	558	Ergong (Danba)	tɕʰi |ʐi	tɕʰi ʐi	bone	bone			1.6.3	8.4	0			234
+129643	558	Ergong (Danba)	ʐtsa	ʐtsa	sinew / tendon	sinew  /  tendon			1.6.6.1	8.5	0	jbl3		530
+129644	558	Ergong (Danba)	sʰe	sʰe	blood	blood			1.6.2	8.7	0			230
+129645	558	Ergong (Danba)	ndɛ ʐɛ	ndɛ ʐɛ	bleed	bleed	v.	v.	1.6.2	8.7.2	0			m,230
+129646	558	Ergong (Danba)	n◦tʰu	n◦tʰu	muscle	muscle			1.6.6.2	8.8	0			p,538
+129647	558	Ergong (Danba)	ʐvɛ ɕɯu	ʐvɛ ɕɯu	joint	joint			1.5.8	8.9	0			
+129649	558	Ergong (Danba)	ʐtsʰe	ʐtsʰe	lung	lung			1.7.2	9.2	0			458
+129650	558	Ergong (Danba)	wɕe zʁai	wɕe zʁai	pant	pant	v.	v.	1.1.2.2	9.2.2	0			
+129651	558	Ergong (Danba)	gɯ |wmɯ	gɯ wmɯ	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			503
+129652	558	Ergong (Danba)	sqʰaʴ	sqʰaʴ	phlegm	phlegm			1.8.3	9.2.5	0			540
+129653	558	Ergong (Danba)	zɣiaʴ	zɣiaʴ	heart	heart			1.7.1	9.3	0			1387
+129654	558	Ergong (Danba)	sʰe	sʰe	liver	liver			1.7.3	9.5	0			1390
+129655	558	Ergong (Danba)	skʂɯ	skʂɯ	gall bladder	gall bladder			1.7.3	9.5.2	0			227
+129656	558	Ergong (Danba)	dʐau	dʐau	kidney	kidney			1.7.5	9.6	0			b
+129657	558	Ergong (Danba)	wsi	wsi	urinary bladder	urinary bladder			1.7.8	9.7	0			
+129658	558	Ergong (Danba)	lbi	lbi	urine	urine			1.8.4	9.7.1	0			1102
+129659	558	Ergong (Danba)	se qʰo	se qʰo	stomach	stomach			1.7.6	9.10	0			p,2102
+129660	558	Ergong (Danba)	ɦŋua	ɦŋua	intestines / bowels	intestines  /  bowels			1.7.7	9.11	0	jbl3		
+129661	558	Ergong (Danba)	ɦɛ su	ɦɛ su	anus / rectum	anus  /  rectum			1.4.10.2	9.12	0	jbl3		
+129662	558	Ergong (Danba)	ʐtɕɔ ɕɯ	ʐtɕɔ ɕɯ	feces / shit	feces  /  shit			1.8.5	9.12.1	0	jbl3		577,m
+129663	558	Ergong (Danba)	vʐa	vʐa	castrate	castrate	v.	v.	1.9.2.3	10.3.9	0			m,m
+129664	558	Ergong (Danba)	lŋɑ ntɕʰo ʐɛ	lŋɑ ntɕʰo ʐɛ	pregnant	pregnant	be	be	1.9.6.1	10.4.14	0			
+129665	558	Ergong (Danba)	ȵʑɛ	ȵʑɛ	birth, give	birth, give			1.1.2	10.4.15	0			95
+129666	558	Ergong (Danba)	ʐa stu	ʐa stu	egg (of animal)	egg (of animal)				10.4.16	0			m,1609
+129667	558	Ergong (Danba)	gɛ ʐtsʰɯ	gɛ ʐtsʰɯ	cough	cough			1.8.3.3	11.1	0			
+129668	558	Ergong (Danba)	bɯ qɯ ʐa	bɯ qɯ ʐa	hiccup	hiccup			1.8.3.5	11.2	0			
+129669	558	Ergong (Danba)	ɛ |tʰiau	ɛ tʰiau	sneeze	sneeze			1.8.2.1	11.3	0			2131
+129670	558	Ergong (Danba)	gɯ wmɯ	gɯ wmɯ	whistle	whistle			8.5.5	11.5	0			m,m
+129671	558	Ergong (Danba)	bɯ qɯ ʐa	bɯ qɯ ʐa	burp / belch	burp  /  belch			1.8.3	11.6	0	jbl3		
+129672	558	Ergong (Danba)	qʰɛn	qʰɛn	laugh	laugh			1.8.8.1	11.9	0			1116
+129673	558	Ergong (Danba)	ŋkʂɛ	ŋkʂɛ	tremble / shiver / shudder	tremble  /  shiver  /  shudder			1.6.6.2.1	12.1	0	jbl3		
+129674	558	Ergong (Danba)	ŋo(sick)	ŋo(sick)	sick / be ill / hurt	sick  /  be ill  /  hurt	be	be	1.1.5.1	12.2	0	jbl3		e
+129675	558	Ergong (Danba)	vo	vo	swell /  be swollen	swell  /   be swollen	v.	v.	1.1.5.2	12.4	0	jbl3		
+129676	558	Ergong (Danba)	spɛ	spɛ	pus	pus			1.8.6.1	12.5	0			1295
+129677	558	Ergong (Danba)	tɕɯ	tɕɯ	cubit	cubit			1.5.9.3	13.3	0			
+129678	558	Ergong (Danba)	gʐɛl	gʐɛl	cord / fathom	cord  /  fathom			1.5.9.5	13.4	0	jbl3		
+129679	558	Ergong (Danba)	vɛ	vɛ	male	male			1.9.6.1	10.3	0			5484
+129680	558	Ergong (Danba)	mɛ	mɛ	female	female			1.9.3	10.4	0			1618
+168681	558	Ergong (Danba)	dɛ vdo	dɛ vdo	see / look	see  /  look	v.	v.	1.2.6.10	3.4.9	0	jbl3		
+168682	558	Ergong (Danba)	dɛ ʑa si	dɛ ʑa si	limp	limp	v.	v.	1.5.12	6.2.8	0			
+168683	558	Ergong (Danba)	vtɕe	vtɕe	castrate	castrate	v.	v.	1.9.2.3	10.3.9	0			m,m

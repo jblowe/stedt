@@ -1,217 +1,217 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-14460	697	Jinuo (Baka)	a³³ mʌ⁴⁴	a³³ mʌ⁴⁴	body	body		1.1.1	97	0		p,17
-14461	697	Jinuo (Baka)	v̩⁴⁴ kʰɛ⁴⁴	v̩⁴⁴ kʰɛ⁴⁴	head	head		1.2.1	99	0		385,383
-14462	697	Jinuo (Baka)	tsʰɛ⁴⁴ kʰɯ⁴⁴	tsʰɛ⁴⁴ kʰɯ⁴⁴	hair (head)	hair (head)		1.2.3	100	0		366,372
-14463	697	Jinuo (Baka)	tsʰɛ⁴⁴ pʰlø⁵⁵	tsʰɛ⁴⁴ pʰlø⁵⁵	braid (hair)	braid (hair)	n	1.2.3.2	101	0		366,2018
-14464	697	Jinuo (Baka)	n̥ɤ³¹ tʰɤ⁵⁵	n̥ɤ³¹ tʰɤ⁵⁵	forehead	forehead		1.2.5.1	102	0		356,358
-14465	697	Jinuo (Baka)	mja³¹ m̥ɯ⁴⁴	mja³¹ m̥ɯ⁴⁴	eyebrow	eyebrow		1.2.6.6	103	0		681,363
-14466	697	Jinuo (Baka)	mja³¹ sɯ⁴⁴	mja³¹ sɯ⁴⁴	eye	eye		1.2.6	104	0		681,3559
-14467	697	Jinuo (Baka)	mja³¹ tsɿ⁴⁴	mja³¹ tsɿ⁴⁴	eye	eye		1.2.6	104.1	0		681,3559
-14468	697	Jinuo (Baka)	n̥o³¹ tu⁴⁴	n̥o³¹ tu⁴⁴	nose	nose		1.2.8	106	0		803,808
-14469	697	Jinuo (Baka)	n̥a⁴⁴ kʰu⁵⁵	n̥a⁴⁴ kʰu⁵⁵	ear	ear		1.2.7	107	0		811,820
-14470	697	Jinuo (Baka)	mja³¹ pʰlʌ⁴⁴	mja³¹ pʰlʌ⁴⁴	face	face		1.2.5	108	0		681,1186
-14471	697	Jinuo (Baka)	pɔ⁴⁴ kjɛ³¹	pɔ⁴⁴ kjɛ³¹	cheek	cheek		1.2.5.2	109	0		268,262
-14472	697	Jinuo (Baka)	m̥ø⁴⁴ m̥ø⁴⁴	m̥ø⁴⁴ m̥ø⁴⁴	mouth	mouth		1.3.1	110	0		467,467
-14473	697	Jinuo (Baka)	m̥ø⁴⁴ kʰu³¹	m̥ø⁴⁴ kʰu³¹	lip	lip		1.3.2	111	0		467,586
-14474	697	Jinuo (Baka)	mø⁴⁴ m̥ɯ⁴⁴	mø⁴⁴ m̥ɯ⁴⁴	beard	beard		1.2.5.5	112	0		363,363
-14475	697	Jinuo (Baka)	m̥ø⁴⁴ tʌ³³	m̥ø⁴⁴ tʌ³³	lower jaw, chin	lower jaw, chin			114	0		1187,m
-14476	697	Jinuo (Baka)	lɯ³¹ tsʰɯ⁵⁵	lɯ³¹ tsʰɯ⁵⁵	neck	neck		1.4.2	115	0		479,418
-14477	697	Jinuo (Baka)	lɯ³¹ nu⁴⁴ lu⁴⁴	lɯ³¹ nu⁴⁴ lu⁴⁴	nape	nape		1.4.2.1	116	0		479,m,m
-14478	697	Jinuo (Baka)	pa⁴⁴ pʰv̩⁵⁵	pa⁴⁴ pʰv̩⁵⁵	shoulder	shoulder		1.4.3	117	0		568,3344
-14479	697	Jinuo (Baka)	a⁴⁴ n̥u³¹	a⁴⁴ n̥u³¹	back (body)	back (body)		1.4.8	118	0		p,203
-14480	697	Jinuo (Baka)	ja⁴⁴ u⁴⁴	ja⁴⁴ u⁴⁴	armpit	armpit		1.5.1.2.3	119	0		
-14481	697	Jinuo (Baka)	n̥ɯ³¹ kʰa³¹	n̥ɯ³¹ kʰa³¹	chest	chest		1.4.4.3	120	0		297,310
-14482	697	Jinuo (Baka)	a⁴⁴ tʃu⁵⁵	a⁴⁴ tʃu⁵⁵	waist	waist		1.4.6	124	0		p,215
-14483	697	Jinuo (Baka)	to⁴⁴ tʃø⁴⁴	to⁴⁴ tʃø⁴⁴	buttocks	buttocks		1.4.10	125	0		225,284
-14484	697	Jinuo (Baka)	ʃo³³ kʰji⁵⁵	ʃo³³ kʰji⁵⁵	foot	foot		1.5.2	129	0		m,335
-14485	697	Jinuo (Baka)	la⁵⁵ pv̩⁴⁴	la⁵⁵ pv̩⁴⁴	arm	arm		1.5.1.2	131	0		695,1327
-14486	697	Jinuo (Baka)	la⁵⁵ ɯ⁴⁴	la⁵⁵ ɯ⁴⁴	forearm	forearm		1.5.1.2.2	131.1	0		695,m
-14487	697	Jinuo (Baka)	la⁵⁵ tsʰɯ⁵⁵	la⁵⁵ tsʰɯ⁵⁵	elbow	elbow		1.5.8.3	132	0		695,418
-14488	697	Jinuo (Baka)	la⁵⁵ pv̩⁴⁴	la⁵⁵ pv̩⁴⁴	hand	hand		1.5.1.1	133	0		695,m
-14489	697	Jinuo (Baka)	la⁵⁵ kʰjø⁴⁴	la⁵⁵ kʰjø⁴⁴	palm	palm		1.5.5	133.1	0		695,m
-14490	697	Jinuo (Baka)	la⁵⁵ n̥v̩⁵⁵	la⁵⁵ n̥v̩⁵⁵	finger	finger		1.5.6	135	0		695,320
-14491	697	Jinuo (Baka)	la⁵⁵ mo³³	la⁵⁵ mo³³	thumb	thumb		1.5.6.1	136	0		695,1619
-14492	697	Jinuo (Baka)	ny⁵⁵ tʰo⁴⁴	ny⁵⁵ tʰo⁴⁴	index finger	index finger		1.0	137	0		
-14493	697	Jinuo (Baka)	n̥v̩⁵⁵ ku⁵⁵ lv̩⁵⁵	n̥v̩⁵⁵ ku⁵⁵ lv̩⁵⁵	middle finger	middle finger		1.9.4	138	0		
-14494	697	Jinuo (Baka)	la⁵⁵ ni⁵⁵ li⁵⁵	la⁵⁵ ni⁵⁵ li⁵⁵	little finger	little finger		9.7.2	140	0		695,m,m
-14495	697	Jinuo (Baka)	la⁵⁵ sɯ⁴⁴	la⁵⁵ sɯ⁴⁴	fingernail	fingernail		1.5.10.1	141	0	D0	695,512
-14496	697	Jinuo (Baka)	la⁵⁵ tʰv̩³¹	la⁵⁵ tʰv̩³¹	fist	fist		1.5.1.1.1	142	0		695,m
-14497	697	Jinuo (Baka)	n̥ɤ⁴⁴ tʰɤ⁴⁴	n̥ɤ⁴⁴ tʰɤ⁴⁴	wrinkles	wrinkles		9.6.2	151	0		
-14498	697	Jinuo (Baka)	tʃʰa⁵⁵ m̥ɯ⁴⁴	tʃʰa⁵⁵ m̥ɯ⁴⁴	body hair	body hair		1.6.1	152	0		1232,363
-14499	697	Jinuo (Baka)	mɛ⁴⁴ na³¹	mɛ⁴⁴ na³¹	hemorrhoids	hemorrhoids		1.4.10.2	153	0	D0	
-14500	697	Jinuo (Baka)	ʃo⁴⁴	ʃo⁴⁴	flesh	flesh		1.1.1.1	159	0		34
-14501	697	Jinuo (Baka)	ʃɿ³³	ʃɿ³³	blood	blood		1.6.2	160	0		230
-14502	697	Jinuo (Baka)	v̩⁴⁴ no⁵⁵	v̩⁴⁴ no⁵⁵	brain	brain		1.2.4	164	0		385,243
-14503	697	Jinuo (Baka)	ʃo⁴⁴ ɯ³³	ʃo⁴⁴ ɯ³³	bone	bone		1.6.3	165	0		34,232
-14504	697	Jinuo (Baka)	a³³ tʃɯ⁴⁴	a³³ tʃɯ⁴⁴	tooth	tooth		1.3.4	170	0		p,635
-14505	697	Jinuo (Baka)	a³³ ɬo⁴⁴	a³³ ɬo⁴⁴	tongue	tongue		1.3.3	172	0		p,623
-14506	697	Jinuo (Baka)	a⁴⁴ tsʰɿ⁵⁵	a⁴⁴ tsʰɿ⁵⁵	lungs	lungs		1.7.2	178	0		
-14507	697	Jinuo (Baka)	n̥ɯ³¹ sɯ⁴⁴	n̥ɯ³¹ sɯ⁴⁴	heart	heart		1.7.1	179	0		297,1019
-14508	697	Jinuo (Baka)	tsʰɯ³¹ na³¹ la³¹	tsʰɯ³¹ na³¹ la³¹	liver	liver		1.7.3	180	0		1390,m,m
-14509	697	Jinuo (Baka)	kʰji³¹ kʰo⁴⁴	kʰji³¹ kʰo⁴⁴	gall bladder	gall bladder		1.7.3	183	0		227,m
-14510	697	Jinuo (Baka)	a³³ v̩⁴⁴	a³³ v̩⁴⁴	intestines	intestines		1.7.7	184	0		p,2102
-14511	697	Jinuo (Baka)	kʰji⁴⁴	kʰji⁴⁴	sweat	sweat		1.8.1	190	0		615
-14512	697	Jinuo (Baka)	kʰjø⁴⁴ kʰlʌ³¹	kʰjø⁴⁴ kʰlʌ³¹	phlegm	phlegm		1.8.3	191	0		m,540
-14513	697	Jinuo (Baka)	kʰɔ⁴⁴ ji³¹	kʰɔ⁴⁴ ji³¹	saliva	saliva		1.8.3	192	0		
-14514	697	Jinuo (Baka)	n̥i⁵⁵ pv̩⁴⁴	n̥i⁵⁵ pv̩⁴⁴	mucus	mucus		1.8.2	193	0		
-14515	697	Jinuo (Baka)	mja³¹ ji³¹	mja³¹ ji³¹	tears	tears		1.2.6.7	194	0		681,1013
-14516	697	Jinuo (Baka)	plɯ³¹	plɯ³¹	pus	pus		1.8.6.1	195	0		1292
-14517	697	Jinuo (Baka)	a³³ tsɛ⁴⁴	a³³ tsɛ⁴⁴	body dirt	body dirt		1.8.1.2	196	0		p,572
-14518	697	Jinuo (Baka)	a³³ tʰɤ⁴⁴	a³³ tʰɤ⁴⁴	sound	sound		9.3	197	0		
-14519	697	Jinuo (Baka)	m̥i³³	m̥i³³	speech	speech		1.8.7	198	0		
-14520	697	Jinuo (Baka)	a⁴⁴ sa⁵⁵	a⁴⁴ sa⁵⁵	breath (qixi)	breath (qixi)		1.1.2.2	199	0		p,32
-14521	697	Jinuo (Baka)	a⁴⁴ kʰʌ⁴⁴	a⁴⁴ kʰʌ⁴⁴	life	life		1.1.2.1	201	0		p,20
-14522	697	Jinuo (Baka)	mja³¹ plɯ⁵⁵	mja³¹ plɯ⁵⁵	blind person	blind person		1.2.6.14.2	259	0		681,1239
-14523	697	Jinuo (Baka)	kʰji³¹ ʃo⁴⁴	kʰji³¹ ʃo⁴⁴	lame person	lame person		1.5.12	260	0		
-14524	697	Jinuo (Baka)	n̥o⁴⁴ pʌ⁴⁴ lɤ⁴⁴	n̥o⁴⁴ pʌ⁴⁴ lɤ⁴⁴	deaf person	deaf person		1.2.7.5	261	0		
-14525	697	Jinuo (Baka)	a³³ tʃu⁵⁵	a³³ tʃu⁵⁵	hunchback	hunchback		1.4.8.3	263	0		m,m
-14526	697	Jinuo (Baka)	a⁴⁴ plv̩³¹	a⁴⁴ plv̩³¹	idiot	idiot		4.2.12.3	264	0		
-14527	697	Jinuo (Baka)	a⁴⁴ mu⁴⁴ lu⁴⁴	a⁴⁴ mu⁴⁴ lu⁴⁴	lunatic	lunatic		8.3	265	0		
-14528	697	Jinuo (Baka)	ɤ³¹ ɤ³¹	ɤ³¹ ɤ³¹	stutterer	stutterer		8.5.4.5	266	0		
-14529	697	Jinuo (Baka)	a⁴⁴ plv̩³¹	a⁴⁴ plv̩³¹	mute	mute		1.5.3.2	267	0		
-14530	697	Jinuo (Baka)	mja³¹ lɯ⁵⁵	mja³¹ lɯ⁵⁵	one-eyed person	one-eyed person		9.9	268	0		
-14531	697	Jinuo (Baka)	v̩³³ kʰji⁴⁴	v̩³³ kʰji⁴⁴	horn	horn		1.2.2	329	0		385,819
-14532	697	Jinuo (Baka)	pʰlo⁴⁴ pø⁵⁵	pʰlo⁴⁴ pø⁵⁵	hoof	hoof		1.5.4	330	0		
-14533	697	Jinuo (Baka)	a⁴⁴ kʰu³¹	a⁴⁴ kʰu³¹	skin (animal)	skin (animal)		1.6.5	331	0		p,586
-14534	697	Jinuo (Baka)	a⁴⁴ m̥ɯ⁴⁴	a⁴⁴ m̥ɯ⁴⁴	hair (animal)	hair (animal)		1.2.3	332	0		p,363
-14535	697	Jinuo (Baka)	a⁴⁴ kʰli⁴⁴	a⁴⁴ kʰli⁴⁴	excrement	excrement		1.8.5	333	0		p,572
-14536	697	Jinuo (Baka)	tu⁴⁴ m̥i⁴⁴	tu⁴⁴ m̥i⁴⁴	tail	tail		1.4.10.1	334	0		5639,1288
-14537	697	Jinuo (Baka)	n̥o⁴⁴ mu³¹ lu³¹	n̥o⁴⁴ mu³¹ lu³¹	cockscomb	cockscomb		1.2.2.1	369	0		356,m,m
-14538	697	Jinuo (Baka)	a⁴⁴ tu⁴⁴	a⁴⁴ tu⁴⁴	wing	wing		1.5.1.3	370	0		p,711
-14539	697	Jinuo (Baka)	a⁴⁴ m̥ɯ⁴⁴	a⁴⁴ m̥ɯ⁴⁴	feathers	feathers		1.6.1.1	371	0		p,m
-14540	697	Jinuo (Baka)	ŋ̊ɔ⁴⁴ kji⁴⁴	ŋ̊ɔ⁴⁴ kji⁴⁴	scales	scales		1.6.5.2	433	0		1455,596
-14541	697	Jinuo (Baka)	ʃɿ³¹ v̩³³	ʃɿ³¹ v̩³³	nit	nit		2.2.6	441	0		2652,301
-14542	697	Jinuo (Baka)	kɤ³³ ji⁴⁴	kɤ³³ ji⁴⁴	meat	meat		1.1.1.1	584	0		1130,m
-14543	697	Jinuo (Baka)	pɯ⁴⁴ na³¹ ʃo⁴⁴	pɯ⁴⁴ na³¹ ʃo⁴⁴	beef	beef		2.1.2	585	0		
-14544	697	Jinuo (Baka)	a³³ na⁴⁴	a³³ na⁴⁴	lean meat	lean meat		1.1.1	589	0		p,44
-14545	697	Jinuo (Baka)	a³³ tsʰɯ⁴⁴	a³³ tsʰɯ⁴⁴	oil	oil		1.6.4.1	590	0		p,48
-14546	697	Jinuo (Baka)	a³³ tsʰɯ⁴⁴	a³³ tsʰɯ⁴⁴	animal oil	animal oil		2.3	591	0		p,48
-14547	697	Jinuo (Baka)	v̩³³	v̩³³	egg	egg			604	0		301
-14548	697	Jinuo (Baka)	ne⁴⁴	ne⁴⁴	ghost	ghost		4.2.12.2	962	0		160
-14549	697	Jinuo (Baka)	ko⁴⁴ kʰu⁴⁴	ko⁴⁴ kʰu⁴⁴	energy	energy		1.1.4	982	0		
-14550	697	Jinuo (Baka)	a⁴⁴ ji³¹	a⁴⁴ ji³¹	shadow	shadow		3.2.10	1028	0		p,2614
-14551	697	Jinuo (Baka)	m̥e³⁵ m̥a³¹	m̥e³⁵ m̥a³¹	dream	dream		1.1.4.2	1029	0	D1	130,126
-14552	697	Jinuo (Baka)	ko³¹ tʃʰe⁴⁴	ko³¹ tʃʰe⁴⁴	between	between		9.2.3	1042	0		691,m
-14553	697	Jinuo (Baka)	a³³ tse⁴⁴	a³³ tse⁴⁴	side	side		1.4.5	1044	0		
-14554	697	Jinuo (Baka)	la⁵⁵ v̩⁵⁵	la⁵⁵ v̩⁵⁵	left	left		1.5.3.2	1045	0		695,2154
-14555	697	Jinuo (Baka)	la⁵⁵ m̥o⁵⁵	la⁵⁵ m̥o⁵⁵	right	right		1.5.3.2	1046	0		695,m
-14556	697	Jinuo (Baka)	a⁴⁴ pɤ³³	a⁴⁴ pɤ³³	front	front		1.4.4	1047	0		m,m
-14557	697	Jinuo (Baka)	a⁴⁴ n̥u³¹	a⁴⁴ n̥u³¹	back	back		1.4.8	1048	0		p,203
-14558	697	Jinuo (Baka)	plɯ³³	plɯ³³	full (man)	full (man)		1.1.3.2	1426	0		111
-14559	697	Jinuo (Baka)	a⁴⁴ pʰle⁴⁴	a⁴⁴ pʰle⁴⁴	shrivelled	shrivelled		9.5	1428	0	D0	
-14560	697	Jinuo (Baka)	a⁴⁴ kʰø⁵⁵	a⁴⁴ kʰø⁵⁵	bald	bald		1.2.3.4	1436	0		p,1430
-14561	697	Jinuo (Baka)	a⁴⁴ |kʰø⁵⁵ lø⁵⁵	a⁴⁴ |kʰø⁵⁵ lø⁵⁵	bald	bald		1.2.3.4	1436.1	0		p,1430
-14562	697	Jinuo (Baka)	pʌ⁵⁵	pʌ⁵⁵	fat (person)	fat (person)		1.6.4	1472	0		50
-14563	697	Jinuo (Baka)	a⁴⁴ kʰjv̩⁴⁴	a⁴⁴ kʰjv̩⁴⁴	thin (person)	thin (person)		9.7.2	1474	0		
-14564	697	Jinuo (Baka)	tø⁵⁵ to⁴⁴ a³³	tø⁵⁵ to⁴⁴ a³³	alive	alive		1.1.2.1	1546	0		72,m,m
-14565	697	Jinuo (Baka)	ʃɿ³⁵ to⁴⁴ a⁴⁴	ʃɿ³⁵ to⁴⁴ a⁴⁴	dead	dead		1.1.6	1547	0		27,30,m
-14566	697	Jinuo (Baka)	plɯ⁴⁴	plɯ⁴⁴	full (from eating)	full (from eating)		1.1.3.2	1652	0		111
-14567	697	Jinuo (Baka)	m̩³¹	m̩³¹	close (mouth)	close (mouth)		6.2.2.6.2	1664	0		31
-14568	697	Jinuo (Baka)	m̥i³¹	m̥i³¹	close (eyes)	close (eyes)		6.2.2.6.2	1664.1	0		31
-14569	697	Jinuo (Baka)	no³¹	no³¹	sick	sick		1.1.5.1	1678	0		160
-14570	697	Jinuo (Baka)	klʌ⁵⁵	klʌ⁵⁵	sing	sing		5.1	1704	0		
-14571	697	Jinuo (Baka)	tso⁴⁴	tso⁴⁴	eat	eat		1.5.3.2	1722	0		36
-14572	697	Jinuo (Baka)	tsɯ³³	tsɯ³³	blow (trumpet)	blow (trumpet)		1.3.1.4	1748	0		1739
-14573	697	Jinuo (Baka)	kɤ³¹	kɤ³¹	gasp, pant	gasp, pant	v	1.1.2.2	1752	0		
-14574	697	Jinuo (Baka)	xa⁵⁵ |tʃʰi³¹ m̩³¹	xa⁵⁵ tʃʰi³¹ m̩³¹	sneeze	sneeze		1.8.2.1	1782	0		2131,m
-14575	697	Jinuo (Baka)	ji³¹ n̥v̩⁵⁵	ji³¹ n̥v̩⁵⁵	nap (take)	nap (take)	v	6.21	1783	0		
-14576	697	Jinuo (Baka)	xɤ⁵⁵ xɛ³¹	xɤ⁵⁵ xɛ³¹	yawn	yawn		1.3.1.3	1785	0		1716,1716
-14577	697	Jinuo (Baka)	ɤ⁵⁵	ɤ⁵⁵	hiccup / belch	hiccup  /  belch		1.8.3.5	1786	0		3443
-14578	697	Jinuo (Baka)	ji⁵⁵ mɯ⁵⁵	ji⁵⁵ mɯ⁵⁵	snore	snore		1.8.2.2	1787	0		127,m
-14579	697	Jinuo (Baka)	tʰʌ⁵⁵	tʰʌ⁵⁵	bite, sting (mosquito)	bite, sting (mosquito)		1.3.4.4	1828	0		1799
-14580	697	Jinuo (Baka)	kɤ³¹ tsʰe³³	kɤ³¹ tsʰe³³	die (breath one's last)	die (breath one's last)		9.9	1846	0		m,1007
-14581	697	Jinuo (Baka)	mø⁵⁵	mø⁵⁵	hungry	hungry		1.1.3	1858	0		99
-14582	697	Jinuo (Baka)	pʰœ⁵⁵ n̥v̩⁵⁵	pʰœ⁵⁵ n̥v̩⁵⁵	nauseated	nauseated		1.1.5.1	1859	0		1145,m
-14583	697	Jinuo (Baka)	ɬv̩³¹	ɬv̩³¹	tremble	tremble		6.7.3	1864	0		
-14584	697	Jinuo (Baka)	a⁴⁴ ɬv̩⁴⁴ ɬv̩⁴⁴	a⁴⁴ ɬv̩⁴⁴ ɬv̩⁴⁴	fever (have)	fever (have)	v	1.1.5.1	1866	0		
-14585	697	Jinuo (Baka)	plɛ³¹	plɛ³¹	fly	fly		2.2.6	1891	0		
-14586	697	Jinuo (Baka)	a⁴⁴ mv̩⁴⁴ lv̩⁴⁴	a⁴⁴ mv̩⁴⁴ lv̩⁴⁴	insane	insane		8.3.1.11.3	1897	0		
-14587	697	Jinuo (Baka)	v̩³¹	v̩³¹	incubate	incubate		1.9.1.2	1899	0		301
-14588	697	Jinuo (Baka)	a⁴⁴ tɛ⁴⁴ no³¹	a⁴⁴ tɛ⁴⁴ no³¹	cold (have)	cold (have)	v	7.1.2.3	1910	0		
-14589	697	Jinuo (Baka)	kʰv̩³¹	kʰv̩³¹	call (to someone)	call (to someone)		8.5.13	1960	0		
-14590	697	Jinuo (Baka)	tʌ³¹	tʌ³¹	drink	drink			1964	0		502
-14591	697	Jinuo (Baka)	pi⁴⁴ tʌ⁴⁴	pi⁴⁴ tʌ⁴⁴	make drink	make drink		6.14	1964.1	0		m,502
-14592	697	Jinuo (Baka)	kʰu³¹	kʰu³¹	call (to animal) (huan)	call (to animal) (huan)		8.5.13	1986	0		
-14593	697	Jinuo (Baka)	tø⁵⁵	tø⁵⁵	come alive (huoliao)	come alive (huoliao)		6.7.1	2003	0		72
-14594	697	Jinuo (Baka)	tʃʰʌ⁴⁴	tʃʰʌ⁴⁴	tell (story)	tell (story)		1.8.7	2035	0		
-14595	697	Jinuo (Baka)	kʰe⁵⁵	kʰe⁵⁵	chew	chew		1.3.4	2041	0		755
-14596	697	Jinuo (Baka)	tø³¹	tø³¹	crow (rooster)	crow (rooster)		2.2.4.1	2042	0		
-14597	697	Jinuo (Baka)	to³¹	to³¹	cackle (hen)	cackle (hen)		8.5.5	2043	0		
-14598	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	call (cat)	call (cat)		8.5.13	2044	0		o
-14599	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	bray (donkey)	bray (donkey)		8.5.4.1	2045	0		w
-14600	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	neigh (horse)	neigh (horse)		8.5.5	2046	0		
-14601	697	Jinuo (Baka)	mɯ³¹ xœ³¹	mɯ³¹ xœ³¹	call (cow)	call (cow)		8.5.13	2047	0		
-14602	697	Jinuo (Baka)	ɬu⁵⁵	ɬu⁵⁵	bark (dog)	bark (dog)		2.1.11.1	2048	0		1790
-14603	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	grunt (pig)	grunt (pig)		2.1.11.1	2049	0		o
-14604	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	call (sheep)	call (sheep)		8.5.13	2050	0		
-14605	697	Jinuo (Baka)	kɯ³¹	kɯ³¹	roar (tiger)	roar (tiger)		8.5.5	2051	0		o
-14606	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	howl (wolf)	howl (wolf)		8.5.5	2053	0		
-14607	697	Jinuo (Baka)	kʰv̩³¹	kʰv̩³¹	call (name)	call (name)		8.5.13	2054	0		
-14608	697	Jinuo (Baka)	pʰu³³	pʰu³³	open (as door)	open (as door)		6.2.2.6.1	2092	0		5704
-14609	697	Jinuo (Baka)	tɛ³³	tɛ³³	look at	look at		1.2.6.11	2101	0		1236
-14610	697	Jinuo (Baka)	tɛ³³ mjʌ⁴⁴	tɛ³³ mjʌ⁴⁴	see	see		1.2.6.10	2103	0		1236,681
-14611	697	Jinuo (Baka)	tsʰɿ⁴⁴	tsʰɿ⁴⁴	cough	cough		1.8.3.3	2111	0		
-14612	697	Jinuo (Baka)	ʃɿ⁵⁵	ʃɿ⁵⁵	thirsty	thirsty		1.1.3.1	2112	0		101
-14613	697	Jinuo (Baka)	kʰe⁵⁵	kʰe⁵⁵	gnaw	gnaw		1.3.4.4	2115	0		755
-14614	697	Jinuo (Baka)	ŋjv̩³¹	ŋjv̩³¹	cry, weep	cry, weep		1.8.8.2	2118	0		1104
-14615	697	Jinuo (Baka)	ji⁵⁵ n̥u⁵⁵	ji⁵⁵ n̥u⁵⁵	tired, sleepy	tired, sleepy		9.6.2.2	2125	0		127,m
-14616	697	Jinuo (Baka)	m̥ɛ⁴⁴	m̥ɛ⁴⁴	tired	tired		9.6.2.2	2135	0		
-14617	697	Jinuo (Baka)	pɤ⁴⁴	pɤ⁴⁴	deaf	deaf		1.2.7.5	2160	0		1409
-14618	697	Jinuo (Baka)	pi³¹	pi³¹	numb	numb		1.5.11	2165	0		5685
-14619	697	Jinuo (Baka)	plɯ⁴⁴	plɯ⁴⁴	fill up	fill up	v.i.	6.11	2167	0		
-14620	697	Jinuo (Baka)	m̥e³⁵ m̥a³¹	m̥e³⁵ m̥a³¹	dream	dream		1.1.4.2	2171	0	HIDE	DUPE IN SOURCE
-14621	697	Jinuo (Baka)	m̥i³¹	m̥i³¹	narrow eyes; squint	narrow eyes; squint		9.7.2	2179	0		
-14622	697	Jinuo (Baka)	m̥i³¹ vi³³	m̥i³¹ vi³³	narrow eyes; squint	narrow eyes; squint		9.7.2	2179.1	0		
-14623	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	call (bird) (ming)	call (bird) (ming)		8.5.13	2180	0		
-14624	697	Jinuo (Baka)	pʰø⁵⁵	pʰø⁵⁵	vomit	vomit		1.8.3.2	2202	0		1145
-14625	697	Jinuo (Baka)	vʌ³¹	vʌ³¹	raise (tail)	raise (tail)		6.7.7	2252	0		
-14626	697	Jinuo (Baka)	mɯ⁴⁴	mɯ⁴⁴	cured (illness)	cured (illness)	be v.	1.1.5.1	2265	0		
-14627	697	Jinuo (Baka)	mɯ⁴⁴	mɯ⁴⁴	heal (wound)	heal (wound)		1.1.5.1	2266	0		
-14628	697	Jinuo (Baka)	ʃo³³	ʃo³³	crippled	crippled		4.2.7	2268	0		
-14629	697	Jinuo (Baka)	kʰu⁴⁴	kʰu⁴⁴	shout, yell	shout, yell		8.5.4.1	2272	0		
-14630	697	Jinuo (Baka)	pʰi⁵⁵	pʰi⁵⁵	urinate	urinate		1.5.3.2	2286	0		
-14631	697	Jinuo (Baka)	no³¹	no³¹	hurt, wound	hurt, wound	v	1.1.5.1	2304	0		160
-14632	697	Jinuo (Baka)	xɯ⁴⁴ lɯ³³	xɯ⁴⁴ lɯ³³	grow up (shengzhang)	grow up (shengzhang)		9.7.2	2317	0		
-14633	697	Jinuo (Baka)	tv̩⁴⁴	tv̩⁴⁴	grow (boil)	grow (boil)		9.7.2	2319	0		
-14634	697	Jinuo (Baka)	tʃa³¹	tʃa³¹	birth, give	birth, give	v	1.1.2	2320	0		95
-14635	697	Jinuo (Baka)	kʰjv̩⁴⁴	kʰjv̩⁴⁴	thin	thin	v	9.7.2	2346	0		
-14636	697	Jinuo (Baka)	ji⁵⁵	ji⁵⁵	sleep	sleep		1.1.4.1	2357	0		127
-14637	697	Jinuo (Baka)	ji⁵⁵ tɛ³⁵ ja⁴⁴ u⁵⁵ nø⁴⁴	ji⁵⁵ tɛ³⁵ ja⁴⁴ u⁵⁵ nø⁴⁴	asleep	asleep		1.1.4.1	2359	0		127,m,m,m,m
-14638	697	Jinuo (Baka)	tʃʰv̩⁵⁵	tʃʰv̩⁵⁵	suck (milk)	suck (milk)		1.3.2.1	2360	0		5541
-14639	697	Jinuo (Baka)	xo⁴⁴	xo⁴⁴	speak	speak		8.5.10.1	2361	0		
-14640	697	Jinuo (Baka)	ʃɿ³¹	ʃɿ³¹	die	die		1.1.6	2363	0		27
-14641	697	Jinuo (Baka)	m̥ɛ⁴⁴	m̥ɛ⁴⁴	sore (leg)	sore (leg)		1.1.5.1	2368	0		
-14642	697	Jinuo (Baka)	nɔ³¹	nɔ³¹	ache (teng)	ache (teng)		1.1.5.1	2391	0		160
-14643	697	Jinuo (Baka)	mlʌ⁵	mlʌ⁵	lick	lick		1.3.3.1	2401	0		629
-14644	697	Jinuo (Baka)	tʰɯ³¹	tʰɯ³¹	beat (pulse)	beat (pulse)		6.8	2407	0		
-14645	697	Jinuo (Baka)	n̥o³¹	n̥o³¹	listen	listen		1.2.7.4	2409	0		811
-14646	697	Jinuo (Baka)	n̥o³¹ kjɔ⁴⁴	n̥o³¹ kjɔ⁴⁴	hear	hear		1.2.7.4	2410	0		811,1411
-14647	697	Jinuo (Baka)	mjv̩⁵⁵	mjv̩⁵⁵	swallow	swallow	v	1.3.5.6	2416	0	D1	627
-14648	697	Jinuo (Baka)	pʰi⁵⁵	pʰi⁵⁵	spit	spit		1.8.3	2421	0		
-14649	697	Jinuo (Baka)	pʰu³¹	pʰu³¹	molt (snake)	molt (snake)		1.6.5.6	2429	0		
-14650	697	Jinuo (Baka)	nɛ³¹	nɛ³¹	smell (with nose)	smell (with nose)		1.2.8.5	2450	0		1415
-14651	697	Jinuo (Baka)	tʃʰɿ³¹ nɛ³¹	tʃʰɿ³¹ nɛ³¹	inhale	inhale		1.1.2.2	2456	0		
-14652	697	Jinuo (Baka)	plɯ⁵⁵	plɯ⁵⁵	blind	blind		1.2.6.14.2	2465	0		1239
-14653	697	Jinuo (Baka)	tʃa³¹	tʃa³¹	birth, give (to piglet)	birth, give  (to piglet)		1.1.2	2467	0		95
-14654	697	Jinuo (Baka)	kʰlo⁴⁴	kʰlo⁴⁴	lay egg	lay egg		6.17	2468	0		3489
-14655	697	Jinuo (Baka)	plɛ⁴⁴	plɛ⁴⁴	recede (boil)	recede (boil)		6.7.1	2488	0		
-14656	697	Jinuo (Baka)	ɯ³¹	ɯ³¹	laugh	laugh		1.8.8.1	2492	0		1108
-14657	697	Jinuo (Baka)	kʰji³¹	kʰji³¹	blow nose	blow nose		1.3.1.4	2497	0		
-14658	697	Jinuo (Baka)	nv̩⁴⁴	nv̩⁴⁴	wake	wake		1.1.4	2498	0		143
-14659	697	Jinuo (Baka)	n̥o³³ pjʌ³³	n̥o³³ pjʌ³³	rest	rest		1.1.4.1	2499	0		84,m
-14660	697	Jinuo (Baka)	tv̩⁴⁴	tv̩⁴⁴	caponize	caponize		2.4.1	2509	0		m
-14661	697	Jinuo (Baka)	mjv̩⁵⁵	mjv̩⁵⁵	swallow	swallow	v	1.3.5.6	2511	0	HIDE	DUPE IN SOURCE
-14662	697	Jinuo (Baka)	tsɯ³¹	tsɯ³¹	itch	itch		1.6.5.5	2515	0		56
-14663	697	Jinuo (Baka)	kʰje⁵⁵	kʰje⁵⁵	bitten	bitten	be v.	1.3.4.4	2520	0		
-14664	697	Jinuo (Baka)	tʰʌ⁵⁵	tʰʌ⁵⁵	bite	bite		1.3.4.4	2521	0		1799
-14665	697	Jinuo (Baka)	tʰʌ⁵⁵ kʰa³¹	tʰʌ⁵⁵ kʰa³¹	bite hold of	bite hold of		1.3.4.4	2522	0		1799,m
-14666	697	Jinuo (Baka)	n̥ɤ⁴⁴ tʰɤ⁵⁵	n̥ɤ⁴⁴ tʰɤ⁵⁵	dizzy	dizzy		8.3.1.11.3	2550	0		
-14667	697	Jinuo (Baka)	m̥i³¹	m̥i³¹	blink	blink		1.2.6.12	2563	0		31
-14668	697	Jinuo (Baka)	ŋ̊a⁵⁵	ŋ̊a⁵⁵	open (mouth)	open (mouth)		6.2.2.6.1	2571	0		5706
-14669	697	Jinuo (Baka)	xɯ⁴⁴	xɯ⁴⁴	grow (up)	grow (up)		9.7.2	2572	0		
-14670	697	Jinuo (Baka)	tsɯ⁴⁴	tsɯ⁴⁴	bloat (belly) (zhang)	bloat (belly) (zhang)		1.4.7	2574	0		
-14671	697	Jinuo (Baka)	m̩³¹ tsʰø⁵⁵ nø³³	m̩³¹ tsʰø⁵⁵ nø³³	nervous	nervous		8.3.1.5.5	2577	0		
-14672	697	Jinuo (Baka)	tø⁴⁴	tø⁴⁴	sting	sting	v	2.4.2	2583	0		3435
-14673	697	Jinuo (Baka)	plɛ⁵⁵	plɛ⁵⁵	open (eyes)	open (eyes)		6.2.2.6.1	2584	0		
-14674	697	Jinuo (Baka)	pø⁵⁵	pø⁵⁵	swell up	swell up		1.1.5.2	2595	0		163?
-14675	697	Jinuo (Baka)	mu⁴⁴	mu⁴⁴	drunk	drunk		1.3.5.9	2621	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+14460	697	Jinuo (Baka)	a³³ mʌ⁴⁴	a³³ mʌ⁴⁴	body	body			1.1.1	97	0			p,17
+14461	697	Jinuo (Baka)	v̩⁴⁴ kʰɛ⁴⁴	v̩⁴⁴ kʰɛ⁴⁴	head	head			1.2.1	99	0			385,383
+14462	697	Jinuo (Baka)	tsʰɛ⁴⁴ kʰɯ⁴⁴	tsʰɛ⁴⁴ kʰɯ⁴⁴	hair (head)	hair (head)			1.2.3	100	0			366,372
+14463	697	Jinuo (Baka)	tsʰɛ⁴⁴ pʰlø⁵⁵	tsʰɛ⁴⁴ pʰlø⁵⁵	braid (hair)	braid (hair)	n	n	1.2.3.2	101	0			366,2018
+14464	697	Jinuo (Baka)	n̥ɤ³¹ tʰɤ⁵⁵	n̥ɤ³¹ tʰɤ⁵⁵	forehead	forehead			1.2.5.1	102	0			356,358
+14465	697	Jinuo (Baka)	mja³¹ m̥ɯ⁴⁴	mja³¹ m̥ɯ⁴⁴	eyebrow	eyebrow			1.2.6.6	103	0			681,363
+14466	697	Jinuo (Baka)	mja³¹ sɯ⁴⁴	mja³¹ sɯ⁴⁴	eye	eye			1.2.6	104	0			681,3559
+14467	697	Jinuo (Baka)	mja³¹ tsɿ⁴⁴	mja³¹ tsɿ⁴⁴	eye	eye			1.2.6	104.1	0			681,3559
+14468	697	Jinuo (Baka)	n̥o³¹ tu⁴⁴	n̥o³¹ tu⁴⁴	nose	nose			1.2.8	106	0			803,808
+14469	697	Jinuo (Baka)	n̥a⁴⁴ kʰu⁵⁵	n̥a⁴⁴ kʰu⁵⁵	ear	ear			1.2.7	107	0			811,820
+14470	697	Jinuo (Baka)	mja³¹ pʰlʌ⁴⁴	mja³¹ pʰlʌ⁴⁴	face	face			1.2.5	108	0			681,1186
+14471	697	Jinuo (Baka)	pɔ⁴⁴ kjɛ³¹	pɔ⁴⁴ kjɛ³¹	cheek	cheek			1.2.5.2	109	0			268,262
+14472	697	Jinuo (Baka)	m̥ø⁴⁴ m̥ø⁴⁴	m̥ø⁴⁴ m̥ø⁴⁴	mouth	mouth			1.3.1	110	0			467,467
+14473	697	Jinuo (Baka)	m̥ø⁴⁴ kʰu³¹	m̥ø⁴⁴ kʰu³¹	lip	lip			1.3.2	111	0			467,586
+14474	697	Jinuo (Baka)	mø⁴⁴ m̥ɯ⁴⁴	mø⁴⁴ m̥ɯ⁴⁴	beard	beard			1.2.5.5	112	0			363,363
+14475	697	Jinuo (Baka)	m̥ø⁴⁴ tʌ³³	m̥ø⁴⁴ tʌ³³	lower jaw, chin	lower jaw, chin				114	0			1187,m
+14476	697	Jinuo (Baka)	lɯ³¹ tsʰɯ⁵⁵	lɯ³¹ tsʰɯ⁵⁵	neck	neck			1.4.2	115	0			479,418
+14477	697	Jinuo (Baka)	lɯ³¹ nu⁴⁴ lu⁴⁴	lɯ³¹ nu⁴⁴ lu⁴⁴	nape	nape			1.4.2.1	116	0			479,m,m
+14478	697	Jinuo (Baka)	pa⁴⁴ pʰv̩⁵⁵	pa⁴⁴ pʰv̩⁵⁵	shoulder	shoulder			1.4.3	117	0			568,3344
+14479	697	Jinuo (Baka)	a⁴⁴ n̥u³¹	a⁴⁴ n̥u³¹	back (body)	back (body)			1.4.8	118	0			p,203
+14480	697	Jinuo (Baka)	ja⁴⁴ u⁴⁴	ja⁴⁴ u⁴⁴	armpit	armpit			1.5.1.2.3	119	0			
+14481	697	Jinuo (Baka)	n̥ɯ³¹ kʰa³¹	n̥ɯ³¹ kʰa³¹	chest	chest			1.4.4.3	120	0			297,310
+14482	697	Jinuo (Baka)	a⁴⁴ tʃu⁵⁵	a⁴⁴ tʃu⁵⁵	waist	waist			1.4.6	124	0			p,215
+14483	697	Jinuo (Baka)	to⁴⁴ tʃø⁴⁴	to⁴⁴ tʃø⁴⁴	buttocks	buttocks			1.4.10	125	0			225,284
+14484	697	Jinuo (Baka)	ʃo³³ kʰji⁵⁵	ʃo³³ kʰji⁵⁵	foot	foot			1.5.2	129	0			m,335
+14485	697	Jinuo (Baka)	la⁵⁵ pv̩⁴⁴	la⁵⁵ pv̩⁴⁴	arm	arm			1.5.1.2	131	0			695,1327
+14486	697	Jinuo (Baka)	la⁵⁵ ɯ⁴⁴	la⁵⁵ ɯ⁴⁴	forearm	forearm			1.5.1.2.2	131.1	0			695,m
+14487	697	Jinuo (Baka)	la⁵⁵ tsʰɯ⁵⁵	la⁵⁵ tsʰɯ⁵⁵	elbow	elbow			1.5.8.3	132	0			695,418
+14488	697	Jinuo (Baka)	la⁵⁵ pv̩⁴⁴	la⁵⁵ pv̩⁴⁴	hand	hand			1.5.1.1	133	0			695,m
+14489	697	Jinuo (Baka)	la⁵⁵ kʰjø⁴⁴	la⁵⁵ kʰjø⁴⁴	palm	palm			1.5.5	133.1	0			695,m
+14490	697	Jinuo (Baka)	la⁵⁵ n̥v̩⁵⁵	la⁵⁵ n̥v̩⁵⁵	finger	finger			1.5.6	135	0			695,320
+14491	697	Jinuo (Baka)	la⁵⁵ mo³³	la⁵⁵ mo³³	thumb	thumb			1.5.6.1	136	0			695,1619
+14492	697	Jinuo (Baka)	ny⁵⁵ tʰo⁴⁴	ny⁵⁵ tʰo⁴⁴	index finger	index finger			1.0	137	0			
+14493	697	Jinuo (Baka)	n̥v̩⁵⁵ ku⁵⁵ lv̩⁵⁵	n̥v̩⁵⁵ ku⁵⁵ lv̩⁵⁵	middle finger	middle finger			1.9.4	138	0			
+14494	697	Jinuo (Baka)	la⁵⁵ ni⁵⁵ li⁵⁵	la⁵⁵ ni⁵⁵ li⁵⁵	little finger	little finger			9.7.2	140	0			695,m,m
+14495	697	Jinuo (Baka)	la⁵⁵ sɯ⁴⁴	la⁵⁵ sɯ⁴⁴	fingernail	fingernail			1.5.10.1	141	0		D0	695,512
+14496	697	Jinuo (Baka)	la⁵⁵ tʰv̩³¹	la⁵⁵ tʰv̩³¹	fist	fist			1.5.1.1.1	142	0			695,m
+14497	697	Jinuo (Baka)	n̥ɤ⁴⁴ tʰɤ⁴⁴	n̥ɤ⁴⁴ tʰɤ⁴⁴	wrinkles	wrinkles			9.6.2	151	0			
+14498	697	Jinuo (Baka)	tʃʰa⁵⁵ m̥ɯ⁴⁴	tʃʰa⁵⁵ m̥ɯ⁴⁴	body hair	body hair			1.6.1	152	0			1232,363
+14499	697	Jinuo (Baka)	mɛ⁴⁴ na³¹	mɛ⁴⁴ na³¹	hemorrhoids	hemorrhoids			1.4.10.2	153	0		D0	
+14500	697	Jinuo (Baka)	ʃo⁴⁴	ʃo⁴⁴	flesh	flesh			1.1.1.1	159	0			34
+14501	697	Jinuo (Baka)	ʃɿ³³	ʃɿ³³	blood	blood			1.6.2	160	0			230
+14502	697	Jinuo (Baka)	v̩⁴⁴ no⁵⁵	v̩⁴⁴ no⁵⁵	brain	brain			1.2.4	164	0			385,243
+14503	697	Jinuo (Baka)	ʃo⁴⁴ ɯ³³	ʃo⁴⁴ ɯ³³	bone	bone			1.6.3	165	0			34,232
+14504	697	Jinuo (Baka)	a³³ tʃɯ⁴⁴	a³³ tʃɯ⁴⁴	tooth	tooth			1.3.4	170	0			p,635
+14505	697	Jinuo (Baka)	a³³ ɬo⁴⁴	a³³ ɬo⁴⁴	tongue	tongue			1.3.3	172	0			p,623
+14506	697	Jinuo (Baka)	a⁴⁴ tsʰɿ⁵⁵	a⁴⁴ tsʰɿ⁵⁵	lungs	lungs			1.7.2	178	0			
+14507	697	Jinuo (Baka)	n̥ɯ³¹ sɯ⁴⁴	n̥ɯ³¹ sɯ⁴⁴	heart	heart			1.7.1	179	0			297,1019
+14508	697	Jinuo (Baka)	tsʰɯ³¹ na³¹ la³¹	tsʰɯ³¹ na³¹ la³¹	liver	liver			1.7.3	180	0			1390,m,m
+14509	697	Jinuo (Baka)	kʰji³¹ kʰo⁴⁴	kʰji³¹ kʰo⁴⁴	gall bladder	gall bladder			1.7.3	183	0			227,m
+14510	697	Jinuo (Baka)	a³³ v̩⁴⁴	a³³ v̩⁴⁴	intestines	intestines			1.7.7	184	0			p,2102
+14511	697	Jinuo (Baka)	kʰji⁴⁴	kʰji⁴⁴	sweat	sweat			1.8.1	190	0			615
+14512	697	Jinuo (Baka)	kʰjø⁴⁴ kʰlʌ³¹	kʰjø⁴⁴ kʰlʌ³¹	phlegm	phlegm			1.8.3	191	0			m,540
+14513	697	Jinuo (Baka)	kʰɔ⁴⁴ ji³¹	kʰɔ⁴⁴ ji³¹	saliva	saliva			1.8.3	192	0			
+14514	697	Jinuo (Baka)	n̥i⁵⁵ pv̩⁴⁴	n̥i⁵⁵ pv̩⁴⁴	mucus	mucus			1.8.2	193	0			
+14515	697	Jinuo (Baka)	mja³¹ ji³¹	mja³¹ ji³¹	tears	tears			1.2.6.7	194	0			681,1013
+14516	697	Jinuo (Baka)	plɯ³¹	plɯ³¹	pus	pus			1.8.6.1	195	0			1292
+14517	697	Jinuo (Baka)	a³³ tsɛ⁴⁴	a³³ tsɛ⁴⁴	body dirt	body dirt			1.8.1.2	196	0			p,572
+14518	697	Jinuo (Baka)	a³³ tʰɤ⁴⁴	a³³ tʰɤ⁴⁴	sound	sound			9.3	197	0			
+14519	697	Jinuo (Baka)	m̥i³³	m̥i³³	speech	speech			1.8.7	198	0			
+14520	697	Jinuo (Baka)	a⁴⁴ sa⁵⁵	a⁴⁴ sa⁵⁵	breath (qixi)	breath (qixi)			1.1.2.2	199	0			p,32
+14521	697	Jinuo (Baka)	a⁴⁴ kʰʌ⁴⁴	a⁴⁴ kʰʌ⁴⁴	life	life			1.1.2.1	201	0			p,20
+14522	697	Jinuo (Baka)	mja³¹ plɯ⁵⁵	mja³¹ plɯ⁵⁵	blind person	blind person			1.2.6.14.2	259	0			681,1239
+14523	697	Jinuo (Baka)	kʰji³¹ ʃo⁴⁴	kʰji³¹ ʃo⁴⁴	lame person	lame person			1.5.12	260	0			
+14524	697	Jinuo (Baka)	n̥o⁴⁴ pʌ⁴⁴ lɤ⁴⁴	n̥o⁴⁴ pʌ⁴⁴ lɤ⁴⁴	deaf person	deaf person			1.2.7.5	261	0			
+14525	697	Jinuo (Baka)	a³³ tʃu⁵⁵	a³³ tʃu⁵⁵	hunchback	hunchback			1.4.8.3	263	0			m,m
+14526	697	Jinuo (Baka)	a⁴⁴ plv̩³¹	a⁴⁴ plv̩³¹	idiot	idiot			4.2.12.3	264	0			
+14527	697	Jinuo (Baka)	a⁴⁴ mu⁴⁴ lu⁴⁴	a⁴⁴ mu⁴⁴ lu⁴⁴	lunatic	lunatic			8.3	265	0			
+14528	697	Jinuo (Baka)	ɤ³¹ ɤ³¹	ɤ³¹ ɤ³¹	stutterer	stutterer			8.5.4.5	266	0			
+14529	697	Jinuo (Baka)	a⁴⁴ plv̩³¹	a⁴⁴ plv̩³¹	mute	mute			1.5.3.2	267	0			
+14530	697	Jinuo (Baka)	mja³¹ lɯ⁵⁵	mja³¹ lɯ⁵⁵	one-eyed person	one-eyed person			9.9	268	0			
+14531	697	Jinuo (Baka)	v̩³³ kʰji⁴⁴	v̩³³ kʰji⁴⁴	horn	horn			1.2.2	329	0			385,819
+14532	697	Jinuo (Baka)	pʰlo⁴⁴ pø⁵⁵	pʰlo⁴⁴ pø⁵⁵	hoof	hoof			1.5.4	330	0			
+14533	697	Jinuo (Baka)	a⁴⁴ kʰu³¹	a⁴⁴ kʰu³¹	skin (animal)	skin (animal)			1.6.5	331	0			p,586
+14534	697	Jinuo (Baka)	a⁴⁴ m̥ɯ⁴⁴	a⁴⁴ m̥ɯ⁴⁴	hair (animal)	hair (animal)			1.2.3	332	0			p,363
+14535	697	Jinuo (Baka)	a⁴⁴ kʰli⁴⁴	a⁴⁴ kʰli⁴⁴	excrement	excrement			1.8.5	333	0			p,572
+14536	697	Jinuo (Baka)	tu⁴⁴ m̥i⁴⁴	tu⁴⁴ m̥i⁴⁴	tail	tail			1.4.10.1	334	0			5639,1288
+14537	697	Jinuo (Baka)	n̥o⁴⁴ mu³¹ lu³¹	n̥o⁴⁴ mu³¹ lu³¹	cockscomb	cockscomb			1.2.2.1	369	0			356,m,m
+14538	697	Jinuo (Baka)	a⁴⁴ tu⁴⁴	a⁴⁴ tu⁴⁴	wing	wing			1.5.1.3	370	0			p,711
+14539	697	Jinuo (Baka)	a⁴⁴ m̥ɯ⁴⁴	a⁴⁴ m̥ɯ⁴⁴	feathers	feathers			1.6.1.1	371	0			p,m
+14540	697	Jinuo (Baka)	ŋ̊ɔ⁴⁴ kji⁴⁴	ŋ̊ɔ⁴⁴ kji⁴⁴	scales	scales			1.6.5.2	433	0			1455,596
+14541	697	Jinuo (Baka)	ʃɿ³¹ v̩³³	ʃɿ³¹ v̩³³	nit	nit			2.2.6	441	0			2652,301
+14542	697	Jinuo (Baka)	kɤ³³ ji⁴⁴	kɤ³³ ji⁴⁴	meat	meat			1.1.1.1	584	0			1130,m
+14543	697	Jinuo (Baka)	pɯ⁴⁴ na³¹ ʃo⁴⁴	pɯ⁴⁴ na³¹ ʃo⁴⁴	beef	beef			2.1.2	585	0			
+14544	697	Jinuo (Baka)	a³³ na⁴⁴	a³³ na⁴⁴	lean meat	lean meat			1.1.1	589	0			p,44
+14545	697	Jinuo (Baka)	a³³ tsʰɯ⁴⁴	a³³ tsʰɯ⁴⁴	oil	oil			1.6.4.1	590	0			p,48
+14546	697	Jinuo (Baka)	a³³ tsʰɯ⁴⁴	a³³ tsʰɯ⁴⁴	animal oil	animal oil			2.3	591	0			p,48
+14547	697	Jinuo (Baka)	v̩³³	v̩³³	egg	egg				604	0			301
+14548	697	Jinuo (Baka)	ne⁴⁴	ne⁴⁴	ghost	ghost			4.2.12.2	962	0			160
+14549	697	Jinuo (Baka)	ko⁴⁴ kʰu⁴⁴	ko⁴⁴ kʰu⁴⁴	energy	energy			1.1.4	982	0			
+14550	697	Jinuo (Baka)	a⁴⁴ ji³¹	a⁴⁴ ji³¹	shadow	shadow			3.2.10	1028	0			p,2614
+14551	697	Jinuo (Baka)	m̥e³⁵ m̥a³¹	m̥e³⁵ m̥a³¹	dream	dream			1.1.4.2	1029	0		D1	130,126
+14552	697	Jinuo (Baka)	ko³¹ tʃʰe⁴⁴	ko³¹ tʃʰe⁴⁴	between	between			9.2.3	1042	0			691,m
+14553	697	Jinuo (Baka)	a³³ tse⁴⁴	a³³ tse⁴⁴	side	side			1.4.5	1044	0			
+14554	697	Jinuo (Baka)	la⁵⁵ v̩⁵⁵	la⁵⁵ v̩⁵⁵	left	left			1.5.3.2	1045	0			695,2154
+14555	697	Jinuo (Baka)	la⁵⁵ m̥o⁵⁵	la⁵⁵ m̥o⁵⁵	right	right			1.5.3.2	1046	0			695,m
+14556	697	Jinuo (Baka)	a⁴⁴ pɤ³³	a⁴⁴ pɤ³³	front	front			1.4.4	1047	0			m,m
+14557	697	Jinuo (Baka)	a⁴⁴ n̥u³¹	a⁴⁴ n̥u³¹	back	back			1.4.8	1048	0			p,203
+14558	697	Jinuo (Baka)	plɯ³³	plɯ³³	full (man)	full (man)			1.1.3.2	1426	0			111
+14559	697	Jinuo (Baka)	a⁴⁴ pʰle⁴⁴	a⁴⁴ pʰle⁴⁴	shrivelled	shrivelled			9.5	1428	0		D0	
+14560	697	Jinuo (Baka)	a⁴⁴ kʰø⁵⁵	a⁴⁴ kʰø⁵⁵	bald	bald			1.2.3.4	1436	0			p,1430
+14561	697	Jinuo (Baka)	a⁴⁴ |kʰø⁵⁵ lø⁵⁵	a⁴⁴ |kʰø⁵⁵ lø⁵⁵	bald	bald			1.2.3.4	1436.1	0			p,1430
+14562	697	Jinuo (Baka)	pʌ⁵⁵	pʌ⁵⁵	fat (person)	fat (person)			1.6.4	1472	0			50
+14563	697	Jinuo (Baka)	a⁴⁴ kʰjv̩⁴⁴	a⁴⁴ kʰjv̩⁴⁴	thin (person)	thin (person)			9.7.2	1474	0			
+14564	697	Jinuo (Baka)	tø⁵⁵ to⁴⁴ a³³	tø⁵⁵ to⁴⁴ a³³	alive	alive			1.1.2.1	1546	0			72,m,m
+14565	697	Jinuo (Baka)	ʃɿ³⁵ to⁴⁴ a⁴⁴	ʃɿ³⁵ to⁴⁴ a⁴⁴	dead	dead			1.1.6	1547	0			27,30,m
+14566	697	Jinuo (Baka)	plɯ⁴⁴	plɯ⁴⁴	full (from eating)	full (from eating)			1.1.3.2	1652	0			111
+14567	697	Jinuo (Baka)	m̩³¹	m̩³¹	close (mouth)	close (mouth)			6.2.2.6.2	1664	0			31
+14568	697	Jinuo (Baka)	m̥i³¹	m̥i³¹	close (eyes)	close (eyes)			6.2.2.6.2	1664.1	0			31
+14569	697	Jinuo (Baka)	no³¹	no³¹	sick	sick			1.1.5.1	1678	0			160
+14570	697	Jinuo (Baka)	klʌ⁵⁵	klʌ⁵⁵	sing	sing			5.1	1704	0			
+14571	697	Jinuo (Baka)	tso⁴⁴	tso⁴⁴	eat	eat			1.5.3.2	1722	0			36
+14572	697	Jinuo (Baka)	tsɯ³³	tsɯ³³	blow (trumpet)	blow (trumpet)			1.3.1.4	1748	0			1739
+14573	697	Jinuo (Baka)	kɤ³¹	kɤ³¹	gasp, pant	gasp, pant	v	v	1.1.2.2	1752	0			
+14574	697	Jinuo (Baka)	xa⁵⁵ |tʃʰi³¹ m̩³¹	xa⁵⁵ tʃʰi³¹ m̩³¹	sneeze	sneeze			1.8.2.1	1782	0			2131,m
+14575	697	Jinuo (Baka)	ji³¹ n̥v̩⁵⁵	ji³¹ n̥v̩⁵⁵	nap (take)	nap (take)	v	v	6.21	1783	0			
+14576	697	Jinuo (Baka)	xɤ⁵⁵ xɛ³¹	xɤ⁵⁵ xɛ³¹	yawn	yawn			1.3.1.3	1785	0			1716,1716
+14577	697	Jinuo (Baka)	ɤ⁵⁵	ɤ⁵⁵	hiccup / belch	hiccup  /  belch			1.8.3.5	1786	0	jbl3		3443
+14578	697	Jinuo (Baka)	ji⁵⁵ mɯ⁵⁵	ji⁵⁵ mɯ⁵⁵	snore	snore			1.8.2.2	1787	0			127,m
+14579	697	Jinuo (Baka)	tʰʌ⁵⁵	tʰʌ⁵⁵	bite, sting (mosquito)	bite, sting (mosquito)			1.3.4.4	1828	0			1799
+14580	697	Jinuo (Baka)	kɤ³¹ tsʰe³³	kɤ³¹ tsʰe³³	die (breath one's last)	die (breath one's last)			9.9	1846	0			m,1007
+14581	697	Jinuo (Baka)	mø⁵⁵	mø⁵⁵	hungry	hungry			1.1.3	1858	0			99
+14582	697	Jinuo (Baka)	pʰœ⁵⁵ n̥v̩⁵⁵	pʰœ⁵⁵ n̥v̩⁵⁵	nauseated	nauseated			1.1.5.1	1859	0			1145,m
+14583	697	Jinuo (Baka)	ɬv̩³¹	ɬv̩³¹	tremble	tremble			6.7.3	1864	0			
+14584	697	Jinuo (Baka)	a⁴⁴ ɬv̩⁴⁴ ɬv̩⁴⁴	a⁴⁴ ɬv̩⁴⁴ ɬv̩⁴⁴	fever (have)	fever (have)	v	v	1.1.5.1	1866	0			
+14585	697	Jinuo (Baka)	plɛ³¹	plɛ³¹	fly	fly			2.2.6	1891	0			
+14586	697	Jinuo (Baka)	a⁴⁴ mv̩⁴⁴ lv̩⁴⁴	a⁴⁴ mv̩⁴⁴ lv̩⁴⁴	insane	insane			8.3.1.11.3	1897	0			
+14587	697	Jinuo (Baka)	v̩³¹	v̩³¹	incubate	incubate			1.9.1.2	1899	0			301
+14588	697	Jinuo (Baka)	a⁴⁴ tɛ⁴⁴ no³¹	a⁴⁴ tɛ⁴⁴ no³¹	cold (have)	cold (have)	v	v	7.1.2.3	1910	0			
+14589	697	Jinuo (Baka)	kʰv̩³¹	kʰv̩³¹	call (to someone)	call (to someone)			8.5.13	1960	0			
+14590	697	Jinuo (Baka)	tʌ³¹	tʌ³¹	drink	drink				1964	0			502
+14591	697	Jinuo (Baka)	pi⁴⁴ tʌ⁴⁴	pi⁴⁴ tʌ⁴⁴	make drink	make drink			6.14	1964.1	0			m,502
+14592	697	Jinuo (Baka)	kʰu³¹	kʰu³¹	call (to animal) (huan)	call (to animal) (huan)			8.5.13	1986	0			
+14593	697	Jinuo (Baka)	tø⁵⁵	tø⁵⁵	come alive (huoliao)	come alive (huoliao)			6.7.1	2003	0			72
+14594	697	Jinuo (Baka)	tʃʰʌ⁴⁴	tʃʰʌ⁴⁴	tell (story)	tell (story)			1.8.7	2035	0			
+14595	697	Jinuo (Baka)	kʰe⁵⁵	kʰe⁵⁵	chew	chew			1.3.4	2041	0			755
+14596	697	Jinuo (Baka)	tø³¹	tø³¹	crow (rooster)	crow (rooster)			2.2.4.1	2042	0			
+14597	697	Jinuo (Baka)	to³¹	to³¹	cackle (hen)	cackle (hen)			8.5.5	2043	0			
+14598	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	call (cat)	call (cat)			8.5.13	2044	0			o
+14599	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	bray (donkey)	bray (donkey)			8.5.4.1	2045	0			w
+14600	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	neigh (horse)	neigh (horse)			8.5.5	2046	0			
+14601	697	Jinuo (Baka)	mɯ³¹ xœ³¹	mɯ³¹ xœ³¹	call (cow)	call (cow)			8.5.13	2047	0			
+14602	697	Jinuo (Baka)	ɬu⁵⁵	ɬu⁵⁵	bark (dog)	bark (dog)			2.1.11.1	2048	0			1790
+14603	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	grunt (pig)	grunt (pig)			2.1.11.1	2049	0			o
+14604	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	call (sheep)	call (sheep)			8.5.13	2050	0			
+14605	697	Jinuo (Baka)	kɯ³¹	kɯ³¹	roar (tiger)	roar (tiger)			8.5.5	2051	0			o
+14606	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	howl (wolf)	howl (wolf)			8.5.5	2053	0			
+14607	697	Jinuo (Baka)	kʰv̩³¹	kʰv̩³¹	call (name)	call (name)			8.5.13	2054	0			
+14608	697	Jinuo (Baka)	pʰu³³	pʰu³³	open (as door)	open (as door)			6.2.2.6.1	2092	0			5704
+14609	697	Jinuo (Baka)	tɛ³³	tɛ³³	look at	look at			1.2.6.11	2101	0			1236
+14610	697	Jinuo (Baka)	tɛ³³ mjʌ⁴⁴	tɛ³³ mjʌ⁴⁴	see	see			1.2.6.10	2103	0			1236,681
+14611	697	Jinuo (Baka)	tsʰɿ⁴⁴	tsʰɿ⁴⁴	cough	cough			1.8.3.3	2111	0			
+14612	697	Jinuo (Baka)	ʃɿ⁵⁵	ʃɿ⁵⁵	thirsty	thirsty			1.1.3.1	2112	0			101
+14613	697	Jinuo (Baka)	kʰe⁵⁵	kʰe⁵⁵	gnaw	gnaw			1.3.4.4	2115	0			755
+14614	697	Jinuo (Baka)	ŋjv̩³¹	ŋjv̩³¹	cry, weep	cry, weep			1.8.8.2	2118	0			1104
+14615	697	Jinuo (Baka)	ji⁵⁵ n̥u⁵⁵	ji⁵⁵ n̥u⁵⁵	tired, sleepy	tired, sleepy			9.6.2.2	2125	0			127,m
+14616	697	Jinuo (Baka)	m̥ɛ⁴⁴	m̥ɛ⁴⁴	tired	tired			9.6.2.2	2135	0			
+14617	697	Jinuo (Baka)	pɤ⁴⁴	pɤ⁴⁴	deaf	deaf			1.2.7.5	2160	0			1409
+14618	697	Jinuo (Baka)	pi³¹	pi³¹	numb	numb			1.5.11	2165	0			5685
+14619	697	Jinuo (Baka)	plɯ⁴⁴	plɯ⁴⁴	fill up	fill up	v.i.	v.i.	6.11	2167	0			
+14620	697	Jinuo (Baka)	m̥e³⁵ m̥a³¹	m̥e³⁵ m̥a³¹	dream	dream			1.1.4.2	2171	0	jbl5	HIDE	DUPE IN SOURCE
+14621	697	Jinuo (Baka)	m̥i³¹	m̥i³¹	narrow eyes; squint	narrow eyes; squint			9.7.2	2179	0			
+14622	697	Jinuo (Baka)	m̥i³¹ vi³³	m̥i³¹ vi³³	narrow eyes; squint	narrow eyes; squint			9.7.2	2179.1	0			
+14623	697	Jinuo (Baka)	mɯ³¹	mɯ³¹	call (bird) (ming)	call (bird) (ming)			8.5.13	2180	0			
+14624	697	Jinuo (Baka)	pʰø⁵⁵	pʰø⁵⁵	vomit	vomit			1.8.3.2	2202	0			1145
+14625	697	Jinuo (Baka)	vʌ³¹	vʌ³¹	raise (tail)	raise (tail)			6.7.7	2252	0			
+14626	697	Jinuo (Baka)	mɯ⁴⁴	mɯ⁴⁴	cured (illness)	cured (illness)	be v.	be v.	1.1.5.1	2265	0			
+14627	697	Jinuo (Baka)	mɯ⁴⁴	mɯ⁴⁴	heal (wound)	heal (wound)			1.1.5.1	2266	0			
+14628	697	Jinuo (Baka)	ʃo³³	ʃo³³	crippled	crippled			4.2.7	2268	0			
+14629	697	Jinuo (Baka)	kʰu⁴⁴	kʰu⁴⁴	shout, yell	shout, yell			8.5.4.1	2272	0			
+14630	697	Jinuo (Baka)	pʰi⁵⁵	pʰi⁵⁵	urinate	urinate			1.5.3.2	2286	0			
+14631	697	Jinuo (Baka)	no³¹	no³¹	hurt, wound	hurt, wound	v	v	1.1.5.1	2304	0			160
+14632	697	Jinuo (Baka)	xɯ⁴⁴ lɯ³³	xɯ⁴⁴ lɯ³³	grow up (shengzhang)	grow up (shengzhang)			9.7.2	2317	0			
+14633	697	Jinuo (Baka)	tv̩⁴⁴	tv̩⁴⁴	grow (boil)	grow (boil)			9.7.2	2319	0			
+14634	697	Jinuo (Baka)	tʃa³¹	tʃa³¹	birth, give	birth, give	v	v	1.1.2	2320	0			95
+14635	697	Jinuo (Baka)	kʰjv̩⁴⁴	kʰjv̩⁴⁴	thin	thin	v	v	9.7.2	2346	0			
+14636	697	Jinuo (Baka)	ji⁵⁵	ji⁵⁵	sleep	sleep			1.1.4.1	2357	0			127
+14637	697	Jinuo (Baka)	ji⁵⁵ tɛ³⁵ ja⁴⁴ u⁵⁵ nø⁴⁴	ji⁵⁵ tɛ³⁵ ja⁴⁴ u⁵⁵ nø⁴⁴	asleep	asleep			1.1.4.1	2359	0			127,m,m,m,m
+14638	697	Jinuo (Baka)	tʃʰv̩⁵⁵	tʃʰv̩⁵⁵	suck (milk)	suck (milk)			1.3.2.1	2360	0			5541
+14639	697	Jinuo (Baka)	xo⁴⁴	xo⁴⁴	speak	speak			8.5.10.1	2361	0			
+14640	697	Jinuo (Baka)	ʃɿ³¹	ʃɿ³¹	die	die			1.1.6	2363	0			27
+14641	697	Jinuo (Baka)	m̥ɛ⁴⁴	m̥ɛ⁴⁴	sore (leg)	sore (leg)			1.1.5.1	2368	0			
+14642	697	Jinuo (Baka)	nɔ³¹	nɔ³¹	ache (teng)	ache (teng)			1.1.5.1	2391	0			160
+14643	697	Jinuo (Baka)	mlʌ⁵	mlʌ⁵	lick	lick			1.3.3.1	2401	0			629
+14644	697	Jinuo (Baka)	tʰɯ³¹	tʰɯ³¹	beat (pulse)	beat (pulse)			6.8	2407	0			
+14645	697	Jinuo (Baka)	n̥o³¹	n̥o³¹	listen	listen			1.2.7.4	2409	0			811
+14646	697	Jinuo (Baka)	n̥o³¹ kjɔ⁴⁴	n̥o³¹ kjɔ⁴⁴	hear	hear			1.2.7.4	2410	0			811,1411
+14647	697	Jinuo (Baka)	mjv̩⁵⁵	mjv̩⁵⁵	swallow	swallow	v	v	1.3.5.6	2416	0		D1	627
+14648	697	Jinuo (Baka)	pʰi⁵⁵	pʰi⁵⁵	spit	spit			1.8.3	2421	0			
+14649	697	Jinuo (Baka)	pʰu³¹	pʰu³¹	molt (snake)	molt (snake)			1.6.5.6	2429	0			
+14650	697	Jinuo (Baka)	nɛ³¹	nɛ³¹	smell (with nose)	smell (with nose)			1.2.8.5	2450	0			1415
+14651	697	Jinuo (Baka)	tʃʰɿ³¹ nɛ³¹	tʃʰɿ³¹ nɛ³¹	inhale	inhale			1.1.2.2	2456	0			
+14652	697	Jinuo (Baka)	plɯ⁵⁵	plɯ⁵⁵	blind	blind			1.2.6.14.2	2465	0			1239
+14653	697	Jinuo (Baka)	tʃa³¹	tʃa³¹	birth, give (to piglet)	birth, give  (to piglet)			1.1.2	2467	0	jbl3		95
+14654	697	Jinuo (Baka)	kʰlo⁴⁴	kʰlo⁴⁴	lay egg	lay egg			6.17	2468	0			3489
+14655	697	Jinuo (Baka)	plɛ⁴⁴	plɛ⁴⁴	recede (boil)	recede (boil)			6.7.1	2488	0			
+14656	697	Jinuo (Baka)	ɯ³¹	ɯ³¹	laugh	laugh			1.8.8.1	2492	0			1108
+14657	697	Jinuo (Baka)	kʰji³¹	kʰji³¹	blow nose	blow nose			1.3.1.4	2497	0			
+14658	697	Jinuo (Baka)	nv̩⁴⁴	nv̩⁴⁴	wake	wake			1.1.4	2498	0			143
+14659	697	Jinuo (Baka)	n̥o³³ pjʌ³³	n̥o³³ pjʌ³³	rest	rest			1.1.4.1	2499	0			84,m
+14660	697	Jinuo (Baka)	tv̩⁴⁴	tv̩⁴⁴	caponize	caponize			2.4.1	2509	0			m
+14661	697	Jinuo (Baka)	mjv̩⁵⁵	mjv̩⁵⁵	swallow	swallow	v	v	1.3.5.6	2511	0	jbl5	HIDE	DUPE IN SOURCE
+14662	697	Jinuo (Baka)	tsɯ³¹	tsɯ³¹	itch	itch			1.6.5.5	2515	0			56
+14663	697	Jinuo (Baka)	kʰje⁵⁵	kʰje⁵⁵	bitten	bitten	be v.	be v.	1.3.4.4	2520	0			
+14664	697	Jinuo (Baka)	tʰʌ⁵⁵	tʰʌ⁵⁵	bite	bite			1.3.4.4	2521	0			1799
+14665	697	Jinuo (Baka)	tʰʌ⁵⁵ kʰa³¹	tʰʌ⁵⁵ kʰa³¹	bite hold of	bite hold of			1.3.4.4	2522	0			1799,m
+14666	697	Jinuo (Baka)	n̥ɤ⁴⁴ tʰɤ⁵⁵	n̥ɤ⁴⁴ tʰɤ⁵⁵	dizzy	dizzy			8.3.1.11.3	2550	0			
+14667	697	Jinuo (Baka)	m̥i³¹	m̥i³¹	blink	blink			1.2.6.12	2563	0			31
+14668	697	Jinuo (Baka)	ŋ̊a⁵⁵	ŋ̊a⁵⁵	open (mouth)	open (mouth)			6.2.2.6.1	2571	0			5706
+14669	697	Jinuo (Baka)	xɯ⁴⁴	xɯ⁴⁴	grow (up)	grow (up)			9.7.2	2572	0			
+14670	697	Jinuo (Baka)	tsɯ⁴⁴	tsɯ⁴⁴	bloat (belly) (zhang)	bloat (belly) (zhang)			1.4.7	2574	0			
+14671	697	Jinuo (Baka)	m̩³¹ tsʰø⁵⁵ nø³³	m̩³¹ tsʰø⁵⁵ nø³³	nervous	nervous			8.3.1.5.5	2577	0			
+14672	697	Jinuo (Baka)	tø⁴⁴	tø⁴⁴	sting	sting	v	v	2.4.2	2583	0			3435
+14673	697	Jinuo (Baka)	plɛ⁵⁵	plɛ⁵⁵	open (eyes)	open (eyes)			6.2.2.6.1	2584	0			
+14674	697	Jinuo (Baka)	pø⁵⁵	pø⁵⁵	swell up	swell up			1.1.5.2	2595	0			163?
+14675	697	Jinuo (Baka)	mu⁴⁴	mu⁴⁴	drunk	drunk			1.3.5.9	2621	0			

@@ -1,823 +1,823 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-476461	1969	Kucong	mu31 thʌ33 kv55	mu31 thʌ33 kv55	sky	sky		3.2.2		0		2473
-476462	1969	Kucong	mu31 ȵi33	mu31 ȵi33	sun	sun		3.2.10		0		
-476463	1969	Kucong	lʌ33 pʌ33	lʌ33 pʌ33	moonlight	moonlight		3.2.10		0		1016,s
-476464	1969	Kucong	mu31 gɯ33 lɯ55	mu31 gɯ33 lɯ55	stars	stars		3.2.2		0		
-476465	1969	Kucong	mu31 tsɔ35	mu31 tsɔ35	cloud	cloud		3.2.1		0		2473
-476466	1969	Kucong	mu31 thɔ33	mu31 thɔ33	thunder	thunder		3.2.1		0		2473
-476467	1969	Kucong	mɯ31 xʌ33	mɯ31 xʌ33	wind	wind		3.2.1		0		2473,2412
-476468	1969	Kucong	mu31 zɿ31	mu31 zɿ31	rain	rain		3.2.1		0		2473,2080
-476469	1969	Kucong	vʌ31 liɛ55 tsɿ31	vʌ31 liɛ55 tsɿ31	hail / hailstone	hail / hailstone		3.2.1		0		3554,m,m
-476470	1969	Kucong	thuŋ31	thuŋ31	copper [loan]	copper [loan]		3.2.4		0		
-476471	1969	Kucong	li55 tɕi33	li55 tɕi33	charcoal	charcoal		3.2.4		0		
-476472	1969	Kucong	tshʌ33	tshʌ33	salt	salt		3.2.4		0		2729
-476473	1969	Kucong	khɔ31 liɛ33	khɔ31 liɛ33	plant ash	plant ash		3.1.10		0		
-476474	1969	Kucong	mu31 mi31	mu31 mi31	place	place		9.10.5		0		
-476475	1969	Kucong	kha33	kha33	village	village		5.8		0		5745
-476476	1969	Kucong	lau31	lau31	jail	jail		5.11.9.1		0		
-476477	1969	Kucong	tsv31	tsv31	bridge	bridge		9.10.2		0		3604
-476478	1969	Kucong	tv35 phv55	tv35 phv55	grave	grave		9.10.6		0		
-476479	1969	Kucong	la31 ɕi35	la31 ɕi35	fingernail	fingernail		1.5.10.1		0		
-476480	1969	Kucong	la31 tɕhui31 phu33	la31 tɕhui31 phu33	fist	fist		1.5.1.1.1		0		695,m,m
-476481	1969	Kucong	a31 gv31 kv55	a31 gv31 kv55	skin	skin		1.6.5		0		
-476482	1969	Kucong	bɤ31 na33	bɤ31 na33	mole (on skin)	mole (on skin)		2.2.7		0		
-476483	1969	Kucong	pɔ33 mɔ33	pɔ33 mɔ33	skin ulcer	skin ulcer		1.6.5		0		
-476484	1969	Kucong	pa33 ʑiŋ35	pa33 ʑiŋ35	scar	scar		1.6.5.3		0		
-476485	1969	Kucong	a31 sɤ35	a31 sɤ35	blood	blood		1.6.2		0		p,230
-476486	1969	Kucong	tɕiŋ33	tɕiŋ33	muscle [loan]	muscle [loan]		1.6.6.2		0		bChinese
-476487	1969	Kucong	v55 nɔ31	v55 nɔ31	brain	brain		1.2.4		0		385,243
-476488	1969	Kucong	ŋɯ55	ŋɯ55	frost	frost		3.2.1		0		3565
-476489	1969	Kucong	tsɿ35 ɣɯ31	tsɿ35 ɣɯ31	dew	dew				0		59,1013
-476490	1969	Kucong	mu31 tsɔ35	mu31 tsɔ35	fog	fog		3.2.1		0		2473
-476491	1969	Kucong	a31 mi35	a31 mi35	fire	fire		3.2.12.2		0		
-476492	1969	Kucong	mu31 khu31	mu31 khu31	smoke	smoke		3.2.12.2		0		
-476493	1969	Kucong	sa55	sa55	air	air		1.1.2.2		0		32
-476494	1969	Kucong	mi31	mi31	land	land		3.2.5		0		
-476495	1969	Kucong	kɯ33 mʌ33	kɯ33 mʌ33	mountain	mountain		3.2.5		0		
-476496	1969	Kucong	ka31 ta33	ka31 ta33	hillside	hillside		3.2.5		0		
-476497	1969	Kucong	ga31 phi55	ga31 phi55	precipice	precipice		3.2.5		0		
-476498	1969	Kucong	xa55 khu31	xa55 khu31	rock	rock		3.2.9		0		2166,m
-476499	1969	Kucong	a31 khu33	a31 khu33	cave	cave		3.2.7		0		p,820
-476500	1969	Kucong	lɔ31	lɔ31	river	river		3.2.3		0		191
-476501	1969	Kucong	fv31	fv31	lake [possible loan]	lake [possible loan]		3.2.5		0		bChinese
-476502	1969	Kucong	liɛ55 tɔ33	liɛ55 tɔ33	pond	pond		3.2.3		0		
-476503	1969	Kucong	ɣɯ31 khʌ31	ɣɯ31 khʌ31	ditch; channel	ditch; channel		3.2.7		0		1013,5668
-476504	1969	Kucong	tɤ31 khv31 lv31	tɤ31 khv31 lv31	hole; pit	hole; pit		3.2.7		0		
-476505	1969	Kucong	ɣa31 ku33	ɣa31 ku33	road	road		9.10.1		0		
-476506	1969	Kucong	pa55 tsɿ31	pa55 tsɿ31	flatland	flatland				0		
-476507	1969	Kucong	mi31 dʑi31	mi31 dʑi31	earth, soil	earth, soil		3.2.11		0		
-476508	1969	Kucong	zʌ33	zʌ33	(field) land	(field) land		3.2.5		0		
-476509	1969	Kucong	ti33 zʌ33	ti33 zʌ33	paddy field	paddy field		9.10.5		0		5672,m
-476510	1969	Kucong	xa55 kv33	xa55 kv33	stone	stone		3.2.9		0		2166,m
-476511	1969	Kucong	sa33 la33	sa33 la33	sand [loan]	sand [loan]		3.2.11		0		bChinese
-476512	1969	Kucong	khɔ31 liɛ35	khɔ31 liɛ35	dust	dust		3.2.11		0		
-476513	1969	Kucong	kiɛ35 tshɿ31	kiɛ35 tshɿ31	mud	mud		3.2.11		0		
-476514	1969	Kucong	a55 ka33	a55 ka33	water	water		3.2.3		0		
-476515	1969	Kucong	sɿ33	sɿ33	gold	gold		3.2.4		0		3496
-476516	1969	Kucong	phv33	phv33	silver	silver		3.2.4		0		1235
-476517	1969	Kucong	a55 nɔ31 bi55	a55 nɔ31 bi55	baby; infant	baby; infant		4.2.11		0		
-476518	1969	Kucong	tshu33 mu31 kv33 lv33	tshu33 mu31 kv33 lv33	old man	old man		7.1.8.3		0		3327,2440,m,m
-476519	1969	Kucong	a31 bi35 mʌ33	a31 bi35 mʌ33	old woman	old woman		7.1.8.3		0		p,2559,1619
-476520	1969	Kucong	zʌ31 kha33 zʌ31	zʌ31 kha33 zʌ31	man	man		1.9.6.1		0		
-476521	1969	Kucong	zʌ31 mi31 zʌ31	zʌ31 mi31 zʌ31	woman	woman		1.9.3		0		1012,1618,m
-476522	1969	Kucong	tshu33 la55 zʌ31	tshu33 la55 zʌ31	youth	youth		4.2.11		0		m,5777,m
-476523	1969	Kucong	zʌ31 mi31 la55	zʌ31 mi31 la55	girl	girl		1.9.3		0		
-476524	1969	Kucong	ɣɔ35 su55 su55 tsʌ31	ɣɔ35 su55 su55 tsʌ31	beggar	beggar		8.5.10.3		0		
-476525	1969	Kucong	tshu33 khu31	tshu33 khu31	thief	thief		4.2.12.1		0		m,2365
-476526	1969	Kucong	na31 ɕi33 tshu33	na31 ɕi33 tshu33	sick person	sick person		1.1.5.1		0		
-476527	1969	Kucong	tv33 kv33	tv33 kv33	head	head		1.2.1		0		
-476528	1969	Kucong	dzɿ33 khɯ33	dzɿ33 khɯ33	hair	hair		1.2.3		0		1232,372
-476529	1969	Kucong	dzɿ33 phiɛ31	dzɿ33 phiɛ31	braid	braid		1.2.3.2		0		m,2018
-476530	1969	Kucong	na55 ka31 phv33	na55 ka31 phv33	forehead	forehead		1.2.5.1		0		356,2026,276
-476531	1969	Kucong	miɛ33 mu33	miɛ33 mu33	eyebrow	eyebrow		1.2.6.6		0		
-476532	1969	Kucong	miɛ33 khʌ33	miɛ33 khʌ33	eye	eye		1.2.6		0		681,1110
-476533	1969	Kucong	na35 khu31	na35 khu31	nose	nose		1.2.8		0		803,809
-476534	1969	Kucong	na55 pv33	na55 pv33	ear	ear		1.2.7		0		811,812
-476535	1969	Kucong	miɛ33 phv31	miɛ33 phv31	face	face		1.2.5		0		681,1186
-476536	1969	Kucong	mɯ31 nʌ33	mɯ31 nʌ33	mouth	mouth		1.3.1		0		
-476537	1969	Kucong	mɯ31 nʌ33 kv55	mɯ31 nʌ33 kv55	lip	lip		1.3.2		0		
-476538	1969	Kucong	mu31 dzʌ33	mu31 dzʌ33	beard / moustache	beard / moustache		1.2.5.5		0		
-476539	1969	Kucong	ɕa55 pa33	ɕa55 pa33	chin [loan]	chin [loan]		1.2.5.3		0		
-476540	1969	Kucong	kɔ35 kɔ31	kɔ35 kɔ31	neck	neck		1.4.2		0		
-476541	1969	Kucong	la31 phi33 pa55	la31 phi33 pa55	shoulder	shoulder		1.4.3		0		695,276,565
-476542	1969	Kucong	kɔ31 mʌ33	kɔ31 mʌ33	back	back		1.4.8		0		
-476543	1969	Kucong	ȵi33 mʌ33 kv55	ȵi33 mʌ33 kv55	chest	chest		1.4.4.3		0		
-476544	1969	Kucong	dzv55 miɛ55	dzv55 miɛ55	breasts	breasts				0		
-476545	1969	Kucong	fv55	fv55	belly	belly		1.4.7		0		
-476546	1969	Kucong	fv55 dv31	fv55 dv31	navel	navel		1.9.4		0		m,520
-476547	1969	Kucong	tsɔ31	tsɔ31	waist	waist		1.4.6		0		215
-476548	1969	Kucong	khiɛ31 pi55	khiɛ31 pi55	buttocks; bottom	buttocks; bottom		1.4.10		0		
-476549	1969	Kucong	khɯ33 tv31	khɯ33 tv31	thigh	thigh		1.5.7.1		0		
-476550	1969	Kucong	khɯ33 mɯ55 li31	khɯ33 mɯ55 li31	knee	knee		1.5.8.4		0		
-476551	1969	Kucong	khɯ33 kɔ35	khɯ33 kɔ35	calf (of leg)	calf (of leg)		1.5.7		0		335,m
-476552	1969	Kucong	khɯ33 pv55	khɯ33 pv55	foot	foot		1.5.2		0		335,m
-476553	1969	Kucong	la31 pv55	la31 pv55	hand	hand		1.5.1.1		0		695,m
-476554	1969	Kucong	la31 nv33	la31 nv33	finger	finger		1.5.6		0		
-476555	1969	Kucong	la31 ʑɛ55 mʌ33 kv35	la31 ʑɛ55 mʌ33 kv35	thumb	thumb		1.5.6.1		0		
-476556	1969	Kucong	sa35 zʌ31	sa35 zʌ31	nephew (brother's son)	nephew (brother's son)		4.7.3		0		
-476557	1969	Kucong	miɛ35 mʌ33	miɛ35 mʌ33	sister-in-law (older brother's wife)	sister-in-law (older brother's wife)		1.5.3.2		0		1618,1619
-476558	1969	Kucong	a33 v33	a33 v33	maternal uncle	maternal uncle		4.7.1		0		
-476559	1969	Kucong	a33 mi33	a33 mi33	maternal aunt	maternal aunt		4.7.1		0		
-476560	1969	Kucong	a33 zv31	a33 zv31	paternal aunt	paternal aunt		4.7.1		0		
-476561	1969	Kucong	vi55 ȵi33	vi55 ȵi33	relative	relative		4.7.5		0		
-476562	1969	Kucong	zɔ31 phʌ31	zɔ31 phʌ31	wife's father, father-in-law	wife's father, father-in-law		4.7.1		0		
-476563	1969	Kucong	zɔ31 mʌ33	zɔ31 mʌ33	wife's mother, mother-in-law	wife's mother, mother-in-law		4.7.1		0		
-476564	1969	Kucong	zʌ31 kha33	zʌ31 kha33	husband	husband		4.7.4		0		
-476565	1969	Kucong	zʌ31 mʌ33	zʌ31 mʌ33	wife	wife		4.7.4		0		
-476566	1969	Kucong	a31 v31 kv35	a31 v31 kv35	bone	bone		1.6.3		0		
-476567	1969	Kucong	lɤ31 pa33 kv31	lɤ31 pa33 kv31	rib	rib		1.4.4.3		0		
-476568	1969	Kucong	v31 miɛ33 kv55	v31 miɛ33 kv55	joint	joint		1.5.8		0		
-476569	1969	Kucong	sv35	sv35	tooth	tooth		1.3.4		0		
-476570	1969	Kucong	sv35 ȵi33 zʌ31	sv35 ȵi33 zʌ31	gums	gums		1.3.4.3		0		
-476571	1969	Kucong	lʌ33 phiɛ31	lʌ33 phiɛ31	tongue	tongue		1.3.3		0		
-476572	1969	Kucong	lʌ33 phiɛ31 zʌ31 bi55	lʌ33 phiɛ31 zʌ31 bi55	uvula	uvula		1.3.5.1		0		
-476573	1969	Kucong	a31 tshɔ31 phv33	a31 tshɔ31 phv33	lung	lung		1.7.2		0		
-476574	1969	Kucong	ȵi33 mʌ33 ɕi35	ȵi33 mʌ33 ɕi35	heart (organ)	heart (organ)		1.7.1		0		297,s,m
-476575	1969	Kucong	a31 sɔ35	a31 sɔ35	liver	liver		1.7.3		0		p,1390
-476576	1969	Kucong	a31 ʑau33 tsɿ31	a31 ʑau33 tsɿ31	kidney	kidney		1.7.5		0		p,bChinese,bChinese
-476577	1969	Kucong	a31 gɯ33	a31 gɯ33	gallbladder	gallbladder		1.7.3		0		
-476578	1969	Kucong	a31 fv55 mʌ33	a31 fv55 mʌ33	stomach	stomach		1.7.6		0		p,2104,m
-476579	1969	Kucong	a31 v31	a31 v31	intestine	intestine		1.7.6		0		p,2102
-476580	1969	Kucong	khiɛ31	khiɛ31	excrement	excrement		1.8.5		0		572
-476581	1969	Kucong	dzɿ31 sv55	dzɿ31 sv55	urine / urinate	urine / urinate		1.8.4		0		650,m
-476582	1969	Kucong	v31 phiɛ31	v31 phiɛ31	fart	fart		1.8.5.2		0		3553,m
-476583	1969	Kucong	kɯ35	kɯ35	sweat	sweat		1.8.1		0		615
-476584	1969	Kucong	tsv55 phiɛ31	tsv55 phiɛ31	phlegm	phlegm		1.8.3		0		
-476585	1969	Kucong	mɯ31 ɣɯ31	mɯ31 ɣɯ31	saliva	saliva		1.8.3		0		687,1013
-476586	1969	Kucong	nv55 biɛ33	nv55 biɛ33	snot	snot		1.8.2		0		
-476587	1969	Kucong	miɛ33 ɣɯ31	miɛ33 ɣɯ31	tears	tears		1.2.6.7		0		
-476588	1969	Kucong	biɛ31	biɛ31	pus	pus		1.8.6.1		0		1292
-476589	1969	Kucong	pʌ33	pʌ33	sound	sound		9.3		0		
-476590	1969	Kucong	tshu33 sɿ33 ka33 la33	tshu33 sɿ33 ka33 la33	corpse	corpse		1.1.6.1		0		
-476591	1969	Kucong	ti31 ta35	ti31 ta35	life (force)	life (force)		1.1.2.1		0		
-476592	1969	Kucong	a55 liɛ55	a55 liɛ55	Han	Han				0		
-476593	1969	Kucong	tshu33	tshu33	person	person		4.5		0		
-476594	1969	Kucong	zʌ31 ȵɛ55	zʌ31 ȵɛ55	child	child		1.5.3.2		0		
-476595	1969	Kucong	fa33	fa33	rat / mouse	rat / mouse		2.1.1		0		2630
-476596	1969	Kucong	fa33 pɔ31 ȵi33	fa33 pɔ31 ȵi33	squirrel	squirrel		2.1.1		0		
-476597	1969	Kucong	fa33 la31	fa33 la31	weasel	weasel		2.2.7		0		
-476598	1969	Kucong	ŋa33	ŋa33	bird	bird		2.2.4		0		3442
-476599	1969	Kucong	ŋa33 phɯ33	ŋa33 phɯ33	birdnest	birdnest				0		
-476600	1969	Kucong	tsaŋ33 ki55 li31	tsaŋ33 ki55 li31	swallow (bird)	swallow (bird)		1.3.5.6		0		
-476601	1969	Kucong	ŋa33	ŋa33	sparrow	sparrow (same as 'bird')		2.2.4.1		0		3442
-476602	1969	Kucong	a33 na33 ka31	a33 na33 ka31	crow	crow		2.2.4.1		0		
-476603	1969	Kucong	bu31	bu31	pheasant	pheasant		2.2.4.1		0		
-476604	1969	Kucong	vɤ31	vɤ31	snake	snake		2.1.6.1		0		2623
-476605	1969	Kucong	a31 tshu31	a31 tshu31	friend	friend		4.4.2		0		
-476606	1969	Kucong	miɛ33 tsv55 lv55	miɛ33 tsv55 lv55	blind person	blind person		1.2.6.14.2		0		681,1401,m
-476607	1969	Kucong	khɯ33 pv55 khiɛ33 liɛ33	khɯ33 pv55 khiɛ33 liɛ33	lame person	lame person		1.5.12		0		
-476608	1969	Kucong	na35 bu31	na35 bu31	deaf person	deaf person		1.2.7.5		0		
-476609	1969	Kucong	tv33 kv33 di31 lɔ55	tv33 kv33 di31 lɔ55	bald person	bald person		1.2.3.4		0		
-476610	1969	Kucong	na31 kv55 ba35	na31 kv55 ba35	pock-marked person	pock-marked person		4.5		0		
-476611	1969	Kucong	tsɔ31 kɔ31 pɯ33 lɯ33	tsɔ31 kɔ31 pɯ33 lɯ33	hunchback	hunchback		1.4.8.3		0		
-476612	1969	Kucong	tshu33 ka35	tshu33 ka35	simpleton	simpleton				0		
-476613	1969	Kucong	ȵi31 v31	ȵi31 v31	insane person	insane person		8.3.1.11.3		0		
-476614	1969	Kucong	lʌ33 ŋa31	lʌ33 ŋa31	stutter	stutter		8.5.4.5		0		
-476615	1969	Kucong	vɛ33	vɛ33	guest	guest		4.4.3		0		
-476616	1969	Kucong	a31 bv35 a31 bi35	a31 bv35 a31 bi35	ancestors	ancestors		4.7.1		0		
-476617	1969	Kucong	a31 bv35	a31 bv35	grandfather	grandfather		4.7.1		0		p,2582
-476618	1969	Kucong	a31 bi35	a31 bi35	grandmother	grandmother		4.7.1		0		
-476619	1969	Kucong	a33 bʌ31	a33 bʌ31	father	father		4.7.1		0		
-476620	1969	Kucong	a33 mʌ31	a33 mʌ31	mother	mother		4.7.1		0		
-476621	1969	Kucong	zʌ31 pa35	zʌ31 pa35	son	son		4.7.3		0		
-476622	1969	Kucong	khɯ31 mʌ33	khɯ31 mʌ33	son's wife, daughter-in-law	son's wife, daughter-in-law		4.7.3		0		2348,1619
-476623	1969	Kucong	zʌ31 mi31	zʌ31 mi31	daughter	daughter		4.7.3		0		
-476624	1969	Kucong	ma55	ma55	daughter's husband, son-in-law	daughter's husband, son-in-law		4.7.3		0		
-476625	1969	Kucong	xɤ35	xɤ35	grandson	grandson		4.7.3		0		
-476626	1969	Kucong	a55 ku33	a55 ku33	older brother [loan]	older brother [loan]				0		
-476627	1969	Kucong	a33 tɕi31	a33 tɕi31	older sister [possible loan]	older sister [possible loan]				0		
-476628	1969	Kucong	a33 ȵi33	a33 ȵi33	younger brother	younger brother				0		
-476629	1969	Kucong	nv35 mʌ33	nv35 mʌ33	younger sister	younger sister				0		
-476630	1969	Kucong	ta55 tiɛ33	ta55 tiɛ33	father's elder brother [loan]	father's elder brother [loan]		4.7.1		0		
-476631	1969	Kucong	ta55 mu33	ta55 mu33	wife of father's elder brother [loan]	wife of father's elder brother [loan]		1.5.3.2		0		
-476632	1969	Kucong	a33 phi33	a33 phi33	father's younger brother	father's younger brother		1.5.3.2		0		
-476633	1969	Kucong	a33 mi33	a33 mi33	father's younger brother's wife	father's younger brother's wife		1.5.3.2		0		m,1618
-476634	1969	Kucong	a55 vʌ31 ɕi35	a55 vʌ31 ɕi35	peach	peach		3.1.5		0		
-476635	1969	Kucong	tɕhi31 mi55 ɕi35	tɕhi31 mi55 ɕi35	walnut	walnut		3.1.4		0		
-476636	1969	Kucong	tsa31	tsa31	rice paddy	rice paddy		3.1.4		0		
-476637	1969	Kucong	tshɿ55 nv31	tshɿ55 nv31	glutinous rice	glutinous rice		7.1.4.2		0		
-476638	1969	Kucong	a31 zu31	a31 zu31	seed	seed		3.1.4		0		
-476639	1969	Kucong	lɔ55	lɔ55	seedling	seedling		3.1.8		0		
-476640	1969	Kucong	nv33	nv33	ear (of grain)	ear (of grain)		1.2.7		0		
-476641	1969	Kucong	tsa31 ɕi35	tsa31 ɕi35	cereal grain	cereal grain		3.1.6.2		0		
-476642	1969	Kucong	gʌ31	gʌ31	buckwheat	buckwheat		3.1.4		0		
-476643	1969	Kucong	sʌ55 mʌ33	sʌ55 mʌ33	corn	corn		3.1.4		0		
-476644	1969	Kucong	a31 ʑɛ35 tsa55	a31 ʑɛ35 tsa55	stepmother	stepmother		4.7.1		0		
-476645	1969	Kucong	a31 pa35 tsa55	a31 pa35 tsa55	stepfather	stepfather		4.7.1		0		
-476646	1969	Kucong	mi31 tshu31 mʌ33	mi31 tshu31 mʌ33	widow	widow		4.2.8		0		4882,m,m
-476647	1969	Kucong	zʌ31 tshu31 zʌ31	zʌ31 tshu31 zʌ31	orphan	orphan		4.3		0		
-476648	1969	Kucong	tsɿ31 zʌ31	tsɿ31 zʌ31	livestock	livestock		1.1.1.1		0		
-476649	1969	Kucong	nv31	nv31	cow	cow		2.1.2		0		
-476650	1969	Kucong	nv31 ȵi33	nv31 ȵi33	ox; cattle	ox; cattle		2.1.2		0		2538,m
-476651	1969	Kucong	ɣɯ31 nv31	ɣɯ31 nv31	water buffalo	water buffalo		3.2.3		0		1013,m
-476652	1969	Kucong	nv31 zʌ31 bi55	nv31 zʌ31 bi55	calf (of cow)	calf (of cow)		1.5.7		0		
-476653	1969	Kucong	nv31 khv33	nv31 khv33	horn (of an animal)	horn (of an animal)		1.2.2		0		
-476654	1969	Kucong	khɯ33 thi31 tsɿ33	khɯ33 thi31 tsɿ33	hoof	hoof		1.5.4		0		
-476655	1969	Kucong	a31 gv31 kv55	a31 gv31 kv55	hide (of animal)	hide (of animal)		1.6.5.1		0		
-476656	1969	Kucong	a31 mu33	a31 mu33	wool	wool		1.6.1.3		0		p,363
-476657	1969	Kucong	a31 ma35	a31 ma35	tail	tail		1.4.10.1		0		p,1288
-476658	1969	Kucong	mu31	mu31	horse	horse		2.1.7		0		1431
-476659	1969	Kucong	tshɿ31	tshɿ31	goat	goat		2.1.8		0		1226
-476660	1969	Kucong	tshɿ31 zʌ31 bi55	tshɿ31 zʌ31 bi55	kid (baby goat)	kid (baby goat)		2.1.8		0		1226,m,1012,m,m
-476661	1969	Kucong	va31	va31	pig	pig		2.1.12		0		1006
-476662	1969	Kucong	phɯ31	phɯ31	dog	dog		2.1.11		0		1764
-476663	1969	Kucong	mi55 ȵɛ33	mi55 ȵɛ33	cat	cat		2.1.3		0		
-476664	1969	Kucong	thu31 |la31	thu31 la31	rabbit	rabbit		2.1.1		0		5356
-476665	1969	Kucong	ɣa33	ɣa33	chicken	chicken		2.1.10		0		1606
-476666	1969	Kucong	a³¹ ta³¹ la³¹ kv⁵⁵	a³¹ ta³¹ la³¹ kv⁵⁵	wing	wing		1.5.1.3		0		p,711,695,m
-476667	1969	Kucong	a31 piɛ31	a31 piɛ31	duck	duck		2.1.10		0		p,5713
-476668	1969	Kucong	lʌ31	lʌ31	tiger	tiger		2.1.3		0		5560
-476669	1969	Kucong	liɛ31	liɛ31	dragon	dragon		2.1.5		0		bChinese,b
-476670	1969	Kucong	a55 mɔ31	a55 mɔ31	monkey	monkey		2.1.9		0		p,2462
-476671	1969	Kucong	sa35 mu31	sa35 mu31	bear	bear		2.2.3		0		
-476672	1969	Kucong	va31 ti35	va31 ti35	wild boar	wild boar		3.2.5		0		1006,m
-476673	1969	Kucong	phʌ33	phʌ33	cloth	cloth		5.1		0		
-476674	1969	Kucong	phɯ33 kɯ33	phɯ33 kɯ33	clothes	clothes		5.11.8.2.1		0		
-476675	1969	Kucong	phʌ33 la31	phʌ33 la31	sleeve	sleeve		5.11.8.2.3		0		
-476676	1969	Kucong	tɕhɛ55 ɕi35	tɕhɛ55 ɕi35	button	button		5.11.8.2.3		0		
-476677	1969	Kucong	la35 khɯ33	la35 khɯ33	pants	pants		5.11.8.2.1.3		0		5571,m
-476678	1969	Kucong	thiɛ35 kɯ33	thiɛ35 kɯ33	skirt	skirt		5.11.8.2.1		0		
-476679	1969	Kucong	v55 thi33	v55 thi33	turban, headdress	turban, headdress		5.11.8.2.1.1		0		
-476680	1969	Kucong	ɣɔ55 mɔ55	ɣɔ55 mɔ55	hat	hat		5.11.8.2.1.1		0		
-476681	1969	Kucong	la35 tsa33	la35 tsa33	belt	belt		5.11.8.2.1.3		0		
-476682	1969	Kucong	khɯ55 nv33	khɯ55 nv33	shoes	shoes		5.11.8.1		0		
-476683	1969	Kucong	pa35 tiɛ33 liɛ33	pa35 tiɛ33 liɛ33	frog	frog		2.1.6.2		0		2148,645,m
-476684	1969	Kucong	ɛ55 nv31 zʌ31	ɛ55 nv31 zʌ31	tadpole	tadpole		2.1.6		0		
-476685	1969	Kucong	ŋʌ31	ŋʌ31	fish	fish		2.2.5		0		1455
-476686	1969	Kucong	pɔ31 mɯ55	pɔ31 mɯ55	insect	insect		2.2.6		0		2178,m
-476687	1969	Kucong	pɔ31 mɯ55 kɯ31 lɯ31	pɔ31 mɯ55 kɯ31 lɯ31	bedbug	bedbug		2.2.6		0		
-476688	1969	Kucong	sɿ33	sɿ33	louse	louse		2.2.6		0		2652
-476689	1969	Kucong	pɯ55	pɯ55	fly	fly		2.2.6		0		
-476690	1969	Kucong	lɔ33	lɔ33	maggot	maggot		2.2.6		0		5432
-476691	1969	Kucong	tsa55 kv33	tsa55 kv33	mosquito	mosquito		2.2.6		0		
-476692	1969	Kucong	tsa55 gʌ33 lʌ33	tsa55 gʌ33 lʌ33	spider	spider		2.2.6		0		m,5408,m
-476693	1969	Kucong	pɯ31 ti31 li31	pɯ31 ti31 li31	earthworm	earthworm		2.2.6		0		
-476694	1969	Kucong	vi31	vi31	leech	leech		2.2.6		0		2555
-476695	1969	Kucong	pɔ31 ɣɔ35	pɔ31 ɣɔ35	ant	ant		2.2.6		0		2178,m
-476696	1969	Kucong	ʑɛ31 piɛ31	ʑɛ31 piɛ31	bee	bee		2.2.6		0		
-476697	1969	Kucong	fv31 li55 tɕhiŋ33	fv31 li55 tɕhiŋ33	dragonfly	dragonfly		2.2.6		0		
-476698	1969	Kucong	pv31 lv31	pv31 lv31	butterfly	butterfly		2.2.6		0		2178,5432
-476699	1969	Kucong	sɤ33 tɕɛ31	sɤ33 tɕɛ31	tree	tree		3.1.2		0		2658,m
-476700	1969	Kucong	sɤ33 la31 ka55	sɤ33 la31 ka55	tree branch	tree branch		3.1.2		0		2658,m,1278
-476701	1969	Kucong	a31 tɕhi33	a31 tɕhi33	root	root		3.1.2		0		
-476702	1969	Kucong	a31 phiɛ31	a31 phiɛ31	leaf	leaf		3.1.3		0		
-476703	1969	Kucong	a31 vi33	a31 vi33	flower	flower		3.1.4		0		m,2185
-476704	1969	Kucong	sɤ33 ɕi35	sɤ33 ɕi35	fruit	fruit		3.1.5		0		
-476705	1969	Kucong	a31 khʌ33	a31 khʌ33	pit, stone	pit, stone		3.1.2		0		
-476706	1969	Kucong	a31 miɛ33	a31 miɛ33	bud, sprout	bud, sprout		3.1.4		0		
-476707	1969	Kucong	thv31 tɕɛ31	thv31 tɕɛ31	pine tree	pine tree		3.1.1		0		2690,6123
-476708	1969	Kucong	a33 kɯ55	a33 kɯ55	pine resin	pine resin		3.1.1		0		p,2331
-476709	1969	Kucong	vʌ31 tɕɛ31	vʌ31 tɕɛ31	bamboo	bamboo		3.1.1		0		2549,m
-476710	1969	Kucong	a55 tsa33	a55 tsa33	cane; rattan	cane; rattan		5.11.8.2.2		0		
-476711	1969	Kucong	a55 tshv31	a55 tshv31	thorn	thorn		3.1.2		0		
-476712	1969	Kucong	v31	v31	needle	needle		5.1		0		
-476713	1969	Kucong	gv33 tɕhi33	gv33 tɕhi33	ladder	ladder		5.4		0		260,m
-476714	1969	Kucong	sa33 ka55	sa33 ka55	stick	stick		3.1.2		0		
-476715	1969	Kucong	lu31	lu31	boat	boat		5.1		0		2416
-476716	1969	Kucong	khɯ55 tshɔ33	khɯ55 tshɔ33	axe	axe		5.11.5.3		0		
-476717	1969	Kucong	tɕi55 tsɤ31	tɕi55 tsɤ31	saw	saw		5.11.5.3		0		
-476718	1969	Kucong	tɕi55 kv33	tɕi55 kv33	hoe	hoe		5.3		0		
-476719	1969	Kucong	a55 tsa33	a55 tsa33	rope	rope		5.11.4		0		
-476720	1969	Kucong	a55 kɔ55	a55 kɔ55	sickle	sickle		5.3		0		
-476721	1969	Kucong	tiɛ35 khv31	tiɛ35 khv31	mortar	mortar		5.5		0		
-476722	1969	Kucong	a55 kv33	a55 kv33	millet	millet		1.5.3.2		0		
-476723	1969	Kucong	v33 tsa55	v33 tsa55	vegetable	vegetable		3.1.2		0		
-476724	1969	Kucong	u31 mʌ33 phu33	u31 mʌ33 phu33	radish	radish		3.1.5		0		
-476725	1969	Kucong	miɛ33 ȵi33	miɛ33 ȵi33	hot pepper	hot pepper				0		
-476726	1969	Kucong	tshɔ31 pi35	tshɔ31 pi35	ginger	ginger		3.1.5		0		
-476727	1969	Kucong	mɯ35 ɕi35	mɯ35 ɕi35	potato	potato		3.1.5		0		
-476728	1969	Kucong	nɔ33 ɕi35	nɔ33 ɕi35	bean	bean		3.1.4		0		
-476729	1969	Kucong	nɔ33 ɕi35	nɔ33 ɕi35	soybean	soybean		3.1.4		0		
-476730	1969	Kucong	mi31 ɕi35	mi31 ɕi35	peanut	peanut		3.1.4		0		
-476731	1969	Kucong	mɯ33 ɕi35	mɯ33 ɕi35	sesame	sesame		3.1.6.1		0		2487,1019
-476732	1969	Kucong	zʌ33 pv55	zʌ33 pv55	grass	grass		3.1.8		0		5642,m
-476733	1969	Kucong	mɔ31	mɔ31	mushroom	mushroom		3.1.7		0		2472
-476734	1969	Kucong	mɔ31 na55 kv33	mɔ31 na55 kv33	wood ear fungus	wood ear fungus		3.1.2		0		2472,m,m
-476735	1969	Kucong	tsa31 khʌ33	tsa31 khʌ33	rice	rice		3.1.4		0		
-476736	1969	Kucong	ɣɔ35	ɣɔ35	rice (cooked)	rice (cooked)		3.1.4		0		
-476737	1969	Kucong	ɣɔ35 biɛ33 liɛ33	ɣɔ35 biɛ33 liɛ33	rice porridge	rice porridge		3.1.4		0		
-476738	1969	Kucong	sa35	sa35	meat	meat		1.1.1.1		0		34
-476739	1969	Kucong	sa35 tɕi33 nɔ31	sa35 tɕi33 nɔ31	lean meat	lean meat		1.1.1		0		34,m,m
-476740	1969	Kucong	sa35 tshv33	sa35 tshv33	fat	fat (n.)	n	1.6.4		0		
-476741	1969	Kucong	ɣa33 v33	ɣa33 v33	(chicken) egg	(chicken) egg				0		1606,301
-476742	1969	Kucong	a55 ɣɯ31	a55 ɣɯ31	soup	soup		5.5		0		
-476743	1969	Kucong	dzɤ31	dzɤ31	liquor	liquor		3.1.6.3		0		5638
-476744	1969	Kucong	ɣɯ31 bɯ31	ɣɯ31 bɯ31	boiled water	boiled water		6.6		0		1013,m
-476745	1969	Kucong	tsha31 ʑi33	tsha31 ʑi33	tea [possible loan]	tea [possible loan]		3.1.1		0		b?
-476746	1969	Kucong	za33 khʌ31	za33 khʌ31	cigarette	cigarette		5.8		0		
-476747	1969	Kucong	na33 tshɿ31	na33 tshɿ31	medicine	medicine		5.4		0		m,5427
-476748	1969	Kucong	va31 phɯ31	va31 phɯ31	chaff, bran	chaff, bran		3.1.6		0		
-476749	1969	Kucong	va31 ɣɔ35	va31 ɣɔ35	pigfeed	pigfeed				0		
-476750	1969	Kucong	kɔ31 khɯ55	kɔ31 khɯ55	thread	thread		5.11.6		0		
-476751	1969	Kucong	a31 xɔ55 pɔ35	a31 xɔ55 pɔ35	underneath	underneath		9.2.2		0		
-476752	1969	Kucong	a31 tha35	a31 tha35	on, above	on, above		10.1.1		0		
-476753	1969	Kucong	a31 xɔ55	a31 xɔ55	under, below	under, below		9.2.2		0		
-476754	1969	Kucong	ʑa31 ȵi33	ʑa31 ȵi33	today	today		9.1.3		0		
-476755	1969	Kucong	a31 mi31 ȵi33	a31 mi31 ȵi33	yesterday	yesterday		9.1.3		0		
-476756	1969	Kucong	sɿ55 mi31 ȵi33	sɿ55 mi31 ȵi33	day before yesterday	day before yesterday		1.5.3.2		0		
-476757	1969	Kucong	a33 sɔ55	a33 sɔ55	tomorrow	tomorrow		9.1.3		0		
-476758	1969	Kucong	pha31 ȵi33	pha31 ȵi33	day after tomorrow	day after tomorrow		1.5.3.2		0		
-476759	1969	Kucong	mɔ31 lɔ55 kɔ35	mɔ31 lɔ55 kɔ35	daytime	daytime		9.1.3		0		
-476760	1969	Kucong	mɔ31 sɔ55	mɔ31 sɔ55	morning	morning		9.1.4		0		
-476761	1969	Kucong	na55 pv33 tsɿ31	na55 pv33 tsɿ31	earring	earring		5.11.8.3		0		
-476762	1969	Kucong	la31 pi35	la31 pi35	(finger) ring	(finger) ring				0		695,597
-476763	1969	Kucong	la31 kɔ31	la31 kɔ31	bracelet	bracelet		5.11.8.3		0		
-476764	1969	Kucong	ʑi55 gɯ31	ʑi55 gɯ31	pillow	pillow		1.2.1		0		m,692
-476765	1969	Kucong	ʑɛ31	ʑɛ31	room	room		5.11.9.2		0		
-476766	1969	Kucong	sa33 ka55	sa33 ka55	wood	wood		3.1.2		0		
-476767	1969	Kucong	tha55 ba55 la55	tha55 ba55 la55	plank, wooden board	plank, wooden board		5.1		0		
-476768	1969	Kucong	ʑɛ31 khɯ33	ʑɛ31 khɯ33	post, pillar	post, pillar		5.11		0		
-476769	1969	Kucong	ɣa33 mi55	ɣa33 mi55	door	door		5.11.9.3		0		
-476770	1969	Kucong	ɣa33 mi55 thi33	ɣa33 mi55 thi33	threshold (门坎)	threshold (门坎)		5.11.9.3		0		
-476771	1969	Kucong	zʌ33 khu33 pa55	zʌ33 khu33 pa55	fence	fence		5.11.9.5		0		
-476772	1969	Kucong	zʌ33 khu33	zʌ33 khu33	courtyard	courtyard		9.10.5		0		
-476773	1969	Kucong	mu55 khu31	mu55 khu31	stool	stool		5.11.9.4		0		
-476774	1969	Kucong	ʑi55 ɣʌ33	ʑi55 ɣʌ33	bed	bed		1.5.3.2		0		
-476775	1969	Kucong	mi55 ɕi33	mi55 ɕi33	broom	broom		5.4		0		
-476776	1969	Kucong	sɤ33	sɤ33	firewood	firewood		5.11.5.5		0		
-476777	1969	Kucong	a33 tshɿ55	a33 tshɿ55	iron wok	iron wok		3.2.4		0		
-476778	1969	Kucong	a33 lʌ31 piɛ33	a33 lʌ31 piɛ33	lid	lid		5.1		0		
-476779	1969	Kucong	sa55 khʌ33	sa55 khʌ33	bamboo steamer	bamboo steamer		3.1.1		0		
-476780	1969	Kucong	a33 khu31	a33 khu31	knife	knife		5.5		0		
-476781	1969	Kucong	a31 la31 tv31	a31 la31 tv31	handle (i.e., of a knife)	handle (i.e., of a knife)		5.1		0		
-476782	1969	Kucong	a33 ʑɛ55 kv33	a33 ʑɛ55 kv33	spoon	spoon		5.5		0		
-476783	1969	Kucong	khɯ31	khɯ31	bowl	bowl		5.1		0		
-476784	1969	Kucong	a55 tsv33	a55 tsv33	chopsticks	chopsticks		5.5		0		b?
-476785	1969	Kucong	a55 mu31 kv55	a55 mu31 kv55	ladle	ladle		5.5		0		
-476786	1969	Kucong	a33 khɯ33 xa55	a33 khɯ33 xa55	tripod stand	tripod stand		5.11.9.6		0		
-476787	1969	Kucong	pa55 ti33	pa55 ti33	carrying cloth worn on back (背带)	carrying cloth worn on back (背带)		6.2.2.2.1		0		
-476788	1969	Kucong	na33 khu31	na33 khu31	balance, steelyard	balance, steelyard		9.8		0		
-476789	1969	Kucong	a55 phiɛ31	a55 phiɛ31	money	money		5.9		0		
-476790	1969	Kucong	ɕi35	ɕi35	classifier.kernel	classifier.kernel		10.1.3		0		
-476791	1969	Kucong	pɯ35	pɯ35	classifier.sentence	classifier.sentence		10.1.3		0		
-476792	1969	Kucong	tɕɛ33	tɕɛ33	classifier.pair	classifier.pair		10.1.3		0		5383
-476793	1969	Kucong	tshaŋ31	tshaŋ31	classifier.group (of goats)	classifier.group (of goats)		10.1.3		0		
-476794	1969	Kucong	tsɤ33	tsɤ33	classifier.joint (of bamboo)	classifier.joint (of bamboo)		10.1.3		0		418
-476795	1969	Kucong	pa33	pa33	classifier.one of a pair (of shoes)	classifier.one of a pair (of shoes)		10.1.1		0		
-476796	1969	Kucong	vɤ31	vɤ31	classifier.backload (of firewood)	classifier.backload (of firewood)		10.1.3		0		
-476797	1969	Kucong	tshuaŋ35	tshuaŋ35	classifier.string (of pearls)	classifier.string (of pearls)		10.1.3		0		
-476798	1969	Kucong	ʑɛ31	ʑɛ31	classifier.room	classifier.room		10.1.3		0		
-476799	1969	Kucong	ki33	ki33	classifier.jin (unit of weight)	classifier.jin (unit of weight)		10.1.3		0		
-476800	1969	Kucong	tiɛ35 mɯ31	tiɛ35 mɯ31	pestle	pestle		5.5		0		
-476801	1969	Kucong	xʌ33 kɯ33	xʌ33 kɯ33	sieve, sifter	sieve, sifter		5.5		0		
-476802	1969	Kucong	mɔ55	mɔ55	grind [loan]	grind [loan]		9.5		0		bChinese
-476803	1969	Kucong	a33 khu31 ka55 mʌ33	a33 khu31 ka55 mʌ33	machete for firewood (柴刀)	machete for firewood (柴刀)		5.3		0		
-476804	1969	Kucong	a33 khu31 phɯ33	a33 khu31 phɯ33	knife scabbard	knife scabbard		5.5		0		
-476805	1969	Kucong	a55 lu33 bu31	a55 lu33 bu31	gun	gun		5.15		0		
-476806	1969	Kucong	fv35 liɛ31 bɔ33	fv35 liɛ31 bɔ33	bow	bow (n.)	n	5.15		0		
-476807	1969	Kucong	kha33 tɕi33	kha33 tɕi33	arrow	arrow		5.15		0		5678,74
-476808	1969	Kucong	kv31 li31	kv31 li31	story	story		5.8		0		
-476809	1969	Kucong	ʑi31	ʑi31	song	song		5.1		0		
-476810	1969	Kucong	mʌ33 kv31 mʌ33	mʌ33 kv31 mʌ33	drum	drum		5.1		0		
-476811	1969	Kucong	phi55 sɔ31	phi55 sɔ31	flute	flute		5.1		0		
-476812	1969	Kucong	taŋ33 kɯ55 lɯ55	taŋ33 kɯ55 lɯ55	bell	bell		5.1		0		
-476813	1969	Kucong	ȵi31	ȵi31	supernatural being	supernatural being		5.8.2.3		0		
-476814	1969	Kucong	lʌ33 ka35	lʌ33 ka35	demon	demon		4.2.12.2		0		
-476815	1969	Kucong	ɣʌ31	ɣʌ31	strength	strength		1.1.5		0		5677
-476816	1969	Kucong	a31 miɛ33	a31 miɛ33	name	name		5.8		0		p,2450
-476817	1969	Kucong	zʌ31 ma33	zʌ31 ma33	dream	dream		1.1.4.2		0		127,126
-476818	1969	Kucong	a31 ka55 khɔ33	a31 ka55 khɔ33	between	between		9.2.3		0		
-476819	1969	Kucong	a31 dʑɔ31 pɔ35	a31 dʑɔ31 pɔ35	beside	beside		9.2.3		0		
-476820	1969	Kucong	la31 fa33 pɔ35	la31 fa33 pɔ35	left (side)	left (side)		1.5.3.2		0		695,2154,1305
-476821	1969	Kucong	la31 ʑɛ31 pɔ35	la31 ʑɛ31 pɔ35	right (side)	right (side)		1.5.3.2		0		695,2786,1305
-476822	1969	Kucong	miɛ33 ɣɯ31 sɔ33	miɛ33 ɣɯ31 sɔ33	in front of	in front of		10.1.1		0		
-476823	1969	Kucong	ɣɯ31 nʌ33 pɔ35	ɣɯ31 nʌ33 pɔ35	behind	behind		9.2.8		0		
-476824	1969	Kucong	a31 dʑɔ35	a31 dʑɔ35	outside	outside		9.2.7		0		
-476825	1969	Kucong	a31 khɔ33	a31 khɔ33	in	in		10.1.1		0		p,820
-476826	1969	Kucong	nv31 khv33	nv31 khv33	corner	corner		5.11.9.3		0		
-476827	1969	Kucong	a31 tɕhi55 kv55	a31 tɕhi55 kv55	point, tip	point, tip		6.2.2.2		0		
-476828	1969	Kucong	a31 tha31 pɔ35	a31 tha31 pɔ35	upper side	upper side		9.2.1		0		m,m,1305
-476829	1969	Kucong	ɣɔ33 pɔ35	ɣɔ33 pɔ35	over there	over there		9.2.1		0		
-476830	1969	Kucong	ʑɛ33 kiɛ55	ʑɛ33 kiɛ55	that kind, that way	that kind, that way		10.1		0		
-476831	1969	Kucong	a55 sv33	a55 sv33	who	who		10.5.3		0		
-476832	1969	Kucong	a33 mʌ33	a33 mʌ33	what	what		10.5.3		0		p,167
-476833	1969	Kucong	khɔ35 ka35	khɔ35 ka35	where	where		10.5.3		0		
-476834	1969	Kucong	kha31 ta31 gɯ33	kha31 ta31 gɯ33	what time	what time		10.5.3		0		
-476835	1969	Kucong	khʌ31 tɕɛ33	khʌ31 tɕɛ33	how much, how many	how much, how many		10.1		0		
-476836	1969	Kucong	khʌ31 ȵi31	khʌ31 ȵi31	how many	how many		10.1		0		
-476837	1969	Kucong	ɣu35 tɕɛ33	ɣu35 tɕɛ33	other	other		8.1		0		
-476838	1969	Kucong	a33 mi31 tiɛ31 tiɛ55	a33 mi31 tiɛ31 tiɛ55	each	each		9.9		0		
-476839	1969	Kucong	mɔ31 lɔ55 kɔ35	mɔ31 lɔ55 kɔ35	noon	noon		9.1.4		0		
-476840	1969	Kucong	mɔ31 ʑa55	mɔ31 ʑa55	night	night		9.1.4		0		
-476841	1969	Kucong	ȵi33 ʑa55	ȵi33 ʑa55	day	day		1.5.3.2		0		85,m
-476842	1969	Kucong	lʌ33 pʌ33	lʌ33 pʌ33	month	month		9.1.2		0		
-476843	1969	Kucong	khɔ31	khɔ31	year	year		9.1.2		0		2252
-476844	1969	Kucong	tɕhi31 ȵi33 khɔ31	tɕhi31 ȵi33 khɔ31	this year	this year		10.4.3.2		0		m,m,2252
-476845	1969	Kucong	a31 mi31 khɔ31	a31 mi31 khɔ31	last year	last year		9.9		0		m,m,2252
-476846	1969	Kucong	sɿ55 mi31 khɔ31	sɿ55 mi31 khɔ31	year before last	year before last		9.1.2		0		m,m,2252
-476847	1969	Kucong	ȵi31 a55 khɔ31	ȵi31 a55 khɔ31	next year	next year		9.9		0		m,m,2252
-476848	1969	Kucong	ȵi31 ȵi33 khɔ31	ȵi31 ȵi33 khɔ31	year after next year	year after next year		9.1.2		0		m,m,2252
-476849	1969	Kucong	ʑi33 gɯ33	ʑi33 gɯ33	previously	previously		9.1.1		0		
-476850	1969	Kucong	ʑi33 gɯ33	ʑi33 gɯ33	in olden times	in olden times		10.1.1		0		
-476851	1969	Kucong	a31 mɯ31 gɯ33	a31 mɯ31 gɯ33	now	now		9.1.5		0		
-476852	1969	Kucong	ɕi35 ti31 ȵi31 ȵi33	ɕi35 ti31 ȵi31 ȵi33	recently	recently		9.1.5		0		
-476853	1969	Kucong	a33 sɔ55 pha31 ȵi33	a33 sɔ55 pha31 ȵi33	in the future	in the future		10.1.1		0		
-476854	1969	Kucong	ti31 ma31	ti31 ma31	one	one		9.9		0		
-476855	1969	Kucong	ȵi31 ma31	ȵi31 ma31	two	two		9.9		0		2504
-476856	1969	Kucong	ɕɛ55 ma31	ɕɛ55 ma31	three	three		9.9		0		
-476857	1969	Kucong	ɤ31 liɛ35	ɤ31 liɛ35	four	four		9.9		0		2409
-476858	1969	Kucong	ŋʌ31 ma31	ŋʌ31 ma31	five	five		9.9		0		1306,m
-476859	1969	Kucong	khɔ31 ma31	khɔ31 ma31	six	six		9.9		0		2621,m
-476860	1969	Kucong	sɤ35 ma31	sɤ35 ma31	seven	seven		9.9		0		
-476861	1969	Kucong	xi55 ma31	xi55 ma31	eight	eight		9.9		0		2259,m
-476862	1969	Kucong	kɔ31 ma31	kɔ31 ma31	nine	nine		9.9		0		2364
-476863	1969	Kucong	tɕhi33 ma31	tɕhi33 ma31	ten	ten		9.9		0		2748
-476864	1969	Kucong	zʌ33	zʌ33	hundred	hundred		9.9		0		
-476865	1969	Kucong	lv31	lv31	thousand	thousand		9.9		0		
-476866	1969	Kucong	tɕhi55	tɕhi55	ten thousand	ten thousand		9.9		0		
-476867	1969	Kucong	tɕɛ31	tɕɛ31	(one) root (of grass)	(one) root (of grass)				0		
-476868	1969	Kucong	lɔ31	lɔ31	light	light		7.1.11.1		0		
-476869	1969	Kucong	gɯ31	gɯ31	fast	fast		9.6.1.1		0		
-476870	1969	Kucong	lv31	lv31	slow	slow		9.6.2.1		0		
-476871	1969	Kucong	na35	na35	early	early		9.1.1		0		6227
-476872	1969	Kucong	tha33	tha33	sharp	sharp		6.9.2		0		5515
-476873	1969	Kucong	di31	di31	muddy; turbid	muddy; turbid		3.2.11		0		
-476874	1969	Kucong	bɯ55	bɯ55	plump, fat	plump, fat		1.1.5.2		0		
-476875	1969	Kucong	vi33	vi33	dry	dry		6.6		0		3298
-476876	1969	Kucong	biɛ33	biɛ33	wet, moist	wet, moist		6.6		0		
-476877	1969	Kucong	a31 biɛ33 liɛ33	a31 biɛ33 liɛ33	watery, thin (as of porridge)	watery, thin (as of porridge)		3.2.3		0		
-476878	1969	Kucong	lu31	lu31	ounce	ounce		9.8		0		
-476879	1969	Kucong	lv31	lv31	armspan (unit of measure)	armspan (unit of measure)		10.1.1		0		
-476880	1969	Kucong	tshɿ31	tshɿ31	foot (unit of measure) [loan]	foot (unit of measure) [loan]		1.5.2		0		
-476881	1969	Kucong	thv33	thv33	handspan (unit of measure)	handspan (unit of measure)		1.5.9.4		0		1281
-476882	1969	Kucong	ba55	ba55	yuan (unit of currency)	yuan (unit of currency)		10.1.1		0		
-476883	1969	Kucong	ti31 la31	ti31 la31	a while	a while		9.1.4		0		
-476884	1969	Kucong	pv55	pv55	(walk a) step	(walk a) step		6.7.4		0		
-476885	1969	Kucong	phɔ35	phɔ35	(go one) time	(go one) time				0		5562
-476886	1969	Kucong	pv31	pv31	(eat a) meal	(eat a) meal				0		
-476887	1969	Kucong	a33 tɕi55	a33 tɕi55	some	some		9.9		0		
-476888	1969	Kucong	ŋa31	ŋa31	1sg.pro	1sg.pro				0		
-476889	1969	Kucong	ŋɯ35 ȵi31 vi55	ŋɯ35 ȵi31 vi55	us two	us two		9.9		0		
-476890	1969	Kucong	ŋɯ35	ŋɯ35	1pl.pro	1pl.pro				0		
-476891	1969	Kucong	nɔ31	nɔ31	2sg.pro	2sg.pro				0		
-476892	1969	Kucong	ȵɛ35 ȵi31 vi55	ȵɛ35 ȵi31 vi55	you two	you two		4.1		0		2489,2504,m
-476893	1969	Kucong	nv35	nv35	2pl.pro	2pl.pro				0		
-476894	1969	Kucong	ɣɔ31	ɣɔ31	3sg.pro	3sg.pro				0		
-476895	1969	Kucong	uɛ35 ȵi31 vi55	uɛ35 ȵi31 vi55	those two	those two		10.4.3.2		0		
-476896	1969	Kucong	ɣu35 tɕɛ33	ɣu35 tɕɛ33	3pl.pro	3pl.pro				0		
-476897	1969	Kucong	tiɛ31 tiɛ55	tiɛ31 tiɛ55	oneself	oneself		4.1		0		
-476898	1969	Kucong	sv33	sv33	other people	other people		8.1		0		5632
-476899	1969	Kucong	ɕi35	ɕi35	this	this		10.4.3.2		0		
-476900	1969	Kucong	ɕi35 tɕɛ33	ɕi35 tɕɛ33	these	these		10.4.3.2		0		
-476901	1969	Kucong	tshɔ35	tshɔ35	here	here		9.2.3		0		
-476902	1969	Kucong	tshɔ31 pɔ35	tshɔ31 pɔ35	this side	this side		10.4.3.2		0		m,1305
-476903	1969	Kucong	ɕɛ33 kiɛ55	ɕɛ33 kiɛ55	this way	this way		10.4.3.2		0		
-476904	1969	Kucong	tɕhi35	tɕhi35	that (proximal)	that (proximal)		10.1		0		
-476905	1969	Kucong	ɕi55 tɕɛ33	ɕi55 tɕɛ33	those	those		10.4.3.2		0		
-476906	1969	Kucong	ɕɔ33	ɕɔ33	there	there		9.2.7		0		
-476907	1969	Kucong	ɕɛ31	ɕɛ31	clean	clean		6.2.2.5.2		0		
-476908	1969	Kucong	tsha35	tsha35	dirty	dirty		3.2.11		0		
-476909	1969	Kucong	a31 ti31	a31 ti31	alive	alive		1.1.2.1		0		
-476910	1969	Kucong	bɔ31	bɔ31	sound, noise	sound, noise		9.3		0		
-476911	1969	Kucong	gɤ31 li55	gɤ31 li55	flowering	flowering		3.1.10		0		
-476912	1969	Kucong	ɕuŋ33	ɕuŋ33	smart	smart		8.3		0		
-476913	1969	Kucong	ka35	ka35	stupid	stupid		8.3		0		
-476914	1969	Kucong	tsa55	tsa55	boil	boil		6.6		0		
-476915	1969	Kucong	gɔ31	gɔ31	pull out (i.e., grass)	pull out (i.e., grass)		6.2.2.3.1		0		5612
-476916	1969	Kucong	pa55	pa55	harrow (a field)	harrow (a field)		5.3		0		
-476917	1969	Kucong	ʑi55 tsv31	ʑi55 tsv31	all	all		9.9		0		
-476918	1969	Kucong	ɣɯ35	ɣɯ35	big	big		9.7.2		0		
-476919	1969	Kucong	ʑi33	ʑi33	small	small		9.7.2		0		2806
-476920	1969	Kucong	mu33	mu33	tall	tall		9.7.2		0		
-476921	1969	Kucong	ŋɛ31	ŋɛ31	short	short		9.7.2		0		7175
-476922	1969	Kucong	bu31	bu31	convex	convex				0		
-476923	1969	Kucong	khv31	khv31	concave	concave		9.7.2		0		
-476924	1969	Kucong	zɤ31	zɤ31	long	long		9.7.2		0		1011
-476925	1969	Kucong	ŋɛ33	ŋɛ33	short (of things)	short (of things)		9.7.2		0		7175
-476926	1969	Kucong	vɤ31	vɤ31	far	far		9.2.4		0		622
-476927	1969	Kucong	ɣɛ33	ɣɛ33	near	near		9.2.3		0		
-476928	1969	Kucong	fi55	fi55	wide, broad	wide, broad		9.7.2		0		
-476929	1969	Kucong	dzɤ31	dzɤ31	narrow	narrow		9.7.2		0		
-476930	1969	Kucong	thv55	thv55	thick	thick		9.7.2		0		183
-476931	1969	Kucong	pʌ35	pʌ35	thin	thin		9.7.2		0		5551
-476932	1969	Kucong	na55	na55	deep	deep		7.1.5.3		0		6130
-476933	1969	Kucong	piɛ33	piɛ33	full	full		1.1.3.2		0		111
-476934	1969	Kucong	miɛŋ31	miɛŋ31	many, lots	many, lots		9.9		0		
-476935	1969	Kucong	a31 pa55 ŋɯ55	a31 pa55 ŋɯ55	flat	flat		7.1.5.1		0		
-476936	1969	Kucong	sɿ55	sɿ55	askew, crooked	askew, crooked		7.1.5.4		0		
-476937	1969	Kucong	kɔ31	kɔ31	curved, crooked	curved, crooked		7.1.5.1		0		
-476938	1969	Kucong	na33	na33	black	black		9.4		0		2483
-476939	1969	Kucong	phv33	phv33	white	white		9.4		0		1235
-476940	1969	Kucong	ȵi33	ȵi33	red	red		9.4		0		2499
-476941	1969	Kucong	sɿ33	sɿ33	yellow	yellow		9.4		0		
-476942	1969	Kucong	nu33	nu33	green	green		9.4		0		
-476943	1969	Kucong	nu33	nu33	blue	blue		9.4		0		2531
-476944	1969	Kucong	a31 phɯ33 khiɛ33	a31 phɯ33 khiɛ33	ashy	ashy				0		
-476945	1969	Kucong	xɛŋ31	xɛŋ31	heavy	heavy		9.6.2		0		
-476946	1969	Kucong	gɔ31	gɔ31	take out	take out		6.21		0		
-476947	1969	Kucong	dɔ31	dɔ31	smoke (a cigarette)	smoke (a cigarette)		3.2.12.2		0		
-476948	1969	Kucong	tui33	tui33	go out	go out		6.7.2		0		
-476949	1969	Kucong	v31	v31	wear (of clothes)	wear (of clothes)		6.2.2.1		0		2779
-476950	1969	Kucong	nv33	nv33	wear (of shoes)	wear (of shoes)		6.2.2.1		0		
-476951	1969	Kucong	thu33	thu33	thread (a needle)	thread (a needle)		5.11.6		0		
-476952	1969	Kucong	mɤ33	mɤ33	blow (a horn)	blow (a horn)		1.3.1.4		0		503
-476953	1969	Kucong	tha31	tha31	jab, poke	jab, poke		8.4		0		
-476954	1969	Kucong	dɔ33	dɔ33	hit (i.e., a person)	hit (i.e., a person)		6.8		0		
-476955	1969	Kucong	bɔ33	bɔ33	hit (i.e., a pig)	hit (i.e., a pig)		6.8		0		
-476956	1969	Kucong	tsɤ33	tsɤ33	dense (i.e., of cloth)	dense (i.e., of cloth)		7.1.5.1		0		
-476957	1969	Kucong	pʌ35	pʌ35	sparse (i.e., of hair)	sparse (i.e., of hair)		7.1.2.1		0		
-476958	1969	Kucong	xɯ33	xɯ33	hard	hard		9.6.2		0		
-476959	1969	Kucong	nv31	nv31	soft	soft		7.1.4.2		0		2510
-476960	1969	Kucong	ȵɛ55	ȵɛ55	sticky	sticky		7.1.4.2		0		
-476961	1969	Kucong	li33 kiɛ33	li33 kiɛ33	slippery	slippery		7.1.4.2		0		
-476962	1969	Kucong	xɔ31	xɔ31	incorrect	incorrect				0		
-476963	1969	Kucong	a31 tsɿ31	a31 tsɿ31	raw	raw		7.1.8.3		0		p,1005
-476964	1969	Kucong	sɤ55	sɤ55	new	new		9.6.1.1		0		6178
-476965	1969	Kucong	pi35	pi35	old (of things)	old (of things)		7.1.8.3		0		7185
-476966	1969	Kucong	nʌ33	nʌ33	good	good		9.6.1.1		0		660
-476967	1969	Kucong	piɛ33	piɛ33	bad	bad		9.6.2.1		0		
-476968	1969	Kucong	kha33	kha33	expensive	expensive		5.9		0		
-476969	1969	Kucong	mu31	mu31	old (of people)	old (of people)		7.1.8.3		0		2440
-476970	1969	Kucong	la55 xɔ35	la55 xɔ35	young	young		7.1.8.3		0		
-476971	1969	Kucong	da31	da31	beautiful	beautiful		7.1.3		0		2722
-476972	1969	Kucong	fɤ55	fɤ55	warm	warm		7.1.2.3		0		3515
-476973	1969	Kucong	ka33	ka33	cold	cold		7.1.2.3		0		
-476974	1969	Kucong	sʌ33	sʌ33	easy	easy		9.6.1.1		0		156
-476975	1969	Kucong	nv31	nv31	smelly	smelly		1.2.8.5		0		
-476976	1969	Kucong	tɕi33	tɕi33	sour	sour		7.1.4.4		0		7205
-476977	1969	Kucong	tshuŋ33	tshuŋ33	sweet	sweet		7.1.4.4		0		
-476978	1969	Kucong	khʌ31	khʌ31	bitter	bitter		7.1.4.4		0		229
-476979	1969	Kucong	phiɛ33	phiɛ33	hot (spicy)	hot (spicy)				0		
-476980	1969	Kucong	khʌ31	khʌ31	salty	salty		3.2.4		0		
-476981	1969	Kucong	tsɤ33	tsɤ33	astringent	astringent		7.1.4.4		0		
-476982	1969	Kucong	mɯ55	mɯ55	busy	busy		9.6.3		0		
-476983	1969	Kucong	pu33	pu33	wealthy	wealthy				0		
-476984	1969	Kucong	za35	za35	poor	poor		9.6.2.2		0		
-476985	1969	Kucong	thʌ33	thʌ33	stamp (one's foot)	stamp (one's foot)		6.2.2.1		0		
-476986	1969	Kucong	mɯ31	mɯ31	hungry	hungry		1.1.3		0		99
-476987	1969	Kucong	thʌ55 tɕhi31 tɕhi31	thʌ55 tɕhi31 tɕhi31	shiver	shiver		1.6.6.2.1		0		
-476988	1969	Kucong	fɤ55 tɕhi55	fɤ55 tɕhi55	feverish	be feverish	be v.	1.1.5.1		0		
-476989	1969	Kucong	a31 miɛ33 miɛ33	a31 miɛ33 miɛ33	germinate	germinate		3.1.9		0		
-476990	1969	Kucong	phɔ33	phɔ33	turn over	turn over		6.7.6		0		5572
-476991	1969	Kucong	phiɛ31	phiɛ31	put, place (i.e., salt)	put, place (i.e., salt)		6.17		0		
-476992	1969	Kucong	lɔ55	lɔ55	graze	graze				0		
-476993	1969	Kucong	a31 mi35 liɛ33 phiɛ31	a31 mi35 liɛ33 phiɛ31	commit arson	commit arson		6.1.1.1		0		
-476994	1969	Kucong	pv31	pv31	fly	fly (v.)	v	2.2.6		0		
-476995	1969	Kucong	ɣɔ55 pi55	ɣɔ55 pi55	break off, break open	break off, break open		9.5		0		
-476996	1969	Kucong	ta33	ta33	move	move (v.t.)	v.t.	6.7.11		0		
-476997	1969	Kucong	gɔ31 phɯ33	gɔ31 phɯ33	bind, tie	bind, tie		6.13.1		0		
-476998	1969	Kucong	pi55	pi55	peel	peel (v.t.)	v.t.	1.5.3.2		0		
-476999	1969	Kucong	giɛ31	giɛ31	peel off	peel off		1.5.3.2		0		
-477000	1969	Kucong	bɔ33	bɔ33	full, satiated	be full, satiated	be v.	1.1.3.2		0		100
-477001	1969	Kucong	ɣɔ33	ɣɔ33	hug	hug		8.4		0		
-477002	1969	Kucong	bʌ33	bʌ33	carry on one's back	carry on one's back		6.2.2.2.1		0		2177
-477003	1969	Kucong	tsv55	tsv55	open (one's mouth)	open (one's mouth)		6.2.2.6.1		0		
-477004	1969	Kucong	phiɛ31	phiɛ31	braid, plait (of hair)	braid, plait (of hair)		1.2.3.2		0		2018
-477005	1969	Kucong	ɣa31	ɣa31	braid (i.e., a basket)	braid (i.e., a basket)		1.2.3.2		0		
-477006	1969	Kucong	na31	na31	ill	be ill	be v.	1.1.5.1		0		
-477007	1969	Kucong	kɯ55	kɯ55	mend (i.e. clothes)	mend (i.e. clothes)		6.15		0		
-477008	1969	Kucong	tsɔ35	tsɔ35	step on, trample	step on, trample		6.7.4		0		
-477009	1969	Kucong	khu31 fa55	khu31 fa55	hide	hide (v.t.)	v.t.	1.6.5.1		0		
-477010	1969	Kucong	gɯ33	gɯ33	rub	rub		8.4		0		
-477011	1969	Kucong	tsha31	tsha31	insert [possible loan]	insert (v.t.) [possible loan]	v.t.	6.2		0		bChinese
-477012	1969	Kucong	ti33	ti33	transplant (i.e., rice seedlings)	transplant (i.e., rice seedlings)		6.2.2.1		0		
-477013	1969	Kucong	phiɛ33	phiɛ33	tear apart	tear apart		1.8.8.1		0		
-477014	1969	Kucong	xɤ33	xɤ33	wind up (i.e., thread)	wind up (i.e., thread)		3.2.1		0		
-477015	1969	Kucong	tsʌ31	tsʌ31	taste, try	taste, try		1.3.5.8		0		
-477016	1969	Kucong	mɯ31	mɯ31	sing	sing		5.1		0		
-477017	1969	Kucong	di31	di31	make noise, quarrel	make noise, quarrel		6.14		0		
-477018	1969	Kucong	lv33	lv33	stirfry	stirfry (v.)	v			0		
-477019	1969	Kucong	na33	na33	weigh (i.e., grain)	weigh (i.e., grain)		9.8		0		
-477020	1969	Kucong	dɔ33	dɔ33	hold up, prop up (i.e., an umbrella)	hold up, prop up (i.e., an umbrella)		9.2.1		0		
-477021	1969	Kucong	tv33	tv33	plate (of food)	plate (of food)		5.5		0		
-477022	1969	Kucong	tsʌ31	tsʌ31	eat	eat		1.5.3.2		0		
-477023	1969	Kucong	tiɛ35	tiɛ35	pound	pound (v.t.)	v.t.	6.8		0		381
-477024	1969	Kucong	pʌ33	pʌ33	change, exchange	change, exchange		9.5		0		
-477025	1969	Kucong	kɔ31	kɔ31	return, go back	return, go back		6.2.2.1		0		
-477026	1969	Kucong	piɛ55	piɛ55	can (i.e., write)	can (i.e., write)		10.2.2		0		1820
-477027	1969	Kucong	ti31	ti31	live, living	live, living		1.1.2.1		0		
-477028	1969	Kucong	ma55	ma55	soft, squishy (和（泥）)	soft, squishy (和（泥）)		7.1.4.2		0		
-477029	1969	Kucong	nɔ55	nɔ55	tie, connect (i.e., a belt)	tie, connect (i.e., a belt)		6.13.1		0		
-477030	1969	Kucong	nv33	nv33	pinch and hold fast	pinch and hold fast		8.4		0		
-477031	1969	Kucong	gɔ33	gɔ33	pick up, gather	pick up, gather		6.10.4		0		5430
-477032	1969	Kucong	khuaŋ35	khuaŋ35	tell (a story)	tell (a story)		1.8.7		0		
-477033	1969	Kucong	kʌ33	kʌ33	descend, land	descend, land (v.i.)	v.i.	6.7.8		0		
-477034	1969	Kucong	bɔ33	bɔ33	shoot (a gun)	shoot (a gun)		6.2.2.1		0		5411
-477035	1969	Kucong	ta33	ta33	draw water (i.e., from a well)	draw water (i.e., from a well)		5.8		0		
-477036	1969	Kucong	kɯ33	kɯ33	gather firewood	gather firewood		6.13.5		0		
-477037	1969	Kucong	thɔ33	thɔ33	thunder	thunder (v.i.)	v.i.	3.2.1		0		
-477038	1969	Kucong	zv31	zv31	carry (of money)	carry (of money)		6.2.2.2.1		0		
-477039	1969	Kucong	ɕɛ33	ɕɛ33	carry (i.e., a child)	carry (i.e., a child)		6.2.2.2.1		0		
-477040	1969	Kucong	mɔ55	mɔ55	wear (a hat)	wear (a hat)		6.2.2.1		0		
-477041	1969	Kucong	ȵɛ55	ȵɛ55	wear (a turban)	wear (a turban)		6.2.2.1		0		
-477042	1969	Kucong	nɔ55	nɔ55	wear (a bracelet)	wear (a bracelet)		6.2.2.1		0		
-477043	1969	Kucong	pa35	pa35	collapse	collapse		9.5		0		5615
-477044	1969	Kucong	pa35	pa35	fall over	fall over		6.1.1.4.2		0		
-477045	1969	Kucong	kɤ31	kɤ31	arrive	arrive		6.7.1		0		
-477046	1969	Kucong	lu33	lu33	wait	wait		6.1.1.6		0		5577
-477047	1969	Kucong	mi31 ŋɯ33	mi31 ŋɯ33	earthquake	earthquake		3.2.6		0		
-477048	1969	Kucong	kɔ31	kɔ31	lower (one's head)	lower (one's head)				0		
-477049	1969	Kucong	tv31	tv31	kindle	kindle		3.2.12.1		0		
-477050	1969	Kucong	kʌ33	kʌ33	drop, fall	drop, fall		6.16		0		
-477051	1969	Kucong	kɔ31 piɛ35	kɔ31 piɛ35	fall, tumble	fall, tumble		6.1.1.4.2		0		
-477052	1969	Kucong	tsɯ31	tsɯ31	fold (i.e., a blanket)	fold (i.e., a blanket)		1.4.4.2		0		
-477053	1969	Kucong	tɕhi31	tɕhi31	sting (i.e., a mosquito)	sting (i.e., a mosquito)		2.4.2		0		
-477054	1969	Kucong	ta33 miɛ55	ta33 miɛ55	lose	lose		6.10.1		0		
-477055	1969	Kucong	ɕi35 pɯ55	ɕi35 pɯ55	understand	understand		8.3.1.13.1		0		
-477056	1969	Kucong	li33	li33	move	move		6.7.11		0		
-477057	1969	Kucong	dzɔ31	dzɔ31	read	read		6.2.2.9.3		0		
-477058	1969	Kucong	tiɛ35 tshu31	tiɛ35 tshu31	block	block (v.)	v	6.2		0		
-477059	1969	Kucong	kui33	kui33	tepid	tepid				0		
-477060	1969	Kucong	thiɛ33	thiɛ33	cut (a thread)	cut (a thread)		6.9.3		0		
-477061	1969	Kucong	thiɛ33	thiɛ33	cut (a stick)	cut (a stick)		6.9.3		0		
-477062	1969	Kucong	tɕi55 va31	tɕi55 va31	hidden	be hidden	be v.	6.1.1		0		
-477063	1969	Kucong	mɔ31	mɔ31	see	see		1.2.6.10		0		1227
-477064	1969	Kucong	ta33	ta33	carry on one's shoulder	carry on one's shoulder		6.2.2.2.1		0		
-477065	1969	Kucong	ka33 liɛ31	ka33 liɛ31	roast	roast		5.5		0		
-477066	1969	Kucong	tsɔ35	tsɔ35	cough	cough		1.8.3.3		0		
-477067	1969	Kucong	ɕi55	ɕi55	thirsty	thirsty		1.1.3.1		0		101
-477068	1969	Kucong	ta35	ta35	agree, consent	agree, consent		8.3.1.4.1		0		
-477069	1969	Kucong	gɯ31	gɯ31	gnaw, nibble	gnaw, nibble		1.3.4.4		0		
-477070	1969	Kucong	kiɛ55	kiɛ55	dig, scratch	dig, scratch		6.11		0		
-477071	1969	Kucong	khɤ55	khɤ55	button	button (v.t.)	v.t.	5.11.8.2.3		0		
-477072	1969	Kucong	xɔ31	xɔ31	cry	cry		1.8.8.2		0		
-477073	1969	Kucong	piɛ31	piɛ31	divide	divide (v.t.)	v.t.	6.10.4		0		
-477074	1969	Kucong	v31	v31	insane	insane		8.3.1.11.3		0		
-477075	1969	Kucong	mɔ35	mɔ35	hatch, incubate	hatch, incubate		1.1.2		0		
-477076	1969	Kucong	kɯ31	kɯ31	rotten	rotten		3.1.10		0		
-477077	1969	Kucong	biɛ33	biɛ33	cover (i.e., land)	cover (i.e., land)		5.8		0		
-477078	1969	Kucong	biɛ33	biɛ33	cover (i.e., with a blanket)	cover (i.e., with a blanket)		5.8		0		
-477079	1969	Kucong	pɯ35	pɯ35	bold, daring	bold, daring		9.6.3		0		
-477080	1969	Kucong	zʌ33 mɯ31	zʌ33 mɯ31	work	work		6.1.1		0		m,2455
-477081	1969	Kucong	kv33 pi31	kv33 pi31	tell	tell		1.8.7		0		
-477082	1969	Kucong	ɣɤ31	ɣɤ31	cut (meat)	cut (meat)		6.9.3		0		
-477083	1969	Kucong	ɣɤ31	ɣɤ31	cut (rope)	cut (rope)		6.9.3		0		
-477084	1969	Kucong	ɣɤ31	ɣɤ31	cut (grass)	cut (grass)		6.9.3		0		2615
-477085	1969	Kucong	pi31	pi31	give	give		6.23		0		2158
-477086	1969	Kucong	ga31	ga31	follow	follow		6.7.10		0		
-477087	1969	Kucong	mɯ31	mɯ31	plow, till	plow, till		6.11		0		
-477088	1969	Kucong	lɔ31	lɔ31	enough	enough		1.1.3.2		0		
-477089	1969	Kucong	xʌ33	xʌ33	blow (as of wind)	blow (as of wind)		1.3.1.4		0		
-477090	1969	Kucong	dɔ33 fv55	dɔ33 fv55	close (a door)	close (a door)		6.2.2.6.2		0		
-477091	1969	Kucong	dɔ33 fv55	dɔ33 fv55	pen in (as of a sheep)	pen in (as of a sheep)		10.1.1		0		
-477092	1969	Kucong	kui33	kui33	cross (a bridge)	cross (a bridge)		6.7.10		0		
-477093	1969	Kucong	ʑa31 tu33	ʑa31 tu33	blush, be shy	blush, be shy		1.2.5		0		
-477094	1969	Kucong	kɯ33	kɯ33	fear	fear		8.3.1.10.1		0		2249
-477095	1969	Kucong	kv31	kv31	shout, yell	shout, yell		8.5.4.1		0		
-477096	1969	Kucong	dɔ31	dɔ31	drink	drink (v.)	v			0		502
-477097	1969	Kucong	ku33	ku33	dry by the fire	dry by the fire		10.0		0		1001
-477098	1969	Kucong	xiɛ35	xiɛ35	deceive, coax	deceive, coax		8.3.3.4.3.2		0		3511
-477099	1969	Kucong	zʌ31 ȵɛ55 pu31	zʌ31 ȵɛ55 pu31	pregnant	be pregnant	be v.	1.9.6.1		0		
-477100	1969	Kucong	khɔ31	khɔ31	pay back, pay a debt	pay back, pay a debt		6.22		0		
-477101	1969	Kucong	khɔ31	khɔ31	return	return (v.t.)	v.t.	6.2.2.1		0		
-477102	1969	Kucong	kha33	kha33	climb (a mountain)	climb (a mountain)		6.7.7		0		
-477103	1969	Kucong	dɔ33	dɔ33	hit, strike (i.e., a table)	hit, strike (i.e., a table)		6.8		0		
-477104	1969	Kucong	tɕi55	tɕi55	run	run		6.7.4		0		
-477105	1969	Kucong	ti33	ti33	brew (tea)	brew (tea)		5.5		0		
-477106	1969	Kucong	dʑi33	dʑi33	chop (i.e., firewood)	chop (i.e., firewood)		6.9.3		0		
-477107	1969	Kucong	thɔ55	thɔ55	sprinkle, splash (i.e., water)	sprinkle, splash (i.e., water)		6.10.3		0		
-477108	1969	Kucong	dʑi33	dʑi33	break (i.e., a piece of bamboo)	break (i.e., a piece of bamboo)		9.5		0		
-477109	1969	Kucong	sa55	sa55	worn out (of clothes)	worn out (of clothes)				0		
-477110	1969	Kucong	piɛ33	piɛ33	worn out, dilapidated (of a house)	worn out, dilapidated (of a house)				0		
-477111	1969	Kucong	pi55	pi55	broken (of a bowl)	broken (of a bowl)		7.1.5.1		0		
-477112	1969	Kucong	pʌ33	pʌ33	exchange	exchange (v.t.)	v.t.	6.22		0		
-477113	1969	Kucong	pi31	pi31	pay	pay		6.22		0		
-477114	1969	Kucong	khɤ31	khɤ31	scorched	be scorched	be v.	3.2.12.2		0		
-477115	1969	Kucong	bɯ31	bɯ31	chew	chew		1.3.4		0		
-477116	1969	Kucong	ma35	ma35	teach	teach		6.19		0		5703
-477117	1969	Kucong	bɔ31	bɔ31	call (of a rooster)	call (of a rooster)		8.5.13		0		
-477118	1969	Kucong	bɔ31	bɔ31	call (of a hen)	call (of a hen)		8.5.13		0		
-477119	1969	Kucong	bɔ31	bɔ31	call (of a dog)	call (of a dog)		8.5.13		0		
-477120	1969	Kucong	bɔ31	bɔ31	call (of a pig)	call (of a pig)		8.5.13		0		o
-477121	1969	Kucong	kv31	kv31	call, be named	call, be named		8.5.13		0		
-477122	1969	Kucong	kiɛ31	kiɛ31	take off, uncover	take off, uncover		6.21		0		
-477123	1969	Kucong	nɔ31	nɔ31	bear fruit	bear fruit		2.2.3		0		
-477124	1969	Kucong	tɕhi31	tɕhi31	borrow (of money)	borrow (of money)		6.22		0		2314
-477125	1969	Kucong	ŋa35	ŋa35	borrow (a tool)	borrow (a tool)		6.22		0		2541
-477126	1969	Kucong	ti33	ti33	soak, immerse	soak, immerse		6.6		0		298
-477127	1969	Kucong	lv31 la31	lv31 la31	enter (a room)	enter (a room)		6.7.1		0		5783,m
-477128	1969	Kucong	mɯ33	mɯ33	live, reside	live, reside		1.1.2.1		0		
-477129	1969	Kucong	ta33 tv33	ta33 tv33	raise (i.e., a hand)	raise (i.e., a hand)		6.7.7		0		
-477130	1969	Kucong	tɕi55	tɕi55	saw	saw		5.11.5.3		0		
-477131	1969	Kucong	xɤ33	xɤ33	roll (as of cloth)	roll (as of cloth)		6.7.6		0		
-477132	1969	Kucong	sɔ31	sɔ31	roll up, curl up	roll up, curl up		9.2.1		0		
-477133	1969	Kucong	ka35	ka35	dig	dig		6.11		0		
-477134	1969	Kucong	ka55 kɯ55 ta35	ka55 kɯ55 ta35	block, stop up, check	block, stop up, check		6.2		0		
-477135	1969	Kucong	giɛ31	giɛ31	open (of a door)	open (of a door)		6.2.2.6.1		0		
-477136	1969	Kucong	bɯ31	bɯ31	boiled water	boiled water		6.6		0		
-477137	1969	Kucong	vi33	vi33	bloom	bloom		3.1.10		0		2185
-477138	1969	Kucong	pɤ33	pɤ33	cut down (of a tree)	cut down (of a tree)		6.9.3		0		
-477139	1969	Kucong	pɤ33	pɤ33	throw (i.e., a bone to a dog)	throw (i.e., a bone to a dog)		6.12		0		
-477140	1969	Kucong	ȵi33	ȵi33	look	look		1.2.6.11		0		5419
-477141	1969	Kucong	pi31	pi31	send	send		6.2.2.2		0		
-477142	1969	Kucong	xiɛ31	xiɛ31	be / copula	to be / copula		10.4.1.1		0		
-477143	1969	Kucong	pɯ35	pɯ35	comb	comb		1.2.2.1		0		
-477144	1969	Kucong	ɕi35 pɯ55	ɕi35 pɯ55	familiar with	be familiar with	be v.	7.1.7.2		0		
-477145	1969	Kucong	miɛ33	miɛ33	well-done, cooked	well-done, cooked		9.6.1.1		0		
-477146	1969	Kucong	miɛ33	miɛ33	ripe	ripe		3.1.10		0		2449
-477147	1969	Kucong	tsa55 giɛ33	tsa55 giɛ33	thin, slender	thin, slender		9.7.2		0		
-477148	1969	Kucong	kʌ33	kʌ33	fall, tumble	fall, tumble		6.1.1.4.2		0		
-477149	1969	Kucong	ba31 pɯ33	ba31 pɯ33	move backward and forward; swing	move backward and forward; swing		9.2.8		0		
-477150	1969	Kucong	gɔ31 phɯ33	gɔ31 phɯ33	tie up, tether	tie up, tether		6.13.1		0		
-477151	1969	Kucong	gɔ31	gɔ31	pull	pull		6.2.2.3.1		0		5612
-477152	1969	Kucong	khiɛ31 vi31	khiɛ31 vi31	defecate	defecate		1.8.5.4		0		
-477153	1969	Kucong	la31	la31	come	come		6.7.1		0		3569
-477154	1969	Kucong	gɔ31 tsa55	gɔ31 tsa55	connect	connect		6.13.3		0		m,200
-477155	1969	Kucong	lv55	lv55	airdry	airdry				0		
-477156	1969	Kucong	khʌ31	khʌ31	split open	split open		6.9.3		0		
-477157	1969	Kucong	ti33	ti33	pour, drench	pour, drench		6.6		0		
-477158	1969	Kucong	li33	li33	flow	flow		6.6.1		0		
-477159	1969	Kucong	ta31	ta31	keep, save	keep, save		6.18		0		2682
-477160	1969	Kucong	bu31	bu31	deaf	deaf		1.2.7.5		0		
-477161	1969	Kucong	zɔ31	zɔ31	leak	leak		6.6		0		
-477162	1969	Kucong	li55	li55	strain, filter	strain, filter		6.6		0		
-477163	1969	Kucong	ka33	ka33	disordered	be disordered	be v.			0		
-477164	1969	Kucong	kʌ33 tv33	kʌ33 tv33	set (of the sun)	set (of the sun)		6.17		0		
-477165	1969	Kucong	tshv31	tshv31	numb	numb		1.5.11		0		
-477166	1969	Kucong	di31	di31	scold	scold		8.5.1		0		
-477167	1969	Kucong	tv35	tv35	cover up, bury	cover up, bury		5.8		0		
-477168	1969	Kucong	vɤ31	vɤ31	buy	buy		6.22		0		
-477169	1969	Kucong	xu31	xu31	sell	sell		6.22		0		
-477170	1969	Kucong	mʌ31 tsɔ31	mʌ31 tsɔ31	don't have	don't have		8.2		0		2436,m
-477171	1969	Kucong	sɿ33	sɿ33	go out, extinguish (of a fire)	go out, extinguish (of a fire)		6.7.2		0		
-477172	1969	Kucong	sɔ33	sɔ33	feel, touch	feel, touch		8.4		0		
-477173	1969	Kucong	sɿ35	sɿ35	grind (of a knife, i.e. to sharpen)	grind (of a knife, i.e. to sharpen)		10.1.1		0		
-477174	1969	Kucong	gɯ33	gɯ33	grind (of grain)	grind (of grain)		9.5		0		2333
-477175	1969	Kucong	zv31	zv31	take	take		6.21		0		
-477176	1969	Kucong	kha33	kha33	scratch (of an itch)	scratch (of an itch)		1.6.5.5		0		
-477177	1969	Kucong	pɯ55	pɯ55	can; be able to	can; be able to		10.2.2		0		
-477178	1969	Kucong	phi31	phi31	vomit	vomit		1.8.3.2		0		1145
-477179	1969	Kucong	kha33	kha33	crawl, climb	crawl, climb		6.7.9		0		
-477180	1969	Kucong	ka35	ka35	dig	dig		6.11		0		
-477181	1969	Kucong	pi31	pi31	cut out, scoop out	cut out, scoop out		9.2		0		
-477182	1969	Kucong	gɯ31 kʌ33	gɯ31 kʌ33	play, relax	play, relax		6.1.1.3		0		
-477183	1969	Kucong	du31 miɛ33	du31 miɛ33	forget	forget		8.3.1.16.1		0		
-477184	1969	Kucong	nv31	nv31	smell, sniff	smell, sniff		1.2.8.5		0		1415
-477185	1969	Kucong	nʌ33	nʌ33	ask	ask		8.5.7.1		0		
-477186	1969	Kucong	tshɤ31	tshɤ31	hold, grasp	hold, grasp		6.16		0		
-477187	1969	Kucong	tshɿ31	tshɿ31	wash (i.e., clothes)	wash (i.e., clothes)		6.2.2.5.2		0		5647
-477188	1969	Kucong	xɯ33 gʌ35	xɯ33 gʌ35	like	like		8.3.1.1.1		0		
-477189	1969	Kucong	tsv55	tsv55	blind	blind		1.2.6.14.2		0		1401
-477190	1969	Kucong	khu31	khu31	spread, unfold	spread, unfold		9.5		0		
-477191	1969	Kucong	xiɛ35	xiɛ35	cheat, deceive	cheat, deceive		6.19		0		3511
-477192	1969	Kucong	tv33 lʌ33	tv33 lʌ33	get up	get up		1.1.4		0		
-477193	1969	Kucong	gɔ31	gɔ31	lead along, pull (i.e., an ox)	lead along, pull (i.e., an ox)		6.2.2.1		0		5612
-477194	1969	Kucong	tɕɛ33	tɕɛ33	rob	rob		6.2.2.1		0		
-477195	1969	Kucong	dɔ33	dɔ33	knock; strike	knock; strike		6.8		0		
-477196	1969	Kucong	ta33	ta33	stick up, turn up (i.e., a tail)	stick up, turn up (i.e., a tail)		9.2.1		0		
-477197	1969	Kucong	ɣɤ31	ɣɤ31	chop (i.e. vegetables)	chop (i.e. vegetables)		6.9.3		0		
-477198	1969	Kucong	nɔ55	nɔ55	? cherish, intimate, dear (亲（小孩）)	? cherish, intimate, dear (亲（小孩）)				0		
-477199	1969	Kucong	ga31	ga31	expel	expel		6.7.2		0		
-477200	1969	Kucong	tsʌ33	tsʌ33	marry, take a wife	marry, take a wife		6.19		0		
-477201	1969	Kucong	tɕi33	tɕi33	go	go		6.7.2		0		
-477202	1969	Kucong	nʌ33	nʌ33	recovered from an illness	be recovered from an illness	be v.	1.1.5.1		0		
-477203	1969	Kucong	liɛ31	liɛ31	heat (i.e., rice)	heat (i.e., rice)		9.6.2		0		
-477204	1969	Kucong	ba31	ba31	throw	throw		6.12		0		5556
-477205	1969	Kucong	ʑi31	ʑi31	knead	knead		5.5		0		
-477206	1969	Kucong	sɿ33	sɿ33	sprinkle	sprinkle		6.10.3		0		
-477207	1969	Kucong	ɕɛ35	ɕɛ35	sow (seeds)	sow (seeds)		2.1.12		0		
-477208	1969	Kucong	ɕi33	ɕi33	sweep	sweep		6.2.2.5.3		0		5594
-477209	1969	Kucong	ɕi55	ɕi55	kill	kill		6.4		0		1018
-477210	1969	Kucong	kɯ33	kɯ33	sift (as of rice)	sift (as of rice)		6.10.4		0		
-477211	1969	Kucong	lv55	lv55	dry in the sun; bask	dry in the sun; bask		6.6		0		2420
-477212	1969	Kucong	na35	na35	injury	injury		1.1.5.1		0		
-477213	1969	Kucong	tai33	tai33	go up	go up		6.7.2		0		
-477214	1969	Kucong	bɔ33	bɔ33	shoot (an arrow)	shoot (an arrow)		6.2.2.1		0		5411
-477215	1969	Kucong	bɔ33 zu33	bɔ33 zu33	strike, shoot and strike	strike, shoot and strike		6.8		0		5411,5822,m
-477216	1969	Kucong	ɕɛ33	ɕɛ33	give birth	give birth		1.1.2		0		95
-477217	1969	Kucong	ȵi33 na31	ȵi33 na31	angry	angry		8.3.1.6.1		0		
-477218	1969	Kucong	ta33 lʌ33	ta33 lʌ33	rise up, ascend	rise up, ascend		1.1.4		0		148,m
-477219	1969	Kucong	mu31	mu31	dizzy	be dizzy	be v.	8.3.1.11.3		0		
-477220	1969	Kucong	mɯ33	mɯ33	sit	sit		6.1.1.4.1		0		3597
-477221	1969	Kucong	ʑi55	ʑi55	sleep	sleep		1.1.4.1		0		127
-477222	1969	Kucong	sɿ35	sɿ35	speak	speak		8.5.10.1		0		
-477223	1969	Kucong	sɿ55	sɿ55	tear, rip	tear, rip		1.8.8.1		0		
-477224	1969	Kucong	sɿ33	sɿ33	die	die		1.1.6		0		27
-477225	1969	Kucong	piɛ33	piɛ33	collapse	collapse		9.5		0		5616
-477226	1969	Kucong	ta33	ta33	step on	step on		6.7.4		0		
-477227	1969	Kucong	ta33	ta33	lift, raise	lift, raise		6.16		0		
-477228	1969	Kucong	zɔ31	zɔ31	shed, drip (as of a tear)	shed, drip (as of a tear)		5.11.9.1		0		
-477229	1969	Kucong	ʑi55	ʑi55	lie down, recline	lie down, recline		8.5.10.4		0		
-477230	1969	Kucong	tɕi55 va31	tɕi55 va31	flee, escape	flee, escape		6.7.2		0		
-477231	1969	Kucong	su55	su55	beg (i.e., for food)	beg (i.e., for food)		8.5.10.3		0		
-477232	1969	Kucong	na31	na31	ache (i.e., headache)	ache (i.e., headache)		1.1.5.1		0		
-477233	1969	Kucong	mu31 tsɔ35 fi55	mu31 tsɔ35 fi55	overcast	overcast		3.2.2		0		
-477234	1969	Kucong	mu31 tshʌ33 tshʌ33	mu31 tshʌ33 tshʌ33	fine, clear (of the weather)	fine, clear (of the weather)		9.7.2		0		
-477235	1969	Kucong	mu31 thi31	mu31 thi31	light (of the sky)	light (of the sky)		7.1.11.1		0		2473
-477236	1969	Kucong	miɛ33 fv55	miɛ33 fv55	dark (of the sky)	dark (of the sky)		9.4		0		
-477237	1969	Kucong	liɛ31	liɛ31	lick	lick		1.3.3.1		0		629
-477238	1969	Kucong	gɔ33	gɔ33	choose	choose		6.10.4		0		
-477239	1969	Kucong	ta33	ta33	carry on one's shoulder	carry on one's shoulder		6.2.2.2.1		0		
-477240	1969	Kucong	pɔ33	pɔ33	jump, leap	jump, leap		6.7.8		0		6707
-477241	1969	Kucong	pɔ33	pɔ33	beat (as of one's pulse)	beat (as of one's pulse)		6.8		0		5822
-477242	1969	Kucong	thi31	thi31	stick, paste [possible loan]	stick, paste [possible loan]		3.1.2		0		bChinese
-477243	1969	Kucong	nʌ33	nʌ33	listen	listen		1.2.7.4		0		811
-477244	1969	Kucong	gʌ31	gʌ31	hear	hear		1.2.7.4		0		
-477245	1969	Kucong	tʌ31 ti33	tʌ31 ti33	stop	stop		6.7.11		0		
-477246	1969	Kucong	khu31	khu31	steal	steal		6.2.2.1		0		2365
-477247	1969	Kucong	phi31	phi31	spit (as of phlegm)	spit (as of phlegm)		1.8.3		0		
-477248	1969	Kucong	gɔ31	gɔ31	pull, drag	pull, drag (v.t.)	v.t.	6.2.2.3.1		0		5612
-477249	1969	Kucong	kiɛ33	kiɛ33	take off (as of clothes)	take off (as of clothes)		6.21		0		
-477250	1969	Kucong	bɔ33	bɔ33	drunk	drunk		1.3.5.9		0		
-477251	1969	Kucong	mɯ33	mɯ33	at (i.e., in a room)	at (i.e., in a room)		10.0		0		
-477252	1969	Kucong	ʑa31 i33	ʑa31 i33	go down	go down		6.7.2		0		
-477253	1969	Kucong	ɕɛ33	ɕɛ33	give birth to (of animals)	give birth to (of animals)		10.1.1		0		95
-477254	1969	Kucong	v33	v33	lay (of an egg)	lay (of an egg)		6.17		0		
-477255	1969	Kucong	zɿ31	zɿ31	fall (of rain)	fall (of rain)		6.1.1.4.2		0		2080
-477256	1969	Kucong	kɔ33 tsʌ31	kɔ33 tsʌ31	frighten	frighten		8.3.1.10.1		0		2249,m
-477257	1969	Kucong	du31	du31	think	think		8.3.1.13.1		0		5801
-477258	1969	Kucong	tv31	tv31	seem like	seem like		8.2		0		
-477259	1969	Kucong	ta33 miɛ55	ta33 miɛ55	disappear	disappear		9.5		0		
-477260	1969	Kucong	ba55	ba55	pare, peel	pare, peel		6.9.2		0		
-477261	1969	Kucong	ɣɯ31	ɣɯ31	laugh	laugh		1.8.8.1		0		1108
-477262	1969	Kucong	gɤ31	gɤ31	write	write		6.2.2.9.1		0		
-477263	1969	Kucong	thɔ31	thɔ31	flow, pour out	flow, pour out		6.6.1		0		
-477264	1969	Kucong	xɯ55	xɯ55	blow (one's nose)	blow (one's nose)		1.3.1.4		0		
-477265	1969	Kucong	dv31 nv35	dv31 nv35	awaken, be awake	awaken, be awake		1.1.4		0		m,143
-477266	1969	Kucong	mɯ33 ta35	mɯ33 ta35	rest	rest		1.1.4.1		0		
-477267	1969	Kucong	kɯ55	kɯ55	embroider	embroider				0		
-477268	1969	Kucong	ɕɔ31	ɕɔ31	study	study		6.2.2.9.3		0		
-477269	1969	Kucong	tsʌ33	tsʌ33	seek	seek		6.2.2.2		0		5799
-477270	1969	Kucong	sv55	sv55	castrate (an animal)	castrate (an animal)		1.9.2.3		0		
-477271	1969	Kucong	zu33	zu33	raise (i.e., of chickens)	raise (i.e., of chickens)		6.7.7		0		
-477272	1969	Kucong	ŋɯ33	ŋɯ33	shake (i.e., one's head)	shake (i.e., one's head)		6.7.9		0		
-477273	1969	Kucong	tɕhi31	tɕhi31	bite	bite		1.3.4.4		0		
-477274	1969	Kucong	ȵi55	ȵi55	scoop (of water)	scoop (of water)		6.11		0		
-477275	1969	Kucong	xɯ33	xɯ33	want	want		8.3.1.14.3		0		
-477276	1969	Kucong	tɕuɛ35	tɕuɛ35	have (of money)	have (of money)		8.2		0		
-477277	1969	Kucong	mɯ33	mɯ33	have (of people)	have (of people)		8.2		0		
-477278	1969	Kucong	tɕuɛ35	tɕuɛ35	have (i.e., of trees on a mountain)	have (i.e., of trees on a mountain)		10.1.1		0		
-477279	1969	Kucong	tɕuɛ35	tɕuɛ35	have (of eyes)	have (of eyes)		8.2		0		
-477280	1969	Kucong	tɕuɛ35	tɕuɛ35	have (i.e., of water in a bowl)	have (i.e., of water in a bowl)		10.1.1		0		
-477281	1969	Kucong	ti33	ti33	plant, grow	plant, grow		3.1.10		0		5672
-477282	1969	Kucong	mɯ31	mɯ31	do, make	do, make		6.1.1.1		0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+476461	1969	Kucong	mu31 thʌ33 kv55	mu31 thʌ33 kv55	sky	sky			3.2.2		0			2473
+476462	1969	Kucong	mu31 ȵi33	mu31 ȵi33	sun	sun			3.2.10		0			
+476463	1969	Kucong	lʌ33 pʌ33	lʌ33 pʌ33	moonlight	moonlight			3.2.10		0			1016,s
+476464	1969	Kucong	mu31 gɯ33 lɯ55	mu31 gɯ33 lɯ55	stars	stars			3.2.2		0			
+476465	1969	Kucong	mu31 tsɔ35	mu31 tsɔ35	cloud	cloud			3.2.1		0			2473
+476466	1969	Kucong	mu31 thɔ33	mu31 thɔ33	thunder	thunder			3.2.1		0			2473
+476467	1969	Kucong	mɯ31 xʌ33	mɯ31 xʌ33	wind	wind			3.2.1		0			2473,2412
+476468	1969	Kucong	mu31 zɿ31	mu31 zɿ31	rain	rain			3.2.1		0			2473,2080
+476469	1969	Kucong	vʌ31 liɛ55 tsɿ31	vʌ31 liɛ55 tsɿ31	hail / hailstone	hail / hailstone			3.2.1		0			3554,m,m
+476470	1969	Kucong	thuŋ31	thuŋ31	copper [loan]	copper [loan]			3.2.4		0			
+476471	1969	Kucong	li55 tɕi33	li55 tɕi33	charcoal	charcoal			3.2.4		0			
+476472	1969	Kucong	tshʌ33	tshʌ33	salt	salt			3.2.4		0			2729
+476473	1969	Kucong	khɔ31 liɛ33	khɔ31 liɛ33	plant ash	plant ash			3.1.10		0			
+476474	1969	Kucong	mu31 mi31	mu31 mi31	place	place			9.10.5		0			
+476475	1969	Kucong	kha33	kha33	village	village			5.8		0			5745
+476476	1969	Kucong	lau31	lau31	jail	jail			5.11.9.1		0			
+476477	1969	Kucong	tsv31	tsv31	bridge	bridge			9.10.2		0			3604
+476478	1969	Kucong	tv35 phv55	tv35 phv55	grave	grave			9.10.6		0			
+476479	1969	Kucong	la31 ɕi35	la31 ɕi35	fingernail	fingernail			1.5.10.1		0			
+476480	1969	Kucong	la31 tɕhui31 phu33	la31 tɕhui31 phu33	fist	fist			1.5.1.1.1		0			695,m,m
+476481	1969	Kucong	a31 gv31 kv55	a31 gv31 kv55	skin	skin			1.6.5		0			
+476482	1969	Kucong	bɤ31 na33	bɤ31 na33	mole (on skin)	mole (on skin)			2.2.7		0			
+476483	1969	Kucong	pɔ33 mɔ33	pɔ33 mɔ33	skin ulcer	skin ulcer			1.6.5		0			
+476484	1969	Kucong	pa33 ʑiŋ35	pa33 ʑiŋ35	scar	scar			1.6.5.3		0			
+476485	1969	Kucong	a31 sɤ35	a31 sɤ35	blood	blood			1.6.2		0			p,230
+476486	1969	Kucong	tɕiŋ33	tɕiŋ33	muscle [loan]	muscle [loan]			1.6.6.2		0			bChinese
+476487	1969	Kucong	v55 nɔ31	v55 nɔ31	brain	brain			1.2.4		0			385,243
+476488	1969	Kucong	ŋɯ55	ŋɯ55	frost	frost			3.2.1		0			3565
+476489	1969	Kucong	tsɿ35 ɣɯ31	tsɿ35 ɣɯ31	dew	dew					0			59,1013
+476490	1969	Kucong	mu31 tsɔ35	mu31 tsɔ35	fog	fog			3.2.1		0			2473
+476491	1969	Kucong	a31 mi35	a31 mi35	fire	fire			3.2.12.2		0			
+476492	1969	Kucong	mu31 khu31	mu31 khu31	smoke	smoke			3.2.12.2		0			
+476493	1969	Kucong	sa55	sa55	air	air			1.1.2.2		0			32
+476494	1969	Kucong	mi31	mi31	land	land			3.2.5		0			
+476495	1969	Kucong	kɯ33 mʌ33	kɯ33 mʌ33	mountain	mountain			3.2.5		0			
+476496	1969	Kucong	ka31 ta33	ka31 ta33	hillside	hillside			3.2.5		0			
+476497	1969	Kucong	ga31 phi55	ga31 phi55	precipice	precipice			3.2.5		0			
+476498	1969	Kucong	xa55 khu31	xa55 khu31	rock	rock			3.2.9		0			2166,m
+476499	1969	Kucong	a31 khu33	a31 khu33	cave	cave			3.2.7		0			p,820
+476500	1969	Kucong	lɔ31	lɔ31	river	river			3.2.3		0			191
+476501	1969	Kucong	fv31	fv31	lake [possible loan]	lake [possible loan]			3.2.5		0			bChinese
+476502	1969	Kucong	liɛ55 tɔ33	liɛ55 tɔ33	pond	pond			3.2.3		0			
+476503	1969	Kucong	ɣɯ31 khʌ31	ɣɯ31 khʌ31	ditch; channel	ditch; channel			3.2.7		0			1013,5668
+476504	1969	Kucong	tɤ31 khv31 lv31	tɤ31 khv31 lv31	hole; pit	hole; pit			3.2.7		0			
+476505	1969	Kucong	ɣa31 ku33	ɣa31 ku33	road	road			9.10.1		0			
+476506	1969	Kucong	pa55 tsɿ31	pa55 tsɿ31	flatland	flatland					0			
+476507	1969	Kucong	mi31 dʑi31	mi31 dʑi31	earth, soil	earth, soil			3.2.11		0			
+476508	1969	Kucong	zʌ33	zʌ33	(field) land	(field) land			3.2.5		0			
+476509	1969	Kucong	ti33 zʌ33	ti33 zʌ33	paddy field	paddy field			9.10.5		0			5672,m
+476510	1969	Kucong	xa55 kv33	xa55 kv33	stone	stone			3.2.9		0			2166,m
+476511	1969	Kucong	sa33 la33	sa33 la33	sand [loan]	sand [loan]			3.2.11		0			bChinese
+476512	1969	Kucong	khɔ31 liɛ35	khɔ31 liɛ35	dust	dust			3.2.11		0			
+476513	1969	Kucong	kiɛ35 tshɿ31	kiɛ35 tshɿ31	mud	mud			3.2.11		0			
+476514	1969	Kucong	a55 ka33	a55 ka33	water	water			3.2.3		0			
+476515	1969	Kucong	sɿ33	sɿ33	gold	gold			3.2.4		0			3496
+476516	1969	Kucong	phv33	phv33	silver	silver			3.2.4		0			1235
+476517	1969	Kucong	a55 nɔ31 bi55	a55 nɔ31 bi55	baby; infant	baby; infant			4.2.11		0			
+476518	1969	Kucong	tshu33 mu31 kv33 lv33	tshu33 mu31 kv33 lv33	old man	old man			7.1.8.3		0			3327,2440,m,m
+476519	1969	Kucong	a31 bi35 mʌ33	a31 bi35 mʌ33	old woman	old woman			7.1.8.3		0			p,2559,1619
+476520	1969	Kucong	zʌ31 kha33 zʌ31	zʌ31 kha33 zʌ31	man	man			1.9.6.1		0			
+476521	1969	Kucong	zʌ31 mi31 zʌ31	zʌ31 mi31 zʌ31	woman	woman			1.9.3		0			1012,1618,m
+476522	1969	Kucong	tshu33 la55 zʌ31	tshu33 la55 zʌ31	youth	youth			4.2.11		0			m,5777,m
+476523	1969	Kucong	zʌ31 mi31 la55	zʌ31 mi31 la55	girl	girl			1.9.3		0			
+476524	1969	Kucong	ɣɔ35 su55 su55 tsʌ31	ɣɔ35 su55 su55 tsʌ31	beggar	beggar			8.5.10.3		0			
+476525	1969	Kucong	tshu33 khu31	tshu33 khu31	thief	thief			4.2.12.1		0			m,2365
+476526	1969	Kucong	na31 ɕi33 tshu33	na31 ɕi33 tshu33	sick person	sick person			1.1.5.1		0			
+476527	1969	Kucong	tv33 kv33	tv33 kv33	head	head			1.2.1		0			
+476528	1969	Kucong	dzɿ33 khɯ33	dzɿ33 khɯ33	hair	hair			1.2.3		0			1232,372
+476529	1969	Kucong	dzɿ33 phiɛ31	dzɿ33 phiɛ31	braid	braid			1.2.3.2		0			m,2018
+476530	1969	Kucong	na55 ka31 phv33	na55 ka31 phv33	forehead	forehead			1.2.5.1		0			356,2026,276
+476531	1969	Kucong	miɛ33 mu33	miɛ33 mu33	eyebrow	eyebrow			1.2.6.6		0			
+476532	1969	Kucong	miɛ33 khʌ33	miɛ33 khʌ33	eye	eye			1.2.6		0			681,1110
+476533	1969	Kucong	na35 khu31	na35 khu31	nose	nose			1.2.8		0			803,809
+476534	1969	Kucong	na55 pv33	na55 pv33	ear	ear			1.2.7		0			811,812
+476535	1969	Kucong	miɛ33 phv31	miɛ33 phv31	face	face			1.2.5		0			681,1186
+476536	1969	Kucong	mɯ31 nʌ33	mɯ31 nʌ33	mouth	mouth			1.3.1		0			
+476537	1969	Kucong	mɯ31 nʌ33 kv55	mɯ31 nʌ33 kv55	lip	lip			1.3.2		0			
+476538	1969	Kucong	mu31 dzʌ33	mu31 dzʌ33	beard / moustache	beard / moustache			1.2.5.5		0			
+476539	1969	Kucong	ɕa55 pa33	ɕa55 pa33	chin [loan]	chin [loan]			1.2.5.3		0			
+476540	1969	Kucong	kɔ35 kɔ31	kɔ35 kɔ31	neck	neck			1.4.2		0			
+476541	1969	Kucong	la31 phi33 pa55	la31 phi33 pa55	shoulder	shoulder			1.4.3		0			695,276,565
+476542	1969	Kucong	kɔ31 mʌ33	kɔ31 mʌ33	back	back			1.4.8		0			
+476543	1969	Kucong	ȵi33 mʌ33 kv55	ȵi33 mʌ33 kv55	chest	chest			1.4.4.3		0			
+476544	1969	Kucong	dzv55 miɛ55	dzv55 miɛ55	breasts	breasts					0			
+476545	1969	Kucong	fv55	fv55	belly	belly			1.4.7		0			
+476546	1969	Kucong	fv55 dv31	fv55 dv31	navel	navel			1.9.4		0			m,520
+476547	1969	Kucong	tsɔ31	tsɔ31	waist	waist			1.4.6		0			215
+476548	1969	Kucong	khiɛ31 pi55	khiɛ31 pi55	buttocks; bottom	buttocks; bottom			1.4.10		0			
+476549	1969	Kucong	khɯ33 tv31	khɯ33 tv31	thigh	thigh			1.5.7.1		0			
+476550	1969	Kucong	khɯ33 mɯ55 li31	khɯ33 mɯ55 li31	knee	knee			1.5.8.4		0			
+476551	1969	Kucong	khɯ33 kɔ35	khɯ33 kɔ35	calf (of leg)	calf (of leg)			1.5.7		0			335,m
+476552	1969	Kucong	khɯ33 pv55	khɯ33 pv55	foot	foot			1.5.2		0			335,m
+476553	1969	Kucong	la31 pv55	la31 pv55	hand	hand			1.5.1.1		0			695,m
+476554	1969	Kucong	la31 nv33	la31 nv33	finger	finger			1.5.6		0			
+476555	1969	Kucong	la31 ʑɛ55 mʌ33 kv35	la31 ʑɛ55 mʌ33 kv35	thumb	thumb			1.5.6.1		0			
+476556	1969	Kucong	sa35 zʌ31	sa35 zʌ31	nephew (brother's son)	nephew (brother's son)			4.7.3		0			
+476557	1969	Kucong	miɛ35 mʌ33	miɛ35 mʌ33	sister-in-law (older brother's wife)	sister-in-law (older brother's wife)			1.5.3.2		0			1618,1619
+476558	1969	Kucong	a33 v33	a33 v33	maternal uncle	maternal uncle			4.7.1		0			
+476559	1969	Kucong	a33 mi33	a33 mi33	maternal aunt	maternal aunt			4.7.1		0			
+476560	1969	Kucong	a33 zv31	a33 zv31	paternal aunt	paternal aunt			4.7.1		0			
+476561	1969	Kucong	vi55 ȵi33	vi55 ȵi33	relative	relative			4.7.5		0			
+476562	1969	Kucong	zɔ31 phʌ31	zɔ31 phʌ31	wife's father, father-in-law	wife's father, father-in-law			4.7.1		0			
+476563	1969	Kucong	zɔ31 mʌ33	zɔ31 mʌ33	wife's mother, mother-in-law	wife's mother, mother-in-law			4.7.1		0			
+476564	1969	Kucong	zʌ31 kha33	zʌ31 kha33	husband	husband			4.7.4		0			
+476565	1969	Kucong	zʌ31 mʌ33	zʌ31 mʌ33	wife	wife			4.7.4		0			
+476566	1969	Kucong	a31 v31 kv35	a31 v31 kv35	bone	bone			1.6.3		0			
+476567	1969	Kucong	lɤ31 pa33 kv31	lɤ31 pa33 kv31	rib	rib			1.4.4.3		0			
+476568	1969	Kucong	v31 miɛ33 kv55	v31 miɛ33 kv55	joint	joint			1.5.8		0			
+476569	1969	Kucong	sv35	sv35	tooth	tooth			1.3.4		0			
+476570	1969	Kucong	sv35 ȵi33 zʌ31	sv35 ȵi33 zʌ31	gums	gums			1.3.4.3		0			
+476571	1969	Kucong	lʌ33 phiɛ31	lʌ33 phiɛ31	tongue	tongue			1.3.3		0			
+476572	1969	Kucong	lʌ33 phiɛ31 zʌ31 bi55	lʌ33 phiɛ31 zʌ31 bi55	uvula	uvula			1.3.5.1		0			
+476573	1969	Kucong	a31 tshɔ31 phv33	a31 tshɔ31 phv33	lung	lung			1.7.2		0			
+476574	1969	Kucong	ȵi33 mʌ33 ɕi35	ȵi33 mʌ33 ɕi35	heart (organ)	heart (organ)			1.7.1		0			297,s,m
+476575	1969	Kucong	a31 sɔ35	a31 sɔ35	liver	liver			1.7.3		0			p,1390
+476576	1969	Kucong	a31 ʑau33 tsɿ31	a31 ʑau33 tsɿ31	kidney	kidney			1.7.5		0			p,bChinese,bChinese
+476577	1969	Kucong	a31 gɯ33	a31 gɯ33	gallbladder	gallbladder			1.7.3		0			
+476578	1969	Kucong	a31 fv55 mʌ33	a31 fv55 mʌ33	stomach	stomach			1.7.6		0			p,2104,m
+476579	1969	Kucong	a31 v31	a31 v31	intestine	intestine			1.7.6		0			p,2102
+476580	1969	Kucong	khiɛ31	khiɛ31	excrement	excrement			1.8.5		0			572
+476581	1969	Kucong	dzɿ31 sv55	dzɿ31 sv55	urine / urinate	urine / urinate			1.8.4		0			650,m
+476582	1969	Kucong	v31 phiɛ31	v31 phiɛ31	fart	fart			1.8.5.2		0			3553,m
+476583	1969	Kucong	kɯ35	kɯ35	sweat	sweat			1.8.1		0			615
+476584	1969	Kucong	tsv55 phiɛ31	tsv55 phiɛ31	phlegm	phlegm			1.8.3		0			
+476585	1969	Kucong	mɯ31 ɣɯ31	mɯ31 ɣɯ31	saliva	saliva			1.8.3		0			687,1013
+476586	1969	Kucong	nv55 biɛ33	nv55 biɛ33	snot	snot			1.8.2		0			
+476587	1969	Kucong	miɛ33 ɣɯ31	miɛ33 ɣɯ31	tears	tears			1.2.6.7		0			
+476588	1969	Kucong	biɛ31	biɛ31	pus	pus			1.8.6.1		0			1292
+476589	1969	Kucong	pʌ33	pʌ33	sound	sound			9.3		0			
+476590	1969	Kucong	tshu33 sɿ33 ka33 la33	tshu33 sɿ33 ka33 la33	corpse	corpse			1.1.6.1		0			
+476591	1969	Kucong	ti31 ta35	ti31 ta35	life (force)	life (force)			1.1.2.1		0			
+476592	1969	Kucong	a55 liɛ55	a55 liɛ55	Han	Han					0			
+476593	1969	Kucong	tshu33	tshu33	person	person			4.5		0			
+476594	1969	Kucong	zʌ31 ȵɛ55	zʌ31 ȵɛ55	child	child			1.5.3.2		0			
+476595	1969	Kucong	fa33	fa33	rat / mouse	rat / mouse			2.1.1		0			2630
+476596	1969	Kucong	fa33 pɔ31 ȵi33	fa33 pɔ31 ȵi33	squirrel	squirrel			2.1.1		0			
+476597	1969	Kucong	fa33 la31	fa33 la31	weasel	weasel			2.2.7		0			
+476598	1969	Kucong	ŋa33	ŋa33	bird	bird			2.2.4		0			3442
+476599	1969	Kucong	ŋa33 phɯ33	ŋa33 phɯ33	birdnest	birdnest					0			
+476600	1969	Kucong	tsaŋ33 ki55 li31	tsaŋ33 ki55 li31	swallow (bird)	swallow (bird)			1.3.5.6		0			
+476601	1969	Kucong	ŋa33	ŋa33	sparrow	sparrow (same as 'bird')			2.2.4.1		0	jbl1		3442
+476602	1969	Kucong	a33 na33 ka31	a33 na33 ka31	crow	crow			2.2.4.1		0			
+476603	1969	Kucong	bu31	bu31	pheasant	pheasant			2.2.4.1		0			
+476604	1969	Kucong	vɤ31	vɤ31	snake	snake			2.1.6.1		0			2623
+476605	1969	Kucong	a31 tshu31	a31 tshu31	friend	friend			4.4.2		0			
+476606	1969	Kucong	miɛ33 tsv55 lv55	miɛ33 tsv55 lv55	blind person	blind person			1.2.6.14.2		0			681,1401,m
+476607	1969	Kucong	khɯ33 pv55 khiɛ33 liɛ33	khɯ33 pv55 khiɛ33 liɛ33	lame person	lame person			1.5.12		0			
+476608	1969	Kucong	na35 bu31	na35 bu31	deaf person	deaf person			1.2.7.5		0			
+476609	1969	Kucong	tv33 kv33 di31 lɔ55	tv33 kv33 di31 lɔ55	bald person	bald person			1.2.3.4		0			
+476610	1969	Kucong	na31 kv55 ba35	na31 kv55 ba35	pock-marked person	pock-marked person			4.5		0			
+476611	1969	Kucong	tsɔ31 kɔ31 pɯ33 lɯ33	tsɔ31 kɔ31 pɯ33 lɯ33	hunchback	hunchback			1.4.8.3		0			
+476612	1969	Kucong	tshu33 ka35	tshu33 ka35	simpleton	simpleton					0			
+476613	1969	Kucong	ȵi31 v31	ȵi31 v31	insane person	insane person			8.3.1.11.3		0			
+476614	1969	Kucong	lʌ33 ŋa31	lʌ33 ŋa31	stutter	stutter			8.5.4.5		0			
+476615	1969	Kucong	vɛ33	vɛ33	guest	guest			4.4.3		0			
+476616	1969	Kucong	a31 bv35 a31 bi35	a31 bv35 a31 bi35	ancestors	ancestors			4.7.1		0			
+476617	1969	Kucong	a31 bv35	a31 bv35	grandfather	grandfather			4.7.1		0			p,2582
+476618	1969	Kucong	a31 bi35	a31 bi35	grandmother	grandmother			4.7.1		0			
+476619	1969	Kucong	a33 bʌ31	a33 bʌ31	father	father			4.7.1		0			
+476620	1969	Kucong	a33 mʌ31	a33 mʌ31	mother	mother			4.7.1		0			
+476621	1969	Kucong	zʌ31 pa35	zʌ31 pa35	son	son			4.7.3		0			
+476622	1969	Kucong	khɯ31 mʌ33	khɯ31 mʌ33	son's wife, daughter-in-law	son's wife, daughter-in-law			4.7.3		0			2348,1619
+476623	1969	Kucong	zʌ31 mi31	zʌ31 mi31	daughter	daughter			4.7.3		0			
+476624	1969	Kucong	ma55	ma55	daughter's husband, son-in-law	daughter's husband, son-in-law			4.7.3		0			
+476625	1969	Kucong	xɤ35	xɤ35	grandson	grandson			4.7.3		0			
+476626	1969	Kucong	a55 ku33	a55 ku33	older brother [loan]	older brother [loan]					0			
+476627	1969	Kucong	a33 tɕi31	a33 tɕi31	older sister [possible loan]	older sister [possible loan]					0			
+476628	1969	Kucong	a33 ȵi33	a33 ȵi33	younger brother	younger brother					0			
+476629	1969	Kucong	nv35 mʌ33	nv35 mʌ33	younger sister	younger sister					0			
+476630	1969	Kucong	ta55 tiɛ33	ta55 tiɛ33	father's elder brother [loan]	father's elder brother [loan]			4.7.1		0			
+476631	1969	Kucong	ta55 mu33	ta55 mu33	wife of father's elder brother [loan]	wife of father's elder brother [loan]			1.5.3.2		0			
+476632	1969	Kucong	a33 phi33	a33 phi33	father's younger brother	father's younger brother			1.5.3.2		0			
+476633	1969	Kucong	a33 mi33	a33 mi33	father's younger brother's wife	father's younger brother's wife			1.5.3.2		0			m,1618
+476634	1969	Kucong	a55 vʌ31 ɕi35	a55 vʌ31 ɕi35	peach	peach			3.1.5		0			
+476635	1969	Kucong	tɕhi31 mi55 ɕi35	tɕhi31 mi55 ɕi35	walnut	walnut			3.1.4		0			
+476636	1969	Kucong	tsa31	tsa31	rice paddy	rice paddy			3.1.4		0			
+476637	1969	Kucong	tshɿ55 nv31	tshɿ55 nv31	glutinous rice	glutinous rice			7.1.4.2		0			
+476638	1969	Kucong	a31 zu31	a31 zu31	seed	seed			3.1.4		0			
+476639	1969	Kucong	lɔ55	lɔ55	seedling	seedling			3.1.8		0			
+476640	1969	Kucong	nv33	nv33	ear (of grain)	ear (of grain)			1.2.7		0			
+476641	1969	Kucong	tsa31 ɕi35	tsa31 ɕi35	cereal grain	cereal grain			3.1.6.2		0			
+476642	1969	Kucong	gʌ31	gʌ31	buckwheat	buckwheat			3.1.4		0			
+476643	1969	Kucong	sʌ55 mʌ33	sʌ55 mʌ33	corn	corn			3.1.4		0			
+476644	1969	Kucong	a31 ʑɛ35 tsa55	a31 ʑɛ35 tsa55	stepmother	stepmother			4.7.1		0			
+476645	1969	Kucong	a31 pa35 tsa55	a31 pa35 tsa55	stepfather	stepfather			4.7.1		0			
+476646	1969	Kucong	mi31 tshu31 mʌ33	mi31 tshu31 mʌ33	widow	widow			4.2.8		0			4882,m,m
+476647	1969	Kucong	zʌ31 tshu31 zʌ31	zʌ31 tshu31 zʌ31	orphan	orphan			4.3		0			
+476648	1969	Kucong	tsɿ31 zʌ31	tsɿ31 zʌ31	livestock	livestock			1.1.1.1		0			
+476649	1969	Kucong	nv31	nv31	cow	cow			2.1.2		0			
+476650	1969	Kucong	nv31 ȵi33	nv31 ȵi33	ox; cattle	ox; cattle			2.1.2		0			2538,m
+476651	1969	Kucong	ɣɯ31 nv31	ɣɯ31 nv31	water buffalo	water buffalo			3.2.3		0			1013,m
+476652	1969	Kucong	nv31 zʌ31 bi55	nv31 zʌ31 bi55	calf (of cow)	calf (of cow)			1.5.7		0			
+476653	1969	Kucong	nv31 khv33	nv31 khv33	horn (of an animal)	horn (of an animal)			1.2.2		0			
+476654	1969	Kucong	khɯ33 thi31 tsɿ33	khɯ33 thi31 tsɿ33	hoof	hoof			1.5.4		0			
+476655	1969	Kucong	a31 gv31 kv55	a31 gv31 kv55	hide (of animal)	hide (of animal)			1.6.5.1		0			
+476656	1969	Kucong	a31 mu33	a31 mu33	wool	wool			1.6.1.3		0			p,363
+476657	1969	Kucong	a31 ma35	a31 ma35	tail	tail			1.4.10.1		0			p,1288
+476658	1969	Kucong	mu31	mu31	horse	horse			2.1.7		0			1431
+476659	1969	Kucong	tshɿ31	tshɿ31	goat	goat			2.1.8		0			1226
+476660	1969	Kucong	tshɿ31 zʌ31 bi55	tshɿ31 zʌ31 bi55	kid (baby goat)	kid (baby goat)			2.1.8		0			1226,m,1012,m,m
+476661	1969	Kucong	va31	va31	pig	pig			2.1.12		0			1006
+476662	1969	Kucong	phɯ31	phɯ31	dog	dog			2.1.11		0			1764
+476663	1969	Kucong	mi55 ȵɛ33	mi55 ȵɛ33	cat	cat			2.1.3		0			
+476664	1969	Kucong	thu31 |la31	thu31 la31	rabbit	rabbit			2.1.1		0			5356
+476665	1969	Kucong	ɣa33	ɣa33	chicken	chicken			2.1.10		0			1606
+476666	1969	Kucong	a³¹ ta³¹ la³¹ kv⁵⁵	a³¹ ta³¹ la³¹ kv⁵⁵	wing	wing			1.5.1.3		0			p,711,695,m
+476667	1969	Kucong	a31 piɛ31	a31 piɛ31	duck	duck			2.1.10		0			p,5713
+476668	1969	Kucong	lʌ31	lʌ31	tiger	tiger			2.1.3		0			5560
+476669	1969	Kucong	liɛ31	liɛ31	dragon	dragon			2.1.5		0			bChinese,b
+476670	1969	Kucong	a55 mɔ31	a55 mɔ31	monkey	monkey			2.1.9		0			p,2462
+476671	1969	Kucong	sa35 mu31	sa35 mu31	bear	bear			2.2.3		0			
+476672	1969	Kucong	va31 ti35	va31 ti35	wild boar	wild boar			3.2.5		0			1006,m
+476673	1969	Kucong	phʌ33	phʌ33	cloth	cloth			5.1		0			
+476674	1969	Kucong	phɯ33 kɯ33	phɯ33 kɯ33	clothes	clothes			5.11.8.2.1		0			
+476675	1969	Kucong	phʌ33 la31	phʌ33 la31	sleeve	sleeve			5.11.8.2.3		0			
+476676	1969	Kucong	tɕhɛ55 ɕi35	tɕhɛ55 ɕi35	button	button			5.11.8.2.3		0			
+476677	1969	Kucong	la35 khɯ33	la35 khɯ33	pants	pants			5.11.8.2.1.3		0			5571,m
+476678	1969	Kucong	thiɛ35 kɯ33	thiɛ35 kɯ33	skirt	skirt			5.11.8.2.1		0			
+476679	1969	Kucong	v55 thi33	v55 thi33	turban, headdress	turban, headdress			5.11.8.2.1.1		0			
+476680	1969	Kucong	ɣɔ55 mɔ55	ɣɔ55 mɔ55	hat	hat			5.11.8.2.1.1		0			
+476681	1969	Kucong	la35 tsa33	la35 tsa33	belt	belt			5.11.8.2.1.3		0			
+476682	1969	Kucong	khɯ55 nv33	khɯ55 nv33	shoes	shoes			5.11.8.1		0			
+476683	1969	Kucong	pa35 tiɛ33 liɛ33	pa35 tiɛ33 liɛ33	frog	frog			2.1.6.2		0			2148,645,m
+476684	1969	Kucong	ɛ55 nv31 zʌ31	ɛ55 nv31 zʌ31	tadpole	tadpole			2.1.6		0			
+476685	1969	Kucong	ŋʌ31	ŋʌ31	fish	fish			2.2.5		0			1455
+476686	1969	Kucong	pɔ31 mɯ55	pɔ31 mɯ55	insect	insect			2.2.6		0			2178,m
+476687	1969	Kucong	pɔ31 mɯ55 kɯ31 lɯ31	pɔ31 mɯ55 kɯ31 lɯ31	bedbug	bedbug			2.2.6		0			
+476688	1969	Kucong	sɿ33	sɿ33	louse	louse			2.2.6		0			2652
+476689	1969	Kucong	pɯ55	pɯ55	fly	fly			2.2.6		0			
+476690	1969	Kucong	lɔ33	lɔ33	maggot	maggot			2.2.6		0			5432
+476691	1969	Kucong	tsa55 kv33	tsa55 kv33	mosquito	mosquito			2.2.6		0			
+476692	1969	Kucong	tsa55 gʌ33 lʌ33	tsa55 gʌ33 lʌ33	spider	spider			2.2.6		0			m,5408,m
+476693	1969	Kucong	pɯ31 ti31 li31	pɯ31 ti31 li31	earthworm	earthworm			2.2.6		0			
+476694	1969	Kucong	vi31	vi31	leech	leech			2.2.6		0			2555
+476695	1969	Kucong	pɔ31 ɣɔ35	pɔ31 ɣɔ35	ant	ant			2.2.6		0			2178,m
+476696	1969	Kucong	ʑɛ31 piɛ31	ʑɛ31 piɛ31	bee	bee			2.2.6		0			
+476697	1969	Kucong	fv31 li55 tɕhiŋ33	fv31 li55 tɕhiŋ33	dragonfly	dragonfly			2.2.6		0			
+476698	1969	Kucong	pv31 lv31	pv31 lv31	butterfly	butterfly			2.2.6		0			2178,5432
+476699	1969	Kucong	sɤ33 tɕɛ31	sɤ33 tɕɛ31	tree	tree			3.1.2		0			2658,m
+476700	1969	Kucong	sɤ33 la31 ka55	sɤ33 la31 ka55	tree branch	tree branch			3.1.2		0			2658,m,1278
+476701	1969	Kucong	a31 tɕhi33	a31 tɕhi33	root	root			3.1.2		0			
+476702	1969	Kucong	a31 phiɛ31	a31 phiɛ31	leaf	leaf			3.1.3		0			
+476703	1969	Kucong	a31 vi33	a31 vi33	flower	flower			3.1.4		0			m,2185
+476704	1969	Kucong	sɤ33 ɕi35	sɤ33 ɕi35	fruit	fruit			3.1.5		0			
+476705	1969	Kucong	a31 khʌ33	a31 khʌ33	pit, stone	pit, stone			3.1.2		0			
+476706	1969	Kucong	a31 miɛ33	a31 miɛ33	bud, sprout	bud, sprout			3.1.4		0			
+476707	1969	Kucong	thv31 tɕɛ31	thv31 tɕɛ31	pine tree	pine tree			3.1.1		0			2690,6123
+476708	1969	Kucong	a33 kɯ55	a33 kɯ55	pine resin	pine resin			3.1.1		0			p,2331
+476709	1969	Kucong	vʌ31 tɕɛ31	vʌ31 tɕɛ31	bamboo	bamboo			3.1.1		0			2549,m
+476710	1969	Kucong	a55 tsa33	a55 tsa33	cane; rattan	cane; rattan			5.11.8.2.2		0			
+476711	1969	Kucong	a55 tshv31	a55 tshv31	thorn	thorn			3.1.2		0			
+476712	1969	Kucong	v31	v31	needle	needle			5.1		0			
+476713	1969	Kucong	gv33 tɕhi33	gv33 tɕhi33	ladder	ladder			5.4		0			260,m
+476714	1969	Kucong	sa33 ka55	sa33 ka55	stick	stick			3.1.2		0			
+476715	1969	Kucong	lu31	lu31	boat	boat			5.1		0			2416
+476716	1969	Kucong	khɯ55 tshɔ33	khɯ55 tshɔ33	axe	axe			5.11.5.3		0			
+476717	1969	Kucong	tɕi55 tsɤ31	tɕi55 tsɤ31	saw	saw			5.11.5.3		0			
+476718	1969	Kucong	tɕi55 kv33	tɕi55 kv33	hoe	hoe			5.3		0			
+476719	1969	Kucong	a55 tsa33	a55 tsa33	rope	rope			5.11.4		0			
+476720	1969	Kucong	a55 kɔ55	a55 kɔ55	sickle	sickle			5.3		0			
+476721	1969	Kucong	tiɛ35 khv31	tiɛ35 khv31	mortar	mortar			5.5		0			
+476722	1969	Kucong	a55 kv33	a55 kv33	millet	millet			1.5.3.2		0			
+476723	1969	Kucong	v33 tsa55	v33 tsa55	vegetable	vegetable			3.1.2		0			
+476724	1969	Kucong	u31 mʌ33 phu33	u31 mʌ33 phu33	radish	radish			3.1.5		0			
+476725	1969	Kucong	miɛ33 ȵi33	miɛ33 ȵi33	hot pepper	hot pepper					0			
+476726	1969	Kucong	tshɔ31 pi35	tshɔ31 pi35	ginger	ginger			3.1.5		0			
+476727	1969	Kucong	mɯ35 ɕi35	mɯ35 ɕi35	potato	potato			3.1.5		0			
+476728	1969	Kucong	nɔ33 ɕi35	nɔ33 ɕi35	bean	bean			3.1.4		0			
+476729	1969	Kucong	nɔ33 ɕi35	nɔ33 ɕi35	soybean	soybean			3.1.4		0			
+476730	1969	Kucong	mi31 ɕi35	mi31 ɕi35	peanut	peanut			3.1.4		0			
+476731	1969	Kucong	mɯ33 ɕi35	mɯ33 ɕi35	sesame	sesame			3.1.6.1		0			2487,1019
+476732	1969	Kucong	zʌ33 pv55	zʌ33 pv55	grass	grass			3.1.8		0			5642,m
+476733	1969	Kucong	mɔ31	mɔ31	mushroom	mushroom			3.1.7		0			2472
+476734	1969	Kucong	mɔ31 na55 kv33	mɔ31 na55 kv33	wood ear fungus	wood ear fungus			3.1.2		0			2472,m,m
+476735	1969	Kucong	tsa31 khʌ33	tsa31 khʌ33	rice	rice			3.1.4		0			
+476736	1969	Kucong	ɣɔ35	ɣɔ35	rice (cooked)	rice (cooked)			3.1.4		0			
+476737	1969	Kucong	ɣɔ35 biɛ33 liɛ33	ɣɔ35 biɛ33 liɛ33	rice porridge	rice porridge			3.1.4		0			
+476738	1969	Kucong	sa35	sa35	meat	meat			1.1.1.1		0			34
+476739	1969	Kucong	sa35 tɕi33 nɔ31	sa35 tɕi33 nɔ31	lean meat	lean meat			1.1.1		0			34,m,m
+476740	1969	Kucong	sa35 tshv33	sa35 tshv33	fat	fat (n.)	n		1.6.4		0	dwb33		
+476741	1969	Kucong	ɣa33 v33	ɣa33 v33	(chicken) egg	(chicken) egg					0			1606,301
+476742	1969	Kucong	a55 ɣɯ31	a55 ɣɯ31	soup	soup			5.5		0			
+476743	1969	Kucong	dzɤ31	dzɤ31	liquor	liquor			3.1.6.3		0			5638
+476744	1969	Kucong	ɣɯ31 bɯ31	ɣɯ31 bɯ31	boiled water	boiled water			6.6		0			1013,m
+476745	1969	Kucong	tsha31 ʑi33	tsha31 ʑi33	tea [possible loan]	tea [possible loan]			3.1.1		0			b?
+476746	1969	Kucong	za33 khʌ31	za33 khʌ31	cigarette	cigarette			5.8		0			
+476747	1969	Kucong	na33 tshɿ31	na33 tshɿ31	medicine	medicine			5.4		0			m,5427
+476748	1969	Kucong	va31 phɯ31	va31 phɯ31	chaff, bran	chaff, bran			3.1.6		0			
+476749	1969	Kucong	va31 ɣɔ35	va31 ɣɔ35	pigfeed	pigfeed					0			
+476750	1969	Kucong	kɔ31 khɯ55	kɔ31 khɯ55	thread	thread			5.11.6		0			
+476751	1969	Kucong	a31 xɔ55 pɔ35	a31 xɔ55 pɔ35	underneath	underneath			9.2.2		0			
+476752	1969	Kucong	a31 tha35	a31 tha35	on, above	on, above			10.1.1		0			
+476753	1969	Kucong	a31 xɔ55	a31 xɔ55	under, below	under, below			9.2.2		0			
+476754	1969	Kucong	ʑa31 ȵi33	ʑa31 ȵi33	today	today			9.1.3		0			
+476755	1969	Kucong	a31 mi31 ȵi33	a31 mi31 ȵi33	yesterday	yesterday			9.1.3		0			
+476756	1969	Kucong	sɿ55 mi31 ȵi33	sɿ55 mi31 ȵi33	day before yesterday	day before yesterday			1.5.3.2		0			
+476757	1969	Kucong	a33 sɔ55	a33 sɔ55	tomorrow	tomorrow			9.1.3		0			
+476758	1969	Kucong	pha31 ȵi33	pha31 ȵi33	day after tomorrow	day after tomorrow			1.5.3.2		0			
+476759	1969	Kucong	mɔ31 lɔ55 kɔ35	mɔ31 lɔ55 kɔ35	daytime	daytime			9.1.3		0			
+476760	1969	Kucong	mɔ31 sɔ55	mɔ31 sɔ55	morning	morning			9.1.4		0			
+476761	1969	Kucong	na55 pv33 tsɿ31	na55 pv33 tsɿ31	earring	earring			5.11.8.3		0			
+476762	1969	Kucong	la31 pi35	la31 pi35	(finger) ring	(finger) ring					0			695,597
+476763	1969	Kucong	la31 kɔ31	la31 kɔ31	bracelet	bracelet			5.11.8.3		0			
+476764	1969	Kucong	ʑi55 gɯ31	ʑi55 gɯ31	pillow	pillow			1.2.1		0			m,692
+476765	1969	Kucong	ʑɛ31	ʑɛ31	room	room			5.11.9.2		0			
+476766	1969	Kucong	sa33 ka55	sa33 ka55	wood	wood			3.1.2		0			
+476767	1969	Kucong	tha55 ba55 la55	tha55 ba55 la55	plank, wooden board	plank, wooden board			5.1		0			
+476768	1969	Kucong	ʑɛ31 khɯ33	ʑɛ31 khɯ33	post, pillar	post, pillar			5.11		0			
+476769	1969	Kucong	ɣa33 mi55	ɣa33 mi55	door	door			5.11.9.3		0			
+476770	1969	Kucong	ɣa33 mi55 thi33	ɣa33 mi55 thi33	threshold (门坎)	threshold (门坎)			5.11.9.3		0			
+476771	1969	Kucong	zʌ33 khu33 pa55	zʌ33 khu33 pa55	fence	fence			5.11.9.5		0			
+476772	1969	Kucong	zʌ33 khu33	zʌ33 khu33	courtyard	courtyard			9.10.5		0			
+476773	1969	Kucong	mu55 khu31	mu55 khu31	stool	stool			5.11.9.4		0			
+476774	1969	Kucong	ʑi55 ɣʌ33	ʑi55 ɣʌ33	bed	bed			1.5.3.2		0			
+476775	1969	Kucong	mi55 ɕi33	mi55 ɕi33	broom	broom			5.4		0			
+476776	1969	Kucong	sɤ33	sɤ33	firewood	firewood			5.11.5.5		0			
+476777	1969	Kucong	a33 tshɿ55	a33 tshɿ55	iron wok	iron wok			3.2.4		0			
+476778	1969	Kucong	a33 lʌ31 piɛ33	a33 lʌ31 piɛ33	lid	lid			5.1		0			
+476779	1969	Kucong	sa55 khʌ33	sa55 khʌ33	bamboo steamer	bamboo steamer			3.1.1		0			
+476780	1969	Kucong	a33 khu31	a33 khu31	knife	knife			5.5		0			
+476781	1969	Kucong	a31 la31 tv31	a31 la31 tv31	handle (i.e., of a knife)	handle (i.e., of a knife)			5.1		0			
+476782	1969	Kucong	a33 ʑɛ55 kv33	a33 ʑɛ55 kv33	spoon	spoon			5.5		0			
+476783	1969	Kucong	khɯ31	khɯ31	bowl	bowl			5.1		0			
+476784	1969	Kucong	a55 tsv33	a55 tsv33	chopsticks	chopsticks			5.5		0			b?
+476785	1969	Kucong	a55 mu31 kv55	a55 mu31 kv55	ladle	ladle			5.5		0			
+476786	1969	Kucong	a33 khɯ33 xa55	a33 khɯ33 xa55	tripod stand	tripod stand			5.11.9.6		0			
+476787	1969	Kucong	pa55 ti33	pa55 ti33	carrying cloth worn on back (背带)	carrying cloth worn on back (背带)			6.2.2.2.1		0			
+476788	1969	Kucong	na33 khu31	na33 khu31	balance, steelyard	balance, steelyard			9.8		0			
+476789	1969	Kucong	a55 phiɛ31	a55 phiɛ31	money	money			5.9		0			
+476790	1969	Kucong	ɕi35	ɕi35	classifier.kernel	classifier.kernel			10.1.3		0			
+476791	1969	Kucong	pɯ35	pɯ35	classifier.sentence	classifier.sentence			10.1.3		0			
+476792	1969	Kucong	tɕɛ33	tɕɛ33	classifier.pair	classifier.pair			10.1.3		0			5383
+476793	1969	Kucong	tshaŋ31	tshaŋ31	classifier.group (of goats)	classifier.group (of goats)			10.1.3		0			
+476794	1969	Kucong	tsɤ33	tsɤ33	classifier.joint (of bamboo)	classifier.joint (of bamboo)			10.1.3		0			418
+476795	1969	Kucong	pa33	pa33	classifier.one of a pair (of shoes)	classifier.one of a pair (of shoes)			10.1.1		0			
+476796	1969	Kucong	vɤ31	vɤ31	classifier.backload (of firewood)	classifier.backload (of firewood)			10.1.3		0			
+476797	1969	Kucong	tshuaŋ35	tshuaŋ35	classifier.string (of pearls)	classifier.string (of pearls)			10.1.3		0			
+476798	1969	Kucong	ʑɛ31	ʑɛ31	classifier.room	classifier.room			10.1.3		0			
+476799	1969	Kucong	ki33	ki33	classifier.jin (unit of weight)	classifier.jin (unit of weight)			10.1.3		0			
+476800	1969	Kucong	tiɛ35 mɯ31	tiɛ35 mɯ31	pestle	pestle			5.5		0			
+476801	1969	Kucong	xʌ33 kɯ33	xʌ33 kɯ33	sieve, sifter	sieve, sifter			5.5		0			
+476802	1969	Kucong	mɔ55	mɔ55	grind [loan]	grind [loan]			9.5		0			bChinese
+476803	1969	Kucong	a33 khu31 ka55 mʌ33	a33 khu31 ka55 mʌ33	machete for firewood (柴刀)	machete for firewood (柴刀)			5.3		0			
+476804	1969	Kucong	a33 khu31 phɯ33	a33 khu31 phɯ33	knife scabbard	knife scabbard			5.5		0			
+476805	1969	Kucong	a55 lu33 bu31	a55 lu33 bu31	gun	gun			5.15		0			
+476806	1969	Kucong	fv35 liɛ31 bɔ33	fv35 liɛ31 bɔ33	bow	bow (n.)	n		5.15		0	dwb33		
+476807	1969	Kucong	kha33 tɕi33	kha33 tɕi33	arrow	arrow			5.15		0			5678,74
+476808	1969	Kucong	kv31 li31	kv31 li31	story	story			5.8		0			
+476809	1969	Kucong	ʑi31	ʑi31	song	song			5.1		0			
+476810	1969	Kucong	mʌ33 kv31 mʌ33	mʌ33 kv31 mʌ33	drum	drum			5.1		0			
+476811	1969	Kucong	phi55 sɔ31	phi55 sɔ31	flute	flute			5.1		0			
+476812	1969	Kucong	taŋ33 kɯ55 lɯ55	taŋ33 kɯ55 lɯ55	bell	bell			5.1		0			
+476813	1969	Kucong	ȵi31	ȵi31	supernatural being	supernatural being			5.8.2.3		0			
+476814	1969	Kucong	lʌ33 ka35	lʌ33 ka35	demon	demon			4.2.12.2		0			
+476815	1969	Kucong	ɣʌ31	ɣʌ31	strength	strength			1.1.5		0			5677
+476816	1969	Kucong	a31 miɛ33	a31 miɛ33	name	name			5.8		0			p,2450
+476817	1969	Kucong	zʌ31 ma33	zʌ31 ma33	dream	dream			1.1.4.2		0			127,126
+476818	1969	Kucong	a31 ka55 khɔ33	a31 ka55 khɔ33	between	between			9.2.3		0			
+476819	1969	Kucong	a31 dʑɔ31 pɔ35	a31 dʑɔ31 pɔ35	beside	beside			9.2.3		0			
+476820	1969	Kucong	la31 fa33 pɔ35	la31 fa33 pɔ35	left (side)	left (side)			1.5.3.2		0			695,2154,1305
+476821	1969	Kucong	la31 ʑɛ31 pɔ35	la31 ʑɛ31 pɔ35	right (side)	right (side)			1.5.3.2		0			695,2786,1305
+476822	1969	Kucong	miɛ33 ɣɯ31 sɔ33	miɛ33 ɣɯ31 sɔ33	in front of	in front of			10.1.1		0			
+476823	1969	Kucong	ɣɯ31 nʌ33 pɔ35	ɣɯ31 nʌ33 pɔ35	behind	behind			9.2.8		0			
+476824	1969	Kucong	a31 dʑɔ35	a31 dʑɔ35	outside	outside			9.2.7		0			
+476825	1969	Kucong	a31 khɔ33	a31 khɔ33	in	in			10.1.1		0			p,820
+476826	1969	Kucong	nv31 khv33	nv31 khv33	corner	corner			5.11.9.3		0			
+476827	1969	Kucong	a31 tɕhi55 kv55	a31 tɕhi55 kv55	point, tip	point, tip			6.2.2.2		0			
+476828	1969	Kucong	a31 tha31 pɔ35	a31 tha31 pɔ35	upper side	upper side			9.2.1		0			m,m,1305
+476829	1969	Kucong	ɣɔ33 pɔ35	ɣɔ33 pɔ35	over there	over there			9.2.1		0			
+476830	1969	Kucong	ʑɛ33 kiɛ55	ʑɛ33 kiɛ55	that kind, that way	that kind, that way			10.1		0			
+476831	1969	Kucong	a55 sv33	a55 sv33	who	who			10.5.3		0			
+476832	1969	Kucong	a33 mʌ33	a33 mʌ33	what	what			10.5.3		0			p,167
+476833	1969	Kucong	khɔ35 ka35	khɔ35 ka35	where	where			10.5.3		0			
+476834	1969	Kucong	kha31 ta31 gɯ33	kha31 ta31 gɯ33	what time	what time			10.5.3		0			
+476835	1969	Kucong	khʌ31 tɕɛ33	khʌ31 tɕɛ33	how much, how many	how much, how many			10.1		0			
+476836	1969	Kucong	khʌ31 ȵi31	khʌ31 ȵi31	how many	how many			10.1		0			
+476837	1969	Kucong	ɣu35 tɕɛ33	ɣu35 tɕɛ33	other	other			8.1		0			
+476838	1969	Kucong	a33 mi31 tiɛ31 tiɛ55	a33 mi31 tiɛ31 tiɛ55	each	each			9.9		0			
+476839	1969	Kucong	mɔ31 lɔ55 kɔ35	mɔ31 lɔ55 kɔ35	noon	noon			9.1.4		0			
+476840	1969	Kucong	mɔ31 ʑa55	mɔ31 ʑa55	night	night			9.1.4		0			
+476841	1969	Kucong	ȵi33 ʑa55	ȵi33 ʑa55	day	day			1.5.3.2		0			85,m
+476842	1969	Kucong	lʌ33 pʌ33	lʌ33 pʌ33	month	month			9.1.2		0			
+476843	1969	Kucong	khɔ31	khɔ31	year	year			9.1.2		0			2252
+476844	1969	Kucong	tɕhi31 ȵi33 khɔ31	tɕhi31 ȵi33 khɔ31	this year	this year			10.4.3.2		0			m,m,2252
+476845	1969	Kucong	a31 mi31 khɔ31	a31 mi31 khɔ31	last year	last year			9.9		0			m,m,2252
+476846	1969	Kucong	sɿ55 mi31 khɔ31	sɿ55 mi31 khɔ31	year before last	year before last			9.1.2		0			m,m,2252
+476847	1969	Kucong	ȵi31 a55 khɔ31	ȵi31 a55 khɔ31	next year	next year			9.9		0			m,m,2252
+476848	1969	Kucong	ȵi31 ȵi33 khɔ31	ȵi31 ȵi33 khɔ31	year after next year	year after next year			9.1.2		0			m,m,2252
+476849	1969	Kucong	ʑi33 gɯ33	ʑi33 gɯ33	previously	previously			9.1.1		0			
+476850	1969	Kucong	ʑi33 gɯ33	ʑi33 gɯ33	in olden times	in olden times			10.1.1		0			
+476851	1969	Kucong	a31 mɯ31 gɯ33	a31 mɯ31 gɯ33	now	now			9.1.5		0			
+476852	1969	Kucong	ɕi35 ti31 ȵi31 ȵi33	ɕi35 ti31 ȵi31 ȵi33	recently	recently			9.1.5		0			
+476853	1969	Kucong	a33 sɔ55 pha31 ȵi33	a33 sɔ55 pha31 ȵi33	in the future	in the future			10.1.1		0			
+476854	1969	Kucong	ti31 ma31	ti31 ma31	one	one			9.9		0			
+476855	1969	Kucong	ȵi31 ma31	ȵi31 ma31	two	two			9.9		0			2504
+476856	1969	Kucong	ɕɛ55 ma31	ɕɛ55 ma31	three	three			9.9		0			
+476857	1969	Kucong	ɤ31 liɛ35	ɤ31 liɛ35	four	four			9.9		0			2409
+476858	1969	Kucong	ŋʌ31 ma31	ŋʌ31 ma31	five	five			9.9		0			1306,m
+476859	1969	Kucong	khɔ31 ma31	khɔ31 ma31	six	six			9.9		0			2621,m
+476860	1969	Kucong	sɤ35 ma31	sɤ35 ma31	seven	seven			9.9		0			
+476861	1969	Kucong	xi55 ma31	xi55 ma31	eight	eight			9.9		0			2259,m
+476862	1969	Kucong	kɔ31 ma31	kɔ31 ma31	nine	nine			9.9		0			2364
+476863	1969	Kucong	tɕhi33 ma31	tɕhi33 ma31	ten	ten			9.9		0			2748
+476864	1969	Kucong	zʌ33	zʌ33	hundred	hundred			9.9		0			
+476865	1969	Kucong	lv31	lv31	thousand	thousand			9.9		0			
+476866	1969	Kucong	tɕhi55	tɕhi55	ten thousand	ten thousand			9.9		0			
+476867	1969	Kucong	tɕɛ31	tɕɛ31	(one) root (of grass)	(one) root (of grass)					0			
+476868	1969	Kucong	lɔ31	lɔ31	light	light			7.1.11.1		0			
+476869	1969	Kucong	gɯ31	gɯ31	fast	fast			9.6.1.1		0			
+476870	1969	Kucong	lv31	lv31	slow	slow			9.6.2.1		0			
+476871	1969	Kucong	na35	na35	early	early			9.1.1		0			6227
+476872	1969	Kucong	tha33	tha33	sharp	sharp			6.9.2		0			5515
+476873	1969	Kucong	di31	di31	muddy; turbid	muddy; turbid			3.2.11		0			
+476874	1969	Kucong	bɯ55	bɯ55	plump, fat	plump, fat			1.1.5.2		0			
+476875	1969	Kucong	vi33	vi33	dry	dry			6.6		0			3298
+476876	1969	Kucong	biɛ33	biɛ33	wet, moist	wet, moist			6.6		0			
+476877	1969	Kucong	a31 biɛ33 liɛ33	a31 biɛ33 liɛ33	watery, thin (as of porridge)	watery, thin (as of porridge)			3.2.3		0			
+476878	1969	Kucong	lu31	lu31	ounce	ounce			9.8		0			
+476879	1969	Kucong	lv31	lv31	armspan (unit of measure)	armspan (unit of measure)			10.1.1		0			
+476880	1969	Kucong	tshɿ31	tshɿ31	foot (unit of measure) [loan]	foot (unit of measure) [loan]			1.5.2		0			
+476881	1969	Kucong	thv33	thv33	handspan (unit of measure)	handspan (unit of measure)			1.5.9.4		0			1281
+476882	1969	Kucong	ba55	ba55	yuan (unit of currency)	yuan (unit of currency)			10.1.1		0			
+476883	1969	Kucong	ti31 la31	ti31 la31	a while	a while			9.1.4		0			
+476884	1969	Kucong	pv55	pv55	(walk a) step	(walk a) step			6.7.4		0			
+476885	1969	Kucong	phɔ35	phɔ35	(go one) time	(go one) time					0			5562
+476886	1969	Kucong	pv31	pv31	(eat a) meal	(eat a) meal					0			
+476887	1969	Kucong	a33 tɕi55	a33 tɕi55	some	some			9.9		0			
+476888	1969	Kucong	ŋa31	ŋa31	1sg.pro	1sg.pro					0			
+476889	1969	Kucong	ŋɯ35 ȵi31 vi55	ŋɯ35 ȵi31 vi55	us two	us two			9.9		0			
+476890	1969	Kucong	ŋɯ35	ŋɯ35	1pl.pro	1pl.pro					0			
+476891	1969	Kucong	nɔ31	nɔ31	2sg.pro	2sg.pro					0			
+476892	1969	Kucong	ȵɛ35 ȵi31 vi55	ȵɛ35 ȵi31 vi55	you two	you two			4.1		0			2489,2504,m
+476893	1969	Kucong	nv35	nv35	2pl.pro	2pl.pro					0			
+476894	1969	Kucong	ɣɔ31	ɣɔ31	3sg.pro	3sg.pro					0			
+476895	1969	Kucong	uɛ35 ȵi31 vi55	uɛ35 ȵi31 vi55	those two	those two			10.4.3.2		0			
+476896	1969	Kucong	ɣu35 tɕɛ33	ɣu35 tɕɛ33	3pl.pro	3pl.pro					0			
+476897	1969	Kucong	tiɛ31 tiɛ55	tiɛ31 tiɛ55	oneself	oneself			4.1		0			
+476898	1969	Kucong	sv33	sv33	other people	other people			8.1		0			5632
+476899	1969	Kucong	ɕi35	ɕi35	this	this			10.4.3.2		0			
+476900	1969	Kucong	ɕi35 tɕɛ33	ɕi35 tɕɛ33	these	these			10.4.3.2		0			
+476901	1969	Kucong	tshɔ35	tshɔ35	here	here			9.2.3		0			
+476902	1969	Kucong	tshɔ31 pɔ35	tshɔ31 pɔ35	this side	this side			10.4.3.2		0			m,1305
+476903	1969	Kucong	ɕɛ33 kiɛ55	ɕɛ33 kiɛ55	this way	this way			10.4.3.2		0			
+476904	1969	Kucong	tɕhi35	tɕhi35	that (proximal)	that (proximal)			10.1		0			
+476905	1969	Kucong	ɕi55 tɕɛ33	ɕi55 tɕɛ33	those	those			10.4.3.2		0			
+476906	1969	Kucong	ɕɔ33	ɕɔ33	there	there			9.2.7		0			
+476907	1969	Kucong	ɕɛ31	ɕɛ31	clean	clean			6.2.2.5.2		0			
+476908	1969	Kucong	tsha35	tsha35	dirty	dirty			3.2.11		0			
+476909	1969	Kucong	a31 ti31	a31 ti31	alive	alive			1.1.2.1		0			
+476910	1969	Kucong	bɔ31	bɔ31	sound, noise	sound, noise			9.3		0			
+476911	1969	Kucong	gɤ31 li55	gɤ31 li55	flowering	flowering			3.1.10		0			
+476912	1969	Kucong	ɕuŋ33	ɕuŋ33	smart	smart			8.3		0			
+476913	1969	Kucong	ka35	ka35	stupid	stupid			8.3		0			
+476914	1969	Kucong	tsa55	tsa55	boil	boil			6.6		0			
+476915	1969	Kucong	gɔ31	gɔ31	pull out (i.e., grass)	pull out (i.e., grass)			6.2.2.3.1		0			5612
+476916	1969	Kucong	pa55	pa55	harrow (a field)	harrow (a field)			5.3		0			
+476917	1969	Kucong	ʑi55 tsv31	ʑi55 tsv31	all	all			9.9		0			
+476918	1969	Kucong	ɣɯ35	ɣɯ35	big	big			9.7.2		0			
+476919	1969	Kucong	ʑi33	ʑi33	small	small			9.7.2		0			2806
+476920	1969	Kucong	mu33	mu33	tall	tall			9.7.2		0			
+476921	1969	Kucong	ŋɛ31	ŋɛ31	short	short			9.7.2		0			7175
+476922	1969	Kucong	bu31	bu31	convex	convex					0			
+476923	1969	Kucong	khv31	khv31	concave	concave			9.7.2		0			
+476924	1969	Kucong	zɤ31	zɤ31	long	long			9.7.2		0			1011
+476925	1969	Kucong	ŋɛ33	ŋɛ33	short (of things)	short (of things)			9.7.2		0			7175
+476926	1969	Kucong	vɤ31	vɤ31	far	far			9.2.4		0			622
+476927	1969	Kucong	ɣɛ33	ɣɛ33	near	near			9.2.3		0			
+476928	1969	Kucong	fi55	fi55	wide, broad	wide, broad			9.7.2		0			
+476929	1969	Kucong	dzɤ31	dzɤ31	narrow	narrow			9.7.2		0			
+476930	1969	Kucong	thv55	thv55	thick	thick			9.7.2		0			183
+476931	1969	Kucong	pʌ35	pʌ35	thin	thin			9.7.2		0			5551
+476932	1969	Kucong	na55	na55	deep	deep			7.1.5.3		0			6130
+476933	1969	Kucong	piɛ33	piɛ33	full	full			1.1.3.2		0			111
+476934	1969	Kucong	miɛŋ31	miɛŋ31	many, lots	many, lots			9.9		0			
+476935	1969	Kucong	a31 pa55 ŋɯ55	a31 pa55 ŋɯ55	flat	flat			7.1.5.1		0			
+476936	1969	Kucong	sɿ55	sɿ55	askew, crooked	askew, crooked			7.1.5.4		0			
+476937	1969	Kucong	kɔ31	kɔ31	curved, crooked	curved, crooked			7.1.5.1		0			
+476938	1969	Kucong	na33	na33	black	black			9.4		0			2483
+476939	1969	Kucong	phv33	phv33	white	white			9.4		0			1235
+476940	1969	Kucong	ȵi33	ȵi33	red	red			9.4		0			2499
+476941	1969	Kucong	sɿ33	sɿ33	yellow	yellow			9.4		0			
+476942	1969	Kucong	nu33	nu33	green	green			9.4		0			
+476943	1969	Kucong	nu33	nu33	blue	blue			9.4		0			2531
+476944	1969	Kucong	a31 phɯ33 khiɛ33	a31 phɯ33 khiɛ33	ashy	ashy					0			
+476945	1969	Kucong	xɛŋ31	xɛŋ31	heavy	heavy			9.6.2		0			
+476946	1969	Kucong	gɔ31	gɔ31	take out	take out			6.21		0			
+476947	1969	Kucong	dɔ31	dɔ31	smoke (a cigarette)	smoke (a cigarette)			3.2.12.2		0			
+476948	1969	Kucong	tui33	tui33	go out	go out			6.7.2		0			
+476949	1969	Kucong	v31	v31	wear (of clothes)	wear (of clothes)			6.2.2.1		0			2779
+476950	1969	Kucong	nv33	nv33	wear (of shoes)	wear (of shoes)			6.2.2.1		0			
+476951	1969	Kucong	thu33	thu33	thread (a needle)	thread (a needle)			5.11.6		0			
+476952	1969	Kucong	mɤ33	mɤ33	blow (a horn)	blow (a horn)			1.3.1.4		0			503
+476953	1969	Kucong	tha31	tha31	jab, poke	jab, poke			8.4		0			
+476954	1969	Kucong	dɔ33	dɔ33	hit (i.e., a person)	hit (i.e., a person)			6.8		0			
+476955	1969	Kucong	bɔ33	bɔ33	hit (i.e., a pig)	hit (i.e., a pig)			6.8		0			
+476956	1969	Kucong	tsɤ33	tsɤ33	dense (i.e., of cloth)	dense (i.e., of cloth)			7.1.5.1		0			
+476957	1969	Kucong	pʌ35	pʌ35	sparse (i.e., of hair)	sparse (i.e., of hair)			7.1.2.1		0			
+476958	1969	Kucong	xɯ33	xɯ33	hard	hard			9.6.2		0			
+476959	1969	Kucong	nv31	nv31	soft	soft			7.1.4.2		0			2510
+476960	1969	Kucong	ȵɛ55	ȵɛ55	sticky	sticky			7.1.4.2		0			
+476961	1969	Kucong	li33 kiɛ33	li33 kiɛ33	slippery	slippery			7.1.4.2		0			
+476962	1969	Kucong	xɔ31	xɔ31	incorrect	incorrect					0			
+476963	1969	Kucong	a31 tsɿ31	a31 tsɿ31	raw	raw			7.1.8.3		0			p,1005
+476964	1969	Kucong	sɤ55	sɤ55	new	new			9.6.1.1		0			6178
+476965	1969	Kucong	pi35	pi35	old (of things)	old (of things)			7.1.8.3		0			7185
+476966	1969	Kucong	nʌ33	nʌ33	good	good			9.6.1.1		0			660
+476967	1969	Kucong	piɛ33	piɛ33	bad	bad			9.6.2.1		0			
+476968	1969	Kucong	kha33	kha33	expensive	expensive			5.9		0			
+476969	1969	Kucong	mu31	mu31	old (of people)	old (of people)			7.1.8.3		0			2440
+476970	1969	Kucong	la55 xɔ35	la55 xɔ35	young	young			7.1.8.3		0			
+476971	1969	Kucong	da31	da31	beautiful	beautiful			7.1.3		0			2722
+476972	1969	Kucong	fɤ55	fɤ55	warm	warm			7.1.2.3		0			3515
+476973	1969	Kucong	ka33	ka33	cold	cold			7.1.2.3		0			
+476974	1969	Kucong	sʌ33	sʌ33	easy	easy			9.6.1.1		0			156
+476975	1969	Kucong	nv31	nv31	smelly	smelly			1.2.8.5		0			
+476976	1969	Kucong	tɕi33	tɕi33	sour	sour			7.1.4.4		0			7205
+476977	1969	Kucong	tshuŋ33	tshuŋ33	sweet	sweet			7.1.4.4		0			
+476978	1969	Kucong	khʌ31	khʌ31	bitter	bitter			7.1.4.4		0			229
+476979	1969	Kucong	phiɛ33	phiɛ33	hot (spicy)	hot (spicy)					0			
+476980	1969	Kucong	khʌ31	khʌ31	salty	salty			3.2.4		0			
+476981	1969	Kucong	tsɤ33	tsɤ33	astringent	astringent			7.1.4.4		0			
+476982	1969	Kucong	mɯ55	mɯ55	busy	busy			9.6.3		0			
+476983	1969	Kucong	pu33	pu33	wealthy	wealthy					0			
+476984	1969	Kucong	za35	za35	poor	poor			9.6.2.2		0			
+476985	1969	Kucong	thʌ33	thʌ33	stamp (one's foot)	stamp (one's foot)			6.2.2.1		0			
+476986	1969	Kucong	mɯ31	mɯ31	hungry	hungry			1.1.3		0			99
+476987	1969	Kucong	thʌ55 tɕhi31 tɕhi31	thʌ55 tɕhi31 tɕhi31	shiver	shiver			1.6.6.2.1		0			
+476988	1969	Kucong	fɤ55 tɕhi55	fɤ55 tɕhi55	feverish	be feverish	be v.		1.1.5.1		0	dwb13		
+476989	1969	Kucong	a31 miɛ33 miɛ33	a31 miɛ33 miɛ33	germinate	germinate			3.1.9		0			
+476990	1969	Kucong	phɔ33	phɔ33	turn over	turn over			6.7.6		0			5572
+476991	1969	Kucong	phiɛ31	phiɛ31	put, place (i.e., salt)	put, place (i.e., salt)			6.17		0			
+476992	1969	Kucong	lɔ55	lɔ55	graze	graze					0			
+476993	1969	Kucong	a31 mi35 liɛ33 phiɛ31	a31 mi35 liɛ33 phiɛ31	commit arson	commit arson			6.1.1.1		0			
+476994	1969	Kucong	pv31	pv31	fly	fly (v.)	v		2.2.6		0	dwb21		
+476995	1969	Kucong	ɣɔ55 pi55	ɣɔ55 pi55	break off, break open	break off, break open			9.5		0			
+476996	1969	Kucong	ta33	ta33	move	move (v.t.)	v.t.		6.7.11		0	dwb28		
+476997	1969	Kucong	gɔ31 phɯ33	gɔ31 phɯ33	bind, tie	bind, tie			6.13.1		0			
+476998	1969	Kucong	pi55	pi55	peel	peel (v.t.)	v.t.		1.5.3.2		0	dwb28		
+476999	1969	Kucong	giɛ31	giɛ31	peel off	peel off			1.5.3.2		0			
+477000	1969	Kucong	bɔ33	bɔ33	full, satiated	be full, satiated	be v.		1.1.3.2		0	dwb13		100
+477001	1969	Kucong	ɣɔ33	ɣɔ33	hug	hug			8.4		0			
+477002	1969	Kucong	bʌ33	bʌ33	carry on one's back	carry on one's back			6.2.2.2.1		0			2177
+477003	1969	Kucong	tsv55	tsv55	open (one's mouth)	open (one's mouth)			6.2.2.6.1		0			
+477004	1969	Kucong	phiɛ31	phiɛ31	braid, plait (of hair)	braid, plait (of hair)			1.2.3.2		0			2018
+477005	1969	Kucong	ɣa31	ɣa31	braid (i.e., a basket)	braid (i.e., a basket)			1.2.3.2		0			
+477006	1969	Kucong	na31	na31	ill	be ill	be v.		1.1.5.1		0	dwb13		
+477007	1969	Kucong	kɯ55	kɯ55	mend (i.e. clothes)	mend (i.e. clothes)			6.15		0			
+477008	1969	Kucong	tsɔ35	tsɔ35	step on, trample	step on, trample			6.7.4		0			
+477009	1969	Kucong	khu31 fa55	khu31 fa55	hide	hide (v.t.)	v.t.		1.6.5.1		0	dwb28		
+477010	1969	Kucong	gɯ33	gɯ33	rub	rub			8.4		0			
+477011	1969	Kucong	tsha31	tsha31	insert [possible loan]	insert (v.t.) [possible loan]	v.t.		6.2		0	dwb28		bChinese
+477012	1969	Kucong	ti33	ti33	transplant (i.e., rice seedlings)	transplant (i.e., rice seedlings)			6.2.2.1		0			
+477013	1969	Kucong	phiɛ33	phiɛ33	tear apart	tear apart			1.8.8.1		0			
+477014	1969	Kucong	xɤ33	xɤ33	wind up (i.e., thread)	wind up (i.e., thread)			3.2.1		0			
+477015	1969	Kucong	tsʌ31	tsʌ31	taste, try	taste, try			1.3.5.8		0			
+477016	1969	Kucong	mɯ31	mɯ31	sing	sing			5.1		0			
+477017	1969	Kucong	di31	di31	make noise, quarrel	make noise, quarrel			6.14		0			
+477018	1969	Kucong	lv33	lv33	stirfry	stirfry (v.)	v				0	dwb21		
+477019	1969	Kucong	na33	na33	weigh (i.e., grain)	weigh (i.e., grain)			9.8		0			
+477020	1969	Kucong	dɔ33	dɔ33	hold up, prop up (i.e., an umbrella)	hold up, prop up (i.e., an umbrella)			9.2.1		0			
+477021	1969	Kucong	tv33	tv33	plate (of food)	plate (of food)			5.5		0			
+477022	1969	Kucong	tsʌ31	tsʌ31	eat	eat			1.5.3.2		0			
+477023	1969	Kucong	tiɛ35	tiɛ35	pound	pound (v.t.)	v.t.		6.8		0	dwb28		381
+477024	1969	Kucong	pʌ33	pʌ33	change, exchange	change, exchange			9.5		0			
+477025	1969	Kucong	kɔ31	kɔ31	return, go back	return, go back			6.2.2.1		0			
+477026	1969	Kucong	piɛ55	piɛ55	can (i.e., write)	can (i.e., write)			10.2.2		0			1820
+477027	1969	Kucong	ti31	ti31	live, living	live, living			1.1.2.1		0			
+477028	1969	Kucong	ma55	ma55	soft, squishy (和（泥）)	soft, squishy (和（泥）)			7.1.4.2		0			
+477029	1969	Kucong	nɔ55	nɔ55	tie, connect (i.e., a belt)	tie, connect (i.e., a belt)			6.13.1		0			
+477030	1969	Kucong	nv33	nv33	pinch and hold fast	pinch and hold fast			8.4		0			
+477031	1969	Kucong	gɔ33	gɔ33	pick up, gather	pick up, gather			6.10.4		0			5430
+477032	1969	Kucong	khuaŋ35	khuaŋ35	tell (a story)	tell (a story)			1.8.7		0			
+477033	1969	Kucong	kʌ33	kʌ33	descend, land	descend, land (v.i.)	v.i.		6.7.8		0	dwb30		
+477034	1969	Kucong	bɔ33	bɔ33	shoot (a gun)	shoot (a gun)			6.2.2.1		0			5411
+477035	1969	Kucong	ta33	ta33	draw water (i.e., from a well)	draw water (i.e., from a well)			5.8		0			
+477036	1969	Kucong	kɯ33	kɯ33	gather firewood	gather firewood			6.13.5		0			
+477037	1969	Kucong	thɔ33	thɔ33	thunder	thunder (v.i.)	v.i.		3.2.1		0	dwb30		
+477038	1969	Kucong	zv31	zv31	carry (of money)	carry (of money)			6.2.2.2.1		0			
+477039	1969	Kucong	ɕɛ33	ɕɛ33	carry (i.e., a child)	carry (i.e., a child)			6.2.2.2.1		0			
+477040	1969	Kucong	mɔ55	mɔ55	wear (a hat)	wear (a hat)			6.2.2.1		0			
+477041	1969	Kucong	ȵɛ55	ȵɛ55	wear (a turban)	wear (a turban)			6.2.2.1		0			
+477042	1969	Kucong	nɔ55	nɔ55	wear (a bracelet)	wear (a bracelet)			6.2.2.1		0			
+477043	1969	Kucong	pa35	pa35	collapse	collapse			9.5		0			5615
+477044	1969	Kucong	pa35	pa35	fall over	fall over			6.1.1.4.2		0			
+477045	1969	Kucong	kɤ31	kɤ31	arrive	arrive			6.7.1		0			
+477046	1969	Kucong	lu33	lu33	wait	wait			6.1.1.6		0			5577
+477047	1969	Kucong	mi31 ŋɯ33	mi31 ŋɯ33	earthquake	earthquake			3.2.6		0			
+477048	1969	Kucong	kɔ31	kɔ31	lower (one's head)	lower (one's head)					0			
+477049	1969	Kucong	tv31	tv31	kindle	kindle			3.2.12.1		0			
+477050	1969	Kucong	kʌ33	kʌ33	drop, fall	drop, fall			6.16		0			
+477051	1969	Kucong	kɔ31 piɛ35	kɔ31 piɛ35	fall, tumble	fall, tumble			6.1.1.4.2		0			
+477052	1969	Kucong	tsɯ31	tsɯ31	fold (i.e., a blanket)	fold (i.e., a blanket)			1.4.4.2		0			
+477053	1969	Kucong	tɕhi31	tɕhi31	sting (i.e., a mosquito)	sting (i.e., a mosquito)			2.4.2		0			
+477054	1969	Kucong	ta33 miɛ55	ta33 miɛ55	lose	lose			6.10.1		0			
+477055	1969	Kucong	ɕi35 pɯ55	ɕi35 pɯ55	understand	understand			8.3.1.13.1		0			
+477056	1969	Kucong	li33	li33	move	move			6.7.11		0			
+477057	1969	Kucong	dzɔ31	dzɔ31	read	read			6.2.2.9.3		0			
+477058	1969	Kucong	tiɛ35 tshu31	tiɛ35 tshu31	block	block (v.)	v		6.2		0	dwb21		
+477059	1969	Kucong	kui33	kui33	tepid	tepid					0			
+477060	1969	Kucong	thiɛ33	thiɛ33	cut (a thread)	cut (a thread)			6.9.3		0			
+477061	1969	Kucong	thiɛ33	thiɛ33	cut (a stick)	cut (a stick)			6.9.3		0			
+477062	1969	Kucong	tɕi55 va31	tɕi55 va31	hidden	be hidden	be v.		6.1.1		0	dwb13		
+477063	1969	Kucong	mɔ31	mɔ31	see	see			1.2.6.10		0			1227
+477064	1969	Kucong	ta33	ta33	carry on one's shoulder	carry on one's shoulder			6.2.2.2.1		0			
+477065	1969	Kucong	ka33 liɛ31	ka33 liɛ31	roast	roast			5.5		0			
+477066	1969	Kucong	tsɔ35	tsɔ35	cough	cough			1.8.3.3		0			
+477067	1969	Kucong	ɕi55	ɕi55	thirsty	thirsty			1.1.3.1		0			101
+477068	1969	Kucong	ta35	ta35	agree, consent	agree, consent			8.3.1.4.1		0			
+477069	1969	Kucong	gɯ31	gɯ31	gnaw, nibble	gnaw, nibble			1.3.4.4		0			
+477070	1969	Kucong	kiɛ55	kiɛ55	dig, scratch	dig, scratch			6.11		0			
+477071	1969	Kucong	khɤ55	khɤ55	button	button (v.t.)	v.t.		5.11.8.2.3		0	dwb28		
+477072	1969	Kucong	xɔ31	xɔ31	cry	cry			1.8.8.2		0			
+477073	1969	Kucong	piɛ31	piɛ31	divide	divide (v.t.)	v.t.		6.10.4		0	dwb28		
+477074	1969	Kucong	v31	v31	insane	insane			8.3.1.11.3		0			
+477075	1969	Kucong	mɔ35	mɔ35	hatch, incubate	hatch, incubate			1.1.2		0			
+477076	1969	Kucong	kɯ31	kɯ31	rotten	rotten			3.1.10		0			
+477077	1969	Kucong	biɛ33	biɛ33	cover (i.e., land)	cover (i.e., land)			5.8		0			
+477078	1969	Kucong	biɛ33	biɛ33	cover (i.e., with a blanket)	cover (i.e., with a blanket)			5.8		0			
+477079	1969	Kucong	pɯ35	pɯ35	bold, daring	bold, daring			9.6.3		0			
+477080	1969	Kucong	zʌ33 mɯ31	zʌ33 mɯ31	work	work			6.1.1		0			m,2455
+477081	1969	Kucong	kv33 pi31	kv33 pi31	tell	tell			1.8.7		0			
+477082	1969	Kucong	ɣɤ31	ɣɤ31	cut (meat)	cut (meat)			6.9.3		0			
+477083	1969	Kucong	ɣɤ31	ɣɤ31	cut (rope)	cut (rope)			6.9.3		0			
+477084	1969	Kucong	ɣɤ31	ɣɤ31	cut (grass)	cut (grass)			6.9.3		0			2615
+477085	1969	Kucong	pi31	pi31	give	give			6.23		0			2158
+477086	1969	Kucong	ga31	ga31	follow	follow			6.7.10		0			
+477087	1969	Kucong	mɯ31	mɯ31	plow, till	plow, till			6.11		0			
+477088	1969	Kucong	lɔ31	lɔ31	enough	enough			1.1.3.2		0			
+477089	1969	Kucong	xʌ33	xʌ33	blow (as of wind)	blow (as of wind)			1.3.1.4		0			
+477090	1969	Kucong	dɔ33 fv55	dɔ33 fv55	close (a door)	close (a door)			6.2.2.6.2		0			
+477091	1969	Kucong	dɔ33 fv55	dɔ33 fv55	pen in (as of a sheep)	pen in (as of a sheep)			10.1.1		0			
+477092	1969	Kucong	kui33	kui33	cross (a bridge)	cross (a bridge)			6.7.10		0			
+477093	1969	Kucong	ʑa31 tu33	ʑa31 tu33	blush, be shy	blush, be shy			1.2.5		0			
+477094	1969	Kucong	kɯ33	kɯ33	fear	fear			8.3.1.10.1		0			2249
+477095	1969	Kucong	kv31	kv31	shout, yell	shout, yell			8.5.4.1		0			
+477096	1969	Kucong	dɔ31	dɔ31	drink	drink (v.)	v				0	dwb21		502
+477097	1969	Kucong	ku33	ku33	dry by the fire	dry by the fire			10.0		0			1001
+477098	1969	Kucong	xiɛ35	xiɛ35	deceive, coax	deceive, coax			8.3.3.4.3.2		0			3511
+477099	1969	Kucong	zʌ31 ȵɛ55 pu31	zʌ31 ȵɛ55 pu31	pregnant	be pregnant	be v.		1.9.6.1		0	dwb13		
+477100	1969	Kucong	khɔ31	khɔ31	pay back, pay a debt	pay back, pay a debt			6.22		0			
+477101	1969	Kucong	khɔ31	khɔ31	return	return (v.t.)	v.t.		6.2.2.1		0	dwb28		
+477102	1969	Kucong	kha33	kha33	climb (a mountain)	climb (a mountain)			6.7.7		0			
+477103	1969	Kucong	dɔ33	dɔ33	hit, strike (i.e., a table)	hit, strike (i.e., a table)			6.8		0			
+477104	1969	Kucong	tɕi55	tɕi55	run	run			6.7.4		0			
+477105	1969	Kucong	ti33	ti33	brew (tea)	brew (tea)			5.5		0			
+477106	1969	Kucong	dʑi33	dʑi33	chop (i.e., firewood)	chop (i.e., firewood)			6.9.3		0			
+477107	1969	Kucong	thɔ55	thɔ55	sprinkle, splash (i.e., water)	sprinkle, splash (i.e., water)			6.10.3		0			
+477108	1969	Kucong	dʑi33	dʑi33	break (i.e., a piece of bamboo)	break (i.e., a piece of bamboo)			9.5		0			
+477109	1969	Kucong	sa55	sa55	worn out (of clothes)	worn out (of clothes)					0			
+477110	1969	Kucong	piɛ33	piɛ33	worn out, dilapidated (of a house)	worn out, dilapidated (of a house)					0			
+477111	1969	Kucong	pi55	pi55	broken (of a bowl)	broken (of a bowl)			7.1.5.1		0			
+477112	1969	Kucong	pʌ33	pʌ33	exchange	exchange (v.t.)	v.t.		6.22		0	dwb28		
+477113	1969	Kucong	pi31	pi31	pay	pay			6.22		0			
+477114	1969	Kucong	khɤ31	khɤ31	scorched	be scorched	be v.		3.2.12.2		0	dwb13		
+477115	1969	Kucong	bɯ31	bɯ31	chew	chew			1.3.4		0			
+477116	1969	Kucong	ma35	ma35	teach	teach			6.19		0			5703
+477117	1969	Kucong	bɔ31	bɔ31	call (of a rooster)	call (of a rooster)			8.5.13		0			
+477118	1969	Kucong	bɔ31	bɔ31	call (of a hen)	call (of a hen)			8.5.13		0			
+477119	1969	Kucong	bɔ31	bɔ31	call (of a dog)	call (of a dog)			8.5.13		0			
+477120	1969	Kucong	bɔ31	bɔ31	call (of a pig)	call (of a pig)			8.5.13		0			o
+477121	1969	Kucong	kv31	kv31	call, be named	call, be named			8.5.13		0			
+477122	1969	Kucong	kiɛ31	kiɛ31	take off, uncover	take off, uncover			6.21		0			
+477123	1969	Kucong	nɔ31	nɔ31	bear fruit	bear fruit			2.2.3		0			
+477124	1969	Kucong	tɕhi31	tɕhi31	borrow (of money)	borrow (of money)			6.22		0			2314
+477125	1969	Kucong	ŋa35	ŋa35	borrow (a tool)	borrow (a tool)			6.22		0			2541
+477126	1969	Kucong	ti33	ti33	soak, immerse	soak, immerse			6.6		0			298
+477127	1969	Kucong	lv31 la31	lv31 la31	enter (a room)	enter (a room)			6.7.1		0			5783,m
+477128	1969	Kucong	mɯ33	mɯ33	live, reside	live, reside			1.1.2.1		0			
+477129	1969	Kucong	ta33 tv33	ta33 tv33	raise (i.e., a hand)	raise (i.e., a hand)			6.7.7		0			
+477130	1969	Kucong	tɕi55	tɕi55	saw	saw			5.11.5.3		0			
+477131	1969	Kucong	xɤ33	xɤ33	roll (as of cloth)	roll (as of cloth)			6.7.6		0			
+477132	1969	Kucong	sɔ31	sɔ31	roll up, curl up	roll up, curl up			9.2.1		0			
+477133	1969	Kucong	ka35	ka35	dig	dig			6.11		0			
+477134	1969	Kucong	ka55 kɯ55 ta35	ka55 kɯ55 ta35	block, stop up, check	block, stop up, check			6.2		0			
+477135	1969	Kucong	giɛ31	giɛ31	open (of a door)	open (of a door)			6.2.2.6.1		0			
+477136	1969	Kucong	bɯ31	bɯ31	boiled water	boiled water			6.6		0			
+477137	1969	Kucong	vi33	vi33	bloom	bloom			3.1.10		0			2185
+477138	1969	Kucong	pɤ33	pɤ33	cut down (of a tree)	cut down (of a tree)			6.9.3		0			
+477139	1969	Kucong	pɤ33	pɤ33	throw (i.e., a bone to a dog)	throw (i.e., a bone to a dog)			6.12		0			
+477140	1969	Kucong	ȵi33	ȵi33	look	look			1.2.6.11		0			5419
+477141	1969	Kucong	pi31	pi31	send	send			6.2.2.2		0			
+477142	1969	Kucong	xiɛ31	xiɛ31	be / copula	to be / copula			10.4.1.1		0			
+477143	1969	Kucong	pɯ35	pɯ35	comb	comb			1.2.2.1		0			
+477144	1969	Kucong	ɕi35 pɯ55	ɕi35 pɯ55	familiar with	be familiar with	be v.		7.1.7.2		0	dwb13		
+477145	1969	Kucong	miɛ33	miɛ33	well-done, cooked	well-done, cooked			9.6.1.1		0			
+477146	1969	Kucong	miɛ33	miɛ33	ripe	ripe			3.1.10		0			2449
+477147	1969	Kucong	tsa55 giɛ33	tsa55 giɛ33	thin, slender	thin, slender			9.7.2		0			
+477148	1969	Kucong	kʌ33	kʌ33	fall, tumble	fall, tumble			6.1.1.4.2		0			
+477149	1969	Kucong	ba31 pɯ33	ba31 pɯ33	move backward and forward; swing	move backward and forward; swing			9.2.8		0			
+477150	1969	Kucong	gɔ31 phɯ33	gɔ31 phɯ33	tie up, tether	tie up, tether			6.13.1		0			
+477151	1969	Kucong	gɔ31	gɔ31	pull	pull			6.2.2.3.1		0			5612
+477152	1969	Kucong	khiɛ31 vi31	khiɛ31 vi31	defecate	defecate			1.8.5.4		0			
+477153	1969	Kucong	la31	la31	come	come			6.7.1		0			3569
+477154	1969	Kucong	gɔ31 tsa55	gɔ31 tsa55	connect	connect			6.13.3		0			m,200
+477155	1969	Kucong	lv55	lv55	airdry	airdry					0			
+477156	1969	Kucong	khʌ31	khʌ31	split open	split open			6.9.3		0			
+477157	1969	Kucong	ti33	ti33	pour, drench	pour, drench			6.6		0			
+477158	1969	Kucong	li33	li33	flow	flow			6.6.1		0			
+477159	1969	Kucong	ta31	ta31	keep, save	keep, save			6.18		0			2682
+477160	1969	Kucong	bu31	bu31	deaf	deaf			1.2.7.5		0			
+477161	1969	Kucong	zɔ31	zɔ31	leak	leak			6.6		0			
+477162	1969	Kucong	li55	li55	strain, filter	strain, filter			6.6		0			
+477163	1969	Kucong	ka33	ka33	disordered	be disordered	be v.				0	dwb13		
+477164	1969	Kucong	kʌ33 tv33	kʌ33 tv33	set (of the sun)	set (of the sun)			6.17		0			
+477165	1969	Kucong	tshv31	tshv31	numb	numb			1.5.11		0			
+477166	1969	Kucong	di31	di31	scold	scold			8.5.1		0			
+477167	1969	Kucong	tv35	tv35	cover up, bury	cover up, bury			5.8		0			
+477168	1969	Kucong	vɤ31	vɤ31	buy	buy			6.22		0			
+477169	1969	Kucong	xu31	xu31	sell	sell			6.22		0			
+477170	1969	Kucong	mʌ31 tsɔ31	mʌ31 tsɔ31	don't have	don't have			8.2		0			2436,m
+477171	1969	Kucong	sɿ33	sɿ33	go out, extinguish (of a fire)	go out, extinguish (of a fire)			6.7.2		0			
+477172	1969	Kucong	sɔ33	sɔ33	feel, touch	feel, touch			8.4		0			
+477173	1969	Kucong	sɿ35	sɿ35	grind (of a knife, i.e. to sharpen)	grind (of a knife, i.e. to sharpen)			10.1.1		0			
+477174	1969	Kucong	gɯ33	gɯ33	grind (of grain)	grind (of grain)			9.5		0			2333
+477175	1969	Kucong	zv31	zv31	take	take			6.21		0			
+477176	1969	Kucong	kha33	kha33	scratch (of an itch)	scratch (of an itch)			1.6.5.5		0			
+477177	1969	Kucong	pɯ55	pɯ55	can; be able to	can; be able to			10.2.2		0			
+477178	1969	Kucong	phi31	phi31	vomit	vomit			1.8.3.2		0			1145
+477179	1969	Kucong	kha33	kha33	crawl, climb	crawl, climb			6.7.9		0			
+477180	1969	Kucong	ka35	ka35	dig	dig			6.11		0			
+477181	1969	Kucong	pi31	pi31	cut out, scoop out	cut out, scoop out			9.2		0			
+477182	1969	Kucong	gɯ31 kʌ33	gɯ31 kʌ33	play, relax	play, relax			6.1.1.3		0			
+477183	1969	Kucong	du31 miɛ33	du31 miɛ33	forget	forget			8.3.1.16.1		0			
+477184	1969	Kucong	nv31	nv31	smell, sniff	smell, sniff			1.2.8.5		0			1415
+477185	1969	Kucong	nʌ33	nʌ33	ask	ask			8.5.7.1		0			
+477186	1969	Kucong	tshɤ31	tshɤ31	hold, grasp	hold, grasp			6.16		0			
+477187	1969	Kucong	tshɿ31	tshɿ31	wash (i.e., clothes)	wash (i.e., clothes)			6.2.2.5.2		0			5647
+477188	1969	Kucong	xɯ33 gʌ35	xɯ33 gʌ35	like	like			8.3.1.1.1		0			
+477189	1969	Kucong	tsv55	tsv55	blind	blind			1.2.6.14.2		0			1401
+477190	1969	Kucong	khu31	khu31	spread, unfold	spread, unfold			9.5		0			
+477191	1969	Kucong	xiɛ35	xiɛ35	cheat, deceive	cheat, deceive			6.19		0			3511
+477192	1969	Kucong	tv33 lʌ33	tv33 lʌ33	get up	get up			1.1.4		0			
+477193	1969	Kucong	gɔ31	gɔ31	lead along, pull (i.e., an ox)	lead along, pull (i.e., an ox)			6.2.2.1		0			5612
+477194	1969	Kucong	tɕɛ33	tɕɛ33	rob	rob			6.2.2.1		0			
+477195	1969	Kucong	dɔ33	dɔ33	knock; strike	knock; strike			6.8		0			
+477196	1969	Kucong	ta33	ta33	stick up, turn up (i.e., a tail)	stick up, turn up (i.e., a tail)			9.2.1		0			
+477197	1969	Kucong	ɣɤ31	ɣɤ31	chop (i.e. vegetables)	chop (i.e. vegetables)			6.9.3		0			
+477198	1969	Kucong	nɔ55	nɔ55	? cherish, intimate, dear (亲（小孩）)	? cherish, intimate, dear (亲（小孩）)					0			
+477199	1969	Kucong	ga31	ga31	expel	expel			6.7.2		0			
+477200	1969	Kucong	tsʌ33	tsʌ33	marry, take a wife	marry, take a wife			6.19		0			
+477201	1969	Kucong	tɕi33	tɕi33	go	go			6.7.2		0			
+477202	1969	Kucong	nʌ33	nʌ33	recovered from an illness	be recovered from an illness	be v.		1.1.5.1		0	dwb13		
+477203	1969	Kucong	liɛ31	liɛ31	heat (i.e., rice)	heat (i.e., rice)			9.6.2		0			
+477204	1969	Kucong	ba31	ba31	throw	throw			6.12		0			5556
+477205	1969	Kucong	ʑi31	ʑi31	knead	knead			5.5		0			
+477206	1969	Kucong	sɿ33	sɿ33	sprinkle	sprinkle			6.10.3		0			
+477207	1969	Kucong	ɕɛ35	ɕɛ35	sow (seeds)	sow (seeds)			2.1.12		0			
+477208	1969	Kucong	ɕi33	ɕi33	sweep	sweep			6.2.2.5.3		0			5594
+477209	1969	Kucong	ɕi55	ɕi55	kill	kill			6.4		0			1018
+477210	1969	Kucong	kɯ33	kɯ33	sift (as of rice)	sift (as of rice)			6.10.4		0			
+477211	1969	Kucong	lv55	lv55	dry in the sun; bask	dry in the sun; bask			6.6		0			2420
+477212	1969	Kucong	na35	na35	injury	injury			1.1.5.1		0			
+477213	1969	Kucong	tai33	tai33	go up	go up			6.7.2		0			
+477214	1969	Kucong	bɔ33	bɔ33	shoot (an arrow)	shoot (an arrow)			6.2.2.1		0			5411
+477215	1969	Kucong	bɔ33 zu33	bɔ33 zu33	strike, shoot and strike	strike, shoot and strike			6.8		0			5411,5822,m
+477216	1969	Kucong	ɕɛ33	ɕɛ33	give birth	give birth			1.1.2		0			95
+477217	1969	Kucong	ȵi33 na31	ȵi33 na31	angry	angry			8.3.1.6.1		0			
+477218	1969	Kucong	ta33 lʌ33	ta33 lʌ33	rise up, ascend	rise up, ascend			1.1.4		0			148,m
+477219	1969	Kucong	mu31	mu31	dizzy	be dizzy	be v.		8.3.1.11.3		0	dwb13		
+477220	1969	Kucong	mɯ33	mɯ33	sit	sit			6.1.1.4.1		0			3597
+477221	1969	Kucong	ʑi55	ʑi55	sleep	sleep			1.1.4.1		0			127
+477222	1969	Kucong	sɿ35	sɿ35	speak	speak			8.5.10.1		0			
+477223	1969	Kucong	sɿ55	sɿ55	tear, rip	tear, rip			1.8.8.1		0			
+477224	1969	Kucong	sɿ33	sɿ33	die	die			1.1.6		0			27
+477225	1969	Kucong	piɛ33	piɛ33	collapse	collapse			9.5		0			5616
+477226	1969	Kucong	ta33	ta33	step on	step on			6.7.4		0			
+477227	1969	Kucong	ta33	ta33	lift, raise	lift, raise			6.16		0			
+477228	1969	Kucong	zɔ31	zɔ31	shed, drip (as of a tear)	shed, drip (as of a tear)			5.11.9.1		0			
+477229	1969	Kucong	ʑi55	ʑi55	lie down, recline	lie down, recline			8.5.10.4		0			
+477230	1969	Kucong	tɕi55 va31	tɕi55 va31	flee, escape	flee, escape			6.7.2		0			
+477231	1969	Kucong	su55	su55	beg (i.e., for food)	beg (i.e., for food)			8.5.10.3		0			
+477232	1969	Kucong	na31	na31	ache (i.e., headache)	ache (i.e., headache)			1.1.5.1		0			
+477233	1969	Kucong	mu31 tsɔ35 fi55	mu31 tsɔ35 fi55	overcast	overcast			3.2.2		0			
+477234	1969	Kucong	mu31 tshʌ33 tshʌ33	mu31 tshʌ33 tshʌ33	fine, clear (of the weather)	fine, clear (of the weather)			9.7.2		0			
+477235	1969	Kucong	mu31 thi31	mu31 thi31	light (of the sky)	light (of the sky)			7.1.11.1		0			2473
+477236	1969	Kucong	miɛ33 fv55	miɛ33 fv55	dark (of the sky)	dark (of the sky)			9.4		0			
+477237	1969	Kucong	liɛ31	liɛ31	lick	lick			1.3.3.1		0			629
+477238	1969	Kucong	gɔ33	gɔ33	choose	choose			6.10.4		0			
+477239	1969	Kucong	ta33	ta33	carry on one's shoulder	carry on one's shoulder			6.2.2.2.1		0			
+477240	1969	Kucong	pɔ33	pɔ33	jump, leap	jump, leap			6.7.8		0			6707
+477241	1969	Kucong	pɔ33	pɔ33	beat (as of one's pulse)	beat (as of one's pulse)			6.8		0			5822
+477242	1969	Kucong	thi31	thi31	stick, paste [possible loan]	stick, paste [possible loan]			3.1.2		0			bChinese
+477243	1969	Kucong	nʌ33	nʌ33	listen	listen			1.2.7.4		0			811
+477244	1969	Kucong	gʌ31	gʌ31	hear	hear			1.2.7.4		0			
+477245	1969	Kucong	tʌ31 ti33	tʌ31 ti33	stop	stop			6.7.11		0			
+477246	1969	Kucong	khu31	khu31	steal	steal			6.2.2.1		0			2365
+477247	1969	Kucong	phi31	phi31	spit (as of phlegm)	spit (as of phlegm)			1.8.3		0			
+477248	1969	Kucong	gɔ31	gɔ31	pull, drag	pull, drag (v.t.)	v.t.		6.2.2.3.1		0	dwb28		5612
+477249	1969	Kucong	kiɛ33	kiɛ33	take off (as of clothes)	take off (as of clothes)			6.21		0			
+477250	1969	Kucong	bɔ33	bɔ33	drunk	drunk			1.3.5.9		0			
+477251	1969	Kucong	mɯ33	mɯ33	at (i.e., in a room)	at (i.e., in a room)			10.0		0			
+477252	1969	Kucong	ʑa31 i33	ʑa31 i33	go down	go down			6.7.2		0			
+477253	1969	Kucong	ɕɛ33	ɕɛ33	give birth to (of animals)	give birth to (of animals)			10.1.1		0			95
+477254	1969	Kucong	v33	v33	lay (of an egg)	lay (of an egg)			6.17		0			
+477255	1969	Kucong	zɿ31	zɿ31	fall (of rain)	fall (of rain)			6.1.1.4.2		0			2080
+477256	1969	Kucong	kɔ33 tsʌ31	kɔ33 tsʌ31	frighten	frighten			8.3.1.10.1		0			2249,m
+477257	1969	Kucong	du31	du31	think	think			8.3.1.13.1		0			5801
+477258	1969	Kucong	tv31	tv31	seem like	seem like			8.2		0			
+477259	1969	Kucong	ta33 miɛ55	ta33 miɛ55	disappear	disappear			9.5		0			
+477260	1969	Kucong	ba55	ba55	pare, peel	pare, peel			6.9.2		0			
+477261	1969	Kucong	ɣɯ31	ɣɯ31	laugh	laugh			1.8.8.1		0			1108
+477262	1969	Kucong	gɤ31	gɤ31	write	write			6.2.2.9.1		0			
+477263	1969	Kucong	thɔ31	thɔ31	flow, pour out	flow, pour out			6.6.1		0			
+477264	1969	Kucong	xɯ55	xɯ55	blow (one's nose)	blow (one's nose)			1.3.1.4		0			
+477265	1969	Kucong	dv31 nv35	dv31 nv35	awaken, be awake	awaken, be awake			1.1.4		0			m,143
+477266	1969	Kucong	mɯ33 ta35	mɯ33 ta35	rest	rest			1.1.4.1		0			
+477267	1969	Kucong	kɯ55	kɯ55	embroider	embroider					0			
+477268	1969	Kucong	ɕɔ31	ɕɔ31	study	study			6.2.2.9.3		0			
+477269	1969	Kucong	tsʌ33	tsʌ33	seek	seek			6.2.2.2		0			5799
+477270	1969	Kucong	sv55	sv55	castrate (an animal)	castrate (an animal)			1.9.2.3		0			
+477271	1969	Kucong	zu33	zu33	raise (i.e., of chickens)	raise (i.e., of chickens)			6.7.7		0			
+477272	1969	Kucong	ŋɯ33	ŋɯ33	shake (i.e., one's head)	shake (i.e., one's head)			6.7.9		0			
+477273	1969	Kucong	tɕhi31	tɕhi31	bite	bite			1.3.4.4		0			
+477274	1969	Kucong	ȵi55	ȵi55	scoop (of water)	scoop (of water)			6.11		0			
+477275	1969	Kucong	xɯ33	xɯ33	want	want			8.3.1.14.3		0			
+477276	1969	Kucong	tɕuɛ35	tɕuɛ35	have (of money)	have (of money)			8.2		0			
+477277	1969	Kucong	mɯ33	mɯ33	have (of people)	have (of people)			8.2		0			
+477278	1969	Kucong	tɕuɛ35	tɕuɛ35	have (i.e., of trees on a mountain)	have (i.e., of trees on a mountain)			10.1.1		0			
+477279	1969	Kucong	tɕuɛ35	tɕuɛ35	have (of eyes)	have (of eyes)			8.2		0			
+477280	1969	Kucong	tɕuɛ35	tɕuɛ35	have (i.e., of water in a bowl)	have (i.e., of water in a bowl)			10.1.1		0			
+477281	1969	Kucong	ti33	ti33	plant, grow	plant, grow			3.1.10		0			5672
+477282	1969	Kucong	mɯ31	mɯ31	do, make	do, make			6.1.1.1		0			

@@ -1,256 +1,256 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-15938	1218	Nusu (Central/Zhizhiluo)	tɕʰe³⁵ gɯ³¹	tɕʰe³⁵ gɯ³¹	body	body		1.1.1	94.	0		1126,2
-15939	1218	Nusu (Central/Zhizhiluo)	vʴi³⁵ ba³⁵	vʴi³⁵ ba³⁵	limbs	limbs		1.5.3.1	95.	0		
-15940	1218	Nusu (Central/Zhizhiluo)	u³¹ pʰu⁵⁵	u³¹ pʰu⁵⁵	head	head		1.2.1	96.	0		385,1275
-15941	1218	Nusu (Central/Zhizhiluo)	tsʰa³⁵	tsʰa³⁵	hair (head)	hair (head)		1.2.3	97.	0		366
-15942	1218	Nusu (Central/Zhizhiluo)	tsʰa³⁵ pʰʴɚ⁵⁵	tsʰa³⁵ pʰʴɚ⁵⁵	braid (hair)	braid (hair)	n	1.2.3.2	98.	0		366,2018
-15943	1218	Nusu (Central/Zhizhiluo)	n̥a⁵⁵ gõ⁵⁵ ti³⁵	n̥a⁵⁵ gõ⁵⁵ ti³⁵	forehead	forehead		1.2.5.1	99.	0		356,2025,358
-15944	1218	Nusu (Central/Zhizhiluo)	mʴa̱³¹ m̥ʴɚ³⁵	mʴa̱³¹ m̥ʴɚ³⁵	eyebrow	eyebrow		1.2.6.6	100.	0		681,363
-15945	1218	Nusu (Central/Zhizhiluo)	mʴa̱³¹ dzi³¹	mʴa̱³¹ dzi³¹	eye	eye		1.2.6	101.	0		681,3559
-15946	1218	Nusu (Central/Zhizhiluo)	mʴa̱³¹ m̥ʴɚ³⁵	mʴa̱³¹ m̥ʴɚ³⁵	eyelash	eyelash		1.2.6.5	102.	0		681,363
-15947	1218	Nusu (Central/Zhizhiluo)	n̥a⁵⁵ kõ³⁵	n̥a⁵⁵ kõ³⁵	nose	nose		1.2.8	103.	0		803,809
-15948	1218	Nusu (Central/Zhizhiluo)	n̥a⁵⁵ sɚ̃³⁵	n̥a⁵⁵ sɚ̃³⁵	ear	ear		1.2.7	104.	0		811,2082
-15949	1218	Nusu (Central/Zhizhiluo)	pʰʴɚ⁵⁵ n̥a³⁵	pʰʴɚ⁵⁵ n̥a³⁵	face	face		1.2.5	105.	0		1186,803
-15950	1218	Nusu (Central/Zhizhiluo)	ba⁵⁵ ba³⁵	ba⁵⁵ ba³⁵	cheek	cheek		1.2.5.2	106.	0		268,s
-15951	1218	Nusu (Central/Zhizhiluo)	n̥a⁵⁵ kʰõ³⁵	n̥a⁵⁵ kʰõ³⁵	mouth	mouth		1.3.1	107.	0		803,473
-15952	1218	Nusu (Central/Zhizhiluo)	n̥ɯ⁵⁵ sui⁵⁵	n̥ɯ⁵⁵ sui⁵⁵	lip	lip		1.3.2	108.	0		467,790
-15953	1218	Nusu (Central/Zhizhiluo)	m̥ɯ⁵⁵ tɕʰuɚ̱̃³¹	m̥ɯ⁵⁵ tɕʰuɚ̱̃³¹	beard	beard		1.2.5.5	109.	0		363,370
-15954	1218	Nusu (Central/Zhizhiluo)	ka̱³¹ kʰe³¹	ka̱³¹ kʰe³¹	lower jaw, chin	lower jaw, chin			111.	0		m,m
-15955	1218	Nusu (Central/Zhizhiluo)	le³¹ dɔ³⁵	le³¹ dɔ³⁵	neck	neck		1.4.2	112.	0		479,359
-15956	1218	Nusu (Central/Zhizhiluo)	gua⁵⁵ gua³¹	gua⁵⁵ gua³¹	nape	nape		1.4.2.1	113.	0		389,389
-15957	1218	Nusu (Central/Zhizhiluo)	kua⁵⁵ bo³¹	kua⁵⁵ bo³¹	shoulder	shoulder		1.4.3	114.	0		3350,1327
-15958	1218	Nusu (Central/Zhizhiluo)	dõ³⁵	dõ³⁵	back (body)	back (body)		1.4.8	115.	0		225
-15959	1218	Nusu (Central/Zhizhiluo)	kua⁵⁵ kɯ³⁵	kua⁵⁵ kɯ³⁵	armpit	armpit		1.5.1.2.3	116.	0		
-15960	1218	Nusu (Central/Zhizhiluo)	ɣʴoŋ³¹ pʰʴɚ⁵⁵	ɣʴoŋ³¹ pʰʴɚ⁵⁵	chest	chest		1.4.4.3	117.	0		288,308
-15961	1218	Nusu (Central/Zhizhiluo)	nɯ³⁵ nɯ³¹	nɯ³⁵ nɯ³¹	breast	breast		1.4.4.3	118.	0		253,253
-15962	1218	Nusu (Central/Zhizhiluo)	va³¹ lɔ̱⁵³	va³¹ lɔ̱⁵³	belly	belly		1.4.7	119.	0		137,m
-15963	1218	Nusu (Central/Zhizhiluo)	tsʰɛ̱³¹	tsʰɛ̱³¹	navel	navel		1.9.4	120.	0		525
-15964	1218	Nusu (Central/Zhizhiluo)	dʑu̱³¹	dʑu̱³¹	waist	waist		1.4.6	121.	0		215
-15965	1218	Nusu (Central/Zhizhiluo)	kʰʴi⁵⁵ dõ⁵³	kʰʴi⁵⁵ dõ⁵³	buttocks	buttocks		1.4.10	122.	0		572,225
-15966	1218	Nusu (Central/Zhizhiluo)	bõ³⁵ bõ³⁵	bõ³⁵ bõ³⁵	thigh	thigh		1.5.7.1	123.	0		404,404
-15967	1218	Nusu (Central/Zhizhiluo)	pʰɯi⁵⁵ tsi³⁵ l̥u⁵³	pʰɯi⁵⁵ tsi³⁵ l̥u⁵³	knee	knee		1.5.8.4	124.	0		435,m,m
-15968	1218	Nusu (Central/Zhizhiluo)	kʰʴi³⁵ pʰʴuɚ³¹ za⁵⁵	kʰʴi³⁵ pʰʴuɚ³¹ za⁵⁵	calf (leg)	calf (leg)		1.5.7	125.	0		335,m,m
-15969	1218	Nusu (Central/Zhizhiluo)	kʰʴi³⁵	kʰʴi³⁵	foot	foot		1.5.2	126.	0		335
-15970	1218	Nusu (Central/Zhizhiluo)	kʰʴi³⁵ tse̱³¹	kʰʴi³⁵ tse̱³¹	ankle	ankle		1.5.8.2	127.	0		m,418
-15971	1218	Nusu (Central/Zhizhiluo)	la̱³¹ pʰʴuɚ³¹	la̱³¹ pʰʴuɚ³¹	arm	arm		1.5.1.2	128.	0		695,1327
-15972	1218	Nusu (Central/Zhizhiluo)	la̱³¹ tʰõ³⁵	la̱³¹ tʰõ³⁵	elbow	elbow		1.5.8.3	129.	0		695,m
-15973	1218	Nusu (Central/Zhizhiluo)	la̱³¹	la̱³¹	hand	hand		1.5.1.1	130.	0		695
-15974	1218	Nusu (Central/Zhizhiluo)	la̱³¹ va⁵⁵	la̱³¹ va⁵⁵	wrist	wrist		1.5.8.1	131.	0		695,m
-15975	1218	Nusu (Central/Zhizhiluo)	la̱³¹ n̥ɯ⁵⁵	la̱³¹ n̥ɯ⁵⁵	finger	finger		1.5.6	132.	0		695,m
-15976	1218	Nusu (Central/Zhizhiluo)	la̱³¹ ma³¹	la̱³¹ ma³¹	thumb	thumb		1.5.6.1	133.	0		695,m
-15977	1218	Nusu (Central/Zhizhiluo)	la̱³¹ l̥ɚ̱³¹	la̱³¹ l̥ɚ̱³¹	index finger	index finger		1.0	134.	0		
-15978	1218	Nusu (Central/Zhizhiluo)	kʰʴa³⁵ kʰue³⁵ n̥ɯ⁵⁵	kʰʴa³⁵ kʰue³⁵ n̥ɯ⁵⁵	ring finger	ring finger		1.5.6.2	136.	0		
-15979	1218	Nusu (Central/Zhizhiluo)	la̱³¹ n̥ɯ⁵⁵ za⁵⁵	la̱³¹ n̥ɯ⁵⁵ za⁵⁵	little finger	little finger		9.7.2	137.	0		
-15980	1218	Nusu (Central/Zhizhiluo)	la̱³¹ sɚ̃⁵⁵	la̱³¹ sɚ̃⁵⁵	fingernail	fingernail		1.5.10.1	138.	0		695,m
-15981	1218	Nusu (Central/Zhizhiluo)	la̱³¹ m̥i⁵⁵ tso̱³¹	la̱³¹ m̥i⁵⁵ tso̱³¹	fist	fist		1.5.1.1.1	139.	0		695,m
-15982	1218	Nusu (Central/Zhizhiluo)	kʰʴi⁵⁵ dõ⁵³	kʰʴi⁵⁵ dõ⁵³	anus	anus		1.4.10.2	140.	0		572,822
-15983	1218	Nusu (Central/Zhizhiluo)	bɯ⁵⁵	bɯ⁵⁵	penis	penis			141.	0		3425
-15984	1218	Nusu (Central/Zhizhiluo)	bɯ⁵⁵ be³⁵	bɯ⁵⁵ be³⁵	testicles	testicles			142.	0		1654,m
-15985	1218	Nusu (Central/Zhizhiluo)	tɯ⁵⁵	tɯ⁵⁵	vagina	vagina			143.	0		661
-15986	1218	Nusu (Central/Zhizhiluo)	za⁵⁵ iɔ³⁵	za⁵⁵ iɔ³⁵	placenta	placenta			144.	0		1012,m
-15987	1218	Nusu (Central/Zhizhiluo)	tsʰɛ̱¹	tsʰɛ̱¹	umbilical cord	umbilical cord			145.	0		525
-15988	1218	Nusu (Central/Zhizhiluo)	kʰu̱³¹ ɣʴi³⁵	kʰu̱³¹ ɣʴi³⁵	skin	skin		1.6.5	147.	0		586,596
-15989	1218	Nusu (Central/Zhizhiluo)	ɣʴua̱³¹ tsʰi̱³¹	ɣʴua̱³¹ tsʰi̱³¹	hemorrhoids	hemorrhoids		1.4.10.2	149.	0		
-15990	1218	Nusu (Central/Zhizhiluo)	l̥i⁵ bʴɚ̃³⁵	l̥i⁵ bʴɚ̃³⁵	sore, ulcer	sore, ulcer		1.1.5.1	150.	0		
-15991	1218	Nusu (Central/Zhizhiluo)	po̱³¹ n̥a³⁵	po̱³¹ n̥a³⁵	scar	scar		1.6.5.3	151.	0		
-15992	1218	Nusu (Central/Zhizhiluo)	ɕɔ̱³¹ na³⁵	ɕɔ̱³¹ na³⁵	measles	measles		5.3	152.	0		
-15993	1218	Nusu (Central/Zhizhiluo)	ɕue³⁵	ɕue³⁵	ringworm	ringworm		2.2.6	153.	0		
-15994	1218	Nusu (Central/Zhizhiluo)	ɕa⁵⁵	ɕa⁵⁵	flesh	flesh		1.1.1.1	154.	0		34
-15995	1218	Nusu (Central/Zhizhiluo)	sui⁵⁵	sui⁵⁵	blood	blood		1.6.2	155.	0		230
-15996	1218	Nusu (Central/Zhizhiluo)	gɤ⁵⁵	gɤ⁵⁵	muscle	muscle		1.6.6.2	156.	0		535
-15997	1218	Nusu (Central/Zhizhiluo)	la̱³¹ m̥i⁵⁵	la̱³¹ m̥i⁵⁵	pulse	pulse		1.7.1.1	157.	0		695,m
-15998	1218	Nusu (Central/Zhizhiluo)	u⁵⁵ ȵ̥u̱³¹	u⁵⁵ ȵ̥u̱³¹	brain	brain		1.2.4	158.	0		385,243
-15999	1218	Nusu (Central/Zhizhiluo)	ɣʴɯ⁵⁵	ɣʴɯ⁵⁵	bone	bone		1.6.3	159.	0		232
-16000	1218	Nusu (Central/Zhizhiluo)	doŋ³¹ tse̱³¹	doŋ³¹ tse̱³¹	backbone / spine	backbone / spine		1.4.8.2	160.	0		225,418
-16001	1218	Nusu (Central/Zhizhiluo)	ɣʴoŋ³¹ li³⁵	ɣʴoŋ³¹ li³⁵	rib	rib		1.4.4.3	161.	0		288,m
-16002	1218	Nusu (Central/Zhizhiluo)	ɣʴɯ⁵⁵ tse̱³¹	ɣʴɯ⁵⁵ tse̱³¹	joint	joint		1.5.8	162.	0		232,418
-16003	1218	Nusu (Central/Zhizhiluo)	sua⁵⁵	sua⁵⁵	tooth	tooth		1.3.4	163.	0		632
-16004	1218	Nusu (Central/Zhizhiluo)	ȵɚ³⁵	ȵɚ³⁵	gums	gums		1.3.4.3	164.	0		504
-16005	1218	Nusu (Central/Zhizhiluo)	fia³⁵	fia³⁵	tongue	tongue		1.3.3	165.	0		623
-16006	1218	Nusu (Central/Zhizhiluo)	fia³⁵ za⁵⁵	fia³⁵ za⁵⁵	uvula	uvula		1.3.5.1	166.	0		
-16007	1218	Nusu (Central/Zhizhiluo)	kʰʴõ⁵⁵ te̱³¹	kʰʴõ⁵⁵ te̱³¹	throat	throat		1.3.5	168.	0		3361,501
-16008	1218	Nusu (Central/Zhizhiluo)	sa̱³¹	sa̱³¹	throat	throat		1.3.5	169.	0		m
-16009	1218	Nusu (Central/Zhizhiluo)	tsʰuɚ̃³⁵	tsʰuɚ̃³⁵	lungs	lungs		1.7.2	171.	0		
-16010	1218	Nusu (Central/Zhizhiluo)	ȵ̥i̱³¹ lɔ̱⁵³	ȵ̥i̱³¹ lɔ̱⁵³	heart	heart		1.7.1	172.	0		297,1381
-16011	1218	Nusu (Central/Zhizhiluo)	tsɚ̃⁵⁵	tsɚ̃⁵⁵	liver	liver		1.7.3	173.	0		1390
-16012	1218	Nusu (Central/Zhizhiluo)	u⁵⁵ tʰɚ̃³¹	u⁵⁵ tʰɚ̃³¹	kidneys	kidneys		1.7.5	174.	0		
-16013	1218	Nusu (Central/Zhizhiluo)	kʴe³⁵	kʴe³⁵	gall bladder	gall bladder		1.7.3	177.	0		227
-16014	1218	Nusu (Central/Zhizhiluo)	u³⁵	u³⁵	intestines	intestines		1.7.7	178.	0		2102
-16015	1218	Nusu (Central/Zhizhiluo)	kʰʴi⁵³	kʰʴi⁵³	feces	feces		1.8.5	180.	0		572
-16016	1218	Nusu (Central/Zhizhiluo)	ʑi⁵³	ʑi⁵³	urine	urine		1.8.4	181.	0		650
-16017	1218	Nusu (Central/Zhizhiluo)	vi⁵⁵	vi⁵⁵	fart	fart		1.8.5.2	182.	0		3553
-16018	1218	Nusu (Central/Zhizhiluo)	xʴi⁵⁵	xʴi⁵⁵	sweat	sweat		1.8.1	183.	0		615
-16019	1218	Nusu (Central/Zhizhiluo)	ti̱⁵⁵ kʰʴɚ⁵⁵	ti̱⁵⁵ kʰʴɚ⁵⁵	phlegm	phlegm		1.8.3	184.	0		m,540
-16020	1218	Nusu (Central/Zhizhiluo)	ti̱⁵⁵	ti̱⁵⁵	saliva	saliva		1.8.3	185.	0		
-16021	1218	Nusu (Central/Zhizhiluo)	n̥a̱³¹	n̥a̱³¹	mucus	mucus		1.8.2	186.	0		805
-16022	1218	Nusu (Central/Zhizhiluo)	bʴi³⁵	bʴi³⁵	tears	tears		1.2.6.7	187.	0		187
-16023	1218	Nusu (Central/Zhizhiluo)	bʴɚ̃³⁵	bʴɚ̃³⁵	pus	pus		1.8.6.1	188.	0		1292
-16024	1218	Nusu (Central/Zhizhiluo)	sa̱³¹	sa̱³¹	sound	sound		9.3	190.	0		
-16025	1218	Nusu (Central/Zhizhiluo)	sa̱³¹	sa̱³¹	breath	breath		1.1.2.2	191.	0		32
-16026	1218	Nusu (Central/Zhizhiluo)	ɕi³⁵ tsʰõ³⁵	ɕi³⁵ tsʰõ³⁵	corpse	corpse		1.1.6.1	192.	0		27,3327
-16027	1218	Nusu (Central/Zhizhiluo)	miɚ⁵⁵ bʴɚ̃³⁵	miɚ⁵⁵ bʴɚ̃³⁵	life	life		1.1.2.1	193.	0		62,m
-16028	1218	Nusu (Central/Zhizhiluo)	mʴa̱³¹ dʑɚ̱³¹	mʴa̱³¹ dʑɚ̱³¹	blind person	blind person		1.2.6.14.2	242.	0		681,1401
-16029	1218	Nusu (Central/Zhizhiluo)	kʰʴi³⁵ tʰɤ̱³¹	kʰʴi³⁵ tʰɤ̱³¹	lame person	lame person		1.5.12	243.	0		
-16030	1218	Nusu (Central/Zhizhiluo)	su³⁵ ȵɔ³⁵	su³⁵ ȵɔ³⁵	dwarf	dwarf		4.2.7	244.	0		
-16031	1218	Nusu (Central/Zhizhiluo)	n̥a⁵⁵ sɚ̃³⁵ bõ⁵⁵	n̥a⁵⁵ sɚ̃³⁵ bõ⁵⁵	deaf person	deaf person		1.2.7.5	245.	0		
-16032	1218	Nusu (Central/Zhizhiluo)	u³¹ pʰu⁵⁵ tɕʰɚ³⁵	u³¹ pʰu⁵⁵ tɕʰɚ³⁵	bald person	bald person		1.2.3.4	246.	0		385,1275,2022
-16033	1218	Nusu (Central/Zhizhiluo)	bʴuɚ³¹ lɔ⁵⁵ di̱⁵⁵	bʴuɚ³¹ lɔ⁵⁵ di̱⁵⁵	pock-marked person	pock-marked person		4.5	247.	0		
-16034	1218	Nusu (Central/Zhizhiluo)	dõ³⁵ bu³¹ bu³¹	dõ³⁵ bu³¹ bu³¹	hunchback	hunchback		1.4.8.3	248.	0		225,163,163
-16035	1218	Nusu (Central/Zhizhiluo)	la⁵⁵ xʴɤ̱³¹	la⁵⁵ xʴɤ̱³¹	idiot	idiot		4.2.12.3	249.	0		
-16036	1218	Nusu (Central/Zhizhiluo)	xʴɔ̱³¹ su³⁵	xʴɔ̱³¹ su³⁵	lunatic	lunatic		8.3	250.	0		
-16037	1218	Nusu (Central/Zhizhiluo)	dʑa̱³¹ be⁵⁵	dʑa̱³¹ be⁵⁵	stutterer	stutterer		8.5.4.5	251.	0		
-16038	1218	Nusu (Central/Zhizhiluo)	bõ⁵⁵ su³⁵	bõ⁵⁵ su³⁵	dumb person	dumb person		8.5.4.4	252.	0		m,5632
-16039	1218	Nusu (Central/Zhizhiluo)	nɔ⁵⁵ nɯ³⁵ nɯ³¹	nɔ⁵⁵ nɯ³⁵ nɯ³¹	milk (cow's)	milk (cow's)			311.	0		2538,253,253
-16040	1218	Nusu (Central/Zhizhiluo)	nɔ⁵⁵ kʰʴi⁵⁵	nɔ⁵⁵ kʰʴi⁵⁵	excrement (cow)	excrement (cow)		1.8.5	312.	0		m,572
-16041	1218	Nusu (Central/Zhizhiluo)	kʰʴɤ⁵⁵	kʰʴɤ⁵⁵	horn	horn		1.2.2	313.	0		819
-16042	1218	Nusu (Central/Zhizhiluo)	kʰua³⁵	kʰua³⁵	hoof	hoof		1.5.4	314.	0		417
-16043	1218	Nusu (Central/Zhizhiluo)	kʰu̱³¹ ɣʴi³⁵	kʰu̱³¹ ɣʴi³⁵	skin (animal)	skin (animal)		1.6.5	315.	0		586,596
-16044	1218	Nusu (Central/Zhizhiluo)	m̥e⁵⁵	m̥e⁵⁵	hair (animal)	hair (animal)		1.2.3	316.	0		363
-16045	1218	Nusu (Central/Zhizhiluo)	m̥e⁵⁵ pɔ⁵⁵	m̥e⁵⁵ pɔ⁵⁵	tail	tail		1.4.10.1	317.	0		1288,3326
-16046	1218	Nusu (Central/Zhizhiluo)	mʴɤ⁵³ m̥e⁵⁵	mʴɤ⁵³ m̥e⁵⁵	mane (horse)	mane (horse)		1.6.1	322.	0		1431,363
-16047	1218	Nusu (Central/Zhizhiluo)	mʴɤ⁵³ kʰʴi⁵⁵	mʴɤ⁵³ kʰʴi⁵⁵	excrement (horse)	excrement (horse)		1.8.5	323.	0		1431,572
-16048	1218	Nusu (Central/Zhizhiluo)	tɕʰɚ̱̃³¹ m̥e⁵⁵	tɕʰɚ̱̃³¹ m̥e⁵⁵	wool	wool		1.6.1.3	328.	0		1226,363
-16049	1218	Nusu (Central/Zhizhiluo)	tɕʰɚ̱̃³¹ kʰʴi⁵⁵	tɕʰɚ̱̃³¹ kʰʴi⁵⁵	excrement (sheep)	excrement (sheep)		1.8.5	329.	0		1226,m,572
-16050	1218	Nusu (Central/Zhizhiluo)	va̱³¹ kʰʴi⁵⁵	va̱³¹ kʰʴi⁵⁵	excrement (pig)	excrement (pig)		1.8.5	337.	0		1006,572
-16051	1218	Nusu (Central/Zhizhiluo)	ɣʴa̱³¹ da̱³¹	ɣʴa̱³¹ da̱³¹	cockscomb	cockscomb		1.2.2.1	346.	0		1606,m
-16052	1218	Nusu (Central/Zhizhiluo)	bia³⁵ dõ³⁵	bia³⁵ dõ³⁵	wing	wing		1.5.1.3	347.	0		m,711
-16053	1218	Nusu (Central/Zhizhiluo)	xã̱³¹ m̥e⁵⁵	xã̱³¹ m̥e⁵⁵	feathers	feathers		1.6.1.1	348.	0		1606,363
-16054	1218	Nusu (Central/Zhizhiluo)	ʑoŋ⁵⁵ sua⁵⁵	ʑoŋ⁵⁵ sua⁵⁵	tusk (of elephant)	tusk (of elephant)		1.3.4.1	359.	0		2731,632
-16055	1218	Nusu (Central/Zhizhiluo)	le⁵⁵ ɕua³⁵	le⁵⁵ ɕua³⁵	musk (scent)	musk (scent)		1.5.3.2	367.	0		
-16056	1218	Nusu (Central/Zhizhiluo)	kʰu̱³¹ sɿ³¹	kʰu̱³¹ sɿ³¹	scales	scales		1.6.5.2	409.	0		586,1454
-16057	1218	Nusu (Central/Zhizhiluo)	ɕa⁵⁵	ɕa⁵⁵	meat	meat		1.1.1.1	554.	0		34
-16058	1218	Nusu (Central/Zhizhiluo)	ɕa⁵⁵ tsʰu³⁵	ɕa⁵⁵ tsʰu³⁵	fatty meat	fatty meat		1.6.4	558.	0		34,42
-16059	1218	Nusu (Central/Zhizhiluo)	ɕa⁵⁵ ȵ̥e³⁵	ɕa⁵⁵ ȵ̥e³⁵	lean meat	lean meat		1.1.1	559.	0		34,43
-16060	1218	Nusu (Central/Zhizhiluo)	u̱³¹	u̱³¹	egg	egg			573.	0		301
-16061	1218	Nusu (Central/Zhizhiluo)	ʑui³⁵	ʑui³⁵	ghost	ghost		4.2.12.2	938.	0		
-16062	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹ l̥a³⁵	iɔ̱³¹ l̥a³⁵	spirit / soul	spirit / soul		5.8.1.1	954.	0		m,2264
-16063	1218	Nusu (Central/Zhizhiluo)	sa̱³¹	sa̱³¹	energy	energy		1.1.4	961.	0		
-16064	1218	Nusu (Central/Zhizhiluo)	ba̱³¹ tsʰõ³⁵	ba̱³¹ tsʰõ³⁵	shadow	shadow		3.2.10	1008.	0		
-16065	1218	Nusu (Central/Zhizhiluo)	m̥a̱³¹	m̥a̱³¹	dream	dream		1.1.4.2	1009.	0	D1	126
-16066	1218	Nusu (Central/Zhizhiluo)	kʴa⁵⁵	kʴa⁵⁵	between	between		9.2.3	1021.	0		691
-16067	1218	Nusu (Central/Zhizhiluo)	zɚ³⁵	zɚ³⁵	side	side		1.4.5	1022.	0		
-16068	1218	Nusu (Central/Zhizhiluo)	ue³¹	ue³¹	left	left		1.5.3.2	1023.	0		2154
-16069	1218	Nusu (Central/Zhizhiluo)	ia³¹	ia³¹	right	right		1.5.3.2	1024.	0		2786
-16070	1218	Nusu (Central/Zhizhiluo)	xʴui³⁵	xʴui³⁵	front	front		1.4.4	1025.	0		1213
-16071	1218	Nusu (Central/Zhizhiluo)	la³⁵ tʰɔ̃³¹	la³⁵ tʰɔ̃³¹	back	back		1.4.8	1026.	0		m,225
-16072	1218	Nusu (Central/Zhizhiluo)	bʴɚ̃³¹	bʴɚ̃³¹	full (man)	full (man)		1.1.3.2	1383.	0		111
-16073	1218	Nusu (Central/Zhizhiluo)	tɕʰɚ³⁵	tɕʰɚ³⁵	bald	bald		1.2.3.4	1392.	0		2022
-16074	1218	Nusu (Central/Zhizhiluo)	tɕu̱³¹	tɕu̱³¹	wrinkled	wrinkled		9.6.2	1394.	0		
-16075	1218	Nusu (Central/Zhizhiluo)	tsʰu³⁵	tsʰu³⁵	fat (person)	fat (person)		1.6.4	1428.	0		42
-16076	1218	Nusu (Central/Zhizhiluo)	tsʰu³⁵	tsʰu³⁵	fat (pig)	fat (pig)		1.6.4	1429.	0		42
-16077	1218	Nusu (Central/Zhizhiluo)	kʴɤ̱³¹	kʴɤ̱³¹	thin (person)	thin (person)		9.7.2	1431	0		
-16078	1218	Nusu (Central/Zhizhiluo)	luɚ³¹	luɚ³¹	alive	alive		1.1.2.1	1505.	0	D1	87
-16079	1218	Nusu (Central/Zhizhiluo)	ɕi³⁵	ɕi³⁵	dead	dead		1.1.6	1506.	0		27
-16080	1218	Nusu (Central/Zhizhiluo)	gʴa⁵⁵	gʴa⁵⁵	full (from eating)	full (from eating)		1.1.3.2	1598.	0		114
-16081	1218	Nusu (Central/Zhizhiluo)	pi⁵⁵	pi⁵⁵	close (mouth)	close (mouth)	v	6.2.2.6.2	1609.	0		5709
-16082	1218	Nusu (Central/Zhizhiluo)	na³⁵	na³⁵	sick	sick		1.1.5.1	1619.	0		160
-16083	1218	Nusu (Central/Zhizhiluo)	dza⁵⁵	dza⁵⁵	eat	eat		1.5.3.2	1662.	0		36
-16084	1218	Nusu (Central/Zhizhiluo)	tɕʰe⁵⁵	tɕʰe⁵⁵	transmit, infect	transmit, infect	v.i.	6.2.2.2	1686.	0		
-16085	1218	Nusu (Central/Zhizhiluo)	mʴə̱³¹	mʴə̱³¹	blow (fire)	blow (fire)		1.3.1.4	1688.	0		503
-16086	1218	Nusu (Central/Zhizhiluo)	l̥ɔ̱³¹	l̥ɔ̱³¹	blow (flute)	blow (flute)		1.3.1.4	1689.	0		
-16087	1218	Nusu (Central/Zhizhiluo)	ɕe⁵³	ɕe⁵³	gasp, pant	gasp, pant	v	1.1.2.2	1692.	0		32
-16088	1218	Nusu (Central/Zhizhiluo)	tʰiɯ³⁵	tʰiɯ³⁵	sneeze	sneeze		1.8.2.1	1720.	0		2131
-16089	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹ iɯ³⁵	iɔ̱³¹ iɯ³⁵	nap (take)	nap (take)	v	6.21	1721.	0		m,303
-16090	1218	Nusu (Central/Zhizhiluo)	xɑ³¹ tɕɯ̱³¹	xɑ³¹ tɕɯ̱³¹	yawn	yawn		1.3.1.3	1723.	0		1716,m
-16091	1218	Nusu (Central/Zhizhiluo)	iɯ̱³¹	iɯ̱³¹	hiccup / belch	hiccup  /  belch		1.8.3.5	1724.	0		3443
-16092	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹ kʰõ³⁵	iɔ̱³¹ kʰõ³⁵	snore	snore		1.8.2.2	1725.	0		127,m
-16093	1218	Nusu (Central/Zhizhiluo)	tsʰuɚ̱³¹	tsʰuɚ̱³¹	bite, sting (mosquito)	bite, sting (mosquito)		1.3.4.4	1766.	0		744
-16094	1218	Nusu (Central/Zhizhiluo)	ɣɤ³¹	ɣɤ³¹	read (book)	read (book)		6.2.2.9.3	1776.	0		
-16095	1218	Nusu (Central/Zhizhiluo)	miɚ̃⁵⁵ bio³¹	miɚ̃⁵⁵ bio³¹	die (breath one's last)	die (breath one's last)		9.9	1781.	0		62,m
-16096	1218	Nusu (Central/Zhizhiluo)	mɔ̱³¹	mɔ̱³¹	hungry	hungry		1.1.3	1792.	0		99
-16097	1218	Nusu (Central/Zhizhiluo)	ve³¹	ve³¹	tremble	tremble		6.7.3	1798.	0		
-16098	1218	Nusu (Central/Zhizhiluo)	tsʰɤ³⁵	tsʰɤ³⁵	fever (have)	fever (have)	v	1.1.5.1	1800.	0		
-16099	1218	Nusu (Central/Zhizhiluo)	vi⁵⁵ vi⁵³	vi⁵⁵ vi⁵³	fart	fart		1.8.5.2	1820.	0		3553,3553
-16100	1218	Nusu (Central/Zhizhiluo)	bia³⁵	bia³⁵	fly	fly		2.2.6	1826.	0		2189
-16101	1218	Nusu (Central/Zhizhiluo)	xʴɔ̱³¹	xʴɔ̱³¹	insane	insane		8.3.1.11.3	1832.	0		
-16102	1218	Nusu (Central/Zhizhiluo)	ɣɔ̱³¹	ɣɔ̱³¹	incubate	incubate		1.9.1.2	1834.	0		1233
-16103	1218	Nusu (Central/Zhizhiluo)	pʰɯi³⁵	pʰɯi³⁵	swallow dry	swallow dry		1.3.5.6	1843.	0		
-16104	1218	Nusu (Central/Zhizhiluo)	pʰiɚ⁵⁵ n̥a³⁵ na³⁵	pʰiɚ⁵⁵ n̥a³⁵ na³⁵	cold (have)	cold (have)	v	7.1.2.3	1844.	0		
-16105	1218	Nusu (Central/Zhizhiluo)	kʰɤ³¹	kʰɤ³¹	call (to a meeting)	call (to a meeting)		8.5.13	1892.	0		
-16106	1218	Nusu (Central/Zhizhiluo)	dʑa⁵³	dʑa⁵³	call out (hanjiao)	call out (hanjiao)		8.5.13	1893.	0		
-16107	1218	Nusu (Central/Zhizhiluo)	ɕu̱³¹	ɕu̱³¹	drink	drink			1895.	0		3462
-16108	1218	Nusu (Central/Zhizhiluo)	na³⁵ gɤ³⁵	na³⁵ gɤ³⁵	hum	hum		8.5.5	1901.	0		
-16109	1218	Nusu (Central/Zhizhiluo)	ɣuɚ³¹	ɣuɚ³¹	dim, blurry (eyesight)	dim, blurry (eyesight)		1.2.6.10	1906.	0		
-16110	1218	Nusu (Central/Zhizhiluo)	za⁵⁵ le³⁵	za⁵⁵ le³⁵	pregnant	pregnant		1.9.6.1	1912.	0		1012,m
-16111	1218	Nusu (Central/Zhizhiluo)	dʑa⁵⁵	dʑa⁵⁵	call (to animal) (huan)	call (to animal) (huan)		8.5.13	1917.	0		
-16112	1218	Nusu (Central/Zhizhiluo)	luɚ³¹	luɚ³¹	alive	alive		1.1.2.1	1934.	0	HIDE	DUPE IN SOURCE
-16113	1218	Nusu (Central/Zhizhiluo)	tɕua³⁵	tɕua³⁵	tell (story)	tell (story)		1.8.7	1965.	0		
-16114	1218	Nusu (Central/Zhizhiluo)	ua⁵⁵	ua⁵⁵	chew	chew		1.3.4	1971.	0		688
-16115	1218	Nusu (Central/Zhizhiluo)	tuɚ̱³⁵	tuɚ̱³⁵	crow (rooster)	crow (rooster)		2.2.4.1	1972.	0		
-16116	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	cackle (hen)	cackle (hen)		8.5.5	1973.	0		
-16117	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	call (cat)	call (cat)		8.5.13	1974.	0		o
-16118	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	bray (donkey)	bray (donkey)		8.5.4.1	1975.	0		w
-16119	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	neigh (horse)	neigh (horse)		8.5.5	1976.	0		
-16120	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	call (cow)	call (cow)		8.5.13	1977.	0		
-16121	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	bark (dog)	bark (dog)		2.1.11.1	1978.	0		
-16122	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	grunt (pig)	grunt (pig)		2.1.11.1	1979.	0		o
-16123	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	call (sheep)	call (sheep)		8.5.13	1980.	0		o
-16124	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	roar (tiger)	roar (tiger)		8.5.5	1981.	0		o
-16125	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	roar (lion)	roar (lion)		8.5.5	1982.	0		o
-16126	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	howl (wolf)	howl (wolf)		8.5.5	1983.	0		
-16127	1218	Nusu (Central/Zhizhiluo)	kʰɤ³¹	kʰɤ³¹	call (name)	call (name)		8.5.13	1984.	0		
-16128	1218	Nusu (Central/Zhizhiluo)	pʰõ³¹	pʰõ³¹	open	open		6.2.2.6.1	2020.	0		5704
-16129	1218	Nusu (Central/Zhizhiluo)	ɣʴu³¹	ɣʴu³¹	look at	look at		1.2.6.11	2028.	0		1227
-16130	1218	Nusu (Central/Zhizhiluo)	ɣʴu³¹ vʴoŋ³⁵	ɣʴu³¹ vʴoŋ³⁵	see	see		1.2.6.10	2030.	0		1227,m
-16131	1218	Nusu (Central/Zhizhiluo)	tsɿ⁵⁵ mʴɚ̱³¹	tsɿ⁵⁵ mʴɚ̱³¹	cough	cough		1.8.3.3	2038.	0		
-16132	1218	Nusu (Central/Zhizhiluo)	ɕɔ̱³¹	ɕɔ̱³¹	thirsty	thirsty		1.1.3.1	2039.	0		101
-16133	1218	Nusu (Central/Zhizhiluo)	gʴuɚ̱³¹	gʴuɚ̱³¹	gnaw	gnaw		1.3.4.4	2042.	0		
-16134	1218	Nusu (Central/Zhizhiluo)	ŋɯ³⁵	ŋɯ³⁵	cry	cry		1.8.8.2	2045.	0		1104
-16135	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹ ʑɯ³⁵	iɔ̱³¹ ʑɯ³⁵	tired, sleepy	tired, sleepy		9.6.2.2	2051.	0		127,m
-16136	1218	Nusu (Central/Zhizhiluo)	kʰʴi⁵⁵ kʰʴi⁵⁵	kʰʴi⁵⁵ kʰʴi⁵⁵	defecate	defecate		1.8.5.4	2053.	0		
-16137	1218	Nusu (Central/Zhizhiluo)	dɯ³⁵	dɯ³⁵	tired	tired		9.6.2.2	2061.	0		
-16138	1218	Nusu (Central/Zhizhiluo)	bõ⁵⁵	bõ⁵⁵	deaf	deaf		1.2.7.5	2081.	0		1409
-16139	1218	Nusu (Central/Zhizhiluo)	fʴɤ̱̃³¹	fʴɤ̱̃³¹	numb	numb		1.5.11	2086.	0		5686
-16140	1218	Nusu (Central/Zhizhiluo)	m̥a̱³¹	m̥a̱³¹	dream	dream		1.1.4.2	2092.	0	HIDE	DUPE IN SOURCE
-16141	1218	Nusu (Central/Zhizhiluo)	tɕʰɔ⁵⁵	tɕʰɔ⁵⁵	narrow eyes; squint	narrow eyes; squint		9.7.2	2100.	0		
-16142	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	call (bird) (ming)	call (bird) (ming)		8.5.13	2101.	0		
-16143	1218	Nusu (Central/Zhizhiluo)	pʰʴɚ̱³¹	pʰʴɚ̱³¹	vomit	vomit		1.8.3.2	2117.	0		1145
-16144	1218	Nusu (Central/Zhizhiluo)	tu³⁵	tu³⁵	raise (tail)	raise (tail)		6.7.7	2163.	0		
-16145	1218	Nusu (Central/Zhizhiluo)	ge³⁵	ge³⁵	cured (illness)	cured (illness)	be v.	1.1.5.1	2174.	0		
-16146	1218	Nusu (Central/Zhizhiluo)	ge³⁵	ge³⁵	heal (wound)	heal (wound)		1.1.5.1	2175.	0		
-16147	1218	Nusu (Central/Zhizhiluo)	ʑue̱³¹	ʑue̱³¹	crippled	crippled		4.2.7	2177.	0		
-16148	1218	Nusu (Central/Zhizhiluo)	dʑa⁵⁵	dʑa⁵⁵	shout, yell	shout, yell		8.5.4.1	2181.	0		
-16149	1218	Nusu (Central/Zhizhiluo)	ʑi⁵⁵ ɕa³⁵	ʑi⁵⁵ ɕa³⁵	urinate	urinate		1.5.3.2	2194.	0		650,m
-16150	1218	Nusu (Central/Zhizhiluo)	ɕa̱³¹	ɕa̱³¹	castrate	castrate		1.9.2.3	2210.	0	D0	m
-16151	1218	Nusu (Central/Zhizhiluo)	bʴɚ̃³⁵	bʴɚ̃³⁵	grow (boil)	grow (boil)		9.7.2	2226.	0		
-16152	1218	Nusu (Central/Zhizhiluo)	tsa⁵⁵	tsa⁵⁵	birth, give	birth, give	v	1.1.2	2227.	0		95
-16153	1218	Nusu (Central/Zhizhiluo)	kʴɤ̱³¹	kʴɤ̱³¹	thin	thin	v	9.7.2	2249.	0		
-16154	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹	iɔ̱³¹	sleep	sleep		1.1.4.1	2259.	0		127
-16155	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹ kʰʴɚ̱³¹	iɔ̱³¹ kʰʴɚ̱³¹	asleep	asleep		1.1.4.1	2261.	0		127,2128
-16156	1218	Nusu (Central/Zhizhiluo)	miu̱³¹	miu̱³¹	suck (milk)	suck (milk)		1.3.2.1	2262.	0		
-16157	1218	Nusu (Central/Zhizhiluo)	tu³¹ dʑa̱³¹	tu³¹ dʑa̱³¹	speak	speak		8.5.10.1	2263.	0		m,5382
-16158	1218	Nusu (Central/Zhizhiluo)	ɕi³⁵	ɕi³⁵	die	die		1.1.6	2265.	0		27
-16159	1218	Nusu (Central/Zhizhiluo)	miu⁵⁵	miu⁵⁵	sore (leg)	sore (leg)		1.1.5.1	2270.	0		
-16160	1218	Nusu (Central/Zhizhiluo)	tʰu³⁵	tʰu³⁵	ache (teng)	ache (teng)		1.1.5.1	2291.	0		1846
-16161	1218	Nusu (Central/Zhizhiluo)	lia̱³¹ lia̱ʔ⁵³	lia̱³¹ lia̱ʔ⁵³	lick	lick		1.3.3.1	2301.	0		623,629
-16162	1218	Nusu (Central/Zhizhiluo)	tʰɤ̱³¹	tʰɤ̱³¹	beat (pulse)	beat (pulse)		6.8	2307.	0		
-16163	1218	Nusu (Central/Zhizhiluo)	n̥a³⁵	n̥a³⁵	listen	listen		1.2.7.4	2309.	0		811
-16164	1218	Nusu (Central/Zhizhiluo)	n̥a³⁵ tʰa̱³¹	n̥a³⁵ tʰa̱³¹	hear	hear		1.2.7.4	2310.	0		811,1408
-16165	1218	Nusu (Central/Zhizhiluo)	m̥i³⁵	m̥i³⁵	swallow	swallow	v	1.3.5.6	2316.	0		627
-16166	1218	Nusu (Central/Zhizhiluo)	pʰiu⁵⁵	pʰiu⁵⁵	spit	spit		1.8.3	2320.	0		
-16167	1218	Nusu (Central/Zhizhiluo)	guɚ̱³¹ kʰʴa³¹	guɚ̱³¹ kʰʴa³¹	molt (snake)	molt (snake)		1.6.5.6	2327.	0		
-16168	1218	Nusu (Central/Zhizhiluo)	ȵ̥ɚ³⁵	ȵ̥ɚ³⁵	smell (with nose)	smell (with nose)		1.2.8.5	2346.	0		1415
-16169	1218	Nusu (Central/Zhizhiluo)	ɕe⁵⁵	ɕe⁵⁵	inhale	inhale		1.1.2.2	2352.	0		
-16170	1218	Nusu (Central/Zhizhiluo)	dʑɚ̱³¹	dʑɚ̱³¹	blind	blind		1.2.6.14.2	2360.	0		1401
-16171	1218	Nusu (Central/Zhizhiluo)	tsa⁵⁵	tsa⁵⁵	birth, give (to piglet)	birth, give  (to piglet)		1.1.2	2362.	0		95
-16172	1218	Nusu (Central/Zhizhiluo)	u̱³¹ u̱³⁵	u̱³¹ u̱³⁵	lay egg	lay egg		6.17	2363.	0		301,301
-16173	1218	Nusu (Central/Zhizhiluo)	ȵ̥ɯ⁵⁵	ȵ̥ɯ⁵⁵	recede (boil)	recede (boil)		6.7.1	2378.	0		
-16174	1218	Nusu (Central/Zhizhiluo)	ɣʴe³⁵	ɣʴe³⁵	laugh	laugh		1.8.8.1	2380.	0		1108
-16175	1218	Nusu (Central/Zhizhiluo)	kʰuɚ̃³⁵	kʰuɚ̃³⁵	diarrhea	diarrhea		1.8.5	2383.	0		
-16176	1218	Nusu (Central/Zhizhiluo)	suɚ̱³¹	suɚ̱³¹	blow nose	blow nose		1.3.1.4	2385.	0		1745
-16177	1218	Nusu (Central/Zhizhiluo)	sa⁵⁵	sa⁵⁵	wake	wake		1.1.4	2386.	0		150
-16178	1218	Nusu (Central/Zhizhiluo)	ɕa³⁵	ɕa³⁵	rest	rest		1.1.4.1	2387.	0		
-16179	1218	Nusu (Central/Zhizhiluo)	ɕa̱³¹	ɕa̱³¹	caponize	caponize		2.4.1	2396.	0		m
-16180	1218	Nusu (Central/Zhizhiluo)	ia⁵⁵	ia⁵⁵	itch	itch		1.6.5.5	2400.	0		1456
-16181	1218	Nusu (Central/Zhizhiluo)	tsʰuɚ̱³¹	tsʰuɚ̱³¹	bitten	bitten	be v.	1.3.4.4	2404.	0		
-16182	1218	Nusu (Central/Zhizhiluo)	tsʰuɚ̱³¹	tsʰuɚ̱³¹	bite	bite		1.3.4.4	2405.	0		744
-16183	1218	Nusu (Central/Zhizhiluo)	tsʰuɚ̱³¹ tsi³⁵	tsʰuɚ̱³¹ tsi³⁵	bite hold of	bite hold of		1.3.4.4	2406.	0		744
-16184	1218	Nusu (Central/Zhizhiluo)	ɣʴuɚ³⁵	ɣʴuɚ³⁵	dizzy	dizzy		8.3.1.11.3	2430.	0		
-16185	1218	Nusu (Central/Zhizhiluo)	m̥ʴɚ̱³¹	m̥ʴɚ̱³¹	blink	blink		1.2.6.12	2442.	0		m
-16186	1218	Nusu (Central/Zhizhiluo)	ŋa³¹	ŋa³¹	open (mouth)	open (mouth)		6.2.2.6.1	2450.	0		5706
-16187	1218	Nusu (Central/Zhizhiluo)	ʑɚ³¹	ʑɚ³¹	grow (up)	grow (up)		9.7.2	2451.	0		
-16188	1218	Nusu (Central/Zhizhiluo)	pʰo⁵⁵	pʰo⁵⁵	bloat (belly) (zhang)	bloat (belly) (zhang)		1.4.7	2453.	0		
-16189	1218	Nusu (Central/Zhizhiluo)	tsʰa³¹	tsʰa³¹	nervous	nervous		8.3.1.5.5	2455.	0	D0	
-16190	1218	Nusu (Central/Zhizhiluo)	pʴɚ̱³¹	pʴɚ̱³¹	sting	sting	v	2.4.2	2460.	0		
-16191	1218	Nusu (Central/Zhizhiluo)	lu³⁵	lu³⁵	swell up	swell up		1.1.5.2	2472.	0		
-16192	1218	Nusu (Central/Zhizhiluo)	iɚ̱³¹	iɚ̱³¹	drunk	drunk		1.3.5.9	2497.	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+15938	1218	Nusu (Central/Zhizhiluo)	tɕʰe³⁵ gɯ³¹	tɕʰe³⁵ gɯ³¹	body	body			1.1.1	94.	0			1126,2
+15939	1218	Nusu (Central/Zhizhiluo)	vʴi³⁵ ba³⁵	vʴi³⁵ ba³⁵	limbs	limbs			1.5.3.1	95.	0			
+15940	1218	Nusu (Central/Zhizhiluo)	u³¹ pʰu⁵⁵	u³¹ pʰu⁵⁵	head	head			1.2.1	96.	0			385,1275
+15941	1218	Nusu (Central/Zhizhiluo)	tsʰa³⁵	tsʰa³⁵	hair (head)	hair (head)			1.2.3	97.	0			366
+15942	1218	Nusu (Central/Zhizhiluo)	tsʰa³⁵ pʰʴɚ⁵⁵	tsʰa³⁵ pʰʴɚ⁵⁵	braid (hair)	braid (hair)	n	n	1.2.3.2	98.	0			366,2018
+15943	1218	Nusu (Central/Zhizhiluo)	n̥a⁵⁵ gõ⁵⁵ ti³⁵	n̥a⁵⁵ gõ⁵⁵ ti³⁵	forehead	forehead			1.2.5.1	99.	0			356,2025,358
+15944	1218	Nusu (Central/Zhizhiluo)	mʴa̱³¹ m̥ʴɚ³⁵	mʴa̱³¹ m̥ʴɚ³⁵	eyebrow	eyebrow			1.2.6.6	100.	0			681,363
+15945	1218	Nusu (Central/Zhizhiluo)	mʴa̱³¹ dzi³¹	mʴa̱³¹ dzi³¹	eye	eye			1.2.6	101.	0			681,3559
+15946	1218	Nusu (Central/Zhizhiluo)	mʴa̱³¹ m̥ʴɚ³⁵	mʴa̱³¹ m̥ʴɚ³⁵	eyelash	eyelash			1.2.6.5	102.	0			681,363
+15947	1218	Nusu (Central/Zhizhiluo)	n̥a⁵⁵ kõ³⁵	n̥a⁵⁵ kõ³⁵	nose	nose			1.2.8	103.	0			803,809
+15948	1218	Nusu (Central/Zhizhiluo)	n̥a⁵⁵ sɚ̃³⁵	n̥a⁵⁵ sɚ̃³⁵	ear	ear			1.2.7	104.	0			811,2082
+15949	1218	Nusu (Central/Zhizhiluo)	pʰʴɚ⁵⁵ n̥a³⁵	pʰʴɚ⁵⁵ n̥a³⁵	face	face			1.2.5	105.	0			1186,803
+15950	1218	Nusu (Central/Zhizhiluo)	ba⁵⁵ ba³⁵	ba⁵⁵ ba³⁵	cheek	cheek			1.2.5.2	106.	0			268,s
+15951	1218	Nusu (Central/Zhizhiluo)	n̥a⁵⁵ kʰõ³⁵	n̥a⁵⁵ kʰõ³⁵	mouth	mouth			1.3.1	107.	0			803,473
+15952	1218	Nusu (Central/Zhizhiluo)	n̥ɯ⁵⁵ sui⁵⁵	n̥ɯ⁵⁵ sui⁵⁵	lip	lip			1.3.2	108.	0			467,790
+15953	1218	Nusu (Central/Zhizhiluo)	m̥ɯ⁵⁵ tɕʰuɚ̱̃³¹	m̥ɯ⁵⁵ tɕʰuɚ̱̃³¹	beard	beard			1.2.5.5	109.	0			363,370
+15954	1218	Nusu (Central/Zhizhiluo)	ka̱³¹ kʰe³¹	ka̱³¹ kʰe³¹	lower jaw, chin	lower jaw, chin				111.	0			m,m
+15955	1218	Nusu (Central/Zhizhiluo)	le³¹ dɔ³⁵	le³¹ dɔ³⁵	neck	neck			1.4.2	112.	0			479,359
+15956	1218	Nusu (Central/Zhizhiluo)	gua⁵⁵ gua³¹	gua⁵⁵ gua³¹	nape	nape			1.4.2.1	113.	0			389,389
+15957	1218	Nusu (Central/Zhizhiluo)	kua⁵⁵ bo³¹	kua⁵⁵ bo³¹	shoulder	shoulder			1.4.3	114.	0			3350,1327
+15958	1218	Nusu (Central/Zhizhiluo)	dõ³⁵	dõ³⁵	back (body)	back (body)			1.4.8	115.	0			225
+15959	1218	Nusu (Central/Zhizhiluo)	kua⁵⁵ kɯ³⁵	kua⁵⁵ kɯ³⁵	armpit	armpit			1.5.1.2.3	116.	0			
+15960	1218	Nusu (Central/Zhizhiluo)	ɣʴoŋ³¹ pʰʴɚ⁵⁵	ɣʴoŋ³¹ pʰʴɚ⁵⁵	chest	chest			1.4.4.3	117.	0			288,308
+15961	1218	Nusu (Central/Zhizhiluo)	nɯ³⁵ nɯ³¹	nɯ³⁵ nɯ³¹	breast	breast			1.4.4.3	118.	0			253,253
+15962	1218	Nusu (Central/Zhizhiluo)	va³¹ lɔ̱⁵³	va³¹ lɔ̱⁵³	belly	belly			1.4.7	119.	0			137,m
+15963	1218	Nusu (Central/Zhizhiluo)	tsʰɛ̱³¹	tsʰɛ̱³¹	navel	navel			1.9.4	120.	0			525
+15964	1218	Nusu (Central/Zhizhiluo)	dʑu̱³¹	dʑu̱³¹	waist	waist			1.4.6	121.	0			215
+15965	1218	Nusu (Central/Zhizhiluo)	kʰʴi⁵⁵ dõ⁵³	kʰʴi⁵⁵ dõ⁵³	buttocks	buttocks			1.4.10	122.	0			572,225
+15966	1218	Nusu (Central/Zhizhiluo)	bõ³⁵ bõ³⁵	bõ³⁵ bõ³⁵	thigh	thigh			1.5.7.1	123.	0			404,404
+15967	1218	Nusu (Central/Zhizhiluo)	pʰɯi⁵⁵ tsi³⁵ l̥u⁵³	pʰɯi⁵⁵ tsi³⁵ l̥u⁵³	knee	knee			1.5.8.4	124.	0			435,m,m
+15968	1218	Nusu (Central/Zhizhiluo)	kʰʴi³⁵ pʰʴuɚ³¹ za⁵⁵	kʰʴi³⁵ pʰʴuɚ³¹ za⁵⁵	calf (leg)	calf (leg)			1.5.7	125.	0			335,m,m
+15969	1218	Nusu (Central/Zhizhiluo)	kʰʴi³⁵	kʰʴi³⁵	foot	foot			1.5.2	126.	0			335
+15970	1218	Nusu (Central/Zhizhiluo)	kʰʴi³⁵ tse̱³¹	kʰʴi³⁵ tse̱³¹	ankle	ankle			1.5.8.2	127.	0			m,418
+15971	1218	Nusu (Central/Zhizhiluo)	la̱³¹ pʰʴuɚ³¹	la̱³¹ pʰʴuɚ³¹	arm	arm			1.5.1.2	128.	0			695,1327
+15972	1218	Nusu (Central/Zhizhiluo)	la̱³¹ tʰõ³⁵	la̱³¹ tʰõ³⁵	elbow	elbow			1.5.8.3	129.	0			695,m
+15973	1218	Nusu (Central/Zhizhiluo)	la̱³¹	la̱³¹	hand	hand			1.5.1.1	130.	0			695
+15974	1218	Nusu (Central/Zhizhiluo)	la̱³¹ va⁵⁵	la̱³¹ va⁵⁵	wrist	wrist			1.5.8.1	131.	0			695,m
+15975	1218	Nusu (Central/Zhizhiluo)	la̱³¹ n̥ɯ⁵⁵	la̱³¹ n̥ɯ⁵⁵	finger	finger			1.5.6	132.	0			695,m
+15976	1218	Nusu (Central/Zhizhiluo)	la̱³¹ ma³¹	la̱³¹ ma³¹	thumb	thumb			1.5.6.1	133.	0			695,m
+15977	1218	Nusu (Central/Zhizhiluo)	la̱³¹ l̥ɚ̱³¹	la̱³¹ l̥ɚ̱³¹	index finger	index finger			1.0	134.	0			
+15978	1218	Nusu (Central/Zhizhiluo)	kʰʴa³⁵ kʰue³⁵ n̥ɯ⁵⁵	kʰʴa³⁵ kʰue³⁵ n̥ɯ⁵⁵	ring finger	ring finger			1.5.6.2	136.	0			
+15979	1218	Nusu (Central/Zhizhiluo)	la̱³¹ n̥ɯ⁵⁵ za⁵⁵	la̱³¹ n̥ɯ⁵⁵ za⁵⁵	little finger	little finger			9.7.2	137.	0			
+15980	1218	Nusu (Central/Zhizhiluo)	la̱³¹ sɚ̃⁵⁵	la̱³¹ sɚ̃⁵⁵	fingernail	fingernail			1.5.10.1	138.	0			695,m
+15981	1218	Nusu (Central/Zhizhiluo)	la̱³¹ m̥i⁵⁵ tso̱³¹	la̱³¹ m̥i⁵⁵ tso̱³¹	fist	fist			1.5.1.1.1	139.	0			695,m
+15982	1218	Nusu (Central/Zhizhiluo)	kʰʴi⁵⁵ dõ⁵³	kʰʴi⁵⁵ dõ⁵³	anus	anus			1.4.10.2	140.	0			572,822
+15983	1218	Nusu (Central/Zhizhiluo)	bɯ⁵⁵	bɯ⁵⁵	penis	penis				141.	0			3425
+15984	1218	Nusu (Central/Zhizhiluo)	bɯ⁵⁵ be³⁵	bɯ⁵⁵ be³⁵	testicles	testicles				142.	0			1654,m
+15985	1218	Nusu (Central/Zhizhiluo)	tɯ⁵⁵	tɯ⁵⁵	vagina	vagina				143.	0			661
+15986	1218	Nusu (Central/Zhizhiluo)	za⁵⁵ iɔ³⁵	za⁵⁵ iɔ³⁵	placenta	placenta				144.	0			1012,m
+15987	1218	Nusu (Central/Zhizhiluo)	tsʰɛ̱¹	tsʰɛ̱¹	umbilical cord	umbilical cord				145.	0			525
+15988	1218	Nusu (Central/Zhizhiluo)	kʰu̱³¹ ɣʴi³⁵	kʰu̱³¹ ɣʴi³⁵	skin	skin			1.6.5	147.	0			586,596
+15989	1218	Nusu (Central/Zhizhiluo)	ɣʴua̱³¹ tsʰi̱³¹	ɣʴua̱³¹ tsʰi̱³¹	hemorrhoids	hemorrhoids			1.4.10.2	149.	0			
+15990	1218	Nusu (Central/Zhizhiluo)	l̥i⁵ bʴɚ̃³⁵	l̥i⁵ bʴɚ̃³⁵	sore, ulcer	sore, ulcer			1.1.5.1	150.	0			
+15991	1218	Nusu (Central/Zhizhiluo)	po̱³¹ n̥a³⁵	po̱³¹ n̥a³⁵	scar	scar			1.6.5.3	151.	0			
+15992	1218	Nusu (Central/Zhizhiluo)	ɕɔ̱³¹ na³⁵	ɕɔ̱³¹ na³⁵	measles	measles			5.3	152.	0			
+15993	1218	Nusu (Central/Zhizhiluo)	ɕue³⁵	ɕue³⁵	ringworm	ringworm			2.2.6	153.	0			
+15994	1218	Nusu (Central/Zhizhiluo)	ɕa⁵⁵	ɕa⁵⁵	flesh	flesh			1.1.1.1	154.	0			34
+15995	1218	Nusu (Central/Zhizhiluo)	sui⁵⁵	sui⁵⁵	blood	blood			1.6.2	155.	0			230
+15996	1218	Nusu (Central/Zhizhiluo)	gɤ⁵⁵	gɤ⁵⁵	muscle	muscle			1.6.6.2	156.	0			535
+15997	1218	Nusu (Central/Zhizhiluo)	la̱³¹ m̥i⁵⁵	la̱³¹ m̥i⁵⁵	pulse	pulse			1.7.1.1	157.	0			695,m
+15998	1218	Nusu (Central/Zhizhiluo)	u⁵⁵ ȵ̥u̱³¹	u⁵⁵ ȵ̥u̱³¹	brain	brain			1.2.4	158.	0			385,243
+15999	1218	Nusu (Central/Zhizhiluo)	ɣʴɯ⁵⁵	ɣʴɯ⁵⁵	bone	bone			1.6.3	159.	0			232
+16000	1218	Nusu (Central/Zhizhiluo)	doŋ³¹ tse̱³¹	doŋ³¹ tse̱³¹	backbone / spine	backbone / spine			1.4.8.2	160.	0			225,418
+16001	1218	Nusu (Central/Zhizhiluo)	ɣʴoŋ³¹ li³⁵	ɣʴoŋ³¹ li³⁵	rib	rib			1.4.4.3	161.	0			288,m
+16002	1218	Nusu (Central/Zhizhiluo)	ɣʴɯ⁵⁵ tse̱³¹	ɣʴɯ⁵⁵ tse̱³¹	joint	joint			1.5.8	162.	0			232,418
+16003	1218	Nusu (Central/Zhizhiluo)	sua⁵⁵	sua⁵⁵	tooth	tooth			1.3.4	163.	0			632
+16004	1218	Nusu (Central/Zhizhiluo)	ȵɚ³⁵	ȵɚ³⁵	gums	gums			1.3.4.3	164.	0			504
+16005	1218	Nusu (Central/Zhizhiluo)	fia³⁵	fia³⁵	tongue	tongue			1.3.3	165.	0			623
+16006	1218	Nusu (Central/Zhizhiluo)	fia³⁵ za⁵⁵	fia³⁵ za⁵⁵	uvula	uvula			1.3.5.1	166.	0			
+16007	1218	Nusu (Central/Zhizhiluo)	kʰʴõ⁵⁵ te̱³¹	kʰʴõ⁵⁵ te̱³¹	throat	throat			1.3.5	168.	0			3361,501
+16008	1218	Nusu (Central/Zhizhiluo)	sa̱³¹	sa̱³¹	throat	throat			1.3.5	169.	0			m
+16009	1218	Nusu (Central/Zhizhiluo)	tsʰuɚ̃³⁵	tsʰuɚ̃³⁵	lungs	lungs			1.7.2	171.	0			
+16010	1218	Nusu (Central/Zhizhiluo)	ȵ̥i̱³¹ lɔ̱⁵³	ȵ̥i̱³¹ lɔ̱⁵³	heart	heart			1.7.1	172.	0			297,1381
+16011	1218	Nusu (Central/Zhizhiluo)	tsɚ̃⁵⁵	tsɚ̃⁵⁵	liver	liver			1.7.3	173.	0			1390
+16012	1218	Nusu (Central/Zhizhiluo)	u⁵⁵ tʰɚ̃³¹	u⁵⁵ tʰɚ̃³¹	kidneys	kidneys			1.7.5	174.	0			
+16013	1218	Nusu (Central/Zhizhiluo)	kʴe³⁵	kʴe³⁵	gall bladder	gall bladder			1.7.3	177.	0			227
+16014	1218	Nusu (Central/Zhizhiluo)	u³⁵	u³⁵	intestines	intestines			1.7.7	178.	0			2102
+16015	1218	Nusu (Central/Zhizhiluo)	kʰʴi⁵³	kʰʴi⁵³	feces	feces			1.8.5	180.	0			572
+16016	1218	Nusu (Central/Zhizhiluo)	ʑi⁵³	ʑi⁵³	urine	urine			1.8.4	181.	0			650
+16017	1218	Nusu (Central/Zhizhiluo)	vi⁵⁵	vi⁵⁵	fart	fart			1.8.5.2	182.	0			3553
+16018	1218	Nusu (Central/Zhizhiluo)	xʴi⁵⁵	xʴi⁵⁵	sweat	sweat			1.8.1	183.	0			615
+16019	1218	Nusu (Central/Zhizhiluo)	ti̱⁵⁵ kʰʴɚ⁵⁵	ti̱⁵⁵ kʰʴɚ⁵⁵	phlegm	phlegm			1.8.3	184.	0			m,540
+16020	1218	Nusu (Central/Zhizhiluo)	ti̱⁵⁵	ti̱⁵⁵	saliva	saliva			1.8.3	185.	0			
+16021	1218	Nusu (Central/Zhizhiluo)	n̥a̱³¹	n̥a̱³¹	mucus	mucus			1.8.2	186.	0			805
+16022	1218	Nusu (Central/Zhizhiluo)	bʴi³⁵	bʴi³⁵	tears	tears			1.2.6.7	187.	0			187
+16023	1218	Nusu (Central/Zhizhiluo)	bʴɚ̃³⁵	bʴɚ̃³⁵	pus	pus			1.8.6.1	188.	0			1292
+16024	1218	Nusu (Central/Zhizhiluo)	sa̱³¹	sa̱³¹	sound	sound			9.3	190.	0			
+16025	1218	Nusu (Central/Zhizhiluo)	sa̱³¹	sa̱³¹	breath	breath			1.1.2.2	191.	0			32
+16026	1218	Nusu (Central/Zhizhiluo)	ɕi³⁵ tsʰõ³⁵	ɕi³⁵ tsʰõ³⁵	corpse	corpse			1.1.6.1	192.	0			27,3327
+16027	1218	Nusu (Central/Zhizhiluo)	miɚ⁵⁵ bʴɚ̃³⁵	miɚ⁵⁵ bʴɚ̃³⁵	life	life			1.1.2.1	193.	0			62,m
+16028	1218	Nusu (Central/Zhizhiluo)	mʴa̱³¹ dʑɚ̱³¹	mʴa̱³¹ dʑɚ̱³¹	blind person	blind person			1.2.6.14.2	242.	0			681,1401
+16029	1218	Nusu (Central/Zhizhiluo)	kʰʴi³⁵ tʰɤ̱³¹	kʰʴi³⁵ tʰɤ̱³¹	lame person	lame person			1.5.12	243.	0			
+16030	1218	Nusu (Central/Zhizhiluo)	su³⁵ ȵɔ³⁵	su³⁵ ȵɔ³⁵	dwarf	dwarf			4.2.7	244.	0			
+16031	1218	Nusu (Central/Zhizhiluo)	n̥a⁵⁵ sɚ̃³⁵ bõ⁵⁵	n̥a⁵⁵ sɚ̃³⁵ bõ⁵⁵	deaf person	deaf person			1.2.7.5	245.	0			
+16032	1218	Nusu (Central/Zhizhiluo)	u³¹ pʰu⁵⁵ tɕʰɚ³⁵	u³¹ pʰu⁵⁵ tɕʰɚ³⁵	bald person	bald person			1.2.3.4	246.	0			385,1275,2022
+16033	1218	Nusu (Central/Zhizhiluo)	bʴuɚ³¹ lɔ⁵⁵ di̱⁵⁵	bʴuɚ³¹ lɔ⁵⁵ di̱⁵⁵	pock-marked person	pock-marked person			4.5	247.	0			
+16034	1218	Nusu (Central/Zhizhiluo)	dõ³⁵ bu³¹ bu³¹	dõ³⁵ bu³¹ bu³¹	hunchback	hunchback			1.4.8.3	248.	0			225,163,163
+16035	1218	Nusu (Central/Zhizhiluo)	la⁵⁵ xʴɤ̱³¹	la⁵⁵ xʴɤ̱³¹	idiot	idiot			4.2.12.3	249.	0			
+16036	1218	Nusu (Central/Zhizhiluo)	xʴɔ̱³¹ su³⁵	xʴɔ̱³¹ su³⁵	lunatic	lunatic			8.3	250.	0			
+16037	1218	Nusu (Central/Zhizhiluo)	dʑa̱³¹ be⁵⁵	dʑa̱³¹ be⁵⁵	stutterer	stutterer			8.5.4.5	251.	0			
+16038	1218	Nusu (Central/Zhizhiluo)	bõ⁵⁵ su³⁵	bõ⁵⁵ su³⁵	dumb person	dumb person			8.5.4.4	252.	0			m,5632
+16039	1218	Nusu (Central/Zhizhiluo)	nɔ⁵⁵ nɯ³⁵ nɯ³¹	nɔ⁵⁵ nɯ³⁵ nɯ³¹	milk (cow's)	milk (cow's)				311.	0			2538,253,253
+16040	1218	Nusu (Central/Zhizhiluo)	nɔ⁵⁵ kʰʴi⁵⁵	nɔ⁵⁵ kʰʴi⁵⁵	excrement (cow)	excrement (cow)			1.8.5	312.	0			m,572
+16041	1218	Nusu (Central/Zhizhiluo)	kʰʴɤ⁵⁵	kʰʴɤ⁵⁵	horn	horn			1.2.2	313.	0			819
+16042	1218	Nusu (Central/Zhizhiluo)	kʰua³⁵	kʰua³⁵	hoof	hoof			1.5.4	314.	0			417
+16043	1218	Nusu (Central/Zhizhiluo)	kʰu̱³¹ ɣʴi³⁵	kʰu̱³¹ ɣʴi³⁵	skin (animal)	skin (animal)			1.6.5	315.	0			586,596
+16044	1218	Nusu (Central/Zhizhiluo)	m̥e⁵⁵	m̥e⁵⁵	hair (animal)	hair (animal)			1.2.3	316.	0			363
+16045	1218	Nusu (Central/Zhizhiluo)	m̥e⁵⁵ pɔ⁵⁵	m̥e⁵⁵ pɔ⁵⁵	tail	tail			1.4.10.1	317.	0			1288,3326
+16046	1218	Nusu (Central/Zhizhiluo)	mʴɤ⁵³ m̥e⁵⁵	mʴɤ⁵³ m̥e⁵⁵	mane (horse)	mane (horse)			1.6.1	322.	0			1431,363
+16047	1218	Nusu (Central/Zhizhiluo)	mʴɤ⁵³ kʰʴi⁵⁵	mʴɤ⁵³ kʰʴi⁵⁵	excrement (horse)	excrement (horse)			1.8.5	323.	0			1431,572
+16048	1218	Nusu (Central/Zhizhiluo)	tɕʰɚ̱̃³¹ m̥e⁵⁵	tɕʰɚ̱̃³¹ m̥e⁵⁵	wool	wool			1.6.1.3	328.	0			1226,363
+16049	1218	Nusu (Central/Zhizhiluo)	tɕʰɚ̱̃³¹ kʰʴi⁵⁵	tɕʰɚ̱̃³¹ kʰʴi⁵⁵	excrement (sheep)	excrement (sheep)			1.8.5	329.	0			1226,m,572
+16050	1218	Nusu (Central/Zhizhiluo)	va̱³¹ kʰʴi⁵⁵	va̱³¹ kʰʴi⁵⁵	excrement (pig)	excrement (pig)			1.8.5	337.	0			1006,572
+16051	1218	Nusu (Central/Zhizhiluo)	ɣʴa̱³¹ da̱³¹	ɣʴa̱³¹ da̱³¹	cockscomb	cockscomb			1.2.2.1	346.	0			1606,m
+16052	1218	Nusu (Central/Zhizhiluo)	bia³⁵ dõ³⁵	bia³⁵ dõ³⁵	wing	wing			1.5.1.3	347.	0			m,711
+16053	1218	Nusu (Central/Zhizhiluo)	xã̱³¹ m̥e⁵⁵	xã̱³¹ m̥e⁵⁵	feathers	feathers			1.6.1.1	348.	0			1606,363
+16054	1218	Nusu (Central/Zhizhiluo)	ʑoŋ⁵⁵ sua⁵⁵	ʑoŋ⁵⁵ sua⁵⁵	tusk (of elephant)	tusk (of elephant)			1.3.4.1	359.	0			2731,632
+16055	1218	Nusu (Central/Zhizhiluo)	le⁵⁵ ɕua³⁵	le⁵⁵ ɕua³⁵	musk (scent)	musk (scent)			1.5.3.2	367.	0			
+16056	1218	Nusu (Central/Zhizhiluo)	kʰu̱³¹ sɿ³¹	kʰu̱³¹ sɿ³¹	scales	scales			1.6.5.2	409.	0			586,1454
+16057	1218	Nusu (Central/Zhizhiluo)	ɕa⁵⁵	ɕa⁵⁵	meat	meat			1.1.1.1	554.	0			34
+16058	1218	Nusu (Central/Zhizhiluo)	ɕa⁵⁵ tsʰu³⁵	ɕa⁵⁵ tsʰu³⁵	fatty meat	fatty meat			1.6.4	558.	0			34,42
+16059	1218	Nusu (Central/Zhizhiluo)	ɕa⁵⁵ ȵ̥e³⁵	ɕa⁵⁵ ȵ̥e³⁵	lean meat	lean meat			1.1.1	559.	0			34,43
+16060	1218	Nusu (Central/Zhizhiluo)	u̱³¹	u̱³¹	egg	egg				573.	0			301
+16061	1218	Nusu (Central/Zhizhiluo)	ʑui³⁵	ʑui³⁵	ghost	ghost			4.2.12.2	938.	0			
+16062	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹ l̥a³⁵	iɔ̱³¹ l̥a³⁵	spirit / soul	spirit / soul			5.8.1.1	954.	0			m,2264
+16063	1218	Nusu (Central/Zhizhiluo)	sa̱³¹	sa̱³¹	energy	energy			1.1.4	961.	0			
+16064	1218	Nusu (Central/Zhizhiluo)	ba̱³¹ tsʰõ³⁵	ba̱³¹ tsʰõ³⁵	shadow	shadow			3.2.10	1008.	0			
+16065	1218	Nusu (Central/Zhizhiluo)	m̥a̱³¹	m̥a̱³¹	dream	dream			1.1.4.2	1009.	0		D1	126
+16066	1218	Nusu (Central/Zhizhiluo)	kʴa⁵⁵	kʴa⁵⁵	between	between			9.2.3	1021.	0			691
+16067	1218	Nusu (Central/Zhizhiluo)	zɚ³⁵	zɚ³⁵	side	side			1.4.5	1022.	0			
+16068	1218	Nusu (Central/Zhizhiluo)	ue³¹	ue³¹	left	left			1.5.3.2	1023.	0			2154
+16069	1218	Nusu (Central/Zhizhiluo)	ia³¹	ia³¹	right	right			1.5.3.2	1024.	0			2786
+16070	1218	Nusu (Central/Zhizhiluo)	xʴui³⁵	xʴui³⁵	front	front			1.4.4	1025.	0			1213
+16071	1218	Nusu (Central/Zhizhiluo)	la³⁵ tʰɔ̃³¹	la³⁵ tʰɔ̃³¹	back	back			1.4.8	1026.	0			m,225
+16072	1218	Nusu (Central/Zhizhiluo)	bʴɚ̃³¹	bʴɚ̃³¹	full (man)	full (man)			1.1.3.2	1383.	0			111
+16073	1218	Nusu (Central/Zhizhiluo)	tɕʰɚ³⁵	tɕʰɚ³⁵	bald	bald			1.2.3.4	1392.	0			2022
+16074	1218	Nusu (Central/Zhizhiluo)	tɕu̱³¹	tɕu̱³¹	wrinkled	wrinkled			9.6.2	1394.	0			
+16075	1218	Nusu (Central/Zhizhiluo)	tsʰu³⁵	tsʰu³⁵	fat (person)	fat (person)			1.6.4	1428.	0			42
+16076	1218	Nusu (Central/Zhizhiluo)	tsʰu³⁵	tsʰu³⁵	fat (pig)	fat (pig)			1.6.4	1429.	0			42
+16077	1218	Nusu (Central/Zhizhiluo)	kʴɤ̱³¹	kʴɤ̱³¹	thin (person)	thin (person)			9.7.2	1431	0			
+16078	1218	Nusu (Central/Zhizhiluo)	luɚ³¹	luɚ³¹	alive	alive			1.1.2.1	1505.	0		D1	87
+16079	1218	Nusu (Central/Zhizhiluo)	ɕi³⁵	ɕi³⁵	dead	dead			1.1.6	1506.	0			27
+16080	1218	Nusu (Central/Zhizhiluo)	gʴa⁵⁵	gʴa⁵⁵	full (from eating)	full (from eating)			1.1.3.2	1598.	0			114
+16081	1218	Nusu (Central/Zhizhiluo)	pi⁵⁵	pi⁵⁵	close (mouth)	close (mouth)	v	v	6.2.2.6.2	1609.	0			5709
+16082	1218	Nusu (Central/Zhizhiluo)	na³⁵	na³⁵	sick	sick			1.1.5.1	1619.	0			160
+16083	1218	Nusu (Central/Zhizhiluo)	dza⁵⁵	dza⁵⁵	eat	eat			1.5.3.2	1662.	0			36
+16084	1218	Nusu (Central/Zhizhiluo)	tɕʰe⁵⁵	tɕʰe⁵⁵	transmit, infect	transmit, infect	v.i.	v.i.	6.2.2.2	1686.	0			
+16085	1218	Nusu (Central/Zhizhiluo)	mʴə̱³¹	mʴə̱³¹	blow (fire)	blow (fire)			1.3.1.4	1688.	0			503
+16086	1218	Nusu (Central/Zhizhiluo)	l̥ɔ̱³¹	l̥ɔ̱³¹	blow (flute)	blow (flute)			1.3.1.4	1689.	0			
+16087	1218	Nusu (Central/Zhizhiluo)	ɕe⁵³	ɕe⁵³	gasp, pant	gasp, pant	v	v	1.1.2.2	1692.	0			32
+16088	1218	Nusu (Central/Zhizhiluo)	tʰiɯ³⁵	tʰiɯ³⁵	sneeze	sneeze			1.8.2.1	1720.	0			2131
+16089	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹ iɯ³⁵	iɔ̱³¹ iɯ³⁵	nap (take)	nap (take)	v	v	6.21	1721.	0			m,303
+16090	1218	Nusu (Central/Zhizhiluo)	xɑ³¹ tɕɯ̱³¹	xɑ³¹ tɕɯ̱³¹	yawn	yawn			1.3.1.3	1723.	0			1716,m
+16091	1218	Nusu (Central/Zhizhiluo)	iɯ̱³¹	iɯ̱³¹	hiccup / belch	hiccup  /  belch			1.8.3.5	1724.	0	jbl3		3443
+16092	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹ kʰõ³⁵	iɔ̱³¹ kʰõ³⁵	snore	snore			1.8.2.2	1725.	0			127,m
+16093	1218	Nusu (Central/Zhizhiluo)	tsʰuɚ̱³¹	tsʰuɚ̱³¹	bite, sting (mosquito)	bite, sting (mosquito)			1.3.4.4	1766.	0			744
+16094	1218	Nusu (Central/Zhizhiluo)	ɣɤ³¹	ɣɤ³¹	read (book)	read (book)			6.2.2.9.3	1776.	0			
+16095	1218	Nusu (Central/Zhizhiluo)	miɚ̃⁵⁵ bio³¹	miɚ̃⁵⁵ bio³¹	die (breath one's last)	die (breath one's last)			9.9	1781.	0			62,m
+16096	1218	Nusu (Central/Zhizhiluo)	mɔ̱³¹	mɔ̱³¹	hungry	hungry			1.1.3	1792.	0			99
+16097	1218	Nusu (Central/Zhizhiluo)	ve³¹	ve³¹	tremble	tremble			6.7.3	1798.	0			
+16098	1218	Nusu (Central/Zhizhiluo)	tsʰɤ³⁵	tsʰɤ³⁵	fever (have)	fever (have)	v	v	1.1.5.1	1800.	0			
+16099	1218	Nusu (Central/Zhizhiluo)	vi⁵⁵ vi⁵³	vi⁵⁵ vi⁵³	fart	fart			1.8.5.2	1820.	0			3553,3553
+16100	1218	Nusu (Central/Zhizhiluo)	bia³⁵	bia³⁵	fly	fly			2.2.6	1826.	0			2189
+16101	1218	Nusu (Central/Zhizhiluo)	xʴɔ̱³¹	xʴɔ̱³¹	insane	insane			8.3.1.11.3	1832.	0			
+16102	1218	Nusu (Central/Zhizhiluo)	ɣɔ̱³¹	ɣɔ̱³¹	incubate	incubate			1.9.1.2	1834.	0			1233
+16103	1218	Nusu (Central/Zhizhiluo)	pʰɯi³⁵	pʰɯi³⁵	swallow dry	swallow dry			1.3.5.6	1843.	0			
+16104	1218	Nusu (Central/Zhizhiluo)	pʰiɚ⁵⁵ n̥a³⁵ na³⁵	pʰiɚ⁵⁵ n̥a³⁵ na³⁵	cold (have)	cold (have)	v	v	7.1.2.3	1844.	0			
+16105	1218	Nusu (Central/Zhizhiluo)	kʰɤ³¹	kʰɤ³¹	call (to a meeting)	call (to a meeting)			8.5.13	1892.	0			
+16106	1218	Nusu (Central/Zhizhiluo)	dʑa⁵³	dʑa⁵³	call out (hanjiao)	call out (hanjiao)			8.5.13	1893.	0			
+16107	1218	Nusu (Central/Zhizhiluo)	ɕu̱³¹	ɕu̱³¹	drink	drink				1895.	0			3462
+16108	1218	Nusu (Central/Zhizhiluo)	na³⁵ gɤ³⁵	na³⁵ gɤ³⁵	hum	hum			8.5.5	1901.	0			
+16109	1218	Nusu (Central/Zhizhiluo)	ɣuɚ³¹	ɣuɚ³¹	dim, blurry (eyesight)	dim, blurry (eyesight)			1.2.6.10	1906.	0			
+16110	1218	Nusu (Central/Zhizhiluo)	za⁵⁵ le³⁵	za⁵⁵ le³⁵	pregnant	pregnant			1.9.6.1	1912.	0			1012,m
+16111	1218	Nusu (Central/Zhizhiluo)	dʑa⁵⁵	dʑa⁵⁵	call (to animal) (huan)	call (to animal) (huan)			8.5.13	1917.	0			
+16112	1218	Nusu (Central/Zhizhiluo)	luɚ³¹	luɚ³¹	alive	alive			1.1.2.1	1934.	0	jbl5	HIDE	DUPE IN SOURCE
+16113	1218	Nusu (Central/Zhizhiluo)	tɕua³⁵	tɕua³⁵	tell (story)	tell (story)			1.8.7	1965.	0			
+16114	1218	Nusu (Central/Zhizhiluo)	ua⁵⁵	ua⁵⁵	chew	chew			1.3.4	1971.	0			688
+16115	1218	Nusu (Central/Zhizhiluo)	tuɚ̱³⁵	tuɚ̱³⁵	crow (rooster)	crow (rooster)			2.2.4.1	1972.	0			
+16116	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	cackle (hen)	cackle (hen)			8.5.5	1973.	0			
+16117	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	call (cat)	call (cat)			8.5.13	1974.	0			o
+16118	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	bray (donkey)	bray (donkey)			8.5.4.1	1975.	0			w
+16119	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	neigh (horse)	neigh (horse)			8.5.5	1976.	0			
+16120	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	call (cow)	call (cow)			8.5.13	1977.	0			
+16121	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	bark (dog)	bark (dog)			2.1.11.1	1978.	0			
+16122	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	grunt (pig)	grunt (pig)			2.1.11.1	1979.	0			o
+16123	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	call (sheep)	call (sheep)			8.5.13	1980.	0			o
+16124	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	roar (tiger)	roar (tiger)			8.5.5	1981.	0			o
+16125	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	roar (lion)	roar (lion)			8.5.5	1982.	0			o
+16126	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	howl (wolf)	howl (wolf)			8.5.5	1983.	0			
+16127	1218	Nusu (Central/Zhizhiluo)	kʰɤ³¹	kʰɤ³¹	call (name)	call (name)			8.5.13	1984.	0			
+16128	1218	Nusu (Central/Zhizhiluo)	pʰõ³¹	pʰõ³¹	open	open			6.2.2.6.1	2020.	0			5704
+16129	1218	Nusu (Central/Zhizhiluo)	ɣʴu³¹	ɣʴu³¹	look at	look at			1.2.6.11	2028.	0			1227
+16130	1218	Nusu (Central/Zhizhiluo)	ɣʴu³¹ vʴoŋ³⁵	ɣʴu³¹ vʴoŋ³⁵	see	see			1.2.6.10	2030.	0			1227,m
+16131	1218	Nusu (Central/Zhizhiluo)	tsɿ⁵⁵ mʴɚ̱³¹	tsɿ⁵⁵ mʴɚ̱³¹	cough	cough			1.8.3.3	2038.	0			
+16132	1218	Nusu (Central/Zhizhiluo)	ɕɔ̱³¹	ɕɔ̱³¹	thirsty	thirsty			1.1.3.1	2039.	0			101
+16133	1218	Nusu (Central/Zhizhiluo)	gʴuɚ̱³¹	gʴuɚ̱³¹	gnaw	gnaw			1.3.4.4	2042.	0			
+16134	1218	Nusu (Central/Zhizhiluo)	ŋɯ³⁵	ŋɯ³⁵	cry	cry			1.8.8.2	2045.	0			1104
+16135	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹ ʑɯ³⁵	iɔ̱³¹ ʑɯ³⁵	tired, sleepy	tired, sleepy			9.6.2.2	2051.	0			127,m
+16136	1218	Nusu (Central/Zhizhiluo)	kʰʴi⁵⁵ kʰʴi⁵⁵	kʰʴi⁵⁵ kʰʴi⁵⁵	defecate	defecate			1.8.5.4	2053.	0			
+16137	1218	Nusu (Central/Zhizhiluo)	dɯ³⁵	dɯ³⁵	tired	tired			9.6.2.2	2061.	0			
+16138	1218	Nusu (Central/Zhizhiluo)	bõ⁵⁵	bõ⁵⁵	deaf	deaf			1.2.7.5	2081.	0			1409
+16139	1218	Nusu (Central/Zhizhiluo)	fʴɤ̱̃³¹	fʴɤ̱̃³¹	numb	numb			1.5.11	2086.	0			5686
+16140	1218	Nusu (Central/Zhizhiluo)	m̥a̱³¹	m̥a̱³¹	dream	dream			1.1.4.2	2092.	0	jbl5	HIDE	DUPE IN SOURCE
+16141	1218	Nusu (Central/Zhizhiluo)	tɕʰɔ⁵⁵	tɕʰɔ⁵⁵	narrow eyes; squint	narrow eyes; squint			9.7.2	2100.	0			
+16142	1218	Nusu (Central/Zhizhiluo)	mʴɚ̱³⁵	mʴɚ̱³⁵	call (bird) (ming)	call (bird) (ming)			8.5.13	2101.	0			
+16143	1218	Nusu (Central/Zhizhiluo)	pʰʴɚ̱³¹	pʰʴɚ̱³¹	vomit	vomit			1.8.3.2	2117.	0			1145
+16144	1218	Nusu (Central/Zhizhiluo)	tu³⁵	tu³⁵	raise (tail)	raise (tail)			6.7.7	2163.	0			
+16145	1218	Nusu (Central/Zhizhiluo)	ge³⁵	ge³⁵	cured (illness)	cured (illness)	be v.	be v.	1.1.5.1	2174.	0			
+16146	1218	Nusu (Central/Zhizhiluo)	ge³⁵	ge³⁵	heal (wound)	heal (wound)			1.1.5.1	2175.	0			
+16147	1218	Nusu (Central/Zhizhiluo)	ʑue̱³¹	ʑue̱³¹	crippled	crippled			4.2.7	2177.	0			
+16148	1218	Nusu (Central/Zhizhiluo)	dʑa⁵⁵	dʑa⁵⁵	shout, yell	shout, yell			8.5.4.1	2181.	0			
+16149	1218	Nusu (Central/Zhizhiluo)	ʑi⁵⁵ ɕa³⁵	ʑi⁵⁵ ɕa³⁵	urinate	urinate			1.5.3.2	2194.	0			650,m
+16150	1218	Nusu (Central/Zhizhiluo)	ɕa̱³¹	ɕa̱³¹	castrate	castrate			1.9.2.3	2210.	0		D0	m
+16151	1218	Nusu (Central/Zhizhiluo)	bʴɚ̃³⁵	bʴɚ̃³⁵	grow (boil)	grow (boil)			9.7.2	2226.	0			
+16152	1218	Nusu (Central/Zhizhiluo)	tsa⁵⁵	tsa⁵⁵	birth, give	birth, give	v	v	1.1.2	2227.	0			95
+16153	1218	Nusu (Central/Zhizhiluo)	kʴɤ̱³¹	kʴɤ̱³¹	thin	thin	v	v	9.7.2	2249.	0			
+16154	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹	iɔ̱³¹	sleep	sleep			1.1.4.1	2259.	0			127
+16155	1218	Nusu (Central/Zhizhiluo)	iɔ̱³¹ kʰʴɚ̱³¹	iɔ̱³¹ kʰʴɚ̱³¹	asleep	asleep			1.1.4.1	2261.	0			127,2128
+16156	1218	Nusu (Central/Zhizhiluo)	miu̱³¹	miu̱³¹	suck (milk)	suck (milk)			1.3.2.1	2262.	0			
+16157	1218	Nusu (Central/Zhizhiluo)	tu³¹ dʑa̱³¹	tu³¹ dʑa̱³¹	speak	speak			8.5.10.1	2263.	0			m,5382
+16158	1218	Nusu (Central/Zhizhiluo)	ɕi³⁵	ɕi³⁵	die	die			1.1.6	2265.	0			27
+16159	1218	Nusu (Central/Zhizhiluo)	miu⁵⁵	miu⁵⁵	sore (leg)	sore (leg)			1.1.5.1	2270.	0			
+16160	1218	Nusu (Central/Zhizhiluo)	tʰu³⁵	tʰu³⁵	ache (teng)	ache (teng)			1.1.5.1	2291.	0			1846
+16161	1218	Nusu (Central/Zhizhiluo)	lia̱³¹ lia̱ʔ⁵³	lia̱³¹ lia̱ʔ⁵³	lick	lick			1.3.3.1	2301.	0			623,629
+16162	1218	Nusu (Central/Zhizhiluo)	tʰɤ̱³¹	tʰɤ̱³¹	beat (pulse)	beat (pulse)			6.8	2307.	0			
+16163	1218	Nusu (Central/Zhizhiluo)	n̥a³⁵	n̥a³⁵	listen	listen			1.2.7.4	2309.	0			811
+16164	1218	Nusu (Central/Zhizhiluo)	n̥a³⁵ tʰa̱³¹	n̥a³⁵ tʰa̱³¹	hear	hear			1.2.7.4	2310.	0			811,1408
+16165	1218	Nusu (Central/Zhizhiluo)	m̥i³⁵	m̥i³⁵	swallow	swallow	v	v	1.3.5.6	2316.	0			627
+16166	1218	Nusu (Central/Zhizhiluo)	pʰiu⁵⁵	pʰiu⁵⁵	spit	spit			1.8.3	2320.	0			
+16167	1218	Nusu (Central/Zhizhiluo)	guɚ̱³¹ kʰʴa³¹	guɚ̱³¹ kʰʴa³¹	molt (snake)	molt (snake)			1.6.5.6	2327.	0			
+16168	1218	Nusu (Central/Zhizhiluo)	ȵ̥ɚ³⁵	ȵ̥ɚ³⁵	smell (with nose)	smell (with nose)			1.2.8.5	2346.	0			1415
+16169	1218	Nusu (Central/Zhizhiluo)	ɕe⁵⁵	ɕe⁵⁵	inhale	inhale			1.1.2.2	2352.	0			
+16170	1218	Nusu (Central/Zhizhiluo)	dʑɚ̱³¹	dʑɚ̱³¹	blind	blind			1.2.6.14.2	2360.	0			1401
+16171	1218	Nusu (Central/Zhizhiluo)	tsa⁵⁵	tsa⁵⁵	birth, give (to piglet)	birth, give  (to piglet)			1.1.2	2362.	0	jbl3		95
+16172	1218	Nusu (Central/Zhizhiluo)	u̱³¹ u̱³⁵	u̱³¹ u̱³⁵	lay egg	lay egg			6.17	2363.	0			301,301
+16173	1218	Nusu (Central/Zhizhiluo)	ȵ̥ɯ⁵⁵	ȵ̥ɯ⁵⁵	recede (boil)	recede (boil)			6.7.1	2378.	0			
+16174	1218	Nusu (Central/Zhizhiluo)	ɣʴe³⁵	ɣʴe³⁵	laugh	laugh			1.8.8.1	2380.	0			1108
+16175	1218	Nusu (Central/Zhizhiluo)	kʰuɚ̃³⁵	kʰuɚ̃³⁵	diarrhea	diarrhea			1.8.5	2383.	0			
+16176	1218	Nusu (Central/Zhizhiluo)	suɚ̱³¹	suɚ̱³¹	blow nose	blow nose			1.3.1.4	2385.	0			1745
+16177	1218	Nusu (Central/Zhizhiluo)	sa⁵⁵	sa⁵⁵	wake	wake			1.1.4	2386.	0			150
+16178	1218	Nusu (Central/Zhizhiluo)	ɕa³⁵	ɕa³⁵	rest	rest			1.1.4.1	2387.	0			
+16179	1218	Nusu (Central/Zhizhiluo)	ɕa̱³¹	ɕa̱³¹	caponize	caponize			2.4.1	2396.	0			m
+16180	1218	Nusu (Central/Zhizhiluo)	ia⁵⁵	ia⁵⁵	itch	itch			1.6.5.5	2400.	0			1456
+16181	1218	Nusu (Central/Zhizhiluo)	tsʰuɚ̱³¹	tsʰuɚ̱³¹	bitten	bitten	be v.	be v.	1.3.4.4	2404.	0			
+16182	1218	Nusu (Central/Zhizhiluo)	tsʰuɚ̱³¹	tsʰuɚ̱³¹	bite	bite			1.3.4.4	2405.	0			744
+16183	1218	Nusu (Central/Zhizhiluo)	tsʰuɚ̱³¹ tsi³⁵	tsʰuɚ̱³¹ tsi³⁵	bite hold of	bite hold of			1.3.4.4	2406.	0			744
+16184	1218	Nusu (Central/Zhizhiluo)	ɣʴuɚ³⁵	ɣʴuɚ³⁵	dizzy	dizzy			8.3.1.11.3	2430.	0			
+16185	1218	Nusu (Central/Zhizhiluo)	m̥ʴɚ̱³¹	m̥ʴɚ̱³¹	blink	blink			1.2.6.12	2442.	0			m
+16186	1218	Nusu (Central/Zhizhiluo)	ŋa³¹	ŋa³¹	open (mouth)	open (mouth)			6.2.2.6.1	2450.	0			5706
+16187	1218	Nusu (Central/Zhizhiluo)	ʑɚ³¹	ʑɚ³¹	grow (up)	grow (up)			9.7.2	2451.	0			
+16188	1218	Nusu (Central/Zhizhiluo)	pʰo⁵⁵	pʰo⁵⁵	bloat (belly) (zhang)	bloat (belly) (zhang)			1.4.7	2453.	0			
+16189	1218	Nusu (Central/Zhizhiluo)	tsʰa³¹	tsʰa³¹	nervous	nervous			8.3.1.5.5	2455.	0		D0	
+16190	1218	Nusu (Central/Zhizhiluo)	pʴɚ̱³¹	pʴɚ̱³¹	sting	sting	v	v	2.4.2	2460.	0			
+16191	1218	Nusu (Central/Zhizhiluo)	lu³⁵	lu³⁵	swell up	swell up			1.1.5.2	2472.	0			
+16192	1218	Nusu (Central/Zhizhiluo)	iɚ̱³¹	iɚ̱³¹	drunk	drunk			1.3.5.9	2497.	0			

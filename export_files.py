@@ -45,10 +45,11 @@ def main():
 
     # ---- reference files ----
     thes = []
-    for r in c.execute("SELECT semkey,chaptertitle,semcat FROM chapters ORDER BY id"):
+    for r in c.execute("SELECT * FROM chapters ORDER BY id"):
         if not r['semkey']: continue
         e = {'semkey': r['semkey'], 'title': r['chaptertitle']}
-        if clean(r['semcat']): e['semcat'] = r['semcat']
+        for k, col in (('semcat', 'semcat'), ('old_chapter', 'old_chapter'), ('old_subchapter', 'old_subchapter')):
+            if clean(r[col]): e[k] = r[col]
         if r['semkey'] in cnotes: e['notes'] = cnotes[r['semkey']]
         thes.append(e)
     open(f"{ROOT}/reference/thesaurus.yaml", "w").write(dump(thes))
@@ -57,34 +58,81 @@ def main():
     for r in c.execute("SELECT * FROM languagenames ORDER BY lgid"):
         d = {'lgid': r['lgid'], 'name': r['language'], 'abbr': r['lgabbr'],
              'grpid': r['grpid'], 'source': r['srcabbr']}
-        for k, col in (('iso', 'silcode'), ('lgcode', 'lgcode'), ('sort', 'lgsort'), ('notes', 'notes')):
+        for k, col in (('iso', 'silcode'), ('lgcode', 'lgcode'), ('sort', 'lgsort'),
+                       ('srcofdata', 'srcofdata'), ('picode', 'picode'), ('pinotes', 'pinotes'), ('notes', 'notes')):
             if clean(r[col]): d[k] = r[col]
+        if r['pi_page']: d['pi_page'] = r['pi_page']
         langs.append({k: v for k, v in d.items() if v not in ('', None)})
     open(f"{ROOT}/reference/languages.yaml", "w").write(dump(langs))
 
     groups = []
     for r in c.execute("SELECT * FROM languagegroups ORDER BY grpid"):
-        groups.append({k: v for k, v in {
+        e = {k: v for k, v in {
             'grpid': r['grpid'], 'grpno': r['grpno'], 'abbr': r['groupabbr'],
             'name': r['grp'], 'proto_language': r['plg'], 'genetic': bool(r['genetic']),
-        }.items() if v not in ('', None)})
+        }.items() if v not in ('', None)}
+        e['lineage'] = [r['grp0'], r['grp1'], r['grp2'], r['grp3'], r['grp4']]   # parent grpid per level
+        groups.append(e)
     open(f"{ROOT}/reference/languagegroups.yaml", "w").write(dump(groups))
 
+    FULLBIB = ['srcabbr','citation','author','year','title','imprint','location','status','dataformat',
+               'format','callnumber','scope','totalnum','refonly','citechk','pi','infascicle','haveit',
+               'todo','proofer','inputter','dbprep','dbload','dbcheck','notes']
     bib = []
     for r in c.execute("SELECT * FROM srcbib ORDER BY srcabbr"):
-        e = {k: v for k, v in {
-            'srcabbr': r['srcabbr'], 'citation': r['citation'], 'author': r['author'],
-            'year': r['year'], 'title': r['title'], 'imprint': r['imprint'],
-            'location': r['location'], 'notes': r['notes'],
-        }.items() if clean(v)}
+        e = {}
+        for k in FULLBIB:
+            v = r[k]
+            if k in ('scope', 'infascicle'):
+                if v: e[k] = v
+            elif clean(v):
+                e[k] = v
         if r['srcabbr'] in snotes: e['annotations'] = snotes[r['srcabbr']]
         bib.append(e)
     open(f"{ROOT}/reference/bibliography.yaml", "w").write(dump(bib))
 
     lnotes.sort(key=lambda x: x['rn'])
     open(f"{ROOT}/reference/reflex-notes.yaml", "w").write(dump(lnotes))
+
+    # HPTB (Handbook of Proto-Tibeto-Burman, Matisoff 2003) reconstructions + links to etyma
+    hlinks = {}
+    for r in c.execute("SELECT tag,hptbid,ord FROM et_hptb_hash ORDER BY hptbid, ord"):
+        hlinks.setdefault(r['hptbid'], []).append(r['tag'])
+    hptb = []
+    for r in c.execute("SELECT * FROM hptb ORDER BY hptbid"):
+        e = {k: v for k, v in {
+            'hptbid': r['hptbid'], 'plg': r['plg'], 'protoform': r['protoform'], 'gloss': r['protogloss'],
+            'pages': r['pages'], 'mainpage': r['mainpage'], 'allofams': r['bare'],
+            'semclass': r['semclass1'], 'semclass2': r['semclass2'],
+        }.items() if clean(v)}
+        if r['hptbid'] in hlinks: e['etyma'] = hlinks[r['hptbid']]
+        hptb.append(e)
+    open(f"{ROOT}/reference/hptb.yaml", "w").write(dump(hptb))
+
+    oc = [{k: v for k, v in {'chapter': r['chapter'], 'heading': r['heading'], 'semcat': r['semcat'],
+           'subcat': r['subcat'], 'cf': r['cf'], 'n': r['n']}.items() if clean(v)}
+          for r in c.execute("SELECT * FROM otherchapters ORDER BY id")]
+    open(f"{ROOT}/reference/otherchapters.yaml", "w").write(dump(oc))
+
+    mc = [{k: v for k, v in {'chapter': r['chapter'], 'subchapter': r['subchapter'], 'semcat': r['semcat'],
+           'heading': r['heading'], 'frqdb': r['frqdb'], 'frqsubcats': r['frqsubcats']}.items() if clean(v)}
+          for r in c.execute("SELECT * FROM majorcats ORDER BY id")]
+    open(f"{ROOT}/reference/majorcats.yaml", "w").write(dump(mc))
+
+    pirows = [{'lgid': r['lgid'], 'page': r['page']} for r in c.execute("SELECT lgid,page FROM pi ORDER BY lgid, page")]
+    open(f"{ROOT}/reference/pi.yaml", "w").write(dump(pirows))
+
+    n_gw = 0
+    with open(f"{ROOT}/reference/glosswords.tsv", "w", newline='') as f:
+        w = csv.writer(f, delimiter='\t', lineterminator='\n')
+        w.writerow(['word', 'rn', 'semcat', 'subcat', 'semkey'])
+        for r in c.execute("SELECT word,rn,semcat,subcat,semkey FROM glosswords ORDER BY id"):
+            w.writerow([clean(r['word']), clean(r['rn']), clean(r['semcat']), clean(r['subcat']), clean(r['semkey'])])
+            n_gw += 1
+
     print(f"  reference: thesaurus({len(thes)}) languages({len(langs)}) groups({len(groups)}) "
-          f"bib({len(bib)}) reflex-notes({len(lnotes)})")
+          f"bib({len(bib)}) reflex-notes({len(lnotes)}) hptb({len(hptb)}) otherchapters({len(oc)}) "
+          f"majorcats({len(mc)}) pi({len(pirows)}) glosswords({n_gw})")
 
     # ---- etyma ----
     meso = {}
@@ -126,15 +174,15 @@ def main():
         "SELECT rn, group_concat(tag_str, ',') FROM "
         "(SELECT rn, ind, tag_str FROM lx_et_hash ORDER BY rn, ind) GROUP BY rn")}
     COLS = ['rn', 'lgid', 'language', 'reflex', 'originalreflex', 'gloss', 'originalgloss',
-            'gfn', 'semkey', 'srcid', 'src_set_rn', 'status', 'analysis']
+            'gfn', 'originalgfn', 'semkey', 'srcid', 'src_set_rn', 'maintainer', 'status', 'analysis']
     buckets = {}
     for r in c.execute("SELECT * FROM lexicon"):
         ln = lang.get(r['lgid'])
         src = ln['srcabbr'] if ln and clean(ln['srcabbr']) else '_orphan'
         row = [clean(r['rn']), clean(r['lgid']), (ln['language'] if ln else ''),
                clean(r['reflex']), clean(r['originalreflex']), clean(r['gloss']),
-               clean(r['originalgloss']), clean(r['gfn']), clean(r['semkey']),
-               clean(r['srcid']), clean(r['src_set_rn']), clean(r['status']),
+               clean(r['originalgloss']), clean(r['gfn']), clean(r['originalgfn']), clean(r['semkey']),
+               clean(r['srcid']), clean(r['src_set_rn']), clean(r['maintainer']), clean(r['status']),
                clean(analysis.get(r['rn'], ''))]
         buckets.setdefault(src, []).append(row)
     for src, rows in buckets.items():

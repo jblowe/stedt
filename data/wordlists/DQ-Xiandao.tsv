@@ -1,280 +1,280 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-17354	209	Achang (Xiandao)	a³¹ tu³¹	a³¹ tu³¹	body	body		1.1.1	94	0		p,14
-17355	209	Achang (Xiandao)	u³¹ kɔŋ³¹	u³¹ kɔŋ³¹	head	head		1.2.1	96	0		385,387
-17356	209	Achang (Xiandao)	u³¹	u³¹	hair (head)	hair (head)		1.2.3	97	0		385
-17357	209	Achang (Xiandao)	u³¹ n̥ɤk⁵⁵	u³¹ n̥ɤk⁵⁵	braid (hair)	braid (hair)	n	1.2.3.2	98	0		385,2023
-17358	209	Achang (Xiandao)	ŋ̊a³¹ ta³⁵	ŋ̊a³¹ ta³⁵	forehead	forehead		1.2.5.1	99	0		356,358
-17359	209	Achang (Xiandao)	ɲɔʔ⁵⁵ mui³¹	ɲɔʔ⁵⁵ mui³¹	eyebrow	eyebrow		1.2.6.6	100	0		681,363
-17360	209	Achang (Xiandao)	ɲɔʔ⁵⁵	ɲɔʔ⁵⁵	eye	eye		1.2.6	101	0		681
-17361	209	Achang (Xiandao)	ɲɔʔ⁵⁵ pʰʐu⁵⁵	ɲɔʔ⁵⁵ pʰʐu⁵⁵	eye white	eye white		1.2.6	101.1	0		681,1235
-17362	209	Achang (Xiandao)	ɲɔʔ⁵⁵ nɔʔ⁵⁵	ɲɔʔ⁵⁵ nɔʔ⁵⁵	pupil	pupil		1.2.6.2	101.2	0		681,m
-17363	209	Achang (Xiandao)	ɲɔʔ⁵⁵ tsi³¹	ɲɔʔ⁵⁵ tsi³¹	eyeball	eyeball		1.2.6.1	101.3	0		681,3559
-17364	209	Achang (Xiandao)	ɲɔʔ⁵⁵ mui³¹	ɲɔʔ⁵⁵ mui³¹	eyelash	eyelash		1.2.6.5	102	0		681,363
-17365	209	Achang (Xiandao)	n̥ap³¹ pʰɔŋ⁵⁵	n̥ap³¹ pʰɔŋ⁵⁵	nose	nose		1.2.8	103	0		805,806
-17366	209	Achang (Xiandao)	n̥a³¹ tʂʰɔ³¹	n̥a³¹ tʂʰɔ³¹	ear	ear		1.2.7	104	0		811,816
-17367	209	Achang (Xiandao)	ɲɔʔ⁵⁵ n̥o⁵⁵	ɲɔʔ⁵⁵ n̥o⁵⁵	face	face		1.2.5	105	0		681,803
-17368	209	Achang (Xiandao)	pɤ³¹ ʐam³⁵	pɤ³¹ ʐam³⁵	cheek	cheek		1.2.5.2	106	0		268,262
-17369	209	Achang (Xiandao)	pʰă³¹ kʐau³⁵ tau³¹	pʰă³¹ kʐau³⁵ tau³¹	cheekbone	cheekbone		1.2.5.2	106.1	0		268,m,m
-17370	209	Achang (Xiandao)	pʰă³¹ kap³⁵	pʰă³¹ kap³⁵	cheekbone	cheekbone		1.2.5.2	106.2	0		268,278
-17371	209	Achang (Xiandao)	n̥ut⁵⁵	n̥ut⁵⁵	mouth	mouth		1.3.1	107	0		471
-17372	209	Achang (Xiandao)	n̥ut⁵⁵ ʐʅ⁵⁵	n̥ut⁵⁵ ʐʅ⁵⁵	lip	lip		1.3.2	108	0		471,596
-17373	209	Achang (Xiandao)	n̥ut⁵⁵ mui³¹	n̥ut⁵⁵ mui³¹	beard	beard		1.2.5.5	109	0		471,363
-17374	209	Achang (Xiandao)	n̥ɔt⁵⁵ mui³¹	n̥ɔt⁵⁵ mui³¹	beard	beard		1.2.5.5	109.1	0		471,363
-17375	209	Achang (Xiandao)	lɔʔ⁵⁵ o³¹	lɔʔ⁵⁵ o³¹	hand web	hand web		1.5.1.1	132.1	0		695,m
-17376	209	Achang (Xiandao)	pʰa³¹ kɤŋ³⁵	pʰa³¹ kɤŋ³⁵	lower jaw, chin	lower jaw, chin			111	0		m,m
-17377	209	Achang (Xiandao)	lɤŋ³¹ tsɤŋ³¹	lɤŋ³¹ tsɤŋ³¹	neck	neck		1.4.2	112	0		479,255
-17379	209	Achang (Xiandao)	lɔʔ³¹ san⁵⁵	lɔʔ³¹ san⁵⁵	shoulder	shoulder		1.4.3	114	0		695,m
-17380	209	Achang (Xiandao)	a³¹ tu⁵¹ m̥ɔŋ³⁵	a³¹ tu⁵¹ m̥ɔŋ³⁵	back (body)	back (body)		1.4.8	115	0		p,14,m
-17381	209	Achang (Xiandao)	lɔʔ³¹ san⁵⁵ kʰʐoʔ⁵⁵	lɔʔ³¹ san⁵⁵ kʰʐoʔ⁵⁵	armpit	armpit		1.5.1.2.3	116	0		
-17382	209	Achang (Xiandao)	am³¹ pɔŋ⁵⁵	am³¹ pɔŋ⁵⁵	chest	chest		1.4.4.3	117	0		291,m
-17383	209	Achang (Xiandao)	ɲɔn³⁵	ɲɔn³⁵	breast	breast		1.4.4.3	118	0		254
-17384	209	Achang (Xiandao)	om³¹	om³¹	belly	belly		1.4.7	119	0		
-17385	209	Achang (Xiandao)	tʂʰɔʔ⁵⁵ tʰoŋ³¹	tʂʰɔʔ⁵⁵ tʰoŋ³¹	navel	navel		1.9.4	120	0		525,3447
-17386	209	Achang (Xiandao)	tsʰin⁵⁵ tsʰin⁵⁵	tsʰin⁵⁵ tsʰin⁵⁵	waist	waist		1.4.6	121	0		223,223
-17387	209	Achang (Xiandao)	kʰu⁵⁵ tuŋ³¹	kʰu⁵⁵ tuŋ³¹	buttocks	buttocks		1.4.10	122	0		572,822
-17388	209	Achang (Xiandao)	tam⁵⁵ pau³¹	tam⁵⁵ pau³¹	thigh	thigh		1.5.7.1	123	0		
-17389	209	Achang (Xiandao)	pʰɔʔ³¹ tʂʰɯk⁵⁵	pʰɔʔ³¹ tʂʰɯk⁵⁵	knee	knee		1.5.8.4	124	0		436,418
-17390	209	Achang (Xiandao)	cʰi⁵⁵ ʐum³¹	cʰi⁵⁵ ʐum³¹	calf (leg)	calf (leg)		1.5.7	125	0		335,m
-17391	209	Achang (Xiandao)	cʰi⁵⁵	cʰi⁵⁵	foot	foot		1.5.2	126	0		335
-17392	209	Achang (Xiandao)	cʰi⁵⁵ tʂʰam³¹	cʰi⁵⁵ tʂʰam³¹	ankle	ankle		1.5.8.2	127	0		
-17393	209	Achang (Xiandao)	lɔʔ⁵⁵ ʐum³¹	lɔʔ⁵⁵ ʐum³¹	arm	arm		1.5.1.2	128	0		695,m
-17394	209	Achang (Xiandao)	lɔʔ⁵⁵ tʰom³¹	lɔʔ⁵⁵ tʰom³¹	elbow	elbow		1.5.8.3	129	0		695,439
-17395	209	Achang (Xiandao)	lɔʔ⁵⁵ tʰɔŋ⁵⁵	lɔʔ⁵⁵ tʰɔŋ⁵⁵	elbow	elbow		1.5.8.3	129.1	0		695,439
-17396	209	Achang (Xiandao)	lɔʔ⁵⁵	lɔʔ⁵⁵	hand	hand		1.5.1.1	130	0		695
-17397	209	Achang (Xiandao)	lɔʔ⁵⁵ ȵɔʔ⁵⁵	lɔʔ⁵⁵ ȵɔʔ⁵⁵	wrist	wrist		1.5.8.1	131	0		695,681
-17398	209	Achang (Xiandao)	lɔʔ⁵⁵ ɲ̊au³¹	lɔʔ⁵⁵ ɲ̊au³¹	finger	finger		1.5.6	132	0		695,320
-17399	209	Achang (Xiandao)	lɔʔ⁵⁵ mɔ³¹	lɔʔ⁵⁵ mɔ³¹	thumb	thumb		1.5.6.1	133	0		695,m
-17400	209	Achang (Xiandao)	lɔʔ⁵⁵ tsɔ³¹	lɔʔ⁵⁵ tsɔ³¹	little finger	little finger		9.7.2	137	0		695,m
-17401	209	Achang (Xiandao)	lɔʔ⁵⁵ ʂɯŋ³¹	lɔʔ⁵⁵ ʂɯŋ³¹	fingernail	fingernail		1.5.10.1	138	0		695,m
-17402	209	Achang (Xiandao)	lɔʔ⁵⁵ tʰum³¹	lɔʔ⁵⁵ tʰum³¹	fist	fist		1.5.1.1.1	139	0		695,1282
-17403	209	Achang (Xiandao)	kʰɯ̆³¹ tuŋ³¹	kʰɯ̆³¹ tuŋ³¹	anus	anus		1.4.10.2	140	0		572,822
-17404	209	Achang (Xiandao)	tsʰi⁵⁵ pʰu³¹	tsʰi⁵⁵ pʰu³¹	bladder	bladder		1.7.8	140.1	0	D1	650,779
-17405	209	Achang (Xiandao)	n̥i³¹	n̥i³¹	penis	penis			141	0		545
-17406	209	Achang (Xiandao)	li⁵⁵ tsi³¹	li⁵⁵ tsi³¹	testicles	testicles			142	0		1284,3559
-17407	209	Achang (Xiandao)	cuʔ⁵⁵	cuʔ⁵⁵	vagina	vagina			143	0		1356
-17408	209	Achang (Xiandao)	tʂʰɔʔ⁵⁵	tʂʰɔʔ⁵⁵	placenta	placenta			144	0		679
-17409	209	Achang (Xiandao)	tʂʰɔʔ⁵⁵ tʰoŋ³¹	tʂʰɔʔ⁵⁵ tʰoŋ³¹	umbilical cord	umbilical cord			145	0		525,3447
-17410	209	Achang (Xiandao)	a³¹ ʐʅ⁵⁵	a³¹ ʐʅ⁵⁵	skin	skin		1.6.5	147	0		p,596
-17411	209	Achang (Xiandao)	tʂap³¹ mi³¹	tʂap³¹ mi³¹	hemorrhoids	hemorrhoids		1.4.10.2	149	0		
-17412	209	Achang (Xiandao)	pɯŋ⁵⁵	pɯŋ⁵⁵	sore, ulcer	sore, ulcer		1.1.5.1	150	0		
-17413	209	Achang (Xiandao)	a³¹ ʐɔ⁵⁵	a³¹ ʐɔ⁵⁵	scar	scar		1.6.5.3	151	0		
-17414	209	Achang (Xiandao)	pʰun⁵⁵ tʰoʔ⁵⁵	pʰun⁵⁵ tʰoʔ⁵⁵	measles	measles		5.3	152	0		
-17415	209	Achang (Xiandao)	ʂɔ³¹	ʂɔ³¹	flesh	flesh		1.1.1.1	154	0		34
-17416	209	Achang (Xiandao)	sui³¹	sui³¹	blood	blood		1.6.2	155	0		230
-17417	209	Achang (Xiandao)	kɯ³¹	kɯ³¹	muscle	muscle		1.6.6.2	156	0		535
-17418	209	Achang (Xiandao)	llɔʔ⁵⁵ kɯ³¹	llɔʔ⁵⁵ kɯ³¹	pulse	pulse		1.7.1.1	157	0		e
-17419	209	Achang (Xiandao)	u³¹ nuʔ⁵⁵	u³¹ nuʔ⁵⁵	brain	brain		1.2.4	158	0		385,243
-17420	209	Achang (Xiandao)	a³¹ ʐau³¹	a³¹ ʐau³¹	bone	bone		1.6.3	159	0		m,232
-17421	209	Achang (Xiandao)	tu³¹ tum³¹ ʐau³¹	tu³¹ tum³¹ ʐau³¹	backbone / spine	backbone / spine		1.4.8.2	160	0		m,1362,232
-17422	209	Achang (Xiandao)	ʐau³¹ kʰʐaŋ³¹	ʐau³¹ kʰʐaŋ³¹	rib	rib		1.4.4.3	161	0		232,m
-17423	209	Achang (Xiandao)	a³¹ ɲɔʔ⁵⁵	a³¹ ɲɔʔ⁵⁵	joint	joint		1.5.8	162	0		p,681
-17424	209	Achang (Xiandao)	cui⁵⁵	cui⁵⁵	tooth	tooth		1.3.4	163	0		635
-17425	209	Achang (Xiandao)	ɣa³⁵	ɣa³⁵	white teeth	white teeth		9.4	163.1	0		m
-17426	209	Achang (Xiandao)	cui⁵⁵ xɯm⁵⁵	cui⁵⁵ xɯm⁵⁵	gums	gums		1.3.4.3	164	0		635,m
-17427	209	Achang (Xiandao)	çɔ⁵⁵	çɔ⁵⁵	tongue	tongue		1.3.3	165	0		623
-17428	209	Achang (Xiandao)	kʰʐoŋ³¹ tʐɔʔ³⁵	kʰʐoŋ³¹ tʐɔʔ³⁵	uvula	uvula		1.3.5.1	166	0		
-17429	209	Achang (Xiandao)	kʰʐoŋ³¹ tʐoŋ³¹	kʰʐoŋ³¹ tʐoŋ³¹	throat	throat		1.3.5	168	0		489,3363
-17430	209	Achang (Xiandao)	a³¹ cʰut⁵⁵	a³¹ cʰut⁵⁵	lungs	lungs		1.7.2	171	0		p,458
-17431	209	Achang (Xiandao)	n̥ɔʔ³¹ lum³¹	n̥ɔʔ³¹ lum³¹	heart	heart		1.7.1	172	0		1385,1381
-17432	209	Achang (Xiandao)	a³¹ ʂɯŋ³¹	a³¹ ʂɯŋ³¹	liver	liver		1.7.3	173	0		p,1390
-17433	209	Achang (Xiandao)	kʰɯ³¹ pu³⁵	kʰɯ³¹ pu³⁵	stomach	stomach		1.7.6	173.1	0		2123,2103
-17434	209	Achang (Xiandao)	a³¹ tat³⁵	a³¹ tat³⁵	kidneys	kidneys		1.7.5	174	0		
-17435	209	Achang (Xiandao)	ʂɯŋ³¹ cʰi³⁵	ʂɯŋ³¹ cʰi³⁵	gall bladder	gall bladder		1.7.3	177	0		1390,m
-17436	209	Achang (Xiandao)	a³¹ u⁵⁵	a³¹ u⁵⁵	intestines	intestines		1.7.7	178	0		p,2102
-17437	209	Achang (Xiandao)	tsʰi⁵⁵ pʰu³¹	tsʰi⁵⁵ pʰu³¹	bladder	bladder		1.7.8	179	0	HIDE	DUPE IN SOURCE
-17438	209	Achang (Xiandao)	kʰɯ³¹	kʰɯ³¹	feces	feces		1.8.5	180	0		572
-17439	209	Achang (Xiandao)	ʂʅ³¹ ʂɯ³⁵	ʂʅ³¹ ʂɯ³⁵	urine	urine		1.8.4	181	0		m,m
-17440	209	Achang (Xiandao)	cʰu³¹ xan³¹	cʰu³¹ xan³¹	phlegm	phlegm		1.8.3	184	0		m,539
-17441	209	Achang (Xiandao)	a³¹ cui³¹	a³¹ cui³¹	saliva	saliva		1.8.3	185	0		
-17442	209	Achang (Xiandao)	n̥ap⁵⁵	n̥ap⁵⁵	mucus	mucus		1.8.2	186	0		805
-17443	209	Achang (Xiandao)	ɲɔʔ⁵⁵ pi⁵⁵	ɲɔʔ⁵⁵ pi⁵⁵	tears	tears		1.2.6.7	187	0		681,187
-17444	209	Achang (Xiandao)	pɯŋ⁵⁵	pɯŋ⁵⁵	pus	pus		1.8.6.1	188	0		1292
-17445	209	Achang (Xiandao)	sai³¹	sai³¹	body dirt	body dirt		1.8.1.2	189	0		m
-17446	209	Achang (Xiandao)	a³¹ sɔʔ⁵⁵	a³¹ sɔʔ⁵⁵	breath	breath		1.1.2.2	191	0		p,32
-17447	209	Achang (Xiandao)	tʂu⁵⁵ mɔŋ⁵⁵	tʂu⁵⁵ mɔŋ⁵⁵	corpse	corpse		1.1.6.1	192	0		3327,17
-17448	209	Achang (Xiandao)	a³¹ co⁵⁵	a³¹ co⁵⁵	life	life		1.1.2.1	193	0		p,80
-17449	209	Achang (Xiandao)	a³¹ tʂo³¹	a³¹ tʂo³¹	life-span	life-span		1.1.2.1	194	0		p,80
-17450	209	Achang (Xiandao)	ɲɔʔ⁵⁵ tsɛt⁵⁵	ɲɔʔ⁵⁵ tsɛt⁵⁵	blind person	blind person		1.2.6.14.2	242	0		681,1401
-17451	209	Achang (Xiandao)	ɲɔʔ⁵⁵ pʰɛt⁵⁵	ɲɔʔ⁵⁵ pʰɛt⁵⁵	cross-eyed person	cross-eyed person		6.7.10	242.1	0		
-17452	209	Achang (Xiandao)	cʰi⁵⁵ kɤk⁵⁵	cʰi⁵⁵ kɤk⁵⁵	lame person	lame person		1.5.12	243	0		
-17453	209	Achang (Xiandao)	tʂu⁵⁵ tɔk⁵⁵	tʂu⁵⁵ tɔk⁵⁵	dwarf	dwarf		4.2.7	244	0		
-17454	209	Achang (Xiandao)	tʂu⁵⁵ ɲ̊im³¹	tʂu⁵⁵ ɲ̊im³¹	dwarf	dwarf		4.2.7	244.1	0		
-17455	209	Achang (Xiandao)	n̥a³¹ pɔŋ³¹	n̥a³¹ pɔŋ³¹	deaf person	deaf person		1.2.7.5	245	0		
-17456	209	Achang (Xiandao)	na³¹  piau³¹	na³¹  piau³¹	deaf person	deaf person		1.2.7.5	245.1	0		
-17457	209	Achang (Xiandao)	u³¹ liŋ³⁵ kɔk³⁵	u³¹ liŋ³⁵ kɔk³⁵	bald person	bald person		1.2.3.4	246	0		385,1430,1224
-17458	209	Achang (Xiandao)	ɲɔʔ⁵⁵ pʐaŋ⁵⁵	ɲɔʔ⁵⁵ pʐaŋ⁵⁵	pock-marked person	pock-marked person		4.5	247	0		
-17459	209	Achang (Xiandao)	lɔ³¹ kuŋ⁵⁵	lɔ³¹ kuŋ⁵⁵	hunchback	hunchback		1.4.8.3	248	0		m,m
-17460	209	Achang (Xiandao)	a³¹ tu³¹ ŋum³⁵	a³¹ tu³¹ ŋum³⁵	hunchback	hunchback		1.4.8.3	248.1	0		m,m,m
-17461	209	Achang (Xiandao)	tʂu⁵⁵ pɔŋ³¹	tʂu⁵⁵ pɔŋ³¹	idiot	idiot		4.2.12.3	249	0		
-17462	209	Achang (Xiandao)	tʂu⁵⁵ vɛn⁵⁵	tʂu⁵⁵ vɛn⁵⁵	lunatic	lunatic		8.3	250	0		
-17463	209	Achang (Xiandao)	n̥ut⁵⁵ min³¹	n̥ut⁵⁵ min³¹	wry-mouth	wry-mouth		1.3.1	251.1	0		
-17464	209	Achang (Xiandao)	nut⁵⁵ ɚ⁵⁵	nut⁵⁵ ɚ⁵⁵	harelip	harelip		1.3.2	251.2	0		
-17465	209	Achang (Xiandao)	ja³¹ pa³¹	ja³¹ pa³¹	mute	mute		1.5.3.2	252	0		b
-17466	209	Achang (Xiandao)	ɲɔʔ⁵⁵ ta³¹ xuan³¹	ɲɔʔ⁵⁵ ta³¹ xuan³¹	one-eyed person	one-eyed person		9.9	253	0		
-17467	209	Achang (Xiandao)	no³¹ nau³¹	no³¹ nau³¹	milk (cow's)	milk (cow's)			311	0		2538,253
-17468	209	Achang (Xiandao)	no³¹ kʰɯ³¹	no³¹ kʰɯ³¹	excrement (cow)	excrement (cow)		1.8.5	312	0		m,572
-17469	209	Achang (Xiandao)	a³¹ kʰʐau⁵⁵	a³¹ kʰʐau⁵⁵	horn	horn		1.2.2	313	0		p,819
-17470	209	Achang (Xiandao)	cʰi⁵⁵	cʰi⁵⁵	hoof	hoof		1.5.4	314	0		
-17471	209	Achang (Xiandao)	a³¹ ʐʅ⁵⁵	a³¹ ʐʅ⁵⁵	skin (animal)	skin (animal)		1.6.5	315	0		p,596
-17472	209	Achang (Xiandao)	a³¹ am⁵⁵	a³¹ am⁵⁵	dewlap	dewlap		1.4.2	315.1	0		
-17473	209	Achang (Xiandao)	mui³¹	mui³¹	hair (animal)	hair (animal)		1.2.3	316	0		363
-17474	209	Achang (Xiandao)	n̥i³¹ tʂʰɔ³¹	n̥i³¹ tʂʰɔ³¹	tail	tail		1.4.10.1	317	0		1288,3331
-17475	209	Achang (Xiandao)	m̥ʐaŋ³¹ tʂɯŋ⁵⁵	m̥ʐaŋ³¹ tʂɯŋ⁵⁵	mane (horse)	mane (horse)		1.6.1	322	0		1431,370
-17476	209	Achang (Xiandao)	m̥ʐaŋ³¹ kʰɯ³¹	m̥ʐaŋ³¹ kʰɯ³¹	excrement (horse)	excrement (horse)		1.8.5	323	0		1431,572
-17477	209	Achang (Xiandao)	paʔ³¹ mui³¹	paʔ³¹ mui³¹	wool	wool		1.6.1.3	328	0		m,363
-17478	209	Achang (Xiandao)	paʔ³¹ kʰɯ³¹	paʔ³¹ kʰɯ³¹	excrement (sheep)	excrement (sheep)		1.8.5	329	0		m,572
-17479	209	Achang (Xiandao)	oʔ⁵⁵ kʰɯ³¹	oʔ⁵⁵ kʰɯ³¹	excrement (pig)	excrement (pig)		1.8.5	337	0		1006,572
-17480	209	Achang (Xiandao)	n̥a³¹ pap³⁵	n̥a³¹ pap³⁵	cockscomb	cockscomb		1.2.2.1	346	0		356,m
-17481	209	Achang (Xiandao)	a³¹ tuŋ⁵⁵	a³¹ tuŋ⁵⁵	wing	wing		1.5.1.3	347	0		p,711
-17482	209	Achang (Xiandao)	mui³¹	mui³¹	feathers	feathers		1.6.1.1	348	0		m
-17483	209	Achang (Xiandao)	cʰi⁵⁵	cʰi⁵⁵	paw	paw		1.5.4	356	0		
-17484	209	Achang (Xiandao)	cʰaŋ⁵⁵ cui⁵⁵	cʰaŋ⁵⁵ cui⁵⁵	tusk (of elephant)	tusk (of elephant)		1.3.4.1	359	0		2731,635
-17485	209	Achang (Xiandao)	ŋ̊ɔʔ⁵⁵ sut⁵⁵	ŋ̊ɔʔ⁵⁵ sut⁵⁵	bird's nest	bird's nest		2.2.4	380	0		3442,1613
-17486	209	Achang (Xiandao)	ŋ̊ɔ̆³¹ ʂɔ³¹ a³¹ kɤp³⁵	ŋ̊ɔ̆³¹ ʂɔ³¹ a³¹ kɤp³⁵	scales	scales		1.6.5.2	409	0		1455,m,p,783
-17487	209	Achang (Xiandao)	ʂan³¹ u³¹	ʂan³¹ u³¹	nit	nit		2.2.6	418	0		2652,301
-17488	209	Achang (Xiandao)	koŋ³¹ kau³¹ a³¹ in⁵⁵	koŋ³¹ kau³¹ a³¹ in⁵⁵	spider's web	spider's web		2.2.6	423	0		5400,m,p,m
-17489	209	Achang (Xiandao)	ʂɔ³¹	ʂɔ³¹	meat	meat		1.1.1.1	554	0		34
-17490	209	Achang (Xiandao)	a³¹ cʰu⁵⁵	a³¹ cʰu⁵⁵	fatty meat	fatty meat		1.6.4	558	0		p,42
-17491	209	Achang (Xiandao)	a³¹ ʂɔ³¹	a³¹ ʂɔ³¹	lean meat	lean meat		1.1.1	559	0		p,34
-17492	209	Achang (Xiandao)	u³¹	u³¹	egg	egg			573	0		301
-17493	209	Achang (Xiandao)	kʐɔʔ⁵⁵ u³¹	kʐɔʔ⁵⁵ u³¹	chicken egg	chicken egg		2.1.10	574	0		1606,301
-17494	209	Achang (Xiandao)	pʐap³⁵ u³¹	pʐap³⁵ u³¹	duck egg	duck egg		2.1.10	575	0		m,301
-17495	209	Achang (Xiandao)	tam³¹	tam³¹	ghost	ghost		4.2.12.2	938	0		
-17496	209	Achang (Xiandao)	a³¹ pʐɔ⁵⁵	a³¹ pʐɔ⁵⁵	spirit / soul	spirit / soul		5.8.1.1	954	0		
-17497	209	Achang (Xiandao)	a³¹ xʐaŋ⁵⁵	a³¹ xʐaŋ⁵⁵	energy	energy		1.1.4	961	0		
-17498	209	Achang (Xiandao)	a³¹ ʐɯt⁵⁵	a³¹ ʐɯt⁵⁵	shadow	shadow		3.2.10	1008	0		
-17499	209	Achang (Xiandao)	in³¹ mɔʔ⁵⁵	in³¹ mɔʔ⁵⁵	dream	dream		1.1.4.2	1009	0		127,126
-17500	209	Achang (Xiandao)	in³¹ mɔʔ⁵⁵ mɔʔ	in³¹ mɔʔ⁵⁵ mɔʔ	have a dream	have a dream		8.2	1009.1	0		127,126,126
-17501	209	Achang (Xiandao)	a³¹ koŋ⁵⁵	a³¹ koŋ⁵⁵	between	between		9.2.3	1020	0		
-17502	209	Achang (Xiandao)	a³¹ jam⁵⁵	a³¹ jam⁵⁵	side	side		1.4.5	1022	0		
-17503	209	Achang (Xiandao)	n̥a³¹ cɛŋ³¹	n̥a³¹ cɛŋ³¹	side	side		1.4.5	1022.1	0		
-17504	209	Achang (Xiandao)	lɔʔ⁵⁵ xa⁵⁵	lɔʔ⁵⁵ xa⁵⁵	left	left		1.5.3.2	1023	0		695,m
-17505	209	Achang (Xiandao)	lɔʔ⁵⁵ jɔ⁵⁵	lɔʔ⁵⁵ jɔ⁵⁵	right	right		1.5.3.2	1024	0		695,2786
-17506	209	Achang (Xiandao)	ɲɔʔ⁵⁵ sai³⁵	ɲɔʔ⁵⁵ sai³⁵	front	front		1.4.4	1025	0		m,1214
-17507	209	Achang (Xiandao)	cʰi³¹ n̥oŋ⁵⁵	cʰi³¹ n̥oŋ⁵⁵	back	back		1.4.8	1026	0		m,203
-17508	209	Achang (Xiandao)	som⁵⁵	som⁵⁵	shrivelled	shrivelled		9.5	1385	0		
-17509	209	Achang (Xiandao)	som⁵⁵ som⁵⁵	som⁵⁵ som⁵⁵	shrivelled	shrivelled		9.5	1385	0		
-17510	209	Achang (Xiandao)	liŋ³⁵	liŋ³⁵	bald	bald		1.2.3.4	1392	0		1430
-17511	209	Achang (Xiandao)	ɲoi³¹	ɲoi³¹	wrinkled	wrinkled		9.6.2	1394	0		
-17512	209	Achang (Xiandao)	pʐau³¹	pʐau³¹	fat (person)	fat (person)		1.6.4	1428	0		1452
-17513	209	Achang (Xiandao)	pʐau³¹	pʐau³¹	fat (pig)	fat (pig)		1.6.4	1429	0		1452
-17514	209	Achang (Xiandao)	kɔk⁵⁵	kɔk⁵⁵	thin (person)	thin (person)		9.7.2	1431	0		
-17515	209	Achang (Xiandao)	a³¹ ʂɯk⁵⁵|	a³¹ ʂɯk⁵⁵|	fresh	fresh		9.6.1.1	1504	0		6178
-17516	209	Achang (Xiandao)	ʂʅ⁵⁵	ʂʅ⁵⁵	dead	dead		1.1.6	1506	0		27
-17517	209	Achang (Xiandao)	pʐuŋ³¹	pʐuŋ³¹	full (from eating)	full (from eating)		1.1.3.2	1598	0		111
-17518	209	Achang (Xiandao)	tʰum³¹	tʰum³¹	close (mouth)	close (mouth)	v.i.	6.2.2.6.2	1609	0		
-17519	209	Achang (Xiandao)	nɔ⁵⁵	nɔ⁵⁵	sick	sick		1.1.5.1	1619	0		160
-17520	209	Achang (Xiandao)	cɔ³¹	cɔ³¹	eat	eat		1.5.3.2	1662	0		36
-17521	209	Achang (Xiandao)	tʂʰap³⁵	tʂʰap³⁵	transmit, infect	transmit, infect		6.2.2.2	1686	0		
-17522	209	Achang (Xiandao)	tʂap³⁵	tʂap³⁵	infected	infected	be v.	1.1.5.1	1687	0		
-17523	209	Achang (Xiandao)	m̥ut⁵⁵	m̥ut⁵⁵	blow (trumpet)	blow (trumpet)		1.3.1.4	1688	0		503
-17524	209	Achang (Xiandao)	m̥ut⁵⁵	m̥ut⁵⁵	blow (dust)	blow (dust)		1.3.1.4	1689	0		503
-17525	209	Achang (Xiandao)	ʂa⁵⁵	ʂa⁵⁵	gasp, pant	gasp, pant	v	1.1.2.2	1692	0		32
-17526	209	Achang (Xiandao)	tsʰi³¹ tʂam⁵⁵ tsʰi³¹	tsʰi³¹ tʂam⁵⁵ tsʰi³¹	sneeze	sneeze		1.8.2.1	1720	0		
-17527	209	Achang (Xiandao)	it⁵⁵ tʰuan⁵¹ tʰuan³¹	it⁵⁵ tʰuan⁵¹ tʰuan³¹	nap (take)	nap (take)	v	6.21	1721	0		
-17528	209	Achang (Xiandao)	it⁵⁵ xam³¹ xam³¹	it⁵⁵ xam³¹ xam³¹	yawn	yawn		1.3.1.3	1723	0		m,1715,1715
-17529	209	Achang (Xiandao)	cɤ⁵⁵ kɤk⁵⁵ ɤk⁵⁵	cɤ⁵⁵ kɤk⁵⁵ ɤk⁵⁵	hiccup / belch	hiccup  /  belch		1.8.3.5	1724	0		m,m,3443
-17530	209	Achang (Xiandao)	it⁵⁵ m̥un⁵¹ m̥un³¹	it⁵⁵ m̥un⁵¹ m̥un³¹	snore	snore		1.8.2.2	1725	0		127,m,m
-17531	209	Achang (Xiandao)	pan³¹	pan³¹	bite, sting (mosquito)	bite, sting (mosquito)		1.3.4.4	1766	0		1774
-17532	209	Achang (Xiandao)	sɔn³⁵	sɔn³⁵	read (book)	read (book)		6.2.2.9.3	1776	0		
-17533	209	Achang (Xiandao)	pɛt⁵⁵	pɛt⁵⁵	die (breath one's last)	die (breath one's last)		9.9	1781	0		m
-17534	209	Achang (Xiandao)	pʰɛt⁵⁵	pʰɛt⁵⁵	snuff out (a life)	snuff out (a life)		1.2.8.5	1781.1	0		
-17535	209	Achang (Xiandao)	mut⁵⁵	mut⁵⁵	hungry	hungry		1.1.3	1792	0		99
-17536	209	Achang (Xiandao)	tʰut⁵⁵ tʰut⁵⁵ nun³⁵	tʰut⁵⁵ tʰut⁵⁵ nun³⁵	tremble	tremble		6.7.3	1798	0		
-17537	209	Achang (Xiandao)	pu⁵⁵ pʐaŋ³⁵	pu⁵⁵ pʐaŋ³⁵	fever (have)	fever (have)	v	1.1.5.1	1800	0		
-17538	209	Achang (Xiandao)	kʰɯ³¹ tsɛt³⁵	kʰɯ³¹ tsɛt³⁵	fart	fart		1.8.5.2	1820	0		572,m
-17539	209	Achang (Xiandao)	tʂam⁵⁵	tʂam⁵⁵	fly	fly		2.2.6	1826	0		
-17540	209	Achang (Xiandao)	vɤn⁵⁵	vɤn⁵⁵	insane	insane		8.3.1.11.3	1832	0		
-17541	209	Achang (Xiandao)	xup⁵⁵	xup⁵⁵	incubate	incubate		1.9.1.2	1834	0		1233
-17542	209	Achang (Xiandao)	a³¹ lin⁵¹ tʂap³⁵	a³¹ lin⁵¹ tʂap³⁵	cold (have)	cold (have)	v	7.1.2.3	1844	0		
-17543	209	Achang (Xiandao)	xɤ⁵⁵	xɤ⁵⁵	call (to a meeting)	call (to a meeting)		8.5.13	1892	0		
-17544	209	Achang (Xiandao)	ʂuʔ⁵⁵	ʂuʔ⁵⁵	drink	drink			1895	0		3462
-17545	209	Achang (Xiandao)	lui³¹	lui³¹	hum	hum		8.5.5	1901	0		
-17546	209	Achang (Xiandao)	lai⁵⁵	lai⁵⁵	dim, blurry (eyesight)	dim, blurry (eyesight)		1.2.6.10	1906	0		
-17547	209	Achang (Xiandao)	tsɔ³¹ pum³¹	tsɔ³¹ pum³¹	pregnant	pregnant		1.9.6.1	1912	0		m,163
-17548	209	Achang (Xiandao)	xɤ⁵⁵	xɤ⁵⁵	call (to animal) (huan)	call (to animal) (huan)		8.5.13	1917	0		
-17549	209	Achang (Xiandao)	cɛ⁵⁵	cɛ⁵⁵	alive	alive		1.1.2.1	1934	0		1010
-17550	209	Achang (Xiandao)	kʐai⁵⁵	kʐai⁵⁵	tell (story)	tell (story)		1.8.7	1965	0		1753
-17551	209	Achang (Xiandao)	mam³¹	mam³¹	chew	chew		1.3.4	1971	0		3451
-17552	209	Achang (Xiandao)	tʰun⁵⁵	tʰun⁵⁵	crow (rooster)	crow (rooster)		2.2.4.1	1972	0		
-17553	209	Achang (Xiandao)	tʐɔt³⁵	tʐɔt³⁵	cackle (hen)	cackle (hen)		8.5.5	1973	0		
-17554	209	Achang (Xiandao)	tɛk⁵⁵	tɛk⁵⁵	cackle (hen)	cackle (hen)		8.5.5	1973.1	0		
-17555	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	call (cat)	call (cat)		8.5.13	1974	0		o
-17556	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	bray (donkey)	bray (donkey)		8.5.4.1	1975	0		w
-17557	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	neigh (horse)	neigh (horse)		8.5.5	1976	0		
-17558	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	call (cow)	call (cow)		8.5.13	1977	0		
-17559	209	Achang (Xiandao)	kʐap⁵⁵	kʐap⁵⁵	bark (dog)	bark (dog)		2.1.11.1	1978	0		
-17560	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	grunt (pig)	grunt (pig)		2.1.11.1	1979	0		o
-17561	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	call (sheep)	call (sheep)		8.5.13	1980	0		
-17562	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	roar (tiger)	roar (tiger)		8.5.5	1981	0		o
-17563	209	Achang (Xiandao)	xɤ⁵⁵	xɤ⁵⁵	call (name)	call (name)		8.5.13	1984	0		
-17564	209	Achang (Xiandao)	pʰoŋ³⁵	pʰoŋ³⁵	open (door)	open (door)		6.2.2.6.1	2020	0		5704
-17565	209	Achang (Xiandao)	ʐu³⁵	ʐu³⁵	look at	look at		1.2.6.11	2028	0		m
-17566	209	Achang (Xiandao)	mʐaŋ⁵⁵	mʐaŋ⁵⁵	see	see		1.2.6.10	2030	0		1227
-17567	209	Achang (Xiandao)	kʰʐoŋ³¹ tʂʰau³¹	kʰʐoŋ³¹ tʂʰau³¹	cough	cough		1.8.3.3	2038	0		
-17568	209	Achang (Xiandao)	sɔʔ⁵⁵ ʐat⁵⁵	sɔʔ⁵⁵ ʐat⁵⁵	tracheitis	tracheitis		1.3.5.2	2038.1	0		
-17569	209	Achang (Xiandao)	kʐat⁵⁵	kʐat⁵⁵	gnaw	gnaw		1.3.4.4	2042	0		
-17570	209	Achang (Xiandao)	ŋau⁵⁵	ŋau⁵⁵	cry	cry		1.8.8.2	2045	0		1104
-17571	209	Achang (Xiandao)	ŋ̊au⁵⁵	ŋ̊au⁵⁵	cause to cry	cause to cry		8.2	2045.1	0		1104
-17572	209	Achang (Xiandao)	kʰɯ³¹ ʂɔ⁵⁵	kʰɯ³¹ ʂɔ⁵⁵	defecate	defecate		1.8.5.4	2053	0		
-17573	209	Achang (Xiandao)	nun⁵⁵	nun⁵⁵	tired	tired		9.6.2.2	2061	0		
-17574	209	Achang (Xiandao)	moi³¹	moi³¹	tired	tired		9.6.2.2	2061.1	0		
-17575	209	Achang (Xiandao)	n̥ɔ³¹ pjau³¹	n̥ɔ³¹ pjau³¹	deaf	deaf		1.2.7.5	2081	0		811,1409
-17576	209	Achang (Xiandao)	kɤŋ³¹	kɤŋ³¹	deaf	deaf		1.2.7.5	2081.1	0		m
-17577	209	Achang (Xiandao)	ʂan³¹	ʂan³¹	numb	numb		1.5.11	2086	0		
-17578	209	Achang (Xiandao)	pɤŋ³⁵	pɤŋ³⁵	fill up	fill up	v.i.	6.11	2088	0		
-17579	209	Achang (Xiandao)	ŋʐoi⁵⁵	ŋʐoi⁵⁵	narrow eyes; squint	narrow eyes; squint		9.7.2	2100	0		
-17580	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	call (bird) (ming)	call (bird) (ming)		8.5.13	2101	0		
-17581	209	Achang (Xiandao)	pʰat⁵⁵	pʰat⁵⁵	vomit	vomit		1.8.3.2	2117	0		1145
-17582	209	Achang (Xiandao)	kɤ³¹	kɤ³¹	raise (tail)	raise (tail)		6.7.7	2163	0		
-17583	209	Achang (Xiandao)	cɛ⁵⁵	cɛ⁵⁵	cured (illness)	cured (illness)	be v.	1.1.5.1	2174	0		
-17584	209	Achang (Xiandao)	kɤk⁵⁵	kɤk⁵⁵	crippled	crippled		4.2.7	2177	0		
-17585	209	Achang (Xiandao)	l̥ɔŋ⁵⁵	l̥ɔŋ⁵⁵	shout, yell	shout, yell		8.5.4.1	2181	0		
-17586	209	Achang (Xiandao)	tɔn⁵⁵	tɔn⁵⁵	castrate	castrate		1.9.2.3	2210	0		m
-17587	209	Achang (Xiandao)	n̥uʔ⁵⁵	n̥uʔ⁵⁵	hurt, wound	hurt, wound	v	1.1.5.1	2211	0		160
-17588	209	Achang (Xiandao)	ŋɤ⁵⁵ xat⁵⁵	ŋɤ⁵⁵ xat⁵⁵	fatten	fatten		1.6.4	2215	0		m,m
-17589	209	Achang (Xiandao)	tʰɔ³⁵	tʰɔ³⁵	grow up (shengzhang)	grow up (shengzhang)		9.7.2	2224	0		
-17590	209	Achang (Xiandao)	pɯŋ⁵⁵	pɯŋ⁵⁵	grow (boil)	grow (boil)		9.7.2	2226	0		
-17591	209	Achang (Xiandao)	pɔ³⁵	pɔ³⁵	birth, give	birth, give	v	1.1.2	2227	0		70
-17592	209	Achang (Xiandao)	kɔk⁵⁵	kɔk⁵⁵	thin	thin	v	9.7.2	2249	0		
-17593	209	Achang (Xiandao)	it⁵⁵	it⁵⁵	sleep	sleep		1.1.4.1	2259	0		127
-17594	209	Achang (Xiandao)	it⁵⁵ mui³¹	it⁵⁵ mui³¹	asleep	asleep		1.1.4.1	2261	0		127,130
-17595	209	Achang (Xiandao)	ʂuʔ⁵⁵	ʂuʔ⁵⁵	suck (milk)	suck (milk)		1.3.2.1	2262	0		5541
-17596	209	Achang (Xiandao)	kʐai⁵⁵	kʐai⁵⁵	speak	speak		8.5.10.1	2263	0		1753
-17597	209	Achang (Xiandao)	ʂʅ⁵⁵	ʂʅ⁵⁵	die	die		1.1.6	2265	0		27
-17598	209	Achang (Xiandao)	ɲuŋ³¹	ɲuŋ³¹	sore (leg)	sore (leg)		1.1.5.1	2270	0		
-17599	209	Achang (Xiandao)	kʰɤ³¹	kʰɤ³¹	ache	ache		1.1.5.1	2291	0		1849
-17600	209	Achang (Xiandao)	lɛʔ⁵⁵	lɛʔ⁵⁵	lick	lick		1.3.3.1	2301	0		629
-17601	209	Achang (Xiandao)	kɔ³⁵	kɔ³⁵	beat (pulse)	beat (pulse)		6.8	2307	0		
-17602	209	Achang (Xiandao)	kʐɔ³¹	kʐɔ³¹	listen	listen		1.2.7.4	2309	0		1411
-17603	209	Achang (Xiandao)	kʐɔ³¹	kʐɔ³¹	hear	hear		1.2.7.4	2310	0		1411
-17604	209	Achang (Xiandao)	ɲau⁵⁵	ɲau⁵⁵	swallow	swallow	v	1.3.5.6	2316	0		627
-17605	209	Achang (Xiandao)	tsɛ³⁵	tsɛ³⁵	spit	spit		1.8.3	2320	0		
-17606	209	Achang (Xiandao)	lok⁵⁵	lok⁵⁵	molt (snake)	molt (snake)		1.6.5.6	2327	0		
-17607	209	Achang (Xiandao)	nam³¹	nam³¹	smell (with nose)	smell (with nose)		1.2.8.5	2346	0		1415
-17608	209	Achang (Xiandao)	jɔ³¹	jɔ³¹	inhale	inhale		1.1.2.2	2352	0		
-17609	209	Achang (Xiandao)	tsɛt⁵⁵	tsɛt⁵⁵	blind	blind		1.2.6.14.2	2360	0		1401
-17610	209	Achang (Xiandao)	pʰo³¹	pʰo³¹	birth, give (pig)	birth, give  (pig)		1.1.2	2362	0		70
-17611	209	Achang (Xiandao)	u³⁵	u³⁵	lay egg	lay egg		6.17	2363	0		301
-17612	209	Achang (Xiandao)	ɲop³¹	ɲop³¹	recede (boil)	recede (boil)		6.7.1	2378	0		
-17613	209	Achang (Xiandao)	ʐɯ⁵⁵	ʐɯ⁵⁵	laugh	laugh		1.8.8.1	2380	0		1108
-17614	209	Achang (Xiandao)	tut³⁵	tut³⁵	diarrhea	diarrhea		1.8.5	2383	0		
-17615	209	Achang (Xiandao)	tʂʰau³¹	tʂʰau³¹	blow nose	blow nose		1.3.1.4	2385	0		
-17616	209	Achang (Xiandao)	pa⁵⁵	pa⁵⁵	wake	wake	vt	1.1.4	2386	0		i
-17617	209	Achang (Xiandao)	pʰa⁵⁵	pʰa⁵⁵	wake	wake	vt	1.1.4	2386.1	0		i
-17618	209	Achang (Xiandao)	nɔ³¹	nɔ³¹	rest	rest		1.1.4.1	2387	0		84
-17619	209	Achang (Xiandao)	tɔn⁵⁵	tɔn⁵⁵	caponize	caponize		2.4.1	2396	0		m
-17620	209	Achang (Xiandao)	jɔ³¹	jɔ³¹	itch	itch		1.6.5.5	2400	0		1456
-17621	209	Achang (Xiandao)	pan³¹	pan³¹	bitten	bitten	be v.	1.3.4.4	2404	0		
-17622	209	Achang (Xiandao)	pan³¹	pan³¹	bite	bite		1.3.4.4	2405	0		1774
-17623	209	Achang (Xiandao)	pan³¹ tɔ³⁵	pan³¹ tɔ³⁵	bite hold of	bite hold of		1.3.4.4	2406	0		1774,m
-17624	209	Achang (Xiandao)	xun⁵⁵	xun⁵⁵	dizzy	dizzy		8.3.1.11.3	2430	0		
-17625	209	Achang (Xiandao)	pʰʐap⁵⁵	pʰʐap⁵⁵	blink	blink		1.2.6.12	2442	0		m
-17626	209	Achang (Xiandao)	xɔ³⁵	xɔ³⁵	open (mouth)	open (mouth)		6.2.2.6.1	2450	0		
-17627	209	Achang (Xiandao)	kɯ³¹	kɯ³¹	grow (up)	grow (up)		9.7.2	2451	0		
-17628	209	Achang (Xiandao)	pʐoŋ³¹	pʐoŋ³¹	bloat (belly) (zhang)	bloat (belly) (zhang)		1.4.7	2453	0		
-17629	209	Achang (Xiandao)	pʰu³⁵	pʰu³⁵	bloat (from overeating)	bloat (from overeating)		10.1.1	2453.1	0		
-17630	209	Achang (Xiandao)	ju⁵⁵	ju⁵⁵	nervous	nervous		8.3.1.5.5	2455	0		
-17631	209	Achang (Xiandao)	jau³⁵	jau³⁵	sting	sting	v	2.4.2	2460	0		
-17632	209	Achang (Xiandao)	ʐam³¹	ʐam³¹	swell up	swell up		1.1.5.2	2472	0		
-17633	209	Achang (Xiandao)	ɛt⁵⁵	ɛt⁵⁵	drunk	drunk		1.3.5.9	2497	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+17354	209	Achang (Xiandao)	a³¹ tu³¹	a³¹ tu³¹	body	body			1.1.1	94	0			p,14
+17355	209	Achang (Xiandao)	u³¹ kɔŋ³¹	u³¹ kɔŋ³¹	head	head			1.2.1	96	0			385,387
+17356	209	Achang (Xiandao)	u³¹	u³¹	hair (head)	hair (head)			1.2.3	97	0			385
+17357	209	Achang (Xiandao)	u³¹ n̥ɤk⁵⁵	u³¹ n̥ɤk⁵⁵	braid (hair)	braid (hair)	n	n	1.2.3.2	98	0			385,2023
+17358	209	Achang (Xiandao)	ŋ̊a³¹ ta³⁵	ŋ̊a³¹ ta³⁵	forehead	forehead			1.2.5.1	99	0			356,358
+17359	209	Achang (Xiandao)	ɲɔʔ⁵⁵ mui³¹	ɲɔʔ⁵⁵ mui³¹	eyebrow	eyebrow			1.2.6.6	100	0			681,363
+17360	209	Achang (Xiandao)	ɲɔʔ⁵⁵	ɲɔʔ⁵⁵	eye	eye			1.2.6	101	0			681
+17361	209	Achang (Xiandao)	ɲɔʔ⁵⁵ pʰʐu⁵⁵	ɲɔʔ⁵⁵ pʰʐu⁵⁵	eye white	eye white			1.2.6	101.1	0			681,1235
+17362	209	Achang (Xiandao)	ɲɔʔ⁵⁵ nɔʔ⁵⁵	ɲɔʔ⁵⁵ nɔʔ⁵⁵	pupil	pupil			1.2.6.2	101.2	0			681,m
+17363	209	Achang (Xiandao)	ɲɔʔ⁵⁵ tsi³¹	ɲɔʔ⁵⁵ tsi³¹	eyeball	eyeball			1.2.6.1	101.3	0			681,3559
+17364	209	Achang (Xiandao)	ɲɔʔ⁵⁵ mui³¹	ɲɔʔ⁵⁵ mui³¹	eyelash	eyelash			1.2.6.5	102	0			681,363
+17365	209	Achang (Xiandao)	n̥ap³¹ pʰɔŋ⁵⁵	n̥ap³¹ pʰɔŋ⁵⁵	nose	nose			1.2.8	103	0			805,806
+17366	209	Achang (Xiandao)	n̥a³¹ tʂʰɔ³¹	n̥a³¹ tʂʰɔ³¹	ear	ear			1.2.7	104	0			811,816
+17367	209	Achang (Xiandao)	ɲɔʔ⁵⁵ n̥o⁵⁵	ɲɔʔ⁵⁵ n̥o⁵⁵	face	face			1.2.5	105	0			681,803
+17368	209	Achang (Xiandao)	pɤ³¹ ʐam³⁵	pɤ³¹ ʐam³⁵	cheek	cheek			1.2.5.2	106	0			268,262
+17369	209	Achang (Xiandao)	pʰă³¹ kʐau³⁵ tau³¹	pʰă³¹ kʐau³⁵ tau³¹	cheekbone	cheekbone			1.2.5.2	106.1	0			268,m,m
+17370	209	Achang (Xiandao)	pʰă³¹ kap³⁵	pʰă³¹ kap³⁵	cheekbone	cheekbone			1.2.5.2	106.2	0			268,278
+17371	209	Achang (Xiandao)	n̥ut⁵⁵	n̥ut⁵⁵	mouth	mouth			1.3.1	107	0			471
+17372	209	Achang (Xiandao)	n̥ut⁵⁵ ʐʅ⁵⁵	n̥ut⁵⁵ ʐʅ⁵⁵	lip	lip			1.3.2	108	0			471,596
+17373	209	Achang (Xiandao)	n̥ut⁵⁵ mui³¹	n̥ut⁵⁵ mui³¹	beard	beard			1.2.5.5	109	0			471,363
+17374	209	Achang (Xiandao)	n̥ɔt⁵⁵ mui³¹	n̥ɔt⁵⁵ mui³¹	beard	beard			1.2.5.5	109.1	0			471,363
+17375	209	Achang (Xiandao)	lɔʔ⁵⁵ o³¹	lɔʔ⁵⁵ o³¹	hand web	hand web			1.5.1.1	132.1	0			695,m
+17376	209	Achang (Xiandao)	pʰa³¹ kɤŋ³⁵	pʰa³¹ kɤŋ³⁵	lower jaw, chin	lower jaw, chin				111	0			m,m
+17377	209	Achang (Xiandao)	lɤŋ³¹ tsɤŋ³¹	lɤŋ³¹ tsɤŋ³¹	neck	neck			1.4.2	112	0			479,255
+17379	209	Achang (Xiandao)	lɔʔ³¹ san⁵⁵	lɔʔ³¹ san⁵⁵	shoulder	shoulder			1.4.3	114	0			695,m
+17380	209	Achang (Xiandao)	a³¹ tu⁵¹ m̥ɔŋ³⁵	a³¹ tu⁵¹ m̥ɔŋ³⁵	back (body)	back (body)			1.4.8	115	0			p,14,m
+17381	209	Achang (Xiandao)	lɔʔ³¹ san⁵⁵ kʰʐoʔ⁵⁵	lɔʔ³¹ san⁵⁵ kʰʐoʔ⁵⁵	armpit	armpit			1.5.1.2.3	116	0			
+17382	209	Achang (Xiandao)	am³¹ pɔŋ⁵⁵	am³¹ pɔŋ⁵⁵	chest	chest			1.4.4.3	117	0			291,m
+17383	209	Achang (Xiandao)	ɲɔn³⁵	ɲɔn³⁵	breast	breast			1.4.4.3	118	0			254
+17384	209	Achang (Xiandao)	om³¹	om³¹	belly	belly			1.4.7	119	0			
+17385	209	Achang (Xiandao)	tʂʰɔʔ⁵⁵ tʰoŋ³¹	tʂʰɔʔ⁵⁵ tʰoŋ³¹	navel	navel			1.9.4	120	0			525,3447
+17386	209	Achang (Xiandao)	tsʰin⁵⁵ tsʰin⁵⁵	tsʰin⁵⁵ tsʰin⁵⁵	waist	waist			1.4.6	121	0			223,223
+17387	209	Achang (Xiandao)	kʰu⁵⁵ tuŋ³¹	kʰu⁵⁵ tuŋ³¹	buttocks	buttocks			1.4.10	122	0			572,822
+17388	209	Achang (Xiandao)	tam⁵⁵ pau³¹	tam⁵⁵ pau³¹	thigh	thigh			1.5.7.1	123	0			
+17389	209	Achang (Xiandao)	pʰɔʔ³¹ tʂʰɯk⁵⁵	pʰɔʔ³¹ tʂʰɯk⁵⁵	knee	knee			1.5.8.4	124	0			436,418
+17390	209	Achang (Xiandao)	cʰi⁵⁵ ʐum³¹	cʰi⁵⁵ ʐum³¹	calf (leg)	calf (leg)			1.5.7	125	0			335,m
+17391	209	Achang (Xiandao)	cʰi⁵⁵	cʰi⁵⁵	foot	foot			1.5.2	126	0			335
+17392	209	Achang (Xiandao)	cʰi⁵⁵ tʂʰam³¹	cʰi⁵⁵ tʂʰam³¹	ankle	ankle			1.5.8.2	127	0			
+17393	209	Achang (Xiandao)	lɔʔ⁵⁵ ʐum³¹	lɔʔ⁵⁵ ʐum³¹	arm	arm			1.5.1.2	128	0			695,m
+17394	209	Achang (Xiandao)	lɔʔ⁵⁵ tʰom³¹	lɔʔ⁵⁵ tʰom³¹	elbow	elbow			1.5.8.3	129	0			695,439
+17395	209	Achang (Xiandao)	lɔʔ⁵⁵ tʰɔŋ⁵⁵	lɔʔ⁵⁵ tʰɔŋ⁵⁵	elbow	elbow			1.5.8.3	129.1	0			695,439
+17396	209	Achang (Xiandao)	lɔʔ⁵⁵	lɔʔ⁵⁵	hand	hand			1.5.1.1	130	0			695
+17397	209	Achang (Xiandao)	lɔʔ⁵⁵ ȵɔʔ⁵⁵	lɔʔ⁵⁵ ȵɔʔ⁵⁵	wrist	wrist			1.5.8.1	131	0			695,681
+17398	209	Achang (Xiandao)	lɔʔ⁵⁵ ɲ̊au³¹	lɔʔ⁵⁵ ɲ̊au³¹	finger	finger			1.5.6	132	0			695,320
+17399	209	Achang (Xiandao)	lɔʔ⁵⁵ mɔ³¹	lɔʔ⁵⁵ mɔ³¹	thumb	thumb			1.5.6.1	133	0			695,m
+17400	209	Achang (Xiandao)	lɔʔ⁵⁵ tsɔ³¹	lɔʔ⁵⁵ tsɔ³¹	little finger	little finger			9.7.2	137	0			695,m
+17401	209	Achang (Xiandao)	lɔʔ⁵⁵ ʂɯŋ³¹	lɔʔ⁵⁵ ʂɯŋ³¹	fingernail	fingernail			1.5.10.1	138	0			695,m
+17402	209	Achang (Xiandao)	lɔʔ⁵⁵ tʰum³¹	lɔʔ⁵⁵ tʰum³¹	fist	fist			1.5.1.1.1	139	0			695,1282
+17403	209	Achang (Xiandao)	kʰɯ̆³¹ tuŋ³¹	kʰɯ̆³¹ tuŋ³¹	anus	anus			1.4.10.2	140	0			572,822
+17404	209	Achang (Xiandao)	tsʰi⁵⁵ pʰu³¹	tsʰi⁵⁵ pʰu³¹	bladder	bladder			1.7.8	140.1	0		D1	650,779
+17405	209	Achang (Xiandao)	n̥i³¹	n̥i³¹	penis	penis				141	0			545
+17406	209	Achang (Xiandao)	li⁵⁵ tsi³¹	li⁵⁵ tsi³¹	testicles	testicles				142	0			1284,3559
+17407	209	Achang (Xiandao)	cuʔ⁵⁵	cuʔ⁵⁵	vagina	vagina				143	0			1356
+17408	209	Achang (Xiandao)	tʂʰɔʔ⁵⁵	tʂʰɔʔ⁵⁵	placenta	placenta				144	0			679
+17409	209	Achang (Xiandao)	tʂʰɔʔ⁵⁵ tʰoŋ³¹	tʂʰɔʔ⁵⁵ tʰoŋ³¹	umbilical cord	umbilical cord				145	0			525,3447
+17410	209	Achang (Xiandao)	a³¹ ʐʅ⁵⁵	a³¹ ʐʅ⁵⁵	skin	skin			1.6.5	147	0			p,596
+17411	209	Achang (Xiandao)	tʂap³¹ mi³¹	tʂap³¹ mi³¹	hemorrhoids	hemorrhoids			1.4.10.2	149	0			
+17412	209	Achang (Xiandao)	pɯŋ⁵⁵	pɯŋ⁵⁵	sore, ulcer	sore, ulcer			1.1.5.1	150	0			
+17413	209	Achang (Xiandao)	a³¹ ʐɔ⁵⁵	a³¹ ʐɔ⁵⁵	scar	scar			1.6.5.3	151	0			
+17414	209	Achang (Xiandao)	pʰun⁵⁵ tʰoʔ⁵⁵	pʰun⁵⁵ tʰoʔ⁵⁵	measles	measles			5.3	152	0			
+17415	209	Achang (Xiandao)	ʂɔ³¹	ʂɔ³¹	flesh	flesh			1.1.1.1	154	0			34
+17416	209	Achang (Xiandao)	sui³¹	sui³¹	blood	blood			1.6.2	155	0			230
+17417	209	Achang (Xiandao)	kɯ³¹	kɯ³¹	muscle	muscle			1.6.6.2	156	0			535
+17418	209	Achang (Xiandao)	llɔʔ⁵⁵ kɯ³¹	llɔʔ⁵⁵ kɯ³¹	pulse	pulse			1.7.1.1	157	0			e
+17419	209	Achang (Xiandao)	u³¹ nuʔ⁵⁵	u³¹ nuʔ⁵⁵	brain	brain			1.2.4	158	0			385,243
+17420	209	Achang (Xiandao)	a³¹ ʐau³¹	a³¹ ʐau³¹	bone	bone			1.6.3	159	0			m,232
+17421	209	Achang (Xiandao)	tu³¹ tum³¹ ʐau³¹	tu³¹ tum³¹ ʐau³¹	backbone / spine	backbone / spine			1.4.8.2	160	0			m,1362,232
+17422	209	Achang (Xiandao)	ʐau³¹ kʰʐaŋ³¹	ʐau³¹ kʰʐaŋ³¹	rib	rib			1.4.4.3	161	0			232,m
+17423	209	Achang (Xiandao)	a³¹ ɲɔʔ⁵⁵	a³¹ ɲɔʔ⁵⁵	joint	joint			1.5.8	162	0			p,681
+17424	209	Achang (Xiandao)	cui⁵⁵	cui⁵⁵	tooth	tooth			1.3.4	163	0			635
+17425	209	Achang (Xiandao)	ɣa³⁵	ɣa³⁵	white teeth	white teeth			9.4	163.1	0			m
+17426	209	Achang (Xiandao)	cui⁵⁵ xɯm⁵⁵	cui⁵⁵ xɯm⁵⁵	gums	gums			1.3.4.3	164	0			635,m
+17427	209	Achang (Xiandao)	çɔ⁵⁵	çɔ⁵⁵	tongue	tongue			1.3.3	165	0			623
+17428	209	Achang (Xiandao)	kʰʐoŋ³¹ tʐɔʔ³⁵	kʰʐoŋ³¹ tʐɔʔ³⁵	uvula	uvula			1.3.5.1	166	0			
+17429	209	Achang (Xiandao)	kʰʐoŋ³¹ tʐoŋ³¹	kʰʐoŋ³¹ tʐoŋ³¹	throat	throat			1.3.5	168	0			489,3363
+17430	209	Achang (Xiandao)	a³¹ cʰut⁵⁵	a³¹ cʰut⁵⁵	lungs	lungs			1.7.2	171	0			p,458
+17431	209	Achang (Xiandao)	n̥ɔʔ³¹ lum³¹	n̥ɔʔ³¹ lum³¹	heart	heart			1.7.1	172	0			1385,1381
+17432	209	Achang (Xiandao)	a³¹ ʂɯŋ³¹	a³¹ ʂɯŋ³¹	liver	liver			1.7.3	173	0			p,1390
+17433	209	Achang (Xiandao)	kʰɯ³¹ pu³⁵	kʰɯ³¹ pu³⁵	stomach	stomach			1.7.6	173.1	0			2123,2103
+17434	209	Achang (Xiandao)	a³¹ tat³⁵	a³¹ tat³⁵	kidneys	kidneys			1.7.5	174	0			
+17435	209	Achang (Xiandao)	ʂɯŋ³¹ cʰi³⁵	ʂɯŋ³¹ cʰi³⁵	gall bladder	gall bladder			1.7.3	177	0			1390,m
+17436	209	Achang (Xiandao)	a³¹ u⁵⁵	a³¹ u⁵⁵	intestines	intestines			1.7.7	178	0			p,2102
+17437	209	Achang (Xiandao)	tsʰi⁵⁵ pʰu³¹	tsʰi⁵⁵ pʰu³¹	bladder	bladder			1.7.8	179	0	jbl5	HIDE	DUPE IN SOURCE
+17438	209	Achang (Xiandao)	kʰɯ³¹	kʰɯ³¹	feces	feces			1.8.5	180	0			572
+17439	209	Achang (Xiandao)	ʂʅ³¹ ʂɯ³⁵	ʂʅ³¹ ʂɯ³⁵	urine	urine			1.8.4	181	0			m,m
+17440	209	Achang (Xiandao)	cʰu³¹ xan³¹	cʰu³¹ xan³¹	phlegm	phlegm			1.8.3	184	0			m,539
+17441	209	Achang (Xiandao)	a³¹ cui³¹	a³¹ cui³¹	saliva	saliva			1.8.3	185	0			
+17442	209	Achang (Xiandao)	n̥ap⁵⁵	n̥ap⁵⁵	mucus	mucus			1.8.2	186	0			805
+17443	209	Achang (Xiandao)	ɲɔʔ⁵⁵ pi⁵⁵	ɲɔʔ⁵⁵ pi⁵⁵	tears	tears			1.2.6.7	187	0			681,187
+17444	209	Achang (Xiandao)	pɯŋ⁵⁵	pɯŋ⁵⁵	pus	pus			1.8.6.1	188	0			1292
+17445	209	Achang (Xiandao)	sai³¹	sai³¹	body dirt	body dirt			1.8.1.2	189	0			m
+17446	209	Achang (Xiandao)	a³¹ sɔʔ⁵⁵	a³¹ sɔʔ⁵⁵	breath	breath			1.1.2.2	191	0			p,32
+17447	209	Achang (Xiandao)	tʂu⁵⁵ mɔŋ⁵⁵	tʂu⁵⁵ mɔŋ⁵⁵	corpse	corpse			1.1.6.1	192	0			3327,17
+17448	209	Achang (Xiandao)	a³¹ co⁵⁵	a³¹ co⁵⁵	life	life			1.1.2.1	193	0			p,80
+17449	209	Achang (Xiandao)	a³¹ tʂo³¹	a³¹ tʂo³¹	life-span	life-span			1.1.2.1	194	0			p,80
+17450	209	Achang (Xiandao)	ɲɔʔ⁵⁵ tsɛt⁵⁵	ɲɔʔ⁵⁵ tsɛt⁵⁵	blind person	blind person			1.2.6.14.2	242	0			681,1401
+17451	209	Achang (Xiandao)	ɲɔʔ⁵⁵ pʰɛt⁵⁵	ɲɔʔ⁵⁵ pʰɛt⁵⁵	cross-eyed person	cross-eyed person			6.7.10	242.1	0			
+17452	209	Achang (Xiandao)	cʰi⁵⁵ kɤk⁵⁵	cʰi⁵⁵ kɤk⁵⁵	lame person	lame person			1.5.12	243	0			
+17453	209	Achang (Xiandao)	tʂu⁵⁵ tɔk⁵⁵	tʂu⁵⁵ tɔk⁵⁵	dwarf	dwarf			4.2.7	244	0			
+17454	209	Achang (Xiandao)	tʂu⁵⁵ ɲ̊im³¹	tʂu⁵⁵ ɲ̊im³¹	dwarf	dwarf			4.2.7	244.1	0			
+17455	209	Achang (Xiandao)	n̥a³¹ pɔŋ³¹	n̥a³¹ pɔŋ³¹	deaf person	deaf person			1.2.7.5	245	0			
+17456	209	Achang (Xiandao)	na³¹  piau³¹	na³¹  piau³¹	deaf person	deaf person			1.2.7.5	245.1	0			
+17457	209	Achang (Xiandao)	u³¹ liŋ³⁵ kɔk³⁵	u³¹ liŋ³⁵ kɔk³⁵	bald person	bald person			1.2.3.4	246	0			385,1430,1224
+17458	209	Achang (Xiandao)	ɲɔʔ⁵⁵ pʐaŋ⁵⁵	ɲɔʔ⁵⁵ pʐaŋ⁵⁵	pock-marked person	pock-marked person			4.5	247	0			
+17459	209	Achang (Xiandao)	lɔ³¹ kuŋ⁵⁵	lɔ³¹ kuŋ⁵⁵	hunchback	hunchback			1.4.8.3	248	0			m,m
+17460	209	Achang (Xiandao)	a³¹ tu³¹ ŋum³⁵	a³¹ tu³¹ ŋum³⁵	hunchback	hunchback			1.4.8.3	248.1	0			m,m,m
+17461	209	Achang (Xiandao)	tʂu⁵⁵ pɔŋ³¹	tʂu⁵⁵ pɔŋ³¹	idiot	idiot			4.2.12.3	249	0			
+17462	209	Achang (Xiandao)	tʂu⁵⁵ vɛn⁵⁵	tʂu⁵⁵ vɛn⁵⁵	lunatic	lunatic			8.3	250	0			
+17463	209	Achang (Xiandao)	n̥ut⁵⁵ min³¹	n̥ut⁵⁵ min³¹	wry-mouth	wry-mouth			1.3.1	251.1	0			
+17464	209	Achang (Xiandao)	nut⁵⁵ ɚ⁵⁵	nut⁵⁵ ɚ⁵⁵	harelip	harelip			1.3.2	251.2	0			
+17465	209	Achang (Xiandao)	ja³¹ pa³¹	ja³¹ pa³¹	mute	mute			1.5.3.2	252	0			b
+17466	209	Achang (Xiandao)	ɲɔʔ⁵⁵ ta³¹ xuan³¹	ɲɔʔ⁵⁵ ta³¹ xuan³¹	one-eyed person	one-eyed person			9.9	253	0			
+17467	209	Achang (Xiandao)	no³¹ nau³¹	no³¹ nau³¹	milk (cow's)	milk (cow's)				311	0			2538,253
+17468	209	Achang (Xiandao)	no³¹ kʰɯ³¹	no³¹ kʰɯ³¹	excrement (cow)	excrement (cow)			1.8.5	312	0			m,572
+17469	209	Achang (Xiandao)	a³¹ kʰʐau⁵⁵	a³¹ kʰʐau⁵⁵	horn	horn			1.2.2	313	0			p,819
+17470	209	Achang (Xiandao)	cʰi⁵⁵	cʰi⁵⁵	hoof	hoof			1.5.4	314	0			
+17471	209	Achang (Xiandao)	a³¹ ʐʅ⁵⁵	a³¹ ʐʅ⁵⁵	skin (animal)	skin (animal)			1.6.5	315	0			p,596
+17472	209	Achang (Xiandao)	a³¹ am⁵⁵	a³¹ am⁵⁵	dewlap	dewlap			1.4.2	315.1	0			
+17473	209	Achang (Xiandao)	mui³¹	mui³¹	hair (animal)	hair (animal)			1.2.3	316	0			363
+17474	209	Achang (Xiandao)	n̥i³¹ tʂʰɔ³¹	n̥i³¹ tʂʰɔ³¹	tail	tail			1.4.10.1	317	0			1288,3331
+17475	209	Achang (Xiandao)	m̥ʐaŋ³¹ tʂɯŋ⁵⁵	m̥ʐaŋ³¹ tʂɯŋ⁵⁵	mane (horse)	mane (horse)			1.6.1	322	0			1431,370
+17476	209	Achang (Xiandao)	m̥ʐaŋ³¹ kʰɯ³¹	m̥ʐaŋ³¹ kʰɯ³¹	excrement (horse)	excrement (horse)			1.8.5	323	0			1431,572
+17477	209	Achang (Xiandao)	paʔ³¹ mui³¹	paʔ³¹ mui³¹	wool	wool			1.6.1.3	328	0			m,363
+17478	209	Achang (Xiandao)	paʔ³¹ kʰɯ³¹	paʔ³¹ kʰɯ³¹	excrement (sheep)	excrement (sheep)			1.8.5	329	0			m,572
+17479	209	Achang (Xiandao)	oʔ⁵⁵ kʰɯ³¹	oʔ⁵⁵ kʰɯ³¹	excrement (pig)	excrement (pig)			1.8.5	337	0			1006,572
+17480	209	Achang (Xiandao)	n̥a³¹ pap³⁵	n̥a³¹ pap³⁵	cockscomb	cockscomb			1.2.2.1	346	0			356,m
+17481	209	Achang (Xiandao)	a³¹ tuŋ⁵⁵	a³¹ tuŋ⁵⁵	wing	wing			1.5.1.3	347	0			p,711
+17482	209	Achang (Xiandao)	mui³¹	mui³¹	feathers	feathers			1.6.1.1	348	0			m
+17483	209	Achang (Xiandao)	cʰi⁵⁵	cʰi⁵⁵	paw	paw			1.5.4	356	0			
+17484	209	Achang (Xiandao)	cʰaŋ⁵⁵ cui⁵⁵	cʰaŋ⁵⁵ cui⁵⁵	tusk (of elephant)	tusk (of elephant)			1.3.4.1	359	0			2731,635
+17485	209	Achang (Xiandao)	ŋ̊ɔʔ⁵⁵ sut⁵⁵	ŋ̊ɔʔ⁵⁵ sut⁵⁵	bird's nest	bird's nest			2.2.4	380	0			3442,1613
+17486	209	Achang (Xiandao)	ŋ̊ɔ̆³¹ ʂɔ³¹ a³¹ kɤp³⁵	ŋ̊ɔ̆³¹ ʂɔ³¹ a³¹ kɤp³⁵	scales	scales			1.6.5.2	409	0			1455,m,p,783
+17487	209	Achang (Xiandao)	ʂan³¹ u³¹	ʂan³¹ u³¹	nit	nit			2.2.6	418	0			2652,301
+17488	209	Achang (Xiandao)	koŋ³¹ kau³¹ a³¹ in⁵⁵	koŋ³¹ kau³¹ a³¹ in⁵⁵	spider's web	spider's web			2.2.6	423	0			5400,m,p,m
+17489	209	Achang (Xiandao)	ʂɔ³¹	ʂɔ³¹	meat	meat			1.1.1.1	554	0			34
+17490	209	Achang (Xiandao)	a³¹ cʰu⁵⁵	a³¹ cʰu⁵⁵	fatty meat	fatty meat			1.6.4	558	0			p,42
+17491	209	Achang (Xiandao)	a³¹ ʂɔ³¹	a³¹ ʂɔ³¹	lean meat	lean meat			1.1.1	559	0			p,34
+17492	209	Achang (Xiandao)	u³¹	u³¹	egg	egg				573	0			301
+17493	209	Achang (Xiandao)	kʐɔʔ⁵⁵ u³¹	kʐɔʔ⁵⁵ u³¹	chicken egg	chicken egg			2.1.10	574	0			1606,301
+17494	209	Achang (Xiandao)	pʐap³⁵ u³¹	pʐap³⁵ u³¹	duck egg	duck egg			2.1.10	575	0			m,301
+17495	209	Achang (Xiandao)	tam³¹	tam³¹	ghost	ghost			4.2.12.2	938	0			
+17496	209	Achang (Xiandao)	a³¹ pʐɔ⁵⁵	a³¹ pʐɔ⁵⁵	spirit / soul	spirit / soul			5.8.1.1	954	0			
+17497	209	Achang (Xiandao)	a³¹ xʐaŋ⁵⁵	a³¹ xʐaŋ⁵⁵	energy	energy			1.1.4	961	0			
+17498	209	Achang (Xiandao)	a³¹ ʐɯt⁵⁵	a³¹ ʐɯt⁵⁵	shadow	shadow			3.2.10	1008	0			
+17499	209	Achang (Xiandao)	in³¹ mɔʔ⁵⁵	in³¹ mɔʔ⁵⁵	dream	dream			1.1.4.2	1009	0			127,126
+17500	209	Achang (Xiandao)	in³¹ mɔʔ⁵⁵ mɔʔ	in³¹ mɔʔ⁵⁵ mɔʔ	have a dream	have a dream			8.2	1009.1	0			127,126,126
+17501	209	Achang (Xiandao)	a³¹ koŋ⁵⁵	a³¹ koŋ⁵⁵	between	between			9.2.3	1020	0			
+17502	209	Achang (Xiandao)	a³¹ jam⁵⁵	a³¹ jam⁵⁵	side	side			1.4.5	1022	0			
+17503	209	Achang (Xiandao)	n̥a³¹ cɛŋ³¹	n̥a³¹ cɛŋ³¹	side	side			1.4.5	1022.1	0			
+17504	209	Achang (Xiandao)	lɔʔ⁵⁵ xa⁵⁵	lɔʔ⁵⁵ xa⁵⁵	left	left			1.5.3.2	1023	0			695,m
+17505	209	Achang (Xiandao)	lɔʔ⁵⁵ jɔ⁵⁵	lɔʔ⁵⁵ jɔ⁵⁵	right	right			1.5.3.2	1024	0			695,2786
+17506	209	Achang (Xiandao)	ɲɔʔ⁵⁵ sai³⁵	ɲɔʔ⁵⁵ sai³⁵	front	front			1.4.4	1025	0			m,1214
+17507	209	Achang (Xiandao)	cʰi³¹ n̥oŋ⁵⁵	cʰi³¹ n̥oŋ⁵⁵	back	back			1.4.8	1026	0			m,203
+17508	209	Achang (Xiandao)	som⁵⁵	som⁵⁵	shrivelled	shrivelled			9.5	1385	0			
+17509	209	Achang (Xiandao)	som⁵⁵ som⁵⁵	som⁵⁵ som⁵⁵	shrivelled	shrivelled			9.5	1385	0			
+17510	209	Achang (Xiandao)	liŋ³⁵	liŋ³⁵	bald	bald			1.2.3.4	1392	0			1430
+17511	209	Achang (Xiandao)	ɲoi³¹	ɲoi³¹	wrinkled	wrinkled			9.6.2	1394	0			
+17512	209	Achang (Xiandao)	pʐau³¹	pʐau³¹	fat (person)	fat (person)			1.6.4	1428	0			1452
+17513	209	Achang (Xiandao)	pʐau³¹	pʐau³¹	fat (pig)	fat (pig)			1.6.4	1429	0			1452
+17514	209	Achang (Xiandao)	kɔk⁵⁵	kɔk⁵⁵	thin (person)	thin (person)			9.7.2	1431	0			
+17515	209	Achang (Xiandao)	a³¹ ʂɯk⁵⁵|	a³¹ ʂɯk⁵⁵|	fresh	fresh			9.6.1.1	1504	0			6178
+17516	209	Achang (Xiandao)	ʂʅ⁵⁵	ʂʅ⁵⁵	dead	dead			1.1.6	1506	0			27
+17517	209	Achang (Xiandao)	pʐuŋ³¹	pʐuŋ³¹	full (from eating)	full (from eating)			1.1.3.2	1598	0			111
+17518	209	Achang (Xiandao)	tʰum³¹	tʰum³¹	close (mouth)	close (mouth)	v.i.	v.i.	6.2.2.6.2	1609	0			
+17519	209	Achang (Xiandao)	nɔ⁵⁵	nɔ⁵⁵	sick	sick			1.1.5.1	1619	0			160
+17520	209	Achang (Xiandao)	cɔ³¹	cɔ³¹	eat	eat			1.5.3.2	1662	0			36
+17521	209	Achang (Xiandao)	tʂʰap³⁵	tʂʰap³⁵	transmit, infect	transmit, infect			6.2.2.2	1686	0			
+17522	209	Achang (Xiandao)	tʂap³⁵	tʂap³⁵	infected	infected	be v.	be v.	1.1.5.1	1687	0			
+17523	209	Achang (Xiandao)	m̥ut⁵⁵	m̥ut⁵⁵	blow (trumpet)	blow (trumpet)			1.3.1.4	1688	0			503
+17524	209	Achang (Xiandao)	m̥ut⁵⁵	m̥ut⁵⁵	blow (dust)	blow (dust)			1.3.1.4	1689	0			503
+17525	209	Achang (Xiandao)	ʂa⁵⁵	ʂa⁵⁵	gasp, pant	gasp, pant	v	v	1.1.2.2	1692	0			32
+17526	209	Achang (Xiandao)	tsʰi³¹ tʂam⁵⁵ tsʰi³¹	tsʰi³¹ tʂam⁵⁵ tsʰi³¹	sneeze	sneeze			1.8.2.1	1720	0			
+17527	209	Achang (Xiandao)	it⁵⁵ tʰuan⁵¹ tʰuan³¹	it⁵⁵ tʰuan⁵¹ tʰuan³¹	nap (take)	nap (take)	v	v	6.21	1721	0			
+17528	209	Achang (Xiandao)	it⁵⁵ xam³¹ xam³¹	it⁵⁵ xam³¹ xam³¹	yawn	yawn			1.3.1.3	1723	0			m,1715,1715
+17529	209	Achang (Xiandao)	cɤ⁵⁵ kɤk⁵⁵ ɤk⁵⁵	cɤ⁵⁵ kɤk⁵⁵ ɤk⁵⁵	hiccup / belch	hiccup  /  belch			1.8.3.5	1724	0	jbl3		m,m,3443
+17530	209	Achang (Xiandao)	it⁵⁵ m̥un⁵¹ m̥un³¹	it⁵⁵ m̥un⁵¹ m̥un³¹	snore	snore			1.8.2.2	1725	0			127,m,m
+17531	209	Achang (Xiandao)	pan³¹	pan³¹	bite, sting (mosquito)	bite, sting (mosquito)			1.3.4.4	1766	0			1774
+17532	209	Achang (Xiandao)	sɔn³⁵	sɔn³⁵	read (book)	read (book)			6.2.2.9.3	1776	0			
+17533	209	Achang (Xiandao)	pɛt⁵⁵	pɛt⁵⁵	die (breath one's last)	die (breath one's last)			9.9	1781	0			m
+17534	209	Achang (Xiandao)	pʰɛt⁵⁵	pʰɛt⁵⁵	snuff out (a life)	snuff out (a life)			1.2.8.5	1781.1	0			
+17535	209	Achang (Xiandao)	mut⁵⁵	mut⁵⁵	hungry	hungry			1.1.3	1792	0			99
+17536	209	Achang (Xiandao)	tʰut⁵⁵ tʰut⁵⁵ nun³⁵	tʰut⁵⁵ tʰut⁵⁵ nun³⁵	tremble	tremble			6.7.3	1798	0			
+17537	209	Achang (Xiandao)	pu⁵⁵ pʐaŋ³⁵	pu⁵⁵ pʐaŋ³⁵	fever (have)	fever (have)	v	v	1.1.5.1	1800	0			
+17538	209	Achang (Xiandao)	kʰɯ³¹ tsɛt³⁵	kʰɯ³¹ tsɛt³⁵	fart	fart			1.8.5.2	1820	0			572,m
+17539	209	Achang (Xiandao)	tʂam⁵⁵	tʂam⁵⁵	fly	fly			2.2.6	1826	0			
+17540	209	Achang (Xiandao)	vɤn⁵⁵	vɤn⁵⁵	insane	insane			8.3.1.11.3	1832	0			
+17541	209	Achang (Xiandao)	xup⁵⁵	xup⁵⁵	incubate	incubate			1.9.1.2	1834	0			1233
+17542	209	Achang (Xiandao)	a³¹ lin⁵¹ tʂap³⁵	a³¹ lin⁵¹ tʂap³⁵	cold (have)	cold (have)	v	v	7.1.2.3	1844	0			
+17543	209	Achang (Xiandao)	xɤ⁵⁵	xɤ⁵⁵	call (to a meeting)	call (to a meeting)			8.5.13	1892	0			
+17544	209	Achang (Xiandao)	ʂuʔ⁵⁵	ʂuʔ⁵⁵	drink	drink				1895	0			3462
+17545	209	Achang (Xiandao)	lui³¹	lui³¹	hum	hum			8.5.5	1901	0			
+17546	209	Achang (Xiandao)	lai⁵⁵	lai⁵⁵	dim, blurry (eyesight)	dim, blurry (eyesight)			1.2.6.10	1906	0			
+17547	209	Achang (Xiandao)	tsɔ³¹ pum³¹	tsɔ³¹ pum³¹	pregnant	pregnant			1.9.6.1	1912	0			m,163
+17548	209	Achang (Xiandao)	xɤ⁵⁵	xɤ⁵⁵	call (to animal) (huan)	call (to animal) (huan)			8.5.13	1917	0			
+17549	209	Achang (Xiandao)	cɛ⁵⁵	cɛ⁵⁵	alive	alive			1.1.2.1	1934	0			1010
+17550	209	Achang (Xiandao)	kʐai⁵⁵	kʐai⁵⁵	tell (story)	tell (story)			1.8.7	1965	0			1753
+17551	209	Achang (Xiandao)	mam³¹	mam³¹	chew	chew			1.3.4	1971	0			3451
+17552	209	Achang (Xiandao)	tʰun⁵⁵	tʰun⁵⁵	crow (rooster)	crow (rooster)			2.2.4.1	1972	0			
+17553	209	Achang (Xiandao)	tʐɔt³⁵	tʐɔt³⁵	cackle (hen)	cackle (hen)			8.5.5	1973	0			
+17554	209	Achang (Xiandao)	tɛk⁵⁵	tɛk⁵⁵	cackle (hen)	cackle (hen)			8.5.5	1973.1	0			
+17555	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	call (cat)	call (cat)			8.5.13	1974	0			o
+17556	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	bray (donkey)	bray (donkey)			8.5.4.1	1975	0			w
+17557	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	neigh (horse)	neigh (horse)			8.5.5	1976	0			
+17558	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	call (cow)	call (cow)			8.5.13	1977	0			
+17559	209	Achang (Xiandao)	kʐap⁵⁵	kʐap⁵⁵	bark (dog)	bark (dog)			2.1.11.1	1978	0			
+17560	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	grunt (pig)	grunt (pig)			2.1.11.1	1979	0			o
+17561	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	call (sheep)	call (sheep)			8.5.13	1980	0			
+17562	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	roar (tiger)	roar (tiger)			8.5.5	1981	0			o
+17563	209	Achang (Xiandao)	xɤ⁵⁵	xɤ⁵⁵	call (name)	call (name)			8.5.13	1984	0			
+17564	209	Achang (Xiandao)	pʰoŋ³⁵	pʰoŋ³⁵	open (door)	open (door)			6.2.2.6.1	2020	0			5704
+17565	209	Achang (Xiandao)	ʐu³⁵	ʐu³⁵	look at	look at			1.2.6.11	2028	0			m
+17566	209	Achang (Xiandao)	mʐaŋ⁵⁵	mʐaŋ⁵⁵	see	see			1.2.6.10	2030	0			1227
+17567	209	Achang (Xiandao)	kʰʐoŋ³¹ tʂʰau³¹	kʰʐoŋ³¹ tʂʰau³¹	cough	cough			1.8.3.3	2038	0			
+17568	209	Achang (Xiandao)	sɔʔ⁵⁵ ʐat⁵⁵	sɔʔ⁵⁵ ʐat⁵⁵	tracheitis	tracheitis			1.3.5.2	2038.1	0			
+17569	209	Achang (Xiandao)	kʐat⁵⁵	kʐat⁵⁵	gnaw	gnaw			1.3.4.4	2042	0			
+17570	209	Achang (Xiandao)	ŋau⁵⁵	ŋau⁵⁵	cry	cry			1.8.8.2	2045	0			1104
+17571	209	Achang (Xiandao)	ŋ̊au⁵⁵	ŋ̊au⁵⁵	cause to cry	cause to cry			8.2	2045.1	0			1104
+17572	209	Achang (Xiandao)	kʰɯ³¹ ʂɔ⁵⁵	kʰɯ³¹ ʂɔ⁵⁵	defecate	defecate			1.8.5.4	2053	0			
+17573	209	Achang (Xiandao)	nun⁵⁵	nun⁵⁵	tired	tired			9.6.2.2	2061	0			
+17574	209	Achang (Xiandao)	moi³¹	moi³¹	tired	tired			9.6.2.2	2061.1	0			
+17575	209	Achang (Xiandao)	n̥ɔ³¹ pjau³¹	n̥ɔ³¹ pjau³¹	deaf	deaf			1.2.7.5	2081	0			811,1409
+17576	209	Achang (Xiandao)	kɤŋ³¹	kɤŋ³¹	deaf	deaf			1.2.7.5	2081.1	0			m
+17577	209	Achang (Xiandao)	ʂan³¹	ʂan³¹	numb	numb			1.5.11	2086	0			
+17578	209	Achang (Xiandao)	pɤŋ³⁵	pɤŋ³⁵	fill up	fill up	v.i.	v.i.	6.11	2088	0			
+17579	209	Achang (Xiandao)	ŋʐoi⁵⁵	ŋʐoi⁵⁵	narrow eyes; squint	narrow eyes; squint			9.7.2	2100	0			
+17580	209	Achang (Xiandao)	mɯŋ⁵⁵	mɯŋ⁵⁵	call (bird) (ming)	call (bird) (ming)			8.5.13	2101	0			
+17581	209	Achang (Xiandao)	pʰat⁵⁵	pʰat⁵⁵	vomit	vomit			1.8.3.2	2117	0			1145
+17582	209	Achang (Xiandao)	kɤ³¹	kɤ³¹	raise (tail)	raise (tail)			6.7.7	2163	0			
+17583	209	Achang (Xiandao)	cɛ⁵⁵	cɛ⁵⁵	cured (illness)	cured (illness)	be v.	be v.	1.1.5.1	2174	0			
+17584	209	Achang (Xiandao)	kɤk⁵⁵	kɤk⁵⁵	crippled	crippled			4.2.7	2177	0			
+17585	209	Achang (Xiandao)	l̥ɔŋ⁵⁵	l̥ɔŋ⁵⁵	shout, yell	shout, yell			8.5.4.1	2181	0			
+17586	209	Achang (Xiandao)	tɔn⁵⁵	tɔn⁵⁵	castrate	castrate			1.9.2.3	2210	0			m
+17587	209	Achang (Xiandao)	n̥uʔ⁵⁵	n̥uʔ⁵⁵	hurt, wound	hurt, wound	v	v	1.1.5.1	2211	0			160
+17588	209	Achang (Xiandao)	ŋɤ⁵⁵ xat⁵⁵	ŋɤ⁵⁵ xat⁵⁵	fatten	fatten			1.6.4	2215	0			m,m
+17589	209	Achang (Xiandao)	tʰɔ³⁵	tʰɔ³⁵	grow up (shengzhang)	grow up (shengzhang)			9.7.2	2224	0			
+17590	209	Achang (Xiandao)	pɯŋ⁵⁵	pɯŋ⁵⁵	grow (boil)	grow (boil)			9.7.2	2226	0			
+17591	209	Achang (Xiandao)	pɔ³⁵	pɔ³⁵	birth, give	birth, give	v	v	1.1.2	2227	0			70
+17592	209	Achang (Xiandao)	kɔk⁵⁵	kɔk⁵⁵	thin	thin	v	v	9.7.2	2249	0			
+17593	209	Achang (Xiandao)	it⁵⁵	it⁵⁵	sleep	sleep			1.1.4.1	2259	0			127
+17594	209	Achang (Xiandao)	it⁵⁵ mui³¹	it⁵⁵ mui³¹	asleep	asleep			1.1.4.1	2261	0			127,130
+17595	209	Achang (Xiandao)	ʂuʔ⁵⁵	ʂuʔ⁵⁵	suck (milk)	suck (milk)			1.3.2.1	2262	0			5541
+17596	209	Achang (Xiandao)	kʐai⁵⁵	kʐai⁵⁵	speak	speak			8.5.10.1	2263	0			1753
+17597	209	Achang (Xiandao)	ʂʅ⁵⁵	ʂʅ⁵⁵	die	die			1.1.6	2265	0			27
+17598	209	Achang (Xiandao)	ɲuŋ³¹	ɲuŋ³¹	sore (leg)	sore (leg)			1.1.5.1	2270	0			
+17599	209	Achang (Xiandao)	kʰɤ³¹	kʰɤ³¹	ache	ache			1.1.5.1	2291	0			1849
+17600	209	Achang (Xiandao)	lɛʔ⁵⁵	lɛʔ⁵⁵	lick	lick			1.3.3.1	2301	0			629
+17601	209	Achang (Xiandao)	kɔ³⁵	kɔ³⁵	beat (pulse)	beat (pulse)			6.8	2307	0			
+17602	209	Achang (Xiandao)	kʐɔ³¹	kʐɔ³¹	listen	listen			1.2.7.4	2309	0			1411
+17603	209	Achang (Xiandao)	kʐɔ³¹	kʐɔ³¹	hear	hear			1.2.7.4	2310	0			1411
+17604	209	Achang (Xiandao)	ɲau⁵⁵	ɲau⁵⁵	swallow	swallow	v	v	1.3.5.6	2316	0			627
+17605	209	Achang (Xiandao)	tsɛ³⁵	tsɛ³⁵	spit	spit			1.8.3	2320	0			
+17606	209	Achang (Xiandao)	lok⁵⁵	lok⁵⁵	molt (snake)	molt (snake)			1.6.5.6	2327	0			
+17607	209	Achang (Xiandao)	nam³¹	nam³¹	smell (with nose)	smell (with nose)			1.2.8.5	2346	0			1415
+17608	209	Achang (Xiandao)	jɔ³¹	jɔ³¹	inhale	inhale			1.1.2.2	2352	0			
+17609	209	Achang (Xiandao)	tsɛt⁵⁵	tsɛt⁵⁵	blind	blind			1.2.6.14.2	2360	0			1401
+17610	209	Achang (Xiandao)	pʰo³¹	pʰo³¹	birth, give (pig)	birth, give  (pig)			1.1.2	2362	0	jbl3		70
+17611	209	Achang (Xiandao)	u³⁵	u³⁵	lay egg	lay egg			6.17	2363	0			301
+17612	209	Achang (Xiandao)	ɲop³¹	ɲop³¹	recede (boil)	recede (boil)			6.7.1	2378	0			
+17613	209	Achang (Xiandao)	ʐɯ⁵⁵	ʐɯ⁵⁵	laugh	laugh			1.8.8.1	2380	0			1108
+17614	209	Achang (Xiandao)	tut³⁵	tut³⁵	diarrhea	diarrhea			1.8.5	2383	0			
+17615	209	Achang (Xiandao)	tʂʰau³¹	tʂʰau³¹	blow nose	blow nose			1.3.1.4	2385	0			
+17616	209	Achang (Xiandao)	pa⁵⁵	pa⁵⁵	wake	wake	vt	vt	1.1.4	2386	0			i
+17617	209	Achang (Xiandao)	pʰa⁵⁵	pʰa⁵⁵	wake	wake	vt	vt	1.1.4	2386.1	0			i
+17618	209	Achang (Xiandao)	nɔ³¹	nɔ³¹	rest	rest			1.1.4.1	2387	0			84
+17619	209	Achang (Xiandao)	tɔn⁵⁵	tɔn⁵⁵	caponize	caponize			2.4.1	2396	0			m
+17620	209	Achang (Xiandao)	jɔ³¹	jɔ³¹	itch	itch			1.6.5.5	2400	0			1456
+17621	209	Achang (Xiandao)	pan³¹	pan³¹	bitten	bitten	be v.	be v.	1.3.4.4	2404	0			
+17622	209	Achang (Xiandao)	pan³¹	pan³¹	bite	bite			1.3.4.4	2405	0			1774
+17623	209	Achang (Xiandao)	pan³¹ tɔ³⁵	pan³¹ tɔ³⁵	bite hold of	bite hold of			1.3.4.4	2406	0			1774,m
+17624	209	Achang (Xiandao)	xun⁵⁵	xun⁵⁵	dizzy	dizzy			8.3.1.11.3	2430	0			
+17625	209	Achang (Xiandao)	pʰʐap⁵⁵	pʰʐap⁵⁵	blink	blink			1.2.6.12	2442	0			m
+17626	209	Achang (Xiandao)	xɔ³⁵	xɔ³⁵	open (mouth)	open (mouth)			6.2.2.6.1	2450	0			
+17627	209	Achang (Xiandao)	kɯ³¹	kɯ³¹	grow (up)	grow (up)			9.7.2	2451	0			
+17628	209	Achang (Xiandao)	pʐoŋ³¹	pʐoŋ³¹	bloat (belly) (zhang)	bloat (belly) (zhang)			1.4.7	2453	0			
+17629	209	Achang (Xiandao)	pʰu³⁵	pʰu³⁵	bloat (from overeating)	bloat (from overeating)			10.1.1	2453.1	0			
+17630	209	Achang (Xiandao)	ju⁵⁵	ju⁵⁵	nervous	nervous			8.3.1.5.5	2455	0			
+17631	209	Achang (Xiandao)	jau³⁵	jau³⁵	sting	sting	v	v	2.4.2	2460	0			
+17632	209	Achang (Xiandao)	ʐam³¹	ʐam³¹	swell up	swell up			1.1.5.2	2472	0			
+17633	209	Achang (Xiandao)	ɛt⁵⁵	ɛt⁵⁵	drunk	drunk			1.3.5.9	2497	0			

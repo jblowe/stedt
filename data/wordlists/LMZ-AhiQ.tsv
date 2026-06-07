@@ -1,341 +1,341 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-47281	216	Ahi	gɯ²¹ mo³³	gɯ²¹ mo³³	body	body		1.1.1	1.1	0		2,17
-47282	216	Ahi	ɑ³³ ʐu³³ pʻi⁵⁵	ɑ³³ ʐu³³ pʻi⁵⁵	side (right)	side (right)		1.4.5	1.2	0		p,2786
-47283	216	Ahi	ɑ³³ vɑ⁵⁵ pʻi	ɑ³³ vɑ⁵⁵ pʻi	side (left)	side (left)		1.4.5	1.3	0		p,2154
-47284	216	Ahi	no³³ ko³³⁀ɛ³³	no³³ ko³³⁀ɛ³³	back	back		1.4.8	1.4	0		203,m,s
-47285	216	Ahi	dʑi²¹ ɣɯ³³⁀ɛ³³	dʑi²¹ ɣɯ³³⁀ɛ³³	front	front		1.4.4	1.5	0		1212,m
-47286	216	Ahi	i³³ to²²	i³³ to²²	torso / trunk	torso  /  trunk		1.5.3.2	1.6	0		m,14
-47287	216	Ahi	tʻu²¹ pʻi⁵⁵ dʐi²¹	tʻu²¹ pʻi⁵⁵ dʐi²¹	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
-47289	216	Ahi	ni̱³³ te̱³³ gu̱²¹	ni̱³³ te̱³³ gu̱²¹	bosom	bosom		1.4.4.2	1.9	0		297,m,560
-47291	216	Ahi	pɑ³³ xo²¹	pɑ³³ xo²¹	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		m,34
-47292	216	Ahi	i³³ so³³	i³³ so³³	alive / be living	alive  /  be living		1.1.2.1	1.12	0		p,80
-47293	216	Ahi	i³³ ʂi²²	i³³ ʂi²²	die / be dead	die  /  be dead		1.1.6	1.13	0		p,27
-47294	216	Ahi	ʂi²² mu³³	ʂi²² mu³³	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		27,17
-47295	216	Ahi	i³³ ʂi³³ mu³³	i³³ ʂi³³ mu³³	carcass / dead animal	carcass  /  dead animal		1.1.6.1	1.15	0		p,27,17
-47296	216	Ahi	kɯ⁵⁵ po⁵⁵	kɯ⁵⁵ po⁵⁵	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		2128,s
-47297	216	Ahi	nɯ²¹	nɯ²¹	awake / be awake	awake  /  be awake		1.1.4	1.17	0		143
-47298	216	Ahi	ʑe̱²¹ me̱³³	ʑe̱²¹ me̱³³	dream	dream	v.	1.1.4.2	1.18	0		127,126
-47299	216	Ahi	o⁵⁵ ko̱³³	o⁵⁵ ko̱³³	head	head		1.2.1	2.1	0		385,387
-47300	216	Ahi	o⁵⁵ di³³	o⁵⁵ di³³	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		385,m
-47302	216	Ahi	o⁵⁵ ko̱³³ bu⁵⁵	o⁵⁵ ko̱³³ bu⁵⁵	skull	skull		1.2.1.1	2.4	0		385,387,1275
-47303	216	Ahi	o⁵⁵ nɯ̱³³	o⁵⁵ nɯ̱³³	brain	brain		1.2.4	2.5	0	D1	385,243
-47304	216	Ahi	no³³ dʐi²²	no³³ dʐi²²	sinus	sinus		1.2.8.1	2.6	0		
-47305	216	Ahi	o⁵⁵ tsʻi²²	o⁵⁵ tsʻi²²	hair of head	hair of head		1.2.3	2.7	0	D2	385,1226
-47306	216	Ahi	o⁵⁵ tɕi²²	o⁵⁵ tɕi²²	scalp	scalp		1.2.1.5	2.8	0		385,596
-47307	216	Ahi	ʑe̱³³ o⁵⁵ kɯ²²	ʑe̱³³ o⁵⁵ kɯ²²	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		1606,385,m
-47308	216	Ahi	o⁵⁵ tʂʻi²²	o⁵⁵ tʂʻi²²	horn (of animal)	horn (of animal)		1.2.2	2.10	0		385,819
-47309	216	Ahi	o⁵⁵ tɕe̱⁵⁵	o⁵⁵ tɕe̱⁵⁵	antler (of deer)	antler (of deer)		1.2.2	2.11	0		p,819
-47310	216	Ahi	tʻu²¹ ne̱³³	tʻu²¹ ne̱³³	face	face		1.2.5	3.1	0		1186,681
-47311	216	Ahi	ni⁵⁵ pʻu²²	ni⁵⁵ pʻu²²	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		356,2024
-47313	216	Ahi	ne̱³³ sɑ²¹	ne̱³³ sɑ²¹	eye	eye		1.2.6	3.4	0		681,m
-47314	216	Ahi	ne̱³³ tɕi²²	ne̱³³ tɕi²²	eyelid	eyelid		1.2.6.4	3.4.1	0		681,596
-47315	216	Ahi	ne̱³³ lo²² zo²¹	ne̱³³ lo²² zo²¹	eyeball	eyeball		1.2.6.1	3.4.2	0		681,1381,1012
-47316	216	Ahi	ne̱³³ mo²² zo²¹	ne̱³³ mo²² zo²¹	iris	iris		1.2.6.2	3.4.2.1	0		681,m,1012
-47319	216	Ahi	ne̱³³ bu̱³³ tsʻɛ²²	ne̱³³ bu̱³³ tsʻɛ²²	eyebrow	eyebrow		1.2.6.6	3.4.3	0		681,1275,1232
-47320	216	Ahi	ne̱³³ tsɛ²²	ne̱³³ tsɛ²²	eyelash	eyelash		1.2.6.5	3.4.4	0		681,1232
-47321	216	Ahi	ne̱³³ mu³³ tsʻi̱²¹	ne̱³³ mu³³ tsʻi̱²¹	blink	blink	v.	1.2.6.12	3.4.5	0		681,m,m
-47322	216	Ahi	ne̱³³ ʑi²²	ne̱³³ ʑi²²	tears	tears	n	1.2.6.7	3.4.6	0		681,1013
-47324	216	Ahi	ŋɯ³³	ŋɯ³³	cry / weep	cry  /  weep	v.	1.8.8.2	3.4.8	0		1104
-47325	216	Ahi	ni³³	ni³³	see / look	see  /  look	v.	1.2.6.10	3.4.9	0		5419
-47326	216	Ahi	ne̱³³ tɯ⁵⁵	ne̱³³ tɯ⁵⁵	blind	blind		1.2.6.14.2	3.4.10	0		681,m
-47327	216	Ahi	no³³ bo̱²¹	no³³ bo̱²¹	nose	nose		1.2.8	3.5	0		803,806
-47328	216	Ahi	no³³ tʂɛ²² ɣɯ²¹	no³³ tʂɛ²² ɣɯ²¹	nose bridge	nose bridge		1.2.8	3.5.1	0		803,m,232
-47329	216	Ahi	no³³ bo̱²¹ ne̱³³ bɑ⁵⁵	no³³ bo̱²¹ ne̱³³ bɑ⁵⁵	nostril	nostril		1.2.8.1	3.5.2	0		803,806,m,m
-47330	216	Ahi	no³³ bo̱²¹ i³³ nɯ̱³³	no³³ bo̱²¹ i³³ nɯ̱³³	nose hair	nose hair		1.2.8	3.5.4	0		803,806,m,363
-47331	216	Ahi	no³³ ʈʻi̱²¹	no³³ ʈʻi̱²¹	snout	snout		1.2.8	3.5.5	0		803
-47332	216	Ahi	no³³ ʑi²²	no³³ ʑi²²	liquid mucus	liquid mucus		3.2.3	3.5.6	0		
-47333	216	Ahi	no³³ bo̱²¹	no³³ bo̱²¹	solid mucus	solid mucus		1.1.5	3.5.7	0		803,806*
-47334	216	Ahi	no³³ bo̱²¹ si̱³³	no³³ bo̱²¹ si̱³³	blow nose	blow nose	v.	1.3.1.4	3.5.8	0		803,806,m
-47335	216	Ahi	nɯ²¹	nɯ²¹	smell / sniff	smell  /  sniff	v.	1.2.8.5	3.5.9	0		1415
-47336	216	Ahi	no³³ pɑ³³	no³³ pɑ³³	ear	ear		1.2.7	3.6	0		811,812
-47337	216	Ahi	no⁵⁵ tsɑ̱³³	no⁵⁵ tsɑ̱³³	earlobe	earlobe		1.2.7.1	3.6.1	0		811,816
-47338	216	Ahi	no³³ pɑ³³ i³³ tsɛ³³	no³³ pɑ³³ i³³ tsɛ³³	outer ear	outer ear		9.2	3.6.2	0		811,812,m,m
-47339	216	Ahi	no³³ pɑ³³ i³³ ku³³	no³³ pɑ³³ i³³ ku³³	inner ear	inner ear		9.2.5	3.6.3	0		811,812,m,m
-47340	216	Ahi	no³³ pɑ³³ ne̱³³ bɑ⁵⁵	no³³ pɑ³³ ne̱³³ bɑ⁵⁵	ear canal	ear canal		1.2.7	3.6.4	0		811,812,m,m
-47341	216	Ahi	no³³ pɑ³³ ʈʻo²¹ zo²¹	no³³ pɑ³³ ʈʻo²¹ zo²¹	eardrum	eardrum		1.2.7.2	3.6.5	0		811,812,m,1012
-47342	216	Ahi	no⁵⁵ ʈʻi²¹	no⁵⁵ ʈʻi²¹	earwax	earwax		1.2.7.3	3.6.6	0		811,572
-47343	216	Ahi	no³³	no³³	hear	hear	v.	1.2.7.4	3.6.7	0		811
-47344	216	Ahi	no⁵⁵ bu²¹	no⁵⁵ bu²¹	deaf	deaf		1.2.7.5	3.6.8	0		811,1409
-47345	216	Ahi	ni²¹ pʻe̱²¹	ni²¹ pʻe̱²¹	mouth	mouth		1.3.1	3.7	0		467,2096
-47346	216	Ahi	ɑ³³ ŋɑ̱³³	ɑ³³ ŋɑ̱³³	palate	palate		1.3.1.1	3.7.1	0		p,1720
-47347	216	Ahi	ɑ³³ ŋɑ̱³³ zo²¹	ɑ³³ ŋɑ̱³³ zo²¹	soft palate	soft palate		7.1.4.2	3.7.2	0		p,1720,m
-47348	216	Ahi	tʂʻɑ³³ tɕʻi²²	tʂʻɑ³³ tɕʻi²²	gums	gums		1.3.4.3	3.7.3	0		635,m
-47349	216	Ahi	lo³³ zo²¹	lo³³ zo²¹	uvula	uvula		1.3.5.1	3.7.4	0		
-47350	216	Ahi	ni²¹ ʑi²²	ni²¹ ʑi²²	saliva	saliva		1.8.3	3.7.5	0		467,1013
-47351	216	Ahi	dzo²¹	dzo²¹	eat	eat	v.	1.5.3.2	3.7.6	0		36
-47352	216	Ahi	tu²²	tu²²	drink	drink	v.		3.7.7	0		502
-47353	216	Ahi	kʻɑ²¹	kʻɑ²¹	thirsty	thirsty	be v.	1.1.3.1	3.7.8	0		105
-47354	216	Ahi	ni̱²¹	ni̱²¹|	hungry	hungry	be v.	1.1.3	3.7.9	0		99
-47355	216	Ahi	bu̱³³	bu̱³³	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		100
-47356	216	Ahi	pʻi²¹	pʻi²¹	spit	spit	v.	1.8.3	3.7.11	0		
-47357	216	Ahi	pʻi̱²¹ to²²	pʻi̱²¹ to²²	vomit	vomit	n.	1.8.3.2	3.7.12	0		1145
-47358	216	Ahi	pʻi̱²¹	pʻi̱²¹	vomit	vomit	v.	1.8.3.2	3.7.13	0		1145
-47359	216	Ahi	mu̱³³ zi²¹	mu̱³³ zi²¹	hold in mouth	hold in mouth	v.	1.3.4.4	3.7.14	0		
-47360	216	Ahi	ni²¹ xɑ²¹	ni²¹ xɑ²¹	gape / open mouth	gape  /  open mouth	v.	1.3.1	3.7.15	0		467,273
-47361	216	Ahi	xɑ⁵⁵	xɑ⁵⁵	yawn	yawn	v.	1.3.1.3	3.7.16	0		1716
-47362	216	Ahi	lo³³	lo³³	tongue	tongue		1.3.3	3.8	0		623
-47363	216	Ahi	be̱³³	be̱³³	speak	speak	v.	8.5.10.1	3.8.1	0		
-47364	216	Ahi	tɕe̱²¹ tsi̱²¹ mo³³	tɕe̱²¹ tsi̱²¹ mo³³	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
-47365	216	Ahi	ɑ³³ mu⁵⁵	ɑ³³ mu⁵⁵	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		
-47366	216	Ahi	ɬɑ̱²¹	ɬɑ̱²¹	lick	lick	v.	1.3.3.1	3.8.4	0		629
-47367	216	Ahi	ni²¹ tɕi²²	ni²¹ tɕi²²	lip	lip		1.3.2	3.9	0		467,596
-47370	216	Ahi	ni²¹ pʻe̱²¹	ni²¹ pʻe̱²¹	beak / bill	beak / bill		1.3.1.2	3.9.3	0		467,2096
-47371	216	Ahi	ɣɑ²²	ɣɑ²²	smile	smile	v.	1.8.8.1	3.9.4	0		1108
-47372	216	Ahi	bu̱²¹	bu̱²¹	kiss	kiss	v.	1.3.2.2	3.9.5	0		3450
-47373	216	Ahi	tʂɑ²² ɣɯ²¹	tʂɑ²² ɣɯ²¹	tooth	tooth		1.3.4	3.10	0		635,m
-47374	216	Ahi	tʂɑ²² si⁵⁵ zo²¹	tʂɑ²² si⁵⁵ zo²¹	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		635,1214,m
-47375	216	Ahi	bo²¹ lo³³ tʂɑ²²	bo²¹ lo³³ tʂɑ²²	molar	molar		1.3.4.2	3.10.2	0		268,m,632
-47376	216	Ahi	tɕʻi²¹ tʂɑ²²	tɕʻi²¹ tʂɑ²²	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang		1.3.4.1	3.10.3	0		1764,635
-47377	216	Ahi	tʂɑ²² kɯ³³ mo³³	tʂɑ²² kɯ³³ mo³³	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		635,m,m
-47378	216	Ahi	tʂɑ²² ɣɯ²¹ ɑ²¹ lɑ⁵⁵ ɕi²¹	tʂɑ²² ɣɯ²¹ ɑ²¹ lɑ⁵⁵ ɕi²¹	baby tooth	baby tooth		4.2.11	3.10.5	0		
-47379	216	Ahi	tʂɑ²² tɕe̱³³ mo³³	tʂɑ²² tɕe̱³³ mo³³	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		635,m,s
-47380	216	Ahi	dzɑ̱²¹	dzɑ̱²¹	bite	bite	v.	1.3.4.4	3.10.7	0		
-47381	216	Ahi	go²¹	go²¹	chew	chew	v.	1.3.4	3.10.8	0		1762
-47382	216	Ahi	bo²¹ i²¹	bo²¹ i²¹	cheek	cheek		1.2.5.2	3.11	0		268,m
-47383	216	Ahi	bo²¹ ko̱³³ ɣɯ²¹	bo²¹ ko̱³³ ɣɯ²¹	cheekbone	cheekbone		1.2.5.2	3.11.1	0		268,m,232
-47384	216	Ahi	ni²¹ pi³³ tʻu²²	ni²¹ pi³³ tʻu²²	chin	chin		1.2.5.3	3.12	0		467,271,280
-47386	216	Ahi	ɑ³³ ŋɑ̱³³ tʻu²²	ɑ³³ ŋɑ̱³³ tʻu²²	lower jaw / mandible	lower jaw  /  mandible		1.2.5.2	3.13.1	0		m,2059,m
-47387	216	Ahi	ɑ³³ ŋɑ̱³³ o⁵⁵	ɑ³³ ŋɑ̱³³ o⁵⁵	upper jaw / maxilla	upper jaw  /  maxilla		1.2.5.2	3.13.2	0		m,2059,m
-47388	216	Ahi	lɛ²² ɣɯ²¹	lɛ²² ɣɯ²¹	neck	neck		1.4.2	4.1	0		479,232
-47389	216	Ahi	lɛ²² pɑ³³	lɛ²² pɑ³³	goiter	goiter		1.4.2.2	4.1.1	0		479,m
-47390	216	Ahi	bo²¹ ʈɑ̱³³	bo²¹ ʈɑ̱³³	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)		1.1.5.2	4.1.2	0		163,m
-47391	216	Ahi	ko⁵⁵ lɛ²² ɣɯ²¹	ko⁵⁵ lɛ²² ɣɯ²¹	nape of neck	nape of neck		1.4.2.1	4.1.3	0		495,479,232
-47392	216	Ahi	tʂʻo²¹ lɛ²² po⁵⁵	tʂʻo²¹ lɛ²² po⁵⁵	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		3363,479,m
-47393	216	Ahi	tʂʻo²¹ tʂo²²	tʂʻo²¹ tʂo²²	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		3363,m
-47394	216	Ahi	sɛ̱²¹ po⁵⁵	sɛ̱²¹ po⁵⁵	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		32,m
-47395	216	Ahi	tso²² po⁵⁵	tso²² po⁵⁵	esophagus	esophagus		1.3.5.5	4.2.2	0		
-47396	216	Ahi	lɯ²¹	lɯ²¹	swallow	swallow	v.	1.3.5.6	4.2.3	0		
-47397	216	Ahi	bi²¹ lɛ²²	bi²¹ lɛ²²	gizzard / crop of bird	gizzard  /  crop of bird		1.7.6.1	4.2.4	0		m,m
-47398	216	Ahi	ni̱³³ te̱³³ gu̱²¹	ni̱³³ te̱³³ gu̱²¹	chest	chest		1.4.4.3	5.1	0		297,m,560
-47399	216	Ahi	nɯ̱³³ ɣɯ²¹ bu⁵⁵	nɯ̱³³ ɣɯ²¹ bu⁵⁵	rib cage	rib cage		1.4.4.3	5.1.1	0		297,232,m
-47400	216	Ahi	nɯ̱³³ ɣɯ²¹	nɯ̱³³ ɣɯ²¹	rib	rib		1.4.4.3	5.1.2	0		297,232
-47401	216	Ahi	ni̱³³ te̱³³ ɣɯ²¹	ni̱³³ te̱³³ ɣɯ²¹	breastbone / sternum	breastbone  /  sternum		1.6.3.2	5.1.3	0		
-47402	216	Ahi	mɑ⁵⁵ ɣɯ²¹	mɑ⁵⁵ ɣɯ²¹	collar bone / clavicle	collar bone  /  clavicle		1.4.3.1	5.2	0		m,232
-47403	216	Ahi	pʻɑ²² ni²¹	pʻɑ²² ni²¹	shoulder	shoulder		1.4.3	5.3	0		570,m
-47404	216	Ahi	pʻɑ²² ɣɯ²¹	pʻɑ²² ɣɯ²¹	shoulder blade / scapula	shoulder blade  /  scapula		1.4.3.2	5.3.1	0		568,232
-47405	216	Ahi	pʻɑ²² ʂi⁵⁵	pʻɑ²² ʂi⁵⁵	shrug shoulders	shrug shoulders	v.	1.4.3.3	5.3.2	0		
-47406	216	Ahi	ɑ³³ nɯ³³ pi⁵⁵	ɑ³³ nɯ³³ pi⁵⁵	breast	breast		1.4.4.3	5.4	0		p,253,276
-47407	216	Ahi	ɑ³³ nɯ³³ ni²¹	ɑ³³ nɯ³³ ni²¹	nipple	nipple			5.4.1	0		p,253,254
-47408	216	Ahi	ɑ³³ nɯ³³	ɑ³³ nɯ³³	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		
-47409	216	Ahi	ɑ³³ nɯ³³	ɑ³³ nɯ³³	milk	milk			5.4.3	0		p,253
-47410	216	Ahi	ɑ³³ nɯ³³ tɕi⁵⁵	ɑ³³ nɯ³³ tɕi⁵⁵	colostrum	colostrum			5.4.4	0		
-47411	216	Ahi	ɑ³³ nɯ³³ tʂi̱⁵⁵	ɑ³³ nɯ³³ tʂi̱⁵⁵	suck	suck	v.	1.3.2.1	5.4.5	0		m,m,5541
-47412	216	Ahi	tʂi̱⁵⁵	tʂi̱⁵⁵	nurse / suckle	nurse  /  suckle	v.	4.2.1.5	5.4.6	0		5541
-47413	216	Ahi	ɑ³³ nɯ³³ ŋɯ⁵⁵	ɑ³³ nɯ³³ ŋɯ⁵⁵	wean	wean			5.4.7	0		p,253,m
-47414	216	Ahi	no³³ ko³³ tɕi²²	no³³ ko³³ tɕi²²	back	back		1.4.8	5.5	0		203,m,223
-47415	216	Ahi	pʻɑ²² ni²¹	pʻɑ²² ni²¹	upper back	upper back		9.2.1	5.5.1	0		410,m
-47416	216	Ahi	pʻɑ²² le̱²¹	pʻɑ²² le̱²¹	lower back	lower back		1.4.8.1	5.5.2	0		410,m
-47417	216	Ahi	pʻɑ²² zo²¹	pʻɑ²² zo²¹	small of back	small of back		1.4.8.1	5.5.3	0		410,215
-47418	216	Ahi	nɯ̱³³ ɣɯ²¹ to²²	nɯ̱³³ ɣɯ²¹ to²²	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		203,232,m
-47419	216	Ahi	nɯ̱³³ ɣɯ²¹ tsi̱⁵⁵	nɯ̱³³ ɣɯ²¹ tsi̱⁵⁵	spinal cord	spinal cord		1.4.8.2	5.5.5	0		
-47420	216	Ahi	bu³³ ko³³	bu³³ ko³³	hunchback	hunchback		1.4.8.3	5.5.6	0		163,211
-47421	216	Ahi	dʐu̱²¹ tsi̱⁵⁵ ɣɯ²¹	dʐu̱²¹ tsi̱⁵⁵ ɣɯ²¹	waist	waist		1.4.6	5.6	0		215,418,232
-47423	216	Ahi	tʂʻi̱²¹ bu̱²¹ dɯ⁵⁵ lɯ⁵⁵	tʂʻi̱²¹ bu̱²¹ dɯ⁵⁵ lɯ⁵⁵	navel	navel		1.9.4	5.7.1	0		525,m,520,m
-47424	216	Ahi	ɣɯ²¹ pʻi²¹ zo²¹	ɣɯ²¹ pʻi²¹ zo²¹	pelvis / pelvic girdle	pelvis  /  pelvic girdle		1.4.9.2	5.8	0		m,1361,m
-47425	216	Ahi	mɑ⁵⁵ pʻi²¹ ɣɯ²¹	mɑ⁵⁵ pʻi²¹ ɣɯ²¹	hips	hips		1.4.9.2	5.8.1	0		1288,1361,220
-47426	216	Ahi	ʈʻu²¹ tʂo̱⁵⁵ gu̱²¹	ʈʻu²¹ tʂo̱⁵⁵ gu̱²¹	hipbone	hipbone		1.4.9.2	5.8.2	0		m,215,233
-47427	216	Ahi	ɑ³³ pɑ̱³³ tɕʻi²¹ dʐi²¹	ɑ³³ pɑ̱³³ tɕʻi²¹ dʐi²¹	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		
-47428	216	Ahi	tɕʻi²² vi³³ dɯ²¹	tɕʻi²² vi³³ dɯ²¹	crotch / fork of legs	crotch  /  fork of legs		1.4.9.1	5.9	0		
-47429	216	Ahi	mɑ⁵⁵	mɑ⁵⁵	rump	rump		1.4.10	5.10	0		1288
-47430	216	Ahi	mɑ⁵⁵ po²²	mɑ⁵⁵ po²²	buttocks	buttocks		1.4.10	5.10.1	0		1288,404
-47431	216	Ahi	mɑ⁵⁵ ɣɯ²¹	mɑ⁵⁵ ɣɯ²¹	tailbone / coccyx	tailbone  /  coccyx		1.6.3.3	5.10.2	0		1288,232
-47432	216	Ahi	mɑ⁵⁵ dʐi²¹	mɑ⁵⁵ dʐi²¹	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		1288,m
-47433	216	Ahi	pʻɑ²² le̱²¹	pʻɑ²² le̱²¹	arm	arm		1.5.1.2	6.1	0		m,695
-47434	216	Ahi	ʑe̱⁵⁵ mɑ³³ dɯ²¹	ʑe̱⁵⁵ mɑ³³ dɯ²¹	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
-47435	216	Ahi	ʐo²¹ ve̱³³	ʐo²¹ ve̱³³	tickle	tickle	v.	1.5.1.2.4	6.1.1.1	0		
-47436	216	Ahi	le̱²¹ pʻɑ²²	le̱²¹ pʻɑ²²	upperarm	upperarm		1.5.1.2.1	6.1.2	0		
-47438	216	Ahi	le̱²¹ nɯ̱⁵⁵ dɯ²¹	le̱²¹ nɯ̱⁵⁵ dɯ²¹	elbow	elbow		1.5.8.3	6.1.4	0		695,m,306
-47439	216	Ahi	le̱²¹ nɯ̱⁵⁵ ɣɯ²¹	le̱²¹ nɯ̱⁵⁵ ɣɯ²¹	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		695,m,307
-47440	216	Ahi	le²¹ lɛ²²	le²¹ lɛ²²	inner elbow / crook of elbow	inner elbow  /  crook of elbow		1.5.8.3	6.1.4.2	0		695,m
-47441	216	Ahi	le̱²¹ ɣɯ²¹	le̱²¹ ɣɯ²¹	forearm / lower arm	forearm  /  lower arm		1.5.1.2.2	6.1.5	0		695,232
-47442	216	Ahi	le̱²¹ gu̱⁵⁵	le̱²¹ gu̱⁵⁵	wrist	wrist		1.5.8.1	6.1.6	0		695,m
-47443	216	Ahi	le̱²¹	le̱²¹	hand	hand		1.5.1.1	6.1.7	0		695
-47444	216	Ahi	le̱²¹ te̱³³	le̱²¹ te̱³³	palm	palm		1.5.5	6.1.7.1	0		
-47445	216	Ahi	le̱²¹ kʻɑ²²	le̱²¹ kʻɑ²²	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		695,m
-47446	216	Ahi	le̱²¹ pu⁵⁵ tsʻi̱²¹	le̱²¹ pu⁵⁵ tsʻi̱²¹	fist	fist		1.5.1.1.1	6.1.7.3	0		695,m,86
-47447	216	Ahi	le̱²¹ ʐu³³	le̱²¹ ʐu³³	right hand	right hand		1.5.3.2	6.1.7.4	0		695,2786
-47448	216	Ahi	le̱²¹ vɑ⁵⁵	le̱²¹ vɑ⁵⁵	left hand	left hand		1.5.3.2	6.1.7.5	0		695,2154
-47449	216	Ahi	ɑ³³ ŋo²¹ ʈo²² le̱²¹	ɑ³³ ŋo²¹ ʈo²² le̱²¹	fin (of fish)	fin (of fish)		1.5.1.3.1	6.1.8	0		
-47450	216	Ahi	ʈo²² le̱²¹	ʈo²² le̱²¹	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		711,695
-47451	216	Ahi	tɕʻi²² si²¹	tɕʻi²² si²¹	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
-47452	216	Ahi	ʈʻu²¹ pʻi⁵⁵ ɣɯ²¹	ʈʻu²¹ pʻi⁵⁵ ɣɯ²¹	leg	leg		1.5.7	6.2	0		
-47453	216	Ahi	ʈʻu²¹ ɣɯ²¹	ʈʻu²¹ ɣɯ²¹	thigh	thigh		1.5.7.1	6.2.1	0		
-47454	216	Ahi	ʈʻu²¹ tʂo̱⁵⁵ ɣɯ²¹	ʈʻu²¹ tʂo̱⁵⁵ ɣɯ²¹	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		m,m,232
-47455	216	Ahi	ɑ³³ pɑ̱³³ tɕʻi²¹ dʐi²¹	ɑ³³ pɑ̱³³ tɕʻi²¹ dʐi²¹	hamstring	hamstring		1.6.6.2	6.2.1.2	0		
-47456	216	Ahi	po³³ tsi³³ ni⁵⁵ o⁵⁵ ko̱³³	po³³ tsi³³ ni⁵⁵ o⁵⁵ ko̱³³	knee	knee		1.5.8.4	6.2.2	0		435,m,m,m,m
-47457	216	Ahi	po³³ tsʻi̱²¹ bu⁵⁵	po³³ tsʻi̱²¹ bu⁵⁵	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		435,m,m
-47458	216	Ahi	po³³ tsʻi̱²¹ gu̱²¹	po³³ tsʻi̱²¹ gu̱²¹	knee hollow / popliteal region	knee hollow  /  popliteal region		1.5.8.4	6.2.2.2	0		435,m,m
-47459	216	Ahi	po²² tsʻi̱²¹	po²² tsʻi̱²¹	shin / tibia	shin  /  tibia		1.5.7.2	6.2.3	0		
-47460	216	Ahi	po²² tsʻi̱²¹ ɣɯ²¹	po²² tsʻi̱²¹ ɣɯ²¹	shin bone	shin bone		1.5.7.2	6.2.3.1	0		m,m,232
-47461	216	Ahi	tɕʻi²² lɛ²² ɣɯ²¹	tɕʻi²² lɛ²² ɣɯ²¹	calf	calf		1.5.7	6.2.4	0		
-47462	216	Ahi	go̱²¹ bu⁵⁵ zo²¹	go̱²¹ bu⁵⁵ zo²¹	ankle	ankle		1.5.8.2	6.2.5	0		
-47463	216	Ahi	go̱²¹ bu⁵⁵ ɣɯ²¹	go̱²¹ bu⁵⁵ ɣɯ²¹	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		m,m,232
-47464	216	Ahi	tɕʻi²² be̱³³	tɕʻi²² be̱³³	foot	foot		1.5.2	6.2.6	0		335,m
-47465	216	Ahi	go̱²¹ ni̱⁵⁵	go̱²¹ ni̱⁵⁵	heel	heel		1.5.2.1	6.2.6.1	0		
-47466	216	Ahi	tɕʻi²² kɑ̱³³ zo²¹	tɕʻi²² kɑ̱³³ zo²¹	arch	arch		1.5.2.3	6.2.6.3	0		
-47467	216	Ahi	tɕʻi²² te̱³³ zo²¹	tɕʻi²² te̱³³ zo²¹	ball of the foot	ball of the foot		9.7.1	6.2.6.4	0		
-47468	216	Ahi	go̱²¹ te̱³³ zo²¹	go̱²¹ te̱³³ zo²¹	sole	sole		1.5.5	6.2.6.5	0		
-47469	216	Ahi	tɕʻi²² kʻɑ²²	tɕʻi²² kʻɑ²²	instep	instep		1.5.2.2	6.2.6.6	0		
-47470	216	Ahi	tɕʻi²² do²²	tɕʻi²² do²²	footprint	footprint		1.5.2.5	6.2.6.7	0		
-47471	216	Ahi	bo̱²¹	bo̱²¹	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		5623
-47472	216	Ahi	tɕʻi²² si²¹ zo²¹	tɕʻi²² si²¹ zo²¹	paw (of animal)	paw (of animal)		1.5.4	6.2.6.9	0		335,512,1012
-47473	216	Ahi	go̱²¹ ʈa³³	go̱²¹ ʈa³³	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-47474	216	Ahi	go̱²¹ ʈɑ³³	go̱²¹ ʈɑ³³	limp	limp	v.	1.5.12	6.2.8	0		
-47475	216	Ahi	le̱²¹ tʂi³³ mo³³ zo²¹	le̱²¹ tʂi³³ mo³³ zo²¹	finger	finger		1.5.6	7.1	0		
-47476	216	Ahi	le̱²¹ tʂi³³ ni²¹	le̱²¹ tʂi³³ ni²¹	index finger	index finger		1.0	7.1.1	0		
-47481	216	Ahi	le̱²¹ vɛ³³ zo²¹	le̱²¹ vɛ³³ zo²¹	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
-47482	216	Ahi	tɕʻi̱²¹ tʂi³³ mp³³	tɕʻi̱²¹ tʂi³³ mp³³	toe	toe		1.5.6	7.2	0		
-47483	216	Ahi	tɕʻi̱²¹ tʂi³³ mo³³ zo²¹	tɕʻi̱²¹ tʂi³³ mo³³ zo²¹	big toe	big toe		1.5.6.1	7.2.1	0		
-47484	216	Ahi	tɕʻi̱²¹ tʂi³³ ni²¹	tɕʻi̱²¹ tʂi³³ ni²¹	second toe	second toe		9.9	7.2.2	0		
-47489	216	Ahi	le̱²¹ si²¹	le̱²¹ si²¹	nail	nail		1.5.10	7.4	0		695,512
-47490	216	Ahi	le̱²¹ si²¹ zo²¹	le̱²¹ si²¹ zo²¹	fingernail	fingernail		1.5.10.1	7.4.1	0		695,512,1012
-47491	216	Ahi	tɕʻi²² si²¹ zo²¹	tɕʻi²² si²¹ zo²¹	toenail	toenail		1.5.10.2	7.4.2	0		335,512,1012
-47492	216	Ahi	tɕʻi²² si²¹	tɕʻi²² si²¹	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		335,512
-47493	216	Ahi	no̱³³ to²²	no̱³³ to²²	pincers (eg. of crab)	pincers (eg. of crab)		1.5.10.4	7.4.5	0		
-47494	216	Ahi	i³³ nɯ̱³³	i³³ nɯ̱³³	hair (general)	hair (general)		1.2.3	8.1	0		p,363
-47495	216	Ahi	o⁵⁵ tsʻi²²	o⁵⁵ tsʻi²²	hair of head	hair of head		1.2.3	8.1.1	0	HIDE	DUPE IN SOURCE
-47496	216	Ahi	o⁵⁵ tsɛ²² to²²	o⁵⁵ tsɛ²² to²²	cowlick (flexure in hair)	cowlick (flexure in hair)		1.2.3.1	8.1.1.1	0		385,1232,m
-47497	216	Ahi	bo²¹ nɯ̱³³	bo²¹ nɯ̱³³	beard / moustache	beard / moustache		1.2.5.5	8.1.2	0		268,471
-47498	216	Ahi	ni²¹ tsʻi²²	ni²¹ tsʻi²²	beard	beard		1.2.5.5	8.1.2.1	0		467,1232
-47499	216	Ahi	ni²¹ tsʻi²² zo²¹	ni²¹ tsʻi²² zo²¹	goatee	goatee		1.2.5.5	8.1.2.2	0		467,1232,m
-47501	216	Ahi	xo²¹ nɯ̱³³ be³³ zo²¹	xo²¹ nɯ̱³³ be³³ zo²¹	body hair	body hair		1.6.1	8.1.3	0		m,368,m,m
-47505	216	Ahi	nɯ̱³³ bɛ³³ zo²¹	nɯ̱³³ bɛ³³ zo²¹	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		m,m,m
-47506	216	Ahi	xe̱³³ nɯ̱³³ bɛ³³ zo²¹	xe̱³³ nɯ̱³³ bɛ³³ zo²¹	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		m,m,m,m
-47507	216	Ahi	o⁵⁵ bɑ²¹	o⁵⁵ bɑ²¹	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		m,m
-47508	216	Ahi	ni²¹ tsʻi²²	ni²¹ tsʻi²²	whiskers (of animal)	whiskers (of animal)		1.2.5.5	8.1.7	0		467,1232
-47509	216	Ahi	i³³ tɕi²²	i³³ tɕi²²	skin	skin		1.6.5	8.2	0		m,596
-47510	216	Ahi	tʂa⁵⁵	tʂa⁵⁵	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		615
-47511	216	Ahi	xo²¹ nɯ̱³³ do̱²¹ dɯ²¹	xo²¹ nɯ̱³³ do̱²¹ dɯ²¹	pore	pore		1.8.1.1	8.2.2	0		
-47512	216	Ahi	xo²¹ ne̱³³ gɑ̱²¹ zo²¹	xo²¹ ne̱³³ gɑ̱²¹ zo²¹	blemish on skin	blemish on skin		1.6.5	8.2.3	0		m,m,m,m
-47513	216	Ahi	ʑi²² mu⁵⁵ ʈʻi²¹ pa²²	ʑi²² mu⁵⁵ ʈʻi²¹ pa²²	freckle	freckle		1.6.5.3	8.2.3.1	0		
-47514	216	Ahi	bu̱³³	bu̱³³	pimple	pimple		1.6.5.3	8.2.3.2	0		
-47515	216	Ahi	ti³³ ɣɯ²¹	ti³³ ɣɯ²¹	mole	mole		2.2.7	8.2.3.3	0		
-47516	216	Ahi	bu̱³³ tsʻi̱²¹ zo²¹	bu̱³³ tsʻi̱²¹ zo²¹	wart	wart		1.6.5.3	8.2.3.4	0		
-47517	216	Ahi	ko⁵⁵ pʻo̱²¹	ko⁵⁵ pʻo̱²¹	cyst	cyst		1.6.5.3	8.2.3.5	0		
-47518	216	Ahi	le̱⁵⁵ gɑ²¹	le̱⁵⁵ gɑ²¹	age spot / liver spot	age spot  /  liver spot		6.2	8.2.3.6	0		
-47519	216	Ahi	ve̱²¹ lo⁵⁵ pe̱⁵⁵	ve̱²¹ lo⁵⁵ pe̱⁵⁵	scar	scar		1.6.5.3	8.2.3.7	0		
-47520	216	Ahi	tɕi²² gɑ²¹	tɕi²² gɑ²¹	rash	rash		1.6.5.3	8.2.3.9	0		
-47521	216	Ahi	ʐo²¹ ve̱³³	ʐo²¹ ve̱³³	itch  / be itchy	itch   /  be itchy	v.	1.6.5.5	8.2.3.10	0		6131,s
-47522	216	Ahi	no²² ŋo̱⁵⁵	no²² ŋo̱⁵⁵	scab	scab		1.6.5.3	8.2.4	0		
-47523	216	Ahi	ɑ³³ ŋo²¹ i³³ kɯ⁵⁵	ɑ³³ ŋo²¹ i³³ kɯ⁵⁵	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		p,1455,m,783
-47525	216	Ahi	tsʻɑ²²	tsʻɑ²²	fat	fat		1.6.4	8.3	0		42
-47527	216	Ahi	tsʻɑ²²	tsʻɑ²²	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		42
-47528	216	Ahi	ɣo²¹ ko̱³³	ɣo²¹ ko̱³³	bone	bone		1.6.3	8.4	0		232,m
-47529	216	Ahi	ɣɯ²¹ bu⁵⁵	ɣɯ²¹ bu⁵⁵	skeleton	skeleton		1.6.3.1	8.4.1	0		b,m
-47530	216	Ahi	pʻɑ³³ tsi̱⁵⁵ ɣɯ²¹	pʻɑ³³ tsi̱⁵⁵ ɣɯ²¹	vertebrae (of spine)	vertebrae (of spine)		1.6.3.3	8.4.2	0		m,m,232
-47531	216	Ahi	ɣɯ²¹ ʈo³³	ɣɯ²¹ ʈo³³	marrow	marrow		1.6.3.5	8.4.3	0	D1	232,459
-47532	216	Ahi	ɣɯ²¹ ni²¹ zo²¹	ɣɯ²¹ ni²¹ zo²¹	cartilage / grist	cartilage  /  grist		1.6.3.4	8.4.4	0		232,275,m
-47534	216	Ahi	dʐi²¹ tʂo³³	dʐi²¹ tʂo³³	ligament (bone to bone)	ligament (bone to bone)		1.6.3	8.6	0		m,535
-47535	216	Ahi	si²¹	si²¹	blood	blood		1.6.2	8.7	0		230
-47536	216	Ahi	si²¹ tʂo³³	si²¹ tʂo³³	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		230,535
-47537	216	Ahi	si²¹ du̱³³	si²¹ du̱³³	bleed	bleed	v.	1.6.2	8.7.2	0		230,m
-47538	216	Ahi	xo²¹ tɕi²²	xo²¹ tɕi²²	muscle	muscle		1.6.6.2	8.8	0		34,m
-47539	216	Ahi	ɣɯ²¹ tsi̱⁵⁵	ɣɯ²¹ tsi̱⁵⁵	joint	joint		1.5.8	8.9	0		232,418
-47540	216	Ahi	sɛ³³ tʂo³³	sɛ³³ tʂo³³	nerve	nerve		1.6.6.3	8.10	0		530,535
-47541	216	Ahi	o⁵⁵ nɯ̱³³	o⁵⁵ nɯ̱³³	brain	brain		1.2.4	9.1	0	HIDE	DUPE IN SOURCE
-47542	216	Ahi	pʻɑ²² ʈo³³ zo²¹	pʻɑ²² ʈo³³ zo²¹	spinal cord	spinal cord		1.4.8.2	9.1.1	0		
-47543	216	Ahi	ɣɯ²¹ ʈo³³	ɣɯ²¹ ʈo³³	marrow	marrow		1.6.3.5	9.1.2	0	HIDE	DUPE IN SOURCE
-47544	216	Ahi	tsi³³ pu²²	tsi³³ pu²²	lung	lung		1.7.2	9.2	0		458,s
-47545	216	Ahi	sɛ̱²¹ ku²²	sɛ̱²¹ ku²²	breathe	breathe	v.	1.1.2.2	9.2.1	0		32,1809
-47546	216	Ahi	sɛ̱²¹ tsʻo²¹	sɛ̱²¹ tsʻo²¹	pant	pant	v.	1.1.2.2	9.2.2	0		32,m
-47547	216	Ahi	mu̱³³	mu̱³³	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		503
-47548	216	Ahi	bo²¹ ʈɑ̱³³	bo²¹ ʈɑ̱³³	gill (of fish)	gill (of fish)		1.3.5.3	9.2.4	0		
-47549	216	Ahi	ɑ³³ xe̱³³	ɑ³³ xe̱³³	phlegm	phlegm		1.8.3	9.2.5	0		p,540
-47550	216	Ahi	ni̱³³ mo²²	ni̱³³ mo²²	heart	heart		1.7.1	9.3	0		297,s
-47551	216	Ahi	ni̱³³ tʂo²²	ni̱³³ tʂo²²	heartbeat	heartbeat		1.7.1.1	9.3.1	0		297,m
-47552	216	Ahi	dʐi²¹ mo̱²¹	dʐi²¹ mo̱²¹	pulse	pulse		1.7.1.1	9.3.2	0		m,1384
-47554	216	Ahi	i³³ kɛ³³ zo²¹	i³³ kɛ³³ zo²¹	liver	liver		1.7.3	9.5	0		
-47555	216	Ahi	i³³ tʂi²² ʑi²²	i³³ tʂi²² ʑi²²	bile	bile		1.7.3.1	9.5.1	0		m,1390,m
-47556	216	Ahi	i³³ tʂi²² zo²¹	i³³ tʂi²² zo²¹	gall bladder	gall bladder		1.7.3	9.5.2	0		m,227,m
-47557	216	Ahi	i³³ fu⁵⁵ zo²¹	i³³ fu⁵⁵ zo²¹	kidney	kidney		1.7.5	9.6	0		m,2102,m
-47558	216	Ahi	sɑ²¹ pʻu²¹	sɑ²¹ pʻu²¹	urinary bladder	urinary bladder		1.7.8	9.7	0		
-47559	216	Ahi	zi²¹	zi²¹	urine	urine		1.8.4	9.7.1	0		650
-47560	216	Ahi	zi²¹ xo²²	zi²¹ xo²²	urinate	urinate	v.	1.5.3.2	9.7.2	0		650,m
-47561	216	Ahi	ʈi³³	ʈi³³	spleen	spleen		1.7.4	9.8	0		m
-47562	216	Ahi	ʈi³³ zɛ̱²¹ lɛ²²	ʈi³³ zɛ̱²¹ lɛ²²	swollen spleen (illness)	swollen spleen (illness)		1.1.5.2	9.8.1	0		m,m,m
-47563	216	Ahi	ɣo²² tɕi²² zo²¹	ɣo²² tɕi²² zo²¹	pancreas	pancreas		1.7.7	9.9	0		2102,1390,m
-47564	216	Ahi	xi̱²¹ mo³³	xi̱²¹ mo³³	stomach	stomach		1.7.6	9.10	0		2104,1384
-47565	216	Ahi	ɣo²² mɑ³³	ɣo²² mɑ³³	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		2102,1384
-47566	216	Ahi	ɣo²² ɣɑ²¹	ɣo²² ɣɑ²¹	large intestine	large intestine		1.7.7	9.11.1	0		2102,m
-47567	216	Ahi	ɣo²² zo²¹	ɣo²² zo²¹	small intestine	small intestine		9.7.2	9.11.2	0		2102,m
-47568	216	Ahi	ɣo²² ni²¹ zo²¹	ɣo²² ni²¹ zo²¹	appendix	appendix		1.7.7	9.11.3	0		2102,m,m
-47569	216	Ahi	mɑ⁵⁵ po²²	mɑ⁵⁵ po²²	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		1288,398
-47570	216	Ahi	ʈʻi²¹	ʈʻi²¹	feces / shit	feces  /  shit		1.8.5	9.12.1	0		572
-47571	216	Ahi	ɑ³³ bɑ̱⁵⁵ zo²¹ tʻi²¹	ɑ³³ bɑ̱⁵⁵ zo²¹ tʻi²¹	meconium / baby shit	meconium  /  baby shit		1.8.5	9.12.2	0		
-47572	216	Ahi	ʈʻi²¹ xo²²	ʈʻi²¹ xo²²	defecate	defecate	v.	1.8.5.4	9.12.3	0		
-47573	216	Ahi	to⁵⁵ bi̱²¹	to⁵⁵ bi̱²¹	genitalia / pudenda (general)	genitalia  /  pudenda (general)		1.9.1	10.1	0		661,662
-47574	216	Ahi	to⁵⁵ bi̱²¹ tʂʻɛ²²	to⁵⁵ bi̱²¹ tʂʻɛ²²	copulate	copulate	v.	1.9.1.1	10.2	0		661,662,m
-47575	216	Ahi	i³³ pʻu²²	i³³ pʻu²²	male	male		1.9.6.1	10.3	0		m,1635
-47576	216	Ahi	dzi³³	dzi³³	penis	penis			10.3.1	0		1601
-47577	216	Ahi	ɑ⁵⁵ ɕi²¹	ɑ⁵⁵ ɕi²¹	glans penis	glans penis			10.3.2	0		p,1601
-47578	216	Ahi	ɑ⁵⁵ ɕi²¹ i³³ tɕi²²	ɑ⁵⁵ ɕi²¹ i³³ tɕi²²	foreskin	foreskin			10.3.3	0		p,1601,m,m
-47579	216	Ahi	lɑ̱³³ ʑi²² ni²² dɯ²¹	lɑ̱³³ ʑi²² ni²² dɯ²¹	scrotum	scrotum			10.3.4	0		
-47580	216	Ahi	dɑ³³ ʈʻo²²	dɑ³³ ʈʻo²²	testicle	testicle			10.3.5	0		m,1609
-47581	216	Ahi	dzi³³ nɯ̱³³	dzi³³ nɯ̱³³	male pubic hair	male pubic hair			10.3.6	0		m,363
-47582	216	Ahi	lɑ̱³³ ʑi²²	lɑ̱³³ ʑi²²	semen	semen			10.3.7	0		m,1013
-47583	216	Ahi	pi̱⁵⁵	pi̱⁵⁵	ejaculate	ejaculate	v.		10.3.8	0		3493
-47584	216	Ahi	mɛ³³ lɑ⁵⁵	mɛ³³ lɑ⁵⁵	castrate	castrate	v.	1.9.2.3	10.3.9	0		475,m
-47585	216	Ahi	i³³ mo³³	i³³ mo³³	female	female		1.9.3	10.4	0		m,1620
-47586	216	Ahi	to⁵⁵ bi̱²¹ ne̱³³ ba⁵⁵	to⁵⁵ bi̱²¹ ne̱³³ ba⁵⁵	vagina	vagina			10.4.1	0		661,662,m,m
-47587	216	Ahi	to⁵⁵ bi̱²¹ ni²¹	to⁵⁵ bi̱²¹ ni²¹	vulva / labia	vulva  /  labia			10.4.2	0		661,662,m
-47588	216	Ahi	to⁵⁵ tɕi²² zo²¹	to⁵⁵ tɕi²² zo²¹	hymen	hymen			10.4.3	0		661,m,m
-47589	216	Ahi	to⁵⁵ lo²² zo²¹	to⁵⁵ lo²² zo²¹	clitoris	clitoris			10.4.4	0		661,M,M
-47590	216	Ahi	to⁵⁵ nɯ̱³³	to⁵⁵ nɯ̱³³	female pubic hair	female pubic hair			10.4.5	0		661,m
-47591	216	Ahi	mɑ⁵⁵ si²¹ du̱³³	mɑ⁵⁵ si²¹ du̱³³	menstruate	menstruate	v.	1.9.11.1	10.4.6	0		m,230,m
-47592	216	Ahi	mɑ⁵⁵ si²¹	mɑ⁵⁵ si²¹	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		m,230
-47593	216	Ahi	i³³zo²¹ni²²dɯ²¹	i³³zo²¹ni²²dɯ²¹	womb	womb			10.4.8	0		m,1012,m,m
-47594	216	Ahi	i³³ tɕʻe̱³³	i³³ tɕʻe̱³³	placenta	placenta			10.4.11	0		p,679
-47597	216	Ahi	ɑ³³ bɑ̱⁵⁵ zo²¹ ni²²	ɑ³³ bɑ̱⁵⁵ zo²¹ ni²²	pregnant	pregnant	be v.	1.9.6.1	10.4.14	0		m,m,m,m
-47598	216	Ahi	ɑ³³ bɑ̱⁵⁵ zo²¹ bu³³	ɑ³³ bɑ̱⁵⁵ zo²¹ bu³³	birth, give	birth, give		1.1.2	10.4.15	0		p,m,1012,70
-47599	216	Ahi	i³³ ʈʻo²²	i³³ ʈʻo²²	egg (of animal)	egg (of animal)			10.4.16	0		p,1609
-47600	216	Ahi	tsi⁵⁵	tsi⁵⁵	cough	cough		1.8.3.3	11.1	0		
-47601	216	Ahi	xɯ⁵⁵ ʈo̱²¹ dɑ²¹	xɯ⁵⁵ ʈo̱²¹ dɑ²¹	hiccup	hiccup		1.8.3.5	11.2	0		3443,m,m
-47602	216	Ahi	xɛ̱²¹ |tʻiu⁵⁵	xɛ̱²¹ tʻiu⁵⁵	sneeze	sneeze		1.8.2.1	11.3	0		2131
-47603	216	Ahi	ʑe̱²¹ ŋɯ³³ ku²²	ʑe̱²¹ ŋɯ³³ ku²²	snore	snore		1.8.2.2	11.4	0		127,m,m
-47604	216	Ahi	tʂɑ³³ si⁵⁵ mu̱³³	tʂɑ³³ si⁵⁵ mu̱³³	whistle	whistle		8.5.5	11.5	0		m,m,m
-47605	216	Ahi	xɯ⁵⁵ ʈo̱²¹ dɑ²¹	xɯ⁵⁵ ʈo̱²¹ dɑ²¹	burp / belch	burp  /  belch		1.8.3	11.6	0		3443,m,m
-47606	216	Ahi	vɑ²¹ tʻi²¹	vɑ²¹ tʻi²¹	fart	fart		1.8.5.2	11.7	0		3553,m
-47607	216	Ahi	tʂʻo²¹ lɛ³³ po⁵⁵ tsʻi²¹	tʂʻo²¹ lɛ³³ po⁵⁵ tsʻi²¹	clear throat	clear throat		9.6.1.1	11.8	0		3363,m,m,m
-47608	216	Ahi	ɣɑ²²	ɣɑ²²	laugh	laugh		1.8.8.1	11.9	0		1108
-47609	216	Ahi	tso²²	tso²²	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
-47610	216	Ahi	no²²	no²²	sick / be ill / hurt	sick  /  be ill  /  hurt	be v.	1.1.5.1	12.2	0		160
-47611	216	Ahi	dɯ²¹	dɯ²¹	numb /  be paralyzed	numb  /   be paralyzed	be v.	1.5.11	12.3	0		
-47612	216	Ahi	pʻu²²	pʻu²²	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		163?
-47613	216	Ahi	ʈɛ²²	ʈɛ²²	pus	pus		1.8.6.1	12.5	0		1292
-47614	216	Ahi	pʻo̱²¹	pʻo̱²¹	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound		1.8.6.2	12.6	0		
-47615	216	Ahi	tsi̱⁵⁵	tsi̱⁵⁵	phalanx (knuckle length)	phalanx (knuckle length)		1.5.8.5	13.1	0		418
-47616	216	Ahi	tu̱²²	tu̱²²	hand span	hand span		1.5.9.4	13.2	0		1281
-47617	216	Ahi	gɯ³³	gɯ³³	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		
-47619	216	Ahi	bi²²	bi²²	nose to fingertip	nose to fingertip	v.	1.2.8	13.4.1	0		810
-47621	216	Ahi	ni̱³³ mo³³ zo²¹	ni̱³³ mo³³ zo²¹	mind / locus of thought	mind  /  locus of thought		1.10	14.1	0		297,s,m
-47622	216	Ahi	ni̱³³ mo³³	ni̱³³ mo³³	heart / locus of emotions	heart  /  locus of emotions		1.7.1	14.2	0		297,s
-47623	216	Ahi	ni̱³³ ʑi²²	ni̱³³ ʑi²²	heart / locus of personality	heart  /  locus of personality		1.7.1	14.3	0		297,m
-145876	216	Ahi	po³³ tsʻi̱³³ dʑi²¹ ɣɯ³³⁀ɛ³³	po³³ tsʻi̱³³ dʑi²¹ ɣɯ³³⁀ɛ³³	lap	lap		1.4.4.2	1.8	0		
-145877	216	Ahi	no³³ pɑ³³ tʻo²¹ do̱²¹ tsi̱³³ tɕʻe³³	no³³ pɑ³³ tʻo²¹ do̱²¹ tsi̱³³ tɕʻe³³	temple	temple		1.2.5.1	3.3	0		
-145878	216	Ahi	ne̱³³ mo²² zo²¹ ne̱³³ tʂʻi²¹ mo³³	ne̱³³ mo²² zo²¹ ne̱³³ tʂʻi²¹ mo³³	pupil	pupil		1.2.6.2	3.4.2.2	0		681,m,m,m,m
-145879	216	Ahi	ne̱³³ mo²² zo²¹ ɑ³³ tʻo²² mo³³	ne̱³³ mo²² zo²¹ ɑ³³ tʻo²² mo³³	white of eye	white of eye		1.2.6.3	3.4.2.3	0		681,m,m,m,m,m
-145880	216	Ahi	ni²¹ tɕi²² o⁵⁵ kʻɑ³³ tʻi²¹ ʈo⁵⁵	ni²¹ tɕi²² o⁵⁵ kʻɑ³³ tʻi²¹ ʈo⁵⁵	upper lip	upper lip		9.2.1	3.9.1	0		467,596,m,m,m
-145881	216	Ahi	ni²¹ tɕi²² i³³ tʻu³³⁀ɛ³³ tʻi²¹ ʈo⁵⁵	ni²¹ tɕi²² i³³ tʻu³³⁀ɛ³³ tʻi²¹ ʈo⁵⁵	lower lip	lower lip			3.9.2	0		467,596,m,280,m
-145882	216	Ahi	le̱²¹ tʂi³³ mo³³ i³³ ku³³ tʻɯ⁵⁵	le̱²¹ tʂi³³ mo³³ i³³ ku³³ tʻɯ⁵⁵	middle finger	middle finger		1.9.4	7.1.2	0		
-145883	216	Ahi	le̱²¹ tʂi³³ mo³³ li³³ lɯ²¹ɛ̆³³ tʻɯ⁵⁵	le̱²¹ tʂi³³ mo³³ li³³ lɯ²¹ɛ̆³³ tʻɯ⁵⁵	ring finger	ring finger		1.5.6.2	7.1.3	0		
-145884	216	Ahi	le̱²¹ tʂi³³ mo³³ i³³ mɑ³³ tʻɯ⁵⁵	le̱²¹ tʂi³³ mo³³ i³³ mɑ³³ tʻɯ⁵⁵	little finger	little finger		9.7.2	7.1.4	0		
-145885	216	Ahi	le̱²¹ tʂi³³ mo³³ bi²¹ tɑ̱²¹ mo³³	le̱²¹ tʂi³³ mo³³ bi²¹ tɑ̱²¹ mo³³	thumb	thumb		1.5.6.1	7.1.5	0		
-145886	216	Ahi	tɕʻi̱²¹ tʂi³³ mo³³ i³³ ku³³ tʻɯ⁵⁵	tɕʻi̱²¹ tʂi³³ mo³³ i³³ ku³³ tʻɯ⁵⁵	middle toe	middle toe		1.9.4	7.2.3	0		
-145887	216	Ahi	tɕʻi̱²¹ tʂi³³ mo³³ li³³ lɯ²¹ɛ̆³³ tʻɯ⁵⁵	tɕʻi̱²¹ tʂi³³ mo³³ li³³ lɯ²¹ɛ̆³³ tʻɯ⁵⁵	fourth toe	fourth toe		9.9	7.2.4	0		
-145888	216	Ahi	tɕʻi̱²¹ tʂi³³ mo³³ i³³ mɑ³³ tʻɯ⁵⁵	tɕʻi̱²¹ tʂi³³ mo³³ i³³ mɑ³³ tʻɯ⁵⁵	little toe	little toe		9.7.2	7.2.5	0		
-145889	216	Ahi	tɕʻi̱²¹ tʂi³³ mo³³ i³³ tsi̱⁵⁵	tɕʻi̱²¹ tʂi³³ mo³³ i³³ tsi̱⁵⁵	knuckle (joint of digit)	knuckle (joint of digit)		1.5.8.5	7.3	0		m,m,m,m,418
-145890	216	Ahi	ni²¹ tsʻi²² nɯ⁵⁵ kɑ̱²¹ zo²¹	ni²¹ tsʻi²² nɯ⁵⁵ kɑ̱²¹ zo²¹	moustache	moustache		1.2.5.5	8.1.2.3	0		467,1232,m,m,m
-145891	216	Ahi	ʑe̱⁵⁵ mɑ³³ dɯ²¹ Kʻɛ³³ i³³ nɯ̱³³	ʑe̱⁵⁵ mɑ³³ dɯ²¹ Kʻɛ³³ i³³ nɯ̱³³	underarm hair	underarm hair		1.5.1.2.3	8.1.3.1	0		
-145892	216	Ahi	ni̱³³ te̱³³ gu̱²¹⁀ɛ³³ i³³ nɯ̱³³	ni̱³³ te̱³³ gu̱²¹⁀ɛ³³ i³³ nɯ̱³³	chest hair	chest hair		1.4.4.5	8.1.3.2	0		297,m,560,m
-145893	216	Ahi	ʈʻu²¹ pʻi⁵⁵ dʐi²¹⁀ɛ³³ i³³ nɯ̱³³	ʈʻu²¹ pʻi⁵⁵ dʐi²¹⁀ɛ³³ i³³ nɯ̱³³	leg hair	leg hair		1.5.7	8.1.3.3	0		
-145894	216	Ahi	tʂʻi̱²¹ bu̱²¹ dɯ⁵⁵ lɯ⁵⁵ tɕe̱³³	tʂʻi̱²¹ bu̱²¹ dɯ⁵⁵ lɯ⁵⁵ tɕe̱³³	umbilical cord	umbilical cord			10.4.12	0		
-146638	216	Ahi	ʈʻu²¹ tʂo̱⁵⁵ gu̱²¹	ʈʻu²¹ tʂo̱⁵⁵ gu̱²¹	groin / loins (i.e. hips to thighs)	groin / loins (i.e. hips to thighs)		1.4.9	1.10	0		m,215,m
-146639	216	Ahi	o⁵⁵ tʻɯ̱²¹	o⁵⁵ tʻɯ̱²¹	fontanel (soft spots in baby skull)	fontanel (soft spots in baby skull)		1.2.1.3	2.3	0		
-146640	216	Ahi	ɣo²¹ po³³	ɣo²¹ po³³	belly / abdomen (external bulge)	belly / abdomen (external bulge)		1.4.7	5.7	0		
-146641	216	Ahi	i³³ tɕi²²	i³³ tɕi²²	hide / leather (dried animal skin)	hide / leather (dried animal skin)		1.6.5.1	8.2.6	0		m,596
-146642	216	Ahi	ɣo²² bu²¹ tsʻɑ²²	ɣo²² bu²¹ tsʻɑ²²	fat around intestines / omentum	fat around intestines / omentum		1.6.4	8.3.1	0		2102,m,m
-146643	216	Ahi	dʑi²¹ ni²¹ xo²¹	dʑi²¹ ni²¹ xo²¹	sinew / tendon (muscle to bone)	sinew / tendon (muscle to bone)		1.6.6.1	8.5	0		
-146644	216	Ahi	i³³ xi̱²¹ i³³ ɣo²²	i³³ xi̱²¹ i³³ ɣo²²	viscera / guts / entrails (in general)	viscera / guts / entrails (in general)		1.7.7	9.4	0		
-146645	216	Ahi	zo²¹ lɑ²² tɕi²²	zo²¹ lɑ²² tɕi²²	caul (membrane on newborn head)	caul (membrane on newborn head)		1.2.1.4	10.4.13	0		
-146646	216	Ahi	ɬɯ²²	ɬɯ²²	cord / fathom (outstretched arms)	cord / fathom (outstretched arms)		1.5.9.5	13.4	0		
-146647	216	Ahi	tʻɯ²²	tʻɯ²²	left fingertip to right fingertip	left fingertip to right fingertip		1.5.3.2	13.4.2	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+47281	216	Ahi	gɯ²¹ mo³³	gɯ²¹ mo³³	body	body			1.1.1	1.1	0			2,17
+47282	216	Ahi	ɑ³³ ʐu³³ pʻi⁵⁵	ɑ³³ ʐu³³ pʻi⁵⁵	side (right)	side (right)			1.4.5	1.2	0			p,2786
+47283	216	Ahi	ɑ³³ vɑ⁵⁵ pʻi	ɑ³³ vɑ⁵⁵ pʻi	side (left)	side (left)			1.4.5	1.3	0			p,2154
+47284	216	Ahi	no³³ ko³³⁀ɛ³³	no³³ ko³³⁀ɛ³³	back	back			1.4.8	1.4	0			203,m,s
+47285	216	Ahi	dʑi²¹ ɣɯ³³⁀ɛ³³	dʑi²¹ ɣɯ³³⁀ɛ³³	front	front			1.4.4	1.5	0			1212,m
+47286	216	Ahi	i³³ to²²	i³³ to²²	torso / trunk	torso  /  trunk			1.5.3.2	1.6	0	jbl3		m,14
+47287	216	Ahi	tʻu²¹ pʻi⁵⁵ dʐi²¹	tʻu²¹ pʻi⁵⁵ dʐi²¹	limbs / arms and legs	limbs  /  arms and legs			1.5.3.1	1.7	0	jbl3		
+47289	216	Ahi	ni̱³³ te̱³³ gu̱²¹	ni̱³³ te̱³³ gu̱²¹	bosom	bosom			1.4.4.2	1.9	0			297,m,560
+47291	216	Ahi	pɑ³³ xo²¹	pɑ³³ xo²¹	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		m,34
+47292	216	Ahi	i³³ so³³	i³³ so³³	alive / be living	alive  /  be living			1.1.2.1	1.12	0	jbl3		p,80
+47293	216	Ahi	i³³ ʂi²²	i³³ ʂi²²	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		p,27
+47294	216	Ahi	ʂi²² mu³³	ʂi²² mu³³	corpse / dead body	corpse  /  dead body			1.1.6.1	1.14	0	jbl3		27,17
+47295	216	Ahi	i³³ ʂi³³ mu³³	i³³ ʂi³³ mu³³	carcass / dead animal	carcass  /  dead animal			1.1.6.1	1.15	0	jbl3		p,27,17
+47296	216	Ahi	kɯ⁵⁵ po⁵⁵	kɯ⁵⁵ po⁵⁵	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		2128,s
+47297	216	Ahi	nɯ²¹	nɯ²¹	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		143
+47298	216	Ahi	ʑe̱²¹ me̱³³	ʑe̱²¹ me̱³³	dream	dream	v.	v.	1.1.4.2	1.18	0			127,126
+47299	216	Ahi	o⁵⁵ ko̱³³	o⁵⁵ ko̱³³	head	head			1.2.1	2.1	0			385,387
+47300	216	Ahi	o⁵⁵ di³³	o⁵⁵ di³³	top of head / crown / pate	top of head  /  crown  /  pate			1.2.1.2	2.2	0	jbl3		385,m
+47302	216	Ahi	o⁵⁵ ko̱³³ bu⁵⁵	o⁵⁵ ko̱³³ bu⁵⁵	skull	skull			1.2.1.1	2.4	0			385,387,1275
+47303	216	Ahi	o⁵⁵ nɯ̱³³	o⁵⁵ nɯ̱³³	brain	brain			1.2.4	2.5	0		D1	385,243
+47304	216	Ahi	no³³ dʐi²²	no³³ dʐi²²	sinus	sinus			1.2.8.1	2.6	0			
+47305	216	Ahi	o⁵⁵ tsʻi²²	o⁵⁵ tsʻi²²	hair of head	hair of head			1.2.3	2.7	0		D2	385,1226
+47306	216	Ahi	o⁵⁵ tɕi²²	o⁵⁵ tɕi²²	scalp	scalp			1.2.1.5	2.8	0			385,596
+47307	216	Ahi	ʑe̱³³ o⁵⁵ kɯ²²	ʑe̱³³ o⁵⁵ kɯ²²	comb (of rooster)	comb (of rooster)			1.2.2.1	2.9	0			1606,385,m
+47308	216	Ahi	o⁵⁵ tʂʻi²²	o⁵⁵ tʂʻi²²	horn (of animal)	horn (of animal)			1.2.2	2.10	0			385,819
+47309	216	Ahi	o⁵⁵ tɕe̱⁵⁵	o⁵⁵ tɕe̱⁵⁵	antler (of deer)	antler (of deer)			1.2.2	2.11	0			p,819
+47310	216	Ahi	tʻu²¹ ne̱³³	tʻu²¹ ne̱³³	face	face			1.2.5	3.1	0			1186,681
+47311	216	Ahi	ni⁵⁵ pʻu²²	ni⁵⁵ pʻu²²	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		356,2024
+47313	216	Ahi	ne̱³³ sɑ²¹	ne̱³³ sɑ²¹	eye	eye			1.2.6	3.4	0			681,m
+47314	216	Ahi	ne̱³³ tɕi²²	ne̱³³ tɕi²²	eyelid	eyelid			1.2.6.4	3.4.1	0			681,596
+47315	216	Ahi	ne̱³³ lo²² zo²¹	ne̱³³ lo²² zo²¹	eyeball	eyeball			1.2.6.1	3.4.2	0			681,1381,1012
+47316	216	Ahi	ne̱³³ mo²² zo²¹	ne̱³³ mo²² zo²¹	iris	iris			1.2.6.2	3.4.2.1	0			681,m,1012
+47319	216	Ahi	ne̱³³ bu̱³³ tsʻɛ²²	ne̱³³ bu̱³³ tsʻɛ²²	eyebrow	eyebrow			1.2.6.6	3.4.3	0			681,1275,1232
+47320	216	Ahi	ne̱³³ tsɛ²²	ne̱³³ tsɛ²²	eyelash	eyelash			1.2.6.5	3.4.4	0			681,1232
+47321	216	Ahi	ne̱³³ mu³³ tsʻi̱²¹	ne̱³³ mu³³ tsʻi̱²¹	blink	blink	v.	v.	1.2.6.12	3.4.5	0			681,m,m
+47322	216	Ahi	ne̱³³ ʑi²²	ne̱³³ ʑi²²	tears	tears	n	n	1.2.6.7	3.4.6	0			681,1013
+47324	216	Ahi	ŋɯ³³	ŋɯ³³	cry / weep	cry  /  weep	v.	v.	1.8.8.2	3.4.8	0	jbl3		1104
+47325	216	Ahi	ni³³	ni³³	see / look	see  /  look	v.	v.	1.2.6.10	3.4.9	0	jbl3		5419
+47326	216	Ahi	ne̱³³ tɯ⁵⁵	ne̱³³ tɯ⁵⁵	blind	blind			1.2.6.14.2	3.4.10	0			681,m
+47327	216	Ahi	no³³ bo̱²¹	no³³ bo̱²¹	nose	nose			1.2.8	3.5	0			803,806
+47328	216	Ahi	no³³ tʂɛ²² ɣɯ²¹	no³³ tʂɛ²² ɣɯ²¹	nose bridge	nose bridge			1.2.8	3.5.1	0			803,m,232
+47329	216	Ahi	no³³ bo̱²¹ ne̱³³ bɑ⁵⁵	no³³ bo̱²¹ ne̱³³ bɑ⁵⁵	nostril	nostril			1.2.8.1	3.5.2	0			803,806,m,m
+47330	216	Ahi	no³³ bo̱²¹ i³³ nɯ̱³³	no³³ bo̱²¹ i³³ nɯ̱³³	nose hair	nose hair			1.2.8	3.5.4	0			803,806,m,363
+47331	216	Ahi	no³³ ʈʻi̱²¹	no³³ ʈʻi̱²¹	snout	snout			1.2.8	3.5.5	0			803
+47332	216	Ahi	no³³ ʑi²²	no³³ ʑi²²	liquid mucus	liquid mucus			3.2.3	3.5.6	0			
+47333	216	Ahi	no³³ bo̱²¹	no³³ bo̱²¹	solid mucus	solid mucus			1.1.5	3.5.7	0			803,806*
+47334	216	Ahi	no³³ bo̱²¹ si̱³³	no³³ bo̱²¹ si̱³³	blow nose	blow nose	v.	v.	1.3.1.4	3.5.8	0			803,806,m
+47335	216	Ahi	nɯ²¹	nɯ²¹	smell / sniff	smell  /  sniff	v.	v.	1.2.8.5	3.5.9	0	jbl3		1415
+47336	216	Ahi	no³³ pɑ³³	no³³ pɑ³³	ear	ear			1.2.7	3.6	0			811,812
+47337	216	Ahi	no⁵⁵ tsɑ̱³³	no⁵⁵ tsɑ̱³³	earlobe	earlobe			1.2.7.1	3.6.1	0			811,816
+47338	216	Ahi	no³³ pɑ³³ i³³ tsɛ³³	no³³ pɑ³³ i³³ tsɛ³³	outer ear	outer ear			9.2	3.6.2	0			811,812,m,m
+47339	216	Ahi	no³³ pɑ³³ i³³ ku³³	no³³ pɑ³³ i³³ ku³³	inner ear	inner ear			9.2.5	3.6.3	0			811,812,m,m
+47340	216	Ahi	no³³ pɑ³³ ne̱³³ bɑ⁵⁵	no³³ pɑ³³ ne̱³³ bɑ⁵⁵	ear canal	ear canal			1.2.7	3.6.4	0			811,812,m,m
+47341	216	Ahi	no³³ pɑ³³ ʈʻo²¹ zo²¹	no³³ pɑ³³ ʈʻo²¹ zo²¹	eardrum	eardrum			1.2.7.2	3.6.5	0			811,812,m,1012
+47342	216	Ahi	no⁵⁵ ʈʻi²¹	no⁵⁵ ʈʻi²¹	earwax	earwax			1.2.7.3	3.6.6	0			811,572
+47343	216	Ahi	no³³	no³³	hear	hear	v.	v.	1.2.7.4	3.6.7	0			811
+47344	216	Ahi	no⁵⁵ bu²¹	no⁵⁵ bu²¹	deaf	deaf			1.2.7.5	3.6.8	0			811,1409
+47345	216	Ahi	ni²¹ pʻe̱²¹	ni²¹ pʻe̱²¹	mouth	mouth			1.3.1	3.7	0			467,2096
+47346	216	Ahi	ɑ³³ ŋɑ̱³³	ɑ³³ ŋɑ̱³³	palate	palate			1.3.1.1	3.7.1	0			p,1720
+47347	216	Ahi	ɑ³³ ŋɑ̱³³ zo²¹	ɑ³³ ŋɑ̱³³ zo²¹	soft palate	soft palate			7.1.4.2	3.7.2	0			p,1720,m
+47348	216	Ahi	tʂʻɑ³³ tɕʻi²²	tʂʻɑ³³ tɕʻi²²	gums	gums			1.3.4.3	3.7.3	0			635,m
+47349	216	Ahi	lo³³ zo²¹	lo³³ zo²¹	uvula	uvula			1.3.5.1	3.7.4	0			
+47350	216	Ahi	ni²¹ ʑi²²	ni²¹ ʑi²²	saliva	saliva			1.8.3	3.7.5	0			467,1013
+47351	216	Ahi	dzo²¹	dzo²¹	eat	eat	v.	v.	1.5.3.2	3.7.6	0			36
+47352	216	Ahi	tu²²	tu²²	drink	drink	v.	v.		3.7.7	0			502
+47353	216	Ahi	kʻɑ²¹	kʻɑ²¹	thirsty	thirsty	be v.	be v.	1.1.3.1	3.7.8	0			105
+47354	216	Ahi	ni̱²¹	ni̱²¹|	hungry	hungry	be v.	be v.	1.1.3	3.7.9	0			99
+47355	216	Ahi	bu̱³³	bu̱³³	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		100
+47356	216	Ahi	pʻi²¹	pʻi²¹	spit	spit	v.	v.	1.8.3	3.7.11	0			
+47357	216	Ahi	pʻi̱²¹ to²²	pʻi̱²¹ to²²	vomit	vomit	n.	n.	1.8.3.2	3.7.12	0			1145
+47358	216	Ahi	pʻi̱²¹	pʻi̱²¹	vomit	vomit	v.	v.	1.8.3.2	3.7.13	0			1145
+47359	216	Ahi	mu̱³³ zi²¹	mu̱³³ zi²¹	hold in mouth	hold in mouth	v.	v.	1.3.4.4	3.7.14	0			
+47360	216	Ahi	ni²¹ xɑ²¹	ni²¹ xɑ²¹	gape / open mouth	gape  /  open mouth	v.	v.	1.3.1	3.7.15	0	jbl3		467,273
+47361	216	Ahi	xɑ⁵⁵	xɑ⁵⁵	yawn	yawn	v.	v.	1.3.1.3	3.7.16	0			1716
+47362	216	Ahi	lo³³	lo³³	tongue	tongue			1.3.3	3.8	0			623
+47363	216	Ahi	be̱³³	be̱³³	speak	speak	v.	v.	8.5.10.1	3.8.1	0			
+47364	216	Ahi	tɕe̱²¹ tsi̱²¹ mo³³	tɕe̱²¹ tsi̱²¹ mo³³	stutter / stammer	stutter  /  stammer			8.5.4.5	3.8.2	0	jbl3		
+47365	216	Ahi	ɑ³³ mu⁵⁵	ɑ³³ mu⁵⁵	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		
+47366	216	Ahi	ɬɑ̱²¹	ɬɑ̱²¹	lick	lick	v.	v.	1.3.3.1	3.8.4	0			629
+47367	216	Ahi	ni²¹ tɕi²²	ni²¹ tɕi²²	lip	lip			1.3.2	3.9	0			467,596
+47370	216	Ahi	ni²¹ pʻe̱²¹	ni²¹ pʻe̱²¹	beak / bill	beak / bill			1.3.1.2	3.9.3	0			467,2096
+47371	216	Ahi	ɣɑ²²	ɣɑ²²	smile	smile	v.	v.	1.8.8.1	3.9.4	0			1108
+47372	216	Ahi	bu̱²¹	bu̱²¹	kiss	kiss	v.	v.	1.3.2.2	3.9.5	0			3450
+47373	216	Ahi	tʂɑ²² ɣɯ²¹	tʂɑ²² ɣɯ²¹	tooth	tooth			1.3.4	3.10	0			635,m
+47374	216	Ahi	tʂɑ²² si⁵⁵ zo²¹	tʂɑ²² si⁵⁵ zo²¹	tooth (incisor)	tooth (incisor)			1.3.4	3.10.1	0			635,1214,m
+47375	216	Ahi	bo²¹ lo³³ tʂɑ²²	bo²¹ lo³³ tʂɑ²²	molar	molar			1.3.4.2	3.10.2	0			268,m,632
+47376	216	Ahi	tɕʻi²¹ tʂɑ²²	tɕʻi²¹ tʂɑ²²	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang			1.3.4.1	3.10.3	0	jbl3		1764,635
+47377	216	Ahi	tʂɑ²² kɯ³³ mo³³	tʂɑ²² kɯ³³ mo³³	tooth (wisdom)	tooth (wisdom)			1.3.4	3.10.4	0			635,m,m
+47378	216	Ahi	tʂɑ²² ɣɯ²¹ ɑ²¹ lɑ⁵⁵ ɕi²¹	tʂɑ²² ɣɯ²¹ ɑ²¹ lɑ⁵⁵ ɕi²¹	baby tooth	baby tooth			4.2.11	3.10.5	0			
+47379	216	Ahi	tʂɑ²² tɕe̱³³ mo³³	tʂɑ²² tɕe̱³³ mo³³	tusk (of elephant, boar)	tusk (of elephant, boar)			1.3.4.1	3.10.6	0			635,m,s
+47380	216	Ahi	dzɑ̱²¹	dzɑ̱²¹	bite	bite	v.	v.	1.3.4.4	3.10.7	0			
+47381	216	Ahi	go²¹	go²¹	chew	chew	v.	v.	1.3.4	3.10.8	0			1762
+47382	216	Ahi	bo²¹ i²¹	bo²¹ i²¹	cheek	cheek			1.2.5.2	3.11	0			268,m
+47383	216	Ahi	bo²¹ ko̱³³ ɣɯ²¹	bo²¹ ko̱³³ ɣɯ²¹	cheekbone	cheekbone			1.2.5.2	3.11.1	0			268,m,232
+47384	216	Ahi	ni²¹ pi³³ tʻu²²	ni²¹ pi³³ tʻu²²	chin	chin			1.2.5.3	3.12	0			467,271,280
+47386	216	Ahi	ɑ³³ ŋɑ̱³³ tʻu²²	ɑ³³ ŋɑ̱³³ tʻu²²	lower jaw / mandible	lower jaw  /  mandible			1.2.5.2	3.13.1	0	jbl3		m,2059,m
+47387	216	Ahi	ɑ³³ ŋɑ̱³³ o⁵⁵	ɑ³³ ŋɑ̱³³ o⁵⁵	upper jaw / maxilla	upper jaw  /  maxilla			1.2.5.2	3.13.2	0	jbl3		m,2059,m
+47388	216	Ahi	lɛ²² ɣɯ²¹	lɛ²² ɣɯ²¹	neck	neck			1.4.2	4.1	0			479,232
+47389	216	Ahi	lɛ²² pɑ³³	lɛ²² pɑ³³	goiter	goiter			1.4.2.2	4.1.1	0			479,m
+47390	216	Ahi	bo²¹ ʈɑ̱³³	bo²¹ ʈɑ̱³³	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)			1.1.5.2	4.1.2	0			163,m
+47391	216	Ahi	ko⁵⁵ lɛ²² ɣɯ²¹	ko⁵⁵ lɛ²² ɣɯ²¹	nape of neck	nape of neck			1.4.2.1	4.1.3	0			495,479,232
+47392	216	Ahi	tʂʻo²¹ lɛ²² po⁵⁵	tʂʻo²¹ lɛ²² po⁵⁵	adam's apple / larynx	adam's apple  /  larynx			1.5.3.2	4.1.4	0	jbl3		3363,479,m
+47393	216	Ahi	tʂʻo²¹ tʂo²²	tʂʻo²¹ tʂo²²	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		3363,m
+47394	216	Ahi	sɛ̱²¹ po⁵⁵	sɛ̱²¹ po⁵⁵	windpipe / trachea	windpipe  /  trachea			1.3.5.2	4.2.1	0	jbl3		32,m
+47395	216	Ahi	tso²² po⁵⁵	tso²² po⁵⁵	esophagus	esophagus			1.3.5.5	4.2.2	0			
+47396	216	Ahi	lɯ²¹	lɯ²¹	swallow	swallow	v.	v.	1.3.5.6	4.2.3	0			
+47397	216	Ahi	bi²¹ lɛ²²	bi²¹ lɛ²²	gizzard / crop of bird	gizzard  /  crop of bird			1.7.6.1	4.2.4	0	jbl3		m,m
+47398	216	Ahi	ni̱³³ te̱³³ gu̱²¹	ni̱³³ te̱³³ gu̱²¹	chest	chest			1.4.4.3	5.1	0			297,m,560
+47399	216	Ahi	nɯ̱³³ ɣɯ²¹ bu⁵⁵	nɯ̱³³ ɣɯ²¹ bu⁵⁵	rib cage	rib cage			1.4.4.3	5.1.1	0			297,232,m
+47400	216	Ahi	nɯ̱³³ ɣɯ²¹	nɯ̱³³ ɣɯ²¹	rib	rib			1.4.4.3	5.1.2	0			297,232
+47401	216	Ahi	ni̱³³ te̱³³ ɣɯ²¹	ni̱³³ te̱³³ ɣɯ²¹	breastbone / sternum	breastbone  /  sternum			1.6.3.2	5.1.3	0	jbl3		
+47402	216	Ahi	mɑ⁵⁵ ɣɯ²¹	mɑ⁵⁵ ɣɯ²¹	collar bone / clavicle	collar bone  /  clavicle			1.4.3.1	5.2	0	jbl3		m,232
+47403	216	Ahi	pʻɑ²² ni²¹	pʻɑ²² ni²¹	shoulder	shoulder			1.4.3	5.3	0			570,m
+47404	216	Ahi	pʻɑ²² ɣɯ²¹	pʻɑ²² ɣɯ²¹	shoulder blade / scapula	shoulder blade  /  scapula			1.4.3.2	5.3.1	0	jbl3		568,232
+47405	216	Ahi	pʻɑ²² ʂi⁵⁵	pʻɑ²² ʂi⁵⁵	shrug shoulders	shrug shoulders	v.	v.	1.4.3.3	5.3.2	0			
+47406	216	Ahi	ɑ³³ nɯ³³ pi⁵⁵	ɑ³³ nɯ³³ pi⁵⁵	breast	breast			1.4.4.3	5.4	0			p,253,276
+47407	216	Ahi	ɑ³³ nɯ³³ ni²¹	ɑ³³ nɯ³³ ni²¹	nipple	nipple				5.4.1	0			p,253,254
+47408	216	Ahi	ɑ³³ nɯ³³	ɑ³³ nɯ³³	udder (of cow, goat)	udder (of cow, goat)				5.4.2	0			
+47409	216	Ahi	ɑ³³ nɯ³³	ɑ³³ nɯ³³	milk	milk				5.4.3	0			p,253
+47410	216	Ahi	ɑ³³ nɯ³³ tɕi⁵⁵	ɑ³³ nɯ³³ tɕi⁵⁵	colostrum	colostrum				5.4.4	0			
+47411	216	Ahi	ɑ³³ nɯ³³ tʂi̱⁵⁵	ɑ³³ nɯ³³ tʂi̱⁵⁵	suck	suck	v.	v.	1.3.2.1	5.4.5	0			m,m,5541
+47412	216	Ahi	tʂi̱⁵⁵	tʂi̱⁵⁵	nurse / suckle	nurse  /  suckle	v.	v.	4.2.1.5	5.4.6	0	jbl3		5541
+47413	216	Ahi	ɑ³³ nɯ³³ ŋɯ⁵⁵	ɑ³³ nɯ³³ ŋɯ⁵⁵	wean	wean				5.4.7	0			p,253,m
+47414	216	Ahi	no³³ ko³³ tɕi²²	no³³ ko³³ tɕi²²	back	back			1.4.8	5.5	0			203,m,223
+47415	216	Ahi	pʻɑ²² ni²¹	pʻɑ²² ni²¹	upper back	upper back			9.2.1	5.5.1	0			410,m
+47416	216	Ahi	pʻɑ²² le̱²¹	pʻɑ²² le̱²¹	lower back	lower back			1.4.8.1	5.5.2	0			410,m
+47417	216	Ahi	pʻɑ²² zo²¹	pʻɑ²² zo²¹	small of back	small of back			1.4.8.1	5.5.3	0			410,215
+47418	216	Ahi	nɯ̱³³ ɣɯ²¹ to²²	nɯ̱³³ ɣɯ²¹ to²²	backbone / spine	backbone / spine			1.4.8.2	5.5.4	0			203,232,m
+47419	216	Ahi	nɯ̱³³ ɣɯ²¹ tsi̱⁵⁵	nɯ̱³³ ɣɯ²¹ tsi̱⁵⁵	spinal cord	spinal cord			1.4.8.2	5.5.5	0			
+47420	216	Ahi	bu³³ ko³³	bu³³ ko³³	hunchback	hunchback			1.4.8.3	5.5.6	0			163,211
+47421	216	Ahi	dʐu̱²¹ tsi̱⁵⁵ ɣɯ²¹	dʐu̱²¹ tsi̱⁵⁵ ɣɯ²¹	waist	waist			1.4.6	5.6	0			215,418,232
+47423	216	Ahi	tʂʻi̱²¹ bu̱²¹ dɯ⁵⁵ lɯ⁵⁵	tʂʻi̱²¹ bu̱²¹ dɯ⁵⁵ lɯ⁵⁵	navel	navel			1.9.4	5.7.1	0			525,m,520,m
+47424	216	Ahi	ɣɯ²¹ pʻi²¹ zo²¹	ɣɯ²¹ pʻi²¹ zo²¹	pelvis / pelvic girdle	pelvis  /  pelvic girdle			1.4.9.2	5.8	0	jbl3		m,1361,m
+47425	216	Ahi	mɑ⁵⁵ pʻi²¹ ɣɯ²¹	mɑ⁵⁵ pʻi²¹ ɣɯ²¹	hips	hips			1.4.9.2	5.8.1	0			1288,1361,220
+47426	216	Ahi	ʈʻu²¹ tʂo̱⁵⁵ gu̱²¹	ʈʻu²¹ tʂo̱⁵⁵ gu̱²¹	hipbone	hipbone			1.4.9.2	5.8.2	0			m,215,233
+47427	216	Ahi	ɑ³³ pɑ̱³³ tɕʻi²¹ dʐi²¹	ɑ³³ pɑ̱³³ tɕʻi²¹ dʐi²¹	haunches (of animal)	haunches (of animal)			1.4.9.2	5.8.3	0			
+47428	216	Ahi	tɕʻi²² vi³³ dɯ²¹	tɕʻi²² vi³³ dɯ²¹	crotch / fork of legs	crotch  /  fork of legs			1.4.9.1	5.9	0	jbl3		
+47429	216	Ahi	mɑ⁵⁵	mɑ⁵⁵	rump	rump			1.4.10	5.10	0			1288
+47430	216	Ahi	mɑ⁵⁵ po²²	mɑ⁵⁵ po²²	buttocks	buttocks			1.4.10	5.10.1	0			1288,404
+47431	216	Ahi	mɑ⁵⁵ ɣɯ²¹	mɑ⁵⁵ ɣɯ²¹	tailbone / coccyx	tailbone  /  coccyx			1.6.3.3	5.10.2	0	jbl3		1288,232
+47432	216	Ahi	mɑ⁵⁵ dʐi²¹	mɑ⁵⁵ dʐi²¹	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			1288,m
+47433	216	Ahi	pʻɑ²² le̱²¹	pʻɑ²² le̱²¹	arm	arm			1.5.1.2	6.1	0			m,695
+47434	216	Ahi	ʑe̱⁵⁵ mɑ³³ dɯ²¹	ʑe̱⁵⁵ mɑ³³ dɯ²¹	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		
+47435	216	Ahi	ʐo²¹ ve̱³³	ʐo²¹ ve̱³³	tickle	tickle	v.	v.	1.5.1.2.4	6.1.1.1	0			
+47436	216	Ahi	le̱²¹ pʻɑ²²	le̱²¹ pʻɑ²²	upperarm	upperarm			1.5.1.2.1	6.1.2	0			
+47438	216	Ahi	le̱²¹ nɯ̱⁵⁵ dɯ²¹	le̱²¹ nɯ̱⁵⁵ dɯ²¹	elbow	elbow			1.5.8.3	6.1.4	0			695,m,306
+47439	216	Ahi	le̱²¹ nɯ̱⁵⁵ ɣɯ²¹	le̱²¹ nɯ̱⁵⁵ ɣɯ²¹	elbow bone	elbow bone			1.5.8.3	6.1.4.1	0			695,m,307
+47440	216	Ahi	le²¹ lɛ²²	le²¹ lɛ²²	inner elbow / crook of elbow	inner elbow  /  crook of elbow			1.5.8.3	6.1.4.2	0	jbl3		695,m
+47441	216	Ahi	le̱²¹ ɣɯ²¹	le̱²¹ ɣɯ²¹	forearm / lower arm	forearm  /  lower arm			1.5.1.2.2	6.1.5	0	jbl3		695,232
+47442	216	Ahi	le̱²¹ gu̱⁵⁵	le̱²¹ gu̱⁵⁵	wrist	wrist			1.5.8.1	6.1.6	0			695,m
+47443	216	Ahi	le̱²¹	le̱²¹	hand	hand			1.5.1.1	6.1.7	0			695
+47444	216	Ahi	le̱²¹ te̱³³	le̱²¹ te̱³³	palm	palm			1.5.5	6.1.7.1	0			
+47445	216	Ahi	le̱²¹ kʻɑ²²	le̱²¹ kʻɑ²²	back of hand	back of hand			1.5.1.1.2	6.1.7.2	0			695,m
+47446	216	Ahi	le̱²¹ pu⁵⁵ tsʻi̱²¹	le̱²¹ pu⁵⁵ tsʻi̱²¹	fist	fist			1.5.1.1.1	6.1.7.3	0			695,m,86
+47447	216	Ahi	le̱²¹ ʐu³³	le̱²¹ ʐu³³	right hand	right hand			1.5.3.2	6.1.7.4	0			695,2786
+47448	216	Ahi	le̱²¹ vɑ⁵⁵	le̱²¹ vɑ⁵⁵	left hand	left hand			1.5.3.2	6.1.7.5	0			695,2154
+47449	216	Ahi	ɑ³³ ŋo²¹ ʈo²² le̱²¹	ɑ³³ ŋo²¹ ʈo²² le̱²¹	fin (of fish)	fin (of fish)			1.5.1.3.1	6.1.8	0			
+47450	216	Ahi	ʈo²² le̱²¹	ʈo²² le̱²¹	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			711,695
+47451	216	Ahi	tɕʻi²² si²¹	tɕʻi²² si²¹	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			
+47452	216	Ahi	ʈʻu²¹ pʻi⁵⁵ ɣɯ²¹	ʈʻu²¹ pʻi⁵⁵ ɣɯ²¹	leg	leg			1.5.7	6.2	0			
+47453	216	Ahi	ʈʻu²¹ ɣɯ²¹	ʈʻu²¹ ɣɯ²¹	thigh	thigh			1.5.7.1	6.2.1	0			
+47454	216	Ahi	ʈʻu²¹ tʂo̱⁵⁵ ɣɯ²¹	ʈʻu²¹ tʂo̱⁵⁵ ɣɯ²¹	thigh bone / femur	thigh bone  /  femur			1.5.7.1	6.2.1.1	0	jbl3		m,m,232
+47455	216	Ahi	ɑ³³ pɑ̱³³ tɕʻi²¹ dʐi²¹	ɑ³³ pɑ̱³³ tɕʻi²¹ dʐi²¹	hamstring	hamstring			1.6.6.2	6.2.1.2	0			
+47456	216	Ahi	po³³ tsi³³ ni⁵⁵ o⁵⁵ ko̱³³	po³³ tsi³³ ni⁵⁵ o⁵⁵ ko̱³³	knee	knee			1.5.8.4	6.2.2	0			435,m,m,m,m
+47457	216	Ahi	po³³ tsʻi̱²¹ bu⁵⁵	po³³ tsʻi̱²¹ bu⁵⁵	knee cap / patella	knee cap  /  patella			1.5.8.4	6.2.2.1	0	jbl3		435,m,m
+47458	216	Ahi	po³³ tsʻi̱²¹ gu̱²¹	po³³ tsʻi̱²¹ gu̱²¹	knee hollow / popliteal region	knee hollow  /  popliteal region			1.5.8.4	6.2.2.2	0	jbl3		435,m,m
+47459	216	Ahi	po²² tsʻi̱²¹	po²² tsʻi̱²¹	shin / tibia	shin  /  tibia			1.5.7.2	6.2.3	0	jbl3		
+47460	216	Ahi	po²² tsʻi̱²¹ ɣɯ²¹	po²² tsʻi̱²¹ ɣɯ²¹	shin bone	shin bone			1.5.7.2	6.2.3.1	0			m,m,232
+47461	216	Ahi	tɕʻi²² lɛ²² ɣɯ²¹	tɕʻi²² lɛ²² ɣɯ²¹	calf	calf			1.5.7	6.2.4	0			
+47462	216	Ahi	go̱²¹ bu⁵⁵ zo²¹	go̱²¹ bu⁵⁵ zo²¹	ankle	ankle			1.5.8.2	6.2.5	0			
+47463	216	Ahi	go̱²¹ bu⁵⁵ ɣɯ²¹	go̱²¹ bu⁵⁵ ɣɯ²¹	ankle bone	ankle bone			1.5.8.2	6.2.5.1	0			m,m,232
+47464	216	Ahi	tɕʻi²² be̱³³	tɕʻi²² be̱³³	foot	foot			1.5.2	6.2.6	0			335,m
+47465	216	Ahi	go̱²¹ ni̱⁵⁵	go̱²¹ ni̱⁵⁵	heel	heel			1.5.2.1	6.2.6.1	0			
+47466	216	Ahi	tɕʻi²² kɑ̱³³ zo²¹	tɕʻi²² kɑ̱³³ zo²¹	arch	arch			1.5.2.3	6.2.6.3	0			
+47467	216	Ahi	tɕʻi²² te̱³³ zo²¹	tɕʻi²² te̱³³ zo²¹	ball of the foot	ball of the foot			9.7.1	6.2.6.4	0			
+47468	216	Ahi	go̱²¹ te̱³³ zo²¹	go̱²¹ te̱³³ zo²¹	sole	sole			1.5.5	6.2.6.5	0			
+47469	216	Ahi	tɕʻi²² kʻɑ²²	tɕʻi²² kʻɑ²²	instep	instep			1.5.2.2	6.2.6.6	0			
+47470	216	Ahi	tɕʻi²² do²²	tɕʻi²² do²²	footprint	footprint			1.5.2.5	6.2.6.7	0			
+47471	216	Ahi	bo̱²¹	bo̱²¹	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			5623
+47472	216	Ahi	tɕʻi²² si²¹ zo²¹	tɕʻi²² si²¹ zo²¹	paw (of animal)	paw (of animal)			1.5.4	6.2.6.9	0			335,512,1012
+47473	216	Ahi	go̱²¹ ʈa³³	go̱²¹ ʈa³³	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+47474	216	Ahi	go̱²¹ ʈɑ³³	go̱²¹ ʈɑ³³	limp	limp	v.	v.	1.5.12	6.2.8	0			
+47475	216	Ahi	le̱²¹ tʂi³³ mo³³ zo²¹	le̱²¹ tʂi³³ mo³³ zo²¹	finger	finger			1.5.6	7.1	0			
+47476	216	Ahi	le̱²¹ tʂi³³ ni²¹	le̱²¹ tʂi³³ ni²¹	index finger	index finger			1.0	7.1.1	0			
+47481	216	Ahi	le̱²¹ vɛ³³ zo²¹	le̱²¹ vɛ³³ zo²¹	fingerprint	fingerprint			1.5.6.1	7.1.6	0			
+47482	216	Ahi	tɕʻi̱²¹ tʂi³³ mp³³	tɕʻi̱²¹ tʂi³³ mp³³	toe	toe			1.5.6	7.2	0			
+47483	216	Ahi	tɕʻi̱²¹ tʂi³³ mo³³ zo²¹	tɕʻi̱²¹ tʂi³³ mo³³ zo²¹	big toe	big toe			1.5.6.1	7.2.1	0			
+47484	216	Ahi	tɕʻi̱²¹ tʂi³³ ni²¹	tɕʻi̱²¹ tʂi³³ ni²¹	second toe	second toe			9.9	7.2.2	0			
+47489	216	Ahi	le̱²¹ si²¹	le̱²¹ si²¹	nail	nail			1.5.10	7.4	0			695,512
+47490	216	Ahi	le̱²¹ si²¹ zo²¹	le̱²¹ si²¹ zo²¹	fingernail	fingernail			1.5.10.1	7.4.1	0			695,512,1012
+47491	216	Ahi	tɕʻi²² si²¹ zo²¹	tɕʻi²² si²¹ zo²¹	toenail	toenail			1.5.10.2	7.4.2	0			335,512,1012
+47492	216	Ahi	tɕʻi²² si²¹	tɕʻi²² si²¹	claw (of animal)	claw (of animal)			1.5.10.4	7.4.3	0			335,512
+47493	216	Ahi	no̱³³ to²²	no̱³³ to²²	pincers (eg. of crab)	pincers (eg. of crab)			1.5.10.4	7.4.5	0			
+47494	216	Ahi	i³³ nɯ̱³³	i³³ nɯ̱³³	hair (general)	hair (general)			1.2.3	8.1	0			p,363
+47495	216	Ahi	o⁵⁵ tsʻi²²	o⁵⁵ tsʻi²²	hair of head	hair of head			1.2.3	8.1.1	0	jbl5	HIDE	DUPE IN SOURCE
+47496	216	Ahi	o⁵⁵ tsɛ²² to²²	o⁵⁵ tsɛ²² to²²	cowlick (flexure in hair)	cowlick (flexure in hair)			1.2.3.1	8.1.1.1	0			385,1232,m
+47497	216	Ahi	bo²¹ nɯ̱³³	bo²¹ nɯ̱³³	beard / moustache	beard / moustache			1.2.5.5	8.1.2	0			268,471
+47498	216	Ahi	ni²¹ tsʻi²²	ni²¹ tsʻi²²	beard	beard			1.2.5.5	8.1.2.1	0			467,1232
+47499	216	Ahi	ni²¹ tsʻi²² zo²¹	ni²¹ tsʻi²² zo²¹	goatee	goatee			1.2.5.5	8.1.2.2	0			467,1232,m
+47501	216	Ahi	xo²¹ nɯ̱³³ be³³ zo²¹	xo²¹ nɯ̱³³ be³³ zo²¹	body hair	body hair			1.6.1	8.1.3	0			m,368,m,m
+47505	216	Ahi	nɯ̱³³ bɛ³³ zo²¹	nɯ̱³³ bɛ³³ zo²¹	fur (of animal)	fur (of animal)			1.6.1	8.1.4	0			m,m,m
+47506	216	Ahi	xe̱³³ nɯ̱³³ bɛ³³ zo²¹	xe̱³³ nɯ̱³³ bɛ³³ zo²¹	feather (of bird)	feather (of bird)			1.6.1.1	8.1.5	0			m,m,m,m
+47507	216	Ahi	o⁵⁵ bɑ²¹	o⁵⁵ bɑ²¹	mane (of horse, lion)	mane (of horse, lion)			1.6.1	8.1.6	0			m,m
+47508	216	Ahi	ni²¹ tsʻi²²	ni²¹ tsʻi²²	whiskers (of animal)	whiskers (of animal)			1.2.5.5	8.1.7	0			467,1232
+47509	216	Ahi	i³³ tɕi²²	i³³ tɕi²²	skin	skin			1.6.5	8.2	0			m,596
+47510	216	Ahi	tʂa⁵⁵	tʂa⁵⁵	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		615
+47511	216	Ahi	xo²¹ nɯ̱³³ do̱²¹ dɯ²¹	xo²¹ nɯ̱³³ do̱²¹ dɯ²¹	pore	pore			1.8.1.1	8.2.2	0			
+47512	216	Ahi	xo²¹ ne̱³³ gɑ̱²¹ zo²¹	xo²¹ ne̱³³ gɑ̱²¹ zo²¹	blemish on skin	blemish on skin			1.6.5	8.2.3	0			m,m,m,m
+47513	216	Ahi	ʑi²² mu⁵⁵ ʈʻi²¹ pa²²	ʑi²² mu⁵⁵ ʈʻi²¹ pa²²	freckle	freckle			1.6.5.3	8.2.3.1	0			
+47514	216	Ahi	bu̱³³	bu̱³³	pimple	pimple			1.6.5.3	8.2.3.2	0			
+47515	216	Ahi	ti³³ ɣɯ²¹	ti³³ ɣɯ²¹	mole	mole			2.2.7	8.2.3.3	0			
+47516	216	Ahi	bu̱³³ tsʻi̱²¹ zo²¹	bu̱³³ tsʻi̱²¹ zo²¹	wart	wart			1.6.5.3	8.2.3.4	0			
+47517	216	Ahi	ko⁵⁵ pʻo̱²¹	ko⁵⁵ pʻo̱²¹	cyst	cyst			1.6.5.3	8.2.3.5	0			
+47518	216	Ahi	le̱⁵⁵ gɑ²¹	le̱⁵⁵ gɑ²¹	age spot / liver spot	age spot  /  liver spot			6.2	8.2.3.6	0	jbl3		
+47519	216	Ahi	ve̱²¹ lo⁵⁵ pe̱⁵⁵	ve̱²¹ lo⁵⁵ pe̱⁵⁵	scar	scar			1.6.5.3	8.2.3.7	0			
+47520	216	Ahi	tɕi²² gɑ²¹	tɕi²² gɑ²¹	rash	rash			1.6.5.3	8.2.3.9	0			
+47521	216	Ahi	ʐo²¹ ve̱³³	ʐo²¹ ve̱³³	itch  / be itchy	itch   /  be itchy	v.	v.	1.6.5.5	8.2.3.10	0	jbl3		6131,s
+47522	216	Ahi	no²² ŋo̱⁵⁵	no²² ŋo̱⁵⁵	scab	scab			1.6.5.3	8.2.4	0			
+47523	216	Ahi	ɑ³³ ŋo²¹ i³³ kɯ⁵⁵	ɑ³³ ŋo²¹ i³³ kɯ⁵⁵	scales (of fish)	scales (of fish)			1.6.5.2	8.2.5	0			p,1455,m,783
+47525	216	Ahi	tsʻɑ²²	tsʻɑ²²	fat	fat			1.6.4	8.3	0			42
+47527	216	Ahi	tsʻɑ²²	tsʻɑ²²	oil / grease (for cooking)	oil  /  grease (for cooking)			1.6.4.1	8.3.2	0	jbl3		42
+47528	216	Ahi	ɣo²¹ ko̱³³	ɣo²¹ ko̱³³	bone	bone			1.6.3	8.4	0			232,m
+47529	216	Ahi	ɣɯ²¹ bu⁵⁵	ɣɯ²¹ bu⁵⁵	skeleton	skeleton			1.6.3.1	8.4.1	0			b,m
+47530	216	Ahi	pʻɑ³³ tsi̱⁵⁵ ɣɯ²¹	pʻɑ³³ tsi̱⁵⁵ ɣɯ²¹	vertebrae (of spine)	vertebrae (of spine)			1.6.3.3	8.4.2	0			m,m,232
+47531	216	Ahi	ɣɯ²¹ ʈo³³	ɣɯ²¹ ʈo³³	marrow	marrow			1.6.3.5	8.4.3	0		D1	232,459
+47532	216	Ahi	ɣɯ²¹ ni²¹ zo²¹	ɣɯ²¹ ni²¹ zo²¹	cartilage / grist	cartilage  /  grist			1.6.3.4	8.4.4	0	jbl3		232,275,m
+47534	216	Ahi	dʐi²¹ tʂo³³	dʐi²¹ tʂo³³	ligament (bone to bone)	ligament (bone to bone)			1.6.3	8.6	0			m,535
+47535	216	Ahi	si²¹	si²¹	blood	blood			1.6.2	8.7	0			230
+47536	216	Ahi	si²¹ tʂo³³	si²¹ tʂo³³	blood vessel / vein / artery	blood vessel  /  vein  /  artery			1.6.2.1	8.7.1	0	jbl3		230,535
+47537	216	Ahi	si²¹ du̱³³	si²¹ du̱³³	bleed	bleed	v.	v.	1.6.2	8.7.2	0			230,m
+47538	216	Ahi	xo²¹ tɕi²²	xo²¹ tɕi²²	muscle	muscle			1.6.6.2	8.8	0			34,m
+47539	216	Ahi	ɣɯ²¹ tsi̱⁵⁵	ɣɯ²¹ tsi̱⁵⁵	joint	joint			1.5.8	8.9	0			232,418
+47540	216	Ahi	sɛ³³ tʂo³³	sɛ³³ tʂo³³	nerve	nerve			1.6.6.3	8.10	0			530,535
+47541	216	Ahi	o⁵⁵ nɯ̱³³	o⁵⁵ nɯ̱³³	brain	brain			1.2.4	9.1	0	jbl5	HIDE	DUPE IN SOURCE
+47542	216	Ahi	pʻɑ²² ʈo³³ zo²¹	pʻɑ²² ʈo³³ zo²¹	spinal cord	spinal cord			1.4.8.2	9.1.1	0			
+47543	216	Ahi	ɣɯ²¹ ʈo³³	ɣɯ²¹ ʈo³³	marrow	marrow			1.6.3.5	9.1.2	0	jbl5	HIDE	DUPE IN SOURCE
+47544	216	Ahi	tsi³³ pu²²	tsi³³ pu²²	lung	lung			1.7.2	9.2	0			458,s
+47545	216	Ahi	sɛ̱²¹ ku²²	sɛ̱²¹ ku²²	breathe	breathe	v.	v.	1.1.2.2	9.2.1	0			32,1809
+47546	216	Ahi	sɛ̱²¹ tsʻo²¹	sɛ̱²¹ tsʻo²¹	pant	pant	v.	v.	1.1.2.2	9.2.2	0			32,m
+47547	216	Ahi	mu̱³³	mu̱³³	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			503
+47548	216	Ahi	bo²¹ ʈɑ̱³³	bo²¹ ʈɑ̱³³	gill (of fish)	gill (of fish)			1.3.5.3	9.2.4	0			
+47549	216	Ahi	ɑ³³ xe̱³³	ɑ³³ xe̱³³	phlegm	phlegm			1.8.3	9.2.5	0			p,540
+47550	216	Ahi	ni̱³³ mo²²	ni̱³³ mo²²	heart	heart			1.7.1	9.3	0			297,s
+47551	216	Ahi	ni̱³³ tʂo²²	ni̱³³ tʂo²²	heartbeat	heartbeat			1.7.1.1	9.3.1	0			297,m
+47552	216	Ahi	dʐi²¹ mo̱²¹	dʐi²¹ mo̱²¹	pulse	pulse			1.7.1.1	9.3.2	0			m,1384
+47554	216	Ahi	i³³ kɛ³³ zo²¹	i³³ kɛ³³ zo²¹	liver	liver			1.7.3	9.5	0			
+47555	216	Ahi	i³³ tʂi²² ʑi²²	i³³ tʂi²² ʑi²²	bile	bile			1.7.3.1	9.5.1	0			m,1390,m
+47556	216	Ahi	i³³ tʂi²² zo²¹	i³³ tʂi²² zo²¹	gall bladder	gall bladder			1.7.3	9.5.2	0			m,227,m
+47557	216	Ahi	i³³ fu⁵⁵ zo²¹	i³³ fu⁵⁵ zo²¹	kidney	kidney			1.7.5	9.6	0			m,2102,m
+47558	216	Ahi	sɑ²¹ pʻu²¹	sɑ²¹ pʻu²¹	urinary bladder	urinary bladder			1.7.8	9.7	0			
+47559	216	Ahi	zi²¹	zi²¹	urine	urine			1.8.4	9.7.1	0			650
+47560	216	Ahi	zi²¹ xo²²	zi²¹ xo²²	urinate	urinate	v.	v.	1.5.3.2	9.7.2	0			650,m
+47561	216	Ahi	ʈi³³	ʈi³³	spleen	spleen			1.7.4	9.8	0			m
+47562	216	Ahi	ʈi³³ zɛ̱²¹ lɛ²²	ʈi³³ zɛ̱²¹ lɛ²²	swollen spleen (illness)	swollen spleen (illness)			1.1.5.2	9.8.1	0			m,m,m
+47563	216	Ahi	ɣo²² tɕi²² zo²¹	ɣo²² tɕi²² zo²¹	pancreas	pancreas			1.7.7	9.9	0			2102,1390,m
+47564	216	Ahi	xi̱²¹ mo³³	xi̱²¹ mo³³	stomach	stomach			1.7.6	9.10	0			2104,1384
+47565	216	Ahi	ɣo²² mɑ³³	ɣo²² mɑ³³	intestines / bowels	intestines  /  bowels			1.7.7	9.11	0	jbl3		2102,1384
+47566	216	Ahi	ɣo²² ɣɑ²¹	ɣo²² ɣɑ²¹	large intestine	large intestine			1.7.7	9.11.1	0			2102,m
+47567	216	Ahi	ɣo²² zo²¹	ɣo²² zo²¹	small intestine	small intestine			9.7.2	9.11.2	0			2102,m
+47568	216	Ahi	ɣo²² ni²¹ zo²¹	ɣo²² ni²¹ zo²¹	appendix	appendix			1.7.7	9.11.3	0			2102,m,m
+47569	216	Ahi	mɑ⁵⁵ po²²	mɑ⁵⁵ po²²	anus / rectum	anus  /  rectum			1.4.10.2	9.12	0	jbl3		1288,398
+47570	216	Ahi	ʈʻi²¹	ʈʻi²¹	feces / shit	feces  /  shit			1.8.5	9.12.1	0	jbl3		572
+47571	216	Ahi	ɑ³³ bɑ̱⁵⁵ zo²¹ tʻi²¹	ɑ³³ bɑ̱⁵⁵ zo²¹ tʻi²¹	meconium / baby shit	meconium  /  baby shit			1.8.5	9.12.2	0	jbl3		
+47572	216	Ahi	ʈʻi²¹ xo²²	ʈʻi²¹ xo²²	defecate	defecate	v.	v.	1.8.5.4	9.12.3	0			
+47573	216	Ahi	to⁵⁵ bi̱²¹	to⁵⁵ bi̱²¹	genitalia / pudenda (general)	genitalia  /  pudenda (general)			1.9.1	10.1	0	jbl3		661,662
+47574	216	Ahi	to⁵⁵ bi̱²¹ tʂʻɛ²²	to⁵⁵ bi̱²¹ tʂʻɛ²²	copulate	copulate	v.	v.	1.9.1.1	10.2	0			661,662,m
+47575	216	Ahi	i³³ pʻu²²	i³³ pʻu²²	male	male			1.9.6.1	10.3	0			m,1635
+47576	216	Ahi	dzi³³	dzi³³	penis	penis				10.3.1	0			1601
+47577	216	Ahi	ɑ⁵⁵ ɕi²¹	ɑ⁵⁵ ɕi²¹	glans penis	glans penis				10.3.2	0			p,1601
+47578	216	Ahi	ɑ⁵⁵ ɕi²¹ i³³ tɕi²²	ɑ⁵⁵ ɕi²¹ i³³ tɕi²²	foreskin	foreskin				10.3.3	0			p,1601,m,m
+47579	216	Ahi	lɑ̱³³ ʑi²² ni²² dɯ²¹	lɑ̱³³ ʑi²² ni²² dɯ²¹	scrotum	scrotum				10.3.4	0			
+47580	216	Ahi	dɑ³³ ʈʻo²²	dɑ³³ ʈʻo²²	testicle	testicle				10.3.5	0			m,1609
+47581	216	Ahi	dzi³³ nɯ̱³³	dzi³³ nɯ̱³³	male pubic hair	male pubic hair				10.3.6	0			m,363
+47582	216	Ahi	lɑ̱³³ ʑi²²	lɑ̱³³ ʑi²²	semen	semen				10.3.7	0			m,1013
+47583	216	Ahi	pi̱⁵⁵	pi̱⁵⁵	ejaculate	ejaculate	v.	v.		10.3.8	0			3493
+47584	216	Ahi	mɛ³³ lɑ⁵⁵	mɛ³³ lɑ⁵⁵	castrate	castrate	v.	v.	1.9.2.3	10.3.9	0			475,m
+47585	216	Ahi	i³³ mo³³	i³³ mo³³	female	female			1.9.3	10.4	0			m,1620
+47586	216	Ahi	to⁵⁵ bi̱²¹ ne̱³³ ba⁵⁵	to⁵⁵ bi̱²¹ ne̱³³ ba⁵⁵	vagina	vagina				10.4.1	0			661,662,m,m
+47587	216	Ahi	to⁵⁵ bi̱²¹ ni²¹	to⁵⁵ bi̱²¹ ni²¹	vulva / labia	vulva  /  labia				10.4.2	0	jbl3		661,662,m
+47588	216	Ahi	to⁵⁵ tɕi²² zo²¹	to⁵⁵ tɕi²² zo²¹	hymen	hymen				10.4.3	0			661,m,m
+47589	216	Ahi	to⁵⁵ lo²² zo²¹	to⁵⁵ lo²² zo²¹	clitoris	clitoris				10.4.4	0			661,M,M
+47590	216	Ahi	to⁵⁵ nɯ̱³³	to⁵⁵ nɯ̱³³	female pubic hair	female pubic hair				10.4.5	0			661,m
+47591	216	Ahi	mɑ⁵⁵ si²¹ du̱³³	mɑ⁵⁵ si²¹ du̱³³	menstruate	menstruate	v.	v.	1.9.11.1	10.4.6	0			m,230,m
+47592	216	Ahi	mɑ⁵⁵ si²¹	mɑ⁵⁵ si²¹	menstrual blood	menstrual blood			1.9.11.1	10.4.7	0			m,230
+47593	216	Ahi	i³³zo²¹ni²²dɯ²¹	i³³zo²¹ni²²dɯ²¹	womb	womb				10.4.8	0			m,1012,m,m
+47594	216	Ahi	i³³ tɕʻe̱³³	i³³ tɕʻe̱³³	placenta	placenta				10.4.11	0			p,679
+47597	216	Ahi	ɑ³³ bɑ̱⁵⁵ zo²¹ ni²²	ɑ³³ bɑ̱⁵⁵ zo²¹ ni²²	pregnant	pregnant	be v.	be v.	1.9.6.1	10.4.14	0			m,m,m,m
+47598	216	Ahi	ɑ³³ bɑ̱⁵⁵ zo²¹ bu³³	ɑ³³ bɑ̱⁵⁵ zo²¹ bu³³	birth, give	birth, give			1.1.2	10.4.15	0			p,m,1012,70
+47599	216	Ahi	i³³ ʈʻo²²	i³³ ʈʻo²²	egg (of animal)	egg (of animal)				10.4.16	0			p,1609
+47600	216	Ahi	tsi⁵⁵	tsi⁵⁵	cough	cough			1.8.3.3	11.1	0			
+47601	216	Ahi	xɯ⁵⁵ ʈo̱²¹ dɑ²¹	xɯ⁵⁵ ʈo̱²¹ dɑ²¹	hiccup	hiccup			1.8.3.5	11.2	0			3443,m,m
+47602	216	Ahi	xɛ̱²¹ |tʻiu⁵⁵	xɛ̱²¹ tʻiu⁵⁵	sneeze	sneeze			1.8.2.1	11.3	0			2131
+47603	216	Ahi	ʑe̱²¹ ŋɯ³³ ku²²	ʑe̱²¹ ŋɯ³³ ku²²	snore	snore			1.8.2.2	11.4	0			127,m,m
+47604	216	Ahi	tʂɑ³³ si⁵⁵ mu̱³³	tʂɑ³³ si⁵⁵ mu̱³³	whistle	whistle			8.5.5	11.5	0			m,m,m
+47605	216	Ahi	xɯ⁵⁵ ʈo̱²¹ dɑ²¹	xɯ⁵⁵ ʈo̱²¹ dɑ²¹	burp / belch	burp  /  belch			1.8.3	11.6	0	jbl3		3443,m,m
+47606	216	Ahi	vɑ²¹ tʻi²¹	vɑ²¹ tʻi²¹	fart	fart			1.8.5.2	11.7	0			3553,m
+47607	216	Ahi	tʂʻo²¹ lɛ³³ po⁵⁵ tsʻi²¹	tʂʻo²¹ lɛ³³ po⁵⁵ tsʻi²¹	clear throat	clear throat			9.6.1.1	11.8	0			3363,m,m,m
+47608	216	Ahi	ɣɑ²²	ɣɑ²²	laugh	laugh			1.8.8.1	11.9	0			1108
+47609	216	Ahi	tso²²	tso²²	tremble / shiver / shudder	tremble  /  shiver  /  shudder			1.6.6.2.1	12.1	0	jbl3		
+47610	216	Ahi	no²²	no²²	sick / be ill / hurt	sick  /  be ill  /  hurt	be v.	be v.	1.1.5.1	12.2	0	jbl3		160
+47611	216	Ahi	dɯ²¹	dɯ²¹	numb /  be paralyzed	numb  /   be paralyzed	be v.	be v.	1.5.11	12.3	0	jbl3		
+47612	216	Ahi	pʻu²²	pʻu²²	swell /  be swollen	swell  /   be swollen	v.	v.	1.1.5.2	12.4	0	jbl3		163?
+47613	216	Ahi	ʈɛ²²	ʈɛ²²	pus	pus			1.8.6.1	12.5	0			1292
+47614	216	Ahi	pʻo̱²¹	pʻo̱²¹	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound			1.8.6.2	12.6	0	jbl3		
+47615	216	Ahi	tsi̱⁵⁵	tsi̱⁵⁵	phalanx (knuckle length)	phalanx (knuckle length)			1.5.8.5	13.1	0			418
+47616	216	Ahi	tu̱²²	tu̱²²	hand span	hand span			1.5.9.4	13.2	0			1281
+47617	216	Ahi	gɯ³³	gɯ³³	cubit (elbow to fingers)	cubit (elbow to fingers)			1.5.9.3	13.3	0			
+47619	216	Ahi	bi²²	bi²²	nose to fingertip	nose to fingertip	v.	v.	1.2.8	13.4.1	0			810
+47621	216	Ahi	ni̱³³ mo³³ zo²¹	ni̱³³ mo³³ zo²¹	mind / locus of thought	mind  /  locus of thought			1.10	14.1	0	jbl3		297,s,m
+47622	216	Ahi	ni̱³³ mo³³	ni̱³³ mo³³	heart / locus of emotions	heart  /  locus of emotions			1.7.1	14.2	0	jbl3		297,s
+47623	216	Ahi	ni̱³³ ʑi²²	ni̱³³ ʑi²²	heart / locus of personality	heart  /  locus of personality			1.7.1	14.3	0	jbl3		297,m
+145876	216	Ahi	po³³ tsʻi̱³³ dʑi²¹ ɣɯ³³⁀ɛ³³	po³³ tsʻi̱³³ dʑi²¹ ɣɯ³³⁀ɛ³³	lap	lap			1.4.4.2	1.8	0			
+145877	216	Ahi	no³³ pɑ³³ tʻo²¹ do̱²¹ tsi̱³³ tɕʻe³³	no³³ pɑ³³ tʻo²¹ do̱²¹ tsi̱³³ tɕʻe³³	temple	temple			1.2.5.1	3.3	0			
+145878	216	Ahi	ne̱³³ mo²² zo²¹ ne̱³³ tʂʻi²¹ mo³³	ne̱³³ mo²² zo²¹ ne̱³³ tʂʻi²¹ mo³³	pupil	pupil			1.2.6.2	3.4.2.2	0			681,m,m,m,m
+145879	216	Ahi	ne̱³³ mo²² zo²¹ ɑ³³ tʻo²² mo³³	ne̱³³ mo²² zo²¹ ɑ³³ tʻo²² mo³³	white of eye	white of eye			1.2.6.3	3.4.2.3	0			681,m,m,m,m,m
+145880	216	Ahi	ni²¹ tɕi²² o⁵⁵ kʻɑ³³ tʻi²¹ ʈo⁵⁵	ni²¹ tɕi²² o⁵⁵ kʻɑ³³ tʻi²¹ ʈo⁵⁵	upper lip	upper lip			9.2.1	3.9.1	0			467,596,m,m,m
+145881	216	Ahi	ni²¹ tɕi²² i³³ tʻu³³⁀ɛ³³ tʻi²¹ ʈo⁵⁵	ni²¹ tɕi²² i³³ tʻu³³⁀ɛ³³ tʻi²¹ ʈo⁵⁵	lower lip	lower lip				3.9.2	0			467,596,m,280,m
+145882	216	Ahi	le̱²¹ tʂi³³ mo³³ i³³ ku³³ tʻɯ⁵⁵	le̱²¹ tʂi³³ mo³³ i³³ ku³³ tʻɯ⁵⁵	middle finger	middle finger			1.9.4	7.1.2	0			
+145883	216	Ahi	le̱²¹ tʂi³³ mo³³ li³³ lɯ²¹ɛ̆³³ tʻɯ⁵⁵	le̱²¹ tʂi³³ mo³³ li³³ lɯ²¹ɛ̆³³ tʻɯ⁵⁵	ring finger	ring finger			1.5.6.2	7.1.3	0			
+145884	216	Ahi	le̱²¹ tʂi³³ mo³³ i³³ mɑ³³ tʻɯ⁵⁵	le̱²¹ tʂi³³ mo³³ i³³ mɑ³³ tʻɯ⁵⁵	little finger	little finger			9.7.2	7.1.4	0			
+145885	216	Ahi	le̱²¹ tʂi³³ mo³³ bi²¹ tɑ̱²¹ mo³³	le̱²¹ tʂi³³ mo³³ bi²¹ tɑ̱²¹ mo³³	thumb	thumb			1.5.6.1	7.1.5	0			
+145886	216	Ahi	tɕʻi̱²¹ tʂi³³ mo³³ i³³ ku³³ tʻɯ⁵⁵	tɕʻi̱²¹ tʂi³³ mo³³ i³³ ku³³ tʻɯ⁵⁵	middle toe	middle toe			1.9.4	7.2.3	0			
+145887	216	Ahi	tɕʻi̱²¹ tʂi³³ mo³³ li³³ lɯ²¹ɛ̆³³ tʻɯ⁵⁵	tɕʻi̱²¹ tʂi³³ mo³³ li³³ lɯ²¹ɛ̆³³ tʻɯ⁵⁵	fourth toe	fourth toe			9.9	7.2.4	0			
+145888	216	Ahi	tɕʻi̱²¹ tʂi³³ mo³³ i³³ mɑ³³ tʻɯ⁵⁵	tɕʻi̱²¹ tʂi³³ mo³³ i³³ mɑ³³ tʻɯ⁵⁵	little toe	little toe			9.7.2	7.2.5	0			
+145889	216	Ahi	tɕʻi̱²¹ tʂi³³ mo³³ i³³ tsi̱⁵⁵	tɕʻi̱²¹ tʂi³³ mo³³ i³³ tsi̱⁵⁵	knuckle (joint of digit)	knuckle (joint of digit)			1.5.8.5	7.3	0			m,m,m,m,418
+145890	216	Ahi	ni²¹ tsʻi²² nɯ⁵⁵ kɑ̱²¹ zo²¹	ni²¹ tsʻi²² nɯ⁵⁵ kɑ̱²¹ zo²¹	moustache	moustache			1.2.5.5	8.1.2.3	0			467,1232,m,m,m
+145891	216	Ahi	ʑe̱⁵⁵ mɑ³³ dɯ²¹ Kʻɛ³³ i³³ nɯ̱³³	ʑe̱⁵⁵ mɑ³³ dɯ²¹ Kʻɛ³³ i³³ nɯ̱³³	underarm hair	underarm hair			1.5.1.2.3	8.1.3.1	0			
+145892	216	Ahi	ni̱³³ te̱³³ gu̱²¹⁀ɛ³³ i³³ nɯ̱³³	ni̱³³ te̱³³ gu̱²¹⁀ɛ³³ i³³ nɯ̱³³	chest hair	chest hair			1.4.4.5	8.1.3.2	0			297,m,560,m
+145893	216	Ahi	ʈʻu²¹ pʻi⁵⁵ dʐi²¹⁀ɛ³³ i³³ nɯ̱³³	ʈʻu²¹ pʻi⁵⁵ dʐi²¹⁀ɛ³³ i³³ nɯ̱³³	leg hair	leg hair			1.5.7	8.1.3.3	0			
+145894	216	Ahi	tʂʻi̱²¹ bu̱²¹ dɯ⁵⁵ lɯ⁵⁵ tɕe̱³³	tʂʻi̱²¹ bu̱²¹ dɯ⁵⁵ lɯ⁵⁵ tɕe̱³³	umbilical cord	umbilical cord				10.4.12	0			
+146638	216	Ahi	ʈʻu²¹ tʂo̱⁵⁵ gu̱²¹	ʈʻu²¹ tʂo̱⁵⁵ gu̱²¹	groin / loins (i.e. hips to thighs)	groin / loins (i.e. hips to thighs)			1.4.9	1.10	0			m,215,m
+146639	216	Ahi	o⁵⁵ tʻɯ̱²¹	o⁵⁵ tʻɯ̱²¹	fontanel (soft spots in baby skull)	fontanel (soft spots in baby skull)			1.2.1.3	2.3	0			
+146640	216	Ahi	ɣo²¹ po³³	ɣo²¹ po³³	belly / abdomen (external bulge)	belly / abdomen (external bulge)			1.4.7	5.7	0			
+146641	216	Ahi	i³³ tɕi²²	i³³ tɕi²²	hide / leather (dried animal skin)	hide / leather (dried animal skin)			1.6.5.1	8.2.6	0			m,596
+146642	216	Ahi	ɣo²² bu²¹ tsʻɑ²²	ɣo²² bu²¹ tsʻɑ²²	fat around intestines / omentum	fat around intestines / omentum			1.6.4	8.3.1	0			2102,m,m
+146643	216	Ahi	dʑi²¹ ni²¹ xo²¹	dʑi²¹ ni²¹ xo²¹	sinew / tendon (muscle to bone)	sinew / tendon (muscle to bone)			1.6.6.1	8.5	0			
+146644	216	Ahi	i³³ xi̱²¹ i³³ ɣo²²	i³³ xi̱²¹ i³³ ɣo²²	viscera / guts / entrails (in general)	viscera / guts / entrails (in general)			1.7.7	9.4	0			
+146645	216	Ahi	zo²¹ lɑ²² tɕi²²	zo²¹ lɑ²² tɕi²²	caul (membrane on newborn head)	caul (membrane on newborn head)			1.2.1.4	10.4.13	0			
+146646	216	Ahi	ɬɯ²²	ɬɯ²²	cord / fathom (outstretched arms)	cord / fathom (outstretched arms)			1.5.9.5	13.4	0			
+146647	216	Ahi	tʻɯ²²	tʻɯ²²	left fingertip to right fingertip	left fingertip to right fingertip			1.5.3.2	13.4.2	0			

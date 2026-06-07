@@ -16,19 +16,29 @@ TABLES = {
  'etyma': ['chapter','sequence','tag','grpid','protoform','protogloss','xrefs','notes','possallo',
            'allofams','status','public','handle','prefix','initial','medial','rhyme','tone','suffix',
            'initcover','rhymecover','exemplary','semkey'],
- 'lexicon': ['status','reflex','originalreflex','gloss','originalgloss','gfn','srcid','rn','semcat',
-             'lgid','semkey','src_set_rn'],
+ 'lexicon': ['status','reflex','originalreflex','gloss','originalgloss','gfn','originalgfn','srcid','rn',
+             'semcat','lgid','semkey','src_set_rn','maintainer'],
  'lx_et_hash': ['rn','tag','ind','tag_str'],
- 'languagenames': ['lgsort','srcabbr','language','lgabbr','notes','silcode','lgcode','lgid','grpid'],
- 'languagegroups': ['grpno','groupabbr','grp','plg','genetic','grpid'],
- 'chapters': ['semkey','chaptertitle','semcat','id'],
- 'srcbib': ['srcabbr','citation','author','year','imprint','title','location','notes'],
+ 'languagenames': ['lgsort','srcabbr','language','lgabbr','notes','silcode','lgcode','lgid','grpid',
+                   'srcofdata','picode','pinotes','pi_page'],
+ 'languagegroups': ['grpno','groupabbr','grp','plg','genetic','grpid','grp0','grp1','grp2','grp3','grp4'],
+ 'chapters': ['semkey','chaptertitle','semcat','old_chapter','old_subchapter','id'],
+ 'srcbib': ['srcabbr','citation','author','year','imprint','title','location','status','dataformat',
+            'format','callnumber','scope','totalnum','refonly','citechk','pi','infascicle','haveit',
+            'todo','proofer','inputter','dbprep','dbload','dbcheck','notes'],
  'notes': ['rn','tag','id','notetype','spec','ord','noteid','xmlnote'],
  'mesoroots': ['tag','grpid','form','gloss','id','variant'],
+ 'hptb': ['hptbid','plg','protoform','protogloss','pages','mainpage','bare','semclass1','semclass2'],
+ 'et_hptb_hash': ['tag','hptbid','ord'],
+ 'otherchapters': ['chapter','heading','semcat','subcat','cf','n'],
+ 'majorcats': ['chapter','subchapter','semcat','heading','frqdb','frqsubcats'],
+ 'glosswords': ['word','rn','semcat','subcat','semkey'],
+ 'pi': ['lgid','page'],
 }
 PK = {'etyma':'tag','lexicon':'rn','languagenames':'lgid','languagegroups':'grpid',
       'chapters':'id','notes':'noteid','mesoroots':'id'}
-INT = {'rn','tag','lgid','grpid','noteid','id','ind','ord','src_set_rn','genetic','lgcode','public'}
+INT = {'rn','tag','lgid','grpid','noteid','id','ind','ord','src_set_rn','genetic','lgcode','public',
+       'pi_page','grp0','grp1','grp2','grp3','grp4','scope','infascicle','hptbid','frqdb','frqsubcats','n','page'}
 def coldef(cols, pk):
     return ', '.join((f"{x} INTEGER" if x in INT else x) + (" PRIMARY KEY" if x == pk else "") for x in cols)
 def loadyaml(p): return yaml.safe_load(open(p, encoding='utf-8')) or []
@@ -55,16 +65,22 @@ def main():
 
     # ---- reference ----
     groups = loadyaml(f"{ROOT}/reference/languagegroups.yaml")
-    insert('languagegroups', [{'grpno': g.get('grpno'), 'groupabbr': g.get('abbr'), 'grp': g.get('name'),
-        'plg': g.get('proto_language'), 'genetic': int(g.get('genetic', True)), 'grpid': g['grpid']} for g in groups])
+    def grow(g):
+        lin = (g.get('lineage') or [0, 0, 0, 0, 0])
+        return {'grpno': g.get('grpno'), 'groupabbr': g.get('abbr'), 'grp': g.get('name'),
+                'plg': g.get('proto_language'), 'genetic': int(g.get('genetic', True)), 'grpid': g['grpid'],
+                'grp0': lin[0], 'grp1': lin[1], 'grp2': lin[2], 'grp3': lin[3], 'grp4': lin[4]}
+    insert('languagegroups', [grow(g) for g in groups])
     langs = loadyaml(f"{ROOT}/reference/languages.yaml")
     insert('languagenames', [{'lgsort': l.get('sort'), 'srcabbr': l.get('source'), 'language': l.get('name'),
         'lgabbr': l.get('abbr'), 'notes': l.get('notes'), 'silcode': l.get('iso'), 'lgcode': l.get('lgcode'),
-        'lgid': l['lgid'], 'grpid': l.get('grpid')} for l in langs])
+        'lgid': l['lgid'], 'grpid': l.get('grpid'), 'srcofdata': l.get('srcofdata'), 'picode': l.get('picode'),
+        'pinotes': l.get('pinotes'), 'pi_page': l.get('pi_page')} for l in langs])
     thes = loadyaml(f"{ROOT}/reference/thesaurus.yaml")
     chap = []
     for i, t in enumerate(thes, 1):
-        chap.append({'semkey': t['semkey'], 'chaptertitle': t.get('title'), 'semcat': t.get('semcat'), 'id': i})
+        chap.append({'semkey': t['semkey'], 'chaptertitle': t.get('title'), 'semcat': t.get('semcat'),
+                     'old_chapter': t.get('old_chapter'), 'old_subchapter': t.get('old_subchapter'), 'id': i})
         add_note('C', t['semkey'], t.get('notes'))
     insert('chapters', chap)
     bib = loadyaml(f"{ROOT}/reference/bibliography.yaml")
@@ -72,6 +88,26 @@ def main():
     insert('srcbib', [{k: b.get(k) for k in TABLES['srcbib']} for b in bib])
     for ln in loadyaml(f"{ROOT}/reference/reflex-notes.yaml"):
         add_note('L', ln['rn'], [ln])
+
+    # HPTB + etyma links, and the other reference tables
+    hptb_yaml = loadyaml(f"{ROOT}/reference/hptb.yaml")
+    insert('hptb', [{'hptbid': h.get('hptbid'), 'plg': h.get('plg'), 'protoform': h.get('protoform'),
+        'protogloss': h.get('gloss'), 'pages': h.get('pages'), 'mainpage': h.get('mainpage'),
+        'bare': h.get('allofams'), 'semclass1': h.get('semclass'), 'semclass2': h.get('semclass2')} for h in hptb_yaml])
+    ehh = []
+    for h in hptb_yaml:
+        for o, tg in enumerate(h.get('etyma') or []):
+            ehh.append({'tag': tg, 'hptbid': h['hptbid'], 'ord': o})
+    insert('et_hptb_hash', ehh)
+    insert('otherchapters', loadyaml(f"{ROOT}/reference/otherchapters.yaml"))
+    insert('majorcats', loadyaml(f"{ROOT}/reference/majorcats.yaml"))
+    insert('pi', loadyaml(f"{ROOT}/reference/pi.yaml"))
+    gw = []
+    with open(f"{ROOT}/reference/glosswords.tsv", encoding='utf-8', newline='') as f:
+        for row in csv.DictReader(f, delimiter='\t'):
+            gw.append({'word': row['word'], 'rn': int(row['rn']) if row['rn'] else None,
+                       'semcat': row['semcat'], 'subcat': row['subcat'], 'semkey': row['semkey']})
+    insert('glosswords', gw)
 
     # ---- etyma ----
     ety, meso = [], []
@@ -106,6 +142,7 @@ def main():
                 lex.append({'status': row.get('status'), 'reflex': row.get('reflex'),
                     'originalreflex': row.get('originalreflex'), 'gloss': row.get('gloss'),
                     'originalgloss': row.get('originalgloss'), 'gfn': row.get('gfn'),
+                    'originalgfn': row.get('originalgfn'), 'maintainer': row.get('maintainer'),
                     'srcid': row.get('srcid'), 'rn': rn, 'semcat': None,
                     'lgid': int(row['lgid']) if row.get('lgid') else None, 'semkey': row.get('semkey'),
                     'src_set_rn': int(row['src_set_rn']) if row.get('src_set_rn') else 0})

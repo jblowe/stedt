@@ -1,392 +1,392 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-80530	309	Bai (Jianchuan)	tsʰæ̃⁵⁵ kɯ³¹	tsʰæ̃⁵⁵ kɯ³¹	body (general)	body (general)		1.1.1	1.0	0		
-80531	309	Bai (Jianchuan)	tsʰæ̃⁵⁵ kɯ³¹ «ne̱²¹»	tsʰæ̃⁵⁵ kɯ³¹ «ne̱²¹»	body	body		1.1.1	1.1	0		
-80532	309	Bai (Jianchuan)	tsæ̱⁴²	tsæ̱⁴²	side (right)	side (right)		1.4.5	1.2	0		
-80533	309	Bai (Jianchuan)	tsæ̱⁴² fv̩³³	tsæ̱⁴² fv̩³³	side (right)	side (right)		1.4.5	1.2	0		
-80534	309	Bai (Jianchuan)	pi⁵⁵	pi⁵⁵	side (left)	side (left)		1.4.5	1.3	0		
-80535	309	Bai (Jianchuan)	pi⁵⁵ fv̩³³	pi⁵⁵ fv̩³³	side (left)	side (left)		1.4.5	1.3	0		
-80538	309	Bai (Jianchuan)	tsʰæ̃⁵⁵ kɯ³¹ «ne̱²¹»	tsʰæ̃⁵⁵ kɯ³¹ «ne̱²¹»	torso / trunk	torso / trunk		1.5.3.2	1.6	0		m,2,m
-80539	309	Bai (Jianchuan)	sɯ³³ ko̱⁴⁴	sɯ³³ ko̱⁴⁴	limbs / arms and legs	limbs / arms and legs		1.5.3.1	1.7	0		
-80540	309	Bai (Jianchuan)	sɯ³³ sɯ³³ ko̱⁴⁴ ko̱⁴⁴	sɯ³³ sɯ³³ ko̱⁴⁴ ko̱⁴⁴	limbs / arms and legs	limbs / arms and legs		1.5.3.1	1.7	0		
-80541	309	Bai (Jianchuan)	kʰuæ³¹ pi⁵⁵	kʰuæ³¹ pi⁵⁵	lap	lap		1.4.4.2	1.8	0		2326,1361
-80543	309	Bai (Jianchuan)	ko̱⁴⁴ kã̱⁴² «ne̱²¹»	ko̱⁴⁴ kã̱⁴² «ne̱²¹»	groin / loins	groin / loins		1.4.9	1.10	0		m,219,m
-80544	309	Bai (Jianchuan)	kæ̱²¹	kæ̱²¹	flesh / meat	flesh / meat		1.1.1.1	1.11	0		1130
-80545	309	Bai (Jianchuan)	xæ̃⁵⁵	xæ̃⁵⁵	alive / be living	alive / be living		1.1.2.1	1.12	0		71
-80546	309	Bai (Jianchuan)	tsɯ³³	tsɯ³³	alive / be living	alive / be living		1.1.2.1	1.12	0		80
-80547	309	Bai (Jianchuan)	kv̱ˌ⁴²	kv̱ˌ⁴²	alive / be living	alive / be living		1.1.2.1	1.12	0		20
-80548	309	Bai (Jianchuan)	ɕi³³	ɕi³³	die / be dead	die / be dead		1.1.6	1.13	0		27
-80549	309	Bai (Jianchuan)	ɕi³³ la̱⁴²	ɕi³³ la̱⁴²	die / be dead	die / be dead		1.1.6	1.13	0		27,s
-80550	309	Bai (Jianchuan)	jĩ̱²¹ tsʰɔ̃⁵⁵	jĩ̱²¹ tsʰɔ̃⁵⁵	corpse / dead body	corpse / dead body		1.1.6.1	1.14	0		m,3327
-80552	309	Bai (Jianchuan)	ɕi³³ ŋɯ̱̃²¹ ɕi³³ mæ³³	ɕi³³ ŋɯ̱̃²¹ ɕi³³ mæ³³	carcass / dead animal	carcass / dead animal		1.1.6.1	1.15	0		27,25,27,17
-80553	309	Bai (Jianchuan)	ɕi³³ lo̱²¹ɕi³³ pã̱⁴²	ɕi³³ lo̱²¹ɕi³³ pã̱⁴²	carcass / dead animal	carcass / dead animal		1.1.6.1	1.15	0		27,1801,27,m
-80555	309	Bai (Jianchuan)	ɕi³³ kʰuã³³ ɕi³³ ʔã⁵⁵n˜	ɕi³³ kʰuã³³ ɕi³³ ʔã⁵⁵n˜	carcass / dead animal	carcass / dead animal		1.1.6.1	1.15	0		27,m,27,m,m
-80557	309	Bai (Jianchuan)	tsʰæ̃³³	tsʰæ̃³³	sleep / be asleep	sleep / be asleep		1.1.4.1	1.16	0		128
-80558	309	Bai (Jianchuan)	tsʰæ̃³³ suĩ³³	tsʰæ̃³³ suĩ³³	sleep / be asleep	sleep / be asleep		1.1.4.1	1.16	0		128,b
-80559	309	Bai (Jianchuan)	ɕæ̃⁵⁵	ɕæ̃⁵⁵	awake / be awake	awake / be awake		1.1.4	1.17	0		m
-80560	309	Bai (Jianchuan)	ɕæ̃⁵⁵ ɕæ̃⁵⁵	ɕæ̃⁵⁵ ɕæ̃⁵⁵	awake / be awake	awake / be awake		1.1.4	1.17	0		m,m
-80561	309	Bai (Jianchuan)	mɯ̃³¹	mɯ̃³¹	dream	dream	v.	1.1.4.2	1.18	0		126
-80562	309	Bai (Jianchuan)	tsu⁵⁵ mɯ̃³¹ ŋṽ̱ˌ⁴²	tsu⁵⁵ mɯ̃³¹ ŋṽ̱ˌ⁴²	dream	dream	v.	1.1.4.2	1.18	0		m,126,1838
-80563	309	Bai (Jianchuan)	tɯ̱²¹ po̱²¹	tɯ̱²¹ po̱²¹	head	head		1.2.1	2.0	0	D1	359,388
-80564	309	Bai (Jianchuan)	tɯ̱²¹ po̱²¹	tɯ̱²¹ po̱²¹	head	head		1.2.1	2.1	0	HIDE	DUPE IN SOURCE
-80565	309	Bai (Jianchuan)	tv̱ˌ⁴² tv̱ˌ⁴² ɕĩ⁵⁵ ne̱²¹	tv̱ˌ⁴² tv̱ˌ⁴² ɕĩ⁵⁵ ne̱²¹	top of head / crown / pate	top of head / crown / pate		1.2.1.2	2.2	0		
-80566	309	Bai (Jianchuan)	sa⁵⁵ pʰu³¹ ʔuĩ³³	sa⁵⁵ pʰu³¹ ʔuĩ³³	fontanel	fontanel		1.2.1.3	2.3	0		
-80567	309	Bai (Jianchuan)	tɯ̱²¹ po̱²¹ kua̱⁴⁴ tɯ̱²¹	tɯ̱²¹ po̱²¹ kua̱⁴⁴ tɯ̱²¹	skull	skull		1.2.1.1	2.4	0		359,388,2004,m
-80568	309	Bai (Jianchuan)	nõ³³ «kʰv̩³¹»	nõ³³ «kʰv̩³¹»	brain	brain		1.2.4	2.5	0		243,m
-80569	309	Bai (Jianchuan)	kʰɯ³¹ ʔuĩ³³	kʰɯ³¹ ʔuĩ³³	sinus	sinus		1.2.8.1	2.6	0		
-80570	309	Bai (Jianchuan)	tɯ̱²¹ ma⁵⁵	tɯ̱²¹ ma⁵⁵	hair of head	hair of head		1.2.3	2.7	0	D2	m,363
-80571	309	Bai (Jianchuan)	tɯ̱²¹ po̱²¹ no³³ pe̱²¹	tɯ̱²¹ po̱²¹ no³³ pe̱²¹	scalp	scalp		1.2.1.5	2.8	0		359,388,m,m
-80572	309	Bai (Jianchuan)	piɯ̱²¹ «ne̱²¹»	piɯ̱²¹ «ne̱²¹»	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		m,m
-80573	309	Bai (Jianchuan)	kv̱ˌ⁴⁴ «tsã̱²¹»	kv̱ˌ⁴⁴ «tsã̱²¹»	horn	horn		1.2.2	2.10	0		814,m
-80574	309	Bai (Jianchuan)	kv̱ˌ⁴⁴	kv̱ˌ⁴⁴	antler	antler		1.2.2	2.11	0		814
-80575	309	Bai (Jianchuan)	tɕui³³ ŋuĩ³³	tɕui³³ ŋuĩ³³	face	face		1.2.5	3.0	0		m,33
-80576	309	Bai (Jianchuan)	tɕui³³ ŋuĩ³³ «tsʰɯ̱⁴⁴»	tɕui³³ ŋuĩ³³ «tsʰɯ̱⁴⁴»	face	face		1.2.5	3.1	0	x	m,33,m
-80577	309	Bai (Jianchuan)	ŋæ̱̃⁴⁴ te̱⁴⁴ «kʰui⁵⁵»	ŋæ̱̃⁴⁴ te̱⁴⁴ «kʰui⁵⁵»	forehead / brow	forehead / brow		1.2.5.1	3.2	0		356,358,m
-80578	309	Bai (Jianchuan)	tɕiɯ̃⁵⁵ kv̱ˌ⁴⁴ «ne̱²¹»	tɕiɯ̃⁵⁵ kv̱ˌ⁴⁴ «ne̱²¹»	temple	temple		1.2.5.1	3.3	0		
-80579	309	Bai (Jianchuan)	ŋuĩ³³ pʰo̱⁴⁴	ŋuĩ³³ pʰo̱⁴⁴	eye	eye		1.2.6	3.4	0		33,1275
-80580	309	Bai (Jianchuan)	sṽ̩⁵⁵	sṽ̩⁵⁵	eye	eye		1.2.6	3.4	0		m
-80581	309	Bai (Jianchuan)	ŋuĩ³³ pe̱²¹	ŋuĩ³³ pe̱²¹	eyelid	eyelid		1.2.6.4	3.4.1	0		33,590
-80582	309	Bai (Jianchuan)	ŋuĩ³³ kæ⁵⁵ ɕĩ⁵⁵ kʰo³³	ŋuĩ³³ kæ⁵⁵ ɕĩ⁵⁵ kʰo³³	eyeball	eyeball		1.2.6.1	3.4.2	0		33,1110,m,m
-80583	309	Bai (Jianchuan)	ŋuĩ³³ kæ⁵⁵ ɕĩ⁵⁵	ŋuĩ³³ kæ⁵⁵ ɕĩ⁵⁵	iris	iris		1.2.6.2	3.4.2.1	0		33,m,m
-80586	309	Bai (Jianchuan)	pæ̱⁴² ŋuĩ³³ ŋṽ̱ˌ²¹	pæ̱⁴² ŋuĩ³³ ŋṽ̱ˌ²¹	white of eye	white of eye		1.2.6.3	3.4.2.3	0		m
-80587	309	Bai (Jianchuan)	ŋuĩ³³ me⁵⁵ «tṽ̩³³»	ŋuĩ³³ me⁵⁵ «tṽ̩³³»	eyebrow	eyebrow		1.2.6.6	3.4.3	0		33,363,m
-80588	309	Bai (Jianchuan)	ŋuĩ³³ me⁵⁵ tɕʰi³¹	ŋuĩ³³ me⁵⁵ tɕʰi³¹	eyelash	eyelash		1.2.6.5	3.4.4	0		33,363,1232
-80589	309	Bai (Jianchuan)	tsua̱⁴⁴	tsua̱⁴⁴	blink	blink	v.	1.2.6.12	3.4.5	0		
-80590	309	Bai (Jianchuan)	tsua̱⁴⁴ ŋuĩ³³	tsua̱⁴⁴ ŋuĩ³³	blink	blink	v.	1.2.6.12	3.4.5	0		
-80591	309	Bai (Jianchuan)	mĩ̱⁴² ɕĩ⁴² «tĩ³³»	mĩ̱⁴² ɕĩ⁴² «tĩ³³»	tears	tears	n.	1.2.6.7	3.4.6	0	C	682,m,m
-80592	309	Bai (Jianchuan)	ŋuĩ³³ sɿ³³	ŋuĩ³³ sɿ³³	eye sand	eye sand		1.2.6.8	3.4.7	0		33,572
-80594	309	Bai (Jianchuan)	kv̩⁵⁵	kv̩⁵⁵	cry / weep	cry / weep	v.	1.8.8.2	3.4.8	0		2235
-80595	309	Bai (Jianchuan)	kʰo̱⁴⁴	kʰo̱⁴⁴	cry / weep	cry / weep	v.	1.8.8.2	3.4.8	0		1103
-80596	309	Bai (Jianchuan)	xã⁵⁵	xã⁵⁵	see / look	see / look	v.	1.2.6.10	3.4.9	0		m
-80597	309	Bai (Jianchuan)	ʔã³³	ʔã³³	see / look	see / look	v.	1.2.6.10	3.4.9	0		m
-80598	309	Bai (Jianchuan)	tæ⁵⁵	tæ⁵⁵	blind	blind		1.2.6.14.2	3.4.10	0		m
-80599	309	Bai (Jianchuan)	ŋuĩ³³ tæ⁵⁵	ŋuĩ³³ tæ⁵⁵	blind	blind		1.2.6.14.2	3.4.10	0		33,m
-80601	309	Bai (Jianchuan)	pĩ̱⁴² ɕæ̃⁵⁵ tsɿ³³ jɯ̱̃⁴²	pĩ̱⁴² ɕæ̃⁵⁵ tsɿ³³ jɯ̱̃⁴²	nose bridge	nose bridge		1.2.8	3.5.1	0		810,m,m,m
-80603	309	Bai (Jianchuan)	?	?	alae nasi (nose flaps)	alae nasi (nose flaps)		1.2.8.2	3.5.3	0		bChinese
-80605	309	Bai (Jianchuan)	ja̱⁴²»	ja̱⁴²»	nose hair	nose hair		1.2.8	3.5.4	0		bChinese
-80607	309	Bai (Jianchuan)	pi̱²¹ ɕĩ̱²¹	pi̱²¹ ɕĩ̱²¹	liquid mucus	liquid mucus		3.2.3	3.5.6	0		
-80608	309	Bai (Jianchuan)	pi̱²¹ ɕĩ̱²¹ kæ̱⁴⁴	pi̱²¹ ɕĩ̱²¹ kæ̱⁴⁴	solid mucus	solid mucus		1.1.5	3.5.7	0		
-80609	309	Bai (Jianchuan)	xɯ̃³³ «pi̱²¹ ɕĩ̱²¹»	xɯ̃³³ «pi̱²¹ ɕĩ̱²¹»	blow nose	blow nose	v.	1.3.1.4	3.5.8	0		
-80610	309	Bai (Jianchuan)	tsʰu⁵⁵	tsʰu⁵⁵	smell / sniff	smell / sniff	v.	1.2.8.5	3.5.9	0		
-80612	309	Bai (Jianchuan)	sṽ̩⁵⁵»	sṽ̩⁵⁵»	ear	ear		1.2.7	3.6	0		
-80618	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ sɿ³³	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ sɿ³³	earwax	earwax		1.2.7.3	3.6.6	0		811,822,665,m
-80619	309	Bai (Jianchuan)	tɕʰæ̃⁵⁵	tɕʰæ̃⁵⁵	hear	hear	v.	1.2.7.4	3.6.7	0		
-80620	309	Bai (Jianchuan)	kṽ̩⁵⁵	kṽ̩⁵⁵	deaf	deaf		1.2.7.5	3.6.8	0		m
-80621	309	Bai (Jianchuan)	tɕui³³ kæ⁵⁵ kʰo³³	tɕui³³ kæ⁵⁵ kʰo³³	mouth	mouth		1.3.1	3.7	0		442,273,468
-80622	309	Bai (Jianchuan)	ne̱²¹	ne̱²¹	mouth	mouth		1.3.1	3.7	0		471
-80623	309	Bai (Jianchuan)	tõ³³ ka³¹ ne̱²¹	tõ³³ ka³¹ ne̱²¹	palate	palate		1.3.1.1	3.7.1	0		1719,273,m
-80624	309	Bai (Jianchuan)	tõ³³ ka³¹ ne̱²¹	tõ³³ ka³¹ ne̱²¹	soft palate	soft palate		7.1.4.2	3.7.2	0		1719,273,m
-80628	309	Bai (Jianchuan)	xu⁵⁵»	xu⁵⁵»	saliva	saliva		1.8.3	3.7.5	0		
-80629	309	Bai (Jianchuan)	jɯ̱⁴⁴	jɯ̱⁴⁴	eat	eat	v.	1.5.3.2	3.7.6	0		m
-80630	309	Bai (Jianchuan)	ʔɯ̃³³	ʔɯ̃³³	drink	drink	v.		3.7.7	0		1713
-80631	309	Bai (Jianchuan)	kʰa̱⁴⁴ ɕui³³	kʰa̱⁴⁴ ɕui³³	thirsty	thirsty	be v.	1.1.3.1	3.7.8	0		b,b
-80632	309	Bai (Jianchuan)	fv̱ˌ⁴⁴ tɕi⁵⁵ kʰa̱⁴⁴	fv̱ˌ⁴⁴ tɕi⁵⁵ kʰa̱⁴⁴	hungry	hungry	be v.	1.1.3	3.7.9	0		m,101,105
-80633	309	Bai (Jianchuan)	tɕi̱⁴⁴ mã³³	tɕi̱⁴⁴ mã³³	full / be satiated	full / be satiated		1.1.3.2	3.7.10	0		m,b
-80634	309	Bai (Jianchuan)	lu⁵⁵	lu⁵⁵	full / be satiated	full / be satiated		1.1.3.2	3.7.10	0		138
-80635	309	Bai (Jianchuan)	tsʰɿ⁵⁵	tsʰɿ⁵⁵	spit	spit	v.	1.8.3	3.7.11	0		
-80637	309	Bai (Jianchuan)	tɕʰæ̱⁴⁴	tɕʰæ̱⁴⁴	vomit	vomit	v.	1.8.3.2	3.7.13	0		m
-80639	309	Bai (Jianchuan)	ka̱²¹ kʰɯ³³	ka̱²¹ kʰɯ³³	hold in mouth	hold in mouth	v.	1.3.4.4	3.7.14	0		
-80640	309	Bai (Jianchuan)	pæ⁵⁵	pæ⁵⁵	gape / open mouth	gape / open mouth	v.	1.3.1	3.7.15	0		
-80641	309	Bai (Jianchuan)	pæ⁵⁵ tɕui³³ kæ⁵⁵	pæ⁵⁵ tɕui³³ kæ⁵⁵	gape / open mouth	gape / open mouth	v.	1.3.1	3.7.15	0		
-80642	309	Bai (Jianchuan)	tɕui³³ kæ⁵⁵	tɕui³³ kæ⁵⁵	gape / open mouth	gape / open mouth	v.	1.3.1	3.7.15	0		442,273
-80643	309	Bai (Jianchuan)	kʰo³³ pæ⁵⁵ kʰe⁵⁵ «tsʰɯ⁵⁵»	kʰo³³ pæ⁵⁵ kʰe⁵⁵ «tsʰɯ⁵⁵»	gape / open mouth	gape / open mouth	v.	1.3.1	3.7.15	0		
-80644	309	Bai (Jianchuan)	tɕʰi³¹ xo⁵⁵ ji³¹	tɕʰi³¹ xo⁵⁵ ji³¹	yawn	yawn	v.	1.3.1.3	3.7.16	0		m,m,m
-80645	309	Bai (Jianchuan)	tse̱⁴² pʰĩ³¹	tse̱⁴² pʰĩ³¹	tongue	tongue		1.3.3	3.8	0		621,m
-80646	309	Bai (Jianchuan)	sua̱⁴⁴ «tõ̱²¹»	sua̱⁴⁴ «tõ̱²¹»	speak	speak	v.	8.5.10.1	3.8.1	0		1755,m
-80647	309	Bai (Jianchuan)	tɕã³¹ «ɕi⁵⁵ ɣo̱⁴²»	tɕã³¹ «ɕi⁵⁵ ɣo̱⁴²»	speak	speak	v.	8.5.10.1	3.8.1	0		
-80648	309	Bai (Jianchuan)	kɯ̱⁴² tse̱⁴²	kɯ̱⁴² tse̱⁴²	stutter / stammer	stutter / stammer		8.5.4.5	3.8.2	0		
-80649	309	Bai (Jianchuan)	ɣa35	ɣa35	mute / dumb	mute / dumb		1.5.3.2	3.8.3	0		1752
-80651	309	Bai (Jianchuan)	tsɿ³³	tsɿ³³	lick	lick	v.	1.3.3.1	3.8.4	0		629
-80654	309	Bai (Jianchuan)	ɣæ³³ tɕui³³ pe̱²¹ «jo̱²¹»	ɣæ³³ tɕui³³ pe̱²¹ «jo̱²¹»	lower lip	lower lip			3.9.2	0		m,m,m,m
-80655	309	Bai (Jianchuan)	tɕui³³ kæ⁵⁵ kʰo³³	tɕui³³ kæ⁵⁵ kʰo³³	beak / bill	beak / bill		1.3.1.2	3.9.3	0		
-80656	309	Bai (Jianchuan)	ka̱⁴⁴ ɕi³¹	ka̱⁴⁴ ɕi³¹	smile	smile	v.	1.8.8.1	3.9.4	0		
-80657	309	Bai (Jianchuan)	tɕui̱²¹	tɕui̱²¹	kiss	kiss	v.	1.3.2.2	3.9.5	0		86
-80658	309	Bai (Jianchuan)	tsɿ³³ pa̱⁴⁴ kʰo³³	tsɿ³³ pa̱⁴⁴ kʰo³³	tooth	tooth		1.3.4	3.10	0		635,m,m
-80660	309	Bai (Jianchuan)	to̱⁴² ŋæ̱²¹ kʰo³³	to̱⁴² ŋæ̱²¹ kʰo³³	molar	molar		1.3.4.2	3.10.2	0		m,m,630
-80661	309	Bai (Jianchuan)	kʰuã³³ tsɿ³³ pa̱⁴⁴	kʰuã³³ tsɿ³³ pa̱⁴⁴	eyetooth / canine tooth / fang	eyetooth / canine tooth / fang		1.3.4.1	3.10.3	0		1764,635,s
-80662	309	Bai (Jianchuan)	tɕĩ⁵⁵ to̱⁴² ja̱⁴²	tɕĩ⁵⁵ to̱⁴² ja̱⁴²	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		635,m,m
-80663	309	Bai (Jianchuan)	ɯ̃³³ pa̱⁴² tsɿ³³ pa̱⁴⁴	ɯ̃³³ pa̱⁴² tsɿ³³ pa̱⁴⁴	baby tooth	baby tooth		4.2.11	3.10.5	0		
-80664	309	Bai (Jianchuan)	to̱⁴² ŋæ̱²¹ tsã̱²¹	to̱⁴² ŋæ̱²¹ tsã̱²¹	tusk	tusk		1.3.4.1	3.10.6	0		
-80665	309	Bai (Jianchuan)	ʔã̱⁴⁴	ʔã̱⁴⁴	bite	bite	v.	1.3.4.4	3.10.7	0		
-80666	309	Bai (Jianchuan)	kʰã⁵⁵	kʰã⁵⁵	bite	bite	v.	1.3.4.4	3.10.7	0		
-80667	309	Bai (Jianchuan)	tso̱⁴²	tso̱⁴²	chew	chew	v.	1.3.4	3.10.8	0		
-80668	309	Bai (Jianchuan)	tɕui³³ pa̱⁴² «fv̩³³»	tɕui³³ pa̱⁴² «fv̩³³»	cheek	cheek		1.2.5.2	3.11	0		2037,268,m
-80669	309	Bai (Jianchuan)	mĩ̱⁴² tɯ̃⁵⁵ kʰui⁵⁵	mĩ̱⁴² tɯ̃⁵⁵ kʰui⁵⁵	cheekbone	cheekbone		1.2.5.2	3.11.1	0		m,280,m
-80673	309	Bai (Jianchuan)	ɣæ³³ jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴	ɣæ³³ jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴	lower jaw / mandible	lower jaw / mandible		1.2.5.2	3.13.1	0		m,m,m,m
-80674	309	Bai (Jianchuan)	tõ³³ jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴	tõ³³ jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴	upper jaw / maxilla	upper jaw / maxilla		1.2.5.2	3.13.2	0		
-80675	309	Bai (Jianchuan)	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴²	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴²	neck / throat	neck / throat		1.4.2	4.0	0		3361,479,m
-80676	309	Bai (Jianchuan)	ku̱²¹ tsɿ³³ te̱⁴⁴	ku̱²¹ tsɿ³³ te̱⁴⁴	neck / throat	neck / throat		1.4.2	4.0	0		
-80678	309	Bai (Jianchuan)	to̱⁴² jæ̃³³ kʰo³³	to̱⁴² jæ̃³³ kʰo³³	goiter	goiter		1.4.2.2	4.1.1	0		
-80680	309	Bai (Jianchuan)	to̱⁴² ko̱⁴² tɕi⁵⁵	to̱⁴² ko̱⁴² tɕi⁵⁵	nape of neck	nape of neck		1.4.2.1	4.1.3	0		359,486,m
-80683	309	Bai (Jianchuan)	ɕĩ⁵⁵ xæ̃⁵⁵ jɯ̱̃⁴²	ɕĩ⁵⁵ xæ̃⁵⁵ jɯ̱̃⁴²	windpipe / trachea	windpipe / trachea		1.3.5.2	4.2.1	0		
-80684	309	Bai (Jianchuan)	ku̱²¹ tsɿ³³ te̱⁴⁴	ku̱²¹ tsɿ³³ te̱⁴⁴	esophagus	esophagus		1.3.5.5	4.2.2	0		
-80685	309	Bai (Jianchuan)	ʔẽ̱⁴²	ʔẽ̱⁴²	swallow	swallow	v.	1.3.5.6	4.2.3	0		
-80686	309	Bai (Jianchuan)	tsʰu³¹ kʰo³³	tsʰu³¹ kʰo³³	gizzard / crop of bird	gizzard / crop of bird		1.7.6.1	4.2.4	0		1604,m
-80687	309	Bai (Jianchuan)	tsʰæ̃⁵⁵ kɯ³³	tsʰæ̃⁵⁵ kɯ³³	torso	torso		1.5.3.2	5.0	0		m,2
-80688	309	Bai (Jianchuan)	ɕĩ⁵⁵ ko⁵⁵ tɕi³³	ɕĩ⁵⁵ ko⁵⁵ tɕi³³	chest	chest		1.4.4.3	5.1	0		m,560,m
-80689	309	Bai (Jianchuan)	kua̱⁴⁴ pi⁵⁵ tsɿ³³ tɕa̱⁴⁴	kua̱⁴⁴ pi⁵⁵ tsɿ³³ tɕa̱⁴⁴	rib cage	rib cage		1.4.4.3	5.1.1	0		310,m,m,m
-80690	309	Bai (Jianchuan)	kua̱⁴⁴ pi⁵⁵ tsɿ³³	kua̱⁴⁴ pi⁵⁵ tsɿ³³	rib	rib		1.4.4.3	5.1.2	0		310,m,m
-80692	309	Bai (Jianchuan)	ʔõ̱²¹ kɯ⁵⁵ ne̱²¹	ʔõ̱²¹ kɯ⁵⁵ ne̱²¹	collar bone / clavicle	collar bone / clavicle		1.4.3.1	5.2	0		
-80693	309	Bai (Jianchuan)	po³³ tɯ̱²¹	po³³ tɯ̱²¹	shoulder	shoulder		1.4.3	5.3	0		1327,3343
-80694	309	Bai (Jianchuan)	kua̱⁴⁴ sæ³¹ pa³¹	kua̱⁴⁴ sæ³¹ pa³¹	shoulder blade / scapula	shoulder blade / scapula		1.4.3.2	5.3.1	0		3350,m,m
-80695	309	Bai (Jianchuan)	tsʰo⁵⁵ po³³ tɯ̱²¹	tsʰo⁵⁵ po³³ tɯ̱²¹	shrug shoulders	shrug shoulders	v.	1.4.3.3	5.3.2	0		
-80696	309	Bai (Jianchuan)	pa̱⁴² tɕi̱⁴⁴	pa̱⁴² tɕi̱⁴⁴	breast	breast		1.4.4.3	5.4	0		3459,5541
-80697	309	Bai (Jianchuan)	pa̱⁴² tɯ̱²¹ po̱²¹	pa̱⁴² tɯ̱²¹ po̱²¹	nipple	nipple			5.4.1	0		3459,m,m
-80698	309	Bai (Jianchuan)	pa̱⁴² tu⁵⁵ tsɿ³³	pa̱⁴² tu⁵⁵ tsɿ³³	nipple	nipple			5.4.1	0		3459,m,m
-80699	309	Bai (Jianchuan)	pa̱⁴²	pa̱⁴²	udder	udder			5.4.2	0		
-80700	309	Bai (Jianchuan)	pa̱⁴²	pa̱⁴²	milk	milk			5.4.3	0		3459
-80701	309	Bai (Jianchuan)	ɕĩ⁵⁵ pa̱⁴² tsæ̱⁴⁴	ɕĩ⁵⁵ pa̱⁴² tsæ̱⁴⁴	colostrum	colostrum			5.4.4	0		
-80702	309	Bai (Jianchuan)	tɕi̱⁴⁴	tɕi̱⁴⁴	suck	suck	v.	1.3.2.1	5.4.5	0		5541
-80703	309	Bai (Jianchuan)	o⁵⁵	o⁵⁵	nurse / suckle	nurse  /  suckle	v.	4.2.1.5	5.4.6	0		3464
-80704	309	Bai (Jianchuan)	ɯ̃³³	ɯ̃³³	nurse / suckle	nurse  /  suckle	v.	4.2.1.5	5.4.6	0		3464
-80705	309	Bai (Jianchuan)	ko³³ pa̱⁴²	ko³³ pa̱⁴²	wean	wean			5.4.7	0		m,m
-80706	309	Bai (Jianchuan)	to̱⁴² ko̱⁴² tɕi⁵⁵	to̱⁴² ko̱⁴² tɕi⁵⁵	back	back		1.4.8	5.5	0		225,206,223
-80707	309	Bai (Jianchuan)	tõ³³ to̱⁴² ko̱⁴² tɕi⁵⁵	tõ³³ to̱⁴² ko̱⁴² tɕi⁵⁵	upper back	upper back		9.2.1	5.5.1	0		
-80708	309	Bai (Jianchuan)	ɣæ³³ to̱⁴² ko̱⁴² tɕi⁵⁵	ɣæ³³ to̱⁴² ko̱⁴² tɕi⁵⁵	lower back	lower back		1.4.8.1	5.5.2	0		m,m,m,m
-80709	309	Bai (Jianchuan)	ji⁵⁵ kua̱⁴⁴ to̱⁴² pe̱⁴²	ji⁵⁵ kua̱⁴⁴ to̱⁴² pe̱⁴²	small of back	small of back		1.4.8.1	5.5.3	0		m,m,m,m
-80710	309	Bai (Jianchuan)	tõ³¹ kua̱⁴⁴ ɕui³³ jɯ̱̃⁴²	tõ³¹ kua̱⁴⁴ ɕui³³ jɯ̱̃⁴²	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		225,237,m,m
-80711	309	Bai (Jianchuan)	tõ̱⁴² kua̱⁴⁴ jɯ̱̃⁴²	tõ̱⁴² kua̱⁴⁴ jɯ̱̃⁴²	spinal cord	spinal cord		1.4.8.2	5.5.5	0		
-80712	309	Bai (Jianchuan)	kõ³¹ tõ³¹	kõ³¹ tõ³¹	hunchback	hunchback		1.4.8.3	5.5.6	0		m,m
-80713	309	Bai (Jianchuan)	ji⁵⁵ kua̱⁴⁴	ji⁵⁵ kua̱⁴⁴	waist	waist		1.4.6	5.6	0		m,219
-80714	309	Bai (Jianchuan)	fv̱ˌ⁴⁴ kʰo³³	fv̱ˌ⁴⁴ kʰo³³	belly / abdomen (external bulge)	belly / abdomen (external bulge)		1.4.7	5.7	0		2103,m
-80715	309	Bai (Jianchuan)	jõ̱²¹ fv̱ˌ⁴⁴ te̱⁴⁴	jõ̱²¹ fv̱ˌ⁴⁴ te̱⁴⁴	navel	navel		1.9.4	5.7.1	0		m,2104,519
-80716	309	Bai (Jianchuan)	?	?	pelvis / pelvic girdle	pelvis / pelvic girdle		1.4.9.2	5.8	0		m
-80717	309	Bai (Jianchuan)	tõ̱²¹ ko⁵⁵ tse̱⁴⁴ ne̱²¹	tõ̱²¹ ko⁵⁵ tse̱⁴⁴ ne̱²¹	hips	hips		1.4.9.2	5.8.1	0		225,219,m,m
-80719	309	Bai (Jianchuan)	kʰæ⁵⁵ fv̩³³	kʰæ⁵⁵ fv̩³³	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		
-80720	309	Bai (Jianchuan)	kʰuæ³¹ kã̱⁴²	kʰuæ³¹ kã̱⁴²	crotch / fork of legs	crotch / fork of legs		1.4.9.1	5.9	0		1278,m
-80721	309	Bai (Jianchuan)	lɯ̱⁴⁴ ua̱⁴²	lɯ̱⁴⁴ ua̱⁴²	swollen lymph nodes (of groin)	swollen lymph nodes (of groin)		1.1.5.2	5.9.1	0		m,m
-80722	309	Bai (Jianchuan)	kʰæ⁵⁵ fv̩³³	kʰæ⁵⁵ fv̩³³	rump	rump		1.4.10	5.10	0		
-80723	309	Bai (Jianchuan)	kʰæ⁵⁵ fv̩³³	kʰæ⁵⁵ fv̩³³	buttocks	buttocks		1.4.10	5.10.1	0		
-80724	309	Bai (Jianchuan)	ŋv̩³³ tṽ̩⁵⁵ tɕĩ⁵⁵ ne̱²¹	ŋv̩³³ tṽ̩⁵⁵ tɕĩ⁵⁵ ne̱²¹	tailbone / coccyx	tailbone / coccyx		1.6.3.3	5.10.2	0		
-80725	309	Bai (Jianchuan)	xu³¹ ve³¹ ne̱²¹ (?)	xu³¹ ve³¹ ne̱²¹ (?)	tailbone / coccyx	tailbone / coccyx		1.6.3.3	5.10.2	0		
-80726	309	Bai (Jianchuan)	ŋv̩³³ tṽ̩⁵⁵	ŋv̩³³ tṽ̩⁵⁵	tail	tail		1.4.10.1	5.10.3	0		1288,5639
-80727	309	Bai (Jianchuan)	sɯ³³ ko̱⁴⁴	sɯ³³ ko̱⁴⁴	limbs	limbs		1.5.3.1	6.0	0		
-80728	309	Bai (Jianchuan)	sɯ³³ kua̱⁴⁴ tsɿ³³	sɯ³³ kua̱⁴⁴ tsɿ³³	arm	arm		1.5.1.2	6.1	0		
-80729	309	Bai (Jianchuan)	jõ̱²¹ mo³³ tɕi³³	jõ̱²¹ mo³³ tɕi³³	underarm / armpit	underarm / armpit		1.5.1.2.3	6.1.1	0		
-80730	309	Bai (Jianchuan)	kʰɯ³¹ tɯ³¹ ti⁵⁵	kʰɯ³¹ tɯ³¹ ti⁵⁵	tickle	tickle	v.	1.5.1.2.4	6.1.1.1	0		
-80731	309	Bai (Jianchuan)	sɯ³³ pã³¹ tsɿ³³	sɯ³³ pã³¹ tsɿ³³	upper arm	upper arm		1.5.1.2.1	6.1.2	0		
-80732	309	Bai (Jianchuan)	sɯ³³ pã³¹ tsɿ³³ kæ̱²¹	sɯ³³ pã³¹ tsɿ³³ kæ̱²¹	arm muscles / biceps	arm muscles / biceps		1.5.1.2	6.1.3	0		
-80733	309	Bai (Jianchuan)	sɯ³³ kuæ³¹ tsɿ³³	sɯ³³ kuæ³¹ tsɿ³³	elbow	elbow		1.5.8.3	6.1.4	0		731,m,m
-80734	309	Bai (Jianchuan)	sɯ³³ kuæ³¹ tsɿ³³	sɯ³³ kuæ³¹ tsɿ³³	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		731,m,m
-80735	309	Bai (Jianchuan)	sɯ³³ kʰv̱ˌ⁴⁴ tsɿ³³	sɯ³³ kʰv̱ˌ⁴⁴ tsɿ³³	inner elbow / crook of elbow	inner elbow / crook of elbow		1.5.8.3	6.1.4.2	0		731,m,m
-80736	309	Bai (Jianchuan)	sɯ³³ kua̱⁴⁴ tsɿ³³	sɯ³³ kua̱⁴⁴ tsɿ³³	forearm / lower arm	forearm / lower arm		1.5.1.2.2	6.1.5	0		
-80737	309	Bai (Jianchuan)	sɯ³³ tsʰuæ̱̃⁴⁴ tsɿ³³	sɯ³³ tsʰuæ̱̃⁴⁴ tsɿ³³	wrist	wrist		1.5.8.1	6.1.6	0		
-80738	309	Bai (Jianchuan)	sɯ³³	sɯ³³	hand	hand		1.5.1.1	6.1.7	0		731
-80739	309	Bai (Jianchuan)	sɯ³³ tɕi³³ ɕĩ⁵⁵	sɯ³³ tɕi³³ ɕĩ⁵⁵	palm	palm		1.5.5	6.1.7.1	0		
-80740	309	Bai (Jianchuan)	sɯ³³ to̱⁴² pe̱⁴²	sɯ³³ to̱⁴² pe̱⁴²	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		731,m,m
-80741	309	Bai (Jianchuan)	sɯ³³ tɕʰuĩ⁵⁵ tʰo⁵⁵	sɯ³³ tɕʰuĩ⁵⁵ tʰo⁵⁵	fist	fist		1.5.1.1.1	6.1.7.3	0		
-80742	309	Bai (Jianchuan)	tsæ̱⁴² sɯ³³	tsæ̱⁴² sɯ³³	right hand	right hand		1.5.3.2	6.1.7.4	0		
-80743	309	Bai (Jianchuan)	pi⁵⁵ sɯ³³	pi⁵⁵ sɯ³³	left hand	left hand		1.5.3.2	6.1.7.5	0		
-80744	309	Bai (Jianchuan)	ji̱⁴⁴ kʰv̩⁵⁵	ji̱⁴⁴ kʰv̩⁵⁵	wing	wing		1.5.1.3	6.1.9	0		R,240
-80745	309	Bai (Jianchuan)	tsua³¹ tsɿ³³	tsua³¹ tsɿ³³	paw	paw		1.5.4	6.1.10	0	D1	
-80746	309	Bai (Jianchuan)	kʰuæ³¹ pi⁵⁵ pʰo̱⁴⁴	kʰuæ³¹ pi⁵⁵ pʰo̱⁴⁴	leg	leg		1.5.7	6.2	0		
-80747	309	Bai (Jianchuan)	kʰuæ³¹ pi⁵⁵	kʰuæ³¹ pi⁵⁵	thigh	thigh		1.5.7.1	6.2.1	0		2326,1361
-80748	309	Bai (Jianchuan)	kʰuæ³¹ pi⁵⁵ kua̱⁴⁴ tɯ̱²¹	kʰuæ³¹ pi⁵⁵ kua̱⁴⁴ tɯ̱²¹	thigh bone / femur	thigh bone / femur		1.5.7.1	6.2.1.1	0		237,m,m,m
-80749	309	Bai (Jianchuan)	ko̱⁴⁴ tɕĩ⁵⁵	ko̱⁴⁴ tɕĩ⁵⁵	hamstring	hamstring		1.6.6.2	6.2.1.2	0		
-80750	309	Bai (Jianchuan)	kʰuæ³¹ tsɿ³³ te̱⁴⁴	kʰuæ³¹ tsɿ³³ te̱⁴⁴	knee	knee		1.5.8.4	6.2.2	0		237,m,m
-80751	309	Bai (Jianchuan)	kʰuæ³¹ tsɿ³³ te̱⁴⁴ kʰo³³	kʰuæ³¹ tsɿ³³ te̱⁴⁴ kʰo³³	knee cap / patella	knee cap / patella		1.5.8.4	6.2.2.1	0		237,m,m,m
-80753	309	Bai (Jianchuan)	kæ̱²¹ kæ⁵⁵ tsɿ³³	kæ̱²¹ kæ⁵⁵ tsɿ³³	shin / tibia	shin / tibia		1.5.7.2	6.2.3	0		
-80754	309	Bai (Jianchuan)	kæ̱²¹ kæ⁵⁵ tsɿ³³	kæ̱²¹ kæ⁵⁵ tsɿ³³	shin bone	shin bone		1.5.7.2	6.2.3.1	0		
-80755	309	Bai (Jianchuan)	tɕo̱²¹ pa̱⁴² tsɿ³³	tɕo̱²¹ pa̱⁴² tsɿ³³	calf	calf		1.5.7	6.2.4	0		
-80756	309	Bai (Jianchuan)	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	ankle	ankle		1.5.8.2	6.2.5	0		
-80757	309	Bai (Jianchuan)	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³ kʰo³³	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³ kʰo³³	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		
-80758	309	Bai (Jianchuan)	ko̱⁴⁴	ko̱⁴⁴	foot	foot		1.5.2	6.2.6	0		
-80759	309	Bai (Jianchuan)	ko̱⁴⁴ tsv̱ˌ⁴² te̱⁴⁴	ko̱⁴⁴ tsv̱ˌ⁴² te̱⁴⁴	heel	heel		1.5.2.1	6.2.6.1	0		
-80761	309	Bai (Jianchuan)	ko̱⁴⁴ to̱⁴² pe̱⁴²	ko̱⁴⁴ to̱⁴² pe̱⁴²	arch	arch		1.5.2.3	6.2.6.3	0		
-80762	309	Bai (Jianchuan)	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	ball of the foot	ball of the foot		9.7.1	6.2.6.4	0		
-80763	309	Bai (Jianchuan)	ko̱⁴⁴ tɕi³³ ɕĩ⁵⁵ ne̱²¹	ko̱⁴⁴ tɕi³³ ɕĩ⁵⁵ ne̱²¹	sole	sole		1.5.5	6.2.6.5	0		
-80764	309	Bai (Jianchuan)	ko̱⁴⁴ to̱⁴² pe̱⁴²	ko̱⁴⁴ to̱⁴² pe̱⁴²	instep	instep		1.5.2.2	6.2.6.6	0		
-80765	309	Bai (Jianchuan)	ko̱⁴⁴ tsṽ̩⁵⁵	ko̱⁴⁴ tsṽ̩⁵⁵	footprint	footprint		1.5.2.5	6.2.6.7	0		
-80766	309	Bai (Jianchuan)	pã̱²¹	pã̱²¹	hoof	hoof		1.5.4	6.2.6.8	0		
-80767	309	Bai (Jianchuan)	tsua³¹ tsɿ³³	tsua³¹ tsɿ³³	paw	paw		1.5.4	6.2.6.9	0	HIDE	DUPE IN SOURCE
-80768	309	Bai (Jianchuan)	kʰe̱⁴⁴ ko̱⁴⁴	kʰe̱⁴⁴ ko̱⁴⁴	crippled / lame	crippled / lame		4.2.7	6.2.7	0		
-80769	309	Bai (Jianchuan)	ko̱⁴⁴ kʰe̱⁴⁴	ko̱⁴⁴ kʰe̱⁴⁴	limp	limp	v.	1.5.12	6.2.8	0		
-80770	309	Bai (Jianchuan)	sɯ³³ tɯ̱²¹ ko̱⁴⁴ tɯ̱²¹	sɯ³³ tɯ̱²¹ ko̱⁴⁴ tɯ̱²¹	digit	digit		1.5.6	7.0	0		
-80771	309	Bai (Jianchuan)	sɯ³³ tɯ̱²¹ tsɿ³³	sɯ³³ tɯ̱²¹ tsɿ³³	finger	finger		1.5.6	7.1	0		
-80773	309	Bai (Jianchuan)	ʔṽ̩⁵⁵ ɕĩ⁵⁵ mĩ̱⁴² kʰo³³	ʔṽ̩⁵⁵ ɕĩ⁵⁵ mĩ̱⁴² kʰo³³	middle finger	middle finger		1.9.4	7.1.2	0		
-80776	309	Bai (Jianchuan)	sɯ³³ tɯ̱²¹ mo³³ kʰo³³	sɯ³³ tɯ̱²¹ mo³³ kʰo³³	thumb	thumb		1.5.6.1	7.1.5	0		m,m,1619
-80778	309	Bai (Jianchuan)	ko̱⁴⁴ sɯ³³ tɯ̱²¹ tsɿ³³	ko̱⁴⁴ sɯ³³ tɯ̱²¹ tsɿ³³	toe	toe		1.5.6	7.2	0		
-80779	309	Bai (Jianchuan)	ko̱⁴⁴ sɯ³³ tɯ̱²¹ mo³³	ko̱⁴⁴ sɯ³³ tɯ̱²¹ mo³³	big toe	big toe		1.5.6.1	7.2.1	0		
-80780	309	Bai (Jianchuan)	ti³¹ sɿ³¹ kʰo³³	ti³¹ sɿ³¹ kʰo³³	second toe	second toe		9.9	7.2.2	0		
-80781	309	Bai (Jianchuan)	ʔṽ̩⁵⁵ ɕĩ⁵⁵ mĩ̱⁴² kʰo³³	ʔṽ̩⁵⁵ ɕĩ⁵⁵ mĩ̱⁴² kʰo³³	middle toe	middle toe		1.9.4	7.2.3	0		
-80782	309	Bai (Jianchuan)	ti³¹ ɕi̱⁴⁴ kʰo³³	ti³¹ ɕi̱⁴⁴ kʰo³³	fourth toe	fourth toe		9.9	7.2.4	0		
-80784	309	Bai (Jianchuan)	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	knuckle (joint of digit)	knuckle (joint of digit)		1.5.8.5	7.3	0		
-80785	309	Bai (Jianchuan)	kæ̱⁴⁴	kæ̱⁴⁴	nail	nail		1.5.10	7.4	0		
-80786	309	Bai (Jianchuan)	sɯ³³ tɯ̱²¹ kæ̱⁴⁴	sɯ³³ tɯ̱²¹ kæ̱⁴⁴	fingernail	fingernail		1.5.10.1	7.4.1	0		
-80787	309	Bai (Jianchuan)	ko̱⁴⁴ tɯ̱²¹ kæ̱⁴⁴	ko̱⁴⁴ tɯ̱²¹ kæ̱⁴⁴	toenail	toenail		1.5.10.2	7.4.2	0		
-80788	309	Bai (Jianchuan)	tsua³¹ tsɿ³³	tsua³¹ tsɿ³³	claw	claw		1.5.10.4	7.4.3	0		
-80789	309	Bai (Jianchuan)	tsua³¹ tsɿ³³	tsua³¹ tsɿ³³	talon	talon		1.5.10.4	7.4.4	0		
-80790	309	Bai (Jianchuan)	kæ̱⁴²	kæ̱⁴²	pincers	pincers		1.5.10.4	7.4.5	0		
-80791	309	Bai (Jianchuan)	ma̱²¹	ma̱²¹	hair (general)	hair (general)		1.2.3	8.1	0		363
-80792	309	Bai (Jianchuan)	tɯ̱²¹ ma⁵⁵	tɯ̱²¹ ma⁵⁵	hair of head	hair of head		1.2.3	8.1.1	0	HIDE	DUPE IN SOURCE
-80793	309	Bai (Jianchuan)	tɯ̱²¹ ma⁵⁵ kʰv̩³¹	tɯ̱²¹ ma⁵⁵ kʰv̩³¹	cowlick	cowlick		1.2.3.1	8.1.1.1	0		m,363,m
-80794	309	Bai (Jianchuan)	kʰuã³³ ma̱²¹ tsɿ³³	kʰuã³³ ma̱²¹ tsɿ³³	body hair	body hair		1.6.1	8.1.2	0	HIDE	DUPE IN SOURCE
-80795	309	Bai (Jianchuan)	ɣu̱²¹	ɣu̱²¹	beard	beard		1.2.5.5	8.1.2.1	0		2065
-80796	309	Bai (Jianchuan)	ɣu̱²¹ fe̱⁴⁴	ɣu̱²¹ fe̱⁴⁴	goatee	goatee		1.2.5.5	8.1.2.2	0		2065
-80797	309	Bai (Jianchuan)	ɣu̱²¹ tsɿ³³ fe̱⁴⁴	ɣu̱²¹ tsɿ³³ fe̱⁴⁴	moustache	moustache		1.2.5.5	8.1.2.3	0		2065,m,m
-80798	309	Bai (Jianchuan)	kʰuã³³ ma̱²¹ tsɿ³³	kʰuã³³ ma̱²¹ tsɿ³³	body hair	body hair		1.6.1	8.1.3	0	HIDE	DUPE IN SOURCE
-80800	309	Bai (Jianchuan)	kʰuã³³ ma̱²¹ tsɿ³³	kʰuã³³ ma̱²¹ tsɿ³³	body hair	body hair		1.6.1	8.1.3.2	0	HIDE	DUPE IN SOURCE
-80801	309	Bai (Jianchuan)	kʰuã³³ ma̱²¹ tsɿ³³	kʰuã³³ ma̱²¹ tsɿ³³	body hair	body hair		1.6.1	8.1.3.3	0	D1	m,363,1232
-80802	309	Bai (Jianchuan)	ma̱²¹	ma̱²¹	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		363
-80803	309	Bai (Jianchuan)	ma̱²¹	ma̱²¹	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		363
-80804	309	Bai (Jianchuan)	ɕa̱⁴⁴	ɕa̱⁴⁴	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		m
-80805	309	Bai (Jianchuan)	ɣu̱²¹ te̱⁴⁴ tsɿ³³	ɣu̱²¹ te̱⁴⁴ tsɿ³³	whiskers (of animal)	whiskers (of animal)		1.2.5.5	8.1.7	0		2065,m,m
-80806	309	Bai (Jianchuan)	pe̱²¹	pe̱²¹	skin	skin		1.6.5	8.2	0		590
-80807	309	Bai (Jianchuan)	ɣã̱²¹	ɣã̱²¹	sweat / perspiration	sweat / perspiration		1.8.1	8.2.1	0		m,bChinese
-80809	309	Bai (Jianchuan)	xɯ̱⁴⁴ tĩ³³ tsɿ³³	xɯ̱⁴⁴ tĩ³³ tsɿ³³	blemish on skin	blemish on skin		1.6.5	8.2.3	0		
-80810	309	Bai (Jianchuan)	pio³³ lu⁵⁵ sẽ̱⁴² tsɿ³³	pio³³ lu⁵⁵ sẽ̱⁴² tsɿ³³	freckle	freckle		1.6.5.3	8.2.3.1	0		
-80812	309	Bai (Jianchuan)	sɯ̱⁴⁴ ɕɯ̱⁴²	sɯ̱⁴⁴ ɕɯ̱⁴²	mole	mole		2.2.7	8.2.3.3	0		
-80813	309	Bai (Jianchuan)	sɿ⁵⁵ kʰo³³	sɿ⁵⁵ kʰo³³	wart	wart		1.6.5.3	8.2.3.4	0		
-80814	309	Bai (Jianchuan)	tʰɯ³¹ kʰo³³	tʰɯ³¹ kʰo³³	cyst	cyst		1.6.5.3	8.2.3.5	0		
-80815	309	Bai (Jianchuan)	tsæ̱̃⁴² tsɿ³³	tsæ̱̃⁴² tsɿ³³	age spot / liver spot	age spot / liver spot		6.2	8.2.3.6	0		
-80816	309	Bai (Jianchuan)	pa³³	pa³³	scar	scar		1.6.5.3	8.2.3.7	0		
-80817	309	Bai (Jianchuan)	ku³³ pʰio⁵⁵	ku³³ pʰio⁵⁵	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
-80818	309	Bai (Jianchuan)	sɿ⁵⁵ li³¹ tɕi³¹	sɿ⁵⁵ li³¹ tɕi³¹	rash	rash		1.6.5.3	8.2.3.9	0		
-80819	309	Bai (Jianchuan)	jõ³³	jõ³³	itch / be itchy	itch  / be itchy	v.	1.6.5.5	8.2.3.10	0		m
-80820	309	Bai (Jianchuan)	kæ̱⁴⁴	kæ̱⁴⁴	scab	scab		1.6.5.3	8.2.4	0		
-80821	309	Bai (Jianchuan)	kæ̱⁴⁴	kæ̱⁴⁴	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		
-80824	309	Bai (Jianchuan)	tsɿ⁵⁵	tsɿ⁵⁵	fat	fat		1.6.4	8.3	0		48
-80825	309	Bai (Jianchuan)	fæ̱⁴⁴ kæ̱²¹	fæ̱⁴⁴ kæ̱²¹	fat	fat		1.6.4	8.3	0		b,1440
-80826	309	Bai (Jianchuan)	tsɿ⁵⁵ xo⁵⁵	tsɿ⁵⁵ xo⁵⁵	fat around intestines / omentum	fat around intestines / omentum		1.6.4	8.3.1	0		48,m
-80827	309	Bai (Jianchuan)	tsɿ⁵⁵	tsɿ⁵⁵	oil / grease (for cooking)	oil / grease (for cooking)		1.6.4.1	8.3.2	0		48
-80828	309	Bai (Jianchuan)	kua̱⁴⁴ tɯ̱²¹	kua̱⁴⁴ tɯ̱²¹	bone	bone		1.6.3	8.4	0		237,m
-80829	309	Bai (Jianchuan)	kua̱⁴⁴ tɯ̱²¹ tɕa̱⁴⁴	kua̱⁴⁴ tɯ̱²¹ tɕa̱⁴⁴	skeleton	skeleton		1.6.3.1	8.4.1	0		237,m,m
-80831	309	Bai (Jianchuan)	kua̱⁴⁴ ɕuĩ³³	kua̱⁴⁴ ɕuĩ³³	marrow	marrow		1.6.3.5	8.4.3	0	D1	237,b
-80832	309	Bai (Jianchuan)	tsʰui⁵⁵ ku35 tsɿ³³	tsʰui⁵⁵ ku35 tsɿ³³	cartilage / grist	cartilage / grist		1.6.3.4	8.4.4	0		m,m,m
-80833	309	Bai (Jianchuan)	pæ̃³¹ tɕĩ⁵⁵	pæ̃³¹ tɕĩ⁵⁵	sinew / tendon (muscle to bone)	sinew / tendon (muscle to bone)		1.6.6.1	8.5	0		m,372
-80834	309	Bai (Jianchuan)	tɕĩ⁵⁵ mĩ̱⁴² tɕĩ⁵⁵ ɣɯ³³	tɕĩ⁵⁵ mĩ̱⁴² tɕĩ⁵⁵ ɣɯ³³	ligament (bone to bone)	ligament (bone to bone)		1.6.3	8.6	0		372,m,372,232
-80835	309	Bai (Jianchuan)	sua̱⁴⁴	sua̱⁴⁴	blood	blood		1.6.2	8.7	0		230
-80836	309	Bai (Jianchuan)	sua̱⁴⁴ mæ̱⁴⁴	sua̱⁴⁴ mæ̱⁴⁴	blood vessel / vein / artery	blood vessel / vein / artery		1.6.2.1	8.7.1	0		230,m
-80837	309	Bai (Jianchuan)	kɯ̱²¹ sua̱⁴⁴	kɯ̱²¹ sua̱⁴⁴	bleed	bleed	v.	1.6.2	8.7.2	0		p,230
-80838	309	Bai (Jianchuan)	kæ̱²¹	kæ̱²¹	muscle	muscle		1.6.6.2	8.8	0		m
-80839	309	Bai (Jianchuan)	sɯ³³ tse̱⁴⁴ ko̱⁴⁴ tse̱⁴⁴	sɯ³³ tse̱⁴⁴ ko̱⁴⁴ tse̱⁴⁴	joint	joint		1.5.8	8.9	0		
-80840	309	Bai (Jianchuan)	tɕĩ⁵⁵ tɕĩ⁵⁵ mæ̱⁴⁴ mæ̱⁴⁴	tɕĩ⁵⁵ tɕĩ⁵⁵ mæ̱⁴⁴ mæ̱⁴⁴	nerve	nerve		1.6.6.3	8.10	0		372,372,m,m
-80842	309	Bai (Jianchuan)	nõ³³ kʰv̩³¹	nõ³³ kʰv̩³¹	brain	brain		1.2.4	9.1	0		243,m
-80843	309	Bai (Jianchuan)	tõ³¹ kua̱⁴⁴ jɯ̱̃⁴²	tõ³¹ kua̱⁴⁴ jɯ̱̃⁴²	spinal cord	spinal cord		1.4.8.2	9.1.1	0		
-80844	309	Bai (Jianchuan)	kua̱⁴⁴ ɕuĩ³³	kua̱⁴⁴ ɕuĩ³³	marrow	marrow		1.6.3.5	9.1.2	0	HIDE	DUPE IN SOURCE
-80845	309	Bai (Jianchuan)	pʰia̱⁴⁴	pʰia̱⁴⁴	lung	lung		1.7.2	9.2	0		m
-80846	309	Bai (Jianchuan)	tsʰṽ̩³¹ tɕʰi̱⁴⁴	tsʰṽ̩³¹ tɕʰi̱⁴⁴	breathe	breathe	v.	1.1.2.2	9.2.1	0		
-80847	309	Bai (Jianchuan)	tsʰo⁵⁵	tsʰo⁵⁵	pant	pant	v.	1.1.2.2	9.2.2	0		
-80848	309	Bai (Jianchuan)	pʰɯ⁵⁵	pʰɯ⁵⁵	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		75
-80849	309	Bai (Jianchuan)	ka³¹	ka³¹	gill (of fish)	gill (of fish)		1.3.5.3	9.2.4	0		
-80850	309	Bai (Jianchuan)	tã̱²¹	tã̱²¹	phlegm	phlegm		1.8.3	9.2.5	0		m
-80851	309	Bai (Jianchuan)	ɕĩ⁵⁵	ɕĩ⁵⁵	heart	heart		1.7.1	9.3	0		66
-80852	309	Bai (Jianchuan)	ɕĩ⁵⁵ tɕʰuæ̱⁴⁴	ɕĩ⁵⁵ tɕʰuæ̱⁴⁴	heartbeat	heartbeat		1.7.1.1	9.3.1	0		66,m
-80853	309	Bai (Jianchuan)	mæ̱⁴⁴	mæ̱⁴⁴	pulse	pulse		1.7.1.1	9.3.2	0		1384
-80855	309	Bai (Jianchuan)	kã⁵⁵	kã⁵⁵	liver	liver		1.7.3	9.5	0		229,bChinese
-80856	309	Bai (Jianchuan)	tã³³ ɕui³³	tã³³ ɕui³³	bile	bile		1.7.3.1	9.5.1	0		bChinese,189
-80857	309	Bai (Jianchuan)	pʰæ⁵⁵ ʔu³³	pʰæ⁵⁵ ʔu³³	gall bladder	gall bladder		1.7.3	9.5.2	0		m,m
-80858	309	Bai (Jianchuan)	jao⁵⁵ tsɿ³³	jao⁵⁵ tsɿ³³	kidney	kidney		1.7.5	9.6	0		b
-80859	309	Bai (Jianchuan)	pʰæ⁵⁵ ʔu³³	pʰæ⁵⁵ ʔu³³	urinary bladder	urinary bladder		1.7.8	9.7	0		
-80860	309	Bai (Jianchuan)	so³¹	so³¹	urine	urine		1.8.4	9.7.1	0		2795
-80861	309	Bai (Jianchuan)	sɿ⁵⁵ kʰv̩³¹	sɿ⁵⁵ kʰv̩³¹	urinate	urinate	v.	1.5.3.2	9.7.2	0		650,m
-80862	309	Bai (Jianchuan)	piɯ̱²¹ «jɯ̱̃⁴²»	pi|ɯ̱²¹ |«jɯ̱̃⁴²»	spleen	spleen		1.7.4	9.8	0		91,m
-80863	309	Bai (Jianchuan)	piɯ̱²¹ jɯ̱̃⁴² tsʰæ̃⁵⁵	piɯ̱²¹ jɯ̱̃⁴² tsʰæ̃⁵⁵	swollen spleen (illness)	swollen spleen (illness)		1.1.5.2	9.8.1	0		91,m,m
-80864	309	Bai (Jianchuan)	ji⁵⁵ tsɿ³³	ji⁵⁵ tsɿ³³	pancreas	pancreas		1.7.7	9.9	0		b
-80865	309	Bai (Jianchuan)	vu̱⁴²	vu̱⁴²	stomach	stomach		1.7.6	9.10	0		2102
-80866	309	Bai (Jianchuan)	tsõ̱²¹	tsõ̱²¹	intestines / bowels	intestines / bowels		1.7.7	9.11	0		m
-80867	309	Bai (Jianchuan)	to̱⁴² tsõ̱²¹	to̱⁴² tsõ̱²¹	large intestine	large intestine		1.7.7	9.11.1	0		
-80868	309	Bai (Jianchuan)	se³¹ tsõ̱²¹	se³¹ tsõ̱²¹	small intestine	small intestine		9.7.2	9.11.2	0		m,m
-80869	309	Bai (Jianchuan)	ma̱⁴² tsʰã̱⁴²	ma̱⁴² tsʰã̱⁴²	appendix	appendix		1.7.7	9.11.3	0		m,m
-80870	309	Bai (Jianchuan)	kʰæ⁵⁵ fv̩³³ ti⁵⁵ ʔuĩ³³	kʰæ⁵⁵ fv̩³³ ti⁵⁵ ʔuĩ³³	anus / rectum	anus / rectum		1.4.10.2	9.12	0		572,m,m,m
-80871	309	Bai (Jianchuan)	sɿ³³ so³¹	sɿ³³ so³¹	feces / shit	feces / shit		1.8.5	9.12.1	0		m,m
-80872	309	Bai (Jianchuan)	sɿ³³ so³¹	sɿ³³ so³¹	meconium / baby shit	meconium / baby shit		1.8.5	9.12.2	0		
-80873	309	Bai (Jianchuan)	tʰṽ̩⁵⁵ fv̱ˌ⁴⁴	tʰṽ̩⁵⁵ fv̱ˌ⁴⁴	defecate	defecate	v.	1.8.5.4	9.12.3	0		
-80874	309	Bai (Jianchuan)	ʔuĩ⁵⁵ tsʰv̩³¹	ʔuĩ⁵⁵ tsʰv̩³¹	genitalia / pudenda (general)	genitalia / pudenda (general)		1.9.1	10.1	0		m,m
-80875	309	Bai (Jianchuan)	jæ̱̃⁴⁴	jæ̱̃⁴⁴	copulate	copulate	v.	1.9.1.1	10.2	0		3475
-80876	309	Bai (Jianchuan)	tsɿ³³ jĩ̱²¹	tsɿ³³ jĩ̱²¹	male	male		1.9.6.1	10.3	0		m,m
-80877	309	Bai (Jianchuan)	tu³³	tu³³	penis	penis			10.3.1	0		3420
-80878	309	Bai (Jianchuan)	tu³³ tɯ̱²¹ po̱²¹ kʰo³³	tu³³ tɯ̱²¹ po̱²¹ kʰo³³	glans penis	glans penis			10.3.2	0		3420,m,m,386
-80879	309	Bai (Jianchuan)	tu³³ tɯ̱²¹ po̱²¹ pe̱²¹	tu³³ tɯ̱²¹ po̱²¹ pe̱²¹	foreskin	foreskin			10.3.3	0		
-80880	309	Bai (Jianchuan)	kuã³³ lõ̱²¹	kuã³³ lõ̱²¹	scrotum	scrotum			10.3.4	0		305,3471
-80881	309	Bai (Jianchuan)	kuã³³	kuã³³	testicle	testicle			10.3.5	0		305
-80882	309	Bai (Jianchuan)	tu³³ ma̱²¹ tsɿ³³	tu³³ ma̱²¹ tsɿ³³	male pubic hair	male pubic hair			10.3.6	0		m,363,1232
-80883	309	Bai (Jianchuan)	sõ̱⁴²	sõ̱⁴²	semen	semen			10.3.7	0		
-80884	309	Bai (Jianchuan)	sõ̱⁴² tsɿ³³	sõ̱⁴² tsɿ³³	semen	semen			10.3.7	0		
-80885	309	Bai (Jianchuan)	te⁵⁵ «sõ̱⁴²»	te⁵⁵ «sõ̱⁴²»	ejaculate	ejaculate	v.		10.3.8	0		m,m
-80886	309	Bai (Jianchuan)	sæ̱̃⁴⁴	sæ̱̃⁴⁴	castrate	castrate	v.	1.9.2.3	10.3.9	0		m
-80887	309	Bai (Jianchuan)	jṽ̩³³ jĩ̱²¹	jṽ̩³³ jĩ̱²¹	female	female		1.9.3	10.4	0		m,m
-80888	309	Bai (Jianchuan)	pi̱⁴⁴ ʔuĩ³³	pi̱⁴⁴ ʔuĩ³³	vagina	vagina			10.4.1	0		662,3429
-80889	309	Bai (Jianchuan)	pi̱⁴⁴	pi̱⁴⁴	vulva / labia	vulva / labia			10.4.2	0		662
-80890	309	Bai (Jianchuan)	?	?	hymen	hymen			10.4.3	0		
-80891	309	Bai (Jianchuan)	pi̱⁴⁴ ɕĩ⁵⁵ tɯ̱²¹	pi̱⁴⁴ ɕĩ⁵⁵ tɯ̱²¹	clitoris	clitoris			10.4.4	0		662,3431,1352
-80892	309	Bai (Jianchuan)	pi̱⁴⁴ ma̱²¹	pi̱⁴⁴ ma̱²¹	female pubic hair	female pubic hair			10.4.5	0		662,363
-80893	309	Bai (Jianchuan)	pi̱⁴⁴ ma̱²¹ tsɿ³³	pi̱⁴⁴ ma̱²¹ tsɿ³³	female pubic hair	female pubic hair			10.4.5	0		662,363,1232
-80895	309	Bai (Jianchuan)	sua̱⁴⁴	sua̱⁴⁴	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		230
-80896	309	Bai (Jianchuan)	tsɿ³³ jṽ̩³³ kʰv̩³¹	tsɿ³³ jṽ̩³³ kʰv̩³¹	womb	womb			10.4.8	0		
-80897	309	Bai (Jianchuan)	?	?	amniotic sac / bag of waters	amniotic sac / bag of waters			10.4.9	0		m
-80898	309	Bai (Jianchuan)	?	?	amniotic fluid	amniotic fluid			10.4.10	0		
-80899	309	Bai (Jianchuan)	ɯ̃³³ kʰo³³	ɯ̃³³ kʰo³³	placenta / afterbirth	placenta / afterbirth			10.4.11	0		
-80900	309	Bai (Jianchuan)	ji⁵⁵ pao⁵⁵	ji⁵⁵ pao⁵⁵	placenta / afterbirth	placenta / afterbirth			10.4.11	0		m,1733
-80901	309	Bai (Jianchuan)	jõ̱²¹ fv̱ˌ⁴⁴ te̱⁴⁴	jõ̱²¹ fv̱ˌ⁴⁴ te̱⁴⁴	umbilical cord	umbilical cord			10.4.12	0		
-80902	309	Bai (Jianchuan)	ɯ̃³³ kʰo³³	ɯ̃³³ kʰo³³	caul	caul		1.2.1.4	10.4.13	0		m,m
-80903	309	Bai (Jianchuan)	ji⁵⁵ pao⁵⁵	ji⁵⁵ pao⁵⁵	caul	caul		1.2.1.4	10.4.13	0		m,m
-80904	309	Bai (Jianchuan)	to̱⁴² fv̱ˌ⁴⁴	to̱⁴² fv̱ˌ⁴⁴	pregnant	pregnant	be v.	1.9.6.1	10.4.14	0		m,1855
-80905	309	Bai (Jianchuan)	tsɯ³³ tsɿ³³ jṽ̩³³	tsɯ³³ tsɿ³³ jṽ̩³³	pregnant	pregnant	be v.	1.9.6.1	10.4.14	0		m,m,m
-80906	309	Bai (Jianchuan)	tɕi̱⁴² xæ̃⁵⁵	tɕi̱⁴² xæ̃⁵⁵	birth, give	birth, give		1.1.2	10.4.15	0		
-80907	309	Bai (Jianchuan)	sõ³³	sõ³³	birth, give	birth, give		1.1.2	10.4.15	0		
-80908	309	Bai (Jianchuan)	sẽ̱⁴²	sẽ̱⁴²	egg (of animal)	egg (of animal)			10.4.16	0		3439
-80909	309	Bai (Jianchuan)	kʰo⁵⁵ sɯ̱̃⁴²	kʰo⁵⁵ sɯ̱̃⁴²	cough	cough		1.8.3.3	11.1	0		bChinese
-80910	309	Bai (Jianchuan)	ɯ̱²¹ pʰu³¹	ɯ̱²¹ pʰu³¹	hiccup	hiccup		1.8.3.5	11.2	0		3443,m
-80911	309	Bai (Jianchuan)	tæ̱̃⁴⁴ a⁵⁵ |tʰuɯ⁵⁵	tæ̱̃⁴⁴ a⁵⁵ tʰuɯ⁵⁵	sneeze	sneeze		1.8.2.1	11.3	0		m,2131
-80912	309	Bai (Jianchuan)	tæ̱̃⁴⁴ xu³¹ kã³¹	tæ̱̃⁴⁴ xu³¹ kã³¹	snore	snore		1.8.2.2	11.4	0		
-80913	309	Bai (Jianchuan)	pʰɯ⁵⁵ ɕui⁵⁵ ɕui⁵⁵	pʰɯ⁵⁵ ɕui⁵⁵ ɕui⁵⁵	whistle	whistle		8.5.5	11.5	0		m,m,m
-80914	309	Bai (Jianchuan)	se̱⁴⁴ ɯ⁵⁵ tɯ⁵⁵	se̱⁴⁴ ɯ⁵⁵ tɯ⁵⁵	burp / belch	burp / belch		1.8.3	11.6	0		m,3443,m
-80915	309	Bai (Jianchuan)	fv̩³¹	fv̩³¹	fart	fart		1.8.5.2	11.7	0		3553
-80916	309	Bai (Jianchuan)	ka̱⁴⁴ kʰo⁵⁵ tɕʰi̱⁴⁴	ka̱⁴⁴ kʰo⁵⁵ tɕʰi̱⁴⁴	clear throat	clear throat		9.6.1.1	11.8	0		
-80917	309	Bai (Jianchuan)	so³¹	so³¹	laugh	laugh		1.8.8.1	11.9	0		1780
-80918	309	Bai (Jianchuan)	sṽ̩³¹ ko³¹	sṽ̩³¹ ko³¹	injury and infection	injury and infection		1.1.5.1	12.0	0		
-80919	309	Bai (Jianchuan)	ju̱²¹ ta̱²¹ kʰɯ³³	ju̱²¹ ta̱²¹ kʰɯ³³	tremble / shiver / shudder	tremble / shiver / shudder		1.6.6.2.1	12.1	0		
-80920	309	Bai (Jianchuan)	ju³¹	ju³¹	tremble / shiver / shudder	tremble / shiver / shudder		1.6.6.2.1	12.1	0		
-80921	309	Bai (Jianchuan)	sṽ̩³¹	sṽ̩³¹	sick / be ill / hurt	sick / be ill / hurt	be v.	1.1.5.1	12.2	0		m
-80922	309	Bai (Jianchuan)	tɯ̱⁴⁴ pæ̃³¹	tɯ̱⁴⁴ pæ̃³¹	sick / be ill / hurt	sick / be ill / hurt	be v.	1.1.5.1	12.2	0		1846,m
-80923	309	Bai (Jianchuan)	sɯ̱̃²¹	sɯ̱̃²¹	numb / be paralyzed	numb / be paralyzed	be v.	1.5.11	12.3	0		
-80924	309	Bai (Jianchuan)	piɯ̱²¹	piɯ̱²¹	numb / be paralyzed	numb / be paralyzed	be v.	1.5.11	12.3	0		5685
-80925	309	Bai (Jianchuan)	tsʰæ̃⁵⁵	tsʰæ̃⁵⁵	swell / be swollen	swell / be swollen	v.	1.1.5.2	12.4	0		
-80926	309	Bai (Jianchuan)	tsʰæ̃⁵⁵ kʰɯ³³	tsʰæ̃⁵⁵ kʰɯ³³	swell / be swollen	swell / be swollen	v.	1.1.5.2	12.4	0		
-80927	309	Bai (Jianchuan)	nv̱ˌ²¹	nv̱ˌ²¹	pus	pus		1.8.6.1	12.5	0		1709
-80928	309	Bai (Jianchuan)	sṽ̩³¹ tsʰv̩³¹	sṽ̩³¹ tsʰv̩³¹	abscess / ulcer / open wound	abscess / ulcer / open wound		1.8.6.2	12.6	0		
-80929	309	Bai (Jianchuan)	a³¹ tse̱⁴⁴	a³¹ tse̱⁴⁴	phalanx (knuckle length)	phalanx (knuckle length)		1.5.8.5	13.1	0		
-80930	309	Bai (Jianchuan)	a³¹ tʰo³¹	a³¹ tʰo³¹	hand span	hand span		1.5.9.4	13.2	0		p,1281
-80931	309	Bai (Jianchuan)	tɕa̱⁴²	tɕa̱⁴²	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		702
-80932	309	Bai (Jianchuan)	a³¹ tɕa̱⁴²	a³¹ tɕa̱⁴²	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		p,702
-80935	309	Bai (Jianchuan)	a³¹ tɕa̱⁴² lõ⁵⁵	a³¹ tɕa̱⁴² lõ⁵⁵	nose to fingertip	nose to fingertip		1.2.8	13.4.1	0		
-80937	309	Bai (Jianchuan)	no³³ kʰv̩³¹	no³³ kʰv̩³¹	mind / locus of thought	mind / locus of thought		1.10	14.1	0		
-80938	309	Bai (Jianchuan)	mĩ³³ no³³	mĩ³³ no³³	mind / locus of thought	mind / locus of thought		1.10	14.1	0		
-80939	309	Bai (Jianchuan)	ɕĩ⁵⁵ kʰo³³	ɕĩ⁵⁵ kʰo³³	heart / locus of emotions	heart / locus of emotions		1.7.1	14.2	0		66,m
-80940	309	Bai (Jianchuan)	ɕĩ⁵⁵ ŋṽ̩⁵⁵	ɕĩ⁵⁵ ŋṽ̩⁵⁵	heart / locus of emotions	heart / locus of emotions		1.7.1	14.2	0		66,m
-80941	309	Bai (Jianchuan)	ɕĩ⁵⁵ ŋṽ̱ˌ⁴²	ɕĩ⁵⁵ ŋṽ̱ˌ⁴²	heart / locus of emotions	heart / locus of emotions		1.7.1	14.2	0		66,m
-145942	309	Bai (Jianchuan)	jĩ̱²¹ tsʰɔ̃⁵⁵ jĩ̱²¹ kua̱⁴⁴	jĩ̱²¹ tsʰɔ̃⁵⁵ jĩ̱²¹ kua̱⁴⁴	corpse / dead body	corpse / dead body		1.1.6.1	1.14	0		
-145943	309	Bai (Jianchuan)	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ «ne̱²¹»	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ «ne̱²¹»	nose	nose		1.2.8	3.5	0		803,809,808,m
-145944	309	Bai (Jianchuan)	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ ʔuĩ³³	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ ʔuĩ³³	nostril	nostril		1.2.8.1	3.5.2	0		803,809,808,2070
-145945	309	Bai (Jianchuan)	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ xɯ³¹ no³³ ma̱²¹ «tsɯ³¹	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ xɯ³¹ no³³ ma̱²¹ «tsɯ³¹	nose hair	nose hair		1.2.8	3.5.4	0		803,809,808,363
-145946	309	Bai (Jianchuan)	te̱⁴² tɕui³³ kæ⁵⁵ tsu̱+²¹ «ne̱²¹»	te̱⁴² tɕui³³ kæ⁵⁵ tsu̱+²¹ «ne̱²¹»	snout	snout		1.2.8	3.5.5	0		
-145947	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ tɕĩ⁵⁵ ne̱²¹	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ tɕĩ⁵⁵ ne̱²¹	earlobe	earlobe		1.2.7.1	3.6.1	0		811,822,665,m
-145948	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ mɯ⁵⁵ ŋua̱⁴⁴ fv̩³³ no³³	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ mɯ⁵⁵ ŋua̱⁴⁴ fv̩³³ no³³	outer ear	outer ear		9.2	3.6.2	0		811,822,665
-145949	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ mɯ⁵⁵ kʰɯ³¹ fv̩³³ no³³	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ mɯ⁵⁵ kʰɯ³¹ fv̩³³ no³³	inner ear	inner ear		9.2.5	3.6.3	0		811,822,665
-145950	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ ʔuĩ³³ xɯ³¹	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ ʔuĩ³³ xɯ³¹	ear canal	ear canal		1.2.7	3.6.4	0		811,822,665,m
-145951	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ tɕi³³ ne̱²¹	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ tɕi³³ ne̱²¹	eardrum	eardrum		1.2.7.2	3.6.5	0		811,822,665,m,m
-145952	309	Bai (Jianchuan)	jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴ «ne̱²¹»	jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴ «ne̱²¹»	gums	gums		1.3.4.3	3.7.3	0		
-145953	309	Bai (Jianchuan)	ɕi⁵⁵ ŋṽ̱ˌ⁴⁴ tsæ̱⁴⁴ «kuĩ̱⁴²»	ɕi⁵⁵ ŋṽ̱ˌ⁴⁴ tsæ̱⁴⁴ «kuĩ̱⁴²»	saliva	saliva		1.8.3	3.7.5	0		
-145954	309	Bai (Jianchuan)	tɕʰæ̱⁴⁴ tɕʰi̱⁴⁴ no³³ ŋṽ̩³³ tã̱⁴²	tɕʰæ̱⁴⁴ tɕʰi̱⁴⁴ no³³ ŋṽ̩³³ tã̱⁴²	vomit	vomit	n.	1.8.3.2	3.7.12	0		
-145955	309	Bai (Jianchuan)	ka̱²¹ jĩ̱⁴⁴ tɕui³³ «kæ⁵⁵» xɯ³¹	ka̱²¹ jĩ̱⁴⁴ tɕui³³ «kæ⁵⁵» xɯ³¹	hold in mouth	hold in mouth	v.	1.3.4.4	3.7.14	0		
-145956	309	Bai (Jianchuan)	ja35 tsʰv̱ˌ⁴⁴ tsʰæ̃⁵⁵ tɕʰi̱⁴⁴	ja35 tsʰv̱ˌ⁴⁴ tsʰæ̃⁵⁵ tɕʰi̱⁴⁴	mute / dumb	mute / dumb		1.5.3.2	3.8.3	0		
-145957	309	Bai (Jianchuan)	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴² «tsv̱ˌ⁴⁴»	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴² «tsv̱ˌ⁴⁴»	neck	neck		1.4.2	4.1	0		3361,479,m,m
-145958	309	Bai (Jianchuan)	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴² no³³ kʰo³³	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴² no³³ kʰo³³	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)		1.1.5.2	4.1.2	0		3361,479,m,m
-145959	309	Bai (Jianchuan)	jæ̃³³ ku̱²¹ lu⁵⁵ tsɿ³³ kʰo³³	jæ̃³³ ku̱²¹ lu⁵⁵ tsɿ³³ kʰo³³	adam's apple / larynx	adam's apple / larynx		1.5.3.2	4.1.4	0		
-145960	309	Bai (Jianchuan)	ku̱²¹ tsɿ³³ tei̱⁴⁴ kʰo³³ «ne̱²¹»	ku̱²¹ tsɿ³³ tei̱⁴⁴ kʰo³³ «ne̱²¹»	throat / gullet / pharynx	throat / gullet / pharynx		1.3.5	4.2	0		486,m,501,5651
-145961	309	Bai (Jianchuan)	ɕõ⁵⁵ pʰu⁵⁵ tsɿ³³ kua̱⁴⁴ tɯ̱²¹	ɕõ⁵⁵ pʰu⁵⁵ tsɿ³³ kua̱⁴⁴ tɯ̱²¹	breastbone / sternum	breastbone / sternum		1.6.3.2	5.1.3	0		
-145962	309	Bai (Jianchuan)	kʰæ⁵⁵ fv̩³³ ne̱²¹ no³³ kua̱⁴⁴ tɯ̱²¹	kʰæ⁵⁵ fv̩³³ ne̱²¹ no³³ kua̱⁴⁴ tɯ̱²¹	hipbone	hipbone		1.4.9.2	5.8.2	0		
-145963	309	Bai (Jianchuan)	tɕo̱²¹ kʰv̱ˌ⁴⁴ (kʰo³³) ɕĩ⁵⁵	tɕo̱²¹ kʰv̱ˌ⁴⁴ (kʰo³³) ɕĩ⁵⁵	knee hollow / popliteal region	knee hollow / popliteal region		1.5.8.4	6.2.2.2	0		
-145964	309	Bai (Jianchuan)	kʰv̱ˌ⁴⁴ sɯ³³ tɯ̱²¹ tsɿ³³ kʰo³³	kʰv̱ˌ⁴⁴ sɯ³³ tɯ̱²¹ tsɿ³³ kʰo³³	index finger	index finger		1.0	7.1.1	0		
-145965	309	Bai (Jianchuan)	mõ⁵⁵ mĩ̱æ⁴² sɯ³³ tɯ̱²¹ kʰo³³	mõ⁵⁵ mĩ̱æ⁴² sɯ³³ tɯ̱²¹ kʰo³³	ring finger	ring finger		1.5.6.2	7.1.3	0		
-145966	309	Bai (Jianchuan)	a⁵⁵ ti⁵⁵ ti̱æ⁴² tsɿ³³ kʰo³³	a⁵⁵ ti⁵⁵ ti̱æ⁴² tsɿ³³ kʰo³³	little finger	little finger		9.7.2	7.1.4	0		
-145967	309	Bai (Jianchuan)	sɯ³³ tɯ̱²¹ tsɿ³³ no³³ tɯ⁵⁵ jĩ⁵⁵ lṽ̩³³	sɯ³³ tɯ̱²¹ tsɿ³³ no³³ tɯ⁵⁵ jĩ⁵⁵ lṽ̩³³	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
-145968	309	Bai (Jianchuan)	ko̱⁴⁴ a⁵⁵ ti⁵⁵ ti̱æ⁴² tsɿ³³	ko̱⁴⁴ a⁵⁵ ti⁵⁵ ti̱æ⁴² tsɿ³³	little toe	little toe		9.7.2	7.2.5	0		
-145969	309	Bai (Jianchuan)	[jõ̱²¹ mo³³ tɕi³³ kã̱⁴² no³³ ma̱²¹	[jõ̱²¹ mo³³ tɕi³³ kã̱⁴² no³³ ma̱²¹	underarm hair	underarm hair		1.5.1.2.3	8.1.3.1	0		
-145970	309	Bai (Jianchuan)	«tɕui³³ ŋuĩ³³ tsʰɯ̱⁴⁴ no³³» te̱⁴⁴ te̱⁴⁴ tsɿ³³	«tɕui³³ ŋuĩ³³ tsʰɯ̱⁴⁴ no³³» te̱⁴⁴ te̱⁴⁴ tsɿ³³	pimple	pimple		1.6.5.3	8.2.3.2	0		
-145971	309	Bai (Jianchuan)	fv̱ˌ⁴⁴ xɯ³¹ no³³ ŋṽ̩³³ tã̱⁴²	fv̱ˌ⁴⁴ xɯ³¹ no³³ ŋṽ̩³³ tã̱⁴²	internal organs	internal organs		1.7	9.0	0		
-145973	309	Bai (Jianchuan)	ɣa35 kã⁵⁵ tɕɯ̱̃⁴² ja̱⁴² ɣɯ35	ɣa35 kã⁵⁵ tɕɯ̱̃⁴² ja̱⁴² ɣɯ35	menstruate	menstruate	v.	1.9.11.1	10.4.6	0		
-148736	309	Bai (Jianchuan)	pe̱²¹	pe̱²¹	hide / leather (dried animal skin)	hide / leather (dried animal skin)		1.6.5.1	8.2.6	0	D1	590
-148737	309	Bai (Jianchuan)	tsõ̱²¹ tsõ̱²¹ v̱ˌ⁴² v̱ˌ	tsõ̱²¹ tsõ̱²¹ v̱ˌ⁴² v̱ˌ	viscera / guts / entrails (in general)	viscera / guts / entrails (in general)		1.7.7	9.4	0	D1	
-148739	309	Bai (Jianchuan)	ji̱²¹	ji̱²¹	cord / fathom (outstretched arms)	cord / fathom (outstretched arms)		1.5.9.5	13.4	0	D1	
-148740	309	Bai (Jianchuan)	ji̱²¹	ji̱²¹	left fingertip to right fingertip	left fingertip to right fingertip		1.5.3.2	13.4.2	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+80530	309	Bai (Jianchuan)	tsʰæ̃⁵⁵ kɯ³¹	tsʰæ̃⁵⁵ kɯ³¹	body (general)	body (general)			1.1.1	1.0	0			
+80531	309	Bai (Jianchuan)	tsʰæ̃⁵⁵ kɯ³¹ «ne̱²¹»	tsʰæ̃⁵⁵ kɯ³¹ «ne̱²¹»	body	body			1.1.1	1.1	0			
+80532	309	Bai (Jianchuan)	tsæ̱⁴²	tsæ̱⁴²	side (right)	side (right)			1.4.5	1.2	0			
+80533	309	Bai (Jianchuan)	tsæ̱⁴² fv̩³³	tsæ̱⁴² fv̩³³	side (right)	side (right)			1.4.5	1.2	0			
+80534	309	Bai (Jianchuan)	pi⁵⁵	pi⁵⁵	side (left)	side (left)			1.4.5	1.3	0			
+80535	309	Bai (Jianchuan)	pi⁵⁵ fv̩³³	pi⁵⁵ fv̩³³	side (left)	side (left)			1.4.5	1.3	0			
+80538	309	Bai (Jianchuan)	tsʰæ̃⁵⁵ kɯ³¹ «ne̱²¹»	tsʰæ̃⁵⁵ kɯ³¹ «ne̱²¹»	torso / trunk	torso / trunk			1.5.3.2	1.6	0			m,2,m
+80539	309	Bai (Jianchuan)	sɯ³³ ko̱⁴⁴	sɯ³³ ko̱⁴⁴	limbs / arms and legs	limbs / arms and legs			1.5.3.1	1.7	0			
+80540	309	Bai (Jianchuan)	sɯ³³ sɯ³³ ko̱⁴⁴ ko̱⁴⁴	sɯ³³ sɯ³³ ko̱⁴⁴ ko̱⁴⁴	limbs / arms and legs	limbs / arms and legs			1.5.3.1	1.7	0			
+80541	309	Bai (Jianchuan)	kʰuæ³¹ pi⁵⁵	kʰuæ³¹ pi⁵⁵	lap	lap			1.4.4.2	1.8	0			2326,1361
+80543	309	Bai (Jianchuan)	ko̱⁴⁴ kã̱⁴² «ne̱²¹»	ko̱⁴⁴ kã̱⁴² «ne̱²¹»	groin / loins	groin / loins			1.4.9	1.10	0			m,219,m
+80544	309	Bai (Jianchuan)	kæ̱²¹	kæ̱²¹	flesh / meat	flesh / meat			1.1.1.1	1.11	0			1130
+80545	309	Bai (Jianchuan)	xæ̃⁵⁵	xæ̃⁵⁵	alive / be living	alive / be living			1.1.2.1	1.12	0			71
+80546	309	Bai (Jianchuan)	tsɯ³³	tsɯ³³	alive / be living	alive / be living			1.1.2.1	1.12	0			80
+80547	309	Bai (Jianchuan)	kv̱ˌ⁴²	kv̱ˌ⁴²	alive / be living	alive / be living			1.1.2.1	1.12	0			20
+80548	309	Bai (Jianchuan)	ɕi³³	ɕi³³	die / be dead	die / be dead			1.1.6	1.13	0			27
+80549	309	Bai (Jianchuan)	ɕi³³ la̱⁴²	ɕi³³ la̱⁴²	die / be dead	die / be dead			1.1.6	1.13	0			27,s
+80550	309	Bai (Jianchuan)	jĩ̱²¹ tsʰɔ̃⁵⁵	jĩ̱²¹ tsʰɔ̃⁵⁵	corpse / dead body	corpse / dead body			1.1.6.1	1.14	0			m,3327
+80552	309	Bai (Jianchuan)	ɕi³³ ŋɯ̱̃²¹ ɕi³³ mæ³³	ɕi³³ ŋɯ̱̃²¹ ɕi³³ mæ³³	carcass / dead animal	carcass / dead animal			1.1.6.1	1.15	0			27,25,27,17
+80553	309	Bai (Jianchuan)	ɕi³³ lo̱²¹ɕi³³ pã̱⁴²	ɕi³³ lo̱²¹ɕi³³ pã̱⁴²	carcass / dead animal	carcass / dead animal			1.1.6.1	1.15	0			27,1801,27,m
+80555	309	Bai (Jianchuan)	ɕi³³ kʰuã³³ ɕi³³ ʔã⁵⁵n˜	ɕi³³ kʰuã³³ ɕi³³ ʔã⁵⁵n˜	carcass / dead animal	carcass / dead animal			1.1.6.1	1.15	0			27,m,27,m,m
+80557	309	Bai (Jianchuan)	tsʰæ̃³³	tsʰæ̃³³	sleep / be asleep	sleep / be asleep			1.1.4.1	1.16	0			128
+80558	309	Bai (Jianchuan)	tsʰæ̃³³ suĩ³³	tsʰæ̃³³ suĩ³³	sleep / be asleep	sleep / be asleep			1.1.4.1	1.16	0			128,b
+80559	309	Bai (Jianchuan)	ɕæ̃⁵⁵	ɕæ̃⁵⁵	awake / be awake	awake / be awake			1.1.4	1.17	0			m
+80560	309	Bai (Jianchuan)	ɕæ̃⁵⁵ ɕæ̃⁵⁵	ɕæ̃⁵⁵ ɕæ̃⁵⁵	awake / be awake	awake / be awake			1.1.4	1.17	0			m,m
+80561	309	Bai (Jianchuan)	mɯ̃³¹	mɯ̃³¹	dream	dream	v.	v.	1.1.4.2	1.18	0			126
+80562	309	Bai (Jianchuan)	tsu⁵⁵ mɯ̃³¹ ŋṽ̱ˌ⁴²	tsu⁵⁵ mɯ̃³¹ ŋṽ̱ˌ⁴²	dream	dream	v.	v.	1.1.4.2	1.18	0			m,126,1838
+80563	309	Bai (Jianchuan)	tɯ̱²¹ po̱²¹	tɯ̱²¹ po̱²¹	head	head			1.2.1	2.0	0		D1	359,388
+80564	309	Bai (Jianchuan)	tɯ̱²¹ po̱²¹	tɯ̱²¹ po̱²¹	head	head			1.2.1	2.1	0	jbl5	HIDE	DUPE IN SOURCE
+80565	309	Bai (Jianchuan)	tv̱ˌ⁴² tv̱ˌ⁴² ɕĩ⁵⁵ ne̱²¹	tv̱ˌ⁴² tv̱ˌ⁴² ɕĩ⁵⁵ ne̱²¹	top of head / crown / pate	top of head / crown / pate			1.2.1.2	2.2	0			
+80566	309	Bai (Jianchuan)	sa⁵⁵ pʰu³¹ ʔuĩ³³	sa⁵⁵ pʰu³¹ ʔuĩ³³	fontanel	fontanel			1.2.1.3	2.3	0			
+80567	309	Bai (Jianchuan)	tɯ̱²¹ po̱²¹ kua̱⁴⁴ tɯ̱²¹	tɯ̱²¹ po̱²¹ kua̱⁴⁴ tɯ̱²¹	skull	skull			1.2.1.1	2.4	0			359,388,2004,m
+80568	309	Bai (Jianchuan)	nõ³³ «kʰv̩³¹»	nõ³³ «kʰv̩³¹»	brain	brain			1.2.4	2.5	0			243,m
+80569	309	Bai (Jianchuan)	kʰɯ³¹ ʔuĩ³³	kʰɯ³¹ ʔuĩ³³	sinus	sinus			1.2.8.1	2.6	0			
+80570	309	Bai (Jianchuan)	tɯ̱²¹ ma⁵⁵	tɯ̱²¹ ma⁵⁵	hair of head	hair of head			1.2.3	2.7	0		D2	m,363
+80571	309	Bai (Jianchuan)	tɯ̱²¹ po̱²¹ no³³ pe̱²¹	tɯ̱²¹ po̱²¹ no³³ pe̱²¹	scalp	scalp			1.2.1.5	2.8	0			359,388,m,m
+80572	309	Bai (Jianchuan)	piɯ̱²¹ «ne̱²¹»	piɯ̱²¹ «ne̱²¹»	comb (of rooster)	comb (of rooster)			1.2.2.1	2.9	0			m,m
+80573	309	Bai (Jianchuan)	kv̱ˌ⁴⁴ «tsã̱²¹»	kv̱ˌ⁴⁴ «tsã̱²¹»	horn	horn			1.2.2	2.10	0			814,m
+80574	309	Bai (Jianchuan)	kv̱ˌ⁴⁴	kv̱ˌ⁴⁴	antler	antler			1.2.2	2.11	0			814
+80575	309	Bai (Jianchuan)	tɕui³³ ŋuĩ³³	tɕui³³ ŋuĩ³³	face	face			1.2.5	3.0	0			m,33
+80576	309	Bai (Jianchuan)	tɕui³³ ŋuĩ³³ «tsʰɯ̱⁴⁴»	tɕui³³ ŋuĩ³³ «tsʰɯ̱⁴⁴»	face	face			1.2.5	3.1	0		x	m,33,m
+80577	309	Bai (Jianchuan)	ŋæ̱̃⁴⁴ te̱⁴⁴ «kʰui⁵⁵»	ŋæ̱̃⁴⁴ te̱⁴⁴ «kʰui⁵⁵»	forehead / brow	forehead / brow			1.2.5.1	3.2	0			356,358,m
+80578	309	Bai (Jianchuan)	tɕiɯ̃⁵⁵ kv̱ˌ⁴⁴ «ne̱²¹»	tɕiɯ̃⁵⁵ kv̱ˌ⁴⁴ «ne̱²¹»	temple	temple			1.2.5.1	3.3	0			
+80579	309	Bai (Jianchuan)	ŋuĩ³³ pʰo̱⁴⁴	ŋuĩ³³ pʰo̱⁴⁴	eye	eye			1.2.6	3.4	0			33,1275
+80580	309	Bai (Jianchuan)	sṽ̩⁵⁵	sṽ̩⁵⁵	eye	eye			1.2.6	3.4	0			m
+80581	309	Bai (Jianchuan)	ŋuĩ³³ pe̱²¹	ŋuĩ³³ pe̱²¹	eyelid	eyelid			1.2.6.4	3.4.1	0			33,590
+80582	309	Bai (Jianchuan)	ŋuĩ³³ kæ⁵⁵ ɕĩ⁵⁵ kʰo³³	ŋuĩ³³ kæ⁵⁵ ɕĩ⁵⁵ kʰo³³	eyeball	eyeball			1.2.6.1	3.4.2	0			33,1110,m,m
+80583	309	Bai (Jianchuan)	ŋuĩ³³ kæ⁵⁵ ɕĩ⁵⁵	ŋuĩ³³ kæ⁵⁵ ɕĩ⁵⁵	iris	iris			1.2.6.2	3.4.2.1	0			33,m,m
+80586	309	Bai (Jianchuan)	pæ̱⁴² ŋuĩ³³ ŋṽ̱ˌ²¹	pæ̱⁴² ŋuĩ³³ ŋṽ̱ˌ²¹	white of eye	white of eye			1.2.6.3	3.4.2.3	0			m
+80587	309	Bai (Jianchuan)	ŋuĩ³³ me⁵⁵ «tṽ̩³³»	ŋuĩ³³ me⁵⁵ «tṽ̩³³»	eyebrow	eyebrow			1.2.6.6	3.4.3	0			33,363,m
+80588	309	Bai (Jianchuan)	ŋuĩ³³ me⁵⁵ tɕʰi³¹	ŋuĩ³³ me⁵⁵ tɕʰi³¹	eyelash	eyelash			1.2.6.5	3.4.4	0			33,363,1232
+80589	309	Bai (Jianchuan)	tsua̱⁴⁴	tsua̱⁴⁴	blink	blink	v.	v.	1.2.6.12	3.4.5	0			
+80590	309	Bai (Jianchuan)	tsua̱⁴⁴ ŋuĩ³³	tsua̱⁴⁴ ŋuĩ³³	blink	blink	v.	v.	1.2.6.12	3.4.5	0			
+80591	309	Bai (Jianchuan)	mĩ̱⁴² ɕĩ⁴² «tĩ³³»	mĩ̱⁴² ɕĩ⁴² «tĩ³³»	tears	tears	n.	n.	1.2.6.7	3.4.6	0		C	682,m,m
+80592	309	Bai (Jianchuan)	ŋuĩ³³ sɿ³³	ŋuĩ³³ sɿ³³	eye sand	eye sand			1.2.6.8	3.4.7	0			33,572
+80594	309	Bai (Jianchuan)	kv̩⁵⁵	kv̩⁵⁵	cry / weep	cry / weep	v.	v.	1.8.8.2	3.4.8	0			2235
+80595	309	Bai (Jianchuan)	kʰo̱⁴⁴	kʰo̱⁴⁴	cry / weep	cry / weep	v.	v.	1.8.8.2	3.4.8	0			1103
+80596	309	Bai (Jianchuan)	xã⁵⁵	xã⁵⁵	see / look	see / look	v.	v.	1.2.6.10	3.4.9	0			m
+80597	309	Bai (Jianchuan)	ʔã³³	ʔã³³	see / look	see / look	v.	v.	1.2.6.10	3.4.9	0			m
+80598	309	Bai (Jianchuan)	tæ⁵⁵	tæ⁵⁵	blind	blind			1.2.6.14.2	3.4.10	0			m
+80599	309	Bai (Jianchuan)	ŋuĩ³³ tæ⁵⁵	ŋuĩ³³ tæ⁵⁵	blind	blind			1.2.6.14.2	3.4.10	0			33,m
+80601	309	Bai (Jianchuan)	pĩ̱⁴² ɕæ̃⁵⁵ tsɿ³³ jɯ̱̃⁴²	pĩ̱⁴² ɕæ̃⁵⁵ tsɿ³³ jɯ̱̃⁴²	nose bridge	nose bridge			1.2.8	3.5.1	0			810,m,m,m
+80603	309	Bai (Jianchuan)	?	?	alae nasi (nose flaps)	alae nasi (nose flaps)			1.2.8.2	3.5.3	0			bChinese
+80605	309	Bai (Jianchuan)	ja̱⁴²»	ja̱⁴²»	nose hair	nose hair			1.2.8	3.5.4	0			bChinese
+80607	309	Bai (Jianchuan)	pi̱²¹ ɕĩ̱²¹	pi̱²¹ ɕĩ̱²¹	liquid mucus	liquid mucus			3.2.3	3.5.6	0			
+80608	309	Bai (Jianchuan)	pi̱²¹ ɕĩ̱²¹ kæ̱⁴⁴	pi̱²¹ ɕĩ̱²¹ kæ̱⁴⁴	solid mucus	solid mucus			1.1.5	3.5.7	0			
+80609	309	Bai (Jianchuan)	xɯ̃³³ «pi̱²¹ ɕĩ̱²¹»	xɯ̃³³ «pi̱²¹ ɕĩ̱²¹»	blow nose	blow nose	v.	v.	1.3.1.4	3.5.8	0			
+80610	309	Bai (Jianchuan)	tsʰu⁵⁵	tsʰu⁵⁵	smell / sniff	smell / sniff	v.	v.	1.2.8.5	3.5.9	0			
+80612	309	Bai (Jianchuan)	sṽ̩⁵⁵»	sṽ̩⁵⁵»	ear	ear			1.2.7	3.6	0			
+80618	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ sɿ³³	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ sɿ³³	earwax	earwax			1.2.7.3	3.6.6	0			811,822,665,m
+80619	309	Bai (Jianchuan)	tɕʰæ̃⁵⁵	tɕʰæ̃⁵⁵	hear	hear	v.	v.	1.2.7.4	3.6.7	0			
+80620	309	Bai (Jianchuan)	kṽ̩⁵⁵	kṽ̩⁵⁵	deaf	deaf			1.2.7.5	3.6.8	0			m
+80621	309	Bai (Jianchuan)	tɕui³³ kæ⁵⁵ kʰo³³	tɕui³³ kæ⁵⁵ kʰo³³	mouth	mouth			1.3.1	3.7	0			442,273,468
+80622	309	Bai (Jianchuan)	ne̱²¹	ne̱²¹	mouth	mouth			1.3.1	3.7	0			471
+80623	309	Bai (Jianchuan)	tõ³³ ka³¹ ne̱²¹	tõ³³ ka³¹ ne̱²¹	palate	palate			1.3.1.1	3.7.1	0			1719,273,m
+80624	309	Bai (Jianchuan)	tõ³³ ka³¹ ne̱²¹	tõ³³ ka³¹ ne̱²¹	soft palate	soft palate			7.1.4.2	3.7.2	0			1719,273,m
+80628	309	Bai (Jianchuan)	xu⁵⁵»	xu⁵⁵»	saliva	saliva			1.8.3	3.7.5	0			
+80629	309	Bai (Jianchuan)	jɯ̱⁴⁴	jɯ̱⁴⁴	eat	eat	v.	v.	1.5.3.2	3.7.6	0			m
+80630	309	Bai (Jianchuan)	ʔɯ̃³³	ʔɯ̃³³	drink	drink	v.	v.		3.7.7	0			1713
+80631	309	Bai (Jianchuan)	kʰa̱⁴⁴ ɕui³³	kʰa̱⁴⁴ ɕui³³	thirsty	thirsty	be v.	be v.	1.1.3.1	3.7.8	0			b,b
+80632	309	Bai (Jianchuan)	fv̱ˌ⁴⁴ tɕi⁵⁵ kʰa̱⁴⁴	fv̱ˌ⁴⁴ tɕi⁵⁵ kʰa̱⁴⁴	hungry	hungry	be v.	be v.	1.1.3	3.7.9	0			m,101,105
+80633	309	Bai (Jianchuan)	tɕi̱⁴⁴ mã³³	tɕi̱⁴⁴ mã³³	full / be satiated	full / be satiated			1.1.3.2	3.7.10	0			m,b
+80634	309	Bai (Jianchuan)	lu⁵⁵	lu⁵⁵	full / be satiated	full / be satiated			1.1.3.2	3.7.10	0			138
+80635	309	Bai (Jianchuan)	tsʰɿ⁵⁵	tsʰɿ⁵⁵	spit	spit	v.	v.	1.8.3	3.7.11	0			
+80637	309	Bai (Jianchuan)	tɕʰæ̱⁴⁴	tɕʰæ̱⁴⁴	vomit	vomit	v.	v.	1.8.3.2	3.7.13	0			m
+80639	309	Bai (Jianchuan)	ka̱²¹ kʰɯ³³	ka̱²¹ kʰɯ³³	hold in mouth	hold in mouth	v.	v.	1.3.4.4	3.7.14	0			
+80640	309	Bai (Jianchuan)	pæ⁵⁵	pæ⁵⁵	gape / open mouth	gape / open mouth	v.	v.	1.3.1	3.7.15	0			
+80641	309	Bai (Jianchuan)	pæ⁵⁵ tɕui³³ kæ⁵⁵	pæ⁵⁵ tɕui³³ kæ⁵⁵	gape / open mouth	gape / open mouth	v.	v.	1.3.1	3.7.15	0			
+80642	309	Bai (Jianchuan)	tɕui³³ kæ⁵⁵	tɕui³³ kæ⁵⁵	gape / open mouth	gape / open mouth	v.	v.	1.3.1	3.7.15	0			442,273
+80643	309	Bai (Jianchuan)	kʰo³³ pæ⁵⁵ kʰe⁵⁵ «tsʰɯ⁵⁵»	kʰo³³ pæ⁵⁵ kʰe⁵⁵ «tsʰɯ⁵⁵»	gape / open mouth	gape / open mouth	v.	v.	1.3.1	3.7.15	0			
+80644	309	Bai (Jianchuan)	tɕʰi³¹ xo⁵⁵ ji³¹	tɕʰi³¹ xo⁵⁵ ji³¹	yawn	yawn	v.	v.	1.3.1.3	3.7.16	0			m,m,m
+80645	309	Bai (Jianchuan)	tse̱⁴² pʰĩ³¹	tse̱⁴² pʰĩ³¹	tongue	tongue			1.3.3	3.8	0			621,m
+80646	309	Bai (Jianchuan)	sua̱⁴⁴ «tõ̱²¹»	sua̱⁴⁴ «tõ̱²¹»	speak	speak	v.	v.	8.5.10.1	3.8.1	0			1755,m
+80647	309	Bai (Jianchuan)	tɕã³¹ «ɕi⁵⁵ ɣo̱⁴²»	tɕã³¹ «ɕi⁵⁵ ɣo̱⁴²»	speak	speak	v.	v.	8.5.10.1	3.8.1	0			
+80648	309	Bai (Jianchuan)	kɯ̱⁴² tse̱⁴²	kɯ̱⁴² tse̱⁴²	stutter / stammer	stutter / stammer			8.5.4.5	3.8.2	0			
+80649	309	Bai (Jianchuan)	ɣa35	ɣa35	mute / dumb	mute / dumb			1.5.3.2	3.8.3	0			1752
+80651	309	Bai (Jianchuan)	tsɿ³³	tsɿ³³	lick	lick	v.	v.	1.3.3.1	3.8.4	0			629
+80654	309	Bai (Jianchuan)	ɣæ³³ tɕui³³ pe̱²¹ «jo̱²¹»	ɣæ³³ tɕui³³ pe̱²¹ «jo̱²¹»	lower lip	lower lip				3.9.2	0			m,m,m,m
+80655	309	Bai (Jianchuan)	tɕui³³ kæ⁵⁵ kʰo³³	tɕui³³ kæ⁵⁵ kʰo³³	beak / bill	beak / bill			1.3.1.2	3.9.3	0			
+80656	309	Bai (Jianchuan)	ka̱⁴⁴ ɕi³¹	ka̱⁴⁴ ɕi³¹	smile	smile	v.	v.	1.8.8.1	3.9.4	0			
+80657	309	Bai (Jianchuan)	tɕui̱²¹	tɕui̱²¹	kiss	kiss	v.	v.	1.3.2.2	3.9.5	0			86
+80658	309	Bai (Jianchuan)	tsɿ³³ pa̱⁴⁴ kʰo³³	tsɿ³³ pa̱⁴⁴ kʰo³³	tooth	tooth			1.3.4	3.10	0			635,m,m
+80660	309	Bai (Jianchuan)	to̱⁴² ŋæ̱²¹ kʰo³³	to̱⁴² ŋæ̱²¹ kʰo³³	molar	molar			1.3.4.2	3.10.2	0			m,m,630
+80661	309	Bai (Jianchuan)	kʰuã³³ tsɿ³³ pa̱⁴⁴	kʰuã³³ tsɿ³³ pa̱⁴⁴	eyetooth / canine tooth / fang	eyetooth / canine tooth / fang			1.3.4.1	3.10.3	0			1764,635,s
+80662	309	Bai (Jianchuan)	tɕĩ⁵⁵ to̱⁴² ja̱⁴²	tɕĩ⁵⁵ to̱⁴² ja̱⁴²	tooth (wisdom)	tooth (wisdom)			1.3.4	3.10.4	0			635,m,m
+80663	309	Bai (Jianchuan)	ɯ̃³³ pa̱⁴² tsɿ³³ pa̱⁴⁴	ɯ̃³³ pa̱⁴² tsɿ³³ pa̱⁴⁴	baby tooth	baby tooth			4.2.11	3.10.5	0			
+80664	309	Bai (Jianchuan)	to̱⁴² ŋæ̱²¹ tsã̱²¹	to̱⁴² ŋæ̱²¹ tsã̱²¹	tusk	tusk			1.3.4.1	3.10.6	0			
+80665	309	Bai (Jianchuan)	ʔã̱⁴⁴	ʔã̱⁴⁴	bite	bite	v.	v.	1.3.4.4	3.10.7	0			
+80666	309	Bai (Jianchuan)	kʰã⁵⁵	kʰã⁵⁵	bite	bite	v.	v.	1.3.4.4	3.10.7	0			
+80667	309	Bai (Jianchuan)	tso̱⁴²	tso̱⁴²	chew	chew	v.	v.	1.3.4	3.10.8	0			
+80668	309	Bai (Jianchuan)	tɕui³³ pa̱⁴² «fv̩³³»	tɕui³³ pa̱⁴² «fv̩³³»	cheek	cheek			1.2.5.2	3.11	0			2037,268,m
+80669	309	Bai (Jianchuan)	mĩ̱⁴² tɯ̃⁵⁵ kʰui⁵⁵	mĩ̱⁴² tɯ̃⁵⁵ kʰui⁵⁵	cheekbone	cheekbone			1.2.5.2	3.11.1	0			m,280,m
+80673	309	Bai (Jianchuan)	ɣæ³³ jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴	ɣæ³³ jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴	lower jaw / mandible	lower jaw / mandible			1.2.5.2	3.13.1	0			m,m,m,m
+80674	309	Bai (Jianchuan)	tõ³³ jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴	tõ³³ jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴	upper jaw / maxilla	upper jaw / maxilla			1.2.5.2	3.13.2	0			
+80675	309	Bai (Jianchuan)	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴²	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴²	neck / throat	neck / throat			1.4.2	4.0	0			3361,479,m
+80676	309	Bai (Jianchuan)	ku̱²¹ tsɿ³³ te̱⁴⁴	ku̱²¹ tsɿ³³ te̱⁴⁴	neck / throat	neck / throat			1.4.2	4.0	0			
+80678	309	Bai (Jianchuan)	to̱⁴² jæ̃³³ kʰo³³	to̱⁴² jæ̃³³ kʰo³³	goiter	goiter			1.4.2.2	4.1.1	0			
+80680	309	Bai (Jianchuan)	to̱⁴² ko̱⁴² tɕi⁵⁵	to̱⁴² ko̱⁴² tɕi⁵⁵	nape of neck	nape of neck			1.4.2.1	4.1.3	0			359,486,m
+80683	309	Bai (Jianchuan)	ɕĩ⁵⁵ xæ̃⁵⁵ jɯ̱̃⁴²	ɕĩ⁵⁵ xæ̃⁵⁵ jɯ̱̃⁴²	windpipe / trachea	windpipe / trachea			1.3.5.2	4.2.1	0			
+80684	309	Bai (Jianchuan)	ku̱²¹ tsɿ³³ te̱⁴⁴	ku̱²¹ tsɿ³³ te̱⁴⁴	esophagus	esophagus			1.3.5.5	4.2.2	0			
+80685	309	Bai (Jianchuan)	ʔẽ̱⁴²	ʔẽ̱⁴²	swallow	swallow	v.	v.	1.3.5.6	4.2.3	0			
+80686	309	Bai (Jianchuan)	tsʰu³¹ kʰo³³	tsʰu³¹ kʰo³³	gizzard / crop of bird	gizzard / crop of bird			1.7.6.1	4.2.4	0			1604,m
+80687	309	Bai (Jianchuan)	tsʰæ̃⁵⁵ kɯ³³	tsʰæ̃⁵⁵ kɯ³³	torso	torso			1.5.3.2	5.0	0			m,2
+80688	309	Bai (Jianchuan)	ɕĩ⁵⁵ ko⁵⁵ tɕi³³	ɕĩ⁵⁵ ko⁵⁵ tɕi³³	chest	chest			1.4.4.3	5.1	0			m,560,m
+80689	309	Bai (Jianchuan)	kua̱⁴⁴ pi⁵⁵ tsɿ³³ tɕa̱⁴⁴	kua̱⁴⁴ pi⁵⁵ tsɿ³³ tɕa̱⁴⁴	rib cage	rib cage			1.4.4.3	5.1.1	0			310,m,m,m
+80690	309	Bai (Jianchuan)	kua̱⁴⁴ pi⁵⁵ tsɿ³³	kua̱⁴⁴ pi⁵⁵ tsɿ³³	rib	rib			1.4.4.3	5.1.2	0			310,m,m
+80692	309	Bai (Jianchuan)	ʔõ̱²¹ kɯ⁵⁵ ne̱²¹	ʔõ̱²¹ kɯ⁵⁵ ne̱²¹	collar bone / clavicle	collar bone / clavicle			1.4.3.1	5.2	0			
+80693	309	Bai (Jianchuan)	po³³ tɯ̱²¹	po³³ tɯ̱²¹	shoulder	shoulder			1.4.3	5.3	0			1327,3343
+80694	309	Bai (Jianchuan)	kua̱⁴⁴ sæ³¹ pa³¹	kua̱⁴⁴ sæ³¹ pa³¹	shoulder blade / scapula	shoulder blade / scapula			1.4.3.2	5.3.1	0			3350,m,m
+80695	309	Bai (Jianchuan)	tsʰo⁵⁵ po³³ tɯ̱²¹	tsʰo⁵⁵ po³³ tɯ̱²¹	shrug shoulders	shrug shoulders	v.	v.	1.4.3.3	5.3.2	0			
+80696	309	Bai (Jianchuan)	pa̱⁴² tɕi̱⁴⁴	pa̱⁴² tɕi̱⁴⁴	breast	breast			1.4.4.3	5.4	0			3459,5541
+80697	309	Bai (Jianchuan)	pa̱⁴² tɯ̱²¹ po̱²¹	pa̱⁴² tɯ̱²¹ po̱²¹	nipple	nipple				5.4.1	0			3459,m,m
+80698	309	Bai (Jianchuan)	pa̱⁴² tu⁵⁵ tsɿ³³	pa̱⁴² tu⁵⁵ tsɿ³³	nipple	nipple				5.4.1	0			3459,m,m
+80699	309	Bai (Jianchuan)	pa̱⁴²	pa̱⁴²	udder	udder				5.4.2	0			
+80700	309	Bai (Jianchuan)	pa̱⁴²	pa̱⁴²	milk	milk				5.4.3	0			3459
+80701	309	Bai (Jianchuan)	ɕĩ⁵⁵ pa̱⁴² tsæ̱⁴⁴	ɕĩ⁵⁵ pa̱⁴² tsæ̱⁴⁴	colostrum	colostrum				5.4.4	0			
+80702	309	Bai (Jianchuan)	tɕi̱⁴⁴	tɕi̱⁴⁴	suck	suck	v.	v.	1.3.2.1	5.4.5	0			5541
+80703	309	Bai (Jianchuan)	o⁵⁵	o⁵⁵	nurse / suckle	nurse  /  suckle	v.	v.	4.2.1.5	5.4.6	0	jbl3		3464
+80704	309	Bai (Jianchuan)	ɯ̃³³	ɯ̃³³	nurse / suckle	nurse  /  suckle	v.	v.	4.2.1.5	5.4.6	0	jbl3		3464
+80705	309	Bai (Jianchuan)	ko³³ pa̱⁴²	ko³³ pa̱⁴²	wean	wean				5.4.7	0			m,m
+80706	309	Bai (Jianchuan)	to̱⁴² ko̱⁴² tɕi⁵⁵	to̱⁴² ko̱⁴² tɕi⁵⁵	back	back			1.4.8	5.5	0			225,206,223
+80707	309	Bai (Jianchuan)	tõ³³ to̱⁴² ko̱⁴² tɕi⁵⁵	tõ³³ to̱⁴² ko̱⁴² tɕi⁵⁵	upper back	upper back			9.2.1	5.5.1	0			
+80708	309	Bai (Jianchuan)	ɣæ³³ to̱⁴² ko̱⁴² tɕi⁵⁵	ɣæ³³ to̱⁴² ko̱⁴² tɕi⁵⁵	lower back	lower back			1.4.8.1	5.5.2	0			m,m,m,m
+80709	309	Bai (Jianchuan)	ji⁵⁵ kua̱⁴⁴ to̱⁴² pe̱⁴²	ji⁵⁵ kua̱⁴⁴ to̱⁴² pe̱⁴²	small of back	small of back			1.4.8.1	5.5.3	0			m,m,m,m
+80710	309	Bai (Jianchuan)	tõ³¹ kua̱⁴⁴ ɕui³³ jɯ̱̃⁴²	tõ³¹ kua̱⁴⁴ ɕui³³ jɯ̱̃⁴²	backbone / spine	backbone / spine			1.4.8.2	5.5.4	0			225,237,m,m
+80711	309	Bai (Jianchuan)	tõ̱⁴² kua̱⁴⁴ jɯ̱̃⁴²	tõ̱⁴² kua̱⁴⁴ jɯ̱̃⁴²	spinal cord	spinal cord			1.4.8.2	5.5.5	0			
+80712	309	Bai (Jianchuan)	kõ³¹ tõ³¹	kõ³¹ tõ³¹	hunchback	hunchback			1.4.8.3	5.5.6	0			m,m
+80713	309	Bai (Jianchuan)	ji⁵⁵ kua̱⁴⁴	ji⁵⁵ kua̱⁴⁴	waist	waist			1.4.6	5.6	0			m,219
+80714	309	Bai (Jianchuan)	fv̱ˌ⁴⁴ kʰo³³	fv̱ˌ⁴⁴ kʰo³³	belly / abdomen (external bulge)	belly / abdomen (external bulge)			1.4.7	5.7	0			2103,m
+80715	309	Bai (Jianchuan)	jõ̱²¹ fv̱ˌ⁴⁴ te̱⁴⁴	jõ̱²¹ fv̱ˌ⁴⁴ te̱⁴⁴	navel	navel			1.9.4	5.7.1	0			m,2104,519
+80716	309	Bai (Jianchuan)	?	?	pelvis / pelvic girdle	pelvis / pelvic girdle			1.4.9.2	5.8	0			m
+80717	309	Bai (Jianchuan)	tõ̱²¹ ko⁵⁵ tse̱⁴⁴ ne̱²¹	tõ̱²¹ ko⁵⁵ tse̱⁴⁴ ne̱²¹	hips	hips			1.4.9.2	5.8.1	0			225,219,m,m
+80719	309	Bai (Jianchuan)	kʰæ⁵⁵ fv̩³³	kʰæ⁵⁵ fv̩³³	haunches (of animal)	haunches (of animal)			1.4.9.2	5.8.3	0			
+80720	309	Bai (Jianchuan)	kʰuæ³¹ kã̱⁴²	kʰuæ³¹ kã̱⁴²	crotch / fork of legs	crotch / fork of legs			1.4.9.1	5.9	0			1278,m
+80721	309	Bai (Jianchuan)	lɯ̱⁴⁴ ua̱⁴²	lɯ̱⁴⁴ ua̱⁴²	swollen lymph nodes (of groin)	swollen lymph nodes (of groin)			1.1.5.2	5.9.1	0			m,m
+80722	309	Bai (Jianchuan)	kʰæ⁵⁵ fv̩³³	kʰæ⁵⁵ fv̩³³	rump	rump			1.4.10	5.10	0			
+80723	309	Bai (Jianchuan)	kʰæ⁵⁵ fv̩³³	kʰæ⁵⁵ fv̩³³	buttocks	buttocks			1.4.10	5.10.1	0			
+80724	309	Bai (Jianchuan)	ŋv̩³³ tṽ̩⁵⁵ tɕĩ⁵⁵ ne̱²¹	ŋv̩³³ tṽ̩⁵⁵ tɕĩ⁵⁵ ne̱²¹	tailbone / coccyx	tailbone / coccyx			1.6.3.3	5.10.2	0			
+80725	309	Bai (Jianchuan)	xu³¹ ve³¹ ne̱²¹ (?)	xu³¹ ve³¹ ne̱²¹ (?)	tailbone / coccyx	tailbone / coccyx			1.6.3.3	5.10.2	0			
+80726	309	Bai (Jianchuan)	ŋv̩³³ tṽ̩⁵⁵	ŋv̩³³ tṽ̩⁵⁵	tail	tail			1.4.10.1	5.10.3	0			1288,5639
+80727	309	Bai (Jianchuan)	sɯ³³ ko̱⁴⁴	sɯ³³ ko̱⁴⁴	limbs	limbs			1.5.3.1	6.0	0			
+80728	309	Bai (Jianchuan)	sɯ³³ kua̱⁴⁴ tsɿ³³	sɯ³³ kua̱⁴⁴ tsɿ³³	arm	arm			1.5.1.2	6.1	0			
+80729	309	Bai (Jianchuan)	jõ̱²¹ mo³³ tɕi³³	jõ̱²¹ mo³³ tɕi³³	underarm / armpit	underarm / armpit			1.5.1.2.3	6.1.1	0			
+80730	309	Bai (Jianchuan)	kʰɯ³¹ tɯ³¹ ti⁵⁵	kʰɯ³¹ tɯ³¹ ti⁵⁵	tickle	tickle	v.	v.	1.5.1.2.4	6.1.1.1	0			
+80731	309	Bai (Jianchuan)	sɯ³³ pã³¹ tsɿ³³	sɯ³³ pã³¹ tsɿ³³	upper arm	upper arm			1.5.1.2.1	6.1.2	0			
+80732	309	Bai (Jianchuan)	sɯ³³ pã³¹ tsɿ³³ kæ̱²¹	sɯ³³ pã³¹ tsɿ³³ kæ̱²¹	arm muscles / biceps	arm muscles / biceps			1.5.1.2	6.1.3	0			
+80733	309	Bai (Jianchuan)	sɯ³³ kuæ³¹ tsɿ³³	sɯ³³ kuæ³¹ tsɿ³³	elbow	elbow			1.5.8.3	6.1.4	0			731,m,m
+80734	309	Bai (Jianchuan)	sɯ³³ kuæ³¹ tsɿ³³	sɯ³³ kuæ³¹ tsɿ³³	elbow bone	elbow bone			1.5.8.3	6.1.4.1	0			731,m,m
+80735	309	Bai (Jianchuan)	sɯ³³ kʰv̱ˌ⁴⁴ tsɿ³³	sɯ³³ kʰv̱ˌ⁴⁴ tsɿ³³	inner elbow / crook of elbow	inner elbow / crook of elbow			1.5.8.3	6.1.4.2	0			731,m,m
+80736	309	Bai (Jianchuan)	sɯ³³ kua̱⁴⁴ tsɿ³³	sɯ³³ kua̱⁴⁴ tsɿ³³	forearm / lower arm	forearm / lower arm			1.5.1.2.2	6.1.5	0			
+80737	309	Bai (Jianchuan)	sɯ³³ tsʰuæ̱̃⁴⁴ tsɿ³³	sɯ³³ tsʰuæ̱̃⁴⁴ tsɿ³³	wrist	wrist			1.5.8.1	6.1.6	0			
+80738	309	Bai (Jianchuan)	sɯ³³	sɯ³³	hand	hand			1.5.1.1	6.1.7	0			731
+80739	309	Bai (Jianchuan)	sɯ³³ tɕi³³ ɕĩ⁵⁵	sɯ³³ tɕi³³ ɕĩ⁵⁵	palm	palm			1.5.5	6.1.7.1	0			
+80740	309	Bai (Jianchuan)	sɯ³³ to̱⁴² pe̱⁴²	sɯ³³ to̱⁴² pe̱⁴²	back of hand	back of hand			1.5.1.1.2	6.1.7.2	0			731,m,m
+80741	309	Bai (Jianchuan)	sɯ³³ tɕʰuĩ⁵⁵ tʰo⁵⁵	sɯ³³ tɕʰuĩ⁵⁵ tʰo⁵⁵	fist	fist			1.5.1.1.1	6.1.7.3	0			
+80742	309	Bai (Jianchuan)	tsæ̱⁴² sɯ³³	tsæ̱⁴² sɯ³³	right hand	right hand			1.5.3.2	6.1.7.4	0			
+80743	309	Bai (Jianchuan)	pi⁵⁵ sɯ³³	pi⁵⁵ sɯ³³	left hand	left hand			1.5.3.2	6.1.7.5	0			
+80744	309	Bai (Jianchuan)	ji̱⁴⁴ kʰv̩⁵⁵	ji̱⁴⁴ kʰv̩⁵⁵	wing	wing			1.5.1.3	6.1.9	0			R,240
+80745	309	Bai (Jianchuan)	tsua³¹ tsɿ³³	tsua³¹ tsɿ³³	paw	paw			1.5.4	6.1.10	0		D1	
+80746	309	Bai (Jianchuan)	kʰuæ³¹ pi⁵⁵ pʰo̱⁴⁴	kʰuæ³¹ pi⁵⁵ pʰo̱⁴⁴	leg	leg			1.5.7	6.2	0			
+80747	309	Bai (Jianchuan)	kʰuæ³¹ pi⁵⁵	kʰuæ³¹ pi⁵⁵	thigh	thigh			1.5.7.1	6.2.1	0			2326,1361
+80748	309	Bai (Jianchuan)	kʰuæ³¹ pi⁵⁵ kua̱⁴⁴ tɯ̱²¹	kʰuæ³¹ pi⁵⁵ kua̱⁴⁴ tɯ̱²¹	thigh bone / femur	thigh bone / femur			1.5.7.1	6.2.1.1	0			237,m,m,m
+80749	309	Bai (Jianchuan)	ko̱⁴⁴ tɕĩ⁵⁵	ko̱⁴⁴ tɕĩ⁵⁵	hamstring	hamstring			1.6.6.2	6.2.1.2	0			
+80750	309	Bai (Jianchuan)	kʰuæ³¹ tsɿ³³ te̱⁴⁴	kʰuæ³¹ tsɿ³³ te̱⁴⁴	knee	knee			1.5.8.4	6.2.2	0			237,m,m
+80751	309	Bai (Jianchuan)	kʰuæ³¹ tsɿ³³ te̱⁴⁴ kʰo³³	kʰuæ³¹ tsɿ³³ te̱⁴⁴ kʰo³³	knee cap / patella	knee cap / patella			1.5.8.4	6.2.2.1	0			237,m,m,m
+80753	309	Bai (Jianchuan)	kæ̱²¹ kæ⁵⁵ tsɿ³³	kæ̱²¹ kæ⁵⁵ tsɿ³³	shin / tibia	shin / tibia			1.5.7.2	6.2.3	0			
+80754	309	Bai (Jianchuan)	kæ̱²¹ kæ⁵⁵ tsɿ³³	kæ̱²¹ kæ⁵⁵ tsɿ³³	shin bone	shin bone			1.5.7.2	6.2.3.1	0			
+80755	309	Bai (Jianchuan)	tɕo̱²¹ pa̱⁴² tsɿ³³	tɕo̱²¹ pa̱⁴² tsɿ³³	calf	calf			1.5.7	6.2.4	0			
+80756	309	Bai (Jianchuan)	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	ankle	ankle			1.5.8.2	6.2.5	0			
+80757	309	Bai (Jianchuan)	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³ kʰo³³	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³ kʰo³³	ankle bone	ankle bone			1.5.8.2	6.2.5.1	0			
+80758	309	Bai (Jianchuan)	ko̱⁴⁴	ko̱⁴⁴	foot	foot			1.5.2	6.2.6	0			
+80759	309	Bai (Jianchuan)	ko̱⁴⁴ tsv̱ˌ⁴² te̱⁴⁴	ko̱⁴⁴ tsv̱ˌ⁴² te̱⁴⁴	heel	heel			1.5.2.1	6.2.6.1	0			
+80761	309	Bai (Jianchuan)	ko̱⁴⁴ to̱⁴² pe̱⁴²	ko̱⁴⁴ to̱⁴² pe̱⁴²	arch	arch			1.5.2.3	6.2.6.3	0			
+80762	309	Bai (Jianchuan)	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	ball of the foot	ball of the foot			9.7.1	6.2.6.4	0			
+80763	309	Bai (Jianchuan)	ko̱⁴⁴ tɕi³³ ɕĩ⁵⁵ ne̱²¹	ko̱⁴⁴ tɕi³³ ɕĩ⁵⁵ ne̱²¹	sole	sole			1.5.5	6.2.6.5	0			
+80764	309	Bai (Jianchuan)	ko̱⁴⁴ to̱⁴² pe̱⁴²	ko̱⁴⁴ to̱⁴² pe̱⁴²	instep	instep			1.5.2.2	6.2.6.6	0			
+80765	309	Bai (Jianchuan)	ko̱⁴⁴ tsṽ̩⁵⁵	ko̱⁴⁴ tsṽ̩⁵⁵	footprint	footprint			1.5.2.5	6.2.6.7	0			
+80766	309	Bai (Jianchuan)	pã̱²¹	pã̱²¹	hoof	hoof			1.5.4	6.2.6.8	0			
+80767	309	Bai (Jianchuan)	tsua³¹ tsɿ³³	tsua³¹ tsɿ³³	paw	paw			1.5.4	6.2.6.9	0	jbl5	HIDE	DUPE IN SOURCE
+80768	309	Bai (Jianchuan)	kʰe̱⁴⁴ ko̱⁴⁴	kʰe̱⁴⁴ ko̱⁴⁴	crippled / lame	crippled / lame			4.2.7	6.2.7	0			
+80769	309	Bai (Jianchuan)	ko̱⁴⁴ kʰe̱⁴⁴	ko̱⁴⁴ kʰe̱⁴⁴	limp	limp	v.	v.	1.5.12	6.2.8	0			
+80770	309	Bai (Jianchuan)	sɯ³³ tɯ̱²¹ ko̱⁴⁴ tɯ̱²¹	sɯ³³ tɯ̱²¹ ko̱⁴⁴ tɯ̱²¹	digit	digit			1.5.6	7.0	0			
+80771	309	Bai (Jianchuan)	sɯ³³ tɯ̱²¹ tsɿ³³	sɯ³³ tɯ̱²¹ tsɿ³³	finger	finger			1.5.6	7.1	0			
+80773	309	Bai (Jianchuan)	ʔṽ̩⁵⁵ ɕĩ⁵⁵ mĩ̱⁴² kʰo³³	ʔṽ̩⁵⁵ ɕĩ⁵⁵ mĩ̱⁴² kʰo³³	middle finger	middle finger			1.9.4	7.1.2	0			
+80776	309	Bai (Jianchuan)	sɯ³³ tɯ̱²¹ mo³³ kʰo³³	sɯ³³ tɯ̱²¹ mo³³ kʰo³³	thumb	thumb			1.5.6.1	7.1.5	0			m,m,1619
+80778	309	Bai (Jianchuan)	ko̱⁴⁴ sɯ³³ tɯ̱²¹ tsɿ³³	ko̱⁴⁴ sɯ³³ tɯ̱²¹ tsɿ³³	toe	toe			1.5.6	7.2	0			
+80779	309	Bai (Jianchuan)	ko̱⁴⁴ sɯ³³ tɯ̱²¹ mo³³	ko̱⁴⁴ sɯ³³ tɯ̱²¹ mo³³	big toe	big toe			1.5.6.1	7.2.1	0			
+80780	309	Bai (Jianchuan)	ti³¹ sɿ³¹ kʰo³³	ti³¹ sɿ³¹ kʰo³³	second toe	second toe			9.9	7.2.2	0			
+80781	309	Bai (Jianchuan)	ʔṽ̩⁵⁵ ɕĩ⁵⁵ mĩ̱⁴² kʰo³³	ʔṽ̩⁵⁵ ɕĩ⁵⁵ mĩ̱⁴² kʰo³³	middle toe	middle toe			1.9.4	7.2.3	0			
+80782	309	Bai (Jianchuan)	ti³¹ ɕi̱⁴⁴ kʰo³³	ti³¹ ɕi̱⁴⁴ kʰo³³	fourth toe	fourth toe			9.9	7.2.4	0			
+80784	309	Bai (Jianchuan)	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	ko̱⁴⁴ tse̱⁴⁴ tsɿ³³	knuckle (joint of digit)	knuckle (joint of digit)			1.5.8.5	7.3	0			
+80785	309	Bai (Jianchuan)	kæ̱⁴⁴	kæ̱⁴⁴	nail	nail			1.5.10	7.4	0			
+80786	309	Bai (Jianchuan)	sɯ³³ tɯ̱²¹ kæ̱⁴⁴	sɯ³³ tɯ̱²¹ kæ̱⁴⁴	fingernail	fingernail			1.5.10.1	7.4.1	0			
+80787	309	Bai (Jianchuan)	ko̱⁴⁴ tɯ̱²¹ kæ̱⁴⁴	ko̱⁴⁴ tɯ̱²¹ kæ̱⁴⁴	toenail	toenail			1.5.10.2	7.4.2	0			
+80788	309	Bai (Jianchuan)	tsua³¹ tsɿ³³	tsua³¹ tsɿ³³	claw	claw			1.5.10.4	7.4.3	0			
+80789	309	Bai (Jianchuan)	tsua³¹ tsɿ³³	tsua³¹ tsɿ³³	talon	talon			1.5.10.4	7.4.4	0			
+80790	309	Bai (Jianchuan)	kæ̱⁴²	kæ̱⁴²	pincers	pincers			1.5.10.4	7.4.5	0			
+80791	309	Bai (Jianchuan)	ma̱²¹	ma̱²¹	hair (general)	hair (general)			1.2.3	8.1	0			363
+80792	309	Bai (Jianchuan)	tɯ̱²¹ ma⁵⁵	tɯ̱²¹ ma⁵⁵	hair of head	hair of head			1.2.3	8.1.1	0	jbl5	HIDE	DUPE IN SOURCE
+80793	309	Bai (Jianchuan)	tɯ̱²¹ ma⁵⁵ kʰv̩³¹	tɯ̱²¹ ma⁵⁵ kʰv̩³¹	cowlick	cowlick			1.2.3.1	8.1.1.1	0			m,363,m
+80794	309	Bai (Jianchuan)	kʰuã³³ ma̱²¹ tsɿ³³	kʰuã³³ ma̱²¹ tsɿ³³	body hair	body hair			1.6.1	8.1.2	0	jbl5	HIDE	DUPE IN SOURCE
+80795	309	Bai (Jianchuan)	ɣu̱²¹	ɣu̱²¹	beard	beard			1.2.5.5	8.1.2.1	0			2065
+80796	309	Bai (Jianchuan)	ɣu̱²¹ fe̱⁴⁴	ɣu̱²¹ fe̱⁴⁴	goatee	goatee			1.2.5.5	8.1.2.2	0			2065
+80797	309	Bai (Jianchuan)	ɣu̱²¹ tsɿ³³ fe̱⁴⁴	ɣu̱²¹ tsɿ³³ fe̱⁴⁴	moustache	moustache			1.2.5.5	8.1.2.3	0			2065,m,m
+80798	309	Bai (Jianchuan)	kʰuã³³ ma̱²¹ tsɿ³³	kʰuã³³ ma̱²¹ tsɿ³³	body hair	body hair			1.6.1	8.1.3	0	jbl5	HIDE	DUPE IN SOURCE
+80800	309	Bai (Jianchuan)	kʰuã³³ ma̱²¹ tsɿ³³	kʰuã³³ ma̱²¹ tsɿ³³	body hair	body hair			1.6.1	8.1.3.2	0	jbl5	HIDE	DUPE IN SOURCE
+80801	309	Bai (Jianchuan)	kʰuã³³ ma̱²¹ tsɿ³³	kʰuã³³ ma̱²¹ tsɿ³³	body hair	body hair			1.6.1	8.1.3.3	0		D1	m,363,1232
+80802	309	Bai (Jianchuan)	ma̱²¹	ma̱²¹	fur (of animal)	fur (of animal)			1.6.1	8.1.4	0			363
+80803	309	Bai (Jianchuan)	ma̱²¹	ma̱²¹	feather (of bird)	feather (of bird)			1.6.1.1	8.1.5	0			363
+80804	309	Bai (Jianchuan)	ɕa̱⁴⁴	ɕa̱⁴⁴	mane (of horse, lion)	mane (of horse, lion)			1.6.1	8.1.6	0			m
+80805	309	Bai (Jianchuan)	ɣu̱²¹ te̱⁴⁴ tsɿ³³	ɣu̱²¹ te̱⁴⁴ tsɿ³³	whiskers (of animal)	whiskers (of animal)			1.2.5.5	8.1.7	0			2065,m,m
+80806	309	Bai (Jianchuan)	pe̱²¹	pe̱²¹	skin	skin			1.6.5	8.2	0			590
+80807	309	Bai (Jianchuan)	ɣã̱²¹	ɣã̱²¹	sweat / perspiration	sweat / perspiration			1.8.1	8.2.1	0			m,bChinese
+80809	309	Bai (Jianchuan)	xɯ̱⁴⁴ tĩ³³ tsɿ³³	xɯ̱⁴⁴ tĩ³³ tsɿ³³	blemish on skin	blemish on skin			1.6.5	8.2.3	0			
+80810	309	Bai (Jianchuan)	pio³³ lu⁵⁵ sẽ̱⁴² tsɿ³³	pio³³ lu⁵⁵ sẽ̱⁴² tsɿ³³	freckle	freckle			1.6.5.3	8.2.3.1	0			
+80812	309	Bai (Jianchuan)	sɯ̱⁴⁴ ɕɯ̱⁴²	sɯ̱⁴⁴ ɕɯ̱⁴²	mole	mole			2.2.7	8.2.3.3	0			
+80813	309	Bai (Jianchuan)	sɿ⁵⁵ kʰo³³	sɿ⁵⁵ kʰo³³	wart	wart			1.6.5.3	8.2.3.4	0			
+80814	309	Bai (Jianchuan)	tʰɯ³¹ kʰo³³	tʰɯ³¹ kʰo³³	cyst	cyst			1.6.5.3	8.2.3.5	0			
+80815	309	Bai (Jianchuan)	tsæ̱̃⁴² tsɿ³³	tsæ̱̃⁴² tsɿ³³	age spot / liver spot	age spot / liver spot			6.2	8.2.3.6	0			
+80816	309	Bai (Jianchuan)	pa³³	pa³³	scar	scar			1.6.5.3	8.2.3.7	0			
+80817	309	Bai (Jianchuan)	ku³³ pʰio⁵⁵	ku³³ pʰio⁵⁵	wrinkle	wrinkle			9.6.2	8.2.3.8	0			
+80818	309	Bai (Jianchuan)	sɿ⁵⁵ li³¹ tɕi³¹	sɿ⁵⁵ li³¹ tɕi³¹	rash	rash			1.6.5.3	8.2.3.9	0			
+80819	309	Bai (Jianchuan)	jõ³³	jõ³³	itch / be itchy	itch  / be itchy	v.	v.	1.6.5.5	8.2.3.10	0	jbl3		m
+80820	309	Bai (Jianchuan)	kæ̱⁴⁴	kæ̱⁴⁴	scab	scab			1.6.5.3	8.2.4	0			
+80821	309	Bai (Jianchuan)	kæ̱⁴⁴	kæ̱⁴⁴	scales (of fish)	scales (of fish)			1.6.5.2	8.2.5	0			
+80824	309	Bai (Jianchuan)	tsɿ⁵⁵	tsɿ⁵⁵	fat	fat			1.6.4	8.3	0			48
+80825	309	Bai (Jianchuan)	fæ̱⁴⁴ kæ̱²¹	fæ̱⁴⁴ kæ̱²¹	fat	fat			1.6.4	8.3	0			b,1440
+80826	309	Bai (Jianchuan)	tsɿ⁵⁵ xo⁵⁵	tsɿ⁵⁵ xo⁵⁵	fat around intestines / omentum	fat around intestines / omentum			1.6.4	8.3.1	0			48,m
+80827	309	Bai (Jianchuan)	tsɿ⁵⁵	tsɿ⁵⁵	oil / grease (for cooking)	oil / grease (for cooking)			1.6.4.1	8.3.2	0			48
+80828	309	Bai (Jianchuan)	kua̱⁴⁴ tɯ̱²¹	kua̱⁴⁴ tɯ̱²¹	bone	bone			1.6.3	8.4	0			237,m
+80829	309	Bai (Jianchuan)	kua̱⁴⁴ tɯ̱²¹ tɕa̱⁴⁴	kua̱⁴⁴ tɯ̱²¹ tɕa̱⁴⁴	skeleton	skeleton			1.6.3.1	8.4.1	0			237,m,m
+80831	309	Bai (Jianchuan)	kua̱⁴⁴ ɕuĩ³³	kua̱⁴⁴ ɕuĩ³³	marrow	marrow			1.6.3.5	8.4.3	0		D1	237,b
+80832	309	Bai (Jianchuan)	tsʰui⁵⁵ ku35 tsɿ³³	tsʰui⁵⁵ ku35 tsɿ³³	cartilage / grist	cartilage / grist			1.6.3.4	8.4.4	0			m,m,m
+80833	309	Bai (Jianchuan)	pæ̃³¹ tɕĩ⁵⁵	pæ̃³¹ tɕĩ⁵⁵	sinew / tendon (muscle to bone)	sinew / tendon (muscle to bone)			1.6.6.1	8.5	0			m,372
+80834	309	Bai (Jianchuan)	tɕĩ⁵⁵ mĩ̱⁴² tɕĩ⁵⁵ ɣɯ³³	tɕĩ⁵⁵ mĩ̱⁴² tɕĩ⁵⁵ ɣɯ³³	ligament (bone to bone)	ligament (bone to bone)			1.6.3	8.6	0			372,m,372,232
+80835	309	Bai (Jianchuan)	sua̱⁴⁴	sua̱⁴⁴	blood	blood			1.6.2	8.7	0			230
+80836	309	Bai (Jianchuan)	sua̱⁴⁴ mæ̱⁴⁴	sua̱⁴⁴ mæ̱⁴⁴	blood vessel / vein / artery	blood vessel / vein / artery			1.6.2.1	8.7.1	0			230,m
+80837	309	Bai (Jianchuan)	kɯ̱²¹ sua̱⁴⁴	kɯ̱²¹ sua̱⁴⁴	bleed	bleed	v.	v.	1.6.2	8.7.2	0			p,230
+80838	309	Bai (Jianchuan)	kæ̱²¹	kæ̱²¹	muscle	muscle			1.6.6.2	8.8	0			m
+80839	309	Bai (Jianchuan)	sɯ³³ tse̱⁴⁴ ko̱⁴⁴ tse̱⁴⁴	sɯ³³ tse̱⁴⁴ ko̱⁴⁴ tse̱⁴⁴	joint	joint			1.5.8	8.9	0			
+80840	309	Bai (Jianchuan)	tɕĩ⁵⁵ tɕĩ⁵⁵ mæ̱⁴⁴ mæ̱⁴⁴	tɕĩ⁵⁵ tɕĩ⁵⁵ mæ̱⁴⁴ mæ̱⁴⁴	nerve	nerve			1.6.6.3	8.10	0			372,372,m,m
+80842	309	Bai (Jianchuan)	nõ³³ kʰv̩³¹	nõ³³ kʰv̩³¹	brain	brain			1.2.4	9.1	0			243,m
+80843	309	Bai (Jianchuan)	tõ³¹ kua̱⁴⁴ jɯ̱̃⁴²	tõ³¹ kua̱⁴⁴ jɯ̱̃⁴²	spinal cord	spinal cord			1.4.8.2	9.1.1	0			
+80844	309	Bai (Jianchuan)	kua̱⁴⁴ ɕuĩ³³	kua̱⁴⁴ ɕuĩ³³	marrow	marrow			1.6.3.5	9.1.2	0	jbl5	HIDE	DUPE IN SOURCE
+80845	309	Bai (Jianchuan)	pʰia̱⁴⁴	pʰia̱⁴⁴	lung	lung			1.7.2	9.2	0			m
+80846	309	Bai (Jianchuan)	tsʰṽ̩³¹ tɕʰi̱⁴⁴	tsʰṽ̩³¹ tɕʰi̱⁴⁴	breathe	breathe	v.	v.	1.1.2.2	9.2.1	0			
+80847	309	Bai (Jianchuan)	tsʰo⁵⁵	tsʰo⁵⁵	pant	pant	v.	v.	1.1.2.2	9.2.2	0			
+80848	309	Bai (Jianchuan)	pʰɯ⁵⁵	pʰɯ⁵⁵	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			75
+80849	309	Bai (Jianchuan)	ka³¹	ka³¹	gill (of fish)	gill (of fish)			1.3.5.3	9.2.4	0			
+80850	309	Bai (Jianchuan)	tã̱²¹	tã̱²¹	phlegm	phlegm			1.8.3	9.2.5	0			m
+80851	309	Bai (Jianchuan)	ɕĩ⁵⁵	ɕĩ⁵⁵	heart	heart			1.7.1	9.3	0			66
+80852	309	Bai (Jianchuan)	ɕĩ⁵⁵ tɕʰuæ̱⁴⁴	ɕĩ⁵⁵ tɕʰuæ̱⁴⁴	heartbeat	heartbeat			1.7.1.1	9.3.1	0			66,m
+80853	309	Bai (Jianchuan)	mæ̱⁴⁴	mæ̱⁴⁴	pulse	pulse			1.7.1.1	9.3.2	0			1384
+80855	309	Bai (Jianchuan)	kã⁵⁵	kã⁵⁵	liver	liver			1.7.3	9.5	0			229,bChinese
+80856	309	Bai (Jianchuan)	tã³³ ɕui³³	tã³³ ɕui³³	bile	bile			1.7.3.1	9.5.1	0			bChinese,189
+80857	309	Bai (Jianchuan)	pʰæ⁵⁵ ʔu³³	pʰæ⁵⁵ ʔu³³	gall bladder	gall bladder			1.7.3	9.5.2	0			m,m
+80858	309	Bai (Jianchuan)	jao⁵⁵ tsɿ³³	jao⁵⁵ tsɿ³³	kidney	kidney			1.7.5	9.6	0			b
+80859	309	Bai (Jianchuan)	pʰæ⁵⁵ ʔu³³	pʰæ⁵⁵ ʔu³³	urinary bladder	urinary bladder			1.7.8	9.7	0			
+80860	309	Bai (Jianchuan)	so³¹	so³¹	urine	urine			1.8.4	9.7.1	0			2795
+80861	309	Bai (Jianchuan)	sɿ⁵⁵ kʰv̩³¹	sɿ⁵⁵ kʰv̩³¹	urinate	urinate	v.	v.	1.5.3.2	9.7.2	0			650,m
+80862	309	Bai (Jianchuan)	piɯ̱²¹ «jɯ̱̃⁴²»	pi|ɯ̱²¹ |«jɯ̱̃⁴²»	spleen	spleen			1.7.4	9.8	0			91,m
+80863	309	Bai (Jianchuan)	piɯ̱²¹ jɯ̱̃⁴² tsʰæ̃⁵⁵	piɯ̱²¹ jɯ̱̃⁴² tsʰæ̃⁵⁵	swollen spleen (illness)	swollen spleen (illness)			1.1.5.2	9.8.1	0			91,m,m
+80864	309	Bai (Jianchuan)	ji⁵⁵ tsɿ³³	ji⁵⁵ tsɿ³³	pancreas	pancreas			1.7.7	9.9	0			b
+80865	309	Bai (Jianchuan)	vu̱⁴²	vu̱⁴²	stomach	stomach			1.7.6	9.10	0			2102
+80866	309	Bai (Jianchuan)	tsõ̱²¹	tsõ̱²¹	intestines / bowels	intestines / bowels			1.7.7	9.11	0			m
+80867	309	Bai (Jianchuan)	to̱⁴² tsõ̱²¹	to̱⁴² tsõ̱²¹	large intestine	large intestine			1.7.7	9.11.1	0			
+80868	309	Bai (Jianchuan)	se³¹ tsõ̱²¹	se³¹ tsõ̱²¹	small intestine	small intestine			9.7.2	9.11.2	0			m,m
+80869	309	Bai (Jianchuan)	ma̱⁴² tsʰã̱⁴²	ma̱⁴² tsʰã̱⁴²	appendix	appendix			1.7.7	9.11.3	0			m,m
+80870	309	Bai (Jianchuan)	kʰæ⁵⁵ fv̩³³ ti⁵⁵ ʔuĩ³³	kʰæ⁵⁵ fv̩³³ ti⁵⁵ ʔuĩ³³	anus / rectum	anus / rectum			1.4.10.2	9.12	0			572,m,m,m
+80871	309	Bai (Jianchuan)	sɿ³³ so³¹	sɿ³³ so³¹	feces / shit	feces / shit			1.8.5	9.12.1	0			m,m
+80872	309	Bai (Jianchuan)	sɿ³³ so³¹	sɿ³³ so³¹	meconium / baby shit	meconium / baby shit			1.8.5	9.12.2	0			
+80873	309	Bai (Jianchuan)	tʰṽ̩⁵⁵ fv̱ˌ⁴⁴	tʰṽ̩⁵⁵ fv̱ˌ⁴⁴	defecate	defecate	v.	v.	1.8.5.4	9.12.3	0			
+80874	309	Bai (Jianchuan)	ʔuĩ⁵⁵ tsʰv̩³¹	ʔuĩ⁵⁵ tsʰv̩³¹	genitalia / pudenda (general)	genitalia / pudenda (general)			1.9.1	10.1	0			m,m
+80875	309	Bai (Jianchuan)	jæ̱̃⁴⁴	jæ̱̃⁴⁴	copulate	copulate	v.	v.	1.9.1.1	10.2	0			3475
+80876	309	Bai (Jianchuan)	tsɿ³³ jĩ̱²¹	tsɿ³³ jĩ̱²¹	male	male			1.9.6.1	10.3	0			m,m
+80877	309	Bai (Jianchuan)	tu³³	tu³³	penis	penis				10.3.1	0			3420
+80878	309	Bai (Jianchuan)	tu³³ tɯ̱²¹ po̱²¹ kʰo³³	tu³³ tɯ̱²¹ po̱²¹ kʰo³³	glans penis	glans penis				10.3.2	0			3420,m,m,386
+80879	309	Bai (Jianchuan)	tu³³ tɯ̱²¹ po̱²¹ pe̱²¹	tu³³ tɯ̱²¹ po̱²¹ pe̱²¹	foreskin	foreskin				10.3.3	0			
+80880	309	Bai (Jianchuan)	kuã³³ lõ̱²¹	kuã³³ lõ̱²¹	scrotum	scrotum				10.3.4	0			305,3471
+80881	309	Bai (Jianchuan)	kuã³³	kuã³³	testicle	testicle				10.3.5	0			305
+80882	309	Bai (Jianchuan)	tu³³ ma̱²¹ tsɿ³³	tu³³ ma̱²¹ tsɿ³³	male pubic hair	male pubic hair				10.3.6	0			m,363,1232
+80883	309	Bai (Jianchuan)	sõ̱⁴²	sõ̱⁴²	semen	semen				10.3.7	0			
+80884	309	Bai (Jianchuan)	sõ̱⁴² tsɿ³³	sõ̱⁴² tsɿ³³	semen	semen				10.3.7	0			
+80885	309	Bai (Jianchuan)	te⁵⁵ «sõ̱⁴²»	te⁵⁵ «sõ̱⁴²»	ejaculate	ejaculate	v.	v.		10.3.8	0			m,m
+80886	309	Bai (Jianchuan)	sæ̱̃⁴⁴	sæ̱̃⁴⁴	castrate	castrate	v.	v.	1.9.2.3	10.3.9	0			m
+80887	309	Bai (Jianchuan)	jṽ̩³³ jĩ̱²¹	jṽ̩³³ jĩ̱²¹	female	female			1.9.3	10.4	0			m,m
+80888	309	Bai (Jianchuan)	pi̱⁴⁴ ʔuĩ³³	pi̱⁴⁴ ʔuĩ³³	vagina	vagina				10.4.1	0			662,3429
+80889	309	Bai (Jianchuan)	pi̱⁴⁴	pi̱⁴⁴	vulva / labia	vulva / labia				10.4.2	0			662
+80890	309	Bai (Jianchuan)	?	?	hymen	hymen				10.4.3	0			
+80891	309	Bai (Jianchuan)	pi̱⁴⁴ ɕĩ⁵⁵ tɯ̱²¹	pi̱⁴⁴ ɕĩ⁵⁵ tɯ̱²¹	clitoris	clitoris				10.4.4	0			662,3431,1352
+80892	309	Bai (Jianchuan)	pi̱⁴⁴ ma̱²¹	pi̱⁴⁴ ma̱²¹	female pubic hair	female pubic hair				10.4.5	0			662,363
+80893	309	Bai (Jianchuan)	pi̱⁴⁴ ma̱²¹ tsɿ³³	pi̱⁴⁴ ma̱²¹ tsɿ³³	female pubic hair	female pubic hair				10.4.5	0			662,363,1232
+80895	309	Bai (Jianchuan)	sua̱⁴⁴	sua̱⁴⁴	menstrual blood	menstrual blood			1.9.11.1	10.4.7	0			230
+80896	309	Bai (Jianchuan)	tsɿ³³ jṽ̩³³ kʰv̩³¹	tsɿ³³ jṽ̩³³ kʰv̩³¹	womb	womb				10.4.8	0			
+80897	309	Bai (Jianchuan)	?	?	amniotic sac / bag of waters	amniotic sac / bag of waters				10.4.9	0			m
+80898	309	Bai (Jianchuan)	?	?	amniotic fluid	amniotic fluid				10.4.10	0			
+80899	309	Bai (Jianchuan)	ɯ̃³³ kʰo³³	ɯ̃³³ kʰo³³	placenta / afterbirth	placenta / afterbirth				10.4.11	0			
+80900	309	Bai (Jianchuan)	ji⁵⁵ pao⁵⁵	ji⁵⁵ pao⁵⁵	placenta / afterbirth	placenta / afterbirth				10.4.11	0			m,1733
+80901	309	Bai (Jianchuan)	jõ̱²¹ fv̱ˌ⁴⁴ te̱⁴⁴	jõ̱²¹ fv̱ˌ⁴⁴ te̱⁴⁴	umbilical cord	umbilical cord				10.4.12	0			
+80902	309	Bai (Jianchuan)	ɯ̃³³ kʰo³³	ɯ̃³³ kʰo³³	caul	caul			1.2.1.4	10.4.13	0			m,m
+80903	309	Bai (Jianchuan)	ji⁵⁵ pao⁵⁵	ji⁵⁵ pao⁵⁵	caul	caul			1.2.1.4	10.4.13	0			m,m
+80904	309	Bai (Jianchuan)	to̱⁴² fv̱ˌ⁴⁴	to̱⁴² fv̱ˌ⁴⁴	pregnant	pregnant	be v.	be v.	1.9.6.1	10.4.14	0			m,1855
+80905	309	Bai (Jianchuan)	tsɯ³³ tsɿ³³ jṽ̩³³	tsɯ³³ tsɿ³³ jṽ̩³³	pregnant	pregnant	be v.	be v.	1.9.6.1	10.4.14	0			m,m,m
+80906	309	Bai (Jianchuan)	tɕi̱⁴² xæ̃⁵⁵	tɕi̱⁴² xæ̃⁵⁵	birth, give	birth, give			1.1.2	10.4.15	0			
+80907	309	Bai (Jianchuan)	sõ³³	sõ³³	birth, give	birth, give			1.1.2	10.4.15	0			
+80908	309	Bai (Jianchuan)	sẽ̱⁴²	sẽ̱⁴²	egg (of animal)	egg (of animal)				10.4.16	0			3439
+80909	309	Bai (Jianchuan)	kʰo⁵⁵ sɯ̱̃⁴²	kʰo⁵⁵ sɯ̱̃⁴²	cough	cough			1.8.3.3	11.1	0			bChinese
+80910	309	Bai (Jianchuan)	ɯ̱²¹ pʰu³¹	ɯ̱²¹ pʰu³¹	hiccup	hiccup			1.8.3.5	11.2	0			3443,m
+80911	309	Bai (Jianchuan)	tæ̱̃⁴⁴ a⁵⁵ |tʰuɯ⁵⁵	tæ̱̃⁴⁴ a⁵⁵ tʰuɯ⁵⁵	sneeze	sneeze			1.8.2.1	11.3	0			m,2131
+80912	309	Bai (Jianchuan)	tæ̱̃⁴⁴ xu³¹ kã³¹	tæ̱̃⁴⁴ xu³¹ kã³¹	snore	snore			1.8.2.2	11.4	0			
+80913	309	Bai (Jianchuan)	pʰɯ⁵⁵ ɕui⁵⁵ ɕui⁵⁵	pʰɯ⁵⁵ ɕui⁵⁵ ɕui⁵⁵	whistle	whistle			8.5.5	11.5	0			m,m,m
+80914	309	Bai (Jianchuan)	se̱⁴⁴ ɯ⁵⁵ tɯ⁵⁵	se̱⁴⁴ ɯ⁵⁵ tɯ⁵⁵	burp / belch	burp / belch			1.8.3	11.6	0			m,3443,m
+80915	309	Bai (Jianchuan)	fv̩³¹	fv̩³¹	fart	fart			1.8.5.2	11.7	0			3553
+80916	309	Bai (Jianchuan)	ka̱⁴⁴ kʰo⁵⁵ tɕʰi̱⁴⁴	ka̱⁴⁴ kʰo⁵⁵ tɕʰi̱⁴⁴	clear throat	clear throat			9.6.1.1	11.8	0			
+80917	309	Bai (Jianchuan)	so³¹	so³¹	laugh	laugh			1.8.8.1	11.9	0			1780
+80918	309	Bai (Jianchuan)	sṽ̩³¹ ko³¹	sṽ̩³¹ ko³¹	injury and infection	injury and infection			1.1.5.1	12.0	0			
+80919	309	Bai (Jianchuan)	ju̱²¹ ta̱²¹ kʰɯ³³	ju̱²¹ ta̱²¹ kʰɯ³³	tremble / shiver / shudder	tremble / shiver / shudder			1.6.6.2.1	12.1	0			
+80920	309	Bai (Jianchuan)	ju³¹	ju³¹	tremble / shiver / shudder	tremble / shiver / shudder			1.6.6.2.1	12.1	0			
+80921	309	Bai (Jianchuan)	sṽ̩³¹	sṽ̩³¹	sick / be ill / hurt	sick / be ill / hurt	be v.	be v.	1.1.5.1	12.2	0			m
+80922	309	Bai (Jianchuan)	tɯ̱⁴⁴ pæ̃³¹	tɯ̱⁴⁴ pæ̃³¹	sick / be ill / hurt	sick / be ill / hurt	be v.	be v.	1.1.5.1	12.2	0			1846,m
+80923	309	Bai (Jianchuan)	sɯ̱̃²¹	sɯ̱̃²¹	numb / be paralyzed	numb / be paralyzed	be v.	be v.	1.5.11	12.3	0			
+80924	309	Bai (Jianchuan)	piɯ̱²¹	piɯ̱²¹	numb / be paralyzed	numb / be paralyzed	be v.	be v.	1.5.11	12.3	0			5685
+80925	309	Bai (Jianchuan)	tsʰæ̃⁵⁵	tsʰæ̃⁵⁵	swell / be swollen	swell / be swollen	v.	v.	1.1.5.2	12.4	0			
+80926	309	Bai (Jianchuan)	tsʰæ̃⁵⁵ kʰɯ³³	tsʰæ̃⁵⁵ kʰɯ³³	swell / be swollen	swell / be swollen	v.	v.	1.1.5.2	12.4	0			
+80927	309	Bai (Jianchuan)	nv̱ˌ²¹	nv̱ˌ²¹	pus	pus			1.8.6.1	12.5	0			1709
+80928	309	Bai (Jianchuan)	sṽ̩³¹ tsʰv̩³¹	sṽ̩³¹ tsʰv̩³¹	abscess / ulcer / open wound	abscess / ulcer / open wound			1.8.6.2	12.6	0			
+80929	309	Bai (Jianchuan)	a³¹ tse̱⁴⁴	a³¹ tse̱⁴⁴	phalanx (knuckle length)	phalanx (knuckle length)			1.5.8.5	13.1	0			
+80930	309	Bai (Jianchuan)	a³¹ tʰo³¹	a³¹ tʰo³¹	hand span	hand span			1.5.9.4	13.2	0			p,1281
+80931	309	Bai (Jianchuan)	tɕa̱⁴²	tɕa̱⁴²	cubit (elbow to fingers)	cubit (elbow to fingers)			1.5.9.3	13.3	0			702
+80932	309	Bai (Jianchuan)	a³¹ tɕa̱⁴²	a³¹ tɕa̱⁴²	cubit (elbow to fingers)	cubit (elbow to fingers)			1.5.9.3	13.3	0			p,702
+80935	309	Bai (Jianchuan)	a³¹ tɕa̱⁴² lõ⁵⁵	a³¹ tɕa̱⁴² lõ⁵⁵	nose to fingertip	nose to fingertip			1.2.8	13.4.1	0			
+80937	309	Bai (Jianchuan)	no³³ kʰv̩³¹	no³³ kʰv̩³¹	mind / locus of thought	mind / locus of thought			1.10	14.1	0			
+80938	309	Bai (Jianchuan)	mĩ³³ no³³	mĩ³³ no³³	mind / locus of thought	mind / locus of thought			1.10	14.1	0			
+80939	309	Bai (Jianchuan)	ɕĩ⁵⁵ kʰo³³	ɕĩ⁵⁵ kʰo³³	heart / locus of emotions	heart / locus of emotions			1.7.1	14.2	0			66,m
+80940	309	Bai (Jianchuan)	ɕĩ⁵⁵ ŋṽ̩⁵⁵	ɕĩ⁵⁵ ŋṽ̩⁵⁵	heart / locus of emotions	heart / locus of emotions			1.7.1	14.2	0			66,m
+80941	309	Bai (Jianchuan)	ɕĩ⁵⁵ ŋṽ̱ˌ⁴²	ɕĩ⁵⁵ ŋṽ̱ˌ⁴²	heart / locus of emotions	heart / locus of emotions			1.7.1	14.2	0			66,m
+145942	309	Bai (Jianchuan)	jĩ̱²¹ tsʰɔ̃⁵⁵ jĩ̱²¹ kua̱⁴⁴	jĩ̱²¹ tsʰɔ̃⁵⁵ jĩ̱²¹ kua̱⁴⁴	corpse / dead body	corpse / dead body			1.1.6.1	1.14	0			
+145943	309	Bai (Jianchuan)	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ «ne̱²¹»	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ «ne̱²¹»	nose	nose			1.2.8	3.5	0			803,809,808,m
+145944	309	Bai (Jianchuan)	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ ʔuĩ³³	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ ʔuĩ³³	nostril	nostril			1.2.8.1	3.5.2	0			803,809,808,2070
+145945	309	Bai (Jianchuan)	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ xɯ³¹ no³³ ma̱²¹ «tsɯ³¹	ŋṽ̱ˌ²¹ kʰv̱ˌ⁴⁴ tɯ̱²¹ xɯ³¹ no³³ ma̱²¹ «tsɯ³¹	nose hair	nose hair			1.2.8	3.5.4	0			803,809,808,363
+145946	309	Bai (Jianchuan)	te̱⁴² tɕui³³ kæ⁵⁵ tsu̱+²¹ «ne̱²¹»	te̱⁴² tɕui³³ kæ⁵⁵ tsu̱+²¹ «ne̱²¹»	snout	snout			1.2.8	3.5.5	0			
+145947	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ tɕĩ⁵⁵ ne̱²¹	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ tɕĩ⁵⁵ ne̱²¹	earlobe	earlobe			1.2.7.1	3.6.1	0			811,822,665,m
+145948	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ mɯ⁵⁵ ŋua̱⁴⁴ fv̩³³ no³³	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ mɯ⁵⁵ ŋua̱⁴⁴ fv̩³³ no³³	outer ear	outer ear			9.2	3.6.2	0			811,822,665
+145949	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ mɯ⁵⁵ kʰɯ³¹ fv̩³³ no³³	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ mɯ⁵⁵ kʰɯ³¹ fv̩³³ no³³	inner ear	inner ear			9.2.5	3.6.3	0			811,822,665
+145950	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ ʔuĩ³³ xɯ³¹	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ ʔuĩ³³ xɯ³¹	ear canal	ear canal			1.2.7	3.6.4	0			811,822,665,m
+145951	309	Bai (Jianchuan)	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ tɕi³³ ne̱²¹	jɯ̃³³ tɯ̱²¹ kuã⁵⁵ tɕi³³ ne̱²¹	eardrum	eardrum			1.2.7.2	3.6.5	0			811,822,665,m,m
+145952	309	Bai (Jianchuan)	jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴ «ne̱²¹»	jĩ⁵⁵ ŋṽ̩³³ kv̱ˌ⁴⁴ «ne̱²¹»	gums	gums			1.3.4.3	3.7.3	0			
+145953	309	Bai (Jianchuan)	ɕi⁵⁵ ŋṽ̱ˌ⁴⁴ tsæ̱⁴⁴ «kuĩ̱⁴²»	ɕi⁵⁵ ŋṽ̱ˌ⁴⁴ tsæ̱⁴⁴ «kuĩ̱⁴²»	saliva	saliva			1.8.3	3.7.5	0			
+145954	309	Bai (Jianchuan)	tɕʰæ̱⁴⁴ tɕʰi̱⁴⁴ no³³ ŋṽ̩³³ tã̱⁴²	tɕʰæ̱⁴⁴ tɕʰi̱⁴⁴ no³³ ŋṽ̩³³ tã̱⁴²	vomit	vomit	n.	n.	1.8.3.2	3.7.12	0			
+145955	309	Bai (Jianchuan)	ka̱²¹ jĩ̱⁴⁴ tɕui³³ «kæ⁵⁵» xɯ³¹	ka̱²¹ jĩ̱⁴⁴ tɕui³³ «kæ⁵⁵» xɯ³¹	hold in mouth	hold in mouth	v.	v.	1.3.4.4	3.7.14	0			
+145956	309	Bai (Jianchuan)	ja35 tsʰv̱ˌ⁴⁴ tsʰæ̃⁵⁵ tɕʰi̱⁴⁴	ja35 tsʰv̱ˌ⁴⁴ tsʰæ̃⁵⁵ tɕʰi̱⁴⁴	mute / dumb	mute / dumb			1.5.3.2	3.8.3	0			
+145957	309	Bai (Jianchuan)	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴² «tsv̱ˌ⁴⁴»	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴² «tsv̱ˌ⁴⁴»	neck	neck			1.4.2	4.1	0			3361,479,m,m
+145958	309	Bai (Jianchuan)	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴² no³³ kʰo³³	kv̱ˌ⁴² lv̱ˌ⁴² mi̱⁴² no³³ kʰo³³	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)			1.1.5.2	4.1.2	0			3361,479,m,m
+145959	309	Bai (Jianchuan)	jæ̃³³ ku̱²¹ lu⁵⁵ tsɿ³³ kʰo³³	jæ̃³³ ku̱²¹ lu⁵⁵ tsɿ³³ kʰo³³	adam's apple / larynx	adam's apple / larynx			1.5.3.2	4.1.4	0			
+145960	309	Bai (Jianchuan)	ku̱²¹ tsɿ³³ tei̱⁴⁴ kʰo³³ «ne̱²¹»	ku̱²¹ tsɿ³³ tei̱⁴⁴ kʰo³³ «ne̱²¹»	throat / gullet / pharynx	throat / gullet / pharynx			1.3.5	4.2	0			486,m,501,5651
+145961	309	Bai (Jianchuan)	ɕõ⁵⁵ pʰu⁵⁵ tsɿ³³ kua̱⁴⁴ tɯ̱²¹	ɕõ⁵⁵ pʰu⁵⁵ tsɿ³³ kua̱⁴⁴ tɯ̱²¹	breastbone / sternum	breastbone / sternum			1.6.3.2	5.1.3	0			
+145962	309	Bai (Jianchuan)	kʰæ⁵⁵ fv̩³³ ne̱²¹ no³³ kua̱⁴⁴ tɯ̱²¹	kʰæ⁵⁵ fv̩³³ ne̱²¹ no³³ kua̱⁴⁴ tɯ̱²¹	hipbone	hipbone			1.4.9.2	5.8.2	0			
+145963	309	Bai (Jianchuan)	tɕo̱²¹ kʰv̱ˌ⁴⁴ (kʰo³³) ɕĩ⁵⁵	tɕo̱²¹ kʰv̱ˌ⁴⁴ (kʰo³³) ɕĩ⁵⁵	knee hollow / popliteal region	knee hollow / popliteal region			1.5.8.4	6.2.2.2	0			
+145964	309	Bai (Jianchuan)	kʰv̱ˌ⁴⁴ sɯ³³ tɯ̱²¹ tsɿ³³ kʰo³³	kʰv̱ˌ⁴⁴ sɯ³³ tɯ̱²¹ tsɿ³³ kʰo³³	index finger	index finger			1.0	7.1.1	0			
+145965	309	Bai (Jianchuan)	mõ⁵⁵ mĩ̱æ⁴² sɯ³³ tɯ̱²¹ kʰo³³	mõ⁵⁵ mĩ̱æ⁴² sɯ³³ tɯ̱²¹ kʰo³³	ring finger	ring finger			1.5.6.2	7.1.3	0			
+145966	309	Bai (Jianchuan)	a⁵⁵ ti⁵⁵ ti̱æ⁴² tsɿ³³ kʰo³³	a⁵⁵ ti⁵⁵ ti̱æ⁴² tsɿ³³ kʰo³³	little finger	little finger			9.7.2	7.1.4	0			
+145967	309	Bai (Jianchuan)	sɯ³³ tɯ̱²¹ tsɿ³³ no³³ tɯ⁵⁵ jĩ⁵⁵ lṽ̩³³	sɯ³³ tɯ̱²¹ tsɿ³³ no³³ tɯ⁵⁵ jĩ⁵⁵ lṽ̩³³	fingerprint	fingerprint			1.5.6.1	7.1.6	0			
+145968	309	Bai (Jianchuan)	ko̱⁴⁴ a⁵⁵ ti⁵⁵ ti̱æ⁴² tsɿ³³	ko̱⁴⁴ a⁵⁵ ti⁵⁵ ti̱æ⁴² tsɿ³³	little toe	little toe			9.7.2	7.2.5	0			
+145969	309	Bai (Jianchuan)	[jõ̱²¹ mo³³ tɕi³³ kã̱⁴² no³³ ma̱²¹	[jõ̱²¹ mo³³ tɕi³³ kã̱⁴² no³³ ma̱²¹	underarm hair	underarm hair			1.5.1.2.3	8.1.3.1	0			
+145970	309	Bai (Jianchuan)	«tɕui³³ ŋuĩ³³ tsʰɯ̱⁴⁴ no³³» te̱⁴⁴ te̱⁴⁴ tsɿ³³	«tɕui³³ ŋuĩ³³ tsʰɯ̱⁴⁴ no³³» te̱⁴⁴ te̱⁴⁴ tsɿ³³	pimple	pimple			1.6.5.3	8.2.3.2	0			
+145971	309	Bai (Jianchuan)	fv̱ˌ⁴⁴ xɯ³¹ no³³ ŋṽ̩³³ tã̱⁴²	fv̱ˌ⁴⁴ xɯ³¹ no³³ ŋṽ̩³³ tã̱⁴²	internal organs	internal organs			1.7	9.0	0			
+145973	309	Bai (Jianchuan)	ɣa35 kã⁵⁵ tɕɯ̱̃⁴² ja̱⁴² ɣɯ35	ɣa35 kã⁵⁵ tɕɯ̱̃⁴² ja̱⁴² ɣɯ35	menstruate	menstruate	v.	v.	1.9.11.1	10.4.6	0			
+148736	309	Bai (Jianchuan)	pe̱²¹	pe̱²¹	hide / leather (dried animal skin)	hide / leather (dried animal skin)			1.6.5.1	8.2.6	0		D1	590
+148737	309	Bai (Jianchuan)	tsõ̱²¹ tsõ̱²¹ v̱ˌ⁴² v̱ˌ	tsõ̱²¹ tsõ̱²¹ v̱ˌ⁴² v̱ˌ	viscera / guts / entrails (in general)	viscera / guts / entrails (in general)			1.7.7	9.4	0		D1	
+148739	309	Bai (Jianchuan)	ji̱²¹	ji̱²¹	cord / fathom (outstretched arms)	cord / fathom (outstretched arms)			1.5.9.5	13.4	0		D1	
+148740	309	Bai (Jianchuan)	ji̱²¹	ji̱²¹	left fingertip to right fingertip	left fingertip to right fingertip			1.5.3.2	13.4.2	0			

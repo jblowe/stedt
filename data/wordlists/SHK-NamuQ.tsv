@@ -1,147 +1,147 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-129861	1146	Namuyi	gu⁵⁵mi⁵⁵	gu⁵⁵mi⁵⁵	body	body		1.1.1	1.1	0		1,m
-129862	1146	Namuyi	gu⁵⁵mi⁵⁵ka³³na³³	gu⁵⁵mi⁵⁵ka³³na³³	side (right)	side (right)		1.4.5	1.2	0		2,m,m,m
-129863	1146	Namuyi	gu⁵⁵mi⁵⁵ja³³ta³³	gu⁵⁵mi⁵⁵ja³³ta³³	side (left)	side (left)		1.4.5	1.3	0		2,m,2154,m
-129864	1146	Namuyi	dʐu³³tsɛ³³tsɛ³³	dʐu³³tsɛ³³tsɛ³³	back	back		1.4.8	1.4	0	HIDE	DUPE IN SOURCE
-129865	1146	Namuyi	ʁo⁵⁵ɬy⁵⁵	ʁo⁵⁵ɬy⁵⁵	bosom	bosom		1.4.4.2	1.9	0		288,m
-129866	1146	Namuyi	ʂɿ³³	ʂɿ³³	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34
-129867	1146	Namuyi	so⁵⁵ʐɛ⁵³	so⁵⁵ʐɛ⁵³	alive / be living	alive  /  be living		1.1.2.1	1.12	0		80,1010
-129868	1146	Namuyi	ʂɿ³³qo⁵⁵	ʂɿ³³qo⁵⁵	die / be dead	die  /  be dead		1.1.6	1.13	0		27,m
-129869	1146	Namuyi	jy³³	jy³³	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		127
-129870	1146	Namuyi	ʂu³³tɛ³³	ʂu³³tɛ³³	awake / be awake	awake  /  be awake		1.1.4	1.17	0		5768,m
-129871	1146	Namuyi	jy³³mɛ³⁵	jy³³mɛ³⁵	dream	dream	v.	1.1.4.2	1.18	0		127,126
-129872	1146	Namuyi	ʁo⁵⁵əʴ⁵⁵ly³³	ʁo⁵⁵əʴ⁵⁵ly³³	head	head		1.2.1	2.1	0	D0	385,m,690
-129873	1146	Namuyi	ʁo⁵⁵ɬy³³	ʁo⁵⁵ɬy³³	brain	brain		1.2.4	2.5	0		385,247
-129874	1146	Namuyi	ʁo⁵⁵hũ³³	ʁo⁵⁵hũ³³	hair of head	hair of head		1.2.3	2.7	0	HIDE	DUPE IN SOURCE
-129875	1146	Namuyi	qʰuəʴ⁵³	qʰuəʴ⁵³	horn (of animal)	horn (of animal)		1.2.2	2.10	0		819
-129876	1146	Namuyi	ku⁵⁵ly⁵⁵	ku⁵⁵ly⁵⁵	face	face		1.2.5	3.1	0		m,1184
-129877	1146	Namuyi	mo³³mbɛ⁵⁵	mo³³mbɛ⁵⁵	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		
-129878	1146	Namuyi	miɛ⁵⁵	miɛ⁵⁵	eye	eye		1.2.6	3.4	0		681
-129879	1146	Namuyi	miɛ⁵⁵sɿ³³ly⁵⁵	miɛ⁵⁵sɿ³³ly⁵⁵	eyeball	eyeball		1.2.6.1	3.4.2	0		681,1019,1427
-129880	1146	Namuyi	miɛ³³tsɿ³³hũ³³	miɛ³³tsɿ³³hũ³³	eyebrow	eyebrow		1.2.6.6	3.4.3	0		681,1232,363
-129881	1146	Namuyi	miɛ⁵⁵tsɿ³³hũ⁵⁵	miɛ⁵⁵tsɿ³³hũ⁵⁵	eyelash	eyelash		1.2.6.5	3.4.4	0		681,1232,363
-129882	1146	Namuyi	miɛ⁵⁵ɦɛʴ³³	miɛ⁵⁵ɦɛʴ³³	tears	tears		1.2.6.7	3.4.6	0		681,1013
-129883	1146	Namuyi	ŋgu⁵⁵dʑu⁵⁵	ŋgu⁵⁵dʑu⁵⁵	cry / weep	cry  /  weep	v.	1.8.8.2	3.4.8	0		1104,m
-129884	1146	Namuyi	ly³⁵	ly³⁵	see / look	see  /  look	v.	1.2.6.10	3.4.9	0		
-129885	1146	Namuyi	miɛ⁵⁵qo³³	miɛ⁵⁵qo³³	blind	blind		1.2.6.14.2	3.4.10	0		681,m
-129886	1146	Namuyi	ȵi³³nga⁵⁵	ȵi³³nga⁵⁵	nose	nose		1.2.8	3.5	0	D0	803,2093
-129887	1146	Namuyi	ȵi³³ŋgɛ⁵⁵ɦɛ⁵⁵	ȵi³³ŋgɛ⁵⁵ɦɛ⁵⁵	liquid mucus	liquid mucus		3.2.3	3.5.6	0		803,m,m
-129888	1146	Namuyi	hĩ³³hĩ⁵⁵	hĩ³³hĩ⁵⁵	smell / sniff	smell  /  sniff	v.	1.2.8.5	3.5.9	0		
-129889	1146	Namuyi	hĩ³³pa³³	hĩ³³pa³³	ear	ear		1.2.7	3.6	0		811,812
-129890	1146	Namuyi	hĩ³³qo³³tsʰɿ̄³³	hĩ³³qo³³tsʰɿ̄³³	earwax	earwax		1.2.7.3	3.6.6	0		811,m,2089
-129891	1146	Namuyi	hĩ³³mbo³³	hĩ³³mbo³³	deaf	deaf		1.2.7.5	3.6.8	0		811,1409
-129892	1146	Namuyi	mi³³◦mpʰ◦sɿ⁵⁵	mi³³◦mpʰ◦sɿ⁵⁵	mouth	mouth		1.3.1	3.7	0		
-129893	1146	Namuyi	xie³³pɛʴ³³	xie³³pɛʴ³³	gums	gums		1.3.4.3	3.7.3	0		632,m
-129894	1146	Namuyi	ji⁵⁵	ji⁵⁵	uvula	uvula		1.3.5.1	3.7.4	0		
-129895	1146	Namuyi	tʂɿ³³ɦɛ⁵⁵	tʂɿ³³ɦɛ⁵⁵	saliva	saliva		1.8.3	3.7.5	0		
-129896	1146	Namuyi	dzɿ⁵³	dzɿ⁵³	eat	eat	v.	1.5.3.2	3.7.6	0		36
-129897	1146	Namuyi	ndʐɿ³⁵	ndʐɿ³⁵	drink	drink	v.		3.7.7	0		502
-129898	1146	Namuyi	fɛ³⁵	fɛ³⁵	thirsty	thirsty	be	1.1.3.1	3.7.8	0		3298
-129899	1146	Namuyi	ŋu⁵⁵zy⁵⁵ku⁵³	ŋu⁵⁵zy⁵⁵ku⁵³	hungry	hungry	be	1.1.3	3.7.9	0	D0	99,1825,m
-129900	1146	Namuyi	ȵo⁵⁵ko⁵⁵	ȵo⁵⁵ko⁵⁵	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		1832,m
-129901	1146	Namuyi	mpʰi³³	mpʰi³³	spit	spit	v.	1.8.3	3.7.11	0		1145
-129902	1146	Namuyi	mpʰi³³pɛ³³	mpʰi³³pɛ³³	vomit	vomit	n.	1.8.3.2	3.7.12	0		1145,m
-129903	1146	Namuyi	tɕʰi³³ntʰɛ³⁵	tɕʰi³³ntʰɛ³⁵	hold in mouth	hold in mouth	v.	1.3.4.4	3.7.14	0		
-129904	1146	Namuyi	lo³³xa³⁵	lo³³xa³⁵	gape / open mouth	gape  /  open mouth	v.	1.3.1	3.7.15	0		m,1716
-129905	1146	Namuyi	xa⁵⁵xa⁵⁵mɯ⁵⁵	xa⁵⁵xa⁵⁵mɯ⁵⁵	yawn	yawn	v.	1.3.1.3	3.7.16	0		1716,1716,m
-129906	1146	Namuyi	ji³³ɬɛ⁵⁵	ji³³ɬɛ⁵⁵	tongue	tongue		1.3.3	3.8	0	D0	m,621
-129907	1146	Namuyi	ʂo⁵⁵	ʂo⁵⁵	speak	speak	v.	8.5.10.1	3.8.1	0		1755
-129908	1146	Namuyi	lɑ⁵⁵mo⁵⁵	lɑ⁵⁵mo⁵⁵	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
-129909	1146	Namuyi	a³³qa⁵⁵	a³³qa⁵⁵	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		p,1752
-129910	1146	Namuyi	jɛ³³	jɛ³³	lick	lick	v.	1.3.3.1	3.8.4	0		629
-129911	1146	Namuyi	mpʰ◦sɿ⁵◦⁵ɦəʴ³³◦qu⁵⁵	mpʰ◦sɿ⁵◦⁵ɦəʴ³³◦qu⁵⁵	lip	lip		1.3.2	3.9	0		476,686,m,586
-129912	1146	Namuyi	dʐɿ³³dʐɿ⁵⁵	dʐɿ³³dʐɿ⁵⁵	smile	smile	v.	1.8.8.1	3.9.4	0		1108,1108
-129913	1146	Namuyi	tʂu⁵⁵tʂu⁵⁵mɯ⁵⁵	tʂu⁵⁵tʂu⁵⁵mɯ⁵⁵	kiss	kiss	v.	1.3.2.2	3.9.5	0		5541,5541,m
-129914	1146	Namuyi	ntʰɛ³⁵	ntʰɛ³⁵	bite	bite	v.	1.3.4.4	3.10.7	0		1799
-129915	1146	Namuyi	ŋə³³ŋə⁵⁵	ŋə³³ŋə⁵⁵	chew	chew	v.	1.3.4	3.10.8	0		1761,1761
-129916	1146	Namuyi	miɛ⁵⁵ kəʴ³³	miɛ⁵⁵kəʴ³³	chin	chin		1.2.5.3	3.12	0	D0	1187,273
-129917	1146	Namuyi	ɣɛ⁵⁵kɛ³³	ɣɛ⁵⁵kɛ³³	neck	neck		1.4.2	4.1	0		479,481
-129918	1146	Namuyi	ntsʰy⁵⁵pʰo⁵⁵ɣo⁵⁵tɛ⁵⁵	ntsʰy⁵⁵pʰo⁵⁵ɣo⁵⁵tɛ⁵⁵	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		3363,m,m,501
-129919	1146	Namuyi	ȵo³³qa⁵⁵	ȵo³³qa⁵⁵	swallow	swallow	v.	1.3.5.6	4.2.3	0		
-129920	1146	Namuyi	ʁo⁵⁵ɬy⁵⁵	ʁo⁵⁵ɬy⁵⁵	chest	chest		1.4.4.3	5.1	0	D0	288,m
-129921	1146	Namuyi	ɬo⁵⁵zə³³	ɬo⁵⁵zə³³	rib	rib		1.4.4.3	5.1.2	0		
-129922	1146	Namuyi	tɛ³³pɛ⁵⁵	tɛ³³pɛ⁵⁵	shoulder	shoulder		1.4.3	5.3	0	D0	3408,568
-129923	1146	Namuyi	ȵy³³ȵy⁵⁵	ȵy³³ȵy⁵⁵	breast	breast		1.4.4.3	5.4	0	D0	253,253
-129924	1146	Namuyi	ȵy³³ȵy⁵⁵ʁo⁵⁵ba⁵⁵	ȵy³³ȵy⁵⁵ʁo⁵⁵ba⁵⁵	nipple	nipple			5.4.1	0		253,253,m,m
-129925	1146	Namuyi	ȵy³³ȵy⁵⁵	ȵy³³ȵy⁵⁵	milk	milk			5.4.3	0		253,253
-129926	1146	Namuyi	ȵy³³ȵy⁵⁵	ȵy³³ȵy⁵⁵	suck	suck	v.	1.3.2.1	5.4.5	0		253,253
-129927	1146	Namuyi	ɣo⁵⁵mɛ³³	ɣo⁵⁵mɛ³³	nurse / suckle	nurse  /  suckle	v.	4.2.1.5	5.4.6	0		
-129928	1146	Namuyi	dʐu³³tsɛ³³tsɛ³³	dʐu³³tsɛ³³tsɛ³³	back	back		1.4.8	5.5	0	D1	215,3391,3391
-129929	1146	Namuyi	dʐu³³	dʐu³³	waist	waist		1.4.6	5.6	0		215
-129930	1146	Namuyi	hĩ³³mbi⁵⁵	hĩ³³mbi⁵⁵	belly / abdomen	belly  /  abdomen		1.4.7	5.7	0		m,m
-129931	1146	Namuyi	do³³bi⁵⁵	do³³bi⁵⁵	haunches	haunches		1.4.9.2	5.8.3	0		225,1361
-129932	1146	Namuyi	do³³bi⁵⁵	do³³bi⁵⁵	buttocks	buttocks		1.4.10	5.10.1	0	D0	225,1361
-129933	1146	Namuyi	mɛ³³qu⁵⁵	mɛ³³qu⁵⁵	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		1288,219
-129934	1146	Namuyi	lɛ³³kɛ³³	lɛ³³kɛ³³	arm	arm		1.5.1.2	6.1	0		695,m
-129935	1146	Namuyi	jɛ³³dɛ³³qʰɛ⁵⁵	jɛ³³dɛ³³qʰɛ⁵⁵	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
-129936	1146	Namuyi	lɛ³³ntsʰɛ³³	lɛ³³ntsʰɛ³³	elbow	elbow		1.5.8.3	6.1.4	0		695,418
-129937	1146	Namuyi	lɛ³³	lɛ³³	hand	hand		1.5.1.1	6.1.7	0		695
-129938	1146	Namuyi	lɛ³³tsʰɿ³³	lɛ³³tsʰɿ³³	palm	palm		1.5.5	6.1.7.1	0		695,m
-129939	1146	Namuyi	tĩ³⁵ysɿ⁵⁵	tĩ³⁵ysɿ⁵⁵	fist	fist		1.5.1.1.1	6.1.7.3	0		e?
-129940	1146	Namuyi	lɛ³³ja³³na³³	lɛ³³ja³³na³³	right hand	right hand		1.5.3.2	6.1.7.4	0		695,m,m
-129941	1146	Namuyi	lɛ³³ja³³ta³³	lɛ³³ja³³ta³³	left hand	left hand		1.5.3.2	6.1.7.5	0		695,2154,m
-129942	1146	Namuyi	du⁵⁵tʂɿ⁵⁵	du⁵⁵tʂɿ⁵⁵	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		711
-129943	1146	Namuyi	bo⁵⁵ɣo⁵⁵	bo⁵⁵ɣo⁵⁵	leg	leg		1.5.7	6.2	0		349,m
-129944	1146	Namuyi	bu⁵⁵ɣo⁵⁵	bu⁵⁵ɣo⁵⁵	thigh	thigh		1.5.7.1	6.2.1	0		
-129945	1146	Namuyi	ʁua³³ntsʰa⁵⁵	ʁua³³ntsʰa⁵⁵	knee	knee		1.5.8.4	6.2.2	0		
-129946	1146	Namuyi	əʴ⁵⁵ʂɿ³³	əʴ⁵⁵ʂɿ³³	shin	shin		1.5.7.2	6.2.3	0		e?
-129947	1146	Namuyi	ʂɿ³³bu³³sɿ³³	ʂɿ³³bu³³sɿ³³	calf	calf		1.5.7	6.2.4	0		
-129948	1146	Namuyi	ʂɿ³³kɛ³³	ʂɿ³³kɛ³³	foot	foot		1.5.2	6.2.6	0		335,m
-129949	1146	Namuyi	gi⁵⁵ntsʰɿ⁵⁵li⁵⁵ly⁵⁵	gi⁵⁵ntsʰɿ⁵⁵li⁵⁵ly⁵⁵	heel	heel		1.5.2.1	6.2.6.1	0		
-129950	1146	Namuyi	miɛ⁵⁵ɹɛ⁵⁵	miɛ⁵⁵ɹɛ⁵⁵	footprint	footprint		1.5.2.5	6.2.6.7	0		
-129951	1146	Namuyi	qʰa⁵⁵tsɛ³³	qʰa⁵⁵tsɛ³³	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		417,m
-129952	1146	Namuyi	qa³³tsɿ⁵⁵	qa³³tsɿ⁵⁵	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-129953	1146	Namuyi	qa³³tsɿ̄³³	qa³³tsɿ̄³³	limp	limp	v.	1.5.12	6.2.8	0		
-129954	1146	Namuyi	lɛ³³ȵi³⁵tʂɿ³³qu³³	lɛ³³ȵi³⁵tʂɿ³³qu³³	nail	nail		1.5.10	7.4	0		695,m,m,m
-129955	1146	Namuyi	ndʑy³⁵	ndʑy³⁵	pincers	pincers		1.5.10.4	7.4.5	0		
-129956	1146	Namuyi	ʁo⁵⁵hũ³³	ʁo⁵⁵hũ³³	hair of head	hair of head		1.2.3	8.1.1	0	D1	385,363
-129957	1146	Namuyi	a⁵⁵ntsʰy⁵⁵	a⁵⁵ntsʰy⁵⁵	beard	beard		1.2.5.5	8.1.2.1	0		p,1232
-129958	1146	Namuyi	hũ³³	hũ³³	feather	feather		1.6.1.1	8.1.5	0		363
-129959	1146	Namuyi	hũ³³	hũ³³	mane	mane		1.6.1	8.1.6	0		363
-129960	1146	Namuyi	əʴ⁵⁵ʂɿ³³	əʴ⁵⁵ʂɿ³³	skin	skin		1.6.5	8.2	0		m,596
-129961	1146	Namuyi	ku³³ɬu⁵⁵	ku³³ɬu⁵⁵	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		615,m
-129962	1146	Namuyi	tʂi³³ly⁵⁵	tʂi³³ly⁵⁵	mole	mole		2.2.7	8.2.3.3	0		m,1427
-129963	1146	Namuyi	əʴ⁵⁵pa⁵⁵	əʴ⁵⁵pa⁵⁵	cyst	cyst		1.6.5.3	8.2.3.5	0		
-129964	1146	Namuyi	la³³qʰa⁵⁵	la³³qʰa⁵⁵	scar	scar		1.6.5.3	8.2.3.7	0		
-129965	1146	Namuyi	n◦tsʰɛ³³◦ntʰɛ⁵³	n◦tsʰɛ³³ntʰɛ⁵³	itch / be itchy	itch  /  be itchy	v.	1.6.5.5	8.2.3.10	0		p,1456,m
-129966	1146	Namuyi	ɣɯ³³əʴ³³|qa⁵⁵	ɣɯ³³əʴ³³|qa⁵⁵	hide / leather	hide  /  leather		1.6.5.1	8.2.6	0		m,589
-129967	1146	Namuyi	ji⁵⁵tsɿ³³	ji⁵⁵tsɿ³³	fat	fat		1.6.4	8.3	0		m,48
-129968	1146	Namuyi	ʂa⁵⁵qa⁵⁵	ʂa⁵⁵qa⁵⁵	bone	bone		1.6.3	8.4	0		234,m
-129969	1146	Namuyi	gu⁵⁵tsɛ³³	gu⁵⁵tsɛ³³	sinew / tendon	sinew  /  tendon		1.6.6.1	8.5	0		535,m
-129970	1146	Namuyi	sɛ³³	sɛ³³	blood	blood		1.6.2	8.7	0		230
-129971	1146	Namuyi	bi³³	bi³³	bleed	bleed	v.	1.6.2	8.7.2	0		m
-129972	1146	Namuyi	ʂɿ³³	ʂɿ³³	muscle	muscle		1.6.6.2	8.8	0		34
-129973	1146	Namuyi	ntsʰɛ³³	ntsʰɛ³³	joint	joint		1.5.8	8.9	0		418
-129975	1146	Namuyi	ntsʰu³³pʰu⁵⁵	ntsʰu³³pʰu⁵⁵	lung	lung		1.7.2	9.2	0		458,m
-129976	1146	Namuyi	sɛ³⁵pʰu³⁵	sɛ³⁵pʰu³⁵	pant	pant	v.	1.1.2.2	9.2.2	0		
-129977	1146	Namuyi	fu⁵³	fu⁵³	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		75
-129978	1146	Namuyi	tsɿ³³qʰa⁵⁵	tsɿ³³qʰa⁵⁵	phlegm	phlegm		1.8.3	9.2.5	0		m,540
-129979	1146	Namuyi	ȵi³³mi⁵⁵	ȵi³³mi⁵⁵	heart	heart		1.7.1	9.3	0	D0	251,s
-129980	1146	Namuyi	sɿ⁵⁵ly⁵⁵	sɿ⁵⁵ly⁵⁵	liver	liver		1.7.3	9.5	0	D0	1390,1427
-129981	1146	Namuyi	tʂɿ³³ly⁵⁵	tʂɿ³³ly⁵⁵	gall bladder	gall bladder		1.7.3	9.5.2	0		227,1427
-129982	1146	Namuyi	dʐu³³	dʐu³³	kidney	kidney		1.7.5	9.6	0		215
-129983	1146	Namuyi	pu³³pu³³su⁵⁵	pu³³pu³³su⁵⁵	urinary bladder	urinary bladder		1.7.8	9.7	0		
-129984	1146	Namuyi	mbɛ³³	mbɛ³³	urine	urine		1.8.4	9.7.1	0		1102
-129985	1146	Namuyi	dʑy³⁵	dʑy³⁵	stomach	stomach		1.7.6	9.10	0		
-129986	1146	Namuyi	vu³³ȵi⁵⁵	vu³³ȵi⁵⁵	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		2102,m
-129987	1146	Namuyi	tsʰɿ⁵⁵gu⁵⁵	tsʰɿ⁵⁵gu⁵⁵	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		
-129988	1146	Namuyi	ʐɛ⁵⁵	ʐɛ⁵⁵	feces / shit	feces  /  shit		1.8.5	9.12.1	0		
-129989	1146	Namuyi	ʂo⁵⁵tʂʰɿ⁵⁵	ʂo⁵⁵tʂʰɿ⁵⁵	castrate	castrate	v.	1.9.2.3	10.3.9	0		
-129990	1146	Namuyi	ə³³pɛ³⁵	ə³³pɛ³⁵	pregnant	pregnant	be	1.9.6.1	10.4.14	0		
-129991	1146	Namuyi	eʴ³³ba³⁵	eʴ³³ba³⁵	birth, give	birth, give		1.1.2	10.4.15	0		m,70
-129992	1146	Namuyi	ɦɛ̱⁵⁵ɣo⁵⁵	ɦɛ̱⁵⁵ɣo⁵⁵	egg (of animal)	egg (of animal)			10.4.16	0		1600,3438
-129993	1146	Namuyi	tsɿ³³ɦɛ³⁵	tsɿ³³ɦɛ³⁵	cough	cough		1.8.3.3	11.1	0		
-129994	1146	Namuyi	qo⁵⁵ti³³	qo⁵⁵ti³³	hiccup	hiccup		1.8.3.5	11.2	0		
-129995	1146	Namuyi	ɛ⁵⁵ntsʰy³³	ɛ⁵⁵ntsʰy³³	sneeze	sneeze		1.8.2.1	11.3	0		
-129996	1146	Namuyi	fu⁵³	fu⁵³	whistle	whistle		8.5.5	11.5	0		75
-129997	1146	Namuyi	qo⁵⁵ti³³	qo⁵⁵ti³³	burp / belch	burp  /  belch		1.8.3	11.6	0		
-129998	1146	Namuyi	dʐɿ³³dʐɿ⁵⁵	dʐɿ³³dʐɿ⁵⁵	laugh	laugh		1.8.8.1	11.9	0	D0	1108,1108
-129999	1146	Namuyi	ntʂʰu³³ntʂʰu³⁵	ntʂʰu³³ntʂʰu³⁵	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
-130000	1146	Namuyi	ŋgo⁵³	ŋgo⁵³	sick / be ill / hurt	sick  /  be ill  /  hurt	be	1.1.5.1	12.2	0		1849
-130001	1146	Namuyi	əʴ⁵⁵pa⁵⁵	əʴ⁵⁵pa⁵⁵	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
-130002	1146	Namuyi	mbɛ³⁵	mbɛ³⁵	pus	pus		1.8.6.1	12.5	0		1292
-130003	1146	Namuyi	tʂu⁵⁵	tʂu⁵⁵	cubit	cubit		1.5.9.3	13.3	0		
-130004	1146	Namuyi	ɬy⁵⁵	ɬy⁵⁵	cord / fathom	cord  /  fathom		1.5.9.5	13.4	0		1310
-130005	1146	Namuyi	mpʰu⁵³	mpʰu⁵³	male	male		1.9.6.1	10.3	0		1635
-130006	1146	Namuyi	mi³⁵	mi³⁵	female	female		1.9.3	10.4	0		1618
-168690	1146	Namuyi	ndo⁵³	ndo⁵³	see / look	see  /  look	v.	1.2.6.10	3.4.9	0		1402
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+129861	1146	Namuyi	gu⁵⁵mi⁵⁵	gu⁵⁵mi⁵⁵	body	body			1.1.1	1.1	0			1,m
+129862	1146	Namuyi	gu⁵⁵mi⁵⁵ka³³na³³	gu⁵⁵mi⁵⁵ka³³na³³	side (right)	side (right)			1.4.5	1.2	0			2,m,m,m
+129863	1146	Namuyi	gu⁵⁵mi⁵⁵ja³³ta³³	gu⁵⁵mi⁵⁵ja³³ta³³	side (left)	side (left)			1.4.5	1.3	0			2,m,2154,m
+129864	1146	Namuyi	dʐu³³tsɛ³³tsɛ³³	dʐu³³tsɛ³³tsɛ³³	back	back			1.4.8	1.4	0	jbl5	HIDE	DUPE IN SOURCE
+129865	1146	Namuyi	ʁo⁵⁵ɬy⁵⁵	ʁo⁵⁵ɬy⁵⁵	bosom	bosom			1.4.4.2	1.9	0			288,m
+129866	1146	Namuyi	ʂɿ³³	ʂɿ³³	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		34
+129867	1146	Namuyi	so⁵⁵ʐɛ⁵³	so⁵⁵ʐɛ⁵³	alive / be living	alive  /  be living			1.1.2.1	1.12	0	jbl3		80,1010
+129868	1146	Namuyi	ʂɿ³³qo⁵⁵	ʂɿ³³qo⁵⁵	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		27,m
+129869	1146	Namuyi	jy³³	jy³³	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		127
+129870	1146	Namuyi	ʂu³³tɛ³³	ʂu³³tɛ³³	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		5768,m
+129871	1146	Namuyi	jy³³mɛ³⁵	jy³³mɛ³⁵	dream	dream	v.	v.	1.1.4.2	1.18	0			127,126
+129872	1146	Namuyi	ʁo⁵⁵əʴ⁵⁵ly³³	ʁo⁵⁵əʴ⁵⁵ly³³	head	head			1.2.1	2.1	0		D0	385,m,690
+129873	1146	Namuyi	ʁo⁵⁵ɬy³³	ʁo⁵⁵ɬy³³	brain	brain			1.2.4	2.5	0			385,247
+129874	1146	Namuyi	ʁo⁵⁵hũ³³	ʁo⁵⁵hũ³³	hair of head	hair of head			1.2.3	2.7	0	jbl5	HIDE	DUPE IN SOURCE
+129875	1146	Namuyi	qʰuəʴ⁵³	qʰuəʴ⁵³	horn (of animal)	horn (of animal)			1.2.2	2.10	0			819
+129876	1146	Namuyi	ku⁵⁵ly⁵⁵	ku⁵⁵ly⁵⁵	face	face			1.2.5	3.1	0			m,1184
+129877	1146	Namuyi	mo³³mbɛ⁵⁵	mo³³mbɛ⁵⁵	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		
+129878	1146	Namuyi	miɛ⁵⁵	miɛ⁵⁵	eye	eye			1.2.6	3.4	0			681
+129879	1146	Namuyi	miɛ⁵⁵sɿ³³ly⁵⁵	miɛ⁵⁵sɿ³³ly⁵⁵	eyeball	eyeball			1.2.6.1	3.4.2	0			681,1019,1427
+129880	1146	Namuyi	miɛ³³tsɿ³³hũ³³	miɛ³³tsɿ³³hũ³³	eyebrow	eyebrow			1.2.6.6	3.4.3	0			681,1232,363
+129881	1146	Namuyi	miɛ⁵⁵tsɿ³³hũ⁵⁵	miɛ⁵⁵tsɿ³³hũ⁵⁵	eyelash	eyelash			1.2.6.5	3.4.4	0			681,1232,363
+129882	1146	Namuyi	miɛ⁵⁵ɦɛʴ³³	miɛ⁵⁵ɦɛʴ³³	tears	tears			1.2.6.7	3.4.6	0			681,1013
+129883	1146	Namuyi	ŋgu⁵⁵dʑu⁵⁵	ŋgu⁵⁵dʑu⁵⁵	cry / weep	cry  /  weep	v.	v.	1.8.8.2	3.4.8	0	jbl3		1104,m
+129884	1146	Namuyi	ly³⁵	ly³⁵	see / look	see  /  look	v.	v.	1.2.6.10	3.4.9	0	jbl3		
+129885	1146	Namuyi	miɛ⁵⁵qo³³	miɛ⁵⁵qo³³	blind	blind			1.2.6.14.2	3.4.10	0			681,m
+129886	1146	Namuyi	ȵi³³nga⁵⁵	ȵi³³nga⁵⁵	nose	nose			1.2.8	3.5	0		D0	803,2093
+129887	1146	Namuyi	ȵi³³ŋgɛ⁵⁵ɦɛ⁵⁵	ȵi³³ŋgɛ⁵⁵ɦɛ⁵⁵	liquid mucus	liquid mucus			3.2.3	3.5.6	0			803,m,m
+129888	1146	Namuyi	hĩ³³hĩ⁵⁵	hĩ³³hĩ⁵⁵	smell / sniff	smell  /  sniff	v.	v.	1.2.8.5	3.5.9	0	jbl3		
+129889	1146	Namuyi	hĩ³³pa³³	hĩ³³pa³³	ear	ear			1.2.7	3.6	0			811,812
+129890	1146	Namuyi	hĩ³³qo³³tsʰɿ̄³³	hĩ³³qo³³tsʰɿ̄³³	earwax	earwax			1.2.7.3	3.6.6	0			811,m,2089
+129891	1146	Namuyi	hĩ³³mbo³³	hĩ³³mbo³³	deaf	deaf			1.2.7.5	3.6.8	0			811,1409
+129892	1146	Namuyi	mi³³◦mpʰ◦sɿ⁵⁵	mi³³◦mpʰ◦sɿ⁵⁵	mouth	mouth			1.3.1	3.7	0			
+129893	1146	Namuyi	xie³³pɛʴ³³	xie³³pɛʴ³³	gums	gums			1.3.4.3	3.7.3	0			632,m
+129894	1146	Namuyi	ji⁵⁵	ji⁵⁵	uvula	uvula			1.3.5.1	3.7.4	0			
+129895	1146	Namuyi	tʂɿ³³ɦɛ⁵⁵	tʂɿ³³ɦɛ⁵⁵	saliva	saliva			1.8.3	3.7.5	0			
+129896	1146	Namuyi	dzɿ⁵³	dzɿ⁵³	eat	eat	v.	v.	1.5.3.2	3.7.6	0			36
+129897	1146	Namuyi	ndʐɿ³⁵	ndʐɿ³⁵	drink	drink	v.	v.		3.7.7	0			502
+129898	1146	Namuyi	fɛ³⁵	fɛ³⁵	thirsty	thirsty	be	be	1.1.3.1	3.7.8	0			3298
+129899	1146	Namuyi	ŋu⁵⁵zy⁵⁵ku⁵³	ŋu⁵⁵zy⁵⁵ku⁵³	hungry	hungry	be	be	1.1.3	3.7.9	0		D0	99,1825,m
+129900	1146	Namuyi	ȵo⁵⁵ko⁵⁵	ȵo⁵⁵ko⁵⁵	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		1832,m
+129901	1146	Namuyi	mpʰi³³	mpʰi³³	spit	spit	v.	v.	1.8.3	3.7.11	0			1145
+129902	1146	Namuyi	mpʰi³³pɛ³³	mpʰi³³pɛ³³	vomit	vomit	n.	n.	1.8.3.2	3.7.12	0			1145,m
+129903	1146	Namuyi	tɕʰi³³ntʰɛ³⁵	tɕʰi³³ntʰɛ³⁵	hold in mouth	hold in mouth	v.	v.	1.3.4.4	3.7.14	0			
+129904	1146	Namuyi	lo³³xa³⁵	lo³³xa³⁵	gape / open mouth	gape  /  open mouth	v.	v.	1.3.1	3.7.15	0	jbl3		m,1716
+129905	1146	Namuyi	xa⁵⁵xa⁵⁵mɯ⁵⁵	xa⁵⁵xa⁵⁵mɯ⁵⁵	yawn	yawn	v.	v.	1.3.1.3	3.7.16	0			1716,1716,m
+129906	1146	Namuyi	ji³³ɬɛ⁵⁵	ji³³ɬɛ⁵⁵	tongue	tongue			1.3.3	3.8	0		D0	m,621
+129907	1146	Namuyi	ʂo⁵⁵	ʂo⁵⁵	speak	speak	v.	v.	8.5.10.1	3.8.1	0			1755
+129908	1146	Namuyi	lɑ⁵⁵mo⁵⁵	lɑ⁵⁵mo⁵⁵	stutter / stammer	stutter  /  stammer			8.5.4.5	3.8.2	0	jbl3		
+129909	1146	Namuyi	a³³qa⁵⁵	a³³qa⁵⁵	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		p,1752
+129910	1146	Namuyi	jɛ³³	jɛ³³	lick	lick	v.	v.	1.3.3.1	3.8.4	0			629
+129911	1146	Namuyi	mpʰ◦sɿ⁵◦⁵ɦəʴ³³◦qu⁵⁵	mpʰ◦sɿ⁵◦⁵ɦəʴ³³◦qu⁵⁵	lip	lip			1.3.2	3.9	0			476,686,m,586
+129912	1146	Namuyi	dʐɿ³³dʐɿ⁵⁵	dʐɿ³³dʐɿ⁵⁵	smile	smile	v.	v.	1.8.8.1	3.9.4	0			1108,1108
+129913	1146	Namuyi	tʂu⁵⁵tʂu⁵⁵mɯ⁵⁵	tʂu⁵⁵tʂu⁵⁵mɯ⁵⁵	kiss	kiss	v.	v.	1.3.2.2	3.9.5	0			5541,5541,m
+129914	1146	Namuyi	ntʰɛ³⁵	ntʰɛ³⁵	bite	bite	v.	v.	1.3.4.4	3.10.7	0			1799
+129915	1146	Namuyi	ŋə³³ŋə⁵⁵	ŋə³³ŋə⁵⁵	chew	chew	v.	v.	1.3.4	3.10.8	0			1761,1761
+129916	1146	Namuyi	miɛ⁵⁵ kəʴ³³	miɛ⁵⁵kəʴ³³	chin	chin			1.2.5.3	3.12	0		D0	1187,273
+129917	1146	Namuyi	ɣɛ⁵⁵kɛ³³	ɣɛ⁵⁵kɛ³³	neck	neck			1.4.2	4.1	0			479,481
+129918	1146	Namuyi	ntsʰy⁵⁵pʰo⁵⁵ɣo⁵⁵tɛ⁵⁵	ntsʰy⁵⁵pʰo⁵⁵ɣo⁵⁵tɛ⁵⁵	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		3363,m,m,501
+129919	1146	Namuyi	ȵo³³qa⁵⁵	ȵo³³qa⁵⁵	swallow	swallow	v.	v.	1.3.5.6	4.2.3	0			
+129920	1146	Namuyi	ʁo⁵⁵ɬy⁵⁵	ʁo⁵⁵ɬy⁵⁵	chest	chest			1.4.4.3	5.1	0		D0	288,m
+129921	1146	Namuyi	ɬo⁵⁵zə³³	ɬo⁵⁵zə³³	rib	rib			1.4.4.3	5.1.2	0			
+129922	1146	Namuyi	tɛ³³pɛ⁵⁵	tɛ³³pɛ⁵⁵	shoulder	shoulder			1.4.3	5.3	0		D0	3408,568
+129923	1146	Namuyi	ȵy³³ȵy⁵⁵	ȵy³³ȵy⁵⁵	breast	breast			1.4.4.3	5.4	0		D0	253,253
+129924	1146	Namuyi	ȵy³³ȵy⁵⁵ʁo⁵⁵ba⁵⁵	ȵy³³ȵy⁵⁵ʁo⁵⁵ba⁵⁵	nipple	nipple				5.4.1	0			253,253,m,m
+129925	1146	Namuyi	ȵy³³ȵy⁵⁵	ȵy³³ȵy⁵⁵	milk	milk				5.4.3	0			253,253
+129926	1146	Namuyi	ȵy³³ȵy⁵⁵	ȵy³³ȵy⁵⁵	suck	suck	v.	v.	1.3.2.1	5.4.5	0			253,253
+129927	1146	Namuyi	ɣo⁵⁵mɛ³³	ɣo⁵⁵mɛ³³	nurse / suckle	nurse  /  suckle	v.	v.	4.2.1.5	5.4.6	0	jbl3		
+129928	1146	Namuyi	dʐu³³tsɛ³³tsɛ³³	dʐu³³tsɛ³³tsɛ³³	back	back			1.4.8	5.5	0		D1	215,3391,3391
+129929	1146	Namuyi	dʐu³³	dʐu³³	waist	waist			1.4.6	5.6	0			215
+129930	1146	Namuyi	hĩ³³mbi⁵⁵	hĩ³³mbi⁵⁵	belly / abdomen	belly  /  abdomen			1.4.7	5.7	0	jbl3		m,m
+129931	1146	Namuyi	do³³bi⁵⁵	do³³bi⁵⁵	haunches	haunches			1.4.9.2	5.8.3	0			225,1361
+129932	1146	Namuyi	do³³bi⁵⁵	do³³bi⁵⁵	buttocks	buttocks			1.4.10	5.10.1	0		D0	225,1361
+129933	1146	Namuyi	mɛ³³qu⁵⁵	mɛ³³qu⁵⁵	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			1288,219
+129934	1146	Namuyi	lɛ³³kɛ³³	lɛ³³kɛ³³	arm	arm			1.5.1.2	6.1	0			695,m
+129935	1146	Namuyi	jɛ³³dɛ³³qʰɛ⁵⁵	jɛ³³dɛ³³qʰɛ⁵⁵	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		
+129936	1146	Namuyi	lɛ³³ntsʰɛ³³	lɛ³³ntsʰɛ³³	elbow	elbow			1.5.8.3	6.1.4	0			695,418
+129937	1146	Namuyi	lɛ³³	lɛ³³	hand	hand			1.5.1.1	6.1.7	0			695
+129938	1146	Namuyi	lɛ³³tsʰɿ³³	lɛ³³tsʰɿ³³	palm	palm			1.5.5	6.1.7.1	0			695,m
+129939	1146	Namuyi	tĩ³⁵ysɿ⁵⁵	tĩ³⁵ysɿ⁵⁵	fist	fist			1.5.1.1.1	6.1.7.3	0			e?
+129940	1146	Namuyi	lɛ³³ja³³na³³	lɛ³³ja³³na³³	right hand	right hand			1.5.3.2	6.1.7.4	0			695,m,m
+129941	1146	Namuyi	lɛ³³ja³³ta³³	lɛ³³ja³³ta³³	left hand	left hand			1.5.3.2	6.1.7.5	0			695,2154,m
+129942	1146	Namuyi	du⁵⁵tʂɿ⁵⁵	du⁵⁵tʂɿ⁵⁵	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			711
+129943	1146	Namuyi	bo⁵⁵ɣo⁵⁵	bo⁵⁵ɣo⁵⁵	leg	leg			1.5.7	6.2	0			349,m
+129944	1146	Namuyi	bu⁵⁵ɣo⁵⁵	bu⁵⁵ɣo⁵⁵	thigh	thigh			1.5.7.1	6.2.1	0			
+129945	1146	Namuyi	ʁua³³ntsʰa⁵⁵	ʁua³³ntsʰa⁵⁵	knee	knee			1.5.8.4	6.2.2	0			
+129946	1146	Namuyi	əʴ⁵⁵ʂɿ³³	əʴ⁵⁵ʂɿ³³	shin	shin			1.5.7.2	6.2.3	0			e?
+129947	1146	Namuyi	ʂɿ³³bu³³sɿ³³	ʂɿ³³bu³³sɿ³³	calf	calf			1.5.7	6.2.4	0			
+129948	1146	Namuyi	ʂɿ³³kɛ³³	ʂɿ³³kɛ³³	foot	foot			1.5.2	6.2.6	0			335,m
+129949	1146	Namuyi	gi⁵⁵ntsʰɿ⁵⁵li⁵⁵ly⁵⁵	gi⁵⁵ntsʰɿ⁵⁵li⁵⁵ly⁵⁵	heel	heel			1.5.2.1	6.2.6.1	0			
+129950	1146	Namuyi	miɛ⁵⁵ɹɛ⁵⁵	miɛ⁵⁵ɹɛ⁵⁵	footprint	footprint			1.5.2.5	6.2.6.7	0			
+129951	1146	Namuyi	qʰa⁵⁵tsɛ³³	qʰa⁵⁵tsɛ³³	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			417,m
+129952	1146	Namuyi	qa³³tsɿ⁵⁵	qa³³tsɿ⁵⁵	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+129953	1146	Namuyi	qa³³tsɿ̄³³	qa³³tsɿ̄³³	limp	limp	v.	v.	1.5.12	6.2.8	0			
+129954	1146	Namuyi	lɛ³³ȵi³⁵tʂɿ³³qu³³	lɛ³³ȵi³⁵tʂɿ³³qu³³	nail	nail			1.5.10	7.4	0			695,m,m,m
+129955	1146	Namuyi	ndʑy³⁵	ndʑy³⁵	pincers	pincers			1.5.10.4	7.4.5	0			
+129956	1146	Namuyi	ʁo⁵⁵hũ³³	ʁo⁵⁵hũ³³	hair of head	hair of head			1.2.3	8.1.1	0		D1	385,363
+129957	1146	Namuyi	a⁵⁵ntsʰy⁵⁵	a⁵⁵ntsʰy⁵⁵	beard	beard			1.2.5.5	8.1.2.1	0			p,1232
+129958	1146	Namuyi	hũ³³	hũ³³	feather	feather			1.6.1.1	8.1.5	0			363
+129959	1146	Namuyi	hũ³³	hũ³³	mane	mane			1.6.1	8.1.6	0			363
+129960	1146	Namuyi	əʴ⁵⁵ʂɿ³³	əʴ⁵⁵ʂɿ³³	skin	skin			1.6.5	8.2	0			m,596
+129961	1146	Namuyi	ku³³ɬu⁵⁵	ku³³ɬu⁵⁵	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		615,m
+129962	1146	Namuyi	tʂi³³ly⁵⁵	tʂi³³ly⁵⁵	mole	mole			2.2.7	8.2.3.3	0			m,1427
+129963	1146	Namuyi	əʴ⁵⁵pa⁵⁵	əʴ⁵⁵pa⁵⁵	cyst	cyst			1.6.5.3	8.2.3.5	0			
+129964	1146	Namuyi	la³³qʰa⁵⁵	la³³qʰa⁵⁵	scar	scar			1.6.5.3	8.2.3.7	0			
+129965	1146	Namuyi	n◦tsʰɛ³³◦ntʰɛ⁵³	n◦tsʰɛ³³ntʰɛ⁵³	itch / be itchy	itch  /  be itchy	v.	v.	1.6.5.5	8.2.3.10	0	jbl3		p,1456,m
+129966	1146	Namuyi	ɣɯ³³əʴ³³|qa⁵⁵	ɣɯ³³əʴ³³|qa⁵⁵	hide / leather	hide  /  leather			1.6.5.1	8.2.6	0	jbl3		m,589
+129967	1146	Namuyi	ji⁵⁵tsɿ³³	ji⁵⁵tsɿ³³	fat	fat			1.6.4	8.3	0			m,48
+129968	1146	Namuyi	ʂa⁵⁵qa⁵⁵	ʂa⁵⁵qa⁵⁵	bone	bone			1.6.3	8.4	0			234,m
+129969	1146	Namuyi	gu⁵⁵tsɛ³³	gu⁵⁵tsɛ³³	sinew / tendon	sinew  /  tendon			1.6.6.1	8.5	0	jbl3		535,m
+129970	1146	Namuyi	sɛ³³	sɛ³³	blood	blood			1.6.2	8.7	0			230
+129971	1146	Namuyi	bi³³	bi³³	bleed	bleed	v.	v.	1.6.2	8.7.2	0			m
+129972	1146	Namuyi	ʂɿ³³	ʂɿ³³	muscle	muscle			1.6.6.2	8.8	0			34
+129973	1146	Namuyi	ntsʰɛ³³	ntsʰɛ³³	joint	joint			1.5.8	8.9	0			418
+129975	1146	Namuyi	ntsʰu³³pʰu⁵⁵	ntsʰu³³pʰu⁵⁵	lung	lung			1.7.2	9.2	0			458,m
+129976	1146	Namuyi	sɛ³⁵pʰu³⁵	sɛ³⁵pʰu³⁵	pant	pant	v.	v.	1.1.2.2	9.2.2	0			
+129977	1146	Namuyi	fu⁵³	fu⁵³	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			75
+129978	1146	Namuyi	tsɿ³³qʰa⁵⁵	tsɿ³³qʰa⁵⁵	phlegm	phlegm			1.8.3	9.2.5	0			m,540
+129979	1146	Namuyi	ȵi³³mi⁵⁵	ȵi³³mi⁵⁵	heart	heart			1.7.1	9.3	0		D0	251,s
+129980	1146	Namuyi	sɿ⁵⁵ly⁵⁵	sɿ⁵⁵ly⁵⁵	liver	liver			1.7.3	9.5	0		D0	1390,1427
+129981	1146	Namuyi	tʂɿ³³ly⁵⁵	tʂɿ³³ly⁵⁵	gall bladder	gall bladder			1.7.3	9.5.2	0			227,1427
+129982	1146	Namuyi	dʐu³³	dʐu³³	kidney	kidney			1.7.5	9.6	0			215
+129983	1146	Namuyi	pu³³pu³³su⁵⁵	pu³³pu³³su⁵⁵	urinary bladder	urinary bladder			1.7.8	9.7	0			
+129984	1146	Namuyi	mbɛ³³	mbɛ³³	urine	urine			1.8.4	9.7.1	0			1102
+129985	1146	Namuyi	dʑy³⁵	dʑy³⁵	stomach	stomach			1.7.6	9.10	0			
+129986	1146	Namuyi	vu³³ȵi⁵⁵	vu³³ȵi⁵⁵	intestines / bowels	intestines  /  bowels			1.7.7	9.11	0	jbl3		2102,m
+129987	1146	Namuyi	tsʰɿ⁵⁵gu⁵⁵	tsʰɿ⁵⁵gu⁵⁵	anus / rectum	anus  /  rectum			1.4.10.2	9.12	0	jbl3		
+129988	1146	Namuyi	ʐɛ⁵⁵	ʐɛ⁵⁵	feces / shit	feces  /  shit			1.8.5	9.12.1	0	jbl3		
+129989	1146	Namuyi	ʂo⁵⁵tʂʰɿ⁵⁵	ʂo⁵⁵tʂʰɿ⁵⁵	castrate	castrate	v.	v.	1.9.2.3	10.3.9	0			
+129990	1146	Namuyi	ə³³pɛ³⁵	ə³³pɛ³⁵	pregnant	pregnant	be	be	1.9.6.1	10.4.14	0			
+129991	1146	Namuyi	eʴ³³ba³⁵	eʴ³³ba³⁵	birth, give	birth, give			1.1.2	10.4.15	0			m,70
+129992	1146	Namuyi	ɦɛ̱⁵⁵ɣo⁵⁵	ɦɛ̱⁵⁵ɣo⁵⁵	egg (of animal)	egg (of animal)				10.4.16	0			1600,3438
+129993	1146	Namuyi	tsɿ³³ɦɛ³⁵	tsɿ³³ɦɛ³⁵	cough	cough			1.8.3.3	11.1	0			
+129994	1146	Namuyi	qo⁵⁵ti³³	qo⁵⁵ti³³	hiccup	hiccup			1.8.3.5	11.2	0			
+129995	1146	Namuyi	ɛ⁵⁵ntsʰy³³	ɛ⁵⁵ntsʰy³³	sneeze	sneeze			1.8.2.1	11.3	0			
+129996	1146	Namuyi	fu⁵³	fu⁵³	whistle	whistle			8.5.5	11.5	0			75
+129997	1146	Namuyi	qo⁵⁵ti³³	qo⁵⁵ti³³	burp / belch	burp  /  belch			1.8.3	11.6	0	jbl3		
+129998	1146	Namuyi	dʐɿ³³dʐɿ⁵⁵	dʐɿ³³dʐɿ⁵⁵	laugh	laugh			1.8.8.1	11.9	0		D0	1108,1108
+129999	1146	Namuyi	ntʂʰu³³ntʂʰu³⁵	ntʂʰu³³ntʂʰu³⁵	tremble / shiver / shudder	tremble  /  shiver  /  shudder			1.6.6.2.1	12.1	0	jbl3		
+130000	1146	Namuyi	ŋgo⁵³	ŋgo⁵³	sick / be ill / hurt	sick  /  be ill  /  hurt	be	be	1.1.5.1	12.2	0	jbl3		1849
+130001	1146	Namuyi	əʴ⁵⁵pa⁵⁵	əʴ⁵⁵pa⁵⁵	swell /  be swollen	swell  /   be swollen	v.	v.	1.1.5.2	12.4	0	jbl3		
+130002	1146	Namuyi	mbɛ³⁵	mbɛ³⁵	pus	pus			1.8.6.1	12.5	0			1292
+130003	1146	Namuyi	tʂu⁵⁵	tʂu⁵⁵	cubit	cubit			1.5.9.3	13.3	0			
+130004	1146	Namuyi	ɬy⁵⁵	ɬy⁵⁵	cord / fathom	cord  /  fathom			1.5.9.5	13.4	0	jbl3		1310
+130005	1146	Namuyi	mpʰu⁵³	mpʰu⁵³	male	male			1.9.6.1	10.3	0			1635
+130006	1146	Namuyi	mi³⁵	mi³⁵	female	female			1.9.3	10.4	0			1618
+168690	1146	Namuyi	ndo⁵³	ndo⁵³	see / look	see  /  look	v.	v.	1.2.6.10	3.4.9	0	jbl3		1402

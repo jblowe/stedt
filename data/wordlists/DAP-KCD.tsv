@@ -1,10 +1,10 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-622170	2262	K'cho	zuk-		downwards			6.7.8		0		531
-622171	2262	K'cho	yuk-/yu-		downwards			6.7.8		0		531,531
-622172	2263	Tarao	yung-		down			6.7.8		0		531
-622173	2261	Lamkang	ju		down			6.7.8		0		531
-622174	2261	Lamkang	jung		down, homewards			6.7.8		0		531
-622175	2264	Laizo	rung-		venitive down			6.7.8		0		531
-622176	2265	Bawm	suk		descend			6.7.8		0		531
-622177	2266	Lakher [Mara]	za-		motion down to speaker			6.7.8		0		2804
-622181	2267	Lai (Hakha)	sui		gold			9.4		0		3496
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+622170	2262	K'cho	zuk-		downwards				6.7.8		0			531
+622171	2262	K'cho	yuk-/yu-		downwards				6.7.8		0			531,531
+622172	2263	Tarao	yung-		down				6.7.8		0			531
+622173	2261	Lamkang	ju		down				6.7.8		0			531
+622174	2261	Lamkang	jung		down, homewards				6.7.8		0			531
+622175	2264	Laizo	rung-		venitive down				6.7.8		0			531
+622176	2265	Bawm	suk		descend				6.7.8		0			531
+622177	2266	Lakher [Mara]	za-		motion down to speaker				6.7.8		0			2804
+622181	2267	Lai (Hakha)	sui		gold				9.4		0			3496

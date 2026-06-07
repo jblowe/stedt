@@ -1,349 +1,349 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-342839	1803	Sema [Sumi]	aphimpi	aphimpi	body	body		1.1.1	1.1	0		
-342840	1803	Sema [Sumi]	ajeu	ajeu	side (right)	side (right)		1.4.5	1.2	0		
-342841	1803	Sema [Sumi]	piyiu	piyiu	side (left)	side (left)		1.4.5	1.3	0		
-342842	1803	Sema [Sumi]	amüqha	amüqha	back	back		1.4.8	1.4	0		
-342843	1803	Sema [Sumi]	azüu	azüu	front	front		1.4.4	1.5	0		
-342844	1803	Sema [Sumi]	aphimpi	aphimpi	torso / trunk	torso / trunk		1.5.3.2	1.6	0		
-342845	1803	Sema [Sumi]	aphiau	aphiau	limbs / arms and legs	limbs / arms and legs		1.5.3.1	1.7	0		
-342846	1803	Sema [Sumi]	alukobo	alukobo	lap	lap		1.4.4.2	1.8	0		
-342847	1803	Sema [Sumi]	apuqho	apuqho	bosom	bosom		1.4.4.2	1.9	0		
-342848	1803	Sema [Sumi]	apokha	apokha	groin / loins (hips to thighs)	groin / loins (hips to thighs)		1.4.9	1.10	0		
-342849	1803	Sema [Sumi]	a◦shi	a◦shi	flesh / meat	flesh / meat		1.1.1.1	1.11	0		p,34
-342850	1803	Sema [Sumi]	akuxü	akuxü	alive / living, be	alive / living, be		1.1.2.1	1.12	0		
-342851	1803	Sema [Sumi]	a◦ki◦thi	a◦ki◦thi	die / dead, be	die / dead, be		1.1.6	1.13	0		p,m,27
-342852	1803	Sema [Sumi]	a◦ki◦thi◦ku◦mo	a◦ki◦thi◦kumo	corpse / dead body	corpse / dead body		1.1.6.1	1.14	0		p,m,27,m,17
-342853	1803	Sema [Sumi]	a◦ku◦mo	akumo	corpse / dead body	corpse / dead body		1.1.6.1	1.14	0		m,m,17
-342854	1803	Sema [Sumi]	a◦ki◦thi◦ku◦mo	a◦ki◦thi◦kumo	carcass / dead animal	carcass / dead animal		1.1.6.1	1.15	0		p,m,27,m,17
-342855	1803	Sema [Sumi]	akumo	akumo	carcass / dead animal	carcass / dead animal		1.1.6.1	1.15	0		
-342856	1803	Sema [Sumi]	aküzü	aküzü	sleep / asleep, be	sleep / asleep, be		1.1.4.1	1.16	0		
-342857	1803	Sema [Sumi]	zükeu	zükeu	sleep / asleep, be	sleep / asleep, be		1.1.4.1	1.16	0		
-342858	1803	Sema [Sumi]	ithu(ghiva)	ithu(ghiva)	awake / awake, be	awake / awake, be		1.1.4	1.17	0		
-342859	1803	Sema [Sumi]	idavekcu	idavekcu	awake / awake, be	awake / awake, be		1.1.4	1.17	0		
-342860	1803	Sema [Sumi]	asamo	asamo	dream	dream	v	1.1.4.2	1.18	0		
-342861	1803	Sema [Sumi]	a◦ku◦tsü	a◦ku◦tsü	head	head		1.2.1	2.1	0		p,386,m
-342862	1803	Sema [Sumi]	a◦ku◦tsü qho	a◦ku◦tsü qho	head (top) / crown / pate	head (top) / crown / pate		1.2.1.2	2.2	0		p,386,m,m
-342863	1803	Sema [Sumi]	apuyi	apuyi	fontanel	fontanel		1.2.1.3	2.3	0		
-342864	1803	Sema [Sumi]	aboghe	aboghe	skull	skull		1.2.1.1	2.4	0		
-342865	1803	Sema [Sumi]	aqho	aqho	brain	brain		1.2.4	2.5	0	HIDE	DUPE IN SOURCE
-342866	1803	Sema [Sumi]	assa	assa	sinus	sinus		1.2.8.1	2.6	0		
-342867	1803	Sema [Sumi]	a◦ku◦tsü◦sa	a◦ku◦tsü◦sa	hair of head	hair of head		1.2.3	2.7	0		p,386,m,366
-342868	1803	Sema [Sumi]	akshe	akshe	scalp	scalp		1.2.1.5	2.8	0		
-342869	1803	Sema [Sumi]	a◦miche	amiche	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		p,1471
-342870	1803	Sema [Sumi]	a◦ki◦bo	a◦ki◦bo	horn (of animal)	horn (of animal)		1.2.2	2.10	0		p,2012,m
-342871	1803	Sema [Sumi]	a◦ki◦bo	a◦ki◦bo	antler (of deer)	antler (of deer)		1.2.2	2.11	0		p,2012,m
-342872	1803	Sema [Sumi]	agi	agi	face	face		1.2.5	3.1	0		
-342873	1803	Sema [Sumi]	anhekita	anhekita	forehead / brow	forehead / brow		1.2.5.1	3.2	0		
-342874	1803	Sema [Sumi]	anhigi	anhigi	temple	temple		1.2.5.1	3.3	0		
-342875	1803	Sema [Sumi]	a◦nhe◦thi	anhe◦thi	eye	eye		1.2.6	3.4	0		p,682,1019
-342876	1803	Sema [Sumi]	anhethi-yiko	anhethi-yiko	eyelid	eyelid		1.2.6.4	3.4.1	0		
-342877	1803	Sema [Sumi]	a◦nhe◦thi	anhe◦thi	eyeball	eyeball		1.2.6.1	3.4.2	0		p,681,1019
-342878	1803	Sema [Sumi]	anganhethi	anganhethi	pupil	pupil		1.2.6.2	3.4.2.2	0		
-342879	1803	Sema [Sumi]	anhekita	anhekita	eyebrow	eyebrow		1.2.6.6	3.4.3	0		
-342880	1803	Sema [Sumi]	anhethimhi	anhethimhi	eyelash	eyelash		1.2.6.5	3.4.4	0		
-342881	1803	Sema [Sumi]	anhe-kütsü	anhe-kütsü	blink	blink	v	1.2.6.12	3.4.5	0		
-342882	1803	Sema [Sumi]	anhe-zü	anhe-zü	tear	tear	n	1.8.8.1	3.4.6	0		m,1631
-342883	1803	Sema [Sumi]	qa	qa	cry / weep	cry / weep	v	1.8.8.2	3.4.8	0		
-342884	1803	Sema [Sumi]	qa-mlo	qa-mlo	cry / weep	cry / weep	v	1.8.8.2	3.4.8	0		
-342885	1803	Sema [Sumi]	zhu	zhu	see / look	see / look	v	1.2.6.10	3.4.9	0		
-342886	1803	Sema [Sumi]	a◦nhe◦thi kighi◦che	anhethi kighiche	blind	blind		1.2.6.14.2	3.4.10	0		p,682,m,m,1401
-342887	1803	Sema [Sumi]	angi	angi	nose	nose		1.2.8	3.5	0		
-342888	1803	Sema [Sumi]	angi toghi	angi toghi	nose bridge	nose bridge		1.2.8	3.5.1	0		
-342889	1803	Sema [Sumi]	angi kighipe	angi kighipe	nostril	nostril		1.2.8.1	3.5.2	0		
-342890	1803	Sema [Sumi]	angi-mhi	angi-mhi	nose hair	nose hair		1.2.8	3.5.4	0		m,363
-342891	1803	Sema [Sumi]	anheghu	anheghu	snout (of pig, etc)	snout (of pig, etc)		1.2.8	3.5.5	0		
-342892	1803	Sema [Sumi]	a◦nha	anha	mucus (liquid)	mucus (liquid)		1.8.2	3.5.6	0		p,805
-342893	1803	Sema [Sumi]	a◦nha ki(pi)ki	anha ki(pi)ki	mucus (solid)	mucus (solid)		1.8.2	3.5.7	0		p,805,m
-342894	1803	Sema [Sumi]	anigi küsü	anigi küsü	blow nose	blow nose	v	1.3.1.4	3.5.8	0		
-342895	1803	Sema [Sumi]	tsü◦ngu	tsü◦ngu	smell / sniff	smell / sniff	v	1.2.8.5	3.5.9	0		m,1418
-342896	1803	Sema [Sumi]	a◦kini	a◦kini	ear	ear		1.2.7	3.6	0		p,811
-342897	1803	Sema [Sumi]	a◦ki◦ni-niqhe	a◦ki◦ni-niqhe	earlobe	earlobe		1.2.7.1	3.6.1	0		p,m,811,m
-342898	1803	Sema [Sumi]	aniqe	aniqe	earlobe	earlobe		1.2.7.1	3.6.1	0		
-342899	1803	Sema [Sumi]	a◦kini◦bo	a◦kini◦bo	ear (outer)	ear (outer)		1.2.7	3.6.2	0		p,811,m
-342900	1803	Sema [Sumi]	a◦kini-ki	a◦kini-ki	ear canal	ear canal		1.2.7	3.6.3	0		p,811,m
-342901	1803	Sema [Sumi]	a◦ki◦ni-ba	a◦ki◦ni-ba	earwax	earwax		1.2.7.3	3.6.6	0		p,m,811,m
-342902	1803	Sema [Sumi]	chilu	chilu	hear	hear	v	1.2.7.4	3.6.7	0		
-342903	1803	Sema [Sumi]	ibo	ibo	deaf	deaf		1.2.7.5	3.6.8	0		
-342904	1803	Sema [Sumi]	abaxa	abaxa	mouth	mouth		1.3.1	3.7	0		
-342905	1803	Sema [Sumi]	a◦ki◦chi	akichi	mouth	mouth		1.3.1	3.7	0		p,2133,686
-342906	1803	Sema [Sumi]	ataha	ataha	palate	palate		1.3.1.1	3.7.1	0		
-342907	1803	Sema [Sumi]	ataha	ataha	palate (soft)	palate (soft)		1.3.1.1	3.7.2	0		
-342908	1803	Sema [Sumi]	a◦hu-mili	ahu-mili	gums	gums		1.3.4.3	3.7.3	0		p,632,621
-342909	1803	Sema [Sumi]	awuti	awuti	uvula	uvula		1.3.5.1	3.7.4	0		
-342910	1803	Sema [Sumi]	a◦mtsa◦zü	a◦mtsa◦zü	saliva	saliva		1.8.3	3.7.5	0		p,m,1631
-342911	1803	Sema [Sumi]	chu	chu	eat	eat	v	1.5.3.2	3.7.6	0		36
-342912	1803	Sema [Sumi]	ye	ye	drink	drink	v		3.7.7	0		
-342913	1803	Sema [Sumi]	tüghüthi	tüghüthi	thirsty	thirsty	v	1.1.3.1	3.7.8	0		
-342914	1803	Sema [Sumi]	müzüthi	müzüthi	hungry	hungry	v	1.1.3	3.7.9	0		
-342915	1803	Sema [Sumi]	aposünheyi	aposünheyi	full / satiated, be	full / satiated, be		1.1.3.2	3.7.10	0		
-342916	1803	Sema [Sumi]	a◦miti	a◦miti	spit	spit	v	1.8.3	3.7.11	0		p,600
-342917	1803	Sema [Sumi]	a◦ku◦mughu	akumughu	vomit	vomit	n	1.8.3.2	3.7.12	0		p,m,5697
-342918	1803	Sema [Sumi]	mughu	mughu	vomit	vomit	v	1.8.3.2	3.7.13	0		5697
-342919	1803	Sema [Sumi]	muqapu	muqapu	hold in mouth	hold in mouth	v	1.3.4.4	3.7.14	0		
-342920	1803	Sema [Sumi]	abaxa-muhu	abaxa-muhu	gape / open mouth	gape / open mouth	v	1.3.1	3.7.15	0		
-342921	1803	Sema [Sumi]	i◦hu	ihu	yawn	yawn	v	1.3.1.3	3.7.16	0		m,1716?
-342922	1803	Sema [Sumi]	a◦mili	a◦mi◦li	tongue	tongue		1.3.3	3.8	0		p,621
-342923	1803	Sema [Sumi]	pi	pi	speak	speak	v	8.5.10.1	3.8.1	0		
-342924	1803	Sema [Sumi]	atsaü-üshikeu	atsaü-üshikeu	stutter / stammer	stutter / stammer	v	8.5.4.5	3.8.2	0		
-342925	1803	Sema [Sumi]	atsa pimula keu	atsa pimula keu	mute / dumb	mute / dumb		1.5.3.2	3.8.3	0		
-342926	1803	Sema [Sumi]	min(|e/|a)	min(|e/|a)	lick	lick	v	1.3.3.1	3.8.4	0		629
-342927	1803	Sema [Sumi]	amutsü	amutsü	lip	lip		1.3.2	3.9	0		
-342928	1803	Sema [Sumi]	amu◦tsü kungu	amu◦tsü kungu	lip (upper)	lip (upper)		1.3.2	3.9.1	0		
-342929	1803	Sema [Sumi]	amutsü aqhou	amutsü aqhou	lip (lower)	lip (lower)		1.3.2	3.9.2	0		
-342930	1803	Sema [Sumi]	ahu	ahu	beak / bill (of bird)	beak / bill (of bird)		1.3.1.2	3.9.3	0		
-342931	1803	Sema [Sumi]	nu◦mighe	numighe	smile	smile	v	1.8.8.1	3.9.4	0		1105,m
-342932	1803	Sema [Sumi]	muma	muma	kiss	kiss	v	1.3.2.2	3.9.5	0		
-342933	1803	Sema [Sumi]	a◦hu	a◦hu	tooth	tooth		1.3.4	3.10	0		p,632
-342934	1803	Sema [Sumi]	atsü-hu	atsü-hu	incisor	incisor		1.3.4	3.10.1	0		m,632
-342935	1803	Sema [Sumi]	ahu-bo	ahu-bo	molar	molar		1.3.4.2	3.10.2	0		
-342936	1803	Sema [Sumi]	ahu-qhukuthau	ahu-qhukuthau	eyetooth / canine tooth / fang	eyetooth / canine tooth / fang		1.3.4.1	3.10.3	0		
-342937	1803	Sema [Sumi]	alakutsü hu	alakutsü hu	wisdom tooth	wisdom tooth		8.3.3.3.1	3.10.4	0		
-342938	1803	Sema [Sumi]	a◦nga-hu	a◦nga-hu	baby tooth	baby tooth		4.2.11	3.10.5	0		p,90,632
-342939	1803	Sema [Sumi]	miki	miki	bite	bite	v	1.3.4.4	3.10.7	0		
-342940	1803	Sema [Sumi]	qhütha	qhütha	bite	bite	v	1.3.4.4	3.10.7	0		
-342941	1803	Sema [Sumi]	tsa	tsa	chew	chew	v	1.3.4	3.10.8	0		1778?
-342942	1803	Sema [Sumi]	aghi muchu	aghi muchu	cheek	cheek		1.2.5.2	3.11	0		
-342943	1803	Sema [Sumi]	agi ghü◦za	agi ghü◦za	cheekbone / malar bone	cheekbone / malar bone		1.2.5.2	3.11.1	0		m,232,m
-342944	1803	Sema [Sumi]	amükhü	amükhü	chin	chin		1.2.5.3	3.12	0		
-342945	1803	Sema [Sumi]	a◦mukhu ghi	a◦mukhu ghi	jaw (general)	jaw (general)		1.2.5.2	3.13	0		p,273,232
-342946	1803	Sema [Sumi]	a◦mukhu aqhou ghi	a◦mukhu aqhou ghi	jaw (lower) / mandible	jaw (lower) / mandible		1.2.5.2	3.13.1	0		p,273,m,232
-342947	1803	Sema [Sumi]	a◦mukhu kungu-u ghi	a◦mukhu kungu-u ghi	jaw (upper) / maxilla	jaw (upper) / maxilla		1.2.5.2	3.13.2	0		p,273,m,m,232
-342948	1803	Sema [Sumi]	a◦kuo	akuo	neck	neck		1.4.2	4.1	0		p,389
-342949	1803	Sema [Sumi]	akole	akole	goiter	goiter		1.4.2.2	4.1.1	0		
-342950	1803	Sema [Sumi]	a◦kuwo lothi	akuwo lothi	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)		1.1.5.2	4.1.2	0		p,389,m
-342951	1803	Sema [Sumi]	a◦kuwo ghü	akuwo ghü	nape of neck	nape of neck		1.4.2.1	4.1.3	0		p,389,m
-342952	1803	Sema [Sumi]	akale ghi	akale ghi	adam's apple / larynx	adam's apple / larynx		1.5.3.2	4.1.4	0		
-342953	1803	Sema [Sumi]	akughaki	akughaki	throat / gullet / pharynx	throat / gullet / pharynx		1.3.5	4.2	0		
-342954	1803	Sema [Sumi]	atuthu kishela	atuthu kishela	windpipe / trachea	windpipe / trachea		1.3.5.2	4.2.1	0		
-342955	1803	Sema [Sumi]	achuqula	achuqula	esophagus	esophagus		1.3.5.5	4.2.2	0		
-342956	1803	Sema [Sumi]	munosü	munosü	swallow	swallow	v	1.3.5.6	4.2.3	0		
-342957	1803	Sema [Sumi]	achoki	achoki	gizzard / crop of bird	gizzard / crop of bird		1.7.6.1	4.2.4	0		
-342958	1803	Sema [Sumi]	amula	amula	chest	chest		1.4.4.3	5.1	0		
-342959	1803	Sema [Sumi]	ajibo	ajibo	rib cage	rib cage		1.4.4.3	5.1.1	0		
-342960	1803	Sema [Sumi]	akuchughi	akuchughi	rib	rib		1.4.4.3	5.1.2	0		
-342961	1803	Sema [Sumi]	amula ghi	amula ghi	breastbone / sternum	breastbone / sternum		1.6.3.2	5.1.3	0		
-342962	1803	Sema [Sumi]	atsü-ki◦ghi	atsü-ki◦ghi	collar bone / clavicle	collar bone / clavicle		1.4.3.1	5.2	0		m,m,232
-342963	1803	Sema [Sumi]	abighi	abighi	shoulder	shoulder		1.4.3	5.3	0		
-342964	1803	Sema [Sumi]	anaghu	anaghu	shoulder blade / scapula	shoulder blade / scapula		1.4.3.2	5.3.1	0		
-342965	1803	Sema [Sumi]	abighi kulo	abighi kulo	shrug shoulders	shrug shoulders	v	1.4.3.3	5.3.2	0		
-342966	1803	Sema [Sumi]	akichhi	akichhi	breast	breast		1.4.4.3	5.4	0		
-342967	1803	Sema [Sumi]	akichhiku	akichhiku	nipple	nipple			5.4.1	0		
-342968	1803	Sema [Sumi]	akichhi	akichhi	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		R
-342969	1803	Sema [Sumi]	a◦kichi◦zü	a◦kichi◦zü	milk	milk			5.4.3	0		p,m,1631
-342970	1803	Sema [Sumi]	kini◦zü	kini◦zü	milk	milk			5.4.3	0		m,1631
-342971	1803	Sema [Sumi]	akichhi◦zü atighiu	akichhi◦zü atighiu	colostrum	colostrum			5.4.4	0		m,1631,m
-342972	1803	Sema [Sumi]	ni	ni	suck	suck	v	1.3.2.1	5.4.5	0		254
-342973	1803	Sema [Sumi]	rini	rini	nurse / suckle	nurse / suckle	v	4.2.1.5	5.4.6	0		
-342974	1803	Sema [Sumi]	kho	kho	wean	wean			5.4.7	0		
-342975	1803	Sema [Sumi]	amuqa	amuqa	back	back		1.4.8	5.5	0		
-342976	1803	Sema [Sumi]	anaghu	anaghu	upper back	upper back		9.2.1	5.5.1	0		
-342977	1803	Sema [Sumi]	aghütsü	aghütsü	lower back	lower back		1.4.8.1	5.5.2	0		
-342978	1803	Sema [Sumi]	aghütsü aghulau	aghütsü aghulau	small of back	small of back		1.4.8.1	5.5.3	0		
-342979	1803	Sema [Sumi]	aghütsü-ghi	aghütsü-ghi	spine / backbone	spine / backbone		1.4.8.2	5.5.4	0		
-342980	1803	Sema [Sumi]	aghutsü nhü	aghutsü nhü	spinal cord	spinal cord		1.4.8.2	5.5.5	0		
-342981	1803	Sema [Sumi]	anaghu-hu-oboi	anaghu-hu-oboi	hunchback	hunchback		1.4.8.3	5.5.6	0		
-342982	1803	Sema [Sumi]	achita	achita	waist	waist		1.4.6	5.6	0		
-342983	1803	Sema [Sumi]	a◦po	a◦po	belly / abdomen	belly / abdomen		1.4.7	5.7	0		p,2103
-342984	1803	Sema [Sumi]	a◦po◦la	apola	navel	navel		1.9.4	5.7.1	0		p,2103,517
-342985	1803	Sema [Sumi]	akichhe	akichhe	pelvis / pelvic girdle	pelvis / pelvic girdle		1.4.9.2	5.8	0		
-342986	1803	Sema [Sumi]	ayiku	ayiku	hips	hips		1.4.9.2	5.8.1	0		
-342987	1803	Sema [Sumi]	ayikughi	ayikughi	hipbone	hipbone		1.4.9.2	5.8.2	0		
-342988	1803	Sema [Sumi]	atape	atape	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		
-342989	1803	Sema [Sumi]	amüqhü	amüqhü	crotch / fork of legs	crotch / fork of legs		1.4.9.1	5.9	0		
-342990	1803	Sema [Sumi]	amuqhi-thi	amuqhi-thi	swollen lymph nodes (of groin)	swollen lymph nodes (of groin)		1.1.5.2	5.9.1	0		
-342991	1803	Sema [Sumi]	ambo	ambo	rump	rump		1.4.10	5.10	0		
-342992	1803	Sema [Sumi]	asübanamuchu	asübanamuchu	buttocks	buttocks		1.4.10	5.10.1	0		
-342993	1803	Sema [Sumi]	amboghi	amboghi	talibone / coccyx	talibone / coccyx		1.6.3.3	5.10.2	0		
-342994	1803	Sema [Sumi]	a◦sho◦mi	ashomi	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		p,34,1288
-342995	1803	Sema [Sumi]	a◦u-mlo	a◦u-mlo	arm	arm		1.5.1.2	6.1	0		p,373,768
-342996	1803	Sema [Sumi]	akichi-qho	akichi-qho	underarm / armpit	underarm / armpit		1.5.1.2.3	6.1.1	0		
-342997	1803	Sema [Sumi]	küqhü	küqhü	tickle	tickle	v	1.5.1.2.4	6.1.1.1	0		
-342998	1803	Sema [Sumi]	au-mlo	au-mlo	upperarm	upperarm		1.5.1.2.1	6.1.2	0		
-342999	1803	Sema [Sumi]	a◦u-muloshi	a◦u-muloshi	biceps / arm muscles	biceps / arm muscles		1.5.1.2.1	6.1.3	0		p,373,m
-343000	1803	Sema [Sumi]	au-nhe	au-nhe	elbow	elbow		1.5.8.3	6.1.4	0		
-343001	1803	Sema [Sumi]	au-nhe◦ghi	au-nhe◦ghi	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		m,m,232
-343002	1803	Sema [Sumi]	au-nhe	au-nhe	crook of elbow / inner elbow	crook of elbow / inner elbow		1.5.8.3	6.1.4.2	0		
-343003	1803	Sema [Sumi]	au-tüqhü	au-tüqhü	wrist	wrist		1.5.8.1	6.1.6	0		
-343004	1803	Sema [Sumi]	a◦u	a◦u	hand	hand		1.5.1.1	6.1.7	0		p,373
-343005	1803	Sema [Sumi]	au-niza	au-niza	palm	palm		1.5.5	6.1.7.1	0		
-343006	1803	Sema [Sumi]	au-lopha	au-lopha	palm	palm		1.5.5	6.1.7.1	0		
-343007	1803	Sema [Sumi]	a◦u-sü	au-sü	fist	fist		1.5.1.1.1	6.1.7.3	0		p,373,m
-343008	1803	Sema [Sumi]	a◦u-azheu	a◦u-azheu	right hand	right hand		1.5.3.2	6.1.7.4	0		p,373
-343009	1803	Sema [Sumi]	a◦u piyiu	a◦u piyiu	left hand	left hand		1.5.3.2	6.1.7.5	0		p,373
-343010	1803	Sema [Sumi]	akha shomhi	akha shomhi	fin (of fish)	fin (of fish)		1.5.1.3.1	6.1.8	0		
-343011	1803	Sema [Sumi]	a◦ki◦chi◦bo	a◦ki◦chi◦bo	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		p,709,709,m
-343012	1803	Sema [Sumi]	apukhumuza	apukhumuza	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
-343013	1803	Sema [Sumi]	apukhu	apukhu	leg	leg		1.5.7	6.2	0		
-343014	1803	Sema [Sumi]	aluko	aluko	thigh	thigh		1.5.7.1	6.2.1	0		
-343015	1803	Sema [Sumi]	aluko-ghi	aluko-ghi	thigh bone / femur	thigh bone / femur		1.5.7.1	6.2.1.1	0		m,232
-343016	1803	Sema [Sumi]	apikanhü	apikanhü	hamstring	hamstring		1.6.6.2	6.2.1.2	0		
-343017	1803	Sema [Sumi]	a◦kho◦nhe	a◦kho◦nhe	knee	knee		1.5.8.4	6.2.2	0		p,1251,m
-343018	1803	Sema [Sumi]	a◦kho-nhe kuqho ghi	akho-nhe kuqho ghi	knee cap / patella	knee cap / patella		1.5.8.4	6.2.2.1	0		p,1251,m,m,m
-343019	1803	Sema [Sumi]	kho◦nhe◦bo	khonhebo	knee hollow / popliteal region	knee hollow / popliteal region		1.5.8.4	6.2.2.2	0		1251,m,m
-343020	1803	Sema [Sumi]	aghanhe◦ghi	aghanheghi	shin	shin		1.5.7.2	6.2.3	0		m,232
-343021	1803	Sema [Sumi]	aghanhe◦ghi	aghanhe◦ghi	shin bone / tibia	shin bone / tibia		1.5.7.2	6.2.3.1	0		m,232
-343022	1803	Sema [Sumi]	apite	apite	calf	calf		1.5.7	6.2.4	0		
-343023	1803	Sema [Sumi]	a◦la◦u◦nhe	a◦la◦u◦nhe	ankle	ankle		1.5.8.2	6.2.5	0		p,350,m,682
-343024	1803	Sema [Sumi]	a◦la◦u◦nhe ghi	a◦la◦u◦nhe ghi	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		p,350,m,682,232
-343025	1803	Sema [Sumi]	apukhu lapha	apukhu lapha	foot	foot		1.5.2	6.2.6	0		
-343026	1803	Sema [Sumi]	aphi tsü	aphi tsü	heel	heel		1.5.2.1	6.2.6.1	0		
-343027	1803	Sema [Sumi]	aphi tsü nhü	aphi tsü nhü	achilles tendon	achilles tendon		1.6.6.1	6.2.6.2	0		
-343028	1803	Sema [Sumi]	apukhu bakhu	apukhu bakhu	arch	arch		1.5.2.3	6.2.6.3	0		
-343029	1803	Sema [Sumi]	apukhu-ayeghi kineu	apukhu-ayeghi kineu	sole	sole		1.5.5	6.2.6.5	0		
-343030	1803	Sema [Sumi]	apukhu bokhu	apukhu bokhu	instep	instep		1.5.2.2	6.2.6.6	0		
-343031	1803	Sema [Sumi]	apukhu nepa	apukhu nepa	footprint	footprint		1.5.2.5	6.2.6.7	0		
-343032	1803	Sema [Sumi]	apukhu mutsü	apukhu mutsü	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		
-343033	1803	Sema [Sumi]	apukhu muza	apukhu muza	paw (of animal)	paw (of animal)		1.5.4	6.2.6.9	0		
-343034	1803	Sema [Sumi]	apukhu kighiche	apukhu kighiche	crippled / lame	crippled / lame		4.2.7	6.2.7	0		
-343035	1803	Sema [Sumi]	khul-khuliyi	khul-khuliyi	limp	limp	v	1.5.12	6.2.8	0		
-343036	1803	Sema [Sumi]	aulati	aulati	finger	finger		1.5.6	7.1	0		
-343037	1803	Sema [Sumi]	aulati amtau	aulati amtau	middle finger	middle finger		1.9.4	7.1.2	0		
-343038	1803	Sema [Sumi]	ajeulati	ajeulati	ring finger	ring finger		1.5.6.2	7.1.3	0		
-343039	1803	Sema [Sumi]	aulati aghulau	aulati aghulau	little finger	little finger		9.7.2	7.1.4	0		
-343040	1803	Sema [Sumi]	auloqhu	auloqhu	thumb	thumb		1.5.6.1	7.1.5	0		
-343041	1803	Sema [Sumi]	aulati kughuna	aulati kughuna	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
-343042	1803	Sema [Sumi]	apukhu lati	apukhu lati	toe	toe		1.5.6	7.2	0		
-343043	1803	Sema [Sumi]	apukhu loqhu	apukhu loqhu	big toe	big toe		1.5.6.1	7.2.1	0		
-343044	1803	Sema [Sumi]	apukhu lati anupau	apukhu lati anupau	little toe	little toe		9.7.2	7.2.5	0		
-343045	1803	Sema [Sumi]	au-nhe	au-nhe	knuckle (joint of digit)	knuckle (joint of digit)		1.5.8.5	7.3	0		
-343046	1803	Sema [Sumi]	au-mütsü	au-mütsü	nail	nail		1.5.10	7.4	0		m,515
-343047	1803	Sema [Sumi]	au-mutsü	au-mutsü	fingernail	fingernail		1.5.10.1	7.4.1	0		m,515
-343048	1803	Sema [Sumi]	apukhu-mütsü	apukhu-mütsü	toenail	toenail		1.5.10.2	7.4.2	0		
-343049	1803	Sema [Sumi]	au-mutsü	au-mutsü	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		m,515
-343050	1803	Sema [Sumi]	do	do	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		
-343051	1803	Sema [Sumi]	auloqhu	auloqhu	pincers (e.g. of crab)	pincers (e.g. of crab)		1.5.10.4	7.4.5	0		
-343052	1803	Sema [Sumi]	a◦sa	a◦sa	hair (general)	hair (general)		1.2.3	8.1	0		p,366
-343053	1803	Sema [Sumi]	a◦kü◦tsü-sa	a◦kü◦tsü-sa	hair of head	hair of head		1.2.3	8.1.1	0		p,386,m,366
-343054	1803	Sema [Sumi]	agi-mhi	agi-mhi	hair (facial)	hair (facial)		1.2.3	8.1.2	0		m,363
-343055	1803	Sema [Sumi]	amükhü mhi	amükhü mhi	beard	beard		1.2.5.5	8.1.2.1	0		m,363
-343056	1803	Sema [Sumi]	amukhü mhi	amukhü mhi	goatee	goatee		1.2.5.5	8.1.2.2	0		m,363
-343057	1803	Sema [Sumi]	akichi-mhi	akichi-mhi	moustache	moustache		1.2.5.5	8.1.2.3	0		m,363
-343058	1803	Sema [Sumi]	a◦mhi	a◦mhi	body hair	body hair		1.6.1	8.1.3	0		p,363
-343059	1803	Sema [Sumi]	amula mhi	amula mhi	chest hair	chest hair		1.4.4.5	8.1.3.2	0		m,363
-343060	1803	Sema [Sumi]	apukhu mhi	apukhu mhi	leg hair	leg hair		1.5.7	8.1.3.3	0		m,363
-343061	1803	Sema [Sumi]	a◦mhi	a◦mhi	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		p,363
-343062	1803	Sema [Sumi]	a◦mhi	a◦mhi	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		p,363
-343063	1803	Sema [Sumi]	a◦mhi	a◦mhi	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		p,363
-343064	1803	Sema [Sumi]	akichimhi	akichimhi	whiskers (of animal)	whiskers (of animal)		1.2.5.5	8.1.7	0		
-343065	1803	Sema [Sumi]	a◦yi◦ko	a◦yi◦ko	skin	skin		1.6.5	8.2	0		p,596,589
-343066	1803	Sema [Sumi]	a◦tsun◦hi-zü	atsunhi-zü	sweat / perspiration	sweat / perspiration		1.8.1	8.2.1	0		
-343067	1803	Sema [Sumi]	atsunhiki	atsunhiki	pore	pore		1.8.1.1	8.2.2	0		
-343068	1803	Sema [Sumi]	azaku	azaku	blemish on skin	blemish on skin		1.6.5	8.2.3	0		
-343069	1803	Sema [Sumi]	thochigha	thochigha	pimple	pimple		1.6.5.3	8.2.3.2	0		
-343070	1803	Sema [Sumi]	achichipu	achichipu	mole	mole		2.2.7	8.2.3.3	0		
-343071	1803	Sema [Sumi]	apithe	apithe	wart	wart		1.6.5.3	8.2.3.4	0		
-343072	1803	Sema [Sumi]	ashi ala	ashi ala	cyst	cyst		1.6.5.3	8.2.3.5	0		
-343073	1803	Sema [Sumi]	azaku	azaku	scar	scar		1.6.5.3	8.2.3.7	0		
-343074	1803	Sema [Sumi]	ichonhe	ichonhe	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
-343075	1803	Sema [Sumi]	mutho◦gha	mutho◦gha	rash	rash		1.6.5.3	8.2.3.9	0		1457,m
-343076	1803	Sema [Sumi]	akumho	akumho	rash	rash		1.6.5.3	8.2.3.9	0		
-343077	1803	Sema [Sumi]	mutho	mutho	itch / itchy	itch / itchy	v	1.6.5.5	8.2.3.10	0		1457
-343078	1803	Sema [Sumi]	mutho◦gha	mutho◦gha	scab	scab		1.6.5.3	8.2.4	0		1457,m
-343079	1803	Sema [Sumi]	akha yiko	akha yiko	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		
-343080	1803	Sema [Sumi]	ayiko	ayiko	hide / leather	hide / leather		1.6.5.1	8.2.6	0		
-343081	1803	Sema [Sumi]	a◦tha	a◦tha	fat	fat		1.6.4	8.3	0		p,60
-343082	1803	Sema [Sumi]	amichi	amichi	fat around intestines / omentum	fat around intestines / omentum		1.6.4	8.3.1	0		
-343083	1803	Sema [Sumi]	a◦tha-zü	atha-zü	oil / grease (for cooking)	oil / grease (for cooking)		1.6.4.1	8.3.2	0		p,60,1631
-343084	1803	Sema [Sumi]	a◦ghü	a◦ghü	bone	bone		1.6.3	8.4	0		p,232
-343085	1803	Sema [Sumi]	amünhü	amünhü	sinew / tendon (muscle to bone)	sinew / tendon (muscle to bone)		1.6.6.1	8.5	0		
-343086	1803	Sema [Sumi]	anhü	anhü	ligament (bone to bone)	ligament (bone to bone)		1.6.3	8.6	0		
-343087	1803	Sema [Sumi]	a◦ji	a◦ji	blood	blood		1.6.2	8.7	0		p,230
-343088	1803	Sema [Sumi]	a◦ji nhü	a◦ji nhü	blood vessel / vein / artery	blood vessel / vein / artery		1.6.2.1	8.7.1	0		p,230,m
-343089	1803	Sema [Sumi]	ajipo	ajipo	bleed	bleed	v	1.6.2	8.7.2	0		
-343090	1803	Sema [Sumi]	ashi piti	ashi piti	muscle	muscle		1.6.6.2	8.8	0		
-343091	1803	Sema [Sumi]	apiti	apiti	muscle	muscle		1.6.6.2	8.8	0		
-343092	1803	Sema [Sumi]	atüqhü	atüqhü	joint	joint		1.5.8	8.9	0		
-343093	1803	Sema [Sumi]	anhü	anhü	nerve	nerve		1.6.6.3	8.10	0		
-343094	1803	Sema [Sumi]	aqho	aqho	brain	brain		1.2.4	9.1	0	D1	
-343095	1803	Sema [Sumi]	aghütsü nhü	aghütsü nhü	spinal cord	spinal cord		1.4.8.2	9.1.1	0		
-343096	1803	Sema [Sumi]	aqü	aqü	marrow	marrow		1.6.3.5	9.1.2	0		
-343097	1803	Sema [Sumi]	aphe	aphe	lung	lung		1.7.2	9.2	0		
-343098	1803	Sema [Sumi]	atuthu she	atuthu she	breathe	breathe	v	1.1.2.2	9.2.1	0		
-343099	1803	Sema [Sumi]	atuthu she kukuno	atuthu she kukuno	pant	pant		1.1.2.2	9.2.2	0		
-343100	1803	Sema [Sumi]	fu	fu	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		75
-343101	1803	Sema [Sumi]	anhighi	anhighi	gill (of fish)	gill (of fish)		1.3.5.3	9.2.4	0		
-343102	1803	Sema [Sumi]	aghiho	aghiho	phlegm	phlegm		1.8.3	9.2.5	0		
-343103	1803	Sema [Sumi]	a◦mulo	a◦mu◦lo	heart	heart		1.7.1	9.3	0		p,1381
-343104	1803	Sema [Sumi]	a◦mulo kughütha	a◦mu◦lo kughütha	heartbeat	heartbeat		1.7.1.1	9.3.1	0		p,1381,m
-343105	1803	Sema [Sumi]	a◦mulo küghütha	a◦mu◦lo küghütha	pulse	pulse		1.7.1.1	9.3.2	0		p,1381,m
-343106	1803	Sema [Sumi]	kighinali	kighinali	viscera / guts / entrails (in general)	viscera / guts / entrails (in general)		1.7.7	9.4	0		
-343107	1803	Sema [Sumi]	a◦lo◦shi	a◦lo◦shi	liver	liver		1.7.3	9.5	0		m,1390
-343108	1803	Sema [Sumi]	atithi	atithi	bile	bile		1.7.3.1	9.5.1	0		
-343109	1803	Sema [Sumi]	atithibo	atithibo	gall bladder	gall bladder		1.7.3	9.5.2	0		
-343110	1803	Sema [Sumi]	a◦khü◦lü	a◦khü◦lü	kidney	kidney		1.7.5	9.6	0		p,201,m
-343111	1803	Sema [Sumi]	a◦mchi◦thi	amchithi	kidney	kidney		1.7.5	9.6	0		p,201,m
-343112	1803	Sema [Sumi]	akhachebo	akhachebo	bladder (urinary)	bladder (urinary)		1.7.8	9.7	0		
-343113	1803	Sema [Sumi]	apujo	apujo	urine	urine		1.8.4	9.7.1	0		
-343114	1803	Sema [Sumi]	pujo	pujo	urinate	urinate	v	1.5.3.2	9.7.2	0		
-343115	1803	Sema [Sumi]	a◦pu	a◦pu	spleen	spleen		1.7.4	9.8	0		p,91
-343116	1803	Sema [Sumi]	a◦pu-küsü	a◦pu-küsü	swollen spleen (illness)	swollen spleen (illness)		1.1.5.2	9.8.1	0		p,91,m
-343117	1803	Sema [Sumi]	akinekuxa	akinekuxa	pancreas	pancreas		1.7.7	9.9	0		
-343118	1803	Sema [Sumi]	akive	akive	stomach	stomach		1.7.6	9.10	0		
-343119	1803	Sema [Sumi]	a◦ki◦ghi	a◦ki◦ghi	intestines / bowels	intestines / bowels		1.7.7	9.11	0		p,m,2127
-343120	1803	Sema [Sumi]	ki◦ghi◦noli	kighinoli	intestines / bowels	intestines / bowels		1.7.7	9.11	0		m,2127,m
-343121	1803	Sema [Sumi]	a◦kho◦ghe	a◦kho◦ghe	intestine (large)	intestine (large)		1.7.6	9.11.1	0		p,m,2127
-343122	1803	Sema [Sumi]	aki◦ghi aghulou	akighi aghulou	intestine (small)	intestine (small)		1.7.6	9.11.2	0		m,2127,m
-343123	1803	Sema [Sumi]	ashepu	ashepu	anus / rectum	anus / rectum		1.4.10.2	9.12	0		
-343124	1803	Sema [Sumi]	ajikhi	ajikhi	anus / rectum	anus / rectum		1.4.10.2	9.12	0		
-343125	1803	Sema [Sumi]	a◦ba	a◦ba	feces / shit	feces / shit		1.8.5	9.12.1	0		p,575
-343126	1803	Sema [Sumi]	a◦nga ba	a◦nga ba	meconium / baby shit	meconium / baby shit		1.8.5	9.12.2	0		p,90,575
-343127	1803	Sema [Sumi]	ba	ba	defecate	defecate	v	1.8.5.4	9.12.3	0		575
-343128	1803	Sema [Sumi]	aphighü	aphighü	genitalia / pudenda (general)	genitalia / pudenda (general)		1.9.1	10.1	0		
-343129	1803	Sema [Sumi]	amone	amone	copulate / have intercourse	copulate / have intercourse	v	1.9.1.1	10.2	0		
-343130	1803	Sema [Sumi]	küda	küda	copulate / have intercourse	copulate / have intercourse	v	1.9.1.1	10.2	0		
-343131	1803	Sema [Sumi]	kipitimi	kipitimi	male	male		1.9.6.1	10.3	0		
-343132	1803	Sema [Sumi]	acho	acho	penis	penis			10.3.1	0		
-343133	1803	Sema [Sumi]	acho ku◦mutsü	acho ku◦mutsü	glans / head of penis	glans / head of penis			10.3.2	0		m,386,m
-343134	1803	Sema [Sumi]	aphighi kümüstü yiko	aphighi kümüstü yiko	foreskin	foreskin			10.3.3	0		
-343135	1803	Sema [Sumi]	achokughu	achokughu	scrotum	scrotum			10.3.4	0		
-343136	1803	Sema [Sumi]	achokughu◦thi	achokughu◦thi	testicle	testicle			10.3.5	0		m,1019
-343137	1803	Sema [Sumi]	acho mhi	acho mhi	hair (male, pubic)	hair (male, pubic)		1.2.3	10.3.6	0		m,363
-343138	1803	Sema [Sumi]	aphi-zü	aphi-zü	semen / sperm	semen / sperm			10.3.7	0		m,642
-343139	1803	Sema [Sumi]	achozü	achozü	ejaculate	ejaculate	v		10.3.8	0		
-343140	1803	Sema [Sumi]	achokughu ghovekeu	achokughu ghovekeu	castrate	castrate	v	1.9.2.3	10.3.9	0		
-343141	1803	Sema [Sumi]	toti◦mi	toti◦mi	female	female		1.9.3	10.4	0		m,1618
-343142	1803	Sema [Sumi]	amaki	amaki	vagina	vagina			10.4.1	0		
-343143	1803	Sema [Sumi]	amo	amo	vulva / labia	vulva / labia			10.4.2	0		
-343144	1803	Sema [Sumi]	mithe-michi	mithe-michi	hymen	hymen			10.4.3	0		
-343145	1803	Sema [Sumi]	amoxüthi	amoxüthi	clitoris	clitoris			10.4.4	0		
-343146	1803	Sema [Sumi]	amo mhi	amo mhi	hair (female, pubic)	hair (female, pubic)		1.2.3	10.4.5	0		m,363
-343147	1803	Sema [Sumi]	alhakusa ji	alhakusa ji	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		m,230
-343148	1803	Sema [Sumi]	atita	atita	uterus / womb	uterus / womb			10.4.8	0		
-343149	1803	Sema [Sumi]	axuthibo	axuthibo	amniotic sac / bag of waters	amniotic sac / bag of waters			10.4.9	0		
-343150	1803	Sema [Sumi]	axuthizü	axuthizü	amniotic fluid	amniotic fluid			10.4.10	0		
-343151	1803	Sema [Sumi]	amo nha	amo nha	placenta / afterbirth	placenta / afterbirth			10.4.11	0		
-343152	1803	Sema [Sumi]	a◦nga pola	a◦nga pola	umbilical cord	umbilical cord			10.4.12	0		p,90,m
-343153	1803	Sema [Sumi]	apola	apola	umbilical cord	umbilical cord			10.4.12	0		
-343154	1803	Sema [Sumi]	nishi	nishi	pregnant	pregnant		1.9.6.1	10.4.14	0		
-343155	1803	Sema [Sumi]	punu	punu	birth, give	birth, give		1.1.2	10.4.15	0		1863
-343156	1803	Sema [Sumi]	a◦wu◦khu	awukhu	egg (of animal)	egg (of animal)			10.4.16	0		p,1603,305
-343157	1803	Sema [Sumi]	akhi	akhi	cough	cough		1.8.3.3	11.1	0		
-343158	1803	Sema [Sumi]	ichi	ichi	cough	cough		1.8.3.3	11.1	0		
-343159	1803	Sema [Sumi]	muchuka	muchuka	hiccup	hiccup		1.8.3.5	11.2	0		
-343160	1803	Sema [Sumi]	hachhi	hachhi	sneeze	sneeze		1.8.2.1	11.3	0		
-343161	1803	Sema [Sumi]	nhizü	nhizü	snore	snore		1.8.2.2	11.4	0		
-343162	1803	Sema [Sumi]	mizhi	mizhi	whistle	whistle		8.5.5	11.5	0		
-343163	1803	Sema [Sumi]	eu	eu	burp / belch	burp / belch		1.8.3	11.6	0		3443
-343164	1803	Sema [Sumi]	piyi	piyi	fart	fart		1.8.5.2	11.7	0		
-343165	1803	Sema [Sumi]	mucho	mucho	clear throat	clear throat		9.6.1.1	11.8	0		
-343166	1803	Sema [Sumi]	(aku)◦nu	(aku)nu	laugh	laugh		1.8.8.1	11.9	0		m,1105
-343167	1803	Sema [Sumi]	sükuthü	sükuthü	tremble / shiver / shudder	tremble / shiver / shudder		1.6.6.2.1	12.1	0		
-343168	1803	Sema [Sumi]	itha	itha	tremble / shiver / shudder	tremble / shiver / shudder		1.6.6.2.1	12.1	0		
-343169	1803	Sema [Sumi]	küsü-kini	küsü-kini	sick / ill / hurt	sick / ill / hurt	v	1.1.5.1	12.2	0		
-343170	1803	Sema [Sumi]	ithamula	ithamula	numb / paralyzed	numb / paralyzed	v	1.5.11	12.3	0		
-343171	1803	Sema [Sumi]	thizügyi	thizügyi	numb / paralyzed	numb / paralyzed	v	1.5.11	12.3	0		
-343172	1803	Sema [Sumi]	ingu	ingu	swell	swell	v	1.1.5.2	12.4	0		
-343173	1803	Sema [Sumi]	ingughuyi	ingughuyi	swollen, be	swollen, be	v	1.1.5.2	12.4	0		
-343174	1803	Sema [Sumi]	a◦ni	a◦ni	pus	pus		1.8.6.1	12.5	0		p,1294
-343175	1803	Sema [Sumi]	apiyi	apiyi	abscess / ulcer / open wound	abscess / ulcer / open wound		1.8.6.2	12.6	0		
-343176	1803	Sema [Sumi]	aghüza	aghüza	abscess / ulcer / open wound	abscess / ulcer / open wound		1.8.6.2	12.6	0		
-343177	1803	Sema [Sumi]	au loti kipishe kimighi	au loti kipishe kimighi	phalanx (knuckle length)	phalanx (knuckle length)		1.5.8.5	13.1	0		
-343178	1803	Sema [Sumi]	a◦u kha kimighü	a◦u kha kimighü	hand span (thumb to middle finger)	hand span (thumb to middle finger)		1.5.1.1	13.2	0		p,373
-343179	1803	Sema [Sumi]	au nhe kipishe	au nhe kipishe	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		
-343180	1803	Sema [Sumi]	putoputoːu kucho	putoputoːu kucho	cord / fathom (outstretched arms)	cord / fathom (outstretched arms)		1.5.9.5	13.4	0		
-343181	1803	Sema [Sumi]	putoputoːu kuchho	putoputoːu kuchho	left fingertip to right fingertip	left fingertip to right fingertip		1.5.3.2	13.4.2	0		
-343182	1803	Sema [Sumi]	akükümsü	akükümsü	mind / locus of thought	mind / locus of thought		1.10	14.1	0		
-343183	1803	Sema [Sumi]	a◦mlo ghime	a◦m◦lo ghime	heart / locus of emotions	heart / locus of emotions		1.7.1	14.2	0		p,1381,m
-343184	1803	Sema [Sumi]	alokiui	alokiui	heart / locus of emotions	heart / locus of emotions		1.7.1	14.2	0		
-343185	1803	Sema [Sumi]	a◦mlo	a◦m◦lo	heart / locus of personality	heart / locus of personality		1.7.1	14.3	0		p,1381
-343186	1803	Sema [Sumi]	aqho	aqho	heart / locus of personality	heart / locus of personality		1.7.1	14.3	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+342839	1803	Sema [Sumi]	aphimpi	aphimpi	body	body			1.1.1	1.1	0			
+342840	1803	Sema [Sumi]	ajeu	ajeu	side (right)	side (right)			1.4.5	1.2	0			
+342841	1803	Sema [Sumi]	piyiu	piyiu	side (left)	side (left)			1.4.5	1.3	0			
+342842	1803	Sema [Sumi]	amüqha	amüqha	back	back			1.4.8	1.4	0			
+342843	1803	Sema [Sumi]	azüu	azüu	front	front			1.4.4	1.5	0			
+342844	1803	Sema [Sumi]	aphimpi	aphimpi	torso / trunk	torso / trunk			1.5.3.2	1.6	0			
+342845	1803	Sema [Sumi]	aphiau	aphiau	limbs / arms and legs	limbs / arms and legs			1.5.3.1	1.7	0			
+342846	1803	Sema [Sumi]	alukobo	alukobo	lap	lap			1.4.4.2	1.8	0			
+342847	1803	Sema [Sumi]	apuqho	apuqho	bosom	bosom			1.4.4.2	1.9	0			
+342848	1803	Sema [Sumi]	apokha	apokha	groin / loins (hips to thighs)	groin / loins (hips to thighs)			1.4.9	1.10	0			
+342849	1803	Sema [Sumi]	a◦shi	a◦shi	flesh / meat	flesh / meat			1.1.1.1	1.11	0			p,34
+342850	1803	Sema [Sumi]	akuxü	akuxü	alive / living, be	alive / living, be			1.1.2.1	1.12	0			
+342851	1803	Sema [Sumi]	a◦ki◦thi	a◦ki◦thi	die / dead, be	die / dead, be			1.1.6	1.13	0			p,m,27
+342852	1803	Sema [Sumi]	a◦ki◦thi◦ku◦mo	a◦ki◦thi◦kumo	corpse / dead body	corpse / dead body			1.1.6.1	1.14	0			p,m,27,m,17
+342853	1803	Sema [Sumi]	a◦ku◦mo	akumo	corpse / dead body	corpse / dead body			1.1.6.1	1.14	0			m,m,17
+342854	1803	Sema [Sumi]	a◦ki◦thi◦ku◦mo	a◦ki◦thi◦kumo	carcass / dead animal	carcass / dead animal			1.1.6.1	1.15	0			p,m,27,m,17
+342855	1803	Sema [Sumi]	akumo	akumo	carcass / dead animal	carcass / dead animal			1.1.6.1	1.15	0			
+342856	1803	Sema [Sumi]	aküzü	aküzü	sleep / asleep, be	sleep / asleep, be			1.1.4.1	1.16	0			
+342857	1803	Sema [Sumi]	zükeu	zükeu	sleep / asleep, be	sleep / asleep, be			1.1.4.1	1.16	0			
+342858	1803	Sema [Sumi]	ithu(ghiva)	ithu(ghiva)	awake / awake, be	awake / awake, be			1.1.4	1.17	0			
+342859	1803	Sema [Sumi]	idavekcu	idavekcu	awake / awake, be	awake / awake, be			1.1.4	1.17	0			
+342860	1803	Sema [Sumi]	asamo	asamo	dream	dream	v	v	1.1.4.2	1.18	0			
+342861	1803	Sema [Sumi]	a◦ku◦tsü	a◦ku◦tsü	head	head			1.2.1	2.1	0			p,386,m
+342862	1803	Sema [Sumi]	a◦ku◦tsü qho	a◦ku◦tsü qho	head (top) / crown / pate	head (top) / crown / pate			1.2.1.2	2.2	0			p,386,m,m
+342863	1803	Sema [Sumi]	apuyi	apuyi	fontanel	fontanel			1.2.1.3	2.3	0			
+342864	1803	Sema [Sumi]	aboghe	aboghe	skull	skull			1.2.1.1	2.4	0			
+342865	1803	Sema [Sumi]	aqho	aqho	brain	brain			1.2.4	2.5	0	jbl5	HIDE	DUPE IN SOURCE
+342866	1803	Sema [Sumi]	assa	assa	sinus	sinus			1.2.8.1	2.6	0			
+342867	1803	Sema [Sumi]	a◦ku◦tsü◦sa	a◦ku◦tsü◦sa	hair of head	hair of head			1.2.3	2.7	0			p,386,m,366
+342868	1803	Sema [Sumi]	akshe	akshe	scalp	scalp			1.2.1.5	2.8	0			
+342869	1803	Sema [Sumi]	a◦miche	amiche	comb (of rooster)	comb (of rooster)			1.2.2.1	2.9	0			p,1471
+342870	1803	Sema [Sumi]	a◦ki◦bo	a◦ki◦bo	horn (of animal)	horn (of animal)			1.2.2	2.10	0			p,2012,m
+342871	1803	Sema [Sumi]	a◦ki◦bo	a◦ki◦bo	antler (of deer)	antler (of deer)			1.2.2	2.11	0			p,2012,m
+342872	1803	Sema [Sumi]	agi	agi	face	face			1.2.5	3.1	0			
+342873	1803	Sema [Sumi]	anhekita	anhekita	forehead / brow	forehead / brow			1.2.5.1	3.2	0			
+342874	1803	Sema [Sumi]	anhigi	anhigi	temple	temple			1.2.5.1	3.3	0			
+342875	1803	Sema [Sumi]	a◦nhe◦thi	anhe◦thi	eye	eye			1.2.6	3.4	0			p,682,1019
+342876	1803	Sema [Sumi]	anhethi-yiko	anhethi-yiko	eyelid	eyelid			1.2.6.4	3.4.1	0			
+342877	1803	Sema [Sumi]	a◦nhe◦thi	anhe◦thi	eyeball	eyeball			1.2.6.1	3.4.2	0			p,681,1019
+342878	1803	Sema [Sumi]	anganhethi	anganhethi	pupil	pupil			1.2.6.2	3.4.2.2	0			
+342879	1803	Sema [Sumi]	anhekita	anhekita	eyebrow	eyebrow			1.2.6.6	3.4.3	0			
+342880	1803	Sema [Sumi]	anhethimhi	anhethimhi	eyelash	eyelash			1.2.6.5	3.4.4	0			
+342881	1803	Sema [Sumi]	anhe-kütsü	anhe-kütsü	blink	blink	v	v	1.2.6.12	3.4.5	0			
+342882	1803	Sema [Sumi]	anhe-zü	anhe-zü	tear	tear	n	n	1.8.8.1	3.4.6	0			m,1631
+342883	1803	Sema [Sumi]	qa	qa	cry / weep	cry / weep	v	v	1.8.8.2	3.4.8	0			
+342884	1803	Sema [Sumi]	qa-mlo	qa-mlo	cry / weep	cry / weep	v	v	1.8.8.2	3.4.8	0			
+342885	1803	Sema [Sumi]	zhu	zhu	see / look	see / look	v	v	1.2.6.10	3.4.9	0			
+342886	1803	Sema [Sumi]	a◦nhe◦thi kighi◦che	anhethi kighiche	blind	blind			1.2.6.14.2	3.4.10	0			p,682,m,m,1401
+342887	1803	Sema [Sumi]	angi	angi	nose	nose			1.2.8	3.5	0			
+342888	1803	Sema [Sumi]	angi toghi	angi toghi	nose bridge	nose bridge			1.2.8	3.5.1	0			
+342889	1803	Sema [Sumi]	angi kighipe	angi kighipe	nostril	nostril			1.2.8.1	3.5.2	0			
+342890	1803	Sema [Sumi]	angi-mhi	angi-mhi	nose hair	nose hair			1.2.8	3.5.4	0			m,363
+342891	1803	Sema [Sumi]	anheghu	anheghu	snout (of pig, etc)	snout (of pig, etc)			1.2.8	3.5.5	0			
+342892	1803	Sema [Sumi]	a◦nha	anha	mucus (liquid)	mucus (liquid)			1.8.2	3.5.6	0			p,805
+342893	1803	Sema [Sumi]	a◦nha ki(pi)ki	anha ki(pi)ki	mucus (solid)	mucus (solid)			1.8.2	3.5.7	0			p,805,m
+342894	1803	Sema [Sumi]	anigi küsü	anigi küsü	blow nose	blow nose	v	v	1.3.1.4	3.5.8	0			
+342895	1803	Sema [Sumi]	tsü◦ngu	tsü◦ngu	smell / sniff	smell / sniff	v	v	1.2.8.5	3.5.9	0			m,1418
+342896	1803	Sema [Sumi]	a◦kini	a◦kini	ear	ear			1.2.7	3.6	0			p,811
+342897	1803	Sema [Sumi]	a◦ki◦ni-niqhe	a◦ki◦ni-niqhe	earlobe	earlobe			1.2.7.1	3.6.1	0			p,m,811,m
+342898	1803	Sema [Sumi]	aniqe	aniqe	earlobe	earlobe			1.2.7.1	3.6.1	0			
+342899	1803	Sema [Sumi]	a◦kini◦bo	a◦kini◦bo	ear (outer)	ear (outer)			1.2.7	3.6.2	0			p,811,m
+342900	1803	Sema [Sumi]	a◦kini-ki	a◦kini-ki	ear canal	ear canal			1.2.7	3.6.3	0			p,811,m
+342901	1803	Sema [Sumi]	a◦ki◦ni-ba	a◦ki◦ni-ba	earwax	earwax			1.2.7.3	3.6.6	0			p,m,811,m
+342902	1803	Sema [Sumi]	chilu	chilu	hear	hear	v	v	1.2.7.4	3.6.7	0			
+342903	1803	Sema [Sumi]	ibo	ibo	deaf	deaf			1.2.7.5	3.6.8	0			
+342904	1803	Sema [Sumi]	abaxa	abaxa	mouth	mouth			1.3.1	3.7	0			
+342905	1803	Sema [Sumi]	a◦ki◦chi	akichi	mouth	mouth			1.3.1	3.7	0			p,2133,686
+342906	1803	Sema [Sumi]	ataha	ataha	palate	palate			1.3.1.1	3.7.1	0			
+342907	1803	Sema [Sumi]	ataha	ataha	palate (soft)	palate (soft)			1.3.1.1	3.7.2	0			
+342908	1803	Sema [Sumi]	a◦hu-mili	ahu-mili	gums	gums			1.3.4.3	3.7.3	0			p,632,621
+342909	1803	Sema [Sumi]	awuti	awuti	uvula	uvula			1.3.5.1	3.7.4	0			
+342910	1803	Sema [Sumi]	a◦mtsa◦zü	a◦mtsa◦zü	saliva	saliva			1.8.3	3.7.5	0			p,m,1631
+342911	1803	Sema [Sumi]	chu	chu	eat	eat	v	v	1.5.3.2	3.7.6	0			36
+342912	1803	Sema [Sumi]	ye	ye	drink	drink	v	v		3.7.7	0			
+342913	1803	Sema [Sumi]	tüghüthi	tüghüthi	thirsty	thirsty	v	v	1.1.3.1	3.7.8	0			
+342914	1803	Sema [Sumi]	müzüthi	müzüthi	hungry	hungry	v	v	1.1.3	3.7.9	0			
+342915	1803	Sema [Sumi]	aposünheyi	aposünheyi	full / satiated, be	full / satiated, be			1.1.3.2	3.7.10	0			
+342916	1803	Sema [Sumi]	a◦miti	a◦miti	spit	spit	v	v	1.8.3	3.7.11	0			p,600
+342917	1803	Sema [Sumi]	a◦ku◦mughu	akumughu	vomit	vomit	n	n	1.8.3.2	3.7.12	0			p,m,5697
+342918	1803	Sema [Sumi]	mughu	mughu	vomit	vomit	v	v	1.8.3.2	3.7.13	0			5697
+342919	1803	Sema [Sumi]	muqapu	muqapu	hold in mouth	hold in mouth	v	v	1.3.4.4	3.7.14	0			
+342920	1803	Sema [Sumi]	abaxa-muhu	abaxa-muhu	gape / open mouth	gape / open mouth	v	v	1.3.1	3.7.15	0			
+342921	1803	Sema [Sumi]	i◦hu	ihu	yawn	yawn	v	v	1.3.1.3	3.7.16	0			m,1716?
+342922	1803	Sema [Sumi]	a◦mili	a◦mi◦li	tongue	tongue			1.3.3	3.8	0			p,621
+342923	1803	Sema [Sumi]	pi	pi	speak	speak	v	v	8.5.10.1	3.8.1	0			
+342924	1803	Sema [Sumi]	atsaü-üshikeu	atsaü-üshikeu	stutter / stammer	stutter / stammer	v	v	8.5.4.5	3.8.2	0			
+342925	1803	Sema [Sumi]	atsa pimula keu	atsa pimula keu	mute / dumb	mute / dumb			1.5.3.2	3.8.3	0			
+342926	1803	Sema [Sumi]	min(|e/|a)	min(|e/|a)	lick	lick	v	v	1.3.3.1	3.8.4	0			629
+342927	1803	Sema [Sumi]	amutsü	amutsü	lip	lip			1.3.2	3.9	0			
+342928	1803	Sema [Sumi]	amu◦tsü kungu	amu◦tsü kungu	lip (upper)	lip (upper)			1.3.2	3.9.1	0			
+342929	1803	Sema [Sumi]	amutsü aqhou	amutsü aqhou	lip (lower)	lip (lower)			1.3.2	3.9.2	0			
+342930	1803	Sema [Sumi]	ahu	ahu	beak / bill (of bird)	beak / bill (of bird)			1.3.1.2	3.9.3	0			
+342931	1803	Sema [Sumi]	nu◦mighe	numighe	smile	smile	v	v	1.8.8.1	3.9.4	0			1105,m
+342932	1803	Sema [Sumi]	muma	muma	kiss	kiss	v	v	1.3.2.2	3.9.5	0			
+342933	1803	Sema [Sumi]	a◦hu	a◦hu	tooth	tooth			1.3.4	3.10	0			p,632
+342934	1803	Sema [Sumi]	atsü-hu	atsü-hu	incisor	incisor			1.3.4	3.10.1	0			m,632
+342935	1803	Sema [Sumi]	ahu-bo	ahu-bo	molar	molar			1.3.4.2	3.10.2	0			
+342936	1803	Sema [Sumi]	ahu-qhukuthau	ahu-qhukuthau	eyetooth / canine tooth / fang	eyetooth / canine tooth / fang			1.3.4.1	3.10.3	0			
+342937	1803	Sema [Sumi]	alakutsü hu	alakutsü hu	wisdom tooth	wisdom tooth			8.3.3.3.1	3.10.4	0			
+342938	1803	Sema [Sumi]	a◦nga-hu	a◦nga-hu	baby tooth	baby tooth			4.2.11	3.10.5	0			p,90,632
+342939	1803	Sema [Sumi]	miki	miki	bite	bite	v	v	1.3.4.4	3.10.7	0			
+342940	1803	Sema [Sumi]	qhütha	qhütha	bite	bite	v	v	1.3.4.4	3.10.7	0			
+342941	1803	Sema [Sumi]	tsa	tsa	chew	chew	v	v	1.3.4	3.10.8	0			1778?
+342942	1803	Sema [Sumi]	aghi muchu	aghi muchu	cheek	cheek			1.2.5.2	3.11	0			
+342943	1803	Sema [Sumi]	agi ghü◦za	agi ghü◦za	cheekbone / malar bone	cheekbone / malar bone			1.2.5.2	3.11.1	0			m,232,m
+342944	1803	Sema [Sumi]	amükhü	amükhü	chin	chin			1.2.5.3	3.12	0			
+342945	1803	Sema [Sumi]	a◦mukhu ghi	a◦mukhu ghi	jaw (general)	jaw (general)			1.2.5.2	3.13	0			p,273,232
+342946	1803	Sema [Sumi]	a◦mukhu aqhou ghi	a◦mukhu aqhou ghi	jaw (lower) / mandible	jaw (lower) / mandible			1.2.5.2	3.13.1	0			p,273,m,232
+342947	1803	Sema [Sumi]	a◦mukhu kungu-u ghi	a◦mukhu kungu-u ghi	jaw (upper) / maxilla	jaw (upper) / maxilla			1.2.5.2	3.13.2	0			p,273,m,m,232
+342948	1803	Sema [Sumi]	a◦kuo	akuo	neck	neck			1.4.2	4.1	0			p,389
+342949	1803	Sema [Sumi]	akole	akole	goiter	goiter			1.4.2.2	4.1.1	0			
+342950	1803	Sema [Sumi]	a◦kuwo lothi	akuwo lothi	swollen lymph nodes (in neck)	swollen lymph nodes (in neck)			1.1.5.2	4.1.2	0			p,389,m
+342951	1803	Sema [Sumi]	a◦kuwo ghü	akuwo ghü	nape of neck	nape of neck			1.4.2.1	4.1.3	0			p,389,m
+342952	1803	Sema [Sumi]	akale ghi	akale ghi	adam's apple / larynx	adam's apple / larynx			1.5.3.2	4.1.4	0			
+342953	1803	Sema [Sumi]	akughaki	akughaki	throat / gullet / pharynx	throat / gullet / pharynx			1.3.5	4.2	0			
+342954	1803	Sema [Sumi]	atuthu kishela	atuthu kishela	windpipe / trachea	windpipe / trachea			1.3.5.2	4.2.1	0			
+342955	1803	Sema [Sumi]	achuqula	achuqula	esophagus	esophagus			1.3.5.5	4.2.2	0			
+342956	1803	Sema [Sumi]	munosü	munosü	swallow	swallow	v	v	1.3.5.6	4.2.3	0			
+342957	1803	Sema [Sumi]	achoki	achoki	gizzard / crop of bird	gizzard / crop of bird			1.7.6.1	4.2.4	0			
+342958	1803	Sema [Sumi]	amula	amula	chest	chest			1.4.4.3	5.1	0			
+342959	1803	Sema [Sumi]	ajibo	ajibo	rib cage	rib cage			1.4.4.3	5.1.1	0			
+342960	1803	Sema [Sumi]	akuchughi	akuchughi	rib	rib			1.4.4.3	5.1.2	0			
+342961	1803	Sema [Sumi]	amula ghi	amula ghi	breastbone / sternum	breastbone / sternum			1.6.3.2	5.1.3	0			
+342962	1803	Sema [Sumi]	atsü-ki◦ghi	atsü-ki◦ghi	collar bone / clavicle	collar bone / clavicle			1.4.3.1	5.2	0			m,m,232
+342963	1803	Sema [Sumi]	abighi	abighi	shoulder	shoulder			1.4.3	5.3	0			
+342964	1803	Sema [Sumi]	anaghu	anaghu	shoulder blade / scapula	shoulder blade / scapula			1.4.3.2	5.3.1	0			
+342965	1803	Sema [Sumi]	abighi kulo	abighi kulo	shrug shoulders	shrug shoulders	v	v	1.4.3.3	5.3.2	0			
+342966	1803	Sema [Sumi]	akichhi	akichhi	breast	breast			1.4.4.3	5.4	0			
+342967	1803	Sema [Sumi]	akichhiku	akichhiku	nipple	nipple				5.4.1	0			
+342968	1803	Sema [Sumi]	akichhi	akichhi	udder (of cow, goat)	udder (of cow, goat)				5.4.2	0			R
+342969	1803	Sema [Sumi]	a◦kichi◦zü	a◦kichi◦zü	milk	milk				5.4.3	0			p,m,1631
+342970	1803	Sema [Sumi]	kini◦zü	kini◦zü	milk	milk				5.4.3	0			m,1631
+342971	1803	Sema [Sumi]	akichhi◦zü atighiu	akichhi◦zü atighiu	colostrum	colostrum				5.4.4	0			m,1631,m
+342972	1803	Sema [Sumi]	ni	ni	suck	suck	v	v	1.3.2.1	5.4.5	0			254
+342973	1803	Sema [Sumi]	rini	rini	nurse / suckle	nurse / suckle	v	v	4.2.1.5	5.4.6	0			
+342974	1803	Sema [Sumi]	kho	kho	wean	wean				5.4.7	0			
+342975	1803	Sema [Sumi]	amuqa	amuqa	back	back			1.4.8	5.5	0			
+342976	1803	Sema [Sumi]	anaghu	anaghu	upper back	upper back			9.2.1	5.5.1	0			
+342977	1803	Sema [Sumi]	aghütsü	aghütsü	lower back	lower back			1.4.8.1	5.5.2	0			
+342978	1803	Sema [Sumi]	aghütsü aghulau	aghütsü aghulau	small of back	small of back			1.4.8.1	5.5.3	0			
+342979	1803	Sema [Sumi]	aghütsü-ghi	aghütsü-ghi	spine / backbone	spine / backbone			1.4.8.2	5.5.4	0			
+342980	1803	Sema [Sumi]	aghutsü nhü	aghutsü nhü	spinal cord	spinal cord			1.4.8.2	5.5.5	0			
+342981	1803	Sema [Sumi]	anaghu-hu-oboi	anaghu-hu-oboi	hunchback	hunchback			1.4.8.3	5.5.6	0			
+342982	1803	Sema [Sumi]	achita	achita	waist	waist			1.4.6	5.6	0			
+342983	1803	Sema [Sumi]	a◦po	a◦po	belly / abdomen	belly / abdomen			1.4.7	5.7	0			p,2103
+342984	1803	Sema [Sumi]	a◦po◦la	apola	navel	navel			1.9.4	5.7.1	0			p,2103,517
+342985	1803	Sema [Sumi]	akichhe	akichhe	pelvis / pelvic girdle	pelvis / pelvic girdle			1.4.9.2	5.8	0			
+342986	1803	Sema [Sumi]	ayiku	ayiku	hips	hips			1.4.9.2	5.8.1	0			
+342987	1803	Sema [Sumi]	ayikughi	ayikughi	hipbone	hipbone			1.4.9.2	5.8.2	0			
+342988	1803	Sema [Sumi]	atape	atape	haunches (of animal)	haunches (of animal)			1.4.9.2	5.8.3	0			
+342989	1803	Sema [Sumi]	amüqhü	amüqhü	crotch / fork of legs	crotch / fork of legs			1.4.9.1	5.9	0			
+342990	1803	Sema [Sumi]	amuqhi-thi	amuqhi-thi	swollen lymph nodes (of groin)	swollen lymph nodes (of groin)			1.1.5.2	5.9.1	0			
+342991	1803	Sema [Sumi]	ambo	ambo	rump	rump			1.4.10	5.10	0			
+342992	1803	Sema [Sumi]	asübanamuchu	asübanamuchu	buttocks	buttocks			1.4.10	5.10.1	0			
+342993	1803	Sema [Sumi]	amboghi	amboghi	talibone / coccyx	talibone / coccyx			1.6.3.3	5.10.2	0			
+342994	1803	Sema [Sumi]	a◦sho◦mi	ashomi	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			p,34,1288
+342995	1803	Sema [Sumi]	a◦u-mlo	a◦u-mlo	arm	arm			1.5.1.2	6.1	0			p,373,768
+342996	1803	Sema [Sumi]	akichi-qho	akichi-qho	underarm / armpit	underarm / armpit			1.5.1.2.3	6.1.1	0			
+342997	1803	Sema [Sumi]	küqhü	küqhü	tickle	tickle	v	v	1.5.1.2.4	6.1.1.1	0			
+342998	1803	Sema [Sumi]	au-mlo	au-mlo	upperarm	upperarm			1.5.1.2.1	6.1.2	0			
+342999	1803	Sema [Sumi]	a◦u-muloshi	a◦u-muloshi	biceps / arm muscles	biceps / arm muscles			1.5.1.2.1	6.1.3	0			p,373,m
+343000	1803	Sema [Sumi]	au-nhe	au-nhe	elbow	elbow			1.5.8.3	6.1.4	0			
+343001	1803	Sema [Sumi]	au-nhe◦ghi	au-nhe◦ghi	elbow bone	elbow bone			1.5.8.3	6.1.4.1	0			m,m,232
+343002	1803	Sema [Sumi]	au-nhe	au-nhe	crook of elbow / inner elbow	crook of elbow / inner elbow			1.5.8.3	6.1.4.2	0			
+343003	1803	Sema [Sumi]	au-tüqhü	au-tüqhü	wrist	wrist			1.5.8.1	6.1.6	0			
+343004	1803	Sema [Sumi]	a◦u	a◦u	hand	hand			1.5.1.1	6.1.7	0			p,373
+343005	1803	Sema [Sumi]	au-niza	au-niza	palm	palm			1.5.5	6.1.7.1	0			
+343006	1803	Sema [Sumi]	au-lopha	au-lopha	palm	palm			1.5.5	6.1.7.1	0			
+343007	1803	Sema [Sumi]	a◦u-sü	au-sü	fist	fist			1.5.1.1.1	6.1.7.3	0			p,373,m
+343008	1803	Sema [Sumi]	a◦u-azheu	a◦u-azheu	right hand	right hand			1.5.3.2	6.1.7.4	0			p,373
+343009	1803	Sema [Sumi]	a◦u piyiu	a◦u piyiu	left hand	left hand			1.5.3.2	6.1.7.5	0			p,373
+343010	1803	Sema [Sumi]	akha shomhi	akha shomhi	fin (of fish)	fin (of fish)			1.5.1.3.1	6.1.8	0			
+343011	1803	Sema [Sumi]	a◦ki◦chi◦bo	a◦ki◦chi◦bo	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			p,709,709,m
+343012	1803	Sema [Sumi]	apukhumuza	apukhumuza	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			
+343013	1803	Sema [Sumi]	apukhu	apukhu	leg	leg			1.5.7	6.2	0			
+343014	1803	Sema [Sumi]	aluko	aluko	thigh	thigh			1.5.7.1	6.2.1	0			
+343015	1803	Sema [Sumi]	aluko-ghi	aluko-ghi	thigh bone / femur	thigh bone / femur			1.5.7.1	6.2.1.1	0			m,232
+343016	1803	Sema [Sumi]	apikanhü	apikanhü	hamstring	hamstring			1.6.6.2	6.2.1.2	0			
+343017	1803	Sema [Sumi]	a◦kho◦nhe	a◦kho◦nhe	knee	knee			1.5.8.4	6.2.2	0			p,1251,m
+343018	1803	Sema [Sumi]	a◦kho-nhe kuqho ghi	akho-nhe kuqho ghi	knee cap / patella	knee cap / patella			1.5.8.4	6.2.2.1	0			p,1251,m,m,m
+343019	1803	Sema [Sumi]	kho◦nhe◦bo	khonhebo	knee hollow / popliteal region	knee hollow / popliteal region			1.5.8.4	6.2.2.2	0			1251,m,m
+343020	1803	Sema [Sumi]	aghanhe◦ghi	aghanheghi	shin	shin			1.5.7.2	6.2.3	0			m,232
+343021	1803	Sema [Sumi]	aghanhe◦ghi	aghanhe◦ghi	shin bone / tibia	shin bone / tibia			1.5.7.2	6.2.3.1	0			m,232
+343022	1803	Sema [Sumi]	apite	apite	calf	calf			1.5.7	6.2.4	0			
+343023	1803	Sema [Sumi]	a◦la◦u◦nhe	a◦la◦u◦nhe	ankle	ankle			1.5.8.2	6.2.5	0			p,350,m,682
+343024	1803	Sema [Sumi]	a◦la◦u◦nhe ghi	a◦la◦u◦nhe ghi	ankle bone	ankle bone			1.5.8.2	6.2.5.1	0			p,350,m,682,232
+343025	1803	Sema [Sumi]	apukhu lapha	apukhu lapha	foot	foot			1.5.2	6.2.6	0			
+343026	1803	Sema [Sumi]	aphi tsü	aphi tsü	heel	heel			1.5.2.1	6.2.6.1	0			
+343027	1803	Sema [Sumi]	aphi tsü nhü	aphi tsü nhü	achilles tendon	achilles tendon			1.6.6.1	6.2.6.2	0			
+343028	1803	Sema [Sumi]	apukhu bakhu	apukhu bakhu	arch	arch			1.5.2.3	6.2.6.3	0			
+343029	1803	Sema [Sumi]	apukhu-ayeghi kineu	apukhu-ayeghi kineu	sole	sole			1.5.5	6.2.6.5	0			
+343030	1803	Sema [Sumi]	apukhu bokhu	apukhu bokhu	instep	instep			1.5.2.2	6.2.6.6	0			
+343031	1803	Sema [Sumi]	apukhu nepa	apukhu nepa	footprint	footprint			1.5.2.5	6.2.6.7	0			
+343032	1803	Sema [Sumi]	apukhu mutsü	apukhu mutsü	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			
+343033	1803	Sema [Sumi]	apukhu muza	apukhu muza	paw (of animal)	paw (of animal)			1.5.4	6.2.6.9	0			
+343034	1803	Sema [Sumi]	apukhu kighiche	apukhu kighiche	crippled / lame	crippled / lame			4.2.7	6.2.7	0			
+343035	1803	Sema [Sumi]	khul-khuliyi	khul-khuliyi	limp	limp	v	v	1.5.12	6.2.8	0			
+343036	1803	Sema [Sumi]	aulati	aulati	finger	finger			1.5.6	7.1	0			
+343037	1803	Sema [Sumi]	aulati amtau	aulati amtau	middle finger	middle finger			1.9.4	7.1.2	0			
+343038	1803	Sema [Sumi]	ajeulati	ajeulati	ring finger	ring finger			1.5.6.2	7.1.3	0			
+343039	1803	Sema [Sumi]	aulati aghulau	aulati aghulau	little finger	little finger			9.7.2	7.1.4	0			
+343040	1803	Sema [Sumi]	auloqhu	auloqhu	thumb	thumb			1.5.6.1	7.1.5	0			
+343041	1803	Sema [Sumi]	aulati kughuna	aulati kughuna	fingerprint	fingerprint			1.5.6.1	7.1.6	0			
+343042	1803	Sema [Sumi]	apukhu lati	apukhu lati	toe	toe			1.5.6	7.2	0			
+343043	1803	Sema [Sumi]	apukhu loqhu	apukhu loqhu	big toe	big toe			1.5.6.1	7.2.1	0			
+343044	1803	Sema [Sumi]	apukhu lati anupau	apukhu lati anupau	little toe	little toe			9.7.2	7.2.5	0			
+343045	1803	Sema [Sumi]	au-nhe	au-nhe	knuckle (joint of digit)	knuckle (joint of digit)			1.5.8.5	7.3	0			
+343046	1803	Sema [Sumi]	au-mütsü	au-mütsü	nail	nail			1.5.10	7.4	0			m,515
+343047	1803	Sema [Sumi]	au-mutsü	au-mutsü	fingernail	fingernail			1.5.10.1	7.4.1	0			m,515
+343048	1803	Sema [Sumi]	apukhu-mütsü	apukhu-mütsü	toenail	toenail			1.5.10.2	7.4.2	0			
+343049	1803	Sema [Sumi]	au-mutsü	au-mutsü	claw (of animal)	claw (of animal)			1.5.10.4	7.4.3	0			m,515
+343050	1803	Sema [Sumi]	do	do	talon (of bird)	talon (of bird)			1.5.10.4	7.4.4	0			
+343051	1803	Sema [Sumi]	auloqhu	auloqhu	pincers (e.g. of crab)	pincers (e.g. of crab)			1.5.10.4	7.4.5	0			
+343052	1803	Sema [Sumi]	a◦sa	a◦sa	hair (general)	hair (general)			1.2.3	8.1	0			p,366
+343053	1803	Sema [Sumi]	a◦kü◦tsü-sa	a◦kü◦tsü-sa	hair of head	hair of head			1.2.3	8.1.1	0			p,386,m,366
+343054	1803	Sema [Sumi]	agi-mhi	agi-mhi	hair (facial)	hair (facial)			1.2.3	8.1.2	0			m,363
+343055	1803	Sema [Sumi]	amükhü mhi	amükhü mhi	beard	beard			1.2.5.5	8.1.2.1	0			m,363
+343056	1803	Sema [Sumi]	amukhü mhi	amukhü mhi	goatee	goatee			1.2.5.5	8.1.2.2	0			m,363
+343057	1803	Sema [Sumi]	akichi-mhi	akichi-mhi	moustache	moustache			1.2.5.5	8.1.2.3	0			m,363
+343058	1803	Sema [Sumi]	a◦mhi	a◦mhi	body hair	body hair			1.6.1	8.1.3	0			p,363
+343059	1803	Sema [Sumi]	amula mhi	amula mhi	chest hair	chest hair			1.4.4.5	8.1.3.2	0			m,363
+343060	1803	Sema [Sumi]	apukhu mhi	apukhu mhi	leg hair	leg hair			1.5.7	8.1.3.3	0			m,363
+343061	1803	Sema [Sumi]	a◦mhi	a◦mhi	fur (of animal)	fur (of animal)			1.6.1	8.1.4	0			p,363
+343062	1803	Sema [Sumi]	a◦mhi	a◦mhi	feather (of bird)	feather (of bird)			1.6.1.1	8.1.5	0			p,363
+343063	1803	Sema [Sumi]	a◦mhi	a◦mhi	mane (of horse, lion)	mane (of horse, lion)			1.6.1	8.1.6	0			p,363
+343064	1803	Sema [Sumi]	akichimhi	akichimhi	whiskers (of animal)	whiskers (of animal)			1.2.5.5	8.1.7	0			
+343065	1803	Sema [Sumi]	a◦yi◦ko	a◦yi◦ko	skin	skin			1.6.5	8.2	0			p,596,589
+343066	1803	Sema [Sumi]	a◦tsun◦hi-zü	atsunhi-zü	sweat / perspiration	sweat / perspiration			1.8.1	8.2.1	0			
+343067	1803	Sema [Sumi]	atsunhiki	atsunhiki	pore	pore			1.8.1.1	8.2.2	0			
+343068	1803	Sema [Sumi]	azaku	azaku	blemish on skin	blemish on skin			1.6.5	8.2.3	0			
+343069	1803	Sema [Sumi]	thochigha	thochigha	pimple	pimple			1.6.5.3	8.2.3.2	0			
+343070	1803	Sema [Sumi]	achichipu	achichipu	mole	mole			2.2.7	8.2.3.3	0			
+343071	1803	Sema [Sumi]	apithe	apithe	wart	wart			1.6.5.3	8.2.3.4	0			
+343072	1803	Sema [Sumi]	ashi ala	ashi ala	cyst	cyst			1.6.5.3	8.2.3.5	0			
+343073	1803	Sema [Sumi]	azaku	azaku	scar	scar			1.6.5.3	8.2.3.7	0			
+343074	1803	Sema [Sumi]	ichonhe	ichonhe	wrinkle	wrinkle			9.6.2	8.2.3.8	0			
+343075	1803	Sema [Sumi]	mutho◦gha	mutho◦gha	rash	rash			1.6.5.3	8.2.3.9	0			1457,m
+343076	1803	Sema [Sumi]	akumho	akumho	rash	rash			1.6.5.3	8.2.3.9	0			
+343077	1803	Sema [Sumi]	mutho	mutho	itch / itchy	itch / itchy	v	v	1.6.5.5	8.2.3.10	0			1457
+343078	1803	Sema [Sumi]	mutho◦gha	mutho◦gha	scab	scab			1.6.5.3	8.2.4	0			1457,m
+343079	1803	Sema [Sumi]	akha yiko	akha yiko	scales (of fish)	scales (of fish)			1.6.5.2	8.2.5	0			
+343080	1803	Sema [Sumi]	ayiko	ayiko	hide / leather	hide / leather			1.6.5.1	8.2.6	0			
+343081	1803	Sema [Sumi]	a◦tha	a◦tha	fat	fat			1.6.4	8.3	0			p,60
+343082	1803	Sema [Sumi]	amichi	amichi	fat around intestines / omentum	fat around intestines / omentum			1.6.4	8.3.1	0			
+343083	1803	Sema [Sumi]	a◦tha-zü	atha-zü	oil / grease (for cooking)	oil / grease (for cooking)			1.6.4.1	8.3.2	0			p,60,1631
+343084	1803	Sema [Sumi]	a◦ghü	a◦ghü	bone	bone			1.6.3	8.4	0			p,232
+343085	1803	Sema [Sumi]	amünhü	amünhü	sinew / tendon (muscle to bone)	sinew / tendon (muscle to bone)			1.6.6.1	8.5	0			
+343086	1803	Sema [Sumi]	anhü	anhü	ligament (bone to bone)	ligament (bone to bone)			1.6.3	8.6	0			
+343087	1803	Sema [Sumi]	a◦ji	a◦ji	blood	blood			1.6.2	8.7	0			p,230
+343088	1803	Sema [Sumi]	a◦ji nhü	a◦ji nhü	blood vessel / vein / artery	blood vessel / vein / artery			1.6.2.1	8.7.1	0			p,230,m
+343089	1803	Sema [Sumi]	ajipo	ajipo	bleed	bleed	v	v	1.6.2	8.7.2	0			
+343090	1803	Sema [Sumi]	ashi piti	ashi piti	muscle	muscle			1.6.6.2	8.8	0			
+343091	1803	Sema [Sumi]	apiti	apiti	muscle	muscle			1.6.6.2	8.8	0			
+343092	1803	Sema [Sumi]	atüqhü	atüqhü	joint	joint			1.5.8	8.9	0			
+343093	1803	Sema [Sumi]	anhü	anhü	nerve	nerve			1.6.6.3	8.10	0			
+343094	1803	Sema [Sumi]	aqho	aqho	brain	brain			1.2.4	9.1	0		D1	
+343095	1803	Sema [Sumi]	aghütsü nhü	aghütsü nhü	spinal cord	spinal cord			1.4.8.2	9.1.1	0			
+343096	1803	Sema [Sumi]	aqü	aqü	marrow	marrow			1.6.3.5	9.1.2	0			
+343097	1803	Sema [Sumi]	aphe	aphe	lung	lung			1.7.2	9.2	0			
+343098	1803	Sema [Sumi]	atuthu she	atuthu she	breathe	breathe	v	v	1.1.2.2	9.2.1	0			
+343099	1803	Sema [Sumi]	atuthu she kukuno	atuthu she kukuno	pant	pant			1.1.2.2	9.2.2	0			
+343100	1803	Sema [Sumi]	fu	fu	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			75
+343101	1803	Sema [Sumi]	anhighi	anhighi	gill (of fish)	gill (of fish)			1.3.5.3	9.2.4	0			
+343102	1803	Sema [Sumi]	aghiho	aghiho	phlegm	phlegm			1.8.3	9.2.5	0			
+343103	1803	Sema [Sumi]	a◦mulo	a◦mu◦lo	heart	heart			1.7.1	9.3	0			p,1381
+343104	1803	Sema [Sumi]	a◦mulo kughütha	a◦mu◦lo kughütha	heartbeat	heartbeat			1.7.1.1	9.3.1	0			p,1381,m
+343105	1803	Sema [Sumi]	a◦mulo küghütha	a◦mu◦lo küghütha	pulse	pulse			1.7.1.1	9.3.2	0			p,1381,m
+343106	1803	Sema [Sumi]	kighinali	kighinali	viscera / guts / entrails (in general)	viscera / guts / entrails (in general)			1.7.7	9.4	0			
+343107	1803	Sema [Sumi]	a◦lo◦shi	a◦lo◦shi	liver	liver			1.7.3	9.5	0			m,1390
+343108	1803	Sema [Sumi]	atithi	atithi	bile	bile			1.7.3.1	9.5.1	0			
+343109	1803	Sema [Sumi]	atithibo	atithibo	gall bladder	gall bladder			1.7.3	9.5.2	0			
+343110	1803	Sema [Sumi]	a◦khü◦lü	a◦khü◦lü	kidney	kidney			1.7.5	9.6	0			p,201,m
+343111	1803	Sema [Sumi]	a◦mchi◦thi	amchithi	kidney	kidney			1.7.5	9.6	0			p,201,m
+343112	1803	Sema [Sumi]	akhachebo	akhachebo	bladder (urinary)	bladder (urinary)			1.7.8	9.7	0			
+343113	1803	Sema [Sumi]	apujo	apujo	urine	urine			1.8.4	9.7.1	0			
+343114	1803	Sema [Sumi]	pujo	pujo	urinate	urinate	v	v	1.5.3.2	9.7.2	0			
+343115	1803	Sema [Sumi]	a◦pu	a◦pu	spleen	spleen			1.7.4	9.8	0			p,91
+343116	1803	Sema [Sumi]	a◦pu-küsü	a◦pu-küsü	swollen spleen (illness)	swollen spleen (illness)			1.1.5.2	9.8.1	0			p,91,m
+343117	1803	Sema [Sumi]	akinekuxa	akinekuxa	pancreas	pancreas			1.7.7	9.9	0			
+343118	1803	Sema [Sumi]	akive	akive	stomach	stomach			1.7.6	9.10	0			
+343119	1803	Sema [Sumi]	a◦ki◦ghi	a◦ki◦ghi	intestines / bowels	intestines / bowels			1.7.7	9.11	0			p,m,2127
+343120	1803	Sema [Sumi]	ki◦ghi◦noli	kighinoli	intestines / bowels	intestines / bowels			1.7.7	9.11	0			m,2127,m
+343121	1803	Sema [Sumi]	a◦kho◦ghe	a◦kho◦ghe	intestine (large)	intestine (large)			1.7.6	9.11.1	0			p,m,2127
+343122	1803	Sema [Sumi]	aki◦ghi aghulou	akighi aghulou	intestine (small)	intestine (small)			1.7.6	9.11.2	0			m,2127,m
+343123	1803	Sema [Sumi]	ashepu	ashepu	anus / rectum	anus / rectum			1.4.10.2	9.12	0			
+343124	1803	Sema [Sumi]	ajikhi	ajikhi	anus / rectum	anus / rectum			1.4.10.2	9.12	0			
+343125	1803	Sema [Sumi]	a◦ba	a◦ba	feces / shit	feces / shit			1.8.5	9.12.1	0			p,575
+343126	1803	Sema [Sumi]	a◦nga ba	a◦nga ba	meconium / baby shit	meconium / baby shit			1.8.5	9.12.2	0			p,90,575
+343127	1803	Sema [Sumi]	ba	ba	defecate	defecate	v	v	1.8.5.4	9.12.3	0			575
+343128	1803	Sema [Sumi]	aphighü	aphighü	genitalia / pudenda (general)	genitalia / pudenda (general)			1.9.1	10.1	0			
+343129	1803	Sema [Sumi]	amone	amone	copulate / have intercourse	copulate / have intercourse	v	v	1.9.1.1	10.2	0			
+343130	1803	Sema [Sumi]	küda	küda	copulate / have intercourse	copulate / have intercourse	v	v	1.9.1.1	10.2	0			
+343131	1803	Sema [Sumi]	kipitimi	kipitimi	male	male			1.9.6.1	10.3	0			
+343132	1803	Sema [Sumi]	acho	acho	penis	penis				10.3.1	0			
+343133	1803	Sema [Sumi]	acho ku◦mutsü	acho ku◦mutsü	glans / head of penis	glans / head of penis				10.3.2	0			m,386,m
+343134	1803	Sema [Sumi]	aphighi kümüstü yiko	aphighi kümüstü yiko	foreskin	foreskin				10.3.3	0			
+343135	1803	Sema [Sumi]	achokughu	achokughu	scrotum	scrotum				10.3.4	0			
+343136	1803	Sema [Sumi]	achokughu◦thi	achokughu◦thi	testicle	testicle				10.3.5	0			m,1019
+343137	1803	Sema [Sumi]	acho mhi	acho mhi	hair (male, pubic)	hair (male, pubic)			1.2.3	10.3.6	0			m,363
+343138	1803	Sema [Sumi]	aphi-zü	aphi-zü	semen / sperm	semen / sperm				10.3.7	0			m,642
+343139	1803	Sema [Sumi]	achozü	achozü	ejaculate	ejaculate	v	v		10.3.8	0			
+343140	1803	Sema [Sumi]	achokughu ghovekeu	achokughu ghovekeu	castrate	castrate	v	v	1.9.2.3	10.3.9	0			
+343141	1803	Sema [Sumi]	toti◦mi	toti◦mi	female	female			1.9.3	10.4	0			m,1618
+343142	1803	Sema [Sumi]	amaki	amaki	vagina	vagina				10.4.1	0			
+343143	1803	Sema [Sumi]	amo	amo	vulva / labia	vulva / labia				10.4.2	0			
+343144	1803	Sema [Sumi]	mithe-michi	mithe-michi	hymen	hymen				10.4.3	0			
+343145	1803	Sema [Sumi]	amoxüthi	amoxüthi	clitoris	clitoris				10.4.4	0			
+343146	1803	Sema [Sumi]	amo mhi	amo mhi	hair (female, pubic)	hair (female, pubic)			1.2.3	10.4.5	0			m,363
+343147	1803	Sema [Sumi]	alhakusa ji	alhakusa ji	menstrual blood	menstrual blood			1.9.11.1	10.4.7	0			m,230
+343148	1803	Sema [Sumi]	atita	atita	uterus / womb	uterus / womb				10.4.8	0			
+343149	1803	Sema [Sumi]	axuthibo	axuthibo	amniotic sac / bag of waters	amniotic sac / bag of waters				10.4.9	0			
+343150	1803	Sema [Sumi]	axuthizü	axuthizü	amniotic fluid	amniotic fluid				10.4.10	0			
+343151	1803	Sema [Sumi]	amo nha	amo nha	placenta / afterbirth	placenta / afterbirth				10.4.11	0			
+343152	1803	Sema [Sumi]	a◦nga pola	a◦nga pola	umbilical cord	umbilical cord				10.4.12	0			p,90,m
+343153	1803	Sema [Sumi]	apola	apola	umbilical cord	umbilical cord				10.4.12	0			
+343154	1803	Sema [Sumi]	nishi	nishi	pregnant	pregnant			1.9.6.1	10.4.14	0			
+343155	1803	Sema [Sumi]	punu	punu	birth, give	birth, give			1.1.2	10.4.15	0			1863
+343156	1803	Sema [Sumi]	a◦wu◦khu	awukhu	egg (of animal)	egg (of animal)				10.4.16	0			p,1603,305
+343157	1803	Sema [Sumi]	akhi	akhi	cough	cough			1.8.3.3	11.1	0			
+343158	1803	Sema [Sumi]	ichi	ichi	cough	cough			1.8.3.3	11.1	0			
+343159	1803	Sema [Sumi]	muchuka	muchuka	hiccup	hiccup			1.8.3.5	11.2	0			
+343160	1803	Sema [Sumi]	hachhi	hachhi	sneeze	sneeze			1.8.2.1	11.3	0			
+343161	1803	Sema [Sumi]	nhizü	nhizü	snore	snore			1.8.2.2	11.4	0			
+343162	1803	Sema [Sumi]	mizhi	mizhi	whistle	whistle			8.5.5	11.5	0			
+343163	1803	Sema [Sumi]	eu	eu	burp / belch	burp / belch			1.8.3	11.6	0			3443
+343164	1803	Sema [Sumi]	piyi	piyi	fart	fart			1.8.5.2	11.7	0			
+343165	1803	Sema [Sumi]	mucho	mucho	clear throat	clear throat			9.6.1.1	11.8	0			
+343166	1803	Sema [Sumi]	(aku)◦nu	(aku)nu	laugh	laugh			1.8.8.1	11.9	0			m,1105
+343167	1803	Sema [Sumi]	sükuthü	sükuthü	tremble / shiver / shudder	tremble / shiver / shudder			1.6.6.2.1	12.1	0			
+343168	1803	Sema [Sumi]	itha	itha	tremble / shiver / shudder	tremble / shiver / shudder			1.6.6.2.1	12.1	0			
+343169	1803	Sema [Sumi]	küsü-kini	küsü-kini	sick / ill / hurt	sick / ill / hurt	v	v	1.1.5.1	12.2	0			
+343170	1803	Sema [Sumi]	ithamula	ithamula	numb / paralyzed	numb / paralyzed	v	v	1.5.11	12.3	0			
+343171	1803	Sema [Sumi]	thizügyi	thizügyi	numb / paralyzed	numb / paralyzed	v	v	1.5.11	12.3	0			
+343172	1803	Sema [Sumi]	ingu	ingu	swell	swell	v	v	1.1.5.2	12.4	0			
+343173	1803	Sema [Sumi]	ingughuyi	ingughuyi	swollen, be	swollen, be	v	v	1.1.5.2	12.4	0			
+343174	1803	Sema [Sumi]	a◦ni	a◦ni	pus	pus			1.8.6.1	12.5	0			p,1294
+343175	1803	Sema [Sumi]	apiyi	apiyi	abscess / ulcer / open wound	abscess / ulcer / open wound			1.8.6.2	12.6	0			
+343176	1803	Sema [Sumi]	aghüza	aghüza	abscess / ulcer / open wound	abscess / ulcer / open wound			1.8.6.2	12.6	0			
+343177	1803	Sema [Sumi]	au loti kipishe kimighi	au loti kipishe kimighi	phalanx (knuckle length)	phalanx (knuckle length)			1.5.8.5	13.1	0			
+343178	1803	Sema [Sumi]	a◦u kha kimighü	a◦u kha kimighü	hand span (thumb to middle finger)	hand span (thumb to middle finger)			1.5.1.1	13.2	0			p,373
+343179	1803	Sema [Sumi]	au nhe kipishe	au nhe kipishe	cubit (elbow to fingers)	cubit (elbow to fingers)			1.5.9.3	13.3	0			
+343180	1803	Sema [Sumi]	putoputoːu kucho	putoputoːu kucho	cord / fathom (outstretched arms)	cord / fathom (outstretched arms)			1.5.9.5	13.4	0			
+343181	1803	Sema [Sumi]	putoputoːu kuchho	putoputoːu kuchho	left fingertip to right fingertip	left fingertip to right fingertip			1.5.3.2	13.4.2	0			
+343182	1803	Sema [Sumi]	akükümsü	akükümsü	mind / locus of thought	mind / locus of thought			1.10	14.1	0			
+343183	1803	Sema [Sumi]	a◦mlo ghime	a◦m◦lo ghime	heart / locus of emotions	heart / locus of emotions			1.7.1	14.2	0			p,1381,m
+343184	1803	Sema [Sumi]	alokiui	alokiui	heart / locus of emotions	heart / locus of emotions			1.7.1	14.2	0			
+343185	1803	Sema [Sumi]	a◦mlo	a◦m◦lo	heart / locus of personality	heart / locus of personality			1.7.1	14.3	0			p,1381
+343186	1803	Sema [Sumi]	aqho	aqho	heart / locus of personality	heart / locus of personality			1.7.1	14.3	0			

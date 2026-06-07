@@ -1,144 +1,144 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-127292	1612	Tujia	to⁵⁵ pʰo²¹	to⁵⁵ pʰo²¹	body	body		1.1.1	1.1	0		14,1902
-127293	1612	Tujia	ta²¹ ze³⁵	ta²¹ ze³⁵	side (right)	side (right)		1.4.5	1.2	0		
-127294	1612	Tujia	dʑia²¹ ze³⁵	dʑia²¹ ze³⁵	side (left)	side (left)		1.4.5	1.3	0		
-127295	1612	Tujia	mɯe⁵⁵ kʰɯe²¹	mɯe⁵⁵ kʰɯe²¹	back	back		1.4.8	1.4	0		
-127296	1612	Tujia	dɯ⁵⁵ go³⁵	dɯ⁵⁵ go³⁵	front	front		1.4.4	1.5	0		m,m
-127297	1612	Tujia	dʑi³⁵ du̵⁵⁵	dʑi³⁵ du̵⁵⁵	lap	lap		1.4.4.2	1.8	0		m,1193
-127298	1612	Tujia	to⁵⁵ po²¹ dɯ²¹ go³⁵	to⁵⁵ po²¹ dɯ²¹ go³⁵	bosom	bosom		1.4.4.2	1.9	0		m,m,398,?,m,m,m,m
-127299	1612	Tujia	si³⁵	si³⁵	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34
-127300	1612	Tujia	se²¹	se²¹	die / be dead	die  /  be dead		1.1.6	1.13	0		27
-127301	1612	Tujia	ne²¹	ne²¹	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		129
-127302	1612	Tujia	ne²¹ ɕi³⁵	ne²¹ ɕi³⁵	awake / be awake	awake  /  be awake		1.1.4	1.17	0		143,1837
-127303	1612	Tujia	a³⁵ bo⁵⁵ bu²¹	a³⁵ bo⁵⁵ bu²¹	head	head		1.2.1	2.1	0		p,388,1275
-127304	1612	Tujia	naɯ⁵⁵ suĩ⁵⁵	naɯ⁵⁵ suĩ⁵⁵	brain	brain		1.2.4	2.5	0		243,5485
-127305	1612	Tujia	a²¹ so²¹	a²¹ so²¹	hair (head)	hair (head)		1.2.3	2.7	0		p,370
-127306	1612	Tujia	a³³ kʰɯe³³	a³³ kʰɯe³³	horn (of animal)	horn (of animal)		1.2.2	2.10	0		p,819
-127307	1612	Tujia	a²¹ gu²¹ pʰo⁵⁵	a²¹ gu²¹ pʰo⁵⁵	face	face		1.2.5	3.1	0		p,273
-127308	1612	Tujia	ŋɯe²¹ mĩ²¹	ŋɯe²¹ mĩ²¹	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		356,354
-127309	1612	Tujia	a²¹ la⁵⁵ tɕi³⁵	a²¹ la⁵⁵ tɕi³⁵	eye	eye		1.2.6	3.4	0		p,1427,3559
-127310	1612	Tujia	a²¹ la⁵⁵ kɯe²¹ lo²¹	a²¹ la⁵⁵ kɯe²¹ lo²¹	eyelid	eyelid		1.2.6.4	3.4.1	0		p,1427,589,m
-127311	1612	Tujia	a³⁵ la⁵⁵ bu²¹	a³⁵ la⁵⁵ bu²¹	eyeball	eyeball		1.2.6.1	3.4.2	0		p,1427,1275
-127312	1612	Tujia	a²¹ la⁵⁵ a²¹ so²¹	a²¹ la⁵⁵ a²¹ so²¹	eyebrow	eyebrow		1.2.6.6	3.4.3	0		p,1427,p,370
-127313	1612	Tujia	a²¹ la⁵⁵ tsʰe³⁵	a²¹ la⁵⁵ tsʰe³⁵	tears	tears		1.2.6.7	3.4.6	0		p,1427,298
-127314	1612	Tujia	dzi²¹	dzi²¹	cry / weep	cry  /  weep	v	1.8.8.2	3.4.8	0		m
-127315	1612	Tujia	bo¹³	bo¹³	see / look	see  /  look	v	1.2.6.10	3.4.9	0		1227
-127316	1612	Tujia	a¹³ la⁵⁵ be¹³	a¹³ la⁵⁵ be¹³	blind	blind		1.2.6.14.2	3.4.10	0		
-127317	1612	Tujia	ku̵¹³ tɕi⁵⁵ du̵³⁵	ku̵¹³ tɕi⁵⁵ du̵³⁵	nose	nose		1.2.8	3.5	0		809,442,808
-127318	1612	Tujia	ku̵¹³ tɕi⁵⁵ dɯ³⁵	ku̵¹³ tɕi⁵⁵ dɯ³⁵	nostril	nostril		1.2.8.1	3.5.2	0		809,m,808
-127319	1612	Tujia	lĩ²¹ lĩ²¹	lĩ²¹ lĩ²¹	solid mucus	solid mucus		1.1.5	3.5.7	0		
-127320	1612	Tujia	ɕiõ¹³	ɕiõ¹³	smell / sniff	smell  /  sniff	v	1.2.8.5	3.5.9	0		
-127321	1612	Tujia	tsã²¹ pu̵⁵⁵	tsã²¹ pu̵⁵⁵	ear	ear		1.2.7	3.6	0		816,812
-127322	1612	Tujia	tsã²¹ pu̵⁵⁵ se³⁵	tsã²¹ pu̵⁵⁵ se³⁵	earwax	earwax		1.2.7.3	3.6.6	0		816,815,572
-127323	1612	Tujia	xo³³ zi³³	xo³³ zi³³	hear	hear	v	1.2.7.4	3.6.7	0		
-127324	1612	Tujia	tsa¹³ pu̵⁵⁵ tu̵⁵⁵	tsa¹³ pu̵⁵⁵ tu̵⁵⁵	deaf	deaf		1.2.7.5	3.6.8	0		m,1409,1412
-127325	1612	Tujia	a²¹ ze²¹	a²¹ ze²¹	mouth	mouth		1.3.1	3.7	0		p,m
-127326	1612	Tujia	dzi²¹ la²¹ sa⁵⁵	dzi²¹ la²¹ sa⁵⁵	uvula	uvula		1.3.5.1	3.7.4	0		
-127327	1612	Tujia	tsʰe¹³ si⁵⁵	tsʰe¹³ si⁵⁵	saliva	saliva		1.8.3	3.7.5	0		
-127328	1612	Tujia	ɣɯe³⁵	ɣɯe³⁵	eat	eat	v	1.5.3.2	3.7.6	0		m
-127329	1612	Tujia	dzu̵³³	dzu̵³³	drink	drink	v		3.7.7	0		m
-127330	1612	Tujia	go³⁵	go³⁵	thirsty	thirsty	be	1.1.3.1	3.7.8	0		116
-127331	1612	Tujia	lo²¹ ɣo¹³	lo²¹ ɣo¹³	hungry	hungry	be	1.1.3	3.7.9	0		
-127332	1612	Tujia	tʰo⁵⁵ la²¹	tʰo⁵⁵ la²¹	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		7091,m
-127333	1612	Tujia	tsʰi⁵⁵	tsʰi⁵⁵	spit	spit	v	1.8.3	3.7.11	0		
-127334	1612	Tujia	pʰi⁵⁵	pʰi⁵⁵	vomit	vomit	v	1.8.3.2	3.7.13	0		1145
-127335	1612	Tujia	xã²¹	xã²¹	hold in mouth	hold in mouth	v	1.3.4.4	3.7.14	0		b?
-127336	1612	Tujia	dzi²¹ la²¹	dzi²¹ la²¹	tongue	tongue		1.3.3	3.8	0		621,623
-127337	1612	Tujia	xɯ⁵⁵	xɯ⁵⁵	speak	speak	v	8.5.10.1	3.8.1	0		
-127338	1612	Tujia	a⁵⁵ tsi²¹	a⁵⁵ tsi²¹	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		p,m
-127339	1612	Tujia	lo²¹	lo²¹	lick	lick		1.3.3.1	3.8.4	0		629
-127340	1612	Tujia	a²¹ ze²¹ kɯ²¹ lo²¹	a²¹ ze²¹ kɯ²¹ lo²¹	lip	lip		1.3.2	3.9	0		p,m,m,456
-127341	1612	Tujia	ne³³	ne³³	smile	smile	v	1.8.8.1	3.9.4	0		1105
-127342	1612	Tujia	si³³ ta³⁵	si³³ ta³⁵	tooth	tooth		1.3.4	3.10	0		632,3316
-127343	1612	Tujia	go³⁵	go³⁵	bite	bite	v	1.3.4.4	3.10.7	0		755
-127344	1612	Tujia	tɕʰe³⁵	tɕʰe³⁵	chew	chew	v	1.3.4	3.10.8	0		1778
-127345	1612	Tujia	a²¹ gu²¹ kʰa²¹ kɯ²¹	a²¹ gu²¹ kʰa²¹ kɯ²¹	cheekbone	cheekbone		1.2.5.2	3.11.1	0		p,2057,m,m
-127346	1612	Tujia	gua²¹ la⁵⁵	gua²¹ la⁵⁵	neck	neck		1.4.2	4.1	0		389,m
-127347	1612	Tujia	gua²¹ la⁵⁵ du̵³⁵	gua²¹ la⁵⁵ du̵³⁵	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		389,m,m
-127348	1612	Tujia	ze²¹	ze²¹	swallow	swallow	v	1.3.5.6	4.2.3	0		
-127349	1612	Tujia	to⁵⁵ po²¹ dɯ²¹ go³⁵	to⁵⁵ po²¹ dɯ²¹ go³⁵	chest	chest		1.4.4.3	5.1	0		m,m,289,m
-127350	1612	Tujia	to⁵⁵ po²¹ kʰa²¹ kɯ²¹	to⁵⁵ po²¹ kʰa²¹ kɯ²¹	rib	rib		1.4.4.3	5.1.2	0		m,m,310,560
-127351	1612	Tujia	tɕiã⁵⁵ po²¹	tɕiã⁵⁵ po²¹	shoulder	shoulder		1.4.3	5.3	0		b
-127352	1612	Tujia	mã⁵⁵	mã⁵⁵	breast	breast		1.4.4.3	5.4	0		3457
-127353	1612	Tujia	mã⁵⁵ tsʰe³⁵	mã⁵⁵ tsʰe³⁵	milk	milk			5.4.3	0		3457,298
-127354	1612	Tujia	to⁵⁵ po²¹ mɯe⁵⁵ kʰɯe²¹	to⁵⁵ po²¹ mɯe⁵⁵ kʰɯe²¹	back	back		1.4.8	5.5	0		
-127355	1612	Tujia	a¹³ du̵⁵⁵	a¹³ du̵⁵⁵	waist	waist		1.4.6	5.6	0		p,1362
-127356	1612	Tujia	mɯe¹³ tɕi⁵⁵	mɯe¹³ tɕi⁵⁵	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)		1.4.7	5.7	0		m,m
-127357	1612	Tujia	mɯe¹³ tɕi⁵⁵ dɯ³⁵	mɯe¹³ tɕi⁵⁵ dɯ³⁵	navel	navel		1.9.4	5.7.1	0		m,m,520
-127358	1612	Tujia	lia³⁵ tɯ⁵⁵	lia³⁵ tɯ⁵⁵	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		3332,m
-127359	1612	Tujia	a²¹ dʑe⁵⁵ mɯe²¹ dʑi⁵⁵	a²¹ dʑe⁵⁵ mɯe²¹ dʑi⁵⁵	arm	arm		1.5.1.2	6.1	0		p,699,m,m
-127360	1612	Tujia	ka²¹ tɕi²¹ dɯ³⁵	ka²¹ tɕi²¹ dɯ³⁵	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
-127361	1612	Tujia	si³³ ɣo³⁵	si³³ ɣo³⁵	tickle	tickle		1.5.1.2.4	6.1.1.1	0		
-127362	1612	Tujia	a²¹ dʑe⁵⁵ po²¹ lo²¹	a²¹ dʑe⁵⁵ po²¹ lo²¹	elbow	elbow		1.5.8.3	6.1.4	0		p,699,m
-127363	1612	Tujia	a²¹ dʑe⁵⁵	a²¹ dʑe⁵⁵	hand	hand		1.5.1.1	6.1.7	0		p,699
-127364	1612	Tujia	a²¹ dʑe⁵⁵ mɯe⁵⁵ kʰɯe²¹	a²¹ dʑe⁵⁵ mɯe⁵⁵ kʰɯe²¹	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		p,699,m,m
-127365	1612	Tujia	a²¹ dʑe⁵⁵ dzo³⁵	a²¹ dʑe⁵⁵ dzo³⁵	fist	fist		1.5.1.1.1	6.1.7.3	0		p,699,m
-127366	1612	Tujia	ta²¹ ze³⁵ dʑe⁵⁵	ta²¹ ze³⁵ dʑe⁵⁵	right hand	right hand		1.5.3.2	6.1.7.4	0		
-127367	1612	Tujia	dʑia²¹ ze³⁵ dʑe⁵⁵	dʑia²¹ ze³⁵ dʑe⁵⁵	left hand	left hand		1.5.3.2	6.1.7.5	0		R
-127368	1612	Tujia	tɕe¹³ ta⁵⁵	tɕe¹³ ta⁵⁵	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		R,711
-127369	1612	Tujia	tsaɯ⁵⁵ tsi²¹	tsaɯ⁵⁵ tsi²¹	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
-127370	1612	Tujia	dʑi³⁵ du̵⁵⁵	dʑi³⁵ du̵⁵⁵	leg	leg		1.5.7	6.2	0		m,1193
-127371	1612	Tujia	pa³⁵ tʰuei⁵⁵ bu²¹	pa³⁵ tʰuei⁵⁵ bu²¹	thigh	thigh		1.5.7.1	6.2.1	0		
-127372	1612	Tujia	kɯe²¹ lo²¹ po⁵⁵	kɯe²¹ lo²¹ po⁵⁵	knee	knee		1.5.8.4	6.2.2	0		
-127373	1612	Tujia	a²¹ dʑi²¹ a²¹ la⁵⁵	a²¹ dʑi²¹ a²¹ la⁵⁵	ankle	ankle		1.5.8.2	6.2.5	0		p,699,m
-127374	1612	Tujia	a³³ dʑi³⁵	a³³ dʑi³⁵	foot	foot		1.5.2	6.2.6	0		
-127375	1612	Tujia	a²¹ dʑi²¹ mɯe⁵⁵ kʰɯe²¹	a²¹ dʑi²¹ mɯe⁵⁵ kʰɯe²¹	heel	heel		1.5.2.1	6.2.6.1	0		
-127376	1612	Tujia	a²¹ dʑi³⁵ a²¹ di³⁵	a²¹ dʑi³⁵ a²¹ di³⁵	sole	sole		1.5.5	6.2.6.5	0		
-127377	1612	Tujia	a²¹ dʑi³⁵ a²¹ lɯ³⁵	a²¹ dʑi³⁵ a²¹ lɯ³⁵	instep	instep		1.5.2.2	6.2.6.6	0		
-127378	1612	Tujia	di²¹ kʰo²¹	di²¹ kʰo²¹	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		m,417
-127379	1612	Tujia	tsaɯ⁵⁵ tsi²¹	tsaɯ⁵⁵ tsi²¹	paw (of animal)	paw (of animal)		1.5.4	6.2.6.9	0		
-127380	1612	Tujia	pai³³ tsi²¹	pai³³ tsi²¹	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-127381	1612	Tujia	a²¹ dʑe²¹ be²¹	a²¹ dʑe²¹ be²¹	finger	finger		1.5.6	7.1	0		p,699,m
-127382	1612	Tujia	a²¹ dʑe³⁵ a²¹ ma²¹ ni³⁵	a²¹ dʑe³⁵ a²¹ ma²¹ ni³⁵	thumb	thumb		1.5.6.1	7.1.5	0		p,699,m
-127383	1612	Tujia	ba⁵⁵ kʰo²¹ ɕyĩ²¹	ba⁵⁵ kʰo²¹ ɕyĩ²¹	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
-127384	1612	Tujia	a³³ dʑi³⁵ be²¹	a³³ dʑi³⁵ be²¹	toe	toe		1.5.6	7.2	0		
-127385	1612	Tujia	dʑe⁵⁵ mo⁵⁵ kʰo²¹	dʑe⁵⁵ mo⁵⁵ kʰo²¹	fingernail	fingernail		1.5.10.1	7.4.1	0		
-127386	1612	Tujia	dʑi³⁵ mo⁵⁵ kʰo²¹	dʑi³⁵ mo⁵⁵ kʰo²¹	toenail	toenail		1.5.10.2	7.4.2	0		
-127387	1612	Tujia	tsaɯ⁵⁵ tsi²¹	tsaɯ⁵⁵ tsi²¹	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		
-127388	1612	Tujia	a²¹ so²¹	a²¹ so²¹	hair (general)	hair (general)		1.2.3	8.1	0		p,370
-127390	1612	Tujia	nie²¹ bo³⁵	nie²¹ bo³⁵	beard	beard		1.2.5.5	8.1.2.1	0		363,1228
-127391	1612	Tujia	a²¹ so²¹	a²¹ so²¹	body hair	body hair		1.6.1	8.1.3	0		p,370
-127392	1612	Tujia	kɯe²¹ lo²¹	kɯe²¹ lo²¹	skin	skin		1.6.5	8.2	0		589,595
-127393	1612	Tujia	si²¹ to²¹ tsʰe³⁵	si²¹ to²¹ tsʰe³⁵	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		m,m,m
-127394	1612	Tujia	tsʰe³⁵ lo⁵⁵	tsʰe³⁵ lo⁵⁵	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
-127395	1612	Tujia	lĩ³³ ka³³	lĩ³³ ka³³	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		
-127396	1612	Tujia	kɯe²¹ lo²¹	kɯe²¹ lo²¹	hide / leather (dried animal skin)	hide  /  leather (dried animal skin)		1.6.5.1	8.2.6	0		589,595
-127397	1612	Tujia	si²¹ tsʰe³⁵	si²¹ tsʰe³⁵	fat	fat		1.6.4	8.3	0		48,42
-127398	1612	Tujia	si²¹ tsʰe³⁵	si²¹ tsʰe³⁵	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		48,42
-127399	1612	Tujia	kʰa²¹ kɯ²¹	kʰa²¹ kɯ²¹	bone	bone		1.6.3	8.4	0		m,233
-127400	1612	Tujia	mie²¹ mie²¹	mie²¹ mie²¹	blood	blood		1.6.2	8.7	0		m
-127401	1612	Tujia	mie²¹ mie²¹ lo⁵⁵	mie²¹ mie²¹ lo⁵⁵	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		m,m,1017
-127402	1612	Tujia	si³⁵	si³⁵	muscle	muscle		1.6.6.2	8.8	0		34
-127403	1612	Tujia	laɯ⁵⁵ suĩ³³	laɯ⁵⁵ suĩ³³	internal organs	internal organs		1.7	9	0		
-127404	1612	Tujia	fei¹³	fei¹³	lung	lung		1.7.2	9.2	0		m
-127405	1612	Tujia	mi⁵⁵	mi⁵⁵	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		503
-127406	1612	Tujia	xa³³	xa³³	gill (of fish)	gill (of fish)		1.3.5.3	9.2.4	0		
-127407	1612	Tujia	dã³³	dã³³	phlegm	phlegm		1.8.3	9.2.5	0		
-127408	1612	Tujia	li²¹ ŋa²¹	li²¹ ŋa²¹	heart	heart		1.7.1	9.3	0		m,m
-127409	1612	Tujia	kã³³	kã³³	liver	liver		1.7.3	9.5	0		229,bChinese
-127410	1612	Tujia	tã²¹	tã²¹	gall bladder	gall bladder		1.7.3	9.5.2	0		bChinese
-127411	1612	Tujia	ʑiaɯ⁵⁵ tsi²¹	ʑiaɯ⁵⁵ tsi²¹	kidney	kidney		1.7.5	9.6	0		b
-127412	1612	Tujia	tsʰe⁵⁵ tsʰe³⁵ pʰaɯ¹³	tsʰe⁵⁵ tsʰe³⁵ pʰaɯ¹³	urinary bladder	urinary bladder		1.7.8	9.7	0		
-127413	1612	Tujia	tsʰe⁵⁵ tsʰe³⁵	tsʰe⁵⁵ tsʰe³⁵	urine	urine		1.8.4	9.7.1	0		650,650
-127414	1612	Tujia	tsʰe⁵⁵ tsʰe³⁵ po²¹	tsʰe⁵⁵ tsʰe³⁵ po²¹	urinate	urinate	v	1.5.3.2	9.7.2	0		650,650,m
-127415	1612	Tujia	mɯe³⁵ tɕi⁵⁵	mɯe³⁵ tɕi⁵⁵	stomach	stomach		1.7.6	9.10	0		m,1390
-127416	1612	Tujia	ka²¹ bu²¹ lo⁵⁵	ka²¹ bu²¹ lo⁵⁵	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		229,2103,m
-127417	1612	Tujia	se³⁵ a²¹ dɯ³⁵	se³⁵ a²¹ dɯ³⁵	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		m,m,822
-127418	1612	Tujia	se³⁵	se³⁵	feces / shit	feces  /  shit		1.8.5	9.12.1	0		572
-127419	1612	Tujia	se³⁵ po²¹	se³⁵ po²¹	defecate	defecate	v	1.8.5.4	9.12.3	0		
-127420	1612	Tujia	a²¹ ko²¹ be²¹ ŋɯ²¹	a²¹ ko²¹ be²¹ ŋɯ²¹	male	male		1.9.6.1	10.3	0		
-127421	1612	Tujia	ʑi³⁵	ʑi³⁵	penis	penis			10.3.1	0		1601
-127422	1612	Tujia	tɕe⁵⁵	tɕe⁵⁵	castrate	castrate	v	1.9.2.3	10.3.9	0		m
-127423	1612	Tujia	a²¹ ʑio⁵⁵ be²¹ ŋɯ²¹	a²¹ ʑio⁵⁵ be²¹ ŋɯ²¹	female	female		1.9.3	10.4	0		m,m,m,m
-127424	1612	Tujia	tʰe³⁵	tʰe³⁵	vagina	vagina			10.4.1	0		1352
-127425	1612	Tujia	si³⁵	si³⁵	birth, give	birth, give		1.1.2	10.4.15	0		
-127426	1612	Tujia	a²¹le⁵⁵	a²¹le⁵⁵	egg (of animal)	egg (of animal)			10.4.16	0		p,3438
-127427	1612	Tujia	niu̵⁵⁵	niu̵⁵⁵	cough	cough		1.8.3.3	11.1	0		
-127428	1612	Tujia	li³³ tɕĩ³³ pʰa³⁵	li³³ tɕĩ³³ pʰa³⁵	fart	fart		1.8.5.2	11.7	0		m,m,m
-127429	1612	Tujia	ne³³	ne³³	laugh	laugh		1.8.8.1	11.9	0		1105
-127430	1612	Tujia	pʰã⁵⁵	pʰã⁵⁵	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
-127431	1612	Tujia	dɯ²¹	dɯ²¹	sick / be ill / hurt	sick  /  be ill  /  hurt	be	1.1.5.1	12.2	0		
-127432	1612	Tujia	fu³⁵	fu³⁵	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
-127433	1612	Tujia	dzi¹³ tsʰe³⁵	dzi¹³ tsʰe³⁵	pus	pus		1.8.6.1	12.5	0		1296,m
-127434	1612	Tujia	dʑua¹³	dʑua¹³	hand span	hand span		1.5.9.4	13.2	0		
-127435	1612	Tujia	pʰai³³	pʰai³³	left fingertip to right finger	left fingertip to right finger		1.5.3.2	13.4.2	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+127292	1612	Tujia	to⁵⁵ pʰo²¹	to⁵⁵ pʰo²¹	body	body			1.1.1	1.1	0			14,1902
+127293	1612	Tujia	ta²¹ ze³⁵	ta²¹ ze³⁵	side (right)	side (right)			1.4.5	1.2	0			
+127294	1612	Tujia	dʑia²¹ ze³⁵	dʑia²¹ ze³⁵	side (left)	side (left)			1.4.5	1.3	0			
+127295	1612	Tujia	mɯe⁵⁵ kʰɯe²¹	mɯe⁵⁵ kʰɯe²¹	back	back			1.4.8	1.4	0			
+127296	1612	Tujia	dɯ⁵⁵ go³⁵	dɯ⁵⁵ go³⁵	front	front			1.4.4	1.5	0			m,m
+127297	1612	Tujia	dʑi³⁵ du̵⁵⁵	dʑi³⁵ du̵⁵⁵	lap	lap			1.4.4.2	1.8	0			m,1193
+127298	1612	Tujia	to⁵⁵ po²¹ dɯ²¹ go³⁵	to⁵⁵ po²¹ dɯ²¹ go³⁵	bosom	bosom			1.4.4.2	1.9	0			m,m,398,?,m,m,m,m
+127299	1612	Tujia	si³⁵	si³⁵	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		34
+127300	1612	Tujia	se²¹	se²¹	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		27
+127301	1612	Tujia	ne²¹	ne²¹	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		129
+127302	1612	Tujia	ne²¹ ɕi³⁵	ne²¹ ɕi³⁵	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		143,1837
+127303	1612	Tujia	a³⁵ bo⁵⁵ bu²¹	a³⁵ bo⁵⁵ bu²¹	head	head			1.2.1	2.1	0			p,388,1275
+127304	1612	Tujia	naɯ⁵⁵ suĩ⁵⁵	naɯ⁵⁵ suĩ⁵⁵	brain	brain			1.2.4	2.5	0			243,5485
+127305	1612	Tujia	a²¹ so²¹	a²¹ so²¹	hair (head)	hair (head)			1.2.3	2.7	0			p,370
+127306	1612	Tujia	a³³ kʰɯe³³	a³³ kʰɯe³³	horn (of animal)	horn (of animal)			1.2.2	2.10	0			p,819
+127307	1612	Tujia	a²¹ gu²¹ pʰo⁵⁵	a²¹ gu²¹ pʰo⁵⁵	face	face			1.2.5	3.1	0			p,273
+127308	1612	Tujia	ŋɯe²¹ mĩ²¹	ŋɯe²¹ mĩ²¹	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		356,354
+127309	1612	Tujia	a²¹ la⁵⁵ tɕi³⁵	a²¹ la⁵⁵ tɕi³⁵	eye	eye			1.2.6	3.4	0			p,1427,3559
+127310	1612	Tujia	a²¹ la⁵⁵ kɯe²¹ lo²¹	a²¹ la⁵⁵ kɯe²¹ lo²¹	eyelid	eyelid			1.2.6.4	3.4.1	0			p,1427,589,m
+127311	1612	Tujia	a³⁵ la⁵⁵ bu²¹	a³⁵ la⁵⁵ bu²¹	eyeball	eyeball			1.2.6.1	3.4.2	0			p,1427,1275
+127312	1612	Tujia	a²¹ la⁵⁵ a²¹ so²¹	a²¹ la⁵⁵ a²¹ so²¹	eyebrow	eyebrow			1.2.6.6	3.4.3	0			p,1427,p,370
+127313	1612	Tujia	a²¹ la⁵⁵ tsʰe³⁵	a²¹ la⁵⁵ tsʰe³⁵	tears	tears			1.2.6.7	3.4.6	0			p,1427,298
+127314	1612	Tujia	dzi²¹	dzi²¹	cry / weep	cry  /  weep	v	v	1.8.8.2	3.4.8	0	jbl3		m
+127315	1612	Tujia	bo¹³	bo¹³	see / look	see  /  look	v	v	1.2.6.10	3.4.9	0	jbl3		1227
+127316	1612	Tujia	a¹³ la⁵⁵ be¹³	a¹³ la⁵⁵ be¹³	blind	blind			1.2.6.14.2	3.4.10	0			
+127317	1612	Tujia	ku̵¹³ tɕi⁵⁵ du̵³⁵	ku̵¹³ tɕi⁵⁵ du̵³⁵	nose	nose			1.2.8	3.5	0			809,442,808
+127318	1612	Tujia	ku̵¹³ tɕi⁵⁵ dɯ³⁵	ku̵¹³ tɕi⁵⁵ dɯ³⁵	nostril	nostril			1.2.8.1	3.5.2	0			809,m,808
+127319	1612	Tujia	lĩ²¹ lĩ²¹	lĩ²¹ lĩ²¹	solid mucus	solid mucus			1.1.5	3.5.7	0			
+127320	1612	Tujia	ɕiõ¹³	ɕiõ¹³	smell / sniff	smell  /  sniff	v	v	1.2.8.5	3.5.9	0	jbl3		
+127321	1612	Tujia	tsã²¹ pu̵⁵⁵	tsã²¹ pu̵⁵⁵	ear	ear			1.2.7	3.6	0			816,812
+127322	1612	Tujia	tsã²¹ pu̵⁵⁵ se³⁵	tsã²¹ pu̵⁵⁵ se³⁵	earwax	earwax			1.2.7.3	3.6.6	0			816,815,572
+127323	1612	Tujia	xo³³ zi³³	xo³³ zi³³	hear	hear	v	v	1.2.7.4	3.6.7	0			
+127324	1612	Tujia	tsa¹³ pu̵⁵⁵ tu̵⁵⁵	tsa¹³ pu̵⁵⁵ tu̵⁵⁵	deaf	deaf			1.2.7.5	3.6.8	0			m,1409,1412
+127325	1612	Tujia	a²¹ ze²¹	a²¹ ze²¹	mouth	mouth			1.3.1	3.7	0			p,m
+127326	1612	Tujia	dzi²¹ la²¹ sa⁵⁵	dzi²¹ la²¹ sa⁵⁵	uvula	uvula			1.3.5.1	3.7.4	0			
+127327	1612	Tujia	tsʰe¹³ si⁵⁵	tsʰe¹³ si⁵⁵	saliva	saliva			1.8.3	3.7.5	0			
+127328	1612	Tujia	ɣɯe³⁵	ɣɯe³⁵	eat	eat	v	v	1.5.3.2	3.7.6	0			m
+127329	1612	Tujia	dzu̵³³	dzu̵³³	drink	drink	v	v		3.7.7	0			m
+127330	1612	Tujia	go³⁵	go³⁵	thirsty	thirsty	be	be	1.1.3.1	3.7.8	0			116
+127331	1612	Tujia	lo²¹ ɣo¹³	lo²¹ ɣo¹³	hungry	hungry	be	be	1.1.3	3.7.9	0			
+127332	1612	Tujia	tʰo⁵⁵ la²¹	tʰo⁵⁵ la²¹	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		7091,m
+127333	1612	Tujia	tsʰi⁵⁵	tsʰi⁵⁵	spit	spit	v	v	1.8.3	3.7.11	0			
+127334	1612	Tujia	pʰi⁵⁵	pʰi⁵⁵	vomit	vomit	v	v	1.8.3.2	3.7.13	0			1145
+127335	1612	Tujia	xã²¹	xã²¹	hold in mouth	hold in mouth	v	v	1.3.4.4	3.7.14	0			b?
+127336	1612	Tujia	dzi²¹ la²¹	dzi²¹ la²¹	tongue	tongue			1.3.3	3.8	0			621,623
+127337	1612	Tujia	xɯ⁵⁵	xɯ⁵⁵	speak	speak	v	v	8.5.10.1	3.8.1	0			
+127338	1612	Tujia	a⁵⁵ tsi²¹	a⁵⁵ tsi²¹	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		p,m
+127339	1612	Tujia	lo²¹	lo²¹	lick	lick			1.3.3.1	3.8.4	0			629
+127340	1612	Tujia	a²¹ ze²¹ kɯ²¹ lo²¹	a²¹ ze²¹ kɯ²¹ lo²¹	lip	lip			1.3.2	3.9	0			p,m,m,456
+127341	1612	Tujia	ne³³	ne³³	smile	smile	v	v	1.8.8.1	3.9.4	0			1105
+127342	1612	Tujia	si³³ ta³⁵	si³³ ta³⁵	tooth	tooth			1.3.4	3.10	0			632,3316
+127343	1612	Tujia	go³⁵	go³⁵	bite	bite	v	v	1.3.4.4	3.10.7	0			755
+127344	1612	Tujia	tɕʰe³⁵	tɕʰe³⁵	chew	chew	v	v	1.3.4	3.10.8	0			1778
+127345	1612	Tujia	a²¹ gu²¹ kʰa²¹ kɯ²¹	a²¹ gu²¹ kʰa²¹ kɯ²¹	cheekbone	cheekbone			1.2.5.2	3.11.1	0			p,2057,m,m
+127346	1612	Tujia	gua²¹ la⁵⁵	gua²¹ la⁵⁵	neck	neck			1.4.2	4.1	0			389,m
+127347	1612	Tujia	gua²¹ la⁵⁵ du̵³⁵	gua²¹ la⁵⁵ du̵³⁵	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		389,m,m
+127348	1612	Tujia	ze²¹	ze²¹	swallow	swallow	v	v	1.3.5.6	4.2.3	0			
+127349	1612	Tujia	to⁵⁵ po²¹ dɯ²¹ go³⁵	to⁵⁵ po²¹ dɯ²¹ go³⁵	chest	chest			1.4.4.3	5.1	0			m,m,289,m
+127350	1612	Tujia	to⁵⁵ po²¹ kʰa²¹ kɯ²¹	to⁵⁵ po²¹ kʰa²¹ kɯ²¹	rib	rib			1.4.4.3	5.1.2	0			m,m,310,560
+127351	1612	Tujia	tɕiã⁵⁵ po²¹	tɕiã⁵⁵ po²¹	shoulder	shoulder			1.4.3	5.3	0			b
+127352	1612	Tujia	mã⁵⁵	mã⁵⁵	breast	breast			1.4.4.3	5.4	0			3457
+127353	1612	Tujia	mã⁵⁵ tsʰe³⁵	mã⁵⁵ tsʰe³⁵	milk	milk				5.4.3	0			3457,298
+127354	1612	Tujia	to⁵⁵ po²¹ mɯe⁵⁵ kʰɯe²¹	to⁵⁵ po²¹ mɯe⁵⁵ kʰɯe²¹	back	back			1.4.8	5.5	0			
+127355	1612	Tujia	a¹³ du̵⁵⁵	a¹³ du̵⁵⁵	waist	waist			1.4.6	5.6	0			p,1362
+127356	1612	Tujia	mɯe¹³ tɕi⁵⁵	mɯe¹³ tɕi⁵⁵	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)			1.4.7	5.7	0	jbl3		m,m
+127357	1612	Tujia	mɯe¹³ tɕi⁵⁵ dɯ³⁵	mɯe¹³ tɕi⁵⁵ dɯ³⁵	navel	navel			1.9.4	5.7.1	0			m,m,520
+127358	1612	Tujia	lia³⁵ tɯ⁵⁵	lia³⁵ tɯ⁵⁵	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			3332,m
+127359	1612	Tujia	a²¹ dʑe⁵⁵ mɯe²¹ dʑi⁵⁵	a²¹ dʑe⁵⁵ mɯe²¹ dʑi⁵⁵	arm	arm			1.5.1.2	6.1	0			p,699,m,m
+127360	1612	Tujia	ka²¹ tɕi²¹ dɯ³⁵	ka²¹ tɕi²¹ dɯ³⁵	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		
+127361	1612	Tujia	si³³ ɣo³⁵	si³³ ɣo³⁵	tickle	tickle			1.5.1.2.4	6.1.1.1	0			
+127362	1612	Tujia	a²¹ dʑe⁵⁵ po²¹ lo²¹	a²¹ dʑe⁵⁵ po²¹ lo²¹	elbow	elbow			1.5.8.3	6.1.4	0			p,699,m
+127363	1612	Tujia	a²¹ dʑe⁵⁵	a²¹ dʑe⁵⁵	hand	hand			1.5.1.1	6.1.7	0			p,699
+127364	1612	Tujia	a²¹ dʑe⁵⁵ mɯe⁵⁵ kʰɯe²¹	a²¹ dʑe⁵⁵ mɯe⁵⁵ kʰɯe²¹	back of hand	back of hand			1.5.1.1.2	6.1.7.2	0			p,699,m,m
+127365	1612	Tujia	a²¹ dʑe⁵⁵ dzo³⁵	a²¹ dʑe⁵⁵ dzo³⁵	fist	fist			1.5.1.1.1	6.1.7.3	0			p,699,m
+127366	1612	Tujia	ta²¹ ze³⁵ dʑe⁵⁵	ta²¹ ze³⁵ dʑe⁵⁵	right hand	right hand			1.5.3.2	6.1.7.4	0			
+127367	1612	Tujia	dʑia²¹ ze³⁵ dʑe⁵⁵	dʑia²¹ ze³⁵ dʑe⁵⁵	left hand	left hand			1.5.3.2	6.1.7.5	0			R
+127368	1612	Tujia	tɕe¹³ ta⁵⁵	tɕe¹³ ta⁵⁵	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			R,711
+127369	1612	Tujia	tsaɯ⁵⁵ tsi²¹	tsaɯ⁵⁵ tsi²¹	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			
+127370	1612	Tujia	dʑi³⁵ du̵⁵⁵	dʑi³⁵ du̵⁵⁵	leg	leg			1.5.7	6.2	0			m,1193
+127371	1612	Tujia	pa³⁵ tʰuei⁵⁵ bu²¹	pa³⁵ tʰuei⁵⁵ bu²¹	thigh	thigh			1.5.7.1	6.2.1	0			
+127372	1612	Tujia	kɯe²¹ lo²¹ po⁵⁵	kɯe²¹ lo²¹ po⁵⁵	knee	knee			1.5.8.4	6.2.2	0			
+127373	1612	Tujia	a²¹ dʑi²¹ a²¹ la⁵⁵	a²¹ dʑi²¹ a²¹ la⁵⁵	ankle	ankle			1.5.8.2	6.2.5	0			p,699,m
+127374	1612	Tujia	a³³ dʑi³⁵	a³³ dʑi³⁵	foot	foot			1.5.2	6.2.6	0			
+127375	1612	Tujia	a²¹ dʑi²¹ mɯe⁵⁵ kʰɯe²¹	a²¹ dʑi²¹ mɯe⁵⁵ kʰɯe²¹	heel	heel			1.5.2.1	6.2.6.1	0			
+127376	1612	Tujia	a²¹ dʑi³⁵ a²¹ di³⁵	a²¹ dʑi³⁵ a²¹ di³⁵	sole	sole			1.5.5	6.2.6.5	0			
+127377	1612	Tujia	a²¹ dʑi³⁵ a²¹ lɯ³⁵	a²¹ dʑi³⁵ a²¹ lɯ³⁵	instep	instep			1.5.2.2	6.2.6.6	0			
+127378	1612	Tujia	di²¹ kʰo²¹	di²¹ kʰo²¹	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			m,417
+127379	1612	Tujia	tsaɯ⁵⁵ tsi²¹	tsaɯ⁵⁵ tsi²¹	paw (of animal)	paw (of animal)			1.5.4	6.2.6.9	0			
+127380	1612	Tujia	pai³³ tsi²¹	pai³³ tsi²¹	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+127381	1612	Tujia	a²¹ dʑe²¹ be²¹	a²¹ dʑe²¹ be²¹	finger	finger			1.5.6	7.1	0			p,699,m
+127382	1612	Tujia	a²¹ dʑe³⁵ a²¹ ma²¹ ni³⁵	a²¹ dʑe³⁵ a²¹ ma²¹ ni³⁵	thumb	thumb			1.5.6.1	7.1.5	0			p,699,m
+127383	1612	Tujia	ba⁵⁵ kʰo²¹ ɕyĩ²¹	ba⁵⁵ kʰo²¹ ɕyĩ²¹	fingerprint	fingerprint			1.5.6.1	7.1.6	0			
+127384	1612	Tujia	a³³ dʑi³⁵ be²¹	a³³ dʑi³⁵ be²¹	toe	toe			1.5.6	7.2	0			
+127385	1612	Tujia	dʑe⁵⁵ mo⁵⁵ kʰo²¹	dʑe⁵⁵ mo⁵⁵ kʰo²¹	fingernail	fingernail			1.5.10.1	7.4.1	0			
+127386	1612	Tujia	dʑi³⁵ mo⁵⁵ kʰo²¹	dʑi³⁵ mo⁵⁵ kʰo²¹	toenail	toenail			1.5.10.2	7.4.2	0			
+127387	1612	Tujia	tsaɯ⁵⁵ tsi²¹	tsaɯ⁵⁵ tsi²¹	claw (of animal)	claw (of animal)			1.5.10.4	7.4.3	0			
+127388	1612	Tujia	a²¹ so²¹	a²¹ so²¹	hair (general)	hair (general)			1.2.3	8.1	0			p,370
+127390	1612	Tujia	nie²¹ bo³⁵	nie²¹ bo³⁵	beard	beard			1.2.5.5	8.1.2.1	0			363,1228
+127391	1612	Tujia	a²¹ so²¹	a²¹ so²¹	body hair	body hair			1.6.1	8.1.3	0			p,370
+127392	1612	Tujia	kɯe²¹ lo²¹	kɯe²¹ lo²¹	skin	skin			1.6.5	8.2	0			589,595
+127393	1612	Tujia	si²¹ to²¹ tsʰe³⁵	si²¹ to²¹ tsʰe³⁵	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		m,m,m
+127394	1612	Tujia	tsʰe³⁵ lo⁵⁵	tsʰe³⁵ lo⁵⁵	wrinkle	wrinkle			9.6.2	8.2.3.8	0			
+127395	1612	Tujia	lĩ³³ ka³³	lĩ³³ ka³³	scales (of fish)	scales (of fish)			1.6.5.2	8.2.5	0			
+127396	1612	Tujia	kɯe²¹ lo²¹	kɯe²¹ lo²¹	hide / leather (dried animal skin)	hide  /  leather (dried animal skin)			1.6.5.1	8.2.6	0	jbl3		589,595
+127397	1612	Tujia	si²¹ tsʰe³⁵	si²¹ tsʰe³⁵	fat	fat			1.6.4	8.3	0			48,42
+127398	1612	Tujia	si²¹ tsʰe³⁵	si²¹ tsʰe³⁵	oil / grease (for cooking)	oil  /  grease (for cooking)			1.6.4.1	8.3.2	0	jbl3		48,42
+127399	1612	Tujia	kʰa²¹ kɯ²¹	kʰa²¹ kɯ²¹	bone	bone			1.6.3	8.4	0			m,233
+127400	1612	Tujia	mie²¹ mie²¹	mie²¹ mie²¹	blood	blood			1.6.2	8.7	0			m
+127401	1612	Tujia	mie²¹ mie²¹ lo⁵⁵	mie²¹ mie²¹ lo⁵⁵	blood vessel / vein / artery	blood vessel  /  vein  /  artery			1.6.2.1	8.7.1	0	jbl3		m,m,1017
+127402	1612	Tujia	si³⁵	si³⁵	muscle	muscle			1.6.6.2	8.8	0			34
+127403	1612	Tujia	laɯ⁵⁵ suĩ³³	laɯ⁵⁵ suĩ³³	internal organs	internal organs			1.7	9	0			
+127404	1612	Tujia	fei¹³	fei¹³	lung	lung			1.7.2	9.2	0			m
+127405	1612	Tujia	mi⁵⁵	mi⁵⁵	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			503
+127406	1612	Tujia	xa³³	xa³³	gill (of fish)	gill (of fish)			1.3.5.3	9.2.4	0			
+127407	1612	Tujia	dã³³	dã³³	phlegm	phlegm			1.8.3	9.2.5	0			
+127408	1612	Tujia	li²¹ ŋa²¹	li²¹ ŋa²¹	heart	heart			1.7.1	9.3	0			m,m
+127409	1612	Tujia	kã³³	kã³³	liver	liver			1.7.3	9.5	0			229,bChinese
+127410	1612	Tujia	tã²¹	tã²¹	gall bladder	gall bladder			1.7.3	9.5.2	0			bChinese
+127411	1612	Tujia	ʑiaɯ⁵⁵ tsi²¹	ʑiaɯ⁵⁵ tsi²¹	kidney	kidney			1.7.5	9.6	0			b
+127412	1612	Tujia	tsʰe⁵⁵ tsʰe³⁵ pʰaɯ¹³	tsʰe⁵⁵ tsʰe³⁵ pʰaɯ¹³	urinary bladder	urinary bladder			1.7.8	9.7	0			
+127413	1612	Tujia	tsʰe⁵⁵ tsʰe³⁵	tsʰe⁵⁵ tsʰe³⁵	urine	urine			1.8.4	9.7.1	0			650,650
+127414	1612	Tujia	tsʰe⁵⁵ tsʰe³⁵ po²¹	tsʰe⁵⁵ tsʰe³⁵ po²¹	urinate	urinate	v	v	1.5.3.2	9.7.2	0			650,650,m
+127415	1612	Tujia	mɯe³⁵ tɕi⁵⁵	mɯe³⁵ tɕi⁵⁵	stomach	stomach			1.7.6	9.10	0			m,1390
+127416	1612	Tujia	ka²¹ bu²¹ lo⁵⁵	ka²¹ bu²¹ lo⁵⁵	intestines / bowels	intestines  /  bowels			1.7.7	9.11	0	jbl3		229,2103,m
+127417	1612	Tujia	se³⁵ a²¹ dɯ³⁵	se³⁵ a²¹ dɯ³⁵	anus / rectum	anus  /  rectum			1.4.10.2	9.12	0	jbl3		m,m,822
+127418	1612	Tujia	se³⁵	se³⁵	feces / shit	feces  /  shit			1.8.5	9.12.1	0	jbl3		572
+127419	1612	Tujia	se³⁵ po²¹	se³⁵ po²¹	defecate	defecate	v	v	1.8.5.4	9.12.3	0			
+127420	1612	Tujia	a²¹ ko²¹ be²¹ ŋɯ²¹	a²¹ ko²¹ be²¹ ŋɯ²¹	male	male			1.9.6.1	10.3	0			
+127421	1612	Tujia	ʑi³⁵	ʑi³⁵	penis	penis				10.3.1	0			1601
+127422	1612	Tujia	tɕe⁵⁵	tɕe⁵⁵	castrate	castrate	v	v	1.9.2.3	10.3.9	0			m
+127423	1612	Tujia	a²¹ ʑio⁵⁵ be²¹ ŋɯ²¹	a²¹ ʑio⁵⁵ be²¹ ŋɯ²¹	female	female			1.9.3	10.4	0			m,m,m,m
+127424	1612	Tujia	tʰe³⁵	tʰe³⁵	vagina	vagina				10.4.1	0			1352
+127425	1612	Tujia	si³⁵	si³⁵	birth, give	birth, give			1.1.2	10.4.15	0			
+127426	1612	Tujia	a²¹le⁵⁵	a²¹le⁵⁵	egg (of animal)	egg (of animal)				10.4.16	0			p,3438
+127427	1612	Tujia	niu̵⁵⁵	niu̵⁵⁵	cough	cough			1.8.3.3	11.1	0			
+127428	1612	Tujia	li³³ tɕĩ³³ pʰa³⁵	li³³ tɕĩ³³ pʰa³⁵	fart	fart			1.8.5.2	11.7	0			m,m,m
+127429	1612	Tujia	ne³³	ne³³	laugh	laugh			1.8.8.1	11.9	0			1105
+127430	1612	Tujia	pʰã⁵⁵	pʰã⁵⁵	tremble / shiver / shudder	tremble  /  shiver  /  shudder			1.6.6.2.1	12.1	0	jbl3		
+127431	1612	Tujia	dɯ²¹	dɯ²¹	sick / be ill / hurt	sick  /  be ill  /  hurt	be	be	1.1.5.1	12.2	0	jbl3		
+127432	1612	Tujia	fu³⁵	fu³⁵	swell /  be swollen	swell  /   be swollen	v.	v.	1.1.5.2	12.4	0	jbl3		
+127433	1612	Tujia	dzi¹³ tsʰe³⁵	dzi¹³ tsʰe³⁵	pus	pus			1.8.6.1	12.5	0			1296,m
+127434	1612	Tujia	dʑua¹³	dʑua¹³	hand span	hand span			1.5.9.4	13.2	0			
+127435	1612	Tujia	pʰai³³	pʰai³³	left fingertip to right finger	left fingertip to right finger			1.5.3.2	13.4.2	0			

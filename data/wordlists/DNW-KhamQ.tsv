@@ -1,234 +1,234 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-12668	766	Kham	ritha	ritha	adam's apple	adam's apple		1.3.5.4		0		
-12669	766	Kham	'phərləp	'phərləp	ankle bone	ankle bone		1.5.8.2		0		
-12671	766	Kham	'kwi	'kwi	arm	arm		1.5.1.2	2.A.47	0	D1	712
-12672	766	Kham	lam	lam	arm	arm		1.5.1.2	2.A.47	0	D1	768
-12677	766	Kham	kha◦ta	kha◦ta	beard	beard		1.2.5.5	2.A.13	0		273,m
-12678	766	Kham	ə◦phuː	əphuː	belch	belch	v.	1.8.3.4	2.B.2.1	0		3443,m
-12680	766	Kham	kaː	kaː	bile	bile		1.7.3.1	2.A.71	0	D1	229
-12681	766	Kham	kəy-nya	kəy-nya	bite	bite	v.	1.3.4.4	1.56	0	D1	1777,1761
-12682	766	Kham	kəy-nya	kəy-nya	bite	bite	v.	1.3.4.4	3.B.4	0	HIDE	DUPE IN SOURCE
-12683	766	Kham	pũː◦ci	pũː◦ci	bladder	bladder		1.7.8		0		777,650
-12685	766	Kham	'mi marə̃yo	'mi marə̃yo	blind	blind		1.2.6.14.2	12.A.11	0	D1	682,m
-12689	766	Kham	nahp khya-nya	nahp khya-nya	blow (nose)	blow  (nose)	v.	1.3.1.4	2.B.2.4	0		805,m,m
-12690	766	Kham	'kyãː	'kyãː	body	body		1.1.1	2.A.1	0	D1	10
-12693	766	Kham	nwiː	nwiː	breast	breast		1.4.4.3	1.51	0	D1	253
-12696	766	Kham	pə◦gil	pə◦gil	buttock	buttock		1.4.9.2	2.A.45	0	D1	410,202
-12697	766	Kham	'gala	'gala	cheek	cheek		1.2.5.2	2.A.19	0	D1	2050
-12698	766	Kham	chati	chati	chest	chest		1.4.4.3	2.A.33	0		b
-12703	766	Kham	or◦jəm	or◦jəm	comb (of chicken)	comb  (of chicken)		1.2.2.1		0	D1	p,1471
-12704	766	Kham	kha◦si-nya	kha◦si-nya	cough	cough	v.	1.8.3.3	2.B.2.26	0		1795,m,s
-12706	766	Kham	gəhr-nya	gəhr-nya	cry / weep	cry / weep		1.8.8.2	10.B.3.4	0	D1	1781,s
-12707	766	Kham	cir◦lə  ni bir◦lə gəhr-ny	cir◦lə  ni bir◦lə gəhr-ny	cry / weep	cry / weep		1.8.8.2	10.B.3.4	0	D1	m,m,m,m,m,1781,s
-12708	766	Kham	ka◦wãː ci◦wãː gəhr-nya	ka◦wãː ci◦wãː gəhr-nya	cry / weep	cry / weep		1.8.8.2	10.B.3.4	0	D1	m,m,m,m,1781,s
-12709	766	Kham	or◦na mathaso	orna mathaso	deaf	deaf		1.2.7.5	12.A.12	0		p,811,m
-12714	766	Kham	naː syoː	naː syoː	ear (upper)	ear (upper)		1.2.7		0	D1	811,816
-12718	766	Kham	'gũː	'gũː	elbow	elbow		1.5.8.3	2.A.52	0	D1	b?
-12719	766	Kham	urmil	urmil	esophagus	esophagus		1.3.5.5		0	D1	
-12720	766	Kham	'mi	'mi	eye	eye		1.2.6	1.40	0	D1	682
-12721	766	Kham	kwi◦rya◦so	kwi◦rya◦so	eye	eye		1.2.6	1.40	0	D1	m,2078,m
-12723	766	Kham	'mih◦gum	'mih◦gum	eyebrow	eyebrow		1.2.6.6	2.A.11	0	D1	682,2075
-12727	766	Kham	'muhl	'muhl	feather	feather		1.6.1.1	1.36	0	D1	363
-12728	766	Kham	kər	kər	feather (wing)	feather (wing)		1.6.1.1	1.36	0	D1	713
-12732	766	Kham	sin	sin	fingernail	fingernail		1.5.10.1	1.45	0	D1	
-12735	766	Kham	'khə̃ː	'khə̃ː	foot	foot		1.5.2	1.46	0		336
-12737	766	Kham	cãː◦di	cãː◦di	forehead	forehead		1.2.5.1	2.A.18	0		m,358
-12741	766	Kham	orgãːda	orgãːda	goiter (enlarged)	goiter (enlarged)		1.4.2.2		0	D1	m
-12742	766	Kham	cere mere	cere mere	goiter (extreme)	goiter (extreme)		1.4.2.2		0	D1	m,m
-12743	766	Kham	'muhl	'muhl	hair	hair		1.2.3	1.37	0	D1	363
-12746	766	Kham	or◦bə̃ːh	or◦bə̃ːh	hair (tassel of animals tail)	hair (tassel of animals tail)		1.2.3		0	D1	m,m
-12749	766	Kham	thəy-nya	thəy-nya	hear	hear	v.	1.2.7.4	1.58	0		1408,1410
-12750	766	Kham	'yũːh	'yũːh	heart	heart		1.7.1	1.52	0	D1	1382
-12752	766	Kham	kurkuca	kurkuca	heel	heel		1.5.2.1	2.A.60	0	D1	b
-12754	766	Kham	sya'◦lo	sya'◦lo	hide	hide		1.6.5.1		0		34,m
-12755	766	Kham	'gah◦chum	'gah◦chum	hip (sides of)	hip (sides of)		1.4.9.2	2.A.44	0		201,3334
-12757	766	Kham	hur-nya	hur-nya	hurt	hurt	v.i.	1.1.5.1		0	D1	m,s
-12760	766	Kham	khap	khap	jawbone	jawbone		1.2.5.2		0		278
-12761	766	Kham	a◦khə◦la	akhəla	joint	joint		1.5.8	2.A.4	0		p,m,424
-12762	766	Kham	kəl	kəl	kidney	kidney		1.7.5	2.A.41	0	D1	201
-12764	766	Kham	gõy	gõy	lap	lap		1.4.4.2		0	D1	2326
-12765	766	Kham	'sas-nya	'sas-nya	laugh	laugh		1.8.8.1	10.B.3.12	0	D1	m,1105
-12767	766	Kham	'khə̃ː	'khə̃ː	leg	leg		1.5.7	2.A.56	0		336
-12771	766	Kham	thu◦tu◦na	thu◦tu◦na	lip	lip		1.3.2	2.A.25	0		442,2095,m
-12773	766	Kham	'phoːsa	'phoː◦sa	lung	lung		1.7.2	2.A.36	0		5680
-12774	766	Kham	'suː	'suː	marrow	marrow		1.6.3.5	2.A.3	0	D1	5485
-12778	766	Kham	'yaːh	'yaːh	mouth	mouth		1.3.1	1.42	0	D1	1115
-12782	766	Kham	'kha◦rim	'kha◦rim	nape	nape		1.4.2.1		0		494,5650
-12783	766	Kham	'pũːh◦təli	'pũːh◦təli	navel	navel		1.9.4	2.A.38	0	D1	2111,517
-12788	766	Kham	'səniː kũː	'səniː kũː	nostril	nostril		1.2.8.1	2.A.24	0	D1	803,809
-12794	766	Kham	or◦'kal	or◦'kal	penis	penis				0	D1	
-12795	766	Kham	katu	katu	penis (child's)	penis  (child's)		1.5.3.2		0	D1	3420
-12796	766	Kham	'sə◦nis	'sə◦nis	pus	pus		1.8.6.1	2.A.63	0	D1	m,m
-12799	766	Kham	'tihl	'tihl	saliva	saliva		1.8.3	2.A.67	0	D1	600
-12802	766	Kham	'nəl◦tha	'nəl◦tha	shin	shin		1.5.7.2	2.A.58	0		580,m
-12803	766	Kham	'põː	'põː	shoulder	shoulder		1.4.3	2.A.29	0	D1	1327
-12804	766	Kham	'kərem	'kərem	shoulder blade	shoulder blade		1.4.3	2.A.48	0	D1	
-12806	766	Kham	ol◦ko◦ta	ol◦ko◦ta	skin	skin		1.6.5	1.28	0	D1	591,589,m
-12807	766	Kham	'khəppər	'khəppər	skull	skull		1.2.1.1	2.A.15	0		1241
-12809	766	Kham	chis-nya	chis-nya	sneeze	sneeze	v.	1.8.2.1	2.B.2.27	0		
-12810	766	Kham	pərãːchĩː	pərãːchĩː	sneeze	sneeze		1.8.2.1	10.A.27	0		
-12812	766	Kham	thutuna	thutuna	snout	snout		1.2.8		0		bNepali
-12813	766	Kham	'khə̃ː◦bãː	'khə̃ːbãː	sole	sole		1.5.5	2.A.61	0		336,s
-12814	766	Kham	'khəhtera	'khəhtera	sore / wound	sore  /  wound		1.1.5.1		0		
-12816	766	Kham	tərjyaːh	tərjyaːh	span of hand	span of hand		1.5.9.4	12.C.43	0	D1	
-12817	766	Kham	'wãːh◦rus	'wãːh◦rus	backbone / spine	backbone / spine		1.4.8.2	2.A.32	0	D1	137,232
-12819	766	Kham	'phis	'phis	spleen	spleen		1.7.4	2.A.42	0		5636
-12820	766	Kham	kha◦so	khaso	sputum / phlegm	sputum / phlegm		1.8.3	2.A.68	0		540,m
-12821	766	Kham	bakha	bakha	stammerer	stammerer		1.8.7.2		0		
-12822	766	Kham	'phuː	'phuː	stomach	stomach		1.7.6		0		2103
-12823	766	Kham	bũː◦di	bũː◦di	stomach (inner)	stomach (inner)		1.7.6		0	D1	2111,m
-12824	766	Kham	'bakhas-nya	'bakhas-nya	stutter	stutter	v.	8.5.4.5	10.B.1.5	0		
-12827	766	Kham	'pəsyon	'pəsyon	sweat	sweat		1.8.1	2.A.74	0	D1	b,bNepali
-12828	766	Kham	o◦r'mẽːh	or|'mẽːh	tail	tail		1.4.10.1	1.35	0	D1	p,1288
-12829	766	Kham	'pihl	'pihl	tears	tears		1.2.6.7	2.A.65	0	D1	187
-12830	766	Kham	'phərləp	'phərləp	temple (body part)	temple (body part)		1.2.5.1	2.A.17	0		
-12832	766	Kham	zuh◦riː	zuh◦riː	testicles	testicles				0	D1	3436,1286
-12833	766	Kham	'ryaːh	'ryaːh	thigh	thigh		1.5.7.1	2.A.57	0	D1	
-12834	766	Kham	sya◦phal	syaphal	thigh (back side of)	thigh (back side of)		1.5.7.1		0		m,3329
-12835	766	Kham	'dẽːh	'dẽːh	throat	throat		1.3.5	2.A.27	0	D1	b
-12836	766	Kham	gəypa	gəypa	thumb	thumb		1.5.6.1	2.A.55	0	D1	
-12837	766	Kham	'khə̃ː◦səy	'khə̃ːsəy	toe	toe		1.5.6	2.A.62	0		336,s
-12840	766	Kham	'haː	'haː	tooth	tooth		1.3.4	1.43	0	D1	632
-12843	766	Kham	bi◦khə	bi◦khə	umbilical cord	umbilical cord			2.A.39	0		1629,m
-12847	766	Kham	pə◦reː	pə◦reː	vagina	vagina				0	D1	668,1616
-12848	766	Kham	jiːh◦tup	jiːh◦tup	vein	vein		1.6.2.1		0	D1	230,m
-12849	766	Kham	oyh	oyh	vomit	vomit		1.8.3.2	2.A.70	0	D1	
-12850	766	Kham	oyh-nya	oyh-nya	vomit	vomit	v.	1.8.3.2	2.B.2.29	0	D1	
-12852	766	Kham	gəhr-nya	gəhr-nya	weep	weep		1.8.8.2	10.B.3.4	0	D1	1781,s
-12853	766	Kham	u◦mə̃ːh	u◦mə̃ːh	whiskers (animal)	whiskers (animal)		1.2.5.5	3.A.49	0	D1	m,2058
-12854	766	Kham	kha◦ta	kha◦ta	whiskers (man)	whiskers (man)		1.2.5.5		0		
-12855	766	Kham	si◦si◦lya◦tə jaːh-nya	si◦si◦lya◦tə jaːh-nya	whistle	whistle		8.5.5	11.B.1.4	0		m,m,m,m,m,s
-12856	766	Kham	'kər	'kər	wing	wing		1.5.1.3	3.A.14	0	D1	713
-12858	766	Kham	'khətera	'khətera	wound	wound		1.8.6.2	10.A.20	0		
-66736	766	Kham	ritʰa	ritʰa	adam's apple	adam's apple		1.3.5.4		0		
-66737	766	Kham	'pʰərləp	'pʰərləp	ankle bone	ankle bone		1.5.8.2		0		
-66738	766	Kham	'rə̃ːh	'rə̃ːh	antler / horn	antler  /  horn		1.2.2	1.34	0	D1	814
-66741	766	Kham	laːkũː	laːkũː	armpit	armpit		1.5.1.2.3	2.A.51	0	D1	
-66742	766	Kham	or◦'jə̃ː	or◦'jə̃ː	back (body)	back (body)		1.4.8		0	D1	m,208
-66743	766	Kham	'wãːh	'wãːh	back (lower)	back (lower)		1.4.8	2.A.31	0	D1	137
-66744	766	Kham	'ep	'ep	back (upper)	back (upper)		1.4.8	2.A.30	0	D1	
-66745	766	Kham	kʰa◦ta	kʰa◦ta	beard	beard		1.2.5.5	2.A.13	0		273,m
-66746	766	Kham	ə◦pʰuː	əpʰuː	belch	belch	v.	1.8.3.4	2.B.2.1	0		3443,m
-66747	766	Kham	gəypa	gəypa	big toe	big toe		1.5.6.1		0	D1	
-66751	766	Kham	pũːci	pũːci	bladder	bladder		1.7.8		0		
-66752	766	Kham	'jiːh hu-nya	'jiːh hu-nya	bleed	bleed	v.	1.6.2	2.B.2.24	0	D1	230,m,m
-66755	766	Kham	'mi jəmkəy-nya	'mi jəmkəy-nya	blink	blink	v.	1.2.6.12	2.B.2.2	0	D1	682,m,m
-66756	766	Kham	'jiːh	'jiːh	blood	blood		1.6.2		0	D1	230
-66757	766	Kham	jiːh◦tup	jiːh◦tup	blood vessel	blood vessel		1.6.2.1	2.A.6	0	D1	230,m
-66758	766	Kham	nahp kʰya-nya	nahp kʰya-nya	blow (nose)	blow  (nose)	v.	1.3.1.4	2.B.2.4	0		805,m,m
-66760	766	Kham	ruhs	ruhs	bone	bone		1.6.3	1.30	0	D1	232
-66761	766	Kham	'gudi	'gudi	brain	brain		1.2.4	2.A.16	0	D1	m
-66763	766	Kham	'səː	'səː	breath	breath		1.1.2.2	2.A.69	0	D1	32
-66764	766	Kham	'səː do◦horəy-nya	'səː do◦horəy-nya	breathe	breathe		1.1.2.2	2.B.2.20	0	D1	32,m,m,s
-66767	766	Kham	cʰati	cʰati	chest	chest		1.4.4.3	2.A.33	0		b
-66768	766	Kham	nyahm-nya	nyahm-nya	chew	chew	v.	1.3.4	7.B.2. 37	0	D1	1772,m
-66769	766	Kham	'dahri	'dahri	chin	chin		1.2.5.3	2.A.22	0	D1	b
-66770	766	Kham	ti◦siː	ti◦siː	clitoris	clitoris				0	D1	1352,1349
-66771	766	Kham	bagə	bagə	collarbone	collarbone		1.4.3.1		0	D1	m
-66773	766	Kham	kʰa◦si-nya	kʰa◦si-nya	cough	cough	v.	1.8.3.3	2.B.2.26	0		1795,m,s
-66774	766	Kham	gyãːhsya	gyãːhsya	cripple	cripple		4.2.7	10.A.17	0	D1	
-66778	766	Kham	or◦na matʰaso	orna matʰaso	deaf	deaf		1.2.7.5	12.A.12	0		p,811,m
-66779	766	Kham	eh-nya	eh-nya	defecate	defecate	v.	1.8.5.4	2.B.2.7	0	D1	
-66780	766	Kham	lətə lətə eh-nya	lətə lətə eh-nya	defecate	defecate	v.	1.8.5.4	2.B.2.7	0	D1	
-66781	766	Kham	lata	lata	dumb  / MUTE	dumb   / MUTE		8.5.4.4		0	D1	
-66782	766	Kham	naː	naː	ear	ear		1.2.7	1.39	0	D1	811
-66784	766	Kham	nah◦gu	nah◦gu	earwax	earwax		1.2.7.3	2.A.64	0	D1	811,2088
-66785	766	Kham	'ba◦zu◦riː	'ba◦zu◦riː	egg (non-human)	egg  (non-human)			1.33	0	D1	2187,3436,m
-66786	766	Kham	'ba◦zu◦riː	'ba◦zu◦riː	egg (non-human)	egg  (non-human)			7.A.10	0	HIDE	DUPE IN SOURCE
-66791	766	Kham	'mi◦ləŋ	'mi◦ləŋ	eyeball	eyeball		1.2.6.1	2.A.23	0	D1	682,1381
-66793	766	Kham	'mi◦sya	'mi◦sya	eyelash	eyelash		1.2.6.5	2.A.12	0	D1	682,366
-66794	766	Kham	kah◦yuː	kah◦yuː	eyetooth	eyetooth		1.3.4.1		0	D1	1764,m
-66795	766	Kham	'ŋaːh	'ŋaːh	face	face		1.2.5	2.A.21	0	D1	1192
-66798	766	Kham	'kiː	'kiː	feces	feces		1.8.5	2.A.72	0	D1	572
-66799	766	Kham	'nəŋəra	'nəŋəra	finger	finger		1.5.6	2.A.54	0	D1	
-66800	766	Kham	mũːdulyaso	mũːdulyaso	fingerless	fingerless		1.5.6		0	D1	
-66802	766	Kham	cəkkər	cəkkər	fingerprint	fingerprint		1.5.6.1		0	D1	
-66803	766	Kham	mutka	mutka	fist	fist		1.5.1.1.1		0	D1	b
-66804	766	Kham	'kʰə̃ː	'kʰə̃ː	foot	foot		1.5.2	1.46	0		336
-66805	766	Kham	'syul	'syul	footprint	footprint		1.5.2.5		0	D1	
-66806	766	Kham	cãː◦di	cãːdi	forehead	forehead		1.2.5.1	2.A.18	0		m,358
-66807	766	Kham	'muhl	'muhl	fur	fur		1.6.1	3.A.26	0	D1	363
-66808	766	Kham	ca◦kə	ca◦kə	vagina	vagina				0	D1	1354,m
-66809	766	Kham	katu	katu	penis	penis				0	D1	3420
-66813	766	Kham	'cem	'cem	hair (head)	hair (head)		1.2.3		0	D1	366
-66814	766	Kham	muhs	muhs	hair (pubic)	hair (pubic)		1.2.3	2.A.10	0	D1	m
-66816	766	Kham	'kwi	'kwi	hand	hand		1.5.1.1	1.48	0	D1	712
-66817	766	Kham	'ŋəyh	'ŋəyh	head	head		1.2.1	1.38	0	D1	386
-66818	766	Kham	tʰəy-nya	tʰəy-nya	hear	hear	v.	1.2.7.4	1.58	0		1408,1410
-66820	766	Kham	buhtuː buhtuː	buhtuː buhtuː	heartbeat	heartbeat		1.7.1.1		0	D1	
-66822	766	Kham	'tihle bihl-nya	'tihle bihl-nya	hiccup	hiccup	v.	1.8.3.5	2.B.2.22	0	D1	
-66823	766	Kham	sya'◦lo	sya'◦lo	hide	hide	n.	1.6.5.1		0		34,m
-66824	766	Kham	'gah◦cʰum	'gah◦cʰum	hip (sides of)	hip (sides of)		1.4.9.2	2.A.44	0		201,3334
-66825	766	Kham	'rə̃ːh	'rə̃ːh	horn / antler	horn  /  antler		1.2.2	1.34	0	D1	814
-66827	766	Kham	or'ta	or'ta	intestines	intestines		1.7.7	2.A.43	0	D1	
-66828	766	Kham	'gar	'gar	jaw	jaw		1.2.5.2	2.A.20	0	D1	274
-66829	766	Kham	kʰap	kʰap	jawbone	jawbone		1.2.5.2		0		278
-66830	766	Kham	a◦kʰə◦la	akʰəla	joint	joint		1.5.8	2.A.4	0		p,m,424
-66832	766	Kham	'gũː◦da	'gũː◦da	knee	knee		1.5.8.4	1.47	0	D1	307,b?,m
-66835	766	Kham	dabərya	dabərya	left-handed person	left-handed person		1.5.3.2	10.A.15	0	D1	bNepali
-66836	766	Kham	'kʰə̃ː	'kʰə̃ː	leg	leg		1.5.7	2.A.56	0		336
-66837	766	Kham	or◦də̃ːh	ordə̃ːh	leg (side of)	leg (side of)		1.5.7		0	D1	407,m
-66838	766	Kham	lep-nya	lep-nya	lick	lick	v.	1.3.3.1	3.B.7	0	D1	625,m
-66839	766	Kham	'nə◦sa	'nə◦sa	ligament	ligament		1.6.6.1	2.A.7	0	D1	m,530
-66840	766	Kham	tʰu◦tu◦na	tʰu◦tu◦na	lip	lip		1.3.2	2.A.25	0		442,2095,m
-66841	766	Kham	'sen	'sen	liver	liver		1.7.3	1.53	0	D1	1390
-66842	766	Kham	'pʰoːsa	'pʰoː◦sa	lung	lung		1.7.2	2.A.36	0		5680
-66844	766	Kham	'kyãːtəo jiːh	'kyãːtəo jiːh	menstrual blood	menstrual blood		1.9.11.1		0	D1	m,230
-66845	766	Kham	jihs-nya	jihs-nya	menstruate	menstruate		1.9.11.1	2.B.2.24	0	D1	m,m
-66846	766	Kham	bãːgəl	bãːgəl	molar	molar		1.3.4.2		0	D1	3319
-66848	766	Kham	cipəla	cipəla	mucus (eye)	mucus (eye)		1.8.2		0	D1	
-66849	766	Kham	nahp	nahp	mucus (nasal)	mucus (nasal)		1.8.2	2.A.66	0	D1	805
-66850	766	Kham	mə̃ːh	mə̃ːh	moustache	moustache		1.2.5.5	2.A.14	0	D1	1114
-66851	766	Kham	'kʰa◦rim	'kʰa◦rim	nape	nape		1.4.2.1		0		494,5650
-66853	766	Kham	'dẽːh	'dẽːh	neck	neck		1.4.2	1.50	0	D1	b
-66854	766	Kham	'dẽːh	'dẽːh	neck	neck		1.4.2	2.A.28	0	HIDE	DUPE IN SOURCE
-66855	766	Kham	nwiː◦səy	nwiː◦səy	nipple	nipple			2.A.35	0	D1	254,1019
-66856	766	Kham	'səniː	'səniː	nose	nose		1.2.8	1.41	0	D1	803
-66858	766	Kham	latas-nya	latas-nya	numb, become	numb, become	v.	1.5.11	2.B.2.30	0	D1	
-66859	766	Kham	gãː-nya	gãː-nya	numb, become	numb, become	v.	1.5.11	2.B.2.30	0	D1	
-66860	766	Kham	hur-nya	hur-nya	pain	pain	v.	1.1.5.1		0	D1	
-66861	766	Kham	'ləp◦ta	'ləp◦ta	palm (hand)	palm (hand)		1.5.5	2.A.53	0	D1	695,m
-66862	766	Kham	həsko pəlãː ta-nya	həsko pəlãː ta-nya	pant	pant	v.	1.1.2.2		0	D1	
-66866	766	Kham	'ki◦kũː	'ki◦kũː	anus / rectum	anus / rectum		1.4.10.2	2.A.46	0	D1	572,820
-66867	766	Kham	rəhm	rəhm	rib	rib		1.4.4.3	2.A.34	0	D1	558
-66869	766	Kham	'a◦na	'a◦na	scrotum	scrotum				0	D1	
-66870	766	Kham	neːh-nya	neːh-nya	copulate	copulate		1.9.1.1	2.B.2.13	0	D1	548,s
-66871	766	Kham	'nəl◦tʰa	'nəl◦tʰa	shin	shin		1.5.7.2	2.A.58	0		580,m
-66874	766	Kham	or◦la	orla	side	side		1.4.5		0	D1	407,m
-66876	766	Kham	'kʰəppər	'kʰəppər	skull	skull		1.2.1.1	2.A.15	0		1241
-66877	766	Kham	səŋər-nya	səŋər-nya	smell	smell	v.	1.2.8.5		0	D1	1418,m
-66878	766	Kham	cʰis-nya	cʰis-nya	sneeze	sneeze	v.	1.8.2.1	2.B.2.27	0		
-66879	766	Kham	pərãːcʰĩː	pərãːcʰĩː	sneeze	sneeze		1.8.2.1	10.A.27	0		
-66880	766	Kham	səŋər-nya	səŋər-nya	sniff	sniff		1.2.8.5	3.B.5	0	D1	m,1415
-66881	766	Kham	tʰutuna	tʰutuna	snout	snout		1.2.8		0		bNepali
-66882	766	Kham	'kʰə̃ː◦bãː	'kʰə̃ːbãː	sole	sole		1.5.5	2.A.61	0		336,s
-66883	766	Kham	'kʰəhtera	'kʰəhtera	sore / wound	sore  /  wound		1.1.5.1		0		
-66884	766	Kham	gəyh	gəyh	sore / wound	sore  /  wound		1.1.5.1		0	D1	
-66887	766	Kham	'tihl-nya	'tihl-nya	spit	spit	v.	1.8.3	2.B.2.6	0	D1	600,m
-66888	766	Kham	'pʰis	'pʰis	spleen	spleen		1.7.4	2.A.42	0		5636
-66889	766	Kham	kʰa◦so	kʰaso	sputum / phlegm	sputum / phlegm		1.8.3	2.A.68	0		540,m
-66890	766	Kham	bakʰa	bakʰa	stammerer	stammerer		1.8.7.2		0		
-66891	766	Kham	'pʰuː	'pʰuː	stomach	stomach		1.7.6		0		2103
-66893	766	Kham	'bakʰas-nya	'bakʰas-nya	stutter	stutter	v.	8.5.4.5	10.B.1.5	0		
-66894	766	Kham	pi-nya	pi-nya	suck	suck	v.	1.3.2.1	6.B.2.2	0	D1	3450,s
-66895	766	Kham	gal-nya	gal-nya	swallow	swallow	v.	1.3.5.6	7.B.2. 38	0	D1	
-66899	766	Kham	'pʰərləp	'pʰərləp	temple (body part)	temple (body part)		1.2.5.1	2.A.17	0		
-66900	766	Kham	'nə◦sa	'nə◦sa	tendon	tendon		1.6.6.1		0	D1	m,530
-66903	766	Kham	sya◦pʰal	syapʰal	thigh (back side of)	thigh (back side of)		1.5.7.1		0		m,3329
-66906	766	Kham	'kʰə̃ː◦səy	'kʰə̃ːsəy	toe	toe		1.5.6	2.A.62	0		336,s
-66907	766	Kham	sin	sin	toenail	toenail		1.5.10.2		0	D1	
-66908	766	Kham	seː	seː	tongue	tongue		1.3.3	1.44	0	D1	621
-66910	766	Kham	dahra	dahra	tusk	tusk		1.3.4.1	3.A.56	0	D1	2814
-66911	766	Kham	sal	sal	umbilical cord	umbilical cord			2.A.39	0	D1	1651
-66912	766	Kham	bi◦kʰə	bi◦kʰə	umbilical cord	umbilical cord			2.A.39	0		1629,m
-66913	766	Kham	jiːh◦si-nya	jiːhsi-nya	urinate	urinate		1.5.3.2	2.B.2.8	0	D1	2795,650,m
-66914	766	Kham	jiːh-nya	jiːh-nya	urinate	urinate		1.5.3.2	2.B.2.8	0	D1	2795,m
-66915	766	Kham	'jihs	'jihs	urine	urine		1.8.4	2.A.73	0	D1	2795
-66920	766	Kham	'wãːh	'wãːh	waist / lower back	waist / lower back		1.4.6	2.A.37	0	D1	137
-66923	766	Kham	kʰa◦ta	kʰa◦ta	whiskers (man)	whiskers (man)		1.2.5.5		0		
-66924	766	Kham	sisilyatə jaːh-nya	sisilyatə jaːh-nya	whistle	whistle		8.5.5	11.B.1.4	0		
-66926	766	Kham	'za◦sip	'za◦sip	womb	womb				0	D1	1012,1613
-66927	766	Kham	'kʰətera	'kʰətera	wound	wound		1.8.6.2	10.A.20	0		
-66928	766	Kham	'gəyh	'gəyh	wound	wound		1.8.6.2	10.A.20	0	D1	
-66929	766	Kham	nari	nari	wrist	wrist		1.5.8.1		0	D1	b
-66930	766	Kham	hambol hu-nya	hambol hu-nya	yawn	yawn	v.	1.3.1.3	2.B.2.9	0	D1	
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+12668	766	Kham	ritha	ritha	adam's apple	adam's apple			1.3.5.4		0			
+12669	766	Kham	'phərləp	'phərləp	ankle bone	ankle bone			1.5.8.2		0			
+12671	766	Kham	'kwi	'kwi	arm	arm			1.5.1.2	2.A.47	0		D1	712
+12672	766	Kham	lam	lam	arm	arm			1.5.1.2	2.A.47	0		D1	768
+12677	766	Kham	kha◦ta	kha◦ta	beard	beard			1.2.5.5	2.A.13	0			273,m
+12678	766	Kham	ə◦phuː	əphuː	belch	belch	v.	v.	1.8.3.4	2.B.2.1	0			3443,m
+12680	766	Kham	kaː	kaː	bile	bile			1.7.3.1	2.A.71	0		D1	229
+12681	766	Kham	kəy-nya	kəy-nya	bite	bite	v.	v.	1.3.4.4	1.56	0		D1	1777,1761
+12682	766	Kham	kəy-nya	kəy-nya	bite	bite	v.	v.	1.3.4.4	3.B.4	0	jbl5	HIDE	DUPE IN SOURCE
+12683	766	Kham	pũː◦ci	pũː◦ci	bladder	bladder			1.7.8		0			777,650
+12685	766	Kham	'mi marə̃yo	'mi marə̃yo	blind	blind			1.2.6.14.2	12.A.11	0		D1	682,m
+12689	766	Kham	nahp khya-nya	nahp khya-nya	blow (nose)	blow  (nose)	v.	v.	1.3.1.4	2.B.2.4	0	jbl3		805,m,m
+12690	766	Kham	'kyãː	'kyãː	body	body			1.1.1	2.A.1	0		D1	10
+12693	766	Kham	nwiː	nwiː	breast	breast			1.4.4.3	1.51	0		D1	253
+12696	766	Kham	pə◦gil	pə◦gil	buttock	buttock			1.4.9.2	2.A.45	0		D1	410,202
+12697	766	Kham	'gala	'gala	cheek	cheek			1.2.5.2	2.A.19	0		D1	2050
+12698	766	Kham	chati	chati	chest	chest			1.4.4.3	2.A.33	0			b
+12703	766	Kham	or◦jəm	or◦jəm	comb (of chicken)	comb  (of chicken)			1.2.2.1		0	jbl3	D1	p,1471
+12704	766	Kham	kha◦si-nya	kha◦si-nya	cough	cough	v.	v.	1.8.3.3	2.B.2.26	0			1795,m,s
+12706	766	Kham	gəhr-nya	gəhr-nya	cry / weep	cry / weep			1.8.8.2	10.B.3.4	0		D1	1781,s
+12707	766	Kham	cir◦lə  ni bir◦lə gəhr-ny	cir◦lə  ni bir◦lə gəhr-ny	cry / weep	cry / weep			1.8.8.2	10.B.3.4	0		D1	m,m,m,m,m,1781,s
+12708	766	Kham	ka◦wãː ci◦wãː gəhr-nya	ka◦wãː ci◦wãː gəhr-nya	cry / weep	cry / weep			1.8.8.2	10.B.3.4	0		D1	m,m,m,m,1781,s
+12709	766	Kham	or◦na mathaso	orna mathaso	deaf	deaf			1.2.7.5	12.A.12	0			p,811,m
+12714	766	Kham	naː syoː	naː syoː	ear (upper)	ear (upper)			1.2.7		0		D1	811,816
+12718	766	Kham	'gũː	'gũː	elbow	elbow			1.5.8.3	2.A.52	0		D1	b?
+12719	766	Kham	urmil	urmil	esophagus	esophagus			1.3.5.5		0		D1	
+12720	766	Kham	'mi	'mi	eye	eye			1.2.6	1.40	0		D1	682
+12721	766	Kham	kwi◦rya◦so	kwi◦rya◦so	eye	eye			1.2.6	1.40	0		D1	m,2078,m
+12723	766	Kham	'mih◦gum	'mih◦gum	eyebrow	eyebrow			1.2.6.6	2.A.11	0		D1	682,2075
+12727	766	Kham	'muhl	'muhl	feather	feather			1.6.1.1	1.36	0		D1	363
+12728	766	Kham	kər	kər	feather (wing)	feather (wing)			1.6.1.1	1.36	0		D1	713
+12732	766	Kham	sin	sin	fingernail	fingernail			1.5.10.1	1.45	0		D1	
+12735	766	Kham	'khə̃ː	'khə̃ː	foot	foot			1.5.2	1.46	0			336
+12737	766	Kham	cãː◦di	cãː◦di	forehead	forehead			1.2.5.1	2.A.18	0			m,358
+12741	766	Kham	orgãːda	orgãːda	goiter (enlarged)	goiter (enlarged)			1.4.2.2		0		D1	m
+12742	766	Kham	cere mere	cere mere	goiter (extreme)	goiter (extreme)			1.4.2.2		0		D1	m,m
+12743	766	Kham	'muhl	'muhl	hair	hair			1.2.3	1.37	0		D1	363
+12746	766	Kham	or◦bə̃ːh	or◦bə̃ːh	hair (tassel of animals tail)	hair (tassel of animals tail)			1.2.3		0		D1	m,m
+12749	766	Kham	thəy-nya	thəy-nya	hear	hear	v.	v.	1.2.7.4	1.58	0			1408,1410
+12750	766	Kham	'yũːh	'yũːh	heart	heart			1.7.1	1.52	0		D1	1382
+12752	766	Kham	kurkuca	kurkuca	heel	heel			1.5.2.1	2.A.60	0		D1	b
+12754	766	Kham	sya'◦lo	sya'◦lo	hide	hide			1.6.5.1		0			34,m
+12755	766	Kham	'gah◦chum	'gah◦chum	hip (sides of)	hip (sides of)			1.4.9.2	2.A.44	0			201,3334
+12757	766	Kham	hur-nya	hur-nya	hurt	hurt	v.i.	v.i.	1.1.5.1		0		D1	m,s
+12760	766	Kham	khap	khap	jawbone	jawbone			1.2.5.2		0			278
+12761	766	Kham	a◦khə◦la	akhəla	joint	joint			1.5.8	2.A.4	0			p,m,424
+12762	766	Kham	kəl	kəl	kidney	kidney			1.7.5	2.A.41	0		D1	201
+12764	766	Kham	gõy	gõy	lap	lap			1.4.4.2		0		D1	2326
+12765	766	Kham	'sas-nya	'sas-nya	laugh	laugh			1.8.8.1	10.B.3.12	0		D1	m,1105
+12767	766	Kham	'khə̃ː	'khə̃ː	leg	leg			1.5.7	2.A.56	0			336
+12771	766	Kham	thu◦tu◦na	thu◦tu◦na	lip	lip			1.3.2	2.A.25	0			442,2095,m
+12773	766	Kham	'phoːsa	'phoː◦sa	lung	lung			1.7.2	2.A.36	0			5680
+12774	766	Kham	'suː	'suː	marrow	marrow			1.6.3.5	2.A.3	0		D1	5485
+12778	766	Kham	'yaːh	'yaːh	mouth	mouth			1.3.1	1.42	0		D1	1115
+12782	766	Kham	'kha◦rim	'kha◦rim	nape	nape			1.4.2.1		0			494,5650
+12783	766	Kham	'pũːh◦təli	'pũːh◦təli	navel	navel			1.9.4	2.A.38	0		D1	2111,517
+12788	766	Kham	'səniː kũː	'səniː kũː	nostril	nostril			1.2.8.1	2.A.24	0		D1	803,809
+12794	766	Kham	or◦'kal	or◦'kal	penis	penis					0		D1	
+12795	766	Kham	katu	katu	penis (child's)	penis  (child's)			1.5.3.2		0	jbl3	D1	3420
+12796	766	Kham	'sə◦nis	'sə◦nis	pus	pus			1.8.6.1	2.A.63	0		D1	m,m
+12799	766	Kham	'tihl	'tihl	saliva	saliva			1.8.3	2.A.67	0		D1	600
+12802	766	Kham	'nəl◦tha	'nəl◦tha	shin	shin			1.5.7.2	2.A.58	0			580,m
+12803	766	Kham	'põː	'põː	shoulder	shoulder			1.4.3	2.A.29	0		D1	1327
+12804	766	Kham	'kərem	'kərem	shoulder blade	shoulder blade			1.4.3	2.A.48	0		D1	
+12806	766	Kham	ol◦ko◦ta	ol◦ko◦ta	skin	skin			1.6.5	1.28	0		D1	591,589,m
+12807	766	Kham	'khəppər	'khəppər	skull	skull			1.2.1.1	2.A.15	0			1241
+12809	766	Kham	chis-nya	chis-nya	sneeze	sneeze	v.	v.	1.8.2.1	2.B.2.27	0			
+12810	766	Kham	pərãːchĩː	pərãːchĩː	sneeze	sneeze			1.8.2.1	10.A.27	0			
+12812	766	Kham	thutuna	thutuna	snout	snout			1.2.8		0			bNepali
+12813	766	Kham	'khə̃ː◦bãː	'khə̃ːbãː	sole	sole			1.5.5	2.A.61	0			336,s
+12814	766	Kham	'khəhtera	'khəhtera	sore / wound	sore  /  wound			1.1.5.1		0	jbl3		
+12816	766	Kham	tərjyaːh	tərjyaːh	span of hand	span of hand			1.5.9.4	12.C.43	0		D1	
+12817	766	Kham	'wãːh◦rus	'wãːh◦rus	backbone / spine	backbone / spine			1.4.8.2	2.A.32	0		D1	137,232
+12819	766	Kham	'phis	'phis	spleen	spleen			1.7.4	2.A.42	0			5636
+12820	766	Kham	kha◦so	khaso	sputum / phlegm	sputum / phlegm			1.8.3	2.A.68	0			540,m
+12821	766	Kham	bakha	bakha	stammerer	stammerer			1.8.7.2		0			
+12822	766	Kham	'phuː	'phuː	stomach	stomach			1.7.6		0			2103
+12823	766	Kham	bũː◦di	bũː◦di	stomach (inner)	stomach (inner)			1.7.6		0		D1	2111,m
+12824	766	Kham	'bakhas-nya	'bakhas-nya	stutter	stutter	v.	v.	8.5.4.5	10.B.1.5	0			
+12827	766	Kham	'pəsyon	'pəsyon	sweat	sweat			1.8.1	2.A.74	0		D1	b,bNepali
+12828	766	Kham	o◦r'mẽːh	or|'mẽːh	tail	tail			1.4.10.1	1.35	0		D1	p,1288
+12829	766	Kham	'pihl	'pihl	tears	tears			1.2.6.7	2.A.65	0		D1	187
+12830	766	Kham	'phərləp	'phərləp	temple (body part)	temple (body part)			1.2.5.1	2.A.17	0			
+12832	766	Kham	zuh◦riː	zuh◦riː	testicles	testicles					0		D1	3436,1286
+12833	766	Kham	'ryaːh	'ryaːh	thigh	thigh			1.5.7.1	2.A.57	0		D1	
+12834	766	Kham	sya◦phal	syaphal	thigh (back side of)	thigh (back side of)			1.5.7.1		0			m,3329
+12835	766	Kham	'dẽːh	'dẽːh	throat	throat			1.3.5	2.A.27	0		D1	b
+12836	766	Kham	gəypa	gəypa	thumb	thumb			1.5.6.1	2.A.55	0		D1	
+12837	766	Kham	'khə̃ː◦səy	'khə̃ːsəy	toe	toe			1.5.6	2.A.62	0			336,s
+12840	766	Kham	'haː	'haː	tooth	tooth			1.3.4	1.43	0		D1	632
+12843	766	Kham	bi◦khə	bi◦khə	umbilical cord	umbilical cord				2.A.39	0			1629,m
+12847	766	Kham	pə◦reː	pə◦reː	vagina	vagina					0		D1	668,1616
+12848	766	Kham	jiːh◦tup	jiːh◦tup	vein	vein			1.6.2.1		0		D1	230,m
+12849	766	Kham	oyh	oyh	vomit	vomit			1.8.3.2	2.A.70	0		D1	
+12850	766	Kham	oyh-nya	oyh-nya	vomit	vomit	v.	v.	1.8.3.2	2.B.2.29	0		D1	
+12852	766	Kham	gəhr-nya	gəhr-nya	weep	weep			1.8.8.2	10.B.3.4	0		D1	1781,s
+12853	766	Kham	u◦mə̃ːh	u◦mə̃ːh	whiskers (animal)	whiskers (animal)			1.2.5.5	3.A.49	0		D1	m,2058
+12854	766	Kham	kha◦ta	kha◦ta	whiskers (man)	whiskers (man)			1.2.5.5		0			
+12855	766	Kham	si◦si◦lya◦tə jaːh-nya	si◦si◦lya◦tə jaːh-nya	whistle	whistle			8.5.5	11.B.1.4	0			m,m,m,m,m,s
+12856	766	Kham	'kər	'kər	wing	wing			1.5.1.3	3.A.14	0		D1	713
+12858	766	Kham	'khətera	'khətera	wound	wound			1.8.6.2	10.A.20	0			
+66736	766	Kham	ritʰa	ritʰa	adam's apple	adam's apple			1.3.5.4		0			
+66737	766	Kham	'pʰərləp	'pʰərləp	ankle bone	ankle bone			1.5.8.2		0			
+66738	766	Kham	'rə̃ːh	'rə̃ːh	antler / horn	antler  /  horn			1.2.2	1.34	0	jbl3	D1	814
+66741	766	Kham	laːkũː	laːkũː	armpit	armpit			1.5.1.2.3	2.A.51	0		D1	
+66742	766	Kham	or◦'jə̃ː	or◦'jə̃ː	back (body)	back (body)			1.4.8		0		D1	m,208
+66743	766	Kham	'wãːh	'wãːh	back (lower)	back (lower)			1.4.8	2.A.31	0		D1	137
+66744	766	Kham	'ep	'ep	back (upper)	back (upper)			1.4.8	2.A.30	0		D1	
+66745	766	Kham	kʰa◦ta	kʰa◦ta	beard	beard			1.2.5.5	2.A.13	0			273,m
+66746	766	Kham	ə◦pʰuː	əpʰuː	belch	belch	v.	v.	1.8.3.4	2.B.2.1	0			3443,m
+66747	766	Kham	gəypa	gəypa	big toe	big toe			1.5.6.1		0		D1	
+66751	766	Kham	pũːci	pũːci	bladder	bladder			1.7.8		0			
+66752	766	Kham	'jiːh hu-nya	'jiːh hu-nya	bleed	bleed	v.	v.	1.6.2	2.B.2.24	0		D1	230,m,m
+66755	766	Kham	'mi jəmkəy-nya	'mi jəmkəy-nya	blink	blink	v.	v.	1.2.6.12	2.B.2.2	0		D1	682,m,m
+66756	766	Kham	'jiːh	'jiːh	blood	blood			1.6.2		0		D1	230
+66757	766	Kham	jiːh◦tup	jiːh◦tup	blood vessel	blood vessel			1.6.2.1	2.A.6	0		D1	230,m
+66758	766	Kham	nahp kʰya-nya	nahp kʰya-nya	blow (nose)	blow  (nose)	v.	v.	1.3.1.4	2.B.2.4	0	jbl3		805,m,m
+66760	766	Kham	ruhs	ruhs	bone	bone			1.6.3	1.30	0		D1	232
+66761	766	Kham	'gudi	'gudi	brain	brain			1.2.4	2.A.16	0		D1	m
+66763	766	Kham	'səː	'səː	breath	breath			1.1.2.2	2.A.69	0		D1	32
+66764	766	Kham	'səː do◦horəy-nya	'səː do◦horəy-nya	breathe	breathe			1.1.2.2	2.B.2.20	0		D1	32,m,m,s
+66767	766	Kham	cʰati	cʰati	chest	chest			1.4.4.3	2.A.33	0			b
+66768	766	Kham	nyahm-nya	nyahm-nya	chew	chew	v.	v.	1.3.4	7.B.2. 37	0		D1	1772,m
+66769	766	Kham	'dahri	'dahri	chin	chin			1.2.5.3	2.A.22	0		D1	b
+66770	766	Kham	ti◦siː	ti◦siː	clitoris	clitoris					0		D1	1352,1349
+66771	766	Kham	bagə	bagə	collarbone	collarbone			1.4.3.1		0		D1	m
+66773	766	Kham	kʰa◦si-nya	kʰa◦si-nya	cough	cough	v.	v.	1.8.3.3	2.B.2.26	0			1795,m,s
+66774	766	Kham	gyãːhsya	gyãːhsya	cripple	cripple			4.2.7	10.A.17	0		D1	
+66778	766	Kham	or◦na matʰaso	orna matʰaso	deaf	deaf			1.2.7.5	12.A.12	0			p,811,m
+66779	766	Kham	eh-nya	eh-nya	defecate	defecate	v.	v.	1.8.5.4	2.B.2.7	0		D1	
+66780	766	Kham	lətə lətə eh-nya	lətə lətə eh-nya	defecate	defecate	v.	v.	1.8.5.4	2.B.2.7	0		D1	
+66781	766	Kham	lata	lata	dumb  / MUTE	dumb   / MUTE			8.5.4.4		0	jbl3	D1	
+66782	766	Kham	naː	naː	ear	ear			1.2.7	1.39	0		D1	811
+66784	766	Kham	nah◦gu	nah◦gu	earwax	earwax			1.2.7.3	2.A.64	0		D1	811,2088
+66785	766	Kham	'ba◦zu◦riː	'ba◦zu◦riː	egg (non-human)	egg  (non-human)				1.33	0	jbl3	D1	2187,3436,m
+66786	766	Kham	'ba◦zu◦riː	'ba◦zu◦riː	egg (non-human)	egg  (non-human)				7.A.10	0	jbl5	HIDE	DUPE IN SOURCE
+66791	766	Kham	'mi◦ləŋ	'mi◦ləŋ	eyeball	eyeball			1.2.6.1	2.A.23	0		D1	682,1381
+66793	766	Kham	'mi◦sya	'mi◦sya	eyelash	eyelash			1.2.6.5	2.A.12	0		D1	682,366
+66794	766	Kham	kah◦yuː	kah◦yuː	eyetooth	eyetooth			1.3.4.1		0		D1	1764,m
+66795	766	Kham	'ŋaːh	'ŋaːh	face	face			1.2.5	2.A.21	0		D1	1192
+66798	766	Kham	'kiː	'kiː	feces	feces			1.8.5	2.A.72	0		D1	572
+66799	766	Kham	'nəŋəra	'nəŋəra	finger	finger			1.5.6	2.A.54	0		D1	
+66800	766	Kham	mũːdulyaso	mũːdulyaso	fingerless	fingerless			1.5.6		0		D1	
+66802	766	Kham	cəkkər	cəkkər	fingerprint	fingerprint			1.5.6.1		0		D1	
+66803	766	Kham	mutka	mutka	fist	fist			1.5.1.1.1		0		D1	b
+66804	766	Kham	'kʰə̃ː	'kʰə̃ː	foot	foot			1.5.2	1.46	0			336
+66805	766	Kham	'syul	'syul	footprint	footprint			1.5.2.5		0		D1	
+66806	766	Kham	cãː◦di	cãːdi	forehead	forehead			1.2.5.1	2.A.18	0			m,358
+66807	766	Kham	'muhl	'muhl	fur	fur			1.6.1	3.A.26	0		D1	363
+66808	766	Kham	ca◦kə	ca◦kə	vagina	vagina					0		D1	1354,m
+66809	766	Kham	katu	katu	penis	penis					0		D1	3420
+66813	766	Kham	'cem	'cem	hair (head)	hair (head)			1.2.3		0		D1	366
+66814	766	Kham	muhs	muhs	hair (pubic)	hair (pubic)			1.2.3	2.A.10	0		D1	m
+66816	766	Kham	'kwi	'kwi	hand	hand			1.5.1.1	1.48	0		D1	712
+66817	766	Kham	'ŋəyh	'ŋəyh	head	head			1.2.1	1.38	0		D1	386
+66818	766	Kham	tʰəy-nya	tʰəy-nya	hear	hear	v.	v.	1.2.7.4	1.58	0			1408,1410
+66820	766	Kham	buhtuː buhtuː	buhtuː buhtuː	heartbeat	heartbeat			1.7.1.1		0		D1	
+66822	766	Kham	'tihle bihl-nya	'tihle bihl-nya	hiccup	hiccup	v.	v.	1.8.3.5	2.B.2.22	0		D1	
+66823	766	Kham	sya'◦lo	sya'◦lo	hide	hide	n.	n.	1.6.5.1		0			34,m
+66824	766	Kham	'gah◦cʰum	'gah◦cʰum	hip (sides of)	hip (sides of)			1.4.9.2	2.A.44	0			201,3334
+66825	766	Kham	'rə̃ːh	'rə̃ːh	horn / antler	horn  /  antler			1.2.2	1.34	0	jbl3	D1	814
+66827	766	Kham	or'ta	or'ta	intestines	intestines			1.7.7	2.A.43	0		D1	
+66828	766	Kham	'gar	'gar	jaw	jaw			1.2.5.2	2.A.20	0		D1	274
+66829	766	Kham	kʰap	kʰap	jawbone	jawbone			1.2.5.2		0			278
+66830	766	Kham	a◦kʰə◦la	akʰəla	joint	joint			1.5.8	2.A.4	0			p,m,424
+66832	766	Kham	'gũː◦da	'gũː◦da	knee	knee			1.5.8.4	1.47	0		D1	307,b?,m
+66835	766	Kham	dabərya	dabərya	left-handed person	left-handed person			1.5.3.2	10.A.15	0		D1	bNepali
+66836	766	Kham	'kʰə̃ː	'kʰə̃ː	leg	leg			1.5.7	2.A.56	0			336
+66837	766	Kham	or◦də̃ːh	ordə̃ːh	leg (side of)	leg (side of)			1.5.7		0		D1	407,m
+66838	766	Kham	lep-nya	lep-nya	lick	lick	v.	v.	1.3.3.1	3.B.7	0		D1	625,m
+66839	766	Kham	'nə◦sa	'nə◦sa	ligament	ligament			1.6.6.1	2.A.7	0		D1	m,530
+66840	766	Kham	tʰu◦tu◦na	tʰu◦tu◦na	lip	lip			1.3.2	2.A.25	0			442,2095,m
+66841	766	Kham	'sen	'sen	liver	liver			1.7.3	1.53	0		D1	1390
+66842	766	Kham	'pʰoːsa	'pʰoː◦sa	lung	lung			1.7.2	2.A.36	0			5680
+66844	766	Kham	'kyãːtəo jiːh	'kyãːtəo jiːh	menstrual blood	menstrual blood			1.9.11.1		0		D1	m,230
+66845	766	Kham	jihs-nya	jihs-nya	menstruate	menstruate			1.9.11.1	2.B.2.24	0		D1	m,m
+66846	766	Kham	bãːgəl	bãːgəl	molar	molar			1.3.4.2		0		D1	3319
+66848	766	Kham	cipəla	cipəla	mucus (eye)	mucus (eye)			1.8.2		0		D1	
+66849	766	Kham	nahp	nahp	mucus (nasal)	mucus (nasal)			1.8.2	2.A.66	0		D1	805
+66850	766	Kham	mə̃ːh	mə̃ːh	moustache	moustache			1.2.5.5	2.A.14	0		D1	1114
+66851	766	Kham	'kʰa◦rim	'kʰa◦rim	nape	nape			1.4.2.1		0			494,5650
+66853	766	Kham	'dẽːh	'dẽːh	neck	neck			1.4.2	1.50	0		D1	b
+66854	766	Kham	'dẽːh	'dẽːh	neck	neck			1.4.2	2.A.28	0	jbl5	HIDE	DUPE IN SOURCE
+66855	766	Kham	nwiː◦səy	nwiː◦səy	nipple	nipple				2.A.35	0		D1	254,1019
+66856	766	Kham	'səniː	'səniː	nose	nose			1.2.8	1.41	0		D1	803
+66858	766	Kham	latas-nya	latas-nya	numb, become	numb, become	v.	v.	1.5.11	2.B.2.30	0		D1	
+66859	766	Kham	gãː-nya	gãː-nya	numb, become	numb, become	v.	v.	1.5.11	2.B.2.30	0		D1	
+66860	766	Kham	hur-nya	hur-nya	pain	pain	v.	v.	1.1.5.1		0		D1	
+66861	766	Kham	'ləp◦ta	'ləp◦ta	palm (hand)	palm (hand)			1.5.5	2.A.53	0		D1	695,m
+66862	766	Kham	həsko pəlãː ta-nya	həsko pəlãː ta-nya	pant	pant	v.	v.	1.1.2.2		0		D1	
+66866	766	Kham	'ki◦kũː	'ki◦kũː	anus / rectum	anus / rectum			1.4.10.2	2.A.46	0		D1	572,820
+66867	766	Kham	rəhm	rəhm	rib	rib			1.4.4.3	2.A.34	0		D1	558
+66869	766	Kham	'a◦na	'a◦na	scrotum	scrotum					0		D1	
+66870	766	Kham	neːh-nya	neːh-nya	copulate	copulate			1.9.1.1	2.B.2.13	0		D1	548,s
+66871	766	Kham	'nəl◦tʰa	'nəl◦tʰa	shin	shin			1.5.7.2	2.A.58	0			580,m
+66874	766	Kham	or◦la	orla	side	side			1.4.5		0		D1	407,m
+66876	766	Kham	'kʰəppər	'kʰəppər	skull	skull			1.2.1.1	2.A.15	0			1241
+66877	766	Kham	səŋər-nya	səŋər-nya	smell	smell	v.	v.	1.2.8.5		0		D1	1418,m
+66878	766	Kham	cʰis-nya	cʰis-nya	sneeze	sneeze	v.	v.	1.8.2.1	2.B.2.27	0			
+66879	766	Kham	pərãːcʰĩː	pərãːcʰĩː	sneeze	sneeze			1.8.2.1	10.A.27	0			
+66880	766	Kham	səŋər-nya	səŋər-nya	sniff	sniff			1.2.8.5	3.B.5	0		D1	m,1415
+66881	766	Kham	tʰutuna	tʰutuna	snout	snout			1.2.8		0			bNepali
+66882	766	Kham	'kʰə̃ː◦bãː	'kʰə̃ːbãː	sole	sole			1.5.5	2.A.61	0			336,s
+66883	766	Kham	'kʰəhtera	'kʰəhtera	sore / wound	sore  /  wound			1.1.5.1		0	jbl3		
+66884	766	Kham	gəyh	gəyh	sore / wound	sore  /  wound			1.1.5.1		0	jbl3	D1	
+66887	766	Kham	'tihl-nya	'tihl-nya	spit	spit	v.	v.	1.8.3	2.B.2.6	0		D1	600,m
+66888	766	Kham	'pʰis	'pʰis	spleen	spleen			1.7.4	2.A.42	0			5636
+66889	766	Kham	kʰa◦so	kʰaso	sputum / phlegm	sputum / phlegm			1.8.3	2.A.68	0			540,m
+66890	766	Kham	bakʰa	bakʰa	stammerer	stammerer			1.8.7.2		0			
+66891	766	Kham	'pʰuː	'pʰuː	stomach	stomach			1.7.6		0			2103
+66893	766	Kham	'bakʰas-nya	'bakʰas-nya	stutter	stutter	v.	v.	8.5.4.5	10.B.1.5	0			
+66894	766	Kham	pi-nya	pi-nya	suck	suck	v.	v.	1.3.2.1	6.B.2.2	0		D1	3450,s
+66895	766	Kham	gal-nya	gal-nya	swallow	swallow	v.	v.	1.3.5.6	7.B.2. 38	0		D1	
+66899	766	Kham	'pʰərləp	'pʰərləp	temple (body part)	temple (body part)			1.2.5.1	2.A.17	0			
+66900	766	Kham	'nə◦sa	'nə◦sa	tendon	tendon			1.6.6.1		0		D1	m,530
+66903	766	Kham	sya◦pʰal	syapʰal	thigh (back side of)	thigh (back side of)			1.5.7.1		0			m,3329
+66906	766	Kham	'kʰə̃ː◦səy	'kʰə̃ːsəy	toe	toe			1.5.6	2.A.62	0			336,s
+66907	766	Kham	sin	sin	toenail	toenail			1.5.10.2		0		D1	
+66908	766	Kham	seː	seː	tongue	tongue			1.3.3	1.44	0		D1	621
+66910	766	Kham	dahra	dahra	tusk	tusk			1.3.4.1	3.A.56	0		D1	2814
+66911	766	Kham	sal	sal	umbilical cord	umbilical cord				2.A.39	0		D1	1651
+66912	766	Kham	bi◦kʰə	bi◦kʰə	umbilical cord	umbilical cord				2.A.39	0			1629,m
+66913	766	Kham	jiːh◦si-nya	jiːhsi-nya	urinate	urinate			1.5.3.2	2.B.2.8	0		D1	2795,650,m
+66914	766	Kham	jiːh-nya	jiːh-nya	urinate	urinate			1.5.3.2	2.B.2.8	0		D1	2795,m
+66915	766	Kham	'jihs	'jihs	urine	urine			1.8.4	2.A.73	0		D1	2795
+66920	766	Kham	'wãːh	'wãːh	waist / lower back	waist / lower back			1.4.6	2.A.37	0		D1	137
+66923	766	Kham	kʰa◦ta	kʰa◦ta	whiskers (man)	whiskers (man)			1.2.5.5		0			
+66924	766	Kham	sisilyatə jaːh-nya	sisilyatə jaːh-nya	whistle	whistle			8.5.5	11.B.1.4	0			
+66926	766	Kham	'za◦sip	'za◦sip	womb	womb					0		D1	1012,1613
+66927	766	Kham	'kʰətera	'kʰətera	wound	wound			1.8.6.2	10.A.20	0			
+66928	766	Kham	'gəyh	'gəyh	wound	wound			1.8.6.2	10.A.20	0		D1	
+66929	766	Kham	nari	nari	wrist	wrist			1.5.8.1		0		D1	b
+66930	766	Kham	hambol hu-nya	hambol hu-nya	yawn	yawn	v.	v.	1.3.1.3	2.B.2.9	0		D1	

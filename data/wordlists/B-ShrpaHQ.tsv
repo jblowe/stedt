@@ -1,248 +1,248 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-126664	1407	Tibetan (Sherpa:Helambu)	zū◦bū	zū◦bū	body	body		1.1.1	1.1	0		4,1902
-126665	1407	Tibetan (Sherpa:Helambu)	yōba	yōba	side (right)	side (right)		1.4.5	1.2	0		
-126666	1407	Tibetan (Sherpa:Helambu)	yōma	yōma	side (left)	side (left)		1.4.5	1.3	0		
-126667	1407	Tibetan (Sherpa:Helambu)	kyaph	kyaph	back	back		1.4.8	1.4	0		213
-126668	1407	Tibetan (Sherpa:Helambu)	dũn	dũn	front	front		1.4.4	1.5	0		
-126669	1407	Tibetan (Sherpa:Helambu)	prango	prango	torso / trunk	torso  /  trunk		1.5.3.2	1.6	0		288
-126670	1407	Tibetan (Sherpa:Helambu)	lakpa kangba	lakpa kangba	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
-126671	1407	Tibetan (Sherpa:Helambu)	pang◦ba	pang◦ba	lap	lap		1.4.4.2	1.8	0		1255,s
-126672	1407	Tibetan (Sherpa:Helambu)	ke◦pa	ke◦pa	groin / loins / hips	groin  /  loins  / hips		1.4.9	1.10	0		217,s
-126673	1407	Tibetan (Sherpa:Helambu)	sha	sha	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34
-126674	1407	Tibetan (Sherpa:Helambu)	mi zi	mi zi	alive / be living	alive  /  be living		1.1.2.1	1.12	0		1002,1010
-126675	1407	Tibetan (Sherpa:Helambu)	shī gan	shī gan	die / be dead	die  /  be dead		1.1.6	1.13	0		27,m
-126676	1407	Tibetan (Sherpa:Helambu)	mi◦shi gyo	mi◦shi gyo	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		m,27,m
-126677	1407	Tibetan (Sherpa:Helambu)	shi◦gyo	shi◦gyo	carcass / dead animal	carcass  /  dead animal		1.1.6.1	1.15	0		27,m
-126678	1407	Tibetan (Sherpa:Helambu)	nyal◦gen	nyal◦gen	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		129,128
-126679	1407	Tibetan (Sherpa:Helambu)	langen	langen	awake / be awake	awake  /  be awake		1.1.4	1.17	0		m
-126680	1407	Tibetan (Sherpa:Helambu)	mē◦lam	mē◦lam	dream	dream (v.)	v	1.1.4.2	1.18	0		130,1017
-126681	1407	Tibetan (Sherpa:Helambu)	gō	gō	head	head		1.2.1	2.1	0		386
-126682	1407	Tibetan (Sherpa:Helambu)	kapli	kapli	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		
-126683	1407	Tibetan (Sherpa:Helambu)	re◦kō	re◦kō	skull	skull		1.2.1.1	2.4	0		m,386
-126684	1407	Tibetan (Sherpa:Helambu)	le◦pah	le◦pah	brain	brain		1.2.4	2.5	0		465,m
-126685	1407	Tibetan (Sherpa:Helambu)	Taa	Taa	hair of head	hair of head		1.2.3	2.7	0		367
-126686	1407	Tibetan (Sherpa:Helambu)	kō◦ba	kō◦ba	scalp	scalp		1.2.1.5	2.8	0		589,s
-126687	1407	Tibetan (Sherpa:Helambu)	tar◦chow	tar◦chow	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		1472,1144
-126688	1407	Tibetan (Sherpa:Helambu)	rō◦wa	rō◦wa	horn (of animal)	horn (of animal)		1.2.2	2.10	0		814,s
-126689	1407	Tibetan (Sherpa:Helambu)	hapla / yalga	hapla / yalga	antler (of deer)	antler (of deer)		1.2.2	2.11	0		m,m
-126690	1407	Tibetan (Sherpa:Helambu)	dong◦ba  /  tsenda	dongba  /  tsenda	face	face		1.2.5	3.1	0		2031,m,m
-126691	1407	Tibetan (Sherpa:Helambu)	mur◦tza	mur◦tza	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		467,m
-126692	1407	Tibetan (Sherpa:Helambu)	hop̱h hoph	hop̱h hoph	temple	temple		1.2.5.1	3.3	0		
-126693	1407	Tibetan (Sherpa:Helambu)	mē	mē	eye	eye		1.2.6	3.4	0		682
-126694	1407	Tibetan (Sherpa:Helambu)	mē◦kō◦ba	mē◦kō◦ba	eyelid	eyelid		1.2.6.4	3.4.1	0		682,589,m
-126695	1407	Tibetan (Sherpa:Helambu)	mē	mē	eyeball	eyeball		1.2.6.1	3.4.2	0		682
-126696	1407	Tibetan (Sherpa:Helambu)	mē◦gyalmū	mē◦gyalmū	pupil	pupil		1.2.6.2	3.4.2.2	0		682,m
-126697	1407	Tibetan (Sherpa:Helambu)	mē◦tsa	mē◦tsa	eyebrow	eyebrow		1.2.6.6	3.4.3	0		682,366
-126698	1407	Tibetan (Sherpa:Helambu)	mē◦pū	mē◦pū	eyelash	eyelash		1.2.6.5	3.4.4	0		682,1228
-126699	1407	Tibetan (Sherpa:Helambu)	tsumtsum	tsumtsum	blink	blink (v.)	v	1.2.6.12	3.4.5	0		m
-126700	1407	Tibetan (Sherpa:Helambu)	mē zhū	mē zhū	tears	tears		1.2.6.7	3.4.6	0		682,1631
-126701	1407	Tibetan (Sherpa:Helambu)	mē kya	mē kya	eye sand	eye sand		1.2.6.8	3.4.7	0		682,577
-126702	1407	Tibetan (Sherpa:Helambu)	ŋu yen	ŋu yen	cry  /  weep	cry  /  weep (v.)	v	1.8.8.2	3.4.8	0		1104,m
-126703	1407	Tibetan (Sherpa:Helambu)	tã◦gen	tã◦gen	look	look (v.)	v	1.2.6.11	3.4.9	0		5405,m
-126704	1407	Tibetan (Sherpa:Helambu)	tūn◦gen	tūn◦gen	see	see (v.)	v	1.2.6.10	3.4.9	0		1402,m
-126705	1407	Tibetan (Sherpa:Helambu)	kana	kana	blind	blind		1.2.6.14.2	3.4.10	0		1407
-126706	1407	Tibetan (Sherpa:Helambu)	nar◦ko	nar◦ko	nose	nose		1.2.8	3.5	0		803,809
-126707	1407	Tibetan (Sherpa:Helambu)	na◦rko om	na◦rko om	nostril	nostril		1.2.8.1	3.5.2	0		803,809,m
-126708	1407	Tibetan (Sherpa:Helambu)	nar◦ko nange pū	nar◦ko nange pū	nose hair	nose hair		1.2.8	3.5.4	0		803,809,m,1228
-126709	1407	Tibetan (Sherpa:Helambu)	nap◦shal	napshal	liquid mucus	liquid mucus		3.2.3	3.5.6	0		805,m
-126710	1407	Tibetan (Sherpa:Helambu)	kōtser	kōtser	solid mucus	solid mucus		1.1.5	3.5.7	0		
-126711	1407	Tibetan (Sherpa:Helambu)	nar◦ko phēgen	narko phēgen	blow nose	blow nose (v.)	v	1.3.1.4	3.5.8	0		803,809,m
-126712	1407	Tibetan (Sherpa:Helambu)	tima numgen	tima numgen	sniff	sniff (v.)	v	1.2.8.5	3.5.9	0		
-126713	1407	Tibetan (Sherpa:Helambu)	tima khagen	tima khagen	smell	smell (v.)	v	1.2.8.5	3.5.9	0		
-126714	1407	Tibetan (Sherpa:Helambu)	na◦mjyō	na◦mjyō	ear	ear		1.2.7	3.6	0		811,816
-126715	1407	Tibetan (Sherpa:Helambu)	na◦mjyō pe◦ma	na◦mjyō pe◦ma	earlobe	earlobe		1.2.7.1	3.6.1	0		811,816,m,m
-126716	1407	Tibetan (Sherpa:Helambu)	na◦mjyō	na◦mjyō	outer ear	outer ear		9.2	3.6.2	0		811,816
-126717	1407	Tibetan (Sherpa:Helambu)	na◦mjyō ge ōm	na◦mjyō ge ōm	inner ear	inner ear		9.2.5	3.6.3	0		811,816
-126718	1407	Tibetan (Sherpa:Helambu)	na◦mjya dzali	na◦mjya dzali	eardrum	eardrum		1.2.7.2	3.6.5	0		811,816,2083
-126719	1407	Tibetan (Sherpa:Helambu)	le◦be	le◦be	earwax	earwax		1.2.7.3	3.6.6	0		m,815
-126720	1407	Tibetan (Sherpa:Helambu)	nyingen	nyingen	hear	hear (v.)	v	1.2.7.4	3.6.7	0		
-126721	1407	Tibetan (Sherpa:Helambu)	yuenjung	yuenjung	deaf	deaf		1.2.7.5	3.6.8	0		m
-126722	1407	Tibetan (Sherpa:Helambu)	bīyera	bīyera	deaf	deaf		1.2.7.5	3.6.8	0		m
-126723	1407	Tibetan (Sherpa:Helambu)	kha	kha	mouth	mouth		1.3.1	3.7	0		273
-126724	1407	Tibetan (Sherpa:Helambu)	chelepiru	chelepiru	uvula	uvula		1.3.5.1	3.7.4	0		
-126725	1407	Tibetan (Sherpa:Helambu)	che◦mung	chemung	saliva	saliva		1.8.3	3.7.5	0		600,m
-126726	1407	Tibetan (Sherpa:Helambu)	sa◦gen	sa◦gen	eat	eat (v.)	v	1.5.3.2	3.7.6	0		36,m
-126727	1407	Tibetan (Sherpa:Helambu)	thung◦en	thung◦en	drink	drink (v.)	v		3.7.7	0		502,s
-126728	1407	Tibetan (Sherpa:Helambu)	kom◦je laŋ◦en	kom◦je laŋ◦en	thirsty	thirsty	be	1.1.3.1	3.7.8	0		116,m,m,m
-126729	1407	Tibetan (Sherpa:Helambu)	d(r)epa togen	d(r)epa togen	hungry	hungry	be	1.1.3	3.7.9	0		
-126730	1407	Tibetan (Sherpa:Helambu)	d(r)e◦pa kang◦sin	d(r)e◦pa kang◦sin	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		m,m,m,m
-126731	1407	Tibetan (Sherpa:Helambu)	tubshal kyabgin	tubshal kyabgin	spit	spit (v.)	v	1.8.3	3.7.11	0		
-126732	1407	Tibetan (Sherpa:Helambu)	pang◦la	pang◦la	vomit	vomit (n.)	n	1.8.3.2	3.7.12	0		m,m
-126733	1407	Tibetan (Sherpa:Helambu)	kyū◦gen	kyū◦gen	vomit	vomit (v.)	v	1.8.3.2	3.7.13	0		1750,s
-126734	1407	Tibetan (Sherpa:Helambu)	kha kha pe	kha kha pe	gape  /  open mouth	gape  /  open mouth (v.)	v	1.3.1	3.7.15	0		273,273,m
-126735	1407	Tibetan (Sherpa:Helambu)	yal kyapgin	yal kyapgin	yawn	yawn (v.)	v	1.3.1.3	3.7.16	0		
-126736	1407	Tibetan (Sherpa:Helambu)	chele	chele	tongue	tongue		1.3.3	3.8	0		629
-126737	1407	Tibetan (Sherpa:Helambu)	tammai	tammai	speak	speak (v.)	v	8.5.10.1	3.8.1	0		
-126738	1407	Tibetan (Sherpa:Helambu)	kha khle	kha khle	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
-126739	1407	Tibetan (Sherpa:Helambu)	lemba	lemba	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		
-126740	1407	Tibetan (Sherpa:Helambu)	dag◦en	dag◦en	lick	lick		1.3.3.1	3.8.4	0	c	629,m
-126741	1407	Tibetan (Sherpa:Helambu)	kha◦ge ko◦ba	kha◦ge ko◦ba	lip	lip		1.3.2	3.9	0		273,m,589,s
-126742	1407	Tibetan (Sherpa:Helambu)	chho◦do	chho◦do	beak / bill	beak / bill		1.3.1.2	3.9.3	0		442,2095
-126743	1407	Tibetan (Sherpa:Helambu)	ke◦mũ gyapgen	ke◦mũ gyapgen	smile	smile (v.)	v	1.8.8.1	3.9.4	0		1116,s,m,s
-126744	1407	Tibetan (Sherpa:Helambu)	chuk pekin	chuk pekin	kiss	kiss		1.3.2.2	3.9.5	0		5540,m
-126745	1407	Tibetan (Sherpa:Helambu)	soh	soh	tooth	tooth		1.3.4	3.10	0		632
-126746	1407	Tibetan (Sherpa:Helambu)	soh	soh	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		632
-126747	1407	Tibetan (Sherpa:Helambu)	dam◦soh	dam◦soh	molar	molar		1.3.4.2	3.10.2	0		262,632
-126748	1407	Tibetan (Sherpa:Helambu)	kē soh	kē soh	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang		1.3.4.1	3.10.3	0		1764,632
-126749	1407	Tibetan (Sherpa:Helambu)	bah soh	bah soh	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		1176,632
-126750	1407	Tibetan (Sherpa:Helambu)	soh samba	soh samba	baby tooth	baby tooth		4.2.11	3.10.5	0		632,m
-126751	1407	Tibetan (Sherpa:Helambu)	chē◦wah	chē◦wah	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		
-126752	1407	Tibetan (Sherpa:Helambu)	gap◦gen	gap◦gen	bite	bite (v.)	v	1.3.4.4	3.10.7	0		630,s
-126753	1407	Tibetan (Sherpa:Helambu)	mur◦ken	mur◦ken	chew	chew (v.)	v	1.3.4	3.10.8	0		467,s
-126754	1407	Tibetan (Sherpa:Helambu)	sa◦gen	sa◦gen	chew	chew (v.)	v	1.3.4	3.10.8	0		36,s
-126755	1407	Tibetan (Sherpa:Helambu)	dam◦ba	dam◦ba	cheek	cheek		1.2.5.2	3.11	0		262,s
-126756	1407	Tibetan (Sherpa:Helambu)	dam◦dum	dam◦dum	cheekbone	cheekbone		1.2.5.2	3.11.1	0		262,280
-126757	1407	Tibetan (Sherpa:Helambu)	ko ma	ko ma	chin	chin		1.2.5.3	3.12	0		2057,m
-126758	1407	Tibetan (Sherpa:Helambu)	mum◦gul	mum◦gul	lower jaw / mandible	lower jaw  /  mandible		1.2.5.2	3.13.1	0		m,274
-126759	1407	Tibetan (Sherpa:Helambu)	jing◦ba	jing◦ba	neck	neck		1.4.2	4.1	0		479,s
-126760	1407	Tibetan (Sherpa:Helambu)	powa	powa	goiter	goiter		1.4.2.2	4.1.1	0		1852
-126761	1407	Tibetan (Sherpa:Helambu)	rak◦sha	rak◦sha	nape of neck	nape of neck		1.4.2.1	4.1.3	0		
-126762	1407	Tibetan (Sherpa:Helambu)	ol◦gong	ol◦gong	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		490,3361
-126763	1407	Tibetan (Sherpa:Helambu)	ol◦gong	ol◦gong	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		490,3361
-126764	1407	Tibetan (Sherpa:Helambu)	ŋēpken	ŋēpken	swallow	swallow (v.)	v	1.3.5.6	4.2.3	0		
-126765	1407	Tibetan (Sherpa:Helambu)	laa◦gōr	laa◦gōr	gizzard / crop of bird	gizzard  /  crop of bird		1.7.6.1	4.2.4	0		m,m
-126766	1407	Tibetan (Sherpa:Helambu)	prang◦o	prang◦o	chest	chest		1.4.4.3	5.1	0		288,m
-126767	1407	Tibetan (Sherpa:Helambu)	tsē◦ma	tsē◦ma	rib cage	rib cage		1.4.4.3	5.1.1	0		554,s
-126768	1407	Tibetan (Sherpa:Helambu)	lūng◦ba	lūng◦ba	breastbone / sternum	breastbone  /  sternum		1.6.3.2	5.1.3	0		m,s
-126769	1407	Tibetan (Sherpa:Helambu)	Tak◦tsa	Tak◦tsa	shoulder	shoulder		1.4.3	5.3	0		568,m
-126770	1407	Tibetan (Sherpa:Helambu)	laliph	laliph	shoulder blade / scapula	shoulder blade  /  scapula		1.4.3.2	5.3.1	0	E	e
-126771	1407	Tibetan (Sherpa:Helambu)	sik baygin	sik baygin	shrug shoulders	shrug shoulders (v.)	v	1.4.3.3	5.3.2	0		
-126772	1407	Tibetan (Sherpa:Helambu)	jhe◦sha	jhe◦sha	breast	breast		1.4.4.3	5.4	0		
-126773	1407	Tibetan (Sherpa:Helambu)	nūma	nūma	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		
-126774	1407	Tibetan (Sherpa:Helambu)	ō◦ma	ō◦ma	milk	milk			5.4.3	0		3464,s
-126775	1407	Tibetan (Sherpa:Helambu)	chūser	chūser	colostrum	colostrum			5.4.4	0		
-126776	1407	Tibetan (Sherpa:Helambu)	jip◦ken	jip◦ken	suck	suck		1.3.2.1	5.4.5	0		5541,m
-126777	1407	Tibetan (Sherpa:Helambu)	jip◦ken	jip◦ken	nurse  /  suckle	nurse  /  suckle (v.)	v	4.2.1.5	5.4.6	0		5541,m
-126778	1407	Tibetan (Sherpa:Helambu)	ōma chekin	ōma chekin	wean	wean			5.4.7	0		
-126779	1407	Tibetan (Sherpa:Helambu)	kyap shūm	kyap shūm	small of back	small of back		1.4.8.1	5.5.3	0		213,m
-126780	1407	Tibetan (Sherpa:Helambu)	kōkting	kōkting	hunchback	hunchback		1.4.8.3	5.5.6	0		m
-126781	1407	Tibetan (Sherpa:Helambu)	kā◦pah	kā◦pah	waist	waist		1.4.6	5.6	0		217,s
-126782	1407	Tibetan (Sherpa:Helambu)	poah	poah	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)		1.4.7	5.7	0		
-126783	1407	Tibetan (Sherpa:Helambu)	tē◦gah	tē◦gah	navel	navel		1.9.4	5.7.1	0		519,m
-126784	1407	Tibetan (Sherpa:Helambu)	naljah	naljah	pelvis / pelvic girdle	pelvis  /  pelvic girdle		1.4.9.2	5.8	0		m
-126785	1407	Tibetan (Sherpa:Helambu)	pē◦rup	pē◦rup	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		m,405
-126786	1407	Tibetan (Sherpa:Helambu)	pē◦rup	pē◦rup	buttocks	buttocks		1.4.10	5.10.1	0		m,405
-126787	1407	Tibetan (Sherpa:Helambu)	ŋyā◦ma	ŋyā◦ma	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		205,s
-126788	1407	Tibetan (Sherpa:Helambu)	la lep	la lep	arm	arm		1.5.1.2	6.1	0		695,m
-126789	1407	Tibetan (Sherpa:Helambu)	ke tik	ke tik	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
-126790	1407	Tibetan (Sherpa:Helambu)	ketik ŋogen	ketik ŋogen	tickle	tickle		1.5.1.2.4	6.1.1.1	0		
-126791	1407	Tibetan (Sherpa:Helambu)	pūngba	pūngba	upperarm	upperarm		1.5.1.2.1	6.1.2	0		
-126792	1407	Tibetan (Sherpa:Helambu)	lak◦patsē	lak◦patsē	elbow	elbow		1.5.8.3	6.1.4	0		695,m
-126793	1407	Tibetan (Sherpa:Helambu)	lak◦pa	lak◦pa	forearm / lower arm	forearm  /  lower arm		1.5.1.2.2	6.1.5	0		695,s
-126794	1407	Tibetan (Sherpa:Helambu)	lak◦pa	lak◦pa	wrist	wrist		1.5.8.1	6.1.6	0		695,s
-126795	1407	Tibetan (Sherpa:Helambu)	lak◦pa ke nang	lak◦pa ke nang	hand	hand		1.5.1.1	6.1.7	0		e
-126796	1407	Tibetan (Sherpa:Helambu)	lak◦pa ke nang	lak◦pa ke nang	palm	palm		1.5.5	6.1.7.1	0		e
-126797	1407	Tibetan (Sherpa:Helambu)	lak◦pa ke-nang	lak◦pa ke-nang	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		e
-126798	1407	Tibetan (Sherpa:Helambu)	amjang	amjang	fist	fist		1.5.1.1.1	6.1.7.3	0		
-126799	1407	Tibetan (Sherpa:Helambu)	yoba lak◦pa	yoba lak◦pa	right hand	right hand		1.5.3.2	6.1.7.4	0		m,695,s
-126800	1407	Tibetan (Sherpa:Helambu)	yoma lak◦pa	yoma lak◦pa	left hand	left hand		1.5.3.2	6.1.7.5	0		m,695,s
-126801	1407	Tibetan (Sherpa:Helambu)	shōk◦pa	shōk◦pa	fin (of fish)	fin (of fish)		1.5.1.3.1	6.1.8	0		731,s
-126802	1407	Tibetan (Sherpa:Helambu)	shōk◦pa	shōk◦pa	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		731,s
-126803	1407	Tibetan (Sherpa:Helambu)	To	To	feather	feather		1.6.1.1	6.1.9	0		750
-126804	1407	Tibetan (Sherpa:Helambu)	nūzūl	nūzūl	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
-126805	1407	Tibetan (Sherpa:Helambu)	kang◦ba	kangba	leg	leg		1.5.7	6.2	0		336,s
-126806	1407	Tibetan (Sherpa:Helambu)	pēmu	pēmu	thigh	thigh		1.5.7.1	6.2.1	0		
-126807	1407	Tibetan (Sherpa:Helambu)	kangling	kangling	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		
-126808	1407	Tibetan (Sherpa:Helambu)	pēmusha	pēmusha	hamstring	hamstring		1.6.6.2	6.2.1.2	0		
-126809	1407	Tibetan (Sherpa:Helambu)	tsē	tsē	knee	knee		1.5.8.4	6.2.2	0		418
-126810	1407	Tibetan (Sherpa:Helambu)	melong	melong	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		
-126811	1407	Tibetan (Sherpa:Helambu)	nē◦kong	nēkong	knee hollow / popliteal region	knee hollow  /  popliteal region		1.5.8.4	6.2.2.2	0		m,1251
-126812	1407	Tibetan (Sherpa:Helambu)	ŋar◦Tung	ŋarTung	shin	shin		1.5.7.2	6.2.3	0		580,2031
-126813	1407	Tibetan (Sherpa:Helambu)	ŋar◦Tung	ŋarTung	shin bone / tibia	shin bone  /  tibia		1.5.7.2	6.2.3.1	0		580,2031
-126814	1407	Tibetan (Sherpa:Helambu)	pingba	pingba	calf	calf		1.5.7	6.2.4	0		
-126815	1407	Tibetan (Sherpa:Helambu)	tsē	tsē	ankle	ankle		1.5.8.2	6.2.5	0		418
-126816	1407	Tibetan (Sherpa:Helambu)	mē◦chung	mēchung	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		682,m
-126817	1407	Tibetan (Sherpa:Helambu)	kang◦ba sham	kang◦ba sham	foot	foot		1.5.2	6.2.6	0		336,s,m
-126818	1407	Tibetan (Sherpa:Helambu)	Ting ba	Ting ba	heel	heel		1.5.2.1	6.2.6.1	0		394,s
-126819	1407	Tibetan (Sherpa:Helambu)	serung kha	serung kha	achilles tendon	achilles tendon		1.6.6.1	6.2.6.2	0		
-126820	1407	Tibetan (Sherpa:Helambu)	kangba Ting	kangba Ting	sole	sole		1.5.5	6.2.6.5	0		
-126821	1407	Tibetan (Sherpa:Helambu)	chela / chayla	chela / chayla	footprint	footprint		1.5.2.5	6.2.6.7	0		
-126822	1407	Tibetan (Sherpa:Helambu)	nūzul	nūzul	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		
-126823	1407	Tibetan (Sherpa:Helambu)	kūcha	kūcha	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-126824	1407	Tibetan (Sherpa:Helambu)	kūcha dōgen	kūcha dōgen	limp	limp (v.)	v	1.5.12	6.2.8	0		
-126825	1407	Tibetan (Sherpa:Helambu)	lakpa dzū	lakpa dzū	finger	finger		1.5.6	7.1	0		
-126826	1407	Tibetan (Sherpa:Helambu)	dzū chi	dzū chi	index finger	index finger		1.0	7.1.1	0		
-126827	1407	Tibetan (Sherpa:Helambu)	dzū kilma	dzū kilma	middle finger	middle finger		1.9.4	7.1.2	0		
-126828	1407	Tibetan (Sherpa:Helambu)	tayzhungma	tayzhungma	little finger	little finger		9.7.2	7.1.4	0		
-126829	1407	Tibetan (Sherpa:Helambu)	taybu	taybu	thumb	thumb		1.5.6.1	7.1.5	0		
-126830	1407	Tibetan (Sherpa:Helambu)	rēmū / rēmũ	rēmū / rēmũ	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
-126831	1407	Tibetan (Sherpa:Helambu)	tsē	tsē	knuckle (joint of digit)	knuckle (joint of digit)		1.5.8.5	7.3	0		418
-126832	1407	Tibetan (Sherpa:Helambu)	lakpa saymū	lakpa saymū	fingernail	fingernail		1.5.10.1	7.4.1	0		
-126833	1407	Tibetan (Sherpa:Helambu)	kangba saymū	kangba saymū	toenail	toenail		1.5.10.2	7.4.2	0		
-126834	1407	Tibetan (Sherpa:Helambu)	ter◦sing	tersing	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		506,m
-126835	1407	Tibetan (Sherpa:Helambu)	saymu	saymu	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		
-126836	1407	Tibetan (Sherpa:Helambu)	ta	ta	hair of head	hair of head		1.2.3	8.1.1	0		367
-126837	1407	Tibetan (Sherpa:Helambu)	ta◦bē	ta◦bē	cowlick (flexure in hair)	cowlick (flexure in hair)		1.2.3.1	8.1.1.1	0		367,1473
-126838	1407	Tibetan (Sherpa:Helambu)	kyah	kyah	beard	beard		1.2.5.5	8.1.2	0		2064
-126839	1407	Tibetan (Sherpa:Helambu)	mang◦ra	mang◦ra	beard	beard		1.2.5.5	8.1.2.1	0		1114,1265
-126840	1407	Tibetan (Sherpa:Helambu)	mang◦ra	mang◦ra	goatee	goatee		1.2.5.5	8.1.2.2	0		1114,1265
-126841	1407	Tibetan (Sherpa:Helambu)	mang◦ra	mang◦ra	moustache	moustache		1.2.5.5	8.1.2.3	0		1114,1265
-126842	1407	Tibetan (Sherpa:Helambu)	pū	pū	body hair	body hair		1.6.1	8.1.3	0		1228
-126843	1407	Tibetan (Sherpa:Helambu)	ki◦tig pū	ki◦tig pū	underarm hair	underarm hair		1.5.1.2.3	8.1.3.1	0		m,m,1228
-126844	1407	Tibetan (Sherpa:Helambu)	prang◦o pū	prang◦o pū	chest hair	chest hair		1.4.4.5	8.1.3.2	0		288,m,1228
-126845	1407	Tibetan (Sherpa:Helambu)	kang◦ba pū	kang◦ba pū	leg hair	leg hair		1.5.7	8.1.3.3	0		336,s,1228
-126846	1407	Tibetan (Sherpa:Helambu)	pū	pū	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		1228
-126847	1407	Tibetan (Sherpa:Helambu)	trō	trō	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		750
-126848	1407	Tibetan (Sherpa:Helambu)	sē◦wah	sē◦wah	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		
-126849	1407	Tibetan (Sherpa:Helambu)	kō◦ba	kō◦ba	skin	skin		1.6.5	8.2	0		589,s
-126850	1407	Tibetan (Sherpa:Helambu)	ŋōl◦chu	ŋōl◦chu	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		615,1631
-126851	1407	Tibetan (Sherpa:Helambu)	menja	menja	pore	pore		1.8.1.1	8.2.2	0		
-126852	1407	Tibetan (Sherpa:Helambu)	yahma	yahma	pimple	pimple		1.6.5.3	8.2.3.2	0		
-126853	1407	Tibetan (Sherpa:Helambu)	me◦wah	mewah	mole	mole		2.2.7	8.2.3.3	0		2447,m
-126854	1407	Tibetan (Sherpa:Helambu)	zerpah	zerpah	wart	wart		1.6.5.3	8.2.3.4	0		
-126855	1407	Tibetan (Sherpa:Helambu)	menja	menja	scar	scar		1.6.5.3	8.2.3.7	0		
-126856	1407	Tibetan (Sherpa:Helambu)	nyer◦mung	nyermung	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
-126857	1407	Tibetan (Sherpa:Helambu)	būri	būri	rash	rash		1.6.5.3	8.2.3.9	0		
-126858	1407	Tibetan (Sherpa:Helambu)	shōa	shōa	scab	scab		1.6.5.3	8.2.4	0		
-126859	1407	Tibetan (Sherpa:Helambu)	nya kō◦ba	nya kō◦ba	scales (of fish)	scales (of fish)		1.6.5.2	8.2.5	0		1455,589,s
-126860	1407	Tibetan (Sherpa:Helambu)	kōba kambū	kōba kambū	hide / leather (dried animal skin)	hide  /  leather (dried animal skin)		1.6.5.1	8.2.6	0		589,s,m,m
-126861	1407	Tibetan (Sherpa:Helambu)	kyak◦pa	kyak◦pa	fat	fat		1.6.4	8.3	0		40,s
-126862	1407	Tibetan (Sherpa:Helambu)	tsil◦ū	tsil◦ū	fat around intestines / omentum	fat around intestines / omentum		1.6.4	8.3.1	0		48,m
-126863	1407	Tibetan (Sherpa:Helambu)	nūm	nūm	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		1443
-126864	1407	Tibetan (Sherpa:Helambu)	raykō	raykō	bone	bone		1.6.3	8.4	0		
-126865	1407	Tibetan (Sherpa:Helambu)	zubukāy raykō	zubukāy raykō	skeleton	skeleton		1.6.3.1	8.4.1	0		
-126866	1407	Tibetan (Sherpa:Helambu)	kang	kang	marrow	marrow		1.6.3.5	8.4.3	0		459
-126867	1407	Tibetan (Sherpa:Helambu)	rayko tung tung	rayko tung tung	cartilage / grist	cartilage  /  grist		1.6.3.4	8.4.4	0		m,241,241
-126868	1407	Tibetan (Sherpa:Helambu)	tsah	tsah	sinew / tendon (muscle to bone	sinew  /  tendon (muscle to bone		1.6.6.1	8.5	0		530
-126869	1407	Tibetan (Sherpa:Helambu)	thah	thah	blood	blood		1.6.2	8.7	0		231
-126870	1407	Tibetan (Sherpa:Helambu)	thah◦ama	thah◦ama	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		231,m
-126871	1407	Tibetan (Sherpa:Helambu)	thah tengen	thah tengen	bleed	bleed (v.)	v	1.6.2	8.7.2	0		231,m
-126872	1407	Tibetan (Sherpa:Helambu)	shyah	shyah	muscle	muscle		1.6.6.2	8.8	0		34
-126873	1407	Tibetan (Sherpa:Helambu)	tsē	tsē	joint	joint		1.5.8	8.9	0		418
-126874	1407	Tibetan (Sherpa:Helambu)	le◦hpah	le◦hpah	brain	brain		1.2.4	9.1	0		465,m
-126875	1407	Tibetan (Sherpa:Helambu)	poksah	pok sah	lung	lung		1.7.2	9.2	0		5680
-126876	1407	Tibetan (Sherpa:Helambu)	ursarken	ursarken	pant	pant (v.)	v	1.1.2.2	9.2.2	0		
-126877	1407	Tibetan (Sherpa:Helambu)	phū◦gen	phū◦gen	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		75,s
-126878	1407	Tibetan (Sherpa:Helambu)	lak shel	lak shel	phlegm	phlegm		1.8.3	9.2.5	0		
-126879	1407	Tibetan (Sherpa:Helambu)	ning	ning	heart	heart		1.7.1	9.3	0		251
-126880	1407	Tibetan (Sherpa:Helambu)	tsah	tsah	pulse	pulse		1.7.1.1	9.3.2	0		530
-126881	1407	Tibetan (Sherpa:Helambu)	nang juh	nang juh	viscera / guts / entrails (in	viscera  /  guts  /  entrails (in		1.7.7	9.4	0		2117,m
-126882	1407	Tibetan (Sherpa:Helambu)	chiim◦ba	chiimba	liver	liver		1.7.3	9.5	0		1390,s
-126883	1407	Tibetan (Sherpa:Helambu)	thē◦ba	thēba	bile	bile		1.7.3.1	9.5.1	0		1390,s
-126884	1407	Tibetan (Sherpa:Helambu)	chir◦pa	chir◦pa	kidney	kidney		1.7.5	9.6	0		m,m
-126885	1407	Tibetan (Sherpa:Helambu)	ching	ching	urine	urine		1.8.4	9.7.1	0		650
-126886	1407	Tibetan (Sherpa:Helambu)	ching dangen	ching dangen	urinate	urinate (v.)	v	1.5.3.2	9.7.2	0		650,m
-126887	1407	Tibetan (Sherpa:Helambu)	po◦a	po◦a	stomach	stomach		1.7.6	9.10	0		2103,s
-126888	1407	Tibetan (Sherpa:Helambu)	traypa ama	traypa ama	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		m,m
-126889	1407	Tibetan (Sherpa:Helambu)	jang◦mūr	jang◦mūr	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		408,467
-126890	1407	Tibetan (Sherpa:Helambu)	kyak◦paq	kyak◦paq	feces / shit	feces  /  shit		1.8.5	9.12.1	0		577,s
-126891	1407	Tibetan (Sherpa:Helambu)	kyakpa tangin	kyakpa tangin	defecate	defecate (v.)	v	1.8.5.4	9.12.3	0		
-126892	1407	Tibetan (Sherpa:Helambu)	loc kãi	loc kãi	cough	cough		1.8.3.3	11.1	0		
-126893	1407	Tibetan (Sherpa:Helambu)	ikku kyabgen	ikku kyabgen	hiccup	hiccup		1.8.3.5	11.2	0		
-126894	1407	Tibetan (Sherpa:Helambu)	prek◦pha kyab◦gen	prek◦pha kyab◦gen	sneeze	sneeze		1.8.2.1	11.3	0		
-126895	1407	Tibetan (Sherpa:Helambu)	ŋor◦pa kyab◦gen	ŋor◦pa kyab◦gen	snore	snore		1.8.2.2	11.4	0		1784,s,m,s
-126896	1407	Tibetan (Sherpa:Helambu)	piu◦ra kyab◦gen	piu◦ra kyab◦gen	whistle	whistle		8.5.5	11.5	0		m,m,m,s
-126897	1407	Tibetan (Sherpa:Helambu)	gaū	gaū	burp / belch	burp  /  belch		1.8.3	11.6	0		
-126898	1407	Tibetan (Sherpa:Helambu)	ge◦mu kyab◦gen	ge◦mu kyab◦gen	laugh	laugh		1.8.8.1	11.9	0		1116,s,m,s
-126899	1407	Tibetan (Sherpa:Helambu)	dar◦ken	darken	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		5570,m
-126900	1407	Tibetan (Sherpa:Helambu)	nagen	nagen	sick	sick	be	1.1.5.1	12.2	0		
-126901	1407	Tibetan (Sherpa:Helambu)	nandi dogen	nandi dogen	injured	injured	be	6.4	12.2	0		
-126902	1407	Tibetan (Sherpa:Helambu)	nagen pardu	nagen pardu	numb	numb		1.5.11	12.3	0		
-126903	1407	Tibetan (Sherpa:Helambu)	tsalti me kugen	tsalti me kugen	paralyzed	paralyzed		1.5.11	12.3	0		
-126904	1407	Tibetan (Sherpa:Helambu)	tangen	tangen	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		
-126905	1407	Tibetan (Sherpa:Helambu)	ŋa tan◦gen	ŋa tan◦gen	pus	pus		1.8.6.1	12.5	0		m,m,m
-126906	1407	Tibetan (Sherpa:Helambu)	nandi	nandi	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound		1.8.6.2	12.6	0		
-126907	1407	Tibetan (Sherpa:Helambu)	takan tapkin	takan tapkin	hand span	hand span		1.5.9.4	13.2	0		
-126908	1407	Tibetan (Sherpa:Helambu)	tukan	tukan	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		
-126909	1407	Tibetan (Sherpa:Helambu)	lak◦pa kang	lak◦pa kang	cord / fathom (outstretched arms)	cord  /  fathom (outstretched arms)		1.5.9.5	13.4	0		695,m,m
-126910	1407	Tibetan (Sherpa:Helambu)	namsang dangen	namsang dangen	think	think	v.	8.3.1.13.1	14.1	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+126664	1407	Tibetan (Sherpa:Helambu)	zū◦bū	zū◦bū	body	body			1.1.1	1.1	0			4,1902
+126665	1407	Tibetan (Sherpa:Helambu)	yōba	yōba	side (right)	side (right)			1.4.5	1.2	0			
+126666	1407	Tibetan (Sherpa:Helambu)	yōma	yōma	side (left)	side (left)			1.4.5	1.3	0			
+126667	1407	Tibetan (Sherpa:Helambu)	kyaph	kyaph	back	back			1.4.8	1.4	0			213
+126668	1407	Tibetan (Sherpa:Helambu)	dũn	dũn	front	front			1.4.4	1.5	0			
+126669	1407	Tibetan (Sherpa:Helambu)	prango	prango	torso / trunk	torso  /  trunk			1.5.3.2	1.6	0	jbl3		288
+126670	1407	Tibetan (Sherpa:Helambu)	lakpa kangba	lakpa kangba	limbs / arms and legs	limbs  /  arms and legs			1.5.3.1	1.7	0	jbl3		
+126671	1407	Tibetan (Sherpa:Helambu)	pang◦ba	pang◦ba	lap	lap			1.4.4.2	1.8	0			1255,s
+126672	1407	Tibetan (Sherpa:Helambu)	ke◦pa	ke◦pa	groin / loins / hips	groin  /  loins  / hips			1.4.9	1.10	0	jbl3		217,s
+126673	1407	Tibetan (Sherpa:Helambu)	sha	sha	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		34
+126674	1407	Tibetan (Sherpa:Helambu)	mi zi	mi zi	alive / be living	alive  /  be living			1.1.2.1	1.12	0	jbl3		1002,1010
+126675	1407	Tibetan (Sherpa:Helambu)	shī gan	shī gan	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		27,m
+126676	1407	Tibetan (Sherpa:Helambu)	mi◦shi gyo	mi◦shi gyo	corpse / dead body	corpse  /  dead body			1.1.6.1	1.14	0	jbl3		m,27,m
+126677	1407	Tibetan (Sherpa:Helambu)	shi◦gyo	shi◦gyo	carcass / dead animal	carcass  /  dead animal			1.1.6.1	1.15	0	jbl3		27,m
+126678	1407	Tibetan (Sherpa:Helambu)	nyal◦gen	nyal◦gen	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		129,128
+126679	1407	Tibetan (Sherpa:Helambu)	langen	langen	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		m
+126680	1407	Tibetan (Sherpa:Helambu)	mē◦lam	mē◦lam	dream	dream (v.)	v		1.1.4.2	1.18	0	dwb21		130,1017
+126681	1407	Tibetan (Sherpa:Helambu)	gō	gō	head	head			1.2.1	2.1	0			386
+126682	1407	Tibetan (Sherpa:Helambu)	kapli	kapli	top of head / crown / pate	top of head  /  crown  /  pate			1.2.1.2	2.2	0	jbl3		
+126683	1407	Tibetan (Sherpa:Helambu)	re◦kō	re◦kō	skull	skull			1.2.1.1	2.4	0			m,386
+126684	1407	Tibetan (Sherpa:Helambu)	le◦pah	le◦pah	brain	brain			1.2.4	2.5	0			465,m
+126685	1407	Tibetan (Sherpa:Helambu)	Taa	Taa	hair of head	hair of head			1.2.3	2.7	0			367
+126686	1407	Tibetan (Sherpa:Helambu)	kō◦ba	kō◦ba	scalp	scalp			1.2.1.5	2.8	0			589,s
+126687	1407	Tibetan (Sherpa:Helambu)	tar◦chow	tar◦chow	comb (of rooster)	comb (of rooster)			1.2.2.1	2.9	0			1472,1144
+126688	1407	Tibetan (Sherpa:Helambu)	rō◦wa	rō◦wa	horn (of animal)	horn (of animal)			1.2.2	2.10	0			814,s
+126689	1407	Tibetan (Sherpa:Helambu)	hapla / yalga	hapla / yalga	antler (of deer)	antler (of deer)			1.2.2	2.11	0			m,m
+126690	1407	Tibetan (Sherpa:Helambu)	dong◦ba  /  tsenda	dongba  /  tsenda	face	face			1.2.5	3.1	0			2031,m,m
+126691	1407	Tibetan (Sherpa:Helambu)	mur◦tza	mur◦tza	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		467,m
+126692	1407	Tibetan (Sherpa:Helambu)	hop̱h hoph	hop̱h hoph	temple	temple			1.2.5.1	3.3	0			
+126693	1407	Tibetan (Sherpa:Helambu)	mē	mē	eye	eye			1.2.6	3.4	0			682
+126694	1407	Tibetan (Sherpa:Helambu)	mē◦kō◦ba	mē◦kō◦ba	eyelid	eyelid			1.2.6.4	3.4.1	0			682,589,m
+126695	1407	Tibetan (Sherpa:Helambu)	mē	mē	eyeball	eyeball			1.2.6.1	3.4.2	0			682
+126696	1407	Tibetan (Sherpa:Helambu)	mē◦gyalmū	mē◦gyalmū	pupil	pupil			1.2.6.2	3.4.2.2	0			682,m
+126697	1407	Tibetan (Sherpa:Helambu)	mē◦tsa	mē◦tsa	eyebrow	eyebrow			1.2.6.6	3.4.3	0			682,366
+126698	1407	Tibetan (Sherpa:Helambu)	mē◦pū	mē◦pū	eyelash	eyelash			1.2.6.5	3.4.4	0			682,1228
+126699	1407	Tibetan (Sherpa:Helambu)	tsumtsum	tsumtsum	blink	blink (v.)	v		1.2.6.12	3.4.5	0	dwb21		m
+126700	1407	Tibetan (Sherpa:Helambu)	mē zhū	mē zhū	tears	tears			1.2.6.7	3.4.6	0			682,1631
+126701	1407	Tibetan (Sherpa:Helambu)	mē kya	mē kya	eye sand	eye sand			1.2.6.8	3.4.7	0			682,577
+126702	1407	Tibetan (Sherpa:Helambu)	ŋu yen	ŋu yen	cry  /  weep	cry  /  weep (v.)	v		1.8.8.2	3.4.8	0	dwb21		1104,m
+126703	1407	Tibetan (Sherpa:Helambu)	tã◦gen	tã◦gen	look	look (v.)	v		1.2.6.11	3.4.9	0	dwb21		5405,m
+126704	1407	Tibetan (Sherpa:Helambu)	tūn◦gen	tūn◦gen	see	see (v.)	v		1.2.6.10	3.4.9	0	dwb21		1402,m
+126705	1407	Tibetan (Sherpa:Helambu)	kana	kana	blind	blind			1.2.6.14.2	3.4.10	0			1407
+126706	1407	Tibetan (Sherpa:Helambu)	nar◦ko	nar◦ko	nose	nose			1.2.8	3.5	0			803,809
+126707	1407	Tibetan (Sherpa:Helambu)	na◦rko om	na◦rko om	nostril	nostril			1.2.8.1	3.5.2	0			803,809,m
+126708	1407	Tibetan (Sherpa:Helambu)	nar◦ko nange pū	nar◦ko nange pū	nose hair	nose hair			1.2.8	3.5.4	0			803,809,m,1228
+126709	1407	Tibetan (Sherpa:Helambu)	nap◦shal	napshal	liquid mucus	liquid mucus			3.2.3	3.5.6	0			805,m
+126710	1407	Tibetan (Sherpa:Helambu)	kōtser	kōtser	solid mucus	solid mucus			1.1.5	3.5.7	0			
+126711	1407	Tibetan (Sherpa:Helambu)	nar◦ko phēgen	narko phēgen	blow nose	blow nose (v.)	v		1.3.1.4	3.5.8	0	dwb21		803,809,m
+126712	1407	Tibetan (Sherpa:Helambu)	tima numgen	tima numgen	sniff	sniff (v.)	v		1.2.8.5	3.5.9	0	dwb21		
+126713	1407	Tibetan (Sherpa:Helambu)	tima khagen	tima khagen	smell	smell (v.)	v		1.2.8.5	3.5.9	0	dwb21		
+126714	1407	Tibetan (Sherpa:Helambu)	na◦mjyō	na◦mjyō	ear	ear			1.2.7	3.6	0			811,816
+126715	1407	Tibetan (Sherpa:Helambu)	na◦mjyō pe◦ma	na◦mjyō pe◦ma	earlobe	earlobe			1.2.7.1	3.6.1	0			811,816,m,m
+126716	1407	Tibetan (Sherpa:Helambu)	na◦mjyō	na◦mjyō	outer ear	outer ear			9.2	3.6.2	0			811,816
+126717	1407	Tibetan (Sherpa:Helambu)	na◦mjyō ge ōm	na◦mjyō ge ōm	inner ear	inner ear			9.2.5	3.6.3	0			811,816
+126718	1407	Tibetan (Sherpa:Helambu)	na◦mjya dzali	na◦mjya dzali	eardrum	eardrum			1.2.7.2	3.6.5	0			811,816,2083
+126719	1407	Tibetan (Sherpa:Helambu)	le◦be	le◦be	earwax	earwax			1.2.7.3	3.6.6	0			m,815
+126720	1407	Tibetan (Sherpa:Helambu)	nyingen	nyingen	hear	hear (v.)	v		1.2.7.4	3.6.7	0	dwb21		
+126721	1407	Tibetan (Sherpa:Helambu)	yuenjung	yuenjung	deaf	deaf			1.2.7.5	3.6.8	0			m
+126722	1407	Tibetan (Sherpa:Helambu)	bīyera	bīyera	deaf	deaf			1.2.7.5	3.6.8	0			m
+126723	1407	Tibetan (Sherpa:Helambu)	kha	kha	mouth	mouth			1.3.1	3.7	0			273
+126724	1407	Tibetan (Sherpa:Helambu)	chelepiru	chelepiru	uvula	uvula			1.3.5.1	3.7.4	0			
+126725	1407	Tibetan (Sherpa:Helambu)	che◦mung	chemung	saliva	saliva			1.8.3	3.7.5	0			600,m
+126726	1407	Tibetan (Sherpa:Helambu)	sa◦gen	sa◦gen	eat	eat (v.)	v		1.5.3.2	3.7.6	0	dwb21		36,m
+126727	1407	Tibetan (Sherpa:Helambu)	thung◦en	thung◦en	drink	drink (v.)	v			3.7.7	0	dwb21		502,s
+126728	1407	Tibetan (Sherpa:Helambu)	kom◦je laŋ◦en	kom◦je laŋ◦en	thirsty	thirsty	be	be	1.1.3.1	3.7.8	0			116,m,m,m
+126729	1407	Tibetan (Sherpa:Helambu)	d(r)epa togen	d(r)epa togen	hungry	hungry	be	be	1.1.3	3.7.9	0			
+126730	1407	Tibetan (Sherpa:Helambu)	d(r)e◦pa kang◦sin	d(r)e◦pa kang◦sin	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		m,m,m,m
+126731	1407	Tibetan (Sherpa:Helambu)	tubshal kyabgin	tubshal kyabgin	spit	spit (v.)	v		1.8.3	3.7.11	0	dwb21		
+126732	1407	Tibetan (Sherpa:Helambu)	pang◦la	pang◦la	vomit	vomit (n.)	n		1.8.3.2	3.7.12	0	dwb33		m,m
+126733	1407	Tibetan (Sherpa:Helambu)	kyū◦gen	kyū◦gen	vomit	vomit (v.)	v		1.8.3.2	3.7.13	0	dwb21		1750,s
+126734	1407	Tibetan (Sherpa:Helambu)	kha kha pe	kha kha pe	gape  /  open mouth	gape  /  open mouth (v.)	v		1.3.1	3.7.15	0	dwb21		273,273,m
+126735	1407	Tibetan (Sherpa:Helambu)	yal kyapgin	yal kyapgin	yawn	yawn (v.)	v		1.3.1.3	3.7.16	0	dwb21		
+126736	1407	Tibetan (Sherpa:Helambu)	chele	chele	tongue	tongue			1.3.3	3.8	0			629
+126737	1407	Tibetan (Sherpa:Helambu)	tammai	tammai	speak	speak (v.)	v		8.5.10.1	3.8.1	0	dwb21		
+126738	1407	Tibetan (Sherpa:Helambu)	kha khle	kha khle	stutter / stammer	stutter  /  stammer			8.5.4.5	3.8.2	0	jbl3		
+126739	1407	Tibetan (Sherpa:Helambu)	lemba	lemba	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		
+126740	1407	Tibetan (Sherpa:Helambu)	dag◦en	dag◦en	lick	lick			1.3.3.1	3.8.4	0		c	629,m
+126741	1407	Tibetan (Sherpa:Helambu)	kha◦ge ko◦ba	kha◦ge ko◦ba	lip	lip			1.3.2	3.9	0			273,m,589,s
+126742	1407	Tibetan (Sherpa:Helambu)	chho◦do	chho◦do	beak / bill	beak / bill			1.3.1.2	3.9.3	0			442,2095
+126743	1407	Tibetan (Sherpa:Helambu)	ke◦mũ gyapgen	ke◦mũ gyapgen	smile	smile (v.)	v		1.8.8.1	3.9.4	0	dwb21		1116,s,m,s
+126744	1407	Tibetan (Sherpa:Helambu)	chuk pekin	chuk pekin	kiss	kiss			1.3.2.2	3.9.5	0			5540,m
+126745	1407	Tibetan (Sherpa:Helambu)	soh	soh	tooth	tooth			1.3.4	3.10	0			632
+126746	1407	Tibetan (Sherpa:Helambu)	soh	soh	tooth (incisor)	tooth (incisor)			1.3.4	3.10.1	0			632
+126747	1407	Tibetan (Sherpa:Helambu)	dam◦soh	dam◦soh	molar	molar			1.3.4.2	3.10.2	0			262,632
+126748	1407	Tibetan (Sherpa:Helambu)	kē soh	kē soh	eyetooth / canine tooth / fang	eyetooth  /  canine tooth  /  fang			1.3.4.1	3.10.3	0	jbl3		1764,632
+126749	1407	Tibetan (Sherpa:Helambu)	bah soh	bah soh	tooth (wisdom)	tooth (wisdom)			1.3.4	3.10.4	0			1176,632
+126750	1407	Tibetan (Sherpa:Helambu)	soh samba	soh samba	baby tooth	baby tooth			4.2.11	3.10.5	0			632,m
+126751	1407	Tibetan (Sherpa:Helambu)	chē◦wah	chē◦wah	tusk (of elephant, boar)	tusk (of elephant, boar)			1.3.4.1	3.10.6	0			
+126752	1407	Tibetan (Sherpa:Helambu)	gap◦gen	gap◦gen	bite	bite (v.)	v		1.3.4.4	3.10.7	0	dwb21		630,s
+126753	1407	Tibetan (Sherpa:Helambu)	mur◦ken	mur◦ken	chew	chew (v.)	v		1.3.4	3.10.8	0	dwb21		467,s
+126754	1407	Tibetan (Sherpa:Helambu)	sa◦gen	sa◦gen	chew	chew (v.)	v		1.3.4	3.10.8	0	dwb21		36,s
+126755	1407	Tibetan (Sherpa:Helambu)	dam◦ba	dam◦ba	cheek	cheek			1.2.5.2	3.11	0			262,s
+126756	1407	Tibetan (Sherpa:Helambu)	dam◦dum	dam◦dum	cheekbone	cheekbone			1.2.5.2	3.11.1	0			262,280
+126757	1407	Tibetan (Sherpa:Helambu)	ko ma	ko ma	chin	chin			1.2.5.3	3.12	0			2057,m
+126758	1407	Tibetan (Sherpa:Helambu)	mum◦gul	mum◦gul	lower jaw / mandible	lower jaw  /  mandible			1.2.5.2	3.13.1	0	jbl3		m,274
+126759	1407	Tibetan (Sherpa:Helambu)	jing◦ba	jing◦ba	neck	neck			1.4.2	4.1	0			479,s
+126760	1407	Tibetan (Sherpa:Helambu)	powa	powa	goiter	goiter			1.4.2.2	4.1.1	0			1852
+126761	1407	Tibetan (Sherpa:Helambu)	rak◦sha	rak◦sha	nape of neck	nape of neck			1.4.2.1	4.1.3	0			
+126762	1407	Tibetan (Sherpa:Helambu)	ol◦gong	ol◦gong	adam's apple / larynx	adam's apple  /  larynx			1.5.3.2	4.1.4	0	jbl3		490,3361
+126763	1407	Tibetan (Sherpa:Helambu)	ol◦gong	ol◦gong	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		490,3361
+126764	1407	Tibetan (Sherpa:Helambu)	ŋēpken	ŋēpken	swallow	swallow (v.)	v		1.3.5.6	4.2.3	0	dwb21		
+126765	1407	Tibetan (Sherpa:Helambu)	laa◦gōr	laa◦gōr	gizzard / crop of bird	gizzard  /  crop of bird			1.7.6.1	4.2.4	0	jbl3		m,m
+126766	1407	Tibetan (Sherpa:Helambu)	prang◦o	prang◦o	chest	chest			1.4.4.3	5.1	0			288,m
+126767	1407	Tibetan (Sherpa:Helambu)	tsē◦ma	tsē◦ma	rib cage	rib cage			1.4.4.3	5.1.1	0			554,s
+126768	1407	Tibetan (Sherpa:Helambu)	lūng◦ba	lūng◦ba	breastbone / sternum	breastbone  /  sternum			1.6.3.2	5.1.3	0	jbl3		m,s
+126769	1407	Tibetan (Sherpa:Helambu)	Tak◦tsa	Tak◦tsa	shoulder	shoulder			1.4.3	5.3	0			568,m
+126770	1407	Tibetan (Sherpa:Helambu)	laliph	laliph	shoulder blade / scapula	shoulder blade  /  scapula			1.4.3.2	5.3.1	0	jbl3	E	e
+126771	1407	Tibetan (Sherpa:Helambu)	sik baygin	sik baygin	shrug shoulders	shrug shoulders (v.)	v		1.4.3.3	5.3.2	0	dwb21		
+126772	1407	Tibetan (Sherpa:Helambu)	jhe◦sha	jhe◦sha	breast	breast			1.4.4.3	5.4	0			
+126773	1407	Tibetan (Sherpa:Helambu)	nūma	nūma	udder (of cow, goat)	udder (of cow, goat)				5.4.2	0			
+126774	1407	Tibetan (Sherpa:Helambu)	ō◦ma	ō◦ma	milk	milk				5.4.3	0			3464,s
+126775	1407	Tibetan (Sherpa:Helambu)	chūser	chūser	colostrum	colostrum				5.4.4	0			
+126776	1407	Tibetan (Sherpa:Helambu)	jip◦ken	jip◦ken	suck	suck			1.3.2.1	5.4.5	0			5541,m
+126777	1407	Tibetan (Sherpa:Helambu)	jip◦ken	jip◦ken	nurse  /  suckle	nurse  /  suckle (v.)	v		4.2.1.5	5.4.6	0	dwb21		5541,m
+126778	1407	Tibetan (Sherpa:Helambu)	ōma chekin	ōma chekin	wean	wean				5.4.7	0			
+126779	1407	Tibetan (Sherpa:Helambu)	kyap shūm	kyap shūm	small of back	small of back			1.4.8.1	5.5.3	0			213,m
+126780	1407	Tibetan (Sherpa:Helambu)	kōkting	kōkting	hunchback	hunchback			1.4.8.3	5.5.6	0			m
+126781	1407	Tibetan (Sherpa:Helambu)	kā◦pah	kā◦pah	waist	waist			1.4.6	5.6	0			217,s
+126782	1407	Tibetan (Sherpa:Helambu)	poah	poah	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)			1.4.7	5.7	0	jbl3		
+126783	1407	Tibetan (Sherpa:Helambu)	tē◦gah	tē◦gah	navel	navel			1.9.4	5.7.1	0			519,m
+126784	1407	Tibetan (Sherpa:Helambu)	naljah	naljah	pelvis / pelvic girdle	pelvis  /  pelvic girdle			1.4.9.2	5.8	0	jbl3		m
+126785	1407	Tibetan (Sherpa:Helambu)	pē◦rup	pē◦rup	haunches (of animal)	haunches (of animal)			1.4.9.2	5.8.3	0			m,405
+126786	1407	Tibetan (Sherpa:Helambu)	pē◦rup	pē◦rup	buttocks	buttocks			1.4.10	5.10.1	0			m,405
+126787	1407	Tibetan (Sherpa:Helambu)	ŋyā◦ma	ŋyā◦ma	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			205,s
+126788	1407	Tibetan (Sherpa:Helambu)	la lep	la lep	arm	arm			1.5.1.2	6.1	0			695,m
+126789	1407	Tibetan (Sherpa:Helambu)	ke tik	ke tik	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		
+126790	1407	Tibetan (Sherpa:Helambu)	ketik ŋogen	ketik ŋogen	tickle	tickle			1.5.1.2.4	6.1.1.1	0			
+126791	1407	Tibetan (Sherpa:Helambu)	pūngba	pūngba	upperarm	upperarm			1.5.1.2.1	6.1.2	0			
+126792	1407	Tibetan (Sherpa:Helambu)	lak◦patsē	lak◦patsē	elbow	elbow			1.5.8.3	6.1.4	0			695,m
+126793	1407	Tibetan (Sherpa:Helambu)	lak◦pa	lak◦pa	forearm / lower arm	forearm  /  lower arm			1.5.1.2.2	6.1.5	0	jbl3		695,s
+126794	1407	Tibetan (Sherpa:Helambu)	lak◦pa	lak◦pa	wrist	wrist			1.5.8.1	6.1.6	0			695,s
+126795	1407	Tibetan (Sherpa:Helambu)	lak◦pa ke nang	lak◦pa ke nang	hand	hand			1.5.1.1	6.1.7	0			e
+126796	1407	Tibetan (Sherpa:Helambu)	lak◦pa ke nang	lak◦pa ke nang	palm	palm			1.5.5	6.1.7.1	0			e
+126797	1407	Tibetan (Sherpa:Helambu)	lak◦pa ke-nang	lak◦pa ke-nang	back of hand	back of hand			1.5.1.1.2	6.1.7.2	0			e
+126798	1407	Tibetan (Sherpa:Helambu)	amjang	amjang	fist	fist			1.5.1.1.1	6.1.7.3	0			
+126799	1407	Tibetan (Sherpa:Helambu)	yoba lak◦pa	yoba lak◦pa	right hand	right hand			1.5.3.2	6.1.7.4	0			m,695,s
+126800	1407	Tibetan (Sherpa:Helambu)	yoma lak◦pa	yoma lak◦pa	left hand	left hand			1.5.3.2	6.1.7.5	0			m,695,s
+126801	1407	Tibetan (Sherpa:Helambu)	shōk◦pa	shōk◦pa	fin (of fish)	fin (of fish)			1.5.1.3.1	6.1.8	0			731,s
+126802	1407	Tibetan (Sherpa:Helambu)	shōk◦pa	shōk◦pa	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			731,s
+126803	1407	Tibetan (Sherpa:Helambu)	To	To	feather	feather			1.6.1.1	6.1.9	0			750
+126804	1407	Tibetan (Sherpa:Helambu)	nūzūl	nūzūl	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			
+126805	1407	Tibetan (Sherpa:Helambu)	kang◦ba	kangba	leg	leg			1.5.7	6.2	0			336,s
+126806	1407	Tibetan (Sherpa:Helambu)	pēmu	pēmu	thigh	thigh			1.5.7.1	6.2.1	0			
+126807	1407	Tibetan (Sherpa:Helambu)	kangling	kangling	thigh bone / femur	thigh bone  /  femur			1.5.7.1	6.2.1.1	0	jbl3		
+126808	1407	Tibetan (Sherpa:Helambu)	pēmusha	pēmusha	hamstring	hamstring			1.6.6.2	6.2.1.2	0			
+126809	1407	Tibetan (Sherpa:Helambu)	tsē	tsē	knee	knee			1.5.8.4	6.2.2	0			418
+126810	1407	Tibetan (Sherpa:Helambu)	melong	melong	knee cap / patella	knee cap  /  patella			1.5.8.4	6.2.2.1	0	jbl3		
+126811	1407	Tibetan (Sherpa:Helambu)	nē◦kong	nēkong	knee hollow / popliteal region	knee hollow  /  popliteal region			1.5.8.4	6.2.2.2	0	jbl3		m,1251
+126812	1407	Tibetan (Sherpa:Helambu)	ŋar◦Tung	ŋarTung	shin	shin			1.5.7.2	6.2.3	0			580,2031
+126813	1407	Tibetan (Sherpa:Helambu)	ŋar◦Tung	ŋarTung	shin bone / tibia	shin bone  /  tibia			1.5.7.2	6.2.3.1	0	jbl3		580,2031
+126814	1407	Tibetan (Sherpa:Helambu)	pingba	pingba	calf	calf			1.5.7	6.2.4	0			
+126815	1407	Tibetan (Sherpa:Helambu)	tsē	tsē	ankle	ankle			1.5.8.2	6.2.5	0			418
+126816	1407	Tibetan (Sherpa:Helambu)	mē◦chung	mēchung	ankle bone	ankle bone			1.5.8.2	6.2.5.1	0			682,m
+126817	1407	Tibetan (Sherpa:Helambu)	kang◦ba sham	kang◦ba sham	foot	foot			1.5.2	6.2.6	0			336,s,m
+126818	1407	Tibetan (Sherpa:Helambu)	Ting ba	Ting ba	heel	heel			1.5.2.1	6.2.6.1	0			394,s
+126819	1407	Tibetan (Sherpa:Helambu)	serung kha	serung kha	achilles tendon	achilles tendon			1.6.6.1	6.2.6.2	0			
+126820	1407	Tibetan (Sherpa:Helambu)	kangba Ting	kangba Ting	sole	sole			1.5.5	6.2.6.5	0			
+126821	1407	Tibetan (Sherpa:Helambu)	chela / chayla	chela / chayla	footprint	footprint			1.5.2.5	6.2.6.7	0			
+126822	1407	Tibetan (Sherpa:Helambu)	nūzul	nūzul	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			
+126823	1407	Tibetan (Sherpa:Helambu)	kūcha	kūcha	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+126824	1407	Tibetan (Sherpa:Helambu)	kūcha dōgen	kūcha dōgen	limp	limp (v.)	v		1.5.12	6.2.8	0	dwb21		
+126825	1407	Tibetan (Sherpa:Helambu)	lakpa dzū	lakpa dzū	finger	finger			1.5.6	7.1	0			
+126826	1407	Tibetan (Sherpa:Helambu)	dzū chi	dzū chi	index finger	index finger			1.0	7.1.1	0			
+126827	1407	Tibetan (Sherpa:Helambu)	dzū kilma	dzū kilma	middle finger	middle finger			1.9.4	7.1.2	0			
+126828	1407	Tibetan (Sherpa:Helambu)	tayzhungma	tayzhungma	little finger	little finger			9.7.2	7.1.4	0			
+126829	1407	Tibetan (Sherpa:Helambu)	taybu	taybu	thumb	thumb			1.5.6.1	7.1.5	0			
+126830	1407	Tibetan (Sherpa:Helambu)	rēmū / rēmũ	rēmū / rēmũ	fingerprint	fingerprint			1.5.6.1	7.1.6	0			
+126831	1407	Tibetan (Sherpa:Helambu)	tsē	tsē	knuckle (joint of digit)	knuckle (joint of digit)			1.5.8.5	7.3	0			418
+126832	1407	Tibetan (Sherpa:Helambu)	lakpa saymū	lakpa saymū	fingernail	fingernail			1.5.10.1	7.4.1	0			
+126833	1407	Tibetan (Sherpa:Helambu)	kangba saymū	kangba saymū	toenail	toenail			1.5.10.2	7.4.2	0			
+126834	1407	Tibetan (Sherpa:Helambu)	ter◦sing	tersing	claw (of animal)	claw (of animal)			1.5.10.4	7.4.3	0			506,m
+126835	1407	Tibetan (Sherpa:Helambu)	saymu	saymu	talon (of bird)	talon (of bird)			1.5.10.4	7.4.4	0			
+126836	1407	Tibetan (Sherpa:Helambu)	ta	ta	hair of head	hair of head			1.2.3	8.1.1	0			367
+126837	1407	Tibetan (Sherpa:Helambu)	ta◦bē	ta◦bē	cowlick (flexure in hair)	cowlick (flexure in hair)			1.2.3.1	8.1.1.1	0			367,1473
+126838	1407	Tibetan (Sherpa:Helambu)	kyah	kyah	beard	beard			1.2.5.5	8.1.2	0			2064
+126839	1407	Tibetan (Sherpa:Helambu)	mang◦ra	mang◦ra	beard	beard			1.2.5.5	8.1.2.1	0			1114,1265
+126840	1407	Tibetan (Sherpa:Helambu)	mang◦ra	mang◦ra	goatee	goatee			1.2.5.5	8.1.2.2	0			1114,1265
+126841	1407	Tibetan (Sherpa:Helambu)	mang◦ra	mang◦ra	moustache	moustache			1.2.5.5	8.1.2.3	0			1114,1265
+126842	1407	Tibetan (Sherpa:Helambu)	pū	pū	body hair	body hair			1.6.1	8.1.3	0			1228
+126843	1407	Tibetan (Sherpa:Helambu)	ki◦tig pū	ki◦tig pū	underarm hair	underarm hair			1.5.1.2.3	8.1.3.1	0			m,m,1228
+126844	1407	Tibetan (Sherpa:Helambu)	prang◦o pū	prang◦o pū	chest hair	chest hair			1.4.4.5	8.1.3.2	0			288,m,1228
+126845	1407	Tibetan (Sherpa:Helambu)	kang◦ba pū	kang◦ba pū	leg hair	leg hair			1.5.7	8.1.3.3	0			336,s,1228
+126846	1407	Tibetan (Sherpa:Helambu)	pū	pū	fur (of animal)	fur (of animal)			1.6.1	8.1.4	0			1228
+126847	1407	Tibetan (Sherpa:Helambu)	trō	trō	feather (of bird)	feather (of bird)			1.6.1.1	8.1.5	0			750
+126848	1407	Tibetan (Sherpa:Helambu)	sē◦wah	sē◦wah	mane (of horse, lion)	mane (of horse, lion)			1.6.1	8.1.6	0			
+126849	1407	Tibetan (Sherpa:Helambu)	kō◦ba	kō◦ba	skin	skin			1.6.5	8.2	0			589,s
+126850	1407	Tibetan (Sherpa:Helambu)	ŋōl◦chu	ŋōl◦chu	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		615,1631
+126851	1407	Tibetan (Sherpa:Helambu)	menja	menja	pore	pore			1.8.1.1	8.2.2	0			
+126852	1407	Tibetan (Sherpa:Helambu)	yahma	yahma	pimple	pimple			1.6.5.3	8.2.3.2	0			
+126853	1407	Tibetan (Sherpa:Helambu)	me◦wah	mewah	mole	mole			2.2.7	8.2.3.3	0			2447,m
+126854	1407	Tibetan (Sherpa:Helambu)	zerpah	zerpah	wart	wart			1.6.5.3	8.2.3.4	0			
+126855	1407	Tibetan (Sherpa:Helambu)	menja	menja	scar	scar			1.6.5.3	8.2.3.7	0			
+126856	1407	Tibetan (Sherpa:Helambu)	nyer◦mung	nyermung	wrinkle	wrinkle			9.6.2	8.2.3.8	0			
+126857	1407	Tibetan (Sherpa:Helambu)	būri	būri	rash	rash			1.6.5.3	8.2.3.9	0			
+126858	1407	Tibetan (Sherpa:Helambu)	shōa	shōa	scab	scab			1.6.5.3	8.2.4	0			
+126859	1407	Tibetan (Sherpa:Helambu)	nya kō◦ba	nya kō◦ba	scales (of fish)	scales (of fish)			1.6.5.2	8.2.5	0			1455,589,s
+126860	1407	Tibetan (Sherpa:Helambu)	kōba kambū	kōba kambū	hide / leather (dried animal skin)	hide  /  leather (dried animal skin)			1.6.5.1	8.2.6	0	jbl3		589,s,m,m
+126861	1407	Tibetan (Sherpa:Helambu)	kyak◦pa	kyak◦pa	fat	fat			1.6.4	8.3	0			40,s
+126862	1407	Tibetan (Sherpa:Helambu)	tsil◦ū	tsil◦ū	fat around intestines / omentum	fat around intestines / omentum			1.6.4	8.3.1	0	jbl2		48,m
+126863	1407	Tibetan (Sherpa:Helambu)	nūm	nūm	oil / grease (for cooking)	oil  /  grease (for cooking)			1.6.4.1	8.3.2	0	jbl3		1443
+126864	1407	Tibetan (Sherpa:Helambu)	raykō	raykō	bone	bone			1.6.3	8.4	0			
+126865	1407	Tibetan (Sherpa:Helambu)	zubukāy raykō	zubukāy raykō	skeleton	skeleton			1.6.3.1	8.4.1	0			
+126866	1407	Tibetan (Sherpa:Helambu)	kang	kang	marrow	marrow			1.6.3.5	8.4.3	0			459
+126867	1407	Tibetan (Sherpa:Helambu)	rayko tung tung	rayko tung tung	cartilage / grist	cartilage  /  grist			1.6.3.4	8.4.4	0	jbl3		m,241,241
+126868	1407	Tibetan (Sherpa:Helambu)	tsah	tsah	sinew / tendon (muscle to bone	sinew  /  tendon (muscle to bone			1.6.6.1	8.5	0	jbl3		530
+126869	1407	Tibetan (Sherpa:Helambu)	thah	thah	blood	blood			1.6.2	8.7	0			231
+126870	1407	Tibetan (Sherpa:Helambu)	thah◦ama	thah◦ama	blood vessel / vein / artery	blood vessel  /  vein  /  artery			1.6.2.1	8.7.1	0	jbl3		231,m
+126871	1407	Tibetan (Sherpa:Helambu)	thah tengen	thah tengen	bleed	bleed (v.)	v		1.6.2	8.7.2	0	dwb21		231,m
+126872	1407	Tibetan (Sherpa:Helambu)	shyah	shyah	muscle	muscle			1.6.6.2	8.8	0			34
+126873	1407	Tibetan (Sherpa:Helambu)	tsē	tsē	joint	joint			1.5.8	8.9	0			418
+126874	1407	Tibetan (Sherpa:Helambu)	le◦hpah	le◦hpah	brain	brain			1.2.4	9.1	0			465,m
+126875	1407	Tibetan (Sherpa:Helambu)	poksah	pok sah	lung	lung			1.7.2	9.2	0			5680
+126876	1407	Tibetan (Sherpa:Helambu)	ursarken	ursarken	pant	pant (v.)	v		1.1.2.2	9.2.2	0	dwb21		
+126877	1407	Tibetan (Sherpa:Helambu)	phū◦gen	phū◦gen	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			75,s
+126878	1407	Tibetan (Sherpa:Helambu)	lak shel	lak shel	phlegm	phlegm			1.8.3	9.2.5	0			
+126879	1407	Tibetan (Sherpa:Helambu)	ning	ning	heart	heart			1.7.1	9.3	0			251
+126880	1407	Tibetan (Sherpa:Helambu)	tsah	tsah	pulse	pulse			1.7.1.1	9.3.2	0			530
+126881	1407	Tibetan (Sherpa:Helambu)	nang juh	nang juh	viscera / guts / entrails (in	viscera  /  guts  /  entrails (in			1.7.7	9.4	0	jbl3		2117,m
+126882	1407	Tibetan (Sherpa:Helambu)	chiim◦ba	chiimba	liver	liver			1.7.3	9.5	0			1390,s
+126883	1407	Tibetan (Sherpa:Helambu)	thē◦ba	thēba	bile	bile			1.7.3.1	9.5.1	0			1390,s
+126884	1407	Tibetan (Sherpa:Helambu)	chir◦pa	chir◦pa	kidney	kidney			1.7.5	9.6	0			m,m
+126885	1407	Tibetan (Sherpa:Helambu)	ching	ching	urine	urine			1.8.4	9.7.1	0			650
+126886	1407	Tibetan (Sherpa:Helambu)	ching dangen	ching dangen	urinate	urinate (v.)	v		1.5.3.2	9.7.2	0	dwb21		650,m
+126887	1407	Tibetan (Sherpa:Helambu)	po◦a	po◦a	stomach	stomach			1.7.6	9.10	0			2103,s
+126888	1407	Tibetan (Sherpa:Helambu)	traypa ama	traypa ama	intestines / bowels	intestines  /  bowels			1.7.7	9.11	0	jbl3		m,m
+126889	1407	Tibetan (Sherpa:Helambu)	jang◦mūr	jang◦mūr	anus / rectum	anus  /  rectum			1.4.10.2	9.12	0	jbl3		408,467
+126890	1407	Tibetan (Sherpa:Helambu)	kyak◦paq	kyak◦paq	feces / shit	feces  /  shit			1.8.5	9.12.1	0	jbl3		577,s
+126891	1407	Tibetan (Sherpa:Helambu)	kyakpa tangin	kyakpa tangin	defecate	defecate (v.)	v		1.8.5.4	9.12.3	0	dwb21		
+126892	1407	Tibetan (Sherpa:Helambu)	loc kãi	loc kãi	cough	cough			1.8.3.3	11.1	0			
+126893	1407	Tibetan (Sherpa:Helambu)	ikku kyabgen	ikku kyabgen	hiccup	hiccup			1.8.3.5	11.2	0			
+126894	1407	Tibetan (Sherpa:Helambu)	prek◦pha kyab◦gen	prek◦pha kyab◦gen	sneeze	sneeze			1.8.2.1	11.3	0			
+126895	1407	Tibetan (Sherpa:Helambu)	ŋor◦pa kyab◦gen	ŋor◦pa kyab◦gen	snore	snore			1.8.2.2	11.4	0			1784,s,m,s
+126896	1407	Tibetan (Sherpa:Helambu)	piu◦ra kyab◦gen	piu◦ra kyab◦gen	whistle	whistle			8.5.5	11.5	0			m,m,m,s
+126897	1407	Tibetan (Sherpa:Helambu)	gaū	gaū	burp / belch	burp  /  belch			1.8.3	11.6	0	jbl3		
+126898	1407	Tibetan (Sherpa:Helambu)	ge◦mu kyab◦gen	ge◦mu kyab◦gen	laugh	laugh			1.8.8.1	11.9	0			1116,s,m,s
+126899	1407	Tibetan (Sherpa:Helambu)	dar◦ken	darken	tremble / shiver / shudder	tremble  /  shiver  /  shudder			1.6.6.2.1	12.1	0	jbl3		5570,m
+126900	1407	Tibetan (Sherpa:Helambu)	nagen	nagen	sick	sick	be	be	1.1.5.1	12.2	0			
+126901	1407	Tibetan (Sherpa:Helambu)	nandi dogen	nandi dogen	injured	injured	be	be	6.4	12.2	0			
+126902	1407	Tibetan (Sherpa:Helambu)	nagen pardu	nagen pardu	numb	numb			1.5.11	12.3	0			
+126903	1407	Tibetan (Sherpa:Helambu)	tsalti me kugen	tsalti me kugen	paralyzed	paralyzed			1.5.11	12.3	0			
+126904	1407	Tibetan (Sherpa:Helambu)	tangen	tangen	swell /  be swollen	swell  /   be swollen	v.	v.	1.1.5.2	12.4	0	jbl3		
+126905	1407	Tibetan (Sherpa:Helambu)	ŋa tan◦gen	ŋa tan◦gen	pus	pus			1.8.6.1	12.5	0			m,m,m
+126906	1407	Tibetan (Sherpa:Helambu)	nandi	nandi	abscess / ulcer / open wound	abscess  /  ulcer  /  open wound			1.8.6.2	12.6	0	jbl3		
+126907	1407	Tibetan (Sherpa:Helambu)	takan tapkin	takan tapkin	hand span	hand span			1.5.9.4	13.2	0			
+126908	1407	Tibetan (Sherpa:Helambu)	tukan	tukan	cubit (elbow to fingers)	cubit (elbow to fingers)			1.5.9.3	13.3	0			
+126909	1407	Tibetan (Sherpa:Helambu)	lak◦pa kang	lak◦pa kang	cord / fathom (outstretched arms)	cord  /  fathom (outstretched arms)			1.5.9.5	13.4	0	jbl3		695,m,m
+126910	1407	Tibetan (Sherpa:Helambu)	namsang dangen	namsang dangen	think	think	v.	v.	8.3.1.13.1	14.1	0			

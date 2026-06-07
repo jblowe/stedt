@@ -1,771 +1,771 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-523996	2030	Sorbung	saa-júur	saa-júur	animal	animal		2.3	Animals.001	0		
-523997	2030	Sorbung	sə-muk	sə-muk	cattle	cattle		2.1.2	Animals.009	0		m,5607
-523998	2030	Sorbung	sə-mùk-paa-saa	sə-mùk-paa-saa	cattle, male; bull	cattle, male; bull		2.1.2	Animals.010	0		m,5607,m,m
-523999	2030	Sorbung	sə-mùk-mòo-sa	sə-mùk-mòo-sa	cattle, female; cow	cattle, female; cow		2.1.2	Animals.011	0		m,5607,m,m
-524000	2030	Sorbung	sə-loo	sə-loo	buffalo	buffalo		2.1.2	Animals.014	0		
-524001	2030	Sorbung	səriám	səriám	mithun	mithun		2.1.2	Animals.015	0		
-524002	2030	Sorbung	sə-kúan	sə-kúan	horse	horse		2.1.7	Animals.019	0		
-524003	2030	Sorbung	òok	òok	pig	pig		2.1.12	Animals.026	0		
-524004	2030	Sorbung	màŋgəlée	màŋgəlée	goat	goat		2.1.8	Animals.031	0		
-524005	2030	Sorbung	jau	jau	sheep	sheep		2.1.8	Animals.032	0		6028
-524006	2030	Sorbung	ʔaa	ʔaa	chicken; fowl	chicken; fowl		2.1.10	Animals.034	0		
-524007	2030	Sorbung	ʔakʰóoŋ	ʔakʰóoŋ	rooster; fowl, male	rooster; fowl, male		2.1.10	Animals.035	0		
-524008	2030	Sorbung	ʔalàa	ʔalàa	hen	hen		2.1.10	Animals.036	0		
-524009	2030	Sorbung	ʔa-bʉ́ʉ	ʔa-bʉ́ʉ	hen, mother	hen, mother		2.1.10		0		
-524010	2030	Sorbung	ʔakʰóoŋ	ʔakʰóoŋ	cock (intact male)	cock (intact male)		2.1.10	Animals.038	0		
-524011	2030	Sorbung	kùm◦pʰék	kùmpʰék	duck	duck		2.1.10	Animals.039	0		m,5716
-524012	2030	Sorbung	ʔʉ́ʉ	ʔʉ́ʉ	dog (Canis familiaris)	dog (Canis familiaris)		2.1.11	Animals.043	0		1764
-524013	2030	Sorbung	ràm◦ʔʉ́ʉ	ràmʔʉ́ʉ	dhole	dhole		2.1.11	Animals.044	0		6093,1764
-524014	2030	Sorbung	ràm◦ʔʉ́ʉ	ràmʔʉ́ʉ	wolf	wolf		2.1.11	Animals.045	0		6093,1764
-524015	2030	Sorbung	ràm◦ʔʉ́ʉ	ràmʔʉ́ʉ	fox	fox		2.1.11	Animals.046	0		6093,1764
-524016	2030	Sorbung	kʰaan	kʰaan	cat (Felis domesticus)	cat (Felis domesticus)		2.1.3	Animals.047	0		
-524017	2030	Sorbung	səráam	səráam	fishing cat	fishing cat		2.2.5	Animals.050	0		
-524018	2030	Sorbung	hambʉ́ʉ	hambʉ́ʉ	tiger	tiger		2.1.3	Animals.052	0		
-524019	2030	Sorbung	hambʉ́ʉ	hambʉ́ʉ	lion	lion		2.1.3	Animals.054	0		
-524020	2030	Sorbung	sə-kíi	sə-kíi	deer	deer		2.2.2	Animals.055	0		
-524021	2030	Sorbung	sə-jáa	sə-jáa	sambhur; sambar	sambhur; sambar		2.2.2	Animals.056	0		
-524022	2030	Sorbung	ʔə-wám	ʔə-wám	bear (Selenarctos thibetanus)	bear (Selenarctos thibetanus)		2.2.3	Animals.061	0		p,2777
-524023	2030	Sorbung	jooŋ	jooŋ	monkey	monkey		2.1.9	Animals.065	0		6049
-524024	2030	Sorbung	cə-háa	cə-háa	leaf-monkey; langur	leaf-monkey; langur		2.1.9	Animals.068	0		
-524025	2030	Sorbung	mə-júu	mə-júu	mouse	mouse		2.1.1	Animals.074	0		
-524026	2030	Sorbung	mə-júu	mə-júu	rat	rat		2.1.1	Animals.076	0		
-524027	2030	Sorbung	ʔə-lóo	ʔə-lóo	squirrel	squirrel		2.1.1	Animals.079	0		
-524028	2030	Sorbung	ʔə-lóo	ʔə-lóo	squirrel, giant	squirrel, giant		2.1.1	Animals.080	0		
-524029	2030	Sorbung	sə-|kúu	sə-kúu	porcupine	porcupine		2.1.1	Animals.082	0		4305
-524030	2030	Sorbung	mətír	mətír	shrew	shrew		2.1.1	Animals.087	0		
-524031	2030	Sorbung	ʔə-bʉ́ʉ	ʔə-bʉ́ʉ	mole	mole		2.2.7	Animals.089	0		
-524032	2030	Sorbung	ʔə-sái	ʔə-sái	elephant	elephant		2.2.1	Animals.091	0		p,4649
-524033	2030	Sorbung	təŋgooŋ	təŋgooŋ	anteater (pangolin); crocodile	anteater (pangolin); crocodile		2.1.6	Animals.096	0		
-524034	2030	Sorbung	sə-ráam	sə-ráam	otter	otter		2.2.7.1	Animals.099	0		
-524035	2030	Sorbung	ʔə-bák	ʔə-bák	bat	bat		2.2.4.1	Animals.100	0		
-524036	2030	Sorbung	ʔəcok	ʔəcok	frog	frog		2.1.6.2	Animals.101	0		
-524037	2030	Sorbung	ʔəcok	ʔəcok	toad	toad		2.1.6.2	Animals.102	0		
-524038	2030	Sorbung	bə-ríi	bə-ríi	snake	snake		2.1.6.1	Animals.110	0		
-524039	2030	Sorbung	bəríilòokpáa	bəríilòokpáa	python	python		2.1.6	Animals.112	0		
-524040	2030	Sorbung	bəríis(ə)mùuk	bəríis(ə)mùuk	snake species, large	snake species, large		2.1.6		0		
-524041	2030	Sorbung	ʔə-waa	ʔə-waa	bird	bird		2.2.4	Animals.120	0		p,1603
-524042	2030	Sorbung	ʔə-waa-búu	ʔə-waa-búu	nest	nest		2.2.4	Animals.121	0		p,1603,1733
-524043	2030	Sorbung	ʔə-waa-cʉ́ʉ	ʔə-waa-cʉ́ʉ	egg	egg			Animals.122	0		
-524044	2030	Sorbung	ʔəcʉ́ʉ-məcʉ́ʉ	ʔəcʉ́ʉ-məcʉ́ʉ	lay egg	lay egg		6.17	Animals.124	0		
-524045	2030	Sorbung	buum	buum	sit on eggs	sit on eggs		1.9.1.2	Animals.125	0		
-524046	2030	Sorbung	ʔa-rip	ʔa-rip	chicken, jungle	chicken, jungle		2.1.10		0		
-524047	2030	Sorbung	ʔəwaahambʉ́ʉ	ʔəwaahambʉ́ʉ	owl	owl		2.2.4.1	Animals.133	0		
-524048	2030	Sorbung	bùumlík	bùumlík	eagle	eagle		2.2.4.1	Animals.138	0		
-524049	2030	Sorbung	ʔəwaatʰìŋhʉ́tpá	ʔəwaatʰìŋhʉ́tpá	woodpecker	woodpecker		2.2.4.1	Animals.142	0		
-524050	2030	Sorbung	ʔə-ʃúu	ʔə-ʃúu	dove; pigeon	dove; pigeon		2.2.4.1	Animals.143	0		
-524051	2030	Sorbung	bə-kíi	bə-kíi	parrot	parrot		2.2.4.1	Animals.145	0		p,7416
-524052	2030	Sorbung	ʔə◦ŋaa,◦ʔŋaa	ʔəŋaa,ʔŋaa	fish (general)	fish (general)		2.2.5	Animals.153	0		p,1455,1455
-524053	2030	Sorbung	ʔə◦ŋaa◦cʉ́ʉ, ʔŋaa◦cʉ́ʉ	ʔəŋaacʉ́ʉ, ʔŋaacʉ́ʉ	roe; eggs, fish	roe; eggs, fish		2.2.6	Animals.154	0		p,1455,m,1455,m
-524054	2030	Sorbung	ʔə◦ŋoŋ(g)lá	ʔəŋoŋ(g)lá	fish, catfish	fish, catfish		2.2.5	Animals.160	0		
-524055	2030	Sorbung	ŋà◦míi	ŋàmíi	fish, flying	fish, flying		2.2.5		0		1455,m
-524056	2030	Sorbung	ʔə◦ŋkʰau	ʔəŋkʰau	fish species, light in color	fish species, light in color		2.2.5		0		
-524057	2030	Sorbung	ʔəʃii	ʔəʃii	crab	crab		2.2.5	Animals.164	0		
-524058	2030	Sorbung	tukòŋ(g)lá	tukòŋ(g)lá	crayfish	crayfish			Animals.165	0		
-524059	2030	Sorbung	càbrùulá, càbrùurá	càbrùulá, càbrùurá	snail	snail		2.2.5	Animals.167	0		
-524060	2030	Sorbung	ʔə-kuu-ʔə-kái	ʔə-kuu-ʔə-kái	insects	insects		2.2.6	Animals.170	0		
-524061	2030	Sorbung	ciŋ-ʃii-pá	ciŋ-ʃii-pá	ant	ant		2.2.6	Animals.173	0		
-524062	2030	Sorbung	lùuk-sáa	lùuk-sáa	termite; white ant	termite; white ant		2.2.6	Animals.174	0		
-524063	2030	Sorbung	kʰoo	kʰoo	bee	bee		2.2.6	Animals.176	0		
-524064	2030	Sorbung	kʰò◦cʉ́ʉ	kʰòcʉ́ʉ	honey	honey		2.2.6	Animals.177	0		
-524065	2030	Sorbung	ʔəpàak	ʔəpàak	butterfly	butterfly		2.2.6	Animals.183	0		
-524066	2030	Sorbung	ʔəpàa	ʔəpàa	moth	moth		2.2.6	Animals.184	0		
-524067	2030	Sorbung	ʔə-kʰau-rúaŋ	ʔə-kʰau-rúaŋ	grasshopper	grasshopper		2.2.6	Animals.185	0		
-524068	2030	Sorbung	ʔə-kʰau,ʔ-kʰau	ʔə-kʰau,ʔ-kʰau	grasshopper	grasshopper		2.2.6		0		
-524069	2030	Sorbung	ʔəsóm	ʔəsóm	mantis	mantis		1.9.6.1		0		
-524070	2030	Sorbung	tʰəwái	tʰəwái	fly	fly		2.2.6	Animals.187	0		
-524071	2030	Sorbung	tʰəwái	tʰəwái	mosquito	mosquito		2.2.6	Animals.190	0		
-524072	2030	Sorbung	ʔə-ríp	ʔə-ríp	lac insect	lac insect		2.2.6	Animals.193	0		
-524073	2030	Sorbung	ʔə-rík,ʔ-rík	ʔə-rík,ʔ-rík	louse	louse		2.2.6	Animals.195	0		
-524074	2030	Sorbung	ʔʉrík	ʔʉrík	flea	flea		2.2.6	Animals.197	0		
-524075	2030	Sorbung	kʰəràan, kʰràan	kʰəràan, kʰràan	spider	spider		2.2.6	Animals.201	0		
-524076	2030	Sorbung	mə-hít	mə-hít	leech (land)	leech (land)		2.2.6	Animals.204	0		
-524077	2030	Sorbung	mə-sàa	mə-sàa	body	body		1.1.1	BodyParts.001	0		
-524078	2030	Sorbung	ʔəncáaŋlàm	ʔəncáaŋlàm	side (right)	side (right)		1.4.5	BodyParts.002	0		
-524079	2030	Sorbung	tənpùelàm	tənpùelàm	side (left)	side (left)		1.4.5	BodyParts.003	0		
-524080	2030	Sorbung	ʔə-núuŋ-làm	ʔə-núuŋ-làm	back (of something)	back (of something)		1.4.8	BodyParts.004	0		p,m,3324
-524081	2030	Sorbung	mə-ŋaa-lam	mə-ŋaa-lam	front (of something)	front (of something)		1.4.4	BodyParts.005	0		
-524082	2030	Sorbung	ʔənúuŋlàm	ʔənúuŋlàm	behind	behind		9.2.8	BodyParts.006	0		
-524083	2030	Sorbung	mə-ŋaa-lam	mə-ŋaa-lam	front of, in	front of, in		10.1.1	BodyParts.007	0		
-524084	2030	Sorbung	məsàa	məsàa	torso; trunk	torso; trunk		1.5.3.2	BodyParts.008	0		
-524085	2030	Sorbung	mə◦tóo	mətóo	lap	lap		1.4.4.2	BodyParts.010	0		m,289
-524086	2030	Sorbung	məlúuŋ	məlúuŋ	bosom	bosom		1.4.4.2	BodyParts.011	0		
-524087	2030	Sorbung	sàa	sàa	animal	animal		2.3	BodyParts.013	0		
-524088	2030	Sorbung	ʔə-táak	ʔə-táak	flesh	flesh		1.1.1.1	BodyParts.014	0		p,8
-524089	2030	Sorbung	ʔəméek	ʔəméek	meat	meat		1.1.1.1	BodyParts.015	0		
-524090	2030	Sorbung	ríiŋ	ríiŋ	alive; living	alive; living	be v.	1.1.2.1	BodyParts.016	0		
-524091	2030	Sorbung	tʰìi	tʰìi	die; dead, be	die; dead, be		1.1.6	BodyParts.017	0		
-524092	2030	Sorbung	tʰìilenta məsàa	tʰìilenta məsàa	corpse; body, dead	corpse; body, dead		1.1.6.1	BodyParts.019	0		
-524093	2030	Sorbung	ʔìin	ʔìin	sleep; asleep, be	sleep; asleep, be		1.1.4.1	BodyParts.021	0		
-524094	2030	Sorbung	ʔən-tʰèe	ʔən-tʰèe	wake up; awake, be	wake up; awake, be	v.i.	1.1.4	BodyParts.022	0		
-524095	2030	Sorbung	lu◦kaaŋ	lukaaŋ	head	head		1.2.1	BodyParts.026	0		1221,m
-524096	2030	Sorbung	lu◦sìip	lusìip	head, top of; crown; pate	head, top of; crown; pate		1.2.1.2	BodyParts.027	0		1221,m
-524097	2030	Sorbung	lu◦káaŋ◦ruu	lukáaŋruu	skull	skull		1.2.1.1	BodyParts.029	0		1221,m,232
-524098	2030	Sorbung	mai◦rúu	mairúu	skull	skull		1.2.1.1		0		m,232
-524099	2030	Sorbung	ʔə-kʰúak	ʔə-kʰúak	brain	brain		1.2.4	BodyParts.030	0		
-524100	2030	Sorbung	ʔəkʰúak oommài	ʔəkʰúak oommài	no brain; brainless	no brain; brainless		10.6.2	BodyParts.031	0		
-524101	2030	Sorbung	tətrò	tətrò	comb (of rooster)	comb (of rooster)		1.2.2.1	BodyParts.034	0		
-524102	2030	Sorbung	ʔə-kìi	ʔə-kìi	horn (of animal)	horn (of animal)		1.2.2	BodyParts.035	0		p,2012
-524103	2030	Sorbung	ʔə-kìi	ʔə-kìi	antler (of deer)	antler (of deer)		1.2.2	BodyParts.036	0		p,2012
-524104	2030	Sorbung	mai	mai	face	face		1.2.5	BodyParts.037	0		
-524105	2030	Sorbung	mə◦cèe	məcèe	forehead; brow	forehead; brow		1.2.5.1	BodyParts.038	0		p,384
-524106	2030	Sorbung	mìit	mìit	eye	eye		1.2.6	BodyParts.039	0		682
-524107	2030	Sorbung	mìtkor	mìtkor	eyelid	eyelid		1.2.6.4	BodyParts.040	0		
-524108	2030	Sorbung	mìit	mìit	eyeball	eyeball		1.2.6.1	BodyParts.041	0		
-524109	2030	Sorbung	wàm	wàm	black	black		9.4	BodyParts.042	0		5135
-524110	2030	Sorbung	mìd◦èk, mìt◦ʔèk	mìdèk, mìtʔèk	eye, white of	eye, white of		1.2.6	BodyParts.043	0		682,m,682,m
-524111	2030	Sorbung	mìdmíi	mìdmíi	eyebrow	eyebrow		1.2.6.6	BodyParts.044	0		
-524112	2030	Sorbung	mìdmii	mìdmii	eyelash	eyelash		1.2.6.5	BodyParts.045	0		
-524113	2030	Sorbung	mìtkʰəjùp	mìtkʰəjùp	blink	blink	v.	1.2.6.12	BodyParts.046	0		
-524114	2030	Sorbung	məkʰácʉʉ	məkʰácʉʉ	tear	tear	n.	1.8.8.1	BodyParts.047	0		
-524115	2030	Sorbung	mìd◦ék; mìt◦ʔék	mìdék; mìtʔék	eye sand	eye sand		1.2.6.8	BodyParts.048	0		682,m,682,m
-524116	2030	Sorbung	càap	càap	cry; weep	cry; weep		1.8.8.2	BodyParts.049	0		1103
-524117	2030	Sorbung	mùu	mùu	see	see	v.	1.2.6.10	BodyParts.051	0		4880
-524118	2030	Sorbung	ʔen	ʔen	look	look		1.2.6.11	BodyParts.052	0		1410
-524119	2030	Sorbung	ʔenee	ʔenee	look	look	imp.	1.2.6.11	BodyParts.053	0		1410
-524120	2030	Sorbung	mìt-còo	mìt-còo	blind	blind		1.2.6.14.2	BodyParts.054	0		682,1401
-524121	2030	Sorbung	mìt◦cò◦nuu	mìtcònuu	woman, blind	woman, blind		1.9.3	BodyParts.055	0		682,1401,m
-524122	2030	Sorbung	mìt◦cò◦bàa	mìtcòbàa	man, blind	man, blind		1.9.6.1		0		682,1401,m
-524123	2030	Sorbung	nàráa	nàráa	nose	nose		1.2.8	BodyParts.057	0		
-524124	2030	Sorbung	nàráa	nàráa	nose bridge	nose bridge		1.2.8	BodyParts.058	0		
-524125	2030	Sorbung	nàkʰúur	nàkʰúur	nostril	nostril		1.2.8.1	BodyParts.059	0		
-524126	2030	Sorbung	nàp-káaŋ	nàp-káaŋ	mucus, dry	mucus, dry		1.8.2	BodyParts.060	0		805,119
-524127	2030	Sorbung	nàap	nàap	mucus, liquid	mucus, liquid		1.8.2	BodyParts.061	0		805
-524128	2030	Sorbung	mənáam	mənáam	smell; sniff	smell; sniff	v.	1.2.8.5	BodyParts.063	0		
-524129	2030	Sorbung	ʔə◦náa	ʔənáa	ear	ear		1.2.7	BodyParts.064	0		p,811
-524130	2030	Sorbung	ná◦kʰùur	nákʰùur	ear canal	ear canal		1.2.7	BodyParts.066	0		811,665b
-524131	2030	Sorbung	nájàaŋ	nájàaŋ	eardrum	eardrum		1.2.7.2	BodyParts.067	0		
-524132	2030	Sorbung	ʔənáaʔék	ʔənáaʔék	earwax	earwax		1.2.7.3	BodyParts.068	0		
-524133	2030	Sorbung	tʰóo	tʰóo	hear	hear	v.	1.2.7.4	BodyParts.069	0		
-524134	2030	Sorbung	nàkʰuák	nàkʰuák	deaf	deaf		1.2.7.5	BodyParts.070	0		
-524135	2030	Sorbung	mor	mor	mouth	mouth		1.3.1	BodyParts.071	0		467
-524136	2030	Sorbung	há◦kʰii	hákʰii	gums	gums		1.3.4.3	BodyParts.074	0		632,m
-524137	2030	Sorbung	kəráak	kəráak	uvula; throat	uvula; throat		1.3.5.1	BodyParts.075	0		
-524138	2030	Sorbung	mə-cám-cʉ̀ʉ	mə-cám-cʉ̀ʉ	saliva	saliva		1.8.3	BodyParts.077	0		
-524139	2030	Sorbung	saa	saa	eat	eat		1.5.3.2	BodyParts.078	0		
-524140	2030	Sorbung	saa	saa	eat (rice)	eat (rice)	v.	1.5.3.2	BodyParts.079	0		
-524141	2030	Sorbung	ʔíin	ʔíin	drink	drink	v.		BodyParts.080	0		1705
-524142	2030	Sorbung	cʉrée	cʉrée	thirsty	thirsty	be v.	1.1.3.1	BodyParts.081	0		
-524143	2030	Sorbung	bùcám	bùcám	hungry	hungry	be v.	1.1.3	BodyParts.082	0		
-524144	2030	Sorbung	kʰòop	kʰòop	full; satiated	full; satiated	be v.	1.1.3.2	BodyParts.084	0		
-524145	2030	Sorbung	məcamcʉ́ʉ mə◦tʰúur	məcamcʉ́ʉ mətʰúur	spit	spit	v.	1.8.3	BodyParts.087	0		m,m,4229
-524146	2030	Sorbung	məcamcʉ́ʉ məsàk	məcamcʉ́ʉ məsàk	spit	spit	v.	1.8.3	BodyParts.088	0		
-524147	2030	Sorbung	məlit	məlit	vomit	vomit	v.	1.8.3.2	BodyParts.090	0		5697
-524148	2030	Sorbung	mùam	mùam	hold in mouth	hold in mouth	v.	1.3.4.4	BodyParts.091	0		3451
-524149	2030	Sorbung	ʔàaŋ	ʔàaŋ	gape; open mouth	gape; open mouth	v.	1.3.1	BodyParts.092	0		4497
-524150	2030	Sorbung	məhàm	məhàm	yawn	yawn	v.	1.3.1.3	BodyParts.093	0		1715
-524151	2030	Sorbung	məlée	məlée	tongue	tongue		1.3.3	BodyParts.094	0		621
-524152	2030	Sorbung	cóŋ	cóŋ	speak	speak	v.	8.5.10.1	BodyParts.095	0		
-524153	2030	Sorbung	ʔəkʰúan, ʔkʰúan	ʔəkʰúan, ʔkʰúan	voice	voice		8.5.5	BodyParts.096	0		
-524154	2030	Sorbung	cóŋ	cóŋ	words; speech	words; speech		8.5.10.2	BodyParts.098	0		
-524155	2030	Sorbung	cóŋʔàak	cóŋʔàak	stutter; stammer	stutter; stammer		8.5.4.5	BodyParts.099	0		
-524156	2030	Sorbung	coŋʃúuk	coŋʃúuk	mute; dumb	mute; dumb		1.5.3.2	BodyParts.100	0		
-524157	2030	Sorbung	məléek	məléek	lick	lick	v.	1.3.3.1	BodyParts.101	0		629
-524158	2030	Sorbung	mòr	mòr	lip	lip		1.3.2	BodyParts.102	0		467
-524159	2030	Sorbung	mòr	mòr	beak; bill (of bird)	beak; bill (of bird)		1.3.1.2	BodyParts.105	0		
-524160	2030	Sorbung	mənʉ́ʉ	mənʉ́ʉ	smile	smile	v.	1.8.8.1	BodyParts.106	0		1105
-524161	2030	Sorbung	mə-júup	mə-júup	kiss	kiss	v.	1.3.2.2	BodyParts.107	0		p,4621
-524162	2030	Sorbung	haa	haa	tooth	tooth		1.3.4	BodyParts.108	0		
-524163	2030	Sorbung	ha-bʉʉ	ha-bʉʉ	molar	molar		1.3.4.2	BodyParts.110	0		
-524164	2030	Sorbung	ʔóo	ʔóo	bite	bite	v.	1.3.4.4	BodyParts.114	0		
-524165	2030	Sorbung	ʔóo	ʔóo	chew	chew	v.	1.3.4	BodyParts.115	0		
-524166	2030	Sorbung	mai	mai	cheek	cheek		1.2.5.2	BodyParts.116	0		
-524167	2030	Sorbung	mai◦rúu	mai◦rúu	cheekbone; bone, malar	cheekbone; bone, malar		1.2.5.2	BodyParts.117	0		m,232
-524168	2030	Sorbung	mə-kʰáa	mə-kʰáa	chin; jaw	chin; jaw		1.2.5.3	BodyParts.118	0		
-524169	2030	Sorbung	mə-kʰáa-ruu	mə-kʰáa-ruu	jawbone; mandible; bone, jaw	jawbone; mandible; bone, jaw		1.2.5.2	BodyParts.119	0		m,m,232
-524170	2030	Sorbung	kəráak	kəráak	throat	throat		1.3.5	BodyParts.122	0		
-524171	2030	Sorbung	riiŋ	riiŋ	neck	neck		1.4.2	BodyParts.123	0		479
-524172	2030	Sorbung	kəráak	kəráak	Adam's apple; larynx (throat)	Adam's apple; larynx (throat)		1.3.5	BodyParts.127	0		
-524173	2030	Sorbung	kəráak	kəráak	windpipe; trachea	windpipe; trachea		1.3.5.2	BodyParts.128	0		
-524174	2030	Sorbung	məjʉ́ʉ	məjʉ́ʉ	swallow	swallow	v.	1.3.5.6	BodyParts.130	0		
-524175	2030	Sorbung	mətʰín	mətʰín	chest (=liver)	chest (=liver)		1.4.4.3	BodyParts.132	0		1390
-524176	2030	Sorbung	wándà ʔərúu	wándà ʔərúu	rib cage	rib cage		1.4.4.3	BodyParts.133	0		
-524177	2030	Sorbung	ləkʰàa	ləkʰàa	shoulder	shoulder		1.4.3	BodyParts.137	0		
-524178	2030	Sorbung	cúup	cúup	breast	breast		1.4.4.3	BodyParts.141	0		5541
-524179	2030	Sorbung	cùbráa	cùbráa	nipple	nipple			BodyParts.142	0		
-524180	2030	Sorbung	cúup	cúup	udder (of cow, goat)	udder (of cow, goat)			BodyParts.143	0		
-524181	2030	Sorbung	cùp◦cʉʉ	cùpcʉʉ	milk	milk			BodyParts.144	0		5541,m
-524182	2030	Sorbung	mə-júp	mə-júp	suck	suck	v.	1.3.2.1	BodyParts.145	0		p,4621
-524183	2030	Sorbung	ʔíin	ʔíin	nurse; suckle (=drink)	nurse; suckle (=drink)	v.	4.2.1.5	BodyParts.146	0		1705
-524184	2030	Sorbung	caŋ◦kʰoom	caŋkʰoom	milk	milk			BodyParts.148	0		
-524185	2030	Sorbung	cùup-ʔíinməkài	cùup-ʔíinməkài	wean	wean			BodyParts.149	0		
-524186	2030	Sorbung	kòoŋ	kòoŋ	back	back		1.4.8	BodyParts.150	0		
-524187	2030	Sorbung	kòoŋcat	kòoŋcat	back, lower	back, lower		1.4.8	BodyParts.152	0		
-524188	2030	Sorbung	kòoŋ◦rúu	kòoŋ◦rúu	spine; backbone	spine; backbone		1.4.8.2	BodyParts.153	0		1,232
-524189	2030	Sorbung	ʔəlíglák	ʔəlíglák	spinal cord (=marrow)	spinal cord (=marrow)		1.4.8.2	BodyParts.154	0		
-524190	2030	Sorbung	kòoŋkʰùu	kòoŋkʰùu	hunchback	hunchback		1.4.8.3	BodyParts.155	0		
-524191	2030	Sorbung	wan	wan	belly; abdomen (external bulge)	belly; abdomen (external bulge)		1.4.7	BodyParts.156	0		
-524192	2030	Sorbung	p(ə)lái	p(ə)lái	navel	navel		1.9.4	BodyParts.157	0		
-524193	2030	Sorbung	ʔəkái, ʔkái	ʔəkái, ʔkái	hips	hips		1.4.9.2	BodyParts.160	0		
-524194	2030	Sorbung	kèemətóo, kèemədóo	kèemətóo, kèemədóo	crotch; fork of legs	crotch; fork of legs		1.4.9.1	BodyParts.163	0		
-524195	2030	Sorbung	ʔəkái	ʔəkái	buttocks	buttocks		1.4.10	BodyParts.165	0		
-524196	2030	Sorbung	ʔəkáiruu	ʔəkáiruu	tailbone; coccyx	tailbone; coccyx		1.6.3.3	BodyParts.166	0		
-524197	2030	Sorbung	ʔəmóo	ʔəmóo	tail (of animal)	tail (of animal)		1.4.10.1	BodyParts.167	0		
-524198	2030	Sorbung	ʔəráan	ʔəráan	stature	stature		9.6.2	BodyParts.170	0		
-524199	2030	Sorbung	kʉ́t	kʉ́t	arm; hand	arm; hand		1.5.1.2	BodyParts.171	0		712
-524200	2030	Sorbung	cùbláa	cùbláa	underarm; armpit	underarm; armpit		1.5.1.2.3	BodyParts.172	0		
-524201	2030	Sorbung	paambúm	paambúm	arm, upper	arm, upper		1.5.1.2	BodyParts.174	0		
-524202	2030	Sorbung	kʉ́t	kʉ́t	hand	hand		1.5.1.1	BodyParts.181	0		712
-524203	2030	Sorbung	kʉ̀d◦məjáa	kʉ̀dməjáa	palm	palm		1.5.5	BodyParts.182	0		m,6217
-524204	2030	Sorbung	ʔən-cáaŋ-làm	ʔən-cáaŋ-làm	right hand	right hand		1.5.3.2	BodyParts.185	0		
-524205	2030	Sorbung	təm-bue-làm	təm-bue-làm	left hand	left hand		1.5.3.2	BodyParts.186	0		
-524206	2030	Sorbung	ʔə◦ŋà◦míi	ʔəŋàmíi	fin; scale of fish	fin; scale of fish		1.5.1.3.1	BodyParts.187	0		p,1455,m
-524207	2030	Sorbung	pʰəláa, pʰláa	pʰəláa, pʰláa	wing (of bird)	wing (of bird)		1.5.1.3	BodyParts.188	0		
-524208	2030	Sorbung	kèe	kèe	leg	leg		1.5.7	BodyParts.190	0		338
-524209	2030	Sorbung	mə-tóo	mə-tóo	thigh	thigh		1.5.7.1	BodyParts.191	0		
-524210	2030	Sorbung	mə◦tóo◦ruu	mə◦tóo◦ruu	thigh bone; femur	thigh bone; femur		1.5.7.1	BodyParts.192	0		m,m,232
-524211	2030	Sorbung	ʔə◦kʰúk, ʔkʰúk	ʔə◦kʰúk, ʔkʰúk	knee	knee		1.5.8.4	BodyParts.194	0		p,1251,1251
-524212	2030	Sorbung	kʰúk	kʰúk	knee cap; patella	knee cap; patella		1.5.8.4	BodyParts.195	0		1251
-524213	2030	Sorbung	kèe-mə-rái	kèe-mə-rái	calf; shin	calf; shin		1.5.7	BodyParts.199	0		
-524214	2030	Sorbung	kè◦míit	kèmíit	ankle	ankle		1.5.8.2	BodyParts.200	0		m,682
-524215	2030	Sorbung	kèe	kèe	foot	foot		1.5.2	BodyParts.202	0		338
-524216	2030	Sorbung	kèeməjáa	kèeməjáa	sole	sole		1.5.5	BodyParts.206	0		
-524217	2030	Sorbung	kèlúuŋ	kèlúuŋ	footprint	footprint		1.5.2.5	BodyParts.207	0		
-524218	2030	Sorbung	kèkíuk	kèkíuk	crippled; lame; handicapped (whether or not legs are involved)	crippled; lame; handicapped (whether or not legs are involved)		4.2.7	BodyParts.210	0		
-524219	2030	Sorbung	jaw tʰóo mài	jaw tʰóo mài	limp	limp	v.	1.5.12	BodyParts.211	0		
-524220	2030	Sorbung	-məjúumràa	-məjúumràa	digit	digit		1.5.6	BodyParts.212	0		
-524221	2030	Sorbung	kʉdməjúumràa, kʉtməjúumràa	kʉdməjúumràa, kʉtməjúumràa	finger	finger		1.5.6	BodyParts.213	0		
-524222	2030	Sorbung	kʉ̀sáa	kʉ̀sáa	finger, little	finger, little		1.5.6	BodyParts.214	0		
-524223	2030	Sorbung	kʉ̀dbʉ́ʉ	kʉ̀dbʉ́ʉ	thumb	thumb		1.5.6.1	BodyParts.215	0		
-524224	2030	Sorbung	kèeməjúumràa	kèeməjúumràa	toe	toe		1.5.6	BodyParts.217	0		
-524225	2030	Sorbung	kèbʉ́ʉ	kèbʉ́ʉ	toe, big	toe, big		1.5.6	BodyParts.218	0		
-524226	2030	Sorbung	kèsáa	kèsáa	toe, little	toe, little		1.5.6	BodyParts.219	0		
-524227	2030	Sorbung	mətín	mətín	nail	nail		1.5.10	BodyParts.221	0		512
-524228	2030	Sorbung	kʉ̀dmətín	kʉ̀dmətín	fingernail	fingernail		1.5.10.1	BodyParts.222	0		
-524229	2030	Sorbung	kèemətín	kèemətín	toenail	toenail		1.5.10.2	BodyParts.223	0		
-524230	2030	Sorbung	mətín	mətín	claw (of animal)	claw (of animal)		1.5.10.4	BodyParts.224	0		512
-524231	2030	Sorbung	mətín	mətín	talon (of bird)	talon (of bird)		1.5.10.4	BodyParts.225	0		512
-524232	2030	Sorbung	ʔə◦míi	ʔəmíi	hair (general)	hair (general)		1.2.3	BodyParts.227	0		p,363
-524233	2030	Sorbung	sàam	sàam	hair of head	hair of head		1.2.3	BodyParts.228	0		366
-524234	2030	Sorbung	mòr◦míi	mòrmíi	hair, facial	hair, facial		1.2.3	BodyParts.230	0		m,363
-524235	2030	Sorbung	mòrmíi	mòrmíi	beard	beard		1.2.5.5	BodyParts.231	0		
-524236	2030	Sorbung	mòrmíi	mòrmíi	goatee	goatee		1.2.5.5	BodyParts.232	0		
-524237	2030	Sorbung	mòrmíi	mòrmíi	moustache	moustache		1.2.5.5	BodyParts.233	0		
-524238	2030	Sorbung	ʔə◦míi	ʔəmíi	hair, body	hair, body		1.2.3	BodyParts.234	0		m,363
-524239	2030	Sorbung	cù◦bláa◦míi	cùbláamíi	hair, underarm	hair, underarm		1.2.3	BodyParts.235	0		m,m,363
-524240	2030	Sorbung	kè◦míi	kèmíi	hair, leg	hair, leg		1.2.3	BodyParts.237	0		338,363
-524241	2030	Sorbung	ʔəmíi	ʔəmíi	fur (of animal)	fur (of animal)		1.6.1	BodyParts.238	0		
-524242	2030	Sorbung	ʔə◦míi	ʔəmíi	feather (of bird)	feather (of bird)		1.6.1.1	BodyParts.239	0		p,363
-524243	2030	Sorbung	mòrmíi	mòrmíi	whiskers (of animal)	whiskers (of animal)		1.2.5.5	BodyParts.241	0		
-524244	2030	Sorbung	ʔə-hʉ́n	ʔə-hʉ́n	skin	skin		1.6.5	BodyParts.242	0		
-524245	2030	Sorbung	məkʰáncʉʉ	məkʰáncʉʉ	sweat; perspiration	sweat; perspiration		1.8.1	BodyParts.243	0		
-524246	2030	Sorbung	maihìŋ	maihìŋ	blemish on skin	blemish on skin		1.6.5	BodyParts.245	0		
-524247	2030	Sorbung	maihìŋ	maihìŋ	freckle	freckle		1.6.5.3	BodyParts.246	0		
-524248	2030	Sorbung	sə̀màamíi	sə̀màamíi	mole; blemish	mole; blemish		2.2.7	BodyParts.248	0		
-524249	2030	Sorbung	ʔəhʉ́nnáa	ʔəhʉ́nnáa	wart (= skin disease)	wart (= skin disease)		1.6.5.3	BodyParts.249	0		
-524250	2030	Sorbung	tàak	tàak	scar	scar		1.6.5.3	BodyParts.252	0		
-524251	2030	Sorbung	mətʰàk	mətʰàk	itch; itchy, be	itch; itchy, be	v.	1.6.5.5	BodyParts.255	0		
-524252	2030	Sorbung	kʰuat	kʰuat	scratch	scratch		1.6.5.5	BodyParts.256	0		4457
-524253	2030	Sorbung	ʔə-kaaŋ	ʔə-kaaŋ	scab (hardened rice at bottom of pot)	scab (hardened rice at bottom of pot)		1.6.5.3	BodyParts.257	0		
-524254	2030	Sorbung	ʔə◦ŋà◦míi	ʔəŋàmíi	scales (of fish)	scales (of fish)		1.6.5.2	BodyParts.258	0		p,1455,m
-524255	2030	Sorbung	ʔəmèkhʉ́n	ʔəmèkhʉ́n	hide; leather (dried animal skin)	hide; leather (dried animal skin)		1.6.5.1	BodyParts.259	0		
-524256	2030	Sorbung	ʔətʰáu	ʔətʰáu	fat	fat		1.6.4	BodyParts.260	0		
-524257	2030	Sorbung	tʰàu	tʰàu	oil; grease (for cooking)	oil; grease (for cooking)		1.6.4.1	BodyParts.262	0		
-524258	2030	Sorbung	ʔə-rúu	ʔə-rúu	bone	bone		1.6.3	BodyParts.263	0		p,232
-524259	2030	Sorbung	ʔəruráaŋ	ʔəruráaŋ	skeleton	skeleton		1.6.3.1	BodyParts.264	0		
-524260	2030	Sorbung	kòoŋ◦rúu	kòoŋ◦rúu	vertebrae (of spine)	vertebrae (of spine)		1.6.3.3	BodyParts.265	0		1,232
-524261	2030	Sorbung	ʔəlíglák	ʔəlíglák	sinew; tendon (muscle to bone)	sinew; tendon (muscle to bone)		1.6.6.1	BodyParts.267	0		
-524262	2030	Sorbung	ʔəlíglák	ʔəlíglák	ligament (bone to bone)	ligament (bone to bone)		1.6.3	BodyParts.268	0		
-524263	2030	Sorbung	tʰìi	tʰìi	blood	blood		1.6.2	BodyParts.269	0		230
-524264	2030	Sorbung	mə-ŋee-tʰáa-rʉʉ	mə-ŋee-tʰáa-rʉʉ	blood vessel; vein; artery	blood vessel; vein; artery		1.6.2.1	BodyParts.270	0		
-524265	2030	Sorbung	tʰìʃúuk	tʰìʃúuk	bleed	bleed	v.	1.6.2	BodyParts.271	0		
-524266	2030	Sorbung	ʔə-ták	ʔə-ták	muscle (=flesh)	muscle (=flesh)		1.6.6.2	BodyParts.272	0		p,8
-524267	2030	Sorbung	mətètnà	mətètnà	joint	joint		1.5.8	BodyParts.274	0		
-524268	2030	Sorbung	ʔəlíglák	ʔəlíglák	marrow	marrow		1.6.3.5	BodyParts.279	0		
-524269	2030	Sorbung	ʔəpʰʉ̀t	ʔəpʰʉ̀t	breath	breath		1.1.2.2	BodyParts.281	0		
-524270	2030	Sorbung	ʔəpʰʉ̀t-lée	ʔəpʰʉ̀t-lée	breathe	breathe	v.	1.1.2.2	BodyParts.282	0		
-524271	2030	Sorbung	sèm	sèm	blow (mouth)	blow (mouth)		1.3.1.4	BodyParts.284	0		4579
-524272	2030	Sorbung	mə-lúŋ	mə-lúŋ	heart	heart		1.7.1	BodyParts.287	0		
-524273	2030	Sorbung	ʔəpʰʉ̀t	ʔəpʰʉ̀t	heartbeat (=breath)	heartbeat (=breath)		1.7.1.1	BodyParts.288	0		
-524274	2030	Sorbung	mətʰín	mətʰín	liver	liver		1.7.3	BodyParts.291	0		1390
-524275	2030	Sorbung	məʃìŋkʰaa	məʃìŋkʰaa	bile	bile		1.7.3.1	BodyParts.292	0		
-524276	2030	Sorbung	mə-|kee	mə-kee	kidney	kidney		1.7.5	BodyParts.294	0		201
-524277	2030	Sorbung	mə-cée-cʉ̀ʉ, mə-cée-cʉʉ	mə-cée-cʉ̀ʉ, mə-cée-cʉʉ	urine	urine		1.8.4	BodyParts.296	0		
-524278	2030	Sorbung	məcée-len	məcée-len	urinate	urinate	v.	1.5.3.2	BodyParts.297	0		
-524279	2030	Sorbung	ʔə◦cúap	ʔəcúap	spleen	spleen		1.7.4	BodyParts.298	0		
-524280	2030	Sorbung	ʔə◦cúap woroo	ʔəcúap woroo	swollen spleen (illness)	swollen spleen (illness)		1.1.5.2	BodyParts.299	0		
-524281	2030	Sorbung	wan	wan	stomach	stomach		1.7.6	BodyParts.301	0		
-524282	2030	Sorbung	ʔəríi	ʔəríi	intestines; bowels	intestines; bowels		1.7.7	BodyParts.302	0		2127
-524283	2030	Sorbung	ʔəríi◦lookpaa	ʔəríilookpaa	large intestine	large intestine		1.7.7	BodyParts.303	0		2127,m
-524284	2030	Sorbung	ʔəríi◦nèepaa	ʔəríinèepaa	small intestine	small intestine		9.7.2	BodyParts.304	0		2127,m
-524285	2030	Sorbung	ʔə-kái	ʔə-kái	anus; rectum	anus; rectum		1.4.10.2	BodyParts.306	0		
-524286	2030	Sorbung	ʔèk	ʔèk	feces; shit	feces; shit		1.8.5	BodyParts.307	0		576
-524287	2030	Sorbung	ʔèklen, ʔèglen	ʔèklen, ʔèglen	defecate	defecate	v.	1.8.5.4	BodyParts.309	0		
-524288	2030	Sorbung	ʔətéŋná	ʔətéŋná	copulate; have intercourse	copulate; have intercourse	v.	1.9.1.1	BodyParts.311	0		
-524289	2030	Sorbung	jaaŋ	jaaŋ	penis	penis			BodyParts.312	0		
-524290	2030	Sorbung	jaŋhʉ́n	jaŋhʉ́n	foreskin	foreskin			BodyParts.314	0		
-524291	2030	Sorbung	jàŋráa	jàŋráa	testicle	testicle			BodyParts.316	0		
-524292	2030	Sorbung	jàŋ◦mìi	jàŋmìi	hair, male pubic	hair, male pubic		1.2.3	BodyParts.317	0		m,363
-524293	2030	Sorbung	jaŋcʉ̀ʉ	jaŋcʉ̀ʉ	semen; sperm	semen; sperm			BodyParts.318	0		
-524294	2030	Sorbung	ʃir	ʃir	vagina	vagina			BodyParts.321	0		
-524295	2030	Sorbung	ʃir◦mìi	ʃirmìi	hair, female pubic	hair, female pubic		1.2.3	BodyParts.325	0		m,363
-524296	2030	Sorbung	ʔə-laam	ʔə-laam	placenta; afterbirth	placenta; afterbirth			BodyParts.331	0		
-524297	2030	Sorbung	p(ə)lái	p(ə)lái	umbilical cord	umbilical cord			BodyParts.332	0		
-524298	2030	Sorbung	mə-rái	mə-rái	pregnant	pregnant	be v.	1.9.6.1	BodyParts.334	0		
-524299	2030	Sorbung	mədée	mədée	birth, give; bear	birth, give; bear		1.1.2	BodyParts.335	0		
-524300	2030	Sorbung	mədée	mədée	born	born	be v.	1.1.2	BodyParts.336	0		
-524301	2030	Sorbung	ʔacʉ̀ʉ	ʔacʉ̀ʉ	chicken egg	chicken egg		2.1.10	BodyParts.337	0		
-524302	2030	Sorbung	məkʰáa	məkʰáa	cough	cough		1.8.3.3	BodyParts.338	0		
-524303	2030	Sorbung	səkái	səkái	hiccup	hiccup		1.8.3.5	BodyParts.339	0		
-524304	2030	Sorbung	hátʰìi	hátʰìi	sneeze	sneeze		1.8.2.1	BodyParts.340	0		
-524305	2030	Sorbung	ŋə◦náar	ŋənáar	snore	snore		1.8.2.2	BodyParts.341	0		m,1784
-524306	2030	Sorbung	məhʉ́ʉ	məhʉ́ʉ	whistle	whistle		8.5.5	BodyParts.342	0		
-524307	2030	Sorbung	məcipát	məcipát	fart	fart		1.8.5.2	BodyParts.344	0		
-524308	2030	Sorbung	mə-|nʉ́ʉ	mə-nʉ́ʉ	laugh	laugh		1.8.8.1	BodyParts.346	0		1105
-524309	2030	Sorbung	sái	sái	tremble; shiver; shudder	tremble; shiver; shudder		1.6.6.2.1	BodyParts.347	0		
-524310	2030	Sorbung	jáak	jáak	ashamed; shy	ashamed; shy		8.3.3.8.2	BodyParts.349	0		
-524311	2030	Sorbung	náa	náa	sick; ill, be; hurt	sick; ill, be; hurt	be v.	1.1.5.1	BodyParts.350	0		
-524312	2030	Sorbung	wór	wór	swell; swollen, be	swell; swollen, be		1.1.5.2	BodyParts.352	0		
-524313	2030	Sorbung	ʔənái	ʔənái	pus	pus		1.8.6.1	BodyParts.353	0		
-524314	2030	Sorbung	kʉdməjumráa kʰàt	kʉdməjumráa kʰàt	finger width, one	finger width, one		1.5.6	BodyParts.356	0		m,2301
-524315	2030	Sorbung	kʉ̀t◦kʰóom	kʉ̀t◦kʰóom	hand span	hand span		1.5.9.4	BodyParts.357	0		712,m
-524316	2030	Sorbung	laam-kʰàt	laam-kʰàt	cord, one; fathom, one	cord, one; fathom, one		9.9	BodyParts.359	0		1310
-524317	2030	Sorbung	laam-təŋ-kʰai	laam-təŋ-kʰai	fathom, half	fathom, half		9.8	BodyParts.360	0		
-524318	2030	Sorbung	kap kʰàt	kap kʰàt	length from thumb to forefinger	length from thumb to forefinger		10.1.1	BodyParts.362	0		
-524319	2030	Sorbung	níiŋ	níiŋ	mind; locus of thought	mind; locus of thought		1.10	BodyParts.363	0		
-524320	2030	Sorbung	níiŋ	níiŋ	heart; locus of emotions	heart; locus of emotions		1.7.1	BodyParts.365	0		
-524321	2030	Sorbung	məlúuŋ	məlúuŋ	heart; locus of anger	heart; locus of anger		1.7.1	BodyParts.366	0		
-524322	2030	Sorbung	tʰèe	tʰèe	bow	bow		5.15	Implements.001	0		
-524323	2030	Sorbung	tʰèe	tʰèe	arrow	arrow		5.15	Implements.002	0		
-524324	2030	Sorbung	sàiróoŋ	sàiróoŋ	slingshot	slingshot		5.14	Implements.003	0		
-524325	2030	Sorbung	ròo	ròo	axe	axe		5.11.5.3	Implements.004	0		
-524326	2030	Sorbung	cèm	cèm	knife	knife		5.5	Implements.005	0		
-524327	2030	Sorbung	bélcàa	bélcàa	spade	spade		5.3	Implements.006	0		
-524328	2030	Sorbung	ʔəʃím	ʔəʃím	needle	needle		5.1	Implements.007	0		
-524329	2030	Sorbung	tənʃuk	tənʃuk	pestle	pestle		5.5	Implements.010	0		
-524330	2030	Sorbung	puankʰóoŋnaa	puankʰóoŋnaa	loom	loom		5.1	Implements.011	0		
-524331	2030	Sorbung	tətir	tətir	crossbar	crossbar		5.11.9		0		
-524332	2030	Sorbung	ləkium	ləkium	bar	bar		5.11.9		0		
-524333	2030	Sorbung	pʰáaglàaŋ	pʰáaglàaŋ	wall	wall		5.11.9.3	Implements.019	0		
-524334	2030	Sorbung	iiŋkʰaa	iiŋkʰaa	door	door		5.11.9.3	Implements.020	0		
-524335	2030	Sorbung	məhʉtʰoon	məhʉtʰoon	window	window		5.11.9.3	Implements.021	0		
-524336	2030	Sorbung	ʔəsóo	ʔəsóo	spear	spear		5.14	Implements.022	0		
-524337	2030	Sorbung	tʰə◦rìi	tʰə◦rìi	boundary	boundary		9.2.7	Implements.023	0		m,2616
-524338	2030	Sorbung	lam-bʉ̀ʉ	lam-bʉ̀ʉ	road; path	road; path		9.10.1	Implements.024	0		1017,m
-524339	2030	Sorbung	ʔə◦láak	ʔəláak	ladder	ladder		5.4	Implements.026	0		p,5780
-524340	2030	Sorbung	rʉʉ	rʉʉ	rope	rope		5.11.4	Implements.027	0		
-524341	2030	Sorbung	púan	púan	blanket; cloth	blanket; cloth		5.11.9.4	Implements.029	0		
-524342	2030	Sorbung	təŋguáp	təŋguáp	hat; headdress	hat; headdress		5.11.8.2.1.1	Implements.030	0		
-524343	2030	Sorbung	təgók	təgók	pot	pot		5.5	Implements.034	0		
-524344	2030	Sorbung	téŋguàt	téŋguàt	bowl	bowl		5.1	Implements.036	0		
-524345	2030	Sorbung	cəkáap	cəkáap	tongs	tongs		5.4	Implements.037	0		
-524346	2030	Sorbung	məʃíi	məʃíi	necklace	necklace		5.11.8.3	Implements.039	0		
-524347	2030	Sorbung	ʔənáatʰíiŋ	ʔənáatʰíiŋ	earring	earring		5.11.8.3	Implements.041	0		
-524348	2030	Sorbung	lèe	lèe	medicine	medicine		5.4	Implements.042	0		
-524349	2030	Sorbung	laa	laa	song	song		5.1	Implements.044	0		5446
-524350	2030	Sorbung	ʔə◦máan	ʔəmáan	price	price		5.9	Implements.045	0		p,4759
-524351	2030	Sorbung	rée	rée	war	war		5.15	Implements.046	0		
-524352	2030	Sorbung	ʔəkíi	ʔəkíi	corner	corner		5.11.9.3	Implements.047	0		
-524353	2030	Sorbung	ókətʰui	ókətʰui	world; cosmos	world; cosmos		9.10.2	Nature.001	0		
-524354	2030	Sorbung	húar	húar	bright	bright		7.1.11.1	Nature.003	0		
-524355	2030	Sorbung	ʔənim	ʔənim	shadow	shadow		3.2.10	Nature.005	0		
-524356	2030	Sorbung	jíiŋ	jíiŋ	dark	dark		9.4	Nature.007	0		
-524357	2030	Sorbung	ʔəwaarám	ʔəwaarám	sky	sky		3.2.2	Nature.008	0		
-524358	2030	Sorbung	ʔə◦níi	ʔəníi	sun	sun		3.2.10	Nature.009	0		p,85
-524359	2030	Sorbung	ʔəníi-ʃuuk	ʔəníi-ʃuuk	sunrise	sunrise		3.2.10	Nature.011	0		
-524360	2030	Sorbung	ʔəʃʉn	ʔəʃʉn	day	day		1.5.3.2	Nature.012	0		
-524361	2030	Sorbung	ʔəkʰuanlám	ʔəkʰuanlám	morning	morning		9.1.4	Nature.014	0		
-524362	2030	Sorbung	ʔəʃʉn	ʔəʃʉn	noon	noon		9.1.4	Nature.015	0		
-524363	2030	Sorbung	kʰəleelám	kʰəleelám	evening	evening		9.1.4	Nature.016	0		
-524364	2030	Sorbung	ʔəníi-lʉ́t	ʔəníi-lʉ́t	sunset	sunset		3.2.10	Nature.017	0		
-524365	2030	Sorbung	ʔəján	ʔəján	night	night		9.1.4	Nature.019	0		
-524366	2030	Sorbung	kuum	kuum	year	year		9.1.2	Nature.020	0		
-524367	2030	Sorbung	ʔəkʰáa	ʔəkʰáa	month	month		9.1.2	Nature.021	0		
-524368	2030	Sorbung	ʔəjíiŋ	ʔəjíiŋ	darkness	darkness		9.4	Nature.022	0		
-524369	2030	Sorbung	ʔə-kʰáa	ʔə-kʰáa	moon	moon		3.2.2	Nature.024	0		
-524370	2030	Sorbung	ʔə◦ʃii	ʔəʃii	star	star		3.2.2	Nature.036	0		2300,1019
-524371	2030	Sorbung	kʰii	kʰii	wind	wind		3.2.1	Nature.043	0		
-524372	2030	Sorbung	kʰàmbʉ́ʉ	kʰàmbʉ́ʉ	cloud	cloud		3.2.1	Nature.048	0		
-524373	2030	Sorbung	kə̀ʃuà	kə̀ʃuà	rain	rain		3.2.1	Nature.053	0		
-524374	2030	Sorbung	ʔə-dái-cʉʉ	ʔə-dái-cʉʉ	dew	dew			Nature.055	0		m,6170,m
-524375	2030	Sorbung	ʔəhúr	ʔəhúr	frost	frost		3.2.1	Nature.056	0		
-524376	2030	Sorbung	ʔəhúr	ʔəhúr	snow	snow		3.2.1	Nature.057	0		
-524377	2030	Sorbung	ʔəriáràa	ʔəriáràa	hail; sleet	hail; sleet		3.2.1	Nature.058	0		
-524378	2030	Sorbung	kʰʉpʉ́ kʰʉncaaŋ	kʰʉpʉ́ kʰʉncaaŋ	storm	storm		3.2.1	Nature.059	0		
-524379	2030	Sorbung	kʰumléeláap	kʰumléeláap	lightning	lightning		3.2.1	Nature.060	0		
-524380	2030	Sorbung	məcék kàa	məcék kàa	thunder	thunder		3.2.1	Nature.061	0		
-524381	2030	Sorbung	móo	móo	fire	fire		3.2.12.2	Nature.064	0		
-524382	2030	Sorbung	mokʰʉ́t	mokʰʉ́t	smoke	smoke		3.2.12.2	Nature.068	0		
-524383	2030	Sorbung	moʔék	moʔék	ember; hot coal	ember; hot coal		3.2.12.2	Nature.069	0		
-524384	2030	Sorbung	məhée	məhée	charcoal	charcoal		3.2.4	Nature.071	0		
-524385	2030	Sorbung	moo-còk	moo-còk	burn; on fire, be	burn; on fire, be		3.2.12.1	Nature.072	0		
-524386	2030	Sorbung	mò-sèm	mò-sèm	blow fire	blow fire		1.3.1.4	Nature.075	0		
-524387	2030	Sorbung	lèe-hèe	lèe-hèe	burn off fields; slash and burn	burn off fields; slash and burn		3.2.12.1	Nature.079	0		
-524388	2030	Sorbung	məmìt	məmìt	extinguish; put out fire	extinguish; put out fire		3.2.12.1	Nature.082	0		
-524389	2030	Sorbung	cʉ́ʉ	cʉ́ʉ	water	water		3.2.3	Nature.083	0		
-524390	2030	Sorbung	pukʰrìi	pukʰrìi	pond; pool	pond; pool		3.2.3	Nature.093	0		
-524391	2030	Sorbung	cəkòo, cəgòo	cəkòo, cəgòo	river	river		3.2.3	Nature.094	0		
-524392	2030	Sorbung	cə◦luáŋ	cəluáŋ	flow	flow	v.	6.6.1	Nature.095	0		m,5020
-524393	2030	Sorbung	cəlàm	cəlàm	spring	spring		6.7.9	Nature.101	0		
-524394	2030	Sorbung	ʔəhúr	ʔəhúr	ice	ice		3.2.3	Nature.103	0		
-524395	2030	Sorbung	cəlòk	cəlòk	flood	flood		3.2.3	Nature.108	0		
-524396	2030	Sorbung	cəkáaŋ	cəkáaŋ	drought	drought		3.2.3	Nature.109	0		
-524397	2030	Sorbung	ʔəloo	ʔəloo	earth; ground; dry land (vs. water)	earth; ground; dry land (vs. water)		3.2.11	Nature.110	0		
-524398	2030	Sorbung	ràmbʉʉ háaŋ	ràmbʉʉ háaŋ	earthquake	earthquake		3.2.6	Nature.111	0		
-524399	2030	Sorbung	ʔəʃìi	ʔəʃìi	sand	sand		3.2.11	Nature.113	0		
-524400	2030	Sorbung	lámpʰʉ	lámpʰʉ	clay	clay		3.2.11	Nature.114	0		
-524401	2030	Sorbung	lampʰʉ̀ təkòo, dəgòo	lampʰʉ̀ təkòo, dəgòo	pot, clay	pot, clay		5.5	Nature.115	0		
-524402	2030	Sorbung	ʔəhʉ́t	ʔəhʉ́t	dust; powder	dust; powder		3.2.11	Nature.117	0		
-524403	2030	Sorbung	cíiŋ-tòoŋ	cíiŋ-tòoŋ	mountain	mountain		3.2.5	Nature.123	0		m,6223
-524404	2030	Sorbung	cíiŋtòoŋ	cíiŋtòoŋ	hill	hill		3.2.5	Nature.126	0		
-524405	2030	Sorbung	təmbàak	təmbàak	valley (river valley)	valley (river valley)		3.2.5	Nature.132	0		
-524406	2030	Sorbung	lùuŋ	lùuŋ	stone	stone		3.2.9	Nature.135	0		
-524407	2030	Sorbung	ʔə-kʰuá	ʔə-kʰuá	hole	hole		3.2.7	Nature.138	0		
-524408	2030	Sorbung	luŋ-kʰua	luŋ-kʰua	cave; hole (in rock)	cave; hole (in rock)		3.2.7	Nature.139	0		
-524409	2030	Sorbung	mə-cìi	mə-cìi	salt	salt		3.2.4	Nature.143	0		
-524410	2030	Sorbung	tʰiár	tʰiár	iron	iron		3.2.4	Nature.150	0		2673
-524411	2030	Sorbung	ʔədáahàaŋ	ʔədáahàaŋ	rust	rust		3.2.4	Nature.151	0		
-524412	2030	Sorbung	sənáa	sənáa	gold	gold		3.2.4	Nature.152	0		
-524413	2030	Sorbung	nuŋáajòo	nuŋáajòo	(I am) happy (=fortunate, prosperous).	(I am) happy (=fortunate, prosperous).			NomRel.003	0		
-524414	2030	Sorbung	kʰáat	kʰáat	one	one		9.9	Numbers.001	0		2301
-524415	2030	Sorbung	kə-niiŋ	kə-niiŋ	two	two		9.9	Numbers.002	0		
-524416	2030	Sorbung	ʔən-tʰúum	ʔən-tʰúum	three	three		9.9	Numbers.003	0		
-524417	2030	Sorbung	mə-líi	mə-líi	four	four		9.9	Numbers.004	0		
-524418	2030	Sorbung	rə-ŋáa	rə-ŋáa	five	five		9.9	Numbers.005	0		
-524419	2030	Sorbung	kə-rúuk	kə-rúuk	six	six		9.9	Numbers.006	0		
-524420	2030	Sorbung	sə-ríi	sə-ríi	seven	seven		9.9	Numbers.007	0		
-524421	2030	Sorbung	ʔərét	ʔərét	eight	eight		9.9	Numbers.008	0		
-524422	2030	Sorbung	ʔə-kúa	ʔə-kúa	nine	nine		9.9	Numbers.009	0		
-524423	2030	Sorbung	som	som	ten	ten		9.9	Numbers.010	0		
-524424	2030	Sorbung	som kʰáat	som kʰáat	eleven	eleven		9.9	Numbers.011	0		
-524425	2030	Sorbung	som kəníiŋ	som kəníiŋ	twelve	twelve		9.9	Numbers.012	0		
-524426	2030	Sorbung	som ʔəntʰúum	som ʔəntʰúum	thirteen	thirteen		9.9	Numbers.013	0		4678,m
-524427	2030	Sorbung	som məlíi	som məlíi	fourteen	fourteen		9.9	Numbers.014	0		4678,m
-524428	2030	Sorbung	som rəŋáa	som rəŋáa	fifteen	fifteen		9.9		0		4678,m
-524429	2030	Sorbung	som kərúuk	som kərúuk	sixteen	sixteen		9.9		0		4678,m
-524430	2030	Sorbung	som səríi	som səríi	seventeen	seventeen		9.9		0		4678,m
-524431	2030	Sorbung	som ʔərét	som ʔərét	eighteen	eighteen		9.9		0		4678,m
-524432	2030	Sorbung	som ʔəkúa	som ʔəkúa	nineteen	nineteen		9.9		0		4678,m
-524433	2030	Sorbung	semníi	semníi	twenty	twenty		9.9	Numbers.001	0		
-524434	2030	Sorbung	somtʰúum	somtʰúum	thirty	thirty		9.9	Numbers.002	0		
-524435	2030	Sorbung	sòŋŋáa	sòŋŋáa	fifty	fifty		9.9	Numbers.003	0		
-524436	2030	Sorbung	ʔəjaa kʰáat	ʔəjaa kʰáat	hundred	hundred		9.9	Numbers.004	0		
-524437	2030	Sorbung	lèeʃìŋ kʰáat	lèeʃìŋ kʰáat	thousand	thousand		9.9	Numbers.005	0		
-524438	2030	Sorbung	lèeʃìŋ som	lèeʃìŋ som	ten thousand	ten thousand		9.9	Numbers.006	0		
-524439	2030	Sorbung	moopaa	moopaa	first born	first born		9.9	People.001	0		
-524440	2030	Sorbung	kʰoopaa	kʰoopaa	second born	second born		9.9	People.002	0		
-524441	2030	Sorbung	teepáa	teepáa	third born	third born		9.9	People.003	0		
-524442	2030	Sorbung	miipáa	miipáa	fourth born	fourth born		9.9	People.004	0		
-524443	2030	Sorbung	tʰoombáa	tʰoombáa	fifth born	fifth born		9.9	People.005	0		
-524444	2030	Sorbung	joombáa	joombáa	sixth born	sixth born		9.9	People.006	0		
-524445	2030	Sorbung	loopáa	loopáa	seventh	seventh		9.9	People.007	0		
-524446	2030	Sorbung	mətʉnliaŋ	mətʉnliaŋ	eighth	eighth		9.9	People.008	0		
-524447	2030	Sorbung	moolét	moolét	ninth	ninth		9.9	People.009	0		
-524448	2030	Sorbung	paasàa	paasàa	man	man		1.9.6.1	People.010	0		
-524449	2030	Sorbung	moosáa	moosáa	woman	woman		1.9.3	People.011	0		
-524450	2030	Sorbung	ʔə-pùu	ʔə-pùu	grandfather, paternal	grandfather, paternal		4.7.1		0		
-524451	2030	Sorbung	ʔəm-búu	ʔəm-búu	grandfather, paternal (of ego)	grandfather, paternal (of ego)		4.7.1	People.012	0		
-524452	2030	Sorbung	ʔə-pii	ʔə-pii	paternal grandmother	paternal grandmother		4.7.1		0		
-524453	2030	Sorbung	ʔem-bíi	ʔem-bíi	grandmother, paternal (of ego)	grandmother, paternal (of ego)		4.7.1	People.013	0		
-524454	2030	Sorbung	ʔəm-búu	ʔəm-búu	grandfather, maternal (of ego)	grandfather, maternal (of ego)		4.7.1	People.014	0		
-524455	2030	Sorbung	ʔəm-bíi	ʔəm-bíi	grandmother, maternal (of ego)	grandmother, maternal (of ego)		4.7.1	People.015	0		
-524456	2030	Sorbung	ʔəmbaa	ʔəmbaa	father (of ego)	father (of ego)		4.7.1	People.016	0		
-524457	2030	Sorbung	ʔənnúu	ʔənnúu	mother (of ego)	mother (of ego)		4.7.1	People.017	0		
-524458	2030	Sorbung	pátáabàa	pátáabàa	uncle, elder paternal	uncle, elder paternal		4.7.1	People.018	0		
-524459	2030	Sorbung	nútáanù	nútáanù	aunt, wife of elder paternal uncle	aunt, wife of elder paternal uncle		4.7.1	People.019	0		
-524460	2030	Sorbung	ʔən-nìi	ʔən-nìi	aunt, elder paternal	aunt, elder paternal		4.7.1	People.020	0		
-524461	2030	Sorbung	pùu	pùu	uncle, husband of elder paternal aunt	uncle, husband of elder paternal aunt		4.7.1	People.021	0		
-524462	2030	Sorbung	pakùu	pakùu	uncle, younger paternal	uncle, younger paternal		4.7.1	People.022	0		
-524463	2030	Sorbung	núgənùu	núgənùu	aunt, wife of younger paternal uncle	aunt, wife of younger paternal uncle		4.7.1	People.023	0		
-524464	2030	Sorbung	ʔən-nìi	ʔən-nìi	aunt, younger paternal	aunt, younger paternal		4.7.1	People.024	0		
-524465	2030	Sorbung	pùu	pùu	uncle, husband of younger paternal aunt	uncle, husband of younger paternal aunt		4.7.1	People.025	0		
-524466	2030	Sorbung	pùu	pùu	uncle, maternal	uncle, maternal		4.7.1	People.026	0		
-524467	2030	Sorbung	pii	pii	aunt, wife of maternal uncle	aunt, wife of maternal uncle		4.7.1	People.027	0		
-524468	2030	Sorbung	nugənuu	nugənuu	aunt, maternal	aunt, maternal		4.7.1	People.028	0		
-524469	2030	Sorbung	pa-kùu	pa-kùu	uncle, husband of maternal aunt	uncle, husband of maternal aunt		4.7.1	People.029	0		
-524470	2030	Sorbung	ʔəm-búu	ʔəm-búu	father-in-law (of ego)	father-in-law (of ego)		10.1.1	People.030	0		
-524471	2030	Sorbung	ʔən-nìi	ʔən-nìi	mother-in-law (of ego)	mother-in-law (of ego)		10.1.1	People.031	0		
-524472	2030	Sorbung	moo	moo	brother of male, elder	brother of male, elder		1.5.3.2	People.032	0		
-524473	2030	Sorbung	tee	tee	sister of male, elder	sister of male, elder		4.7.2	People.033	0		
-524474	2030	Sorbung	ʔináupa	ʔináupa	brother of male, younger	brother of male, younger		1.5.3.2	People.034	0		
-524475	2030	Sorbung	ʔisaanù	ʔisaanù	sister of male, younger	sister of male, younger		4.7.2	People.035	0		
-524476	2030	Sorbung	moo	moo	brother of female, elder	brother of female, elder		1.5.3.2	People.036	0		
-524477	2030	Sorbung	tee	tee	sister of female, elder	sister of female, elder		4.7.2	People.037	0		
-524478	2030	Sorbung	ʔináupa	ʔináupa	brother of female, younger	brother of female, younger		1.5.3.2	People.038	0		
-524479	2030	Sorbung	ʔinàunù	ʔinàunù	sister of female, younger	sister of female, younger		4.7.2	People.039	0		
-524480	2030	Sorbung	bəsée	bəsée	husband	husband		4.7.4	People.040	0		
-524481	2030	Sorbung	mənamóo	mənamóo	wife	wife		4.7.4	People.041	0		
-524482	2030	Sorbung	saa	saa	son	son		4.7.3	People.042	0		
-524483	2030	Sorbung	saa	saa	daughter	daughter		4.7.3	People.044	0		
-524484	2030	Sorbung	ʔihàa	ʔihàa	daughter-in-law (of ego)	daughter-in-law (of ego)		10.1.1	People.045	0		
-524485	2030	Sorbung	ʔihàa	ʔihàa	son-in-law (of ego)	son-in-law (of ego)		10.1.1	People.046	0		
-524486	2030	Sorbung	ʔinèeŋ	ʔinèeŋ	brother-in-law (of ego)	brother-in-law (of ego)		10.1.1	People.047	0		
-524487	2030	Sorbung	ʔimèe	ʔimèe	sister-in-law (of ego)	sister-in-law (of ego)		10.1.1	People.048	0		
-524488	2030	Sorbung	ʔitùsáa	ʔitùsáa	nephew (of ego)	nephew (of ego)		4.7.3	People.049	0		
-524489	2030	Sorbung	ʔitùsáa	ʔitùsáa	niece (of ego)	niece (of ego)		4.7.3	People.050	0		
-524490	2030	Sorbung	ʔi-sàa-ta-ʔi-sàa	ʔi-sàa-ta-ʔi-sàa	grandchild (of ego); son's son	grandchild (of ego); son's son		4.7.3	People.051	0		
-524491	2030	Sorbung	ʔəjòok	ʔəjòok	friend	friend		4.4.2	People.055	0		
-524492	2030	Sorbung	ʔènʃià	ʔènʃià	enemy	enemy		4.2.6	People.056	0		
-524493	2030	Sorbung	ʔin◦pù	ʔinpù	host (house owner)	host (house owner)		4.4.2	People.057	0		1612,m
-524494	2030	Sorbung	məlóoŋ	məlóoŋ	guest	guest		4.4.3	People.058	0		
-524495	2030	Sorbung	ʔəŋgúu	ʔəŋgúu	child	child		1.5.3.2	People.059	0		
-524496	2030	Sorbung	santáarià	santáarià	adult	adult		4.2.11	People.060	0		
-524497	2030	Sorbung	san-táa-|rià	san-táa-rià	person, old	person, old		4.5	People.061	0		m,7181
-524498	2030	Sorbung	mìt◦cò◦pà, mìt◦co◦nu	mìtcòpà, mìtconu	person, blind	person, blind		4.5	People.062	0		682,1401,m,682,1401,m
-524499	2030	Sorbung	nàakʰuàk	nàakʰuàk	person, deaf	person, deaf		4.5	People.063	0		
-524500	2030	Sorbung	júur	júur	nation	nation		5.8	People.084	0		
-524501	2030	Sorbung	júur	júur	nationality	nationality		5.8	People.085	0		
-524502	2030	Sorbung	ʔəkʰuan	ʔəkʰuan	village	village		5.8	People.087	0		
-524503	2030	Sorbung	ʔin	ʔin	house	house		5.11.9.1	People.088	0		1612
-524504	2030	Sorbung	ʔinʃúŋkʰuar	ʔinʃúŋkʰuar	family	family		4.7.5	People.089	0		
-524505	2030	Sorbung	ʔəhuáŋbáa	ʔəhuáŋbáa	chief	chief		4.2.5.2	People.090	0		
-524506	2030	Sorbung	ʔəhuáŋnúu	ʔəhuáŋnúu	queen (no such office)	queen (no such office)		4.2.5	People.091	0		
-524507	2030	Sorbung	léváaʃuán	léváaʃuán	practitioner of witchcraft	practitioner of witchcraft		4.2.1	People.094	0		
-524508	2030	Sorbung	səràasa	səràasa	orphan	orphan		4.3	People.096	0		
-524509	2030	Sorbung	nəmoomə̀kʰúu	nəmoomə̀kʰúu	widow	widow		4.2.8	People.097	0		
-524510	2030	Sorbung	semnùu sempáa	semnùu sempáa	creator of the universe	creator of the universe		6.14	People.098	0		
-524511	2030	Sorbung	rambúu	rambúu	devil, ghost, demon, evil spirit	devil, ghost, demon, evil spirit		4.2.12.2	People.099	0		
-524512	2030	Sorbung	tʰəwái	tʰəwái	soul, spirit (Meithei)	soul, spirit (Meithei)		1.10	People.100	0		
-524513	2030	Sorbung	ʔəním	ʔəním	shadow	shadow		3.2.10	People.101	0		
-524514	2030	Sorbung	máaŋ	máaŋ	dream	dream		1.1.4.2	People.103	0		126
-524515	2030	Sorbung	ʔəmín	ʔəmín	name	name		5.8	People.104	0		2450
-524516	2030	Sorbung	səkái	səkái	surname; clan	surname; clan		5.8	People.105	0		
-524517	2030	Sorbung	ʔítà	ʔítà	my (exclusive)	my (exclusive)		10.2.3.2	Pronouns.001	0		
-524518	2030	Sorbung	ʔítà kʰón	ʔítà kʰón	my village	my village		10.2.3.2	Pronouns.002	0		
-524519	2030	Sorbung	ʔoo	ʔoo	1sg	1sg			Pronouns.003	0		
-524520	2030	Sorbung	naaŋ	naaŋ	2sg	2sg				0		
-524521	2030	Sorbung	maa	maa	3sg	3sg				0		
-524522	2030	Sorbung	ʔərúkəniŋ	ʔərúkəniŋ	1dl	1dl			Pronouns.006	0		
-524523	2030	Sorbung	nàrúkəniŋ	nàrúkəniŋ	2dl	2dl			Pronouns.007	0		
-524524	2030	Sorbung	mərúkəniŋ	mərúkəniŋ	3dl	3dl			Pronouns.008	0		
-524525	2030	Sorbung	ʔənəkʰuo	ʔənəkʰuo	1pl	1pl			Pronouns.009	0		
-524526	2030	Sorbung	naaŋnəkʰuo	naaŋnəkʰuo	2pl	2pl			Pronouns.011	0		
-524527	2030	Sorbung	maanəkʰuo	maanəkʰuo	3pl	3pl			Pronouns.012	0		
-524528	2030	Sorbung	wa	wa	this	this		10.4.3.2	Pronouns.013	0		
-524529	2030	Sorbung	kaa	kaa	that	that		10.1	Pronouns.014	0		
-524530	2030	Sorbung	ʔóoməsaa	ʔóoməsaa	1sg-refl	1sg-refl			Pronouns.015	0		
-524531	2030	Sorbung	naaŋməsaa	naaŋməsaa	2sg-refl	2sg-refl			Pronouns.016	0		
-524532	2030	Sorbung	maaməsaa	maaməsaa	3sg-refl	3sg-refl			Pronouns.017	0		
-524533	2030	Sorbung	ʔità	ʔità	1sg-gen	1sg-gen		10.4.1.1		0		
-524534	2030	Sorbung	nanta	nanta	2sg-gen	2sg-gen		10.4.1.1		0		
-524535	2030	Sorbung	mata	mata	3sg-gen	3sg-gen		10.4.1.1		0		
-524536	2030	Sorbung	ʔəʃíi	ʔəʃíi	bamboo rain cover	bamboo rain cover		3.1.1	ToneMin.001	0		
-524537	2030	Sorbung	ʔə◦ʃii	ʔəʃii	star	star		3.2.2	ToneMin.002	0		2300,1019
-524538	2030	Sorbung	ʔəʃii	ʔəʃii	crab	crab		2.2.5	ToneMin.003	0		
-524539	2030	Sorbung	ʔəʃìi	ʔəʃìi	sesame	sesame		3.1.6.1	ToneMin.004	0		
-524540	2030	Sorbung	məkóo	məkóo	break	break		9.5	ToneMin.007	0		
-524541	2030	Sorbung	cèm	cèm	knife	knife		5.5	ToneMin.008	0		
-524542	2030	Sorbung	ŋaa	ŋaa	fish	fish		2.2.5	ToneMin.009	0		1455
-524543	2030	Sorbung	wàŋ	wàŋ	fly	fly		2.2.6	ToneMin.010	0		
-524544	2030	Sorbung	tʰókmài	tʰókmài	shallow	shallow		7.1.5.3	ToneMin.011	0		
-524545	2030	Sorbung	pai	pai	easy; cheap	easy; cheap		9.6.1.1	ToneMin.012	0		
-524546	2030	Sorbung	éklén	éklén	defecate	defecate		1.8.5.4	ToneMin.013	0		
-524547	2030	Sorbung	ʔə◦nái	ʔənái	near	near		9.2.3	ToneMin.015	0		m,2496
-524548	2030	Sorbung	ʔənái	ʔənái	pus	pus		1.8.6.1	ToneMin.016	0		
-524549	2030	Sorbung	haa	haa	tooth	tooth		1.3.4	ToneMin.018	0		
-524550	2030	Sorbung	ʔʉʉ	ʔʉʉ	dog	dog		2.1.11	ToneMin.019	0		1764
-524551	2030	Sorbung	tʰìŋ-raa	tʰìŋ-raa	fruit	fruit		3.1.5	ToneMin.020	0		
-524552	2030	Sorbung	ʔəraa raa nətràŋ	ʔəraa raa nətràŋ	bear fruit	bear fruit		2.2.3	ToneMin.021	0		
-524553	2030	Sorbung	ʔənáaŋ	ʔənáaŋ	see	see		1.2.6.10	ToneMin.022	0		
-524554	2030	Sorbung	lèe	lèe	field	field		3.2.5	ToneMin.023	0		
-524555	2030	Sorbung	tənʃùk	tənʃùk	pestle	pestle		5.5	ToneMin.025	0		
-524556	2030	Sorbung	jáu	jáu	go	go		6.7.2	Verbs.001	0		
-524557	2030	Sorbung	hóoŋ	hóoŋ	come	come		6.7.1	Verbs.002	0		1812
-524558	2030	Sorbung	hoóŋ◦ledee	hoóŋledee	come back	come back	imp.	6.7.1	Verbs.003	0		1812,m
-524559	2030	Sorbung	hóŋlʉtòo	hóŋlʉtòo	enter	enter		6.7.1	Verbs.004	0		
-524560	2030	Sorbung	ʃúuk	ʃúuk	exit	exit		6.7.2	Verbs.005	0		
-524561	2030	Sorbung	ʃùg-ná	ʃùg-ná	exit	exit	v.	6.7.2		0		
-524562	2030	Sorbung	ʔóm	ʔóm	exist	exist		1.1.2.3	Verbs.006	0		
-524563	2030	Sorbung	ʔòm◦ná	ʔòmná	exist	exist	v.	1.1.2.3		0		
-524564	2030	Sorbung	ʔəntʰée	ʔəntʰée	start; lead	start; lead		9.5	Verbs.007	0		
-524565	2030	Sorbung	lúi	lúi	finish	finish		9.5	Verbs.008	0		
-524566	2030	Sorbung	wáŋ	wáŋ	fly	fly	v.	2.2.6	Verbs.009	0		
-524567	2030	Sorbung	sóo	sóo	run	run		6.7.4	Verbs.010	0		
-524568	2030	Sorbung	mə◦tʰúup	mətʰúup	hide	hide		1.6.5.1	Verbs.011	0		p,4390
-524569	2030	Sorbung	jáu	jáu	walk	walk		6.7.4	Verbs.012	0		
-524570	2030	Sorbung	ʔəwák	ʔəwák	crawl	crawl		6.7.9	Verbs.013	0		
-524571	2030	Sorbung	ʔəndía	ʔəndía	fall	fall		6.1.1.4.2	Verbs.014	0		
-524572	2030	Sorbung	cəkúi	cəkúi	dance	dance		6.7.9	Verbs.015	0		
-524573	2030	Sorbung	ʔədúuk	ʔədúuk	think	think		8.3.1.13.1	Verbs.017	0		
-524574	2030	Sorbung	pam	pam	want; desire	want; desire		8.3.1.14.3	Verbs.019	0		
-524575	2030	Sorbung	ʔədúuk	ʔədúuk	expect	expect			Verbs.020	0		
-524576	2030	Sorbung	məʃúhaa	məʃúhaa	accustomed	accustomed		8.3	Verbs.021	0		
-524577	2030	Sorbung	jàa	jàa	accept	accept		8.3.1.2.1	Verbs.022	0		
-524578	2030	Sorbung	háaŋ	háaŋ	climb; ascend	climb; ascend		6.7.7	Verbs.023	0		
-524579	2030	Sorbung	júuŋ	júuŋ	descend	descend		6.7.8	Verbs.024	0		
-524580	2030	Sorbung	koo	koo	do	do		6.1.1.1	Verbs.025	0		
-524581	2030	Sorbung	páaŋ	páaŋ	help	help		6.2.2.1	Verbs.026	0		
-524582	2030	Sorbung	pée	pée	give	give		6.23	Verbs.027	0		2158
-524583	2030	Sorbung	lée	lée	take	take		6.21	Verbs.028	0		
-524584	2030	Sorbung	ləʃùa	ləʃùa	put	put		6.17	Verbs.029	0		
-524585	2030	Sorbung	mərúu	mərúu	steal	steal		6.2.2.1	Verbs.030	0		
-524586	2030	Sorbung	pʰíit	pʰíit	hit (with stick)	hit (with stick)		6.8	Verbs.031	0		
-524587	2030	Sorbung	ʃíu	ʃíu	hit (with the fist)	hit (with the fist)		6.8	Verbs.032	0		
-524588	2030	Sorbung	tʰàt	tʰàt	kill	kill		6.4	Verbs.033	0		
-524589	2030	Sorbung	táan	táan	cut (wood, vegetables)	cut (wood, vegetables)		3.1.2	Verbs.036	0		
-524590	2030	Sorbung	mətáan	mətáan	split; divide	split; divide		6.9.3	Verbs.037	0		
-524591	2030	Sorbung	táan	táan	cut (vegetables)	cut (vegetables)		6.9.3	Verbs.038	0		
-524592	2030	Sorbung	ʔətáanjèe	ʔətáanjèe	split (as with a candy bar)	split (as with a candy bar)		6.9.3		0		
-524593	2030	Sorbung	ʔə◦kór	ʔəkór	peel	peel		1.5.3.2	Verbs.040	0		p,593
-524594	2030	Sorbung	kʰòo	kʰòo	split (a watermelon, other round object); break (glass, egg)	split (a watermelon, other round object); break (glass, egg)		5.11	Verbs.041	0		
-524595	2030	Sorbung	dùu	dùu	chop (at tree)	chop (at tree)		6.9.3	Verbs.042	0		
-524596	2030	Sorbung	məkʰóo	məkʰóo	break	break		9.5	Verbs.043	0		
-524597	2030	Sorbung	məkʰóo	məkʰóo	burst	burst		9.5	Verbs.044	0		
-524598	2030	Sorbung	ʃúuŋ	ʃúuŋ	cook	cook		5.5	Verbs.047	0		
-524599	2030	Sorbung	bʉ̀t	bʉ̀t	boil	boil		6.6	Verbs.048	0		
-524600	2030	Sorbung	tʰàu-jáu	tʰàu-jáu	fry	fry		5.5	Verbs.050	0		
-524601	2030	Sorbung	jáu	jáu	fry	fry		5.5		0		
-524602	2030	Sorbung	ree	ree	roast	roast		5.5	Verbs.052	0		
-524603	2030	Sorbung	mə-kaaŋ	mə-kaaŋ	dry	dry	v.	6.6	Verbs.053	0		m,119
-524604	2030	Sorbung	kaaŋ-len	kaaŋ-len	burnt	burnt		3.2.12.1	Verbs.054	0		
-524605	2030	Sorbung	məhai	məhai	toast	toast		8.5.3	Verbs.055	0		
-524606	2030	Sorbung	jóoŋ	jóoŋ	seek; search	seek; search		6.2.2.2	Verbs.056	0		
-524607	2030	Sorbung	ʔəjíi	ʔəjíi	drive; chase; catch	drive; chase; catch		6.7.10	Verbs.057	0		
-524608	2030	Sorbung	ʔəráak	ʔəráak	catch	catch		6.21	Verbs.058	0		
-524609	2030	Sorbung	ʔəjíi	ʔəjíi	hunt	hunt		6.2.2.1	Verbs.059	0		
-524610	2030	Sorbung	ʔən-cíi	ʔən-cíi	fear	fear		8.3.1.10.1	Verbs.061	0		
-524611	2030	Sorbung	məcíp	məcíp	frighten	frighten		8.3.1.10.1	Verbs.063	0		
-524612	2030	Sorbung	ŋai	ŋai	sharp	sharp		6.9.2	Verbs.064	0		
-524613	2030	Sorbung	cèm-ʔətát	cèm-ʔətát	sharpen knife	sharpen knife		6.9.2	Verbs.066	0		
-524614	2030	Sorbung	mənìi-lèn	mənìi-lèn	forget	forget		8.3.1.16.1	Verbs.067	0		
-524615	2030	Sorbung	məʃùuk	məʃùuk	kick	kick		6.2.2.3.3	Verbs.068	0		
-524616	2030	Sorbung	tai	tai	rub	rub		8.4	Verbs.069	0		
-524617	2030	Sorbung	lee	lee	medicine	medicine		5.4	Verbs.070	0		
-524618	2030	Sorbung	məmìt	məmìt	extinguish; erase a chalkboard	extinguish; erase a chalkboard		3.2.12.1	Verbs.071	0		
-524619	2030	Sorbung	ʔətáat	ʔətáat	brush	brush		5.11.8.4	Verbs.072	0		
-524620	2030	Sorbung	mit	mit	twist; squeeze	twist; squeeze		6.7.6	Verbs.073	0		
-524621	2030	Sorbung	kau	kau	kick; knead with the feet	kick; knead with the feet		6.2.2.3.3	Verbs.074	0		
-524622	2030	Sorbung	pʰənaat	pʰənaat	grind with pestle	grind with pestle		9.5	Verbs.075	0		
-524623	2030	Sorbung	ʔənpʰee-néŋ	ʔənpʰee-néŋ	pound rice	pound rice		6.8	Verbs.076	0		
-524624	2030	Sorbung	məkóoŋ	məkóoŋ	back basket	back basket		1.4.8	Verbs.077	0		
-524625	2030	Sorbung	dùu	dùu	sew	sew		5.1	Verbs.078	0		
-524626	2030	Sorbung	ʔəʃìm	ʔəʃìm	needle	needle		5.1	Verbs.079	0		
-524627	2030	Sorbung	ʔənʃúŋ	ʔənʃúŋ	sit	sit		6.1.1.4.1	Verbs.081	0		
-524628	2030	Sorbung	ʔənʃúŋee	ʔənʃúŋee	sit	sit	imp.	6.1.1.4.1	Verbs.082	0		
-524629	2030	Sorbung	ŋia	ŋia	stand	stand		1.5.2	Verbs.083	0		
-524630	2030	Sorbung	ŋiaèe	ŋiaèe	stand up	stand up	imp.	1.5.2	Verbs.084	0		
-524631	2030	Sorbung	náap	náap	stick	stick	v.	3.1.2	Verbs.085	0		6932
-524632	2030	Sorbung	káap	káap	shoot	shoot	v.	6.2.2.1	Verbs.086	0		2232
-524633	2030	Sorbung	ciu	ciu	dig	dig		6.11	Verbs.087	0		4532
-524634	2030	Sorbung	ciu◦èe	ciuèe	dig	dig	imp.	6.11	Verbs.088	0		4532,m
-524635	2030	Sorbung	ʃuag-lee	ʃuag-lee	scoop out; dish out	scoop out; dish out		9.2	Verbs.089	0		
-524636	2030	Sorbung	wàaw	wàaw	shout	shout		8.5.4.1	Verbs.090	0		
-524637	2030	Sorbung	kèe	kèe	call	call		8.5.13	Verbs.091	0		
-524638	2030	Sorbung	ʔəntʰée	ʔəntʰée	rise; get up	rise; get up		1.1.4	Verbs.093	0		
-524639	2030	Sorbung	mətʰée	mətʰée	get somebody up	get somebody up		1.1.5	Verbs.094	0		
-524640	2030	Sorbung	kʰaaŋ	kʰaaŋ	lift up; carry with hand	lift up; carry with hand		6.16	Verbs.096	0		
-524641	2030	Sorbung	pʰùa	pʰùa	carry	carry		6.2.2.2.1	Verbs.097	0		
-524642	2030	Sorbung	tooŋ	tooŋ	carry on the head	carry on the head		6.2.2.2.1	Verbs.098	0		
-524643	2030	Sorbung	ʔəkʰuàn	ʔəkʰuàn	crow; sound (as a musical instrument)	crow; sound (as a musical instrument)	v./v.i.	5.1	Verbs.099	0		
-524644	2030	Sorbung	kəplǎaŋ	kəplǎaŋ	choose	choose		6.10.4	Verbs.100	0		
-524645	2030	Sorbung	məkʰáan-lèn	məkʰáan-lèn	release	release		6.10.1	Verbs.101	0		
-524646	2030	Sorbung	məkʰáan-cʉʉ	məkʰáan-cʉʉ	sweat	sweat		1.8.1	Verbs.102	0		
-524647	2030	Sorbung	hà-ŋguŋ	hà-ŋguŋ	arrive	arrive		6.7.1	Verbs.103	0		
-524648	2030	Sorbung	laasáa	laasáa	sing	sing		5.1	Verbs.105	0		
-524649	2030	Sorbung	còo	còo	touch	touch		8.4	Verbs.106	0		
-524650	2030	Sorbung	cóomòo	cóomòo	don't touch	don't touch		8.4	Verbs.107	0		
-524651	2030	Sorbung	mətʰáp	mətʰáp	grope (in the dark)	grope (in the dark)		8.4	Verbs.108	0		
-524652	2030	Sorbung	mit	mit	squeeze	squeeze		9.5	Verbs.109	0		
-524653	2030	Sorbung	məlàm	məlàm	spin	spin		6.7.6	Verbs.110	0		
-524654	2030	Sorbung	pʰərii	pʰərii	wash (hands, vegetables, cars)	wash (hands, vegetables, cars)		6.2.2.5.2	Verbs.111	0		
-524655	2030	Sorbung	ʔəʃúu	ʔəʃúu	wash (clothes)	wash (clothes)		6.2.2.5.2	Verbs.112	0		
-524656	2030	Sorbung	cʉʃíi	cʉʃíi	bathe	bathe		6.6	Verbs.113	0		
-524657	2030	Sorbung	təràt	təràt	tie	tie		6.13.1	Verbs.115	0		
-524658	2030	Sorbung	təràt-kəlen	təràt-kəlen	untie; loose	untie; loose		6.13.1	Verbs.116	0		
-524659	2030	Sorbung	təràt-kəlenbèe	təràt-kəlenbèe	untie	untie	imp.	6.13.1	Verbs.117	0		
-524660	2030	Sorbung	ʔəhuát	ʔəhuát	scratch; scrape	scratch; scrape		1.6.5.5	Verbs.118	0		
-524661	2030	Sorbung	júa	júa	sell	sell		6.22	Verbs.119	0		
-524662	2030	Sorbung	ʔəlóo	ʔəlóo	buy	buy		6.22	Verbs.120	0		
-524663	2030	Sorbung	màmbúk	màmbúk	borrow	borrow		6.22	Verbs.122	0		
-524664	2030	Sorbung	wàaj	wàaj	lend	lend		6.22	Verbs.123	0		
-524665	2030	Sorbung	kʰəjáaʃá	kʰəjáaʃá	respect	respect		8.3.2.6.1	Verbs.124	0		
-524666	2030	Sorbung	ŋàak	ŋàak	wait	wait		6.1.1.6	Verbs.125	0		5699
-524667	2030	Sorbung	ŋàa◦gèe	ŋàagèe	wait	wait	imp.	6.1.1.6	Verbs.126	0		5699,m
-524668	2030	Sorbung	mənámʃoo	mənámʃoo	stink	stink		7.1.4.5	Verbs.127	0		
-524669	2030	Sorbung	mənʉʉʃá	mənʉʉʃá	mock	mock		6.2.2.1	Verbs.128	0		
-524670	2030	Sorbung	mərái	mərái	conceive	conceive		1.9.6.1	Verbs.129	0		
-524671	2030	Sorbung	laam	laam	roll	roll	v.i.	6.7.6	Verbs.130	0		
-524672	2030	Sorbung	màŋk(ə)liŋ	màŋk(ə)liŋ	roll	roll	v.t.	6.7.6	Verbs.131	0		
-524673	2030	Sorbung	ʔəkaan	ʔəkaan	cross	cross		6.7.10	Verbs.132	0		
-524674	2030	Sorbung	ʔəloo	ʔəloo	well	well	be v.	9.6.1.1	Verbs.133	0		
-524675	2030	Sorbung	mətʰái	mətʰái	hurt	hurt		1.1.5.1	Verbs.134	0		
-524676	2030	Sorbung	məmǎaŋ	məmǎaŋ	decay	decay		9.5	Verbs.135	0		
-524677	2030	Sorbung	mináam	mináam	deceive	deceive		8.3.3.4.3.2	Verbs.136	0		
-524678	2030	Sorbung	ʃúi	ʃúi	tempt	tempt		8.3.2.7.2	Verbs.137	0		
-524679	2030	Sorbung	mətùuk	mətùuk	add together	add together		9.9	Verbs.138	0		
-524680	2030	Sorbung	càa	càa	fit	fit		9.7.2	Verbs.139	0		
-524681	2030	Sorbung	pam	pam	like	like		8.3.1.1.1	Verbs.140	0		
-524682	2030	Sorbung	məkàt	məkàt	strong	strong		9.6.1.1	Verbs.141	0		
-524683	2030	Sorbung	ʃuan	ʃuan	weak	weak		1.1.5	Verbs.142	0		
-524684	2030	Sorbung	jáapee ʃuanòo	jáapee ʃuanòo	very weak	very weak		7.1.2.2	Verbs.143	0		
-524685	2030	Sorbung	lòok	lòok	big	big		9.7.2	Verbs.144	0		
-524686	2030	Sorbung	nèe	nèe	small	small		9.7.2	Verbs.145	0		
-524687	2030	Sorbung	ʃóo	ʃóo	long	long		9.7.2	Verbs.146	0		
-524688	2030	Sorbung	tòo	tòo	short (length)	short (length)		9.7.2	Verbs.147	0		5414
-524689	2030	Sorbung	ʃóo	ʃóo	tall	tall		9.7.2	Verbs.148	0		
-524690	2030	Sorbung	tòo	tòo	short (height)	short (height)		9.7.2	Verbs.149	0		5414
-524691	2030	Sorbung	tʰáu	tʰáu	fat	fat		1.6.4	Verbs.150	0		
-524692	2030	Sorbung	kòoŋ	kòoŋ	skinny	skinny			Verbs.151	0		
-524693	2030	Sorbung	məkʰái	məkʰái	crooked	crooked		9.7.2	Verbs.152	0		
-524694	2030	Sorbung	məkʰée	məkʰée	bamboo spoon for curry	bamboo spoon for curry		3.1.1	Verbs.153	0		
-524695	2030	Sorbung	kʉ́n	kʉ́n	straight	straight		7.1.5.1	Verbs.154	0		
-524696	2030	Sorbung	kʉ́nta mìi	kʉ́nta mìi	honest person	honest person		8.3.3.4.1	Verbs.155	0		
-524697	2030	Sorbung	tʰòonáa	tʰòonáa	humble	humble		9.6.1.2	Verbs.156	0		
-524698	2030	Sorbung	ʔə◦lúum	ʔəlúum	round	round		9.7.1	Verbs.157	0		p,690
-524699	2030	Sorbung	wàm	wàm	black	black		9.4	Verbs.158	0		5135
-524700	2030	Sorbung	ŋée	ŋée	white	white		9.4	Verbs.159	0		
-524701	2030	Sorbung	ʔaaŋ	ʔaaŋ	red	red		9.4	Verbs.160	0		
-524702	2030	Sorbung	jaiŋàaŋməcuu	jaiŋàaŋməcuu	yellow (color of curry)	yellow (color of curry)		9.4	Verbs.161	0		
-524703	2030	Sorbung	ʔəntiàk	ʔəntiàk	green	green		9.4	Verbs.162	0		
-524704	2030	Sorbung	ʃóo	ʃóo	far	far		9.2.4	Verbs.164	0		
-524705	2030	Sorbung	ʔə◦nái	ʔənái	near	near		9.2.3	Verbs.166	0		m,2496
-524706	2030	Sorbung	məhóoŋ	məhóoŋ	open	open		6.2.2.6.1	Verbs.167	0		
-524707	2030	Sorbung	lèn	lèn	close; shut	close; shut		6.2.2.6.2	Verbs.169	0		
-524708	2030	Sorbung	kʰaa	kʰaa	bitter	bitter		7.1.4.4	Verbs.171	0		
-524709	2030	Sorbung	kʰuum	kʰuum	sweet	sweet		7.1.4.4	Verbs.172	0		6150
-524710	2030	Sorbung	tʰuur	tʰuur	sour	sour		7.1.4.4	Verbs.173	0		6079
-524711	2030	Sorbung	lòok	lòok	thick	thick		9.7.2	Verbs.174	0		
-524712	2030	Sorbung	məmpáar	məmpáar	thin	thin		9.7.2	Verbs.175	0		
-524713	2030	Sorbung	nèe	nèe	narrow	narrow		9.7.2	Verbs.176	0		
-524714	2030	Sorbung	pai	pai	easy	easy		9.6.1.1	Verbs.177	0		
-524715	2030	Sorbung	lùu	lùu	difficult	difficult		9.6.2	Verbs.178	0		
-524716	2030	Sorbung	pai	pai	cheap	cheap		5.9	Verbs.179	0		
-524717	2030	Sorbung	táaŋ	táaŋ	expensive	expensive		5.9	Verbs.180	0		
-524718	2030	Sorbung	jáak	jáak	ashamed	ashamed		8.3.3.8.2	Verbs.181	0		
-524719	2030	Sorbung	ŋái◦mai	ŋáimai	dull (not sharp)	dull (not sharp)		7.1.5.1	Verbs.183	0		
-524720	2030	Sorbung	ʔətʰár	ʔətʰár	new	new		9.6.1.1	Verbs.184	0		
-524721	2030	Sorbung	ʔə◦lʉ́ʉ	ʔəlʉ́ʉ	old	old		7.1.8.3	Verbs.185	0		p,7183
-524722	2030	Sorbung	mənée	mənée	young (age)	young (age)		7.1.8.3	Verbs.187	0		
-524723	2030	Sorbung	sén-daa	sén-daa	old (age)	old (age)		7.1.8.3	Verbs.189	0		
-524724	2030	Sorbung	taalen	taalen	become old	become old		9.5	Verbs.191	0		
-524725	2030	Sorbung	ʔə-taa-|ria	ʔə-taa-ria	old folks	old folks		7.1.8.3	Verbs.192	0		p,7181
-524726	2030	Sorbung	ʃùum	ʃùum	late; slow	late; slow		9.1.1	Verbs.196	0		
-524727	2030	Sorbung	tʰàk	tʰàk	early; fast	early; fast		9.1.1	Verbs.197	0		
-524728	2030	Sorbung	kòomán	kòomán	able	able		1.1.2.4	Verbs.199	0		
-524729	2030	Sorbung	seŋ	seŋ	clear	clear		9.6.1.1	Verbs.201	0		
-524730	2030	Sorbung	tʰàar	tʰàar	clean	clean		6.2.2.5.2	Verbs.202	0		6916
-524731	2030	Sorbung	múàt	múàt	dirty	dirty		3.2.11	Verbs.204	0		
-524732	2030	Sorbung	ʔəloo	ʔəloo	beautiful	beautiful		7.1.3	Verbs.205	0		
-524733	2030	Sorbung	càakʃa	càakʃa	ugly	ugly		7.1.3	Verbs.206	0		
-524734	2030	Sorbung	tʰùuk	tʰùuk	deep	deep		7.1.5.3	Verbs.207	0		2712
-524735	2030	Sorbung	tàar-leŋleŋ	tàar-leŋleŋ	shallow	shallow		7.1.5.3	Verbs.208	0		
-524736	2030	Sorbung	tʰàaŋmee	tʰàaŋmee	smart; wise; clever	smart; wise; clever		8.3	Verbs.209	0		
-524737	2030	Sorbung	pàaŋ, ʔəpàaŋ	pàaŋ, ʔəpàaŋ	stupid	stupid		8.3	Verbs.210	0		
-524738	2030	Sorbung	ʔəloo	ʔəloo	good	good		9.6.1.1	Verbs.213	0		
-524739	2030	Sorbung	saa-leè	saa-leè	bad (morally)	bad (morally)		9.6.2.1	Verbs.214	0		
-524740	2030	Sorbung	kʉ́n	kʉ́n	correct	correct		8.3.3.9	Verbs.216	0		
-524741	2030	Sorbung	laan	laan	err	err		6.2	Verbs.217	0		
-524742	2030	Sorbung	laanlenpai	laanlenpai	having committed a mistake	having committed a mistake			Verbs.218	0		
-524743	2030	Sorbung	lùu	lùu	tough; hard	tough; hard		1.1.5		0		
-524744	2030	Sorbung	mənée	mənée	soft	soft		7.1.4.2	Verbs.001	0		
-524745	2030	Sorbung	ʔəpáat, ʔpáat	ʔəpáat, ʔpáat	soft; mushy (of rice, crushed banana)	soft; mushy (of rice, crushed banana)		7.1.4.2	Verbs.002	0		
-524746	2030	Sorbung	mə◦sáaŋ	məsáaŋ	high	high		7.1.5.3	Verbs.003	0		m,4689
-524747	2030	Sorbung	mənèm	mənèm	low	low		7.1.5.3	Verbs.004	0		
-524748	2030	Sorbung	sáa	sáa	hot	hot			Verbs.005	0		
-524749	2030	Sorbung	dài	dài	cold; quiet	cold; quiet		7.1.2.3	Verbs.008	0		
-524750	2030	Sorbung	dài-rì-ʃì	dài-rì-ʃì	cold, very; quiet, very	cold, very; quiet, very		7.1.2.2	Verbs.010	0		
-524751	2030	Sorbung	jʉʉ	jʉʉ	wet	wet		6.6	Verbs.011	0		
-524752	2030	Sorbung	tʰaaŋ	tʰaaŋ	dry	dry		6.6	Verbs.013	0		
-524753	2030	Sorbung	máaŋ	máaŋ	lost	lost		6.10.1	Verbs.014	0		
-524754	2030	Sorbung	rìit	rìit	heavy	heavy		9.6.2	Verbs.019	0		2415
-524755	2030	Sorbung	jaaŋ	jaaŋ	light (weight)	light (weight)		7.1.11.1	Verbs.020	0		2789
-524756	2030	Sorbung	cin	cin	tight	tight		7.1.5.1	Verbs.021	0		
-524757	2030	Sorbung	kəléeŋ	kəléeŋ	loose	loose		6.13.1	Verbs.022	0		
-524758	2030	Sorbung	ʔəhʉ́n-náa	ʔəhʉ́n-náa	leprous	leprous		5.3	Verbs.025	0		
-524759	2030	Sorbung	jáapee	jáapee	many; very	many; very		9.9	Verbs.026	0		
-524760	2030	Sorbung	kaajàŋ	kaajàŋ	few	few		9.9	Verbs.027	0		
-524761	2030	Sorbung	waadja kʰéeha	waadja kʰéeha	more than (comparative degree)	more than (comparative degree)		9.9	Verbs.028	0		
-524762	2030	Sorbung	máan	máan	resemble; like, be	resemble; like, be		7.1.7.2	Verbs.029	0		
-524763	2030	Sorbung	ʔənúuŋ-aajíi	ʔənúuŋ-aajíi	follow	follow		6.7.10	Verbs.030	0		
-524764	2030	Sorbung	kəlúktaee	kəlúktaee	whole	whole		7.1.6.2	Verbs.031	0		
-524765	2030	Sorbung	kiák	kiák	fall	fall		6.1.1.4.2		0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+523996	2030	Sorbung	saa-júur	saa-júur	animal	animal			2.3	Animals.001	0			
+523997	2030	Sorbung	sə-muk	sə-muk	cattle	cattle			2.1.2	Animals.009	0			m,5607
+523998	2030	Sorbung	sə-mùk-paa-saa	sə-mùk-paa-saa	cattle, male; bull	cattle, male; bull			2.1.2	Animals.010	0			m,5607,m,m
+523999	2030	Sorbung	sə-mùk-mòo-sa	sə-mùk-mòo-sa	cattle, female; cow	cattle, female; cow			2.1.2	Animals.011	0			m,5607,m,m
+524000	2030	Sorbung	sə-loo	sə-loo	buffalo	buffalo			2.1.2	Animals.014	0			
+524001	2030	Sorbung	səriám	səriám	mithun	mithun			2.1.2	Animals.015	0			
+524002	2030	Sorbung	sə-kúan	sə-kúan	horse	horse			2.1.7	Animals.019	0			
+524003	2030	Sorbung	òok	òok	pig	pig			2.1.12	Animals.026	0			
+524004	2030	Sorbung	màŋgəlée	màŋgəlée	goat	goat			2.1.8	Animals.031	0			
+524005	2030	Sorbung	jau	jau	sheep	sheep			2.1.8	Animals.032	0			6028
+524006	2030	Sorbung	ʔaa	ʔaa	chicken; fowl	chicken; fowl			2.1.10	Animals.034	0			
+524007	2030	Sorbung	ʔakʰóoŋ	ʔakʰóoŋ	rooster; fowl, male	rooster; fowl, male			2.1.10	Animals.035	0			
+524008	2030	Sorbung	ʔalàa	ʔalàa	hen	hen			2.1.10	Animals.036	0			
+524009	2030	Sorbung	ʔa-bʉ́ʉ	ʔa-bʉ́ʉ	hen, mother	hen, mother			2.1.10		0			
+524010	2030	Sorbung	ʔakʰóoŋ	ʔakʰóoŋ	cock (intact male)	cock (intact male)			2.1.10	Animals.038	0			
+524011	2030	Sorbung	kùm◦pʰék	kùmpʰék	duck	duck			2.1.10	Animals.039	0			m,5716
+524012	2030	Sorbung	ʔʉ́ʉ	ʔʉ́ʉ	dog (Canis familiaris)	dog (Canis familiaris)			2.1.11	Animals.043	0			1764
+524013	2030	Sorbung	ràm◦ʔʉ́ʉ	ràmʔʉ́ʉ	dhole	dhole			2.1.11	Animals.044	0			6093,1764
+524014	2030	Sorbung	ràm◦ʔʉ́ʉ	ràmʔʉ́ʉ	wolf	wolf			2.1.11	Animals.045	0			6093,1764
+524015	2030	Sorbung	ràm◦ʔʉ́ʉ	ràmʔʉ́ʉ	fox	fox			2.1.11	Animals.046	0			6093,1764
+524016	2030	Sorbung	kʰaan	kʰaan	cat (Felis domesticus)	cat (Felis domesticus)			2.1.3	Animals.047	0			
+524017	2030	Sorbung	səráam	səráam	fishing cat	fishing cat			2.2.5	Animals.050	0			
+524018	2030	Sorbung	hambʉ́ʉ	hambʉ́ʉ	tiger	tiger			2.1.3	Animals.052	0			
+524019	2030	Sorbung	hambʉ́ʉ	hambʉ́ʉ	lion	lion			2.1.3	Animals.054	0			
+524020	2030	Sorbung	sə-kíi	sə-kíi	deer	deer			2.2.2	Animals.055	0			
+524021	2030	Sorbung	sə-jáa	sə-jáa	sambhur; sambar	sambhur; sambar			2.2.2	Animals.056	0			
+524022	2030	Sorbung	ʔə-wám	ʔə-wám	bear (Selenarctos thibetanus)	bear (Selenarctos thibetanus)			2.2.3	Animals.061	0			p,2777
+524023	2030	Sorbung	jooŋ	jooŋ	monkey	monkey			2.1.9	Animals.065	0			6049
+524024	2030	Sorbung	cə-háa	cə-háa	leaf-monkey; langur	leaf-monkey; langur			2.1.9	Animals.068	0			
+524025	2030	Sorbung	mə-júu	mə-júu	mouse	mouse			2.1.1	Animals.074	0			
+524026	2030	Sorbung	mə-júu	mə-júu	rat	rat			2.1.1	Animals.076	0			
+524027	2030	Sorbung	ʔə-lóo	ʔə-lóo	squirrel	squirrel			2.1.1	Animals.079	0			
+524028	2030	Sorbung	ʔə-lóo	ʔə-lóo	squirrel, giant	squirrel, giant			2.1.1	Animals.080	0			
+524029	2030	Sorbung	sə-|kúu	sə-kúu	porcupine	porcupine			2.1.1	Animals.082	0			4305
+524030	2030	Sorbung	mətír	mətír	shrew	shrew			2.1.1	Animals.087	0			
+524031	2030	Sorbung	ʔə-bʉ́ʉ	ʔə-bʉ́ʉ	mole	mole			2.2.7	Animals.089	0			
+524032	2030	Sorbung	ʔə-sái	ʔə-sái	elephant	elephant			2.2.1	Animals.091	0			p,4649
+524033	2030	Sorbung	təŋgooŋ	təŋgooŋ	anteater (pangolin); crocodile	anteater (pangolin); crocodile			2.1.6	Animals.096	0			
+524034	2030	Sorbung	sə-ráam	sə-ráam	otter	otter			2.2.7.1	Animals.099	0			
+524035	2030	Sorbung	ʔə-bák	ʔə-bák	bat	bat			2.2.4.1	Animals.100	0			
+524036	2030	Sorbung	ʔəcok	ʔəcok	frog	frog			2.1.6.2	Animals.101	0			
+524037	2030	Sorbung	ʔəcok	ʔəcok	toad	toad			2.1.6.2	Animals.102	0			
+524038	2030	Sorbung	bə-ríi	bə-ríi	snake	snake			2.1.6.1	Animals.110	0			
+524039	2030	Sorbung	bəríilòokpáa	bəríilòokpáa	python	python			2.1.6	Animals.112	0			
+524040	2030	Sorbung	bəríis(ə)mùuk	bəríis(ə)mùuk	snake species, large	snake species, large			2.1.6		0			
+524041	2030	Sorbung	ʔə-waa	ʔə-waa	bird	bird			2.2.4	Animals.120	0			p,1603
+524042	2030	Sorbung	ʔə-waa-búu	ʔə-waa-búu	nest	nest			2.2.4	Animals.121	0			p,1603,1733
+524043	2030	Sorbung	ʔə-waa-cʉ́ʉ	ʔə-waa-cʉ́ʉ	egg	egg				Animals.122	0			
+524044	2030	Sorbung	ʔəcʉ́ʉ-məcʉ́ʉ	ʔəcʉ́ʉ-məcʉ́ʉ	lay egg	lay egg			6.17	Animals.124	0			
+524045	2030	Sorbung	buum	buum	sit on eggs	sit on eggs			1.9.1.2	Animals.125	0			
+524046	2030	Sorbung	ʔa-rip	ʔa-rip	chicken, jungle	chicken, jungle			2.1.10		0			
+524047	2030	Sorbung	ʔəwaahambʉ́ʉ	ʔəwaahambʉ́ʉ	owl	owl			2.2.4.1	Animals.133	0			
+524048	2030	Sorbung	bùumlík	bùumlík	eagle	eagle			2.2.4.1	Animals.138	0			
+524049	2030	Sorbung	ʔəwaatʰìŋhʉ́tpá	ʔəwaatʰìŋhʉ́tpá	woodpecker	woodpecker			2.2.4.1	Animals.142	0			
+524050	2030	Sorbung	ʔə-ʃúu	ʔə-ʃúu	dove; pigeon	dove; pigeon			2.2.4.1	Animals.143	0			
+524051	2030	Sorbung	bə-kíi	bə-kíi	parrot	parrot			2.2.4.1	Animals.145	0			p,7416
+524052	2030	Sorbung	ʔə◦ŋaa,◦ʔŋaa	ʔəŋaa,ʔŋaa	fish (general)	fish (general)			2.2.5	Animals.153	0			p,1455,1455
+524053	2030	Sorbung	ʔə◦ŋaa◦cʉ́ʉ, ʔŋaa◦cʉ́ʉ	ʔəŋaacʉ́ʉ, ʔŋaacʉ́ʉ	roe; eggs, fish	roe; eggs, fish			2.2.6	Animals.154	0			p,1455,m,1455,m
+524054	2030	Sorbung	ʔə◦ŋoŋ(g)lá	ʔəŋoŋ(g)lá	fish, catfish	fish, catfish			2.2.5	Animals.160	0			
+524055	2030	Sorbung	ŋà◦míi	ŋàmíi	fish, flying	fish, flying			2.2.5		0			1455,m
+524056	2030	Sorbung	ʔə◦ŋkʰau	ʔəŋkʰau	fish species, light in color	fish species, light in color			2.2.5		0			
+524057	2030	Sorbung	ʔəʃii	ʔəʃii	crab	crab			2.2.5	Animals.164	0			
+524058	2030	Sorbung	tukòŋ(g)lá	tukòŋ(g)lá	crayfish	crayfish				Animals.165	0			
+524059	2030	Sorbung	càbrùulá, càbrùurá	càbrùulá, càbrùurá	snail	snail			2.2.5	Animals.167	0			
+524060	2030	Sorbung	ʔə-kuu-ʔə-kái	ʔə-kuu-ʔə-kái	insects	insects			2.2.6	Animals.170	0			
+524061	2030	Sorbung	ciŋ-ʃii-pá	ciŋ-ʃii-pá	ant	ant			2.2.6	Animals.173	0			
+524062	2030	Sorbung	lùuk-sáa	lùuk-sáa	termite; white ant	termite; white ant			2.2.6	Animals.174	0			
+524063	2030	Sorbung	kʰoo	kʰoo	bee	bee			2.2.6	Animals.176	0			
+524064	2030	Sorbung	kʰò◦cʉ́ʉ	kʰòcʉ́ʉ	honey	honey			2.2.6	Animals.177	0			
+524065	2030	Sorbung	ʔəpàak	ʔəpàak	butterfly	butterfly			2.2.6	Animals.183	0			
+524066	2030	Sorbung	ʔəpàa	ʔəpàa	moth	moth			2.2.6	Animals.184	0			
+524067	2030	Sorbung	ʔə-kʰau-rúaŋ	ʔə-kʰau-rúaŋ	grasshopper	grasshopper			2.2.6	Animals.185	0			
+524068	2030	Sorbung	ʔə-kʰau,ʔ-kʰau	ʔə-kʰau,ʔ-kʰau	grasshopper	grasshopper			2.2.6		0			
+524069	2030	Sorbung	ʔəsóm	ʔəsóm	mantis	mantis			1.9.6.1		0			
+524070	2030	Sorbung	tʰəwái	tʰəwái	fly	fly			2.2.6	Animals.187	0			
+524071	2030	Sorbung	tʰəwái	tʰəwái	mosquito	mosquito			2.2.6	Animals.190	0			
+524072	2030	Sorbung	ʔə-ríp	ʔə-ríp	lac insect	lac insect			2.2.6	Animals.193	0			
+524073	2030	Sorbung	ʔə-rík,ʔ-rík	ʔə-rík,ʔ-rík	louse	louse			2.2.6	Animals.195	0			
+524074	2030	Sorbung	ʔʉrík	ʔʉrík	flea	flea			2.2.6	Animals.197	0			
+524075	2030	Sorbung	kʰəràan, kʰràan	kʰəràan, kʰràan	spider	spider			2.2.6	Animals.201	0			
+524076	2030	Sorbung	mə-hít	mə-hít	leech (land)	leech (land)			2.2.6	Animals.204	0			
+524077	2030	Sorbung	mə-sàa	mə-sàa	body	body			1.1.1	BodyParts.001	0			
+524078	2030	Sorbung	ʔəncáaŋlàm	ʔəncáaŋlàm	side (right)	side (right)			1.4.5	BodyParts.002	0			
+524079	2030	Sorbung	tənpùelàm	tənpùelàm	side (left)	side (left)			1.4.5	BodyParts.003	0			
+524080	2030	Sorbung	ʔə-núuŋ-làm	ʔə-núuŋ-làm	back (of something)	back (of something)			1.4.8	BodyParts.004	0			p,m,3324
+524081	2030	Sorbung	mə-ŋaa-lam	mə-ŋaa-lam	front (of something)	front (of something)			1.4.4	BodyParts.005	0			
+524082	2030	Sorbung	ʔənúuŋlàm	ʔənúuŋlàm	behind	behind			9.2.8	BodyParts.006	0			
+524083	2030	Sorbung	mə-ŋaa-lam	mə-ŋaa-lam	front of, in	front of, in			10.1.1	BodyParts.007	0			
+524084	2030	Sorbung	məsàa	məsàa	torso; trunk	torso; trunk			1.5.3.2	BodyParts.008	0			
+524085	2030	Sorbung	mə◦tóo	mətóo	lap	lap			1.4.4.2	BodyParts.010	0			m,289
+524086	2030	Sorbung	məlúuŋ	məlúuŋ	bosom	bosom			1.4.4.2	BodyParts.011	0			
+524087	2030	Sorbung	sàa	sàa	animal	animal			2.3	BodyParts.013	0			
+524088	2030	Sorbung	ʔə-táak	ʔə-táak	flesh	flesh			1.1.1.1	BodyParts.014	0			p,8
+524089	2030	Sorbung	ʔəméek	ʔəméek	meat	meat			1.1.1.1	BodyParts.015	0			
+524090	2030	Sorbung	ríiŋ	ríiŋ	alive; living	alive; living	be v.	be v.	1.1.2.1	BodyParts.016	0			
+524091	2030	Sorbung	tʰìi	tʰìi	die; dead, be	die; dead, be			1.1.6	BodyParts.017	0			
+524092	2030	Sorbung	tʰìilenta məsàa	tʰìilenta məsàa	corpse; body, dead	corpse; body, dead			1.1.6.1	BodyParts.019	0			
+524093	2030	Sorbung	ʔìin	ʔìin	sleep; asleep, be	sleep; asleep, be			1.1.4.1	BodyParts.021	0			
+524094	2030	Sorbung	ʔən-tʰèe	ʔən-tʰèe	wake up; awake, be	wake up; awake, be	v.i.	v.i.	1.1.4	BodyParts.022	0			
+524095	2030	Sorbung	lu◦kaaŋ	lukaaŋ	head	head			1.2.1	BodyParts.026	0			1221,m
+524096	2030	Sorbung	lu◦sìip	lusìip	head, top of; crown; pate	head, top of; crown; pate			1.2.1.2	BodyParts.027	0			1221,m
+524097	2030	Sorbung	lu◦káaŋ◦ruu	lukáaŋruu	skull	skull			1.2.1.1	BodyParts.029	0			1221,m,232
+524098	2030	Sorbung	mai◦rúu	mairúu	skull	skull			1.2.1.1		0			m,232
+524099	2030	Sorbung	ʔə-kʰúak	ʔə-kʰúak	brain	brain			1.2.4	BodyParts.030	0			
+524100	2030	Sorbung	ʔəkʰúak oommài	ʔəkʰúak oommài	no brain; brainless	no brain; brainless			10.6.2	BodyParts.031	0			
+524101	2030	Sorbung	tətrò	tətrò	comb (of rooster)	comb (of rooster)			1.2.2.1	BodyParts.034	0			
+524102	2030	Sorbung	ʔə-kìi	ʔə-kìi	horn (of animal)	horn (of animal)			1.2.2	BodyParts.035	0			p,2012
+524103	2030	Sorbung	ʔə-kìi	ʔə-kìi	antler (of deer)	antler (of deer)			1.2.2	BodyParts.036	0			p,2012
+524104	2030	Sorbung	mai	mai	face	face			1.2.5	BodyParts.037	0			
+524105	2030	Sorbung	mə◦cèe	məcèe	forehead; brow	forehead; brow			1.2.5.1	BodyParts.038	0			p,384
+524106	2030	Sorbung	mìit	mìit	eye	eye			1.2.6	BodyParts.039	0			682
+524107	2030	Sorbung	mìtkor	mìtkor	eyelid	eyelid			1.2.6.4	BodyParts.040	0			
+524108	2030	Sorbung	mìit	mìit	eyeball	eyeball			1.2.6.1	BodyParts.041	0			
+524109	2030	Sorbung	wàm	wàm	black	black			9.4	BodyParts.042	0			5135
+524110	2030	Sorbung	mìd◦èk, mìt◦ʔèk	mìdèk, mìtʔèk	eye, white of	eye, white of			1.2.6	BodyParts.043	0			682,m,682,m
+524111	2030	Sorbung	mìdmíi	mìdmíi	eyebrow	eyebrow			1.2.6.6	BodyParts.044	0			
+524112	2030	Sorbung	mìdmii	mìdmii	eyelash	eyelash			1.2.6.5	BodyParts.045	0			
+524113	2030	Sorbung	mìtkʰəjùp	mìtkʰəjùp	blink	blink	v.	v.	1.2.6.12	BodyParts.046	0			
+524114	2030	Sorbung	məkʰácʉʉ	məkʰácʉʉ	tear	tear	n.	n.	1.8.8.1	BodyParts.047	0			
+524115	2030	Sorbung	mìd◦ék; mìt◦ʔék	mìdék; mìtʔék	eye sand	eye sand			1.2.6.8	BodyParts.048	0			682,m,682,m
+524116	2030	Sorbung	càap	càap	cry; weep	cry; weep			1.8.8.2	BodyParts.049	0			1103
+524117	2030	Sorbung	mùu	mùu	see	see	v.	v.	1.2.6.10	BodyParts.051	0			4880
+524118	2030	Sorbung	ʔen	ʔen	look	look			1.2.6.11	BodyParts.052	0			1410
+524119	2030	Sorbung	ʔenee	ʔenee	look	look	imp.	imp.	1.2.6.11	BodyParts.053	0			1410
+524120	2030	Sorbung	mìt-còo	mìt-còo	blind	blind			1.2.6.14.2	BodyParts.054	0			682,1401
+524121	2030	Sorbung	mìt◦cò◦nuu	mìtcònuu	woman, blind	woman, blind			1.9.3	BodyParts.055	0			682,1401,m
+524122	2030	Sorbung	mìt◦cò◦bàa	mìtcòbàa	man, blind	man, blind			1.9.6.1		0			682,1401,m
+524123	2030	Sorbung	nàráa	nàráa	nose	nose			1.2.8	BodyParts.057	0			
+524124	2030	Sorbung	nàráa	nàráa	nose bridge	nose bridge			1.2.8	BodyParts.058	0			
+524125	2030	Sorbung	nàkʰúur	nàkʰúur	nostril	nostril			1.2.8.1	BodyParts.059	0			
+524126	2030	Sorbung	nàp-káaŋ	nàp-káaŋ	mucus, dry	mucus, dry			1.8.2	BodyParts.060	0			805,119
+524127	2030	Sorbung	nàap	nàap	mucus, liquid	mucus, liquid			1.8.2	BodyParts.061	0			805
+524128	2030	Sorbung	mənáam	mənáam	smell; sniff	smell; sniff	v.	v.	1.2.8.5	BodyParts.063	0			
+524129	2030	Sorbung	ʔə◦náa	ʔənáa	ear	ear			1.2.7	BodyParts.064	0			p,811
+524130	2030	Sorbung	ná◦kʰùur	nákʰùur	ear canal	ear canal			1.2.7	BodyParts.066	0			811,665b
+524131	2030	Sorbung	nájàaŋ	nájàaŋ	eardrum	eardrum			1.2.7.2	BodyParts.067	0			
+524132	2030	Sorbung	ʔənáaʔék	ʔənáaʔék	earwax	earwax			1.2.7.3	BodyParts.068	0			
+524133	2030	Sorbung	tʰóo	tʰóo	hear	hear	v.	v.	1.2.7.4	BodyParts.069	0			
+524134	2030	Sorbung	nàkʰuák	nàkʰuák	deaf	deaf			1.2.7.5	BodyParts.070	0			
+524135	2030	Sorbung	mor	mor	mouth	mouth			1.3.1	BodyParts.071	0			467
+524136	2030	Sorbung	há◦kʰii	hákʰii	gums	gums			1.3.4.3	BodyParts.074	0			632,m
+524137	2030	Sorbung	kəráak	kəráak	uvula; throat	uvula; throat			1.3.5.1	BodyParts.075	0			
+524138	2030	Sorbung	mə-cám-cʉ̀ʉ	mə-cám-cʉ̀ʉ	saliva	saliva			1.8.3	BodyParts.077	0			
+524139	2030	Sorbung	saa	saa	eat	eat			1.5.3.2	BodyParts.078	0			
+524140	2030	Sorbung	saa	saa	eat (rice)	eat (rice)	v.	v.	1.5.3.2	BodyParts.079	0			
+524141	2030	Sorbung	ʔíin	ʔíin	drink	drink	v.	v.		BodyParts.080	0			1705
+524142	2030	Sorbung	cʉrée	cʉrée	thirsty	thirsty	be v.	be v.	1.1.3.1	BodyParts.081	0			
+524143	2030	Sorbung	bùcám	bùcám	hungry	hungry	be v.	be v.	1.1.3	BodyParts.082	0			
+524144	2030	Sorbung	kʰòop	kʰòop	full; satiated	full; satiated	be v.	be v.	1.1.3.2	BodyParts.084	0			
+524145	2030	Sorbung	məcamcʉ́ʉ mə◦tʰúur	məcamcʉ́ʉ mətʰúur	spit	spit	v.	v.	1.8.3	BodyParts.087	0			m,m,4229
+524146	2030	Sorbung	məcamcʉ́ʉ məsàk	məcamcʉ́ʉ məsàk	spit	spit	v.	v.	1.8.3	BodyParts.088	0			
+524147	2030	Sorbung	məlit	məlit	vomit	vomit	v.	v.	1.8.3.2	BodyParts.090	0			5697
+524148	2030	Sorbung	mùam	mùam	hold in mouth	hold in mouth	v.	v.	1.3.4.4	BodyParts.091	0			3451
+524149	2030	Sorbung	ʔàaŋ	ʔàaŋ	gape; open mouth	gape; open mouth	v.	v.	1.3.1	BodyParts.092	0			4497
+524150	2030	Sorbung	məhàm	məhàm	yawn	yawn	v.	v.	1.3.1.3	BodyParts.093	0			1715
+524151	2030	Sorbung	məlée	məlée	tongue	tongue			1.3.3	BodyParts.094	0			621
+524152	2030	Sorbung	cóŋ	cóŋ	speak	speak	v.	v.	8.5.10.1	BodyParts.095	0			
+524153	2030	Sorbung	ʔəkʰúan, ʔkʰúan	ʔəkʰúan, ʔkʰúan	voice	voice			8.5.5	BodyParts.096	0			
+524154	2030	Sorbung	cóŋ	cóŋ	words; speech	words; speech			8.5.10.2	BodyParts.098	0			
+524155	2030	Sorbung	cóŋʔàak	cóŋʔàak	stutter; stammer	stutter; stammer			8.5.4.5	BodyParts.099	0			
+524156	2030	Sorbung	coŋʃúuk	coŋʃúuk	mute; dumb	mute; dumb			1.5.3.2	BodyParts.100	0			
+524157	2030	Sorbung	məléek	məléek	lick	lick	v.	v.	1.3.3.1	BodyParts.101	0			629
+524158	2030	Sorbung	mòr	mòr	lip	lip			1.3.2	BodyParts.102	0			467
+524159	2030	Sorbung	mòr	mòr	beak; bill (of bird)	beak; bill (of bird)			1.3.1.2	BodyParts.105	0			
+524160	2030	Sorbung	mənʉ́ʉ	mənʉ́ʉ	smile	smile	v.	v.	1.8.8.1	BodyParts.106	0			1105
+524161	2030	Sorbung	mə-júup	mə-júup	kiss	kiss	v.	v.	1.3.2.2	BodyParts.107	0			p,4621
+524162	2030	Sorbung	haa	haa	tooth	tooth			1.3.4	BodyParts.108	0			
+524163	2030	Sorbung	ha-bʉʉ	ha-bʉʉ	molar	molar			1.3.4.2	BodyParts.110	0			
+524164	2030	Sorbung	ʔóo	ʔóo	bite	bite	v.	v.	1.3.4.4	BodyParts.114	0			
+524165	2030	Sorbung	ʔóo	ʔóo	chew	chew	v.	v.	1.3.4	BodyParts.115	0			
+524166	2030	Sorbung	mai	mai	cheek	cheek			1.2.5.2	BodyParts.116	0			
+524167	2030	Sorbung	mai◦rúu	mai◦rúu	cheekbone; bone, malar	cheekbone; bone, malar			1.2.5.2	BodyParts.117	0			m,232
+524168	2030	Sorbung	mə-kʰáa	mə-kʰáa	chin; jaw	chin; jaw			1.2.5.3	BodyParts.118	0			
+524169	2030	Sorbung	mə-kʰáa-ruu	mə-kʰáa-ruu	jawbone; mandible; bone, jaw	jawbone; mandible; bone, jaw			1.2.5.2	BodyParts.119	0			m,m,232
+524170	2030	Sorbung	kəráak	kəráak	throat	throat			1.3.5	BodyParts.122	0			
+524171	2030	Sorbung	riiŋ	riiŋ	neck	neck			1.4.2	BodyParts.123	0			479
+524172	2030	Sorbung	kəráak	kəráak	Adam's apple; larynx (throat)	Adam's apple; larynx (throat)			1.3.5	BodyParts.127	0			
+524173	2030	Sorbung	kəráak	kəráak	windpipe; trachea	windpipe; trachea			1.3.5.2	BodyParts.128	0			
+524174	2030	Sorbung	məjʉ́ʉ	məjʉ́ʉ	swallow	swallow	v.	v.	1.3.5.6	BodyParts.130	0			
+524175	2030	Sorbung	mətʰín	mətʰín	chest (=liver)	chest (=liver)			1.4.4.3	BodyParts.132	0			1390
+524176	2030	Sorbung	wándà ʔərúu	wándà ʔərúu	rib cage	rib cage			1.4.4.3	BodyParts.133	0			
+524177	2030	Sorbung	ləkʰàa	ləkʰàa	shoulder	shoulder			1.4.3	BodyParts.137	0			
+524178	2030	Sorbung	cúup	cúup	breast	breast			1.4.4.3	BodyParts.141	0			5541
+524179	2030	Sorbung	cùbráa	cùbráa	nipple	nipple				BodyParts.142	0			
+524180	2030	Sorbung	cúup	cúup	udder (of cow, goat)	udder (of cow, goat)				BodyParts.143	0			
+524181	2030	Sorbung	cùp◦cʉʉ	cùpcʉʉ	milk	milk				BodyParts.144	0			5541,m
+524182	2030	Sorbung	mə-júp	mə-júp	suck	suck	v.	v.	1.3.2.1	BodyParts.145	0			p,4621
+524183	2030	Sorbung	ʔíin	ʔíin	nurse; suckle (=drink)	nurse; suckle (=drink)	v.	v.	4.2.1.5	BodyParts.146	0			1705
+524184	2030	Sorbung	caŋ◦kʰoom	caŋkʰoom	milk	milk				BodyParts.148	0			
+524185	2030	Sorbung	cùup-ʔíinməkài	cùup-ʔíinməkài	wean	wean				BodyParts.149	0			
+524186	2030	Sorbung	kòoŋ	kòoŋ	back	back			1.4.8	BodyParts.150	0			
+524187	2030	Sorbung	kòoŋcat	kòoŋcat	back, lower	back, lower			1.4.8	BodyParts.152	0			
+524188	2030	Sorbung	kòoŋ◦rúu	kòoŋ◦rúu	spine; backbone	spine; backbone			1.4.8.2	BodyParts.153	0			1,232
+524189	2030	Sorbung	ʔəlíglák	ʔəlíglák	spinal cord (=marrow)	spinal cord (=marrow)			1.4.8.2	BodyParts.154	0			
+524190	2030	Sorbung	kòoŋkʰùu	kòoŋkʰùu	hunchback	hunchback			1.4.8.3	BodyParts.155	0			
+524191	2030	Sorbung	wan	wan	belly; abdomen (external bulge)	belly; abdomen (external bulge)			1.4.7	BodyParts.156	0			
+524192	2030	Sorbung	p(ə)lái	p(ə)lái	navel	navel			1.9.4	BodyParts.157	0			
+524193	2030	Sorbung	ʔəkái, ʔkái	ʔəkái, ʔkái	hips	hips			1.4.9.2	BodyParts.160	0			
+524194	2030	Sorbung	kèemətóo, kèemədóo	kèemətóo, kèemədóo	crotch; fork of legs	crotch; fork of legs			1.4.9.1	BodyParts.163	0			
+524195	2030	Sorbung	ʔəkái	ʔəkái	buttocks	buttocks			1.4.10	BodyParts.165	0			
+524196	2030	Sorbung	ʔəkáiruu	ʔəkáiruu	tailbone; coccyx	tailbone; coccyx			1.6.3.3	BodyParts.166	0			
+524197	2030	Sorbung	ʔəmóo	ʔəmóo	tail (of animal)	tail (of animal)			1.4.10.1	BodyParts.167	0			
+524198	2030	Sorbung	ʔəráan	ʔəráan	stature	stature			9.6.2	BodyParts.170	0			
+524199	2030	Sorbung	kʉ́t	kʉ́t	arm; hand	arm; hand			1.5.1.2	BodyParts.171	0			712
+524200	2030	Sorbung	cùbláa	cùbláa	underarm; armpit	underarm; armpit			1.5.1.2.3	BodyParts.172	0			
+524201	2030	Sorbung	paambúm	paambúm	arm, upper	arm, upper			1.5.1.2	BodyParts.174	0			
+524202	2030	Sorbung	kʉ́t	kʉ́t	hand	hand			1.5.1.1	BodyParts.181	0			712
+524203	2030	Sorbung	kʉ̀d◦məjáa	kʉ̀dməjáa	palm	palm			1.5.5	BodyParts.182	0			m,6217
+524204	2030	Sorbung	ʔən-cáaŋ-làm	ʔən-cáaŋ-làm	right hand	right hand			1.5.3.2	BodyParts.185	0			
+524205	2030	Sorbung	təm-bue-làm	təm-bue-làm	left hand	left hand			1.5.3.2	BodyParts.186	0			
+524206	2030	Sorbung	ʔə◦ŋà◦míi	ʔəŋàmíi	fin; scale of fish	fin; scale of fish			1.5.1.3.1	BodyParts.187	0			p,1455,m
+524207	2030	Sorbung	pʰəláa, pʰláa	pʰəláa, pʰláa	wing (of bird)	wing (of bird)			1.5.1.3	BodyParts.188	0			
+524208	2030	Sorbung	kèe	kèe	leg	leg			1.5.7	BodyParts.190	0			338
+524209	2030	Sorbung	mə-tóo	mə-tóo	thigh	thigh			1.5.7.1	BodyParts.191	0			
+524210	2030	Sorbung	mə◦tóo◦ruu	mə◦tóo◦ruu	thigh bone; femur	thigh bone; femur			1.5.7.1	BodyParts.192	0			m,m,232
+524211	2030	Sorbung	ʔə◦kʰúk, ʔkʰúk	ʔə◦kʰúk, ʔkʰúk	knee	knee			1.5.8.4	BodyParts.194	0			p,1251,1251
+524212	2030	Sorbung	kʰúk	kʰúk	knee cap; patella	knee cap; patella			1.5.8.4	BodyParts.195	0			1251
+524213	2030	Sorbung	kèe-mə-rái	kèe-mə-rái	calf; shin	calf; shin			1.5.7	BodyParts.199	0			
+524214	2030	Sorbung	kè◦míit	kèmíit	ankle	ankle			1.5.8.2	BodyParts.200	0			m,682
+524215	2030	Sorbung	kèe	kèe	foot	foot			1.5.2	BodyParts.202	0			338
+524216	2030	Sorbung	kèeməjáa	kèeməjáa	sole	sole			1.5.5	BodyParts.206	0			
+524217	2030	Sorbung	kèlúuŋ	kèlúuŋ	footprint	footprint			1.5.2.5	BodyParts.207	0			
+524218	2030	Sorbung	kèkíuk	kèkíuk	crippled; lame; handicapped (whether or not legs are involved)	crippled; lame; handicapped (whether or not legs are involved)			4.2.7	BodyParts.210	0			
+524219	2030	Sorbung	jaw tʰóo mài	jaw tʰóo mài	limp	limp	v.	v.	1.5.12	BodyParts.211	0			
+524220	2030	Sorbung	-məjúumràa	-məjúumràa	digit	digit			1.5.6	BodyParts.212	0			
+524221	2030	Sorbung	kʉdməjúumràa, kʉtməjúumràa	kʉdməjúumràa, kʉtməjúumràa	finger	finger			1.5.6	BodyParts.213	0			
+524222	2030	Sorbung	kʉ̀sáa	kʉ̀sáa	finger, little	finger, little			1.5.6	BodyParts.214	0			
+524223	2030	Sorbung	kʉ̀dbʉ́ʉ	kʉ̀dbʉ́ʉ	thumb	thumb			1.5.6.1	BodyParts.215	0			
+524224	2030	Sorbung	kèeməjúumràa	kèeməjúumràa	toe	toe			1.5.6	BodyParts.217	0			
+524225	2030	Sorbung	kèbʉ́ʉ	kèbʉ́ʉ	toe, big	toe, big			1.5.6	BodyParts.218	0			
+524226	2030	Sorbung	kèsáa	kèsáa	toe, little	toe, little			1.5.6	BodyParts.219	0			
+524227	2030	Sorbung	mətín	mətín	nail	nail			1.5.10	BodyParts.221	0			512
+524228	2030	Sorbung	kʉ̀dmətín	kʉ̀dmətín	fingernail	fingernail			1.5.10.1	BodyParts.222	0			
+524229	2030	Sorbung	kèemətín	kèemətín	toenail	toenail			1.5.10.2	BodyParts.223	0			
+524230	2030	Sorbung	mətín	mətín	claw (of animal)	claw (of animal)			1.5.10.4	BodyParts.224	0			512
+524231	2030	Sorbung	mətín	mətín	talon (of bird)	talon (of bird)			1.5.10.4	BodyParts.225	0			512
+524232	2030	Sorbung	ʔə◦míi	ʔəmíi	hair (general)	hair (general)			1.2.3	BodyParts.227	0			p,363
+524233	2030	Sorbung	sàam	sàam	hair of head	hair of head			1.2.3	BodyParts.228	0			366
+524234	2030	Sorbung	mòr◦míi	mòrmíi	hair, facial	hair, facial			1.2.3	BodyParts.230	0			m,363
+524235	2030	Sorbung	mòrmíi	mòrmíi	beard	beard			1.2.5.5	BodyParts.231	0			
+524236	2030	Sorbung	mòrmíi	mòrmíi	goatee	goatee			1.2.5.5	BodyParts.232	0			
+524237	2030	Sorbung	mòrmíi	mòrmíi	moustache	moustache			1.2.5.5	BodyParts.233	0			
+524238	2030	Sorbung	ʔə◦míi	ʔəmíi	hair, body	hair, body			1.2.3	BodyParts.234	0			m,363
+524239	2030	Sorbung	cù◦bláa◦míi	cùbláamíi	hair, underarm	hair, underarm			1.2.3	BodyParts.235	0			m,m,363
+524240	2030	Sorbung	kè◦míi	kèmíi	hair, leg	hair, leg			1.2.3	BodyParts.237	0			338,363
+524241	2030	Sorbung	ʔəmíi	ʔəmíi	fur (of animal)	fur (of animal)			1.6.1	BodyParts.238	0			
+524242	2030	Sorbung	ʔə◦míi	ʔəmíi	feather (of bird)	feather (of bird)			1.6.1.1	BodyParts.239	0			p,363
+524243	2030	Sorbung	mòrmíi	mòrmíi	whiskers (of animal)	whiskers (of animal)			1.2.5.5	BodyParts.241	0			
+524244	2030	Sorbung	ʔə-hʉ́n	ʔə-hʉ́n	skin	skin			1.6.5	BodyParts.242	0			
+524245	2030	Sorbung	məkʰáncʉʉ	məkʰáncʉʉ	sweat; perspiration	sweat; perspiration			1.8.1	BodyParts.243	0			
+524246	2030	Sorbung	maihìŋ	maihìŋ	blemish on skin	blemish on skin			1.6.5	BodyParts.245	0			
+524247	2030	Sorbung	maihìŋ	maihìŋ	freckle	freckle			1.6.5.3	BodyParts.246	0			
+524248	2030	Sorbung	sə̀màamíi	sə̀màamíi	mole; blemish	mole; blemish			2.2.7	BodyParts.248	0			
+524249	2030	Sorbung	ʔəhʉ́nnáa	ʔəhʉ́nnáa	wart (= skin disease)	wart (= skin disease)			1.6.5.3	BodyParts.249	0			
+524250	2030	Sorbung	tàak	tàak	scar	scar			1.6.5.3	BodyParts.252	0			
+524251	2030	Sorbung	mətʰàk	mətʰàk	itch; itchy, be	itch; itchy, be	v.	v.	1.6.5.5	BodyParts.255	0			
+524252	2030	Sorbung	kʰuat	kʰuat	scratch	scratch			1.6.5.5	BodyParts.256	0			4457
+524253	2030	Sorbung	ʔə-kaaŋ	ʔə-kaaŋ	scab (hardened rice at bottom of pot)	scab (hardened rice at bottom of pot)			1.6.5.3	BodyParts.257	0			
+524254	2030	Sorbung	ʔə◦ŋà◦míi	ʔəŋàmíi	scales (of fish)	scales (of fish)			1.6.5.2	BodyParts.258	0			p,1455,m
+524255	2030	Sorbung	ʔəmèkhʉ́n	ʔəmèkhʉ́n	hide; leather (dried animal skin)	hide; leather (dried animal skin)			1.6.5.1	BodyParts.259	0			
+524256	2030	Sorbung	ʔətʰáu	ʔətʰáu	fat	fat			1.6.4	BodyParts.260	0			
+524257	2030	Sorbung	tʰàu	tʰàu	oil; grease (for cooking)	oil; grease (for cooking)			1.6.4.1	BodyParts.262	0			
+524258	2030	Sorbung	ʔə-rúu	ʔə-rúu	bone	bone			1.6.3	BodyParts.263	0			p,232
+524259	2030	Sorbung	ʔəruráaŋ	ʔəruráaŋ	skeleton	skeleton			1.6.3.1	BodyParts.264	0			
+524260	2030	Sorbung	kòoŋ◦rúu	kòoŋ◦rúu	vertebrae (of spine)	vertebrae (of spine)			1.6.3.3	BodyParts.265	0			1,232
+524261	2030	Sorbung	ʔəlíglák	ʔəlíglák	sinew; tendon (muscle to bone)	sinew; tendon (muscle to bone)			1.6.6.1	BodyParts.267	0			
+524262	2030	Sorbung	ʔəlíglák	ʔəlíglák	ligament (bone to bone)	ligament (bone to bone)			1.6.3	BodyParts.268	0			
+524263	2030	Sorbung	tʰìi	tʰìi	blood	blood			1.6.2	BodyParts.269	0			230
+524264	2030	Sorbung	mə-ŋee-tʰáa-rʉʉ	mə-ŋee-tʰáa-rʉʉ	blood vessel; vein; artery	blood vessel; vein; artery			1.6.2.1	BodyParts.270	0			
+524265	2030	Sorbung	tʰìʃúuk	tʰìʃúuk	bleed	bleed	v.	v.	1.6.2	BodyParts.271	0			
+524266	2030	Sorbung	ʔə-ták	ʔə-ták	muscle (=flesh)	muscle (=flesh)			1.6.6.2	BodyParts.272	0			p,8
+524267	2030	Sorbung	mətètnà	mətètnà	joint	joint			1.5.8	BodyParts.274	0			
+524268	2030	Sorbung	ʔəlíglák	ʔəlíglák	marrow	marrow			1.6.3.5	BodyParts.279	0			
+524269	2030	Sorbung	ʔəpʰʉ̀t	ʔəpʰʉ̀t	breath	breath			1.1.2.2	BodyParts.281	0			
+524270	2030	Sorbung	ʔəpʰʉ̀t-lée	ʔəpʰʉ̀t-lée	breathe	breathe	v.	v.	1.1.2.2	BodyParts.282	0			
+524271	2030	Sorbung	sèm	sèm	blow (mouth)	blow (mouth)			1.3.1.4	BodyParts.284	0			4579
+524272	2030	Sorbung	mə-lúŋ	mə-lúŋ	heart	heart			1.7.1	BodyParts.287	0			
+524273	2030	Sorbung	ʔəpʰʉ̀t	ʔəpʰʉ̀t	heartbeat (=breath)	heartbeat (=breath)			1.7.1.1	BodyParts.288	0			
+524274	2030	Sorbung	mətʰín	mətʰín	liver	liver			1.7.3	BodyParts.291	0			1390
+524275	2030	Sorbung	məʃìŋkʰaa	məʃìŋkʰaa	bile	bile			1.7.3.1	BodyParts.292	0			
+524276	2030	Sorbung	mə-|kee	mə-kee	kidney	kidney			1.7.5	BodyParts.294	0			201
+524277	2030	Sorbung	mə-cée-cʉ̀ʉ, mə-cée-cʉʉ	mə-cée-cʉ̀ʉ, mə-cée-cʉʉ	urine	urine			1.8.4	BodyParts.296	0			
+524278	2030	Sorbung	məcée-len	məcée-len	urinate	urinate	v.	v.	1.5.3.2	BodyParts.297	0			
+524279	2030	Sorbung	ʔə◦cúap	ʔəcúap	spleen	spleen			1.7.4	BodyParts.298	0			
+524280	2030	Sorbung	ʔə◦cúap woroo	ʔəcúap woroo	swollen spleen (illness)	swollen spleen (illness)			1.1.5.2	BodyParts.299	0			
+524281	2030	Sorbung	wan	wan	stomach	stomach			1.7.6	BodyParts.301	0			
+524282	2030	Sorbung	ʔəríi	ʔəríi	intestines; bowels	intestines; bowels			1.7.7	BodyParts.302	0			2127
+524283	2030	Sorbung	ʔəríi◦lookpaa	ʔəríilookpaa	large intestine	large intestine			1.7.7	BodyParts.303	0			2127,m
+524284	2030	Sorbung	ʔəríi◦nèepaa	ʔəríinèepaa	small intestine	small intestine			9.7.2	BodyParts.304	0			2127,m
+524285	2030	Sorbung	ʔə-kái	ʔə-kái	anus; rectum	anus; rectum			1.4.10.2	BodyParts.306	0			
+524286	2030	Sorbung	ʔèk	ʔèk	feces; shit	feces; shit			1.8.5	BodyParts.307	0			576
+524287	2030	Sorbung	ʔèklen, ʔèglen	ʔèklen, ʔèglen	defecate	defecate	v.	v.	1.8.5.4	BodyParts.309	0			
+524288	2030	Sorbung	ʔətéŋná	ʔətéŋná	copulate; have intercourse	copulate; have intercourse	v.	v.	1.9.1.1	BodyParts.311	0			
+524289	2030	Sorbung	jaaŋ	jaaŋ	penis	penis				BodyParts.312	0			
+524290	2030	Sorbung	jaŋhʉ́n	jaŋhʉ́n	foreskin	foreskin				BodyParts.314	0			
+524291	2030	Sorbung	jàŋráa	jàŋráa	testicle	testicle				BodyParts.316	0			
+524292	2030	Sorbung	jàŋ◦mìi	jàŋmìi	hair, male pubic	hair, male pubic			1.2.3	BodyParts.317	0			m,363
+524293	2030	Sorbung	jaŋcʉ̀ʉ	jaŋcʉ̀ʉ	semen; sperm	semen; sperm				BodyParts.318	0			
+524294	2030	Sorbung	ʃir	ʃir	vagina	vagina				BodyParts.321	0			
+524295	2030	Sorbung	ʃir◦mìi	ʃirmìi	hair, female pubic	hair, female pubic			1.2.3	BodyParts.325	0			m,363
+524296	2030	Sorbung	ʔə-laam	ʔə-laam	placenta; afterbirth	placenta; afterbirth				BodyParts.331	0			
+524297	2030	Sorbung	p(ə)lái	p(ə)lái	umbilical cord	umbilical cord				BodyParts.332	0			
+524298	2030	Sorbung	mə-rái	mə-rái	pregnant	pregnant	be v.	be v.	1.9.6.1	BodyParts.334	0			
+524299	2030	Sorbung	mədée	mədée	birth, give; bear	birth, give; bear			1.1.2	BodyParts.335	0			
+524300	2030	Sorbung	mədée	mədée	born	born	be v.	be v.	1.1.2	BodyParts.336	0			
+524301	2030	Sorbung	ʔacʉ̀ʉ	ʔacʉ̀ʉ	chicken egg	chicken egg			2.1.10	BodyParts.337	0			
+524302	2030	Sorbung	məkʰáa	məkʰáa	cough	cough			1.8.3.3	BodyParts.338	0			
+524303	2030	Sorbung	səkái	səkái	hiccup	hiccup			1.8.3.5	BodyParts.339	0			
+524304	2030	Sorbung	hátʰìi	hátʰìi	sneeze	sneeze			1.8.2.1	BodyParts.340	0			
+524305	2030	Sorbung	ŋə◦náar	ŋənáar	snore	snore			1.8.2.2	BodyParts.341	0			m,1784
+524306	2030	Sorbung	məhʉ́ʉ	məhʉ́ʉ	whistle	whistle			8.5.5	BodyParts.342	0			
+524307	2030	Sorbung	məcipát	məcipát	fart	fart			1.8.5.2	BodyParts.344	0			
+524308	2030	Sorbung	mə-|nʉ́ʉ	mə-nʉ́ʉ	laugh	laugh			1.8.8.1	BodyParts.346	0			1105
+524309	2030	Sorbung	sái	sái	tremble; shiver; shudder	tremble; shiver; shudder			1.6.6.2.1	BodyParts.347	0			
+524310	2030	Sorbung	jáak	jáak	ashamed; shy	ashamed; shy			8.3.3.8.2	BodyParts.349	0			
+524311	2030	Sorbung	náa	náa	sick; ill, be; hurt	sick; ill, be; hurt	be v.	be v.	1.1.5.1	BodyParts.350	0			
+524312	2030	Sorbung	wór	wór	swell; swollen, be	swell; swollen, be			1.1.5.2	BodyParts.352	0			
+524313	2030	Sorbung	ʔənái	ʔənái	pus	pus			1.8.6.1	BodyParts.353	0			
+524314	2030	Sorbung	kʉdməjumráa kʰàt	kʉdməjumráa kʰàt	finger width, one	finger width, one			1.5.6	BodyParts.356	0			m,2301
+524315	2030	Sorbung	kʉ̀t◦kʰóom	kʉ̀t◦kʰóom	hand span	hand span			1.5.9.4	BodyParts.357	0			712,m
+524316	2030	Sorbung	laam-kʰàt	laam-kʰàt	cord, one; fathom, one	cord, one; fathom, one			9.9	BodyParts.359	0			1310
+524317	2030	Sorbung	laam-təŋ-kʰai	laam-təŋ-kʰai	fathom, half	fathom, half			9.8	BodyParts.360	0			
+524318	2030	Sorbung	kap kʰàt	kap kʰàt	length from thumb to forefinger	length from thumb to forefinger			10.1.1	BodyParts.362	0			
+524319	2030	Sorbung	níiŋ	níiŋ	mind; locus of thought	mind; locus of thought			1.10	BodyParts.363	0			
+524320	2030	Sorbung	níiŋ	níiŋ	heart; locus of emotions	heart; locus of emotions			1.7.1	BodyParts.365	0			
+524321	2030	Sorbung	məlúuŋ	məlúuŋ	heart; locus of anger	heart; locus of anger			1.7.1	BodyParts.366	0			
+524322	2030	Sorbung	tʰèe	tʰèe	bow	bow			5.15	Implements.001	0			
+524323	2030	Sorbung	tʰèe	tʰèe	arrow	arrow			5.15	Implements.002	0			
+524324	2030	Sorbung	sàiróoŋ	sàiróoŋ	slingshot	slingshot			5.14	Implements.003	0			
+524325	2030	Sorbung	ròo	ròo	axe	axe			5.11.5.3	Implements.004	0			
+524326	2030	Sorbung	cèm	cèm	knife	knife			5.5	Implements.005	0			
+524327	2030	Sorbung	bélcàa	bélcàa	spade	spade			5.3	Implements.006	0			
+524328	2030	Sorbung	ʔəʃím	ʔəʃím	needle	needle			5.1	Implements.007	0			
+524329	2030	Sorbung	tənʃuk	tənʃuk	pestle	pestle			5.5	Implements.010	0			
+524330	2030	Sorbung	puankʰóoŋnaa	puankʰóoŋnaa	loom	loom			5.1	Implements.011	0			
+524331	2030	Sorbung	tətir	tətir	crossbar	crossbar			5.11.9		0			
+524332	2030	Sorbung	ləkium	ləkium	bar	bar			5.11.9		0			
+524333	2030	Sorbung	pʰáaglàaŋ	pʰáaglàaŋ	wall	wall			5.11.9.3	Implements.019	0			
+524334	2030	Sorbung	iiŋkʰaa	iiŋkʰaa	door	door			5.11.9.3	Implements.020	0			
+524335	2030	Sorbung	məhʉtʰoon	məhʉtʰoon	window	window			5.11.9.3	Implements.021	0			
+524336	2030	Sorbung	ʔəsóo	ʔəsóo	spear	spear			5.14	Implements.022	0			
+524337	2030	Sorbung	tʰə◦rìi	tʰə◦rìi	boundary	boundary			9.2.7	Implements.023	0			m,2616
+524338	2030	Sorbung	lam-bʉ̀ʉ	lam-bʉ̀ʉ	road; path	road; path			9.10.1	Implements.024	0			1017,m
+524339	2030	Sorbung	ʔə◦láak	ʔəláak	ladder	ladder			5.4	Implements.026	0			p,5780
+524340	2030	Sorbung	rʉʉ	rʉʉ	rope	rope			5.11.4	Implements.027	0			
+524341	2030	Sorbung	púan	púan	blanket; cloth	blanket; cloth			5.11.9.4	Implements.029	0			
+524342	2030	Sorbung	təŋguáp	təŋguáp	hat; headdress	hat; headdress			5.11.8.2.1.1	Implements.030	0			
+524343	2030	Sorbung	təgók	təgók	pot	pot			5.5	Implements.034	0			
+524344	2030	Sorbung	téŋguàt	téŋguàt	bowl	bowl			5.1	Implements.036	0			
+524345	2030	Sorbung	cəkáap	cəkáap	tongs	tongs			5.4	Implements.037	0			
+524346	2030	Sorbung	məʃíi	məʃíi	necklace	necklace			5.11.8.3	Implements.039	0			
+524347	2030	Sorbung	ʔənáatʰíiŋ	ʔənáatʰíiŋ	earring	earring			5.11.8.3	Implements.041	0			
+524348	2030	Sorbung	lèe	lèe	medicine	medicine			5.4	Implements.042	0			
+524349	2030	Sorbung	laa	laa	song	song			5.1	Implements.044	0			5446
+524350	2030	Sorbung	ʔə◦máan	ʔəmáan	price	price			5.9	Implements.045	0			p,4759
+524351	2030	Sorbung	rée	rée	war	war			5.15	Implements.046	0			
+524352	2030	Sorbung	ʔəkíi	ʔəkíi	corner	corner			5.11.9.3	Implements.047	0			
+524353	2030	Sorbung	ókətʰui	ókətʰui	world; cosmos	world; cosmos			9.10.2	Nature.001	0			
+524354	2030	Sorbung	húar	húar	bright	bright			7.1.11.1	Nature.003	0			
+524355	2030	Sorbung	ʔənim	ʔənim	shadow	shadow			3.2.10	Nature.005	0			
+524356	2030	Sorbung	jíiŋ	jíiŋ	dark	dark			9.4	Nature.007	0			
+524357	2030	Sorbung	ʔəwaarám	ʔəwaarám	sky	sky			3.2.2	Nature.008	0			
+524358	2030	Sorbung	ʔə◦níi	ʔəníi	sun	sun			3.2.10	Nature.009	0			p,85
+524359	2030	Sorbung	ʔəníi-ʃuuk	ʔəníi-ʃuuk	sunrise	sunrise			3.2.10	Nature.011	0			
+524360	2030	Sorbung	ʔəʃʉn	ʔəʃʉn	day	day			1.5.3.2	Nature.012	0			
+524361	2030	Sorbung	ʔəkʰuanlám	ʔəkʰuanlám	morning	morning			9.1.4	Nature.014	0			
+524362	2030	Sorbung	ʔəʃʉn	ʔəʃʉn	noon	noon			9.1.4	Nature.015	0			
+524363	2030	Sorbung	kʰəleelám	kʰəleelám	evening	evening			9.1.4	Nature.016	0			
+524364	2030	Sorbung	ʔəníi-lʉ́t	ʔəníi-lʉ́t	sunset	sunset			3.2.10	Nature.017	0			
+524365	2030	Sorbung	ʔəján	ʔəján	night	night			9.1.4	Nature.019	0			
+524366	2030	Sorbung	kuum	kuum	year	year			9.1.2	Nature.020	0			
+524367	2030	Sorbung	ʔəkʰáa	ʔəkʰáa	month	month			9.1.2	Nature.021	0			
+524368	2030	Sorbung	ʔəjíiŋ	ʔəjíiŋ	darkness	darkness			9.4	Nature.022	0			
+524369	2030	Sorbung	ʔə-kʰáa	ʔə-kʰáa	moon	moon			3.2.2	Nature.024	0			
+524370	2030	Sorbung	ʔə◦ʃii	ʔəʃii	star	star			3.2.2	Nature.036	0			2300,1019
+524371	2030	Sorbung	kʰii	kʰii	wind	wind			3.2.1	Nature.043	0			
+524372	2030	Sorbung	kʰàmbʉ́ʉ	kʰàmbʉ́ʉ	cloud	cloud			3.2.1	Nature.048	0			
+524373	2030	Sorbung	kə̀ʃuà	kə̀ʃuà	rain	rain			3.2.1	Nature.053	0			
+524374	2030	Sorbung	ʔə-dái-cʉʉ	ʔə-dái-cʉʉ	dew	dew				Nature.055	0			m,6170,m
+524375	2030	Sorbung	ʔəhúr	ʔəhúr	frost	frost			3.2.1	Nature.056	0			
+524376	2030	Sorbung	ʔəhúr	ʔəhúr	snow	snow			3.2.1	Nature.057	0			
+524377	2030	Sorbung	ʔəriáràa	ʔəriáràa	hail; sleet	hail; sleet			3.2.1	Nature.058	0			
+524378	2030	Sorbung	kʰʉpʉ́ kʰʉncaaŋ	kʰʉpʉ́ kʰʉncaaŋ	storm	storm			3.2.1	Nature.059	0			
+524379	2030	Sorbung	kʰumléeláap	kʰumléeláap	lightning	lightning			3.2.1	Nature.060	0			
+524380	2030	Sorbung	məcék kàa	məcék kàa	thunder	thunder			3.2.1	Nature.061	0			
+524381	2030	Sorbung	móo	móo	fire	fire			3.2.12.2	Nature.064	0			
+524382	2030	Sorbung	mokʰʉ́t	mokʰʉ́t	smoke	smoke			3.2.12.2	Nature.068	0			
+524383	2030	Sorbung	moʔék	moʔék	ember; hot coal	ember; hot coal			3.2.12.2	Nature.069	0			
+524384	2030	Sorbung	məhée	məhée	charcoal	charcoal			3.2.4	Nature.071	0			
+524385	2030	Sorbung	moo-còk	moo-còk	burn; on fire, be	burn; on fire, be			3.2.12.1	Nature.072	0			
+524386	2030	Sorbung	mò-sèm	mò-sèm	blow fire	blow fire			1.3.1.4	Nature.075	0			
+524387	2030	Sorbung	lèe-hèe	lèe-hèe	burn off fields; slash and burn	burn off fields; slash and burn			3.2.12.1	Nature.079	0			
+524388	2030	Sorbung	məmìt	məmìt	extinguish; put out fire	extinguish; put out fire			3.2.12.1	Nature.082	0			
+524389	2030	Sorbung	cʉ́ʉ	cʉ́ʉ	water	water			3.2.3	Nature.083	0			
+524390	2030	Sorbung	pukʰrìi	pukʰrìi	pond; pool	pond; pool			3.2.3	Nature.093	0			
+524391	2030	Sorbung	cəkòo, cəgòo	cəkòo, cəgòo	river	river			3.2.3	Nature.094	0			
+524392	2030	Sorbung	cə◦luáŋ	cəluáŋ	flow	flow	v.	v.	6.6.1	Nature.095	0			m,5020
+524393	2030	Sorbung	cəlàm	cəlàm	spring	spring			6.7.9	Nature.101	0			
+524394	2030	Sorbung	ʔəhúr	ʔəhúr	ice	ice			3.2.3	Nature.103	0			
+524395	2030	Sorbung	cəlòk	cəlòk	flood	flood			3.2.3	Nature.108	0			
+524396	2030	Sorbung	cəkáaŋ	cəkáaŋ	drought	drought			3.2.3	Nature.109	0			
+524397	2030	Sorbung	ʔəloo	ʔəloo	earth; ground; dry land (vs. water)	earth; ground; dry land (vs. water)			3.2.11	Nature.110	0			
+524398	2030	Sorbung	ràmbʉʉ háaŋ	ràmbʉʉ háaŋ	earthquake	earthquake			3.2.6	Nature.111	0			
+524399	2030	Sorbung	ʔəʃìi	ʔəʃìi	sand	sand			3.2.11	Nature.113	0			
+524400	2030	Sorbung	lámpʰʉ	lámpʰʉ	clay	clay			3.2.11	Nature.114	0			
+524401	2030	Sorbung	lampʰʉ̀ təkòo, dəgòo	lampʰʉ̀ təkòo, dəgòo	pot, clay	pot, clay			5.5	Nature.115	0			
+524402	2030	Sorbung	ʔəhʉ́t	ʔəhʉ́t	dust; powder	dust; powder			3.2.11	Nature.117	0			
+524403	2030	Sorbung	cíiŋ-tòoŋ	cíiŋ-tòoŋ	mountain	mountain			3.2.5	Nature.123	0			m,6223
+524404	2030	Sorbung	cíiŋtòoŋ	cíiŋtòoŋ	hill	hill			3.2.5	Nature.126	0			
+524405	2030	Sorbung	təmbàak	təmbàak	valley (river valley)	valley (river valley)			3.2.5	Nature.132	0			
+524406	2030	Sorbung	lùuŋ	lùuŋ	stone	stone			3.2.9	Nature.135	0			
+524407	2030	Sorbung	ʔə-kʰuá	ʔə-kʰuá	hole	hole			3.2.7	Nature.138	0			
+524408	2030	Sorbung	luŋ-kʰua	luŋ-kʰua	cave; hole (in rock)	cave; hole (in rock)			3.2.7	Nature.139	0			
+524409	2030	Sorbung	mə-cìi	mə-cìi	salt	salt			3.2.4	Nature.143	0			
+524410	2030	Sorbung	tʰiár	tʰiár	iron	iron			3.2.4	Nature.150	0			2673
+524411	2030	Sorbung	ʔədáahàaŋ	ʔədáahàaŋ	rust	rust			3.2.4	Nature.151	0			
+524412	2030	Sorbung	sənáa	sənáa	gold	gold			3.2.4	Nature.152	0			
+524413	2030	Sorbung	nuŋáajòo	nuŋáajòo	(I am) happy (=fortunate, prosperous).	(I am) happy (=fortunate, prosperous).				NomRel.003	0			
+524414	2030	Sorbung	kʰáat	kʰáat	one	one			9.9	Numbers.001	0			2301
+524415	2030	Sorbung	kə-niiŋ	kə-niiŋ	two	two			9.9	Numbers.002	0			
+524416	2030	Sorbung	ʔən-tʰúum	ʔən-tʰúum	three	three			9.9	Numbers.003	0			
+524417	2030	Sorbung	mə-líi	mə-líi	four	four			9.9	Numbers.004	0			
+524418	2030	Sorbung	rə-ŋáa	rə-ŋáa	five	five			9.9	Numbers.005	0			
+524419	2030	Sorbung	kə-rúuk	kə-rúuk	six	six			9.9	Numbers.006	0			
+524420	2030	Sorbung	sə-ríi	sə-ríi	seven	seven			9.9	Numbers.007	0			
+524421	2030	Sorbung	ʔərét	ʔərét	eight	eight			9.9	Numbers.008	0			
+524422	2030	Sorbung	ʔə-kúa	ʔə-kúa	nine	nine			9.9	Numbers.009	0			
+524423	2030	Sorbung	som	som	ten	ten			9.9	Numbers.010	0			
+524424	2030	Sorbung	som kʰáat	som kʰáat	eleven	eleven			9.9	Numbers.011	0			
+524425	2030	Sorbung	som kəníiŋ	som kəníiŋ	twelve	twelve			9.9	Numbers.012	0			
+524426	2030	Sorbung	som ʔəntʰúum	som ʔəntʰúum	thirteen	thirteen			9.9	Numbers.013	0			4678,m
+524427	2030	Sorbung	som məlíi	som məlíi	fourteen	fourteen			9.9	Numbers.014	0			4678,m
+524428	2030	Sorbung	som rəŋáa	som rəŋáa	fifteen	fifteen			9.9		0			4678,m
+524429	2030	Sorbung	som kərúuk	som kərúuk	sixteen	sixteen			9.9		0			4678,m
+524430	2030	Sorbung	som səríi	som səríi	seventeen	seventeen			9.9		0			4678,m
+524431	2030	Sorbung	som ʔərét	som ʔərét	eighteen	eighteen			9.9		0			4678,m
+524432	2030	Sorbung	som ʔəkúa	som ʔəkúa	nineteen	nineteen			9.9		0			4678,m
+524433	2030	Sorbung	semníi	semníi	twenty	twenty			9.9	Numbers.001	0			
+524434	2030	Sorbung	somtʰúum	somtʰúum	thirty	thirty			9.9	Numbers.002	0			
+524435	2030	Sorbung	sòŋŋáa	sòŋŋáa	fifty	fifty			9.9	Numbers.003	0			
+524436	2030	Sorbung	ʔəjaa kʰáat	ʔəjaa kʰáat	hundred	hundred			9.9	Numbers.004	0			
+524437	2030	Sorbung	lèeʃìŋ kʰáat	lèeʃìŋ kʰáat	thousand	thousand			9.9	Numbers.005	0			
+524438	2030	Sorbung	lèeʃìŋ som	lèeʃìŋ som	ten thousand	ten thousand			9.9	Numbers.006	0			
+524439	2030	Sorbung	moopaa	moopaa	first born	first born			9.9	People.001	0			
+524440	2030	Sorbung	kʰoopaa	kʰoopaa	second born	second born			9.9	People.002	0			
+524441	2030	Sorbung	teepáa	teepáa	third born	third born			9.9	People.003	0			
+524442	2030	Sorbung	miipáa	miipáa	fourth born	fourth born			9.9	People.004	0			
+524443	2030	Sorbung	tʰoombáa	tʰoombáa	fifth born	fifth born			9.9	People.005	0			
+524444	2030	Sorbung	joombáa	joombáa	sixth born	sixth born			9.9	People.006	0			
+524445	2030	Sorbung	loopáa	loopáa	seventh	seventh			9.9	People.007	0			
+524446	2030	Sorbung	mətʉnliaŋ	mətʉnliaŋ	eighth	eighth			9.9	People.008	0			
+524447	2030	Sorbung	moolét	moolét	ninth	ninth			9.9	People.009	0			
+524448	2030	Sorbung	paasàa	paasàa	man	man			1.9.6.1	People.010	0			
+524449	2030	Sorbung	moosáa	moosáa	woman	woman			1.9.3	People.011	0			
+524450	2030	Sorbung	ʔə-pùu	ʔə-pùu	grandfather, paternal	grandfather, paternal			4.7.1		0			
+524451	2030	Sorbung	ʔəm-búu	ʔəm-búu	grandfather, paternal (of ego)	grandfather, paternal (of ego)			4.7.1	People.012	0			
+524452	2030	Sorbung	ʔə-pii	ʔə-pii	paternal grandmother	paternal grandmother			4.7.1		0			
+524453	2030	Sorbung	ʔem-bíi	ʔem-bíi	grandmother, paternal (of ego)	grandmother, paternal (of ego)			4.7.1	People.013	0			
+524454	2030	Sorbung	ʔəm-búu	ʔəm-búu	grandfather, maternal (of ego)	grandfather, maternal (of ego)			4.7.1	People.014	0			
+524455	2030	Sorbung	ʔəm-bíi	ʔəm-bíi	grandmother, maternal (of ego)	grandmother, maternal (of ego)			4.7.1	People.015	0			
+524456	2030	Sorbung	ʔəmbaa	ʔəmbaa	father (of ego)	father (of ego)			4.7.1	People.016	0			
+524457	2030	Sorbung	ʔənnúu	ʔənnúu	mother (of ego)	mother (of ego)			4.7.1	People.017	0			
+524458	2030	Sorbung	pátáabàa	pátáabàa	uncle, elder paternal	uncle, elder paternal			4.7.1	People.018	0			
+524459	2030	Sorbung	nútáanù	nútáanù	aunt, wife of elder paternal uncle	aunt, wife of elder paternal uncle			4.7.1	People.019	0			
+524460	2030	Sorbung	ʔən-nìi	ʔən-nìi	aunt, elder paternal	aunt, elder paternal			4.7.1	People.020	0			
+524461	2030	Sorbung	pùu	pùu	uncle, husband of elder paternal aunt	uncle, husband of elder paternal aunt			4.7.1	People.021	0			
+524462	2030	Sorbung	pakùu	pakùu	uncle, younger paternal	uncle, younger paternal			4.7.1	People.022	0			
+524463	2030	Sorbung	núgənùu	núgənùu	aunt, wife of younger paternal uncle	aunt, wife of younger paternal uncle			4.7.1	People.023	0			
+524464	2030	Sorbung	ʔən-nìi	ʔən-nìi	aunt, younger paternal	aunt, younger paternal			4.7.1	People.024	0			
+524465	2030	Sorbung	pùu	pùu	uncle, husband of younger paternal aunt	uncle, husband of younger paternal aunt			4.7.1	People.025	0			
+524466	2030	Sorbung	pùu	pùu	uncle, maternal	uncle, maternal			4.7.1	People.026	0			
+524467	2030	Sorbung	pii	pii	aunt, wife of maternal uncle	aunt, wife of maternal uncle			4.7.1	People.027	0			
+524468	2030	Sorbung	nugənuu	nugənuu	aunt, maternal	aunt, maternal			4.7.1	People.028	0			
+524469	2030	Sorbung	pa-kùu	pa-kùu	uncle, husband of maternal aunt	uncle, husband of maternal aunt			4.7.1	People.029	0			
+524470	2030	Sorbung	ʔəm-búu	ʔəm-búu	father-in-law (of ego)	father-in-law (of ego)			10.1.1	People.030	0			
+524471	2030	Sorbung	ʔən-nìi	ʔən-nìi	mother-in-law (of ego)	mother-in-law (of ego)			10.1.1	People.031	0			
+524472	2030	Sorbung	moo	moo	brother of male, elder	brother of male, elder			1.5.3.2	People.032	0			
+524473	2030	Sorbung	tee	tee	sister of male, elder	sister of male, elder			4.7.2	People.033	0			
+524474	2030	Sorbung	ʔináupa	ʔináupa	brother of male, younger	brother of male, younger			1.5.3.2	People.034	0			
+524475	2030	Sorbung	ʔisaanù	ʔisaanù	sister of male, younger	sister of male, younger			4.7.2	People.035	0			
+524476	2030	Sorbung	moo	moo	brother of female, elder	brother of female, elder			1.5.3.2	People.036	0			
+524477	2030	Sorbung	tee	tee	sister of female, elder	sister of female, elder			4.7.2	People.037	0			
+524478	2030	Sorbung	ʔináupa	ʔináupa	brother of female, younger	brother of female, younger			1.5.3.2	People.038	0			
+524479	2030	Sorbung	ʔinàunù	ʔinàunù	sister of female, younger	sister of female, younger			4.7.2	People.039	0			
+524480	2030	Sorbung	bəsée	bəsée	husband	husband			4.7.4	People.040	0			
+524481	2030	Sorbung	mənamóo	mənamóo	wife	wife			4.7.4	People.041	0			
+524482	2030	Sorbung	saa	saa	son	son			4.7.3	People.042	0			
+524483	2030	Sorbung	saa	saa	daughter	daughter			4.7.3	People.044	0			
+524484	2030	Sorbung	ʔihàa	ʔihàa	daughter-in-law (of ego)	daughter-in-law (of ego)			10.1.1	People.045	0			
+524485	2030	Sorbung	ʔihàa	ʔihàa	son-in-law (of ego)	son-in-law (of ego)			10.1.1	People.046	0			
+524486	2030	Sorbung	ʔinèeŋ	ʔinèeŋ	brother-in-law (of ego)	brother-in-law (of ego)			10.1.1	People.047	0			
+524487	2030	Sorbung	ʔimèe	ʔimèe	sister-in-law (of ego)	sister-in-law (of ego)			10.1.1	People.048	0			
+524488	2030	Sorbung	ʔitùsáa	ʔitùsáa	nephew (of ego)	nephew (of ego)			4.7.3	People.049	0			
+524489	2030	Sorbung	ʔitùsáa	ʔitùsáa	niece (of ego)	niece (of ego)			4.7.3	People.050	0			
+524490	2030	Sorbung	ʔi-sàa-ta-ʔi-sàa	ʔi-sàa-ta-ʔi-sàa	grandchild (of ego); son's son	grandchild (of ego); son's son			4.7.3	People.051	0			
+524491	2030	Sorbung	ʔəjòok	ʔəjòok	friend	friend			4.4.2	People.055	0			
+524492	2030	Sorbung	ʔènʃià	ʔènʃià	enemy	enemy			4.2.6	People.056	0			
+524493	2030	Sorbung	ʔin◦pù	ʔinpù	host (house owner)	host (house owner)			4.4.2	People.057	0			1612,m
+524494	2030	Sorbung	məlóoŋ	məlóoŋ	guest	guest			4.4.3	People.058	0			
+524495	2030	Sorbung	ʔəŋgúu	ʔəŋgúu	child	child			1.5.3.2	People.059	0			
+524496	2030	Sorbung	santáarià	santáarià	adult	adult			4.2.11	People.060	0			
+524497	2030	Sorbung	san-táa-|rià	san-táa-rià	person, old	person, old			4.5	People.061	0			m,7181
+524498	2030	Sorbung	mìt◦cò◦pà, mìt◦co◦nu	mìtcòpà, mìtconu	person, blind	person, blind			4.5	People.062	0			682,1401,m,682,1401,m
+524499	2030	Sorbung	nàakʰuàk	nàakʰuàk	person, deaf	person, deaf			4.5	People.063	0			
+524500	2030	Sorbung	júur	júur	nation	nation			5.8	People.084	0			
+524501	2030	Sorbung	júur	júur	nationality	nationality			5.8	People.085	0			
+524502	2030	Sorbung	ʔəkʰuan	ʔəkʰuan	village	village			5.8	People.087	0			
+524503	2030	Sorbung	ʔin	ʔin	house	house			5.11.9.1	People.088	0			1612
+524504	2030	Sorbung	ʔinʃúŋkʰuar	ʔinʃúŋkʰuar	family	family			4.7.5	People.089	0			
+524505	2030	Sorbung	ʔəhuáŋbáa	ʔəhuáŋbáa	chief	chief			4.2.5.2	People.090	0			
+524506	2030	Sorbung	ʔəhuáŋnúu	ʔəhuáŋnúu	queen (no such office)	queen (no such office)			4.2.5	People.091	0			
+524507	2030	Sorbung	léváaʃuán	léváaʃuán	practitioner of witchcraft	practitioner of witchcraft			4.2.1	People.094	0			
+524508	2030	Sorbung	səràasa	səràasa	orphan	orphan			4.3	People.096	0			
+524509	2030	Sorbung	nəmoomə̀kʰúu	nəmoomə̀kʰúu	widow	widow			4.2.8	People.097	0			
+524510	2030	Sorbung	semnùu sempáa	semnùu sempáa	creator of the universe	creator of the universe			6.14	People.098	0			
+524511	2030	Sorbung	rambúu	rambúu	devil, ghost, demon, evil spirit	devil, ghost, demon, evil spirit			4.2.12.2	People.099	0			
+524512	2030	Sorbung	tʰəwái	tʰəwái	soul, spirit (Meithei)	soul, spirit (Meithei)			1.10	People.100	0			
+524513	2030	Sorbung	ʔəním	ʔəním	shadow	shadow			3.2.10	People.101	0			
+524514	2030	Sorbung	máaŋ	máaŋ	dream	dream			1.1.4.2	People.103	0			126
+524515	2030	Sorbung	ʔəmín	ʔəmín	name	name			5.8	People.104	0			2450
+524516	2030	Sorbung	səkái	səkái	surname; clan	surname; clan			5.8	People.105	0			
+524517	2030	Sorbung	ʔítà	ʔítà	my (exclusive)	my (exclusive)			10.2.3.2	Pronouns.001	0			
+524518	2030	Sorbung	ʔítà kʰón	ʔítà kʰón	my village	my village			10.2.3.2	Pronouns.002	0			
+524519	2030	Sorbung	ʔoo	ʔoo	1sg	1sg				Pronouns.003	0			
+524520	2030	Sorbung	naaŋ	naaŋ	2sg	2sg					0			
+524521	2030	Sorbung	maa	maa	3sg	3sg					0			
+524522	2030	Sorbung	ʔərúkəniŋ	ʔərúkəniŋ	1dl	1dl				Pronouns.006	0			
+524523	2030	Sorbung	nàrúkəniŋ	nàrúkəniŋ	2dl	2dl				Pronouns.007	0			
+524524	2030	Sorbung	mərúkəniŋ	mərúkəniŋ	3dl	3dl				Pronouns.008	0			
+524525	2030	Sorbung	ʔənəkʰuo	ʔənəkʰuo	1pl	1pl				Pronouns.009	0			
+524526	2030	Sorbung	naaŋnəkʰuo	naaŋnəkʰuo	2pl	2pl				Pronouns.011	0			
+524527	2030	Sorbung	maanəkʰuo	maanəkʰuo	3pl	3pl				Pronouns.012	0			
+524528	2030	Sorbung	wa	wa	this	this			10.4.3.2	Pronouns.013	0			
+524529	2030	Sorbung	kaa	kaa	that	that			10.1	Pronouns.014	0			
+524530	2030	Sorbung	ʔóoməsaa	ʔóoməsaa	1sg-refl	1sg-refl				Pronouns.015	0			
+524531	2030	Sorbung	naaŋməsaa	naaŋməsaa	2sg-refl	2sg-refl				Pronouns.016	0			
+524532	2030	Sorbung	maaməsaa	maaməsaa	3sg-refl	3sg-refl				Pronouns.017	0			
+524533	2030	Sorbung	ʔità	ʔità	1sg-gen	1sg-gen			10.4.1.1		0			
+524534	2030	Sorbung	nanta	nanta	2sg-gen	2sg-gen			10.4.1.1		0			
+524535	2030	Sorbung	mata	mata	3sg-gen	3sg-gen			10.4.1.1		0			
+524536	2030	Sorbung	ʔəʃíi	ʔəʃíi	bamboo rain cover	bamboo rain cover			3.1.1	ToneMin.001	0			
+524537	2030	Sorbung	ʔə◦ʃii	ʔəʃii	star	star			3.2.2	ToneMin.002	0			2300,1019
+524538	2030	Sorbung	ʔəʃii	ʔəʃii	crab	crab			2.2.5	ToneMin.003	0			
+524539	2030	Sorbung	ʔəʃìi	ʔəʃìi	sesame	sesame			3.1.6.1	ToneMin.004	0			
+524540	2030	Sorbung	məkóo	məkóo	break	break			9.5	ToneMin.007	0			
+524541	2030	Sorbung	cèm	cèm	knife	knife			5.5	ToneMin.008	0			
+524542	2030	Sorbung	ŋaa	ŋaa	fish	fish			2.2.5	ToneMin.009	0			1455
+524543	2030	Sorbung	wàŋ	wàŋ	fly	fly			2.2.6	ToneMin.010	0			
+524544	2030	Sorbung	tʰókmài	tʰókmài	shallow	shallow			7.1.5.3	ToneMin.011	0			
+524545	2030	Sorbung	pai	pai	easy; cheap	easy; cheap			9.6.1.1	ToneMin.012	0			
+524546	2030	Sorbung	éklén	éklén	defecate	defecate			1.8.5.4	ToneMin.013	0			
+524547	2030	Sorbung	ʔə◦nái	ʔənái	near	near			9.2.3	ToneMin.015	0			m,2496
+524548	2030	Sorbung	ʔənái	ʔənái	pus	pus			1.8.6.1	ToneMin.016	0			
+524549	2030	Sorbung	haa	haa	tooth	tooth			1.3.4	ToneMin.018	0			
+524550	2030	Sorbung	ʔʉʉ	ʔʉʉ	dog	dog			2.1.11	ToneMin.019	0			1764
+524551	2030	Sorbung	tʰìŋ-raa	tʰìŋ-raa	fruit	fruit			3.1.5	ToneMin.020	0			
+524552	2030	Sorbung	ʔəraa raa nətràŋ	ʔəraa raa nətràŋ	bear fruit	bear fruit			2.2.3	ToneMin.021	0			
+524553	2030	Sorbung	ʔənáaŋ	ʔənáaŋ	see	see			1.2.6.10	ToneMin.022	0			
+524554	2030	Sorbung	lèe	lèe	field	field			3.2.5	ToneMin.023	0			
+524555	2030	Sorbung	tənʃùk	tənʃùk	pestle	pestle			5.5	ToneMin.025	0			
+524556	2030	Sorbung	jáu	jáu	go	go			6.7.2	Verbs.001	0			
+524557	2030	Sorbung	hóoŋ	hóoŋ	come	come			6.7.1	Verbs.002	0			1812
+524558	2030	Sorbung	hoóŋ◦ledee	hoóŋledee	come back	come back	imp.	imp.	6.7.1	Verbs.003	0			1812,m
+524559	2030	Sorbung	hóŋlʉtòo	hóŋlʉtòo	enter	enter			6.7.1	Verbs.004	0			
+524560	2030	Sorbung	ʃúuk	ʃúuk	exit	exit			6.7.2	Verbs.005	0			
+524561	2030	Sorbung	ʃùg-ná	ʃùg-ná	exit	exit	v.	v.	6.7.2		0			
+524562	2030	Sorbung	ʔóm	ʔóm	exist	exist			1.1.2.3	Verbs.006	0			
+524563	2030	Sorbung	ʔòm◦ná	ʔòmná	exist	exist	v.	v.	1.1.2.3		0			
+524564	2030	Sorbung	ʔəntʰée	ʔəntʰée	start; lead	start; lead			9.5	Verbs.007	0			
+524565	2030	Sorbung	lúi	lúi	finish	finish			9.5	Verbs.008	0			
+524566	2030	Sorbung	wáŋ	wáŋ	fly	fly	v.	v.	2.2.6	Verbs.009	0			
+524567	2030	Sorbung	sóo	sóo	run	run			6.7.4	Verbs.010	0			
+524568	2030	Sorbung	mə◦tʰúup	mətʰúup	hide	hide			1.6.5.1	Verbs.011	0			p,4390
+524569	2030	Sorbung	jáu	jáu	walk	walk			6.7.4	Verbs.012	0			
+524570	2030	Sorbung	ʔəwák	ʔəwák	crawl	crawl			6.7.9	Verbs.013	0			
+524571	2030	Sorbung	ʔəndía	ʔəndía	fall	fall			6.1.1.4.2	Verbs.014	0			
+524572	2030	Sorbung	cəkúi	cəkúi	dance	dance			6.7.9	Verbs.015	0			
+524573	2030	Sorbung	ʔədúuk	ʔədúuk	think	think			8.3.1.13.1	Verbs.017	0			
+524574	2030	Sorbung	pam	pam	want; desire	want; desire			8.3.1.14.3	Verbs.019	0			
+524575	2030	Sorbung	ʔədúuk	ʔədúuk	expect	expect				Verbs.020	0			
+524576	2030	Sorbung	məʃúhaa	məʃúhaa	accustomed	accustomed			8.3	Verbs.021	0			
+524577	2030	Sorbung	jàa	jàa	accept	accept			8.3.1.2.1	Verbs.022	0			
+524578	2030	Sorbung	háaŋ	háaŋ	climb; ascend	climb; ascend			6.7.7	Verbs.023	0			
+524579	2030	Sorbung	júuŋ	júuŋ	descend	descend			6.7.8	Verbs.024	0			
+524580	2030	Sorbung	koo	koo	do	do			6.1.1.1	Verbs.025	0			
+524581	2030	Sorbung	páaŋ	páaŋ	help	help			6.2.2.1	Verbs.026	0			
+524582	2030	Sorbung	pée	pée	give	give			6.23	Verbs.027	0			2158
+524583	2030	Sorbung	lée	lée	take	take			6.21	Verbs.028	0			
+524584	2030	Sorbung	ləʃùa	ləʃùa	put	put			6.17	Verbs.029	0			
+524585	2030	Sorbung	mərúu	mərúu	steal	steal			6.2.2.1	Verbs.030	0			
+524586	2030	Sorbung	pʰíit	pʰíit	hit (with stick)	hit (with stick)			6.8	Verbs.031	0			
+524587	2030	Sorbung	ʃíu	ʃíu	hit (with the fist)	hit (with the fist)			6.8	Verbs.032	0			
+524588	2030	Sorbung	tʰàt	tʰàt	kill	kill			6.4	Verbs.033	0			
+524589	2030	Sorbung	táan	táan	cut (wood, vegetables)	cut (wood, vegetables)			3.1.2	Verbs.036	0			
+524590	2030	Sorbung	mətáan	mətáan	split; divide	split; divide			6.9.3	Verbs.037	0			
+524591	2030	Sorbung	táan	táan	cut (vegetables)	cut (vegetables)			6.9.3	Verbs.038	0			
+524592	2030	Sorbung	ʔətáanjèe	ʔətáanjèe	split (as with a candy bar)	split (as with a candy bar)			6.9.3		0			
+524593	2030	Sorbung	ʔə◦kór	ʔəkór	peel	peel			1.5.3.2	Verbs.040	0			p,593
+524594	2030	Sorbung	kʰòo	kʰòo	split (a watermelon, other round object); break (glass, egg)	split (a watermelon, other round object); break (glass, egg)			5.11	Verbs.041	0			
+524595	2030	Sorbung	dùu	dùu	chop (at tree)	chop (at tree)			6.9.3	Verbs.042	0			
+524596	2030	Sorbung	məkʰóo	məkʰóo	break	break			9.5	Verbs.043	0			
+524597	2030	Sorbung	məkʰóo	məkʰóo	burst	burst			9.5	Verbs.044	0			
+524598	2030	Sorbung	ʃúuŋ	ʃúuŋ	cook	cook			5.5	Verbs.047	0			
+524599	2030	Sorbung	bʉ̀t	bʉ̀t	boil	boil			6.6	Verbs.048	0			
+524600	2030	Sorbung	tʰàu-jáu	tʰàu-jáu	fry	fry			5.5	Verbs.050	0			
+524601	2030	Sorbung	jáu	jáu	fry	fry			5.5		0			
+524602	2030	Sorbung	ree	ree	roast	roast			5.5	Verbs.052	0			
+524603	2030	Sorbung	mə-kaaŋ	mə-kaaŋ	dry	dry	v.	v.	6.6	Verbs.053	0			m,119
+524604	2030	Sorbung	kaaŋ-len	kaaŋ-len	burnt	burnt			3.2.12.1	Verbs.054	0			
+524605	2030	Sorbung	məhai	məhai	toast	toast			8.5.3	Verbs.055	0			
+524606	2030	Sorbung	jóoŋ	jóoŋ	seek; search	seek; search			6.2.2.2	Verbs.056	0			
+524607	2030	Sorbung	ʔəjíi	ʔəjíi	drive; chase; catch	drive; chase; catch			6.7.10	Verbs.057	0			
+524608	2030	Sorbung	ʔəráak	ʔəráak	catch	catch			6.21	Verbs.058	0			
+524609	2030	Sorbung	ʔəjíi	ʔəjíi	hunt	hunt			6.2.2.1	Verbs.059	0			
+524610	2030	Sorbung	ʔən-cíi	ʔən-cíi	fear	fear			8.3.1.10.1	Verbs.061	0			
+524611	2030	Sorbung	məcíp	məcíp	frighten	frighten			8.3.1.10.1	Verbs.063	0			
+524612	2030	Sorbung	ŋai	ŋai	sharp	sharp			6.9.2	Verbs.064	0			
+524613	2030	Sorbung	cèm-ʔətát	cèm-ʔətát	sharpen knife	sharpen knife			6.9.2	Verbs.066	0			
+524614	2030	Sorbung	mənìi-lèn	mənìi-lèn	forget	forget			8.3.1.16.1	Verbs.067	0			
+524615	2030	Sorbung	məʃùuk	məʃùuk	kick	kick			6.2.2.3.3	Verbs.068	0			
+524616	2030	Sorbung	tai	tai	rub	rub			8.4	Verbs.069	0			
+524617	2030	Sorbung	lee	lee	medicine	medicine			5.4	Verbs.070	0			
+524618	2030	Sorbung	məmìt	məmìt	extinguish; erase a chalkboard	extinguish; erase a chalkboard			3.2.12.1	Verbs.071	0			
+524619	2030	Sorbung	ʔətáat	ʔətáat	brush	brush			5.11.8.4	Verbs.072	0			
+524620	2030	Sorbung	mit	mit	twist; squeeze	twist; squeeze			6.7.6	Verbs.073	0			
+524621	2030	Sorbung	kau	kau	kick; knead with the feet	kick; knead with the feet			6.2.2.3.3	Verbs.074	0			
+524622	2030	Sorbung	pʰənaat	pʰənaat	grind with pestle	grind with pestle			9.5	Verbs.075	0			
+524623	2030	Sorbung	ʔənpʰee-néŋ	ʔənpʰee-néŋ	pound rice	pound rice			6.8	Verbs.076	0			
+524624	2030	Sorbung	məkóoŋ	məkóoŋ	back basket	back basket			1.4.8	Verbs.077	0			
+524625	2030	Sorbung	dùu	dùu	sew	sew			5.1	Verbs.078	0			
+524626	2030	Sorbung	ʔəʃìm	ʔəʃìm	needle	needle			5.1	Verbs.079	0			
+524627	2030	Sorbung	ʔənʃúŋ	ʔənʃúŋ	sit	sit			6.1.1.4.1	Verbs.081	0			
+524628	2030	Sorbung	ʔənʃúŋee	ʔənʃúŋee	sit	sit	imp.	imp.	6.1.1.4.1	Verbs.082	0			
+524629	2030	Sorbung	ŋia	ŋia	stand	stand			1.5.2	Verbs.083	0			
+524630	2030	Sorbung	ŋiaèe	ŋiaèe	stand up	stand up	imp.	imp.	1.5.2	Verbs.084	0			
+524631	2030	Sorbung	náap	náap	stick	stick	v.	v.	3.1.2	Verbs.085	0			6932
+524632	2030	Sorbung	káap	káap	shoot	shoot	v.	v.	6.2.2.1	Verbs.086	0			2232
+524633	2030	Sorbung	ciu	ciu	dig	dig			6.11	Verbs.087	0			4532
+524634	2030	Sorbung	ciu◦èe	ciuèe	dig	dig	imp.	imp.	6.11	Verbs.088	0			4532,m
+524635	2030	Sorbung	ʃuag-lee	ʃuag-lee	scoop out; dish out	scoop out; dish out			9.2	Verbs.089	0			
+524636	2030	Sorbung	wàaw	wàaw	shout	shout			8.5.4.1	Verbs.090	0			
+524637	2030	Sorbung	kèe	kèe	call	call			8.5.13	Verbs.091	0			
+524638	2030	Sorbung	ʔəntʰée	ʔəntʰée	rise; get up	rise; get up			1.1.4	Verbs.093	0			
+524639	2030	Sorbung	mətʰée	mətʰée	get somebody up	get somebody up			1.1.5	Verbs.094	0			
+524640	2030	Sorbung	kʰaaŋ	kʰaaŋ	lift up; carry with hand	lift up; carry with hand			6.16	Verbs.096	0			
+524641	2030	Sorbung	pʰùa	pʰùa	carry	carry			6.2.2.2.1	Verbs.097	0			
+524642	2030	Sorbung	tooŋ	tooŋ	carry on the head	carry on the head			6.2.2.2.1	Verbs.098	0			
+524643	2030	Sorbung	ʔəkʰuàn	ʔəkʰuàn	crow; sound (as a musical instrument)	crow; sound (as a musical instrument)	v./v.i.	v./v.i.	5.1	Verbs.099	0			
+524644	2030	Sorbung	kəplǎaŋ	kəplǎaŋ	choose	choose			6.10.4	Verbs.100	0			
+524645	2030	Sorbung	məkʰáan-lèn	məkʰáan-lèn	release	release			6.10.1	Verbs.101	0			
+524646	2030	Sorbung	məkʰáan-cʉʉ	məkʰáan-cʉʉ	sweat	sweat			1.8.1	Verbs.102	0			
+524647	2030	Sorbung	hà-ŋguŋ	hà-ŋguŋ	arrive	arrive			6.7.1	Verbs.103	0			
+524648	2030	Sorbung	laasáa	laasáa	sing	sing			5.1	Verbs.105	0			
+524649	2030	Sorbung	còo	còo	touch	touch			8.4	Verbs.106	0			
+524650	2030	Sorbung	cóomòo	cóomòo	don't touch	don't touch			8.4	Verbs.107	0			
+524651	2030	Sorbung	mətʰáp	mətʰáp	grope (in the dark)	grope (in the dark)			8.4	Verbs.108	0			
+524652	2030	Sorbung	mit	mit	squeeze	squeeze			9.5	Verbs.109	0			
+524653	2030	Sorbung	məlàm	məlàm	spin	spin			6.7.6	Verbs.110	0			
+524654	2030	Sorbung	pʰərii	pʰərii	wash (hands, vegetables, cars)	wash (hands, vegetables, cars)			6.2.2.5.2	Verbs.111	0			
+524655	2030	Sorbung	ʔəʃúu	ʔəʃúu	wash (clothes)	wash (clothes)			6.2.2.5.2	Verbs.112	0			
+524656	2030	Sorbung	cʉʃíi	cʉʃíi	bathe	bathe			6.6	Verbs.113	0			
+524657	2030	Sorbung	təràt	təràt	tie	tie			6.13.1	Verbs.115	0			
+524658	2030	Sorbung	təràt-kəlen	təràt-kəlen	untie; loose	untie; loose			6.13.1	Verbs.116	0			
+524659	2030	Sorbung	təràt-kəlenbèe	təràt-kəlenbèe	untie	untie	imp.	imp.	6.13.1	Verbs.117	0			
+524660	2030	Sorbung	ʔəhuát	ʔəhuát	scratch; scrape	scratch; scrape			1.6.5.5	Verbs.118	0			
+524661	2030	Sorbung	júa	júa	sell	sell			6.22	Verbs.119	0			
+524662	2030	Sorbung	ʔəlóo	ʔəlóo	buy	buy			6.22	Verbs.120	0			
+524663	2030	Sorbung	màmbúk	màmbúk	borrow	borrow			6.22	Verbs.122	0			
+524664	2030	Sorbung	wàaj	wàaj	lend	lend			6.22	Verbs.123	0			
+524665	2030	Sorbung	kʰəjáaʃá	kʰəjáaʃá	respect	respect			8.3.2.6.1	Verbs.124	0			
+524666	2030	Sorbung	ŋàak	ŋàak	wait	wait			6.1.1.6	Verbs.125	0			5699
+524667	2030	Sorbung	ŋàa◦gèe	ŋàagèe	wait	wait	imp.	imp.	6.1.1.6	Verbs.126	0			5699,m
+524668	2030	Sorbung	mənámʃoo	mənámʃoo	stink	stink			7.1.4.5	Verbs.127	0			
+524669	2030	Sorbung	mənʉʉʃá	mənʉʉʃá	mock	mock			6.2.2.1	Verbs.128	0			
+524670	2030	Sorbung	mərái	mərái	conceive	conceive			1.9.6.1	Verbs.129	0			
+524671	2030	Sorbung	laam	laam	roll	roll	v.i.	v.i.	6.7.6	Verbs.130	0			
+524672	2030	Sorbung	màŋk(ə)liŋ	màŋk(ə)liŋ	roll	roll	v.t.	v.t.	6.7.6	Verbs.131	0			
+524673	2030	Sorbung	ʔəkaan	ʔəkaan	cross	cross			6.7.10	Verbs.132	0			
+524674	2030	Sorbung	ʔəloo	ʔəloo	well	well	be v.	be v.	9.6.1.1	Verbs.133	0			
+524675	2030	Sorbung	mətʰái	mətʰái	hurt	hurt			1.1.5.1	Verbs.134	0			
+524676	2030	Sorbung	məmǎaŋ	məmǎaŋ	decay	decay			9.5	Verbs.135	0			
+524677	2030	Sorbung	mináam	mináam	deceive	deceive			8.3.3.4.3.2	Verbs.136	0			
+524678	2030	Sorbung	ʃúi	ʃúi	tempt	tempt			8.3.2.7.2	Verbs.137	0			
+524679	2030	Sorbung	mətùuk	mətùuk	add together	add together			9.9	Verbs.138	0			
+524680	2030	Sorbung	càa	càa	fit	fit			9.7.2	Verbs.139	0			
+524681	2030	Sorbung	pam	pam	like	like			8.3.1.1.1	Verbs.140	0			
+524682	2030	Sorbung	məkàt	məkàt	strong	strong			9.6.1.1	Verbs.141	0			
+524683	2030	Sorbung	ʃuan	ʃuan	weak	weak			1.1.5	Verbs.142	0			
+524684	2030	Sorbung	jáapee ʃuanòo	jáapee ʃuanòo	very weak	very weak			7.1.2.2	Verbs.143	0			
+524685	2030	Sorbung	lòok	lòok	big	big			9.7.2	Verbs.144	0			
+524686	2030	Sorbung	nèe	nèe	small	small			9.7.2	Verbs.145	0			
+524687	2030	Sorbung	ʃóo	ʃóo	long	long			9.7.2	Verbs.146	0			
+524688	2030	Sorbung	tòo	tòo	short (length)	short (length)			9.7.2	Verbs.147	0			5414
+524689	2030	Sorbung	ʃóo	ʃóo	tall	tall			9.7.2	Verbs.148	0			
+524690	2030	Sorbung	tòo	tòo	short (height)	short (height)			9.7.2	Verbs.149	0			5414
+524691	2030	Sorbung	tʰáu	tʰáu	fat	fat			1.6.4	Verbs.150	0			
+524692	2030	Sorbung	kòoŋ	kòoŋ	skinny	skinny				Verbs.151	0			
+524693	2030	Sorbung	məkʰái	məkʰái	crooked	crooked			9.7.2	Verbs.152	0			
+524694	2030	Sorbung	məkʰée	məkʰée	bamboo spoon for curry	bamboo spoon for curry			3.1.1	Verbs.153	0			
+524695	2030	Sorbung	kʉ́n	kʉ́n	straight	straight			7.1.5.1	Verbs.154	0			
+524696	2030	Sorbung	kʉ́nta mìi	kʉ́nta mìi	honest person	honest person			8.3.3.4.1	Verbs.155	0			
+524697	2030	Sorbung	tʰòonáa	tʰòonáa	humble	humble			9.6.1.2	Verbs.156	0			
+524698	2030	Sorbung	ʔə◦lúum	ʔəlúum	round	round			9.7.1	Verbs.157	0			p,690
+524699	2030	Sorbung	wàm	wàm	black	black			9.4	Verbs.158	0			5135
+524700	2030	Sorbung	ŋée	ŋée	white	white			9.4	Verbs.159	0			
+524701	2030	Sorbung	ʔaaŋ	ʔaaŋ	red	red			9.4	Verbs.160	0			
+524702	2030	Sorbung	jaiŋàaŋməcuu	jaiŋàaŋməcuu	yellow (color of curry)	yellow (color of curry)			9.4	Verbs.161	0			
+524703	2030	Sorbung	ʔəntiàk	ʔəntiàk	green	green			9.4	Verbs.162	0			
+524704	2030	Sorbung	ʃóo	ʃóo	far	far			9.2.4	Verbs.164	0			
+524705	2030	Sorbung	ʔə◦nái	ʔənái	near	near			9.2.3	Verbs.166	0			m,2496
+524706	2030	Sorbung	məhóoŋ	məhóoŋ	open	open			6.2.2.6.1	Verbs.167	0			
+524707	2030	Sorbung	lèn	lèn	close; shut	close; shut			6.2.2.6.2	Verbs.169	0			
+524708	2030	Sorbung	kʰaa	kʰaa	bitter	bitter			7.1.4.4	Verbs.171	0			
+524709	2030	Sorbung	kʰuum	kʰuum	sweet	sweet			7.1.4.4	Verbs.172	0			6150
+524710	2030	Sorbung	tʰuur	tʰuur	sour	sour			7.1.4.4	Verbs.173	0			6079
+524711	2030	Sorbung	lòok	lòok	thick	thick			9.7.2	Verbs.174	0			
+524712	2030	Sorbung	məmpáar	məmpáar	thin	thin			9.7.2	Verbs.175	0			
+524713	2030	Sorbung	nèe	nèe	narrow	narrow			9.7.2	Verbs.176	0			
+524714	2030	Sorbung	pai	pai	easy	easy			9.6.1.1	Verbs.177	0			
+524715	2030	Sorbung	lùu	lùu	difficult	difficult			9.6.2	Verbs.178	0			
+524716	2030	Sorbung	pai	pai	cheap	cheap			5.9	Verbs.179	0			
+524717	2030	Sorbung	táaŋ	táaŋ	expensive	expensive			5.9	Verbs.180	0			
+524718	2030	Sorbung	jáak	jáak	ashamed	ashamed			8.3.3.8.2	Verbs.181	0			
+524719	2030	Sorbung	ŋái◦mai	ŋáimai	dull (not sharp)	dull (not sharp)			7.1.5.1	Verbs.183	0			
+524720	2030	Sorbung	ʔətʰár	ʔətʰár	new	new			9.6.1.1	Verbs.184	0			
+524721	2030	Sorbung	ʔə◦lʉ́ʉ	ʔəlʉ́ʉ	old	old			7.1.8.3	Verbs.185	0			p,7183
+524722	2030	Sorbung	mənée	mənée	young (age)	young (age)			7.1.8.3	Verbs.187	0			
+524723	2030	Sorbung	sén-daa	sén-daa	old (age)	old (age)			7.1.8.3	Verbs.189	0			
+524724	2030	Sorbung	taalen	taalen	become old	become old			9.5	Verbs.191	0			
+524725	2030	Sorbung	ʔə-taa-|ria	ʔə-taa-ria	old folks	old folks			7.1.8.3	Verbs.192	0			p,7181
+524726	2030	Sorbung	ʃùum	ʃùum	late; slow	late; slow			9.1.1	Verbs.196	0			
+524727	2030	Sorbung	tʰàk	tʰàk	early; fast	early; fast			9.1.1	Verbs.197	0			
+524728	2030	Sorbung	kòomán	kòomán	able	able			1.1.2.4	Verbs.199	0			
+524729	2030	Sorbung	seŋ	seŋ	clear	clear			9.6.1.1	Verbs.201	0			
+524730	2030	Sorbung	tʰàar	tʰàar	clean	clean			6.2.2.5.2	Verbs.202	0			6916
+524731	2030	Sorbung	múàt	múàt	dirty	dirty			3.2.11	Verbs.204	0			
+524732	2030	Sorbung	ʔəloo	ʔəloo	beautiful	beautiful			7.1.3	Verbs.205	0			
+524733	2030	Sorbung	càakʃa	càakʃa	ugly	ugly			7.1.3	Verbs.206	0			
+524734	2030	Sorbung	tʰùuk	tʰùuk	deep	deep			7.1.5.3	Verbs.207	0			2712
+524735	2030	Sorbung	tàar-leŋleŋ	tàar-leŋleŋ	shallow	shallow			7.1.5.3	Verbs.208	0			
+524736	2030	Sorbung	tʰàaŋmee	tʰàaŋmee	smart; wise; clever	smart; wise; clever			8.3	Verbs.209	0			
+524737	2030	Sorbung	pàaŋ, ʔəpàaŋ	pàaŋ, ʔəpàaŋ	stupid	stupid			8.3	Verbs.210	0			
+524738	2030	Sorbung	ʔəloo	ʔəloo	good	good			9.6.1.1	Verbs.213	0			
+524739	2030	Sorbung	saa-leè	saa-leè	bad (morally)	bad (morally)			9.6.2.1	Verbs.214	0			
+524740	2030	Sorbung	kʉ́n	kʉ́n	correct	correct			8.3.3.9	Verbs.216	0			
+524741	2030	Sorbung	laan	laan	err	err			6.2	Verbs.217	0			
+524742	2030	Sorbung	laanlenpai	laanlenpai	having committed a mistake	having committed a mistake				Verbs.218	0			
+524743	2030	Sorbung	lùu	lùu	tough; hard	tough; hard			1.1.5		0			
+524744	2030	Sorbung	mənée	mənée	soft	soft			7.1.4.2	Verbs.001	0			
+524745	2030	Sorbung	ʔəpáat, ʔpáat	ʔəpáat, ʔpáat	soft; mushy (of rice, crushed banana)	soft; mushy (of rice, crushed banana)			7.1.4.2	Verbs.002	0			
+524746	2030	Sorbung	mə◦sáaŋ	məsáaŋ	high	high			7.1.5.3	Verbs.003	0			m,4689
+524747	2030	Sorbung	mənèm	mənèm	low	low			7.1.5.3	Verbs.004	0			
+524748	2030	Sorbung	sáa	sáa	hot	hot				Verbs.005	0			
+524749	2030	Sorbung	dài	dài	cold; quiet	cold; quiet			7.1.2.3	Verbs.008	0			
+524750	2030	Sorbung	dài-rì-ʃì	dài-rì-ʃì	cold, very; quiet, very	cold, very; quiet, very			7.1.2.2	Verbs.010	0			
+524751	2030	Sorbung	jʉʉ	jʉʉ	wet	wet			6.6	Verbs.011	0			
+524752	2030	Sorbung	tʰaaŋ	tʰaaŋ	dry	dry			6.6	Verbs.013	0			
+524753	2030	Sorbung	máaŋ	máaŋ	lost	lost			6.10.1	Verbs.014	0			
+524754	2030	Sorbung	rìit	rìit	heavy	heavy			9.6.2	Verbs.019	0			2415
+524755	2030	Sorbung	jaaŋ	jaaŋ	light (weight)	light (weight)			7.1.11.1	Verbs.020	0			2789
+524756	2030	Sorbung	cin	cin	tight	tight			7.1.5.1	Verbs.021	0			
+524757	2030	Sorbung	kəléeŋ	kəléeŋ	loose	loose			6.13.1	Verbs.022	0			
+524758	2030	Sorbung	ʔəhʉ́n-náa	ʔəhʉ́n-náa	leprous	leprous			5.3	Verbs.025	0			
+524759	2030	Sorbung	jáapee	jáapee	many; very	many; very			9.9	Verbs.026	0			
+524760	2030	Sorbung	kaajàŋ	kaajàŋ	few	few			9.9	Verbs.027	0			
+524761	2030	Sorbung	waadja kʰéeha	waadja kʰéeha	more than (comparative degree)	more than (comparative degree)			9.9	Verbs.028	0			
+524762	2030	Sorbung	máan	máan	resemble; like, be	resemble; like, be			7.1.7.2	Verbs.029	0			
+524763	2030	Sorbung	ʔənúuŋ-aajíi	ʔənúuŋ-aajíi	follow	follow			6.7.10	Verbs.030	0			
+524764	2030	Sorbung	kəlúktaee	kəlúktaee	whole	whole			7.1.6.2	Verbs.031	0			
+524765	2030	Sorbung	kiák	kiák	fall	fall			6.1.1.4.2		0			

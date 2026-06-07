@@ -5,492 +5,774 @@
 - semkey: '2.0'
   title: Animals and Animal Verbs
   semcat: Nanim
+  old_chapter: '2'
 - semkey: 2.1.2
   title: Bovine
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '1'
 - semkey: 2.1.7
   title: Equine
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '2'
 - semkey: 2.1.12
   title: Porcine
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '3'
 - semkey: 2.1.8
   title: Ovine and Hircine
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '4'
 - semkey: 2.2.1
   title: Pachyderms
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '5'
 - semkey: 2.1.11
   title: Canine
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '6'
 - semkey: 2.1.11.1
   title: Bark (of dog)
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 8.9.4
 - semkey: 2.1.3
   title: Feline
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '7'
 - semkey: 2.2.2
   title: Cervidae
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '8'
 - semkey: 2.2.3
   title: Ursine
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '9'
 - semkey: 2.1.9
   title: Simian
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '10'
 - semkey: 2.2.4
   title: Birds (in general)
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '11'
 - semkey: 2.1.10
   title: Fowl (i.e. Domestic Birds)
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '11.1'
 - semkey: 2.2.4.1
   title: Particular birds
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '11.2'
 - semkey: 2.1.6
   title: Reptiles and Amphibians
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '12'
 - semkey: 2.2.5
   title: Fish and Mollusks
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '13'
 - semkey: 2.2.6
   title: Insects, Arachnids, and Worms
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '14'
 - semkey: 2.2.7
   title: Other Mammals
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '15'
 - semkey: 2.1.1
   title: Rodents
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '16'
 - semkey: 2.1.4
   title: Lagomorphs
 - semkey: 2.1.5
   title: Dragon
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '17'
 - semkey: 2.2.8
   title: Other Mythical Animals
 - semkey: '2.3'
   title: Associated Animal Terms
   semcat: Nanim
+  old_chapter: 2a.1
+  old_subchapter: '18'
 - semkey: '2.4'
   title: Other Verbs Pertaining to Animals
   semcat: Vanim
+  old_chapter: 2a.2
 - semkey: 2.4.1
   title: Caponize
   semcat: Vanim
+  old_chapter: 2a.2
+  old_subchapter: '11.1'
 - semkey: 2.4.2
   title: Sting
   semcat: Vanim
+  old_chapter: 2a.2
+  old_subchapter: '14'
 - semkey: 2.4.3
   title: Animal Qualities
   semcat: Vanim
+  old_chapter: 2a.2
+  old_subchapter: '18'
 - semkey: 2.4.4
   title: Peck
+  old_chapter: 2a.2
+  old_subchapter: '11'
 - semkey: '3.0'
   title: Natural Objects, Plants, Foods
   semcat: Nveg
+  old_chapter: 2b
+  old_subchapter: '1.1'
 - semkey: '3.1'
   title: Plants
 - semkey: 3.1.1
   title: Names of trees and shrubs
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: '1.1'
 - semkey: 3.1.2
   title: Plant parts and types
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: '1.2'
 - semkey: 3.1.3
   title: Leaves
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: '3.4'
 - semkey: 3.1.4
   title: Seeds and flowers, nuts
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: '3.1'
 - semkey: 3.1.5
   title: Fruits and vegetables
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: '3.2'
 - semkey: 3.1.5.1
   title: Leafy vegetables
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: 3.2.1
 - semkey: 3.1.6
   title: Extracts and processed forms
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: '3.3'
 - semkey: 3.1.6.1
   title: Spices
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: 3.3.1
 - semkey: 3.1.6.2
   title: Other ground and milled food
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: 3.3.2
 - semkey: 3.1.6.3
   title: Juices, beers, etc.
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: 3.3.3
 - semkey: 3.1.6.4
   title: Building, Non-edible
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: 3.3.4
 - semkey: 3.1.7
   title: Fungi
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: '4.1'
 - semkey: 3.1.8
   title: Other wild plants
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: '4.2'
 - semkey: 3.1.9
   title: Vegetative/Agricultural activity
   semcat: Nveg
+  old_chapter: 2b.1
+  old_subchapter: '5'
 - semkey: 3.1.10
   title: Verbs involving plants
   semcat: Vveg
+  old_chapter: 2b.2
 - semkey: '3.2'
   title: Natural Objects
   semcat: Nnat
+  old_chapter: 2c
 - semkey: 3.2.1
   title: Weather and seasons
   semcat: Nnat
+  old_chapter: 2c.1
+  old_subchapter: '1'
 - semkey: 3.2.2
   title: Planets/Meteorological objects/Sky
   semcat: Nnat
+  old_chapter: 2c.1
+  old_subchapter: '3'
   notes:
   - type: G
     text: <par></par>
 - semkey: 3.2.3
   title: Water and other liquids
   semcat: Nnat
+  old_chapter: 2c.1
+  old_subchapter: '4'
 - semkey: 3.2.4
   title: Elements, metals, alloys
   semcat: Nnat
+  old_chapter: 2c.1
+  old_subchapter: '5'
 - semkey: 3.2.5
   title: Landforms and geographical features
   semcat: Nnat
+  old_chapter: 2c.1
+  old_subchapter: '6'
 - semkey: 3.2.6
   title: Natural disasters
   semcat: Nnat
+  old_chapter: 2c.1
+  old_subchapter: '7'
 - semkey: 3.2.7
   title: Cracks/Chasms/Crevices
   semcat: Nnat
+  old_chapter: 2c.1
+  old_subchapter: '8'
 - semkey: 3.2.8
   title: Organic matter/Organic compounds
   semcat: Nnat
+  old_chapter: 2c.1
+  old_subchapter: '9'
 - semkey: 3.2.9
   title: Rocks and minerals
   semcat: Nnat
+  old_chapter: 2c.1
+  old_subchapter: '10'
 - semkey: 3.2.10
   title: Light or lack of light
   semcat: Nnat
+  old_chapter: 2c.1
+  old_subchapter: '11'
 - semkey: 3.2.11
   title: Ground/Earth/Soil/Dirt
   semcat: Nnat
+  old_chapter: 2c.1
+  old_subchapter: '12'
 - semkey: 3.2.12.1
   title: Verbs pertaining to fire
   semcat: Vburn
+  old_chapter: 2c.2
 - semkey: 5.11.5.5
   title: Tools pertaining to fire
   semcat: Nfire
+  old_chapter: 2c.3
+  old_subchapter: '1'
 - semkey: 3.2.12.2
   title: Fire, flames, and burnt things
   semcat: Nfire
+  old_chapter: 2c.3
+  old_subchapter: '3.3'
 - semkey: '4.0'
   title: Kinship Terms, Ethnonyms, Social Roles
 - semkey: '4.1'
   title: Pronouns
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '2'
 - semkey: '4.2'
   title: Roles
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '3'
 - semkey: 4.2.1
   title: Occupations
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '3.1'
 - semkey: 4.2.1.1
   title: Agriculture/Husbandry/Hunting
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: 3.1.1
 - semkey: 4.2.1.2
   title: Commercial Roles
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: 3.1.2
 - semkey: 4.2.1.3
   title: '?'
 - semkey: 4.2.1.4
   title: Artists and Artisans
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: 3.1.4
 - semkey: 4.2.1.5
   title: Health-care
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: 3.1.5
 - semkey: 4.2.1.6
   title: Ceremonial
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: 3.1.6
 - semkey: 4.2.1.7
   title: General
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: 3.1.7
 - semkey: 4.2.2
   title: Teacher-Student roles
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '3.2'
 - semkey: 4.2.3
   title: General roles
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '3.3'
 - semkey: 4.2.4
   title: Religious Roles
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '4'
 - semkey: 4.2.5
   title: Nobility
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '5'
 - semkey: 4.2.5.1
   title: Titles
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: 5.1.2
 - semkey: 4.2.5.2
   title: Civil leaders
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '5.2'
 - semkey: 4.2.5.3
   title: Owners
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '5.4'
 - semkey: 4.2.6
   title: Military roles
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '6'
 - semkey: 4.2.7
   title: Challenged
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '7.1'
 - semkey: 4.2.8
   title: Marital roles
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '7.2'
 - semkey: 4.2.9
   title: Sporting
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '8'
 - semkey: 4.2.10
   title: Servants
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '10'
 - semkey: 4.2.11
   title: Stages of growth
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '9.1'
 - semkey: 4.2.12
   title: Pejorative/Deprecated Roles
 - semkey: 4.2.12.1
   title: Criminals
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '11.1'
 - semkey: 4.2.12.2
   title: Scary things
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '11.2'
 - semkey: 4.2.12.3
   title: Insulting names
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '11.3'
 - semkey: '4.3'
   title: People
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '9.2'
 - semkey: '4.4'
   title: Groups
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '12'
 - semkey: 4.4.1
   title: Generic person terms
+  old_chapter: 3a
 - semkey: 4.4.2
   title: Clans and neighbors
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '12.2'
 - semkey: 4.4.3
   title: Outsiders
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '12.3'
 - semkey: 4.4.4
   title: Friends and Acquaintances
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '12.4'
 - semkey: '4.5'
   title: Other Collective terms
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '13'
 - semkey: '4.6'
   title: Ethnonyms/Place names
   semcat: Nhum
+  old_chapter: 3a
+  old_subchapter: '1'
 - semkey: '4.7'
   title: Kinship Terms
   semcat: Nkin
+  old_chapter: 3b
+  old_subchapter: '0'
 - semkey: 4.7.1
   title: Previous generation
   semcat: Nkin
+  old_chapter: 3b
+  old_subchapter: '1'
 - semkey: 4.7.2
   title: Same generation
   semcat: Nkin
+  old_chapter: 3b
+  old_subchapter: '2'
 - semkey: 4.7.3
   title: Later generation
   semcat: Nkin
+  old_chapter: 3b
+  old_subchapter: '3'
 - semkey: 4.7.4
   title: Related by marriage
   semcat: Nkin
+  old_chapter: 3b
+  old_subchapter: '4'
 - semkey: 4.7.5
   title: General
   semcat: Nkin
+  old_chapter: 3b
+  old_subchapter: '5'
 - semkey: '5.0'
   title: Culture, Artifacts, Religion
 - semkey: '5.1'
   title: Waste products
   semcat: Nwast
+  old_chapter: 9a
 - semkey: '5.2'
   title: Writing Implements
   semcat: Nwrit
+  old_chapter: 9a
 - semkey: '5.3'
   title: Diseases
   semcat: Nmed
+  old_chapter: 9a
+  old_subchapter: '1'
 - semkey: '5.4'
   title: Instruments and therapies
   semcat: Nmed
+  old_chapter: 9a
+  old_subchapter: '2'
 - semkey: '5.5'
   title: Cooking Implements
   semcat: Ncook
+  old_chapter: 9b
 - semkey: '5.6'
   title: Culinary nouns
   semcat: Nfood
+  old_chapter: 9b
 - semkey: '5.7'
   title: Culinary verbs
   semcat: Vfood
+  old_chapter: 9b
 - semkey: '5.8'
   title: Religion
   semcat: Nrel
+  old_chapter: 9d
 - semkey: 5.8.1
   title: Dieties and Spiritual Beings
 - semkey: 5.8.1.1
   title: Deities/Spiritual Beings
   semcat: Nrel
+  old_chapter: 9d
+  old_subchapter: '1.1'
 - semkey: 5.8.1.2
   title: Spiritual Beings
   semcat: Nrel
+  old_chapter: 9d
+  old_subchapter: '1.2'
 - semkey: 5.8.1.3
   title: General/Other Religious
   semcat: Nrel
+  old_chapter: 9d
+  old_subchapter: '1.3'
 - semkey: 5.8.2
   title: Persons and Things associated with Religion
   semcat: Nrel
+  old_chapter: 9d
+  old_subchapter: '2'
 - semkey: 5.8.2.1
   title: Occupations
   semcat: Nrel
+  old_chapter: 9d
+  old_subchapter: '2.1'
 - semkey: 5.8.2.2
   title: Group appellation
   semcat: Nrel
+  old_chapter: 9d
+  old_subchapter: '2.2'
 - semkey: 5.8.2.3
   title: Religious persons/things
   semcat: Nrel
+  old_chapter: 9d
+  old_subchapter: '2.3'
 - semkey: 5.8.3
   title: Religious and Magical Events
 - semkey: 5.8.3.1
   title: Religious Events
   semcat: Nrel
+  old_chapter: 9d
+  old_subchapter: '3.1'
 - semkey: 5.8.3.2
   title: Magical
   semcat: Nrel
+  old_chapter: 9d
+  old_subchapter: '3.2'
 - semkey: 5.8.4
   title: Heaven/Hell
   semcat: Nrel
+  old_chapter: 9d
+  old_subchapter: '4'
 - semkey: 5.8.5
   title: Sin ?
   semcat: Nrel
+  old_chapter: 9d
+  old_subchapter: '8.2'
 - semkey: '5.9'
   title: Monetary Terms
   semcat: N$
+  old_chapter: 9d
 - semkey: '5.10'
   title: Items of Culture
   semcat: Ncult
+  old_chapter: 9d
 - semkey: '5.11'
   title: Artifacts (unclassified as yet)
   semcat: Nart
+  old_chapter: 9f
 - semkey: 5.11.1
   title: Containers
   semcat: Ncont
+  old_chapter: 9a
 - semkey: 5.11.2
   title: Conveyances
   semcat: Nconv
+  old_chapter: 9a
 - semkey: 5.11.3
   title: Musical objects
   semcat: Nmus
+  old_chapter: 9a
 - semkey: 5.11.4
   title: Rope
   semcat: Nrope
+  old_chapter: 9a
 - semkey: 5.11.5
   title: Tools
   semcat: Ntool
+  old_chapter: 9a
 - semkey: 5.11.5.1
   title: Agricultural use
   semcat: Ntool
+  old_chapter: 9a
+  old_subchapter: '1'
 - semkey: 5.11.5.2
   title: Home/Non-specialized use
   semcat: Ntool
+  old_chapter: 9a
+  old_subchapter: '2'
 - semkey: 5.11.5.3
   title: Cutting/Boring
   semcat: Ntool
+  old_chapter: 9a
+  old_subchapter: '3'
 - semkey: 5.11.5.4
   title: Workshop use/Equipment
   semcat: Ntool
+  old_chapter: 9a
+  old_subchapter: '4'
 - semkey: 5.11.5.6
   title: Equipment
   semcat: Ntool
+  old_chapter: 9a
+  old_subchapter: '6'
 - semkey: 5.11.6
   title: Textile
   semcat: Ntxtl
+  old_chapter: 9a
 - semkey: 5.11.7
   title: Ornaments
   semcat: Norn
+  old_chapter: 9d
 - semkey: 5.11.8
   title: Ornamentation
   semcat: Vorn
+  old_chapter: 9d
 - semkey: 5.11.8.1
   title: Footwear
   semcat: Npers
+  old_chapter: 3c
+  old_subchapter: '1'
 - semkey: 5.11.8.2
   title: '?'
 - semkey: 5.11.8.2.1
   title: Clothes (general)
   semcat: Npers
+  old_chapter: 3c
+  old_subchapter: '2.1'
 - semkey: 5.11.8.2.1.1
   title: Head
   semcat: Npers
+  old_chapter: 3c
+  old_subchapter: 2.1.1
 - semkey: 5.11.8.2.1.2
   title: Upper body
   semcat: Npers
+  old_chapter: 3c
+  old_subchapter: 2.1.2
 - semkey: 5.11.8.2.1.3
   title: Lower body
   semcat: Npers
+  old_chapter: 3c
+  old_subchapter: 2.1.3
 - semkey: 5.11.8.2.2
   title: Special clothes and equipment
   semcat: Npers
+  old_chapter: 3c
+  old_subchapter: '2.2'
 - semkey: 5.11.8.2.3
   title: Parts of clothing
   semcat: Npers
+  old_chapter: 3c
+  old_subchapter: '2.3'
 - semkey: 5.11.8.3
   title: Jewelry and Accessories
   semcat: Npers
+  old_chapter: 3c
+  old_subchapter: '3'
 - semkey: 5.11.8.4
   title: Toiletries
   semcat: Npers
+  old_chapter: 3c
+  old_subchapter: '4'
 - semkey: 5.11.9
   title: Dwellings
   semcat: Ndwel
+  old_chapter: 9c
 - semkey: 5.11.9.1
   title: Kinds of dwellings
   semcat: Ndwel
+  old_chapter: 9c
+  old_subchapter: '1'
 - semkey: 5.11.9.2
   title: Rooms
   semcat: Ndwel
+  old_chapter: 9c
+  old_subchapter: '2'
 - semkey: 5.11.9.3
   title: Parts of the structure
   semcat: Ndwel
+  old_chapter: 9c
+  old_subchapter: '3'
 - semkey: 5.11.9.3.1
   title: Internal
   semcat: Ndwel
+  old_chapter: 9c
+  old_subchapter: '3.1'
 - semkey: 5.11.9.3.2
   title: External
   semcat: Ndwel
+  old_chapter: 9c
+  old_subchapter: '3.2'
 - semkey: 5.11.9.4
   title: Furnishings
   semcat: Ndwel
+  old_chapter: 9c
+  old_subchapter: '4'
 - semkey: 5.11.9.5
   title: Outdoor/Temporary structures
   semcat: Ndwel
+  old_chapter: 9c
+  old_subchapter: '5'
 - semkey: 5.11.9.6
   title: General
   semcat: Ndwel
+  old_chapter: 9c
+  old_subchapter: '6'
 - semkey: 5.11.10
   title: Fasteners
   semcat: Nfast
+  old_chapter: 9c
 - semkey: 5.11.11
   title: Construction
   semcat: Ncstr
+  old_chapter: 9c
 - semkey: '5.12'
   title: Leisure
   semcat: Nleis
+  old_chapter: 9d
 - semkey: '5.13'
   title: Social interactions
   semcat: Nsoc
+  old_chapter: 9d
 - semkey: '5.14'
   title: Husbandry
   semcat: Nhusb
+  old_chapter: 9e
 - semkey: '5.15'
   title: War and violence
   semcat: Nwar
+  old_chapter: 9e
 - semkey: '6.0'
   title: Verbs of Motion, of Manipulation, and of Production
 - semkey: '6.1'
@@ -498,262 +780,401 @@
 - semkey: 6.1.1
   title: Affect
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: '1'
 - semkey: 6.1.1.1
   title: To do/act
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: '1.1'
 - semkey: 6.1.1.1.1
   title: Redo, repeat
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 1.1.2
 - semkey: 6.1.1.3
   title: Play
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: '1.3'
 - semkey: 6.1.1.4
   title: Lie (down)
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: '1.4'
 - semkey: 6.1.1.4.1
   title: Sit
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 1.4.1
 - semkey: 6.1.1.4.1.1
   title: Sprawl
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 1.4.2.1
 - semkey: 6.1.1.4.2
   title: Fall
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 1.4.4
 - semkey: 6.1.1.5
   title: Hang
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: '1.5'
 - semkey: 6.1.1.6
   title: Wait
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: '1.6'
 - semkey: '6.2'
   title: Action Verbs with Patient
   semcat: Vact
+  old_chapter: 4a
 - semkey: 6.2.2
   title: Assorted action verbs
 - semkey: 6.2.2.1
   title: Assorted action verbs
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: '2.1'
 - semkey: 6.2.2.2
   title: Move an object
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: '2.2'
 - semkey: 6.2.2.2.1
   title: Carry
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.2.1
 - semkey: 6.2.2.2.2
   title: Bring
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.2.3
 - semkey: 6.2.2.3
   title: '?'
 - semkey: 6.2.2.3.1
   title: Push
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.3.1
 - semkey: 6.2.2.3.2
   title: Pull
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.3.2
 - semkey: 6.2.2.3.3
   title: Kick
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.3.4
 - semkey: 6.2.2.5
   title: Cleaning
 - semkey: 6.2.2.5.1
   title: Clear
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.5.1
 - semkey: 6.2.2.5.2
   title: Wash (v.i./v.t.)
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.5.2
 - semkey: 6.2.2.5.3
   title: Sweep
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.5.3
 - semkey: 6.2.2.6
   title: Open/Close
 - semkey: 6.2.2.6.1
   title: Open
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.6.1
 - semkey: 6.2.2.6.2
   title: Close
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.6.2
 - semkey: 6.2.2.7
   title: '?'
 - semkey: 6.2.2.7.1
   title: Use
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.7.1
 - semkey: 6.2.2.7.2
   title: Practice
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.7.2
 - semkey: 6.2.2.8
   title: Show
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: '2.8'
 - semkey: 6.2.2.9
   title: '?'
 - semkey: 6.2.2.9.1
   title: Write
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.9.1
 - semkey: 6.2.2.9.2
   title: Draw
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.9.2
 - semkey: 6.2.2.9.3
   title: Read
   semcat: Vact
+  old_chapter: 4a
+  old_subchapter: 2.9.3
 - semkey: '6.3'
   title: Friction
   semcat: Vrub
+  old_chapter: 4a.2
 - semkey: '6.4'
   title: Harm
   semcat: Vharm
+  old_chapter: 4b.1
 - semkey: '6.5'
   title: Fighting
   semcat: Vfigh
+  old_chapter: 4b.2
 - semkey: 6.5.1
   title: Opposition
+  old_chapter: 4b.2
+  old_subchapter: '8'
 - semkey: '6.6'
   title: Verbs requiring liquids
   semcat: Vliq
+  old_chapter: 4b.3
 - semkey: 6.6.1
   title: Float
   semcat: Vliq
+  old_chapter: 4b.3
+  old_subchapter: '5'
 - semkey: 6.6.2
   title: Dissolve
   semcat: Vliq
+  old_chapter: 4b.3
+  old_subchapter: '9'
 - semkey: '6.7'
   title: Movement
 - semkey: 6.7.1
   title: Inward
   semcat: Vmot
+  old_chapter: 4b.4
+  old_subchapter: '1'
 - semkey: 6.7.2
   title: Outward
   semcat: Vmot
+  old_chapter: 4b.4
+  old_subchapter: '2'
 - semkey: 6.7.3
   title: Awkwardly, Irregularly, Abruptly
   semcat: Vmot
+  old_chapter: 4b.4
+  old_subchapter: '3'
 - semkey: 6.7.4
   title: Regular, Cyclic, Smoothly
   semcat: Vmot
+  old_chapter: 4b.4
+  old_subchapter: '4'
 - semkey: 6.7.5
   title: Medium Primary (e.g. air)
   semcat: Vmot
+  old_chapter: 4b.4
+  old_subchapter: '5'
 - semkey: 6.7.6
   title: Circularly
   semcat: Vmot
+  old_chapter: 4b.4
+  old_subchapter: '6'
 - semkey: 6.7.7
   title: Up, etc.
   semcat: Vmot
+  old_chapter: 4b.4
+  old_subchapter: '7'
 - semkey: 6.7.8
   title: Downward
   semcat: Vmot
+  old_chapter: 4b.4
+  old_subchapter: '8'
 - semkey: 6.7.9
   title: Manner is primary
   semcat: Vmot
+  old_chapter: 4b.4
+  old_subchapter: '9'
 - semkey: 6.7.10
   title: Move with something else
   semcat: Vmot
+  old_chapter: 4b.4
+  old_subchapter: '10'
 - semkey: 6.7.11
   title: Movement (general)
   semcat: Vmot
+  old_chapter: 4b.4
+  old_subchapter: '11'
 - semkey: '6.8'
   title: Striking, hitting verbs
   semcat: Vhit
+  old_chapter: 4c.1
 - semkey: '6.9'
   title: Undoing
   semcat: Vundo
+  old_chapter: 4c.5
 - semkey: 6.9.1
   title: Peel
+  old_chapter: 4c.4
 - semkey: 6.9.2
   title: Carve, shave
   semcat: Vcut
+  old_chapter: 4c.4
+  old_subchapter: '1'
 - semkey: 6.9.3
   title: Chop, slice
   semcat: Vcut
+  old_chapter: 4c.4
+  old_subchapter: '2'
 - semkey: 6.9.4
   title: Mince, shred
   semcat: Vcut
+  old_chapter: 4c.4
+  old_subchapter: '3'
 - semkey: '6.10'
   title: Loss, separation
   semcat: Vsep
+  old_chapter: 4c.7
 - semkey: 6.10.1
   title: Unintentional loss - Misplace
   semcat: Vsep
+  old_chapter: 4c.7
+  old_subchapter: '1.1'
 - semkey: 6.10.2
   title: Intentional loss - Abandon
   semcat: Vsep
+  old_chapter: 4c.7
+  old_subchapter: '1.2'
 - semkey: 6.10.3
   title: Wide separation - Scatter
   semcat: Vsep
+  old_chapter: 4c.7
+  old_subchapter: '2'
 - semkey: 6.10.4
   title: Intentional separation - Sort
   semcat: Vsep
+  old_chapter: 4c.7
+  old_subchapter: '4'
 - semkey: '6.11'
   title: Digging, excavation
   semcat: Vdig
+  old_chapter: 4c.8
 - semkey: '6.12'
   title: Throwing
   semcat: Vthrw
+  old_chapter: 4c.9
 - semkey: '6.13'
   title: Convergence
   semcat: Vjoin
+  old_chapter: 4d.2
 - semkey: 6.13.1
   title: Tying
   semcat: Vjoin
+  old_chapter: 4d.2
+  old_subchapter: '1.1'
 - semkey: 6.13.2
   title: Adhesion
   semcat: Vjoin
+  old_chapter: 4d.2
+  old_subchapter: '1.2'
 - semkey: 6.13.3
   title: With Tools
   semcat: Vjoin
+  old_chapter: 4d.2
+  old_subchapter: '1.3'
 - semkey: 6.13.4
   title: Mix
   semcat: Vjoin
+  old_chapter: 4d.2
+  old_subchapter: '3'
 - semkey: 6.13.5
   title: Join (general)
   semcat: Vjoin
+  old_chapter: 4d.2
+  old_subchapter: '5'
 - semkey: '6.14'
   title: Construction
   semcat: Vmake
+  old_chapter: 4d.3
 - semkey: '6.15'
   title: Repair
   semcat: Vmend
+  old_chapter: 4d.4
 - semkey: '6.16'
   title: Holding
   semcat: Vhold
+  old_chapter: 4e.2
 - semkey: '6.17'
   title: Putting
   semcat: Vput
+  old_chapter: 4e.3
 - semkey: '6.18'
   title: Possession
   semcat: Vhave
+  old_chapter: 4e.4
 - semkey: '6.19'
   title: Social action
   semcat: Vsoc
+  old_chapter: 4f.1
 - semkey: '6.20'
   title: Helping
   semcat: Vhelp
+  old_chapter: 4f.2
 - semkey: '6.21'
   title: Acquisitions
   semcat: Vacq
+  old_chapter: 4f.3
 - semkey: '6.22'
   title: Exchanges
   semcat: Vexch
+  old_chapter: 4f.4
 - semkey: '6.23'
   title: Giving
   semcat: Vgive
+  old_chapter: 4f.5
 - semkey: '7.0'
   title: Adjectival Verbs
 - semkey: '7.1'
   title: Adjectives and attributives
   semcat: Vadj
+  old_chapter: 5c
 - semkey: 7.1.1
   title: Emotive
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '1'
 - semkey: 7.1.2
   title: Quantity/Degree/Temperature
 - semkey: 7.1.2.1
   title: Quantity - general
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '2.1'
 - semkey: 7.1.2.2
   title: Degree
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '2.2'
 - semkey: 7.1.2.3
   title: Temperature
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '2.4'
 - semkey: 7.1.3
   title: Human qualities and appearance
 - semkey: 7.1.4
@@ -761,81 +1182,122 @@
 - semkey: 7.1.4.1
   title: Sight
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '4.1'
 - semkey: 7.1.4.2
   title: Feel/Tactile/Texture
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '4.2'
 - semkey: 7.1.4.3
   title: Hear
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '4.3'
 - semkey: 7.1.4.4
   title: Taste
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '4.4'
 - semkey: 7.1.4.5
   title: Smell
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '4.5'
 - semkey: 7.1.5
   title: Object Qualities
 - semkey: 7.1.5.1
   title: General - form
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '5.1'
 - semkey: 7.1.5.3
   title: Position - high/low
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '5.3'
 - semkey: 7.1.5.4
   title: Position - front/back/side-side
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '5.4'
 - semkey: 7.1.6
   title: Composition
 - semkey: 7.1.6.1
   title: Single/part/few
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '6.1'
 - semkey: 7.1.6.2
   title: Accompanied/whole/many
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '6.2'
 - semkey: 7.1.7
   title: Importance/Significance
 - semkey: 7.1.7.1
   title: Unique/important/special
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '7.1'
 - semkey: 7.1.7.2
   title: Mundane/unimportant/same/routine
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '7.2'
 - semkey: 7.1.8
   title: Evaluatives (but see also 7.1.3, 7.1.5, 9.6)
 - semkey: 9.6.1.1
   title: Positive Qualities
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '8.1'
 - semkey: 9.6.2.1
   title: Negative Qualities
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '8.2'
 - semkey: 7.1.8.3
   title: Neutral term
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '8.3'
 - semkey: 7.1.10
   title: MERGE WITH 6.7.3
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '10'
 - semkey: 7.1.11
   title: Light/Dark
 - semkey: 7.1.11.1
   title: Light
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '11.1'
 - semkey: 7.1.11.2
   title: Dark
   semcat: Vadj
+  old_chapter: 5c
+  old_subchapter: '11.2'
 - semkey: '8.0'
   title: Abstract Nouns and Verbs, Psychological Verbs, Verbs of Utterance
 - semkey: '8.1'
   title: Abstract Entities
   semcat: Nabst
+  old_chapter: 5a
 - semkey: '8.2'
   title: Abstract verbs
   semcat: Vabst
+  old_chapter: 5b
 - semkey: 8.2.1
   title: Be
   semcat: Vabst
+  old_chapter: 5b
+  old_subchapter: 1.2.3
 - semkey: '8.3'
   title: Psychological verbs
   semcat: Vpsi
+  old_chapter: 5d
 - semkey: 8.3.1
   title: Verbs of Feeling
 - semkey: 8.3.1.1
@@ -843,147 +1305,227 @@
 - semkey: 8.3.1.1.1
   title: Like
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.1.1
 - semkey: 8.3.1.1.2
   title: Dislike
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.1.2
 - semkey: 8.3.1.1.3
   title: Satisfied
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.1.3
 - semkey: 8.3.1.2
   title: '?'
 - semkey: 8.3.1.2.1
   title: Accept
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.2.1
 - semkey: 8.3.1.3
   title: Commend
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: '1.3'
 - semkey: 8.3.1.3.1
   title: Blame
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.3.2
 - semkey: 8.3.1.4
   title: '?'
 - semkey: 8.3.1.4.1
   title: Agree
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.4.1
 - semkey: 8.3.1.5
   title: '?'
 - semkey: 8.3.1.5.1
   title: Happy
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.5.1
 - semkey: 8.3.1.5.1.1
   title: Grief
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.5.2.2
 - semkey: 8.3.1.5.2
   title: Sad
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.5.2
 - semkey: 8.3.1.5.3
   title: Emotional
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.5.3
 - semkey: 8.3.1.5.4
   title: Enthusiastic
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.5.4
 - semkey: 8.3.1.5.5
   title: Excited
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.5.6
 - semkey: 8.3.1.5.6
   title: Frustrated
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.5.7
 - semkey: 8.3.1.6
   title: '?'
 - semkey: 8.3.1.6.1
   title: Angry
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.6.1
 - semkey: 8.3.1.6.2
   title: Distress
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.6.2
 - semkey: 8.3.1.7
   title: Procrastinate?
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: '1.7'
 - semkey: 8.3.1.7.1
   title: Positive
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.7.1
 - semkey: 8.3.1.7.2
   title: Negative (e.g. dread)
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.7.2
 - semkey: 8.3.1.7.3
   title: Neutral or ambiguous
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.7.3
 - semkey: 8.3.1.7.4
   title: Relieved
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.7.5
 - semkey: 8.3.1.8
   title: '?'
 - semkey: 8.3.1.8.1
   title: Willing
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.8.3
 - semkey: 8.3.1.9
   title: '?'
 - semkey: 8.3.1.9.1
   title: Surprised
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.9.1
 - semkey: 8.3.1.9.2
   title: Worry
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.9.2
 - semkey: 8.3.1.10
   title: '?'
 - semkey: 8.3.1.10.1
   title: Fear
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.10.2
 - semkey: 8.3.1.10.2
   title: '?'
 - semkey: 8.3.1.10.2.1
   title: Positive
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.10.4.
 - semkey: 8.3.1.10.3
   title: Hesitate
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.10.5
 - semkey: 8.3.1.11
   title: '?'
 - semkey: 8.3.1.11.1
   title: Alert
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.11.1
 - semkey: 8.3.1.11.2
   title: Tired
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.11.10
 - semkey: 8.3.1.11.3
   title: Thrilled, Dizzy
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.11.11
 - semkey: 8.3.1.12
   title: '?'
 - semkey: 8.3.1.12.1
   title: Know, Believe
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.12.1
 - semkey: 8.3.1.13
   title: Think/plan
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: '1.13'
 - semkey: 8.3.1.13.1
   title: Think
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.13.1
 - semkey: 8.3.1.13.2
   title: Plan
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.13.2
 - semkey: 8.3.1.13.3
   title: Imagination
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.13.8
 - semkey: 8.3.1.14
   title: '?'
 - semkey: 8.3.1.14.1
   title: Longing
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.14.1
 - semkey: 8.3.1.14.2
   title: Avarice
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.14.2
 - semkey: 8.3.1.14.3
   title: Desirable
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.14.3
 - semkey: 8.3.1.15
   title: Awe
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: '1.15'
 - semkey: 8.3.1.16
   title: '?'
 - semkey: 8.3.1.16.1
   title: Forget
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 1.16.1
 - semkey: 8.3.2
   title: Verbs of Affection
 - semkey: 8.3.2.1
@@ -991,107 +1533,163 @@
 - semkey: 8.3.2.1.1
   title: Friendly
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.1.1
 - semkey: 8.3.2.2
   title: '?'
 - semkey: 8.3.2.2.1
   title: Appease
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.2.1
 - semkey: 8.3.2.3
   title: '?'
 - semkey: 8.3.2.3.1
   title: Comfort
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.3.1
 - semkey: 8.3.2.3.2
   title: Pity
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.3.2
 - semkey: 8.3.2.3.3
   title: Encourage
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.3.3
 - semkey: 8.3.2.4
   title: Conspire
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: '2.4'
 - semkey: 8.3.2.5
   title: '?'
 - semkey: 8.3.2.5.1
   title: Defer
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.5.1
 - semkey: 8.3.2.5.2
   title: Honor
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.5.2
 - semkey: 8.3.2.5.3
   title: Flatter
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.5.3
 - semkey: 8.3.2.5.4
   title: Tolerate
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.5.4
 - semkey: 8.3.2.5.5
   title: Ignore
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.5.5
 - semkey: 8.3.2.5.6
   title: Disobedient
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.5.6
 - semkey: 8.3.2.5.7
   title: Trust
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.5.7
 - semkey: 8.3.2.6
   title: '?'
 - semkey: 8.3.2.6.1
   title: Admire
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.6.1
 - semkey: 8.3.2.6.2
   title: Envy
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.6.2
 - semkey: 8.3.2.7
   title: '?'
 - semkey: 8.3.2.7.1
   title: Flirt, seduce
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.7.1
 - semkey: 8.3.2.7.2
   title: Entice, tempt
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.7.2
 - semkey: 8.3.2.8
   title: Grudge
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: '2.8'
 - semkey: 8.3.2.9
   title: '?'
 - semkey: 8.3.2.9.1
   title: Forgive
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 2.9.1
 - semkey: 8.3.3
   title: Verbs of Conscience and Shame
 - semkey: 8.3.3.1
   title: Conscience/Vengeance
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: '3.1'
 - semkey: 8.3.3.2
   title: '?'
 - semkey: 8.3.3.2.1
   title: Kind
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 3.2.1
 - semkey: 8.3.3.2.2
   title: Cruel
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 3.2.2
 - semkey: 8.3.3.3
   title: '?'
 - semkey: 8.3.3.3.1
   title: Discern
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 3.3.1
 - semkey: 8.3.3.4
   title: '?'
 - semkey: 8.3.3.4.1
   title: Honest
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 3.4.1
 - semkey: 8.3.3.4.2
   title: Earnest/sincere
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 3.4.3
 - semkey: 8.3.3.4.3
   title: Deceive
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 3.4.4
 - semkey: 8.3.3.4.3.1
   title: Positive/neutral
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 3.4.4.1
 - semkey: 8.3.3.4.3.2
   title: Negative
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 3.4.4.2
 - semkey: 8.3.3.5
   title: '?'
 - semkey: 8.3.3.6
@@ -1099,130 +1697,206 @@
 - semkey: 8.3.3.6.1
   title: Guilty
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 3.6.2
 - semkey: 8.3.3.7
   title: '?'
 - semkey: 8.3.3.8
   title: Pride
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: '3.8'
 - semkey: 8.3.3.8.1
   title: Modest
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 3.8.1
 - semkey: 8.3.3.8.2
   title: Ashamed
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: 3.8.3
 - semkey: 8.3.3.9
   title: Correct
   semcat: Vpsi
+  old_chapter: 5d
+  old_subchapter: '3.10'
 - semkey: '8.4'
   title: Feeling
   semcat: Vfeel
+  old_chapter: 5e
 - semkey: '8.5'
   title: Utterance
   semcat: Vutt
+  old_chapter: 5f
 - semkey: 8.5.1
   title: Scold
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '1'
 - semkey: 8.5.2
   title: Verbs of Complaint and Praise
 - semkey: 8.5.2.1
   title: Complain
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '2.1'
 - semkey: 8.5.2.2
   title: Compliment, praise
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '2.2'
 - semkey: 8.5.3
   title: Declare
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '3'
 - semkey: 8.5.4
   title: Verbs Expressing Communicative Affect
 - semkey: 8.5.4.1
   title: Loud
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '4.1'
 - semkey: 8.5.4.2
   title: Soft
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '4.2'
 - semkey: 8.5.4.3
   title: Accented
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '4.3'
 - semkey: 8.5.4.4
   title: Glottal sound
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '4.6'
 - semkey: 8.5.4.5
   title: Choppy
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '4.7'
 - semkey: 8.5.5
   title: Sounds
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '5'
 - semkey: 8.5.6
   title: Answer
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '6'
 - semkey: 8.5.7
   title: Bid
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '7'
 - semkey: 8.5.7.1
   title: Ask
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '7.1'
 - semkey: 8.5.7.2
   title: Implore/Coax
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '7.2'
 - semkey: 8.5.7.3
   title: Coax
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '7.3'
 - semkey: 8.5.8
   title: Banter/Discourse
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '8'
 - semkey: 8.5.9
   title: Jest
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '9'
 - semkey: 8.5.10
   title: Verbs of Verbosity and Intensity
 - semkey: 8.5.10.1
   title: Talk, say
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '10.1'
 - semkey: 8.5.10.2
   title: Garrulosity, verbosity
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '10.2'
 - semkey: 8.5.10.3
   title: Talk with purpose of convincing
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '10.3'
 - semkey: 8.5.10.4
   title: Falsehood
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '10.4'
 - semkey: 8.5.11
   title: Formulaic
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '11'
 - semkey: 8.5.11.1
   title: Introduction
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '11.2'
 - semkey: 8.5.11.2
   title: Farewells
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '11.3'
 - semkey: 8.5.11.3
   title: Apology/excuse
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '11.5'
 - semkey: 8.5.11.4
   title: Invite
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '11.6'
 - semkey: 8.5.13
   title: Beckon
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '13'
 - semkey: 8.5.14
   title: Broadcast and Announce
 - semkey: 8.5.14.1
   title: Spread information, present ideas
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '14.1'
 - semkey: 8.5.14.2
   title: Reveal or give information
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '14.2'
 - semkey: 8.5.14.3
   title: Explain
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '14.3'
 - semkey: 8.5.15
   title: Boast
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '15'
 - semkey: 8.5.16
   title: Dedicate
   semcat: Vutt
+  old_chapter: 5f
+  old_subchapter: '16'
 - semkey: '9.0'
   title: Shape, Size, Color, Measure, Number, Time, Space
 - semkey: '9.1'
@@ -1230,214 +1904,332 @@
 - semkey: 9.1.1
   title: Adverbial uses
   semcat: Ntime
+  old_chapter: 6i
 - semkey: 9.1.2
   title: Months and Years
   semcat: Ntime
+  old_chapter: 6i
+  old_subchapter: '1'
 - semkey: 9.1.3
   title: Days
   semcat: Ntime
+  old_chapter: 6i
+  old_subchapter: '2'
 - semkey: 9.1.4
   title: Times of Day
   semcat: Ntime
+  old_chapter: 6i
+  old_subchapter: '3'
 - semkey: 9.1.5
   title: Other Intervals
   semcat: Ntime
+  old_chapter: 6i
+  old_subchapter: '4'
 - semkey: 3.2.12
   title: Fire
   semcat: Ntime
+  old_chapter: 6i
+  old_subchapter: '5'
 - semkey: '9.2'
   title: Spatial terms
   semcat: Spat
+  old_chapter: 6j
 - semkey: 9.2.1
   title: Up
   semcat: Spat
+  old_chapter: 6j
+  old_subchapter: '1'
 - semkey: 9.2.2
   title: Down
   semcat: Spat
+  old_chapter: 6j
+  old_subchapter: '2'
 - semkey: 9.2.3
   title: Sideways
   semcat: Spat
+  old_chapter: 6j
+  old_subchapter: '3'
 - semkey: 9.2.4
   title: Apart
   semcat: Spat
+  old_chapter: 6j
+  old_subchapter: '4'
 - semkey: 9.2.5
   title: Amid
   semcat: Spat
+  old_chapter: 6j
+  old_subchapter: '5'
 - semkey: 9.2.6
   title: Around
   semcat: Spat
+  old_chapter: 6j
+  old_subchapter: '6'
 - semkey: 9.2.7
   title: Extent
   semcat: Spat
+  old_chapter: 6j
+  old_subchapter: '7'
 - semkey: 9.2.8
   title: Directions
   semcat: Spat
+  old_chapter: 6j
+  old_subchapter: '8'
 - semkey: '9.3'
   title: Sounds
   semcat: Sound
+  old_chapter: 6a
 - semkey: '9.4'
   title: Colors
   semcat: Col
+  old_chapter: 6b
 - semkey: '9.5'
   title: Change of state
   semcat: Vcos
+  old_chapter: 6c
 - semkey: '9.6'
   title: Qualities
 - semkey: 9.6.1
   title: Positive/Desirable qualities
   semcat: Vqual
+  old_chapter: 6d
+  old_subchapter: '1'
 - semkey: 9.6.2
   title: Negative Qualities
   semcat: Vqual
+  old_chapter: 6d
+  old_subchapter: '2'
 - semkey: '9.7'
   title: Shape/Size
 - semkey: 9.7.1
   title: Shape and size
   semcat: Nshiz
+  old_chapter: 6e
 - semkey: 9.7.2
   title: Verbs referring to size/shape
   semcat: Vshiz
+  old_chapter: 6f
 - semkey: '9.8'
   title: Measure Words
   semcat: Meas
+  old_chapter: 6g
 - semkey: '9.9'
   title: Numbers and numeric expression
   semcat: Num
+  old_chapter: 6h
 - semkey: '9.10'
   title: Locations
 - semkey: 9.10.1
   title: Roads and Ways
   semcat: Nloc
+  old_chapter: 6k
+  old_subchapter: '1'
 - semkey: 9.10.2
   title: Waterways/Having to do with water
   semcat: Nloc
+  old_chapter: 6k
+  old_subchapter: '2'
 - semkey: 9.10.3
   title: Governable units (towns, parts of towns)
   semcat: Nloc
+  old_chapter: 6k
+  old_subchapter: '3'
 - semkey: 9.10.4
   title: Farm/Agricultural places
   semcat: Nloc
+  old_chapter: 6k
+  old_subchapter: '4'
 - semkey: 9.10.5
   title: Places in general, countries
   semcat: Nloc
+  old_chapter: 6k
+  old_subchapter: '4.0'
 - semkey: 9.10.6
   title: Functional buildings/places
   semcat: Nloc
+  old_chapter: 6k
+  old_subchapter: '5'
 - semkey: '10.0'
   title: Grammatical Words
   semcat: G
+  old_chapter: '8'
 - semkey: '10.1'
   title: Ontological
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '1'
 - semkey: 10.1.1
   title: Prepositions
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '1.1'
 - semkey: 10.1.2
   title: Conjunctives
 - semkey: 10.1.2.1
   title: Compound
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 1.2.1
 - semkey: 10.1.2.2
   title: Subordination
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 1.2.2
 - semkey: 10.1.3
   title: Classifiers
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '1.3'
 - semkey: '10.2'
   title: Articles
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '2'
 - semkey: 10.2.1
   title: Grammatical identifiers
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '2.1'
 - semkey: 10.2.1.1
   title: Phonological entities
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 2.1.1
 - semkey: 10.2.2
   title: Morphological identifiers
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '2.2'
 - semkey: 10.2.3
   title: '?'
 - semkey: 10.2.3.1
   title: Nominative-accusative
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 2.3.1
 - semkey: 10.2.3.2
   title: Possessive
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 2.3.2
 - semkey: '10.4'
   title: Affixes
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '4'
 - semkey: 10.4.1
   title: Nominal
 - semkey: 10.4.1.1
   title: Grammatical case
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 4.1.1
 - semkey: 10.4.1.2
   title: Animacy
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 4.1.2
 - semkey: 10.4.1.3
   title: Diminutivizer, intensifier, etc.
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 4.1.3
 - semkey: 10.4.1.4
   title: 'Person, #, gender'
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 4.1.4
 - semkey: 10.4.2
   title: Verbal
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '4.2'
 - semkey: 10.4.2.1
   title: Mood
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 4.2.1
 - semkey: 10.4.2.4
   title: Aspect, (in)transitivity, ergativity, causativity
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 4.2.4
 - semkey: 10.4.2.6
   title: Participles, gerunds, etc.
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 4.2.6
 - semkey: 10.4.2.7
   title: Nominalizers
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 4.2.7
 - semkey: 10.4.3
   title: Other
 - semkey: 10.4.3.1
   title: Degrees of comparison
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 4.3.1
 - semkey: 10.4.3.2
   title: Demonstrators
   semcat: G
+  old_chapter: '8'
+  old_subchapter: 4.3.2
 - semkey: '10.5'
   title: '?'
 - semkey: 10.5.1
   title: Structuring Words
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '5.1'
 - semkey: 10.5.2
   title: Grammatical functions
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '5.2'
 - semkey: 10.5.3
   title: WH words
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '6.1'
 - semkey: '10.6'
   title: Not, yes ?
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '7'
 - semkey: 10.6.1
   title: Affirmative
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '7.1'
 - semkey: 10.6.2
   title: Negative
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '7.2'
 - semkey: '10.7'
   title: Ejaculations
   semcat: G
+  old_chapter: '8'
+  old_subchapter: '8'
 - semkey: x.x
   title: Errors and apocrypha
   semcat: Error
+  old_chapter: x
 - semkey: '1.0'
   title: The Body
   semcat: Nbp
+  old_chapter: 1a
 - semkey: '1.1'
   title: Body Parts
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '1'
 - semkey: 1.1.1
   title: Body
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '1.1'
   notes:
   - type: I
     text: '<par>How to distinguish <reconstruction>*s-ku</reconstruction> from <reconstruction>*guŋ</reconstruction>.
@@ -1454,104 +2246,160 @@
 - semkey: 1.1.1.1
   title: Flesh/Meat
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.1.1
 - semkey: 1.1.1.2
   title: Lean (Meat)
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.1.2
 - semkey: 1.1.2
   title: Life/Breathe/Exist
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '1.2'
 - semkey: 1.1.2.1
   title: Life/Live/Alive
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.2.1
   notes:
   - type: I
     text: <par>Naga copulas in lei (GEM, WTF), etc. may go with Kiranit *let. Add LTSR 68.</par>
 - semkey: 1.1.2.2
   title: Breath/Breathe
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.2.2
   notes:
   - type: T
     text: <par>In the semantic flowchart, the connection BREATH(E)-HEART is found in Karenic.</par>
 - semkey: 1.1.2.3
   title: Existence
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.2.3
 - semkey: 1.1.2.4
   title: Be able
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 1.2.3
 - semkey: 1.1.3
   title: Hungry
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '1.3'
 - semkey: 1.1.3.1
   title: Thirsty
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.3.1
 - semkey: 1.1.3.2
   title: Satiated/Full/Enough
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.3.2
 - semkey: 1.1.4
   title: Wake/Conscious/Alert
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '1.4'
 - semkey: 1.1.4.1
   title: Sleep/Be asleep
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.4.1
   notes:
   - type: I
     text: <par>check WT <latinform>mnyal</latinform> &apos;lie down to sleep.&apos;</par>
 - semkey: 1.1.4.2
   title: Dream
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.4.2
 - semkey: 1.1.5
   title: Strength
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '1.5'
 - semkey: 1.1.5.1
   title: Sick/Hurt/Ache
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.5.1
 - semkey: 1.1.5.2
   title: Swollen/Swell/Bloated
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.5.2
   notes:
   - type: I
     text: <par>re-process SWELL (3/11/93). Allofamize e163.</par>
 - semkey: 1.1.6
   title: Die/Deathly
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '1.6'
 - semkey: 1.1.6.1
   title: Carcass/Dead Body
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 1.6.1
 - semkey: '1.2'
   title: Head and Face
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '2'
 - semkey: 1.2.1
   title: Head/Headed
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '2.1'
   notes:
   - type: I
     text: '<par>add drawing: HEAD — NECK.</par>'
 - semkey: 1.2.1.1
   title: Skull
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.1.1
 - semkey: 1.2.1.2
   title: Crown/Pate
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.1.2
 - semkey: 1.2.1.3
   title: Fontanel
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.1.3
 - semkey: 1.2.1.4
   title: Caul
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.1.4
 - semkey: 1.2.1.5
   title: Scalp
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.1.5
 - semkey: 1.2.2
   title: Horn(ed)/Antler
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '2.2'
 - semkey: 1.2.2.1
   title: Comb/Crest
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.2.1
 - semkey: 1.2.2.2
   title: Comb (Hair)
 - semkey: 1.2.3
   title: Hair of Head
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '2.3'
   notes:
   - type: I
     text: '<par>General-tendency semantics: <reconstruction>*mul</reconstruction> refers to fine body-hair;
@@ -1562,15 +2410,23 @@
 - semkey: 1.2.3.1
   title: Cowlick/Flexure
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.3.1
 - semkey: 1.2.3.2
   title: Queue/Braid
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.3.2
 - semkey: 1.2.3.3
   title: Long-haired
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '2.3'
 - semkey: 1.2.3.4
   title: Bald
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.3.3
   notes:
   - type: T
     text: <par>A great number of verbs are usable with HEAD to convey the meaning of BALD, e.g. WB <latinform>khôŋ
@@ -1580,50 +2436,76 @@
 - semkey: 1.2.4
   title: Brain
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '2.4'
   notes:
   - type: I
     text: <par>drawing of <gloss>brain/fat/marrow</gloss> &lt; Mikir?</par>
 - semkey: 1.2.5
   title: Face
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '2.5'
 - semkey: 1.2.5.1
   title: Forehead/Temples
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.5.1
 - semkey: 1.2.5.2
   title: Jaw/Cheek
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.5.2
 - semkey: 1.2.5.3
   title: Chin
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.5.3
 - semkey: 1.2.5.4
   title: Dimple
 - semkey: 1.2.5.5
   title: Beard/Moustache/Facial Hair
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.5.5
   notes:
   - type: I
     text: <par>where are ety 1116-1122??</par>
 - semkey: 1.2.6
   title: Eye
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '2.6'
 - semkey: 1.2.6.1
   title: Eyeball
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.1
 - semkey: 1.2.6.2
   title: Iris/Pupil
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.2
 - semkey: 1.2.6.2.1
   title: Dilate
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 2.6.2
 - semkey: 1.2.6.3
   title: White of Eye
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.3
 - semkey: 1.2.6.4
   title: Eyelid
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.4
 - semkey: 1.2.6.5
   title: Eyelash
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.5
   notes:
   - type: I
     text: '<par>Re: the WING -- GILL -- EYEBROW connexion, cf. Eng &apos;flutter&apos;. Also e2077 Mag.,
@@ -1631,9 +2513,13 @@
 - semkey: 1.2.6.6
   title: Eyebrow
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.6
 - semkey: 1.2.6.7
   title: Tears
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.7
   notes:
   - type: I
     text: <par>GSR 532c <latinform>li̯wəd/lywi </latinform>really <latinform>&lt; *kləy</latinform> &apos;shit?&apos;
@@ -1641,63 +2527,99 @@
 - semkey: 1.2.6.8
   title: Eye Sand
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.8
 - semkey: 1.2.6.9
   title: Watch
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 2.6.7
 - semkey: 1.2.6.10
   title: See/Look
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.9
 - semkey: 1.2.6.11
   title: Behold
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 2.6.9
 - semkey: 1.2.6.12
   title: Blink/Wink
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.10
 - semkey: 1.2.6.13
   title: Squint
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 2.6.10
 - semkey: 1.2.6.14
   title: Eye Illness
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.11
 - semkey: 1.2.6.14.1
   title: Cross-eyed
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 2.6.11
 - semkey: 1.2.6.14.2
   title: Blind
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 2.6.11.
 - semkey: 1.2.6.14.3
   title: Sty of Eye
   semcat: Nbp
 - semkey: 1.2.7
   title: Ear
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '2.7'
 - semkey: 1.2.7.1
   title: Earlobe
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.7.1
 - semkey: 1.2.7.2
   title: Eardrum
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.7.2
 - semkey: 1.2.7.3
   title: Earwax
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.7.3
 - semkey: 1.2.7.4
   title: Hear/Listen
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.7.4
 - semkey: 1.2.7.5
   title: Deaf
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.7.5
 - semkey: 1.2.8
   title: Nose
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '2.8'
   notes:
   - type: I
     text: <par><reconstruction>*guːŋ</reconstruction>. WTF 527. But cf. Lh. <latinform>nèmdash a-qhɔ̂-qhɔ</latinform>.</par>
 - semkey: 1.2.8.1
   title: Nostril
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.8.1
 - semkey: 1.2.8.2
   title: Alae Nasi
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.8.2
 - semkey: 1.2.8.3
   title: Snout
   semcat: Nbp
@@ -1706,12 +2628,18 @@
 - semkey: 1.2.8.5
   title: Smell
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 2.8.5
 - semkey: '1.3'
   title: Mouth and Throat
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '3'
 - semkey: 1.3.1
   title: Mouth
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '3.1'
   notes:
   - type: I
     text: <par>Note that in the Garo form for ‘waist’ ko-mor, the second syllable is apparently from etymon
@@ -1723,9 +2651,13 @@
 - semkey: 1.3.1.1
   title: Palate
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.1.1
 - semkey: 1.3.1.2
   title: Beak/Bill
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.1.2
   notes:
   - type: I
     text: <par>STC recognizes only one root for BEAK/BILL, <reconstruction>*muːr</reconstruction> (#366),
@@ -1735,12 +2667,18 @@
 - semkey: 1.3.1.3
   title: Yawn/Gape
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.1.3
 - semkey: 1.3.1.4
   title: Blow
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 3.1.4
 - semkey: 1.3.2
   title: Lip
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '3.2'
   notes:
   - type: I
     text: <par><xref ref="452">#452</xref> *bur or ber [<latinform>bər</latinform>] should be corrected
@@ -1752,18 +2690,28 @@
 - semkey: 1.3.2.1
   title: Suck/Suckle
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.2.1
 - semkey: 1.3.2.2
   title: Kiss
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.2.2
 - semkey: 1.3.3
   title: Tongue
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '3.3'
 - semkey: 1.3.3.1
   title: Lick
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 3.3.1
 - semkey: 1.3.4
   title: Tooth
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '3.4'
   notes:
   - type: I
     text: <par><xref ref="637">#637</xref> <reconstruction>*kəŋ</reconstruction> may need to be modified
@@ -1773,12 +2721,16 @@
 - semkey: 1.3.4.1
   title: Eyetooth/Tusk/Canine Tooth
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.4.1
   notes:
   - type: I
     text: <par>ST lgs usually have the structure DOG+TOOTH, e.g. Chinese, Taraon, Kaman, etc.</par>
 - semkey: 1.3.4.2
   title: Molar
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.4.2
   notes:
   - type: T
     text: '<par>Many TB words meaning MOLAR are compounds: Lepcha <latinform>fo-góm</latinform> and Bokar
@@ -1789,6 +2741,8 @@
 - semkey: 1.3.4.3
   title: Gums
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.4.3
   notes:
   - type: T
     text: <par>Most TB languages reflect the PTB root <reconstruction>*r-nil ⪤ s-nil</reconstruction>,
@@ -1802,9 +2756,13 @@
 - semkey: 1.3.4.4
   title: Bite/Hold in Mouth
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 3.4.4
 - semkey: 1.3.4.5
   title: Chew
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 3.4.5
   notes:
   - type: I
     text: '<par><xref ref="1147">#1147</xref>: for the variation between -t and -p within a single lg
@@ -1816,6 +2774,8 @@
 - semkey: 1.3.5
   title: Throat/Pharynx
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '3.5'
   notes:
   - type: I
     text: <par><xref ref="486">#486</xref> add WINDPIPE/NECK/GULLET to gloss, cf. WT lkog-ma ‘windpipe,
@@ -1829,15 +2789,23 @@
 - semkey: 1.3.5.1
   title: Uvula
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.5.1
 - semkey: 1.3.5.2
   title: Windpipe/Trachea
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.5.2
 - semkey: 1.3.5.3
   title: Gill
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.5.3
 - semkey: 1.3.5.4
   title: Adam's Apple/Larynx
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.5.4
   notes:
   - type: T
     text: <par>Note the semantic connection between LARYNX and KNOT or SEED., e.g. WT <latinform>ʼol-mdud</latinform>
@@ -1850,6 +2818,8 @@
 - semkey: 1.3.5.5
   title: Gullet/Esophagus
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 3.5.5
 - semkey: 1.3.5.6
   title: Swallow
   semcat: Vbp
@@ -1865,21 +2835,33 @@
 - semkey: 1.3.5.7
   title: Choke
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 3.5.6
 - semkey: 1.3.5.8
   title: Eat/Devour
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 3.5.7
 - semkey: 1.3.5.9
   title: Drink
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 3.5.8
 - semkey: '1.4'
   title: Torso
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '4'
 - semkey: 1.4.1
   title: Torso/Trunk
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '4.1'
 - semkey: 1.4.2
   title: Neck
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '4.2'
   notes:
   - type: T
     text: <par>Note the semantic connection between NECK and WAIST; the latter is the neck of the body.
@@ -1901,12 +2883,18 @@
 - semkey: 1.4.2.1
   title: Nape of Neck
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.2.1
 - semkey: 1.4.2.2
   title: Goiter
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.2.2
 - semkey: 1.4.3
   title: Shoulder
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '4.3'
   notes:
   - type: T
     text: <par>For the semantic relationship with KNEE, see Chapter 1.5.8.4 (<xref ref="436">#436</xref>).</par><par>  Note
@@ -1920,24 +2908,38 @@
 - semkey: 1.4.3.1
   title: Collarbone/Clavicle
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.3.1
 - semkey: 1.4.3.2
   title: Shoulderblade/Scapula
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.3.2
 - semkey: 1.4.3.3
   title: Carry on shoulder
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '4.3'
 - semkey: 1.4.4
   title: Front
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '4.4'
 - semkey: 1.4.4.1
   title: Folded
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 4.4.1
 - semkey: 1.4.4.2
   title: Bosom/Lap
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.4.1
 - semkey: 1.4.4.3
   title: Chest
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.4.2
   notes:
   - type: T
     text: <par>Note the relationship between CHEST and BELLY; the Kiranti root <xref ref="3378">#3378</xref>
@@ -1949,6 +2951,8 @@
 - semkey: 1.4.4.4
   title: Ribs/Ribcage
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.4.3
   notes:
   - type: T
     text: <par>For the formations WAIST + BONE = RIB and BELLY + BONE = RIB, see Chapters 1.4.6 and 1.4.7.<br
@@ -1958,12 +2962,18 @@
 - semkey: 1.4.4.5
   title: Chest Hair
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.4.4
 - semkey: 1.4.5
   title: Sides
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '4.5'
 - semkey: 1.4.6
   title: Waist
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '4.6'
   notes:
   - type: T
     text: '<par>The Angami, Jirel, Kulung, Moyon, Bodo, Lalung, and Apatani forms appear to be closely
@@ -1981,6 +2991,8 @@
 - semkey: 1.4.7
   title: Belly/Abdomen
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '4.7'
   notes:
   - type: T
     text: <par>Note the relation BELLY + BONE = RIB in Apatani <latinform>a-kʰrjɯ</latinform> ‘belly’
@@ -1989,6 +3001,8 @@
 - semkey: 1.4.8
   title: Back
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '4.8'
   notes:
   - type: T
     text: '<par>Many Lolo-Burmese forms for &apos;back&apos; are apparently descended from a bi-syllabic
@@ -2002,27 +3016,43 @@
 - semkey: 1.4.8.1
   title: Lower Back/Small of Back
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.8.1
 - semkey: 1.4.8.2
   title: Spine/Backbone
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.8.2
 - semkey: 1.4.8.3
   title: Hunchback
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.8.3
 - semkey: 1.4.8.4
   title: Crouch
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 4.8.3
 - semkey: 1.4.9
   title: Loins/Groin
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '4.9'
 - semkey: 1.4.9.1
   title: Crotch/Fork
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.9.1
 - semkey: 1.4.9.2
   title: Hips/Pelvis/Haunches
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.9.2
 - semkey: 1.4.10
   title: Buttocks/Rump
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '4.10'
   notes:
   - type: T
     text: '<par>Note the collocation of BUTT and HEAVY for words meaning &apos;lazy; sluggish&apos;. See
@@ -2036,15 +3066,23 @@
 - semkey: 1.4.10.1
   title: Tail
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.10.1
 - semkey: 1.4.10.1.1
   title: Short-tailed
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 4.10.1
 - semkey: 1.4.10.2
   title: Anus/Rectum
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 4.10.2
 - semkey: '1.5'
   title: Limbs, Joints, and Body Measures
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.'
 - semkey: 1.5.1
   title: Hand, Arm, Wing
   notes:
@@ -2081,41 +3119,65 @@
 - semkey: 1.5.1.1
   title: Hand
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.1'
 - semkey: 1.5.1.1.1
   title: Fist
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.1.1
 - semkey: 1.5.1.1.2
   title: Back of Hand
 - semkey: 1.5.1.1.3
   title: Four-handed
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '5.1'
 - semkey: 1.5.1.2
   title: Arm
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.8'
 - semkey: 1.5.1.2.1
   title: Bicep/Upper Arm
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.8.1
 - semkey: 1.5.1.2.2
   title: Forearm
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.8.2
 - semkey: 1.5.1.2.3
   title: Underarm/Armpit
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.8.3
 - semkey: 1.5.1.2.4
   title: Tickle
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.8.4
 - semkey: 1.5.1.3
   title: Wing
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.10'
 - semkey: 1.5.1.3.1
   title: Fin
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.10.1
 - semkey: 1.5.2
   title: Foot
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.2'
 - semkey: 1.5.2.1
   title: Heel
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.2.1
   notes:
   - type: T
     text: <par>Note that words for &apos;heel&apos; are sometimes collocations of FOOT + EGG or FOOT +
@@ -2123,83 +3185,125 @@
 - semkey: 1.5.2.2
   title: Instep
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.2.2
 - semkey: 1.5.2.3
   title: Arch
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.2.3
 - semkey: 1.5.2.4
   title: Ball of Foot
   semcat: Nbp
 - semkey: 1.5.2.5
   title: Footprint
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.2.5
 - semkey: 1.5.3
   title: Hands and Feet/Arms and Legs
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.3'
 - semkey: 1.5.3.1
   title: Limb/Branch
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.3.1
 - semkey: 1.5.3.2
   title: Five
 - semkey: 1.5.3.3
   title: Bandy-legged
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '5.3'
 - semkey: 1.5.4
   title: Hoof/Paw
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.4'
 - semkey: 1.5.5
   title: Palm/Sole
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.6'
 - semkey: 1.5.6
   title: Finger/Toe
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.7'
 - semkey: 1.5.6.1
   title: Thumb/Big Toe
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.7.1
   notes:
   - type: T
     text: <par>There are also compounds HAND-MOTHER.</par>
 - semkey: 1.5.6.2
   title: Other Specific Digits
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.7.2
 - semkey: 1.5.6.3
   title: Fingerprint
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.7.3
 - semkey: 1.5.7
   title: Leg
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.9'
   notes:
   - type: T
     text: <par>For etyma meaning LEG, see Chapter 1.5.1.</par>
 - semkey: 1.5.7.1
   title: Thigh
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.9.1
 - semkey: 1.5.7.2
   title: Shin/Tibia
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.9.2
 - semkey: 1.5.7.3
   title: Calf
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.9.3
 - semkey: 1.5.7.4
   title: Lower Leg
   semcat: Nbp
 - semkey: 1.5.8
   title: Joint
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.11'
   notes:
   - type: I
     text: <par>cf. WRIST, KNUCKLE (ELBOW, KNEE). chart?</par>
 - semkey: 1.5.8.1
   title: Wrist
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.11.1
 - semkey: 1.5.8.2
   title: Ankle
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.11.2
 - semkey: 1.5.8.3
   title: Elbow
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.11.3
 - semkey: 1.5.8.4
   title: Knee
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.11.4
   notes:
   - type: T
     text: <par>Note the semantic connection between SHOULDER (Chapter 1.4.3) and KNEE; cf. Nung <latinform>phut</latinform>
@@ -2207,9 +3311,13 @@
 - semkey: 1.5.8.4.1
   title: Knee-deep
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 5.11.4
 - semkey: 1.5.8.5
   title: Knuckle/Phalanx
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.11.5
 - semkey: 1.5.9
   title: Body Measures
   notes:
@@ -2222,60 +3330,96 @@
 - semkey: 1.5.9.3
   title: Cubit
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.14'
 - semkey: 1.5.9.4
   title: Span/Handspan
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.15'
 - semkey: 1.5.9.5
   title: Fathom/Cord
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.16'
 - semkey: 1.5.10
   title: Nail
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.17'
 - semkey: 1.5.10.1
   title: Fingernail
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.17.1
 - semkey: 1.5.10.2
   title: Toenail
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.17.2
 - semkey: 1.5.10.3
   title: Cuticle
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.17.3
 - semkey: 1.5.10.4
   title: Claw/Talon/Pincer
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 5.17.4
 - semkey: 1.5.11
   title: Numb/Paralyzed
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.18'
 - semkey: 1.5.12
   title: Lame/Limp
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '5.19'
 - semkey: '1.6'
   title: Diffuse Organs
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '6.0'
 - semkey: 1.6.1
   title: Body Hair/Fur
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '6.1'
 - semkey: 1.6.1.1
   title: Feather
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.1.1
 - semkey: 1.6.1.2
   title: Mane
   semcat: Nbp
 - semkey: 1.6.1.3
   title: Wool
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.1.3
 - semkey: 1.6.1.4
   title: Bristle
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '6.1'
 - semkey: 1.6.2
   title: Blood/Bleed
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '6.2'
 - semkey: 1.6.2.1
   title: Blood Vessel/Vein/Artery
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.2.1
 - semkey: 1.6.3
   title: Bone
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '6.3'
   notes:
   - type: T
     text: <par>Note that quite a number of Himalayish languages have borrowed Nepali <latinform>hāD</latinform>
@@ -2286,27 +3430,43 @@
 - semkey: 1.6.3.1
   title: Skeleton
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.3.1
 - semkey: 1.6.3.2
   title: Breastbone/Sternum
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.3.2
 - semkey: 1.6.3.3
   title: Spine/Backbone
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.3.3
 - semkey: 1.6.3.4
   title: Cartilage/Gristle
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.3.4
 - semkey: 1.6.3.5
   title: Marrow
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.3.5
 - semkey: 1.6.4
   title: Fat/Be Fat
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '6.4'
 - semkey: 1.6.4.1
   title: Oil/Grease
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.4.1
 - semkey: 1.6.5
   title: Skin
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '6.5'
   notes:
   - type: T
     text: '<par>The fact that so many roots can be reconstructed for SKIN is undoubtedly due to the wide
@@ -2324,90 +3484,140 @@
 - semkey: 1.6.5.1
   title: Hide/Leather
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.5.1
 - semkey: 1.6.5.2
   title: Scale (of fish, snake)
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.5.2
 - semkey: 1.6.5.3
   title: Skin Blemish/Freckle
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.5.3
 - semkey: 1.6.5.4
   title: Blistered
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 6.5.3
 - semkey: 1.6.5.4.1
   title: Boil (n.)
   semcat: Nbp
 - semkey: 1.6.5.5
   title: Itch/Scratch
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.5.4
 - semkey: 1.6.5.6
   title: Molt
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '6.5'
 - semkey: 1.6.6
   title: Obscure Internal Channels
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '6.6'
 - semkey: 1.6.6.1
   title: Sinew/Tendon/Ligament
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.6.1
 - semkey: 1.6.6.2
   title: Muscle
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.6.2
 - semkey: 1.6.6.2.1
   title: Cramped
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 6.6.2
 - semkey: 1.6.6.3
   title: Nerve
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.6.3
 - semkey: 1.6.6.4
   title: Lymph
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 6.6.4
 - semkey: '1.7'
   title: Internal Organs
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '7.0'
 - semkey: 1.7.1
   title: Heart
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '7.1'
   notes:
   - type: T
     text: <par>For the possible semantic connection between HEART and NECK, see Chapter 1.4.2.</par>
 - semkey: 1.7.1.1
   title: Heartbeat/Pulse
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 7.1.1
 - semkey: 1.7.2
   title: Lung
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '7.2'
   notes:
   - type: T
     text: <par>The flowchart below depicts the semantic relationship between LUNGS and LIVER in Jingpho.</par>
 - semkey: 1.7.2.1
   title: Tuberculosis
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 7.2.1
 - semkey: 1.7.3
   title: Liver
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '7.3'
 - semkey: 1.7.3.1
   title: Gall/Bile
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 7.3.1
 - semkey: 1.7.4
   title: Spleen
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '7.4'
 - semkey: 1.7.4.1
   title: Swollen Spleen
   semcat: Nbp
 - semkey: 1.7.5
   title: Kidney
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '7.5'
 - semkey: 1.7.6
   title: Stomach
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '7.6'
 - semkey: 1.7.6.1
   title: Gizzard/Crop
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 7.6.1
 - semkey: 1.7.6.2
   title: Digest
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '7.6'
 - semkey: 1.7.7
   title: Intestines/Bowels/Guts
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '7.7'
 - semkey: 1.7.7.1
   title: Appendix
   semcat: Nbp
@@ -2417,33 +3627,53 @@
 - semkey: 1.7.7.3
   title: Constipated
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '7.7'
 - semkey: 1.7.8
   title: Bladder
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '7.8'
 - semkey: '1.8'
   title: Secretions and Somatophonics
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '8'
 - semkey: 1.8.1
   title: Sweat/Perspire
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '8.2'
 - semkey: 1.8.1.1
   title: Pore
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 8.2.1
 - semkey: 1.8.1.2
   title: Body Dirt
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 8.2.2
 - semkey: 1.8.2
   title: Snot/Nasal Mucus
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '8.3'
 - semkey: 1.8.2.1
   title: Sneeze
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 8.3.1
 - semkey: 1.8.2.2
   title: Snore
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 8.3.2
 - semkey: 1.8.3
   title: Spit/Saliva
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '8.4'
 - semkey: 1.8.3.1
   title: Phlegm
   semcat: Nbp
@@ -2455,6 +3685,8 @@
 - semkey: 1.8.3.2
   title: Vomit
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 8.4.2
   notes:
   - type: I
     text: '<par>evidence of the<latinform>-s </latinform>for the reconstruction<reconstruction>*(m-)pras</reconstruction>:
@@ -2477,15 +3709,23 @@
 - semkey: 1.8.3.3
   title: Cough
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '8.4'
 - semkey: 1.8.3.4
   title: Belch/Burp
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 8.4.4
 - semkey: 1.8.3.5
   title: Hiccup
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 8.4.5
 - semkey: 1.8.4
   title: Urine/Piss
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '8.5'
   notes:
   - type: I
     text: <par><xref ref="650">#650</xref> <latinform>tši</latinform> should be modified as <reconstruction>*tši~dži</reconstruction>;
@@ -2498,6 +3738,8 @@
 - semkey: 1.8.5
   title: Feces/Shit/Dung/Filth/Excrement
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '8.6'
   notes:
   - type: T
     text: <par>Forms in some Bodic lgs seem to be nursery words. ex. Tibetan <latinform>ka-ka</latinform>;
@@ -2508,6 +3750,8 @@
 - semkey: 1.8.5.2
   title: Fart
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 8.6.2
   notes:
   - type: I
     text: <par>Many lgs have the pattern FART+let go to denote ‘to break wind’ , e.g. Chinese, Tibetan,
@@ -2515,38 +3759,58 @@
 - semkey: 1.8.5.3
   title: Flatulate
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 8.6.2
 - semkey: 1.8.5.4
   title: Defecate
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '8.6'
 - semkey: 1.8.6
   title: Discharge
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '8.7'
 - semkey: 1.8.6.1
   title: Pus/Gleet
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '8.7'
   notes:
   - type: I
     text: <par>Is it possible to collapse 1293 *s-bu and 1295 *s-pa (how is the vowel arrived at?).</par>
 - semkey: 1.8.6.2
   title: Abscess/Ulcer
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 8.7.1
 - semkey: 1.8.7
   title: Speak/Say/Tell
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '8.8'
 - semkey: 1.8.7.1
   title: Mute/Dumb
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: '8.8'
 - semkey: 1.8.7.2
   title: Stutter/Stammer
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 8.8.2
 - semkey: 1.8.8
   title: Emotional Somatophonics
 - semkey: 1.8.8.1
   title: Laugh/Smile
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '8.9'
 - semkey: 1.8.8.2
   title: Cry/Weep
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 8.9.1
   notes:
   - type: I
     text: '<par>New tagging numbers: <xref ref="1103">#1103</xref> <reconstruction>*krap</reconstruction>
@@ -2554,6 +3818,8 @@
 - semkey: 1.8.8.3
   title: Tears
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 2.6.7
   notes:
   - type: I
     text: '<par>Common compound patterns are : EYE+water, EYE+TEARS.</par>'
@@ -2563,9 +3829,13 @@
 - semkey: '1.9'
   title: Reproductive System
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '9.0'
 - semkey: 1.9.1
   title: Egg
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '9.1'
   notes:
   - type: T
     text: <par>The English word <emph>yolk</emph> (&lt; OE <emph>geolca</emph>) is an allofam of <emph>yellow</emph>
@@ -2585,29 +3855,45 @@
 - semkey: 1.9.1.1
   title: Bred
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 9.1.1
 - semkey: 1.9.1.2
   title: Brood on egg
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 9.3.3
 - semkey: 1.9.2
   title: Birth
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '1.2'
 - semkey: 1.9.2.1
   title: Sterile
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 9.2.2
 - semkey: 1.9.2.2
   title: Circumcise
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 9.2.1.1
 - semkey: 1.9.2.3
   title: Castrate
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 9.2.2.4
 - semkey: 1.9.3
   title: Navel
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '9.3'
 - semkey: 1.9.3.1
   title: Umbilical Cord
 - semkey: 1.9.4
   title: Breast
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '9.4'
   notes:
   - type: T
     text: <par>The roots in this chapter refer primarily to the female breast as part of the reproductive
@@ -2619,6 +3905,8 @@
 - semkey: 1.9.5
   title: Vagina
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '9.5'
   notes:
   - type: T
     text: '<par>Etyma for VAGINA and PENIS show frequent interchange and/or phonological similarity, by
@@ -2650,6 +3938,8 @@
 - semkey: 1.9.6
   title: Womb
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '9.6'
   notes:
   - type: I
     text: <par>Note that common terms for womb are “child-house” ,” child-nest” , and possibly “child-aid”
@@ -2661,9 +3951,13 @@
 - semkey: 1.9.6.1
   title: Pregnant
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '9.2'
 - semkey: 1.9.6.2
   title: Barren
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 9.3.4.1
 - semkey: 1.9.6.3
   title: Amniotic sac/Amniotic fluid
 - semkey: 1.9.6.4
@@ -2671,9 +3965,13 @@
 - semkey: 1.9.6.5
   title: Fertility
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 9.9.5
 - semkey: 1.9.7
   title: Penis
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '9.7'
   notes:
   - type: T
     text: '<par>The various components of the male genitalia show semantic associations with a number
@@ -2753,6 +4051,8 @@
 - semkey: 1.9.7.1
   title: Testicle
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 9.7.1
 - semkey: 1.9.7.2
   title: Scrotum/Pouch
 - semkey: 1.9.7.3
@@ -2762,6 +4062,8 @@
 - semkey: 1.9.8
   title: Copulate
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '9.8'
   notes:
   - type: T
     text: '<par>It should come as no surprise that verbs meaning COPULATE are closely associated with
@@ -2805,22 +4107,32 @@
 - semkey: 1.9.11.1
   title: Menstrual
   semcat: Vbp
+  old_chapter: 1b
+  old_subchapter: 9.3.4
 - semkey: 1.9.12
   title: Female
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 9.9.3
 - semkey: 1.9.12.1
   title: Female Pubic Hair
 - semkey: 1.9.13
   title: Male
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: 9.9.4
 - semkey: 1.9.13.1
   title: Male Pubic Hair
 - semkey: 1.9.14
   title: Other Reproductive System
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: xxx
 - semkey: '1.10'
   title: Mind
   semcat: Nbp
+  old_chapter: 1a
+  old_subchapter: '10.0'
 - semkey: '7.2'
   title: Epistemics
 - semkey: 9.6.1.2

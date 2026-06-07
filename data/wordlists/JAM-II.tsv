@@ -1,44 +1,44 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-148762	1570	Tibetan (Written)	bdun	bdun	seven	seven		9.9		0		i
-148767	834	Lahu (Black)	chî	chî	lift; raise	lift; raise	v	6.16		0		152
-148768	398	Burmese (Written)	khyi	khyi	promote; exalt	promote; exalt	v	6.2.2.1		0		152
-148769	398	Burmese (Written)	khyî	khyî	lift; raise	lift; raise		6.16		0		152
-148770	834	Lahu (Black)	yɨ̀ʔ-tu	yɨ̀ʔ-tu	awaken	awaken	v	1.1.4		0		127,148
-148778	1570	Tibetan (Written)	sra-bo	sra-bo	tough, proof against onslaught	tough, proof against onslaught		1.1.5		0		174,s
-148779	834	Lahu (Black)	hā	hā	distress	distress		8.3.1.6.2		0		174
-148780	834	Lahu (Black)	mì hā ve	mì hā ve	rough ground	rough ground		7.1.4.2		0		2453,174,450
-148807	1570	Tibetan (Written)	snyuŋ-ba	snyuŋ-ba	ill	ill		1.1.5.1		0		1845,s
-148808	1361	Sangkong	nda⁵⁵	nda⁵⁵	ill	ill		1.1.5.1		0	u	160
-148809	834	Lahu (Black)	pɛ̀-qu	pɛ̀-qu	goiter	goiter		1.4.2.2		0		163,m
-148810	834	Lahu (Black)	cú-phô	cú-phô	breast	breast		1.4.4.3		0		5541,163
-148811	834	Lahu (Black)	cú-phû	cú-phû	breast	breast		1.4.4.3		0		5541,163
-148812	673	Jingpho	búm	búm	mountain	mountain		3.2.5		0		163
-148816	673	Jingpho	phaŋ̀ kəràʔ	phaŋ̀ kəràʔ	thirsty	thirsty		1.1.3.1		0		1826,1825
-148817	673	Jingpho	kəràʔ~gəràʔ	kəràʔ~gəràʔ	thirsty	thirsty		1.1.3.1		0		1825,1825
-148825	142	*Lolo-Burmese	tsiŋ²	tsiŋ²	live	live		1.1.2.1		0		71
-148833	142	*Lolo-Burmese	maŋ¹	maŋ¹	corpse / body	corpse / body		1.1.6.1		0		17
-150017	106	*Barish	k-ney|	k-ney|	hair (head)	hair (head)		1.2.3		0	u	368
-150018	155	*Loloish	tsi¹	tsi¹	hair (head)	hair (head)		1.2.3		0	u	1232
-150027	1605	Trung [Dulong]	mal⁴⁴ta⁴⁴	mal⁴⁴ta⁴⁴	forehead	forehead		1.2.5.1		0	u	1188,371
-150028	673	Jingpho	kə◦thān	kə◦thān	forehead	forehead		1.2.5.1		0		p,384
-150029	673	Jingpho	lə◦thān	lə◦thān	forehead	forehead		1.2.5.1		0		p,384
-150030	673	Jingpho	thān	thān	forehead	forehead		1.2.5.1		0		384
-150031	191	Padam-Mishing [Abor-Miri]	u	u	raise (child)	raise (child)		6.7.7		0	u	97
-150175	1570	Tibetan (Written)	snying-rje	snying-rje	kindness / mercy	kindness / mercy		8.3.3.2.1		0		251,m
-150177	459	Chinese (Mandarin)	tóu-nǎo	tóu-nǎo	brains, intelligence	brains, intelligence		1.2.4		0	u	m,243
-150179	673	Jingpho	ə◦nāi	ə◦nāi	brain	brain		1.2.4		0		p,434
-150513	673	Jingpho	pràt	pràt	bear, give birth	bear, give birth		2.2.3		0		1787
-150514	673	Jingpho	šə pràt	šə pràt	bear, give birth	bear, give birth		2.2.3		0		p,1787
-441363	155	*Loloish	ʔ-mu²	ʔ-mu²	hatch	hatch		1.1.2		0		p,1234
-441365	1909	Sani [Nyi]	ʐo³³	ʐo³³	birth, give	birth, give		1.1.2		0		1865
-441366	1910	Yi (Dafang)	a³³ŋa⁵⁵ ʑo³³	a³³ŋa⁵⁵ ʑo³³	birth, give	birth, give		1.1.2		0		m,m,1865
-441370	398	Burmese (Written)	nuiʼ phrat	nuiʼ phrat	wean	wean				0		m,1787
-441371	1911	Phom	ʃɯʔ³³	ʃɯʔ³³	vagina	vagina				0		661
-441372	1912	Sulung [Puroik]	a³¹ tɯi⁵⁵	a³¹ tɯi⁵⁵	vagina	vagina				0		m,661
-441374	1911	Phom	daŋ³³	daŋ³³	penis	penis				0		1283
-441375	398	Burmese (Written)	hna-khôŋ	hna-khôŋ	nose	nose		1.2.8		0		803,820
-441376	1913	Qiang (Mianchi)	zuì zuí	zuì zuí	testicles	testicles				0		3559,3559
-441377	1913	Qiang (Mianchi)	zuì	zuì	pit, stone; bullet	pit, stone; bullet		3.1.2		0		3559
-441381	1915	Yi (Xide)	hu⁵⁵	hu⁵⁵	birth, give	birth, give		1.1.2		0		97
-441382	1916	Newar	bu-ye	bu-ye	born	be born	be v.	1.1.2		0		1811,s
-441424	142	*Lolo-Burmese	ləw²	ləw²	copulate / penis	copulate / penis		1.9.1.1		0		1154
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+148762	1570	Tibetan (Written)	bdun	bdun	seven	seven			9.9		0			i
+148767	834	Lahu (Black)	chî	chî	lift; raise	lift; raise	v	v	6.16		0			152
+148768	398	Burmese (Written)	khyi	khyi	promote; exalt	promote; exalt	v	v	6.2.2.1		0			152
+148769	398	Burmese (Written)	khyî	khyî	lift; raise	lift; raise			6.16		0			152
+148770	834	Lahu (Black)	yɨ̀ʔ-tu	yɨ̀ʔ-tu	awaken	awaken	v	v	1.1.4		0			127,148
+148778	1570	Tibetan (Written)	sra-bo	sra-bo	tough, proof against onslaught	tough, proof against onslaught			1.1.5		0			174,s
+148779	834	Lahu (Black)	hā	hā	distress	distress			8.3.1.6.2		0			174
+148780	834	Lahu (Black)	mì hā ve	mì hā ve	rough ground	rough ground			7.1.4.2		0			2453,174,450
+148807	1570	Tibetan (Written)	snyuŋ-ba	snyuŋ-ba	ill	ill			1.1.5.1		0			1845,s
+148808	1361	Sangkong	nda⁵⁵	nda⁵⁵	ill	ill			1.1.5.1		0		u	160
+148809	834	Lahu (Black)	pɛ̀-qu	pɛ̀-qu	goiter	goiter			1.4.2.2		0			163,m
+148810	834	Lahu (Black)	cú-phô	cú-phô	breast	breast			1.4.4.3		0			5541,163
+148811	834	Lahu (Black)	cú-phû	cú-phû	breast	breast			1.4.4.3		0			5541,163
+148812	673	Jingpho	búm	búm	mountain	mountain			3.2.5		0			163
+148816	673	Jingpho	phaŋ̀ kəràʔ	phaŋ̀ kəràʔ	thirsty	thirsty			1.1.3.1		0			1826,1825
+148817	673	Jingpho	kəràʔ~gəràʔ	kəràʔ~gəràʔ	thirsty	thirsty			1.1.3.1		0			1825,1825
+148825	142	*Lolo-Burmese	tsiŋ²	tsiŋ²	live	live			1.1.2.1		0			71
+148833	142	*Lolo-Burmese	maŋ¹	maŋ¹	corpse / body	corpse / body			1.1.6.1		0			17
+150017	106	*Barish	k-ney|	k-ney|	hair (head)	hair (head)			1.2.3		0		u	368
+150018	155	*Loloish	tsi¹	tsi¹	hair (head)	hair (head)			1.2.3		0		u	1232
+150027	1605	Trung [Dulong]	mal⁴⁴ta⁴⁴	mal⁴⁴ta⁴⁴	forehead	forehead			1.2.5.1		0		u	1188,371
+150028	673	Jingpho	kə◦thān	kə◦thān	forehead	forehead			1.2.5.1		0			p,384
+150029	673	Jingpho	lə◦thān	lə◦thān	forehead	forehead			1.2.5.1		0			p,384
+150030	673	Jingpho	thān	thān	forehead	forehead			1.2.5.1		0			384
+150031	191	Padam-Mishing [Abor-Miri]	u	u	raise (child)	raise (child)			6.7.7		0		u	97
+150175	1570	Tibetan (Written)	snying-rje	snying-rje	kindness / mercy	kindness / mercy			8.3.3.2.1		0			251,m
+150177	459	Chinese (Mandarin)	tóu-nǎo	tóu-nǎo	brains, intelligence	brains, intelligence			1.2.4		0		u	m,243
+150179	673	Jingpho	ə◦nāi	ə◦nāi	brain	brain			1.2.4		0			p,434
+150513	673	Jingpho	pràt	pràt	bear, give birth	bear, give birth			2.2.3		0			1787
+150514	673	Jingpho	šə pràt	šə pràt	bear, give birth	bear, give birth			2.2.3		0			p,1787
+441363	155	*Loloish	ʔ-mu²	ʔ-mu²	hatch	hatch			1.1.2		0			p,1234
+441365	1909	Sani [Nyi]	ʐo³³	ʐo³³	birth, give	birth, give			1.1.2		0			1865
+441366	1910	Yi (Dafang)	a³³ŋa⁵⁵ ʑo³³	a³³ŋa⁵⁵ ʑo³³	birth, give	birth, give			1.1.2		0			m,m,1865
+441370	398	Burmese (Written)	nuiʼ phrat	nuiʼ phrat	wean	wean					0			m,1787
+441371	1911	Phom	ʃɯʔ³³	ʃɯʔ³³	vagina	vagina					0			661
+441372	1912	Sulung [Puroik]	a³¹ tɯi⁵⁵	a³¹ tɯi⁵⁵	vagina	vagina					0			m,661
+441374	1911	Phom	daŋ³³	daŋ³³	penis	penis					0			1283
+441375	398	Burmese (Written)	hna-khôŋ	hna-khôŋ	nose	nose			1.2.8		0			803,820
+441376	1913	Qiang (Mianchi)	zuì zuí	zuì zuí	testicles	testicles					0			3559,3559
+441377	1913	Qiang (Mianchi)	zuì	zuì	pit, stone; bullet	pit, stone; bullet			3.1.2		0			3559
+441381	1915	Yi (Xide)	hu⁵⁵	hu⁵⁵	birth, give	birth, give			1.1.2		0			97
+441382	1916	Newar	bu-ye	bu-ye	born	be born	be v.		1.1.2		0	dwb13		1811,s
+441424	142	*Lolo-Burmese	ləw²	ləw²	copulate / penis	copulate / penis			1.9.1.1		0			1154

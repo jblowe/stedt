@@ -1,506 +1,506 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-458451	1961	Pyen	boŋ31	boŋ31	sky	sky		3.2.2	011001	0		
-458452	1961	Pyen	mə33 nɯŋ45	mə33 nɯŋ45	sun	sun		3.2.10	011005	0		
-458453	1961	Pyen	mə33 nɯŋ45 ʔɔk33 lan45 pa31	mə33 nɯŋ45 ʔɔk33 lan45 pa31	the sun rises	the sun rises		10.0	011006	0		
-458454	1961	Pyen	ʔa33 la45	ʔa33 la45	moon	moon		3.2.2	011011	0		p,1016
-458455	1961	Pyen	ʔa33 kɯ45	ʔa33 kɯ45	star	star		3.2.2	011016	0		
-458456	1961	Pyen	boŋ31 pleŋ45 la33 pa31	boŋ31 pleŋ45 la33 pa31	shiny, shining	shiny, shining		7.1.11.1	011023	0		
-458457	1961	Pyen	boŋ31 ki33 si31	boŋ31 ki33 si31	obscure, dark	obscure, dark		10.0	011024	0		
-458458	1961	Pyen	ʔa33 man45	ʔa33 man45	wind	wind		3.2.1	011027	0		
-458459	1961	Pyen	ʔa33 man45 to33	ʔa33 man45 to33	(wind) blow	(wind) blow	v.		011028	0		
-458460	1961	Pyen	mo33 hɔ33	mo33 hɔ33	rain	rain		3.2.1	011036	0		2473,2080
-458461	1961	Pyen	mo33 hɔ33 lui45	mo33 hɔ33 lui45	it rains	it rains		8.1	011037	0		
-458462	1961	Pyen	laŋ33 thaŋ45	laŋ33 thaŋ45	rainbow	rainbow		3.2.1	011046	0		6003,6002
-458463	1961	Pyen	boŋ31 ce31 ce31	boŋ31 ce31 ce31	thunder	thunder		3.2.1	011064	0		
-458464	1961	Pyen	cha31 pe33 nin45	cha31 pe33 nin45	soil, earth	soil, earth		3.2.11	012007	0		
-458465	1961	Pyen	la33 ba45 sɯ31	la33 ba45 sɯ31	stone	stone		3.2.9	012010	0		1269
-458466	1961	Pyen	mɔn45	mɔn45	hill, mountain	hill, mountain		3.2.5	012014	0		
-458467	1961	Pyen	laŋ45	laŋ45	water	water		3.2.3	012032	0		191
-458468	1961	Pyen	laŋ45 kɯŋ45	laŋ45 kɯŋ45	(water) clear	(water) clear			012044	0		191,m
-458469	1961	Pyen	laŋ45 khun31	laŋ45 khun31	muddy	muddy		3.2.11	012045	0		
-458470	1961	Pyen	laŋ45 ʔɔŋ33	laŋ45 ʔɔŋ33	lake	lake		3.2.5	012063	0		
-458471	1961	Pyen	nam31 loŋ45	nam31 loŋ45	river	river		3.2.3	012064	0		m,191
-458472	1961	Pyen	kham31	kham31	gold	gold		3.2.4	012072	0		bThai
-458473	1961	Pyen	phlu45	phlu45	silver	silver		3.2.4	012073	0		1235
-458474	1961	Pyen	sam33	sam33	iron	iron		3.2.4	012076	0		2676
-458475	1961	Pyen	pa33 thɔ31	pa33 thɔ31	fire	fire		3.2.12.2	012098	0		
-458476	1961	Pyen	pa33 thɔ31 sou31	pa33 thɔ31 sou31	(fire) go out	(fire) go out	v.		012098	0		
-458477	1961	Pyen	bə33 khao31	bə33 khao31	smoke	smoke		3.2.12.2	012106	0		
-458478	1961	Pyen	koŋ45 ka33	koŋ45 ka33	jungle	jungle		3.2.5	012118	0		
-458479	1961	Pyen	la33 seʔ55 phjai45	la33 seʔ55 phjai45	mount a hill	mount a hill	v.	6.7.7	013005	0		
-458480	1961	Pyen	seʔ55 loŋ33 ŋi45	seʔ55 loŋ33 ŋi45	descend from a hill	descend from a hill	v.	6.7.8	013006	0		
-458481	1961	Pyen	toŋ31 mi31	toŋ31 mi31	tail	tail		1.4.10.1	020004	0		m,1288
-458482	1961	Pyen	ʔaŋ45 chao45	ʔaŋ45 chao45	horn	horn		1.2.2	020009	0		
-458483	1961	Pyen	sa33 la31	sa33 la31	tiger	tiger		2.1.3	021002	0		m,5560
-458484	1961	Pyen	ja33 ba33	ja33 ba33	elephant	elephant		2.2.1	021010	0		3317,s
-458485	1961	Pyen	che33	che33	deer	deer		2.2.2	021012	0		2313
-458486	1961	Pyen	ʔa33 vam45	ʔa33 vam45	bear	bear		2.2.3	021015	0		p,2777
-458487	1961	Pyen	ho33 tam21	ho33 tam21	mouse	mouse		2.1.1	021022	0		2630,m
-458488	1961	Pyen	hai33 ja31	hai33 ja31	bird	bird		2.2.4	022001	0		1606,2187
-458489	1961	Pyen	pja45 min45	pja45 min45	fly	fly	v.	2.2.6	022002	0		
-458490	1961	Pyen	ʔaŋ33 ʔu33	ʔaŋ33 ʔu33	egg	egg			022010	0		m,301
-458491	1961	Pyen	po31 pop55	po31 pop55	owl	owl		2.2.4.1	022013	0		
-458492	1961	Pyen	ʔa33 wa31	ʔa33 wa31	crow	crow		2.2.4.1	022015	0		
-458493	1961	Pyen	ti33 chen45	ti33 chen45	parrot	parrot		2.2.4.1	022021	0		
-458494	1961	Pyen	ʔa33 mjaŋ45 hu45	ʔa33 mjaŋ45 hu45	ox	ox		2.1.2	023002	0		
-458495	1961	Pyen	ʔa33 mjaŋ45 ba45	ʔa33 mjaŋ45 ba45	cow	cow		2.1.2	023003	0		
-458496	1961	Pyen	poŋ21 naʔ55	poŋ21 naʔ55	buffalo	buffalo		2.1.2	023004	0		
-458497	1961	Pyen	ʔa33 mjaŋ45	ʔa33 mjaŋ45	cattle	cattle		2.1.2	023005	0		
-458498	1961	Pyen	wa31	wa31	pig	pig		2.1.12	023008	0		1006
-458499	1961	Pyen	ʔa33 mɔŋ31	ʔa33 mɔŋ31	horse	horse		2.1.7	023016	0		p,1431
-458500	1961	Pyen	khɯ31	khɯ31	dog	dog		2.1.11	023020	0		1764
-458501	1961	Pyen	ʔa33 mɛŋ45	ʔa33 mɛŋ45	cat	cat		2.1.3	023024	0		
-458502	1961	Pyen	ʔa33 kao31	ʔa33 kao31	duck	duck		2.1.10	023042	0		
-458503	1961	Pyen	ja33	ja33	fowl	fowl		2.1.10	023046	0		
-458504	1961	Pyen	pja31	pja31	bee	bee		2.2.6	024008	0		2187
-458505	1961	Pyen	nin31 chaŋ45	nin31 chaŋ45	fly	fly		2.2.6	024020	0		
-458506	1961	Pyen	meŋ33 moŋ31	meŋ33 moŋ31	mosquito	mosquito		2.2.6	024025	0		
-458507	1961	Pyen	the45	the45	(mosquito) bite	(mosquito) bite	v.		024026	0		
-458508	1961	Pyen	kon33 te45	kon33 te45	earthworm	earthworm		2.2.6	024038	0		
-458509	1961	Pyen	mə33 sap33 ba33	mə33 sap33 ba33	cockroach	cockroach		2.2.6	024040	0		
-458510	1961	Pyen	ʔu45 laŋ45	ʔu45 laŋ45	snake	snake		2.1.6.1	024042	0		
-458511	1961	Pyen	ŋe31 thaoʔ55	ŋe31 thaoʔ55	water leech	water leech		3.2.3	024047	0		
-458512	1961	Pyen	ŋe31	ŋe31	land leech	land leech		3.2.5	024047	0		
-458513	1961	Pyen	sen45	sen45	louse	louse		2.2.6	024049	0		2652
-458514	1961	Pyen	toŋ31 te45	toŋ31 te45	fish	fish		2.2.5	025001	0		
-458515	1961	Pyen	laŋ45 lui45	laŋ45 lui45	(fish) swim	(fish) swim	v.		025002	0		
-458516	1961	Pyen	ŋa33 ci45	ŋa33 ci45	eel	eel		2.2.5	025023	0		
-458517	1961	Pyen	loŋ31 mjaŋ45	loŋ31 mjaŋ45	shrimp	shrimp		2.2.5	025030	0		
-458518	1961	Pyen	ʔa33 chaʔ55	ʔa33 chaʔ55	crab	crab		2.2.5	025034	0		
-458519	1961	Pyen	mi33 ʃo33	mi33 ʃo33	shell	shell		2.2.5	025042	0		
-458520	1961	Pyen	kop55	kop55	frog	frog		2.1.6.2	025051	0		bTai
-458521	1961	Pyen	ʔa33 hoŋ45	ʔa33 hoŋ45	turtle	turtle		2.1.6	025056	0		
-458522	1961	Pyen	jaŋ33 ca33 niʔ55	jaŋ33 ca33 niʔ55	fish (with a rod)	fish (with a rod)	v.	2.2.5	026015	0		
-458523	1961	Pyen	ko33 cuŋ45	ko33 cuŋ45	casting net (for fishing)	casting net (for fishing)		10.1	026019	0		
-458524	1961	Pyen	ko33 cuŋ45 ca33 niʔ55	ko33 cuŋ45 ca33 niʔ55	cast a net	cast a net	v.	6.12	026019	0		
-458525	1961	Pyen	sɛ45	sɛ45	butcher	butcher	v.	4.2.1.1	026026	0		
-458526	1961	Pyen	ʔaŋ33 cɯŋ45	ʔaŋ33 cɯŋ45	tree	tree		3.1.2	030008	0		
-458527	1961	Pyen	ʔaŋ che45	ʔaŋ che45	root	root		3.1.2	030013	0		
-458528	1961	Pyen	la31 ŋam33	la31 ŋam33	branches	branches		1.5.3.1	030017	0		
-458529	1961	Pyen	ʔaŋ33 cɯŋ45 pha31	ʔaŋ33 cɯŋ45 pha31	leaf	leaf		3.1.3	030021	0		
-458530	1961	Pyen	wai33 ja31	wai33 ja31	flower	flower		3.1.4	030024	0		
-458531	1961	Pyen	ʔaŋ33 cum31	ʔaŋ33 cum31	raw	raw		7.1.8.3	030038	0		
-458532	1961	Pyen	ʔaŋ33 miŋ33	ʔaŋ33 miŋ33	ripe	ripe		3.1.10	030039	0		m,2449
-458533	1961	Pyen	la33 koŋ31	la33 koŋ31	bean	bean		3.1.4	030044	0		
-458534	1961	Pyen	ʔa33 khɔŋ31	ʔa33 khɔŋ31	bamboo	bamboo		3.1.1	031004	0		
-458535	1961	Pyen	mak33 laŋ45 cɯŋ45	mak33 laŋ45 cɯŋ45	areca palm (Areca catechu L.)	areca palm (Areca catechu L.)		3.1.1	031027	0		
-458536	1961	Pyen	ku33 ci45	ku33 ci45	thatch rushes (Miscanthus sinensis Anderss.)	thatch rushes (Miscanthus sinensis Anderss.)		3.1.6.4	032040	0		
-458537	1961	Pyen	ko33 lum31	ko33 lum31	grain	grain		3.1.6.2	033004	0		5817
-458538	1961	Pyen	ta33 phə31	ta33 phə31	hull	hull		3.1.2	033005	0		
-458539	1961	Pyen	ko33 chen45	ko33 chen45	hulled rice	hulled rice		3.1.2	033008	0		5817
-458540	1961	Pyen	haŋ31 lɔ31	haŋ31 lɔ31	glutinous rice	glutinous rice		7.1.4.2	033009	0		
-458541	1961	Pyen	m33 pum31	m33 pum31	Indian corn (Zea mays L.)	Indian corn (Zea mays L.)		4.6	033023	0		
-458542	1961	Pyen	haŋ311 praŋ45	haŋ311 praŋ45	red rice	red rice		9.4	033030	0		
-458543	1961	Pyen	haŋ31 phaŋ31 rɔŋ45	haŋ31 phaŋ31 rɔŋ45	vegetables	vegetables		3.1.2	034001	0		
-458544	1961	Pyen	toŋ31 kho31	toŋ31 kho31	pumpkin (Cucurbita moschata Poiret)	pumpkin (Cucurbita moschata Poiret)		3.1.5	034022	0		b
-458545	1961	Pyen	ca33 kho31	ca33 kho31	cucumber (Cucumis sativus L.)	cucumber (Cucumis sativus L.)		3.1.5	034024	0		
-458546	1961	Pyen	nam31 tan45	nam31 tan45	sesame (Sesamum indicum D.C.)	sesame (Sesamum indicum D.C.)		3.1.6.1	034049	0		2487,m
-458547	1961	Pyen	ma33 cha31 təŋ33 ləŋ33	ma33 cha31 təŋ33 ləŋ33	Job's-tears (Coix lacryma-Jobi L.)	Job's-tears (Coix lacryma-Jobi L.)		5.11	034050	0		
-458548	1961	Pyen	moŋ33	moŋ33	mushroom	mushroom		3.1.7	034052	0		
-458549	1961	Pyen	la33 phi45	la33 phi45	red pepper (Capsicum frutescens L.)	red pepper (Capsicum frutescens L.)		9.4	034061	0		bChinese,m
-458550	1961	Pyen	ni45 chɯ31	ni45 chɯ31	ginger (Zingiber officinale Rosc.)	ginger (Zingiber officinale Rosc.)		3.1.5	034063	0		
-458551	1961	Pyen	ka33 net55	ka33 net55	pineapple (Ananas comosus Merr.)	pineapple (Ananas comosus Merr.)		3.1.5	035017	0		
-458552	1961	Pyen	ʔa33 ʃɯ31	ʔa33 ʃɯ31	banana (Musa nana Lour.)	banana (Musa nana Lour.)		3.1.5	035027	0		
-458553	1961	Pyen	poŋ31 chao45	poŋ31 chao45	sugar cane (Saccharum sinensis Roxb.)	sugar cane (Saccharum sinensis Roxb.)		3.1.6.2	035041	0		
-458554	1961	Pyen	mak33 laŋ45	mak33 laŋ45	betel nut (Areca catechu L.)	betel nut (Areca catechu L.)		3.1.4	035042	0		
-458555	1961	Pyen	mak33 koi45	mak33 koi45	guava (Psidium guajava L.)	guava (Psidium guajava L.)		3.1.5	035045	0		
-458556	1961	Pyen	khaɯ45	khaɯ45	plant	plant	v.	3.1.10	036002	0		
-458557	1961	Pyen	na31	na31	irrigated rice field	irrigated rice field		6.6	036016	0		
-458558	1961	Pyen	laŋ45 ʃen31 ne45	laŋ45 ʃen31 ne45	water	water	v.	3.2.3	036021	0		191,m,m
-458559	1961	Pyen	ko33 kiu31 ʔi45	ko33 kiu31 ʔi45	harvest	harvest	v.	3.1.10	036024	0		
-458560	1961	Pyen	ko33 dui45	ko33 dui45	thresh	thresh	v.	3.1.10	036025	0		
-458561	1961	Pyen	ko33 nam45 lui45	ko33 nam45 lui45	husk	husk	v.	3.1.2	036026	0		
-458562	1961	Pyen	toŋ31 chum45	toŋ31 chum45	mill for hulling grain	mill for hulling grain		3.1.10	036028	0		
-458563	1961	Pyen	toŋ31 chum45	toŋ31 chum45	mill	mill		3.1.10	036034	0		
-458564	1961	Pyen	ploŋ31 kan45	ploŋ31 kan45	pestle	pestle		5.5	036046	0		
-458565	1961	Pyen	ja45	ja45	slash and burn terrace	slash and burn terrace		3.2.12.1	036048	0		
-458566	1961	Pyen	haŋ31 miŋ33	haŋ31 miŋ33	cooked rice	cooked rice		5.5	041009	0		
-458567	1961	Pyen	haŋ33 pha31 haŋ33 toŋ45	haŋ33 pha31 haŋ33 toŋ45	dishes of food	dishes of food		5.5	042001	0		
-458568	1961	Pyen	wa31 sa31	wa31 sa31	pork	pork		2.1.12	042009	0		1006,34
-458569	1961	Pyen	ja33 ʔu33	ja33 ʔu33	egg	egg			042031	0		m,301
-458570	1961	Pyen	ca31 me31	ca31 me31	salt	salt		3.2.4	044005	0		2729
-458571	1961	Pyen	naŋ33 chen45	naŋ33 chen45	vinegar	vinegar		3.1.6.3	044009	0		
-458572	1961	Pyen	boŋ31 chao33 chap55	boŋ31 chao33 chap55	brown sugar	brown sugar		9.4	044012	0		
-458573	1961	Pyen	laŋ45 lɔŋ45	laŋ45 lɔŋ45	boiling water	boiling water		6.6	045001	0		191,m
-458574	1961	Pyen	neŋ33 laŋ45	neŋ33 laŋ45	tea	tea		3.1.1	045002	0		
-458575	1961	Pyen	sa31 kha45	sa31 kha45	wine	wine		3.1.6.3	045004	0		
-458576	1961	Pyen	haŋ31 cuŋ33 cuŋ33 ʔi45	haŋ31 cuŋ33 cuŋ33 ʔi45	cook rice	cook rice	v.	5.5	046001	0		
-458577	1961	Pyen	mja45 ce45	mja45 ce45	cut in two	cut in two	v.	6.9.3	046015	0		
-458578	1961	Pyen	bə33 tho31	bə33 tho31	firewood	firewood		5.11.5.5	046022	0		
-458579	1961	Pyen	mi33 ciʔ55	mi33 ciʔ55	charcoal	charcoal		3.2.4	046023	0		
-458580	1961	Pyen	ʔa33 lɔŋ31	ʔa33 lɔŋ31	pot	pot		5.5	046040	0		
-458581	1961	Pyen	lɔŋ31 ʔi31	lɔŋ31 ʔi31	soot of a pan	soot of a pan		10.1.1	046048	0		
-458582	1961	Pyen	caŋ45 ku45	caŋ45 ku45	stir	stir	v.	6.2.2.1	046050	0		
-458583	1961	Pyen	chui45	chui45	knead (a dough)	knead (a dough)	v.	5.5	046053	0		
-458584	1961	Pyen	pha33 deŋ33 ŋi45	pha33 deŋ33 ŋi45	cook (a few dishes)	cook (a few dishes)	v.	5.5	046070	0		
-458585	1961	Pyen	phui45	phui45	boil	boil	v.	6.6	046072	0		
-458586	1961	Pyen	piŋ45 ŋi45	piŋ45 ŋi45	roast	roast	v.	5.5	046084	0		
-458587	1961	Pyen	cim31 mi45	cim31 mi45	taste	taste	v.	1.3.5.8	046099	0		
-458588	1961	Pyen	haŋ31 ca31	haŋ31 ca31	serve a meal	serve a meal	v.	6.2.2.1	046101	0		
-458589	1961	Pyen	la33 kho31	la33 kho31	dish	dish		5.5	046107	0		
-458590	1961	Pyen	khlao45	khlao45	cloth	cloth		5.1	051001	0		
-458591	1961	Pyen	nam45 gae45	nam45 gae45	weave	weave	v.	5.1	051022	0		m,5669
-458592	1961	Pyen	mə33 kɯŋ31 kɔ45 than33 ni45	mə33 kɯŋ31 kɔ45 than33 ni45	make clothes	make clothes	v.	6.14	051025	0		
-458593	1961	Pyen	kui45	kui45	sew	sew	v.	5.1	051031	0		
-458594	1961	Pyen	si31 rit55	si31 rit55	torn	torn		6.9.4	051034	0		
-458595	1961	Pyen	caŋ31 kho45	caŋ31 kho45	patch	patch	v.	5.1	051036	0		
-458596	1961	Pyen	kon33 cao31	kon33 cao31	needle	needle		5.1	051037	0		
-458597	1961	Pyen	mai45	mai45	thread	thread		5.11.6	051042	0		
-458598	1961	Pyen	kɯŋ31 cao45	kɯŋ31 cao45	wash (clothes)	wash (clothes)	v.	6.2.2.5.2	051063	0		
-458599	1961	Pyen	ʔaŋ33 ka31 ʔaŋ33 klom45	ʔaŋ33 ka31 ʔaŋ33 klom45	clothes	clothes		5.11.8.2.1	052001	0		
-458600	1961	Pyen	khlao33 tom33 mi45	khlao33 tom33 mi45	wear upper garment	wear upper garment	v.	6.2.2.1	052002	0		
-458601	1961	Pyen	taŋ33 ka31 kai45	taŋ33 ka31 kai45	wear waist cloth	wear waist cloth	v.	6.2.2.1	052002	0		
-458602	1961	Pyen	khlao33 le45	khlao33 le45	undress upper garment	undress upper garment	v.	6.1.1	052003	0		
-458603	1961	Pyen	taŋ33 ka31 le45	taŋ33 ka31 le45	undress waist cloth	undress waist cloth	v.	6.1.1	052003	0		
-458604	1961	Pyen	khlao33	khlao33	upper garment	upper garment		9.2.1	052011	0		
-458605	1961	Pyen	n33 choŋ31	n33 choŋ31	trousers	trousers		5.11.8.2.1.3	052035	0		
-458606	1961	Pyen	lɔ33 chɔŋ31	lɔ33 chɔŋ31	hat	hat		5.11.8.2.1.1	052053	0		
-458607	1961	Pyen	khjap55	khjap55	shoes	shoes		5.11.8.1	052064	0		
-458608	1961	Pyen	khjap55 tai45	khjap55 tai45	wear shoes	wear shoes	v.	6.2.2.1	052091	0		
-458609	1961	Pyen	khjap55 khjot55 li45	khjap55 khjot55 li45	take off shoes	take off shoes	v.	6.21	052092	0		
-458610	1961	Pyen	hai33 ja31 pam31	hai33 ja31 pam31	bird's nest	bird's nest		2.2.4	060006	0		1606,2187,673
-458611	1961	Pyen	jum45	jum45	house	house		5.11.9.1	060007	0		1612
-458612	1961	Pyen	buŋ31 khaŋ45	buŋ31 khaŋ45	roof	roof		5.11.9	061012	0		
-458613	1961	Pyen	jam45 dɯŋ45	jam45 dɯŋ45	pillar	pillar		5.11.9.3.1	061015	0		
-458614	1961	Pyen	kam33 pja45	kam33 pja45	inner wall	inner wall		9.2.5	061016	0		
-458615	1961	Pyen	poŋ33 khraŋ33	poŋ33 khraŋ33	staircase	staircase		5.11.9.3.1	061020	0		
-458616	1961	Pyen	ko45 khan31	ko45 khan31	door	door		5.11.9.3	061030	0		
-458617	1961	Pyen	laŋ45 ʔa33 lɔŋ31	laŋ45 ʔa33 lɔŋ31	well	well		9.6.1.1	061053	0		
-458618	1961	Pyen	jum45 choi45	jum45 choi45	build a house	build a house	v.	6.14	062001	0		1612,m
-458619	1961	Pyen	ʔaŋ33 kwat55 kwat55 li45	ʔaŋ33 kwat55 kwat55 li45	sweep the floor	sweep the floor	v.	6.2.2.5.3	063006	0		
-458620	1961	Pyen	ʃi45 li45	ʃi45 li45	wipe	wipe	v.	6.2.2.1	063010	0		5594,m
-458621	1961	Pyen	haŋ31 phən45	haŋ31 phən45	table	table		5.11.9.4	071003	0		
-458622	1961	Pyen	la33 phuʔ33	la33 phuʔ33	mat	mat		5.11.9.4	072005	0		
-458623	1961	Pyen	ʔa33 phen31	ʔa33 phen31	covering	covering		5.8	072006	0		
-458624	1961	Pyen	do33 khuʔ55	do33 khuʔ55	pillow	pillow		1.2.1	072014	0		m,692
-458625	1961	Pyen	sut55	sut55	mosquito net	mosquito net		2.2.6	072017	0		
-458626	1961	Pyen	mi33 chap33	mi33 chap33	knife	knife		5.5	073004	0		
-458627	1961	Pyen	nai45 sui45 la33 ba45	nai45 sui45 la33 ba45	grindstone	grindstone			073007	0		
-458628	1961	Pyen	nai45 sui45	nai45 sui45	sharpen a knife	sharpen a knife	v.	6.9.2	073008	0		
-458629	1961	Pyen	wə33	wə33	hoe	hoe		5.3	073048	0		
-458630	1961	Pyen	cio31	cio31	sickle	sickle		5.3	073053	0		
-458631	1961	Pyen	la33 tɯ31	la33 tɯ31	ropes, cordage	ropes, cordage		5.11.4	073058	0		
-458632	1961	Pyen	ka45 ba45	ka45 ba45	road	road		9.10.1	081007	0		
-458633	1961	Pyen	ka45 ba45 jo33 ʔe45	ka45 ba45 jo33 ʔe45	walk on foot	walk on foot	v.	6.7.4	081008	0		
-458634	1961	Pyen	ʔa33 kho45	ʔa33 kho45	bridge	bridge		9.10.2	081021	0		p,260
-458635	1961	Pyen	khɔŋ31	khɔŋ31	village	village		5.8	081027	0		5776
-458636	1961	Pyen	wui45	wui45	buy	buy	v.	6.22	091003	0		
-458637	1961	Pyen	koŋ31	koŋ31	sell	sell	v.	6.22	091004	0		
-458638	1961	Pyen	lo45 po33 lə31	lo45 po33 lə31	how much (asking for price)	how much (asking for price)		10.1	091040	0		
-458639	1961	Pyen	kat33	kat33	market	market		9.10.6	092003	0		
-458640	1961	Pyen	phlu45	phlu45	money	money		5.9	093001	0		
-458641	1961	Pyen	chan45 taŋ31 ci45	chan45 taŋ31 ci45	language	language		5.8	101001	0		
-458642	1961	Pyen	ʔaŋ33 be33 ja31	ʔaŋ33 be33 ja31	can understand (a language)	can understand (a language)		10.2.2	101005	0		
-458643	1961	Pyen	m33 be33 ～ ma33 be33	m33 be33 ～ ma33 be33	cannot understand (a language)	cannot understand (a language)		10.2.2	101006	0		
-458644	1961	Pyen	ci45	ci45	speak	speak	v.	8.5.10.1	101009	0		
-458645	1961	Pyen	hao45 ʔi45	hao45 ʔi45	call	call	v.	8.5.13	101018	0		
-458646	1961	Pyen	ko33 ka45 taŋ31	ko33 ka45 taŋ31	Chinese language	Chinese language		4.6	101041	0		
-458647	1961	Pyen	man33 taŋ31	man33 taŋ31	Myanmar language	Myanmar language		5.8	101043	0		
-458648	1961	Pyen	ʃam31 taŋ31	ʃam31 taŋ31	Shan language	Shan language		5.8	101044	0		
-458649	1961	Pyen	mu33 su33 taŋ31	mu33 su33 taŋ31	Pyen language	Pyen language		5.8	101051	0		
-458650	1961	Pyen	khɯ45 ne33 wa31	khɯ45 ne33 wa31	reach destination	reach destination	v.	6.21	102014	0		
-458651	1961	Pyen	pɔk33 lan45 wa31	pɔk33 lan45 wa31	go home	go home	v.	6.7.2	102015	0		
-458652	1961	Pyen	sɯ45 tɛm45	sɯ45 tɛm45	write	write	v.	6.2.2.9.1	111049	0		
-458653	1961	Pyen	sao31 ʔi45	sao31 ʔi45	have a holiday	have a holiday	v.	8.2	111058	0		
-458654	1961	Pyen	ka33 lat55	ka33 lat55	paper	paper		5.1	112001	0		
-458655	1961	Pyen	tit55	tit55	glue, stick	glue, stick	v.	5.4	112034	0		
-458656	1961	Pyen	boa33 ʔi45	boa33 ʔi45	play	play	v.	6.1.1.3	113001	0		
-458657	1961	Pyen	hao45 ʔi45	hao45 ʔi45	sing	sing	v.	5.1	113046	0		
-458658	1961	Pyen	coŋ31 jen33 ni45	coŋ31 jen33 ni45	dance	dance	v.	6.7.9	113066	0		
-458659	1961	Pyen	pha33 cao33	pha33 cao33	god	god		5.8.1.1	121001	0		
-458660	1961	Pyen	de33 ja31	de33 ja31	ghost, spirit	ghost, spirit		4.2.12.2	121008	0		
-458661	1961	Pyen	kha33 ba33 jui45	kha33 ba33 jui45	take a wife	take a wife	v.	6.21	123006	0		
-458662	1961	Pyen	ʔaŋ33 bloŋ45 jui45	ʔaŋ33 bloŋ45 jui45	take a husband	take a husband	v.	6.21	123007	0		
-458663	1961	Pyen	diŋ31 ŋae45	diŋ31 ŋae45	divorce	divorce	v.	5.8	123045	0		
-458664	1961	Pyen	bo31 ʔe45	bo31 ʔe45	make a visit (to friends)	make a visit (to friends)	v.	6.14	124009	0		
-458665	1961	Pyen	caŋ33 lɯŋ45 bui45 la31	caŋ33 lɯŋ45 bui45 la31	How are you?	How are you?		10.1	124036	0		
-458666	1961	Pyen	lɯŋ33 pao31	lɯŋ33 pao31	Please have a seat.	Please have a seat.		8.3.1.1.1	124046	0		
-458667	1961	Pyen	cam45 khɯŋ45	cam45 khɯŋ45	body hair	body hair		1.6.1	131002	0		366,m
-458668	1961	Pyen	ʔaŋ33 khɔ45	ʔaŋ33 khɔ45	skin	skin		1.6.5	131003	0		p,586
-458669	1961	Pyen	ʔaŋ33 gao31	ʔaŋ33 gao31	bone	bone		1.6.3	131006	0		
-458670	1961	Pyen	ʔaŋ33 ku31	ʔaŋ33 ku31	tendon	tendon		1.6.6.1	131008	0		
-458671	1961	Pyen	ʔaŋ33 sa31	ʔaŋ33 sa31	flesh	flesh		1.1.1.1	131009	0		m,34
-458672	1961	Pyen	ʃi31	ʃi31	blood	blood		1.6.2	131011	0		230
-458673	1961	Pyen	pui45 laŋ45	pui45 laŋ45	tears	tears		1.2.6.7	131013	0		
-458674	1961	Pyen	mi33 nɯ31 laŋ45	mi33 nɯ31 laŋ45	sweat	sweat		1.8.1	131014	0		
-458675	1961	Pyen	ʔiaŋ31	ʔiaŋ31	body dirt	body dirt		1.8.1.2	131016	0		
-458676	1961	Pyen	ʔaŋ33 ʔum45	ʔaŋ33 ʔum45	pus	pus		1.8.6.1	131021	0		
-458677	1961	Pyen	ʔaŋ33 ʔum45 ɔk33 jui45	ʔaŋ33 ʔum45 ɔk33 jui45	suppurate	suppurate	v.	1.8.6	131022	0		
-458678	1961	Pyen	sa33 kaŋ45	sa33 kaŋ45	breathe	breathe	v.	1.1.2.2	131023	0		32,m
-458679	1961	Pyen	ha33 hai31	ha33 hai31	yawn	yawn	v.	1.3.1.3	131027	0		
-458680	1961	Pyen	ʔaŋ33 tu31	ʔaŋ33 tu31	head	head		1.2.1	131029	0		
-458681	1961	Pyen	cam45 khɯŋ45	cam45 khɯŋ45	hair	hair		1.2.3	131032	0		366,m
-458682	1961	Pyen	mə33 ka31	mə33 ka31	face	face		1.2.5	131041	0		
-458683	1961	Pyen	choŋ45 mɯ31	choŋ45 mɯ31	eyebrow	eyebrow		1.2.6.6	131042	0		
-458684	1961	Pyen	mi33 nɯ45	mi33 nɯ45	eyes	eyes		1.2.6	131043	0		
-458685	1961	Pyen	mi33 khan31	mi33 khan31	secretion in the eye	secretion in the eye		10.1.1	131054	0		681,m
-458686	1961	Pyen	la31 ʃɯŋ45	la31 ʃɯŋ45	ears	ears		1.2.7	131059	0		
-458687	1961	Pyen	na33 khaŋ45	na33 khaŋ45	nose	nose		1.2.8	131065	0		803,809
-458688	1961	Pyen	nao31	nao31	hard secretion from the nose	hard secretion from the nose		9.6.2	131072	0		
-458689	1961	Pyen	bun45 kae45	bun45 kae45	snore	snore	v.	1.8.2.2	131073	0		
-458690	1961	Pyen	m33 pɔŋ31	m33 pɔŋ31	mouth	mouth		1.3.1	131074	0		
-458691	1961	Pyen	man31 khɔ33	man31 khɔ33	lips	lips		1.3.2	131076	0		
-458692	1961	Pyen	man31 la45	man31 la45	tongue	tongue		1.3.3	131077	0		
-458693	1961	Pyen	khan31	khan31	saliva	saliva		1.8.3	131081	0		539
-458694	1961	Pyen	kan33 chao31	kan33 chao31	phlegm	phlegm		1.8.3	131083	0		539,m
-458695	1961	Pyen	ca33 phe31	ca33 phe31	teeth	teeth		1.3.4	131086	0		
-458696	1961	Pyen	m33 pa33	m33 pa33	cheek	cheek		1.2.5.2	131094	0		
-458697	1961	Pyen	ma33 mɯ31	ma33 mɯ31	beard	beard		1.2.5.5	131097	0		
-458698	1961	Pyen	mən33 təŋ31	mən33 təŋ31	chin	chin		1.2.5.3	131100	0		
-458699	1961	Pyen	m33 chɯ31	m33 chɯ31	neck	neck		1.4.2	131105	0		
-458700	1961	Pyen	mə33 hom45	mə33 hom45	shoulder	shoulder		1.4.3	131109	0		
-458701	1961	Pyen	ku33 li45	ku33 li45	armpit	armpit		1.5.1.2.3	131110	0		
-458702	1961	Pyen	la33 pu31	la33 pu31	hand	hand		1.5.1.1	131111	0		695,m
-458703	1961	Pyen	la33 ma45	la33 ma45	right-hand	right-hand		1.5.1.1	131112	0		695,m
-458704	1961	Pyen	la33 chai45	la33 chai45	left-hand	left-hand		1.5.3.2	131113	0		695,m
-458705	1961	Pyen	ciŋ33 tɔŋ31	ciŋ33 tɔŋ31	elbow	elbow		1.5.8.3	131115	0		
-458706	1961	Pyen	la33 ɲuŋ45	la33 ɲuŋ45	finger	finger		1.5.6	131122	0		
-458707	1961	Pyen	laŋ31 pɛt55	laŋ31 pɛt55	breast	breast		1.4.4.3	131140	0		
-458708	1961	Pyen	m33 pɛt55 si31	m33 pɛt55 si31	nipple	nipple			131141	0		
-458709	1961	Pyen	naŋ33 ba45 sɯ31	naŋ33 ba45 sɯ31	heart	heart		1.7.1	131143	0		
-458710	1961	Pyen	m33 mao33	m33 mao33	lungs	lungs		1.7.2	131144	0		
-458711	1961	Pyen	n33 co31	n33 co31	waist	waist		1.4.6	131146	0		
-458712	1961	Pyen	poŋ33 baʔ55	poŋ33 baʔ55	belly	belly		1.4.7	131147	0		
-458713	1961	Pyen	chi45 coŋ31	chi45 coŋ31	navel	navel		1.9.4	131148	0		
-458714	1961	Pyen	ʔa33 chin31	ʔa33 chin31	liver	liver		1.7.3	131150	0		p,1390
-458715	1961	Pyen	de33 kha31	de33 kha31	gall bladder	gall bladder		1.7.3	131151	0		
-458716	1961	Pyen	ʔaŋ33 ʔu45	ʔaŋ33 ʔu45	intestines	intestines		1.7.7	131155	0		m,2102
-458717	1961	Pyen	ʔaŋ33 khaŋ45	ʔaŋ33 khaŋ45	backbone	backbone		1.4.8.2	131157	0		
-458718	1961	Pyen	ʔeŋ31 thoŋ45	ʔeŋ31 thoŋ45	buttocks	buttocks		1.4.10	131158	0		
-458719	1961	Pyen	ʔeŋ31 ʔui45	ʔeŋ31 ʔui45	defecate	defecate	v.	1.8.5.4	131160	0		
-458720	1961	Pyen	si31 sam45	si31 sam45	urinate	urinate	v.	1.5.3.2	131162	0		650,m
-458721	1961	Pyen	ʔeŋ31 kha31 coi45	ʔeŋ31 kha31 coi45	expel intestinal gas	expel intestinal gas	v.	6.7.2	131164	0		
-458722	1961	Pyen	la33 se31	la33 se31	male organ	male organ		1.9.6.1	131165	0		
-458723	1961	Pyen	la33 pe45	la33 pe45	vulva	vulva			131169	0		
-458724	1961	Pyen	ja33 pon33 baʔ55	ja33 pon33 baʔ55	pregnant	pregnant	be v.	1.9.6.1	131178	0		
-458725	1961	Pyen	ʔaŋ33 ja31 kət33 ʔi45	ʔaŋ33 ja31 kət33 ʔi45	give birth	give birth	v.	1.1.2	131179	0		
-458726	1961	Pyen	ʔa33 khɯ45	ʔa33 khɯ45	leg	leg		1.5.7	131184	0		p,335
-458727	1961	Pyen	ʔa33 khɯ45 wa31	ʔa33 khɯ45 wa31	foot	foot		1.5.2	131190	0		p,335,m
-458728	1961	Pyen	n33 tan31	n33 tan31	voice	voice		8.5.5	131202	0		
-458729	1961	Pyen	mjaŋ45	mjaŋ45	see	see	v.	1.2.6.10	132009	0		1227
-458730	1961	Pyen	hui45	hui45	look	look	v.	1.2.6.11	132009	0		
-458731	1961	Pyen	ʔaŋ33 cai31 ʔa31	ʔaŋ33 cai31 ʔa31	hear	hear	v.	1.2.7.4	132020	0		
-458732	1961	Pyen	nae45	nae45	listen	listen	v.	1.2.7.4	132020	0		811
-458733	1961	Pyen	nam31 me45	nam31 me45	smell	smell	v.	1.2.8.5	132021	0		1415
-458734	1961	Pyen	ca31	ca31	eat	eat	v.	1.5.3.2	132028	0		
-458735	1961	Pyen	taŋ45	taŋ45	drink	drink	v.		132029	0		502
-458736	1961	Pyen	che45	che45	bite	bite	v.	1.3.4.4	132031	0		
-458737	1961	Pyen	koi45	koi45	chew	chew	v.	1.3.4	132032	0		
-458738	1961	Pyen	lɛ45	lɛ45	lick with tip of tongue	lick with tip of tongue	v.	10.1.1	132035	0		629
-458739	1961	Pyen	mɯ45	mɯ45	blow	blow	v.	1.3.1.4	132047	0		503
-458740	1961	Pyen	la33 pu31 chia45	la33 pu31 chia45	raise the hand	raise the hand	v.	6.7.7	132059	0		695,m,m
-458741	1961	Pyen	la33 wa33 thɛk55 ʔe45	la33 wa33 thɛk55 ʔe45	clap the hands	clap the hands	v.	9.3	132061	0		
-458742	1961	Pyen	ɲu45 klaŋ45 ŋi45	ɲu45 klaŋ45 ŋi45	point	point	v.	6.2.2.2	132066	0		
-458743	1961	Pyen	chui45	chui45	hold with the hand	hold with the hand	v.	6.16	132070	0		
-458744	1961	Pyen	che45	che45	transport	transport	v.	6.2.2.1	132087	0		
-458745	1961	Pyen	chi45	chi45	put, place in / on	put, place in / on	v.	10.1.1	132090	0		
-458746	1961	Pyen	tan31 ni45	tan31 ni45	push	push	v.	6.2.2.3.1	132106	0		
-458747	1961	Pyen	kɯn31 mi45	kɯn31 mi45	pull	pull	v.	6.2.2.3.1	132107	0		
-458748	1961	Pyen	can45 ni45	can45 ni45	throw	throw	v.	6.12	132138	0		
-458749	1961	Pyen	ʔam45 mi45	ʔam45 mi45	carry in the arms	carry in the arms	v.	6.2.2.2.1	132144	0		
-458750	1961	Pyen	ɲui45	ɲui45	pick up	pick up	v.	6.10.4	132153	0		
-458751	1961	Pyen	koe45	koe45	pick up	pick up	v.	6.10.4	132153	0		5430
-458752	1961	Pyen	laŋ45 kham45	laŋ45 kham45	ladle	ladle	v.	5.5	132160	0		
-458753	1961	Pyen	naŋ31 ŋi45	naŋ31 ŋi45	tread	tread	v.	6.7.4	132163	0		2134,m
-458754	1961	Pyen	hɯn31 ni45	hɯn31 ni45	run	run	v.	6.7.4	132170	0		
-458755	1961	Pyen	ce33 sak33 ʔe45	ce33 sak33 ʔe45	kick	kick	v.	6.2.2.3.3	132171	0		
-458756	1961	Pyen	dɯŋ33	dɯŋ33	sit	sit	v.	6.1.1.4.1	132178	0		1906
-458757	1961	Pyen	cuŋ45	cuŋ45	stand	stand	v.	1.5.2	132181	0		
-458758	1961	Pyen	bɔk33 lui45	bɔk33 lui45	stand up	stand up	v.	1.5.2	132182	0		
-458759	1961	Pyen	jui45	jui45	sleep	sleep	v.	1.1.4.1	132196	0		
-458760	1961	Pyen	jui45 ba31	jui45 ba31	sleep	sleep	v.	1.1.4.1	132196	0		
-458761	1961	Pyen	duŋ33 le33 ba31	duŋ33 le33 ba31	wake up	wake up	v.	1.1.4	132199	0		
-458762	1961	Pyen	tha33 le33 ba31	tha33 le33 ba31	get up	get up	v.	1.1.4	132199	0		
-458763	1961	Pyen	khan45 pa31	khan45 pa31	stumble, fall down	stumble, fall down	v.	6.7.3	132201	0		
-458764	1961	Pyen	toe45	toe45	crawl	crawl	v.	6.7.9	132204	0		
-458765	1961	Pyen	thɔŋ33 ŋi45	thɔŋ33 ŋi45	run against	run against	v.	6.7.4	132206	0		
-458766	1961	Pyen	dɯ45 gi45 jai45	dɯ45 gi45 jai45	slip to one side	slip to one side	v.	6.7.3	132207	0		
-458767	1961	Pyen	ʔəŋ33	ʔəŋ33	carry on the back	carry on the back	v.	6.2.2.2.1	132209	0		
-458768	1961	Pyen	phɯi45	phɯi45	tie	tie	v.	6.13.1	132211	0		
-458769	1961	Pyen	cho31 cho31 ʔe45	cho31 cho31 ʔe45	cough	cough	v.	1.8.3.3	132213	0		
-458770	1961	Pyen	n33 tu31 phoi45	n33 tu31 phoi45	wash face	wash face	v.	6.2.2.5.2	133001	0		
-458771	1961	Pyen	n33 tu31 ke45	n33 tu31 ke45	shampoo the hair	shampoo the hair	v.	1.2.3	133007	0		
-458772	1961	Pyen	ʔaŋ33 tu31 chae45	ʔaŋ33 tu31 chae45	comb the hair	comb the hair	v.	1.2.2.1	133022	0		
-458773	1961	Pyen	la33 pu31 chi45	la33 pu31 chi45	wash hand	wash hand	v.	6.2.2.5.2	133039	0		695,m,5647
-458774	1961	Pyen	la33 bəʔ55 chao33	la33 bəʔ55 chao33	tattoo	tattoo	v.	5.11.8.3	133040	0		
-458775	1961	Pyen	ʔaŋ33 ja31 sui45	ʔaŋ33 ja31 sui45	raise children	raise children	v.	6.7.7	141006	0		
-458776	1961	Pyen	moŋ45 kho33 lai45	moŋ45 kho33 lai45	grow	grow	v.	9.7.2	141009	0		
-458777	1961	Pyen	lun45	lun45	get tired	get tired	v.	1.1.5	141012	0		
-458778	1961	Pyen	sao33 ʔi45	sao33 ʔi45	rest	rest	v.	1.1.4.1	141013	0		
-458779	1961	Pyen	jui45	jui45	sleep	sleep	v.	1.1.4.1	141014	0		
-458780	1961	Pyen	me33 bun33 ni45	me33 bun33 ni45	dream	dream	v.	1.1.4.2	141016	0		
-458781	1961	Pyen	ʃi33	ʃi33	die	die	v.	1.1.6	141022	0		27
-458782	1961	Pyen	nɔŋ31 ʔa33 ju33 la45 pən33 gai33 ʔə31	nɔŋ31 ʔa33 ju33 la45 pən33 gai33 ʔə31	How old are you?	How old are you?		10.1	141030	0		2489,m,m,m,m,m,m
-458783	1961	Pyen	taŋ33 liŋ45 bui33 ʔa31	taŋ33 liŋ45 bui33 ʔa31	ill	ill	be v.	1.1.5.1	142002	0		
-458784	1961	Pyen	dae45	dae45	painful	painful		1.1.5.1	142007	0		
-458785	1961	Pyen	chen33 la45 ba31	chen33 la45 ba31	get well	get well	v.	1.1.5	142009	0		
-458786	1961	Pyen	ʔaŋ33 tu31 dae45	ʔaŋ33 tu31 dae45	have headache	have headache	v.	8.2	142010	0		
-458787	1961	Pyen	tu31 pa45 pao45	tu31 pa45 pao45	feel dizzy	feel dizzy	v.	8.4	142011	0		
-458788	1961	Pyen	la31 paŋ31	la31 paŋ31	deaf	deaf		1.2.7.5	142016	0		
-458789	1961	Pyen	dɯ31	dɯ31	sneeze	sneeze	v.	1.8.2.1	142017	0		
-458790	1961	Pyen	ʔo31 phe31 phe31	ʔo31 phe31 phe31	vomit	vomit	v.	1.8.3.2	142024	0		p,1145,1145
-458791	1961	Pyen	poŋ33 ba33 dae45	poŋ33 ba33 dae45	have stomachache	have stomachache	v.	8.2	142033	0		
-458792	1961	Pyen	ʔeŋ31 ploŋ33 ploŋ33 ŋi45	ʔeŋ31 ploŋ33 ploŋ33 ŋi45	have diarrhea	have diarrhea	v.	8.2	142034	0		
-458793	1961	Pyen	ʔaŋ33 chao33 wa45 ʔoŋ45 ŋi45	ʔaŋ33 chao33 wa45 ʔoŋ45 ŋi45	catch cold	catch cold	v.	6.21	142041	0		
-458794	1961	Pyen	sen45	sen45	have lice	have lice	v.	8.2	142063	0		
-458795	1961	Pyen	puŋ45	puŋ45	swell	swell	v.	1.1.5.2	142084	0		
-458796	1961	Pyen	la33 pu31 khrɯŋ45 ŋi45	la33 pu31 khrɯŋ45 ŋi45	suffer a fracture of a bone	suffer a fracture of a bone	v.	1.6.3	142086	0		
-458797	1961	Pyen	ca31 ka31	ca31 ka31	medicine	medicine		5.4	143009	0		
-458798	1961	Pyen	ca31 ka31 ca31 ʔi45	ca31 ka31 ca31 ʔi45	take medicine	take medicine	v.	6.21	143016	0		
-458799	1961	Pyen	saŋ31 na45	saŋ31 na45	bow	bow		5.15	144013	0		
-458800	1961	Pyen	bla31	bla31	arrow	arrow		5.15	144014	0		2386
-458801	1961	Pyen	thaŋ33	thaŋ33	sword	sword		5.15	144017	0		2205
-458802	1961	Pyen	chaŋ45 men45	chaŋ45 men45	name	name		5.8	151003	0		
-458803	1961	Pyen	chaŋ31 nam45	chaŋ31 nam45	relatives	relatives			152002	0		
-458804	1961	Pyen	ʔa33 boŋ45	ʔa33 boŋ45	father	father		4.7.1	152018	0		
-458805	1961	Pyen	ʔa33 ba33	ʔa33 ba33	mother	mother		4.7.1	152020	0		
-458806	1961	Pyen	ʔa33 ʔɯ31	ʔa33 ʔɯ31	father's elder brother	father's elder brother		4.7.1	152029	0		
-458807	1961	Pyen	ʔa33 bɯŋ33	ʔa33 bɯŋ33	father's younger sister	father's younger sister		4.7.1	152034	0		
-458808	1961	Pyen	ʔaŋ33 bloŋ45	ʔaŋ33 bloŋ45	husband	husband		4.7.4	152050	0		
-458809	1961	Pyen	kha33 ba33	kha33 ba33	wife	wife		4.7.4	152051	0		
-458810	1961	Pyen	ʔaŋ33 ʔai45	ʔaŋ33 ʔai45	elder brother	elder brother		4.7.1	152058	0		
-458811	1961	Pyen	ʔa33 phe45	ʔa33 phe45	younger brother	younger brother			152060	0		
-458812	1961	Pyen	ʔa33 ʃi45	ʔa33 ʃi45	elder sister	elder sister		4.7.1	152063	0		
-458813	1961	Pyen	ʔa33 po31	ʔa33 po31	younger sister	younger sister			152065	0		
-458814	1961	Pyen	ja31 plɔŋ45	ja31 plɔŋ45	son	son		4.7.3	152080	0		
-458815	1961	Pyen	ʔaŋ33 chu45	ʔaŋ33 chu45	son's wife	son's wife		4.7.3	152083	0		
-458816	1961	Pyen	ja31 bje31	ja31 bje31	daughter	daughter		4.7.3	152085	0		
-458817	1961	Pyen	ʔaŋ33 ʃɔŋ31	ʔaŋ33 ʃɔŋ31	daughter's husband	daughter's husband		4.7.3	152086	0		
-458818	1961	Pyen	chaŋ45 beŋ33 bu45	chaŋ45 beŋ33 bu45	friend	friend		4.4.2	153008	0		
-458819	1961	Pyen	ja31 ke45 ja31	ja31 ke45 ja31	child	child		1.5.3.2	160002	0		
-458820	1961	Pyen	ko33 phja31	ko33 phja31	male	male		1.9.6.1	160006	0		
-458821	1961	Pyen	ko33 bja31	ko33 bja31	female	female		1.9.3	160010	0		
-458822	1961	Pyen	saŋ45	saŋ45	human being	human being		4.5	160041	0		
-458823	1961	Pyen	la33 paŋ31	la33 paŋ31	deaf	deaf		1.2.7.5	160048	0		
-458824	1961	Pyen	ja31 caŋ31	ja31 caŋ31	simpleton	simpleton			160060	0		
-458825	1961	Pyen	ko33 ka45	ko33 ka45	mad person	mad person		8.3.1.11.3	160061	0		
-458826	1961	Pyen	man33	man33	Myanmar people	Myanmar people		4.5	160066	0		
-458827	1961	Pyen	bi33 cham31	bi33 cham31	Shan people	Shan people		4.5	160067	0		
-458828	1961	Pyen	ʔaŋ33 kan45 wai45	ʔaŋ33 kan45 wai45	work	work	v.	6.1.1	170003	0		
-458829	1961	Pyen	pu33 lek55	pu33 lek55	blacksmith	blacksmith		4.2.1.4	170045	0		
-458830	1961	Pyen	la33 pha45	la33 pha45	sorceress	sorceress			170109	0		
-458831	1961	Pyen	pa45 cai45	pa45 cai45	beg	beg	v.	8.5.10.3	170115	0		
-458832	1961	Pyen	khao33 ʔi45	khao33 ʔi45	steal	steal	v.	6.2.2.1	170122	0		
-458833	1961	Pyen	hao33 nai45	hao33 nai45	scold	scold	v.	8.5.1	181030	0		
-458834	1961	Pyen	ʃi31 lai45	ʃi31 lai45	quarrel	quarrel	v.	8.5.8	181034	0		
-458835	1961	Pyen	pəi45	pəi45	fight	fight	v.	6.5	181057	0		
-458836	1961	Pyen	pi31 lao33	pi31 lao33	depend on	depend on	v.	6.2.2.2	181073	0		
-458837	1961	Pyen	dɯ31 gae45	dɯ31 gae45	meet with	meet with	v.	6.2	181084	0		
-458838	1961	Pyen	sae45	sae45	send	send	v.	6.2.2.2	181087	0		
-458839	1961	Pyen	taŋ31 ŋe45	taŋ31 ŋe45	wait for	wait for	v.	6.1.1.6	181092	0		
-458840	1961	Pyen	pi31 ʔi45	pi31 ʔi45	give to	give to	v.	6.23	181094	0		2158,m
-458841	1961	Pyen	phen31 gai45	phen31 gai45	exchange	exchange	v.	6.22	181097	0		
-458842	1961	Pyen	chui45	chui45	seize and arrest	seize and arrest	v.	6.21	181108	0		
-458843	1961	Pyen	toe45	toe45	release	release	v.	6.10.1	181118	0		2718
-458844	1961	Pyen	ʔe45 ʔa31	ʔe45 ʔa31	flee	flee	v.	6.7.2	181120	0		
-458845	1961	Pyen	hɯn31 ʃe31 ʔe45	hɯn31 ʃe31 ʔe45	pursue	pursue	v.	6.7.10	181121	0		
-458846	1961	Pyen	sae45	sae45	look for	look for	v.	1.2.6.11	182008	0		5799
-458847	1961	Pyen	haŋ31 be31	haŋ31 be31	like to eat	like to eat	v.	8.3.1.1.1	191002	0		
-458848	1961	Pyen	ʔɯi45	ʔɯi45	laugh	laugh	v.	1.8.8.1	191003	0		1108
-458849	1961	Pyen	ʔoŋ45	ʔoŋ45	weep, cry	weep, cry	v.	1.8.8.2	191010	0		
-458850	1961	Pyen	che45	che45	fear, be afraid of	fear, be afraid of	v.	8.3.1.10.1	191034	0		
-458851	1961	Pyen	khoŋ31 la33 phaŋ45	khoŋ31 la33 phaŋ45	frightened	frightened	be v.	8.3.1.10.1	191036	0		
-458852	1961	Pyen	cai45	cai45	like	like	v.	8.3.1.1.1	191063	0		
-458853	1961	Pyen	be45	be45	know	know	v.	8.3.1.12.1	192008	0		
-458854	1961	Pyen	ma31 be45	ma31 be45	do not know	do not know		6.1.1.1	192008	0		2436,m
-458855	1961	Pyen	be45	be45	clear, to understand	be clear, to understand	be v.	9.6.1.1	192009	0		
-458856	1961	Pyen	cɯi45	cɯi45	remember	remember	v.	8.3.1.16.1	192023	0		
-458857	1961	Pyen	lɯm45	lɯm45	forget	forget	v.	8.3.1.16.1	192024	0		
-458858	1961	Pyen	cɯi45	cɯi45	cold	cold		7.1.2.3	201002	0		
-458859	1961	Pyen	lɔŋ45 ŋi45	lɔŋ45 ŋi45	hot	hot			201004	0		
-458860	1961	Pyen	haŋ31 be45	haŋ31 be45	hungry	hungry		1.1.3	201011	0		
-458861	1961	Pyen	khoŋ31 kɯi45	khoŋ31 kɯi45	thirsty	thirsty		1.1.3.1	201012	0		
-458862	1961	Pyen	ʔo33 pluŋ45 ba31	ʔo33 pluŋ45 ba31	full, satiated	full, satiated		1.1.3.2	201013	0		m,111
-458863	1961	Pyen	sa33 kha45 mao33 ʔe45	sa33 kha45 mao33 ʔe45	drunk	drunk		1.3.5.9	201017	0		
-458864	1961	Pyen	jai45	jai45	itchy	itchy		1.6.5.5	201019	0		
-458865	1961	Pyen	ʔaŋ33 wa33 ca33 bui45	ʔaŋ33 wa33 ca33 bui45	(person) comfortable	(person) comfortable			201020	0		
-458866	1961	Pyen	ma31 kɯŋ45 ca31	ma31 kɯŋ45 ca31	busy	busy		9.6.3	201022	0		
-458867	1961	Pyen	ʔaŋ33 kɯŋ45 ke33 ja31	ʔaŋ33 kɯŋ45 ke33 ja31	leisurely	leisurely		5.8	201023	0		
-458868	1961	Pyen	ju33 hi45	ju33 hi45	sleepy	sleepy		1.1.4.1	201026	0		
-458869	1961	Pyen	ʔaŋ33 chao45	ʔaŋ33 chao45	delicious	delicious		7.1.4.4	202001	0		
-458870	1961	Pyen	ʔam31 chao45	ʔam31 chao45	it tastes bad	it tastes bad		8.1	202002	0		
-458871	1961	Pyen	ʔaŋ33 chen45	ʔaŋ33 chen45	sour	sour		7.1.4.4	202005	0		p,7205
-458872	1961	Pyen	ʔaŋ33 kha31	ʔaŋ33 kha31	bitter	bitter		7.1.4.4	202006	0		m,229
-458873	1961	Pyen	la31 phi45 phi45	la31 phi45 phi45	pepper-hot	pepper-hot		3.1.5	202007	0		bChinese,m,m
-458874	1961	Pyen	chao45	chao45	salty	salty		3.2.4	202010	0		
-458875	1961	Pyen	nam45	nam45	smell, odor	smell, odor		1.2.8.5	203001	0		1415
-458876	1961	Pyen	ʔaŋ33 hɔm33	ʔaŋ33 hɔm33	fragrant	fragrant		3.1.10	203002	0		
-458877	1961	Pyen	ʔaŋ33 nam45	ʔaŋ33 nam45	bad smell	bad smell		9.6.2.1	203004	0		m,1415
-458878	1961	Pyen	ʔaŋ33 pu31	ʔaŋ33 pu31	(meat) rotten	(meat) rotten			203005	0		
-458879	1961	Pyen	ʔaŋ33 kaŋ31 klom45	ʔaŋ33 kaŋ31 klom45	thing	thing		8.1	204004	0		
-458880	1961	Pyen	ʔaŋ33 hɯ31	ʔaŋ33 hɯ31	big	big		9.7.2	204005	0		
-458881	1961	Pyen	ʔaŋ33 ji45	ʔaŋ33 ji45	small	small		9.7.2	204007	0		
-458882	1961	Pyen	ʔaŋ33 moŋ33	ʔaŋ33 moŋ33	high, tall	high, tall		7.1.5.3	204009	0		p,2597
-458883	1961	Pyen	ʔaŋ33 ɲuŋ45	ʔaŋ33 ɲuŋ45	low	low		7.1.5.3	204010	0		p,7175
-458884	1961	Pyen	ʔaŋ33 moŋ33	ʔaŋ33 moŋ33	long	long		9.7.2	204012	0		p,7170
-458885	1961	Pyen	ʔaŋ33 ɲuŋ45	ʔaŋ33 ɲuŋ45	(of length) short	(of length) short			204013	0		p,7175
-458886	1961	Pyen	ʔaŋ33 kɯ45	ʔaŋ33 kɯ45	broad, wide	broad, wide		7.1.5.1	204016	0		
-458887	1961	Pyen	ʔaŋ33 sɛŋ31	ʔaŋ33 sɛŋ31	narrow	narrow		9.7.2	204017	0		
-458888	1961	Pyen	ʔaŋ33 thu45	ʔaŋ33 thu45	thick	thick		9.7.2	204018	0		m,183
-458889	1961	Pyen	ʔaŋ33 pa31	ʔaŋ33 pa31	thin	thin		9.7.2	204019	0		p,5551
-458890	1961	Pyen	ʔaŋ33 na31	ʔaŋ33 na31	deep	deep		7.1.5.3	204020	0		m,6130
-458891	1961	Pyen	ʔaŋ33 tam45	ʔaŋ33 tam45	shallow	shallow		7.1.5.3	204021	0		
-458892	1961	Pyen	ʔaŋ33 mun31	ʔaŋ33 mun31	round	round		9.7.1	204023	0		
-458893	1961	Pyen	ʔaŋ33 plɔŋ45	ʔaŋ33 plɔŋ45	straight	straight		7.1.5.1	204035	0		m,2160
-458894	1961	Pyen	ʔaŋ33 koe31	ʔaŋ33 koe31	crooked	crooked		9.7.2	204038	0		
-458895	1961	Pyen	ʔaŋ33 nɛ45	ʔaŋ33 nɛ45	red	red		9.4	204062	0		
-458896	1961	Pyen	sɯ45	sɯ45	yellow	yellow		9.4	204063	0		
-458897	1961	Pyen	ʔaŋ33 sɔm31	ʔaŋ33 sɔm31	blue	blue		9.4	204064	0		
-458898	1961	Pyen	ʔaŋ33 pɔn31	ʔaŋ33 pɔn31	white	white		9.4	204065	0		
-458899	1961	Pyen	ʔaŋ33 praŋ45	ʔaŋ33 praŋ45	black	black		9.4	204066	0		
-458900	1961	Pyen	ʔaŋ33 dɛŋ31	ʔaŋ33 dɛŋ31	loud	loud		9.3	205002	0		
-458901	1961	Pyen	ʔaŋ33 ŋi45	ʔaŋ33 ŋi45	soft voice	soft voice		7.1.4.2	205003	0		
-458902	1961	Pyen	su45 ne45 ʔu33 kjo31	su45 ne45 ʔu33 kjo31	noisy	noisy		7.1.4.3	205004	0		
-458903	1961	Pyen	si33 chao31	si33 chao31	quiet	quiet		7.1.8.3	205005	0		
-458904	1961	Pyen	ʔaŋ33 jaŋ45	ʔaŋ33 jaŋ45	light	light		7.1.11.1	210001	0		
-458905	1961	Pyen	ʔaŋ33 han31	ʔaŋ33 han31	heavy	heavy		9.6.2	210002	0		
-458906	1961	Pyen	ʔaŋ33 kɯ45	ʔaŋ33 kɯ45	dry	dry		6.6	210007	0		p,1001
-458907	1961	Pyen	ʔaŋ33 cen45	ʔaŋ33 cen45	wet	wet		6.6	210008	0		
-458908	1961	Pyen	ʔaŋ33 don31	ʔaŋ33 don31	soft	soft		7.1.4.2	210010	0		
-458909	1961	Pyen	ʔaŋ33 cen31	ʔaŋ33 cen31	hard	hard		9.6.2	210011	0		
-458910	1961	Pyen	ʔaŋ33 can31	ʔaŋ33 can31	smooth, slippery	smooth, slippery		7.1.4.2	210019	0		
-458911	1961	Pyen	ʔaŋ33 nəŋ33	ʔaŋ33 nəŋ33	slimy	slimy		5.1	210022	0		
-458912	1961	Pyen	mi45	mi45	empty	empty		7.1.2.1	210027	0		
-458913	1961	Pyen	ʔaŋ33 plɯŋ45	ʔaŋ33 plɯŋ45	full	full		1.1.3.2	210028	0		m,111
-458914	1961	Pyen	thɔk55 pa31	thɔk55 pa31	overflowing	overflowing		6.6	210029	0		
-458915	1961	Pyen	ʔaŋ33 thaʔ55	ʔaŋ33 thaʔ55	sharp	sharp		6.9.2	210032	0		p,5515
-458916	1961	Pyen	ʔaŋ33 sɯ31	ʔaŋ33 sɯ31	new	new		9.6.1.1	210036	0		p,6178
-458917	1961	Pyen	ʔaŋ33 ʔan45	ʔaŋ33 ʔan45	old	old		7.1.8.3	210037	0		
-458918	1961	Pyen	ʔaŋ33 mjen31	ʔaŋ33 mjen31	good	good		9.6.1.1	210065	0		
-458919	1961	Pyen	ʔaŋ33 dai45	ʔaŋ33 dai45	bad	bad		9.6.2.1	210066	0		
-458920	1961	Pyen	ʔaŋ33 wai31 ʔe45	ʔaŋ33 wai31 ʔe45	quick, fast	quick, fast		9.6.1.1	210090	0		
-458921	1961	Pyen	ʔaŋ33 bjao31	ʔaŋ33 bjao31	slow	slow		9.6.2.1	210091	0		
-458922	1961	Pyen	ʔaŋ33 tum31	ʔaŋ33 tum31	fat	fat		1.6.4	210110	0		
-458923	1961	Pyen	ʔaŋ33 joŋ45	ʔaŋ33 joŋ45	thin	thin		9.7.2	210112	0		
-458924	1961	Pyen	ʔaŋ33 din31	ʔaŋ33 din31	young of age	young of age		7.1.8.3	210115	0		
-458925	1961	Pyen	khop33	khop33	year	year		9.1.2	230010	0		2252
-458926	1961	Pyen	mi45 nɯ45	mi45 nɯ45	this year	this year		10.4.3.2	230012	0		m,2501
-458927	1961	Pyen	so33 nɯ45	so33 nɯ45	next year	next year		9.9	230013	0		m,2501
-458928	1961	Pyen	mi45 nɯ45	mi45 nɯ45	today	today		9.1.3	230057	0		
-458929	1961	Pyen	ʔaŋ33 sɯ31 tha45	ʔaŋ33 sɯ31 tha45	tomorrow	tomorrow		9.1.3	230058	0		
-458930	1961	Pyen	ju33 tha45 ʔaŋ33 la31	ju33 tha45 ʔaŋ33 la31	morning	morning		9.1.4	230079	0		
-458931	1961	Pyen	kɔŋ45 maŋ45	kɔŋ45 maŋ45	noon	noon		9.1.4	230081	0		
-458932	1961	Pyen	mu33 khi31	mu33 khi31	evening	evening		9.1.4	230084	0		
-458933	1961	Pyen	mu33 khi31	mu33 khi31	night	night		9.1.4	230085	0		
-458934	1961	Pyen	la31 chaŋ45	la31 chaŋ45	one time, once	one time, once		9.1.5	230100	0		
-458935	1961	Pyen	ʔaŋ33 maŋ31	ʔaŋ33 maŋ31	long in time	long in time		9.7.2	230102	0		p,7170
-458936	1961	Pyen	ʔaŋ33 tha31	ʔaŋ33 tha31	above	above		9.2.1	241015	0		
-458937	1961	Pyen	ʔaŋ33 ʔo31	ʔaŋ33 ʔo31	below	below		9.2.2	241018	0		
-458938	1961	Pyen	ʔaŋ33 wə31	ʔaŋ33 wə31	far	far		9.2.4	241039	0		
-458939	1961	Pyen	ʔaŋ33 lɯ31	ʔaŋ33 lɯ31	near	near		9.2.3	241040	0		
-458940	1961	Pyen	dɯŋ45 ble45	dɯŋ45 ble45	stop	stop	v.	6.7.11	242002	0		
-458941	1961	Pyen	pən33	pən33	end	end	v.	9.5	242005	0		
-458942	1961	Pyen	la45 ble45	la45 ble45	come	come	v.	6.7.1	242007	0		3569,m
-458943	1961	Pyen	ʔə45 ble45	ʔə45 ble45	go	go	v.	6.7.2	242008	0		
-458944	1961	Pyen	se45 phjai45	se45 phjai45	ascend	ascend	v.	6.7.7	242009	0		
-458945	1961	Pyen	duŋ45	duŋ45	descend	descend	v.	6.7.8	242010	0		
-458946	1961	Pyen	ʔɔŋ45 lae45	ʔɔŋ45 lae45	enter	enter	v.	6.7.1	242011	0		
-458947	1961	Pyen	ʔɔk33 m33 ba31	ʔɔk33 m33 ba31	exit	exit	v.	6.7.2	242012	0		
-458948	1961	Pyen	de33 ja31	de33 ja31	return	return	v.	6.2.2.1	242013	0		
-458949	1961	Pyen	phla45 bi45	phla45 bi45	turn a corner	turn a corner	v.	6.7.6	242019	0		
-458950	1961	Pyen	la45 khoe45 ʔa31	la45 khoe45 ʔa31	all	all		9.9	260001	0		
-458951	1961	Pyen	thom31 ja31	thom31 ja31	one thing	one thing		9.9	260019	0		
-458952	1961	Pyen	la33 ʔan31	la33 ʔan31	one person	one person		9.9	260019	0		
-458953	1961	Pyen	soŋ33 jum31	soŋ33 jum31	two things	two things		9.9	260020	0		
-458954	1961	Pyen	soŋ33 ʔan31	soŋ33 ʔan31	two persons	two persons		9.9	260020	0		
-458955	1961	Pyen	sam33 jum31	sam33 jum31	three things	three things		9.9	260021	0		2666
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+458451	1961	Pyen	boŋ31	boŋ31	sky	sky			3.2.2	011001	0			
+458452	1961	Pyen	mə33 nɯŋ45	mə33 nɯŋ45	sun	sun			3.2.10	011005	0			
+458453	1961	Pyen	mə33 nɯŋ45 ʔɔk33 lan45 pa31	mə33 nɯŋ45 ʔɔk33 lan45 pa31	the sun rises	the sun rises			10.0	011006	0			
+458454	1961	Pyen	ʔa33 la45	ʔa33 la45	moon	moon			3.2.2	011011	0			p,1016
+458455	1961	Pyen	ʔa33 kɯ45	ʔa33 kɯ45	star	star			3.2.2	011016	0			
+458456	1961	Pyen	boŋ31 pleŋ45 la33 pa31	boŋ31 pleŋ45 la33 pa31	shiny, shining	shiny, shining			7.1.11.1	011023	0			
+458457	1961	Pyen	boŋ31 ki33 si31	boŋ31 ki33 si31	obscure, dark	obscure, dark			10.0	011024	0			
+458458	1961	Pyen	ʔa33 man45	ʔa33 man45	wind	wind			3.2.1	011027	0			
+458459	1961	Pyen	ʔa33 man45 to33	ʔa33 man45 to33	(wind) blow	(wind) blow	v.	v.		011028	0			
+458460	1961	Pyen	mo33 hɔ33	mo33 hɔ33	rain	rain			3.2.1	011036	0			2473,2080
+458461	1961	Pyen	mo33 hɔ33 lui45	mo33 hɔ33 lui45	it rains	it rains			8.1	011037	0			
+458462	1961	Pyen	laŋ33 thaŋ45	laŋ33 thaŋ45	rainbow	rainbow			3.2.1	011046	0			6003,6002
+458463	1961	Pyen	boŋ31 ce31 ce31	boŋ31 ce31 ce31	thunder	thunder			3.2.1	011064	0			
+458464	1961	Pyen	cha31 pe33 nin45	cha31 pe33 nin45	soil, earth	soil, earth			3.2.11	012007	0			
+458465	1961	Pyen	la33 ba45 sɯ31	la33 ba45 sɯ31	stone	stone			3.2.9	012010	0			1269
+458466	1961	Pyen	mɔn45	mɔn45	hill, mountain	hill, mountain			3.2.5	012014	0			
+458467	1961	Pyen	laŋ45	laŋ45	water	water			3.2.3	012032	0			191
+458468	1961	Pyen	laŋ45 kɯŋ45	laŋ45 kɯŋ45	(water) clear	(water) clear				012044	0			191,m
+458469	1961	Pyen	laŋ45 khun31	laŋ45 khun31	muddy	muddy			3.2.11	012045	0			
+458470	1961	Pyen	laŋ45 ʔɔŋ33	laŋ45 ʔɔŋ33	lake	lake			3.2.5	012063	0			
+458471	1961	Pyen	nam31 loŋ45	nam31 loŋ45	river	river			3.2.3	012064	0			m,191
+458472	1961	Pyen	kham31	kham31	gold	gold			3.2.4	012072	0			bThai
+458473	1961	Pyen	phlu45	phlu45	silver	silver			3.2.4	012073	0			1235
+458474	1961	Pyen	sam33	sam33	iron	iron			3.2.4	012076	0			2676
+458475	1961	Pyen	pa33 thɔ31	pa33 thɔ31	fire	fire			3.2.12.2	012098	0			
+458476	1961	Pyen	pa33 thɔ31 sou31	pa33 thɔ31 sou31	(fire) go out	(fire) go out	v.	v.		012098	0			
+458477	1961	Pyen	bə33 khao31	bə33 khao31	smoke	smoke			3.2.12.2	012106	0			
+458478	1961	Pyen	koŋ45 ka33	koŋ45 ka33	jungle	jungle			3.2.5	012118	0			
+458479	1961	Pyen	la33 seʔ55 phjai45	la33 seʔ55 phjai45	mount a hill	mount a hill	v.	v.	6.7.7	013005	0			
+458480	1961	Pyen	seʔ55 loŋ33 ŋi45	seʔ55 loŋ33 ŋi45	descend from a hill	descend from a hill	v.	v.	6.7.8	013006	0			
+458481	1961	Pyen	toŋ31 mi31	toŋ31 mi31	tail	tail			1.4.10.1	020004	0			m,1288
+458482	1961	Pyen	ʔaŋ45 chao45	ʔaŋ45 chao45	horn	horn			1.2.2	020009	0			
+458483	1961	Pyen	sa33 la31	sa33 la31	tiger	tiger			2.1.3	021002	0			m,5560
+458484	1961	Pyen	ja33 ba33	ja33 ba33	elephant	elephant			2.2.1	021010	0			3317,s
+458485	1961	Pyen	che33	che33	deer	deer			2.2.2	021012	0			2313
+458486	1961	Pyen	ʔa33 vam45	ʔa33 vam45	bear	bear			2.2.3	021015	0			p,2777
+458487	1961	Pyen	ho33 tam21	ho33 tam21	mouse	mouse			2.1.1	021022	0			2630,m
+458488	1961	Pyen	hai33 ja31	hai33 ja31	bird	bird			2.2.4	022001	0			1606,2187
+458489	1961	Pyen	pja45 min45	pja45 min45	fly	fly	v.	v.	2.2.6	022002	0			
+458490	1961	Pyen	ʔaŋ33 ʔu33	ʔaŋ33 ʔu33	egg	egg				022010	0			m,301
+458491	1961	Pyen	po31 pop55	po31 pop55	owl	owl			2.2.4.1	022013	0			
+458492	1961	Pyen	ʔa33 wa31	ʔa33 wa31	crow	crow			2.2.4.1	022015	0			
+458493	1961	Pyen	ti33 chen45	ti33 chen45	parrot	parrot			2.2.4.1	022021	0			
+458494	1961	Pyen	ʔa33 mjaŋ45 hu45	ʔa33 mjaŋ45 hu45	ox	ox			2.1.2	023002	0			
+458495	1961	Pyen	ʔa33 mjaŋ45 ba45	ʔa33 mjaŋ45 ba45	cow	cow			2.1.2	023003	0			
+458496	1961	Pyen	poŋ21 naʔ55	poŋ21 naʔ55	buffalo	buffalo			2.1.2	023004	0			
+458497	1961	Pyen	ʔa33 mjaŋ45	ʔa33 mjaŋ45	cattle	cattle			2.1.2	023005	0			
+458498	1961	Pyen	wa31	wa31	pig	pig			2.1.12	023008	0			1006
+458499	1961	Pyen	ʔa33 mɔŋ31	ʔa33 mɔŋ31	horse	horse			2.1.7	023016	0			p,1431
+458500	1961	Pyen	khɯ31	khɯ31	dog	dog			2.1.11	023020	0			1764
+458501	1961	Pyen	ʔa33 mɛŋ45	ʔa33 mɛŋ45	cat	cat			2.1.3	023024	0			
+458502	1961	Pyen	ʔa33 kao31	ʔa33 kao31	duck	duck			2.1.10	023042	0			
+458503	1961	Pyen	ja33	ja33	fowl	fowl			2.1.10	023046	0			
+458504	1961	Pyen	pja31	pja31	bee	bee			2.2.6	024008	0			2187
+458505	1961	Pyen	nin31 chaŋ45	nin31 chaŋ45	fly	fly			2.2.6	024020	0			
+458506	1961	Pyen	meŋ33 moŋ31	meŋ33 moŋ31	mosquito	mosquito			2.2.6	024025	0			
+458507	1961	Pyen	the45	the45	(mosquito) bite	(mosquito) bite	v.	v.		024026	0			
+458508	1961	Pyen	kon33 te45	kon33 te45	earthworm	earthworm			2.2.6	024038	0			
+458509	1961	Pyen	mə33 sap33 ba33	mə33 sap33 ba33	cockroach	cockroach			2.2.6	024040	0			
+458510	1961	Pyen	ʔu45 laŋ45	ʔu45 laŋ45	snake	snake			2.1.6.1	024042	0			
+458511	1961	Pyen	ŋe31 thaoʔ55	ŋe31 thaoʔ55	water leech	water leech			3.2.3	024047	0			
+458512	1961	Pyen	ŋe31	ŋe31	land leech	land leech			3.2.5	024047	0			
+458513	1961	Pyen	sen45	sen45	louse	louse			2.2.6	024049	0			2652
+458514	1961	Pyen	toŋ31 te45	toŋ31 te45	fish	fish			2.2.5	025001	0			
+458515	1961	Pyen	laŋ45 lui45	laŋ45 lui45	(fish) swim	(fish) swim	v.	v.		025002	0			
+458516	1961	Pyen	ŋa33 ci45	ŋa33 ci45	eel	eel			2.2.5	025023	0			
+458517	1961	Pyen	loŋ31 mjaŋ45	loŋ31 mjaŋ45	shrimp	shrimp			2.2.5	025030	0			
+458518	1961	Pyen	ʔa33 chaʔ55	ʔa33 chaʔ55	crab	crab			2.2.5	025034	0			
+458519	1961	Pyen	mi33 ʃo33	mi33 ʃo33	shell	shell			2.2.5	025042	0			
+458520	1961	Pyen	kop55	kop55	frog	frog			2.1.6.2	025051	0			bTai
+458521	1961	Pyen	ʔa33 hoŋ45	ʔa33 hoŋ45	turtle	turtle			2.1.6	025056	0			
+458522	1961	Pyen	jaŋ33 ca33 niʔ55	jaŋ33 ca33 niʔ55	fish (with a rod)	fish (with a rod)	v.	v.	2.2.5	026015	0			
+458523	1961	Pyen	ko33 cuŋ45	ko33 cuŋ45	casting net (for fishing)	casting net (for fishing)			10.1	026019	0			
+458524	1961	Pyen	ko33 cuŋ45 ca33 niʔ55	ko33 cuŋ45 ca33 niʔ55	cast a net	cast a net	v.	v.	6.12	026019	0			
+458525	1961	Pyen	sɛ45	sɛ45	butcher	butcher	v.	v.	4.2.1.1	026026	0			
+458526	1961	Pyen	ʔaŋ33 cɯŋ45	ʔaŋ33 cɯŋ45	tree	tree			3.1.2	030008	0			
+458527	1961	Pyen	ʔaŋ che45	ʔaŋ che45	root	root			3.1.2	030013	0			
+458528	1961	Pyen	la31 ŋam33	la31 ŋam33	branches	branches			1.5.3.1	030017	0			
+458529	1961	Pyen	ʔaŋ33 cɯŋ45 pha31	ʔaŋ33 cɯŋ45 pha31	leaf	leaf			3.1.3	030021	0			
+458530	1961	Pyen	wai33 ja31	wai33 ja31	flower	flower			3.1.4	030024	0			
+458531	1961	Pyen	ʔaŋ33 cum31	ʔaŋ33 cum31	raw	raw			7.1.8.3	030038	0			
+458532	1961	Pyen	ʔaŋ33 miŋ33	ʔaŋ33 miŋ33	ripe	ripe			3.1.10	030039	0			m,2449
+458533	1961	Pyen	la33 koŋ31	la33 koŋ31	bean	bean			3.1.4	030044	0			
+458534	1961	Pyen	ʔa33 khɔŋ31	ʔa33 khɔŋ31	bamboo	bamboo			3.1.1	031004	0			
+458535	1961	Pyen	mak33 laŋ45 cɯŋ45	mak33 laŋ45 cɯŋ45	areca palm (Areca catechu L.)	areca palm (Areca catechu L.)			3.1.1	031027	0			
+458536	1961	Pyen	ku33 ci45	ku33 ci45	thatch rushes (Miscanthus sinensis Anderss.)	thatch rushes (Miscanthus sinensis Anderss.)			3.1.6.4	032040	0			
+458537	1961	Pyen	ko33 lum31	ko33 lum31	grain	grain			3.1.6.2	033004	0			5817
+458538	1961	Pyen	ta33 phə31	ta33 phə31	hull	hull			3.1.2	033005	0			
+458539	1961	Pyen	ko33 chen45	ko33 chen45	hulled rice	hulled rice			3.1.2	033008	0			5817
+458540	1961	Pyen	haŋ31 lɔ31	haŋ31 lɔ31	glutinous rice	glutinous rice			7.1.4.2	033009	0			
+458541	1961	Pyen	m33 pum31	m33 pum31	Indian corn (Zea mays L.)	Indian corn (Zea mays L.)			4.6	033023	0			
+458542	1961	Pyen	haŋ311 praŋ45	haŋ311 praŋ45	red rice	red rice			9.4	033030	0			
+458543	1961	Pyen	haŋ31 phaŋ31 rɔŋ45	haŋ31 phaŋ31 rɔŋ45	vegetables	vegetables			3.1.2	034001	0			
+458544	1961	Pyen	toŋ31 kho31	toŋ31 kho31	pumpkin (Cucurbita moschata Poiret)	pumpkin (Cucurbita moschata Poiret)			3.1.5	034022	0			b
+458545	1961	Pyen	ca33 kho31	ca33 kho31	cucumber (Cucumis sativus L.)	cucumber (Cucumis sativus L.)			3.1.5	034024	0			
+458546	1961	Pyen	nam31 tan45	nam31 tan45	sesame (Sesamum indicum D.C.)	sesame (Sesamum indicum D.C.)			3.1.6.1	034049	0			2487,m
+458547	1961	Pyen	ma33 cha31 təŋ33 ləŋ33	ma33 cha31 təŋ33 ləŋ33	Job's-tears (Coix lacryma-Jobi L.)	Job's-tears (Coix lacryma-Jobi L.)			5.11	034050	0			
+458548	1961	Pyen	moŋ33	moŋ33	mushroom	mushroom			3.1.7	034052	0			
+458549	1961	Pyen	la33 phi45	la33 phi45	red pepper (Capsicum frutescens L.)	red pepper (Capsicum frutescens L.)			9.4	034061	0			bChinese,m
+458550	1961	Pyen	ni45 chɯ31	ni45 chɯ31	ginger (Zingiber officinale Rosc.)	ginger (Zingiber officinale Rosc.)			3.1.5	034063	0			
+458551	1961	Pyen	ka33 net55	ka33 net55	pineapple (Ananas comosus Merr.)	pineapple (Ananas comosus Merr.)			3.1.5	035017	0			
+458552	1961	Pyen	ʔa33 ʃɯ31	ʔa33 ʃɯ31	banana (Musa nana Lour.)	banana (Musa nana Lour.)			3.1.5	035027	0			
+458553	1961	Pyen	poŋ31 chao45	poŋ31 chao45	sugar cane (Saccharum sinensis Roxb.)	sugar cane (Saccharum sinensis Roxb.)			3.1.6.2	035041	0			
+458554	1961	Pyen	mak33 laŋ45	mak33 laŋ45	betel nut (Areca catechu L.)	betel nut (Areca catechu L.)			3.1.4	035042	0			
+458555	1961	Pyen	mak33 koi45	mak33 koi45	guava (Psidium guajava L.)	guava (Psidium guajava L.)			3.1.5	035045	0			
+458556	1961	Pyen	khaɯ45	khaɯ45	plant	plant	v.	v.	3.1.10	036002	0			
+458557	1961	Pyen	na31	na31	irrigated rice field	irrigated rice field			6.6	036016	0			
+458558	1961	Pyen	laŋ45 ʃen31 ne45	laŋ45 ʃen31 ne45	water	water	v.	v.	3.2.3	036021	0			191,m,m
+458559	1961	Pyen	ko33 kiu31 ʔi45	ko33 kiu31 ʔi45	harvest	harvest	v.	v.	3.1.10	036024	0			
+458560	1961	Pyen	ko33 dui45	ko33 dui45	thresh	thresh	v.	v.	3.1.10	036025	0			
+458561	1961	Pyen	ko33 nam45 lui45	ko33 nam45 lui45	husk	husk	v.	v.	3.1.2	036026	0			
+458562	1961	Pyen	toŋ31 chum45	toŋ31 chum45	mill for hulling grain	mill for hulling grain			3.1.10	036028	0			
+458563	1961	Pyen	toŋ31 chum45	toŋ31 chum45	mill	mill			3.1.10	036034	0			
+458564	1961	Pyen	ploŋ31 kan45	ploŋ31 kan45	pestle	pestle			5.5	036046	0			
+458565	1961	Pyen	ja45	ja45	slash and burn terrace	slash and burn terrace			3.2.12.1	036048	0			
+458566	1961	Pyen	haŋ31 miŋ33	haŋ31 miŋ33	cooked rice	cooked rice			5.5	041009	0			
+458567	1961	Pyen	haŋ33 pha31 haŋ33 toŋ45	haŋ33 pha31 haŋ33 toŋ45	dishes of food	dishes of food			5.5	042001	0			
+458568	1961	Pyen	wa31 sa31	wa31 sa31	pork	pork			2.1.12	042009	0			1006,34
+458569	1961	Pyen	ja33 ʔu33	ja33 ʔu33	egg	egg				042031	0			m,301
+458570	1961	Pyen	ca31 me31	ca31 me31	salt	salt			3.2.4	044005	0			2729
+458571	1961	Pyen	naŋ33 chen45	naŋ33 chen45	vinegar	vinegar			3.1.6.3	044009	0			
+458572	1961	Pyen	boŋ31 chao33 chap55	boŋ31 chao33 chap55	brown sugar	brown sugar			9.4	044012	0			
+458573	1961	Pyen	laŋ45 lɔŋ45	laŋ45 lɔŋ45	boiling water	boiling water			6.6	045001	0			191,m
+458574	1961	Pyen	neŋ33 laŋ45	neŋ33 laŋ45	tea	tea			3.1.1	045002	0			
+458575	1961	Pyen	sa31 kha45	sa31 kha45	wine	wine			3.1.6.3	045004	0			
+458576	1961	Pyen	haŋ31 cuŋ33 cuŋ33 ʔi45	haŋ31 cuŋ33 cuŋ33 ʔi45	cook rice	cook rice	v.	v.	5.5	046001	0			
+458577	1961	Pyen	mja45 ce45	mja45 ce45	cut in two	cut in two	v.	v.	6.9.3	046015	0			
+458578	1961	Pyen	bə33 tho31	bə33 tho31	firewood	firewood			5.11.5.5	046022	0			
+458579	1961	Pyen	mi33 ciʔ55	mi33 ciʔ55	charcoal	charcoal			3.2.4	046023	0			
+458580	1961	Pyen	ʔa33 lɔŋ31	ʔa33 lɔŋ31	pot	pot			5.5	046040	0			
+458581	1961	Pyen	lɔŋ31 ʔi31	lɔŋ31 ʔi31	soot of a pan	soot of a pan			10.1.1	046048	0			
+458582	1961	Pyen	caŋ45 ku45	caŋ45 ku45	stir	stir	v.	v.	6.2.2.1	046050	0			
+458583	1961	Pyen	chui45	chui45	knead (a dough)	knead (a dough)	v.	v.	5.5	046053	0			
+458584	1961	Pyen	pha33 deŋ33 ŋi45	pha33 deŋ33 ŋi45	cook (a few dishes)	cook (a few dishes)	v.	v.	5.5	046070	0			
+458585	1961	Pyen	phui45	phui45	boil	boil	v.	v.	6.6	046072	0			
+458586	1961	Pyen	piŋ45 ŋi45	piŋ45 ŋi45	roast	roast	v.	v.	5.5	046084	0			
+458587	1961	Pyen	cim31 mi45	cim31 mi45	taste	taste	v.	v.	1.3.5.8	046099	0			
+458588	1961	Pyen	haŋ31 ca31	haŋ31 ca31	serve a meal	serve a meal	v.	v.	6.2.2.1	046101	0			
+458589	1961	Pyen	la33 kho31	la33 kho31	dish	dish			5.5	046107	0			
+458590	1961	Pyen	khlao45	khlao45	cloth	cloth			5.1	051001	0			
+458591	1961	Pyen	nam45 gae45	nam45 gae45	weave	weave	v.	v.	5.1	051022	0			m,5669
+458592	1961	Pyen	mə33 kɯŋ31 kɔ45 than33 ni45	mə33 kɯŋ31 kɔ45 than33 ni45	make clothes	make clothes	v.	v.	6.14	051025	0			
+458593	1961	Pyen	kui45	kui45	sew	sew	v.	v.	5.1	051031	0			
+458594	1961	Pyen	si31 rit55	si31 rit55	torn	torn			6.9.4	051034	0			
+458595	1961	Pyen	caŋ31 kho45	caŋ31 kho45	patch	patch	v.	v.	5.1	051036	0			
+458596	1961	Pyen	kon33 cao31	kon33 cao31	needle	needle			5.1	051037	0			
+458597	1961	Pyen	mai45	mai45	thread	thread			5.11.6	051042	0			
+458598	1961	Pyen	kɯŋ31 cao45	kɯŋ31 cao45	wash (clothes)	wash (clothes)	v.	v.	6.2.2.5.2	051063	0			
+458599	1961	Pyen	ʔaŋ33 ka31 ʔaŋ33 klom45	ʔaŋ33 ka31 ʔaŋ33 klom45	clothes	clothes			5.11.8.2.1	052001	0			
+458600	1961	Pyen	khlao33 tom33 mi45	khlao33 tom33 mi45	wear upper garment	wear upper garment	v.	v.	6.2.2.1	052002	0			
+458601	1961	Pyen	taŋ33 ka31 kai45	taŋ33 ka31 kai45	wear waist cloth	wear waist cloth	v.	v.	6.2.2.1	052002	0			
+458602	1961	Pyen	khlao33 le45	khlao33 le45	undress upper garment	undress upper garment	v.	v.	6.1.1	052003	0			
+458603	1961	Pyen	taŋ33 ka31 le45	taŋ33 ka31 le45	undress waist cloth	undress waist cloth	v.	v.	6.1.1	052003	0			
+458604	1961	Pyen	khlao33	khlao33	upper garment	upper garment			9.2.1	052011	0			
+458605	1961	Pyen	n33 choŋ31	n33 choŋ31	trousers	trousers			5.11.8.2.1.3	052035	0			
+458606	1961	Pyen	lɔ33 chɔŋ31	lɔ33 chɔŋ31	hat	hat			5.11.8.2.1.1	052053	0			
+458607	1961	Pyen	khjap55	khjap55	shoes	shoes			5.11.8.1	052064	0			
+458608	1961	Pyen	khjap55 tai45	khjap55 tai45	wear shoes	wear shoes	v.	v.	6.2.2.1	052091	0			
+458609	1961	Pyen	khjap55 khjot55 li45	khjap55 khjot55 li45	take off shoes	take off shoes	v.	v.	6.21	052092	0			
+458610	1961	Pyen	hai33 ja31 pam31	hai33 ja31 pam31	bird's nest	bird's nest			2.2.4	060006	0			1606,2187,673
+458611	1961	Pyen	jum45	jum45	house	house			5.11.9.1	060007	0			1612
+458612	1961	Pyen	buŋ31 khaŋ45	buŋ31 khaŋ45	roof	roof			5.11.9	061012	0			
+458613	1961	Pyen	jam45 dɯŋ45	jam45 dɯŋ45	pillar	pillar			5.11.9.3.1	061015	0			
+458614	1961	Pyen	kam33 pja45	kam33 pja45	inner wall	inner wall			9.2.5	061016	0			
+458615	1961	Pyen	poŋ33 khraŋ33	poŋ33 khraŋ33	staircase	staircase			5.11.9.3.1	061020	0			
+458616	1961	Pyen	ko45 khan31	ko45 khan31	door	door			5.11.9.3	061030	0			
+458617	1961	Pyen	laŋ45 ʔa33 lɔŋ31	laŋ45 ʔa33 lɔŋ31	well	well			9.6.1.1	061053	0			
+458618	1961	Pyen	jum45 choi45	jum45 choi45	build a house	build a house	v.	v.	6.14	062001	0			1612,m
+458619	1961	Pyen	ʔaŋ33 kwat55 kwat55 li45	ʔaŋ33 kwat55 kwat55 li45	sweep the floor	sweep the floor	v.	v.	6.2.2.5.3	063006	0			
+458620	1961	Pyen	ʃi45 li45	ʃi45 li45	wipe	wipe	v.	v.	6.2.2.1	063010	0			5594,m
+458621	1961	Pyen	haŋ31 phən45	haŋ31 phən45	table	table			5.11.9.4	071003	0			
+458622	1961	Pyen	la33 phuʔ33	la33 phuʔ33	mat	mat			5.11.9.4	072005	0			
+458623	1961	Pyen	ʔa33 phen31	ʔa33 phen31	covering	covering			5.8	072006	0			
+458624	1961	Pyen	do33 khuʔ55	do33 khuʔ55	pillow	pillow			1.2.1	072014	0			m,692
+458625	1961	Pyen	sut55	sut55	mosquito net	mosquito net			2.2.6	072017	0			
+458626	1961	Pyen	mi33 chap33	mi33 chap33	knife	knife			5.5	073004	0			
+458627	1961	Pyen	nai45 sui45 la33 ba45	nai45 sui45 la33 ba45	grindstone	grindstone				073007	0			
+458628	1961	Pyen	nai45 sui45	nai45 sui45	sharpen a knife	sharpen a knife	v.	v.	6.9.2	073008	0			
+458629	1961	Pyen	wə33	wə33	hoe	hoe			5.3	073048	0			
+458630	1961	Pyen	cio31	cio31	sickle	sickle			5.3	073053	0			
+458631	1961	Pyen	la33 tɯ31	la33 tɯ31	ropes, cordage	ropes, cordage			5.11.4	073058	0			
+458632	1961	Pyen	ka45 ba45	ka45 ba45	road	road			9.10.1	081007	0			
+458633	1961	Pyen	ka45 ba45 jo33 ʔe45	ka45 ba45 jo33 ʔe45	walk on foot	walk on foot	v.	v.	6.7.4	081008	0			
+458634	1961	Pyen	ʔa33 kho45	ʔa33 kho45	bridge	bridge			9.10.2	081021	0			p,260
+458635	1961	Pyen	khɔŋ31	khɔŋ31	village	village			5.8	081027	0			5776
+458636	1961	Pyen	wui45	wui45	buy	buy	v.	v.	6.22	091003	0			
+458637	1961	Pyen	koŋ31	koŋ31	sell	sell	v.	v.	6.22	091004	0			
+458638	1961	Pyen	lo45 po33 lə31	lo45 po33 lə31	how much (asking for price)	how much (asking for price)			10.1	091040	0			
+458639	1961	Pyen	kat33	kat33	market	market			9.10.6	092003	0			
+458640	1961	Pyen	phlu45	phlu45	money	money			5.9	093001	0			
+458641	1961	Pyen	chan45 taŋ31 ci45	chan45 taŋ31 ci45	language	language			5.8	101001	0			
+458642	1961	Pyen	ʔaŋ33 be33 ja31	ʔaŋ33 be33 ja31	can understand (a language)	can understand (a language)			10.2.2	101005	0			
+458643	1961	Pyen	m33 be33 ～ ma33 be33	m33 be33 ～ ma33 be33	cannot understand (a language)	cannot understand (a language)			10.2.2	101006	0			
+458644	1961	Pyen	ci45	ci45	speak	speak	v.	v.	8.5.10.1	101009	0			
+458645	1961	Pyen	hao45 ʔi45	hao45 ʔi45	call	call	v.	v.	8.5.13	101018	0			
+458646	1961	Pyen	ko33 ka45 taŋ31	ko33 ka45 taŋ31	Chinese language	Chinese language			4.6	101041	0			
+458647	1961	Pyen	man33 taŋ31	man33 taŋ31	Myanmar language	Myanmar language			5.8	101043	0			
+458648	1961	Pyen	ʃam31 taŋ31	ʃam31 taŋ31	Shan language	Shan language			5.8	101044	0			
+458649	1961	Pyen	mu33 su33 taŋ31	mu33 su33 taŋ31	Pyen language	Pyen language			5.8	101051	0			
+458650	1961	Pyen	khɯ45 ne33 wa31	khɯ45 ne33 wa31	reach destination	reach destination	v.	v.	6.21	102014	0			
+458651	1961	Pyen	pɔk33 lan45 wa31	pɔk33 lan45 wa31	go home	go home	v.	v.	6.7.2	102015	0			
+458652	1961	Pyen	sɯ45 tɛm45	sɯ45 tɛm45	write	write	v.	v.	6.2.2.9.1	111049	0			
+458653	1961	Pyen	sao31 ʔi45	sao31 ʔi45	have a holiday	have a holiday	v.	v.	8.2	111058	0			
+458654	1961	Pyen	ka33 lat55	ka33 lat55	paper	paper			5.1	112001	0			
+458655	1961	Pyen	tit55	tit55	glue, stick	glue, stick	v.	v.	5.4	112034	0			
+458656	1961	Pyen	boa33 ʔi45	boa33 ʔi45	play	play	v.	v.	6.1.1.3	113001	0			
+458657	1961	Pyen	hao45 ʔi45	hao45 ʔi45	sing	sing	v.	v.	5.1	113046	0			
+458658	1961	Pyen	coŋ31 jen33 ni45	coŋ31 jen33 ni45	dance	dance	v.	v.	6.7.9	113066	0			
+458659	1961	Pyen	pha33 cao33	pha33 cao33	god	god			5.8.1.1	121001	0			
+458660	1961	Pyen	de33 ja31	de33 ja31	ghost, spirit	ghost, spirit			4.2.12.2	121008	0			
+458661	1961	Pyen	kha33 ba33 jui45	kha33 ba33 jui45	take a wife	take a wife	v.	v.	6.21	123006	0			
+458662	1961	Pyen	ʔaŋ33 bloŋ45 jui45	ʔaŋ33 bloŋ45 jui45	take a husband	take a husband	v.	v.	6.21	123007	0			
+458663	1961	Pyen	diŋ31 ŋae45	diŋ31 ŋae45	divorce	divorce	v.	v.	5.8	123045	0			
+458664	1961	Pyen	bo31 ʔe45	bo31 ʔe45	make a visit (to friends)	make a visit (to friends)	v.	v.	6.14	124009	0			
+458665	1961	Pyen	caŋ33 lɯŋ45 bui45 la31	caŋ33 lɯŋ45 bui45 la31	How are you?	How are you?			10.1	124036	0			
+458666	1961	Pyen	lɯŋ33 pao31	lɯŋ33 pao31	Please have a seat.	Please have a seat.			8.3.1.1.1	124046	0			
+458667	1961	Pyen	cam45 khɯŋ45	cam45 khɯŋ45	body hair	body hair			1.6.1	131002	0			366,m
+458668	1961	Pyen	ʔaŋ33 khɔ45	ʔaŋ33 khɔ45	skin	skin			1.6.5	131003	0			p,586
+458669	1961	Pyen	ʔaŋ33 gao31	ʔaŋ33 gao31	bone	bone			1.6.3	131006	0			
+458670	1961	Pyen	ʔaŋ33 ku31	ʔaŋ33 ku31	tendon	tendon			1.6.6.1	131008	0			
+458671	1961	Pyen	ʔaŋ33 sa31	ʔaŋ33 sa31	flesh	flesh			1.1.1.1	131009	0			m,34
+458672	1961	Pyen	ʃi31	ʃi31	blood	blood			1.6.2	131011	0			230
+458673	1961	Pyen	pui45 laŋ45	pui45 laŋ45	tears	tears			1.2.6.7	131013	0			
+458674	1961	Pyen	mi33 nɯ31 laŋ45	mi33 nɯ31 laŋ45	sweat	sweat			1.8.1	131014	0			
+458675	1961	Pyen	ʔiaŋ31	ʔiaŋ31	body dirt	body dirt			1.8.1.2	131016	0			
+458676	1961	Pyen	ʔaŋ33 ʔum45	ʔaŋ33 ʔum45	pus	pus			1.8.6.1	131021	0			
+458677	1961	Pyen	ʔaŋ33 ʔum45 ɔk33 jui45	ʔaŋ33 ʔum45 ɔk33 jui45	suppurate	suppurate	v.	v.	1.8.6	131022	0			
+458678	1961	Pyen	sa33 kaŋ45	sa33 kaŋ45	breathe	breathe	v.	v.	1.1.2.2	131023	0			32,m
+458679	1961	Pyen	ha33 hai31	ha33 hai31	yawn	yawn	v.	v.	1.3.1.3	131027	0			
+458680	1961	Pyen	ʔaŋ33 tu31	ʔaŋ33 tu31	head	head			1.2.1	131029	0			
+458681	1961	Pyen	cam45 khɯŋ45	cam45 khɯŋ45	hair	hair			1.2.3	131032	0			366,m
+458682	1961	Pyen	mə33 ka31	mə33 ka31	face	face			1.2.5	131041	0			
+458683	1961	Pyen	choŋ45 mɯ31	choŋ45 mɯ31	eyebrow	eyebrow			1.2.6.6	131042	0			
+458684	1961	Pyen	mi33 nɯ45	mi33 nɯ45	eyes	eyes			1.2.6	131043	0			
+458685	1961	Pyen	mi33 khan31	mi33 khan31	secretion in the eye	secretion in the eye			10.1.1	131054	0			681,m
+458686	1961	Pyen	la31 ʃɯŋ45	la31 ʃɯŋ45	ears	ears			1.2.7	131059	0			
+458687	1961	Pyen	na33 khaŋ45	na33 khaŋ45	nose	nose			1.2.8	131065	0			803,809
+458688	1961	Pyen	nao31	nao31	hard secretion from the nose	hard secretion from the nose			9.6.2	131072	0			
+458689	1961	Pyen	bun45 kae45	bun45 kae45	snore	snore	v.	v.	1.8.2.2	131073	0			
+458690	1961	Pyen	m33 pɔŋ31	m33 pɔŋ31	mouth	mouth			1.3.1	131074	0			
+458691	1961	Pyen	man31 khɔ33	man31 khɔ33	lips	lips			1.3.2	131076	0			
+458692	1961	Pyen	man31 la45	man31 la45	tongue	tongue			1.3.3	131077	0			
+458693	1961	Pyen	khan31	khan31	saliva	saliva			1.8.3	131081	0			539
+458694	1961	Pyen	kan33 chao31	kan33 chao31	phlegm	phlegm			1.8.3	131083	0			539,m
+458695	1961	Pyen	ca33 phe31	ca33 phe31	teeth	teeth			1.3.4	131086	0			
+458696	1961	Pyen	m33 pa33	m33 pa33	cheek	cheek			1.2.5.2	131094	0			
+458697	1961	Pyen	ma33 mɯ31	ma33 mɯ31	beard	beard			1.2.5.5	131097	0			
+458698	1961	Pyen	mən33 təŋ31	mən33 təŋ31	chin	chin			1.2.5.3	131100	0			
+458699	1961	Pyen	m33 chɯ31	m33 chɯ31	neck	neck			1.4.2	131105	0			
+458700	1961	Pyen	mə33 hom45	mə33 hom45	shoulder	shoulder			1.4.3	131109	0			
+458701	1961	Pyen	ku33 li45	ku33 li45	armpit	armpit			1.5.1.2.3	131110	0			
+458702	1961	Pyen	la33 pu31	la33 pu31	hand	hand			1.5.1.1	131111	0			695,m
+458703	1961	Pyen	la33 ma45	la33 ma45	right-hand	right-hand			1.5.1.1	131112	0			695,m
+458704	1961	Pyen	la33 chai45	la33 chai45	left-hand	left-hand			1.5.3.2	131113	0			695,m
+458705	1961	Pyen	ciŋ33 tɔŋ31	ciŋ33 tɔŋ31	elbow	elbow			1.5.8.3	131115	0			
+458706	1961	Pyen	la33 ɲuŋ45	la33 ɲuŋ45	finger	finger			1.5.6	131122	0			
+458707	1961	Pyen	laŋ31 pɛt55	laŋ31 pɛt55	breast	breast			1.4.4.3	131140	0			
+458708	1961	Pyen	m33 pɛt55 si31	m33 pɛt55 si31	nipple	nipple				131141	0			
+458709	1961	Pyen	naŋ33 ba45 sɯ31	naŋ33 ba45 sɯ31	heart	heart			1.7.1	131143	0			
+458710	1961	Pyen	m33 mao33	m33 mao33	lungs	lungs			1.7.2	131144	0			
+458711	1961	Pyen	n33 co31	n33 co31	waist	waist			1.4.6	131146	0			
+458712	1961	Pyen	poŋ33 baʔ55	poŋ33 baʔ55	belly	belly			1.4.7	131147	0			
+458713	1961	Pyen	chi45 coŋ31	chi45 coŋ31	navel	navel			1.9.4	131148	0			
+458714	1961	Pyen	ʔa33 chin31	ʔa33 chin31	liver	liver			1.7.3	131150	0			p,1390
+458715	1961	Pyen	de33 kha31	de33 kha31	gall bladder	gall bladder			1.7.3	131151	0			
+458716	1961	Pyen	ʔaŋ33 ʔu45	ʔaŋ33 ʔu45	intestines	intestines			1.7.7	131155	0			m,2102
+458717	1961	Pyen	ʔaŋ33 khaŋ45	ʔaŋ33 khaŋ45	backbone	backbone			1.4.8.2	131157	0			
+458718	1961	Pyen	ʔeŋ31 thoŋ45	ʔeŋ31 thoŋ45	buttocks	buttocks			1.4.10	131158	0			
+458719	1961	Pyen	ʔeŋ31 ʔui45	ʔeŋ31 ʔui45	defecate	defecate	v.	v.	1.8.5.4	131160	0			
+458720	1961	Pyen	si31 sam45	si31 sam45	urinate	urinate	v.	v.	1.5.3.2	131162	0			650,m
+458721	1961	Pyen	ʔeŋ31 kha31 coi45	ʔeŋ31 kha31 coi45	expel intestinal gas	expel intestinal gas	v.	v.	6.7.2	131164	0			
+458722	1961	Pyen	la33 se31	la33 se31	male organ	male organ			1.9.6.1	131165	0			
+458723	1961	Pyen	la33 pe45	la33 pe45	vulva	vulva				131169	0			
+458724	1961	Pyen	ja33 pon33 baʔ55	ja33 pon33 baʔ55	pregnant	pregnant	be v.	be v.	1.9.6.1	131178	0			
+458725	1961	Pyen	ʔaŋ33 ja31 kət33 ʔi45	ʔaŋ33 ja31 kət33 ʔi45	give birth	give birth	v.	v.	1.1.2	131179	0			
+458726	1961	Pyen	ʔa33 khɯ45	ʔa33 khɯ45	leg	leg			1.5.7	131184	0			p,335
+458727	1961	Pyen	ʔa33 khɯ45 wa31	ʔa33 khɯ45 wa31	foot	foot			1.5.2	131190	0			p,335,m
+458728	1961	Pyen	n33 tan31	n33 tan31	voice	voice			8.5.5	131202	0			
+458729	1961	Pyen	mjaŋ45	mjaŋ45	see	see	v.	v.	1.2.6.10	132009	0			1227
+458730	1961	Pyen	hui45	hui45	look	look	v.	v.	1.2.6.11	132009	0			
+458731	1961	Pyen	ʔaŋ33 cai31 ʔa31	ʔaŋ33 cai31 ʔa31	hear	hear	v.	v.	1.2.7.4	132020	0			
+458732	1961	Pyen	nae45	nae45	listen	listen	v.	v.	1.2.7.4	132020	0			811
+458733	1961	Pyen	nam31 me45	nam31 me45	smell	smell	v.	v.	1.2.8.5	132021	0			1415
+458734	1961	Pyen	ca31	ca31	eat	eat	v.	v.	1.5.3.2	132028	0			
+458735	1961	Pyen	taŋ45	taŋ45	drink	drink	v.	v.		132029	0			502
+458736	1961	Pyen	che45	che45	bite	bite	v.	v.	1.3.4.4	132031	0			
+458737	1961	Pyen	koi45	koi45	chew	chew	v.	v.	1.3.4	132032	0			
+458738	1961	Pyen	lɛ45	lɛ45	lick with tip of tongue	lick with tip of tongue	v.	v.	10.1.1	132035	0			629
+458739	1961	Pyen	mɯ45	mɯ45	blow	blow	v.	v.	1.3.1.4	132047	0			503
+458740	1961	Pyen	la33 pu31 chia45	la33 pu31 chia45	raise the hand	raise the hand	v.	v.	6.7.7	132059	0			695,m,m
+458741	1961	Pyen	la33 wa33 thɛk55 ʔe45	la33 wa33 thɛk55 ʔe45	clap the hands	clap the hands	v.	v.	9.3	132061	0			
+458742	1961	Pyen	ɲu45 klaŋ45 ŋi45	ɲu45 klaŋ45 ŋi45	point	point	v.	v.	6.2.2.2	132066	0			
+458743	1961	Pyen	chui45	chui45	hold with the hand	hold with the hand	v.	v.	6.16	132070	0			
+458744	1961	Pyen	che45	che45	transport	transport	v.	v.	6.2.2.1	132087	0			
+458745	1961	Pyen	chi45	chi45	put, place in / on	put, place in / on	v.	v.	10.1.1	132090	0			
+458746	1961	Pyen	tan31 ni45	tan31 ni45	push	push	v.	v.	6.2.2.3.1	132106	0			
+458747	1961	Pyen	kɯn31 mi45	kɯn31 mi45	pull	pull	v.	v.	6.2.2.3.1	132107	0			
+458748	1961	Pyen	can45 ni45	can45 ni45	throw	throw	v.	v.	6.12	132138	0			
+458749	1961	Pyen	ʔam45 mi45	ʔam45 mi45	carry in the arms	carry in the arms	v.	v.	6.2.2.2.1	132144	0			
+458750	1961	Pyen	ɲui45	ɲui45	pick up	pick up	v.	v.	6.10.4	132153	0			
+458751	1961	Pyen	koe45	koe45	pick up	pick up	v.	v.	6.10.4	132153	0			5430
+458752	1961	Pyen	laŋ45 kham45	laŋ45 kham45	ladle	ladle	v.	v.	5.5	132160	0			
+458753	1961	Pyen	naŋ31 ŋi45	naŋ31 ŋi45	tread	tread	v.	v.	6.7.4	132163	0			2134,m
+458754	1961	Pyen	hɯn31 ni45	hɯn31 ni45	run	run	v.	v.	6.7.4	132170	0			
+458755	1961	Pyen	ce33 sak33 ʔe45	ce33 sak33 ʔe45	kick	kick	v.	v.	6.2.2.3.3	132171	0			
+458756	1961	Pyen	dɯŋ33	dɯŋ33	sit	sit	v.	v.	6.1.1.4.1	132178	0			1906
+458757	1961	Pyen	cuŋ45	cuŋ45	stand	stand	v.	v.	1.5.2	132181	0			
+458758	1961	Pyen	bɔk33 lui45	bɔk33 lui45	stand up	stand up	v.	v.	1.5.2	132182	0			
+458759	1961	Pyen	jui45	jui45	sleep	sleep	v.	v.	1.1.4.1	132196	0			
+458760	1961	Pyen	jui45 ba31	jui45 ba31	sleep	sleep	v.	v.	1.1.4.1	132196	0			
+458761	1961	Pyen	duŋ33 le33 ba31	duŋ33 le33 ba31	wake up	wake up	v.	v.	1.1.4	132199	0			
+458762	1961	Pyen	tha33 le33 ba31	tha33 le33 ba31	get up	get up	v.	v.	1.1.4	132199	0			
+458763	1961	Pyen	khan45 pa31	khan45 pa31	stumble, fall down	stumble, fall down	v.	v.	6.7.3	132201	0			
+458764	1961	Pyen	toe45	toe45	crawl	crawl	v.	v.	6.7.9	132204	0			
+458765	1961	Pyen	thɔŋ33 ŋi45	thɔŋ33 ŋi45	run against	run against	v.	v.	6.7.4	132206	0			
+458766	1961	Pyen	dɯ45 gi45 jai45	dɯ45 gi45 jai45	slip to one side	slip to one side	v.	v.	6.7.3	132207	0			
+458767	1961	Pyen	ʔəŋ33	ʔəŋ33	carry on the back	carry on the back	v.	v.	6.2.2.2.1	132209	0			
+458768	1961	Pyen	phɯi45	phɯi45	tie	tie	v.	v.	6.13.1	132211	0			
+458769	1961	Pyen	cho31 cho31 ʔe45	cho31 cho31 ʔe45	cough	cough	v.	v.	1.8.3.3	132213	0			
+458770	1961	Pyen	n33 tu31 phoi45	n33 tu31 phoi45	wash face	wash face	v.	v.	6.2.2.5.2	133001	0			
+458771	1961	Pyen	n33 tu31 ke45	n33 tu31 ke45	shampoo the hair	shampoo the hair	v.	v.	1.2.3	133007	0			
+458772	1961	Pyen	ʔaŋ33 tu31 chae45	ʔaŋ33 tu31 chae45	comb the hair	comb the hair	v.	v.	1.2.2.1	133022	0			
+458773	1961	Pyen	la33 pu31 chi45	la33 pu31 chi45	wash hand	wash hand	v.	v.	6.2.2.5.2	133039	0			695,m,5647
+458774	1961	Pyen	la33 bəʔ55 chao33	la33 bəʔ55 chao33	tattoo	tattoo	v.	v.	5.11.8.3	133040	0			
+458775	1961	Pyen	ʔaŋ33 ja31 sui45	ʔaŋ33 ja31 sui45	raise children	raise children	v.	v.	6.7.7	141006	0			
+458776	1961	Pyen	moŋ45 kho33 lai45	moŋ45 kho33 lai45	grow	grow	v.	v.	9.7.2	141009	0			
+458777	1961	Pyen	lun45	lun45	get tired	get tired	v.	v.	1.1.5	141012	0			
+458778	1961	Pyen	sao33 ʔi45	sao33 ʔi45	rest	rest	v.	v.	1.1.4.1	141013	0			
+458779	1961	Pyen	jui45	jui45	sleep	sleep	v.	v.	1.1.4.1	141014	0			
+458780	1961	Pyen	me33 bun33 ni45	me33 bun33 ni45	dream	dream	v.	v.	1.1.4.2	141016	0			
+458781	1961	Pyen	ʃi33	ʃi33	die	die	v.	v.	1.1.6	141022	0			27
+458782	1961	Pyen	nɔŋ31 ʔa33 ju33 la45 pən33 gai33 ʔə31	nɔŋ31 ʔa33 ju33 la45 pən33 gai33 ʔə31	How old are you?	How old are you?			10.1	141030	0			2489,m,m,m,m,m,m
+458783	1961	Pyen	taŋ33 liŋ45 bui33 ʔa31	taŋ33 liŋ45 bui33 ʔa31	ill	ill	be v.	be v.	1.1.5.1	142002	0			
+458784	1961	Pyen	dae45	dae45	painful	painful			1.1.5.1	142007	0			
+458785	1961	Pyen	chen33 la45 ba31	chen33 la45 ba31	get well	get well	v.	v.	1.1.5	142009	0			
+458786	1961	Pyen	ʔaŋ33 tu31 dae45	ʔaŋ33 tu31 dae45	have headache	have headache	v.	v.	8.2	142010	0			
+458787	1961	Pyen	tu31 pa45 pao45	tu31 pa45 pao45	feel dizzy	feel dizzy	v.	v.	8.4	142011	0			
+458788	1961	Pyen	la31 paŋ31	la31 paŋ31	deaf	deaf			1.2.7.5	142016	0			
+458789	1961	Pyen	dɯ31	dɯ31	sneeze	sneeze	v.	v.	1.8.2.1	142017	0			
+458790	1961	Pyen	ʔo31 phe31 phe31	ʔo31 phe31 phe31	vomit	vomit	v.	v.	1.8.3.2	142024	0			p,1145,1145
+458791	1961	Pyen	poŋ33 ba33 dae45	poŋ33 ba33 dae45	have stomachache	have stomachache	v.	v.	8.2	142033	0			
+458792	1961	Pyen	ʔeŋ31 ploŋ33 ploŋ33 ŋi45	ʔeŋ31 ploŋ33 ploŋ33 ŋi45	have diarrhea	have diarrhea	v.	v.	8.2	142034	0			
+458793	1961	Pyen	ʔaŋ33 chao33 wa45 ʔoŋ45 ŋi45	ʔaŋ33 chao33 wa45 ʔoŋ45 ŋi45	catch cold	catch cold	v.	v.	6.21	142041	0			
+458794	1961	Pyen	sen45	sen45	have lice	have lice	v.	v.	8.2	142063	0			
+458795	1961	Pyen	puŋ45	puŋ45	swell	swell	v.	v.	1.1.5.2	142084	0			
+458796	1961	Pyen	la33 pu31 khrɯŋ45 ŋi45	la33 pu31 khrɯŋ45 ŋi45	suffer a fracture of a bone	suffer a fracture of a bone	v.	v.	1.6.3	142086	0			
+458797	1961	Pyen	ca31 ka31	ca31 ka31	medicine	medicine			5.4	143009	0			
+458798	1961	Pyen	ca31 ka31 ca31 ʔi45	ca31 ka31 ca31 ʔi45	take medicine	take medicine	v.	v.	6.21	143016	0			
+458799	1961	Pyen	saŋ31 na45	saŋ31 na45	bow	bow			5.15	144013	0			
+458800	1961	Pyen	bla31	bla31	arrow	arrow			5.15	144014	0			2386
+458801	1961	Pyen	thaŋ33	thaŋ33	sword	sword			5.15	144017	0			2205
+458802	1961	Pyen	chaŋ45 men45	chaŋ45 men45	name	name			5.8	151003	0			
+458803	1961	Pyen	chaŋ31 nam45	chaŋ31 nam45	relatives	relatives				152002	0			
+458804	1961	Pyen	ʔa33 boŋ45	ʔa33 boŋ45	father	father			4.7.1	152018	0			
+458805	1961	Pyen	ʔa33 ba33	ʔa33 ba33	mother	mother			4.7.1	152020	0			
+458806	1961	Pyen	ʔa33 ʔɯ31	ʔa33 ʔɯ31	father's elder brother	father's elder brother			4.7.1	152029	0			
+458807	1961	Pyen	ʔa33 bɯŋ33	ʔa33 bɯŋ33	father's younger sister	father's younger sister			4.7.1	152034	0			
+458808	1961	Pyen	ʔaŋ33 bloŋ45	ʔaŋ33 bloŋ45	husband	husband			4.7.4	152050	0			
+458809	1961	Pyen	kha33 ba33	kha33 ba33	wife	wife			4.7.4	152051	0			
+458810	1961	Pyen	ʔaŋ33 ʔai45	ʔaŋ33 ʔai45	elder brother	elder brother			4.7.1	152058	0			
+458811	1961	Pyen	ʔa33 phe45	ʔa33 phe45	younger brother	younger brother				152060	0			
+458812	1961	Pyen	ʔa33 ʃi45	ʔa33 ʃi45	elder sister	elder sister			4.7.1	152063	0			
+458813	1961	Pyen	ʔa33 po31	ʔa33 po31	younger sister	younger sister				152065	0			
+458814	1961	Pyen	ja31 plɔŋ45	ja31 plɔŋ45	son	son			4.7.3	152080	0			
+458815	1961	Pyen	ʔaŋ33 chu45	ʔaŋ33 chu45	son's wife	son's wife			4.7.3	152083	0			
+458816	1961	Pyen	ja31 bje31	ja31 bje31	daughter	daughter			4.7.3	152085	0			
+458817	1961	Pyen	ʔaŋ33 ʃɔŋ31	ʔaŋ33 ʃɔŋ31	daughter's husband	daughter's husband			4.7.3	152086	0			
+458818	1961	Pyen	chaŋ45 beŋ33 bu45	chaŋ45 beŋ33 bu45	friend	friend			4.4.2	153008	0			
+458819	1961	Pyen	ja31 ke45 ja31	ja31 ke45 ja31	child	child			1.5.3.2	160002	0			
+458820	1961	Pyen	ko33 phja31	ko33 phja31	male	male			1.9.6.1	160006	0			
+458821	1961	Pyen	ko33 bja31	ko33 bja31	female	female			1.9.3	160010	0			
+458822	1961	Pyen	saŋ45	saŋ45	human being	human being			4.5	160041	0			
+458823	1961	Pyen	la33 paŋ31	la33 paŋ31	deaf	deaf			1.2.7.5	160048	0			
+458824	1961	Pyen	ja31 caŋ31	ja31 caŋ31	simpleton	simpleton				160060	0			
+458825	1961	Pyen	ko33 ka45	ko33 ka45	mad person	mad person			8.3.1.11.3	160061	0			
+458826	1961	Pyen	man33	man33	Myanmar people	Myanmar people			4.5	160066	0			
+458827	1961	Pyen	bi33 cham31	bi33 cham31	Shan people	Shan people			4.5	160067	0			
+458828	1961	Pyen	ʔaŋ33 kan45 wai45	ʔaŋ33 kan45 wai45	work	work	v.	v.	6.1.1	170003	0			
+458829	1961	Pyen	pu33 lek55	pu33 lek55	blacksmith	blacksmith			4.2.1.4	170045	0			
+458830	1961	Pyen	la33 pha45	la33 pha45	sorceress	sorceress				170109	0			
+458831	1961	Pyen	pa45 cai45	pa45 cai45	beg	beg	v.	v.	8.5.10.3	170115	0			
+458832	1961	Pyen	khao33 ʔi45	khao33 ʔi45	steal	steal	v.	v.	6.2.2.1	170122	0			
+458833	1961	Pyen	hao33 nai45	hao33 nai45	scold	scold	v.	v.	8.5.1	181030	0			
+458834	1961	Pyen	ʃi31 lai45	ʃi31 lai45	quarrel	quarrel	v.	v.	8.5.8	181034	0			
+458835	1961	Pyen	pəi45	pəi45	fight	fight	v.	v.	6.5	181057	0			
+458836	1961	Pyen	pi31 lao33	pi31 lao33	depend on	depend on	v.	v.	6.2.2.2	181073	0			
+458837	1961	Pyen	dɯ31 gae45	dɯ31 gae45	meet with	meet with	v.	v.	6.2	181084	0			
+458838	1961	Pyen	sae45	sae45	send	send	v.	v.	6.2.2.2	181087	0			
+458839	1961	Pyen	taŋ31 ŋe45	taŋ31 ŋe45	wait for	wait for	v.	v.	6.1.1.6	181092	0			
+458840	1961	Pyen	pi31 ʔi45	pi31 ʔi45	give to	give to	v.	v.	6.23	181094	0			2158,m
+458841	1961	Pyen	phen31 gai45	phen31 gai45	exchange	exchange	v.	v.	6.22	181097	0			
+458842	1961	Pyen	chui45	chui45	seize and arrest	seize and arrest	v.	v.	6.21	181108	0			
+458843	1961	Pyen	toe45	toe45	release	release	v.	v.	6.10.1	181118	0			2718
+458844	1961	Pyen	ʔe45 ʔa31	ʔe45 ʔa31	flee	flee	v.	v.	6.7.2	181120	0			
+458845	1961	Pyen	hɯn31 ʃe31 ʔe45	hɯn31 ʃe31 ʔe45	pursue	pursue	v.	v.	6.7.10	181121	0			
+458846	1961	Pyen	sae45	sae45	look for	look for	v.	v.	1.2.6.11	182008	0			5799
+458847	1961	Pyen	haŋ31 be31	haŋ31 be31	like to eat	like to eat	v.	v.	8.3.1.1.1	191002	0			
+458848	1961	Pyen	ʔɯi45	ʔɯi45	laugh	laugh	v.	v.	1.8.8.1	191003	0			1108
+458849	1961	Pyen	ʔoŋ45	ʔoŋ45	weep, cry	weep, cry	v.	v.	1.8.8.2	191010	0			
+458850	1961	Pyen	che45	che45	fear, be afraid of	fear, be afraid of	v.	v.	8.3.1.10.1	191034	0			
+458851	1961	Pyen	khoŋ31 la33 phaŋ45	khoŋ31 la33 phaŋ45	frightened	frightened	be v.	be v.	8.3.1.10.1	191036	0			
+458852	1961	Pyen	cai45	cai45	like	like	v.	v.	8.3.1.1.1	191063	0			
+458853	1961	Pyen	be45	be45	know	know	v.	v.	8.3.1.12.1	192008	0			
+458854	1961	Pyen	ma31 be45	ma31 be45	do not know	do not know			6.1.1.1	192008	0			2436,m
+458855	1961	Pyen	be45	be45	clear, to understand	be clear, to understand	be v.	v.	9.6.1.1	192009	0	dwb17		
+458856	1961	Pyen	cɯi45	cɯi45	remember	remember	v.	v.	8.3.1.16.1	192023	0			
+458857	1961	Pyen	lɯm45	lɯm45	forget	forget	v.	v.	8.3.1.16.1	192024	0			
+458858	1961	Pyen	cɯi45	cɯi45	cold	cold			7.1.2.3	201002	0			
+458859	1961	Pyen	lɔŋ45 ŋi45	lɔŋ45 ŋi45	hot	hot				201004	0			
+458860	1961	Pyen	haŋ31 be45	haŋ31 be45	hungry	hungry			1.1.3	201011	0			
+458861	1961	Pyen	khoŋ31 kɯi45	khoŋ31 kɯi45	thirsty	thirsty			1.1.3.1	201012	0			
+458862	1961	Pyen	ʔo33 pluŋ45 ba31	ʔo33 pluŋ45 ba31	full, satiated	full, satiated			1.1.3.2	201013	0			m,111
+458863	1961	Pyen	sa33 kha45 mao33 ʔe45	sa33 kha45 mao33 ʔe45	drunk	drunk			1.3.5.9	201017	0			
+458864	1961	Pyen	jai45	jai45	itchy	itchy			1.6.5.5	201019	0			
+458865	1961	Pyen	ʔaŋ33 wa33 ca33 bui45	ʔaŋ33 wa33 ca33 bui45	(person) comfortable	(person) comfortable				201020	0			
+458866	1961	Pyen	ma31 kɯŋ45 ca31	ma31 kɯŋ45 ca31	busy	busy			9.6.3	201022	0			
+458867	1961	Pyen	ʔaŋ33 kɯŋ45 ke33 ja31	ʔaŋ33 kɯŋ45 ke33 ja31	leisurely	leisurely			5.8	201023	0			
+458868	1961	Pyen	ju33 hi45	ju33 hi45	sleepy	sleepy			1.1.4.1	201026	0			
+458869	1961	Pyen	ʔaŋ33 chao45	ʔaŋ33 chao45	delicious	delicious			7.1.4.4	202001	0			
+458870	1961	Pyen	ʔam31 chao45	ʔam31 chao45	it tastes bad	it tastes bad			8.1	202002	0			
+458871	1961	Pyen	ʔaŋ33 chen45	ʔaŋ33 chen45	sour	sour			7.1.4.4	202005	0			p,7205
+458872	1961	Pyen	ʔaŋ33 kha31	ʔaŋ33 kha31	bitter	bitter			7.1.4.4	202006	0			m,229
+458873	1961	Pyen	la31 phi45 phi45	la31 phi45 phi45	pepper-hot	pepper-hot			3.1.5	202007	0			bChinese,m,m
+458874	1961	Pyen	chao45	chao45	salty	salty			3.2.4	202010	0			
+458875	1961	Pyen	nam45	nam45	smell, odor	smell, odor			1.2.8.5	203001	0			1415
+458876	1961	Pyen	ʔaŋ33 hɔm33	ʔaŋ33 hɔm33	fragrant	fragrant			3.1.10	203002	0			
+458877	1961	Pyen	ʔaŋ33 nam45	ʔaŋ33 nam45	bad smell	bad smell			9.6.2.1	203004	0			m,1415
+458878	1961	Pyen	ʔaŋ33 pu31	ʔaŋ33 pu31	(meat) rotten	(meat) rotten				203005	0			
+458879	1961	Pyen	ʔaŋ33 kaŋ31 klom45	ʔaŋ33 kaŋ31 klom45	thing	thing			8.1	204004	0			
+458880	1961	Pyen	ʔaŋ33 hɯ31	ʔaŋ33 hɯ31	big	big			9.7.2	204005	0			
+458881	1961	Pyen	ʔaŋ33 ji45	ʔaŋ33 ji45	small	small			9.7.2	204007	0			
+458882	1961	Pyen	ʔaŋ33 moŋ33	ʔaŋ33 moŋ33	high, tall	high, tall			7.1.5.3	204009	0			p,2597
+458883	1961	Pyen	ʔaŋ33 ɲuŋ45	ʔaŋ33 ɲuŋ45	low	low			7.1.5.3	204010	0			p,7175
+458884	1961	Pyen	ʔaŋ33 moŋ33	ʔaŋ33 moŋ33	long	long			9.7.2	204012	0			p,7170
+458885	1961	Pyen	ʔaŋ33 ɲuŋ45	ʔaŋ33 ɲuŋ45	(of length) short	(of length) short				204013	0			p,7175
+458886	1961	Pyen	ʔaŋ33 kɯ45	ʔaŋ33 kɯ45	broad, wide	broad, wide			7.1.5.1	204016	0			
+458887	1961	Pyen	ʔaŋ33 sɛŋ31	ʔaŋ33 sɛŋ31	narrow	narrow			9.7.2	204017	0			
+458888	1961	Pyen	ʔaŋ33 thu45	ʔaŋ33 thu45	thick	thick			9.7.2	204018	0			m,183
+458889	1961	Pyen	ʔaŋ33 pa31	ʔaŋ33 pa31	thin	thin			9.7.2	204019	0			p,5551
+458890	1961	Pyen	ʔaŋ33 na31	ʔaŋ33 na31	deep	deep			7.1.5.3	204020	0			m,6130
+458891	1961	Pyen	ʔaŋ33 tam45	ʔaŋ33 tam45	shallow	shallow			7.1.5.3	204021	0			
+458892	1961	Pyen	ʔaŋ33 mun31	ʔaŋ33 mun31	round	round			9.7.1	204023	0			
+458893	1961	Pyen	ʔaŋ33 plɔŋ45	ʔaŋ33 plɔŋ45	straight	straight			7.1.5.1	204035	0			m,2160
+458894	1961	Pyen	ʔaŋ33 koe31	ʔaŋ33 koe31	crooked	crooked			9.7.2	204038	0			
+458895	1961	Pyen	ʔaŋ33 nɛ45	ʔaŋ33 nɛ45	red	red			9.4	204062	0			
+458896	1961	Pyen	sɯ45	sɯ45	yellow	yellow			9.4	204063	0			
+458897	1961	Pyen	ʔaŋ33 sɔm31	ʔaŋ33 sɔm31	blue	blue			9.4	204064	0			
+458898	1961	Pyen	ʔaŋ33 pɔn31	ʔaŋ33 pɔn31	white	white			9.4	204065	0			
+458899	1961	Pyen	ʔaŋ33 praŋ45	ʔaŋ33 praŋ45	black	black			9.4	204066	0			
+458900	1961	Pyen	ʔaŋ33 dɛŋ31	ʔaŋ33 dɛŋ31	loud	loud			9.3	205002	0			
+458901	1961	Pyen	ʔaŋ33 ŋi45	ʔaŋ33 ŋi45	soft voice	soft voice			7.1.4.2	205003	0			
+458902	1961	Pyen	su45 ne45 ʔu33 kjo31	su45 ne45 ʔu33 kjo31	noisy	noisy			7.1.4.3	205004	0			
+458903	1961	Pyen	si33 chao31	si33 chao31	quiet	quiet			7.1.8.3	205005	0			
+458904	1961	Pyen	ʔaŋ33 jaŋ45	ʔaŋ33 jaŋ45	light	light			7.1.11.1	210001	0			
+458905	1961	Pyen	ʔaŋ33 han31	ʔaŋ33 han31	heavy	heavy			9.6.2	210002	0			
+458906	1961	Pyen	ʔaŋ33 kɯ45	ʔaŋ33 kɯ45	dry	dry			6.6	210007	0			p,1001
+458907	1961	Pyen	ʔaŋ33 cen45	ʔaŋ33 cen45	wet	wet			6.6	210008	0			
+458908	1961	Pyen	ʔaŋ33 don31	ʔaŋ33 don31	soft	soft			7.1.4.2	210010	0			
+458909	1961	Pyen	ʔaŋ33 cen31	ʔaŋ33 cen31	hard	hard			9.6.2	210011	0			
+458910	1961	Pyen	ʔaŋ33 can31	ʔaŋ33 can31	smooth, slippery	smooth, slippery			7.1.4.2	210019	0			
+458911	1961	Pyen	ʔaŋ33 nəŋ33	ʔaŋ33 nəŋ33	slimy	slimy			5.1	210022	0			
+458912	1961	Pyen	mi45	mi45	empty	empty			7.1.2.1	210027	0			
+458913	1961	Pyen	ʔaŋ33 plɯŋ45	ʔaŋ33 plɯŋ45	full	full			1.1.3.2	210028	0			m,111
+458914	1961	Pyen	thɔk55 pa31	thɔk55 pa31	overflowing	overflowing			6.6	210029	0			
+458915	1961	Pyen	ʔaŋ33 thaʔ55	ʔaŋ33 thaʔ55	sharp	sharp			6.9.2	210032	0			p,5515
+458916	1961	Pyen	ʔaŋ33 sɯ31	ʔaŋ33 sɯ31	new	new			9.6.1.1	210036	0			p,6178
+458917	1961	Pyen	ʔaŋ33 ʔan45	ʔaŋ33 ʔan45	old	old			7.1.8.3	210037	0			
+458918	1961	Pyen	ʔaŋ33 mjen31	ʔaŋ33 mjen31	good	good			9.6.1.1	210065	0			
+458919	1961	Pyen	ʔaŋ33 dai45	ʔaŋ33 dai45	bad	bad			9.6.2.1	210066	0			
+458920	1961	Pyen	ʔaŋ33 wai31 ʔe45	ʔaŋ33 wai31 ʔe45	quick, fast	quick, fast			9.6.1.1	210090	0			
+458921	1961	Pyen	ʔaŋ33 bjao31	ʔaŋ33 bjao31	slow	slow			9.6.2.1	210091	0			
+458922	1961	Pyen	ʔaŋ33 tum31	ʔaŋ33 tum31	fat	fat			1.6.4	210110	0			
+458923	1961	Pyen	ʔaŋ33 joŋ45	ʔaŋ33 joŋ45	thin	thin			9.7.2	210112	0			
+458924	1961	Pyen	ʔaŋ33 din31	ʔaŋ33 din31	young of age	young of age			7.1.8.3	210115	0			
+458925	1961	Pyen	khop33	khop33	year	year			9.1.2	230010	0			2252
+458926	1961	Pyen	mi45 nɯ45	mi45 nɯ45	this year	this year			10.4.3.2	230012	0			m,2501
+458927	1961	Pyen	so33 nɯ45	so33 nɯ45	next year	next year			9.9	230013	0			m,2501
+458928	1961	Pyen	mi45 nɯ45	mi45 nɯ45	today	today			9.1.3	230057	0			
+458929	1961	Pyen	ʔaŋ33 sɯ31 tha45	ʔaŋ33 sɯ31 tha45	tomorrow	tomorrow			9.1.3	230058	0			
+458930	1961	Pyen	ju33 tha45 ʔaŋ33 la31	ju33 tha45 ʔaŋ33 la31	morning	morning			9.1.4	230079	0			
+458931	1961	Pyen	kɔŋ45 maŋ45	kɔŋ45 maŋ45	noon	noon			9.1.4	230081	0			
+458932	1961	Pyen	mu33 khi31	mu33 khi31	evening	evening			9.1.4	230084	0			
+458933	1961	Pyen	mu33 khi31	mu33 khi31	night	night			9.1.4	230085	0			
+458934	1961	Pyen	la31 chaŋ45	la31 chaŋ45	one time, once	one time, once			9.1.5	230100	0			
+458935	1961	Pyen	ʔaŋ33 maŋ31	ʔaŋ33 maŋ31	long in time	long in time			9.7.2	230102	0			p,7170
+458936	1961	Pyen	ʔaŋ33 tha31	ʔaŋ33 tha31	above	above			9.2.1	241015	0			
+458937	1961	Pyen	ʔaŋ33 ʔo31	ʔaŋ33 ʔo31	below	below			9.2.2	241018	0			
+458938	1961	Pyen	ʔaŋ33 wə31	ʔaŋ33 wə31	far	far			9.2.4	241039	0			
+458939	1961	Pyen	ʔaŋ33 lɯ31	ʔaŋ33 lɯ31	near	near			9.2.3	241040	0			
+458940	1961	Pyen	dɯŋ45 ble45	dɯŋ45 ble45	stop	stop	v.	v.	6.7.11	242002	0			
+458941	1961	Pyen	pən33	pən33	end	end	v.	v.	9.5	242005	0			
+458942	1961	Pyen	la45 ble45	la45 ble45	come	come	v.	v.	6.7.1	242007	0			3569,m
+458943	1961	Pyen	ʔə45 ble45	ʔə45 ble45	go	go	v.	v.	6.7.2	242008	0			
+458944	1961	Pyen	se45 phjai45	se45 phjai45	ascend	ascend	v.	v.	6.7.7	242009	0			
+458945	1961	Pyen	duŋ45	duŋ45	descend	descend	v.	v.	6.7.8	242010	0			
+458946	1961	Pyen	ʔɔŋ45 lae45	ʔɔŋ45 lae45	enter	enter	v.	v.	6.7.1	242011	0			
+458947	1961	Pyen	ʔɔk33 m33 ba31	ʔɔk33 m33 ba31	exit	exit	v.	v.	6.7.2	242012	0			
+458948	1961	Pyen	de33 ja31	de33 ja31	return	return	v.	v.	6.2.2.1	242013	0			
+458949	1961	Pyen	phla45 bi45	phla45 bi45	turn a corner	turn a corner	v.	v.	6.7.6	242019	0			
+458950	1961	Pyen	la45 khoe45 ʔa31	la45 khoe45 ʔa31	all	all			9.9	260001	0			
+458951	1961	Pyen	thom31 ja31	thom31 ja31	one thing	one thing			9.9	260019	0			
+458952	1961	Pyen	la33 ʔan31	la33 ʔan31	one person	one person			9.9	260019	0			
+458953	1961	Pyen	soŋ33 jum31	soŋ33 jum31	two things	two things			9.9	260020	0			
+458954	1961	Pyen	soŋ33 ʔan31	soŋ33 ʔan31	two persons	two persons			9.9	260020	0			
+458955	1961	Pyen	sam33 jum31	sam33 jum31	three things	three things			9.9	260021	0			2666

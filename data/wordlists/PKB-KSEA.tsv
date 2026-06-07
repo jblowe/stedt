@@ -1,10 +1,10 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-441450	1933	Mishing [Miri]	mil-bong	mil-bong	husband	husband		4.7.4	129	0		1002,1638
-441451	1934	Padam [Abor]	mi-long	mi-long	husband; masculine suffix	husband; masculine suffix		4.7.4	129	0		1002,1638
-441452	1935	Nishi [Dafla]	nyĕ-|lo	nyĕ-lo	husband	husband		4.7.4	135	0		6455
-441453	1936	Tagin	nyo-|lĕ	nyo-lĕ	husband	husband		4.7.4	135	0		6455
-441455	1937	Lepcha	tyang-mo long	tyang-mo long	male elephant	male elephant		1.9.6.1	137	0		2731,s,1638
-441456	1938	Nung (Rawang)	nang-la	nang-la	husband; male	husband; male		4.7.4	166	0		m,1624
-441464	1942	Tableng	kui-la	kui-la	male dog	male dog		1.9.6.1	243	0		1764,1624
-441465	1943	Nocte (Namsang)	de-la	de-la	husband	husband		4.7.4	243	0		m,1624
-441466	1944	Tangsa (Moshang)	gui-hẽ la	gui-hẽ la	male dog	male dog		1.9.6.1	243	0		1764,m,1624
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+441450	1933	Mishing [Miri]	mil-bong	mil-bong	husband	husband			4.7.4	129	0			1002,1638
+441451	1934	Padam [Abor]	mi-long	mi-long	husband; masculine suffix	husband; masculine suffix			4.7.4	129	0			1002,1638
+441452	1935	Nishi [Dafla]	nyĕ-|lo	nyĕ-lo	husband	husband			4.7.4	135	0			6455
+441453	1936	Tagin	nyo-|lĕ	nyo-lĕ	husband	husband			4.7.4	135	0			6455
+441455	1937	Lepcha	tyang-mo long	tyang-mo long	male elephant	male elephant			1.9.6.1	137	0			2731,s,1638
+441456	1938	Nung (Rawang)	nang-la	nang-la	husband; male	husband; male			4.7.4	166	0			m,1624
+441464	1942	Tableng	kui-la	kui-la	male dog	male dog			1.9.6.1	243	0			1764,1624
+441465	1943	Nocte (Namsang)	de-la	de-la	husband	husband			4.7.4	243	0			m,1624
+441466	1944	Tangsa (Moshang)	gui-hẽ la	gui-hẽ la	male dog	male dog			1.9.6.1	243	0			1764,m,1624

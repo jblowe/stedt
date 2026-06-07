@@ -1,272 +1,272 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-13111	370	Bola	kauŋ⁵⁵ tɔʔ³¹	kauŋ⁵⁵ tɔʔ³¹	body	body		1.1.1	94	0		1,14
-13112	370	Bola	kʰji⁵⁵ laʔ³¹	kʰji⁵⁵ laʔ³¹	limbs	limbs		1.5.3.1	95	0		
-13113	370	Bola	u̱³⁵ lam³¹	u̱³⁵ lam³¹	head	head		1.2.1	96	0		385,690
-13114	370	Bola	tsʰɛ̃⁵⁵	tsʰɛ̃⁵⁵	hair (head)	hair (head)		1.2.3	97	0		366
-13115	370	Bola	tsʰɛ̃⁵⁵ nak⁵⁵	tsʰɛ̃⁵⁵ nak⁵⁵	braid (hair)	braid (hair)	n	1.2.3.2	98	0		366,2023
-13116	370	Bola	ŋə̆³¹ lɔ̃³¹	ŋə̆³¹ lɔ̃³¹	forehead	forehead		1.2.5.1	99	0		356,392
-13117	370	Bola	mjaʔ³¹ ma̱uŋ⁵⁵	mjaʔ³¹ ma̱uŋ⁵⁵	eyebrow	eyebrow		1.2.6.6	100	0		681,363
-13118	370	Bola	mjaʔ³¹	mjaʔ³¹	eye	eye		1.2.6	101	0		681
-13119	370	Bola	mjaʔ³¹ tsʰɛ̃⁵⁵	mjaʔ³¹ tsʰɛ̃⁵⁵	eyelash	eyelash		1.2.6.5	102	0		681,366
-13120	370	Bola	na̱⁵⁵	na̱⁵⁵	nose	nose		1.2.8	103	0		803
-13121	370	Bola	nə̆³¹ kʰjɛʔ⁵⁵	nə̆³¹ kʰjɛʔ⁵⁵	ear	ear		1.2.7	104	0		811,823
-13122	370	Bola	mjaʔ³¹ tuŋ³¹	mjaʔ³¹ tuŋ³¹	face	face		1.2.5	105	0		681,2031
-13123	370	Bola	nə̆³¹ kɛ̱̃⁵⁵	nə̆³¹ kɛ̱̃⁵⁵	cheek	cheek		1.2.5.2	106	0		p,262
-13124	370	Bola	nɔ̱t⁵⁵	nɔ̱t⁵⁵	mouth	mouth		1.3.1	107	0		471
-13125	370	Bola	nɔ̱t⁵⁵ ka̱uʔ	nɔ̱t⁵⁵ ka̱uʔ	lip	lip		1.3.2	108	0		471,586
-13126	370	Bola	nɔ̱t⁵⁵ mø³¹	nɔ̱t⁵⁵ mø³¹	beard	beard		1.2.5.5	109	0		471,363
-13127	370	Bola	nɔ̱t⁵⁵ mø³¹	nɔ̱t⁵⁵ mø³¹	whiskers	whiskers		1.2.5.5	110	0		471,363
-13128	370	Bola	ɛ̃⁵⁵ tʰɔ̃⁵⁵	ɛ̃⁵⁵ tʰɔ̃⁵⁵	lower jaw, chin	lower jaw, chin			111	0		m,m
-13129	370	Bola	laŋ⁵⁵ taŋ³¹	laŋ⁵⁵ taŋ³¹	neck	neck		1.4.2	112	0		479,255
-13130	370	Bola	laŋ⁵⁵ kʰauŋ³⁵	laŋ⁵⁵ kʰauŋ³⁵	nape	nape		1.4.2.1	113	0		
-13131	370	Bola	laʔ³¹ sɛ̃⁵⁵	laʔ³¹ sɛ̃⁵⁵	shoulder	shoulder		1.4.3	114	0		695,3348
-13132	370	Bola	kauŋ⁵⁵ tɔ̱̃³⁵	kauŋ⁵⁵ tɔ̱̃³⁵	back (body)	back (body)		1.4.8	115	0		1,225
-13133	370	Bola	laʔ³¹ tʃʰɛʔ⁵⁵	laʔ³¹ tʃʰɛʔ⁵⁵	armpit	armpit		1.5.1.2.3	116	0		
-13134	370	Bola	ɣɔ⁵⁵ kɔ̃⁵⁵	ɣɔ⁵⁵ kɔ̃⁵⁵	chest	chest		1.4.4.3	117	0		288,2000
-13135	370	Bola	nau³⁵	nau³⁵	breast	breast		1.4.4.3	118	0		253
-13136	370	Bola	vɛ³¹ tau³¹	vɛ³¹ tau³¹	belly	belly		1.4.7	119	0		137,m
-13137	370	Bola	tʃʰaʔ⁵⁵	tʃʰaʔ⁵⁵	navel	navel		1.9.4	120	0		525
-13138	370	Bola	pʰi³¹ tam³¹	pʰi³¹ tam³¹	waist	waist		1.4.6	121	0		1361,1362
-13139	370	Bola	tʃʰauʔ⁵⁵ pauŋ⁵⁵	tʃʰauʔ⁵⁵ pauŋ⁵⁵	buttocks	buttocks		1.4.10	122	0		215,404
-13140	370	Bola	tɔ̱̃³⁵ pau³¹	tɔ̱̃³⁵ pau³¹	thigh	thigh		1.5.7.1	123	0		
-13141	370	Bola	pɔ̱t⁵⁵ lauʔ⁵⁵	pɔ̱t⁵⁵ lauʔ⁵⁵	knee	knee		1.5.8.4	124	0		436,m
-13142	370	Bola	kʰji⁵⁵ pu̱³¹	kʰji⁵⁵ pu̱³¹	calf	calf		1.5.7	125	0		
-13143	370	Bola	kʰji⁵⁵	kʰji⁵⁵	foot	foot		1.5.2	126	0		335
-13144	370	Bola	kʰji⁵⁵ tʃʰɛʔ⁵⁵	kʰji⁵⁵ tʃʰɛʔ⁵⁵	heel	heel		1.5.2.1	127	0		
-13145	370	Bola	laʔ³¹ pu³⁵	laʔ³¹ pu³⁵	arm	arm		1.5.1.2	128	0		695,1327
-13147	370	Bola	laʔ³¹	laʔ³¹	hand	hand		1.5.1.1	130	0		695
-13148	370	Bola	laʔ³¹ jɔn³¹	laʔ³¹ jɔn³¹	wrist	wrist		1.5.8.1	131	0		695,m
-13149	370	Bola	laʔ³¹ ŋju̱ŋ³⁵	laʔ³¹ ŋju̱ŋ³⁵	finger	finger		1.5.6	132	0		695,320
-13150	370	Bola	laʔ³¹ ma³⁵ tʃʰɛ̃³¹	laʔ³¹ ma³⁵ tʃʰɛ̃³¹	thumb	thumb		1.5.6.1	133	0		
-13151	370	Bola	tɔ̱n³⁵ ŋju̱ŋ³⁵	tɔ̱n³⁵ ŋju̱ŋ³⁵	index finger	index finger		1.0	134	0		m,320
-13152	370	Bola	kauŋ³¹ kauŋ⁵⁵ ŋju̱ŋ³⁵	kauŋ³¹ kauŋ⁵⁵ ŋju̱ŋ³⁵	middle finger	middle finger		1.9.4	135	0		
-13154	370	Bola	laʔ³¹ tʰɔ̃³⁵ ŋju̱ŋ³⁵	laʔ³¹ tʰɔ̃³⁵ ŋju̱ŋ³⁵	little finger	little finger		9.7.2	137	0		695,m,m
-13155	370	Bola	laʔ³¹ saŋ³⁵	laʔ³¹ saŋ³⁵	fingernail	fingernail		1.5.10.1	138	0		
-13156	370	Bola	laʔ³¹ tsa̱p⁵⁵	laʔ³¹ tsa̱p⁵⁵	fist	fist		1.5.1.1.1	139	0		695,86
-13157	370	Bola	tʃʰauʔ⁵⁵	tʃʰauʔ⁵⁵	anus	anus		1.4.10.2	140	0		m
-13158	370	Bola	ŋji̱³⁵	ŋji̱³⁵	penis	penis			141	0		545
-13159	370	Bola	ŋji̱³⁵ tʃɿ³⁵	ŋji̱³⁵ tʃɿ³⁵	testicles	testicles			142	0		545,3559
-13160	370	Bola	tʃauʔ³¹	tʃauʔ³¹	vagina	vagina			143	0		1356
-13161	370	Bola	ŋji⁵⁵ tʃʰɔ̃³⁵	ŋji⁵⁵ tʃʰɔ̃³⁵	placenta	placenta			144	0		m,1615
-13162	370	Bola	tʃʰaʔ⁵⁵	tʃʰaʔ⁵⁵	umbilical cord	umbilical cord			145	0		525
-13163	370	Bola	tʃauʔ³¹ tui⁵⁵	tʃauʔ³¹ tui⁵⁵	womb	womb			146	0		679,m
-13164	370	Bola	ʃă³⁵ ka̱uʔ⁵⁵	ʃă³⁵ ka̱uʔ⁵⁵	skin	skin		1.6.5	147	0		34,586
-13165	370	Bola	mə̆³¹ va³¹	mə̆³¹ va³¹	hemorrhoids	hemorrhoids		1.4.10.2	149	0		
-13166	370	Bola	pjaŋ⁵⁵	pjaŋ⁵⁵	sore, ulcer	sore, ulcer		1.1.5.1	150	0		
-13167	370	Bola	tɛ̃⁵⁵ kʰo⁵⁵	tɛ̃⁵⁵ kʰo⁵⁵	scar	scar		1.6.5.3	151	0		
-13168	370	Bola	ʃă³⁵ taʔ⁵⁵	ʃă³⁵ taʔ⁵⁵	ringworm	ringworm		2.2.6	153	0		
-13169	370	Bola	ʃa³⁵	ʃa³⁵	flesh	flesh		1.1.1.1	154	0		34
-13170	370	Bola	sui³⁵	sui³⁵	blood	blood		1.6.2	155	0		230
-13171	370	Bola	ʃă³⁵ kji³¹	ʃă³⁵ kji³¹	muscle	muscle		1.6.6.2	156	0		34,372
-13172	370	Bola	sui³⁵ tʃʰa⁵⁵	sui³⁵ tʃʰa⁵⁵	pulse	pulse		1.7.1.1	157	0		m,530
-13173	370	Bola	ŭ³¹ nauʔ⁵⁵	ŭ³¹ nauʔ⁵⁵	brain	brain		1.2.4	158	0		385,243
-13174	370	Bola	ʃă³⁵|u³¹	ʃă³⁵|u³¹	bone	bone		1.6.3	159	0		234
-13175	370	Bola	nɛ̃⁵⁵ tʃʰɛ̃³⁵	nɛ̃⁵⁵ tʃʰɛ̃³⁵	rib	rib		1.4.4.3	161	0		553,m
-13176	370	Bola	u³¹ tsʰaʔ⁵⁵	u³¹ tsʰaʔ⁵⁵	joint	joint		1.5.8	162	0		m,418
-13177	370	Bola	tui⁵⁵	tui⁵⁵	tooth	tooth		1.3.4	163	0		635
-13178	370	Bola	ŋɛ⁵⁵	ŋɛ⁵⁵	gums	gums		1.3.4.3	164	0		504
-13179	370	Bola	ʃa⁵⁵	ʃa⁵⁵	tongue	tongue		1.3.3	165	0		623
-13180	370	Bola	kʰjauŋ³¹ tui⁵⁵	kʰjauŋ³¹ tui⁵⁵	uvula	uvula		1.3.5.1	166	0		
-13181	370	Bola	tʰaʔ⁵⁵ ɛ̃⁵⁵	tʰaʔ⁵⁵ ɛ̃⁵⁵	palate	palate		1.3.1.1	167	0		1719,m
-13182	370	Bola	kʰjauŋ³⁵	kʰjauŋ³⁵	throat	throat		1.3.5	168	0	D1	489
-13183	370	Bola	kʰjauŋ³⁵	kʰjauŋ³⁵	throat	throat		1.3.5	169	0	HIDE	DUPE IN SOURCE
-13184	370	Bola	tsɔ̱t⁵⁵	tsɔ̱t⁵⁵	lungs	lungs		1.7.2	171	0		
-13185	370	Bola	na̱k⁵⁵ lam³¹	na̱k⁵⁵ lam³¹	heart	heart		1.7.1	172	0		1385,1381
-13186	370	Bola	saŋ³⁵	saŋ³⁵	liver	liver		1.7.3	173	0		1390
-13187	370	Bola	tʃɔn³⁵ lam³¹	tʃɔn³⁵ lam³¹	kidneys	kidneys		1.7.5	174	0		
-13188	370	Bola	ku̱m³⁵ pa̱i³¹	ku̱m³⁵ pa̱i³¹	spleen	spleen		1.7.4	175	0		bJingpho
-13189	370	Bola	kji̱⁵⁵	kji̱⁵⁵	gall bladder	gall bladder		1.7.3	177	0		227
-13190	370	Bola	u⁵⁵	u⁵⁵	intestines	intestines		1.7.7	178	0		2102
-13191	370	Bola	tʃɔt³¹ pauŋ³¹	tʃɔt³¹ pauŋ³¹	bladder	bladder		1.7.8	179	0		650,778
-13192	370	Bola	kʰji³⁵	kʰji³⁵	feces	feces		1.8.5	180	0		572
-13193	370	Bola	i̱³⁵	i̱³⁵	urine	urine		1.8.4	181	0		650
-13194	370	Bola	kʰji³⁵	kʰji³⁵	fart	fart		1.8.5.2	182	0		572
-13195	370	Bola	pau³¹ kjø̱³⁵	pau³¹ kjø̱³⁵	sweat	sweat		1.8.1	183	0		800,615
-13196	370	Bola	kʰjauŋ³⁵ kja̱ʔ⁵⁵	kʰjauŋ³⁵ kja̱ʔ⁵⁵	phlegm	phlegm		1.8.3	184	0		m,540
-13197	370	Bola	kʰə̆³¹ ta̱i³⁵	kʰə̆³¹ ta̱i³⁵	saliva	saliva		1.8.3	185	0		
-13198	370	Bola	nɛ̱ʔ⁵⁵	nɛ̱ʔ⁵⁵	mucus	mucus		1.8.2	186	0		805
-13199	370	Bola	ŋau⁵⁵ pi⁵⁵	ŋau⁵⁵ pi⁵⁵	tears	tears		1.2.6.7	187	0		681,187
-13200	370	Bola	pjaŋ⁵⁵ ɣaŋ³¹	pjaŋ⁵⁵ ɣaŋ³¹	pus	pus		1.8.6.1	188	0		1292,m
-13201	370	Bola	xei³⁵	xei³⁵	body dirt	body dirt		1.8.1.2	189	0		m
-13202	370	Bola	tʰø⁵⁵	tʰø⁵⁵	sound	sound		9.3	190	0		
-13203	370	Bola	saʔ⁵⁵	saʔ⁵⁵	breath	breath		1.1.2.2	191	0		32
-13204	370	Bola	mɔ̃⁵⁵	mɔ̃⁵⁵	corpse	corpse		1.1.6.1	192	0		17
-13205	370	Bola	kɔ̃⁵⁵	kɔ̃⁵⁵	life	life		1.1.2.1	193	0		20
-13206	370	Bola	kɔ̃⁵⁵	kɔ̃⁵⁵	life-span	life-span		1.1.2.1	194	0		20
-13207	370	Bola	mjaʔ³¹ tʃɔt³¹	mjaʔ³¹ tʃɔt³¹	blind person	blind person		1.2.6.14.2	242	0		681,1401
-13208	370	Bola	kʰji⁵⁵ ku̱i⁵⁵	kʰji⁵⁵ ku̱i⁵⁵	lame person	lame person		1.5.12	243	0		
-13209	370	Bola	pju⁵⁵ ŋja̱p⁵⁵	pju⁵⁵ ŋja̱p⁵⁵	dwarf	dwarf		4.2.7	244	0		
-13210	370	Bola	nə̆³¹ tʃɔt³¹	nə̆³¹ tʃɔt³¹	deaf person	deaf person		1.2.7.5	245	0		
-13211	370	Bola	ŭ̱³⁵ kɔŋ³¹	ŭ̱³⁵ kɔŋ³¹	bald person	bald person		1.2.3.4	246	0		385,m
-13212	370	Bola	mjaʔ³¹ ʃaʔ⁵⁵	mjaʔ³¹ ʃaʔ⁵⁵	pock-marked person	pock-marked person		4.5	247	0		
-13213	370	Bola	pju⁵⁵ tɔ̃⁵⁵ kuŋ³⁵	pju⁵⁵ tɔ̃⁵⁵ kuŋ³⁵	hunchback	hunchback		1.4.8.3	248	0		m,225,m
-13214	370	Bola	pju⁵⁵ ka⁵⁵	pju⁵⁵ ka⁵⁵	idiot	idiot		4.2.12.3	249	0		
-13215	370	Bola	pju⁵⁵ na³¹	pju⁵⁵ na³¹	lunatic	lunatic		8.3	250	0		
-13216	370	Bola	a⁵⁵ tu̱i³¹	a⁵⁵ tu̱i³¹	stutterer	stutterer		8.5.4.5	251	0		
-13217	370	Bola	nɔ̱t⁵⁵ tsɔt³¹	nɔ̱t⁵⁵ tsɔt³¹	dumb person	dumb person		8.5.4.4	252	0		
-13218	370	Bola	mjaʔ³¹ tɛ̱³⁵ tɛʔ⁵⁵	mjaʔ³¹ tɛ̱³⁵ tɛʔ⁵⁵	one-eyed person	one-eyed person		9.9	253	0		
-13219	370	Bola	nŏ³¹ nau³⁵	nŏ³¹ nau³⁵	milk (cow's)	milk (cow's)			311	0		2538,253
-13220	370	Bola	nɔ̆³¹ kʰji³⁵	nɔ̆³¹ kʰji³⁵	excrement (cow)	excrement (cow)		1.8.5	312	0		m,572
-13221	370	Bola	kʰju⁵⁵	kʰju⁵⁵	horn	horn		1.2.2	313	0		819
-13222	370	Bola	kʰji⁵⁵ saŋ³⁵	kʰji⁵⁵ saŋ³⁵	hoof	hoof		1.5.4	314	0		335,m
-13223	370	Bola	ʃă³⁵ ka̱uʔ⁵⁵	ʃă³⁵ ka̱uʔ⁵⁵	skin (human or animal)	skin (human or animal)		1.6.5	315	0		34,586
-13224	370	Bola	ʃă³⁵ mau³⁵	ʃă³⁵ mau³⁵	hair (animal)	hair (animal)		1.2.3	316	0		34,m
-13225	370	Bola	ʃă³⁵ mi³¹	ʃă³⁵ mi³¹	tail	tail		1.4.10.1	317	0		34,1288
-13226	370	Bola	ma³¹ tsuŋ³¹	ma³¹ tsuŋ³¹	mane (horse)	mane (horse)		1.6.1	322	0		1431,370
-13227	370	Bola	tʃʰɔt⁵⁵ pɛʔ⁵⁵ mau³⁵	tʃʰɔt⁵⁵ pɛʔ⁵⁵ mau³⁵	wool	wool		1.6.1.3	328	0		1226,m,363
-13228	370	Bola	ɣaʔ³¹ tʃaʔ³¹ pjɛn³¹	ɣaʔ³¹ tʃaʔ³¹ pjɛn³¹	cockscomb	cockscomb		1.2.2.1	346	0		1606,m,2016
-13229	370	Bola	tauŋ⁵⁵	tauŋ⁵⁵	wing	wing		1.5.1.3	347	0		711
-13230	370	Bola	a³¹ mau³⁵	a³¹ mau³⁵	feathers	feathers		1.6.1.1	348	0		m,b
-13231	370	Bola	la̱ʔ³¹ saŋ³⁵	la̱ʔ³¹ saŋ³⁵	paw	paw		1.5.4	356	0		
-13232	370	Bola	tsʰɔ̃⁵⁵ tui⁵⁵	tsʰɔ̃⁵⁵ tui⁵⁵	tusk (of elephant)	tusk (of elephant)		1.3.4.1	359	0		2731,635
-13233	370	Bola	ʃə³¹ ʃaŋ³⁵	ʃə³¹ ʃaŋ³⁵	musk (scent)	musk (scent)		1.5.3.2	367	0		
-13234	370	Bola	ŋa̱ʔ⁵⁵ sɔt⁵⁵	ŋa̱ʔ⁵⁵ sɔt⁵⁵	bird's nest	bird's nest		2.2.4	380	0		3442,679
-13235	370	Bola	ŋə̆³¹ kjɛ̱ʔ⁵⁵	ŋə̆³¹ kjɛ̱ʔ⁵⁵	scales (fish)	scales (fish)		1.6.5.2	409	0		1455,596
-13236	370	Bola	kɔ̃³¹ mja̱³⁵ sɔt⁵⁵	kɔ̃³¹ mja̱³⁵ sɔt⁵⁵	spider's web	spider's web		2.2.6	423	0		5400,m,m
-13237	370	Bola	ʃa³⁵	ʃa³⁵	meat	meat		1.1.1.1	554	0		34
-13238	370	Bola	ʃă³⁵ tsʰu⁵⁵	ʃă³⁵ tsʰu⁵⁵	fatty meat	fatty meat		1.6.4	558	0		34,42
-13239	370	Bola	ʃă³⁵ kai⁵⁵	ʃă³⁵ kai⁵⁵	lean meat	lean meat		1.1.1	559	0		34,49
-13240	370	Bola	tsʰu⁵⁵	tsʰu⁵⁵	animal oil	animal oil		2.3	560	0		42
-13241	370	Bola	u̱³⁵	u̱³⁵	egg	egg			573	0		301
-13242	370	Bola	ɣaʔ³¹ u̱³⁵	ɣaʔ³¹ u̱³⁵	chicken egg	chicken egg		2.1.10	574	0		1606,301
-13243	370	Bola	pjɛ̱t⁵⁵ u̱³⁵	pjɛ̱t⁵⁵ u̱³⁵	duck egg	duck egg		2.1.10	575	0		m,301
-13244	370	Bola	jui⁵⁵	jui⁵⁵	god	god		5.8.1.1	937	0		
-13245	370	Bola	jui⁵⁵	jui⁵⁵	ghost	ghost		4.2.12.2	938	0		
-13246	370	Bola	ɣam³¹	ɣam³¹	strength	strength		1.1.5	961	0		1842
-13247	370	Bola	ŋji⁵⁵ jɛʔ⁵⁵	ŋji⁵⁵ jɛʔ⁵⁵	life	life		1.1.2.1	976	0		85,71
-13248	370	Bola	ɣap³¹ ta³¹	ɣap³¹ ta³¹	shadow	shadow		3.2.10	1008	0		
-13249	370	Bola	ja̱p⁵⁵ ma̱ʔ⁵⁵	ja̱p⁵⁵ ma̱ʔ⁵⁵	dream	dream		1.1.4.2	1009	0		127,126
-13250	370	Bola	kauŋ³¹ kauŋ⁵⁵	kauŋ³¹ kauŋ⁵⁵	center	center		1.9.4	1021	0		m,m
-13251	370	Bola	a³¹ jɛ̃⁵⁵	a³¹ jɛ̃⁵⁵	side	side		1.4.5	1022	0		
-13252	370	Bola	laʔ³¹ ka̱uŋ³⁵	laʔ³¹ ka̱uŋ³⁵	left	left		1.5.3.2	1023	0		695,m
-13253	370	Bola	laʔ³¹ ja⁵⁵	laʔ³¹ ja⁵⁵	right	right		1.5.3.2	1024	0		695,2786
-13254	370	Bola	xəi³⁵ kʰja⁵⁵	xəi³⁵ kʰja⁵⁵	front	front		1.4.4	1025	0		1214,m
-13255	370	Bola	tʰɔ̃⁵⁵ kʰja⁵⁵	tʰɔ̃⁵⁵ kʰja⁵⁵	back	back		1.4.8	1026	0		225,213
-13256	370	Bola	ŋa̱m³⁵	ŋa̱m³⁵	bald	bald		1.2.3.4	1392	0		m
-13257	370	Bola	ŋja̱uŋ⁵⁵	ŋja̱uŋ⁵⁵	wrinkled	wrinkled		9.6.2	1394	0		
-13258	370	Bola	tsʰu⁵⁵	tsʰu⁵⁵	fat (person)	fat (person)		1.6.4	1428	0		42
-13259	370	Bola	tsʰu⁵⁵	tsʰu⁵⁵	fat (pig)	fat (pig)		1.6.4	1429	0		42
-13260	370	Bola	kji³⁵	kji³⁵	thin (person)	thin (person)		9.7.2	1431	0		
-13261	370	Bola	a³¹ tui⁵⁵	a³¹ tui⁵⁵	alive	alive		1.1.2.1	1505	0		p,72
-13262	370	Bola	ʃɿ⁵⁵ ku³¹	ʃɿ⁵⁵ ku³¹	dead	dead		1.1.6	1506	0		27,m
-13263	370	Bola	kji³¹	kji³¹	full (from eating)	full (from eating)		1.1.3.2	1598	0		112
-13264	370	Bola	mi̱³⁵	mi̱³⁵	close (mouth)	close (mouth)		6.2.2.6.2	1609	0		31
-13265	370	Bola	na⁵⁵	na⁵⁵	sick	sick		1.1.5.1	1619	0		160
-13266	370	Bola	ta³¹	ta³¹	eat	eat		1.5.3.2	1662	0		36
-13267	370	Bola	tɛ̱ʔ⁵⁵	tɛ̱ʔ⁵⁵	transmit, infect	transmit, infect	v.t.	6.2.2.2	1686	0		
-13268	370	Bola	tɛʔ³¹	tɛʔ³¹	infected	infected	be v.	1.1.5.1	1687	0		
-13269	370	Bola	mɔt³¹	mɔt³¹	blow (trumpet)	blow (trumpet)		1.3.1.4	1688	0		503
-13270	370	Bola	mɔt³¹	mɔt³¹	blow (dust)	blow (dust)		1.3.1.4	1689	0		503
-13271	370	Bola	ʃɛ⁵⁵	ʃɛ⁵⁵	gasp, pant	gasp, pant	v	1.1.2.2	1692	0		32
-13272	370	Bola	a³¹ |tʃʰu⁵¹ |tʃʰu³¹	a³¹ tʃʰu⁵¹ tʃʰu³¹	sneeze	sneeze		1.8.2.1	1720	0		2131
-13273	370	Bola	ja̱p⁵⁵ ŋø̱³⁵ ŋø̱³¹	ja̱p⁵⁵ ŋø̱³⁵ ŋø̱³¹	nap (take)	nap (take)	v	6.21	1721	0		
-13274	370	Bola	a³¹ xam⁵¹ xam³¹	a³¹ xam⁵¹ xam³¹	yawn	yawn		1.3.1.3	1723	0		p,1715,1715
-13275	370	Bola	a³¹ jə̱k⁵⁵ tʰauŋ³⁵	a³¹ jə̱k⁵⁵ tʰauŋ³⁵	hiccup / belch	hiccup  /  belch		1.8.3.5	1724	0		p,3443,m
-13276	370	Bola	ja̱p⁵⁵ kʰɔʔ⁵⁵ kʰɔʔ³¹	ja̱p⁵⁵ kʰɔʔ⁵⁵ kʰɔʔ³¹	snore	snore		1.8.2.2	1725	0		127,m,m
-13277	370	Bola	tin³⁵	tin³⁵	bite, sting (mosquito)	bite, sting (mosquito)		1.3.4.4	1766	0		b?
-13278	370	Bola	ŋɛ̱ʔ⁵⁵	ŋɛ̱ʔ⁵⁵	read (book)	read (book)		6.2.2.9.3	1776	0		
-13279	370	Bola	saʔ⁵⁵ tʰɔ³⁵	saʔ⁵⁵ tʰɔ³⁵	die (breath one's last)	die (breath one's last)		9.9	1781	0		32,23
-13280	370	Bola	vɛ̃³¹ møʔ⁵⁵	vɛ̃³¹ møʔ⁵⁵	hungry	hungry		1.1.3	1792	0		m,99
-13281	370	Bola	nɛ̃35	nɛ̃35	tremble	tremble		6.7.3	1798	0		
-13282	370	Bola	lauŋ⁵⁵	lauŋ⁵⁵	fever	fever		1.1.5.1	1800	0		
-13283	370	Bola	kʰji³⁵ tʃɔt³¹	kʰji³⁵ tʃɔt³¹	fart	fart		1.8.5.2	1820	0		572,m
-13284	370	Bola	tɔ̃³¹	tɔ̃³¹	fly	fly		2.2.6	1826	0		
-13285	370	Bola	na³¹	na³¹	insane	insane		8.3.1.11.3	1832	0		
-13286	370	Bola	ɣaʔ³¹ a̱p⁵⁵	ɣaʔ³¹ a̱p⁵⁵	incubate	incubate		1.9.1.2	1834	0		1606,2767
-13287	370	Bola	fɛ³⁵	fɛ³⁵	swallow dry	swallow dry		1.3.5.6	1843	0		3298
-13288	370	Bola	tʰə³¹ mui³¹ na⁵⁵	tʰə³¹ mui³¹ na⁵⁵	cold (have)	cold (have)	v	7.1.2.3	1844	0		
-13289	370	Bola	jɔ̃⁵⁵	jɔ̃⁵⁵	call (to a meeting)	call (to a meeting)		8.5.13	1892	0		
-13290	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	call (animal to come)	call (animal to come)		8.5.13	1893	0		
-13291	370	Bola	ʃauʔ⁵⁵	ʃauʔ⁵⁵	drink	drink			1895	0		3462
-13292	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	hum	hum		8.5.5	1901.1	0		
-13293	370	Bola	na⁵⁵ kja̱ŋ³¹ kja̱ŋ³⁵	na⁵⁵ kja̱ŋ³¹ kja̱ŋ³⁵	hum	hum		8.5.5	1902.2	0		
-13294	370	Bola	fən³¹ fan³¹	fən³¹ fan³¹	dim, blurry (eyesight)	dim, blurry (eyesight)		1.2.6.10	1906	0		
-13295	370	Bola	vɛ̃³¹ pɔt⁵⁵	vɛ̃³¹ pɔt⁵⁵	pregnant	pregnant		1.9.6.1	1912	0		137,1855
-13296	370	Bola	jɔ̃⁵⁵	jɔ̃⁵⁵	call (to animal)	call (to animal)		8.5.13	1917	0		
-13297	370	Bola	tui⁵⁵	tui⁵⁵	alive	alive		1.1.2.1	1934	0		72
-13298	370	Bola	kʰai⁵⁵	kʰai⁵⁵	tell (story)	tell (story)		1.8.7	1965	0		1753
-13299	370	Bola	va³¹	va³¹	chew	chew		1.3.4	1971	0		688
-13300	370	Bola	tɔ̱n⁵⁵	tɔ̱n⁵⁵	crow (rooster)	crow (rooster)		2.2.4.1	1972	0		
-13301	370	Bola	kʰɔ³⁵	kʰɔ³⁵	cackle (hen)	cackle (hen)		8.5.5	1973	0		
-13302	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	call (cat)	call (cat)		8.5.13	1974	0		o
-13303	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	bray (donkey)	bray (donkey)		8.5.4.1	1975	0		w
-13304	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	neigh (horse)	neigh (horse)		8.5.5	1976	0		
-13305	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	call (cow)	call (cow)		8.5.13	1977	0		
-13306	370	Bola	ɣɛʔ³¹	ɣɛʔ³¹	bark (dog)	bark (dog)		2.1.11.1	1978	0		
-13307	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	grunt (pig)	grunt (pig)		2.1.11.1	1979	0		o
-13308	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	call (sheep)	call (sheep)		8.5.13	1980	0		
-13309	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	roar (tiger)	roar (tiger)		8.5.5	1981	0		o
-13310	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	roar (lion)	roar (lion)		8.5.5	1982	0		o
-13311	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	howl (wolf)	howl (wolf)		8.5.5	1983	0		
-13312	370	Bola	jɔ̃⁵⁵	jɔ̃⁵⁵	call (name)	call (name)		8.5.13	1984	0		
-13313	370	Bola	pʰuŋ³⁵	pʰuŋ³⁵	open	open		6.2.2.6.1	2020	0		5704
-13314	370	Bola	u³⁵	u³⁵	look at	look at		1.2.6.11	2028	0		m
-13315	370	Bola	mjɔ̃⁵⁵	mjɔ̃⁵⁵	see	see		1.2.6.10	2030	0		1227
-13316	370	Bola	kʰjauŋ³⁵ ta̱u³¹ ta̱u³¹	kʰjauŋ³⁵ ta̱u³¹ ta̱u³¹	cough	cough		1.8.3.3	2038	0		
-13317	370	Bola	kʰjauŋ³⁵ fɛ³⁵	kʰjauŋ³⁵ fɛ³⁵	thirsty	thirsty		1.1.3.1	2039	0		1825,3298
-13318	370	Bola	kʰai³⁵	kʰai³⁵	gnaw	gnaw		1.3.4.4	2042	0		
-13319	370	Bola	ŋau⁵⁵	ŋau⁵⁵	cry	cry		1.8.8.2	2045	0		1104
-13320	370	Bola	ja̱p⁵⁵ nau⁵⁵	ja̱p⁵⁵ nau⁵⁵	tired, sleepy	tired, sleepy		9.6.2.2	2051	0		127,129
-13321	370	Bola	vɛ̃³¹ ʃɔn⁵⁵	vɛ̃³¹ ʃɔn⁵⁵	defecate	defecate		1.8.5.4	2053	0		
-13322	370	Bola	mjauŋ³¹	mjauŋ³¹	tired	tired		9.6.2.2	2061	0		
-13323	370	Bola	tʃɔt³¹	tʃɔt³¹	deaf	deaf		1.2.7.5	2081	0		m
-13324	370	Bola	pjaŋ⁵⁵	pjaŋ⁵⁵	numb	numb		1.5.11	2086	0		
-13325	370	Bola	pjaŋ³⁵	pjaŋ³⁵	fill up	fill up	v.i.	6.11	2088	0		
-13326	370	Bola	ja̱p⁵⁵ maʔ⁵⁵ maʔ⁵⁵	ja̱p⁵⁵ maʔ⁵⁵ maʔ⁵⁵	dream	dream		1.1.4.2	2092	0		127,126,126
-13327	370	Bola	pju̱³⁵	pju̱³⁵	narrow eyes; squint	narrow eyes; squint		9.7.2	2100	0		
-13328	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	call (bird)	call (bird)		8.5.13	2101	0		
-13329	370	Bola	tauʔ³¹	tauʔ³¹	vomit	vomit		1.8.3.2	2117	0		601
-13330	370	Bola	tu̱⁵⁵	tu̱⁵⁵	raise (tail)	raise (tail)		6.7.7	2163	0		
-13331	370	Bola	kai⁵⁵	kai⁵⁵	cured (illness)	cured (illness)	be v.	1.1.5.1	2174	0		
-13332	370	Bola	kai⁵⁵	kai⁵⁵	heal (wound)	heal (wound)		1.1.5.1	2175	0		
-13333	370	Bola	ku̱i⁵⁵	ku̱i⁵⁵	crippled	crippled		4.2.7	2177	0		
-13334	370	Bola	kə̆³¹ ʒu³¹	kə̆³¹ ʒu³¹	shout, yell	shout, yell		8.5.4.1	2181	0		
-13335	370	Bola	ta̱k⁵⁵	ta̱k⁵⁵	urinate	urinate		1.5.3.2	2194	0		
-13336	370	Bola	ja̱uŋ³⁵	ja̱uŋ³⁵	castrate	castrate		1.9.2.3	2210	0		m
-13337	370	Bola	la̱i³⁵	la̱i³⁵	hurt, wound	hurt, wound	v	1.1.5.1	2211	0		m
-13338	370	Bola	kɛ̱ʔ⁵⁵	kɛ̱ʔ⁵⁵	fatten	fatten		1.6.4	2215	0		m
-13339	370	Bola	jauʔ³¹ la⁵⁵	jauʔ³¹ la⁵⁵	grow up (shengzhang)	grow up (shengzhang)		9.7.2	2224	0		
-13340	370	Bola	jauʔ⁵⁵	jauʔ⁵⁵	grow (boil)	grow (boil)		9.7.2	2226	0		
-13341	370	Bola	ɣa³⁵	ɣa³⁵	birth, give	birth, give	v	1.1.2	2227	0		3484
-13342	370	Bola	kji³⁵	kji³⁵	thin	thin	v	9.7.2	2249	0		
-13343	370	Bola	ja̱p⁵⁵	ja̱p⁵⁵	sleep	sleep		1.1.4.1	2259	0		127
-13344	370	Bola	ja̱p⁵⁵ ta̱³⁵	ja̱p⁵⁵ ta̱³⁵	asleep	asleep		1.1.4.1	2261	0		127,m
-13345	370	Bola	tʃa̱p⁵⁵	tʃa̱p⁵⁵	suck (milk)	suck (milk)		1.3.2.1	2262	0		5541
-13346	370	Bola	ti̱³⁵	ti̱³⁵	speak	speak		8.5.10.1	2263	0		
-13347	370	Bola	ʃɿ⁵⁵	ʃɿ⁵⁵	die	die		1.1.6	2265	0		27
-13348	370	Bola	mjauŋ³¹	mjauŋ³¹	sore (leg)	sore (leg)		1.1.5.1	2270	0		
-13349	370	Bola	na⁵⁵	na⁵⁵	ache	ache		1.1.5.1	2291	0		160
-13350	370	Bola	jaʔ³¹	jaʔ³¹	lick	lick		1.3.3.1	2301	0		629
-13351	370	Bola	tui⁵⁵	tui⁵⁵	beat (pulse)	beat (pulse)		6.8	2307	0		
-13352	370	Bola	kja³¹	kja³¹	listen	listen		1.2.7.4	2309	0		1411
-13353	370	Bola	ɣə̆³¹ kja³¹	ɣə̆³¹ kja³¹	hear	hear		1.2.7.4	2310	0		m,1411
-13354	370	Bola	mjuŋ⁵⁵	mjuŋ⁵⁵	swallow	swallow	v	1.3.5.6	2316	0		
-13355	370	Bola	pʰø³⁵	pʰø³⁵	spit	spit		1.8.3	2320	0		
-13356	370	Bola	nɛ̃⁵⁵	nɛ̃⁵⁵	smell (with nose)	smell (with nose)		1.2.8.5	2346	0		1415
-13357	370	Bola	saʔ⁵⁵ ta̱u³⁵ ʃɛ⁵⁵	saʔ⁵⁵ ta̱u³⁵ ʃɛ⁵⁵	inhale, breath	inhale, breath		1.1.2.2	2352	0		32,m,m
-13358	370	Bola	tʃɔt³¹	tʃɔt³¹	blind	blind		1.2.6.14.2	2360	0		1401
-13359	370	Bola	a̱p⁵⁵	a̱p⁵⁵	birth, give (of pig)	birth, give  (of pig)		1.1.2	2362	0		
-13360	370	Bola	kʰja³⁵	kʰja³⁵	lay egg	lay egg		6.17	2363	0		3489
-13361	370	Bola	jø̃⁵⁵	jø̃⁵⁵	recede (boil)	recede (boil)		6.7.1	2378	0		
-13362	370	Bola	ɣəi⁵⁵	ɣəi⁵⁵	laugh	laugh		1.8.8.1	2380	0		1108
-13363	370	Bola	ʃɔn⁵⁵	ʃɔn⁵⁵	diarrhea	diarrhea		1.8.5	2383	0		
-13364	370	Bola	kʰju³⁵	kʰju³⁵	blow nose	blow nose		1.3.1.4	2385	0		
-13365	370	Bola	pɔn³¹	pɔn³¹	wake	wake		1.1.4	2386	0		151
-13366	370	Bola	na³¹	na³¹	rest	rest		1.1.4.1	2387	0		84
-13367	370	Bola	ja̱uŋ³⁵	ja̱uŋ³⁵	caponize	caponize		2.4.1	2396	0		m
-13368	370	Bola	pʰɔn³⁵	pʰɔn³⁵	itch	itch		1.6.5.5	2400	0		m
-13369	370	Bola	pɛ̃³¹	pɛ̃³¹	bitten	bitten	be v.	1.3.4.4	2404	0		
-13370	370	Bola	pɛ̃³¹	pɛ̃³¹	bite	bite		1.3.4.4	2405	0		1774
-13371	370	Bola	pɛ̃³¹ tsaŋ⁵⁵	pɛ̃³¹ tsaŋ⁵⁵	bite hold of	bite hold of		1.3.4.4	2406	0		1774,m
-13372	370	Bola	fɔn³⁵	fɔn³⁵	dizzy	dizzy		8.3.1.11.3	2430	0		
-13373	370	Bola	lap³¹	lap³¹	blink	blink		1.2.6.12	2442	0		m
-13374	370	Bola	xa³⁵	xa³⁵	open (mouth)	open (mouth)		6.2.2.6.1	2450	0		
-13375	370	Bola	kɔ̱³⁵	kɔ̱³⁵	grow (up)	grow (up)		9.7.2	2451	0		
-13376	370	Bola	ta̱ŋ³⁵	ta̱ŋ³⁵	bloat (belly)	bloat (belly)		1.4.7	2453	0		
-13377	370	Bola	saŋ³¹ tui⁵⁵	saŋ³¹ tui⁵⁵	nervous	nervous		8.3.1.5.5	2455	0		
-13378	370	Bola	pɛ̱ʔ⁵⁵	pɛ̱ʔ⁵⁵	sting	sting	v	2.4.2	2460	0		
-13379	370	Bola	ɣɛ̃³⁵	ɣɛ̃³⁵	swell up	swell up		1.1.5.2	2472	0		
-13380	370	Bola	jɔt³¹	jɔt³¹	drunk	drunk		1.3.5.9	2497	0		
-145810	370	Bola	laʔ³¹ mɔ̱n³⁵ tʃʰɔ̃³⁵ tʰauŋ³¹	laʔ³¹ mɔ̱n³⁵ tʃʰɔ̃³⁵ tʰauŋ³¹	elbow	elbow		1.5.8.3	129	0		695,m,m,439
-145811	370	Bola	laʔ³¹ tʰɔ̃³⁵ ŋju̱ŋ³⁵ jɔ̃³¹ pai³¹	laʔ³¹ tʰɔ̃³⁵ ŋju̱ŋ³⁵ jɔ̃³¹ pai³¹	ring finger	ring finger		1.5.6.2	136	0		695,m,m,m,m
-150129	370	Bola	tshɛ̃⁵⁵nak⁵⁵	tshɛ̃⁵⁵nak⁵⁵	braid (hair)	braid (hair)	n	1.2.3.2	98	0		366,2023
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+13111	370	Bola	kauŋ⁵⁵ tɔʔ³¹	kauŋ⁵⁵ tɔʔ³¹	body	body			1.1.1	94	0			1,14
+13112	370	Bola	kʰji⁵⁵ laʔ³¹	kʰji⁵⁵ laʔ³¹	limbs	limbs			1.5.3.1	95	0			
+13113	370	Bola	u̱³⁵ lam³¹	u̱³⁵ lam³¹	head	head			1.2.1	96	0			385,690
+13114	370	Bola	tsʰɛ̃⁵⁵	tsʰɛ̃⁵⁵	hair (head)	hair (head)			1.2.3	97	0			366
+13115	370	Bola	tsʰɛ̃⁵⁵ nak⁵⁵	tsʰɛ̃⁵⁵ nak⁵⁵	braid (hair)	braid (hair)	n	n	1.2.3.2	98	0			366,2023
+13116	370	Bola	ŋə̆³¹ lɔ̃³¹	ŋə̆³¹ lɔ̃³¹	forehead	forehead			1.2.5.1	99	0			356,392
+13117	370	Bola	mjaʔ³¹ ma̱uŋ⁵⁵	mjaʔ³¹ ma̱uŋ⁵⁵	eyebrow	eyebrow			1.2.6.6	100	0			681,363
+13118	370	Bola	mjaʔ³¹	mjaʔ³¹	eye	eye			1.2.6	101	0			681
+13119	370	Bola	mjaʔ³¹ tsʰɛ̃⁵⁵	mjaʔ³¹ tsʰɛ̃⁵⁵	eyelash	eyelash			1.2.6.5	102	0			681,366
+13120	370	Bola	na̱⁵⁵	na̱⁵⁵	nose	nose			1.2.8	103	0			803
+13121	370	Bola	nə̆³¹ kʰjɛʔ⁵⁵	nə̆³¹ kʰjɛʔ⁵⁵	ear	ear			1.2.7	104	0			811,823
+13122	370	Bola	mjaʔ³¹ tuŋ³¹	mjaʔ³¹ tuŋ³¹	face	face			1.2.5	105	0			681,2031
+13123	370	Bola	nə̆³¹ kɛ̱̃⁵⁵	nə̆³¹ kɛ̱̃⁵⁵	cheek	cheek			1.2.5.2	106	0			p,262
+13124	370	Bola	nɔ̱t⁵⁵	nɔ̱t⁵⁵	mouth	mouth			1.3.1	107	0			471
+13125	370	Bola	nɔ̱t⁵⁵ ka̱uʔ	nɔ̱t⁵⁵ ka̱uʔ	lip	lip			1.3.2	108	0			471,586
+13126	370	Bola	nɔ̱t⁵⁵ mø³¹	nɔ̱t⁵⁵ mø³¹	beard	beard			1.2.5.5	109	0			471,363
+13127	370	Bola	nɔ̱t⁵⁵ mø³¹	nɔ̱t⁵⁵ mø³¹	whiskers	whiskers			1.2.5.5	110	0			471,363
+13128	370	Bola	ɛ̃⁵⁵ tʰɔ̃⁵⁵	ɛ̃⁵⁵ tʰɔ̃⁵⁵	lower jaw, chin	lower jaw, chin				111	0			m,m
+13129	370	Bola	laŋ⁵⁵ taŋ³¹	laŋ⁵⁵ taŋ³¹	neck	neck			1.4.2	112	0			479,255
+13130	370	Bola	laŋ⁵⁵ kʰauŋ³⁵	laŋ⁵⁵ kʰauŋ³⁵	nape	nape			1.4.2.1	113	0			
+13131	370	Bola	laʔ³¹ sɛ̃⁵⁵	laʔ³¹ sɛ̃⁵⁵	shoulder	shoulder			1.4.3	114	0			695,3348
+13132	370	Bola	kauŋ⁵⁵ tɔ̱̃³⁵	kauŋ⁵⁵ tɔ̱̃³⁵	back (body)	back (body)			1.4.8	115	0			1,225
+13133	370	Bola	laʔ³¹ tʃʰɛʔ⁵⁵	laʔ³¹ tʃʰɛʔ⁵⁵	armpit	armpit			1.5.1.2.3	116	0			
+13134	370	Bola	ɣɔ⁵⁵ kɔ̃⁵⁵	ɣɔ⁵⁵ kɔ̃⁵⁵	chest	chest			1.4.4.3	117	0			288,2000
+13135	370	Bola	nau³⁵	nau³⁵	breast	breast			1.4.4.3	118	0			253
+13136	370	Bola	vɛ³¹ tau³¹	vɛ³¹ tau³¹	belly	belly			1.4.7	119	0			137,m
+13137	370	Bola	tʃʰaʔ⁵⁵	tʃʰaʔ⁵⁵	navel	navel			1.9.4	120	0			525
+13138	370	Bola	pʰi³¹ tam³¹	pʰi³¹ tam³¹	waist	waist			1.4.6	121	0			1361,1362
+13139	370	Bola	tʃʰauʔ⁵⁵ pauŋ⁵⁵	tʃʰauʔ⁵⁵ pauŋ⁵⁵	buttocks	buttocks			1.4.10	122	0			215,404
+13140	370	Bola	tɔ̱̃³⁵ pau³¹	tɔ̱̃³⁵ pau³¹	thigh	thigh			1.5.7.1	123	0			
+13141	370	Bola	pɔ̱t⁵⁵ lauʔ⁵⁵	pɔ̱t⁵⁵ lauʔ⁵⁵	knee	knee			1.5.8.4	124	0			436,m
+13142	370	Bola	kʰji⁵⁵ pu̱³¹	kʰji⁵⁵ pu̱³¹	calf	calf			1.5.7	125	0			
+13143	370	Bola	kʰji⁵⁵	kʰji⁵⁵	foot	foot			1.5.2	126	0			335
+13144	370	Bola	kʰji⁵⁵ tʃʰɛʔ⁵⁵	kʰji⁵⁵ tʃʰɛʔ⁵⁵	heel	heel			1.5.2.1	127	0			
+13145	370	Bola	laʔ³¹ pu³⁵	laʔ³¹ pu³⁵	arm	arm			1.5.1.2	128	0			695,1327
+13147	370	Bola	laʔ³¹	laʔ³¹	hand	hand			1.5.1.1	130	0			695
+13148	370	Bola	laʔ³¹ jɔn³¹	laʔ³¹ jɔn³¹	wrist	wrist			1.5.8.1	131	0			695,m
+13149	370	Bola	laʔ³¹ ŋju̱ŋ³⁵	laʔ³¹ ŋju̱ŋ³⁵	finger	finger			1.5.6	132	0			695,320
+13150	370	Bola	laʔ³¹ ma³⁵ tʃʰɛ̃³¹	laʔ³¹ ma³⁵ tʃʰɛ̃³¹	thumb	thumb			1.5.6.1	133	0			
+13151	370	Bola	tɔ̱n³⁵ ŋju̱ŋ³⁵	tɔ̱n³⁵ ŋju̱ŋ³⁵	index finger	index finger			1.0	134	0			m,320
+13152	370	Bola	kauŋ³¹ kauŋ⁵⁵ ŋju̱ŋ³⁵	kauŋ³¹ kauŋ⁵⁵ ŋju̱ŋ³⁵	middle finger	middle finger			1.9.4	135	0			
+13154	370	Bola	laʔ³¹ tʰɔ̃³⁵ ŋju̱ŋ³⁵	laʔ³¹ tʰɔ̃³⁵ ŋju̱ŋ³⁵	little finger	little finger			9.7.2	137	0			695,m,m
+13155	370	Bola	laʔ³¹ saŋ³⁵	laʔ³¹ saŋ³⁵	fingernail	fingernail			1.5.10.1	138	0			
+13156	370	Bola	laʔ³¹ tsa̱p⁵⁵	laʔ³¹ tsa̱p⁵⁵	fist	fist			1.5.1.1.1	139	0			695,86
+13157	370	Bola	tʃʰauʔ⁵⁵	tʃʰauʔ⁵⁵	anus	anus			1.4.10.2	140	0			m
+13158	370	Bola	ŋji̱³⁵	ŋji̱³⁵	penis	penis				141	0			545
+13159	370	Bola	ŋji̱³⁵ tʃɿ³⁵	ŋji̱³⁵ tʃɿ³⁵	testicles	testicles				142	0			545,3559
+13160	370	Bola	tʃauʔ³¹	tʃauʔ³¹	vagina	vagina				143	0			1356
+13161	370	Bola	ŋji⁵⁵ tʃʰɔ̃³⁵	ŋji⁵⁵ tʃʰɔ̃³⁵	placenta	placenta				144	0			m,1615
+13162	370	Bola	tʃʰaʔ⁵⁵	tʃʰaʔ⁵⁵	umbilical cord	umbilical cord				145	0			525
+13163	370	Bola	tʃauʔ³¹ tui⁵⁵	tʃauʔ³¹ tui⁵⁵	womb	womb				146	0			679,m
+13164	370	Bola	ʃă³⁵ ka̱uʔ⁵⁵	ʃă³⁵ ka̱uʔ⁵⁵	skin	skin			1.6.5	147	0			34,586
+13165	370	Bola	mə̆³¹ va³¹	mə̆³¹ va³¹	hemorrhoids	hemorrhoids			1.4.10.2	149	0			
+13166	370	Bola	pjaŋ⁵⁵	pjaŋ⁵⁵	sore, ulcer	sore, ulcer			1.1.5.1	150	0			
+13167	370	Bola	tɛ̃⁵⁵ kʰo⁵⁵	tɛ̃⁵⁵ kʰo⁵⁵	scar	scar			1.6.5.3	151	0			
+13168	370	Bola	ʃă³⁵ taʔ⁵⁵	ʃă³⁵ taʔ⁵⁵	ringworm	ringworm			2.2.6	153	0			
+13169	370	Bola	ʃa³⁵	ʃa³⁵	flesh	flesh			1.1.1.1	154	0			34
+13170	370	Bola	sui³⁵	sui³⁵	blood	blood			1.6.2	155	0			230
+13171	370	Bola	ʃă³⁵ kji³¹	ʃă³⁵ kji³¹	muscle	muscle			1.6.6.2	156	0			34,372
+13172	370	Bola	sui³⁵ tʃʰa⁵⁵	sui³⁵ tʃʰa⁵⁵	pulse	pulse			1.7.1.1	157	0			m,530
+13173	370	Bola	ŭ³¹ nauʔ⁵⁵	ŭ³¹ nauʔ⁵⁵	brain	brain			1.2.4	158	0			385,243
+13174	370	Bola	ʃă³⁵|u³¹	ʃă³⁵|u³¹	bone	bone			1.6.3	159	0			234
+13175	370	Bola	nɛ̃⁵⁵ tʃʰɛ̃³⁵	nɛ̃⁵⁵ tʃʰɛ̃³⁵	rib	rib			1.4.4.3	161	0			553,m
+13176	370	Bola	u³¹ tsʰaʔ⁵⁵	u³¹ tsʰaʔ⁵⁵	joint	joint			1.5.8	162	0			m,418
+13177	370	Bola	tui⁵⁵	tui⁵⁵	tooth	tooth			1.3.4	163	0			635
+13178	370	Bola	ŋɛ⁵⁵	ŋɛ⁵⁵	gums	gums			1.3.4.3	164	0			504
+13179	370	Bola	ʃa⁵⁵	ʃa⁵⁵	tongue	tongue			1.3.3	165	0			623
+13180	370	Bola	kʰjauŋ³¹ tui⁵⁵	kʰjauŋ³¹ tui⁵⁵	uvula	uvula			1.3.5.1	166	0			
+13181	370	Bola	tʰaʔ⁵⁵ ɛ̃⁵⁵	tʰaʔ⁵⁵ ɛ̃⁵⁵	palate	palate			1.3.1.1	167	0			1719,m
+13182	370	Bola	kʰjauŋ³⁵	kʰjauŋ³⁵	throat	throat			1.3.5	168	0		D1	489
+13183	370	Bola	kʰjauŋ³⁵	kʰjauŋ³⁵	throat	throat			1.3.5	169	0	jbl5	HIDE	DUPE IN SOURCE
+13184	370	Bola	tsɔ̱t⁵⁵	tsɔ̱t⁵⁵	lungs	lungs			1.7.2	171	0			
+13185	370	Bola	na̱k⁵⁵ lam³¹	na̱k⁵⁵ lam³¹	heart	heart			1.7.1	172	0			1385,1381
+13186	370	Bola	saŋ³⁵	saŋ³⁵	liver	liver			1.7.3	173	0			1390
+13187	370	Bola	tʃɔn³⁵ lam³¹	tʃɔn³⁵ lam³¹	kidneys	kidneys			1.7.5	174	0			
+13188	370	Bola	ku̱m³⁵ pa̱i³¹	ku̱m³⁵ pa̱i³¹	spleen	spleen			1.7.4	175	0			bJingpho
+13189	370	Bola	kji̱⁵⁵	kji̱⁵⁵	gall bladder	gall bladder			1.7.3	177	0			227
+13190	370	Bola	u⁵⁵	u⁵⁵	intestines	intestines			1.7.7	178	0			2102
+13191	370	Bola	tʃɔt³¹ pauŋ³¹	tʃɔt³¹ pauŋ³¹	bladder	bladder			1.7.8	179	0			650,778
+13192	370	Bola	kʰji³⁵	kʰji³⁵	feces	feces			1.8.5	180	0			572
+13193	370	Bola	i̱³⁵	i̱³⁵	urine	urine			1.8.4	181	0			650
+13194	370	Bola	kʰji³⁵	kʰji³⁵	fart	fart			1.8.5.2	182	0			572
+13195	370	Bola	pau³¹ kjø̱³⁵	pau³¹ kjø̱³⁵	sweat	sweat			1.8.1	183	0			800,615
+13196	370	Bola	kʰjauŋ³⁵ kja̱ʔ⁵⁵	kʰjauŋ³⁵ kja̱ʔ⁵⁵	phlegm	phlegm			1.8.3	184	0			m,540
+13197	370	Bola	kʰə̆³¹ ta̱i³⁵	kʰə̆³¹ ta̱i³⁵	saliva	saliva			1.8.3	185	0			
+13198	370	Bola	nɛ̱ʔ⁵⁵	nɛ̱ʔ⁵⁵	mucus	mucus			1.8.2	186	0			805
+13199	370	Bola	ŋau⁵⁵ pi⁵⁵	ŋau⁵⁵ pi⁵⁵	tears	tears			1.2.6.7	187	0			681,187
+13200	370	Bola	pjaŋ⁵⁵ ɣaŋ³¹	pjaŋ⁵⁵ ɣaŋ³¹	pus	pus			1.8.6.1	188	0			1292,m
+13201	370	Bola	xei³⁵	xei³⁵	body dirt	body dirt			1.8.1.2	189	0			m
+13202	370	Bola	tʰø⁵⁵	tʰø⁵⁵	sound	sound			9.3	190	0			
+13203	370	Bola	saʔ⁵⁵	saʔ⁵⁵	breath	breath			1.1.2.2	191	0			32
+13204	370	Bola	mɔ̃⁵⁵	mɔ̃⁵⁵	corpse	corpse			1.1.6.1	192	0			17
+13205	370	Bola	kɔ̃⁵⁵	kɔ̃⁵⁵	life	life			1.1.2.1	193	0			20
+13206	370	Bola	kɔ̃⁵⁵	kɔ̃⁵⁵	life-span	life-span			1.1.2.1	194	0			20
+13207	370	Bola	mjaʔ³¹ tʃɔt³¹	mjaʔ³¹ tʃɔt³¹	blind person	blind person			1.2.6.14.2	242	0			681,1401
+13208	370	Bola	kʰji⁵⁵ ku̱i⁵⁵	kʰji⁵⁵ ku̱i⁵⁵	lame person	lame person			1.5.12	243	0			
+13209	370	Bola	pju⁵⁵ ŋja̱p⁵⁵	pju⁵⁵ ŋja̱p⁵⁵	dwarf	dwarf			4.2.7	244	0			
+13210	370	Bola	nə̆³¹ tʃɔt³¹	nə̆³¹ tʃɔt³¹	deaf person	deaf person			1.2.7.5	245	0			
+13211	370	Bola	ŭ̱³⁵ kɔŋ³¹	ŭ̱³⁵ kɔŋ³¹	bald person	bald person			1.2.3.4	246	0			385,m
+13212	370	Bola	mjaʔ³¹ ʃaʔ⁵⁵	mjaʔ³¹ ʃaʔ⁵⁵	pock-marked person	pock-marked person			4.5	247	0			
+13213	370	Bola	pju⁵⁵ tɔ̃⁵⁵ kuŋ³⁵	pju⁵⁵ tɔ̃⁵⁵ kuŋ³⁵	hunchback	hunchback			1.4.8.3	248	0			m,225,m
+13214	370	Bola	pju⁵⁵ ka⁵⁵	pju⁵⁵ ka⁵⁵	idiot	idiot			4.2.12.3	249	0			
+13215	370	Bola	pju⁵⁵ na³¹	pju⁵⁵ na³¹	lunatic	lunatic			8.3	250	0			
+13216	370	Bola	a⁵⁵ tu̱i³¹	a⁵⁵ tu̱i³¹	stutterer	stutterer			8.5.4.5	251	0			
+13217	370	Bola	nɔ̱t⁵⁵ tsɔt³¹	nɔ̱t⁵⁵ tsɔt³¹	dumb person	dumb person			8.5.4.4	252	0			
+13218	370	Bola	mjaʔ³¹ tɛ̱³⁵ tɛʔ⁵⁵	mjaʔ³¹ tɛ̱³⁵ tɛʔ⁵⁵	one-eyed person	one-eyed person			9.9	253	0			
+13219	370	Bola	nŏ³¹ nau³⁵	nŏ³¹ nau³⁵	milk (cow's)	milk (cow's)				311	0			2538,253
+13220	370	Bola	nɔ̆³¹ kʰji³⁵	nɔ̆³¹ kʰji³⁵	excrement (cow)	excrement (cow)			1.8.5	312	0			m,572
+13221	370	Bola	kʰju⁵⁵	kʰju⁵⁵	horn	horn			1.2.2	313	0			819
+13222	370	Bola	kʰji⁵⁵ saŋ³⁵	kʰji⁵⁵ saŋ³⁵	hoof	hoof			1.5.4	314	0			335,m
+13223	370	Bola	ʃă³⁵ ka̱uʔ⁵⁵	ʃă³⁵ ka̱uʔ⁵⁵	skin (human or animal)	skin (human or animal)			1.6.5	315	0			34,586
+13224	370	Bola	ʃă³⁵ mau³⁵	ʃă³⁵ mau³⁵	hair (animal)	hair (animal)			1.2.3	316	0			34,m
+13225	370	Bola	ʃă³⁵ mi³¹	ʃă³⁵ mi³¹	tail	tail			1.4.10.1	317	0			34,1288
+13226	370	Bola	ma³¹ tsuŋ³¹	ma³¹ tsuŋ³¹	mane (horse)	mane (horse)			1.6.1	322	0			1431,370
+13227	370	Bola	tʃʰɔt⁵⁵ pɛʔ⁵⁵ mau³⁵	tʃʰɔt⁵⁵ pɛʔ⁵⁵ mau³⁵	wool	wool			1.6.1.3	328	0			1226,m,363
+13228	370	Bola	ɣaʔ³¹ tʃaʔ³¹ pjɛn³¹	ɣaʔ³¹ tʃaʔ³¹ pjɛn³¹	cockscomb	cockscomb			1.2.2.1	346	0			1606,m,2016
+13229	370	Bola	tauŋ⁵⁵	tauŋ⁵⁵	wing	wing			1.5.1.3	347	0			711
+13230	370	Bola	a³¹ mau³⁵	a³¹ mau³⁵	feathers	feathers			1.6.1.1	348	0			m,b
+13231	370	Bola	la̱ʔ³¹ saŋ³⁵	la̱ʔ³¹ saŋ³⁵	paw	paw			1.5.4	356	0			
+13232	370	Bola	tsʰɔ̃⁵⁵ tui⁵⁵	tsʰɔ̃⁵⁵ tui⁵⁵	tusk (of elephant)	tusk (of elephant)			1.3.4.1	359	0			2731,635
+13233	370	Bola	ʃə³¹ ʃaŋ³⁵	ʃə³¹ ʃaŋ³⁵	musk (scent)	musk (scent)			1.5.3.2	367	0			
+13234	370	Bola	ŋa̱ʔ⁵⁵ sɔt⁵⁵	ŋa̱ʔ⁵⁵ sɔt⁵⁵	bird's nest	bird's nest			2.2.4	380	0			3442,679
+13235	370	Bola	ŋə̆³¹ kjɛ̱ʔ⁵⁵	ŋə̆³¹ kjɛ̱ʔ⁵⁵	scales (fish)	scales (fish)			1.6.5.2	409	0			1455,596
+13236	370	Bola	kɔ̃³¹ mja̱³⁵ sɔt⁵⁵	kɔ̃³¹ mja̱³⁵ sɔt⁵⁵	spider's web	spider's web			2.2.6	423	0			5400,m,m
+13237	370	Bola	ʃa³⁵	ʃa³⁵	meat	meat			1.1.1.1	554	0			34
+13238	370	Bola	ʃă³⁵ tsʰu⁵⁵	ʃă³⁵ tsʰu⁵⁵	fatty meat	fatty meat			1.6.4	558	0			34,42
+13239	370	Bola	ʃă³⁵ kai⁵⁵	ʃă³⁵ kai⁵⁵	lean meat	lean meat			1.1.1	559	0			34,49
+13240	370	Bola	tsʰu⁵⁵	tsʰu⁵⁵	animal oil	animal oil			2.3	560	0			42
+13241	370	Bola	u̱³⁵	u̱³⁵	egg	egg				573	0			301
+13242	370	Bola	ɣaʔ³¹ u̱³⁵	ɣaʔ³¹ u̱³⁵	chicken egg	chicken egg			2.1.10	574	0			1606,301
+13243	370	Bola	pjɛ̱t⁵⁵ u̱³⁵	pjɛ̱t⁵⁵ u̱³⁵	duck egg	duck egg			2.1.10	575	0			m,301
+13244	370	Bola	jui⁵⁵	jui⁵⁵	god	god			5.8.1.1	937	0			
+13245	370	Bola	jui⁵⁵	jui⁵⁵	ghost	ghost			4.2.12.2	938	0			
+13246	370	Bola	ɣam³¹	ɣam³¹	strength	strength			1.1.5	961	0			1842
+13247	370	Bola	ŋji⁵⁵ jɛʔ⁵⁵	ŋji⁵⁵ jɛʔ⁵⁵	life	life			1.1.2.1	976	0			85,71
+13248	370	Bola	ɣap³¹ ta³¹	ɣap³¹ ta³¹	shadow	shadow			3.2.10	1008	0			
+13249	370	Bola	ja̱p⁵⁵ ma̱ʔ⁵⁵	ja̱p⁵⁵ ma̱ʔ⁵⁵	dream	dream			1.1.4.2	1009	0			127,126
+13250	370	Bola	kauŋ³¹ kauŋ⁵⁵	kauŋ³¹ kauŋ⁵⁵	center	center			1.9.4	1021	0			m,m
+13251	370	Bola	a³¹ jɛ̃⁵⁵	a³¹ jɛ̃⁵⁵	side	side			1.4.5	1022	0			
+13252	370	Bola	laʔ³¹ ka̱uŋ³⁵	laʔ³¹ ka̱uŋ³⁵	left	left			1.5.3.2	1023	0			695,m
+13253	370	Bola	laʔ³¹ ja⁵⁵	laʔ³¹ ja⁵⁵	right	right			1.5.3.2	1024	0			695,2786
+13254	370	Bola	xəi³⁵ kʰja⁵⁵	xəi³⁵ kʰja⁵⁵	front	front			1.4.4	1025	0			1214,m
+13255	370	Bola	tʰɔ̃⁵⁵ kʰja⁵⁵	tʰɔ̃⁵⁵ kʰja⁵⁵	back	back			1.4.8	1026	0			225,213
+13256	370	Bola	ŋa̱m³⁵	ŋa̱m³⁵	bald	bald			1.2.3.4	1392	0			m
+13257	370	Bola	ŋja̱uŋ⁵⁵	ŋja̱uŋ⁵⁵	wrinkled	wrinkled			9.6.2	1394	0			
+13258	370	Bola	tsʰu⁵⁵	tsʰu⁵⁵	fat (person)	fat (person)			1.6.4	1428	0			42
+13259	370	Bola	tsʰu⁵⁵	tsʰu⁵⁵	fat (pig)	fat (pig)			1.6.4	1429	0			42
+13260	370	Bola	kji³⁵	kji³⁵	thin (person)	thin (person)			9.7.2	1431	0			
+13261	370	Bola	a³¹ tui⁵⁵	a³¹ tui⁵⁵	alive	alive			1.1.2.1	1505	0			p,72
+13262	370	Bola	ʃɿ⁵⁵ ku³¹	ʃɿ⁵⁵ ku³¹	dead	dead			1.1.6	1506	0			27,m
+13263	370	Bola	kji³¹	kji³¹	full (from eating)	full (from eating)			1.1.3.2	1598	0			112
+13264	370	Bola	mi̱³⁵	mi̱³⁵	close (mouth)	close (mouth)			6.2.2.6.2	1609	0			31
+13265	370	Bola	na⁵⁵	na⁵⁵	sick	sick			1.1.5.1	1619	0			160
+13266	370	Bola	ta³¹	ta³¹	eat	eat			1.5.3.2	1662	0			36
+13267	370	Bola	tɛ̱ʔ⁵⁵	tɛ̱ʔ⁵⁵	transmit, infect	transmit, infect	v.t.	v.t.	6.2.2.2	1686	0			
+13268	370	Bola	tɛʔ³¹	tɛʔ³¹	infected	infected	be v.	be v.	1.1.5.1	1687	0			
+13269	370	Bola	mɔt³¹	mɔt³¹	blow (trumpet)	blow (trumpet)			1.3.1.4	1688	0			503
+13270	370	Bola	mɔt³¹	mɔt³¹	blow (dust)	blow (dust)			1.3.1.4	1689	0			503
+13271	370	Bola	ʃɛ⁵⁵	ʃɛ⁵⁵	gasp, pant	gasp, pant	v	v	1.1.2.2	1692	0			32
+13272	370	Bola	a³¹ |tʃʰu⁵¹ |tʃʰu³¹	a³¹ tʃʰu⁵¹ tʃʰu³¹	sneeze	sneeze			1.8.2.1	1720	0			2131
+13273	370	Bola	ja̱p⁵⁵ ŋø̱³⁵ ŋø̱³¹	ja̱p⁵⁵ ŋø̱³⁵ ŋø̱³¹	nap (take)	nap (take)	v	v	6.21	1721	0			
+13274	370	Bola	a³¹ xam⁵¹ xam³¹	a³¹ xam⁵¹ xam³¹	yawn	yawn			1.3.1.3	1723	0			p,1715,1715
+13275	370	Bola	a³¹ jə̱k⁵⁵ tʰauŋ³⁵	a³¹ jə̱k⁵⁵ tʰauŋ³⁵	hiccup / belch	hiccup  /  belch			1.8.3.5	1724	0	jbl3		p,3443,m
+13276	370	Bola	ja̱p⁵⁵ kʰɔʔ⁵⁵ kʰɔʔ³¹	ja̱p⁵⁵ kʰɔʔ⁵⁵ kʰɔʔ³¹	snore	snore			1.8.2.2	1725	0			127,m,m
+13277	370	Bola	tin³⁵	tin³⁵	bite, sting (mosquito)	bite, sting (mosquito)			1.3.4.4	1766	0			b?
+13278	370	Bola	ŋɛ̱ʔ⁵⁵	ŋɛ̱ʔ⁵⁵	read (book)	read (book)			6.2.2.9.3	1776	0			
+13279	370	Bola	saʔ⁵⁵ tʰɔ³⁵	saʔ⁵⁵ tʰɔ³⁵	die (breath one's last)	die (breath one's last)			9.9	1781	0			32,23
+13280	370	Bola	vɛ̃³¹ møʔ⁵⁵	vɛ̃³¹ møʔ⁵⁵	hungry	hungry			1.1.3	1792	0			m,99
+13281	370	Bola	nɛ̃35	nɛ̃35	tremble	tremble			6.7.3	1798	0			
+13282	370	Bola	lauŋ⁵⁵	lauŋ⁵⁵	fever	fever			1.1.5.1	1800	0			
+13283	370	Bola	kʰji³⁵ tʃɔt³¹	kʰji³⁵ tʃɔt³¹	fart	fart			1.8.5.2	1820	0			572,m
+13284	370	Bola	tɔ̃³¹	tɔ̃³¹	fly	fly			2.2.6	1826	0			
+13285	370	Bola	na³¹	na³¹	insane	insane			8.3.1.11.3	1832	0			
+13286	370	Bola	ɣaʔ³¹ a̱p⁵⁵	ɣaʔ³¹ a̱p⁵⁵	incubate	incubate			1.9.1.2	1834	0			1606,2767
+13287	370	Bola	fɛ³⁵	fɛ³⁵	swallow dry	swallow dry			1.3.5.6	1843	0			3298
+13288	370	Bola	tʰə³¹ mui³¹ na⁵⁵	tʰə³¹ mui³¹ na⁵⁵	cold (have)	cold (have)	v	v	7.1.2.3	1844	0			
+13289	370	Bola	jɔ̃⁵⁵	jɔ̃⁵⁵	call (to a meeting)	call (to a meeting)			8.5.13	1892	0			
+13290	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	call (animal to come)	call (animal to come)			8.5.13	1893	0			
+13291	370	Bola	ʃauʔ⁵⁵	ʃauʔ⁵⁵	drink	drink				1895	0			3462
+13292	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	hum	hum			8.5.5	1901.1	0			
+13293	370	Bola	na⁵⁵ kja̱ŋ³¹ kja̱ŋ³⁵	na⁵⁵ kja̱ŋ³¹ kja̱ŋ³⁵	hum	hum			8.5.5	1902.2	0			
+13294	370	Bola	fən³¹ fan³¹	fən³¹ fan³¹	dim, blurry (eyesight)	dim, blurry (eyesight)			1.2.6.10	1906	0			
+13295	370	Bola	vɛ̃³¹ pɔt⁵⁵	vɛ̃³¹ pɔt⁵⁵	pregnant	pregnant			1.9.6.1	1912	0			137,1855
+13296	370	Bola	jɔ̃⁵⁵	jɔ̃⁵⁵	call (to animal)	call (to animal)			8.5.13	1917	0			
+13297	370	Bola	tui⁵⁵	tui⁵⁵	alive	alive			1.1.2.1	1934	0			72
+13298	370	Bola	kʰai⁵⁵	kʰai⁵⁵	tell (story)	tell (story)			1.8.7	1965	0			1753
+13299	370	Bola	va³¹	va³¹	chew	chew			1.3.4	1971	0			688
+13300	370	Bola	tɔ̱n⁵⁵	tɔ̱n⁵⁵	crow (rooster)	crow (rooster)			2.2.4.1	1972	0			
+13301	370	Bola	kʰɔ³⁵	kʰɔ³⁵	cackle (hen)	cackle (hen)			8.5.5	1973	0			
+13302	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	call (cat)	call (cat)			8.5.13	1974	0			o
+13303	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	bray (donkey)	bray (donkey)			8.5.4.1	1975	0			w
+13304	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	neigh (horse)	neigh (horse)			8.5.5	1976	0			
+13305	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	call (cow)	call (cow)			8.5.13	1977	0			
+13306	370	Bola	ɣɛʔ³¹	ɣɛʔ³¹	bark (dog)	bark (dog)			2.1.11.1	1978	0			
+13307	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	grunt (pig)	grunt (pig)			2.1.11.1	1979	0			o
+13308	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	call (sheep)	call (sheep)			8.5.13	1980	0			
+13309	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	roar (tiger)	roar (tiger)			8.5.5	1981	0			o
+13310	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	roar (lion)	roar (lion)			8.5.5	1982	0			o
+13311	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	howl (wolf)	howl (wolf)			8.5.5	1983	0			
+13312	370	Bola	jɔ̃⁵⁵	jɔ̃⁵⁵	call (name)	call (name)			8.5.13	1984	0			
+13313	370	Bola	pʰuŋ³⁵	pʰuŋ³⁵	open	open			6.2.2.6.1	2020	0			5704
+13314	370	Bola	u³⁵	u³⁵	look at	look at			1.2.6.11	2028	0			m
+13315	370	Bola	mjɔ̃⁵⁵	mjɔ̃⁵⁵	see	see			1.2.6.10	2030	0			1227
+13316	370	Bola	kʰjauŋ³⁵ ta̱u³¹ ta̱u³¹	kʰjauŋ³⁵ ta̱u³¹ ta̱u³¹	cough	cough			1.8.3.3	2038	0			
+13317	370	Bola	kʰjauŋ³⁵ fɛ³⁵	kʰjauŋ³⁵ fɛ³⁵	thirsty	thirsty			1.1.3.1	2039	0			1825,3298
+13318	370	Bola	kʰai³⁵	kʰai³⁵	gnaw	gnaw			1.3.4.4	2042	0			
+13319	370	Bola	ŋau⁵⁵	ŋau⁵⁵	cry	cry			1.8.8.2	2045	0			1104
+13320	370	Bola	ja̱p⁵⁵ nau⁵⁵	ja̱p⁵⁵ nau⁵⁵	tired, sleepy	tired, sleepy			9.6.2.2	2051	0			127,129
+13321	370	Bola	vɛ̃³¹ ʃɔn⁵⁵	vɛ̃³¹ ʃɔn⁵⁵	defecate	defecate			1.8.5.4	2053	0			
+13322	370	Bola	mjauŋ³¹	mjauŋ³¹	tired	tired			9.6.2.2	2061	0			
+13323	370	Bola	tʃɔt³¹	tʃɔt³¹	deaf	deaf			1.2.7.5	2081	0			m
+13324	370	Bola	pjaŋ⁵⁵	pjaŋ⁵⁵	numb	numb			1.5.11	2086	0			
+13325	370	Bola	pjaŋ³⁵	pjaŋ³⁵	fill up	fill up	v.i.	v.i.	6.11	2088	0			
+13326	370	Bola	ja̱p⁵⁵ maʔ⁵⁵ maʔ⁵⁵	ja̱p⁵⁵ maʔ⁵⁵ maʔ⁵⁵	dream	dream			1.1.4.2	2092	0			127,126,126
+13327	370	Bola	pju̱³⁵	pju̱³⁵	narrow eyes; squint	narrow eyes; squint			9.7.2	2100	0			
+13328	370	Bola	mjaŋ⁵⁵	mjaŋ⁵⁵	call (bird)	call (bird)			8.5.13	2101	0			
+13329	370	Bola	tauʔ³¹	tauʔ³¹	vomit	vomit			1.8.3.2	2117	0			601
+13330	370	Bola	tu̱⁵⁵	tu̱⁵⁵	raise (tail)	raise (tail)			6.7.7	2163	0			
+13331	370	Bola	kai⁵⁵	kai⁵⁵	cured (illness)	cured (illness)	be v.	be v.	1.1.5.1	2174	0			
+13332	370	Bola	kai⁵⁵	kai⁵⁵	heal (wound)	heal (wound)			1.1.5.1	2175	0			
+13333	370	Bola	ku̱i⁵⁵	ku̱i⁵⁵	crippled	crippled			4.2.7	2177	0			
+13334	370	Bola	kə̆³¹ ʒu³¹	kə̆³¹ ʒu³¹	shout, yell	shout, yell			8.5.4.1	2181	0			
+13335	370	Bola	ta̱k⁵⁵	ta̱k⁵⁵	urinate	urinate			1.5.3.2	2194	0			
+13336	370	Bola	ja̱uŋ³⁵	ja̱uŋ³⁵	castrate	castrate			1.9.2.3	2210	0			m
+13337	370	Bola	la̱i³⁵	la̱i³⁵	hurt, wound	hurt, wound	v	v	1.1.5.1	2211	0			m
+13338	370	Bola	kɛ̱ʔ⁵⁵	kɛ̱ʔ⁵⁵	fatten	fatten			1.6.4	2215	0			m
+13339	370	Bola	jauʔ³¹ la⁵⁵	jauʔ³¹ la⁵⁵	grow up (shengzhang)	grow up (shengzhang)			9.7.2	2224	0			
+13340	370	Bola	jauʔ⁵⁵	jauʔ⁵⁵	grow (boil)	grow (boil)			9.7.2	2226	0			
+13341	370	Bola	ɣa³⁵	ɣa³⁵	birth, give	birth, give	v	v	1.1.2	2227	0			3484
+13342	370	Bola	kji³⁵	kji³⁵	thin	thin	v	v	9.7.2	2249	0			
+13343	370	Bola	ja̱p⁵⁵	ja̱p⁵⁵	sleep	sleep			1.1.4.1	2259	0			127
+13344	370	Bola	ja̱p⁵⁵ ta̱³⁵	ja̱p⁵⁵ ta̱³⁵	asleep	asleep			1.1.4.1	2261	0			127,m
+13345	370	Bola	tʃa̱p⁵⁵	tʃa̱p⁵⁵	suck (milk)	suck (milk)			1.3.2.1	2262	0			5541
+13346	370	Bola	ti̱³⁵	ti̱³⁵	speak	speak			8.5.10.1	2263	0			
+13347	370	Bola	ʃɿ⁵⁵	ʃɿ⁵⁵	die	die			1.1.6	2265	0			27
+13348	370	Bola	mjauŋ³¹	mjauŋ³¹	sore (leg)	sore (leg)			1.1.5.1	2270	0			
+13349	370	Bola	na⁵⁵	na⁵⁵	ache	ache			1.1.5.1	2291	0			160
+13350	370	Bola	jaʔ³¹	jaʔ³¹	lick	lick			1.3.3.1	2301	0			629
+13351	370	Bola	tui⁵⁵	tui⁵⁵	beat (pulse)	beat (pulse)			6.8	2307	0			
+13352	370	Bola	kja³¹	kja³¹	listen	listen			1.2.7.4	2309	0			1411
+13353	370	Bola	ɣə̆³¹ kja³¹	ɣə̆³¹ kja³¹	hear	hear			1.2.7.4	2310	0			m,1411
+13354	370	Bola	mjuŋ⁵⁵	mjuŋ⁵⁵	swallow	swallow	v	v	1.3.5.6	2316	0			
+13355	370	Bola	pʰø³⁵	pʰø³⁵	spit	spit			1.8.3	2320	0			
+13356	370	Bola	nɛ̃⁵⁵	nɛ̃⁵⁵	smell (with nose)	smell (with nose)			1.2.8.5	2346	0			1415
+13357	370	Bola	saʔ⁵⁵ ta̱u³⁵ ʃɛ⁵⁵	saʔ⁵⁵ ta̱u³⁵ ʃɛ⁵⁵	inhale, breath	inhale, breath			1.1.2.2	2352	0			32,m,m
+13358	370	Bola	tʃɔt³¹	tʃɔt³¹	blind	blind			1.2.6.14.2	2360	0			1401
+13359	370	Bola	a̱p⁵⁵	a̱p⁵⁵	birth, give (of pig)	birth, give  (of pig)			1.1.2	2362	0	jbl3		
+13360	370	Bola	kʰja³⁵	kʰja³⁵	lay egg	lay egg			6.17	2363	0			3489
+13361	370	Bola	jø̃⁵⁵	jø̃⁵⁵	recede (boil)	recede (boil)			6.7.1	2378	0			
+13362	370	Bola	ɣəi⁵⁵	ɣəi⁵⁵	laugh	laugh			1.8.8.1	2380	0			1108
+13363	370	Bola	ʃɔn⁵⁵	ʃɔn⁵⁵	diarrhea	diarrhea			1.8.5	2383	0			
+13364	370	Bola	kʰju³⁵	kʰju³⁵	blow nose	blow nose			1.3.1.4	2385	0			
+13365	370	Bola	pɔn³¹	pɔn³¹	wake	wake			1.1.4	2386	0			151
+13366	370	Bola	na³¹	na³¹	rest	rest			1.1.4.1	2387	0			84
+13367	370	Bola	ja̱uŋ³⁵	ja̱uŋ³⁵	caponize	caponize			2.4.1	2396	0			m
+13368	370	Bola	pʰɔn³⁵	pʰɔn³⁵	itch	itch			1.6.5.5	2400	0			m
+13369	370	Bola	pɛ̃³¹	pɛ̃³¹	bitten	bitten	be v.	be v.	1.3.4.4	2404	0			
+13370	370	Bola	pɛ̃³¹	pɛ̃³¹	bite	bite			1.3.4.4	2405	0			1774
+13371	370	Bola	pɛ̃³¹ tsaŋ⁵⁵	pɛ̃³¹ tsaŋ⁵⁵	bite hold of	bite hold of			1.3.4.4	2406	0			1774,m
+13372	370	Bola	fɔn³⁵	fɔn³⁵	dizzy	dizzy			8.3.1.11.3	2430	0			
+13373	370	Bola	lap³¹	lap³¹	blink	blink			1.2.6.12	2442	0			m
+13374	370	Bola	xa³⁵	xa³⁵	open (mouth)	open (mouth)			6.2.2.6.1	2450	0			
+13375	370	Bola	kɔ̱³⁵	kɔ̱³⁵	grow (up)	grow (up)			9.7.2	2451	0			
+13376	370	Bola	ta̱ŋ³⁵	ta̱ŋ³⁵	bloat (belly)	bloat (belly)			1.4.7	2453	0			
+13377	370	Bola	saŋ³¹ tui⁵⁵	saŋ³¹ tui⁵⁵	nervous	nervous			8.3.1.5.5	2455	0			
+13378	370	Bola	pɛ̱ʔ⁵⁵	pɛ̱ʔ⁵⁵	sting	sting	v	v	2.4.2	2460	0			
+13379	370	Bola	ɣɛ̃³⁵	ɣɛ̃³⁵	swell up	swell up			1.1.5.2	2472	0			
+13380	370	Bola	jɔt³¹	jɔt³¹	drunk	drunk			1.3.5.9	2497	0			
+145810	370	Bola	laʔ³¹ mɔ̱n³⁵ tʃʰɔ̃³⁵ tʰauŋ³¹	laʔ³¹ mɔ̱n³⁵ tʃʰɔ̃³⁵ tʰauŋ³¹	elbow	elbow			1.5.8.3	129	0			695,m,m,439
+145811	370	Bola	laʔ³¹ tʰɔ̃³⁵ ŋju̱ŋ³⁵ jɔ̃³¹ pai³¹	laʔ³¹ tʰɔ̃³⁵ ŋju̱ŋ³⁵ jɔ̃³¹ pai³¹	ring finger	ring finger			1.5.6.2	136	0			695,m,m,m,m
+150129	370	Bola	tshɛ̃⁵⁵nak⁵⁵	tshɛ̃⁵⁵nak⁵⁵	braid (hair)	braid (hair)	n	n	1.2.3.2	98	0			366,2023

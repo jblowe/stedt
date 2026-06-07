@@ -1,484 +1,484 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-523756	2034	Maring	mar-tʰi	mar-tʰi	air	air		1.1.2.2		0		
-523757	2035	Khoibu	noŋ-li	noŋ-li	air	air		1.1.2.2		0		
-523758	2036	Rongmei / Nruanghmei	tʰi-raŋ	tʰi-raŋ	air	air		1.1.2.2		0		
-523759	2033	Sorbung	kʰi-raŋ	kʰi-raŋ	air	air		1.1.2.2		0		
-523760	2034	Maring	pʰa-jaŋ	pʰa-jaŋ	ant	ant		2.2.6		0		
-523761	2035	Khoibu	mi-liŋ	mi-liŋ	ant	ant		2.2.6		0		
-523762	2036	Rongmei / Nruanghmei	ta-ŋin	ta-ŋin	ant	ant		2.2.6		0		
-523763	2033	Sorbung	a-kʰau	a-kʰau	ant	ant		2.2.6		0		
-523764	2034	Maring	la	la	arrow	arrow		5.15		0		2386
-523765	2035	Khoibu	ma-la	ma-la	arrow	arrow		5.15		0		
-523766	2036	Rongmei / Nruanghmei	tʰan	tʰan	arrow	arrow		5.15		0		
-523767	2033	Sorbung	tʰe	tʰe	arrow	arrow		5.15		0		
-523768	2034	Maring	wa-ca	wa-ca	bird	bird		2.2.4		0		1603,m
-523769	2035	Khoibu	wa-tsa	wa-tsa	bird	bird		2.2.4		0		1603,m
-523770	2036	Rongmei / Nruanghmei	ma-sa	ma-sa	bird	bird		2.2.4		0		
-523771	2033	Sorbung	ma-te	ma-te	bird	bird		2.2.4		0		
-523772	2034	Maring	hi	hi	blood	blood		1.6.2		0		230
-523773	2035	Khoibu	hi	hi	blood	blood		1.6.2		0		
-523774	2036	Rongmei / Nruanghmei	tʰi	tʰi	blood	blood		1.6.2		0		230
-523775	2033	Sorbung	a-tʰi	a-tʰi	blood	blood		1.6.2		0		p,230
-523776	2034	Maring	li	li	boat	boat		5.1		0		2413
-523777	2035	Khoibu	ma-|li	ma-li	boat	boat		5.1		0		2413
-523778	2036	Rongmei / Nruanghmei	li	li	boat	boat		5.1		0		2413
-523779	2033	Sorbung	ra-koŋ	ra-koŋ	boat	boat		5.1		0		m,4319
-523780	2034	Maring	kʰru	kʰru	bone	bone		1.6.3		0		
-523781	2035	Khoibu	tʰu-ru	tʰu-ru	bone	bone		1.6.3		0		m,232
-523782	2036	Rongmei / Nruanghmei	ma-|ru	ma-ru	bone	bone		1.6.3		0		232
-523783	2033	Sorbung	a-ru	a-ru	bone	bone		1.6.3		0		p,232
-523784	2034	Maring	lui	lui	buffalo	buffalo		2.1.2		0		
-523785	2035	Khoibu	ra-loi	ra-loi	buffalo	buffalo		2.1.2		0		
-523786	2036	Rongmei / Nruanghmei	laoi	laoi	buffalo	buffalo		2.1.2		0		
-523787	2033	Sorbung	se-lɯi	se-lɯi	buffalo	buffalo		2.1.2		0		
-523788	2034	Maring	tuŋ	tuŋ	cat	cat		2.1.3		0		
-523789	2035	Khoibu	toŋ-kan	toŋ-kan	cat	cat		2.1.3		0		
-523790	2036	Rongmei / Nruanghmei	to-pi-sa	to-pi-sa	cat	cat		2.1.3		0		
-523791	2033	Sorbung	a-kʰan	a-kʰan	cat	cat		2.1.3		0		
-523792	2034	Maring	muk	muk	cow	cow		2.1.2		0		
-523793	2035	Khoibu	na-muk	na-muk	cow	cow		2.1.2		0		
-523794	2036	Rongmei / Nruanghmei	tom	tom	cow	cow		2.1.2		0		
-523795	2033	Sorbung	sa-muk	sa-muk	cow	cow		2.1.2		0		
-523796	2034	Maring	ak	ak	crow	crow		2.2.4.1		0		6695
-523797	2035	Khoibu	ha-tʰa-rak	ha-tʰa-rak	crow	crow		2.2.4.1		0		
-523798	2036	Rongmei / Nruanghmei	maa	maa	crow	crow		2.2.4.1		0		
-523799	2033	Sorbung	a-wak	a-wak	crow	crow		2.2.4.1		0		
-523800	2034	Maring	nuŋ-haŋ	nuŋ-haŋ	day	day		1.5.3.2		0		
-523801	2035	Khoibu	ha-tʰa-rak	ha-tʰa-rak	day	day		1.5.3.2		0		
-523802	2036	Rongmei / Nruanghmei	tam-lai	tam-lai	day	day		1.5.3.2		0		
-523803	2033	Sorbung	a-sɯn	a-sɯn	day	day		1.5.3.2		0		
-523804	2034	Maring	wi	wi	dog	dog		2.1.11		0		1764
-523805	2035	Khoibu	noŋ-jaŋ	noŋ-jaŋ	dog	dog		2.1.11		0		
-523806	2036	Rongmei / Nruanghmei	wi	wi	dog	dog		2.1.11		0		
-523807	2033	Sorbung	ɯ	ɯ	dog	dog		2.1.11		0		1764
-523808	2034	Maring	nha-mil	nha-mil	ear	ear		1.2.7		0		811,m
-523809	2035	Khoibu	wi	wi	ear	ear		1.2.7		0		
-523810	2036	Rongmei / Nruanghmei	ka-|na	ka-na	ear	ear		1.2.7		0		811
-523811	2033	Sorbung	na-kor	na-kor	ear	ear		1.2.7		0		811,665b
-523812	2034	Maring	klai	klai	earth	earth		3.2.11		0		
-523813	2035	Khoibu	kʰan	kʰan	earth	earth		3.2.11		0		
-523814	2036	Rongmei / Nruanghmei	ta-lai	ta-lai	earth	earth		3.2.11		0		
-523815	2033	Sorbung	a-lɯ	a-lɯ	earth	earth		3.2.11		0		
-523816	2034	Maring	wa-jui	wa-jui	egg	egg				0		1603,1013
-523817	2035	Khoibu	tʰa-lai	tʰa-lai	egg	egg				0		
-523818	2036	Rongmei / Nruanghmei	ma-ka-tui	ma-ka-tui	egg	egg				0		m,m,300
-523819	2033	Sorbung	ar-tɯ	ar-tɯ	egg	egg				0		m,300
-523820	2034	Maring	sai	sai	elephant	elephant		2.2.1		0		4649
-523821	2035	Khoibu	wa-jui	wa-jui	elephant	elephant		2.2.1		0		
-523822	2036	Rongmei / Nruanghmei	ta-poŋ	ta-poŋ	elephant	elephant		2.2.1		0		
-523823	2033	Sorbung	sai	sai	elephant	elephant		2.2.1		0		4649
-523824	2034	Maring	mit	mit	eye	eye		1.2.6		0		682
-523825	2035	Khoibu	ka-sai	ka-sai	eye	eye		1.2.6		0		
-523826	2036	Rongmei / Nruanghmei	mik	mik	eye	eye		1.2.6		0		682
-523827	2033	Sorbung	a-mit	a-mit	eye	eye		1.2.6		0		p,682
-523828	2034	Maring	pa-pa	pa-pa	father	father		4.7.1		0		
-523829	2035	Khoibu	mit	mit	father	father		4.7.1		0		
-523830	2036	Rongmei / Nruanghmei	a-pa	a-pa	father	father		4.7.1		0		
-523831	2033	Sorbung	pa	pa	father	father		4.7.1		0		
-523832	2034	Maring	mai	mai	fire	fire		3.2.12.2		0		
-523833	2035	Khoibu	pa	pa	fire	fire		3.2.12.2		0		
-523834	2036	Rongmei / Nruanghmei	mai	mai	fire	fire		3.2.12.2		0		
-523835	2033	Sorbung	mui	mui	fire	fire		3.2.12.2		0		
-523836	2034	Maring	hŋa	hŋa	fish	fish		2.2.5		0		1455
-523837	2035	Khoibu	mai	mai	fish	fish		2.2.5		0		
-523838	2036	Rongmei / Nruanghmei	ŋa	ŋa	fish	fish		2.2.5		0		1455
-523839	2033	Sorbung	ŋa	ŋa	fish	fish		2.2.5		0		1455
-523840	2034	Maring	par	par	flower	flower		3.1.4		0		2153
-523841	2035	Khoibu	tʰa-ŋa	tʰa-ŋa	flower	flower		3.1.4		0		
-523842	2036	Rongmei / Nruanghmei	rai	rai	flower	flower		3.1.4		0		
-523843	2033	Sorbung	ra-men	ra-men	flower	flower		3.1.4		0		
-523844	2034	Maring	ho	ho	foot	foot		1.5.2		0		
-523845	2035	Khoibu	par	par	foot	foot		1.5.2		0		
-523846	2036	Rongmei / Nruanghmei	ki	ki	foot	foot		1.5.2		0		338
-523847	2033	Sorbung	a-ke	a-ke	foot	foot		1.5.2		0		p,338
-523848	2034	Maring	klaŋ	klaŋ	goat	goat		2.1.8		0		
-523849	2035	Khoibu	waŋ	waŋ	goat	goat		2.1.8		0		
-523850	2036	Rongmei / Nruanghmei	ken	ken	goat	goat		2.1.8		0		
-523851	2033	Sorbung	ma-k-re	ma-k-re	goat	goat		2.1.8		0		
-523852	2034	Maring	sam	sam	hair	hair		1.2.3		0		366
-523853	2035	Khoibu	hiŋ-ŋau	hiŋ-ŋau	hair	hair		1.2.3		0		
-523854	2036	Rongmei / Nruanghmei	sam	sam	hair	hair		1.2.3		0		366
-523855	2033	Sorbung	sa-muk	sa-muk	hair	hair		1.2.3		0		
-523856	2034	Maring	hut	hut	hand	hand		1.5.1.1		0		712?
-523857	2035	Khoibu	sam	sam	hand	hand		1.5.1.1		0		
-523858	2036	Rongmei / Nruanghmei	kut	kut	hand	hand		1.5.1.1		0		
-523859	2033	Sorbung	kuit	kuit	hand	hand		1.5.1.1		0		
-523860	2034	Maring	lu	lu	head	head		1.2.1		0		1221
-523861	2035	Khoibu	kʰut	kʰut	head	head		1.2.1		0		
-523862	2036	Rongmei / Nruanghmei	lu	lu	head	head		1.2.1		0		1221
-523863	2033	Sorbung	a-lu	a-lu	head	head		1.2.1		0		p,1221
-523864	2034	Maring	wok	wok	hog	hog		2.1.12		0		
-523865	2035	Khoibu	lu	lu	hog	hog		2.1.12		0		
-523866	2036	Rongmei / Nruanghmei	bok	bok	hog	hog		2.1.12		0		
-523867	2033	Sorbung	ok	ok	hog	hog		2.1.12		0		
-523868	2034	Maring	ci	ci	horn	horn		1.2.2		0		2012
-523869	2035	Khoibu	hok	hok	horn	horn		1.2.2		0		
-523870	2036	Rongmei / Nruanghmei	ta-ki	ta-ki	horn	horn		1.2.2		0		p,2012
-523871	2033	Sorbung	ar-ki	ar-ki	horn	horn		1.2.2		0		p,2012
-523872	2034	Maring	puk	puk	horse	horse		2.1.7		0		
-523873	2035	Khoibu	at-si	at-si	horse	horse		2.1.7		0		
-523874	2036	Rongmei / Nruanghmei	ta-koan	ta-koan	horse	horse		2.1.7		0		
-523875	2033	Sorbung	sa-puk	sa-puk	horse	horse		2.1.7		0		
-523876	2034	Maring	cim	cim	house	house		5.11.9.1		0		1612
-523877	2035	Khoibu	ʃa-puk	ʃa-puk	house	house		5.11.9.1		0		
-523878	2036	Rongmei / Nruanghmei	in	in	house	house		5.11.9.1		0		1612
-523879	2033	Sorbung	jin	jin	house	house		5.11.9.1		0		1612
-523880	2034	Maring	tʰir	tʰir	iron	iron		3.2.4		0		2673
-523881	2035	Khoibu	tsim	tsim	iron	iron		3.2.4		0		
-523882	2036	Rongmei / Nruanghmei	tʰin	tʰin	iron	iron		3.2.4		0		
-523883	2033	Sorbung	tʰiar	tʰiar	iron	iron		3.2.4		0		2673
-523884	2034	Maring	na	na	leaf	leaf		3.1.3		0		402
-523885	2035	Khoibu	sak-wa	sak-wa	leaf	leaf		3.1.3		0		
-523886	2036	Rongmei / Nruanghmei	na	na	leaf	leaf		3.1.3		0		402
-523887	2033	Sorbung	tʰiŋ-na	tʰiŋ-na	leaf	leaf		3.1.3		0		
-523888	2034	Maring	war	war	light	light		7.1.11.1		0		5683
-523889	2035	Khoibu	na	na	light	light		7.1.11.1		0		
-523890	2036	Rongmei / Nruanghmei	ban	ban	light	light		7.1.11.1		0		
-523891	2033	Sorbung	war	war	light	light		7.1.11.1		0		5683
-523892	2034	Maring	hmi	hmi	man	man		1.9.6.1		0		1002
-523893	2035	Khoibu	war	war	man	man		1.9.6.1		0		
-523894	2036	Rongmei / Nruanghmei	mi	mi	man	man		1.9.6.1		0		
-523895	2033	Sorbung	pa-sa	pa-sa	man	man		1.9.6.1		0		
-523896	2034	Maring	juŋ	juŋ	monkey	monkey		2.1.9		0		6049
-523897	2035	Khoibu	tʰa-mi	tʰa-mi	monkey	monkey		2.1.9		0		
-523898	2036	Rongmei / Nruanghmei	ka-zjoŋ	ka-zjoŋ	monkey	monkey		2.1.9		0		
-523899	2033	Sorbung	joŋ	joŋ	monkey	monkey		2.1.9		0		6049
-523900	2034	Maring	taŋ-la	taŋ-la	moon	moon		3.2.2		0		m,1016
-523901	2035	Khoibu	ha-joŋ	ha-joŋ	moon	moon		3.2.2		0		
-523902	2036	Rongmei / Nruanghmei	tʰa	tʰa	moon	moon		3.2.2		0		
-523903	2033	Sorbung	a-kʰa	a-kʰa	moon	moon		3.2.2		0		
-523904	2034	Maring	tʰaŋ-kran	tʰaŋ-kran	mosquito	mosquito		2.2.6		0		
-523905	2035	Khoibu	mur	mur	mosquito	mosquito		2.2.6		0		
-523906	2036	Rongmei / Nruanghmei	kaŋ	kaŋ	mosquito	mosquito		2.2.6		0		
-523907	2033	Sorbung	saŋ-san	saŋ-san	mosquito	mosquito		2.2.6		0		
-523908	2034	Maring	ta-da	ta-da	mother	mother		4.7.1		0		
-523909	2035	Khoibu	taŋ-la	taŋ-la	mother	mother		4.7.1		0		
-523910	2036	Rongmei / Nruanghmei	a-nu	a-nu	mother	mother		4.7.1		0		
-523911	2033	Sorbung	noa	noa	mother	mother		4.7.1		0		
-523912	2034	Maring	kʰluŋ	kʰluŋ	mountain	mountain		3.2.5		0		
-523913	2035	Khoibu	nu-bi	nu-bi	mountain	mountain		3.2.5		0		
-523914	2036	Rongmei / Nruanghmei	ciŋ	ciŋ	mountain	mountain		3.2.5		0		
-523915	2033	Sorbung	ram-tʰiŋ	ram-tʰiŋ	mountain	mountain		3.2.5		0		
-523916	2034	Maring	mur	mur	mouth	mouth		1.3.1		0		467
-523917	2035	Khoibu	ram-tʰiŋ	ram-tʰiŋ	mouth	mouth		1.3.1		0		
-523918	2036	Rongmei / Nruanghmei	ma-mun	ma-mun	mouth	mouth		1.3.1		0		m,467
-523919	2033	Sorbung	mur	mur	mouth	mouth		1.3.1		0		467
-523920	2034	Maring	miŋ	miŋ	name	name		5.8		0		2450
-523921	2035	Khoibu	tʰaŋ-tan	tʰaŋ-tan	name	name		5.8		0		
-523922	2036	Rongmei / Nruanghmei	miŋ	miŋ	name	name		5.8		0		2450
-523923	2033	Sorbung	ar-|min	ar-min	name	name		5.8		0		2450
-523924	2034	Maring	mea	mea	night	night		9.1.4		0		
-523925	2035	Khoibu	miŋ	miŋ	night	night		9.1.4		0		
-523926	2036	Rongmei / Nruanghmei	zjiŋ-pʰa	zjiŋ-pʰa	night	night		9.1.4		0		
-523927	2033	Sorbung	a-jan	a-jan	night	night		9.1.4		0		
-523928	2034	Maring	tʰrik	tʰrik	oil	oil		1.6.4.1		0		40
-523929	2035	Khoibu	ra-sa	ra-sa	oil	oil		1.6.4.1		0		
-523930	2036	Rongmei / Nruanghmei	tʰau	tʰau	oil	oil		1.6.4.1		0		60
-523931	2033	Sorbung	tʰau	tʰau	oil	oil		1.6.4.1		0		
-523932	2034	Maring	mu-tʰai	mu-tʰai	plantain	plantain		3.1.5		0		
-523933	2035	Khoibu	ʃe-rek	ʃe-rek	plantain	plantain		3.1.5		0		
-523934	2036	Rongmei / Nruanghmei	ŋa-caŋ	ŋa-caŋ	plantain	plantain		3.1.5		0		
-523935	2033	Sorbung	mɯt	mɯt	plantain	plantain		3.1.5		0		
-523936	2034	Maring	tu-lil	tu-lil	river	river		3.2.3		0		
-523937	2035	Khoibu	mo-tʰai	mo-tʰai	river	river		3.2.3		0		
-523938	2036	Rongmei / Nruanghmei	tui-koak	tui-koak	river	river		3.2.3		0		
-523939	2033	Sorbung	tɯ	tɯ	river	river		3.2.3		0		
-523940	2034	Maring	lam	lam	road	road		9.10.1		0		1017
-523941	2035	Khoibu	koŋ-pwi	koŋ-pwi	road	road		9.10.1		0		
-523942	2036	Rongmei / Nruanghmei	lam-pwi	lam-pwi	road	road		9.10.1		0		1017,m
-523943	2033	Sorbung	lam-pɯ	lam-pɯ	road	road		9.10.1		0		1017,m
-523944	2034	Maring	ti	ti	salt	salt		3.2.4		0		
-523945	2035	Khoibu	mi-ti	mi-ti	salt	salt		3.2.4		0		
-523946	2036	Rongmei / Nruanghmei	ma-ci	ma-ci	salt	salt		3.2.4		0		
-523947	2033	Sorbung	ma-ci	ma-ci	salt	salt		3.2.4		0		
-523948	2034	Maring	wun	wun	skin	skin		1.6.5		0		591
-523949	2035	Khoibu	un	un	skin	skin		1.6.5		0		591
-523950	2036	Rongmei / Nruanghmei	mun	mun	skin	skin		1.6.5		0		
-523951	2033	Sorbung	ar-hɯn	ar-hɯn	skin	skin		1.6.5		0		
-523952	2034	Maring	nuŋ-tʰau	nuŋ-tʰau	sky	sky		3.2.2		0		
-523953	2035	Khoibu	tʰaŋ-wan	tʰaŋ-wan	sky	sky		3.2.2		0		
-523954	2036	Rongmei / Nruanghmei	taŋ-ban	taŋ-ban	sky	sky		3.2.2		0		
-523955	2033	Sorbung	ar-wal-loŋ	ar-wal-loŋ	sky	sky		3.2.2		0		
-523956	2034	Maring	pʰ-|rul	pʰ-rul	snake	snake		2.1.6.1		0		2623
-523957	2035	Khoibu	pʰu-|run	pʰu-run	snake	snake		2.1.6.1		0		2623
-523958	2036	Rongmei / Nruanghmei	ma-|run	ma-run	snake	snake		2.1.6.1		0		2623
-523959	2033	Sorbung	ma-ri	ma-ri	snake	snake		2.1.6.1		0		
-523960	2034	Maring	sor-wa	sor-wa	star	star		3.2.2		0		3575,s
-523961	2035	Khoibu	tik-ron	tik-ron	star	star		3.2.2		0		
-523962	2036	Rongmei / Nruanghmei	in-si	in-si	star	star		3.2.2		0		
-523963	2033	Sorbung	ar-|ʃi	ar-ʃi	star	star		3.2.2		0		2300,1019
-523964	2034	Maring	kʰ-luŋ	kʰ-luŋ	stone	stone		3.2.9		0		
-523965	2035	Khoibu	tʰul-luŋ	tʰul-luŋ	stone	stone		3.2.9		0		
-523966	2036	Rongmei / Nruanghmei	luŋ	luŋ	stone	stone		3.2.9		0		
-523967	2033	Sorbung	luŋ	luŋ	stone	stone		3.2.9		0		
-523968	2034	Maring	nuŋ-mit	nuŋ-mit	sun	sun		3.2.10		0		
-523969	2035	Khoibu	noŋ-mit	noŋ-mit	sun	sun		3.2.10		0		
-523970	2036	Rongmei / Nruanghmei	ri-mik	ri-mik	sun	sun		3.2.10		0		
-523971	2033	Sorbung	a-ni	a-ni	sun	sun		3.2.10		0		p,85
-523972	2034	Maring	hum-wi	hum-wi	tiger	tiger		2.1.3		0		
-523973	2035	Khoibu	homp-wi	homp-wi	tiger	tiger		2.1.3		0		
-523974	2036	Rongmei / Nruanghmei	ta-kʰu	ta-kʰu	tiger	tiger		2.1.3		0		
-523975	2033	Sorbung	ham-pɯ	ham-pɯ	tiger	tiger		2.1.3		0		
-523976	2034	Maring	ha	ha	tooth	tooth		1.3.4		0		
-523977	2035	Khoibu	ha	ha	tooth	tooth		1.3.4		0		
-523978	2036	Rongmei / Nruanghmei	ŋa	ŋa	tooth	tooth		1.3.4		0		
-523979	2033	Sorbung	a-lar-ra	a-lar-ra	tooth	tooth		1.3.4		0		
-523980	2034	Maring	hiŋ-bal	hiŋ-bal	tree	tree		3.1.2		0		2658,m
-523981	2035	Khoibu	hiŋ-toŋ	hiŋ-toŋ	tree	tree		3.1.2		0		
-523982	2036	Rongmei / Nruanghmei	tʰiŋ-kuŋ	tʰiŋ-kuŋ	tree	tree		3.1.2		0		2658,m
-523983	2033	Sorbung	tʰiŋ	tʰiŋ	tree	tree		3.1.2		0		
-523984	2034	Maring	jul	jul	village	village		5.8		0		
-523985	2035	Khoibu	jon	jon	village	village		5.8		0		
-523986	2036	Rongmei / Nruanghmei	nam	nam	village	village		5.8		0		5746
-523987	2033	Sorbung	ram	ram	village	village		5.8		0		6093
-523988	2034	Maring	jui	jui	water	water		3.2.3		0		1013
-523989	2035	Khoibu	jui	jui	water	water		3.2.3		0		
-523990	2036	Rongmei / Nruanghmei	tui	tui	water	water		3.2.3		0		298
-523991	2033	Sorbung	tɯ	tɯ	water	water		3.2.3		0		
-523992	2034	Maring	bal	bal	yam	yam		3.1.5		0		
-523993	2035	Khoibu	ra	ra	yam	yam		3.1.5		0		
-523994	2036	Rongmei / Nruanghmei	ban-ra	ban-ra	yam	yam		3.1.5		0		
-523995	2033	Sorbung	wi-ra	wi-ra	yam	yam		3.1.5		0		
-526177	2026	Tankghul (Central)	ma-ʃia	ma-ʃia	air	air		1.1.2.2		529021		m,2412
-526178	2026	Tankghul (Central)	cam-ca	cam-ca	ant	ant		2.2.6		0		
-526179	2026	Tankghul (Central)	ma-la	ma-la	arrow	arrow		5.15		528764		m,2386
-526180	2026	Tankghul (Central)	o-ta	o-ta	bird	bird		2.2.4		529126		m,1604
-526181	2026	Tankghul (Central)	un-si	un-si	blood	blood		1.6.2		528789		m,230
-526182	2026	Tankghul (Central)	ma-|lhi	ma-lhi	boat	boat		5.1		0		2413
-526183	2026	Tankghul (Central)	u-ru	u-ru	bone	bone		1.6.3		528808		m,232
-526184	2026	Tankghul (Central)	ʃi	ʃi	buffalo	buffalo		2.1.2		529250		7160
-526185	2026	Tankghul (Central)	tu-mi	tu-mi	cat	cat		2.1.3		529063		m,7033
-526186	2026	Tankghul (Central)	sa-muk	sa-muk	cow	cow		2.1.2		529167		m,5607
-526187	2026	Tankghul (Central)	hoŋ-kʰa	hoŋ-kʰa	crow	crow		2.2.4.1		0		m,2279
-526188	2026	Tankghul (Central)	ma-suŋ	ma-suŋ	day	day		1.5.3.2		529165		m,7135
-526189	2026	Tankghul (Central)	si	si	dog	dog		2.1.11		0		
-526190	2026	Tankghul (Central)	o-kʰa-na	o-kʰa-na	ear	ear		1.2.7		528783		m,m,811a
-526191	2026	Tankghul (Central)	ŋa-lai	ŋa-lai	earth	earth		3.2.11		528844		m,2453
-526192	2026	Tankghul (Central)	a-tɯ	a-tɯ	egg	egg				528836		m,300
-526193	2026	Tankghul (Central)	sa-ka-tai	sa-ka-tai	elephant	elephant		2.2.1		529039		m,m,2697
-526194	2026	Tankghul (Central)	o-mit	o-mit	eye	eye		1.2.6		529253		m,p,b?,682
-526195	2026	Tankghul (Central)	o-pa	o-pa	father	father		4.7.1		529025		m,1634
-526196	2026	Tankghul (Central)	mai	mai	fire	fire		3.2.12.2		528845		2136
-526197	2026	Tankghul (Central)	sa-ŋa	sa-ŋa	fish	fish		2.2.5		529064		m,1455
-526198	2026	Tankghul (Central)	pie	pie	flower	flower		3.1.4		528909		2153
-526199	2026	Tankghul (Central)	o-kʰo	o-kʰo	foot	foot		1.5.2		529251		m,7161
-526200	2026	Tankghul (Central)	mi-k-re	mi-k-re	goat	goat		2.1.8		529028		4769
-526201	2026	Tankghul (Central)	ko-sen	ko-sen	hair	hair		1.2.3		528878		m,366
-526202	2026	Tankghul (Central)	kʰut	kʰut	hand	hand		1.5.1.1		529252		712
-526203	2026	Tankghul (Central)	o-kao	o-kao	head	head		1.2.1		528861		m,386
-526204	2026	Tankghul (Central)	hok	hok	hog	hog		2.1.12		528999		1006
-526205	2026	Tankghul (Central)	m-ci	m-ci	horn	horn		1.2.2		528796		m,6766
-526206	2026	Tankghul (Central)	sa-koi	sa-koi	horse	horse		2.1.7		528941		m,6023
-526207	2026	Tankghul (Central)	ʃin	ʃin	house	house		5.11.9.1		528889		1612
-526208	2026	Tankghul (Central)	ma-ri	ma-ri	iron	iron		3.2.4		529091		m,7061
-526209	2026	Tankghul (Central)	tʰi-na	tʰi-na	leaf	leaf		3.1.3		528786		m,402
-526210	2026	Tankghul (Central)	ʃea	ʃea	light	light		7.1.11.1		0		
-526211	2026	Tankghul (Central)	mi	mi	man	man		1.9.6.1		529090		1002
-526212	2026	Tankghul (Central)	na-joŋ	na-joŋ	monkey	monkey		2.1.9		528931		m,6049
-526213	2026	Tankghul (Central)	ka-ceaŋ	ka-ceaŋ	moon	moon		3.2.2		529034		m,7004
-526214	2026	Tankghul (Central)	o-nu	o-nu	mother	mother		4.7.1		0		
-526215	2026	Tankghul (Central)	ka-pʰuŋ	ka-pʰuŋ	mountain	mountain		3.2.5		528934		m,6904
-526216	2026	Tankghul (Central)	o-nia	o-nia	mouth	mouth		1.3.1		0		
-526217	2026	Tankghul (Central)	hai-ceaŋ	hai-ceaŋ	mosquito	mosquito		2.2.6		529037		m,2328
-526218	2026	Tankghul (Central)	o-min	o-min	name	name		5.8		528926		m,2450
-526219	2026	Tankghul (Central)	ro-sa	ro-sa	night	night		9.1.4		0		
-526220	2026	Tankghul (Central)	tʰau	tʰau	oil	oil		1.6.4.1		528832		60
-526221	2026	Tankghul (Central)	mot-tʰai	mot-tʰai	plantain	plantain		3.1.5		528980		6950
-526222	2026	Tankghul (Central)	tɯ-tʰau	tɯ-tʰau	river	river		3.2.3		0		
-526223	2026	Tankghul (Central)	som-bɯi	som-bɯi	road	road		9.10.1		529006		6976,7159
-526224	2026	Tankghul (Central)	som-bɯi	som-bɯi	road	road		9.10.1		529189		6976,7159
-526225	2026	Tankghul (Central)	ma-ci	ma-ci	salt	salt		3.2.4		528800		m,2747
-526226	2026	Tankghul (Central)	o-hoi	o-hoi	skin	skin		1.6.5		528942		m,591
-526227	2026	Tankghul (Central)	ka-ci-raŋ	ka-ci-raŋ	sky	sky		3.2.2		528927		m,6312
-526228	2026	Tankghul (Central)	pʰrɯi	pʰrɯi	snake	snake		2.1.6.1		528943		2623
-526229	2026	Tankghul (Central)	sa-pa-ceŋ-la	sa-pa-ceŋ-la	star	star		3.2.2		529077		m,m,m,7047
-526230	2026	Tankghul (Central)	luŋ	luŋ	stone	stone		3.2.9		528937		1269
-526231	2026	Tankghul (Central)	o-hi-mit	o-hi-mit	sun	sun		3.2.10		0		
-526232	2026	Tankghul (Central)	sa-kwi	sa-kwi	tiger	tiger		2.1.3		529127		m,2308
-526233	2026	Tankghul (Central)	o-ha	o-ha	tooth	tooth		1.3.4		529007		m,632
-526234	2026	Tankghul (Central)	tʰiŋ-baŋ	tʰiŋ-baŋ	tree	tree		3.1.2		528930		2658
-526235	2026	Tankghul (Central)	ram	ram	village	village		5.8		528884		6093
-526236	2026	Tankghul (Central)	kʰui	kʰui	village	village		5.8		528945		6915
-526237	2026	Tankghul (Central)	tɯn-dɯ	tɯn-dɯ	water	water		3.2.3		528839		m,298
-526238	2026	Tankghul (Central)	ber-ha	ber-ha	yam	yam		3.1.5		529027		6997
-526239	2027	Tangkhul (Northern)	ma-sɯ	ma-sɯ	air	air		1.1.2.2		529021		m,2412
-526240	2027	Tangkhul (Northern)	laŋ-za	laŋ-za	ant	ant		2.2.6		529046		7016
-526241	2027	Tangkhul (Northern)	ma-la	ma-la	arrow	arrow		5.15		528764		m,2386
-526242	2027	Tangkhul (Northern)	a-ta	a-ta	bird	bird		2.2.4		529126		m,1604
-526243	2027	Tangkhul (Northern)	a-sɯ	a-sɯ	blood	blood		1.6.2		528789		m,230
-526244	2027	Tangkhul (Northern)	mal-bɯ	mal-bɯ	boat	boat		5.1		0		
-526245	2027	Tangkhul (Northern)	a-rɯ-kau	a-rɯ-kau	bone	bone		1.6.3		528808		m,232
-526246	2027	Tangkhul (Northern)	ʃi	ʃi	buffalo	buffalo		2.1.2		529250		7160
-526247	2027	Tangkhul (Northern)	la-me	la-me	cat	cat		2.1.3		529063		m,7033
-526248	2027	Tangkhul (Northern)	sa-muk	sa-muk	cow	cow		2.1.2		529167		m,5607
-526249	2027	Tangkhul (Northern)	kʰuŋ-kʰa	kʰuŋ-kʰa	crow	crow		2.2.4.1		0		m,2279
-526250	2027	Tangkhul (Northern)	ma-sɯ-tum	ma-sɯ-tum	day	day		1.5.3.2		0		
-526251	2027	Tangkhul (Northern)	pʰɯ	pʰɯ	dog	dog		2.1.11		0		
-526252	2027	Tangkhul (Northern)	a-kʰa-na	a-kʰa-na	ear	ear		1.2.7		528783		m,m,811a
-526253	2027	Tangkhul (Northern)	ma-lai	ma-lai	earth	earth		3.2.11		528844		m,2453
-526254	2027	Tangkhul (Northern)	ha-cɯ	ha-cɯ	egg	egg				528836		m,300
-526255	2027	Tangkhul (Northern)	ma-|pʰɯ	ma-pʰɯ	elephant	elephant		2.2.1		529038		2257
-526256	2027	Tangkhul (Northern)	a-mi-ca	a-mi-ca	eye	eye		1.2.6		528992		m,682
-526257	2027	Tangkhul (Northern)	a-pa	a-pa	father	father		4.7.1		529025		m,1634
-526258	2027	Tangkhul (Northern)	mai	mai	fire	fire		3.2.12.2		528845		2136
-526259	2027	Tangkhul (Northern)	kʰi	kʰi	fish	fish		2.2.5		528818		6788
-526260	2027	Tangkhul (Northern)	pie	pie	flower	flower		3.1.4		528909		2153
-526261	2027	Tangkhul (Northern)	a-kʰo	a-kʰo	foot	foot		1.5.2		529251		m,7161
-526262	2027	Tangkhul (Northern)	mi	mi	goat	goat		2.1.8		529028		4769
-526263	2027	Tangkhul (Northern)	ko-sen	ko-sen	hair	hair		1.2.3		528878		m,366
-526264	2027	Tangkhul (Northern)	a-kʰui	a-kʰui	hand	hand		1.5.1.1		529252		m,712
-526265	2027	Tangkhul (Northern)	a-kao	a-kao	head	head		1.2.1		528861		m,386
-526266	2027	Tangkhul (Northern)	hok	hok	hog	hog		2.1.12		528999		1006
-526267	2027	Tangkhul (Northern)	a-kat-sɯ	a-kat-sɯ	horn	horn		1.2.2		528796		m,m,6766
-526268	2027	Tangkhul (Northern)	sa-koi	sa-koi	horse	horse		2.1.7		528941		m,6023
-526269	2027	Tangkhul (Northern)	ʃin	ʃin	house	house		5.11.9.1		528889		1612
-526270	2027	Tangkhul (Northern)	ma-rɯ	ma-rɯ	iron	iron		3.2.4		529091		m,7061
-526271	2027	Tangkhul (Northern)	tʰi-na	tʰi-na	leaf	leaf		3.1.3		528786		m,402
-526272	2027	Tangkhul (Northern)	ʃe	ʃe	light	light		7.1.11.1		0		
-526273	2027	Tangkhul (Northern)	mɯ	mɯ	man	man		1.9.6.1		529090		1002
-526274	2027	Tangkhul (Northern)	na-joŋ	na-joŋ	monkey	monkey		2.1.9		528931		m,6049
-526275	2027	Tangkhul (Northern)	ka-ceaŋ	ka-ceaŋ	moon	moon		3.2.2		529034		m,7004
-526276	2027	Tangkhul (Northern)	a-pʰɯ	a-pʰɯ	mother	mother		4.7.1		529026		m,2559
-526277	2027	Tangkhul (Northern)	ka-pʰuŋ	ka-pʰuŋ	mountain	mountain		3.2.5		528934		m,6904
-526278	2027	Tangkhul (Northern)	a-nia	a-nia	mouth	mouth		1.3.1		0		
-526279	2027	Tangkhul (Northern)	ha-ceaŋ	ha-ceaŋ	mosquito	mosquito		2.2.6		529037		m,2328
-526280	2027	Tangkhul (Northern)	a-mi	a-mi	name	name		5.8		528926		m,2450
-526281	2027	Tangkhul (Northern)	ma-ja	ma-ja	night	night		9.1.4		529008		m,2784
-526282	2027	Tangkhul (Northern)	tʰau	tʰau	oil	oil		1.6.4.1		528832		60
-526283	2027	Tangkhul (Northern)	mot-tʰai	mot-tʰai	plantain	plantain		3.1.5		528980		6950
-526284	2027	Tangkhul (Northern)	koŋ	koŋ	river	river		3.2.3		529071		2322
-526285	2027	Tangkhul (Northern)	som-pʰɯ	som-pʰɯ	road	road		9.10.1		529006		6976,7159
-526286	2027	Tangkhul (Northern)	som-pʰɯ	som-pʰɯ	road	road		9.10.1		529189		6976,7159
-526287	2027	Tangkhul (Northern)	n-tsɯ	n-tsɯ	salt	salt		3.2.4		528800		m,2747
-526288	2027	Tangkhul (Northern)	a-hɯ	a-hɯ	skin	skin		1.6.5		528942		m,591
-526289	2027	Tangkhul (Northern)	ka-zi-raŋ	ka-zi-raŋ	sky	sky		3.2.2		528927		m,6312
-526290	2027	Tangkhul (Northern)	pʰrɯ	pʰrɯ	snake	snake		2.1.6.1		528943		2623
-526291	2027	Tangkhul (Northern)	sa-pa-ceŋ-la	sa-pa-ceŋ-la	star	star		3.2.2		529077		m,m,m,7047
-526292	2027	Tangkhul (Northern)	luŋ-gau	luŋ-gau	stone	stone		3.2.9		528937		1269
-526293	2027	Tangkhul (Northern)	ji-mit	ji-mit	sun	sun		3.2.10		0		
-526294	2027	Tangkhul (Northern)	sa-kʰwɯ	sa-kʰwɯ	tiger	tiger		2.1.3		529127		m,2308
-526295	2027	Tangkhul (Northern)	a-ha	a-ha	tooth	tooth		1.3.4		529007		m,632
-526296	2027	Tangkhul (Northern)	tʰiŋ-baŋ	tʰiŋ-baŋ	tree	tree		3.1.2		528930		2658
-526297	2027	Tangkhul (Northern)	ra-haŋ	ra-haŋ	village	village		5.8		528884		6093
-526298	2027	Tangkhul (Northern)	ai-cɯ	ai-cɯ	water	water		3.2.3		528839		m,298
-526299	2027	Tangkhul (Northern)	ber-ha	ber-ha	yam	yam		3.1.5		529027		6997
-526300	2028	Tangkhul (Standard)	ma-si	ma-si	air	air		1.1.2.2		529021		m,2412
-526301	2028	Tangkhul (Standard)	ca-liŋ	ca-liŋ	ant	ant		2.2.6		529046		m,7016
-526302	2028	Tangkhul (Standard)	ma-la	ma-la	arrow	arrow		5.15		528764		m,2386
-526303	2028	Tangkhul (Standard)	va	va	bird	bird		2.2.4		528762		1603
-526304	2028	Tangkhul (Standard)	a-ʃi	a-ʃi	blood	blood		1.6.2		528789		m,230
-526305	2028	Tangkhul (Standard)	ma-|ri-kʰoŋ	ma-ri-kʰoŋ	boat	boat		5.1		529040		2413,7010
-526306	2028	Tangkhul (Standard)	a-rɯ	a-rɯ	bone	bone		1.6.3		528808		m,232
-526307	2028	Tangkhul (Standard)	si-loi	si-loi	buffalo	buffalo		2.1.2		528873		7160,2427
-526308	2028	Tangkhul (Standard)	la-mi	la-mi	cat	cat		2.1.3		529063		m,7033
-526309	2028	Tangkhul (Standard)	si-muk	si-muk	cow	cow		2.1.2		529167		m,5607
-526310	2028	Tangkhul (Standard)	haŋ-kʰa	haŋ-kʰa	crow	crow		2.2.4.1		0		m,2279
-526311	2028	Tangkhul (Standard)	ŋa-sun	ŋa-sun	day	day		1.5.3.2		529165		m,7135
-526312	2028	Tangkhul (Standard)	tʰɯ	tʰɯ	dog	dog		2.1.11		0		
-526313	2028	Tangkhul (Standard)	kʰa-na	kʰa-na	ear	ear		1.2.7		528783		m,811a
-526314	2028	Tangkhul (Standard)	ŋa-lai	ŋa-lai	earth	earth		3.2.11		528844		m,2453
-526315	2028	Tangkhul (Standard)	ha-rɯ	ha-rɯ	egg	egg				528836		m,300
-526316	2028	Tangkhul (Standard)	ma-|vɯ	ma-vɯ	elephant	elephant		2.2.1		529038		2257
-526317	2028	Tangkhul (Standard)	mik	mik	eye	eye		1.2.6		0		682
-526318	2028	Tangkhul (Standard)	a-va	a-va	father	father		4.7.1		529025		m,1634
-526319	2028	Tangkhul (Standard)	mai	mai	fire	fire		3.2.12.2		528845		2136
-526320	2028	Tangkhul (Standard)	kʰai	kʰai	fish	fish		2.2.5		528818		6788
-526321	2028	Tangkhul (Standard)	won	won	flower	flower		3.1.4		528909		2153
-526322	2028	Tangkhul (Standard)	pʰai	pʰai	foot	foot		1.5.2		0		343
-526323	2028	Tangkhul (Standard)	me	me	goat	goat		2.1.8		529028		4769
-526324	2028	Tangkhul (Standard)	sam	sam	hair	hair		1.2.3		528878		366
-526325	2028	Tangkhul (Standard)	paŋ	paŋ	hand	hand		1.5.1.1		528905		745
-526326	2028	Tangkhul (Standard)	kui	kui	head	head		1.2.1		528861		386
-526327	2028	Tangkhul (Standard)	hok	hok	hog	hog		2.1.12		528999		1006
-526328	2028	Tangkhul (Standard)	ŋa-ci	ŋa-ci	horn	horn		1.2.2		528796		m,6766
-526329	2028	Tangkhul (Standard)	si-kwi	si-kwi	horse	horse		2.1.7		528941		m,6023
-526330	2028	Tangkhul (Standard)	ʃim	ʃim	house	house		5.11.9.1		528889		1612
-526331	2028	Tangkhul (Standard)	tin	tin	iron	iron		3.2.4		529092		2673
-526332	2028	Tangkhul (Standard)	na	na	leaf	leaf		3.1.3		528786		402
-526333	2028	Tangkhul (Standard)	hor	hor	light	light		7.1.11.1		529151		5683
-526334	2028	Tangkhul (Standard)	mi	mi	man	man		1.9.6.1		529090		1002
-526335	2028	Tangkhul (Standard)	na-joŋ	na-joŋ	monkey	monkey		2.1.9		528931		m,6049
-526336	2028	Tangkhul (Standard)	ka-caŋ	ka-caŋ	moon	moon		3.2.2		529034		m,7004
-526337	2028	Tangkhul (Standard)	a-vɯ	a-vɯ	mother	mother		4.7.1		529026		m,2559
-526338	2028	Tangkhul (Standard)	ka-pʰuŋ	ka-pʰuŋ	mountain	mountain		3.2.5		528934		m,6904
-526339	2028	Tangkhul (Standard)	kʰa-mor	kʰa-mor	mouth	mouth		1.3.1		528955		m,467
-526340	2028	Tangkhul (Standard)	ha-caŋ	ha-caŋ	mosquito	mosquito		2.2.6		529037		m,2328
-526341	2028	Tangkhul (Standard)	miŋ	miŋ	name	name		5.8		528926		2450
-526342	2028	Tangkhul (Standard)	ŋa-ja	ŋa-ja	night	night		9.1.4		529008		m,2784
-526343	2028	Tangkhul (Standard)	tʰau-rɯ	tʰau-rɯ	oil	oil		1.6.4.1		528832		60
-526344	2028	Tangkhul (Standard)	na-na	na-na	plantain	plantain		3.1.5		0		
-526345	2028	Tangkhul (Standard)	koŋ	koŋ	river	river		3.2.3		529071		2322
-526346	2028	Tangkhul (Standard)	soŋ-vɯ	soŋ-vɯ	road	road		9.10.1		529006		6976,7159
-526347	2028	Tangkhul (Standard)	soŋ-vɯ	soŋ-vɯ	road	road		9.10.1		529189		6976,7159
-526348	2028	Tangkhul (Standard)	ma-ci	ma-ci	salt	salt		3.2.4		528800		m,2747
-526349	2028	Tangkhul (Standard)	a-hui	a-hui	skin	skin		1.6.5		528942		m,591
-526350	2028	Tangkhul (Standard)	ka-ziŋ	ka-ziŋ	sky	sky		3.2.2		528927		m,6312
-526351	2028	Tangkhul (Standard)	pʰa-|rɯ	pʰa-rɯ	snake	snake		2.1.6.1		528943		2623
-526352	2028	Tangkhul (Standard)	si-rva	si-rva	star	star		3.2.2		529019		m,6989
-526353	2028	Tangkhul (Standard)	ŋa-luŋ	ŋa-luŋ	stone	stone		3.2.9		528937		m,1269
-526354	2028	Tangkhul (Standard)	tsiŋ-mik	tsiŋ-mik	sun	sun		3.2.10		0		
-526355	2028	Tangkhul (Standard)	saŋ-kʰu	saŋ-kʰu	tiger	tiger		2.1.3		529127		m,2308
-526356	2028	Tangkhul (Standard)	ha	ha	tooth	tooth		1.3.4		529007		632
-526357	2028	Tangkhul (Standard)	tʰiŋ-roŋ	tʰiŋ-roŋ	tree	tree		3.1.2		528930		2658
-526358	2028	Tangkhul (Standard)	ram-kʰɯ	ram-kʰɯ	village	village		5.8		528884		6093
-526359	2028	Tangkhul (Standard)	ta-rɯ	ta-rɯ	water	water		3.2.3		528839		m,298
-526360	2028	Tangkhul (Standard)	la-suk-pai	la-suk-pai	yam	yam		3.1.5		529027		m,m,6997
-526361	2029	Champhung	pʰan-ra	pʰan-ra	air	air		1.1.2.2		0		
-526362	2029	Champhung	ciŋ-kʰa	ciŋ-kʰa	ant	ant		2.2.6		0		
-526363	2029	Champhung	ma-lu	ma-lu	arrow	arrow		5.15		528764		m,2386
-526364	2029	Champhung	ŋu-tʰe	ŋu-tʰe	bird	bird		2.2.4		529126		m,1604
-526365	2029	Champhung	a-zi	a-zi	blood	blood		1.6.2		528789		m,230
-526366	2029	Champhung	ma-|ri-kʰo	ma-ri-kʰo	boat	boat		5.1		529040		2413,7010
-526367	2029	Champhung	so-rɯ	so-rɯ	bone	bone		1.6.3		528808		m,232
-526368	2029	Champhung	ŋa-lɯi	ŋa-lɯi	buffalo	buffalo		2.1.2		528873		m,2427
-526369	2029	Champhung	ha-ŋau-bi	ha-ŋau-bi	cat	cat		2.1.3		0		
-526370	2029	Champhung	ʃe-muk	ʃe-muk	cow	cow		2.1.2		529167		m,5607
-526371	2029	Champhung	kʰa-la	kʰa-la	crow	crow		2.2.4.1		0		2279,m
-526372	2029	Champhung	ŋa-sin-luŋ	ŋa-sin-luŋ	day	day		1.5.3.2		529165		m,7135
-526373	2029	Champhung	aval	aval	dog	dog		2.1.11		0		
-526374	2029	Champhung	kʰu-nu	kʰu-nu	ear	ear		1.2.7		528783		m,811a
-526375	2029	Champhung	ŋa-lai	ŋa-lai	earth	earth		3.2.11		528844		m,2453
-526376	2029	Champhung	ŋo-ri	ŋo-ri	egg	egg				528836		m,300
-526377	2029	Champhung	plo-bi	plo-bi	elephant	elephant		2.2.1		0		
-526378	2029	Champhung	a-mak	a-mak	eye	eye		1.2.6		0		p,682
-526379	2029	Champhung	i-bo	i-bo	father	father		4.7.1		529025		m,1634
-526380	2029	Champhung	a-mai	a-mai	fire	fire		3.2.12.2		0		
-526381	2029	Champhung	a-kʰai	a-kʰai	fish	fish		2.2.5		528818		m,6788
-526382	2029	Champhung	a-bun	a-bun	flower	flower		3.1.4		528909		m,2153
-526383	2029	Champhung	a-pʰai	a-pʰai	foot	foot		1.5.2		0		p,343
-526384	2029	Champhung	a-mɯ	a-mɯ	goat	goat		2.1.8		529028		m,4769
-526385	2029	Champhung	sam	sam	hair	hair		1.2.3		528878		366
-526386	2029	Champhung	a-pan	a-pan	hand	hand		1.5.1.1		528905		m,745
-526387	2029	Champhung	kau	kau	head	head		1.2.1		528861		386
-526388	2029	Champhung	a-vak	a-vak	hog	hog		2.1.12		528999		m,1006
-526389	2029	Champhung	ra-tsɯ	ra-tsɯ	horn	horn		1.2.2		528796		m,6766
-526390	2029	Champhung	sa-gol	sa-gol	horse	horse		2.1.7		528941		m,6023
-526391	2029	Champhung	a-ru	a-ru	house	house		5.11.9.1		0		
-526392	2029	Champhung	a-ruk	a-ruk	iron	iron		3.2.4		529091		m,7061
-526393	2029	Champhung	siŋ-nu	siŋ-nu	leaf	leaf		3.1.3		528786		m,402
-526394	2029	Champhung	war	war	light	light		7.1.11.1		529151		5683
-526395	2029	Champhung	sa-mɯ	sa-mɯ	man	man		1.9.6.1		529090		m,1002
-526396	2029	Champhung	kʰa-jo	kʰa-jo	monkey	monkey		2.1.9		528931		m,6049
-526397	2029	Champhung	a-su-bi	a-su-bi	moon	moon		3.2.2		0		
-526398	2029	Champhung	i-pe	i-pe	mother	mother		4.7.1		529026		m,2559
-526399	2029	Champhung	ka-pʰuŋ	ka-pʰuŋ	mountain	mountain		3.2.5		528934		m,6904
-526400	2029	Champhung	kʰa-mar	kʰa-mar	mouth	mouth		1.3.1		528955		m,467
-526401	2029	Champhung	ha-caŋ	ha-caŋ	mosquito	mosquito		2.2.6		529037		m,2328
-526402	2029	Champhung	a-maŋ	a-maŋ	name	name		5.8		528926		m,2450
-526403	2029	Champhung	ŋa-ju-la	ŋa-ju-la	night	night		9.1.4		529008		m,2784
-526404	2029	Champhung	li-pɯ	li-pɯ	plantain	plantain		3.1.5		0		
-526405	2029	Champhung	u-rai	u-rai	river	river		3.2.3		0		
-526406	2029	Champhung	lam-pi	lam-pi	road	road		9.10.1		529189		1017,7159
-526407	2029	Champhung	ka-sam	ka-sam	salt	salt		3.2.4		0		
-526408	2029	Champhung	a-hul	a-hul	skin	skin		1.6.5		528942		m,591
-526409	2029	Champhung	ta-ŋa-ram	ta-ŋa-ram	sky	sky		3.2.2		0		
-526410	2029	Champhung	rinam	rinam	snake	snake		2.1.6.1		0		
-526411	2029	Champhung	har-tʰi	har-tʰi	star	star		3.2.2		0		
-526412	2029	Champhung	ŋa-luŋ	ŋa-luŋ	stone	stone		3.2.9		528937		m,1269
-526413	2029	Champhung	ta-mak	ta-mak	sun	sun		3.2.10		0		
-526414	2029	Champhung	a-kʰu-bi	a-kʰu-bi	tiger	tiger		2.1.3		529127		m,2308
-526415	2029	Champhung	a-va	a-va	tooth	tooth		1.3.4		529007		m,632
-526416	2029	Champhung	a-siŋ	a-siŋ	tree	tree		3.1.2		528930		m,2658
-526417	2029	Champhung	ram	ram	village	village		5.8		528884		6093
-526418	2029	Champhung	tʰa-ri	tʰa-ri	water	water		3.2.3		528839		m,298
-526419	2029	Champhung	pa-tʰai	pa-tʰai	yam	yam		3.1.5		529027		6997
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+523756	2034	Maring	mar-tʰi	mar-tʰi	air	air			1.1.2.2		0			
+523757	2035	Khoibu	noŋ-li	noŋ-li	air	air			1.1.2.2		0			
+523758	2036	Rongmei / Nruanghmei	tʰi-raŋ	tʰi-raŋ	air	air			1.1.2.2		0			
+523759	2033	Sorbung	kʰi-raŋ	kʰi-raŋ	air	air			1.1.2.2		0			
+523760	2034	Maring	pʰa-jaŋ	pʰa-jaŋ	ant	ant			2.2.6		0			
+523761	2035	Khoibu	mi-liŋ	mi-liŋ	ant	ant			2.2.6		0			
+523762	2036	Rongmei / Nruanghmei	ta-ŋin	ta-ŋin	ant	ant			2.2.6		0			
+523763	2033	Sorbung	a-kʰau	a-kʰau	ant	ant			2.2.6		0			
+523764	2034	Maring	la	la	arrow	arrow			5.15		0			2386
+523765	2035	Khoibu	ma-la	ma-la	arrow	arrow			5.15		0			
+523766	2036	Rongmei / Nruanghmei	tʰan	tʰan	arrow	arrow			5.15		0			
+523767	2033	Sorbung	tʰe	tʰe	arrow	arrow			5.15		0			
+523768	2034	Maring	wa-ca	wa-ca	bird	bird			2.2.4		0			1603,m
+523769	2035	Khoibu	wa-tsa	wa-tsa	bird	bird			2.2.4		0			1603,m
+523770	2036	Rongmei / Nruanghmei	ma-sa	ma-sa	bird	bird			2.2.4		0			
+523771	2033	Sorbung	ma-te	ma-te	bird	bird			2.2.4		0			
+523772	2034	Maring	hi	hi	blood	blood			1.6.2		0			230
+523773	2035	Khoibu	hi	hi	blood	blood			1.6.2		0			
+523774	2036	Rongmei / Nruanghmei	tʰi	tʰi	blood	blood			1.6.2		0			230
+523775	2033	Sorbung	a-tʰi	a-tʰi	blood	blood			1.6.2		0			p,230
+523776	2034	Maring	li	li	boat	boat			5.1		0			2413
+523777	2035	Khoibu	ma-|li	ma-li	boat	boat			5.1		0			2413
+523778	2036	Rongmei / Nruanghmei	li	li	boat	boat			5.1		0			2413
+523779	2033	Sorbung	ra-koŋ	ra-koŋ	boat	boat			5.1		0			m,4319
+523780	2034	Maring	kʰru	kʰru	bone	bone			1.6.3		0			
+523781	2035	Khoibu	tʰu-ru	tʰu-ru	bone	bone			1.6.3		0			m,232
+523782	2036	Rongmei / Nruanghmei	ma-|ru	ma-ru	bone	bone			1.6.3		0			232
+523783	2033	Sorbung	a-ru	a-ru	bone	bone			1.6.3		0			p,232
+523784	2034	Maring	lui	lui	buffalo	buffalo			2.1.2		0			
+523785	2035	Khoibu	ra-loi	ra-loi	buffalo	buffalo			2.1.2		0			
+523786	2036	Rongmei / Nruanghmei	laoi	laoi	buffalo	buffalo			2.1.2		0			
+523787	2033	Sorbung	se-lɯi	se-lɯi	buffalo	buffalo			2.1.2		0			
+523788	2034	Maring	tuŋ	tuŋ	cat	cat			2.1.3		0			
+523789	2035	Khoibu	toŋ-kan	toŋ-kan	cat	cat			2.1.3		0			
+523790	2036	Rongmei / Nruanghmei	to-pi-sa	to-pi-sa	cat	cat			2.1.3		0			
+523791	2033	Sorbung	a-kʰan	a-kʰan	cat	cat			2.1.3		0			
+523792	2034	Maring	muk	muk	cow	cow			2.1.2		0			
+523793	2035	Khoibu	na-muk	na-muk	cow	cow			2.1.2		0			
+523794	2036	Rongmei / Nruanghmei	tom	tom	cow	cow			2.1.2		0			
+523795	2033	Sorbung	sa-muk	sa-muk	cow	cow			2.1.2		0			
+523796	2034	Maring	ak	ak	crow	crow			2.2.4.1		0			6695
+523797	2035	Khoibu	ha-tʰa-rak	ha-tʰa-rak	crow	crow			2.2.4.1		0			
+523798	2036	Rongmei / Nruanghmei	maa	maa	crow	crow			2.2.4.1		0			
+523799	2033	Sorbung	a-wak	a-wak	crow	crow			2.2.4.1		0			
+523800	2034	Maring	nuŋ-haŋ	nuŋ-haŋ	day	day			1.5.3.2		0			
+523801	2035	Khoibu	ha-tʰa-rak	ha-tʰa-rak	day	day			1.5.3.2		0			
+523802	2036	Rongmei / Nruanghmei	tam-lai	tam-lai	day	day			1.5.3.2		0			
+523803	2033	Sorbung	a-sɯn	a-sɯn	day	day			1.5.3.2		0			
+523804	2034	Maring	wi	wi	dog	dog			2.1.11		0			1764
+523805	2035	Khoibu	noŋ-jaŋ	noŋ-jaŋ	dog	dog			2.1.11		0			
+523806	2036	Rongmei / Nruanghmei	wi	wi	dog	dog			2.1.11		0			
+523807	2033	Sorbung	ɯ	ɯ	dog	dog			2.1.11		0			1764
+523808	2034	Maring	nha-mil	nha-mil	ear	ear			1.2.7		0			811,m
+523809	2035	Khoibu	wi	wi	ear	ear			1.2.7		0			
+523810	2036	Rongmei / Nruanghmei	ka-|na	ka-na	ear	ear			1.2.7		0			811
+523811	2033	Sorbung	na-kor	na-kor	ear	ear			1.2.7		0			811,665b
+523812	2034	Maring	klai	klai	earth	earth			3.2.11		0			
+523813	2035	Khoibu	kʰan	kʰan	earth	earth			3.2.11		0			
+523814	2036	Rongmei / Nruanghmei	ta-lai	ta-lai	earth	earth			3.2.11		0			
+523815	2033	Sorbung	a-lɯ	a-lɯ	earth	earth			3.2.11		0			
+523816	2034	Maring	wa-jui	wa-jui	egg	egg					0			1603,1013
+523817	2035	Khoibu	tʰa-lai	tʰa-lai	egg	egg					0			
+523818	2036	Rongmei / Nruanghmei	ma-ka-tui	ma-ka-tui	egg	egg					0			m,m,300
+523819	2033	Sorbung	ar-tɯ	ar-tɯ	egg	egg					0			m,300
+523820	2034	Maring	sai	sai	elephant	elephant			2.2.1		0			4649
+523821	2035	Khoibu	wa-jui	wa-jui	elephant	elephant			2.2.1		0			
+523822	2036	Rongmei / Nruanghmei	ta-poŋ	ta-poŋ	elephant	elephant			2.2.1		0			
+523823	2033	Sorbung	sai	sai	elephant	elephant			2.2.1		0			4649
+523824	2034	Maring	mit	mit	eye	eye			1.2.6		0			682
+523825	2035	Khoibu	ka-sai	ka-sai	eye	eye			1.2.6		0			
+523826	2036	Rongmei / Nruanghmei	mik	mik	eye	eye			1.2.6		0			682
+523827	2033	Sorbung	a-mit	a-mit	eye	eye			1.2.6		0			p,682
+523828	2034	Maring	pa-pa	pa-pa	father	father			4.7.1		0			
+523829	2035	Khoibu	mit	mit	father	father			4.7.1		0			
+523830	2036	Rongmei / Nruanghmei	a-pa	a-pa	father	father			4.7.1		0			
+523831	2033	Sorbung	pa	pa	father	father			4.7.1		0			
+523832	2034	Maring	mai	mai	fire	fire			3.2.12.2		0			
+523833	2035	Khoibu	pa	pa	fire	fire			3.2.12.2		0			
+523834	2036	Rongmei / Nruanghmei	mai	mai	fire	fire			3.2.12.2		0			
+523835	2033	Sorbung	mui	mui	fire	fire			3.2.12.2		0			
+523836	2034	Maring	hŋa	hŋa	fish	fish			2.2.5		0			1455
+523837	2035	Khoibu	mai	mai	fish	fish			2.2.5		0			
+523838	2036	Rongmei / Nruanghmei	ŋa	ŋa	fish	fish			2.2.5		0			1455
+523839	2033	Sorbung	ŋa	ŋa	fish	fish			2.2.5		0			1455
+523840	2034	Maring	par	par	flower	flower			3.1.4		0			2153
+523841	2035	Khoibu	tʰa-ŋa	tʰa-ŋa	flower	flower			3.1.4		0			
+523842	2036	Rongmei / Nruanghmei	rai	rai	flower	flower			3.1.4		0			
+523843	2033	Sorbung	ra-men	ra-men	flower	flower			3.1.4		0			
+523844	2034	Maring	ho	ho	foot	foot			1.5.2		0			
+523845	2035	Khoibu	par	par	foot	foot			1.5.2		0			
+523846	2036	Rongmei / Nruanghmei	ki	ki	foot	foot			1.5.2		0			338
+523847	2033	Sorbung	a-ke	a-ke	foot	foot			1.5.2		0			p,338
+523848	2034	Maring	klaŋ	klaŋ	goat	goat			2.1.8		0			
+523849	2035	Khoibu	waŋ	waŋ	goat	goat			2.1.8		0			
+523850	2036	Rongmei / Nruanghmei	ken	ken	goat	goat			2.1.8		0			
+523851	2033	Sorbung	ma-k-re	ma-k-re	goat	goat			2.1.8		0			
+523852	2034	Maring	sam	sam	hair	hair			1.2.3		0			366
+523853	2035	Khoibu	hiŋ-ŋau	hiŋ-ŋau	hair	hair			1.2.3		0			
+523854	2036	Rongmei / Nruanghmei	sam	sam	hair	hair			1.2.3		0			366
+523855	2033	Sorbung	sa-muk	sa-muk	hair	hair			1.2.3		0			
+523856	2034	Maring	hut	hut	hand	hand			1.5.1.1		0			712?
+523857	2035	Khoibu	sam	sam	hand	hand			1.5.1.1		0			
+523858	2036	Rongmei / Nruanghmei	kut	kut	hand	hand			1.5.1.1		0			
+523859	2033	Sorbung	kuit	kuit	hand	hand			1.5.1.1		0			
+523860	2034	Maring	lu	lu	head	head			1.2.1		0			1221
+523861	2035	Khoibu	kʰut	kʰut	head	head			1.2.1		0			
+523862	2036	Rongmei / Nruanghmei	lu	lu	head	head			1.2.1		0			1221
+523863	2033	Sorbung	a-lu	a-lu	head	head			1.2.1		0			p,1221
+523864	2034	Maring	wok	wok	hog	hog			2.1.12		0			
+523865	2035	Khoibu	lu	lu	hog	hog			2.1.12		0			
+523866	2036	Rongmei / Nruanghmei	bok	bok	hog	hog			2.1.12		0			
+523867	2033	Sorbung	ok	ok	hog	hog			2.1.12		0			
+523868	2034	Maring	ci	ci	horn	horn			1.2.2		0			2012
+523869	2035	Khoibu	hok	hok	horn	horn			1.2.2		0			
+523870	2036	Rongmei / Nruanghmei	ta-ki	ta-ki	horn	horn			1.2.2		0			p,2012
+523871	2033	Sorbung	ar-ki	ar-ki	horn	horn			1.2.2		0			p,2012
+523872	2034	Maring	puk	puk	horse	horse			2.1.7		0			
+523873	2035	Khoibu	at-si	at-si	horse	horse			2.1.7		0			
+523874	2036	Rongmei / Nruanghmei	ta-koan	ta-koan	horse	horse			2.1.7		0			
+523875	2033	Sorbung	sa-puk	sa-puk	horse	horse			2.1.7		0			
+523876	2034	Maring	cim	cim	house	house			5.11.9.1		0			1612
+523877	2035	Khoibu	ʃa-puk	ʃa-puk	house	house			5.11.9.1		0			
+523878	2036	Rongmei / Nruanghmei	in	in	house	house			5.11.9.1		0			1612
+523879	2033	Sorbung	jin	jin	house	house			5.11.9.1		0			1612
+523880	2034	Maring	tʰir	tʰir	iron	iron			3.2.4		0			2673
+523881	2035	Khoibu	tsim	tsim	iron	iron			3.2.4		0			
+523882	2036	Rongmei / Nruanghmei	tʰin	tʰin	iron	iron			3.2.4		0			
+523883	2033	Sorbung	tʰiar	tʰiar	iron	iron			3.2.4		0			2673
+523884	2034	Maring	na	na	leaf	leaf			3.1.3		0			402
+523885	2035	Khoibu	sak-wa	sak-wa	leaf	leaf			3.1.3		0			
+523886	2036	Rongmei / Nruanghmei	na	na	leaf	leaf			3.1.3		0			402
+523887	2033	Sorbung	tʰiŋ-na	tʰiŋ-na	leaf	leaf			3.1.3		0			
+523888	2034	Maring	war	war	light	light			7.1.11.1		0			5683
+523889	2035	Khoibu	na	na	light	light			7.1.11.1		0			
+523890	2036	Rongmei / Nruanghmei	ban	ban	light	light			7.1.11.1		0			
+523891	2033	Sorbung	war	war	light	light			7.1.11.1		0			5683
+523892	2034	Maring	hmi	hmi	man	man			1.9.6.1		0			1002
+523893	2035	Khoibu	war	war	man	man			1.9.6.1		0			
+523894	2036	Rongmei / Nruanghmei	mi	mi	man	man			1.9.6.1		0			
+523895	2033	Sorbung	pa-sa	pa-sa	man	man			1.9.6.1		0			
+523896	2034	Maring	juŋ	juŋ	monkey	monkey			2.1.9		0			6049
+523897	2035	Khoibu	tʰa-mi	tʰa-mi	monkey	monkey			2.1.9		0			
+523898	2036	Rongmei / Nruanghmei	ka-zjoŋ	ka-zjoŋ	monkey	monkey			2.1.9		0			
+523899	2033	Sorbung	joŋ	joŋ	monkey	monkey			2.1.9		0			6049
+523900	2034	Maring	taŋ-la	taŋ-la	moon	moon			3.2.2		0			m,1016
+523901	2035	Khoibu	ha-joŋ	ha-joŋ	moon	moon			3.2.2		0			
+523902	2036	Rongmei / Nruanghmei	tʰa	tʰa	moon	moon			3.2.2		0			
+523903	2033	Sorbung	a-kʰa	a-kʰa	moon	moon			3.2.2		0			
+523904	2034	Maring	tʰaŋ-kran	tʰaŋ-kran	mosquito	mosquito			2.2.6		0			
+523905	2035	Khoibu	mur	mur	mosquito	mosquito			2.2.6		0			
+523906	2036	Rongmei / Nruanghmei	kaŋ	kaŋ	mosquito	mosquito			2.2.6		0			
+523907	2033	Sorbung	saŋ-san	saŋ-san	mosquito	mosquito			2.2.6		0			
+523908	2034	Maring	ta-da	ta-da	mother	mother			4.7.1		0			
+523909	2035	Khoibu	taŋ-la	taŋ-la	mother	mother			4.7.1		0			
+523910	2036	Rongmei / Nruanghmei	a-nu	a-nu	mother	mother			4.7.1		0			
+523911	2033	Sorbung	noa	noa	mother	mother			4.7.1		0			
+523912	2034	Maring	kʰluŋ	kʰluŋ	mountain	mountain			3.2.5		0			
+523913	2035	Khoibu	nu-bi	nu-bi	mountain	mountain			3.2.5		0			
+523914	2036	Rongmei / Nruanghmei	ciŋ	ciŋ	mountain	mountain			3.2.5		0			
+523915	2033	Sorbung	ram-tʰiŋ	ram-tʰiŋ	mountain	mountain			3.2.5		0			
+523916	2034	Maring	mur	mur	mouth	mouth			1.3.1		0			467
+523917	2035	Khoibu	ram-tʰiŋ	ram-tʰiŋ	mouth	mouth			1.3.1		0			
+523918	2036	Rongmei / Nruanghmei	ma-mun	ma-mun	mouth	mouth			1.3.1		0			m,467
+523919	2033	Sorbung	mur	mur	mouth	mouth			1.3.1		0			467
+523920	2034	Maring	miŋ	miŋ	name	name			5.8		0			2450
+523921	2035	Khoibu	tʰaŋ-tan	tʰaŋ-tan	name	name			5.8		0			
+523922	2036	Rongmei / Nruanghmei	miŋ	miŋ	name	name			5.8		0			2450
+523923	2033	Sorbung	ar-|min	ar-min	name	name			5.8		0			2450
+523924	2034	Maring	mea	mea	night	night			9.1.4		0			
+523925	2035	Khoibu	miŋ	miŋ	night	night			9.1.4		0			
+523926	2036	Rongmei / Nruanghmei	zjiŋ-pʰa	zjiŋ-pʰa	night	night			9.1.4		0			
+523927	2033	Sorbung	a-jan	a-jan	night	night			9.1.4		0			
+523928	2034	Maring	tʰrik	tʰrik	oil	oil			1.6.4.1		0			40
+523929	2035	Khoibu	ra-sa	ra-sa	oil	oil			1.6.4.1		0			
+523930	2036	Rongmei / Nruanghmei	tʰau	tʰau	oil	oil			1.6.4.1		0			60
+523931	2033	Sorbung	tʰau	tʰau	oil	oil			1.6.4.1		0			
+523932	2034	Maring	mu-tʰai	mu-tʰai	plantain	plantain			3.1.5		0			
+523933	2035	Khoibu	ʃe-rek	ʃe-rek	plantain	plantain			3.1.5		0			
+523934	2036	Rongmei / Nruanghmei	ŋa-caŋ	ŋa-caŋ	plantain	plantain			3.1.5		0			
+523935	2033	Sorbung	mɯt	mɯt	plantain	plantain			3.1.5		0			
+523936	2034	Maring	tu-lil	tu-lil	river	river			3.2.3		0			
+523937	2035	Khoibu	mo-tʰai	mo-tʰai	river	river			3.2.3		0			
+523938	2036	Rongmei / Nruanghmei	tui-koak	tui-koak	river	river			3.2.3		0			
+523939	2033	Sorbung	tɯ	tɯ	river	river			3.2.3		0			
+523940	2034	Maring	lam	lam	road	road			9.10.1		0			1017
+523941	2035	Khoibu	koŋ-pwi	koŋ-pwi	road	road			9.10.1		0			
+523942	2036	Rongmei / Nruanghmei	lam-pwi	lam-pwi	road	road			9.10.1		0			1017,m
+523943	2033	Sorbung	lam-pɯ	lam-pɯ	road	road			9.10.1		0			1017,m
+523944	2034	Maring	ti	ti	salt	salt			3.2.4		0			
+523945	2035	Khoibu	mi-ti	mi-ti	salt	salt			3.2.4		0			
+523946	2036	Rongmei / Nruanghmei	ma-ci	ma-ci	salt	salt			3.2.4		0			
+523947	2033	Sorbung	ma-ci	ma-ci	salt	salt			3.2.4		0			
+523948	2034	Maring	wun	wun	skin	skin			1.6.5		0			591
+523949	2035	Khoibu	un	un	skin	skin			1.6.5		0			591
+523950	2036	Rongmei / Nruanghmei	mun	mun	skin	skin			1.6.5		0			
+523951	2033	Sorbung	ar-hɯn	ar-hɯn	skin	skin			1.6.5		0			
+523952	2034	Maring	nuŋ-tʰau	nuŋ-tʰau	sky	sky			3.2.2		0			
+523953	2035	Khoibu	tʰaŋ-wan	tʰaŋ-wan	sky	sky			3.2.2		0			
+523954	2036	Rongmei / Nruanghmei	taŋ-ban	taŋ-ban	sky	sky			3.2.2		0			
+523955	2033	Sorbung	ar-wal-loŋ	ar-wal-loŋ	sky	sky			3.2.2		0			
+523956	2034	Maring	pʰ-|rul	pʰ-rul	snake	snake			2.1.6.1		0			2623
+523957	2035	Khoibu	pʰu-|run	pʰu-run	snake	snake			2.1.6.1		0			2623
+523958	2036	Rongmei / Nruanghmei	ma-|run	ma-run	snake	snake			2.1.6.1		0			2623
+523959	2033	Sorbung	ma-ri	ma-ri	snake	snake			2.1.6.1		0			
+523960	2034	Maring	sor-wa	sor-wa	star	star			3.2.2		0			3575,s
+523961	2035	Khoibu	tik-ron	tik-ron	star	star			3.2.2		0			
+523962	2036	Rongmei / Nruanghmei	in-si	in-si	star	star			3.2.2		0			
+523963	2033	Sorbung	ar-|ʃi	ar-ʃi	star	star			3.2.2		0			2300,1019
+523964	2034	Maring	kʰ-luŋ	kʰ-luŋ	stone	stone			3.2.9		0			
+523965	2035	Khoibu	tʰul-luŋ	tʰul-luŋ	stone	stone			3.2.9		0			
+523966	2036	Rongmei / Nruanghmei	luŋ	luŋ	stone	stone			3.2.9		0			
+523967	2033	Sorbung	luŋ	luŋ	stone	stone			3.2.9		0			
+523968	2034	Maring	nuŋ-mit	nuŋ-mit	sun	sun			3.2.10		0			
+523969	2035	Khoibu	noŋ-mit	noŋ-mit	sun	sun			3.2.10		0			
+523970	2036	Rongmei / Nruanghmei	ri-mik	ri-mik	sun	sun			3.2.10		0			
+523971	2033	Sorbung	a-ni	a-ni	sun	sun			3.2.10		0			p,85
+523972	2034	Maring	hum-wi	hum-wi	tiger	tiger			2.1.3		0			
+523973	2035	Khoibu	homp-wi	homp-wi	tiger	tiger			2.1.3		0			
+523974	2036	Rongmei / Nruanghmei	ta-kʰu	ta-kʰu	tiger	tiger			2.1.3		0			
+523975	2033	Sorbung	ham-pɯ	ham-pɯ	tiger	tiger			2.1.3		0			
+523976	2034	Maring	ha	ha	tooth	tooth			1.3.4		0			
+523977	2035	Khoibu	ha	ha	tooth	tooth			1.3.4		0			
+523978	2036	Rongmei / Nruanghmei	ŋa	ŋa	tooth	tooth			1.3.4		0			
+523979	2033	Sorbung	a-lar-ra	a-lar-ra	tooth	tooth			1.3.4		0			
+523980	2034	Maring	hiŋ-bal	hiŋ-bal	tree	tree			3.1.2		0			2658,m
+523981	2035	Khoibu	hiŋ-toŋ	hiŋ-toŋ	tree	tree			3.1.2		0			
+523982	2036	Rongmei / Nruanghmei	tʰiŋ-kuŋ	tʰiŋ-kuŋ	tree	tree			3.1.2		0			2658,m
+523983	2033	Sorbung	tʰiŋ	tʰiŋ	tree	tree			3.1.2		0			
+523984	2034	Maring	jul	jul	village	village			5.8		0			
+523985	2035	Khoibu	jon	jon	village	village			5.8		0			
+523986	2036	Rongmei / Nruanghmei	nam	nam	village	village			5.8		0			5746
+523987	2033	Sorbung	ram	ram	village	village			5.8		0			6093
+523988	2034	Maring	jui	jui	water	water			3.2.3		0			1013
+523989	2035	Khoibu	jui	jui	water	water			3.2.3		0			
+523990	2036	Rongmei / Nruanghmei	tui	tui	water	water			3.2.3		0			298
+523991	2033	Sorbung	tɯ	tɯ	water	water			3.2.3		0			
+523992	2034	Maring	bal	bal	yam	yam			3.1.5		0			
+523993	2035	Khoibu	ra	ra	yam	yam			3.1.5		0			
+523994	2036	Rongmei / Nruanghmei	ban-ra	ban-ra	yam	yam			3.1.5		0			
+523995	2033	Sorbung	wi-ra	wi-ra	yam	yam			3.1.5		0			
+526177	2026	Tankghul (Central)	ma-ʃia	ma-ʃia	air	air			1.1.2.2		529021			m,2412
+526178	2026	Tankghul (Central)	cam-ca	cam-ca	ant	ant			2.2.6		0			
+526179	2026	Tankghul (Central)	ma-la	ma-la	arrow	arrow			5.15		528764			m,2386
+526180	2026	Tankghul (Central)	o-ta	o-ta	bird	bird			2.2.4		529126			m,1604
+526181	2026	Tankghul (Central)	un-si	un-si	blood	blood			1.6.2		528789			m,230
+526182	2026	Tankghul (Central)	ma-|lhi	ma-lhi	boat	boat			5.1		0			2413
+526183	2026	Tankghul (Central)	u-ru	u-ru	bone	bone			1.6.3		528808			m,232
+526184	2026	Tankghul (Central)	ʃi	ʃi	buffalo	buffalo			2.1.2		529250			7160
+526185	2026	Tankghul (Central)	tu-mi	tu-mi	cat	cat			2.1.3		529063			m,7033
+526186	2026	Tankghul (Central)	sa-muk	sa-muk	cow	cow			2.1.2		529167			m,5607
+526187	2026	Tankghul (Central)	hoŋ-kʰa	hoŋ-kʰa	crow	crow			2.2.4.1		0			m,2279
+526188	2026	Tankghul (Central)	ma-suŋ	ma-suŋ	day	day			1.5.3.2		529165			m,7135
+526189	2026	Tankghul (Central)	si	si	dog	dog			2.1.11		0			
+526190	2026	Tankghul (Central)	o-kʰa-na	o-kʰa-na	ear	ear			1.2.7		528783			m,m,811a
+526191	2026	Tankghul (Central)	ŋa-lai	ŋa-lai	earth	earth			3.2.11		528844			m,2453
+526192	2026	Tankghul (Central)	a-tɯ	a-tɯ	egg	egg					528836			m,300
+526193	2026	Tankghul (Central)	sa-ka-tai	sa-ka-tai	elephant	elephant			2.2.1		529039			m,m,2697
+526194	2026	Tankghul (Central)	o-mit	o-mit	eye	eye			1.2.6		529253			m,p,b?,682
+526195	2026	Tankghul (Central)	o-pa	o-pa	father	father			4.7.1		529025			m,1634
+526196	2026	Tankghul (Central)	mai	mai	fire	fire			3.2.12.2		528845			2136
+526197	2026	Tankghul (Central)	sa-ŋa	sa-ŋa	fish	fish			2.2.5		529064			m,1455
+526198	2026	Tankghul (Central)	pie	pie	flower	flower			3.1.4		528909			2153
+526199	2026	Tankghul (Central)	o-kʰo	o-kʰo	foot	foot			1.5.2		529251			m,7161
+526200	2026	Tankghul (Central)	mi-k-re	mi-k-re	goat	goat			2.1.8		529028			4769
+526201	2026	Tankghul (Central)	ko-sen	ko-sen	hair	hair			1.2.3		528878			m,366
+526202	2026	Tankghul (Central)	kʰut	kʰut	hand	hand			1.5.1.1		529252			712
+526203	2026	Tankghul (Central)	o-kao	o-kao	head	head			1.2.1		528861			m,386
+526204	2026	Tankghul (Central)	hok	hok	hog	hog			2.1.12		528999			1006
+526205	2026	Tankghul (Central)	m-ci	m-ci	horn	horn			1.2.2		528796			m,6766
+526206	2026	Tankghul (Central)	sa-koi	sa-koi	horse	horse			2.1.7		528941			m,6023
+526207	2026	Tankghul (Central)	ʃin	ʃin	house	house			5.11.9.1		528889			1612
+526208	2026	Tankghul (Central)	ma-ri	ma-ri	iron	iron			3.2.4		529091			m,7061
+526209	2026	Tankghul (Central)	tʰi-na	tʰi-na	leaf	leaf			3.1.3		528786			m,402
+526210	2026	Tankghul (Central)	ʃea	ʃea	light	light			7.1.11.1		0			
+526211	2026	Tankghul (Central)	mi	mi	man	man			1.9.6.1		529090			1002
+526212	2026	Tankghul (Central)	na-joŋ	na-joŋ	monkey	monkey			2.1.9		528931			m,6049
+526213	2026	Tankghul (Central)	ka-ceaŋ	ka-ceaŋ	moon	moon			3.2.2		529034			m,7004
+526214	2026	Tankghul (Central)	o-nu	o-nu	mother	mother			4.7.1		0			
+526215	2026	Tankghul (Central)	ka-pʰuŋ	ka-pʰuŋ	mountain	mountain			3.2.5		528934			m,6904
+526216	2026	Tankghul (Central)	o-nia	o-nia	mouth	mouth			1.3.1		0			
+526217	2026	Tankghul (Central)	hai-ceaŋ	hai-ceaŋ	mosquito	mosquito			2.2.6		529037			m,2328
+526218	2026	Tankghul (Central)	o-min	o-min	name	name			5.8		528926			m,2450
+526219	2026	Tankghul (Central)	ro-sa	ro-sa	night	night			9.1.4		0			
+526220	2026	Tankghul (Central)	tʰau	tʰau	oil	oil			1.6.4.1		528832			60
+526221	2026	Tankghul (Central)	mot-tʰai	mot-tʰai	plantain	plantain			3.1.5		528980			6950
+526222	2026	Tankghul (Central)	tɯ-tʰau	tɯ-tʰau	river	river			3.2.3		0			
+526223	2026	Tankghul (Central)	som-bɯi	som-bɯi	road	road			9.10.1		529006			6976,7159
+526224	2026	Tankghul (Central)	som-bɯi	som-bɯi	road	road			9.10.1		529189			6976,7159
+526225	2026	Tankghul (Central)	ma-ci	ma-ci	salt	salt			3.2.4		528800			m,2747
+526226	2026	Tankghul (Central)	o-hoi	o-hoi	skin	skin			1.6.5		528942			m,591
+526227	2026	Tankghul (Central)	ka-ci-raŋ	ka-ci-raŋ	sky	sky			3.2.2		528927			m,6312
+526228	2026	Tankghul (Central)	pʰrɯi	pʰrɯi	snake	snake			2.1.6.1		528943			2623
+526229	2026	Tankghul (Central)	sa-pa-ceŋ-la	sa-pa-ceŋ-la	star	star			3.2.2		529077			m,m,m,7047
+526230	2026	Tankghul (Central)	luŋ	luŋ	stone	stone			3.2.9		528937			1269
+526231	2026	Tankghul (Central)	o-hi-mit	o-hi-mit	sun	sun			3.2.10		0			
+526232	2026	Tankghul (Central)	sa-kwi	sa-kwi	tiger	tiger			2.1.3		529127			m,2308
+526233	2026	Tankghul (Central)	o-ha	o-ha	tooth	tooth			1.3.4		529007			m,632
+526234	2026	Tankghul (Central)	tʰiŋ-baŋ	tʰiŋ-baŋ	tree	tree			3.1.2		528930			2658
+526235	2026	Tankghul (Central)	ram	ram	village	village			5.8		528884			6093
+526236	2026	Tankghul (Central)	kʰui	kʰui	village	village			5.8		528945			6915
+526237	2026	Tankghul (Central)	tɯn-dɯ	tɯn-dɯ	water	water			3.2.3		528839			m,298
+526238	2026	Tankghul (Central)	ber-ha	ber-ha	yam	yam			3.1.5		529027			6997
+526239	2027	Tangkhul (Northern)	ma-sɯ	ma-sɯ	air	air			1.1.2.2		529021			m,2412
+526240	2027	Tangkhul (Northern)	laŋ-za	laŋ-za	ant	ant			2.2.6		529046			7016
+526241	2027	Tangkhul (Northern)	ma-la	ma-la	arrow	arrow			5.15		528764			m,2386
+526242	2027	Tangkhul (Northern)	a-ta	a-ta	bird	bird			2.2.4		529126			m,1604
+526243	2027	Tangkhul (Northern)	a-sɯ	a-sɯ	blood	blood			1.6.2		528789			m,230
+526244	2027	Tangkhul (Northern)	mal-bɯ	mal-bɯ	boat	boat			5.1		0			
+526245	2027	Tangkhul (Northern)	a-rɯ-kau	a-rɯ-kau	bone	bone			1.6.3		528808			m,232
+526246	2027	Tangkhul (Northern)	ʃi	ʃi	buffalo	buffalo			2.1.2		529250			7160
+526247	2027	Tangkhul (Northern)	la-me	la-me	cat	cat			2.1.3		529063			m,7033
+526248	2027	Tangkhul (Northern)	sa-muk	sa-muk	cow	cow			2.1.2		529167			m,5607
+526249	2027	Tangkhul (Northern)	kʰuŋ-kʰa	kʰuŋ-kʰa	crow	crow			2.2.4.1		0			m,2279
+526250	2027	Tangkhul (Northern)	ma-sɯ-tum	ma-sɯ-tum	day	day			1.5.3.2		0			
+526251	2027	Tangkhul (Northern)	pʰɯ	pʰɯ	dog	dog			2.1.11		0			
+526252	2027	Tangkhul (Northern)	a-kʰa-na	a-kʰa-na	ear	ear			1.2.7		528783			m,m,811a
+526253	2027	Tangkhul (Northern)	ma-lai	ma-lai	earth	earth			3.2.11		528844			m,2453
+526254	2027	Tangkhul (Northern)	ha-cɯ	ha-cɯ	egg	egg					528836			m,300
+526255	2027	Tangkhul (Northern)	ma-|pʰɯ	ma-pʰɯ	elephant	elephant			2.2.1		529038			2257
+526256	2027	Tangkhul (Northern)	a-mi-ca	a-mi-ca	eye	eye			1.2.6		528992			m,682
+526257	2027	Tangkhul (Northern)	a-pa	a-pa	father	father			4.7.1		529025			m,1634
+526258	2027	Tangkhul (Northern)	mai	mai	fire	fire			3.2.12.2		528845			2136
+526259	2027	Tangkhul (Northern)	kʰi	kʰi	fish	fish			2.2.5		528818			6788
+526260	2027	Tangkhul (Northern)	pie	pie	flower	flower			3.1.4		528909			2153
+526261	2027	Tangkhul (Northern)	a-kʰo	a-kʰo	foot	foot			1.5.2		529251			m,7161
+526262	2027	Tangkhul (Northern)	mi	mi	goat	goat			2.1.8		529028			4769
+526263	2027	Tangkhul (Northern)	ko-sen	ko-sen	hair	hair			1.2.3		528878			m,366
+526264	2027	Tangkhul (Northern)	a-kʰui	a-kʰui	hand	hand			1.5.1.1		529252			m,712
+526265	2027	Tangkhul (Northern)	a-kao	a-kao	head	head			1.2.1		528861			m,386
+526266	2027	Tangkhul (Northern)	hok	hok	hog	hog			2.1.12		528999			1006
+526267	2027	Tangkhul (Northern)	a-kat-sɯ	a-kat-sɯ	horn	horn			1.2.2		528796			m,m,6766
+526268	2027	Tangkhul (Northern)	sa-koi	sa-koi	horse	horse			2.1.7		528941			m,6023
+526269	2027	Tangkhul (Northern)	ʃin	ʃin	house	house			5.11.9.1		528889			1612
+526270	2027	Tangkhul (Northern)	ma-rɯ	ma-rɯ	iron	iron			3.2.4		529091			m,7061
+526271	2027	Tangkhul (Northern)	tʰi-na	tʰi-na	leaf	leaf			3.1.3		528786			m,402
+526272	2027	Tangkhul (Northern)	ʃe	ʃe	light	light			7.1.11.1		0			
+526273	2027	Tangkhul (Northern)	mɯ	mɯ	man	man			1.9.6.1		529090			1002
+526274	2027	Tangkhul (Northern)	na-joŋ	na-joŋ	monkey	monkey			2.1.9		528931			m,6049
+526275	2027	Tangkhul (Northern)	ka-ceaŋ	ka-ceaŋ	moon	moon			3.2.2		529034			m,7004
+526276	2027	Tangkhul (Northern)	a-pʰɯ	a-pʰɯ	mother	mother			4.7.1		529026			m,2559
+526277	2027	Tangkhul (Northern)	ka-pʰuŋ	ka-pʰuŋ	mountain	mountain			3.2.5		528934			m,6904
+526278	2027	Tangkhul (Northern)	a-nia	a-nia	mouth	mouth			1.3.1		0			
+526279	2027	Tangkhul (Northern)	ha-ceaŋ	ha-ceaŋ	mosquito	mosquito			2.2.6		529037			m,2328
+526280	2027	Tangkhul (Northern)	a-mi	a-mi	name	name			5.8		528926			m,2450
+526281	2027	Tangkhul (Northern)	ma-ja	ma-ja	night	night			9.1.4		529008			m,2784
+526282	2027	Tangkhul (Northern)	tʰau	tʰau	oil	oil			1.6.4.1		528832			60
+526283	2027	Tangkhul (Northern)	mot-tʰai	mot-tʰai	plantain	plantain			3.1.5		528980			6950
+526284	2027	Tangkhul (Northern)	koŋ	koŋ	river	river			3.2.3		529071			2322
+526285	2027	Tangkhul (Northern)	som-pʰɯ	som-pʰɯ	road	road			9.10.1		529006			6976,7159
+526286	2027	Tangkhul (Northern)	som-pʰɯ	som-pʰɯ	road	road			9.10.1		529189			6976,7159
+526287	2027	Tangkhul (Northern)	n-tsɯ	n-tsɯ	salt	salt			3.2.4		528800			m,2747
+526288	2027	Tangkhul (Northern)	a-hɯ	a-hɯ	skin	skin			1.6.5		528942			m,591
+526289	2027	Tangkhul (Northern)	ka-zi-raŋ	ka-zi-raŋ	sky	sky			3.2.2		528927			m,6312
+526290	2027	Tangkhul (Northern)	pʰrɯ	pʰrɯ	snake	snake			2.1.6.1		528943			2623
+526291	2027	Tangkhul (Northern)	sa-pa-ceŋ-la	sa-pa-ceŋ-la	star	star			3.2.2		529077			m,m,m,7047
+526292	2027	Tangkhul (Northern)	luŋ-gau	luŋ-gau	stone	stone			3.2.9		528937			1269
+526293	2027	Tangkhul (Northern)	ji-mit	ji-mit	sun	sun			3.2.10		0			
+526294	2027	Tangkhul (Northern)	sa-kʰwɯ	sa-kʰwɯ	tiger	tiger			2.1.3		529127			m,2308
+526295	2027	Tangkhul (Northern)	a-ha	a-ha	tooth	tooth			1.3.4		529007			m,632
+526296	2027	Tangkhul (Northern)	tʰiŋ-baŋ	tʰiŋ-baŋ	tree	tree			3.1.2		528930			2658
+526297	2027	Tangkhul (Northern)	ra-haŋ	ra-haŋ	village	village			5.8		528884			6093
+526298	2027	Tangkhul (Northern)	ai-cɯ	ai-cɯ	water	water			3.2.3		528839			m,298
+526299	2027	Tangkhul (Northern)	ber-ha	ber-ha	yam	yam			3.1.5		529027			6997
+526300	2028	Tangkhul (Standard)	ma-si	ma-si	air	air			1.1.2.2		529021			m,2412
+526301	2028	Tangkhul (Standard)	ca-liŋ	ca-liŋ	ant	ant			2.2.6		529046			m,7016
+526302	2028	Tangkhul (Standard)	ma-la	ma-la	arrow	arrow			5.15		528764			m,2386
+526303	2028	Tangkhul (Standard)	va	va	bird	bird			2.2.4		528762			1603
+526304	2028	Tangkhul (Standard)	a-ʃi	a-ʃi	blood	blood			1.6.2		528789			m,230
+526305	2028	Tangkhul (Standard)	ma-|ri-kʰoŋ	ma-ri-kʰoŋ	boat	boat			5.1		529040			2413,7010
+526306	2028	Tangkhul (Standard)	a-rɯ	a-rɯ	bone	bone			1.6.3		528808			m,232
+526307	2028	Tangkhul (Standard)	si-loi	si-loi	buffalo	buffalo			2.1.2		528873			7160,2427
+526308	2028	Tangkhul (Standard)	la-mi	la-mi	cat	cat			2.1.3		529063			m,7033
+526309	2028	Tangkhul (Standard)	si-muk	si-muk	cow	cow			2.1.2		529167			m,5607
+526310	2028	Tangkhul (Standard)	haŋ-kʰa	haŋ-kʰa	crow	crow			2.2.4.1		0			m,2279
+526311	2028	Tangkhul (Standard)	ŋa-sun	ŋa-sun	day	day			1.5.3.2		529165			m,7135
+526312	2028	Tangkhul (Standard)	tʰɯ	tʰɯ	dog	dog			2.1.11		0			
+526313	2028	Tangkhul (Standard)	kʰa-na	kʰa-na	ear	ear			1.2.7		528783			m,811a
+526314	2028	Tangkhul (Standard)	ŋa-lai	ŋa-lai	earth	earth			3.2.11		528844			m,2453
+526315	2028	Tangkhul (Standard)	ha-rɯ	ha-rɯ	egg	egg					528836			m,300
+526316	2028	Tangkhul (Standard)	ma-|vɯ	ma-vɯ	elephant	elephant			2.2.1		529038			2257
+526317	2028	Tangkhul (Standard)	mik	mik	eye	eye			1.2.6		0			682
+526318	2028	Tangkhul (Standard)	a-va	a-va	father	father			4.7.1		529025			m,1634
+526319	2028	Tangkhul (Standard)	mai	mai	fire	fire			3.2.12.2		528845			2136
+526320	2028	Tangkhul (Standard)	kʰai	kʰai	fish	fish			2.2.5		528818			6788
+526321	2028	Tangkhul (Standard)	won	won	flower	flower			3.1.4		528909			2153
+526322	2028	Tangkhul (Standard)	pʰai	pʰai	foot	foot			1.5.2		0			343
+526323	2028	Tangkhul (Standard)	me	me	goat	goat			2.1.8		529028			4769
+526324	2028	Tangkhul (Standard)	sam	sam	hair	hair			1.2.3		528878			366
+526325	2028	Tangkhul (Standard)	paŋ	paŋ	hand	hand			1.5.1.1		528905			745
+526326	2028	Tangkhul (Standard)	kui	kui	head	head			1.2.1		528861			386
+526327	2028	Tangkhul (Standard)	hok	hok	hog	hog			2.1.12		528999			1006
+526328	2028	Tangkhul (Standard)	ŋa-ci	ŋa-ci	horn	horn			1.2.2		528796			m,6766
+526329	2028	Tangkhul (Standard)	si-kwi	si-kwi	horse	horse			2.1.7		528941			m,6023
+526330	2028	Tangkhul (Standard)	ʃim	ʃim	house	house			5.11.9.1		528889			1612
+526331	2028	Tangkhul (Standard)	tin	tin	iron	iron			3.2.4		529092			2673
+526332	2028	Tangkhul (Standard)	na	na	leaf	leaf			3.1.3		528786			402
+526333	2028	Tangkhul (Standard)	hor	hor	light	light			7.1.11.1		529151			5683
+526334	2028	Tangkhul (Standard)	mi	mi	man	man			1.9.6.1		529090			1002
+526335	2028	Tangkhul (Standard)	na-joŋ	na-joŋ	monkey	monkey			2.1.9		528931			m,6049
+526336	2028	Tangkhul (Standard)	ka-caŋ	ka-caŋ	moon	moon			3.2.2		529034			m,7004
+526337	2028	Tangkhul (Standard)	a-vɯ	a-vɯ	mother	mother			4.7.1		529026			m,2559
+526338	2028	Tangkhul (Standard)	ka-pʰuŋ	ka-pʰuŋ	mountain	mountain			3.2.5		528934			m,6904
+526339	2028	Tangkhul (Standard)	kʰa-mor	kʰa-mor	mouth	mouth			1.3.1		528955			m,467
+526340	2028	Tangkhul (Standard)	ha-caŋ	ha-caŋ	mosquito	mosquito			2.2.6		529037			m,2328
+526341	2028	Tangkhul (Standard)	miŋ	miŋ	name	name			5.8		528926			2450
+526342	2028	Tangkhul (Standard)	ŋa-ja	ŋa-ja	night	night			9.1.4		529008			m,2784
+526343	2028	Tangkhul (Standard)	tʰau-rɯ	tʰau-rɯ	oil	oil			1.6.4.1		528832			60
+526344	2028	Tangkhul (Standard)	na-na	na-na	plantain	plantain			3.1.5		0			
+526345	2028	Tangkhul (Standard)	koŋ	koŋ	river	river			3.2.3		529071			2322
+526346	2028	Tangkhul (Standard)	soŋ-vɯ	soŋ-vɯ	road	road			9.10.1		529006			6976,7159
+526347	2028	Tangkhul (Standard)	soŋ-vɯ	soŋ-vɯ	road	road			9.10.1		529189			6976,7159
+526348	2028	Tangkhul (Standard)	ma-ci	ma-ci	salt	salt			3.2.4		528800			m,2747
+526349	2028	Tangkhul (Standard)	a-hui	a-hui	skin	skin			1.6.5		528942			m,591
+526350	2028	Tangkhul (Standard)	ka-ziŋ	ka-ziŋ	sky	sky			3.2.2		528927			m,6312
+526351	2028	Tangkhul (Standard)	pʰa-|rɯ	pʰa-rɯ	snake	snake			2.1.6.1		528943			2623
+526352	2028	Tangkhul (Standard)	si-rva	si-rva	star	star			3.2.2		529019			m,6989
+526353	2028	Tangkhul (Standard)	ŋa-luŋ	ŋa-luŋ	stone	stone			3.2.9		528937			m,1269
+526354	2028	Tangkhul (Standard)	tsiŋ-mik	tsiŋ-mik	sun	sun			3.2.10		0			
+526355	2028	Tangkhul (Standard)	saŋ-kʰu	saŋ-kʰu	tiger	tiger			2.1.3		529127			m,2308
+526356	2028	Tangkhul (Standard)	ha	ha	tooth	tooth			1.3.4		529007			632
+526357	2028	Tangkhul (Standard)	tʰiŋ-roŋ	tʰiŋ-roŋ	tree	tree			3.1.2		528930			2658
+526358	2028	Tangkhul (Standard)	ram-kʰɯ	ram-kʰɯ	village	village			5.8		528884			6093
+526359	2028	Tangkhul (Standard)	ta-rɯ	ta-rɯ	water	water			3.2.3		528839			m,298
+526360	2028	Tangkhul (Standard)	la-suk-pai	la-suk-pai	yam	yam			3.1.5		529027			m,m,6997
+526361	2029	Champhung	pʰan-ra	pʰan-ra	air	air			1.1.2.2		0			
+526362	2029	Champhung	ciŋ-kʰa	ciŋ-kʰa	ant	ant			2.2.6		0			
+526363	2029	Champhung	ma-lu	ma-lu	arrow	arrow			5.15		528764			m,2386
+526364	2029	Champhung	ŋu-tʰe	ŋu-tʰe	bird	bird			2.2.4		529126			m,1604
+526365	2029	Champhung	a-zi	a-zi	blood	blood			1.6.2		528789			m,230
+526366	2029	Champhung	ma-|ri-kʰo	ma-ri-kʰo	boat	boat			5.1		529040			2413,7010
+526367	2029	Champhung	so-rɯ	so-rɯ	bone	bone			1.6.3		528808			m,232
+526368	2029	Champhung	ŋa-lɯi	ŋa-lɯi	buffalo	buffalo			2.1.2		528873			m,2427
+526369	2029	Champhung	ha-ŋau-bi	ha-ŋau-bi	cat	cat			2.1.3		0			
+526370	2029	Champhung	ʃe-muk	ʃe-muk	cow	cow			2.1.2		529167			m,5607
+526371	2029	Champhung	kʰa-la	kʰa-la	crow	crow			2.2.4.1		0			2279,m
+526372	2029	Champhung	ŋa-sin-luŋ	ŋa-sin-luŋ	day	day			1.5.3.2		529165			m,7135
+526373	2029	Champhung	aval	aval	dog	dog			2.1.11		0			
+526374	2029	Champhung	kʰu-nu	kʰu-nu	ear	ear			1.2.7		528783			m,811a
+526375	2029	Champhung	ŋa-lai	ŋa-lai	earth	earth			3.2.11		528844			m,2453
+526376	2029	Champhung	ŋo-ri	ŋo-ri	egg	egg					528836			m,300
+526377	2029	Champhung	plo-bi	plo-bi	elephant	elephant			2.2.1		0			
+526378	2029	Champhung	a-mak	a-mak	eye	eye			1.2.6		0			p,682
+526379	2029	Champhung	i-bo	i-bo	father	father			4.7.1		529025			m,1634
+526380	2029	Champhung	a-mai	a-mai	fire	fire			3.2.12.2		0			
+526381	2029	Champhung	a-kʰai	a-kʰai	fish	fish			2.2.5		528818			m,6788
+526382	2029	Champhung	a-bun	a-bun	flower	flower			3.1.4		528909			m,2153
+526383	2029	Champhung	a-pʰai	a-pʰai	foot	foot			1.5.2		0			p,343
+526384	2029	Champhung	a-mɯ	a-mɯ	goat	goat			2.1.8		529028			m,4769
+526385	2029	Champhung	sam	sam	hair	hair			1.2.3		528878			366
+526386	2029	Champhung	a-pan	a-pan	hand	hand			1.5.1.1		528905			m,745
+526387	2029	Champhung	kau	kau	head	head			1.2.1		528861			386
+526388	2029	Champhung	a-vak	a-vak	hog	hog			2.1.12		528999			m,1006
+526389	2029	Champhung	ra-tsɯ	ra-tsɯ	horn	horn			1.2.2		528796			m,6766
+526390	2029	Champhung	sa-gol	sa-gol	horse	horse			2.1.7		528941			m,6023
+526391	2029	Champhung	a-ru	a-ru	house	house			5.11.9.1		0			
+526392	2029	Champhung	a-ruk	a-ruk	iron	iron			3.2.4		529091			m,7061
+526393	2029	Champhung	siŋ-nu	siŋ-nu	leaf	leaf			3.1.3		528786			m,402
+526394	2029	Champhung	war	war	light	light			7.1.11.1		529151			5683
+526395	2029	Champhung	sa-mɯ	sa-mɯ	man	man			1.9.6.1		529090			m,1002
+526396	2029	Champhung	kʰa-jo	kʰa-jo	monkey	monkey			2.1.9		528931			m,6049
+526397	2029	Champhung	a-su-bi	a-su-bi	moon	moon			3.2.2		0			
+526398	2029	Champhung	i-pe	i-pe	mother	mother			4.7.1		529026			m,2559
+526399	2029	Champhung	ka-pʰuŋ	ka-pʰuŋ	mountain	mountain			3.2.5		528934			m,6904
+526400	2029	Champhung	kʰa-mar	kʰa-mar	mouth	mouth			1.3.1		528955			m,467
+526401	2029	Champhung	ha-caŋ	ha-caŋ	mosquito	mosquito			2.2.6		529037			m,2328
+526402	2029	Champhung	a-maŋ	a-maŋ	name	name			5.8		528926			m,2450
+526403	2029	Champhung	ŋa-ju-la	ŋa-ju-la	night	night			9.1.4		529008			m,2784
+526404	2029	Champhung	li-pɯ	li-pɯ	plantain	plantain			3.1.5		0			
+526405	2029	Champhung	u-rai	u-rai	river	river			3.2.3		0			
+526406	2029	Champhung	lam-pi	lam-pi	road	road			9.10.1		529189			1017,7159
+526407	2029	Champhung	ka-sam	ka-sam	salt	salt			3.2.4		0			
+526408	2029	Champhung	a-hul	a-hul	skin	skin			1.6.5		528942			m,591
+526409	2029	Champhung	ta-ŋa-ram	ta-ŋa-ram	sky	sky			3.2.2		0			
+526410	2029	Champhung	rinam	rinam	snake	snake			2.1.6.1		0			
+526411	2029	Champhung	har-tʰi	har-tʰi	star	star			3.2.2		0			
+526412	2029	Champhung	ŋa-luŋ	ŋa-luŋ	stone	stone			3.2.9		528937			m,1269
+526413	2029	Champhung	ta-mak	ta-mak	sun	sun			3.2.10		0			
+526414	2029	Champhung	a-kʰu-bi	a-kʰu-bi	tiger	tiger			2.1.3		529127			m,2308
+526415	2029	Champhung	a-va	a-va	tooth	tooth			1.3.4		529007			m,632
+526416	2029	Champhung	a-siŋ	a-siŋ	tree	tree			3.1.2		528930			m,2658
+526417	2029	Champhung	ram	ram	village	village			5.8		528884			6093
+526418	2029	Champhung	tʰa-ri	tʰa-ri	water	water			3.2.3		528839			m,298
+526419	2029	Champhung	pa-tʰai	pa-tʰai	yam	yam			3.1.5		529027			6997

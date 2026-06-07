@@ -1,484 +1,484 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-9894	1667	Yi (Xide)	na³⁴-lu̱³³	na³⁴-lu̱³³	cancer	cancer		5.3		0		
-9895	1667	Yi (Xide)	kʰɯ²¹-bu²¹	kʰɯ²¹-bu²¹	diptheria	diptheria				0		
-9896	1667	Yi (Xide)	tsɿ²¹-si⁵⁵	tsɿ²¹-si⁵⁵	whooping cough	whooping cough		5.3		0		
-9897	1667	Yi (Xide)	ma³³-ɣa³³-dʑu²¹	ma³³-ɣa³³-dʑu²¹	scar	scar		1.6.5.3		0		
-9898	1667	Yi (Xide)	ɬo²¹-bo²¹ tɔ³³-sɿ³³	ɬo²¹-bo²¹ tɔ³³-sɿ³³	upper arm / wing	upper arm±wing		9.2.1		0		695,1327,m,m
-9899	1667	Yi (Xide)	du̱³³	du̱³³	upper arm / wing	upper arm±wing		9.2.1		0		
-9900	1667	Yi (Xide)	dʐʅ³⁴-tu³³	dʐʅ³⁴-tu³³	bucktooth	bucktooth		1.3.4		0		635,m
-9901	1667	Yi (Xide)	mbu̱³³	mbu̱³³	full (from eating)	full (from eating)		1.1.3.2		0		100
-9902	1667	Yi (Xide)	o²¹-li²¹-pʰu²¹	o²¹-li²¹-pʰu²¹	belch	belch		1.8.3.4		0		3443,m,m
-9903	1667	Yi (Xide)	gu̱³⁴-ndʑɿ³³	gu̱³⁴-ndʑɿ³³	full	full		1.1.3.2		0		1829,1830
-9904	1667	Yi (Xide)	ȵi³³	ȵi³³	full	full		1.1.3.2		0		1832
-9905	1667	Yi (Xide)	ɣa³³-nɔ³³	ɣa³³-nɔ³³	behind	behind		9.2.8		0		
-9906	1667	Yi (Xide)	kɯ²¹-tɯ²¹	kɯ²¹-tɯ²¹	back	back		1.4.8		0		1,225
-9907	1667	Yi (Xide)	n̥a²¹-bi⁵⁵	n̥a²¹-bi⁵⁵	nose	nose		1.2.8		0		803,810
-9908	1667	Yi (Xide)	n̥a³³-dʑu̱³³	n̥a³³-dʑu̱³³	nostril	nostril		1.2.8.1		0		803,m
-9909	1667	Yi (Xide)	n̥a³³-ko³³	n̥a³³-ko³³	bridge of nose	bridge of nose		9.10.2		0		803,809
-9910	1667	Yi (Xide)	n̥a³³-dʑu̱³³	n̥a³³-dʑu̱³³	nasal cavity	nasal cavity		3.2.7		0		803,572
-9911	1667	Yi (Xide)	n̥a²¹-bi⁵⁵	n̥a²¹-bi⁵⁵	mucus	mucus		1.8.2		0	D1	805,m
-9912	1667	Yi (Xide)	a³³-m̥ɿ̄³³	a³³-m̥ɿ̄³³	close mouth	close mouth		6.2.2.6.2		0		p,31
-9913	1667	Yi (Xide)	so⁵⁵-mi²¹	so⁵⁵-mi²¹	hold breath	hold breath		6.16		0		32,m
-9914	1667	Yi (Xide)	ɬo²¹-bo²¹ tɔ³³-sɿ̄³³	ɬo²¹-bo²¹ tɔ³³-sɿ̄³³	arm	arm		1.5.1.2		0		695,1327,m,m
-9915	1667	Yi (Xide)	ʂa³³-vu̱³³-tɕᴇ³³-ma³³	ʂa³³-vu̱³³-tɕᴇ³³-ma³³	kneecap	kneecap		1.5.8.4		0		
-9916	1667	Yi (Xide)	na³³	na³³	ill	ill		1.1.5.1		0		160
-9917	1667	Yi (Xide)	na³⁴-bu³³	na³⁴-bu³³	germs	germs		1.1.5.1		0		160,m
-9918	1667	Yi (Xide)	na³³-mu²¹ na³³-mi⁵⁵	na³³-mu²¹ na³³-mi⁵⁵	pathology	pathology		5.3		0		160,m,160,m
-9919	1667	Yi (Xide)	na³³-ȵi³³-pu̱³³-dzu̱³³	na³³-ȵi³³-pu̱³³-dzu̱³³	sick appearance	sick appearance		1.1.5.1		0		160,m,m,m
-9920	1667	Yi (Xide)	ŋgu²¹ nɯ³⁴ a²¹ ŋɯ³³	ŋgu²¹ nɯ³⁴ a²¹ ŋɯ³³	beyond cure	beyond cure		9.2.8		0		
-9921	1667	Yi (Xide)	na³³-fu³³	na³³-fu³³	terminally ill	terminally ill				0		160,m
-9922	1667	Yi (Xide)	dʑᴇ³⁴-mo³³	dʑᴇ³⁴-mo³³	weak due illness	weak due illness	v.	1.1.5		0		
-9923	1667	Yi (Xide)	na³³-bo³³ na³³-pʰa⁵⁵	na³³-bo³³ na³³-pʰa⁵⁵	cause of disease	cause of disease		8.2		0		160,m,160,m
-9924	1667	Yi (Xide)	na³³-sa⁵⁵	na³³-sa⁵⁵	symptom	symptom		1.1.5.1		0		160,m
-9925	1667	Yi (Xide)	na³⁴-ŋgo³³	na³⁴-ŋgo³³	disease, illness	disease, illness		1.1.5.1		0		160,1849
-9926	1667	Yi (Xide)	na³⁴-tʰᴇ³³	na³⁴-tʰᴇ³³	symptom	symptom		1.1.5.1		0		160,m
-9927	1667	Yi (Xide)	ku²¹-li³³	ku²¹-li³³	neck	neck		1.4.2		0		495,479
-9928	1667	Yi (Xide)	tɕʰᴇ³³-pᴇ³³	tɕʰᴇ³³-pᴇ³³	lame	lame		1.5.12		0		
-9929	1667	Yi (Xide)	a³⁴-nᴇ³³ to²¹	a³⁴-nᴇ³³ to²¹	breast feed	breast feed		1.4.4.3		0		p,254,502
-9930	1667	Yi (Xide)	bi³³	bi³³	step	step		6.7.4		0		
-9931	1667	Yi (Xide)	vu³³	vu³³	intestines	intestines		1.7.7		0		2102
-9932	1667	Yi (Xide)	vu³³ li³³ tʰi³⁴	vu³³ li³³ tʰi³⁴	intestinal obstruction	intestinal obstruction		1.7.7.3		0		
-9933	1667	Yi (Xide)	vu³³-na³³ hi⁵⁵-na³³	vu³³-na³³ hi⁵⁵-na³³	intestinal / stomach illness	intestinal / stomach illness		1.7.7.3		0		m,m,2104,m
-9934	1667	Yi (Xide)	vu³³-na³³	vu³³-na³³	enteritis	enteritis		6.7.1		0		
-9935	1667	Yi (Xide)	dzɯ³³	dzɯ³³	eat	eat		1.5.3.2		0		36
-9936	1667	Yi (Xide)	ȵi⁵⁵-tsʰɿ³³-xa⁵⁵-mo²¹	ȵi⁵⁵-tsʰɿ³³-xa⁵⁵-mo²¹	evil spirits	evil spirits		8.3.1.15		0		
-9937	1667	Yi (Xide)	dʐʅ³³	dʐʅ³³	tooth	tooth		1.3.4		0	D1	635
-9938	1667	Yi (Xide)	dzᴇ³³-ma³³	dzᴇ³³-ma³³	tooth	tooth		1.3.4		0		635,s
-9939	1667	Yi (Xide)	ni³⁴-lɿ³³	ni³⁴-lɿ³³	gums	gums		1.3.4.3		0		504,3321
-9940	1667	Yi (Xide)	ɕɿ³³-li³³-n̥i³³-ku³⁴	ɕɿ³³-li³³-n̥i³³-ku³⁴	barefoot	barefoot		1.5.2.5		0		
-9941	1667	Yi (Xide)	dʐɯ³³-ɕɿ³³	dʐɯ³³-ɕɿ³³	animal manure	animal manure		2.3		0		
-9942	1667	Yi (Xide)	so⁵⁵-ti	so⁵⁵-ti	breathe heavily	breathe heavily		1.1.2.2		0		32,m
-9943	1667	Yi (Xide)	so⁵⁵-ʂʅ³³	so⁵⁵-ʂʅ³³	breathe heavily	breathe heavily		1.1.2.2		0		32,m
-9944	1667	Yi (Xide)	so⁵⁵-tsi³³	so⁵⁵-tsi³³	pant	pant		1.1.2.2		0		32,m
-9945	1667	Yi (Xide)	ma³³-ɣa³³	ma³³-ɣa³³	sore	sore	n	1.1.5.1		0		
-9946	1667	Yi (Xide)	ʂa³³-pɿ³³	ʂa³³-pɿ³³	sore	sore	n	1.1.5.1		0		
-9947	1667	Yi (Xide)	ma³³-ɣa dʑu²¹	ma³³-ɣa dʑu²¹	scar	scar		1.6.5.3		0		
-9948	1667	Yi (Xide)	ma³³-ɣa bu̱³³-ku̱³³	ma³³-ɣa bu̱³³-ku̱³³	scab	scab		1.6.5.3		0		
-9949	1667	Yi (Xide)	ma³³-ɣa³³-kʰɯ³³	ma³³-ɣa³³-kʰɯ³³	mouth of wound	mouth of wound		1.3.1		0		
-9950	1667	Yi (Xide)	m̥o³³	m̥o³³	blow	blow		1.3.1.4		0		503
-9951	1667	Yi (Xide)	m̥u̱³³	m̥u̱³³	blow	blow		1.3.1.4		0		503
-9952	1667	Yi (Xide)	mo²¹	mo²¹	blow	blow		1.3.1.4		0		503
-9953	1667	Yi (Xide)	mi²¹-ndʑɿ³³	mi²¹-ndʑɿ³³	lip	lip		1.3.2		0		467,596
-9954	1667	Yi (Xide)	si²¹ o⁵⁵	si²¹ o⁵⁵	hiccup	hiccup		1.8.3.5		0		m,3443
-9955	1667	Yi (Xide)	tɕʰɿ³³	tɕʰɿ³³	defecate	defecate		1.8.5.4		0	D1	
-9956	1667	Yi (Xide)	vu³⁴-nɔ³³	vu³⁴-nɔ³³	large intestine	large intestine		1.7.7		0		2102,m
-9957	1667	Yi (Xide)	mɔ²¹-sɿ⁵⁵ ʑɿ³³	mɔ²¹-sɿ⁵⁵ ʑɿ³³	human excrement	human excrement		4.5		0		
-9958	1667	Yi (Xide)	lo⁵⁵-mo²¹	lo⁵⁵-mo²¹	thumb	thumb		1.5.6.1		0		695,1619
-9959	1667	Yi (Xide)	o³³-no⁵⁵	o³³-no⁵⁵	cerebrum	cerebrum		1.2.4		0		385,243
-9960	1667	Yi (Xide)	bu̱³³-lᴇ³³	bu̱³³-lᴇ³³	thigh	thigh		1.5.7.1		0		349,m
-9961	1667	Yi (Xide)	sɿ²¹-vu³³-a²¹-mo²¹	sɿ²¹-vu³³-a²¹-mo²¹	molar	molar		1.3.4.2		0		632,m,p,m
-9962	1667	Yi (Xide)	tɕɿ³³	tɕɿ³³	gallbladder	gallbladder		1.7.3		0		
-9963	1667	Yi (Xide)	tɕʰi²¹	tɕʰi²¹	egg	egg				0		300
-9964	1667	Yi (Xide)	tɕʰi²¹-tɕʰu³³	tɕʰi²¹-tɕʰu³³	egg white	egg white				0		300,m
-9965	1667	Yi (Xide)	tɕʰi²¹-ʂʅ³³	tɕʰi²¹-ʂʅ³³	yolk	yolk				0		
-9966	1667	Yi (Xide)	tɕʰi²¹-ko³³	tɕʰi²¹-ko³³	eggshell	eggshell				0		m,m
-9967	1667	Yi (Xide)	ma²¹-ma³³	ma²¹-ma³³	smallpox	smallpox		5.3		0		
-9968	1667	Yi (Xide)	na³⁴-lu̱³³	na³⁴-lu̱³³	tumor, cancer	tumor, cancer		1.1.5.2		0		
-9969	1667	Yi (Xide)	pi³³	pi³³	read	read		6.2.2.9.3		0		
-9970	1667	Yi (Xide)	tɕʰɔ³³-bu²¹-di³³	tɕʰɔ³³-bu²¹-di³³	navel	navel		1.9.4		0		525,m,519
-9972	1667	Yi (Xide)	ȵi⁵⁵-tʰi³³	ȵi⁵⁵-tʰi³³	forehead	forehead		1.2.5.1		0		356,358
-9973	1667	Yi (Xide)	hᴇ³³-a²¹-sa³³	hᴇ³³-a²¹-sa³³	nauseated	nauseated		1.1.5.1		0		
-9974	1667	Yi (Xide)	n̥a²¹po³³	n̥a²¹po³³	ear	ear		1.2.7		0		811,812
-9975	1667	Yi (Xide)	lo³³-bo³³	lo³³-bo³³	deaf	deaf		1.2.7.5		0		m,1409
-9976	1667	Yi (Xide)	pa⁵⁵-kɯ³³	pa⁵⁵-kɯ³³	go crazy	go crazy		6.7.2		0		
-9977	1667	Yi (Xide)	vu³⁴-mo³³	vu³⁴-mo³³	go crazy	go crazy		6.7.2		0		6094,m
-9978	1667	Yi (Xide)	ȵᴇ²¹-vu̱³³	ȵᴇ²¹-vu̱³³	shiver	shiver		1.6.6.2.1		0		
-9979	1667	Yi (Xide)	vu³³	vu³³	go mad	go mad		6.7.2		0		
-9980	1667	Yi (Xide)	o³³-mo²¹	o³³-mo²¹	feel giddy	feel giddy		8.4		0		385,m
-9981	1667	Yi (Xide)	vu³⁴-mo³³	vu³⁴-mo³³	go mad	go mad		6.7.2		0		
-9982	1667	Yi (Xide)	ndʑɿ³⁴-ʂɯ³³ tsʰa³³	ndʑɿ³⁴-ʂɯ³³ tsʰa³³	have a fever	have a fever		8.2		0		
-9983	1667	Yi (Xide)	ŋgu⁵⁵	ŋgu⁵⁵	ruminate	ruminate		8.3.1.13.1		0		
-9984	1667	Yi (Xide)	di³³-ŋgɯ³³	di³³-ŋgɯ³³	gastric disorder	gastric disorder		1.7.6.2		0		
-9985	1667	Yi (Xide)	dʑi³³	dʑi³³	fly	fly		2.2.6		0		
-9986	1667	Yi (Xide)	ɕɿ³³	ɕɿ³³	fat (fatty meat)	fat (fei)		1.6.4		0		48
-9987	1667	Yi (Xide)	tsʰu³³	tsʰu³³	fat (fatty meat)	fat (fei)		1.6.4		0		42
-9988	1667	Yi (Xide)	a³⁴-ʑɿ³³	a³⁴-ʑɿ³³	fat, plump	fat, plump (feida 肥大)		1.6.4		0		m,48
-9989	1667	Yi (Xide)	tsʰu³³	tsʰu³³	fat, corpulent	fat, corpulent (feipang)		1.6.4		0		42
-9990	1667	Yi (Xide)	ɣo³⁴-pu³³	ɣo³⁴-pu³³	fat, corpulent	fat, corpulent (feipang)		1.6.4		0		m,50
-9991	1667	Yi (Xide)	vo⁵⁵	vo⁵⁵	bark	bark		2.1.11.1		0		2765
-9992	1667	Yi (Xide)	tsʰɿ²¹-mo²¹	tsʰɿ²¹-mo²¹	lungs	lungs		1.7.2		0		
-9993	1667	Yi (Xide)	tsʰɿ²¹-mo²¹-ko³³	tsʰɿ²¹-mo²¹-ko³³	lungs	lungs		1.7.2		0		
-9994	1667	Yi (Xide)	tsʰɿ²¹-mo²¹ na³³	tsʰɿ²¹-mo²¹ na³³	pneumonia	pneumonia		5.3		0		
-9995	1667	Yi (Xide)	ɕɿ³³	ɕɿ³³	excrement	excrement		1.8.5		0		572
-9996	1667	Yi (Xide)	tɕʰɿ³⁴-zɿ³³	tɕʰɿ³⁴-zɿ³³	excrement and urine	excrement and urine		1.8.5		0		572,650
-9997	1667	Yi (Xide)	vu³³	vu³³	mad, insane	mad, insane		8.3.1.11.3		0		
-9998	1667	Yi (Xide)	vu³³-lɯ³³-mo³³-lɯ³³	vu³³-lɯ³³-mo³³-lɯ³³	mad, insane	mad, insane		8.3.1.11.3		0		
-9999	1667	Yi (Xide)	vu³⁴-mo³³	vu³⁴-mo³³	insane	insane		8.3.1.11.3		0		
-10000	1667	Yi (Xide)	tsʰo³⁴-vu³³	tsʰo³⁴-vu³³	lunatic	lunatic		8.3		0		
-10001	1667	Yi (Xide)	vu̱³³	vu̱³³	hatch	hatch		1.1.2		0		301
-10002	1667	Yi (Xide)	zɯ³³-dʑi²¹	zɯ³³-dʑi²¹	hatching	hatching		1.1.2		0		
-10003	1667	Yi (Xide)	i²¹-mo²¹	i²¹-mo²¹	belly	belly		1.4.7		0		m,m
-10004	1667	Yi (Xide)	i²¹-mo²¹ ko³³	i²¹-mo²¹ ko³³	belly	belly		1.4.7		0		m,m,m
-10005	1667	Yi (Xide)	vu⁵⁵-dʑi²¹ ko³³	vu⁵⁵-dʑi²¹ ko³³	belly	belly		1.4.7		0		137,m,m
-10006	1667	Yi (Xide)	ko³³-lo³³	ko³³-lo³³	abdominal cavity	abdominal cavity		1.4.7		0		
-10007	1667	Yi (Xide)	ᴇ⁵⁵-vu̱³³ dʑu̱³⁴-ɬu̱³³	ᴇ⁵⁵-vu̱³³ dʑu̱³⁴-ɬu̱³³	armpit	armpit		1.5.1.2.3		0		
-10008	1667	Yi (Xide)	si²¹	si²¹	liver	liver		1.7.3		0		1390
-10009	1667	Yi (Xide)	tsʰɿ²¹-si³⁴	tsʰɿ²¹-si³⁴	liver	liver		1.7.3		0		1390,1019
-10010	1667	Yi (Xide)	tsʰɯ²¹-ʑɿ³³	tsʰɯ²¹-ʑɿ³³	common cold	common cold (ganmao)		7.1.7.2		0		
-10011	1667	Yi (Xide)	tsʰɯ²¹-ʑɿ³³ ɣɯ²¹	tsʰɯ²¹-ʑɿ³³ ɣɯ²¹	common cold	common cold (ganmao)		7.1.7.2		0		
-10012	1667	Yi (Xide)	ku²¹	ku²¹	infect	infect		1.1.5.1		0		
-10013	1667	Yi (Xide)	tʰi²¹-li²¹-ma³³-bi³³	tʰi²¹-li²¹-ma³³-bi³³	pimple, lump	pimple, lump		1.6.5.3		0		
-10014	1667	Yi (Xide)	ta³³-tɕᴇ³³	ta³³-tɕᴇ³³	pimple, lump	pimple, lump		1.6.5.3		0		
-10015	1667	Yi (Xide)	ɬo²¹-bo²¹	ɬo²¹-bo²¹	arm	arm		1.5.1.2		0		695,1327
-10016	1667	Yi (Xide)	ʐʅ²¹	ʐʅ²¹	dirty, filthy	dirty, filthy		3.2.11		0		
-10017	1667	Yi (Xide)	ʐʅ²¹-mi⁵⁵	ʐʅ²¹-mi⁵⁵	dirt on skin	dirt on skin		1.5.3.2		0		596,3568
-10018	1667	Yi (Xide)	vu²¹-du³³	vu²¹-du³³	bone	bone		1.6.3		0		232,241
-10019	1667	Yi (Xide)	bu̱³³	bu̱³³	thigh	thigh		1.5.7.1		0		349
-10020	1667	Yi (Xide)	tsʰɿ²¹-bu̱³³	tsʰɿ²¹-bu̱³³	thigh	thigh		1.5.7.1		0		
-10021	1667	Yi (Xide)	bu̱³⁴-vu³³	bu̱³⁴-vu³³	thighbone	thighbone		1.5.7.1		0		
-10022	1667	Yi (Xide)	gu̱³³-zi³³	gu̱³³-zi³³	backbone	backbone		1.4.8.2		0		1,418
-10023	1667	Yi (Xide)	gu²¹-go²¹	gu²¹-go²¹	skeleton	skeleton		1.6.3.1		0		b
-10024	1667	Yi (Xide)	tsɿ⁵⁵	tsɿ⁵⁵	joint	joint		1.5.8		0		418
-10025	1667	Yi (Xide)	tɕʰi³³-vu³³	tɕʰi³³-vu³³	pelvis	pelvis		1.4.9.2		0		m,m
-10026	1667	Yi (Xide)	vu²¹-du³³ no⁵⁵-ni³³	vu²¹-du³³ no⁵⁵-ni³³	flesh and blood	flesh and blood		1.1.1.1		0		232,241,35,m
-10027	1667	Yi (Xide)	tɕu̱³⁴-tɕu̱³³	tɕu̱³⁴-tɕu̱³³	marrow	marrow		1.6.3.5		0		459,459
-10028	1667	Yi (Xide)	vu²¹-du³³ li³⁴-tɕʰɿ³³	vu²¹-du³³ li³⁴-tɕʰɿ³³	bone fracture	bone fracture		1.6.3		0		232,241,m,m
-10030	1667	Yi (Xide)	ȵi⁵⁵-tsʰɿ³³	ȵi⁵⁵-tsʰɿ³³	ghost	ghost		4.2.12.2		0		160,m
-10031	1667	Yi (Xide)	so⁵⁵-xo³³	so⁵⁵-xo³³	breathe with mouth open	breathe with mouth open		1.1.2.2		0		32,m
-10032	1667	Yi (Xide)	ha³⁴-ʂɯ³³	ha³⁴-ʂɯ³³	yawn	yawn		1.3.1.3		0		1716,m
-10033	1667	Yi (Xide)	i⁵⁵-mbu³³	i⁵⁵-mbu³³	snoring	snoring		1.8.2.2		0		
-10034	1667	Yi (Xide)	ku³³	ku³³	shout	shout		8.5.4.1		0		
-10035	1667	Yi (Xide)	ku²¹	ku²¹	sweat	sweat		1.8.1		0		615
-10036	1667	Yi (Xide)	ku²¹-ma³³	ku²¹-ma³³	beads of sweat	beads of sweat		5.11.8.3		0		615,m
-10037	1667	Yi (Xide)	ȵi⁵⁵-m̥o³³	ȵi⁵⁵-m̥o³³	soft body hair	soft body hair		7.1.4.2		0		m,363
-10038	1667	Yi (Xide)	ʂʅ̄³³	ʂʅ̄³³	howl, wail	howl, wail		8.5.5		0		
-10039	1667	Yi (Xide)	dʐʅ³³ tɕʰu³⁴-tsɿ̄³³	dʐʅ³³ tɕʰu³⁴-tsɿ̄³³	white teeth	white teeth		9.4		0		635,m,m
-10040	1667	Yi (Xide)	ndo³³	ndo³³	drink	drink				0		502
-10041	1667	Yi (Xide)	ʂʅ̄³³	ʂʅ̄³³	groan, snort	groan, snort		8.5.5		0		
-10042	1667	Yi (Xide)	xɯ²¹-xɯ²¹-mu³³	xɯ²¹-xɯ²¹-mu³³	puff hard	puff hard		9.6.2		0		
-10043	1667	Yi (Xide)	li²¹-tʰi²¹	li²¹-tʰi²¹	throat	throat		1.3.5		0		479,501
-10044	1667	Yi (Xide)	hᴇ³³-tsɿ⁵⁵	hᴇ³³-tsɿ⁵⁵	wart	wart		1.6.5.3		0		
-10045	1667	Yi (Xide)	ku³⁴-hɔ³³	ku³⁴-hɔ³³	howl, roar	howl, roar		8.5.5		0		
-10046	1667	Yi (Xide)	ʂʅ̄³³	ʂʅ̄³³	howl, roar	howl, roar		8.5.5		0		
-10047	1667	Yi (Xide)	ɣa³³	ɣa³³	behind, back	behind, back		9.2.8		0		
-10048	1667	Yi (Xide)	ɕɿ³³-ndʑi⁵⁵-bɿ²¹-zɯ³³	ɕɿ³³-ndʑi⁵⁵-bɿ²¹-zɯ³³	heel	heel		1.5.2.1		0		
-10049	1667	Yi (Xide)	ɣa³³-nɔ³³ tɕo³⁴	ɣa³³-nɔ³³ tɕo³⁴	in the rear, behind	in the rear, behind		10.1.1		0		
-10050	1667	Yi (Xide)	kɯ²¹-tɯ²¹ tɕo³⁴	kɯ²¹-tɯ²¹ tɕo³⁴	back	back (houshen)		1.4.8		0		
-10051	1667	Yi (Xide)	ku³⁴-tʂʅ³³	ku³⁴-tʂʅ³³	shout	shout		8.5.4.1		0		
-10052	1667	Yi (Xide)	ku³⁴-fu³³	ku³⁴-fu³³	cry, voice	cry, voice		1.8.8.2		0		
-10053	1667	Yi (Xide)	so⁵⁵-tsʰɿ²¹-so⁵⁵-ŋgo³³	so⁵⁵-tsʰɿ²¹-so⁵⁵-ŋgo³³	breathe	breathe		1.1.2.2		0		32,m,32,m
-10054	1667	Yi (Xide)	so⁵⁵-ŋga³⁴-dɯ³³	so⁵⁵-ŋga³⁴-dɯ³³	respiratory tract	respiratory tract		1.5.3.2		0		
-10055	1667	Yi (Xide)	mᴇ²¹-tsɿ⁵⁵	mᴇ²¹-tsɿ⁵⁵	beard	beard		1.2.5.5		0		363,1232
-10056	1667	Yi (Xide)	ho²¹	ho²¹	speech	speech (hua)		1.8.7		0		
-10057	1667	Yi (Xide)	do²¹	do²¹	speech	speech (hua 話)		1.8.7		0		
-10058	1667	Yi (Xide)	m̥u⁵⁵-kʰu̱³³	m̥u⁵⁵-kʰu̱³³	bosom	bosom		1.4.4.2		0		m,2326
-10059	1667	Yi (Xide)	zɯ³³-ȵi³³	zɯ³³-ȵi³³	pregnant	pregnant	be v.	1.9.6.1		0		m,m
-10060	1667	Yi (Xide)	vu⁵⁵-ȵi³³	vu⁵⁵-ȵi³³	pregnant	pregnant	be v.	1.9.6.1		0		137,m
-10061	1667	Yi (Xide)	ɕɿ³⁴-ȵɔ³³-tsɿ⁵⁵	ɕɿ³⁴-ȵɔ³³-tsɿ⁵⁵	ankle	ankle		1.5.8.2		0		m,681,418
-10062	1667	Yi (Xide)	dʑᴇ⁵⁵	dʑᴇ⁵⁵	call out	call out		8.5.13		0		
-10063	1667	Yi (Xide)	i⁵⁵-tu³³	i⁵⁵-tu³³	awaken	awaken		1.1.4		0		127,148
-10064	1667	Yi (Xide)	ʑɿ̄³³-ɬa³³	ʑɿ̄³³-ɬa³³	soul	soul		1.10		0	D1	m,2264
-10065	1667	Yi (Xide)	tɯ²¹	tɯ²¹	alive	alive		1.1.2.1		0		72
-10066	1667	Yi (Xide)	ȵo³³-ʑɿ³³	ȵo³³-ʑɿ³³	pinkeye	pinkeye		1.2.6.14		0		
-10067	1667	Yi (Xide)	mi⁵⁵	mi⁵⁵	hungry	hungry	be v.	1.1.3		0		99
-10068	1667	Yi (Xide)	mi⁵⁵-dʑi³³	mi⁵⁵-dʑi³³	hunger	hunger		1.1.3		0		99,m
-10069	1667	Yi (Xide)	n◦dʑɿ³⁴-ʂɯ³³	n◦dʑɿ³⁴-ʂɯ³³	skin	skin		1.6.5		0	D1	p,596,790
-10070	1667	Yi (Xide)	ʂɯ²¹-sɿ²¹	ʂɯ²¹-sɿ²¹	muscle	muscle		1.6.6.2		0		34,m
-10071	1667	Yi (Xide)	va³³-ndzu²¹	va³³-ndzu²¹	cockscomb	cockscomb		1.2.2.1		0		1606,m
-10072	1667	Yi (Xide)	va³³-ɕɿ³³-do⁵⁵	va³³-ɕɿ³³-do⁵⁵	cockspur	cockspur		1.5.10.4		0		1606,m,2003
-10073	1667	Yi (Xide)	va³³-bu²¹-ɬu⁵⁵	va³³-bu²¹-ɬu⁵⁵	chicken crop	chicken crop		2.1.10		0		1606,m,m
-10074	1667	Yi (Xide)	va³³-ŋɔ³³ ndi⁵⁵	va³³-ŋɔ³³ ndi⁵⁵	chicken breast	chicken breast		2.1.10		0		1606,m,m
-10075	1667	Yi (Xide)	va³³-ɕɿ³⁴-si³³	va³³-ɕɿ³⁴-si³³	chicken foot	chicken foot		2.1.10		0		1606,m,m
-10076	1667	Yi (Xide)	va³³-hi⁵⁵	va³³-hi⁵⁵	chicken gizzard	chicken gizzard		2.1.10		0		1606,m
-10077	1667	Yi (Xide)	sɔ³³	sɔ³³	mutter	mutter		8.5.5		0		
-10078	1667	Yi (Xide)	pʰa³³-sɔ³³-kʰa³³-sɔ³³	pʰa³³-sɔ³³-kʰa³³-sɔ³³	whisper	whisper		8.5.4.2		0		m,5591,m,5591
-10079	1667	Yi (Xide)	na³⁴-ŋgo³³	na³⁴-ŋgo³³	disease	disease		1.1.5.1		0		160,1849
-10080	1667	Yi (Xide)	dʑu⁵⁵-tsɿ̄³³-vu³³	dʑu⁵⁵-tsɿ̄³³-vu³³	back (body)	back (body)		1.4.8		0		215,418,232
-10081	1667	Yi (Xide)	lᴇ³⁴-ba³³	lᴇ³⁴-ba³³	shoulder	shoulder		1.4.3		0		695,m
-10082	1667	Yi (Xide)	gɔ³³-vu³³	gɔ³³-vu³³	hollow of shoulder	hollow of shoulder? (jianwo 肩窩)		7.1.5.1		0		
-10083	1667	Yi (Xide)	mo³³	mo³³	see	see (jian)		1.2.6.10		0		1227
-10084	1667	Yi (Xide)	mo³⁴-gɔ³³	mo³⁴-gɔ³³	corpse	corpse		1.1.6.1		0		17,m
-10085	1667	Yi (Xide)	hi²¹-su³³	hi²¹-su³³	speak	speak		8.5.10.1		0		
-10086	1667	Yi (Xide)	do²¹ hi²¹	do²¹ hi²¹	speak	speak		8.5.10.1		0		
-10087	1667	Yi (Xide)	ŋgɯ³³	ŋgɯ³³	chew	chew		1.3.4		0		1762
-10088	1667	Yi (Xide)	o³³-fu³³	o³³-fu³³	horn	horn		1.2.2		0		p,819
-10089	1667	Yi (Xide)	dʐʅ³³	dʐʅ³³	horn	horn		1.2.2		0		635
-10090	1667	Yi (Xide)	ɕɿ³³ pʰo⁵⁵	ɕɿ³³ pʰo⁵⁵	foot	foot		1.5.2		0		
-10091	1667	Yi (Xide)	ɕɿ³³-bi³³	ɕɿ³³-bi³³	step	step		6.7.4		0		
-10092	1667	Yi (Xide)	ndʑi⁵⁵-bɿ²¹-zɯ³³	ndʑi⁵⁵-bɿ²¹-zɯ³³	heel	heel		1.5.2.1		0		
-10093	1667	Yi (Xide)	ɕɿ³⁴-bu̱³³	ɕɿ³⁴-bu̱³³	instep	instep		1.5.2.2		0		
-10094	1667	Yi (Xide)	ɕɿ³³-dʑu³⁴	ɕɿ³³-dʑu³⁴	footprint	footprint		1.5.2.5		0		
-10095	1667	Yi (Xide)	ɕɿ³³-xa⁵⁵	ɕɿ³³-xa⁵⁵	sole	sole		1.5.5		0		
-10096	1667	Yi (Xide)	ᴇ³³	ᴇ³³	cry, shout	cry, shout (jiao)		1.8.8.2		0		
-10097	1667	Yi (Xide)	vo⁵⁵ ku³³	vo⁵⁵ ku³³	cry, shout	cry, shout (jiao)		1.8.8.2		0		
-10098	1667	Yi (Xide)	kʰɯ³³-dʑi³³	kʰɯ³³-dʑi³³	stammer	stammer		1.8.7.2		0		
-10099	1667	Yi (Xide)	ȵɔ³³-tsi³³	ȵɔ³³-tsi³³	eyelash	eyelash		1.2.6.5		0	D1	681,1232
-10100	1667	Yi (Xide)	ŋgɯ²¹-dzɿ²¹	ŋgɯ²¹-dzɿ²¹	scabies	scabies		1.6.5		0		
-10101	1667	Yi (Xide)	gu³³-ɕi³³	gu³³-ɕi³³	muscle	muscle		1.6.6.2		0		535,533
-10103	1667	Yi (Xide)	ʂɯ²¹-sɿ²¹	ʂɯ²¹-sɿ²¹	muscles	muscles		1.6.6.2		0		34,m
-10104	1667	Yi (Xide)	kʰu³⁴-ɣɯ³³	kʰu³⁴-ɣɯ³³	spirit, mind	spirit, mind (jingshen)		5.8.1.1		0		
-10105	1667	Yi (Xide)	hɯ²¹-ȵi²¹	hɯ²¹-ȵi²¹	spirit, mind	spirit, mind (jingshen)		5.8.1.1		0		m,m
-10106	1667	Yi (Xide)	ndʑɿ³³-tu³⁴ ʂɯ³³-tu²¹	ndʑɿ³³-tu³⁴ ʂɯ³³-tu²¹	convulsion	convulsion		6.7.3		0		
-10107	1667	Yi (Xide)	gu³³-tɕi²¹	gu³³-tɕi²¹	vein	vein		1.6.2.1		0		535,m
-10108	1667	Yi (Xide)	kʰɯ³³-tsʰɿ⁵⁵	kʰɯ³³-tsʰɿ⁵⁵	open mouth	open mouth (kai kou)		6.2.2.6.1		0		
-10109	1667	Yi (Xide)	mo³³-lu³³-go³³	mo³³-lu³³-go³³	open eyes	open eyes		6.2.2.6.1		0		
-10110	1667	Yi (Xide)	hɯ²¹	hɯ²¹	look at	look at (kan)		1.2.6.11		0		m
-10111	1667	Yi (Xide)	ɣɯ²¹-mo³³	ɣɯ²¹-mo³³	catch sight of	catch sight of		6.21		0		
-10112	1667	Yi (Xide)	hɯ²¹-ha³⁴	hɯ²¹-ha³⁴	glance at	glance at	v.	1.2.6.11		0		
-10113	1667	Yi (Xide)	i⁵⁵-ȵi³³-ku³³	i⁵⁵-ȵi³³-ku³³	sleepy	sleepy		1.1.4.1		0		127,129,m
-10114	1667	Yi (Xide)	tsɿ²¹	tsɿ²¹	cough	cough		1.8.3.3		0		
-10115	1667	Yi (Xide)	ʑɿ³³-sɿ⁵⁵	ʑɿ³³-sɿ⁵⁵	thirsty	thirsty		1.1.3.1		0		1013,101
-10116	1667	Yi (Xide)	ɕi⁵⁵	ɕi⁵⁵	gnaw	gnaw		1.3.4.4		0		
-10117	1667	Yi (Xide)	bu̱³³-dʑɿ⁵⁵	bu̱³³-dʑɿ⁵⁵	utter	utter		8.5.10.1		0		
-10118	1667	Yi (Xide)	kʰa²¹-pʰi⁵⁵	kʰa²¹-pʰi⁵⁵	mouth	mouth		1.3.1		0		273,2096
-10119	1667	Yi (Xide)	kʰɯ³³	kʰɯ³³	mouth	mouth		1.3.1		0		273
-10120	1667	Yi (Xide)	kʰɯ³³-dʑi³³	kʰɯ³³-dʑi³³	stutter	stutter		8.5.4.5		0		
-10121	1667	Yi (Xide)	do²¹-zi³³	do²¹-zi³³	enunciation	enunciation		8.5.10.1		0		
-10122	1667	Yi (Xide)	tsɿ²¹-vɿ⁵⁵	tsɿ²¹-vɿ⁵⁵	saliva	saliva		1.8.3		0	D1	
-10123	1667	Yi (Xide)	ŋo³³	ŋo³³	cry	cry		1.8.8.2		0		1104
-10124	1667	Yi (Xide)	ɕi³³-ŋo³⁴	ɕi³³-ŋo³⁴	cry, weep, sob	cry, weep, sob		1.8.8.2		0		m,1104
-10125	1667	Yi (Xide)	vu³³-su³³-su²¹	vu³³-su³³-su²¹	mad, crazy	mad, crazy		8.3.1.11.3		0		6094,m,m
-10126	1667	Yi (Xide)	tsʰo³⁴-vu³³ su²¹	tsʰo³⁴-vu³³ su²¹	madman	madman		8.3.1.11.3		0		
-10127	1667	Yi (Xide)	ɔ³³-bu̱³³	ɔ³³-bu̱³³	favus of the scalp	favus of the scalp		1.2.1.5		0		
-10128	1667	Yi (Xide)	ʐɯ²¹	ʐɯ²¹	tuberculosis	tuberculosis (laobing)		1.5.3.2		0		458
-10129	1667	Yi (Xide)	tɕᴇ³³-ʂa³³	tɕᴇ³³-ʂa³³	rib	rib		1.4.4.3		0		
-10130	1667	Yi (Xide)	si²¹-dᴇ³³-ka⁵⁵	si²¹-dᴇ³³-ka⁵⁵	pleura	pleura		1.5.3.2		0		
-10132	1667	Yi (Xide)	ɣɯ³³	ɣɯ³³	power, strength	power, strength		1.1.5		0		5677
-10133	1667	Yi (Xide)	vɿ⁵⁵-ʑɿ̄³³	vɿ⁵⁵-ʑɿ̄³³	dysentery	dysentery		1.7.7		0		
-10134	1667	Yi (Xide)	kʰa³³-ȵɔ³³	kʰa³³-ȵɔ³³	face	face		1.2.5		0	D1	273,681
-10135	1667	Yi (Xide)	o³³-ȵi⁵⁵	o³³-ȵi⁵⁵	face	face		1.2.5		0	D1	1186,681
-10136	1667	Yi (Xide)	na³⁴-dᴇ³³	na³⁴-dᴇ³³	treat, cure	treat, cure		5.8		0		
-10137	1667	Yi (Xide)	bu³³-gi⁵⁵	bu³³-gi⁵⁵	lymph node	lymph node		1.6.6.4		0		m,m
-10138	1667	Yi (Xide)	bu̱³³-ku̱³³	bu̱³³-ku̱³³	scales (fish)	scales (fish)		1.6.5.2		0		592,586
-10139	1667	Yi (Xide)	bu³³-ȵi²¹-mo²¹	bu³³-ȵi²¹-mo²¹	tumor	tumor		1.1.5.2		0		
-10140	1667	Yi (Xide)	zɯ³³-kɯ³³ lo³³-bo³³	zɯ³³-kɯ³³ lo³³-bo³³	deaf and dumb	deaf and dumb		1.2.7.5		0		
-10141	1667	Yi (Xide)	vɿ⁵⁵	vɿ⁵⁵	numb	numb (ma)		1.5.11		0		5686
-10142	1667	Yi (Xide)	vɿ⁵⁵-tɕu̱³³	vɿ⁵⁵-tɕu̱³³	paralysis	paralysis		1.5.11		0		
-10143	1667	Yi (Xide)	dzi²¹-ŋo²¹ a²¹ bo²¹	dzi²¹-ŋo²¹ a²¹ bo²¹	paralysis	paralysis		1.5.11		0		
-10144	1667	Yi (Xide)	nu³³	nu³³	leprosy	leprosy		5.3		0		
-10145	1667	Yi (Xide)	ȵi⁵⁵-ŋgɯ³³	ȵi⁵⁵-ŋgɯ³³	pockmarks	pockmarks		1.6.5.3		0		
-10146	1667	Yi (Xide)	ɕi³³	ɕi³³	pulse	pulse		1.7.1.1		0		
-10147	1667	Yi (Xide)	ɕi³³-tɕi²¹	ɕi³³-tɕi²¹	vein	vein		1.6.2.1		0		230,m
-10148	1667	Yi (Xide)	ȵo³³-dzɿ³³	ȵo³³-dzɿ³³	blind	blind		1.2.6.14.2		0		681,1401
-10149	1667	Yi (Xide)	vu³⁴-dʑᴇ³³	vu³⁴-dʑᴇ³³	appendix	appendix		1.7.7		0		2102,m
-10150	1667	Yi (Xide)	ȵᴇ³³	ȵᴇ³³	hair, feather	hair, feather		1.2.3		0		368
-10151	1667	Yi (Xide)	ʂa³³	ʂa³³	hair, feather	hair, feather		1.2.3		0		366
-10152	1667	Yi (Xide)	ȵɔ³³-m̥o³³	ȵɔ³³-m̥o³³	eyebrow	eyebrow		1.2.6.6		0		681,363
-10153	1667	Yi (Xide)	ɕᴇ³³-dʐʅ³³	ɕᴇ³³-dʐʅ³³	tooth (front)	tooth (front)		1.3.4		0		1214,635
-10154	1667	Yi (Xide)	ᴇ⁵⁵-mɔ²¹	ᴇ⁵⁵-mɔ²¹	dream	dream		1.1.4.2		0		127,126
-10155	1667	Yi (Xide)	ȵɔ³³-mi²¹	ȵɔ³³-mi²¹	narrow one's eyes	narrow one's eyes		9.7.2		0		
-10156	1667	Yi (Xide)	ʂa³³-mɿ⁵⁵	ʂa³³-mɿ⁵⁵	face	face		1.2.5		0		2034,681
-10157	1667	Yi (Xide)	a⁵⁵-mo²¹	a⁵⁵-mo²¹	face	face		1.2.5		0		p,1187
-10160	1667	Yi (Xide)	fu⁵⁵-n̥ɯ³³	fu⁵⁵-n̥ɯ³³	face, features	face, features		1.2.5		0		1186,681
-10161	1667	Yi (Xide)	n̥i³³-bo³³	n̥i³³-bo³³	facial features	facial features		1.2.5		0		
-10162	1667	Yi (Xide)	ku³³	ku³³	cry (birds, insects)	cry (birds, insects) (ming)		1.8.8.2		0		
-10163	1667	Yi (Xide)	mo³³	mo³³	cry (birds, insects)	cry (birds, insects) (ming)		1.8.8.2		0		
-10164	1667	Yi (Xide)	ȵɔ³³-m̥ɿ̄³³	ȵɔ³³-m̥ɿ̄³³	close eyes (die)	close eyes (die)		6.2.2.6.2		0		681,31
-10165	1667	Yi (Xide)	ȵi⁵⁵-tsʰɿ³³	ȵi⁵⁵-tsʰɿ³³	devil, demon	devil, demon		4.2.12.2		0		
-10166	1667	Yi (Xide)	ȵɔ³³-dzɿ²¹	ȵɔ³³-dzɿ²¹	sight, vision	sight, vision		1.2.6.10		0		
-10167	1667	Yi (Xide)	a³⁴-nᴇ³³	a³⁴-nᴇ³³	breasts, milk	breasts, milk				0		p,254
-10168	1667	Yi (Xide)	ȵi²¹	ȵi²¹	breasts, milk	breasts, milk				0		254
-10169	1667	Yi (Xide)	a³⁴-nᴇ³³ ma³⁴-ma³³	a³⁴-nᴇ³³ ma³⁴-ma³³	nipple	nipple				0		p,254,m,m
-10170	1667	Yi (Xide)	lɯ³³-ȵi²¹-tsʰɿ³³	lɯ³³-ȵi²¹-tsʰɿ³³	cream	cream				0		
-10171	1667	Yi (Xide)	o³³-no⁵⁵	o³³-no⁵⁵	brain	brain		1.2.4		0		385,243
-10172	1667	Yi (Xide)	o³³-no⁵⁵ ti²¹-ɕi²¹	o³³-no⁵⁵ ti²¹-ɕi²¹	meninges	meninges		1.2.4		0		
-10173	1667	Yi (Xide)	mu³³-ɬɿ³³-so³⁴-ko³³	mu³³-ɬɿ³³-so³⁴-ko³³	meningitis	meningitis		1.2.4		0		
-10174	1667	Yi (Xide)	vu³⁴-tʰi³³ hi⁵⁵-dʐɯ³³	vu³⁴-tʰi³³ hi⁵⁵-dʐɯ³³	internal organs	internal organs		1.7		0	D1	
-10175	1667	Yi (Xide)	nda⁵⁵	nda⁵⁵	greasy	greasy		7.1.4.2		0		
-10176	1667	Yi (Xide)	zɿ³³	zɿ³³	urine	urine		1.8.4		0		650
-10177	1667	Yi (Xide)	ndʑi³³	ndʑi³³	pus	pus		1.8.6.1		0		1292
-10179	1667	Yi (Xide)	pʰᴇ³³	pʰᴇ³³	malaria	malaria		5.3		0		
-10180	1667	Yi (Xide)	ndʑᴇ³³-di²¹	ndʑᴇ³³-di²¹	vomit	vomit		1.8.3.2		0		m,m
-10181	1667	Yi (Xide)	ɣo³⁴-pu³³	ɣo³⁴-pu³³	fat	fat		1.6.4		0		m,50
-10182	1667	Yi (Xide)	bu̱³³-ku̱³³	bu̱³³-ku̱³³	skin	skin		1.6.5		0		592,586
-10184	1667	Yi (Xide)	ɬᴇ³³	ɬᴇ³³	spleen	spleen		1.7.4		0		2812
-10185	1667	Yi (Xide)	ɬa²¹-ba³³	ɬa²¹-ba³³	spleen	spleen		1.7.4		0		2812,s
-10186	1667	Yi (Xide)	vu²¹	vu²¹	fart	fart		1.8.5.2		0		3553
-10187	1667	Yi (Xide)	pʰɿ²¹-ndi²¹	pʰɿ²¹-ndi²¹	buttocks	buttocks		1.4.10		0		1361,1243
-10189	1667	Yi (Xide)	a³⁴-ɕi³³-tɕʰɔ³³	a³⁴-ɕi³³-tɕʰɔ³³	umbilical cord	umbilical cord				0		m,m,m
-10190	1667	Yi (Xide)	so⁵⁵	so⁵⁵	breath, vapor	breath, vapor (qi)		1.1.2.2		0		32
-10191	1667	Yi (Xide)	ho³³	ho³³	breath, vapor	breath, vapor (qi)		1.1.2.2		0		
-10192	1667	Yi (Xide)	mu⁵⁵	mu⁵⁵	breath, vapor	breath, vapor (qi)		1.1.2.2		0		62
-10193	1667	Yi (Xide)	so⁵⁵-ti³³	so⁵⁵-ti³³	asthma	asthma		1.1.2.2		0		32,m
-10194	1667	Yi (Xide)	tsʰɿ²¹-mo²¹ tɕi²¹-po²¹	tsʰɿ²¹-mo²¹ tɕi²¹-po²¹	windpipe	windpipe		1.3.5.2		0		458,s,m,m
-10195	1667	Yi (Xide)	mᴇ²¹	mᴇ²¹	front	front		1.4.4		0		1210
-10196	1667	Yi (Xide)	ɬo²¹-bo²¹	ɬo²¹-bo²¹	forearm	forearm		1.5.1.2.2		0		
-10197	1667	Yi (Xide)	mᴇ²¹ tɕo³⁴	mᴇ²¹ tɕo³⁴	in front	in front		10.1.1		0		1210,m
-10198	1667	Yi (Xide)	lo⁵⁵-ɕɿ³³	lo⁵⁵-ɕɿ³³	forelimb, foreleg	forelimb, foreleg		1.5.3.1		0		
-10199	1667	Yi (Xide)	nɔ³³	nɔ³³	take a look	take a look (qiao)		6.21		0		
-10200	1667	Yi (Xide)	tɕʰᴇ³³-pᴇ³³	tɕʰᴇ³³-pᴇ³³	lame, limp	lame, limp	be v.	1.5.12		0		
-10201	1667	Yi (Xide)	hɯ²¹-nɯ²¹	hɯ²¹-nɯ²¹	fever	fever		1.1.5.1		0		
-10202	1667	Yi (Xide)	ʂɯ³³	ʂɯ³³	meat	meat		1.1.1.1		0		34
-10203	1667	Yi (Xide)	no⁵⁵	no⁵⁵	meat	meat		1.1.1.1		0		35
-10204	1667	Yi (Xide)	ko²¹-po³³	ko²¹-po³³	human body, flesh	human body, flesh		4.5		0		2,1902
-10205	1667	Yi (Xide)	bo³³-lo³³	bo³³-lo³³	cheek	cheek		1.2.5.2		0		268,m
-10206	1667	Yi (Xide)	hɯ³³-ba²¹-tʂʰa²¹	hɯ³³-ba²¹-tʂʰa²¹	gills	gills		1.3.5.3		0	D1	
-10207	1667	Yi (Xide)	fu²¹-bi²¹	fu²¹-bi²¹	voice	voice (sangzi 嗓子)		8.5.5		0		
-10208	1667	Yi (Xide)	va³³-ŋgɯ²¹	va³³-ŋgɯ²¹	measles	measles (shazi)		5.3		0		
-10209	1667	Yi (Xide)	mu³³-kʰɔ³³	mu³³-kʰɔ³³	geld(ing)	geld(ing) (shanma)		2.1.7		0		
-10210	1667	Yi (Xide)	mu³³ kʰɔ³³-ta³³-su³³	mu³³ kʰɔ³³-ta³³-su³³	geld(ing)	geld(ing) (shanma)		2.1.7		0		
-10211	1667	Yi (Xide)	vo⁵⁵-mo²¹ tɕʰᴇ³³	vo⁵⁵-mo²¹ tɕʰᴇ³³	spay(ed) sow	spay(ed) sow (shanmuzhu)		1.9.11.1		0		1006,1619,m
-10212	1667	Yi (Xide)	lɯ³³ ti²¹	lɯ³³ ti²¹	bullock(ize)	bullock(ize) (shanniu)		2.1.2		0		
-10213	1667	Yi (Xide)	lɯ³³-ʂɯ⁵⁵	lɯ³³-ʂɯ⁵⁵	bullock(ize)	bullock(ize) (shanniu)		2.1.2		0		
-10214	1667	Yi (Xide)	tʂʰʅ⁵⁵-ɕo³³ gu⁵⁵	tʂʰʅ⁵⁵-ɕo³³ gu⁵⁵	wether(ize)	wether(ize) (shanyang)		2.1.8		0		
-10215	1667	Yi (Xide)	tʂʰʅ⁵⁵-ʂa³³ ɕɔ³³-n̥a⁵⁵	tʂʰʅ⁵⁵-ʂa³³ ɕɔ³³-n̥a⁵⁵	wether(ize)	wether(ize) (shanyang)		2.1.8		0		
-10216	1667	Yi (Xide)	vo⁵⁵ gu⁵⁵	vo⁵⁵ gu⁵⁵	spay(ed) hog	spay(ed) hog (shanzhu)		1.9.11.1		0		1006,m
-10217	1667	Yi (Xide)	fa²¹	fa²¹	addicted	addicted (shangyin 上癮)	be v.	9.9		0		
-10218	1667	Yi (Xide)	ha³³-nᴇ³³	ha³³-nᴇ³³	tongue	tongue		1.3.3		0		623,m
-10219	1667	Yi (Xide)	ha³³-ndʑi³⁴	ha³³-ndʑi³⁴	root of tongue	root of tongue		3.1.2		0		
-10220	1667	Yi (Xide)	ha³³ o³³	ha³³ o³³	tip of tongue	tip of tongue		9.2.1		0		
-10221	1667	Yi (Xide)	ha³³-bu³⁴	ha³³-bu³⁴	surface of tongue	surface of tongue		9.2.7		0		
-10222	1667	Yi (Xide)	lɯ²¹-pu³³ lɯ³³-ʂɯ³³	lɯ²¹-pu³³ lɯ³³-ʂɯ³³	musk (scent)	musk (scent)		1.5.3.2		0		
-10223	1667	Yi (Xide)	ko²¹-po³³	ko²¹-po³³	body	body		1.1.1		0		2,1902
-10224	1667	Yi (Xide)	ko³⁴-ŋga³³-bo³³	ko³⁴-ŋga³³-bo³³	die	die (shengu)		1.1.6		0		
-10225	1667	Yi (Xide)	na³⁴-lɿ³³	na³⁴-lɿ³³	groan, moan (of the wounded)	groan, moan (of the wounded)		8.5.5		0		
-10226	1667	Yi (Xide)	mu³³-lu²¹ mu³³-si³³	mu³³-lu²¹ mu³³-si³³	god, deity	god, deity		5.8.1.1		0		
-10227	1667	Yi (Xide)	ʂɯ³³-tɕi³³	ʂɯ³³-tɕi³³	nerve	nerve		1.6.6.3		0		
-10228	1667	Yi (Xide)	o³³	o³³	kidney	kidney		1.7.5		0		2102
-10229	1667	Yi (Xide)	ɕu̱³³	ɕu̱³³	birth, give	birth, give	v.	1.1.2		0		1865
-10230	1667	Yi (Xide)	ni³³	ni³³	birth, give	birth, give	v.	1.1.2		0		
-10231	1667	Yi (Xide)	a³⁴-dzi³³	a³⁴-dzi³³	birth, give	birth, give	v.	1.1.2		0		p,95
-10232	1667	Yi (Xide)	dʑo³³-dʑu³⁴	dʑo³³-dʑu³⁴	life	life		1.1.2.1		0		m,80
-10233	1667	Yi (Xide)	so⁵⁵-ȵi³³-su³³	so⁵⁵-ȵi³³-su³³	living things	living things		1.1.2.1		0		32,85,m
-10234	1667	Yi (Xide)	mo³⁴-fu³³	mo³⁴-fu³³	sound, voice	sound, voice		9.3		0		
-10235	1667	Yi (Xide)	fu³³	fu³³	sound, voice	sound, voice		9.3		0		
-10236	1667	Yi (Xide)	fu²¹-bi²¹	fu²¹-bi²¹	sound, voice	sound, voice		9.3		0		
-10237	1667	Yi (Xide)	mo³³	mo³³	corpse	corpse		1.1.6.1		0		17
-10238	1667	Yi (Xide)	tsʰɿ⁵⁵	tsʰɿ⁵⁵	sting (v.)	sting (shi)		2.4.2		0		
-10239	1667	Yi (Xide)	lo⁵⁵	lo⁵⁵	hand	hand		1.5.1.1		0		695
-10240	1667	Yi (Xide)	lo⁵⁵-bu³³ kɯ²¹-tɯ²¹	lo⁵⁵-bu³³ kɯ²¹-tɯ²¹	back of hand	back of hand		1.5.1.1.2		0		695,m,m,m
-10241	1667	Yi (Xide)	lo⁵⁵-tsɿ̄³³	lo⁵⁵-tsɿ̄³³	wrist	wrist		1.5.8.1		0	D1	695,418
-10242	1667	Yi (Xide)	lo⁵⁵-bu³³	lo⁵⁵-bu³³	palm	palm		1.5.5		0	D1	695,m
-10243	1667	Yi (Xide)	lo⁵⁵-tɕɿ³³	lo⁵⁵-tɕɿ³³	finger	finger		1.5.6		0		695,331
-10244	1667	Yi (Xide)	gɯ³⁴-dʑi³³	gɯ³⁴-dʑi³³	thin	thin		9.7.2		0		
-10245	1667	Yi (Xide)	go³³	go³³	thin	thin		9.7.2		0		
-10246	1667	Yi (Xide)	ʂɯ²¹-sɿ²¹	ʂɯ²¹-sɿ²¹	lean meat	lean meat		1.1.1		0		34,1806
-10247	1667	Yi (Xide)	go³³-tɕi⁵⁵	go³³-tɕi⁵⁵	thin and weak	thin and weak		9.7.2		0		
-10248	1667	Yi (Xide)	tɕi⁵⁵-gu²¹	tɕi⁵⁵-gu²¹	lean (person)	lean (person)		1.1.1		0		49,1805
-10249	1667	Yi (Xide)	ʑɿ̄³⁴-ndʑɿ̄³³	ʑɿ̄³⁴-ndʑɿ̄³³	chicken pox	chicken pox		2.1.10		0		
-10250	1667	Yi (Xide)	i⁵⁵	i⁵⁵	sleep	sleep		1.1.4.1		0		127
-10251	1667	Yi (Xide)	i⁵⁵-ȵi³³-ku³³	i⁵⁵-ȵi³³-ku³³	asleep	asleep		1.1.4.1		0		127,129,m
-10252	1667	Yi (Xide)	i⁵⁵-ȵi³³	i⁵⁵-ȵi³³	wake up	wake up		1.1.4		0		127,143
-10253	1667	Yi (Xide)	i⁵⁵-ȵi³³-vu̱³³	i⁵⁵-ȵi³³-vu̱³³	fall asleep	fall asleep		6.1.1.4.2		0		127,129,m
-10254	1667	Yi (Xide)	tɕɿ⁵⁵-ɕo⁵⁵	tɕɿ⁵⁵-ɕo⁵⁵	suck	suck		1.3.2.1		0		5541,m
-10255	1667	Yi (Xide)	hi²¹	hi²¹	speak, say	speak, say (shuo)		8.5.10.1		0		
-10256	1667	Yi (Xide)	bu̱³³-dʑɿ⁵⁵	bu̱³³-dʑɿ⁵⁵	talk	talk (shuohua 說話)		8.5.10.1		0		
-10257	1667	Yi (Xide)	ŋo²¹	ŋo²¹	think	think		8.3.1.13.1		0		
-10258	1667	Yi (Xide)	ŋgu³³	ŋgu³³	think	think		8.3.1.13.1		0		
-10259	1667	Yi (Xide)	ᴇ³³	ᴇ³³	neigh	neigh		8.5.5		0		
-10260	1667	Yi (Xide)	fu²¹-su⁵⁵	fu²¹-su⁵⁵	hoarse	hoarse		9.3		0		
-10261	1667	Yi (Xide)	sɿ³³	sɿ³³	die	die		1.1.6		0		27
-10262	1667	Yi (Xide)	tsʰo³³-mo³³	tsʰo³³-mo³³	corpse	corpse		1.1.6.1		0		3327,17
-10263	1667	Yi (Xide)	sɿ³³ gi⁵⁵	sɿ³³ gi⁵⁵	death	death		1.1.6		0		27,m
-10264	1667	Yi (Xide)	lɿ³³-si³³	lɿ³³-si³³	four limbs	four limbs		9.9		0		2409,m
-10265	1667	Yi (Xide)	a³⁴-tɕu̱³³	a³⁴-tɕu̱³³	marrow	marrow		1.6.3.5		0		m,459
-10266	1667	Yi (Xide)	du̱³³-zo³⁴	du̱³³-zo³⁴	injure	injure (sunshang 損傷)		6.4		0		
-10267	1667	Yi (Xide)	bɿ⁵⁵	bɿ⁵⁵	fetus	fetus				0		
-10268	1667	Yi (Xide)	zɯ³³	zɯ³³	fetus	fetus				0		
-10269	1667	Yi (Xide)	pʰa⁵⁵-ɕi³³	pʰa⁵⁵-ɕi³³	placenta, afterbirth	placenta, afterbirth				0		m,1613
-10270	1667	Yi (Xide)	ɕu̱³³	ɕu̱³³	viviparity	viviparity		1.9		0		
-10271	1667	Yi (Xide)	ʂʅ²¹	ʂʅ²¹	viviparity	viviparity		1.9		0		
-10272	1667	Yi (Xide)	tɕo³³	tɕo³³	paralysis	paralysis		1.5.11		0		
-10273	1667	Yi (Xide)	pᴇ³³-dʑɔ³³	pᴇ³³-dʑɔ³³	paralysis	paralysis		1.5.11		0		
-10274	1667	Yi (Xide)	tsʰo³³ tʰa³³	tsʰo³³ tʰa³³	paralytic	paralytic				0		
-10275	1667	Yi (Xide)	ha²¹-ʑɿ̄³³	ha²¹-ʑɿ̄³³	phlegm	phlegm		1.8.3		0		
-10276	1667	Yi (Xide)	so⁵⁵-ʂʅ³³	so⁵⁵-ʂʅ³³	sigh	sigh		8.5.5		0		
-10277	1667	Yi (Xide)	so⁵⁵-tʰi³³	so⁵⁵-tʰi³³	heave a sigh	heave a sigh		6.12		0		
-10278	1667	Yi (Xide)	na³³	na³³	ache, pain	ache, pain		1.1.5.1		0		160
-10279	1667	Yi (Xide)	ŋgu³³	ŋgu³³	ache, pain	ache, pain		1.1.5.1		0		1849
-10280	1667	Yi (Xide)	ɕi³³-ŋo³⁴	ɕi³³-ŋo³⁴	cry	cry		1.8.8.2		0		m,1104
-10281	1667	Yi (Xide)	ɕɿ³³-kʰa³³	ɕɿ³³-kʰa³³	hoof	hoof		1.5.4		0		m,417
-10282	1667	Yi (Xide)	bi⁵⁵-tsɿ̄³³	bi⁵⁵-tsɿ̄³³	hoof	hoof		1.5.4		0		5623,m
-10283	1667	Yi (Xide)	ȵɔ³³-bɿ³³	ȵɔ³³-bɿ³³	tears	tears		1.2.6.7		0	D1	681,187
-10285	1667	Yi (Xide)	ȵɔ³³-bɿ³³ du̱³³	ȵɔ³³-bɿ³³ du̱³³	weep	weep		1.8.8.2		0		681,187,m
-10286	1667	Yi (Xide)	ɕo⁵⁵	ɕo⁵⁵	lick / lap	lick / lap		1.3.3.1		0		629
-10287	1667	Yi (Xide)	tᴇ³³	tᴇ³³	lick / lap	lick / lap		1.3.3.1		0		629
-10288	1667	Yi (Xide)	n̥a³³	n̥a³³	listen	listen		1.2.7.4		0		811
-10289	1667	Yi (Xide)	ɣɯ²¹-gɯ³³	ɣɯ²¹-gɯ³³	hear	hear		1.2.7.4		0		1411,m
-10290	1667	Yi (Xide)	gɯ³⁴-dᴇ³³	gɯ³⁴-dᴇ³³	hear	hear		1.2.7.4		0		1411,m
-10291	1667	Yi (Xide)	i³³-tɕʰi³³	i³³-tɕʰi³³	head	head		1.2.1		0		385,383
-10292	1667	Yi (Xide)	ɔ³³-ma³³	ɔ³³-ma³³	crown of head	crown of head		1.2.1.2		0		385,m
-10293	1667	Yi (Xide)	ɔ³³-ȵᴇ³³	ɔ³³-ȵᴇ³³	hair	hair		1.2.3		0		385,368
-10294	1667	Yi (Xide)	ŋgo²¹	ŋgo²¹	scalp	scalp		1.2.1.5		0		386
-10295	1667	Yi (Xide)	i³³-tɕʰi³³ na³³	i³³-tɕʰi³³ na³³	headache	headache		1.2.1		0		385,383,160
-10296	1667	Yi (Xide)	ɔ³³-bu̱³³	ɔ³³-bu̱³³	favus of scalp	favus of scalp		1.2.1.5		0		
-10297	1667	Yi (Xide)	o³³-mo²¹	o³³-mo²¹	dizzy	dizzy		8.3.1.11.3		0		385,m
-10298	1667	Yi (Xide)	ɔ²¹-ndzɿ⁵⁵	ɔ²¹-ndzɿ⁵⁵	baldhead	baldhead		1.2.3.4		0		p,2022
-10299	1667	Yi (Xide)	pʰɿ⁵⁵	pʰɿ⁵⁵	spit	spit		1.8.3		0		
-10300	1667	Yi (Xide)	pa⁵⁵	pa⁵⁵	spit	spit		1.8.3		0		
-10301	1667	Yi (Xide)	ndʑᴇ³³	ndʑᴇ³³	vomit	vomit		1.8.3.2		0		m
-10302	1667	Yi (Xide)	vi³³-ɣo³³	vi³³-ɣo³³	vomit	vomit		1.8.3.2		0		m,m
-10303	1667	Yi (Xide)	bu̱³³-lᴇ³³	bu̱³³-lᴇ³³	leg	leg (tui 腿)		1.5.7		0		349,m
-10304	1667	Yi (Xide)	tɕʰi³⁴-si³³	tɕʰi³⁴-si³³	leg	leg (tui)		1.5.7		0		
-10305	1667	Yi (Xide)	bɿ²¹-ku²¹	bɿ²¹-ku²¹	hunchback	hunchback		1.4.8.3		0		163,m
-10308	1667	Yi (Xide)	pʰu²¹-ʂu³³	pʰu²¹-ʂu³³	tail	tail		1.4.10.1		0		m,3333
-10309	1667	Yi (Xide)	hi⁵⁵	hi⁵⁵	stomach	stomach		1.7.6		0		2104
-10310	1667	Yi (Xide)	i³⁴-kʰo³³ go⁵⁵	i³⁴-kʰo³³ go⁵⁵	stomachache	stomachache		1.7.6		0		
-10311	1667	Yi (Xide)	ku²¹-na³³	ku²¹-na³³	plague	plague		5.3		0		
-10312	1667	Yi (Xide)	n̥i²¹	n̥i²¹	smell	smell		1.2.8.5		0		1415
-10313	1667	Yi (Xide)	bu⁵⁵-tɕɿ⁵⁵	bu⁵⁵-tɕɿ⁵⁵	lip	lip		1.3.2		0		453,596
-10314	1667	Yi (Xide)	tɕɿ⁵⁵	tɕɿ⁵⁵	inhale	inhale		1.1.2.2		0		
-10315	1667	Yi (Xide)	ȵɔ³³-dzɿ³³	ȵɔ³³-dzɿ³³	blind	blind		1.2.6.14.2		0		x
-10316	1667	Yi (Xide)	ȵɔ³³ bi⁵⁵	ȵɔ³³ bi⁵⁵	blind	blind		1.2.6.14.2		0		681,m
-10317	1667	Yi (Xide)	mi²¹-bu³³	mi²¹-bu³³	lower jaw, chin	lower jaw, chin				0		m,268
-10318	1667	Yi (Xide)	tɕʰi²¹	tɕʰi²¹	lay egg	lay egg		6.17		0		
-10319	1667	Yi (Xide)	ʑɿ³³	ʑɿ³³	laugh	laugh		1.8.8.1		0		1108
-10320	1667	Yi (Xide)	sɿ⁵⁵	sɿ⁵⁵	asthma	asthma		1.1.2.2		0		m
-10321	1667	Yi (Xide)	vi²¹-zɯ³³	vi²¹-zɯ³³	xiaoduzi	xiaoduzi	?			0		
-10322	1667	Yi (Xide)	i²¹-mo²¹-di³³	i²¹-mo²¹-di³³	diarrhea	diarrhea		1.8.5		0		
-10323	1667	Yi (Xide)	hᴇ³³-ma⁵⁵	hᴇ³³-ma⁵⁵	heart	heart		1.7.1		0		297,s
-10324	1667	Yi (Xide)	hᴇ³³-ma⁵⁵ bo²¹-zɯ³³	hᴇ³³-ma⁵⁵ bo²¹-zɯ³³	atrium of heart	atrium of heart		5.11.9.3		0		297,s,m,m
-10325	1667	Yi (Xide)	ɔ³³-tsʰɿ̄³³	ɔ³³-tsʰɿ̄³³	fontanelle	fontanelle		1.2.1.3		0		385,1196
-10326	1667	Yi (Xide)	ɕɿ̄³³	ɕɿ̄³³	blow one's nose	blow one's nose		1.3.1.4		0		
-10327	1667	Yi (Xide)	ndʐʅ³³ ɕi⁵⁵-dʑɿ²¹	ndʐʅ³³ ɕi⁵⁵-dʑɿ²¹	sober up	sober up		1.1.4		0		
-10328	1667	Yi (Xide)	ŋɔ³³-mo²¹	ŋɔ³³-mo²¹	chest	chest		1.4.4.3		0		3377,s
-10329	1667	Yi (Xide)	ŋɔ³³-mo²¹ ko³³	ŋɔ³³-mo²¹ ko³³	chest	chest		1.4.4.3		0		3377,s,560
-10330	1667	Yi (Xide)	ȵɔ³³-xa⁵⁵-ʂʅ³³	ȵɔ³³-xa⁵⁵-ʂʅ³³	dizzy	dizzy		8.3.1.11.3		0		
-10331	1667	Yi (Xide)	o³³-mo²¹	o³³-mo²¹	dizziness	dizziness		8.3.1.11.3		0		385,m
-10332	1667	Yi (Xide)	sɿ³³	sɿ³³	blood	blood		1.6.2		0		230
-10333	1667	Yi (Xide)	sɿ³³-ŋga³³-tɕi³⁴	sɿ³³-ŋga³³-tɕi³⁴	blood vessel	blood vessel		1.6.2.1		0		230,m,m
-10335	1667	Yi (Xide)	ni³⁴-lɿ³³	ni³⁴-lɿ³³	gum	gum		1.3.4.3		0		
-10336	1667	Yi (Xide)	dʐʅ³³-ndʑi²¹	dʐʅ³³-ndʑi²¹	root of tooth	root of tooth		3.1.2		0		635,m
-10337	1667	Yi (Xide)	kɯ³³	kɯ³³	mute, dumb	mute, dumb		1.5.3.2		0		
-10338	1667	Yi (Xide)	ɕᴇ³⁴-pa³³	ɕᴇ³⁴-pa³³	mute (person)	mute (person)		1.5.3.2		0		bChinese
-10339	1667	Yi (Xide)	fu²¹-li²¹	fu²¹-li²¹	throat	throat		1.3.5		0		m,479
-10340	1667	Yi (Xide)	va³³-ʂɯ⁵⁵	va³³-ʂɯ⁵⁵	capon	capon		2.1.10		0		m,m
-10341	1667	Yi (Xide)	ȵɔ³³-dzɿ²¹	ȵɔ³³-dzɿ²¹	eye	eye		1.2.6		0	D1	681,3559
-10342	1667	Yi (Xide)	dʑu̱³⁴-lu̱³³	dʑu̱³⁴-lu̱³³	eye	eye		1.2.6		0		1261,1427
-10343	1667	Yi (Xide)	ȵɔ³³-tɕʰu³³	ȵɔ³³-tɕʰu³³	white of eye	white of eye		1.2.6.3		0		681,m
-10345	1667	Yi (Xide)	ȵɔ³³-ndzɯ³³	ȵɔ³³-ndzɯ³³	sharp eyed	sharp eyed	be v.	6.9.2		0		
-10348	1667	Yi (Xide)	ȵɔ³³-ndʑɿ³³	ȵɔ³³-ndʑɿ³³	eyelid	eyelid		1.2.6.4		0		681,596
-10349	1667	Yi (Xide)	ȵɔ³³-zɯ³³	ȵɔ³³-zɯ³³	eyeball	eyeball		1.2.6.1		0		681,1012
-10350	1667	Yi (Xide)	ȵi²¹	ȵi²¹	swallow	swallow		1.3.5.6		0		
-10351	1667	Yi (Xide)	ɕi³³	ɕi³³	itch	itch		1.6.5.5		0		56
-10352	1667	Yi (Xide)	dʑu⁵⁵-sɿ²¹	dʑu⁵⁵-sɿ²¹	waist	waist		1.4.6		0		215,418
-10353	1667	Yi (Xide)	ɕi⁵⁵	ɕi⁵⁵	bite	bite		1.3.4.4		0		m
-10354	1667	Yi (Xide)	tʰu̱³³	tʰu̱³³	bite	bite		1.3.4.4		0		1799
-10355	1667	Yi (Xide)	tsʰɿ³³	tsʰɿ³³	fat, grease (oil)	fat, grease (you)		1.6.4.1		0		48
-10356	1667	Yi (Xide)	ɕo²¹-ʑɿ³³	ɕo²¹-ʑɿ³³	fat, grease (oil)	fat, grease (you)		1.6.4.1		0		m,48
-10357	1667	Yi (Xide)	la³⁴-ɕi³³	la³⁴-ɕi³³	right side	right side		1.5.3.2		0		695,2786
-10358	1667	Yi (Xide)	ɕi²¹-lo⁵⁵	ɕi²¹-lo⁵⁵	right hand	right hand		1.5.3.2		0		2786,695
-10359	1667	Yi (Xide)	hɯ³³	hɯ³³	fish	fish		2.2.5		0		
-10360	1667	Yi (Xide)	hɯ³³-tsi³³	hɯ³³-tsi³³	fishbone	fishbone (yuci)		1.6.3		0		m,m
-10361	1667	Yi (Xide)	hɯ³³-pu̱³³	hɯ³³-pu̱³³	fish maw	fish maw		2.2.5		0		
-10362	1667	Yi (Xide)	hɯ³³-bu̱³³-ku̱³³	hɯ³³-bu̱³³-ku̱³³	scales	scales		1.6.5.2		0		m,592,586
-10363	1667	Yi (Xide)	hɯ³³-du̱³³	hɯ³³-du̱³³	fins	fins (yuqi)		1.5.1.3.1		0		
-10365	1667	Yi (Xide)	hɯ³³-m̥ɿ²¹-tʂa⁵⁵	hɯ³³-m̥ɿ²¹-tʂa⁵⁵	fish tail	fish tail		2.2.5		0		m,1288,m
-10366	1667	Yi (Xide)	hɯ³³-tɕʰi²¹-ndzɿ³³	hɯ³³-tɕʰi²¹-ndzɿ³³	roe	roe		2.2.6		0		
-10367	1667	Yi (Xide)	do²¹-ma³³	do²¹-ma³³	language	language (yu 語)		5.8		0		
-10368	1667	Yi (Xide)	dʑɿ⁵⁵-ho²¹	dʑɿ⁵⁵-ho²¹	language	language (yuyan 語言)		5.8		0		m,bChinese
-10370	1667	Yi (Xide)	ȵɔ³³-m̥ɿ̄³³-tsʰɿ̄³³	ȵɔ³³-m̥ɿ̄³³-tsʰɿ̄³³	wink	wink		1.2.6.12		0		681,m,m
-10371	1667	Yi (Xide)	ɕu̱³³	ɕu̱³³	grow, develop	grow, develop		9.7.2		0		
-10372	1667	Yi (Xide)	ɕu̱³³ a³⁴-ʑɿ³³	ɕu̱³³ a³⁴-ʑɿ³³	grow up	grow up		9.7.2		0		
-10374	1667	Yi (Xide)	dʑi²¹-vɿ²¹	dʑi²¹-vɿ²¹	sting	sting		2.4.2		0		
-10375	1667	Yi (Xide)	tsʰɿ⁵⁵	tsʰɿ⁵⁵	sting	sting		2.4.2		0		
-10376	1667	Yi (Xide)	ȵɔ³³-dzɿ²¹ pʰo²¹	ȵɔ³³-dzɿ²¹ pʰo²¹	open eyes	open eyes		6.2.2.6.1		0		
-10377	1667	Yi (Xide)	si³³	si³³	limb, branch	limb (zhi)		1.5.3.1		0		2658
-10378	1667	Yi (Xide)	ko²¹-po³³ lɿ³³-si³³	ko²¹-po³³ lɿ³³-si³³	limbs	limbs		1.5.3.1		0		
-10379	1667	Yi (Xide)	lo⁵⁵-si³³	lo⁵⁵-si³³	fingernail	fingernail		1.5.10.1		0		695,m
-10380	1667	Yi (Xide)	vu³³-tɕʰu³³-na³³	vu³³-tɕʰu³³-na³³	hemorrhoids	hemorrhoids		1.4.10.2		0		
-10381	1667	Yi (Xide)	pʰo³³	pʰo³³	mole	mole		2.2.7		0		
-10382	1667	Yi (Xide)	ka⁵⁵-tsɿ̄³³	ka⁵⁵-tsɿ̄³³	in middle	in middle		10.1.1		0		
-10384	1667	Yi (Xide)	ɣo²¹	ɣo²¹	swell up	swell up		1.1.5.2		0		
-10385	1667	Yi (Xide)	lo⁵⁵-ɣa²¹-nɔ³³	lo⁵⁵-ɣa²¹-nɔ³³	elbow	elbow		1.5.8.3		0		695,m,m
-10386	1667	Yi (Xide)	tɔ³³-gu⁵⁵	tɔ³³-gu⁵⁵	hollow of elbow	hollow of elbow		7.1.5.1		0		
-10387	1667	Yi (Xide)	vo⁵⁵-lo⁵⁵-ʂɯ³³	vo⁵⁵-lo⁵⁵-ʂɯ³³	elbow	elbow		1.5.8.3		0		m,695,m
-10388	1667	Yi (Xide)	ȵᴇ⁵⁵-ga³³	ȵᴇ⁵⁵-ga³³	wrinkles	wrinkles		9.6.2		0		
-10389	1667	Yi (Xide)	ɕɿ³⁴-si³³	ɕɿ³⁴-si³³	claw, paw, talon	claw, paw, talon		1.5.10.4		0		
-10390	1667	Yi (Xide)	ɕi⁵⁵	ɕi⁵⁵	drunk	drunk		1.3.5.9		0		
-10391	1667	Yi (Xide)	ndʐʅ³³-ɕi⁵⁵	ndʐʅ³³-ɕi⁵⁵	drunk	drunk		1.3.5.9		0		
-10392	1667	Yi (Xide)	la³⁴-vɿ³³	la³⁴-vɿ³³	left side	left side		1.5.3.2		0		695,2154
-10393	1667	Yi (Xide)	vɿ²¹-lo⁵⁵	vɿ²¹-lo⁵⁵	left hand	left hand		1.5.3.2		0		2154,695
-145806	1667	Yi (Xide)	ɔ³⁴-pa³³-ʂa³³-xo³³ bu̱³³-ku̱³³	ɔ³⁴-pa³³-ʂa³³-xo³³ bu̱³³-ku̱³³	tortoise-shell	tortoise-shell		2.1.6		0		
-145807	1667	Yi (Xide)	ʂɯ²¹-sɿ²¹ si³³-ni²¹ vu²¹-du³³	ʂɯ²¹-sɿ²¹ si³³-ni²¹ vu²¹-du³³	bones and muscle	bones and muscle		1.6.3		0		
-145808	1667	Yi (Xide)	lo⁵⁵-tɕɿ³³ a³³-ʂo³³ tɕi³⁴-su³³	lo⁵⁵-tɕɿ³³ a³³-ʂo³³ tɕi³⁴-su³³	middle finger	middle finger		1.9.4		0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+9894	1667	Yi (Xide)	na³⁴-lu̱³³	na³⁴-lu̱³³	cancer	cancer			5.3		0			
+9895	1667	Yi (Xide)	kʰɯ²¹-bu²¹	kʰɯ²¹-bu²¹	diptheria	diptheria					0			
+9896	1667	Yi (Xide)	tsɿ²¹-si⁵⁵	tsɿ²¹-si⁵⁵	whooping cough	whooping cough			5.3		0			
+9897	1667	Yi (Xide)	ma³³-ɣa³³-dʑu²¹	ma³³-ɣa³³-dʑu²¹	scar	scar			1.6.5.3		0			
+9898	1667	Yi (Xide)	ɬo²¹-bo²¹ tɔ³³-sɿ³³	ɬo²¹-bo²¹ tɔ³³-sɿ³³	upper arm / wing	upper arm±wing			9.2.1		0			695,1327,m,m
+9899	1667	Yi (Xide)	du̱³³	du̱³³	upper arm / wing	upper arm±wing			9.2.1		0			
+9900	1667	Yi (Xide)	dʐʅ³⁴-tu³³	dʐʅ³⁴-tu³³	bucktooth	bucktooth			1.3.4		0			635,m
+9901	1667	Yi (Xide)	mbu̱³³	mbu̱³³	full (from eating)	full (from eating)			1.1.3.2		0			100
+9902	1667	Yi (Xide)	o²¹-li²¹-pʰu²¹	o²¹-li²¹-pʰu²¹	belch	belch			1.8.3.4		0			3443,m,m
+9903	1667	Yi (Xide)	gu̱³⁴-ndʑɿ³³	gu̱³⁴-ndʑɿ³³	full	full			1.1.3.2		0			1829,1830
+9904	1667	Yi (Xide)	ȵi³³	ȵi³³	full	full			1.1.3.2		0			1832
+9905	1667	Yi (Xide)	ɣa³³-nɔ³³	ɣa³³-nɔ³³	behind	behind			9.2.8		0			
+9906	1667	Yi (Xide)	kɯ²¹-tɯ²¹	kɯ²¹-tɯ²¹	back	back			1.4.8		0			1,225
+9907	1667	Yi (Xide)	n̥a²¹-bi⁵⁵	n̥a²¹-bi⁵⁵	nose	nose			1.2.8		0			803,810
+9908	1667	Yi (Xide)	n̥a³³-dʑu̱³³	n̥a³³-dʑu̱³³	nostril	nostril			1.2.8.1		0			803,m
+9909	1667	Yi (Xide)	n̥a³³-ko³³	n̥a³³-ko³³	bridge of nose	bridge of nose			9.10.2		0			803,809
+9910	1667	Yi (Xide)	n̥a³³-dʑu̱³³	n̥a³³-dʑu̱³³	nasal cavity	nasal cavity			3.2.7		0			803,572
+9911	1667	Yi (Xide)	n̥a²¹-bi⁵⁵	n̥a²¹-bi⁵⁵	mucus	mucus			1.8.2		0		D1	805,m
+9912	1667	Yi (Xide)	a³³-m̥ɿ̄³³	a³³-m̥ɿ̄³³	close mouth	close mouth			6.2.2.6.2		0			p,31
+9913	1667	Yi (Xide)	so⁵⁵-mi²¹	so⁵⁵-mi²¹	hold breath	hold breath			6.16		0			32,m
+9914	1667	Yi (Xide)	ɬo²¹-bo²¹ tɔ³³-sɿ̄³³	ɬo²¹-bo²¹ tɔ³³-sɿ̄³³	arm	arm			1.5.1.2		0			695,1327,m,m
+9915	1667	Yi (Xide)	ʂa³³-vu̱³³-tɕᴇ³³-ma³³	ʂa³³-vu̱³³-tɕᴇ³³-ma³³	kneecap	kneecap			1.5.8.4		0			
+9916	1667	Yi (Xide)	na³³	na³³	ill	ill			1.1.5.1		0			160
+9917	1667	Yi (Xide)	na³⁴-bu³³	na³⁴-bu³³	germs	germs			1.1.5.1		0			160,m
+9918	1667	Yi (Xide)	na³³-mu²¹ na³³-mi⁵⁵	na³³-mu²¹ na³³-mi⁵⁵	pathology	pathology			5.3		0			160,m,160,m
+9919	1667	Yi (Xide)	na³³-ȵi³³-pu̱³³-dzu̱³³	na³³-ȵi³³-pu̱³³-dzu̱³³	sick appearance	sick appearance			1.1.5.1		0			160,m,m,m
+9920	1667	Yi (Xide)	ŋgu²¹ nɯ³⁴ a²¹ ŋɯ³³	ŋgu²¹ nɯ³⁴ a²¹ ŋɯ³³	beyond cure	beyond cure			9.2.8		0			
+9921	1667	Yi (Xide)	na³³-fu³³	na³³-fu³³	terminally ill	terminally ill					0			160,m
+9922	1667	Yi (Xide)	dʑᴇ³⁴-mo³³	dʑᴇ³⁴-mo³³	weak due illness	weak due illness	v.	v.	1.1.5		0			
+9923	1667	Yi (Xide)	na³³-bo³³ na³³-pʰa⁵⁵	na³³-bo³³ na³³-pʰa⁵⁵	cause of disease	cause of disease			8.2		0			160,m,160,m
+9924	1667	Yi (Xide)	na³³-sa⁵⁵	na³³-sa⁵⁵	symptom	symptom			1.1.5.1		0			160,m
+9925	1667	Yi (Xide)	na³⁴-ŋgo³³	na³⁴-ŋgo³³	disease, illness	disease, illness			1.1.5.1		0			160,1849
+9926	1667	Yi (Xide)	na³⁴-tʰᴇ³³	na³⁴-tʰᴇ³³	symptom	symptom			1.1.5.1		0			160,m
+9927	1667	Yi (Xide)	ku²¹-li³³	ku²¹-li³³	neck	neck			1.4.2		0			495,479
+9928	1667	Yi (Xide)	tɕʰᴇ³³-pᴇ³³	tɕʰᴇ³³-pᴇ³³	lame	lame			1.5.12		0			
+9929	1667	Yi (Xide)	a³⁴-nᴇ³³ to²¹	a³⁴-nᴇ³³ to²¹	breast feed	breast feed			1.4.4.3		0			p,254,502
+9930	1667	Yi (Xide)	bi³³	bi³³	step	step			6.7.4		0			
+9931	1667	Yi (Xide)	vu³³	vu³³	intestines	intestines			1.7.7		0			2102
+9932	1667	Yi (Xide)	vu³³ li³³ tʰi³⁴	vu³³ li³³ tʰi³⁴	intestinal obstruction	intestinal obstruction			1.7.7.3		0			
+9933	1667	Yi (Xide)	vu³³-na³³ hi⁵⁵-na³³	vu³³-na³³ hi⁵⁵-na³³	intestinal / stomach illness	intestinal / stomach illness			1.7.7.3		0			m,m,2104,m
+9934	1667	Yi (Xide)	vu³³-na³³	vu³³-na³³	enteritis	enteritis			6.7.1		0			
+9935	1667	Yi (Xide)	dzɯ³³	dzɯ³³	eat	eat			1.5.3.2		0			36
+9936	1667	Yi (Xide)	ȵi⁵⁵-tsʰɿ³³-xa⁵⁵-mo²¹	ȵi⁵⁵-tsʰɿ³³-xa⁵⁵-mo²¹	evil spirits	evil spirits			8.3.1.15		0			
+9937	1667	Yi (Xide)	dʐʅ³³	dʐʅ³³	tooth	tooth			1.3.4		0		D1	635
+9938	1667	Yi (Xide)	dzᴇ³³-ma³³	dzᴇ³³-ma³³	tooth	tooth			1.3.4		0			635,s
+9939	1667	Yi (Xide)	ni³⁴-lɿ³³	ni³⁴-lɿ³³	gums	gums			1.3.4.3		0			504,3321
+9940	1667	Yi (Xide)	ɕɿ³³-li³³-n̥i³³-ku³⁴	ɕɿ³³-li³³-n̥i³³-ku³⁴	barefoot	barefoot			1.5.2.5		0			
+9941	1667	Yi (Xide)	dʐɯ³³-ɕɿ³³	dʐɯ³³-ɕɿ³³	animal manure	animal manure			2.3		0			
+9942	1667	Yi (Xide)	so⁵⁵-ti	so⁵⁵-ti	breathe heavily	breathe heavily			1.1.2.2		0			32,m
+9943	1667	Yi (Xide)	so⁵⁵-ʂʅ³³	so⁵⁵-ʂʅ³³	breathe heavily	breathe heavily			1.1.2.2		0			32,m
+9944	1667	Yi (Xide)	so⁵⁵-tsi³³	so⁵⁵-tsi³³	pant	pant			1.1.2.2		0			32,m
+9945	1667	Yi (Xide)	ma³³-ɣa³³	ma³³-ɣa³³	sore	sore	n	n	1.1.5.1		0			
+9946	1667	Yi (Xide)	ʂa³³-pɿ³³	ʂa³³-pɿ³³	sore	sore	n	n	1.1.5.1		0			
+9947	1667	Yi (Xide)	ma³³-ɣa dʑu²¹	ma³³-ɣa dʑu²¹	scar	scar			1.6.5.3		0			
+9948	1667	Yi (Xide)	ma³³-ɣa bu̱³³-ku̱³³	ma³³-ɣa bu̱³³-ku̱³³	scab	scab			1.6.5.3		0			
+9949	1667	Yi (Xide)	ma³³-ɣa³³-kʰɯ³³	ma³³-ɣa³³-kʰɯ³³	mouth of wound	mouth of wound			1.3.1		0			
+9950	1667	Yi (Xide)	m̥o³³	m̥o³³	blow	blow			1.3.1.4		0			503
+9951	1667	Yi (Xide)	m̥u̱³³	m̥u̱³³	blow	blow			1.3.1.4		0			503
+9952	1667	Yi (Xide)	mo²¹	mo²¹	blow	blow			1.3.1.4		0			503
+9953	1667	Yi (Xide)	mi²¹-ndʑɿ³³	mi²¹-ndʑɿ³³	lip	lip			1.3.2		0			467,596
+9954	1667	Yi (Xide)	si²¹ o⁵⁵	si²¹ o⁵⁵	hiccup	hiccup			1.8.3.5		0			m,3443
+9955	1667	Yi (Xide)	tɕʰɿ³³	tɕʰɿ³³	defecate	defecate			1.8.5.4		0		D1	
+9956	1667	Yi (Xide)	vu³⁴-nɔ³³	vu³⁴-nɔ³³	large intestine	large intestine			1.7.7		0			2102,m
+9957	1667	Yi (Xide)	mɔ²¹-sɿ⁵⁵ ʑɿ³³	mɔ²¹-sɿ⁵⁵ ʑɿ³³	human excrement	human excrement			4.5		0			
+9958	1667	Yi (Xide)	lo⁵⁵-mo²¹	lo⁵⁵-mo²¹	thumb	thumb			1.5.6.1		0			695,1619
+9959	1667	Yi (Xide)	o³³-no⁵⁵	o³³-no⁵⁵	cerebrum	cerebrum			1.2.4		0			385,243
+9960	1667	Yi (Xide)	bu̱³³-lᴇ³³	bu̱³³-lᴇ³³	thigh	thigh			1.5.7.1		0			349,m
+9961	1667	Yi (Xide)	sɿ²¹-vu³³-a²¹-mo²¹	sɿ²¹-vu³³-a²¹-mo²¹	molar	molar			1.3.4.2		0			632,m,p,m
+9962	1667	Yi (Xide)	tɕɿ³³	tɕɿ³³	gallbladder	gallbladder			1.7.3		0			
+9963	1667	Yi (Xide)	tɕʰi²¹	tɕʰi²¹	egg	egg					0			300
+9964	1667	Yi (Xide)	tɕʰi²¹-tɕʰu³³	tɕʰi²¹-tɕʰu³³	egg white	egg white					0			300,m
+9965	1667	Yi (Xide)	tɕʰi²¹-ʂʅ³³	tɕʰi²¹-ʂʅ³³	yolk	yolk					0			
+9966	1667	Yi (Xide)	tɕʰi²¹-ko³³	tɕʰi²¹-ko³³	eggshell	eggshell					0			m,m
+9967	1667	Yi (Xide)	ma²¹-ma³³	ma²¹-ma³³	smallpox	smallpox			5.3		0			
+9968	1667	Yi (Xide)	na³⁴-lu̱³³	na³⁴-lu̱³³	tumor, cancer	tumor, cancer			1.1.5.2		0			
+9969	1667	Yi (Xide)	pi³³	pi³³	read	read			6.2.2.9.3		0			
+9970	1667	Yi (Xide)	tɕʰɔ³³-bu²¹-di³³	tɕʰɔ³³-bu²¹-di³³	navel	navel			1.9.4		0			525,m,519
+9972	1667	Yi (Xide)	ȵi⁵⁵-tʰi³³	ȵi⁵⁵-tʰi³³	forehead	forehead			1.2.5.1		0			356,358
+9973	1667	Yi (Xide)	hᴇ³³-a²¹-sa³³	hᴇ³³-a²¹-sa³³	nauseated	nauseated			1.1.5.1		0			
+9974	1667	Yi (Xide)	n̥a²¹po³³	n̥a²¹po³³	ear	ear			1.2.7		0			811,812
+9975	1667	Yi (Xide)	lo³³-bo³³	lo³³-bo³³	deaf	deaf			1.2.7.5		0			m,1409
+9976	1667	Yi (Xide)	pa⁵⁵-kɯ³³	pa⁵⁵-kɯ³³	go crazy	go crazy			6.7.2		0			
+9977	1667	Yi (Xide)	vu³⁴-mo³³	vu³⁴-mo³³	go crazy	go crazy			6.7.2		0			6094,m
+9978	1667	Yi (Xide)	ȵᴇ²¹-vu̱³³	ȵᴇ²¹-vu̱³³	shiver	shiver			1.6.6.2.1		0			
+9979	1667	Yi (Xide)	vu³³	vu³³	go mad	go mad			6.7.2		0			
+9980	1667	Yi (Xide)	o³³-mo²¹	o³³-mo²¹	feel giddy	feel giddy			8.4		0			385,m
+9981	1667	Yi (Xide)	vu³⁴-mo³³	vu³⁴-mo³³	go mad	go mad			6.7.2		0			
+9982	1667	Yi (Xide)	ndʑɿ³⁴-ʂɯ³³ tsʰa³³	ndʑɿ³⁴-ʂɯ³³ tsʰa³³	have a fever	have a fever			8.2		0			
+9983	1667	Yi (Xide)	ŋgu⁵⁵	ŋgu⁵⁵	ruminate	ruminate			8.3.1.13.1		0			
+9984	1667	Yi (Xide)	di³³-ŋgɯ³³	di³³-ŋgɯ³³	gastric disorder	gastric disorder			1.7.6.2		0			
+9985	1667	Yi (Xide)	dʑi³³	dʑi³³	fly	fly			2.2.6		0			
+9986	1667	Yi (Xide)	ɕɿ³³	ɕɿ³³	fat (fatty meat)	fat (fei)			1.6.4		0			48
+9987	1667	Yi (Xide)	tsʰu³³	tsʰu³³	fat (fatty meat)	fat (fei)			1.6.4		0			42
+9988	1667	Yi (Xide)	a³⁴-ʑɿ³³	a³⁴-ʑɿ³³	fat, plump	fat, plump (feida 肥大)			1.6.4		0			m,48
+9989	1667	Yi (Xide)	tsʰu³³	tsʰu³³	fat, corpulent	fat, corpulent (feipang)			1.6.4		0			42
+9990	1667	Yi (Xide)	ɣo³⁴-pu³³	ɣo³⁴-pu³³	fat, corpulent	fat, corpulent (feipang)			1.6.4		0			m,50
+9991	1667	Yi (Xide)	vo⁵⁵	vo⁵⁵	bark	bark			2.1.11.1		0			2765
+9992	1667	Yi (Xide)	tsʰɿ²¹-mo²¹	tsʰɿ²¹-mo²¹	lungs	lungs			1.7.2		0			
+9993	1667	Yi (Xide)	tsʰɿ²¹-mo²¹-ko³³	tsʰɿ²¹-mo²¹-ko³³	lungs	lungs			1.7.2		0			
+9994	1667	Yi (Xide)	tsʰɿ²¹-mo²¹ na³³	tsʰɿ²¹-mo²¹ na³³	pneumonia	pneumonia			5.3		0			
+9995	1667	Yi (Xide)	ɕɿ³³	ɕɿ³³	excrement	excrement			1.8.5		0			572
+9996	1667	Yi (Xide)	tɕʰɿ³⁴-zɿ³³	tɕʰɿ³⁴-zɿ³³	excrement and urine	excrement and urine			1.8.5		0			572,650
+9997	1667	Yi (Xide)	vu³³	vu³³	mad, insane	mad, insane			8.3.1.11.3		0			
+9998	1667	Yi (Xide)	vu³³-lɯ³³-mo³³-lɯ³³	vu³³-lɯ³³-mo³³-lɯ³³	mad, insane	mad, insane			8.3.1.11.3		0			
+9999	1667	Yi (Xide)	vu³⁴-mo³³	vu³⁴-mo³³	insane	insane			8.3.1.11.3		0			
+10000	1667	Yi (Xide)	tsʰo³⁴-vu³³	tsʰo³⁴-vu³³	lunatic	lunatic			8.3		0			
+10001	1667	Yi (Xide)	vu̱³³	vu̱³³	hatch	hatch			1.1.2		0			301
+10002	1667	Yi (Xide)	zɯ³³-dʑi²¹	zɯ³³-dʑi²¹	hatching	hatching			1.1.2		0			
+10003	1667	Yi (Xide)	i²¹-mo²¹	i²¹-mo²¹	belly	belly			1.4.7		0			m,m
+10004	1667	Yi (Xide)	i²¹-mo²¹ ko³³	i²¹-mo²¹ ko³³	belly	belly			1.4.7		0			m,m,m
+10005	1667	Yi (Xide)	vu⁵⁵-dʑi²¹ ko³³	vu⁵⁵-dʑi²¹ ko³³	belly	belly			1.4.7		0			137,m,m
+10006	1667	Yi (Xide)	ko³³-lo³³	ko³³-lo³³	abdominal cavity	abdominal cavity			1.4.7		0			
+10007	1667	Yi (Xide)	ᴇ⁵⁵-vu̱³³ dʑu̱³⁴-ɬu̱³³	ᴇ⁵⁵-vu̱³³ dʑu̱³⁴-ɬu̱³³	armpit	armpit			1.5.1.2.3		0			
+10008	1667	Yi (Xide)	si²¹	si²¹	liver	liver			1.7.3		0			1390
+10009	1667	Yi (Xide)	tsʰɿ²¹-si³⁴	tsʰɿ²¹-si³⁴	liver	liver			1.7.3		0			1390,1019
+10010	1667	Yi (Xide)	tsʰɯ²¹-ʑɿ³³	tsʰɯ²¹-ʑɿ³³	common cold	common cold (ganmao)			7.1.7.2		0			
+10011	1667	Yi (Xide)	tsʰɯ²¹-ʑɿ³³ ɣɯ²¹	tsʰɯ²¹-ʑɿ³³ ɣɯ²¹	common cold	common cold (ganmao)			7.1.7.2		0			
+10012	1667	Yi (Xide)	ku²¹	ku²¹	infect	infect			1.1.5.1		0			
+10013	1667	Yi (Xide)	tʰi²¹-li²¹-ma³³-bi³³	tʰi²¹-li²¹-ma³³-bi³³	pimple, lump	pimple, lump			1.6.5.3		0			
+10014	1667	Yi (Xide)	ta³³-tɕᴇ³³	ta³³-tɕᴇ³³	pimple, lump	pimple, lump			1.6.5.3		0			
+10015	1667	Yi (Xide)	ɬo²¹-bo²¹	ɬo²¹-bo²¹	arm	arm			1.5.1.2		0			695,1327
+10016	1667	Yi (Xide)	ʐʅ²¹	ʐʅ²¹	dirty, filthy	dirty, filthy			3.2.11		0			
+10017	1667	Yi (Xide)	ʐʅ²¹-mi⁵⁵	ʐʅ²¹-mi⁵⁵	dirt on skin	dirt on skin			1.5.3.2		0			596,3568
+10018	1667	Yi (Xide)	vu²¹-du³³	vu²¹-du³³	bone	bone			1.6.3		0			232,241
+10019	1667	Yi (Xide)	bu̱³³	bu̱³³	thigh	thigh			1.5.7.1		0			349
+10020	1667	Yi (Xide)	tsʰɿ²¹-bu̱³³	tsʰɿ²¹-bu̱³³	thigh	thigh			1.5.7.1		0			
+10021	1667	Yi (Xide)	bu̱³⁴-vu³³	bu̱³⁴-vu³³	thighbone	thighbone			1.5.7.1		0			
+10022	1667	Yi (Xide)	gu̱³³-zi³³	gu̱³³-zi³³	backbone	backbone			1.4.8.2		0			1,418
+10023	1667	Yi (Xide)	gu²¹-go²¹	gu²¹-go²¹	skeleton	skeleton			1.6.3.1		0			b
+10024	1667	Yi (Xide)	tsɿ⁵⁵	tsɿ⁵⁵	joint	joint			1.5.8		0			418
+10025	1667	Yi (Xide)	tɕʰi³³-vu³³	tɕʰi³³-vu³³	pelvis	pelvis			1.4.9.2		0			m,m
+10026	1667	Yi (Xide)	vu²¹-du³³ no⁵⁵-ni³³	vu²¹-du³³ no⁵⁵-ni³³	flesh and blood	flesh and blood			1.1.1.1		0			232,241,35,m
+10027	1667	Yi (Xide)	tɕu̱³⁴-tɕu̱³³	tɕu̱³⁴-tɕu̱³³	marrow	marrow			1.6.3.5		0			459,459
+10028	1667	Yi (Xide)	vu²¹-du³³ li³⁴-tɕʰɿ³³	vu²¹-du³³ li³⁴-tɕʰɿ³³	bone fracture	bone fracture			1.6.3		0			232,241,m,m
+10030	1667	Yi (Xide)	ȵi⁵⁵-tsʰɿ³³	ȵi⁵⁵-tsʰɿ³³	ghost	ghost			4.2.12.2		0			160,m
+10031	1667	Yi (Xide)	so⁵⁵-xo³³	so⁵⁵-xo³³	breathe with mouth open	breathe with mouth open			1.1.2.2		0			32,m
+10032	1667	Yi (Xide)	ha³⁴-ʂɯ³³	ha³⁴-ʂɯ³³	yawn	yawn			1.3.1.3		0			1716,m
+10033	1667	Yi (Xide)	i⁵⁵-mbu³³	i⁵⁵-mbu³³	snoring	snoring			1.8.2.2		0			
+10034	1667	Yi (Xide)	ku³³	ku³³	shout	shout			8.5.4.1		0			
+10035	1667	Yi (Xide)	ku²¹	ku²¹	sweat	sweat			1.8.1		0			615
+10036	1667	Yi (Xide)	ku²¹-ma³³	ku²¹-ma³³	beads of sweat	beads of sweat			5.11.8.3		0			615,m
+10037	1667	Yi (Xide)	ȵi⁵⁵-m̥o³³	ȵi⁵⁵-m̥o³³	soft body hair	soft body hair			7.1.4.2		0			m,363
+10038	1667	Yi (Xide)	ʂʅ̄³³	ʂʅ̄³³	howl, wail	howl, wail			8.5.5		0			
+10039	1667	Yi (Xide)	dʐʅ³³ tɕʰu³⁴-tsɿ̄³³	dʐʅ³³ tɕʰu³⁴-tsɿ̄³³	white teeth	white teeth			9.4		0			635,m,m
+10040	1667	Yi (Xide)	ndo³³	ndo³³	drink	drink					0			502
+10041	1667	Yi (Xide)	ʂʅ̄³³	ʂʅ̄³³	groan, snort	groan, snort			8.5.5		0			
+10042	1667	Yi (Xide)	xɯ²¹-xɯ²¹-mu³³	xɯ²¹-xɯ²¹-mu³³	puff hard	puff hard			9.6.2		0			
+10043	1667	Yi (Xide)	li²¹-tʰi²¹	li²¹-tʰi²¹	throat	throat			1.3.5		0			479,501
+10044	1667	Yi (Xide)	hᴇ³³-tsɿ⁵⁵	hᴇ³³-tsɿ⁵⁵	wart	wart			1.6.5.3		0			
+10045	1667	Yi (Xide)	ku³⁴-hɔ³³	ku³⁴-hɔ³³	howl, roar	howl, roar			8.5.5		0			
+10046	1667	Yi (Xide)	ʂʅ̄³³	ʂʅ̄³³	howl, roar	howl, roar			8.5.5		0			
+10047	1667	Yi (Xide)	ɣa³³	ɣa³³	behind, back	behind, back			9.2.8		0			
+10048	1667	Yi (Xide)	ɕɿ³³-ndʑi⁵⁵-bɿ²¹-zɯ³³	ɕɿ³³-ndʑi⁵⁵-bɿ²¹-zɯ³³	heel	heel			1.5.2.1		0			
+10049	1667	Yi (Xide)	ɣa³³-nɔ³³ tɕo³⁴	ɣa³³-nɔ³³ tɕo³⁴	in the rear, behind	in the rear, behind			10.1.1		0			
+10050	1667	Yi (Xide)	kɯ²¹-tɯ²¹ tɕo³⁴	kɯ²¹-tɯ²¹ tɕo³⁴	back	back (houshen)			1.4.8		0			
+10051	1667	Yi (Xide)	ku³⁴-tʂʅ³³	ku³⁴-tʂʅ³³	shout	shout			8.5.4.1		0			
+10052	1667	Yi (Xide)	ku³⁴-fu³³	ku³⁴-fu³³	cry, voice	cry, voice			1.8.8.2		0			
+10053	1667	Yi (Xide)	so⁵⁵-tsʰɿ²¹-so⁵⁵-ŋgo³³	so⁵⁵-tsʰɿ²¹-so⁵⁵-ŋgo³³	breathe	breathe			1.1.2.2		0			32,m,32,m
+10054	1667	Yi (Xide)	so⁵⁵-ŋga³⁴-dɯ³³	so⁵⁵-ŋga³⁴-dɯ³³	respiratory tract	respiratory tract			1.5.3.2		0			
+10055	1667	Yi (Xide)	mᴇ²¹-tsɿ⁵⁵	mᴇ²¹-tsɿ⁵⁵	beard	beard			1.2.5.5		0			363,1232
+10056	1667	Yi (Xide)	ho²¹	ho²¹	speech	speech (hua)			1.8.7		0			
+10057	1667	Yi (Xide)	do²¹	do²¹	speech	speech (hua 話)			1.8.7		0			
+10058	1667	Yi (Xide)	m̥u⁵⁵-kʰu̱³³	m̥u⁵⁵-kʰu̱³³	bosom	bosom			1.4.4.2		0			m,2326
+10059	1667	Yi (Xide)	zɯ³³-ȵi³³	zɯ³³-ȵi³³	pregnant	pregnant	be v.	be v.	1.9.6.1		0			m,m
+10060	1667	Yi (Xide)	vu⁵⁵-ȵi³³	vu⁵⁵-ȵi³³	pregnant	pregnant	be v.	be v.	1.9.6.1		0			137,m
+10061	1667	Yi (Xide)	ɕɿ³⁴-ȵɔ³³-tsɿ⁵⁵	ɕɿ³⁴-ȵɔ³³-tsɿ⁵⁵	ankle	ankle			1.5.8.2		0			m,681,418
+10062	1667	Yi (Xide)	dʑᴇ⁵⁵	dʑᴇ⁵⁵	call out	call out			8.5.13		0			
+10063	1667	Yi (Xide)	i⁵⁵-tu³³	i⁵⁵-tu³³	awaken	awaken			1.1.4		0			127,148
+10064	1667	Yi (Xide)	ʑɿ̄³³-ɬa³³	ʑɿ̄³³-ɬa³³	soul	soul			1.10		0		D1	m,2264
+10065	1667	Yi (Xide)	tɯ²¹	tɯ²¹	alive	alive			1.1.2.1		0			72
+10066	1667	Yi (Xide)	ȵo³³-ʑɿ³³	ȵo³³-ʑɿ³³	pinkeye	pinkeye			1.2.6.14		0			
+10067	1667	Yi (Xide)	mi⁵⁵	mi⁵⁵	hungry	hungry	be v.	be v.	1.1.3		0			99
+10068	1667	Yi (Xide)	mi⁵⁵-dʑi³³	mi⁵⁵-dʑi³³	hunger	hunger			1.1.3		0			99,m
+10069	1667	Yi (Xide)	n◦dʑɿ³⁴-ʂɯ³³	n◦dʑɿ³⁴-ʂɯ³³	skin	skin			1.6.5		0		D1	p,596,790
+10070	1667	Yi (Xide)	ʂɯ²¹-sɿ²¹	ʂɯ²¹-sɿ²¹	muscle	muscle			1.6.6.2		0			34,m
+10071	1667	Yi (Xide)	va³³-ndzu²¹	va³³-ndzu²¹	cockscomb	cockscomb			1.2.2.1		0			1606,m
+10072	1667	Yi (Xide)	va³³-ɕɿ³³-do⁵⁵	va³³-ɕɿ³³-do⁵⁵	cockspur	cockspur			1.5.10.4		0			1606,m,2003
+10073	1667	Yi (Xide)	va³³-bu²¹-ɬu⁵⁵	va³³-bu²¹-ɬu⁵⁵	chicken crop	chicken crop			2.1.10		0			1606,m,m
+10074	1667	Yi (Xide)	va³³-ŋɔ³³ ndi⁵⁵	va³³-ŋɔ³³ ndi⁵⁵	chicken breast	chicken breast			2.1.10		0			1606,m,m
+10075	1667	Yi (Xide)	va³³-ɕɿ³⁴-si³³	va³³-ɕɿ³⁴-si³³	chicken foot	chicken foot			2.1.10		0			1606,m,m
+10076	1667	Yi (Xide)	va³³-hi⁵⁵	va³³-hi⁵⁵	chicken gizzard	chicken gizzard			2.1.10		0			1606,m
+10077	1667	Yi (Xide)	sɔ³³	sɔ³³	mutter	mutter			8.5.5		0			
+10078	1667	Yi (Xide)	pʰa³³-sɔ³³-kʰa³³-sɔ³³	pʰa³³-sɔ³³-kʰa³³-sɔ³³	whisper	whisper			8.5.4.2		0			m,5591,m,5591
+10079	1667	Yi (Xide)	na³⁴-ŋgo³³	na³⁴-ŋgo³³	disease	disease			1.1.5.1		0			160,1849
+10080	1667	Yi (Xide)	dʑu⁵⁵-tsɿ̄³³-vu³³	dʑu⁵⁵-tsɿ̄³³-vu³³	back (body)	back (body)			1.4.8		0			215,418,232
+10081	1667	Yi (Xide)	lᴇ³⁴-ba³³	lᴇ³⁴-ba³³	shoulder	shoulder			1.4.3		0			695,m
+10082	1667	Yi (Xide)	gɔ³³-vu³³	gɔ³³-vu³³	hollow of shoulder	hollow of shoulder? (jianwo 肩窩)			7.1.5.1		0			
+10083	1667	Yi (Xide)	mo³³	mo³³	see	see (jian)			1.2.6.10		0			1227
+10084	1667	Yi (Xide)	mo³⁴-gɔ³³	mo³⁴-gɔ³³	corpse	corpse			1.1.6.1		0			17,m
+10085	1667	Yi (Xide)	hi²¹-su³³	hi²¹-su³³	speak	speak			8.5.10.1		0			
+10086	1667	Yi (Xide)	do²¹ hi²¹	do²¹ hi²¹	speak	speak			8.5.10.1		0			
+10087	1667	Yi (Xide)	ŋgɯ³³	ŋgɯ³³	chew	chew			1.3.4		0			1762
+10088	1667	Yi (Xide)	o³³-fu³³	o³³-fu³³	horn	horn			1.2.2		0			p,819
+10089	1667	Yi (Xide)	dʐʅ³³	dʐʅ³³	horn	horn			1.2.2		0			635
+10090	1667	Yi (Xide)	ɕɿ³³ pʰo⁵⁵	ɕɿ³³ pʰo⁵⁵	foot	foot			1.5.2		0			
+10091	1667	Yi (Xide)	ɕɿ³³-bi³³	ɕɿ³³-bi³³	step	step			6.7.4		0			
+10092	1667	Yi (Xide)	ndʑi⁵⁵-bɿ²¹-zɯ³³	ndʑi⁵⁵-bɿ²¹-zɯ³³	heel	heel			1.5.2.1		0			
+10093	1667	Yi (Xide)	ɕɿ³⁴-bu̱³³	ɕɿ³⁴-bu̱³³	instep	instep			1.5.2.2		0			
+10094	1667	Yi (Xide)	ɕɿ³³-dʑu³⁴	ɕɿ³³-dʑu³⁴	footprint	footprint			1.5.2.5		0			
+10095	1667	Yi (Xide)	ɕɿ³³-xa⁵⁵	ɕɿ³³-xa⁵⁵	sole	sole			1.5.5		0			
+10096	1667	Yi (Xide)	ᴇ³³	ᴇ³³	cry, shout	cry, shout (jiao)			1.8.8.2		0			
+10097	1667	Yi (Xide)	vo⁵⁵ ku³³	vo⁵⁵ ku³³	cry, shout	cry, shout (jiao)			1.8.8.2		0			
+10098	1667	Yi (Xide)	kʰɯ³³-dʑi³³	kʰɯ³³-dʑi³³	stammer	stammer			1.8.7.2		0			
+10099	1667	Yi (Xide)	ȵɔ³³-tsi³³	ȵɔ³³-tsi³³	eyelash	eyelash			1.2.6.5		0		D1	681,1232
+10100	1667	Yi (Xide)	ŋgɯ²¹-dzɿ²¹	ŋgɯ²¹-dzɿ²¹	scabies	scabies			1.6.5		0			
+10101	1667	Yi (Xide)	gu³³-ɕi³³	gu³³-ɕi³³	muscle	muscle			1.6.6.2		0			535,533
+10103	1667	Yi (Xide)	ʂɯ²¹-sɿ²¹	ʂɯ²¹-sɿ²¹	muscles	muscles			1.6.6.2		0			34,m
+10104	1667	Yi (Xide)	kʰu³⁴-ɣɯ³³	kʰu³⁴-ɣɯ³³	spirit, mind	spirit, mind (jingshen)			5.8.1.1		0			
+10105	1667	Yi (Xide)	hɯ²¹-ȵi²¹	hɯ²¹-ȵi²¹	spirit, mind	spirit, mind (jingshen)			5.8.1.1		0			m,m
+10106	1667	Yi (Xide)	ndʑɿ³³-tu³⁴ ʂɯ³³-tu²¹	ndʑɿ³³-tu³⁴ ʂɯ³³-tu²¹	convulsion	convulsion			6.7.3		0			
+10107	1667	Yi (Xide)	gu³³-tɕi²¹	gu³³-tɕi²¹	vein	vein			1.6.2.1		0			535,m
+10108	1667	Yi (Xide)	kʰɯ³³-tsʰɿ⁵⁵	kʰɯ³³-tsʰɿ⁵⁵	open mouth	open mouth (kai kou)			6.2.2.6.1		0			
+10109	1667	Yi (Xide)	mo³³-lu³³-go³³	mo³³-lu³³-go³³	open eyes	open eyes			6.2.2.6.1		0			
+10110	1667	Yi (Xide)	hɯ²¹	hɯ²¹	look at	look at (kan)			1.2.6.11		0			m
+10111	1667	Yi (Xide)	ɣɯ²¹-mo³³	ɣɯ²¹-mo³³	catch sight of	catch sight of			6.21		0			
+10112	1667	Yi (Xide)	hɯ²¹-ha³⁴	hɯ²¹-ha³⁴	glance at	glance at	v.	v.	1.2.6.11		0			
+10113	1667	Yi (Xide)	i⁵⁵-ȵi³³-ku³³	i⁵⁵-ȵi³³-ku³³	sleepy	sleepy			1.1.4.1		0			127,129,m
+10114	1667	Yi (Xide)	tsɿ²¹	tsɿ²¹	cough	cough			1.8.3.3		0			
+10115	1667	Yi (Xide)	ʑɿ³³-sɿ⁵⁵	ʑɿ³³-sɿ⁵⁵	thirsty	thirsty			1.1.3.1		0			1013,101
+10116	1667	Yi (Xide)	ɕi⁵⁵	ɕi⁵⁵	gnaw	gnaw			1.3.4.4		0			
+10117	1667	Yi (Xide)	bu̱³³-dʑɿ⁵⁵	bu̱³³-dʑɿ⁵⁵	utter	utter			8.5.10.1		0			
+10118	1667	Yi (Xide)	kʰa²¹-pʰi⁵⁵	kʰa²¹-pʰi⁵⁵	mouth	mouth			1.3.1		0			273,2096
+10119	1667	Yi (Xide)	kʰɯ³³	kʰɯ³³	mouth	mouth			1.3.1		0			273
+10120	1667	Yi (Xide)	kʰɯ³³-dʑi³³	kʰɯ³³-dʑi³³	stutter	stutter			8.5.4.5		0			
+10121	1667	Yi (Xide)	do²¹-zi³³	do²¹-zi³³	enunciation	enunciation			8.5.10.1		0			
+10122	1667	Yi (Xide)	tsɿ²¹-vɿ⁵⁵	tsɿ²¹-vɿ⁵⁵	saliva	saliva			1.8.3		0		D1	
+10123	1667	Yi (Xide)	ŋo³³	ŋo³³	cry	cry			1.8.8.2		0			1104
+10124	1667	Yi (Xide)	ɕi³³-ŋo³⁴	ɕi³³-ŋo³⁴	cry, weep, sob	cry, weep, sob			1.8.8.2		0			m,1104
+10125	1667	Yi (Xide)	vu³³-su³³-su²¹	vu³³-su³³-su²¹	mad, crazy	mad, crazy			8.3.1.11.3		0			6094,m,m
+10126	1667	Yi (Xide)	tsʰo³⁴-vu³³ su²¹	tsʰo³⁴-vu³³ su²¹	madman	madman			8.3.1.11.3		0			
+10127	1667	Yi (Xide)	ɔ³³-bu̱³³	ɔ³³-bu̱³³	favus of the scalp	favus of the scalp			1.2.1.5		0			
+10128	1667	Yi (Xide)	ʐɯ²¹	ʐɯ²¹	tuberculosis	tuberculosis (laobing)			1.5.3.2		0			458
+10129	1667	Yi (Xide)	tɕᴇ³³-ʂa³³	tɕᴇ³³-ʂa³³	rib	rib			1.4.4.3		0			
+10130	1667	Yi (Xide)	si²¹-dᴇ³³-ka⁵⁵	si²¹-dᴇ³³-ka⁵⁵	pleura	pleura			1.5.3.2		0			
+10132	1667	Yi (Xide)	ɣɯ³³	ɣɯ³³	power, strength	power, strength			1.1.5		0			5677
+10133	1667	Yi (Xide)	vɿ⁵⁵-ʑɿ̄³³	vɿ⁵⁵-ʑɿ̄³³	dysentery	dysentery			1.7.7		0			
+10134	1667	Yi (Xide)	kʰa³³-ȵɔ³³	kʰa³³-ȵɔ³³	face	face			1.2.5		0		D1	273,681
+10135	1667	Yi (Xide)	o³³-ȵi⁵⁵	o³³-ȵi⁵⁵	face	face			1.2.5		0		D1	1186,681
+10136	1667	Yi (Xide)	na³⁴-dᴇ³³	na³⁴-dᴇ³³	treat, cure	treat, cure			5.8		0			
+10137	1667	Yi (Xide)	bu³³-gi⁵⁵	bu³³-gi⁵⁵	lymph node	lymph node			1.6.6.4		0			m,m
+10138	1667	Yi (Xide)	bu̱³³-ku̱³³	bu̱³³-ku̱³³	scales (fish)	scales (fish)			1.6.5.2		0			592,586
+10139	1667	Yi (Xide)	bu³³-ȵi²¹-mo²¹	bu³³-ȵi²¹-mo²¹	tumor	tumor			1.1.5.2		0			
+10140	1667	Yi (Xide)	zɯ³³-kɯ³³ lo³³-bo³³	zɯ³³-kɯ³³ lo³³-bo³³	deaf and dumb	deaf and dumb			1.2.7.5		0			
+10141	1667	Yi (Xide)	vɿ⁵⁵	vɿ⁵⁵	numb	numb (ma)			1.5.11		0			5686
+10142	1667	Yi (Xide)	vɿ⁵⁵-tɕu̱³³	vɿ⁵⁵-tɕu̱³³	paralysis	paralysis			1.5.11		0			
+10143	1667	Yi (Xide)	dzi²¹-ŋo²¹ a²¹ bo²¹	dzi²¹-ŋo²¹ a²¹ bo²¹	paralysis	paralysis			1.5.11		0			
+10144	1667	Yi (Xide)	nu³³	nu³³	leprosy	leprosy			5.3		0			
+10145	1667	Yi (Xide)	ȵi⁵⁵-ŋgɯ³³	ȵi⁵⁵-ŋgɯ³³	pockmarks	pockmarks			1.6.5.3		0			
+10146	1667	Yi (Xide)	ɕi³³	ɕi³³	pulse	pulse			1.7.1.1		0			
+10147	1667	Yi (Xide)	ɕi³³-tɕi²¹	ɕi³³-tɕi²¹	vein	vein			1.6.2.1		0			230,m
+10148	1667	Yi (Xide)	ȵo³³-dzɿ³³	ȵo³³-dzɿ³³	blind	blind			1.2.6.14.2		0			681,1401
+10149	1667	Yi (Xide)	vu³⁴-dʑᴇ³³	vu³⁴-dʑᴇ³³	appendix	appendix			1.7.7		0			2102,m
+10150	1667	Yi (Xide)	ȵᴇ³³	ȵᴇ³³	hair, feather	hair, feather			1.2.3		0			368
+10151	1667	Yi (Xide)	ʂa³³	ʂa³³	hair, feather	hair, feather			1.2.3		0			366
+10152	1667	Yi (Xide)	ȵɔ³³-m̥o³³	ȵɔ³³-m̥o³³	eyebrow	eyebrow			1.2.6.6		0			681,363
+10153	1667	Yi (Xide)	ɕᴇ³³-dʐʅ³³	ɕᴇ³³-dʐʅ³³	tooth (front)	tooth (front)			1.3.4		0			1214,635
+10154	1667	Yi (Xide)	ᴇ⁵⁵-mɔ²¹	ᴇ⁵⁵-mɔ²¹	dream	dream			1.1.4.2		0			127,126
+10155	1667	Yi (Xide)	ȵɔ³³-mi²¹	ȵɔ³³-mi²¹	narrow one's eyes	narrow one's eyes			9.7.2		0			
+10156	1667	Yi (Xide)	ʂa³³-mɿ⁵⁵	ʂa³³-mɿ⁵⁵	face	face			1.2.5		0			2034,681
+10157	1667	Yi (Xide)	a⁵⁵-mo²¹	a⁵⁵-mo²¹	face	face			1.2.5		0			p,1187
+10160	1667	Yi (Xide)	fu⁵⁵-n̥ɯ³³	fu⁵⁵-n̥ɯ³³	face, features	face, features			1.2.5		0			1186,681
+10161	1667	Yi (Xide)	n̥i³³-bo³³	n̥i³³-bo³³	facial features	facial features			1.2.5		0			
+10162	1667	Yi (Xide)	ku³³	ku³³	cry (birds, insects)	cry (birds, insects) (ming)			1.8.8.2		0			
+10163	1667	Yi (Xide)	mo³³	mo³³	cry (birds, insects)	cry (birds, insects) (ming)			1.8.8.2		0			
+10164	1667	Yi (Xide)	ȵɔ³³-m̥ɿ̄³³	ȵɔ³³-m̥ɿ̄³³	close eyes (die)	close eyes (die)			6.2.2.6.2		0			681,31
+10165	1667	Yi (Xide)	ȵi⁵⁵-tsʰɿ³³	ȵi⁵⁵-tsʰɿ³³	devil, demon	devil, demon			4.2.12.2		0			
+10166	1667	Yi (Xide)	ȵɔ³³-dzɿ²¹	ȵɔ³³-dzɿ²¹	sight, vision	sight, vision			1.2.6.10		0			
+10167	1667	Yi (Xide)	a³⁴-nᴇ³³	a³⁴-nᴇ³³	breasts, milk	breasts, milk					0			p,254
+10168	1667	Yi (Xide)	ȵi²¹	ȵi²¹	breasts, milk	breasts, milk					0			254
+10169	1667	Yi (Xide)	a³⁴-nᴇ³³ ma³⁴-ma³³	a³⁴-nᴇ³³ ma³⁴-ma³³	nipple	nipple					0			p,254,m,m
+10170	1667	Yi (Xide)	lɯ³³-ȵi²¹-tsʰɿ³³	lɯ³³-ȵi²¹-tsʰɿ³³	cream	cream					0			
+10171	1667	Yi (Xide)	o³³-no⁵⁵	o³³-no⁵⁵	brain	brain			1.2.4		0			385,243
+10172	1667	Yi (Xide)	o³³-no⁵⁵ ti²¹-ɕi²¹	o³³-no⁵⁵ ti²¹-ɕi²¹	meninges	meninges			1.2.4		0			
+10173	1667	Yi (Xide)	mu³³-ɬɿ³³-so³⁴-ko³³	mu³³-ɬɿ³³-so³⁴-ko³³	meningitis	meningitis			1.2.4		0			
+10174	1667	Yi (Xide)	vu³⁴-tʰi³³ hi⁵⁵-dʐɯ³³	vu³⁴-tʰi³³ hi⁵⁵-dʐɯ³³	internal organs	internal organs			1.7		0		D1	
+10175	1667	Yi (Xide)	nda⁵⁵	nda⁵⁵	greasy	greasy			7.1.4.2		0			
+10176	1667	Yi (Xide)	zɿ³³	zɿ³³	urine	urine			1.8.4		0			650
+10177	1667	Yi (Xide)	ndʑi³³	ndʑi³³	pus	pus			1.8.6.1		0			1292
+10179	1667	Yi (Xide)	pʰᴇ³³	pʰᴇ³³	malaria	malaria			5.3		0			
+10180	1667	Yi (Xide)	ndʑᴇ³³-di²¹	ndʑᴇ³³-di²¹	vomit	vomit			1.8.3.2		0			m,m
+10181	1667	Yi (Xide)	ɣo³⁴-pu³³	ɣo³⁴-pu³³	fat	fat			1.6.4		0			m,50
+10182	1667	Yi (Xide)	bu̱³³-ku̱³³	bu̱³³-ku̱³³	skin	skin			1.6.5		0			592,586
+10184	1667	Yi (Xide)	ɬᴇ³³	ɬᴇ³³	spleen	spleen			1.7.4		0			2812
+10185	1667	Yi (Xide)	ɬa²¹-ba³³	ɬa²¹-ba³³	spleen	spleen			1.7.4		0			2812,s
+10186	1667	Yi (Xide)	vu²¹	vu²¹	fart	fart			1.8.5.2		0			3553
+10187	1667	Yi (Xide)	pʰɿ²¹-ndi²¹	pʰɿ²¹-ndi²¹	buttocks	buttocks			1.4.10		0			1361,1243
+10189	1667	Yi (Xide)	a³⁴-ɕi³³-tɕʰɔ³³	a³⁴-ɕi³³-tɕʰɔ³³	umbilical cord	umbilical cord					0			m,m,m
+10190	1667	Yi (Xide)	so⁵⁵	so⁵⁵	breath, vapor	breath, vapor (qi)			1.1.2.2		0			32
+10191	1667	Yi (Xide)	ho³³	ho³³	breath, vapor	breath, vapor (qi)			1.1.2.2		0			
+10192	1667	Yi (Xide)	mu⁵⁵	mu⁵⁵	breath, vapor	breath, vapor (qi)			1.1.2.2		0			62
+10193	1667	Yi (Xide)	so⁵⁵-ti³³	so⁵⁵-ti³³	asthma	asthma			1.1.2.2		0			32,m
+10194	1667	Yi (Xide)	tsʰɿ²¹-mo²¹ tɕi²¹-po²¹	tsʰɿ²¹-mo²¹ tɕi²¹-po²¹	windpipe	windpipe			1.3.5.2		0			458,s,m,m
+10195	1667	Yi (Xide)	mᴇ²¹	mᴇ²¹	front	front			1.4.4		0			1210
+10196	1667	Yi (Xide)	ɬo²¹-bo²¹	ɬo²¹-bo²¹	forearm	forearm			1.5.1.2.2		0			
+10197	1667	Yi (Xide)	mᴇ²¹ tɕo³⁴	mᴇ²¹ tɕo³⁴	in front	in front			10.1.1		0			1210,m
+10198	1667	Yi (Xide)	lo⁵⁵-ɕɿ³³	lo⁵⁵-ɕɿ³³	forelimb, foreleg	forelimb, foreleg			1.5.3.1		0			
+10199	1667	Yi (Xide)	nɔ³³	nɔ³³	take a look	take a look (qiao)			6.21		0			
+10200	1667	Yi (Xide)	tɕʰᴇ³³-pᴇ³³	tɕʰᴇ³³-pᴇ³³	lame, limp	lame, limp	be v.	be v.	1.5.12		0			
+10201	1667	Yi (Xide)	hɯ²¹-nɯ²¹	hɯ²¹-nɯ²¹	fever	fever			1.1.5.1		0			
+10202	1667	Yi (Xide)	ʂɯ³³	ʂɯ³³	meat	meat			1.1.1.1		0			34
+10203	1667	Yi (Xide)	no⁵⁵	no⁵⁵	meat	meat			1.1.1.1		0			35
+10204	1667	Yi (Xide)	ko²¹-po³³	ko²¹-po³³	human body, flesh	human body, flesh			4.5		0			2,1902
+10205	1667	Yi (Xide)	bo³³-lo³³	bo³³-lo³³	cheek	cheek			1.2.5.2		0			268,m
+10206	1667	Yi (Xide)	hɯ³³-ba²¹-tʂʰa²¹	hɯ³³-ba²¹-tʂʰa²¹	gills	gills			1.3.5.3		0		D1	
+10207	1667	Yi (Xide)	fu²¹-bi²¹	fu²¹-bi²¹	voice	voice (sangzi 嗓子)			8.5.5		0			
+10208	1667	Yi (Xide)	va³³-ŋgɯ²¹	va³³-ŋgɯ²¹	measles	measles (shazi)			5.3		0			
+10209	1667	Yi (Xide)	mu³³-kʰɔ³³	mu³³-kʰɔ³³	geld(ing)	geld(ing) (shanma)			2.1.7		0			
+10210	1667	Yi (Xide)	mu³³ kʰɔ³³-ta³³-su³³	mu³³ kʰɔ³³-ta³³-su³³	geld(ing)	geld(ing) (shanma)			2.1.7		0			
+10211	1667	Yi (Xide)	vo⁵⁵-mo²¹ tɕʰᴇ³³	vo⁵⁵-mo²¹ tɕʰᴇ³³	spay(ed) sow	spay(ed) sow (shanmuzhu)			1.9.11.1		0			1006,1619,m
+10212	1667	Yi (Xide)	lɯ³³ ti²¹	lɯ³³ ti²¹	bullock(ize)	bullock(ize) (shanniu)			2.1.2		0			
+10213	1667	Yi (Xide)	lɯ³³-ʂɯ⁵⁵	lɯ³³-ʂɯ⁵⁵	bullock(ize)	bullock(ize) (shanniu)			2.1.2		0			
+10214	1667	Yi (Xide)	tʂʰʅ⁵⁵-ɕo³³ gu⁵⁵	tʂʰʅ⁵⁵-ɕo³³ gu⁵⁵	wether(ize)	wether(ize) (shanyang)			2.1.8		0			
+10215	1667	Yi (Xide)	tʂʰʅ⁵⁵-ʂa³³ ɕɔ³³-n̥a⁵⁵	tʂʰʅ⁵⁵-ʂa³³ ɕɔ³³-n̥a⁵⁵	wether(ize)	wether(ize) (shanyang)			2.1.8		0			
+10216	1667	Yi (Xide)	vo⁵⁵ gu⁵⁵	vo⁵⁵ gu⁵⁵	spay(ed) hog	spay(ed) hog (shanzhu)			1.9.11.1		0			1006,m
+10217	1667	Yi (Xide)	fa²¹	fa²¹	addicted	addicted (shangyin 上癮)	be v.	be v.	9.9		0			
+10218	1667	Yi (Xide)	ha³³-nᴇ³³	ha³³-nᴇ³³	tongue	tongue			1.3.3		0			623,m
+10219	1667	Yi (Xide)	ha³³-ndʑi³⁴	ha³³-ndʑi³⁴	root of tongue	root of tongue			3.1.2		0			
+10220	1667	Yi (Xide)	ha³³ o³³	ha³³ o³³	tip of tongue	tip of tongue			9.2.1		0			
+10221	1667	Yi (Xide)	ha³³-bu³⁴	ha³³-bu³⁴	surface of tongue	surface of tongue			9.2.7		0			
+10222	1667	Yi (Xide)	lɯ²¹-pu³³ lɯ³³-ʂɯ³³	lɯ²¹-pu³³ lɯ³³-ʂɯ³³	musk (scent)	musk (scent)			1.5.3.2		0			
+10223	1667	Yi (Xide)	ko²¹-po³³	ko²¹-po³³	body	body			1.1.1		0			2,1902
+10224	1667	Yi (Xide)	ko³⁴-ŋga³³-bo³³	ko³⁴-ŋga³³-bo³³	die	die (shengu)			1.1.6		0			
+10225	1667	Yi (Xide)	na³⁴-lɿ³³	na³⁴-lɿ³³	groan, moan (of the wounded)	groan, moan (of the wounded)			8.5.5		0			
+10226	1667	Yi (Xide)	mu³³-lu²¹ mu³³-si³³	mu³³-lu²¹ mu³³-si³³	god, deity	god, deity			5.8.1.1		0			
+10227	1667	Yi (Xide)	ʂɯ³³-tɕi³³	ʂɯ³³-tɕi³³	nerve	nerve			1.6.6.3		0			
+10228	1667	Yi (Xide)	o³³	o³³	kidney	kidney			1.7.5		0			2102
+10229	1667	Yi (Xide)	ɕu̱³³	ɕu̱³³	birth, give	birth, give	v.	v.	1.1.2		0			1865
+10230	1667	Yi (Xide)	ni³³	ni³³	birth, give	birth, give	v.	v.	1.1.2		0			
+10231	1667	Yi (Xide)	a³⁴-dzi³³	a³⁴-dzi³³	birth, give	birth, give	v.	v.	1.1.2		0			p,95
+10232	1667	Yi (Xide)	dʑo³³-dʑu³⁴	dʑo³³-dʑu³⁴	life	life			1.1.2.1		0			m,80
+10233	1667	Yi (Xide)	so⁵⁵-ȵi³³-su³³	so⁵⁵-ȵi³³-su³³	living things	living things			1.1.2.1		0			32,85,m
+10234	1667	Yi (Xide)	mo³⁴-fu³³	mo³⁴-fu³³	sound, voice	sound, voice			9.3		0			
+10235	1667	Yi (Xide)	fu³³	fu³³	sound, voice	sound, voice			9.3		0			
+10236	1667	Yi (Xide)	fu²¹-bi²¹	fu²¹-bi²¹	sound, voice	sound, voice			9.3		0			
+10237	1667	Yi (Xide)	mo³³	mo³³	corpse	corpse			1.1.6.1		0			17
+10238	1667	Yi (Xide)	tsʰɿ⁵⁵	tsʰɿ⁵⁵	sting (v.)	sting (shi)			2.4.2		0			
+10239	1667	Yi (Xide)	lo⁵⁵	lo⁵⁵	hand	hand			1.5.1.1		0			695
+10240	1667	Yi (Xide)	lo⁵⁵-bu³³ kɯ²¹-tɯ²¹	lo⁵⁵-bu³³ kɯ²¹-tɯ²¹	back of hand	back of hand			1.5.1.1.2		0			695,m,m,m
+10241	1667	Yi (Xide)	lo⁵⁵-tsɿ̄³³	lo⁵⁵-tsɿ̄³³	wrist	wrist			1.5.8.1		0		D1	695,418
+10242	1667	Yi (Xide)	lo⁵⁵-bu³³	lo⁵⁵-bu³³	palm	palm			1.5.5		0		D1	695,m
+10243	1667	Yi (Xide)	lo⁵⁵-tɕɿ³³	lo⁵⁵-tɕɿ³³	finger	finger			1.5.6		0			695,331
+10244	1667	Yi (Xide)	gɯ³⁴-dʑi³³	gɯ³⁴-dʑi³³	thin	thin			9.7.2		0			
+10245	1667	Yi (Xide)	go³³	go³³	thin	thin			9.7.2		0			
+10246	1667	Yi (Xide)	ʂɯ²¹-sɿ²¹	ʂɯ²¹-sɿ²¹	lean meat	lean meat			1.1.1		0			34,1806
+10247	1667	Yi (Xide)	go³³-tɕi⁵⁵	go³³-tɕi⁵⁵	thin and weak	thin and weak			9.7.2		0			
+10248	1667	Yi (Xide)	tɕi⁵⁵-gu²¹	tɕi⁵⁵-gu²¹	lean (person)	lean (person)			1.1.1		0			49,1805
+10249	1667	Yi (Xide)	ʑɿ̄³⁴-ndʑɿ̄³³	ʑɿ̄³⁴-ndʑɿ̄³³	chicken pox	chicken pox			2.1.10		0			
+10250	1667	Yi (Xide)	i⁵⁵	i⁵⁵	sleep	sleep			1.1.4.1		0			127
+10251	1667	Yi (Xide)	i⁵⁵-ȵi³³-ku³³	i⁵⁵-ȵi³³-ku³³	asleep	asleep			1.1.4.1		0			127,129,m
+10252	1667	Yi (Xide)	i⁵⁵-ȵi³³	i⁵⁵-ȵi³³	wake up	wake up			1.1.4		0			127,143
+10253	1667	Yi (Xide)	i⁵⁵-ȵi³³-vu̱³³	i⁵⁵-ȵi³³-vu̱³³	fall asleep	fall asleep			6.1.1.4.2		0			127,129,m
+10254	1667	Yi (Xide)	tɕɿ⁵⁵-ɕo⁵⁵	tɕɿ⁵⁵-ɕo⁵⁵	suck	suck			1.3.2.1		0			5541,m
+10255	1667	Yi (Xide)	hi²¹	hi²¹	speak, say	speak, say (shuo)			8.5.10.1		0			
+10256	1667	Yi (Xide)	bu̱³³-dʑɿ⁵⁵	bu̱³³-dʑɿ⁵⁵	talk	talk (shuohua 說話)			8.5.10.1		0			
+10257	1667	Yi (Xide)	ŋo²¹	ŋo²¹	think	think			8.3.1.13.1		0			
+10258	1667	Yi (Xide)	ŋgu³³	ŋgu³³	think	think			8.3.1.13.1		0			
+10259	1667	Yi (Xide)	ᴇ³³	ᴇ³³	neigh	neigh			8.5.5		0			
+10260	1667	Yi (Xide)	fu²¹-su⁵⁵	fu²¹-su⁵⁵	hoarse	hoarse			9.3		0			
+10261	1667	Yi (Xide)	sɿ³³	sɿ³³	die	die			1.1.6		0			27
+10262	1667	Yi (Xide)	tsʰo³³-mo³³	tsʰo³³-mo³³	corpse	corpse			1.1.6.1		0			3327,17
+10263	1667	Yi (Xide)	sɿ³³ gi⁵⁵	sɿ³³ gi⁵⁵	death	death			1.1.6		0			27,m
+10264	1667	Yi (Xide)	lɿ³³-si³³	lɿ³³-si³³	four limbs	four limbs			9.9		0			2409,m
+10265	1667	Yi (Xide)	a³⁴-tɕu̱³³	a³⁴-tɕu̱³³	marrow	marrow			1.6.3.5		0			m,459
+10266	1667	Yi (Xide)	du̱³³-zo³⁴	du̱³³-zo³⁴	injure	injure (sunshang 損傷)			6.4		0			
+10267	1667	Yi (Xide)	bɿ⁵⁵	bɿ⁵⁵	fetus	fetus					0			
+10268	1667	Yi (Xide)	zɯ³³	zɯ³³	fetus	fetus					0			
+10269	1667	Yi (Xide)	pʰa⁵⁵-ɕi³³	pʰa⁵⁵-ɕi³³	placenta, afterbirth	placenta, afterbirth					0			m,1613
+10270	1667	Yi (Xide)	ɕu̱³³	ɕu̱³³	viviparity	viviparity			1.9		0			
+10271	1667	Yi (Xide)	ʂʅ²¹	ʂʅ²¹	viviparity	viviparity			1.9		0			
+10272	1667	Yi (Xide)	tɕo³³	tɕo³³	paralysis	paralysis			1.5.11		0			
+10273	1667	Yi (Xide)	pᴇ³³-dʑɔ³³	pᴇ³³-dʑɔ³³	paralysis	paralysis			1.5.11		0			
+10274	1667	Yi (Xide)	tsʰo³³ tʰa³³	tsʰo³³ tʰa³³	paralytic	paralytic					0			
+10275	1667	Yi (Xide)	ha²¹-ʑɿ̄³³	ha²¹-ʑɿ̄³³	phlegm	phlegm			1.8.3		0			
+10276	1667	Yi (Xide)	so⁵⁵-ʂʅ³³	so⁵⁵-ʂʅ³³	sigh	sigh			8.5.5		0			
+10277	1667	Yi (Xide)	so⁵⁵-tʰi³³	so⁵⁵-tʰi³³	heave a sigh	heave a sigh			6.12		0			
+10278	1667	Yi (Xide)	na³³	na³³	ache, pain	ache, pain			1.1.5.1		0			160
+10279	1667	Yi (Xide)	ŋgu³³	ŋgu³³	ache, pain	ache, pain			1.1.5.1		0			1849
+10280	1667	Yi (Xide)	ɕi³³-ŋo³⁴	ɕi³³-ŋo³⁴	cry	cry			1.8.8.2		0			m,1104
+10281	1667	Yi (Xide)	ɕɿ³³-kʰa³³	ɕɿ³³-kʰa³³	hoof	hoof			1.5.4		0			m,417
+10282	1667	Yi (Xide)	bi⁵⁵-tsɿ̄³³	bi⁵⁵-tsɿ̄³³	hoof	hoof			1.5.4		0			5623,m
+10283	1667	Yi (Xide)	ȵɔ³³-bɿ³³	ȵɔ³³-bɿ³³	tears	tears			1.2.6.7		0		D1	681,187
+10285	1667	Yi (Xide)	ȵɔ³³-bɿ³³ du̱³³	ȵɔ³³-bɿ³³ du̱³³	weep	weep			1.8.8.2		0			681,187,m
+10286	1667	Yi (Xide)	ɕo⁵⁵	ɕo⁵⁵	lick / lap	lick / lap			1.3.3.1		0			629
+10287	1667	Yi (Xide)	tᴇ³³	tᴇ³³	lick / lap	lick / lap			1.3.3.1		0			629
+10288	1667	Yi (Xide)	n̥a³³	n̥a³³	listen	listen			1.2.7.4		0			811
+10289	1667	Yi (Xide)	ɣɯ²¹-gɯ³³	ɣɯ²¹-gɯ³³	hear	hear			1.2.7.4		0			1411,m
+10290	1667	Yi (Xide)	gɯ³⁴-dᴇ³³	gɯ³⁴-dᴇ³³	hear	hear			1.2.7.4		0			1411,m
+10291	1667	Yi (Xide)	i³³-tɕʰi³³	i³³-tɕʰi³³	head	head			1.2.1		0			385,383
+10292	1667	Yi (Xide)	ɔ³³-ma³³	ɔ³³-ma³³	crown of head	crown of head			1.2.1.2		0			385,m
+10293	1667	Yi (Xide)	ɔ³³-ȵᴇ³³	ɔ³³-ȵᴇ³³	hair	hair			1.2.3		0			385,368
+10294	1667	Yi (Xide)	ŋgo²¹	ŋgo²¹	scalp	scalp			1.2.1.5		0			386
+10295	1667	Yi (Xide)	i³³-tɕʰi³³ na³³	i³³-tɕʰi³³ na³³	headache	headache			1.2.1		0			385,383,160
+10296	1667	Yi (Xide)	ɔ³³-bu̱³³	ɔ³³-bu̱³³	favus of scalp	favus of scalp			1.2.1.5		0			
+10297	1667	Yi (Xide)	o³³-mo²¹	o³³-mo²¹	dizzy	dizzy			8.3.1.11.3		0			385,m
+10298	1667	Yi (Xide)	ɔ²¹-ndzɿ⁵⁵	ɔ²¹-ndzɿ⁵⁵	baldhead	baldhead			1.2.3.4		0			p,2022
+10299	1667	Yi (Xide)	pʰɿ⁵⁵	pʰɿ⁵⁵	spit	spit			1.8.3		0			
+10300	1667	Yi (Xide)	pa⁵⁵	pa⁵⁵	spit	spit			1.8.3		0			
+10301	1667	Yi (Xide)	ndʑᴇ³³	ndʑᴇ³³	vomit	vomit			1.8.3.2		0			m
+10302	1667	Yi (Xide)	vi³³-ɣo³³	vi³³-ɣo³³	vomit	vomit			1.8.3.2		0			m,m
+10303	1667	Yi (Xide)	bu̱³³-lᴇ³³	bu̱³³-lᴇ³³	leg	leg (tui 腿)			1.5.7		0			349,m
+10304	1667	Yi (Xide)	tɕʰi³⁴-si³³	tɕʰi³⁴-si³³	leg	leg (tui)			1.5.7		0			
+10305	1667	Yi (Xide)	bɿ²¹-ku²¹	bɿ²¹-ku²¹	hunchback	hunchback			1.4.8.3		0			163,m
+10308	1667	Yi (Xide)	pʰu²¹-ʂu³³	pʰu²¹-ʂu³³	tail	tail			1.4.10.1		0			m,3333
+10309	1667	Yi (Xide)	hi⁵⁵	hi⁵⁵	stomach	stomach			1.7.6		0			2104
+10310	1667	Yi (Xide)	i³⁴-kʰo³³ go⁵⁵	i³⁴-kʰo³³ go⁵⁵	stomachache	stomachache			1.7.6		0			
+10311	1667	Yi (Xide)	ku²¹-na³³	ku²¹-na³³	plague	plague			5.3		0			
+10312	1667	Yi (Xide)	n̥i²¹	n̥i²¹	smell	smell			1.2.8.5		0			1415
+10313	1667	Yi (Xide)	bu⁵⁵-tɕɿ⁵⁵	bu⁵⁵-tɕɿ⁵⁵	lip	lip			1.3.2		0			453,596
+10314	1667	Yi (Xide)	tɕɿ⁵⁵	tɕɿ⁵⁵	inhale	inhale			1.1.2.2		0			
+10315	1667	Yi (Xide)	ȵɔ³³-dzɿ³³	ȵɔ³³-dzɿ³³	blind	blind			1.2.6.14.2		0			x
+10316	1667	Yi (Xide)	ȵɔ³³ bi⁵⁵	ȵɔ³³ bi⁵⁵	blind	blind			1.2.6.14.2		0			681,m
+10317	1667	Yi (Xide)	mi²¹-bu³³	mi²¹-bu³³	lower jaw, chin	lower jaw, chin					0			m,268
+10318	1667	Yi (Xide)	tɕʰi²¹	tɕʰi²¹	lay egg	lay egg			6.17		0			
+10319	1667	Yi (Xide)	ʑɿ³³	ʑɿ³³	laugh	laugh			1.8.8.1		0			1108
+10320	1667	Yi (Xide)	sɿ⁵⁵	sɿ⁵⁵	asthma	asthma			1.1.2.2		0			m
+10321	1667	Yi (Xide)	vi²¹-zɯ³³	vi²¹-zɯ³³	xiaoduzi	xiaoduzi	?	?			0			
+10322	1667	Yi (Xide)	i²¹-mo²¹-di³³	i²¹-mo²¹-di³³	diarrhea	diarrhea			1.8.5		0			
+10323	1667	Yi (Xide)	hᴇ³³-ma⁵⁵	hᴇ³³-ma⁵⁵	heart	heart			1.7.1		0			297,s
+10324	1667	Yi (Xide)	hᴇ³³-ma⁵⁵ bo²¹-zɯ³³	hᴇ³³-ma⁵⁵ bo²¹-zɯ³³	atrium of heart	atrium of heart			5.11.9.3		0			297,s,m,m
+10325	1667	Yi (Xide)	ɔ³³-tsʰɿ̄³³	ɔ³³-tsʰɿ̄³³	fontanelle	fontanelle			1.2.1.3		0			385,1196
+10326	1667	Yi (Xide)	ɕɿ̄³³	ɕɿ̄³³	blow one's nose	blow one's nose			1.3.1.4		0			
+10327	1667	Yi (Xide)	ndʐʅ³³ ɕi⁵⁵-dʑɿ²¹	ndʐʅ³³ ɕi⁵⁵-dʑɿ²¹	sober up	sober up			1.1.4		0			
+10328	1667	Yi (Xide)	ŋɔ³³-mo²¹	ŋɔ³³-mo²¹	chest	chest			1.4.4.3		0			3377,s
+10329	1667	Yi (Xide)	ŋɔ³³-mo²¹ ko³³	ŋɔ³³-mo²¹ ko³³	chest	chest			1.4.4.3		0			3377,s,560
+10330	1667	Yi (Xide)	ȵɔ³³-xa⁵⁵-ʂʅ³³	ȵɔ³³-xa⁵⁵-ʂʅ³³	dizzy	dizzy			8.3.1.11.3		0			
+10331	1667	Yi (Xide)	o³³-mo²¹	o³³-mo²¹	dizziness	dizziness			8.3.1.11.3		0			385,m
+10332	1667	Yi (Xide)	sɿ³³	sɿ³³	blood	blood			1.6.2		0			230
+10333	1667	Yi (Xide)	sɿ³³-ŋga³³-tɕi³⁴	sɿ³³-ŋga³³-tɕi³⁴	blood vessel	blood vessel			1.6.2.1		0			230,m,m
+10335	1667	Yi (Xide)	ni³⁴-lɿ³³	ni³⁴-lɿ³³	gum	gum			1.3.4.3		0			
+10336	1667	Yi (Xide)	dʐʅ³³-ndʑi²¹	dʐʅ³³-ndʑi²¹	root of tooth	root of tooth			3.1.2		0			635,m
+10337	1667	Yi (Xide)	kɯ³³	kɯ³³	mute, dumb	mute, dumb			1.5.3.2		0			
+10338	1667	Yi (Xide)	ɕᴇ³⁴-pa³³	ɕᴇ³⁴-pa³³	mute (person)	mute (person)			1.5.3.2		0			bChinese
+10339	1667	Yi (Xide)	fu²¹-li²¹	fu²¹-li²¹	throat	throat			1.3.5		0			m,479
+10340	1667	Yi (Xide)	va³³-ʂɯ⁵⁵	va³³-ʂɯ⁵⁵	capon	capon			2.1.10		0			m,m
+10341	1667	Yi (Xide)	ȵɔ³³-dzɿ²¹	ȵɔ³³-dzɿ²¹	eye	eye			1.2.6		0		D1	681,3559
+10342	1667	Yi (Xide)	dʑu̱³⁴-lu̱³³	dʑu̱³⁴-lu̱³³	eye	eye			1.2.6		0			1261,1427
+10343	1667	Yi (Xide)	ȵɔ³³-tɕʰu³³	ȵɔ³³-tɕʰu³³	white of eye	white of eye			1.2.6.3		0			681,m
+10345	1667	Yi (Xide)	ȵɔ³³-ndzɯ³³	ȵɔ³³-ndzɯ³³	sharp eyed	sharp eyed	be v.	be v.	6.9.2		0			
+10348	1667	Yi (Xide)	ȵɔ³³-ndʑɿ³³	ȵɔ³³-ndʑɿ³³	eyelid	eyelid			1.2.6.4		0			681,596
+10349	1667	Yi (Xide)	ȵɔ³³-zɯ³³	ȵɔ³³-zɯ³³	eyeball	eyeball			1.2.6.1		0			681,1012
+10350	1667	Yi (Xide)	ȵi²¹	ȵi²¹	swallow	swallow			1.3.5.6		0			
+10351	1667	Yi (Xide)	ɕi³³	ɕi³³	itch	itch			1.6.5.5		0			56
+10352	1667	Yi (Xide)	dʑu⁵⁵-sɿ²¹	dʑu⁵⁵-sɿ²¹	waist	waist			1.4.6		0			215,418
+10353	1667	Yi (Xide)	ɕi⁵⁵	ɕi⁵⁵	bite	bite			1.3.4.4		0			m
+10354	1667	Yi (Xide)	tʰu̱³³	tʰu̱³³	bite	bite			1.3.4.4		0			1799
+10355	1667	Yi (Xide)	tsʰɿ³³	tsʰɿ³³	fat, grease (oil)	fat, grease (you)			1.6.4.1		0			48
+10356	1667	Yi (Xide)	ɕo²¹-ʑɿ³³	ɕo²¹-ʑɿ³³	fat, grease (oil)	fat, grease (you)			1.6.4.1		0			m,48
+10357	1667	Yi (Xide)	la³⁴-ɕi³³	la³⁴-ɕi³³	right side	right side			1.5.3.2		0			695,2786
+10358	1667	Yi (Xide)	ɕi²¹-lo⁵⁵	ɕi²¹-lo⁵⁵	right hand	right hand			1.5.3.2		0			2786,695
+10359	1667	Yi (Xide)	hɯ³³	hɯ³³	fish	fish			2.2.5		0			
+10360	1667	Yi (Xide)	hɯ³³-tsi³³	hɯ³³-tsi³³	fishbone	fishbone (yuci)			1.6.3		0			m,m
+10361	1667	Yi (Xide)	hɯ³³-pu̱³³	hɯ³³-pu̱³³	fish maw	fish maw			2.2.5		0			
+10362	1667	Yi (Xide)	hɯ³³-bu̱³³-ku̱³³	hɯ³³-bu̱³³-ku̱³³	scales	scales			1.6.5.2		0			m,592,586
+10363	1667	Yi (Xide)	hɯ³³-du̱³³	hɯ³³-du̱³³	fins	fins (yuqi)			1.5.1.3.1		0			
+10365	1667	Yi (Xide)	hɯ³³-m̥ɿ²¹-tʂa⁵⁵	hɯ³³-m̥ɿ²¹-tʂa⁵⁵	fish tail	fish tail			2.2.5		0			m,1288,m
+10366	1667	Yi (Xide)	hɯ³³-tɕʰi²¹-ndzɿ³³	hɯ³³-tɕʰi²¹-ndzɿ³³	roe	roe			2.2.6		0			
+10367	1667	Yi (Xide)	do²¹-ma³³	do²¹-ma³³	language	language (yu 語)			5.8		0			
+10368	1667	Yi (Xide)	dʑɿ⁵⁵-ho²¹	dʑɿ⁵⁵-ho²¹	language	language (yuyan 語言)			5.8		0			m,bChinese
+10370	1667	Yi (Xide)	ȵɔ³³-m̥ɿ̄³³-tsʰɿ̄³³	ȵɔ³³-m̥ɿ̄³³-tsʰɿ̄³³	wink	wink			1.2.6.12		0			681,m,m
+10371	1667	Yi (Xide)	ɕu̱³³	ɕu̱³³	grow, develop	grow, develop			9.7.2		0			
+10372	1667	Yi (Xide)	ɕu̱³³ a³⁴-ʑɿ³³	ɕu̱³³ a³⁴-ʑɿ³³	grow up	grow up			9.7.2		0			
+10374	1667	Yi (Xide)	dʑi²¹-vɿ²¹	dʑi²¹-vɿ²¹	sting	sting			2.4.2		0			
+10375	1667	Yi (Xide)	tsʰɿ⁵⁵	tsʰɿ⁵⁵	sting	sting			2.4.2		0			
+10376	1667	Yi (Xide)	ȵɔ³³-dzɿ²¹ pʰo²¹	ȵɔ³³-dzɿ²¹ pʰo²¹	open eyes	open eyes			6.2.2.6.1		0			
+10377	1667	Yi (Xide)	si³³	si³³	limb, branch	limb (zhi)			1.5.3.1		0			2658
+10378	1667	Yi (Xide)	ko²¹-po³³ lɿ³³-si³³	ko²¹-po³³ lɿ³³-si³³	limbs	limbs			1.5.3.1		0			
+10379	1667	Yi (Xide)	lo⁵⁵-si³³	lo⁵⁵-si³³	fingernail	fingernail			1.5.10.1		0			695,m
+10380	1667	Yi (Xide)	vu³³-tɕʰu³³-na³³	vu³³-tɕʰu³³-na³³	hemorrhoids	hemorrhoids			1.4.10.2		0			
+10381	1667	Yi (Xide)	pʰo³³	pʰo³³	mole	mole			2.2.7		0			
+10382	1667	Yi (Xide)	ka⁵⁵-tsɿ̄³³	ka⁵⁵-tsɿ̄³³	in middle	in middle			10.1.1		0			
+10384	1667	Yi (Xide)	ɣo²¹	ɣo²¹	swell up	swell up			1.1.5.2		0			
+10385	1667	Yi (Xide)	lo⁵⁵-ɣa²¹-nɔ³³	lo⁵⁵-ɣa²¹-nɔ³³	elbow	elbow			1.5.8.3		0			695,m,m
+10386	1667	Yi (Xide)	tɔ³³-gu⁵⁵	tɔ³³-gu⁵⁵	hollow of elbow	hollow of elbow			7.1.5.1		0			
+10387	1667	Yi (Xide)	vo⁵⁵-lo⁵⁵-ʂɯ³³	vo⁵⁵-lo⁵⁵-ʂɯ³³	elbow	elbow			1.5.8.3		0			m,695,m
+10388	1667	Yi (Xide)	ȵᴇ⁵⁵-ga³³	ȵᴇ⁵⁵-ga³³	wrinkles	wrinkles			9.6.2		0			
+10389	1667	Yi (Xide)	ɕɿ³⁴-si³³	ɕɿ³⁴-si³³	claw, paw, talon	claw, paw, talon			1.5.10.4		0			
+10390	1667	Yi (Xide)	ɕi⁵⁵	ɕi⁵⁵	drunk	drunk			1.3.5.9		0			
+10391	1667	Yi (Xide)	ndʐʅ³³-ɕi⁵⁵	ndʐʅ³³-ɕi⁵⁵	drunk	drunk			1.3.5.9		0			
+10392	1667	Yi (Xide)	la³⁴-vɿ³³	la³⁴-vɿ³³	left side	left side			1.5.3.2		0			695,2154
+10393	1667	Yi (Xide)	vɿ²¹-lo⁵⁵	vɿ²¹-lo⁵⁵	left hand	left hand			1.5.3.2		0			2154,695
+145806	1667	Yi (Xide)	ɔ³⁴-pa³³-ʂa³³-xo³³ bu̱³³-ku̱³³	ɔ³⁴-pa³³-ʂa³³-xo³³ bu̱³³-ku̱³³	tortoise-shell	tortoise-shell			2.1.6		0			
+145807	1667	Yi (Xide)	ʂɯ²¹-sɿ²¹ si³³-ni²¹ vu²¹-du³³	ʂɯ²¹-sɿ²¹ si³³-ni²¹ vu²¹-du³³	bones and muscle	bones and muscle			1.6.3		0			
+145808	1667	Yi (Xide)	lo⁵⁵-tɕɿ³³ a³³-ʂo³³ tɕi³⁴-su³³	lo⁵⁵-tɕɿ³³ a³³-ʂo³³ tɕi³⁴-su³³	middle finger	middle finger			1.9.4		0			

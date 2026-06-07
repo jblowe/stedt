@@ -1,917 +1,917 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-45852	1444	Tagin	toŋ◦re	toŋ◦re	front	front		1.4.4		0		
-45853	1444	Tagin	prɤ	prɤ	front	front		1.4.4		0		m
-45854	1444	Tagin	roŋ◦boŋ	roŋ◦boŋ	horn (of animal)	horn (of animal)		1.2.2		0		814,m
-45855	1444	Tagin	nakop	nakop	hoof	hoof		1.5.4		0		
-45856	1444	Tagin	nay◦buŋ	nay◦buŋ	tail	tail		1.4.10.1		0		1288,3331
-45857	1444	Tagin	lɤ◦pa	lɤpa	leg	leg		1.5.7		0	D1	350,m
-45858	1444	Tagin	ibuŋ	ibuŋ	beak / bill	beak / bill		1.3.1.2		0		476
-45859	1444	Tagin	a◦mi	a◦mi	fur	fur		1.6.1		0		p,m
-45860	1444	Tagin	lap	lap	feather	feather		1.6.1.1		0		757
-45861	1444	Tagin	lap	lap	wing	wing		1.5.1.3		0		757
-45862	1444	Tagin	seiː	seiː	dung	dung		1.8.5		0		
-45863	1444	Tagin	a◦din	a◦din	meat	meat		1.1.1.1		0		p,6299
-45864	1444	Tagin	a◦din din◦li	a◦din din◦li	raw meat	raw meat		7.1.8.3		0		p,6299,6299,6423
-45865	1444	Tagin	a◦din li◦ne	a◦din li◦ne	flesh	flesh		1.1.1.1		0		p,6299,m,m
-45866	1444	Tagin	pɯ◦pɯ	pɯ◦pɯ	egg	egg				0		m,1654
-45867	1444	Tagin	doŋ◦ku	doŋ◦ku	skull / upper head	skull / upper head		1.2.1.1		0		1425,m
-45868	1444	Tagin	donu	donu	hair	hair		1.2.3		0		
-45869	1444	Tagin	tok◦tum	tok◦tum	forehead	forehead		1.2.5.1		0		359,m
-45870	1444	Tagin	nyok◦mu	nyok◦mu	face	face		1.2.5		0		682,5662
-45871	1444	Tagin	gam	gam	mouth	mouth		1.3.1		0		6324
-45872	1444	Tagin	poknyi	poknyi	brain	brain		1.2.4		0		252
-45873	1444	Tagin	nyik	nyik	eye	eye		1.2.6		0		682
-45874	1444	Tagin	nyik siŋ nyik◦mɯ	nyik siŋ nyik◦mɯ	eyebrow	eyebrow		1.2.6.6		0		682,370,682,363
-45875	1444	Tagin	nyaruŋ	nyaruŋ	ear	ear		1.2.7		0		6487
-45876	1444	Tagin	nyaruŋ a◦roŋ	nyaruŋ a◦roŋ	earhole	earhole		1.2.7		0		6487,p,2070
-45877	1444	Tagin	naŋ	naŋ	nose	nose		1.2.8		0		803
-45878	1444	Tagin	gam◦burr	gam◦burr	lip	lip		1.3.2		0		454,452
-45879	1444	Tagin	nap◦cu	napcu	upper lip	upper lip		9.2.1		0		470,m
-45880	1444	Tagin	gam◦burr	gam◦burr	lower lip	lower lip				0		454,452
-45881	1444	Tagin	na◦mɯ	na◦mɯ	moustache	moustache		1.2.5.5		0		803,363
-45882	1444	Tagin	riu	riu	tongue	tongue		1.3.3		0		623
-45883	1444	Tagin	i◦ɟoŋ	i◦ɟoŋ	tooth	tooth		1.3.4		0		632,2813
-45884	1444	Tagin	i◦nyior	i◦nyior	gums	gums		1.3.4.3		0		632,504
-45885	1444	Tagin	cok◦pya	cok◦pya	jaw	jaw		1.2.5.2		0		2034,264
-45886	1444	Tagin	cok◦pya	cokpya	chin	chin		1.2.5.3		0		2056,6280
-45887	1444	Tagin	na◦mi	na◦mi	beard	beard		1.2.5.5		0		470,363
-45888	1444	Tagin	leŋ◦po	leŋ◦po	neck	neck		1.4.2		0		479,3404
-45889	1444	Tagin	laŋku	laŋku	back	back		1.4.8		0		6417
-45890	1444	Tagin	eŋ◦kiŋ◦galo	eŋ◦kiŋ◦galo	backbone / spine	backbone / spine		1.4.8.2		0		m,209,233
-45891	1444	Tagin	gor◦biŋ	gor◦biŋ	shoulder	shoulder		1.4.3		0		6327,563
-45892	1444	Tagin	hakɯŋ	hakɯŋ	chest	chest		1.4.4.3		0		6342
-45893	1444	Tagin	a◦puk	a◦puk	heart	heart		1.7.1		0		p,164
-45894	1444	Tagin	ha◦puk	ha◦puk	heart	heart		1.7.1		0		6201,164
-45895	1444	Tagin	haru	haru	lung	lung		1.7.2		0		67
-45896	1444	Tagin	a◦cu	a◦cu	breast	breast		1.4.4.3		0		p,5539
-45897	1444	Tagin	lak◦po	lak◦po	arm	arm		1.5.1.2		0		695,1327
-45898	1444	Tagin	larko	larko	upper arm	upper arm		1.5.1.2.1		0		
-45899	1444	Tagin	lak◦bi	lak◦bi	lower arm	lower arm				0	W	695,m
-45900	1444	Tagin	lak◦nyik	lak◦nyik	wrist	wrist		1.5.8.1		0		695,682
-45901	1444	Tagin	lak	lak	hand	hand		1.5.1.1		0		695
-45902	1444	Tagin	lak◦cu	lak◦cu	palm	palm		1.5.5		0		695,776
-45903	1444	Tagin	lak◦ciŋ	lakciŋ	finger	finger		1.5.6		0		695,6689
-45904	1444	Tagin	lak-ne	lak-ne	thumb	thumb		1.5.6.1		0		695,1621
-45905	1444	Tagin	lak◦tum	lak◦tum	fist	fist		1.5.1.1.1		0		695,771
-45906	1444	Tagin	lak-|sin	lak-|sin	nail	nail		1.5.10		0		6691
-45907	1444	Tagin	kɯ◦po	kɯ◦po	belly	belly		1.4.7		0		2125,2111
-45908	1444	Tagin	lɤt	lɤt	stomach	stomach		1.7.6		0		m
-45909	1444	Tagin	sen	sen	liver	liver		1.7.3		0		1390
-45910	1444	Tagin	kɤ◦car	kɤ◦car	kidney	kidney		1.7.5		0		m,m
-45912	1444	Tagin	lɤ◦bit	lɤbit	right leg	right leg		1.5.3.2		0		350,5761
-45913	1444	Tagin	lɤbiŋ	lɤbiŋ	knee	knee		1.5.8.4		0		6437
-45914	1444	Tagin	lɤ◦cu	lɤcu	foot	foot		1.5.2		0		350,m
-45915	1444	Tagin	ɤdu	ɤdu	toe	toe		1.5.6		0		
-45916	1444	Tagin	oː◦i	oːi	blood	blood		1.6.2		0		p,230
-45917	1444	Tagin	a◦lo	a◦lo	skeleton	skeleton		1.6.3.1		0		p,238
-45918	1444	Tagin	a◦pɯn	a◦pɯn	skin	skin		1.6.5		0		p,591
-45919	1444	Tagin	au	au	vein	vein		1.6.2.1		0		530
-45920	1444	Tagin	ha◦cer◦ha◦yer	ha◦cer◦ha◦yer	sweat	sweat	n	1.8.1		0		m,4513,m,4513
-45921	1444	Tagin	si◦cum	si◦cum	urine	urine		1.8.4		0		650,1730
-45922	1444	Tagin	iː	iː	stool	stool		5.11.9.4		0		
-45923	1444	Tagin	ran	ran	soul	soul		1.10		0		
-45924	1444	Tagin	si-nam	si-nam	death	death		1.1.6		0	D1	27,s
-45925	1444	Tagin	bɤ-nam	bɤ-nam	vomit	vomit		1.8.3.2		0		1145,s
-45926	1444	Tagin	oi to◦nam	oi to◦nam	bleeding / cause bleeding	bleeding / cause bleeding		1.6.2		0		230,m,s
-45927	1444	Tagin	a◦pin	a◦pin	skin	skin		1.6.5		0		p,591
-45928	1444	Tagin	a◦pin	a◦pin	bark (of plant)	bark (of plant)		2.1.11.1		0		p,591
-45929	1444	Tagin	ampo	ampo	trunk	trunk		1.4.1		0		m
-45931	1444	Tagin	nik ciŋ	nik ciŋ	blind	blind		1.2.6.14.2		0		682,m
-45932	1444	Tagin	nik-ciŋ-ne nyi	nik-ciŋ-ne nyi	blind man	blind man		1.2.6.14.2		0		682,m,m,m
-45933	1444	Tagin	si-nɤ	si-nɤ	dead	dead		1.1.6		0		27,s
-45934	1444	Tagin	si-nɤ ŋi	si-nɤ ŋi	dead man	dead man		1.1.6		0		27,s,m
-45935	1444	Tagin	ruŋ◦ɟi	ruŋ◦ɟi	deaf	deaf		1.2.7.5		0		2070,m
-45936	1444	Tagin	ruŋ ɟinɤ nyimɤ	ruŋ ɟinɤ nyimɤ	deaf woman	deaf woman		1.2.7.5		0		2070,m,1618
-45937	1444	Tagin	gam◦kak	gam◦kak	dumb (=mute?)	dumb (=mute?)		8.5.4.4		0		6324,1789
-45938	1444	Tagin	gaŋ◦kak	gaŋ◦kak	dumb (=mute?)	dumb (=mute?)		8.5.4.4		0		6324,1789
-45939	1444	Tagin	ku◦gɤ◦nam	ku◦gɤ◦nam	pregnant	pregnant		1.9.6.1		0		m,6339,s
-45940	1444	Tagin	kai	kai	fat	fat		1.6.4		0		m
-45941	1444	Tagin	kano	kano	hungry	hungry		1.1.3		0		104
-45942	1444	Tagin	tiŋ-niŋ	tiŋ-niŋ	thirsty / drink water	thirsty / drink water	adj	1.1.3.1		0		502,m
-45943	1444	Tagin	lɤ-ma	lɤ-ma	ill	ill		1.1.5.1		0		m,s
-45944	1444	Tagin	sak-nam	sak-nam	breathe	breathe		1.1.2.2		0		32,s
-45945	1444	Tagin	kaibɤ sak◦lak	kaibɤ sak◦lak	breathe deeply	breathe deeply		1.1.2.2		0		m,32,m
-45946	1444	Tagin	i◦sɯk sak-nam	i◦sɯk sak-nam	cough	cough	v	1.8.3.3		0		p,1794,1794,s
-45948	1444	Tagin	gɯk-nam	gɯk-nam	crawl	crawl		6.7.9		0	D1	
-45949	1444	Tagin	kab-nam	kab-nam	cry	cry		1.8.8.2		0		1103,s
-45950	1444	Tagin	no hugubɤ kab◦dne	no hugubɤ kab◦dne	Why do you cry?	Why do you cry?		10.5.3		0		2489,m,1103,m
-45951	1444	Tagin	si-nam	si-nam	die	die		1.1.6		0	D1	27,s
-45954	1444	Tagin	ya◦ma ma-nam	ya◦ma ma-nam	dream	dream		1.1.4.2		0		127,126,126,m
-45956	1444	Tagin	teŋ-nam	teŋ-nam	drink	drink				0		502,s
-45957	1444	Tagin	do-nam	do-nam	eat	eat		1.5.3.2		0		5363,s
-45958	1444	Tagin	tɤ-nam	tɤ-nam	hear	hear	v	1.2.7.4		0		1408,s
-45960	1444	Tagin	dik-nam	dik-nam	kick	kick	v	6.2.2.3.3		0		6706
-45961	1444	Tagin	mo◦pup-nam	mo◦pup-nam	kiss	kiss	v	1.3.2.2		0		3451,3450,s
-45962	1444	Tagin	a◦nɤɤ ku mo◦pup◦do	a◦nɤɤ ku mo◦pup◦do	Mother kisses the child	Mother kisses the child		4.7.1		0		p,1621,6388,m,3450,m
-45963	1444	Tagin	nyar-nam	nyar-nam	laugh	laugh	v	1.8.8.1		0		1142,s
-45964	1444	Tagin	no hugubɤ nyar-do-ne	no hugubɤ nyar-do-ne	Why do you laugh?	Why do you laugh?		10.5.3		0		2489,m,1142,m,m
-45965	1444	Tagin	pɯ◦pɯ pik◦nam	pɯ◦pɯ pik◦nam	lay (egg)	lay (egg)	v	6.17		0		m,1654,m,s
-45967	1444	Tagin	tɤ-nam	tɤ-nam	obey (hear)	obey (hear)	v	8.3.2.5.2		0		1408,s
-45969	1444	Tagin	ka-nam	ka-nam	see	see	v	1.2.6.10		0		6373,s
-45970	1444	Tagin	ka-bup-nam	ka-bup-nam	look below from a tree	look below from a tree	v	1.2.6.11		0		6373,m,s
-45971	1444	Tagin	ka-duŋ-nam	ka-duŋ-nam	look upwards	look upwards	v	1.2.6.11		0		6373,m,s
-45972	1444	Tagin	ka-buŋ-nam	ka-buŋ-nam	look inside a pot, glass etc.	look inside a pot, glass etc.	v	1.2.6.11		0		6373,m,s
-45974	1444	Tagin	ka-si-nam	ka-si-nam	look secretly	look secretly	v	1.2.6.11		0		6373,m,s
-45975	1444	Tagin	ka-riŋ-nam	ka-riŋ-nam	look similar / resemble	look similar / resemble	v	7.1.7.2		0		6373,m,s
-45976	1444	Tagin	ka-ɟik-nam	ka-ɟik-nam	choose / select (by seeing)	choose / select (by seeing)	v	6.10.4		0		
-45977	1444	Tagin	ka-nyu-ma-nam	ka-nyu-ma-nam	dislike	dislike	v	8.3.1.1.2		0		
-45978	1444	Tagin	ka-bui-nam	ka-bui-nam	examine	examine	v	6.2		0		6373,m,s
-45979	1444	Tagin	yup-nam	yup-nam	sleep	sleep	v	1.1.4.1		0		127,s
-45980	1444	Tagin	min-nam	min-nam	speak	speak	v	8.5.10.1		0		6699,s
-45981	1444	Tagin	min-si-nam	min-si-nam	whisper	whisper	v	8.5.4.2		0	D1	6699,m,s
-45982	1444	Tagin	ta◦cor-cor-nam	ta◦cor-cor-nam	spit	spit	v	1.8.3		0		p,6379,6379,s
-45984	1444	Tagin	min-nam	min-nam	talk	talk	v	8.5.10.1		0		6699,s
-45985	1444	Tagin	si◦sum si◦nam	si◦sum si◦nam	urinate	urinate	v	1.5.3.2		0		650,1730,650,s
-45986	1444	Tagin	bɤ-nam	bɤ-nam	vomit	vomit	v	1.8.3.2		0		1145,s
-45987	1444	Tagin	nam	nam	house	house		5.11.9.1		0		
-45988	1444	Tagin	epɯŋ	epɯŋ	room	room		5.11.9.2		0		
-45989	1444	Tagin	erɯŋ	erɯŋ	store	store		9.10.6		0		
-45990	1444	Tagin	nyopɤ	nyopɤ	floor	floor		5.11.9.3		0		
-45991	1444	Tagin	erɯp	erɯp	wall	wall		5.11.9.3		0		
-45992	1444	Tagin	namiŋ	namiŋ	roof	roof		5.11.9		0		
-45993	1444	Tagin	karɯp	karɯp	ceiling	ceiling		5.11.9.3.1		0		
-45994	1444	Tagin	oduŋ	oduŋ	passage (of house)	passage (of house)		6.7.10		0		
-45995	1444	Tagin	toŋre	toŋre	verandah	verandah				0		
-45996	1444	Tagin	tomre	tomre	verandah	verandah				0		
-45997	1444	Tagin	epɯn	epɯn	latrine	latrine		5.11.9.2		0		
-45998	1444	Tagin	hagya	hagya	latrine	latrine		5.11.9.2		0		
-45999	1444	Tagin	gum◦pa	gum◦pa	pigsty	pigsty		5.11.9.5		0		
-46000	1444	Tagin	agɤ	agɤ	door	door		5.11.9.3		0		
-46001	1444	Tagin	agɯ	agɯ	door	door		5.11.9.3		0		
-46002	1444	Tagin	mi◦riŋ	mi◦riŋ	hearth	hearth		5.11.9.3.1		0		2136,2599?
-46003	1444	Tagin	m◦riŋ	m◦riŋ	hearth	hearth		5.11.9.3.1		0		2136,2599?
-46004	1444	Tagin	kecin	kecin	over the hearth (upper)	over the hearth (upper)		9.2.1		0		
-46005	1444	Tagin	kera	kera	over the hearth (lower)	over the hearth (lower)		9.2.1		0		
-46006	1444	Tagin	cuŋɟuŋ	cuŋɟuŋ	tray	tray		5.11		0		
-46007	1444	Tagin	lɤpa giŋ-lo	lɤpa giŋ-lo	post (central)	post (central)		5.11		0		
-46008	1444	Tagin	toŋo giŋ-lo	toŋo giŋ-lo	post (main)	post (main)		5.11		0		
-46009	1444	Tagin	tombu giŋ-lo	tombu giŋ-lo	post	post		5.11		0		
-46010	1444	Tagin	toko giŋ-lo	toko giŋ-lo	post (third)	post (third)		5.11		0		
-46011	1444	Tagin	pɯ◦cɯŋ	pɯcɯŋ	cooking pot	cooking pot		5.5		0		7617,6541
-46012	1444	Tagin	ciŋ-kɤ	ciŋ-kɤ	frying pan	frying pan		5.5		0		
-46013	1444	Tagin	kompuk	kompuk	plate	plate		5.5		0		
-46014	1444	Tagin	pɯrɤ pɤtak	pɯrɤ pɤtak	cup	cup		5.1		0		
-46015	1444	Tagin	si◦lɤk	si◦lɤk	bamboo (for carrying water)	bamboo (for carrying water)		3.1.1		0		189,m
-46016	1444	Tagin	opum	opum	for bear (pumpkin)	for bear (pumpkin)		10.1		0		
-46017	1444	Tagin	punyu	punyu	spoon (bamboo)	spoon (bamboo)	n	5.5		0		
-46018	1444	Tagin	toŋduŋ	toŋduŋ	pipe for smoking	pipe for smoking		5.8		0		
-46019	1444	Tagin	lecoŋ	lecoŋ	stone for grinding	stone for grinding		3.2.9		0		
-46020	1444	Tagin	raru	raru	basket for carrying fuel	basket for carrying fuel		5.1		0		
-46021	1444	Tagin	egin	egin	basket for carrying paddy	basket for carrying paddy		5.1		0		
-46022	1444	Tagin	pɯ	pɯ	basket for carrying paddy	basket for carrying paddy		5.1		0		
-46023	1444	Tagin	po◦rok pɯttor	po◦rok pɯttor	basket for keeping hen	basket for keeping hen		5.1		0		m,1606,m
-46030	1444	Tagin	ciŋnyi	ciŋnyi	pestle for pounding rice	pestle for pounding rice		5.5		0		
-46031	1444	Tagin	ciŋ◦parr	ciŋ◦parr	mortar	mortar		5.5		0		m,6504
-46032	1444	Tagin	a◦biŋ◦a◦pa	a◦biŋ◦a◦pa	tiger	tiger		2.1.3		0		p,m,p,m
-46033	1444	Tagin	sinya	sinya	leopard	leopard		2.1.3		0		
-46034	1444	Tagin	si◦tom	si◦tom	bear	bear	n	2.2.3		0		m,2777
-46035	1444	Tagin	sɤ◦dom	sɤ◦dom	deer	deer		2.2.2		0		m,6293
-46036	1444	Tagin	sɤ◦dum	sɤ◦dum	deer	deer		2.2.2		0		m,6293
-46037	1444	Tagin	sɯtɤ	sɯtɤ	elephant	elephant		2.2.1		0		
-46038	1444	Tagin	sɯ◦bi	sɯ◦bi	monkey	monkey		2.1.9		0		m,2782
-46039	1444	Tagin	ŋu◦i	ŋui	fish	fish		2.2.5		0		1455,m
-46040	1444	Tagin	ta◦kɤ	ta◦kɤ	squirrel (big)	squirrel (big)		2.1.1		0		p,6407
-46041	1444	Tagin	kobuŋ	kobuŋ	rat (cannot gallop)	rat (cannot gallop)		2.1.1		0		6411
-46042	1444	Tagin	kola	kola	rat (variety)	rat (variety)		2.1.1		0		
-46043	1444	Tagin	kuti	kuti	rat (variety)	rat (variety)		2.1.1		0		
-46046	1444	Tagin	boŋkɤ	boŋkɤ	rat (residing in house)	rat (residing in house)		2.1.1		0		6411
-46047	1444	Tagin	ta◦tɤk	ta◦tɤk	frog	frog		2.1.6.2		0		p,645
-46048	1444	Tagin	doɟiŋ bru	doɟiŋ bru	crocodile	crocodile		2.1.6		0		
-46049	1444	Tagin	ta◦bu	ta◦bu	snake	snake		2.1.6.1		0		p,2178
-46050	1444	Tagin	i◦kɯ	i◦kɯ	dog	dog		2.1.11		0		p,1764
-46051	1444	Tagin	ami◦kuri	ami◦kuri	cat	cat		2.1.3		0		
-46052	1444	Tagin	a◦rɯk	a◦rɯk	pig	pig		2.1.12		0		p,6019
-46053	1444	Tagin	se	se	cow	cow		2.1.2		0		
-46054	1444	Tagin	kubuŋ	kubuŋ	rat	rat		2.1.1		0		6411
-46055	1444	Tagin	kobuŋ	kobuŋ	rat	rat		2.1.1		0		6411
-46056	1444	Tagin	po◦ak	po◦ak	crow	crow		2.2.4.1		0		m,6695
-46057	1444	Tagin	ta◦pɤn	ta◦pɤn	bat	bat		2.2.4.1		0		p,6524
-46058	1444	Tagin	ta◦sep	ta◦sep	nest	nest		2.2.4		0		p,1613
-46059	1444	Tagin	ta◦roŋ	ta◦roŋ	mosquito	mosquito		2.2.6		0		p,6583
-46060	1444	Tagin	ta◦ŋit	taŋit	mosquito	mosquito		2.2.6		0		
-46061	1444	Tagin	ta◦riŋ	ta◦riŋ	fly	fly	n	2.2.6		0		p,6359
-46062	1444	Tagin	ta◦ŋu	ta◦ŋu	bee	bee		2.2.6		0		p,6649
-46063	1444	Tagin	ta◦ŋu gola	ta◦ŋu gola	honey	honey		2.2.6		0		p,6649,m
-46064	1444	Tagin	arɯp	arɯp	wax	wax		2.2.6		0		
-46065	1444	Tagin	ŋu-rip	ŋu-rip	wax	wax		2.2.6		0		6649,m
-46066	1444	Tagin	papalala	papalala	butterfly	butterfly		2.2.6		0		
-46067	1444	Tagin	ta◦pum ta◦rap	ta◦pum ta◦rap	ant	ant		2.2.6		0		p,6537,p,6580
-46068	1444	Tagin	tabɤ	tabɤ	bug	bug		2.2.6		0		
-46069	1444	Tagin	amcik	amcik	paddy	paddy		9.10.5		0		
-46070	1444	Tagin	ambin	ambin	rice	rice		3.1.4		0		6243
-46071	1444	Tagin	a◦cin	acin	rice, boiled	rice, boiled		3.1.4		0		p,6245
-46072	1444	Tagin	rade	rade	maize	maize		3.1.5		0		
-46073	1444	Tagin	eteŋ	eteŋ	cake	cake		5.5		0		
-46074	1444	Tagin	uː	uː	vegetable	vegetable		3.1.2		0		6662
-46075	1444	Tagin	goiŋ	goiŋ	laisag	laisag				0		
-46076	1444	Tagin	mɤ◦kuŋ	mɤ◦kuŋ	cucumber	cucumber		3.1.5		0		m,6412
-46077	1444	Tagin	bɤyam	bɤyam	brinjal (=eggplant)	brinjal (=eggplant)		3.1.5		0		6264
-46078	1444	Tagin	ɟalok	ɟalok	chilli	chilli		3.1.5		0		
-46079	1444	Tagin	eli	eli	potato	potato		3.1.5		0		
-46080	1444	Tagin	kore	kore	sweet potato	sweet potato		7.1.4.4		0		
-46081	1444	Tagin	eŋi	eŋi	arum	arum		3.1.8		0		
-46082	1444	Tagin	ta◦lop	ta◦lop	onion	onion		3.1.5		0		p,6419
-46083	1444	Tagin	a◦pɯ	apɯ	fruit	fruit		3.1.5		0		p,1654
-46084	1444	Tagin	kopak	kopak	banana	banana		3.1.5		0		6381
-46085	1444	Tagin	tagoŋ	tagoŋ	mango	mango				0		
-46086	1444	Tagin	sini	sini	sugar	sugar		3.1.6.2		0		b
-46087	1444	Tagin	ŋu◦i	ŋui	fish	fish	n	2.2.5		0		1455,m
-46088	1444	Tagin	o◦po	o◦po	spirit (liquor)	spirit (liquor)	n	5.8.1.1		0		m,6526
-46089	1444	Tagin	ca	ca	tea	tea		3.1.1		0		
-46090	1444	Tagin	du            [tonal]	du            [tonal]	tobacco	tobacco		3.1.6.2		0		
-46091	1444	Tagin	ta◦kɯ	ta◦kɯ	ginger	ginger		3.1.5		0		p,6394
-46092	1444	Tagin	ci◦pu	cipu	sweet	sweet		7.1.4.4		0	D1	2721,m
-46093	1444	Tagin	kɤ◦cak	kɤ◦cak	bitter	bitter		7.1.4.4		0	D1	229,m
-46094	1444	Tagin	a◦gu	a◦gu	hot	hot				0	D1	p,6335
-46095	1444	Tagin	koŋ◦suk	koŋ◦suk	sour	sour		7.1.4.4		0		6406,m
-46096	1444	Tagin	nyi	nyi	man	man		1.9.6.1		0		m
-46097	1444	Tagin	yapa	yapa	young man	young man		7.1.8.3		0		
-46098	1444	Tagin	omɤ nyɟirr	omɤ nyɟirr	young woman	young woman		7.1.8.3		0		
-46099	1444	Tagin	niyɟirr	niyɟirr	young woman	young woman		7.1.8.3		0		
-46100	1444	Tagin	nikam	nikam	old man	old man		7.1.8.3		0		
-46101	1444	Tagin	hɤŋu	hɤŋu	old womam	old womam		7.1.8.3		0		
-46102	1444	Tagin	nyime kamnɤ	nyime kamnɤ	bachelor	bachelor		4.2.8		0		1618,m
-46103	1444	Tagin	nyimɤ do-ne	nyimɤ do-ne	married	married		6.19		0		1618,m,m
-46104	1444	Tagin	heŋmɯ	heŋmɯ	widow	widow		4.2.8		0		
-46105	1444	Tagin	al◦ɤ◦nɤ	alɤnɤ	healthy	healthy		9.6.1.2		0		
-46106	1444	Tagin	nyieŋku	nyieŋku	family	family		4.7.5		0		
-46107	1444	Tagin	opi	opi	clan	clan		4.4.2		0		
-46108	1444	Tagin	nampom	nampom	village	village		5.8		0	D1	
-46109	1444	Tagin	nampom kaine	nampom kaine	village chief	village chief		5.8		0		
-46110	1444	Tagin	nyi◦lo	nyi◦lo	male	male		1.9.6.1		0		m,1624
-46111	1444	Tagin	nyi◦mɤ	nyi◦mɤ	female	female		1.9.3		0		m,1620
-46112	1444	Tagin	nyilu	nyilu	husband	husband		4.7.4		0	z	6455
-46113	1444	Tagin	nyiŋ	nyiŋ	wife	wife		4.7.4		0		
-46114	1444	Tagin	ku nyilo	ku nyilo	son	son		4.7.3		0		
-46115	1444	Tagin	ku nyime	ku nyime	daughter	daughter		4.7.3		0		m,1618
-46116	1444	Tagin	a◦bu	abu	father	father		4.7.1		0		p,6261
-46117	1444	Tagin	a◦nɤ	a◦nɤ	mother	mother		4.7.1		0		p,1621
-46118	1444	Tagin	a◦biŋ buru	a◦biŋ buru	brother	brother		1.5.3.2		0		p,6277,m
-46119	1444	Tagin	buru	buru	younger brother	younger brother				0		
-46120	1444	Tagin	a◦nyi burme	anyi burme	sister	sister		4.7.2		0		p,6450,6274
-46121	1444	Tagin	a◦kɯ	a◦kɯ	uncle	uncle		4.7.1		0		p,2362
-46122	1444	Tagin	a◦pa	a◦pa	paternal uncle	paternal uncle		4.7.1		0		p,2183
-46123	1444	Tagin	a◦kɯ	a◦kɯ	maternal uncle	maternal uncle		4.7.1		0		p,2362
-46124	1444	Tagin	nyiaŋ	nyiaŋ	aunt	aunt		4.7.1		0		
-46125	1444	Tagin	a◦nyi	anyi	father's sister	father's sister		4.7.1		0		p,6450
-46126	1444	Tagin	amu	amu	mother's sister	mother's sister		4.7.1		0		
-46127	1444	Tagin	mei	mei	mother's sister	mother's sister		4.7.1		0		
-46128	1444	Tagin	ayu	ayu	mother's brother's wife	mother's brother's wife		1.5.3.2		0		
-46129	1444	Tagin	a◦tu	atu	grandfather	grandfather		4.7.1		0		p,6619
-46130	1444	Tagin	a◦tu	atu	paternal grandfather	paternal grandfather		4.7.1		0		p,6619
-46131	1444	Tagin	a◦tu	atu	maternal grandfather	maternal grandfather		4.7.1		0		p,6619
-46132	1444	Tagin	a◦yu	a◦yu	grandmother	grandmother		4.7.1		0		p,6134
-46133	1444	Tagin	a◦yu	a◦yu	paternal grandmother	paternal grandmother		4.7.1		0		p,6134
-46134	1444	Tagin	a◦yu	a◦yu	maternal grandmother	maternal grandmother		4.7.1		0		p,6134
-46135	1444	Tagin	ku nyilo	ku nyilo	grandson / son's son	grandson / son's son		4.7.3		0		
-46136	1444	Tagin	ku nyimɤ	ku nyimɤ	grandson / daughter's son	grandson / daughter's son		4.7.3		0		m,1618
-46137	1444	Tagin	doŋ◦nɤ ku	doŋ◦nɤ ku	nephew / sister's son	nephew / sister's son		4.7.3		0		m,1621,m
-46138	1444	Tagin	b[u]ru	b[u]ru	nephew / brother's son	nephew / brother's son		4.7.3		0		
-46139	1444	Tagin	burme	burme	niece / brother's daughter	niece / brother's daughter		4.7.3		0		
-46140	1444	Tagin	doŋ◦ne ku◦nyime	doŋ◦ne ku◦nyime	niece / sister's daughter	niece / sister's daughter		4.7.3		0		m,1621,m,1618
-46141	1444	Tagin	a◦tu	a◦tu	father-in-law	father-in-law		4.7.4		0		p,6619
-46142	1444	Tagin	ayu	ayu	mother-in-law	mother-in-law		4.7.4		0		
-46143	1444	Tagin	riu	riu	wife's brother	wife's brother		1.5.3.2		0		
-46144	1444	Tagin	riŋme	riŋme	wife's sister	wife's sister		4.7.4		0		
-46145	1444	Tagin	abuapa	abuapa	ancestor	ancestor				0		
-46146	1444	Tagin	hopin	hopin	orphan	orphan		4.3		0		6643
-46147	1444	Tagin	galɤ	galɤ	woman's undergarment	woman's undergarment		1.9.3		0		m
-46148	1444	Tagin	sabɯ	sabɯ	man's strip of cloth	man's strip of cloth		1.9.6.1		0		
-46149	1444	Tagin	tamin	tamin	necklace of bead for woman	necklace of bead for woman		5.11.8.3		0		
-46150	1444	Tagin	taseŋ	taseŋ	necklace of bead for man	necklace of bead for man		5.11.8.3		0		m
-46151	1444	Tagin	botuŋ	botuŋ	hat of cane of male	hat of cane of male		10.1.1		0		
-46152	1444	Tagin	oriok boga	oriok boga	cross belt	cross belt		6.7.10		0		
-46153	1444	Tagin	bogi	bogi	dao cover	dao cover		5.8		0		
-46154	1444	Tagin	nyo◦duŋ	nyo◦duŋ	tiger teeth on the cross belt	tiger teeth on the cross belt		2.1.3		0		2618,m
-46156	1444	Tagin	kopuŋ	kopuŋ	bangle of silver	bangle of silver		5.11.8.3		0		
-46159	1444	Tagin	ɟɤkuk	ɟɤkuk	coat for male	coat for male		5.11.8.2.1.2		0		
-46160	1444	Tagin	oːk	oːk	cane girdle worn by female	cane girdle worn by female		5.11.8.2.2		0		
-46161	1444	Tagin	mɤnam rɯ-nam	mɤnam rɯ-nam	work (general)	work (general)		6.1.1		0		
-46162	1444	Tagin	reŋu	reŋu	agriculture	agriculture		3.1.9		0		
-46163	1444	Tagin	roŋo	roŋo	agriculture	agriculture		3.1.9		0		
-46164	1444	Tagin	nɯkoɟariŋ	nɯkoɟariŋ	field	field		3.2.5		0		
-46165	1444	Tagin	reŋu	reŋu	cultivation	cultivation		3.1.10		0		
-46166	1444	Tagin	reŋo ɟhum	reŋo ɟhum	cultivation (jhum)	cultivation (jhum)		3.1.10		0		
-46167	1444	Tagin	lɤ-nam	lɤ-nam	planting	planting		3.1.10		0		
-46168	1444	Tagin	am nɤ-nam	am nɤ-nam	reaping (paddy)	reaping (paddy)		3.1.10		0		
-46169	1444	Tagin	i◦si ɟi-nam	i◦si ɟi-nam	irrigation / give water	irrigation / give water		6.6		0		p,189,2158,s
-46170	1444	Tagin	yagaŋ	yagaŋ	axe	axe		5.11.5.3		0		
-46171	1444	Tagin	lodap	lodap	dibble (bamboo)	dibble (bamboo)		5.3		0		
-46172	1444	Tagin	nɤsum	nɤsum	granary	granary		5.11.9.5		0		
-46173	1444	Tagin	roŋo monɤ	roŋo monɤ	cultivator	cultivator		3.1.10		0		
-46174	1444	Tagin	eki para monɤ	eki para monɤ	cane work	cane work		5.11.8.2.2		0		
-46175	1444	Tagin	eɟɯ cum nam	eɟɯ cum nam	weaving	weaving		5.1		0		m,6282,s
-46176	1444	Tagin	tanu	tanu	yarn	yarn		5.1		0		
-46177	1444	Tagin	tanu	tanu	thread	thread	n	5.11.6		0		
-46178	1444	Tagin	tanu	tanu	spinning	spinning		6.7.6		0		
-46179	1444	Tagin	eɟɯ leŋnam	eɟɯ leŋnam	dyeing	dyeing		5.1		0		
-46180	1444	Tagin	ya◦puŋ ya◦luŋ	ya◦puŋ ya◦luŋ	design (white and red [yellow?])	design (white and red [yellow?])		9.4		0		m,6097,m,m
-46181	1444	Tagin	ŋui so-nam	ŋui so-nam	fishing	fishing		2.2.5		0		1455,m,s
-46182	1444	Tagin	gak so-nam	gak so-nam	net	net		5.11.5.4		0		6316,m,s
-46183	1444	Tagin	ɤder	ɤder	trap	trap		5.14		0		
-46184	1444	Tagin	sipɯ	sipɯ	boat	boat		5.1		0		6598
-46185	1444	Tagin	mo◦tum eŋ-nam	mo◦tum eŋ-nam	hunting / go forest	hunting / go forest		6.2.2.1		0		6470,m,6347?,s
-46186	1444	Tagin	mo◦tum eŋne nyi	mo◦tum eŋne nyi	hunter	hunter		6.2.2.1		0		6470,m,m,m
-46187	1444	Tagin	lama nyibu	lama nyibu	magic	magic		5.8.3.2		0		
-46188	1444	Tagin	bɯmin pak-nam	bɯmin pak-nam	song	song		5.1		0		
-46189	1444	Tagin	o◦rok nyi	o◦rok nyi	smith / dao man	smith / dao man		4.2.1.4		0		p,6570,m
-46190	1444	Tagin	o◦ryiok nyi	o◦ryiok nyi	smith / dao man	smith / dao man		4.2.1.4		0		p,6570,m
-46191	1444	Tagin	pota	pota	paper	paper		5.1		0		b
-46192	1444	Tagin	pak◦bu	pakbu	servant	servant		4.2.10		0		
-46193	1444	Tagin	egɤ gɤnɤ nyi	egɤ gɤnɤ nyi	porter	porter		4.2.1		0		
-46195	1444	Tagin	a◦ri	ari	village boundary	village boundary		5.8		0		p,2616
-46196	1444	Tagin	kaya cuk-ne	kaya cuk-ne	village chief	village chief		5.8		0		
-46197	1444	Tagin	nampom nyi	nampom nyi	villager	villager		4.4.2		0		
-46198	1444	Tagin	yaluŋ	yaluŋ	case (legal?)	case  (legal?)		5.11		0		
-46199	1444	Tagin	lɤ-nam	lɤ-nam	arrest	arrest		6.19		0		
-46200	1444	Tagin	dɤ◦co	dɤ◦co	thief	thief		4.2.12.1		0		m,6520
-46201	1444	Tagin	ɟarimana	ɟarimana	fine / borrowed	fine /  borrowed		9.7.2		0		
-46202	1444	Tagin	al◦ɤ◦ma◦bɤ ri-nam	alɤmabɤ ri-nam	crime / bad work	crime / bad work		6.4		0		3543,m,m,m,m,s
-46203	1444	Tagin	haryu-nam	haryu-nam	divorce by a female	divorce by a female		5.8		0		
-46204	1444	Tagin	nyime taː◦nam	nyime taː◦nam	divorce by a male	divorce by a male		5.8		0		1618,m,s
-46205	1444	Tagin	papum◦gɤ◦ne	papum◦gɤ◦ne	bride	bride		4.2.8		0		m,m,1621
-46206	1444	Tagin	nyime yamɤ	nyime yamɤ	bridegroom	bridegroom		4.2.8		0		1618,m
-46207	1444	Tagin	laktɤ	laktɤ	dowry	dowry		5.9		0		
-46208	1444	Tagin	nyi◦buŋ	nyi◦buŋ	grave	grave		9.10.6		0		m,6267
-46209	1444	Tagin	pok-ɟok-nam	pok-ɟok-nam	dance	dance	v?	6.7.9		0		6707,m,s
-46210	1444	Tagin	pok-mi-nam	pok-mi-nam	dance	dance	v?	6.7.9		0		6707,m,m
-46211	1444	Tagin	wi bi-nam	wi bi-nam	incantation	incantation		5.8		0		
-46212	1444	Tagin	miŋɟiŋ-nam	miŋɟiŋ-nam	faith	faith		8.3.1.15		0		
-46213	1444	Tagin	u◦yu	u◦yu	ghost	ghost		4.2.12.2		0		p,6366
-46214	1444	Tagin	lɤ-ma	lɤ-ma	disease	disease		1.1.5.1		0		m,s
-46215	1444	Tagin	a◦ci	aci	fever	fever		1.1.5.1		0		p,1847
-46216	1444	Tagin	tami ram-nam	tami ram-nam	malaria	malaria		5.3		0		
-46217	1444	Tagin	alɯ lɯ-nam	alɯ lɯ-nam	cold / catch by cold	cold / catch by cold		7.1.2.3		0		
-46218	1444	Tagin	eciŋ	eciŋ	dysentery	dysentery		1.7.7		0		
-46219	1444	Tagin	elɯpɯnam	elɯpɯnam	boil (i.e. pustule)	boil (i.e. pustule)	n	6.6		0		
-46220	1444	Tagin	u◦ŋe	u◦ŋe	wound	wound		1.8.6.2		0		6637,m
-46221	1444	Tagin	min	min	medicine	medicine		5.4		0		5434
-46222	1444	Tagin	moyo	moyo	mixture	mixture		6.13.4		0		
-46223	1444	Tagin	oi-lɯ-nam	oi-lɯ-nam	fall drop by drop (of bleeding?)	fall drop by drop (of bleeding?)		6.16		0		
-46224	1444	Tagin	mo◦di	mo◦di	hill	hill		3.2.5		0		6470,6222
-46225	1444	Tagin	leŋ◦pɯk	leŋ◦pɯk	cave	cave		3.2.7		0		1269,164
-46226	1444	Tagin	ɟoriŋ	ɟoriŋ	valley	valley		3.2.5		0		
-46227	1444	Tagin	modi dumpo	modi dumpo	cliff	cliff		3.2.5		0		
-46228	1444	Tagin	iba	iba	slope	slope		3.2.5		0		
-46229	1444	Tagin	mo◦riŋ	mo◦riŋ	plains	plains		9.10.5		0		6470,m
-46230	1444	Tagin	i◦sɯ sikiyo (siko)	isɯ sikiyo (siko)	river (stream)	river (stream)		3.2.3		0		p,189,m
-46231	1444	Tagin	deŋdo	deŋdo	waterfall	waterfall		3.2.3		0		
-46232	1444	Tagin	badorr	badorr	current	current				0		
-46233	1444	Tagin	sɯ-lɤ	sɯ-lɤ	lake (tank)	lake (tank)		3.2.5		0		189,m
-46234	1444	Tagin	ni◦do	nido	rain	rain		3.2.1		0		2473,3570
-46235	1444	Tagin	ŋarco	ŋarco	dew	dew				0		3565
-46236	1444	Tagin	ta◦pom	ta◦pom	ice	ice		3.2.3		0		p,6505
-46237	1444	Tagin	ta◦pum	ta◦pum	ice	ice		3.2.3		0		p,6505
-46238	1444	Tagin	i◦sɯ tɤ-nam	i◦sɯ tɤ-nam	flood	flood		3.2.3		0		p,189,m,s
-46239	1444	Tagin	amuk	amuk	vapor	vapor		3.2.3		0		
-46240	1444	Tagin	liŋ◦cak	liŋ◦cak	gravel	gravel		3.2.9		0		1269,m
-46241	1444	Tagin	cokri	cokri	sand	sand		3.2.11		0		
-46242	1444	Tagin	kɤ-di	kɤ-di	clay	clay		3.2.11		0		
-46243	1444	Tagin	nido kolo	nido kolo	sky	sky		3.2.2		0		
-46244	1444	Tagin	nyido kolo	nyido kolo	sky	sky		3.2.2		0		
-46245	1444	Tagin	apam	apam	cloud	cloud		3.2.1		0		
-46246	1444	Tagin	hapom	hapom	cloud	cloud		3.2.1		0		
-46247	1444	Tagin	hugritago	hugritago	rainbow	rainbow		3.2.1		0		
-46248	1444	Tagin	dor◦yiak	dor◦yiak	lightning	lightning		3.2.1		0		
-46249	1444	Tagin	do◦gum	do◦gum	thunder	thunder		3.2.1		0		3570,6141
-46250	1444	Tagin	do◦nyi	do◦nyi	sun	sun		3.2.10		0		3570,85
-46251	1444	Tagin	do◦ni	do◦ni	sun	sun		3.2.10		0		3570,85
-46252	1444	Tagin	oŋkanam	oŋkanam	light	light		7.1.11.1		0		
-46253	1444	Tagin	sɯkirr	sɯkirr	cold	cold	n	7.1.2.3		0		
-46254	1444	Tagin	polu	polu	moon	moon		3.2.2		0		1016
-46255	1444	Tagin	yar◦bɯŋ polu	yar◦bɯŋ polu	full moon	full moon		1.1.3.2		0		m,111,1016
-46256	1444	Tagin	karlɯŋ-nɤ polu	karlɯŋ-nɤ polu	half moon	half moon		9.8		0		m,m,1016
-46257	1444	Tagin	kanɤ	kanɤ	dark	dark		9.4		0	D1	
-46258	1444	Tagin	ta◦karr	ta◦karr	star	star		3.2.2		0		p,2300
-46259	1444	Tagin	a◦ru	a◦ru	morning	morning		9.1.4		0		p,144
-46260	1444	Tagin	a◦rem	a◦rem	evening	evening		9.1.4		0		p,6572
-46261	1444	Tagin	a◦rim	a◦rim	evening	evening		9.1.4		0		p,6572
-46262	1444	Tagin	a◦lu	a◦lu	day	day		1.5.3.2		0		p,6432
-46263	1444	Tagin	a◦yu	a◦yu	night	night		9.1.4		0		p,2784
-46264	1444	Tagin	alu lɤpa	alu lɤpa	midday	midday		9.1.4		0		
-46265	1444	Tagin	do◦nyi tabɤ	donyi tabɤ	afternoon	afternoon		9.1.4		0		3570,85,m,m
-46266	1444	Tagin	a◦ro kom◦ci	a◦ro kom◦ci	dawn	dawn		9.1.4		0		p,144,6228
-46267	1444	Tagin	polu	polu	month	month		9.1.2		0		1016
-46268	1444	Tagin	a◦niŋ	a◦niŋ	year	year		9.1.2		0		p,2501
-46269	1444	Tagin	ɟidi	ɟidi	from August toJanuary	from August toJanuary	v.	10.1.1		0		
-46270	1444	Tagin	modi	modi	from February to July	from February to July	v.	10.1.1		0		
-46271	1444	Tagin	di◦ro	di◦ro	air	air		1.1.2.2		0		m,2412
-46272	1444	Tagin	di◦ro	di◦ro	wind	wind		3.2.1		0		e?
-46273	1444	Tagin	di◦ro do◦gum	di◦ro do◦gum	storm	storm		3.2.1		0		m,2412,3570,6141
-46274	1444	Tagin	korlɯŋ	korlɯŋ	thunderstorm	thunderstorm		3.2.1		0		
-46275	1444	Tagin	si◦du	si◦du	sound	sound		9.3		0		m,6295
-46276	1444	Tagin	e◦mɤ	e◦mɤ	fire	fire		3.2.12.2		0		p,2136
-46277	1444	Tagin	mɯkɯ	mɯkɯ	smoke	smoke		3.2.12.2		0		2361
-46278	1444	Tagin	mɤ◦cu tayu	mɤ◦cu tayu	ash	ash		3.2.12.2		0		2136,m,m
-46279	1444	Tagin	mɤ◦ri	mɤ◦ri	coal	coal		3.2.4		0		2136,m
-46280	1444	Tagin	mri	mri	coal	coal		3.2.4		0		
-46281	1444	Tagin	e◦siŋ	e◦siŋ	fuel	fuel		3.2.4		0		p,2658
-46282	1444	Tagin	e◦mɤ par-nam	e◦mɤ par-nam	flame	flame		3.2.12.2		0		p,2136,2152,s
-46283	1444	Tagin	seŋ◦nɤ	seŋ◦nɤ	tree	tree		3.1.2		0		2658,m
-46284	1444	Tagin	seŋum	seŋum	creeper	creeper		3.1.7		0		
-46285	1444	Tagin	nesiŋ nɤmiŋ	nesiŋ nɤmiŋ	bush	bush		3.1.1		0		
-46286	1444	Tagin	aɟiŋ	aɟiŋ	plant	plant		3.1.10		0		
-46287	1444	Tagin	aːk	aːk	branch	branch		1.5.3.1		0		1278
-46288	1444	Tagin	ada	ada	twig	twig		3.1.2		0		
-46289	1444	Tagin	a◦nɤ	a◦nɤ	leaf	leaf		3.1.3		0		p,402
-46290	1444	Tagin	hampo	hampo	stem	stem		3.1.2		0		
-46291	1444	Tagin	a◦puŋ	a◦puŋ	flower	flower		3.1.4		0		p,6538
-46292	1444	Tagin	nam◦pu◦nɤ	nam◦punɤ	fragrance	fragrance		3.1.2		0		1415,2572,m
-46293	1444	Tagin	ti	ti	honey	honey		2.2.6		0		
-46294	1444	Tagin	ta◦ŋu ti	ta◦ŋu ti	honey	honey		2.2.6		0		p,6649,m
-46295	1444	Tagin	ŋi-nɤ	ŋi-nɤ	ripe	ripe		3.1.10		0		2449,m
-46296	1444	Tagin	ɤ◦liŋ	ɤ◦liŋ	stone	stone		3.2.9		0		m,1269
-46297	1444	Tagin	myami	myami	root	root		3.1.2		0		
-46298	1444	Tagin	nesiŋ nemiŋ	nesiŋ nemiŋ	grass	grass		3.1.8		0		
-46299	1444	Tagin	eːloŋ	eːloŋ	bamboo	bamboo		3.1.1		0		
-46300	1444	Tagin	o◦so	o◦so	cane	cane		5.11.8.2.2		0		p,6599
-46301	1444	Tagin	mo◦tum	mo◦tum	jungle	jungle		3.2.5		0		6470,m
-46302	1444	Tagin	nayam	nayam	garden	garden		9.10.4		0		
-46303	1444	Tagin	e◦siŋ	e◦siŋ	timber	timber		3.1.6.4		0		p,2658
-46304	1444	Tagin	a◦nyi a◦yin	a◦nyi a◦yin	gold	gold		3.2.4		0		p,m,p,6651
-46305	1444	Tagin	anyi	anyi	silver	silver		3.2.4		0		
-46306	1444	Tagin	tapin	tapin	rust	rust		3.2.4		0		
-46307	1444	Tagin	do◦ko	do◦ko	west	west		9.2.8		0		3570
-46308	1444	Tagin	do◦dam	do◦dam	east	east		9.2.8		0		3570
-46309	1444	Tagin	ri-la-re	ri-la-re	able / do-can	able / do-can		1.1.2.4		0		6573,m,m
-46310	1444	Tagin	a-ma-nam	a-ma-nam	absent / come-not	absent / come-not		8.1		0		6211,m,s
-46311	1444	Tagin	busu-nam	busu-nam	afraid	afraid		7.1.1		0		
-46312	1444	Tagin	mɯniŋ kɤnɯŋ	mɯniŋ kɤnɯŋ	ancient	ancient		9.1.5		0		
-46313	1444	Tagin	ha◦si-nam	hasi-nam	angry / angry	angry / angry	v.i.	8.3.1.6.1		0		6201,m,s
-46314	1444	Tagin	ha◦ci◦nam	hacinam	angry / angry	angry / angry	v.i.	8.3.1.6.1		0		6201,m,s
-46315	1444	Tagin	hiniŋ-nam	hiniŋ-nam	ashamed	ashamed		8.3.3.8.2		0		6341,s
-46317	1444	Tagin	al◦ɤ-ma	alɤ-ma	bad / not good	bad / not good		9.6.2.1		0		3543,m,6449
-46318	1444	Tagin	dom◦bin	dom◦bin	bald	bald		1.2.3.4		0		1425,m
-46319	1444	Tagin	kapu	kapu	beautiful	beautiful		7.1.3		0		6154
-46320	1444	Tagin	kapu-rɤ moku	kapu-rɤ moku	beautiful place	beautiful place		7.1.3		0		6154
-46321	1444	Tagin	kai	kai	big	big		9.7.2		0		
-46322	1444	Tagin	kai-nɤ sibu	kai-nɤ sibu	mithun, big	mithun, big		2.1.2		0		
-46323	1444	Tagin	kainɤ nyi	kainɤ nyi	great man	great man		9.6.1		0		
-46325	1444	Tagin	ya◦kɤ	ya◦kɤ	black	black		9.4		0		
-46326	1444	Tagin	ya◦kɤ-nɤ ɯ◦kɯ	ya◦kɤ-nɤ ɯ◦kɯ	black dog	black dog		9.4		0		m,m,m,p,1764
-46327	1444	Tagin	busu-ma-rɤ	busu-ma-rɤ	brave / not afraid	brave / not afraid				0		
-46328	1444	Tagin	oŋ	oŋ	bright	bright		7.1.11.1		0		
-46329	1444	Tagin	huŋ	huŋ	bright	bright		7.1.11.1		0		
-46332	1444	Tagin	tak◦tɤ-nɤ	tak◦tɤ-nɤ	broad	broad		7.1.5.1		0		6613,m,m
-46333	1444	Tagin	lam◦da	lam◦da	road	road		9.10.1		0		1017
-46334	1444	Tagin	alɤ-bɤ-kɤ	alɤ-bɤ-kɤ	careful	careful		8.3.2.3.1		0		
-46335	1444	Tagin	alɤbɤ-donɤ omɤ	alɤbɤ-donɤ omɤ	careful boy	careful boy		8.3.2.3.1		0		
-46336	1444	Tagin	pokuŋ-nɤ	pokuŋ-nɤ	curved	curved		7.1.5.1		0		
-46337	1444	Tagin	copunɤ	copunɤ	cheap	cheap		5.9		0		
-46338	1444	Tagin	mɤ-kak darek	mɤ-kak darek	clean	clean	vi	6.2.2.5.2		0		m,6182,m
-46339	1444	Tagin	darek-nɤ nido	darek-nɤ nido	clear sky	clear sky		9.6.1.1		0		
-46340	1444	Tagin	mɤ◦kak◦ne iɟi	mɤkakne iɟi	clean cloth	clean cloth		6.2.2.5.2		0		m,6182,m,m
-46341	1444	Tagin	kuk-tum-pɤ	kuk-tum-pɤ	closed	closed		6.2.2.6.2		0		
-46343	1444	Tagin	sɯkɯrr	sɯkɯrr	cold	cold	vi	7.1.2.3		0		
-46344	1444	Tagin	ha◦rik-nɤ	ha◦rik-nɤ	cold	cold		7.1.2.3		0		6340,m,m
-46346	1444	Tagin	himpunam	himpunam	comfortable	comfortable		8.3.2.3.1		0		
-46348	1444	Tagin	no himpu-pɤ-re?	no himpu-pɤ-re?	comfortable, Are you?	comfortable, Are you?		8.3.2.3.1		0		2489,m,m,m
-46350	1444	Tagin	busu-nam	busu-nam	coward[ly?]	coward[ly?]	v	4.2.12.3		0		
-46351	1444	Tagin	al◦ɤ-ma-nɤ	alɤ-ma-nɤ	cruel / not good	cruel / not good		8.3.3.2.2		0		3543,m,6449,m
-46352	1444	Tagin	alo dikibɤ	alo dikibɤ	daily	daily	adj	9.1.3		0		
-46353	1444	Tagin	maniŋ-nɤ	maniŋ-nɤ	dangerous	dangerous		9.6.2.1		0		
-46354	1444	Tagin	maniŋ-nɤ nyi	maniŋ-nɤ nyi	dangerous man	dangerous man		9.6.2.1		0		
-46356	1444	Tagin	pakmisenam	pakmisenam	dear / beloved	dear / beloved		9.6.1.1		0		
-46357	1444	Tagin	roŋriŋ	roŋriŋ	deep	deep		7.1.5.3		0		
-46358	1444	Tagin	roŋriŋnɤ sɤ◦ruŋ	roŋriŋnɤ sɤ◦ruŋ	deep well	deep well		7.1.5.3		0		m,m,2070
-46359	1444	Tagin	aku aku sunɤ	aku aku sunɤ	different	different		7.1.7.1		0		
-46360	1444	Tagin	adik aku	adik aku	difficult (of work)	difficult (of work)		9.6.2		0		
-46361	1444	Tagin	iru-kaya	iru-kaya	difficult	difficult		9.6.2		0		
-46364	1444	Tagin	kasiŋ◦kaya	kasiŋ◦kaya	dirty	dirty		3.2.11		0		
-46365	1444	Tagin	darmanɤ	darmanɤ	dirty	dirty		3.2.11		0		
-46366	1444	Tagin	kasiŋ kayanɤ i◦si	kasiŋ kayanɤ i◦si	dirty water	dirty water		3.2.11		0		m,m,m,189
-46367	1444	Tagin	mɤkɯne nyi	mɤkɯne nyi	dishonest / not good	dishonest / not good		8.3.3.4.1		0		
-46368	1444	Tagin	kai-nɤ	kai-nɤ	distinguished / big	distinguished / big		6.10.4		0		
-46369	1444	Tagin	ugulo sonam	ugulo sonam	domestic	domestic		2.3		0		
-46370	1444	Tagin	sonam sɯtɤ	sonam sɯtɤ	elephant, domestic	elephant, domestic		2.2.1		0		
-46371	1444	Tagin	pɤca	pɤca	dull	dull		7.1.5.1		0		
-46372	1444	Tagin	alɯ alɤbɤ kam rɯne nyi	alɯ alɤbɤ kam rɯne nyi	dutiful	dutiful		8.1		0		
-46373	1444	Tagin	sin◦tar	sin◦tar	dry	dry	adj	6.6		0		6591,m
-46374	1444	Tagin	si◦nɤ	si◦nɤ	dry	dry	adj	6.6		0		6591,m
-46375	1444	Tagin	sin◦tarnɤ ŋu◦i	sin◦tarnɤ ŋui	fish, dry	fish, dry		2.2.5		0		6591,m,1455,m
-46376	1444	Tagin	si◦nɤ a◦mɤ	si◦nɤ a◦mɤ	paddy, dry	paddy, dry		9.10.5		0		6591,m,p,m
-46377	1444	Tagin	a◦ro kom◦ci	a◦ro kom◦ci	early / early morning	early / early morning		9.1.1		0		p,144,6228
-46378	1444	Tagin	ɟɯɤbɤ	ɟɯɤbɤ	exact	exact		7.1.8.3		0		
-46379	1444	Tagin	a◦du	a◦du	far	far		9.2.4		0		p,6290
-46381	1444	Tagin	miŋɟiŋ-nam	miŋɟiŋ-nam	faithful	faithful		9.6.1.2		0		
-46383	1444	Tagin	busu-nam	busu-nam	ferocious	ferocious		9.6.2.2		0		
-46384	1444	Tagin	dɤ-mak	dɤ-mak	fertile (of land)	fertile (of land)		1.9		0		
-46385	1444	Tagin	kɤɟi dɤmak	kɤɟi dɤmak	fertile land	fertile land		1.9		0		
-46386	1444	Tagin	mo◦riŋ	mo◦riŋ	flat (of land)	flat (of land)		7.1.5.1		0		6470,m
-46387	1444	Tagin	pɤca	pɤca	foolish	foolish		9.6.2.2		0		
-46388	1444	Tagin	al◦ɤ◦nɤ	alɤnɤ	fresh / good	fresh / good		9.6.1.1		0		3543,m,m
-46389	1444	Tagin	a◦ku◦ya◦riŋ	a◦ku◦ya◦riŋ	full	full		1.1.3.2		0		
-46390	1444	Tagin	pi◦ciŋ i◦si◦ɤ aku-yariŋ-do '	piciŋ i◦si◦ɤ aku-yariŋ-do '	pot is full of water'	pot is full of water'		5.5		0		7617,6541,m,189,m,m,m,m
-46391	1444	Tagin	pak-nɤ	pak-nɤ	generous	generous		9.6.1.2		0		
-46392	1444	Tagin	paknɤ nyi	paknɤ nyi	generous man	generous man		9.6.1.2		0		
-46393	1444	Tagin	hem◦pu	hem◦pu	glad	glad		8.3.1.5.1		0		6654,2572
-46394	1444	Tagin	al◦ɤ	alɤ	good	good		9.6.1.1		0		3543,m
-46395	1444	Tagin	yɤɟi	yɤɟi	green	green		9.4		0		
-46396	1444	Tagin	hem◦pu	hem◦pu	happy	happy		8.3.1.5.1		0		6654,2572
-46397	1444	Tagin	hem◦pu◦nɤ nyi	hem◦pu◦nɤ nyi	happy man	happy man		8.3.1.5.1		0		6654,2572,m,m
-46398	1444	Tagin	gɯ◦lɯk	gɯ◦lɯk	hard	hard		9.6.2		0		m,6300
-46399	1444	Tagin	oryiok gi◦lɯk-do	oryiok gilɯk-do	Iron is hard	Iron is hard		3.2.4		0		m,m,6300,m
-46400	1444	Tagin	haci cibanɤ nyig	haci cibanɤ nyig	haughty	haughty		9.6.2.2		0		
-46401	1444	Tagin	lɤmamanɤ	lɤmamanɤ	healthy	healthy		9.6.1.2		0		
-46402	1444	Tagin	cɤrɤ	cɤrɤ	healthy	healthy		9.6.1.2		0		
-46403	1444	Tagin	a◦i	a◦i	heavy	heavy		9.6.2		0		p,2415
-46404	1444	Tagin	a◦i-nɤ e◦liŋ	a◦i-nɤ e◦liŋ	heavy stone	heavy stone		9.6.2		0		p,2415,m,m,1269
-46405	1444	Tagin	anɯ egɤ '	anɯ egɤ '	heavy load	heavy load		9.6.2		0		
-46406	1444	Tagin	a◦u	a◦u	high	high		7.1.5.3		0		p,6661
-46407	1444	Tagin	oː	oː	high	high		7.1.5.3		0		
-46409	1444	Tagin	si-gu	si-gu	hot water	hot water				0		189,6335
-46410	1444	Tagin	mokanyoma-nam	mokanyoma-nam	impossible	impossible		9.6.2.1		0		
-46411	1444	Tagin	ka-pa-ma-nam	ka-pa-ma-nam	invisible	invisible		1.2.6.11		0		6373,m,m,s
-46412	1444	Tagin	aya-nɤ	aya-nɤ	kind	kind		8.3.3.2.1		0		
-46413	1444	Tagin	kociŋ	kociŋ	last	last		9.9		0		
-46414	1444	Tagin	ko◦ciŋ cocukgɤ ku◦beŋ◦nam	ko◦ciŋ cocukgɤ ku◦beŋ◦nam	last born child	last born child		9.9		0		
-46415	1444	Tagin	hatɤ	hatɤ	late	late		9.1.1		0		
-46416	1444	Tagin	no hatɤ-do	no hatɤ-do	You are late	You are late		4.1		0		2489,m,m
-46417	1444	Tagin	turmanɤ	turmanɤ	lazy	lazy		9.6.2.2		0		
-46418	1444	Tagin	asu	asu	long	long		9.7.2		0		
-46419	1444	Tagin	hasu	hasu	long	long		9.7.2		0		
-46420	1444	Tagin	ŋiɤro	ŋiɤro	lost	lost		6.10.1		0		
-46421	1444	Tagin	ŋiɤro kolom	ŋiɤro kolom	lost pen	lost pen		6.10.1		0		
-46422	1444	Tagin	si◦ru◦ne	si◦ru◦ne	mad	mad		8.3.1.11.3		0		m,6094,m
-46423	1444	Tagin	si◦ru◦nɤ nyi	si◦ru◦nɤ nyi	mad man	mad man		8.3.1.11.3		0		m,6094,m,m
-46424	1444	Tagin	kiɯrnɤ nyi	kiɯrnɤ nyi	mischievous	mischievous		9.6.3		0		
-46425	1444	Tagin	al◦ɤ-ne	alɤ-ne	modest / good	modest / good		8.3.3.8.1		0		3543,m,m
-46426	1444	Tagin	eruŋ	eruŋ	muddy	muddy		3.2.11		0		
-46427	1444	Tagin	eruŋ lam◦da	eruŋ lam◦da	muddy road	muddy road		3.2.11		0		m,1017
-46428	1444	Tagin	atu atu linsunam	atu atu linsunam	natural	natural		3.2.1		0		
-46429	1444	Tagin	anyi	anyi	new	new		9.6.1.1		0		
-46430	1444	Tagin	anyi-nɤ iɟi	anyi-nɤ iɟi	new cloth	new cloth		9.6.1.1		0		
-46431	1444	Tagin	koci>-gɤ nam	koci>-gɤ nam	next	next		9.9		0		
-46432	1444	Tagin	next house	next house	next	next		9.9		0		
-46433	1444	Tagin	ain	ain	old	old		7.1.8.3		0		
-46434	1444	Tagin	ain iɟi	ain iɟi	old cloth	old cloth		7.1.8.3		0		
-46435	1444	Tagin	nyikam	nyikam	old man	old man		7.1.8.3		0		
-46436	1444	Tagin	hoŋu	hoŋu	old woman	old woman		7.1.8.3		0		
-46437	1444	Tagin	hɤŋu	hɤŋu	old woman	old woman		7.1.8.3		0		
-46438	1444	Tagin	akin-go	akin-go	only	only		7.1.6.1		0		
-46439	1444	Tagin	asarma-nɤ	asarma-nɤ	ordinary	ordinary		7.1.7.2		0		
-46440	1444	Tagin	comdik	comdik	poisonous	poisonous		6.4		0		
-46441	1444	Tagin	com◦dik do◦ne ta◦bɯ-go	com◦dik do◦ne ta◦bɯ-go	poisonous snake	poisonous snake		6.4		0		m,m,m,m,p,2178,m
-46442	1444	Tagin	hɤma	hɤma	poor	poor		9.6.2.2		0		
-46443	1444	Tagin	gosunam	gosunam	proud	proud		8.3		0		
-46444	1444	Tagin	gonɤ	gonɤ	proud	proud		8.3		0		
-46445	1444	Tagin	gosu-nɤ nyi	gosu-nɤ nyi	proud man	proud man		8.3		0		
-46446	1444	Tagin	yaluŋ	yaluŋ	quarrelsome	quarrelsome		8.5.8		0		
-46447	1444	Tagin	yaluŋ nyi	yaluŋ nyi	quarrelsome man	quarrelsome man		8.5.8		0		
-46448	1444	Tagin	kamatamunam	kamatamunam	queer	queer		9.6.2.1		0		
-46449	1444	Tagin	kamatamunɤ iɟi	kamatamunɤ iɟi	queer dress	queer dress		9.6.2.1		0		
-46450	1444	Tagin	nya nyak	nya nyak	quiet	quiet		7.1.8.3		0		m,6155
-46451	1444	Tagin	gɤgigɤrap	gɤgigɤrap	ready	ready		7.1.8.3		0		
-46453	1444	Tagin	ɟɤɟɤ	ɟɤɟɤ	real	real		7.1.8.3		0		
-46454	1444	Tagin	ya◦lɯŋ	ya◦lɯŋ	red	red		9.4		0		m,6137
-46455	1444	Tagin	nyitɤ	nyitɤ	rich	rich		5.9		0		
-46456	1444	Tagin	e◦liŋ moku	e◦liŋ moku	rocky / rock place	rocky / rock place		3.2.11		0		m,1269,m
-46457	1444	Tagin	ya◦nɤ	ya◦nɤ	rotten	rotten		3.1.10		0		6353,m
-46458	1444	Tagin	ya◦nɤ ŋu◦i	ya◦nɤ ŋui	rotten fish	rotten fish		3.1.10		0		6353,m,1455,m
-46459	1444	Tagin	nyi-nɤ	nyi-nɤ	ripe	ripe		3.1.10		0		2449,m
-46460	1444	Tagin	pacerpayer	pacerpayer	round / spherical	round / spherical		9.7.1		0		
-46461	1444	Tagin	a◦lam kargo pumcup	a◦lam kargo pumcup	round / spherical	round / spherical		9.7.1		0		p,690,m,m
-46462	1444	Tagin	al◦ɤ-mà nɤ	alɤ-mà nɤ	rude / not good	rude / not good		9.6.2.2		0		3543,m,6449,m
-46463	1444	Tagin	hɤru	hɤru	sad	sad		1.1.5.1		0		
-46464	1444	Tagin	miŋ-ru	miŋ-ru	sad	sad		1.1.5.1		0		
-46467	1444	Tagin	min◦si◦nam	minsinam	secret	secret		8.5.4.2		0		
-46468	1444	Tagin	min-si-nam gam	min-si-nam gam	secret talk	secret talk		8.5.4.2		0		6699,m,s,6324
-46469	1444	Tagin	ri◦pu	ri◦pu	sharp	sharp		6.9.2		0		6559,m
-46470	1444	Tagin	a◦r	ar	sharp	sharp		6.9.2		0		p,6559?
-46471	1444	Tagin	arnɤ o◦ryiok	arnɤ o◦ryiok	sharp dao	sharp dao		6.9.2		0		m,p,6570
-46472	1444	Tagin	a◦dɤŋ a◦dɤŋ◦nɤ baknyi	a◦dɤŋ a◦dɤŋ◦nɤ baknyi	short	short		9.7.2		0		p,7173,p,7173,m,m
-46473	1444	Tagin	minɟiŋ-nam	minɟiŋ-nam	sincere	sincere		9.6.1.2		0		
-46474	1444	Tagin	minɟiŋ-nam a◦ɟin	minɟiŋ-nam a◦ɟin	sincere friend	sincere friend		9.6.1.2		0		m,m,p,6362
-46475	1444	Tagin	hatɤ	hatɤ	slow	slow		9.6.2.1		0		
-46476	1444	Tagin	aya-nɤ	aya-nɤ	small	small		9.7.2		0		x
-46477	1444	Tagin	mɤya-nɤ-bɤ mɯ	mɤya-nɤ-bɤ mɯ	small boy	small boy		9.7.2		0		x
-46478	1444	Tagin	nya nyak kyak	nya nyak kyak	soft	soft		7.1.4.2		0		m,6155
-46479	1444	Tagin	pakuŋ-ma-ne	pakuŋ-ma-ne	straight	straight		7.1.5.1		0		
-46480	1444	Tagin	tor◦nam	tor◦nam	strong	strong		9.6.1.1		0		161,s
-46481	1444	Tagin	tor◦nɤ hɤ◦mi	tor◦nɤ hɤ◦mi	strong boy	strong boy		9.6.1.1		0		161,m,m,m
-46484	1444	Tagin	sini mater-bɤ ci◦pu◦do	sini mater-bɤ cipudo	sugar is sweet	sugar is sweet		3.1.6.2		0		b,m,m,2721,m,m
-46485	1444	Tagin	a◦u◦nɤ	a◦u◦nɤ	tall	tall		9.7.2		0		p,6661,m
-46486	1444	Tagin	a◦u siŋ-nɤ	a◦u siŋ-nɤ	tall tree	tall tree		9.7.2		0		p,6661,2658,m
-46487	1444	Tagin	dopu-nɤ	dopu-nɤ	tasteful	tasteful		5.8		0		
-46488	1444	Tagin	adak	adak	thick	thick		9.7.2		0		
-46489	1444	Tagin	akyio	akyio	thin	thin		9.7.2		0		
-46490	1444	Tagin	a◦pi ai-la dopɤ-ne	a◦pi ai-la dopɤ-ne	tired / I am tired	tired / I am tired		9.6.2.2		0		p,6511,m,m,m,m
-46492	1444	Tagin	ɟiɟɤ	ɟiɟɤ	true	true		9.6.1.1		0		
-46493	1444	Tagin	karu	karu	ugly	ugly		7.1.3		0		
-46494	1444	Tagin	a◦rɤ kai-ne	a◦rɤ kai-ne	valuable / price much	valuable / price much		9.6.1.1		0		p,6584,m,m
-46495	1444	Tagin	miŋ	miŋ	vexed	vexed		8.3.1.6.1		0		
-46496	1444	Tagin	miŋ-dɯk-mɯku-nam	miŋ-dɯk-mɯku-nam	annoyed / vexed	annoyed / vexed		8.3.1.6.1		0		
-46497	1444	Tagin	ŋo miŋ-dik miŋ-ku-do	ŋo miŋ-dik miŋ-ku-do	annoyed, I am	annoyed, I am		8.3.1.6.1		0		2530,m,m,m,m,m
-46498	1444	Tagin	a◦gu	a◦gu	warm / hot	warm / hot		7.1.2.3		0		p,6335
-46499	1444	Tagin	a◦gu◦nɤ i◦si '	a◦gu◦nɤ i◦si '	warm water'	warm water'		7.1.2.3		0		p,6335,m,m,189
-46500	1444	Tagin	yagɯpa	yagɯpa	weak	weak		1.1.5		0		
-46501	1444	Tagin	ɟiɟa	ɟiɟa	wet	wet		6.6		0		6205
-46502	1444	Tagin	ɟiɟa-nɤ e◦siŋ	ɟiɟa-nɤ e◦siŋ	wet fuel	wet fuel		6.6		0		6205,m,p,2658
-46503	1444	Tagin	ya◦puŋ	ya◦puŋ	white	white		9.4		0		m,6097
-46504	1444	Tagin	puŋ◦pu	puŋ◦pu	white	white		9.4		0		6097,m
-46505	1444	Tagin	mɤniŋ	mɤniŋ	whole	whole		7.1.6.2		0		
-46506	1444	Tagin	ta◦tɤ-nɤ	ta◦tɤ-nɤ	wide	wide		9.7.2		0		6613,m,m
-46507	1444	Tagin	mo◦tum-gɤ	mo◦tum-gɤ	wild	wild		3.2.5		0		6470,m,m
-46508	1444	Tagin	mo◦tumgɤ sitom	mo◦tumgɤ sitom	wild animal	wild animal		3.2.5		0		6470,m,m
-46509	1444	Tagin	nyilo	nyilo	wise	wise		8.3.3.3.1		0		
-46510	1444	Tagin	mur	mur	wrong	wrong		9.6.2.1		0		6682
-46512	1444	Tagin	anyiŋ-gɤ	anyiŋ-gɤ	yearly	yearly		9.1.2		0		
-46513	1444	Tagin	yapa	yapa	young	young		7.1.8.3		0		
-46514	1444	Tagin	pakuŋ pala	pakuŋ pala	zigzag	zigzag		9.7.1		0		
-46515	1444	Tagin	pakuŋ pala lam◦da	pakuŋ pala lam◦da	zigzag road	zigzag road		9.7.1		0		m,m,1017
-46516	1444	Tagin	ka-yu-nam	ka-yu-nam	abandon	abandon		6.10.2		0	z	
-46517	1444	Tagin	yamnan	yamnan	abuse	abuse	v	6.4		0		
-46518	1444	Tagin	lekobɤ eŋ◦nam	lekobɤ eŋ◦nam	accompany / go with	accompany / go with		6.7.10		0		m,6347?,s
-46519	1444	Tagin	a◦ci	a◦ci	ache	ache	v	1.1.5.1		0		p,1847
-46520	1444	Tagin	dum◦po duḿ-ci-pa	dum◦po duḿ-ci-pa	head aches	head aches		1.2.1		0		1425,388,1425,1847,s
-46521	1444	Tagin	pa-nam	pa-nam	acquire (earn)	acquire (earn)		6.21		0		
-46523	1444	Tagin	pal-nam	pal-nam	admire	admire		8.3.1.1.1		0		
-46524	1444	Tagin	eŋ-co-nam	eŋ-co-nam	advance	advance		6.7.4		0		6347,6519,s
-46526	1444	Tagin	tam-ser-nam	tam-ser-nam	advice	advice		8.5.14.2		0		
-46527	1444	Tagin	min-ser-nam	min-ser-nam	advice	advice		8.5.14.2		0		6699,m,s
-46529	1444	Tagin	tɤ-ɟik-nam	tɤ-ɟik-nam	agree	agree	v	8.3.1.4.1		0		
-46531	1444	Tagin	modorridornam	modorridornam	aid / help	aid / help	v	6.20		0		
-46532	1444	Tagin	roŋ-nam	roŋ-nam	aim	aim				0		
-46533	1444	Tagin	garam pata-a roŋ-to	garam pata-a roŋ-to	Garam aimed at the bird	Garam aimed at the bird		10.0		0		
-46534	1444	Tagin	adɯk aku	adɯk aku	annoy	annoy		8.3.1.6.1		0		
-46536	1444	Tagin	mɯ-rɯk-nam	mɯ-rɯk-nam	answer	answer	v	8.5.6		0		
-46537	1444	Tagin	no ŋo tɤnema mɯriksutoka	no ŋo tɤnema mɯriksutoka	answer to my question	answer to my question		8.5.6		0		m,2530,m,m
-46538	1444	Tagin	ɟi-nam	ɟi-nam	appoint (give)	appoint (give)		6.2.2.1		0		2158,s
-46539	1444	Tagin	ca-lin-nam	ca-lin-nam	arise (of sun)	arise (of sun)		1.1.4		0		m,6426,s
-46541	1444	Tagin	alɤbɤ pɤnam	alɤbɤ pɤnam	arrange (well keep)	arrange (well keep)		6.17		0		
-46542	1444	Tagin	a-nam	a-nam	arrive (come)	arrive (come)		6.7.1		0		6211,s
-46543	1444	Tagin	tɤ-ka-nam	tɤ-ka-nam	ask	ask		8.5.7.1		0		
-46544	1444	Tagin	diŋ-nam	diŋ-nam	assault (beat)	assault (beat)		6.4		0		296,s
-46546	1444	Tagin	do-kum-nam	do-kum-nam	assemble	assemble		6.19		0		m,m,s
-46547	1444	Tagin	akum-nam	akum-nam	assemble	assemble		6.19		0		m,s
-46549	1444	Tagin	kaserbɤndik	kaserbɤndik	astonish	astonish		8.3.1.9.1		0		
-46551	1444	Tagin	ka-ya-nam	ka-ya-nam	await (wait)	await (wait)		8.3.1.7.3		0		m,5577,s
-46552	1444	Tagin	no ŋa ka-ya-rɤ-di	no ŋa ka-ya-rɤ-di	Will you wait for me?	Will you wait for me?		4.1		0		2489,2530,m,5577,m,m
-46553	1444	Tagin	pɤk-nam	pɤk-nam	bark	bark	v	2.1.11.1		0		m,s
-46555	1444	Tagin	orsukanam	orsukanam	bathe	bathe		6.6		0		
-46557	1444	Tagin	miŋama-nam	miŋama-nam	bear / endure	bear / endure	v	2.2.3		0		
-46558	1444	Tagin	diŋ-nam	diŋ-nam	beat	beat	v (vt?)	6.8		0		296,s
-46559	1444	Tagin	deŋ◦nam	deŋ◦nam	beat	beat	v (vt?)	6.8		0		296,s
-46560	1444	Tagin	miŋ◦ser◦nam	miŋ◦ser◦nam	believe	believe	v	8.3.1.12.1		0		6200,m,s
-46562	1444	Tagin	car◦gu-nam	car◦gu-nam	boil	boil	v	6.6		0		6378,6314,s
-46563	1444	Tagin	i◦si car◦gu◦do	i◦si car◦gu◦do	water boil	water boil		3.2.3		0		m,189,6378,m,m
-46564	1444	Tagin	car◦gu◦nɤ i◦si	car◦gu◦nɤ i◦si	water, boiled	water, boiled		3.2.3		0		m,6314,m,m,189
-46565	1444	Tagin	mo-mɯk-nam	mo-mɯk-nam	break (glass etc.)	break (glass etc.)		9.5		0		
-46566	1444	Tagin	to-mɯk-nam	to-mɯk-nam	break (stone)	break (stone)		9.5		0		
-46567	1444	Tagin	tar-tuŋ-nam	tar-tuŋ-nam	break (stick)	break (stick)		9.5		0		6635,m,s
-46568	1444	Tagin	gu◦nam	gu◦nam	burn	burn	v	3.2.12.1		0		6334,s
-46569	1444	Tagin	pato◦nam	pato◦nam	burn	burn	v	3.2.12.1		0		
-46570	1444	Tagin	e◦mɤ gudo	e◦mɤ gudo	Fire burns',	Fire burns',		3.2.12.2		0	z	p,e,2136,m
-46572	1444	Tagin	buk-tak-nam	buk-tak-nam	burst	burst	v	9.5		0		6256,m,m
-46573	1444	Tagin	rɤ-nam	rɤ-nam	buy	buy		6.22		0		2606,s
-46575	1444	Tagin	la-nam	la-nam	bring	bring		6.2.2.2.2		0		
-46576	1444	Tagin	biŋnam	biŋnam	bring	bring		6.2.2.2.2		0		
-46580	1444	Tagin	kɯ◦nam	kɯ◦nam	calculate	calculate		8.3.1.13.1		0		6175,s
-46581	1444	Tagin	gok◦nam	gok◦nam	call	call	v	8.5.13		0		6330,s
-46582	1444	Tagin	aloŋ gok-toka	aloŋ gok-toka	Call him	Call him		8.5.13		0		m,6330,m
-46583	1444	Tagin	gɤ-nam	gɤ-nam	carry load on back	carry load on back		6.2.2.2.1		0		6339,s
-46584	1444	Tagin	bag-nam	bag-nam	carry child on back	carry child on back		6.2.2.2.1		0		570,m
-46585	1444	Tagin	beŋ◦nam	beŋ◦nam	carry on should	carry on should		6.2.2.2.1		0		570,m
-46586	1444	Tagin	ga◦nam	ga◦nam	carry bag in hand	carry bag in hand		6.2.2.2.1		0		
-46587	1444	Tagin	gya◦nam	gya◦nam	carry bag in hand	carry bag in hand		6.2.2.2.1		0		
-46588	1444	Tagin	gak-nam	gak-nam	catch by hand	catch by hand		6.21		0		6316,s
-46589	1444	Tagin	la-tuŋ-nam	la-tuŋ-nam	catch by encircling (thief, cow, etc.)	catch by encircling (thief, cow, etc.)		6.21		0		
-46590	1444	Tagin	ka-ɟɯk◦nam	ka-ɟɯknam	choose by seeing	choose by seeing	v	6.10.4		0		
-46591	1444	Tagin	tɤ ɟɯk◦nam	tɤ ɟɯknam	choose by hearing	choose by hearing	v	6.10.4		0		1408,m,s
-46592	1444	Tagin	miŋ-lik-nam	miŋ-lik-nam	select (elect)	select (elect)	v	6.10.4		0		
-46594	1444	Tagin	pak-puk-nam	pak-puk-nam	clap	clap	v	9.3		0		
-46596	1444	Tagin	ca-nam	ca-nam	climb	climb		6.7.7		0		
-46598	1444	Tagin	pok-bak-nam	pok-bak-nam	climb by jumping	climb by jumping		6.7.7		0		6707,m,s
-46599	1444	Tagin	la-kum-nam	la-kum-nam	collect	collect		6.21		0		m,m,s
-46601	1444	Tagin	dumɯ toktoka	dumɯ toktoka	Come into the room	Come into the room		6.7.1		0		
-46602	1444	Tagin	hukum ɟi-nam	hukum ɟi-nam	command (order give)	command (order give)		8.5.1		0		m,2158,s
-46603	1444	Tagin	tɤ-ku-nam	tɤ-ku-nam	confess	confess		8.5.14.2		0		
-46605	1444	Tagin	min◦ama tɤ◦nam	minama tɤnam	convince	convince		8.5.10.3		0		6699,m,m,s
-46606	1444	Tagin	lek-tɯn-nam	lek-tɯn-nam	correct	correct		8.3.3.9		0		
-46607	1444	Tagin	alɤbɤ lektɯnto	alɤbɤ lektɯnto	Correct carefully	Correct carefully		8.3.3.9		0		
-46608	1444	Tagin	tak-mam-nam	tak-mam-nam	cover	cover	v	5.8		0		
-46612	1444	Tagin	rek-nam	rek-nam	cut (a vegetable)	cut (a vegetable)	vt	6.9.3		0		
-46613	1444	Tagin	oŋka-nam	oŋka-nam	dazzle	dazzle	v			0		
-46614	1444	Tagin	kariklak-nam	kariklak-nam	dazzle	dazzle	v			0		
-46617	1444	Tagin	miŋ-nam	miŋ-nam	desire, wish	desire, wish		8.3.1.14.3		0		6200,s
-46618	1444	Tagin	myaŋ-nam	myaŋ-nam	decrease	decrease		9.5		0		
-46619	1444	Tagin	sintar-nam	sintar-nam	decrease	decrease		9.5		0		
-46620	1444	Tagin	i◦si sintardo	i◦si sintardo	Water is diminishing	Water is diminishing		3.2.3		0		m,189,m
-46621	1444	Tagin	la-pɯk-nam	la-pɯk-nam	deduct	deduct		6.10.4		0		
-46622	1444	Tagin	miŋ-ram-nam	miŋ-ram-nam	deny	deny		8.5.6		0		
-46623	1444	Tagin	i-nam	i-nam	descend	descend		6.7.8		0		
-46626	1444	Tagin	du-nam	du-nam	dig (by dibble)	dig (by dibble)		6.11		0		3573,s
-46627	1444	Tagin	pa-nak	pa-nak	dig (by dibble)	dig (by dibble)		6.11		0		
-46628	1444	Tagin	mirik-nam	mirik-nam	discuss	discuss				0		
-46629	1444	Tagin	mimisɤ-nam	mimisɤ-nam	discuss	discuss				0		
-46630	1444	Tagin	mɤdɯk mɤku-nam	mɤdɯk mɤku-nam	disturb	disturb		8.3.1.6.2		0		
-46632	1444	Tagin	ornam	ornam	divide	divide		6.10.4		0		
-46633	1444	Tagin	orpɯn-nam	orpɯn-nam	divide	divide		6.10.4		0		
-46635	1444	Tagin	ka-yu-nam	ka-yu-nam	divorce / abandon	divorce / abandon		5.8		0	z	
-46636	1444	Tagin	meŋtup-nam	meŋtup-nam	doubt	doubt		8.3.1.12.1		0		
-46638	1444	Tagin	bo-nam	bo-nam	drag	drag		6.7.10		0		
-46640	1444	Tagin	gɤ-nam	gɤ-nam	dress	dress	v	6.2.2.1		0		
-46641	1444	Tagin	ko-nam	ko-nam	dress	dress	v	6.2.2.1		0		
-46642	1444	Tagin	eɟɯ kolaka	eɟɯ kolaka	Wear your cloth	Wear your cloth		6.2.2.1		0		
-46643	1444	Tagin	biŋ-nam	biŋ-nam	wear hat	wear hat		6.2.2.1		0		
-46644	1444	Tagin	botum biŋ-laka	botum biŋ-laka	Wear your hat	Wear your hat		6.2.2.1		0		
-46645	1444	Tagin	teŋ-nam	teŋ-nam	drink	drink	v			0		502,s
-46646	1444	Tagin	lo◦sin◦nam	lo◦sin◦nam	dry	dry	v	6.6		0		m,6591,s
-46648	1444	Tagin	pa-nam	pa-nam	earn / find	earn / find		6.2		0		
-46649	1444	Tagin	cegap-nam	cegap-nam	embrace	embrace	v	8.4		0		
-46650	1444	Tagin	ŋulu cegapminsuto	ŋulu cegapminsuto	We embraced each other	We embraced each other		4.1		0		
-46651	1444	Tagin	mo◦ro-nam	moro-nam	empty	empty	v	7.1.2.1		0		m,6208,s
-46656	1444	Tagin	areŋlo a-nam	areŋlo a-nam	enter / come into	enter / come into		6.7.1		0		
-46657	1444	Tagin	kɤ-sɯr-nam	kɤ-sɯr-nam	envy	envy	v	8.3.2.6.2		0		
-46659	1444	Tagin	meŋ-|pa-nam	meŋ-|pa-nam	forget	forget		8.3.1.16.1		0		
-46661	1444	Tagin	pak-nam	pak-nam	esteem / respect	esteem / respect	v	8.1		0		
-46663	1444	Tagin	sheshubebu ca-nam	sheshubebu ca-nam	evaporate	evaporate		6.6		0		
-46665	1444	Tagin	tɤ-ka-nam	tɤ-ka-nam	examine (orally)	examine (orally)		6.2		0		
-46666	1444	Tagin	ka-yu-nam	ka-yu-nam	exclude	exclude		6.10.4		0		
-46667	1444	Tagin	ka-tam-nam	ka-tam-nam	exhibit / show	exhibit / show		6.2.2.8		0		6373,m,s
-46669	1444	Tagin	nu-bor-nam	nu-bor-nam	expand	expand		9.5		0		
-46671	1444	Tagin	alɤbɤ min-ɟi-nam	alɤbɤ min-ɟi-nam	explain (speak-give)	explain (speak-give)		8.5.14.3		0		m,6699,2158,s
-46672	1444	Tagin	buk-tak-nam	buk-tak-nam	explode	explode		9.5		0		6256,m,m
-46673	1444	Tagin	mo-ŋit-nam	mo-ŋit-nam	extinguish	extinguish		3.2.12.1		0		
-46674	1444	Tagin	pa-nyu-ma-nam	pa-nyu-ma-nam	fail	fail		6.1.1		0		
-46676	1444	Tagin	o◦lu-nam	o◦lu-nam	fall (from above)	fall (from above)		6.1.1.4.2		0		3507,m,s
-46677	1444	Tagin	pak nam	pak nam	love, fall in	love, fall in		8.3.1.1.1		0		1359,s
-46679	1444	Tagin	ma◦yep-yap-nam	ma◦yep-yap-nam	fan	fan	v	5.4		0		m,2790,2790,s
-46680	1444	Tagin	tak-pɤ-nam	tak-pɤ-nam	fasten (cow, etc.)	fasten (cow, etc.)		6.13.3		0		
-46682	1444	Tagin	lɯ-nam	lɯ-nam	fasten (by hand)	fasten (by hand)		6.13.3		0		
-46683	1444	Tagin	punciŋ-nam	punciŋ-nam	fasten (load)	fasten (load)		6.13.3		0		
-46684	1444	Tagin	rak-nam	rak-nam	fasten (fencing)	fasten (fencing)		6.13.3		0		
-46685	1444	Tagin	busu-nam	busu-nam	fear	fear	v	8.3.1.10.1		0		
-46687	1444	Tagin	do-mu-nam	do-mu-nam	feed	feed	v	1.3.5.8		0		
-46688	1444	Tagin	momisu-nam	momisu-nam	fight	fight	v	6.5		0		
-46690	1444	Tagin	pa-nam	pa-nam	find	find	v	6.21		0		
-46691	1444	Tagin	mo-nya-nam	mo-nya-nam	finish	finish	v	9.5		0		
-46693	1444	Tagin	kɤ-nam	kɤ-nam	flee	flee		6.7.2		0		6705,s
-46694	1444	Tagin	ɟa-kir-nam	ɟa-kir-nam	float	float	v	6.6.1		0		6237,m,s
-46695	1444	Tagin	e◦siŋ◦ɤ i◦si sulo ɟa-kirr-do	e◦siŋ◦ɤ i◦si sulo ɟa-kirr-do	Wood floats on water	Wood floats on water		3.1.2		0		p,2658,m,p,189,m,m,m,m
-46696	1444	Tagin	bi-nam	bi-nam	flow	flow	v	6.6.1		0		6276,s
-46698	1444	Tagin	kocapkolap-nam	kocapkolap-nam	fold	fold	v	1.4.4.2		0		
-46699	1444	Tagin	kogoɟsim kocapkolap-to	kogoɟsim kocapkolap-to	Fold the paper	Fold the paper		1.4.4.2		0		
-46700	1444	Tagin	meŋpa◦ku-ma-nam	meŋpa◦ku-ma-nam	forget	forget		8.3.1.16.1		0		
-46702	1444	Tagin	busu molam-nam	busu molam-nam	frighten	frighten		8.3.1.10.1		0		
-46703	1444	Tagin	do-kum-nam	do-kum-nam	gather	gather		6.13.5		0		m,m,s
-46705	1444	Tagin	pa-nam	pa-nam	get / obtain	get / obtain		1.1.5		0		
-46706	1444	Tagin	go-duŋ-nam	go-duŋ-nam	get up	get up		1.1.4		0		
-46707	1444	Tagin	ɟi-nam	ɟi-nam	give	give		6.23		0		2158,s
-46708	1444	Tagin	eŋ-nam	eŋ-nam	go	go		6.7.2		0		6347?,s
-46709	1444	Tagin	eŋ◦co-nam	eŋ◦co-nam	go ahead	go ahead		6.7.2		0		6347?,6519,s
-46710	1444	Tagin	seŋɤ rɯgɤ-nam	seŋɤ rɯgɤ-nam	govern / rule	govern / rule		6.19		0		
-46712	1444	Tagin	siŋ-ca-nam	siŋ-ca-nam	grow	grow		9.7.2		0		
-46713	1444	Tagin	radɤ so siŋ-ca-ma	radɤ so siŋ-ca-ma	Maize does not grow here	Maize does not grow here		3.1.5		0		
-46714	1444	Tagin	ka-ya-nam	ka-ya-nam	guard	guard	v	6.2.2.1		0		
-46716	1444	Tagin	eŋ-gɤ-nam	eŋ-gɤ-nam	guide	guide	v	6.2.2.1		0		6347,m,s
-46717	1444	Tagin	doŋ-nam	doŋ-nam	halt / stop	halt / stop	v	6.7.11		0		
-46718	1444	Tagin	kasiŋ-nam	kasiŋ-nam	hate	hate	v	8.3.1.1.2		0		
-46720	1444	Tagin	do-nam	do-nam	have	have	v	8.2		0		
-46722	1444	Tagin	ka-ɟi-nam	ka-ɟi-nam	help	help	v	6.2.2.1		0		
-46723	1444	Tagin	ka-la-nam	ka-la-nam	help	help	v	6.2.2.1		0		
-46724	1444	Tagin	no ŋa ka-ɟi-ri	no ŋa ka-ɟi-ri	Will you help me?	Will you help me?		4.1		0		2489,2530,m,m,m
-46725	1444	Tagin	to◦si-nam	to◦si-nam	hide	hide	v	1.6.5.1		0		
-46727	1444	Tagin	miŋ-nam	miŋ-nam	hope	hope	v	8.3.1.7.1		0		6200,s
-46728	1444	Tagin	min-pa-nam	min-pa-nam	inform	inform	v	8.5.14.2		0		6699,m,s
-46730	1444	Tagin	o◦po dek-nam	o◦po dek-nam	intoxicate	intoxicate	v			0		m,6526,m,s
-46731	1444	Tagin	deknɤ nyi	deknɤ nyi	intoxicated man	intoxicated man		8.3.1.11.3		0		
-46732	1444	Tagin	mo-len-nam	mo-len-nam	invent	invent	v	6.14		0		
-46733	1444	Tagin	ka-pa-nam	ka-pa-nam	discover / find	discover / find	v	6.21		0		6373,m,s
-46734	1444	Tagin	har-nam	har-nam	invite	invite	v	8.5.11		0		
-46735	1444	Tagin	dabin ŋa har-to	dabin ŋa har-to	Dabin invited me	Dabin invited me		8.5.11		0		m,2530,m,m
-46736	1444	Tagin	gyoki-nam	gyoki-nam	joke	joke	v	8.5.9		0		
-46738	1444	Tagin	pok-nam	pok-nam	jump	jump	v	6.7.8		0		6707,s
-46739	1444	Tagin	pɤ-nam	pɤ-nam	keep	keep	v	6.18		0		
-46740	1444	Tagin	kolom-a tebul aulo pɤtoka	kolom-a tebul aulo pɤtoka	Keep the pen on the table	Keep the pen on the table		10.0		0		
-46741	1444	Tagin	mo◦ki-nam	moki-nam	kill	kill	v	6.4		0		m,3301,s
-46742	1444	Tagin	ap◦ki-nam	apki-nam	kill with a gun	kill with a gun	v	6.4		0		2232,3301,s
-46743	1444	Tagin	pa◦ki-nam	paki-nam	kill with a dao	kill with a dao	v	6.4		0		m,3301,s
-46745	1444	Tagin	deŋ◦ki-nam	deŋki-nam	kill with a stick	kill with a stick	v	6.4		0		296,3301,s
-46746	1444	Tagin	moyo-nam	moyo-nam	kned [=knead?]	kned  [=knead?]	v	5.5		0		
-46747	1444	Tagin	padin-nam	padin-nam	knock	knock	v	6.8		0		
-46749	1444	Tagin	cin-nam	cin-nam	know / learn	know / learn	v	8.3.1.12.1		0		1229,s
-46752	1444	Tagin	eŋ-ge-nam	eŋ-ge-nam	lead (in going)	lead (in going)	v	6.2.2.1		0		6347,m,s
-46753	1444	Tagin	ri-ge-nam	ri-ge-nam	lead in work	lead in work	v	6.2.2.1		0		
-46754	1444	Tagin	gɤda-nam	gɤda-nam	lie (i.e. position)	lie (i.e. position)	v	8.5.10.4		0		
-46755	1444	Tagin	mɤ-nam	mɤ-nam	lie / speak falsely	lie / speak falsely	v	8.5.10.4		0		6477,s
-46756	1444	Tagin	no hugubɤ mɤdune?	no hugubɤ mɤdune?	Why do you tell a lie?	Why do you tell a lie?		10.5.3		0		2489,m,m
-46757	1444	Tagin	pak-nam	pak-nam	love	love	v	8.3.1.1.1		0		1359,s
-46759	1444	Tagin	kɯ-nam	kɯ-nam	measure (count)	measure (count)	v	9.8		0		6175,m
-46760	1444	Tagin	ɟɤ-nam	ɟɤ-nam	melt	melt	v	9.5		0		6358,s
-46761	1444	Tagin	ta◦pam ɟɤ-do	ta◦pam ɟɤ-do	ice melts	ice melts		3.2.3		0		p,6505,m,m
-46762	1444	Tagin	meŋ ruŋoya-nam	meŋ ruŋoya-nam	moan	moan	v	1.8.8.2		0		
-46763	1444	Tagin	no hugubɤ meŋrudune	no hugubɤ meŋrudune	Why do you moan?	Why do you moan?		10.5.3		0		2489,m,m
-46764	1444	Tagin	laso miŋ-nam	laso miŋ-nam	need	need	v	9.6.2		0		
-46766	1444	Tagin	mɤɤya-nam	mɤɤya-nam	neglect	neglect		6.4		0		
-46768	1444	Tagin	tur-nam	tur-nam	obstruct	obstruct	v	6.2		0		
-46769	1444	Tagin	min◦tur◦nam	minturnam	obstruct of speech	obstruct of speech	v	6.2		0		6699,m,s
-46770	1444	Tagin	mo-tor-nam	mo-tor-nam	obstruct a moving or flowing thing	obstruct a moving or flowing thing	v	6.2		0		
-46771	1444	Tagin	mo-tum-nam	mo-tum-nam	obstruct a moving or flowing thing	obstruct a moving or flowing thing	v	6.2		0		
-46773	1444	Tagin	ɤ lam◦da-ŋa mo-tum-to	ɤ lamda-ŋa mo-tum-to	he obstructed the road	he obstructed the road		4.1		0		m,1017,m,m,m,m,m
-46774	1444	Tagin	rɯ-gɤ-nam	rɯ-gɤ-nam	organize	organize	v	6.2		0		
-46776	1444	Tagin	mogɤnam	mogɤnam	pack	pack	v	6.2		0		
-46777	1444	Tagin	egɤ-ŋa mogɤtoka	egɤ-ŋa mogɤtoka	Pack the load	Pack the load		6.2		0		
-46778	1444	Tagin	paɟam-nam	paɟam-nam	pat	pat	v	8.4		0		
-46779	1444	Tagin	i◦kɯ-a paɟam-to	i◦kɯ-a paɟam-to	Patted the dog	Patted the dog		8.4		0		p,1764,s,m,m
-46780	1444	Tagin	laca-nam	laca-nam	pick up	pick up	v	6.10.4		0		
-46781	1444	Tagin	gyoki-nam	gyoki-nam	play	play	v	6.1.1.3		0		
-46782	1444	Tagin	dek-nam	dek-nam	play football	play football	v	6.1.1.3		0		
-46783	1444	Tagin	dik-nam	dik-nam	play football	play football	v	6.1.1.3		0		
-46784	1444	Tagin	mo-nam	mo-nam	play volleyball	play volleyball	v	6.1.1.3		0		
-46785	1444	Tagin	ŋunux futbol dek-du	ŋunu futbol dek-du	We are playing football	We are playing football		4.1		0		
-46786	1444	Tagin	pu-nam	pu-nam	pluck	pluck	v	6.2.2.3.1		0		6534,s
-46788	1444	Tagin	pɯk◦lɯk-nam	pɯk◦lɯk-nam	pour	pour	v	6.6		0		m,6442,s
-46789	1444	Tagin	to◦lɯk-nam	to◦lɯk-nam	pour	pour	v	6.6		0		m,6442,s
-46790	1444	Tagin	reŋ-nam	reŋ-nam	protect	protect	v	6.2.2.1		0		
-46792	1444	Tagin	punam	punam	pull (with something, e.g. rope)	pull (with something, e.g. rope)	v	6.2.2.3.1		0		
-46793	1444	Tagin	bo-nam	bo-nam	pull (rope etc.)	pull (rope etc.)	v	6.2.2.3.1		0		
-46794	1444	Tagin	gari boto	gari boto	Pull the cart	Pull the cart		6.2.2.3.1		0		bIndic,b
-46795	1444	Tagin	re-nam	re-nam	purchase	purchase	v	6.22		0		2606,s
-46796	1444	Tagin	tuŋ-nam	tuŋ-nam	push	push	v	6.2.2.3.1		0		m,s
-46797	1444	Tagin	no hugubɤ tuŋdu-nc	no hugubɤ tuŋdu-nc	Why do you push?	Why do you push?		10.5.3		0		2489,m,m,m
-46798	1444	Tagin	abɤ arɯk kuma-nam	abɤ arɯk kuma-nam	puzzle	puzzle	v	8.3.1.13.1		0		
-46800	1444	Tagin	yaluŋ du	yaluŋ du	quarrel	quarrel	v?	8.5.8		0		
-46801	1444	Tagin	apak-nam	apak-nam	quit	quit	v	6.2		0		
-46802	1444	Tagin	elamin-nam	elamin-nam	refuse	refuse	v	8.5.6		0		
-46803	1444	Tagin	meŋ-pa-nam	meŋ-pa-nam	remember	remember	v	8.3.1.16.1		0		
-46805	1444	Tagin	min-pa-num	min-pa-num	remind / inform	remind / inform	v	8.5.16		0		6699,m,s
-46806	1444	Tagin	mo◦ten-nam	mo◦ten-nam	repair	repair	v	6.14		0		m,6617,s
-46808	1444	Tagin	donu-nam	donu-nam	rest	rest	v	1.1.4.1		0		
-46809	1444	Tagin	ba-nam	ba-nam	roast	roast	v	5.5		0		6263,s
-46811	1444	Tagin	ɟok-nam	ɟok-nam	run	run	v	6.7.4		0		
-46812	1444	Tagin	pak-nam	pak-nam	scatter	scatter	v	6.10.3		0		
-46813	1444	Tagin	mɤ-ker-nam	mɤ-ker-nam	search	search	v	6.2.2.2		0		6448,m,s
-46815	1444	Tagin	pyok-nam	pyok-nam	sell	sell	v	6.22		0		6531,s
-46816	1444	Tagin	pao-nam	pao-nam	send	send	v	6.2.2.2		0		
-46817	1444	Tagin	eŋ-mu-nam	eŋ-mu-nam	send	send	v	6.2.2.2		0		6347,m,s
-46818	1444	Tagin	citi-a pao-to	citi-a pao-to	Send the letter	Send the letter		6.2.2.2		0		b,m,m,m
-46819	1444	Tagin	am-nam	am-nam	sew	sew	v	5.1		0		6659,s
-46820	1444	Tagin	ek-din-nam	ek-din-nam	shake	shake	v	6.7.9		0		m,6287,s
-46821	1444	Tagin	ko kupkolɯk	ko kupkolɯk	shake curry	shake curry	v	6.7.9		0		
-46822	1444	Tagin	kokupkolɯk-lak	kokupkolɯk-lak	Shake the curry	Shake the curry		6.7.9		0		
-46823	1444	Tagin	nar-yu-nam	nar-yu-nam	sharpen	sharpen	v	6.9.2		0		
-46824	1444	Tagin	ab◦nam	ab◦nam	shoot	shoot	v	6.2.2.1		0		2232,s
-46825	1444	Tagin	ap◦nam	ap◦nam	shoot	shoot	v	6.2.2.1		0		2232,s
-46826	1444	Tagin	kok-tom-nam	kok-tom-nam	shut	shut		6.2.2.6.2		0		
-46828	1444	Tagin	lok-lɯk-nam	lok-lɯk-nam	sink	sink	v	6.6		0		
-46829	1444	Tagin	rokdin i◦si◦lo lok-lɯk-do	rokdin i◦si◦lo lok-lɯk-do	Iron sinks in water	Iron sinks in water		3.2.4		0		m,m,189,m,m,m,m
-46830	1444	Tagin	duŋ-nam	duŋ-nam	sit	sit	v	6.1.1.4.1		0		1906,s
-46831	1444	Tagin	duŋ-tuŋ-nam	duŋ-tuŋ-nam	sit properly	sit properly	v	6.1.1.4.1		0		1906,m,s
-46832	1444	Tagin	duŋ-bɯp-nam	duŋ-bɯp-nam	sit on a slope	sit on a slope	v	6.1.1.4.1		0		1906,m,s
-46833	1444	Tagin	duŋ-lɯk-nam	duŋ-lɯk-nam	sit after finding a place	sit after finding a place	v	6.1.1.4.1		0		1906,m,s
-46834	1444	Tagin	ma-nam	ma-nam	spend (money)	spend (money)	v	6.22		0		
-46835	1444	Tagin	dag-nam	dag-nam	stand	stand	n	1.5.2		0		6286,s
-46836	1444	Tagin	dag◦rap◦to	dag◦rap◦to	Stand up	Stand up		1.5.2		0		6286,145,m
-46837	1444	Tagin	do◦co-nam	do◦co-nam	steal	steal	v	6.2.2.1		0		5363,6520,s
-46838	1444	Tagin	meŋcima-nam	meŋcima-nam	suspect	suspect	v	6.2.2.2		0		
-46841	1444	Tagin	pɤk-nam	pɤk-nam	sweep	sweep	v	6.2.2.5.3		0		2587,s
-46842	1444	Tagin	la-nam	la-nam	take	take	v	6.21		0		6421,s
-46843	1444	Tagin	na-nam	na-nam	take	take	v	6.21		0		6421,s
-46844	1444	Tagin	dɤ◦ka-nam	dɤka-nam	taste	taste	v	1.3.5.8		0		5363,m,s
-46845	1444	Tagin	miŋ-nam	miŋ-nam	think	think	v	8.3.1.13.1		0		6200,s
-46846	1444	Tagin	miŋ-sɯr-nam	miŋ-sɯr-nam	believe	believe	v	8.3.1.12.1		0		6200,m,s
-46847	1444	Tagin	miŋ-pa-nam	miŋ-pa-nam	recollect	recollect	v	8.3.1.16.1		0		6200,m,s
-46848	1444	Tagin	miŋ-lɯk-nam	miŋ-lɯk-nam	agree	agree	v	8.3.1.4.1		0		6200,m,s
-46849	1444	Tagin	miŋ-kur-nam	miŋ-kur-nam	think again / reconsider	think again / reconsider	v	8.3.1.13.1		0		6200,2827,s
-46851	1444	Tagin	or-nam	or-nam	throw	throw	v	6.12		0		3528,s
-46853	1444	Tagin	mosit-nam	mosit-nam	touch	touch		8.4		0		
-46854	1444	Tagin	no ŋo hugubɤ mosit duŋ	no ŋo hugubɤ mosit duŋ	Why do you touch me?	Why do you touch me?		4.1		0		2489,2530,m,m,m
-46855	1444	Tagin	ɟinɟin-nam	ɟinɟin-nam	tremble	tremble		6.7.3		0		
-46856	1444	Tagin	mɤki-nam	mɤki-nam	try	try	v	6.1.1.1		0		
-46857	1444	Tagin	oŋko-a mɤkito (ka)	oŋko-a mɤkito (ka)	Try the sum	Try the sum		6.1.1.1		0		
-46858	1444	Tagin	dak-rɯk-nam	dak-rɯk-nam	turn	turn	v	6.7.6		0		
-46859	1444	Tagin	ŋo◦m dak-rɯk-to (ka)	ŋo◦m dak-rɯk-to (ka)	turn to me	turn to me	v.	6.7.6		0		2530,m,m,m,m,m
-46860	1444	Tagin	da-kor-nam	da-kor-nam	turn (in opposite direction)	turn (in opposite direction)	v	6.7.6		0		
-46861	1444	Tagin	tɤ◦cin-nam	tɤ◦cin-nam	understand	understand	v	8.3.1.13.1		0		m,1229,s
-46863	1444	Tagin	do-ya-nam	do-ya-nam	wait	wait	v	6.1.1.6		0		m,5577,s
-46864	1444	Tagin	ka-ya-nam	ka-ya-nam	wait	wait	v	6.1.1.6		0		m,5577,s
-46865	1444	Tagin	do-ya-lak	do-ya-lak	Wait (face to face)	Wait (face to face)	impv?	1.2.5		0		m,5577,m
-46866	1444	Tagin	ar◦kak-nam	ar◦kak-nam	wash	wash	v	6.2.2.5.2		0		3519,6680,s
-46867	1444	Tagin	a◦rak-nam	arak-nam	wash cloth	wash cloth	v	6.2.2.5.2		0		
-46868	1444	Tagin	eɟi-a ar◦kak-lak	eɟi-a ar◦kak-lak	Wash the cloth	Wash the cloth		6.2.2.5.2		0		m,m,3519,6680,m
-46869	1444	Tagin	mo◦kak-nam	mokak-nam	wash room	wash room	v	6.2.2.5.2		0		m,6182,s
-46870	1444	Tagin	kab-nam	kab-nam	weep	weep	v	1.8.8.2		0		1103,s
-46871	1444	Tagin	kɯ-nam	kɯ-nam	weigh	weigh	v	9.8		0		
-46873	1444	Tagin	rɯ-nam	rɯ-nam	work	work	v	6.1.1		0		
-46874	1444	Tagin	ui mo-nam	ui mo-nam	worship (of spirit)	worship (of spirit)		5.8.1.3		0		
-46875	1444	Tagin	dami-su-nam	dami-su-nam	wrestle	wrestle		6.5		0		
-46877	1444	Tagin	damisu-nɤ	damisu-nɤ	wrestler	wrestler	n	6.5		0		
-146604	1444	Tagin	o-terr-nam	o-terr-nam	break leg (by falling from above)	break leg (by falling from above)		9.5		0		
-146605	1444	Tagin	ka-ru-nam	ka-ru-nam	peep through a hole, window etc.	peep through a hole, window etc.	v	8.5.5		0		6373,2070,s
-146606	1444	Tagin	po◦bɯm	po◦bɯm	basket for keeping country liquor	basket for keeping country liquor		5.1		0		6526,m
-146607	1444	Tagin	pobɤ	pobɤ	in one side of the room for keeping things	in one side of the room for keeping things		10.1.1		0		
-146608	1444	Tagin	nyoduŋ	nyoduŋ	sleeping place for woman (side of hearth)	sleeping place for woman (side of hearth)		1.1.4.1		0		
-146609	1444	Tagin	byagu	byagu	sleeping place for male (side of hearth)	sleeping place for male (side of hearth)		1.1.4.1		0		
-146610	1444	Tagin	odɯŋ	odɯŋ	sleeping place for guest (side of hearth)	sleeping place for guest (side of hearth)		1.1.4.1		0		
-146611	1444	Tagin	nyosu	nyosu	sleeping place for guest (side of hearth)	sleeping place for guest (side of hearth)		1.1.4.1		0		
-146612	1444	Tagin	caliŋ	caliŋ	rat (red, smaller than kola / kuti)	rat (red, smaller than kola / kuti)		2.1.1		0		
-146613	1444	Tagin	koɟak	koɟak	rat (tail longer than kola, kuti)	rat (tail longer than kola, kuti)		2.1.1		0		
-146614	1444	Tagin	tayin	tayin	waist belt of cloth covered with kouri	waist belt of cloth covered with kouri		10.1.1		0		
-146615	1444	Tagin	roŋbin	roŋbin	ear ornament worn by woman (light)	ear ornament worn by woman (light)		1.2.7		0		
-146616	1444	Tagin	raɟu	raɟu	ear ornament worn by woman (heavy)	ear ornament worn by woman (heavy)		1.2.7		0		
-146621	1444	Tagin	pa-nam	pa-nam	cut tree (with a dao) patuŋsutoka	cut tree (with a dao) patuŋsutoka	vt	6.9.3		0		6504,s
-146622	1444	Tagin	pɤ-nam	pɤ-nam	cut tree (by rubbing with a dao)	cut tree (by rubbing with a dao)	vt	6.9.3		0		
-146623	1444	Tagin	mo◦di dumpumtɤ ta◦pam karik	mo◦di dumpumtɤ ta◦pam karik	The ice dazzles on the top of the mountain	The ice dazzles on the top of the mountain		10.0		0	D1	6470,6222,m,p,6505,m
-146626	1444	Tagin	dakarr-nam	dakarr-nam	pulis ŋulu-a dakarr-to 'The police surrounded us'	pulis ŋulu-a dakarr-to 'The police surrounded us'		2.1.11		0	D1	e
-146633	1444	Tagin	mo-tup-nam	mo-tup-nam	close the mouth of the bottle by cork etc.	close the mouth of the bottle by cork etc.	v	10.0		0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+45852	1444	Tagin	toŋ◦re	toŋ◦re	front	front			1.4.4		0			
+45853	1444	Tagin	prɤ	prɤ	front	front			1.4.4		0			m
+45854	1444	Tagin	roŋ◦boŋ	roŋ◦boŋ	horn (of animal)	horn (of animal)			1.2.2		0			814,m
+45855	1444	Tagin	nakop	nakop	hoof	hoof			1.5.4		0			
+45856	1444	Tagin	nay◦buŋ	nay◦buŋ	tail	tail			1.4.10.1		0			1288,3331
+45857	1444	Tagin	lɤ◦pa	lɤpa	leg	leg			1.5.7		0		D1	350,m
+45858	1444	Tagin	ibuŋ	ibuŋ	beak / bill	beak / bill			1.3.1.2		0			476
+45859	1444	Tagin	a◦mi	a◦mi	fur	fur			1.6.1		0			p,m
+45860	1444	Tagin	lap	lap	feather	feather			1.6.1.1		0			757
+45861	1444	Tagin	lap	lap	wing	wing			1.5.1.3		0			757
+45862	1444	Tagin	seiː	seiː	dung	dung			1.8.5		0			
+45863	1444	Tagin	a◦din	a◦din	meat	meat			1.1.1.1		0			p,6299
+45864	1444	Tagin	a◦din din◦li	a◦din din◦li	raw meat	raw meat			7.1.8.3		0			p,6299,6299,6423
+45865	1444	Tagin	a◦din li◦ne	a◦din li◦ne	flesh	flesh			1.1.1.1		0			p,6299,m,m
+45866	1444	Tagin	pɯ◦pɯ	pɯ◦pɯ	egg	egg					0			m,1654
+45867	1444	Tagin	doŋ◦ku	doŋ◦ku	skull / upper head	skull / upper head			1.2.1.1		0			1425,m
+45868	1444	Tagin	donu	donu	hair	hair			1.2.3		0			
+45869	1444	Tagin	tok◦tum	tok◦tum	forehead	forehead			1.2.5.1		0			359,m
+45870	1444	Tagin	nyok◦mu	nyok◦mu	face	face			1.2.5		0			682,5662
+45871	1444	Tagin	gam	gam	mouth	mouth			1.3.1		0			6324
+45872	1444	Tagin	poknyi	poknyi	brain	brain			1.2.4		0			252
+45873	1444	Tagin	nyik	nyik	eye	eye			1.2.6		0			682
+45874	1444	Tagin	nyik siŋ nyik◦mɯ	nyik siŋ nyik◦mɯ	eyebrow	eyebrow			1.2.6.6		0			682,370,682,363
+45875	1444	Tagin	nyaruŋ	nyaruŋ	ear	ear			1.2.7		0			6487
+45876	1444	Tagin	nyaruŋ a◦roŋ	nyaruŋ a◦roŋ	earhole	earhole			1.2.7		0			6487,p,2070
+45877	1444	Tagin	naŋ	naŋ	nose	nose			1.2.8		0			803
+45878	1444	Tagin	gam◦burr	gam◦burr	lip	lip			1.3.2		0			454,452
+45879	1444	Tagin	nap◦cu	napcu	upper lip	upper lip			9.2.1		0			470,m
+45880	1444	Tagin	gam◦burr	gam◦burr	lower lip	lower lip					0			454,452
+45881	1444	Tagin	na◦mɯ	na◦mɯ	moustache	moustache			1.2.5.5		0			803,363
+45882	1444	Tagin	riu	riu	tongue	tongue			1.3.3		0			623
+45883	1444	Tagin	i◦ɟoŋ	i◦ɟoŋ	tooth	tooth			1.3.4		0			632,2813
+45884	1444	Tagin	i◦nyior	i◦nyior	gums	gums			1.3.4.3		0			632,504
+45885	1444	Tagin	cok◦pya	cok◦pya	jaw	jaw			1.2.5.2		0			2034,264
+45886	1444	Tagin	cok◦pya	cokpya	chin	chin			1.2.5.3		0			2056,6280
+45887	1444	Tagin	na◦mi	na◦mi	beard	beard			1.2.5.5		0			470,363
+45888	1444	Tagin	leŋ◦po	leŋ◦po	neck	neck			1.4.2		0			479,3404
+45889	1444	Tagin	laŋku	laŋku	back	back			1.4.8		0			6417
+45890	1444	Tagin	eŋ◦kiŋ◦galo	eŋ◦kiŋ◦galo	backbone / spine	backbone / spine			1.4.8.2		0			m,209,233
+45891	1444	Tagin	gor◦biŋ	gor◦biŋ	shoulder	shoulder			1.4.3		0			6327,563
+45892	1444	Tagin	hakɯŋ	hakɯŋ	chest	chest			1.4.4.3		0			6342
+45893	1444	Tagin	a◦puk	a◦puk	heart	heart			1.7.1		0			p,164
+45894	1444	Tagin	ha◦puk	ha◦puk	heart	heart			1.7.1		0			6201,164
+45895	1444	Tagin	haru	haru	lung	lung			1.7.2		0			67
+45896	1444	Tagin	a◦cu	a◦cu	breast	breast			1.4.4.3		0			p,5539
+45897	1444	Tagin	lak◦po	lak◦po	arm	arm			1.5.1.2		0			695,1327
+45898	1444	Tagin	larko	larko	upper arm	upper arm			1.5.1.2.1		0			
+45899	1444	Tagin	lak◦bi	lak◦bi	lower arm	lower arm					0		W	695,m
+45900	1444	Tagin	lak◦nyik	lak◦nyik	wrist	wrist			1.5.8.1		0			695,682
+45901	1444	Tagin	lak	lak	hand	hand			1.5.1.1		0			695
+45902	1444	Tagin	lak◦cu	lak◦cu	palm	palm			1.5.5		0			695,776
+45903	1444	Tagin	lak◦ciŋ	lakciŋ	finger	finger			1.5.6		0			695,6689
+45904	1444	Tagin	lak-ne	lak-ne	thumb	thumb			1.5.6.1		0			695,1621
+45905	1444	Tagin	lak◦tum	lak◦tum	fist	fist			1.5.1.1.1		0			695,771
+45906	1444	Tagin	lak-|sin	lak-|sin	nail	nail			1.5.10		0			6691
+45907	1444	Tagin	kɯ◦po	kɯ◦po	belly	belly			1.4.7		0			2125,2111
+45908	1444	Tagin	lɤt	lɤt	stomach	stomach			1.7.6		0			m
+45909	1444	Tagin	sen	sen	liver	liver			1.7.3		0			1390
+45910	1444	Tagin	kɤ◦car	kɤ◦car	kidney	kidney			1.7.5		0			m,m
+45912	1444	Tagin	lɤ◦bit	lɤbit	right leg	right leg			1.5.3.2		0			350,5761
+45913	1444	Tagin	lɤbiŋ	lɤbiŋ	knee	knee			1.5.8.4		0			6437
+45914	1444	Tagin	lɤ◦cu	lɤcu	foot	foot			1.5.2		0			350,m
+45915	1444	Tagin	ɤdu	ɤdu	toe	toe			1.5.6		0			
+45916	1444	Tagin	oː◦i	oːi	blood	blood			1.6.2		0			p,230
+45917	1444	Tagin	a◦lo	a◦lo	skeleton	skeleton			1.6.3.1		0			p,238
+45918	1444	Tagin	a◦pɯn	a◦pɯn	skin	skin			1.6.5		0			p,591
+45919	1444	Tagin	au	au	vein	vein			1.6.2.1		0			530
+45920	1444	Tagin	ha◦cer◦ha◦yer	ha◦cer◦ha◦yer	sweat	sweat	n	n	1.8.1		0			m,4513,m,4513
+45921	1444	Tagin	si◦cum	si◦cum	urine	urine			1.8.4		0			650,1730
+45922	1444	Tagin	iː	iː	stool	stool			5.11.9.4		0			
+45923	1444	Tagin	ran	ran	soul	soul			1.10		0			
+45924	1444	Tagin	si-nam	si-nam	death	death			1.1.6		0		D1	27,s
+45925	1444	Tagin	bɤ-nam	bɤ-nam	vomit	vomit			1.8.3.2		0			1145,s
+45926	1444	Tagin	oi to◦nam	oi to◦nam	bleeding / cause bleeding	bleeding / cause bleeding			1.6.2		0			230,m,s
+45927	1444	Tagin	a◦pin	a◦pin	skin	skin			1.6.5		0			p,591
+45928	1444	Tagin	a◦pin	a◦pin	bark (of plant)	bark (of plant)			2.1.11.1		0			p,591
+45929	1444	Tagin	ampo	ampo	trunk	trunk			1.4.1		0			m
+45931	1444	Tagin	nik ciŋ	nik ciŋ	blind	blind			1.2.6.14.2		0			682,m
+45932	1444	Tagin	nik-ciŋ-ne nyi	nik-ciŋ-ne nyi	blind man	blind man			1.2.6.14.2		0			682,m,m,m
+45933	1444	Tagin	si-nɤ	si-nɤ	dead	dead			1.1.6		0			27,s
+45934	1444	Tagin	si-nɤ ŋi	si-nɤ ŋi	dead man	dead man			1.1.6		0			27,s,m
+45935	1444	Tagin	ruŋ◦ɟi	ruŋ◦ɟi	deaf	deaf			1.2.7.5		0			2070,m
+45936	1444	Tagin	ruŋ ɟinɤ nyimɤ	ruŋ ɟinɤ nyimɤ	deaf woman	deaf woman			1.2.7.5		0			2070,m,1618
+45937	1444	Tagin	gam◦kak	gam◦kak	dumb (=mute?)	dumb (=mute?)			8.5.4.4		0			6324,1789
+45938	1444	Tagin	gaŋ◦kak	gaŋ◦kak	dumb (=mute?)	dumb (=mute?)			8.5.4.4		0			6324,1789
+45939	1444	Tagin	ku◦gɤ◦nam	ku◦gɤ◦nam	pregnant	pregnant			1.9.6.1		0			m,6339,s
+45940	1444	Tagin	kai	kai	fat	fat			1.6.4		0			m
+45941	1444	Tagin	kano	kano	hungry	hungry			1.1.3		0			104
+45942	1444	Tagin	tiŋ-niŋ	tiŋ-niŋ	thirsty / drink water	thirsty / drink water	adj	adj	1.1.3.1		0			502,m
+45943	1444	Tagin	lɤ-ma	lɤ-ma	ill	ill			1.1.5.1		0			m,s
+45944	1444	Tagin	sak-nam	sak-nam	breathe	breathe			1.1.2.2		0			32,s
+45945	1444	Tagin	kaibɤ sak◦lak	kaibɤ sak◦lak	breathe deeply	breathe deeply			1.1.2.2		0			m,32,m
+45946	1444	Tagin	i◦sɯk sak-nam	i◦sɯk sak-nam	cough	cough	v	v	1.8.3.3		0			p,1794,1794,s
+45948	1444	Tagin	gɯk-nam	gɯk-nam	crawl	crawl			6.7.9		0		D1	
+45949	1444	Tagin	kab-nam	kab-nam	cry	cry			1.8.8.2		0			1103,s
+45950	1444	Tagin	no hugubɤ kab◦dne	no hugubɤ kab◦dne	Why do you cry?	Why do you cry?			10.5.3		0			2489,m,1103,m
+45951	1444	Tagin	si-nam	si-nam	die	die			1.1.6		0		D1	27,s
+45954	1444	Tagin	ya◦ma ma-nam	ya◦ma ma-nam	dream	dream			1.1.4.2		0			127,126,126,m
+45956	1444	Tagin	teŋ-nam	teŋ-nam	drink	drink					0			502,s
+45957	1444	Tagin	do-nam	do-nam	eat	eat			1.5.3.2		0			5363,s
+45958	1444	Tagin	tɤ-nam	tɤ-nam	hear	hear	v	v	1.2.7.4		0			1408,s
+45960	1444	Tagin	dik-nam	dik-nam	kick	kick	v	v	6.2.2.3.3		0			6706
+45961	1444	Tagin	mo◦pup-nam	mo◦pup-nam	kiss	kiss	v	v	1.3.2.2		0			3451,3450,s
+45962	1444	Tagin	a◦nɤɤ ku mo◦pup◦do	a◦nɤɤ ku mo◦pup◦do	Mother kisses the child	Mother kisses the child			4.7.1		0			p,1621,6388,m,3450,m
+45963	1444	Tagin	nyar-nam	nyar-nam	laugh	laugh	v	v	1.8.8.1		0			1142,s
+45964	1444	Tagin	no hugubɤ nyar-do-ne	no hugubɤ nyar-do-ne	Why do you laugh?	Why do you laugh?			10.5.3		0			2489,m,1142,m,m
+45965	1444	Tagin	pɯ◦pɯ pik◦nam	pɯ◦pɯ pik◦nam	lay (egg)	lay (egg)	v	v	6.17		0			m,1654,m,s
+45967	1444	Tagin	tɤ-nam	tɤ-nam	obey (hear)	obey (hear)	v	v	8.3.2.5.2		0			1408,s
+45969	1444	Tagin	ka-nam	ka-nam	see	see	v	v	1.2.6.10		0			6373,s
+45970	1444	Tagin	ka-bup-nam	ka-bup-nam	look below from a tree	look below from a tree	v	v	1.2.6.11		0			6373,m,s
+45971	1444	Tagin	ka-duŋ-nam	ka-duŋ-nam	look upwards	look upwards	v	v	1.2.6.11		0			6373,m,s
+45972	1444	Tagin	ka-buŋ-nam	ka-buŋ-nam	look inside a pot, glass etc.	look inside a pot, glass etc.	v	v	1.2.6.11		0			6373,m,s
+45974	1444	Tagin	ka-si-nam	ka-si-nam	look secretly	look secretly	v	v	1.2.6.11		0			6373,m,s
+45975	1444	Tagin	ka-riŋ-nam	ka-riŋ-nam	look similar / resemble	look similar / resemble	v	v	7.1.7.2		0			6373,m,s
+45976	1444	Tagin	ka-ɟik-nam	ka-ɟik-nam	choose / select (by seeing)	choose / select (by seeing)	v	v	6.10.4		0			
+45977	1444	Tagin	ka-nyu-ma-nam	ka-nyu-ma-nam	dislike	dislike	v	v	8.3.1.1.2		0			
+45978	1444	Tagin	ka-bui-nam	ka-bui-nam	examine	examine	v	v	6.2		0			6373,m,s
+45979	1444	Tagin	yup-nam	yup-nam	sleep	sleep	v	v	1.1.4.1		0			127,s
+45980	1444	Tagin	min-nam	min-nam	speak	speak	v	v	8.5.10.1		0			6699,s
+45981	1444	Tagin	min-si-nam	min-si-nam	whisper	whisper	v	v	8.5.4.2		0		D1	6699,m,s
+45982	1444	Tagin	ta◦cor-cor-nam	ta◦cor-cor-nam	spit	spit	v	v	1.8.3		0			p,6379,6379,s
+45984	1444	Tagin	min-nam	min-nam	talk	talk	v	v	8.5.10.1		0			6699,s
+45985	1444	Tagin	si◦sum si◦nam	si◦sum si◦nam	urinate	urinate	v	v	1.5.3.2		0			650,1730,650,s
+45986	1444	Tagin	bɤ-nam	bɤ-nam	vomit	vomit	v	v	1.8.3.2		0			1145,s
+45987	1444	Tagin	nam	nam	house	house			5.11.9.1		0			
+45988	1444	Tagin	epɯŋ	epɯŋ	room	room			5.11.9.2		0			
+45989	1444	Tagin	erɯŋ	erɯŋ	store	store			9.10.6		0			
+45990	1444	Tagin	nyopɤ	nyopɤ	floor	floor			5.11.9.3		0			
+45991	1444	Tagin	erɯp	erɯp	wall	wall			5.11.9.3		0			
+45992	1444	Tagin	namiŋ	namiŋ	roof	roof			5.11.9		0			
+45993	1444	Tagin	karɯp	karɯp	ceiling	ceiling			5.11.9.3.1		0			
+45994	1444	Tagin	oduŋ	oduŋ	passage (of house)	passage (of house)			6.7.10		0			
+45995	1444	Tagin	toŋre	toŋre	verandah	verandah					0			
+45996	1444	Tagin	tomre	tomre	verandah	verandah					0			
+45997	1444	Tagin	epɯn	epɯn	latrine	latrine			5.11.9.2		0			
+45998	1444	Tagin	hagya	hagya	latrine	latrine			5.11.9.2		0			
+45999	1444	Tagin	gum◦pa	gum◦pa	pigsty	pigsty			5.11.9.5		0			
+46000	1444	Tagin	agɤ	agɤ	door	door			5.11.9.3		0			
+46001	1444	Tagin	agɯ	agɯ	door	door			5.11.9.3		0			
+46002	1444	Tagin	mi◦riŋ	mi◦riŋ	hearth	hearth			5.11.9.3.1		0			2136,2599?
+46003	1444	Tagin	m◦riŋ	m◦riŋ	hearth	hearth			5.11.9.3.1		0			2136,2599?
+46004	1444	Tagin	kecin	kecin	over the hearth (upper)	over the hearth (upper)			9.2.1		0			
+46005	1444	Tagin	kera	kera	over the hearth (lower)	over the hearth (lower)			9.2.1		0			
+46006	1444	Tagin	cuŋɟuŋ	cuŋɟuŋ	tray	tray			5.11		0			
+46007	1444	Tagin	lɤpa giŋ-lo	lɤpa giŋ-lo	post (central)	post (central)			5.11		0			
+46008	1444	Tagin	toŋo giŋ-lo	toŋo giŋ-lo	post (main)	post (main)			5.11		0			
+46009	1444	Tagin	tombu giŋ-lo	tombu giŋ-lo	post	post			5.11		0			
+46010	1444	Tagin	toko giŋ-lo	toko giŋ-lo	post (third)	post (third)			5.11		0			
+46011	1444	Tagin	pɯ◦cɯŋ	pɯcɯŋ	cooking pot	cooking pot			5.5		0			7617,6541
+46012	1444	Tagin	ciŋ-kɤ	ciŋ-kɤ	frying pan	frying pan			5.5		0			
+46013	1444	Tagin	kompuk	kompuk	plate	plate			5.5		0			
+46014	1444	Tagin	pɯrɤ pɤtak	pɯrɤ pɤtak	cup	cup			5.1		0			
+46015	1444	Tagin	si◦lɤk	si◦lɤk	bamboo (for carrying water)	bamboo (for carrying water)			3.1.1		0			189,m
+46016	1444	Tagin	opum	opum	for bear (pumpkin)	for bear (pumpkin)			10.1		0			
+46017	1444	Tagin	punyu	punyu	spoon (bamboo)	spoon (bamboo)	n	n	5.5		0			
+46018	1444	Tagin	toŋduŋ	toŋduŋ	pipe for smoking	pipe for smoking			5.8		0			
+46019	1444	Tagin	lecoŋ	lecoŋ	stone for grinding	stone for grinding			3.2.9		0			
+46020	1444	Tagin	raru	raru	basket for carrying fuel	basket for carrying fuel			5.1		0			
+46021	1444	Tagin	egin	egin	basket for carrying paddy	basket for carrying paddy			5.1		0			
+46022	1444	Tagin	pɯ	pɯ	basket for carrying paddy	basket for carrying paddy			5.1		0			
+46023	1444	Tagin	po◦rok pɯttor	po◦rok pɯttor	basket for keeping hen	basket for keeping hen			5.1		0			m,1606,m
+46030	1444	Tagin	ciŋnyi	ciŋnyi	pestle for pounding rice	pestle for pounding rice			5.5		0			
+46031	1444	Tagin	ciŋ◦parr	ciŋ◦parr	mortar	mortar			5.5		0			m,6504
+46032	1444	Tagin	a◦biŋ◦a◦pa	a◦biŋ◦a◦pa	tiger	tiger			2.1.3		0			p,m,p,m
+46033	1444	Tagin	sinya	sinya	leopard	leopard			2.1.3		0			
+46034	1444	Tagin	si◦tom	si◦tom	bear	bear	n	n	2.2.3		0			m,2777
+46035	1444	Tagin	sɤ◦dom	sɤ◦dom	deer	deer			2.2.2		0			m,6293
+46036	1444	Tagin	sɤ◦dum	sɤ◦dum	deer	deer			2.2.2		0			m,6293
+46037	1444	Tagin	sɯtɤ	sɯtɤ	elephant	elephant			2.2.1		0			
+46038	1444	Tagin	sɯ◦bi	sɯ◦bi	monkey	monkey			2.1.9		0			m,2782
+46039	1444	Tagin	ŋu◦i	ŋui	fish	fish			2.2.5		0			1455,m
+46040	1444	Tagin	ta◦kɤ	ta◦kɤ	squirrel (big)	squirrel (big)			2.1.1		0			p,6407
+46041	1444	Tagin	kobuŋ	kobuŋ	rat (cannot gallop)	rat (cannot gallop)			2.1.1		0			6411
+46042	1444	Tagin	kola	kola	rat (variety)	rat (variety)			2.1.1		0			
+46043	1444	Tagin	kuti	kuti	rat (variety)	rat (variety)			2.1.1		0			
+46046	1444	Tagin	boŋkɤ	boŋkɤ	rat (residing in house)	rat (residing in house)			2.1.1		0			6411
+46047	1444	Tagin	ta◦tɤk	ta◦tɤk	frog	frog			2.1.6.2		0			p,645
+46048	1444	Tagin	doɟiŋ bru	doɟiŋ bru	crocodile	crocodile			2.1.6		0			
+46049	1444	Tagin	ta◦bu	ta◦bu	snake	snake			2.1.6.1		0			p,2178
+46050	1444	Tagin	i◦kɯ	i◦kɯ	dog	dog			2.1.11		0			p,1764
+46051	1444	Tagin	ami◦kuri	ami◦kuri	cat	cat			2.1.3		0			
+46052	1444	Tagin	a◦rɯk	a◦rɯk	pig	pig			2.1.12		0			p,6019
+46053	1444	Tagin	se	se	cow	cow			2.1.2		0			
+46054	1444	Tagin	kubuŋ	kubuŋ	rat	rat			2.1.1		0			6411
+46055	1444	Tagin	kobuŋ	kobuŋ	rat	rat			2.1.1		0			6411
+46056	1444	Tagin	po◦ak	po◦ak	crow	crow			2.2.4.1		0			m,6695
+46057	1444	Tagin	ta◦pɤn	ta◦pɤn	bat	bat			2.2.4.1		0			p,6524
+46058	1444	Tagin	ta◦sep	ta◦sep	nest	nest			2.2.4		0			p,1613
+46059	1444	Tagin	ta◦roŋ	ta◦roŋ	mosquito	mosquito			2.2.6		0			p,6583
+46060	1444	Tagin	ta◦ŋit	taŋit	mosquito	mosquito			2.2.6		0			
+46061	1444	Tagin	ta◦riŋ	ta◦riŋ	fly	fly	n	n	2.2.6		0			p,6359
+46062	1444	Tagin	ta◦ŋu	ta◦ŋu	bee	bee			2.2.6		0			p,6649
+46063	1444	Tagin	ta◦ŋu gola	ta◦ŋu gola	honey	honey			2.2.6		0			p,6649,m
+46064	1444	Tagin	arɯp	arɯp	wax	wax			2.2.6		0			
+46065	1444	Tagin	ŋu-rip	ŋu-rip	wax	wax			2.2.6		0			6649,m
+46066	1444	Tagin	papalala	papalala	butterfly	butterfly			2.2.6		0			
+46067	1444	Tagin	ta◦pum ta◦rap	ta◦pum ta◦rap	ant	ant			2.2.6		0			p,6537,p,6580
+46068	1444	Tagin	tabɤ	tabɤ	bug	bug			2.2.6		0			
+46069	1444	Tagin	amcik	amcik	paddy	paddy			9.10.5		0			
+46070	1444	Tagin	ambin	ambin	rice	rice			3.1.4		0			6243
+46071	1444	Tagin	a◦cin	acin	rice, boiled	rice, boiled			3.1.4		0			p,6245
+46072	1444	Tagin	rade	rade	maize	maize			3.1.5		0			
+46073	1444	Tagin	eteŋ	eteŋ	cake	cake			5.5		0			
+46074	1444	Tagin	uː	uː	vegetable	vegetable			3.1.2		0			6662
+46075	1444	Tagin	goiŋ	goiŋ	laisag	laisag					0			
+46076	1444	Tagin	mɤ◦kuŋ	mɤ◦kuŋ	cucumber	cucumber			3.1.5		0			m,6412
+46077	1444	Tagin	bɤyam	bɤyam	brinjal (=eggplant)	brinjal (=eggplant)			3.1.5		0			6264
+46078	1444	Tagin	ɟalok	ɟalok	chilli	chilli			3.1.5		0			
+46079	1444	Tagin	eli	eli	potato	potato			3.1.5		0			
+46080	1444	Tagin	kore	kore	sweet potato	sweet potato			7.1.4.4		0			
+46081	1444	Tagin	eŋi	eŋi	arum	arum			3.1.8		0			
+46082	1444	Tagin	ta◦lop	ta◦lop	onion	onion			3.1.5		0			p,6419
+46083	1444	Tagin	a◦pɯ	apɯ	fruit	fruit			3.1.5		0			p,1654
+46084	1444	Tagin	kopak	kopak	banana	banana			3.1.5		0			6381
+46085	1444	Tagin	tagoŋ	tagoŋ	mango	mango					0			
+46086	1444	Tagin	sini	sini	sugar	sugar			3.1.6.2		0			b
+46087	1444	Tagin	ŋu◦i	ŋui	fish	fish	n	n	2.2.5		0			1455,m
+46088	1444	Tagin	o◦po	o◦po	spirit (liquor)	spirit (liquor)	n	n	5.8.1.1		0			m,6526
+46089	1444	Tagin	ca	ca	tea	tea			3.1.1		0			
+46090	1444	Tagin	du            [tonal]	du            [tonal]	tobacco	tobacco			3.1.6.2		0			
+46091	1444	Tagin	ta◦kɯ	ta◦kɯ	ginger	ginger			3.1.5		0			p,6394
+46092	1444	Tagin	ci◦pu	cipu	sweet	sweet			7.1.4.4		0		D1	2721,m
+46093	1444	Tagin	kɤ◦cak	kɤ◦cak	bitter	bitter			7.1.4.4		0		D1	229,m
+46094	1444	Tagin	a◦gu	a◦gu	hot	hot					0		D1	p,6335
+46095	1444	Tagin	koŋ◦suk	koŋ◦suk	sour	sour			7.1.4.4		0			6406,m
+46096	1444	Tagin	nyi	nyi	man	man			1.9.6.1		0			m
+46097	1444	Tagin	yapa	yapa	young man	young man			7.1.8.3		0			
+46098	1444	Tagin	omɤ nyɟirr	omɤ nyɟirr	young woman	young woman			7.1.8.3		0			
+46099	1444	Tagin	niyɟirr	niyɟirr	young woman	young woman			7.1.8.3		0			
+46100	1444	Tagin	nikam	nikam	old man	old man			7.1.8.3		0			
+46101	1444	Tagin	hɤŋu	hɤŋu	old womam	old womam			7.1.8.3		0			
+46102	1444	Tagin	nyime kamnɤ	nyime kamnɤ	bachelor	bachelor			4.2.8		0			1618,m
+46103	1444	Tagin	nyimɤ do-ne	nyimɤ do-ne	married	married			6.19		0			1618,m,m
+46104	1444	Tagin	heŋmɯ	heŋmɯ	widow	widow			4.2.8		0			
+46105	1444	Tagin	al◦ɤ◦nɤ	alɤnɤ	healthy	healthy			9.6.1.2		0			
+46106	1444	Tagin	nyieŋku	nyieŋku	family	family			4.7.5		0			
+46107	1444	Tagin	opi	opi	clan	clan			4.4.2		0			
+46108	1444	Tagin	nampom	nampom	village	village			5.8		0		D1	
+46109	1444	Tagin	nampom kaine	nampom kaine	village chief	village chief			5.8		0			
+46110	1444	Tagin	nyi◦lo	nyi◦lo	male	male			1.9.6.1		0			m,1624
+46111	1444	Tagin	nyi◦mɤ	nyi◦mɤ	female	female			1.9.3		0			m,1620
+46112	1444	Tagin	nyilu	nyilu	husband	husband			4.7.4		0		z	6455
+46113	1444	Tagin	nyiŋ	nyiŋ	wife	wife			4.7.4		0			
+46114	1444	Tagin	ku nyilo	ku nyilo	son	son			4.7.3		0			
+46115	1444	Tagin	ku nyime	ku nyime	daughter	daughter			4.7.3		0			m,1618
+46116	1444	Tagin	a◦bu	abu	father	father			4.7.1		0			p,6261
+46117	1444	Tagin	a◦nɤ	a◦nɤ	mother	mother			4.7.1		0			p,1621
+46118	1444	Tagin	a◦biŋ buru	a◦biŋ buru	brother	brother			1.5.3.2		0			p,6277,m
+46119	1444	Tagin	buru	buru	younger brother	younger brother					0			
+46120	1444	Tagin	a◦nyi burme	anyi burme	sister	sister			4.7.2		0			p,6450,6274
+46121	1444	Tagin	a◦kɯ	a◦kɯ	uncle	uncle			4.7.1		0			p,2362
+46122	1444	Tagin	a◦pa	a◦pa	paternal uncle	paternal uncle			4.7.1		0			p,2183
+46123	1444	Tagin	a◦kɯ	a◦kɯ	maternal uncle	maternal uncle			4.7.1		0			p,2362
+46124	1444	Tagin	nyiaŋ	nyiaŋ	aunt	aunt			4.7.1		0			
+46125	1444	Tagin	a◦nyi	anyi	father's sister	father's sister			4.7.1		0			p,6450
+46126	1444	Tagin	amu	amu	mother's sister	mother's sister			4.7.1		0			
+46127	1444	Tagin	mei	mei	mother's sister	mother's sister			4.7.1		0			
+46128	1444	Tagin	ayu	ayu	mother's brother's wife	mother's brother's wife			1.5.3.2		0			
+46129	1444	Tagin	a◦tu	atu	grandfather	grandfather			4.7.1		0			p,6619
+46130	1444	Tagin	a◦tu	atu	paternal grandfather	paternal grandfather			4.7.1		0			p,6619
+46131	1444	Tagin	a◦tu	atu	maternal grandfather	maternal grandfather			4.7.1		0			p,6619
+46132	1444	Tagin	a◦yu	a◦yu	grandmother	grandmother			4.7.1		0			p,6134
+46133	1444	Tagin	a◦yu	a◦yu	paternal grandmother	paternal grandmother			4.7.1		0			p,6134
+46134	1444	Tagin	a◦yu	a◦yu	maternal grandmother	maternal grandmother			4.7.1		0			p,6134
+46135	1444	Tagin	ku nyilo	ku nyilo	grandson / son's son	grandson / son's son			4.7.3		0			
+46136	1444	Tagin	ku nyimɤ	ku nyimɤ	grandson / daughter's son	grandson / daughter's son			4.7.3		0			m,1618
+46137	1444	Tagin	doŋ◦nɤ ku	doŋ◦nɤ ku	nephew / sister's son	nephew / sister's son			4.7.3		0			m,1621,m
+46138	1444	Tagin	b[u]ru	b[u]ru	nephew / brother's son	nephew / brother's son			4.7.3		0			
+46139	1444	Tagin	burme	burme	niece / brother's daughter	niece / brother's daughter			4.7.3		0			
+46140	1444	Tagin	doŋ◦ne ku◦nyime	doŋ◦ne ku◦nyime	niece / sister's daughter	niece / sister's daughter			4.7.3		0			m,1621,m,1618
+46141	1444	Tagin	a◦tu	a◦tu	father-in-law	father-in-law			4.7.4		0			p,6619
+46142	1444	Tagin	ayu	ayu	mother-in-law	mother-in-law			4.7.4		0			
+46143	1444	Tagin	riu	riu	wife's brother	wife's brother			1.5.3.2		0			
+46144	1444	Tagin	riŋme	riŋme	wife's sister	wife's sister			4.7.4		0			
+46145	1444	Tagin	abuapa	abuapa	ancestor	ancestor					0			
+46146	1444	Tagin	hopin	hopin	orphan	orphan			4.3		0			6643
+46147	1444	Tagin	galɤ	galɤ	woman's undergarment	woman's undergarment			1.9.3		0			m
+46148	1444	Tagin	sabɯ	sabɯ	man's strip of cloth	man's strip of cloth			1.9.6.1		0			
+46149	1444	Tagin	tamin	tamin	necklace of bead for woman	necklace of bead for woman			5.11.8.3		0			
+46150	1444	Tagin	taseŋ	taseŋ	necklace of bead for man	necklace of bead for man			5.11.8.3		0			m
+46151	1444	Tagin	botuŋ	botuŋ	hat of cane of male	hat of cane of male			10.1.1		0			
+46152	1444	Tagin	oriok boga	oriok boga	cross belt	cross belt			6.7.10		0			
+46153	1444	Tagin	bogi	bogi	dao cover	dao cover			5.8		0			
+46154	1444	Tagin	nyo◦duŋ	nyo◦duŋ	tiger teeth on the cross belt	tiger teeth on the cross belt			2.1.3		0			2618,m
+46156	1444	Tagin	kopuŋ	kopuŋ	bangle of silver	bangle of silver			5.11.8.3		0			
+46159	1444	Tagin	ɟɤkuk	ɟɤkuk	coat for male	coat for male			5.11.8.2.1.2		0			
+46160	1444	Tagin	oːk	oːk	cane girdle worn by female	cane girdle worn by female			5.11.8.2.2		0			
+46161	1444	Tagin	mɤnam rɯ-nam	mɤnam rɯ-nam	work (general)	work (general)			6.1.1		0			
+46162	1444	Tagin	reŋu	reŋu	agriculture	agriculture			3.1.9		0			
+46163	1444	Tagin	roŋo	roŋo	agriculture	agriculture			3.1.9		0			
+46164	1444	Tagin	nɯkoɟariŋ	nɯkoɟariŋ	field	field			3.2.5		0			
+46165	1444	Tagin	reŋu	reŋu	cultivation	cultivation			3.1.10		0			
+46166	1444	Tagin	reŋo ɟhum	reŋo ɟhum	cultivation (jhum)	cultivation (jhum)			3.1.10		0			
+46167	1444	Tagin	lɤ-nam	lɤ-nam	planting	planting			3.1.10		0			
+46168	1444	Tagin	am nɤ-nam	am nɤ-nam	reaping (paddy)	reaping (paddy)			3.1.10		0			
+46169	1444	Tagin	i◦si ɟi-nam	i◦si ɟi-nam	irrigation / give water	irrigation / give water			6.6		0			p,189,2158,s
+46170	1444	Tagin	yagaŋ	yagaŋ	axe	axe			5.11.5.3		0			
+46171	1444	Tagin	lodap	lodap	dibble (bamboo)	dibble (bamboo)			5.3		0			
+46172	1444	Tagin	nɤsum	nɤsum	granary	granary			5.11.9.5		0			
+46173	1444	Tagin	roŋo monɤ	roŋo monɤ	cultivator	cultivator			3.1.10		0			
+46174	1444	Tagin	eki para monɤ	eki para monɤ	cane work	cane work			5.11.8.2.2		0			
+46175	1444	Tagin	eɟɯ cum nam	eɟɯ cum nam	weaving	weaving			5.1		0			m,6282,s
+46176	1444	Tagin	tanu	tanu	yarn	yarn			5.1		0			
+46177	1444	Tagin	tanu	tanu	thread	thread	n	n	5.11.6		0			
+46178	1444	Tagin	tanu	tanu	spinning	spinning			6.7.6		0			
+46179	1444	Tagin	eɟɯ leŋnam	eɟɯ leŋnam	dyeing	dyeing			5.1		0			
+46180	1444	Tagin	ya◦puŋ ya◦luŋ	ya◦puŋ ya◦luŋ	design (white and red [yellow?])	design (white and red [yellow?])			9.4		0			m,6097,m,m
+46181	1444	Tagin	ŋui so-nam	ŋui so-nam	fishing	fishing			2.2.5		0			1455,m,s
+46182	1444	Tagin	gak so-nam	gak so-nam	net	net			5.11.5.4		0			6316,m,s
+46183	1444	Tagin	ɤder	ɤder	trap	trap			5.14		0			
+46184	1444	Tagin	sipɯ	sipɯ	boat	boat			5.1		0			6598
+46185	1444	Tagin	mo◦tum eŋ-nam	mo◦tum eŋ-nam	hunting / go forest	hunting / go forest			6.2.2.1		0			6470,m,6347?,s
+46186	1444	Tagin	mo◦tum eŋne nyi	mo◦tum eŋne nyi	hunter	hunter			6.2.2.1		0			6470,m,m,m
+46187	1444	Tagin	lama nyibu	lama nyibu	magic	magic			5.8.3.2		0			
+46188	1444	Tagin	bɯmin pak-nam	bɯmin pak-nam	song	song			5.1		0			
+46189	1444	Tagin	o◦rok nyi	o◦rok nyi	smith / dao man	smith / dao man			4.2.1.4		0			p,6570,m
+46190	1444	Tagin	o◦ryiok nyi	o◦ryiok nyi	smith / dao man	smith / dao man			4.2.1.4		0			p,6570,m
+46191	1444	Tagin	pota	pota	paper	paper			5.1		0			b
+46192	1444	Tagin	pak◦bu	pakbu	servant	servant			4.2.10		0			
+46193	1444	Tagin	egɤ gɤnɤ nyi	egɤ gɤnɤ nyi	porter	porter			4.2.1		0			
+46195	1444	Tagin	a◦ri	ari	village boundary	village boundary			5.8		0			p,2616
+46196	1444	Tagin	kaya cuk-ne	kaya cuk-ne	village chief	village chief			5.8		0			
+46197	1444	Tagin	nampom nyi	nampom nyi	villager	villager			4.4.2		0			
+46198	1444	Tagin	yaluŋ	yaluŋ	case (legal?)	case  (legal?)			5.11		0	jbl3		
+46199	1444	Tagin	lɤ-nam	lɤ-nam	arrest	arrest			6.19		0			
+46200	1444	Tagin	dɤ◦co	dɤ◦co	thief	thief			4.2.12.1		0			m,6520
+46201	1444	Tagin	ɟarimana	ɟarimana	fine / borrowed	fine /  borrowed			9.7.2		0	jbl3		
+46202	1444	Tagin	al◦ɤ◦ma◦bɤ ri-nam	alɤmabɤ ri-nam	crime / bad work	crime / bad work			6.4		0			3543,m,m,m,m,s
+46203	1444	Tagin	haryu-nam	haryu-nam	divorce by a female	divorce by a female			5.8		0			
+46204	1444	Tagin	nyime taː◦nam	nyime taː◦nam	divorce by a male	divorce by a male			5.8		0			1618,m,s
+46205	1444	Tagin	papum◦gɤ◦ne	papum◦gɤ◦ne	bride	bride			4.2.8		0			m,m,1621
+46206	1444	Tagin	nyime yamɤ	nyime yamɤ	bridegroom	bridegroom			4.2.8		0			1618,m
+46207	1444	Tagin	laktɤ	laktɤ	dowry	dowry			5.9		0			
+46208	1444	Tagin	nyi◦buŋ	nyi◦buŋ	grave	grave			9.10.6		0			m,6267
+46209	1444	Tagin	pok-ɟok-nam	pok-ɟok-nam	dance	dance	v?	v?	6.7.9		0			6707,m,s
+46210	1444	Tagin	pok-mi-nam	pok-mi-nam	dance	dance	v?	v?	6.7.9		0			6707,m,m
+46211	1444	Tagin	wi bi-nam	wi bi-nam	incantation	incantation			5.8		0			
+46212	1444	Tagin	miŋɟiŋ-nam	miŋɟiŋ-nam	faith	faith			8.3.1.15		0			
+46213	1444	Tagin	u◦yu	u◦yu	ghost	ghost			4.2.12.2		0			p,6366
+46214	1444	Tagin	lɤ-ma	lɤ-ma	disease	disease			1.1.5.1		0			m,s
+46215	1444	Tagin	a◦ci	aci	fever	fever			1.1.5.1		0			p,1847
+46216	1444	Tagin	tami ram-nam	tami ram-nam	malaria	malaria			5.3		0			
+46217	1444	Tagin	alɯ lɯ-nam	alɯ lɯ-nam	cold / catch by cold	cold / catch by cold			7.1.2.3		0			
+46218	1444	Tagin	eciŋ	eciŋ	dysentery	dysentery			1.7.7		0			
+46219	1444	Tagin	elɯpɯnam	elɯpɯnam	boil (i.e. pustule)	boil (i.e. pustule)	n	n	6.6		0			
+46220	1444	Tagin	u◦ŋe	u◦ŋe	wound	wound			1.8.6.2		0			6637,m
+46221	1444	Tagin	min	min	medicine	medicine			5.4		0			5434
+46222	1444	Tagin	moyo	moyo	mixture	mixture			6.13.4		0			
+46223	1444	Tagin	oi-lɯ-nam	oi-lɯ-nam	fall drop by drop (of bleeding?)	fall drop by drop (of bleeding?)			6.16		0			
+46224	1444	Tagin	mo◦di	mo◦di	hill	hill			3.2.5		0			6470,6222
+46225	1444	Tagin	leŋ◦pɯk	leŋ◦pɯk	cave	cave			3.2.7		0			1269,164
+46226	1444	Tagin	ɟoriŋ	ɟoriŋ	valley	valley			3.2.5		0			
+46227	1444	Tagin	modi dumpo	modi dumpo	cliff	cliff			3.2.5		0			
+46228	1444	Tagin	iba	iba	slope	slope			3.2.5		0			
+46229	1444	Tagin	mo◦riŋ	mo◦riŋ	plains	plains			9.10.5		0			6470,m
+46230	1444	Tagin	i◦sɯ sikiyo (siko)	isɯ sikiyo (siko)	river (stream)	river (stream)			3.2.3		0			p,189,m
+46231	1444	Tagin	deŋdo	deŋdo	waterfall	waterfall			3.2.3		0			
+46232	1444	Tagin	badorr	badorr	current	current					0			
+46233	1444	Tagin	sɯ-lɤ	sɯ-lɤ	lake (tank)	lake (tank)			3.2.5		0			189,m
+46234	1444	Tagin	ni◦do	nido	rain	rain			3.2.1		0			2473,3570
+46235	1444	Tagin	ŋarco	ŋarco	dew	dew					0			3565
+46236	1444	Tagin	ta◦pom	ta◦pom	ice	ice			3.2.3		0			p,6505
+46237	1444	Tagin	ta◦pum	ta◦pum	ice	ice			3.2.3		0			p,6505
+46238	1444	Tagin	i◦sɯ tɤ-nam	i◦sɯ tɤ-nam	flood	flood			3.2.3		0			p,189,m,s
+46239	1444	Tagin	amuk	amuk	vapor	vapor			3.2.3		0			
+46240	1444	Tagin	liŋ◦cak	liŋ◦cak	gravel	gravel			3.2.9		0			1269,m
+46241	1444	Tagin	cokri	cokri	sand	sand			3.2.11		0			
+46242	1444	Tagin	kɤ-di	kɤ-di	clay	clay			3.2.11		0			
+46243	1444	Tagin	nido kolo	nido kolo	sky	sky			3.2.2		0			
+46244	1444	Tagin	nyido kolo	nyido kolo	sky	sky			3.2.2		0			
+46245	1444	Tagin	apam	apam	cloud	cloud			3.2.1		0			
+46246	1444	Tagin	hapom	hapom	cloud	cloud			3.2.1		0			
+46247	1444	Tagin	hugritago	hugritago	rainbow	rainbow			3.2.1		0			
+46248	1444	Tagin	dor◦yiak	dor◦yiak	lightning	lightning			3.2.1		0			
+46249	1444	Tagin	do◦gum	do◦gum	thunder	thunder			3.2.1		0			3570,6141
+46250	1444	Tagin	do◦nyi	do◦nyi	sun	sun			3.2.10		0			3570,85
+46251	1444	Tagin	do◦ni	do◦ni	sun	sun			3.2.10		0			3570,85
+46252	1444	Tagin	oŋkanam	oŋkanam	light	light			7.1.11.1		0			
+46253	1444	Tagin	sɯkirr	sɯkirr	cold	cold	n	n	7.1.2.3		0			
+46254	1444	Tagin	polu	polu	moon	moon			3.2.2		0			1016
+46255	1444	Tagin	yar◦bɯŋ polu	yar◦bɯŋ polu	full moon	full moon			1.1.3.2		0			m,111,1016
+46256	1444	Tagin	karlɯŋ-nɤ polu	karlɯŋ-nɤ polu	half moon	half moon			9.8		0			m,m,1016
+46257	1444	Tagin	kanɤ	kanɤ	dark	dark			9.4		0		D1	
+46258	1444	Tagin	ta◦karr	ta◦karr	star	star			3.2.2		0			p,2300
+46259	1444	Tagin	a◦ru	a◦ru	morning	morning			9.1.4		0			p,144
+46260	1444	Tagin	a◦rem	a◦rem	evening	evening			9.1.4		0			p,6572
+46261	1444	Tagin	a◦rim	a◦rim	evening	evening			9.1.4		0			p,6572
+46262	1444	Tagin	a◦lu	a◦lu	day	day			1.5.3.2		0			p,6432
+46263	1444	Tagin	a◦yu	a◦yu	night	night			9.1.4		0			p,2784
+46264	1444	Tagin	alu lɤpa	alu lɤpa	midday	midday			9.1.4		0			
+46265	1444	Tagin	do◦nyi tabɤ	donyi tabɤ	afternoon	afternoon			9.1.4		0			3570,85,m,m
+46266	1444	Tagin	a◦ro kom◦ci	a◦ro kom◦ci	dawn	dawn			9.1.4		0			p,144,6228
+46267	1444	Tagin	polu	polu	month	month			9.1.2		0			1016
+46268	1444	Tagin	a◦niŋ	a◦niŋ	year	year			9.1.2		0			p,2501
+46269	1444	Tagin	ɟidi	ɟidi	from August toJanuary	from August toJanuary	v.	v.	10.1.1		0			
+46270	1444	Tagin	modi	modi	from February to July	from February to July	v.	v.	10.1.1		0			
+46271	1444	Tagin	di◦ro	di◦ro	air	air			1.1.2.2		0			m,2412
+46272	1444	Tagin	di◦ro	di◦ro	wind	wind			3.2.1		0			e?
+46273	1444	Tagin	di◦ro do◦gum	di◦ro do◦gum	storm	storm			3.2.1		0			m,2412,3570,6141
+46274	1444	Tagin	korlɯŋ	korlɯŋ	thunderstorm	thunderstorm			3.2.1		0			
+46275	1444	Tagin	si◦du	si◦du	sound	sound			9.3		0			m,6295
+46276	1444	Tagin	e◦mɤ	e◦mɤ	fire	fire			3.2.12.2		0			p,2136
+46277	1444	Tagin	mɯkɯ	mɯkɯ	smoke	smoke			3.2.12.2		0			2361
+46278	1444	Tagin	mɤ◦cu tayu	mɤ◦cu tayu	ash	ash			3.2.12.2		0			2136,m,m
+46279	1444	Tagin	mɤ◦ri	mɤ◦ri	coal	coal			3.2.4		0			2136,m
+46280	1444	Tagin	mri	mri	coal	coal			3.2.4		0			
+46281	1444	Tagin	e◦siŋ	e◦siŋ	fuel	fuel			3.2.4		0			p,2658
+46282	1444	Tagin	e◦mɤ par-nam	e◦mɤ par-nam	flame	flame			3.2.12.2		0			p,2136,2152,s
+46283	1444	Tagin	seŋ◦nɤ	seŋ◦nɤ	tree	tree			3.1.2		0			2658,m
+46284	1444	Tagin	seŋum	seŋum	creeper	creeper			3.1.7		0			
+46285	1444	Tagin	nesiŋ nɤmiŋ	nesiŋ nɤmiŋ	bush	bush			3.1.1		0			
+46286	1444	Tagin	aɟiŋ	aɟiŋ	plant	plant			3.1.10		0			
+46287	1444	Tagin	aːk	aːk	branch	branch			1.5.3.1		0			1278
+46288	1444	Tagin	ada	ada	twig	twig			3.1.2		0			
+46289	1444	Tagin	a◦nɤ	a◦nɤ	leaf	leaf			3.1.3		0			p,402
+46290	1444	Tagin	hampo	hampo	stem	stem			3.1.2		0			
+46291	1444	Tagin	a◦puŋ	a◦puŋ	flower	flower			3.1.4		0			p,6538
+46292	1444	Tagin	nam◦pu◦nɤ	nam◦punɤ	fragrance	fragrance			3.1.2		0			1415,2572,m
+46293	1444	Tagin	ti	ti	honey	honey			2.2.6		0			
+46294	1444	Tagin	ta◦ŋu ti	ta◦ŋu ti	honey	honey			2.2.6		0			p,6649,m
+46295	1444	Tagin	ŋi-nɤ	ŋi-nɤ	ripe	ripe			3.1.10		0			2449,m
+46296	1444	Tagin	ɤ◦liŋ	ɤ◦liŋ	stone	stone			3.2.9		0			m,1269
+46297	1444	Tagin	myami	myami	root	root			3.1.2		0			
+46298	1444	Tagin	nesiŋ nemiŋ	nesiŋ nemiŋ	grass	grass			3.1.8		0			
+46299	1444	Tagin	eːloŋ	eːloŋ	bamboo	bamboo			3.1.1		0			
+46300	1444	Tagin	o◦so	o◦so	cane	cane			5.11.8.2.2		0			p,6599
+46301	1444	Tagin	mo◦tum	mo◦tum	jungle	jungle			3.2.5		0			6470,m
+46302	1444	Tagin	nayam	nayam	garden	garden			9.10.4		0			
+46303	1444	Tagin	e◦siŋ	e◦siŋ	timber	timber			3.1.6.4		0			p,2658
+46304	1444	Tagin	a◦nyi a◦yin	a◦nyi a◦yin	gold	gold			3.2.4		0			p,m,p,6651
+46305	1444	Tagin	anyi	anyi	silver	silver			3.2.4		0			
+46306	1444	Tagin	tapin	tapin	rust	rust			3.2.4		0			
+46307	1444	Tagin	do◦ko	do◦ko	west	west			9.2.8		0			3570
+46308	1444	Tagin	do◦dam	do◦dam	east	east			9.2.8		0			3570
+46309	1444	Tagin	ri-la-re	ri-la-re	able / do-can	able / do-can			1.1.2.4		0			6573,m,m
+46310	1444	Tagin	a-ma-nam	a-ma-nam	absent / come-not	absent / come-not			8.1		0			6211,m,s
+46311	1444	Tagin	busu-nam	busu-nam	afraid	afraid			7.1.1		0			
+46312	1444	Tagin	mɯniŋ kɤnɯŋ	mɯniŋ kɤnɯŋ	ancient	ancient			9.1.5		0			
+46313	1444	Tagin	ha◦si-nam	hasi-nam	angry / angry	angry / angry	v.i.	v.i.	8.3.1.6.1		0			6201,m,s
+46314	1444	Tagin	ha◦ci◦nam	hacinam	angry / angry	angry / angry	v.i.	v.i.	8.3.1.6.1		0			6201,m,s
+46315	1444	Tagin	hiniŋ-nam	hiniŋ-nam	ashamed	ashamed			8.3.3.8.2		0			6341,s
+46317	1444	Tagin	al◦ɤ-ma	alɤ-ma	bad / not good	bad / not good			9.6.2.1		0			3543,m,6449
+46318	1444	Tagin	dom◦bin	dom◦bin	bald	bald			1.2.3.4		0			1425,m
+46319	1444	Tagin	kapu	kapu	beautiful	beautiful			7.1.3		0			6154
+46320	1444	Tagin	kapu-rɤ moku	kapu-rɤ moku	beautiful place	beautiful place			7.1.3		0			6154
+46321	1444	Tagin	kai	kai	big	big			9.7.2		0			
+46322	1444	Tagin	kai-nɤ sibu	kai-nɤ sibu	mithun, big	mithun, big			2.1.2		0			
+46323	1444	Tagin	kainɤ nyi	kainɤ nyi	great man	great man			9.6.1		0			
+46325	1444	Tagin	ya◦kɤ	ya◦kɤ	black	black			9.4		0			
+46326	1444	Tagin	ya◦kɤ-nɤ ɯ◦kɯ	ya◦kɤ-nɤ ɯ◦kɯ	black dog	black dog			9.4		0			m,m,m,p,1764
+46327	1444	Tagin	busu-ma-rɤ	busu-ma-rɤ	brave / not afraid	brave / not afraid					0			
+46328	1444	Tagin	oŋ	oŋ	bright	bright			7.1.11.1		0			
+46329	1444	Tagin	huŋ	huŋ	bright	bright			7.1.11.1		0			
+46332	1444	Tagin	tak◦tɤ-nɤ	tak◦tɤ-nɤ	broad	broad			7.1.5.1		0			6613,m,m
+46333	1444	Tagin	lam◦da	lam◦da	road	road			9.10.1		0			1017
+46334	1444	Tagin	alɤ-bɤ-kɤ	alɤ-bɤ-kɤ	careful	careful			8.3.2.3.1		0			
+46335	1444	Tagin	alɤbɤ-donɤ omɤ	alɤbɤ-donɤ omɤ	careful boy	careful boy			8.3.2.3.1		0			
+46336	1444	Tagin	pokuŋ-nɤ	pokuŋ-nɤ	curved	curved			7.1.5.1		0			
+46337	1444	Tagin	copunɤ	copunɤ	cheap	cheap			5.9		0			
+46338	1444	Tagin	mɤ-kak darek	mɤ-kak darek	clean	clean	vi	vi	6.2.2.5.2		0			m,6182,m
+46339	1444	Tagin	darek-nɤ nido	darek-nɤ nido	clear sky	clear sky			9.6.1.1		0			
+46340	1444	Tagin	mɤ◦kak◦ne iɟi	mɤkakne iɟi	clean cloth	clean cloth			6.2.2.5.2		0			m,6182,m,m
+46341	1444	Tagin	kuk-tum-pɤ	kuk-tum-pɤ	closed	closed			6.2.2.6.2		0			
+46343	1444	Tagin	sɯkɯrr	sɯkɯrr	cold	cold	vi	vi	7.1.2.3		0			
+46344	1444	Tagin	ha◦rik-nɤ	ha◦rik-nɤ	cold	cold			7.1.2.3		0			6340,m,m
+46346	1444	Tagin	himpunam	himpunam	comfortable	comfortable			8.3.2.3.1		0			
+46348	1444	Tagin	no himpu-pɤ-re?	no himpu-pɤ-re?	comfortable, Are you?	comfortable, Are you?			8.3.2.3.1		0			2489,m,m,m
+46350	1444	Tagin	busu-nam	busu-nam	coward[ly?]	coward[ly?]	v	v	4.2.12.3		0			
+46351	1444	Tagin	al◦ɤ-ma-nɤ	alɤ-ma-nɤ	cruel / not good	cruel / not good			8.3.3.2.2		0			3543,m,6449,m
+46352	1444	Tagin	alo dikibɤ	alo dikibɤ	daily	daily	adj	adj	9.1.3		0			
+46353	1444	Tagin	maniŋ-nɤ	maniŋ-nɤ	dangerous	dangerous			9.6.2.1		0			
+46354	1444	Tagin	maniŋ-nɤ nyi	maniŋ-nɤ nyi	dangerous man	dangerous man			9.6.2.1		0			
+46356	1444	Tagin	pakmisenam	pakmisenam	dear / beloved	dear / beloved			9.6.1.1		0			
+46357	1444	Tagin	roŋriŋ	roŋriŋ	deep	deep			7.1.5.3		0			
+46358	1444	Tagin	roŋriŋnɤ sɤ◦ruŋ	roŋriŋnɤ sɤ◦ruŋ	deep well	deep well			7.1.5.3		0			m,m,2070
+46359	1444	Tagin	aku aku sunɤ	aku aku sunɤ	different	different			7.1.7.1		0			
+46360	1444	Tagin	adik aku	adik aku	difficult (of work)	difficult (of work)			9.6.2		0			
+46361	1444	Tagin	iru-kaya	iru-kaya	difficult	difficult			9.6.2		0			
+46364	1444	Tagin	kasiŋ◦kaya	kasiŋ◦kaya	dirty	dirty			3.2.11		0			
+46365	1444	Tagin	darmanɤ	darmanɤ	dirty	dirty			3.2.11		0			
+46366	1444	Tagin	kasiŋ kayanɤ i◦si	kasiŋ kayanɤ i◦si	dirty water	dirty water			3.2.11		0			m,m,m,189
+46367	1444	Tagin	mɤkɯne nyi	mɤkɯne nyi	dishonest / not good	dishonest / not good			8.3.3.4.1		0			
+46368	1444	Tagin	kai-nɤ	kai-nɤ	distinguished / big	distinguished / big			6.10.4		0			
+46369	1444	Tagin	ugulo sonam	ugulo sonam	domestic	domestic			2.3		0			
+46370	1444	Tagin	sonam sɯtɤ	sonam sɯtɤ	elephant, domestic	elephant, domestic			2.2.1		0			
+46371	1444	Tagin	pɤca	pɤca	dull	dull			7.1.5.1		0			
+46372	1444	Tagin	alɯ alɤbɤ kam rɯne nyi	alɯ alɤbɤ kam rɯne nyi	dutiful	dutiful			8.1		0			
+46373	1444	Tagin	sin◦tar	sin◦tar	dry	dry	adj	adj	6.6		0			6591,m
+46374	1444	Tagin	si◦nɤ	si◦nɤ	dry	dry	adj	adj	6.6		0			6591,m
+46375	1444	Tagin	sin◦tarnɤ ŋu◦i	sin◦tarnɤ ŋui	fish, dry	fish, dry			2.2.5		0			6591,m,1455,m
+46376	1444	Tagin	si◦nɤ a◦mɤ	si◦nɤ a◦mɤ	paddy, dry	paddy, dry			9.10.5		0			6591,m,p,m
+46377	1444	Tagin	a◦ro kom◦ci	a◦ro kom◦ci	early / early morning	early / early morning			9.1.1		0			p,144,6228
+46378	1444	Tagin	ɟɯɤbɤ	ɟɯɤbɤ	exact	exact			7.1.8.3		0			
+46379	1444	Tagin	a◦du	a◦du	far	far			9.2.4		0			p,6290
+46381	1444	Tagin	miŋɟiŋ-nam	miŋɟiŋ-nam	faithful	faithful			9.6.1.2		0			
+46383	1444	Tagin	busu-nam	busu-nam	ferocious	ferocious			9.6.2.2		0			
+46384	1444	Tagin	dɤ-mak	dɤ-mak	fertile (of land)	fertile (of land)			1.9		0			
+46385	1444	Tagin	kɤɟi dɤmak	kɤɟi dɤmak	fertile land	fertile land			1.9		0			
+46386	1444	Tagin	mo◦riŋ	mo◦riŋ	flat (of land)	flat (of land)			7.1.5.1		0			6470,m
+46387	1444	Tagin	pɤca	pɤca	foolish	foolish			9.6.2.2		0			
+46388	1444	Tagin	al◦ɤ◦nɤ	alɤnɤ	fresh / good	fresh / good			9.6.1.1		0			3543,m,m
+46389	1444	Tagin	a◦ku◦ya◦riŋ	a◦ku◦ya◦riŋ	full	full			1.1.3.2		0			
+46390	1444	Tagin	pi◦ciŋ i◦si◦ɤ aku-yariŋ-do '	piciŋ i◦si◦ɤ aku-yariŋ-do '	pot is full of water'	pot is full of water'			5.5		0			7617,6541,m,189,m,m,m,m
+46391	1444	Tagin	pak-nɤ	pak-nɤ	generous	generous			9.6.1.2		0			
+46392	1444	Tagin	paknɤ nyi	paknɤ nyi	generous man	generous man			9.6.1.2		0			
+46393	1444	Tagin	hem◦pu	hem◦pu	glad	glad			8.3.1.5.1		0			6654,2572
+46394	1444	Tagin	al◦ɤ	alɤ	good	good			9.6.1.1		0			3543,m
+46395	1444	Tagin	yɤɟi	yɤɟi	green	green			9.4		0			
+46396	1444	Tagin	hem◦pu	hem◦pu	happy	happy			8.3.1.5.1		0			6654,2572
+46397	1444	Tagin	hem◦pu◦nɤ nyi	hem◦pu◦nɤ nyi	happy man	happy man			8.3.1.5.1		0			6654,2572,m,m
+46398	1444	Tagin	gɯ◦lɯk	gɯ◦lɯk	hard	hard			9.6.2		0			m,6300
+46399	1444	Tagin	oryiok gi◦lɯk-do	oryiok gilɯk-do	Iron is hard	Iron is hard			3.2.4		0			m,m,6300,m
+46400	1444	Tagin	haci cibanɤ nyig	haci cibanɤ nyig	haughty	haughty			9.6.2.2		0			
+46401	1444	Tagin	lɤmamanɤ	lɤmamanɤ	healthy	healthy			9.6.1.2		0			
+46402	1444	Tagin	cɤrɤ	cɤrɤ	healthy	healthy			9.6.1.2		0			
+46403	1444	Tagin	a◦i	a◦i	heavy	heavy			9.6.2		0			p,2415
+46404	1444	Tagin	a◦i-nɤ e◦liŋ	a◦i-nɤ e◦liŋ	heavy stone	heavy stone			9.6.2		0			p,2415,m,m,1269
+46405	1444	Tagin	anɯ egɤ '	anɯ egɤ '	heavy load	heavy load			9.6.2		0			
+46406	1444	Tagin	a◦u	a◦u	high	high			7.1.5.3		0			p,6661
+46407	1444	Tagin	oː	oː	high	high			7.1.5.3		0			
+46409	1444	Tagin	si-gu	si-gu	hot water	hot water					0			189,6335
+46410	1444	Tagin	mokanyoma-nam	mokanyoma-nam	impossible	impossible			9.6.2.1		0			
+46411	1444	Tagin	ka-pa-ma-nam	ka-pa-ma-nam	invisible	invisible			1.2.6.11		0			6373,m,m,s
+46412	1444	Tagin	aya-nɤ	aya-nɤ	kind	kind			8.3.3.2.1		0			
+46413	1444	Tagin	kociŋ	kociŋ	last	last			9.9		0			
+46414	1444	Tagin	ko◦ciŋ cocukgɤ ku◦beŋ◦nam	ko◦ciŋ cocukgɤ ku◦beŋ◦nam	last born child	last born child			9.9		0			
+46415	1444	Tagin	hatɤ	hatɤ	late	late			9.1.1		0			
+46416	1444	Tagin	no hatɤ-do	no hatɤ-do	You are late	You are late			4.1		0			2489,m,m
+46417	1444	Tagin	turmanɤ	turmanɤ	lazy	lazy			9.6.2.2		0			
+46418	1444	Tagin	asu	asu	long	long			9.7.2		0			
+46419	1444	Tagin	hasu	hasu	long	long			9.7.2		0			
+46420	1444	Tagin	ŋiɤro	ŋiɤro	lost	lost			6.10.1		0			
+46421	1444	Tagin	ŋiɤro kolom	ŋiɤro kolom	lost pen	lost pen			6.10.1		0			
+46422	1444	Tagin	si◦ru◦ne	si◦ru◦ne	mad	mad			8.3.1.11.3		0			m,6094,m
+46423	1444	Tagin	si◦ru◦nɤ nyi	si◦ru◦nɤ nyi	mad man	mad man			8.3.1.11.3		0			m,6094,m,m
+46424	1444	Tagin	kiɯrnɤ nyi	kiɯrnɤ nyi	mischievous	mischievous			9.6.3		0			
+46425	1444	Tagin	al◦ɤ-ne	alɤ-ne	modest / good	modest / good			8.3.3.8.1		0			3543,m,m
+46426	1444	Tagin	eruŋ	eruŋ	muddy	muddy			3.2.11		0			
+46427	1444	Tagin	eruŋ lam◦da	eruŋ lam◦da	muddy road	muddy road			3.2.11		0			m,1017
+46428	1444	Tagin	atu atu linsunam	atu atu linsunam	natural	natural			3.2.1		0			
+46429	1444	Tagin	anyi	anyi	new	new			9.6.1.1		0			
+46430	1444	Tagin	anyi-nɤ iɟi	anyi-nɤ iɟi	new cloth	new cloth			9.6.1.1		0			
+46431	1444	Tagin	koci>-gɤ nam	koci>-gɤ nam	next	next			9.9		0			
+46432	1444	Tagin	next house	next house	next	next			9.9		0			
+46433	1444	Tagin	ain	ain	old	old			7.1.8.3		0			
+46434	1444	Tagin	ain iɟi	ain iɟi	old cloth	old cloth			7.1.8.3		0			
+46435	1444	Tagin	nyikam	nyikam	old man	old man			7.1.8.3		0			
+46436	1444	Tagin	hoŋu	hoŋu	old woman	old woman			7.1.8.3		0			
+46437	1444	Tagin	hɤŋu	hɤŋu	old woman	old woman			7.1.8.3		0			
+46438	1444	Tagin	akin-go	akin-go	only	only			7.1.6.1		0			
+46439	1444	Tagin	asarma-nɤ	asarma-nɤ	ordinary	ordinary			7.1.7.2		0			
+46440	1444	Tagin	comdik	comdik	poisonous	poisonous			6.4		0			
+46441	1444	Tagin	com◦dik do◦ne ta◦bɯ-go	com◦dik do◦ne ta◦bɯ-go	poisonous snake	poisonous snake			6.4		0			m,m,m,m,p,2178,m
+46442	1444	Tagin	hɤma	hɤma	poor	poor			9.6.2.2		0			
+46443	1444	Tagin	gosunam	gosunam	proud	proud			8.3		0			
+46444	1444	Tagin	gonɤ	gonɤ	proud	proud			8.3		0			
+46445	1444	Tagin	gosu-nɤ nyi	gosu-nɤ nyi	proud man	proud man			8.3		0			
+46446	1444	Tagin	yaluŋ	yaluŋ	quarrelsome	quarrelsome			8.5.8		0			
+46447	1444	Tagin	yaluŋ nyi	yaluŋ nyi	quarrelsome man	quarrelsome man			8.5.8		0			
+46448	1444	Tagin	kamatamunam	kamatamunam	queer	queer			9.6.2.1		0			
+46449	1444	Tagin	kamatamunɤ iɟi	kamatamunɤ iɟi	queer dress	queer dress			9.6.2.1		0			
+46450	1444	Tagin	nya nyak	nya nyak	quiet	quiet			7.1.8.3		0			m,6155
+46451	1444	Tagin	gɤgigɤrap	gɤgigɤrap	ready	ready			7.1.8.3		0			
+46453	1444	Tagin	ɟɤɟɤ	ɟɤɟɤ	real	real			7.1.8.3		0			
+46454	1444	Tagin	ya◦lɯŋ	ya◦lɯŋ	red	red			9.4		0			m,6137
+46455	1444	Tagin	nyitɤ	nyitɤ	rich	rich			5.9		0			
+46456	1444	Tagin	e◦liŋ moku	e◦liŋ moku	rocky / rock place	rocky / rock place			3.2.11		0			m,1269,m
+46457	1444	Tagin	ya◦nɤ	ya◦nɤ	rotten	rotten			3.1.10		0			6353,m
+46458	1444	Tagin	ya◦nɤ ŋu◦i	ya◦nɤ ŋui	rotten fish	rotten fish			3.1.10		0			6353,m,1455,m
+46459	1444	Tagin	nyi-nɤ	nyi-nɤ	ripe	ripe			3.1.10		0			2449,m
+46460	1444	Tagin	pacerpayer	pacerpayer	round / spherical	round / spherical			9.7.1		0			
+46461	1444	Tagin	a◦lam kargo pumcup	a◦lam kargo pumcup	round / spherical	round / spherical			9.7.1		0			p,690,m,m
+46462	1444	Tagin	al◦ɤ-mà nɤ	alɤ-mà nɤ	rude / not good	rude / not good			9.6.2.2		0			3543,m,6449,m
+46463	1444	Tagin	hɤru	hɤru	sad	sad			1.1.5.1		0			
+46464	1444	Tagin	miŋ-ru	miŋ-ru	sad	sad			1.1.5.1		0			
+46467	1444	Tagin	min◦si◦nam	minsinam	secret	secret			8.5.4.2		0			
+46468	1444	Tagin	min-si-nam gam	min-si-nam gam	secret talk	secret talk			8.5.4.2		0			6699,m,s,6324
+46469	1444	Tagin	ri◦pu	ri◦pu	sharp	sharp			6.9.2		0			6559,m
+46470	1444	Tagin	a◦r	ar	sharp	sharp			6.9.2		0			p,6559?
+46471	1444	Tagin	arnɤ o◦ryiok	arnɤ o◦ryiok	sharp dao	sharp dao			6.9.2		0			m,p,6570
+46472	1444	Tagin	a◦dɤŋ a◦dɤŋ◦nɤ baknyi	a◦dɤŋ a◦dɤŋ◦nɤ baknyi	short	short			9.7.2		0			p,7173,p,7173,m,m
+46473	1444	Tagin	minɟiŋ-nam	minɟiŋ-nam	sincere	sincere			9.6.1.2		0			
+46474	1444	Tagin	minɟiŋ-nam a◦ɟin	minɟiŋ-nam a◦ɟin	sincere friend	sincere friend			9.6.1.2		0			m,m,p,6362
+46475	1444	Tagin	hatɤ	hatɤ	slow	slow			9.6.2.1		0			
+46476	1444	Tagin	aya-nɤ	aya-nɤ	small	small			9.7.2		0			x
+46477	1444	Tagin	mɤya-nɤ-bɤ mɯ	mɤya-nɤ-bɤ mɯ	small boy	small boy			9.7.2		0			x
+46478	1444	Tagin	nya nyak kyak	nya nyak kyak	soft	soft			7.1.4.2		0			m,6155
+46479	1444	Tagin	pakuŋ-ma-ne	pakuŋ-ma-ne	straight	straight			7.1.5.1		0			
+46480	1444	Tagin	tor◦nam	tor◦nam	strong	strong			9.6.1.1		0			161,s
+46481	1444	Tagin	tor◦nɤ hɤ◦mi	tor◦nɤ hɤ◦mi	strong boy	strong boy			9.6.1.1		0			161,m,m,m
+46484	1444	Tagin	sini mater-bɤ ci◦pu◦do	sini mater-bɤ cipudo	sugar is sweet	sugar is sweet			3.1.6.2		0			b,m,m,2721,m,m
+46485	1444	Tagin	a◦u◦nɤ	a◦u◦nɤ	tall	tall			9.7.2		0			p,6661,m
+46486	1444	Tagin	a◦u siŋ-nɤ	a◦u siŋ-nɤ	tall tree	tall tree			9.7.2		0			p,6661,2658,m
+46487	1444	Tagin	dopu-nɤ	dopu-nɤ	tasteful	tasteful			5.8		0			
+46488	1444	Tagin	adak	adak	thick	thick			9.7.2		0			
+46489	1444	Tagin	akyio	akyio	thin	thin			9.7.2		0			
+46490	1444	Tagin	a◦pi ai-la dopɤ-ne	a◦pi ai-la dopɤ-ne	tired / I am tired	tired / I am tired			9.6.2.2		0			p,6511,m,m,m,m
+46492	1444	Tagin	ɟiɟɤ	ɟiɟɤ	true	true			9.6.1.1		0			
+46493	1444	Tagin	karu	karu	ugly	ugly			7.1.3		0			
+46494	1444	Tagin	a◦rɤ kai-ne	a◦rɤ kai-ne	valuable / price much	valuable / price much			9.6.1.1		0			p,6584,m,m
+46495	1444	Tagin	miŋ	miŋ	vexed	vexed			8.3.1.6.1		0			
+46496	1444	Tagin	miŋ-dɯk-mɯku-nam	miŋ-dɯk-mɯku-nam	annoyed / vexed	annoyed / vexed			8.3.1.6.1		0			
+46497	1444	Tagin	ŋo miŋ-dik miŋ-ku-do	ŋo miŋ-dik miŋ-ku-do	annoyed, I am	annoyed, I am			8.3.1.6.1		0			2530,m,m,m,m,m
+46498	1444	Tagin	a◦gu	a◦gu	warm / hot	warm / hot			7.1.2.3		0			p,6335
+46499	1444	Tagin	a◦gu◦nɤ i◦si '	a◦gu◦nɤ i◦si '	warm water'	warm water'			7.1.2.3		0			p,6335,m,m,189
+46500	1444	Tagin	yagɯpa	yagɯpa	weak	weak			1.1.5		0			
+46501	1444	Tagin	ɟiɟa	ɟiɟa	wet	wet			6.6		0			6205
+46502	1444	Tagin	ɟiɟa-nɤ e◦siŋ	ɟiɟa-nɤ e◦siŋ	wet fuel	wet fuel			6.6		0			6205,m,p,2658
+46503	1444	Tagin	ya◦puŋ	ya◦puŋ	white	white			9.4		0			m,6097
+46504	1444	Tagin	puŋ◦pu	puŋ◦pu	white	white			9.4		0			6097,m
+46505	1444	Tagin	mɤniŋ	mɤniŋ	whole	whole			7.1.6.2		0			
+46506	1444	Tagin	ta◦tɤ-nɤ	ta◦tɤ-nɤ	wide	wide			9.7.2		0			6613,m,m
+46507	1444	Tagin	mo◦tum-gɤ	mo◦tum-gɤ	wild	wild			3.2.5		0			6470,m,m
+46508	1444	Tagin	mo◦tumgɤ sitom	mo◦tumgɤ sitom	wild animal	wild animal			3.2.5		0			6470,m,m
+46509	1444	Tagin	nyilo	nyilo	wise	wise			8.3.3.3.1		0			
+46510	1444	Tagin	mur	mur	wrong	wrong			9.6.2.1		0			6682
+46512	1444	Tagin	anyiŋ-gɤ	anyiŋ-gɤ	yearly	yearly			9.1.2		0			
+46513	1444	Tagin	yapa	yapa	young	young			7.1.8.3		0			
+46514	1444	Tagin	pakuŋ pala	pakuŋ pala	zigzag	zigzag			9.7.1		0			
+46515	1444	Tagin	pakuŋ pala lam◦da	pakuŋ pala lam◦da	zigzag road	zigzag road			9.7.1		0			m,m,1017
+46516	1444	Tagin	ka-yu-nam	ka-yu-nam	abandon	abandon			6.10.2		0		z	
+46517	1444	Tagin	yamnan	yamnan	abuse	abuse	v	v	6.4		0			
+46518	1444	Tagin	lekobɤ eŋ◦nam	lekobɤ eŋ◦nam	accompany / go with	accompany / go with			6.7.10		0			m,6347?,s
+46519	1444	Tagin	a◦ci	a◦ci	ache	ache	v	v	1.1.5.1		0			p,1847
+46520	1444	Tagin	dum◦po duḿ-ci-pa	dum◦po duḿ-ci-pa	head aches	head aches			1.2.1		0			1425,388,1425,1847,s
+46521	1444	Tagin	pa-nam	pa-nam	acquire (earn)	acquire (earn)			6.21		0			
+46523	1444	Tagin	pal-nam	pal-nam	admire	admire			8.3.1.1.1		0			
+46524	1444	Tagin	eŋ-co-nam	eŋ-co-nam	advance	advance			6.7.4		0			6347,6519,s
+46526	1444	Tagin	tam-ser-nam	tam-ser-nam	advice	advice			8.5.14.2		0			
+46527	1444	Tagin	min-ser-nam	min-ser-nam	advice	advice			8.5.14.2		0			6699,m,s
+46529	1444	Tagin	tɤ-ɟik-nam	tɤ-ɟik-nam	agree	agree	v	v	8.3.1.4.1		0			
+46531	1444	Tagin	modorridornam	modorridornam	aid / help	aid / help	v	v	6.20		0			
+46532	1444	Tagin	roŋ-nam	roŋ-nam	aim	aim					0			
+46533	1444	Tagin	garam pata-a roŋ-to	garam pata-a roŋ-to	Garam aimed at the bird	Garam aimed at the bird			10.0		0			
+46534	1444	Tagin	adɯk aku	adɯk aku	annoy	annoy			8.3.1.6.1		0			
+46536	1444	Tagin	mɯ-rɯk-nam	mɯ-rɯk-nam	answer	answer	v	v	8.5.6		0			
+46537	1444	Tagin	no ŋo tɤnema mɯriksutoka	no ŋo tɤnema mɯriksutoka	answer to my question	answer to my question			8.5.6		0			m,2530,m,m
+46538	1444	Tagin	ɟi-nam	ɟi-nam	appoint (give)	appoint (give)			6.2.2.1		0			2158,s
+46539	1444	Tagin	ca-lin-nam	ca-lin-nam	arise (of sun)	arise (of sun)			1.1.4		0			m,6426,s
+46541	1444	Tagin	alɤbɤ pɤnam	alɤbɤ pɤnam	arrange (well keep)	arrange (well keep)			6.17		0			
+46542	1444	Tagin	a-nam	a-nam	arrive (come)	arrive (come)			6.7.1		0			6211,s
+46543	1444	Tagin	tɤ-ka-nam	tɤ-ka-nam	ask	ask			8.5.7.1		0			
+46544	1444	Tagin	diŋ-nam	diŋ-nam	assault (beat)	assault (beat)			6.4		0			296,s
+46546	1444	Tagin	do-kum-nam	do-kum-nam	assemble	assemble			6.19		0			m,m,s
+46547	1444	Tagin	akum-nam	akum-nam	assemble	assemble			6.19		0			m,s
+46549	1444	Tagin	kaserbɤndik	kaserbɤndik	astonish	astonish			8.3.1.9.1		0			
+46551	1444	Tagin	ka-ya-nam	ka-ya-nam	await (wait)	await (wait)			8.3.1.7.3		0			m,5577,s
+46552	1444	Tagin	no ŋa ka-ya-rɤ-di	no ŋa ka-ya-rɤ-di	Will you wait for me?	Will you wait for me?			4.1		0			2489,2530,m,5577,m,m
+46553	1444	Tagin	pɤk-nam	pɤk-nam	bark	bark	v	v	2.1.11.1		0			m,s
+46555	1444	Tagin	orsukanam	orsukanam	bathe	bathe			6.6		0			
+46557	1444	Tagin	miŋama-nam	miŋama-nam	bear / endure	bear / endure	v	v	2.2.3		0			
+46558	1444	Tagin	diŋ-nam	diŋ-nam	beat	beat	v (vt?)	v (vt?)	6.8		0			296,s
+46559	1444	Tagin	deŋ◦nam	deŋ◦nam	beat	beat	v (vt?)	v (vt?)	6.8		0			296,s
+46560	1444	Tagin	miŋ◦ser◦nam	miŋ◦ser◦nam	believe	believe	v	v	8.3.1.12.1		0			6200,m,s
+46562	1444	Tagin	car◦gu-nam	car◦gu-nam	boil	boil	v	v	6.6		0			6378,6314,s
+46563	1444	Tagin	i◦si car◦gu◦do	i◦si car◦gu◦do	water boil	water boil			3.2.3		0			m,189,6378,m,m
+46564	1444	Tagin	car◦gu◦nɤ i◦si	car◦gu◦nɤ i◦si	water, boiled	water, boiled			3.2.3		0			m,6314,m,m,189
+46565	1444	Tagin	mo-mɯk-nam	mo-mɯk-nam	break (glass etc.)	break (glass etc.)			9.5		0			
+46566	1444	Tagin	to-mɯk-nam	to-mɯk-nam	break (stone)	break (stone)			9.5		0			
+46567	1444	Tagin	tar-tuŋ-nam	tar-tuŋ-nam	break (stick)	break (stick)			9.5		0			6635,m,s
+46568	1444	Tagin	gu◦nam	gu◦nam	burn	burn	v	v	3.2.12.1		0			6334,s
+46569	1444	Tagin	pato◦nam	pato◦nam	burn	burn	v	v	3.2.12.1		0			
+46570	1444	Tagin	e◦mɤ gudo	e◦mɤ gudo	Fire burns',	Fire burns',			3.2.12.2		0		z	p,e,2136,m
+46572	1444	Tagin	buk-tak-nam	buk-tak-nam	burst	burst	v	v	9.5		0			6256,m,m
+46573	1444	Tagin	rɤ-nam	rɤ-nam	buy	buy			6.22		0			2606,s
+46575	1444	Tagin	la-nam	la-nam	bring	bring			6.2.2.2.2		0			
+46576	1444	Tagin	biŋnam	biŋnam	bring	bring			6.2.2.2.2		0			
+46580	1444	Tagin	kɯ◦nam	kɯ◦nam	calculate	calculate			8.3.1.13.1		0			6175,s
+46581	1444	Tagin	gok◦nam	gok◦nam	call	call	v	v	8.5.13		0			6330,s
+46582	1444	Tagin	aloŋ gok-toka	aloŋ gok-toka	Call him	Call him			8.5.13		0			m,6330,m
+46583	1444	Tagin	gɤ-nam	gɤ-nam	carry load on back	carry load on back			6.2.2.2.1		0			6339,s
+46584	1444	Tagin	bag-nam	bag-nam	carry child on back	carry child on back			6.2.2.2.1		0			570,m
+46585	1444	Tagin	beŋ◦nam	beŋ◦nam	carry on should	carry on should			6.2.2.2.1		0			570,m
+46586	1444	Tagin	ga◦nam	ga◦nam	carry bag in hand	carry bag in hand			6.2.2.2.1		0			
+46587	1444	Tagin	gya◦nam	gya◦nam	carry bag in hand	carry bag in hand			6.2.2.2.1		0			
+46588	1444	Tagin	gak-nam	gak-nam	catch by hand	catch by hand			6.21		0			6316,s
+46589	1444	Tagin	la-tuŋ-nam	la-tuŋ-nam	catch by encircling (thief, cow, etc.)	catch by encircling (thief, cow, etc.)			6.21		0			
+46590	1444	Tagin	ka-ɟɯk◦nam	ka-ɟɯknam	choose by seeing	choose by seeing	v	v	6.10.4		0			
+46591	1444	Tagin	tɤ ɟɯk◦nam	tɤ ɟɯknam	choose by hearing	choose by hearing	v	v	6.10.4		0			1408,m,s
+46592	1444	Tagin	miŋ-lik-nam	miŋ-lik-nam	select (elect)	select (elect)	v	v	6.10.4		0			
+46594	1444	Tagin	pak-puk-nam	pak-puk-nam	clap	clap	v	v	9.3		0			
+46596	1444	Tagin	ca-nam	ca-nam	climb	climb			6.7.7		0			
+46598	1444	Tagin	pok-bak-nam	pok-bak-nam	climb by jumping	climb by jumping			6.7.7		0			6707,m,s
+46599	1444	Tagin	la-kum-nam	la-kum-nam	collect	collect			6.21		0			m,m,s
+46601	1444	Tagin	dumɯ toktoka	dumɯ toktoka	Come into the room	Come into the room			6.7.1		0			
+46602	1444	Tagin	hukum ɟi-nam	hukum ɟi-nam	command (order give)	command (order give)			8.5.1		0			m,2158,s
+46603	1444	Tagin	tɤ-ku-nam	tɤ-ku-nam	confess	confess			8.5.14.2		0			
+46605	1444	Tagin	min◦ama tɤ◦nam	minama tɤnam	convince	convince			8.5.10.3		0			6699,m,m,s
+46606	1444	Tagin	lek-tɯn-nam	lek-tɯn-nam	correct	correct			8.3.3.9		0			
+46607	1444	Tagin	alɤbɤ lektɯnto	alɤbɤ lektɯnto	Correct carefully	Correct carefully			8.3.3.9		0			
+46608	1444	Tagin	tak-mam-nam	tak-mam-nam	cover	cover	v	v	5.8		0			
+46612	1444	Tagin	rek-nam	rek-nam	cut (a vegetable)	cut (a vegetable)	vt	vt	6.9.3		0			
+46613	1444	Tagin	oŋka-nam	oŋka-nam	dazzle	dazzle	v	v			0			
+46614	1444	Tagin	kariklak-nam	kariklak-nam	dazzle	dazzle	v	v			0			
+46617	1444	Tagin	miŋ-nam	miŋ-nam	desire, wish	desire, wish			8.3.1.14.3		0			6200,s
+46618	1444	Tagin	myaŋ-nam	myaŋ-nam	decrease	decrease			9.5		0			
+46619	1444	Tagin	sintar-nam	sintar-nam	decrease	decrease			9.5		0			
+46620	1444	Tagin	i◦si sintardo	i◦si sintardo	Water is diminishing	Water is diminishing			3.2.3		0			m,189,m
+46621	1444	Tagin	la-pɯk-nam	la-pɯk-nam	deduct	deduct			6.10.4		0			
+46622	1444	Tagin	miŋ-ram-nam	miŋ-ram-nam	deny	deny			8.5.6		0			
+46623	1444	Tagin	i-nam	i-nam	descend	descend			6.7.8		0			
+46626	1444	Tagin	du-nam	du-nam	dig (by dibble)	dig (by dibble)			6.11		0			3573,s
+46627	1444	Tagin	pa-nak	pa-nak	dig (by dibble)	dig (by dibble)			6.11		0			
+46628	1444	Tagin	mirik-nam	mirik-nam	discuss	discuss					0			
+46629	1444	Tagin	mimisɤ-nam	mimisɤ-nam	discuss	discuss					0			
+46630	1444	Tagin	mɤdɯk mɤku-nam	mɤdɯk mɤku-nam	disturb	disturb			8.3.1.6.2		0			
+46632	1444	Tagin	ornam	ornam	divide	divide			6.10.4		0			
+46633	1444	Tagin	orpɯn-nam	orpɯn-nam	divide	divide			6.10.4		0			
+46635	1444	Tagin	ka-yu-nam	ka-yu-nam	divorce / abandon	divorce / abandon			5.8		0		z	
+46636	1444	Tagin	meŋtup-nam	meŋtup-nam	doubt	doubt			8.3.1.12.1		0			
+46638	1444	Tagin	bo-nam	bo-nam	drag	drag			6.7.10		0			
+46640	1444	Tagin	gɤ-nam	gɤ-nam	dress	dress	v	v	6.2.2.1		0			
+46641	1444	Tagin	ko-nam	ko-nam	dress	dress	v	v	6.2.2.1		0			
+46642	1444	Tagin	eɟɯ kolaka	eɟɯ kolaka	Wear your cloth	Wear your cloth			6.2.2.1		0			
+46643	1444	Tagin	biŋ-nam	biŋ-nam	wear hat	wear hat			6.2.2.1		0			
+46644	1444	Tagin	botum biŋ-laka	botum biŋ-laka	Wear your hat	Wear your hat			6.2.2.1		0			
+46645	1444	Tagin	teŋ-nam	teŋ-nam	drink	drink	v	v			0			502,s
+46646	1444	Tagin	lo◦sin◦nam	lo◦sin◦nam	dry	dry	v	v	6.6		0			m,6591,s
+46648	1444	Tagin	pa-nam	pa-nam	earn / find	earn / find			6.2		0			
+46649	1444	Tagin	cegap-nam	cegap-nam	embrace	embrace	v	v	8.4		0			
+46650	1444	Tagin	ŋulu cegapminsuto	ŋulu cegapminsuto	We embraced each other	We embraced each other			4.1		0			
+46651	1444	Tagin	mo◦ro-nam	moro-nam	empty	empty	v	v	7.1.2.1		0			m,6208,s
+46656	1444	Tagin	areŋlo a-nam	areŋlo a-nam	enter / come into	enter / come into			6.7.1		0			
+46657	1444	Tagin	kɤ-sɯr-nam	kɤ-sɯr-nam	envy	envy	v	v	8.3.2.6.2		0			
+46659	1444	Tagin	meŋ-|pa-nam	meŋ-|pa-nam	forget	forget			8.3.1.16.1		0			
+46661	1444	Tagin	pak-nam	pak-nam	esteem / respect	esteem / respect	v	v	8.1		0			
+46663	1444	Tagin	sheshubebu ca-nam	sheshubebu ca-nam	evaporate	evaporate			6.6		0			
+46665	1444	Tagin	tɤ-ka-nam	tɤ-ka-nam	examine (orally)	examine (orally)			6.2		0			
+46666	1444	Tagin	ka-yu-nam	ka-yu-nam	exclude	exclude			6.10.4		0			
+46667	1444	Tagin	ka-tam-nam	ka-tam-nam	exhibit / show	exhibit / show			6.2.2.8		0			6373,m,s
+46669	1444	Tagin	nu-bor-nam	nu-bor-nam	expand	expand			9.5		0			
+46671	1444	Tagin	alɤbɤ min-ɟi-nam	alɤbɤ min-ɟi-nam	explain (speak-give)	explain (speak-give)			8.5.14.3		0			m,6699,2158,s
+46672	1444	Tagin	buk-tak-nam	buk-tak-nam	explode	explode			9.5		0			6256,m,m
+46673	1444	Tagin	mo-ŋit-nam	mo-ŋit-nam	extinguish	extinguish			3.2.12.1		0			
+46674	1444	Tagin	pa-nyu-ma-nam	pa-nyu-ma-nam	fail	fail			6.1.1		0			
+46676	1444	Tagin	o◦lu-nam	o◦lu-nam	fall (from above)	fall (from above)			6.1.1.4.2		0			3507,m,s
+46677	1444	Tagin	pak nam	pak nam	love, fall in	love, fall in			8.3.1.1.1		0			1359,s
+46679	1444	Tagin	ma◦yep-yap-nam	ma◦yep-yap-nam	fan	fan	v	v	5.4		0			m,2790,2790,s
+46680	1444	Tagin	tak-pɤ-nam	tak-pɤ-nam	fasten (cow, etc.)	fasten (cow, etc.)			6.13.3		0			
+46682	1444	Tagin	lɯ-nam	lɯ-nam	fasten (by hand)	fasten (by hand)			6.13.3		0			
+46683	1444	Tagin	punciŋ-nam	punciŋ-nam	fasten (load)	fasten (load)			6.13.3		0			
+46684	1444	Tagin	rak-nam	rak-nam	fasten (fencing)	fasten (fencing)			6.13.3		0			
+46685	1444	Tagin	busu-nam	busu-nam	fear	fear	v	v	8.3.1.10.1		0			
+46687	1444	Tagin	do-mu-nam	do-mu-nam	feed	feed	v	v	1.3.5.8		0			
+46688	1444	Tagin	momisu-nam	momisu-nam	fight	fight	v	v	6.5		0			
+46690	1444	Tagin	pa-nam	pa-nam	find	find	v	v	6.21		0			
+46691	1444	Tagin	mo-nya-nam	mo-nya-nam	finish	finish	v	v	9.5		0			
+46693	1444	Tagin	kɤ-nam	kɤ-nam	flee	flee			6.7.2		0			6705,s
+46694	1444	Tagin	ɟa-kir-nam	ɟa-kir-nam	float	float	v	v	6.6.1		0			6237,m,s
+46695	1444	Tagin	e◦siŋ◦ɤ i◦si sulo ɟa-kirr-do	e◦siŋ◦ɤ i◦si sulo ɟa-kirr-do	Wood floats on water	Wood floats on water			3.1.2		0			p,2658,m,p,189,m,m,m,m
+46696	1444	Tagin	bi-nam	bi-nam	flow	flow	v	v	6.6.1		0			6276,s
+46698	1444	Tagin	kocapkolap-nam	kocapkolap-nam	fold	fold	v	v	1.4.4.2		0			
+46699	1444	Tagin	kogoɟsim kocapkolap-to	kogoɟsim kocapkolap-to	Fold the paper	Fold the paper			1.4.4.2		0			
+46700	1444	Tagin	meŋpa◦ku-ma-nam	meŋpa◦ku-ma-nam	forget	forget			8.3.1.16.1		0			
+46702	1444	Tagin	busu molam-nam	busu molam-nam	frighten	frighten			8.3.1.10.1		0			
+46703	1444	Tagin	do-kum-nam	do-kum-nam	gather	gather			6.13.5		0			m,m,s
+46705	1444	Tagin	pa-nam	pa-nam	get / obtain	get / obtain			1.1.5		0			
+46706	1444	Tagin	go-duŋ-nam	go-duŋ-nam	get up	get up			1.1.4		0			
+46707	1444	Tagin	ɟi-nam	ɟi-nam	give	give			6.23		0			2158,s
+46708	1444	Tagin	eŋ-nam	eŋ-nam	go	go			6.7.2		0			6347?,s
+46709	1444	Tagin	eŋ◦co-nam	eŋ◦co-nam	go ahead	go ahead			6.7.2		0			6347?,6519,s
+46710	1444	Tagin	seŋɤ rɯgɤ-nam	seŋɤ rɯgɤ-nam	govern / rule	govern / rule			6.19		0			
+46712	1444	Tagin	siŋ-ca-nam	siŋ-ca-nam	grow	grow			9.7.2		0			
+46713	1444	Tagin	radɤ so siŋ-ca-ma	radɤ so siŋ-ca-ma	Maize does not grow here	Maize does not grow here			3.1.5		0			
+46714	1444	Tagin	ka-ya-nam	ka-ya-nam	guard	guard	v	v	6.2.2.1		0			
+46716	1444	Tagin	eŋ-gɤ-nam	eŋ-gɤ-nam	guide	guide	v	v	6.2.2.1		0			6347,m,s
+46717	1444	Tagin	doŋ-nam	doŋ-nam	halt / stop	halt / stop	v	v	6.7.11		0			
+46718	1444	Tagin	kasiŋ-nam	kasiŋ-nam	hate	hate	v	v	8.3.1.1.2		0			
+46720	1444	Tagin	do-nam	do-nam	have	have	v	v	8.2		0			
+46722	1444	Tagin	ka-ɟi-nam	ka-ɟi-nam	help	help	v	v	6.2.2.1		0			
+46723	1444	Tagin	ka-la-nam	ka-la-nam	help	help	v	v	6.2.2.1		0			
+46724	1444	Tagin	no ŋa ka-ɟi-ri	no ŋa ka-ɟi-ri	Will you help me?	Will you help me?			4.1		0			2489,2530,m,m,m
+46725	1444	Tagin	to◦si-nam	to◦si-nam	hide	hide	v	v	1.6.5.1		0			
+46727	1444	Tagin	miŋ-nam	miŋ-nam	hope	hope	v	v	8.3.1.7.1		0			6200,s
+46728	1444	Tagin	min-pa-nam	min-pa-nam	inform	inform	v	v	8.5.14.2		0			6699,m,s
+46730	1444	Tagin	o◦po dek-nam	o◦po dek-nam	intoxicate	intoxicate	v	v			0			m,6526,m,s
+46731	1444	Tagin	deknɤ nyi	deknɤ nyi	intoxicated man	intoxicated man			8.3.1.11.3		0			
+46732	1444	Tagin	mo-len-nam	mo-len-nam	invent	invent	v	v	6.14		0			
+46733	1444	Tagin	ka-pa-nam	ka-pa-nam	discover / find	discover / find	v	v	6.21		0			6373,m,s
+46734	1444	Tagin	har-nam	har-nam	invite	invite	v	v	8.5.11		0			
+46735	1444	Tagin	dabin ŋa har-to	dabin ŋa har-to	Dabin invited me	Dabin invited me			8.5.11		0			m,2530,m,m
+46736	1444	Tagin	gyoki-nam	gyoki-nam	joke	joke	v	v	8.5.9		0			
+46738	1444	Tagin	pok-nam	pok-nam	jump	jump	v	v	6.7.8		0			6707,s
+46739	1444	Tagin	pɤ-nam	pɤ-nam	keep	keep	v	v	6.18		0			
+46740	1444	Tagin	kolom-a tebul aulo pɤtoka	kolom-a tebul aulo pɤtoka	Keep the pen on the table	Keep the pen on the table			10.0		0			
+46741	1444	Tagin	mo◦ki-nam	moki-nam	kill	kill	v	v	6.4		0			m,3301,s
+46742	1444	Tagin	ap◦ki-nam	apki-nam	kill with a gun	kill with a gun	v	v	6.4		0			2232,3301,s
+46743	1444	Tagin	pa◦ki-nam	paki-nam	kill with a dao	kill with a dao	v	v	6.4		0			m,3301,s
+46745	1444	Tagin	deŋ◦ki-nam	deŋki-nam	kill with a stick	kill with a stick	v	v	6.4		0			296,3301,s
+46746	1444	Tagin	moyo-nam	moyo-nam	kned [=knead?]	kned  [=knead?]	v	v	5.5		0	jbl3		
+46747	1444	Tagin	padin-nam	padin-nam	knock	knock	v	v	6.8		0			
+46749	1444	Tagin	cin-nam	cin-nam	know / learn	know / learn	v	v	8.3.1.12.1		0			1229,s
+46752	1444	Tagin	eŋ-ge-nam	eŋ-ge-nam	lead (in going)	lead (in going)	v	v	6.2.2.1		0			6347,m,s
+46753	1444	Tagin	ri-ge-nam	ri-ge-nam	lead in work	lead in work	v	v	6.2.2.1		0			
+46754	1444	Tagin	gɤda-nam	gɤda-nam	lie (i.e. position)	lie (i.e. position)	v	v	8.5.10.4		0			
+46755	1444	Tagin	mɤ-nam	mɤ-nam	lie / speak falsely	lie / speak falsely	v	v	8.5.10.4		0			6477,s
+46756	1444	Tagin	no hugubɤ mɤdune?	no hugubɤ mɤdune?	Why do you tell a lie?	Why do you tell a lie?			10.5.3		0			2489,m,m
+46757	1444	Tagin	pak-nam	pak-nam	love	love	v	v	8.3.1.1.1		0			1359,s
+46759	1444	Tagin	kɯ-nam	kɯ-nam	measure (count)	measure (count)	v	v	9.8		0			6175,m
+46760	1444	Tagin	ɟɤ-nam	ɟɤ-nam	melt	melt	v	v	9.5		0			6358,s
+46761	1444	Tagin	ta◦pam ɟɤ-do	ta◦pam ɟɤ-do	ice melts	ice melts			3.2.3		0			p,6505,m,m
+46762	1444	Tagin	meŋ ruŋoya-nam	meŋ ruŋoya-nam	moan	moan	v	v	1.8.8.2		0			
+46763	1444	Tagin	no hugubɤ meŋrudune	no hugubɤ meŋrudune	Why do you moan?	Why do you moan?			10.5.3		0			2489,m,m
+46764	1444	Tagin	laso miŋ-nam	laso miŋ-nam	need	need	v	v	9.6.2		0			
+46766	1444	Tagin	mɤɤya-nam	mɤɤya-nam	neglect	neglect			6.4		0			
+46768	1444	Tagin	tur-nam	tur-nam	obstruct	obstruct	v	v	6.2		0			
+46769	1444	Tagin	min◦tur◦nam	minturnam	obstruct of speech	obstruct of speech	v	v	6.2		0			6699,m,s
+46770	1444	Tagin	mo-tor-nam	mo-tor-nam	obstruct a moving or flowing thing	obstruct a moving or flowing thing	v	v	6.2		0			
+46771	1444	Tagin	mo-tum-nam	mo-tum-nam	obstruct a moving or flowing thing	obstruct a moving or flowing thing	v	v	6.2		0			
+46773	1444	Tagin	ɤ lam◦da-ŋa mo-tum-to	ɤ lamda-ŋa mo-tum-to	he obstructed the road	he obstructed the road			4.1		0			m,1017,m,m,m,m,m
+46774	1444	Tagin	rɯ-gɤ-nam	rɯ-gɤ-nam	organize	organize	v	v	6.2		0			
+46776	1444	Tagin	mogɤnam	mogɤnam	pack	pack	v	v	6.2		0			
+46777	1444	Tagin	egɤ-ŋa mogɤtoka	egɤ-ŋa mogɤtoka	Pack the load	Pack the load			6.2		0			
+46778	1444	Tagin	paɟam-nam	paɟam-nam	pat	pat	v	v	8.4		0			
+46779	1444	Tagin	i◦kɯ-a paɟam-to	i◦kɯ-a paɟam-to	Patted the dog	Patted the dog			8.4		0			p,1764,s,m,m
+46780	1444	Tagin	laca-nam	laca-nam	pick up	pick up	v	v	6.10.4		0			
+46781	1444	Tagin	gyoki-nam	gyoki-nam	play	play	v	v	6.1.1.3		0			
+46782	1444	Tagin	dek-nam	dek-nam	play football	play football	v	v	6.1.1.3		0			
+46783	1444	Tagin	dik-nam	dik-nam	play football	play football	v	v	6.1.1.3		0			
+46784	1444	Tagin	mo-nam	mo-nam	play volleyball	play volleyball	v	v	6.1.1.3		0			
+46785	1444	Tagin	ŋunux futbol dek-du	ŋunu futbol dek-du	We are playing football	We are playing football			4.1		0			
+46786	1444	Tagin	pu-nam	pu-nam	pluck	pluck	v	v	6.2.2.3.1		0			6534,s
+46788	1444	Tagin	pɯk◦lɯk-nam	pɯk◦lɯk-nam	pour	pour	v	v	6.6		0			m,6442,s
+46789	1444	Tagin	to◦lɯk-nam	to◦lɯk-nam	pour	pour	v	v	6.6		0			m,6442,s
+46790	1444	Tagin	reŋ-nam	reŋ-nam	protect	protect	v	v	6.2.2.1		0			
+46792	1444	Tagin	punam	punam	pull (with something, e.g. rope)	pull (with something, e.g. rope)	v	v	6.2.2.3.1		0			
+46793	1444	Tagin	bo-nam	bo-nam	pull (rope etc.)	pull (rope etc.)	v	v	6.2.2.3.1		0			
+46794	1444	Tagin	gari boto	gari boto	Pull the cart	Pull the cart			6.2.2.3.1		0			bIndic,b
+46795	1444	Tagin	re-nam	re-nam	purchase	purchase	v	v	6.22		0			2606,s
+46796	1444	Tagin	tuŋ-nam	tuŋ-nam	push	push	v	v	6.2.2.3.1		0			m,s
+46797	1444	Tagin	no hugubɤ tuŋdu-nc	no hugubɤ tuŋdu-nc	Why do you push?	Why do you push?			10.5.3		0			2489,m,m,m
+46798	1444	Tagin	abɤ arɯk kuma-nam	abɤ arɯk kuma-nam	puzzle	puzzle	v	v	8.3.1.13.1		0			
+46800	1444	Tagin	yaluŋ du	yaluŋ du	quarrel	quarrel	v?	v?	8.5.8		0			
+46801	1444	Tagin	apak-nam	apak-nam	quit	quit	v	v	6.2		0			
+46802	1444	Tagin	elamin-nam	elamin-nam	refuse	refuse	v	v	8.5.6		0			
+46803	1444	Tagin	meŋ-pa-nam	meŋ-pa-nam	remember	remember	v	v	8.3.1.16.1		0			
+46805	1444	Tagin	min-pa-num	min-pa-num	remind / inform	remind / inform	v	v	8.5.16		0			6699,m,s
+46806	1444	Tagin	mo◦ten-nam	mo◦ten-nam	repair	repair	v	v	6.14		0			m,6617,s
+46808	1444	Tagin	donu-nam	donu-nam	rest	rest	v	v	1.1.4.1		0			
+46809	1444	Tagin	ba-nam	ba-nam	roast	roast	v	v	5.5		0			6263,s
+46811	1444	Tagin	ɟok-nam	ɟok-nam	run	run	v	v	6.7.4		0			
+46812	1444	Tagin	pak-nam	pak-nam	scatter	scatter	v	v	6.10.3		0			
+46813	1444	Tagin	mɤ-ker-nam	mɤ-ker-nam	search	search	v	v	6.2.2.2		0			6448,m,s
+46815	1444	Tagin	pyok-nam	pyok-nam	sell	sell	v	v	6.22		0			6531,s
+46816	1444	Tagin	pao-nam	pao-nam	send	send	v	v	6.2.2.2		0			
+46817	1444	Tagin	eŋ-mu-nam	eŋ-mu-nam	send	send	v	v	6.2.2.2		0			6347,m,s
+46818	1444	Tagin	citi-a pao-to	citi-a pao-to	Send the letter	Send the letter			6.2.2.2		0			b,m,m,m
+46819	1444	Tagin	am-nam	am-nam	sew	sew	v	v	5.1		0			6659,s
+46820	1444	Tagin	ek-din-nam	ek-din-nam	shake	shake	v	v	6.7.9		0			m,6287,s
+46821	1444	Tagin	ko kupkolɯk	ko kupkolɯk	shake curry	shake curry	v	v	6.7.9		0			
+46822	1444	Tagin	kokupkolɯk-lak	kokupkolɯk-lak	Shake the curry	Shake the curry			6.7.9		0			
+46823	1444	Tagin	nar-yu-nam	nar-yu-nam	sharpen	sharpen	v	v	6.9.2		0			
+46824	1444	Tagin	ab◦nam	ab◦nam	shoot	shoot	v	v	6.2.2.1		0			2232,s
+46825	1444	Tagin	ap◦nam	ap◦nam	shoot	shoot	v	v	6.2.2.1		0			2232,s
+46826	1444	Tagin	kok-tom-nam	kok-tom-nam	shut	shut			6.2.2.6.2		0			
+46828	1444	Tagin	lok-lɯk-nam	lok-lɯk-nam	sink	sink	v	v	6.6		0			
+46829	1444	Tagin	rokdin i◦si◦lo lok-lɯk-do	rokdin i◦si◦lo lok-lɯk-do	Iron sinks in water	Iron sinks in water			3.2.4		0			m,m,189,m,m,m,m
+46830	1444	Tagin	duŋ-nam	duŋ-nam	sit	sit	v	v	6.1.1.4.1		0			1906,s
+46831	1444	Tagin	duŋ-tuŋ-nam	duŋ-tuŋ-nam	sit properly	sit properly	v	v	6.1.1.4.1		0			1906,m,s
+46832	1444	Tagin	duŋ-bɯp-nam	duŋ-bɯp-nam	sit on a slope	sit on a slope	v	v	6.1.1.4.1		0			1906,m,s
+46833	1444	Tagin	duŋ-lɯk-nam	duŋ-lɯk-nam	sit after finding a place	sit after finding a place	v	v	6.1.1.4.1		0			1906,m,s
+46834	1444	Tagin	ma-nam	ma-nam	spend (money)	spend (money)	v	v	6.22		0			
+46835	1444	Tagin	dag-nam	dag-nam	stand	stand	n	n	1.5.2		0			6286,s
+46836	1444	Tagin	dag◦rap◦to	dag◦rap◦to	Stand up	Stand up			1.5.2		0			6286,145,m
+46837	1444	Tagin	do◦co-nam	do◦co-nam	steal	steal	v	v	6.2.2.1		0			5363,6520,s
+46838	1444	Tagin	meŋcima-nam	meŋcima-nam	suspect	suspect	v	v	6.2.2.2		0			
+46841	1444	Tagin	pɤk-nam	pɤk-nam	sweep	sweep	v	v	6.2.2.5.3		0			2587,s
+46842	1444	Tagin	la-nam	la-nam	take	take	v	v	6.21		0			6421,s
+46843	1444	Tagin	na-nam	na-nam	take	take	v	v	6.21		0			6421,s
+46844	1444	Tagin	dɤ◦ka-nam	dɤka-nam	taste	taste	v	v	1.3.5.8		0			5363,m,s
+46845	1444	Tagin	miŋ-nam	miŋ-nam	think	think	v	v	8.3.1.13.1		0			6200,s
+46846	1444	Tagin	miŋ-sɯr-nam	miŋ-sɯr-nam	believe	believe	v	v	8.3.1.12.1		0			6200,m,s
+46847	1444	Tagin	miŋ-pa-nam	miŋ-pa-nam	recollect	recollect	v	v	8.3.1.16.1		0			6200,m,s
+46848	1444	Tagin	miŋ-lɯk-nam	miŋ-lɯk-nam	agree	agree	v	v	8.3.1.4.1		0			6200,m,s
+46849	1444	Tagin	miŋ-kur-nam	miŋ-kur-nam	think again / reconsider	think again / reconsider	v	v	8.3.1.13.1		0			6200,2827,s
+46851	1444	Tagin	or-nam	or-nam	throw	throw	v	v	6.12		0			3528,s
+46853	1444	Tagin	mosit-nam	mosit-nam	touch	touch			8.4		0			
+46854	1444	Tagin	no ŋo hugubɤ mosit duŋ	no ŋo hugubɤ mosit duŋ	Why do you touch me?	Why do you touch me?			4.1		0			2489,2530,m,m,m
+46855	1444	Tagin	ɟinɟin-nam	ɟinɟin-nam	tremble	tremble			6.7.3		0			
+46856	1444	Tagin	mɤki-nam	mɤki-nam	try	try	v	v	6.1.1.1		0			
+46857	1444	Tagin	oŋko-a mɤkito (ka)	oŋko-a mɤkito (ka)	Try the sum	Try the sum			6.1.1.1		0			
+46858	1444	Tagin	dak-rɯk-nam	dak-rɯk-nam	turn	turn	v	v	6.7.6		0			
+46859	1444	Tagin	ŋo◦m dak-rɯk-to (ka)	ŋo◦m dak-rɯk-to (ka)	turn to me	turn to me	v.	v.	6.7.6		0			2530,m,m,m,m,m
+46860	1444	Tagin	da-kor-nam	da-kor-nam	turn (in opposite direction)	turn (in opposite direction)	v	v	6.7.6		0			
+46861	1444	Tagin	tɤ◦cin-nam	tɤ◦cin-nam	understand	understand	v	v	8.3.1.13.1		0			m,1229,s
+46863	1444	Tagin	do-ya-nam	do-ya-nam	wait	wait	v	v	6.1.1.6		0			m,5577,s
+46864	1444	Tagin	ka-ya-nam	ka-ya-nam	wait	wait	v	v	6.1.1.6		0			m,5577,s
+46865	1444	Tagin	do-ya-lak	do-ya-lak	Wait (face to face)	Wait (face to face)	impv?	impv?	1.2.5		0			m,5577,m
+46866	1444	Tagin	ar◦kak-nam	ar◦kak-nam	wash	wash	v	v	6.2.2.5.2		0			3519,6680,s
+46867	1444	Tagin	a◦rak-nam	arak-nam	wash cloth	wash cloth	v	v	6.2.2.5.2		0			
+46868	1444	Tagin	eɟi-a ar◦kak-lak	eɟi-a ar◦kak-lak	Wash the cloth	Wash the cloth			6.2.2.5.2		0			m,m,3519,6680,m
+46869	1444	Tagin	mo◦kak-nam	mokak-nam	wash room	wash room	v	v	6.2.2.5.2		0			m,6182,s
+46870	1444	Tagin	kab-nam	kab-nam	weep	weep	v	v	1.8.8.2		0			1103,s
+46871	1444	Tagin	kɯ-nam	kɯ-nam	weigh	weigh	v	v	9.8		0			
+46873	1444	Tagin	rɯ-nam	rɯ-nam	work	work	v	v	6.1.1		0			
+46874	1444	Tagin	ui mo-nam	ui mo-nam	worship (of spirit)	worship (of spirit)			5.8.1.3		0			
+46875	1444	Tagin	dami-su-nam	dami-su-nam	wrestle	wrestle			6.5		0			
+46877	1444	Tagin	damisu-nɤ	damisu-nɤ	wrestler	wrestler	n	n	6.5		0			
+146604	1444	Tagin	o-terr-nam	o-terr-nam	break leg (by falling from above)	break leg (by falling from above)			9.5		0			
+146605	1444	Tagin	ka-ru-nam	ka-ru-nam	peep through a hole, window etc.	peep through a hole, window etc.	v	v	8.5.5		0			6373,2070,s
+146606	1444	Tagin	po◦bɯm	po◦bɯm	basket for keeping country liquor	basket for keeping country liquor			5.1		0			6526,m
+146607	1444	Tagin	pobɤ	pobɤ	in one side of the room for keeping things	in one side of the room for keeping things			10.1.1		0			
+146608	1444	Tagin	nyoduŋ	nyoduŋ	sleeping place for woman (side of hearth)	sleeping place for woman (side of hearth)			1.1.4.1		0			
+146609	1444	Tagin	byagu	byagu	sleeping place for male (side of hearth)	sleeping place for male (side of hearth)			1.1.4.1		0			
+146610	1444	Tagin	odɯŋ	odɯŋ	sleeping place for guest (side of hearth)	sleeping place for guest (side of hearth)			1.1.4.1		0			
+146611	1444	Tagin	nyosu	nyosu	sleeping place for guest (side of hearth)	sleeping place for guest (side of hearth)			1.1.4.1		0			
+146612	1444	Tagin	caliŋ	caliŋ	rat (red, smaller than kola / kuti)	rat (red, smaller than kola / kuti)			2.1.1		0			
+146613	1444	Tagin	koɟak	koɟak	rat (tail longer than kola, kuti)	rat (tail longer than kola, kuti)			2.1.1		0			
+146614	1444	Tagin	tayin	tayin	waist belt of cloth covered with kouri	waist belt of cloth covered with kouri			10.1.1		0			
+146615	1444	Tagin	roŋbin	roŋbin	ear ornament worn by woman (light)	ear ornament worn by woman (light)			1.2.7		0			
+146616	1444	Tagin	raɟu	raɟu	ear ornament worn by woman (heavy)	ear ornament worn by woman (heavy)			1.2.7		0			
+146621	1444	Tagin	pa-nam	pa-nam	cut tree (with a dao) patuŋsutoka	cut tree (with a dao) patuŋsutoka	vt	vt	6.9.3		0			6504,s
+146622	1444	Tagin	pɤ-nam	pɤ-nam	cut tree (by rubbing with a dao)	cut tree (by rubbing with a dao)	vt	vt	6.9.3		0			
+146623	1444	Tagin	mo◦di dumpumtɤ ta◦pam karik	mo◦di dumpumtɤ ta◦pam karik	The ice dazzles on the top of the mountain	The ice dazzles on the top of the mountain			10.0		0		D1	6470,6222,m,p,6505,m
+146626	1444	Tagin	dakarr-nam	dakarr-nam	pulis ŋulu-a dakarr-to 'The police surrounded us'	pulis ŋulu-a dakarr-to 'The police surrounded us'			2.1.11		0		D1	e
+146633	1444	Tagin	mo-tup-nam	mo-tup-nam	close the mouth of the bottle by cork etc.	close the mouth of the bottle by cork etc.	v	v	10.0		0			

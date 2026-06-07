@@ -1,878 +1,878 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-39650	505	Darang [Taraon]	tɯ³¹ kiɯ⁵⁵	tɯ³¹ kiɯ⁵⁵	left	left		1.5.3.2		0		m,5624
-39651	505	Darang [Taraon]	tɯ³¹ tɕɑ⁵⁵	tɯ³¹ tɕɑ⁵⁵	right	right		1.5.3.2		0		
-39652	505	Darang [Taraon]	tʰɯ³¹ boŋ³⁵	tʰɯ³¹ boŋ³⁵	center	center		1.9.4		0		m,2111
-39653	505	Darang [Taraon]	mɑ³¹ nɑ⁵³	mɑ³¹ nɑ⁵³	egg	egg				0		
-39654	505	Darang [Taraon]	mɑ³¹ jiŋ⁵³	mɑ³¹ jiŋ⁵³	yolk	yolk				0		
-39655	505	Darang [Taraon]	jim³⁵	jim³⁵	wing, fly	wing, fly	v.	1.5.1.3		0		R
-39656	505	Darang [Taraon]	m̩⁵⁵	m̩⁵⁵	fur	fur		1.6.1		0		363
-39657	505	Darang [Taraon]	tɑ³¹ pʰin³⁵	tɑ³¹ pʰin³⁵	wool (yangmao)	wool (yangmao)		1.6.1.3		0		
-39658	505	Darang [Taraon]	m̩⁵⁵	m̩⁵⁵	feathers	feathers		1.6.1.1		0		363
-39659	505	Darang [Taraon]	ɕi⁵⁵	ɕi⁵⁵	claw	claw		1.5.10.4		0		515
-39660	505	Darang [Taraon]	gɹoŋ⁵³ tioŋ⁵⁵	gɹoŋ⁵³ tioŋ⁵⁵	hoof	hoof		1.5.4		0		5621,m
-39661	505	Darang [Taraon]	ɹɑu⁵⁵	ɹɑu⁵⁵	horn	horn		1.2.2		0		814
-39662	505	Darang [Taraon]	lɯ³¹|mɯn⁵⁵	lɯ³¹|mɯn⁵⁵	tail	tail		1.4.10.1		0		1288
-39663	505	Darang [Taraon]	mɑ³¹ tɕu⁵³ ɹɑu⁵⁵	mɑ³¹ tɕu⁵³ ɹɑu⁵⁵	antler	antler		1.2.2		0		m,m,819
-39664	505	Darang [Taraon]	ɑ³¹ dzɑɯ³⁵	ɑ³¹ dzɑɯ³⁵	cock's comb	cock's comb		1.2.2.1		0		
-39665	505	Darang [Taraon]	a³¹ ju⁵³	a³¹ ju⁵³	dewlap	dewlap		1.4.2		0		
-39667	505	Darang [Taraon]	tiɯŋ⁵⁵	tiɯŋ⁵⁵	body	body		1.1.1		0		6
-39668	505	Darang [Taraon]	tʰɯŋ⁵⁵	tʰɯŋ⁵⁵	corpse (shi)	corpse (shi)		1.1.6.1		0		23
-39669	505	Darang [Taraon]	kɹu⁵³	kɹu⁵³	head	head		1.2.1		0		1221
-39670	505	Darang [Taraon]	mɑ³¹ plɑŋ³⁵	mɑ³¹ plɑŋ³⁵	forehead	forehead		1.2.5.1		0		m,392
-39671	505	Darang [Taraon]	tɑ³¹ kueŋ⁵³	tɑ³¹ kueŋ⁵³	wrinkle	wrinkle		9.6.2		0		
-39672	505	Darang [Taraon]	tɯi⁵⁵ ɑ⁵⁵ mɑ³¹ ŋɑ³⁵	tɯi⁵⁵ ɑ⁵⁵ mɑ³¹ ŋɑ³⁵	five organs (wuguan)	five organs (wuguan)		9.9		0		m,m,p,1306
-39673	505	Darang [Taraon]	tʰɯŋ³⁵	tʰɯŋ³⁵	hair (head)	hair (head)		1.2.3		0		371
-39674	505	Darang [Taraon]	tʰɯŋ³⁵ plɯ⁵⁵	tʰɯŋ³⁵ plɯ⁵⁵	braid	braid		1.2.3.2		0		371,2018
-39675	505	Darang [Taraon]	pɯ³¹ ȵɯm⁵⁵	pɯ³¹ ȵɯm⁵⁵	brain	brain		1.2.4		0		252,5554
-39676	505	Darang [Taraon]	ȵɑŋ⁵⁵	ȵɑŋ⁵⁵	face	face		1.2.5		0		
-39677	505	Darang [Taraon]	bɯ³¹|ɹu⁵⁵	bɯ³¹|ɹu⁵⁵	cheek	cheek		1.2.5.2		0		2047
-39678	505	Darang [Taraon]	tɑ³¹ kɯ³¹ lo⁵⁵	tɑ³¹ kɯ³¹ lo⁵⁵	dimple (jiuwo)	dimple (jiuwo)		1.2.5		0	E	e
-39679	505	Darang [Taraon]	kɑ³¹ pɯŋ⁵⁵ ɹɯ³¹ boŋ³⁵	kɑ³¹ pɯŋ⁵⁵ ɹɯ³¹ boŋ³⁵	cheekbone	cheekbone		1.2.5.2		0		273,264,232,263
-39680	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵ m̩⁵⁵	bɯ³¹|lɯm⁵⁵ m̩⁵⁵	eyebrow	eyebrow		1.2.6.6		0		1427,363
-39681	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵	bɯ³¹|lɯm⁵⁵	eye	eye		1.2.6		0		1427
-39682	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵ ɑ³¹ goŋ³⁵	bɯ³¹|lɯm⁵⁵ ɑ³¹ goŋ³⁵	pupil	pupil		1.2.6.2		0		1427,p,m
-39683	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵ tɯ³¹ bɹoŋ³⁵	bɯ³¹|lɯm⁵⁵ tɯ³¹ bɹoŋ³⁵	eyeball	eyeball		1.2.6.1		0		1427,m,m
-39684	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵ tɑ³¹ kueŋ⁵³	bɯ³¹|lɯm⁵⁵ tɑ³¹ kueŋ⁵³	eye socket	eye socket		1.2.6		0		1427,m,m
-39685	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵ ko⁵⁵	bɯ³¹|lɯm⁵⁵ ko⁵⁵	eyelid	eyelid		1.2.6.4		0		1427,589
-39686	505	Darang [Taraon]	xɑ³¹ niɑ⁵³ pɯm⁵⁵	xɑ³¹ niɑ⁵³ pɯm⁵⁵	nose	nose		1.2.8		0		p,803,806
-39687	505	Darang [Taraon]	pɹeŋ³⁵	pɹeŋ³⁵	strength	strength		1.1.5		0		1842
-39688	505	Darang [Taraon]	xɑ³¹ ȵɑŋ³¹ gɯm⁵⁵	xɑ³¹ ȵɑŋ³¹ gɯm⁵⁵	bridge of nose	bridge of nose		9.10.2		0		
-39689	505	Darang [Taraon]	kɹu⁵³ nɑŋ³⁵	kɹu⁵³ nɑŋ³⁵	ear	ear		1.2.7		0		1221,811
-39690	505	Darang [Taraon]	tʰɯ³¹ɹɯm⁵³bɯm³⁵	tʰɯ³¹ɹɯm⁵³bɯm³⁵	mouth	mouth		1.3.1		0		m,m,2039
-39691	505	Darang [Taraon]	kʰɑ³¹ lo⁵³	kʰɑ³¹ lo⁵³	palate (shang'e)	palate (shange)		1.3.1.1		0		273,488
-39692	505	Darang [Taraon]	lɑŋ³⁵	lɑŋ³⁵	tooth	tooth		1.3.4		0		1728
-39693	505	Darang [Taraon]	kuɑɯ⁵³ laŋ³⁵	kuɑɯ⁵³ laŋ³⁵	tooth (canine)	tooth (canine)		1.3.4		0		1764,1728
-39694	505	Darang [Taraon]	tiŋ⁵³ kueŋ⁵³	tiŋ⁵³ kueŋ⁵³	molar	molar		1.3.4.2		0		3316,637
-39695	505	Darang [Taraon]	tʰɯ³¹ liɯŋ⁵³ nɑ³⁵	tʰɯ³¹ liɯŋ⁵³ nɑ³⁵	tongue	tongue		1.3.3		0		p,625,m
-39696	505	Darang [Taraon]	tʰɯ³¹ tiɑ⁵⁵	tʰɯ³¹ tiɑ⁵⁵	chin	chin		1.2.5.3		0		280,286
-39697	505	Darang [Taraon]	tʰɯ³¹ ɹɯm⁵³| m̩⁵⁵	tʰɯ³¹ ɹɯm⁵³| m̩⁵⁵	beard	beard		1.2.5.5		0		262,363
-39698	505	Darang [Taraon]	pɑ³¹ ŋ̊ŋˌ⁵⁵	pɑ³¹ ŋ̊ŋˌ⁵⁵	neck	neck		1.4.2		0		m,483
-39699	505	Darang [Taraon]	kʰɑ³¹ diɯŋ⁵³ ɹɑ⁵⁵	kʰɑ³¹ diɯŋ⁵³ ɹɑ⁵⁵	neck	neck		1.4.2		0		494,822,484
-39700	505	Darang [Taraon]	ɕɯ⁵³ tɯ³¹ gɹo⁵³	ɕɯ⁵³ tɯ³¹ gɹo⁵³	throat	throat		1.3.5		0		m,822,488
-39701	505	Darang [Taraon]	tɯ⁵⁵ bɑ³¹	tɯ⁵⁵ bɑ³¹	goiter	goiter		1.4.2.2		0		359,1854
-39702	505	Darang [Taraon]	kʰɯ⁵⁵ liɯŋ³⁵ pɑ³⁵	kʰɯ⁵⁵ liɯŋ³⁵ pɑ³⁵	shoulder	shoulder		1.4.3		0		m,563,570
-39703	505	Darang [Taraon]	lɑ⁵³ kɹɑu⁵³	lɑ⁵³ kɹɑu⁵³	elbow	elbow		1.5.8.3		0		
-39704	505	Darang [Taraon]	bu⁵⁵ jɑ³⁵	bu⁵⁵ jɑ³⁵	fist	fist		1.5.1.1.1		0		m,696
-39705	505	Darang [Taraon]	ɑ³¹ tio⁵⁵	ɑ³¹ tio⁵⁵	hand	hand		1.5.1.1		0		p,699
-39706	505	Darang [Taraon]	ɑ³¹ bɹɯŋ⁵⁵	ɑ³¹ bɹɯŋ⁵⁵	finger	finger		1.5.6		0		p,329
-39707	505	Darang [Taraon]	ɑ³¹ tiɯŋ⁵⁵	ɑ³¹ tiɯŋ⁵⁵	thumb	thumb		1.5.6.1		0		
-39708	505	Darang [Taraon]	ɑ³¹ tiɑi⁵³	ɑ³¹ tiɑi⁵³	little finger	little finger		9.7.2		0		
-39709	505	Darang [Taraon]	ɑ³¹ ɬɯn⁵⁵	ɑ³¹ ɬɯn⁵⁵	fingernail	fingernail		1.5.10.1		0		
-39710	505	Darang [Taraon]	tɑ⁵⁵ plɑŋ⁵⁵	tɑ⁵⁵ plɑŋ⁵⁵	callus (yingzi)	callus (yingzi)		1.6.5.3		0		
-39711	505	Darang [Taraon]	kɯ³¹ tsɯm⁵⁵	kɯ³¹ tsɯm⁵⁵	chest	chest		1.4.4.3		0		560,299
-39712	505	Darang [Taraon]	kɯ³¹ xɹɑɯ⁵³	kɯ³¹ xɹɑɯ⁵³	flesh and bones;	flesh and bones;		1.1.1.1		0		m
-39713	505	Darang [Taraon]	plɯn⁵³	plɯn⁵³	back	back		1.4.8		0		209
-39714	505	Darang [Taraon]	xɑ⁵⁵ ɹoŋ⁵⁵	xɑ⁵⁵ ɹoŋ⁵⁵	vertebrae (beiji)	vertebrae (beiji)		1.6.3.3		0		
-39715	505	Darang [Taraon]	kɯ³¹ jɯŋ⁵⁵	kɯ³¹ jɯŋ⁵⁵	belly	belly		1.4.7		0		m,m
-39716	505	Darang [Taraon]	ɑ³¹ tʰɯ⁵⁵ kɹɯ³⁵	ɑ³¹ tʰɯ⁵⁵ kɹɯ³⁵	waist	waist		1.4.6		0		p,m,221
-39717	505	Darang [Taraon]	gɹoŋ⁵³	gɹoŋ⁵³	foot	foot		1.5.2		0		5621
-39718	505	Darang [Taraon]	gɹoŋ⁵³ ti⁵⁵	gɹoŋ⁵³ ti⁵⁵	heel	heel		1.5.2.1		0		5621,300
-39719	505	Darang [Taraon]	xɑ⁵⁵	xɑ⁵⁵	thigh (datui)	thigh (datui)		1.5.7.1		0		
-39720	505	Darang [Taraon]	pʰɑ³¹ bɯm⁵⁵	pʰɑ³¹ bɯm⁵⁵	knee (qigai)	knee (qigai)		1.5.8.4		0		
-39721	505	Darang [Taraon]	gɹoŋ⁵³ kʰɑ⁵⁵	gɹoŋ⁵³ kʰɑ⁵⁵	back of knee	back of knee		1.4.8		0		5621,m
-39722	505	Darang [Taraon]	gɹoŋ⁵³ ɕɯŋ³⁵	gɹoŋ⁵³ ɕɯŋ³⁵	lower leg (xiaotui)	lower leg (xiaotui)				0	W	5621,m
-39723	505	Darang [Taraon]	gɹoŋ⁵³ m̩⁵⁵	gɹoŋ⁵³ m̩⁵⁵	calf (xiaoduzi)	calf (xiaoduzi)		1.5.7		0		
-39724	505	Darang [Taraon]	gɹoŋ⁵³ bɯ³¹|lɯm⁵⁵	gɹoŋ⁵³ bɯ³¹ lɯm⁵⁵	ankle	ankle		1.5.8.2		0		5621,1427
-39725	505	Darang [Taraon]	ko⁵⁵	ko⁵⁵	skin	skin		1.6.5		0		589
-39726	505	Darang [Taraon]	ɹɯ³¹ boŋ³⁵	ɹɯ³¹ boŋ³⁵	bone	bone		1.6.3		0		232,1469
-39727	505	Darang [Taraon]	ɹu⁵³ su⁵³	ɹu⁵³ su⁵³	marrow	marrow		1.6.3.5		0		232,5485
-39728	505	Darang [Taraon]	sɑ⁵⁵	sɑ⁵⁵	muscle	muscle		1.6.6.2		0		530
-39729	505	Darang [Taraon]	xɑ³¹ ɹuɑi⁵³	xɑ³¹ ɹuɑi⁵³	blood	blood		1.6.2		0		230,230
-39730	505	Darang [Taraon]	jiŋ⁵³ kɑ³¹ weŋ⁵³	jiŋ⁵³ kɑ³¹ weŋ⁵³	stomach	stomach		1.7.6		0		2119,2123,m
-39731	505	Darang [Taraon]	tɑ³¹ pleŋ⁵⁵	tɑ³¹ pleŋ⁵⁵	spleen (pi)	spleen (pi)		1.7.4		0		
-39732	505	Darang [Taraon]	ɕi⁵⁵	ɕi⁵⁵	kidneys	kidneys		1.7.5		0		
-39733	505	Darang [Taraon]	kɯ³¹ ɬɑi⁵⁵	kɯ³¹ ɬɑi⁵⁵	intestines	intestines		1.7.7		0		572,m
-39734	505	Darang [Taraon]	xɑ³¹ po⁵⁵ tiɑi⁵³	xɑ³¹ po⁵⁵ tiɑi⁵³	heart	heart		1.7.1		0		p,m,1019
-39735	505	Darang [Taraon]	ɹu⁵⁵ xɑ³¹ tiɑi⁵³	ɹu⁵⁵ xɑ³¹ tiɑi⁵³	liver	liver		1.7.3		0		m,m,m
-39736	505	Darang [Taraon]	xɑ³¹ po⁵⁵	xɑ³¹ po⁵⁵	lungs	lungs		1.7.2		0		
-39737	505	Darang [Taraon]	tʰɯ³¹ mɯn⁵⁵	tʰɯ³¹ mɯn⁵⁵	gall	gall		1.7.3.1		0		m,m
-39738	505	Darang [Taraon]	ɑ³¹ tʰiɯ⁵⁵	ɑ³¹ tʰiɯ⁵⁵	bladder	bladder		1.7.8		0		p,m
-39739	505	Darang [Taraon]	ɑ⁵⁵ po⁵⁵	ɑ⁵⁵ po⁵⁵	placenta	placenta				0		m,1733
-39740	505	Darang [Taraon]	xɑ³¹ u⁵⁵	xɑ³¹ u⁵⁵	sweat	sweat		1.8.1		0		4513,m
-39741	505	Darang [Taraon]	nɑ³¹ dɯi⁵⁵	nɑ³¹ dɯi⁵⁵	mucus	mucus		1.8.2		0		
-39742	505	Darang [Taraon]	nɑ³¹ kʰɑ⁵³	nɑ³¹ kʰɑ⁵³	phlegm	phlegm		1.8.3		0		m,540
-39743	505	Darang [Taraon]	kʰɯ³¹ lɑi³⁵	kʰɯ³¹ lɑi³⁵	saliva	saliva		1.8.3		0		m,607
-39744	505	Darang [Taraon]	wo³¹ mɑ⁵⁵	wo³¹ mɑ⁵⁵	milk	milk				0		3464,s
-39745	505	Darang [Taraon]	klɑi⁵³	klɑi⁵³	shit	shit		1.8.5		0		572
-39746	505	Darang [Taraon]	kɯ³¹ tɕɯŋ⁵⁵	kɯ³¹ tɕɯŋ⁵⁵	urine	urine		1.8.4		0		p,650
-39747	505	Darang [Taraon]	kɯ³¹ bɹɑi⁵³	kɯ³¹ bɹɑi⁵³	fart	fart		1.8.5.2		0		m,575
-39748	505	Darang [Taraon]	wɑ⁵³	wɑ⁵³	wound (shangkou)	wound (shangkou)		1.8.6.2		0		
-39749	505	Darang [Taraon]	wɑ⁵⁵ poŋ⁵⁵	wɑ⁵⁵ poŋ⁵⁵	scar (shangba)	scar (shangba)		1.6.5.3		0		
-39750	505	Darang [Taraon]	mɑ⁵⁵ lau⁵³	mɑ⁵⁵ lau⁵³	ulcer, sore	ulcer, sore		1.8.6.2		0		1788,m
-39751	505	Darang [Taraon]	bu⁵⁵	bu⁵⁵	pus	pus		1.8.6.1		0		1293
-39752	505	Darang [Taraon]	tɑ³¹ tɯi⁵⁵	tɑ³¹ tɯi⁵⁵	mole (heizhi)	mole (heizhi)		2.2.7		0		
-39753	505	Darang [Taraon]	tɑ³¹ tsɯn⁵³	tɑ³¹ tsɯn⁵³	spot (xiaogedan)	spot (xiaogedan)		6.2		0		
-39754	505	Darang [Taraon]	tɑ³¹ tɯi⁵⁵	tɑ³¹ tɯi⁵⁵	wart (houzi)	wart (houzi)		1.6.5.3		0		
-39755	505	Darang [Taraon]	mɑ³¹ so⁵³	mɑ³¹ so⁵³	ringworm, tinea	ringworm, tinea		2.2.6		0		
-39756	505	Darang [Taraon]	xɑ³¹ po⁵⁵ ȵɑŋ³⁵	xɑ³¹ po⁵⁵ ȵɑŋ³⁵	tuberculosis	tuberculosis		1.5.3.2		0		m,b,160
-39757	505	Darang [Taraon]	mɑ³¹ sɯ⁵⁵	mɑ³¹ sɯ⁵⁵	influenza, cold	influenza, cold		5.3		0		
-39758	505	Darang [Taraon]	ɹɯŋ tɑ³¹ kɑu³⁵	ɹɯŋ tɑ³¹ kɑu³⁵	leprosy	leprosy		5.3		0		
-39759	505	Darang [Taraon]	bɯ³¹ |lɯm⁵⁵ tsɑu⁵⁵	bɯ³¹ |lɯm⁵⁵ tsɑu⁵⁵	blind person	blind person		1.2.6.14.2		0		1427
-39760	505	Darang [Taraon]	kɑ³¹ pɑ⁵⁵	kɑ³¹ pɑ⁵⁵	deaf person	deaf person		1.2.7.5		0		1752,s
-39761	505	Darang [Taraon]	kɑ³¹ pɑ⁵⁵	kɑ³¹ pɑ⁵⁵	mute person	mute person		1.5.3.2		0		1752,s
-39762	505	Darang [Taraon]	tɑ³¹ me³⁵ jɑ³¹ me³⁵	tɑ³¹ me³⁵ jɑ³¹ me³⁵	insane person	insane person		8.3.1.11.3		0		
-39763	505	Darang [Taraon]	gɹoŋ⁵³ ɑ³¹ be³⁵	gɹoŋ⁵³ ɑ³¹ be³⁵	lame person	lame person		1.5.12		0		
-39764	505	Darang [Taraon]	tɑ³¹ tsɯn⁵³	tɑ³¹ tsɯn⁵³	pockmarked person	pockmarked person		1.6.5.4		0		
-39765	505	Darang [Taraon]	tɯ³¹ kɯ⁵³ ɑ³¹ xo⁵³	tɯ³¹ kɯ⁵³ ɑ³¹ xo⁵³	scarred person	scarred person		1.6.5.4		0		
-39766	505	Darang [Taraon]	u⁵⁵ ku⁵⁵ dɑ⁵⁵	u⁵⁵ ku⁵⁵ dɑ⁵⁵	hunchback (tuobei)	hunchback (tuobei)		1.4.8.3		0		m,m,m
-39767	505	Darang [Taraon]	tɑ³¹ so⁵³	tɑ³¹ so⁵³	oil	oil		1.6.4.1		0		m,42
-39768	505	Darang [Taraon]	tɑ³¹ bɹeŋ⁵³	tɑ³¹ bɹeŋ⁵³	meat, flesh	meat, flesh		1.1.1.1		0		47,37
-39769	505	Darang [Taraon]	tɑ³¹ so⁵³	tɑ³¹ so⁵³	lard (suyou)	lard (suyou)		1.6.4.1		0		
-39770	505	Darang [Taraon]	kɯ³¹ pʰɹɑm⁵⁵	kɯ³¹ pʰɹɑm⁵⁵	milk dregs	milk dregs				0		
-39771	505	Darang [Taraon]	xɑ³¹ po⁵⁵ ȵɑŋ³⁵	xɑ³¹ po⁵⁵ ȵɑŋ³⁵	pneumonia (feibing)	pneumonia (feibing)		5.3		0		
-39772	505	Darang [Taraon]	mɑ³¹ sɯ⁵⁵	mɑ³¹ sɯ⁵⁵	influenza (ganmao)	influenza (ganmao)		5.3		0		
-39773	505	Darang [Taraon]	ɹɯŋ⁵⁵ tɑ³¹ kɑu³⁵	ɹɯŋ⁵⁵ tɑ³¹ kɑu³⁵	leprosy	leprosy		5.3		0		
-39774	505	Darang [Taraon]	tɯ³¹ kɯ⁵⁵	tɯ³¹ kɯ⁵⁵	speech (hua)	speech (hua)		1.8.7		0		
-39775	505	Darang [Taraon]	ɕɯ⁵⁵	ɕɯ⁵⁵	breath	breath		1.1.2.2		0		32
-39776	505	Darang [Taraon]	kʰɹɑ⁵³	kʰɹɑ⁵³	sound (of animals)	sound (of animals)		9.3		0		
-39777	505	Darang [Taraon]	xɑ³¹ tiɑɯ⁵⁵ sɯŋ⁵³	xɑ³¹ tiɑɯ⁵⁵ sɯŋ⁵³	shadow	shadow		3.2.10		0		
-39778	505	Darang [Taraon]	sa⁵⁵ tʰu⁵³	sa⁵⁵ tʰu⁵³	pulse	pulse		1.7.1.1		0		
-39779	505	Darang [Taraon]	xueŋ⁵³	xueŋ⁵³	look at	look at		1.2.6.11		0		1229
-39780	505	Darang [Taraon]	kɑ³¹ tiɯŋ⁵³	kɑ³¹ tiɯŋ⁵³	see (jiandao)	see (jiandao)		1.2.6.10		0		p,1402
-39781	505	Darang [Taraon]	tʰɑ³¹ ɹɯŋ⁵⁵	tʰɑ³¹ ɹɯŋ⁵⁵	listen	listen		1.2.7.4		0		1408,m
-39782	505	Darang [Taraon]	tʰɑ³¹ tiɯŋ⁵³	tʰɑ³¹ tiɯŋ⁵³	hear	hear		1.2.7.4		0		1408,m
-39783	505	Darang [Taraon]	tʰɑ⁵³	tʰɑ⁵³	eat	eat		1.5.3.2		0		36
-39784	505	Darang [Taraon]	tim³⁵	tim³⁵	drink (yin)	drink (yin)				0		502
-39785	505	Darang [Taraon]	tʰɑɯ⁵³	tʰɑɯ⁵³	hold in mouth	hold in mouth		1.3.4.4		0		
-39786	505	Darang [Taraon]	tie⁵³	tie⁵³	bite	bite		1.3.4.4		0		
-39787	505	Darang [Taraon]	kɹi⁵³	kɹi⁵³	chew cud	chew cud		1.3.4		0		
-39788	505	Darang [Taraon]	lio⁵³	lio⁵³	lick	lick		1.3.3.1		0		629
-39789	505	Darang [Taraon]	lie³⁵	lie³⁵	stick out (tongue)	stick out (tongue)		3.1.2		0		
-39790	505	Darang [Taraon]	du⁵⁵	du⁵⁵	suck (milk)	suck (milk)		1.3.2.1		0		3466
-39791	505	Darang [Taraon]	pɹɑɯ⁵⁵	pɹɑɯ⁵⁵	kiss	kiss		1.3.2.2		0		
-39792	505	Darang [Taraon]	blɑi⁵³	blɑi⁵³	swallow	swallow (v.)	v	1.3.5.6		0		
-39793	505	Darang [Taraon]	me⁵³	me⁵³	vomit	vomit		1.8.3.2		0		1782
-39794	505	Darang [Taraon]	mɯŋ⁵⁵	mɯŋ⁵⁵	blow (air)	blow (air)		1.3.1.4		0		1732
-39795	505	Darang [Taraon]	mɑ³¹ ɹo⁵⁵	mɑ³¹ ɹo⁵⁵	say	say		1.8.7		0		
-39796	505	Darang [Taraon]	nɯŋ³⁵	nɯŋ³⁵	smell, sniff	smell, sniff		1.2.8.5		0		1415
-39797	505	Darang [Taraon]	n̩⁵³	n̩⁵³	sleep	sleep		1.1.4.1		0		130
-39798	505	Darang [Taraon]	mɑ³¹ ɹɑ⁵⁵	mɑ³¹ ɹɑ⁵⁵	laugh	laugh		1.8.8.1		0		p,1108
-39799	505	Darang [Taraon]	kʰɹo⁵³	kʰɹo⁵³	cry, weep	cry, weep		1.8.8.2		0		1103
-39800	505	Darang [Taraon]	pɹoŋ³⁵	pɹoŋ³⁵	raise (children)	raise (children)		6.7.7		0		
-39801	505	Darang [Taraon]	ɑ³¹ sɯŋ⁵⁵	ɑ³¹ sɯŋ⁵⁵	grow (up)	grow (up)		9.7.2		0		
-39802	505	Darang [Taraon]	ȵɑŋ³⁵	ȵɑŋ³⁵	get sick	get sick		1.1.5		0		
-39803	505	Darang [Taraon]	do⁵⁵	do⁵⁵	cough	cough		1.8.3.3		0		
-39804	505	Darang [Taraon]	xɑ³¹ ȵoŋ⁵⁵	xɑ³¹ ȵoŋ⁵⁵	sneeze	sneeze		1.8.2.1		0		
-39805	505	Darang [Taraon]	ȵim⁵⁵ ɑ³¹	ȵim⁵⁵ ɑ³¹	burp	burp		1.8.3		0		
-39806	505	Darang [Taraon]	xɑ³¹ glɯm⁵³	xɑ³¹ glɯm⁵³	shake	shake		6.7.9		0		
-39807	505	Darang [Taraon]	plɯŋ⁵⁵	plɯŋ⁵⁵	swell up	swell up		1.1.5.2		0		111
-39808	505	Darang [Taraon]	ɑ³¹ sɯŋ⁵⁵	ɑ³¹ sɯŋ⁵⁵	alive, live	alive, live		1.1.2.1		0		p,71
-39809	505	Darang [Taraon]	ɕi⁵⁵	ɕi⁵⁵	die	die		1.1.6		0		27
-39810	505	Darang [Taraon]	bɹɯn⁵⁵ jɑ⁵³	bɹɯn⁵⁵ jɑ⁵³	sacrifice	sacrifice		5.8.1.3		0		
-39811	505	Darang [Taraon]	kɯ³¹ tɕɯŋ⁵⁵	kɯ³¹ tɕɯŋ⁵⁵	urinate	urinate		1.5.3.2		0		p,650
-39812	505	Darang [Taraon]	liɯ³⁵	liɯ³⁵	defecate	defecate		1.8.5.4		0		
-39813	505	Darang [Taraon]	jim³⁵	jim³⁵	fly	fly	v	2.2.6		0		2588
-39814	505	Darang [Taraon]	diɯŋ⁵³	diɯŋ⁵³	fat (of people)	fat (of people)		1.6.4		0		
-39815	505	Darang [Taraon]	gɑu⁵³ ɕoŋ³⁵	gɑu⁵³ ɕoŋ³⁵	lean	lean		1.1.1		0		m,m
-39816	505	Darang [Taraon]	dioŋ³⁵	dioŋ³⁵	full (food)	full (food)		1.1.3.2		0		132
-39817	505	Darang [Taraon]	nɑ³¹ tioŋ⁵³	nɑ³¹ tioŋ⁵³	hungry	hungry		1.1.3		0		
-39818	505	Darang [Taraon]	kɑ³¹ lo³⁵	kɑ³¹ lo³⁵	sated, too full (ni)	sated, too full (ni)		1.1.3.2		0		115,m
-39819	505	Darang [Taraon]	tɯ³¹ kɯ⁵⁵ ɕoŋ⁵³	tɯ³¹ kɯ⁵⁵ ɕoŋ⁵³	thirsty	thirsty		1.1.3.1		0		m,105,m
-39820	505	Darang [Taraon]	giɑi⁵³	giɑi⁵³	tired	tired		9.6.2.2		0		
-39821	505	Darang [Taraon]	mɑ³¹ so⁵³|	mɑ³¹ so⁵³|	itchy	itchy		1.6.5.5		0		1457
-39822	505	Darang [Taraon]	pɑɯ⁵⁵	pɑɯ⁵⁵	numb (mamu)	numb (mamu)		1.5.11		0		
-39823	590	Kaman [Miju]	kɯ³¹ wɑi⁵³	kɯ³¹ wɑi⁵³	left	left		1.5.3.2		0		m,2154
-39824	590	Kaman [Miju]	kɯ³¹ jɑu⁵³	kɯ³¹ jɑu⁵³	right	right		1.5.3.2		0		m,2786
-39825	590	Kaman [Miju]	pɑ³¹ tɯ³¹| lɑi⁵⁵|	pɑ³¹ tɯ³¹| lɑi⁵⁵|	center	center		1.9.4		0		517
-39826	590	Kaman [Miju]	kɹɑi⁵⁵ sit⁵⁵	kɹɑi⁵⁵ sit⁵⁵	egg	egg				0		1606,1607
-39827	590	Kaman [Miju]	kɹɑi⁵⁵ lo⁵⁵	kɹɑi⁵⁵ lo⁵⁵	yolk	yolk				0		
-39828	590	Kaman [Miju]	ŋkʰloŋ³⁵	ŋkʰloŋ³⁵	wing	wing		1.5.1.3		0		1435
-39829	590	Kaman [Miju]	bɯl³⁵	bɯl³⁵	fur	fur		1.6.1		0		m
-39830	590	Kaman [Miju]	bɯl³⁵	bɯl³⁵	feathers	feathers		1.6.1.1		0		m
-39831	590	Kaman [Miju]	bɑn³⁵	bɑn³⁵	wool (yangmao)	wool (yangmao)		1.6.1.3		0		
-39832	590	Kaman [Miju]	ntsʰɑ̆n⁵³	ntsʰɑ̆n⁵³	claw	claw		1.5.10.4		0		
-39833	590	Kaman [Miju]	biup³⁵	biup³⁵	hoof	hoof		1.5.4		0		
-39834	590	Kaman [Miju]	kɹɑ̆ŋ³⁵	kɹɑ̆ŋ³⁵	horn	horn		1.2.2		0		814
-39835	590	Kaman [Miju]	ɑ³¹ mɑ̆i⁵⁵	ɑ³¹ mɑ̆i⁵⁵	tail	tail		1.4.10.1		0		p,1288
-39836	590	Kaman [Miju]	ɑ³¹ ju⁵³	ɑ³¹ ju⁵³	dewlap	dewlap		1.4.2		0		
-39837	590	Kaman [Miju]	li⁵⁵ xuŋ⁵⁵ bɯl³⁵	li⁵⁵ xuŋ⁵⁵ bɯl³⁵	pig bristles	pig bristles		2.1.12		0		6019,m,m
-39838	590	Kaman [Miju]	ȵtɕʰin⁵³	ȵtɕʰin⁵³	cock's comb	cock's comb		1.2.2.1		0		
-39839	590	Kaman [Miju]	dʑɑl³⁵	dʑɑl³⁵	cock's comb	cock's comb		1.2.2.1		0		
-39840	590	Kaman [Miju]	tɯ³¹ sɑ̌u⁵³ kɹɑ̌ŋ³⁵	tɯ³¹ sɑ̌u⁵³ kɹɑ̌ŋ³⁵	antler	antler		1.2.2		0		m,m,814
-39841	590	Kaman [Miju]	ɕɑ̆i⁵³	ɕɑ̆i⁵³	body	body		1.1.1		0		34
-39842	590	Kaman [Miju]	dzɑl³⁵	dzɑl³⁵	corpse (shi)	corpse (shi)		1.1.6.1		0		63
-39843	590	Kaman [Miju]	kɯu⁵³	kɯu⁵³	head	head		1.2.1		0		1221
-39844	590	Kaman [Miju]	ɑ³¹ wɑ³⁵	ɑ³¹ wɑ³⁵	forehead	forehead		1.2.5.1		0		
-39845	590	Kaman [Miju]	kɯ³¹ kʰɹɯl⁵⁵	kɯ³¹ kʰɹɯl⁵⁵	wrinkle	wrinkle		9.6.2		0		
-39846	590	Kaman [Miju]	tɯ³¹ wu⁵⁵ kɯ³¹ len⁵⁵	tɯ³¹ wu⁵⁵ kɯ³¹ len⁵⁵	five organs (wuguan)	five organs (wuguan)		9.9		0		
-39847	590	Kaman [Miju]	ɕɑm⁵⁵	ɕɑm⁵⁵	hair (head)	hair (head)		1.2.3		0		366
-39848	590	Kaman [Miju]	ɕɑm⁵⁵ ɑ³¹ pʰlɑ̆t⁵⁵	ɕɑm⁵⁵ ɑ³¹ pʰlɑ̆t⁵⁵	braid	braid		1.2.3.2		0		366,p,2018
-39849	590	Kaman [Miju]	nɯn⁵³	nɯn⁵³	brain	brain		1.2.4		0		5554
-39850	590	Kaman [Miju]	ɑ³¹ ŋɑl³⁵	ɑ³¹ ŋɑl³⁵	face	face		1.2.5		0		m,1192
-39851	590	Kaman [Miju]	bɹɯp³⁵	bɹɯp³⁵	cheek	cheek		1.2.5.2		0		2047
-39852	590	Kaman [Miju]	tɑ³¹ kɯ³¹ lo⁵⁵	tɑ³¹ kɯ³¹ lo⁵⁵	dimple (jiuwo)	dimple (jiuwo)		1.2.5		0	E	e
-39853	590	Kaman [Miju]	bɹɯp³⁵ ɹɑɯ⁵³	bɹɯp³⁵ ɹɑɯ⁵³	cheekbone	cheekbone		1.2.5.2		0		2047,232
-39854	590	Kaman [Miju]	min⁵⁵ bɯl³⁵	min⁵⁵ bɯl³⁵	eyebrow	eyebrow		1.2.6.6		0		682,363
-39855	590	Kaman [Miju]	min⁵⁵	min⁵⁵	eye	eye		1.2.6		0		682
-39856	590	Kaman [Miju]	min⁵⁵ sɑ⁵⁵	min⁵⁵ sɑ⁵⁵	pupil	pupil		1.2.6.2		0		682,1012
-39857	590	Kaman [Miju]	min⁵⁵ sɑ⁵⁵	min⁵⁵ sɑ⁵⁵	eyeball	eyeball		1.2.6.1		0		682,1012
-39858	590	Kaman [Miju]	min⁵⁵ ɑ³¹ xɑu³⁵	min⁵⁵ ɑ³¹ xɑu³⁵	eye socket	eye socket		1.2.6		0		682,p,m
-39859	590	Kaman [Miju]	min⁵⁵ uŋ³⁵	min⁵⁵ uŋ³⁵	eyelid	eyelid		1.2.6.4		0		682,591
-39860	590	Kaman [Miju]	min⁵⁵ nioŋ³⁵	min⁵⁵ nioŋ³⁵	nose	nose		1.2.8		0		m,803
-39861	590	Kaman [Miju]	min⁵⁵ nioŋ³⁵ kʰuŋ⁵³	min⁵⁵ nioŋ³⁵ kʰuŋ⁵³	bridge of nose	bridge of nose		9.10.2		0		m,803,m
-39862	590	Kaman [Miju]	iŋ⁵⁵	iŋ⁵⁵	ear	ear		1.2.7		0		
-39863	590	Kaman [Miju]	ȵtɕʰɯu⁵³	ȵtɕʰɯu⁵³	mouth	mouth		1.3.1		0		442
-39864	590	Kaman [Miju]	o⁵⁵ lo⁵⁵	o⁵⁵ lo⁵⁵	palate (shang'e)	palate (shang'e)		1.3.1.1		0		p,488
-39865	590	Kaman [Miju]	si⁵⁵	si⁵⁵	tooth	tooth		1.3.4		0		632
-39866	590	Kaman [Miju]	kui⁵⁵ si⁵⁵	kui⁵⁵ si⁵⁵	tooth (canine)	tooth (canine)		1.3.4		0		1764,632
-39867	590	Kaman [Miju]	gɑi³¹ nɑuŋ⁵³	gɑi³¹ nɑuŋ⁵³	molar	molar		1.3.4.2		0		
-39868	590	Kaman [Miju]	blɑi⁵³	blɑi⁵³	tongue	tongue		1.3.3		0		621
-39869	590	Kaman [Miju]	mɯ³¹ |xɑ⁵³	mɯ³¹ xɑ⁵³	chin	chin		1.2.5.3		0		273
-39870	590	Kaman [Miju]	ɕɑ³¹ mol³⁵	ɕɑ³¹ mol³⁵	beard	beard		1.2.5.5		0		1111,363
-39871	590	Kaman [Miju]	xuŋ⁵⁵	xuŋ⁵⁵	neck	neck		1.4.2		0		483
-39872	590	Kaman [Miju]	xuŋ⁵⁵ dɑ̆k⁵⁵	xuŋ⁵⁵ dɑ̆k⁵⁵	neck	neck		1.4.2		0		483,359
-39873	590	Kaman [Miju]	go³¹ɹoŋ³⁵|	go³¹ɹoŋ³⁵|	throat	throat		1.3.5		0		489
-39874	590	Kaman [Miju]	pɑp⁵³	pɑp⁵³	goiter (jingliu)	goiter (jingliu)		1.4.2.2		0		163
-39875	590	Kaman [Miju]	ɑ³¹ pʰo⁵⁵	ɑ³¹ pʰo⁵⁵	shoulder	shoulder		1.4.3		0		p,570
-39876	590	Kaman [Miju]	ɹɑ̆u⁵³ xɑ³¹ nɑuŋ³⁵	ɹɑ̆u⁵³ xɑ³¹ nɑuŋ³⁵	elbow	elbow		1.5.8.3		0		695,m,m
-39877	590	Kaman [Miju]	ɹɑ̆u⁵³ xɑ³¹ tɑp³⁵	ɹɑ̆u⁵³ xɑ³¹ tɑp³⁵	fist	fist		1.5.1.1.1		0		695,m,1282
-39878	590	Kaman [Miju]	ɹɑ̆u⁵³	ɹɑ̆u⁵³	hand	hand		1.5.1.1		0		695
-39879	590	Kaman [Miju]	duŋ³⁵	duŋ³⁵	finger	finger		1.5.6		0		
-39880	590	Kaman [Miju]	bɑn³⁵	bɑn³⁵	thumb	thumb		1.5.6.1		0		
-39881	590	Kaman [Miju]	ɹɑ̆u⁵³ niŋ³⁵	ɹɑ̆u⁵³ niŋ³⁵	little finger	little finger		9.7.2		0		695,m
-39882	590	Kaman [Miju]	ɹɑ̆u⁵³ dzit⁵⁵	ɹɑ̆u⁵³ dzit⁵⁵	fingernail	fingernail		1.5.10.1		0		695,m
-39883	590	Kaman [Miju]	plɑ̆ŋ⁵⁵	plɑ̆ŋ⁵⁵	callus (yingzi)	callus (yingzi)		1.6.5.3		0		
-39884	590	Kaman [Miju]	gɹoŋ³⁵	gɹoŋ³⁵	chest	chest		1.4.4.3		0		288
-39885	590	Kaman [Miju]	bɹem³⁵	bɹem³⁵	bones and muscle	bones and muscle		1.6.3		0		m
-39886	590	Kaman [Miju]	glɑ̆u⁵³	glɑ̆u⁵³	back	back		1.4.8		0		209
-39887	590	Kaman [Miju]	ɑ³¹ jɑu³⁵	ɑ³¹ jɑu³⁵	vertebrae (jizhui)	vertebrae (jizhui)		1.6.3.3		0		
-39888	590	Kaman [Miju]	dɑ̆k⁵³	dɑ̆k⁵³	belly	belly		1.4.7		0		m
-39889	590	Kaman [Miju]	plɑ⁵⁵	plɑ⁵⁵	foot	foot		1.5.2		0		
-39890	590	Kaman [Miju]	plɑ⁵⁵ min⁵⁵	plɑ⁵⁵ min⁵⁵	ankle	ankle		1.5.8.2		0		m,682
-39891	590	Kaman [Miju]	plɑ⁵⁵ dʑoŋ⁵⁵	plɑ⁵⁵ dʑoŋ⁵⁵	heel	heel		1.5.2.1		0		
-39892	590	Kaman [Miju]	kɯ³¹ tsɑu⁵³	kɯ³¹ tsɑu⁵³	thigh (datui)	thigh (datui)		1.5.7.1		0		
-39893	590	Kaman [Miju]	pɑ³¹ pɑu³⁵	pɑ³¹ pɑu³⁵	knee	knee		1.5.8.4		0		
-39894	590	Kaman [Miju]	ki⁵⁵ koŋ⁵⁵	ki⁵⁵ koŋ⁵⁵	back of knee	back of knee		1.4.8		0		m,1251
-39895	590	Kaman [Miju]	plɑ⁵⁵ tɯ³¹ liŋ³⁵	plɑ⁵⁵ tɯ³¹ liŋ³⁵	lower leg (xiaotui)	lower leg (xiaotui)				0	W	
-39896	590	Kaman [Miju]	plɑ⁵⁵ ŋkʰɑn³⁵	plɑ⁵⁵ ŋkʰɑn³⁵	calf (xiaoduzi)	calf (xiaoduzi)		1.5.7		0		
-39897	590	Kaman [Miju]	uŋ³⁵	uŋ³⁵	skin	skin		1.6.5		0		591
-39898	590	Kaman [Miju]	ɕiŋ⁵⁵ ɹɑk⁵⁵	ɕiŋ⁵⁵ ɹɑk⁵⁵	bone	bone		1.6.3		0		m,238
-39899	590	Kaman [Miju]	xiŋ⁵³	xiŋ⁵³	marrow	marrow		1.6.3.5		0		459
-39900	590	Kaman [Miju]	giɑn³⁵	giɑn³⁵	muscle	muscle		1.6.6.2		0		536
-39901	590	Kaman [Miju]	ɑ³¹ ɹui³⁵	ɑ³¹ ɹui³⁵	blood	blood		1.6.2		0		m,230
-39902	590	Kaman [Miju]	pʰo⁵⁵ ko⁵⁵	pʰo⁵⁵ ko⁵⁵	stomach	stomach		1.7.6		0		2111,2123
-39903	590	Kaman [Miju]	tɑ³¹ pleŋ⁵⁵	tɑ³¹ pleŋ⁵⁵	spleen (pi)	spleen (pi)		1.7.4		0		
-39904	590	Kaman [Miju]	ȵtɕʰi⁵³	ȵtɕʰi⁵³	kidneys	kidneys		1.7.5		0		
-39905	590	Kaman [Miju]	xɑ³¹ lɑ̆i³⁵	xɑ³¹ lɑ̆i³⁵	intestines	intestines		1.7.7		0		572,m
-39906	590	Kaman [Miju]	lɯm³⁵	lɯm³⁵	heart	heart		1.7.1		0		1381
-39907	590	Kaman [Miju]	blɑi³¹ blɑi⁵³	blɑi³¹ blɑi⁵³	liver	liver		1.7.3		0		91,91
-39908	590	Kaman [Miju]	sɑu³⁵	sɑu³⁵	lungs	lungs		1.7.2		0		
-39909	590	Kaman [Miju]	mɑ̆n⁵³	mɑ̆n⁵³	gall	gall		1.7.3.1		0		m,m
-39910	590	Kaman [Miju]	tʰɑ³¹ tɕit⁵⁵	tʰɑ³¹ tɕit⁵⁵	bladder	bladder		1.7.8		0		m,650
-39911	590	Kaman [Miju]	sɑ⁵⁵ sɑp⁵⁵	sɑ⁵⁵ sɑp⁵⁵	placenta	placenta				0		1012,1613
-39912	590	Kaman [Miju]	mɯn³⁵	mɯn³⁵	sweat	sweat		1.8.1		0		619
-39913	590	Kaman [Miju]	ȵɑp⁵⁵	ȵɑp⁵⁵	mucus	mucus		1.8.2		0		805
-39914	590	Kaman [Miju]	kʰɹɑ⁵³	kʰɹɑ⁵³	phlegm	phlegm		1.8.3		0		540
-39915	590	Kaman [Miju]	dʑɑ̆l³⁵	dʑɑ̆l³⁵	saliva	saliva		1.8.3		0		
-39916	590	Kaman [Miju]	tɕin⁵⁵	tɕin⁵⁵	milk	milk (n.)	n			0		3465
-39917	590	Kaman [Miju]	tɯ³¹ kʰɯi⁵³	tɯ³¹ kʰɯi⁵³	shit	shit		1.8.5		0		m,572
-39918	590	Kaman [Miju]	tɯ³¹ ɕit⁵⁵	tɯ³¹ ɕit⁵⁵	urine	urine		1.8.4		0		p,650
-39919	590	Kaman [Miju]	tɯ³¹ pʰit⁵⁵	tɯ³¹ pʰit⁵⁵	fart	fart	n.	1.8.5.2		0		p,311
-39920	590	Kaman [Miju]	tʰɯ³¹ mɑ̆i⁵³	tʰɯ³¹ mɑ̆i⁵³	wound (shangkou)	wound (shangkou)		1.8.6.2		0		
-39921	590	Kaman [Miju]	tʰɯ³¹ mɑ̆i⁵³ luŋ³⁵	tʰɯ³¹ mɑ̆i⁵³ luŋ³⁵	scar (shangba)	scar (shangba)		1.6.5.3		0		
-39922	590	Kaman [Miju]	tɑ⁵⁵ sɑ̆n⁵³	tɑ⁵⁵ sɑ̆n⁵³	sore, ulcer	sore, ulcer		1.1.5.1		0		
-39923	590	Kaman [Miju]	ni⁵³	ni⁵³	pus	pus		1.8.6.1		0		1294
-39924	590	Kaman [Miju]	dot³⁵	dot³⁵	mole (heizhi)	mole (heizhi)		2.2.7		0		
-39925	590	Kaman [Miju]	tɑ³¹ tsɯn⁵³	tɑ³¹ tsɯn⁵³	spot (xiaogedan)	spot (xiaogedan)		6.2		0		
-39926	590	Kaman [Miju]	dut³⁵	dut³⁵	wart (houzi)	wart (houzi)		1.6.5.3		0		
-39927	590	Kaman [Miju]	pʰuŋ⁵³	pʰuŋ⁵³	ringworm, tinea	ringworm, tinea		2.2.6		0		
-39928	590	Kaman [Miju]	sɑu³⁵ nɑt⁵⁵	sɑu³⁵ nɑt⁵⁵	tuberculosis	tuberculosis		1.5.3.2		0		32,160
-39929	590	Kaman [Miju]	biɑu⁵³ nɑt⁵⁵	biɑu⁵³ nɑt⁵⁵	influenza, cold	influenza, cold		5.3		0		
-39930	590	Kaman [Miju]	ɑ³¹ min⁵⁵ klɑuŋ³⁵	ɑ³¹ min⁵⁵ klɑuŋ³⁵	leprosy	leprosy		5.3		0		
-39931	590	Kaman [Miju]	mit⁵⁵ kɯ³¹ baŋ⁵⁵	mit⁵⁵ kɯ³¹ baŋ⁵⁵	blind person	blind person		1.2.6.14.2		0		m
-39932	590	Kaman [Miju]	kɑ³¹ wɑ³⁵	kɑ³¹ wɑ³⁵	deaf, mute person	deaf, mute person		1.2.7.5		0		
-39933	590	Kaman [Miju]	kɯ³¹ pɹɑp⁵⁵ tsoŋ³⁵	kɯ³¹ pɹɑp⁵⁵ tsoŋ³⁵	insane person	insane person		8.3.1.11.3		0		
-39934	590	Kaman [Miju]	plɑ⁵⁵ ɑ³¹ be³⁵	plɑ⁵⁵ ɑ³¹ be³⁵	lame person	lame person		1.5.12		0		m,p,6133
-39935	590	Kaman [Miju]	tɑ³¹ pɯ⁵⁵ tsɯn⁵³	tɑ³¹ pɯ⁵⁵ tsɯn⁵³	pockmarked person	pockmarked person		1.6.5.4		0		
-39936	590	Kaman [Miju]	lɑi⁵⁵ ɑ³¹ xo⁵³	lɑi⁵⁵ ɑ³¹ xo⁵³	scarred person	scarred person		1.6.5.4		0		
-39937	590	Kaman [Miju]	tu⁵⁵ ku⁵⁵ nɑ⁵⁵	tu⁵⁵ ku⁵⁵ nɑ⁵⁵	hunchback (tuobei)	hunchback (tuobei)		1.4.8.3		0		m,m,m
-39938	590	Kaman [Miju]	pɹɑp⁵⁵ nɑt⁵⁵	pɹɑp⁵⁵ nɑt⁵⁵	insanity	insanity		8.3.1.11.3		0		
-39939	590	Kaman [Miju]	tɑ³¹ si⁵⁵	tɑ³¹ si⁵⁵	oil	oil		1.6.4.1		0		m,42
-39940	590	Kaman [Miju]	ɕin⁵³	ɕin⁵³	meat, flesh	meat, flesh		1.1.1.1		0		318
-39941	590	Kaman [Miju]	tɑ³¹ si⁵⁵	tɑ³¹ si⁵⁵	lard (suyou)	lard (suyou)		1.6.4.1		0		
-39942	590	Kaman [Miju]	sɑu³⁵ nɑt⁵⁵	sɑu³⁵ nɑt⁵⁵	pneumonia (feibing)	pneumonia (feibing)		5.3		0		
-39943	590	Kaman [Miju]	biɑu⁵³ nɑt⁵⁵	biɑu⁵³ nɑt⁵⁵	cold (illness)	cold (illness)		7.1.2.3		0		
-39944	590	Kaman [Miju]	ɑ³¹ min⁵⁵ klɑuŋ³⁵	ɑ³¹ min⁵⁵ klɑuŋ³⁵	leprosy (mafeng)	leprosy (mafeng)		5.3		0		
-39945	590	Kaman [Miju]	lɑi⁵⁵	lɑi⁵⁵	speech (hua)	speech (hua)		1.8.7		0		
-39946	590	Kaman [Miju]	kɹɑ̆n⁵³	kɹɑ̆n⁵³	sound (of animals)	sound (of animals)		9.3		0		
-39947	590	Kaman [Miju]	xɑ³¹ ŋim³⁵	xɑ³¹ ŋim³⁵	shadow	shadow		3.2.10		0		
-39948	590	Kaman [Miju]	ntsʰon³⁵	ntsʰon³⁵	breath	breath		1.1.2.2		0		77
-39949	590	Kaman [Miju]	tʰoŋ⁵⁵	tʰoŋ⁵⁵	look at	look at		1.2.6.11		0		m
-39950	590	Kaman [Miju]	ŋuŋ⁵⁵	ŋuŋ⁵⁵	see (jiandao)	see (jiandao)		1.2.6.10		0		m
-39951	590	Kaman [Miju]	tɑ⁵⁵ giɑt⁵⁵	tɑ⁵⁵ giɑt⁵⁵	listen	listen		1.2.7.4		0		1408,m
-39952	590	Kaman [Miju]	tɑt⁵⁵	tɑt⁵⁵	hear	hear		1.2.7.4		0		1408
-39953	590	Kaman [Miju]	tɕɑ⁵³	tɕɑ⁵³	eat (meat)	eat (meat)		1.5.3.2		0		36
-39954	590	Kaman [Miju]	ɕɑ⁵³	ɕɑ⁵³	eat (rice)	eat (rice)		1.5.3.2		0		36
-39955	590	Kaman [Miju]	tɑuŋ⁵⁵	tɑuŋ⁵⁵	drink	drink				0		502
-39956	590	Kaman [Miju]	tʰɑm⁵³	tʰɑm⁵³	hold in mouth	hold in mouth		1.3.4.4		0		
-39957	590	Kaman [Miju]	sɑ̆k⁵⁵	sɑ̆k⁵⁵	bite	bite		1.3.4.4		0		
-39958	590	Kaman [Miju]	jɑl⁵⁵	jɑl⁵⁵	chew cud	chew cud		1.3.4		0		1771
-39959	590	Kaman [Miju]	lo⁵³	lo⁵³	lick	lick		1.3.3.1		0		629
-39960	590	Kaman [Miju]	lot⁵⁵	lot⁵⁵	stick out (tongue)	stick out (tongue)		3.1.2		0		
-39961	590	Kaman [Miju]	jip⁵⁵	jip⁵⁵	suck (milk)	suck (milk)		1.3.2.1		0		5541
-39962	590	Kaman [Miju]	bɯp⁵⁵	bɯp⁵⁵	kiss	kiss		1.3.2.2		0		3450
-39963	590	Kaman [Miju]	biɑp⁵³	biɑp⁵³	swallow	swallow (v.)	v	1.3.5.6		0		
-39964	590	Kaman [Miju]	pʰɑt⁵⁵	pʰɑt⁵⁵	vomit	vomit		1.8.3.2		0		1145
-39965	590	Kaman [Miju]	tʰɯt⁵⁵	tʰɯt⁵⁵	blow (air)	blow (air)		1.3.1.4		0		
-39966	590	Kaman [Miju]	kɯ³¹ tɑŋ⁵³	kɯ³¹ tɑŋ⁵³	say	say		1.8.7		0		m,1757
-39967	590	Kaman [Miju]	bɯu⁵³	bɯu⁵³	shout	shout		8.5.4.1		0		
-39968	590	Kaman [Miju]	ntsʰiŋ⁵⁵	ntsʰiŋ⁵⁵	smell, sniff	smell, sniff		1.2.8.5		0		1419
-39969	590	Kaman [Miju]	ŋui⁵⁵	ŋui⁵⁵	sleep	sleep		1.1.4.1		0		130
-39970	590	Kaman [Miju]	k◦ɹit⁵⁵	kɹit⁵⁵	laugh	laugh		1.8.8.1		0		p,1108
-39971	590	Kaman [Miju]	ŋɑi⁵⁵	ŋɑi⁵⁵	cry, weep	cry, weep		1.8.8.2		0		1104
-39972	590	Kaman [Miju]	dzɑt⁵⁵	dzɑt⁵⁵	raise (children)	raise (children)		6.7.7		0		
-39973	590	Kaman [Miju]	nɑŋ⁵⁵	nɑŋ⁵⁵	grow (up)	grow (up)		9.7.2		0		
-39974	590	Kaman [Miju]	nat⁵⁵	nat⁵⁵	get sick	get sick		1.1.5		0		
-39975	590	Kaman [Miju]	tʰɯt⁵⁵	tʰɯt⁵⁵	cough	cough		1.8.3.3		0		
-39976	590	Kaman [Miju]	ɑ³¹ ɕin⁵⁵	ɑ³¹ ɕin⁵⁵	sneeze	sneeze		1.8.2.1		0		
-39977	590	Kaman [Miju]	ɹɯ³¹ ɑk⁵⁵	ɹɯ³¹ ɑk⁵⁵	hiccup	hiccup		1.8.3.5		0		m,3443
-39978	590	Kaman [Miju]	ntsʰɑt⁵⁵	ntsʰɑt⁵⁵	shake	shake		6.7.9		0		
-39979	590	Kaman [Miju]	pʰɯp⁵⁵	pʰɯp⁵⁵	swell up	swell up		1.1.5.2		0		163
-39980	590	Kaman [Miju]	kɯ³¹ ɹɑ̆ŋ³⁵	kɯ³¹ ɹɑ̆ŋ³⁵	alive, live	alive, live		1.1.2.1		0		p,71
-39981	590	Kaman [Miju]	si⁵³	si⁵³	die	die		1.1.6		0		27
-39982	590	Kaman [Miju]	bɹɯn⁵⁵ la³⁵	bɹɯn⁵⁵ la³⁵	sacrifice	sacrifice		5.8.1.3		0		
-39983	590	Kaman [Miju]	tɯ³¹ ɕit⁵⁵ tɑn⁵⁵ din³¹	tɯ³¹ ɕit⁵⁵ tɑn⁵⁵ din³¹	urinate	urinate		1.5.3.2		0		p,650,m,m
-39984	590	Kaman [Miju]	tɑ³¹ ŋin⁵³	tɑ³¹ ŋin⁵³	defecate	defecate		1.8.5.4		0		
-39985	590	Kaman [Miju]	pʰiuŋ⁵⁵	pʰiuŋ⁵⁵	fly	fly	v	2.2.6		0		
-39986	590	Kaman [Miju]	ɹɑ̌k⁵⁵	ɹɑ̌k⁵⁵	bark	bark		2.1.11.1		0		
-39987	590	Kaman [Miju]	kɯ³¹ diɑŋ⁵³	kɯ³¹ diɑŋ⁵³	fat (of people)	fat (of people)		1.6.4		0		
-39988	590	Kaman [Miju]	kɯ³¹ ɕiuŋ⁵³	kɯ³¹ ɕiuŋ⁵³	lean	lean		1.1.1		0		m,m
-39989	590	Kaman [Miju]	lun⁵⁵	lun⁵⁵	full (food)	full (food)		1.1.3.2		0		
-39990	590	Kaman [Miju]	di³¹ iŋ⁵³	di³¹ iŋ⁵³	hungry	hungry		1.1.3		0		
-39991	590	Kaman [Miju]	kɑ³¹ lo³⁵	kɑ³¹ lo³⁵	sated, too full (ni)	sated, too full (ni)		1.1.3.2		0		115,m
-39992	590	Kaman [Miju]	pɑp⁵³ sɑl⁵³	pɑp⁵³ sɑl⁵³	thirsty	thirsty		1.1.3.1		0		m,102
-39993	590	Kaman [Miju]	ɕɑi⁵⁵	ɕɑi⁵⁵	tired	tired		9.6.2.2		0		
-39994	590	Kaman [Miju]	pʰuŋ⁵³	pʰuŋ⁵³	itchy	itchy		1.6.5.5		0		m
-39995	590	Kaman [Miju]	mɑn⁵³	mɑn⁵³	numb (mamu)	numb (mamu)		1.5.11		0		
-41297	366	Bokar Lhoba	lok◦tɕe	loktɕe	left	left		1.5.3.2		0		695,5624
-41298	366	Bokar Lhoba	lok◦bik	lokbik	right	right		1.5.3.2		0		695,5761
-41299	366	Bokar Lhoba	rok◦bə	rok◦bə	side	side		1.4.5		0		
-41300	366	Bokar Lhoba	lo◦poŋ	lo◦poŋ	center	center		1.9.4		0		m,2111
-41301	366	Bokar Lhoba	pɯ◦pɯː	pɯ◦pɯː	egg	egg				0		m,1654
-41302	366	Bokar Lhoba	pɯ◦jak	pɯ◦jak	hen's egg	hen's egg		2.1.10		0		1654,1606
-41303	366	Bokar Lhoba	a◦lap	a◦lap	wing	wing		1.5.1.3		0		p,757
-41304	366	Bokar Lhoba	a◦mɯ	a◦mɯ	fur	fur		1.6.1		0		p,1429
-41305	366	Bokar Lhoba	ta◦pjak	ta◦pjak	wool	wool		1.6.1.3		0		p,3288
-41306	366	Bokar Lhoba	ȵujiː	ȵujiː	feather	feather		1.6.1.1		0		m
-41307	366	Bokar Lhoba	ləlam	ləlam	claw	claw		1.5.10.4		0		
-41308	366	Bokar Lhoba	ləjin	ləjin	claw	claw		1.5.10.4		0		6691
-41309	366	Bokar Lhoba	purpin	purpin	cockscomb	cockscomb		1.2.2.1		0		
-41310	366	Bokar Lhoba	ɕɯŋ◦po	ɕɯŋ◦po	pig bristles	pig bristles		2.1.12		0		
-41311	366	Bokar Lhoba	lɯbuk	lɯbuk	hoof	hoof		1.5.4		0		
-41312	366	Bokar Lhoba	a◦rəŋ	a◦rəŋ	horn	horn		1.2.2		0		p,814
-41313	366	Bokar Lhoba	ɛ◦mȵo	ɛ◦mȵo	tail	tail		1.4.10.1		0		p,1288
-41314	366	Bokar Lhoba	kɯ'◦mjo	kɯ'◦mjo	hair of horse's tail	hair of horse's tail		1.2.3		0		6023,1288
-41315	366	Bokar Lhoba	a◦pin	a◦pin	hide, leather	hide, leather		1.6.5.1		0		p,591
-41316	366	Bokar Lhoba	ɕukmur	ɕukmur	cow neck extra flesh	cow neck extra flesh		2.1.2		0		m
-41317	366	Bokar Lhoba	ɑ'◦ɯː	ɑ'◦ɯː	body	body		1.1.1		0		p,18
-41318	366	Bokar Lhoba	ɕo◦moŋ	ɕomoŋ	corpse	corpse		1.1.6.1		0		27,17
-41319	366	Bokar Lhoba	dum◦pɯr	dum◦pɯr	head	head		1.2.1		0		1425,388
-41320	366	Bokar Lhoba	mi◦tuk	mi◦tuk	forehead	forehead		1.2.5.1		0		m,359
-41321	366	Bokar Lhoba	muːɕiː	muːɕiː	wrinkle	wrinkle		9.6.2		0		
-41322	366	Bokar Lhoba	dum◦mɯ	dum◦mɯ	hair	hair		1.2.3		0		1425,1429
-41323	366	Bokar Lhoba	dʑa◦'u	dʑa◦'u	hair	hair		1.2.3		0		367,385
-41324	366	Bokar Lhoba	pato	pato	braid	braid		1.2.3.2		0		
-41325	366	Bokar Lhoba	pɯniː	pɯniː	brain	brain		1.2.4		0		252
-41326	366	Bokar Lhoba	mi◦mo	mi◦mo	face	face		1.2.5		0		682,5662
-41327	366	Bokar Lhoba	ru◦tin	ru◦tin	cheekbone	cheekbone		1.2.5.2		0		2047,280
-41328	366	Bokar Lhoba	nap◦lə	nap◦lə	chin	chin		1.2.5.3		0		470,287
-41329	366	Bokar Lhoba	mik◦ɕɯŋ	mik◦ɕɯŋ	eyebrow	eyebrow		1.2.6.6		0		682,370
-41330	366	Bokar Lhoba	mik	mik	eye	eye		1.2.6		0		682
-41331	366	Bokar Lhoba	mik◦pɯ	mik◦pɯ	eyeball	eyeball		1.2.6.1		0		682,1275
-41332	366	Bokar Lhoba	mik go aŋaː	mik go aŋaː	pupil of eye	pupil of eye		1.2.6.2		0		682,m,m
-41333	366	Bokar Lhoba	mik◦pin	mik◦pin	eyelid	eyelid		1.2.6.4		0		682,591
-41334	366	Bokar Lhoba	mik◦ruŋ	mik◦ruŋ	eye socket	eye socket		1.2.6		0		682,2070
-41335	366	Bokar Lhoba	ȵa◦pum	ȵa◦pum	nose	nose		1.2.8		0		803,806
-41336	366	Bokar Lhoba	pum◦loŋ	pumloŋ	bridge of nose	bridge of nose		9.10.2		0		806,m
-41337	366	Bokar Lhoba	ȵaruŋ	ȵaruŋ	ear	ear		1.2.7		0		6487
-41338	366	Bokar Lhoba	ruŋ◦'eː	ruŋ'eː	earwax	earwax		1.2.7.3		0		2070,576
-41339	366	Bokar Lhoba	nap◦paŋ	nap◦paŋ	mouth	mouth		1.3.1		0		470,476
-41340	366	Bokar Lhoba	gum◦pɯk	gum◦pɯk	mouth	mouth		1.3.1		0		6324,476
-41341	366	Bokar Lhoba	nap◦bjer	nap◦bjer	mouth	mouth		1.3.1		0		470,452
-41342	366	Bokar Lhoba	jiː◦tɕuŋ	jiː◦tɕuŋ	tooth	tooth		1.3.4		0		632,2813
-41343	366	Bokar Lhoba	jiː◦po	jiː◦po	tooth	tooth		1.3.4		0		632,m
-41344	366	Bokar Lhoba	jiː◦kam	jiː◦kam	tooth	tooth		1.3.4		0		632,630
-41345	366	Bokar Lhoba	a◦jo	a◦jo	tongue	tongue		1.3.3		0		p,623
-41346	366	Bokar Lhoba	nap◦mɯ	nap◦mɯ	beard	beard		1.2.5.5		0		470,363
-41347	366	Bokar Lhoba	lɯŋ◦poŋ	lɯŋ◦poŋ	neck	neck		1.4.2		0		479,3404
-41348	366	Bokar Lhoba	lɯŋ◦guŋ	lɯŋ◦guŋ	neck	neck		1.4.2		0		479,3361
-41349	366	Bokar Lhoba	guŋ◦pɯ	guŋ◦pɯ	neck	neck		1.4.2		0		3361,3404
-41350	366	Bokar Lhoba	gur◦bɯŋ	gur◦bɯŋ	shoulder	shoulder		1.4.3		0		6327,1327
-41351	366	Bokar Lhoba	a◦lok	a◦lok	hand	hand		1.5.1.1		0		p,695
-41352	366	Bokar Lhoba	a◦ɕur	a◦ɕur	hand	hand		1.5.1.1		0		p,713
-41353	366	Bokar Lhoba	luk◦pɯŋ	luk◦pɯŋ	fist	fist		1.5.1.1.1		0		695,1327
-41354	366	Bokar Lhoba	lok◦poŋ	lok◦poŋ	arm	arm		1.5.1.2		0		695,1327
-41355	366	Bokar Lhoba	luk◦du	luk◦du	elbow	elbow		1.5.8.3		0		695,306
-41356	366	Bokar Lhoba	lok◦tɕəŋ	loktɕəŋ	finger	finger		1.5.6		0		695,6689
-41357	366	Bokar Lhoba	lok◦nə	lok◦nə	finger	finger		1.5.6		0		695,1621
-41358	366	Bokar Lhoba	tɕiŋjiː	tɕiŋjiː	finger	finger		1.5.6		0		
-41359	366	Bokar Lhoba	lugin	lugin	fingernail	fingernail		1.5.10.1		0		6691
-41360	366	Bokar Lhoba	ləjin	ləjin	fingernail	fingernail		1.5.10.1		0		6691
-41361	366	Bokar Lhoba	ɦoŋboŋ	ɦoŋboŋ	chest	chest		1.4.4.3		0		6342
-41362	366	Bokar Lhoba	lamko	lamko	back	back		1.4.8		0		6417
-41363	366	Bokar Lhoba	gɛːɕiː	gɛːɕiː	vertabrae	vertabrae				0		
-41364	366	Bokar Lhoba	kiː◦poŋ	kiː◦poŋ	belly	belly		1.4.7		0		2125,2111
-41365	366	Bokar Lhoba	kjumbibi	kjumbibi	sides of belly	sides of belly		1.4.5		0		m
-41366	366	Bokar Lhoba	ɦuŋ◦ŋəŋ	ɦuŋ◦ŋəŋ	waist	waist		1.4.6		0		1364,483
-41367	366	Bokar Lhoba	kapir	kapir	kidney	kidney		1.7.5		0		2120
-41368	366	Bokar Lhoba	lə◦pio	ləpio	foot	foot		1.5.2		0		350,m
-41369	366	Bokar Lhoba	litu	litu	foot	foot		1.5.2		0		
-41370	366	Bokar Lhoba	la◦jək	la◦jək	leg	leg		1.5.7		0		
-41371	366	Bokar Lhoba	lə◦paŋ	lə◦paŋ	leg	leg		1.5.7		0		350,6528
-41372	366	Bokar Lhoba	lɯ◦tɯ	lɯ◦tɯ	leg	leg		1.5.7		0		350,m
-41373	366	Bokar Lhoba	lɯbɯŋ	lɯbɯŋ	knee	knee		1.5.8.4		0		6437
-41374	366	Bokar Lhoba	dʑiŋ◦guŋ	dʑiŋguŋ	knee	knee		1.5.8.4		0		m,1251
-41375	366	Bokar Lhoba	a◦pin	a◦pin	skin	skin		1.6.5		0		p,591
-41376	366	Bokar Lhoba	loŋ◦poŋ	loŋ◦poŋ	bone	bone		1.6.3		0		238,1469
-41377	366	Bokar Lhoba	loŋ◦poŋ pɯ◦niː	loŋ◦poŋ pɯ◦niː	marrow	marrow		1.6.3.5		0		238,1469,m,1448
-41378	366	Bokar Lhoba	dʑiː◦pa	dʑiː◦pa	muscle / sinew	muscle / sinew		1.6.6.2		0		372,s
-41379	366	Bokar Lhoba	ɦuk◦ma	ɦuk◦ma	muscle / sinew	muscle / sinew		1.6.6.2		0		m,s
-41380	366	Bokar Lhoba	u◦jiː	u◦jiː	blood	blood		1.6.2		0		p,230
-41381	366	Bokar Lhoba	aː	aː	stomach	stomach		1.7.6		0		
-41382	366	Bokar Lhoba	ɕer◦pə	ɕer◦pə	spleen	spleen		1.7.4		0		m,s
-41383	366	Bokar Lhoba	a◦kiː	a◦kiː	intestines	intestines		1.7.7		0		p,2125
-41384	366	Bokar Lhoba	ɦuŋ◦puk	ɦuŋ◦puk	heart	heart		1.7.1		0		6201,164
-41385	366	Bokar Lhoba	a◦pɯ	a◦pɯ	gall bladder	gall bladder		1.7.3		0		p,6546
-41386	366	Bokar Lhoba	jin	jin	liver	liver		1.7.3		0		1390
-41387	366	Bokar Lhoba	loː	loː	lung	lung		1.7.2		0		2121
-41388	366	Bokar Lhoba	ɕar◦pum	ɕar◦pum	bladder	bladder		1.7.8		0		6604,777
-41389	366	Bokar Lhoba	nə◦mam	nə◦mam	placenta	placenta				0		m,3444
-41390	366	Bokar Lhoba	ɦoŋ◦ŋar	ɦoŋ◦ŋar	sweat	sweat		1.8.1		0		m,801
-41391	366	Bokar Lhoba	ta◦nap	ta◦nap	snot	snot		1.8.2		0		p,805
-41392	366	Bokar Lhoba	ta◦kak	ta◦kak	phlegm	phlegm		1.8.3		0		p,540
-41393	366	Bokar Lhoba	ta◦tɕur	ta◦tɕur	saliva	saliva		1.8.3		0		p,6379
-41394	366	Bokar Lhoba	o◦ma	o◦ma	milk	milk				0		3464,s
-41395	366	Bokar Lhoba	eː	eː	shit	shit		1.8.5		0		576
-41396	366	Bokar Lhoba	ə◦pəː	ə◦pəː	fart	fart		1.8.5.2		0		576,316
-41397	366	Bokar Lhoba	i◦ɕiː	i◦ɕiː	urine	urine		1.8.4		0		p,650
-41398	366	Bokar Lhoba	ta◦rə	ta◦rə	wound	wound		1.8.6.2		0		
-41399	366	Bokar Lhoba	tagɛː	tagɛː	scar	scar		1.6.5.3		0		
-41400	366	Bokar Lhoba	a◦buk	a◦buk	ulcer, sore	ulcer, sore		1.8.6.2		0		p,m
-41401	366	Bokar Lhoba	ujuː mərom	ujuː mərom	mole	mole		2.2.7		0		
-41402	366	Bokar Lhoba	abuk	abuk	spot	spot		6.2		0		
-41403	366	Bokar Lhoba	tatɕəŋ rojəŋ	tatɕəŋ rojəŋ	wart	wart		1.6.5.3		0		
-41404	366	Bokar Lhoba	ta◦ȵi	ta◦ȵi	pus	pus		1.8.6.1		0		p,1294
-41405	366	Bokar Lhoba	tamor	tamor	tinea; ringworm	tinea; ringworm		1.6.5.3		0		
-41406	366	Bokar Lhoba	tamɛː	tamɛː	malaria	malaria		5.3		0		
-41407	366	Bokar Lhoba	mik◦maŋ	mik◦maŋ	blind person	blind person		1.2.6.14.2		0		682,m
-41408	366	Bokar Lhoba	ruŋ◦be	ruŋ◦be	deaf person	deaf person		1.2.7.5		0		2070,m
-41409	366	Bokar Lhoba	gom◦maŋ	gom◦maŋ	mute person	mute person		1.5.3.2		0		6324,6449
-41410	366	Bokar Lhoba	lurna	lurna	insane person	insane person		8.3.1.11.3		0		
-41411	366	Bokar Lhoba	lələk	lələk	lame person	lame person		1.5.12		0		
-41412	366	Bokar Lhoba	bum◦ɕiː	bum◦ɕiː	pockmarked person	pockmarked person		1.6.5.4		0		6269,m
-41413	366	Bokar Lhoba	gomkak	gomkak	scarred person	scarred person		1.6.5.4		0		
-41414	366	Bokar Lhoba	duk◦gɯr	duk◦gɯr	hunchback	hunchback		1.4.8.3		0		?,m
-41415	366	Bokar Lhoba	num	num	fat, oil	fat, oil		1.6.4		0		1443
-41416	366	Bokar Lhoba	i◦din	i◦din	meat, flesh	meat, flesh		1.1.1.1		0		p,6299
-41417	366	Bokar Lhoba	tɕu◦rə	tɕu◦rə	milk dregs	milk dregs				0		5539,m
-41418	366	Bokar Lhoba	gom	gom	speech	speech		1.8.7		0		6324
-41419	366	Bokar Lhoba	kɛː	kɛː	sound (of animals)	sound (of animals)		9.3		0		
-41420	366	Bokar Lhoba	a◦muk	a◦muk	breath	breath		1.1.2.2		0		p,65
-41421	366	Bokar Lhoba	duŋjum	duŋjum	shadow	shadow		3.2.10		0		
-41422	366	Bokar Lhoba	u◦juː	u◦juː	ghost	ghost		4.2.12.2		0		p,6366
-41423	366	Bokar Lhoba	koŋ	koŋ	look at	look at		1.2.6.11		0		6373
-41424	366	Bokar Lhoba	koŋ◦'poŋ	koŋ◦'poŋ	see, perceive	see, perceive		1.2.6.10		0		6373,m
-41425	366	Bokar Lhoba	taː	taː	listen	listen		1.2.7.4		0		1408
-41426	366	Bokar Lhoba	doː	doː	eat	eat		1.5.3.2		0		5363
-41427	366	Bokar Lhoba	tɯŋ	tɯŋ	drink	drink				0		502
-41428	366	Bokar Lhoba	gam	gam	bite	bite		1.3.4.4		0		2231
-41429	366	Bokar Lhoba	mur	mur	chew	chew		1.3.4		0		467
-41430	366	Bokar Lhoba	tɕuː◦tɛː◦ȵam	tɕuː◦tɛː◦ȵam	chew cud	chew cud		1.3.4		0		m,m,1772
-41431	366	Bokar Lhoba	jak	jak	lick	lick		1.3.3.1		0		629
-41432	366	Bokar Lhoba	joː◦len	joː◦len	stick out (tongue)	stick out (tongue)		3.1.2		0		623,6426
-41433	366	Bokar Lhoba	mur	mur	hold in mouth	hold in mouth		1.3.4.4		0		467
-41434	366	Bokar Lhoba	jom◦mit	jom◦mit	swallow	swallow		1.3.5.6		0		m,6451
-41435	366	Bokar Lhoba	baː	baː	vomit	vomit		1.8.3.2		0		1145
-41436	366	Bokar Lhoba	mit	mit	blow (with mouth)	blow (with mouth)		1.3.1.4		0		503
-41437	366	Bokar Lhoba	ben	ben	speak	speak		8.5.10.1		0		6699
-41438	366	Bokar Lhoba	o◦tu	otu	call out, cry out	call out, cry out		9.2		0		
-41439	366	Bokar Lhoba	nam	nam	smell (with nose)	smell (with nose)		1.2.8.5		0		1415
-41440	366	Bokar Lhoba	jup	jup	sleep	sleep		1.1.4.1		0		127
-41441	366	Bokar Lhoba	kar	kar	sleep	sleep		1.1.4.1		0		2128
-41442	366	Bokar Lhoba	ȵir	ȵir	laugh	laugh		1.8.8.1		0		1142
-41443	366	Bokar Lhoba	kap	kap	cry, weep	cry, weep		1.8.8.2		0		1103
-41444	366	Bokar Lhoba	ɕoː	ɕoː	raise (children)	raise (children)		6.7.7		0		
-41445	366	Bokar Lhoba	tɕaŋ	tɕaŋ	grow up	grow up		9.7.2		0		
-41446	366	Bokar Lhoba	ɕɯŋ	ɕɯŋ	grow up	grow up		9.7.2		0		6605
-41447	366	Bokar Lhoba	a◦tɕi	a◦tɕi	get sick	get sick		1.1.5		0		p,1847
-41448	366	Bokar Lhoba	ɕak	ɕak	cough	cough		1.8.3.3		0		1794
-41449	366	Bokar Lhoba	matɕi	matɕi	sneeze	sneeze		1.8.2.1		0		
-41450	366	Bokar Lhoba	tɕə◦kək	tɕə◦kək	burp	burp		1.8.3		0		
-41451	366	Bokar Lhoba	ɕakram	ɕakram	catch / have a cold	catch / have a cold		6.21		0		
-41452	366	Bokar Lhoba	taʰit	taʰit	paralysis	paralysis		1.5.11		0		
-41453	366	Bokar Lhoba	təp◦dɯr	təpdɯr	shake, shiver	shake, shiver		6.7.9		0		m,5570
-41454	366	Bokar Lhoba	biŋ	biŋ	swell up	swell up		1.1.5.2		0		111
-41455	366	Bokar Lhoba	tur◦nə	tur◦nə	alive, live	alive, live		1.1.2.1		0		6626,m
-41456	366	Bokar Lhoba	ɕiː	ɕiː	die	die		1.1.6		0		27
-41457	366	Bokar Lhoba	keː	keː	die	die		1.1.6		0		3301
-41458	366	Bokar Lhoba	bjar	bjar	fly	fly		2.2.6		0		2189
-41459	366	Bokar Lhoba	i◦ɕiː ɕiː	iɕiː ɕiː	urinate	urinate		1.5.3.2		0		p,650,m
-41460	366	Bokar Lhoba	eː eː	eː eː	defecate	defecate		1.8.5.4		0		576,576
-41461	366	Bokar Lhoba	ɦuː◦po	ɦuː◦po	fat (of humans)	fat (of humans)		1.6.4		0		6311,m
-41462	366	Bokar Lhoba	gi	gi	lean (of humans)	lean (of humans)		1.1.1		0		49
-41463	366	Bokar Lhoba	jet	jet	full, satiated	full, satiated		1.1.3.2		0		1830
-41464	366	Bokar Lhoba	raŋ	raŋ	full, satiated	full, satiated		1.1.3.2		0		114
-41465	366	Bokar Lhoba	kinnoŋ	kinnoŋ	hungry	hungry		1.1.3		0		104
-41466	366	Bokar Lhoba	la◦jen	la◦jen	sated, too full	sated, too full		1.1.3.2		0		m,1830
-41467	366	Bokar Lhoba	ɦəŋ◦pɯ	ɦəŋ◦pɯ	thirsty	thirsty		1.1.3.1		0		m,3297
-41468	366	Bokar Lhoba	a◦pɛː	a◦pɛː	tired	tired		9.6.2.2		0		p,6511
-41469	366	Bokar Lhoba	ak	ak	itch	itch		1.6.5.5		0		1457
-41470	366	Bokar Lhoba	mir	mir	dizzy, get dizzy	dizzy, get dizzy		8.3.1.11.3		0		
-41471	366	Bokar Lhoba	bəren	bəren	numb	numb		1.5.11		0		
-41970	1090	Tshona (Mama)	jøn⁵⁵ mᴀ⁵³	jøn⁵⁵ mᴀ⁵³	left	left		1.5.3.2		0		
-41971	1090	Tshona (Mama)	jɛː⁵⁵ pᴀ⁵³	jɛː⁵⁵ pᴀ⁵³	right	right		1.5.3.2		0		2786
-41972	1090	Tshona (Mama)	nᴀ⁵⁵ mo⁵³	nᴀ⁵⁵ mo⁵³	side	side		1.4.5		0		
-41973	1090	Tshona (Mama)	pun¹³	pun¹³	center	center		1.9.4		0		3
-41974	1090	Tshona (Mama)	kʰᴀʔ⁵³ lum⁵³	kʰᴀʔ⁵³ lum⁵³	egg	egg				0		1110,3438
-41975	1090	Tshona (Mama)	sir⁵⁵ sir⁵⁵ mo⁵³	sir⁵⁵ sir⁵⁵ mo⁵³	egg	egg				0		1607,1607,685
-41976	1090	Tshona (Mama)	ɕɔk⁵⁵ pᴀ⁵³	ɕɔk⁵⁵ pᴀ⁵³	wing	wing		1.5.1.3		0		731,s
-41977	1090	Tshona (Mama)	pu⁵³	pu⁵³	fur	fur		1.6.1		0		1228
-41978	1090	Tshona (Mama)	pɛː¹³	pɛː¹³	fur	fur		1.6.1		0		
-41979	1090	Tshona (Mama)	krɔ¹³	krɔ¹³	feather	feather		1.6.1.1		0		R
-41980	1090	Tshona (Mama)	tɕʌ¹³ pu⁵³	tɕʌ¹³ pu⁵³	feather	feather		1.6.1.1		0		m,1228
-41981	1090	Tshona (Mama)	der¹³ mo⁵³	der¹³ mo⁵³	claw	claw		1.5.10.4		0		506,s
-41982	1090	Tshona (Mama)	ne¹³ wᴀ⁵³	ne¹³ wᴀ⁵³	hoof (horse)	hoof (horse)		1.5.4		0		w
-41983	1090	Tshona (Mama)	li¹³ min⁵⁵	li¹³ min⁵⁵	paw, foot of animal	paw, foot of animal		1.5.4		0		350,m
-41984	1090	Tshona (Mama)	ruː¹³	ruː¹³	horn	horn		1.2.2		0		814
-41985	1090	Tshona (Mama)	kʰlɛʔ⁵³	kʰlɛʔ⁵³	tail	tail		1.4.10.1		0		3332
-41986	1090	Tshona (Mama)	zɔ¹³ rɔk⁵³	zɔ¹³ rɔk⁵³	cockscomb	cockscomb		1.2.2.1		0		
-41987	1090	Tshona (Mama)	ze¹³ lʌ⁵³	ze¹³ lʌ⁵³	pig bristles	pig bristles		2.1.12		0		
-41988	1090	Tshona (Mama)	ʔɔk⁵⁵ ɕʌ⁵³	ʔɔk⁵⁵ ɕʌ⁵³	cow neck extra flesh	cow neck extra flesh		2.1.2		0		m
-41989	1090	Tshona (Mama)	pʌː¹³ wo⁵³	pʌː¹³ wo⁵³	hide	hide		1.6.5.1		0		588,s
-41990	1090	Tshona (Mama)	lu¹³ po⁵³	lu¹³ po⁵³	body [1]	body [1]		1.1.1		0		11,1902
-41991	1090	Tshona (Mama)	men⁵³	men⁵³	body [2]	body [2]		1.1.1		0		54
-41992	1090	Tshona (Mama)	rɔ¹³	rɔ¹³	corpse	corpse		1.1.6.1		0		19
-41993	1090	Tshona (Mama)	kɔk¹³ tʰeʔ⁵³	kɔk¹³ tʰeʔ⁵³	head	head		1.2.1		0		1224,358
-41994	1090	Tshona (Mama)	lᴀŋ⁵⁵ pɛʔ⁵³	lᴀŋ⁵⁵ pɛʔ⁵³	forehead	forehead		1.2.5.1		0		392,m
-41995	1090	Tshona (Mama)	kʰrᴀ⁵³	kʰrᴀ⁵³	hair	hair		1.2.3		0		367
-41996	1090	Tshona (Mama)	kʰrᴀ⁵³ pʰre⁵³	kʰrᴀ⁵³ pʰre⁵³	braid	braid		1.2.3.2		0		367,2018
-41997	1090	Tshona (Mama)	lᴀt⁵⁵ pᴀ⁵³	lᴀt⁵⁵ pᴀ⁵³	brain	brain		1.2.4		0		465,s
-41998	1090	Tshona (Mama)	ŋor⁵⁵	ŋor⁵⁵	face	face		1.2.5		0		1192
-41999	1090	Tshona (Mama)	ȵer⁵⁵ mᴀ⁵³	ȵer⁵⁵ mᴀ⁵³	face	face		1.2.5		0		1192,s
-42000	1090	Tshona (Mama)	brᴀm¹³	brᴀm¹³	face	face		1.2.5		0		2039
-42001	1090	Tshona (Mama)	ce¹³ kɔm⁵³	ce¹³ kɔm⁵³	face	face		1.2.5		0		2037,630
-42002	1090	Tshona (Mama)	ŋur⁵⁵	ŋur⁵⁵	face	face		1.2.5		0		1192
-42003	1090	Tshona (Mama)	ʔoː⁵⁵ mᴀ⁵³	ʔoː⁵⁵ mᴀ⁵³	chin	chin		1.2.5.3		0		284,m
-42004	1090	Tshona (Mama)	min⁵³ mᴀ⁵³	min⁵³ mᴀ⁵³	eyebrow	eyebrow		1.2.6.6		0		363,s
-42005	1090	Tshona (Mama)	meʔ⁵³	meʔ⁵³	eye	eye		1.2.6		0		682
-42006	1090	Tshona (Mama)	ɬᴀ⁵⁵ pu⁵³	ɬᴀ⁵⁵ pu⁵³	eye	eye		1.2.6		0		1427,1275
-42007	1090	Tshona (Mama)	meʔ⁵³ priː¹³ pu⁵³	meʔ⁵³ priː¹³ pu⁵³	eyeball	eyeball		1.2.6.1		0		682,m,1275
-42008	1090	Tshona (Mama)	meʔ⁵³ kɔŋ⁵⁵	meʔ⁵³ kɔŋ⁵⁵	eye	eye		1.2.6		0		682,3557
-42009	1090	Tshona (Mama)	meʔ⁵³ pʰek⁵³	meʔ⁵³ pʰek⁵³	eye	eye		1.2.6		0		682,m
-42010	1090	Tshona (Mama)	nᴀ⁵³	nᴀ⁵³	nose	nose		1.2.8		0		803
-42011	1090	Tshona (Mama)	nᴀr⁵⁵ ȵᴀk⁵³	nᴀr⁵⁵ ȵᴀk⁵³	nose	nose		1.2.8		0		803,803
-42012	1090	Tshona (Mama)	nem¹³ nɛʔ⁵³	nem¹³ nɛʔ⁵³	ear	ear		1.2.7		0		825,811
-42013	1090	Tshona (Mama)	kʰᴀ⁵³	kʰᴀ⁵³	mouth	mouth		1.3.1		0		273
-42014	1090	Tshona (Mama)	kᴀm⁵³	kᴀm⁵³	mouth	mouth		1.3.1		0		454
-42015	1090	Tshona (Mama)	wᴀ⁵³	wᴀ⁵³	tooth	tooth		1.3.4		0		632
-42016	1090	Tshona (Mama)	tɕʰe⁵⁵ wᴀ⁵³	tɕʰe⁵⁵ wᴀ⁵³	tooth	tooth		1.3.4		0		635,632
-42017	1090	Tshona (Mama)	krᴀŋ¹³ ʔo⁵³	krᴀŋ¹³ ʔo⁵³	tooth	tooth		1.3.4		0		1728,632
-42018	1090	Tshona (Mama)	le⁵³	le⁵³	tongue	tongue		1.3.3		0		621
-42019	1090	Tshona (Mama)	cᴀ¹³ dʐᴀ¹³	cᴀ¹³ dʐᴀ¹³	beard	beard		1.2.5.5		0		1111,366
-42020	1090	Tshona (Mama)	tᴀk⁵⁵ pᴀ⁵³	tᴀk⁵⁵ pᴀ⁵³	neck	neck		1.4.2		0		359,s
-42021	1090	Tshona (Mama)	ȵᴀu¹³	ȵᴀu¹³	neck	neck		1.4.2		0		485
-42022	1090	Tshona (Mama)	ȵe¹³	ȵe¹³	neck	neck		1.4.2		0		485
-42023	1090	Tshona (Mama)	tɔŋ⁵⁵ tɔŋ⁵⁵	tɔŋ⁵⁵ tɔŋ⁵⁵	throat	throat		1.3.5		0		822,822
-42024	1090	Tshona (Mama)	pu⁵⁵ pᴀ⁵³	pu⁵⁵ pᴀ⁵³	shoulder	shoulder		1.4.3		0		1327,s
-42025	1090	Tshona (Mama)	lᴀʔ⁵³	lᴀʔ⁵³	hand	hand		1.5.1.1		0		695
-42026	1090	Tshona (Mama)	duk¹³ tum⁵⁵ pᴀ³¹	duk¹³ tum⁵⁵ pᴀ³¹	hand	hand		1.5.1.1		0		m,m,m
-42027	1090	Tshona (Mama)	bᴀ¹³	bᴀ¹³	hand	hand		1.5.1.1		0		745
-42028	1090	Tshona (Mama)	krɯm¹³ tɕuŋ⁵³	krɯm¹³ tɕuŋ⁵³	elbow	elbow		1.5.8.3		0		
-42029	1090	Tshona (Mama)	lᴀʔ⁵³ priu⁵³	lᴀʔ⁵³ priu⁵³	finger	finger		1.5.6		0		695,m
-42030	1090	Tshona (Mama)	tʰen⁵⁵ pʰoŋ⁵⁵	tʰen⁵⁵ pʰoŋ⁵⁵	finger	finger		1.5.6		0		
-42031	1090	Tshona (Mama)	cuŋ⁵⁵ cuŋ⁵⁵ mᴀʔ⁵³	cuŋ⁵⁵ cuŋ⁵⁵ mᴀʔ⁵³	finger	finger		1.5.6		0		
-42032	1090	Tshona (Mama)	ziː¹³ po⁵³	ziː¹³ po⁵³	fingernail	fingernail		1.5.10.1		0		
-42033	1090	Tshona (Mama)	prᴀŋ¹³	prᴀŋ¹³	chest	chest		1.4.4.3		0		288
-42034	1090	Tshona (Mama)	pʰuŋ⁵³	pʰuŋ⁵³	back	back		1.4.8		0		3326
-42035	1090	Tshona (Mama)	cɛ¹³ ru⁵³	cɛ¹³ ru⁵³	back	back		1.4.8		0		m,232
-42036	1090	Tshona (Mama)	cɛː⁵⁵ pᴀ⁵³	cɛː⁵⁵ pᴀ⁵³	belly	belly		1.4.7		0		
-42037	1090	Tshona (Mama)	pʰɔː⁵⁵ wʌ⁵³	pʰɔː⁵⁵ wʌ⁵³	belly	belly		1.4.7		0		164,m
-42038	1090	Tshona (Mama)	kʰren⁵³	kʰren⁵³	waist	waist		1.4.6		0		217
-42039	1090	Tshona (Mama)	kʰɛː⁵⁵ mᴀ⁵³	kʰɛː⁵⁵ mᴀ⁵³	kidney	kidney		1.7.5		0		201,s
-42040	1090	Tshona (Mama)	le¹³ mɛʔ⁵³	le¹³ mɛʔ⁵³	foot	foot		1.5.2		0		350,m
-42041	1090	Tshona (Mama)	tiː⁵⁵ pᴀ⁵³	tiː⁵⁵ pᴀ⁵³	foot	foot		1.5.2		0		
-42042	1090	Tshona (Mama)	ȵᴀ¹³ lɔk⁵³	ȵᴀ¹³ lɔk⁵³	leg	leg		1.5.7		0		
-42043	1090	Tshona (Mama)	le¹³ dum¹³	le¹³ dum¹³	leg	leg		1.5.7		0		350,m
-42044	1090	Tshona (Mama)	ȵᴀ¹³ dik⁵³	ȵᴀ¹³ dik⁵³	leg	leg		1.5.7		0		
-42045	1090	Tshona (Mama)	pu⁵⁵ moŋ⁵³	pu⁵⁵ moŋ⁵³	knee	knee		1.5.8.4		0		
-42046	1090	Tshona (Mama)	ȵᴀ¹³ kʰuk⁵³	ȵᴀ¹³ kʰuk⁵³	knee	knee		1.5.8.4		0		m,1251
-42047	1090	Tshona (Mama)	pʰe⁵⁵ kʰu⁵³	pʰe⁵⁵ kʰu⁵³	skin	skin		1.6.5		0		m,589
-42048	1090	Tshona (Mama)	rɔː¹³ pʰᴀ⁵³	rɔː¹³ pʰᴀ⁵³	bone	bone		1.6.3		0		237,m
-42049	1090	Tshona (Mama)	kᴀŋ⁵⁵ mᴀr⁵⁵	kᴀŋ⁵⁵ mᴀr⁵⁵	bone	bone		1.6.3		0		m,m
-42050	1090	Tshona (Mama)	tsᴀ⁵³	tsᴀ⁵³	muscle / sinew	muscle / sinew		1.6.6.2		0		530
-42051	1090	Tshona (Mama)	cep⁵³	cep⁵³	muscle / sinew	muscle / sinew		1.6.6.2		0		m
-42052	1090	Tshona (Mama)	ceʔ⁵³	ceʔ⁵³	blood	blood		1.6.2		0		230
-42053	1090	Tshona (Mama)	pʰɔː⁵⁵	pʰɔː⁵⁵	stomach	stomach		1.7.6		0		2103
-42054	1090	Tshona (Mama)	pɛː¹³ cem⁵⁵ mᴀʔ⁵³	pɛː¹³ cem⁵⁵ mᴀʔ⁵³	spleen	spleen		1.7.4		0		m,m,1384
-42055	1090	Tshona (Mama)	cu¹³ mo⁵³	cu¹³ mo⁵³	intestines	intestines		1.7.7		0		2116,m
-42056	1090	Tshona (Mama)	niŋ⁵³	niŋ⁵³	heart	heart		1.7.1		0		251
-42057	1090	Tshona (Mama)	tsi⁵⁵ mo⁵³	tsi⁵⁵ mo⁵³	liver	liver		1.7.3		0		1390,s
-42058	1090	Tshona (Mama)	kli⁵³	kli⁵³	gall bladder	gall bladder		1.7.3		0		227
-42059	1090	Tshona (Mama)	lɔː⁵⁵	lɔː⁵⁵	lung	lung		1.7.2		0		2121
-42060	1090	Tshona (Mama)	tɕʰi⁵⁵ liŋ⁵⁵ kᴀː⁵⁵ po⁵³	tɕʰi⁵⁵ liŋ⁵⁵ kᴀː⁵⁵ po⁵³	bladder	bladder		1.7.8		0		
-42061	1090	Tshona (Mama)	nᴀm¹³ nᴀŋ⁵⁵	nᴀm¹³ nᴀŋ⁵⁵	placenta	placenta				0		3444,m
-42062	1090	Tshona (Mama)	ȵeʔ¹³	ȵeʔ¹³	sweat	sweat		1.8.1		0		m
-42063	1090	Tshona (Mama)	nep⁵³	nep⁵³	snot	snot		1.8.2		0		805
-42064	1090	Tshona (Mama)	hᴀr⁵⁵	hᴀr⁵⁵	phlegm	phlegm		1.8.3		0		541
-42065	1090	Tshona (Mama)	tem⁵³	tem⁵³	saliva	saliva		1.8.3		0		
-42066	1090	Tshona (Mama)	jo¹³	jo¹³	milk	milk				0		5539
-42067	1090	Tshona (Mama)	ȵin¹³	ȵin¹³	shit	shit		1.8.5		0		2520
-42068	1090	Tshona (Mama)	pʰɛʔ⁵³	pʰɛʔ⁵³	fart	fart		1.8.5.2		0		311
-42069	1090	Tshona (Mama)	tɕʰin⁵³	tɕʰin⁵³	urine	urine		1.8.4		0		650
-42070	1090	Tshona (Mama)	mᴀ¹³	mᴀ¹³	wound	wound		1.8.6.2		0		
-42071	1090	Tshona (Mama)	pleʔ⁵³	pleʔ⁵³	scar	scar		1.6.5.3		0		
-42072	1090	Tshona (Mama)	tsi⁵⁵ ʑiŋ⁵³	tsi⁵⁵ ʑiŋ⁵³	ulcer, sore	ulcer, sore		1.8.6.2		0		m,m
-42073	1090	Tshona (Mama)	mi⁵⁵ wᴀ⁵³	mi⁵⁵ wᴀ⁵³	mole	mole		2.2.7		0		2447,m
-42074	1090	Tshona (Mama)	pruʔ	pruʔ	spot	spot		6.2		0		
-42075	1090	Tshona (Mama)	tɕer⁵⁵	tɕer⁵⁵	wart	wart		1.6.5.3		0		
-42076	1090	Tshona (Mama)	ŋɔ⁵³	ŋɔ⁵³	tinea; ringworm	tinea; ringworm		1.6.5.3		0		
-42077	1090	Tshona (Mama)	jᴀn¹³	jᴀn¹³	pus	pus		1.8.6.1		0		m
-42078	1090	Tshona (Mama)	lɔŋ¹³ pᴀ⁵³	lɔŋ¹³ pᴀ⁵³	blind person	blind person		1.2.6.14.2		0		1239,s
-42079	1090	Tshona (Mama)	øn¹³ pᴀ⁵³	øn¹³ pᴀ⁵³	deaf person	deaf person		1.2.7.5		0		
-42080	1090	Tshona (Mama)	kuk⁵⁵ pᴀ⁵³	kuk⁵⁵ pᴀ⁵³	mute person	mute person		1.5.3.2		0		1789,s
-42081	1090	Tshona (Mama)	nøn⁵⁵ pᴀ⁵³	nøn⁵⁵ pᴀ⁵³	insane person	insane person		8.3.1.11.3		0		
-42082	1090	Tshona (Mama)	kᴀŋ⁵⁵ cɔʔ⁵³	kᴀŋ⁵⁵ cɔʔ⁵³	lame person	lame person		1.5.12		0		
-42083	1090	Tshona (Mama)	pᴀr¹³ tsᴀʔ⁵³	pᴀr¹³ tsᴀʔ⁵³	pockmarked person	pockmarked person		1.6.5.4		0		
-42084	1090	Tshona (Mama)	kʰᴀ⁵⁵ ʑᴀ¹³	kʰᴀ⁵⁵ ʑᴀ¹³	scarred person	scarred person		1.6.5.4		0		
-42085	1090	Tshona (Mama)	kur¹³ mo⁵³	kur¹³ mo⁵³	hunchback	hunchback		1.4.8.3		0		m,m
-42086	1090	Tshona (Mama)	num⁵³	num⁵³	oil	oil		1.6.4.1		0		1443
-42087	1090	Tshona (Mama)	mʌr¹³	mʌr¹³	oil	oil		1.6.4.1		0		1470
-42088	1090	Tshona (Mama)	tɕʰu⁵⁵ ru⁵³	tɕʰu⁵⁵ ru⁵³	milk dregs	milk dregs				0		5539,m
-42089	1090	Tshona (Mama)	ɕᴀ⁵³	ɕᴀ⁵³	meat, flesh	meat, flesh		1.1.1.1		0		34
-42090	1090	Tshona (Mama)	mʌn⁵⁵	mʌn⁵⁵	speech	speech		1.8.7		0		
-42091	1090	Tshona (Mama)	tʂʌ¹³	tʂʌ¹³	sound	sound		9.3		0		
-42092	1090	Tshona (Mama)	ku⁵³	ku⁵³	sound (of animal)	sound (of animal)		9.3		0		
-42093	1090	Tshona (Mama)	buk¹³	buk¹³	breath	breath		1.1.2.2		0		65
-42094	1090	Tshona (Mama)	ɕuk⁵³	ɕuk⁵³	strength	strength		1.1.5		0		m
-42095	1090	Tshona (Mama)	mʌŋ¹³ mo⁵³	mʌŋ¹³ mo⁵³	shadow	shadow		3.2.10		0		
-42096	1090	Tshona (Mama)	ɬʌ⁵³	ɬʌ⁵³	spirit	spirit		5.8.1.1		0		
-42097	1090	Tshona (Mama)	te⁵⁵	te⁵⁵	look at	look at		1.2.6.11		0		m
-42098	1090	Tshona (Mama)	tʰoŋ⁵³	tʰoŋ⁵³	see, perceive	see, perceive		1.2.6.10		0		1402
-42099	1090	Tshona (Mama)	ȵʌn¹³	ȵʌn¹³	listen	listen		1.2.7.4		0		1410
-42100	1090	Tshona (Mama)	thɔʔ⁵³	thɔʔ⁵³	hear	hear		1.2.7.4		0		1408
-42101	1090	Tshona (Mama)	zᴀ¹³	zᴀ¹³	eat	eat		1.5.3.2		0		36
-42102	1090	Tshona (Mama)	toŋ⁵⁵	toŋ⁵⁵	drink	drink				0		502
-42103	1090	Tshona (Mama)	ʔoː⁵⁵ te¹³ zuŋ¹³	ʔoː⁵⁵ te¹³ zuŋ¹³	hold in mouth	hold in mouth		1.3.4.4		0		
-42104	1090	Tshona (Mama)	ʔoː⁵⁵ te¹³ cʰʌʔ⁵³	ʔoː⁵⁵ te¹³ cʰʌʔ⁵³	bite	bite		1.3.4.4		0		
-42105	1090	Tshona (Mama)	klᴀt¹³	klᴀt¹³	chew	chew		1.3.4		0		1147
-42106	1090	Tshona (Mama)	cʰʌ⁵³	cʰʌ⁵³	gnaw	gnaw		1.3.4.4		0		
-42107	1090	Tshona (Mama)	klᴀ¹³	klᴀ¹³	lick	lick		1.3.3.1		0		629
-42108	1090	Tshona (Mama)	tʌː⁵⁵	tʌː⁵⁵	stick out (tongue)	stick out (tongue)		3.1.2		0		
-42109	1090	Tshona (Mama)	dʑip¹³	dʑip¹³	suck (milk)	suck (milk)		1.3.2.1		0		5541
-42110	1090	Tshona (Mama)	ʔo⁵⁵ tʰɔp⁵³	ʔo⁵⁵ tʰɔp⁵³	kiss	kiss		1.3.2.2		0		m,5541
-42111	1090	Tshona (Mama)	ȵut⁵³ tʰoʔ⁵³	ȵut⁵³ tʰoʔ⁵³	swallow	swallow		1.3.5.6		0		
-42112	1090	Tshona (Mama)	kɔp¹³	kɔp¹³	vomit	vomit		1.8.3.2		0		m
-42113	1090	Tshona (Mama)	pʰuʔ⁵³ jᴀ¹³	pʰuʔ⁵³ jᴀ¹³	blow (with mouth)	blow (with mouth)		1.3.1.4		0		503,m
-42114	1090	Tshona (Mama)	ɕᴀt⁵³	ɕᴀt⁵³	speak	speak		8.5.10.1		0		1755
-42115	1090	Tshona (Mama)	pʰɛː⁵⁵ rɛʔ⁵³ jʌ¹³	pʰɛː⁵⁵ rɛʔ⁵³ jʌ¹³	shout	shout		8.5.4.1		0		
-42116	1090	Tshona (Mama)	ʂi⁵³ num¹³	ʂi⁵³ num¹³	smell, sniff	smell, sniff		1.2.8.5		0		m,1415
-42117	1090	Tshona (Mama)	ȵɛː¹³	ȵɛː¹³	sleep	sleep		1.1.4.1		0		129
-42118	1090	Tshona (Mama)	cen¹³ tᴀr¹³	cen¹³ tᴀr¹³	laugh	laugh		1.8.8.1		0		m,m
-42119	1090	Tshona (Mama)	ŋu¹³	ŋu¹³	cry, weep	cry, weep		1.8.8.2		0		1104
-42120	1090	Tshona (Mama)	sɔ⁵³	sɔ⁵³	raise (children)	raise (children)		6.7.7		0		
-42121	1090	Tshona (Mama)	kʰroŋ⁵³	kʰroŋ⁵³	grow up	grow up		9.7.2		0		
-42122	1090	Tshona (Mama)	ne¹³ se⁵³	ne¹³ se⁵³	get sick	get sick		1.1.5		0		
-42123	1090	Tshona (Mama)	lɔ⁵³ jᴀ¹³	lɔ⁵³ jᴀ¹³	cough	cough		1.8.3.3		0		
-42124	1090	Tshona (Mama)	ʔᴀk⁵⁵ |tsʰiu⁵⁵	ʔᴀk⁵⁵ tsʰiu⁵⁵	sneeze	sneeze		1.8.2.1		0		2131
-42125	1090	Tshona (Mama)	ʔik⁵⁵ po⁵³ jᴀ¹³	ʔik⁵⁵ po⁵³ jᴀ¹³	burp	burp		1.8.3		0		
-42126	1090	Tshona (Mama)	pʰrik⁵³	pʰrik⁵³	shake, shiver	shake, shiver		6.7.9		0		
-42127	1090	Tshona (Mama)	bɔ¹³	bɔ¹³	swell up	swell up		1.1.5.2		0		163
-42128	1090	Tshona (Mama)	søn⁵⁵ mo⁵³	søn⁵⁵ mo⁵³	live (huó)	live (h|uo)		1.1.2.1		0		77,s
-42129	1090	Tshona (Mama)	ɕi⁵³	ɕi⁵³	die	die		1.1.6		0		27
-42130	1090	Tshona (Mama)	løʔ⁵³ tʰoʔ⁵³	løʔ⁵³ tʰoʔ⁵³	sacrifice	sacrifice		5.8.1.3		0		
-42131	1090	Tshona (Mama)	tɕʰin⁵³ ɕeʔ⁵³	tɕʰin⁵³ ɕeʔ⁵³	urinate	urinate		1.5.3.2		0		650,m
-42132	1090	Tshona (Mama)	ȵin¹³ ɕeʔ⁵³	ȵin¹³ ɕeʔ⁵³	defecate	defecate		1.8.5.4		0		
-42133	1090	Tshona (Mama)	pʰir⁵⁵	pʰir⁵⁵	fly	fly		2.2.6		0		
-42134	1090	Tshona (Mama)	ɕʌ⁵³ cʌr¹³	ɕʌ⁵³ cʌr¹³	fat (of humans)	fat (of humans)		1.6.4		0		34,m
-42135	1090	Tshona (Mama)	cᴀ¹³ kʰᴀ⁵³	cᴀ¹³ kʰᴀ⁵³	fat (of humans)	fat (of humans)		1.6.4		0		34,m
-42136	1090	Tshona (Mama)	cem⁵⁵ pʰᴀ⁵³	cem⁵⁵ pʰᴀ⁵³	lean (of humans)	lean (of humans)		1.1.1		0		1805,m,s
-42137	1090	Tshona (Mama)	ɕʌ⁵³ cem⁵³	ɕʌ⁵³ cem⁵³	lean (of meat)	lean (of meat)		1.1.1		0		34,1805
-42138	1090	Tshona (Mama)	dʐe¹³	dʐe¹³	full, satiated	full, satiated		1.1.3.2		0		114
-42139	1090	Tshona (Mama)	ʑe¹³ jᴀ¹³	ʑe¹³ jᴀ¹³	sated, too full	sated, too full (n)	n	1.1.3.2		0		114,m
-42140	1090	Tshona (Mama)	prem¹³ neː¹³	prem¹³ neː¹³	hungry	hungry		1.1.3		0		m,104
-42141	1090	Tshona (Mama)	pɛː¹³ cem⁵³	pɛː¹³ cem⁵³	thirsty	thirsty		1.1.3.1		0		m,116
-42142	1090	Tshona (Mama)	ʑᴀŋ¹³	ʑᴀŋ¹³	tired	tired		9.6.2.2		0		
-42143	1090	Tshona (Mama)	cʰᴀ⁵³	cʰᴀ⁵³	itch	itch		1.6.5.5		0		1456
-42144	1090	Tshona (Mama)	ber¹³	ber¹³	numb	numb		1.5.11		0		5685
-42145	1086	Tsangla (Motuo)	mi◦ȵuŋ	mi◦ȵuŋ	left	left		1.5.3.2		0		
-42146	1086	Tsangla (Motuo)	la◦ȵuŋ	la◦ȵuŋ	right	right		1.5.3.2		0		
-42147	1086	Tsangla (Motuo)	naima	naima	side	side		1.4.5		0		
-42148	1086	Tsangla (Motuo)	bar◦ʑuŋ	bar◦ʑuŋ	center	center		1.9.4		0		m,1628
-42149	1086	Tsangla (Motuo)	go◦tʰam	go◦tʰam	egg	egg				0		305,646
-42150	1086	Tsangla (Motuo)	ser◦kʰum	ser◦kʰum	egg	egg				0		1607,305
-42151	1086	Tsangla (Motuo)	wø◦lam	wø◦lam	wing	wing		1.5.1.3		0		1603,768
-42152	1086	Tsangla (Motuo)	pu	pu	fur	fur		1.6.1		0		1228
-42153	1086	Tsangla (Motuo)	mi	mi	fur	fur		1.6.1		0		m
-42154	1086	Tsangla (Motuo)	kʰai◦dʐo	kʰai◦dʐo	feather	feather		1.6.1.1		0		
-42155	1086	Tsangla (Motuo)	tsʰiŋ◦naŋ	tsʰiŋ◦naŋ	claw	claw		1.5.10.4		0		
-42156	1086	Tsangla (Motuo)	gowa bairo	gowa bairo	cockscomb	cockscomb		1.2.2.1		0		
-42157	1086	Tsangla (Motuo)	bidʑoktaŋ	bidʑoktaŋ	hoof	hoof		1.5.4		0		
-42158	1086	Tsangla (Motuo)	wa◦roŋ	wa◦roŋ	horn	horn		1.2.2		0		m,814
-42159	1086	Tsangla (Motuo)	ɕam◦pi	ɕam◦pi	tail	tail		1.4.10.1		0		m,1361
-42160	1086	Tsangla (Motuo)	pʰan	pʰan	dewlap	dewlap		1.4.2		0		
-42161	1086	Tsangla (Motuo)	lus◦pu	lus◦pu	body	body		1.1.1		0		11,1902
-42162	1086	Tsangla (Motuo)	ro	ro	corpse	corpse		1.1.6.1		0		19
-42163	1086	Tsangla (Motuo)	ɕa◦raŋ	ɕa◦raŋ	head	head		1.2.1		0		m,392
-42164	1086	Tsangla (Motuo)	tʰot◦pa	tʰot◦pa	skull	skull		1.2.1.1		0		2002,s
-42165	1086	Tsangla (Motuo)	pa◦toŋ	pa◦toŋ	forehead	forehead		1.2.5.1		0		m,371
-42166	1086	Tsangla (Motuo)	tsʰam	tsʰam	hair	hair		1.2.3		0		366
-42167	1086	Tsangla (Motuo)	tsʰam	tsʰam	braid	braid		1.2.3.2		0		366
-42168	1086	Tsangla (Motuo)	ȵok◦taŋ	ȵok◦taŋ	brain	brain		1.2.4		0		243,1133
-42169	1086	Tsangla (Motuo)	ze◦ti◦waŋ	ze◦ti◦waŋ	face	face		1.2.5		0		2037,m,2046
-42170	1086	Tsangla (Motuo)	kʰur	kʰur	face	face		1.2.5		0		2032
-42171	1086	Tsangla (Motuo)	na◦tza	na◦tza	face	face		1.2.5		0		m,2034
-42172	1086	Tsangla (Motuo)	doŋ◦pa	doŋ◦pa	face	face		1.2.5		0		2031,s
-42173	1086	Tsangla (Motuo)	ȵer◦ma	ȵer◦ma	face	face		1.2.5		0		1192,s
-42174	1086	Tsangla (Motuo)	miŋ◦pu	miŋ◦pu	eyebrow	eyebrow		1.2.6.6		0		682,1228
-42175	1086	Tsangla (Motuo)	miŋ◦za	miŋ◦za	eye	eye		1.2.6		0		682,1012
-42176	1086	Tsangla (Motuo)	miŋ◦kʰu	miŋ◦kʰu	eye	eye		1.2.6		0		682,665
-42177	1086	Tsangla (Motuo)	miŋ◦kʰor	miŋ◦kʰor	eye	eye		1.2.6		0		682,665
-42178	1086	Tsangla (Motuo)	miŋ kʰoŋ◦taŋ	miŋ kʰoŋ◦taŋ	eye	eye		1.2.6		0		682,3557,m
-42179	1086	Tsangla (Motuo)	miŋ	miŋ	eye	eye		1.2.6		0		682
-42180	1086	Tsangla (Motuo)	miŋ◦ri	miŋ◦ri	tears	tears		1.2.6.7		0		682,1013
-42181	1086	Tsangla (Motuo)	na◦wuŋ	na◦wuŋ	nose	nose		1.2.8		0		803,806
-42182	1086	Tsangla (Motuo)	na◦wuŋ◦laŋ	na◦wuŋ◦laŋ	nose	nose		1.2.8		0		803,806,m
-42183	1086	Tsangla (Motuo)	na	na	ear	ear		1.2.7		0		811
-42184	1086	Tsangla (Motuo)	no◦waŋ	no◦waŋ	mouth	mouth		1.3.1		0		470,476
-42185	1086	Tsangla (Motuo)	ʔa◦pak◦taŋ	ʔa◦pak◦taŋ	mouth	mouth		1.3.1		0		p,476,822
-42186	1086	Tsangla (Motuo)	ɕa	ɕa	tooth	tooth		1.3.4		0		632
-42187	1086	Tsangla (Motuo)	tɕʰe◦wa	tɕʰe◦wa	tooth	tooth		1.3.4		0		635,632
-42188	1086	Tsangla (Motuo)	be◦ma ɕa	be◦ma ɕa	tooth	tooth		1.3.4		0		m,m,632
-42189	1086	Tsangla (Motuo)	le	le	tongue	tongue		1.3.3		0		621
-42190	1086	Tsangla (Motuo)	ro◦zi	ro◦zi	chin	chin		1.2.5.3		0		1265,2055
-42191	1086	Tsangla (Motuo)	maŋ◦ra	maŋ◦ra	beard	beard		1.2.5.5		0		1114,1265
-42192	1086	Tsangla (Motuo)	ŋaŋ	ŋaŋ	neck	neck		1.4.2		0		483
-42193	1086	Tsangla (Motuo)	ŋaŋ◦ziŋ	ŋaŋ◦ziŋ	neck	neck		1.4.2		0		483,255
-42194	1086	Tsangla (Motuo)	dor	dor	neck	neck		1.4.2		0		3407
-42195	1086	Tsangla (Motuo)	toŋ◦toŋ	toŋ◦toŋ	throat	throat		1.3.5		0		822,822
-42196	1086	Tsangla (Motuo)	pʰaŋ◦ma	pʰaŋ◦ma	shoulder	shoulder		1.4.3		0		1327,s
-42197	1086	Tsangla (Motuo)	tsʰik◦taŋ	tsʰiktaŋ	joint	joint		1.5.8		0		418,m
-42198	1086	Tsangla (Motuo)	gadaŋ	gadaŋ	hand	hand		1.5.1.1		0		720
-42199	1086	Tsangla (Motuo)	mu◦tʂu◦ma	mu◦tʂu◦ma	hand	hand		1.5.1.1		0		m,731,s
-42200	1086	Tsangla (Motuo)	ɕa tɕʰiŋ◦naŋ	ɕa tɕʰiŋ◦naŋ	hand	hand		1.5.1.1		0		735,709,m
-42201	1086	Tsangla (Motuo)	niŋ◦ziŋ	niŋziŋ	elbow	elbow		1.5.8.3		0		
-42202	1086	Tsangla (Motuo)	gadaŋ bruma	gadaŋ bruma	finger	finger		1.5.6		0		
-42203	1086	Tsangla (Motuo)	tʰeba	tʰeba	finger	finger		1.5.6		0		
-42204	1086	Tsangla (Motuo)	tʰektɕuŋ	tʰektɕuŋ	finger	finger		1.5.6		0		
-42205	1086	Tsangla (Motuo)	tsʰiŋ◦naŋ	tsʰiŋ◦naŋ	fingernail	fingernail		1.5.10.1		0		
-42206	1086	Tsangla (Motuo)	braŋ◦toŋ	braŋ◦toŋ	chest	chest		1.4.4.3		0		288,289
-42207	1086	Tsangla (Motuo)	tsʰiŋ	tsʰiŋ	back	back		1.4.8		0		223
-42208	1086	Tsangla (Motuo)	tsʰiŋ◦kʰaŋ duŋ◦ɕiŋ	tsʰiŋ◦kʰaŋ duŋ◦ɕiŋ	back	back		1.4.8		0		223,219,m,m
-42209	1086	Tsangla (Motuo)	pʰo◦laŋ	pʰo◦laŋ	belly	belly		1.4.7		0		164,m
-42210	1086	Tsangla (Motuo)	ɕa◦tɕʰi◦naŋ	ɕa◦tɕʰi◦naŋ	waist	waist		1.4.6		0		m,223,m
-42211	1086	Tsangla (Motuo)	bi◦ma	bi◦ma	kidney	kidney		1.7.5		0		m,s
-42212	1086	Tsangla (Motuo)	bi	bi	foot	foot		1.5.2		0		343
-42213	1086	Tsangla (Motuo)	tiŋpa	tiŋpa	foot	foot		1.5.2		0		
-42214	1086	Tsangla (Motuo)	lum	lum	leg	leg		1.5.7		0		
-42215	1086	Tsangla (Motuo)	laŋkaŋ	laŋkaŋ	leg	leg		1.5.7		0		
-42216	1086	Tsangla (Motuo)	bi◦pʰolaŋ	bipʰolaŋ	leg	leg		1.5.7		0		343,m
-42217	1086	Tsangla (Motuo)	gumziŋ	gumziŋ	knee	knee		1.5.8.4		0		
-42218	1086	Tsangla (Motuo)	dʐantsa	dʐantsa	knee	knee		1.5.8.4		0		
-42219	1086	Tsangla (Motuo)	moŋ◦naŋ	moŋ◦naŋ	skin	skin		1.6.5		0		54,m
-42220	1086	Tsangla (Motuo)	kʰaŋ	kʰaŋ	bone	bone		1.6.3		0		m
-42221	1086	Tsangla (Motuo)	kaŋ	kaŋ	bone	bone		1.6.3		0		m
-42222	1086	Tsangla (Motuo)	rin	rin	muscle / sinew	muscle / sinew		1.6.6.2		0		372
-42223	1086	Tsangla (Motuo)	sik◦pa	sik◦pa	muscle / sinew	muscle / sinew		1.6.6.2		0		537,s
-42224	1086	Tsangla (Motuo)	ji	ji	blood	blood		1.6.2		0		230
-42225	1086	Tsangla (Motuo)	kʰi◦po◦laŋ	kʰi◦po◦laŋ	stomach	stomach		1.7.6		0		m,2103,3460
-42226	1086	Tsangla (Motuo)	bi◦so◦pʰo	bi◦so◦pʰo	spleen	spleen		1.7.4		0		
-42227	1086	Tsangla (Motuo)	le	le	intestines	intestines		1.7.7		0		572
-42228	1086	Tsangla (Motuo)	tʰiŋ◦lom	tʰiŋ◦lom	heart	heart		1.7.1		0		1387,1381
-42229	1086	Tsangla (Motuo)	tɕʰiŋ◦pa	tɕʰiŋ◦pa	liver	liver		1.7.3		0		1390,s
-42230	1086	Tsangla (Motuo)	tʂʰis	tʂʰis	gall	gall		1.7.3.1		0		1390
-42231	1086	Tsangla (Motuo)	lo◦wa	lo◦wa	lung	lung		1.7.2		0		2121,s
-42232	1086	Tsangla (Motuo)	bum◦tɕʰe◦raŋ	bum◦tɕʰe◦raŋ	bladder	bladder		1.7.8		0		777,650,m
-42233	1086	Tsangla (Motuo)	wak◦tsa ɕum	wak◦tsa ɕum	placenta	placenta				0		m,2727,670
-42234	1086	Tsangla (Motuo)	ɕup◦taŋ	ɕup◦taŋ	sweat	sweat		1.8.1		0		
-42235	1086	Tsangla (Motuo)	ŋi◦naŋ	ŋi◦naŋ	snot	snot		1.8.2		0		m
-42236	1086	Tsangla (Motuo)	har◦kʰak◦taŋ	har◦kʰak◦taŋ	phlegm	phlegm		1.8.3		0		541,540,m
-42237	1086	Tsangla (Motuo)	tʰop◦taŋ	tʰoptaŋ	saliva	saliva		1.8.3		0		
-42238	1086	Tsangla (Motuo)	nu	nu	milk	milk				0		253
-42239	1086	Tsangla (Motuo)	kʰi	kʰi	shit	shit		1.8.5		0		572
-42240	1086	Tsangla (Motuo)	pʰi	pʰi	fart	fart		1.8.5.2		0		311
-42241	1086	Tsangla (Motuo)	tɕʰe◦raŋ	tɕʰe◦raŋ	urine	urine		1.8.4		0		650,1731
-42242	1086	Tsangla (Motuo)	so◦pʰu	so◦pʰu	ulcer, sore	ulcer, sore		1.8.6.2		0		m,1293
-42243	1086	Tsangla (Motuo)	maka	maka	wound	wound		1.8.6.2		0		
-42244	1086	Tsangla (Motuo)	merdi	merdi	scar	scar		1.6.5.3		0		
-42245	1086	Tsangla (Motuo)	ɕinaŋɕiŋ	ɕinaŋɕiŋ	mole	mole		2.2.7		0		
-42246	1086	Tsangla (Motuo)	mras	mras	spot	spot		6.2		0		
-42247	1086	Tsangla (Motuo)	ɕaŋru	ɕaŋru	wart	wart		1.6.5.3		0		
-42248	1086	Tsangla (Motuo)	runtʰisopʰo	runtʰisopʰo	tinea; ringworm	tinea; ringworm		1.6.5.3		0		
-42249	1086	Tsangla (Motuo)	ȵi	ȵi	pus	pus		1.8.6.1		0		1294
-42250	1086	Tsangla (Motuo)	lo◦neʔ	lo◦neʔ	tuberculosis	tuberculosis		1.5.3.2		0		2121,160
-42251	1086	Tsangla (Motuo)	brumneʔ	brumneʔ	smallpox	smallpox		5.3		0		
-42252	1086	Tsangla (Motuo)	tʰuŋmeʔ	tʰuŋmeʔ	cold (illness)	cold (illness)		7.1.2.3		0		
-42253	1086	Tsangla (Motuo)	luneʔ	luneʔ	leprosy	leprosy		5.3		0		
-42254	1086	Tsangla (Motuo)	nat◦pa	nat◦pa	sick person	sick person		1.1.5.1		0		160,s
-42255	1086	Tsangla (Motuo)	natoŋ	natoŋ	deaf person	deaf person		1.2.7.5		0		
-42256	1086	Tsangla (Motuo)	joŋmin	joŋmin	mute person	mute person		1.5.3.2		0		
-42257	1086	Tsangla (Motuo)	joŋba	joŋba	mute person	mute person		1.5.3.2		0		
-42258	1086	Tsangla (Motuo)	ȵospen	ȵospen	insane person	insane person		8.3.1.11.3		0		
-42259	1086	Tsangla (Motuo)	batsa	batsa	pockmarked person	pockmarked person		1.6.5.4		0		
-42260	1086	Tsangla (Motuo)	kʰadiʔ	kʰadiʔ	scarred person	scarred person		1.6.5.4		0		
-42261	1086	Tsangla (Motuo)	si	si	fat, oil	fat, oil		1.6.4		0		48
-42262	1086	Tsangla (Motuo)	ɕa	ɕa	meat, flesh	meat, flesh		1.1.1.1		0		34
-42263	1086	Tsangla (Motuo)	tɕʰu◦ra	tɕʰu◦ra	milk dregs	milk dregs				0		5539,m
-42264	1086	Tsangla (Motuo)	ʑaʔ	ʑaʔ	fertilizer	fertilizer		1.9		0		
-42265	1086	Tsangla (Motuo)	kauko	kauko	speech	speech		1.8.7		0		
-42266	1086	Tsangla (Motuo)	kan	kan	sound	sound		9.3		0		
-42267	1086	Tsangla (Motuo)	ɕoŋ	ɕoŋ	breath	breath		1.1.2.2		0		77
-42268	1086	Tsangla (Motuo)	tsʰe	tsʰe	life	life		1.1.2.1		0		1010
-42269	1086	Tsangla (Motuo)	ɬa	ɬa	spirit	spirit		5.8.1.1		0		
-42270	1086	Tsangla (Motuo)	don	don	ghost	ghost		4.2.12.2		0		
-42271	1086	Tsangla (Motuo)	dyʔ	dyʔ	devil	devil		4.2.12.2		0		
-42272	1086	Tsangla (Motuo)	joŋ	joŋ	shadow	shadow		3.2.10		0		
-42273	1086	Tsangla (Motuo)	got	got	look at	look at		1.2.6.11		0		m
-42274	1086	Tsangla (Motuo)	tʰoŋ	tʰoŋ	see, perceive	see, perceive		1.2.6.10		0		1402
-42275	1086	Tsangla (Motuo)	ȵan	ȵan	listen	listen		1.2.7.4		0		1410
-42276	1086	Tsangla (Motuo)	za	za	eat	eat		1.5.3.2		0		36
-42277	1086	Tsangla (Motuo)	kam	kam	eat	eat		1.5.3.2		0		1707
-42278	1086	Tsangla (Motuo)	ŋam	ŋam	eat	eat		1.5.3.2		0		m
-42279	1086	Tsangla (Motuo)	dʑam	dʑam	drink	drink				0		
-42280	1086	Tsangla (Motuo)	tsi◦rut	tsi◦rut	chew cud	chew cud		1.3.4		0		m,1760
-42281	1086	Tsangla (Motuo)	ben	ben	lick	lick		1.3.3.1		0		
-42282	1086	Tsangla (Motuo)	jum	jum	suck (milk)	suck (milk)		1.3.2.1		0		5541
-42283	1086	Tsangla (Motuo)	tɕup◦ʔa	tɕup◦ʔa	kiss	kiss		1.3.2.2		0		5541,m
-42284	1086	Tsangla (Motuo)	ȵø	ȵø	swallow	swallow		1.3.5.6		0		
-42285	1086	Tsangla (Motuo)	pʰros	pʰros	vomit	vomit		1.8.3.2		0		1145
-42286	1086	Tsangla (Motuo)	mu	mu	blow (with mouth)	blow (with mouth)		1.3.1.4		0		503
-42287	1086	Tsangla (Motuo)	jek	jek	speak	speak		8.5.10.1		0		
-42288	1086	Tsangla (Motuo)	dir	dir	shout	shout		8.5.4.1		0		
-42289	1086	Tsangla (Motuo)	nam	nam	smell (with nose)	smell (with nose)		1.2.8.5		0		1415
-42290	1086	Tsangla (Motuo)	reŋ	reŋ	stick out (tongue)	stick out (tongue)		3.1.2		0		
-42291	1086	Tsangla (Motuo)	jip	jip	sleep	sleep		1.1.4.1		0		127
-42292	1086	Tsangla (Motuo)	saŋ	saŋ	awaken (from drunken stupor)	awaken (from drunken stupor)		1.1.4		0		144
-42293	1086	Tsangla (Motuo)	ɕatɕot	ɕatɕot	castrate (caponize)	castrate (caponize)		1.9.2.3		0		m
-42294	1086	Tsangla (Motuo)	ŋar	ŋar	laugh	laugh		1.8.8.1		0		1142
-42295	1086	Tsangla (Motuo)	gep	gep	cry, weep	cry, weep		1.8.8.2		0		1103
-42296	1086	Tsangla (Motuo)	siŋ	siŋ	raise (children)	raise (children)		6.7.7		0		
-42297	1086	Tsangla (Motuo)	sik	sik	grow up	grow up		9.7.2		0		
-42298	1086	Tsangla (Motuo)	mar	mar	get sick	get sick		1.1.5		0		
-42299	1086	Tsangla (Motuo)	tsʰuŋpʰuŋ	tsʰuŋpʰuŋ	cough	cough		1.8.3.3		0		
-42300	1086	Tsangla (Motuo)	bisʔa	bisʔa	sneeze	sneeze		1.8.2.1		0		
-42301	1086	Tsangla (Motuo)	tɕi◦kuk	tɕi◦kuk	burp	burp		1.8.3		0		
-42302	1086	Tsangla (Motuo)	kʰa	kʰa	shake;shiver	shake;shiver		6.7.9		0		
-42303	1086	Tsangla (Motuo)	se⁵⁵	se⁵⁵	develop (sore, ulcer)	develop (sore, ulcer)		9.5		0		
-42304	1086	Tsangla (Motuo)	pʰok	pʰok	blind	blind	v.	1.2.6.14.2		0		1239
-42305	1086	Tsangla (Motuo)	pʰuŋ	pʰuŋ	swell up	swell up		1.1.5.2		0		111
-42306	1086	Tsangla (Motuo)	son◦po	son◦po	alive	alive	adj.	1.1.2.1		0		77,s
-42307	1086	Tsangla (Motuo)	ɕi	ɕi	die	die		1.1.6		0		27
-42308	1086	Tsangla (Motuo)	tɕe◦raŋ wu	tɕeraŋ wu	urinate	urinate		1.5.3.2		0		650,1731,m
-42309	1086	Tsangla (Motuo)	kʰi wu	kʰi wu	defecate	defecate		1.8.5.4		0		572,m
-42310	1086	Tsangla (Motuo)	pʰen	pʰen	fly	fly		2.2.6		0		
-42311	1086	Tsangla (Motuo)	dʑak◦pa	dʑak◦pa	fat (of humans)	fat (of humans)		1.6.4		0		40,s
-42312	1086	Tsangla (Motuo)	tɕaŋ◦pu	tɕaŋ◦pu	lean (of humans)	lean (of humans)		1.1.1		0		1807,1902
-42313	1086	Tsangla (Motuo)	kʰa	kʰa	full, satiated	full, satiated		1.1.3.2		0		115
-42314	1086	Tsangla (Motuo)	tsʰim	tsʰim	sated, too full	sated, too full		1.1.3.2		0		136
-42315	1086	Tsangla (Motuo)	bi◦naŋ◦kʰu	bi◦naŋ◦kʰu	hungry	hungry		1.1.3		0		m,104,m
-42316	1086	Tsangla (Motuo)	ri◦naŋ◦sop	ri◦naŋ◦sop	thirsty	thirsty		1.1.3.1		0		1013,104,m
-42317	1086	Tsangla (Motuo)	bek	bek	tired	tired		9.6.2.2		0		
-42318	1086	Tsangla (Motuo)	za	za	itch	itch		1.6.5.5		0		1457
-42319	1086	Tsangla (Motuo)	sin	sin	numb	numb		1.5.11		0		
-42320	1086	Tsangla (Motuo)	saŋ	saŋ	dry (of throat)	dry (of throat)		6.6		0		
-42321	1086	Tsangla (Motuo)	ŋam	ŋam	painful	painful		1.1.5.1		0		
-42322	1086	Tsangla (Motuo)	roŋnaŋ	roŋnaŋ	fathom, cord	fathom, cord		9.8		0		x
-42323	1086	Tsangla (Motuo)	kʰaŋ	kʰaŋ	cubit	cubit		1.5.9.3		0		
-42324	1086	Tsangla (Motuo)	mi	mi	span (hand)	span (hand)		1.5.9.4		0		
-42325	1086	Tsangla (Motuo)	ja◦naŋ	ja◦naŋ	span (hand)	span (hand)		1.5.9.4		0		696,m
-441439	366	Bokar Lhoba	a◦ŋaː	a◦ŋaː	child	child		1.5.3.2		0		p,90
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+39650	505	Darang [Taraon]	tɯ³¹ kiɯ⁵⁵	tɯ³¹ kiɯ⁵⁵	left	left			1.5.3.2		0			m,5624
+39651	505	Darang [Taraon]	tɯ³¹ tɕɑ⁵⁵	tɯ³¹ tɕɑ⁵⁵	right	right			1.5.3.2		0			
+39652	505	Darang [Taraon]	tʰɯ³¹ boŋ³⁵	tʰɯ³¹ boŋ³⁵	center	center			1.9.4		0			m,2111
+39653	505	Darang [Taraon]	mɑ³¹ nɑ⁵³	mɑ³¹ nɑ⁵³	egg	egg					0			
+39654	505	Darang [Taraon]	mɑ³¹ jiŋ⁵³	mɑ³¹ jiŋ⁵³	yolk	yolk					0			
+39655	505	Darang [Taraon]	jim³⁵	jim³⁵	wing, fly	wing, fly	v.	v.	1.5.1.3		0			R
+39656	505	Darang [Taraon]	m̩⁵⁵	m̩⁵⁵	fur	fur			1.6.1		0			363
+39657	505	Darang [Taraon]	tɑ³¹ pʰin³⁵	tɑ³¹ pʰin³⁵	wool (yangmao)	wool (yangmao)			1.6.1.3		0			
+39658	505	Darang [Taraon]	m̩⁵⁵	m̩⁵⁵	feathers	feathers			1.6.1.1		0			363
+39659	505	Darang [Taraon]	ɕi⁵⁵	ɕi⁵⁵	claw	claw			1.5.10.4		0			515
+39660	505	Darang [Taraon]	gɹoŋ⁵³ tioŋ⁵⁵	gɹoŋ⁵³ tioŋ⁵⁵	hoof	hoof			1.5.4		0			5621,m
+39661	505	Darang [Taraon]	ɹɑu⁵⁵	ɹɑu⁵⁵	horn	horn			1.2.2		0			814
+39662	505	Darang [Taraon]	lɯ³¹|mɯn⁵⁵	lɯ³¹|mɯn⁵⁵	tail	tail			1.4.10.1		0			1288
+39663	505	Darang [Taraon]	mɑ³¹ tɕu⁵³ ɹɑu⁵⁵	mɑ³¹ tɕu⁵³ ɹɑu⁵⁵	antler	antler			1.2.2		0			m,m,819
+39664	505	Darang [Taraon]	ɑ³¹ dzɑɯ³⁵	ɑ³¹ dzɑɯ³⁵	cock's comb	cock's comb			1.2.2.1		0			
+39665	505	Darang [Taraon]	a³¹ ju⁵³	a³¹ ju⁵³	dewlap	dewlap			1.4.2		0			
+39667	505	Darang [Taraon]	tiɯŋ⁵⁵	tiɯŋ⁵⁵	body	body			1.1.1		0			6
+39668	505	Darang [Taraon]	tʰɯŋ⁵⁵	tʰɯŋ⁵⁵	corpse (shi)	corpse (shi)			1.1.6.1		0			23
+39669	505	Darang [Taraon]	kɹu⁵³	kɹu⁵³	head	head			1.2.1		0			1221
+39670	505	Darang [Taraon]	mɑ³¹ plɑŋ³⁵	mɑ³¹ plɑŋ³⁵	forehead	forehead			1.2.5.1		0			m,392
+39671	505	Darang [Taraon]	tɑ³¹ kueŋ⁵³	tɑ³¹ kueŋ⁵³	wrinkle	wrinkle			9.6.2		0			
+39672	505	Darang [Taraon]	tɯi⁵⁵ ɑ⁵⁵ mɑ³¹ ŋɑ³⁵	tɯi⁵⁵ ɑ⁵⁵ mɑ³¹ ŋɑ³⁵	five organs (wuguan)	five organs (wuguan)			9.9		0			m,m,p,1306
+39673	505	Darang [Taraon]	tʰɯŋ³⁵	tʰɯŋ³⁵	hair (head)	hair (head)			1.2.3		0			371
+39674	505	Darang [Taraon]	tʰɯŋ³⁵ plɯ⁵⁵	tʰɯŋ³⁵ plɯ⁵⁵	braid	braid			1.2.3.2		0			371,2018
+39675	505	Darang [Taraon]	pɯ³¹ ȵɯm⁵⁵	pɯ³¹ ȵɯm⁵⁵	brain	brain			1.2.4		0			252,5554
+39676	505	Darang [Taraon]	ȵɑŋ⁵⁵	ȵɑŋ⁵⁵	face	face			1.2.5		0			
+39677	505	Darang [Taraon]	bɯ³¹|ɹu⁵⁵	bɯ³¹|ɹu⁵⁵	cheek	cheek			1.2.5.2		0			2047
+39678	505	Darang [Taraon]	tɑ³¹ kɯ³¹ lo⁵⁵	tɑ³¹ kɯ³¹ lo⁵⁵	dimple (jiuwo)	dimple (jiuwo)			1.2.5		0		E	e
+39679	505	Darang [Taraon]	kɑ³¹ pɯŋ⁵⁵ ɹɯ³¹ boŋ³⁵	kɑ³¹ pɯŋ⁵⁵ ɹɯ³¹ boŋ³⁵	cheekbone	cheekbone			1.2.5.2		0			273,264,232,263
+39680	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵ m̩⁵⁵	bɯ³¹|lɯm⁵⁵ m̩⁵⁵	eyebrow	eyebrow			1.2.6.6		0			1427,363
+39681	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵	bɯ³¹|lɯm⁵⁵	eye	eye			1.2.6		0			1427
+39682	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵ ɑ³¹ goŋ³⁵	bɯ³¹|lɯm⁵⁵ ɑ³¹ goŋ³⁵	pupil	pupil			1.2.6.2		0			1427,p,m
+39683	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵ tɯ³¹ bɹoŋ³⁵	bɯ³¹|lɯm⁵⁵ tɯ³¹ bɹoŋ³⁵	eyeball	eyeball			1.2.6.1		0			1427,m,m
+39684	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵ tɑ³¹ kueŋ⁵³	bɯ³¹|lɯm⁵⁵ tɑ³¹ kueŋ⁵³	eye socket	eye socket			1.2.6		0			1427,m,m
+39685	505	Darang [Taraon]	bɯ³¹|lɯm⁵⁵ ko⁵⁵	bɯ³¹|lɯm⁵⁵ ko⁵⁵	eyelid	eyelid			1.2.6.4		0			1427,589
+39686	505	Darang [Taraon]	xɑ³¹ niɑ⁵³ pɯm⁵⁵	xɑ³¹ niɑ⁵³ pɯm⁵⁵	nose	nose			1.2.8		0			p,803,806
+39687	505	Darang [Taraon]	pɹeŋ³⁵	pɹeŋ³⁵	strength	strength			1.1.5		0			1842
+39688	505	Darang [Taraon]	xɑ³¹ ȵɑŋ³¹ gɯm⁵⁵	xɑ³¹ ȵɑŋ³¹ gɯm⁵⁵	bridge of nose	bridge of nose			9.10.2		0			
+39689	505	Darang [Taraon]	kɹu⁵³ nɑŋ³⁵	kɹu⁵³ nɑŋ³⁵	ear	ear			1.2.7		0			1221,811
+39690	505	Darang [Taraon]	tʰɯ³¹ɹɯm⁵³bɯm³⁵	tʰɯ³¹ɹɯm⁵³bɯm³⁵	mouth	mouth			1.3.1		0			m,m,2039
+39691	505	Darang [Taraon]	kʰɑ³¹ lo⁵³	kʰɑ³¹ lo⁵³	palate (shang'e)	palate (shange)			1.3.1.1		0			273,488
+39692	505	Darang [Taraon]	lɑŋ³⁵	lɑŋ³⁵	tooth	tooth			1.3.4		0			1728
+39693	505	Darang [Taraon]	kuɑɯ⁵³ laŋ³⁵	kuɑɯ⁵³ laŋ³⁵	tooth (canine)	tooth (canine)			1.3.4		0			1764,1728
+39694	505	Darang [Taraon]	tiŋ⁵³ kueŋ⁵³	tiŋ⁵³ kueŋ⁵³	molar	molar			1.3.4.2		0			3316,637
+39695	505	Darang [Taraon]	tʰɯ³¹ liɯŋ⁵³ nɑ³⁵	tʰɯ³¹ liɯŋ⁵³ nɑ³⁵	tongue	tongue			1.3.3		0			p,625,m
+39696	505	Darang [Taraon]	tʰɯ³¹ tiɑ⁵⁵	tʰɯ³¹ tiɑ⁵⁵	chin	chin			1.2.5.3		0			280,286
+39697	505	Darang [Taraon]	tʰɯ³¹ ɹɯm⁵³| m̩⁵⁵	tʰɯ³¹ ɹɯm⁵³| m̩⁵⁵	beard	beard			1.2.5.5		0			262,363
+39698	505	Darang [Taraon]	pɑ³¹ ŋ̊ŋˌ⁵⁵	pɑ³¹ ŋ̊ŋˌ⁵⁵	neck	neck			1.4.2		0			m,483
+39699	505	Darang [Taraon]	kʰɑ³¹ diɯŋ⁵³ ɹɑ⁵⁵	kʰɑ³¹ diɯŋ⁵³ ɹɑ⁵⁵	neck	neck			1.4.2		0			494,822,484
+39700	505	Darang [Taraon]	ɕɯ⁵³ tɯ³¹ gɹo⁵³	ɕɯ⁵³ tɯ³¹ gɹo⁵³	throat	throat			1.3.5		0			m,822,488
+39701	505	Darang [Taraon]	tɯ⁵⁵ bɑ³¹	tɯ⁵⁵ bɑ³¹	goiter	goiter			1.4.2.2		0			359,1854
+39702	505	Darang [Taraon]	kʰɯ⁵⁵ liɯŋ³⁵ pɑ³⁵	kʰɯ⁵⁵ liɯŋ³⁵ pɑ³⁵	shoulder	shoulder			1.4.3		0			m,563,570
+39703	505	Darang [Taraon]	lɑ⁵³ kɹɑu⁵³	lɑ⁵³ kɹɑu⁵³	elbow	elbow			1.5.8.3		0			
+39704	505	Darang [Taraon]	bu⁵⁵ jɑ³⁵	bu⁵⁵ jɑ³⁵	fist	fist			1.5.1.1.1		0			m,696
+39705	505	Darang [Taraon]	ɑ³¹ tio⁵⁵	ɑ³¹ tio⁵⁵	hand	hand			1.5.1.1		0			p,699
+39706	505	Darang [Taraon]	ɑ³¹ bɹɯŋ⁵⁵	ɑ³¹ bɹɯŋ⁵⁵	finger	finger			1.5.6		0			p,329
+39707	505	Darang [Taraon]	ɑ³¹ tiɯŋ⁵⁵	ɑ³¹ tiɯŋ⁵⁵	thumb	thumb			1.5.6.1		0			
+39708	505	Darang [Taraon]	ɑ³¹ tiɑi⁵³	ɑ³¹ tiɑi⁵³	little finger	little finger			9.7.2		0			
+39709	505	Darang [Taraon]	ɑ³¹ ɬɯn⁵⁵	ɑ³¹ ɬɯn⁵⁵	fingernail	fingernail			1.5.10.1		0			
+39710	505	Darang [Taraon]	tɑ⁵⁵ plɑŋ⁵⁵	tɑ⁵⁵ plɑŋ⁵⁵	callus (yingzi)	callus (yingzi)			1.6.5.3		0			
+39711	505	Darang [Taraon]	kɯ³¹ tsɯm⁵⁵	kɯ³¹ tsɯm⁵⁵	chest	chest			1.4.4.3		0			560,299
+39712	505	Darang [Taraon]	kɯ³¹ xɹɑɯ⁵³	kɯ³¹ xɹɑɯ⁵³	flesh and bones;	flesh and bones;			1.1.1.1		0			m
+39713	505	Darang [Taraon]	plɯn⁵³	plɯn⁵³	back	back			1.4.8		0			209
+39714	505	Darang [Taraon]	xɑ⁵⁵ ɹoŋ⁵⁵	xɑ⁵⁵ ɹoŋ⁵⁵	vertebrae (beiji)	vertebrae (beiji)			1.6.3.3		0			
+39715	505	Darang [Taraon]	kɯ³¹ jɯŋ⁵⁵	kɯ³¹ jɯŋ⁵⁵	belly	belly			1.4.7		0			m,m
+39716	505	Darang [Taraon]	ɑ³¹ tʰɯ⁵⁵ kɹɯ³⁵	ɑ³¹ tʰɯ⁵⁵ kɹɯ³⁵	waist	waist			1.4.6		0			p,m,221
+39717	505	Darang [Taraon]	gɹoŋ⁵³	gɹoŋ⁵³	foot	foot			1.5.2		0			5621
+39718	505	Darang [Taraon]	gɹoŋ⁵³ ti⁵⁵	gɹoŋ⁵³ ti⁵⁵	heel	heel			1.5.2.1		0			5621,300
+39719	505	Darang [Taraon]	xɑ⁵⁵	xɑ⁵⁵	thigh (datui)	thigh (datui)			1.5.7.1		0			
+39720	505	Darang [Taraon]	pʰɑ³¹ bɯm⁵⁵	pʰɑ³¹ bɯm⁵⁵	knee (qigai)	knee (qigai)			1.5.8.4		0			
+39721	505	Darang [Taraon]	gɹoŋ⁵³ kʰɑ⁵⁵	gɹoŋ⁵³ kʰɑ⁵⁵	back of knee	back of knee			1.4.8		0			5621,m
+39722	505	Darang [Taraon]	gɹoŋ⁵³ ɕɯŋ³⁵	gɹoŋ⁵³ ɕɯŋ³⁵	lower leg (xiaotui)	lower leg (xiaotui)					0		W	5621,m
+39723	505	Darang [Taraon]	gɹoŋ⁵³ m̩⁵⁵	gɹoŋ⁵³ m̩⁵⁵	calf (xiaoduzi)	calf (xiaoduzi)			1.5.7		0			
+39724	505	Darang [Taraon]	gɹoŋ⁵³ bɯ³¹|lɯm⁵⁵	gɹoŋ⁵³ bɯ³¹ lɯm⁵⁵	ankle	ankle			1.5.8.2		0			5621,1427
+39725	505	Darang [Taraon]	ko⁵⁵	ko⁵⁵	skin	skin			1.6.5		0			589
+39726	505	Darang [Taraon]	ɹɯ³¹ boŋ³⁵	ɹɯ³¹ boŋ³⁵	bone	bone			1.6.3		0			232,1469
+39727	505	Darang [Taraon]	ɹu⁵³ su⁵³	ɹu⁵³ su⁵³	marrow	marrow			1.6.3.5		0			232,5485
+39728	505	Darang [Taraon]	sɑ⁵⁵	sɑ⁵⁵	muscle	muscle			1.6.6.2		0			530
+39729	505	Darang [Taraon]	xɑ³¹ ɹuɑi⁵³	xɑ³¹ ɹuɑi⁵³	blood	blood			1.6.2		0			230,230
+39730	505	Darang [Taraon]	jiŋ⁵³ kɑ³¹ weŋ⁵³	jiŋ⁵³ kɑ³¹ weŋ⁵³	stomach	stomach			1.7.6		0			2119,2123,m
+39731	505	Darang [Taraon]	tɑ³¹ pleŋ⁵⁵	tɑ³¹ pleŋ⁵⁵	spleen (pi)	spleen (pi)			1.7.4		0			
+39732	505	Darang [Taraon]	ɕi⁵⁵	ɕi⁵⁵	kidneys	kidneys			1.7.5		0			
+39733	505	Darang [Taraon]	kɯ³¹ ɬɑi⁵⁵	kɯ³¹ ɬɑi⁵⁵	intestines	intestines			1.7.7		0			572,m
+39734	505	Darang [Taraon]	xɑ³¹ po⁵⁵ tiɑi⁵³	xɑ³¹ po⁵⁵ tiɑi⁵³	heart	heart			1.7.1		0			p,m,1019
+39735	505	Darang [Taraon]	ɹu⁵⁵ xɑ³¹ tiɑi⁵³	ɹu⁵⁵ xɑ³¹ tiɑi⁵³	liver	liver			1.7.3		0			m,m,m
+39736	505	Darang [Taraon]	xɑ³¹ po⁵⁵	xɑ³¹ po⁵⁵	lungs	lungs			1.7.2		0			
+39737	505	Darang [Taraon]	tʰɯ³¹ mɯn⁵⁵	tʰɯ³¹ mɯn⁵⁵	gall	gall			1.7.3.1		0			m,m
+39738	505	Darang [Taraon]	ɑ³¹ tʰiɯ⁵⁵	ɑ³¹ tʰiɯ⁵⁵	bladder	bladder			1.7.8		0			p,m
+39739	505	Darang [Taraon]	ɑ⁵⁵ po⁵⁵	ɑ⁵⁵ po⁵⁵	placenta	placenta					0			m,1733
+39740	505	Darang [Taraon]	xɑ³¹ u⁵⁵	xɑ³¹ u⁵⁵	sweat	sweat			1.8.1		0			4513,m
+39741	505	Darang [Taraon]	nɑ³¹ dɯi⁵⁵	nɑ³¹ dɯi⁵⁵	mucus	mucus			1.8.2		0			
+39742	505	Darang [Taraon]	nɑ³¹ kʰɑ⁵³	nɑ³¹ kʰɑ⁵³	phlegm	phlegm			1.8.3		0			m,540
+39743	505	Darang [Taraon]	kʰɯ³¹ lɑi³⁵	kʰɯ³¹ lɑi³⁵	saliva	saliva			1.8.3		0			m,607
+39744	505	Darang [Taraon]	wo³¹ mɑ⁵⁵	wo³¹ mɑ⁵⁵	milk	milk					0			3464,s
+39745	505	Darang [Taraon]	klɑi⁵³	klɑi⁵³	shit	shit			1.8.5		0			572
+39746	505	Darang [Taraon]	kɯ³¹ tɕɯŋ⁵⁵	kɯ³¹ tɕɯŋ⁵⁵	urine	urine			1.8.4		0			p,650
+39747	505	Darang [Taraon]	kɯ³¹ bɹɑi⁵³	kɯ³¹ bɹɑi⁵³	fart	fart			1.8.5.2		0			m,575
+39748	505	Darang [Taraon]	wɑ⁵³	wɑ⁵³	wound (shangkou)	wound (shangkou)			1.8.6.2		0			
+39749	505	Darang [Taraon]	wɑ⁵⁵ poŋ⁵⁵	wɑ⁵⁵ poŋ⁵⁵	scar (shangba)	scar (shangba)			1.6.5.3		0			
+39750	505	Darang [Taraon]	mɑ⁵⁵ lau⁵³	mɑ⁵⁵ lau⁵³	ulcer, sore	ulcer, sore			1.8.6.2		0			1788,m
+39751	505	Darang [Taraon]	bu⁵⁵	bu⁵⁵	pus	pus			1.8.6.1		0			1293
+39752	505	Darang [Taraon]	tɑ³¹ tɯi⁵⁵	tɑ³¹ tɯi⁵⁵	mole (heizhi)	mole (heizhi)			2.2.7		0			
+39753	505	Darang [Taraon]	tɑ³¹ tsɯn⁵³	tɑ³¹ tsɯn⁵³	spot (xiaogedan)	spot (xiaogedan)			6.2		0			
+39754	505	Darang [Taraon]	tɑ³¹ tɯi⁵⁵	tɑ³¹ tɯi⁵⁵	wart (houzi)	wart (houzi)			1.6.5.3		0			
+39755	505	Darang [Taraon]	mɑ³¹ so⁵³	mɑ³¹ so⁵³	ringworm, tinea	ringworm, tinea			2.2.6		0			
+39756	505	Darang [Taraon]	xɑ³¹ po⁵⁵ ȵɑŋ³⁵	xɑ³¹ po⁵⁵ ȵɑŋ³⁵	tuberculosis	tuberculosis			1.5.3.2		0			m,b,160
+39757	505	Darang [Taraon]	mɑ³¹ sɯ⁵⁵	mɑ³¹ sɯ⁵⁵	influenza, cold	influenza, cold			5.3		0			
+39758	505	Darang [Taraon]	ɹɯŋ tɑ³¹ kɑu³⁵	ɹɯŋ tɑ³¹ kɑu³⁵	leprosy	leprosy			5.3		0			
+39759	505	Darang [Taraon]	bɯ³¹ |lɯm⁵⁵ tsɑu⁵⁵	bɯ³¹ |lɯm⁵⁵ tsɑu⁵⁵	blind person	blind person			1.2.6.14.2		0			1427
+39760	505	Darang [Taraon]	kɑ³¹ pɑ⁵⁵	kɑ³¹ pɑ⁵⁵	deaf person	deaf person			1.2.7.5		0			1752,s
+39761	505	Darang [Taraon]	kɑ³¹ pɑ⁵⁵	kɑ³¹ pɑ⁵⁵	mute person	mute person			1.5.3.2		0			1752,s
+39762	505	Darang [Taraon]	tɑ³¹ me³⁵ jɑ³¹ me³⁵	tɑ³¹ me³⁵ jɑ³¹ me³⁵	insane person	insane person			8.3.1.11.3		0			
+39763	505	Darang [Taraon]	gɹoŋ⁵³ ɑ³¹ be³⁵	gɹoŋ⁵³ ɑ³¹ be³⁵	lame person	lame person			1.5.12		0			
+39764	505	Darang [Taraon]	tɑ³¹ tsɯn⁵³	tɑ³¹ tsɯn⁵³	pockmarked person	pockmarked person			1.6.5.4		0			
+39765	505	Darang [Taraon]	tɯ³¹ kɯ⁵³ ɑ³¹ xo⁵³	tɯ³¹ kɯ⁵³ ɑ³¹ xo⁵³	scarred person	scarred person			1.6.5.4		0			
+39766	505	Darang [Taraon]	u⁵⁵ ku⁵⁵ dɑ⁵⁵	u⁵⁵ ku⁵⁵ dɑ⁵⁵	hunchback (tuobei)	hunchback (tuobei)			1.4.8.3		0			m,m,m
+39767	505	Darang [Taraon]	tɑ³¹ so⁵³	tɑ³¹ so⁵³	oil	oil			1.6.4.1		0			m,42
+39768	505	Darang [Taraon]	tɑ³¹ bɹeŋ⁵³	tɑ³¹ bɹeŋ⁵³	meat, flesh	meat, flesh			1.1.1.1		0			47,37
+39769	505	Darang [Taraon]	tɑ³¹ so⁵³	tɑ³¹ so⁵³	lard (suyou)	lard (suyou)			1.6.4.1		0			
+39770	505	Darang [Taraon]	kɯ³¹ pʰɹɑm⁵⁵	kɯ³¹ pʰɹɑm⁵⁵	milk dregs	milk dregs					0			
+39771	505	Darang [Taraon]	xɑ³¹ po⁵⁵ ȵɑŋ³⁵	xɑ³¹ po⁵⁵ ȵɑŋ³⁵	pneumonia (feibing)	pneumonia (feibing)			5.3		0			
+39772	505	Darang [Taraon]	mɑ³¹ sɯ⁵⁵	mɑ³¹ sɯ⁵⁵	influenza (ganmao)	influenza (ganmao)			5.3		0			
+39773	505	Darang [Taraon]	ɹɯŋ⁵⁵ tɑ³¹ kɑu³⁵	ɹɯŋ⁵⁵ tɑ³¹ kɑu³⁵	leprosy	leprosy			5.3		0			
+39774	505	Darang [Taraon]	tɯ³¹ kɯ⁵⁵	tɯ³¹ kɯ⁵⁵	speech (hua)	speech (hua)			1.8.7		0			
+39775	505	Darang [Taraon]	ɕɯ⁵⁵	ɕɯ⁵⁵	breath	breath			1.1.2.2		0			32
+39776	505	Darang [Taraon]	kʰɹɑ⁵³	kʰɹɑ⁵³	sound (of animals)	sound (of animals)			9.3		0			
+39777	505	Darang [Taraon]	xɑ³¹ tiɑɯ⁵⁵ sɯŋ⁵³	xɑ³¹ tiɑɯ⁵⁵ sɯŋ⁵³	shadow	shadow			3.2.10		0			
+39778	505	Darang [Taraon]	sa⁵⁵ tʰu⁵³	sa⁵⁵ tʰu⁵³	pulse	pulse			1.7.1.1		0			
+39779	505	Darang [Taraon]	xueŋ⁵³	xueŋ⁵³	look at	look at			1.2.6.11		0			1229
+39780	505	Darang [Taraon]	kɑ³¹ tiɯŋ⁵³	kɑ³¹ tiɯŋ⁵³	see (jiandao)	see (jiandao)			1.2.6.10		0			p,1402
+39781	505	Darang [Taraon]	tʰɑ³¹ ɹɯŋ⁵⁵	tʰɑ³¹ ɹɯŋ⁵⁵	listen	listen			1.2.7.4		0			1408,m
+39782	505	Darang [Taraon]	tʰɑ³¹ tiɯŋ⁵³	tʰɑ³¹ tiɯŋ⁵³	hear	hear			1.2.7.4		0			1408,m
+39783	505	Darang [Taraon]	tʰɑ⁵³	tʰɑ⁵³	eat	eat			1.5.3.2		0			36
+39784	505	Darang [Taraon]	tim³⁵	tim³⁵	drink (yin)	drink (yin)					0			502
+39785	505	Darang [Taraon]	tʰɑɯ⁵³	tʰɑɯ⁵³	hold in mouth	hold in mouth			1.3.4.4		0			
+39786	505	Darang [Taraon]	tie⁵³	tie⁵³	bite	bite			1.3.4.4		0			
+39787	505	Darang [Taraon]	kɹi⁵³	kɹi⁵³	chew cud	chew cud			1.3.4		0			
+39788	505	Darang [Taraon]	lio⁵³	lio⁵³	lick	lick			1.3.3.1		0			629
+39789	505	Darang [Taraon]	lie³⁵	lie³⁵	stick out (tongue)	stick out (tongue)			3.1.2		0			
+39790	505	Darang [Taraon]	du⁵⁵	du⁵⁵	suck (milk)	suck (milk)			1.3.2.1		0			3466
+39791	505	Darang [Taraon]	pɹɑɯ⁵⁵	pɹɑɯ⁵⁵	kiss	kiss			1.3.2.2		0			
+39792	505	Darang [Taraon]	blɑi⁵³	blɑi⁵³	swallow	swallow (v.)	v		1.3.5.6		0	dwb21		
+39793	505	Darang [Taraon]	me⁵³	me⁵³	vomit	vomit			1.8.3.2		0			1782
+39794	505	Darang [Taraon]	mɯŋ⁵⁵	mɯŋ⁵⁵	blow (air)	blow (air)			1.3.1.4		0			1732
+39795	505	Darang [Taraon]	mɑ³¹ ɹo⁵⁵	mɑ³¹ ɹo⁵⁵	say	say			1.8.7		0			
+39796	505	Darang [Taraon]	nɯŋ³⁵	nɯŋ³⁵	smell, sniff	smell, sniff			1.2.8.5		0			1415
+39797	505	Darang [Taraon]	n̩⁵³	n̩⁵³	sleep	sleep			1.1.4.1		0			130
+39798	505	Darang [Taraon]	mɑ³¹ ɹɑ⁵⁵	mɑ³¹ ɹɑ⁵⁵	laugh	laugh			1.8.8.1		0			p,1108
+39799	505	Darang [Taraon]	kʰɹo⁵³	kʰɹo⁵³	cry, weep	cry, weep			1.8.8.2		0			1103
+39800	505	Darang [Taraon]	pɹoŋ³⁵	pɹoŋ³⁵	raise (children)	raise (children)			6.7.7		0			
+39801	505	Darang [Taraon]	ɑ³¹ sɯŋ⁵⁵	ɑ³¹ sɯŋ⁵⁵	grow (up)	grow (up)			9.7.2		0			
+39802	505	Darang [Taraon]	ȵɑŋ³⁵	ȵɑŋ³⁵	get sick	get sick			1.1.5		0			
+39803	505	Darang [Taraon]	do⁵⁵	do⁵⁵	cough	cough			1.8.3.3		0			
+39804	505	Darang [Taraon]	xɑ³¹ ȵoŋ⁵⁵	xɑ³¹ ȵoŋ⁵⁵	sneeze	sneeze			1.8.2.1		0			
+39805	505	Darang [Taraon]	ȵim⁵⁵ ɑ³¹	ȵim⁵⁵ ɑ³¹	burp	burp			1.8.3		0			
+39806	505	Darang [Taraon]	xɑ³¹ glɯm⁵³	xɑ³¹ glɯm⁵³	shake	shake			6.7.9		0			
+39807	505	Darang [Taraon]	plɯŋ⁵⁵	plɯŋ⁵⁵	swell up	swell up			1.1.5.2		0			111
+39808	505	Darang [Taraon]	ɑ³¹ sɯŋ⁵⁵	ɑ³¹ sɯŋ⁵⁵	alive, live	alive, live			1.1.2.1		0			p,71
+39809	505	Darang [Taraon]	ɕi⁵⁵	ɕi⁵⁵	die	die			1.1.6		0			27
+39810	505	Darang [Taraon]	bɹɯn⁵⁵ jɑ⁵³	bɹɯn⁵⁵ jɑ⁵³	sacrifice	sacrifice			5.8.1.3		0			
+39811	505	Darang [Taraon]	kɯ³¹ tɕɯŋ⁵⁵	kɯ³¹ tɕɯŋ⁵⁵	urinate	urinate			1.5.3.2		0			p,650
+39812	505	Darang [Taraon]	liɯ³⁵	liɯ³⁵	defecate	defecate			1.8.5.4		0			
+39813	505	Darang [Taraon]	jim³⁵	jim³⁵	fly	fly	v	v	2.2.6		0			2588
+39814	505	Darang [Taraon]	diɯŋ⁵³	diɯŋ⁵³	fat (of people)	fat (of people)			1.6.4		0			
+39815	505	Darang [Taraon]	gɑu⁵³ ɕoŋ³⁵	gɑu⁵³ ɕoŋ³⁵	lean	lean			1.1.1		0			m,m
+39816	505	Darang [Taraon]	dioŋ³⁵	dioŋ³⁵	full (food)	full (food)			1.1.3.2		0			132
+39817	505	Darang [Taraon]	nɑ³¹ tioŋ⁵³	nɑ³¹ tioŋ⁵³	hungry	hungry			1.1.3		0			
+39818	505	Darang [Taraon]	kɑ³¹ lo³⁵	kɑ³¹ lo³⁵	sated, too full (ni)	sated, too full (ni)			1.1.3.2		0			115,m
+39819	505	Darang [Taraon]	tɯ³¹ kɯ⁵⁵ ɕoŋ⁵³	tɯ³¹ kɯ⁵⁵ ɕoŋ⁵³	thirsty	thirsty			1.1.3.1		0			m,105,m
+39820	505	Darang [Taraon]	giɑi⁵³	giɑi⁵³	tired	tired			9.6.2.2		0			
+39821	505	Darang [Taraon]	mɑ³¹ so⁵³|	mɑ³¹ so⁵³|	itchy	itchy			1.6.5.5		0			1457
+39822	505	Darang [Taraon]	pɑɯ⁵⁵	pɑɯ⁵⁵	numb (mamu)	numb (mamu)			1.5.11		0			
+39823	590	Kaman [Miju]	kɯ³¹ wɑi⁵³	kɯ³¹ wɑi⁵³	left	left			1.5.3.2		0			m,2154
+39824	590	Kaman [Miju]	kɯ³¹ jɑu⁵³	kɯ³¹ jɑu⁵³	right	right			1.5.3.2		0			m,2786
+39825	590	Kaman [Miju]	pɑ³¹ tɯ³¹| lɑi⁵⁵|	pɑ³¹ tɯ³¹| lɑi⁵⁵|	center	center			1.9.4		0			517
+39826	590	Kaman [Miju]	kɹɑi⁵⁵ sit⁵⁵	kɹɑi⁵⁵ sit⁵⁵	egg	egg					0			1606,1607
+39827	590	Kaman [Miju]	kɹɑi⁵⁵ lo⁵⁵	kɹɑi⁵⁵ lo⁵⁵	yolk	yolk					0			
+39828	590	Kaman [Miju]	ŋkʰloŋ³⁵	ŋkʰloŋ³⁵	wing	wing			1.5.1.3		0			1435
+39829	590	Kaman [Miju]	bɯl³⁵	bɯl³⁵	fur	fur			1.6.1		0			m
+39830	590	Kaman [Miju]	bɯl³⁵	bɯl³⁵	feathers	feathers			1.6.1.1		0			m
+39831	590	Kaman [Miju]	bɑn³⁵	bɑn³⁵	wool (yangmao)	wool (yangmao)			1.6.1.3		0			
+39832	590	Kaman [Miju]	ntsʰɑ̆n⁵³	ntsʰɑ̆n⁵³	claw	claw			1.5.10.4		0			
+39833	590	Kaman [Miju]	biup³⁵	biup³⁵	hoof	hoof			1.5.4		0			
+39834	590	Kaman [Miju]	kɹɑ̆ŋ³⁵	kɹɑ̆ŋ³⁵	horn	horn			1.2.2		0			814
+39835	590	Kaman [Miju]	ɑ³¹ mɑ̆i⁵⁵	ɑ³¹ mɑ̆i⁵⁵	tail	tail			1.4.10.1		0			p,1288
+39836	590	Kaman [Miju]	ɑ³¹ ju⁵³	ɑ³¹ ju⁵³	dewlap	dewlap			1.4.2		0			
+39837	590	Kaman [Miju]	li⁵⁵ xuŋ⁵⁵ bɯl³⁵	li⁵⁵ xuŋ⁵⁵ bɯl³⁵	pig bristles	pig bristles			2.1.12		0			6019,m,m
+39838	590	Kaman [Miju]	ȵtɕʰin⁵³	ȵtɕʰin⁵³	cock's comb	cock's comb			1.2.2.1		0			
+39839	590	Kaman [Miju]	dʑɑl³⁵	dʑɑl³⁵	cock's comb	cock's comb			1.2.2.1		0			
+39840	590	Kaman [Miju]	tɯ³¹ sɑ̌u⁵³ kɹɑ̌ŋ³⁵	tɯ³¹ sɑ̌u⁵³ kɹɑ̌ŋ³⁵	antler	antler			1.2.2		0			m,m,814
+39841	590	Kaman [Miju]	ɕɑ̆i⁵³	ɕɑ̆i⁵³	body	body			1.1.1		0			34
+39842	590	Kaman [Miju]	dzɑl³⁵	dzɑl³⁵	corpse (shi)	corpse (shi)			1.1.6.1		0			63
+39843	590	Kaman [Miju]	kɯu⁵³	kɯu⁵³	head	head			1.2.1		0			1221
+39844	590	Kaman [Miju]	ɑ³¹ wɑ³⁵	ɑ³¹ wɑ³⁵	forehead	forehead			1.2.5.1		0			
+39845	590	Kaman [Miju]	kɯ³¹ kʰɹɯl⁵⁵	kɯ³¹ kʰɹɯl⁵⁵	wrinkle	wrinkle			9.6.2		0			
+39846	590	Kaman [Miju]	tɯ³¹ wu⁵⁵ kɯ³¹ len⁵⁵	tɯ³¹ wu⁵⁵ kɯ³¹ len⁵⁵	five organs (wuguan)	five organs (wuguan)			9.9		0			
+39847	590	Kaman [Miju]	ɕɑm⁵⁵	ɕɑm⁵⁵	hair (head)	hair (head)			1.2.3		0			366
+39848	590	Kaman [Miju]	ɕɑm⁵⁵ ɑ³¹ pʰlɑ̆t⁵⁵	ɕɑm⁵⁵ ɑ³¹ pʰlɑ̆t⁵⁵	braid	braid			1.2.3.2		0			366,p,2018
+39849	590	Kaman [Miju]	nɯn⁵³	nɯn⁵³	brain	brain			1.2.4		0			5554
+39850	590	Kaman [Miju]	ɑ³¹ ŋɑl³⁵	ɑ³¹ ŋɑl³⁵	face	face			1.2.5		0			m,1192
+39851	590	Kaman [Miju]	bɹɯp³⁵	bɹɯp³⁵	cheek	cheek			1.2.5.2		0			2047
+39852	590	Kaman [Miju]	tɑ³¹ kɯ³¹ lo⁵⁵	tɑ³¹ kɯ³¹ lo⁵⁵	dimple (jiuwo)	dimple (jiuwo)			1.2.5		0		E	e
+39853	590	Kaman [Miju]	bɹɯp³⁵ ɹɑɯ⁵³	bɹɯp³⁵ ɹɑɯ⁵³	cheekbone	cheekbone			1.2.5.2		0			2047,232
+39854	590	Kaman [Miju]	min⁵⁵ bɯl³⁵	min⁵⁵ bɯl³⁵	eyebrow	eyebrow			1.2.6.6		0			682,363
+39855	590	Kaman [Miju]	min⁵⁵	min⁵⁵	eye	eye			1.2.6		0			682
+39856	590	Kaman [Miju]	min⁵⁵ sɑ⁵⁵	min⁵⁵ sɑ⁵⁵	pupil	pupil			1.2.6.2		0			682,1012
+39857	590	Kaman [Miju]	min⁵⁵ sɑ⁵⁵	min⁵⁵ sɑ⁵⁵	eyeball	eyeball			1.2.6.1		0			682,1012
+39858	590	Kaman [Miju]	min⁵⁵ ɑ³¹ xɑu³⁵	min⁵⁵ ɑ³¹ xɑu³⁵	eye socket	eye socket			1.2.6		0			682,p,m
+39859	590	Kaman [Miju]	min⁵⁵ uŋ³⁵	min⁵⁵ uŋ³⁵	eyelid	eyelid			1.2.6.4		0			682,591
+39860	590	Kaman [Miju]	min⁵⁵ nioŋ³⁵	min⁵⁵ nioŋ³⁵	nose	nose			1.2.8		0			m,803
+39861	590	Kaman [Miju]	min⁵⁵ nioŋ³⁵ kʰuŋ⁵³	min⁵⁵ nioŋ³⁵ kʰuŋ⁵³	bridge of nose	bridge of nose			9.10.2		0			m,803,m
+39862	590	Kaman [Miju]	iŋ⁵⁵	iŋ⁵⁵	ear	ear			1.2.7		0			
+39863	590	Kaman [Miju]	ȵtɕʰɯu⁵³	ȵtɕʰɯu⁵³	mouth	mouth			1.3.1		0			442
+39864	590	Kaman [Miju]	o⁵⁵ lo⁵⁵	o⁵⁵ lo⁵⁵	palate (shang'e)	palate (shang'e)			1.3.1.1		0			p,488
+39865	590	Kaman [Miju]	si⁵⁵	si⁵⁵	tooth	tooth			1.3.4		0			632
+39866	590	Kaman [Miju]	kui⁵⁵ si⁵⁵	kui⁵⁵ si⁵⁵	tooth (canine)	tooth (canine)			1.3.4		0			1764,632
+39867	590	Kaman [Miju]	gɑi³¹ nɑuŋ⁵³	gɑi³¹ nɑuŋ⁵³	molar	molar			1.3.4.2		0			
+39868	590	Kaman [Miju]	blɑi⁵³	blɑi⁵³	tongue	tongue			1.3.3		0			621
+39869	590	Kaman [Miju]	mɯ³¹ |xɑ⁵³	mɯ³¹ xɑ⁵³	chin	chin			1.2.5.3		0			273
+39870	590	Kaman [Miju]	ɕɑ³¹ mol³⁵	ɕɑ³¹ mol³⁵	beard	beard			1.2.5.5		0			1111,363
+39871	590	Kaman [Miju]	xuŋ⁵⁵	xuŋ⁵⁵	neck	neck			1.4.2		0			483
+39872	590	Kaman [Miju]	xuŋ⁵⁵ dɑ̆k⁵⁵	xuŋ⁵⁵ dɑ̆k⁵⁵	neck	neck			1.4.2		0			483,359
+39873	590	Kaman [Miju]	go³¹ɹoŋ³⁵|	go³¹ɹoŋ³⁵|	throat	throat			1.3.5		0			489
+39874	590	Kaman [Miju]	pɑp⁵³	pɑp⁵³	goiter (jingliu)	goiter (jingliu)			1.4.2.2		0			163
+39875	590	Kaman [Miju]	ɑ³¹ pʰo⁵⁵	ɑ³¹ pʰo⁵⁵	shoulder	shoulder			1.4.3		0			p,570
+39876	590	Kaman [Miju]	ɹɑ̆u⁵³ xɑ³¹ nɑuŋ³⁵	ɹɑ̆u⁵³ xɑ³¹ nɑuŋ³⁵	elbow	elbow			1.5.8.3		0			695,m,m
+39877	590	Kaman [Miju]	ɹɑ̆u⁵³ xɑ³¹ tɑp³⁵	ɹɑ̆u⁵³ xɑ³¹ tɑp³⁵	fist	fist			1.5.1.1.1		0			695,m,1282
+39878	590	Kaman [Miju]	ɹɑ̆u⁵³	ɹɑ̆u⁵³	hand	hand			1.5.1.1		0			695
+39879	590	Kaman [Miju]	duŋ³⁵	duŋ³⁵	finger	finger			1.5.6		0			
+39880	590	Kaman [Miju]	bɑn³⁵	bɑn³⁵	thumb	thumb			1.5.6.1		0			
+39881	590	Kaman [Miju]	ɹɑ̆u⁵³ niŋ³⁵	ɹɑ̆u⁵³ niŋ³⁵	little finger	little finger			9.7.2		0			695,m
+39882	590	Kaman [Miju]	ɹɑ̆u⁵³ dzit⁵⁵	ɹɑ̆u⁵³ dzit⁵⁵	fingernail	fingernail			1.5.10.1		0			695,m
+39883	590	Kaman [Miju]	plɑ̆ŋ⁵⁵	plɑ̆ŋ⁵⁵	callus (yingzi)	callus (yingzi)			1.6.5.3		0			
+39884	590	Kaman [Miju]	gɹoŋ³⁵	gɹoŋ³⁵	chest	chest			1.4.4.3		0			288
+39885	590	Kaman [Miju]	bɹem³⁵	bɹem³⁵	bones and muscle	bones and muscle			1.6.3		0			m
+39886	590	Kaman [Miju]	glɑ̆u⁵³	glɑ̆u⁵³	back	back			1.4.8		0			209
+39887	590	Kaman [Miju]	ɑ³¹ jɑu³⁵	ɑ³¹ jɑu³⁵	vertebrae (jizhui)	vertebrae (jizhui)			1.6.3.3		0			
+39888	590	Kaman [Miju]	dɑ̆k⁵³	dɑ̆k⁵³	belly	belly			1.4.7		0			m
+39889	590	Kaman [Miju]	plɑ⁵⁵	plɑ⁵⁵	foot	foot			1.5.2		0			
+39890	590	Kaman [Miju]	plɑ⁵⁵ min⁵⁵	plɑ⁵⁵ min⁵⁵	ankle	ankle			1.5.8.2		0			m,682
+39891	590	Kaman [Miju]	plɑ⁵⁵ dʑoŋ⁵⁵	plɑ⁵⁵ dʑoŋ⁵⁵	heel	heel			1.5.2.1		0			
+39892	590	Kaman [Miju]	kɯ³¹ tsɑu⁵³	kɯ³¹ tsɑu⁵³	thigh (datui)	thigh (datui)			1.5.7.1		0			
+39893	590	Kaman [Miju]	pɑ³¹ pɑu³⁵	pɑ³¹ pɑu³⁵	knee	knee			1.5.8.4		0			
+39894	590	Kaman [Miju]	ki⁵⁵ koŋ⁵⁵	ki⁵⁵ koŋ⁵⁵	back of knee	back of knee			1.4.8		0			m,1251
+39895	590	Kaman [Miju]	plɑ⁵⁵ tɯ³¹ liŋ³⁵	plɑ⁵⁵ tɯ³¹ liŋ³⁵	lower leg (xiaotui)	lower leg (xiaotui)					0		W	
+39896	590	Kaman [Miju]	plɑ⁵⁵ ŋkʰɑn³⁵	plɑ⁵⁵ ŋkʰɑn³⁵	calf (xiaoduzi)	calf (xiaoduzi)			1.5.7		0			
+39897	590	Kaman [Miju]	uŋ³⁵	uŋ³⁵	skin	skin			1.6.5		0			591
+39898	590	Kaman [Miju]	ɕiŋ⁵⁵ ɹɑk⁵⁵	ɕiŋ⁵⁵ ɹɑk⁵⁵	bone	bone			1.6.3		0			m,238
+39899	590	Kaman [Miju]	xiŋ⁵³	xiŋ⁵³	marrow	marrow			1.6.3.5		0			459
+39900	590	Kaman [Miju]	giɑn³⁵	giɑn³⁵	muscle	muscle			1.6.6.2		0			536
+39901	590	Kaman [Miju]	ɑ³¹ ɹui³⁵	ɑ³¹ ɹui³⁵	blood	blood			1.6.2		0			m,230
+39902	590	Kaman [Miju]	pʰo⁵⁵ ko⁵⁵	pʰo⁵⁵ ko⁵⁵	stomach	stomach			1.7.6		0			2111,2123
+39903	590	Kaman [Miju]	tɑ³¹ pleŋ⁵⁵	tɑ³¹ pleŋ⁵⁵	spleen (pi)	spleen (pi)			1.7.4		0			
+39904	590	Kaman [Miju]	ȵtɕʰi⁵³	ȵtɕʰi⁵³	kidneys	kidneys			1.7.5		0			
+39905	590	Kaman [Miju]	xɑ³¹ lɑ̆i³⁵	xɑ³¹ lɑ̆i³⁵	intestines	intestines			1.7.7		0			572,m
+39906	590	Kaman [Miju]	lɯm³⁵	lɯm³⁵	heart	heart			1.7.1		0			1381
+39907	590	Kaman [Miju]	blɑi³¹ blɑi⁵³	blɑi³¹ blɑi⁵³	liver	liver			1.7.3		0			91,91
+39908	590	Kaman [Miju]	sɑu³⁵	sɑu³⁵	lungs	lungs			1.7.2		0			
+39909	590	Kaman [Miju]	mɑ̆n⁵³	mɑ̆n⁵³	gall	gall			1.7.3.1		0			m,m
+39910	590	Kaman [Miju]	tʰɑ³¹ tɕit⁵⁵	tʰɑ³¹ tɕit⁵⁵	bladder	bladder			1.7.8		0			m,650
+39911	590	Kaman [Miju]	sɑ⁵⁵ sɑp⁵⁵	sɑ⁵⁵ sɑp⁵⁵	placenta	placenta					0			1012,1613
+39912	590	Kaman [Miju]	mɯn³⁵	mɯn³⁵	sweat	sweat			1.8.1		0			619
+39913	590	Kaman [Miju]	ȵɑp⁵⁵	ȵɑp⁵⁵	mucus	mucus			1.8.2		0			805
+39914	590	Kaman [Miju]	kʰɹɑ⁵³	kʰɹɑ⁵³	phlegm	phlegm			1.8.3		0			540
+39915	590	Kaman [Miju]	dʑɑ̆l³⁵	dʑɑ̆l³⁵	saliva	saliva			1.8.3		0			
+39916	590	Kaman [Miju]	tɕin⁵⁵	tɕin⁵⁵	milk	milk (n.)	n				0	dwb33		3465
+39917	590	Kaman [Miju]	tɯ³¹ kʰɯi⁵³	tɯ³¹ kʰɯi⁵³	shit	shit			1.8.5		0			m,572
+39918	590	Kaman [Miju]	tɯ³¹ ɕit⁵⁵	tɯ³¹ ɕit⁵⁵	urine	urine			1.8.4		0			p,650
+39919	590	Kaman [Miju]	tɯ³¹ pʰit⁵⁵	tɯ³¹ pʰit⁵⁵	fart	fart	n.	n.	1.8.5.2		0			p,311
+39920	590	Kaman [Miju]	tʰɯ³¹ mɑ̆i⁵³	tʰɯ³¹ mɑ̆i⁵³	wound (shangkou)	wound (shangkou)			1.8.6.2		0			
+39921	590	Kaman [Miju]	tʰɯ³¹ mɑ̆i⁵³ luŋ³⁵	tʰɯ³¹ mɑ̆i⁵³ luŋ³⁵	scar (shangba)	scar (shangba)			1.6.5.3		0			
+39922	590	Kaman [Miju]	tɑ⁵⁵ sɑ̆n⁵³	tɑ⁵⁵ sɑ̆n⁵³	sore, ulcer	sore, ulcer			1.1.5.1		0			
+39923	590	Kaman [Miju]	ni⁵³	ni⁵³	pus	pus			1.8.6.1		0			1294
+39924	590	Kaman [Miju]	dot³⁵	dot³⁵	mole (heizhi)	mole (heizhi)			2.2.7		0			
+39925	590	Kaman [Miju]	tɑ³¹ tsɯn⁵³	tɑ³¹ tsɯn⁵³	spot (xiaogedan)	spot (xiaogedan)			6.2		0			
+39926	590	Kaman [Miju]	dut³⁵	dut³⁵	wart (houzi)	wart (houzi)			1.6.5.3		0			
+39927	590	Kaman [Miju]	pʰuŋ⁵³	pʰuŋ⁵³	ringworm, tinea	ringworm, tinea			2.2.6		0			
+39928	590	Kaman [Miju]	sɑu³⁵ nɑt⁵⁵	sɑu³⁵ nɑt⁵⁵	tuberculosis	tuberculosis			1.5.3.2		0			32,160
+39929	590	Kaman [Miju]	biɑu⁵³ nɑt⁵⁵	biɑu⁵³ nɑt⁵⁵	influenza, cold	influenza, cold			5.3		0			
+39930	590	Kaman [Miju]	ɑ³¹ min⁵⁵ klɑuŋ³⁵	ɑ³¹ min⁵⁵ klɑuŋ³⁵	leprosy	leprosy			5.3		0			
+39931	590	Kaman [Miju]	mit⁵⁵ kɯ³¹ baŋ⁵⁵	mit⁵⁵ kɯ³¹ baŋ⁵⁵	blind person	blind person			1.2.6.14.2		0			m
+39932	590	Kaman [Miju]	kɑ³¹ wɑ³⁵	kɑ³¹ wɑ³⁵	deaf, mute person	deaf, mute person			1.2.7.5		0			
+39933	590	Kaman [Miju]	kɯ³¹ pɹɑp⁵⁵ tsoŋ³⁵	kɯ³¹ pɹɑp⁵⁵ tsoŋ³⁵	insane person	insane person			8.3.1.11.3		0			
+39934	590	Kaman [Miju]	plɑ⁵⁵ ɑ³¹ be³⁵	plɑ⁵⁵ ɑ³¹ be³⁵	lame person	lame person			1.5.12		0			m,p,6133
+39935	590	Kaman [Miju]	tɑ³¹ pɯ⁵⁵ tsɯn⁵³	tɑ³¹ pɯ⁵⁵ tsɯn⁵³	pockmarked person	pockmarked person			1.6.5.4		0			
+39936	590	Kaman [Miju]	lɑi⁵⁵ ɑ³¹ xo⁵³	lɑi⁵⁵ ɑ³¹ xo⁵³	scarred person	scarred person			1.6.5.4		0			
+39937	590	Kaman [Miju]	tu⁵⁵ ku⁵⁵ nɑ⁵⁵	tu⁵⁵ ku⁵⁵ nɑ⁵⁵	hunchback (tuobei)	hunchback (tuobei)			1.4.8.3		0			m,m,m
+39938	590	Kaman [Miju]	pɹɑp⁵⁵ nɑt⁵⁵	pɹɑp⁵⁵ nɑt⁵⁵	insanity	insanity			8.3.1.11.3		0			
+39939	590	Kaman [Miju]	tɑ³¹ si⁵⁵	tɑ³¹ si⁵⁵	oil	oil			1.6.4.1		0			m,42
+39940	590	Kaman [Miju]	ɕin⁵³	ɕin⁵³	meat, flesh	meat, flesh			1.1.1.1		0			318
+39941	590	Kaman [Miju]	tɑ³¹ si⁵⁵	tɑ³¹ si⁵⁵	lard (suyou)	lard (suyou)			1.6.4.1		0			
+39942	590	Kaman [Miju]	sɑu³⁵ nɑt⁵⁵	sɑu³⁵ nɑt⁵⁵	pneumonia (feibing)	pneumonia (feibing)			5.3		0			
+39943	590	Kaman [Miju]	biɑu⁵³ nɑt⁵⁵	biɑu⁵³ nɑt⁵⁵	cold (illness)	cold (illness)			7.1.2.3		0			
+39944	590	Kaman [Miju]	ɑ³¹ min⁵⁵ klɑuŋ³⁵	ɑ³¹ min⁵⁵ klɑuŋ³⁵	leprosy (mafeng)	leprosy (mafeng)			5.3		0			
+39945	590	Kaman [Miju]	lɑi⁵⁵	lɑi⁵⁵	speech (hua)	speech (hua)			1.8.7		0			
+39946	590	Kaman [Miju]	kɹɑ̆n⁵³	kɹɑ̆n⁵³	sound (of animals)	sound (of animals)			9.3		0			
+39947	590	Kaman [Miju]	xɑ³¹ ŋim³⁵	xɑ³¹ ŋim³⁵	shadow	shadow			3.2.10		0			
+39948	590	Kaman [Miju]	ntsʰon³⁵	ntsʰon³⁵	breath	breath			1.1.2.2		0			77
+39949	590	Kaman [Miju]	tʰoŋ⁵⁵	tʰoŋ⁵⁵	look at	look at			1.2.6.11		0			m
+39950	590	Kaman [Miju]	ŋuŋ⁵⁵	ŋuŋ⁵⁵	see (jiandao)	see (jiandao)			1.2.6.10		0			m
+39951	590	Kaman [Miju]	tɑ⁵⁵ giɑt⁵⁵	tɑ⁵⁵ giɑt⁵⁵	listen	listen			1.2.7.4		0			1408,m
+39952	590	Kaman [Miju]	tɑt⁵⁵	tɑt⁵⁵	hear	hear			1.2.7.4		0			1408
+39953	590	Kaman [Miju]	tɕɑ⁵³	tɕɑ⁵³	eat (meat)	eat (meat)			1.5.3.2		0			36
+39954	590	Kaman [Miju]	ɕɑ⁵³	ɕɑ⁵³	eat (rice)	eat (rice)			1.5.3.2		0			36
+39955	590	Kaman [Miju]	tɑuŋ⁵⁵	tɑuŋ⁵⁵	drink	drink					0			502
+39956	590	Kaman [Miju]	tʰɑm⁵³	tʰɑm⁵³	hold in mouth	hold in mouth			1.3.4.4		0			
+39957	590	Kaman [Miju]	sɑ̆k⁵⁵	sɑ̆k⁵⁵	bite	bite			1.3.4.4		0			
+39958	590	Kaman [Miju]	jɑl⁵⁵	jɑl⁵⁵	chew cud	chew cud			1.3.4		0			1771
+39959	590	Kaman [Miju]	lo⁵³	lo⁵³	lick	lick			1.3.3.1		0			629
+39960	590	Kaman [Miju]	lot⁵⁵	lot⁵⁵	stick out (tongue)	stick out (tongue)			3.1.2		0			
+39961	590	Kaman [Miju]	jip⁵⁵	jip⁵⁵	suck (milk)	suck (milk)			1.3.2.1		0			5541
+39962	590	Kaman [Miju]	bɯp⁵⁵	bɯp⁵⁵	kiss	kiss			1.3.2.2		0			3450
+39963	590	Kaman [Miju]	biɑp⁵³	biɑp⁵³	swallow	swallow (v.)	v		1.3.5.6		0	dwb21		
+39964	590	Kaman [Miju]	pʰɑt⁵⁵	pʰɑt⁵⁵	vomit	vomit			1.8.3.2		0			1145
+39965	590	Kaman [Miju]	tʰɯt⁵⁵	tʰɯt⁵⁵	blow (air)	blow (air)			1.3.1.4		0			
+39966	590	Kaman [Miju]	kɯ³¹ tɑŋ⁵³	kɯ³¹ tɑŋ⁵³	say	say			1.8.7		0			m,1757
+39967	590	Kaman [Miju]	bɯu⁵³	bɯu⁵³	shout	shout			8.5.4.1		0			
+39968	590	Kaman [Miju]	ntsʰiŋ⁵⁵	ntsʰiŋ⁵⁵	smell, sniff	smell, sniff			1.2.8.5		0			1419
+39969	590	Kaman [Miju]	ŋui⁵⁵	ŋui⁵⁵	sleep	sleep			1.1.4.1		0			130
+39970	590	Kaman [Miju]	k◦ɹit⁵⁵	kɹit⁵⁵	laugh	laugh			1.8.8.1		0			p,1108
+39971	590	Kaman [Miju]	ŋɑi⁵⁵	ŋɑi⁵⁵	cry, weep	cry, weep			1.8.8.2		0			1104
+39972	590	Kaman [Miju]	dzɑt⁵⁵	dzɑt⁵⁵	raise (children)	raise (children)			6.7.7		0			
+39973	590	Kaman [Miju]	nɑŋ⁵⁵	nɑŋ⁵⁵	grow (up)	grow (up)			9.7.2		0			
+39974	590	Kaman [Miju]	nat⁵⁵	nat⁵⁵	get sick	get sick			1.1.5		0			
+39975	590	Kaman [Miju]	tʰɯt⁵⁵	tʰɯt⁵⁵	cough	cough			1.8.3.3		0			
+39976	590	Kaman [Miju]	ɑ³¹ ɕin⁵⁵	ɑ³¹ ɕin⁵⁵	sneeze	sneeze			1.8.2.1		0			
+39977	590	Kaman [Miju]	ɹɯ³¹ ɑk⁵⁵	ɹɯ³¹ ɑk⁵⁵	hiccup	hiccup			1.8.3.5		0			m,3443
+39978	590	Kaman [Miju]	ntsʰɑt⁵⁵	ntsʰɑt⁵⁵	shake	shake			6.7.9		0			
+39979	590	Kaman [Miju]	pʰɯp⁵⁵	pʰɯp⁵⁵	swell up	swell up			1.1.5.2		0			163
+39980	590	Kaman [Miju]	kɯ³¹ ɹɑ̆ŋ³⁵	kɯ³¹ ɹɑ̆ŋ³⁵	alive, live	alive, live			1.1.2.1		0			p,71
+39981	590	Kaman [Miju]	si⁵³	si⁵³	die	die			1.1.6		0			27
+39982	590	Kaman [Miju]	bɹɯn⁵⁵ la³⁵	bɹɯn⁵⁵ la³⁵	sacrifice	sacrifice			5.8.1.3		0			
+39983	590	Kaman [Miju]	tɯ³¹ ɕit⁵⁵ tɑn⁵⁵ din³¹	tɯ³¹ ɕit⁵⁵ tɑn⁵⁵ din³¹	urinate	urinate			1.5.3.2		0			p,650,m,m
+39984	590	Kaman [Miju]	tɑ³¹ ŋin⁵³	tɑ³¹ ŋin⁵³	defecate	defecate			1.8.5.4		0			
+39985	590	Kaman [Miju]	pʰiuŋ⁵⁵	pʰiuŋ⁵⁵	fly	fly	v	v	2.2.6		0			
+39986	590	Kaman [Miju]	ɹɑ̌k⁵⁵	ɹɑ̌k⁵⁵	bark	bark			2.1.11.1		0			
+39987	590	Kaman [Miju]	kɯ³¹ diɑŋ⁵³	kɯ³¹ diɑŋ⁵³	fat (of people)	fat (of people)			1.6.4		0			
+39988	590	Kaman [Miju]	kɯ³¹ ɕiuŋ⁵³	kɯ³¹ ɕiuŋ⁵³	lean	lean			1.1.1		0			m,m
+39989	590	Kaman [Miju]	lun⁵⁵	lun⁵⁵	full (food)	full (food)			1.1.3.2		0			
+39990	590	Kaman [Miju]	di³¹ iŋ⁵³	di³¹ iŋ⁵³	hungry	hungry			1.1.3		0			
+39991	590	Kaman [Miju]	kɑ³¹ lo³⁵	kɑ³¹ lo³⁵	sated, too full (ni)	sated, too full (ni)			1.1.3.2		0			115,m
+39992	590	Kaman [Miju]	pɑp⁵³ sɑl⁵³	pɑp⁵³ sɑl⁵³	thirsty	thirsty			1.1.3.1		0			m,102
+39993	590	Kaman [Miju]	ɕɑi⁵⁵	ɕɑi⁵⁵	tired	tired			9.6.2.2		0			
+39994	590	Kaman [Miju]	pʰuŋ⁵³	pʰuŋ⁵³	itchy	itchy			1.6.5.5		0			m
+39995	590	Kaman [Miju]	mɑn⁵³	mɑn⁵³	numb (mamu)	numb (mamu)			1.5.11		0			
+41297	366	Bokar Lhoba	lok◦tɕe	loktɕe	left	left			1.5.3.2		0			695,5624
+41298	366	Bokar Lhoba	lok◦bik	lokbik	right	right			1.5.3.2		0			695,5761
+41299	366	Bokar Lhoba	rok◦bə	rok◦bə	side	side			1.4.5		0			
+41300	366	Bokar Lhoba	lo◦poŋ	lo◦poŋ	center	center			1.9.4		0			m,2111
+41301	366	Bokar Lhoba	pɯ◦pɯː	pɯ◦pɯː	egg	egg					0			m,1654
+41302	366	Bokar Lhoba	pɯ◦jak	pɯ◦jak	hen's egg	hen's egg			2.1.10		0			1654,1606
+41303	366	Bokar Lhoba	a◦lap	a◦lap	wing	wing			1.5.1.3		0			p,757
+41304	366	Bokar Lhoba	a◦mɯ	a◦mɯ	fur	fur			1.6.1		0			p,1429
+41305	366	Bokar Lhoba	ta◦pjak	ta◦pjak	wool	wool			1.6.1.3		0			p,3288
+41306	366	Bokar Lhoba	ȵujiː	ȵujiː	feather	feather			1.6.1.1		0			m
+41307	366	Bokar Lhoba	ləlam	ləlam	claw	claw			1.5.10.4		0			
+41308	366	Bokar Lhoba	ləjin	ləjin	claw	claw			1.5.10.4		0			6691
+41309	366	Bokar Lhoba	purpin	purpin	cockscomb	cockscomb			1.2.2.1		0			
+41310	366	Bokar Lhoba	ɕɯŋ◦po	ɕɯŋ◦po	pig bristles	pig bristles			2.1.12		0			
+41311	366	Bokar Lhoba	lɯbuk	lɯbuk	hoof	hoof			1.5.4		0			
+41312	366	Bokar Lhoba	a◦rəŋ	a◦rəŋ	horn	horn			1.2.2		0			p,814
+41313	366	Bokar Lhoba	ɛ◦mȵo	ɛ◦mȵo	tail	tail			1.4.10.1		0			p,1288
+41314	366	Bokar Lhoba	kɯ'◦mjo	kɯ'◦mjo	hair of horse's tail	hair of horse's tail			1.2.3		0			6023,1288
+41315	366	Bokar Lhoba	a◦pin	a◦pin	hide, leather	hide, leather			1.6.5.1		0			p,591
+41316	366	Bokar Lhoba	ɕukmur	ɕukmur	cow neck extra flesh	cow neck extra flesh			2.1.2		0			m
+41317	366	Bokar Lhoba	ɑ'◦ɯː	ɑ'◦ɯː	body	body			1.1.1		0			p,18
+41318	366	Bokar Lhoba	ɕo◦moŋ	ɕomoŋ	corpse	corpse			1.1.6.1		0			27,17
+41319	366	Bokar Lhoba	dum◦pɯr	dum◦pɯr	head	head			1.2.1		0			1425,388
+41320	366	Bokar Lhoba	mi◦tuk	mi◦tuk	forehead	forehead			1.2.5.1		0			m,359
+41321	366	Bokar Lhoba	muːɕiː	muːɕiː	wrinkle	wrinkle			9.6.2		0			
+41322	366	Bokar Lhoba	dum◦mɯ	dum◦mɯ	hair	hair			1.2.3		0			1425,1429
+41323	366	Bokar Lhoba	dʑa◦'u	dʑa◦'u	hair	hair			1.2.3		0			367,385
+41324	366	Bokar Lhoba	pato	pato	braid	braid			1.2.3.2		0			
+41325	366	Bokar Lhoba	pɯniː	pɯniː	brain	brain			1.2.4		0			252
+41326	366	Bokar Lhoba	mi◦mo	mi◦mo	face	face			1.2.5		0			682,5662
+41327	366	Bokar Lhoba	ru◦tin	ru◦tin	cheekbone	cheekbone			1.2.5.2		0			2047,280
+41328	366	Bokar Lhoba	nap◦lə	nap◦lə	chin	chin			1.2.5.3		0			470,287
+41329	366	Bokar Lhoba	mik◦ɕɯŋ	mik◦ɕɯŋ	eyebrow	eyebrow			1.2.6.6		0			682,370
+41330	366	Bokar Lhoba	mik	mik	eye	eye			1.2.6		0			682
+41331	366	Bokar Lhoba	mik◦pɯ	mik◦pɯ	eyeball	eyeball			1.2.6.1		0			682,1275
+41332	366	Bokar Lhoba	mik go aŋaː	mik go aŋaː	pupil of eye	pupil of eye			1.2.6.2		0			682,m,m
+41333	366	Bokar Lhoba	mik◦pin	mik◦pin	eyelid	eyelid			1.2.6.4		0			682,591
+41334	366	Bokar Lhoba	mik◦ruŋ	mik◦ruŋ	eye socket	eye socket			1.2.6		0			682,2070
+41335	366	Bokar Lhoba	ȵa◦pum	ȵa◦pum	nose	nose			1.2.8		0			803,806
+41336	366	Bokar Lhoba	pum◦loŋ	pumloŋ	bridge of nose	bridge of nose			9.10.2		0			806,m
+41337	366	Bokar Lhoba	ȵaruŋ	ȵaruŋ	ear	ear			1.2.7		0			6487
+41338	366	Bokar Lhoba	ruŋ◦'eː	ruŋ'eː	earwax	earwax			1.2.7.3		0			2070,576
+41339	366	Bokar Lhoba	nap◦paŋ	nap◦paŋ	mouth	mouth			1.3.1		0			470,476
+41340	366	Bokar Lhoba	gum◦pɯk	gum◦pɯk	mouth	mouth			1.3.1		0			6324,476
+41341	366	Bokar Lhoba	nap◦bjer	nap◦bjer	mouth	mouth			1.3.1		0			470,452
+41342	366	Bokar Lhoba	jiː◦tɕuŋ	jiː◦tɕuŋ	tooth	tooth			1.3.4		0			632,2813
+41343	366	Bokar Lhoba	jiː◦po	jiː◦po	tooth	tooth			1.3.4		0			632,m
+41344	366	Bokar Lhoba	jiː◦kam	jiː◦kam	tooth	tooth			1.3.4		0			632,630
+41345	366	Bokar Lhoba	a◦jo	a◦jo	tongue	tongue			1.3.3		0			p,623
+41346	366	Bokar Lhoba	nap◦mɯ	nap◦mɯ	beard	beard			1.2.5.5		0			470,363
+41347	366	Bokar Lhoba	lɯŋ◦poŋ	lɯŋ◦poŋ	neck	neck			1.4.2		0			479,3404
+41348	366	Bokar Lhoba	lɯŋ◦guŋ	lɯŋ◦guŋ	neck	neck			1.4.2		0			479,3361
+41349	366	Bokar Lhoba	guŋ◦pɯ	guŋ◦pɯ	neck	neck			1.4.2		0			3361,3404
+41350	366	Bokar Lhoba	gur◦bɯŋ	gur◦bɯŋ	shoulder	shoulder			1.4.3		0			6327,1327
+41351	366	Bokar Lhoba	a◦lok	a◦lok	hand	hand			1.5.1.1		0			p,695
+41352	366	Bokar Lhoba	a◦ɕur	a◦ɕur	hand	hand			1.5.1.1		0			p,713
+41353	366	Bokar Lhoba	luk◦pɯŋ	luk◦pɯŋ	fist	fist			1.5.1.1.1		0			695,1327
+41354	366	Bokar Lhoba	lok◦poŋ	lok◦poŋ	arm	arm			1.5.1.2		0			695,1327
+41355	366	Bokar Lhoba	luk◦du	luk◦du	elbow	elbow			1.5.8.3		0			695,306
+41356	366	Bokar Lhoba	lok◦tɕəŋ	loktɕəŋ	finger	finger			1.5.6		0			695,6689
+41357	366	Bokar Lhoba	lok◦nə	lok◦nə	finger	finger			1.5.6		0			695,1621
+41358	366	Bokar Lhoba	tɕiŋjiː	tɕiŋjiː	finger	finger			1.5.6		0			
+41359	366	Bokar Lhoba	lugin	lugin	fingernail	fingernail			1.5.10.1		0			6691
+41360	366	Bokar Lhoba	ləjin	ləjin	fingernail	fingernail			1.5.10.1		0			6691
+41361	366	Bokar Lhoba	ɦoŋboŋ	ɦoŋboŋ	chest	chest			1.4.4.3		0			6342
+41362	366	Bokar Lhoba	lamko	lamko	back	back			1.4.8		0			6417
+41363	366	Bokar Lhoba	gɛːɕiː	gɛːɕiː	vertabrae	vertabrae					0			
+41364	366	Bokar Lhoba	kiː◦poŋ	kiː◦poŋ	belly	belly			1.4.7		0			2125,2111
+41365	366	Bokar Lhoba	kjumbibi	kjumbibi	sides of belly	sides of belly			1.4.5		0			m
+41366	366	Bokar Lhoba	ɦuŋ◦ŋəŋ	ɦuŋ◦ŋəŋ	waist	waist			1.4.6		0			1364,483
+41367	366	Bokar Lhoba	kapir	kapir	kidney	kidney			1.7.5		0			2120
+41368	366	Bokar Lhoba	lə◦pio	ləpio	foot	foot			1.5.2		0			350,m
+41369	366	Bokar Lhoba	litu	litu	foot	foot			1.5.2		0			
+41370	366	Bokar Lhoba	la◦jək	la◦jək	leg	leg			1.5.7		0			
+41371	366	Bokar Lhoba	lə◦paŋ	lə◦paŋ	leg	leg			1.5.7		0			350,6528
+41372	366	Bokar Lhoba	lɯ◦tɯ	lɯ◦tɯ	leg	leg			1.5.7		0			350,m
+41373	366	Bokar Lhoba	lɯbɯŋ	lɯbɯŋ	knee	knee			1.5.8.4		0			6437
+41374	366	Bokar Lhoba	dʑiŋ◦guŋ	dʑiŋguŋ	knee	knee			1.5.8.4		0			m,1251
+41375	366	Bokar Lhoba	a◦pin	a◦pin	skin	skin			1.6.5		0			p,591
+41376	366	Bokar Lhoba	loŋ◦poŋ	loŋ◦poŋ	bone	bone			1.6.3		0			238,1469
+41377	366	Bokar Lhoba	loŋ◦poŋ pɯ◦niː	loŋ◦poŋ pɯ◦niː	marrow	marrow			1.6.3.5		0			238,1469,m,1448
+41378	366	Bokar Lhoba	dʑiː◦pa	dʑiː◦pa	muscle / sinew	muscle / sinew			1.6.6.2		0			372,s
+41379	366	Bokar Lhoba	ɦuk◦ma	ɦuk◦ma	muscle / sinew	muscle / sinew			1.6.6.2		0			m,s
+41380	366	Bokar Lhoba	u◦jiː	u◦jiː	blood	blood			1.6.2		0			p,230
+41381	366	Bokar Lhoba	aː	aː	stomach	stomach			1.7.6		0			
+41382	366	Bokar Lhoba	ɕer◦pə	ɕer◦pə	spleen	spleen			1.7.4		0			m,s
+41383	366	Bokar Lhoba	a◦kiː	a◦kiː	intestines	intestines			1.7.7		0			p,2125
+41384	366	Bokar Lhoba	ɦuŋ◦puk	ɦuŋ◦puk	heart	heart			1.7.1		0			6201,164
+41385	366	Bokar Lhoba	a◦pɯ	a◦pɯ	gall bladder	gall bladder			1.7.3		0			p,6546
+41386	366	Bokar Lhoba	jin	jin	liver	liver			1.7.3		0			1390
+41387	366	Bokar Lhoba	loː	loː	lung	lung			1.7.2		0			2121
+41388	366	Bokar Lhoba	ɕar◦pum	ɕar◦pum	bladder	bladder			1.7.8		0			6604,777
+41389	366	Bokar Lhoba	nə◦mam	nə◦mam	placenta	placenta					0			m,3444
+41390	366	Bokar Lhoba	ɦoŋ◦ŋar	ɦoŋ◦ŋar	sweat	sweat			1.8.1		0			m,801
+41391	366	Bokar Lhoba	ta◦nap	ta◦nap	snot	snot			1.8.2		0			p,805
+41392	366	Bokar Lhoba	ta◦kak	ta◦kak	phlegm	phlegm			1.8.3		0			p,540
+41393	366	Bokar Lhoba	ta◦tɕur	ta◦tɕur	saliva	saliva			1.8.3		0			p,6379
+41394	366	Bokar Lhoba	o◦ma	o◦ma	milk	milk					0			3464,s
+41395	366	Bokar Lhoba	eː	eː	shit	shit			1.8.5		0			576
+41396	366	Bokar Lhoba	ə◦pəː	ə◦pəː	fart	fart			1.8.5.2		0			576,316
+41397	366	Bokar Lhoba	i◦ɕiː	i◦ɕiː	urine	urine			1.8.4		0			p,650
+41398	366	Bokar Lhoba	ta◦rə	ta◦rə	wound	wound			1.8.6.2		0			
+41399	366	Bokar Lhoba	tagɛː	tagɛː	scar	scar			1.6.5.3		0			
+41400	366	Bokar Lhoba	a◦buk	a◦buk	ulcer, sore	ulcer, sore			1.8.6.2		0			p,m
+41401	366	Bokar Lhoba	ujuː mərom	ujuː mərom	mole	mole			2.2.7		0			
+41402	366	Bokar Lhoba	abuk	abuk	spot	spot			6.2		0			
+41403	366	Bokar Lhoba	tatɕəŋ rojəŋ	tatɕəŋ rojəŋ	wart	wart			1.6.5.3		0			
+41404	366	Bokar Lhoba	ta◦ȵi	ta◦ȵi	pus	pus			1.8.6.1		0			p,1294
+41405	366	Bokar Lhoba	tamor	tamor	tinea; ringworm	tinea; ringworm			1.6.5.3		0			
+41406	366	Bokar Lhoba	tamɛː	tamɛː	malaria	malaria			5.3		0			
+41407	366	Bokar Lhoba	mik◦maŋ	mik◦maŋ	blind person	blind person			1.2.6.14.2		0			682,m
+41408	366	Bokar Lhoba	ruŋ◦be	ruŋ◦be	deaf person	deaf person			1.2.7.5		0			2070,m
+41409	366	Bokar Lhoba	gom◦maŋ	gom◦maŋ	mute person	mute person			1.5.3.2		0			6324,6449
+41410	366	Bokar Lhoba	lurna	lurna	insane person	insane person			8.3.1.11.3		0			
+41411	366	Bokar Lhoba	lələk	lələk	lame person	lame person			1.5.12		0			
+41412	366	Bokar Lhoba	bum◦ɕiː	bum◦ɕiː	pockmarked person	pockmarked person			1.6.5.4		0			6269,m
+41413	366	Bokar Lhoba	gomkak	gomkak	scarred person	scarred person			1.6.5.4		0			
+41414	366	Bokar Lhoba	duk◦gɯr	duk◦gɯr	hunchback	hunchback			1.4.8.3		0			?,m
+41415	366	Bokar Lhoba	num	num	fat, oil	fat, oil			1.6.4		0			1443
+41416	366	Bokar Lhoba	i◦din	i◦din	meat, flesh	meat, flesh			1.1.1.1		0			p,6299
+41417	366	Bokar Lhoba	tɕu◦rə	tɕu◦rə	milk dregs	milk dregs					0			5539,m
+41418	366	Bokar Lhoba	gom	gom	speech	speech			1.8.7		0			6324
+41419	366	Bokar Lhoba	kɛː	kɛː	sound (of animals)	sound (of animals)			9.3		0			
+41420	366	Bokar Lhoba	a◦muk	a◦muk	breath	breath			1.1.2.2		0			p,65
+41421	366	Bokar Lhoba	duŋjum	duŋjum	shadow	shadow			3.2.10		0			
+41422	366	Bokar Lhoba	u◦juː	u◦juː	ghost	ghost			4.2.12.2		0			p,6366
+41423	366	Bokar Lhoba	koŋ	koŋ	look at	look at			1.2.6.11		0			6373
+41424	366	Bokar Lhoba	koŋ◦'poŋ	koŋ◦'poŋ	see, perceive	see, perceive			1.2.6.10		0			6373,m
+41425	366	Bokar Lhoba	taː	taː	listen	listen			1.2.7.4		0			1408
+41426	366	Bokar Lhoba	doː	doː	eat	eat			1.5.3.2		0			5363
+41427	366	Bokar Lhoba	tɯŋ	tɯŋ	drink	drink					0			502
+41428	366	Bokar Lhoba	gam	gam	bite	bite			1.3.4.4		0			2231
+41429	366	Bokar Lhoba	mur	mur	chew	chew			1.3.4		0			467
+41430	366	Bokar Lhoba	tɕuː◦tɛː◦ȵam	tɕuː◦tɛː◦ȵam	chew cud	chew cud			1.3.4		0			m,m,1772
+41431	366	Bokar Lhoba	jak	jak	lick	lick			1.3.3.1		0			629
+41432	366	Bokar Lhoba	joː◦len	joː◦len	stick out (tongue)	stick out (tongue)			3.1.2		0			623,6426
+41433	366	Bokar Lhoba	mur	mur	hold in mouth	hold in mouth			1.3.4.4		0			467
+41434	366	Bokar Lhoba	jom◦mit	jom◦mit	swallow	swallow			1.3.5.6		0			m,6451
+41435	366	Bokar Lhoba	baː	baː	vomit	vomit			1.8.3.2		0			1145
+41436	366	Bokar Lhoba	mit	mit	blow (with mouth)	blow (with mouth)			1.3.1.4		0			503
+41437	366	Bokar Lhoba	ben	ben	speak	speak			8.5.10.1		0			6699
+41438	366	Bokar Lhoba	o◦tu	otu	call out, cry out	call out, cry out			9.2		0			
+41439	366	Bokar Lhoba	nam	nam	smell (with nose)	smell (with nose)			1.2.8.5		0			1415
+41440	366	Bokar Lhoba	jup	jup	sleep	sleep			1.1.4.1		0			127
+41441	366	Bokar Lhoba	kar	kar	sleep	sleep			1.1.4.1		0			2128
+41442	366	Bokar Lhoba	ȵir	ȵir	laugh	laugh			1.8.8.1		0			1142
+41443	366	Bokar Lhoba	kap	kap	cry, weep	cry, weep			1.8.8.2		0			1103
+41444	366	Bokar Lhoba	ɕoː	ɕoː	raise (children)	raise (children)			6.7.7		0			
+41445	366	Bokar Lhoba	tɕaŋ	tɕaŋ	grow up	grow up			9.7.2		0			
+41446	366	Bokar Lhoba	ɕɯŋ	ɕɯŋ	grow up	grow up			9.7.2		0			6605
+41447	366	Bokar Lhoba	a◦tɕi	a◦tɕi	get sick	get sick			1.1.5		0			p,1847
+41448	366	Bokar Lhoba	ɕak	ɕak	cough	cough			1.8.3.3		0			1794
+41449	366	Bokar Lhoba	matɕi	matɕi	sneeze	sneeze			1.8.2.1		0			
+41450	366	Bokar Lhoba	tɕə◦kək	tɕə◦kək	burp	burp			1.8.3		0			
+41451	366	Bokar Lhoba	ɕakram	ɕakram	catch / have a cold	catch / have a cold			6.21		0			
+41452	366	Bokar Lhoba	taʰit	taʰit	paralysis	paralysis			1.5.11		0			
+41453	366	Bokar Lhoba	təp◦dɯr	təpdɯr	shake, shiver	shake, shiver			6.7.9		0			m,5570
+41454	366	Bokar Lhoba	biŋ	biŋ	swell up	swell up			1.1.5.2		0			111
+41455	366	Bokar Lhoba	tur◦nə	tur◦nə	alive, live	alive, live			1.1.2.1		0			6626,m
+41456	366	Bokar Lhoba	ɕiː	ɕiː	die	die			1.1.6		0			27
+41457	366	Bokar Lhoba	keː	keː	die	die			1.1.6		0			3301
+41458	366	Bokar Lhoba	bjar	bjar	fly	fly			2.2.6		0			2189
+41459	366	Bokar Lhoba	i◦ɕiː ɕiː	iɕiː ɕiː	urinate	urinate			1.5.3.2		0			p,650,m
+41460	366	Bokar Lhoba	eː eː	eː eː	defecate	defecate			1.8.5.4		0			576,576
+41461	366	Bokar Lhoba	ɦuː◦po	ɦuː◦po	fat (of humans)	fat (of humans)			1.6.4		0			6311,m
+41462	366	Bokar Lhoba	gi	gi	lean (of humans)	lean (of humans)			1.1.1		0			49
+41463	366	Bokar Lhoba	jet	jet	full, satiated	full, satiated			1.1.3.2		0			1830
+41464	366	Bokar Lhoba	raŋ	raŋ	full, satiated	full, satiated			1.1.3.2		0			114
+41465	366	Bokar Lhoba	kinnoŋ	kinnoŋ	hungry	hungry			1.1.3		0			104
+41466	366	Bokar Lhoba	la◦jen	la◦jen	sated, too full	sated, too full			1.1.3.2		0			m,1830
+41467	366	Bokar Lhoba	ɦəŋ◦pɯ	ɦəŋ◦pɯ	thirsty	thirsty			1.1.3.1		0			m,3297
+41468	366	Bokar Lhoba	a◦pɛː	a◦pɛː	tired	tired			9.6.2.2		0			p,6511
+41469	366	Bokar Lhoba	ak	ak	itch	itch			1.6.5.5		0			1457
+41470	366	Bokar Lhoba	mir	mir	dizzy, get dizzy	dizzy, get dizzy			8.3.1.11.3		0			
+41471	366	Bokar Lhoba	bəren	bəren	numb	numb			1.5.11		0			
+41970	1090	Tshona (Mama)	jøn⁵⁵ mᴀ⁵³	jøn⁵⁵ mᴀ⁵³	left	left			1.5.3.2		0			
+41971	1090	Tshona (Mama)	jɛː⁵⁵ pᴀ⁵³	jɛː⁵⁵ pᴀ⁵³	right	right			1.5.3.2		0			2786
+41972	1090	Tshona (Mama)	nᴀ⁵⁵ mo⁵³	nᴀ⁵⁵ mo⁵³	side	side			1.4.5		0			
+41973	1090	Tshona (Mama)	pun¹³	pun¹³	center	center			1.9.4		0			3
+41974	1090	Tshona (Mama)	kʰᴀʔ⁵³ lum⁵³	kʰᴀʔ⁵³ lum⁵³	egg	egg					0			1110,3438
+41975	1090	Tshona (Mama)	sir⁵⁵ sir⁵⁵ mo⁵³	sir⁵⁵ sir⁵⁵ mo⁵³	egg	egg					0			1607,1607,685
+41976	1090	Tshona (Mama)	ɕɔk⁵⁵ pᴀ⁵³	ɕɔk⁵⁵ pᴀ⁵³	wing	wing			1.5.1.3		0			731,s
+41977	1090	Tshona (Mama)	pu⁵³	pu⁵³	fur	fur			1.6.1		0			1228
+41978	1090	Tshona (Mama)	pɛː¹³	pɛː¹³	fur	fur			1.6.1		0			
+41979	1090	Tshona (Mama)	krɔ¹³	krɔ¹³	feather	feather			1.6.1.1		0			R
+41980	1090	Tshona (Mama)	tɕʌ¹³ pu⁵³	tɕʌ¹³ pu⁵³	feather	feather			1.6.1.1		0			m,1228
+41981	1090	Tshona (Mama)	der¹³ mo⁵³	der¹³ mo⁵³	claw	claw			1.5.10.4		0			506,s
+41982	1090	Tshona (Mama)	ne¹³ wᴀ⁵³	ne¹³ wᴀ⁵³	hoof (horse)	hoof (horse)			1.5.4		0			w
+41983	1090	Tshona (Mama)	li¹³ min⁵⁵	li¹³ min⁵⁵	paw, foot of animal	paw, foot of animal			1.5.4		0			350,m
+41984	1090	Tshona (Mama)	ruː¹³	ruː¹³	horn	horn			1.2.2		0			814
+41985	1090	Tshona (Mama)	kʰlɛʔ⁵³	kʰlɛʔ⁵³	tail	tail			1.4.10.1		0			3332
+41986	1090	Tshona (Mama)	zɔ¹³ rɔk⁵³	zɔ¹³ rɔk⁵³	cockscomb	cockscomb			1.2.2.1		0			
+41987	1090	Tshona (Mama)	ze¹³ lʌ⁵³	ze¹³ lʌ⁵³	pig bristles	pig bristles			2.1.12		0			
+41988	1090	Tshona (Mama)	ʔɔk⁵⁵ ɕʌ⁵³	ʔɔk⁵⁵ ɕʌ⁵³	cow neck extra flesh	cow neck extra flesh			2.1.2		0			m
+41989	1090	Tshona (Mama)	pʌː¹³ wo⁵³	pʌː¹³ wo⁵³	hide	hide			1.6.5.1		0			588,s
+41990	1090	Tshona (Mama)	lu¹³ po⁵³	lu¹³ po⁵³	body [1]	body [1]			1.1.1		0			11,1902
+41991	1090	Tshona (Mama)	men⁵³	men⁵³	body [2]	body [2]			1.1.1		0			54
+41992	1090	Tshona (Mama)	rɔ¹³	rɔ¹³	corpse	corpse			1.1.6.1		0			19
+41993	1090	Tshona (Mama)	kɔk¹³ tʰeʔ⁵³	kɔk¹³ tʰeʔ⁵³	head	head			1.2.1		0			1224,358
+41994	1090	Tshona (Mama)	lᴀŋ⁵⁵ pɛʔ⁵³	lᴀŋ⁵⁵ pɛʔ⁵³	forehead	forehead			1.2.5.1		0			392,m
+41995	1090	Tshona (Mama)	kʰrᴀ⁵³	kʰrᴀ⁵³	hair	hair			1.2.3		0			367
+41996	1090	Tshona (Mama)	kʰrᴀ⁵³ pʰre⁵³	kʰrᴀ⁵³ pʰre⁵³	braid	braid			1.2.3.2		0			367,2018
+41997	1090	Tshona (Mama)	lᴀt⁵⁵ pᴀ⁵³	lᴀt⁵⁵ pᴀ⁵³	brain	brain			1.2.4		0			465,s
+41998	1090	Tshona (Mama)	ŋor⁵⁵	ŋor⁵⁵	face	face			1.2.5		0			1192
+41999	1090	Tshona (Mama)	ȵer⁵⁵ mᴀ⁵³	ȵer⁵⁵ mᴀ⁵³	face	face			1.2.5		0			1192,s
+42000	1090	Tshona (Mama)	brᴀm¹³	brᴀm¹³	face	face			1.2.5		0			2039
+42001	1090	Tshona (Mama)	ce¹³ kɔm⁵³	ce¹³ kɔm⁵³	face	face			1.2.5		0			2037,630
+42002	1090	Tshona (Mama)	ŋur⁵⁵	ŋur⁵⁵	face	face			1.2.5		0			1192
+42003	1090	Tshona (Mama)	ʔoː⁵⁵ mᴀ⁵³	ʔoː⁵⁵ mᴀ⁵³	chin	chin			1.2.5.3		0			284,m
+42004	1090	Tshona (Mama)	min⁵³ mᴀ⁵³	min⁵³ mᴀ⁵³	eyebrow	eyebrow			1.2.6.6		0			363,s
+42005	1090	Tshona (Mama)	meʔ⁵³	meʔ⁵³	eye	eye			1.2.6		0			682
+42006	1090	Tshona (Mama)	ɬᴀ⁵⁵ pu⁵³	ɬᴀ⁵⁵ pu⁵³	eye	eye			1.2.6		0			1427,1275
+42007	1090	Tshona (Mama)	meʔ⁵³ priː¹³ pu⁵³	meʔ⁵³ priː¹³ pu⁵³	eyeball	eyeball			1.2.6.1		0			682,m,1275
+42008	1090	Tshona (Mama)	meʔ⁵³ kɔŋ⁵⁵	meʔ⁵³ kɔŋ⁵⁵	eye	eye			1.2.6		0			682,3557
+42009	1090	Tshona (Mama)	meʔ⁵³ pʰek⁵³	meʔ⁵³ pʰek⁵³	eye	eye			1.2.6		0			682,m
+42010	1090	Tshona (Mama)	nᴀ⁵³	nᴀ⁵³	nose	nose			1.2.8		0			803
+42011	1090	Tshona (Mama)	nᴀr⁵⁵ ȵᴀk⁵³	nᴀr⁵⁵ ȵᴀk⁵³	nose	nose			1.2.8		0			803,803
+42012	1090	Tshona (Mama)	nem¹³ nɛʔ⁵³	nem¹³ nɛʔ⁵³	ear	ear			1.2.7		0			825,811
+42013	1090	Tshona (Mama)	kʰᴀ⁵³	kʰᴀ⁵³	mouth	mouth			1.3.1		0			273
+42014	1090	Tshona (Mama)	kᴀm⁵³	kᴀm⁵³	mouth	mouth			1.3.1		0			454
+42015	1090	Tshona (Mama)	wᴀ⁵³	wᴀ⁵³	tooth	tooth			1.3.4		0			632
+42016	1090	Tshona (Mama)	tɕʰe⁵⁵ wᴀ⁵³	tɕʰe⁵⁵ wᴀ⁵³	tooth	tooth			1.3.4		0			635,632
+42017	1090	Tshona (Mama)	krᴀŋ¹³ ʔo⁵³	krᴀŋ¹³ ʔo⁵³	tooth	tooth			1.3.4		0			1728,632
+42018	1090	Tshona (Mama)	le⁵³	le⁵³	tongue	tongue			1.3.3		0			621
+42019	1090	Tshona (Mama)	cᴀ¹³ dʐᴀ¹³	cᴀ¹³ dʐᴀ¹³	beard	beard			1.2.5.5		0			1111,366
+42020	1090	Tshona (Mama)	tᴀk⁵⁵ pᴀ⁵³	tᴀk⁵⁵ pᴀ⁵³	neck	neck			1.4.2		0			359,s
+42021	1090	Tshona (Mama)	ȵᴀu¹³	ȵᴀu¹³	neck	neck			1.4.2		0			485
+42022	1090	Tshona (Mama)	ȵe¹³	ȵe¹³	neck	neck			1.4.2		0			485
+42023	1090	Tshona (Mama)	tɔŋ⁵⁵ tɔŋ⁵⁵	tɔŋ⁵⁵ tɔŋ⁵⁵	throat	throat			1.3.5		0			822,822
+42024	1090	Tshona (Mama)	pu⁵⁵ pᴀ⁵³	pu⁵⁵ pᴀ⁵³	shoulder	shoulder			1.4.3		0			1327,s
+42025	1090	Tshona (Mama)	lᴀʔ⁵³	lᴀʔ⁵³	hand	hand			1.5.1.1		0			695
+42026	1090	Tshona (Mama)	duk¹³ tum⁵⁵ pᴀ³¹	duk¹³ tum⁵⁵ pᴀ³¹	hand	hand			1.5.1.1		0			m,m,m
+42027	1090	Tshona (Mama)	bᴀ¹³	bᴀ¹³	hand	hand			1.5.1.1		0			745
+42028	1090	Tshona (Mama)	krɯm¹³ tɕuŋ⁵³	krɯm¹³ tɕuŋ⁵³	elbow	elbow			1.5.8.3		0			
+42029	1090	Tshona (Mama)	lᴀʔ⁵³ priu⁵³	lᴀʔ⁵³ priu⁵³	finger	finger			1.5.6		0			695,m
+42030	1090	Tshona (Mama)	tʰen⁵⁵ pʰoŋ⁵⁵	tʰen⁵⁵ pʰoŋ⁵⁵	finger	finger			1.5.6		0			
+42031	1090	Tshona (Mama)	cuŋ⁵⁵ cuŋ⁵⁵ mᴀʔ⁵³	cuŋ⁵⁵ cuŋ⁵⁵ mᴀʔ⁵³	finger	finger			1.5.6		0			
+42032	1090	Tshona (Mama)	ziː¹³ po⁵³	ziː¹³ po⁵³	fingernail	fingernail			1.5.10.1		0			
+42033	1090	Tshona (Mama)	prᴀŋ¹³	prᴀŋ¹³	chest	chest			1.4.4.3		0			288
+42034	1090	Tshona (Mama)	pʰuŋ⁵³	pʰuŋ⁵³	back	back			1.4.8		0			3326
+42035	1090	Tshona (Mama)	cɛ¹³ ru⁵³	cɛ¹³ ru⁵³	back	back			1.4.8		0			m,232
+42036	1090	Tshona (Mama)	cɛː⁵⁵ pᴀ⁵³	cɛː⁵⁵ pᴀ⁵³	belly	belly			1.4.7		0			
+42037	1090	Tshona (Mama)	pʰɔː⁵⁵ wʌ⁵³	pʰɔː⁵⁵ wʌ⁵³	belly	belly			1.4.7		0			164,m
+42038	1090	Tshona (Mama)	kʰren⁵³	kʰren⁵³	waist	waist			1.4.6		0			217
+42039	1090	Tshona (Mama)	kʰɛː⁵⁵ mᴀ⁵³	kʰɛː⁵⁵ mᴀ⁵³	kidney	kidney			1.7.5		0			201,s
+42040	1090	Tshona (Mama)	le¹³ mɛʔ⁵³	le¹³ mɛʔ⁵³	foot	foot			1.5.2		0			350,m
+42041	1090	Tshona (Mama)	tiː⁵⁵ pᴀ⁵³	tiː⁵⁵ pᴀ⁵³	foot	foot			1.5.2		0			
+42042	1090	Tshona (Mama)	ȵᴀ¹³ lɔk⁵³	ȵᴀ¹³ lɔk⁵³	leg	leg			1.5.7		0			
+42043	1090	Tshona (Mama)	le¹³ dum¹³	le¹³ dum¹³	leg	leg			1.5.7		0			350,m
+42044	1090	Tshona (Mama)	ȵᴀ¹³ dik⁵³	ȵᴀ¹³ dik⁵³	leg	leg			1.5.7		0			
+42045	1090	Tshona (Mama)	pu⁵⁵ moŋ⁵³	pu⁵⁵ moŋ⁵³	knee	knee			1.5.8.4		0			
+42046	1090	Tshona (Mama)	ȵᴀ¹³ kʰuk⁵³	ȵᴀ¹³ kʰuk⁵³	knee	knee			1.5.8.4		0			m,1251
+42047	1090	Tshona (Mama)	pʰe⁵⁵ kʰu⁵³	pʰe⁵⁵ kʰu⁵³	skin	skin			1.6.5		0			m,589
+42048	1090	Tshona (Mama)	rɔː¹³ pʰᴀ⁵³	rɔː¹³ pʰᴀ⁵³	bone	bone			1.6.3		0			237,m
+42049	1090	Tshona (Mama)	kᴀŋ⁵⁵ mᴀr⁵⁵	kᴀŋ⁵⁵ mᴀr⁵⁵	bone	bone			1.6.3		0			m,m
+42050	1090	Tshona (Mama)	tsᴀ⁵³	tsᴀ⁵³	muscle / sinew	muscle / sinew			1.6.6.2		0			530
+42051	1090	Tshona (Mama)	cep⁵³	cep⁵³	muscle / sinew	muscle / sinew			1.6.6.2		0			m
+42052	1090	Tshona (Mama)	ceʔ⁵³	ceʔ⁵³	blood	blood			1.6.2		0			230
+42053	1090	Tshona (Mama)	pʰɔː⁵⁵	pʰɔː⁵⁵	stomach	stomach			1.7.6		0			2103
+42054	1090	Tshona (Mama)	pɛː¹³ cem⁵⁵ mᴀʔ⁵³	pɛː¹³ cem⁵⁵ mᴀʔ⁵³	spleen	spleen			1.7.4		0			m,m,1384
+42055	1090	Tshona (Mama)	cu¹³ mo⁵³	cu¹³ mo⁵³	intestines	intestines			1.7.7		0			2116,m
+42056	1090	Tshona (Mama)	niŋ⁵³	niŋ⁵³	heart	heart			1.7.1		0			251
+42057	1090	Tshona (Mama)	tsi⁵⁵ mo⁵³	tsi⁵⁵ mo⁵³	liver	liver			1.7.3		0			1390,s
+42058	1090	Tshona (Mama)	kli⁵³	kli⁵³	gall bladder	gall bladder			1.7.3		0			227
+42059	1090	Tshona (Mama)	lɔː⁵⁵	lɔː⁵⁵	lung	lung			1.7.2		0			2121
+42060	1090	Tshona (Mama)	tɕʰi⁵⁵ liŋ⁵⁵ kᴀː⁵⁵ po⁵³	tɕʰi⁵⁵ liŋ⁵⁵ kᴀː⁵⁵ po⁵³	bladder	bladder			1.7.8		0			
+42061	1090	Tshona (Mama)	nᴀm¹³ nᴀŋ⁵⁵	nᴀm¹³ nᴀŋ⁵⁵	placenta	placenta					0			3444,m
+42062	1090	Tshona (Mama)	ȵeʔ¹³	ȵeʔ¹³	sweat	sweat			1.8.1		0			m
+42063	1090	Tshona (Mama)	nep⁵³	nep⁵³	snot	snot			1.8.2		0			805
+42064	1090	Tshona (Mama)	hᴀr⁵⁵	hᴀr⁵⁵	phlegm	phlegm			1.8.3		0			541
+42065	1090	Tshona (Mama)	tem⁵³	tem⁵³	saliva	saliva			1.8.3		0			
+42066	1090	Tshona (Mama)	jo¹³	jo¹³	milk	milk					0			5539
+42067	1090	Tshona (Mama)	ȵin¹³	ȵin¹³	shit	shit			1.8.5		0			2520
+42068	1090	Tshona (Mama)	pʰɛʔ⁵³	pʰɛʔ⁵³	fart	fart			1.8.5.2		0			311
+42069	1090	Tshona (Mama)	tɕʰin⁵³	tɕʰin⁵³	urine	urine			1.8.4		0			650
+42070	1090	Tshona (Mama)	mᴀ¹³	mᴀ¹³	wound	wound			1.8.6.2		0			
+42071	1090	Tshona (Mama)	pleʔ⁵³	pleʔ⁵³	scar	scar			1.6.5.3		0			
+42072	1090	Tshona (Mama)	tsi⁵⁵ ʑiŋ⁵³	tsi⁵⁵ ʑiŋ⁵³	ulcer, sore	ulcer, sore			1.8.6.2		0			m,m
+42073	1090	Tshona (Mama)	mi⁵⁵ wᴀ⁵³	mi⁵⁵ wᴀ⁵³	mole	mole			2.2.7		0			2447,m
+42074	1090	Tshona (Mama)	pruʔ	pruʔ	spot	spot			6.2		0			
+42075	1090	Tshona (Mama)	tɕer⁵⁵	tɕer⁵⁵	wart	wart			1.6.5.3		0			
+42076	1090	Tshona (Mama)	ŋɔ⁵³	ŋɔ⁵³	tinea; ringworm	tinea; ringworm			1.6.5.3		0			
+42077	1090	Tshona (Mama)	jᴀn¹³	jᴀn¹³	pus	pus			1.8.6.1		0			m
+42078	1090	Tshona (Mama)	lɔŋ¹³ pᴀ⁵³	lɔŋ¹³ pᴀ⁵³	blind person	blind person			1.2.6.14.2		0			1239,s
+42079	1090	Tshona (Mama)	øn¹³ pᴀ⁵³	øn¹³ pᴀ⁵³	deaf person	deaf person			1.2.7.5		0			
+42080	1090	Tshona (Mama)	kuk⁵⁵ pᴀ⁵³	kuk⁵⁵ pᴀ⁵³	mute person	mute person			1.5.3.2		0			1789,s
+42081	1090	Tshona (Mama)	nøn⁵⁵ pᴀ⁵³	nøn⁵⁵ pᴀ⁵³	insane person	insane person			8.3.1.11.3		0			
+42082	1090	Tshona (Mama)	kᴀŋ⁵⁵ cɔʔ⁵³	kᴀŋ⁵⁵ cɔʔ⁵³	lame person	lame person			1.5.12		0			
+42083	1090	Tshona (Mama)	pᴀr¹³ tsᴀʔ⁵³	pᴀr¹³ tsᴀʔ⁵³	pockmarked person	pockmarked person			1.6.5.4		0			
+42084	1090	Tshona (Mama)	kʰᴀ⁵⁵ ʑᴀ¹³	kʰᴀ⁵⁵ ʑᴀ¹³	scarred person	scarred person			1.6.5.4		0			
+42085	1090	Tshona (Mama)	kur¹³ mo⁵³	kur¹³ mo⁵³	hunchback	hunchback			1.4.8.3		0			m,m
+42086	1090	Tshona (Mama)	num⁵³	num⁵³	oil	oil			1.6.4.1		0			1443
+42087	1090	Tshona (Mama)	mʌr¹³	mʌr¹³	oil	oil			1.6.4.1		0			1470
+42088	1090	Tshona (Mama)	tɕʰu⁵⁵ ru⁵³	tɕʰu⁵⁵ ru⁵³	milk dregs	milk dregs					0			5539,m
+42089	1090	Tshona (Mama)	ɕᴀ⁵³	ɕᴀ⁵³	meat, flesh	meat, flesh			1.1.1.1		0			34
+42090	1090	Tshona (Mama)	mʌn⁵⁵	mʌn⁵⁵	speech	speech			1.8.7		0			
+42091	1090	Tshona (Mama)	tʂʌ¹³	tʂʌ¹³	sound	sound			9.3		0			
+42092	1090	Tshona (Mama)	ku⁵³	ku⁵³	sound (of animal)	sound (of animal)			9.3		0			
+42093	1090	Tshona (Mama)	buk¹³	buk¹³	breath	breath			1.1.2.2		0			65
+42094	1090	Tshona (Mama)	ɕuk⁵³	ɕuk⁵³	strength	strength			1.1.5		0			m
+42095	1090	Tshona (Mama)	mʌŋ¹³ mo⁵³	mʌŋ¹³ mo⁵³	shadow	shadow			3.2.10		0			
+42096	1090	Tshona (Mama)	ɬʌ⁵³	ɬʌ⁵³	spirit	spirit			5.8.1.1		0			
+42097	1090	Tshona (Mama)	te⁵⁵	te⁵⁵	look at	look at			1.2.6.11		0			m
+42098	1090	Tshona (Mama)	tʰoŋ⁵³	tʰoŋ⁵³	see, perceive	see, perceive			1.2.6.10		0			1402
+42099	1090	Tshona (Mama)	ȵʌn¹³	ȵʌn¹³	listen	listen			1.2.7.4		0			1410
+42100	1090	Tshona (Mama)	thɔʔ⁵³	thɔʔ⁵³	hear	hear			1.2.7.4		0			1408
+42101	1090	Tshona (Mama)	zᴀ¹³	zᴀ¹³	eat	eat			1.5.3.2		0			36
+42102	1090	Tshona (Mama)	toŋ⁵⁵	toŋ⁵⁵	drink	drink					0			502
+42103	1090	Tshona (Mama)	ʔoː⁵⁵ te¹³ zuŋ¹³	ʔoː⁵⁵ te¹³ zuŋ¹³	hold in mouth	hold in mouth			1.3.4.4		0			
+42104	1090	Tshona (Mama)	ʔoː⁵⁵ te¹³ cʰʌʔ⁵³	ʔoː⁵⁵ te¹³ cʰʌʔ⁵³	bite	bite			1.3.4.4		0			
+42105	1090	Tshona (Mama)	klᴀt¹³	klᴀt¹³	chew	chew			1.3.4		0			1147
+42106	1090	Tshona (Mama)	cʰʌ⁵³	cʰʌ⁵³	gnaw	gnaw			1.3.4.4		0			
+42107	1090	Tshona (Mama)	klᴀ¹³	klᴀ¹³	lick	lick			1.3.3.1		0			629
+42108	1090	Tshona (Mama)	tʌː⁵⁵	tʌː⁵⁵	stick out (tongue)	stick out (tongue)			3.1.2		0			
+42109	1090	Tshona (Mama)	dʑip¹³	dʑip¹³	suck (milk)	suck (milk)			1.3.2.1		0			5541
+42110	1090	Tshona (Mama)	ʔo⁵⁵ tʰɔp⁵³	ʔo⁵⁵ tʰɔp⁵³	kiss	kiss			1.3.2.2		0			m,5541
+42111	1090	Tshona (Mama)	ȵut⁵³ tʰoʔ⁵³	ȵut⁵³ tʰoʔ⁵³	swallow	swallow			1.3.5.6		0			
+42112	1090	Tshona (Mama)	kɔp¹³	kɔp¹³	vomit	vomit			1.8.3.2		0			m
+42113	1090	Tshona (Mama)	pʰuʔ⁵³ jᴀ¹³	pʰuʔ⁵³ jᴀ¹³	blow (with mouth)	blow (with mouth)			1.3.1.4		0			503,m
+42114	1090	Tshona (Mama)	ɕᴀt⁵³	ɕᴀt⁵³	speak	speak			8.5.10.1		0			1755
+42115	1090	Tshona (Mama)	pʰɛː⁵⁵ rɛʔ⁵³ jʌ¹³	pʰɛː⁵⁵ rɛʔ⁵³ jʌ¹³	shout	shout			8.5.4.1		0			
+42116	1090	Tshona (Mama)	ʂi⁵³ num¹³	ʂi⁵³ num¹³	smell, sniff	smell, sniff			1.2.8.5		0			m,1415
+42117	1090	Tshona (Mama)	ȵɛː¹³	ȵɛː¹³	sleep	sleep			1.1.4.1		0			129
+42118	1090	Tshona (Mama)	cen¹³ tᴀr¹³	cen¹³ tᴀr¹³	laugh	laugh			1.8.8.1		0			m,m
+42119	1090	Tshona (Mama)	ŋu¹³	ŋu¹³	cry, weep	cry, weep			1.8.8.2		0			1104
+42120	1090	Tshona (Mama)	sɔ⁵³	sɔ⁵³	raise (children)	raise (children)			6.7.7		0			
+42121	1090	Tshona (Mama)	kʰroŋ⁵³	kʰroŋ⁵³	grow up	grow up			9.7.2		0			
+42122	1090	Tshona (Mama)	ne¹³ se⁵³	ne¹³ se⁵³	get sick	get sick			1.1.5		0			
+42123	1090	Tshona (Mama)	lɔ⁵³ jᴀ¹³	lɔ⁵³ jᴀ¹³	cough	cough			1.8.3.3		0			
+42124	1090	Tshona (Mama)	ʔᴀk⁵⁵ |tsʰiu⁵⁵	ʔᴀk⁵⁵ tsʰiu⁵⁵	sneeze	sneeze			1.8.2.1		0			2131
+42125	1090	Tshona (Mama)	ʔik⁵⁵ po⁵³ jᴀ¹³	ʔik⁵⁵ po⁵³ jᴀ¹³	burp	burp			1.8.3		0			
+42126	1090	Tshona (Mama)	pʰrik⁵³	pʰrik⁵³	shake, shiver	shake, shiver			6.7.9		0			
+42127	1090	Tshona (Mama)	bɔ¹³	bɔ¹³	swell up	swell up			1.1.5.2		0			163
+42128	1090	Tshona (Mama)	søn⁵⁵ mo⁵³	søn⁵⁵ mo⁵³	live (huó)	live (h|uo)			1.1.2.1		0			77,s
+42129	1090	Tshona (Mama)	ɕi⁵³	ɕi⁵³	die	die			1.1.6		0			27
+42130	1090	Tshona (Mama)	løʔ⁵³ tʰoʔ⁵³	løʔ⁵³ tʰoʔ⁵³	sacrifice	sacrifice			5.8.1.3		0			
+42131	1090	Tshona (Mama)	tɕʰin⁵³ ɕeʔ⁵³	tɕʰin⁵³ ɕeʔ⁵³	urinate	urinate			1.5.3.2		0			650,m
+42132	1090	Tshona (Mama)	ȵin¹³ ɕeʔ⁵³	ȵin¹³ ɕeʔ⁵³	defecate	defecate			1.8.5.4		0			
+42133	1090	Tshona (Mama)	pʰir⁵⁵	pʰir⁵⁵	fly	fly			2.2.6		0			
+42134	1090	Tshona (Mama)	ɕʌ⁵³ cʌr¹³	ɕʌ⁵³ cʌr¹³	fat (of humans)	fat (of humans)			1.6.4		0			34,m
+42135	1090	Tshona (Mama)	cᴀ¹³ kʰᴀ⁵³	cᴀ¹³ kʰᴀ⁵³	fat (of humans)	fat (of humans)			1.6.4		0			34,m
+42136	1090	Tshona (Mama)	cem⁵⁵ pʰᴀ⁵³	cem⁵⁵ pʰᴀ⁵³	lean (of humans)	lean (of humans)			1.1.1		0			1805,m,s
+42137	1090	Tshona (Mama)	ɕʌ⁵³ cem⁵³	ɕʌ⁵³ cem⁵³	lean (of meat)	lean (of meat)			1.1.1		0			34,1805
+42138	1090	Tshona (Mama)	dʐe¹³	dʐe¹³	full, satiated	full, satiated			1.1.3.2		0			114
+42139	1090	Tshona (Mama)	ʑe¹³ jᴀ¹³	ʑe¹³ jᴀ¹³	sated, too full	sated, too full (n)	n		1.1.3.2		0	dwb36		114,m
+42140	1090	Tshona (Mama)	prem¹³ neː¹³	prem¹³ neː¹³	hungry	hungry			1.1.3		0			m,104
+42141	1090	Tshona (Mama)	pɛː¹³ cem⁵³	pɛː¹³ cem⁵³	thirsty	thirsty			1.1.3.1		0			m,116
+42142	1090	Tshona (Mama)	ʑᴀŋ¹³	ʑᴀŋ¹³	tired	tired			9.6.2.2		0			
+42143	1090	Tshona (Mama)	cʰᴀ⁵³	cʰᴀ⁵³	itch	itch			1.6.5.5		0			1456
+42144	1090	Tshona (Mama)	ber¹³	ber¹³	numb	numb			1.5.11		0			5685
+42145	1086	Tsangla (Motuo)	mi◦ȵuŋ	mi◦ȵuŋ	left	left			1.5.3.2		0			
+42146	1086	Tsangla (Motuo)	la◦ȵuŋ	la◦ȵuŋ	right	right			1.5.3.2		0			
+42147	1086	Tsangla (Motuo)	naima	naima	side	side			1.4.5		0			
+42148	1086	Tsangla (Motuo)	bar◦ʑuŋ	bar◦ʑuŋ	center	center			1.9.4		0			m,1628
+42149	1086	Tsangla (Motuo)	go◦tʰam	go◦tʰam	egg	egg					0			305,646
+42150	1086	Tsangla (Motuo)	ser◦kʰum	ser◦kʰum	egg	egg					0			1607,305
+42151	1086	Tsangla (Motuo)	wø◦lam	wø◦lam	wing	wing			1.5.1.3		0			1603,768
+42152	1086	Tsangla (Motuo)	pu	pu	fur	fur			1.6.1		0			1228
+42153	1086	Tsangla (Motuo)	mi	mi	fur	fur			1.6.1		0			m
+42154	1086	Tsangla (Motuo)	kʰai◦dʐo	kʰai◦dʐo	feather	feather			1.6.1.1		0			
+42155	1086	Tsangla (Motuo)	tsʰiŋ◦naŋ	tsʰiŋ◦naŋ	claw	claw			1.5.10.4		0			
+42156	1086	Tsangla (Motuo)	gowa bairo	gowa bairo	cockscomb	cockscomb			1.2.2.1		0			
+42157	1086	Tsangla (Motuo)	bidʑoktaŋ	bidʑoktaŋ	hoof	hoof			1.5.4		0			
+42158	1086	Tsangla (Motuo)	wa◦roŋ	wa◦roŋ	horn	horn			1.2.2		0			m,814
+42159	1086	Tsangla (Motuo)	ɕam◦pi	ɕam◦pi	tail	tail			1.4.10.1		0			m,1361
+42160	1086	Tsangla (Motuo)	pʰan	pʰan	dewlap	dewlap			1.4.2		0			
+42161	1086	Tsangla (Motuo)	lus◦pu	lus◦pu	body	body			1.1.1		0			11,1902
+42162	1086	Tsangla (Motuo)	ro	ro	corpse	corpse			1.1.6.1		0			19
+42163	1086	Tsangla (Motuo)	ɕa◦raŋ	ɕa◦raŋ	head	head			1.2.1		0			m,392
+42164	1086	Tsangla (Motuo)	tʰot◦pa	tʰot◦pa	skull	skull			1.2.1.1		0			2002,s
+42165	1086	Tsangla (Motuo)	pa◦toŋ	pa◦toŋ	forehead	forehead			1.2.5.1		0			m,371
+42166	1086	Tsangla (Motuo)	tsʰam	tsʰam	hair	hair			1.2.3		0			366
+42167	1086	Tsangla (Motuo)	tsʰam	tsʰam	braid	braid			1.2.3.2		0			366
+42168	1086	Tsangla (Motuo)	ȵok◦taŋ	ȵok◦taŋ	brain	brain			1.2.4		0			243,1133
+42169	1086	Tsangla (Motuo)	ze◦ti◦waŋ	ze◦ti◦waŋ	face	face			1.2.5		0			2037,m,2046
+42170	1086	Tsangla (Motuo)	kʰur	kʰur	face	face			1.2.5		0			2032
+42171	1086	Tsangla (Motuo)	na◦tza	na◦tza	face	face			1.2.5		0			m,2034
+42172	1086	Tsangla (Motuo)	doŋ◦pa	doŋ◦pa	face	face			1.2.5		0			2031,s
+42173	1086	Tsangla (Motuo)	ȵer◦ma	ȵer◦ma	face	face			1.2.5		0			1192,s
+42174	1086	Tsangla (Motuo)	miŋ◦pu	miŋ◦pu	eyebrow	eyebrow			1.2.6.6		0			682,1228
+42175	1086	Tsangla (Motuo)	miŋ◦za	miŋ◦za	eye	eye			1.2.6		0			682,1012
+42176	1086	Tsangla (Motuo)	miŋ◦kʰu	miŋ◦kʰu	eye	eye			1.2.6		0			682,665
+42177	1086	Tsangla (Motuo)	miŋ◦kʰor	miŋ◦kʰor	eye	eye			1.2.6		0			682,665
+42178	1086	Tsangla (Motuo)	miŋ kʰoŋ◦taŋ	miŋ kʰoŋ◦taŋ	eye	eye			1.2.6		0			682,3557,m
+42179	1086	Tsangla (Motuo)	miŋ	miŋ	eye	eye			1.2.6		0			682
+42180	1086	Tsangla (Motuo)	miŋ◦ri	miŋ◦ri	tears	tears			1.2.6.7		0			682,1013
+42181	1086	Tsangla (Motuo)	na◦wuŋ	na◦wuŋ	nose	nose			1.2.8		0			803,806
+42182	1086	Tsangla (Motuo)	na◦wuŋ◦laŋ	na◦wuŋ◦laŋ	nose	nose			1.2.8		0			803,806,m
+42183	1086	Tsangla (Motuo)	na	na	ear	ear			1.2.7		0			811
+42184	1086	Tsangla (Motuo)	no◦waŋ	no◦waŋ	mouth	mouth			1.3.1		0			470,476
+42185	1086	Tsangla (Motuo)	ʔa◦pak◦taŋ	ʔa◦pak◦taŋ	mouth	mouth			1.3.1		0			p,476,822
+42186	1086	Tsangla (Motuo)	ɕa	ɕa	tooth	tooth			1.3.4		0			632
+42187	1086	Tsangla (Motuo)	tɕʰe◦wa	tɕʰe◦wa	tooth	tooth			1.3.4		0			635,632
+42188	1086	Tsangla (Motuo)	be◦ma ɕa	be◦ma ɕa	tooth	tooth			1.3.4		0			m,m,632
+42189	1086	Tsangla (Motuo)	le	le	tongue	tongue			1.3.3		0			621
+42190	1086	Tsangla (Motuo)	ro◦zi	ro◦zi	chin	chin			1.2.5.3		0			1265,2055
+42191	1086	Tsangla (Motuo)	maŋ◦ra	maŋ◦ra	beard	beard			1.2.5.5		0			1114,1265
+42192	1086	Tsangla (Motuo)	ŋaŋ	ŋaŋ	neck	neck			1.4.2		0			483
+42193	1086	Tsangla (Motuo)	ŋaŋ◦ziŋ	ŋaŋ◦ziŋ	neck	neck			1.4.2		0			483,255
+42194	1086	Tsangla (Motuo)	dor	dor	neck	neck			1.4.2		0			3407
+42195	1086	Tsangla (Motuo)	toŋ◦toŋ	toŋ◦toŋ	throat	throat			1.3.5		0			822,822
+42196	1086	Tsangla (Motuo)	pʰaŋ◦ma	pʰaŋ◦ma	shoulder	shoulder			1.4.3		0			1327,s
+42197	1086	Tsangla (Motuo)	tsʰik◦taŋ	tsʰiktaŋ	joint	joint			1.5.8		0			418,m
+42198	1086	Tsangla (Motuo)	gadaŋ	gadaŋ	hand	hand			1.5.1.1		0			720
+42199	1086	Tsangla (Motuo)	mu◦tʂu◦ma	mu◦tʂu◦ma	hand	hand			1.5.1.1		0			m,731,s
+42200	1086	Tsangla (Motuo)	ɕa tɕʰiŋ◦naŋ	ɕa tɕʰiŋ◦naŋ	hand	hand			1.5.1.1		0			735,709,m
+42201	1086	Tsangla (Motuo)	niŋ◦ziŋ	niŋziŋ	elbow	elbow			1.5.8.3		0			
+42202	1086	Tsangla (Motuo)	gadaŋ bruma	gadaŋ bruma	finger	finger			1.5.6		0			
+42203	1086	Tsangla (Motuo)	tʰeba	tʰeba	finger	finger			1.5.6		0			
+42204	1086	Tsangla (Motuo)	tʰektɕuŋ	tʰektɕuŋ	finger	finger			1.5.6		0			
+42205	1086	Tsangla (Motuo)	tsʰiŋ◦naŋ	tsʰiŋ◦naŋ	fingernail	fingernail			1.5.10.1		0			
+42206	1086	Tsangla (Motuo)	braŋ◦toŋ	braŋ◦toŋ	chest	chest			1.4.4.3		0			288,289
+42207	1086	Tsangla (Motuo)	tsʰiŋ	tsʰiŋ	back	back			1.4.8		0			223
+42208	1086	Tsangla (Motuo)	tsʰiŋ◦kʰaŋ duŋ◦ɕiŋ	tsʰiŋ◦kʰaŋ duŋ◦ɕiŋ	back	back			1.4.8		0			223,219,m,m
+42209	1086	Tsangla (Motuo)	pʰo◦laŋ	pʰo◦laŋ	belly	belly			1.4.7		0			164,m
+42210	1086	Tsangla (Motuo)	ɕa◦tɕʰi◦naŋ	ɕa◦tɕʰi◦naŋ	waist	waist			1.4.6		0			m,223,m
+42211	1086	Tsangla (Motuo)	bi◦ma	bi◦ma	kidney	kidney			1.7.5		0			m,s
+42212	1086	Tsangla (Motuo)	bi	bi	foot	foot			1.5.2		0			343
+42213	1086	Tsangla (Motuo)	tiŋpa	tiŋpa	foot	foot			1.5.2		0			
+42214	1086	Tsangla (Motuo)	lum	lum	leg	leg			1.5.7		0			
+42215	1086	Tsangla (Motuo)	laŋkaŋ	laŋkaŋ	leg	leg			1.5.7		0			
+42216	1086	Tsangla (Motuo)	bi◦pʰolaŋ	bipʰolaŋ	leg	leg			1.5.7		0			343,m
+42217	1086	Tsangla (Motuo)	gumziŋ	gumziŋ	knee	knee			1.5.8.4		0			
+42218	1086	Tsangla (Motuo)	dʐantsa	dʐantsa	knee	knee			1.5.8.4		0			
+42219	1086	Tsangla (Motuo)	moŋ◦naŋ	moŋ◦naŋ	skin	skin			1.6.5		0			54,m
+42220	1086	Tsangla (Motuo)	kʰaŋ	kʰaŋ	bone	bone			1.6.3		0			m
+42221	1086	Tsangla (Motuo)	kaŋ	kaŋ	bone	bone			1.6.3		0			m
+42222	1086	Tsangla (Motuo)	rin	rin	muscle / sinew	muscle / sinew			1.6.6.2		0			372
+42223	1086	Tsangla (Motuo)	sik◦pa	sik◦pa	muscle / sinew	muscle / sinew			1.6.6.2		0			537,s
+42224	1086	Tsangla (Motuo)	ji	ji	blood	blood			1.6.2		0			230
+42225	1086	Tsangla (Motuo)	kʰi◦po◦laŋ	kʰi◦po◦laŋ	stomach	stomach			1.7.6		0			m,2103,3460
+42226	1086	Tsangla (Motuo)	bi◦so◦pʰo	bi◦so◦pʰo	spleen	spleen			1.7.4		0			
+42227	1086	Tsangla (Motuo)	le	le	intestines	intestines			1.7.7		0			572
+42228	1086	Tsangla (Motuo)	tʰiŋ◦lom	tʰiŋ◦lom	heart	heart			1.7.1		0			1387,1381
+42229	1086	Tsangla (Motuo)	tɕʰiŋ◦pa	tɕʰiŋ◦pa	liver	liver			1.7.3		0			1390,s
+42230	1086	Tsangla (Motuo)	tʂʰis	tʂʰis	gall	gall			1.7.3.1		0			1390
+42231	1086	Tsangla (Motuo)	lo◦wa	lo◦wa	lung	lung			1.7.2		0			2121,s
+42232	1086	Tsangla (Motuo)	bum◦tɕʰe◦raŋ	bum◦tɕʰe◦raŋ	bladder	bladder			1.7.8		0			777,650,m
+42233	1086	Tsangla (Motuo)	wak◦tsa ɕum	wak◦tsa ɕum	placenta	placenta					0			m,2727,670
+42234	1086	Tsangla (Motuo)	ɕup◦taŋ	ɕup◦taŋ	sweat	sweat			1.8.1		0			
+42235	1086	Tsangla (Motuo)	ŋi◦naŋ	ŋi◦naŋ	snot	snot			1.8.2		0			m
+42236	1086	Tsangla (Motuo)	har◦kʰak◦taŋ	har◦kʰak◦taŋ	phlegm	phlegm			1.8.3		0			541,540,m
+42237	1086	Tsangla (Motuo)	tʰop◦taŋ	tʰoptaŋ	saliva	saliva			1.8.3		0			
+42238	1086	Tsangla (Motuo)	nu	nu	milk	milk					0			253
+42239	1086	Tsangla (Motuo)	kʰi	kʰi	shit	shit			1.8.5		0			572
+42240	1086	Tsangla (Motuo)	pʰi	pʰi	fart	fart			1.8.5.2		0			311
+42241	1086	Tsangla (Motuo)	tɕʰe◦raŋ	tɕʰe◦raŋ	urine	urine			1.8.4		0			650,1731
+42242	1086	Tsangla (Motuo)	so◦pʰu	so◦pʰu	ulcer, sore	ulcer, sore			1.8.6.2		0			m,1293
+42243	1086	Tsangla (Motuo)	maka	maka	wound	wound			1.8.6.2		0			
+42244	1086	Tsangla (Motuo)	merdi	merdi	scar	scar			1.6.5.3		0			
+42245	1086	Tsangla (Motuo)	ɕinaŋɕiŋ	ɕinaŋɕiŋ	mole	mole			2.2.7		0			
+42246	1086	Tsangla (Motuo)	mras	mras	spot	spot			6.2		0			
+42247	1086	Tsangla (Motuo)	ɕaŋru	ɕaŋru	wart	wart			1.6.5.3		0			
+42248	1086	Tsangla (Motuo)	runtʰisopʰo	runtʰisopʰo	tinea; ringworm	tinea; ringworm			1.6.5.3		0			
+42249	1086	Tsangla (Motuo)	ȵi	ȵi	pus	pus			1.8.6.1		0			1294
+42250	1086	Tsangla (Motuo)	lo◦neʔ	lo◦neʔ	tuberculosis	tuberculosis			1.5.3.2		0			2121,160
+42251	1086	Tsangla (Motuo)	brumneʔ	brumneʔ	smallpox	smallpox			5.3		0			
+42252	1086	Tsangla (Motuo)	tʰuŋmeʔ	tʰuŋmeʔ	cold (illness)	cold (illness)			7.1.2.3		0			
+42253	1086	Tsangla (Motuo)	luneʔ	luneʔ	leprosy	leprosy			5.3		0			
+42254	1086	Tsangla (Motuo)	nat◦pa	nat◦pa	sick person	sick person			1.1.5.1		0			160,s
+42255	1086	Tsangla (Motuo)	natoŋ	natoŋ	deaf person	deaf person			1.2.7.5		0			
+42256	1086	Tsangla (Motuo)	joŋmin	joŋmin	mute person	mute person			1.5.3.2		0			
+42257	1086	Tsangla (Motuo)	joŋba	joŋba	mute person	mute person			1.5.3.2		0			
+42258	1086	Tsangla (Motuo)	ȵospen	ȵospen	insane person	insane person			8.3.1.11.3		0			
+42259	1086	Tsangla (Motuo)	batsa	batsa	pockmarked person	pockmarked person			1.6.5.4		0			
+42260	1086	Tsangla (Motuo)	kʰadiʔ	kʰadiʔ	scarred person	scarred person			1.6.5.4		0			
+42261	1086	Tsangla (Motuo)	si	si	fat, oil	fat, oil			1.6.4		0			48
+42262	1086	Tsangla (Motuo)	ɕa	ɕa	meat, flesh	meat, flesh			1.1.1.1		0			34
+42263	1086	Tsangla (Motuo)	tɕʰu◦ra	tɕʰu◦ra	milk dregs	milk dregs					0			5539,m
+42264	1086	Tsangla (Motuo)	ʑaʔ	ʑaʔ	fertilizer	fertilizer			1.9		0			
+42265	1086	Tsangla (Motuo)	kauko	kauko	speech	speech			1.8.7		0			
+42266	1086	Tsangla (Motuo)	kan	kan	sound	sound			9.3		0			
+42267	1086	Tsangla (Motuo)	ɕoŋ	ɕoŋ	breath	breath			1.1.2.2		0			77
+42268	1086	Tsangla (Motuo)	tsʰe	tsʰe	life	life			1.1.2.1		0			1010
+42269	1086	Tsangla (Motuo)	ɬa	ɬa	spirit	spirit			5.8.1.1		0			
+42270	1086	Tsangla (Motuo)	don	don	ghost	ghost			4.2.12.2		0			
+42271	1086	Tsangla (Motuo)	dyʔ	dyʔ	devil	devil			4.2.12.2		0			
+42272	1086	Tsangla (Motuo)	joŋ	joŋ	shadow	shadow			3.2.10		0			
+42273	1086	Tsangla (Motuo)	got	got	look at	look at			1.2.6.11		0			m
+42274	1086	Tsangla (Motuo)	tʰoŋ	tʰoŋ	see, perceive	see, perceive			1.2.6.10		0			1402
+42275	1086	Tsangla (Motuo)	ȵan	ȵan	listen	listen			1.2.7.4		0			1410
+42276	1086	Tsangla (Motuo)	za	za	eat	eat			1.5.3.2		0			36
+42277	1086	Tsangla (Motuo)	kam	kam	eat	eat			1.5.3.2		0			1707
+42278	1086	Tsangla (Motuo)	ŋam	ŋam	eat	eat			1.5.3.2		0			m
+42279	1086	Tsangla (Motuo)	dʑam	dʑam	drink	drink					0			
+42280	1086	Tsangla (Motuo)	tsi◦rut	tsi◦rut	chew cud	chew cud			1.3.4		0			m,1760
+42281	1086	Tsangla (Motuo)	ben	ben	lick	lick			1.3.3.1		0			
+42282	1086	Tsangla (Motuo)	jum	jum	suck (milk)	suck (milk)			1.3.2.1		0			5541
+42283	1086	Tsangla (Motuo)	tɕup◦ʔa	tɕup◦ʔa	kiss	kiss			1.3.2.2		0			5541,m
+42284	1086	Tsangla (Motuo)	ȵø	ȵø	swallow	swallow			1.3.5.6		0			
+42285	1086	Tsangla (Motuo)	pʰros	pʰros	vomit	vomit			1.8.3.2		0			1145
+42286	1086	Tsangla (Motuo)	mu	mu	blow (with mouth)	blow (with mouth)			1.3.1.4		0			503
+42287	1086	Tsangla (Motuo)	jek	jek	speak	speak			8.5.10.1		0			
+42288	1086	Tsangla (Motuo)	dir	dir	shout	shout			8.5.4.1		0			
+42289	1086	Tsangla (Motuo)	nam	nam	smell (with nose)	smell (with nose)			1.2.8.5		0			1415
+42290	1086	Tsangla (Motuo)	reŋ	reŋ	stick out (tongue)	stick out (tongue)			3.1.2		0			
+42291	1086	Tsangla (Motuo)	jip	jip	sleep	sleep			1.1.4.1		0			127
+42292	1086	Tsangla (Motuo)	saŋ	saŋ	awaken (from drunken stupor)	awaken (from drunken stupor)			1.1.4		0			144
+42293	1086	Tsangla (Motuo)	ɕatɕot	ɕatɕot	castrate (caponize)	castrate (caponize)			1.9.2.3		0			m
+42294	1086	Tsangla (Motuo)	ŋar	ŋar	laugh	laugh			1.8.8.1		0			1142
+42295	1086	Tsangla (Motuo)	gep	gep	cry, weep	cry, weep			1.8.8.2		0			1103
+42296	1086	Tsangla (Motuo)	siŋ	siŋ	raise (children)	raise (children)			6.7.7		0			
+42297	1086	Tsangla (Motuo)	sik	sik	grow up	grow up			9.7.2		0			
+42298	1086	Tsangla (Motuo)	mar	mar	get sick	get sick			1.1.5		0			
+42299	1086	Tsangla (Motuo)	tsʰuŋpʰuŋ	tsʰuŋpʰuŋ	cough	cough			1.8.3.3		0			
+42300	1086	Tsangla (Motuo)	bisʔa	bisʔa	sneeze	sneeze			1.8.2.1		0			
+42301	1086	Tsangla (Motuo)	tɕi◦kuk	tɕi◦kuk	burp	burp			1.8.3		0			
+42302	1086	Tsangla (Motuo)	kʰa	kʰa	shake;shiver	shake;shiver			6.7.9		0			
+42303	1086	Tsangla (Motuo)	se⁵⁵	se⁵⁵	develop (sore, ulcer)	develop (sore, ulcer)			9.5		0			
+42304	1086	Tsangla (Motuo)	pʰok	pʰok	blind	blind	v.	v.	1.2.6.14.2		0			1239
+42305	1086	Tsangla (Motuo)	pʰuŋ	pʰuŋ	swell up	swell up			1.1.5.2		0			111
+42306	1086	Tsangla (Motuo)	son◦po	son◦po	alive	alive	adj.	adj.	1.1.2.1		0			77,s
+42307	1086	Tsangla (Motuo)	ɕi	ɕi	die	die			1.1.6		0			27
+42308	1086	Tsangla (Motuo)	tɕe◦raŋ wu	tɕeraŋ wu	urinate	urinate			1.5.3.2		0			650,1731,m
+42309	1086	Tsangla (Motuo)	kʰi wu	kʰi wu	defecate	defecate			1.8.5.4		0			572,m
+42310	1086	Tsangla (Motuo)	pʰen	pʰen	fly	fly			2.2.6		0			
+42311	1086	Tsangla (Motuo)	dʑak◦pa	dʑak◦pa	fat (of humans)	fat (of humans)			1.6.4		0			40,s
+42312	1086	Tsangla (Motuo)	tɕaŋ◦pu	tɕaŋ◦pu	lean (of humans)	lean (of humans)			1.1.1		0			1807,1902
+42313	1086	Tsangla (Motuo)	kʰa	kʰa	full, satiated	full, satiated			1.1.3.2		0			115
+42314	1086	Tsangla (Motuo)	tsʰim	tsʰim	sated, too full	sated, too full			1.1.3.2		0			136
+42315	1086	Tsangla (Motuo)	bi◦naŋ◦kʰu	bi◦naŋ◦kʰu	hungry	hungry			1.1.3		0			m,104,m
+42316	1086	Tsangla (Motuo)	ri◦naŋ◦sop	ri◦naŋ◦sop	thirsty	thirsty			1.1.3.1		0			1013,104,m
+42317	1086	Tsangla (Motuo)	bek	bek	tired	tired			9.6.2.2		0			
+42318	1086	Tsangla (Motuo)	za	za	itch	itch			1.6.5.5		0			1457
+42319	1086	Tsangla (Motuo)	sin	sin	numb	numb			1.5.11		0			
+42320	1086	Tsangla (Motuo)	saŋ	saŋ	dry (of throat)	dry (of throat)			6.6		0			
+42321	1086	Tsangla (Motuo)	ŋam	ŋam	painful	painful			1.1.5.1		0			
+42322	1086	Tsangla (Motuo)	roŋnaŋ	roŋnaŋ	fathom, cord	fathom, cord			9.8		0			x
+42323	1086	Tsangla (Motuo)	kʰaŋ	kʰaŋ	cubit	cubit			1.5.9.3		0			
+42324	1086	Tsangla (Motuo)	mi	mi	span (hand)	span (hand)			1.5.9.4		0			
+42325	1086	Tsangla (Motuo)	ja◦naŋ	ja◦naŋ	span (hand)	span (hand)			1.5.9.4		0			696,m
+441439	366	Bokar Lhoba	a◦ŋaː	a◦ŋaː	child	child			1.5.3.2		0			p,90

@@ -1,116 +1,116 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-129005	661	Idu	dʑo⁵⁵tiaŋ³⁵	dʑo⁵⁵tiaŋ³⁵	body	body		1.1.1	1.1	0		4,6
-129006	661	Idu	dʑo⁵⁵tiaŋ³⁵e⁵⁵tɕa⁵⁵ȵu⁵⁵	dʑo⁵⁵tiaŋ³⁵e⁵⁵tɕa⁵⁵ȵu⁵⁵	side (right)	side (right)		1.4.5	1.2	0		4,6,m,m,m
-129007	661	Idu	dʑo⁵⁵tiaŋ³⁵i⁵⁵tɕi⁵⁵ȵu⁵⁵	dʑo⁵⁵tiaŋ³⁵i⁵⁵tɕi⁵⁵ȵu⁵⁵	side (left)	side (left)		1.4.5	1.3	0		4,6,m,m,m
-129008	661	Idu	plɯn⁵³	plɯn⁵³	back	back		1.4.8	1.4	0	HIDE	DUPE IN SOURCE
-129009	661	Idu	e⁵⁵tʂʰo⁵³ku³⁵	e⁵⁵tʂʰo⁵³ku³⁵	bosom	bosom		1.4.4.2	1.9	0		m,m,2326
-129010	661	Idu	jaŋ⁵⁵bɹeŋ⁵⁵	jaŋ⁵⁵bɹeŋ⁵⁵	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		m,37
-129011	661	Idu	sɯŋ⁵⁵	sɯŋ⁵⁵	alive / be living	alive  /  be living		1.1.2.1	1.12	0		71
-129012	661	Idu	ɕi⁵⁵	ɕi⁵⁵	die / be dead	die  /  be dead		1.1.6	1.13	0		27
-129013	661	Idu	dʑi⁵⁵	dʑi⁵⁵	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		128
-129014	661	Idu	tʰoŋ³⁵	tʰoŋ³⁵	awake / be awake	awake  /  be awake		1.1.4	1.17	0		1836
-129015	661	Idu	i⁵⁵mu⁵⁵	i⁵⁵mu⁵⁵	dream	dream	v	1.1.4.2	1.18	0		127,126
-129016	661	Idu	e⁵⁵ko⁵⁵ɹa⁵⁵	e⁵⁵ko⁵⁵ɹa⁵⁵	head	head		1.2.1	2.1	0		m,386,m
-129017	661	Idu	kə³³ɹue³³ɣei³³	kə³³ɹue³³ɣei³³	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		
-129018	661	Idu	tʰoŋ⁵⁵bɹa⁵⁵	tʰoŋ⁵⁵bɹa⁵⁵	hair of head	hair of head		1.2.3	2.7	0	HIDE	DUPE IN SOURCE
-129019	661	Idu	ɹu⁵⁵	ɹu⁵⁵	horn (of animal)	horn (of animal)		1.2.2	2.10	0		814
-129020	661	Idu	e⁵⁵lio⁵⁵ȵa⁵⁵	e⁵⁵lio⁵⁵ȵa⁵⁵	face	face		1.2.5	3.1	0		p
-129021	661	Idu	ma³¹wa³³	ma³¹wa³³	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		
-129022	661	Idu	e⁵⁵lo⁵⁵bɹa⁵⁵	e⁵⁵lo⁵⁵bɹa⁵⁵	eye	eye		1.2.6	3.4	0		p,1427,m
-129023	661	Idu	bɯ³¹miu⁵⁵bu⁵³	bɯ³¹miu⁵⁵bu⁵³	eyebrow	eyebrow		1.2.6.6	3.4.3	0	D0	m,682,1228
-129024	661	Idu	ʔi⁵⁵bɹi⁵⁵bɹa⁵⁵	ʔi⁵⁵bɹi⁵⁵bɹa⁵⁵	tears	tears		1.2.6.7	3.4.6	0		p,187,m
-129025	661	Idu	a⁵⁵◦tɕa⁵⁵	a⁵⁵◦tɕa⁵⁵	cry / weep	cry  /  weep	v	1.8.8.2	3.4.8	0		p,1103
-129026	661	Idu	a⁵⁵tʰu⁵³	a⁵⁵tʰu⁵³	see / look	see  /  look	v	1.2.6.10	3.4.9	0		p,1402
-129027	661	Idu	e⁵⁵loŋ⁵⁵ma³¹	e⁵⁵loŋ⁵⁵ma³¹	blind	blind		1.2.6.14.2	3.4.10	0		p,1427,m
-129028	661	Idu	e⁵⁵ȵaŋ⁵⁵bo⁵⁵	e⁵⁵ȵaŋ⁵⁵bo⁵⁵	nose	nose		1.2.8	3.5	0		p,803,806
-129029	661	Idu	a³¹nde⁵⁵kʰɹe⁵⁵	a³¹nde⁵⁵kʰɹe⁵⁵	liquid mucus	liquid mucus		3.2.3	3.5.6	0		p,m,540
-129030	661	Idu	nu⁵⁵	nu⁵⁵	smell / sniff	smell  /  sniff	v	1.2.8.5	3.5.9	0		1415
-129031	661	Idu	a³¹kɹu⁵⁵na⁵⁵	a³¹kɹu⁵⁵na⁵⁵	ear	ear		1.2.7	3.6	0		p,1221,811
-129032	661	Idu	a⁵⁵hɹoŋ⁵⁵	a⁵⁵hɹoŋ⁵⁵	hear	hear	v	1.2.7.4	3.6.7	0		
-129033	661	Idu	ka³¹pa⁵⁵	ka³¹pa⁵⁵	deaf	deaf		1.2.7.5	3.6.8	0		m,1409
-129034	661	Idu	e⁵⁵ko⁵⁵be⁵³	e⁵⁵ko⁵⁵be⁵³	mouth	mouth		1.3.1	3.7	0	D0	p,468,2096
-129035	661	Idu	kʰɯ³¹lai³⁵	kʰɯ³¹lai³⁵	saliva	saliva		1.8.3	3.7.5	0		m,607
-129036	661	Idu	ha⁵³	ha⁵³	eat	eat	v	1.5.3.2	3.7.6	0		3414
-129037	661	Idu	tioŋ⁵⁵	tioŋ⁵⁵	drink	drink	v		3.7.7	0		502
-129038	661	Idu	ɕa³⁵pɹa⁵⁵	ɕa³⁵pɹa⁵⁵	thirsty	thirsty	be	1.1.3.1	3.7.8	0		
-129039	661	Idu	a³¹ki⁵⁵ɕi⁵⁵	a³¹ki⁵⁵ɕi⁵⁵	hungry	hungry	be	1.1.3	3.7.9	0		p,106,101
-129040	661	Idu	ha³¹diaŋ⁵⁵	ha³¹diaŋ⁵⁵	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		m,132
-129041	661	Idu	me⁵⁵	me⁵⁵	spit	spit	v	1.8.3	3.7.11	0		1782
-129042	661	Idu	me⁵⁵	me⁵⁵	vomit	vomit	v	1.8.3.2	3.7.13	0		1782
-129043	661	Idu	tʰu⁵⁵gɹe⁵⁵	tʰu⁵⁵gɹe⁵⁵	hold in mouth	hold in mouth	v	1.3.4.4	3.7.14	0		1799,m
-129044	661	Idu	e⁵⁵li⁵⁵na⁵⁵	e⁵⁵li⁵⁵na⁵⁵	tongue	tongue		1.3.3	3.8	0		p,621,m
-129045	661	Idu	a⁵⁵hu⁵⁵	a⁵⁵hu⁵⁵	speak	speak	v	8.5.10.1	3.8.1	0		
-129046	661	Idu	ka⁵⁵pa⁵⁵	ka⁵⁵pa⁵⁵	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		1752,s
-129047	661	Idu	ha⁵⁵mɹe⁵⁵	ha⁵⁵mɹe⁵⁵	lick	lick		1.3.3.1	3.8.4	0		m,629
-129048	661	Idu	tia³⁵ndze⁵⁵	tia³⁵ndze⁵⁵	lip	lip		1.3.2	3.9	0		m,596
-129049	661	Idu	ma⁵⁵ɹa⁵⁵	ma⁵⁵ɹa⁵⁵	smile	smile	v	1.8.8.1	3.9.4	0		p,1108
-129050	661	Idu	tia³⁵◦pɹa³⁵	tia³⁵◦pɹa³⁵	tooth	tooth		1.3.4	3.10	0		3316,m
-129051	661	Idu	tʰu⁵⁵	tʰu⁵⁵	bite	bite	v	1.3.4.4	3.10.7	0		1799
-129052	661	Idu	ha⁵⁵mu⁵⁵	ha⁵⁵mu⁵⁵	chew	chew	v	1.3.4	3.10.8	0		m,m
-129053	661	Idu	e⁵⁵tia⁵⁵pu⁵⁵	e⁵⁵tia⁵⁵pu⁵⁵	chin	chin		1.2.5.3	3.12	0		p,286,m
-129054	661	Idu	ɕeŋ⁵⁵bɹa⁵⁵	ɕeŋ⁵⁵bɹa⁵⁵	neck	neck		1.4.2	4.1	0		498,484
-129055	661	Idu	ɕi⁵⁵ɦoŋ⁵⁵pʰoŋ⁵⁵	ɕi⁵⁵ɦoŋ⁵⁵pʰoŋ⁵⁵	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		m,3369,3404
-129056	661	Idu	bɹi⁵⁵	bɹi⁵⁵	swallow	swallow	v	1.3.5.6	4.2.3	0		2130
-129057	661	Idu	e⁵⁵tʂʰo⁵³ku³⁵	e⁵⁵tʂʰo⁵³ku³⁵	chest	chest		1.4.4.3	5.1	0		p,299,560
-129058	661	Idu	e⁵⁵li⁵⁵pa⁵⁵	e⁵⁵li⁵⁵pa⁵⁵	shoulder	shoulder		1.4.3	5.3	0		p,563,1327
-129059	661	Idu	ȵo⁵⁵bi³⁵	ȵo⁵⁵bi³⁵	breast	breast		1.4.4.3	5.4	0	D0	253,276
-129060	661	Idu	ȵo⁵⁵bɹa⁵⁵	ȵo⁵⁵bɹa⁵⁵	milk	milk			5.4.3	0		253,m
-129061	661	Idu	pɹoŋ³⁵	pɹoŋ³⁵	nurse / suckle	nurse  /  suckle	v	4.2.1.5	5.4.6	0		3453
-129062	661	Idu	plɯn⁵³	plɯn⁵³	back	back		1.4.8	5.5	0	D1	209
-129063	661	Idu	a³¹tɕʰu⁵⁵be⁵⁵	a³¹tɕʰu⁵⁵be⁵⁵	waist	waist		1.4.6	5.6	0		p,215,1361
-129064	661	Idu	kʰɹa³¹poŋ³⁵	kʰɹa³¹poŋ³⁵	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)		1.4.7	5.7	0		m,2111
-129065	661	Idu	e⁵⁵pi⁵⁵pu⁵⁵	e⁵⁵pi⁵⁵pu⁵⁵	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		p,400,404
-129066	661	Idu	e⁵⁵pi⁵⁵pu⁵⁵	e⁵⁵pi⁵⁵pu⁵⁵	buttocks	buttocks		1.4.10	5.10.1	0	D0	p,400,404
-129067	661	Idu	lɯ³¹mum⁵³	lɯ³¹mum⁵³	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		m,411
-129068	661	Idu	a⁵⁵pɹu⁵³	a⁵⁵pɹu⁵³	arm	arm		1.5.1.2	6.1	0		p,236
-129069	661	Idu	e⁵⁵ka³¹ku⁵³	e⁵⁵ka³¹ku⁵³	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
-129070	661	Idu	dzu⁵⁵ɹu⁵⁵	dzu⁵⁵ɹu⁵⁵	tickle	tickle		1.5.1.2.4	6.1.1.1	0		
-129071	661	Idu	la⁵⁵nu⁵⁵nbo³⁵	la⁵⁵nu⁵⁵nbo³⁵	elbow	elbow		1.5.8.3	6.1.4	0		695,m,m
-129072	661	Idu	ka³¹tio⁵³	ka³¹tio⁵³	hand	hand		1.5.1.1	6.1.7	0		p,699
-129073	661	Idu	bu⁵⁵tsu⁵⁵	bu⁵⁵tsu⁵⁵	fist	fist		1.5.1.1.1	6.1.7.3	0		
-129074	661	Idu	ka³¹tio⁵³e⁵⁵tɕa⁵⁵ȵu⁵⁵	ka³¹tio⁵³e⁵⁵tɕa⁵⁵ȵu⁵⁵	right hand	right hand		1.5.3.2	6.1.7.4	0		p,699,m,m,m
-129075	661	Idu	ka³¹tio⁵³i⁵⁵tɕi⁵⁵ȵu⁵⁵	ka³¹tio⁵³i⁵⁵tɕi⁵⁵ȵu⁵⁵	left hand	left hand		1.5.3.2	6.1.7.5	0		p,699,m,m,m
-129076	661	Idu	e⁵⁵loŋ⁵⁵kʰɹoŋ³⁵	e⁵⁵loŋ⁵⁵kʰɹoŋ³⁵	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		p,1435,1435
-129077	661	Idu	ʔi⁵⁵ɕu⁵⁵	ʔi⁵⁵ɕu⁵⁵	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
-129078	661	Idu	a⁵⁵nu⁵⁵pu⁵³	a⁵⁵nu⁵⁵pu⁵³	leg	leg		1.5.7	6.2	0		
-129079	661	Idu	ko⁵⁵pɹɑ⁵⁵	ko⁵⁵pɹɑ⁵⁵	shin	shin		1.5.7.2	6.2.3	0		
-129080	661	Idu	a⁵⁵ge⁵⁵ɕa⁵³	a⁵⁵ge⁵⁵ɕa⁵³	foot	foot		1.5.2	6.2.6	0		p,338,m
-129081	661	Idu	kɹu⁵³	kɹu⁵³	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		5622
-129082	661	Idu	i⁵⁵kʰɹi⁵⁵be⁵⁵	i⁵⁵kʰɹi⁵⁵be⁵⁵	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-129083	661	Idu	ka³¹tio⁵³su⁵⁵	ka³¹tio⁵³su⁵⁵	finger	finger		1.5.6	7.1	0		
-129084	661	Idu	a⁵⁵huŋ⁵⁵koŋ³⁵	a⁵⁵huŋ⁵⁵koŋ³⁵	nail	nail		1.5.10	7.4	0		p,m,510
-129085	661	Idu	e⁵⁵tsu⁵³	e⁵⁵tsu⁵³	pincers (e.g. of crab)	pincers (e.g. of crab)		1.5.10.4	7.4.5	0		
-129086	661	Idu	tʰoŋ⁵⁵bɹa⁵⁵	tʰoŋ⁵⁵bɹa⁵⁵	hair of head	hair of head		1.2.3	8.1.1	0	D2	371,s
-129087	661	Idu	ʔi⁵⁵ɦuŋ³¹mu⁵⁵	ʔi⁵⁵ɦuŋ³¹mu⁵⁵	beard	beard		1.2.5.5	8.1.2.1	0	D0	p,m,363
-129088	661	Idu	mu⁵⁵bɹa⁵⁵	mu⁵⁵bɹa⁵⁵	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		363,2187
-129089	661	Idu	ma³¹bu⁵³	ma³¹bu⁵³	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		1431,1228
-129090	661	Idu	ko⁵⁵pɹa⁵⁵	ko⁵⁵pɹa⁵⁵	skin	skin		1.6.5	8.2	0		589,792
-129091	661	Idu	te⁵⁵tɕʰi⁵⁵	te⁵⁵tɕʰi⁵⁵	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		m,298
-129092	661	Idu	pɹoŋ⁵⁵	pɹoŋ⁵⁵	cyst	cyst		1.6.5.3	8.2.3.5	0		
-129093	661	Idu	a³¹mi⁵⁵so⁵⁵	a³¹mi⁵⁵so⁵⁵	fat	fat		1.6.4	8.3	0		p,1442,60
-129094	661	Idu	e⁵⁵sa⁵⁵	e⁵⁵sa⁵⁵	sinew / tendon (muscle to bone	sinew  /  tendon (muscle to bone		1.6.6.1	8.5	0		p,530
-129095	661	Idu	i⁵⁵ɹu⁵⁵|	i⁵⁵ɹu⁵⁵|	blood	blood		1.6.2	8.7	0		230
-129096	661	Idu	bɯ³¹po⁵³	bɯ³¹po⁵³	bleed	bleed	v	1.6.2	8.7.2	0		m,m
-129097	661	Idu	jaŋ⁵⁵bɹeŋ⁵⁵	jaŋ⁵⁵bɹeŋ⁵⁵	muscle	muscle		1.6.6.2	8.8	0		536,m
-129098	661	Idu	a⁵⁵po⁵⁵	a⁵⁵po⁵⁵	lung	lung		1.7.2	9.2	0		p,m
-129099	661	Idu	mu⁵⁵	mu⁵⁵	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		503
-129100	661	Idu	a³¹tiu⁵⁵kʰɹi⁵⁵	a³¹tiu⁵⁵kʰɹi⁵⁵	phlegm	phlegm		1.8.3	9.2.5	0		p,603,540
-129101	661	Idu	o⁵⁵po⁵⁵bɹa³⁵	o⁵⁵po⁵⁵bɹa³⁵	heart	heart		1.7.1	9.3	0		p,m,m
-129102	661	Idu	huŋ⁵³	huŋ⁵³	liver	liver		1.7.3	9.5	0		1390
-129103	661	Idu	i⁵⁵mu⁵⁵	i⁵⁵mu⁵⁵	gall bladder	gall bladder		1.7.3	9.5.2	0		
-129104	661	Idu	a³¹tɕʰu⁵⁵be⁵⁵	a³¹tɕʰu⁵⁵be⁵⁵	kidney	kidney		1.7.5	9.6	0		m,m,m
-129105	661	Idu	a³¹te⁵⁵poŋ⁵⁵	a³¹te⁵⁵poŋ⁵⁵	urinary bladder	urinary bladder		1.7.8	9.7	0		
-129106	661	Idu	tʰɯi⁵⁵tɕiŋ⁵⁵	tʰɯi⁵⁵tɕiŋ⁵⁵	urine	urine		1.8.4	9.7.1	0		m,650
-129107	661	Idu	jaŋ⁵⁵poŋ⁵⁵	jaŋ⁵⁵poŋ⁵⁵	stomach	stomach		1.7.6	9.10	0		2119,2111
-129108	661	Idu	kɹu⁵⁵	kɹu⁵⁵	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		572
-129109	661	Idu	kʰɹi⁵⁵	kʰɹi⁵⁵	feces / shit	feces  /  shit		1.8.5	9.12.1	0		572
-129110	661	Idu	a⁵¹me⁵⁵	a⁵¹me⁵⁵	castrate	castrate	v	1.9.2.3	10.3.9	0		p,475
-129111	661	Idu	bɹa⁵⁵	bɹa⁵⁵	birth, give	birth, give		1.1.2	10.4.15	0		70
-129112	661	Idu	tɕa⁵⁵	tɕa⁵⁵	egg (of animal)	egg (of animal)			10.4.16	0		
-129113	661	Idu	ma⁵⁵ɹa⁵⁵	ma⁵⁵ɹa⁵⁵	laugh	laugh		1.8.8.1	11.9	0		p,1108
-129114	661	Idu	a³¹ŋgoŋ³⁵ha⁵⁵	a³¹ŋgoŋ³⁵ha⁵⁵	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		
-129115	661	Idu	e⁵⁵mbɹeŋ³⁵ha⁵⁵	e⁵⁵mbɹeŋ³⁵ha⁵⁵	sick / be ill / hurt	sick  /  be ill  /  hurt	be	1.1.5.1	12.2	0		
-129116	661	Idu	pɹoŋ⁵⁵	pɹoŋ⁵⁵	swell /  be swollen	swell  /   be swollen	v.	1.1.5.2	12.4	0		111
-129117	661	Idu	bu⁵⁵	bu⁵⁵	pus	pus		1.8.6.1	12.5	0		1293
-129118	661	Idu	e⁵⁵tʰoŋ⁵⁵ge⁵⁵	e⁵⁵tʰoŋ⁵⁵ge⁵⁵	cubit (elbow to fingers)	cubit (elbow to fingers)		1.5.9.3	13.3	0		m,710,m
-129119	661	Idu	e⁵⁵liaŋ⁵⁵ge⁵⁵	e⁵⁵liaŋ⁵⁵ge⁵⁵	cord / fathom (outstretched ar	cord  /  fathom (outstretched ar		1.5.9.5	13.4	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+129005	661	Idu	dʑo⁵⁵tiaŋ³⁵	dʑo⁵⁵tiaŋ³⁵	body	body			1.1.1	1.1	0			4,6
+129006	661	Idu	dʑo⁵⁵tiaŋ³⁵e⁵⁵tɕa⁵⁵ȵu⁵⁵	dʑo⁵⁵tiaŋ³⁵e⁵⁵tɕa⁵⁵ȵu⁵⁵	side (right)	side (right)			1.4.5	1.2	0			4,6,m,m,m
+129007	661	Idu	dʑo⁵⁵tiaŋ³⁵i⁵⁵tɕi⁵⁵ȵu⁵⁵	dʑo⁵⁵tiaŋ³⁵i⁵⁵tɕi⁵⁵ȵu⁵⁵	side (left)	side (left)			1.4.5	1.3	0			4,6,m,m,m
+129008	661	Idu	plɯn⁵³	plɯn⁵³	back	back			1.4.8	1.4	0	jbl5	HIDE	DUPE IN SOURCE
+129009	661	Idu	e⁵⁵tʂʰo⁵³ku³⁵	e⁵⁵tʂʰo⁵³ku³⁵	bosom	bosom			1.4.4.2	1.9	0			m,m,2326
+129010	661	Idu	jaŋ⁵⁵bɹeŋ⁵⁵	jaŋ⁵⁵bɹeŋ⁵⁵	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		m,37
+129011	661	Idu	sɯŋ⁵⁵	sɯŋ⁵⁵	alive / be living	alive  /  be living			1.1.2.1	1.12	0	jbl3		71
+129012	661	Idu	ɕi⁵⁵	ɕi⁵⁵	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		27
+129013	661	Idu	dʑi⁵⁵	dʑi⁵⁵	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		128
+129014	661	Idu	tʰoŋ³⁵	tʰoŋ³⁵	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		1836
+129015	661	Idu	i⁵⁵mu⁵⁵	i⁵⁵mu⁵⁵	dream	dream	v	v	1.1.4.2	1.18	0			127,126
+129016	661	Idu	e⁵⁵ko⁵⁵ɹa⁵⁵	e⁵⁵ko⁵⁵ɹa⁵⁵	head	head			1.2.1	2.1	0			m,386,m
+129017	661	Idu	kə³³ɹue³³ɣei³³	kə³³ɹue³³ɣei³³	top of head / crown / pate	top of head  /  crown  /  pate			1.2.1.2	2.2	0	jbl3		
+129018	661	Idu	tʰoŋ⁵⁵bɹa⁵⁵	tʰoŋ⁵⁵bɹa⁵⁵	hair of head	hair of head			1.2.3	2.7	0	jbl5	HIDE	DUPE IN SOURCE
+129019	661	Idu	ɹu⁵⁵	ɹu⁵⁵	horn (of animal)	horn (of animal)			1.2.2	2.10	0			814
+129020	661	Idu	e⁵⁵lio⁵⁵ȵa⁵⁵	e⁵⁵lio⁵⁵ȵa⁵⁵	face	face			1.2.5	3.1	0			p
+129021	661	Idu	ma³¹wa³³	ma³¹wa³³	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		
+129022	661	Idu	e⁵⁵lo⁵⁵bɹa⁵⁵	e⁵⁵lo⁵⁵bɹa⁵⁵	eye	eye			1.2.6	3.4	0			p,1427,m
+129023	661	Idu	bɯ³¹miu⁵⁵bu⁵³	bɯ³¹miu⁵⁵bu⁵³	eyebrow	eyebrow			1.2.6.6	3.4.3	0		D0	m,682,1228
+129024	661	Idu	ʔi⁵⁵bɹi⁵⁵bɹa⁵⁵	ʔi⁵⁵bɹi⁵⁵bɹa⁵⁵	tears	tears			1.2.6.7	3.4.6	0			p,187,m
+129025	661	Idu	a⁵⁵◦tɕa⁵⁵	a⁵⁵◦tɕa⁵⁵	cry / weep	cry  /  weep	v	v	1.8.8.2	3.4.8	0	jbl3		p,1103
+129026	661	Idu	a⁵⁵tʰu⁵³	a⁵⁵tʰu⁵³	see / look	see  /  look	v	v	1.2.6.10	3.4.9	0	jbl3		p,1402
+129027	661	Idu	e⁵⁵loŋ⁵⁵ma³¹	e⁵⁵loŋ⁵⁵ma³¹	blind	blind			1.2.6.14.2	3.4.10	0			p,1427,m
+129028	661	Idu	e⁵⁵ȵaŋ⁵⁵bo⁵⁵	e⁵⁵ȵaŋ⁵⁵bo⁵⁵	nose	nose			1.2.8	3.5	0			p,803,806
+129029	661	Idu	a³¹nde⁵⁵kʰɹe⁵⁵	a³¹nde⁵⁵kʰɹe⁵⁵	liquid mucus	liquid mucus			3.2.3	3.5.6	0			p,m,540
+129030	661	Idu	nu⁵⁵	nu⁵⁵	smell / sniff	smell  /  sniff	v	v	1.2.8.5	3.5.9	0	jbl3		1415
+129031	661	Idu	a³¹kɹu⁵⁵na⁵⁵	a³¹kɹu⁵⁵na⁵⁵	ear	ear			1.2.7	3.6	0			p,1221,811
+129032	661	Idu	a⁵⁵hɹoŋ⁵⁵	a⁵⁵hɹoŋ⁵⁵	hear	hear	v	v	1.2.7.4	3.6.7	0			
+129033	661	Idu	ka³¹pa⁵⁵	ka³¹pa⁵⁵	deaf	deaf			1.2.7.5	3.6.8	0			m,1409
+129034	661	Idu	e⁵⁵ko⁵⁵be⁵³	e⁵⁵ko⁵⁵be⁵³	mouth	mouth			1.3.1	3.7	0		D0	p,468,2096
+129035	661	Idu	kʰɯ³¹lai³⁵	kʰɯ³¹lai³⁵	saliva	saliva			1.8.3	3.7.5	0			m,607
+129036	661	Idu	ha⁵³	ha⁵³	eat	eat	v	v	1.5.3.2	3.7.6	0			3414
+129037	661	Idu	tioŋ⁵⁵	tioŋ⁵⁵	drink	drink	v	v		3.7.7	0			502
+129038	661	Idu	ɕa³⁵pɹa⁵⁵	ɕa³⁵pɹa⁵⁵	thirsty	thirsty	be	be	1.1.3.1	3.7.8	0			
+129039	661	Idu	a³¹ki⁵⁵ɕi⁵⁵	a³¹ki⁵⁵ɕi⁵⁵	hungry	hungry	be	be	1.1.3	3.7.9	0			p,106,101
+129040	661	Idu	ha³¹diaŋ⁵⁵	ha³¹diaŋ⁵⁵	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		m,132
+129041	661	Idu	me⁵⁵	me⁵⁵	spit	spit	v	v	1.8.3	3.7.11	0			1782
+129042	661	Idu	me⁵⁵	me⁵⁵	vomit	vomit	v	v	1.8.3.2	3.7.13	0			1782
+129043	661	Idu	tʰu⁵⁵gɹe⁵⁵	tʰu⁵⁵gɹe⁵⁵	hold in mouth	hold in mouth	v	v	1.3.4.4	3.7.14	0			1799,m
+129044	661	Idu	e⁵⁵li⁵⁵na⁵⁵	e⁵⁵li⁵⁵na⁵⁵	tongue	tongue			1.3.3	3.8	0			p,621,m
+129045	661	Idu	a⁵⁵hu⁵⁵	a⁵⁵hu⁵⁵	speak	speak	v	v	8.5.10.1	3.8.1	0			
+129046	661	Idu	ka⁵⁵pa⁵⁵	ka⁵⁵pa⁵⁵	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		1752,s
+129047	661	Idu	ha⁵⁵mɹe⁵⁵	ha⁵⁵mɹe⁵⁵	lick	lick			1.3.3.1	3.8.4	0			m,629
+129048	661	Idu	tia³⁵ndze⁵⁵	tia³⁵ndze⁵⁵	lip	lip			1.3.2	3.9	0			m,596
+129049	661	Idu	ma⁵⁵ɹa⁵⁵	ma⁵⁵ɹa⁵⁵	smile	smile	v	v	1.8.8.1	3.9.4	0			p,1108
+129050	661	Idu	tia³⁵◦pɹa³⁵	tia³⁵◦pɹa³⁵	tooth	tooth			1.3.4	3.10	0			3316,m
+129051	661	Idu	tʰu⁵⁵	tʰu⁵⁵	bite	bite	v	v	1.3.4.4	3.10.7	0			1799
+129052	661	Idu	ha⁵⁵mu⁵⁵	ha⁵⁵mu⁵⁵	chew	chew	v	v	1.3.4	3.10.8	0			m,m
+129053	661	Idu	e⁵⁵tia⁵⁵pu⁵⁵	e⁵⁵tia⁵⁵pu⁵⁵	chin	chin			1.2.5.3	3.12	0			p,286,m
+129054	661	Idu	ɕeŋ⁵⁵bɹa⁵⁵	ɕeŋ⁵⁵bɹa⁵⁵	neck	neck			1.4.2	4.1	0			498,484
+129055	661	Idu	ɕi⁵⁵ɦoŋ⁵⁵pʰoŋ⁵⁵	ɕi⁵⁵ɦoŋ⁵⁵pʰoŋ⁵⁵	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		m,3369,3404
+129056	661	Idu	bɹi⁵⁵	bɹi⁵⁵	swallow	swallow	v	v	1.3.5.6	4.2.3	0			2130
+129057	661	Idu	e⁵⁵tʂʰo⁵³ku³⁵	e⁵⁵tʂʰo⁵³ku³⁵	chest	chest			1.4.4.3	5.1	0			p,299,560
+129058	661	Idu	e⁵⁵li⁵⁵pa⁵⁵	e⁵⁵li⁵⁵pa⁵⁵	shoulder	shoulder			1.4.3	5.3	0			p,563,1327
+129059	661	Idu	ȵo⁵⁵bi³⁵	ȵo⁵⁵bi³⁵	breast	breast			1.4.4.3	5.4	0		D0	253,276
+129060	661	Idu	ȵo⁵⁵bɹa⁵⁵	ȵo⁵⁵bɹa⁵⁵	milk	milk				5.4.3	0			253,m
+129061	661	Idu	pɹoŋ³⁵	pɹoŋ³⁵	nurse / suckle	nurse  /  suckle	v	v	4.2.1.5	5.4.6	0	jbl3		3453
+129062	661	Idu	plɯn⁵³	plɯn⁵³	back	back			1.4.8	5.5	0		D1	209
+129063	661	Idu	a³¹tɕʰu⁵⁵be⁵⁵	a³¹tɕʰu⁵⁵be⁵⁵	waist	waist			1.4.6	5.6	0			p,215,1361
+129064	661	Idu	kʰɹa³¹poŋ³⁵	kʰɹa³¹poŋ³⁵	belly / abdomen (outer bulge)	belly  /  abdomen (outer bulge)			1.4.7	5.7	0	jbl3		m,2111
+129065	661	Idu	e⁵⁵pi⁵⁵pu⁵⁵	e⁵⁵pi⁵⁵pu⁵⁵	haunches (of animal)	haunches (of animal)			1.4.9.2	5.8.3	0			p,400,404
+129066	661	Idu	e⁵⁵pi⁵⁵pu⁵⁵	e⁵⁵pi⁵⁵pu⁵⁵	buttocks	buttocks			1.4.10	5.10.1	0		D0	p,400,404
+129067	661	Idu	lɯ³¹mum⁵³	lɯ³¹mum⁵³	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			m,411
+129068	661	Idu	a⁵⁵pɹu⁵³	a⁵⁵pɹu⁵³	arm	arm			1.5.1.2	6.1	0			p,236
+129069	661	Idu	e⁵⁵ka³¹ku⁵³	e⁵⁵ka³¹ku⁵³	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		
+129070	661	Idu	dzu⁵⁵ɹu⁵⁵	dzu⁵⁵ɹu⁵⁵	tickle	tickle			1.5.1.2.4	6.1.1.1	0			
+129071	661	Idu	la⁵⁵nu⁵⁵nbo³⁵	la⁵⁵nu⁵⁵nbo³⁵	elbow	elbow			1.5.8.3	6.1.4	0			695,m,m
+129072	661	Idu	ka³¹tio⁵³	ka³¹tio⁵³	hand	hand			1.5.1.1	6.1.7	0			p,699
+129073	661	Idu	bu⁵⁵tsu⁵⁵	bu⁵⁵tsu⁵⁵	fist	fist			1.5.1.1.1	6.1.7.3	0			
+129074	661	Idu	ka³¹tio⁵³e⁵⁵tɕa⁵⁵ȵu⁵⁵	ka³¹tio⁵³e⁵⁵tɕa⁵⁵ȵu⁵⁵	right hand	right hand			1.5.3.2	6.1.7.4	0			p,699,m,m,m
+129075	661	Idu	ka³¹tio⁵³i⁵⁵tɕi⁵⁵ȵu⁵⁵	ka³¹tio⁵³i⁵⁵tɕi⁵⁵ȵu⁵⁵	left hand	left hand			1.5.3.2	6.1.7.5	0			p,699,m,m,m
+129076	661	Idu	e⁵⁵loŋ⁵⁵kʰɹoŋ³⁵	e⁵⁵loŋ⁵⁵kʰɹoŋ³⁵	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			p,1435,1435
+129077	661	Idu	ʔi⁵⁵ɕu⁵⁵	ʔi⁵⁵ɕu⁵⁵	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			
+129078	661	Idu	a⁵⁵nu⁵⁵pu⁵³	a⁵⁵nu⁵⁵pu⁵³	leg	leg			1.5.7	6.2	0			
+129079	661	Idu	ko⁵⁵pɹɑ⁵⁵	ko⁵⁵pɹɑ⁵⁵	shin	shin			1.5.7.2	6.2.3	0			
+129080	661	Idu	a⁵⁵ge⁵⁵ɕa⁵³	a⁵⁵ge⁵⁵ɕa⁵³	foot	foot			1.5.2	6.2.6	0			p,338,m
+129081	661	Idu	kɹu⁵³	kɹu⁵³	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			5622
+129082	661	Idu	i⁵⁵kʰɹi⁵⁵be⁵⁵	i⁵⁵kʰɹi⁵⁵be⁵⁵	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+129083	661	Idu	ka³¹tio⁵³su⁵⁵	ka³¹tio⁵³su⁵⁵	finger	finger			1.5.6	7.1	0			
+129084	661	Idu	a⁵⁵huŋ⁵⁵koŋ³⁵	a⁵⁵huŋ⁵⁵koŋ³⁵	nail	nail			1.5.10	7.4	0			p,m,510
+129085	661	Idu	e⁵⁵tsu⁵³	e⁵⁵tsu⁵³	pincers (e.g. of crab)	pincers (e.g. of crab)			1.5.10.4	7.4.5	0			
+129086	661	Idu	tʰoŋ⁵⁵bɹa⁵⁵	tʰoŋ⁵⁵bɹa⁵⁵	hair of head	hair of head			1.2.3	8.1.1	0		D2	371,s
+129087	661	Idu	ʔi⁵⁵ɦuŋ³¹mu⁵⁵	ʔi⁵⁵ɦuŋ³¹mu⁵⁵	beard	beard			1.2.5.5	8.1.2.1	0		D0	p,m,363
+129088	661	Idu	mu⁵⁵bɹa⁵⁵	mu⁵⁵bɹa⁵⁵	feather (of bird)	feather (of bird)			1.6.1.1	8.1.5	0			363,2187
+129089	661	Idu	ma³¹bu⁵³	ma³¹bu⁵³	mane (of horse, lion)	mane (of horse, lion)			1.6.1	8.1.6	0			1431,1228
+129090	661	Idu	ko⁵⁵pɹa⁵⁵	ko⁵⁵pɹa⁵⁵	skin	skin			1.6.5	8.2	0			589,792
+129091	661	Idu	te⁵⁵tɕʰi⁵⁵	te⁵⁵tɕʰi⁵⁵	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		m,298
+129092	661	Idu	pɹoŋ⁵⁵	pɹoŋ⁵⁵	cyst	cyst			1.6.5.3	8.2.3.5	0			
+129093	661	Idu	a³¹mi⁵⁵so⁵⁵	a³¹mi⁵⁵so⁵⁵	fat	fat			1.6.4	8.3	0			p,1442,60
+129094	661	Idu	e⁵⁵sa⁵⁵	e⁵⁵sa⁵⁵	sinew / tendon (muscle to bone	sinew  /  tendon (muscle to bone			1.6.6.1	8.5	0	jbl3		p,530
+129095	661	Idu	i⁵⁵ɹu⁵⁵|	i⁵⁵ɹu⁵⁵|	blood	blood			1.6.2	8.7	0			230
+129096	661	Idu	bɯ³¹po⁵³	bɯ³¹po⁵³	bleed	bleed	v	v	1.6.2	8.7.2	0			m,m
+129097	661	Idu	jaŋ⁵⁵bɹeŋ⁵⁵	jaŋ⁵⁵bɹeŋ⁵⁵	muscle	muscle			1.6.6.2	8.8	0			536,m
+129098	661	Idu	a⁵⁵po⁵⁵	a⁵⁵po⁵⁵	lung	lung			1.7.2	9.2	0			p,m
+129099	661	Idu	mu⁵⁵	mu⁵⁵	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			503
+129100	661	Idu	a³¹tiu⁵⁵kʰɹi⁵⁵	a³¹tiu⁵⁵kʰɹi⁵⁵	phlegm	phlegm			1.8.3	9.2.5	0			p,603,540
+129101	661	Idu	o⁵⁵po⁵⁵bɹa³⁵	o⁵⁵po⁵⁵bɹa³⁵	heart	heart			1.7.1	9.3	0			p,m,m
+129102	661	Idu	huŋ⁵³	huŋ⁵³	liver	liver			1.7.3	9.5	0			1390
+129103	661	Idu	i⁵⁵mu⁵⁵	i⁵⁵mu⁵⁵	gall bladder	gall bladder			1.7.3	9.5.2	0			
+129104	661	Idu	a³¹tɕʰu⁵⁵be⁵⁵	a³¹tɕʰu⁵⁵be⁵⁵	kidney	kidney			1.7.5	9.6	0			m,m,m
+129105	661	Idu	a³¹te⁵⁵poŋ⁵⁵	a³¹te⁵⁵poŋ⁵⁵	urinary bladder	urinary bladder			1.7.8	9.7	0			
+129106	661	Idu	tʰɯi⁵⁵tɕiŋ⁵⁵	tʰɯi⁵⁵tɕiŋ⁵⁵	urine	urine			1.8.4	9.7.1	0			m,650
+129107	661	Idu	jaŋ⁵⁵poŋ⁵⁵	jaŋ⁵⁵poŋ⁵⁵	stomach	stomach			1.7.6	9.10	0			2119,2111
+129108	661	Idu	kɹu⁵⁵	kɹu⁵⁵	intestines / bowels	intestines  /  bowels			1.7.7	9.11	0	jbl3		572
+129109	661	Idu	kʰɹi⁵⁵	kʰɹi⁵⁵	feces / shit	feces  /  shit			1.8.5	9.12.1	0	jbl3		572
+129110	661	Idu	a⁵¹me⁵⁵	a⁵¹me⁵⁵	castrate	castrate	v	v	1.9.2.3	10.3.9	0			p,475
+129111	661	Idu	bɹa⁵⁵	bɹa⁵⁵	birth, give	birth, give			1.1.2	10.4.15	0			70
+129112	661	Idu	tɕa⁵⁵	tɕa⁵⁵	egg (of animal)	egg (of animal)				10.4.16	0			
+129113	661	Idu	ma⁵⁵ɹa⁵⁵	ma⁵⁵ɹa⁵⁵	laugh	laugh			1.8.8.1	11.9	0			p,1108
+129114	661	Idu	a³¹ŋgoŋ³⁵ha⁵⁵	a³¹ŋgoŋ³⁵ha⁵⁵	tremble / shiver / shudder	tremble  /  shiver  /  shudder			1.6.6.2.1	12.1	0	jbl3		
+129115	661	Idu	e⁵⁵mbɹeŋ³⁵ha⁵⁵	e⁵⁵mbɹeŋ³⁵ha⁵⁵	sick / be ill / hurt	sick  /  be ill  /  hurt	be	be	1.1.5.1	12.2	0	jbl3		
+129116	661	Idu	pɹoŋ⁵⁵	pɹoŋ⁵⁵	swell /  be swollen	swell  /   be swollen	v.	v.	1.1.5.2	12.4	0	jbl3		111
+129117	661	Idu	bu⁵⁵	bu⁵⁵	pus	pus			1.8.6.1	12.5	0			1293
+129118	661	Idu	e⁵⁵tʰoŋ⁵⁵ge⁵⁵	e⁵⁵tʰoŋ⁵⁵ge⁵⁵	cubit (elbow to fingers)	cubit (elbow to fingers)			1.5.9.3	13.3	0			m,710,m
+129119	661	Idu	e⁵⁵liaŋ⁵⁵ge⁵⁵	e⁵⁵liaŋ⁵⁵ge⁵⁵	cord / fathom (outstretched ar	cord  /  fathom (outstretched ar			1.5.9.5	13.4	0	jbl3		

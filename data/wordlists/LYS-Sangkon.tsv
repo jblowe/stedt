@@ -1,72 +1,72 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-150052	1362	Sangkong	aŋ³³ mbaŋ⁵⁵	aŋ³³ mbaŋ⁵⁵	body	body		1.1.1		0		5450,17
-150053	1362	Sangkong	aŋ³³ tu³¹	aŋ³³ tu³¹	head	head		1.2.1		0		5450,m
-150054	1362	Sangkong	ȵi³¹ phu³¹	ȵi³¹ phu³¹	forehead	forehead		1.2.5.1		0		356,276
-150055	1362	Sangkong	aŋ³³ tsham⁵⁵	aŋ³³ tsham⁵⁵	hair (head)	hair (head)		1.2.3		0		5450,366
-150056	1362	Sangkong	aŋ³³ tsham⁵⁵ phe̱³¹ le̱³¹	aŋ³³ tsham⁵⁵ phe̱³¹ le̱³¹	braid, queue	braid, queue		1.2.3.2		0		5450,366,m,m
-150057	1362	Sangkong	aŋ³³ ndo̱³¹	aŋ³³ ndo̱³¹	brains	brains		1.2.4		0		5450,m
-150058	1362	Sangkong	mja̱³³ phaŋ³¹	mja̱³³ phaŋ³¹	face	face		1.2.5		0		681,1186
-150059	1362	Sangkong	mja̱³³ mɯ³¹	mja̱³³ mɯ³¹	eyebrow	eyebrow		1.2.6.6		0		681,363
-150060	1362	Sangkong	mja̱³³ si³¹	mja̱³³ si³¹	eye	eye		1.2.6		0		681,1019
-150061	1362	Sangkong	mja̱³³ pɯ⁵⁵	mja̱³³ pɯ⁵⁵	tears	tears		1.2.6.7		0		681,187
-150062	1362	Sangkong	na⁵⁵ qhaŋ⁵⁵	na⁵⁵ qhaŋ⁵⁵	nose	nose		1.2.8		0		803,809
-150063	1362	Sangkong	aŋ³³ na³¹	aŋ³³ na³¹	ear	ear		1.2.7		0		5450,811
-150064	1362	Sangkong	maŋ³¹ thoŋ³¹	maŋ³¹ thoŋ³¹	mouth	mouth		1.3.1		0		m,822
-150065	1362	Sangkong	maŋ³¹ qho̱³³	maŋ³¹ qho̱³³	lip	lip		1.3.2		0		467,586
-150066	1362	Sangkong	aŋ³³ so³¹	aŋ³³ so³¹	tooth	tooth		1.3.4		0		5450,632
-150067	1362	Sangkong	qa³¹ qa⁵⁵	qa³¹ qa⁵⁵	tongue	tongue		1.3.3		0		
-150068	1362	Sangkong	maŋ³¹ mɯ³¹	maŋ³¹ mɯ³¹	beard	beard		1.2.5.5		0		1114,363
-150069	1362	Sangkong	maŋ³¹ pi⁵⁵	maŋ³¹ pi⁵⁵	chin	chin		1.2.5.3		0		1188,271
-150070	1362	Sangkong	laŋ⁵⁵ tshɿ̱³¹	laŋ⁵⁵ tshɿ̱³¹	neck	neck		1.4.2		0		479,m
-150071	1362	Sangkong	lɯŋ⁵⁵ tshɿ̱³¹	lɯŋ⁵⁵ tshɿ̱³¹	neck	neck		1.4.2		0		479,m
-150072	1362	Sangkong	aŋ³³ khoŋ³¹	aŋ³³ khoŋ³¹	throat	throat		1.3.5		0		5450,3361
-150073	1362	Sangkong	pha³¹ phu³³	pha³¹ phu³³	shoulder	shoulder		1.4.3		0		570,3344
-150074	1362	Sangkong	aŋ³³ la̱³¹	aŋ³³ la̱³¹	handarm	handarm		1.5.1.2		0		5450,e,695
-150075	1362	Sangkong	la̱³¹ tshu̱³³	la̱³¹ tshu̱³³	fist	fist		1.5.1.1.1		0		695,m
-150076	1362	Sangkong	la̱³¹ toŋ³¹ tshɿ̱³¹c	la̱³¹ toŋ³¹ tshɿ̱³¹c	elbow	elbow		1.5.8.3		0		695,m,m
-150077	1362	Sangkong	la̱³¹ nuŋ⁵⁵	la̱³¹ nuŋ⁵⁵	finger	finger		1.5.6		0		695,m
-150078	1362	Sangkong	la̱³¹ sɯŋ³¹	la̱³¹ sɯŋ³¹	fingernail	fingernail		1.5.10.1		0		695,m
-150079	1362	Sangkong	ŋgaŋ⁵⁵ tan³³	ŋgaŋ⁵⁵ tan³³	chest	chest		1.4.4.3		0		3377,3373
-150080	1362	Sangkong	ta³¹ qha⁵⁵ laŋ⁵⁵ ŋga⁵⁵	ta³¹ qha⁵⁵ laŋ⁵⁵ ŋga⁵⁵	back	back		1.4.8		0		m,m,m,205
-150081	1362	Sangkong	loŋ³³ tɕhø⁵⁵	loŋ³³ tɕhø⁵⁵	breast milk	breast milk		1.4.4.3		0		3458,5539
-150082	1362	Sangkong	u³¹ poŋ³³	u³¹ poŋ³³	belly, stomach	belly, stomach		1.4.7		0		m,2111
-150083	1362	Sangkong	ʑaŋ³¹ u³¹ poŋ³³	ʑaŋ³¹ u³¹ poŋ³³	belly, stomach	belly, stomach		1.4.7		0		1655,m,2111
-150084	1362	Sangkong	aŋ³³ tɕo³¹	aŋ³³ tɕo³¹	waist	waist		1.4.6		0		5450,215
-150085	1362	Sangkong	toŋ³¹ taŋ⁵⁵	toŋ³¹ taŋ⁵⁵	buttocks	buttocks		1.4.10		0		225,m
-150086	1362	Sangkong	aŋ³³ khɯ⁵⁵	aŋ³³ khɯ⁵⁵	footleg	footleg				0		5450,e,m
-150087	1362	Sangkong	aŋ³³ poŋ⁵⁵	aŋ³³ poŋ⁵⁵	thigh	thigh		1.5.7.1		0		5450,404
-150088	1362	Sangkong	la³¹ ta³¹ qe³¹ le⁵⁵	la³¹ ta³¹ qe³¹ le⁵⁵	armpit	armpit		1.5.1.2.3		0		695,m,m,m
-150089	1362	Sangkong	aŋ³³ hu³¹	aŋ³³ hu³¹	skin	skin		1.6.5		0		5450,589
-150090	1362	Sangkong	aŋ³³ ku³¹	aŋ³³ ku³¹	muscle, sinew	muscle, sinew		1.6.6.2		0		5450,m
-150091	1362	Sangkong	aŋ³³ ʑø³¹	aŋ³³ ʑø³¹	bone	bone		1.6.3		0		5450,m
-150092	1362	Sangkong	si̱³¹	si̱³¹	blood	blood		1.6.2		0		230
-150093	1362	Sangkong	qo³¹ si³¹	qo³¹ si³¹	kidney	kidney		1.7.5		0		
-150094	1362	Sangkong	aŋ³³ u⁵⁵	aŋ³³ u⁵⁵	intestines	intestines		1.7.7		0		5450,2102
-150095	1362	Sangkong	nɯŋ³³ mba³³	nɯŋ³³ mba³³	heart	heart		1.7.1		0		
-150096	1362	Sangkong	aŋ³³ phje³¹	aŋ³³ phje³¹	liver	liver		1.7.3		0		5450,m
-150097	1362	Sangkong	aŋ³³ phap³¹	aŋ³³ phap³¹	lung	lung		1.7.2		0		5450,m
-150098	1362	Sangkong	pja³¹ khɯ⁵⁵	pja³¹ khɯ⁵⁵	gall bladder	gall bladder		1.7.3		0		
-150099	1362	Sangkong	phe³¹ khɯ⁵⁵	phe³¹ khɯ⁵⁵	gall bladder	gall bladder		1.7.3		0		
-150100	1362	Sangkong	i³¹ si³¹ phu³¹ luŋ³³	i³¹ si³¹ phu³¹ luŋ³³	urinary bladder	urinary bladder		1.7.8		0		
-150101	1362	Sangkong	ku³¹ tɕho̱³¹	ku³¹ tɕho̱³¹	sweat	sweat		1.8.1		0		m,615
-150102	1362	Sangkong	nap³¹	nap³¹	snot	snot		1.8.2		0		805
-150103	1362	Sangkong	a⁵⁵ ndøt⁵⁵	a⁵⁵ ndøt⁵⁵	phlegm	phlegm		1.8.3		0		
-150104	1362	Sangkong	mø³¹ thø³¹	mø³¹ thø³¹	saliva	saliva		1.8.3		0		
-150105	1362	Sangkong	mbø³¹ thø³¹	mbø³¹ thø³¹	saliva	saliva		1.8.3		0		
-150106	1362	Sangkong	ʑaŋ³¹	ʑaŋ³¹	shit	shit		1.8.5		0		1655
-150107	1362	Sangkong	i³¹ si⁵⁵	i³¹ si⁵⁵	urine	urine		1.8.4		0		650
-150108	1362	Sangkong	ʑaŋ³¹ qha³¹	ʑaŋ³¹ qha³¹	fart	fart		1.8.5.2		0		1655,m
-150109	1362	Sangkong	aŋ³³ tshu³¹	aŋ³³ tshu³¹	boil	boil (n.)	n	6.6		0		5450,m
-150110	1362	Sangkong	aŋ³³ pɯŋ⁵⁵	aŋ³³ pɯŋ⁵⁵	pus	pus		1.8.6.1		0		5450,1292
-150111	1362	Sangkong	ma⁵⁵ po̱³¹	ma⁵⁵ po̱³¹	smallpox	smallpox		5.3		0		
-150112	1362	Sangkong	pja³¹ tap³¹ ka̱³³ ʑi³³	pja³¹ tap³¹ ka̱³³ ʑi³³	malaria	malaria		5.3		0		
-150113	1362	Sangkong	mbe̱³¹	mbe̱³¹	hungry	hungry		1.1.3		0		99
-150114	1362	Sangkong	n◦da⁵⁵	n◦da⁵⁵	hurt	hurt		1.1.5.1		0		p,160
-150115	1362	Sangkong	pam³¹	pam³¹	nest	nest		2.2.4		0		673
-150116	1362	Sangkong	tsa³¹	tsa³¹	eat	eat		1.5.3.2		0		36
-150117	1362	Sangkong	taŋ⁵⁵	taŋ⁵⁵	drink	drink				0		502
-150118	1362	Sangkong	ʑu̱³¹	ʑu̱³¹	sleep	sleep		1.1.4.1		0		127?
-150119	1362	Sangkong	ʑu̱³¹ mba̱³³	ʑu̱³¹ mba̱³³	dream	dream		1.1.4.2		0		127,126
-150120	1362	Sangkong	mbja̱³¹	mbja̱³¹	swallow	swallow		1.3.5.6		0		
-150121	1362	Sangkong	mbøm⁵⁵	mbøm⁵⁵	hold in mouth	hold in mouth		1.3.4.4		0		
-150122	1362	Sangkong	qo³¹	qo³¹	bite	bite		1.3.4.4		0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+150052	1362	Sangkong	aŋ³³ mbaŋ⁵⁵	aŋ³³ mbaŋ⁵⁵	body	body			1.1.1		0			5450,17
+150053	1362	Sangkong	aŋ³³ tu³¹	aŋ³³ tu³¹	head	head			1.2.1		0			5450,m
+150054	1362	Sangkong	ȵi³¹ phu³¹	ȵi³¹ phu³¹	forehead	forehead			1.2.5.1		0			356,276
+150055	1362	Sangkong	aŋ³³ tsham⁵⁵	aŋ³³ tsham⁵⁵	hair (head)	hair (head)			1.2.3		0			5450,366
+150056	1362	Sangkong	aŋ³³ tsham⁵⁵ phe̱³¹ le̱³¹	aŋ³³ tsham⁵⁵ phe̱³¹ le̱³¹	braid, queue	braid, queue			1.2.3.2		0			5450,366,m,m
+150057	1362	Sangkong	aŋ³³ ndo̱³¹	aŋ³³ ndo̱³¹	brains	brains			1.2.4		0			5450,m
+150058	1362	Sangkong	mja̱³³ phaŋ³¹	mja̱³³ phaŋ³¹	face	face			1.2.5		0			681,1186
+150059	1362	Sangkong	mja̱³³ mɯ³¹	mja̱³³ mɯ³¹	eyebrow	eyebrow			1.2.6.6		0			681,363
+150060	1362	Sangkong	mja̱³³ si³¹	mja̱³³ si³¹	eye	eye			1.2.6		0			681,1019
+150061	1362	Sangkong	mja̱³³ pɯ⁵⁵	mja̱³³ pɯ⁵⁵	tears	tears			1.2.6.7		0			681,187
+150062	1362	Sangkong	na⁵⁵ qhaŋ⁵⁵	na⁵⁵ qhaŋ⁵⁵	nose	nose			1.2.8		0			803,809
+150063	1362	Sangkong	aŋ³³ na³¹	aŋ³³ na³¹	ear	ear			1.2.7		0			5450,811
+150064	1362	Sangkong	maŋ³¹ thoŋ³¹	maŋ³¹ thoŋ³¹	mouth	mouth			1.3.1		0			m,822
+150065	1362	Sangkong	maŋ³¹ qho̱³³	maŋ³¹ qho̱³³	lip	lip			1.3.2		0			467,586
+150066	1362	Sangkong	aŋ³³ so³¹	aŋ³³ so³¹	tooth	tooth			1.3.4		0			5450,632
+150067	1362	Sangkong	qa³¹ qa⁵⁵	qa³¹ qa⁵⁵	tongue	tongue			1.3.3		0			
+150068	1362	Sangkong	maŋ³¹ mɯ³¹	maŋ³¹ mɯ³¹	beard	beard			1.2.5.5		0			1114,363
+150069	1362	Sangkong	maŋ³¹ pi⁵⁵	maŋ³¹ pi⁵⁵	chin	chin			1.2.5.3		0			1188,271
+150070	1362	Sangkong	laŋ⁵⁵ tshɿ̱³¹	laŋ⁵⁵ tshɿ̱³¹	neck	neck			1.4.2		0			479,m
+150071	1362	Sangkong	lɯŋ⁵⁵ tshɿ̱³¹	lɯŋ⁵⁵ tshɿ̱³¹	neck	neck			1.4.2		0			479,m
+150072	1362	Sangkong	aŋ³³ khoŋ³¹	aŋ³³ khoŋ³¹	throat	throat			1.3.5		0			5450,3361
+150073	1362	Sangkong	pha³¹ phu³³	pha³¹ phu³³	shoulder	shoulder			1.4.3		0			570,3344
+150074	1362	Sangkong	aŋ³³ la̱³¹	aŋ³³ la̱³¹	handarm	handarm			1.5.1.2		0			5450,e,695
+150075	1362	Sangkong	la̱³¹ tshu̱³³	la̱³¹ tshu̱³³	fist	fist			1.5.1.1.1		0			695,m
+150076	1362	Sangkong	la̱³¹ toŋ³¹ tshɿ̱³¹c	la̱³¹ toŋ³¹ tshɿ̱³¹c	elbow	elbow			1.5.8.3		0			695,m,m
+150077	1362	Sangkong	la̱³¹ nuŋ⁵⁵	la̱³¹ nuŋ⁵⁵	finger	finger			1.5.6		0			695,m
+150078	1362	Sangkong	la̱³¹ sɯŋ³¹	la̱³¹ sɯŋ³¹	fingernail	fingernail			1.5.10.1		0			695,m
+150079	1362	Sangkong	ŋgaŋ⁵⁵ tan³³	ŋgaŋ⁵⁵ tan³³	chest	chest			1.4.4.3		0			3377,3373
+150080	1362	Sangkong	ta³¹ qha⁵⁵ laŋ⁵⁵ ŋga⁵⁵	ta³¹ qha⁵⁵ laŋ⁵⁵ ŋga⁵⁵	back	back			1.4.8		0			m,m,m,205
+150081	1362	Sangkong	loŋ³³ tɕhø⁵⁵	loŋ³³ tɕhø⁵⁵	breast milk	breast milk			1.4.4.3		0			3458,5539
+150082	1362	Sangkong	u³¹ poŋ³³	u³¹ poŋ³³	belly, stomach	belly, stomach			1.4.7		0			m,2111
+150083	1362	Sangkong	ʑaŋ³¹ u³¹ poŋ³³	ʑaŋ³¹ u³¹ poŋ³³	belly, stomach	belly, stomach			1.4.7		0			1655,m,2111
+150084	1362	Sangkong	aŋ³³ tɕo³¹	aŋ³³ tɕo³¹	waist	waist			1.4.6		0			5450,215
+150085	1362	Sangkong	toŋ³¹ taŋ⁵⁵	toŋ³¹ taŋ⁵⁵	buttocks	buttocks			1.4.10		0			225,m
+150086	1362	Sangkong	aŋ³³ khɯ⁵⁵	aŋ³³ khɯ⁵⁵	footleg	footleg					0			5450,e,m
+150087	1362	Sangkong	aŋ³³ poŋ⁵⁵	aŋ³³ poŋ⁵⁵	thigh	thigh			1.5.7.1		0			5450,404
+150088	1362	Sangkong	la³¹ ta³¹ qe³¹ le⁵⁵	la³¹ ta³¹ qe³¹ le⁵⁵	armpit	armpit			1.5.1.2.3		0			695,m,m,m
+150089	1362	Sangkong	aŋ³³ hu³¹	aŋ³³ hu³¹	skin	skin			1.6.5		0			5450,589
+150090	1362	Sangkong	aŋ³³ ku³¹	aŋ³³ ku³¹	muscle, sinew	muscle, sinew			1.6.6.2		0			5450,m
+150091	1362	Sangkong	aŋ³³ ʑø³¹	aŋ³³ ʑø³¹	bone	bone			1.6.3		0			5450,m
+150092	1362	Sangkong	si̱³¹	si̱³¹	blood	blood			1.6.2		0			230
+150093	1362	Sangkong	qo³¹ si³¹	qo³¹ si³¹	kidney	kidney			1.7.5		0			
+150094	1362	Sangkong	aŋ³³ u⁵⁵	aŋ³³ u⁵⁵	intestines	intestines			1.7.7		0			5450,2102
+150095	1362	Sangkong	nɯŋ³³ mba³³	nɯŋ³³ mba³³	heart	heart			1.7.1		0			
+150096	1362	Sangkong	aŋ³³ phje³¹	aŋ³³ phje³¹	liver	liver			1.7.3		0			5450,m
+150097	1362	Sangkong	aŋ³³ phap³¹	aŋ³³ phap³¹	lung	lung			1.7.2		0			5450,m
+150098	1362	Sangkong	pja³¹ khɯ⁵⁵	pja³¹ khɯ⁵⁵	gall bladder	gall bladder			1.7.3		0			
+150099	1362	Sangkong	phe³¹ khɯ⁵⁵	phe³¹ khɯ⁵⁵	gall bladder	gall bladder			1.7.3		0			
+150100	1362	Sangkong	i³¹ si³¹ phu³¹ luŋ³³	i³¹ si³¹ phu³¹ luŋ³³	urinary bladder	urinary bladder			1.7.8		0			
+150101	1362	Sangkong	ku³¹ tɕho̱³¹	ku³¹ tɕho̱³¹	sweat	sweat			1.8.1		0			m,615
+150102	1362	Sangkong	nap³¹	nap³¹	snot	snot			1.8.2		0			805
+150103	1362	Sangkong	a⁵⁵ ndøt⁵⁵	a⁵⁵ ndøt⁵⁵	phlegm	phlegm			1.8.3		0			
+150104	1362	Sangkong	mø³¹ thø³¹	mø³¹ thø³¹	saliva	saliva			1.8.3		0			
+150105	1362	Sangkong	mbø³¹ thø³¹	mbø³¹ thø³¹	saliva	saliva			1.8.3		0			
+150106	1362	Sangkong	ʑaŋ³¹	ʑaŋ³¹	shit	shit			1.8.5		0			1655
+150107	1362	Sangkong	i³¹ si⁵⁵	i³¹ si⁵⁵	urine	urine			1.8.4		0			650
+150108	1362	Sangkong	ʑaŋ³¹ qha³¹	ʑaŋ³¹ qha³¹	fart	fart			1.8.5.2		0			1655,m
+150109	1362	Sangkong	aŋ³³ tshu³¹	aŋ³³ tshu³¹	boil	boil (n.)	n		6.6		0	dwb33		5450,m
+150110	1362	Sangkong	aŋ³³ pɯŋ⁵⁵	aŋ³³ pɯŋ⁵⁵	pus	pus			1.8.6.1		0			5450,1292
+150111	1362	Sangkong	ma⁵⁵ po̱³¹	ma⁵⁵ po̱³¹	smallpox	smallpox			5.3		0			
+150112	1362	Sangkong	pja³¹ tap³¹ ka̱³³ ʑi³³	pja³¹ tap³¹ ka̱³³ ʑi³³	malaria	malaria			5.3		0			
+150113	1362	Sangkong	mbe̱³¹	mbe̱³¹	hungry	hungry			1.1.3		0			99
+150114	1362	Sangkong	n◦da⁵⁵	n◦da⁵⁵	hurt	hurt			1.1.5.1		0			p,160
+150115	1362	Sangkong	pam³¹	pam³¹	nest	nest			2.2.4		0			673
+150116	1362	Sangkong	tsa³¹	tsa³¹	eat	eat			1.5.3.2		0			36
+150117	1362	Sangkong	taŋ⁵⁵	taŋ⁵⁵	drink	drink					0			502
+150118	1362	Sangkong	ʑu̱³¹	ʑu̱³¹	sleep	sleep			1.1.4.1		0			127?
+150119	1362	Sangkong	ʑu̱³¹ mba̱³³	ʑu̱³¹ mba̱³³	dream	dream			1.1.4.2		0			127,126
+150120	1362	Sangkong	mbja̱³¹	mbja̱³¹	swallow	swallow			1.3.5.6		0			
+150121	1362	Sangkong	mbøm⁵⁵	mbøm⁵⁵	hold in mouth	hold in mouth			1.3.4.4		0			
+150122	1362	Sangkong	qo³¹	qo³¹	bite	bite			1.3.4.4		0			

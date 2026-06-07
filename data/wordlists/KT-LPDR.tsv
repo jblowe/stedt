@@ -1,308 +1,308 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-458956	1968	Sila	ko55 ɯ21	ko55 ɯ21	autonym	autonym		4.6		0		
-458957	1968	Sila	a21 mɯ21	a21 mɯ21	body hair	body hair		1.6.1	1	0		p,363
-458958	1968	Sila	a21 khɔ̰33	a21 khɔ̰33	skin	skin		1.6.5	2	0		p,586
-458959	1968	Sila	hɛ21 ɯ21	hɛ21 ɯ21	bone	bone		1.6.3	3	0		
-458960	1968	Sila	ɕi21	ɕi21	blood	blood		1.6.2	4	0		230
-458961	1968	Sila	mja33 bi55	mja33 bi55	tears	tears		1.2.6.7	5	0		
-458962	1968	Sila	mja33 ɯ55	mja33 ɯ55	tears	tears		1.2.6.7	5	0		
-458963	1968	Sila	tsha55 l̥i21	tsha55 l̥i21	sweat	sweat		1.8.1	6	0		
-458964	1968	Sila	o21 khja21	o21 khja21	head	head		1.2.1	7	0		
-458965	1968	Sila	tsha55 khɯ55	tsha55 khɯ55	hair	hair		1.2.3	8	0		366,m
-458966	1968	Sila	mja33 phjo21	mja33 phjo21	face	face		1.2.5	9	0		681,1186
-458967	1968	Sila	mja33 kho55	mja33 kho55	eyebrow	eyebrow		1.2.6.6	10	0		
-458968	1968	Sila	mja33 tsḭ33	mja33 tsḭ33	eyes	eyes		1.2.6	11	0		
-458969	1968	Sila	ne21 pha̰21	ne21 pha̰21	ears	ears		1.2.7	12	0		
-458970	1968	Sila	na55 mø55	na55 mø55	nose	nose		1.2.8	13	0		803,m
-458971	1968	Sila	ne21 bo21	ne21 bo21	mouth	mouth		1.3.1	14	0		
-458972	1968	Sila	a21 lɔ55	a21 lɔ55	tongue	tongue		1.3.3	15	0		p,623
-458973	1968	Sila	a21 se21	a21 se21	teeth	teeth		1.3.4	16	0		
-458974	1968	Sila	ne21 mɯ21	ne21 mɯ21	beard / moustache	beard / moustache		1.2.5.5	17	0		
-458975	1968	Sila	o21 lɯ55	o21 lɯ55	neck	neck		1.4.2	18	0		
-458976	1968	Sila	be21 tha̰21	be21 tha̰21	shoulder	shoulder		1.4.3	19	0		
-458977	1968	Sila	la̰21 bu21	la̰21 bu21	hand	hand		1.5.1.1	20	0		695,m
-458978	1968	Sila	la̰21 mɔ55	la̰21 mɔ55	right-hand	right-hand		1.5.1.1	21	0		695,m
-458979	1968	Sila	la̰21 ṵ21	la̰21 ṵ21	left-hand	left-hand		1.5.3.2	22	0		695,2154
-458980	1968	Sila	la̰21 ɯ21	la̰21 ɯ21	arm	arm		1.5.1.2	23	0		695,m
-458981	1968	Sila	la̰21 tshɯ̰̰21	la̰21 tshɯ̰̰21	elbow	elbow		1.5.8.3	24	0		695,418
-458982	1968	Sila	la̰21 khy̰21	la̰21 khy̰21	palm	palm		1.5.5	25	0		
-458983	1968	Sila	la̰21 nɯ55	la̰21 nɯ55	finger	finger		1.5.6	26	0		
-458984	1968	Sila	la̰21 sɯ21	la̰21 sɯ21	fingernail	fingernail		1.5.10.1	27	0		
-458985	1968	Sila	a21 nu55	a21 nu55	breast	breast		1.4.4.3	28	0		
-458986	1968	Sila	nu55 sɯ21	nu55 sɯ21	nipple	nipple			29	0		
-458987	1968	Sila	a21 tɕɔ̰21	a21 tɕɔ̰21	waist	waist		1.4.6	30	0		p,215
-458988	1968	Sila	u55 mɛ33	u55 mɛ33	belly	belly		1.4.7	31	0		
-458989	1968	Sila	tɕha33 tɕhu21	tɕha33 tɕhu21	navel	navel		1.9.4	32	0		
-458990	1968	Sila	to21 phu55	to21 phu55	buttocks	buttocks		1.4.10	33	0		
-458991	1968	Sila	jo21	jo21	feces	feces		1.8.5	34	0		
-458992	1968	Sila	jo21 thɯ33	jo21 thɯ33	defecate	defecate	v.	1.8.5.4	35	0		
-458993	1968	Sila	y21 ɕy21	y21 ɕy21	urine	urine		1.8.4	36	0		
-458994	1968	Sila	y21 ɕy21 ɕy21	y21 ɕy21 ɕy21	urinate	urinate	v.	1.5.3.2	37	0		
-458995	1968	Sila	i21 kha21	i21 kha21	expel intestinal gas	expel intestinal gas	v.	6.7.2	38	0		
-458996	1968	Sila	zɛ21 gu21 ty̰21	zɛ21 gu21 ty̰21	give birth	give birth	v.	1.1.2	39	0		
-458997	1968	Sila	a21 khi55	a21 khi55	leg	leg		1.5.7	40	0		p,335
-458998	1968	Sila	a21 khi55	a21 khi55	foot	foot		1.5.2	41	0		p,335
-458999	1968	Sila	tho21 kho55	tho21 kho55	back	back		1.4.8	42	0		
-459000	1968	Sila	mjo55	mjo55	see	see	v.	1.2.6.10	43	0		1227
-459001	1968	Sila	dɛ21	dɛ21	look	look	v.	1.2.6.11	43	0		
-459002	1968	Sila	nɔ55 da21	nɔ55 da21	listen	listen	v.	1.2.7.4	44	0		811,m
-459003	1968	Sila	dzɛ21	dzɛ21	eat	eat	v.	1.5.3.2	45	0		36
-459004	1968	Sila	do55	do55	drink	drink	v.		46	0		502
-459005	1968	Sila	khḭ21	khḭ21	bite	bite	v.	1.3.4.4	47	0		
-459006	1968	Sila	ø55	ø55	hold with the hand	hold with the hand	v.	6.16	48	0		
-459007	1968	Sila	la21 khe33	la21 khe33	put, place in/on	put, place in/on	v.	10.1.1	49	0		
-459008	1968	Sila	lɛ21	lɛ21	push	push	v.	6.2.2.3.1	50	0		
-459009	1968	Sila	hɯ33	hɯ33	pull	pull	v.	6.2.2.3.1	51	0		5618
-459010	1968	Sila	thi33	thi33	throw	throw	v.	6.12	52	0		
-459011	1968	Sila	kɔ33	kɔ33	pick up	pick up	v.	6.10.4	53	0		5430
-459012	1968	Sila	khu21	khu21	ladle	ladle	v.	5.5	54	0		2296
-459013	1968	Sila	khja33	khja33	ladle	ladle	v.	5.5	54	0		2792
-459014	1968	Sila	tsho21	tsho21	run	run	v.	6.7.4	55	0		
-459015	1968	Sila	tɯ55	tɯ55	sit	sit	v.	6.1.1.4.1	56	0		
-459016	1968	Sila	tho21 phu55	tho21 phu55	stand up	stand up	v.	1.5.2	57	0		148,m
-459017	1968	Sila	tɕhi21	tɕhi21	cough	cough	v.	1.8.3.3	58	0		
-459018	1968	Sila	thɯ21	thɯ21	1	1			59	0		
-459019	1968	Sila	ȵḭ21	ȵḭ21	2	2			60	0		
-459020	1968	Sila	sa55	sa55	3	3			61	0		
-459021	1968	Sila	li21	li21	4	4			62	0		
-459022	1968	Sila	ŋɔ21	ŋɔ21	5	5			63	0		
-459023	1968	Sila	khjɔ̰21	khjɔ̰21	6	6			64	0		
-459024	1968	Sila	ɕḭ21	ɕḭ21	7	7			65	0		
-459025	1968	Sila	ḭ21	ḭ21	8	8			66	0		
-459026	1968	Sila	ky21	ky21	9	9			67	0		
-459027	1968	Sila	tshɯ55	tshɯ55	10	10			68	0		
-459028	1968	Sila	tshɯ55 thɯ21	tshɯ55 thɯ21	11	11			69	0		
-459029	1968	Sila	tshɯ55 ȵḭ21	tshɯ55 ȵḭ21	12	12			70	0		
-459030	1968	Sila	mi21 tha̰21	mi21 tha̰21	sky	sky		3.2.2	71	0		
-459031	1968	Sila	ȵu55 wɛ33	ȵu55 wɛ33	sun	sun		3.2.10	72	0		
-459032	1968	Sila	bɛ33 lɛ33	bɛ33 lɛ33	moon	moon		3.2.2	73	0		m,1016
-459033	1968	Sila	mi21 gi55	mi21 gi55	star	star		3.2.2	74	0		
-459034	1968	Sila	li55	li55	wind	wind		3.2.1	75	0		2412
-459035	1968	Sila	ma21 ɯ55	ma21 ɯ55	rain	rain		3.2.1	76	0		
-459036	1968	Sila	ma21 ɯ55 ɯ55	ma21 ɯ55 ɯ55	it rains	it rains		8.1	77	0		
-459037	1968	Sila	tshɔ33 thi33	tshɔ33 thi33	thunder	thunder		3.2.1	78	0		
-459038	1968	Sila	mi21 dʑe21 dʑe21	mi21 dʑe21 dʑe21	it thunders	it thunders		8.1	79	0		
-459039	1968	Sila	mi55 tshɛ21	mi55 tshɛ21	soil, earth	soil, earth		3.2.11	80	0		2453,5671
-459040	1968	Sila	lɔ33 phu33	lɔ33 phu33	stone	stone		3.2.9	81	0		1269
-459041	1968	Sila	i21 tɕho21	i21 tɕho21	hill, mountain	hill, mountain		3.2.5	82	0		
-459042	1968	Sila	i55 tɕhɔ̰21	i55 tɕhɔ̰21	water	water		3.2.3	83	0		
-459043	1968	Sila	lo33 mɛ33	lo33 mɛ33	lake	lake		3.2.5	84	0		
-459044	1968	Sila	a21 la̰33	a21 la̰33	river	river		3.2.3	85	0		
-459045	1968	Sila	mi21	mi21	fire	fire		3.2.12.2	86	0		
-459046	1968	Sila	mi21 khy21	mi21 khy21	smoke	smoke		3.2.12.2	87	0		
-459047	1968	Sila	ja21 tɕhɯ55	ja21 tɕhɯ55	house	house		5.11.9.1	88	0		
-459048	1968	Sila	i55 mo55	i55 mo55	roof	roof		5.11.9	89	0		
-459049	1968	Sila	ɯ55 khɯ55	ɯ55 khɯ55	pillar	pillar		5.11.9.3.1	90	0		
-459050	1968	Sila	ko55 ɯ21	ko55 ɯ21	mat	mat		5.11.9.4	91	0		
-459051	1968	Sila	a21 gja55	a21 gja55	covering	covering		5.8	92	0		
-459052	1968	Sila	y21 gy21	y21 gy21	pillow	pillow		1.2.1	93	0		
-459053	1968	Sila	bɯ33 lo55	bɯ33 lo55	mosquito net	mosquito net		2.2.6	94	0		
-459054	1968	Sila	thɯ33 zɛ21	thɯ33 zɛ21	knife	knife		5.5	95	0		
-459055	1968	Sila	tɤ̰33	tɤ̰33	cut	cut	v.	6.9.3	96	0		
-459056	1968	Sila	to21 mi21	to21 mi21	tail	tail		1.4.10.1	97	0		m,1288
-459057	1968	Sila	o21 khɯ55	o21 khɯ55	horn	horn		1.2.2	98	0		
-459058	1968	Sila	lɛ21 tɕha̰21	lɛ21 tɕha̰21	tiger	tiger		2.1.3	99	0		5560,m
-459059	1968	Sila	ju33 wɛ33	ju33 wɛ33	elephant	elephant		2.2.1	100	0		3317,m
-459060	1968	Sila	ɔ33 tɕha̰21	ɔ33 tɕha̰21	mouse	mouse		2.1.1	101	0		2630
-459061	1968	Sila	khi21 zɛ21	khi21 zɛ21	bird	bird		2.2.4	102	0		
-459062	1968	Sila	bɛ55	bɛ55	fly	fly	v.	2.2.6	103	0		
-459063	1968	Sila	a33 ṵ33	a33 ṵ33	egg	egg			104	0		m,301
-459064	1968	Sila	lɯ̰21 ma̰21	lɯ̰21 ma̰21	crow	crow		2.2.4.1	105	0		
-459065	1968	Sila	bo21 na33	bo21 na33	buffalo	buffalo		2.1.2	106	0		
-459066	1968	Sila	mø55 ȵu21	mø55 ȵu21	cattle	cattle		2.1.2	107	0		
-459067	1968	Sila	wa̰21	wa̰21	pig	pig		2.1.12	108	0		1006
-459068	1968	Sila	mjo21	mjo21	horse	horse		2.1.7	109	0		1431
-459069	1968	Sila	ma55 khɯ21	ma55 khɯ21	dog	dog		2.1.11	110	0		m,1764
-459070	1968	Sila	mi55 mi55	mi55 mi55	cat	cat		2.1.3	111	0		
-459071	1968	Sila	a̰33	a̰33	chicken	chicken		2.1.10	112	0		1606
-459072	1968	Sila	tɕɔ̰33 khy̰33	tɕɔ̰33 khy̰33	duck	duck		2.1.10	113	0		
-459073	1968	Sila	bjɛ21	bjɛ21	bee	bee		2.2.6	114	0		2187
-459074	1968	Sila	ja55 m̰21	ja55 m̰21	fly	fly		2.2.6	115	0		
-459075	1968	Sila	ja55 gy21	ja55 gy21	mosquito	mosquito		2.2.6	116	0		
-459076	1968	Sila	bḭ21 jɔ33	bḭ21 jɔ33	ant	ant		2.2.6	117	0		
-459077	1968	Sila	ɯ55 lo55	ɯ55 lo55	snake	snake		2.1.6.1	118	0		
-459078	1968	Sila	ŋa21 dɯ55	ŋa21 dɯ55	fish	fish		2.2.5	119	0		1455,m
-459079	1968	Sila	na55 by55	na55 by55	shrimp	shrimp		2.2.5	120	0		
-459080	1968	Sila	bi21 khɛ33	bi21 khɛ33	crab	crab		2.2.5	121	0		
-459081	1968	Sila	phɛ21 nɯ21	phɛ21 nɯ21	frog	frog		2.1.6.2	122	0		2148,m
-459082	1968	Sila	mjɔ̰21 khɔ̰21	mjɔ̰21 khɔ̰21	fish with a rod	fish with a rod	v.	2.2.5	123	0		
-459083	1968	Sila	sḭ21	sḭ21	kill	kill	v.	6.4	124	0		1018
-459084	1968	Sila	a21 tsḭ33	a21 tsḭ33	seed	seed		3.1.4	125	0		
-459085	1968	Sila	sɯ33 dzɯ55	sɯ33 dzɯ55	tree	tree		3.1.2	126	0		2658,m
-459086	1968	Sila	sɯ33 pha̰21	sɯ33 pha̰21	leaf	leaf		3.1.3	127	0		
-459087	1968	Sila	a21 wḛ33	a21 wḛ33	flower	flower		3.1.4	128	0		
-459088	1968	Sila	nɔ33 kḛ33	nɔ33 kḛ33	bean	bean		3.1.4	129	0		
-459089	1968	Sila	ma21 ja33	ma21 ja33	bamboo	bamboo		3.1.1	130	0		5664,m
-459090	1968	Sila	kɔ̰33 bo55	kɔ̰33 bo55	paddy plant	paddy plant		9.10.5	131	0		
-459091	1968	Sila	o21	o21	rice	rice		3.1.4	132	0		
-459092	1968	Sila	nɛ21 hø55 lø55	nɛ21 hø55 lø55	sesame	sesame		3.1.6.1	133	0		2487,m,m
-459093	1968	Sila	tɕhɔ21 tshɯ̰21	tɕhɔ21 tshɯ̰21	ginger	ginger		3.1.5	134	0		
-459094	1968	Sila	ŋa33 sɯ21	ŋa33 sɯ21	banana	banana		3.1.5	135	0		
-459095	1968	Sila	phu21 tɕhi55	phu21 tɕhi55	sugar cane	sugar cane		3.1.6.2	136	0		
-459096	1968	Sila	o33 dzɯ55	o33 dzɯ55	betel nut	betel nut		3.1.4	137	0		
-459097	1968	Sila	khɛ33	khɛ33	plant	plant	v.	3.1.10	138	0		
-459098	1968	Sila	li21	li21	plow	plow		6.11	139	0		
-459099	1968	Sila	te33 kɔ̰21	te33 kɔ̰21	irrigated field	irrigated field		6.6	140	0		5672,m
-459100	1968	Sila	ja55 go55	ja55 go55	upland field	upland field		3.2.5	141	0		5544,m
-459101	1968	Sila	a21 tshɯ55	a21 tshɯ55	oil	oil		1.6.4.1	142	0		p,42
-459102	1968	Sila	tshɛ21 lo33	tshɛ21 lo33	salt	salt		3.2.4	143	0		2729
-459103	1968	Sila	tɕhi55 tɕha̰21	tɕhi55 tɕha̰21	sugar	sugar		3.1.6.2	144	0		
-459104	1968	Sila	ma33 pḛ33	ma33 pḛ33	chili [chilli]	chili [chilli]		3.1.5	145	0		
-459105	1968	Sila	la̰33	la̰33	tea	tea		3.1.1	146	0		786
-459106	1968	Sila	tɕhi55 phu21	tɕhi55 phu21	wine	wine		3.1.6.3	147	0		
-459107	1968	Sila	tɕa33 gɔ21	tɕa33 gɔ21	cigarette / tobacco	cigarette / tobacco		5.8	148	0		
-459108	1968	Sila	o21 sa̰21	o21 sa̰21	cook rice	cook rice	v.	5.5	149	0		
-459109	1968	Sila	mi21 dzɛ21	mi21 dzɛ21	firewood	firewood		5.11.5.5	150	0		
-459110	1968	Sila	ma33 lɛ33	ma33 lɛ33	pot	pot		5.5	151	0		
-459111	1968	Sila	phṵ21	phṵ21	boil	boil	v.	6.6	152	0		
-459112	1968	Sila	tɕha̰21	tɕha̰21	boil	boil	v.	6.6	152	0		
-459113	1968	Sila	phy̰33	phy̰33	roast	roast	v.	5.5	153	0		
-459114	1968	Sila	a21 khɯ21	a21 khɯ21	cloth	cloth		5.1	154	0		
-459115	1968	Sila	kṵ21	kṵ21	sew	sew	v.	5.1	155	0		2627
-459116	1968	Sila	kṵ21 kḛ21	kṵ21 kḛ21	needle	needle		5.1	156	0		
-459117	1968	Sila	khɯ55	khɯ55	thread	thread		5.11.6	157	0		
-459118	1968	Sila	tshi21	tshi21	wash clothes	wash clothes	v.	6.2.2.5.2	158	0		5647
-459119	1968	Sila	a21 ga21 dy33	a21 ga21 dy33	clothes	clothes		5.11.8.2.1	159	0		
-459120	1968	Sila	dy33	dy33	wear	wear	v.	6.2.2.1	160	0		
-459121	1968	Sila	ly̰33	ly̰33	undress	undress	v.	6.1.1	161	0		
-459122	1968	Sila	a55 kho55	a55 kho55	road	road		9.10.1	162	0		
-459123	1968	Sila	tso55 mi55	tso55 mi55	village	village		5.8	163	0		
-459124	1968	Sila	u55	u55	buy	buy	v.	6.22	164	0		
-459125	1968	Sila	go21	go21	sell	sell	v.	6.22	165	0		
-459126	1968	Sila	phju55	phju55	money	money		5.9	167	0		
-459127	1968	Sila	bɯ21	bɯ21	speak	speak	v.	8.5.10.1	168	0		
-459128	1968	Sila	tsha21	tsha21	speak	speak	v.	8.5.10.1	168	0		
-459129	1968	Sila	nɔ55 da21	nɔ55 da21	ask	ask	v.	8.5.7.1	169	0		
-459130	1968	Sila	tsha21	tsha21	answer	answer	v.	8.5.6	170	0		
-459131	1968	Sila	khu55	khu55	call	call	v.	8.5.13	171	0		
-459132	1968	Sila	ko55 ɯ21 sɯ21 do21	ko55 ɯ21 sɯ21 do21	Sila language	Sila language		5.8	172	0		
-459133	1968	Sila	bjɔ̰21	bjɔ̰21	write	write	v.	6.2.2.9.1	173	0		5407
-459134	1968	Sila	ŋa33 tɕy̰33	ŋa33 tɕy̰33	paper	paper		5.1	174	0		
-459135	1968	Sila	thi33 ȵo21	thi33 ȵo21	stick	stick	v.	3.1.2	175	0		
-459136	1968	Sila	nɯ55	nɯ55	play	play	v.	6.1.1.3	176	0		
-459137	1968	Sila	e55 la33	e55 la33	song	song		5.1	177	0		
-459138	1968	Sila	mɛ21	mɛ21	get tired	get tired	v.	1.1.5	178	0		
-459139	1968	Sila	sɔ21	sɔ21	rest	rest	v.	1.1.4.1	179	0		
-459140	1968	Sila	i21 thi21	i21 thi21	sleep	sleep	v.	1.1.4.1	180	0		127,m
-459141	1968	Sila	ɕi55	ɕi55	die	die	v.	1.1.6	181	0		27
-459142	1968	Sila	a21 nɯ̰33	a21 nɯ̰33	age	age		9.1.2	182	0		
-459143	1968	Sila	a21 nɔ55	a21 nɔ55	ill	ill	be v.	1.1.5.1	183	0		
-459144	1968	Sila	a21 nɔ55	a21 nɔ55	painful	painful		1.1.5.1	184	0		
-459145	1968	Sila	hɤ55 thɤ̰21 mø̰33	hɤ55 thɤ̰21 mø̰33	hiccough	hiccough	v.	1.8.3.5	185	0		
-459146	1968	Sila	ɤ̰21 mø̰33	ɤ̰21 mø̰33	burp	burp	v.	1.8.3	186	0		
-459147	1968	Sila	he55 phju55	he55 phju55	louse	louse		2.2.6	187	0		2652,1235
-459148	1968	Sila	o21 he55	o21 he55	louse	louse		2.2.6	187	0		m,2652
-459149	1968	Sila	a21 phɛ55	a21 phɛ55	medicine	medicine		5.4	188	0		
-459150	1968	Sila	sɯ21 na33	sɯ21 na33	bow	bow		5.15	189	0		
-459151	1968	Sila	mi21 tɕhø33	mi21 tɕhø33	arrow	arrow		5.15	190	0		m,74
-459152	1968	Sila	a21 mi55	a21 mi55	name	name		5.8	191	0		
-459153	1968	Sila	a21 bu33	a21 bu33	father	father		4.7.1	192	0		
-459154	1968	Sila	a21 mɛ33	a21 mɛ33	mother	mother		4.7.1	193	0		
-459155	1968	Sila	jɔ33 dʑi55	jɔ33 dʑi55	husband	husband		4.7.4	194	0		
-459156	1968	Sila	kha21 mɛ33	kha21 mɛ33	wife	wife		4.7.4	195	0		
-459157	1968	Sila	zɛ21 jɔ33	zɛ21 jɔ33	son	son		4.7.3	196	0		
-459158	1968	Sila	zɛ21 mi21	zɛ21 mi21	daughter	daughter		4.7.3	197	0		
-459159	1968	Sila	zɛ21 gu21	zɛ21 gu21	child	child		1.5.3.2	198	0		
-459160	1968	Sila	kha21 phɛ33 zɛ21	kha21 phɛ33 zɛ21	male / man	male / man		1.9.6.1	199	0		
-459161	1968	Sila	kha21 mɛ33 zɛ21	kha21 mɛ33 zɛ21	female / woman	female / woman		1.9.3	200	0		
-459162	1968	Sila	tsho55 zɛ21	tsho55 zɛ21	man / human being	man / human being		1.9.6.1	201	0		
-459163	1968	Sila	ko55 ɯ21 a21 ma̰21	ko55 ɯ21 a21 ma̰21	Sila people	Sila people		4.5	202	0		
-459164	1968	Sila	tho21 phu21	tho21 phu21	meet with	meet with	v.	6.2	203	0		5689,m
-459165	1968	Sila	do21	do21	wait for	wait for	v.	6.1.1.6	204	0		
-459166	1968	Sila	bi21	bi21	give to	give to	v.	6.23	205	0		2158
-459167	1968	Sila	ɕi21	ɕi21	use	use	v.	6.2.2.7.1	206	0		
-459168	1968	Sila	hɔ55	hɔ55	look for	look for	v.	1.2.6.11	207	0		5799
-459169	1968	Sila	ɯ55	ɯ55	laugh	laugh	v.	1.8.8.1	208	0		1108
-459170	1968	Sila	hɔ55 phu55	hɔ55 phu55	love	love	v.	8.3.1.1.1	209	0		
-459171	1968	Sila	khe33	khe33	fear, be afraid of	fear, be afraid of	v.	8.3.1.10.1	210	0		
-459172	1968	Sila	ȵḭ33	ȵḭ33	frightened	frightened	be v.	8.3.1.10.1	211	0		
-459173	1968	Sila	sɯ21	sɯ21	know	know	v.	8.3.1.12.1	212	0		2670
-459174	1968	Sila	tɕɯ55	tɕɯ55	remember	remember	v.	8.3.1.16.1	213	0		
-459175	1968	Sila	phi21 ji55	phi21 ji55	forget	forget	v.	8.3.1.16.1	214	0		
-459176	1968	Sila	a21 tshy̰21	a21 tshy̰21	cold	cold		7.1.2.3	215	0		
-459177	1968	Sila	tɕhɔ̰21	tɕhɔ̰21	cold	cold		7.1.2.3	215	0		
-459178	1968	Sila	lo55	lo55	hot	hot			216	0		
-459179	1968	Sila	my̰21	my̰21	hungry	hungry		1.1.3	217	0		99
-459180	1968	Sila	ɕḭ21	ɕḭ21	thirsty	thirsty		1.1.3.1	218	0		101
-459181	1968	Sila	bɔ̰33	bɔ̰33	drunk	drunk		1.3.5.9	219	0		
-459182	1968	Sila	mlɛ55	mlɛ55	delicious	delicious		7.1.4.4	220	0		
-459183	1968	Sila	a21 tɕhi55	a21 tɕhi55	sweet	sweet		7.1.4.4	221	0		p,2380
-459184	1968	Sila	a21 tɕhɯ55	a21 tɕhɯ55	sour	sour		7.1.4.4	222	0		p,7205
-459185	1968	Sila	a21 phi55	a21 phi55	pepper-hot	pepper-hot		3.1.5	223	0		
-459186	1968	Sila	ȵa55	ȵa55	salty	salty		3.2.4	224	0		
-459187	1968	Sila	a21 gja21 lɔ55	a21 gja21 lɔ55	thing	thing		8.1	225	0		
-459188	1968	Sila	ɯ21	ɯ21	big	big		9.7.2	226	0		
-459189	1968	Sila	a21 zɛ21	a21 zɛ21	small	small		9.7.2	227	0		
-459190	1968	Sila	jɔ33 mjo55	jɔ33 mjo55	tall, high	tall, high		9.7.2	228	0		m,2597
-459191	1968	Sila	a21 mjɛ21 lɛ21	a21 mjɛ21 lɛ21	low	low		7.1.5.3	229	0		
-459192	1968	Sila	jɔ33 hɯ55	jɔ33 hɯ55	long	long		9.7.2	230	0		
-459193	1968	Sila	a21 ȵy55 ly55	a21 ȵy55 ly55	short	short		9.7.2	231	0		
-459194	1968	Sila	a21 blɛ21	a21 blɛ21	broad, wide	broad, wide		7.1.5.1	232	0		
-459195	1968	Sila	a21 khḭ21	a21 khḭ21	narrow	narrow		9.7.2	233	0		
-459196	1968	Sila	phɛ21 thu55	phɛ21 thu55	thick	thick		9.7.2	234	0		m,183
-459197	1968	Sila	a21 bɛ21	a21 bɛ21	thin	thin		9.7.2	235	0		p,5551
-459198	1968	Sila	na̰21	na̰21	deep	deep		7.1.5.3	236	0		6130
-459199	1968	Sila	ma21 na̰21	ma21 na̰21	shallow	shallow		7.1.5.3	237	0		
-459200	1968	Sila	a21 bɤ33 lɤ33	a21 bɤ33 lɤ33	round	round		9.7.1	238	0		p,m,690
-459201	1968	Sila	a21 nɯ55 lɯ55	a21 nɯ55 lɯ55	red	red		9.4	240	0		
-459202	1968	Sila	a21 hɯ55 lɯ55	a21 hɯ55 lɯ55	yellow	yellow		9.4	241	0		
-459203	1968	Sila	bo55 khɯ55 lɯ55	bo55 khɯ55 lɯ55	blue	blue		9.4	242	0		
-459204	1968	Sila	a21 phju55 lu55	a21 phju55 lu55	white	white		9.4	243	0		p,1235,m
-459205	1968	Sila	a21 na̰33 la33	a21 na̰33 la33	black	black		9.4	244	0		
-459206	1968	Sila	dʑy21 ȵy55 ly55	dʑy21 ȵy55 ly55	green	green		9.4	245	0		
-459207	1968	Sila	a21 thɯ55	a21 thɯ55	sound, noise	sound, noise		9.3	246	0		
-459208	1968	Sila	a21 jo55 lo55	a21 jo55 lo55	light	light		7.1.11.1	247	0		
-459209	1968	Sila	a21 li21	a21 li21	heavy	heavy		9.6.2	248	0		p,2415
-459210	1968	Sila	a21 gɯ33	a21 gɯ33	dry	dry		6.6	249	0		p,1001
-459211	1968	Sila	a21 dʑe55	a21 dʑe55	wet	wet		6.6	250	0		
-459212	1968	Sila	a21 nɔ̰21	a21 nɔ̰21	soft	soft		7.1.4.2	251	0		
-459213	1968	Sila	a21 kha̰33	a21 kha̰33	hard	hard		9.6.2	252	0		
-459214	1968	Sila	blɯ̰33	blɯ̰33	full	full		1.1.3.2	253	0		111
-459215	1968	Sila	a21 ɕḭ21	a21 ɕḭ21|	new	new		9.6.1.1	254	0		p,6178
-459216	1968	Sila	a21 li55	a21 li55	old	old		7.1.8.3	255	0		p,7183
-459217	1968	Sila	a21 dʑi21	a21 dʑi21	raw	raw		7.1.8.3	256	0		p,1005
-459218	1968	Sila	a21 tɕa̰21	a21 tɕa̰21	done, ripe	done, ripe		6.1.1.1	257	0		
-459219	1968	Sila	mɯ21	mɯ21	good	good		9.6.1.1	258	0		2457
-459220	1968	Sila	ma21 mɯ21	ma21 mɯ21	bad	bad		9.6.2.1	259	0		2436,2457
-459221	1968	Sila	a21 gi21	a21 gi21	difficult	difficult		9.6.2	260	0		
-459222	1968	Sila	a21 ŋai21	a21 ŋai21	easy	easy		9.6.1.1	261	0		p,bTai
-459223	1968	Sila	phy21	phy21	expensive	expensive		5.9	262	0		2583
-459224	1968	Sila	ɛ21	ɛ21	cheap	cheap		5.9	263	0		
-459225	1968	Sila	ho55	ho55	clean	clean		6.2.2.5.2	264	0		
-459226	1968	Sila	ma21 ho55	ma21 ho55	dirty	dirty		3.2.11	265	0		
-459227	1968	Sila	khjo55	khjo55	quick, fast	quick, fast		9.6.1.1	266	0		
-459228	1968	Sila	a21 bɛ33 bɛ33	a21 bɛ33 bɛ33	slow	slow		9.6.2.1	267	0		
-459229	1968	Sila	a21 bɤ̰21	a21 bɤ̰21	fat	fat		1.6.4	268	0		
-459230	1968	Sila	a21 be55	a21 be55	thin	thin		9.7.2	269	0		p,5551
-459231	1968	Sila	zɛ21 mo21	zɛ21 mo21	old of age	old of age		7.1.8.3	270	0		
-459232	1968	Sila	zɛ21 gu21	zɛ21 gu21	young of age	young of age		7.1.8.3	271	0		
-459233	1968	Sila	a21 nɯ̰33	a21 nɯ̰33	year	year		9.1.2	272	0		m,2501
-459234	1968	Sila	tshɯ̰21 nɯ̰33	tshɯ̰21 nɯ̰33	this year	this year		10.4.3.2	273	0		m,2501
-459235	1968	Sila	ḭ21 nɯ̰33	ḭ21 nɯ̰33	last year	last year		9.9	274	0		m,2501
-459236	1968	Sila	nḛ21 a21 mjɔ55	nḛ21 a21 mjɔ55	next year	next year		9.9	275	0		
-459237	1968	Sila	bɛ33 lɛ33	bɛ33 lɛ33	month	month		9.1.2	276	0		
-459238	1968	Sila	i55 ga33 a21 lɛ33	i55 ga33 a21 lɛ33	this month	this month		10.4.3.2	277	0		5807,m
-459239	1968	Sila	na55 ga33 a21 lɛ33	na55 ga33 a21 lɛ33	last month	last month		9.9	278	0		
-459240	1968	Sila	ja21 ȵi33	ja21 ȵi33	today	today		9.1.3	280	0		
-459241	1968	Sila	i21 ȵi33	i21 ȵi33	yesterday	yesterday		9.1.3	281	0		
-459242	1968	Sila	me33 ne33	me33 ne33	tomorrow	tomorrow		9.1.3	282	0		
-459243	1968	Sila	ne33 ho33	ne33 ho33	morning	morning		9.1.4	283	0		6227,m
-459244	1968	Sila	ȵi33 ko55	ȵi33 ko55	noon	noon		9.1.4	284	0		
-459245	1968	Sila	khy21 thɯ̰33	khy21 thɯ̰33	evening	evening		9.1.4	285	0		
-459246	1968	Sila	mja55 l̥o55	mja55 l̥o55	night	night		9.1.4	286	0		
-459247	1968	Sila	na55 tha̰21	na55 tha̰21	above	above		9.2.1	287	0		
-459248	1968	Sila	na55 lɔ̰21	na55 lɔ̰21	below	below		9.2.2	288	0		
-459249	1968	Sila	mi55 ɯ21	mi55 ɯ21	far	far		9.2.4	289	0		
-459250	1968	Sila	a21 nɯ21	a21 nɯ21	near	near		9.2.3	290	0		
-459251	1968	Sila	lɔ55	lɔ55	come	come	v.	6.7.1	291	0		3569
-459252	1968	Sila	ji55	ji55	go	go	v.	6.7.2	292	0		
-459253	1968	Sila	o55 le33	o55 le33	enter	enter	v.	6.7.1	293	0		
-459254	1968	Sila	tɔ̰33 ji55	tɔ̰33 ji55	exit	exit	v.	6.7.2	294	0		
-459255	1968	Sila	ŋɔ55	ŋɔ55	I	I		4.1	295	0		2530
-459256	1968	Sila	nɛ55 ɛ21	nɛ55 ɛ21	you, thou	you, thou		4.1	296	0		2489,m
-459257	1968	Sila	ma21 tɕho21	ma21 tɕho21	he, she	he, she		4.1	297	0		
-459258	1968	Sila	ŋɔ55 u33	ŋɔ55 u33	we	we		4.1	298	0		
-459259	1968	Sila	nɛ55 u33	nɛ55 u33	you, ye	you, ye		4.1	299	0		2489,m
-459260	1968	Sila	ŋɔ55 ko55 ɯ21 a21 ma̰21	ŋɔ55 ko55 ɯ21 a21 ma̰21	I am Sila.	I am Sila.		4.1	301	0		
-459261	1968	Sila	ŋɔ55 ko55 ɯ21 a21 ma̰21 ma21 ŋɤ55	ŋɔ55 ko55 ɯ21 a21 ma̰21 ma21 ŋɤ55	I am not Sila.	I am not Sila.		4.1	302	0		m,m,m,m,m,2436,m
-459262	1968	Sila	ŋɔ55 zɛ21 gu21 ȵḭ21 lɛ55 dʑo55 a33	ŋɔ55 zɛ21 gu21 ȵḭ21 lɛ55 dʑo55 a33	I have two children.	I have two children.		4.1	303	0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+458956	1968	Sila	ko55 ɯ21	ko55 ɯ21	autonym	autonym			4.6		0			
+458957	1968	Sila	a21 mɯ21	a21 mɯ21	body hair	body hair			1.6.1	1	0			p,363
+458958	1968	Sila	a21 khɔ̰33	a21 khɔ̰33	skin	skin			1.6.5	2	0			p,586
+458959	1968	Sila	hɛ21 ɯ21	hɛ21 ɯ21	bone	bone			1.6.3	3	0			
+458960	1968	Sila	ɕi21	ɕi21	blood	blood			1.6.2	4	0			230
+458961	1968	Sila	mja33 bi55	mja33 bi55	tears	tears			1.2.6.7	5	0			
+458962	1968	Sila	mja33 ɯ55	mja33 ɯ55	tears	tears			1.2.6.7	5	0			
+458963	1968	Sila	tsha55 l̥i21	tsha55 l̥i21	sweat	sweat			1.8.1	6	0			
+458964	1968	Sila	o21 khja21	o21 khja21	head	head			1.2.1	7	0			
+458965	1968	Sila	tsha55 khɯ55	tsha55 khɯ55	hair	hair			1.2.3	8	0			366,m
+458966	1968	Sila	mja33 phjo21	mja33 phjo21	face	face			1.2.5	9	0			681,1186
+458967	1968	Sila	mja33 kho55	mja33 kho55	eyebrow	eyebrow			1.2.6.6	10	0			
+458968	1968	Sila	mja33 tsḭ33	mja33 tsḭ33	eyes	eyes			1.2.6	11	0			
+458969	1968	Sila	ne21 pha̰21	ne21 pha̰21	ears	ears			1.2.7	12	0			
+458970	1968	Sila	na55 mø55	na55 mø55	nose	nose			1.2.8	13	0			803,m
+458971	1968	Sila	ne21 bo21	ne21 bo21	mouth	mouth			1.3.1	14	0			
+458972	1968	Sila	a21 lɔ55	a21 lɔ55	tongue	tongue			1.3.3	15	0			p,623
+458973	1968	Sila	a21 se21	a21 se21	teeth	teeth			1.3.4	16	0			
+458974	1968	Sila	ne21 mɯ21	ne21 mɯ21	beard / moustache	beard / moustache			1.2.5.5	17	0			
+458975	1968	Sila	o21 lɯ55	o21 lɯ55	neck	neck			1.4.2	18	0			
+458976	1968	Sila	be21 tha̰21	be21 tha̰21	shoulder	shoulder			1.4.3	19	0			
+458977	1968	Sila	la̰21 bu21	la̰21 bu21	hand	hand			1.5.1.1	20	0			695,m
+458978	1968	Sila	la̰21 mɔ55	la̰21 mɔ55	right-hand	right-hand			1.5.1.1	21	0			695,m
+458979	1968	Sila	la̰21 ṵ21	la̰21 ṵ21	left-hand	left-hand			1.5.3.2	22	0			695,2154
+458980	1968	Sila	la̰21 ɯ21	la̰21 ɯ21	arm	arm			1.5.1.2	23	0			695,m
+458981	1968	Sila	la̰21 tshɯ̰̰21	la̰21 tshɯ̰̰21	elbow	elbow			1.5.8.3	24	0			695,418
+458982	1968	Sila	la̰21 khy̰21	la̰21 khy̰21	palm	palm			1.5.5	25	0			
+458983	1968	Sila	la̰21 nɯ55	la̰21 nɯ55	finger	finger			1.5.6	26	0			
+458984	1968	Sila	la̰21 sɯ21	la̰21 sɯ21	fingernail	fingernail			1.5.10.1	27	0			
+458985	1968	Sila	a21 nu55	a21 nu55	breast	breast			1.4.4.3	28	0			
+458986	1968	Sila	nu55 sɯ21	nu55 sɯ21	nipple	nipple				29	0			
+458987	1968	Sila	a21 tɕɔ̰21	a21 tɕɔ̰21	waist	waist			1.4.6	30	0			p,215
+458988	1968	Sila	u55 mɛ33	u55 mɛ33	belly	belly			1.4.7	31	0			
+458989	1968	Sila	tɕha33 tɕhu21	tɕha33 tɕhu21	navel	navel			1.9.4	32	0			
+458990	1968	Sila	to21 phu55	to21 phu55	buttocks	buttocks			1.4.10	33	0			
+458991	1968	Sila	jo21	jo21	feces	feces			1.8.5	34	0			
+458992	1968	Sila	jo21 thɯ33	jo21 thɯ33	defecate	defecate	v.	v.	1.8.5.4	35	0			
+458993	1968	Sila	y21 ɕy21	y21 ɕy21	urine	urine			1.8.4	36	0			
+458994	1968	Sila	y21 ɕy21 ɕy21	y21 ɕy21 ɕy21	urinate	urinate	v.	v.	1.5.3.2	37	0			
+458995	1968	Sila	i21 kha21	i21 kha21	expel intestinal gas	expel intestinal gas	v.	v.	6.7.2	38	0			
+458996	1968	Sila	zɛ21 gu21 ty̰21	zɛ21 gu21 ty̰21	give birth	give birth	v.	v.	1.1.2	39	0			
+458997	1968	Sila	a21 khi55	a21 khi55	leg	leg			1.5.7	40	0			p,335
+458998	1968	Sila	a21 khi55	a21 khi55	foot	foot			1.5.2	41	0			p,335
+458999	1968	Sila	tho21 kho55	tho21 kho55	back	back			1.4.8	42	0			
+459000	1968	Sila	mjo55	mjo55	see	see	v.	v.	1.2.6.10	43	0			1227
+459001	1968	Sila	dɛ21	dɛ21	look	look	v.	v.	1.2.6.11	43	0			
+459002	1968	Sila	nɔ55 da21	nɔ55 da21	listen	listen	v.	v.	1.2.7.4	44	0			811,m
+459003	1968	Sila	dzɛ21	dzɛ21	eat	eat	v.	v.	1.5.3.2	45	0			36
+459004	1968	Sila	do55	do55	drink	drink	v.	v.		46	0			502
+459005	1968	Sila	khḭ21	khḭ21	bite	bite	v.	v.	1.3.4.4	47	0			
+459006	1968	Sila	ø55	ø55	hold with the hand	hold with the hand	v.	v.	6.16	48	0			
+459007	1968	Sila	la21 khe33	la21 khe33	put, place in/on	put, place in/on	v.	v.	10.1.1	49	0			
+459008	1968	Sila	lɛ21	lɛ21	push	push	v.	v.	6.2.2.3.1	50	0			
+459009	1968	Sila	hɯ33	hɯ33	pull	pull	v.	v.	6.2.2.3.1	51	0			5618
+459010	1968	Sila	thi33	thi33	throw	throw	v.	v.	6.12	52	0			
+459011	1968	Sila	kɔ33	kɔ33	pick up	pick up	v.	v.	6.10.4	53	0			5430
+459012	1968	Sila	khu21	khu21	ladle	ladle	v.	v.	5.5	54	0			2296
+459013	1968	Sila	khja33	khja33	ladle	ladle	v.	v.	5.5	54	0			2792
+459014	1968	Sila	tsho21	tsho21	run	run	v.	v.	6.7.4	55	0			
+459015	1968	Sila	tɯ55	tɯ55	sit	sit	v.	v.	6.1.1.4.1	56	0			
+459016	1968	Sila	tho21 phu55	tho21 phu55	stand up	stand up	v.	v.	1.5.2	57	0			148,m
+459017	1968	Sila	tɕhi21	tɕhi21	cough	cough	v.	v.	1.8.3.3	58	0			
+459018	1968	Sila	thɯ21	thɯ21	1	1				59	0			
+459019	1968	Sila	ȵḭ21	ȵḭ21	2	2				60	0			
+459020	1968	Sila	sa55	sa55	3	3				61	0			
+459021	1968	Sila	li21	li21	4	4				62	0			
+459022	1968	Sila	ŋɔ21	ŋɔ21	5	5				63	0			
+459023	1968	Sila	khjɔ̰21	khjɔ̰21	6	6				64	0			
+459024	1968	Sila	ɕḭ21	ɕḭ21	7	7				65	0			
+459025	1968	Sila	ḭ21	ḭ21	8	8				66	0			
+459026	1968	Sila	ky21	ky21	9	9				67	0			
+459027	1968	Sila	tshɯ55	tshɯ55	10	10				68	0			
+459028	1968	Sila	tshɯ55 thɯ21	tshɯ55 thɯ21	11	11				69	0			
+459029	1968	Sila	tshɯ55 ȵḭ21	tshɯ55 ȵḭ21	12	12				70	0			
+459030	1968	Sila	mi21 tha̰21	mi21 tha̰21	sky	sky			3.2.2	71	0			
+459031	1968	Sila	ȵu55 wɛ33	ȵu55 wɛ33	sun	sun			3.2.10	72	0			
+459032	1968	Sila	bɛ33 lɛ33	bɛ33 lɛ33	moon	moon			3.2.2	73	0			m,1016
+459033	1968	Sila	mi21 gi55	mi21 gi55	star	star			3.2.2	74	0			
+459034	1968	Sila	li55	li55	wind	wind			3.2.1	75	0			2412
+459035	1968	Sila	ma21 ɯ55	ma21 ɯ55	rain	rain			3.2.1	76	0			
+459036	1968	Sila	ma21 ɯ55 ɯ55	ma21 ɯ55 ɯ55	it rains	it rains			8.1	77	0			
+459037	1968	Sila	tshɔ33 thi33	tshɔ33 thi33	thunder	thunder			3.2.1	78	0			
+459038	1968	Sila	mi21 dʑe21 dʑe21	mi21 dʑe21 dʑe21	it thunders	it thunders			8.1	79	0			
+459039	1968	Sila	mi55 tshɛ21	mi55 tshɛ21	soil, earth	soil, earth			3.2.11	80	0			2453,5671
+459040	1968	Sila	lɔ33 phu33	lɔ33 phu33	stone	stone			3.2.9	81	0			1269
+459041	1968	Sila	i21 tɕho21	i21 tɕho21	hill, mountain	hill, mountain			3.2.5	82	0			
+459042	1968	Sila	i55 tɕhɔ̰21	i55 tɕhɔ̰21	water	water			3.2.3	83	0			
+459043	1968	Sila	lo33 mɛ33	lo33 mɛ33	lake	lake			3.2.5	84	0			
+459044	1968	Sila	a21 la̰33	a21 la̰33	river	river			3.2.3	85	0			
+459045	1968	Sila	mi21	mi21	fire	fire			3.2.12.2	86	0			
+459046	1968	Sila	mi21 khy21	mi21 khy21	smoke	smoke			3.2.12.2	87	0			
+459047	1968	Sila	ja21 tɕhɯ55	ja21 tɕhɯ55	house	house			5.11.9.1	88	0			
+459048	1968	Sila	i55 mo55	i55 mo55	roof	roof			5.11.9	89	0			
+459049	1968	Sila	ɯ55 khɯ55	ɯ55 khɯ55	pillar	pillar			5.11.9.3.1	90	0			
+459050	1968	Sila	ko55 ɯ21	ko55 ɯ21	mat	mat			5.11.9.4	91	0			
+459051	1968	Sila	a21 gja55	a21 gja55	covering	covering			5.8	92	0			
+459052	1968	Sila	y21 gy21	y21 gy21	pillow	pillow			1.2.1	93	0			
+459053	1968	Sila	bɯ33 lo55	bɯ33 lo55	mosquito net	mosquito net			2.2.6	94	0			
+459054	1968	Sila	thɯ33 zɛ21	thɯ33 zɛ21	knife	knife			5.5	95	0			
+459055	1968	Sila	tɤ̰33	tɤ̰33	cut	cut	v.	v.	6.9.3	96	0			
+459056	1968	Sila	to21 mi21	to21 mi21	tail	tail			1.4.10.1	97	0			m,1288
+459057	1968	Sila	o21 khɯ55	o21 khɯ55	horn	horn			1.2.2	98	0			
+459058	1968	Sila	lɛ21 tɕha̰21	lɛ21 tɕha̰21	tiger	tiger			2.1.3	99	0			5560,m
+459059	1968	Sila	ju33 wɛ33	ju33 wɛ33	elephant	elephant			2.2.1	100	0			3317,m
+459060	1968	Sila	ɔ33 tɕha̰21	ɔ33 tɕha̰21	mouse	mouse			2.1.1	101	0			2630
+459061	1968	Sila	khi21 zɛ21	khi21 zɛ21	bird	bird			2.2.4	102	0			
+459062	1968	Sila	bɛ55	bɛ55	fly	fly	v.	v.	2.2.6	103	0			
+459063	1968	Sila	a33 ṵ33	a33 ṵ33	egg	egg				104	0			m,301
+459064	1968	Sila	lɯ̰21 ma̰21	lɯ̰21 ma̰21	crow	crow			2.2.4.1	105	0			
+459065	1968	Sila	bo21 na33	bo21 na33	buffalo	buffalo			2.1.2	106	0			
+459066	1968	Sila	mø55 ȵu21	mø55 ȵu21	cattle	cattle			2.1.2	107	0			
+459067	1968	Sila	wa̰21	wa̰21	pig	pig			2.1.12	108	0			1006
+459068	1968	Sila	mjo21	mjo21	horse	horse			2.1.7	109	0			1431
+459069	1968	Sila	ma55 khɯ21	ma55 khɯ21	dog	dog			2.1.11	110	0			m,1764
+459070	1968	Sila	mi55 mi55	mi55 mi55	cat	cat			2.1.3	111	0			
+459071	1968	Sila	a̰33	a̰33	chicken	chicken			2.1.10	112	0			1606
+459072	1968	Sila	tɕɔ̰33 khy̰33	tɕɔ̰33 khy̰33	duck	duck			2.1.10	113	0			
+459073	1968	Sila	bjɛ21	bjɛ21	bee	bee			2.2.6	114	0			2187
+459074	1968	Sila	ja55 m̰21	ja55 m̰21	fly	fly			2.2.6	115	0			
+459075	1968	Sila	ja55 gy21	ja55 gy21	mosquito	mosquito			2.2.6	116	0			
+459076	1968	Sila	bḭ21 jɔ33	bḭ21 jɔ33	ant	ant			2.2.6	117	0			
+459077	1968	Sila	ɯ55 lo55	ɯ55 lo55	snake	snake			2.1.6.1	118	0			
+459078	1968	Sila	ŋa21 dɯ55	ŋa21 dɯ55	fish	fish			2.2.5	119	0			1455,m
+459079	1968	Sila	na55 by55	na55 by55	shrimp	shrimp			2.2.5	120	0			
+459080	1968	Sila	bi21 khɛ33	bi21 khɛ33	crab	crab			2.2.5	121	0			
+459081	1968	Sila	phɛ21 nɯ21	phɛ21 nɯ21	frog	frog			2.1.6.2	122	0			2148,m
+459082	1968	Sila	mjɔ̰21 khɔ̰21	mjɔ̰21 khɔ̰21	fish with a rod	fish with a rod	v.	v.	2.2.5	123	0			
+459083	1968	Sila	sḭ21	sḭ21	kill	kill	v.	v.	6.4	124	0			1018
+459084	1968	Sila	a21 tsḭ33	a21 tsḭ33	seed	seed			3.1.4	125	0			
+459085	1968	Sila	sɯ33 dzɯ55	sɯ33 dzɯ55	tree	tree			3.1.2	126	0			2658,m
+459086	1968	Sila	sɯ33 pha̰21	sɯ33 pha̰21	leaf	leaf			3.1.3	127	0			
+459087	1968	Sila	a21 wḛ33	a21 wḛ33	flower	flower			3.1.4	128	0			
+459088	1968	Sila	nɔ33 kḛ33	nɔ33 kḛ33	bean	bean			3.1.4	129	0			
+459089	1968	Sila	ma21 ja33	ma21 ja33	bamboo	bamboo			3.1.1	130	0			5664,m
+459090	1968	Sila	kɔ̰33 bo55	kɔ̰33 bo55	paddy plant	paddy plant			9.10.5	131	0			
+459091	1968	Sila	o21	o21	rice	rice			3.1.4	132	0			
+459092	1968	Sila	nɛ21 hø55 lø55	nɛ21 hø55 lø55	sesame	sesame			3.1.6.1	133	0			2487,m,m
+459093	1968	Sila	tɕhɔ21 tshɯ̰21	tɕhɔ21 tshɯ̰21	ginger	ginger			3.1.5	134	0			
+459094	1968	Sila	ŋa33 sɯ21	ŋa33 sɯ21	banana	banana			3.1.5	135	0			
+459095	1968	Sila	phu21 tɕhi55	phu21 tɕhi55	sugar cane	sugar cane			3.1.6.2	136	0			
+459096	1968	Sila	o33 dzɯ55	o33 dzɯ55	betel nut	betel nut			3.1.4	137	0			
+459097	1968	Sila	khɛ33	khɛ33	plant	plant	v.	v.	3.1.10	138	0			
+459098	1968	Sila	li21	li21	plow	plow			6.11	139	0			
+459099	1968	Sila	te33 kɔ̰21	te33 kɔ̰21	irrigated field	irrigated field			6.6	140	0			5672,m
+459100	1968	Sila	ja55 go55	ja55 go55	upland field	upland field			3.2.5	141	0			5544,m
+459101	1968	Sila	a21 tshɯ55	a21 tshɯ55	oil	oil			1.6.4.1	142	0			p,42
+459102	1968	Sila	tshɛ21 lo33	tshɛ21 lo33	salt	salt			3.2.4	143	0			2729
+459103	1968	Sila	tɕhi55 tɕha̰21	tɕhi55 tɕha̰21	sugar	sugar			3.1.6.2	144	0			
+459104	1968	Sila	ma33 pḛ33	ma33 pḛ33	chili [chilli]	chili [chilli]			3.1.5	145	0			
+459105	1968	Sila	la̰33	la̰33	tea	tea			3.1.1	146	0			786
+459106	1968	Sila	tɕhi55 phu21	tɕhi55 phu21	wine	wine			3.1.6.3	147	0			
+459107	1968	Sila	tɕa33 gɔ21	tɕa33 gɔ21	cigarette / tobacco	cigarette / tobacco			5.8	148	0			
+459108	1968	Sila	o21 sa̰21	o21 sa̰21	cook rice	cook rice	v.	v.	5.5	149	0			
+459109	1968	Sila	mi21 dzɛ21	mi21 dzɛ21	firewood	firewood			5.11.5.5	150	0			
+459110	1968	Sila	ma33 lɛ33	ma33 lɛ33	pot	pot			5.5	151	0			
+459111	1968	Sila	phṵ21	phṵ21	boil	boil	v.	v.	6.6	152	0			
+459112	1968	Sila	tɕha̰21	tɕha̰21	boil	boil	v.	v.	6.6	152	0			
+459113	1968	Sila	phy̰33	phy̰33	roast	roast	v.	v.	5.5	153	0			
+459114	1968	Sila	a21 khɯ21	a21 khɯ21	cloth	cloth			5.1	154	0			
+459115	1968	Sila	kṵ21	kṵ21	sew	sew	v.	v.	5.1	155	0			2627
+459116	1968	Sila	kṵ21 kḛ21	kṵ21 kḛ21	needle	needle			5.1	156	0			
+459117	1968	Sila	khɯ55	khɯ55	thread	thread			5.11.6	157	0			
+459118	1968	Sila	tshi21	tshi21	wash clothes	wash clothes	v.	v.	6.2.2.5.2	158	0			5647
+459119	1968	Sila	a21 ga21 dy33	a21 ga21 dy33	clothes	clothes			5.11.8.2.1	159	0			
+459120	1968	Sila	dy33	dy33	wear	wear	v.	v.	6.2.2.1	160	0			
+459121	1968	Sila	ly̰33	ly̰33	undress	undress	v.	v.	6.1.1	161	0			
+459122	1968	Sila	a55 kho55	a55 kho55	road	road			9.10.1	162	0			
+459123	1968	Sila	tso55 mi55	tso55 mi55	village	village			5.8	163	0			
+459124	1968	Sila	u55	u55	buy	buy	v.	v.	6.22	164	0			
+459125	1968	Sila	go21	go21	sell	sell	v.	v.	6.22	165	0			
+459126	1968	Sila	phju55	phju55	money	money			5.9	167	0			
+459127	1968	Sila	bɯ21	bɯ21	speak	speak	v.	v.	8.5.10.1	168	0			
+459128	1968	Sila	tsha21	tsha21	speak	speak	v.	v.	8.5.10.1	168	0			
+459129	1968	Sila	nɔ55 da21	nɔ55 da21	ask	ask	v.	v.	8.5.7.1	169	0			
+459130	1968	Sila	tsha21	tsha21	answer	answer	v.	v.	8.5.6	170	0			
+459131	1968	Sila	khu55	khu55	call	call	v.	v.	8.5.13	171	0			
+459132	1968	Sila	ko55 ɯ21 sɯ21 do21	ko55 ɯ21 sɯ21 do21	Sila language	Sila language			5.8	172	0			
+459133	1968	Sila	bjɔ̰21	bjɔ̰21	write	write	v.	v.	6.2.2.9.1	173	0			5407
+459134	1968	Sila	ŋa33 tɕy̰33	ŋa33 tɕy̰33	paper	paper			5.1	174	0			
+459135	1968	Sila	thi33 ȵo21	thi33 ȵo21	stick	stick	v.	v.	3.1.2	175	0			
+459136	1968	Sila	nɯ55	nɯ55	play	play	v.	v.	6.1.1.3	176	0			
+459137	1968	Sila	e55 la33	e55 la33	song	song			5.1	177	0			
+459138	1968	Sila	mɛ21	mɛ21	get tired	get tired	v.	v.	1.1.5	178	0			
+459139	1968	Sila	sɔ21	sɔ21	rest	rest	v.	v.	1.1.4.1	179	0			
+459140	1968	Sila	i21 thi21	i21 thi21	sleep	sleep	v.	v.	1.1.4.1	180	0			127,m
+459141	1968	Sila	ɕi55	ɕi55	die	die	v.	v.	1.1.6	181	0			27
+459142	1968	Sila	a21 nɯ̰33	a21 nɯ̰33	age	age			9.1.2	182	0			
+459143	1968	Sila	a21 nɔ55	a21 nɔ55	ill	ill	be v.	be v.	1.1.5.1	183	0			
+459144	1968	Sila	a21 nɔ55	a21 nɔ55	painful	painful			1.1.5.1	184	0			
+459145	1968	Sila	hɤ55 thɤ̰21 mø̰33	hɤ55 thɤ̰21 mø̰33	hiccough	hiccough	v.	v.	1.8.3.5	185	0			
+459146	1968	Sila	ɤ̰21 mø̰33	ɤ̰21 mø̰33	burp	burp	v.	v.	1.8.3	186	0			
+459147	1968	Sila	he55 phju55	he55 phju55	louse	louse			2.2.6	187	0			2652,1235
+459148	1968	Sila	o21 he55	o21 he55	louse	louse			2.2.6	187	0			m,2652
+459149	1968	Sila	a21 phɛ55	a21 phɛ55	medicine	medicine			5.4	188	0			
+459150	1968	Sila	sɯ21 na33	sɯ21 na33	bow	bow			5.15	189	0			
+459151	1968	Sila	mi21 tɕhø33	mi21 tɕhø33	arrow	arrow			5.15	190	0			m,74
+459152	1968	Sila	a21 mi55	a21 mi55	name	name			5.8	191	0			
+459153	1968	Sila	a21 bu33	a21 bu33	father	father			4.7.1	192	0			
+459154	1968	Sila	a21 mɛ33	a21 mɛ33	mother	mother			4.7.1	193	0			
+459155	1968	Sila	jɔ33 dʑi55	jɔ33 dʑi55	husband	husband			4.7.4	194	0			
+459156	1968	Sila	kha21 mɛ33	kha21 mɛ33	wife	wife			4.7.4	195	0			
+459157	1968	Sila	zɛ21 jɔ33	zɛ21 jɔ33	son	son			4.7.3	196	0			
+459158	1968	Sila	zɛ21 mi21	zɛ21 mi21	daughter	daughter			4.7.3	197	0			
+459159	1968	Sila	zɛ21 gu21	zɛ21 gu21	child	child			1.5.3.2	198	0			
+459160	1968	Sila	kha21 phɛ33 zɛ21	kha21 phɛ33 zɛ21	male / man	male / man			1.9.6.1	199	0			
+459161	1968	Sila	kha21 mɛ33 zɛ21	kha21 mɛ33 zɛ21	female / woman	female / woman			1.9.3	200	0			
+459162	1968	Sila	tsho55 zɛ21	tsho55 zɛ21	man / human being	man / human being			1.9.6.1	201	0			
+459163	1968	Sila	ko55 ɯ21 a21 ma̰21	ko55 ɯ21 a21 ma̰21	Sila people	Sila people			4.5	202	0			
+459164	1968	Sila	tho21 phu21	tho21 phu21	meet with	meet with	v.	v.	6.2	203	0			5689,m
+459165	1968	Sila	do21	do21	wait for	wait for	v.	v.	6.1.1.6	204	0			
+459166	1968	Sila	bi21	bi21	give to	give to	v.	v.	6.23	205	0			2158
+459167	1968	Sila	ɕi21	ɕi21	use	use	v.	v.	6.2.2.7.1	206	0			
+459168	1968	Sila	hɔ55	hɔ55	look for	look for	v.	v.	1.2.6.11	207	0			5799
+459169	1968	Sila	ɯ55	ɯ55	laugh	laugh	v.	v.	1.8.8.1	208	0			1108
+459170	1968	Sila	hɔ55 phu55	hɔ55 phu55	love	love	v.	v.	8.3.1.1.1	209	0			
+459171	1968	Sila	khe33	khe33	fear, be afraid of	fear, be afraid of	v.	v.	8.3.1.10.1	210	0			
+459172	1968	Sila	ȵḭ33	ȵḭ33	frightened	frightened	be v.	be v.	8.3.1.10.1	211	0			
+459173	1968	Sila	sɯ21	sɯ21	know	know	v.	v.	8.3.1.12.1	212	0			2670
+459174	1968	Sila	tɕɯ55	tɕɯ55	remember	remember	v.	v.	8.3.1.16.1	213	0			
+459175	1968	Sila	phi21 ji55	phi21 ji55	forget	forget	v.	v.	8.3.1.16.1	214	0			
+459176	1968	Sila	a21 tshy̰21	a21 tshy̰21	cold	cold			7.1.2.3	215	0			
+459177	1968	Sila	tɕhɔ̰21	tɕhɔ̰21	cold	cold			7.1.2.3	215	0			
+459178	1968	Sila	lo55	lo55	hot	hot				216	0			
+459179	1968	Sila	my̰21	my̰21	hungry	hungry			1.1.3	217	0			99
+459180	1968	Sila	ɕḭ21	ɕḭ21	thirsty	thirsty			1.1.3.1	218	0			101
+459181	1968	Sila	bɔ̰33	bɔ̰33	drunk	drunk			1.3.5.9	219	0			
+459182	1968	Sila	mlɛ55	mlɛ55	delicious	delicious			7.1.4.4	220	0			
+459183	1968	Sila	a21 tɕhi55	a21 tɕhi55	sweet	sweet			7.1.4.4	221	0			p,2380
+459184	1968	Sila	a21 tɕhɯ55	a21 tɕhɯ55	sour	sour			7.1.4.4	222	0			p,7205
+459185	1968	Sila	a21 phi55	a21 phi55	pepper-hot	pepper-hot			3.1.5	223	0			
+459186	1968	Sila	ȵa55	ȵa55	salty	salty			3.2.4	224	0			
+459187	1968	Sila	a21 gja21 lɔ55	a21 gja21 lɔ55	thing	thing			8.1	225	0			
+459188	1968	Sila	ɯ21	ɯ21	big	big			9.7.2	226	0			
+459189	1968	Sila	a21 zɛ21	a21 zɛ21	small	small			9.7.2	227	0			
+459190	1968	Sila	jɔ33 mjo55	jɔ33 mjo55	tall, high	tall, high			9.7.2	228	0			m,2597
+459191	1968	Sila	a21 mjɛ21 lɛ21	a21 mjɛ21 lɛ21	low	low			7.1.5.3	229	0			
+459192	1968	Sila	jɔ33 hɯ55	jɔ33 hɯ55	long	long			9.7.2	230	0			
+459193	1968	Sila	a21 ȵy55 ly55	a21 ȵy55 ly55	short	short			9.7.2	231	0			
+459194	1968	Sila	a21 blɛ21	a21 blɛ21	broad, wide	broad, wide			7.1.5.1	232	0			
+459195	1968	Sila	a21 khḭ21	a21 khḭ21	narrow	narrow			9.7.2	233	0			
+459196	1968	Sila	phɛ21 thu55	phɛ21 thu55	thick	thick			9.7.2	234	0			m,183
+459197	1968	Sila	a21 bɛ21	a21 bɛ21	thin	thin			9.7.2	235	0			p,5551
+459198	1968	Sila	na̰21	na̰21	deep	deep			7.1.5.3	236	0			6130
+459199	1968	Sila	ma21 na̰21	ma21 na̰21	shallow	shallow			7.1.5.3	237	0			
+459200	1968	Sila	a21 bɤ33 lɤ33	a21 bɤ33 lɤ33	round	round			9.7.1	238	0			p,m,690
+459201	1968	Sila	a21 nɯ55 lɯ55	a21 nɯ55 lɯ55	red	red			9.4	240	0			
+459202	1968	Sila	a21 hɯ55 lɯ55	a21 hɯ55 lɯ55	yellow	yellow			9.4	241	0			
+459203	1968	Sila	bo55 khɯ55 lɯ55	bo55 khɯ55 lɯ55	blue	blue			9.4	242	0			
+459204	1968	Sila	a21 phju55 lu55	a21 phju55 lu55	white	white			9.4	243	0			p,1235,m
+459205	1968	Sila	a21 na̰33 la33	a21 na̰33 la33	black	black			9.4	244	0			
+459206	1968	Sila	dʑy21 ȵy55 ly55	dʑy21 ȵy55 ly55	green	green			9.4	245	0			
+459207	1968	Sila	a21 thɯ55	a21 thɯ55	sound, noise	sound, noise			9.3	246	0			
+459208	1968	Sila	a21 jo55 lo55	a21 jo55 lo55	light	light			7.1.11.1	247	0			
+459209	1968	Sila	a21 li21	a21 li21	heavy	heavy			9.6.2	248	0			p,2415
+459210	1968	Sila	a21 gɯ33	a21 gɯ33	dry	dry			6.6	249	0			p,1001
+459211	1968	Sila	a21 dʑe55	a21 dʑe55	wet	wet			6.6	250	0			
+459212	1968	Sila	a21 nɔ̰21	a21 nɔ̰21	soft	soft			7.1.4.2	251	0			
+459213	1968	Sila	a21 kha̰33	a21 kha̰33	hard	hard			9.6.2	252	0			
+459214	1968	Sila	blɯ̰33	blɯ̰33	full	full			1.1.3.2	253	0			111
+459215	1968	Sila	a21 ɕḭ21	a21 ɕḭ21|	new	new			9.6.1.1	254	0			p,6178
+459216	1968	Sila	a21 li55	a21 li55	old	old			7.1.8.3	255	0			p,7183
+459217	1968	Sila	a21 dʑi21	a21 dʑi21	raw	raw			7.1.8.3	256	0			p,1005
+459218	1968	Sila	a21 tɕa̰21	a21 tɕa̰21	done, ripe	done, ripe			6.1.1.1	257	0			
+459219	1968	Sila	mɯ21	mɯ21	good	good			9.6.1.1	258	0			2457
+459220	1968	Sila	ma21 mɯ21	ma21 mɯ21	bad	bad			9.6.2.1	259	0			2436,2457
+459221	1968	Sila	a21 gi21	a21 gi21	difficult	difficult			9.6.2	260	0			
+459222	1968	Sila	a21 ŋai21	a21 ŋai21	easy	easy			9.6.1.1	261	0			p,bTai
+459223	1968	Sila	phy21	phy21	expensive	expensive			5.9	262	0			2583
+459224	1968	Sila	ɛ21	ɛ21	cheap	cheap			5.9	263	0			
+459225	1968	Sila	ho55	ho55	clean	clean			6.2.2.5.2	264	0			
+459226	1968	Sila	ma21 ho55	ma21 ho55	dirty	dirty			3.2.11	265	0			
+459227	1968	Sila	khjo55	khjo55	quick, fast	quick, fast			9.6.1.1	266	0			
+459228	1968	Sila	a21 bɛ33 bɛ33	a21 bɛ33 bɛ33	slow	slow			9.6.2.1	267	0			
+459229	1968	Sila	a21 bɤ̰21	a21 bɤ̰21	fat	fat			1.6.4	268	0			
+459230	1968	Sila	a21 be55	a21 be55	thin	thin			9.7.2	269	0			p,5551
+459231	1968	Sila	zɛ21 mo21	zɛ21 mo21	old of age	old of age			7.1.8.3	270	0			
+459232	1968	Sila	zɛ21 gu21	zɛ21 gu21	young of age	young of age			7.1.8.3	271	0			
+459233	1968	Sila	a21 nɯ̰33	a21 nɯ̰33	year	year			9.1.2	272	0			m,2501
+459234	1968	Sila	tshɯ̰21 nɯ̰33	tshɯ̰21 nɯ̰33	this year	this year			10.4.3.2	273	0			m,2501
+459235	1968	Sila	ḭ21 nɯ̰33	ḭ21 nɯ̰33	last year	last year			9.9	274	0			m,2501
+459236	1968	Sila	nḛ21 a21 mjɔ55	nḛ21 a21 mjɔ55	next year	next year			9.9	275	0			
+459237	1968	Sila	bɛ33 lɛ33	bɛ33 lɛ33	month	month			9.1.2	276	0			
+459238	1968	Sila	i55 ga33 a21 lɛ33	i55 ga33 a21 lɛ33	this month	this month			10.4.3.2	277	0			5807,m
+459239	1968	Sila	na55 ga33 a21 lɛ33	na55 ga33 a21 lɛ33	last month	last month			9.9	278	0			
+459240	1968	Sila	ja21 ȵi33	ja21 ȵi33	today	today			9.1.3	280	0			
+459241	1968	Sila	i21 ȵi33	i21 ȵi33	yesterday	yesterday			9.1.3	281	0			
+459242	1968	Sila	me33 ne33	me33 ne33	tomorrow	tomorrow			9.1.3	282	0			
+459243	1968	Sila	ne33 ho33	ne33 ho33	morning	morning			9.1.4	283	0			6227,m
+459244	1968	Sila	ȵi33 ko55	ȵi33 ko55	noon	noon			9.1.4	284	0			
+459245	1968	Sila	khy21 thɯ̰33	khy21 thɯ̰33	evening	evening			9.1.4	285	0			
+459246	1968	Sila	mja55 l̥o55	mja55 l̥o55	night	night			9.1.4	286	0			
+459247	1968	Sila	na55 tha̰21	na55 tha̰21	above	above			9.2.1	287	0			
+459248	1968	Sila	na55 lɔ̰21	na55 lɔ̰21	below	below			9.2.2	288	0			
+459249	1968	Sila	mi55 ɯ21	mi55 ɯ21	far	far			9.2.4	289	0			
+459250	1968	Sila	a21 nɯ21	a21 nɯ21	near	near			9.2.3	290	0			
+459251	1968	Sila	lɔ55	lɔ55	come	come	v.	v.	6.7.1	291	0			3569
+459252	1968	Sila	ji55	ji55	go	go	v.	v.	6.7.2	292	0			
+459253	1968	Sila	o55 le33	o55 le33	enter	enter	v.	v.	6.7.1	293	0			
+459254	1968	Sila	tɔ̰33 ji55	tɔ̰33 ji55	exit	exit	v.	v.	6.7.2	294	0			
+459255	1968	Sila	ŋɔ55	ŋɔ55	I	I			4.1	295	0			2530
+459256	1968	Sila	nɛ55 ɛ21	nɛ55 ɛ21	you, thou	you, thou			4.1	296	0			2489,m
+459257	1968	Sila	ma21 tɕho21	ma21 tɕho21	he, she	he, she			4.1	297	0			
+459258	1968	Sila	ŋɔ55 u33	ŋɔ55 u33	we	we			4.1	298	0			
+459259	1968	Sila	nɛ55 u33	nɛ55 u33	you, ye	you, ye			4.1	299	0			2489,m
+459260	1968	Sila	ŋɔ55 ko55 ɯ21 a21 ma̰21	ŋɔ55 ko55 ɯ21 a21 ma̰21	I am Sila.	I am Sila.			4.1	301	0			
+459261	1968	Sila	ŋɔ55 ko55 ɯ21 a21 ma̰21 ma21 ŋɤ55	ŋɔ55 ko55 ɯ21 a21 ma̰21 ma21 ŋɤ55	I am not Sila.	I am not Sila.			4.1	302	0			m,m,m,m,m,2436,m
+459262	1968	Sila	ŋɔ55 zɛ21 gu21 ȵḭ21 lɛ55 dʑo55 a33	ŋɔ55 zɛ21 gu21 ȵḭ21 lɛ55 dʑo55 a33	I have two children.	I have two children.			4.1	303	0			

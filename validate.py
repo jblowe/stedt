@@ -58,7 +58,7 @@ print(f"  etyma: {n_ety} files, {len(etyma_tags)} tags")
 
 # ---- wordlists ----
 EXPECT = ['rn', 'lgid', 'language', 'reflex', 'originalreflex', 'gloss', 'originalgloss',
-          'gfn', 'semkey', 'srcid', 'src_set_rn', 'status', 'analysis']
+          'gfn', 'originalgfn', 'semkey', 'srcid', 'src_set_rn', 'maintainer', 'status', 'analysis']
 TAGRE = re.compile(r'\d+')
 seen_rn, n_ref = {}, 0
 missing_ref = {}   # missing etymon tag -> example "file rn"
@@ -95,6 +95,21 @@ rnotes = loadyaml(f"{ROOT}/reference/reflex-notes.yaml") or []
 orphan_notes = sum(1 for n in rnotes if n.get('rn') not in seen_rn)
 if orphan_notes:
     warn(f"reflex-notes.yaml: {orphan_notes} note(s) reference an rn not present in any wordlist")
+
+# ---- HPTB links + glosswords references ----
+for h in (loadyaml(f"{ROOT}/reference/hptb.yaml") or []):
+    for tg in h.get('etyma') or []:
+        if tg not in etyma_tags:   # pre-existing dangling links inherited from the dump
+            warn(f"hptb.yaml hptbid {h.get('hptbid')}: links to missing etymon #{tg}")
+gw_path = f"{ROOT}/reference/glosswords.tsv"
+if os.path.exists(gw_path):
+    gw_missing = 0
+    with open(gw_path, encoding='utf-8', newline='') as f:
+        for row in csv.DictReader(f, delimiter='\t'):
+            if row['rn'] and row['rn'].isdigit() and int(row['rn']) not in seen_rn:
+                gw_missing += 1
+    if gw_missing:
+        warn(f"glosswords.tsv: {gw_missing} entries reference an rn not in any wordlist")
 print(f"  reference: {len(grpids)} groups, {len(lgids)} languages, {len(semkeys)} thesaurus nodes, "
       f"{len(srcabbrs)} sources, {len(rnotes)} reflex-notes")
 

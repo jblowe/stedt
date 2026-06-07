@@ -1,335 +1,335 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-144314	1171	Newar	swạ	swạ	lung	lung		1.7.2	1a	0		5482
-144315	1271	Pwo (Bassein)	pò-|θòʔ	pò-θòʔ	lung	lung		1.7.2	1a	0		7384
-144317	342	Bisu	ʔaŋ-hmaw	ʔaŋ-hmaw	lung	lung		1.7.2	1a	0		5450,5738
-144318	1289	Côông [Phunoi]	ʔã-hmap	ʔã-hmap	lung	lung		1.7.2	1a	0		5450,5738
-144319	180	*Tibeto-Burman	s-|wa-|p	s-wa-p	lung	lung		1.7.2	1a	0		5482
-144320	678	Jingpho	sìn-wóp	sìn-wóp	lung (=spongy liver)	lung (=spongy liver)		1.7.2	1a	0	u	1390,457
-144321	180	*Tibeto-Burman	sin-wap	sin-wap	lung	lung		1.7.2	1a	0		1390,457
-144322	704	Jirel	lwa-syakq	lwa-syakq	lung	lung		1.7.2	1b	0		2121,32
-144324	193	Padam-Mishing [Abor-Miri]	â-rop	â-rop	lung	lung		1.7.2	1b	0	D0	p,5481
-144326	1453	Tamang (Risiangku)	glap-sya	glap-sya	lung	lung		1.7.2	1b	0	u	2121,32
-144328	1574	Tibetan (Written)	glo-ba	glo-ba	lung	lung		1.7.2	1b	0	D0	2121,s
-144329	180	*Tibeto-Burman	l-wa-p⪤*r	l-wa-p⪤*r	lung	lung		1.7.2	1b	0		e
-144330	447	Chepang	pop	pop	lung	lung		1.7.2	1c	0		m
-144331	840	Lahu	ɔ̀-chɨ̂-phôʔ	ɔ̀-chɨ̂-phôʔ	lung	lung		1.7.2	1c	0	D0	5450,458,b
-144332	215	Ahi	tsɿ⁴⁴-pu²²	tsɿ⁴⁴-pu²²	lung	lung		1.7.2	1c	0	HIDE	DUPE IN SOURCE
-144333	236	Akha	shà-pɔ̀ʔ	shà-pɔ̀ʔ	lung	lung		1.7.2	1c	0		34,m
-144335	1271	Pwo (Bassein)	pòʔ-|θòʔ	pòʔ-θòʔ	lung	lung		1.7.2	1c	0		7384
-144336	725	Kaike	phwa	phwa	lung	lung		1.7.2	1c	0	HIDE	DUPE IN SOURCE
-144338	180	*Tibeto-Burman	p-|wa-|p	p-wa-p	lung	lung		1.7.2	1c	0		5481
-144339	756	Khaling	'swah-prap	'swah-prap	lung	lung		1.7.2	ld	0		1745,5481
-144340	326	Bantawa	som-phu-rok	som-phu-rok	lung	lung		1.7.2	ld	0		66,m,m
-144341	476	Chinese (Old)	p'iwad	p'i◦wad	lung	lung		1.7.2	ld	0	u	5481
-144345	840	Lahu	ɔ̀-chɨ̂	ɔ̀-chɨ̂	lung	lung		1.7.2	2a	0		5450,458
-144346	1370	Sani [Nyi]	ts'ẓ¹¹-p'o³³-ma³³	ts'ẓ¹¹-p'o³³-ma³³	lung	lung		1.7.2	2a	0	HIDE	DUPE IN SOURCE
-144347	980	Lushai [Mizo]	chuap	chuap	lung	lung		1.7.2	2a	0		457
-144349	180	*Tibeto-Burman	tsi	tsi	lung	lung		1.7.2	2a	0		458
-144350	215	Ahi	tsɿ⁴⁴-pu²²	tsɿ⁴⁴-pu²²	lung	lung		1.7.2	2b	0	D1	458,s
-144352	180	*Tibeto-Burman	tsit	tsit	lung	lung		1.7.2	2b	0		458
-144353	840	Lahu	cɨ́-šɛ̄-mì-cə̀	cɨ́-šɛ̄-mì-cə̀	entrails, viscera in general	entrails, viscera in general		1.7.7	2c	0		
-144355	180	*Tibeto-Burman	ʔtsit or *ʔdzit	ʔtsit or *ʔdzit	entrails, viscera in general	entrails, viscera in general		1.7.7	2c	0		
-144356	403	Burmese (Written)	chut	chut	lung	lung		1.7.2	2d	0		458
-144358	1685	Atsi [Zaiwa]	tsʔut	tsʔut	lung	lung		1.7.2	2d	0		458
-144359	646	Hayu	ɟot	ɟot	lung	lung		1.7.2	2d	0		458
-144360	873	Lakher [Mara]	pa-chao	pa-chao	lung	lung		1.7.2	2d	0		
-144362	180	*Tibeto-Burman	ʔtsut	ʔtsut	lung	lung		1.7.2	2d	0		458
-144363	1476	Tangkhul	ā-phār	ā-phār	lung	lung		1.7.2	3	0		p,5737
-144364	1066	Mikir [Karbi]	ing-phor	ing-phor	lung	lung		1.7.2	3	0		p,5737
-144365	261	Angami Naga	ú◦phié	ú◦phié	lung	lung		1.7.2	3	0		18,5737
-144366	725	Kaike	phwa	phwa	lung	lung		1.7.2	3	0	D1	5737
-144367	180	*Tibeto-Burman	pwar	pwar	lung	lung		1.7.2	3	0		5737
-144369	897	Lepcha	a-bu	a-bu	lung	lung		1.7.2	4	0		p,m
-144370	504	Darang [Taraon]	a-po	a-po	lung	lung		1.7.2	4	0		p,m
-144372	1370	Sani [Nyi]	ts'ẓ¹¹-p'o³³-ma³³	ts'ẓ¹¹-p'o³³-ma³³	lung	lung		1.7.2	4	0	D1	458,b,s
-144373	840	Lahu	phô	phô	sac, bladder	sac, bladder		5.1	4	0		
-144374	180	*Tibeto-Burman	pu	pu	lung	lung		1.7.2	4	0		e
-144375	1008	Chinese (Old/Mid)	pi̯ôk/pi̯uk	pi̯ôk/pi̯uk	belly	belly		1.4.7	1a-(a)	0	D0	164,164
-144377	1008	Chinese (Old/Mid)	p'i̯ôk/p'ĭûk	p'i̯ôk/p'ĭûk	cave	cave		3.2.7	1a-(a)	0		
-144379	1574	Tibetan (Written)	p'ug(s)	p'ug(s)	innermost part	innermost part		9.2.5	1a-(a)	0		164
-144380	1574	Tibetan (Written)	p'ug-pa	p'ug-pa	cavern	cavern		3.2.7	1a-(a)	0		
-144381	916	Limbu	sə◦pok	səpok	belly	belly		1.4.7	1a-(a)	0		m,164
-144383	980	Lushai [Mizo]	puːk	puːk	cave	cave		3.2.7	1a-(a)	0		164
-144384	403	Burmese (Written)	puik	puik	pregnancy	pregnancy		1.9.6.1	1a-(a)	0		
-144385	403	Burmese (Written)	wam-puik	wam-puik	outside of belly	outside of belly		9.2.7	1a-(a)	0		
-144386	1066	Mikir [Karbi]	pok	pok	belly	belly		1.4.7	1a-(a)	0		164
-144387	706	Rongmei / Nruanghmei	puk	puk	belly	belly		1.4.7	1a-(a)	0	u	164
-144388	1044	Meithei	puk	puk	belly	belly		1.4.7	1a-(a)	0		164
-144389	609	rGyalrong	pog◦~◦phog	pog~phog|	guts	guts		1.7.7	1a-(a)	0		164,164
-144391	609	rGyalrong	ti-|pog	ti-pog	stomach	stomach		1.7.6	1a-(a)	0		164
-144393	180	*Tibeto-Burman	s-|puːk [S	s-|puːk [S	belly / stomach	belly / stomach		1.4.7	1a-(a)	0		164,e
-144394	1008	Chinese (Old/Mid)	b'i̯ôk/b'i̯uk	b'i̯ôk/b'i̯uk	cave	cave		3.2.7	1a-(b)	0		
-144395	1574	Tibetan (Written)	bug-pa	bug-pa	hole	hole		3.2.7	1a-(b)	0		164,s
-144396	1574	Tibetan (Written)	sbugs	sbugs	cavity	cavity		3.2.7	1a-(b)	0		
-144397	180	*Tibeto-Burman	s-|buːk [S	s-|buːk [S	belly-stomach	belly-stomach		1.4.7	1a-(b)	0		164,e
-144398	277	Ao (Chungli)	tapok	ta◦pok	cave	cave		3.2.7	1b-(a)	0	u	164
-144399	277	Ao (Chungli)	tepok	tepok	belly	belly		1.4.7	1b-(a)	0		164
-144400	609	rGyalrong	tĕpŏk	tĕpŏk	belly	belly		1.4.7	1b-(a)	0		164
-144401	180	*Tibeto-Burman	d-|puk	d-|puk	belly-stomach	belly-stomach		1.4.7	1b-(a)	0		164
-144402	897	Lepcha	tăbak~tăbok~tăfuk	tăbak~tăbok~tăfuk	belly-stomach	belly-stomach		1.4.7	1b-(b)	0		164,164,164
-144403	180	*Tibeto-Burman	d-|bwak	d-|bwak	belly-stomach	belly-stomach		1.4.7	1b-(b)	0		164
-144404	447	Chepang	tuk	tuk	belly-stomach	belly-stomach		1.4.7	1b-(c)	0		164
-144405	995	Magar	mi-Tuk	mi-Tuk	belly-stomach	belly-stomach		1.4.7	1b-(c)	0		m,164
-144407	180	*Tibeto-Burman	d-|puk (?)	d-|puk (?)	belly-stomach	belly-stomach		1.4.7	1b-(c)	0		164
-144409	574	Garo	ok	ok	belly-stomach	belly-stomach		1.4.7	1c	0		164
-144410	1475	Tangkhul	wuk	wuk	belly-stomach	belly-stomach		1.4.7	1c	0		164
-144412	1277	Pwo (Moulmein)	ɣàuʔ	ɣàuʔ	belly-stomach	belly-stomach		1.4.7	1c	0		m
-144413	1240	Pa-O	hóʔ	hóʔ	belly-stomach	belly-stomach		1.4.7	1c	0	u	m
-144414	744	Karen (Pho)	hùʔ	hùʔ	belly-stomach	belly-stomach		1.4.7	1c	0	u	m
-144416	180	*Tibeto-Burman	wuk	wuk	belly-stomach	belly-stomach		1.4.7	1c	0		2106
-144417	1574	Tibetan (Written)	p'ig-pa	p'ig-pa	make a hole	make a hole		6.14	1d(a)	0		
-144418	1066	Mikir [Karbi]	phek	phek	bowels	bowels		1.7.7	1d(a)	0		2104
-144419	180	*Tibeto-Burman	ʔ-|pi(ː)k	ʔ-|pi(ː)k	belly-stomach	belly-stomach		1.4.7	1d(a)	0		2104
-144420	1574	Tibetan (Written)	ḥbigs-pa	ḥbigs-pa	make hole	make hole		6.14	1d(b)	0		
-144421	574	Garo	bi-bik	bi-bik	bowels	bowels		1.7.7	1d(b)	0		p,2104
-144422	180	*Tibeto-Burman	ʔ-|bi(ː)k	ʔ-|bi(ː)k	belly-stomach	belly-stomach		1.4.7	1d(b)	0		2104
-144424	840	Lahu	ɔ́-fɨ́-qō	ɔ́-fɨ́-qō	stomach	stomach		1.7.6	1e	0		p,2104,387
-144425	936	Lisu	h'i⁶-hchi⁶	h'i⁶-hchi⁶	belly-stomach	belly-stomach		1.4.7	1e	0		2104,m
-144426	1370	Sani [Nyi]	hɪ-ma	hɪ-ma	belly-stomach	belly-stomach		1.4.7	1e	0		2104,1384
-144427	1398	Sgaw (Moulmein)	ɣyʔ	ɣyʔ	belly-stomach	belly-stomach		1.4.7	1e	0	u	2106
-144428	1395	Sgaw (Bassein)	hyʔ	hyʔ	belly-stomach	belly-stomach		1.4.7	1e	0	u	m
-144429	180	*Tibeto-Burman	ʔwik	ʔwik	belly-stomach	belly-stomach		1.4.7	1e	0		2104
-144430	916	Limbu	sə◦pu	səpu	belly	belly		1.4.7	2a(a)	0		m,164
-144432	1574	Tibetan (Written)	p'o-ba	p'o-ba	stomach	stomach		1.7.6	2a(a)	0		2103,s
-144433	678	Jingpho	pù	pù	bowels	bowels		1.7.7	2a(a)	0		2103
-144434	678	Jingpho	lùŋ-pū	lùŋ-pū	cave	cave		3.2.7	2a(a)	0		1269,2103
-144435	1475	Tangkhul	ā◦phur◦ā◦pham	ā◦phur◦ā◦pham	belly	belly		1.4.7	2a(a)	0	HIDE	DUPE IN SOURCE
-144436	1008	Chinese (Old/Mid)	pi̯u/pi̯u	pi̯u/pi̯u	bowels	bowels		1.7.7	2a(a)	0		2103,2103
-144438	180	*Tibeto-Burman	(s-)|pu	(s-)|pu	belly-stomach	belly-stomach		1.4.7	2a(a)	0		2103
-144439	354	Bodo	bi-bú	bi-bú	guts	guts		1.7.7	2b(b)	0		p,164
-144440	1008	Chinese (Old/Mid)	b'i̯u/b'i̯u	b'i̯u/b'i̯u	intestines	intestines		1.7.7	2b(b)	0		2103,2103
-144442	180	*Tibeto-Burman	(s-)|bu	(s-)|bu	belly-stomach	belly-stomach		1.4.7	2b(b)	0		2103
-144443	840	Lahu	ɔ̀-g̈ù-tɛ̂ʔ	ɔ̀-g̈ù-tɛ̂ʔ	guts	guts		1.7.7	2c	0		5450,2102,m
-144444	236	Akha	ù-máʔ	ù-máʔ	abdomen	abdomen		1.4.7	2c	0	HIDE	DUPE IN SOURCE
-144445	403	Burmese (Written)	ʔu	ʔu	intestines	intestines		1.7.7	2c	0		2102
-144446	936	Lisu	wu	wu	intestines	intestines		1.7.7	2c	0		2102
-144447	180	*Tibeto-Burman	wu	wu	belly-stomach	belly-stomach		1.4.7	2c	0		2102
-144448	342	Bisu	pɔ̀ŋ-ba	pɔ̀ŋ-ba	belly-stomach	belly-stomach		1.4.7	3	0		2111,s
-144449	1312	Pyen	pawng-pawng	pawng-pawng	belly-stomach	belly-stomach		1.4.7	3	0	u	2111,2111
-144450	236	Akha	baw-ma	baw-ma	belly-stomach	belly-stomach		1.4.7	3	0		2103,m
-144451	1277	Pwo (Moulmein)	ɣàuʔ-phòn	ɣàuʔ-phòn	belly-stomach	belly-stomach		1.4.7	3	0		m
-144452	1475	Tangkhul	ā◦pai◦phon	ā◦pai◦phon	belly-stomach	belly-stomach		1.4.7	3	0		m,m,2111
-144453	180	*Tibeto-Burman	pon ⪤ poŋ	pon⪤*poŋ	belly-stomach	belly-stomach		1.4.7	3	0		2111,2111
-144454	678	Jingpho	pù-hpam	pù-hpam	stomach	stomach		1.7.6	4a	0		2103,137
-144455	1475	Tangkhul	ā◦phur◦ā◦pham	ā◦phur◦ā◦pham	belly	belly		1.4.7	4a	0	D1	p,m,p,137
-144457	180	*Tibeto-Burman	pam	pam	belly; stomach	belly; stomach		1.4.7	4a	0		137
-144459	403	Burmese (Written)	wâm	wâm	belly	belly		1.4.7	4b	0		137
-144460	840	Lahu	g̈ô-pè	g̈ô-pè	belly	belly		1.4.7	4b	0		137,m
-144461	1685	Atsi [Zaiwa]	vàm	vàm	belly	belly		1.4.7	4b	0		137
-144462	1028	Maru [Langsu]	wɛn	wɛn	belly	belly		1.4.7	4b	0		137
-144463	1028	Maru [Langsu]	wɛn-tok	wɛn-tok	abdomen, stomach	abdomen, stomach		1.4.7	4b	0		137,164
-144464	1066	Mikir [Karbi]	vam	vam	waist / loin	waist / loin		1.4.6	4b	0		137
-144465	980	Lushai [Mizo]	von a śor	von a śor	diarrhea	diarrhea		1.8.5	4b	0		137,p,2680
-144466	811	Konyak (Tamlu)	hwum	hwum	belly	belly		1.4.7	4b	0	u	137
-144467	873	Lakher [Mara]	a-vy; pa-vy	a-vy; pa-vy	stomach	stomach		1.7.6	4b	0		p,137,m,137
-144469	180	*Tibeto-Burman	wam	wam	belly; stomach	belly; stomach		1.4.7	4b	0		137
-144471	980	Lushai [Mizo]	pùm~pùŋ	pùm~pùŋ	belly	belly		1.4.7		0		3,2111
-144472	980	Lushai [Mizo]	puam	puam	swell	swell	v.	1.1.5.2		0		
-144473	678	Jingpho	bōm	bōm	swell	swell	v.	1.1.5.2		0		
-144474	678	Jingpho	bòp	bòp	calf of leg	calf of leg		1.5.7		0		163
-144475	403	Burmese (Written)	phwam	phwam	plump	plump		1.1.5.2		0		163
-144476	1574	Tibetan (Written)	sbom	sbom	thick, stout	thick, stout		9.7.2		0		163
-144477	180	*Tibeto-Burman	s-|bwam	s-bwam	swelling, rounded, convex	swelling, rounded, convex		1.1.5.2		0		163
-144478	1595	Tiddim	luŋ	luŋ	heart	heart		1.7.1	(1a)	0		1381
-144479	326	Bantawa	luŋ-mak	luŋ-mak	heart, liver	heart, liver		1.7.1	(1a)	0		1381,1384
-144480	1406	Sherpa	lo-waq	lo-waq	liver	liver		1.7.3	(1a)	0		1381,s
-144481	980	Lushai [Mizo]	thin-lung	thin-lung	mind	mind		1.10	(1a)	0		1390,1381
-144482	180	*Tibeto-Burman	luŋ	luŋ	heart / liver	heart / liver		1.7.1	(1a)	0		1381
-144483	447	Chepang	hlung	hlung	heart	heart		1.7.1	(1b)	0		1381
-144484	180	*Tibeto-Burman	s-|luŋ	s-|luŋ	heart / liver	heart / liver		1.7.1	(1b)	0		1381
-144485	1125	Mru	plong	plong	liver	liver		1.7.3	(1c)	0		
-144486	777	Khami (Northern)	pă◦lüng	pă◦lüng	heart	heart		1.7.1	(1c)	0	u	m,1381
-144487	247	Anal	pa-luŋ	pa-luŋ	heart	heart		1.7.1	(1c)	0	u	m,1381
-144488	1066	Mikir [Karbi]	vi-bong	vi-bong	heart	heart		1.7.1	(1c)	0		230,1392
-144489	456	Chinbok	am-luŋ	am-luŋ	heart	heart		1.7.1	(1c)	0	u	m,1381
-144490	1476	Tangkhul	məluŋ	mə◦luŋ	heart	heart		1.7.1	(1c)	0		1381
-144491	277	Ao (Chungli)	te◦mu-|luŋ	te◦mu-luŋ	heart	heart		1.7.1	(1c)	0		p,1381a
-144492	180	*Tibeto-Burman	m-|luŋ ⪤ b-|lu	m-|luŋ⪤b-lu	heart / liver	heart / liver		1.7.1	(1c)	0		1381,1381
-144493	678	Jingpho	sə◦lum	sə◦lum	heart	heart		1.7.1	(1d)	0		m,1381
-144494	403	Burmese (Written)	hnac-lûm	hnac-lûm	heart	heart		1.7.1	(1d)	0	HIDE	DUPE IN SOURCE
-144495	756	Khaling	'lum	'lum	liver	liver		1.7.3	(1d)	0		1381
-144496	646	Hayu	thum	thum	heart	heart		1.7.1	(1d)	0		
-144497	180	*Tibeto-Burman	s-|lum	s-|lum	heart / liver	heart / liver		1.7.1	(1d)	0		1381
-144498	734	Kanauri	stiŋ	stiŋ	heart	heart		1.7.1	(2)	0	D0	1387
-144499	725	Kaike	ḍing	ḍing	heart	heart		1.7.1	(2)	0		1387
-144500	646	Hayu	diŋ	diŋ	liver	liver		1.7.3	(2)	0		1387
-144501	1528	Thakali (Tukche)	tin	tin	heart	heart		1.7.1	(2)	0		1387
-144502	1439	Sunwar	au-di	au-di	liver	liver		1.7.3	(2)	0		p,1387
-144503	303	Bahing	diŋ	diŋ	liver	liver		1.7.3	(2)	0		1387
-144504	1460	Tamang (Sahu)	ting	ting	heart	heart		1.7.1	(2)	0		1387
-144505	180	*Tibeto-Burman	(s-)|diŋ	(s-)|diŋ	heart / liver	heart / liver		1.7.1	(2)	0		1387
-144507	1544	Thulung	thyo-ma bop	thyo-ma bop	heart	heart		1.7.1	(3)	0		1382,m,m
-144508	756	Khaling	'cō	'cō	heart	heart		1.7.1	(3)	0		1382
-144509	734	Kanauri	zŭïă	zŭïă	heart	heart		1.7.1	(3)	0		m
-144510	599	Gurung	uiq-ḍāː	uiq-ḍāː	liver	liver		1.7.3	(3)	0		m,1382
-144511	1289	Côông [Phunoi]	mì-tchù-sì	mì-tchù-sì	heart	heart		1.7.1	(3)	0		m,m,1390
-144512	1544	Thulung	dyu-ŋa	dyu-ŋa	liver	liver		1.7.3	(3)	0		1387,m
-144513	765	Kham	'yuh	'yuh	heart	heart		1.7.1	(3)	0		1382
-144514	1044	Meithei	tha-môi	tha-môi	heart	heart		1.7.1	(3)	0		1382,m
-144516	180	*Tibeto-Burman	tywa	tywa	heart / liver	heart / liver		1.7.1	(3)	0		1382
-144517	1574	Tibetan (Written)	mc̀'in-pa	mc̀'in-pa	liver / bile / bitter	liver / bile / bitter		1.7.3	(1)	0		1390,s
-144518	678	Jingpho	məsìn	mə◦sìn	liver / bile / bitter	liver / bile / bitter		1.7.3	(1)	0		1390
-144519	403	Burmese (Written)	ʔə◦sâñ	ʔə◦sâñ	liver / bile / bitter	liver / bile / bitter		1.7.3	(1)	0		p,1390
-144520	180	*Tibeto-Burman	m-|sin	m-|sin	liver / bile / bitter	liver / bile / bitter		1.7.3	(1)	0		1390
-144522	193	Padam-Mishing [Abor-Miri]	a-in	a-in	liver	liver		1.7.3	(1)	0	u	p,1390
-144523	1073	Mishing [Miri]	pui-ing	pui-ing	gall bladder	gall bladder		1.7.3	(1)	0	u	6546,m
-144524	180	*Tibeto-Burman	in	in	liver / bile / bitter	liver / bile / bitter		1.7.3	(1)	0		1390
-144526	574	Garo	bi-ka	bi-ka	liver	liver		1.7.3	(2)	0		m,229
-144527	711	Bodo	bi-ka	bi-ka	liver	liver		1.7.3	(2)	0	u	m,229
-144528	574	Garo	kha-khit	kha-khit	bile	bile		1.7.3.1	(2)	0		229,227
-144529	756	Khaling	khang	khang	bile	bile		1.7.3.1	(2)	0		229
-144530	599	Gurung	kãː	kãː	bile	bile		1.7.3.1	(2)	0		229
-144531	1528	Thakali (Tukche)	kam	kam	bile	bile		1.7.3.1	(2)	0		229
-144532	180	*Tibeto-Burman	ka-(|m,|n,|ŋ)|	ka-(m	bitter / bile	bitter / bile		7.1.4.4	(2)	0		229
-144533	1574	Tibetan (Written)	mk'ris-pa	mk'ris-pa	bile, gall	bile, gall		1.7.3.1	(3)	0		227,s
-144534	574	Garo	kha-khit	kha-khit	bile, gall	bile, gall		1.7.3.1	(3)	0		229,227
-144535	180	*Tibeto-Burman	(m-)|krit	(m-)|krit	bile, gall / bitter	bile, gall / bitter		1.7.3.1	(3)	0		227
-144536	180	*Tibeto-Burman	(s-)|krit	(s-)|krit	bile, gall / bitter	bile, gall / bitter		1.7.3.1	(3)	0		227
-144537	897	Lepcha	kri	kri	bitter	bitter		7.1.4.4	(3)	0		
-144538	678	Jingpho	khrī	khrī	acid, sour	acid, sour		7.1.4.4	(3)	0		227
-144539	1202	Anong	sə◦hi	səhi	gall bladder	gall bladder		1.7.3	(3)	0		1390,227
-144540	403	Burmese (Written)	sâñ-khre	sâñ-khre	bile	bile		1.7.3.1	(3)	0	D0	1390,227
-144541	678	Jingpho	sə◦grì⪤šə◦grì	sə◦grì⪤šə◦grì	bile, gall, gall bladder	bile, gall, gall bladder		1.7.3.1	(3)	0		1390,227
-144542	725	Kaike	thi-pā	thi-pā	bile	bile		1.7.3.1	(3)	0		1390,s
-144543	704	Jirel	ṭhiː◦bāq	ṭhiːbāq	bile	bile		1.7.3.1	(3)	0		1390,s
-144544	447	Chepang	hi	hi	bile	bile		1.7.3.1	(3)	0		
-144545	1476	Tangkhul	ā◦thi	ā◦thi	bile	bile		1.7.3.1	(3)	0		p,1390
-144546	354	Bodo	bi-klə́	bi-klə́	liver	liver		1.7.3	(3)	0		m,572
-144547	1289	Côông [Phunoi]	bɔ̌◦kə̀	bɔ̌◦kə̀	bile	bile		1.7.3.1	(3)	0		m,227
-144548	936	Lisu	ji⁴	ji⁴	bile	bile		1.7.3.1	(3)	0		227
-144549	236	Akha	pya kui	pya kui	bile	bile		1.7.3.1	(3)	0		m,227
-144550	995	Magar	mi-chi-ṭa	mi-chi-ṭa	gall bladder	gall bladder		1.7.3	(3)	0	D1	m,227,1382
-144551	840	Lahu	ɔ̀-kɨ	ɔ̀-kɨ	bile, gall bladder	bile, gall bladder		1.7.3.1	(3)	0		5450,227
-144552	980	Lushai [Mizo]	mît	mît	bile	bile		1.7.3.1	(3)	0		
-144553	1125	Mru	müt	müt	bile	bile		1.7.3.1	(3)	0		2101
-144554	1066	Mikir [Karbi]	a◦mut-a◦lang	a◦mut-a◦lang	bile	bile		1.7.3.1	(3)	0		p,2101,p,191
-144555	180	*Tibeto-Burman	kri	kri	bile, gall, gall-bladder / aci	bile, gall, gall-bladder  /  aci		1.7.3.1	(3)	0		227,e
-144556	916	Limbu	khiŋ	khiŋ	bile	bile		1.7.3.1	(4)	0		228
-144557	916	Limbu	khik	khik	bitter	bitter		7.1.4.4	(4)	0		
-144558	646	Hayu	pik-kiŋ⪤plik-kiŋ	pik-kiŋ⪤plik-kiŋ	bile, spleen	bile, spleen		1.7.3.1	(4)	0		5637,228
-144559	180	*Tibeto-Burman	kik ⪤ kiŋ	kik⪤kiŋ	bile / bitter	bile / bitter		1.7.3.1	(4)	0		228,228
-144560	897	Lepcha	a-byet	a-byet	liver	liver		1.7.3		0		p,1383
-144561	916	Limbu	nari◦bet	nari◦bet	heart	heart		1.7.1		0		b,1383
-144562	1453	Tamang (Risiangku)	net	net	liver	liver		1.7.3		0	u	1383
-144563	678	Jingpho	myìt	myìt	mind, seat of emotions	mind, seat of emotions		1.10		0		1383,m
-144564	1202	Anong	mit~nit	mit~nit	mind, temper	mind, temper		1.10		0		1383,1383
-144565	1574	Tibetan (Written)	yid	yid	soul, mind	soul, mind		1.10		0		1383
-144566	180	*Tibeto-Burman	b-|yet ⪤ m-|yet	b-|yet⪤m-|yet	heart / liver / mind	heart / liver / mind		1.7.1		0		1383,1383
-144567	1574	Tibetan (Written)	snyiŋ	snyiŋ	heart, mind	heart, mind		1.7.1		0		251
-144568	574	Garo	təniŋ	təniŋ	brains	brains		1.2.4		0		251
-144569	1066	Mikir [Karbi]	niŋ	niŋ	heart, mind	heart, mind		1.7.1		0		251
-144570	1202	Anong	ə◦niŋ	ə◦niŋ	brains	brains		1.2.4		0		p,251
-144571	180	*Tibeto-Burman	s-|niŋ	s-|niŋ	heart / brains / mind	heart / brains / mind		1.7.1		0		251
-144572	403	Burmese (Written)	hnac-lûm	hnac-lûm	heart	heart		1.7.1		0	D1	1385,1381
-144573	180	*Tibeto-Burman	s-|nik	s-|nik	heart / brains / mind	heart / brains / mind		1.7.1		0		1385
-144574	180	*Tibeto-Burman	k-nik|	k-nik|	heart / brains / mind	heart / brains / mind		1.7.1		0		1385
-144575	936	Lisu	ni² -ma³	ni² -ma³	heart / brains / mind	heart / brains / mind		1.7.1		0		297,s
-144577	840	Lahu	ni-ma	ni-ma	heart / brains / mind	heart / brains / mind		1.7.1		0		297,s
-144578	1066	Mikir [Karbi]	ne	ne	heart / brains / mind	heart / brains / mind		1.7.1		0		434
-144580	1528	Thakali (Tukche)	'ngyeh	'ngyeh	heart / brains / mind	heart / brains / mind		1.7.1		0		m
-144582	180	*Tibeto-Burman	s-|ni	s-|ni	heart / brains / mind	heart / brains / mind		1.7.1		0		297
-144583	193	Padam-Mishing [Abor-Miri]	a-ki	a-ki	abdomen, stomach, guts	abdomen, stomach, guts		1.4.7		0		p,2125
-144584	936	Lisu	h'i⁶-hchi⁶	h'i⁶-hchi⁶	stomach	stomach		1.7.6		0		2104,m
-144585	1475	Tangkhul	moŋ-khui	moŋ-khui	abdomen, pelvis	abdomen, pelvis		1.4.7		0		1384,m
-144586	1439	Sunwar	kiː	kiː	guts	guts		1.7.7		0		572
-144588	447	Chepang	yong-kliʔ	yong-kliʔ	bowels	bowels		1.7.7		0	HIDE	DUPE IN SOURCE
-144589	756	Khaling	'cis◦khli	'cis◦khli	guts	guts		1.7.7		0		m,572
-144590	995	Magar	me-khe	me-khe	guts	guts		1.7.7		0		p,229
-144592	646	Hayu	soːgali	soːgali	belly	belly		1.4.7		0		m
-144594	599	Gurung	mi-kli	mi-kli	ashes	ashes		3.2.12.2		0		2136,m
-144595	1460	Tamang (Sahu)	nak-khli	nak-khli	earwax	earwax		1.2.7.3		0		811,572
-144596	1460	Tamang (Sahu)	mik-khli	mik-khli	tears	tears		1.2.6.7		0		682,572
-144597	180	*Tibeto-Burman	kliy	kliy	shit / guts / stomach	shit / guts / stomach		1.8.5		0		572
-144598	1574	Tibetan (Written)	gsus-pa	gsus-pa	belly / stomach	belly / stomach		1.4.7	(5)	0		m,s
-144599	704	Jirel	'su-baq	'su-baq	belly / stomach	belly / stomach		1.4.7	(5)	0		m,m
-144600	1406	Sherpa	supq	supq	belly / stomach	belly / stomach		1.4.7	(5)	0		163
-144601	646	Hayu	soːgali	soːgali	belly / stomach	belly / stomach		1.4.7	(5)	0		m
-144603	180	*Tibeto-Burman	g-su(-t)	g-su(-t)	belly / stomach	belly / stomach		1.4.7	(5)	0		
-144604	504	Darang [Taraon]	kay-yaːŋ	kay-yaːŋ	bowels	bowels		1.7.7	(1)	0		572,577
-144605	447	Chepang	yong-kliʔ	yong-kliʔ	bowels	bowels		1.7.7	(1)	0	D1	m,572
-144607	180	*Tibeto-Burman	yaŋ	yaŋ	guts	guts		1.7.7	(1)	0		577
-144608	1574	Tibetan (Written)	rgyu	rgyu	guts	guts		1.7.7	(2)	0		2116
-144609	1460	Tamang (Sahu)	kru	kru	guts	guts		1.7.7	(2)	0		m
-144610	1460	Tamang (Sahu)	kruŋ	kruŋ	guts	guts		1.7.7	(2)	0		m
-144611	704	Jirel	gyu-mak	gyu-mak	guts	guts		1.7.7	(2)	0	HIDE	DUPE IN SOURCE
-144612	873	Lakher [Mara]	chhô	chhô	abdomen, belly, stomach	abdomen, belly, stomach		1.4.7	(2)	0		2095
-144613	180	*Tibeto-Burman	r-|gyu-|ŋ	r-gyu-ŋ	guts	guts		1.7.7	(2)	0		2116
-144614	236	Akha	ù-máʔ	ù-máʔ	abdomen	abdomen		1.4.7		0	D1	137,1384
-144615	704	Jirel	gyu-mak	gyu-mak	guts	guts		1.7.7		0	D1	2116,1384
-144616	1406	Sherpa	ge-mā	ge-mā	guts	guts		1.7.7		0		p,1384
-144617	326	Bantawa	luŋ-mak	luŋ-mak	heart	heart		1.7.1		0		1381,1384
-144618	180	*Tibeto-Burman	mak	mak	guts / belly / vital organ	guts / belly / vital organ		1.7.7		0		1384
-144619	1574	Tibetan (Written)	grod-pa	grod-pa	belly	belly		1.4.7		0	D0	2112,s
-144620	646	Hayu	cot	cot	guts	guts		1.7.7		0		2112
-144621	180	*Tibeto-Burman	grwat	grwat	guts / belly	guts / belly		1.7.7		0		2112
-144622	678	Jingpho	pāi	pāi	spleen	spleen		1.7.4	(1)	0		91
-144623	678	Jingpho	kān◦pāi	kān◦pāi	spleen	spleen		1.7.4	(1)	0		m,91
-144624	678	Jingpho	kūm◦pāi	kūm◦pāi	spleen	spleen		1.7.4	(1)	0		p,91
-144625	678	Jingpho	sìn◦pāi	sìn◦pāi	spleen	spleen		1.7.4	(1)	0		1390,91
-144626	1476	Tangkhul	ā◦pai	ā◦pai	spleen	spleen		1.7.4	(1)	0		p,91
-144628	1476	Tangkhul	pei	pei	spleen	spleen		1.7.4	(1)	0		91
-144630	1125	Mru	pai	pai	spleen	spleen		1.7.4	(1)	0	D0	91
-144631	840	Lahu	ɔ̀-pe	ɔ̀-pe	spleen	spleen		1.7.4	(1)	0		5450,91
-144632	1171	Newar	ã-pi	ã-pi	spleen	spleen		1.7.4	(1)	0		p,91
-144633	765	Kham	phis	phis	spleen	spleen		1.7.4	(1)	0		5636
-144634	193	Padam-Mishing [Abor-Miri]	tûr-pe	tûr-pe	spleen	spleen		1.7.4	(1)	0	D0	m,91
-144635	1066	Mikir [Karbi]	pli-|ha	pli-ha	spleen	spleen		1.7.4	(1)	0		5636
-144636	261	Angami Naga	ú-prì	ú-prì	spleen	spleen		1.7.4	(1)	0		18,91
-144637	236	Akha	shi-pyeh	shi-pyeh	spleen	spleen		1.7.4	(1)	0		230,91
-144638	180	*Tibeto-Burman	pay⪤play|	pay⪤play|	spleen	spleen		1.7.4	(1)	0		91
-144639	646	Hayu	pik-kiŋ⪤plik-kiŋ	pik-kiŋ⪤plik-kiŋ	spleen, bile	spleen, bile		1.7.4	(2)	0		5637,228
-144641	180	*Tibeto-Burman	pik ⪤ plik	pik⪤plik	spleen	spleen		1.7.4	(2)	0		
-144643	1574	Tibetan (Written)	mk'al-ma	mk'al-ma	kidney	kidney		1.7.5	(1)	0		201,s
-144644	980	Lushai [Mizo]	kal	kal	kidney	kidney		1.7.5	(1)	0		201
-144645	1595	Tiddim	kal	kal	kidney	kidney		1.7.5	(1)	0		201
-144646	1574	Tibetan (Written)	sgal-pa	sgal-pa	small of back	small of back		1.4.8.1	(1)	0		201,s
-144647	1044	Meithei	nam-gal⪤nam-gan	nam-gal⪤nam-gan	back	back		1.4.8	(1)	0		3324,201,3324,201
-144648	574	Garo	dźaŋ-gal	dźaŋ-gal	back	back		1.4.8	(1)	0		208,201
-144649	1595	Tiddim	xaːl	xaːl	groin	groin		1.4.9	(1)	0		5344
-144650	678	Jingpho	kàn	kàn	put on / be on the back	put on / be on the back		10.1.1	(1)	0		
-144651	447	Chepang	gal	gal	kidney	kidney		1.7.5	(1)	0		201
-144652	725	Kaike	khal	khal	kidney	kidney		1.7.5	(1)	0		201
-144653	756	Khaling	'kal	'kal	kidney	kidney		1.7.5	(1)	0		201
-144654	1460	Tamang (Sahu)	koh	koh	lower back	lower back		1.4.8.1	(1)	0		211
-144655	1528	Thakali (Tukche)	koh	koh	lower back	lower back		1.4.8.1	(1)	0		211
-144656	704	Jirel	pi-koq	pi-koq	lower back	lower back		1.4.8.1	(1)	0	HIDE	DUPE IN SOURCE
-144657	403	Burmese (Written)	khâ	khâ	loins	loins		1.4.9	(1)	0		201
-144658	678	Jingpho	n-|khyun	n-khyun	kidney / small of back	kidney / small of back		1.7.5	(1)	0		207
-144659	180	*Tibeto-Burman	m-|kal ⪤ s-|ga	m-|kal⪤s-ga	kidney / small of back	kidney / small of back		1.7.5	(1)	0		201,201
-144660	236	Akha	beh -si	beh -si	kidney	kidney		1.7.5	(2)	0		2120,1019
-144661	342	Bisu	pɛ̀-k'à	pɛ̀-k'à	kidney	kidney		1.7.5	(2)	0		2120,m
-144662	840	Lahu	cɔ̀ʔ-pɛ̄-ni	cɔ̀ʔ-pɛ̄-ni	waist / small of back	waist / small of back		1.4.6	(2)	0		215,2120,m
-144663	193	Padam-Mishing [Abor-Miri]	kat-|pil⪤kat-|pir	kat-|pil⪤kat-|pir	kidney	kidney		1.7.5	(2)	0		2120,2120
-144664	704	Jirel	pi-koq	pi-koq	lower back	lower back		1.4.8.1	(2)	0	D1	1361,m
-144665	1066	Mikir [Karbi]	ham-bi	ham-bi	kidney, anklebone, kneecap	kidney, anklebone, kneecap		1.7.5	(2)	0		1856,2120
-144666	180	*Tibeto-Burman	pil ⪤ pir	pil⪤pir	kidney / small of back	kidney / small of back		1.7.5	(2)	0		2120,2120
-144667	840	Lahu	ɔ̀-lâ-šī	ɔ̀-lâ-šī	kidney	kidney		1.7.5	(3)	0		5450,2812,1019
-144668	1125	Mru	la	la	spleen	spleen		1.7.4	(3)	0		2812
-144670	1171	Newar	ja-la-sem	ja-la-sem	kidney	kidney		1.7.5	(3)	0		m,2812,m
-144671	980	Lushai [Mizo]	la	la	spleen	spleen		1.7.4	(3)	0		2812
-144672	1595	Tiddim	laː	laː	enlarged spleen	enlarged spleen		9.5	(3)	0		2812
-144673	873	Lakher [Mara]	cha-law	cha-law	spleen	spleen		1.7.4	(3)	0		m,2812
-144674	180	*Tibeto-Burman	la	la	kidney / spleen	kidney / spleen		1.7.5	(3)	0		2812
-144675	980	Lushai [Mizo]	hlam	hlam	placenta	placenta				0		680
-144676	1595	Tiddim	lam	lam	placenta	placenta				0		680
-144677	1476	Tangkhul	rəm	rəm	placenta	placenta				0		670
-144678	840	Lahu	ɔ̀-lò	ɔ̀-lò	womb	womb				0		5450,680
-144679	1544	Thulung	wām	wām	placenta	placenta				0		2108
-144680	303	Bahing	wam	wam	placenta	placenta				0		2108
-144681	180	*Tibeto-Burman	s-|lwam ⪤ s-|rwam	s-lwam⪤s-rwam	womb / placenta	womb / placenta				0		680,680
-144683	1574	Tibetan (Written)	lhums	lhums	womb	womb				0		670
-144684	1574	Tibetan (Written)	rum	rum	womb	womb				0		670
-144685	1574	Tibetan (Written)	sbrum-pa	sbrum-pa	pregnant	pregnant		1.9.6.1		0		670,s
-144686	1574	Tibetan (Written)	dku-zlum	dku-zlum	cavity of abdomen	cavity of abdomen		3.2.7		0		
-144688	1277	Pwo (Moulmein)	dən-lán	dən-lán	womb	womb				0		m,680
-144689	1271	Pwo (Bassein)	də́n-lánʔ	də́n-lánʔ	womb	womb				0		m,680
-144690	1257	Palaychi	də̀q-lɔ̀	də̀q-lɔ̀	womb	womb				0		m,680
-144691	745	Karen (Sgaw)	də́-lɔ̀	də́-lɔ̀	womb	womb				0		m,680
-144692	1066	Mikir [Karbi]	hem	hem	womb	womb				0		1612
-144694	1066	Mikir [Karbi]	o◦so-a◦hem	o◦so-a◦hem	placenta	placenta				0	D0	p,1012,p,1612
-144696	180	*Tibeto-Burman	s-|lum ⪤ s-|lam ⪤ s-|rum ⪤ s-|ram	s-lum⪤s-lam⪤s-rum⪤s-ram	womb / placenta	womb / placenta				0		680,680,680,680
-144697	1125	Mru	thua	thua	womb	womb				0		1651
-144698	980	Lushai [Mizo]	chul	chul	womb	womb				0		1651
-168843	180	*Tibeto-Burman	n,ŋ)	n,ŋ)	bitter / bile	bitter / bile		7.1.4.4	(2)	0	DELETED	
-618713	678	Jingpho	dá		put, place				p.27	0		2682
-618714	2223	Jingpho (Hkauri)	dàt		put, place				p.27	0		2682
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+144314	1171	Newar	swạ	swạ	lung	lung			1.7.2	1a	0			5482
+144315	1271	Pwo (Bassein)	pò-|θòʔ	pò-θòʔ	lung	lung			1.7.2	1a	0			7384
+144317	342	Bisu	ʔaŋ-hmaw	ʔaŋ-hmaw	lung	lung			1.7.2	1a	0			5450,5738
+144318	1289	Côông [Phunoi]	ʔã-hmap	ʔã-hmap	lung	lung			1.7.2	1a	0			5450,5738
+144319	180	*Tibeto-Burman	s-|wa-|p	s-wa-p	lung	lung			1.7.2	1a	0			5482
+144320	678	Jingpho	sìn-wóp	sìn-wóp	lung (=spongy liver)	lung (=spongy liver)			1.7.2	1a	0		u	1390,457
+144321	180	*Tibeto-Burman	sin-wap	sin-wap	lung	lung			1.7.2	1a	0			1390,457
+144322	704	Jirel	lwa-syakq	lwa-syakq	lung	lung			1.7.2	1b	0			2121,32
+144324	193	Padam-Mishing [Abor-Miri]	â-rop	â-rop	lung	lung			1.7.2	1b	0		D0	p,5481
+144326	1453	Tamang (Risiangku)	glap-sya	glap-sya	lung	lung			1.7.2	1b	0		u	2121,32
+144328	1574	Tibetan (Written)	glo-ba	glo-ba	lung	lung			1.7.2	1b	0		D0	2121,s
+144329	180	*Tibeto-Burman	l-wa-p⪤*r	l-wa-p⪤*r	lung	lung			1.7.2	1b	0			e
+144330	447	Chepang	pop	pop	lung	lung			1.7.2	1c	0			m
+144331	840	Lahu	ɔ̀-chɨ̂-phôʔ	ɔ̀-chɨ̂-phôʔ	lung	lung			1.7.2	1c	0		D0	5450,458,b
+144332	215	Ahi	tsɿ⁴⁴-pu²²	tsɿ⁴⁴-pu²²	lung	lung			1.7.2	1c	0	jbl5	HIDE	DUPE IN SOURCE
+144333	236	Akha	shà-pɔ̀ʔ	shà-pɔ̀ʔ	lung	lung			1.7.2	1c	0			34,m
+144335	1271	Pwo (Bassein)	pòʔ-|θòʔ	pòʔ-θòʔ	lung	lung			1.7.2	1c	0			7384
+144336	725	Kaike	phwa	phwa	lung	lung			1.7.2	1c	0	jbl5	HIDE	DUPE IN SOURCE
+144338	180	*Tibeto-Burman	p-|wa-|p	p-wa-p	lung	lung			1.7.2	1c	0			5481
+144339	756	Khaling	'swah-prap	'swah-prap	lung	lung			1.7.2	ld	0			1745,5481
+144340	326	Bantawa	som-phu-rok	som-phu-rok	lung	lung			1.7.2	ld	0			66,m,m
+144341	476	Chinese (Old)	p'iwad	p'i◦wad	lung	lung			1.7.2	ld	0		u	5481
+144345	840	Lahu	ɔ̀-chɨ̂	ɔ̀-chɨ̂	lung	lung			1.7.2	2a	0			5450,458
+144346	1370	Sani [Nyi]	ts'ẓ¹¹-p'o³³-ma³³	ts'ẓ¹¹-p'o³³-ma³³	lung	lung			1.7.2	2a	0	jbl5	HIDE	DUPE IN SOURCE
+144347	980	Lushai [Mizo]	chuap	chuap	lung	lung			1.7.2	2a	0			457
+144349	180	*Tibeto-Burman	tsi	tsi	lung	lung			1.7.2	2a	0			458
+144350	215	Ahi	tsɿ⁴⁴-pu²²	tsɿ⁴⁴-pu²²	lung	lung			1.7.2	2b	0		D1	458,s
+144352	180	*Tibeto-Burman	tsit	tsit	lung	lung			1.7.2	2b	0			458
+144353	840	Lahu	cɨ́-šɛ̄-mì-cə̀	cɨ́-šɛ̄-mì-cə̀	entrails, viscera in general	entrails, viscera in general			1.7.7	2c	0			
+144355	180	*Tibeto-Burman	ʔtsit or *ʔdzit	ʔtsit or *ʔdzit	entrails, viscera in general	entrails, viscera in general			1.7.7	2c	0			
+144356	403	Burmese (Written)	chut	chut	lung	lung			1.7.2	2d	0			458
+144358	1685	Atsi [Zaiwa]	tsʔut	tsʔut	lung	lung			1.7.2	2d	0			458
+144359	646	Hayu	ɟot	ɟot	lung	lung			1.7.2	2d	0			458
+144360	873	Lakher [Mara]	pa-chao	pa-chao	lung	lung			1.7.2	2d	0			
+144362	180	*Tibeto-Burman	ʔtsut	ʔtsut	lung	lung			1.7.2	2d	0			458
+144363	1476	Tangkhul	ā-phār	ā-phār	lung	lung			1.7.2	3	0			p,5737
+144364	1066	Mikir [Karbi]	ing-phor	ing-phor	lung	lung			1.7.2	3	0			p,5737
+144365	261	Angami Naga	ú◦phié	ú◦phié	lung	lung			1.7.2	3	0			18,5737
+144366	725	Kaike	phwa	phwa	lung	lung			1.7.2	3	0		D1	5737
+144367	180	*Tibeto-Burman	pwar	pwar	lung	lung			1.7.2	3	0			5737
+144369	897	Lepcha	a-bu	a-bu	lung	lung			1.7.2	4	0			p,m
+144370	504	Darang [Taraon]	a-po	a-po	lung	lung			1.7.2	4	0			p,m
+144372	1370	Sani [Nyi]	ts'ẓ¹¹-p'o³³-ma³³	ts'ẓ¹¹-p'o³³-ma³³	lung	lung			1.7.2	4	0		D1	458,b,s
+144373	840	Lahu	phô	phô	sac, bladder	sac, bladder			5.1	4	0			
+144374	180	*Tibeto-Burman	pu	pu	lung	lung			1.7.2	4	0			e
+144375	1008	Chinese (Old/Mid)	pi̯ôk/pi̯uk	pi̯ôk/pi̯uk	belly	belly			1.4.7	1a-(a)	0		D0	164,164
+144377	1008	Chinese (Old/Mid)	p'i̯ôk/p'ĭûk	p'i̯ôk/p'ĭûk	cave	cave			3.2.7	1a-(a)	0			
+144379	1574	Tibetan (Written)	p'ug(s)	p'ug(s)	innermost part	innermost part			9.2.5	1a-(a)	0			164
+144380	1574	Tibetan (Written)	p'ug-pa	p'ug-pa	cavern	cavern			3.2.7	1a-(a)	0			
+144381	916	Limbu	sə◦pok	səpok	belly	belly			1.4.7	1a-(a)	0			m,164
+144383	980	Lushai [Mizo]	puːk	puːk	cave	cave			3.2.7	1a-(a)	0			164
+144384	403	Burmese (Written)	puik	puik	pregnancy	pregnancy			1.9.6.1	1a-(a)	0			
+144385	403	Burmese (Written)	wam-puik	wam-puik	outside of belly	outside of belly			9.2.7	1a-(a)	0			
+144386	1066	Mikir [Karbi]	pok	pok	belly	belly			1.4.7	1a-(a)	0			164
+144387	706	Rongmei / Nruanghmei	puk	puk	belly	belly			1.4.7	1a-(a)	0		u	164
+144388	1044	Meithei	puk	puk	belly	belly			1.4.7	1a-(a)	0			164
+144389	609	rGyalrong	pog◦~◦phog	pog~phog|	guts	guts			1.7.7	1a-(a)	0			164,164
+144391	609	rGyalrong	ti-|pog	ti-pog	stomach	stomach			1.7.6	1a-(a)	0			164
+144393	180	*Tibeto-Burman	s-|puːk [S	s-|puːk [S	belly / stomach	belly / stomach			1.4.7	1a-(a)	0			164,e
+144394	1008	Chinese (Old/Mid)	b'i̯ôk/b'i̯uk	b'i̯ôk/b'i̯uk	cave	cave			3.2.7	1a-(b)	0			
+144395	1574	Tibetan (Written)	bug-pa	bug-pa	hole	hole			3.2.7	1a-(b)	0			164,s
+144396	1574	Tibetan (Written)	sbugs	sbugs	cavity	cavity			3.2.7	1a-(b)	0			
+144397	180	*Tibeto-Burman	s-|buːk [S	s-|buːk [S	belly-stomach	belly-stomach			1.4.7	1a-(b)	0			164,e
+144398	277	Ao (Chungli)	tapok	ta◦pok	cave	cave			3.2.7	1b-(a)	0		u	164
+144399	277	Ao (Chungli)	tepok	tepok	belly	belly			1.4.7	1b-(a)	0			164
+144400	609	rGyalrong	tĕpŏk	tĕpŏk	belly	belly			1.4.7	1b-(a)	0			164
+144401	180	*Tibeto-Burman	d-|puk	d-|puk	belly-stomach	belly-stomach			1.4.7	1b-(a)	0			164
+144402	897	Lepcha	tăbak~tăbok~tăfuk	tăbak~tăbok~tăfuk	belly-stomach	belly-stomach			1.4.7	1b-(b)	0			164,164,164
+144403	180	*Tibeto-Burman	d-|bwak	d-|bwak	belly-stomach	belly-stomach			1.4.7	1b-(b)	0			164
+144404	447	Chepang	tuk	tuk	belly-stomach	belly-stomach			1.4.7	1b-(c)	0			164
+144405	995	Magar	mi-Tuk	mi-Tuk	belly-stomach	belly-stomach			1.4.7	1b-(c)	0			m,164
+144407	180	*Tibeto-Burman	d-|puk (?)	d-|puk (?)	belly-stomach	belly-stomach			1.4.7	1b-(c)	0			164
+144409	574	Garo	ok	ok	belly-stomach	belly-stomach			1.4.7	1c	0			164
+144410	1475	Tangkhul	wuk	wuk	belly-stomach	belly-stomach			1.4.7	1c	0			164
+144412	1277	Pwo (Moulmein)	ɣàuʔ	ɣàuʔ	belly-stomach	belly-stomach			1.4.7	1c	0			m
+144413	1240	Pa-O	hóʔ	hóʔ	belly-stomach	belly-stomach			1.4.7	1c	0		u	m
+144414	744	Karen (Pho)	hùʔ	hùʔ	belly-stomach	belly-stomach			1.4.7	1c	0		u	m
+144416	180	*Tibeto-Burman	wuk	wuk	belly-stomach	belly-stomach			1.4.7	1c	0			2106
+144417	1574	Tibetan (Written)	p'ig-pa	p'ig-pa	make a hole	make a hole			6.14	1d(a)	0			
+144418	1066	Mikir [Karbi]	phek	phek	bowels	bowels			1.7.7	1d(a)	0			2104
+144419	180	*Tibeto-Burman	ʔ-|pi(ː)k	ʔ-|pi(ː)k	belly-stomach	belly-stomach			1.4.7	1d(a)	0			2104
+144420	1574	Tibetan (Written)	ḥbigs-pa	ḥbigs-pa	make hole	make hole			6.14	1d(b)	0			
+144421	574	Garo	bi-bik	bi-bik	bowels	bowels			1.7.7	1d(b)	0			p,2104
+144422	180	*Tibeto-Burman	ʔ-|bi(ː)k	ʔ-|bi(ː)k	belly-stomach	belly-stomach			1.4.7	1d(b)	0			2104
+144424	840	Lahu	ɔ́-fɨ́-qō	ɔ́-fɨ́-qō	stomach	stomach			1.7.6	1e	0			p,2104,387
+144425	936	Lisu	h'i⁶-hchi⁶	h'i⁶-hchi⁶	belly-stomach	belly-stomach			1.4.7	1e	0			2104,m
+144426	1370	Sani [Nyi]	hɪ-ma	hɪ-ma	belly-stomach	belly-stomach			1.4.7	1e	0			2104,1384
+144427	1398	Sgaw (Moulmein)	ɣyʔ	ɣyʔ	belly-stomach	belly-stomach			1.4.7	1e	0		u	2106
+144428	1395	Sgaw (Bassein)	hyʔ	hyʔ	belly-stomach	belly-stomach			1.4.7	1e	0		u	m
+144429	180	*Tibeto-Burman	ʔwik	ʔwik	belly-stomach	belly-stomach			1.4.7	1e	0			2104
+144430	916	Limbu	sə◦pu	səpu	belly	belly			1.4.7	2a(a)	0			m,164
+144432	1574	Tibetan (Written)	p'o-ba	p'o-ba	stomach	stomach			1.7.6	2a(a)	0			2103,s
+144433	678	Jingpho	pù	pù	bowels	bowels			1.7.7	2a(a)	0			2103
+144434	678	Jingpho	lùŋ-pū	lùŋ-pū	cave	cave			3.2.7	2a(a)	0			1269,2103
+144435	1475	Tangkhul	ā◦phur◦ā◦pham	ā◦phur◦ā◦pham	belly	belly			1.4.7	2a(a)	0	jbl5	HIDE	DUPE IN SOURCE
+144436	1008	Chinese (Old/Mid)	pi̯u/pi̯u	pi̯u/pi̯u	bowels	bowels			1.7.7	2a(a)	0			2103,2103
+144438	180	*Tibeto-Burman	(s-)|pu	(s-)|pu	belly-stomach	belly-stomach			1.4.7	2a(a)	0			2103
+144439	354	Bodo	bi-bú	bi-bú	guts	guts			1.7.7	2b(b)	0			p,164
+144440	1008	Chinese (Old/Mid)	b'i̯u/b'i̯u	b'i̯u/b'i̯u	intestines	intestines			1.7.7	2b(b)	0			2103,2103
+144442	180	*Tibeto-Burman	(s-)|bu	(s-)|bu	belly-stomach	belly-stomach			1.4.7	2b(b)	0			2103
+144443	840	Lahu	ɔ̀-g̈ù-tɛ̂ʔ	ɔ̀-g̈ù-tɛ̂ʔ	guts	guts			1.7.7	2c	0			5450,2102,m
+144444	236	Akha	ù-máʔ	ù-máʔ	abdomen	abdomen			1.4.7	2c	0	jbl5	HIDE	DUPE IN SOURCE
+144445	403	Burmese (Written)	ʔu	ʔu	intestines	intestines			1.7.7	2c	0			2102
+144446	936	Lisu	wu	wu	intestines	intestines			1.7.7	2c	0			2102
+144447	180	*Tibeto-Burman	wu	wu	belly-stomach	belly-stomach			1.4.7	2c	0			2102
+144448	342	Bisu	pɔ̀ŋ-ba	pɔ̀ŋ-ba	belly-stomach	belly-stomach			1.4.7	3	0			2111,s
+144449	1312	Pyen	pawng-pawng	pawng-pawng	belly-stomach	belly-stomach			1.4.7	3	0		u	2111,2111
+144450	236	Akha	baw-ma	baw-ma	belly-stomach	belly-stomach			1.4.7	3	0			2103,m
+144451	1277	Pwo (Moulmein)	ɣàuʔ-phòn	ɣàuʔ-phòn	belly-stomach	belly-stomach			1.4.7	3	0			m
+144452	1475	Tangkhul	ā◦pai◦phon	ā◦pai◦phon	belly-stomach	belly-stomach			1.4.7	3	0			m,m,2111
+144453	180	*Tibeto-Burman	pon ⪤ poŋ	pon⪤*poŋ	belly-stomach	belly-stomach			1.4.7	3	0			2111,2111
+144454	678	Jingpho	pù-hpam	pù-hpam	stomach	stomach			1.7.6	4a	0			2103,137
+144455	1475	Tangkhul	ā◦phur◦ā◦pham	ā◦phur◦ā◦pham	belly	belly			1.4.7	4a	0		D1	p,m,p,137
+144457	180	*Tibeto-Burman	pam	pam	belly; stomach	belly; stomach			1.4.7	4a	0			137
+144459	403	Burmese (Written)	wâm	wâm	belly	belly			1.4.7	4b	0			137
+144460	840	Lahu	g̈ô-pè	g̈ô-pè	belly	belly			1.4.7	4b	0			137,m
+144461	1685	Atsi [Zaiwa]	vàm	vàm	belly	belly			1.4.7	4b	0			137
+144462	1028	Maru [Langsu]	wɛn	wɛn	belly	belly			1.4.7	4b	0			137
+144463	1028	Maru [Langsu]	wɛn-tok	wɛn-tok	abdomen, stomach	abdomen, stomach			1.4.7	4b	0			137,164
+144464	1066	Mikir [Karbi]	vam	vam	waist / loin	waist / loin			1.4.6	4b	0			137
+144465	980	Lushai [Mizo]	von a śor	von a śor	diarrhea	diarrhea			1.8.5	4b	0			137,p,2680
+144466	811	Konyak (Tamlu)	hwum	hwum	belly	belly			1.4.7	4b	0		u	137
+144467	873	Lakher [Mara]	a-vy; pa-vy	a-vy; pa-vy	stomach	stomach			1.7.6	4b	0			p,137,m,137
+144469	180	*Tibeto-Burman	wam	wam	belly; stomach	belly; stomach			1.4.7	4b	0			137
+144471	980	Lushai [Mizo]	pùm~pùŋ	pùm~pùŋ	belly	belly			1.4.7		0			3,2111
+144472	980	Lushai [Mizo]	puam	puam	swell	swell	v.	v.	1.1.5.2		0			
+144473	678	Jingpho	bōm	bōm	swell	swell	v.	v.	1.1.5.2		0			
+144474	678	Jingpho	bòp	bòp	calf of leg	calf of leg			1.5.7		0			163
+144475	403	Burmese (Written)	phwam	phwam	plump	plump			1.1.5.2		0			163
+144476	1574	Tibetan (Written)	sbom	sbom	thick, stout	thick, stout			9.7.2		0			163
+144477	180	*Tibeto-Burman	s-|bwam	s-bwam	swelling, rounded, convex	swelling, rounded, convex			1.1.5.2		0			163
+144478	1595	Tiddim	luŋ	luŋ	heart	heart			1.7.1	(1a)	0			1381
+144479	326	Bantawa	luŋ-mak	luŋ-mak	heart, liver	heart, liver			1.7.1	(1a)	0			1381,1384
+144480	1406	Sherpa	lo-waq	lo-waq	liver	liver			1.7.3	(1a)	0			1381,s
+144481	980	Lushai [Mizo]	thin-lung	thin-lung	mind	mind			1.10	(1a)	0			1390,1381
+144482	180	*Tibeto-Burman	luŋ	luŋ	heart / liver	heart / liver			1.7.1	(1a)	0			1381
+144483	447	Chepang	hlung	hlung	heart	heart			1.7.1	(1b)	0			1381
+144484	180	*Tibeto-Burman	s-|luŋ	s-|luŋ	heart / liver	heart / liver			1.7.1	(1b)	0			1381
+144485	1125	Mru	plong	plong	liver	liver			1.7.3	(1c)	0			
+144486	777	Khami (Northern)	pă◦lüng	pă◦lüng	heart	heart			1.7.1	(1c)	0		u	m,1381
+144487	247	Anal	pa-luŋ	pa-luŋ	heart	heart			1.7.1	(1c)	0		u	m,1381
+144488	1066	Mikir [Karbi]	vi-bong	vi-bong	heart	heart			1.7.1	(1c)	0			230,1392
+144489	456	Chinbok	am-luŋ	am-luŋ	heart	heart			1.7.1	(1c)	0		u	m,1381
+144490	1476	Tangkhul	məluŋ	mə◦luŋ	heart	heart			1.7.1	(1c)	0			1381
+144491	277	Ao (Chungli)	te◦mu-|luŋ	te◦mu-luŋ	heart	heart			1.7.1	(1c)	0			p,1381a
+144492	180	*Tibeto-Burman	m-|luŋ ⪤ b-|lu	m-|luŋ⪤b-lu	heart / liver	heart / liver			1.7.1	(1c)	0			1381,1381
+144493	678	Jingpho	sə◦lum	sə◦lum	heart	heart			1.7.1	(1d)	0			m,1381
+144494	403	Burmese (Written)	hnac-lûm	hnac-lûm	heart	heart			1.7.1	(1d)	0	jbl5	HIDE	DUPE IN SOURCE
+144495	756	Khaling	'lum	'lum	liver	liver			1.7.3	(1d)	0			1381
+144496	646	Hayu	thum	thum	heart	heart			1.7.1	(1d)	0			
+144497	180	*Tibeto-Burman	s-|lum	s-|lum	heart / liver	heart / liver			1.7.1	(1d)	0			1381
+144498	734	Kanauri	stiŋ	stiŋ	heart	heart			1.7.1	(2)	0		D0	1387
+144499	725	Kaike	ḍing	ḍing	heart	heart			1.7.1	(2)	0			1387
+144500	646	Hayu	diŋ	diŋ	liver	liver			1.7.3	(2)	0			1387
+144501	1528	Thakali (Tukche)	tin	tin	heart	heart			1.7.1	(2)	0			1387
+144502	1439	Sunwar	au-di	au-di	liver	liver			1.7.3	(2)	0			p,1387
+144503	303	Bahing	diŋ	diŋ	liver	liver			1.7.3	(2)	0			1387
+144504	1460	Tamang (Sahu)	ting	ting	heart	heart			1.7.1	(2)	0			1387
+144505	180	*Tibeto-Burman	(s-)|diŋ	(s-)|diŋ	heart / liver	heart / liver			1.7.1	(2)	0			1387
+144507	1544	Thulung	thyo-ma bop	thyo-ma bop	heart	heart			1.7.1	(3)	0			1382,m,m
+144508	756	Khaling	'cō	'cō	heart	heart			1.7.1	(3)	0			1382
+144509	734	Kanauri	zŭïă	zŭïă	heart	heart			1.7.1	(3)	0			m
+144510	599	Gurung	uiq-ḍāː	uiq-ḍāː	liver	liver			1.7.3	(3)	0			m,1382
+144511	1289	Côông [Phunoi]	mì-tchù-sì	mì-tchù-sì	heart	heart			1.7.1	(3)	0			m,m,1390
+144512	1544	Thulung	dyu-ŋa	dyu-ŋa	liver	liver			1.7.3	(3)	0			1387,m
+144513	765	Kham	'yuh	'yuh	heart	heart			1.7.1	(3)	0			1382
+144514	1044	Meithei	tha-môi	tha-môi	heart	heart			1.7.1	(3)	0			1382,m
+144516	180	*Tibeto-Burman	tywa	tywa	heart / liver	heart / liver			1.7.1	(3)	0			1382
+144517	1574	Tibetan (Written)	mc̀'in-pa	mc̀'in-pa	liver / bile / bitter	liver / bile / bitter			1.7.3	(1)	0			1390,s
+144518	678	Jingpho	məsìn	mə◦sìn	liver / bile / bitter	liver / bile / bitter			1.7.3	(1)	0			1390
+144519	403	Burmese (Written)	ʔə◦sâñ	ʔə◦sâñ	liver / bile / bitter	liver / bile / bitter			1.7.3	(1)	0			p,1390
+144520	180	*Tibeto-Burman	m-|sin	m-|sin	liver / bile / bitter	liver / bile / bitter			1.7.3	(1)	0			1390
+144522	193	Padam-Mishing [Abor-Miri]	a-in	a-in	liver	liver			1.7.3	(1)	0		u	p,1390
+144523	1073	Mishing [Miri]	pui-ing	pui-ing	gall bladder	gall bladder			1.7.3	(1)	0		u	6546,m
+144524	180	*Tibeto-Burman	in	in	liver / bile / bitter	liver / bile / bitter			1.7.3	(1)	0			1390
+144526	574	Garo	bi-ka	bi-ka	liver	liver			1.7.3	(2)	0			m,229
+144527	711	Bodo	bi-ka	bi-ka	liver	liver			1.7.3	(2)	0		u	m,229
+144528	574	Garo	kha-khit	kha-khit	bile	bile			1.7.3.1	(2)	0			229,227
+144529	756	Khaling	khang	khang	bile	bile			1.7.3.1	(2)	0			229
+144530	599	Gurung	kãː	kãː	bile	bile			1.7.3.1	(2)	0			229
+144531	1528	Thakali (Tukche)	kam	kam	bile	bile			1.7.3.1	(2)	0			229
+144532	180	*Tibeto-Burman	ka-(|m,|n,|ŋ)|	ka-(m	bitter / bile	bitter / bile			7.1.4.4	(2)	0			229
+144533	1574	Tibetan (Written)	mk'ris-pa	mk'ris-pa	bile, gall	bile, gall			1.7.3.1	(3)	0			227,s
+144534	574	Garo	kha-khit	kha-khit	bile, gall	bile, gall			1.7.3.1	(3)	0			229,227
+144535	180	*Tibeto-Burman	(m-)|krit	(m-)|krit	bile, gall / bitter	bile, gall / bitter			1.7.3.1	(3)	0			227
+144536	180	*Tibeto-Burman	(s-)|krit	(s-)|krit	bile, gall / bitter	bile, gall / bitter			1.7.3.1	(3)	0			227
+144537	897	Lepcha	kri	kri	bitter	bitter			7.1.4.4	(3)	0			
+144538	678	Jingpho	khrī	khrī	acid, sour	acid, sour			7.1.4.4	(3)	0			227
+144539	1202	Anong	sə◦hi	səhi	gall bladder	gall bladder			1.7.3	(3)	0			1390,227
+144540	403	Burmese (Written)	sâñ-khre	sâñ-khre	bile	bile			1.7.3.1	(3)	0		D0	1390,227
+144541	678	Jingpho	sə◦grì⪤šə◦grì	sə◦grì⪤šə◦grì	bile, gall, gall bladder	bile, gall, gall bladder			1.7.3.1	(3)	0			1390,227
+144542	725	Kaike	thi-pā	thi-pā	bile	bile			1.7.3.1	(3)	0			1390,s
+144543	704	Jirel	ṭhiː◦bāq	ṭhiːbāq	bile	bile			1.7.3.1	(3)	0			1390,s
+144544	447	Chepang	hi	hi	bile	bile			1.7.3.1	(3)	0			
+144545	1476	Tangkhul	ā◦thi	ā◦thi	bile	bile			1.7.3.1	(3)	0			p,1390
+144546	354	Bodo	bi-klə́	bi-klə́	liver	liver			1.7.3	(3)	0			m,572
+144547	1289	Côông [Phunoi]	bɔ̌◦kə̀	bɔ̌◦kə̀	bile	bile			1.7.3.1	(3)	0			m,227
+144548	936	Lisu	ji⁴	ji⁴	bile	bile			1.7.3.1	(3)	0			227
+144549	236	Akha	pya kui	pya kui	bile	bile			1.7.3.1	(3)	0			m,227
+144550	995	Magar	mi-chi-ṭa	mi-chi-ṭa	gall bladder	gall bladder			1.7.3	(3)	0		D1	m,227,1382
+144551	840	Lahu	ɔ̀-kɨ	ɔ̀-kɨ	bile, gall bladder	bile, gall bladder			1.7.3.1	(3)	0			5450,227
+144552	980	Lushai [Mizo]	mît	mît	bile	bile			1.7.3.1	(3)	0			
+144553	1125	Mru	müt	müt	bile	bile			1.7.3.1	(3)	0			2101
+144554	1066	Mikir [Karbi]	a◦mut-a◦lang	a◦mut-a◦lang	bile	bile			1.7.3.1	(3)	0			p,2101,p,191
+144555	180	*Tibeto-Burman	kri	kri	bile, gall, gall-bladder / aci	bile, gall, gall-bladder  /  aci			1.7.3.1	(3)	0	jbl3		227,e
+144556	916	Limbu	khiŋ	khiŋ	bile	bile			1.7.3.1	(4)	0			228
+144557	916	Limbu	khik	khik	bitter	bitter			7.1.4.4	(4)	0			
+144558	646	Hayu	pik-kiŋ⪤plik-kiŋ	pik-kiŋ⪤plik-kiŋ	bile, spleen	bile, spleen			1.7.3.1	(4)	0			5637,228
+144559	180	*Tibeto-Burman	kik ⪤ kiŋ	kik⪤kiŋ	bile / bitter	bile / bitter			1.7.3.1	(4)	0			228,228
+144560	897	Lepcha	a-byet	a-byet	liver	liver			1.7.3		0			p,1383
+144561	916	Limbu	nari◦bet	nari◦bet	heart	heart			1.7.1		0			b,1383
+144562	1453	Tamang (Risiangku)	net	net	liver	liver			1.7.3		0		u	1383
+144563	678	Jingpho	myìt	myìt	mind, seat of emotions	mind, seat of emotions			1.10		0			1383,m
+144564	1202	Anong	mit~nit	mit~nit	mind, temper	mind, temper			1.10		0			1383,1383
+144565	1574	Tibetan (Written)	yid	yid	soul, mind	soul, mind			1.10		0			1383
+144566	180	*Tibeto-Burman	b-|yet ⪤ m-|yet	b-|yet⪤m-|yet	heart / liver / mind	heart / liver / mind			1.7.1		0			1383,1383
+144567	1574	Tibetan (Written)	snyiŋ	snyiŋ	heart, mind	heart, mind			1.7.1		0			251
+144568	574	Garo	təniŋ	təniŋ	brains	brains			1.2.4		0			251
+144569	1066	Mikir [Karbi]	niŋ	niŋ	heart, mind	heart, mind			1.7.1		0			251
+144570	1202	Anong	ə◦niŋ	ə◦niŋ	brains	brains			1.2.4		0			p,251
+144571	180	*Tibeto-Burman	s-|niŋ	s-|niŋ	heart / brains / mind	heart / brains / mind			1.7.1		0			251
+144572	403	Burmese (Written)	hnac-lûm	hnac-lûm	heart	heart			1.7.1		0		D1	1385,1381
+144573	180	*Tibeto-Burman	s-|nik	s-|nik	heart / brains / mind	heart / brains / mind			1.7.1		0			1385
+144574	180	*Tibeto-Burman	k-nik|	k-nik|	heart / brains / mind	heart / brains / mind			1.7.1		0			1385
+144575	936	Lisu	ni² -ma³	ni² -ma³	heart / brains / mind	heart / brains / mind			1.7.1		0			297,s
+144577	840	Lahu	ni-ma	ni-ma	heart / brains / mind	heart / brains / mind			1.7.1		0			297,s
+144578	1066	Mikir [Karbi]	ne	ne	heart / brains / mind	heart / brains / mind			1.7.1		0			434
+144580	1528	Thakali (Tukche)	'ngyeh	'ngyeh	heart / brains / mind	heart / brains / mind			1.7.1		0			m
+144582	180	*Tibeto-Burman	s-|ni	s-|ni	heart / brains / mind	heart / brains / mind			1.7.1		0			297
+144583	193	Padam-Mishing [Abor-Miri]	a-ki	a-ki	abdomen, stomach, guts	abdomen, stomach, guts			1.4.7		0			p,2125
+144584	936	Lisu	h'i⁶-hchi⁶	h'i⁶-hchi⁶	stomach	stomach			1.7.6		0			2104,m
+144585	1475	Tangkhul	moŋ-khui	moŋ-khui	abdomen, pelvis	abdomen, pelvis			1.4.7		0			1384,m
+144586	1439	Sunwar	kiː	kiː	guts	guts			1.7.7		0			572
+144588	447	Chepang	yong-kliʔ	yong-kliʔ	bowels	bowels			1.7.7		0	jbl5	HIDE	DUPE IN SOURCE
+144589	756	Khaling	'cis◦khli	'cis◦khli	guts	guts			1.7.7		0			m,572
+144590	995	Magar	me-khe	me-khe	guts	guts			1.7.7		0			p,229
+144592	646	Hayu	soːgali	soːgali	belly	belly			1.4.7		0			m
+144594	599	Gurung	mi-kli	mi-kli	ashes	ashes			3.2.12.2		0			2136,m
+144595	1460	Tamang (Sahu)	nak-khli	nak-khli	earwax	earwax			1.2.7.3		0			811,572
+144596	1460	Tamang (Sahu)	mik-khli	mik-khli	tears	tears			1.2.6.7		0			682,572
+144597	180	*Tibeto-Burman	kliy	kliy	shit / guts / stomach	shit / guts / stomach			1.8.5		0			572
+144598	1574	Tibetan (Written)	gsus-pa	gsus-pa	belly / stomach	belly / stomach			1.4.7	(5)	0			m,s
+144599	704	Jirel	'su-baq	'su-baq	belly / stomach	belly / stomach			1.4.7	(5)	0			m,m
+144600	1406	Sherpa	supq	supq	belly / stomach	belly / stomach			1.4.7	(5)	0			163
+144601	646	Hayu	soːgali	soːgali	belly / stomach	belly / stomach			1.4.7	(5)	0			m
+144603	180	*Tibeto-Burman	g-su(-t)	g-su(-t)	belly / stomach	belly / stomach			1.4.7	(5)	0			
+144604	504	Darang [Taraon]	kay-yaːŋ	kay-yaːŋ	bowels	bowels			1.7.7	(1)	0			572,577
+144605	447	Chepang	yong-kliʔ	yong-kliʔ	bowels	bowels			1.7.7	(1)	0		D1	m,572
+144607	180	*Tibeto-Burman	yaŋ	yaŋ	guts	guts			1.7.7	(1)	0			577
+144608	1574	Tibetan (Written)	rgyu	rgyu	guts	guts			1.7.7	(2)	0			2116
+144609	1460	Tamang (Sahu)	kru	kru	guts	guts			1.7.7	(2)	0			m
+144610	1460	Tamang (Sahu)	kruŋ	kruŋ	guts	guts			1.7.7	(2)	0			m
+144611	704	Jirel	gyu-mak	gyu-mak	guts	guts			1.7.7	(2)	0	jbl5	HIDE	DUPE IN SOURCE
+144612	873	Lakher [Mara]	chhô	chhô	abdomen, belly, stomach	abdomen, belly, stomach			1.4.7	(2)	0			2095
+144613	180	*Tibeto-Burman	r-|gyu-|ŋ	r-gyu-ŋ	guts	guts			1.7.7	(2)	0			2116
+144614	236	Akha	ù-máʔ	ù-máʔ	abdomen	abdomen			1.4.7		0		D1	137,1384
+144615	704	Jirel	gyu-mak	gyu-mak	guts	guts			1.7.7		0		D1	2116,1384
+144616	1406	Sherpa	ge-mā	ge-mā	guts	guts			1.7.7		0			p,1384
+144617	326	Bantawa	luŋ-mak	luŋ-mak	heart	heart			1.7.1		0			1381,1384
+144618	180	*Tibeto-Burman	mak	mak	guts / belly / vital organ	guts / belly / vital organ			1.7.7		0			1384
+144619	1574	Tibetan (Written)	grod-pa	grod-pa	belly	belly			1.4.7		0		D0	2112,s
+144620	646	Hayu	cot	cot	guts	guts			1.7.7		0			2112
+144621	180	*Tibeto-Burman	grwat	grwat	guts / belly	guts / belly			1.7.7		0			2112
+144622	678	Jingpho	pāi	pāi	spleen	spleen			1.7.4	(1)	0			91
+144623	678	Jingpho	kān◦pāi	kān◦pāi	spleen	spleen			1.7.4	(1)	0			m,91
+144624	678	Jingpho	kūm◦pāi	kūm◦pāi	spleen	spleen			1.7.4	(1)	0			p,91
+144625	678	Jingpho	sìn◦pāi	sìn◦pāi	spleen	spleen			1.7.4	(1)	0			1390,91
+144626	1476	Tangkhul	ā◦pai	ā◦pai	spleen	spleen			1.7.4	(1)	0			p,91
+144628	1476	Tangkhul	pei	pei	spleen	spleen			1.7.4	(1)	0			91
+144630	1125	Mru	pai	pai	spleen	spleen			1.7.4	(1)	0		D0	91
+144631	840	Lahu	ɔ̀-pe	ɔ̀-pe	spleen	spleen			1.7.4	(1)	0			5450,91
+144632	1171	Newar	ã-pi	ã-pi	spleen	spleen			1.7.4	(1)	0			p,91
+144633	765	Kham	phis	phis	spleen	spleen			1.7.4	(1)	0			5636
+144634	193	Padam-Mishing [Abor-Miri]	tûr-pe	tûr-pe	spleen	spleen			1.7.4	(1)	0		D0	m,91
+144635	1066	Mikir [Karbi]	pli-|ha	pli-ha	spleen	spleen			1.7.4	(1)	0			5636
+144636	261	Angami Naga	ú-prì	ú-prì	spleen	spleen			1.7.4	(1)	0			18,91
+144637	236	Akha	shi-pyeh	shi-pyeh	spleen	spleen			1.7.4	(1)	0			230,91
+144638	180	*Tibeto-Burman	pay⪤play|	pay⪤play|	spleen	spleen			1.7.4	(1)	0			91
+144639	646	Hayu	pik-kiŋ⪤plik-kiŋ	pik-kiŋ⪤plik-kiŋ	spleen, bile	spleen, bile			1.7.4	(2)	0			5637,228
+144641	180	*Tibeto-Burman	pik ⪤ plik	pik⪤plik	spleen	spleen			1.7.4	(2)	0			
+144643	1574	Tibetan (Written)	mk'al-ma	mk'al-ma	kidney	kidney			1.7.5	(1)	0			201,s
+144644	980	Lushai [Mizo]	kal	kal	kidney	kidney			1.7.5	(1)	0			201
+144645	1595	Tiddim	kal	kal	kidney	kidney			1.7.5	(1)	0			201
+144646	1574	Tibetan (Written)	sgal-pa	sgal-pa	small of back	small of back			1.4.8.1	(1)	0			201,s
+144647	1044	Meithei	nam-gal⪤nam-gan	nam-gal⪤nam-gan	back	back			1.4.8	(1)	0			3324,201,3324,201
+144648	574	Garo	dźaŋ-gal	dźaŋ-gal	back	back			1.4.8	(1)	0			208,201
+144649	1595	Tiddim	xaːl	xaːl	groin	groin			1.4.9	(1)	0			5344
+144650	678	Jingpho	kàn	kàn	put on / be on the back	put on / be on the back			10.1.1	(1)	0			
+144651	447	Chepang	gal	gal	kidney	kidney			1.7.5	(1)	0			201
+144652	725	Kaike	khal	khal	kidney	kidney			1.7.5	(1)	0			201
+144653	756	Khaling	'kal	'kal	kidney	kidney			1.7.5	(1)	0			201
+144654	1460	Tamang (Sahu)	koh	koh	lower back	lower back			1.4.8.1	(1)	0			211
+144655	1528	Thakali (Tukche)	koh	koh	lower back	lower back			1.4.8.1	(1)	0			211
+144656	704	Jirel	pi-koq	pi-koq	lower back	lower back			1.4.8.1	(1)	0	jbl5	HIDE	DUPE IN SOURCE
+144657	403	Burmese (Written)	khâ	khâ	loins	loins			1.4.9	(1)	0			201
+144658	678	Jingpho	n-|khyun	n-khyun	kidney / small of back	kidney / small of back			1.7.5	(1)	0			207
+144659	180	*Tibeto-Burman	m-|kal ⪤ s-|ga	m-|kal⪤s-ga	kidney / small of back	kidney / small of back			1.7.5	(1)	0			201,201
+144660	236	Akha	beh -si	beh -si	kidney	kidney			1.7.5	(2)	0			2120,1019
+144661	342	Bisu	pɛ̀-k'à	pɛ̀-k'à	kidney	kidney			1.7.5	(2)	0			2120,m
+144662	840	Lahu	cɔ̀ʔ-pɛ̄-ni	cɔ̀ʔ-pɛ̄-ni	waist / small of back	waist / small of back			1.4.6	(2)	0			215,2120,m
+144663	193	Padam-Mishing [Abor-Miri]	kat-|pil⪤kat-|pir	kat-|pil⪤kat-|pir	kidney	kidney			1.7.5	(2)	0			2120,2120
+144664	704	Jirel	pi-koq	pi-koq	lower back	lower back			1.4.8.1	(2)	0		D1	1361,m
+144665	1066	Mikir [Karbi]	ham-bi	ham-bi	kidney, anklebone, kneecap	kidney, anklebone, kneecap			1.7.5	(2)	0			1856,2120
+144666	180	*Tibeto-Burman	pil ⪤ pir	pil⪤pir	kidney / small of back	kidney / small of back			1.7.5	(2)	0			2120,2120
+144667	840	Lahu	ɔ̀-lâ-šī	ɔ̀-lâ-šī	kidney	kidney			1.7.5	(3)	0			5450,2812,1019
+144668	1125	Mru	la	la	spleen	spleen			1.7.4	(3)	0			2812
+144670	1171	Newar	ja-la-sem	ja-la-sem	kidney	kidney			1.7.5	(3)	0			m,2812,m
+144671	980	Lushai [Mizo]	la	la	spleen	spleen			1.7.4	(3)	0			2812
+144672	1595	Tiddim	laː	laː	enlarged spleen	enlarged spleen			9.5	(3)	0			2812
+144673	873	Lakher [Mara]	cha-law	cha-law	spleen	spleen			1.7.4	(3)	0			m,2812
+144674	180	*Tibeto-Burman	la	la	kidney / spleen	kidney / spleen			1.7.5	(3)	0			2812
+144675	980	Lushai [Mizo]	hlam	hlam	placenta	placenta					0			680
+144676	1595	Tiddim	lam	lam	placenta	placenta					0			680
+144677	1476	Tangkhul	rəm	rəm	placenta	placenta					0			670
+144678	840	Lahu	ɔ̀-lò	ɔ̀-lò	womb	womb					0			5450,680
+144679	1544	Thulung	wām	wām	placenta	placenta					0			2108
+144680	303	Bahing	wam	wam	placenta	placenta					0			2108
+144681	180	*Tibeto-Burman	s-|lwam ⪤ s-|rwam	s-lwam⪤s-rwam	womb / placenta	womb / placenta					0			680,680
+144683	1574	Tibetan (Written)	lhums	lhums	womb	womb					0			670
+144684	1574	Tibetan (Written)	rum	rum	womb	womb					0			670
+144685	1574	Tibetan (Written)	sbrum-pa	sbrum-pa	pregnant	pregnant			1.9.6.1		0			670,s
+144686	1574	Tibetan (Written)	dku-zlum	dku-zlum	cavity of abdomen	cavity of abdomen			3.2.7		0			
+144688	1277	Pwo (Moulmein)	dən-lán	dən-lán	womb	womb					0			m,680
+144689	1271	Pwo (Bassein)	də́n-lánʔ	də́n-lánʔ	womb	womb					0			m,680
+144690	1257	Palaychi	də̀q-lɔ̀	də̀q-lɔ̀	womb	womb					0			m,680
+144691	745	Karen (Sgaw)	də́-lɔ̀	də́-lɔ̀	womb	womb					0			m,680
+144692	1066	Mikir [Karbi]	hem	hem	womb	womb					0			1612
+144694	1066	Mikir [Karbi]	o◦so-a◦hem	o◦so-a◦hem	placenta	placenta					0		D0	p,1012,p,1612
+144696	180	*Tibeto-Burman	s-|lum ⪤ s-|lam ⪤ s-|rum ⪤ s-|ram	s-lum⪤s-lam⪤s-rum⪤s-ram	womb / placenta	womb / placenta					0			680,680,680,680
+144697	1125	Mru	thua	thua	womb	womb					0			1651
+144698	980	Lushai [Mizo]	chul	chul	womb	womb					0			1651
+168843	180	*Tibeto-Burman	n,ŋ)	n,ŋ)	bitter / bile	bitter / bile			7.1.4.4	(2)	0		DELETED	
+618713	678	Jingpho	dá		put, place					p.27	0			2682
+618714	2223	Jingpho (Hkauri)	dàt		put, place					p.27	0			2682

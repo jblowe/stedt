@@ -1,266 +1,266 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-13903	606	rGyalrong	tə s◦gru	tə s◦gru	body	body		1.1.1	1.1	0		p,p,560
-13904	606	rGyalrong	ka wlak	ka wlak	side (right)	side (right)		1.4.5	1.2	0		
-13905	606	rGyalrong	ka tɕʰa	ka tɕʰa	side (left)	side (left)		1.4.5	1.3	0		
-13906	606	rGyalrong	teŋ◦kʰu	teŋ◦kʰu	back	back		1.4.8	1.4	0		225,211
-13907	606	rGyalrong	tə tʂi	tə tʂi	front	front		1.4.4	1.5	0		m,1212
-13908	606	rGyalrong	tə s◦gru	tə s◦gru	torso / trunk	torso  /  trunk		1.5.3.2	1.6	0		p,p,560
-13909	606	rGyalrong	tə mɛ ta jɛk	tə mɛ ta jɛk	limbs / arms and legs	limbs  /  arms and legs		1.5.3.1	1.7	0		
-13910	606	rGyalrong	tə smɛt	tə smɛt	lap	lap		1.4.4.2	1.8	0		p,m
-13911	606	rGyalrong	ta r̥o	ta r̥o	bosom	bosom		1.4.4.2	1.9	0		
-13912	606	rGyalrong	ta pjak kɛ	ta pjak kɛ	groin / loins	groin  /  loins		1.4.9	1.10	0		
-13913	606	rGyalrong	ɕa	ɕa	flesh / meat	flesh  /  meat		1.1.1.1	1.11	0		34
-13914	606	rGyalrong	kə sə so	kə sə so	alive / be living	alive  /  be living		1.1.2.1	1.12	0		p,80,80
-13915	606	rGyalrong	kə ɕi	kə ɕi	die / be dead	die  /  be dead		1.1.6	1.13	0		p,27
-13916	606	rGyalrong	ta wam	ta wam	corpse / dead body	corpse  /  dead body		1.1.6.1	1.14	0		p,12
-13917	606	rGyalrong	kə rȵɛ wam	kə rȵɛ wam	carcass / dead animal	carcass  /  dead animal		1.1.6.1	1.15	0		p,m,12
-13918	606	rGyalrong	ka rma	ka rma	sleep /  be asleep	sleep  /   be asleep		1.1.4.1	1.16	0		p,130
-13919	606	rGyalrong	ta mȵak kə r̥o	ta mȵak |kə r̥o	awake / be awake	awake  /  be awake		1.1.4	1.17	0		p,682,m,m
-13920	606	rGyalrong	ta r̥mo kə pa	ta r̥mo kə pa	dream	dream	v.	1.1.4.2	1.18	0		p,126,m,m
-13921	606	rGyalrong	ta ko	ta ko	head	head		1.2.1	2.1	0		p,386
-13922	606	rGyalrong	tə ŋtɛk	tə ŋtɛk	top of head / crown / pate	top of head  /  crown  /  pate		1.2.1.2	2.2	0		
-13923	606	rGyalrong	ɕa rə	ɕa rə	skull	skull		1.2.1.1	2.4	0		m,1198
-13924	606	rGyalrong	tə pjo	tə pjo	brain	brain		1.2.4	2.5	0		p,252
-13925	606	rGyalrong	tə ɕna kʰoi jdu	tə ɕna kʰoi jdu	sinus	sinus		1.2.8.1	2.6	0		p,m,665,822
-13926	606	rGyalrong	ta ko rȵᴇ	ta ko rȵᴇ	hair of head	hair of head		1.2.3	2.7	0	D1	p,386,368
-13927	606	rGyalrong	ta ko n◦dɕi	ta ko n◦dɕi	scalp	scalp		1.2.1.5	2.8	0		p,386,p,596
-13928	606	rGyalrong	pka wu r̥ə r̥ɛp	pka wu r̥ə r̥ɛp	comb (of rooster)	comb (of rooster)		1.2.2.1	2.9	0		m,m,m,2016
-13929	606	rGyalrong	tə ru	tə ru	horn (of animal)	horn (of animal)		1.2.2	2.10	0		p,819
-13930	606	rGyalrong	r̥ə pək	r̥ə pək	antler (of deer)	antler (of deer)		1.2.2	2.11	0		2012,2010
-13931	606	rGyalrong	ta jo	ta jo	face	face		1.2.5	3.1	0		p,1190
-13932	606	rGyalrong	tə mto	tə mto	forehead / brow	forehead  /  brow		1.2.5.1	3.2	0		p,371
-13933	606	rGyalrong	tə rna ɕba	tə rna ɕba	temple	temple		1.2.5.1	3.3	0		
-13934	606	rGyalrong	tə mȵak	tə mȵak	eye	eye		1.2.6	3.4	0		p,681
-13935	606	rGyalrong	tə mȵak r̥kʰo	tə mȵak r̥kʰo	eyelid	eyelid		1.2.6.4	3.4.1	0		p,681,589
-13936	606	rGyalrong	tə mȵak wu rmi	tə mȵak wu rmi	eyeball	eyeball		1.2.6.1	3.4.2	0		p,681,m,m
-13937	606	rGyalrong	rnam tʂi	rnam tʂi	iris	iris		1.2.6.2	3.4.2.1	0		m,m
-13938	606	rGyalrong	tə ɕna kʰoi jdu	tə ɕna kʰoi jdu	pupil	pupil		1.2.6.2	3.4.2.2	0		p,m,665,822
-13939	606	rGyalrong	mȵak ʑur	mȵak ʑur	white of eye	white of eye		1.2.6.3	3.4.2.3	0		682,m
-13940	606	rGyalrong	tə mȵak mo rtsə	tə mȵak mo rtsə	eyebrow	eyebrow		1.2.6.6	3.4.3	0		p,681,363,1232
-13941	606	rGyalrong	tə mȵak mo rtsə	tə mȵak mo rtsə	eyelash	eyelash		1.2.6.5	3.4.4	0		p,681,363,1232
-13942	606	rGyalrong	mȵak tʰəp	mȵak tʰəp	blink	blink	v.	1.2.6.12	3.4.5	0		682,m
-13943	606	rGyalrong	tə mȵak tɕi	tə mȵak tɕi	tears	tears	n.	1.2.6.7	3.4.6	0		p,681,189
-13944	606	rGyalrong	tə mȵak pʰɕᴇ	tə mȵak pʰɕᴇ	eye sand	eye sand		1.2.6.8	3.4.7	0		p,681,575
-13945	606	rGyalrong	ka ŋa kru	ka ŋa kru	cry / weep	cry  /  weep	v.	1.8.8.2	3.4.8	0		p,1104,1103
-13946	606	rGyalrong	ka mto	ka mto	see / look	see  /  look	v.	1.2.6.10	3.4.9	0		p,1402
-13947	606	rGyalrong	ka lo	ka lo	blind	blind		1.2.6.14.2	3.4.10	0		p,m
-13948	606	rGyalrong	tə ɕna	tə ɕna	nose	nose		1.2.8	3.5	0		p,803
-13949	606	rGyalrong	tə ɕna kro ko	tə ɕna kro ko	nose bridge	nose bridge		1.2.8	3.5.1	0		p,803,m,m
-13950	606	rGyalrong	tə ɕna kʰoi jdu	tə ɕna kʰoi jdu	nostril	nostril		1.2.8.1	3.5.2	0		p,803,665,822
-13951	606	rGyalrong	ɕna tɕʰi	ɕna tɕʰi	alae nasi (nose flaps)	alae nasi (nose flaps)		1.2.8.2	3.5.3	0		803,m
-13952	606	rGyalrong	tə ɕna mo rȵᴇ	tə ɕna mo rȵᴇ	nose hair	nose hair		1.2.8	3.5.4	0		p,803,m,368
-13953	606	rGyalrong	pak wu mtɕʰi	pak wu mtɕʰi	snout (pig)	snout (pig)		1.2.8	3.5.5	0		1006,m,442
-13954	606	rGyalrong	tə ŋar	tə ŋar	liquid mucus	liquid mucus		3.2.3	3.5.6	0		
-13955	606	rGyalrong	ta spo	ta spo	solid mucus	solid mucus		1.1.5	3.5.7	0		
-13956	606	rGyalrong	snə no	snə no	smell / sniff	smell  /  sniff	v.	1.2.8.5	3.5.9	0		803,1415
-13957	606	rGyalrong	tə rȵa	tə rȵa	ear	ear		1.2.7	3.6	0		p,811
-13958	606	rGyalrong	rȵa mtʂi	rȵa mtʂi	earlobe	earlobe		1.2.7.1	3.6.1	0		811,816
-13959	606	rGyalrong	tə rȵa wu gu	tə rȵa wu gu	inner ear	inner ear		9.2.5	3.6.3	0		p,811,m,m
-13960	606	rGyalrong	tə rȵa kʰoi jdu	tə rȵa kʰoi jdu	ear canal	ear canal		1.2.7	3.6.4	0		p,811,665,822
-13961	606	rGyalrong	tə rȵa pʰɕɛ	tə rȵa pʰɕɛ	earwax	earwax		1.2.7.3	3.6.6	0		p,811,572
-13962	606	rGyalrong	ka ma sam	ka ma sam	hear	hear	v.	1.2.7.4	3.6.7	0		m
-13963	606	rGyalrong	ta wo	ta wo	deaf	deaf		1.2.7.5	3.6.8	0		p,1413
-13964	606	rGyalrong	tə kʰa	tə kʰa	mouth	mouth		1.3.1	3.7	0		p,273
-13965	606	rGyalrong	tə kʰa ŋtok	tə kʰa ŋtok	palate	palate		1.3.1.1	3.7.1	0		p,273,1719
-13966	606	rGyalrong	tə kʰa ŋtok	tə kʰa ŋtok	soft palate	soft palate		7.1.4.2	3.7.2	0		p,273,1719
-13967	606	rGyalrong	tə swa	tə swa	gums	gums		1.3.4.3	3.7.3	0		p,632
-13968	606	rGyalrong	ka za	ka za	eat	eat	v.	1.5.3.2	3.7.6	0		p,36
-13969	606	rGyalrong	ka mot	ka mot	drink	drink	v.		3.7.7	0		p,m
-13970	606	rGyalrong	ka ɕpak	ka ɕpak	thirsty	thirsty	be v.	1.1.3.1	3.7.8	0		p,1826
-13971	606	rGyalrong	ka mo	ka mo	hungry	hungry	be v.	1.1.3	3.7.9	0		p,99
-13972	606	rGyalrong	ka pkɛ	ka pkɛ	full / be satiated	full  /  be satiated		1.1.3.2	3.7.10	0		p,115
-13973	606	rGyalrong	kə sə cʰut	kə sə cʰut	spit	spit	v.	1.8.3	3.7.11	0		
-13974	606	rGyalrong	tə ŋkʰor	tə ŋkʰor	vomit	vomit	n.	1.8.3.2	3.7.12	0		p,1751
-13975	606	rGyalrong	kə cʰut	kə cʰut	vomit	vomit	v.	1.8.3.2	3.7.13	0		p,m
-13976	606	rGyalrong	ka wu ŋkʰɛi	ka wu ŋkʰɛi	hold in mouth	hold in mouth	v.	1.3.4.4	3.7.14	0		p,p,1777
-13977	606	rGyalrong	ka kat	ka kat	gape / open mouth	gape  /  open mouth	v.	1.3.1	3.7.15	0		p,m
-13978	606	rGyalrong	ta hɛm ka◦pa	ta hɛm ka◦pa	yawn	yawn	v.	1.3.1.3	3.7.16	0		p,1715,m,m
-13979	606	rGyalrong	tə ɕmɛ	tə ɕmɛ	tongue	tongue		1.3.3	3.8	0		
-13980	606	rGyalrong	ka rjo	ka rjo	speak	speak	v.	8.5.10.1	3.8.1	0		
-13981	606	rGyalrong	ta jka	ta jka	stutter / stammer	stutter  /  stammer		8.5.4.5	3.8.2	0		
-13982	606	rGyalrong	ta mŋɛm	ta mŋɛm	mute / dumb	mute  /  dumb		1.5.3.2	3.8.3	0		p,m
-13983	606	rGyalrong	ta◦nətsok	ta◦nətsok	lick	lick	v.	1.3.3.1	3.8.4	0		p,629
-13984	606	rGyalrong	tə ɕnəs	tə ɕnəs	lip	lip		1.3.2	3.9	0		p,441
-13985	606	rGyalrong	tə ɕnəs məi tɛ	tə ɕnəs məi tɛ	upper lip	upper lip		9.2.1	3.9.1	0		
-13986	606	rGyalrong	tə ɕnəs məi nɛ	tə ɕnəs məi nɛ	lower lip	lower lip			3.9.2	0		p,441,m,m
-13987	606	rGyalrong	tə kʰa	tə kʰa	beak / bill	beak / bill		1.3.1.2	3.9.3	0		p,273
-13988	606	rGyalrong	ka na ri	ka na ri	smile	smile	v.	1.8.8.1	3.9.4	0		p,m,1108
-13989	606	rGyalrong	po pok kapa	po pok kapa	kiss	kiss	v.	1.3.2.2	3.9.5	0		m,3450,m
-13990	606	rGyalrong	tə swa	tə swa	tooth	tooth		1.3.4	3.10	0		p,632
-13991	606	rGyalrong	tə◦swa wutʂi	tə◦swa wutʂi	tooth (incisor)	tooth (incisor)		1.3.4	3.10.1	0		p,632,m
-13992	606	rGyalrong	tə swa rgu	tə swa rgu	molar	molar		1.3.4.2	3.10.2	0		p,632,630
-13993	606	rGyalrong	ta ndʑui	ta ndʑui	eyetooth / canine tooth	eyetooth  /  canine tooth		1.3.4.1	3.10.3	0		p,635
-13994	606	rGyalrong	ta◦si	ta◦si	tooth (wisdom)	tooth (wisdom)		1.3.4	3.10.4	0		
-13995	606	rGyalrong	pa si	pa si	tusk (of elephant, boar)	tusk (of elephant, boar)		1.3.4.1	3.10.6	0		
-13996	606	rGyalrong	ka wa◦ŋki	ka wa◦ŋki	bite	bite	v.	1.3.4.4	3.10.7	0		p,p,1777
-13997	606	rGyalrong	ka na tɕɛm tɕɛm	ka na tɕɛm tɕɛm	chew	chew	v.	1.3.4	3.10.8	0		p,p,1775,1775
-13998	606	rGyalrong	tə ɕpa	tə ɕpa	cheek	cheek		1.2.5.2	3.11	0		p,268
-13999	606	rGyalrong	tə ɕpa ru	tə ɕpa ru	cheekbone	cheekbone		1.2.5.2	3.11.1	0		p,268,232
-14000	606	rGyalrong	tə m◦ɟja	tə mɟja	chin	chin		1.2.5.3	3.12	0		p,1187,273
-14001	606	rGyalrong	tə mɟja	tə mɟja	jaw	jaw		1.2.5.2	3.13	0		p,262
-14002	606	rGyalrong	tə mɟja mai nɛ	tə mɟja mai nɛ	lower jaw / mandible	lower jaw  /  mandible		1.2.5.2	3.13.1	0		p,262,m,m
-14003	606	rGyalrong	tə mɟja mai tɛ	tə mɟja mai tɛ	upper jaw / maxilla	upper jaw  /  maxilla		1.2.5.2	3.13.2	0		
-14004	606	rGyalrong	te mki	te mki	neck	neck		1.4.2	4.1	0		p,481
-14005	606	rGyalrong	te mgər	te mgər	nape of neck	nape of neck		1.4.2.1	4.1.3	0		p,481
-14006	606	rGyalrong	tə ŋʂuŋ ŋʂuŋ	tə ŋʂuŋ ŋʂuŋ	adam's apple / larynx	adam's apple  /  larynx		1.5.3.2	4.1.4	0		
-14007	606	rGyalrong	tə mȵuk	tə mȵuk	throat / gullet / pharynx	throat / gullet  /  pharynx		1.3.5	4.2	0		p,627
-14008	606	rGyalrong	ŋʂuŋ ŋʂuŋ	ŋʂuŋ ŋʂuŋ	windpipe / trachea	windpipe  /  trachea		1.3.5.2	4.2.1	0		
-14009	606	rGyalrong	ka nə tsok	ka nə tsok	swallow	swallow	v.	1.3.5.6	4.2.3	0		
-14010	606	rGyalrong	ta ro kə ɟja	ta ro kə ɟja	chest	chest		1.4.4.3	5.1	0		p,288,m,3376
-14011	606	rGyalrong	ta rnam ŋkʰug ŋkʰuŋ	ta rnam ŋkʰug ŋkʰuŋ	rib cage	rib cage		1.4.4.3	5.1.1	0		p,553,3399,1276
-14012	606	rGyalrong	ta rnam	ta rnam	rib	rib		1.4.4.3	5.1.2	0		p,553
-14013	606	rGyalrong	ta ro ɕɛ |rə	ta ro ɕɛ |rə	breastbone / sternum	breastbone  /  sternum		1.6.3.2	5.1.3	0		p,238,234
-14014	606	rGyalrong	ta rpak	ta rpak	shoulder	shoulder		1.4.3	5.3	0		p,568
-14015	606	rGyalrong	ta ro	ta ro	breast (general area)	breast (general area)		1.4.4.3	5.4	0		
-14016	606	rGyalrong	tə nu	tə nu	breast	breast		1.4.4.3	5.4.0	0		p,253
-14017	606	rGyalrong	tə◦nu wa ko	tə◦nu wa ko	nipple	nipple			5.4.1	0		p,253,m,m
-14018	606	rGyalrong	tə nu	tə nu	udder (of cow, goat)	udder (of cow, goat)			5.4.2	0		
-14019	606	rGyalrong	tə lo	tə lo	milk	milk			5.4.3	0		p,1786
-14020	606	rGyalrong	za dok	za dok	colostrum	colostrum			5.4.4	0		
-14021	606	rGyalrong	kə mə scup	kə mə scup	suck	suck	v.	1.3.2.1	5.4.5	0		p,p,5541
-14022	606	rGyalrong	ka ŋgo	ka ŋgo	nurse / suckle	nurse  /  suckle	v.	4.2.1.5	5.4.6	0		
-14023	606	rGyalrong	ka pr̥ɛt	ka pr̥ɛt	wean	wean			5.4.7	0		p,1787
-14024	606	rGyalrong	ta zgu	ta zgu	back	back		1.4.8	5.5	0		
-14025	606	rGyalrong	tə pʰai kʰu	tə pʰai kʰu	upper back	upper back		9.2.1	5.5.1	0		
-14026	606	rGyalrong	tə mtʰɛk	tə mtʰɛk	small of back	small of back		1.4.8.1	5.5.3	0		p,m
-14027	606	rGyalrong	tə zgu tsuŋ ruŋ	tə zgu tsuŋ ruŋ	backbone / spine	backbone / spine		1.4.8.2	5.5.4	0		p,2,m,m
-14028	606	rGyalrong	tə pjo	tə pjo	spinal cord	spinal cord		1.4.8.2	5.5.5	0	D1	
-14029	606	rGyalrong	ta zgun	ta zgun	hunchback	hunchback		1.4.8.3	5.5.6	0		m,m
-14030	606	rGyalrong	tə mtʰɛk	tə mtʰɛk	waist	waist		1.4.6	5.6	0		p,3340
-14031	606	rGyalrong	tə |pok	tə |pok	belly / abdomen	belly  /  abdomen		1.4.7	5.7	0		164
-14032	606	rGyalrong	təpok tɕʰu	tə pok tɕʰu	navel	navel		1.9.4	5.7.1	0		164,525
-14033	606	rGyalrong	ta◦sop	ta◦sop	hips	hips		1.4.9.2	5.8.1	0		p,3333
-14034	606	rGyalrong	ta◦sop ɕɛrə	ta◦sop ɕɛrə	hipbone	hipbone		1.4.9.2	5.8.2	0		p,3333,234
-14035	606	rGyalrong	tə pʰət pa	tə pʰət pa	haunches (of animal)	haunches (of animal)		1.4.9.2	5.8.3	0		m,m,m
-14036	606	rGyalrong	ta ŋga la◦kʰa	ta ŋga la◦kʰa	crotch / fork of legs	crotch  /  fork of legs		1.4.9.1	5.9	0		p,m,3341,3383
-14037	606	rGyalrong	pʰat paɕa	pʰat paɕa	rump	rump		1.4.10	5.10	0		3359,m
-14038	606	rGyalrong	ta sop	ta sop	buttocks	buttocks		1.4.10	5.10.1	0		p,3333
-14039	606	rGyalrong	ta◦jmi ɕɛrə	ta◦jmi ɕɛrə	tailbone / coccyx	tailbone  /  coccyx		1.6.3.3	5.10.2	0		p,1288,234
-14040	606	rGyalrong	ta jmi	ta jmi	tail (of animal)	tail (of animal)		1.4.10.1	5.10.3	0		p,1288
-14041	606	rGyalrong	tə pʰəi kʰu	tə pʰəi kʰu	arm	arm		1.5.1.2	6.1	0		p,751,m
-14042	606	rGyalrong	ta rnam	ta rnam	underarm / armpit	underarm  /  armpit		1.5.1.2.3	6.1.1	0		
-14043	606	rGyalrong	tə kru	tə kru	elbow	elbow		1.5.8.3	6.1.4	0		p,307
-14044	606	rGyalrong	tə kru ɕɛ |rə	tə kru ɕɛ rə	elbow bone	elbow bone		1.5.8.3	6.1.4.1	0		p,307,234
-14045	606	rGyalrong	tə kru	tə kru	wrist	wrist		1.5.8.1	6.1.6	0		p,m
-14046	606	rGyalrong	ta |jᴇk	ta |jᴇk	hand	hand		1.5.1.1	6.1.7	0		699
-14047	606	rGyalrong	ta jᴇk pa	ta jᴇk pa	palm	palm		1.5.5	6.1.7.1	0		
-14048	606	rGyalrong	ta |jᴇk ŋkʰu	ta |jᴇk ŋkʰu	back of hand	back of hand		1.5.1.1.2	6.1.7.2	0		699,m
-14049	606	rGyalrong	ta rku	ta rku	fist	fist		1.5.1.1.1	6.1.7.3	0		p,712
-14050	606	rGyalrong	ta |jᴇk ka wlak	ta |jᴇk ka wlak	right hand	right hand		1.5.3.2	6.1.7.4	0		699
-14051	606	rGyalrong	ta |jᴇk ka cʰa	ta |jᴇk ka cʰa	left hand	left hand		1.5.3.2	6.1.7.5	0		699
-14052	606	rGyalrong	ta rkʰam	ta rkʰam	wing (of bird)	wing (of bird)		1.5.1.3	6.1.9	0		p,715
-14053	606	rGyalrong	ta pɛi	ta pɛi	paw (of mammal)	paw (of mammal)		1.5.4	6.1.10	0		
-14054	606	rGyalrong	ta mɛ	ta mɛ	leg	leg		1.5.7	6.2	0		
-14055	606	rGyalrong	tə pʰət pa	tə pʰət pa	thigh	thigh		1.5.7.1	6.2.1	0		
-14056	606	rGyalrong	tə pʰət pa ɕɛ |rə	tə pʰət pa ɕɛ rə	thigh bone / femur	thigh bone  /  femur		1.5.7.1	6.2.1.1	0		p,m,m,234
-14057	606	rGyalrong	tə mŋa	tə mŋa	knee	knee		1.5.8.4	6.2.2	0		
-14058	606	rGyalrong	tə mŋa ɕɛ |rə	tə mŋa ɕɛ rə	knee cap / patella	knee cap  /  patella		1.5.8.4	6.2.2.1	0		p,m,234
-14059	606	rGyalrong	tə mŋa pər na	tə mŋa pər na	knee hollow / popliteal	knee hollow  /  popliteal		1.5.8.4	6.2.2.2	0		
-14060	606	rGyalrong	ta mᴇ pok	ta mᴇ pok	calf	calf		1.5.7	6.2.4	0		
-14061	606	rGyalrong	tə səm msɛm	tə səm msɛm	ankle	ankle		1.5.8.2	6.2.5	0		
-14062	606	rGyalrong	tə səm msɛm ɕɛ |rə	tə səm msɛm ɕɛ rə	ankle bone	ankle bone		1.5.8.2	6.2.5.1	0		p,m,m,234
-14063	606	rGyalrong	ta mᴇ	ta mᴇ	foot	foot		1.5.2	6.2.6	0		
-14064	606	rGyalrong	ta mᴇ kʰu	ta mᴇ kʰu	heel	heel		1.5.2.1	6.2.6.1	0		
-14065	606	rGyalrong	ta mᴇ wro	ta mᴇ wro	achilles tendon	achilles tendon		1.6.6.1	6.2.6.2	0		
-14066	606	rGyalrong	ta mᴇ pjo	ta mᴇ pjo	arch	arch		1.5.2.3	6.2.6.3	0		
-14067	606	rGyalrong	ta mᴇ pa	ta mᴇ pa	sole	sole		1.5.5	6.2.6.5	0		
-14068	606	rGyalrong	ta cos	ta cos	footprint	footprint		1.5.2.5	6.2.6.7	0		
-14069	606	rGyalrong	ta ka	ta ka	hoof (of animal)	hoof (of animal)		1.5.4	6.2.6.8	0		p,417
-14070	606	rGyalrong	ta pɛi	ta pɛi	paw (of animal)	paw (of animal)		1.5.4	6.2.6.9	0		
-14071	606	rGyalrong	ta wja	ta wja	crippled / lame	crippled  /  lame		4.2.7	6.2.7	0		
-14072	606	rGyalrong	ta wja ptʂᴇ	ta wja ptʂᴇ	limp	limp	v.	1.5.12	6.2.8	0		
-14073	606	rGyalrong	ta jᴇk ndʑo	ta jᴇk ndʑo	finger	finger		1.5.6	7.1	0		
-14074	606	rGyalrong	ta jᴇk ndʑo tə la	ta jᴇk ndʑo tə la	middle finger	middle finger		1.9.4	7.1.2	0		
-14075	606	rGyalrong	snə rlɛ sa tsʰok	snə rlɛ sa tsʰok	ring finger	ring finger		1.5.6.2	7.1.3	0		
-14076	606	rGyalrong	ta jᴇk ndʑo tsa	ta jᴇk ndʑo tsa	little finger	little finger		9.7.2	7.1.4	0		
-14077	606	rGyalrong	ta jᴇk mo	ta jᴇk mo	thumb	thumb		1.5.6.1	7.1.5	0		
-14078	606	rGyalrong	ta jᴇk wu ra mo	ta jᴇk wu ra mo	fingerprint	fingerprint		1.5.6.1	7.1.6	0		
-14079	606	rGyalrong	ta mᴇ ndʑo	ta mᴇ ndʑo	toe	toe		1.5.6	7.2	0		
-14080	606	rGyalrong	ta mᴇ ndʑo mo	ta mᴇ ndʑo mo	big toe	big toe		1.5.6.1	7.2.1	0		
-14081	606	rGyalrong	ta mᴇ ndʑo tə la	ta mᴇ ndʑo tə la	middle toe	middle toe		1.9.4	7.2.3	0		
-14082	606	rGyalrong	ta mᴇ ndʑo tsa	ta mᴇ ndʑo tsa	little toe	little toe		9.7.2	7.2.5	0		
-14083	606	rGyalrong	ta |jᴇk ndʑo wu tsʰək	ta jᴇk ndʑo wu tsʰək	knuckle (joint of digit)	knuckle (joint of digit)		1.5.8.5	7.3	0		699,m,m,418
-14084	606	rGyalrong	ta ndʑu	ta ndʑu	nail	nail		1.5.10	7.4	0		
-14085	606	rGyalrong	ta jᴇk ndʑu	ta jᴇk ndʑu	fingernail	fingernail		1.5.10.1	7.4.1	0		p,699,512
-14086	606	rGyalrong	ta mᴇ ndʑu	ta mᴇ ndʑu	toenail	toenail		1.5.10.2	7.4.2	0		
-14087	606	rGyalrong	ta pɛi	ta pɛi	claw (of animal)	claw (of animal)		1.5.10.4	7.4.3	0		
-14088	606	rGyalrong	ta ndʑu	ta ndʑu	talon (of bird)	talon (of bird)		1.5.10.4	7.4.4	0		
-14089	606	rGyalrong	ta ndʑu	ta ndʑu	pincers (e.g. of crab)	pincers (e.g. of crab)		1.5.10.4	7.4.5	0		
-14090	606	rGyalrong	ta ko rȵᴇ	ta ko rȵᴇ	hair (general)	hair (general)		1.2.3	8.1	0		p,386,368
-14091	606	rGyalrong	ta ko rȵᴇ	ta ko rȵᴇ	hair of head	hair of head		1.2.3	8.1.1	0	HIDE	DUPE IN SOURCE
-14092	606	rGyalrong	ta jo wa rȵᴇ	ta jo wa rȵᴇ	beard / moustache	beard / moustache		1.2.5.5	8.1.2	0		p,1190,m,368
-14093	606	rGyalrong	ɕo skor	ɕo skor	beard / moustache	beard / moustache		1.2.5.5	8.1.2.0	0		m,m
-14094	606	rGyalrong	tə mtɕi mo rȵᴇ	tə mtɕi mo rȵᴇ	beard	beard		1.2.5.5	8.1.2.1	0		p,1232,363,368
-14095	606	rGyalrong	ta ro wa rȵᴇ	ta ro wa rȵᴇ	chest hair	chest hair		1.4.4.5	8.1.3.2	0		p,288,m,368
-14096	606	rGyalrong	ta mᴇ wa rȵᴇ	ta mᴇ wa rȵᴇ	leg hair	leg hair		1.5.7	8.1.3.3	0		p,m,m,368
-14097	606	rGyalrong	ta rȵᴇ	ta rȵᴇ	fur (of animal)	fur (of animal)		1.6.1	8.1.4	0		p,368
-14098	606	rGyalrong	ta rkʰam	ta rkʰam	feather (of bird)	feather (of bird)		1.6.1.1	8.1.5	0		p,m
-14099	606	rGyalrong	ta lwa	ta lwa	mane (of horse, lion)	mane (of horse, lion)		1.6.1	8.1.6	0		5,m
-14100	606	rGyalrong	wu mci mo rȵᴇ	wu mci mo rȵᴇ	whiskers (of animal)	whiskers (of animal)		1.2.5.5	8.1.7	0		m,1232,363,368
-14101	606	rGyalrong	tə ndʑi	tə n◦dʑi	skin	skin		1.6.5	8.2	0		p,596
-14102	606	rGyalrong	tə◦ɕtʂɛt	tə◦ɕtʂɛt	sweat / perspiration	sweat  /  perspiration		1.8.1	8.2.1	0		p,615
-14103	606	rGyalrong	lo dok	lo dok	freckle	freckle		1.6.5.3	8.2.3.1	0		
-14104	606	rGyalrong	smo wɛ	smo wɛ	mole	mole		2.2.7	8.2.3.3	0		2447,m
-14105	606	rGyalrong	tə mɛs	tə mɛs	scar	scar		1.6.5.3	8.2.3.7	0		
-14106	606	rGyalrong	ta rʑɛk	ta rʑɛk	wrinkle	wrinkle		9.6.2	8.2.3.8	0		
-14107	606	rGyalrong	kə ra ja	kə ra ja	itch  / be itchy	itch   /  be itchy	v.	1.6.5.5	8.2.3.10	0		p,m,1456
-14108	606	rGyalrong	tə n◦dʑi	tə n◦dʑi	hide / leather	hide  /  leather		1.6.5.1	8.2.6	0		p,p,596
-14109	606	rGyalrong	kə nɛ mɛr	kə nɛ mɛr	oil / grease (for cooking)	oil  /  grease (for cooking)		1.6.4.1	8.3.2	0		m,m,1470
-14110	606	rGyalrong	ɕa rə|	ɕa rə|	bone	bone		1.6.3	8.4	0		234
-14111	606	rGyalrong	tə tsʰək	tə tsʰək	bone	bone		1.6.3	8.4.0	0		p,418
-14112	606	rGyalrong	ta ɕi	ta ɕi	blood	blood		1.6.2	8.7	0		p,230
-14113	606	rGyalrong	ta ɕi cɛr	ta ɕi cɛr	blood vessel / vein / artery	blood vessel  /  vein  /  artery		1.6.2.1	8.7.1	0		p,230,m
-14114	606	rGyalrong	ta ɕi kə ut	ta ɕi kə ut	bleed	bleed	v.	1.6.2	8.7.2	0		p,230,m,m
-14115	606	rGyalrong	tə |tsʰək	tə tsʰək	joint	joint		1.5.8	8.9	0		418
-14116	606	rGyalrong	tə wro	tə wro	nerve	nerve		1.6.6.3	8.10	0		m,m
-14117	606	rGyalrong	ta ko	ta ko	brain	brain		1.2.4	9.1	0		p,386
-14118	606	rGyalrong	tə pjo	tə pjo	spinal cord	spinal cord		1.4.8.2	9.1.1	0	HIDE	DUPE IN SOURCE
-14119	606	rGyalrong	tə pjo	tə pjo	marrow	marrow		1.6.3.5	9.1.2	0		p,m
-14120	606	rGyalrong	tə r◦tsʰos	tə r◦tsʰos	lung	lung		1.7.2	9.2	0		p,p,458
-14121	606	rGyalrong	ta soŋ si	ta soŋ si	breathe	breathe	v.	1.1.2.2	9.2.1	0		p,77,m
-14122	606	rGyalrong	ta soŋ si ka lɛt	ta soŋ si ka lɛt	pant	pant	v.	1.1.2.2	9.2.2	0		p,77,m,m,m
-14123	606	rGyalrong	ka wa pʰu	ka wa pʰu	blow (mouth)	blow (mouth)		1.3.1.4	9.2.3	0		m,m,75
-14124	606	rGyalrong	tə ɕȵᴇ	tə ɕȵᴇ	heart	heart		1.7.1	9.3	0		p,251
-14125	606	rGyalrong	tə ɕȵᴇ	tə ɕȵᴇ	heartbeat	heartbeat		1.7.1.1	9.3.1	0		p,251
-14126	606	rGyalrong	tə pɕᴇ	tə pɕᴇ	pulse	pulse		1.7.1.1	9.3.2	0		p,m
-14127	606	rGyalrong	tə rnok	tə rnok	bile	bile		1.7.3.1	9.5.1	0		p,m
-14128	606	rGyalrong	mdʒə kʰɛt	mdʒə kʰɛt	kidney	kidney		1.7.5	9.6	0		m,m
-14129	606	rGyalrong	ta sti	ta sti	urinary bladder	urinary bladder		1.7.8	9.7	0		
-14130	606	rGyalrong	ta ɕtɕi	ta ɕtɕi	urine	urine		1.8.4	9.7.1	0		p,650
-14131	606	rGyalrong	ta ɕtɕi ka lɛt	ta ɕtɕi ka lɛt	urinate	urinate	v.	1.5.3.2	9.7.2	0		p,650,m,m
-14132	606	rGyalrong	mdʒə kri	mdʒə kri	stomach	stomach		1.7.6	9.10	0		m,m
-14133	606	rGyalrong	tə po	tə po	intestines / bowels	intestines  /  bowels		1.7.7	9.11	0		p,2103
-14134	606	rGyalrong	tə po kə ktᴇ	tə po kə ktᴇ	large intestine	large intestine		1.7.7	9.11.1	0		p,2103,p,m
-14135	606	rGyalrong	tə po kə ktsi	tə po kə ktsi	small intestine	small intestine		9.7.2	9.11.2	0		p,2103,p,m
-14136	606	rGyalrong	ta sop kʰoi jdu	ta sop kʰoi jdu	anus / rectum	anus  /  rectum		1.4.10.2	9.12	0		p,3333,665,822
-14137	606	rGyalrong	tə pʰɕᴇ	tə pʰɕᴇ	feces / shit	feces  /  shit		1.8.5	9.12.1	0		p,m
-14138	606	rGyalrong	tə ɕtu	tə ɕtu	genitalia / pudenda	genitalia  /  pudenda		1.9.1	10.1	0		p,661
-14139	606	rGyalrong	ta lu ka pa	ta lu ka pa	copulate	copulate	v.	1.9.1.1	10.2	0		p,1154,m,m
-14140	606	rGyalrong	pʰo	pʰo	male	male		1.9.6.1	10.3	0		1635
-14141	606	rGyalrong	mo	mo	penis	penis			10.3.1	0		547
-14142	606	rGyalrong	tə |lɛm	tə lɛm	scrotum	scrotum			10.3.4	0		646
-14143	606	rGyalrong	ta bo ɕi	ta bo ɕi	testicle	testicle			10.3.5	0		p,1654,m
-14144	606	rGyalrong	tə ɕtu mo rȵᴇ	tə ɕtu mo rȵᴇ	male pubic hair	male pubic hair			10.3.6	0		p,m,m,368
-14145	606	rGyalrong	pʰo	pʰo	female	female		1.9.3	10.4	0		m
-14146	606	rGyalrong	tə ɕtu	tə ɕtu	vagina	vagina			10.4.1	0		p,661
-14147	606	rGyalrong	tə ɕtu mo rȵᴇ	tə ɕtu mo rȵᴇ	female pubic hair	female pubic hair			10.4.5	0		p,m,m,368
-14148	606	rGyalrong	tə ɕtu ɕi kə ɕut	tə ɕtu ɕi kə ɕut	menstruate	menstruate	v.	1.9.11.1	10.4.6	0		p,661,230,m,m
-14149	606	rGyalrong	tə ɕtu ɕi	tə ɕtu ɕi	menstrual blood	menstrual blood		1.9.11.1	10.4.7	0		p,661,230
-14150	606	rGyalrong	ta pu ktɕɛm	ta pu ktɕɛm	womb	womb			10.4.8	0		p,1733,1612
-14151	606	rGyalrong	ta lɟja	ta lɟja	placenta	placenta			10.4.11	0		p,1651
-14152	606	rGyalrong	kə mskur	kə mskur	pregnant	pregnant	be v.	1.9.6.1	10.4.14	0		m,m
-14153	606	rGyalrong	ta gam	ta gam	egg (of animal)	egg (of animal)			10.4.16	0		m,305
-14154	606	rGyalrong	ta hɛm	ta hɛm	hiccup	hiccup		1.8.3.5	11.2	0		
-14155	606	rGyalrong	ha |tsʰjau	ha tsʰjau	sneeze	sneeze		1.8.2.1	11.3	0		2131
-14156	606	rGyalrong	mdʑə ŋu	mdʑə ŋu	snore	snore		1.8.2.2	11.4	0		m,1784
-14157	606	rGyalrong	tə wsit	tə wsit	whistle	whistle		8.5.5	11.5	0		p,5592
-14158	606	rGyalrong	ʂoŋ ʂi	ʂoŋ ʂi	burp / belch	burp  /  belch		1.8.3	11.6	0		
-14159	606	rGyalrong	pʰɕᴇ rbo	pʰɕᴇ rbo	fart	fart		1.8.5.2	11.7	0		311,m
-14160	606	rGyalrong	ka na ri	ka na ri	laugh	laugh		1.8.8.1	11.9	0		p,m,1108
-14161	606	rGyalrong	kə dɛr	kə dɛr	tremble / shiver / shudder	tremble  /  shiver  /  shudder		1.6.6.2.1	12.1	0		p,5570
-14162	606	rGyalrong	kə nə wo	kə nə wo	sick / be ill / hurt	sick  /  be ill  /  hurt	be v.	1.1.5.1	12.2	0		p,160,m
-14163	606	rGyalrong	tə zok twa	tə zok twa	hand span	hand span		1.5.9.4	13.2	0		
-14164	606	rGyalrong	tə ku rgaŋ	tə ku rgaŋ	cubit	cubit		1.5.9.3	13.3	0		
-14165	606	rGyalrong	tə ŋcam	tə ŋcam	cord / fathom	cord  /  fathom		1.5.9.5	13.4	0		
-14166	606	rGyalrong	tə sə so	tə sə so	mind / locus of thought	mind  /  locus of thought		1.10	14.1	0		
-14167	606	rGyalrong	tə-sɛm	tə-sɛm	heart / locus of emotions	heart  /  locus of emotions		1.7.1	14.2	0		p,66
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+13903	606	rGyalrong	tə s◦gru	tə s◦gru	body	body			1.1.1	1.1	0			p,p,560
+13904	606	rGyalrong	ka wlak	ka wlak	side (right)	side (right)			1.4.5	1.2	0			
+13905	606	rGyalrong	ka tɕʰa	ka tɕʰa	side (left)	side (left)			1.4.5	1.3	0			
+13906	606	rGyalrong	teŋ◦kʰu	teŋ◦kʰu	back	back			1.4.8	1.4	0			225,211
+13907	606	rGyalrong	tə tʂi	tə tʂi	front	front			1.4.4	1.5	0			m,1212
+13908	606	rGyalrong	tə s◦gru	tə s◦gru	torso / trunk	torso  /  trunk			1.5.3.2	1.6	0	jbl3		p,p,560
+13909	606	rGyalrong	tə mɛ ta jɛk	tə mɛ ta jɛk	limbs / arms and legs	limbs  /  arms and legs			1.5.3.1	1.7	0	jbl3		
+13910	606	rGyalrong	tə smɛt	tə smɛt	lap	lap			1.4.4.2	1.8	0			p,m
+13911	606	rGyalrong	ta r̥o	ta r̥o	bosom	bosom			1.4.4.2	1.9	0			
+13912	606	rGyalrong	ta pjak kɛ	ta pjak kɛ	groin / loins	groin  /  loins			1.4.9	1.10	0	jbl3		
+13913	606	rGyalrong	ɕa	ɕa	flesh / meat	flesh  /  meat			1.1.1.1	1.11	0	jbl3		34
+13914	606	rGyalrong	kə sə so	kə sə so	alive / be living	alive  /  be living			1.1.2.1	1.12	0	jbl3		p,80,80
+13915	606	rGyalrong	kə ɕi	kə ɕi	die / be dead	die  /  be dead			1.1.6	1.13	0	jbl3		p,27
+13916	606	rGyalrong	ta wam	ta wam	corpse / dead body	corpse  /  dead body			1.1.6.1	1.14	0	jbl3		p,12
+13917	606	rGyalrong	kə rȵɛ wam	kə rȵɛ wam	carcass / dead animal	carcass  /  dead animal			1.1.6.1	1.15	0	jbl3		p,m,12
+13918	606	rGyalrong	ka rma	ka rma	sleep /  be asleep	sleep  /   be asleep			1.1.4.1	1.16	0	jbl3		p,130
+13919	606	rGyalrong	ta mȵak kə r̥o	ta mȵak |kə r̥o	awake / be awake	awake  /  be awake			1.1.4	1.17	0	jbl3		p,682,m,m
+13920	606	rGyalrong	ta r̥mo kə pa	ta r̥mo kə pa	dream	dream	v.	v.	1.1.4.2	1.18	0			p,126,m,m
+13921	606	rGyalrong	ta ko	ta ko	head	head			1.2.1	2.1	0			p,386
+13922	606	rGyalrong	tə ŋtɛk	tə ŋtɛk	top of head / crown / pate	top of head  /  crown  /  pate			1.2.1.2	2.2	0	jbl3		
+13923	606	rGyalrong	ɕa rə	ɕa rə	skull	skull			1.2.1.1	2.4	0			m,1198
+13924	606	rGyalrong	tə pjo	tə pjo	brain	brain			1.2.4	2.5	0			p,252
+13925	606	rGyalrong	tə ɕna kʰoi jdu	tə ɕna kʰoi jdu	sinus	sinus			1.2.8.1	2.6	0			p,m,665,822
+13926	606	rGyalrong	ta ko rȵᴇ	ta ko rȵᴇ	hair of head	hair of head			1.2.3	2.7	0		D1	p,386,368
+13927	606	rGyalrong	ta ko n◦dɕi	ta ko n◦dɕi	scalp	scalp			1.2.1.5	2.8	0			p,386,p,596
+13928	606	rGyalrong	pka wu r̥ə r̥ɛp	pka wu r̥ə r̥ɛp	comb (of rooster)	comb (of rooster)			1.2.2.1	2.9	0			m,m,m,2016
+13929	606	rGyalrong	tə ru	tə ru	horn (of animal)	horn (of animal)			1.2.2	2.10	0			p,819
+13930	606	rGyalrong	r̥ə pək	r̥ə pək	antler (of deer)	antler (of deer)			1.2.2	2.11	0			2012,2010
+13931	606	rGyalrong	ta jo	ta jo	face	face			1.2.5	3.1	0			p,1190
+13932	606	rGyalrong	tə mto	tə mto	forehead / brow	forehead  /  brow			1.2.5.1	3.2	0	jbl3		p,371
+13933	606	rGyalrong	tə rna ɕba	tə rna ɕba	temple	temple			1.2.5.1	3.3	0			
+13934	606	rGyalrong	tə mȵak	tə mȵak	eye	eye			1.2.6	3.4	0			p,681
+13935	606	rGyalrong	tə mȵak r̥kʰo	tə mȵak r̥kʰo	eyelid	eyelid			1.2.6.4	3.4.1	0			p,681,589
+13936	606	rGyalrong	tə mȵak wu rmi	tə mȵak wu rmi	eyeball	eyeball			1.2.6.1	3.4.2	0			p,681,m,m
+13937	606	rGyalrong	rnam tʂi	rnam tʂi	iris	iris			1.2.6.2	3.4.2.1	0			m,m
+13938	606	rGyalrong	tə ɕna kʰoi jdu	tə ɕna kʰoi jdu	pupil	pupil			1.2.6.2	3.4.2.2	0			p,m,665,822
+13939	606	rGyalrong	mȵak ʑur	mȵak ʑur	white of eye	white of eye			1.2.6.3	3.4.2.3	0			682,m
+13940	606	rGyalrong	tə mȵak mo rtsə	tə mȵak mo rtsə	eyebrow	eyebrow			1.2.6.6	3.4.3	0			p,681,363,1232
+13941	606	rGyalrong	tə mȵak mo rtsə	tə mȵak mo rtsə	eyelash	eyelash			1.2.6.5	3.4.4	0			p,681,363,1232
+13942	606	rGyalrong	mȵak tʰəp	mȵak tʰəp	blink	blink	v.	v.	1.2.6.12	3.4.5	0			682,m
+13943	606	rGyalrong	tə mȵak tɕi	tə mȵak tɕi	tears	tears	n.	n.	1.2.6.7	3.4.6	0			p,681,189
+13944	606	rGyalrong	tə mȵak pʰɕᴇ	tə mȵak pʰɕᴇ	eye sand	eye sand			1.2.6.8	3.4.7	0			p,681,575
+13945	606	rGyalrong	ka ŋa kru	ka ŋa kru	cry / weep	cry  /  weep	v.	v.	1.8.8.2	3.4.8	0	jbl3		p,1104,1103
+13946	606	rGyalrong	ka mto	ka mto	see / look	see  /  look	v.	v.	1.2.6.10	3.4.9	0	jbl3		p,1402
+13947	606	rGyalrong	ka lo	ka lo	blind	blind			1.2.6.14.2	3.4.10	0			p,m
+13948	606	rGyalrong	tə ɕna	tə ɕna	nose	nose			1.2.8	3.5	0			p,803
+13949	606	rGyalrong	tə ɕna kro ko	tə ɕna kro ko	nose bridge	nose bridge			1.2.8	3.5.1	0			p,803,m,m
+13950	606	rGyalrong	tə ɕna kʰoi jdu	tə ɕna kʰoi jdu	nostril	nostril			1.2.8.1	3.5.2	0			p,803,665,822
+13951	606	rGyalrong	ɕna tɕʰi	ɕna tɕʰi	alae nasi (nose flaps)	alae nasi (nose flaps)			1.2.8.2	3.5.3	0			803,m
+13952	606	rGyalrong	tə ɕna mo rȵᴇ	tə ɕna mo rȵᴇ	nose hair	nose hair			1.2.8	3.5.4	0			p,803,m,368
+13953	606	rGyalrong	pak wu mtɕʰi	pak wu mtɕʰi	snout (pig)	snout (pig)			1.2.8	3.5.5	0			1006,m,442
+13954	606	rGyalrong	tə ŋar	tə ŋar	liquid mucus	liquid mucus			3.2.3	3.5.6	0			
+13955	606	rGyalrong	ta spo	ta spo	solid mucus	solid mucus			1.1.5	3.5.7	0			
+13956	606	rGyalrong	snə no	snə no	smell / sniff	smell  /  sniff	v.	v.	1.2.8.5	3.5.9	0	jbl3		803,1415
+13957	606	rGyalrong	tə rȵa	tə rȵa	ear	ear			1.2.7	3.6	0			p,811
+13958	606	rGyalrong	rȵa mtʂi	rȵa mtʂi	earlobe	earlobe			1.2.7.1	3.6.1	0			811,816
+13959	606	rGyalrong	tə rȵa wu gu	tə rȵa wu gu	inner ear	inner ear			9.2.5	3.6.3	0			p,811,m,m
+13960	606	rGyalrong	tə rȵa kʰoi jdu	tə rȵa kʰoi jdu	ear canal	ear canal			1.2.7	3.6.4	0			p,811,665,822
+13961	606	rGyalrong	tə rȵa pʰɕɛ	tə rȵa pʰɕɛ	earwax	earwax			1.2.7.3	3.6.6	0			p,811,572
+13962	606	rGyalrong	ka ma sam	ka ma sam	hear	hear	v.	v.	1.2.7.4	3.6.7	0			m
+13963	606	rGyalrong	ta wo	ta wo	deaf	deaf			1.2.7.5	3.6.8	0			p,1413
+13964	606	rGyalrong	tə kʰa	tə kʰa	mouth	mouth			1.3.1	3.7	0			p,273
+13965	606	rGyalrong	tə kʰa ŋtok	tə kʰa ŋtok	palate	palate			1.3.1.1	3.7.1	0			p,273,1719
+13966	606	rGyalrong	tə kʰa ŋtok	tə kʰa ŋtok	soft palate	soft palate			7.1.4.2	3.7.2	0			p,273,1719
+13967	606	rGyalrong	tə swa	tə swa	gums	gums			1.3.4.3	3.7.3	0			p,632
+13968	606	rGyalrong	ka za	ka za	eat	eat	v.	v.	1.5.3.2	3.7.6	0			p,36
+13969	606	rGyalrong	ka mot	ka mot	drink	drink	v.	v.		3.7.7	0			p,m
+13970	606	rGyalrong	ka ɕpak	ka ɕpak	thirsty	thirsty	be v.	be v.	1.1.3.1	3.7.8	0			p,1826
+13971	606	rGyalrong	ka mo	ka mo	hungry	hungry	be v.	be v.	1.1.3	3.7.9	0			p,99
+13972	606	rGyalrong	ka pkɛ	ka pkɛ	full / be satiated	full  /  be satiated			1.1.3.2	3.7.10	0	jbl3		p,115
+13973	606	rGyalrong	kə sə cʰut	kə sə cʰut	spit	spit	v.	v.	1.8.3	3.7.11	0			
+13974	606	rGyalrong	tə ŋkʰor	tə ŋkʰor	vomit	vomit	n.	n.	1.8.3.2	3.7.12	0			p,1751
+13975	606	rGyalrong	kə cʰut	kə cʰut	vomit	vomit	v.	v.	1.8.3.2	3.7.13	0			p,m
+13976	606	rGyalrong	ka wu ŋkʰɛi	ka wu ŋkʰɛi	hold in mouth	hold in mouth	v.	v.	1.3.4.4	3.7.14	0			p,p,1777
+13977	606	rGyalrong	ka kat	ka kat	gape / open mouth	gape  /  open mouth	v.	v.	1.3.1	3.7.15	0	jbl3		p,m
+13978	606	rGyalrong	ta hɛm ka◦pa	ta hɛm ka◦pa	yawn	yawn	v.	v.	1.3.1.3	3.7.16	0			p,1715,m,m
+13979	606	rGyalrong	tə ɕmɛ	tə ɕmɛ	tongue	tongue			1.3.3	3.8	0			
+13980	606	rGyalrong	ka rjo	ka rjo	speak	speak	v.	v.	8.5.10.1	3.8.1	0			
+13981	606	rGyalrong	ta jka	ta jka	stutter / stammer	stutter  /  stammer			8.5.4.5	3.8.2	0	jbl3		
+13982	606	rGyalrong	ta mŋɛm	ta mŋɛm	mute / dumb	mute  /  dumb			1.5.3.2	3.8.3	0	jbl3		p,m
+13983	606	rGyalrong	ta◦nətsok	ta◦nətsok	lick	lick	v.	v.	1.3.3.1	3.8.4	0			p,629
+13984	606	rGyalrong	tə ɕnəs	tə ɕnəs	lip	lip			1.3.2	3.9	0			p,441
+13985	606	rGyalrong	tə ɕnəs məi tɛ	tə ɕnəs məi tɛ	upper lip	upper lip			9.2.1	3.9.1	0			
+13986	606	rGyalrong	tə ɕnəs məi nɛ	tə ɕnəs məi nɛ	lower lip	lower lip				3.9.2	0			p,441,m,m
+13987	606	rGyalrong	tə kʰa	tə kʰa	beak / bill	beak / bill			1.3.1.2	3.9.3	0			p,273
+13988	606	rGyalrong	ka na ri	ka na ri	smile	smile	v.	v.	1.8.8.1	3.9.4	0			p,m,1108
+13989	606	rGyalrong	po pok kapa	po pok kapa	kiss	kiss	v.	v.	1.3.2.2	3.9.5	0			m,3450,m
+13990	606	rGyalrong	tə swa	tə swa	tooth	tooth			1.3.4	3.10	0			p,632
+13991	606	rGyalrong	tə◦swa wutʂi	tə◦swa wutʂi	tooth (incisor)	tooth (incisor)			1.3.4	3.10.1	0			p,632,m
+13992	606	rGyalrong	tə swa rgu	tə swa rgu	molar	molar			1.3.4.2	3.10.2	0			p,632,630
+13993	606	rGyalrong	ta ndʑui	ta ndʑui	eyetooth / canine tooth	eyetooth  /  canine tooth			1.3.4.1	3.10.3	0	jbl3		p,635
+13994	606	rGyalrong	ta◦si	ta◦si	tooth (wisdom)	tooth (wisdom)			1.3.4	3.10.4	0			
+13995	606	rGyalrong	pa si	pa si	tusk (of elephant, boar)	tusk (of elephant, boar)			1.3.4.1	3.10.6	0			
+13996	606	rGyalrong	ka wa◦ŋki	ka wa◦ŋki	bite	bite	v.	v.	1.3.4.4	3.10.7	0			p,p,1777
+13997	606	rGyalrong	ka na tɕɛm tɕɛm	ka na tɕɛm tɕɛm	chew	chew	v.	v.	1.3.4	3.10.8	0			p,p,1775,1775
+13998	606	rGyalrong	tə ɕpa	tə ɕpa	cheek	cheek			1.2.5.2	3.11	0			p,268
+13999	606	rGyalrong	tə ɕpa ru	tə ɕpa ru	cheekbone	cheekbone			1.2.5.2	3.11.1	0			p,268,232
+14000	606	rGyalrong	tə m◦ɟja	tə mɟja	chin	chin			1.2.5.3	3.12	0			p,1187,273
+14001	606	rGyalrong	tə mɟja	tə mɟja	jaw	jaw			1.2.5.2	3.13	0			p,262
+14002	606	rGyalrong	tə mɟja mai nɛ	tə mɟja mai nɛ	lower jaw / mandible	lower jaw  /  mandible			1.2.5.2	3.13.1	0	jbl3		p,262,m,m
+14003	606	rGyalrong	tə mɟja mai tɛ	tə mɟja mai tɛ	upper jaw / maxilla	upper jaw  /  maxilla			1.2.5.2	3.13.2	0	jbl3		
+14004	606	rGyalrong	te mki	te mki	neck	neck			1.4.2	4.1	0			p,481
+14005	606	rGyalrong	te mgər	te mgər	nape of neck	nape of neck			1.4.2.1	4.1.3	0			p,481
+14006	606	rGyalrong	tə ŋʂuŋ ŋʂuŋ	tə ŋʂuŋ ŋʂuŋ	adam's apple / larynx	adam's apple  /  larynx			1.5.3.2	4.1.4	0	jbl3		
+14007	606	rGyalrong	tə mȵuk	tə mȵuk	throat / gullet / pharynx	throat / gullet  /  pharynx			1.3.5	4.2	0	jbl3		p,627
+14008	606	rGyalrong	ŋʂuŋ ŋʂuŋ	ŋʂuŋ ŋʂuŋ	windpipe / trachea	windpipe  /  trachea			1.3.5.2	4.2.1	0	jbl3		
+14009	606	rGyalrong	ka nə tsok	ka nə tsok	swallow	swallow	v.	v.	1.3.5.6	4.2.3	0			
+14010	606	rGyalrong	ta ro kə ɟja	ta ro kə ɟja	chest	chest			1.4.4.3	5.1	0			p,288,m,3376
+14011	606	rGyalrong	ta rnam ŋkʰug ŋkʰuŋ	ta rnam ŋkʰug ŋkʰuŋ	rib cage	rib cage			1.4.4.3	5.1.1	0			p,553,3399,1276
+14012	606	rGyalrong	ta rnam	ta rnam	rib	rib			1.4.4.3	5.1.2	0			p,553
+14013	606	rGyalrong	ta ro ɕɛ |rə	ta ro ɕɛ |rə	breastbone / sternum	breastbone  /  sternum			1.6.3.2	5.1.3	0	jbl3		p,238,234
+14014	606	rGyalrong	ta rpak	ta rpak	shoulder	shoulder			1.4.3	5.3	0			p,568
+14015	606	rGyalrong	ta ro	ta ro	breast (general area)	breast (general area)			1.4.4.3	5.4	0			
+14016	606	rGyalrong	tə nu	tə nu	breast	breast			1.4.4.3	5.4.0	0			p,253
+14017	606	rGyalrong	tə◦nu wa ko	tə◦nu wa ko	nipple	nipple				5.4.1	0			p,253,m,m
+14018	606	rGyalrong	tə nu	tə nu	udder (of cow, goat)	udder (of cow, goat)				5.4.2	0			
+14019	606	rGyalrong	tə lo	tə lo	milk	milk				5.4.3	0			p,1786
+14020	606	rGyalrong	za dok	za dok	colostrum	colostrum				5.4.4	0			
+14021	606	rGyalrong	kə mə scup	kə mə scup	suck	suck	v.	v.	1.3.2.1	5.4.5	0			p,p,5541
+14022	606	rGyalrong	ka ŋgo	ka ŋgo	nurse / suckle	nurse  /  suckle	v.	v.	4.2.1.5	5.4.6	0	jbl3		
+14023	606	rGyalrong	ka pr̥ɛt	ka pr̥ɛt	wean	wean				5.4.7	0			p,1787
+14024	606	rGyalrong	ta zgu	ta zgu	back	back			1.4.8	5.5	0			
+14025	606	rGyalrong	tə pʰai kʰu	tə pʰai kʰu	upper back	upper back			9.2.1	5.5.1	0			
+14026	606	rGyalrong	tə mtʰɛk	tə mtʰɛk	small of back	small of back			1.4.8.1	5.5.3	0			p,m
+14027	606	rGyalrong	tə zgu tsuŋ ruŋ	tə zgu tsuŋ ruŋ	backbone / spine	backbone / spine			1.4.8.2	5.5.4	0			p,2,m,m
+14028	606	rGyalrong	tə pjo	tə pjo	spinal cord	spinal cord			1.4.8.2	5.5.5	0		D1	
+14029	606	rGyalrong	ta zgun	ta zgun	hunchback	hunchback			1.4.8.3	5.5.6	0			m,m
+14030	606	rGyalrong	tə mtʰɛk	tə mtʰɛk	waist	waist			1.4.6	5.6	0			p,3340
+14031	606	rGyalrong	tə |pok	tə |pok	belly / abdomen	belly  /  abdomen			1.4.7	5.7	0	jbl3		164
+14032	606	rGyalrong	təpok tɕʰu	tə pok tɕʰu	navel	navel			1.9.4	5.7.1	0			164,525
+14033	606	rGyalrong	ta◦sop	ta◦sop	hips	hips			1.4.9.2	5.8.1	0			p,3333
+14034	606	rGyalrong	ta◦sop ɕɛrə	ta◦sop ɕɛrə	hipbone	hipbone			1.4.9.2	5.8.2	0			p,3333,234
+14035	606	rGyalrong	tə pʰət pa	tə pʰət pa	haunches (of animal)	haunches (of animal)			1.4.9.2	5.8.3	0			m,m,m
+14036	606	rGyalrong	ta ŋga la◦kʰa	ta ŋga la◦kʰa	crotch / fork of legs	crotch  /  fork of legs			1.4.9.1	5.9	0	jbl3		p,m,3341,3383
+14037	606	rGyalrong	pʰat paɕa	pʰat paɕa	rump	rump			1.4.10	5.10	0			3359,m
+14038	606	rGyalrong	ta sop	ta sop	buttocks	buttocks			1.4.10	5.10.1	0			p,3333
+14039	606	rGyalrong	ta◦jmi ɕɛrə	ta◦jmi ɕɛrə	tailbone / coccyx	tailbone  /  coccyx			1.6.3.3	5.10.2	0	jbl3		p,1288,234
+14040	606	rGyalrong	ta jmi	ta jmi	tail (of animal)	tail (of animal)			1.4.10.1	5.10.3	0			p,1288
+14041	606	rGyalrong	tə pʰəi kʰu	tə pʰəi kʰu	arm	arm			1.5.1.2	6.1	0			p,751,m
+14042	606	rGyalrong	ta rnam	ta rnam	underarm / armpit	underarm  /  armpit			1.5.1.2.3	6.1.1	0	jbl3		
+14043	606	rGyalrong	tə kru	tə kru	elbow	elbow			1.5.8.3	6.1.4	0			p,307
+14044	606	rGyalrong	tə kru ɕɛ |rə	tə kru ɕɛ rə	elbow bone	elbow bone			1.5.8.3	6.1.4.1	0			p,307,234
+14045	606	rGyalrong	tə kru	tə kru	wrist	wrist			1.5.8.1	6.1.6	0			p,m
+14046	606	rGyalrong	ta |jᴇk	ta |jᴇk	hand	hand			1.5.1.1	6.1.7	0			699
+14047	606	rGyalrong	ta jᴇk pa	ta jᴇk pa	palm	palm			1.5.5	6.1.7.1	0			
+14048	606	rGyalrong	ta |jᴇk ŋkʰu	ta |jᴇk ŋkʰu	back of hand	back of hand			1.5.1.1.2	6.1.7.2	0			699,m
+14049	606	rGyalrong	ta rku	ta rku	fist	fist			1.5.1.1.1	6.1.7.3	0			p,712
+14050	606	rGyalrong	ta |jᴇk ka wlak	ta |jᴇk ka wlak	right hand	right hand			1.5.3.2	6.1.7.4	0			699
+14051	606	rGyalrong	ta |jᴇk ka cʰa	ta |jᴇk ka cʰa	left hand	left hand			1.5.3.2	6.1.7.5	0			699
+14052	606	rGyalrong	ta rkʰam	ta rkʰam	wing (of bird)	wing (of bird)			1.5.1.3	6.1.9	0			p,715
+14053	606	rGyalrong	ta pɛi	ta pɛi	paw (of mammal)	paw (of mammal)			1.5.4	6.1.10	0			
+14054	606	rGyalrong	ta mɛ	ta mɛ	leg	leg			1.5.7	6.2	0			
+14055	606	rGyalrong	tə pʰət pa	tə pʰət pa	thigh	thigh			1.5.7.1	6.2.1	0			
+14056	606	rGyalrong	tə pʰət pa ɕɛ |rə	tə pʰət pa ɕɛ rə	thigh bone / femur	thigh bone  /  femur			1.5.7.1	6.2.1.1	0	jbl3		p,m,m,234
+14057	606	rGyalrong	tə mŋa	tə mŋa	knee	knee			1.5.8.4	6.2.2	0			
+14058	606	rGyalrong	tə mŋa ɕɛ |rə	tə mŋa ɕɛ rə	knee cap / patella	knee cap  /  patella			1.5.8.4	6.2.2.1	0	jbl3		p,m,234
+14059	606	rGyalrong	tə mŋa pər na	tə mŋa pər na	knee hollow / popliteal	knee hollow  /  popliteal			1.5.8.4	6.2.2.2	0	jbl3		
+14060	606	rGyalrong	ta mᴇ pok	ta mᴇ pok	calf	calf			1.5.7	6.2.4	0			
+14061	606	rGyalrong	tə səm msɛm	tə səm msɛm	ankle	ankle			1.5.8.2	6.2.5	0			
+14062	606	rGyalrong	tə səm msɛm ɕɛ |rə	tə səm msɛm ɕɛ rə	ankle bone	ankle bone			1.5.8.2	6.2.5.1	0			p,m,m,234
+14063	606	rGyalrong	ta mᴇ	ta mᴇ	foot	foot			1.5.2	6.2.6	0			
+14064	606	rGyalrong	ta mᴇ kʰu	ta mᴇ kʰu	heel	heel			1.5.2.1	6.2.6.1	0			
+14065	606	rGyalrong	ta mᴇ wro	ta mᴇ wro	achilles tendon	achilles tendon			1.6.6.1	6.2.6.2	0			
+14066	606	rGyalrong	ta mᴇ pjo	ta mᴇ pjo	arch	arch			1.5.2.3	6.2.6.3	0			
+14067	606	rGyalrong	ta mᴇ pa	ta mᴇ pa	sole	sole			1.5.5	6.2.6.5	0			
+14068	606	rGyalrong	ta cos	ta cos	footprint	footprint			1.5.2.5	6.2.6.7	0			
+14069	606	rGyalrong	ta ka	ta ka	hoof (of animal)	hoof (of animal)			1.5.4	6.2.6.8	0			p,417
+14070	606	rGyalrong	ta pɛi	ta pɛi	paw (of animal)	paw (of animal)			1.5.4	6.2.6.9	0			
+14071	606	rGyalrong	ta wja	ta wja	crippled / lame	crippled  /  lame			4.2.7	6.2.7	0	jbl3		
+14072	606	rGyalrong	ta wja ptʂᴇ	ta wja ptʂᴇ	limp	limp	v.	v.	1.5.12	6.2.8	0			
+14073	606	rGyalrong	ta jᴇk ndʑo	ta jᴇk ndʑo	finger	finger			1.5.6	7.1	0			
+14074	606	rGyalrong	ta jᴇk ndʑo tə la	ta jᴇk ndʑo tə la	middle finger	middle finger			1.9.4	7.1.2	0			
+14075	606	rGyalrong	snə rlɛ sa tsʰok	snə rlɛ sa tsʰok	ring finger	ring finger			1.5.6.2	7.1.3	0			
+14076	606	rGyalrong	ta jᴇk ndʑo tsa	ta jᴇk ndʑo tsa	little finger	little finger			9.7.2	7.1.4	0			
+14077	606	rGyalrong	ta jᴇk mo	ta jᴇk mo	thumb	thumb			1.5.6.1	7.1.5	0			
+14078	606	rGyalrong	ta jᴇk wu ra mo	ta jᴇk wu ra mo	fingerprint	fingerprint			1.5.6.1	7.1.6	0			
+14079	606	rGyalrong	ta mᴇ ndʑo	ta mᴇ ndʑo	toe	toe			1.5.6	7.2	0			
+14080	606	rGyalrong	ta mᴇ ndʑo mo	ta mᴇ ndʑo mo	big toe	big toe			1.5.6.1	7.2.1	0			
+14081	606	rGyalrong	ta mᴇ ndʑo tə la	ta mᴇ ndʑo tə la	middle toe	middle toe			1.9.4	7.2.3	0			
+14082	606	rGyalrong	ta mᴇ ndʑo tsa	ta mᴇ ndʑo tsa	little toe	little toe			9.7.2	7.2.5	0			
+14083	606	rGyalrong	ta |jᴇk ndʑo wu tsʰək	ta jᴇk ndʑo wu tsʰək	knuckle (joint of digit)	knuckle (joint of digit)			1.5.8.5	7.3	0			699,m,m,418
+14084	606	rGyalrong	ta ndʑu	ta ndʑu	nail	nail			1.5.10	7.4	0			
+14085	606	rGyalrong	ta jᴇk ndʑu	ta jᴇk ndʑu	fingernail	fingernail			1.5.10.1	7.4.1	0			p,699,512
+14086	606	rGyalrong	ta mᴇ ndʑu	ta mᴇ ndʑu	toenail	toenail			1.5.10.2	7.4.2	0			
+14087	606	rGyalrong	ta pɛi	ta pɛi	claw (of animal)	claw (of animal)			1.5.10.4	7.4.3	0			
+14088	606	rGyalrong	ta ndʑu	ta ndʑu	talon (of bird)	talon (of bird)			1.5.10.4	7.4.4	0			
+14089	606	rGyalrong	ta ndʑu	ta ndʑu	pincers (e.g. of crab)	pincers (e.g. of crab)			1.5.10.4	7.4.5	0			
+14090	606	rGyalrong	ta ko rȵᴇ	ta ko rȵᴇ	hair (general)	hair (general)			1.2.3	8.1	0			p,386,368
+14091	606	rGyalrong	ta ko rȵᴇ	ta ko rȵᴇ	hair of head	hair of head			1.2.3	8.1.1	0	jbl5	HIDE	DUPE IN SOURCE
+14092	606	rGyalrong	ta jo wa rȵᴇ	ta jo wa rȵᴇ	beard / moustache	beard / moustache			1.2.5.5	8.1.2	0			p,1190,m,368
+14093	606	rGyalrong	ɕo skor	ɕo skor	beard / moustache	beard / moustache			1.2.5.5	8.1.2.0	0			m,m
+14094	606	rGyalrong	tə mtɕi mo rȵᴇ	tə mtɕi mo rȵᴇ	beard	beard			1.2.5.5	8.1.2.1	0			p,1232,363,368
+14095	606	rGyalrong	ta ro wa rȵᴇ	ta ro wa rȵᴇ	chest hair	chest hair			1.4.4.5	8.1.3.2	0			p,288,m,368
+14096	606	rGyalrong	ta mᴇ wa rȵᴇ	ta mᴇ wa rȵᴇ	leg hair	leg hair			1.5.7	8.1.3.3	0			p,m,m,368
+14097	606	rGyalrong	ta rȵᴇ	ta rȵᴇ	fur (of animal)	fur (of animal)			1.6.1	8.1.4	0			p,368
+14098	606	rGyalrong	ta rkʰam	ta rkʰam	feather (of bird)	feather (of bird)			1.6.1.1	8.1.5	0			p,m
+14099	606	rGyalrong	ta lwa	ta lwa	mane (of horse, lion)	mane (of horse, lion)			1.6.1	8.1.6	0			5,m
+14100	606	rGyalrong	wu mci mo rȵᴇ	wu mci mo rȵᴇ	whiskers (of animal)	whiskers (of animal)			1.2.5.5	8.1.7	0			m,1232,363,368
+14101	606	rGyalrong	tə ndʑi	tə n◦dʑi	skin	skin			1.6.5	8.2	0			p,596
+14102	606	rGyalrong	tə◦ɕtʂɛt	tə◦ɕtʂɛt	sweat / perspiration	sweat  /  perspiration			1.8.1	8.2.1	0	jbl3		p,615
+14103	606	rGyalrong	lo dok	lo dok	freckle	freckle			1.6.5.3	8.2.3.1	0			
+14104	606	rGyalrong	smo wɛ	smo wɛ	mole	mole			2.2.7	8.2.3.3	0			2447,m
+14105	606	rGyalrong	tə mɛs	tə mɛs	scar	scar			1.6.5.3	8.2.3.7	0			
+14106	606	rGyalrong	ta rʑɛk	ta rʑɛk	wrinkle	wrinkle			9.6.2	8.2.3.8	0			
+14107	606	rGyalrong	kə ra ja	kə ra ja	itch  / be itchy	itch   /  be itchy	v.	v.	1.6.5.5	8.2.3.10	0	jbl3		p,m,1456
+14108	606	rGyalrong	tə n◦dʑi	tə n◦dʑi	hide / leather	hide  /  leather			1.6.5.1	8.2.6	0	jbl3		p,p,596
+14109	606	rGyalrong	kə nɛ mɛr	kə nɛ mɛr	oil / grease (for cooking)	oil  /  grease (for cooking)			1.6.4.1	8.3.2	0	jbl3		m,m,1470
+14110	606	rGyalrong	ɕa rə|	ɕa rə|	bone	bone			1.6.3	8.4	0			234
+14111	606	rGyalrong	tə tsʰək	tə tsʰək	bone	bone			1.6.3	8.4.0	0			p,418
+14112	606	rGyalrong	ta ɕi	ta ɕi	blood	blood			1.6.2	8.7	0			p,230
+14113	606	rGyalrong	ta ɕi cɛr	ta ɕi cɛr	blood vessel / vein / artery	blood vessel  /  vein  /  artery			1.6.2.1	8.7.1	0	jbl3		p,230,m
+14114	606	rGyalrong	ta ɕi kə ut	ta ɕi kə ut	bleed	bleed	v.	v.	1.6.2	8.7.2	0			p,230,m,m
+14115	606	rGyalrong	tə |tsʰək	tə tsʰək	joint	joint			1.5.8	8.9	0			418
+14116	606	rGyalrong	tə wro	tə wro	nerve	nerve			1.6.6.3	8.10	0			m,m
+14117	606	rGyalrong	ta ko	ta ko	brain	brain			1.2.4	9.1	0			p,386
+14118	606	rGyalrong	tə pjo	tə pjo	spinal cord	spinal cord			1.4.8.2	9.1.1	0	jbl5	HIDE	DUPE IN SOURCE
+14119	606	rGyalrong	tə pjo	tə pjo	marrow	marrow			1.6.3.5	9.1.2	0			p,m
+14120	606	rGyalrong	tə r◦tsʰos	tə r◦tsʰos	lung	lung			1.7.2	9.2	0			p,p,458
+14121	606	rGyalrong	ta soŋ si	ta soŋ si	breathe	breathe	v.	v.	1.1.2.2	9.2.1	0			p,77,m
+14122	606	rGyalrong	ta soŋ si ka lɛt	ta soŋ si ka lɛt	pant	pant	v.	v.	1.1.2.2	9.2.2	0			p,77,m,m,m
+14123	606	rGyalrong	ka wa pʰu	ka wa pʰu	blow (mouth)	blow (mouth)			1.3.1.4	9.2.3	0			m,m,75
+14124	606	rGyalrong	tə ɕȵᴇ	tə ɕȵᴇ	heart	heart			1.7.1	9.3	0			p,251
+14125	606	rGyalrong	tə ɕȵᴇ	tə ɕȵᴇ	heartbeat	heartbeat			1.7.1.1	9.3.1	0			p,251
+14126	606	rGyalrong	tə pɕᴇ	tə pɕᴇ	pulse	pulse			1.7.1.1	9.3.2	0			p,m
+14127	606	rGyalrong	tə rnok	tə rnok	bile	bile			1.7.3.1	9.5.1	0			p,m
+14128	606	rGyalrong	mdʒə kʰɛt	mdʒə kʰɛt	kidney	kidney			1.7.5	9.6	0			m,m
+14129	606	rGyalrong	ta sti	ta sti	urinary bladder	urinary bladder			1.7.8	9.7	0			
+14130	606	rGyalrong	ta ɕtɕi	ta ɕtɕi	urine	urine			1.8.4	9.7.1	0			p,650
+14131	606	rGyalrong	ta ɕtɕi ka lɛt	ta ɕtɕi ka lɛt	urinate	urinate	v.	v.	1.5.3.2	9.7.2	0			p,650,m,m
+14132	606	rGyalrong	mdʒə kri	mdʒə kri	stomach	stomach			1.7.6	9.10	0			m,m
+14133	606	rGyalrong	tə po	tə po	intestines / bowels	intestines  /  bowels			1.7.7	9.11	0	jbl3		p,2103
+14134	606	rGyalrong	tə po kə ktᴇ	tə po kə ktᴇ	large intestine	large intestine			1.7.7	9.11.1	0			p,2103,p,m
+14135	606	rGyalrong	tə po kə ktsi	tə po kə ktsi	small intestine	small intestine			9.7.2	9.11.2	0			p,2103,p,m
+14136	606	rGyalrong	ta sop kʰoi jdu	ta sop kʰoi jdu	anus / rectum	anus  /  rectum			1.4.10.2	9.12	0	jbl3		p,3333,665,822
+14137	606	rGyalrong	tə pʰɕᴇ	tə pʰɕᴇ	feces / shit	feces  /  shit			1.8.5	9.12.1	0	jbl3		p,m
+14138	606	rGyalrong	tə ɕtu	tə ɕtu	genitalia / pudenda	genitalia  /  pudenda			1.9.1	10.1	0	jbl3		p,661
+14139	606	rGyalrong	ta lu ka pa	ta lu ka pa	copulate	copulate	v.	v.	1.9.1.1	10.2	0			p,1154,m,m
+14140	606	rGyalrong	pʰo	pʰo	male	male			1.9.6.1	10.3	0			1635
+14141	606	rGyalrong	mo	mo	penis	penis				10.3.1	0			547
+14142	606	rGyalrong	tə |lɛm	tə lɛm	scrotum	scrotum				10.3.4	0			646
+14143	606	rGyalrong	ta bo ɕi	ta bo ɕi	testicle	testicle				10.3.5	0			p,1654,m
+14144	606	rGyalrong	tə ɕtu mo rȵᴇ	tə ɕtu mo rȵᴇ	male pubic hair	male pubic hair				10.3.6	0			p,m,m,368
+14145	606	rGyalrong	pʰo	pʰo	female	female			1.9.3	10.4	0			m
+14146	606	rGyalrong	tə ɕtu	tə ɕtu	vagina	vagina				10.4.1	0			p,661
+14147	606	rGyalrong	tə ɕtu mo rȵᴇ	tə ɕtu mo rȵᴇ	female pubic hair	female pubic hair				10.4.5	0			p,m,m,368
+14148	606	rGyalrong	tə ɕtu ɕi kə ɕut	tə ɕtu ɕi kə ɕut	menstruate	menstruate	v.	v.	1.9.11.1	10.4.6	0			p,661,230,m,m
+14149	606	rGyalrong	tə ɕtu ɕi	tə ɕtu ɕi	menstrual blood	menstrual blood			1.9.11.1	10.4.7	0			p,661,230
+14150	606	rGyalrong	ta pu ktɕɛm	ta pu ktɕɛm	womb	womb				10.4.8	0			p,1733,1612
+14151	606	rGyalrong	ta lɟja	ta lɟja	placenta	placenta				10.4.11	0			p,1651
+14152	606	rGyalrong	kə mskur	kə mskur	pregnant	pregnant	be v.	be v.	1.9.6.1	10.4.14	0			m,m
+14153	606	rGyalrong	ta gam	ta gam	egg (of animal)	egg (of animal)				10.4.16	0			m,305
+14154	606	rGyalrong	ta hɛm	ta hɛm	hiccup	hiccup			1.8.3.5	11.2	0			
+14155	606	rGyalrong	ha |tsʰjau	ha tsʰjau	sneeze	sneeze			1.8.2.1	11.3	0			2131
+14156	606	rGyalrong	mdʑə ŋu	mdʑə ŋu	snore	snore			1.8.2.2	11.4	0			m,1784
+14157	606	rGyalrong	tə wsit	tə wsit	whistle	whistle			8.5.5	11.5	0			p,5592
+14158	606	rGyalrong	ʂoŋ ʂi	ʂoŋ ʂi	burp / belch	burp  /  belch			1.8.3	11.6	0	jbl3		
+14159	606	rGyalrong	pʰɕᴇ rbo	pʰɕᴇ rbo	fart	fart			1.8.5.2	11.7	0			311,m
+14160	606	rGyalrong	ka na ri	ka na ri	laugh	laugh			1.8.8.1	11.9	0			p,m,1108
+14161	606	rGyalrong	kə dɛr	kə dɛr	tremble / shiver / shudder	tremble  /  shiver  /  shudder			1.6.6.2.1	12.1	0	jbl3		p,5570
+14162	606	rGyalrong	kə nə wo	kə nə wo	sick / be ill / hurt	sick  /  be ill  /  hurt	be v.	be v.	1.1.5.1	12.2	0	jbl3		p,160,m
+14163	606	rGyalrong	tə zok twa	tə zok twa	hand span	hand span			1.5.9.4	13.2	0			
+14164	606	rGyalrong	tə ku rgaŋ	tə ku rgaŋ	cubit	cubit			1.5.9.3	13.3	0			
+14165	606	rGyalrong	tə ŋcam	tə ŋcam	cord / fathom	cord  /  fathom			1.5.9.5	13.4	0	jbl3		
+14166	606	rGyalrong	tə sə so	tə sə so	mind / locus of thought	mind  /  locus of thought			1.10	14.1	0	jbl3		
+14167	606	rGyalrong	tə-sɛm	tə-sɛm	heart / locus of emotions	heart  /  locus of emotions			1.7.1	14.2	0	jbl3		p,66

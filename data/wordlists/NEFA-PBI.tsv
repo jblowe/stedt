@@ -1,636 +1,636 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-48348	660	Idu	aɲa-me	aɲa-me	family	family		4.7.5		0		
-48349	660	Idu	eba	eba	clan	clan		4.4.2		0		
-48350	660	Idu	kera-a	kera-a	tribe	tribe		4.4.2		0		
-48351	660	Idu	mosã-a	mosã-a	Abor	Abor				0		
-48352	660	Idu	keba-a	keba-a	Digaru, Miju	Digaru, Miju		4.6		0		
-48353	660	Idu	at-ĩ kʰepa	at-ĩ kʰepa	co-villager	co-villager		4.4.2		0		
-48354	660	Idu	at-u wui ici	at-u wui ici	neighbour	neighbour		4.4.2		0		
-48355	660	Idu	a mau ici	a mau ici	neighbour	neighbour		4.4.2		0		
-48356	660	Idu	meya	meya	man	man		1.9.6.1		0		m
-48357	660	Idu	yakũ	yakũ	woman	woman		1.9.3		0		m
-48358	660	Idu	ici	ici	husband	husband		4.7.4		0	z	
-48359	660	Idu	yakũ	yakũ	wife	wife		4.7.4		0		
-48360	660	Idu	ya	ya	wife	wife		4.7.4		0		
-48361	660	Idu	a meya	a meya	son	son		4.7.3		0		
-48362	660	Idu	a-miya	a-miya	daughter	daughter		4.7.3		0		
-48363	660	Idu	ayã	ayã	daughter	daughter		4.7.3		0		
-48364	660	Idu	na◦ba	na◦ba	father	father		4.7.1		0		x
-48365	660	Idu	nani	nani	mother	mother		4.7.1		0		
-48366	660	Idu	eme apuya	eme apuya	elder brother	elder brother		4.7.1		0		
-48367	660	Idu	atʰi apuya	atʰi apuya	elder sister	elder sister		4.7.1		0		
-48368	660	Idu	eme aliya	eme aliya	younger brother	younger brother				0		
-48369	660	Idu	atʰi aliya	atʰi aliya	younger sister	younger sister				0		
-48370	660	Idu	naba apuya	naba apuya	paternal uncle (elder)	paternal uncle (elder)		4.7.1		0		x
-48371	660	Idu	naba aliya	naba aliya	paternal uncle (younger)	paternal uncle (younger)		4.7.1		0		x
-48372	660	Idu	naku	naku	maternal uncle	maternal uncle		4.7.1		0		
-48373	660	Idu	emo	emo	husband of patern. aunt	husband of patern. aunt		4.7.4		0	z	
-48374	660	Idu	nani	nani	aunt	aunt		4.7.1		0		
-48375	660	Idu	nat-a	nat-a	grandfather	grandfather		4.7.1		0		
-48376	660	Idu	naya	naya	grandmother	grandmother		4.7.1		0		
-48377	660	Idu	ai-a	ai-a	grandson	grandson		4.7.3		0		
-48378	660	Idu	ai-a-miya	ai-a-miya	granddaughter	granddaughter		4.7.3		0		
-48379	660	Idu	a	a	brother's son	brother's son		1.5.3.2		0		
-48380	660	Idu	ad-u-meya	ad-u-meya	sister's son	sister's son		4.7.2		0		
-48381	660	Idu	a miya	a miya	brother's daughter	brother's daughter		1.5.3.2		0		
-48382	660	Idu	ad-u miya	ad-u miya	sister's daughter	sister's daughter		4.7.2		0		
-48383	660	Idu	ebra	ebra	father-in-law	father-in-law		4.7.4		0		x
-48384	660	Idu	ayu	ayu	mother-in-law	mother-in-law		4.7.4		0		
-48385	660	Idu	emo	emo	husband of wife's sister	husband of wife's sister		4.7.4		0	z	
-48386	660	Idu	inu	inu	wife's brother	wife's brother		1.5.3.2		0		
-48387	660	Idu	emo	emo	sister's husband	sister's husband		4.7.2		0	z	
-48388	660	Idu	en-a	en-a	sister-in-law	sister-in-law		4.7.4		0		
-48389	660	Idu	be-eya nat-a-naba	be-eya nat-a-naba	ancestor	ancestor				0		
-48390	660	Idu	tape higa	tape higa	heir	heir		4.2.8		0		
-48391	660	Idu	eba imu ici	eba imu ici	kinsman	kinsman		4.7.5		0		
-48392	660	Idu	eba-ya	eba-ya	kinswoman	kinswoman		4.7.5		0		
-48393	660	Idu	arõ	arõ	lover	lover		8.3.1.1.1		0		x
-48394	660	Idu	a mitu	a mitu	orphan	orphan		4.3		0		
-48395	660	Idu	arõ cʰiga	arõ cʰiga	friend	friend		4.4.2		0		
-48396	660	Idu	akʰu	akʰu	co-wife	co-wife		4.7.4		0		
-48397	660	Idu	meyẽ (meryẽ)	meyẽ (meryẽ)	enemy	enemy		4.2.6		0		
-48398	660	Idu	a	a	baby	baby		4.2.11		0		
-48399	660	Idu	ama sõ	ama sõ	child	child		1.5.3.2		0		
-48400	660	Idu	ataŋ-go masõ	ataŋ-go masõ	boy	boy		1.9.6.1		0		m,m,m
-48401	660	Idu	yakũ amasõ	yakũ amasõ	girl	girl		1.9.3		0		m,m
-48402	660	Idu	me ara	me ara	young man	young man		7.1.8.3		0		
-48403	660	Idu	aru-pi	aru-pi	young woman	young woman		7.1.8.3		0		
-48404	660	Idu	muru-pi	muru-pi	young woman	young woman		7.1.8.3		0		
-48405	660	Idu	me-ara masõ	me-ara masõ	man (adult)	man (adult)		1.9.6.1		0		m,m,m
-48406	660	Idu	ayuza masõ	ayuza masõ	woman (adult)	woman (adult)		1.9.3		0		m,m
-48407	660	Idu	meya mici pra	meya mici pra	old man	old man		7.1.8.3		0		
-48408	660	Idu	yakũ micipra	yakũ micipra	old woman	old woman		7.1.8.3		0		
-48409	660	Idu	ya bi gajimi	ya bi gajimi	bachelor	bachelor		4.2.8		0		
-48410	660	Idu	imu me bi lajimi	imu me bi lajimi	unmarried woman	unmarried woman		6.19		0		
-48411	660	Idu	aya	aya	maiden	maiden		4.2.8		0		
-48412	660	Idu	ya bihiba	ya bihiba	married man	married man		6.19		0		
-48413	660	Idu	ici-goba	ici-goba	married woman	married woman		6.19		0		
-48414	660	Idu	ya eso me	ya eso me	widow	widow		4.2.8		0		
-48415	660	Idu	ici siba	ici siba	widow	widow		4.2.8		0		
-48416	660	Idu	ici eso me	ici eso me	widower	widower		4.2.8		0		
-48417	660	Idu	ya-siba	ya-siba	widower	widower		4.2.8		0		
-48418	660	Idu	ibi ci-lane jiga	ibi ci-lane jiga	engaged	engaged		6.2.2.1		0		
-48419	660	Idu	ici awem-ba	ici awem-ba	divorced man	divorced man		6.19		0		
-48420	660	Idu	ya awem-ba	ya awem-ba	divorced woman	divorced woman		6.19		0		
-48421	660	Idu	imu	imu	man	man		1.9.6.1		0		m
-48422	660	Idu	jõ◦tã	jõ◦tã	body	body		1.1.1		0		4,6
-48423	660	Idu	i◦kri◦ya	i◦kri◦ya	head	head		1.2.1		0		p,1221,m
-48424	660	Idu	tʰrõm-bre	tʰrõm-bre	hair	hair		1.2.3		0		371,s
-48425	660	Idu	a◦pra◦ha	a◦pra◦ha	forehead	forehead		1.2.5.1		0		p,392,2027
-48426	660	Idu	e◦wẽ◦na	e◦wẽ◦na	face	face		1.2.5		0		p
-48427	660	Idu	e◦lõ◦na	e◦lõ◦na	face	face		1.2.5		0		p
-48428	660	Idu	e◦ko-be	e◦ko-be	mouth	mouth		1.3.1		0		p,468,2096
-48429	660	Idu	e◦lõ-bra	e◦lõ-bra	eye	eye		1.2.6		0		p,1427,m
-48430	660	Idu	elõn-dũ	elõn-dũ	pupil	pupil		1.2.6.2		0		m
-48431	660	Idu	e◦po◦mo	e◦po◦mo	eyebrow	eyebrow		1.2.6.6		0		p,m,363
-48432	660	Idu	a◦ko◦na	a◦ko◦na	ear	ear		1.2.7		0		p,817,811
-48433	660	Idu	e◦nam◦bõ	e◦nam◦bõ	nose	nose		1.2.8		0		p,803,806
-48434	660	Idu	e◦nam◦bõ-be	e◦nam◦bõ-be	nostril	nostril		1.2.8.1		0		p,803,806,810
-48435	660	Idu	enobru	enobru	upper lip	upper lip		9.2.1		0		
-48436	660	Idu	a◦ka◦bi	a◦ka◦bi	lower lip	lower lip				0	W	
-48437	660	Idu	e◦ro◦mo	e◦ro◦mo	moustache / beard	moustache / beard		1.2.5.5		0		p,1265,363
-48438	660	Idu	i◦li◦na	i◦li◦na	tongue	tongue		1.3.3		0		p,621,m
-48439	660	Idu	tã◦pra	tã◦pra	tooth	tooth		1.3.4		0		3316,m
-48440	660	Idu	tãm◦bro	tãm◦bro	tooth	tooth		1.3.4		0		3316,m
-48441	660	Idu	tã-so◦pu	tã-so◦pu	gums	gums		1.3.4.3		0		3316,m,m
-48442	660	Idu	ã◦pra	ã◦pra	jaw	jaw		1.2.5.2		0		p,264
-48443	660	Idu	e◦ta◦pʰu	e◦ta◦pʰu	chin	chin		1.2.5.3		0		p,286,m
-48444	660	Idu	e◦ta◦po	e◦ta◦po	chin	chin		1.2.5.3		0		p,286,m
-48445	660	Idu	a-ka	a-ka	palate	palate		1.3.1.1		0		
-48446	660	Idu	sem-bra	sem-bra	neck	neck		1.4.2		0		498,484
-48447	660	Idu	e◦ro-lõ	e◦ro-lõ	throat	throat		1.3.5		0		p,489,499
-48448	660	Idu	si-chi-ga-lo	si-chi-ga-lo	wind-pipe	wind-pipe		1.3.5.2		0		
-48449	660	Idu	i◦gu-ha	i◦gu-ha	back	back		1.4.8		0		
-48450	660	Idu	i◦sũŋ-gu◦mbõ	i◦sũŋ-gu◦mbõ	backbone	backbone		1.4.8.2		0		p,m,2254,m
-48451	660	Idu	i◦li◦pã	i◦li◦pã	shoulder	shoulder		1.4.3		0		p,563,1327
-48452	660	Idu	i◦tʰuŋ-gu	i◦tʰuŋ-gu	chest	chest		1.4.4.3		0		p,289,560
-48453	660	Idu	sub◦rup◦ra	sub◦rup◦ra	rib	rib		1.4.4.3		0		m,m,237
-48454	660	Idu	a◦po◦bra	a◦po◦bra	heart	heart		1.7.1		0		p,m,m
-48455	660	Idu	an-a pũ	an-a pũ	lungs	lungs		1.7.2		0		
-48456	660	Idu	nu◦pũ	nu◦pũ	breasts	breasts				0		253,3461
-48457	660	Idu	a◦kʰo◦mbrõ	a◦kʰo◦mbrõ	arm	arm		1.5.1.2		0		p,m,236
-48458	660	Idu	a◦kʰu-pũ	a◦kʰu-pũ	upper arm	upper arm		1.5.1.2.1		0		p,240,236
-48459	660	Idu	a◦kʰu sipra	a◦kʰu sipra	lower arm	lower arm				0	W	p,240,m
-48460	660	Idu	la◦ru◦mbõ	larumbõ	elbow	elbow		1.5.8.3		0		695,m,1469
-48461	660	Idu	azizimu	azizimu	wrist	wrist		1.5.8.1		0		
-48462	660	Idu	la◦pũ	la◦pũ	hand	hand		1.5.1.1		0		695,1327
-48463	660	Idu	lapũ	lapũ	palm	palm		1.5.5		0		
-48464	660	Idu	atosu	atosu	finger	finger		1.5.6		0		
-48465	660	Idu	atambõ	atambõ	thumb	thumb		1.5.6.1		0		
-48466	660	Idu	bu◦ci◦gã	bu◦ci◦gã	fist	fist		1.5.1.1.1		0		
-48467	660	Idu	ahokõ	ahokõ	nail	nail		1.5.10		0		
-48468	660	Idu	kʰe-ã◦põ	kʰe-ã◦põ	belly	belly		1.4.7		0		m,p,2111
-48469	660	Idu	eha◦pũ	eha◦pũ	abdomen	abdomen		1.4.7		0		m,2111
-48470	660	Idu	i◦ci-be	i◦ci-be	navel	navel		1.9.4		0		p,525,m
-48471	660	Idu	ya◦pu	ya◦pu	stomach	stomach		1.7.6		0		2119,2111
-48472	660	Idu	i◦mihũ	imihũ	liver	liver		1.7.3		0		p,1390
-48473	660	Idu	e◦co-bra	e◦co-bra	kidney	kidney		1.7.5		0		m,m,m
-48474	660	Idu	a◦tʰu-ku	a◦tʰu-ku	waist	waist		1.4.6		0		p,m,221
-48475	660	Idu	i◦pi◦pũ	i◦pi◦pũ	buttocks	buttocks		1.4.10		0		p,400,404
-48476	660	Idu	a-õta	a-õta	leg	leg		1.5.7		0		
-48477	660	Idu	aŋ-ge-sa	aŋ-ge-sa	leg	leg		1.5.7		0		p,338,m
-48478	660	Idu	anu-pũ	anu-pũ	thigh	thigh		1.5.7.1		0		
-48479	660	Idu	ambohã	ambohã	knee	knee		1.5.8.4		0		
-48480	660	Idu	brokʰri	brokʰri	ankle	ankle		1.5.8.2		0		
-48481	660	Idu	bra◦pa	bra◦pa	foot	foot		1.5.2		0		329,m
-48482	660	Idu	brudu	brudu	heel	heel		1.5.2.1		0		
-48483	660	Idu	atʰopa	atʰopa	toe	toe		1.5.6		0		
-48484	660	Idu	tʰa	tʰa	muscle	muscle		1.6.6.2		0		530
-48485	660	Idu	tʰẽ-pra	tʰẽ-pra	urine	urine		1.8.4		0		m,1731
-48486	660	Idu	kʰẽ-eh	kʰẽ-eh	excreta	excreta		1.8.5		0		
-48487	660	Idu	ti◦ci	ti◦ci	sweat	sweat		1.8.1		0		m,298
-48488	660	Idu	bu	bu	pus	pus		1.8.6.1		0		1293
-48489	660	Idu	bu◦mbro	bu◦mbro	pus	pus		1.8.6.1		0		1293,1292
-48490	660	Idu	i◦bi-bra	i◦bi-bra	tears	tears		1.2.6.7		0		p,187,m
-48491	660	Idu	so	so	fat	fat		1.6.4		0		60
-48492	660	Idu	iyu	iyu	blood	blood		1.6.2		0		230
-48493	660	Idu	e◦sa◦pã	e◦sa◦pã	vein	vein		1.6.2.1		0		p,530,m
-48494	660	Idu	ru◦ci	ru◦ci	bone	bone		1.6.3		0		232,m
-48495	660	Idu	si-ha-ga	si-ha-ga	breathe	breathe		1.1.2.2		0		32,1816,m
-48496	660	Idu	õ	õ	house	house		5.11.9.1		0		
-48497	660	Idu	õ-kõ	õ-kõ	house	house		5.11.9.1		0		
-48498	660	Idu	igu	igu	room	room		5.11.9.2		0		
-48499	660	Idu	apri	apri	partition	partition		6.10.2		0		
-48500	660	Idu	ap-i	ap-i	partition	partition		6.10.2		0		
-48501	660	Idu	jimo	jimo	floor	floor		5.11.9.3		0		
-48502	660	Idu	anje	anje	wall	wall		5.11.9.3		0		
-48503	660	Idu	ãti-ãŋ-go	ãti-ãŋ-go	roof	roof		5.11.9		0		
-48504	660	Idu	ãp-õ	ãp-õ	ceiling	ceiling		5.11.9.3.1		0		
-48505	660	Idu	cendo-pra	cendo-pra	corridor	corridor		5.11.9.3		0		
-48506	660	Idu	adaku	adaku	platform	platform		5.11		0		
-48507	660	Idu	haye-kõ	haye-kõ	hearth	hearth		5.11.9.3.1		0		
-48508	660	Idu	ego-kõ	ego-kõ	hearth	hearth		5.11.9.3.1		0		
-48509	660	Idu	kʰeta-kʰrõ	kʰeta-kʰrõ	latrine	latrine		5.11.9.2		0		
-48510	660	Idu	arokõ	arokõ	pigsty	pigsty		5.11.9.5		0		
-48511	660	Idu	atoyayi	atoyayi	poultry-yard	poultry-yard		5.11.9.5		0		
-48512	660	Idu	akʰolõ	akʰolõ	door	door		5.11.9.3		0		
-48513	660	Idu	do◦pʰrẽ	dopʰrẽ	ladder	ladder		5.4		0		m,6262
-48514	660	Idu	pʰro-di	pʰro-di	steps	steps		6.7.4		0		
-48515	660	Idu	a◦la-pra	a◦la-pra	stone	stone		3.2.9		0		p,1269,m
-48516	660	Idu	at-õ	at-õ	trays (over hearth)	trays (over hearth)		5.11		0		
-48517	660	Idu	at-õ-cã	at-õ-cã	trays (over hearth)	trays (over hearth)		5.11		0		
-48518	660	Idu	andũ	andũ	wall shelves	wall shelves		5.11.9.3		0		
-48519	660	Idu	acapu	acapu	wall shelves	wall shelves		5.11.9.3		0		
-48520	660	Idu	atya-tʰõ	atya-tʰõ	post (central)	post (central)		5.11		0		
-48521	660	Idu	amo	amo	post (side and corner)	post (side and corner)		5.11		0		
-48522	660	Idu	õtalãnda	õtalãnda	beam (under the floor)	beam (under the floor)		5.11.9		0		
-48523	660	Idu	apoko	apoko	beam (cross)	beam (cross)		5.11.9		0		
-48524	660	Idu	ako	ako	thatch	thatch		3.1.6.4		0		
-48525	660	Idu	laka	laka	thatch	thatch		3.1.6.4		0		
-48526	660	Idu	lapu	lapu	machang	machang				0		
-48527	660	Idu	aprõ	aprõ	mat	mat		5.11.9.4		0		
-48528	660	Idu	du◦ta◦ɲe	du◦ta◦ɲe	sitting blocks	sitting blocks		6.1.1.4.1		0		3602,m,m
-48529	660	Idu	jiogo	jiogo	sitting blocks	sitting blocks		6.1.1.4.1		0		
-48530	660	Idu	andrõŋ-ga	andrõŋ-ga	basket (large)	basket (large)		5.1		0		
-48531	660	Idu	et-tõ	et-tõ	basket (small)	basket (small)		5.1		0		
-48532	660	Idu	agra	agra	basket (for woman)	basket (for woman)		5.1		0		
-48533	660	Idu	asi-no	asi-no	basket (for woman)	basket (for woman)		5.1		0		
-48534	660	Idu	ependrõ	ependrõ	basket (for vegetable)	basket (for vegetable)		5.1		0		
-48535	660	Idu	ãnzõ	ãnzõ	basket (for storing)	basket (for storing)		5.1		0		
-48536	660	Idu	amozo	amozo	basket (for yarn)	basket (for yarn)		5.1		0		
-48537	660	Idu	ampo	ampo	basket (for yarn)	basket (for yarn)		5.1		0		
-48538	660	Idu	ã hẽpra	ã hẽpra	basket (for fish)	basket (for fish)		5.1		0		
-48539	660	Idu	aduku	aduku	for liquor	for liquor		10.1		0		
-48540	660	Idu	tago	tago	utensils	utensils		5.5		0		
-48541	660	Idu	hago	hago	utensils	utensils		5.5		0		
-48542	660	Idu	tagoya	tagoya	cooking pot	cooking pot		5.5		0		
-48543	660	Idu	sandipʰu	sandipʰu	frying pan	frying pan		5.5		0		
-48544	660	Idu	si-pʰu	si-pʰu	frying pan (iron pan)	frying pan (iron pan)		5.5		0		
-48545	660	Idu	aruku	aruku	dish	dish		5.5		0		
-48546	660	Idu	patika	patika	cup	cup		5.1		0		
-48547	660	Idu	ãotõ	ãotõ	chunga	chunga				0		
-48548	660	Idu	aci-phru	aci-phru	chunga (for water, beer)	chunga (for water, beer)		3.2.3		0		
-48549	660	Idu	ekala	ekala	chunga (for water, beer)	chunga (for water, beer)		3.2.3		0		
-48550	660	Idu	ekʰita	ekʰita	chunga (for water, beer)	chunga (for water, beer)		3.2.3		0		
-48551	660	Idu	ekala	ekala	bottle / jar	bottle / jar		5.1		0		
-48552	660	Idu	adupra	adupra	spoon / ladle	spoon / ladle		5.5		0		
-48553	660	Idu	atapra	atapra	prongs	prongs		5.1		0		
-48554	660	Idu	ekombõ	ekombõ	tripod (of stone)	tripod (of stone)		5.11.9.6		0		
-48555	660	Idu	sikombõ	sikombõ	tripod (of iron)	tripod (of iron)		5.11.9.6		0		
-48556	660	Idu	ihutõ	ihutõ	pestle	pestle		5.5		0		
-48557	660	Idu	elõbe	elõbe	mortar	mortar		5.5		0		
-48558	660	Idu	acʰika	acʰika	sieve	sieve		5.5		0		
-48559	660	Idu	epe	epe	window	window		5.11.9.3		0		
-48560	660	Idu	aji	aji	strainer	strainer		6.6		0		
-48561	660	Idu	kaji	kaji	strainer	strainer		6.6		0		
-48562	660	Idu	androhõ	androhõ	dress	dress		6.2.2.1		0		
-48563	660	Idu	apotolõ	apotolõ	hat	hat		5.11.8.2.1.1		0		
-48564	660	Idu	awẽtõ	awẽtõ	head dress of priest	head dress of priest		1.2.1		0		x
-48565	660	Idu	a◦mra◦lã	a◦mra◦lã	belt of tiger's teeth	belt of tiger's teeth		5.11.8.2.1.3		0		m,2618,m
-48566	660	Idu	etobula	etobula	coat (long white)	coat (long white)		5.11.8.2.1.2		0		
-48567	660	Idu	eto◦ti	etoti	short coat (black)	short coat (black)		9.7.2		0		m,7173
-48568	660	Idu	atʰu ambrã	atʰu ambrã	apron	apron		5.11.8.2.2		0		
-48569	660	Idu	i◦krui◦ya wi◦ga	i◦krui◦ya wi◦ga	headband	headband		5.11.8.2.1.1		0	z	p,1221,m,m,m
-48570	660	Idu	etõwe	etõwe	coat	coat		5.11.8.2.1.2		0		
-48571	660	Idu	elebu	elebu	raincoat	raincoat		5.11.8.2.2		0		
-48572	660	Idu	tʰu-wẽ	tʰu-wẽ	skirt	skirt		5.11.8.2.1		0		
-48573	660	Idu	lao hãsi	lao hãsi	loincloth	loincloth		5.11.8.2.1.3		0		
-48574	660	Idu	androhõ	androhõ	wrapper	wrapper		6.2.2.1		0		
-48575	660	Idu	idubu	idubu	blanket	blanket		5.11.9.4		0		
-48576	660	Idu	katʰu	katʰu	waistband	waistband		5.11.8.2.1.3		0		
-48577	660	Idu	apotolõ juhi	apotolõ juhi	helmet	helmet		5.15		0		
-48578	660	Idu	apẽ	apẽ	crossbelt	crossbelt				0		
-48579	660	Idu	tapẽ	tapẽ	crossbelt	crossbelt				0		
-48580	660	Idu	i◦lyi◦pra	ilyipra	bow	bow		5.15		0		p,2411,m
-48581	660	Idu	ipit a	ipit a	arrow	arrow		5.15		0		
-48582	660	Idu	mrela	mrela	arrow tip	arrow tip		5.15		0		
-48583	660	Idu	ela-ã	ela-ã	quiver	quiver		6.7.4		0		
-48584	660	Idu	ali	ali	shield	shield		5.15		0		
-48585	660	Idu	ap a	ap a	spear	spear		5.14		0		
-48586	660	Idu	ambepra	ambepra	dao	dao				0		
-48587	660	Idu	era-a	era-a	dao	dao				0		
-48588	660	Idu	ẽce	ẽce	dao	dao				0		
-48589	660	Idu	ebro	ebro	scabbard	scabbard		5.15		0		
-48590	660	Idu	raja	raja	bells	bells		5.1		0		
-48591	660	Idu	kʰõndã	kʰõndã	cymbals	cymbals		5.1		0		
-48592	660	Idu	tʰõ◦guru	tʰõ◦guru	hair-knot	hair-knot		1.2.3.2		0		371,m
-48593	660	Idu	etʰrẽ	etʰrẽ	comb	comb		1.2.2.1		0		m
-48594	660	Idu	arobra	arobra	pin (of bamboo)	pin (of bamboo)		5.11.9		0		
-48595	660	Idu	ataru	ataru	pin (of ivory)	pin (of ivory)		5.11.9		0		
-48596	660	Idu	tʰoce	tʰoce	string (for tying hair)	string (for tying hair)		5.1		0		x
-48597	660	Idu	andesi	andesi	earring	earring		5.11.8.3		0		
-48598	660	Idu	akokʰre	akokʰre	earring	earring		5.11.8.3		0		
-48599	660	Idu	akosu	akosu	bamboo plug	bamboo plug		3.1.1		0		
-48600	660	Idu	lekepo	lekepo	bead	bead		5.11.8.3		0		
-48601	660	Idu	sakapo	sakapo	bead	bead		5.11.8.3		0		
-48602	660	Idu	arulo	arulo	bead	bead		5.11.8.3		0		
-48603	660	Idu	anne	anne	bead necklaces	bead necklaces		5.11.8.3		0		
-48604	660	Idu	aũ-kunzũ	aũ-kunzũ	locket	locket		5.11.8.3		0		
-48605	660	Idu	au-kawu	au-kawu	locket	locket		5.11.8.3		0		
-48606	660	Idu	azi-bru	azi-bru	bangle	bangle		5.11.8.3		0		
-48607	660	Idu	at-ã-so	at-ã-so	finger ring	finger ring		1.5.6		0		
-48608	660	Idu	dekʰe	dekʰe	girdle (v. young girls)	girdle (v. young girls)		5.11.8.2.1.3		0		
-48609	660	Idu	akuci	akuci	bag	bag				0		
-48610	660	Idu	da-pʰu	da-pʰu	pipe	pipe		5.8		0		
-48611	660	Idu	ayã-prã	ayã-prã	fan	fan		5.4		0		
-48612	660	Idu	atabraya	atabraya	stick	stick		3.1.2		0		
-48613	660	Idu	ig-u:	ig-u:	umbrella	umbrella		5.11.8.2.2		0		
-48614	660	Idu	ke-ku	ke-ku	rice	rice		3.1.4		0		
-48615	660	Idu	atã	atã	cooked rice	cooked rice		5.5		0		
-48616	660	Idu	ketõ	ketõ	parched rice	parched rice		6.6		0		
-48617	660	Idu	atã mulu	atã mulu	gruel	gruel		5.5		0		
-48618	660	Idu	ketʰa	ketʰa	bread	bread		5.5		0		
-48619	660	Idu	atã-ga	atã-ga	dough	dough		5.5		0		
-48620	660	Idu	atã-la	atã-la	dough	dough		5.5		0		
-48621	660	Idu	ke-lombri	ke-lombri	porridge	porridge		5.5		0		
-48622	660	Idu	pa	pa	cake	cake		5.5		0		
-48623	660	Idu	ci	ci	soup	soup		5.5		0		
-48624	660	Idu	tam◦bre-ci	tam◦bre-ci	meat soup	meat soup		1.1.1.1		0		47,37,m
-48625	660	Idu	ana-ci	ana-ci	vegetable soup	vegetable soup		3.1.2		0		
-48626	660	Idu	tam◦bre	tam◦bre	meat	meat		1.1.1.1		0	D1	47,37
-48627	660	Idu	a◦ŋa	a◦ŋa	fish	fish		2.2.5		0		p,1455
-48628	660	Idu	mu-la	mu-la	roast	roast		5.5		0		
-48629	660	Idu	eb-a-la	eb-a-la	bake	bake		5.5		0		
-48630	660	Idu	anapra	anapra	vegetable	vegetable		3.1.2		0		
-48631	660	Idu	pu	pu	laisag, pumpkin, gourd	laisag, pumpkin, gourd		3.1.6.4		0		5797
-48632	660	Idu	ce◦ka◦pu	cekapu	gourd (red)	gourd (red)		3.1.6.4		0		m,m,5797
-48633	660	Idu	aŋu-pu	aŋu-pu	white gourd	white gourd		9.4		0	E	e,m,5797
-48634	660	Idu	eka◦pu	ekapu	long gourd	long gourd		9.7.2		0		m,5797
-48635	660	Idu	anji-pu	anji-pu	cucumber	cucumber		3.1.5		0		
-48636	660	Idu	padi-bru	padi-bru	brinjal (=eggplant)	brinjal (=eggplant)		3.1.5		0		
-48637	660	Idu	geisi	geisi	potato	potato		3.1.5		0		
-48638	660	Idu	geja	geja	sweet potato	sweet potato		7.1.4.4		0		
-48639	660	Idu	apapu	apapu	plantain flower	plantain flower		3.1.5		0		
-48640	660	Idu	nuku	nuku	plantain pith	plantain pith		3.1.5		0		
-48641	660	Idu	andeyẽ	andeyẽ	bean	bean		3.1.4		0		
-48642	660	Idu	andowe	andowe	bean	bean		3.1.4		0		
-48643	660	Idu	sõ-na	sõ-na	arum	arum		3.1.8		0		
-48644	660	Idu	prã	prã	salt	salt		3.2.4		0		
-48645	660	Idu	mirci	mirci	pepper (chilli)	pepper (chilli)		3.1.5		0		bIndic
-48646	660	Idu	e◦lõm◦pra	elõmpra	onion	onion		3.1.5		0		
-48647	660	Idu	anjita	anjita	ginger	ginger		3.1.5		0		
-48648	660	Idu	asisi	asisi	fruit	fruit		3.1.5		0		
-48649	660	Idu	enjopu	enjopu	jackfruit	jackfruit		3.1.5		0		
-48650	660	Idu	ajibru	ajibru	plantain	plantain		3.1.5		0		
-48651	660	Idu	tupurisi	tupurisi	orange	orange		3.1.5		0		
-48652	660	Idu	injusi	injusi	mango	mango				0		
-48653	660	Idu	rupoto	rupoto	sugar-cane	sugar-cane		3.1.6.2		0		
-48654	660	Idu	pasipu	pasipu	lemon	lemon		3.1.5		0		
-48655	660	Idu	e◦to-cu	e◦to-cu	egg	egg				0		p,1609,3436
-48657	660	Idu	a◦nga	a◦nga	fish	fish		2.2.5		0		p,1455
-48658	660	Idu	sini	sini	sugar	sugar		3.1.6.2		0		b
-48659	660	Idu	tu◦ci	tu◦ci	mustard oil	mustard oil		3.1.4		0		m,48
-48660	660	Idu	iyu	iyu	beer	beer		3.1.6.3		0		
-48661	660	Idu	yu	yu	beer	beer		3.1.6.3		0		
-48662	660	Idu	maci	maci	water	water		3.2.3		0	D1	
-48663	660	Idu	yu-ara	yu-ara	spirit	spirit		5.8.1.1		0		
-48664	660	Idu	yu arakõ	yu arakõ	brewing	brewing		5.5		0		
-48665	660	Idu	sã	sã	tea	tea		3.1.1		0		
-48666	660	Idu	ami-kʰu	ami-kʰu	smoke	smoke		3.2.12.2		0	D1	
-48667	660	Idu	dana	dana	tobacco leaves	tobacco leaves		3.1.6.2		0		
-48668	660	Idu	kʰanu	kʰanu	opium	opium		3.1.6.2		0		
-48669	660	Idu	poci-na	poci-na	betel leaf	betel leaf		3.1.4		0		
-48670	660	Idu	geosi	geosi	areca-nut	areca-nut		3.1.1		0		
-48671	660	Idu	geo-bra	geo-bra	areca-nut	areca-nut		3.1.1		0		
-48672	660	Idu	pomoko	pomoko	chhali	chhali				0		
-48673	660	Idu	cinu	cinu	chun (lime)	chun (lime)		3.1.5		0		
-48674	660	Idu	hãjitega ahumoga	hãjitega ahumoga	feast	feast		5.5		0		
-48675	660	Idu	sʰu:	sʰu:	sweet	sweet		7.1.4.4		0		
-48676	660	Idu	ka	ka	bitter	bitter		7.1.4.4		0		229
-48677	660	Idu	ti:-kʰu	ti:-kʰu	hot	hot				0		
-48678	660	Idu	sʰru	sʰru	sour	sour		7.1.4.4		0		6406
-48679	660	Idu	hoi	hoi	pungent	pungent		7.1.4.5		0		
-48680	660	Idu	akataci	akataci	brackish	brackish		7.1.4.4		0		
-48681	660	Idu	ha	ha	eat	eat		1.5.3.2		0		3414
-48682	660	Idu	tõ	tõ	drink	drink				0		502
-48683	660	Idu	ha◦ma	ha◦ma	chew	chew		1.3.4		0		m,m
-48684	660	Idu	do◦ga	do◦ga	suck	suck		1.3.2.1		0		3466,m
-48685	660	Idu	em◦bre◦ga	em◦bre◦ga	disease	disease		1.1.5.1		0		m,m,m
-48686	660	Idu	ta◦ma	tama	medicine	medicine		5.4		0		p,5434
-48687	660	Idu	ŋi	ŋi	fever	fever		1.1.5.1		0		
-48688	660	Idu	masu-ŋi	masu-ŋi	influenza	influenza		5.3		0		
-48689	660	Idu	tʰra-hiba	tʰra-hiba	pneumonia	pneumonia		5.3		0		
-48690	660	Idu	masu	masu	bad cold	bad cold		9.6.2.1		0		
-48691	660	Idu	yã-a	yã-a	dysentry	dysentry		1.1.5.1		0		
-48692	660	Idu	kʰrepõ embrega	kʰrepõ embrega	diarrhea	diarrhea		1.8.5		0		
-48693	660	Idu	akubra	akubra	pimple	pimple		1.6.5.3		0		
-48694	660	Idu	malu	malu	boil	boil	n.	6.6		0		
-48695	660	Idu	yagu	yagu	wound	wound		1.8.6.2		0		
-48696	660	Idu	anosu	anosu	chicken pox	chicken pox		2.1.10		0		
-48697	660	Idu	bro	bro	smallpox	smallpox		5.3		0		
-48698	660	Idu	acũ	acũ	measles	measles		5.3		0		
-48699	660	Idu	cidigilya	cidigilya	leprosy	leprosy		5.3		0		
-48700	660	Idu	kaneko	kaneko	goitre	goitre				0		
-48701	660	Idu	eloma	eloma	blindness	blindness		1.2.6.14.2		0		
-48702	660	Idu	ahũ kʰroi	ahũ kʰroi	deafness	deafness		1.2.7.5		0		
-48703	660	Idu	kapa	kapa	deaf and dumb	deaf and dumb		1.2.7.5		0		
-48704	660	Idu	ɲa	ɲa	pain	pain		1.1.5.1		0		
-48705	660	Idu	tʰo-ɲaga	tʰo-ɲaga	muscular pain	muscular pain		1.6.6.2		0		
-48706	660	Idu	a-ɲa-ga	a-ɲa-ga	labour pain	labour pain		6.1.1		0		
-48707	660	Idu	tã ɲaga	tã ɲaga	toothache	toothache		1.3.4		0		3316,m
-48708	660	Idu	i◦ku◦ji	i◦ku◦ji	headache	headache		1.2.1		0		p,1221,m
-48709	660	Idu	yãsuga	yãsuga	stomachache	stomachache		1.7.6		0		
-48710	660	Idu	taruga	taruga	ringworm	ringworm		2.2.6		0		
-48711	660	Idu	akũji	akũji	worm	worm		2.2.6		0		
-48712	660	Idu	me	me	vomiting	vomiting		1.8.3.2		0		
-48713	660	Idu	maso	maso	scabies	scabies		1.6.5		0		1457*
-48714	660	Idu	duba	duba	fracture	fracture		1.6.3		0		
-48715	660	Idu	tama cʰu	tama cʰu	ointment	ointment		5.4		0		
-48716	660	Idu	tamabra	tamabra	pill	pill				0		
-48717	660	Idu	tama aluga	tama aluga	mixture	mixture		6.13.4		0		
-48718	660	Idu	arõ	arõ	mishmi teeta	mishmi teeta		4.6		0		
-48719	660	Idu	paku	paku	agricult. cultivation	agricult. cultivation		3.1.10		0		
-48720	660	Idu	maci mrã	maci mrã	wet rice cultivation	wet rice cultivation		6.6		0		
-48721	660	Idu	paku	paku	field	field		3.2.5		0		
-48722	660	Idu	mrã	mrã	jhum	jhum				0		
-48723	660	Idu	ambẽ	ambẽ	jungle	jungle		3.2.5		0		
-48724	660	Idu	aran-a	aran-a	fallow land	fallow land		3.2.11		0		
-48725	660	Idu	karõ pʰriga	karõ pʰriga	burning the jungle	burning the jungle		3.2.12.1		0		
-48726	660	Idu	ilipikuga	ilipikuga	hoeing	hoeing		5.1		0		
-48727	660	Idu	maci-ta	maci-ta	damming	damming		9.10.2		0		
-48728	660	Idu	ke-triga	ke-triga	reaping	reaping		3.1.10		0		
-48729	660	Idu	ke-sʰiga	ke-sʰiga	harvesting	harvesting		3.1.10		0		
-48730	660	Idu	erõte	erõte	storing	storing		9.10.6		0		
-48731	660	Idu	maci-alo	maci-alo	irrigation	irrigation		6.6		0		
-48732	660	Idu	pi	pi	digging	digging		6.11		0		
-48733	660	Idu	alici-e	alici-e	weeding	weeding		3.1.7		0		
-48734	660	Idu	kiliã-tabrã	kiliã-tabrã	stick (for sowing)	stick (for sowing)		3.1.2		0		
-48735	660	Idu	tab-u	tab-u	hoe	hoe		5.3		0		
-48736	660	Idu	jelõpra	jelõpra	spade	spade		5.3		0		
-48737	660	Idu	epa	epa	axe	axe		5.11.5.3		0		
-48738	660	Idu	e-a-a ẽy-ecẽ	e-a-a ẽy-ecẽ	dao	dao				0		
-48739	660	Idu	kalãpõ	kalãpõ	plough	plough		5.3		0		
-48740	660	Idu	are sopra	are sopra	khurpi	khurpi				0		
-48741	660	Idu	ke-bra	ke-bra	paddy	paddy		9.10.5		0		
-48742	660	Idu	ambõ	ambõ	maize	maize		3.1.5		0		
-48743	660	Idu	yamba	yamba	millet (kodo)	millet (kodo)		1.5.3.2		0		
-48744	660	Idu	lĩ	lĩ	seed	seed		3.1.4		0		3560
-48745	660	Idu	bra-a	bra-a	seedlings	seedlings		3.1.8		0		
-48746	660	Idu	ilikʰi	ilikʰi	soil	soil		3.2.11		0		
-48747	660	Idu	aka	aka	granary	granary		5.11.9.5		0		
-48748	660	Idu	paku jõya-me	paku jõya-me	cultivator	cultivator		3.1.10		0		
-48749	660	Idu	ã cita	ã cita	loom (weaving)	loom (weaving)		5.1		0		
-48750	660	Idu	abipra	abipra	shuttle (weaving)	shuttle (weaving)		5.1		0		
-48751	660	Idu	abru bru	abru bru	slay (weaving)	slay (weaving)		6.4		0		
-48752	660	Idu	asa	asa	yarn	yarn		5.1		0		
-48753	660	Idu	na◦mbra	nambra	thread	thread		5.11.6		0		m,193
-48754	660	Idu	ape	ape	cotton	cotton		5.1		0		
-48755	660	Idu	ema	ema	wool	wool		1.6.1.3		0		m
-48756	660	Idu	sega	sega	spinning	spinning		6.7.6		0		
-48757	660	Idu	nata tagõ	nata tagõ	wheel	wheel		5.1		0		
-48758	660	Idu	nambro	nambro	spindle	spindle		5.1		0		
-48759	660	Idu	androhõ	androhõ	cloth	cloth		5.1		0		
-48760	660	Idu	ema◦ndrohõ	ema◦ndrohõ	woollen cloth	woollen cloth		5.1		0		m,m
-48761	660	Idu	zo	zo	design	design		8.3		0		
-48762	660	Idu	abrila	abrila	border	border		9.2.7		0		
-48763	660	Idu	atya yakũ	atya yakũ	weaver (a woman)	weaver (a woman)		5.1		0		
-48764	660	Idu	taroga	taroga	sewing	sewing		5.1		0		
-48765	660	Idu	akʰra	akʰra	needle	needle		5.1		0		
-48766	660	Idu	agõ	agõ	needle	needle		5.1		0		
-48767	660	Idu	lisihi	lisihi	scissors	scissors		5.11.5.3		0		
-48768	660	Idu	erõ	erõ	dyes	dyes		5.1		0		
-48769	660	Idu	alabra suko	alabra suko	cane work	cane work		5.11.8.2.2		0		
-48770	660	Idu	era a cikʰi	era a cikʰi	small knife	small knife		9.7.2		0		x
-48771	660	Idu	asipra pi	asipra pi	carpentry	carpentry		4.2.1.4		0		
-48772	660	Idu	atui	atui	hammer	hammer		5.11.5.4		0		
-48773	660	Idu	asi ŋene wẽya	asi ŋene wẽya	saw	saw		5.11.5.3		0		
-48774	660	Idu	asi cune wẽya	asi cune wẽya	chisel	chisel		5.11.5.3		0		
-48775	660	Idu	asipra asunewẽya	asipra asunewẽya	plane	plane		5.1		0		
-48776	660	Idu	lo newẽya	lo newẽya	drill	drill		6.11		0		
-48777	660	Idu	chuga	chuga	painting	painting		5.8		0		
-48778	660	Idu	asipra piya imu	asipra piya imu	carpenter	carpenter		4.2.1.4		0		
-48779	660	Idu	atomu	atomu	smithy	smithy		4.2.1.4		0		
-48780	660	Idu	si atoya imu	si atoya imu	blacksmith	blacksmith		4.2.1.4		0		
-48781	660	Idu	pudi atoya imu	pudi atoya imu	goldsmith	goldsmith		4.2.1.4		0		
-48782	660	Idu	atopra	atopra	anvil	anvil		5.1		0		
-48783	660	Idu	si-atapra	si-atapra	pincer	pincer				0		
-48784	660	Idu	ahorõ	ahorõ	bellows	bellows		5.11.5.5		0		
-48785	660	Idu	da	da	debt	debt		5.9		0		
-48786	660	Idu	awa	awa	debt	debt		5.9		0		
-48787	660	Idu	loya imu	loya imu	customer	customer		4.2.3		0		
-48788	660	Idu	awa kʰaya imu	awa kʰaya imu	creditor	creditor		6.19		0		
-48789	660	Idu	aweya imu	aweya imu	debtor	debtor		5.9		0		
-48790	660	Idu	aru haga	aru haga	let out on hire	let out on hire		6.19		0		
-48791	660	Idu	kotoki	kotoki	interpreter	interpreter		8.3		0		
-48792	660	Idu	dukani	dukani	shop	shop		9.10.6		0		
-48793	660	Idu	dukani atʰuya imu	dukani atʰuya imu	shop-keeper	shop-keeper		9.10.6		0		
-48794	660	Idu	abicʰi ga amme-ega	abicʰi ga amme-ega	sell	sell		6.22		0		
-48795	660	Idu	loga	loga	guy	guy		4.5		0		
-48796	660	Idu	re	re	price	price		5.9		0		6584
-48797	660	Idu	am e	am e	price	price		5.9		0		
-48798	660	Idu	paũ	paũ	money	money		5.9		0		
-48799	660	Idu	iyuaga	iyuaga	barter	barter		6.22		0		
-48800	660	Idu	mere	mere	enemy	enemy		4.2.6		0		
-48801	660	Idu	meye	meye	enemy	enemy		4.2.6		0		
-48802	660	Idu	ãndoga	ãndoga	war	war		5.15		0		
-48803	660	Idu	jĩga	jĩga	attack	attack		6.5		0		
-48804	660	Idu	rucuko geba	rucuko geba	retreat	retreat		6.7.2		0		
-48805	660	Idu	ãndoda	ãndoda	reprisal	reprisal		6.22		0		
-48806	660	Idu	mere loga	mere loga	ambush	ambush		6.5		0		
-48807	660	Idu	larũ gaga	larũ gaga	vigilance, defence	vigilance, defence		6.1.1		0		
-48808	660	Idu	ayone jiga	ayone jiga	surrender	surrender		6.19		0		
-48809	660	Idu	canage	canage	ransom	ransom		5.9		0		
-48810	660	Idu	het-a	het-a	captain, leader	captain, leader		4.2.6		0		
-48811	660	Idu	poga roga etʰondo landõ	poga roga etʰondo landõ	peace	peace		5.8		0		
-48812	660	Idu	ayoga	ayoga	defeat	defeat		6.5		0		
-48813	660	Idu	aɲega	aɲega	victory	victory		6.5		0		
-48814	660	Idu	tek-o	tek-o	fishing	fishing		2.2.5		0		
-48815	660	Idu	sya	sya	fishing net	fishing net		2.2.5		0		
-48816	660	Idu	etʰo	etʰo	fishing net	fishing net		2.2.5		0		
-48817	660	Idu	tʰa	tʰa	fishing trap	fishing trap		2.2.5		0		
-48818	660	Idu	irĩ-op-o	irĩ-op-o	fishing rod	fishing rod		2.2.5		0		
-48819	660	Idu	irĩ ace	irĩ ace	fishing line	fishing line		2.2.5		0		
-48820	660	Idu	irĩ	irĩ	fishing hook	fishing hook		2.2.5		0		
-48821	660	Idu	tane	tane	fishing bait	fishing bait		2.2.5		0	z	
-48822	660	Idu	rõ	rõ	fishing boat	fishing boat		2.2.5		0		
-48823	660	Idu	rõ lubu	rõ lubu	fishing oar	fishing oar		2.2.5		0		
-48824	660	Idu	aŋa rõya imu	aŋa rõya imu	fisherman	fisherman		4.2.1.1		0		
-48825	660	Idu	ambre il ĩga	ambre il ĩga	hunting	hunting		6.2.2.1		0		
-48826	660	Idu	jõya imu	jõya imu	labourer	labourer		6.1.1		0		
-48827	660	Idu	epo	epo	servant	servant		4.2.10		0		
-48828	660	Idu	agu giya imu	agu giya imu	porter	porter		4.2.1		0		
-48829	660	Idu	porhi-õ	porhi-õ	school	school		5.8		0		
-48830	660	Idu	naga	naga	dance	dance		6.7.9		0		
-48831	660	Idu	igu	igu	song	song		5.1		0		
-48832	660	Idu	erambõ	erambõ	drum	drum		5.1		0		
-48833	660	Idu	kʰonda	kʰonda	cymbal	cymbal		5.1		0		
-48834	660	Idu	raja	raja	bell	bell		5.1		0		
-48835	660	Idu	iguga	iguga	chant	chant		5.1		0		
-48836	660	Idu	ahũda	ahũda	faith	faith		8.3.1.15		0		
-48837	660	Idu	dunikiki	dunikiki	purity	purity		9.6.1.1		0		
-48838	660	Idu	megra	megra	soul	soul		1.10		0		
-48839	660	Idu	ase-ũ	ase-ũ	abode of the dead	abode of the dead		5.11.9.6		0		
-48840	660	Idu	lupũ	lupũ	for the good	for the good		10.1		0		
-48841	660	Idu	kʰin-u	kʰin-u	spirit, ghost	spirit, ghost		5.8.1.1		0		
-48842	660	Idu	kʰin-u me huimu	kʰin-u me huimu	possessed	possessed		8.2		0		
-48843	660	Idu	igu me tʰuga	igu me tʰuga	magic	magic		5.8.3.2		0		
-48844	660	Idu	kʰin u medkõ	kʰin u medkõ	beneficent (of house)	beneficent (of house)				0		
-48845	660	Idu	apẽ sa miya	apẽ sa miya	beneficent (of agriculture)	beneficent (of agriculture)				0		
-48846	660	Idu	asʰã dorme	asʰã dorme	beneficent (of wealth)	beneficent (of wealth)				0		
-48847	660	Idu	aso soru	aso soru	beneficent (of creation )	beneficent (of creation )				0		
-48848	660	Idu	asʰa kʰin-u	asʰa kʰin-u	malevolent(of jungle)	malevolent(of jungle)		6.4		0		
-48849	660	Idu	golõ kʰin-u	golõ kʰin-u	malevolent (of mountain)	malevolent (of mountain)		6.4		0		
-48850	660	Idu	bruru kʰin-u	bruru kʰin-u	malevolent (of water)	malevolent (of water)		6.4		0		
-48851	660	Idu	iɲi alapʰi	iɲi alapʰi	malevolent (of destruction)	malevolent (of destruction)		6.4		0		
-48852	660	Idu	aruya	aruya	malevolent (of war)	malevolent (of war)		6.4		0		
-48853	660	Idu	ayiga	ayiga	propitiation	propitiation		6.19		0		
-48854	660	Idu	ammeya amisʰu	ammeya amisʰu	offerings	offerings		5.8.2.3		0		
-48855	660	Idu	esala	esala	omen	omen		5.8.3.2		0		
-48856	660	Idu	igu	igu	priest	priest		4.2.4		0		
-48857	660	Idu	iguna	iguna	chief priest	chief priest		4.2.5.2		0		
-48858	660	Idu	tamro	tamro	assistant priest	assistant priest		6.20		0		
-48859	660	Idu	briga	briga	marriage	marriage		5.8		0		
-48860	660	Idu	amesʰa atawe	amesʰa atawe	marriage feast	marriage feast		5.8		0		
-48861	660	Idu	rui sʰimida	rui sʰimida	select	select		6.10.4		0		
-48862	660	Idu	yakũ lobru	yakũ lobru	bride price	bride price		4.2.8		0		
-48863	660	Idu	ahelaya abwe cʰiya	ahelaya abwe cʰiya	negotiator	negotiator		5.8		0		
-48864	660	Idu	ahela	ahela	proposal	proposal		8.5.14.1		0		
-48865	660	Idu	abwe jaba	abwe jaba	divorce	divorce		5.8		0		
-48866	660	Idu	lorõ	lorõ	ceremony	ceremony		5.8.3.1		0		
-48867	660	Idu	atarẽ	atarẽ	ceremony	ceremony		5.8.3.1		0		
-48868	660	Idu	si-ba-ci aga a-ase-ga	si-ba-ci aga a-ase-ga	still birth	still birth		9.1.1		0		x
-48869	660	Idu	broto	broto	grave	grave		9.10.6		0		
-48870	660	Idu	embrõ-gu	embrõ-gu	structure on grave	structure on grave		9.10.6		0		
-48871	660	Idu	bro cayega aya ega	bro cayega aya ega	ceremony	ceremony		5.8.3.1		0		
-48872	660	Idu	si◦ba	si◦ba	death	death		1.1.6		0		27,s
-48873	660	Idu	i◦tʰũ	i◦tʰũ	corpse	corpse		1.1.6.1		0		p,23
-48874	660	Idu	itʰũ embrõ-mo kacã	itʰũ embrõ-mo kacã	burial	burial		6.2		0		
-48875	660	Idu	epra	epra	bier	bier		5.8.2.3		0		
-48876	660	Idu	bro-cayega aya-ega	bro-cayega aya-ega	ceremony	ceremony		5.8.3.1		0		
-48877	660	Idu	anjã-ga	anjã-ga	mourning	mourning		8.3.1.5.2		0		
-48878	660	Idu	apʰũ	apʰũ	ceremony	ceremony		5.8.3.1		0		
-48879	660	Idu	ahumu	ahumu	ceremony	ceremony		5.8.3.1		0		
-48880	660	Idu	guru mumu	guru mumu	ceremony	ceremony		5.8.3.1		0		
-48881	660	Idu	aŋ-gi-ga	aŋ-gi-ga	taboo	taboo		5.8		0		
-48882	660	Idu	õ su-na	õ su-na	on burning of house	on burning of house		10.1.1		0		
-48883	660	Idu	ekasuna	ekasuna	on death (drowning)	on death (drowning)		10.1.1		0		
-48884	660	Idu	iji-a-suna	iji-a-suna	on death (fall from tree)	on death (fall from tree)		10.1.1		0		
-48885	660	Idu	at-ĩ	at-ĩ	village	village		5.8		0		
-48886	660	Idu	atĩ-kõ ci imu	atĩ-kõ ci imu	villager	villager		4.4.2		0		
-48887	660	Idu	atĩ kʰe paci	atĩ kʰe paci	fellow-villager	fellow-villager		4.4.2		0		
-48888	660	Idu	karũ	karũ	outsider	outsider		4.4.3		0		
-48889	660	Idu	karũ	karũ	guest	guest		4.4.3		0		
-48890	660	Idu	atĩ pahiga	atĩ pahiga	village boundary	village boundary		5.8		0		
-48891	660	Idu	ayu-ca	ayu-ca	village elders	village elders		5.8		0		
-48892	660	Idu	gamu hetã	gamu hetã	village headman	village headman		5.8		0		bIndic,m
-48893	660	Idu	mere larũ	mere larũ	village guard	village guard		5.8		0		
-48894	660	Idu	asyu	asyu	crime	crime		6.4		0		
-48895	660	Idu	akuya	akuya	thief	thief		4.2.12.1		0		
-48896	660	Idu	imu seiga	imu seiga	murder	murder		6.4		0		
-48897	660	Idu	goso	goso	complaint	complaint		8.5.2.1		0		
-48898	660	Idu	se	se	case	case		5.11		0		
-48899	660	Idu	etʰose	etʰose	trial	trial		5.8		0		
-48900	660	Idu	etʰose	etʰose	enquiry	enquiry		8.5.7.1		0		
-48901	660	Idu	etʰose	etʰose	investigation	investigation		6.2.2.2		0		
-48902	660	Idu	rõ	rõ	arrest	arrest		6.19		0		
-48903	660	Idu	asʰu:tõ	asʰu:tõ	verdict	verdict		5.8		0		
-48904	660	Idu	atʰeya naba	atʰeya naba	acquittal	acquittal		8.3		0		
-48905	660	Idu	tʰruba	tʰruba	abscond	abscond		6.10.2		0		
-48906	660	Idu	tʰona	tʰona	prison	prison		5.11.9.1		0		
-48907	660	Idu	ta	ta	imprison	imprison		5.11.9.1		0		
-48908	660	Idu	anipi	anipi	fine	fine		9.7.2		0		
-48909	660	Idu	abwela	abwela	mediation	mediation		4.2.3		0		
-48910	660	Idu	paku	paku	land	land		3.2.5		0		
-48911	660	Idu	eya	eya	hill	hill		3.2.5		0		
-48912	660	Idu	aŋ-go	aŋ-go	ridge	ridge		3.2.5		0		
-48913	660	Idu	epokalarũ	epokalarũ	cave	cave		3.2.7		0		
-48914	660	Idu	mro	mro	valley	valley		3.2.5		0		
-48915	660	Idu	mraya	mraya	mountain range	mountain range		3.2.5		0		
-48916	660	Idu	eya rũdi	eya rũdi	peak	peak		9.10.5		0		
-48917	660	Idu	agu alo	agu alo	pass	pass		6.7.10		0		
-48918	660	Idu	ayu-ma	ayu-ma	slope	slope		3.2.5		0		
-48919	660	Idu	etosʰu	etosʰu	up	up		9.2.1		0		
-48920	660	Idu	ayuma	ayuma	down	down		9.2.2		0		
-48921	660	Idu	mrẽndo	mrẽndo	plains	plains		9.10.5		0		
-48922	660	Idu	maci	maci	river	river		3.2.3		0		
-48923	660	Idu	maci apra	maci apra	stream	stream		3.2.3		0		
-48925	660	Idu	maci ando	maci ando	waterfall	waterfall		3.2.3		0		
-48926	660	Idu	macigu	macigu	waterpoint	waterpoint		3.2.3		0		
-48927	660	Idu	kayayo ayayo	kayayo ayayo	rain	rain		3.2.1		0		
-48928	660	Idu	põ	põ	snow	snow		3.2.1		0		
-48929	660	Idu	macimbruga	macimbruga	flood	flood		3.2.3		0		
-48930	660	Idu	maci-wui	maci-wui	marsh	marsh		3.2.5		0		
-48931	660	Idu	ipupu	ipupu	rock	rock		3.2.9		0		
-48932	660	Idu	apikũ	apikũ	stand	stand		1.5.2		0		
-48933	660	Idu	ilikʰi	ilikʰi	clay	clay		3.2.11		0		
-48934	660	Idu	ilikʰi pra	ilikʰi pra	fertile land	fertile land		1.9		0		
-48935	660	Idu	i◦mu◦du	i◦mu◦du	sky	sky		3.2.2		0		
-48936	660	Idu	mato	mato	cloud	cloud		3.2.1		0		
-48937	660	Idu	a◦hu	ahu	rainbow	rainbow		3.2.1		0		p,6005
-48938	660	Idu	abrili	abrili	lightning	lightning		3.2.1		0		
-48939	660	Idu	arab-o	arab-o	thunder	thunder		3.2.1		0		
-48940	660	Idu	in-i	in-i	sun	sun		3.2.10		0		
-48941	660	Idu	in-i lõ	in-i lõ	sunrays	sunrays		3.2.10		0		
-48942	660	Idu	ti:	ti:	heat	heat		9.6.2		0		
-48943	660	Idu	jisi	jisi	cold	cold		7.1.2.3		0		
-48944	660	Idu	in-i lõmbi	in-i lõmbi	sunrise	sunrise		3.2.10		0		
-48945	660	Idu	in-i daba	in-i daba	sunset	sunset		3.2.10		0		
-48946	660	Idu	e◦la	e◦la	moon	moon		3.2.2		0		m,1016
-48947	660	Idu	elaŋ-go	elaŋ-go	moonlight	moonlight		3.2.10		0		
-48948	660	Idu	a◦ndi◦kru	a◦ndi◦kru	star	star		3.2.2		0		
-48949	660	Idu	in-i	in-i	day	day		1.5.3.2		0		
-48950	660	Idu	yama	yama	night	night		9.1.4		0		
-48951	660	Idu	a◦na◦ma	a◦na◦ma	morning	morning		9.1.4		0		p,6227
-48952	660	Idu	ãmbuni	ãmbuni	evening	evening		9.1.4		0		
-48953	660	Idu	katʰoro	katʰoro	summer	summer		3.2.1		0		
-48954	660	Idu	kapecã	kapecã	winter	winter		9.1.2		0		
-48955	660	Idu	ela	ela	month	month		9.1.2		0		
-48956	660	Idu	in-u	in-u	year	year		9.1.2		0		
-48957	660	Idu	ammeyã	ammeyã	air	air		1.1.2.2		0		x
-48958	660	Idu	ammeyã	ammeyã	wind	wind		3.2.1		0		
-48959	660	Idu	aloɲi ammeyã	aloɲi ammeyã	storm	storm		3.2.1		0		
-48960	660	Idu	kʰraga	kʰraga	sound	sound		9.3		0		
-48961	660	Idu	amruhu	amruhu	fire	fire		3.2.12.2		0		
-48963	660	Idu	tʰriga	tʰriga	spark	spark		3.2.12.2		0		
-48964	660	Idu	amiyu egõ	amiyu egõ	ash	ash		3.2.12.2		0		
-48965	660	Idu	egolo	egolo	ash	ash		3.2.12.2		0		
-48966	660	Idu	idikʰi	idikʰi	coal	coal		3.2.4		0		
-48967	660	Idu	atʰõ	atʰõ	fuel	fuel		3.2.4		0		
-48968	660	Idu	amruhu ami-hu	amruhu ami-hu	flame	flame		3.2.12.2		0		
-48969	660	Idu	am◦bre	am◦bre	animal	animal		2.3		0		p,37
-48970	660	Idu	õkoci am◦bre	õkoci am◦bre	domestic animal	domestic animal		2.3		0		m,p,37
-48971	660	Idu	amba-ci am◦bre	amba-ci am◦bre	wild animal	wild animal		3.2.5		0		m,m,p,37
-48972	660	Idu	macukru	macukru	cow	cow		2.1.2		0		
-48973	660	Idu	macu ari	macu ari	bull	bull		2.1.2		0		
-48974	660	Idu	macu-a	macu-a	calf	calf		1.5.7		0		
-48975	660	Idu	saba	saba	mithun bull	mithun bull		2.1.2		0		
-48976	660	Idu	sa-kru	sa-kru	mithun cow	mithun cow		2.1.2		0		
-48977	660	Idu	sa-a	sa-a	calf	calf		1.5.7		0		
-48978	660	Idu	i◦li-ari	i◦li-ari	pig	pig		2.1.12		0		p,6019,m,m
-48979	660	Idu	i◦li-kru	i◦li-kru	sow	sow		2.1.12		0		p,6019,m
-48980	660	Idu	i◦ku-ari	i◦ku-ari	dog	dog		2.1.11		0		p,1764,m
-48981	660	Idu	i◦ku-kru	i◦ku-kru	bitch	bitch		2.1.11		0		p,1764,m
-48982	660	Idu	majari	majari	cat	cat		2.1.3		0		b
-48983	660	Idu	marõ	ma◦rõ	horse / pony	horse  /  pony		2.1.7		0		1431
-48984	660	Idu	a◦mra	a◦mra	tiger	tiger		2.1.3		0		m,2618
-48985	660	Idu	ahũ	ahũ	bear	bear		2.2.3		0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+48348	660	Idu	aɲa-me	aɲa-me	family	family			4.7.5		0			
+48349	660	Idu	eba	eba	clan	clan			4.4.2		0			
+48350	660	Idu	kera-a	kera-a	tribe	tribe			4.4.2		0			
+48351	660	Idu	mosã-a	mosã-a	Abor	Abor					0			
+48352	660	Idu	keba-a	keba-a	Digaru, Miju	Digaru, Miju			4.6		0			
+48353	660	Idu	at-ĩ kʰepa	at-ĩ kʰepa	co-villager	co-villager			4.4.2		0			
+48354	660	Idu	at-u wui ici	at-u wui ici	neighbour	neighbour			4.4.2		0			
+48355	660	Idu	a mau ici	a mau ici	neighbour	neighbour			4.4.2		0			
+48356	660	Idu	meya	meya	man	man			1.9.6.1		0			m
+48357	660	Idu	yakũ	yakũ	woman	woman			1.9.3		0			m
+48358	660	Idu	ici	ici	husband	husband			4.7.4		0		z	
+48359	660	Idu	yakũ	yakũ	wife	wife			4.7.4		0			
+48360	660	Idu	ya	ya	wife	wife			4.7.4		0			
+48361	660	Idu	a meya	a meya	son	son			4.7.3		0			
+48362	660	Idu	a-miya	a-miya	daughter	daughter			4.7.3		0			
+48363	660	Idu	ayã	ayã	daughter	daughter			4.7.3		0			
+48364	660	Idu	na◦ba	na◦ba	father	father			4.7.1		0			x
+48365	660	Idu	nani	nani	mother	mother			4.7.1		0			
+48366	660	Idu	eme apuya	eme apuya	elder brother	elder brother			4.7.1		0			
+48367	660	Idu	atʰi apuya	atʰi apuya	elder sister	elder sister			4.7.1		0			
+48368	660	Idu	eme aliya	eme aliya	younger brother	younger brother					0			
+48369	660	Idu	atʰi aliya	atʰi aliya	younger sister	younger sister					0			
+48370	660	Idu	naba apuya	naba apuya	paternal uncle (elder)	paternal uncle (elder)			4.7.1		0			x
+48371	660	Idu	naba aliya	naba aliya	paternal uncle (younger)	paternal uncle (younger)			4.7.1		0			x
+48372	660	Idu	naku	naku	maternal uncle	maternal uncle			4.7.1		0			
+48373	660	Idu	emo	emo	husband of patern. aunt	husband of patern. aunt			4.7.4		0		z	
+48374	660	Idu	nani	nani	aunt	aunt			4.7.1		0			
+48375	660	Idu	nat-a	nat-a	grandfather	grandfather			4.7.1		0			
+48376	660	Idu	naya	naya	grandmother	grandmother			4.7.1		0			
+48377	660	Idu	ai-a	ai-a	grandson	grandson			4.7.3		0			
+48378	660	Idu	ai-a-miya	ai-a-miya	granddaughter	granddaughter			4.7.3		0			
+48379	660	Idu	a	a	brother's son	brother's son			1.5.3.2		0			
+48380	660	Idu	ad-u-meya	ad-u-meya	sister's son	sister's son			4.7.2		0			
+48381	660	Idu	a miya	a miya	brother's daughter	brother's daughter			1.5.3.2		0			
+48382	660	Idu	ad-u miya	ad-u miya	sister's daughter	sister's daughter			4.7.2		0			
+48383	660	Idu	ebra	ebra	father-in-law	father-in-law			4.7.4		0			x
+48384	660	Idu	ayu	ayu	mother-in-law	mother-in-law			4.7.4		0			
+48385	660	Idu	emo	emo	husband of wife's sister	husband of wife's sister			4.7.4		0		z	
+48386	660	Idu	inu	inu	wife's brother	wife's brother			1.5.3.2		0			
+48387	660	Idu	emo	emo	sister's husband	sister's husband			4.7.2		0		z	
+48388	660	Idu	en-a	en-a	sister-in-law	sister-in-law			4.7.4		0			
+48389	660	Idu	be-eya nat-a-naba	be-eya nat-a-naba	ancestor	ancestor					0			
+48390	660	Idu	tape higa	tape higa	heir	heir			4.2.8		0			
+48391	660	Idu	eba imu ici	eba imu ici	kinsman	kinsman			4.7.5		0			
+48392	660	Idu	eba-ya	eba-ya	kinswoman	kinswoman			4.7.5		0			
+48393	660	Idu	arõ	arõ	lover	lover			8.3.1.1.1		0			x
+48394	660	Idu	a mitu	a mitu	orphan	orphan			4.3		0			
+48395	660	Idu	arõ cʰiga	arõ cʰiga	friend	friend			4.4.2		0			
+48396	660	Idu	akʰu	akʰu	co-wife	co-wife			4.7.4		0			
+48397	660	Idu	meyẽ (meryẽ)	meyẽ (meryẽ)	enemy	enemy			4.2.6		0			
+48398	660	Idu	a	a	baby	baby			4.2.11		0			
+48399	660	Idu	ama sõ	ama sõ	child	child			1.5.3.2		0			
+48400	660	Idu	ataŋ-go masõ	ataŋ-go masõ	boy	boy			1.9.6.1		0			m,m,m
+48401	660	Idu	yakũ amasõ	yakũ amasõ	girl	girl			1.9.3		0			m,m
+48402	660	Idu	me ara	me ara	young man	young man			7.1.8.3		0			
+48403	660	Idu	aru-pi	aru-pi	young woman	young woman			7.1.8.3		0			
+48404	660	Idu	muru-pi	muru-pi	young woman	young woman			7.1.8.3		0			
+48405	660	Idu	me-ara masõ	me-ara masõ	man (adult)	man (adult)			1.9.6.1		0			m,m,m
+48406	660	Idu	ayuza masõ	ayuza masõ	woman (adult)	woman (adult)			1.9.3		0			m,m
+48407	660	Idu	meya mici pra	meya mici pra	old man	old man			7.1.8.3		0			
+48408	660	Idu	yakũ micipra	yakũ micipra	old woman	old woman			7.1.8.3		0			
+48409	660	Idu	ya bi gajimi	ya bi gajimi	bachelor	bachelor			4.2.8		0			
+48410	660	Idu	imu me bi lajimi	imu me bi lajimi	unmarried woman	unmarried woman			6.19		0			
+48411	660	Idu	aya	aya	maiden	maiden			4.2.8		0			
+48412	660	Idu	ya bihiba	ya bihiba	married man	married man			6.19		0			
+48413	660	Idu	ici-goba	ici-goba	married woman	married woman			6.19		0			
+48414	660	Idu	ya eso me	ya eso me	widow	widow			4.2.8		0			
+48415	660	Idu	ici siba	ici siba	widow	widow			4.2.8		0			
+48416	660	Idu	ici eso me	ici eso me	widower	widower			4.2.8		0			
+48417	660	Idu	ya-siba	ya-siba	widower	widower			4.2.8		0			
+48418	660	Idu	ibi ci-lane jiga	ibi ci-lane jiga	engaged	engaged			6.2.2.1		0			
+48419	660	Idu	ici awem-ba	ici awem-ba	divorced man	divorced man			6.19		0			
+48420	660	Idu	ya awem-ba	ya awem-ba	divorced woman	divorced woman			6.19		0			
+48421	660	Idu	imu	imu	man	man			1.9.6.1		0			m
+48422	660	Idu	jõ◦tã	jõ◦tã	body	body			1.1.1		0			4,6
+48423	660	Idu	i◦kri◦ya	i◦kri◦ya	head	head			1.2.1		0			p,1221,m
+48424	660	Idu	tʰrõm-bre	tʰrõm-bre	hair	hair			1.2.3		0			371,s
+48425	660	Idu	a◦pra◦ha	a◦pra◦ha	forehead	forehead			1.2.5.1		0			p,392,2027
+48426	660	Idu	e◦wẽ◦na	e◦wẽ◦na	face	face			1.2.5		0			p
+48427	660	Idu	e◦lõ◦na	e◦lõ◦na	face	face			1.2.5		0			p
+48428	660	Idu	e◦ko-be	e◦ko-be	mouth	mouth			1.3.1		0			p,468,2096
+48429	660	Idu	e◦lõ-bra	e◦lõ-bra	eye	eye			1.2.6		0			p,1427,m
+48430	660	Idu	elõn-dũ	elõn-dũ	pupil	pupil			1.2.6.2		0			m
+48431	660	Idu	e◦po◦mo	e◦po◦mo	eyebrow	eyebrow			1.2.6.6		0			p,m,363
+48432	660	Idu	a◦ko◦na	a◦ko◦na	ear	ear			1.2.7		0			p,817,811
+48433	660	Idu	e◦nam◦bõ	e◦nam◦bõ	nose	nose			1.2.8		0			p,803,806
+48434	660	Idu	e◦nam◦bõ-be	e◦nam◦bõ-be	nostril	nostril			1.2.8.1		0			p,803,806,810
+48435	660	Idu	enobru	enobru	upper lip	upper lip			9.2.1		0			
+48436	660	Idu	a◦ka◦bi	a◦ka◦bi	lower lip	lower lip					0		W	
+48437	660	Idu	e◦ro◦mo	e◦ro◦mo	moustache / beard	moustache / beard			1.2.5.5		0			p,1265,363
+48438	660	Idu	i◦li◦na	i◦li◦na	tongue	tongue			1.3.3		0			p,621,m
+48439	660	Idu	tã◦pra	tã◦pra	tooth	tooth			1.3.4		0			3316,m
+48440	660	Idu	tãm◦bro	tãm◦bro	tooth	tooth			1.3.4		0			3316,m
+48441	660	Idu	tã-so◦pu	tã-so◦pu	gums	gums			1.3.4.3		0			3316,m,m
+48442	660	Idu	ã◦pra	ã◦pra	jaw	jaw			1.2.5.2		0			p,264
+48443	660	Idu	e◦ta◦pʰu	e◦ta◦pʰu	chin	chin			1.2.5.3		0			p,286,m
+48444	660	Idu	e◦ta◦po	e◦ta◦po	chin	chin			1.2.5.3		0			p,286,m
+48445	660	Idu	a-ka	a-ka	palate	palate			1.3.1.1		0			
+48446	660	Idu	sem-bra	sem-bra	neck	neck			1.4.2		0			498,484
+48447	660	Idu	e◦ro-lõ	e◦ro-lõ	throat	throat			1.3.5		0			p,489,499
+48448	660	Idu	si-chi-ga-lo	si-chi-ga-lo	wind-pipe	wind-pipe			1.3.5.2		0			
+48449	660	Idu	i◦gu-ha	i◦gu-ha	back	back			1.4.8		0			
+48450	660	Idu	i◦sũŋ-gu◦mbõ	i◦sũŋ-gu◦mbõ	backbone	backbone			1.4.8.2		0			p,m,2254,m
+48451	660	Idu	i◦li◦pã	i◦li◦pã	shoulder	shoulder			1.4.3		0			p,563,1327
+48452	660	Idu	i◦tʰuŋ-gu	i◦tʰuŋ-gu	chest	chest			1.4.4.3		0			p,289,560
+48453	660	Idu	sub◦rup◦ra	sub◦rup◦ra	rib	rib			1.4.4.3		0			m,m,237
+48454	660	Idu	a◦po◦bra	a◦po◦bra	heart	heart			1.7.1		0			p,m,m
+48455	660	Idu	an-a pũ	an-a pũ	lungs	lungs			1.7.2		0			
+48456	660	Idu	nu◦pũ	nu◦pũ	breasts	breasts					0			253,3461
+48457	660	Idu	a◦kʰo◦mbrõ	a◦kʰo◦mbrõ	arm	arm			1.5.1.2		0			p,m,236
+48458	660	Idu	a◦kʰu-pũ	a◦kʰu-pũ	upper arm	upper arm			1.5.1.2.1		0			p,240,236
+48459	660	Idu	a◦kʰu sipra	a◦kʰu sipra	lower arm	lower arm					0		W	p,240,m
+48460	660	Idu	la◦ru◦mbõ	larumbõ	elbow	elbow			1.5.8.3		0			695,m,1469
+48461	660	Idu	azizimu	azizimu	wrist	wrist			1.5.8.1		0			
+48462	660	Idu	la◦pũ	la◦pũ	hand	hand			1.5.1.1		0			695,1327
+48463	660	Idu	lapũ	lapũ	palm	palm			1.5.5		0			
+48464	660	Idu	atosu	atosu	finger	finger			1.5.6		0			
+48465	660	Idu	atambõ	atambõ	thumb	thumb			1.5.6.1		0			
+48466	660	Idu	bu◦ci◦gã	bu◦ci◦gã	fist	fist			1.5.1.1.1		0			
+48467	660	Idu	ahokõ	ahokõ	nail	nail			1.5.10		0			
+48468	660	Idu	kʰe-ã◦põ	kʰe-ã◦põ	belly	belly			1.4.7		0			m,p,2111
+48469	660	Idu	eha◦pũ	eha◦pũ	abdomen	abdomen			1.4.7		0			m,2111
+48470	660	Idu	i◦ci-be	i◦ci-be	navel	navel			1.9.4		0			p,525,m
+48471	660	Idu	ya◦pu	ya◦pu	stomach	stomach			1.7.6		0			2119,2111
+48472	660	Idu	i◦mihũ	imihũ	liver	liver			1.7.3		0			p,1390
+48473	660	Idu	e◦co-bra	e◦co-bra	kidney	kidney			1.7.5		0			m,m,m
+48474	660	Idu	a◦tʰu-ku	a◦tʰu-ku	waist	waist			1.4.6		0			p,m,221
+48475	660	Idu	i◦pi◦pũ	i◦pi◦pũ	buttocks	buttocks			1.4.10		0			p,400,404
+48476	660	Idu	a-õta	a-õta	leg	leg			1.5.7		0			
+48477	660	Idu	aŋ-ge-sa	aŋ-ge-sa	leg	leg			1.5.7		0			p,338,m
+48478	660	Idu	anu-pũ	anu-pũ	thigh	thigh			1.5.7.1		0			
+48479	660	Idu	ambohã	ambohã	knee	knee			1.5.8.4		0			
+48480	660	Idu	brokʰri	brokʰri	ankle	ankle			1.5.8.2		0			
+48481	660	Idu	bra◦pa	bra◦pa	foot	foot			1.5.2		0			329,m
+48482	660	Idu	brudu	brudu	heel	heel			1.5.2.1		0			
+48483	660	Idu	atʰopa	atʰopa	toe	toe			1.5.6		0			
+48484	660	Idu	tʰa	tʰa	muscle	muscle			1.6.6.2		0			530
+48485	660	Idu	tʰẽ-pra	tʰẽ-pra	urine	urine			1.8.4		0			m,1731
+48486	660	Idu	kʰẽ-eh	kʰẽ-eh	excreta	excreta			1.8.5		0			
+48487	660	Idu	ti◦ci	ti◦ci	sweat	sweat			1.8.1		0			m,298
+48488	660	Idu	bu	bu	pus	pus			1.8.6.1		0			1293
+48489	660	Idu	bu◦mbro	bu◦mbro	pus	pus			1.8.6.1		0			1293,1292
+48490	660	Idu	i◦bi-bra	i◦bi-bra	tears	tears			1.2.6.7		0			p,187,m
+48491	660	Idu	so	so	fat	fat			1.6.4		0			60
+48492	660	Idu	iyu	iyu	blood	blood			1.6.2		0			230
+48493	660	Idu	e◦sa◦pã	e◦sa◦pã	vein	vein			1.6.2.1		0			p,530,m
+48494	660	Idu	ru◦ci	ru◦ci	bone	bone			1.6.3		0			232,m
+48495	660	Idu	si-ha-ga	si-ha-ga	breathe	breathe			1.1.2.2		0			32,1816,m
+48496	660	Idu	õ	õ	house	house			5.11.9.1		0			
+48497	660	Idu	õ-kõ	õ-kõ	house	house			5.11.9.1		0			
+48498	660	Idu	igu	igu	room	room			5.11.9.2		0			
+48499	660	Idu	apri	apri	partition	partition			6.10.2		0			
+48500	660	Idu	ap-i	ap-i	partition	partition			6.10.2		0			
+48501	660	Idu	jimo	jimo	floor	floor			5.11.9.3		0			
+48502	660	Idu	anje	anje	wall	wall			5.11.9.3		0			
+48503	660	Idu	ãti-ãŋ-go	ãti-ãŋ-go	roof	roof			5.11.9		0			
+48504	660	Idu	ãp-õ	ãp-õ	ceiling	ceiling			5.11.9.3.1		0			
+48505	660	Idu	cendo-pra	cendo-pra	corridor	corridor			5.11.9.3		0			
+48506	660	Idu	adaku	adaku	platform	platform			5.11		0			
+48507	660	Idu	haye-kõ	haye-kõ	hearth	hearth			5.11.9.3.1		0			
+48508	660	Idu	ego-kõ	ego-kõ	hearth	hearth			5.11.9.3.1		0			
+48509	660	Idu	kʰeta-kʰrõ	kʰeta-kʰrõ	latrine	latrine			5.11.9.2		0			
+48510	660	Idu	arokõ	arokõ	pigsty	pigsty			5.11.9.5		0			
+48511	660	Idu	atoyayi	atoyayi	poultry-yard	poultry-yard			5.11.9.5		0			
+48512	660	Idu	akʰolõ	akʰolõ	door	door			5.11.9.3		0			
+48513	660	Idu	do◦pʰrẽ	dopʰrẽ	ladder	ladder			5.4		0			m,6262
+48514	660	Idu	pʰro-di	pʰro-di	steps	steps			6.7.4		0			
+48515	660	Idu	a◦la-pra	a◦la-pra	stone	stone			3.2.9		0			p,1269,m
+48516	660	Idu	at-õ	at-õ	trays (over hearth)	trays (over hearth)			5.11		0			
+48517	660	Idu	at-õ-cã	at-õ-cã	trays (over hearth)	trays (over hearth)			5.11		0			
+48518	660	Idu	andũ	andũ	wall shelves	wall shelves			5.11.9.3		0			
+48519	660	Idu	acapu	acapu	wall shelves	wall shelves			5.11.9.3		0			
+48520	660	Idu	atya-tʰõ	atya-tʰõ	post (central)	post (central)			5.11		0			
+48521	660	Idu	amo	amo	post (side and corner)	post (side and corner)			5.11		0			
+48522	660	Idu	õtalãnda	õtalãnda	beam (under the floor)	beam (under the floor)			5.11.9		0			
+48523	660	Idu	apoko	apoko	beam (cross)	beam (cross)			5.11.9		0			
+48524	660	Idu	ako	ako	thatch	thatch			3.1.6.4		0			
+48525	660	Idu	laka	laka	thatch	thatch			3.1.6.4		0			
+48526	660	Idu	lapu	lapu	machang	machang					0			
+48527	660	Idu	aprõ	aprõ	mat	mat			5.11.9.4		0			
+48528	660	Idu	du◦ta◦ɲe	du◦ta◦ɲe	sitting blocks	sitting blocks			6.1.1.4.1		0			3602,m,m
+48529	660	Idu	jiogo	jiogo	sitting blocks	sitting blocks			6.1.1.4.1		0			
+48530	660	Idu	andrõŋ-ga	andrõŋ-ga	basket (large)	basket (large)			5.1		0			
+48531	660	Idu	et-tõ	et-tõ	basket (small)	basket (small)			5.1		0			
+48532	660	Idu	agra	agra	basket (for woman)	basket (for woman)			5.1		0			
+48533	660	Idu	asi-no	asi-no	basket (for woman)	basket (for woman)			5.1		0			
+48534	660	Idu	ependrõ	ependrõ	basket (for vegetable)	basket (for vegetable)			5.1		0			
+48535	660	Idu	ãnzõ	ãnzõ	basket (for storing)	basket (for storing)			5.1		0			
+48536	660	Idu	amozo	amozo	basket (for yarn)	basket (for yarn)			5.1		0			
+48537	660	Idu	ampo	ampo	basket (for yarn)	basket (for yarn)			5.1		0			
+48538	660	Idu	ã hẽpra	ã hẽpra	basket (for fish)	basket (for fish)			5.1		0			
+48539	660	Idu	aduku	aduku	for liquor	for liquor			10.1		0			
+48540	660	Idu	tago	tago	utensils	utensils			5.5		0			
+48541	660	Idu	hago	hago	utensils	utensils			5.5		0			
+48542	660	Idu	tagoya	tagoya	cooking pot	cooking pot			5.5		0			
+48543	660	Idu	sandipʰu	sandipʰu	frying pan	frying pan			5.5		0			
+48544	660	Idu	si-pʰu	si-pʰu	frying pan (iron pan)	frying pan (iron pan)			5.5		0			
+48545	660	Idu	aruku	aruku	dish	dish			5.5		0			
+48546	660	Idu	patika	patika	cup	cup			5.1		0			
+48547	660	Idu	ãotõ	ãotõ	chunga	chunga					0			
+48548	660	Idu	aci-phru	aci-phru	chunga (for water, beer)	chunga (for water, beer)			3.2.3		0			
+48549	660	Idu	ekala	ekala	chunga (for water, beer)	chunga (for water, beer)			3.2.3		0			
+48550	660	Idu	ekʰita	ekʰita	chunga (for water, beer)	chunga (for water, beer)			3.2.3		0			
+48551	660	Idu	ekala	ekala	bottle / jar	bottle / jar			5.1		0			
+48552	660	Idu	adupra	adupra	spoon / ladle	spoon / ladle			5.5		0			
+48553	660	Idu	atapra	atapra	prongs	prongs			5.1		0			
+48554	660	Idu	ekombõ	ekombõ	tripod (of stone)	tripod (of stone)			5.11.9.6		0			
+48555	660	Idu	sikombõ	sikombõ	tripod (of iron)	tripod (of iron)			5.11.9.6		0			
+48556	660	Idu	ihutõ	ihutõ	pestle	pestle			5.5		0			
+48557	660	Idu	elõbe	elõbe	mortar	mortar			5.5		0			
+48558	660	Idu	acʰika	acʰika	sieve	sieve			5.5		0			
+48559	660	Idu	epe	epe	window	window			5.11.9.3		0			
+48560	660	Idu	aji	aji	strainer	strainer			6.6		0			
+48561	660	Idu	kaji	kaji	strainer	strainer			6.6		0			
+48562	660	Idu	androhõ	androhõ	dress	dress			6.2.2.1		0			
+48563	660	Idu	apotolõ	apotolõ	hat	hat			5.11.8.2.1.1		0			
+48564	660	Idu	awẽtõ	awẽtõ	head dress of priest	head dress of priest			1.2.1		0			x
+48565	660	Idu	a◦mra◦lã	a◦mra◦lã	belt of tiger's teeth	belt of tiger's teeth			5.11.8.2.1.3		0			m,2618,m
+48566	660	Idu	etobula	etobula	coat (long white)	coat (long white)			5.11.8.2.1.2		0			
+48567	660	Idu	eto◦ti	etoti	short coat (black)	short coat (black)			9.7.2		0			m,7173
+48568	660	Idu	atʰu ambrã	atʰu ambrã	apron	apron			5.11.8.2.2		0			
+48569	660	Idu	i◦krui◦ya wi◦ga	i◦krui◦ya wi◦ga	headband	headband			5.11.8.2.1.1		0		z	p,1221,m,m,m
+48570	660	Idu	etõwe	etõwe	coat	coat			5.11.8.2.1.2		0			
+48571	660	Idu	elebu	elebu	raincoat	raincoat			5.11.8.2.2		0			
+48572	660	Idu	tʰu-wẽ	tʰu-wẽ	skirt	skirt			5.11.8.2.1		0			
+48573	660	Idu	lao hãsi	lao hãsi	loincloth	loincloth			5.11.8.2.1.3		0			
+48574	660	Idu	androhõ	androhõ	wrapper	wrapper			6.2.2.1		0			
+48575	660	Idu	idubu	idubu	blanket	blanket			5.11.9.4		0			
+48576	660	Idu	katʰu	katʰu	waistband	waistband			5.11.8.2.1.3		0			
+48577	660	Idu	apotolõ juhi	apotolõ juhi	helmet	helmet			5.15		0			
+48578	660	Idu	apẽ	apẽ	crossbelt	crossbelt					0			
+48579	660	Idu	tapẽ	tapẽ	crossbelt	crossbelt					0			
+48580	660	Idu	i◦lyi◦pra	ilyipra	bow	bow			5.15		0			p,2411,m
+48581	660	Idu	ipit a	ipit a	arrow	arrow			5.15		0			
+48582	660	Idu	mrela	mrela	arrow tip	arrow tip			5.15		0			
+48583	660	Idu	ela-ã	ela-ã	quiver	quiver			6.7.4		0			
+48584	660	Idu	ali	ali	shield	shield			5.15		0			
+48585	660	Idu	ap a	ap a	spear	spear			5.14		0			
+48586	660	Idu	ambepra	ambepra	dao	dao					0			
+48587	660	Idu	era-a	era-a	dao	dao					0			
+48588	660	Idu	ẽce	ẽce	dao	dao					0			
+48589	660	Idu	ebro	ebro	scabbard	scabbard			5.15		0			
+48590	660	Idu	raja	raja	bells	bells			5.1		0			
+48591	660	Idu	kʰõndã	kʰõndã	cymbals	cymbals			5.1		0			
+48592	660	Idu	tʰõ◦guru	tʰõ◦guru	hair-knot	hair-knot			1.2.3.2		0			371,m
+48593	660	Idu	etʰrẽ	etʰrẽ	comb	comb			1.2.2.1		0			m
+48594	660	Idu	arobra	arobra	pin (of bamboo)	pin (of bamboo)			5.11.9		0			
+48595	660	Idu	ataru	ataru	pin (of ivory)	pin (of ivory)			5.11.9		0			
+48596	660	Idu	tʰoce	tʰoce	string (for tying hair)	string (for tying hair)			5.1		0			x
+48597	660	Idu	andesi	andesi	earring	earring			5.11.8.3		0			
+48598	660	Idu	akokʰre	akokʰre	earring	earring			5.11.8.3		0			
+48599	660	Idu	akosu	akosu	bamboo plug	bamboo plug			3.1.1		0			
+48600	660	Idu	lekepo	lekepo	bead	bead			5.11.8.3		0			
+48601	660	Idu	sakapo	sakapo	bead	bead			5.11.8.3		0			
+48602	660	Idu	arulo	arulo	bead	bead			5.11.8.3		0			
+48603	660	Idu	anne	anne	bead necklaces	bead necklaces			5.11.8.3		0			
+48604	660	Idu	aũ-kunzũ	aũ-kunzũ	locket	locket			5.11.8.3		0			
+48605	660	Idu	au-kawu	au-kawu	locket	locket			5.11.8.3		0			
+48606	660	Idu	azi-bru	azi-bru	bangle	bangle			5.11.8.3		0			
+48607	660	Idu	at-ã-so	at-ã-so	finger ring	finger ring			1.5.6		0			
+48608	660	Idu	dekʰe	dekʰe	girdle (v. young girls)	girdle (v. young girls)			5.11.8.2.1.3		0			
+48609	660	Idu	akuci	akuci	bag	bag					0			
+48610	660	Idu	da-pʰu	da-pʰu	pipe	pipe			5.8		0			
+48611	660	Idu	ayã-prã	ayã-prã	fan	fan			5.4		0			
+48612	660	Idu	atabraya	atabraya	stick	stick			3.1.2		0			
+48613	660	Idu	ig-u:	ig-u:	umbrella	umbrella			5.11.8.2.2		0			
+48614	660	Idu	ke-ku	ke-ku	rice	rice			3.1.4		0			
+48615	660	Idu	atã	atã	cooked rice	cooked rice			5.5		0			
+48616	660	Idu	ketõ	ketõ	parched rice	parched rice			6.6		0			
+48617	660	Idu	atã mulu	atã mulu	gruel	gruel			5.5		0			
+48618	660	Idu	ketʰa	ketʰa	bread	bread			5.5		0			
+48619	660	Idu	atã-ga	atã-ga	dough	dough			5.5		0			
+48620	660	Idu	atã-la	atã-la	dough	dough			5.5		0			
+48621	660	Idu	ke-lombri	ke-lombri	porridge	porridge			5.5		0			
+48622	660	Idu	pa	pa	cake	cake			5.5		0			
+48623	660	Idu	ci	ci	soup	soup			5.5		0			
+48624	660	Idu	tam◦bre-ci	tam◦bre-ci	meat soup	meat soup			1.1.1.1		0			47,37,m
+48625	660	Idu	ana-ci	ana-ci	vegetable soup	vegetable soup			3.1.2		0			
+48626	660	Idu	tam◦bre	tam◦bre	meat	meat			1.1.1.1		0		D1	47,37
+48627	660	Idu	a◦ŋa	a◦ŋa	fish	fish			2.2.5		0			p,1455
+48628	660	Idu	mu-la	mu-la	roast	roast			5.5		0			
+48629	660	Idu	eb-a-la	eb-a-la	bake	bake			5.5		0			
+48630	660	Idu	anapra	anapra	vegetable	vegetable			3.1.2		0			
+48631	660	Idu	pu	pu	laisag, pumpkin, gourd	laisag, pumpkin, gourd			3.1.6.4		0			5797
+48632	660	Idu	ce◦ka◦pu	cekapu	gourd (red)	gourd (red)			3.1.6.4		0			m,m,5797
+48633	660	Idu	aŋu-pu	aŋu-pu	white gourd	white gourd			9.4		0		E	e,m,5797
+48634	660	Idu	eka◦pu	ekapu	long gourd	long gourd			9.7.2		0			m,5797
+48635	660	Idu	anji-pu	anji-pu	cucumber	cucumber			3.1.5		0			
+48636	660	Idu	padi-bru	padi-bru	brinjal (=eggplant)	brinjal (=eggplant)			3.1.5		0			
+48637	660	Idu	geisi	geisi	potato	potato			3.1.5		0			
+48638	660	Idu	geja	geja	sweet potato	sweet potato			7.1.4.4		0			
+48639	660	Idu	apapu	apapu	plantain flower	plantain flower			3.1.5		0			
+48640	660	Idu	nuku	nuku	plantain pith	plantain pith			3.1.5		0			
+48641	660	Idu	andeyẽ	andeyẽ	bean	bean			3.1.4		0			
+48642	660	Idu	andowe	andowe	bean	bean			3.1.4		0			
+48643	660	Idu	sõ-na	sõ-na	arum	arum			3.1.8		0			
+48644	660	Idu	prã	prã	salt	salt			3.2.4		0			
+48645	660	Idu	mirci	mirci	pepper (chilli)	pepper (chilli)			3.1.5		0			bIndic
+48646	660	Idu	e◦lõm◦pra	elõmpra	onion	onion			3.1.5		0			
+48647	660	Idu	anjita	anjita	ginger	ginger			3.1.5		0			
+48648	660	Idu	asisi	asisi	fruit	fruit			3.1.5		0			
+48649	660	Idu	enjopu	enjopu	jackfruit	jackfruit			3.1.5		0			
+48650	660	Idu	ajibru	ajibru	plantain	plantain			3.1.5		0			
+48651	660	Idu	tupurisi	tupurisi	orange	orange			3.1.5		0			
+48652	660	Idu	injusi	injusi	mango	mango					0			
+48653	660	Idu	rupoto	rupoto	sugar-cane	sugar-cane			3.1.6.2		0			
+48654	660	Idu	pasipu	pasipu	lemon	lemon			3.1.5		0			
+48655	660	Idu	e◦to-cu	e◦to-cu	egg	egg					0			p,1609,3436
+48657	660	Idu	a◦nga	a◦nga	fish	fish			2.2.5		0			p,1455
+48658	660	Idu	sini	sini	sugar	sugar			3.1.6.2		0			b
+48659	660	Idu	tu◦ci	tu◦ci	mustard oil	mustard oil			3.1.4		0			m,48
+48660	660	Idu	iyu	iyu	beer	beer			3.1.6.3		0			
+48661	660	Idu	yu	yu	beer	beer			3.1.6.3		0			
+48662	660	Idu	maci	maci	water	water			3.2.3		0		D1	
+48663	660	Idu	yu-ara	yu-ara	spirit	spirit			5.8.1.1		0			
+48664	660	Idu	yu arakõ	yu arakõ	brewing	brewing			5.5		0			
+48665	660	Idu	sã	sã	tea	tea			3.1.1		0			
+48666	660	Idu	ami-kʰu	ami-kʰu	smoke	smoke			3.2.12.2		0		D1	
+48667	660	Idu	dana	dana	tobacco leaves	tobacco leaves			3.1.6.2		0			
+48668	660	Idu	kʰanu	kʰanu	opium	opium			3.1.6.2		0			
+48669	660	Idu	poci-na	poci-na	betel leaf	betel leaf			3.1.4		0			
+48670	660	Idu	geosi	geosi	areca-nut	areca-nut			3.1.1		0			
+48671	660	Idu	geo-bra	geo-bra	areca-nut	areca-nut			3.1.1		0			
+48672	660	Idu	pomoko	pomoko	chhali	chhali					0			
+48673	660	Idu	cinu	cinu	chun (lime)	chun (lime)			3.1.5		0			
+48674	660	Idu	hãjitega ahumoga	hãjitega ahumoga	feast	feast			5.5		0			
+48675	660	Idu	sʰu:	sʰu:	sweet	sweet			7.1.4.4		0			
+48676	660	Idu	ka	ka	bitter	bitter			7.1.4.4		0			229
+48677	660	Idu	ti:-kʰu	ti:-kʰu	hot	hot					0			
+48678	660	Idu	sʰru	sʰru	sour	sour			7.1.4.4		0			6406
+48679	660	Idu	hoi	hoi	pungent	pungent			7.1.4.5		0			
+48680	660	Idu	akataci	akataci	brackish	brackish			7.1.4.4		0			
+48681	660	Idu	ha	ha	eat	eat			1.5.3.2		0			3414
+48682	660	Idu	tõ	tõ	drink	drink					0			502
+48683	660	Idu	ha◦ma	ha◦ma	chew	chew			1.3.4		0			m,m
+48684	660	Idu	do◦ga	do◦ga	suck	suck			1.3.2.1		0			3466,m
+48685	660	Idu	em◦bre◦ga	em◦bre◦ga	disease	disease			1.1.5.1		0			m,m,m
+48686	660	Idu	ta◦ma	tama	medicine	medicine			5.4		0			p,5434
+48687	660	Idu	ŋi	ŋi	fever	fever			1.1.5.1		0			
+48688	660	Idu	masu-ŋi	masu-ŋi	influenza	influenza			5.3		0			
+48689	660	Idu	tʰra-hiba	tʰra-hiba	pneumonia	pneumonia			5.3		0			
+48690	660	Idu	masu	masu	bad cold	bad cold			9.6.2.1		0			
+48691	660	Idu	yã-a	yã-a	dysentry	dysentry			1.1.5.1		0			
+48692	660	Idu	kʰrepõ embrega	kʰrepõ embrega	diarrhea	diarrhea			1.8.5		0			
+48693	660	Idu	akubra	akubra	pimple	pimple			1.6.5.3		0			
+48694	660	Idu	malu	malu	boil	boil	n.	n.	6.6		0			
+48695	660	Idu	yagu	yagu	wound	wound			1.8.6.2		0			
+48696	660	Idu	anosu	anosu	chicken pox	chicken pox			2.1.10		0			
+48697	660	Idu	bro	bro	smallpox	smallpox			5.3		0			
+48698	660	Idu	acũ	acũ	measles	measles			5.3		0			
+48699	660	Idu	cidigilya	cidigilya	leprosy	leprosy			5.3		0			
+48700	660	Idu	kaneko	kaneko	goitre	goitre					0			
+48701	660	Idu	eloma	eloma	blindness	blindness			1.2.6.14.2		0			
+48702	660	Idu	ahũ kʰroi	ahũ kʰroi	deafness	deafness			1.2.7.5		0			
+48703	660	Idu	kapa	kapa	deaf and dumb	deaf and dumb			1.2.7.5		0			
+48704	660	Idu	ɲa	ɲa	pain	pain			1.1.5.1		0			
+48705	660	Idu	tʰo-ɲaga	tʰo-ɲaga	muscular pain	muscular pain			1.6.6.2		0			
+48706	660	Idu	a-ɲa-ga	a-ɲa-ga	labour pain	labour pain			6.1.1		0			
+48707	660	Idu	tã ɲaga	tã ɲaga	toothache	toothache			1.3.4		0			3316,m
+48708	660	Idu	i◦ku◦ji	i◦ku◦ji	headache	headache			1.2.1		0			p,1221,m
+48709	660	Idu	yãsuga	yãsuga	stomachache	stomachache			1.7.6		0			
+48710	660	Idu	taruga	taruga	ringworm	ringworm			2.2.6		0			
+48711	660	Idu	akũji	akũji	worm	worm			2.2.6		0			
+48712	660	Idu	me	me	vomiting	vomiting			1.8.3.2		0			
+48713	660	Idu	maso	maso	scabies	scabies			1.6.5		0			1457*
+48714	660	Idu	duba	duba	fracture	fracture			1.6.3		0			
+48715	660	Idu	tama cʰu	tama cʰu	ointment	ointment			5.4		0			
+48716	660	Idu	tamabra	tamabra	pill	pill					0			
+48717	660	Idu	tama aluga	tama aluga	mixture	mixture			6.13.4		0			
+48718	660	Idu	arõ	arõ	mishmi teeta	mishmi teeta			4.6		0			
+48719	660	Idu	paku	paku	agricult. cultivation	agricult. cultivation			3.1.10		0			
+48720	660	Idu	maci mrã	maci mrã	wet rice cultivation	wet rice cultivation			6.6		0			
+48721	660	Idu	paku	paku	field	field			3.2.5		0			
+48722	660	Idu	mrã	mrã	jhum	jhum					0			
+48723	660	Idu	ambẽ	ambẽ	jungle	jungle			3.2.5		0			
+48724	660	Idu	aran-a	aran-a	fallow land	fallow land			3.2.11		0			
+48725	660	Idu	karõ pʰriga	karõ pʰriga	burning the jungle	burning the jungle			3.2.12.1		0			
+48726	660	Idu	ilipikuga	ilipikuga	hoeing	hoeing			5.1		0			
+48727	660	Idu	maci-ta	maci-ta	damming	damming			9.10.2		0			
+48728	660	Idu	ke-triga	ke-triga	reaping	reaping			3.1.10		0			
+48729	660	Idu	ke-sʰiga	ke-sʰiga	harvesting	harvesting			3.1.10		0			
+48730	660	Idu	erõte	erõte	storing	storing			9.10.6		0			
+48731	660	Idu	maci-alo	maci-alo	irrigation	irrigation			6.6		0			
+48732	660	Idu	pi	pi	digging	digging			6.11		0			
+48733	660	Idu	alici-e	alici-e	weeding	weeding			3.1.7		0			
+48734	660	Idu	kiliã-tabrã	kiliã-tabrã	stick (for sowing)	stick (for sowing)			3.1.2		0			
+48735	660	Idu	tab-u	tab-u	hoe	hoe			5.3		0			
+48736	660	Idu	jelõpra	jelõpra	spade	spade			5.3		0			
+48737	660	Idu	epa	epa	axe	axe			5.11.5.3		0			
+48738	660	Idu	e-a-a ẽy-ecẽ	e-a-a ẽy-ecẽ	dao	dao					0			
+48739	660	Idu	kalãpõ	kalãpõ	plough	plough			5.3		0			
+48740	660	Idu	are sopra	are sopra	khurpi	khurpi					0			
+48741	660	Idu	ke-bra	ke-bra	paddy	paddy			9.10.5		0			
+48742	660	Idu	ambõ	ambõ	maize	maize			3.1.5		0			
+48743	660	Idu	yamba	yamba	millet (kodo)	millet (kodo)			1.5.3.2		0			
+48744	660	Idu	lĩ	lĩ	seed	seed			3.1.4		0			3560
+48745	660	Idu	bra-a	bra-a	seedlings	seedlings			3.1.8		0			
+48746	660	Idu	ilikʰi	ilikʰi	soil	soil			3.2.11		0			
+48747	660	Idu	aka	aka	granary	granary			5.11.9.5		0			
+48748	660	Idu	paku jõya-me	paku jõya-me	cultivator	cultivator			3.1.10		0			
+48749	660	Idu	ã cita	ã cita	loom (weaving)	loom (weaving)			5.1		0			
+48750	660	Idu	abipra	abipra	shuttle (weaving)	shuttle (weaving)			5.1		0			
+48751	660	Idu	abru bru	abru bru	slay (weaving)	slay (weaving)			6.4		0			
+48752	660	Idu	asa	asa	yarn	yarn			5.1		0			
+48753	660	Idu	na◦mbra	nambra	thread	thread			5.11.6		0			m,193
+48754	660	Idu	ape	ape	cotton	cotton			5.1		0			
+48755	660	Idu	ema	ema	wool	wool			1.6.1.3		0			m
+48756	660	Idu	sega	sega	spinning	spinning			6.7.6		0			
+48757	660	Idu	nata tagõ	nata tagõ	wheel	wheel			5.1		0			
+48758	660	Idu	nambro	nambro	spindle	spindle			5.1		0			
+48759	660	Idu	androhõ	androhõ	cloth	cloth			5.1		0			
+48760	660	Idu	ema◦ndrohõ	ema◦ndrohõ	woollen cloth	woollen cloth			5.1		0			m,m
+48761	660	Idu	zo	zo	design	design			8.3		0			
+48762	660	Idu	abrila	abrila	border	border			9.2.7		0			
+48763	660	Idu	atya yakũ	atya yakũ	weaver (a woman)	weaver (a woman)			5.1		0			
+48764	660	Idu	taroga	taroga	sewing	sewing			5.1		0			
+48765	660	Idu	akʰra	akʰra	needle	needle			5.1		0			
+48766	660	Idu	agõ	agõ	needle	needle			5.1		0			
+48767	660	Idu	lisihi	lisihi	scissors	scissors			5.11.5.3		0			
+48768	660	Idu	erõ	erõ	dyes	dyes			5.1		0			
+48769	660	Idu	alabra suko	alabra suko	cane work	cane work			5.11.8.2.2		0			
+48770	660	Idu	era a cikʰi	era a cikʰi	small knife	small knife			9.7.2		0			x
+48771	660	Idu	asipra pi	asipra pi	carpentry	carpentry			4.2.1.4		0			
+48772	660	Idu	atui	atui	hammer	hammer			5.11.5.4		0			
+48773	660	Idu	asi ŋene wẽya	asi ŋene wẽya	saw	saw			5.11.5.3		0			
+48774	660	Idu	asi cune wẽya	asi cune wẽya	chisel	chisel			5.11.5.3		0			
+48775	660	Idu	asipra asunewẽya	asipra asunewẽya	plane	plane			5.1		0			
+48776	660	Idu	lo newẽya	lo newẽya	drill	drill			6.11		0			
+48777	660	Idu	chuga	chuga	painting	painting			5.8		0			
+48778	660	Idu	asipra piya imu	asipra piya imu	carpenter	carpenter			4.2.1.4		0			
+48779	660	Idu	atomu	atomu	smithy	smithy			4.2.1.4		0			
+48780	660	Idu	si atoya imu	si atoya imu	blacksmith	blacksmith			4.2.1.4		0			
+48781	660	Idu	pudi atoya imu	pudi atoya imu	goldsmith	goldsmith			4.2.1.4		0			
+48782	660	Idu	atopra	atopra	anvil	anvil			5.1		0			
+48783	660	Idu	si-atapra	si-atapra	pincer	pincer					0			
+48784	660	Idu	ahorõ	ahorõ	bellows	bellows			5.11.5.5		0			
+48785	660	Idu	da	da	debt	debt			5.9		0			
+48786	660	Idu	awa	awa	debt	debt			5.9		0			
+48787	660	Idu	loya imu	loya imu	customer	customer			4.2.3		0			
+48788	660	Idu	awa kʰaya imu	awa kʰaya imu	creditor	creditor			6.19		0			
+48789	660	Idu	aweya imu	aweya imu	debtor	debtor			5.9		0			
+48790	660	Idu	aru haga	aru haga	let out on hire	let out on hire			6.19		0			
+48791	660	Idu	kotoki	kotoki	interpreter	interpreter			8.3		0			
+48792	660	Idu	dukani	dukani	shop	shop			9.10.6		0			
+48793	660	Idu	dukani atʰuya imu	dukani atʰuya imu	shop-keeper	shop-keeper			9.10.6		0			
+48794	660	Idu	abicʰi ga amme-ega	abicʰi ga amme-ega	sell	sell			6.22		0			
+48795	660	Idu	loga	loga	guy	guy			4.5		0			
+48796	660	Idu	re	re	price	price			5.9		0			6584
+48797	660	Idu	am e	am e	price	price			5.9		0			
+48798	660	Idu	paũ	paũ	money	money			5.9		0			
+48799	660	Idu	iyuaga	iyuaga	barter	barter			6.22		0			
+48800	660	Idu	mere	mere	enemy	enemy			4.2.6		0			
+48801	660	Idu	meye	meye	enemy	enemy			4.2.6		0			
+48802	660	Idu	ãndoga	ãndoga	war	war			5.15		0			
+48803	660	Idu	jĩga	jĩga	attack	attack			6.5		0			
+48804	660	Idu	rucuko geba	rucuko geba	retreat	retreat			6.7.2		0			
+48805	660	Idu	ãndoda	ãndoda	reprisal	reprisal			6.22		0			
+48806	660	Idu	mere loga	mere loga	ambush	ambush			6.5		0			
+48807	660	Idu	larũ gaga	larũ gaga	vigilance, defence	vigilance, defence			6.1.1		0			
+48808	660	Idu	ayone jiga	ayone jiga	surrender	surrender			6.19		0			
+48809	660	Idu	canage	canage	ransom	ransom			5.9		0			
+48810	660	Idu	het-a	het-a	captain, leader	captain, leader			4.2.6		0			
+48811	660	Idu	poga roga etʰondo landõ	poga roga etʰondo landõ	peace	peace			5.8		0			
+48812	660	Idu	ayoga	ayoga	defeat	defeat			6.5		0			
+48813	660	Idu	aɲega	aɲega	victory	victory			6.5		0			
+48814	660	Idu	tek-o	tek-o	fishing	fishing			2.2.5		0			
+48815	660	Idu	sya	sya	fishing net	fishing net			2.2.5		0			
+48816	660	Idu	etʰo	etʰo	fishing net	fishing net			2.2.5		0			
+48817	660	Idu	tʰa	tʰa	fishing trap	fishing trap			2.2.5		0			
+48818	660	Idu	irĩ-op-o	irĩ-op-o	fishing rod	fishing rod			2.2.5		0			
+48819	660	Idu	irĩ ace	irĩ ace	fishing line	fishing line			2.2.5		0			
+48820	660	Idu	irĩ	irĩ	fishing hook	fishing hook			2.2.5		0			
+48821	660	Idu	tane	tane	fishing bait	fishing bait			2.2.5		0		z	
+48822	660	Idu	rõ	rõ	fishing boat	fishing boat			2.2.5		0			
+48823	660	Idu	rõ lubu	rõ lubu	fishing oar	fishing oar			2.2.5		0			
+48824	660	Idu	aŋa rõya imu	aŋa rõya imu	fisherman	fisherman			4.2.1.1		0			
+48825	660	Idu	ambre il ĩga	ambre il ĩga	hunting	hunting			6.2.2.1		0			
+48826	660	Idu	jõya imu	jõya imu	labourer	labourer			6.1.1		0			
+48827	660	Idu	epo	epo	servant	servant			4.2.10		0			
+48828	660	Idu	agu giya imu	agu giya imu	porter	porter			4.2.1		0			
+48829	660	Idu	porhi-õ	porhi-õ	school	school			5.8		0			
+48830	660	Idu	naga	naga	dance	dance			6.7.9		0			
+48831	660	Idu	igu	igu	song	song			5.1		0			
+48832	660	Idu	erambõ	erambõ	drum	drum			5.1		0			
+48833	660	Idu	kʰonda	kʰonda	cymbal	cymbal			5.1		0			
+48834	660	Idu	raja	raja	bell	bell			5.1		0			
+48835	660	Idu	iguga	iguga	chant	chant			5.1		0			
+48836	660	Idu	ahũda	ahũda	faith	faith			8.3.1.15		0			
+48837	660	Idu	dunikiki	dunikiki	purity	purity			9.6.1.1		0			
+48838	660	Idu	megra	megra	soul	soul			1.10		0			
+48839	660	Idu	ase-ũ	ase-ũ	abode of the dead	abode of the dead			5.11.9.6		0			
+48840	660	Idu	lupũ	lupũ	for the good	for the good			10.1		0			
+48841	660	Idu	kʰin-u	kʰin-u	spirit, ghost	spirit, ghost			5.8.1.1		0			
+48842	660	Idu	kʰin-u me huimu	kʰin-u me huimu	possessed	possessed			8.2		0			
+48843	660	Idu	igu me tʰuga	igu me tʰuga	magic	magic			5.8.3.2		0			
+48844	660	Idu	kʰin u medkõ	kʰin u medkõ	beneficent (of house)	beneficent (of house)					0			
+48845	660	Idu	apẽ sa miya	apẽ sa miya	beneficent (of agriculture)	beneficent (of agriculture)					0			
+48846	660	Idu	asʰã dorme	asʰã dorme	beneficent (of wealth)	beneficent (of wealth)					0			
+48847	660	Idu	aso soru	aso soru	beneficent (of creation )	beneficent (of creation )					0			
+48848	660	Idu	asʰa kʰin-u	asʰa kʰin-u	malevolent(of jungle)	malevolent(of jungle)			6.4		0			
+48849	660	Idu	golõ kʰin-u	golõ kʰin-u	malevolent (of mountain)	malevolent (of mountain)			6.4		0			
+48850	660	Idu	bruru kʰin-u	bruru kʰin-u	malevolent (of water)	malevolent (of water)			6.4		0			
+48851	660	Idu	iɲi alapʰi	iɲi alapʰi	malevolent (of destruction)	malevolent (of destruction)			6.4		0			
+48852	660	Idu	aruya	aruya	malevolent (of war)	malevolent (of war)			6.4		0			
+48853	660	Idu	ayiga	ayiga	propitiation	propitiation			6.19		0			
+48854	660	Idu	ammeya amisʰu	ammeya amisʰu	offerings	offerings			5.8.2.3		0			
+48855	660	Idu	esala	esala	omen	omen			5.8.3.2		0			
+48856	660	Idu	igu	igu	priest	priest			4.2.4		0			
+48857	660	Idu	iguna	iguna	chief priest	chief priest			4.2.5.2		0			
+48858	660	Idu	tamro	tamro	assistant priest	assistant priest			6.20		0			
+48859	660	Idu	briga	briga	marriage	marriage			5.8		0			
+48860	660	Idu	amesʰa atawe	amesʰa atawe	marriage feast	marriage feast			5.8		0			
+48861	660	Idu	rui sʰimida	rui sʰimida	select	select			6.10.4		0			
+48862	660	Idu	yakũ lobru	yakũ lobru	bride price	bride price			4.2.8		0			
+48863	660	Idu	ahelaya abwe cʰiya	ahelaya abwe cʰiya	negotiator	negotiator			5.8		0			
+48864	660	Idu	ahela	ahela	proposal	proposal			8.5.14.1		0			
+48865	660	Idu	abwe jaba	abwe jaba	divorce	divorce			5.8		0			
+48866	660	Idu	lorõ	lorõ	ceremony	ceremony			5.8.3.1		0			
+48867	660	Idu	atarẽ	atarẽ	ceremony	ceremony			5.8.3.1		0			
+48868	660	Idu	si-ba-ci aga a-ase-ga	si-ba-ci aga a-ase-ga	still birth	still birth			9.1.1		0			x
+48869	660	Idu	broto	broto	grave	grave			9.10.6		0			
+48870	660	Idu	embrõ-gu	embrõ-gu	structure on grave	structure on grave			9.10.6		0			
+48871	660	Idu	bro cayega aya ega	bro cayega aya ega	ceremony	ceremony			5.8.3.1		0			
+48872	660	Idu	si◦ba	si◦ba	death	death			1.1.6		0			27,s
+48873	660	Idu	i◦tʰũ	i◦tʰũ	corpse	corpse			1.1.6.1		0			p,23
+48874	660	Idu	itʰũ embrõ-mo kacã	itʰũ embrõ-mo kacã	burial	burial			6.2		0			
+48875	660	Idu	epra	epra	bier	bier			5.8.2.3		0			
+48876	660	Idu	bro-cayega aya-ega	bro-cayega aya-ega	ceremony	ceremony			5.8.3.1		0			
+48877	660	Idu	anjã-ga	anjã-ga	mourning	mourning			8.3.1.5.2		0			
+48878	660	Idu	apʰũ	apʰũ	ceremony	ceremony			5.8.3.1		0			
+48879	660	Idu	ahumu	ahumu	ceremony	ceremony			5.8.3.1		0			
+48880	660	Idu	guru mumu	guru mumu	ceremony	ceremony			5.8.3.1		0			
+48881	660	Idu	aŋ-gi-ga	aŋ-gi-ga	taboo	taboo			5.8		0			
+48882	660	Idu	õ su-na	õ su-na	on burning of house	on burning of house			10.1.1		0			
+48883	660	Idu	ekasuna	ekasuna	on death (drowning)	on death (drowning)			10.1.1		0			
+48884	660	Idu	iji-a-suna	iji-a-suna	on death (fall from tree)	on death (fall from tree)			10.1.1		0			
+48885	660	Idu	at-ĩ	at-ĩ	village	village			5.8		0			
+48886	660	Idu	atĩ-kõ ci imu	atĩ-kõ ci imu	villager	villager			4.4.2		0			
+48887	660	Idu	atĩ kʰe paci	atĩ kʰe paci	fellow-villager	fellow-villager			4.4.2		0			
+48888	660	Idu	karũ	karũ	outsider	outsider			4.4.3		0			
+48889	660	Idu	karũ	karũ	guest	guest			4.4.3		0			
+48890	660	Idu	atĩ pahiga	atĩ pahiga	village boundary	village boundary			5.8		0			
+48891	660	Idu	ayu-ca	ayu-ca	village elders	village elders			5.8		0			
+48892	660	Idu	gamu hetã	gamu hetã	village headman	village headman			5.8		0			bIndic,m
+48893	660	Idu	mere larũ	mere larũ	village guard	village guard			5.8		0			
+48894	660	Idu	asyu	asyu	crime	crime			6.4		0			
+48895	660	Idu	akuya	akuya	thief	thief			4.2.12.1		0			
+48896	660	Idu	imu seiga	imu seiga	murder	murder			6.4		0			
+48897	660	Idu	goso	goso	complaint	complaint			8.5.2.1		0			
+48898	660	Idu	se	se	case	case			5.11		0			
+48899	660	Idu	etʰose	etʰose	trial	trial			5.8		0			
+48900	660	Idu	etʰose	etʰose	enquiry	enquiry			8.5.7.1		0			
+48901	660	Idu	etʰose	etʰose	investigation	investigation			6.2.2.2		0			
+48902	660	Idu	rõ	rõ	arrest	arrest			6.19		0			
+48903	660	Idu	asʰu:tõ	asʰu:tõ	verdict	verdict			5.8		0			
+48904	660	Idu	atʰeya naba	atʰeya naba	acquittal	acquittal			8.3		0			
+48905	660	Idu	tʰruba	tʰruba	abscond	abscond			6.10.2		0			
+48906	660	Idu	tʰona	tʰona	prison	prison			5.11.9.1		0			
+48907	660	Idu	ta	ta	imprison	imprison			5.11.9.1		0			
+48908	660	Idu	anipi	anipi	fine	fine			9.7.2		0			
+48909	660	Idu	abwela	abwela	mediation	mediation			4.2.3		0			
+48910	660	Idu	paku	paku	land	land			3.2.5		0			
+48911	660	Idu	eya	eya	hill	hill			3.2.5		0			
+48912	660	Idu	aŋ-go	aŋ-go	ridge	ridge			3.2.5		0			
+48913	660	Idu	epokalarũ	epokalarũ	cave	cave			3.2.7		0			
+48914	660	Idu	mro	mro	valley	valley			3.2.5		0			
+48915	660	Idu	mraya	mraya	mountain range	mountain range			3.2.5		0			
+48916	660	Idu	eya rũdi	eya rũdi	peak	peak			9.10.5		0			
+48917	660	Idu	agu alo	agu alo	pass	pass			6.7.10		0			
+48918	660	Idu	ayu-ma	ayu-ma	slope	slope			3.2.5		0			
+48919	660	Idu	etosʰu	etosʰu	up	up			9.2.1		0			
+48920	660	Idu	ayuma	ayuma	down	down			9.2.2		0			
+48921	660	Idu	mrẽndo	mrẽndo	plains	plains			9.10.5		0			
+48922	660	Idu	maci	maci	river	river			3.2.3		0			
+48923	660	Idu	maci apra	maci apra	stream	stream			3.2.3		0			
+48925	660	Idu	maci ando	maci ando	waterfall	waterfall			3.2.3		0			
+48926	660	Idu	macigu	macigu	waterpoint	waterpoint			3.2.3		0			
+48927	660	Idu	kayayo ayayo	kayayo ayayo	rain	rain			3.2.1		0			
+48928	660	Idu	põ	põ	snow	snow			3.2.1		0			
+48929	660	Idu	macimbruga	macimbruga	flood	flood			3.2.3		0			
+48930	660	Idu	maci-wui	maci-wui	marsh	marsh			3.2.5		0			
+48931	660	Idu	ipupu	ipupu	rock	rock			3.2.9		0			
+48932	660	Idu	apikũ	apikũ	stand	stand			1.5.2		0			
+48933	660	Idu	ilikʰi	ilikʰi	clay	clay			3.2.11		0			
+48934	660	Idu	ilikʰi pra	ilikʰi pra	fertile land	fertile land			1.9		0			
+48935	660	Idu	i◦mu◦du	i◦mu◦du	sky	sky			3.2.2		0			
+48936	660	Idu	mato	mato	cloud	cloud			3.2.1		0			
+48937	660	Idu	a◦hu	ahu	rainbow	rainbow			3.2.1		0			p,6005
+48938	660	Idu	abrili	abrili	lightning	lightning			3.2.1		0			
+48939	660	Idu	arab-o	arab-o	thunder	thunder			3.2.1		0			
+48940	660	Idu	in-i	in-i	sun	sun			3.2.10		0			
+48941	660	Idu	in-i lõ	in-i lõ	sunrays	sunrays			3.2.10		0			
+48942	660	Idu	ti:	ti:	heat	heat			9.6.2		0			
+48943	660	Idu	jisi	jisi	cold	cold			7.1.2.3		0			
+48944	660	Idu	in-i lõmbi	in-i lõmbi	sunrise	sunrise			3.2.10		0			
+48945	660	Idu	in-i daba	in-i daba	sunset	sunset			3.2.10		0			
+48946	660	Idu	e◦la	e◦la	moon	moon			3.2.2		0			m,1016
+48947	660	Idu	elaŋ-go	elaŋ-go	moonlight	moonlight			3.2.10		0			
+48948	660	Idu	a◦ndi◦kru	a◦ndi◦kru	star	star			3.2.2		0			
+48949	660	Idu	in-i	in-i	day	day			1.5.3.2		0			
+48950	660	Idu	yama	yama	night	night			9.1.4		0			
+48951	660	Idu	a◦na◦ma	a◦na◦ma	morning	morning			9.1.4		0			p,6227
+48952	660	Idu	ãmbuni	ãmbuni	evening	evening			9.1.4		0			
+48953	660	Idu	katʰoro	katʰoro	summer	summer			3.2.1		0			
+48954	660	Idu	kapecã	kapecã	winter	winter			9.1.2		0			
+48955	660	Idu	ela	ela	month	month			9.1.2		0			
+48956	660	Idu	in-u	in-u	year	year			9.1.2		0			
+48957	660	Idu	ammeyã	ammeyã	air	air			1.1.2.2		0			x
+48958	660	Idu	ammeyã	ammeyã	wind	wind			3.2.1		0			
+48959	660	Idu	aloɲi ammeyã	aloɲi ammeyã	storm	storm			3.2.1		0			
+48960	660	Idu	kʰraga	kʰraga	sound	sound			9.3		0			
+48961	660	Idu	amruhu	amruhu	fire	fire			3.2.12.2		0			
+48963	660	Idu	tʰriga	tʰriga	spark	spark			3.2.12.2		0			
+48964	660	Idu	amiyu egõ	amiyu egõ	ash	ash			3.2.12.2		0			
+48965	660	Idu	egolo	egolo	ash	ash			3.2.12.2		0			
+48966	660	Idu	idikʰi	idikʰi	coal	coal			3.2.4		0			
+48967	660	Idu	atʰõ	atʰõ	fuel	fuel			3.2.4		0			
+48968	660	Idu	amruhu ami-hu	amruhu ami-hu	flame	flame			3.2.12.2		0			
+48969	660	Idu	am◦bre	am◦bre	animal	animal			2.3		0			p,37
+48970	660	Idu	õkoci am◦bre	õkoci am◦bre	domestic animal	domestic animal			2.3		0			m,p,37
+48971	660	Idu	amba-ci am◦bre	amba-ci am◦bre	wild animal	wild animal			3.2.5		0			m,m,p,37
+48972	660	Idu	macukru	macukru	cow	cow			2.1.2		0			
+48973	660	Idu	macu ari	macu ari	bull	bull			2.1.2		0			
+48974	660	Idu	macu-a	macu-a	calf	calf			1.5.7		0			
+48975	660	Idu	saba	saba	mithun bull	mithun bull			2.1.2		0			
+48976	660	Idu	sa-kru	sa-kru	mithun cow	mithun cow			2.1.2		0			
+48977	660	Idu	sa-a	sa-a	calf	calf			1.5.7		0			
+48978	660	Idu	i◦li-ari	i◦li-ari	pig	pig			2.1.12		0			p,6019,m,m
+48979	660	Idu	i◦li-kru	i◦li-kru	sow	sow			2.1.12		0			p,6019,m
+48980	660	Idu	i◦ku-ari	i◦ku-ari	dog	dog			2.1.11		0			p,1764,m
+48981	660	Idu	i◦ku-kru	i◦ku-kru	bitch	bitch			2.1.11		0			p,1764,m
+48982	660	Idu	majari	majari	cat	cat			2.1.3		0			b
+48983	660	Idu	marõ	ma◦rõ	horse / pony	horse  /  pony			2.1.7		0	jbl3		1431
+48984	660	Idu	a◦mra	a◦mra	tiger	tiger			2.1.3		0			m,2618
+48985	660	Idu	ahũ	ahũ	bear	bear			2.2.3		0			

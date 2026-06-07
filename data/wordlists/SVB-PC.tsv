@@ -1,6 +1,6 @@
-rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	semkey	srcid	src_set_rn	status	analysis
-473149	1974	Atong	daket tak-	daket tak-	rob	to rob	v	6.2.2.1		0		
-473150	1974	Atong	-jol	-jol	V quickly, V accidentally	V quickly, V accidentally	evsp	9.1.1		0		
-473151	1974	Atong	mukta	mukta	pearl	pearl	n	2.2.5		0		
-473152	1974	Atong	sul-	sul-	stretch out, to extend	to stretch out, to extend	v	9.5		0		
-473153	1974	Atong	syrak syrak	syrak syrak	exactly, just	exactly, just	adv	7.1.8.3		0		
+rn	lgid	language	reflex	originalreflex	gloss	originalgloss	gfn	originalgfn	semkey	srcid	src_set_rn	maintainer	status	analysis
+473149	1974	Atong	daket tak-	daket tak-	rob	to rob	v	v	6.2.2.1		0	dwb18		
+473150	1974	Atong	-jol	-jol	V quickly, V accidentally	V quickly, V accidentally	evsp	evsp	9.1.1		0			
+473151	1974	Atong	mukta	mukta	pearl	pearl	n	n	2.2.5		0			
+473152	1974	Atong	sul-	sul-	stretch out, to extend	to stretch out, to extend	v	v	9.5		0	dwb18		
+473153	1974	Atong	syrak syrak	syrak syrak	exactly, just	exactly, just	adv	adv	7.1.8.3		0			
