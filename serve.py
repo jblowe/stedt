@@ -178,6 +178,18 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .thes .ti{font-size:18px;}
 .thes .ct{margin-left:auto;font-size:12px;color:var(--mut);font-variant:small-caps;letter-spacing:.05em;}
 .thes .ety-list{margin-top:18px}
+
+/* etymon connections / mesoroots / language+source pages */
+.pagetitle{font-family:"Fraunces",serif;font-weight:600;font-size:38px;line-height:1.08;margin:6px 0 4px;}
+.conn,.meso{margin:24px 0 8px;}
+.conn-row{display:flex;align-items:baseline;gap:12px;padding:6px 0;border-bottom:1px dotted #e7dcc4;}
+.conn-row:last-child{border-bottom:none}
+.rl{font-variant:small-caps;letter-spacing:.09em;font-size:12px;color:var(--accent);width:80px;flex:none;}
+.rfx a.lang,.rfx a.src{background:none;border-bottom:1px dotted var(--rule);}
+.rfx a.lang{color:var(--soft);}
+.rfx a.lang:hover,.rfx a.src:hover{color:var(--accent);border-color:var(--accent);}
+.metabar a{background:none;border-bottom:1px dotted var(--rule);}
+.metabar a:hover{color:var(--accent);}
 """
 
 def page(title, body, q=""):
@@ -270,13 +282,24 @@ def etymon(tag):
         c.close(); return page("Not found", "<p>No such etymon.</p>"), 404
     notes = c.execute("""SELECT xmlnote FROM notes WHERE tag=? AND spec='E' AND notetype!='I'
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""", (tag,)).fetchall()
-    rows = c.execute("""SELECT ln.language AS language, l.reflex AS form, l.gloss, l.gfn,
-            g.grp AS subgroup, g.grpno AS groupnode, sb.citation AS citation, l.srcid
+    rows = c.execute("""SELECT ln.language AS language, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn,
+            g.grp AS subgroup, g.grpno AS groupnode, sb.citation AS citation, ln.srcabbr AS srcabbr, l.srcid
         FROM lx_et_hash h JOIN lexicon l ON l.rn=h.rn
         JOIN languagenames ln ON ln.lgid=l.lgid
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
         WHERE h.tag=? GROUP BY l.rn""", (tag,)).fetchall()
+    hptb = c.execute("""SELECT h.plg, h.protoform, h.protogloss, h.pages
+        FROM et_hptb_hash x JOIN hptb h ON h.hptbid=x.hptbid WHERE x.tag=? ORDER BY x.ord""", (tag,)).fetchall()
+    meso = c.execute("""SELECT g.grp AS subgroup, g.grpno AS groupnode, m.form, m.gloss, m.variant
+        FROM mesoroots m LEFT JOIN languagegroups g ON g.grpid=m.grpid
+        WHERE m.tag=? ORDER BY g.grpno, m.id""", (tag,)).fetchall()
+    rel_tags = [int(v.strip()) for v in (e['allofams'], e['xrefs']) if v and v.strip().isdigit()]
+    labels = {}
+    if rel_tags:
+        qm = ','.join('?' * len(rel_tags))
+        for r in c.execute(f"SELECT tag,protoform,protogloss FROM etyma WHERE tag IN ({qm})", rel_tags):
+            labels[r['tag']] = (r['protoform'], r['protogloss'])
     crumb = breadcrumb(c, e['semkey']); c.close()
 
     # group reflexes by subgroup, order by stammbaum (groupnode)
@@ -299,10 +322,12 @@ def etymon(tag):
         for r in items:
             form = esc(r['form']).replace('◦', '<span class="br">◦</span>')
             g = f'<span class="g">{esc(r["gloss"])}</span>' if (r['gloss'] and r['gloss'] != e['protogloss']) else ''
-            src = esc(r['citation'] or '')
-            rfx.append(f'<div class="rfx"><span class="lang">{esc(r["language"])}</span>'
-                       f'<span class="form">{form} {g}</span>'
-                       f'<span class="src">{src}</span></div>')
+            lang = f'<a class="lang" href="/language/{r["lgid"]}">{esc(r["language"])}</a>'
+            if r['srcabbr']:
+                src = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}</a>'
+            else:
+                src = f'<span class="src">{esc(r["citation"] or "")}</span>'
+            rfx.append(f'<div class="rfx">{lang}<span class="form">{form} {g}</span>{src}</div>')
         sgs.append(f'<div class="sg" id="sg{i}"><h4>{esc(k[1])}<span class="c">{len(items)}</span></h4>'
                    + ''.join(rfx) + '</div>')
 
@@ -311,6 +336,30 @@ def etymon(tag):
         noteshtml = ('<section class="notes"><h3>Notes</h3>'
                      + ''.join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in notes)
                      + '</section>')
+
+    # connections: HPTB reconstruction(s) + allofam / cross-references
+    conn = []
+    for h in hptb:
+        conn.append(f'<div class="conn-row"><span class="rl">HPTB</span>'
+                    f'<span><span class="lat">{esc(h["protoform"])}</span> ‘{esc(h["protogloss"])}’</span>'
+                    f'<span class="src">pp. {esc(h["pages"])}</span></div>')
+    def rel_link(v):
+        v = (v or '').strip()
+        if v.isdigit():
+            lab = labels.get(int(v))
+            txt = f'*{esc(lab[0])} ‘{esc(lab[1])}’' if lab else f'#{esc(v)}'
+            return f'<a class="xref" href="/etymon/{v}">{txt}</a>'
+        return f'<span>{esc(v)}</span>' if v else ''
+    if e['allofams']: conn.append(f'<div class="conn-row"><span class="rl">Allofam</span>{rel_link(e["allofams"])}</div>')
+    if e['xrefs']:    conn.append(f'<div class="conn-row"><span class="rl">See also</span>{rel_link(e["xrefs"])}</div>')
+    connhtml = f'<section class="conn"><h3>Connections</h3>{"".join(conn)}</section>' if conn else ''
+
+    mesohtml = ''
+    if meso:
+        mr = ''.join(f'<div class="rfx"><span class="lang">{esc(m["subgroup"] or "")}</span>'
+                     f'<span class="form"><span class="recon">{esc(m["form"])}</span> '
+                     f'<span class="g">{esc(m["gloss"])}</span></span><span class="src"></span></div>' for m in meso)
+        mesohtml = f'<section class="meso"><h3>Intermediate reconstructions</h3>{mr}</section>'
 
     refs = f'<div class="cite">References: {esc(e["notes"])}</div>' if e['notes'] else ''
     pf = esc(e['protoform'])
@@ -331,12 +380,92 @@ def etymon(tag):
     <div class="cite">Cite as: <code>STEDT etymon #{e['tag']}, *{pf} ‘{esc(e['protogloss'])}’</code>.
       Stable link: <code>/etymon/{e['tag']}</code></div>
     {refs}
+    {connhtml}
     {noteshtml}
+    {mesohtml}
     <section class="reflexes"><h3>Reflexes &amp; cognates</h3>
       {jump}
       {''.join(sgs)}
     </section>"""
     return page(f"*{e['protoform']} ‘{e['protogloss']}’", body), 200
+
+def language(lgid):
+    c = con()
+    ln = c.execute("SELECT * FROM languagenames WHERE lgid=?", (lgid,)).fetchone()
+    if not ln:
+        c.close(); return page("Not found", "<p>No such language.</p>"), 404
+    grp = c.execute("SELECT grp,plg FROM languagegroups WHERE grpid=?", (ln['grpid'],)).fetchone()
+    src = c.execute("SELECT srcabbr,citation FROM srcbib WHERE srcabbr=?", (ln['srcabbr'],)).fetchone()
+    total = c.execute("SELECT count(*) FROM lexicon WHERE lgid=?", (lgid,)).fetchone()[0]
+    CAP = 500
+    rows = c.execute("""SELECT l.reflex, l.gloss, l.gfn, l.semkey,
+            (SELECT h.tag FROM lx_et_hash h WHERE h.rn=l.rn AND h.tag>0 LIMIT 1) AS tag
+        FROM lexicon l WHERE l.lgid=? ORDER BY l.semkey, l.reflex LIMIT ?""", (lgid, CAP)).fetchall()
+    c.close()
+    meta = []
+    if grp: meta.append(f'<span><b>subgroup</b> {esc(grp["grp"])}{ " (" + esc(grp["plg"]) + ")" if grp["plg"] else "" }</span>')
+    if src and src['srcabbr']:
+        meta.append(f'<span><b>source</b> <a href="/source/{esc(src["srcabbr"])}">{esc(src["citation"] or src["srcabbr"])}</a></span>')
+    if ln['silcode']: meta.append(f'<span><b>ISO 639-3</b> {esc(ln["silcode"])}</span>')
+    meta.append(f'<span><b>{total:,}</b> reflexes</span>')
+    rfx = []
+    for r in rows:
+        link = f' <a class="via" href="/etymon/{r["tag"]}">› cognate</a>' if r['tag'] else ''
+        form = esc(r['reflex']).replace('◦', '<span class="br">◦</span>')
+        rfx.append(f'<div class="rfx"><span class="lang">{esc(r["semkey"])}</span>'
+                   f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span></span>'
+                   f'<span class="src">{esc(r["gfn"] or "")}{link}</span></div>')
+    cap = f'<p style="color:var(--mut)">Showing the first {CAP:,} of {total:,}.</p>' if total > CAP else ''
+    body = f"""
+    <div class="ety-head">
+      <div class="plg">Language</div>
+      <div class="pagetitle">{esc(ln['language'])}</div>
+      <div class="metabar">{''.join(meta)}</div>
+    </div>
+    {cap}
+    <section class="reflexes"><h3>Attested forms</h3>{''.join(rfx)}</section>"""
+    return page(ln['language'], body), 200
+
+def source(srcabbr):
+    c = con()
+    s = c.execute("SELECT * FROM srcbib WHERE srcabbr=?", (srcabbr,)).fetchone()
+    if not s:
+        c.close(); return page("Not found", "<p>No such source.</p>"), 404
+    langs = c.execute("SELECT lgid,language FROM languagenames WHERE srcabbr=? AND language!='' ORDER BY language",
+                      (srcabbr,)).fetchall()
+    total = c.execute("""SELECT count(*) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
+        WHERE ln.srcabbr=?""", (srcabbr,)).fetchone()[0]
+    CAP = 500
+    rows = c.execute("""SELECT l.reflex, l.gloss, ln.language, l.lgid, l.semkey,
+            (SELECT h.tag FROM lx_et_hash h WHERE h.rn=l.rn AND h.tag>0 LIMIT 1) AS tag
+        FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
+        WHERE ln.srcabbr=? ORDER BY ln.language, l.semkey LIMIT ?""", (srcabbr, CAP)).fetchall()
+    c.close()
+    cite = ' '.join(x for x in (s['author'], f"({s['year']})" if s['year'] else '', s['title']) if x)
+    meta = []
+    if s['imprint']: meta.append(f'<span><b>imprint</b> {esc(s["imprint"])}</span>')
+    meta.append(f'<span><b>{len(langs)}</b> languages</span>')
+    meta.append(f'<span><b>{total:,}</b> forms</span>')
+    langlinks = ' · '.join(f'<a href="/language/{l["lgid"]}">{esc(l["language"])}</a>' for l in langs)
+    rfx = []
+    for r in rows:
+        link = f' <a class="via" href="/etymon/{r["tag"]}">› cognate</a>' if r['tag'] else ''
+        form = esc(r['reflex']).replace('◦', '<span class="br">◦</span>')
+        rfx.append(f'<div class="rfx"><a class="lang" href="/language/{r["lgid"]}">{esc(r["language"])}</a>'
+                   f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span></span>'
+                   f'<span class="src">{esc(r["semkey"])}{link}</span></div>')
+    cap = f'<p style="color:var(--mut)">Showing the first {CAP:,} of {total:,}.</p>' if total > CAP else ''
+    body = f"""
+    <div class="ety-head">
+      <div class="plg">Source · {esc(s['srcabbr'])}</div>
+      <div class="pagetitle">{esc(s['citation'] or s['srcabbr'])}</div>
+      <div class="pg" style="font-variant:normal;font-size:16px;color:var(--soft);letter-spacing:0">{esc(cite)}</div>
+      <div class="metabar">{''.join(meta)}</div>
+    </div>
+    <div style="margin:12px 0 4px;font-size:13.5px;color:var(--soft);line-height:1.9">{langlinks}</div>
+    {cap}
+    <section class="reflexes"><h3>Attested forms</h3>{''.join(rfx)}</section>"""
+    return page(s['citation'] or s['srcabbr'], body), 200
 
 def fts_q(q):
     q = q.replace('"', ' ').strip()
@@ -473,6 +602,14 @@ class H(http.server.BaseHTTPRequestHandler):
                 self.send(thesaurus())
             elif path.startswith("/thesaurus/"):
                 self.send(thesaurus(path.split("/", 2)[2]))
+            elif path.startswith("/language/"):
+                lid = path.split("/")[2]
+                if lid.isdigit():
+                    html_, code = language(int(lid)); self.send(html_, code)
+                else:
+                    self.send(page("Not found", "<p>Bad language id.</p>"), 404)
+            elif path.startswith("/source/"):
+                html_, code = source(urllib.parse.unquote(path.split("/", 2)[2])); self.send(html_, code)
             elif path == "/favicon.ico":
                 self.send("", 204)
             else:
