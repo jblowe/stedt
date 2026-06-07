@@ -1,0 +1,53 @@
+name: Suggest an edit to an etymon
+description: Propose a correction or addition to a STEDT cognate set (etymon). No YAML or Git knowledge needed — just edit the fields and submit.
+title: "Suggested edit to etymon #"
+labels: ["suggested-edit"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve STEDT! Change any of the fields below and submit.
+        A bot will open a pull request with your change for a maintainer to review —
+        **nothing on the site changes until a maintainer merges it.**
+
+        Leave a field as-is to keep its current value. (Clearing a field here will *not*
+        delete it — to remove something, mention it under **What & why**.)
+  - type: input
+    id: tag
+    attributes:
+      label: Etymon number
+      description: The stable id of the entry. Please don't change this — it identifies which entry you're editing.
+    validations:
+      required: true
+  - type: input
+    id: protoform
+    attributes:
+      label: Proto-form
+      description: The reconstructed form, without the leading asterisk.
+  - type: input
+    id: gloss
+    attributes:
+      label: Gloss
+      description: The meaning / definition.
+  - type: input
+    id: semkey
+    attributes:
+      label: Semantic key
+      description: Thesaurus node id (e.g. 4.5). Leave as-is unless you know it should change.
+  - type: input
+    id: references
+    attributes:
+      label: References
+      description: Bibliographic references and source notes.
+  - type: textarea
+    id: newnote
+    attributes:
+      label: Add a note
+      description: Optional. Plain prose, or STEDT note markup if you know it. This is appended as a new note; it does not replace existing notes.
+  - type: textarea
+    id: summary
+    attributes:
+      label: What & why
+      description: Briefly — what are you changing, and why? (e.g. "corrected gloss per Matisoff 2003")
+    validations:
+      required: true
