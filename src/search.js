@@ -62,7 +62,7 @@ function run(db, sql, params) {
 // A reflex can belong to several etyma (polymorphemic) — aggregate them all (non-DELETE only),
 // rather than GROUP BY picking one arbitrarily. json_group_array → parsed/deduped in stedtSearch.
 const REFLEX_SQL = `
-  SELECT ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.rn AS rn,
+  SELECT ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.rn AS rn, l.lgid AS lgid,
          json_group_array(json_object('tag', e.tag, 'pf', e.protoform))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid

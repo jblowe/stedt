@@ -1423,7 +1423,7 @@ def search_page(q=""):
     const etyRow=e=>`<a class="ety-hit" href="${B}/etymon/${e.tag}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}</span></a>`;
     const rfxRow=r=>{
       const links=(r.etyma&&r.etyma.length)?r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' '):'untagged';
-      return `<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span><span class="lat">${esc(r.form)}</span> ‘${esc(r.gloss)}’</span><span class="vias">${links}</span></div>`;
+      return `<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span><a href="${B}/language/${r.lgid}#rn${r.rn}"><span class="lat">${esc(r.form)}</span></a> ‘${esc(r.gloss)}’</span><span class="vias">${links}</span></div>`;
     };
     const langRow=x=>`<a class="ety-hit" href="${B}/language/${x.lgid}"><span class="rf">${esc(x.language)}</span><span class="gl2">${fmt(x.n)} attested form${x.n==1?'':'s'}</span><span class="tagn">language</span></a>`;
     function sectionLabel(title,total,fetched){
