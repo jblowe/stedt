@@ -379,10 +379,8 @@ def home():
     if PREVIEW:
         banner = ('<div class="preview-banner" style="background:var(--accent);color:var(--paper);'
                   'padding:14px 20px;border-radius:3px;margin:0 0 22px;font-size:15px;line-height:1.55">'
-                  '<b>Preview.</b> This is an in-progress community rebuild of STEDT '
-                  '(<a href="https://github.com/larc-iu/stedt" style="color:var(--paper);text-decoration:underline">larc-iu/stedt</a>). '
-                  'Data and features are incomplete and may change; search covers curated pages only. '
-                  'Spotted a problem? Use “Suggest an edit” on any entry.</div>')
+                  '<b>Preview.</b> An in-progress rebuild of STEDT — data and features '
+                  'are incomplete and may change.</div>')
         return page("Home", banner + """
     <div class="home">
       <div class="bigsearch pf" id="pf-home"></div>
