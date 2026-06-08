@@ -325,7 +325,10 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .sr h2{font-family:"Fraunces",serif;font-weight:600;font-size:24px;margin:0 0 4px;}
 .sr .sub{color:var(--mut);font-size:14px;margin-bottom:24px;}
 .sec-label{font-variant:small-caps;letter-spacing:.10em;font-size:13px;color:var(--accent);
-  border-bottom:1px solid var(--rule);padding-bottom:5px;margin:28px 0 10px;}
+  border-bottom:1px solid var(--rule);padding-bottom:5px;margin:28px 0 10px;
+  display:flex;align-items:baseline;}
+.sec-label .sec-n{margin-left:auto;color:var(--mut);font-variant:normal;letter-spacing:0;
+  font-size:.9em;font-variant-numeric:tabular-nums;}
 .ety-hit{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:baseline;padding:8px 0;
   border-bottom:1px solid var(--hair);}
 a.ety-hit{border-bottom:1px solid var(--hair);}
@@ -554,6 +557,7 @@ def home():
         if(!window.stedtDbLoaded)note('Loading search…');
         let j;try{j=await window.stedtSearch(q,8);}catch(e){note('Search is unavailable.');return;}
         let h='';
+        (j.languages||[]).forEach(x=>h+=`<a href="${B}/language/${x.lgid}"><span class="k">lang</span><span>${esc(x.language)}</span></a>`);
         j.etyma.forEach(e=>h+=`<a href="${B}/etymon/${e.tag}"><span class="k">recon</span><span><span class="recon">${altstar(esc(e.protoform))}</span> · <span class="gl">${esc(e.protogloss)}</span></span></a>`);
         j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:'#'}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> ‘${esc(x.gloss)}’</span></a>`);
         d.innerHTML=h;d.style.display=h?'block':'none';},180);});
@@ -1397,8 +1401,9 @@ def sources_index():
     return page("Sources", body, nav="sources")
 
 def search_page(q=""):
-    """Static results shell — reads ?q= and renders matches client-side via window.stedtSearch
-    (same two queries + layout as the old server-rendered results page)."""
+    """Static results shell — reads ?q= and renders matches client-side via window.stedtSearch,
+    federated across entity types (languages / reconstructions / attested forms), each with its
+    true total count and windowed infinite-scroll, so results are never silently capped."""
     body = """
     <div class="sr">
       <div class="bigsearch" style="margin:0 0 22px"><input id="bs" placeholder="Search a meaning, form, or language…" autocomplete="off"></div>
@@ -1410,8 +1415,46 @@ def search_page(q=""):
     const B=window.STEDT_BASE||'';
     const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
     const altstar=s=>String(s).replace(/⪤\\s*\\*?/g,'⪤ *');
+    const fmt=n=>Number(n).toLocaleString();
+    const CHUNK=200;
     const bs=document.getElementById('bs');
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
+    const etyRow=e=>`<a class="ety-hit" href="${B}/etymon/${e.tag}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}</span></a>`;
+    const rfxRow=r=>{
+      const via=(r.etyma&&r.etyma.length)?r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' '):'<span class="via">untagged</span>';
+      return `<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span><span class="lat">${esc(r.form)}</span> ‘${esc(r.gloss)}’</span>${via}</div>`;
+    };
+    const langRow=x=>`<a class="ety-hit" href="${B}/language/${x.lgid}"><span class="rf">${esc(x.language)}</span><span class="gl2">${fmt(x.n)} attested form${x.n==1?'':'s'}</span><span class="tagn">language</span></a>`;
+    function sectionLabel(title,total,fetched){
+      let h='<div class="sec-label">'+esc(title)+'<span class="sec-n">'+fmt(total);
+      if(fetched<total) h+=' · first '+fmt(fetched)+' shown';
+      return h+'</span></div>';
+    }
+    function windowed(host,data,rowFn){
+      const list=document.createElement('div'); host.appendChild(list);
+      const moreWrap=document.createElement('div'); moreWrap.className='rmore';
+      const btn=document.createElement('button'); btn.type='button'; btn.textContent='Show more';
+      moreWrap.appendChild(btn); host.appendChild(moreWrap);
+      let shown=0;
+      function more(){
+        const next=data.slice(shown,shown+CHUNK); let h='';
+        for(const r of next) h+=rowFn(r);
+        list.insertAdjacentHTML('beforeend',h); shown+=next.length;
+        moreWrap.hidden=shown>=data.length;
+      }
+      btn.addEventListener('click',more);
+      if('IntersectionObserver' in window){
+        const io=new IntersectionObserver(es=>{if(es[0].isIntersecting&&!moreWrap.hidden)more();});
+        io.observe(moreWrap);
+      }
+      more();
+    }
+    function block(title,total,data,rowFn){
+      const res=document.getElementById('results');
+      res.insertAdjacentHTML('beforeend',sectionLabel(title,total,data.length));
+      const host=document.createElement('div'); res.appendChild(host);
+      windowed(host,data,rowFn);
+    }
     async function run(){
       const q=(new URLSearchParams(location.search).get('q')||'').trim();
       bs.value=q;
@@ -1420,25 +1463,19 @@ def search_page(q=""):
       srh.textContent='Results for '+(q==='*'?'all reconstructions':'“'+q+'”');
       if(!window.stedtSearch)return;
       if(!window.stedtDbLoaded)res.innerHTML='<p class="cap">Loading search…</p>';
-      let etyma,reflexes;
-      try{({etyma,reflexes}=await window.stedtSearch(q,50));}
+      let r;
+      try{r=await window.stedtSearch(q,2000);}
       catch(err){res.innerHTML='<p class="cap">Search is unavailable.</p>';return;}
-      sub.textContent=etyma.length+' reconstruction(s) · '+reflexes.length+' attested form(s) shown';
-      let out='';
-      if(etyma.length){
-        out+='<div class="sec-label">Reconstructions</div>';
-        for(const e of etyma)
-          out+=`<a class="ety-hit" href="${B}/etymon/${e.tag}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}</span></a>`;
-      }
-      if(reflexes.length){
-        out+='<div class="sec-label">Attested forms</div>';
-        for(const r of reflexes){
-          const via=(r.etyma&&r.etyma.length)?r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' '):'<span class="via">untagged</span>';
-          out+=`<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span><span class="lat">${esc(r.form)}</span> ‘${esc(r.gloss)}’</span>${via}</div>`;
-        }
-      }
-      if(!etyma.length&&!reflexes.length)out='<p class="cap">No matches.</p>';
-      res.innerHTML=out;
+      const parts=[];
+      if(r.languageTotal) parts.push(fmt(r.languageTotal)+' language'+(r.languageTotal==1?'':'s'));
+      parts.push(fmt(r.etymaTotal)+' reconstruction'+(r.etymaTotal==1?'':'s'));
+      parts.push(fmt(r.reflexTotal)+' attested form'+(r.reflexTotal==1?'':'s'));
+      sub.textContent=parts.join(' · ');
+      res.innerHTML='';
+      if(r.languageTotal) block('Languages',r.languageTotal,r.languages,langRow);
+      if(r.etymaTotal) block('Reconstructions',r.etymaTotal,r.etyma,etyRow);
+      if(r.reflexTotal) block('Attested forms',r.reflexTotal,r.reflexes,rfxRow);
+      if(!r.languageTotal&&!r.etymaTotal&&!r.reflexTotal) res.innerHTML='<p class="cap">No matches.</p>';
     }
     window.addEventListener('DOMContentLoaded',run);
     </script>"""

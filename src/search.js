@@ -103,26 +103,54 @@ export async function stedtFormsByCategory(semkeys) {
   return run(db, FORMS_BY_CAT_SQL(keys.length), keys);
 }
 
-const ftsQ = (s) => { s = s.replace(/"/g, ' ').trim(); return s ? '"' + s + '"' : '""'; };
+// AND the whitespace-separated tokens (FTS5 treats a space between terms as AND), each wrapped as
+// a quoted phrase so it can match in ANY column (form/gloss/language). So "hit Lotha" finds rows
+// where 'hit' (gloss) AND 'Lotha' (language) both occur — the combined query the single box used
+// to fail silently (it matched the whole input as one adjacent phrase → always zero).
+const ftsQ = (s) => {
+  const toks = s.replace(/["()*:^]/g, ' ').split(/\s+/).filter(Boolean);
+  return toks.length ? toks.map((t) => '"' + t + '"').join(' ') : '""';
+};
 
+const REFLEX_COUNT_SQL = `SELECT count(*) AS n FROM lexicon_fts WHERE lexicon_fts MATCH ?`;
+const ETYMA_COUNT_SQL = `
+  SELECT count(*) AS n FROM etyma e
+  WHERE coalesce(upper(e.status), '') != 'DELETE'
+    AND (e.protogloss LIKE ? OR e.protoform LIKE ?
+         OR replace(replace(replace(e.protoform, '-', ''), '|', ''), '◦', '') LIKE ?)`;
+const ETYMA_COUNT_ALL_SQL = `SELECT count(*) AS n FROM etyma WHERE coalesce(upper(status), '') != 'DELETE'`;
+// Language-name matches are their own result type: a query that names a language should offer a
+// direct jump to that language's page, not just bury it in the reflex list.
+const LANG_SQL = `
+  SELECT ln.language AS language, ln.lgid AS lgid, count(l.rn) AS n
+  FROM languagenames ln JOIN lexicon l ON l.lgid = ln.lgid
+  WHERE ln.language LIKE ? AND ln.language NOT LIKE '*%'
+  GROUP BY ln.lgid`;
+
+// limit caps the rows fetched per type (the page windows them client-side); the *Total fields are
+// the true match counts so the UI can show "first N of M shown" instead of silently truncating.
 export async function stedtSearch(query, limit = 40) {
   query = (query || '').trim();
   const db = await getDb();
   // a leading "*" is reconstruction notation, not a search operator; "*" alone means "all"
   const qe = (query.startsWith('*') && query !== '*') ? query.slice(1).trim() : query;
 
-  let etyma = [];
+  let etyma = [], etymaTotal = 0;
   if (query === '*') {
     etyma = run(db, ETYMA_ALL_SQL, [limit]);
+    etymaTotal = run(db, ETYMA_COUNT_ALL_SQL, [])[0].n;
   } else if (qe) {
     const like = '%' + qe + '%';
     const nohy = '%' + qe.replace(/[-|◦\s]/g, '') + '%';   // morpheme-boundary–insensitive
     etyma = run(db, ETYMA_SQL, [like, like, nohy, qe, limit]);
+    etymaTotal = run(db, ETYMA_COUNT_SQL, [like, like, nohy])[0].n;
   }
 
-  let reflexes = [];
+  let reflexes = [], reflexTotal = 0;
   if (qe && query !== '*') {
-    reflexes = run(db, REFLEX_SQL, [ftsQ(qe), limit + 40, limit]);
+    const m = ftsQ(qe);
+    reflexTotal = run(db, REFLEX_COUNT_SQL, [m])[0].n;
+    reflexes = run(db, REFLEX_SQL, [m, limit + 40, limit]);
     // parse the aggregated etyma JSON into a deduped array; expose the first as tag/pf for
     // compact single-link consumers (the home dropdown), the full list as r.etyma.
     for (const r of reflexes) {
@@ -135,7 +163,20 @@ export async function stedtSearch(query, limit = 40) {
       r.pf = uniq.length ? uniq[0].pf : null;
     }
   }
-  return { etyma, reflexes };
+
+  let languages = [], languageTotal = 0;
+  if (qe && query !== '*' && qe.length >= 2) {
+    const rows = run(db, LANG_SQL, ['%' + qe + '%']);
+    const byName = new Map();   // collapse source variants of a name to its best-attested lgid
+    for (const r of rows) { const cur = byName.get(r.language); if (!cur || r.n > cur.n) byName.set(r.language, r); }
+    const ql = qe.toLowerCase();
+    const list = [...byName.values()].sort((a, b) =>
+      ((a.language.toLowerCase() === ql ? 0 : 1) - (b.language.toLowerCase() === ql ? 0 : 1)) || (b.n - a.n));
+    languageTotal = list.length;
+    languages = list.slice(0, Math.min(limit, 50));
+  }
+
+  return { etyma, etymaTotal, reflexes, reflexTotal, languages, languageTotal };
 }
 
 if (typeof window !== 'undefined') {
