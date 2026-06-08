@@ -84,6 +84,19 @@ def natkey(s):
 
 def esc(s): return html.escape(str(s)) if s is not None else ""
 
+def alt(s):
+    """Star every ⪤-joined alternant of a proto-form. The *leading* asterisk is supplied by
+    CSS (.pf/.pf2/.recon ::before); this only adds the ones the CSS can't reach."""
+    return re.sub(r'⪤\s*', '⪤ *', s) if s else (s or "")
+
+def iso_link(code):
+    """An ISO 639-3 code linked to its Glottolog languoid page (the original's Ethnologue
+    show_language.asp links are long dead)."""
+    code = (code or "").strip()
+    if not code: return ""
+    return (f'<a href="https://glottolog.org/resource/languoid/iso/{esc(code)}"'
+            f' rel="noopener" target="_blank">{esc(code)}</a>')
+
 def suggest_edit_url(e):
     """Prefilled 'Suggest an edit' Issue Form link — the contribution front door.
     Opens a GitHub issue (login handled by GitHub, no service) that the suggest-edit
@@ -188,7 +201,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .metabar b{font-family:"Fraunces",serif;color:var(--ink);font-size:16px;margin-right:5px;font-variant-numeric:tabular-nums;}
 
 /* section headers — the primary structural tier in ink (vermilion reserved for asterisk, proto-language, links) */
-.notes h3,.reflexes h3,.thes h3,.conn h3,.meso h3,.apparatus h3,.ety-list h3{font-variant:small-caps;letter-spacing:.10em;
+.notes h3,.reflexes h3,.thes h3,.conn h3,.meso h3,.apparatus h3,.ety-list h3,.phon h3{font-variant:small-caps;letter-spacing:.10em;
   font-size:16px;color:var(--ink);border-bottom:1px solid var(--rule);padding-bottom:5px;margin:0 0 12px;}
 .reflexes{max-width:900px;}
 .reflexes h3{display:flex;align-items:baseline;}
@@ -276,6 +289,11 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 /* connections / mesoroots / language+source + index pages */
 .pagetitle{font-family:"Fraunces",serif;font-weight:600;font-size:36px;line-height:1.08;margin:6px 0 4px;}
 .conn,.meso{margin:24px 0 8px;}
+.phon{margin:20px 0 8px;}
+.phon-grid{display:flex;flex-wrap:wrap;gap:7px 26px;}
+.phon .pf-f{font-size:15px;white-space:nowrap;}
+.phon .pf-f .rl{display:inline;width:auto;flex:none;margin-right:7px;}
+.phon .pf-f .val{font-family:"Charis SIL",serif;color:var(--ink);}
 .conn-row{display:flex;align-items:baseline;gap:12px;padding:6px 0;border-bottom:1px solid var(--hair);}
 .conn-row:last-child{border-bottom:none}
 .rl{font-variant:small-caps;letter-spacing:.08em;font-size:12px;color:var(--accent);width:92px;flex:none;}
@@ -434,6 +452,7 @@ def home():
     <script>
     const B=window.STEDT_BASE||'';
     const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const altstar=s=>String(s).replace(/⪤\\s*/g,'⪤ *');
     const bs=document.getElementById('bs'),d=document.getElementById('drop');let t;
     const note=m=>{d.innerHTML='<div class="cap" style="padding:10px 12px">'+m+'</div>';d.style.display='block';};
     bs.addEventListener('input',()=>{clearTimeout(t);const q=bs.value.trim();
@@ -443,7 +462,7 @@ def home():
         if(!window.stedtDbLoaded)note('Loading search…');
         let j;try{j=await window.stedtSearch(q,8);}catch(e){note('Search is unavailable.');return;}
         let h='';
-        j.etyma.forEach(e=>h+=`<a href="${B}/etymon/${e.tag}"><span class="k">recon</span><span><span class="recon">${esc(e.protoform)}</span> · <span class="gl">${esc(e.protogloss)}</span></span></a>`);
+        j.etyma.forEach(e=>h+=`<a href="${B}/etymon/${e.tag}"><span class="k">recon</span><span><span class="recon">${altstar(esc(e.protoform))}</span> · <span class="gl">${esc(e.protogloss)}</span></span></a>`);
         j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:'#'}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> ‘${esc(x.gloss)}’</span></a>`);
         d.innerHTML=h;d.style.display=h?'block':'none';},180);});
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
@@ -613,7 +632,7 @@ def etymon(tag):
         for m in meso:
             sm = f'<span class="src">{esc(m["old_note"])}</span>' if m['old_note'] else '<span class="src"></span>'
             mr += (f'<div class="rfx"><span class="lang">{esc(m["subgroup"] or "")}</span>'
-                   f'<span class="form"><span class="recon">{esc(m["form"])}</span> '
+                   f'<span class="form"><span class="recon">{esc(alt(m["form"]))}</span> '
                    f'<span class="g">{esc(m["gloss"])}</span></span>{sm}</div>')
         mesohtml = f'<section class="meso"><h3>Intermediate reconstructions</h3>{mr}</section>'
 
@@ -629,7 +648,7 @@ def etymon(tag):
                 cit = f'<span class="src">{esc(r["citation"] or "")}</span>'
             gl = f' ‘{esc(r["gloss"])}’' if r['gloss'] else ''
             rr += (f'<div class="conn-row"><span class="rl">{esc(lab)}</span>'
-                   f'<span class="reltgt"><span class="recon">{esc(r["form"])}</span>{gl}</span>{cit}</div>')
+                   f'<span class="reltgt"><span class="recon">{esc(alt(r["form"]))}</span>{gl}</span>{cit}</div>')
         reconhtml = f'<section class="conn"><h3>Previously reconstructed as</h3>{rr}</section>'
 
     # connections: HPTB reconstruction(s) + allofam / xref / possible allofam
@@ -641,7 +660,7 @@ def etymon(tag):
             for t in re.split(r'[,\s]+', v):
                 if not t: continue
                 lab = labels.get(int(t))
-                txt = f'*{esc(lab[0])} ‘{esc(lab[1])}’' if lab else f'#{esc(t)}'
+                txt = f'*{esc(alt(lab[0]))} ‘{esc(lab[1])}’' if lab else f'#{esc(t)}'
                 parts.append(f'<a class="xref" href="/etymon/{t}">{txt}</a>')
             return ', '.join(parts)
         g = v.lstrip('↭').strip()  # gloss-based cross-reference
@@ -657,7 +676,21 @@ def etymon(tag):
                         f'<span class="reltgt">{rel_render(fld)}</span></div>')
     connhtml = f'<section class="conn"><h3>Connections</h3>{"".join(conn)}</section>' if conn else ''
 
-    pf = esc(e['protoform'])
+    # reconstruction analysis (the etymon's phonological structure) — exposed by neither the
+    # original site nor us before; ~40% of etyma carry it. medial is always empty, so omit.
+    phon_fields = [('handle', e['handle']), ('prefix', e['prefix']), ('initial', e['initial']),
+                   ('rhyme', e['rhyme']), ('tone', e['tone']), ('suffix', e['suffix'])]
+    chips = [(lab, val) for lab, val in phon_fields if val]
+    cover = ' · '.join(x for x in (e['initcover'], e['rhymecover']) if x)
+    if cover: chips.append(('cover', cover))
+    phonhtml = ''
+    if chips:
+        cells = ''.join(f'<span class="pf-f"><span class="rl">{lab}</span>'
+                        f'<span class="val">{esc(val)}</span></span>' for lab, val in chips)
+        phonhtml = (f'<section class="phon"><h3>Reconstruction analysis</h3>'
+                    f'<div class="phon-grid">{cells}</div></section>')
+
+    pf = esc(alt(e['protoform']))
     plg_ab = e['plg'] or ''
     plg_html = f'<span title="{esc(plg_ab)}">{esc(PLG_FULL.get(plg_ab, plg_ab))}</span>' if plg_ab else ''
     badges = '<span class="badge del">deleted</span>' if (e['status'] or '').upper() == 'DELETE' else ''
@@ -702,6 +735,7 @@ def etymon(tag):
       <div class="crumbs">Semantic domain: {crumb or esc(e['semkey'])}</div>
       {f'<div class="crumbs">Also classified under: {crumb_chap}</div>' if crumb_chap else ''}
     </div>
+    {phonhtml}
     {reflexeshtml}
     {noteshtml}
     {mesohtml}
@@ -719,6 +753,26 @@ def group_lineage(c, grpno):
         r = c.execute("SELECT grpid,grp FROM languagegroups WHERE grpno=?", ('.'.join(parts[:i]),)).fetchone()
         if r: out.append(r)
     return out
+
+def reflex_counts(c, tags=None):
+    """Map {etymon tag: number of attested reflexes}. tags=None counts every etymon in one pass;
+    pass a tag set to limit it."""
+    if tags is None:
+        rows = c.execute("SELECT tag, count(DISTINCT rn) n FROM lx_et_hash WHERE tag>0 GROUP BY tag")
+        return {r['tag']: r['n'] for r in rows}
+    tags = [t for t in tags if t]
+    out = {}
+    for i in range(0, len(tags), 900):
+        chunk = tags[i:i + 900]; qm = ','.join('?' * len(chunk))
+        for r in c.execute(f"SELECT tag, count(DISTINCT rn) n FROM lx_et_hash "
+                           f"WHERE tag>0 AND tag IN ({qm}) GROUP BY tag", chunk):
+            out[r['tag']] = r['n']
+    return out
+
+def rcount_txt(n):
+    """' · 12 reflexes' / ' · 1 reflex' / '' for an etymon's reflex count."""
+    if not n: return ''
+    return f' · {n:,} ' + ('reflex' if n == 1 else 'reflexes')
 
 def proto_labels(c, tags):
     """Map {tag: protoform} for a set of etymon tags."""
@@ -762,7 +816,7 @@ def language(lgid):
     if src and src['srcabbr']:
         meta.append(f'<span><b>source</b> <a href="/source/{esc(src["srcabbr"])}">{esc(src["citation"] or src["srcabbr"])}</a></span>')
     if ln['lgabbr']: meta.append(f'<span><b>abbr</b> {esc(ln["lgabbr"])}</span>')
-    if ln['silcode']: meta.append(f'<span><b>ISO 639-3</b> {esc(ln["silcode"])}</span>')
+    if ln['silcode']: meta.append(f'<span><b>ISO 639-3</b> {iso_link(ln["silcode"])}</span>')
     meta.append(f'<span><b>{total:,}</b> reflexes</span>')
 
     groups = {}
@@ -836,12 +890,11 @@ def source(srcabbr):
     def langrow(l):
         bits = [esc(x) for x in (l['grpno'], l['subgroup']) if x]
         grp = ' '.join(bits)
-        if l['silcode']: grp += f' · ISO {esc(l["silcode"])}'
-        grpcell = (f'<a class="subg" href="/group/{l["grpid"]}">{grp}</a>'
-                   if (l['grpid'] is not None and grp) else f'<span class="subg">{grp}</span>')
+        grplink = (f'<a href="/group/{l["grpid"]}">{grp}</a>' if (l['grpid'] is not None and grp) else grp)
+        iso = f' · ISO {iso_link(l["silcode"])}' if l['silcode'] else ''
         ab = f' <span class="lgab">{esc(l["lgabbr"])}</span>' if l['lgabbr'] else ''
         return (f'<div class="rfx"><span><a class="lang" href="/language/{l["lgid"]}">'
-                f'{esc(l["language"])}</a>{ab}</span>{grpcell}'
+                f'{esc(l["language"])}</a>{ab}</span><span class="subg">{grplink}{iso}</span>'
                 f'<span class="src">{l["n"]:,} forms</span></div>')
     rows = ''.join(langrow(l) for l in langs)
 
@@ -887,6 +940,7 @@ def group(grpid):
     recons = c.execute("""SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss
         FROM etyma e WHERE e.grpid=? AND coalesce(upper(e.status),'')!='DELETE'
         ORDER BY e.sequence, e.protogloss""", (grpid,)).fetchall()
+    rcounts = reflex_counts(c, [r['tag'] for r in recons])
     c.close()
 
     plg = g['plg'] or ''
@@ -910,7 +964,7 @@ def group(grpid):
         if l['srcabbr']:
             mid.append(f'<a href="/source/{esc(l["srcabbr"])}">{esc(l["citation"] or l["srcabbr"])}</a>')
         if l['silcode']:
-            mid.append('ISO ' + esc(l['silcode']))
+            mid.append('ISO ' + iso_link(l['silcode']))
         return (f'<div class="rfx"><span><a class="lang" href="/language/{l["lgid"]}">{esc(l["language"])}</a>{ab}</span>'
                 f'<span class="subg">{" · ".join(mid)}</span>'
                 f'<span class="src">{l["n"]:,} forms</span></div>')
@@ -920,9 +974,9 @@ def group(grpid):
     reconhtml = ''
     if recons:
         items = ''.join(
-            f'<div class="ety-hit"><a href="/etymon/{r["tag"]}" class="pf2 lat">{esc(r["protoform"])}</a>'
+            f'<div class="ety-hit"><a href="/etymon/{r["tag"]}" class="pf2 lat">{esc(alt(r["protoform"]))}</a>'
             f'<span class="pg2">{esc(r["protogloss"])}</span>'
-            f'<span class="tagn">{esc(plg)} #{r["tag"]}</span></div>' for r in recons)
+            f'<span class="tagn">{esc(plg)} #{r["tag"]}{rcount_txt(rcounts.get(r["tag"], 0))}</span></div>' for r in recons)
         reconhtml = (f'<div class="ety-list"><h3 style="margin-top:26px">Reconstructions'
                      f'</h3>{items}</div>')
 
@@ -948,9 +1002,11 @@ def reconstructions():
     rows = c.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
         FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
         WHERE {OK} ORDER BY e.protogloss, e.tag""").fetchall()
+    counts = reflex_counts(c)
     c.close()
     total = len(rows)
-    data = [[r["tag"], r["protoform"] or "", r["protogloss"] or "", r["plg"] or ""] for r in rows]
+    data = [[r["tag"], alt(r["protoform"] or ""), r["protogloss"] or "", r["plg"] or "",
+             counts.get(r["tag"], 0)] for r in rows]
     # < keeps the payload from breaking out of the <script> tag and stays valid JSON.
     payload = json.dumps(data, separators=(",", ":"), ensure_ascii=False).replace("<", "\\u003c")
     body = f"""
@@ -976,7 +1032,7 @@ def reconstructions():
         return {{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c];}});}};
       var norm=function(s){{return String(s==null?'':s).toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');}};
       var DATA=JSON.parse(document.getElementById('recon-data').textContent);
-      for(var i=0;i<DATA.length;i++){{var r=DATA[i];r[4]=norm(r[1]+' '+r[2]+' '+r[3]+' #'+r[0]);}}
+      for(var i=0;i<DATA.length;i++){{var r=DATA[i];r[5]=norm(r[1]+' '+r[2]+' '+r[3]+' #'+r[0]);}}
       var CHUNK=200, view=DATA, shown=0;
       var list=document.getElementById('recon-list'),
           wrap=document.getElementById('rmore-wrap'),
@@ -984,10 +1040,11 @@ def reconstructions():
           none=document.querySelector('.rnone'),
           count=document.getElementById('rcount'),
           input=document.getElementById('rfilter');
-      function row(r){{return '<a class="ety-hit" href="'+B+'/etymon/'+r[0]+'">'+
+      function row(r){{var rc=r[4]?(' · '+r[4]+(r[4]==1?' reflex':' reflexes')):'';
+        return '<a class="ety-hit" href="'+B+'/etymon/'+r[0]+'">'+
         '<span class="pf2 lat">'+esc(r[1])+'</span>'+
         '<span class="pg2">'+esc(r[2])+'</span>'+
-        '<span class="tagn">'+esc(r[3])+' #'+esc(r[0])+'</span></a>';}}
+        '<span class="tagn">'+esc(r[3])+' #'+esc(r[0])+rc+'</span></a>';}}
       function updateCount(){{
         var t=DATA.length, m=view.length;
         var s=(m===t)?t.toLocaleString()+' etyma':m.toLocaleString()+(m===1?' match':' matches');
@@ -1005,7 +1062,7 @@ def reconstructions():
       }}
       function apply(){{
         var q=norm(input.value.trim());
-        view=q?DATA.filter(function(r){{return r[4].indexOf(q)>=0;}}):DATA;
+        view=q?DATA.filter(function(r){{return r[5].indexOf(q)>=0;}}):DATA;
         list.innerHTML=''; shown=0; renderMore();
       }}
       btn.addEventListener('click',renderMore);
@@ -1106,6 +1163,7 @@ def search_page(q=""):
     <script>
     const B=window.STEDT_BASE||'';
     const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const altstar=s=>String(s).replace(/⪤\\s*/g,'⪤ *');
     const bs=document.getElementById('bs');
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
     async function run(){
@@ -1124,12 +1182,12 @@ def search_page(q=""):
       if(etyma.length){
         out+='<div class="sec-label">Reconstructions</div>';
         for(const e of etyma)
-          out+=`<a class="ety-hit" href="${B}/etymon/${e.tag}"><span class="pf2 lat">${esc(e.protoform)}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}</span></a>`;
+          out+=`<a class="ety-hit" href="${B}/etymon/${e.tag}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}</span></a>`;
       }
       if(reflexes.length){
         out+='<div class="sec-label">Attested forms</div>';
         for(const r of reflexes){
-          const via=r.tag?`<a class="via" href="${B}/etymon/${r.tag}">› *${esc(r.pf)}</a>`:'<span class="via">untagged</span>';
+          const via=r.tag?`<a class="via" href="${B}/etymon/${r.tag}">› *${altstar(esc(r.pf))}</a>`:'<span class="via">untagged</span>';
           out+=`<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span><span class="lat">${esc(r.form)}</span> ‘${esc(r.gloss)}’</span>${via}</div>`;
         }
       }
@@ -1162,11 +1220,36 @@ def thesaurus(semkey=None):
             """, (semkey + '.%', depth)).fetchall()
     else:
         body.append('<h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px">Semantic Thesaurus</h2>')
-        body.append('<p class="cap">Browse meanings from the most general to the most specific.</p>')
-        # top level = the N.0 chapter overviews, presented as integer chapter nodes
-        roots = c.execute("""SELECT semkey,chaptertitle FROM chapters
-            WHERE semkey LIKE '%.0' AND (length(semkey)-length(replace(semkey,'.','')))=1""").fetchall()
-        kids = [{'semkey': r['semkey'].split('.')[0], 'chaptertitle': r['chaptertitle']} for r in roots]
+        body.append('<p class="cap">The full semantic hierarchy — every category, most general to most '
+                    'specific. Use your browser’s find (⌘/Ctrl-F) to jump to a meaning.</p>')
+        # The whole tree on one page (Ctrl-F-able). N.0 overviews collapse to their integer chapter
+        # root; the deleted/apocryphal buckets (999, 950.1, x.x) are omitted as everywhere else.
+        nodes = c.execute("SELECT semkey, chaptertitle FROM chapters WHERE coalesce(semkey,'')!=''").fetchall()
+        SPECIAL = {'999', '950.1', 'x.x'}
+        tree = []
+        for n in nodes:
+            sk = n['semkey']
+            if sk in SPECIAL: continue
+            if sk.endswith('.0') and sk.count('.') == 1:
+                disp, depth = sk.split('.')[0], 0
+            else:
+                disp, depth = sk, sk.count('.')
+            cnt = c.execute("""SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'
+                AND (e.semkey=? OR e.semkey LIKE ? OR e.chapter=? OR e.chapter LIKE ?)""",
+                (sk, sk + '.%', sk, sk + '.%')).fetchone()[0]
+            tree.append((disp, depth, n['chaptertitle'], cnt))
+        tree.sort(key=lambda r: natkey(r[0]))
+        body.append('<ul class="tree">')
+        for disp, depth, title, cnt in tree:
+            ti = (f'<span class="ti" style="font-weight:600">{esc(title)}</span>' if depth == 0
+                  else f'<span class="ti">{esc(title)}</span>')
+            ct = f'<span class="ct">{cnt:,}</span>' if cnt else ''
+            body.append(f'<li style="margin-left:{depth * 18}px"><a class="row" href="/thesaurus/{disp}">'
+                        f'<span class="sk">{esc(disp)}</span>{ti}{ct}</a></li>')
+        body.append('</ul>')
+        c.close()
+        body.append('</div>')
+        return page("Thesaurus", ''.join(body), nav="thesaurus")
     kids = sorted(kids, key=lambda r: natkey(r['semkey']))
     if kids:
         body.append('<ul>')
@@ -1185,11 +1268,12 @@ def thesaurus(semkey=None):
             WHERE (e.semkey=? OR e.chapter=?) AND coalesce(upper(e.status),'')!='DELETE'
             ORDER BY e.sequence, e.protogloss""", (semkey, semkey)).fetchall()
         if direct:
+            dcounts = reflex_counts(c, [e['tag'] for e in direct])
             body.append('<div class="ety-list"><h3 style="margin-top:30px">Reconstructions here</h3>')
             for e in direct:
-                body.append(f'<div class="ety-hit"><a href="/etymon/{e["tag"]}" class="pf2 lat">{esc(e["protoform"])}</a>'
+                body.append(f'<div class="ety-hit"><a href="/etymon/{e["tag"]}" class="pf2 lat">{esc(alt(e["protoform"]))}</a>'
                             f'<span class="pg2">{esc(e["protogloss"])}</span>'
-                            f'<span class="tagn">{esc(e["plg"])} #{e["tag"]}</span></div>')
+                            f'<span class="tagn">{esc(e["plg"])} #{e["tag"]}{rcount_txt(dcounts.get(e["tag"], 0))}</span></div>')
             body.append('</div>')
     c.close()
     body.append('</div>')
