@@ -8,9 +8,10 @@ import sqlite3, urllib.parse, re, html, os, json
 
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
-# The canonical public origin used in citations. Placeholder until the read site is
-# deployed — set this to the real domain at deploy time so citations resolve.
-SITE_ORIGIN = "https://stedt.org"
+# The canonical public base URL used in citations (includes any path prefix, no trailing
+# slash). Defaults to the live GitHub Pages URL so copied citations resolve today; override
+# with STEDT_CITE_BASE at build time (e.g. "https://stedt.org") once a project domain is wired up.
+CITE_BASE = os.environ.get("STEDT_CITE_BASE", "https://larc-iu.github.io/stedt").rstrip("/")
 
 # Show the "preview" banner (the site is an in-progress rebuild). On by default; set
 # STEDT_PREVIEW=0 to turn it off once the site is no longer a preview.
@@ -39,6 +40,7 @@ def con():
 
 _VALID_TAGS = None
 _SEMKEY_COUNTS = None
+_XREF_LABELS = None
 def valid_etymon_tags():
     """Cached frozenset of etymon tags that have a built page (non-DELETE). Used to gate
     xref links so notes never point at an unbuilt (404) etymon. Loaded once per process."""
@@ -49,6 +51,20 @@ def valid_etymon_tags():
             "SELECT tag FROM etyma WHERE coalesce(upper(status),'')!='DELETE'"))
         c.close()
     return _VALID_TAGS
+
+def xref_labels():
+    """Cached {tag: (plg, protoform, protogloss)} for non-DELETE etyma, so note cross-references
+    can be annotated inline (e.g. '#206 PTB *(k/g)um BACK / BODY' instead of a bare '#206').
+    Loaded once per process; render_note() takes no connection, so it must self-fetch."""
+    global _XREF_LABELS
+    if _XREF_LABELS is None:
+        c = con()
+        _XREF_LABELS = {r[0]: (r[1], r[2], r[3]) for r in c.execute(
+            "SELECT e.tag, g.plg, e.protoform, e.protogloss FROM etyma e "
+            "LEFT JOIN languagegroups g ON g.grpid=e.grpid "
+            "WHERE coalesce(upper(e.status),'')!='DELETE'")}
+        c.close()
+    return _XREF_LABELS
 
 def reflex_semkey_counts():
     """Cached {lexicon.semkey: reflex count}. Each reflex carries its own gloss-level semkey
@@ -92,9 +108,19 @@ def render_note(x):
     if not x: return ""
     s = x
     valid = valid_etymon_tags()
+    labels = xref_labels()
     def _xref(m):  # only link xrefs to a built (non-DELETE) etymon; else keep the label, drop the link
         ref, txt = m.group(1), m.group(2)
-        if int(ref) in valid:
+        rid = int(ref)
+        if rid in valid:
+            lab = labels.get(rid)
+            if lab:  # annotate the bare "#N" inline (proto-language, proto-form, gloss), as the original does
+                plg, pf, pg = lab
+                bits = []
+                if plg: bits.append(esc(plg))
+                if pf: bits.append(f'<span class="recon">{esc(alt(pf))}</span>')  # CSS .recon::before adds the *
+                if pg: bits.append(esc(pg))
+                if bits: txt = f'{txt} ' + ' '.join(bits)
             return f'<a class="xref" href="/etymon/{ref}">{txt}</a>'
         return f'<span class="xref">{txt}</span>'
     s = re.sub(r'<xref[^>]*\bref="(\d+)"[^>]*>(.*?)</xref>', _xref, s, flags=re.S)
@@ -123,7 +149,9 @@ def esc(s): return html.escape(str(s)) if s is not None else ""
 def alt(s):
     """Star every ⪤-joined alternant of a proto-form. The *leading* asterisk is supplied by
     CSS (.pf/.pf2/.recon ::before); this only adds the ones the CSS can't reach."""
-    return re.sub(r'⪤\s*', '⪤ *', s) if s else (s or "")
+    # \*? consumes an asterisk the data already carries on the alternant, so a meaningful
+    # double-star (e.g. **d-k-wiy) isn't bumped to *** by adding another.
+    return re.sub(r'⪤\s*\*?', '⪤ *', s) if s else (s or "")
 
 def iso_link(code):
     """An ISO 639-3 code linked to its Glottolog languoid page (the original's Ethnologue
@@ -309,7 +337,8 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .rx-hit{display:grid;grid-template-columns:180px 1fr 1fr;gap:14px;align-items:baseline;padding:6px 0;
   border-bottom:1px solid var(--hair);font-size:15px;}
 .rx-hit .lang{color:var(--soft);font-size:13.5px;}
-.rx-hit .via{font-size:12.5px;color:var(--mut);text-align:right;}
+.rx-hit .via{font-size:12.5px;color:var(--mut);text-align:right;border-bottom:none;}
+.rx-hit .via:hover{color:var(--accent);}
 
 /* reconstructions browse: client-side filter + windowed list */
 .rbar{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;margin:0 0 14px;}
@@ -352,12 +381,25 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .idx li{break-inside:avoid;padding:2px 0;}
 .grp{font-variant:small-caps;letter-spacing:.05em;font-size:15px;color:var(--ink);margin:18px 0 2px;}
 .grp .plg2{color:var(--mut);font-variant:normal;font-size:.82em;letter-spacing:0;}
+/* stammbaum group number (e.g. 6.1.1) shown alongside subgroup names on group/languages/etymon pages */
+.grpno{color:var(--mut);font-variant-numeric:tabular-nums;font-size:.82em;letter-spacing:0;margin-right:.35em;}
+/* full family tree on group pages: compact, scrollable, one click to any node */
+.lgtree{border:1px solid var(--rule);border-radius:2px;max-height:360px;overflow:auto;padding:8px 14px;
+  font-size:13.5px;line-height:1.7;}
+.lgtree > div{white-space:nowrap;}
+.lgtree a{border-bottom:none;color:var(--soft);}
+.lgtree a:hover{color:var(--accent);}
+.lgtree .here{color:var(--ink);font-weight:700;}
 .srclangs{margin:12px 0 4px;font-size:13.5px;color:var(--soft);line-height:1.9;}
 .srcidx{list-style:none;padding:0;margin:8px 0 0;}
 .srcidx li{padding:8px 2px;border-bottom:1px solid var(--rule);}
 .srcidx li a{font-family:"Fraunces",serif;}
 .srcidx .srcref{color:var(--soft);font-size:13.5px;margin-left:9px;}
 .srcidx .srccnt{color:var(--mut);font-size:12.5px;margin-left:9px;font-variant-numeric:tabular-nums;white-space:nowrap;}
+.srcsort{font-size:13px;color:var(--mut);margin:6px 0 14px;}
+.srcsort select{font-family:inherit;font-size:13px;color:var(--ink);background:var(--paper2);
+  border:1px solid var(--rule);border-radius:2px;padding:3px 7px;}
+.srcsort select:focus{outline:none;border-color:var(--accent);}
 .subg{color:var(--soft);font-size:14px;}
 .rfx .via{color:var(--mut);}
 details.seg{border-bottom:1px solid var(--rule);}
@@ -499,7 +541,7 @@ def home():
     <script>
     const B=window.STEDT_BASE||'';
     const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const altstar=s=>String(s).replace(/⪤\\s*/g,'⪤ *');
+    const altstar=s=>String(s).replace(/⪤\\s*\\*?/g,'⪤ *');
     const bs=document.getElementById('bs'),d=document.getElementById('drop');let t;
     const note=m=>{d.innerHTML='<div class="cap" style="padding:10px 12px">'+m+'</div>';d.style.display='block';};
     bs.addEventListener('input',()=>{clearTimeout(t);const q=bs.value.trim();
@@ -551,7 +593,7 @@ def about():
       been added. It is a read-only republication intended to keep the resource available and
       citable independently of any single institution.</p>
       <h3 class="sec-label">Citing</h3>
-      <p>Each entry has a stable address of the form <code>{esc(SITE_ORIGIN)}/etymon/&lt;number&gt;</code>,
+      <p>Each entry has a stable address of the form <code>{esc(CITE_BASE)}/etymon/&lt;number&gt;</code>,
       and the etymon number is the citable identity. A ready-made citation appears at the foot of
       every entry. When citing a particular attested form, cite its original source as well.</p>
       <h3 class="sec-label">License</h3>
@@ -585,7 +627,7 @@ def etymon(tag):
     notes = c.execute("""SELECT xmlnote FROM notes WHERE tag=? AND spec='E' AND notetype!='I'
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""", (tag,)).fetchall()
     rows = c.execute("""SELECT l.rn AS rn, ln.language AS language, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn AS gfn,
-            g.grp AS subgroup, g.grpno AS groupnode, g.plg AS grpplg,
+            l.srcid AS srcid, g.grp AS subgroup, g.grpno AS groupnode, g.plg AS grpplg,
             sb.citation AS citation, ln.srcabbr AS srcabbr
         FROM lx_et_hash h JOIN lexicon l ON l.rn=h.rn
         JOIN languagenames ln ON ln.lgid=l.lgid
@@ -662,10 +704,11 @@ def etymon(tag):
             g = f'<span class="g">{esc(r["gloss"])}</span>' if (r['gloss'] and r['gloss'] != e['protogloss']) else ''
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r['gfn'] else ''
             lang = f'<a class="lang" href="/language/{r["lgid"]}">{esc(r["language"])}</a>'
+            loc = f': {esc(r["srcid"])}' if r['srcid'] else ''  # per-reflex source locus (page/entry/note)
             if r['srcabbr']:
-                src = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}</a>'
+                src = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
             else:
-                src = f'<span class="src">{esc(r["citation"] or "")}</span>'
+                src = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
             seen, links = set(), []
             for mt in analysis.get(r['rn'], []):
                 if mt and mt > 0 and mt != tag and mt not in seen and mt in morph_labels:
@@ -675,7 +718,8 @@ def etymon(tag):
             note = ''.join(f'<div class="rfxnote">{render_note(x)}</div>' for x in lnotes.get(r['rn'], []))
             rfx.append(f'<div class="rfx" id="r{r["rn"]}">{lang}'
                        f'<span class="form">{form} {g}{pos}{anl}</span>{src}{note}</div>')
-        sgs.append(f'<div class="sg" id="sg{i}"><h4>{esc(k[1])}<span class="c">{len(items)}</span></h4>'
+        code = '' if k[0] in (None, 'zz') else f'<span class="grpno">{esc(k[0])}</span>'
+        sgs.append(f'<div class="sg" id="sg{i}"><h4>{code}{esc(k[1])}<span class="c">{len(items)}</span></h4>'
                    + ''.join(rfx) + '</div>')
 
     noteshtml = ""
@@ -707,10 +751,11 @@ def etymon(tag):
         rr = ''
         for r in recon_rows:
             lab = r['grpplg'] or r['subgroup'] or (r['language'] or '').lstrip('*')
+            loc = f': {esc(r["srcid"])}' if r['srcid'] else ''
             if r['srcabbr']:
-                cit = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}</a>'
+                cit = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
             else:
-                cit = f'<span class="src">{esc(r["citation"] or "")}</span>'
+                cit = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
             gl = f' ‘{esc(r["gloss"])}’' if r['gloss'] else ''
             rr += (f'<div class="conn-row"><span class="rl">{esc(lab)}</span>'
                    f'<span class="reltgt"><span class="recon">{esc(alt(r["form"]))}</span>{gl}</span>{cit}</div>')
@@ -769,13 +814,13 @@ def etymon(tag):
     badges = '<span class="badge del">deleted</span>' if (e['status'] or '').upper() == 'DELETE' else ''
     exm = ' · <span class="exm">exemplary</span>' if (e['exemplary'] or '') == 'x' else ''
 
-    cite_text = f"STEDT etymon #{e['tag']}, *{e['protoform']} ‘{e['protogloss']}’. {SITE_ORIGIN}/etymon/{e['tag']}"
+    cite_text = f"STEDT etymon #{e['tag']}, *{e['protoform']} ‘{e['protogloss']}’. {CITE_BASE}/etymon/{e['tag']}"
     bib = ("@misc{stedt-" + str(e['tag']) + ",\n"
            "  title  = {{*" + (e['protoform'] or '') + " '" + (e['protogloss'] or '') + "'}},\n"
            "  author = {STEDT},\n"
            "  year   = {2017},\n"
            "  note   = {Sino-Tibetan Etymological Dictionary and Thesaurus (STEDT) v1.0, etymon #" + str(e['tag']) + "},\n"
-           "  url    = {" + SITE_ORIGIN + "/etymon/" + str(e['tag']) + "}\n"
+           "  url    = {" + CITE_BASE + "/etymon/" + str(e['tag']) + "}\n"
            "}")
     refs_line = f'<div>References: {esc(e["notes"])}</div>' if e['notes'] else ''
     copy_js = ("<script>document.querySelectorAll('.copybtn').forEach("
@@ -785,7 +830,7 @@ def etymon(tag):
     <section class="apparatus"><h3>Cite this entry</h3>
       <div class="citebox">
         <div>STEDT etymon #{e['tag']}, <code>*{pf} ‘{esc(e['protogloss'])}’</code>.</div>
-        <div>Stable link: <code>{esc(SITE_ORIGIN)}/etymon/{e['tag']}</code></div>
+        <div>Stable link: <code>{esc(CITE_BASE)}/etymon/{e['tag']}</code></div>
         <div>Data: STEDT v1.0 (2017). Accessed: ____.</div>
         {refs_line}
         <div class="cite-actions">
@@ -1003,6 +1048,28 @@ def source(srcabbr):
                      + ''.join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in notes)
                      + '</section>')
     citehtml = f'<div class="pg" style="font-variant:normal;font-size:16px;color:var(--soft);letter-spacing:0">{esc(cite)}</div>' if cite else ''
+
+    # copy-ready "Cite this source" apparatus (parallels the etymon page; wires the previously
+    # orphaned .citebox CSS). Access date is a fill-in blank, like the etymon citebox (static site).
+    src_url = f"{CITE_BASE}/source/{s['srcabbr']}"
+    cite_full = cite
+    if s['imprint']:
+        cite_full = (cite_full + '. ' + s['imprint']) if cite_full else s['imprint']
+    cite_full = cite_full or (s['citation'] or s['srcabbr'])
+    cite_as = f"{cite_full} — via STEDT, {src_url} (accessed ____)."
+    copy_js = ("<script>document.querySelectorAll('.copybtn').forEach("
+               "b=>b.addEventListener('click',()=>{navigator.clipboard.writeText(b.dataset.cite);"
+               "b.textContent='Copied';}));</script>")
+    apparatus = f"""
+    <section class="apparatus"><h3>Cite this source</h3>
+      <div class="citebox">
+        <div><code>{esc(cite_as)}</code></div>
+        <div>Stable link: <code>{esc(src_url)}</code></div>
+        <div class="cite-actions">
+          <button class="copybtn" data-cite="{esc(cite_as)}">Copy citation</button>
+        </div>
+      </div>
+    </section>{copy_js}"""
     body = f"""
     <div class="ety-head">
       <div class="plg">Source · {esc(s['srcabbr'])}</div>
@@ -1012,7 +1079,8 @@ def source(srcabbr):
       <div class="metabar">{''.join(meta)}</div>
     </div>
     {noteshtml}
-    <section class="reflexes"><h3>Languages in this source</h3>{rows}</section>"""
+    <section class="reflexes"><h3>Languages in this source</h3>{rows}</section>
+    {apparatus}"""
     return page(s['citation'] or s['srcabbr'], body, nav="sources")
 
 def group(grpid):
@@ -1040,18 +1108,32 @@ def group(grpid):
         FROM etyma e WHERE e.grpid=? AND coalesce(upper(e.status),'')!='DELETE'
         ORDER BY e.sequence, e.protogloss""", (grpid,)).fetchall()
     rcounts = reflex_counts(c, [r['tag'] for r in recons])
+    # the complete genetic tree, so every group page offers one-click cross-branch navigation
+    alltree = c.execute(
+        "SELECT grpid, grpno, grp FROM languagegroups WHERE grpid IS NOT NULL AND grpno IS NOT NULL").fetchall()
     c.close()
 
     plg = g['plg'] or ''
-    head = esc(g['grp'] or grpno)
+    head = (f'<span class="grpno">{esc(grpno)}</span>' if grpno else '') + esc(g['grp'] or grpno or '—')
     plg_html = f' <span class="plg2">({esc(plg)})</span>' if plg else ''
+
+    def treerow(t):
+        depth = str(t['grpno']).count('.')
+        lab = f'<span class="grpno">{esc(t["grpno"])}</span>{esc(t["grp"] or "")}'
+        inner = (f'<span class="here">{lab}</span>' if t['grpid'] == grpid
+                 else f'<a href="/group/{t["grpid"]}">{lab}</a>')
+        return f'<div style="padding-left:{depth*16}px">{inner}</div>'
+    tree = ''.join(treerow(t) for t in sorted(alltree, key=lambda t: natkey(t['grpno'])))
+    treehtml = (f'<details class="seg" open><summary>Family tree<span class="c">{len(alltree)} groups</span></summary>'
+                f'<div class="lgtree">{tree}</div></details>')
     crumb_links = ['<a href="/languages">Languages</a>'] + \
                   [f'<a href="/group/{gg["grpid"]}">{esc(gg["grp"])}</a>' for gg in lin]
     meta = [f'<span><b>{len(langs)}</b> languages</span>']
     if recons: meta.append(f'<span><b>{len(recons):,}</b> reconstructions</span>')
 
     def subitem(ch, nl):
-        lab = esc(ch['grp']) + (f' <span class="plg2">({esc(ch["plg"])})</span>' if ch['plg'] else '')
+        code = f'<span class="grpno">{esc(ch["grpno"])}</span>' if ch['grpno'] else ''
+        lab = code + esc(ch['grp']) + (f' <span class="plg2">({esc(ch["plg"])})</span>' if ch['plg'] else '')
         return (f'<li><a class="row" href="/group/{ch["grpid"]}">'
                 f'<span class="ti">{lab}</span><span class="ct">{nl} languages</span></a></li>')
     subhtml = ('<section class="thes"><h3>Subgroups</h3><ul>'
@@ -1086,6 +1168,7 @@ def group(grpid):
       <div class="crumbs">{' &nbsp;›&nbsp; '.join(crumb_links)}</div>
       <div class="metabar">{''.join(meta)}</div>
     </div>
+    {treehtml}
     {subhtml}
     {langhtml}
     {reconhtml}"""
@@ -1177,43 +1260,56 @@ def reconstructions():
 
 def languages_index():
     c = con()
-    rows = c.execute("""SELECT g.grpno AS grpno, g.grp AS grp, g.plg AS plg, g.grpid AS grpid,
-            ln.language AS language, ln.lgid AS lgid, count(*) AS n
+    # every genetic-classification node, so headline subgroups (Lolo-Burmese, Bodo-Garo, Tani, …)
+    # and the two "previously published reconstructions" groups appear as headings even when no
+    # member language is directly attested under them.
+    allgroups = c.execute(
+        "SELECT grpid, grpno, grp, plg FROM languagegroups WHERE grpid IS NOT NULL").fetchall()
+    rows = c.execute("""SELECT ln.grpid AS grpid, ln.language AS language, ln.lgid AS lgid, count(*) AS n
         FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
-        LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         WHERE ln.language NOT LIKE '*%'
         GROUP BY ln.lgid""").fetchall()
     c.close()
-    groups, ntot = {}, 0
+    members, ntot = {}, 0   # grpid -> {language name: (lgid, max reflex count)}
     for r in rows:
         nm = r['language'] or ''
         if not nm: continue
-        key = (r['grpno'] or 'zz', r['grp'] or '—', r['plg'] or '', r['grpid'])
-        d = groups.setdefault(key, {})
+        d = members.setdefault(r['grpid'], {})
         cur = d.get(nm)
         if cur is None or r['n'] > cur[1]:
             d[nm] = (r['lgid'], r['n'])
-    for d in groups.values(): ntot += len(d)
-    gkeys = sorted(groups, key=lambda k: natkey(k[0]))
-    out = ['<div class="ety-head"><div class="pagetitle">Languages</div>',
-           f'<div class="metabar"><span><b>{ntot:,}</b>languages</span><span>by genetic subgroup</span></div></div>']
-    for grpno, grp, plg, grpid in gkeys:
-        langs = groups[(grpno, grp, plg, grpid)]
-        depth = str(grpno).count('.')
-        head = esc(grp) + (f' <span class="plg2">({esc(plg)})</span>' if plg else '')
+    for d in members.values(): ntot += len(d)
+
+    def block(grpno, grp, plg, grpid, langs):
+        depth = str(grpno).count('.') if grpno else 0
+        code = f'<span class="grpno">{esc(grpno)}</span>' if grpno else ''
+        head = code + esc(grp or '—') + (f' <span class="plg2">({esc(plg)})</span>' if plg else '')
         gid = f' id="g{grpid}"' if grpid is not None else ''
         headhtml = (f'<a href="/group/{grpid}">{head}</a>' if grpid is not None else head)
         items = ''.join(f'<li><a href="/language/{lid}">{esc(nm)}</a></li>'
                         for nm, (lid, _) in sorted(langs.items(), key=lambda kv: kv[0].lower()))
-        out.append(f'<div class="grpblock" style="margin-left:{depth*18}px">'
-                   f'<h4 class="grp"{gid}>{headhtml}</h4>'
-                   f'<ul class="idx">{items}</ul></div>')
+        idx = f'<ul class="idx">{items}</ul>' if items else ''
+        return (f'<div class="grpblock" style="margin-left:{depth*18}px">'
+                f'<h4 class="grp"{gid}>{headhtml}</h4>{idx}</div>')
+
+    out = ['<div class="ety-head"><div class="pagetitle">Languages</div>',
+           f'<div class="metabar"><span><b>{ntot:,}</b> languages</span><span>by genetic subgroup</span></div></div>']
+    for g in sorted(allgroups, key=lambda g: natkey(g['grpno'])):
+        out.append(block(g['grpno'], g['grp'], g['plg'], g['grpid'], members.get(g['grpid'], {})))
+    # any attested language whose grpid isn't a known classification node (incl. NULL) stays reachable
+    known = {g['grpid'] for g in allgroups}
+    leftover = {}
+    for gid, d in members.items():
+        if gid not in known:
+            leftover.update(d)
+    if leftover:
+        out.append(block(None, 'Unclassified', '', None, leftover))
     return page("Languages", ''.join(out), nav="languages")
 
 def sources_index():
     c = con()
     rows = c.execute("""SELECT sb.srcabbr AS srcabbr, sb.citation AS citation, sb.author AS author,
-            sb.year AS year, sb.title AS title,
+            sb.year AS year, sb.title AS title, sb.imprint AS imprint,
             count(DISTINCT CASE WHEN l.rn IS NOT NULL THEN ln.lgid END) AS nlang,
             count(l.rn) AS nforms
         FROM srcbib sb
@@ -1224,7 +1320,12 @@ def sources_index():
         ORDER BY lower(coalesce(nullif(sb.author,''),nullif(sb.citation,''),sb.srcabbr)), sb.year""").fetchall()
     c.close()
     def refstr(s):
-        return ' '.join(x for x in (s['author'], f"({s['year']})" if s['year'] else '', s['title']) if x)
+        # full reference incl. the publication imprint (journal/issue/pages or publisher),
+        # so the venue is visible at a glance instead of only on the detail page.
+        base = ' '.join(x for x in (s['author'], f"({s['year']})" if s['year'] else '', s['title']) if x)
+        if s['imprint']:
+            base = (base + '. ' + s['imprint']) if base else s['imprint']
+        return base
     data = [s for s in rows if s['nforms']]
     refonly = [s for s in rows if not s['nforms']]
 
@@ -1232,7 +1333,9 @@ def sources_index():
         cit = esc(s['citation'] or s['srcabbr'])
         ref = esc(refstr(s))
         refhtml = f'<span class="srcref">{ref}</span>' if ref and ref != cit else ''
-        return (f'<li><a href="/source/{esc(s["srcabbr"])}">{cit}</a>{refhtml}'
+        au = esc((s['author'] or s['citation'] or s['srcabbr'] or '').lower())
+        return (f'<li data-author="{au}" data-forms="{s["nforms"]}" data-langs="{s["nlang"]}">'
+                f'<a href="/source/{esc(s["srcabbr"])}">{cit}</a>{refhtml}'
                 f'<span class="srccnt">{s["nforms"]:,} forms · {s["nlang"]} languages</span></li>')
     main = ''.join(li(s) for s in data)
     refitems = ''.join(
@@ -1243,10 +1346,33 @@ def sources_index():
                 f'<p class="cap">Cited in the literature but with no attested forms held in STEDT.</p>'
                 f'<ul class="idx">{refitems}</ul></details>') if refonly else ''
     total_forms = sum(s['nforms'] for s in data)
+    sortctl = ('<div class="srcsort">Sort <select id="srcsort">'
+               '<option value="author">by author</option>'
+               '<option value="forms">most forms</option>'
+               '<option value="langs">most languages</option></select></div>')
+    sort_js = """
+    <script>
+    (function(){
+      var sel=document.getElementById('srcsort'),ul=document.getElementById('srclist');
+      if(!sel||!ul)return;
+      var items=[].slice.call(ul.children);
+      sel.addEventListener('change',function(){
+        var k=sel.value;
+        items.sort(function(a,b){
+          if(k==='author'){var x=a.getAttribute('data-author'),y=b.getAttribute('data-author');
+            return x<y?-1:x>y?1:0;}
+          return (+b.getAttribute('data-'+k)||0)-(+a.getAttribute('data-'+k)||0);
+        });
+        var f=document.createDocumentFragment();
+        items.forEach(function(li){f.appendChild(li);});
+        ul.appendChild(f);
+      });
+    })();
+    </script>"""
     body = (f'<div class="ety-head"><div class="pagetitle">Sources</div>'
             f'<div class="metabar"><span><b>{len(data):,}</b> sources with data</span>'
             f'<span><b>{total_forms:,}</b> forms</span></div></div>'
-            f'<ul class="srcidx">{main}</ul>{refblock}')
+            f'{sortctl}<ul class="srcidx" id="srclist">{main}</ul>{refblock}{sort_js}')
     return page("Sources", body, nav="sources")
 
 def search_page(q=""):
@@ -1262,7 +1388,7 @@ def search_page(q=""):
     <script>
     const B=window.STEDT_BASE||'';
     const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const altstar=s=>String(s).replace(/⪤\\s*/g,'⪤ *');
+    const altstar=s=>String(s).replace(/⪤\\s*\\*?/g,'⪤ *');
     const bs=document.getElementById('bs');
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
     async function run(){
