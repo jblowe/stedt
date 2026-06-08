@@ -4,7 +4,7 @@ build_static.py to prerender every page to static HTML. There is no server: the 
 site is static files on GitHub Pages, and search runs client-side (WASM SQLite over
 search.db). Reads the compiled stedt.sqlite.
 """
-import sqlite3, urllib.parse, re, html, os
+import sqlite3, urllib.parse, re, html, os, json
 
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
@@ -245,6 +245,18 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .rx-hit .lang{color:var(--soft);font-size:13.5px;}
 .rx-hit .via{font-size:12.5px;color:var(--mut);text-align:right;}
 
+/* reconstructions browse: client-side filter + windowed list */
+.rbar{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;margin:0 0 14px;}
+.rbar input{flex:1;min-width:240px;font-family:inherit;font-size:16px;padding:9px 13px;
+  border:1px solid var(--rule);background:var(--paper2);color:var(--ink);border-radius:2px;}
+.rbar input:focus{outline:none;border-color:var(--accent);}
+.rcount{font-size:13px;color:var(--mut);white-space:nowrap;font-variant-numeric:tabular-nums;}
+.rnone{display:none;color:var(--mut);font-size:15px;padding:24px 0;}
+.rmore{margin:18px 0 0;}
+.rmore button{font-family:inherit;font-size:14px;color:var(--accent);background:none;border:none;
+  cursor:pointer;padding:6px 0;border-bottom:1px dotted var(--rule);}
+.rmore button:hover{color:var(--ink);}
+
 /* thesaurus */
 .thes ul{list-style:none;padding:0;margin:0;}
 .thes li{border-bottom:1px solid var(--rule);}
@@ -270,7 +282,6 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .idx li{break-inside:avoid;padding:2px 0;}
 .grp{font-variant:small-caps;letter-spacing:.05em;font-size:15px;color:var(--ink);margin:18px 0 2px;}
 .grp .plg2{color:var(--mut);font-variant:normal;font-size:.82em;letter-spacing:0;}
-.pager{display:flex;align-items:baseline;gap:22px;margin:26px 0 0;font-size:14px;color:var(--mut);}
 .srclangs{margin:12px 0 4px;font-size:13.5px;color:var(--soft);line-height:1.9;}
 .subg{color:var(--soft);font-size:14px;}
 .rfx .via{color:var(--mut);}
@@ -780,32 +791,85 @@ def source(srcabbr):
     <section class="reflexes"><h3>Languages in this source</h3>{rows}</section>"""
     return page(s['citation'] or s['srcabbr'], body, nav="sources"), 200
 
-def reconstructions(page_n=1):
-    c = con(); PER = 100000   # one page: the static site has no ?page= routes
+def reconstructions():
+    # The whole list (~4k etyma) is shipped once as compact JSON and rendered
+    # client-side in windows of CHUNK rows, with an instant in-page filter. This
+    # keeps the initial DOM small (~200 nodes vs ~31k) on slow devices while the
+    # gloss-ordered full set stays a single, filterable, statically-hosted page.
+    c = con()
     OK = "coalesce(upper(e.status),'')!='DELETE'"
-    total = c.execute(f"SELECT count(*) FROM etyma e WHERE {OK}").fetchone()[0]
-    pages = max(1, (total + PER - 1) // PER)
-    page_n = max(1, min(page_n, pages))
-    off = (page_n - 1) * PER
     rows = c.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
         FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-        WHERE {OK} ORDER BY e.protogloss, e.tag LIMIT ? OFFSET ?""", (PER, off)).fetchall()
+        WHERE {OK} ORDER BY e.protogloss, e.tag""").fetchall()
     c.close()
-    hits = ''.join(
-        f'<a class="ety-hit" href="/etymon/{r["tag"]}">'
-        f'<span class="pf2 lat">{esc(r["protoform"])}</span>'
-        f'<span class="pg2">{esc(r["protogloss"])}</span>'
-        f'<span class="tagn">{esc(r["plg"])} #{r["tag"]}</span></a>' for r in rows)
-    prev = f'<a href="/reconstructions?page={page_n-1}">← previous</a>' if page_n > 1 else '<span></span>'
-    nxt = f'<a href="/reconstructions?page={page_n+1}">next →</a>' if page_n < pages else '<span></span>'
-    pager = f'<div class="pager">{prev}<span>page {page_n} of {pages}</span>{nxt}</div>'
+    total = len(rows)
+    data = [[r["tag"], r["protoform"] or "", r["protogloss"] or "", r["plg"] or ""] for r in rows]
+    # < keeps the payload from breaking out of the <script> tag and stays valid JSON.
+    payload = json.dumps(data, separators=(",", ":"), ensure_ascii=False).replace("<", "\\u003c")
     body = f"""
     <div class="ety-head">
       <div class="pagetitle">Reconstructions</div>
-      <div class="metabar"><span><b>{total:,}</b>etyma</span><span>ordered by gloss</span></div>
+      <div class="metabar"><span><b>{total:,}</b> etyma</span><span>ordered by gloss</span></div>
     </div>
-    {hits}
-    {pager}"""
+    <div class="rbar">
+      <input id="rfilter" type="search" placeholder="Filter by form, gloss, group, or tag…" autocomplete="off" autofocus>
+      <span class="rcount" id="rcount"></span>
+    </div>
+    <div id="recon-list"></div>
+    <p class="rnone">No reconstructions match your filter.</p>
+    <div class="rmore" id="rmore-wrap" hidden><button id="rmore" type="button">Show more</button></div>
+    <noscript><p class="cap">Enable JavaScript to browse and filter all reconstructions, or use
+      <a href="/search">search</a>. Each etymon also has its own page, linked from the
+      <a href="/thesaurus">thesaurus</a> and <a href="/languages">language</a> indexes.</p></noscript>
+    <script id="recon-data" type="application/json">{payload}</script>
+    <script>
+    (function(){{
+      var B=window.STEDT_BASE||'';
+      var esc=function(s){{return String(s==null?'':s).replace(/[&<>"]/g,function(c){{
+        return {{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c];}});}};
+      var norm=function(s){{return String(s==null?'':s).toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');}};
+      var DATA=JSON.parse(document.getElementById('recon-data').textContent);
+      for(var i=0;i<DATA.length;i++){{var r=DATA[i];r[4]=norm(r[1]+' '+r[2]+' '+r[3]+' #'+r[0]);}}
+      var CHUNK=200, view=DATA, shown=0;
+      var list=document.getElementById('recon-list'),
+          wrap=document.getElementById('rmore-wrap'),
+          btn=document.getElementById('rmore'),
+          none=document.querySelector('.rnone'),
+          count=document.getElementById('rcount'),
+          input=document.getElementById('rfilter');
+      function row(r){{return '<a class="ety-hit" href="'+B+'/etymon/'+r[0]+'">'+
+        '<span class="pf2 lat">'+esc(r[1])+'</span>'+
+        '<span class="pg2">'+esc(r[2])+'</span>'+
+        '<span class="tagn">'+esc(r[3])+' #'+esc(r[0])+'</span></a>';}}
+      function updateCount(){{
+        var t=DATA.length, m=view.length;
+        var s=(m===t)?t.toLocaleString()+' etyma':m.toLocaleString()+(m===1?' match':' matches');
+        if(shown<m) s+=' · '+shown.toLocaleString()+' shown';
+        count.textContent=s;
+      }}
+      function renderMore(){{
+        var next=view.slice(shown,shown+CHUNK), h='';
+        for(var i=0;i<next.length;i++) h+=row(next[i]);
+        list.insertAdjacentHTML('beforeend',h);
+        shown+=next.length;
+        wrap.hidden=shown>=view.length;
+        none.style.display=view.length?'none':'block';
+        updateCount();
+      }}
+      function apply(){{
+        var q=norm(input.value.trim());
+        view=q?DATA.filter(function(r){{return r[4].indexOf(q)>=0;}}):DATA;
+        list.innerHTML=''; shown=0; renderMore();
+      }}
+      btn.addEventListener('click',renderMore);
+      var tmr; input.addEventListener('input',function(){{clearTimeout(tmr);tmr=setTimeout(apply,90);}});
+      if('IntersectionObserver' in window){{
+        var io=new IntersectionObserver(function(es){{if(es[0].isIntersecting&&!wrap.hidden)renderMore();}});
+        io.observe(wrap);
+      }}
+      renderMore();
+    }})();
+    </script>"""
     return page("Reconstructions", body, nav="reconstructions")
 
 def languages_index():
