@@ -275,6 +275,11 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .reflexes h3 .toggle-all{margin-left:auto;font-family:"Fraunces",serif;font-size:11.5px;font-variant:small-caps;
   letter-spacing:.06em;color:var(--mut);background:none;border:1px solid var(--rule);border-radius:3px;padding:2px 10px;cursor:pointer;}
 .reflexes h3 .toggle-all:hover{color:var(--accent);border-color:var(--accent);}
+/* group-page sections (Subgroups / Languages / Reconstructions): one uniform gap above each
+   header, plus a right-aligned count — scoped here so other .ety-list headers are untouched */
+.grpsec{margin-top:26px;}
+.grpsec h3{display:flex;align-items:baseline;}
+.grpsec h3 .cnt{margin-left:auto;font-size:.92em;letter-spacing:0;color:var(--mut);font-variant-numeric:tabular-nums;}
 .notes{margin:26px 0 8px;}
 .np{margin:0 0 12px;max-width:38em;} .fn{font-size:.86em;color:var(--soft);}
 .note-block{margin-bottom:6px;}
@@ -1259,7 +1264,7 @@ def group(grpid):
         lab = code + esc(ch['grp']) + (f' <span class="plg2">({esc(ch["plg"])})</span>' if ch['plg'] else '')
         return (f'<li><a class="row" href="/group/{ch["grpid"]}">'
                 f'<span class="ti">{lab}</span><span class="ct">{nl} languages</span></a></li>')
-    subhtml = ('<section class="thes"><h3>Subgroups</h3><ul>'
+    subhtml = ('<section class="thes grpsec"><h3>Subgroups</h3><ul>'
                + ''.join(subitem(ch, nl) for ch, nl in childinfo) + '</ul></section>') if childinfo else ''
 
     def langrow(l):
@@ -1273,11 +1278,13 @@ def group(grpid):
             mid.append(f'{len(srcs)} sources')
         if l['silcode']:
             mid.append('ISO ' + iso_link(l['silcode']))
-        return (f'<div class="rfx"><span><a class="lang" href="/language/{l["lgid"]}">{esc(l["language"])}</a>{ab}</span>'
-                f'<span class="subg">{" · ".join(mid)}</span>'
-                f'<span class="src">{l["n"]:,} forms</span></div>')
-    langhtml = (f'<section class="reflexes"><h3>Languages<span class="cnt">{len(langs)}</span></h3>'
-                + ''.join(langrow(l) for l in langs) + '</section>') if langs else ''
+        # same row primitive as the Reconstructions list below (and as language/reconstruction rows
+        # on the search page), so the group page's two entity lists share one rhythm
+        return (f'<div class="ety-hit"><span class="rf"><a href="/language/{l["lgid"]}">{esc(l["language"])}</a>{ab}</span>'
+                f'<span class="gl2">{" · ".join(mid)}</span>'
+                f'<span class="tagn">{l["n"]:,} forms</span></div>')
+    langhtml = (f'<div class="ety-list grpsec"><h3>Languages<span class="cnt">{len(langs)}</span></h3>'
+                + ''.join(langrow(l) for l in langs) + '</div>') if langs else ''
 
     reconhtml = ''
     if recons:
@@ -1285,7 +1292,7 @@ def group(grpid):
             f'<div class="ety-hit"><a href="/etymon/{r["tag"]}" class="pf2 lat">{esc(alt(r["protoform"]))}</a>'
             f'<span class="pg2">{esc(r["protogloss"])}</span>'
             f'<span class="tagn">{esc(plg)} #{r["tag"]}{rcount_txt(rcounts.get(r["tag"], 0))}</span></div>' for r in recons)
-        reconhtml = (f'<div class="ety-list"><h3 style="margin-top:26px">Reconstructions'
+        reconhtml = (f'<div class="ety-list grpsec"><h3>Reconstructions'
                      f'</h3>{items}</div>')
 
     body = f"""
