@@ -251,6 +251,8 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx .anl{display:block;font-size:12px;color:var(--mut);margin-top:1px;}
 .rfx .anl a{border-bottom:none;color:var(--mut);}
 .rfx .anl a:hover{color:var(--accent);border-bottom:1px solid var(--accent);}
+.rfx .rfxnote{grid-column:1/-1;font-size:13px;color:var(--soft);margin:2px 0 2px;padding-left:2px;}
+.rfx .rfxnote p{margin:0;max-width:62em;}
 
 /* end apparatus: citation + references, de-banner'd */
 .apparatus{margin-top:42px;}
@@ -564,7 +566,7 @@ def etymon(tag):
         WHERE h.tag=? GROUP BY l.rn""", (tag,)).fetchall()
     hptb = c.execute("""SELECT h.plg, h.protoform, h.protogloss, h.pages
         FROM et_hptb_hash x JOIN hptb h ON h.hptbid=x.hptbid WHERE x.tag=? ORDER BY x.ord""", (tag,)).fetchall()
-    meso = c.execute("""SELECT g.grp AS subgroup, g.grpno AS groupnode, m.form, m.gloss, m.variant, m.old_note
+    meso = c.execute("""SELECT g.grp AS subgroup, g.grpno AS groupnode, g.grpid AS grpid, m.form, m.gloss, m.variant, m.old_note
         FROM mesoroots m LEFT JOIN languagegroups g ON g.grpid=m.grpid
         WHERE m.tag=? ORDER BY g.grpno, m.id""", (tag,)).fetchall()
     # cross-reference labels: collect every tag mentioned in a pure tag-list field
@@ -595,8 +597,15 @@ def etymon(tag):
         for r in c.execute(f"SELECT tag, protoform FROM etyma WHERE tag IN ({qm}) "
                            f"AND coalesce(upper(status),'')!='DELETE'", chunk):
             morph_labels[r['tag']] = r['protoform']
-    crumb = breadcrumb(c, e['semkey'])
-    crumb_chap = breadcrumb(c, e['chapter']) if (e['chapter'] and e['chapter'] != e['semkey']) else ''
+    # per-reflex (L) notes — the largest note class; legacy shows these as reflex footnotes.
+    lnotes = {}
+    for i in range(0, len(rns), 900):
+        chunk = rns[i:i + 900]; qm = ','.join('?' * len(chunk))
+        for r in c.execute(f"SELECT rn, xmlnote FROM notes WHERE spec='L' AND notetype!='I' "
+                           f"AND xmlnote IS NOT NULL AND rn IN ({qm}) ORDER BY ord, noteid", chunk):
+            lnotes.setdefault(r['rn'], []).append(r['xmlnote'])
+    ecat = e['chapter'] or e['semkey']   # legacy files an etymon by its (more specific) chapter, not semkey
+    crumb = breadcrumb(c, ecat)
     c.close()
 
     # separate attested reflexes from previously-published reconstructions (language is a *proto-form node)
@@ -635,8 +644,9 @@ def etymon(tag):
                     seen.add(mt)
                     links.append(f'<a href="/etymon/{mt}">*{esc(alt(morph_labels[mt]))}</a>')
             anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ''
+            note = ''.join(f'<div class="rfxnote">{render_note(x)}</div>' for x in lnotes.get(r['rn'], []))
             rfx.append(f'<div class="rfx" id="r{r["rn"]}">{lang}'
-                       f'<span class="form">{form} {g}{pos}{anl}</span>{src}</div>')
+                       f'<span class="form">{form} {g}{pos}{anl}</span>{src}{note}</div>')
         sgs.append(f'<div class="sg" id="sg{i}"><h4>{esc(k[1])}<span class="c">{len(items)}</span></h4>'
                    + ''.join(rfx) + '</div>')
 
@@ -655,7 +665,10 @@ def etymon(tag):
         mr = ''
         for m in meso:
             sm = f'<span class="src">{esc(m["old_note"])}</span>' if m['old_note'] else '<span class="src"></span>'
-            mr += (f'<div class="rfx"><span class="lang">{esc(m["subgroup"] or "")}</span>'
+            lab = esc(m['subgroup'] or '')
+            langcell = (f'<a class="lang" href="/group/{m["grpid"]}">{lab}</a>'
+                        if m['grpid'] is not None else f'<span class="lang">{lab}</span>')
+            mr += (f'<div class="rfx">{langcell}'
                    f'<span class="form"><span class="recon">{esc(alt(m["form"]))}</span> '
                    f'<span class="g">{esc(m["gloss"])}</span></span>{sm}</div>')
         mesohtml = f'<section class="meso"><h3>Intermediate reconstructions</h3>{mr}</section>'
@@ -718,7 +731,13 @@ def etymon(tag):
 
     pf = esc(alt(e['protoform']))
     plg_ab = e['plg'] or ''
-    plg_html = f'<span title="{esc(plg_ab)}">{esc(PLG_FULL.get(plg_ab, plg_ab))}</span>' if plg_ab else ''
+    plg_full = esc(PLG_FULL.get(plg_ab, plg_ab))
+    if plg_ab and e['grpid'] is not None:
+        plg_html = f'<a href="/group/{e["grpid"]}" title="{esc(plg_ab)}">{plg_full}</a>'
+    elif plg_ab:
+        plg_html = f'<span title="{esc(plg_ab)}">{plg_full}</span>'
+    else:
+        plg_html = ''
     badges = '<span class="badge del">deleted</span>' if (e['status'] or '').upper() == 'DELETE' else ''
     exm = ' · <span class="exm">exemplary</span>' if (e['exemplary'] or '') == 'x' else ''
 
@@ -758,8 +777,7 @@ def etymon(tag):
       <div class="pf">{pf}{badges}</div>
       <div class="pg">{esc(e['protogloss'])}</div>
       <div class="pl">{plg_html}{exm}</div>
-      <div class="crumbs">Semantic domain: {crumb or esc(e['semkey'])}</div>
-      {f'<div class="crumbs">Also classified under: {crumb_chap}</div>' if crumb_chap else ''}
+      <div class="crumbs">Semantic domain: {crumb or esc(ecat)}</div>
     </div>
     {phonhtml}
     {reflexeshtml}
@@ -820,13 +838,19 @@ def language(lgid):
         c.close(); return page("Not found", "<p>No such language.</p>")
     grp = c.execute("SELECT grpid,grpno,grp,plg FROM languagegroups WHERE grpid=?", (ln['grpid'],)).fetchone()
     src = c.execute("SELECT srcabbr,citation FROM srcbib WHERE srcabbr=?", (ln['srcabbr'],)).fetchone()
-    rows = c.execute("""SELECT l.reflex, l.gloss, l.gfn, l.semkey,
-            (SELECT h.tag FROM lx_et_hash h WHERE h.rn=l.rn AND h.tag>0 LIMIT 1) AS tag
+    rows = c.execute("""SELECT l.rn, l.reflex, l.gloss, l.gfn, l.semkey
         FROM lexicon l WHERE l.lgid=? ORDER BY l.semkey, l.reflex""", (lgid,)).fetchall()
     total = len(rows)
     chap = {r['semkey']: r['chaptertitle'] for r in c.execute("SELECT semkey,chaptertitle FROM chapters")}
     lin = group_lineage(c, grp['grpno']) if grp else []
-    plabels = proto_labels(c, {r['tag'] for r in rows if r['tag']})
+    # a reflex can belong to several etyma (polymorphemic); collect all, ordered by morpheme.
+    rn_tags = {}
+    rns = [r['rn'] for r in rows]
+    for i in range(0, len(rns), 900):
+        chunk = rns[i:i + 900]; qm = ','.join('?' * len(chunk))
+        for hr in c.execute(f"SELECT rn, tag FROM lx_et_hash WHERE tag>0 AND rn IN ({qm}) ORDER BY rn, ind", chunk):
+            rn_tags.setdefault(hr['rn'], []).append(hr['tag'])
+    plabels = proto_labels(c, {t for ts in rn_tags.values() for t in ts})
     # the same language from other sources is a distinct lgid; surface those so source variants
     # are reachable (the languages index collapses them by name).
     siblings = c.execute("""SELECT ln2.lgid AS lgid, sb.citation AS citation, ln2.srcabbr AS srcabbr,
@@ -864,8 +888,12 @@ def language(lgid):
             catcell = (f'<a class="lang" href="/thesaurus/{esc(sk)}">{esc(cat)}</a>'
                        if sk else '<span class="lang">—</span>')
             form = esc(r['reflex']).replace('◦', '<span class="br">◦</span>')
-            via = (f'<a class="via" href="/etymon/{r["tag"]}">› *{esc(alt(plabels[r["tag"]]))}</a>'
-                   if (r['tag'] and r['tag'] in plabels) else '')
+            seen, vias = set(), []
+            for t in rn_tags.get(r['rn'], []):
+                if t in plabels and t not in seen:
+                    seen.add(t)
+                    vias.append(f'<a class="via" href="/etymon/{t}">› *{esc(alt(plabels[t]))}</a>')
+            via = ' '.join(vias)
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r['gfn'] else ''
             rfx.append(f'<div class="rfx">{catcell}'
                        f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span>{pos}</span>'
@@ -1215,7 +1243,7 @@ def search_page(q=""):
       if(reflexes.length){
         out+='<div class="sec-label">Attested forms</div>';
         for(const r of reflexes){
-          const via=r.tag?`<a class="via" href="${B}/etymon/${r.tag}">› *${altstar(esc(r.pf))}</a>`:'<span class="via">untagged</span>';
+          const via=(r.etyma&&r.etyma.length)?r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' '):'<span class="via">untagged</span>';
           out+=`<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span><span class="lat">${esc(r.form)}</span> ‘${esc(r.gloss)}’</span>${via}</div>`;
         }
       }
@@ -1225,6 +1253,10 @@ def search_page(q=""):
     window.addEventListener('DOMContentLoaded',run);
     </script>"""
     return page("Search", body, q)
+
+# Legacy files an etymon under its (more specific) `chapter`; `semkey` is only a fallback for
+# the lone live etymon whose chapter doesn't resolve. Used for thesaurus placement + counts.
+ECAT = "coalesce(nullif(e.chapter,''),e.semkey)"
 
 def thesaurus(semkey=None):
     c = con()
@@ -1272,11 +1304,10 @@ def thesaurus(semkey=None):
                 disp, depth = sk.split('.')[0], 0
             else:
                 disp, depth = sk, sk.count('.')
-            # count the *displayed* node: an integer chapter root (disp='1') rolls up its whole
-            # subtree incl. its N.0 overview; sk='1.0' would only match the empty 1.0.% bucket.
-            cnt = c.execute("""SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'
-                AND (e.semkey=? OR e.semkey LIKE ? OR e.chapter=? OR e.chapter LIKE ?)""",
-                (disp, disp + '.%', disp, disp + '.%')).fetchone()[0]
+            # count the *displayed* node by effective category; the integer root (disp='1')
+            # rolls up its whole subtree (incl. its N.0 overview, whose ecat is '1.0').
+            cnt = c.execute(f"""SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'
+                AND ({ECAT}=? OR {ECAT} LIKE ?)""", (disp, disp + '.%')).fetchone()[0]
             tree.append((disp, depth, n['chaptertitle'], cnt))
         tree.sort(key=lambda r: natkey(r[0]))
         body.append('<ul class="tree">')
@@ -1295,9 +1326,8 @@ def thesaurus(semkey=None):
         body.append('<ul>')
         for k in kids:
             sk = k['semkey']
-            cnt = c.execute("""SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'
-                AND (e.semkey=? OR e.semkey LIKE ? OR e.chapter=? OR e.chapter LIKE ?)""",
-                (sk, sk + '.%', sk, sk + '.%')).fetchone()[0]
+            cnt = c.execute(f"""SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'
+                AND ({ECAT}=? OR {ECAT} LIKE ?)""", (sk, sk + '.%')).fetchone()[0]
             body.append(f'<li><a class="row" href="/thesaurus/{k["semkey"]}">'
                         f'<span class="sk">{esc(k["semkey"])}</span><span class="ti">{esc(k["chaptertitle"])}</span>'
                         f'<span class="ct">{cnt} etyma</span></a></li>')
@@ -1305,9 +1335,9 @@ def thesaurus(semkey=None):
     if semkey:
         direct = c.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
             FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-            WHERE (e.semkey IN ({ownph}) OR e.chapter IN ({ownph}))
+            WHERE {ECAT} IN ({ownph})
               AND coalesce(upper(e.status),'')!='DELETE'
-            ORDER BY e.sequence, e.protogloss""", own + own).fetchall()
+            ORDER BY e.sequence, e.protogloss""", own).fetchall()
         if direct:
             dcounts = reflex_counts(c, [e['tag'] for e in direct])
             body.append('<div class="ety-list"><h3 style="margin-top:30px">Reconstructions here</h3>')

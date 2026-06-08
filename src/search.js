@@ -59,12 +59,15 @@ function run(db, sql, params) {
 }
 
 // --- the two queries, identical to render.py's search_data() ---
+// A reflex can belong to several etyma (polymorphemic) — aggregate them all (non-DELETE only),
+// rather than GROUP BY picking one arbitrarily. json_group_array → parsed/deduped in stedtSearch.
 const REFLEX_SQL = `
   SELECT ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.rn AS rn,
-         e.tag AS tag, e.protoform AS pf, e.protogloss AS pg
+         json_group_array(json_object('tag', e.tag, 'pf', e.protoform))
+           FILTER (WHERE e.tag IS NOT NULL) AS etyma
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
   LEFT JOIN lx_et_hash h ON h.rn = l.rn AND h.tag > 0
-  LEFT JOIN etyma e ON e.tag = h.tag
+  LEFT JOIN etyma e ON e.tag = h.tag AND coalesce(upper(e.status), '') != 'DELETE'
   WHERE l.rn IN (SELECT rowid FROM lexicon_fts WHERE lexicon_fts MATCH ? LIMIT ?)
   GROUP BY l.rn LIMIT ?`;
 
@@ -102,6 +105,17 @@ export async function stedtSearch(query, limit = 40) {
   let reflexes = [];
   if (qe && query !== '*') {
     reflexes = run(db, REFLEX_SQL, [ftsQ(qe), limit + 40, limit]);
+    // parse the aggregated etyma JSON into a deduped array; expose the first as tag/pf for
+    // compact single-link consumers (the home dropdown), the full list as r.etyma.
+    for (const r of reflexes) {
+      let ets = [];
+      try { ets = JSON.parse(r.etyma || '[]'); } catch (e) { ets = []; }
+      const seen = new Set(); const uniq = [];
+      for (const x of ets) { if (x && x.tag != null && !seen.has(x.tag)) { seen.add(x.tag); uniq.push(x); } }
+      r.etyma = uniq;
+      r.tag = uniq.length ? uniq[0].tag : null;
+      r.pf = uniq.length ? uniq[0].pf : null;
+    }
   }
   return { etyma, reflexes };
 }
