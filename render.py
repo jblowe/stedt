@@ -300,6 +300,8 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 a.ety-hit{border-bottom:1px solid var(--hair);}
 a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);}
 .ety-hit .pf2{font-size:19px;} .ety-hit .pf2::before{content:"*";color:var(--accent);}
+/* attested reflex form: same column treatment as a protoform but NO reconstruction asterisk */
+.ety-hit .rf{font-size:19px;}
 .ety-hit .pg2{font-variant:small-caps;color:var(--soft);}
 .ety-hit .tagn{font-family:"Fraunces",serif;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums;}
 .rx-hit{display:grid;grid-template-columns:180px 1fr 1fr;gap:14px;align-items:baseline;padding:6px 0;
@@ -1318,7 +1320,7 @@ _CATFORMS_JS = """
   var CHUNK=200, DATA=null, view=[], shown=0, loaded=false, loading=false;
   function row(r){
     return '<a class="ety-hit" href="'+B+'/language/'+r.lgid+'#rn'+r.rn+'">'+
-      '<span class="pf2 lat">'+esc(r.reflex)+'</span>'+
+      '<span class="rf lat">'+esc(r.reflex)+'</span>'+
       '<span class="pg2">'+esc(r.gloss)+'</span>'+
       '<span class="tagn">'+esc(r.language)+'</span></a>';
   }
