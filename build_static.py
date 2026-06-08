@@ -95,6 +95,12 @@ def main():
     lgids = cap([r[0] for r in c.execute("SELECT lgid FROM languagenames ORDER BY lgid")])
     srcs = cap([r[0] for r in c.execute("SELECT srcabbr FROM srcbib WHERE coalesce(srcabbr,'')!='' ORDER BY srcabbr")])
     semks = cap([r[0] for r in c.execute("SELECT semkey FROM chapters WHERE coalesce(semkey,'')!='' ORDER BY semkey")])
+    # The thesaurus index and breadcrumbs link top-level chapters by integer key
+    # (1.0 -> /thesaurus/1), so emit those pages too or every top-level link 404s.
+    roots = [r[0].split('.')[0] for r in c.execute(
+        "SELECT semkey FROM chapters WHERE semkey LIKE '%.0'"
+        " AND (length(semkey)-length(replace(semkey,'.','')))=1")]
+    semks = list(dict.fromkeys(roots + semks))
     grpids = cap([r[0] for r in c.execute("SELECT grpid FROM languagegroups ORDER BY grpid")])
     c.close()
 
