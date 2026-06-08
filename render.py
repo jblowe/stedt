@@ -303,6 +303,8 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 /* attested reflex form: same column treatment as a protoform but NO reconstruction asterisk */
 .ety-hit .rf{font-size:19px;}
 .ety-hit .pg2{font-variant:small-caps;color:var(--soft);}
+/* attestation gloss: a plain definition — soft, but NOT small-caps (that's for protoglosses) */
+.ety-hit .gl2{color:var(--soft);}
 .ety-hit .tagn{font-family:"Fraunces",serif;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums;}
 .rx-hit{display:grid;grid-template-columns:180px 1fr 1fr;gap:14px;align-items:baseline;padding:6px 0;
   border-bottom:1px solid var(--hair);font-size:15px;}
@@ -422,7 +424,7 @@ pre.diff .hdr{color:var(--mut);}
   .rx-hit{grid-template-columns:1fr;gap:1px 0;}
   .rx-hit .via{text-align:left;}
   .ety-hit{grid-template-columns:1fr auto;gap:2px 12px;}
-  .ety-hit .pg2{grid-column:1;}
+  .ety-hit .pg2,.ety-hit .gl2{grid-column:1;}
   .ety-hit .tagn{grid-column:2;grid-row:1/3;align-self:start;}
 
   /* language index: one column */
@@ -1321,7 +1323,7 @@ _CATFORMS_JS = """
   function row(r){
     return '<a class="ety-hit" href="'+B+'/language/'+r.lgid+'#rn'+r.rn+'">'+
       '<span class="rf lat">'+esc(r.reflex)+'</span>'+
-      '<span class="pg2">'+esc(r.gloss)+'</span>'+
+      '<span class="gl2">'+esc(r.gloss)+'</span>'+
       '<span class="tagn">'+esc(r.language)+'</span></a>';
   }
   function updateCount(){
