@@ -348,12 +348,20 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 /* attestation gloss: a plain definition — soft, but NOT small-caps (that's for protoglosses) */
 .ety-hit .gl2{color:var(--soft);}
 .ety-hit .tagn{font-family:"Fraunces",serif;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums;}
-.rx-hit{display:grid;grid-template-columns:180px 1fr 1fr;gap:14px;align-items:baseline;padding:6px 0;
+.rx-hit{display:grid;grid-template-columns:160px 1fr auto;gap:4px 14px;align-items:baseline;padding:6px 0;
   border-bottom:1px solid var(--hair);font-size:15px;}
 .rx-hit .lang{color:var(--soft);font-size:13.5px;}
-.rx-hit .vias{text-align:right;color:var(--mut);font-size:12.5px;min-width:0;}
-.rx-hit .via{font-size:12.5px;color:var(--mut);text-align:right;border-bottom:none;}
+.rx-hit .rx-mid{min-width:0;}
+.rx-hit .vias{color:var(--mut);font-size:12.5px;margin-left:.45em;}
+.rx-hit .via{font-size:12.5px;color:var(--mut);border-bottom:none;}
 .rx-hit .via:hover{color:var(--accent);}
+.rx-hit .rx-src{text-align:right;color:var(--mut);font-size:12.5px;white-space:nowrap;}
+.rx-hit .rx-src a{color:var(--mut);border-bottom:1px dotted var(--rule);}
+.rx-hit .rx-src a:hover{color:var(--accent);}
+.rx-hit .rx-note{grid-column:1/-1;color:var(--soft);font-size:12.5px;margin:1px 0 0;max-width:64em;}
+/* Stammbaum-subgroup header between attested-form result groups */
+.rx-sub{font-variant:small-caps;letter-spacing:.05em;color:var(--soft);font-size:13px;
+  margin:16px 0 3px;padding-bottom:2px;border-bottom:1px solid var(--rule);}
 
 /* reconstructions browse: client-side filter + windowed list */
 .rbar{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;margin:0 0 14px;}
@@ -479,7 +487,7 @@ pre.diff .hdr{color:var(--mut);}
   /* record rows collapse to a single stacked column (lang / form·gloss / source) */
   .rfx,.sg .rfx,.meso .rfx{grid-template-columns:1fr;gap:1px 0;padding:8px 0;}
   .rx-hit{grid-template-columns:1fr;gap:1px 0;}
-  .rx-hit .via,.rx-hit .vias{text-align:left;}
+  .rx-hit .rx-src{text-align:left;}
   .ety-hit{grid-template-columns:1fr auto;gap:2px 12px;}
   .ety-hit .pg2,.ety-hit .gl2{grid-column:1;}
   .ety-hit .tagn{grid-column:2;grid-row:1/3;align-self:start;}
@@ -1533,8 +1541,19 @@ def search_page(q=""):
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
     const etyRow=e=>`<a class="ety-hit" href="${B}/etymon/${e.tag}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}</span></a>`;
     const rfxRow=r=>{
-      const links=(r.etyma&&r.etyma.length)?r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' '):'untagged';
-      return `<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span><a href="${B}/language/${r.lgid}#rn${r.rn}"><span class="lat">${esc(r.form)}</span></a> ‘${esc(r.gloss)}’</span><span class="vias">${links}</span></div>`;
+      const links=(r.etyma&&r.etyma.length)?`<span class="vias">${r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' ')}</span>`:'';
+      const src=r.srcabbr?`<a href="${B}/source/${esc(r.srcabbr)}">${esc(r.citation||r.srcabbr)}</a>`:'';
+      const note=r.note?`<div class="rx-note">${esc(r.note)}</div>`:'';
+      return `<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span class="rx-mid"><a href="${B}/language/${r.lgid}#rn${r.rn}"><span class="lat">${esc(r.form)}</span></a> ‘${esc(r.gloss)}’${links}</span><span class="rx-src">${src}</span>${note}</div>`;
+    };
+    // attested-form rows are pre-sorted by subgroup; emit a Stammbaum-subgroup header when it changes
+    let _rxsub=null;
+    const rfxGrouped=r=>{
+      const key=(r.grpno||'')+'|'+(r.subgroup||'');
+      let head='';
+      if(key!==_rxsub){_rxsub=key;const code=r.grpno?`<span class="grpno">${esc(r.grpno)}</span>`:'';
+        head=`<div class="rx-sub">${code}${esc(r.subgroup||'(unclassified)')}</div>`;}
+      return head+rfxRow(r);
     };
     const langRow=x=>`<a class="ety-hit" href="${B}/language/${x.lgid}"><span class="rf">${esc(x.language)}</span><span class="gl2">${fmt(x.n)} attested form${x.n==1?'':'s'}</span><span class="tagn">language</span></a>`;
     function sectionLabel(title,total,fetched){
@@ -1586,7 +1605,7 @@ def search_page(q=""):
       res.innerHTML='';
       if(r.languageTotal) block('Languages',r.languageTotal,r.languages,langRow);
       if(r.etymaTotal) block('Reconstructions',r.etymaTotal,r.etyma,etyRow);
-      if(r.reflexTotal) block('Attested forms',r.reflexTotal,r.reflexes,rfxRow);
+      if(r.reflexTotal){_rxsub=null;block('Attested forms',r.reflexTotal,r.reflexes,rfxGrouped);}
       if(!r.languageTotal&&!r.etymaTotal&&!r.reflexTotal) res.innerHTML='<p class="cap">No matches.</p>';
     }
     window.addEventListener('DOMContentLoaded',run);

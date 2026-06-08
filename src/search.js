@@ -61,13 +61,22 @@ function run(db, sql, params) {
 // --- the two queries, identical to render.py's search_data() ---
 // A reflex can belong to several etyma (polymorphemic) — aggregate them all (non-DELETE only),
 // rather than GROUP BY picking one arbitrarily. json_group_array → parsed/deduped in stedtSearch.
-const REFLEX_SQL = `
-  SELECT ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.rn AS rn, l.lgid AS lgid,
+// Each result row carries its source (the WORK it's attested in: srcabbr + srcbib.citation), its
+// Stammbaum subgroup (grpno + grp, for grouping), and its lexical note (lxnote) — same detail the
+// entry pages show. (Per-syllable tag positions live in lx_et_hash.ind for future syllable links.)
+const RFX_COLS = `ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.rn AS rn, l.lgid AS lgid,
+         ln.srcabbr AS srcabbr, sb.citation AS citation, g.grpno AS grpno, g.grp AS subgroup, nt.note AS note,
          json_group_array(json_object('tag', e.tag, 'pf', e.protoform))
-           FILTER (WHERE e.tag IS NOT NULL) AS etyma
+           FILTER (WHERE e.tag IS NOT NULL) AS etyma`;
+const RFX_JOINS = `
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
+  LEFT JOIN languagegroups g ON g.grpid = ln.grpid
+  LEFT JOIN srcbib sb ON sb.srcabbr = ln.srcabbr
+  LEFT JOIN lxnote nt ON nt.rn = l.rn
   LEFT JOIN lx_et_hash h ON h.rn = l.rn AND h.tag > 0
-  LEFT JOIN etyma e ON e.tag = h.tag AND coalesce(upper(e.status), '') != 'DELETE'
+  LEFT JOIN etyma e ON e.tag = h.tag AND coalesce(upper(e.status), '') != 'DELETE'`;
+const REFLEX_SQL = `
+  SELECT ${RFX_COLS}${RFX_JOINS}
   WHERE l.rn IN (SELECT rowid FROM lexicon_fts WHERE lexicon_fts MATCH ? LIMIT ?)
     AND ln.language NOT LIKE '*%'
   GROUP BY l.rn LIMIT ?`;
@@ -141,18 +150,17 @@ const hasCJK = (s) => /[㐀-鿿豈-﫿]|[\ud840-\ud87f][\udc00-\udfff]/.test(s |
 const likeToks = (s) => s.replace(/["()*:^%_]/g, ' ').split(/\s+/).filter(Boolean);
 const _likeWhere = (n) => Array(n).fill('(reflex LIKE ? OR gloss LIKE ?)').join(' AND ');
 const reflexLikeSql = (n) => `
-  SELECT ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.rn AS rn, l.lgid AS lgid,
-         json_group_array(json_object('tag', e.tag, 'pf', e.protoform))
-           FILTER (WHERE e.tag IS NOT NULL) AS etyma
-  FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
-  LEFT JOIN lx_et_hash h ON h.rn = l.rn AND h.tag > 0
-  LEFT JOIN etyma e ON e.tag = h.tag AND coalesce(upper(e.status), '') != 'DELETE'
+  SELECT ${RFX_COLS}${RFX_JOINS}
   WHERE l.rn IN (SELECT l2.rn FROM lexicon l2 JOIN languagenames n2 ON n2.lgid = l2.lgid
                  WHERE ${_likeWhere(n)} AND n2.language NOT LIKE '*%' LIMIT ?)
   GROUP BY l.rn LIMIT ?`;
 const reflexLikeCountSql = (n) => `
   SELECT count(*) AS n FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
   WHERE ${_likeWhere(n)} AND ln.language NOT LIKE '*%'`;
+
+// Natural-order key for a Stammbaum grpno so "6.1.10" sorts after "6.1.2" (lexical would invert
+// them); blanks sort last. Used to group/order the attested-form results by subgroup.
+const gkey = (s) => String(s == null || s === '' ? '~~' : s).split('.').map((x) => x.padStart(4, '0')).join('.');
 
 // limit caps the rows fetched per type (the page windows them client-side); the *Total fields are
 // the true match counts so the UI can show "first N of M shown" instead of silently truncating.
@@ -201,6 +209,13 @@ export async function stedtSearch(query, limit = 40) {
       r.tag = uniq.length ? uniq[0].tag : null;
       r.pf = uniq.length ? uniq[0].pf : null;
     }
+    // order by subgroup (then language, form) so the page can render Stammbaum-grouped sections
+    reflexes.sort((a, b) => {
+      const ga = gkey(a.grpno), gb = gkey(b.grpno);
+      return ga < gb ? -1 : ga > gb ? 1
+        : (a.language || '') < (b.language || '') ? -1 : (a.language || '') > (b.language || '') ? 1
+        : (a.form || '') < (b.form || '') ? -1 : (a.form || '') > (b.form || '') ? 1 : 0;
+    });
   }
 
   let languages = [], languageTotal = 0;
