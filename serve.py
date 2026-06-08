@@ -110,6 +110,7 @@ CSS = r"""
 body{
   margin:0; background:var(--paper); color:var(--ink);
   font-family:"Charis SIL","Gentium Plus",Georgia,serif; font-size:18px; line-height:1.55;
+  overflow-wrap:break-word;
   background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
 }
 .han{font-family:"Noto Serif SC","Songti SC",serif;}
@@ -310,6 +311,48 @@ pre.diff span{display:block;white-space:pre-wrap;}
 pre.diff .add{background:#e3f0db;color:#2f4f25;}
 pre.diff .del{background:#f6dfdb;color:var(--accent-d);}
 pre.diff .hdr{color:var(--mut);}
+
+/* ---------------------------------------------------------------- responsive (phones/tablets) */
+@media (max-width:720px){
+  body{font-size:17px;}
+
+  /* masthead stacks: wordmark / search / nav, each full width; nav wraps instead of overflowing */
+  header.mast{flex-direction:column;align-items:stretch;gap:12px;padding:16px 18px 12px;}
+  .brand{order:1;}
+  .brand .wm{font-size:25px;}
+  .hsearch{order:2;}
+  .hsearch input{width:100%;}
+  nav.main{order:3;margin:0;flex-wrap:wrap;gap:9px 18px;font-size:14px;}
+
+  main{padding:24px 18px 70px;}
+  footer{padding:20px 18px 48px;}
+
+  /* big titles down a notch; etymon number drops from a float to its own line */
+  .pagetitle{font-size:28px;}
+  .ety-head .pf{font-size:32px;}
+  .ety-head .pg{font-size:18px;}
+  .ety-head .etno{float:none;display:block;margin:0 0 6px;}
+
+  /* record rows collapse to a single stacked column (lang / form·gloss / source) */
+  .rfx{grid-template-columns:1fr;gap:1px 0;padding:8px 0;}
+  .rx-hit{grid-template-columns:1fr;gap:1px 0;}
+  .rx-hit .via{text-align:left;}
+  .ety-hit{grid-template-columns:1fr auto;gap:2px 12px;}
+  .ety-hit .pg2{grid-column:1;}
+  .ety-hit .tagn{grid-column:2;grid-row:1/3;align-self:start;}
+
+  /* language index: one column */
+  .idx{columns:1;}
+
+  /* connections: let the relation label sit on its own line above the target */
+  .conn-row{flex-wrap:wrap;}
+  .conn-row .rl{width:100%;}
+
+  /* thesaurus rows: let the title wrap, keep the count pinned right (don't let title grow) */
+  .thes .ti{min-width:0;}
+
+  .stats{gap:20px;}
+}
 """
 
 _NAV = [("thesaurus", "/thesaurus", "Thesaurus"),
