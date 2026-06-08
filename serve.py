@@ -1,13 +1,10 @@
 #!/usr/bin/env python3
-"""STEDT — prototype 'new face'. Server-rendered, reads stedt.sqlite, zero deps.
-
-Run:  python3 serve.py   ->   http://localhost:8000
-Routes: /  /search?q=  /etymon/<tag>  /thesaurus[/<semkey>]  /reconstructions
-        /languages  /language/<lgid>  /sources  /source/<srcabbr>  /about  /api/search?q=
-This mirrors a static build: every page is real HTML at a stable URL and could be
-pre-rendered to files; live search is the only dynamic bit.
+"""STEDT page renderer — a build-time library of render functions, imported by
+build_static.py to prerender every page to static HTML. There is no server: the deployed
+site is static files on GitHub Pages, and search runs client-side (WASM SQLite over
+search.db). Reads the compiled stedt.sqlite.
 """
-import http.server, socketserver, sqlite3, urllib.parse, re, html, json, os, yaml, difflib
+import sqlite3, urllib.parse, re, html, os
 
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
@@ -15,10 +12,9 @@ DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 # deployed — set this to the real domain at deploy time so citations resolve.
 SITE_ORIGIN = "https://stedt.org"
 
-# Static-preview mode (set by build_static.py when prerendering for GitHub Pages): swaps
-# the dynamic live search for the prebuilt Pagefind index and shows the preview banner.
-# Off for the normal dev server, so interactive serving is unaffected.
-PREVIEW = os.environ.get("STEDT_PREVIEW") == "1"
+# Show the "preview" banner (the site is an in-progress rebuild). On by default; set
+# STEDT_PREVIEW=0 to turn it off once the site is no longer a preview.
+PREVIEW = os.environ.get("STEDT_PREVIEW", "1") != "0"
 
 # Proto-language abbreviations (etyma.grpid -> languagegroups.plg) expanded for the etymon header.
 PLG_FULL = {
@@ -34,18 +30,7 @@ PLG_FULL = {
     'CH': 'Sinitic (Chinese)', 'DRV': 'Dravidian',
 }
 
-# YAML dumper matching export_files.py, so an edited etymon re-serializes with a clean one-field diff
-class _YD(yaml.SafeDumper): pass
-_NEL = ('\x85', ' ', ' ')
-def _ystr(d, s):
-    if any(ch in s for ch in _NEL):
-        return d.represent_scalar('tag:yaml.org,2002:str', s, style='"')
-    return d.represent_scalar('tag:yaml.org,2002:str', s, style='|' if '\n' in s else None)
-_YD.add_representer(str, _ystr)
-def ydump(o): return yaml.dump(o, Dumper=_YD, allow_unicode=True, sort_keys=False, width=100)
-
 DB = os.path.join(os.path.dirname(os.path.abspath(__file__)), "stedt.sqlite")
-PORT = 8000
 
 def con():
     c = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
@@ -339,28 +324,16 @@ def page(title, body, q="", nav=""):
         cls = ' class="active"' if nav == key else ''
         nav_parts.append(f'<a href="{href}"{cls}>{label}</a>')
     navhtml = "".join(nav_parts)
-    if PREVIEW:
-        pf_head = ('<link rel="stylesheet" href="/pagefind/pagefind-ui.css">'
-                   '<script src="/pagefind/pagefind-ui.js"></script>')
-        search_box = '<div class="hsearch pf" id="pf-mast"></div>'
-        main_attr = ' data-pagefind-body'
-        pf_init = ('<script>addEventListener("DOMContentLoaded",function(){'
-                   'if(!window.PagefindUI)return;var B=window.STEDT_BASE||"";'
-                   'var pr=function(r){r.url=B+r.url;return r;};'
-                   'new PagefindUI({element:"#pf-mast",showSubResults:true,resetStyles:false,processResult:pr});'
-                   'var h=document.getElementById("pf-home");'
-                   'if(h)new PagefindUI({element:"#pf-home",showSubResults:true,resetStyles:false,processResult:pr});'
-                   '});</script>')
-    else:
-        pf_head = main_attr = pf_init = ''
-        search_box = (f'<form class="hsearch" action="/search" method="get">'
-                      f'<input name="q" placeholder="search…" value="{esc(q)}" autocomplete="off"></form>')
+    search_box = (f'<form class="hsearch" action="/search" method="get">'
+                  f'<input name="q" placeholder="search…" value="{esc(q)}" autocomplete="off"></form>')
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} · STEDT</title>
+<link rel="icon" href="data:,">
+<script>window.STEDT_BASE=window.STEDT_BASE||"";</script>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
-<style>{CSS}</style>{pf_head}</head><body>
+<style>{CSS}</style></head><body>
 <div class="top"></div>
 <header class="mast">
   <div class="brand">
@@ -370,29 +343,19 @@ def page(title, body, q="", nav=""):
   <nav class="main">{navhtml}</nav>
   {search_box}
 </header>
-<main{main_attr}>{body}</main>
+<main>{body}</main>
 <footer></footer>
-{pf_init}</body></html>"""
+<script type="module" src="/assets/stedt-search.js"></script>
+</body></html>"""
 
 # ---------------------------------------------------------------- views
 def home():
-    if PREVIEW:
-        banner = ('<div class="preview-banner" style="background:var(--accent);color:var(--paper);'
-                  'padding:14px 20px;border-radius:3px;margin:0 0 22px;font-size:15px;line-height:1.55">'
-                  '<b>Preview.</b> An in-progress rebuild of STEDT — data and features '
-                  'are incomplete and may change.</div>')
-        return page("Home", banner + """
-    <div class="home">
-      <div class="bigsearch pf" id="pf-home"></div>
-      <div class="entry">
-        <a href="/thesaurus">Browse by meaning</a>
-        <a href="/reconstructions">All reconstructions</a>
-        <a href="/languages">Languages</a>
-        <a href="/sources">Sources</a>
-        <a href="/etymon/260">A sample entry: *m-gam ‘ladder’</a>
-      </div>
-    </div>""")
-    body = """
+    banner = ('<div class="preview-banner" style="background:var(--accent);color:var(--paper);'
+              'padding:14px 20px;border-radius:3px;margin:0 0 22px;font-size:15px;line-height:1.55">'
+              '<b>Preview.</b> An in-progress community rebuild of STEDT — data and features '
+              'are incomplete and may change. Spotted a problem? Use “Suggest an edit” on any entry.</div>'
+              ) if PREVIEW else ""
+    body = banner + """
     <div class="home">
       <div class="bigsearch">
         <input id="bs" placeholder="Search a meaning, form, or language — e.g. “ladder”, “gam”, “Lahu”" autocomplete="off">
@@ -407,16 +370,18 @@ def home():
       </div>
     </div>
     <script>
+    const B=window.STEDT_BASE||'';
     const bs=document.getElementById('bs'),d=document.getElementById('drop');let t;
-    bs.addEventListener('input',()=>{{clearTimeout(t);const q=bs.value.trim();
-      if(q.length<2){{d.style.display='none';return;}}
-      t=setTimeout(async()=>{{const r=await fetch('/api/search?limit=8&q='+encodeURIComponent(q));
-        const j=await r.json();let h='';
-        j.etyma.forEach(e=>h+=`<a href="/etymon/${{e.tag}}"><span class="k">recon</span><span><span class="recon">${{e.protoform}}</span> · <span class="gl">${{e.protogloss}}</span></span></a>`);
-        j.reflexes.forEach(x=>h+=`<a href="${{x.tag?'/etymon/'+x.tag:'#'}}"><span class="k">${{x.language}}</span><span><span class="lat">${{x.form}}</span> ‘${{x.gloss}}’</span></a>`);
-        d.innerHTML=h;d.style.display=h?'block':'none';}},180);}});
-    bs.addEventListener('keydown',e=>{{if(e.key==='Enter')location='/search?q='+encodeURIComponent(bs.value);}});
-    document.addEventListener('click',e=>{{if(!e.target.closest('.bigsearch'))d.style.display='none';}});
+    bs.addEventListener('input',()=>{clearTimeout(t);const q=bs.value.trim();
+      if(q.length<2){d.style.display='none';return;}
+      t=setTimeout(async()=>{
+        if(!window.stedtSearch){return;}
+        const j=await window.stedtSearch(q,8);let h='';
+        j.etyma.forEach(e=>h+=`<a href="${B}/etymon/${e.tag}"><span class="k">recon</span><span><span class="recon">${e.protoform}</span> · <span class="gl">${e.protogloss}</span></span></a>`);
+        j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:'#'}"><span class="k">${x.language}</span><span><span class="lat">${x.form}</span> ‘${x.gloss}’</span></a>`);
+        d.innerHTML=h;d.style.display=h?'block':'none';},180);});
+    bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
+    document.addEventListener('click',e=>{if(!e.target.closest('.bigsearch'))d.style.display='none';});
     </script>"""
     return page("Home", body)
 
@@ -772,7 +737,7 @@ def source(srcabbr):
     return page(s['citation'] or s['srcabbr'], body, nav="sources"), 200
 
 def reconstructions(page_n=1):
-    c = con(); PER = 100000 if PREVIEW else 100   # one page in the static preview (no ?page= links)
+    c = con(); PER = 100000   # one page: the static site has no ?page= routes
     OK = "coalesce(upper(e.status),'')!='DELETE'"
     total = c.execute(f"SELECT count(*) FROM etyma e WHERE {OK}").fetchone()[0]
     pages = max(1, (total + PER - 1) // PER)
@@ -849,153 +814,49 @@ def sources_index():
             f'<ul class="idx">{"".join(items)}</ul>')
     return page("Sources", body, nav="sources")
 
-def _etymon_path(tag):
-    return os.path.join(DATA, "etyma", f"{tag}.yaml")
-
-def edit_form(tag):
-    p = _etymon_path(tag)
-    if not os.path.exists(p):
-        return page("Not found", "<p>No such etymon.</p>"), 404
-    d = yaml.safe_load(open(p, encoding='utf-8'))
-    F = lambda k: esc(d.get(k) if d.get(k) is not None else '')
-    body = f"""
-    <div class="ety-head">
-      <div class="plg">Suggest an edit · #{tag}</div>
-      <div class="pagetitle">*{F('protoform')} ‘{F('gloss')}’</div>
-      <div class="crumbs">Your proposal is reviewed by a moderator before it goes live — nothing changes immediately.</div>
+def search_page(q=""):
+    """Static results shell — reads ?q= and renders matches client-side via window.stedtSearch
+    (same two queries + layout as the old server-rendered results page)."""
+    body = """
+    <div class="sr">
+      <div class="bigsearch" style="margin:0 0 22px"><input id="bs" placeholder="Search a meaning, form, or language…" autocomplete="off"></div>
+      <h2 id="srh">Search</h2>
+      <div id="srsub" class="sub"></div>
+      <div id="results"></div>
     </div>
-    <form class="editform" method="post" action="/etymon/{tag}/edit">
-      <label>Proto-form <input name="protoform" value="{F('protoform')}"></label>
-      <label>Gloss <input name="gloss" value="{F('gloss')}"></label>
-      <label>Semantic key <input name="semkey" value="{F('semkey')}"></label>
-      <label>References <input name="references" value="{F('references')}"></label>
-      <label>Add a note <span class="hint">(optional; plain text or STEDT note markup)</span>
-        <textarea name="newnote" rows="3"></textarea></label>
-      <div class="who">
-        <label>Your name <input name="author" placeholder="Jane Linguist" required></label>
-        <label>What &amp; why <input name="summary" placeholder="e.g. corrected gloss per Matisoff 2003" required></label>
-      </div>
-      <div class="actions"><button type="submit">Propose change →</button>
-        <a class="cancel" href="/etymon/{tag}">Cancel</a></div>
-    </form>"""
-    return page(f"Edit #{tag}", body), 200
-
-def validate_proposed(tag, d):
-    """Lightweight gate preview (the full validate.py runs in CI on the resulting PR)."""
-    c = con(); probs = []
-    if d.get('tag') != tag: probs.append("the etymon tag must not change")
-    if not (d.get('protoform') or '').strip(): probs.append("proto-form is empty")
-    if not (d.get('gloss') or '').strip(): probs.append("gloss is empty")
-    sk = d.get('semkey')
-    if sk and not c.execute("SELECT 1 FROM chapters WHERE semkey=?", (sk,)).fetchone():
-        probs.append(f"semantic key “{sk}” is not a thesaurus node")
-    c.close(); return probs
-
-def edit_submit(tag, form):
-    p = _etymon_path(tag)
-    if not os.path.exists(p):
-        return page("Not found", "<p>No such etymon.</p>"), 404
-    g1 = lambda k: (form.get(k, [''])[0] or '').strip()
-    orig = open(p, encoding='utf-8').read()
-    d = yaml.safe_load(orig)
-    for k in ('protoform', 'gloss', 'semkey', 'references'):
-        v = g1(k)
-        if v: d[k] = v
-        elif k in d: del d[k]
-    if g1('newnote'):
-        d.setdefault('notes', []).append({'type': 'T', 'text': g1('newnote')})
-    proposed = ydump(d)
-    diff = list(difflib.unified_diff(orig.splitlines(True), proposed.splitlines(True),
-                                     fromfile=f"a/data/etyma/{tag}.yaml", tofile=f"b/data/etyma/{tag}.yaml"))
-    probs = validate_proposed(tag, d)
-    author, summary = esc(g1('author')), esc(g1('summary'))
-
-    if not diff:
-        return page("No change", '<p>No changes detected — nothing to propose. '
-                    f'<a href="/etymon/{tag}/edit">Back</a></p>'), 200
-    difflines = []
-    for ln in diff:
-        cls = 'add' if ln.startswith('+') and not ln.startswith('+++') else \
-              'del' if ln.startswith('-') and not ln.startswith('---') else \
-              'hdr' if ln.startswith('@@') or ln.startswith('+++') or ln.startswith('---') else ''
-        difflines.append(f'<span class="{cls}">{esc(ln.rstrip(chr(10)))}</span>')
-    gate = ('<div class="gate ok">✓ Passes the basic checks — ready for a moderator to review.</div>'
-            if not probs else
-            '<div class="gate bad">This proposal has issues a moderator would flag:<ul>'
-            + ''.join(f'<li>{esc(x)}</li>' for x in probs) + '</ul></div>')
-    body = f"""
-    <div class="ety-head">
-      <div class="plg">Proposed change · #{tag}</div>
-      <div class="pagetitle">Submitted ✓</div>
-      <div class="crumbs">By <b>{author or "anonymous"}</b> — “{summary}”</div>
-    </div>
-    <p class="prose">This is what a maintainer would review. On the live site it would open a
-    pull request against <code>data/etyma/{tag}.yaml</code>; CI runs the full <code>validate.py</code>, and a
-    moderator approves or requests changes. <em>(Prototype: nothing was written — this previews the flow.)</em></p>
-    {gate}
-    <h3 class="sec-label">The change</h3>
-    <pre class="diff">{''.join(difflines)}</pre>
-    <p><a href="/etymon/{tag}">← Back to the entry</a></p>"""
-    return page(f"Proposed: #{tag}", body), 200
-
-def fts_q(q):
-    q = q.replace('"', ' ').strip()
-    return '"%s"' % q if q else '""'
-
-def search_data(q, limit=40):
-    c = con()
-    OK = "coalesce(upper(e.status),'')!='DELETE'"
-    # a leading "*" is reconstruction notation, not a search operator; "*" alone still means "all"
-    qe = q[1:].strip() if (q.startswith('*') and q != '*') else q
-    etyma = []
-    if q == '*':
-        etyma = c.execute(f"""SELECT e.tag, g.plg AS plg, e.protoform, e.protogloss, e.semkey
-            FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-            WHERE {OK} ORDER BY e.tag LIMIT ?""", (limit,)).fetchall()
-    elif qe:
-        like = f"%{qe}%"
-        nohy = "%" + re.sub(r'[-|◦\s]', '', qe) + "%"  # morpheme-boundary–insensitive
-        etyma = c.execute(f"""SELECT e.tag, g.plg AS plg, e.protoform, e.protogloss, e.semkey
-            FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-            WHERE {OK} AND (e.protogloss LIKE ? OR e.protoform LIKE ?
-                OR replace(replace(replace(e.protoform,'-',''),'|',''),'◦','') LIKE ?)
-            ORDER BY CASE WHEN upper(e.protogloss) LIKE upper(?)||'%' THEN 0 ELSE 1 END, e.protogloss
-            LIMIT ?""", (like, like, nohy, qe, limit)).fetchall()
-    reflexes = []
-    if qe and q != '*':
-        reflexes = c.execute("""SELECT l.reflex AS form, l.gloss, ln.language AS language, l.rn,
-              e.tag AS tag, e.protoform AS pf, e.protogloss AS pg
-            FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
-            LEFT JOIN lx_et_hash h ON h.rn=l.rn AND h.tag>0
-            LEFT JOIN etyma e ON e.tag=h.tag
-            WHERE l.rn IN (SELECT rn FROM lexicon_fts WHERE lexicon_fts MATCH ? LIMIT ?)
-            GROUP BY l.rn LIMIT ?""", (fts_q(qe), limit + 40, limit)).fetchall()
-    c.close()
-    return etyma, reflexes
-
-def search_page(q):
-    etyma, reflexes = search_data(q, 50)
-    label = "all reconstructions" if q == '*' else f'“{esc(q)}”'
-    out = [f'<div class="sr"><h2>Results for {label}</h2>'
-           f'<div class="sub">{len(etyma)} reconstruction(s) · {len(reflexes)} attested form(s) shown</div>']
-    if etyma:
-        out.append('<div class="sec-label">Reconstructions</div>')
-        for e in etyma:
-            out.append(f'<a class="ety-hit" href="/etymon/{e["tag"]}">'
-                       f'<span class="pf2 lat">{esc(e["protoform"])}</span>'
-                       f'<span class="pg2">{esc(e["protogloss"])}</span>'
-                       f'<span class="tagn">{esc(e["plg"])} #{e["tag"]}</span></a>')
-    if reflexes:
-        out.append('<div class="sec-label">Attested forms</div>')
-        for r in reflexes:
-            via = (f'<a class="via" href="/etymon/{r["tag"]}">› *{esc(r["pf"])}</a>'
-                   if r['tag'] else '<span class="via">untagged</span>')
-            out.append(f'<div class="rx-hit"><span class="lang">{esc(r["language"])}</span>'
-                       f'<span><span class="lat">{esc(r["form"])}</span> ‘{esc(r["gloss"])}’</span>{via}</div>')
-    if not etyma and not reflexes:
-        out.append('<p class="cap">No matches.</p>')
-    out.append('</div>')
-    return page(f"Search: {q}", ''.join(out), q)
+    <script>
+    const B=window.STEDT_BASE||'';
+    const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const bs=document.getElementById('bs');
+    bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
+    async function run(){
+      const q=(new URLSearchParams(location.search).get('q')||'').trim();
+      bs.value=q;
+      const srh=document.getElementById('srh'),sub=document.getElementById('srsub'),res=document.getElementById('results');
+      if(!q){srh.textContent='Search';return;}
+      srh.textContent='Results for '+(q==='*'?'all reconstructions':'“'+q+'”');
+      if(!window.stedtSearch)return;
+      const {etyma,reflexes}=await window.stedtSearch(q,50);
+      sub.textContent=etyma.length+' reconstruction(s) · '+reflexes.length+' attested form(s) shown';
+      let out='';
+      if(etyma.length){
+        out+='<div class="sec-label">Reconstructions</div>';
+        for(const e of etyma)
+          out+=`<a class="ety-hit" href="${B}/etymon/${e.tag}"><span class="pf2 lat">${esc(e.protoform)}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}</span></a>`;
+      }
+      if(reflexes.length){
+        out+='<div class="sec-label">Attested forms</div>';
+        for(const r of reflexes){
+          const via=r.tag?`<a class="via" href="${B}/etymon/${r.tag}">› *${esc(r.pf)}</a>`:'<span class="via">untagged</span>';
+          out+=`<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span><span class="lat">${esc(r.form)}</span> ‘${esc(r.gloss)}’</span>${via}</div>`;
+        }
+      }
+      if(!etyma.length&&!reflexes.length)out='<p class="cap">No matches.</p>';
+      res.innerHTML=out;
+    }
+    window.addEventListener('DOMContentLoaded',run);
+    </script>"""
+    return page("Search", body, q)
 
 def thesaurus(semkey=None):
     c = con()
@@ -1042,85 +903,3 @@ def thesaurus(semkey=None):
     c.close()
     body.append('</div>')
     return page("Thesaurus" + (f": {semkey}" if semkey else ""), ''.join(body), nav="thesaurus")
-
-# ---------------------------------------------------------------- http
-class H(http.server.BaseHTTPRequestHandler):
-    def log_message(self, *a): pass
-    def send(self, body, code=200, ctype="text/html; charset=utf-8"):
-        b = body.encode("utf-8")
-        self.send_response(code); self.send_header("Content-Type", ctype)
-        self.send_header("Content-Length", str(len(b))); self.end_headers()
-        self.wfile.write(b)
-    def do_GET(self):
-        u = urllib.parse.urlparse(self.path); path = u.path
-        qs = urllib.parse.parse_qs(u.query)
-        q = (qs.get("q", [""])[0]).strip()
-        try:
-            if path == "/":
-                self.send(home())
-            elif path == "/about":
-                self.send(about())
-            elif path == "/api/search":
-                lim = int(qs.get("limit", ["10"])[0])
-                et, rx = search_data(q, lim)
-                self.send(json.dumps({
-                    "etyma": [dict(r) for r in et],
-                    "reflexes": [{"form": r["form"], "gloss": r["gloss"], "language": r["language"], "tag": r["tag"]} for r in rx],
-                }), ctype="application/json")
-            elif path == "/search":
-                self.send(search_page(q))
-            elif path == "/reconstructions":
-                pg = qs.get("page", ["1"])[0]
-                self.send(reconstructions(int(pg) if pg.isdigit() else 1))
-            elif path == "/languages":
-                self.send(languages_index())
-            elif path == "/sources":
-                self.send(sources_index())
-            elif path.startswith("/etymon/"):
-                parts = path.split("/")   # ['', 'etymon', tag, ('edit')?]
-                tag = parts[2]
-                if not tag.isdigit():
-                    self.send(page("Not found", "<p>Bad etymon id.</p>"), 404)
-                elif len(parts) > 3 and parts[3] == "edit":
-                    html_, code = edit_form(int(tag)); self.send(html_, code)
-                else:
-                    html_, code = etymon(int(tag)); self.send(html_, code)
-            elif path == "/thesaurus":
-                self.send(thesaurus())
-            elif path.startswith("/thesaurus/"):
-                self.send(thesaurus(path.split("/", 2)[2]))
-            elif path.startswith("/language/"):
-                lid = path.split("/")[2]
-                if lid.isdigit():
-                    html_, code = language(int(lid)); self.send(html_, code)
-                else:
-                    self.send(page("Not found", "<p>Bad language id.</p>"), 404)
-            elif path.startswith("/source/"):
-                html_, code = source(urllib.parse.unquote(path.split("/", 2)[2])); self.send(html_, code)
-            elif path == "/favicon.ico":
-                self.send("", 204)
-            else:
-                self.send(page("Not found", "<p>Page not found.</p>"), 404)
-        except Exception as ex:
-            import traceback; traceback.print_exc()
-            self.send(page("Error", f"<pre>{esc(ex)}</pre>"), 500)
-
-    def do_POST(self):
-        path = urllib.parse.urlparse(self.path).path
-        try:
-            m = re.match(r"^/etymon/(\d+)/edit$", path)
-            if m:
-                n = int(self.headers.get('Content-Length', 0))
-                form = urllib.parse.parse_qs(self.rfile.read(n).decode('utf-8'), keep_blank_values=True)
-                html_, code = edit_submit(int(m.group(1)), form); self.send(html_, code)
-            else:
-                self.send(page("Not found", "<p>Not found.</p>"), 404)
-        except Exception as ex:
-            import traceback; traceback.print_exc()
-            self.send(page("Error", f"<pre>{esc(ex)}</pre>"), 500)
-
-if __name__ == "__main__":
-    socketserver.ThreadingTCPServer.allow_reuse_address = True
-    with socketserver.ThreadingTCPServer(("", PORT), H) as httpd:
-        print(f"STEDT prototype → http://localhost:{PORT}")
-        httpd.serve_forever()

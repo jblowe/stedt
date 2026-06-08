@@ -1,7 +1,11 @@
 # Derived build artifacts — rebuild with: python3 build_from_files.py / build_static.py
 stedt.sqlite
 *.sqlite
+search.db
 site/
+
+# Node (search bundle build deps); package-lock.json IS tracked for reproducible CI
+node_modules/
 
 # Original UC Berkeley release (provenance; archived separately, not the editable source).
 # data/ is the source of truth; build_db.py is the one-time migration that needs the dump.

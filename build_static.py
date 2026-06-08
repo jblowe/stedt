@@ -3,12 +3,12 @@
 
 Calls serve.py's render functions for every stable route — home, about, the browse
 indexes, and every etymon / language / source / thesaurus node — and writes each to
-site/<path>/index.html. Search is handled separately by Pagefind (run
-`pagefind --site site` after this; the deploy workflow does).
+site/<path>/index.html. Search runs client-side (WASM SQLite over search.db;
+see build_search_db.py + src/search.js).
 
 GitHub Pages serves a *project* site under a subpath (https://larc-iu.github.io/stedt/),
 so each page's root-absolute links are rewritten with the /stedt prefix and a base global
-is injected for Pagefind's client-side result links.
+is injected (window.STEDT_BASE) for the client search's result links.
 
 Usage:  python3 build_static.py            # full build -> site/  (needs stedt.sqlite)
 Env:    STEDT_BASE   subpath prefix (default /stedt; use '' for a custom apex domain)
@@ -20,7 +20,6 @@ import re
 import shutil
 import time
 
-os.environ["STEDT_PREVIEW"] = "1"          # must be set before importing serve
 import serve                                # noqa: E402
 
 BASE = os.environ.get("STEDT_BASE", "/stedt").rstrip("/")
@@ -28,7 +27,7 @@ OUT = os.environ.get("STEDT_OUT", "site")
 LIMIT = int(os.environ.get("STEDT_LIMIT", "0"))
 
 # Add the subpath to root-absolute href/src/action (but not protocol-relative //), and
-# inject the base so Pagefind can prefix its client-side result URLs at runtime.
+# inject the base so the client search can prefix its result URLs at runtime.
 _LINK = re.compile(r'(\b(?:href|src|action)=")/(?!/)')
 
 
@@ -85,6 +84,7 @@ def main():
     write("languages", serve.languages_index)
     write("sources", serve.sources_index)
     write("thesaurus", lambda: serve.thesaurus(None))
+    write("search", lambda: serve.search_page(""))   # client-side results shell (reads ?q=)
     for t in tags:
         write(f"etymon/{t}", lambda t=t: serve.etymon(t))
     for g in lgids:
@@ -94,6 +94,9 @@ def main():
     for k in semks:
         write(f"thesaurus/{k}", lambda k=k: serve.thesaurus(k))
 
+    src_db = os.path.join(os.path.dirname(os.path.abspath(__file__)), "search.db")
+    if os.path.exists(src_db):
+        shutil.copy(src_db, os.path.join(OUT, "search.db"))
     open(os.path.join(OUT, ".nojekyll"), "w").close()   # don't let Pages run Jekyll on our files
     print(f"Done: {_ok} pages, {_fail} skipped, {time.time() - t0:.0f}s "
           f"(BASE={BASE!r}, LIMIT={LIMIT or 'all'})")
