@@ -1448,7 +1448,7 @@ def thesaurus(semkey=None):
             ORDER BY e.sequence, e.protogloss""", own).fetchall()
         if direct:
             dcounts = reflex_counts(c, [e['tag'] for e in direct])
-            body.append('<div class="ety-list"><h3 style="margin-top:30px">Reconstructions here</h3>')
+            body.append('<div class="ety-list"><h3 style="margin-top:30px">Reconstructions</h3>')
             for e in direct:
                 body.append(f'<div class="ety-hit"><a href="/etymon/{e["tag"]}" class="pf2 lat">{esc(alt(e["protoform"]))}</a>'
                             f'<span class="pg2">{esc(e["protogloss"])}</span>'
@@ -1464,11 +1464,11 @@ def thesaurus(semkey=None):
             keys_json = esc(json.dumps(own, separators=(',', ':')))
             body.append(
                 '<div class="ety-list">'
-                '<h3 style="margin-top:30px">Attested forms here</h3>'
+                '<h3 style="margin-top:30px">Attestations</h3>'
                 '<p class="cap">Individual reflexes filed directly under this meaning, across all '
                 'languages — each links to its entry on the language page.</p>'
                 f'<details class="seg catwrap" data-semkeys="{keys_json}">'
-                f'<summary>Show attested forms<span class="c">{nforms:,}</span></summary>'
+                f'<summary>Show attestations<span class="c">{nforms:,}</span></summary>'
                 '<div class="rbar"><input class="catfilter" type="search" '
                 'placeholder="Filter by form, gloss, or language…" autocomplete="off">'
                 '<span class="rcount catcount"></span></div>'
