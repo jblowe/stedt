@@ -88,7 +88,9 @@ def render_note(x):
         s = s.replace(f'<{t}>', o).replace(f'</{t}>', c)
     s = re.sub(r'<br\s*/?>', '<br>', s)
     s = _smart_quotes(s)
-    s = s.replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&')
+    # Leave &lt;/&gt;/&amp; as entities: in note text they're literal angle brackets/ampersands
+    # (linguistic notation like "<WT", "<n>", "&lt;--&gt;"). Un-escaping them to raw < > here
+    # produced bogus unclosed tags. Structural markup uses literal <tag> and was handled above.
     if '<p' not in s:
         s = f'<p class="np">{s}</p>'
     return s
