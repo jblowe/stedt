@@ -39,7 +39,7 @@ def data_version():
     h = hashlib.sha256()
     for p in sorted(glob.glob(os.path.join(serve.DATA, "**", "*"), recursive=True)):
         if os.path.isfile(p):
-            h.update(p.encode("utf-8"))
+            h.update(os.path.relpath(p, serve.DATA).encode("utf-8"))
             with open(p, "rb") as f:
                 for chunk in iter(lambda: f.read(1 << 20), b""):
                     h.update(chunk)
