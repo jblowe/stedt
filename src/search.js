@@ -59,7 +59,7 @@ const REFLEX_SQL = `
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
   LEFT JOIN lx_et_hash h ON h.rn = l.rn AND h.tag > 0
   LEFT JOIN etyma e ON e.tag = h.tag
-  WHERE l.rn IN (SELECT rn FROM lexicon_fts WHERE lexicon_fts MATCH ? LIMIT ?)
+  WHERE l.rn IN (SELECT rowid FROM lexicon_fts WHERE lexicon_fts MATCH ? LIMIT ?)
   GROUP BY l.rn LIMIT ?`;
 
 const ETYMA_SQL = `

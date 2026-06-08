@@ -30,28 +30,30 @@ def main():
 
     # Lean copies — only the columns the two search queries read.
     db.executescript("""
-        CREATE TABLE etyma          AS SELECT tag, protoform, protogloss, semkey, status, grpid FROM src.etyma;
-        CREATE TABLE languagegroups AS SELECT grpid, plg FROM src.languagegroups;
-        CREATE TABLE languagenames  AS SELECT lgid, language FROM src.languagenames;
-        CREATE TABLE lexicon        AS SELECT rn, reflex, gloss, lgid FROM src.lexicon;
-        CREATE TABLE lx_et_hash     AS SELECT rn, tag FROM src.lx_et_hash WHERE tag > 0;
+        -- key columns as INTEGER PRIMARY KEY (the rowid) so no separate index is needed
+        CREATE TABLE etyma          (tag INTEGER PRIMARY KEY, protoform, protogloss, semkey, status, grpid);
+        CREATE TABLE languagegroups (grpid INTEGER PRIMARY KEY, plg);
+        CREATE TABLE languagenames  (lgid INTEGER PRIMARY KEY, language);
+        CREATE TABLE lexicon        (rn INTEGER PRIMARY KEY, reflex, gloss, lgid);
+        CREATE TABLE lx_et_hash     (rn INTEGER, tag INTEGER);
+        INSERT INTO etyma          SELECT tag, protoform, protogloss, semkey, status, grpid FROM src.etyma;
+        INSERT INTO languagegroups SELECT grpid, plg FROM src.languagegroups;
+        INSERT INTO languagenames  SELECT lgid, language FROM src.languagenames;
+        INSERT INTO lexicon        SELECT rn, reflex, gloss, lgid FROM src.lexicon;
+        INSERT INTO lx_et_hash     SELECT rn, tag FROM src.lx_et_hash WHERE tag > 0;
+        CREATE INDEX ix_hash_rn ON lx_et_hash(rn);   -- rn non-unique here (multi-tag reflexes)
     """)
 
-    # Index every key the reflex join + the plg lookup use (etyma LIKE is a deliberate small scan).
-    db.executescript("""
-        CREATE UNIQUE INDEX ix_ety_tag  ON etyma(tag);
-        CREATE UNIQUE INDEX ix_grp      ON languagegroups(grpid);
-        CREATE UNIQUE INDEX ix_lang     ON languagenames(lgid);
-        CREATE UNIQUE INDEX ix_lex_rn   ON lexicon(rn);
-        CREATE INDEX        ix_hash_rn  ON lx_et_hash(rn);
-    """)
-
-    # FTS5 — identical definition + tokenizer to the server's lexicon_fts.
+    # FTS5 over reflex form/gloss/language. CONTENTLESS (content='') so the index doesn't
+    # duplicate the text (it lives once in lexicon/languagenames) — ~27 MB saved; columnsize=0
+    # drops the per-doc size table (~7 MB; we don't bm25-rank). detail stays full so the phrase
+    # queries fts_q builds still work. rowid = rn, so the search selects rowid. Same tokenizer
+    # and MATCH semantics as the server's lexicon_fts.
     db.executescript("""
         CREATE VIRTUAL TABLE lexicon_fts USING fts5(
-            form, gloss, language, rn UNINDEXED, tokenize='unicode61 remove_diacritics 2');
-        INSERT INTO lexicon_fts(form, gloss, language, rn)
-          SELECT l.reflex, l.gloss, ln.language, l.rn
+            form, gloss, language, content='', columnsize=0, tokenize='unicode61 remove_diacritics 2');
+        INSERT INTO lexicon_fts(rowid, form, gloss, language)
+          SELECT l.rn, l.reflex, l.gloss, ln.language
           FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid;
     """)
 
