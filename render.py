@@ -1290,8 +1290,6 @@ def thesaurus(semkey=None):
             """, (semkey + '.%', depth)).fetchall()
     else:
         body.append('<h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px">Semantic Thesaurus</h2>')
-        body.append('<p class="cap">The full semantic hierarchy — every category, most general to most '
-                    'specific. Use your browser’s find (⌘/Ctrl-F) to jump to a meaning.</p>')
         # The whole tree on one page (Ctrl-F-able). N.0 overviews collapse to their integer chapter
         # root; the deleted/apocryphal buckets (999, 950.1, x.x) are omitted as everywhere else.
         nodes = c.execute("SELECT semkey, chaptertitle FROM chapters WHERE coalesce(semkey,'')!=''").fetchall()
