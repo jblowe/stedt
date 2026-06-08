@@ -1202,12 +1202,20 @@ def thesaurus(semkey=None):
     c = con()
     body = ['<div class="thes">']
     if semkey:
+        # The integer node N and the chapter N.0 are the same category-overview node;
+        # treat /thesaurus/N.0 as an alias of /thesaurus/N so it doesn't render an empty,
+        # self-referential ("The Body › The Body") page. An integer node also owns its N.0
+        # chapter's notes and any etyma filed directly on N.0 (e.g. 10.0 has 10).
+        if re.fullmatch(r'\d+\.0', semkey):
+            semkey = semkey.split('.')[0]
+        own = [semkey, semkey + '.0'] if '.' not in semkey else [semkey]
+        ownph = ','.join('?' * len(own))
         title = c.execute("SELECT chaptertitle FROM chapters WHERE semkey=?", (semkey,)).fetchone()
         if not title and '.' not in semkey:
             title = c.execute("SELECT chaptertitle FROM chapters WHERE semkey=?", (semkey + '.0',)).fetchone()
         title = title[0] if title else semkey
-        cnotes = c.execute("""SELECT xmlnote FROM notes WHERE id=? AND spec='C'
-                             AND xmlnote IS NOT NULL ORDER BY ord, noteid""", (semkey,)).fetchall()
+        cnotes = c.execute(f"""SELECT xmlnote FROM notes WHERE id IN ({ownph}) AND spec='C'
+                             AND xmlnote IS NOT NULL ORDER BY ord, noteid""", own).fetchall()
         body.append(f'<div class="crumbs"><a href="/thesaurus">Thesaurus</a> &nbsp;›&nbsp; {breadcrumb(c, semkey)}</div>')
         body.append(f'<h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:10px 0 18px">{esc(title)}</h2>')
         if cnotes:
@@ -1215,8 +1223,10 @@ def thesaurus(semkey=None):
                         + ''.join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in cnotes)
                         + '</section>')
         depth = len(semkey.split('.'))
+        # Children at the next depth, minus the N.0 overview (it IS this integer node).
         kids = c.execute("""SELECT semkey,chaptertitle FROM chapters
             WHERE semkey LIKE ? AND (length(semkey)-length(replace(semkey,'.','')))=?
+              AND semkey NOT LIKE '%.0'
             """, (semkey + '.%', depth)).fetchall()
     else:
         body.append('<h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px">Semantic Thesaurus</h2>')
@@ -1263,10 +1273,11 @@ def thesaurus(semkey=None):
                         f'<span class="ct">{cnt} etyma</span></a></li>')
         body.append('</ul>')
     if semkey:
-        direct = c.execute("""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
+        direct = c.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
             FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-            WHERE (e.semkey=? OR e.chapter=?) AND coalesce(upper(e.status),'')!='DELETE'
-            ORDER BY e.sequence, e.protogloss""", (semkey, semkey)).fetchall()
+            WHERE (e.semkey IN ({ownph}) OR e.chapter IN ({ownph}))
+              AND coalesce(upper(e.status),'')!='DELETE'
+            ORDER BY e.sequence, e.protogloss""", own + own).fetchall()
         if direct:
             dcounts = reflex_counts(c, [e['tag'] for e in direct])
             body.append('<div class="ety-list"><h3 style="margin-top:30px">Reconstructions here</h3>')
