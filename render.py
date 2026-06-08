@@ -558,18 +558,26 @@ def etymon(tag):
     labels = {}
     if digit_tokens:
         toks = list(digit_tokens); qm = ','.join('?' * len(toks))
-        for r in c.execute(f"SELECT tag,protoform,protogloss FROM etyma WHERE tag IN ({qm})", toks):
+        for r in c.execute(f"SELECT tag,protoform,protogloss FROM etyma WHERE tag IN ({qm}) "
+                           f"AND coalesce(upper(status),'')!='DELETE'", toks):
             labels[r['tag']] = (r['protoform'], r['protogloss'])
     # per-reflex morpheme analysis: a reflex (rn) is segmented into morphemes in lx_et_hash,
     # each tied to an etymon tag (0 = a non-etymon affix). Surface the *other* etyma a reflex
     # also belongs to (i.e. it's a compound) as links.
     rns = [r['rn'] for r in rows]
     analysis = {}
-    if rns:
-        qm = ','.join('?' * len(rns))
-        for r in c.execute(f"SELECT rn, tag FROM lx_et_hash WHERE rn IN ({qm}) ORDER BY rn, ind", rns):
+    for i in range(0, len(rns), 900):
+        chunk = rns[i:i + 900]; qm = ','.join('?' * len(chunk))
+        for r in c.execute(f"SELECT rn, tag FROM lx_et_hash WHERE rn IN ({qm}) ORDER BY rn, ind", chunk):
             analysis.setdefault(r['rn'], []).append(r['tag'])
-    morph_labels = proto_labels(c, {t for ts in analysis.values() for t in ts if t and t != tag})
+    # label only sibling etyma that actually have a (non-DELETE) page, so "also contains" never 404s
+    morph_tags = list({t for ts in analysis.values() for t in ts if t and t != tag})
+    morph_labels = {}
+    for i in range(0, len(morph_tags), 900):
+        chunk = morph_tags[i:i + 900]; qm = ','.join('?' * len(chunk))
+        for r in c.execute(f"SELECT tag, protoform FROM etyma WHERE tag IN ({qm}) "
+                           f"AND coalesce(upper(status),'')!='DELETE'", chunk):
+            morph_labels[r['tag']] = r['protoform']
     crumb = breadcrumb(c, e['semkey'])
     crumb_chap = breadcrumb(c, e['chapter']) if (e['chapter'] and e['chapter'] != e['semkey']) else ''
     c.close()
@@ -606,10 +614,9 @@ def etymon(tag):
                 src = f'<span class="src">{esc(r["citation"] or "")}</span>'
             seen, links = set(), []
             for mt in analysis.get(r['rn'], []):
-                if mt and mt > 0 and mt != tag and mt not in seen:
+                if mt and mt > 0 and mt != tag and mt not in seen and mt in morph_labels:
                     seen.add(mt)
-                    pf = morph_labels.get(mt)
-                    links.append(f'<a href="/etymon/{mt}">{("*" + esc(pf)) if pf else ("#" + str(mt))}</a>')
+                    links.append(f'<a href="/etymon/{mt}">*{esc(alt(morph_labels[mt]))}</a>')
             anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ''
             rfx.append(f'<div class="rfx" id="r{r["rn"]}">{lang}'
                        f'<span class="form">{form} {g}{pos}{anl}</span>{src}</div>')
@@ -660,8 +667,10 @@ def etymon(tag):
             for t in re.split(r'[,\s]+', v):
                 if not t: continue
                 lab = labels.get(int(t))
-                txt = f'*{esc(alt(lab[0]))} ‘{esc(lab[1])}’' if lab else f'#{esc(t)}'
-                parts.append(f'<a class="xref" href="/etymon/{t}">{txt}</a>')
+                if lab:  # only link to a built (non-DELETE) etymon, else show the bare ref
+                    parts.append(f'<a class="xref" href="/etymon/{t}">*{esc(alt(lab[0]))} ‘{esc(lab[1])}’</a>')
+                else:
+                    parts.append(f'<span class="xref">#{esc(t)}</span>')
             return ', '.join(parts)
         g = v.lstrip('↭').strip()  # gloss-based cross-reference
         return f'<a class="xref" href="/search?q={urllib.parse.quote(g)}">{esc(g)}</a>'
@@ -775,13 +784,15 @@ def rcount_txt(n):
     return f' · {n:,} ' + ('reflex' if n == 1 else 'reflexes')
 
 def proto_labels(c, tags):
-    """Map {tag: protoform} for a set of etymon tags."""
+    """Map {tag: protoform} for a set of etymon tags, restricted to non-DELETE etyma (only
+    those have a built page, so callers can gate links on membership)."""
     tags = [t for t in tags if t]
     out = {}
     for i in range(0, len(tags), 900):
         chunk = tags[i:i + 900]
         qm = ','.join('?' * len(chunk))
-        for r in c.execute(f"SELECT tag,protoform FROM etyma WHERE tag IN ({qm})", chunk):
+        for r in c.execute(f"SELECT tag,protoform FROM etyma WHERE tag IN ({qm}) "
+                           f"AND coalesce(upper(status),'')!='DELETE'", chunk):
             out[r['tag']] = r['protoform']
     return out
 
@@ -836,8 +847,8 @@ def language(lgid):
             catcell = (f'<a class="lang" href="/thesaurus/{esc(sk)}">{esc(cat)}</a>'
                        if sk else '<span class="lang">—</span>')
             form = esc(r['reflex']).replace('◦', '<span class="br">◦</span>')
-            via = (f'<a class="via" href="/etymon/{r["tag"]}">› *{esc(plabels.get(r["tag"], ""))}</a>'
-                   if r['tag'] else '')
+            via = (f'<a class="via" href="/etymon/{r["tag"]}">› *{esc(alt(plabels[r["tag"]]))}</a>'
+                   if (r['tag'] and r['tag'] in plabels) else '')
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r['gfn'] else ''
             rfx.append(f'<div class="rfx">{catcell}'
                        f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span>{pos}</span>'
@@ -1244,9 +1255,11 @@ def thesaurus(semkey=None):
                 disp, depth = sk.split('.')[0], 0
             else:
                 disp, depth = sk, sk.count('.')
+            # count the *displayed* node: an integer chapter root (disp='1') rolls up its whole
+            # subtree incl. its N.0 overview; sk='1.0' would only match the empty 1.0.% bucket.
             cnt = c.execute("""SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'
                 AND (e.semkey=? OR e.semkey LIKE ? OR e.chapter=? OR e.chapter LIKE ?)""",
-                (sk, sk + '.%', sk, sk + '.%')).fetchone()[0]
+                (disp, disp + '.%', disp, disp + '.%')).fetchone()[0]
             tree.append((disp, depth, n['chaptertitle'], cnt))
         tree.sort(key=lambda r: natkey(r[0]))
         body.append('<ul class="tree">')
