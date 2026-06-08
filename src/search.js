@@ -69,6 +69,7 @@ const REFLEX_SQL = `
   LEFT JOIN lx_et_hash h ON h.rn = l.rn AND h.tag > 0
   LEFT JOIN etyma e ON e.tag = h.tag AND coalesce(upper(e.status), '') != 'DELETE'
   WHERE l.rn IN (SELECT rowid FROM lexicon_fts WHERE lexicon_fts MATCH ? LIMIT ?)
+    AND ln.language NOT LIKE '*%'
   GROUP BY l.rn LIMIT ?`;
 
 const ETYMA_SQL = `
@@ -112,7 +113,12 @@ const ftsQ = (s) => {
   return toks.length ? toks.map((t) => '"' + t + '"').join(' ') : '""';
 };
 
-const REFLEX_COUNT_SQL = `SELECT count(*) AS n FROM lexicon_fts WHERE lexicon_fts MATCH ?`;
+// excludes proto-language pseudo-forms (language '*…'): those are reconstructions, surfaced under
+// the Reconstructions section, not "attested forms" — so they shouldn't appear/count as reflexes.
+const REFLEX_COUNT_SQL = `
+  SELECT count(*) AS n
+  FROM lexicon_fts f JOIN lexicon l ON l.rn = f.rowid JOIN languagenames ln ON ln.lgid = l.lgid
+  WHERE f.lexicon_fts MATCH ? AND ln.language NOT LIKE '*%'`;
 const ETYMA_COUNT_SQL = `
   SELECT count(*) AS n FROM etyma e
   WHERE coalesce(upper(e.status), '') != 'DELETE'
@@ -141,9 +147,12 @@ const reflexLikeSql = (n) => `
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
   LEFT JOIN lx_et_hash h ON h.rn = l.rn AND h.tag > 0
   LEFT JOIN etyma e ON e.tag = h.tag AND coalesce(upper(e.status), '') != 'DELETE'
-  WHERE l.rn IN (SELECT rn FROM lexicon WHERE ${_likeWhere(n)} LIMIT ?)
+  WHERE l.rn IN (SELECT l2.rn FROM lexicon l2 JOIN languagenames n2 ON n2.lgid = l2.lgid
+                 WHERE ${_likeWhere(n)} AND n2.language NOT LIKE '*%' LIMIT ?)
   GROUP BY l.rn LIMIT ?`;
-const reflexLikeCountSql = (n) => `SELECT count(*) AS n FROM lexicon WHERE ${_likeWhere(n)}`;
+const reflexLikeCountSql = (n) => `
+  SELECT count(*) AS n FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
+  WHERE ${_likeWhere(n)} AND ln.language NOT LIKE '*%'`;
 
 // limit caps the rows fetched per type (the page windows them client-side); the *Total fields are
 // the true match counts so the UI can show "first N of M shown" instead of silently truncating.
