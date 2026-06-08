@@ -524,7 +524,7 @@ def page(title, body, q="", nav=""):
   {search_box}
 </header>
 <main>{body}</main>
-<footer></footer>
+<footer>Preview interface for STEDT · <a href="https://github.com/larc-iu/stedt">github.com/larc-iu/stedt</a></footer>
 <script type="module" src="/assets/stedt-search.js"></script>
 </body></html>"""
 
@@ -563,7 +563,7 @@ def home():
         let h='';
         (j.languages||[]).forEach(x=>h+=`<a href="${B}/language/${x.lgid}"><span class="k">lang</span><span>${esc(x.language)}</span></a>`);
         j.etyma.forEach(e=>h+=`<a href="${B}/etymon/${e.tag}"><span class="k">recon</span><span><span class="recon">${altstar(esc(e.protoform))}</span> · <span class="gl">${esc(e.protogloss)}</span></span></a>`);
-        j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:'#'}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> ‘${esc(x.gloss)}’</span></a>`);
+        j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:B+'/language/'+x.lgid+'#rn'+x.rn}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> ‘${esc(x.gloss)}’</span></a>`);
         d.innerHTML=h;d.style.display=h?'block':'none';},180);});
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
     document.addEventListener('click',e=>{if(!e.target.closest('.bigsearch'))d.style.display='none';});
@@ -825,7 +825,7 @@ def etymon(tag):
     badges = '<span class="badge del">deleted</span>' if (e['status'] or '').upper() == 'DELETE' else ''
     exm = ' · <span class="exm">exemplary</span>' if (e['exemplary'] or '') == 'x' else ''
 
-    cite_text = f"STEDT etymon #{e['tag']}, *{e['protoform']} ‘{e['protogloss']}’. {CITE_BASE}/etymon/{e['tag']}"
+    cite_text = f"STEDT etymon #{e['tag']}, *{e['protoform']} ‘{e['protogloss']}’. {CITE_BASE}/etymon/{e['tag']} (accessed [ACCESSED])"
     bib = ("@misc{stedt-" + str(e['tag']) + ",\n"
            "  title  = {{*" + (e['protoform'] or '') + " '" + (e['protogloss'] or '') + "'}},\n"
            "  author = {STEDT},\n"
@@ -834,15 +834,17 @@ def etymon(tag):
            "  url    = {" + CITE_BASE + "/etymon/" + str(e['tag']) + "}\n"
            "}")
     refs_line = f'<div>References: {esc(e["notes"])}</div>' if e['notes'] else ''
-    copy_js = ("<script>document.querySelectorAll('.copybtn').forEach("
-               "b=>b.addEventListener('click',()=>{navigator.clipboard.writeText(b.dataset.cite);"
-               "b.textContent='Copied';}));</script>")
+    copy_js = ("<script>(function(){var D=new Date().toISOString().slice(0,10);"
+               "document.querySelectorAll('.adate').forEach(function(e){e.textContent=D;});"
+               "document.querySelectorAll('.copybtn').forEach(function(b){b.addEventListener('click',function(){"
+               "navigator.clipboard.writeText((b.dataset.cite||'').replace(/\\[ACCESSED\\]/g,D));"
+               "b.textContent='Copied';});});})();</script>")
     apparatus = f"""
     <section class="apparatus"><h3>Cite this entry</h3>
       <div class="citebox">
         <div>STEDT etymon #{e['tag']}, <code>*{pf} ‘{esc(e['protogloss'])}’</code>.</div>
         <div>Stable link: <code>{esc(CITE_BASE)}/etymon/{e['tag']}</code></div>
-        <div>Data: STEDT v1.0 (2017). Accessed: ____.</div>
+        <div>Data: STEDT v1.0 (2017). Accessed: <span class="adate"></span>.</div>
         {refs_line}
         <div class="cite-actions">
           <button class="copybtn" data-cite="{esc(cite_text)}">Copy citation</button>
@@ -878,7 +880,7 @@ def group_lineage(c, grpno):
     if not grpno: return out
     parts = str(grpno).split('.')
     for i in range(1, len(parts) + 1):
-        r = c.execute("SELECT grpid,grp FROM languagegroups WHERE grpno=?", ('.'.join(parts[:i]),)).fetchone()
+        r = c.execute("SELECT grpid,grpno,grp FROM languagegroups WHERE grpno=?", ('.'.join(parts[:i]),)).fetchone()
         if r: out.append(r)
     return out
 
@@ -978,7 +980,7 @@ def language(lgid):
     c.close()
 
     crumb_links = ['<a href="/languages">Languages</a>'] + \
-                  [f'<a href="/group/{gg["grpid"]}">{esc(gg["grp"])}</a>' for gg in lin]
+                  [f'<a href="/group/{gg["grpid"]}">{(esc(gg["grpno"]) + " ") if gg["grpno"] else ""}{esc(gg["grp"])}</a>' for gg in lin]
     nsrc = len({r['srcabbr'] for r in rows if r['srcabbr']})
     meta = []
     if ln['lgabbr']: meta.append(f'<span><b>abbr</b> {esc(ln["lgabbr"])}</span>')
@@ -1105,7 +1107,9 @@ def source(srcabbr):
         HAVING n>0 ORDER BY ln.language""", (srcabbr,)).fetchall()
     c.close()
     total = sum(l['n'] for l in langs)
-    cite = ' '.join(x for x in (s['author'], f"({s['year']})" if s['year'] else '', s['title']) if x)
+    _au = (s['author'] or '').rstrip()
+    if _au and not _au.endswith('.'): _au += '.'
+    cite = ' '.join(x for x in (_au, f"{s['year']}." if s['year'] else '', s['title']) if x)
     meta = []
     if s['imprint']: meta.append(f'<span><b>imprint</b> {esc(s["imprint"])}</span>')
     meta.append(f'<span><b>{len(langs)}</b> languages</span>')
@@ -1137,7 +1141,7 @@ def source(srcabbr):
         sep = '' if cite_full.rstrip().endswith('.') else '.'   # avoid "Title.. Imprint"
         cite_full = (cite_full.rstrip() + sep + ' ' + s['imprint']) if cite_full else s['imprint']
     cite_full = cite_full or (s['citation'] or s['srcabbr'])
-    cite_as = f"{cite_full} — via STEDT, {src_url} (accessed ____)."
+    cite_as = f"{cite_full} — via STEDT, {src_url} (accessed [ACCESSED])."
     # BibTeX for the source, parallel to the etymon citebox so both cite-boxes offer it.
     # imprint is free text (series/publisher/place), so keep it in note rather than mis-splitting it.
     bibkey = 'stedt-src-' + re.sub(r'[^A-Za-z0-9]+', '-', s['srcabbr'] or 'source').strip('-')
@@ -1152,13 +1156,15 @@ def source(srcabbr):
     bib_lines.append('  url    = {' + src_url + '}')
     bib_lines.append('}')
     src_bib = '\n'.join(bib_lines)
-    copy_js = ("<script>document.querySelectorAll('.copybtn').forEach("
-               "b=>b.addEventListener('click',()=>{navigator.clipboard.writeText(b.dataset.cite);"
-               "b.textContent='Copied';}));</script>")
+    copy_js = ("<script>(function(){var D=new Date().toISOString().slice(0,10);"
+               "document.querySelectorAll('.adate').forEach(function(e){e.textContent=D;});"
+               "document.querySelectorAll('.copybtn').forEach(function(b){b.addEventListener('click',function(){"
+               "navigator.clipboard.writeText((b.dataset.cite||'').replace(/\\[ACCESSED\\]/g,D));"
+               "b.textContent='Copied';});});})();</script>")
     apparatus = f"""
     <section class="apparatus"><h3>Cite this source</h3>
       <div class="citebox">
-        <div><code>{esc(cite_as)}</code></div>
+        <div><code>{esc(cite_full)} — via STEDT, {esc(src_url)} (accessed <span class="adate"></span>).</code></div>
         <div>Stable link: <code>{esc(src_url)}</code></div>
         <div class="cite-actions">
           <button class="copybtn" data-cite="{esc(cite_as)}">Copy citation</button>
@@ -1243,7 +1249,7 @@ def group(grpid):
     treehtml = (f'<details class="seg" open><summary>Family tree<span class="c">{len(alltree)} groups</span></summary>'
                 f'<div class="lgtree">{tree}</div></details>')
     crumb_links = ['<a href="/languages">Languages</a>'] + \
-                  [f'<a href="/group/{gg["grpid"]}">{esc(gg["grp"])}</a>' for gg in lin]
+                  [f'<a href="/group/{gg["grpid"]}">{(esc(gg["grpno"]) + " ") if gg["grpno"] else ""}{esc(gg["grp"])}</a>' for gg in lin]
     meta = []
     if langs: meta.append(f'<span><b>{len(langs)}</b> languages</span>')
     if recons: meta.append(f'<span><b>{len(recons):,}</b> reconstructions</span>')
@@ -1443,7 +1449,9 @@ def sources_index():
     def refstr(s):
         # full reference incl. the publication imprint (journal/issue/pages or publisher),
         # so the venue is visible at a glance instead of only on the detail page.
-        base = ' '.join(x for x in (s['author'], f"({s['year']})" if s['year'] else '', s['title']) if x)
+        au = (s['author'] or '').rstrip()
+        if au and not au.endswith('.'): au += '.'
+        base = ' '.join(x for x in (au, f"{s['year']}." if s['year'] else '', s['title']) if x)
         if s['imprint']:
             sep = '' if base.rstrip().endswith('.') else '.'   # avoid "Title.. Imprint"
             base = (base.rstrip() + sep + ' ' + s['imprint']) if base else s['imprint']
@@ -1561,7 +1569,7 @@ def search_page(q=""):
       if(!window.stedtSearch)return;
       if(!window.stedtDbLoaded)res.innerHTML='<p class="cap">Loading search…</p>';
       let r;
-      try{r=await window.stedtSearch(q,2000);}
+      try{r=await window.stedtSearch(q,null);}
       catch(err){res.innerHTML='<p class="cap">Search is unavailable.</p>';return;}
       const parts=[];
       if(r.languageTotal) parts.push(fmt(r.languageTotal)+' language'+(r.languageTotal==1?'':'s'));

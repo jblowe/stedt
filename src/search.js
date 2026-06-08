@@ -127,6 +127,24 @@ const LANG_SQL = `
   WHERE ln.language LIKE ? AND ln.language NOT LIKE '*%'
   GROUP BY ln.lgid`;
 
+// FTS5's unicode61 tokenizer doesn't insert boundaries between Han characters, so a CJK substring
+// is only found when it stands alone as a token — silently undercounting in this Chinese-heavy
+// corpus. Detect CJK and route those queries through a substring LIKE over the stored lexicon text
+// (mirroring the original site's RLIKE form search) instead of FTS MATCH.
+const hasCJK = (s) => /[㐀-鿿豈-﫿]|[\ud840-\ud87f][\udc00-\udfff]/.test(s || '');
+const likeToks = (s) => s.replace(/["()*:^%_]/g, ' ').split(/\s+/).filter(Boolean);
+const _likeWhere = (n) => Array(n).fill('(reflex LIKE ? OR gloss LIKE ?)').join(' AND ');
+const reflexLikeSql = (n) => `
+  SELECT ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.rn AS rn, l.lgid AS lgid,
+         json_group_array(json_object('tag', e.tag, 'pf', e.protoform))
+           FILTER (WHERE e.tag IS NOT NULL) AS etyma
+  FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
+  LEFT JOIN lx_et_hash h ON h.rn = l.rn AND h.tag > 0
+  LEFT JOIN etyma e ON e.tag = h.tag AND coalesce(upper(e.status), '') != 'DELETE'
+  WHERE l.rn IN (SELECT rn FROM lexicon WHERE ${_likeWhere(n)} LIMIT ?)
+  GROUP BY l.rn LIMIT ?`;
+const reflexLikeCountSql = (n) => `SELECT count(*) AS n FROM lexicon WHERE ${_likeWhere(n)}`;
+
 // limit caps the rows fetched per type (the page windows them client-side); the *Total fields are
 // the true match counts so the UI can show "first N of M shown" instead of silently truncating.
 export async function stedtSearch(query, limit = 40) {
@@ -134,23 +152,35 @@ export async function stedtSearch(query, limit = 40) {
   const db = await getDb();
   // a leading "*" is reconstruction notation, not a search operator; "*" alone means "all"
   const qe = (query.startsWith('*') && query !== '*') ? query.slice(1).trim() : query;
+  // limit <= 0 / null means "no cap": fetch every match and let the page infinite-scroll through
+  // them (SQLite reads LIMIT -1 as unbounded). The home dropdown still passes a small limit.
+  const lim = (limit == null || limit <= 0) ? -1 : limit;
 
   let etyma = [], etymaTotal = 0;
   if (query === '*') {
-    etyma = run(db, ETYMA_ALL_SQL, [limit]);
+    etyma = run(db, ETYMA_ALL_SQL, [lim]);
     etymaTotal = run(db, ETYMA_COUNT_ALL_SQL, [])[0].n;
   } else if (qe) {
     const like = '%' + qe + '%';
     const nohy = '%' + qe.replace(/[-|◦\s]/g, '') + '%';   // morpheme-boundary–insensitive
-    etyma = run(db, ETYMA_SQL, [like, like, nohy, qe, limit]);
+    etyma = run(db, ETYMA_SQL, [like, like, nohy, qe, lim]);
     etymaTotal = run(db, ETYMA_COUNT_SQL, [like, like, nohy])[0].n;
   }
 
   let reflexes = [], reflexTotal = 0;
   if (qe && query !== '*') {
-    const m = ftsQ(qe);
-    reflexTotal = run(db, REFLEX_COUNT_SQL, [m])[0].n;
-    reflexes = run(db, REFLEX_SQL, [m, limit + 40, limit]);
+    const inner = lim < 0 ? -1 : lim + 40;
+    if (hasCJK(qe)) {
+      // CJK substrings are invisible to FTS MATCH (see hasCJK note) — match them with LIKE instead.
+      const toks = likeToks(qe), p = [];
+      for (const t of toks) { const w = '%' + t + '%'; p.push(w, w); }
+      reflexTotal = run(db, reflexLikeCountSql(toks.length), p)[0].n;
+      reflexes = run(db, reflexLikeSql(toks.length), [...p, inner, lim]);
+    } else {
+      const m = ftsQ(qe);
+      reflexTotal = run(db, REFLEX_COUNT_SQL, [m])[0].n;
+      reflexes = run(db, REFLEX_SQL, [m, inner, lim]);
+    }
     // parse the aggregated etyma JSON into a deduped array; expose the first as tag/pf for
     // compact single-link consumers (the home dropdown), the full list as r.etyma.
     for (const r of reflexes) {
@@ -167,13 +197,22 @@ export async function stedtSearch(query, limit = 40) {
   let languages = [], languageTotal = 0;
   if (qe && query !== '*' && qe.length >= 2) {
     const rows = run(db, LANG_SQL, ['%' + qe + '%']);
-    const byName = new Map();   // collapse source variants of a name to its best-attested lgid
-    for (const r of rows) { const cur = byName.get(r.language); if (!cur || r.n > cur.n) byName.set(r.language, r); }
+    // A canonical language page aggregates every source-variant lgid of a (name, subgroup), so its
+    // form count is the SUM across variants — match that (was: the single largest variant's count,
+    // which underreported multi-source lects ~2-4x). Link to the best-attested lgid = that lect's
+    // canonical page. (Same-name lects in different subgroups, e.g. Lahu (Red), merge into one row —
+    // a rare imprecision, as the search DB carries no subgroup id.)
+    const byName = new Map();
+    for (const r of rows) {
+      const cur = byName.get(r.language);
+      if (!cur) byName.set(r.language, { language: r.language, lgid: r.lgid, n: r.n, _max: r.n });
+      else { cur.n += r.n; if (r.n > cur._max) { cur._max = r.n; cur.lgid = r.lgid; } }
+    }
     const ql = qe.toLowerCase();
     const list = [...byName.values()].sort((a, b) =>
       ((a.language.toLowerCase() === ql ? 0 : 1) - (b.language.toLowerCase() === ql ? 0 : 1)) || (b.n - a.n));
     languageTotal = list.length;
-    languages = list.slice(0, Math.min(limit, 50));
+    languages = list.slice(0, lim < 0 ? list.length : Math.min(lim, 50));
   }
 
   return { etyma, etymaTotal, reflexes, reflexTotal, languages, languageTotal };
