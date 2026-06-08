@@ -15,6 +15,8 @@ Env:    STEDT_BASE   subpath prefix (default /stedt; use '' for a custom apex do
         STEDT_OUT    output dir (default site)
         STEDT_LIMIT  cap entities per kind for quick local testing (0 = all)
 """
+import glob
+import hashlib
 import os
 import re
 import shutil
@@ -26,16 +28,32 @@ BASE = os.environ.get("STEDT_BASE", "/stedt").rstrip("/")
 OUT = os.environ.get("STEDT_OUT", "site")
 LIMIT = int(os.environ.get("STEDT_LIMIT", "0"))
 
-# Add the subpath to root-absolute href/src/action (but not protocol-relative //), and
-# inject the base so the client search can prefix its result URLs at runtime.
+# Add the subpath to root-absolute href/src/action (but not protocol-relative //), and inject
+# the base + data version so the client search can prefix result URLs and cache-key the DB.
 _LINK = re.compile(r'(\b(?:href|src|action)=")/(?!/)')
 
 
+def data_version():
+    """A content hash of data/ — changes only when the source data changes, so the search DB
+    is cache-busted (search.sqlite3?v=...) on data updates rather than on every deploy."""
+    h = hashlib.sha256()
+    for p in sorted(glob.glob(os.path.join(serve.DATA, "**", "*"), recursive=True)):
+        if os.path.isfile(p):
+            h.update(p.encode("utf-8"))
+            with open(p, "rb") as f:
+                for chunk in iter(lambda: f.read(1 << 20), b""):
+                    h.update(chunk)
+    return h.hexdigest()[:16]
+
+
+DB_VERSION = ""   # set in main()
+
+
 def rewrite(s):
-    if not BASE:
-        return s
-    s = _LINK.sub(lambda m: m.group(1) + BASE + "/", s)
-    return s.replace("<head>", f'<head><script>window.STEDT_BASE="{BASE}";</script>', 1)
+    if BASE:
+        s = _LINK.sub(lambda m: m.group(1) + BASE + "/", s)
+    head = f'<head><script>window.STEDT_BASE="{BASE}";window.STEDT_DB_VERSION="{DB_VERSION}";</script>'
+    return s.replace("<head>", head, 1)
 
 
 _ok = 0
@@ -65,7 +83,9 @@ def cap(xs):
 
 
 def main():
+    global DB_VERSION
     t0 = time.time()
+    DB_VERSION = data_version()
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
     os.makedirs(OUT, exist_ok=True)

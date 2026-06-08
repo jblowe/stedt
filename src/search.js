@@ -9,6 +9,10 @@
 import sqlite3InitModule from '@sqlite.org/sqlite-wasm';
 
 const base = () => (typeof window !== 'undefined' && window.STEDT_BASE) || '';
+// Cache-key the DB by a data-content version (injected by build_static) so it re-downloads only
+// when the data changes — not on every deploy (GitHub Pages' ETag is mtime-based, so it churns).
+const dbUrl = () => base() + '/search.sqlite3'
+  + ((typeof window !== 'undefined' && window.STEDT_DB_VERSION) ? '?v=' + window.STEDT_DB_VERSION : '');
 
 let _dbp = null;
 function getDb() {
@@ -20,7 +24,7 @@ function getDb() {
 
 async function loadDb() {
   const sqlite3 = await sqlite3InitModule({ locateFile: () => base() + '/assets/sqlite3.wasm' });
-  const bytes = await fetchDbBytes(base() + '/search.sqlite3');
+  const bytes = await fetchDbBytes(dbUrl());
   const p = sqlite3.wasm.allocFromTypedArray(bytes);
   const db = new sqlite3.oo1.DB();
   db.checkRc(sqlite3.capi.sqlite3_deserialize(
@@ -30,16 +34,18 @@ async function loadDb() {
   return db;
 }
 
-// Download once; serve from the Cache API afterward (revalidated by ETag) so repeat visits
-// don't re-download. Falls back to a plain fetch where caches are unavailable (e.g. file://).
+// Download once; serve from the Cache API afterward so repeat visits don't re-download. The URL
+// carries the data version, so a cache hit means "same data" — no revalidation needed; a data
+// change yields a new URL (miss). Old versions are evicted so storage holds one DB at a time.
+// Falls back to a plain fetch where caches are unavailable (e.g. file://).
 async function fetchDbBytes(url) {
   try {
     const cache = await caches.open('stedt-search-db');
-    const etag = (await fetch(url, { method: 'HEAD' })).headers.get('etag') || '';
     const hit = await cache.match(url);
-    if (hit && hit.headers.get('x-stedt-etag') === etag) return new Uint8Array(await hit.arrayBuffer());
+    if (hit) return new Uint8Array(await hit.arrayBuffer());
     const buf = await (await fetch(url)).arrayBuffer();
-    await cache.put(url, new Response(buf, { headers: { 'x-stedt-etag': etag } }));
+    for (const k of await cache.keys()) await cache.delete(k);   // evict older DB versions
+    await cache.put(url, new Response(buf));
     return new Uint8Array(buf);
   } catch (e) {
     return new Uint8Array(await (await fetch(url)).arrayBuffer());
