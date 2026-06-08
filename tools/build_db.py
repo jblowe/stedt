@@ -5,8 +5,11 @@ One streaming pass over the 331MB dump; each target table's INSERT lines are
 parsed and loaded with real relations preserved. Cognate links come from the
 authoritative lx_et_hash table. FTS5 (diacritic-folded) is built over reflexes
 joined to their language name.
+
+Usage: python tools/build_db.py [path/to/dump.sql]
+       (defaults to stedtdb_v1.0/STEDT_public_20160602.sql)
 """
-import sqlite3, os, time, re
+import sqlite3, os, sys, time, re
 
 _ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # tools/ -> repo root
 BASE = os.path.join(_ROOT, "stedtdb_v1.0")
@@ -113,8 +116,12 @@ def _fix_cesu(b):
         return chr(cp).encode('utf-8')
     return _CESU.sub(repl, b) if b'\xed' in b else b
 
-def main():
+def main(sqldump=SQLDUMP):
     t0=time.time()
+    if not os.path.exists(sqldump):
+        raise SystemExit(f"dump not found: {sqldump}\n"
+                         f"Usage: python tools/build_db.py [path/to/dump.sql]")
+    print(f"loading {sqldump} -> {OUT}")
     if os.path.exists(OUT): os.remove(OUT)
     db=sqlite3.connect(OUT); c=db.cursor()
     c.execute("PRAGMA journal_mode=OFF"); c.execute("PRAGMA synchronous=OFF")
@@ -124,7 +131,7 @@ def main():
     counts = {t:0 for t in TABLES}
 
     # binary read + CESU-8 repair, then strict UTF-8 (fail loudly on any other bad bytes)
-    with open(SQLDUMP, 'rb') as f:
+    with open(sqldump, 'rb') as f:
         for raw in f:
             line = _fix_cesu(raw).decode('utf-8')
             if not line.startswith("INSERT INTO `"): continue
@@ -170,4 +177,4 @@ def main():
     print(f"\nDB size: {os.path.getsize(OUT)/1e6:.1f} MB  ({time.time()-t0:.1f}s)  -> {OUT}")
 
 if __name__=="__main__":
-    main()
+    main(sys.argv[1] if len(sys.argv) > 1 else SQLDUMP)
