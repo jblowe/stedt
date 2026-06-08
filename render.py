@@ -290,7 +290,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
   border-bottom:1px solid var(--hair);align-items:baseline;line-height:1.35;}
 .rfx:hover{background:var(--paper2);}
 .rfx:last-child{border-bottom:none}
-.rfx:target{background:var(--paper2);box-shadow:inset 3px 0 0 var(--accent);padding-left:8px;}
+.rfx:target,.rfx.rn-target{background:var(--paper2);box-shadow:inset 3px 0 0 var(--accent);padding-left:8px;}
 /* etymon page only: subgroup-grouped reflexes + intermediate-recon rows.
    no per-row rule; the source trails the form instead of pinning hard-right;
    full-width section so its header rule lines up with Notes / Prev-reconstructed. */
@@ -1040,7 +1040,9 @@ def language(lgid):
        text and materialises them the first time it opens (or on load if it starts open), so a
        7,700-form lect doesn't build ~50k DOM nodes the reader never looks at. reveal() also
        handles a #rn<id> deep link (e.g. from a thesaurus 'attested forms' link) that points
-       into a section not yet opened. The :target CSS rule supplies the static highlight. */
+       into a section not yet opened, and tags the row with .rn-target for the highlight — a
+       lazily-injected row can't be relied on to match :target (the fragment was already set
+       before it existed), so the class is applied explicitly rather than left to CSS. */
     (function(){{
       function fill(d){{
         if(d.dataset.filled) return;
@@ -1060,6 +1062,7 @@ def language(lgid):
         btn.textContent=open?'Collapse all':'Expand all';
       }});
       function reveal(){{
+        var prev=document.querySelector('.rfx.rn-target'); if(prev) prev.classList.remove('rn-target');
         var h=location.hash; if(!h||h.length<2) return;
         var id; try{{id=decodeURIComponent(h.slice(1));}}catch(e){{return;}}
         var el=document.getElementById(id);
@@ -1073,7 +1076,13 @@ def language(lgid):
         }}
         if(!el) return;
         var d=el.closest('details'); if(d&&!d.open){{ fill(d); d.open=true; }}
+        el.classList.add('rn-target');
         el.scrollIntoView({{block:'center'}});
+        // A cold load scrolls before web fonts arrive; their reflow can nudge the row off its
+        // mark, so re-settle once fonts are ready — but only if this row is still the target.
+        if(document.fonts&&document.fonts.ready) document.fonts.ready.then(function(){{
+          if(location.hash.slice(1)===id) el.scrollIntoView({{block:'center'}});
+        }});
       }}
       window.addEventListener('hashchange',reveal); reveal();
     }})();
