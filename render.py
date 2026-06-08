@@ -114,7 +114,9 @@ def render_note(x):
         rid = int(ref)
         if rid in valid:
             lab = labels.get(rid)
-            if lab:  # annotate the bare "#N" inline (proto-language, proto-form, gloss), as the original does
+            # annotate only a bare "#N" reference; leave an author-written label (the rare xref whose
+            # text already spells out a gloss) untouched, so the gloss isn't printed twice.
+            if lab and re.fullmatch(r'\s*#?\d+\s*', txt):
                 plg, pf, pg = lab
                 bits = []
                 if plg: bits.append(esc(plg))
@@ -295,6 +297,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx .form{font-size:17px;}
 .rfx .form .br{color:var(--mut);}
 .rfx .src{font-size:13px;color:var(--mut);}
+.rfx .loc{color:var(--mut);font-variant-numeric:tabular-nums;}
 .rfx .g{color:var(--soft);font-size:13.5px;font-style:italic;}
 .rfx a{border-bottom:none;}
 .rfx a.lang{color:var(--soft);}
@@ -911,7 +914,7 @@ def language(lgid):
         c.close(); return page("Not found", "<p>No such language.</p>")
     grp = c.execute("SELECT grpid,grpno,grp,plg FROM languagegroups WHERE grpid=?", (ln['grpid'],)).fetchone()
     src = c.execute("SELECT srcabbr,citation FROM srcbib WHERE srcabbr=?", (ln['srcabbr'],)).fetchone()
-    rows = c.execute("""SELECT l.rn, l.reflex, l.gloss, l.gfn, l.semkey
+    rows = c.execute("""SELECT l.rn, l.reflex, l.gloss, l.gfn, l.semkey, l.srcid
         FROM lexicon l WHERE l.lgid=? ORDER BY l.semkey, l.reflex""", (lgid,)).fetchall()
     total = len(rows)
     chap = {r['semkey']: r['chaptertitle'] for r in c.execute("SELECT semkey,chaptertitle FROM chapters")}
@@ -968,9 +971,12 @@ def language(lgid):
                     vias.append(f'<a class="via" href="/etymon/{t}">› *{esc(alt(plabels[t]))}</a>')
             via = ' '.join(vias)
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r['gfn'] else ''
+            # per-reflex source locus (page/set/entry within the page's source, named in the header)
+            loc = f'<span class="loc">{esc(r["srcid"])}</span>' if r['srcid'] else ''
+            srccell = ' '.join(x for x in (loc, via) if x)
             rfx.append(f'<div class="rfx" id="rn{r["rn"]}">{catcell}'
                        f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span>{pos}</span>'
-                       f'<span class="src">{via}</span></div>')
+                       f'<span class="src">{srccell}</span></div>')
         segs.append(f'<details class="seg"{" open" if openall else ""}><summary>{esc(ttl)}'
                     f'<span class="c">{len(items)}</span></summary>{"".join(rfx)}</details>')
 
@@ -1054,7 +1060,8 @@ def source(srcabbr):
     src_url = f"{CITE_BASE}/source/{s['srcabbr']}"
     cite_full = cite
     if s['imprint']:
-        cite_full = (cite_full + '. ' + s['imprint']) if cite_full else s['imprint']
+        sep = '' if cite_full.rstrip().endswith('.') else '.'   # avoid "Title.. Imprint"
+        cite_full = (cite_full.rstrip() + sep + ' ' + s['imprint']) if cite_full else s['imprint']
     cite_full = cite_full or (s['citation'] or s['srcabbr'])
     cite_as = f"{cite_full} — via STEDT, {src_url} (accessed ____)."
     copy_js = ("<script>document.querySelectorAll('.copybtn').forEach("
@@ -1114,7 +1121,7 @@ def group(grpid):
     c.close()
 
     plg = g['plg'] or ''
-    head = (f'<span class="grpno">{esc(grpno)}</span>' if grpno else '') + esc(g['grp'] or grpno or '—')
+    head = (f'<span class="grpno">{esc(grpno)}</span>' if grpno else '') + esc(g['grp'] or '—')
     plg_html = f' <span class="plg2">({esc(plg)})</span>' if plg else ''
 
     def treerow(t):
@@ -1324,7 +1331,8 @@ def sources_index():
         # so the venue is visible at a glance instead of only on the detail page.
         base = ' '.join(x for x in (s['author'], f"({s['year']})" if s['year'] else '', s['title']) if x)
         if s['imprint']:
-            base = (base + '. ' + s['imprint']) if base else s['imprint']
+            sep = '' if base.rstrip().endswith('.') else '.'   # avoid "Title.. Imprint"
+            base = (base.rstrip() + sep + ' ' + s['imprint']) if base else s['imprint']
         return base
     data = [s for s in rows if s['nforms']]
     refonly = [s for s in rows if not s['nforms']]
@@ -1346,7 +1354,7 @@ def sources_index():
                 f'<p class="cap">Cited in the literature but with no attested forms held in STEDT.</p>'
                 f'<ul class="idx">{refitems}</ul></details>') if refonly else ''
     total_forms = sum(s['nforms'] for s in data)
-    sortctl = ('<div class="srcsort">Sort <select id="srcsort">'
+    sortctl = ('<div class="srcsort">Sort <select id="srcsort" aria-label="Sort sources">'
                '<option value="author">by author</option>'
                '<option value="forms">most forms</option>'
                '<option value="langs">most languages</option></select></div>')
