@@ -711,7 +711,7 @@ def etymon(tag):
             form = esc(r['form']).replace('◦', '<span class="br">◦</span>')
             g = f'<span class="g">{esc(r["gloss"])}</span>' if (r['gloss'] and r['gloss'] != e['protogloss']) else ''
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r['gfn'] else ''
-            lang = f'<a class="lang" href="/language/{r["lgid"]}">{esc(r["language"])}</a>'
+            lang = f'<a class="lang" href="/language/{canon_lgid(r["lgid"])}">{esc(r["language"])}</a>'
             loc = f': {esc(r["srcid"])}' if r['srcid'] else ''  # per-reflex source locus (page/entry/note)
             if r['srcabbr']:
                 src = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
@@ -725,7 +725,7 @@ def etymon(tag):
             anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ''
             note = ''.join(f'<div class="rfxnote">{render_note(x)}</div>' for x in lnotes.get(r['rn'], []))
             rfx.append(f'<div class="rfx" id="r{r["rn"]}">{lang}'
-                       f'<span class="form"><a href="/language/{r["lgid"]}#rn{r["rn"]}">{form}</a> {g}{pos}{anl}</span>{src}{note}</div>')
+                       f'<span class="form"><a href="/language/{canon_lgid(r["lgid"])}#rn{r["rn"]}">{form}</a> {g}{pos}{anl}</span>{src}{note}</div>')
         code = '' if k[0] in (None, 'zz') else f'<span class="grpno">{esc(k[0])}</span>'
         sgs.append(f'<div class="sg" id="sg{i}"><h4>{code}{esc(k[1])}<span class="c">{len(items)}</span></h4>'
                    + ''.join(rfx) + '</div>')
@@ -912,15 +912,55 @@ def proto_labels(c, tags):
             out[r['tag']] = r['protoform']
     return out
 
+_CANON = None
+def canonical_languages():
+    """Collapse the source-variant lgids of one (language name, subgroup) to a single canonical
+    page — the most-attested lgid — so a 'language' is a lect (not a language×source pair) and its
+    words from every source live on one page; the other lgids redirect to it. Variants almost
+    always agree on subgroup/ISO, so grouping by (name, grpid) is safe and won't merge homonyms in
+    different branches. Returns (canon_of {lgid: canonical_lgid}, members {canonical_lgid: [lgids]})."""
+    global _CANON
+    if _CANON is None:
+        c = con()
+        rows = c.execute("""SELECT ln.lgid AS lgid, ln.language AS language, ln.grpid AS grpid,
+                count(l.rn) AS n
+            FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid
+            GROUP BY ln.lgid""").fetchall()
+        c.close()
+        groups = {}
+        for r in rows:
+            groups.setdefault((r['language'], r['grpid']), []).append((r['lgid'], r['n'] or 0))
+        canon_of, members = {}, {}
+        for lst in groups.values():
+            canon = max(lst, key=lambda t: (t[1], -t[0]))[0]   # most forms; tie -> lowest lgid
+            ids = sorted(t[0] for t in lst)
+            members[canon] = ids
+            for lid in ids:
+                canon_of[lid] = canon
+        _CANON = (canon_of, members)
+    return _CANON
+
+def canon_lgid(lgid):
+    """The canonical lgid for a language×source lgid, so internal links skip the redirect hop."""
+    return canonical_languages()[0].get(lgid, lgid)
+
 def language(lgid):
     c = con()
-    ln = c.execute("SELECT * FROM languagenames WHERE lgid=?", (lgid,)).fetchone()
+    canon_of, members = canonical_languages()
+    canon = canon_of.get(lgid, lgid)
+    sibs = members.get(canon, [lgid])     # every source-variant lgid of this lect
+    ln = c.execute("SELECT * FROM languagenames WHERE lgid=?", (canon,)).fetchone()
     if not ln:
         c.close(); return page("Not found", "<p>No such language.</p>")
     grp = c.execute("SELECT grpid,grpno,grp,plg FROM languagegroups WHERE grpid=?", (ln['grpid'],)).fetchone()
-    src = c.execute("SELECT srcabbr,citation,author,year,title FROM srcbib WHERE srcabbr=?", (ln['srcabbr'],)).fetchone()
-    rows = c.execute("""SELECT l.rn, l.reflex, l.gloss, l.gfn, l.semkey, l.srcid
-        FROM lexicon l WHERE l.lgid=? ORDER BY l.semkey, l.reflex""", (lgid,)).fetchall()
+    # all attested forms across every source, each row carrying its own source (the work) + locus
+    qm = ','.join('?' * len(sibs))
+    rows = c.execute(f"""SELECT l.rn, l.reflex, l.gloss, l.gfn, l.semkey, l.srcid, l.lgid,
+            ln.srcabbr AS srcabbr, sb.citation AS citation
+        FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
+        LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
+        WHERE l.lgid IN ({qm})
+        ORDER BY l.semkey, ln.srcabbr, l.reflex""", sibs).fetchall()
     total = len(rows)
     chap = {r['semkey']: r['chaptertitle'] for r in c.execute("SELECT semkey,chaptertitle FROM chapters")}
     lin = group_lineage(c, grp['grpno']) if grp else []
@@ -928,28 +968,19 @@ def language(lgid):
     rn_tags = {}
     rns = [r['rn'] for r in rows]
     for i in range(0, len(rns), 900):
-        chunk = rns[i:i + 900]; qm = ','.join('?' * len(chunk))
-        for hr in c.execute(f"SELECT rn, tag FROM lx_et_hash WHERE tag>0 AND rn IN ({qm}) ORDER BY rn, ind", chunk):
+        chunk = rns[i:i + 900]; qmk = ','.join('?' * len(chunk))
+        for hr in c.execute(f"SELECT rn, tag FROM lx_et_hash WHERE tag>0 AND rn IN ({qmk}) ORDER BY rn, ind", chunk):
             rn_tags.setdefault(hr['rn'], []).append(hr['tag'])
     plabels = proto_labels(c, {t for ts in rn_tags.values() for t in ts})
-    # the same language from other sources is a distinct lgid; surface those so source variants
-    # are reachable (the languages index collapses them by name).
-    siblings = c.execute("""SELECT ln2.lgid AS lgid, sb.citation AS citation, ln2.srcabbr AS srcabbr,
-            count(l.rn) AS n
-        FROM languagenames ln2 LEFT JOIN srcbib sb ON sb.srcabbr=ln2.srcabbr
-        JOIN lexicon l ON l.lgid=ln2.lgid
-        WHERE ln2.language=? AND ln2.grpid IS ? AND ln2.lgid!=?
-        GROUP BY ln2.lgid HAVING n>0 ORDER BY n DESC""",
-        (ln['language'], ln['grpid'], lgid)).fetchall()
     c.close()
 
     crumb_links = ['<a href="/languages">Languages</a>'] + \
                   [f'<a href="/group/{gg["grpid"]}">{esc(gg["grp"])}</a>' for gg in lin]
+    nsrc = len({r['srcabbr'] for r in rows if r['srcabbr']})
     meta = []
-    if src and src['srcabbr']:
-        meta.append(f'<span><b>source</b> <a href="/source/{esc(src["srcabbr"])}">{esc(src["citation"] or src["srcabbr"])}</a></span>')
     if ln['lgabbr']: meta.append(f'<span><b>abbr</b> {esc(ln["lgabbr"])}</span>')
     if ln['silcode']: meta.append(f'<span><b>ISO 639-3</b> {iso_link(ln["silcode"])}</span>')
+    if nsrc > 1: meta.append(f'<span><b>{nsrc}</b> sources</span>')
     meta.append(f'<span><b>{total:,}</b> reflexes</span>')
 
     groups = {}
@@ -958,14 +989,6 @@ def language(lgid):
         groups.setdefault(sk.split('.')[0] if sk else '', []).append(r)
     keys = sorted(groups, key=lambda k: (k == '', natkey(k)))
     openall = total <= 80
-    # the work is constant for the whole page, so a per-reflex locus carries no inline citation;
-    # build the full reference once and hang it on each locus as a hover tooltip instead.
-    src_cit = (src['citation'] or src['srcabbr']) if src else ''
-    bib = '. '.join(p for p in (
-        (src['author'] or '').rstrip('.') if src else '',
-        str(src['year']) if src and src['year'] else '',
-        (src['title'] or '').rstrip('.') if src else '',
-    ) if p)
     segs = []
     for key in keys:
         items = groups[key]
@@ -977,35 +1000,24 @@ def language(lgid):
             catcell = (f'<a class="lang" href="/thesaurus/{esc(sk)}">{esc(cat)}</a>'
                        if sk else '<span class="lang">—</span>')
             form = esc(r['reflex']).replace('◦', '<span class="br">◦</span>')
+            pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r['gfn'] else ''
             seen, vias = set(), []
             for t in rn_tags.get(r['rn'], []):
                 if t in plabels and t not in seen:
                     seen.add(t)
                     vias.append(f'<a class="via" href="/etymon/{t}">› *{esc(alt(plabels[t]))}</a>')
-            via = ' '.join(vias)
-            pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r['gfn'] else ''
-            # per-reflex source locus (page/set/entry within the page's source, named in the header).
-            # tooltip restores the full reference the row omits, so the bare number is self-explanatory.
-            if r['srcid']:
-                tip = f'{src_cit}, §{r["srcid"]}' + (f' — {bib}' if bib else '')
-                loc = f'<span class="loc" title="{esc(tip)}">{esc(r["srcid"])}</span>'
+            via = f'<span class="anl">{" ".join(vias)}</span>' if vias else ''
+            # each row shows the source it is attested in (the work) + the locus within it
+            loc = f': {esc(r["srcid"])}' if r['srcid'] else ''
+            if r['srcabbr']:
+                src = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
             else:
-                loc = ''
-            srccell = ' '.join(x for x in (loc, via) if x)
+                src = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
             rfx.append(f'<div class="rfx" id="rn{r["rn"]}">{catcell}'
-                       f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span>{pos}</span>'
-                       f'<span class="src">{srccell}</span></div>')
+                       f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span>{pos}{via}</span>'
+                       f'{src}</div>')
         segs.append(f'<details class="seg"{" open" if openall else ""}><summary>{esc(ttl)}'
                     f'<span class="c">{len(items)}</span></summary>{"".join(rfx)}</details>')
-
-    sibhtml = ''
-    if siblings:
-        sibrows = ''.join(
-            f'<div class="rfx"><a class="lang" href="/language/{s["lgid"]}">'
-            f'{esc(s["citation"] or s["srcabbr"] or "—")}</a>'
-            f'<span class="subg">{esc(s["srcabbr"] or "")}</span>'
-            f'<span class="src">{s["n"]:,} forms</span></div>' for s in siblings)
-        sibhtml = f'<section class="reflexes"><h3>Also attested in other sources</h3>{sibrows}</section>'
 
     body = f"""
     <div class="ety-head">
@@ -1015,7 +1027,6 @@ def language(lgid):
       <div class="metabar">{''.join(meta)}</div>
     </div>
     <section class="reflexes"><h3>Attested forms</h3>{''.join(segs)}</section>
-    {sibhtml}
     <script>
     /* A reflex anchor (#rn<id>) may sit inside a collapsed segment (and arrives from a
        thesaurus 'attested forms' link); open the ancestor section and scroll to it. The
@@ -1061,7 +1072,7 @@ def source(srcabbr):
         grplink = (f'<a href="/group/{l["grpid"]}">{grp}</a>' if (l['grpid'] is not None and grp) else grp)
         iso = f' · ISO {iso_link(l["silcode"])}' if l['silcode'] else ''
         ab = f' <span class="lgab">{esc(l["lgabbr"])}</span>' if l['lgabbr'] else ''
-        return (f'<div class="rfx"><span><a class="lang" href="/language/{l["lgid"]}">'
+        return (f'<div class="rfx"><span><a class="lang" href="/language/{canon_lgid(l["lgid"])}">'
                 f'{esc(l["language"])}</a>{ab}</span><span class="subg">{grplink}{iso}</span>'
                 f'<span class="src">{l["n"]:,} forms</span></div>')
     rows = ''.join(langrow(l) for l in langs)
@@ -1171,7 +1182,7 @@ def group(grpid):
             mid.append(f'<a href="/source/{esc(l["srcabbr"])}">{esc(l["citation"] or l["srcabbr"])}</a>')
         if l['silcode']:
             mid.append('ISO ' + iso_link(l['silcode']))
-        return (f'<div class="rfx"><span><a class="lang" href="/language/{l["lgid"]}">{esc(l["language"])}</a>{ab}</span>'
+        return (f'<div class="rfx"><span><a class="lang" href="/language/{canon_lgid(l["lgid"])}">{esc(l["language"])}</a>{ab}</span>'
                 f'<span class="subg">{" · ".join(mid)}</span>'
                 f'<span class="src">{l["n"]:,} forms</span></div>')
     langhtml = (f'<section class="reflexes"><h3>Languages<span class="cnt">{len(langs)}</span></h3>'
@@ -1311,7 +1322,7 @@ def languages_index():
         head = code + esc(grp or '—') + (f' <span class="plg2">({esc(plg)})</span>' if plg else '')
         gid = f' id="g{grpid}"' if grpid is not None else ''
         headhtml = (f'<a href="/group/{grpid}">{head}</a>' if grpid is not None else head)
-        items = ''.join(f'<li><a href="/language/{lid}">{esc(nm)}</a></li>'
+        items = ''.join(f'<li><a href="/language/{canon_lgid(lid)}">{esc(nm)}</a></li>'
                         for nm, (lid, _) in sorted(langs.items(), key=lambda kv: kv[0].lower()))
         idx = f'<ul class="idx">{items}</ul>' if items else ''
         return (f'<div class="grpblock" style="margin-left:{depth*18}px">'

@@ -83,6 +83,24 @@ def write(path, render):
         print(f"  {_ok} pages…")
 
 
+def write_redirect(path, target):
+    """Static redirect for a non-canonical language×source lgid -> its canonical lect page. JS
+    preserves any #rn<id> fragment (the reflex lives on the canonical page); meta-refresh + link
+    are the no-JS fallback. Written with BASE already applied (not run through rewrite())."""
+    global _ok
+    url = BASE + target
+    html = ('<!doctype html><meta charset="utf-8">'
+            f'<link rel="canonical" href="{url}">'
+            f'<meta http-equiv="refresh" content="0; url={url}">'
+            f'<script>location.replace("{url}"+location.hash)</script>'
+            f'<p>Redirecting to <a href="{url}">{url}</a>…</p>')
+    fp = os.path.join(OUT, path, "index.html")
+    os.makedirs(os.path.dirname(fp), exist_ok=True)
+    with open(fp, "w", encoding="utf-8") as f:
+        f.write(html)
+    _ok += 1
+
+
 def cap(xs):
     return xs[:LIMIT] if LIMIT else xs
 
@@ -119,8 +137,16 @@ def main():
     write("search", lambda: render.search_page(""))   # client-side results shell (reads ?q=)
     for t in tags:
         write(f"etymon/{t}", lambda t=t: render.etymon(t))
+    # A 'language' is a lect: render one canonical page per (name, subgroup) aggregating all its
+    # source-variant lgids; the other lgids become redirects (so old /language/<lgid> links + the
+    # thesaurus/search #rn<id> deep-links still resolve).
+    canon_of, _members = render.canonical_languages()
     for g in lgids:
-        write(f"language/{g}", lambda g=g: render.language(g))
+        canon = canon_of.get(g, g)
+        if canon == g:
+            write(f"language/{g}", lambda g=g: render.language(g))
+        else:
+            write_redirect(f"language/{g}", f"/language/{canon}/")
     for s in srcs:
         write(f"source/{s}", lambda s=s: render.source(s))
     for g in grpids:
