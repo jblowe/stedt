@@ -1,27 +1,55 @@
-// Client-side search for the static STEDT site. Recreates serve.py's search_data()
-// exactly — the same two SQL queries (reflexes via FTS5, etyma via LIKE) — but runs them
-// in the browser against search.db over HTTP range requests (sql.js-httpvfs). Returns the
-// same {etyma, reflexes} shape the old /api/search returned, so the existing dropdown +
-// results rendering are reused verbatim.
-import { createDbWorker } from "sql.js-httpvfs";
+// Client-side search for the static STEDT site. Recreates serve.py's search_data() exactly
+// (reflexes via FTS5 MATCH, etyma via LIKE) — but runs the queries fully IN-MEMORY via the
+// official SQLite WASM build (which includes FTS5). The DB is downloaded once and cached.
+//
+// Why in-memory and not range requests: GitHub Pages force-gzips files and serves COMPRESSED
+// byte-ranges, which breaks the byte-offset math a range-based VFS needs. A whole-file fetch
+// is gzip-transparent, so we download the DB once (gzip transfer), keep it in memory, and
+// cache the bytes (Cache API, ETag-revalidated) so repeat visits/searches are instant.
+import sqlite3InitModule from '@sqlite.org/sqlite-wasm';
 
-const base = () => (typeof window !== "undefined" && window.STEDT_BASE) || "";
+const base = () => (typeof window !== 'undefined' && window.STEDT_BASE) || '';
 
 let _dbp = null;
 function getDb() {
   if (!_dbp) {
-    _dbp = createDbWorker(
-      [{ from: "inline", config: { serverMode: "full", url: base() + "/search.sqlite3", requestChunkSize: 1024 } }],
-      base() + "/assets/sqlite.worker.js",
-      base() + "/assets/sql-wasm.wasm",
-    ).then((w) => { _worker = w; return w.db; });
+    _dbp = loadDb().then((db) => { if (typeof window !== 'undefined') window.stedtDbLoaded = true; return db; });
   }
   return _dbp;
 }
-let _worker = null;
-export async function searchStats() {        // proof/diagnostics: bytes fetched vs total
-  await getDb();
-  return _worker ? _worker.worker.getStats() : null;
+
+async function loadDb() {
+  const sqlite3 = await sqlite3InitModule({ locateFile: () => base() + '/assets/sqlite3.wasm' });
+  const bytes = await fetchDbBytes(base() + '/search.sqlite3');
+  const p = sqlite3.wasm.allocFromTypedArray(bytes);
+  const db = new sqlite3.oo1.DB();
+  db.checkRc(sqlite3.capi.sqlite3_deserialize(
+    db.pointer, 'main', p, bytes.length, bytes.length,
+    sqlite3.capi.SQLITE_DESERIALIZE_FREEONCLOSE | sqlite3.capi.SQLITE_DESERIALIZE_RESIZEABLE,
+  ));
+  return db;
+}
+
+// Download once; serve from the Cache API afterward (revalidated by ETag) so repeat visits
+// don't re-download. Falls back to a plain fetch where caches are unavailable (e.g. file://).
+async function fetchDbBytes(url) {
+  try {
+    const cache = await caches.open('stedt-search-db');
+    const etag = (await fetch(url, { method: 'HEAD' })).headers.get('etag') || '';
+    const hit = await cache.match(url);
+    if (hit && hit.headers.get('x-stedt-etag') === etag) return new Uint8Array(await hit.arrayBuffer());
+    const buf = await (await fetch(url)).arrayBuffer();
+    await cache.put(url, new Response(buf, { headers: { 'x-stedt-etag': etag } }));
+    return new Uint8Array(buf);
+  } catch (e) {
+    return new Uint8Array(await (await fetch(url)).arrayBuffer());
+  }
+}
+
+function run(db, sql, params) {
+  const rows = [];
+  db.exec({ sql, bind: params, rowMode: 'object', resultRows: rows });
+  return rows;
 }
 
 // --- the two queries, identical to serve.py's search_data() ---
@@ -48,32 +76,31 @@ const ETYMA_ALL_SQL = `
   FROM etyma e LEFT JOIN languagegroups g ON g.grpid = e.grpid
   WHERE coalesce(upper(e.status), '') != 'DELETE' ORDER BY e.tag LIMIT ?`;
 
-const ftsQ = (q) => { q = q.replace(/"/g, " ").trim(); return q ? '"' + q + '"' : '""'; };
+const ftsQ = (s) => { s = s.replace(/"/g, ' ').trim(); return s ? '"' + s + '"' : '""'; };
 
-export async function stedtSearch(q, limit = 40) {
-  q = (q || "").trim();
+export async function stedtSearch(query, limit = 40) {
+  query = (query || '').trim();
   const db = await getDb();
   // a leading "*" is reconstruction notation, not a search operator; "*" alone means "all"
-  const qe = (q.startsWith("*") && q !== "*") ? q.slice(1).trim() : q;
+  const qe = (query.startsWith('*') && query !== '*') ? query.slice(1).trim() : query;
 
   let etyma = [];
-  if (q === "*") {
-    etyma = await db.query(ETYMA_ALL_SQL, [limit]);
+  if (query === '*') {
+    etyma = run(db, ETYMA_ALL_SQL, [limit]);
   } else if (qe) {
-    const like = "%" + qe + "%";
-    const nohy = "%" + qe.replace(/[-|◦\s]/g, "") + "%";   // morpheme-boundary–insensitive
-    etyma = await db.query(ETYMA_SQL, [like, like, nohy, qe, limit]);
+    const like = '%' + qe + '%';
+    const nohy = '%' + qe.replace(/[-|◦\s]/g, '') + '%';   // morpheme-boundary–insensitive
+    etyma = run(db, ETYMA_SQL, [like, like, nohy, qe, limit]);
   }
 
   let reflexes = [];
-  if (qe && q !== "*") {
-    reflexes = await db.query(REFLEX_SQL, [ftsQ(qe), limit + 40, limit]);
+  if (qe && query !== '*') {
+    reflexes = run(db, REFLEX_SQL, [ftsQ(qe), limit + 40, limit]);
   }
   return { etyma, reflexes };
 }
 
-if (typeof window !== "undefined") {
+if (typeof window !== 'undefined') {
+  window.stedtDbLoaded = false;
   window.stedtSearch = stedtSearch;
-  // warm the worker + wasm + first DB pages while the user reads the page
-  window.addEventListener("DOMContentLoaded", () => { try { getDb(); } catch (e) {} });
 }

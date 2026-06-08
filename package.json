@@ -4,10 +4,12 @@
   "type": "module",
   "description": "Client-side WASM-SQLite search bundle for the static STEDT site",
   "scripts": {
-    "build:search": "mkdir -p site/assets && cp node_modules/sql.js-httpvfs/dist/sqlite.worker.js node_modules/sql.js-httpvfs/dist/sql-wasm.wasm site/assets/ && esbuild src/search.js --bundle --format=esm --minify --outfile=site/assets/stedt-search.js"
+    "build:search": "mkdir -p site/assets && cp node_modules/@sqlite.org/sqlite-wasm/dist/sqlite3.wasm site/assets/ && esbuild src/search.js --bundle --format=esm --minify --outfile=site/assets/stedt-search.js"
   },
   "devDependencies": {
-    "esbuild": "^0.23.0",
-    "sql.js-httpvfs": "^0.8.12"
+    "esbuild": "^0.23.0"
+  },
+  "dependencies": {
+    "@sqlite.org/sqlite-wasm": "^3.53.0-build1"
   }
 }

@@ -370,14 +370,18 @@ def home():
     </div>
     <script>
     const B=window.STEDT_BASE||'';
+    const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
     const bs=document.getElementById('bs'),d=document.getElementById('drop');let t;
+    const note=m=>{d.innerHTML='<div class="cap" style="padding:10px 12px">'+m+'</div>';d.style.display='block';};
     bs.addEventListener('input',()=>{clearTimeout(t);const q=bs.value.trim();
       if(q.length<2){d.style.display='none';return;}
       t=setTimeout(async()=>{
         if(!window.stedtSearch){return;}
-        const j=await window.stedtSearch(q,8);let h='';
-        j.etyma.forEach(e=>h+=`<a href="${B}/etymon/${e.tag}"><span class="k">recon</span><span><span class="recon">${e.protoform}</span> · <span class="gl">${e.protogloss}</span></span></a>`);
-        j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:'#'}"><span class="k">${x.language}</span><span><span class="lat">${x.form}</span> ‘${x.gloss}’</span></a>`);
+        if(!window.stedtDbLoaded)note('Loading search…');
+        let j;try{j=await window.stedtSearch(q,8);}catch(e){note('Search is unavailable.');return;}
+        let h='';
+        j.etyma.forEach(e=>h+=`<a href="${B}/etymon/${e.tag}"><span class="k">recon</span><span><span class="recon">${esc(e.protoform)}</span> · <span class="gl">${esc(e.protogloss)}</span></span></a>`);
+        j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:'#'}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> ‘${esc(x.gloss)}’</span></a>`);
         d.innerHTML=h;d.style.display=h?'block':'none';},180);});
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
     document.addEventListener('click',e=>{if(!e.target.closest('.bigsearch'))d.style.display='none';});
@@ -835,7 +839,10 @@ def search_page(q=""):
       if(!q){srh.textContent='Search';return;}
       srh.textContent='Results for '+(q==='*'?'all reconstructions':'“'+q+'”');
       if(!window.stedtSearch)return;
-      const {etyma,reflexes}=await window.stedtSearch(q,50);
+      if(!window.stedtDbLoaded)res.innerHTML='<p class="cap">Loading search…</p>';
+      let etyma,reflexes;
+      try{({etyma,reflexes}=await window.stedtSearch(q,50));}
+      catch(err){res.innerHTML='<p class="cap">Search is unavailable.</p>';return;}
       sub.textContent=etyma.length+' reconstruction(s) · '+reflexes.length+' attested form(s) shown';
       let out='';
       if(etyma.length){
