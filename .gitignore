@@ -1,6 +1,7 @@
-# Derived build artifact — rebuild with: python3 build_from_files.py
+# Derived build artifacts — rebuild with: python3 build_from_files.py / build_static.py
 stedt.sqlite
 *.sqlite
+site/
 
 # Original UC Berkeley release (provenance; archived separately, not the editable source).
 # data/ is the source of truth; build_db.py is the one-time migration that needs the dump.

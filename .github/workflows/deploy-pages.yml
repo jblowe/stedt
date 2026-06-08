@@ -1,0 +1,53 @@
+name: Deploy preview to GitHub Pages
+
+# Prerender the read site (serve.py's pages → static HTML via build_static.py), build the
+# Pagefind client-side search index, and publish to GitHub Pages. Static + zero-service:
+# nothing runs at request time. The site is a PREVIEW (banner + Pagefind-only search).
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+# Least privilege for Pages deploys via the official actions.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# One deploy at a time; newer pushes supersede in-flight runs.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5      # enables Pages (source = Actions) if needed
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Build SQLite from data/
+        run: python3 build_from_files.py
+      - name: Prerender static site
+        run: python3 build_static.py
+      - name: Build Pagefind search index
+        run: npx -y pagefind@latest --site site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

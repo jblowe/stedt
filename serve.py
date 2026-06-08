@@ -15,6 +15,25 @@ DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 # deployed — set this to the real domain at deploy time so citations resolve.
 SITE_ORIGIN = "https://stedt.org"
 
+# Static-preview mode (set by build_static.py when prerendering for GitHub Pages): swaps
+# the dynamic live search for the prebuilt Pagefind index and shows the preview banner.
+# Off for the normal dev server, so interactive serving is unaffected.
+PREVIEW = os.environ.get("STEDT_PREVIEW") == "1"
+
+# Proto-language abbreviations (etyma.grpid -> languagegroups.plg) expanded for the etymon header.
+PLG_FULL = {
+    'PST': 'Proto-Sino-Tibetan', 'PTB': 'Proto-Tibeto-Burman', 'PLB': 'Proto-Lolo-Burmese',
+    'PL': 'Proto-Loloish', 'PKC': 'Proto-Kuki-Chin', 'PCC': 'Proto-Central Chin',
+    'PNC': 'Proto-Northern Chin', 'PSPC': 'Proto-Southern Plains Chin', 'PPC': 'Proto-Peripheral Chin',
+    'PTani': 'Proto-Tani', 'PTk': 'Proto-Tangkhulic', 'PKar': 'Proto-Karenic',
+    'PCN': 'Proto-Central Naga (Ao group)', 'PNN': 'Proto-Northern Naga / Konyakian',
+    'TGTM': 'Tamang–Gurung–Thakali–Manang', 'PKir': 'Proto-Kiranti', 'PBod': 'Proto-Bodic',
+    'PQ': 'Proto-Qiangic', 'PrGy': 'Proto-rGyalrongic', 'PDeng': 'Proto-Deng',
+    'PTQ': 'Proto-Tangut–Qiang', 'PBm': 'Proto-Burmish', 'PNungic': 'Proto-Nungic',
+    'PAsak': 'Proto-Asakian', 'NEIA': 'NE Indian Areal Group', 'IA': 'Indo-Aryan',
+    'CH': 'Sinitic (Chinese)', 'DRV': 'Dravidian',
+}
+
 # YAML dumper matching export_files.py, so an edited etymon re-serializes with a clean one-field diff
 class _YD(yaml.SafeDumper): pass
 _NEL = ('\x85', ' ', ' ')
@@ -43,6 +62,18 @@ _PAIR = {
     'footnote': ('<span class="fn">', '</span>'), 'unicode': ('<span>', '</span>'),
     'sup': ('<sup>', '</sup>'), 'sub': ('<sub>', '</sub>'),
 }
+def _smart_quotes(s):
+    """Turn the &quot;/&apos; entities found in note *text* (tag attributes use literal
+    quotes, so they stay untouched) into directional quotation marks, by context."""
+    def repl(m):
+        i = m.start()
+        prev = s[i - 1] if i > 0 else ''
+        opening = (prev == '' or prev.isspace() or prev in '([{<>“‘—–-/')
+        if m.group(0) == '&quot;':
+            return '“' if opening else '”'
+        return '‘' if opening else '’'
+    return re.sub(r'&quot;|&apos;', repl, s)
+
 def render_note(x):
     if not x: return ""
     s = x
@@ -54,8 +85,8 @@ def render_note(x):
     for t, (o, c) in _PAIR.items():
         s = s.replace(f'<{t}>', o).replace(f'</{t}>', c)
     s = re.sub(r'<br\s*/?>', '<br>', s)
-    for e, ch in _ENT.items():
-        s = s.replace(e, ch)
+    s = _smart_quotes(s)
+    s = s.replace('&lt;', '<').replace('&gt;', '>').replace('&amp;', '&')
     if '<p' not in s:
         s = f'<p class="np">{s}</p>'
     return s
@@ -154,8 +185,9 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .abbr dt{font-weight:700;} .abbr dd{margin:0;color:var(--soft);}
 
 /* etymon page */
-.ety-head{border-bottom:2px solid var(--ink);padding-bottom:16px;margin-bottom:8px;}
+.ety-head{border-bottom:1px solid var(--rule);padding-bottom:14px;margin-bottom:24px;}
 .ety-head .plg{font-variant:small-caps;letter-spacing:.08em;font-size:13px;color:var(--accent);}
+.ety-head .pl{font-variant:small-caps;letter-spacing:.06em;font-size:13px;color:var(--accent);margin:10px 0 0;}
 .ety-head .etno{float:right;font-family:"Fraunces",serif;font-size:14px;color:var(--mut);
   font-variant-numeric:tabular-nums;letter-spacing:.02em;}
 .badge{font-variant:small-caps;letter-spacing:.08em;font-size:11px;padding:1px 8px;margin-left:8px;
@@ -169,9 +201,12 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .metabar{display:flex;gap:24px;margin:16px 0 4px;font-size:14px;color:var(--mut);flex-wrap:wrap;}
 .metabar b{font-family:"Fraunces",serif;color:var(--ink);font-size:16px;margin-right:5px;font-variant-numeric:tabular-nums;}
 
-/* section headers — the one small-caps + accent "label" tier */
+/* section headers — the primary structural tier in ink (vermilion reserved for asterisk, proto-language, links) */
 .notes h3,.reflexes h3,.thes h3,.conn h3,.meso h3,.apparatus h3{font-variant:small-caps;letter-spacing:.10em;
-  font-size:14px;color:var(--accent);border-bottom:1px solid var(--rule);padding-bottom:5px;margin:0 0 12px;}
+  font-size:16px;color:var(--ink);border-bottom:1px solid var(--rule);padding-bottom:5px;margin:0 0 12px;}
+.reflexes{max-width:900px;}
+.reflexes h3{display:flex;align-items:baseline;}
+.reflexes h3 .cnt{margin-left:auto;font-size:.92em;letter-spacing:0;color:var(--mut);font-variant-numeric:tabular-nums;}
 .notes{margin:26px 0 8px;}
 .np{margin:0 0 12px;max-width:38em;} .fn{font-size:.86em;color:var(--soft);}
 .note-block{margin-bottom:6px;}
@@ -179,8 +214,8 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .jump{font-size:12.5px;color:var(--mut);margin:0 0 18px;line-height:2;}
 .jump a{border-bottom:1px dotted var(--rule);margin-right:4px;}
 .sg{margin:0 0 22px;}
-.sg h4{display:flex;align-items:baseline;gap:10px;font-variant:small-caps;letter-spacing:.06em;font-size:16px;
-  margin:0 0 6px;border-bottom:1px solid var(--rule);padding-bottom:3px;}
+.sg h4{display:flex;align-items:baseline;gap:10px;font-variant:small-caps;letter-spacing:.06em;font-size:14px;
+  color:var(--soft);margin:0 0 6px;border-bottom:1px solid var(--rule);padding-bottom:3px;}
 .sg h4 .c{font-family:"Fraunces",serif;font-size:12px;color:var(--mut);letter-spacing:0;margin-left:auto;
   font-variant-numeric:tabular-nums;}
 .rfx{display:grid;grid-template-columns:190px minmax(0,1fr) 190px;gap:2px 18px;padding:4px 0;
@@ -304,12 +339,28 @@ def page(title, body, q="", nav=""):
         cls = ' class="active"' if nav == key else ''
         nav_parts.append(f'<a href="{href}"{cls}>{label}</a>')
     navhtml = "".join(nav_parts)
+    if PREVIEW:
+        pf_head = ('<link rel="stylesheet" href="/pagefind/pagefind-ui.css">'
+                   '<script src="/pagefind/pagefind-ui.js"></script>')
+        search_box = '<div class="hsearch pf" id="pf-mast"></div>'
+        main_attr = ' data-pagefind-body'
+        pf_init = ('<script>addEventListener("DOMContentLoaded",function(){'
+                   'if(!window.PagefindUI)return;var B=window.STEDT_BASE||"";'
+                   'var pr=function(r){r.url=B+r.url;return r;};'
+                   'new PagefindUI({element:"#pf-mast",showSubResults:true,resetStyles:false,processResult:pr});'
+                   'var h=document.getElementById("pf-home");'
+                   'if(h)new PagefindUI({element:"#pf-home",showSubResults:true,resetStyles:false,processResult:pr});'
+                   '});</script>')
+    else:
+        pf_head = main_attr = pf_init = ''
+        search_box = (f'<form class="hsearch" action="/search" method="get">'
+                      f'<input name="q" placeholder="search…" value="{esc(q)}" autocomplete="off"></form>')
     return f"""<!doctype html><html lang="en"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} · STEDT</title>
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
-<style>{CSS}</style></head><body>
+<style>{CSS}</style>{pf_head}</head><body>
 <div class="top"></div>
 <header class="mast">
   <div class="brand">
@@ -317,16 +368,32 @@ def page(title, body, q="", nav=""):
     <span class="sub">Sino-Tibetan Etymological Dictionary &amp; Thesaurus</span>
   </div>
   <nav class="main">{navhtml}</nav>
-  <form class="hsearch" action="/search" method="get">
-    <input name="q" placeholder="search…" value="{esc(q)}" autocomplete="off">
-  </form>
+  {search_box}
 </header>
-<main>{body}</main>
+<main{main_attr}>{body}</main>
 <footer></footer>
-</body></html>"""
+{pf_init}</body></html>"""
 
 # ---------------------------------------------------------------- views
 def home():
+    if PREVIEW:
+        banner = ('<div class="preview-banner" style="background:var(--accent);color:var(--paper);'
+                  'padding:14px 20px;border-radius:3px;margin:0 0 22px;font-size:15px;line-height:1.55">'
+                  '<b>Preview.</b> This is an in-progress community rebuild of STEDT '
+                  '(<a href="https://github.com/larc-iu/stedt" style="color:var(--paper);text-decoration:underline">larc-iu/stedt</a>). '
+                  'Data and features are incomplete and may change; search covers curated pages only. '
+                  'Spotted a problem? Use “Suggest an edit” on any entry.</div>')
+        return page("Home", banner + """
+    <div class="home">
+      <div class="bigsearch pf" id="pf-home"></div>
+      <div class="entry">
+        <a href="/thesaurus">Browse by meaning</a>
+        <a href="/reconstructions">All reconstructions</a>
+        <a href="/languages">Languages</a>
+        <a href="/sources">Sources</a>
+        <a href="/etymon/260">A sample entry: *m-gam ‘ladder’</a>
+      </div>
+    </div>""")
     body = """
     <div class="home">
       <div class="bigsearch">
@@ -460,9 +527,9 @@ def etymon(tag):
     nsub = len(gkeys)
 
     jump = ""
-    if nsub > 6:
-        jump = '<div class="jump">Jump to subgroup: ' + ''.join(
-            f'<a href="#sg{i}">{esc(k[1])}</a>' for i, k in enumerate(gkeys)) + '</div>'
+    if nsub > 3:
+        jump = '<div class="jump">Jump to subgroup: ' + ' · '.join(
+            f'<a href="#sg{i}">{esc(k[1])} ({len(groups[k])})</a>' for i, k in enumerate(gkeys)) + '</div>'
 
     sgs = []
     for i, k in enumerate(gkeys):
@@ -486,7 +553,8 @@ def etymon(tag):
                      + ''.join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in notes)
                      + '</section>')
 
-    reflexeshtml = (f'<section class="reflexes"><h3>Reflexes &amp; cognates</h3>{jump}{"".join(sgs)}</section>'
+    cnt = f'<span class="cnt">{len(reflex_rows)} reflexes · {nsub} subgroups</span>'
+    reflexeshtml = (f'<section class="reflexes"><h3>Reflexes &amp; cognates{cnt}</h3>{jump}{"".join(sgs)}</section>'
                     if sgs else '')
 
     mesohtml = ''
@@ -540,6 +608,8 @@ def etymon(tag):
     connhtml = f'<section class="conn"><h3>Connections</h3>{"".join(conn)}</section>' if conn else ''
 
     pf = esc(e['protoform'])
+    plg_ab = e['plg'] or ''
+    plg_html = f'<span title="{esc(plg_ab)}">{esc(PLG_FULL.get(plg_ab, plg_ab))}</span>' if plg_ab else ''
     badges = '<span class="badge del">deleted</span>' if (e['status'] or '').upper() == 'DELETE' else ''
     exm = ' · <span class="exm">exemplary</span>' if (e['exemplary'] or '') == 'x' else ''
 
@@ -576,17 +646,13 @@ def etymon(tag):
     body = f"""
     <div class="ety-head">
       <span class="etno">STEDT #{e['tag']}</span>
-      <div class="plg">{esc(e['plg'])}{exm}{badges}</div>
-      <div class="pf">{pf}</div>
+      <div class="pf">{pf}{badges}</div>
       <div class="pg">{esc(e['protogloss'])}</div>
+      <div class="pl">{plg_html}{exm}</div>
       <div class="crumbs">Semantic domain: {crumb or esc(e['semkey'])}</div>
     </div>
-    <div class="metabar">
-      <span><b>{len(reflex_rows)}</b>reflexes</span>
-      <span><b>{nsub}</b>subgroups</span>
-    </div>
-    {noteshtml}
     {reflexeshtml}
+    {noteshtml}
     {mesohtml}
     {reconhtml}
     {connhtml}
@@ -708,7 +774,7 @@ def source(srcabbr):
     return page(s['citation'] or s['srcabbr'], body, nav="sources"), 200
 
 def reconstructions(page_n=1):
-    c = con(); PER = 100
+    c = con(); PER = 100000 if PREVIEW else 100   # one page in the static preview (no ?page= links)
     OK = "coalesce(upper(e.status),'')!='DELETE'"
     total = c.execute(f"SELECT count(*) FROM etyma e WHERE {OK}").fetchone()[0]
     pages = max(1, (total + PER - 1) // PER)
@@ -765,8 +831,9 @@ def languages_index():
         gid = f' id="g{grpid}"' if grpid is not None else ''
         items = ''.join(f'<li><a href="/language/{lid}">{esc(nm)}</a></li>'
                         for nm, (lid, _) in sorted(langs.items(), key=lambda kv: kv[0].lower()))
-        out.append(f'<h4 class="grp"{gid} style="margin-left:{depth*16}px">{head}</h4>'
-                   f'<ul class="idx">{items}</ul>')
+        out.append(f'<div class="grpblock" style="margin-left:{depth*18}px">'
+                   f'<h4 class="grp"{gid}>{head}</h4>'
+                   f'<ul class="idx">{items}</ul></div>')
     return page("Languages", ''.join(out), nav="languages")
 
 def sources_index():
