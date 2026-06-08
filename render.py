@@ -252,12 +252,12 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx .g{color:var(--soft);font-size:13.5px;font-style:italic;}
 .rfx a{border-bottom:none;}
 .rfx a.lang{color:var(--soft);}
-.rfx a:hover{color:var(--accent);border-bottom:1px solid var(--accent);}
+.rfx a:hover{color:var(--accent);}
 .lgab{font-variant:small-caps;letter-spacing:.04em;font-size:12px;color:var(--mut);}
 .rfx .pos{font-variant:small-caps;letter-spacing:.03em;font-size:11.5px;color:var(--mut);margin-left:6px;}
 .rfx .anl{display:block;font-size:12px;color:var(--mut);margin-top:1px;}
 .rfx .anl a{border-bottom:none;color:var(--mut);}
-.rfx .anl a:hover{color:var(--accent);border-bottom:1px solid var(--accent);}
+.rfx .anl a:hover{color:var(--accent);}
 .rfx .rfxnote{grid-column:1/-1;font-size:13px;color:var(--soft);margin:2px 0 2px;padding-left:2px;}
 .rfx .rfxnote p{margin:0;max-width:62em;}
 
