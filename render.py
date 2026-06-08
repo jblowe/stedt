@@ -725,7 +725,7 @@ def etymon(tag):
             anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ''
             note = ''.join(f'<div class="rfxnote">{render_note(x)}</div>' for x in lnotes.get(r['rn'], []))
             rfx.append(f'<div class="rfx" id="r{r["rn"]}">{lang}'
-                       f'<span class="form">{form} {g}{pos}{anl}</span>{src}{note}</div>')
+                       f'<span class="form"><a href="/language/{r["lgid"]}#rn{r["rn"]}">{form}</a> {g}{pos}{anl}</span>{src}{note}</div>')
         code = '' if k[0] in (None, 'zz') else f'<span class="grpno">{esc(k[0])}</span>'
         sgs.append(f'<div class="sg" id="sg{i}"><h4>{code}{esc(k[1])}<span class="c">{len(items)}</span></h4>'
                    + ''.join(rfx) + '</div>')
