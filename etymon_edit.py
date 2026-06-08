@@ -7,11 +7,11 @@ and .github/scripts/apply_suggested_edit.py). Kept deliberately small: only the 
 of shallow fields a guided form should touch. Deep structural edits (mesoroots, cognate
 retagging, phonology) stay in the raw-YAML / "Edit on GitHub" lane.
 
-The dumper below must stay byte-compatible with export_files.py's dumper so that a
+The dumper below must stay byte-compatible with tools/export_files.py's dumper so that a
 one-field edit re-serializes to a clean, minimal diff (no spurious reflow). _NEL holds
 U+0085 NEL, U+2028 LINE SEPARATOR, U+2029 PARAGRAPH SEPARATOR — chars PyYAML would
 otherwise fold to spaces; double-quoting forces escaping. (Codepoints verified equal to
-export_files.py's _NEL.)
+tools/export_files.py's _NEL.)
 """
 import yaml
 

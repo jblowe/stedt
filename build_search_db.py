@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build search.db — a lean, fully-indexed SQLite for in-browser (WASM) search.
+"""Build search.sqlite3 — a lean, fully-indexed SQLite for in-browser (WASM) search.
 
 Derived from stedt.sqlite (build_from_files.py output). Holds only what the live search
 queries touch — etyma, lexicon, languagenames, languagegroups, lx_et_hash — plus the FTS5

@@ -1,6 +1,6 @@
 name: Deploy preview to GitHub Pages
 
-# Static-first build: data/ → stedt.sqlite → prerendered HTML pages + a lean search.db
+# Static-first build: data/ → stedt.sqlite → prerendered HTML pages + a lean search.sqlite3
 # queried in-browser via WASM SQLite (sql.js-httpvfs over HTTP range requests). No runtime
 # server, no Pagefind. Publishes to GitHub Pages.
 on:
@@ -33,9 +33,9 @@ jobs:
       - run: npm ci
       - name: Build SQLite from data/
         run: python3 build_from_files.py
-      - name: Build the lean search.db (FTS5)
+      - name: Build the lean search.sqlite3 (FTS5)
         run: python3 build_search_db.py
-      - name: Prerender static site (+ copy search.db)
+      - name: Prerender static site (+ copy search.sqlite3)
         run: python3 build_static.py
       - name: Bundle the client search (WASM SQLite)
         run: npm run build:search

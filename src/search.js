@@ -1,4 +1,4 @@
-// Client-side search for the static STEDT site. Recreates serve.py's search_data() exactly
+// Client-side search for the static STEDT site. Recreates render.py's search_data() exactly
 // (reflexes via FTS5 MATCH, etyma via LIKE) — but runs the queries fully IN-MEMORY via the
 // official SQLite WASM build (which includes FTS5). The DB is downloaded once and cached.
 //
@@ -58,7 +58,7 @@ function run(db, sql, params) {
   return rows;
 }
 
-// --- the two queries, identical to serve.py's search_data() ---
+// --- the two queries, identical to render.py's search_data() ---
 const REFLEX_SQL = `
   SELECT ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.rn AS rn,
          e.tag AS tag, e.protoform AS pf, e.protogloss AS pg

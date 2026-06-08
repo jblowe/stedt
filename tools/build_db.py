@@ -8,9 +8,10 @@ joined to their language name.
 """
 import sqlite3, os, time, re
 
-BASE = "/home/luke/local/stedt/stedtdb_v1.0"
+_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # tools/ -> repo root
+BASE = os.path.join(_ROOT, "stedtdb_v1.0")
 SQLDUMP = os.path.join(BASE, "STEDT_public_20160602.sql")
-OUT = "/home/luke/local/stedt/stedt.sqlite"
+OUT = os.path.join(_ROOT, "stedt.sqlite")
 
 # ---- columns (from the dump's CREATE TABLE statements) ----
 TABLES = {

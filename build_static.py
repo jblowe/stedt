@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Prerender the STEDT read site to static HTML for GitHub Pages.
 
-Calls serve.py's render functions for every stable route — home, about, the browse
+Calls render.py's render functions for every stable route — home, about, the browse
 indexes, and every etymon / language / source / thesaurus node — and writes each to
-site/<path>/index.html. Search runs client-side (WASM SQLite over search.db;
+site/<path>/index.html. Search runs client-side (WASM SQLite over search.sqlite3;
 see build_search_db.py + src/search.js).
 
 GitHub Pages serves a *project* site under a subpath (https://larc-iu.github.io/stedt/),
@@ -22,7 +22,7 @@ import re
 import shutil
 import time
 
-import serve                                # noqa: E402
+import render                               # noqa: E402
 
 BASE = os.environ.get("STEDT_BASE", "/stedt").rstrip("/")
 OUT = os.environ.get("STEDT_OUT", "site")
@@ -37,9 +37,9 @@ def data_version():
     """A content hash of data/ — changes only when the source data changes, so the search DB
     is cache-busted (search.sqlite3?v=...) on data updates rather than on every deploy."""
     h = hashlib.sha256()
-    for p in sorted(glob.glob(os.path.join(serve.DATA, "**", "*"), recursive=True)):
+    for p in sorted(glob.glob(os.path.join(render.DATA, "**", "*"), recursive=True)):
         if os.path.isfile(p):
-            h.update(os.path.relpath(p, serve.DATA).encode("utf-8"))
+            h.update(os.path.relpath(p, render.DATA).encode("utf-8"))
             with open(p, "rb") as f:
                 for chunk in iter(lambda: f.read(1 << 20), b""):
                     h.update(chunk)
@@ -63,8 +63,7 @@ _fail = 0
 def write(path, render):
     global _ok, _fail
     try:
-        r = render()
-        s = r[0] if isinstance(r, tuple) else r
+        s = render()
     except Exception as e:
         _fail += 1
         print(f"  ! skip /{path}: {type(e).__name__}: {e}")
@@ -90,29 +89,32 @@ def main():
         shutil.rmtree(OUT)
     os.makedirs(OUT, exist_ok=True)
 
-    c = serve.con()
+    c = render.con()
     OKE = "coalesce(upper(status),'')!='DELETE'"
     tags = cap([r[0] for r in c.execute(f"SELECT tag FROM etyma WHERE {OKE} ORDER BY tag")])
     lgids = cap([r[0] for r in c.execute("SELECT lgid FROM languagenames ORDER BY lgid")])
     srcs = cap([r[0] for r in c.execute("SELECT srcabbr FROM srcbib WHERE coalesce(srcabbr,'')!='' ORDER BY srcabbr")])
     semks = cap([r[0] for r in c.execute("SELECT semkey FROM chapters WHERE coalesce(semkey,'')!='' ORDER BY semkey")])
+    grpids = cap([r[0] for r in c.execute("SELECT grpid FROM languagegroups ORDER BY grpid")])
     c.close()
 
-    write("", serve.home)
-    write("about", serve.about)
-    write("reconstructions", serve.reconstructions)
-    write("languages", serve.languages_index)
-    write("sources", serve.sources_index)
-    write("thesaurus", lambda: serve.thesaurus(None))
-    write("search", lambda: serve.search_page(""))   # client-side results shell (reads ?q=)
+    write("", render.home)
+    write("about", render.about)
+    write("reconstructions", render.reconstructions)
+    write("languages", render.languages_index)
+    write("sources", render.sources_index)
+    write("thesaurus", lambda: render.thesaurus(None))
+    write("search", lambda: render.search_page(""))   # client-side results shell (reads ?q=)
     for t in tags:
-        write(f"etymon/{t}", lambda t=t: serve.etymon(t))
+        write(f"etymon/{t}", lambda t=t: render.etymon(t))
     for g in lgids:
-        write(f"language/{g}", lambda g=g: serve.language(g))
+        write(f"language/{g}", lambda g=g: render.language(g))
     for s in srcs:
-        write(f"source/{s}", lambda s=s: serve.source(s))
+        write(f"source/{s}", lambda s=s: render.source(s))
+    for g in grpids:
+        write(f"group/{g}", lambda g=g: render.group(g))
     for k in semks:
-        write(f"thesaurus/{k}", lambda k=k: serve.thesaurus(k))
+        write(f"thesaurus/{k}", lambda k=k: render.thesaurus(k))
 
     src_db = os.path.join(os.path.dirname(os.path.abspath(__file__)), "search.sqlite3")
     if os.path.exists(src_db):

@@ -2,7 +2,7 @@
 """STEDT page renderer — a build-time library of render functions, imported by
 build_static.py to prerender every page to static HTML. There is no server: the deployed
 site is static files on GitHub Pages, and search runs client-side (WASM SQLite over
-search.db). Reads the compiled stedt.sqlite.
+search.sqlite3). Reads the compiled stedt.sqlite.
 """
 import sqlite3, urllib.parse, re, html, os, json
 
@@ -188,7 +188,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .metabar b{font-family:"Fraunces",serif;color:var(--ink);font-size:16px;margin-right:5px;font-variant-numeric:tabular-nums;}
 
 /* section headers — the primary structural tier in ink (vermilion reserved for asterisk, proto-language, links) */
-.notes h3,.reflexes h3,.thes h3,.conn h3,.meso h3,.apparatus h3{font-variant:small-caps;letter-spacing:.10em;
+.notes h3,.reflexes h3,.thes h3,.conn h3,.meso h3,.apparatus h3,.ety-list h3{font-variant:small-caps;letter-spacing:.10em;
   font-size:16px;color:var(--ink);border-bottom:1px solid var(--rule);padding-bottom:5px;margin:0 0 12px;}
 .reflexes{max-width:900px;}
 .reflexes h3{display:flex;align-items:baseline;}
@@ -216,6 +216,11 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx a{border-bottom:none;}
 .rfx a.lang{color:var(--soft);}
 .rfx a:hover{color:var(--accent);border-bottom:1px solid var(--accent);}
+.lgab{font-variant:small-caps;letter-spacing:.04em;font-size:12px;color:var(--mut);}
+.rfx .pos{font-variant:small-caps;letter-spacing:.03em;font-size:11.5px;color:var(--mut);margin-left:6px;}
+.rfx .anl{display:block;font-size:12px;color:var(--mut);margin-top:1px;}
+.rfx .anl a{border-bottom:none;color:var(--mut);}
+.rfx .anl a:hover{color:var(--accent);border-bottom:1px solid var(--accent);}
 
 /* end apparatus: citation + references, de-banner'd */
 .apparatus{margin-top:42px;}
@@ -283,6 +288,11 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .grp{font-variant:small-caps;letter-spacing:.05em;font-size:15px;color:var(--ink);margin:18px 0 2px;}
 .grp .plg2{color:var(--mut);font-variant:normal;font-size:.82em;letter-spacing:0;}
 .srclangs{margin:12px 0 4px;font-size:13.5px;color:var(--soft);line-height:1.9;}
+.srcidx{list-style:none;padding:0;margin:8px 0 0;}
+.srcidx li{padding:8px 2px;border-bottom:1px solid var(--rule);}
+.srcidx li a{font-family:"Fraunces",serif;}
+.srcidx .srcref{color:var(--soft);font-size:13.5px;margin-left:9px;}
+.srcidx .srccnt{color:var(--mut);font-size:12.5px;margin-left:9px;font-variant-numeric:tabular-nums;white-space:nowrap;}
 .subg{color:var(--soft);font-size:14px;}
 .rfx .via{color:var(--mut);}
 details.seg{border-bottom:1px solid var(--rule);}
@@ -447,7 +457,8 @@ def about():
     ety = n("SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'")
     rfx = n("SELECT count(*) FROM lexicon")
     lgs = n("SELECT count(DISTINCT ln.language) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid WHERE ln.language!='' AND ln.language NOT LIKE '*%'")
-    src = n("SELECT count(*) FROM srcbib")
+    src = n("""SELECT count(*) FROM srcbib sb WHERE EXISTS(
+        SELECT 1 FROM languagenames ln JOIN lexicon l ON l.lgid=ln.lgid WHERE ln.srcabbr=sb.srcabbr)""")
     c.close()
     stat = lambda v, l: f'<div><div class="n">{v:,}</div><div class="l">{l}</div></div>'
     abbr = [("ST", "Sino-Tibetan"), ("TB", "Tibeto-Burman"), ("PTB", "Proto-Tibeto-Burman"),
@@ -504,10 +515,10 @@ def etymon(tag):
     e = c.execute("""SELECT e.*, g.plg AS plg FROM etyma e
         LEFT JOIN languagegroups g ON g.grpid=e.grpid WHERE e.tag=?""", (tag,)).fetchone()
     if not e:
-        c.close(); return page("Not found", "<p>No such etymon.</p>"), 404
+        c.close(); return page("Not found", "<p>No such etymon.</p>")
     notes = c.execute("""SELECT xmlnote FROM notes WHERE tag=? AND spec='E' AND notetype!='I'
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""", (tag,)).fetchall()
-    rows = c.execute("""SELECT l.rn AS rn, ln.language AS language, l.lgid AS lgid, l.reflex AS form, l.gloss,
+    rows = c.execute("""SELECT l.rn AS rn, ln.language AS language, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn AS gfn,
             g.grp AS subgroup, g.grpno AS groupnode, g.plg AS grpplg,
             sb.citation AS citation, ln.srcabbr AS srcabbr
         FROM lx_et_hash h JOIN lexicon l ON l.rn=h.rn
@@ -530,7 +541,19 @@ def etymon(tag):
         toks = list(digit_tokens); qm = ','.join('?' * len(toks))
         for r in c.execute(f"SELECT tag,protoform,protogloss FROM etyma WHERE tag IN ({qm})", toks):
             labels[r['tag']] = (r['protoform'], r['protogloss'])
-    crumb = breadcrumb(c, e['semkey']); c.close()
+    # per-reflex morpheme analysis: a reflex (rn) is segmented into morphemes in lx_et_hash,
+    # each tied to an etymon tag (0 = a non-etymon affix). Surface the *other* etyma a reflex
+    # also belongs to (i.e. it's a compound) as links.
+    rns = [r['rn'] for r in rows]
+    analysis = {}
+    if rns:
+        qm = ','.join('?' * len(rns))
+        for r in c.execute(f"SELECT rn, tag FROM lx_et_hash WHERE rn IN ({qm}) ORDER BY rn, ind", rns):
+            analysis.setdefault(r['rn'], []).append(r['tag'])
+    morph_labels = proto_labels(c, {t for ts in analysis.values() for t in ts if t and t != tag})
+    crumb = breadcrumb(c, e['semkey'])
+    crumb_chap = breadcrumb(c, e['chapter']) if (e['chapter'] and e['chapter'] != e['semkey']) else ''
+    c.close()
 
     # separate attested reflexes from previously-published reconstructions (language is a *proto-form node)
     recon_rows = [r for r in rows if (r['language'] or '').startswith('*')]
@@ -556,12 +579,21 @@ def etymon(tag):
         for r in items:
             form = esc(r['form']).replace('◦', '<span class="br">◦</span>')
             g = f'<span class="g">{esc(r["gloss"])}</span>' if (r['gloss'] and r['gloss'] != e['protogloss']) else ''
+            pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r['gfn'] else ''
             lang = f'<a class="lang" href="/language/{r["lgid"]}">{esc(r["language"])}</a>'
             if r['srcabbr']:
                 src = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}</a>'
             else:
                 src = f'<span class="src">{esc(r["citation"] or "")}</span>'
-            rfx.append(f'<div class="rfx" id="r{r["rn"]}">{lang}<span class="form">{form} {g}</span>{src}</div>')
+            seen, links = set(), []
+            for mt in analysis.get(r['rn'], []):
+                if mt and mt > 0 and mt != tag and mt not in seen:
+                    seen.add(mt)
+                    pf = morph_labels.get(mt)
+                    links.append(f'<a href="/etymon/{mt}">{("*" + esc(pf)) if pf else ("#" + str(mt))}</a>')
+            anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ''
+            rfx.append(f'<div class="rfx" id="r{r["rn"]}">{lang}'
+                       f'<span class="form">{form} {g}{pos}{anl}</span>{src}</div>')
         sgs.append(f'<div class="sg" id="sg{i}"><h4>{esc(k[1])}<span class="c">{len(items)}</span></h4>'
                    + ''.join(rfx) + '</div>')
 
@@ -668,6 +700,7 @@ def etymon(tag):
       <div class="pg">{esc(e['protogloss'])}</div>
       <div class="pl">{plg_html}{exm}</div>
       <div class="crumbs">Semantic domain: {crumb or esc(e['semkey'])}</div>
+      {f'<div class="crumbs">Also classified under: {crumb_chap}</div>' if crumb_chap else ''}
     </div>
     {reflexeshtml}
     {noteshtml}
@@ -675,7 +708,7 @@ def etymon(tag):
     {reconhtml}
     {connhtml}
     {apparatus}"""
-    return page(f"*{e['protoform']} ‘{e['protogloss']}’", body, nav="reconstructions"), 200
+    return page(f"*{e['protoform']} ‘{e['protogloss']}’", body, nav="reconstructions")
 
 def group_lineage(c, grpno):
     """Genetic lineage (ancestors incl. self) by walking grpno prefixes."""
@@ -702,23 +735,33 @@ def language(lgid):
     c = con()
     ln = c.execute("SELECT * FROM languagenames WHERE lgid=?", (lgid,)).fetchone()
     if not ln:
-        c.close(); return page("Not found", "<p>No such language.</p>"), 404
+        c.close(); return page("Not found", "<p>No such language.</p>")
     grp = c.execute("SELECT grpid,grpno,grp,plg FROM languagegroups WHERE grpid=?", (ln['grpid'],)).fetchone()
     src = c.execute("SELECT srcabbr,citation FROM srcbib WHERE srcabbr=?", (ln['srcabbr'],)).fetchone()
-    rows = c.execute("""SELECT l.reflex, l.gloss, l.semkey,
+    rows = c.execute("""SELECT l.reflex, l.gloss, l.gfn, l.semkey,
             (SELECT h.tag FROM lx_et_hash h WHERE h.rn=l.rn AND h.tag>0 LIMIT 1) AS tag
         FROM lexicon l WHERE l.lgid=? ORDER BY l.semkey, l.reflex""", (lgid,)).fetchall()
     total = len(rows)
     chap = {r['semkey']: r['chaptertitle'] for r in c.execute("SELECT semkey,chaptertitle FROM chapters")}
     lin = group_lineage(c, grp['grpno']) if grp else []
     plabels = proto_labels(c, {r['tag'] for r in rows if r['tag']})
+    # the same language from other sources is a distinct lgid; surface those so source variants
+    # are reachable (the languages index collapses them by name).
+    siblings = c.execute("""SELECT ln2.lgid AS lgid, sb.citation AS citation, ln2.srcabbr AS srcabbr,
+            count(l.rn) AS n
+        FROM languagenames ln2 LEFT JOIN srcbib sb ON sb.srcabbr=ln2.srcabbr
+        JOIN lexicon l ON l.lgid=ln2.lgid
+        WHERE ln2.language=? AND ln2.grpid IS ? AND ln2.lgid!=?
+        GROUP BY ln2.lgid HAVING n>0 ORDER BY n DESC""",
+        (ln['language'], ln['grpid'], lgid)).fetchall()
     c.close()
 
     crumb_links = ['<a href="/languages">Languages</a>'] + \
-                  [f'<a href="/languages#g{gg["grpid"]}">{esc(gg["grp"])}</a>' for gg in lin]
+                  [f'<a href="/group/{gg["grpid"]}">{esc(gg["grp"])}</a>' for gg in lin]
     meta = []
     if src and src['srcabbr']:
         meta.append(f'<span><b>source</b> <a href="/source/{esc(src["srcabbr"])}">{esc(src["citation"] or src["srcabbr"])}</a></span>')
+    if ln['lgabbr']: meta.append(f'<span><b>abbr</b> {esc(ln["lgabbr"])}</span>')
     if ln['silcode']: meta.append(f'<span><b>ISO 639-3</b> {esc(ln["silcode"])}</span>')
     meta.append(f'<span><b>{total:,}</b> reflexes</span>')
 
@@ -741,11 +784,21 @@ def language(lgid):
             form = esc(r['reflex']).replace('◦', '<span class="br">◦</span>')
             via = (f'<a class="via" href="/etymon/{r["tag"]}">› *{esc(plabels.get(r["tag"], ""))}</a>'
                    if r['tag'] else '')
+            pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r['gfn'] else ''
             rfx.append(f'<div class="rfx">{catcell}'
-                       f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span></span>'
+                       f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span>{pos}</span>'
                        f'<span class="src">{via}</span></div>')
         segs.append(f'<details class="seg"{" open" if openall else ""}><summary>{esc(ttl)}'
                     f'<span class="c">{len(items)}</span></summary>{"".join(rfx)}</details>')
+
+    sibhtml = ''
+    if siblings:
+        sibrows = ''.join(
+            f'<div class="rfx"><a class="lang" href="/language/{s["lgid"]}">'
+            f'{esc(s["citation"] or s["srcabbr"] or "—")}</a>'
+            f'<span class="subg">{esc(s["srcabbr"] or "")}</span>'
+            f'<span class="src">{s["n"]:,} forms</span></div>' for s in siblings)
+        sibhtml = f'<section class="reflexes"><h3>Also attested in other sources</h3>{sibrows}</section>'
 
     body = f"""
     <div class="ety-head">
@@ -754,16 +807,20 @@ def language(lgid):
       <div class="crumbs">{' &nbsp;›&nbsp; '.join(crumb_links)}</div>
       <div class="metabar">{''.join(meta)}</div>
     </div>
-    <section class="reflexes"><h3>Attested forms</h3>{''.join(segs)}</section>"""
-    return page(ln['language'], body, nav="languages"), 200
+    <section class="reflexes"><h3>Attested forms</h3>{''.join(segs)}</section>
+    {sibhtml}"""
+    return page(ln['language'], body, nav="languages")
 
 def source(srcabbr):
     c = con()
     s = c.execute("SELECT * FROM srcbib WHERE srcabbr=?", (srcabbr,)).fetchone()
     if not s:
-        c.close(); return page("Not found", "<p>No such source.</p>"), 404
-    langs = c.execute("""SELECT ln.lgid AS lgid, ln.language AS language,
-            g.grp AS subgroup, g.grpno AS grpno, count(l.rn) AS n
+        c.close(); return page("Not found", "<p>No such source.</p>")
+    notes = c.execute("""SELECT xmlnote FROM notes WHERE id=? AND spec='S'
+                         AND xmlnote IS NOT NULL ORDER BY ord, noteid""", (srcabbr,)).fetchall()
+    langs = c.execute("""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
+            ln.silcode AS silcode, g.grp AS subgroup, g.grpno AS grpno, g.grpid AS grpid,
+            count(l.rn) AS n
         FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         WHERE ln.srcabbr=? AND ln.language!='' GROUP BY ln.lgid
@@ -775,10 +832,24 @@ def source(srcabbr):
     if s['imprint']: meta.append(f'<span><b>imprint</b> {esc(s["imprint"])}</span>')
     meta.append(f'<span><b>{len(langs)}</b> languages</span>')
     meta.append(f'<span><b>{total:,}</b> forms</span>')
-    rows = ''.join(
-        f'<div class="rfx"><a class="lang" href="/language/{l["lgid"]}">{esc(l["language"])}</a>'
-        f'<span class="subg">{esc(l["subgroup"] or "")}</span>'
-        f'<span class="src">{l["n"]:,} forms</span></div>' for l in langs)
+
+    def langrow(l):
+        bits = [esc(x) for x in (l['grpno'], l['subgroup']) if x]
+        grp = ' '.join(bits)
+        if l['silcode']: grp += f' · ISO {esc(l["silcode"])}'
+        grpcell = (f'<a class="subg" href="/group/{l["grpid"]}">{grp}</a>'
+                   if (l['grpid'] is not None and grp) else f'<span class="subg">{grp}</span>')
+        ab = f' <span class="lgab">{esc(l["lgabbr"])}</span>' if l['lgabbr'] else ''
+        return (f'<div class="rfx"><span><a class="lang" href="/language/{l["lgid"]}">'
+                f'{esc(l["language"])}</a>{ab}</span>{grpcell}'
+                f'<span class="src">{l["n"]:,} forms</span></div>')
+    rows = ''.join(langrow(l) for l in langs)
+
+    noteshtml = ''
+    if notes:
+        noteshtml = ('<section class="notes"><h3>Notes</h3>'
+                     + ''.join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in notes)
+                     + '</section>')
     citehtml = f'<div class="pg" style="font-variant:normal;font-size:16px;color:var(--soft);letter-spacing:0">{esc(cite)}</div>' if cite else ''
     body = f"""
     <div class="ety-head">
@@ -788,8 +859,84 @@ def source(srcabbr):
       <div class="crumbs"><a href="/sources">Sources</a> &nbsp;›&nbsp; {esc(s['srcabbr'])}</div>
       <div class="metabar">{''.join(meta)}</div>
     </div>
+    {noteshtml}
     <section class="reflexes"><h3>Languages in this source</h3>{rows}</section>"""
-    return page(s['citation'] or s['srcabbr'], body, nav="sources"), 200
+    return page(s['citation'] or s['srcabbr'], body, nav="sources")
+
+def group(grpid):
+    c = con()
+    g = c.execute("SELECT * FROM languagegroups WHERE grpid=?", (grpid,)).fetchone()
+    if not g:
+        c.close(); return page("Not found", "<p>No such group.</p>")
+    grpno = g['grpno']
+    lin = group_lineage(c, grpno)
+    depth = str(grpno).count('.') if grpno is not None else 0
+    children = c.execute("""SELECT grpid, grpno, grp, plg FROM languagegroups
+        WHERE grpno LIKE ? AND (length(grpno)-length(replace(grpno,'.','')))=?
+        ORDER BY grpno""", (str(grpno) + '.%', depth + 1)).fetchall() if grpno is not None else []
+    childinfo = []
+    for ch in children:
+        nl = c.execute("""SELECT count(DISTINCT ln.lgid) FROM languagenames ln
+            JOIN lexicon l ON l.lgid=ln.lgid WHERE ln.grpid=?""", (ch['grpid'],)).fetchone()[0]
+        childinfo.append((ch, nl))
+    langs = c.execute("""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
+            ln.silcode AS silcode, ln.srcabbr AS srcabbr, sb.citation AS citation, count(l.rn) AS n
+        FROM languagenames ln LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
+        JOIN lexicon l ON l.lgid=ln.lgid
+        WHERE ln.grpid=? GROUP BY ln.lgid HAVING n>0 ORDER BY ln.language""", (grpid,)).fetchall()
+    recons = c.execute("""SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss
+        FROM etyma e WHERE e.grpid=? AND coalesce(upper(e.status),'')!='DELETE'
+        ORDER BY e.sequence, e.protogloss""", (grpid,)).fetchall()
+    c.close()
+
+    plg = g['plg'] or ''
+    head = esc(g['grp'] or grpno)
+    plg_html = f' <span class="plg2">({esc(plg)})</span>' if plg else ''
+    crumb_links = ['<a href="/languages">Languages</a>'] + \
+                  [f'<a href="/group/{gg["grpid"]}">{esc(gg["grp"])}</a>' for gg in lin]
+    meta = [f'<span><b>{len(langs)}</b> languages</span>']
+    if recons: meta.append(f'<span><b>{len(recons):,}</b> reconstructions</span>')
+
+    def subitem(ch, nl):
+        lab = esc(ch['grp']) + (f' <span class="plg2">({esc(ch["plg"])})</span>' if ch['plg'] else '')
+        return (f'<li><a class="row" href="/group/{ch["grpid"]}">'
+                f'<span class="ti">{lab}</span><span class="ct">{nl} languages</span></a></li>')
+    subhtml = ('<section class="thes"><h3>Subgroups</h3><ul>'
+               + ''.join(subitem(ch, nl) for ch, nl in childinfo) + '</ul></section>') if childinfo else ''
+
+    def langrow(l):
+        ab = f' <span class="lgab">{esc(l["lgabbr"])}</span>' if l['lgabbr'] else ''
+        mid = []
+        if l['srcabbr']:
+            mid.append(f'<a href="/source/{esc(l["srcabbr"])}">{esc(l["citation"] or l["srcabbr"])}</a>')
+        if l['silcode']:
+            mid.append('ISO ' + esc(l['silcode']))
+        return (f'<div class="rfx"><span><a class="lang" href="/language/{l["lgid"]}">{esc(l["language"])}</a>{ab}</span>'
+                f'<span class="subg">{" · ".join(mid)}</span>'
+                f'<span class="src">{l["n"]:,} forms</span></div>')
+    langhtml = (f'<section class="reflexes"><h3>Languages<span class="cnt">{len(langs)}</span></h3>'
+                + ''.join(langrow(l) for l in langs) + '</section>') if langs else ''
+
+    reconhtml = ''
+    if recons:
+        items = ''.join(
+            f'<div class="ety-hit"><a href="/etymon/{r["tag"]}" class="pf2 lat">{esc(r["protoform"])}</a>'
+            f'<span class="pg2">{esc(r["protogloss"])}</span>'
+            f'<span class="tagn">{esc(plg)} #{r["tag"]}</span></div>' for r in recons)
+        reconhtml = (f'<div class="ety-list"><h3 style="margin-top:26px">Reconstructions'
+                     f'</h3>{items}</div>')
+
+    body = f"""
+    <div class="ety-head">
+      <div class="plg">Language group</div>
+      <div class="pagetitle">{head}{plg_html}</div>
+      <div class="crumbs">{' &nbsp;›&nbsp; '.join(crumb_links)}</div>
+      <div class="metabar">{''.join(meta)}</div>
+    </div>
+    {subhtml}
+    {langhtml}
+    {reconhtml}"""
+    return page(g['grp'] or "Group", body, nav="languages")
 
 def reconstructions():
     # The whole list (~4k etyma) is shipped once as compact JSON and rendered
@@ -899,26 +1046,51 @@ def languages_index():
         depth = str(grpno).count('.')
         head = esc(grp) + (f' <span class="plg2">({esc(plg)})</span>' if plg else '')
         gid = f' id="g{grpid}"' if grpid is not None else ''
+        headhtml = (f'<a href="/group/{grpid}">{head}</a>' if grpid is not None else head)
         items = ''.join(f'<li><a href="/language/{lid}">{esc(nm)}</a></li>'
                         for nm, (lid, _) in sorted(langs.items(), key=lambda kv: kv[0].lower()))
         out.append(f'<div class="grpblock" style="margin-left:{depth*18}px">'
-                   f'<h4 class="grp"{gid}>{head}</h4>'
+                   f'<h4 class="grp"{gid}>{headhtml}</h4>'
                    f'<ul class="idx">{items}</ul></div>')
     return page("Languages", ''.join(out), nav="languages")
 
 def sources_index():
     c = con()
-    rows = c.execute("""SELECT srcabbr, citation, author, year, title FROM srcbib
-        ORDER BY lower(coalesce(nullif(author,''),nullif(citation,''),srcabbr)), year""").fetchall()
+    rows = c.execute("""SELECT sb.srcabbr AS srcabbr, sb.citation AS citation, sb.author AS author,
+            sb.year AS year, sb.title AS title,
+            count(DISTINCT CASE WHEN l.rn IS NOT NULL THEN ln.lgid END) AS nlang,
+            count(l.rn) AS nforms
+        FROM srcbib sb
+        LEFT JOIN languagenames ln ON ln.srcabbr=sb.srcabbr
+        LEFT JOIN lexicon l ON l.lgid=ln.lgid
+        WHERE coalesce(sb.srcabbr,'')!=''
+        GROUP BY sb.srcabbr
+        ORDER BY lower(coalesce(nullif(sb.author,''),nullif(sb.citation,''),sb.srcabbr)), sb.year""").fetchall()
     c.close()
-    items = []
-    for s in rows:
-        label = s['citation'] or ' '.join(
-            x for x in (s['author'], f"({s['year']})" if s['year'] else '', s['title']) if x) or s['srcabbr']
-        items.append(f'<li><a href="/source/{esc(s["srcabbr"])}">{esc(label)}</a></li>')
+    def refstr(s):
+        return ' '.join(x for x in (s['author'], f"({s['year']})" if s['year'] else '', s['title']) if x)
+    data = [s for s in rows if s['nforms']]
+    refonly = [s for s in rows if not s['nforms']]
+
+    def li(s):
+        cit = esc(s['citation'] or s['srcabbr'])
+        ref = esc(refstr(s))
+        refhtml = f'<span class="srcref">{ref}</span>' if ref and ref != cit else ''
+        return (f'<li><a href="/source/{esc(s["srcabbr"])}">{cit}</a>{refhtml}'
+                f'<span class="srccnt">{s["nforms"]:,} forms · {s["nlang"]} languages</span></li>')
+    main = ''.join(li(s) for s in data)
+    refitems = ''.join(
+        f'<li><a href="/source/{esc(s["srcabbr"])}">{esc(s["citation"] or s["srcabbr"])}</a> '
+        f'<span class="srcref">{esc(refstr(s))}</span></li>' for s in refonly)
+    refblock = (f'<details class="seg" style="margin-top:24px"><summary>Reference-only sources'
+                f'<span class="c">{len(refonly)}</span></summary>'
+                f'<p class="cap">Cited in the literature but with no attested forms held in STEDT.</p>'
+                f'<ul class="idx">{refitems}</ul></details>') if refonly else ''
+    total_forms = sum(s['nforms'] for s in data)
     body = (f'<div class="ety-head"><div class="pagetitle">Sources</div>'
-            f'<div class="metabar"><span><b>{len(rows):,}</b>sources</span></div></div>'
-            f'<ul class="idx">{"".join(items)}</ul>')
+            f'<div class="metabar"><span><b>{len(data):,}</b> sources with data</span>'
+            f'<span><b>{total_forms:,}</b> forms</span></div></div>'
+            f'<ul class="srcidx">{main}</ul>{refblock}')
     return page("Sources", body, nav="sources")
 
 def search_page(q=""):
@@ -976,8 +1148,14 @@ def thesaurus(semkey=None):
         if not title and '.' not in semkey:
             title = c.execute("SELECT chaptertitle FROM chapters WHERE semkey=?", (semkey + '.0',)).fetchone()
         title = title[0] if title else semkey
+        cnotes = c.execute("""SELECT xmlnote FROM notes WHERE id=? AND spec='C'
+                             AND xmlnote IS NOT NULL ORDER BY ord, noteid""", (semkey,)).fetchall()
         body.append(f'<div class="crumbs"><a href="/thesaurus">Thesaurus</a> &nbsp;›&nbsp; {breadcrumb(c, semkey)}</div>')
         body.append(f'<h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:10px 0 18px">{esc(title)}</h2>')
+        if cnotes:
+            body.append('<section class="notes">'
+                        + ''.join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in cnotes)
+                        + '</section>')
         depth = len(semkey.split('.'))
         kids = c.execute("""SELECT semkey,chaptertitle FROM chapters
             WHERE semkey LIKE ? AND (length(semkey)-length(replace(semkey,'.','')))=?
@@ -993,8 +1171,10 @@ def thesaurus(semkey=None):
     if kids:
         body.append('<ul>')
         for k in kids:
+            sk = k['semkey']
             cnt = c.execute("""SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'
-                AND (e.semkey=? OR e.semkey LIKE ?)""", (k['semkey'], k['semkey'] + '.%')).fetchone()[0]
+                AND (e.semkey=? OR e.semkey LIKE ? OR e.chapter=? OR e.chapter LIKE ?)""",
+                (sk, sk + '.%', sk, sk + '.%')).fetchone()[0]
             body.append(f'<li><a class="row" href="/thesaurus/{k["semkey"]}">'
                         f'<span class="sk">{esc(k["semkey"])}</span><span class="ti">{esc(k["chaptertitle"])}</span>'
                         f'<span class="ct">{cnt} etyma</span></a></li>')
@@ -1002,7 +1182,8 @@ def thesaurus(semkey=None):
     if semkey:
         direct = c.execute("""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
             FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-            WHERE e.semkey=? AND coalesce(upper(e.status),'')!='DELETE' ORDER BY e.protogloss""", (semkey,)).fetchall()
+            WHERE (e.semkey=? OR e.chapter=?) AND coalesce(upper(e.status),'')!='DELETE'
+            ORDER BY e.sequence, e.protogloss""", (semkey, semkey)).fetchall()
         if direct:
             body.append('<div class="ety-list"><h3 style="margin-top:30px">Reconstructions here</h3>')
             for e in direct:

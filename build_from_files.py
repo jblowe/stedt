@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Compile the flat files in data/ -> stedt.sqlite (the canonical build going forward).
 
-Inverse of export_files.py. Produces the same schema serve.py reads:
+Inverse of tools/export_files.py. Produces the same schema render.py reads:
 reconstructs lx_et_hash from each reflex's 'analysis' column and the notes table
 from etymon/thesaurus/bibliography/reflex-note sources.
 """
@@ -12,7 +12,7 @@ ROOT = os.path.join(_HERE, "data")
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(_HERE, "stedt.sqlite")
 csv.field_size_limit(10**7)
 
-# Same schema as the dump-based build, so serve.py is unchanged.
+# Same schema as the dump-based build, so render.py is unchanged.
 TABLES = {
  'etyma': ['chapter','sequence','tag','grpid','protoform','protogloss','xrefs','notes','possallo',
            'allofams','status','public','handle','prefix','initial','medial','rhyme','tone','suffix',
