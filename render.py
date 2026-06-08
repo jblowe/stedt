@@ -1404,6 +1404,7 @@ def thesaurus(semkey=None):
         # root; the deleted/apocryphal buckets (999, 950.1, x.x) are omitted as everywhere else.
         nodes = c.execute("SELECT semkey, chaptertitle FROM chapters WHERE coalesce(semkey,'')!=''").fetchall()
         SPECIAL = {'999', '950.1', 'x.x'}
+        scounts = reflex_semkey_counts()   # exact per-semkey reflex counts (proto-excluded)
         tree = []
         for n in nodes:
             sk = n['semkey']
@@ -1416,13 +1417,18 @@ def thesaurus(semkey=None):
             # rolls up its whole subtree (incl. its N.0 overview, whose ecat is '1.0').
             cnt = c.execute(f"""SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'
                 AND ({ECAT}=? OR {ECAT} LIKE ?)""", (disp, disp + '.%')).fetchone()[0]
-            tree.append((disp, depth, n['chaptertitle'], cnt))
+            # attestations rolled up the same way: this node's semkey + everything beneath it.
+            pre = disp + '.'
+            lcnt = sum(v for k, v in scounts.items() if k == disp or k.startswith(pre))
+            tree.append((disp, depth, n['chaptertitle'], cnt, lcnt))
         tree.sort(key=lambda r: natkey(r[0]))
+        body.append('<p class="cap">Each count is <b>reconstructions / attestations</b>.</p>')
         body.append('<ul class="tree">')
-        for disp, depth, title, cnt in tree:
+        for disp, depth, title, cnt, lcnt in tree:
             ti = (f'<span class="ti" style="font-weight:600">{esc(title)}</span>' if depth == 0
                   else f'<span class="ti">{esc(title)}</span>')
-            ct = f'<span class="ct">{cnt:,}</span>' if cnt else ''
+            ct = (f'<span class="ct" title="reconstructions / attestations">{cnt:,} / {lcnt:,}</span>'
+                  if (cnt or lcnt) else '')
             body.append(f'<li style="margin-left:{depth * 18}px"><a class="row" href="/thesaurus/{disp}">'
                         f'<span class="sk">{esc(disp)}</span>{ti}{ct}</a></li>')
         body.append('</ul>')
@@ -1465,8 +1471,6 @@ def thesaurus(semkey=None):
             body.append(
                 '<div class="ety-list">'
                 '<h3 style="margin-top:30px">Attestations</h3>'
-                '<p class="cap">Individual reflexes filed directly under this meaning, across all '
-                'languages — each links to its entry on the language page.</p>'
                 f'<details class="seg catwrap" data-semkeys="{keys_json}">'
                 f'<summary>Show attestations<span class="c">{nforms:,}</span></summary>'
                 '<div class="rbar"><input class="catfilter" type="search" '

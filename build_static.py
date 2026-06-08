@@ -34,12 +34,18 @@ _LINK = re.compile(r'(\b(?:href|src|action)=")/(?!/)')
 
 
 def data_version():
-    """A content hash of data/ — changes only when the source data changes, so the search DB
-    is cache-busted (search.sqlite3?v=...) on data updates rather than on every deploy."""
+    """A content hash for cache-busting the search DB (search.sqlite3?v=...). The DB's bytes are
+    a pure function of data/ AND build_search_db.py (its schema), so hash both — that way the key
+    changes when the data OR the schema changes (e.g. a new column), but NOT on every deploy.
+    Hashing build_search_db.py rather than the 44 MB DB itself avoids cache churn from any
+    run-to-run nondeterminism in the file while still busting on every real schema change."""
     h = hashlib.sha256()
-    for p in sorted(glob.glob(os.path.join(render.DATA, "**", "*"), recursive=True)):
+    here = os.path.dirname(os.path.abspath(__file__))
+    paths = sorted(glob.glob(os.path.join(render.DATA, "**", "*"), recursive=True))
+    paths.append(os.path.join(here, "build_search_db.py"))
+    for p in paths:
         if os.path.isfile(p):
-            h.update(os.path.relpath(p, render.DATA).encode("utf-8"))
+            h.update(os.path.relpath(p, here).encode("utf-8"))
             with open(p, "rb") as f:
                 for chunk in iter(lambda: f.read(1 << 20), b""):
                     h.update(chunk)
