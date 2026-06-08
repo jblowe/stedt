@@ -233,13 +233,18 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .jump a{border-bottom:1px dotted var(--rule);margin-right:4px;}
 .sg{margin:0 0 22px;}
 .sg h4{display:flex;align-items:baseline;gap:10px;font-variant:small-caps;letter-spacing:.06em;font-size:14px;
-  color:var(--soft);margin:0 0 6px;border-bottom:1px solid var(--rule);padding-bottom:3px;}
+  color:var(--soft);margin:0 0 6px;}
 .sg h4 .c{font-family:"Fraunces",serif;font-size:12px;color:var(--mut);letter-spacing:0;margin-left:auto;
   font-variant-numeric:tabular-nums;}
 .rfx{display:grid;grid-template-columns:190px minmax(0,1fr) 190px;gap:2px 18px;padding:4px 0;
   border-bottom:1px solid var(--hair);align-items:baseline;line-height:1.35;}
 .rfx:hover{background:var(--paper2);}
 .rfx:last-child{border-bottom:none}
+/* etymon page only: subgroup-grouped reflexes + intermediate-recon rows.
+   no per-row rule; the source trails the form instead of pinning hard-right;
+   full-width section so its header rule lines up with Notes / Prev-reconstructed. */
+.reflexes.etymon-rfx{max-width:none;}
+.sg .rfx,.meso .rfx{grid-template-columns:190px auto 1fr;border-bottom:none;}
 .rfx .lang{color:var(--soft);font-size:14.5px;}
 .rfx .form{font-size:17px;}
 .rfx .form .br{color:var(--mut);}
@@ -315,8 +320,7 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .phon .pf-f{font-size:15px;white-space:nowrap;}
 .phon .pf-f .rl{display:inline;width:auto;flex:none;margin-right:7px;}
 .phon .pf-f .val{font-family:"Charis SIL",serif;color:var(--ink);}
-.conn-row{display:flex;align-items:baseline;gap:12px;padding:6px 0;border-bottom:1px solid var(--hair);}
-.conn-row:last-child{border-bottom:none}
+.conn-row{display:flex;align-items:baseline;gap:12px;padding:6px 0;}
 .rl{font-variant:small-caps;letter-spacing:.08em;font-size:12px;color:var(--accent);width:92px;flex:none;}
 .conn-row .reltgt{flex:1;}
 .exm{color:var(--gold);font-variant:small-caps;letter-spacing:.06em;font-size:.9em;}
@@ -394,7 +398,7 @@ pre.diff .hdr{color:var(--mut);}
   .ety-head .etno{float:none;display:block;margin:0 0 6px;}
 
   /* record rows collapse to a single stacked column (lang / form·gloss / source) */
-  .rfx{grid-template-columns:1fr;gap:1px 0;padding:8px 0;}
+  .rfx,.sg .rfx,.meso .rfx{grid-template-columns:1fr;gap:1px 0;padding:8px 0;}
   .rx-hit{grid-template-columns:1fr;gap:1px 0;}
   .rx-hit .via{text-align:left;}
   .ety-hit{grid-template-columns:1fr auto;gap:2px 12px;}
@@ -659,7 +663,7 @@ def etymon(tag):
                      + '</section>')
 
     cnt = f'<span class="cnt">{len(reflex_rows)} reflexes · {nsub} subgroups</span>'
-    reflexeshtml = (f'<section class="reflexes"><h3>Reflexes &amp; cognates{cnt}</h3>{jump}{"".join(sgs)}</section>'
+    reflexeshtml = (f'<section class="reflexes etymon-rfx"><h3>Reflexes &amp; cognates{cnt}</h3>{jump}{"".join(sgs)}</section>'
                     if sgs else '')
 
     mesohtml = ''
