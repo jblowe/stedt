@@ -1193,14 +1193,33 @@ def group(grpid):
         ORDER BY grpno""", (str(grpno) + '.%', depth + 1)).fetchall() if grpno is not None else []
     childinfo = []
     for ch in children:
-        nl = c.execute("""SELECT count(DISTINCT ln.lgid) FROM languagenames ln
-            JOIN lexicon l ON l.lgid=ln.lgid WHERE ln.grpid=?""", (ch['grpid'],)).fetchone()[0]
+        # count canonical member lects (distinct non-proto name == one lect within a grpid),
+        # not raw language×source rows, so the tally matches the subgroup's own page header
+        nl = c.execute("""SELECT count(DISTINCT ln.language) FROM languagenames ln
+            JOIN lexicon l ON l.lgid=ln.lgid
+            WHERE ln.grpid=? AND ln.language NOT LIKE '*%'""", (ch['grpid'],)).fetchone()[0]
         childinfo.append((ch, nl))
-    langs = c.execute("""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
+    # member lects directly attested at this node: collapse the per-source lgids of one lect onto its
+    # canonical page (summing forms, merging sources), and drop proto-forms — they are this group's own
+    # reconstruction (the plg + Reconstructions section), not member languages.
+    langrows = c.execute("""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
             ln.silcode AS silcode, ln.srcabbr AS srcabbr, sb.citation AS citation, count(l.rn) AS n
         FROM languagenames ln LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
         JOIN lexicon l ON l.lgid=ln.lgid
-        WHERE ln.grpid=? GROUP BY ln.lgid HAVING n>0 ORDER BY ln.language""", (grpid,)).fetchall()
+        WHERE ln.grpid=? AND ln.language NOT LIKE '*%'
+        GROUP BY ln.lgid HAVING n>0""", (grpid,)).fetchall()
+    canon_of = canonical_languages()[0]
+    lects = {}
+    for r in langrows:
+        cid = canon_of.get(r['lgid'], r['lgid'])
+        d = lects.get(cid)
+        if d is None:
+            d = lects[cid] = {'lgid': cid, 'language': r['language'], 'lgabbr': r['lgabbr'],
+                              'silcode': r['silcode'], 'n': 0, 'srcs': {}}
+        d['n'] += r['n']
+        if not d['silcode'] and r['silcode']: d['silcode'] = r['silcode']
+        if r['srcabbr']: d['srcs'].setdefault(r['srcabbr'], r['citation'])
+    langs = sorted(lects.values(), key=lambda d: (d['language'] or '').lower())
     recons = c.execute("""SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss
         FROM etyma e WHERE e.grpid=? AND coalesce(upper(e.status),'')!='DELETE'
         ORDER BY e.sequence, e.protogloss""", (grpid,)).fetchall()
@@ -1225,7 +1244,8 @@ def group(grpid):
                 f'<div class="lgtree">{tree}</div></details>')
     crumb_links = ['<a href="/languages">Languages</a>'] + \
                   [f'<a href="/group/{gg["grpid"]}">{esc(gg["grp"])}</a>' for gg in lin]
-    meta = [f'<span><b>{len(langs)}</b> languages</span>']
+    meta = []
+    if langs: meta.append(f'<span><b>{len(langs)}</b> languages</span>')
     if recons: meta.append(f'<span><b>{len(recons):,}</b> reconstructions</span>')
 
     def subitem(ch, nl):
@@ -1239,11 +1259,15 @@ def group(grpid):
     def langrow(l):
         ab = f' <span class="lgab">{esc(l["lgabbr"])}</span>' if l['lgabbr'] else ''
         mid = []
-        if l['srcabbr']:
-            mid.append(f'<a href="/source/{esc(l["srcabbr"])}">{esc(l["citation"] or l["srcabbr"])}</a>')
+        srcs = list(l['srcs'].items())
+        if len(srcs) == 1:
+            sab, cit = srcs[0]
+            mid.append(f'<a href="/source/{esc(sab)}">{esc(cit or sab)}</a>')
+        elif len(srcs) > 1:
+            mid.append(f'{len(srcs)} sources')
         if l['silcode']:
             mid.append('ISO ' + iso_link(l['silcode']))
-        return (f'<div class="rfx"><span><a class="lang" href="/language/{canon_lgid(l["lgid"])}">{esc(l["language"])}</a>{ab}</span>'
+        return (f'<div class="rfx"><span><a class="lang" href="/language/{l["lgid"]}">{esc(l["language"])}</a>{ab}</span>'
                 f'<span class="subg">{" · ".join(mid)}</span>'
                 f'<span class="src">{l["n"]:,} forms</span></div>')
     langhtml = (f'<section class="reflexes"><h3>Languages<span class="cnt">{len(langs)}</span></h3>'
