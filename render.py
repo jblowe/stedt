@@ -272,6 +272,9 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .reflexes{max-width:900px;}
 .reflexes h3{display:flex;align-items:baseline;}
 .reflexes h3 .cnt{margin-left:auto;font-size:.92em;letter-spacing:0;color:var(--mut);font-variant-numeric:tabular-nums;}
+.reflexes h3 .toggle-all{margin-left:auto;font-family:"Fraunces",serif;font-size:11.5px;font-variant:small-caps;
+  letter-spacing:.06em;color:var(--mut);background:none;border:1px solid var(--rule);border-radius:3px;padding:2px 10px;cursor:pointer;}
+.reflexes h3 .toggle-all:hover{color:var(--accent);border-color:var(--accent);}
 .notes{margin:26px 0 8px;}
 .np{margin:0 0 12px;max-width:38em;} .fn{font-size:.86em;color:var(--soft);}
 .note-block{margin-bottom:6px;}
@@ -988,7 +991,7 @@ def language(lgid):
         sk = r['semkey'] or ''
         groups.setdefault(sk.split('.')[0] if sk else '', []).append(r)
     keys = sorted(groups, key=lambda k: (k == '', natkey(k)))
-    openall = total <= 80
+    openall = total < 100
     segs = []
     for key in keys:
         items = groups[key]
@@ -1016,8 +1019,13 @@ def language(lgid):
             rfx.append(f'<div class="rfx" id="rn{r["rn"]}">{catcell}'
                        f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span>{pos}{via}</span>'
                        f'{src}</div>')
+        # A big lect (Tibetan: ~7,700 forms) would otherwise build tens of thousands of DOM nodes
+        # the reader never scrolls to. Each section ships its rows as inert <script> text and
+        # materialises them the first time it opens (or on load if it starts open) — see the IIFE.
         segs.append(f'<details class="seg"{" open" if openall else ""}><summary>{esc(ttl)}'
-                    f'<span class="c">{len(items)}</span></summary>{"".join(rfx)}</details>')
+                    f'<span class="c">{len(items)}</span></summary>'
+                    f'<div class="seg-body"></div>'
+                    f'<script type="text/html" class="seg-src">{"".join(rfx)}</script></details>')
 
     body = f"""
     <div class="ety-head">
@@ -1026,17 +1034,45 @@ def language(lgid):
       <div class="crumbs">{' &nbsp;›&nbsp; '.join(crumb_links)}</div>
       <div class="metabar">{''.join(meta)}</div>
     </div>
-    <section class="reflexes"><h3>Attested forms</h3>{''.join(segs)}</section>
+    <section class="reflexes"><h3>Attested forms{'' if openall else '<button type="button" class="toggle-all" data-all="0">Expand all</button>'}</h3>{''.join(segs)}</section>
     <script>
-    /* A reflex anchor (#rn<id>) may sit inside a collapsed segment (and arrives from a
-       thesaurus 'attested forms' link); open the ancestor section and scroll to it. The
-       :target CSS rule supplies the static highlight. */
+    /* Sections render their rows lazily: each <details> carries its forms as inert <script>
+       text and materialises them the first time it opens (or on load if it starts open), so a
+       7,700-form lect doesn't build ~50k DOM nodes the reader never looks at. reveal() also
+       handles a #rn<id> deep link (e.g. from a thesaurus 'attested forms' link) that points
+       into a section not yet opened. The :target CSS rule supplies the static highlight. */
     (function(){{
+      function fill(d){{
+        if(d.dataset.filled) return;
+        var s=d.querySelector('script.seg-src'), b=d.querySelector('.seg-body');
+        if(s&&b){{ b.innerHTML=s.textContent; d.dataset.filled='1'; }}
+      }}
+      var segs=[].slice.call(document.querySelectorAll('details.seg'));
+      segs.forEach(function(d){{
+        d.addEventListener('toggle',function(){{ if(d.open) fill(d); }});
+        if(d.open) fill(d);
+      }});
+      var btn=document.querySelector('.toggle-all');
+      if(btn) btn.addEventListener('click',function(){{
+        var open=btn.getAttribute('data-all')!=='1';
+        segs.forEach(function(d){{ if(open) fill(d); d.open=open; }});
+        btn.setAttribute('data-all',open?'1':'0');
+        btn.textContent=open?'Collapse all':'Expand all';
+      }});
       function reveal(){{
         var h=location.hash; if(!h||h.length<2) return;
-        var el; try{{el=document.getElementById(decodeURIComponent(h.slice(1)));}}catch(e){{return;}}
+        var id; try{{id=decodeURIComponent(h.slice(1));}}catch(e){{return;}}
+        var el=document.getElementById(id);
+        if(!el){{
+          var needle='id="'+id+'"';
+          for(var i=0;i<segs.length;i++){{
+            var s=segs[i].querySelector('script.seg-src');
+            if(s&&s.textContent.indexOf(needle)>=0){{ fill(segs[i]); segs[i].open=true; break; }}
+          }}
+          el=document.getElementById(id);
+        }}
         if(!el) return;
-        var d=el.closest('details'); if(d&&!d.open) d.open=true;
+        var d=el.closest('details'); if(d&&!d.open){{ fill(d); d.open=true; }}
         el.scrollIntoView({{block:'center'}});
       }}
       window.addEventListener('hashchange',reveal); reveal();
@@ -1093,6 +1129,20 @@ def source(srcabbr):
         cite_full = (cite_full.rstrip() + sep + ' ' + s['imprint']) if cite_full else s['imprint']
     cite_full = cite_full or (s['citation'] or s['srcabbr'])
     cite_as = f"{cite_full} — via STEDT, {src_url} (accessed ____)."
+    # BibTeX for the source, parallel to the etymon citebox so both cite-boxes offer it.
+    # imprint is free text (series/publisher/place), so keep it in note rather than mis-splitting it.
+    bibkey = 'stedt-src-' + re.sub(r'[^A-Za-z0-9]+', '-', s['srcabbr'] or 'source').strip('-')
+    bib_lines = ['@misc{' + bibkey + ',']
+    if s['author']: bib_lines.append('  author = {' + s['author'] + '},')
+    if s['title']:  bib_lines.append('  title  = {{' + s['title'] + '}},')
+    if s['year']:   bib_lines.append('  year   = {' + str(s['year']) + '},')
+    _note = '; '.join(x for x in (s['imprint'],
+        'Accessed via STEDT (Sino-Tibetan Etymological Dictionary and Thesaurus) v1.0, source '
+        + (s['srcabbr'] or '')) if x)
+    bib_lines.append('  note   = {' + _note + '},')
+    bib_lines.append('  url    = {' + src_url + '}')
+    bib_lines.append('}')
+    src_bib = '\n'.join(bib_lines)
     copy_js = ("<script>document.querySelectorAll('.copybtn').forEach("
                "b=>b.addEventListener('click',()=>{navigator.clipboard.writeText(b.dataset.cite);"
                "b.textContent='Copied';}));</script>")
@@ -1103,7 +1153,9 @@ def source(srcabbr):
         <div>Stable link: <code>{esc(src_url)}</code></div>
         <div class="cite-actions">
           <button class="copybtn" data-cite="{esc(cite_as)}">Copy citation</button>
+          <button class="copybtn" data-cite="{esc(src_bib)}">Copy BibTeX</button>
         </div>
+        <details class="seg"><summary>BibTeX</summary><pre class="diff">{esc(src_bib)}</pre></details>
       </div>
     </section>{copy_js}"""
     body = f"""
