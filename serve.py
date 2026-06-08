@@ -446,7 +446,6 @@ def about():
     abbrhtml = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in abbr)
     body = f"""
     <div class="ety-head">
-      <div class="plg">About</div>
       <div class="pagetitle">About STEDT</div>
     </div>
     <div class="about">
@@ -802,7 +801,6 @@ def reconstructions(page_n=1):
     pager = f'<div class="pager">{prev}<span>page {page_n} of {pages}</span>{nxt}</div>'
     body = f"""
     <div class="ety-head">
-      <div class="plg">Browse</div>
       <div class="pagetitle">Reconstructions</div>
       <div class="metabar"><span><b>{total:,}</b>etyma</span><span>ordered by gloss</span></div>
     </div>
@@ -830,7 +828,7 @@ def languages_index():
             d[nm] = (r['lgid'], r['n'])
     for d in groups.values(): ntot += len(d)
     gkeys = sorted(groups, key=lambda k: natkey(k[0]))
-    out = ['<div class="ety-head"><div class="plg">Browse</div><div class="pagetitle">Languages</div>',
+    out = ['<div class="ety-head"><div class="pagetitle">Languages</div>',
            f'<div class="metabar"><span><b>{ntot:,}</b>languages</span><span>by genetic subgroup</span></div></div>']
     for grpno, grp, plg, grpid in gkeys:
         langs = groups[(grpno, grp, plg, grpid)]
@@ -854,7 +852,7 @@ def sources_index():
         label = s['citation'] or ' '.join(
             x for x in (s['author'], f"({s['year']})" if s['year'] else '', s['title']) if x) or s['srcabbr']
         items.append(f'<li><a href="/source/{esc(s["srcabbr"])}">{esc(label)}</a></li>')
-    body = (f'<div class="ety-head"><div class="plg">Browse</div><div class="pagetitle">Sources</div>'
+    body = (f'<div class="ety-head"><div class="pagetitle">Sources</div>'
             f'<div class="metabar"><span><b>{len(rows):,}</b>sources</span></div></div>'
             f'<ul class="idx">{"".join(items)}</ul>')
     return page("Sources", body, nav="sources")
