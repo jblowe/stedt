@@ -34,14 +34,17 @@ def main():
         CREATE TABLE etyma          (tag INTEGER PRIMARY KEY, protoform, protogloss, semkey, status, grpid);
         CREATE TABLE languagegroups (grpid INTEGER PRIMARY KEY, plg);
         CREATE TABLE languagenames  (lgid INTEGER PRIMARY KEY, language);
-        CREATE TABLE lexicon        (rn INTEGER PRIMARY KEY, reflex, gloss, lgid);
+        CREATE TABLE lexicon        (rn INTEGER PRIMARY KEY, reflex, gloss, lgid, semkey);
         CREATE TABLE lx_et_hash     (rn INTEGER, tag INTEGER);
         INSERT INTO etyma          SELECT tag, protoform, protogloss, semkey, status, grpid FROM src.etyma;
         INSERT INTO languagegroups SELECT grpid, plg FROM src.languagegroups;
         INSERT INTO languagenames  SELECT lgid, language FROM src.languagenames;
-        INSERT INTO lexicon        SELECT rn, reflex, gloss, lgid FROM src.lexicon;
+        INSERT INTO lexicon        SELECT rn, reflex, gloss, lgid, semkey FROM src.lexicon;
         INSERT INTO lx_et_hash     SELECT rn, tag FROM src.lx_et_hash WHERE tag > 0;
         CREATE INDEX ix_hash_rn ON lx_et_hash(rn);   -- rn non-unique here (multi-tag reflexes)
+        -- NB: no index on lexicon.semkey. The "attested forms" browse scans it once in-memory
+        -- (WASM, ~540K rows = a few ms) on expand; an index would add ~2.4 MB to the gz download
+        -- for no perceptible gain. Keep the transfer lean.
     """)
 
     # FTS5 over reflex form/gloss/language. CONTENTLESS (content='') so the index doesn't

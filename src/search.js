@@ -85,6 +85,24 @@ const ETYMA_ALL_SQL = `
   FROM etyma e LEFT JOIN languagegroups g ON g.grpid = e.grpid
   WHERE coalesce(upper(e.status), '') != 'DELETE' ORDER BY e.tag LIMIT ?`;
 
+// Every reflex (lexicon row) carries its own gloss-level semkey — independent of any etymon.
+// The thesaurus browse drills category -> etymon, so the ~310k reflexes tagged to no etymon
+// are otherwise unreachable by meaning. This lists the attested forms filed directly under a
+// semantic node, lazily (on expand), reusing the already-loaded search DB.
+const FORMS_BY_CAT_SQL = (n) => `
+  SELECT l.rn AS rn, l.reflex AS reflex, l.gloss AS gloss, l.lgid AS lgid, ln.language AS language
+  FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
+  WHERE l.semkey IN (${Array(n).fill('?').join(',')})
+    AND ln.language NOT LIKE '*%'
+  ORDER BY ln.language, l.reflex`;
+
+export async function stedtFormsByCategory(semkeys) {
+  const keys = (Array.isArray(semkeys) ? semkeys : [semkeys]).filter(Boolean);
+  if (!keys.length) return [];
+  const db = await getDb();
+  return run(db, FORMS_BY_CAT_SQL(keys.length), keys);
+}
+
 const ftsQ = (s) => { s = s.replace(/"/g, ' ').trim(); return s ? '"' + s + '"' : '""'; };
 
 export async function stedtSearch(query, limit = 40) {
@@ -123,4 +141,5 @@ export async function stedtSearch(query, limit = 40) {
 if (typeof window !== 'undefined') {
   window.stedtDbLoaded = false;
   window.stedtSearch = stedtSearch;
+  window.stedtFormsByCategory = stedtFormsByCategory;
 }

@@ -38,6 +38,7 @@ def con():
     return c
 
 _VALID_TAGS = None
+_SEMKEY_COUNTS = None
 def valid_etymon_tags():
     """Cached frozenset of etymon tags that have a built page (non-DELETE). Used to gate
     xref links so notes never point at an unbuilt (404) etymon. Loaded once per process."""
@@ -48,6 +49,22 @@ def valid_etymon_tags():
             "SELECT tag FROM etyma WHERE coalesce(upper(status),'')!='DELETE'"))
         c.close()
     return _VALID_TAGS
+
+def reflex_semkey_counts():
+    """Cached {lexicon.semkey: reflex count}. Each reflex carries its own gloss-level semkey
+    (independent of any etymon); this powers the 'Attested forms here' count on thesaurus
+    pages. One GROUP BY pass, loaded once per process."""
+    global _SEMKEY_COUNTS
+    if _SEMKEY_COUNTS is None:
+        c = con()
+        # Exclude proto-language stand-ins (language LIKE '*%') — those are reconstructions, not
+        # attested forms (they surface as etyma under "Reconstructions here"), and the languages
+        # index hides them too. Must match the client query's filter so count == list length.
+        _SEMKEY_COUNTS = {r[0]: r[1] for r in c.execute(
+            "SELECT l.semkey, count(*) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid "
+            "WHERE coalesce(l.semkey,'')!='' AND ln.language NOT LIKE '*%' GROUP BY l.semkey")}
+        c.close()
+    return _SEMKEY_COUNTS
 
 # ---------------------------------------------------------------- note XML -> HTML
 _ENT = {'&quot;': '"', '&apos;': '’', '&amp;': '&', '&lt;': '<', '&gt;': '>'}
@@ -240,6 +257,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
   border-bottom:1px solid var(--hair);align-items:baseline;line-height:1.35;}
 .rfx:hover{background:var(--paper2);}
 .rfx:last-child{border-bottom:none}
+.rfx:target{background:var(--paper2);box-shadow:inset 3px 0 0 var(--accent);padding-left:8px;}
 /* etymon page only: subgroup-grouped reflexes + intermediate-recon rows.
    no per-row rule; the source trails the form instead of pinning hard-right;
    full-width section so its header rule lines up with Notes / Prev-reconstructed. */
@@ -901,7 +919,7 @@ def language(lgid):
                     vias.append(f'<a class="via" href="/etymon/{t}">› *{esc(alt(plabels[t]))}</a>')
             via = ' '.join(vias)
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r['gfn'] else ''
-            rfx.append(f'<div class="rfx">{catcell}'
+            rfx.append(f'<div class="rfx" id="rn{r["rn"]}">{catcell}'
                        f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span>{pos}</span>'
                        f'<span class="src">{via}</span></div>')
         segs.append(f'<details class="seg"{" open" if openall else ""}><summary>{esc(ttl)}'
@@ -924,7 +942,22 @@ def language(lgid):
       <div class="metabar">{''.join(meta)}</div>
     </div>
     <section class="reflexes"><h3>Attested forms</h3>{''.join(segs)}</section>
-    {sibhtml}"""
+    {sibhtml}
+    <script>
+    /* A reflex anchor (#rn<id>) may sit inside a collapsed segment (and arrives from a
+       thesaurus 'attested forms' link); open the ancestor section and scroll to it. The
+       :target CSS rule supplies the static highlight. */
+    (function(){{
+      function reveal(){{
+        var h=location.hash; if(!h||h.length<2) return;
+        var el; try{{el=document.getElementById(decodeURIComponent(h.slice(1)));}}catch(e){{return;}}
+        if(!el) return;
+        var d=el.closest('details'); if(d&&!d.open) d.open=true;
+        el.scrollIntoView({{block:'center'}});
+      }}
+      window.addEventListener('hashchange',reveal); reveal();
+    }})();
+    </script>"""
     return page(ln['language'], body, nav="languages")
 
 def source(srcabbr):
@@ -1264,6 +1297,77 @@ def search_page(q=""):
 # the lone live etymon whose chapter doesn't resolve. Used for thesaurus placement + counts.
 ECAT = "coalesce(nullif(e.chapter,''),e.semkey)"
 
+# Lazy windowed list for a thesaurus page's "Attested forms here". On first expand it queries
+# the search WASM DB (window.stedtFormsByCategory, set by /assets/stedt-search.js) for every
+# reflex under this node's semkey(s), then renders in 200-row windows with an in-memory filter
+# and infinite-scroll — so a 13k-form category stays a light DOM. No Python interpolation here
+# (keys ride in via data-semkeys), so it's a plain constant: literal { } need no escaping.
+_CATFORMS_JS = """
+<script>
+(function(){
+  var wrap=document.querySelector('details.catwrap'); if(!wrap) return;
+  var B=window.STEDT_BASE||'';
+  var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
+  var norm=function(s){return String(s==null?'':s).toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');};
+  var list=wrap.querySelector('.catlist'),
+      moreWrap=wrap.querySelector('.catmore'),
+      moreBtn=wrap.querySelector('.catmore-btn'),
+      count=wrap.querySelector('.catcount'),
+      input=wrap.querySelector('.catfilter');
+  var CHUNK=200, DATA=null, view=[], shown=0, loaded=false, loading=false;
+  function row(r){
+    return '<a class="ety-hit" href="'+B+'/language/'+r.lgid+'#rn'+r.rn+'">'+
+      '<span class="pf2 lat">'+esc(r.reflex)+'</span>'+
+      '<span class="pg2">'+esc(r.gloss)+'</span>'+
+      '<span class="tagn">'+esc(r.language)+'</span></a>';
+  }
+  function updateCount(){
+    if(!DATA){count.textContent='';return;}
+    var t=DATA.length,m=view.length;
+    var s=(m===t)?t.toLocaleString()+(t===1?' form':' forms')
+                 :m.toLocaleString()+(m===1?' match':' matches')+' of '+t.toLocaleString();
+    if(shown<m) s+=' · '+shown.toLocaleString()+' shown';
+    count.textContent=s;
+  }
+  function renderMore(){
+    var next=view.slice(shown,shown+CHUNK),h='';
+    for(var i=0;i<next.length;i++) h+=row(next[i]);
+    list.insertAdjacentHTML('beforeend',h);
+    shown+=next.length; moreWrap.hidden=shown>=view.length; updateCount();
+  }
+  function apply(){
+    var q=norm(input.value.trim());
+    view=q?DATA.filter(function(r){return r._k.indexOf(q)>=0;}):DATA;
+    list.innerHTML=''; shown=0; renderMore();
+  }
+  function load(){
+    if(loaded||loading) return; loading=true; count.textContent='Loading forms…';
+    var keys; try{keys=JSON.parse(wrap.getAttribute('data-semkeys'));}catch(e){keys=[];}
+    var go=function(){
+      window.stedtFormsByCategory(keys).then(function(rows){
+        DATA=rows||[];
+        for(var i=0;i<DATA.length;i++){var r=DATA[i];r._k=norm(r.reflex+' '+r.gloss+' '+r.language);}
+        view=DATA; loaded=true; loading=false; apply();
+      }).catch(function(){count.textContent='Could not load forms.'; loading=false;});
+    };
+    var wait=function(n){
+      if(window.stedtFormsByCategory) return go();
+      if(n<=0){count.textContent='Search is unavailable.'; loading=false; return;}
+      setTimeout(function(){wait(n-1);},150);
+    };
+    wait(40);
+  }
+  wrap.addEventListener('toggle',function(){if(wrap.open) load();});
+  moreBtn.addEventListener('click',renderMore);
+  var tmr; input.addEventListener('input',function(){if(!loaded)return;clearTimeout(tmr);tmr=setTimeout(apply,90);});
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){if(es[0].isIntersecting&&!moreWrap.hidden)renderMore();});
+    io.observe(moreWrap);
+  }
+})();
+</script>"""
+
 def thesaurus(semkey=None):
     c = con()
     body = ['<div class="thes">']
@@ -1350,6 +1454,28 @@ def thesaurus(semkey=None):
                             f'<span class="pg2">{esc(e["protogloss"])}</span>'
                             f'<span class="tagn">{esc(e["plg"])} #{e["tag"]}{rcount_txt(dcounts.get(e["tag"], 0))}</span></div>')
             body.append('</div>')
+        # Attested forms (reflexes) filed directly under this meaning — a separate, gloss-level
+        # axis from the etyma above. Most reflexes are tagged to no etymon, so they're reachable
+        # ONLY here or by language browse. Loaded lazily on expand (reuses the search WASM DB);
+        # the count is static so the section is informative before anything downloads.
+        scounts = reflex_semkey_counts()
+        nforms = sum(scounts.get(k, 0) for k in own)
+        if nforms:
+            keys_json = esc(json.dumps(own, separators=(',', ':')))
+            body.append(
+                '<div class="ety-list">'
+                '<h3 style="margin-top:30px">Attested forms here</h3>'
+                '<p class="cap">Individual reflexes filed directly under this meaning, across all '
+                'languages — each links to its entry on the language page.</p>'
+                f'<details class="seg catwrap" data-semkeys="{keys_json}">'
+                f'<summary>Show attested forms<span class="c">{nforms:,}</span></summary>'
+                '<div class="rbar"><input class="catfilter" type="search" '
+                'placeholder="Filter by form, gloss, or language…" autocomplete="off">'
+                '<span class="rcount catcount"></span></div>'
+                '<div class="catlist"></div>'
+                '<div class="rmore catmore" hidden><button type="button" class="catmore-btn">Show more</button></div>'
+                '</details></div>'
+                + _CATFORMS_JS)
     c.close()
     body.append('</div>')
     return page("Thesaurus" + (f": {semkey}" if semkey else ""), ''.join(body), nav="thesaurus")
