@@ -343,6 +343,7 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .rx-hit{display:grid;grid-template-columns:180px 1fr 1fr;gap:14px;align-items:baseline;padding:6px 0;
   border-bottom:1px solid var(--hair);font-size:15px;}
 .rx-hit .lang{color:var(--soft);font-size:13.5px;}
+.rx-hit .vias{text-align:right;color:var(--mut);font-size:12.5px;min-width:0;}
 .rx-hit .via{font-size:12.5px;color:var(--mut);text-align:right;border-bottom:none;}
 .rx-hit .via:hover{color:var(--accent);}
 
@@ -470,7 +471,7 @@ pre.diff .hdr{color:var(--mut);}
   /* record rows collapse to a single stacked column (lang / form·gloss / source) */
   .rfx,.sg .rfx,.meso .rfx{grid-template-columns:1fr;gap:1px 0;padding:8px 0;}
   .rx-hit{grid-template-columns:1fr;gap:1px 0;}
-  .rx-hit .via{text-align:left;}
+  .rx-hit .via,.rx-hit .vias{text-align:left;}
   .ety-hit{grid-template-columns:1fr auto;gap:2px 12px;}
   .ety-hit .pg2,.ety-hit .gl2{grid-column:1;}
   .ety-hit .tagn{grid-column:2;grid-row:1/3;align-self:start;}
@@ -1421,8 +1422,8 @@ def search_page(q=""):
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
     const etyRow=e=>`<a class="ety-hit" href="${B}/etymon/${e.tag}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}</span></a>`;
     const rfxRow=r=>{
-      const via=(r.etyma&&r.etyma.length)?r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' '):'<span class="via">untagged</span>';
-      return `<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span><span class="lat">${esc(r.form)}</span> ‘${esc(r.gloss)}’</span>${via}</div>`;
+      const links=(r.etyma&&r.etyma.length)?r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' '):'untagged';
+      return `<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span><span class="lat">${esc(r.form)}</span> ‘${esc(r.gloss)}’</span><span class="vias">${links}</span></div>`;
     };
     const langRow=x=>`<a class="ety-hit" href="${B}/language/${x.lgid}"><span class="rf">${esc(x.language)}</span><span class="gl2">${fmt(x.n)} attested form${x.n==1?'':'s'}</span><span class="tagn">language</span></a>`;
     function sectionLabel(title,total,fetched){
