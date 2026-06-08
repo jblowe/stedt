@@ -37,6 +37,18 @@ def con():
     c.row_factory = sqlite3.Row
     return c
 
+_VALID_TAGS = None
+def valid_etymon_tags():
+    """Cached frozenset of etymon tags that have a built page (non-DELETE). Used to gate
+    xref links so notes never point at an unbuilt (404) etymon. Loaded once per process."""
+    global _VALID_TAGS
+    if _VALID_TAGS is None:
+        c = con()
+        _VALID_TAGS = frozenset(r[0] for r in c.execute(
+            "SELECT tag FROM etyma WHERE coalesce(upper(status),'')!='DELETE'"))
+        c.close()
+    return _VALID_TAGS
+
 # ---------------------------------------------------------------- note XML -> HTML
 _ENT = {'&quot;': '"', '&apos;': '’', '&amp;': '&', '&lt;': '<', '&gt;': '>'}
 _PAIR = {
@@ -62,8 +74,13 @@ def _smart_quotes(s):
 def render_note(x):
     if not x: return ""
     s = x
-    s = re.sub(r'<xref[^>]*\bref="(\d+)"[^>]*>(.*?)</xref>',
-               r'<a class="xref" href="/etymon/\1">\2</a>', s, flags=re.S)
+    valid = valid_etymon_tags()
+    def _xref(m):  # only link xrefs to a built (non-DELETE) etymon; else keep the label, drop the link
+        ref, txt = m.group(1), m.group(2)
+        if int(ref) in valid:
+            return f'<a class="xref" href="/etymon/{ref}">{txt}</a>'
+        return f'<span class="xref">{txt}</span>'
+    s = re.sub(r'<xref[^>]*\bref="(\d+)"[^>]*>(.*?)</xref>', _xref, s, flags=re.S)
     s = re.sub(r'</?xref[^>]*>', '', s)
     s = re.sub(r'<a\s+href="([^"]*)"[^>]*>(.*?)</a>',
                r'<a href="\1" rel="noopener" target="_blank">\2</a>', s, flags=re.S)
