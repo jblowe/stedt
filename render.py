@@ -297,7 +297,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx .form{font-size:17px;}
 .rfx .form .br{color:var(--mut);}
 .rfx .src{font-size:13px;color:var(--mut);}
-.rfx .loc{color:var(--mut);font-variant-numeric:tabular-nums;}
+.rfx .loc{color:var(--mut);font-variant-numeric:tabular-nums;cursor:help;border-bottom:1px dotted var(--rule);}
 .rfx .g{color:var(--soft);font-size:13.5px;font-style:italic;}
 .rfx a{border-bottom:none;}
 .rfx a.lang{color:var(--soft);}
@@ -913,7 +913,7 @@ def language(lgid):
     if not ln:
         c.close(); return page("Not found", "<p>No such language.</p>")
     grp = c.execute("SELECT grpid,grpno,grp,plg FROM languagegroups WHERE grpid=?", (ln['grpid'],)).fetchone()
-    src = c.execute("SELECT srcabbr,citation FROM srcbib WHERE srcabbr=?", (ln['srcabbr'],)).fetchone()
+    src = c.execute("SELECT srcabbr,citation,author,year,title FROM srcbib WHERE srcabbr=?", (ln['srcabbr'],)).fetchone()
     rows = c.execute("""SELECT l.rn, l.reflex, l.gloss, l.gfn, l.semkey, l.srcid
         FROM lexicon l WHERE l.lgid=? ORDER BY l.semkey, l.reflex""", (lgid,)).fetchall()
     total = len(rows)
@@ -953,6 +953,14 @@ def language(lgid):
         groups.setdefault(sk.split('.')[0] if sk else '', []).append(r)
     keys = sorted(groups, key=lambda k: (k == '', natkey(k)))
     openall = total <= 80
+    # the work is constant for the whole page, so a per-reflex locus carries no inline citation;
+    # build the full reference once and hang it on each locus as a hover tooltip instead.
+    src_cit = (src['citation'] or src['srcabbr']) if src else ''
+    bib = '. '.join(p for p in (
+        (src['author'] or '').rstrip('.') if src else '',
+        str(src['year']) if src and src['year'] else '',
+        (src['title'] or '').rstrip('.') if src else '',
+    ) if p)
     segs = []
     for key in keys:
         items = groups[key]
@@ -971,8 +979,13 @@ def language(lgid):
                     vias.append(f'<a class="via" href="/etymon/{t}">› *{esc(alt(plabels[t]))}</a>')
             via = ' '.join(vias)
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r['gfn'] else ''
-            # per-reflex source locus (page/set/entry within the page's source, named in the header)
-            loc = f'<span class="loc">{esc(r["srcid"])}</span>' if r['srcid'] else ''
+            # per-reflex source locus (page/set/entry within the page's source, named in the header).
+            # tooltip restores the full reference the row omits, so the bare number is self-explanatory.
+            if r['srcid']:
+                tip = f'{src_cit}, §{r["srcid"]}' + (f' — {bib}' if bib else '')
+                loc = f'<span class="loc" title="{esc(tip)}">{esc(r["srcid"])}</span>'
+            else:
+                loc = ''
             srccell = ' '.join(x for x in (loc, via) if x)
             rfx.append(f'<div class="rfx" id="rn{r["rn"]}">{catcell}'
                        f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span>{pos}</span>'
