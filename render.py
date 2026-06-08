@@ -350,8 +350,11 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .ety-hit .tagn{font-family:"Fraunces",serif;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums;}
 .rx-hit{display:grid;grid-template-columns:160px 1fr auto;gap:4px 14px;align-items:baseline;padding:6px 0;
   border-bottom:1px solid var(--hair);font-size:15px;}
-.rx-hit .lang{color:var(--soft);font-size:13.5px;}
+.rx-hit .lang{color:var(--soft);font-size:13.5px;border-bottom:none;}
+.rx-hit a.lang:hover{color:var(--accent);}
 .rx-hit .rx-mid{min-width:0;}
+.rx-hit .syl{color:inherit;border-bottom:1px dotted var(--rule);}
+.rx-hit .syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
 .rx-hit .vias{color:var(--mut);font-size:12.5px;margin-left:.45em;}
 .rx-hit .via{font-size:12.5px;color:var(--mut);border-bottom:none;}
 .rx-hit .via:hover{color:var(--accent);}
@@ -1540,11 +1543,63 @@ def search_page(q=""):
     const bs=document.getElementById('bs');
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
     const etyRow=e=>`<a class="ety-hit" href="${B}/etymon/${e.tag}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}</span></a>`;
+    // --- per-syllable etymon links (faithful port of the original SylStation.syllabify) ---
+    // Syllabify a form the way the data was tagged so lx_et_hash.ind (syllable position -> etymon)
+    // aligns; tagged syllables then link to their etymon. Char classes [(] [)] [|] stand in for the
+    // escaped \\( \\) \\| to keep this readable inside the page string.
+    const _TONE="⁰¹²³⁴⁵⁶⁷⁸0-9ˊˋ˥-˩";
+    const _DELIM="-=≡≣+.,;/~◦⪤()↮ ";
+    const _HIDE=new RegExp('[(]([^'+_DELIM+_TONE+']+)[)]','g');
+    const _START=new RegExp('^(['+_DELIM+']+)');
+    const _REPOST="([^"+_DELIM+_TONE+"]+["+_TONE+"]+(?:[|]$)?)(["+_DELIM+"]*)";
+    const _REPRE="(["+_TONE+"]{1,2}[^"+_DELIM+_TONE+"]+)(["+_DELIM+"]*)";
+    const _REDEL="([^"+_DELIM+"]+)(["+_DELIM+"]*)";
+    function _syl1(s,reSrc){
+      s=s.replace(_HIDE,'（$1）'); let prefix='';
+      if(_START.test(s)){const pm=_START.exec(s);prefix=pm[1];s=s.substring(prefix.length);}
+      const syls=[],dl=[]; const re=new RegExp("^"+reSrc); let m;
+      while((m=re.exec(s))&&m[0].length){
+        s=s.substring(m[0].length);
+        if(m[1].indexOf('|')!==-1&&syls.length){
+          syls[syls.length-1]+=dl.pop();
+          syls[syls.length-1]+=m[1].replace('（','(').replace('）',')').replace('|','');
+        }else{syls.push(m[1].replace('（','(').replace('）',')'));}
+        dl.push(m[2]);
+      }
+      if(!syls[0])syls[0]='';
+      if(s)syls[syls.length-1]+=s;
+      return {syls,dl,prefix,ok:!s.length};
+    }
+    function syllabify(s){
+      let r=_syl1(s,_REPOST);
+      if(!r.ok){r=_syl1(s,_REPRE);if(!r.ok)r=_syl1(s,_REDEL);}
+      return r;
+    }
+    const sylLink=r=>{                     // syllable-linked form HTML, or null to fall back
+      if(!r.syn)return null;
+      const sy=syllabify(String(r.form||'')),syls=sy.syls,dl=sy.dl;
+      for(const k in r.syn){if(+k>=syls.length)return null;}   // tags must land on real syllables
+      let out=esc(sy.prefix||'');
+      for(let i=0;i<syls.length;i++){
+        out+=(r.syn[i]!=null
+          ? `<a class="syl" href="${B}/etymon/${r.syn[i]}">${esc(syls[i])}</a>`
+          : esc(syls[i]))
+          + esc(dl[i]||'').replace(/◦/g,'<span class="br">◦</span>');
+      }
+      return out;
+    };
     const rfxRow=r=>{
-      const links=(r.etyma&&r.etyma.length)?`<span class="vias">${r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' ')}</span>`:'';
+      const lang=`<a class="lang" href="${B}/language/${r.lgid}#rn${r.rn}">${esc(r.language)}</a>`;
       const src=r.srcabbr?`<a href="${B}/source/${esc(r.srcabbr)}">${esc(r.citation||r.srcabbr)}</a>`:'';
       const note=r.note?`<div class="rx-note">${esc(r.note)}</div>`:'';
-      return `<div class="rx-hit"><span class="lang">${esc(r.language)}</span><span class="rx-mid"><a href="${B}/language/${r.lgid}#rn${r.rn}"><span class="lat">${esc(r.form)}</span></a> ‘${esc(r.gloss)}’${links}</span><span class="rx-src">${src}</span>${note}</div>`;
+      const lf=sylLink(r); let mid;
+      if(lf){                              // syllables carry the etymon links; no separate chips
+        mid=`<span class="lat">${lf}</span> ‘${esc(r.gloss)}’`;
+      }else{                               // fall back to plain form + trailing "via" etymon chips
+        const links=(r.etyma&&r.etyma.length)?` <span class="vias">${r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' ')}</span>`:'';
+        mid=`<span class="lat">${esc(r.form)}</span> ‘${esc(r.gloss)}’${links}`;
+      }
+      return `<div class="rx-hit">${lang}<span class="rx-mid">${mid}</span><span class="rx-src">${src}</span>${note}</div>`;
     };
     // attested-form rows are pre-sorted by subgroup; emit a Stammbaum-subgroup header when it changes
     let _rxsub=null;

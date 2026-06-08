@@ -66,7 +66,7 @@ function run(db, sql, params) {
 // entry pages show. (Per-syllable tag positions live in lx_et_hash.ind for future syllable links.)
 const RFX_COLS = `ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.rn AS rn, l.lgid AS lgid,
          ln.srcabbr AS srcabbr, sb.citation AS citation, g.grpno AS grpno, g.grp AS subgroup, nt.note AS note,
-         json_group_array(json_object('tag', e.tag, 'pf', e.protoform))
+         json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'ind', h.ind))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma`;
 const RFX_JOINS = `
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
@@ -203,11 +203,20 @@ export async function stedtSearch(query, limit = 40) {
     for (const r of reflexes) {
       let ets = [];
       try { ets = JSON.parse(r.etyma || '[]'); } catch (e) { ets = []; }
-      const seen = new Set(); const uniq = [];
-      for (const x of ets) { if (x && x.tag != null && !seen.has(x.tag)) { seen.add(x.tag); uniq.push(x); } }
+      const seen = new Set(); const uniq = []; const byInd = {}; let conflict = false;
+      for (const x of ets) {
+        if (!x || x.tag == null) continue;
+        if (!seen.has(x.tag)) { seen.add(x.tag); uniq.push(x); }
+        if (x.ind != null) {                       // syllable position -> etymon, for per-syllable links
+          if (byInd[x.ind] != null && byInd[x.ind] !== x.tag) conflict = true;
+          else byInd[x.ind] = x.tag;
+        }
+      }
       r.etyma = uniq;
       r.tag = uniq.length ? uniq[0].tag : null;
       r.pf = uniq.length ? uniq[0].pf : null;
+      // ind->tag map for per-syllable etymon links; null if a syllable is ambiguously multi-tagged
+      r.syn = (!conflict && Object.keys(byInd).length) ? byInd : null;
     }
     // order by subgroup (then language, form) so the page can render Stammbaum-grouped sections
     reflexes.sort((a, b) => {
