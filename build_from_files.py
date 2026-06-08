@@ -7,8 +7,9 @@ from etymon/thesaurus/bibliography/reflex-note sources.
 """
 import sqlite3, os, csv, glob, yaml, sys, re
 
-ROOT = "/home/luke/local/stedt/data"
-OUT = sys.argv[1] if len(sys.argv) > 1 else "/home/luke/local/stedt/stedt.sqlite"
+_HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.join(_HERE, "data")
+OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(_HERE, "stedt.sqlite")
 csv.field_size_limit(10**7)
 
 # Same schema as the dump-based build, so serve.py is unchanged.

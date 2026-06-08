@@ -24,8 +24,9 @@ nonzero (0 <-> absent/NULL); empty-text notes (no xmlnote) are skipped.
 import sqlite3, os, csv, yaml, re
 from itertools import groupby
 
-DB = "/home/luke/local/stedt/stedt.sqlite"
-ROOT = "/home/luke/local/stedt/data"
+_HERE = os.path.dirname(os.path.abspath(__file__))
+DB = os.path.join(_HERE, "stedt.sqlite")
+ROOT = os.path.join(_HERE, "data")
 
 class _D(yaml.SafeDumper): pass
 _NEL = ('\x85', ' ', ' ')   # YAML folds these to spaces; double-quote forces \-escaping
