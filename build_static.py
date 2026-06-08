@@ -94,9 +94,9 @@ def main():
     for k in semks:
         write(f"thesaurus/{k}", lambda k=k: serve.thesaurus(k))
 
-    src_db = os.path.join(os.path.dirname(os.path.abspath(__file__)), "search.db")
+    src_db = os.path.join(os.path.dirname(os.path.abspath(__file__)), "search.sqlite3")
     if os.path.exists(src_db):
-        shutil.copy(src_db, os.path.join(OUT, "search.db"))
+        shutil.copy(src_db, os.path.join(OUT, "search.sqlite3"))
     open(os.path.join(OUT, ".nojekyll"), "w").close()   # don't let Pages run Jekyll on our files
     print(f"Done: {_ok} pages, {_fail} skipped, {time.time() - t0:.0f}s "
           f"(BASE={BASE!r}, LIMIT={LIMIT or 'all'})")

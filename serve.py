@@ -352,8 +352,7 @@ def page(title, body, q="", nav=""):
 def home():
     banner = ('<div class="preview-banner" style="background:var(--accent);color:var(--paper);'
               'padding:14px 20px;border-radius:3px;margin:0 0 22px;font-size:15px;line-height:1.55">'
-              '<b>Preview.</b> An in-progress community rebuild of STEDT — data and features '
-              'are incomplete and may change. Spotted a problem? Use “Suggest an edit” on any entry.</div>'
+              '<b>Preview.</b> Data and features are incomplete and may change.</div>'
               ) if PREVIEW else ""
     body = banner + """
     <div class="home">

@@ -13,7 +13,9 @@ import sqlite3
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 SRC = os.path.join(HERE, "stedt.sqlite")
-OUT = os.path.join(HERE, "search.db")
+# NB: .sqlite3 (not .db) — GitHub Pages gzip-compresses .db, which corrupts the byte-range
+# math sql.js-httpvfs relies on; it serves .sqlite3 uncompressed. (community #162857)
+OUT = os.path.join(HERE, "search.sqlite3")
 
 
 def main():
@@ -56,7 +58,7 @@ def main():
     db.commit()
     db.execute("VACUUM")
     db.close()
-    print(f"search.db: {os.path.getsize(OUT) / 1e6:.1f} MB")
+    print(f"search.sqlite3: {os.path.getsize(OUT) / 1e6:.1f} MB")
 
 
 if __name__ == "__main__":

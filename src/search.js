@@ -11,7 +11,7 @@ let _dbp = null;
 function getDb() {
   if (!_dbp) {
     _dbp = createDbWorker(
-      [{ from: "inline", config: { serverMode: "full", url: base() + "/search.db", requestChunkSize: 4096 } }],
+      [{ from: "inline", config: { serverMode: "full", url: base() + "/search.sqlite3", requestChunkSize: 1024 } }],
       base() + "/assets/sqlite.worker.js",
       base() + "/assets/sql-wasm.wasm",
     ).then((w) => { _worker = w; return w.db; });
