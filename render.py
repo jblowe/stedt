@@ -1299,15 +1299,15 @@ def search_page(q=""):
 # the lone live etymon whose chapter doesn't resolve. Used for thesaurus placement + counts.
 ECAT = "coalesce(nullif(e.chapter,''),e.semkey)"
 
-# Lazy windowed list for a thesaurus page's "Attested forms here". On first expand it queries
-# the search WASM DB (window.stedtFormsByCategory, set by /assets/stedt-search.js) for every
-# reflex under this node's semkey(s), then renders in 200-row windows with an in-memory filter
-# and infinite-scroll — so a 13k-form category stays a light DOM. No Python interpolation here
+# Windowed list for a thesaurus page's "Attestations". On page load it queries the search WASM
+# DB (window.stedtFormsByCategory, set by /assets/stedt-search.js) for every reflex filed at
+# this node's semkey(s), then renders in 200-row windows with an in-memory filter and
+# infinite-scroll — so a 13k-form category stays a light DOM. No Python interpolation here
 # (keys ride in via data-semkeys), so it's a plain constant: literal { } need no escaping.
 _CATFORMS_JS = """
 <script>
 (function(){
-  var wrap=document.querySelector('details.catwrap'); if(!wrap) return;
+  var wrap=document.querySelector('.catwrap'); if(!wrap) return;
   var B=window.STEDT_BASE||'';
   var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){
     return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
@@ -1360,13 +1360,13 @@ _CATFORMS_JS = """
     };
     wait(40);
   }
-  wrap.addEventListener('toggle',function(){if(wrap.open) load();});
   moreBtn.addEventListener('click',renderMore);
   var tmr; input.addEventListener('input',function(){if(!loaded)return;clearTimeout(tmr);tmr=setTimeout(apply,90);});
   if('IntersectionObserver' in window){
     var io=new IntersectionObserver(function(es){if(es[0].isIntersecting&&!moreWrap.hidden)renderMore();});
     io.observe(moreWrap);
   }
+  load();   // attestations are shown by default (no expand) — fetch on page load
 })();
 </script>"""
 
@@ -1415,16 +1415,17 @@ def thesaurus(semkey=None):
                 disp, depth = sk.split('.')[0], 0
             else:
                 disp, depth = sk, sk.count('.')
-            # count the *displayed* node by effective category; the integer root (disp='1')
-            # rolls up its whole subtree (incl. its N.0 overview, whose ecat is '1.0').
-            cnt = c.execute(f"""SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'
-                AND ({ECAT}=? OR {ECAT} LIKE ?)""", (disp, disp + '.%')).fetchone()[0]
-            # attestations rolled up the same way: this node's semkey + everything beneath it.
-            pre = disp + '.'
-            lcnt = sum(v for k, v in scounts.items() if k == disp or k.startswith(pre))
+            # both counts are exact (this node only, NOT the subtree): an integer root N also
+            # owns its N.0 overview key. Reconstructions and reflexes are mostly filed at leaves,
+            # so upper nodes read small/zero — that's intended (each item counted once, at home).
+            own_n = [disp, disp + '.0'] if '.' not in disp else [disp]
+            ph = ','.join('?' * len(own_n))
+            cnt = c.execute(f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' "
+                            f"AND {ECAT} IN ({ph})", own_n).fetchone()[0]
+            lcnt = sum(scounts.get(k, 0) for k in own_n)
             tree.append((disp, depth, n['chaptertitle'], cnt, lcnt))
         tree.sort(key=lambda r: natkey(r[0]))
-        body.append('<p class="cap">Each count is <b>reconstructions / attestations</b>.</p>')
+        body.append('<p class="cap">Each count is <b>reconstructions / attestations</b> filed at that node.</p>')
         body.append('<ul class="tree">')
         for disp, depth, title, cnt, lcnt in tree:
             ti = (f'<span class="ti" style="font-weight:600">{esc(title)}</span>' if depth == 0
@@ -1471,16 +1472,14 @@ def thesaurus(semkey=None):
         if nforms:
             keys_json = esc(json.dumps(own, separators=(',', ':')))
             body.append(
-                '<div class="ety-list">'
-                '<h3 style="margin-top:30px">Attestations</h3>'
-                f'<details class="seg catwrap" data-semkeys="{keys_json}">'
-                f'<summary>Show attestations<span class="c">{nforms:,}</span></summary>'
+                f'<div class="ety-list catwrap" data-semkeys="{keys_json}">'
+                f'<h3 style="margin-top:30px">Attestations <span class="ct">{nforms:,}</span></h3>'
                 '<div class="rbar"><input class="catfilter" type="search" '
                 'placeholder="Filter by form, gloss, or language…" autocomplete="off">'
                 '<span class="rcount catcount"></span></div>'
                 '<div class="catlist"></div>'
                 '<div class="rmore catmore" hidden><button type="button" class="catmore-btn">Show more</button></div>'
-                '</details></div>'
+                '</div>'
                 + _CATFORMS_JS)
     c.close()
     body.append('</div>')
