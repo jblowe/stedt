@@ -57,3 +57,9 @@ language's data is therefore **one new folder that collides with nothing** — t
 `stedt validate` checks referential integrity (TSV headers, unique/known keys, every
 `analysis`/note/link target exists). It runs on every PR. ERRORs block a merge; WARNINGs (legacy
 dangling links inherited from the original dump) don't.
+
+A new etymon takes the next free `tag` (the id space is sparse — any unused integer works).
+Because `tag` is a sequential key, two PRs adding etyma in parallel can independently pick the
+same number, so `main` requires a PR to be **up to date before merging**: the second PR then
+re-runs `stedt validate` against the merged state, where a duplicate `tag` is an ERROR — bump it
+and re-push.
