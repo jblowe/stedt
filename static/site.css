@@ -146,7 +146,6 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx .form{font-size:17px;}
 .rfx .form .br{color:var(--mut);}
 .rfx .src{font-size:13px;color:var(--mut);}
-.rfx .loc{color:var(--mut);font-variant-numeric:tabular-nums;cursor:help;border-bottom:1px dotted var(--rule);}
 .rfx .g{color:var(--soft);font-size:13.5px;font-style:italic;}
 .rfx a{border-bottom:none;}
 .rfx a.lang{color:var(--soft);}
