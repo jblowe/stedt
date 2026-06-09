@@ -2,24 +2,146 @@
 """Build search.sqlite3 — a lean, fully-indexed SQLite for in-browser (WASM) search.
 
 Derived from stedt.sqlite. Holds only what the live search queries touch — etyma, lexicon,
-languagenames, languagegroups, lx_et_hash — plus the FTS5 index over reflex form/gloss/language
-(`unicode61 remove_diacritics 2`, byte-identical to the server's `lexicon_fts`). Small page_size
-+ VACUUM so sql.js-httpvfs range requests fetch little; indexes so every query is index-backed
-(the only intentional scan is the ~5K-row etyma table). The full content stays in the HTML pages.
+languagenames, languagegroups, lx_et_hash, srcbib, lxnote, chapters — plus the FTS5 index over
+reflex form/gloss/language (`unicode61 remove_diacritics 2`, byte-identical to the server's
+`lexicon_fts`). Small page_size + VACUUM so sql.js-httpvfs range requests fetch little; indexes so
+every query is index-backed (the only intentional scan is the ~5K-row etyma table). The full
+content stays in the HTML pages.
+
+The transferred tables are declared ONCE in TABLES below — the single contract of what the search
+DB ships. The CREATE and INSERT are generated from it (so the two can't drift), the build verifies
+the result against it, and the in-browser SQL (web/src/search.js) is checked against it so a column
+a row builder needs can't be silently dropped (the failure mode this manifest exists to prevent).
 """
 
 import os
+import re
 import sqlite3
 
-from stedt.paths import DB as SRC, SEARCH_DB as OUT
+from stedt.paths import DB as SRC, SEARCH_DB as OUT, WEB
 
 # NB: .sqlite3 (not .db) — GitHub Pages gzip-compresses .db, which corrupts the byte-range
 # math sql.js-httpvfs relies on; it serves .sqlite3 uncompressed. (community #162857)
+
+# proto-excluded reflex count, shown by etymonRow as "· N reflexes"
+_NREFLEX = (
+    "(SELECT count(DISTINCT h.rn) FROM src.lx_et_hash h "
+    "JOIN src.lexicon l2 ON l2.rn=h.rn JOIN src.languagenames n2 ON n2.lgid=l2.lgid "
+    "WHERE h.tag=e.tag AND h.tag>0 AND n2.language NOT LIKE '*%')"
+)
+
+# --- The search DB's column contract -----------------------------------------------------------
+# One entry per transferred table; each column is (name, create_decl, select_expr) and notes the
+# client field it feeds (search.js SELECT alias -> rows.js consumer). The build GENERATES the CREATE
+# TABLE and INSERT...SELECT from this, VERIFIES the result matches, and CHECKS that search.js reads
+# only columns declared here. To give a row builder a new field: add the column here (and select it
+# in search.js / read it in rows.js) — otherwise the contract check fails the build. select_expr is
+# the expression filling the column from `src` (default: the bare name); src=None ⇒ filled in Python
+# (lxnote); a table may carry a `where` filter.
+TABLES = [
+    {"name": "etyma", "src": "src.etyma e", "cols": [
+        ("tag",        "INTEGER PRIMARY KEY", "e.tag"),       # etymonRow #tag; etyma[].tag (chips / sylLink)
+        ("protoform",  "",                    "e.protoform"), # etymonRow / chip / popover *protoform (etyma 'pf')
+        ("protogloss", "",                    "e.protogloss"),# etymonRow gloss; syllable popover 'gloss' (etyma 'pg')
+        ("semkey",     "",                    "e.semkey"),    # etyma semantic filing
+        ("status",     "",                    "e.status"),    # DELETE filter (query WHERE)
+        ("grpid",      "",                    "e.grpid"),     # join -> languagegroups (plg)
+        ("nreflex",    "",                    _NREFLEX),      # etymonRow "· N reflexes"
+        ("exemplary",  "",                    "e.exemplary"), # etymonRow .exm badge
+    ]},
+    {"name": "languagegroups", "src": "src.languagegroups", "cols": [
+        ("grpid", "INTEGER PRIMARY KEY", "grpid"),
+        ("plg",   "",                    "plg"),    # etymonRow PLG label
+        ("grpno", "",                    "grpno"),  # reflex row Stammbaum sort key
+        ("grp",   "",                    "grp"),    # reflex row subgroup label
+    ]},
+    {"name": "languagenames", "src": "src.languagenames", "cols": [
+        ("lgid",     "INTEGER PRIMARY KEY", "lgid"),
+        ("language", "",                    "language"),  # reflexRow language name + FTS column
+        ("srcabbr",  "",                    "srcabbr"),   # reflexRow source -> srcbib.citation
+        ("grpid",    "",                    "grpid"),     # join -> languagegroups
+    ]},
+    {"name": "lexicon", "src": "src.lexicon", "cols": [
+        ("rn",     "INTEGER PRIMARY KEY", "rn"),     # reflexRow #rn attestation link + FTS rowid
+        ("reflex", "",                    "reflex"), # reflexRow form + FTS column
+        ("gloss",  "",                    "gloss"),  # reflexRow gloss + FTS column
+        ("gfn",    "",                    "gfn"),    # reflexRow POS
+        ("lgid",   "",                    "lgid"),   # join -> languagenames
+        ("semkey", "",                    "semkey"), # reflexRow category link -> chapters
+        ("srcid",  "",                    "srcid"),  # reflexRow source locus ": page/entry"
+    ]},
+    {"name": "lx_et_hash", "src": "src.lx_et_hash", "where": "tag > 0", "cols": [
+        ("rn",  "", "rn"),   # reflex -> etyma enrichment join (hot path; indexed below)
+        ("tag", "", "tag"),  # etymon a syllable/reflex belongs to
+        ("ind", "", "ind"),  # syllable position -> per-syllable links (r.syn)
+    ]},
+    {"name": "srcbib", "src": "src.srcbib", "where": "coalesce(srcabbr,'')!=''", "cols": [
+        ("srcabbr",  "TEXT PRIMARY KEY", "srcabbr"),
+        ("citation", "",                 "citation"),  # reflexRow source label
+    ]},
+    {"name": "chapters", "src": "src.chapters", "where": "coalesce(semkey,'')!=''", "cols": [
+        ("semkey",       "TEXT PRIMARY KEY", "semkey"),       # ~829 rows
+        ("chaptertitle", "",                 "chaptertitle"), # reflexRow category label (r.cat)
+    ]},
+    # lxnote is rendered in Python (render_note), not a column copy — declared for the schema +
+    # verification, populated in main().
+    {"name": "lxnote", "src": None, "cols": [
+        ("rn",   "INTEGER PRIMARY KEY", None),
+        ("note", "",                    None),  # reflexRow note popover (rendered HTML)
+    ]},
+]
+
+# the aliases search.js binds to the search-DB tables (stable; from the query FROM/JOIN clauses)
+_CLIENT_ALIASES = {"l": "lexicon", "ln": "languagenames", "g": "languagegroups", "sb": "srcbib",
+                   "nt": "lxnote", "h": "lx_et_hash", "e": "etyma", "c": "chapters"}
+
+
+def _create_sql(t):
+    cols = ", ".join(f"{n} {decl}".strip() for n, decl, _ in t["cols"])
+    return f"CREATE TABLE {t['name']} ({cols});"
+
+
+def _insert_sql(t):
+    exprs = ", ".join(e for _, _, e in t["cols"])
+    where = f" WHERE {t['where']}" if t.get("where") else ""
+    return f"INSERT INTO {t['name']} SELECT {exprs} FROM {t['src']}{where};"
+
+
+def _verify_schema(db):
+    """The built DB must match the manifest column-for-column (catches any drift between the manifest
+    and the generated/edited SQL)."""
+    for t in TABLES:
+        actual = [r[1] for r in db.execute(f"PRAGMA table_info({t['name']})")]
+        expected = [n for n, _, _ in t["cols"]]
+        if actual != expected:
+            raise SystemExit(f"search-db: {t['name']} built columns {actual} != manifest {expected}")
+
+
+def verify_client_contract():
+    """Fail the build if the in-browser SQL (web/src/search.js) reads a search-DB column the manifest
+    doesn't ship — turning a would-be broken-search-at-runtime into a loud build error. Scans only the
+    SQL template literals (backtick strings), so JS code isn't mistaken for column refs."""
+    js = os.path.join(WEB, "src", "search.js")
+    if not os.path.isfile(js):
+        print("  (client-contract check skipped: web/src/search.js not found)")
+        return
+    with open(js, encoding="utf-8") as fh:
+        sql = " ".join(re.findall(r"`([^`]*)`", fh.read()))
+    cols = {t["name"]: {n for n, _, _ in t["cols"]} for t in TABLES}
+    aliases = sorted(_CLIENT_ALIASES, key=len, reverse=True)   # ln before l, so "ln.x" binds to ln
+    pat = re.compile(r"\b(" + "|".join(aliases) + r")\.(\w+)\b")
+    missing = {
+        f"search.js reads {_CLIENT_ALIASES[a]}.{c}, not shipped by the search-DB manifest"
+        for a, c in pat.findall(sql) if c not in cols[_CLIENT_ALIASES[a]]
+    }
+    if missing:
+        raise SystemExit("search-db contract violation:\n  " + "\n  ".join(sorted(missing)))
 
 
 def main():
     if not os.path.exists(SRC):
         raise SystemExit(f"missing {SRC} — run `stedt build` first")
+    verify_client_contract()   # fail fast, before building, if the client wants a column we don't ship
     if os.path.exists(OUT):
         os.remove(OUT)
 
@@ -27,40 +149,19 @@ def main():
     db.executescript("PRAGMA page_size=1024; PRAGMA journal_mode=DELETE;")
     db.execute("ATTACH DATABASE ? AS src", (SRC,))
 
-    # Lean copies — only the columns the search queries read. Beyond the bare match columns we
-    # carry what a result ROW shows: each reflex's source (per-lgid srcabbr + srcbib.citation — the
-    # WORK it's attested in) and its locus within that work (lexicon.srcid, the page/entry, ~0.8 MB gz
-    # over 540K rows), its subgroup (languagenames.grpid -> languagegroups.grpno/grp), its lexical note
-    # (lxnote, built below), and the per-syllable tag position (lx_et_hash.ind) so tagged syllables can
-    # link to their etymon — so a search/thesaurus row reads "Citation: locus" exactly like the
-    # language and etymon pages, instead of dropping the locus only on these two client-rendered views.
+    # tables + data generated from the manifest (lxnote's rows are filled in Python below)
+    for t in TABLES:
+        db.execute(_create_sql(t))
+    for t in TABLES:
+        if t["src"]:
+            db.execute(_insert_sql(t))
+
     db.executescript("""
-        -- key columns as INTEGER PRIMARY KEY (the rowid) so no separate index is needed
-        CREATE TABLE etyma          (tag INTEGER PRIMARY KEY, protoform, protogloss, semkey, status, grpid, nreflex, exemplary);
-        CREATE TABLE languagegroups (grpid INTEGER PRIMARY KEY, plg, grpno, grp);
-        CREATE TABLE languagenames  (lgid INTEGER PRIMARY KEY, language, srcabbr, grpid);
-        CREATE TABLE lexicon        (rn INTEGER PRIMARY KEY, reflex, gloss, gfn, lgid, semkey, srcid);
-        CREATE TABLE lx_et_hash     (rn INTEGER, tag INTEGER, ind INTEGER);   -- ind = syllable position
-        CREATE TABLE srcbib         (srcabbr TEXT PRIMARY KEY, citation);
-        CREATE TABLE lxnote         (rn INTEGER PRIMARY KEY, note);
-        CREATE TABLE chapters       (semkey TEXT PRIMARY KEY, chaptertitle);   -- ~829 rows; semkey -> human label
-        INSERT INTO etyma SELECT e.tag, e.protoform, e.protogloss, e.semkey, e.status, e.grpid,
-            (SELECT count(DISTINCT h.rn) FROM src.lx_et_hash h
-               JOIN src.lexicon l2 ON l2.rn=h.rn JOIN src.languagenames n2 ON n2.lgid=l2.lgid
-               WHERE h.tag=e.tag AND h.tag>0 AND n2.language NOT LIKE '*%'),   -- proto-excluded reflex count
-            e.exemplary
-          FROM src.etyma e;
-        INSERT INTO languagegroups SELECT grpid, plg, grpno, grp FROM src.languagegroups;
-        INSERT INTO languagenames  SELECT lgid, language, srcabbr, grpid FROM src.languagenames;
-        INSERT INTO lexicon        SELECT rn, reflex, gloss, gfn, lgid, semkey, srcid FROM src.lexicon;
-        INSERT INTO lx_et_hash     SELECT rn, tag, ind FROM src.lx_et_hash WHERE tag > 0;
-        INSERT INTO srcbib         SELECT srcabbr, citation FROM src.srcbib WHERE coalesce(srcabbr,'')!='';
-        INSERT INTO chapters       SELECT semkey, chaptertitle FROM src.chapters WHERE coalesce(semkey,'')!='';
         CREATE INDEX ix_hash_rn ON lx_et_hash(rn);   -- rn non-unique here (multi-tag reflexes)
         -- ^ REQUIRED, not optional (~1 MB gz): the reflex->etyma enrichment LEFT JOIN (h.rn=l.rn)
         -- is the search's hot path, and SQLite does NOT build an automatic_index for it — without
         -- this it full-scans lx_et_hash per driving row (heavy LIMIT-10000 query: 0.01s -> 34s+).
-        -- NB: no index on lexicon.semkey. The "attested forms" browse scans it once in-memory
+        -- NB: no index on lexicon.semkey. The "Reflexes" browse scans it once in-memory
         -- (WASM, ~540K rows = a few ms) on expand; an index would add ~2.4 MB to the gz download
         -- for no perceptible gain. Keep the transfer lean.
     """)
@@ -98,6 +199,7 @@ def main():
           FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid;
     """)
 
+    _verify_schema(db)
     db.commit()
     db.execute("VACUUM")
     db.close()
