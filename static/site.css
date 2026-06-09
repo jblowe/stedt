@@ -112,8 +112,13 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .sg h4 .c{font-family:"Fraunces",serif;font-size:12px;color:var(--mut);letter-spacing:0;margin-left:auto;
   font-variant-numeric:tabular-nums;}
 .rfx{display:grid;grid-template-columns:190px minmax(0,1fr) 190px;gap:2px 18px;padding:4px 0;
-  border-bottom:1px solid var(--hair);align-items:baseline;line-height:1.35;}
+  border-bottom:1px solid var(--hair);align-items:baseline;line-height:1.35;position:relative;}
 .rfx:hover{background:var(--paper2);}
+/* hover permalink: a # in the left gutter linking to this row's own anchor (#rn… on a language page,
+   #r… on an etymon page), so a reader can grab a direct URL to one entry. Absolutely placed so it
+   never shifts the row; shown only on row hover/focus. Colour + no-underline come from .rfx a rules. */
+.rfx .rnlink{position:absolute;left:-1.35em;top:.15em;opacity:0;color:var(--mut);font-size:13px;line-height:1;}
+.rfx:hover .rnlink,.rfx:focus-within .rnlink{opacity:1;}
 .rfx:last-child{border-bottom:none}
 .rfx:target,.rfx.rn-target{background:var(--paper2);box-shadow:inset 3px 0 0 var(--accent);padding-left:8px;}
 /* etymon page only: subgroup-grouped reflexes + intermediate-recon rows.

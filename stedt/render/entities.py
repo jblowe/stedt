@@ -154,7 +154,7 @@ def etymon(tag):
             anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ""
             note = "".join(f'<div class="rfxnote">{render_note(x)}</div>' for x in lnotes.get(r["rn"], []))
             rfx.append(
-                f'<div class="rfx" id="r{r["rn"]}">{lang}'
+                f'<div class="rfx" id="r{r["rn"]}"><a class="rnlink" href="#r{r["rn"]}" aria-label="Permalink to this entry">#</a>{lang}'
                 f'<span class="form"><a href="/language/{canon_lgid(r["lgid"])}#rn{r["rn"]}">{form}</a> {g}{pos}{anl}</span>{src}{note}</div>'
             )
         code = "" if k[0] in (None, "zz") else f'<span class="grpno">{esc(k[0])}</span>'
@@ -455,7 +455,7 @@ def language(lgid):
             else:
                 gl = f'<span class="g">{esc(r["gloss"])}</span>'
             rfx.append(
-                f'<div class="rfx" id="rn{r["rn"]}">{catcell}'
+                f'<div class="rfx" id="rn{r["rn"]}"><a class="rnlink" href="#rn{r["rn"]}" aria-label="Permalink to this entry">#</a>{catcell}'
                 f'<span class="form">{form} {gl}{pos}{via}</span>'
                 f"{src}</div>"
             )
