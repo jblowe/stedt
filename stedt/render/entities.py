@@ -156,6 +156,8 @@ def etymon(tag):
             elif r["gloss"] and r["gloss"] != e["protogloss"]:
                 g = f'<span class="g">{esc(r["gloss"])}</span>'
             else:
+                # deliberately suppress a reflex gloss identical to the etymon's protogloss (this is an
+                # etymon page — repeating it on every row is noise); search/language pages always show it.
                 g = ""
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r["gfn"] else ""
             lang = f'<a class="lang" href="{language_href(r["lgid"])}">{esc(r["language"])}</a>'
@@ -527,9 +529,9 @@ def language(lgid):
                     if t in plabels and t not in seen:
                         seen.add(t)
                         vias.append(f'<a class="via" href="{etymon_href(t)}">*{esc(alt(plabels[t][0]))}</a>')
-            # the second etym line only exists for un-segmented etyma (the trailing chips); when the
-            # syllables carry the links inline, or there are no etyma, the row has no second line.
-            via = f'<span class="anl">{" ".join(vias)}</span>' if vias else ""
+            # un-segmented etyma trail the gloss as inline chips (same geometry as the search rows);
+            # syllable-linked or etymon-less rows have none.
+            via = f'<span class="vias">{" ".join(vias)}</span>' if vias else ""
             # each row shows the source it is attested in (the work) + the locus within it
             loc = f': {esc(r["srcid"])}' if r["srcid"] else ""
             if r["srcabbr"]:
