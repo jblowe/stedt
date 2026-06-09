@@ -83,7 +83,7 @@ export const reflexRow = r => {
     mid = `<span class="lat">${lf}</span> ${pos}${gl}`;
   } else {                              // plain form; trailing "via" chips keep their etymon links
     const form = r.form != null ? r.form : r.reflex;
-    const links = (r.etyma && r.etyma.length) ? ` <span class="vias">${r.etyma.map(x => `<a class="via" href="${etymonHref(x.tag)}">› *${altstar(esc(x.pf))}</a>`).join(' ')}</span>` : '';
+    const links = (r.etyma && r.etyma.length) ? ` <span class="vias">${r.etyma.map(x => `<a class="via" href="${etymonHref(x.tag)}">*${altstar(esc(x.pf))}</a>`).join(' ')}</span>` : '';
     mid = `<span class="lat">${esc(form)}</span> ${pos}${gl}${links}`;
   }
   const go = `<a class="rx-go" href="${reflexHref(r.lgid, r.rn)}" aria-label="${esc(r.language)}: go to this entry"></a>`;

@@ -446,7 +446,7 @@ def language(lgid):
             for t in rn_tags.get(r["rn"], []):
                 if t in plabels and t not in seen:
                     seen.add(t)
-                    vias.append(f'<a class="via" href="{etymon_href(t)}">› *{esc(alt(plabels[t]))}</a>')
+                    vias.append(f'<a class="via" href="{etymon_href(t)}">*{esc(alt(plabels[t]))}</a>')
             via = f'<span class="anl">{" ".join(vias)}</span>' if vias else ""
             # each row shows the source it is attested in (the work) + the locus within it
             loc = f': {esc(r["srcid"])}' if r["srcid"] else ""
