@@ -539,7 +539,7 @@ def source(srcabbr):
         conn.close()
         return page("Not found", "<p>No such source.</p>")
     notes = conn.execute(
-        """SELECT xmlnote FROM notes WHERE id=? AND spec='S'
+        """SELECT xmlnote FROM notes WHERE id=? AND spec='S' AND notetype!='I'
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
         (srcabbr,),
     ).fetchall()

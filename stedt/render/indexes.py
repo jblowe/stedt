@@ -242,7 +242,7 @@ def thesaurus(semkey=None):
         title = conn.execute("SELECT chaptertitle FROM chapters WHERE semkey=?", (semkey + ".0",)).fetchone()
     title = title[0] if title else semkey
     cnotes = conn.execute(
-        f"""SELECT xmlnote FROM notes WHERE id IN ({ownph}) AND spec='C'
+        f"""SELECT xmlnote FROM notes WHERE id IN ({ownph}) AND spec='C' AND notetype!='I'
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
         own,
     ).fetchall()
