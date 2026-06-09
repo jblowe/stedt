@@ -84,21 +84,21 @@ def etymon(tag):
     # also belongs to (i.e. it's a compound) as links.
     rns = [r["rn"] for r in rows]
     analysis = {}
+    rn_syn, rn_syn_bad = {}, set()
     for i in range(0, len(rns), 900):
         chunk = rns[i : i + 900]
         qm = ",".join("?" * len(chunk))
-        for r in conn.execute(f"SELECT rn, tag FROM lx_et_hash WHERE rn IN ({qm}) ORDER BY rn, ind", chunk):
+        for r in conn.execute(f"SELECT rn, tag, ind FROM lx_et_hash WHERE rn IN ({qm}) ORDER BY rn, ind", chunk):
             analysis.setdefault(r["rn"], []).append(r["tag"])
-    # label only sibling etyma that actually have a (non-DELETE) page, so "also contains" never 404s
-    morph_tags = list({t for ts in analysis.values() for t in ts if t and t != tag})
-    morph_labels = {}
-    for i in range(0, len(morph_tags), 900):
-        chunk = morph_tags[i : i + 900]
-        qm = ",".join("?" * len(chunk))
-        for r in conn.execute(
-            f"SELECT tag, protoform FROM etyma WHERE tag IN ({qm}) " f"AND coalesce(upper(status),'')!='DELETE'", chunk
-        ):
-            morph_labels[r["tag"]] = r["protoform"]
+            if r["tag"] and r["tag"] > 0:           # syllable position -> etymon, for per-syllable links
+                byind = rn_syn.setdefault(r["rn"], {})
+                if r["ind"] in byind and byind[r["ind"]] != r["tag"]:
+                    rn_syn_bad.add(r["rn"])
+                else:
+                    byind[r["ind"]] = r["tag"]
+    # protoform + gloss for every etymon tagged on these reflexes (incl. this one), gated to non-DELETE
+    # pages: powers the per-syllable popovers (syl_form) and the "also contains" sibling links.
+    proto = proto_labels(conn, {t for ts in analysis.values() for t in ts if t and t > 0})
     # per-reflex (L) notes — the largest note class; legacy shows these as reflex footnotes.
     lnotes = {}
     for i in range(0, len(rns), 900):
@@ -139,7 +139,6 @@ def etymon(tag):
         items = sorted(groups[k], key=lambda r: ((r["language"] or ""), (r["form"] or "")))
         rfx = []
         for r in items:
-            form = esc(r["form"]).replace("◦", '<span class="br">◦</span>')
             if lnotes.get(r["rn"]):
                 # a lexical note rides on the gloss behind a circled-i (like the language/search/thesaurus
                 # views); show the gloss even when it matches the protogloss so the icon has its anchor
@@ -158,12 +157,23 @@ def etymon(tag):
                 src = f'<a class="src" href="{source_href(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
             else:
                 src = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
-            seen, links = set(), []
-            for mt in analysis.get(r["rn"], []):
-                if mt and mt > 0 and mt != tag and mt not in seen and mt in morph_labels:
-                    seen.add(mt)
-                    links.append(f'<a href="{etymon_href(mt)}">*{esc(alt(morph_labels[mt]))}</a>')
-            anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ""
+            # for a polymorphemic reflex (this etymon + at least one sibling), link each tagged syllable
+            # to its etymon (popover preview) and mark the syllable that IS this etymon; otherwise leave
+            # the form plain (marking a monomorphemic reflex's whole form would just be noise). Falls
+            # back to the plain form + an "also contains" list of siblings when syllabification doesn't fit.
+            syn = None if r["rn"] in rn_syn_bad else rn_syn.get(r["rn"])
+            has_sibling = bool(syn) and any(t != tag for t in syn.values())
+            linked = syl_form(r["form"], syn, proto, self_tag=tag) if has_sibling else None
+            if linked is not None:
+                form, anl = linked, ""
+            else:
+                form = esc(r["form"]).replace("◦", '<span class="br">◦</span>')
+                seen, links = set(), []
+                for mt in analysis.get(r["rn"], []):
+                    if mt and mt > 0 and mt != tag and mt not in seen and mt in proto:
+                        seen.add(mt)
+                        links.append(f'<a href="{etymon_href(mt)}">*{esc(alt(proto[mt][0]))}</a>')
+                anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ""
             # whole row → this form's attestation (#rn on its language page), like the search/thesaurus
             # rows; the language name / "also contains" / source / note-popover sit above the overlay
             go = f'<a class="rx-go" href="{reflex_href(r["lgid"], r["rn"])}" aria-label="{esc(r["language"])}: go to this entry"></a>'
@@ -368,10 +378,12 @@ def syl_pop(info):
     return f'<span class="sylpop">*{esc(alt(pfx))}{g}</span>'
 
 
-def syl_form(reflex, syn, pf=None):
+def syl_form(reflex, syn, pf=None, self_tag=None):
     """Reflex surface form as HTML with each tagged syllable linked to its own etymon, each carrying a
-    hover/focus popover previewing that etymon (*protoform 'gloss'). Returns None to fall back to the
-    plain form + trailing chips. Faithful twin of web/src/rows.js sylLink. pf: tag -> (protoform, protogloss)."""
+    hover/focus popover previewing that etymon (*protoform 'gloss'). On an etymon page, pass self_tag =
+    that etymon: the syllable that IS this etymon is marked but not linked (you're already here).
+    Returns None to fall back to the plain form + trailing chips. Faithful twin of web/src/rows.js
+    sylLink. pf: tag -> (protoform, protogloss)."""
     if not syn:
         return None
     syls, dl, prefix = syllabify(reflex or "")
@@ -381,12 +393,14 @@ def syl_form(reflex, syn, pf=None):
     out = esc(prefix)
     for i, syl in enumerate(syls):
         tag = syn.get(i)
-        if tag is not None:
-            base = esc(syl)
+        base = esc(syl)
+        if tag is not None and tag == self_tag:
+            out += f'<span class="syl-self">{base}</span>'   # this etymon's own reflex syllable
+        elif tag is not None:
             info = pf.get(tag)
             out += f'<a class="syl" href="{etymon_href(tag)}">{base}{syl_pop(info) if info else ""}</a>'
         else:
-            out += esc(syl)
+            out += base
         d = dl[i] if i < len(dl) else ""
         out += esc(d).replace("◦", '<span class="br">◦</span>')
     return out

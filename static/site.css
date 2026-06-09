@@ -217,6 +217,9 @@ a.syl .sylpop{display:none;position:absolute;left:0;top:1.5em;z-index:6;width:ma
   white-space:normal;text-align:left;overflow-wrap:anywhere;letter-spacing:0;}
 a.syl:hover .sylpop,a.syl:focus .sylpop,a.syl:focus-within .sylpop{display:block;}
 a.syl:hover,a.syl:focus{z-index:5;}
+/* on an etymon page, the reflex syllable that IS this etymon: grouped in the morpheme colour but a
+   solid underline (not the dotted link), since you're already on its page. */
+.syl-self{color:var(--morph);border-bottom:1px solid var(--morph);}
 .rx-hit .br{color:var(--mut);}
 .rx-hit .vias{color:var(--mut);font-size:12.5px;margin-left:.45em;}
 .rx-hit .via{font-size:12.5px;color:var(--mut);border-bottom:none;}
