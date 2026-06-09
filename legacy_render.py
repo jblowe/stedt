@@ -413,7 +413,8 @@ def legacy_etymon(tag):
     table_html = ""
     if recs:
         ths = "".join(f'<th id="{f}">{esc(f.split(".")[-1])}</th>' for f in ETYMON_FIELDS)
-        table_html = (f'<table id="lexicon1" tag="{tag}" class="hangindent">\n'
+        table_html = (f'{len(recs)} records <span class="r{tag}">tagged by <b>stedt</b></span> under this etymon.\n'
+                      f'<table id="lexicon1" tag="{tag}" class="hangindent">\n'
                       f'<thead><tr>{ths}</tr></thead>\n<tbody>\n{rows_html}</tbody></table>')
 
     comp_html = ""
@@ -515,8 +516,11 @@ def legacy_source(srcabbr):
     cite = (f'<p align="center" style="width:50%">{esc(_period(author))} {esc(_period(year))} '
             f'<cite>{esc(title)}</cite>{"" if title.endswith((".", "?")) else "."}'
             f'{(" " + esc(_period(imprint))) if imprint else ""}\nAccessed via STEDT database '
-            f'<tt>&lt;https://stedtdb.johnblowe.com/search/&gt;</tt> on {_BUILD_DATE}.</p>')
+            f'<tt>&lt;https://larc-iu.github.io/stedt/&gt;</tt> on {_BUILD_DATE}.</p>')
     notes_html = "".join(f'<p>{_lnote(n["xmlnote"])}</p>' for n in notes)
+    # guest-available raw-data export (rootcanal's /sources/ddata); a static TSV written by build_legacy
+    dl = ("" if srcabbr == "SIL-Nuosu" else
+          f'<p><a href="{BASE}/sources/ddata/{esc(srcabbr)}.tsv">Download data for {esc(srcabbr)}</a></p>')
 
     rows = ""
     for r in lgs:
@@ -534,6 +538,7 @@ def legacy_source(srcabbr):
     body = f"""<p>Cite as follows:</p>
 {cite}
 {notes_html}
+{dl}
 <p>Languages in this source:</p>
 <table class="hangindent">
 <tr><th>ISO 639-3</th><th>Language Name</th><th title="Language name from source OR abbreviated name" style="cursor:help;">Short Lg Name</th><th>Group</th><th>num. of records</th><th title="from Namkung, ed. 1996 (STEDT Monograph #3)" style="cursor:help;">Phon. Inventory</th></tr>
@@ -704,7 +709,9 @@ TableKit.Rows.stripe('etyma_resulttable');
 
 
 def _semkey_tuple(sk):
-    return tuple(int(p) if str(p).isdigit() else 0 for p in str(sk).split("."))
+    # numeric parts sort naturally; non-numeric (e.g. the 'x.x' admin chapter) sort to the very end,
+    # matching rootcanal's v/f/c ordering which keeps special chapters at the bottom.
+    return tuple(int(p) if str(p).isdigit() else 10 ** 9 for p in str(sk).split("."))
 
 
 def legacy_chapter_browser():
@@ -741,8 +748,8 @@ def legacy_chapter_browser():
 Volumes:
 <ol>{vol_html}</ol>
 <p>{len(chs)} nodes</p>
-<table id="ch" class="hangindent" style="table-layout:fixed">
-<thead><tr><th>semkey</th><th>Title</th><th>num. etyma</th><th>notes</th><th>flowchart?</th></tr></thead>
+<table id="ch" class="sortable resizable hangindent" width="100%" style="table-layout:fixed">
+<thead><tr><th>semkey</th><th>title</th><th>num. etyma</th><th>notes</th><th>flowchart?</th></tr></thead>
 <tbody>
 {trs}</tbody></table>"""
     return chrome("STEDT Chapter Browser", body)

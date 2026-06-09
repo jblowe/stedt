@@ -112,6 +112,27 @@ def main():
     for gid, lgid in (lg_pairs[:LIMIT] if LIMIT else lg_pairs):
         write(f"group/{gid}/{lgid}", (lambda gid=gid, lgid=lgid: L.legacy_group(gid, lgid)))
 
+    # static per-source raw-data TSVs (rootcanal's guest /sources/ddata export, linked from source pages)
+    import csv
+    ddir = os.path.join(LEGACY_OUT, "sources", "ddata")
+    os.makedirs(ddir, exist_ok=True)
+    c = L.render.con()
+    by_src = {}
+    for r in c.execute("""SELECT ln.srcabbr, l.rn, l.reflex, l.gloss, l.gfn, l.lgid, ln.language, l.srcid
+                          FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
+                          WHERE coalesce(ln.srcabbr,'')!='' AND ln.srcabbr!='SIL-Nuosu'"""):
+        by_src.setdefault(r[0], []).append(r[1:])
+    c.close()
+    if LIMIT:
+        by_src = dict(list(by_src.items())[:LIMIT])
+    for src, rws in by_src.items():
+        with open(os.path.join(ddir, f"{src}.tsv"), "w", encoding="utf-8", newline="") as fh:
+            w = csv.writer(fh, delimiter="\t")
+            w.writerow(["rn", "reflex", "gloss", "gfn", "srcabbr", "lgid", "language", "srcid"])
+            for rn, reflex, gloss, gfn, lgid, language, srcid in rws:
+                w.writerow([rn, reflex, gloss, gfn, src, lgid, language, srcid])
+    print(f"  + {len(by_src)} source data TSVs -> {ddir}")
+
     print(f"legacy: {n} pages, {fails} skipped -> {LEGACY_OUT} (base={LEGACY_BASE!r}, "
           f"ver={os.environ['STEDT_LEGACY_VER']}, {time.time() - t0:.0f}s)")
 

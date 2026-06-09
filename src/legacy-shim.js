@@ -108,8 +108,11 @@ const LEX_SELECT = `SELECT l.rn, l.analysis, '' AS user_an, '' AS other_an, l.re
   LEFT JOIN languagegroups g ON g.grpid=ln.grpid
   LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
   LEFT JOIN chapters ch ON ch.semkey=l.semkey`;
-const LEX_ORDER = ` ORDER BY g.grp0,g.grp1,g.grp2,g.grp3,g.grp4, ln.lgsort, l.reflex, ln.srcabbr, l.srcid LIMIT 10000`;
-const ETYMA_ORDER = ` ORDER BY e.chapter, e.sequence LIMIT 10000`;
+const LEX_ORDER = ` ORDER BY g.grp0,g.grp1,g.grp2,g.grp3,g.grp4, ln.lgsort, l.reflex, ln.srcabbr, l.srcid`;
+const ETYMA_ORDER = ` ORDER BY e.chapter, e.sequence`;
+// rootcanal's get_query returns just the first item (LIMIT 1) for a pane with no search criteria
+// (e.g. the etyma pane on a language-only search); a real search caps at 10000.
+const LIM = (hasWhere) => ` LIMIT ${hasWhere ? 10000 : 1}`;
 
 // --------------------------------------------------------------------------------- search handlers
 function searchEtyma(db, p) {
@@ -121,7 +124,7 @@ function searchEtyma(db, p) {
   if (f && hasLetter(f))                                                      // protoform = where_rlike (raw)
     { const c = clause(f, (t, b) => { b.push(t.replace(/^\*/, '')); return 'e.protoform REGEXP ?'; }, bind); if (c) where.push(c); }
   else if (f && isInt(f)) { where.push('e.tag=?'); bind.push(f); }
-  const sql = ETYMA_SELECT + (where.length ? ' WHERE ' + where.join(' AND ') : '') + ETYMA_ORDER;
+  const sql = ETYMA_SELECT + (where.length ? ' WHERE ' + where.join(' AND ') : '') + ETYMA_ORDER + LIM(where.length);
   return { table: 'etyma', fields: ETYMA_FIELDS, data: rows(db, sql, bind) };
 }
 
@@ -147,7 +150,7 @@ function searchLexicon(db, p) {
     else { where.push('ln.grpid IN (SELECT grpid FROM languagegroups WHERE grpno=? OR grpno LIKE ?)'); bind.push(lggrp, lggrp + '.%'); }
   }
   if (lgcode && isInt(lgcode)) { where.push('ln.lgcode=?'); bind.push(lgcode); }
-  const sql = LEX_SELECT + (where.length ? ' WHERE ' + where.join(' AND ') : ' WHERE 0') + LEX_ORDER;
+  const sql = LEX_SELECT + (where.length ? ' WHERE ' + where.join(' AND ') : '') + LEX_ORDER + LIM(where.length);
   return { table: 'lexicon', fields: LEX_FIELDS, data: rows(db, sql, bind) };
 }
 
