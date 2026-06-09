@@ -1,0 +1,50 @@
+
+    <div class="ety-head">
+      <div class="pagetitle">Reconstructions</div>
+      <div class="metabar"><span><b>{{ total }}</b> etyma</span><span>ordered by gloss</span></div>
+    </div>
+    <div class="rbar">
+      <input id="rfilter" type="search" placeholder="Filter by form, gloss, group, or tag…" autocomplete="off" autofocus>
+      <span class="rcount" id="rcount"></span>
+    </div>
+    <div id="recon-list"></div>
+    <p class="rnone">No reconstructions match your filter.</p>
+    <noscript><p class="cap">Enable JavaScript to browse and filter all reconstructions, or use
+      <a href="/search">search</a>. Each etymon also has its own page, linked from the
+      <a href="/thesaurus">thesaurus</a> and <a href="/languages">language</a> indexes.</p></noscript>
+    <script id="recon-data" type="application/json">{{ payload }}</script>
+    <script>{{ windowed_js }}{% raw %}
+    (function(){
+      var B=window.STEDT_BASE||'';
+      var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){
+        return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
+      var norm=function(s){return String(s==null?'':s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');};
+      var DATA=JSON.parse(document.getElementById('recon-data').textContent);
+      for(var i=0;i<DATA.length;i++){var r=DATA[i];r[5]=norm(r[1]+' '+r[2]+' '+r[3]+' #'+r[0]);}
+      var view=DATA;
+      var list=document.getElementById('recon-list'),
+          none=document.querySelector('.rnone'),
+          count=document.getElementById('rcount'),
+          input=document.getElementById('rfilter');
+      function row(r){var rc=r[4]?(' · '+r[4]+(r[4]==1?' reflex':' reflexes')):'';
+        return '<a class="ety-hit" href="'+B+'/etymon/'+r[0]+'">'+
+        '<span class="pf2 lat">'+esc(r[1])+'</span>'+
+        '<span class="pg2">'+esc(r[2])+'</span>'+
+        '<span class="tagn">'+esc(r[3])+' #'+esc(r[0])+rc+'</span></a>';}
+      function updateCount(shown){
+        var t=DATA.length, m=view.length;
+        var s=(m===t)?t.toLocaleString()+' etyma':m.toLocaleString()+(m===1?' match':' matches');
+        if(shown<m) s+=' · '+shown.toLocaleString()+' shown';
+        count.textContent=s;
+      }
+      var win=windowedList(list,{row:row,onRender:function(shown){
+        updateCount(shown); none.style.display=view.length?'none':'block';}});
+      function apply(){
+        var q=norm(input.value.trim());
+        view=q?DATA.filter(function(r){return r[5].indexOf(q)>=0;}):DATA;
+        win.reset(view);
+      }
+      var tmr; input.addEventListener('input',function(){clearTimeout(tmr);tmr=setTimeout(apply,90);});
+      win.reset(DATA);
+    })();
+    {% endraw %}</script>

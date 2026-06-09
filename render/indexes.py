@@ -16,6 +16,7 @@ _HOME = env.get_template("home.html")
 _ABOUT = env.get_template("about.html")
 _LANGUAGES = env.get_template("languages_index.html")
 _SOURCES = env.get_template("sources_index.html")
+_RECONSTRUCTIONS = env.get_template("reconstructions.html")
 
 
 def home():
@@ -98,69 +99,22 @@ def reconstructions():
     # client-side in windows of CHUNK rows, with an instant in-page filter. This
     # keeps the initial DOM small (~200 nodes vs ~31k) on slow devices while the
     # gloss-ordered full set stays a single, filterable, statically-hosted page.
-    c = con()
+    conn = con()
     OK = "coalesce(upper(e.status),'')!='DELETE'"
-    rows = c.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
+    rows = conn.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
         FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
         WHERE {OK} ORDER BY e.protogloss, e.tag""").fetchall()
-    counts = reflex_counts(c)
-    c.close()
+    counts = reflex_counts(conn)
+    conn.close()
     total = len(rows)
     data = [[r["tag"], alt(r["protoform"] or ""), r["protogloss"] or "", r["plg"] or "",
              counts.get(r["tag"], 0)] for r in rows]
     # < keeps the payload from breaking out of the <script> tag and stays valid JSON.
-    payload = json.dumps(data, separators=(",", ":"), ensure_ascii=False).replace("<", "\\u003c")
-    body = f"""
-    <div class="ety-head">
-      <div class="pagetitle">Reconstructions</div>
-      <div class="metabar"><span><b>{total:,}</b> etyma</span><span>ordered by gloss</span></div>
-    </div>
-    <div class="rbar">
-      <input id="rfilter" type="search" placeholder="Filter by form, gloss, group, or tag…" autocomplete="off" autofocus>
-      <span class="rcount" id="rcount"></span>
-    </div>
-    <div id="recon-list"></div>
-    <p class="rnone">No reconstructions match your filter.</p>
-    <noscript><p class="cap">Enable JavaScript to browse and filter all reconstructions, or use
-      <a href="/search">search</a>. Each etymon also has its own page, linked from the
-      <a href="/thesaurus">thesaurus</a> and <a href="/languages">language</a> indexes.</p></noscript>
-    <script id="recon-data" type="application/json">{payload}</script>
-    <script>""" + _WINDOWED_JS + """
-    (function(){
-      var B=window.STEDT_BASE||'';
-      var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){
-        return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
-      var norm=function(s){return String(s==null?'':s).toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');};
-      var DATA=JSON.parse(document.getElementById('recon-data').textContent);
-      for(var i=0;i<DATA.length;i++){var r=DATA[i];r[5]=norm(r[1]+' '+r[2]+' '+r[3]+' #'+r[0]);}
-      var view=DATA;
-      var list=document.getElementById('recon-list'),
-          none=document.querySelector('.rnone'),
-          count=document.getElementById('rcount'),
-          input=document.getElementById('rfilter');
-      function row(r){var rc=r[4]?(' · '+r[4]+(r[4]==1?' reflex':' reflexes')):'';
-        return '<a class="ety-hit" href="'+B+'/etymon/'+r[0]+'">'+
-        '<span class="pf2 lat">'+esc(r[1])+'</span>'+
-        '<span class="pg2">'+esc(r[2])+'</span>'+
-        '<span class="tagn">'+esc(r[3])+' #'+esc(r[0])+rc+'</span></a>';}
-      function updateCount(shown){
-        var t=DATA.length, m=view.length;
-        var s=(m===t)?t.toLocaleString()+' etyma':m.toLocaleString()+(m===1?' match':' matches');
-        if(shown<m) s+=' · '+shown.toLocaleString()+' shown';
-        count.textContent=s;
-      }
-      var win=windowedList(list,{row:row,onRender:function(shown){
-        updateCount(shown); none.style.display=view.length?'none':'block';}});
-      function apply(){
-        var q=norm(input.value.trim());
-        view=q?DATA.filter(function(r){return r[5].indexOf(q)>=0;}):DATA;
-        win.reset(view);
-      }
-      var tmr; input.addEventListener('input',function(){clearTimeout(tmr);tmr=setTimeout(apply,90);});
-      win.reset(DATA);
-    })();
-    </script>"""
-    return page("Reconstructions", body, nav="reconstructions")
+    payload = json.dumps(data, separators=(",", ":"), ensure_ascii=False).replace("<", "\u003c")
+    return page("Reconstructions", _RECONSTRUCTIONS.render(
+        total=f"{total:,}", payload=Markup(payload), windowed_js=Markup(_WINDOWED_JS)),
+        nav="reconstructions")
+
 
 def languages_index():
     conn = con()
