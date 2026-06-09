@@ -102,7 +102,7 @@ const ETYMA_ALL_SQL = `
 const FORMS_BY_CAT_SQL = (n) => `
   SELECT l.rn AS rn, l.reflex AS reflex, l.gloss AS gloss, l.gfn AS gfn, l.lgid AS lgid,
          ln.language AS language, ln.srcabbr AS srcabbr, sb.citation AS citation, nt.note AS note,
-         json_group_array(json_object('tag', e.tag, 'pf', e.protoform))
+         json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'ind', h.ind))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
   LEFT JOIN srcbib sb ON sb.srcabbr = ln.srcabbr
@@ -114,17 +114,35 @@ const FORMS_BY_CAT_SQL = (n) => `
   GROUP BY l.rn
   ORDER BY ln.language, l.reflex`;
 
+// Shape a reflex row's aggregated-etyma JSON (from json_group_array) in ONE place, so the search
+// results and the thesaurus-category attestations derive identical etyma/tag/pf/syn. Without this the
+// two drifted: the category list dropped lx_et_hash.ind and never built r.syn, so its shared reflexRow
+// silently lost per-syllable links and always fell back to chips. Mutates r in place.
+export function shapeReflexEtyma(r) {
+  let ets = [];
+  try { ets = JSON.parse(r.etyma || '[]'); } catch (e) { ets = []; }
+  const seen = new Set(), uniq = [], byInd = {}; let conflict = false;
+  for (const x of ets) {
+    if (!x || x.tag == null) continue;
+    if (!seen.has(x.tag)) { seen.add(x.tag); uniq.push(x); }
+    if (x.ind != null) {                       // syllable position -> etymon, for per-syllable links
+      if (byInd[x.ind] != null && byInd[x.ind] !== x.tag) conflict = true;
+      else byInd[x.ind] = x.tag;
+    }
+  }
+  r.etyma = uniq;
+  r.tag = uniq.length ? uniq[0].tag : null;     // first etymon: compact single-link consumers (home dropdown)
+  r.pf = uniq.length ? uniq[0].pf : null;
+  // ind->tag map for per-syllable etymon links; null if a syllable is ambiguously multi-tagged
+  r.syn = (!conflict && Object.keys(byInd).length) ? byInd : null;
+}
+
 export async function stedtFormsByCategory(semkeys) {
   const keys = (Array.isArray(semkeys) ? semkeys : [semkeys]).filter(Boolean);
   if (!keys.length) return [];
   const db = await getDb();
   const rows = run(db, FORMS_BY_CAT_SQL(keys.length), keys);
-  for (const r of rows) {   // dedupe the reflex's etyma (a polymorphemic form has several) for via-chips
-    let ets = []; try { ets = JSON.parse(r.etyma || '[]'); } catch (e) { ets = []; }
-    const seen = new Set(), uniq = [];
-    for (const x of ets) { if (x && x.tag != null && !seen.has(x.tag)) { seen.add(x.tag); uniq.push(x); } }
-    r.etyma = uniq;
-  }
+  for (const r of rows) shapeReflexEtyma(r);
   return rows;
 }
 
@@ -213,25 +231,9 @@ export async function stedtSearch(query, limit = 40) {
       reflexTotal = run(db, REFLEX_COUNT_SQL, [m])[0].n;
       reflexes = run(db, REFLEX_SQL, [m, inner, lim]);
     }
-    // parse the aggregated etyma JSON into a deduped array; expose the first as tag/pf for
-    // compact single-link consumers (the home dropdown), the full list as r.etyma.
+    // parse the aggregated etyma JSON into deduped etyma/tag/pf/syn (shared with the category list)
     for (const r of reflexes) {
-      let ets = [];
-      try { ets = JSON.parse(r.etyma || '[]'); } catch (e) { ets = []; }
-      const seen = new Set(); const uniq = []; const byInd = {}; let conflict = false;
-      for (const x of ets) {
-        if (!x || x.tag == null) continue;
-        if (!seen.has(x.tag)) { seen.add(x.tag); uniq.push(x); }
-        if (x.ind != null) {                       // syllable position -> etymon, for per-syllable links
-          if (byInd[x.ind] != null && byInd[x.ind] !== x.tag) conflict = true;
-          else byInd[x.ind] = x.tag;
-        }
-      }
-      r.etyma = uniq;
-      r.tag = uniq.length ? uniq[0].tag : null;
-      r.pf = uniq.length ? uniq[0].pf : null;
-      // ind->tag map for per-syllable etymon links; null if a syllable is ambiguously multi-tagged
-      r.syn = (!conflict && Object.keys(byInd).length) ? byInd : null;
+      shapeReflexEtyma(r);
       r._gk = gkey(r.grpno);   // precompute the subgroup sort key once (invariant per row)
     }
     // order by subgroup (then language, form) so the page can render Stammbaum-grouped sections
