@@ -183,6 +183,7 @@ CSS = r"""
 :root{
   --paper:#f4efe2; --paper2:#efe8d6; --ink:#211c15; --soft:#5d5443;
   --mut:#94886e; --rule:#ddd1b6; --hair:#e7dcc4; --accent:#9c2b25; --accent-d:#7e201b;
+  --morph:#4c211b;   /* interactable morpheme at rest: a quiet, dark accent — clearly a link, barely louder than ink */
   --accent2:#3a5a6b; --gold:#b08a3c;
 }
 *{box-sizing:border-box}
@@ -353,8 +354,11 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .rx-hit .lang{color:var(--soft);font-size:13.5px;border-bottom:none;}
 .rx-hit a.lang:hover{color:var(--accent);}
 .rx-hit .rx-mid{min-width:0;}
-.rx-hit .syl{color:inherit;border-bottom:1px dotted var(--rule);}
-.rx-hit .syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
+/* interactable morpheme (per-syllable etymon link): a quiet accent tint atop the dotted underline,
+   so it reads as clickable without shouting; brightens to full accent on hover. Not scoped to
+   .rx-hit, so the treatment stays consistent anywhere a .syl link appears. */
+a.syl{color:var(--morph);border-bottom:1px dotted var(--rule);}
+a.syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
 .rx-hit .br{color:var(--mut);}
 .rx-hit .vias{color:var(--mut);font-size:12.5px;margin-left:.45em;}
 .rx-hit .via{font-size:12.5px;color:var(--mut);border-bottom:none;}
