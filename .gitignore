@@ -11,13 +11,9 @@ site/
 node_modules/
 
 # Original UC Berkeley release (provenance; archived separately, not the editable source).
-# data/ is the source of truth; build_db.py is the one-time migration that needs the dump.
-stedtdb_v1.0/*.sql
-stedtdb_v1.0/*.csv
-stedtdb_v1.0/*.bz2
-stedtdb_v1.0/*.RData
-stedtdb_v1.0/*.pdf
-stedtdb_v1.0/._*
+# data/ is the source of truth; `stedt import-dump` is the one-time migration that reads the dump.
+# Ignore the whole directory (the per-extension rules used to leak its README/*.txt files).
+stedtdb_v1.0/
 
 # Original release archive (provenance; archived separately)
 *.tgz
