@@ -94,12 +94,16 @@ const ETYMA_SELECT = `SELECT e.tag, e.num_recs, ch.chaptertitle, e.chapter, e.se
   e.protogloss, e.grpid, g.plg, g.grpno, e.notes, e.num_notes, e.num_comparanda, e.status, e.public, ''
   FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid LEFT JOIN chapters ch ON ch.semkey=e.chapter`;
 
-const LEX_FIELDS = ['lexicon.rn', 'analysis', 'lexicon.reflex', 'lexicon.gloss', 'lexicon.gfn',
-  'languagenames.lgid', 'languagenames.language', 'languagegroups.grpid', 'languagegroups.grpno',
-  'languagegroups.grp', 'citation', 'languagenames.srcabbr', 'lexicon.srcid', 'lexicon.semkey',
-  'chapters.chaptertitle', 'num_notes'];
-const LEX_SELECT = `SELECT l.rn, l.analysis, l.reflex, l.gloss, l.gfn, ln.lgid, ln.language, g.grpid,
-  g.grpno, g.grp, sb.citation, ln.srcabbr, l.srcid, l.semkey, ch.chaptertitle, l.num_notes
+// guest (privs=2) lexicon columns. user_an ("your analysis") / other_an ("others' analyses") are
+// empty for us — we kept only the canonical uid=8 tagging — but are emitted (after analysis) so the
+// column layout + the offset-based transforms match the original guest view exactly.
+const LEX_FIELDS = ['lexicon.rn', 'analysis', 'user_an', 'other_an', 'lexicon.reflex', 'lexicon.gloss',
+  'lexicon.gfn', 'languagenames.lgid', 'languagenames.language', 'languagegroups.grpid',
+  'languagegroups.grpno', 'languagegroups.grp', 'citation', 'languagenames.srcabbr', 'lexicon.srcid',
+  'lexicon.semkey', 'chapters.chaptertitle', 'num_notes'];
+const LEX_SELECT = `SELECT l.rn, l.analysis, '' AS user_an, '' AS other_an, l.reflex, l.gloss, l.gfn,
+  ln.lgid, ln.language, g.grpid, g.grpno, g.grp, sb.citation, ln.srcabbr, l.srcid, l.semkey,
+  ch.chaptertitle, l.num_notes
   FROM lexicon l LEFT JOIN languagenames ln ON ln.lgid=l.lgid
   LEFT JOIN languagegroups g ON g.grpid=ln.grpid
   LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr

@@ -70,10 +70,22 @@ def chrome(title, body, vert_tog=False, cognates=None, extra_scripts=""):
 {tog}<script>
 $.noConflict();
 var baseRef = '{BASE}/';
-var stedtuserprivs = 0;
+var stedtuserprivs = 2;   // the public 'guest' account (privs=2) — shows rn/analysis/semkey columns
 </script>
 <a href="https://stedt.berkeley.edu/documentation" target="_blank">help</a>
 <script src="{BASE}/js/stedtconfig.js"></script>
+<script>
+// guest can't edit, so repoint the would-be edit links (dead on static) to read-only targets:
+// semkey -> its thesaurus chapter (the meaningful node) instead of /edit/glosswords.
+setup.lexicon['lexicon.semkey'].transform = function (v, key, rec, n) {{
+  if (!v) return v;
+  var t = rec[n + 1] ? ' title="' + rec[n + 1].replace(/&/g, '&amp;') + '"' : '';
+  return '<a href="' + baseRef + 'chap/' + v + '" target="stedt_chapters"' + t + '>' + v + '</a>';
+}};
+setup.etyma['etyma.semkey'].transform = function (v) {{
+  return v ? '<a href="' + baseRef + 'chap/' + v + '" target="stedt_chapters">' + v + '</a>' : v;
+}};
+</script>
 </span>
 <a href="{BASE}/" title="Search Home"><img src="{BASE}/img/splashy32x32.gif" alt="STEDT Logo" width="32" height="32" class="left" border=0></a>
 <b>{esc(title)}</b>
