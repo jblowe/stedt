@@ -30,29 +30,20 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - run: npm ci
-        working-directory: web
+      - name: Install JS build deps
+        run: stedt setup
       - name: Compile data/ into stedt.sqlite
-        run: stedt build
+        run: stedt build db
       - name: Build the lean search.sqlite3 (FTS5)
-        run: stedt search-db
+        run: stedt build search-db
       - name: Prerender the static site (+ copy search.sqlite3)
-        run: stedt render
-      - name: Bundle the client search (WASM SQLite)
-        run: npm run build:search
-        working-directory: web
-      - name: Bundle the page scripts (windowed list, search UI, filters, cite, language)
-        run: npm run build:pages
-        working-directory: web
-      # /_legacy/ — pixel-faithful rootcanal clone (separate subtree; writes only under site/_legacy,
-      # so these must run AFTER `stedt render`, which rmtrees + builds site/).
-      - name: Build the legacy search DB (rootcanal columns + FTS5)
-        run: stedt legacy search-db
-      - name: Prerender the /_legacy/ rootcanal clone
-        run: stedt legacy render
-      - name: Bundle the legacy data-plane shim (WASM SQLite)
-        run: npm run build:legacy
-        working-directory: web
+        run: stedt build render
+      - name: Bundle the client JS (search data layer + page scripts)
+        run: stedt build bundle
+      # /_legacy/ — pixel-faithful rootcanal clone; writes only under site/_legacy, so it must run
+      # AFTER `stedt build render` (which rmtrees + builds site/). build legacy = DB + pages + shim.
+      - name: Build the /_legacy/ rootcanal clone
+        run: stedt build legacy
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

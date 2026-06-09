@@ -1,7 +1,7 @@
 # `data/` — the STEDT source of truth
 
 Everything here is **TSV**. The whole site is a deterministic function of these files:
-`data/ ──stedt build──▶ stedt.sqlite ──stedt render──▶ site/`.
+`data/ ──stedt build──▶ site/`.
 
 ## The one escaping rule
 

@@ -30,6 +30,7 @@ DATA = os.path.join(ROOT, "data")  # all-TSV source of truth
 STATIC = os.path.join(ROOT, "static")  # shared site assets (site.css, site.js)
 LEGACY_ASSETS = os.path.join(ROOT, "legacy_assets")  # verbatim rootcanal front-end
 SITE = os.path.join(ROOT, "site")  # prerendered output
+WEB = os.path.join(ROOT, "web")  # JS frontend (npm project; esbuild bundles)
 
 DB = os.path.join(ROOT, "stedt.sqlite")  # canonical compiled DB
 SEARCH_DB = os.path.join(ROOT, "search.sqlite3")  # lean modern WASM search index
