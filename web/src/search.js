@@ -1,4 +1,4 @@
-// Client-side search for the static STEDT site. Recreates render.py's search_data() exactly
+// Client-side search for the static STEDT site. Reproduces the site's search query logic exactly
 // (reflexes via FTS5 MATCH, etyma via LIKE) — but runs the queries fully IN-MEMORY via the
 // official SQLite WASM build (which includes FTS5). The DB is downloaded once and cached.
 //
@@ -58,7 +58,7 @@ function run(db, sql, params) {
   return rows;
 }
 
-// --- the two queries, identical to render.py's search_data() ---
+// --- the two queries, matching the site's search semantics ---
 // A reflex can belong to several etyma (polymorphemic) — aggregate them all (non-DELETE only),
 // rather than GROUP BY picking one arbitrarily. json_group_array → parsed/deduped in stedtSearch.
 // Each result row carries its source (the WORK it's attested in: srcabbr + srcbib.citation), its

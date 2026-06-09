@@ -25,7 +25,7 @@ def esc(s):
 
 
 def _lnote(xml):
-    """render.py's note XML→HTML, with etymon xref links rebased into the legacy subtree
+    """The renderer's note XML→HTML, with etymon xref links rebased into the legacy subtree
     (render_note emits root-absolute /etymon/N, which would 404 under /_legacy/)."""
     return render.render_note(xml).replace('href="/etymon/', f'href="{BASE}/etymon/')
 
@@ -292,8 +292,6 @@ ETYMON_FIELDS = [
 
 def _alt_stars(pf):
     """etymon.tt: asterisk each alternant (after ⪤ / OR / ~ / =) then prefix '*'."""
-    import re as _re
-
     for d in ("⪤", "OR", "~", " ="):
         pf = pf.replace(d + " ", d + " *")
     return "*" + pf

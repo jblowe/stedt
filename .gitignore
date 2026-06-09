@@ -2,7 +2,6 @@
 stedt.sqlite
 *.sqlite
 *.sqlite3
-search.db
 site/
 # refactor-verification snapshots (stedt snapshot); regenerate on demand
 .snapshots/
