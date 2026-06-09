@@ -79,19 +79,6 @@ def main():
             f.write(s)
         n += 1
 
-    def write_redirect(path, target_hash):
-        nonlocal n
-        url = LEGACY_BASE + target_hash
-        html = ('<!doctype html><meta charset="utf-8">'
-                f'<meta http-equiv="refresh" content="0; url={url}">'
-                f'<script>location.replace("{url}")</script>'
-                f'<p>Redirecting to <a href="{url}">{url}</a>…</p>')
-        fp = os.path.join(LEGACY_OUT, path, "index.html")
-        os.makedirs(os.path.dirname(fp), exist_ok=True)
-        with open(fp, "w", encoding="utf-8") as f:
-            f.write(html)
-        n += 1
-
     write("", L.legacy_splash)
     write("gnis", L.legacy_gnis)
     write("source", L.legacy_all_sources)
@@ -121,9 +108,9 @@ def main():
         write(f"chap/{k}", (lambda k=k: L.legacy_chapter(k)))
     for gid in grpids:
         write(f"group/{gid}", (lambda gid=gid: L.legacy_group(gid)))
-    if not LIMIT:
-        for gid, lgid in lg_pairs:
-            write_redirect(f"group/{gid}/{lgid}", f"/group/{gid}/#lg{lgid}")
+    # /group/<grpid>/<lgid> — the full selected-language page each reflex language link points at
+    for gid, lgid in (lg_pairs[:LIMIT] if LIMIT else lg_pairs):
+        write(f"group/{gid}/{lgid}", (lambda gid=gid, lgid=lgid: L.legacy_group(gid, lgid)))
 
     print(f"legacy: {n} pages, {fails} skipped -> {LEGACY_OUT} (base={LEGACY_BASE!r}, "
           f"ver={os.environ['STEDT_LEGACY_VER']}, {time.time() - t0:.0f}s)")

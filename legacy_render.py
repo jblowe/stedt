@@ -553,21 +553,45 @@ def legacy_all_sources():
 
 
 # ------------------------------------------------------------------------------------- group pages
-def legacy_group(grpid):
+_LG_TH = ('<th title="Language name from source OR abbreviated name" style="cursor:help;">Short Lg Name</th>'
+          '<th>num. of records</th><th title="from Namkung, ed. 1996 (STEDT Monograph #3)" '
+          'style="cursor:help;">Phon. Inventory</th>')
+
+
+def legacy_group(grpid, lgid=None):
+    """groups.tt: group tree + the languages-in-group table. With an lgid (the URL /group/<id>/<lgid>
+    a reflex language link points at), show the selected language's detail + "other sources which
+    include this language" (same lgcode) + "other languages in group" (the rest)."""
     c = render.con()
     grp = c.execute("SELECT grpno, grp FROM languagegroups WHERE grpid=?", (grpid,)).fetchone()
     if not grp:
         c.close()
         raise ValueError(f"no group {grpid}")
     grps = c.execute("SELECT grpid, grpno, grp FROM languagegroups ORDER BY grp0,grp1,grp2,grp3,grp4").fetchall()
-    lgs = c.execute("""SELECT ln.silcode, ln.language, ln.srcabbr, sb.citation, ln.lgid,
-                         COUNT(l.rn) AS nrec, ln.pi_page, ln.lgabbr
-                       FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid
-                         LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
-                       WHERE ln.grpid=? AND coalesce(ln.lgcode,0)!=0
-                         AND coalesce(l.status,'') NOT IN ('HIDE','DELETED')
-                       GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language""", (grpid,)).fetchall()
+    lgs = [dict(r) for r in c.execute(
+        """SELECT ln.silcode, ln.language, ln.lgcode, ln.srcabbr, sb.citation, ln.lgid,
+             COUNT(l.rn) AS nrec, ln.pi_page, ln.lgabbr
+           FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid
+             LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
+           WHERE ln.grpid=? AND coalesce(ln.lgcode,0)!=0
+             AND coalesce(l.status,'') NOT IN ('HIDE','DELETED')
+           GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language""", (grpid,))]
     c.close()
+    grpname = f'{esc(grp["grpno"])} {esc(grp["grp"])}'
+
+    def iso(r):
+        return (f'<a href="http://www.ethnologue.com/show_language.asp?code={esc(r["silcode"])}" '
+                f'target="stedt_ethnologue">{esc(r["silcode"])}</a>') if r["silcode"] else "n/a"
+
+    def pi(r):
+        return (f'<a href="{BASE}/phon_inv.html?page={(r["pi_page"] or 0) + 26}" target="stedt_pi" '
+                f'title="Namkung, ed. 1996">p.{r["pi_page"]}</a>') if r["pi_page"] else ""
+
+    def recs(r):
+        return f'<a href="{BASE}/gnis?lexicon.lgid={r["lgid"]}" target="stedt_sss">{r["nrec"]}</a>'
+
+    def src(r):
+        return f'<a href="{BASE}/source/{esc(r["srcabbr"])}" target="stedt_src">{esc(r["citation"])}</a>'
 
     tree = "".join(
         (f'<tr bgcolor="#FFFF99" id="showme"><td>{esc(g["grpno"])}</td>'
@@ -575,32 +599,50 @@ def legacy_group(grpid):
         + f'<td><a href="{BASE}/group/{g["grpid"]}">{esc(g["grp"])}</a></td></tr>\n'
         for g in grps)
 
-    lrows = ""
-    for r in lgs:
-        iso = (f'<a href="http://www.ethnologue.com/show_language.asp?code={esc(r["silcode"])}" '
-               f'target="stedt_ethnologue">{esc(r["silcode"])}</a>') if r["silcode"] else "n/a"
-        pi = (f'<a href="{BASE}/phon_inv.html?page={(r["pi_page"] or 0) + 26}" target="stedt_pi" '
-              f'title="Namkung, ed. 1996">p.{r["pi_page"]}</a>') if r["pi_page"] else ""
-        lrows += (f'<tr id="lg{r["lgid"]}">\n<td>{iso}</td>\n'
-                  f'<td><a href="{BASE}/group/{grpid}/{r["lgid"]}" target="_self">{esc(r["language"])}</a></td>\n'
-                  f'<td><a href="{BASE}/source/{esc(r["srcabbr"])}" target="stedt_src">{esc(r["citation"])}</a></td>\n'
-                  f'<td>{esc(r["lgabbr"])}</td>\n'
-                  f'<td><a href="{BASE}/gnis?lexicon.lgid={r["lgid"]}" target="stedt_sss">{r["nrec"]}</a></td>\n'
-                  f'<td>{pi}</td>\n</tr>\n')
+    sel = next((i for i, r in enumerate(lgs) if r["lgid"] == lgid), None) if lgid is not None else None
+
+    lginfo = ""
+    if sel is not None:
+        s = lgs[sel]
+        lg_code = s["lgcode"]
+        lginfo += (f'<p>Language information for <b>{esc(s["language"])}</b> from source {src(s)}:</p>\n'
+                   f'<table>\n'
+                   f'<tr><th title="Language name from source OR abbreviated name" style="cursor:help;">Short Lg Name</th><td>{esc(s["lgabbr"])}</td></tr>\n'
+                   f'<tr><th>ISO 639-3</th><td>{iso(s)}</td></tr>\n'
+                   f'<tr><th>num. of records</th><td>{recs(s)}</td></tr>\n'
+                   + (f'<tr><th title="from Namkung, ed. 1996 (STEDT Monograph #3)" style="cursor:help;">Phon. Inventory</th><td>{pi(s)}</td></tr>\n' if s["pi_page"] else '')
+                   + '</table>\n')
+        others = [r for j, r in enumerate(lgs) if j != sel and r["lgcode"] == lg_code]
+        if others:
+            orows = "".join(f'<tr>\n<td>{esc(r["language"])}</td>\n<td>{src(r)}</td>\n'
+                            f'<td>{esc(r["lgabbr"])}</td>\n<td>{recs(r)}</td>\n<td>{pi(r)}</td>\n</tr>\n'
+                            for r in others)
+            lginfo += ('<p>Other sources which include this language:</p>\n<table class="hangindent">\n'
+                       f'<tr><th>Language Name</th><th>Source</th>{_LG_TH}</tr>\n{orows}</table>\n')
+        else:
+            lginfo += '(No other sources with this language.)\n'
+        lginfo += f'<p>Other languages in <b>{grpname}</b>:</p>\n'
+        main = [r for j, r in enumerate(lgs) if j != sel and r["lgcode"] != lg_code]
+    else:
+        lginfo += f'<p>Languages in <b>{grpname}</b></p>\n'
+        main = lgs
+
+    lrows = "".join(
+        f'<tr id="lg{r["lgid"]}">\n<td>{iso(r)}</td>\n'
+        f'<td><a href="{BASE}/group/{grpid}/{r["lgid"]}" target="_self">{esc(r["language"])}</a></td>\n'
+        f'<td>{src(r)}</td>\n<td>{esc(r["lgabbr"])}</td>\n<td>{recs(r)}</td>\n<td>{pi(r)}</td>\n</tr>\n'
+        for r in main)
 
     body = f"""<table id="lgtreehead"><tr><th style="width:4em">Group #</th><th>Group Name</th></tr></table>
 <div id="lgtree"><table>
 {tree}</table></div>
 <div id="lginfo">
-<p>Languages in <b>{esc(grp["grpno"])} {esc(grp["grp"])}</b></p>
-<table>
-<tr><th>ISO 639-3</th><th>Language Name</th><th>Source</th><th title="Language name from source OR abbreviated name" style="cursor:help;">Short Lg Name</th><th>num. of records</th><th title="from Namkung, ed. 1996 (STEDT Monograph #3)" style="cursor:help;">Phon. Inventory</th></tr>
+{lginfo}<table>
+<tr><th>ISO 639-3</th><th>Language Name</th><th>Source</th>{_LG_TH}</tr>
 {lrows}</table>
 </div>
 <script>
 if ($('showme')) $('lgtree').scrollTop = Math.max(0, $('showme').offsetTop - document.viewport.getHeight()/3);
-// land on the language from a /group/<grpid>/<lgid> deep link (redirect stub sets the hash)
-if (location.hash && $(location.hash.substring(1))) $(location.hash.substring(1)).scrollIntoView();
 </script>"""
     return chrome("Language Groups - STEDT Database", body)
 
