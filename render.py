@@ -370,14 +370,20 @@ a.syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
 .rx-hit .rx-src{text-align:right;color:var(--mut);font-size:12.5px;white-space:nowrap;}
 .rx-hit .rx-src a{color:var(--mut);border-bottom:1px dotted var(--rule);}
 .rx-hit .rx-src a:hover{color:var(--accent);}
-/* a reflex carrying a lexical note: dotted-underline its gloss, reveal the note on hover/focus */
-.noted{border-bottom:1px dotted var(--mut);cursor:help;position:relative;}
+/* a reflex carrying a lexical note: a small circled-i after the gloss (NOT a dotted underline —
+   that signal is reserved for clickable morphemes); the note reveals on hover/focus. The badge is
+   drawn in CSS so it's crisp and on-palette, brightening to accent when active. */
+.noted{cursor:help;position:relative;}
+.noted::after{content:"i";display:inline-grid;place-content:center;box-sizing:border-box;
+  width:1.45em;height:1.45em;margin-left:.34em;border:1px solid currentColor;border-radius:50%;
+  font:italic 600 .62em/1 "Fraunces",serif;vertical-align:.28em;color:var(--mut);}
+.noted:hover::after,.noted:focus::after,.noted:focus-within::after{color:var(--accent);}
 .noted>.notepop{display:none;position:absolute;left:0;top:1.55em;z-index:6;width:max-content;max-width:min(340px,calc(100vw - 24px));
   background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:7px 10px;font-style:normal;
   font-size:12.5px;line-height:1.5;color:var(--soft);white-space:normal;text-align:left;overflow-wrap:anywhere;}
 .noted:hover>.notepop,.noted:focus>.notepop,.noted:focus-within>.notepop{display:block;}
 .noted>.notepop p,.noted>.notepop .np{margin:0;} .noted>.notepop a{color:var(--soft);}
-.noted>.notepop .np{display:block;} .noted>.notepop .np+.np{margin-top:5px;padding-top:5px;border-top:1px solid var(--hair);}
+.noted>.notepop .np{display:block;} .noted>.notepop .np+.np{margin-top:1.35em;}   /* separate notes by an empty line, no divider */
 /* Stammbaum-subgroup header between attested-form result groups */
 .rx-sub{font-variant:small-caps;letter-spacing:.05em;color:var(--soft);font-size:13px;
   margin:16px 0 3px;padding-bottom:2px;border-bottom:1px solid var(--rule);}
