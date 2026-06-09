@@ -4,7 +4,7 @@ build_static.py to prerender every page to static HTML. There is no server: the 
 site is static files on GitHub Pages, and search runs client-side (WASM SQLite over
 search.sqlite3). Reads the compiled stedt.sqlite.
 """
-import sqlite3, urllib.parse, re, html, os, json
+import sqlite3, urllib.parse, re, html, os, json, hashlib
 
 DATA = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 
@@ -182,353 +182,21 @@ def suggest_edit_url(e):
     return f"https://github.com/larc-iu/stedt/issues/new?{q}"
 
 # ---------------------------------------------------------------- page shell
-CSS = r"""
-:root{
-  --paper:#f4efe2; --paper2:#efe8d6; --ink:#211c15; --soft:#5d5443;
-  --mut:#94886e; --rule:#ddd1b6; --hair:#e7dcc4; --accent:#9c2b25; --accent-d:#7e201b;
-  --morph:#4c211b;   /* interactable morpheme at rest: a quiet, dark accent — clearly a link, barely louder than ink */
-  --accent2:#3a5a6b; --gold:#b08a3c;
-}
-*{box-sizing:border-box}
-body{
-  margin:0; background:var(--paper); color:var(--ink);
-  font-family:"Charis SIL","Gentium Plus",Georgia,serif; font-size:18px; line-height:1.55;
-  overflow-wrap:break-word;
-  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.025'/%3E%3C/svg%3E");
-}
-.han{font-family:"Noto Serif SC","Songti SC",serif;}
-.lat{font-style:italic;}
-.recon{font-style:italic;} .recon::before{content:"*"; color:var(--accent);}
-.gl,.gloss{font-variant:small-caps; letter-spacing:.02em;}
+# CSS and the universal note-popover JS live in static/ (site.css, site.js) and are linked,
+# not inlined, so the stylesheet downloads once and is cached instead of repeated on every
+# page. build_static.py copies static/ into the site; the ?v= content hash busts the browser
+# cache when (and only when) the file changes.
+STATIC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "static")
 
-/* links: quiet neutral underline at rest; vermilion only on hover */
-a{color:var(--ink); text-decoration:none; border-bottom:1px solid var(--rule);}
-a:hover{color:var(--accent); border-bottom-color:var(--accent);}
-.brand .wm a,nav.main a{border-bottom:none;}
-a.xref{color:var(--accent); border-bottom:1px dotted var(--accent);}
+def _asset_ver(name):
+    try:
+        with open(os.path.join(STATIC, name), "rb") as f:
+            return hashlib.sha256(f.read()).hexdigest()[:8]
+    except OSError:
+        return "0"
 
-/* masthead */
-.top{height:3px;background:var(--accent);}
-header.mast{max-width:1080px;margin:0 auto;padding:22px 28px 14px;display:flex;align-items:flex-end;
-  gap:26px;border-bottom:1px solid var(--rule);flex-wrap:wrap;}
-.brand{display:flex;flex-direction:column;line-height:1;}
-.brand .wm{font-family:"Fraunces",serif;font-weight:600;font-size:30px;letter-spacing:.01em;
-  font-optical-sizing:auto;}
-.brand .sub{font-variant:small-caps;letter-spacing:.08em;font-size:11.5px;color:var(--mut);margin-top:7px;}
-nav.main{margin-left:auto;display:flex;gap:20px;font-variant:small-caps;letter-spacing:.07em;font-size:15px;}
-nav.main a{color:var(--soft);} nav.main a:hover{color:var(--accent);}
-nav.main a.active{color:var(--ink);border-bottom:2px solid var(--accent);padding-bottom:2px;}
-.hsearch input{font-family:inherit;font-size:15px;padding:7px 11px;width:200px;border:1px solid var(--rule);
-  background:var(--paper2);color:var(--ink);border-radius:2px;}
-.hsearch input:focus{outline:none;border-color:var(--accent);}
-
-main{max-width:1080px;margin:0 auto;padding:34px 28px 90px;}
-.prose{max-width:38em;}
-.cap{color:var(--mut);font-size:14px;margin:0 0 14px;}
-footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px solid var(--rule);
-  color:var(--mut);font-size:13.5px;}
-
-/* home */
-.home{max-width:600px;margin:7vh auto 0;text-align:center;}
-.bigsearch{position:relative;text-align:left;}
-.bigsearch input{width:100%;font-family:inherit;font-size:21px;padding:14px 18px;border:1.5px solid var(--ink);
-  background:var(--paper2);border-radius:3px;}
-.bigsearch input:focus{outline:none;border-color:var(--accent);}
-.drop{position:absolute;left:0;right:0;top:104%;background:var(--paper);border:1px solid var(--rule);
-  border-radius:3px;box-shadow:0 10px 30px rgba(33,28,21,.10);z-index:9;overflow:hidden;display:none;}
-.drop a{display:flex;gap:10px;align-items:baseline;padding:9px 15px;border-bottom:1px solid var(--rule);}
-.drop a:last-child{border-bottom:none}
-.drop a:hover{background:var(--paper2);color:inherit;border-color:var(--rule);}
-.drop .k{font-variant:small-caps;font-size:11px;color:var(--mut);width:46px;flex:none;letter-spacing:.08em;}
-.entry{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:center;margin-top:28px;font-size:15px;}
-.entry a{color:var(--soft);}
-.entry a:hover{color:var(--accent);}
-
-/* about */
-.about{max-width:40em;}
-.about p{margin:0 0 14px;}
-.stats{display:flex;gap:34px;flex-wrap:wrap;margin:6px 0 18px;}
-.stats .n{font-family:"Fraunces",serif;font-size:28px;color:var(--ink);line-height:1.1;font-variant-numeric:tabular-nums;}
-.stats .l{font-variant:small-caps;letter-spacing:.08em;font-size:12px;color:var(--mut);}
-.abbr{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px;font-size:15px;margin:4px 0;}
-.abbr dt{font-weight:700;} .abbr dd{margin:0;color:var(--soft);}
-
-/* etymon page */
-.ety-head{border-bottom:1px solid var(--rule);padding-bottom:14px;margin-bottom:24px;}
-.ety-head .plg{font-variant:small-caps;letter-spacing:.08em;font-size:13px;color:var(--accent);}
-.ety-head .pl{font-variant:small-caps;letter-spacing:.06em;font-size:13px;color:var(--accent);margin:10px 0 0;}
-.ety-head .etno{float:right;font-family:"Fraunces",serif;font-size:14px;color:var(--mut);
-  font-variant-numeric:tabular-nums;letter-spacing:.02em;}
-.badge{font-variant:small-caps;letter-spacing:.08em;font-size:11px;padding:1px 8px;margin-left:8px;
-  border-radius:2px;border:1px solid;vertical-align:middle;}
-.badge.del{color:var(--accent);border-color:var(--accent);}
-.ety-head .pf{font-family:"Charis SIL",serif;font-size:44px;line-height:1.1;margin:6px 0 4px;}
-.ety-head .pf::before{content:"*";color:var(--accent);}
-.ety-head .pg{font-variant:small-caps;letter-spacing:.03em;font-size:20px;color:var(--soft);}
-.crumbs{font-size:13px;color:var(--mut);margin:14px 0 0;}
-.crumbs a{color:var(--soft);border-bottom:1px dotted var(--rule);}
-.metabar{display:flex;gap:24px;margin:16px 0 4px;font-size:14px;color:var(--mut);flex-wrap:wrap;}
-.metabar b{font-family:"Fraunces",serif;color:var(--ink);font-size:16px;margin-right:5px;font-variant-numeric:tabular-nums;}
-
-/* section headers — the primary structural tier in ink (vermilion reserved for asterisk, proto-language, links) */
-.notes h3,.reflexes h3,.thes h3,.conn h3,.meso h3,.apparatus h3,.ety-list h3,.phon h3{font-variant:small-caps;letter-spacing:.10em;
-  font-size:16px;color:var(--ink);border-bottom:1px solid var(--rule);padding-bottom:5px;margin:0 0 12px;}
-.reflexes{max-width:900px;}
-.reflexes h3{display:flex;align-items:baseline;}
-.reflexes h3 .cnt{margin-left:auto;font-size:.92em;letter-spacing:0;color:var(--mut);font-variant-numeric:tabular-nums;}
-.reflexes h3 .toggle-all{margin-left:auto;font-family:"Fraunces",serif;font-size:11.5px;font-variant:small-caps;
-  letter-spacing:.06em;color:var(--mut);background:none;border:1px solid var(--rule);border-radius:3px;padding:2px 10px;cursor:pointer;}
-.reflexes h3 .toggle-all:hover{color:var(--accent);border-color:var(--accent);}
-/* group-page sections (Subgroups / Languages / Reconstructions): one uniform gap above each
-   header, plus a right-aligned count — scoped here so other .ety-list headers are untouched */
-.grpsec{margin-top:26px;}
-.grpsec h3{display:flex;align-items:baseline;}
-.grpsec h3 .cnt{margin-left:auto;font-size:.92em;letter-spacing:0;color:var(--mut);font-variant-numeric:tabular-nums;}
-.notes{margin:26px 0 8px;}
-.np{margin:0 0 12px;max-width:38em;} .fn{font-size:.86em;color:var(--soft);}
-.note-block{margin-bottom:6px;}
-
-.jump{font-size:12.5px;color:var(--mut);margin:0 0 18px;line-height:2;}
-.jump a{border-bottom:1px dotted var(--rule);margin-right:4px;}
-.sg{margin:0 0 22px;}
-.sg h4{display:flex;align-items:baseline;gap:10px;font-variant:small-caps;letter-spacing:.06em;font-size:14px;
-  color:var(--soft);margin:0 0 6px;}
-.sg h4 .c{font-family:"Fraunces",serif;font-size:12px;color:var(--mut);letter-spacing:0;margin-left:auto;
-  font-variant-numeric:tabular-nums;}
-.rfx{display:grid;grid-template-columns:190px minmax(0,1fr) 190px;gap:2px 18px;padding:4px 0;
-  border-bottom:1px solid var(--hair);align-items:baseline;line-height:1.35;}
-.rfx:hover{background:var(--paper2);}
-.rfx:last-child{border-bottom:none}
-.rfx:target,.rfx.rn-target{background:var(--paper2);box-shadow:inset 3px 0 0 var(--accent);padding-left:8px;}
-/* etymon page only: subgroup-grouped reflexes + intermediate-recon rows.
-   no per-row rule; the source trails the form instead of pinning hard-right;
-   full-width section so its header rule lines up with Notes / Prev-reconstructed. */
-.reflexes.etymon-rfx{max-width:none;}
-.sg .rfx,.meso .rfx{grid-template-columns:190px auto 1fr;border-bottom:none;}
-.rfx .lang{color:var(--soft);font-size:14.5px;}
-.rfx .form{font-size:17px;}
-.rfx .form .br{color:var(--mut);}
-.rfx .src{font-size:13px;color:var(--mut);}
-.rfx .loc{color:var(--mut);font-variant-numeric:tabular-nums;cursor:help;border-bottom:1px dotted var(--rule);}
-.rfx .g{color:var(--soft);font-size:13.5px;font-style:italic;}
-.rfx a{border-bottom:none;}
-.rfx a.lang{color:var(--soft);}
-.rfx a:hover{color:var(--accent);}
-.lgab{font-variant:small-caps;letter-spacing:.04em;font-size:12px;color:var(--mut);}
-.rfx .pos,.rx-hit .pos,.drop .pos{font-variant:small-caps;letter-spacing:.03em;font-size:11.5px;color:var(--mut);margin-left:6px;}
-.rfx .anl{display:block;font-size:12px;color:var(--mut);margin-top:1px;}
-.rfx .anl a{border-bottom:none;color:var(--mut);}
-.rfx .anl a:hover{color:var(--accent);}
-.rfx .rfxnote{grid-column:1/-1;font-size:13px;color:var(--soft);margin:2px 0 2px;padding-left:2px;}
-.rfx .rfxnote p{margin:0;max-width:62em;}
-
-/* end apparatus: citation + references, de-banner'd */
-.apparatus{margin-top:42px;}
-.citebox{border:1px solid var(--rule);padding:12px 15px;border-radius:2px;font-size:14.5px;color:var(--soft);
-  max-width:48em;}
-.citebox > div{margin:0 0 4px;} .citebox > div:last-child{margin-bottom:0;}
-.citebox code{font-family:"Charis SIL",serif;color:var(--ink);}
-.cite-actions{display:flex;gap:18px;margin:12px 0 0;font-size:14px;flex-wrap:wrap;}
-.cite-actions a,.copybtn{color:var(--soft);border:none;border-bottom:1px solid var(--rule);background:none;
-  font-family:inherit;font-size:14px;padding:0;cursor:pointer;}
-.cite-actions a:hover,.copybtn:hover{color:var(--accent);border-color:var(--accent);}
-
-/* search */
-.sr h2{font-family:"Fraunces",serif;font-weight:600;font-size:24px;margin:0 0 4px;}
-.sr .sub{color:var(--mut);font-size:14px;margin-bottom:24px;}
-.sec-label{font-variant:small-caps;letter-spacing:.10em;font-size:13px;color:var(--accent);
-  border-bottom:1px solid var(--rule);padding-bottom:5px;margin:28px 0 10px;
-  display:flex;align-items:baseline;}
-.sec-label .sec-n{margin-left:auto;color:var(--mut);font-variant:normal;letter-spacing:0;
-  font-size:.9em;font-variant-numeric:tabular-nums;}
-.ety-hit{display:grid;grid-template-columns:auto 1fr auto;gap:14px;align-items:baseline;padding:8px 0;
-  border-bottom:1px solid var(--hair);}
-a.ety-hit{border-bottom:1px solid var(--hair);}
-a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);}
-.ety-hit .pf2{font-size:19px;} .ety-hit .pf2::before{content:"*";color:var(--accent);}
-/* attested reflex form: same column treatment as a protoform but NO reconstruction asterisk */
-.ety-hit .rf{font-size:19px;}
-.ety-hit .pg2{font-variant:small-caps;color:var(--soft);}
-/* attestation gloss: a plain definition — soft, but NOT small-caps (that's for protoglosses) */
-.ety-hit .gl2{color:var(--soft);}
-.ety-hit .tagn{font-family:"Fraunces",serif;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums;}
-.rx-hit{display:grid;grid-template-columns:160px 1fr auto;gap:4px 14px;align-items:baseline;padding:6px 0;
-  border-bottom:1px solid var(--hair);font-size:15px;}
-.rx-hit .lang{color:var(--soft);font-size:13.5px;border-bottom:none;}
-.rx-hit a.lang:hover{color:var(--accent);}
-.rx-hit .rx-mid{min-width:0;}
-.rx-hit .g,.drop .gl{color:var(--soft);font-style:italic;}
-/* interactable morpheme (per-syllable etymon link): a quiet accent tint atop the dotted underline,
-   so it reads as clickable without shouting; brightens to full accent on hover. Not scoped to
-   .rx-hit, so the treatment stays consistent anywhere a .syl link appears. */
-a.syl{color:var(--morph);border-bottom:1px dotted var(--rule);}
-a.syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
-.rx-hit .br{color:var(--mut);}
-.rx-hit .vias{color:var(--mut);font-size:12.5px;margin-left:.45em;}
-.rx-hit .via{font-size:12.5px;color:var(--mut);border-bottom:none;}
-.rx-hit .via:hover{color:var(--accent);}
-.rx-hit .rx-src{text-align:right;color:var(--mut);font-size:12.5px;white-space:nowrap;}
-.rx-hit .rx-src a{color:var(--mut);border-bottom:1px dotted var(--rule);}
-.rx-hit .rx-src a:hover{color:var(--accent);}
-/* a reflex carrying a lexical note: a small circled-i after the gloss (NOT a dotted underline —
-   that signal is reserved for clickable morphemes); the note reveals on hover/focus. The badge is
-   drawn in CSS so it's crisp and on-palette, brightening to accent when active. */
-.noted{cursor:help;position:relative;}
-.noted::after{content:"i";display:inline-grid;place-content:center;box-sizing:border-box;
-  width:1.45em;height:1.45em;margin-left:.34em;border:1px solid currentColor;border-radius:50%;
-  font:italic 600 .62em/1 "Fraunces",serif;vertical-align:.28em;color:var(--mut);}
-.noted:hover::after,.noted:focus::after,.noted:focus-within::after{color:var(--accent);}
-/* right:0 anchors the bubble under the circled-i (the right end of .noted), not the gloss's left
-   edge — otherwise a long gloss strands the bubble far from its icon. */
-.noted>.notepop{display:none;position:absolute;right:0;top:1.55em;z-index:6;width:max-content;max-width:min(340px,calc(100vw - 24px));
-  background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:7px 10px;font-style:normal;
-  font-size:12.5px;line-height:1.5;color:var(--soft);white-space:normal;text-align:left;overflow-wrap:anywhere;}
-.noted:hover>.notepop,.noted:focus>.notepop,.noted:focus-within>.notepop{display:block;}
-.noted>.notepop p,.noted>.notepop .np{margin:0;} .noted>.notepop a{color:var(--soft);}
-.noted>.notepop .np{display:block;} .noted>.notepop .np+.np{margin-top:1.35em;}   /* separate notes by an empty line, no divider */
-/* Stammbaum-subgroup header between attested-form result groups */
-.rx-sub{font-variant:small-caps;letter-spacing:.05em;color:var(--soft);font-size:13px;
-  margin:16px 0 3px;padding-bottom:2px;border-bottom:1px solid var(--rule);}
-
-/* reconstructions browse: client-side filter + windowed list */
-.rbar{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;margin:0 0 14px;}
-.rbar input{flex:1;min-width:240px;font-family:inherit;font-size:16px;padding:9px 13px;
-  border:1px solid var(--rule);background:var(--paper2);color:var(--ink);border-radius:2px;}
-.rbar input:focus{outline:none;border-color:var(--accent);}
-.rcount{font-size:13px;color:var(--mut);white-space:nowrap;font-variant-numeric:tabular-nums;}
-.rnone{display:none;color:var(--mut);font-size:15px;padding:24px 0;}
-.wl-spacer{pointer-events:none;}   /* reserves the unrendered tail's height (see _WINDOWED_JS) */
-
-/* thesaurus */
-.thes ul{list-style:none;padding:0;margin:0;}
-.thes li{border-bottom:1px solid var(--rule);}
-.thes li a.row{display:flex;align-items:baseline;gap:12px;padding:11px 6px;border-bottom:none;}
-.thes li a.row:hover{background:var(--paper2);color:inherit;}
-.thes .sk{font-family:"Fraunces",serif;font-size:13px;color:var(--mut);width:64px;flex:none;
-  font-variant-numeric:tabular-nums;}
-.thes .ti{font-size:18px;}
-.thes .ct{margin-left:auto;font-size:13px;color:var(--mut);font-variant-numeric:tabular-nums;}
-.thes .ety-list{margin-top:18px}
-
-/* connections / mesoroots / language+source + index pages */
-.pagetitle{font-family:"Fraunces",serif;font-weight:600;font-size:36px;line-height:1.08;margin:6px 0 4px;}
-.conn,.meso{margin:24px 0 8px;}
-.phon{margin:20px 0 8px;}
-.phon-grid{display:flex;flex-wrap:wrap;gap:7px 26px;}
-.phon .pf-f{font-size:15px;white-space:nowrap;}
-.phon .pf-f .rl{display:inline;width:auto;flex:none;margin-right:7px;}
-.phon .pf-f .val{font-family:"Charis SIL",serif;color:var(--ink);}
-.conn-row{display:flex;align-items:baseline;gap:12px;padding:6px 0;}
-.rl{font-variant:small-caps;letter-spacing:.08em;font-size:12px;color:var(--accent);width:92px;flex:none;}
-.conn-row .reltgt{flex:1;}
-.exm{color:var(--gold);font-variant:small-caps;letter-spacing:.06em;font-size:.9em;}
-.metabar a{border-bottom:1px dotted var(--rule);}
-.metabar a:hover{color:var(--accent);}
-.idx{list-style:none;padding:0;margin:6px 0 0;columns:2;column-gap:44px;font-size:15px;}
-.idx li{break-inside:avoid;padding:2px 0;}
-.grp{font-variant:small-caps;letter-spacing:.05em;font-size:15px;color:var(--ink);margin:18px 0 2px;}
-.grp .plg2{color:var(--mut);font-variant:normal;font-size:.82em;letter-spacing:0;}
-/* stammbaum group number (e.g. 6.1.1) shown alongside subgroup names on group/languages/etymon pages */
-.grpno{color:var(--mut);font-variant-numeric:tabular-nums;font-size:.82em;letter-spacing:0;margin-right:.35em;}
-/* full family tree on group pages: compact, scrollable, one click to any node */
-.lgtree{border:1px solid var(--rule);border-radius:2px;max-height:360px;overflow:auto;padding:8px 14px;
-  font-size:13.5px;line-height:1.7;}
-.lgtree > div{white-space:nowrap;}
-.lgtree a{border-bottom:none;color:var(--soft);}
-.lgtree a:hover{color:var(--accent);}
-.lgtree .here{color:var(--ink);font-weight:700;}
-.srclangs{margin:12px 0 4px;font-size:13.5px;color:var(--soft);line-height:1.9;}
-.srcidx{list-style:none;padding:0;margin:8px 0 0;}
-.srcidx li{padding:8px 2px;border-bottom:1px solid var(--rule);}
-.srcidx li a{font-family:"Fraunces",serif;}
-.srcidx .srcref{color:var(--soft);font-size:13.5px;margin-left:9px;}
-.srcidx .srccnt{color:var(--mut);font-size:12.5px;margin-left:9px;font-variant-numeric:tabular-nums;white-space:nowrap;}
-.srcsort{font-size:13px;color:var(--mut);margin:6px 0 14px;}
-.srcsort select{font-family:inherit;font-size:13px;color:var(--ink);background:var(--paper2);
-  border:1px solid var(--rule);border-radius:2px;padding:3px 7px;}
-.srcsort select:focus{outline:none;border-color:var(--accent);}
-.subg{color:var(--soft);font-size:14px;}
-.rfx .via{color:var(--mut);}
-details.seg{border-bottom:1px solid var(--rule);}
-details.seg:last-of-type{border-bottom:none;}
-details.seg > summary{cursor:pointer;list-style:none;display:flex;align-items:baseline;gap:10px;
-  font-variant:small-caps;letter-spacing:.06em;font-size:15px;color:var(--ink);padding:9px 2px;}
-details.seg > summary::-webkit-details-marker{display:none;}
-details.seg > summary::before{content:"▸";color:var(--mut);font-size:11px;}
-details.seg[open] > summary::before{content:"▾";}
-details.seg > summary:hover{color:var(--accent);}
-details.seg > summary .c{margin-left:auto;font-family:"Fraunces",serif;font-size:12px;color:var(--mut);
-  letter-spacing:0;font-variant-numeric:tabular-nums;}
-details.seg .rfx{padding-left:20px;}
-details.seg[open]{padding-bottom:8px;}
-
-/* contribution form + diff */
-.editform{max-width:620px;margin:8px 0;}
-.editform label{display:block;margin:0 0 14px;font-variant:small-caps;letter-spacing:.06em;font-size:13px;color:var(--soft);}
-.editform input,.editform textarea{display:block;width:100%;margin-top:4px;font-family:"Charis SIL",serif;
-  font-size:16px;font-variant:normal;letter-spacing:0;color:var(--ink);padding:8px 11px;
-  border:1px solid var(--rule);background:var(--paper2);border-radius:2px;}
-.editform input:focus,.editform textarea:focus{outline:none;border-color:var(--accent);}
-.editform .hint{font-variant:normal;letter-spacing:0;color:var(--mut);text-transform:none;}
-.editform hr,.editform .who{border:none;border-top:1px solid var(--rule);margin:18px 0;padding-top:14px;}
-.editform .actions{display:flex;align-items:center;gap:16px;margin-top:6px;}
-.editform button{font-family:inherit;font-size:16px;font-variant:small-caps;letter-spacing:.05em;
-  padding:9px 22px;background:var(--accent);color:var(--paper);border:none;border-radius:2px;cursor:pointer;}
-.editform button:hover{background:var(--accent-d);}
-.editform .cancel{background:none;color:var(--mut);}
-.gate{padding:10px 16px;border-radius:2px;margin:16px 0;font-size:15px;}
-.gate.ok{background:#e8f0e3;border-left:3px solid #4a7c3a;color:#2f4f25;}
-.gate.bad{background:#f6e3e0;border-left:3px solid var(--accent);color:var(--accent-d);}
-.gate ul{margin:6px 0 0 18px;}
-pre.diff{background:#faf7ef;border:1px solid var(--rule);border-radius:3px;padding:14px 16px;overflow:auto;
-  font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:13px;line-height:1.5;}
-pre.diff span{display:block;white-space:pre-wrap;}
-pre.diff .add{background:#e3f0db;color:#2f4f25;}
-pre.diff .del{background:#f6dfdb;color:var(--accent-d);}
-pre.diff .hdr{color:var(--mut);}
-
-/* ---------------------------------------------------------------- responsive (phones/tablets) */
-@media (max-width:720px){
-  body{font-size:17px;}
-
-  /* masthead stacks: wordmark / search / nav, each full width; nav wraps instead of overflowing */
-  header.mast{flex-direction:column;align-items:stretch;gap:12px;padding:16px 18px 12px;}
-  .brand{order:1;}
-  .brand .wm{font-size:25px;}
-  .hsearch{order:2;}
-  .hsearch input{width:100%;}
-  nav.main{order:3;margin:0;flex-wrap:wrap;gap:9px 18px;font-size:14px;}
-
-  main{padding:24px 18px 70px;}
-  footer{padding:20px 18px 48px;}
-
-  /* big titles down a notch; etymon number drops from a float to its own line */
-  .pagetitle{font-size:28px;}
-  .ety-head .pf{font-size:32px;}
-  .ety-head .pg{font-size:18px;}
-  .ety-head .etno{float:none;display:block;margin:0 0 6px;}
-
-  /* record rows collapse to a single stacked column (lang / form·gloss / source) */
-  .rfx,.sg .rfx,.meso .rfx{grid-template-columns:1fr;gap:1px 0;padding:8px 0;}
-  .rx-hit{grid-template-columns:1fr;gap:1px 0;}
-  .rx-hit .rx-src{text-align:left;}
-  .ety-hit{grid-template-columns:1fr auto;gap:2px 12px;}
-  .ety-hit .pg2,.ety-hit .gl2{grid-column:1;}
-  .ety-hit .tagn{grid-column:2;grid-row:1/3;align-self:start;}
-
-  /* language index: one column */
-  .idx{columns:1;}
-
-  /* connections: let the relation label sit on its own line above the target */
-  .conn-row{flex-wrap:wrap;}
-  .conn-row .rl{width:100%;}
-
-  /* thesaurus rows: let the title wrap, keep the count pinned right (don't let title grow) */
-  .thes .ti{min-width:0;}
-
-  .stats{gap:20px;}
-}
-"""
+_CSS_VER = _asset_ver("site.css")
+_JS_VER = _asset_ver("site.js")
 
 _NAV = [("thesaurus", "/thesaurus", "Thesaurus"),
         ("reconstructions", "/reconstructions", "Reconstructions"),
@@ -536,34 +204,6 @@ _NAV = [("thesaurus", "/thesaurus", "Thesaurus"),
         ("sources", "/sources", "Sources"),
         ("about", "/about", "About")]
 
-# A note popover's right edge is pinned to its circled-i (see .noted CSS), so on a narrow viewport
-# a wide bubble can run off the left edge. CSS can't clamp it to the viewport (the bubble's offset
-# parent is a tiny inline span at an unpredictable x), so on first show we measure and nudge it back
-# inside an 8px margin. Delegated on document, so it also covers client-rendered notes (search,
-# thesaurus). Memoized per node; reset on resize. No Python interpolation here — plain { }.
-_NOTEPOP_JS = """<script>
-(function(){
-  var seen=new WeakSet(), M=8;
-  function clamp(n){
-    var p=n.querySelector('.notepop'); if(!p) return;
-    p.style.transform='';
-    var r=p.getBoundingClientRect(), w=document.documentElement.clientWidth, dx=0;
-    if(r.left<M) dx=M-r.left; else if(r.right>w-M) dx=w-M-r.right;
-    if(dx) p.style.transform='translateX('+Math.round(dx)+'px)';
-  }
-  function show(e){
-    var n=e.target.closest&&e.target.closest('.noted');
-    if(n&&!seen.has(n)){seen.add(n);clamp(n);}
-  }
-  document.addEventListener('pointerover',show,true);
-  document.addEventListener('focusin',show,true);
-  window.addEventListener('resize',function(){
-    seen=new WeakSet();
-    var ps=document.querySelectorAll('.notepop');
-    for(var i=0;i<ps.length;i++) ps[i].style.transform='';
-  },{passive:true});
-})();
-</script>"""
 
 def page(title, body, q="", nav=""):
     nav_parts = []
@@ -579,7 +219,7 @@ def page(title, body, q="", nav=""):
 <link rel="icon" href="data:,">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
-<style>{CSS}</style></head><body>
+<link rel="stylesheet" href="/static/site.css?v={_CSS_VER}"></head><body>
 <div class="top"></div>
 <header class="mast">
   <div class="brand">
@@ -591,7 +231,7 @@ def page(title, body, q="", nav=""):
 </header>
 <main>{body}</main>
 <footer>Preview interface for STEDT · <a href="https://github.com/larc-iu/stedt">github.com/larc-iu/stedt</a> · <a href="/_legacy/" rel="nofollow">Legacy interface</a></footer>
-{_NOTEPOP_JS}
+<script src="/static/site.js?v={_JS_VER}"></script>
 <script type="module" src="/assets/stedt-search.js"></script>
 </body></html>"""
 

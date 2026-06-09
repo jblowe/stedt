@@ -154,9 +154,15 @@ def main():
     for k in semks:
         write(f"thesaurus/{k}", lambda k=k: render.thesaurus(k))
 
-    src_db = os.path.join(os.path.dirname(os.path.abspath(__file__)), "search.sqlite3")
+    here = os.path.dirname(os.path.abspath(__file__))
+    src_db = os.path.join(here, "search.sqlite3")
     if os.path.exists(src_db):
         shutil.copy(src_db, os.path.join(OUT, "search.sqlite3"))
+    # static/ holds the shared stylesheet + universal JS that render.py links (site.css, site.js);
+    # copy it in so /static/... resolves (rewrite() applies the BASE prefix to those links).
+    static_src = os.path.join(here, "static")
+    if os.path.isdir(static_src):
+        shutil.copytree(static_src, os.path.join(OUT, "static"), dirs_exist_ok=True)
     open(os.path.join(OUT, ".nojekyll"), "w").close()   # don't let Pages run Jekyll on our files
     print(f"Done: {_ok} pages, {_fail} skipped, {time.time() - t0:.0f}s "
           f"(BASE={BASE!r}, LIMIT={LIMIT or 'all'})")
