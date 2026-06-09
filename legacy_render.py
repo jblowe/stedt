@@ -23,6 +23,12 @@ def esc(s):
     return _html.escape("" if s is None else str(s))
 
 
+def _lnote(xml):
+    """render.py's note XML→HTML, with etymon xref links rebased into the legacy subtree
+    (render_note emits root-absolute /etymon/N, which would 404 under /_legacy/)."""
+    return render.render_note(xml).replace('href="/etymon/', f'href="{BASE}/etymon/')
+
+
 # ---------------------------------------------------------------------------------- shared chrome
 def chrome(title, body, vert_tog=False, cognates=None, extra_scripts=""):
     """web/header.tt, guest branch: external rootcanal CSS/JS + the legacy-shim module (first, so its
@@ -330,11 +336,27 @@ def legacy_etymon(tag):
     def cell(v):
         return f"<td>{esc(v)}</td>"
 
+    # reflex-level notes (spec='L', non-internal) become numbered footnotes, sequentially in reflex
+    # order; the notes.rn column carries the footnote NUMBERS (etymon.js turns them into ^n links —
+    # emitting the raw count there made it render a bogus #foot<count> link).
+    lex_notes = {}
+    if rns:
+        qm = ",".join("?" * len(rns))
+        for rn, xml in c.execute(f"SELECT rn, xmlnote FROM notes WHERE rn IN ({qm}) AND spec='L' "
+                                 f"AND notetype!='I' AND xmlnote IS NOT NULL ORDER BY rn, ord, noteid", rns):
+            lex_notes.setdefault(rn, []).append(xml)
+
+    footnotes = []  # (num, html)
     rows_html = ""
     for r in recs:
+        nums = []
+        for xml in lex_notes.get(r["rn"], []):
+            footnotes.append((len(footnotes) + 1, _lnote(xml)))
+            nums.append(footnotes[-1][0])
+        notes_col = " ".join(str(x) for x in nums) if nums else "0"
         vals = [r["rn"], ",".join(ana.get(r["rn"], [])), r["lgid"], r["reflex"], r["gloss"], r["gfn"],
                 r["language"], r["grpid"], r["grpno"], r["grp"], r["genetic"], r["citation"],
-                r["srcabbr"], r["srcid"], r["num_notes"]]
+                r["srcabbr"], r["srcid"], notes_col]
         rows_html += "<tr>" + "".join(cell(v) for v in vals) + "</tr>\n"
 
     # notes (spec=E, not comparanda 'F', not internal 'I') + Chinese comparanda ('F')
@@ -377,7 +399,7 @@ def legacy_etymon(tag):
                       for m in meso)
         meso_html = f'Reconstructed mesoroots below:\n<ul class="mesolist">{lis}</ul>'
 
-    notes_html = "".join(f'<div class="notepreview"><p>{render.render_note(n["xmlnote"])}</p></div>' for n in notes)
+    notes_html = "".join(f'<div class="notepreview">{_lnote(n["xmlnote"])}</div>' for n in notes)
 
     table_html = ""
     if recs:
@@ -388,13 +410,18 @@ def legacy_etymon(tag):
     comp_html = ""
     if comp:
         label = "Chinese comparand" + ("um" if len(comp) == 1 else "a")
-        comp_html = f'<h2>{label}</h2>' + "".join(f'<p>{render.render_note(n["xmlnote"])}</p>' for n in comp)
+        comp_html = f'<h2>{label}</h2>' + "".join(_lnote(n["xmlnote"]) for n in comp)
+
+    # reflex-note endnotes (rootcanal lists these at the bottom; the notes.rn column links to them)
+    footnotes_html = "".join(
+        f'<div class="footnote" id="foot{num}"><a href="#toof{num}" class="left">^ {num}.</a> '
+        f'<div class="notepreview">{html}</div></div>\n' for num, html in footnotes)
 
     body = (f'{allobox}\n<p>{crumbs_html}</p>\n{heading}\n{meso_html}\n{notes_html}\n{table_html}\n{comp_html}\n'
-            f'<br>\n')
+            f'<br>\n{footnotes_html}')
 
     scripts = f"""<script>
-var footnote_counter = 0;
+var footnote_counter = {len(footnotes)};
 skipped_roots[{tag}] = true;
 num_tables = 2;
 var stedt_other_username = '';
@@ -480,7 +507,7 @@ def legacy_source(srcabbr):
             f'<cite>{esc(title)}</cite>{"" if title.endswith((".", "?")) else "."}'
             f'{(" " + esc(_period(imprint))) if imprint else ""}\nAccessed via STEDT database '
             f'<tt>&lt;https://stedtdb.johnblowe.com/search/&gt;</tt> on {_BUILD_DATE}.</p>')
-    notes_html = "".join(f'<p>{render.render_note(n["xmlnote"])}</p>' for n in notes)
+    notes_html = "".join(f'<p>{_lnote(n["xmlnote"])}</p>' for n in notes)
 
     rows = ""
     for r in lgs:
@@ -599,7 +626,7 @@ def legacy_chapter(semkey):
             notes_html += (f'<div><a href="{BASE}/pdf/{nt["noteid"]}.pdf">'
                            f'<img src="{BASE}/png/{nt["noteid"]}.png"></a></div>')
         else:
-            notes_html += f'<p>{render.render_note(nt["xmlnote"])}</p>'
+            notes_html += f'<p>{_lnote(nt["xmlnote"])}</p>'
 
     etyma_section = f'<h2>Etyma in this chapter</h2>\n{table}' if table else ""
     body = f"""<p>[Back to the <a href="{BASE}/chapters">Chapter Browser</a>]</p>
