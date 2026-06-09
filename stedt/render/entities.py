@@ -154,9 +154,12 @@ def etymon(tag):
                     links.append(f'<a href="{etymon_href(mt)}">*{esc(alt(morph_labels[mt]))}</a>')
             anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ""
             note = "".join(f'<div class="rfxnote">{render_note(x)}</div>' for x in lnotes.get(r["rn"], []))
+            # whole row → this form's attestation (#rn on its language page), like the search/thesaurus
+            # rows; the language name / "also contains" / source / note links sit above the overlay
+            go = f'<a class="rx-go" href="{reflex_href(r["lgid"], r["rn"])}" aria-label="{esc(r["language"])}: go to this entry"></a>'
             rfx.append(
-                f'<div class="rfx" id="r{r["rn"]}"><a class="rnlink" href="#r{r["rn"]}" aria-label="Permalink to this entry"></a>{lang}'
-                f'<span class="form"><a href="{reflex_href(r["lgid"], r["rn"])}">{form}</a> {g}{pos}{anl}</span>{src}{note}</div>'
+                f'<div class="rfx" id="r{r["rn"]}">{go}<a class="rnlink" href="#r{r["rn"]}" aria-label="Permalink to this entry"></a>{lang}'
+                f'<span class="form">{form} {g}{pos}{anl}</span>{src}{note}</div>'
             )
         code = "" if k[0] in (None, "zz") else f'<span class="grpno">{esc(k[0])}</span>'
         sgs.append(
