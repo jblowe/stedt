@@ -7,98 +7,28 @@ from .db import con, reflex_semkey_counts
 from .text import esc, alt, natkey, rcount_txt
 from .notes import render_note
 from .shell import page, breadcrumb, reflex_counts, canon_lgid
+from .templating import env
 
 # ---------------------------------------------------------------- views
+_HOME = env.get_template("home.html")
+_ABOUT = env.get_template("about.html")
+
+
 def home():
-    banner = ('<div class="preview-banner" style="background:var(--accent);color:var(--paper);'
-              'padding:14px 20px;border-radius:3px;margin:0 0 22px;font-size:15px;line-height:1.55">'
-              '<b>Preview.</b> Data and features are incomplete and may change.</div>'
-              ) if PREVIEW else ""
-    body = banner + """
-    <div class="home">
-      <div class="bigsearch">
-        <input id="bs" placeholder="Search a meaning, form, or language — e.g. “ladder”, “gam”, “Lahu”" autocomplete="off">
-        <div class="drop" id="drop"></div>
-      </div>
-      <div class="entry">
-        <a href="/thesaurus">Browse by meaning</a>
-        <a href="/reconstructions">All reconstructions</a>
-        <a href="/languages">Languages</a>
-        <a href="/sources">Sources</a>
-        <a href="/etymon/260">A sample entry: *m-gam ‘ladder’</a>
-      </div>
-    </div>
-    <script>
-    const B=window.STEDT_BASE||'';
-    const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const altstar=s=>String(s).replace(/^\\s*\\*\\s*/,'').replace(/⪤\\s*\\*?/g,'⪤ *');
-    const bs=document.getElementById('bs'),d=document.getElementById('drop');let t;
-    const note=m=>{d.innerHTML='<div class="cap" style="padding:10px 12px">'+m+'</div>';d.style.display='block';};
-    bs.addEventListener('input',()=>{clearTimeout(t);const q=bs.value.trim();
-      if(q.length<2){d.style.display='none';return;}
-      t=setTimeout(async()=>{
-        if(!window.stedtSearch){return;}
-        if(!window.stedtDbLoaded)note('Loading search…');
-        let j;try{j=await window.stedtSearch(q,8);}catch(e){note('Search is unavailable.');return;}
-        let h='';
-        (j.languages||[]).forEach(x=>h+=`<a href="${B}/language/${x.lgid}"><span class="k">lang</span><span>${esc(x.language)}</span></a>`);
-        j.etyma.forEach(e=>h+=`<a href="${B}/etymon/${e.tag}"><span class="k">recon</span><span><span class="recon">${altstar(esc(e.protoform))}</span> · <span class="gl">${esc(e.protogloss)}</span></span></a>`);
-        j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:B+'/language/'+x.lgid+'#rn'+x.rn}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> <span class="gl">${esc(x.gloss)}</span>${x.gfn?` <span class="pos">${esc(x.gfn)}</span>`:''}</span></a>`);
-        d.innerHTML=h;d.style.display=h?'block':'none';},180);});
-    bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
-    document.addEventListener('click',e=>{if(!e.target.closest('.bigsearch'))d.style.display='none';});
-    </script>"""
-    return page("Home", body)
+    return page("Home", _HOME.render(preview=PREVIEW))
 
 def about():
-    c = con()
-    n = lambda s: c.execute(s).fetchone()[0]
-    ety = n("SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'")
-    rfx = n("SELECT count(*) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid WHERE ln.language NOT LIKE '*%'")
-    # count a "language" as a lect = (name, subgroup), matching the Languages index header and the
-    # canonicalization (a name spanning two subgroups, e.g. Lahu (Red), is two lects) — not bare name.
-    lgs = n("""SELECT count(*) FROM (SELECT 1 FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
-        WHERE ln.language!='' AND ln.language NOT LIKE '*%' GROUP BY ln.language, ln.grpid)""")
-    src = n("""SELECT count(*) FROM srcbib sb WHERE EXISTS(
+    conn = con()
+    one = lambda sql: conn.execute(sql).fetchone()[0]
+    ety = one("SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),\'\')!=\'DELETE\'")
+    rfx = one("SELECT count(*) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid WHERE ln.language NOT LIKE \'*%\'")
+    # a "language" is a lect = (name, subgroup), matching the Languages index header + canonicalization
+    lgs = one("""SELECT count(*) FROM (SELECT 1 FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
+        WHERE ln.language!=\'\' AND ln.language NOT LIKE \'*%\' GROUP BY ln.language, ln.grpid)""")
+    src = one("""SELECT count(*) FROM srcbib sb WHERE EXISTS(
         SELECT 1 FROM languagenames ln JOIN lexicon l ON l.lgid=ln.lgid WHERE ln.srcabbr=sb.srcabbr)""")
-    c.close()
-    stat = lambda v, l: f'<div><div class="n">{v:,}</div><div class="l">{l}</div></div>'
-    abbr = [("ST", "Sino-Tibetan"), ("TB", "Tibeto-Burman"), ("PTB", "Proto-Tibeto-Burman"),
-            ("HPTB", "Matisoff (2003), <i>Handbook of Proto-Tibeto-Burman</i>"),
-            ("STC", "Benedict (1972), <i>Sino-Tibetan: A Conspectus</i>"),
-            ("PLB", "Proto-Lolo-Burmese"), ("PKC", "Proto-Kuki-Chin"), ("PTani", "Proto-Tani")]
-    abbrhtml = "".join(f"<dt>{k}</dt><dd>{v}</dd>" for k, v in abbr)
-    body = f"""
-    <div class="ety-head">
-      <div class="pagetitle">About STEDT</div>
-    </div>
-    <div class="about">
-      <p>The Sino-Tibetan Etymological Dictionary and Thesaurus is a record of the
-      reconstructed vocabulary of the Sino-Tibetan language family: proto-forms, the
-      attested words that descend from them, and the semantic categories that organize them.</p>
-      <div class="stats">
-        {stat(ety, "reconstructions")}{stat(rfx, "attested forms")}
-        {stat(lgs, "languages")}{stat(src, "sources")}
-      </div>
-      <h3 class="sec-label">Provenance</h3>
-      <p>STEDT was compiled at the University of California, Berkeley, under the direction of
-      James A. Matisoff. This site is built faithfully from the STEDT v1.0 public release (2017):
-      etymon numbers and the underlying records are preserved, and no new reconstructions have
-      been added. It is a read-only republication intended to keep the resource available and
-      citable independently of any single institution.</p>
-      <h3 class="sec-label">Citing</h3>
-      <p>Each entry has a stable address of the form <code>{esc(CITE_BASE)}/etymon/&lt;number&gt;</code>,
-      and the etymon number is the citable identity. A ready-made citation appears at the foot of
-      every entry. When citing a particular attested form, cite its original source as well.</p>
-      <h3 class="sec-label">License</h3>
-      <p>STEDT v1.0 was released for public use; the licensing terms for this republication are
-      being finalized.</p>
-      <h3 class="sec-label">Contributing</h3>
-      <p>Corrections and additions are welcome. Every entry links to a way to suggest an edit;
-      proposed changes are reviewed before they go live.</p>
-      <h3 class="sec-label">Abbreviations</h3>
-      <dl class="abbr">{abbrhtml}</dl>
-    </div>"""
+    conn.close()
+    body = _ABOUT.render(ety=f"{ety:,}", rfx=f"{rfx:,}", lgs=f"{lgs:,}", src=f"{src:,}", cite_base=CITE_BASE)
     return page("About", body, nav="about")
 
 # Shared windowed-list engine for the big client-rendered lists (reconstructions index, search
