@@ -15,6 +15,7 @@ from .templating import env
 _HOME = env.get_template("home.html")
 _ABOUT = env.get_template("about.html")
 _LANGUAGES = env.get_template("languages_index.html")
+_SOURCES = env.get_template("sources_index.html")
 
 
 def home():
@@ -208,8 +209,8 @@ def languages_index():
     return page("Languages", _LANGUAGES.render(ntot=f"{ntot:,}", blocks=blocks), nav="languages")
 
 def sources_index():
-    c = con()
-    rows = c.execute("""SELECT sb.srcabbr AS srcabbr, sb.citation AS citation, sb.author AS author,
+    conn = con()
+    rows = conn.execute("""SELECT sb.srcabbr AS srcabbr, sb.citation AS citation, sb.author AS author,
             sb.year AS year, sb.title AS title, sb.imprint AS imprint,
             count(DISTINCT CASE WHEN l.rn IS NOT NULL AND ln.language NOT LIKE '*%' AND ln.language!='' THEN ln.lgid END) AS nlang,
             count(CASE WHEN ln.language NOT LIKE '*%' AND ln.language!='' THEN l.rn END) AS nforms
@@ -219,7 +220,8 @@ def sources_index():
         WHERE coalesce(sb.srcabbr,'')!=''
         GROUP BY sb.srcabbr
         ORDER BY lower(coalesce(nullif(sb.author,''),nullif(sb.citation,''),sb.srcabbr)), sb.year""").fetchall()
-    c.close()
+    conn.close()
+
     def refstr(s):
         # full reference incl. the publication imprint (journal/issue/pages or publisher),
         # so the venue is visible at a glance instead of only on the detail page.
@@ -230,54 +232,22 @@ def sources_index():
             sep = '' if base.rstrip().endswith('.') else '.'   # avoid "Title.. Imprint"
             base = (base.rstrip() + sep + ' ' + s['imprint']) if base else s['imprint']
         return base
-    data = [s for s in rows if s['nforms']]
-    refonly = [s for s in rows if not s['nforms']]
 
-    def li(s):
-        cit = esc(s['citation'] or s['srcabbr'])
-        ref = esc(refstr(s))
-        refhtml = f'<span class="srcref">{ref}</span>' if ref and ref != cit else ''
-        au = esc((s['author'] or s['citation'] or s['srcabbr'] or '').lower())
-        return (f'<li data-author="{au}" data-forms="{s["nforms"]}" data-langs="{s["nlang"]}">'
-                f'<a href="/source/{esc(s["srcabbr"])}">{cit}</a>{refhtml}'
-                f'<span class="srccnt">{s["nforms"]:,} forms · {s["nlang"]} languages</span></li>')
-    main = ''.join(li(s) for s in data)
-    refitems = ''.join(
-        f'<li><a href="/source/{esc(s["srcabbr"])}">{esc(s["citation"] or s["srcabbr"])}</a> '
-        f'<span class="srcref">{esc(refstr(s))}</span></li>' for s in refonly)
-    refblock = (f'<details class="seg" style="margin-top:24px"><summary>Reference-only sources'
-                f'<span class="c">{len(refonly)}</span></summary>'
-                f'<p class="cap">Cited in the literature but with no attested forms held in STEDT.</p>'
-                f'<ul class="idx">{refitems}</ul></details>') if refonly else ''
-    total_forms = sum(s['nforms'] for s in data)
-    sortctl = ('<div class="srcsort">Sort <select id="srcsort" aria-label="Sort sources">'
-               '<option value="author">by author</option>'
-               '<option value="forms">most forms</option>'
-               '<option value="langs">most languages</option></select></div>')
-    sort_js = """
-    <script>
-    (function(){
-      var sel=document.getElementById('srcsort'),ul=document.getElementById('srclist');
-      if(!sel||!ul)return;
-      var items=[].slice.call(ul.children);
-      sel.addEventListener('change',function(){
-        var k=sel.value;
-        items.sort(function(a,b){
-          if(k==='author'){var x=a.getAttribute('data-author'),y=b.getAttribute('data-author');
-            return x<y?-1:x>y?1:0;}
-          return (+b.getAttribute('data-'+k)||0)-(+a.getAttribute('data-'+k)||0);
-        });
-        var f=document.createDocumentFragment();
-        items.forEach(function(li){f.appendChild(li);});
-        ul.appendChild(f);
-      });
-    })();
-    </script>"""
-    body = (f'<div class="ety-head"><div class="pagetitle">Sources</div>'
-            f'<div class="metabar"><span><b>{len(data):,}</b> sources with data</span>'
-            f'<span><b>{total_forms:,}</b> forms</span></div></div>'
-            f'{sortctl}<ul class="srcidx" id="srclist">{main}</ul>{refblock}{sort_js}')
-    return page("Sources", body, nav="sources")
+    def item(s):
+        cit = Markup(esc(s['citation'] or s['srcabbr']))
+        ref = Markup(esc(refstr(s)))
+        return {
+            "srcabbr": Markup(esc(s['srcabbr'])), "cit": cit, "ref": ref,
+            "show_ref": bool(ref) and ref != cit,   # data list hides ref when it just repeats the citation
+            "au": Markup(esc((s['author'] or s['citation'] or s['srcabbr'] or '').lower())),
+            "nforms": s['nforms'], "nforms_fmt": f"{s['nforms']:,}", "nlang": s['nlang'],
+        }
+
+    data = [item(s) for s in rows if s['nforms']]
+    refonly = [item(s) for s in rows if not s['nforms']]
+    total_forms = sum(s['nforms'] for s in rows if s['nforms'])
+    return page("Sources", _SOURCES.render(
+        ndata=f"{len(data):,}", total_forms=f"{total_forms:,}", data=data, refonly=refonly), nav="sources")
 
 def search_page(q=""):
     """Static results shell — reads ?q= and renders matches client-side via window.stedtSearch,
