@@ -182,7 +182,6 @@ function elink(db, tags) {
 // ------------------------------------------------------------------------------- endpoint dispatch
 // Returns a Promise<{ctype, body}> or null if the path isn't a legacy endpoint.
 function dispatch(path, params) {
-  let m;
   if (/(^|\/)search\/ajax$/.test(path)) {
     const tbl = params.get('tbl');
     return getDb().then((db) => json(tbl === 'etyma' ? searchEtyma(db, params) : searchLexicon(db, params)));
@@ -190,7 +189,12 @@ function dispatch(path, params) {
   if (/(^|\/)search\/etyma$/.test(path)) return getDb().then((db) => json(searchEtyma(db, params)));
   if (/(^|\/)autosuggest\/lgs$/.test(path)) return getDb().then((db) => json(autosuggestLgs(db, params.get('q') || '')));
   if (/(^|\/)search\/elink$/.test(path)) return getDb().then((db) => html(elink(db, params.getAll('t'))));
-  if ((m = /(^|\/)notes\/notes_for_rn$/.test(path))) return getDb().then(() => html(''));  // TODO: notes
+  if (/(^|\/)notes\/notes_for_rn$/.test(path)) return getDb().then((db) => {
+    const r = rows(db, 'SELECT html FROM lexnotes WHERE rn=?', [params.get('rn') || '']);
+    const s = r.length && r[0][0] ? r[0][0] : '';
+    // rebase render_note's root-relative xref links into the legacy subtree
+    return html(s.replace(/href="\/etymon\//g, 'href="' + base() + '/etymon/'));
+  });
   return null;
 }
 const json = (o) => ({ ctype: 'application/json', body: JSON.stringify(o) });
