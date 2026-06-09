@@ -1,37 +1,16 @@
 // Thesaurus "Attestations": on page load, query the search WASM DB (window.stedtFormsByCategory,
 // from search.js) for every reflex filed at this node's semkey(s) — carried in data-semkeys — then
-// render in 200-row windows with an in-memory filter, so a 13k-form category stays a light DOM.
+// render in 200-row windows with an in-memory filter, so a 13k-form category stays a light DOM. Rows
+// are the shared reflexRow (identical to the search results' attested-form rows).
 import { windowedList } from './windowed.js';
+import { reflexRow, norm } from './rows.js';
 
 (function () {
   var wrap = document.querySelector('.catwrap'); if (!wrap) return;
-  var B = window.STEDT_BASE || '';
-  var esc = function (s) {
-    return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
-    });
-  };
-  var norm = function (s) { return String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); };
-  var altstar = function (s) { return String(s).replace(/^\s*\*\s*/, '').replace(/⪤\s*\*?/g, '⪤ *'); };
   var list = wrap.querySelector('.catlist'),
     count = wrap.querySelector('.catcount'),
     input = wrap.querySelector('.catfilter');
   var DATA = null, view = [], loaded = false, loading = false;
-  function row(r) {
-    var home = B + '/language/' + r.lgid + '#rn' + r.rn;
-    var gl = r.note ? '<span class="g noted" tabindex="0">' + esc(r.gloss) + '<span class="notepop" role="note">' + esc(r.note) + '</span></span>' : '<span class="g">' + esc(r.gloss) + '</span>';
-    var pos = r.gfn ? ' <span class="pos">' + esc(r.gfn) + '</span>' : '';
-    var via = (r.etyma && r.etyma.length) ? ' <span class="vias">' + r.etyma.map(function (x) {
-      return '<a class="via" href="' + B + '/etymon/' + x.tag + '">› *' + altstar(esc(x.pf)) + '</a>';
-    }).join(' ') + '</span>' : '';
-    var src = r.srcabbr ? '<a href="' + B + '/source/' + esc(r.srcabbr) + '">' + esc(r.citation || r.srcabbr) + '</a>' : '';
-    // consistent with the search results: the whole row links to this form's attestation (#rn) via a
-    // stretched overlay, while the language name (raised above it) goes to the top of its language page
-    return '<div class="rx-hit"><a class="rx-go" href="' + home + '" aria-label="' + esc(r.language) + ': go to this entry"></a>' +
-      '<a class="lang" href="' + B + '/language/' + r.lgid + '">' + esc(r.language) + '</a>' +
-      '<span class="rx-mid"><span class="lat">' + esc(r.reflex) + '</span> ' + gl + pos + via + '</span>' +
-      '<span class="rx-src">' + src + '</span></div>';
-  }
   function updateCount(shown) {
     if (!DATA) { count.textContent = ''; return; }
     var t = DATA.length, m = view.length;
@@ -40,7 +19,7 @@ import { windowedList } from './windowed.js';
     if (shown < m) s += ' · ' + shown.toLocaleString() + ' shown';
     count.textContent = s;
   }
-  var win = windowedList(list, { row: row, onRender: function (shown) { updateCount(shown); } });
+  var win = windowedList(list, { row: reflexRow, onRender: function (shown) { updateCount(shown); } });
   function apply() {
     var q = norm(input.value.trim());
     view = q ? DATA.filter(function (r) { return r._k.indexOf(q) >= 0; }) : DATA;

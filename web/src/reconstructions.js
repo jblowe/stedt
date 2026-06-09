@@ -1,15 +1,13 @@
 // Reconstructions index: the full etyma list ships once as JSON in <script id="recon-data"> and is
-// rendered client-side in windows, with an instant in-page filter.
+// rendered client-side in windows, with an instant in-page filter. Shares the URL + escape helpers
+// with the other views. NOTE: it keeps its own compact-ARRAY row rather than rows.js `etymonRow`,
+// because the payload is a positional array (to keep the ~4k-etyma JSON small) and — unlike the
+// search etymon row — it does NOT comma-format the reflex count and pre-applies `alt()` server-side.
+// Aligning it with `etymonRow` is a deliberate output change (see project-attestation-links).
 import { windowedList } from './windowed.js';
+import { esc, norm, etymonHref } from './rows.js';
 
 (function () {
-  var B = window.STEDT_BASE || '';
-  var esc = function (s) {
-    return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) {
-      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c];
-    });
-  };
-  var norm = function (s) { return String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, ''); };
   var DATA = JSON.parse(document.getElementById('recon-data').textContent);
   for (var i = 0; i < DATA.length; i++) { var r = DATA[i]; r[5] = norm(r[1] + ' ' + r[2] + ' ' + r[3] + ' #' + r[0]); }
   var view = DATA;
@@ -19,7 +17,7 @@ import { windowedList } from './windowed.js';
     input = document.getElementById('rfilter');
   function row(r) {
     var rc = r[4] ? (' · ' + r[4] + (r[4] == 1 ? ' reflex' : ' reflexes')) : '';
-    return '<a class="ety-hit" href="' + B + '/etymon/' + r[0] + '">' +
+    return '<a class="ety-hit" href="' + etymonHref(r[0]) + '">' +
       '<span class="pf2 lat">' + esc(r[1]) + '</span>' +
       '<span class="pg2">' + esc(r[2]) + '</span>' +
       '<span class="tagn">' + esc(r[3]) + ' #' + esc(r[0]) + rc + '</span></a>';
