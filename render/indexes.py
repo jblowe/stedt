@@ -18,6 +18,7 @@ _LANGUAGES = env.get_template("languages_index.html")
 _SOURCES = env.get_template("sources_index.html")
 _RECONSTRUCTIONS = env.get_template("reconstructions.html")
 _SEARCH = env.get_template("search.html")
+_THESAURUS = env.get_template("thesaurus.html")
 
 
 def home():
@@ -282,40 +283,9 @@ _CATFORMS_JS = """
 </script>"""
 
 def thesaurus(semkey=None):
-    c = con()
-    body = ['<div class="thes">']
-    if semkey:
-        # The integer node N and the chapter N.0 are the same category-overview node;
-        # treat /thesaurus/N.0 as an alias of /thesaurus/N so it doesn't render an empty,
-        # self-referential ("The Body › The Body") page. An integer node also owns its N.0
-        # chapter's notes and any etyma filed directly on N.0 (e.g. 10.0 has 10).
-        if re.fullmatch(r'\d+\.0', semkey):
-            semkey = semkey.split('.')[0]
-        own = [semkey, semkey + '.0'] if '.' not in semkey else [semkey]
-        ownph = ','.join('?' * len(own))
-        title = c.execute("SELECT chaptertitle FROM chapters WHERE semkey=?", (semkey,)).fetchone()
-        if not title and '.' not in semkey:
-            title = c.execute("SELECT chaptertitle FROM chapters WHERE semkey=?", (semkey + '.0',)).fetchone()
-        title = title[0] if title else semkey
-        cnotes = c.execute(f"""SELECT xmlnote FROM notes WHERE id IN ({ownph}) AND spec='C'
-                             AND xmlnote IS NOT NULL ORDER BY ord, noteid""", own).fetchall()
-        body.append(f'<div class="crumbs"><a href="/thesaurus">Thesaurus</a> &nbsp;›&nbsp; {breadcrumb(c, semkey)}</div>')
-        body.append(f'<h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:10px 0 18px">{esc(title)}</h2>')
-        if cnotes:
-            body.append('<section class="notes">'
-                        + ''.join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in cnotes)
-                        + '</section>')
-        depth = len(semkey.split('.'))
-        # Children at the next depth, minus the N.0 overview (it IS this integer node).
-        kids = c.execute("""SELECT semkey,chaptertitle FROM chapters
-            WHERE semkey LIKE ? AND (length(semkey)-length(replace(semkey,'.','')))=?
-              AND semkey NOT LIKE '%.0'
-            """, (semkey + '.%', depth)).fetchall()
-    else:
-        body.append('<h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px">Semantic Thesaurus</h2>')
-        # The whole tree on one page (Ctrl-F-able). N.0 overviews collapse to their integer chapter
-        # root; the deleted/apocryphal buckets (999, 950.1, x.x) are omitted as everywhere else.
-        nodes = c.execute("SELECT semkey, chaptertitle FROM chapters WHERE coalesce(semkey,'')!=''").fetchall()
+    conn = con()
+    if semkey is None:
+        nodes = conn.execute("SELECT semkey, chaptertitle FROM chapters WHERE coalesce(semkey,'')!=''").fetchall()
         SPECIAL = {'999', '950.1', 'x.x'}
         scounts = reflex_semkey_counts()   # exact per-semkey reflex counts (proto-excluded)
         tree = []
@@ -328,71 +298,74 @@ def thesaurus(semkey=None):
                 disp, depth = sk, sk.count('.')
             # both counts are exact (this node only, NOT the subtree): an integer root N also
             # owns its N.0 overview key. Reconstructions and reflexes are mostly filed at leaves,
-            # so upper nodes read small/zero — that's intended (each item counted once, at home).
+            # so upper nodes read small/zero - that's intended (each item counted once, at home).
             own_n = [disp, disp + '.0'] if '.' not in disp else [disp]
             ph = ','.join('?' * len(own_n))
-            cnt = c.execute(f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' "
+            cnt = conn.execute(f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' "
                             f"AND {ECAT} IN ({ph})", own_n).fetchone()[0]
             lcnt = sum(scounts.get(k, 0) for k in own_n)
             tree.append((disp, depth, n['chaptertitle'], cnt, lcnt))
         tree.sort(key=lambda r: natkey(r[0]))
-        body.append('<p class="cap">Each count is <b>reconstructions / attestations</b> filed at that node.</p>')
-        body.append('<ul class="tree">')
-        for disp, depth, title, cnt, lcnt in tree:
-            ti = (f'<span class="ti" style="font-weight:600">{esc(title)}</span>' if depth == 0
-                  else f'<span class="ti">{esc(title)}</span>')
-            ct = (f'<span class="ct" title="reconstructions / attestations">{cnt:,} / {lcnt:,}</span>'
-                  if (cnt or lcnt) else '')
-            body.append(f'<li style="margin-left:{depth * 18}px"><a class="row" href="/thesaurus/{disp}">'
-                        f'<span class="sk">{esc(disp)}</span>{ti}{ct}</a></li>')
-        body.append('</ul>')
-        c.close()
-        body.append('</div>')
-        return page("Thesaurus", ''.join(body), nav="thesaurus")
+        conn.close()
+        treeinfo = [{"pad": depth * 18, "disp": disp, "disp_esc": Markup(esc(disp)),
+                     "ti": Markup(f'<span class="ti" style="font-weight:600">{esc(title)}</span>' if depth == 0
+                                  else f'<span class="ti">{esc(title)}</span>'),
+                     "ct": Markup(f'<span class="ct" title="reconstructions / attestations">{cnt:,} / {lcnt:,}</span>'
+                                  if (cnt or lcnt) else '')}
+                    for disp, depth, title, cnt, lcnt in tree]
+        return page("Thesaurus", _THESAURUS.render(root=True, tree=treeinfo), nav="thesaurus")
+
+    # The integer node N and the chapter N.0 are the same category-overview node; treat
+    # /thesaurus/N.0 as an alias of /thesaurus/N so it doesn't render an empty, self-referential page.
+    if re.fullmatch(r'\d+\.0', semkey):
+        semkey = semkey.split('.')[0]
+    own = [semkey, semkey + '.0'] if '.' not in semkey else [semkey]
+    ownph = ','.join('?' * len(own))
+    title = conn.execute("SELECT chaptertitle FROM chapters WHERE semkey=?", (semkey,)).fetchone()
+    if not title and '.' not in semkey:
+        title = conn.execute("SELECT chaptertitle FROM chapters WHERE semkey=?", (semkey + '.0',)).fetchone()
+    title = title[0] if title else semkey
+    cnotes = conn.execute(f"""SELECT xmlnote FROM notes WHERE id IN ({ownph}) AND spec='C'
+                         AND xmlnote IS NOT NULL ORDER BY ord, noteid""", own).fetchall()
+    crumb = breadcrumb(conn, semkey)
+    depth = len(semkey.split('.'))
+    # Children at the next depth, minus the N.0 overview (it IS this integer node).
+    kids = conn.execute("""SELECT semkey,chaptertitle FROM chapters
+        WHERE semkey LIKE ? AND (length(semkey)-length(replace(semkey,'.','')))=?
+          AND semkey NOT LIKE '%.0'
+        """, (semkey + '.%', depth)).fetchall()
     kids = sorted(kids, key=lambda r: natkey(r['semkey']))
-    if kids:
-        body.append('<ul>')
-        for k in kids:
-            sk = k['semkey']
-            kown = [sk, sk + '.0'] if '.' not in sk else [sk]   # node-only, matching the index (not subtree)
-            kph = ','.join('?' * len(kown))
-            cnt = c.execute(f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' "
-                            f"AND {ECAT} IN ({kph})", kown).fetchone()[0]
-            body.append(f'<li><a class="row" href="/thesaurus/{k["semkey"]}">'
-                        f'<span class="sk">{esc(k["semkey"])}</span><span class="ti">{esc(k["chaptertitle"])}</span>'
-                        f'<span class="ct">{cnt} etyma</span></a></li>')
-        body.append('</ul>')
-    if semkey:
-        direct = c.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
-            FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-            WHERE {ECAT} IN ({ownph})
-              AND coalesce(upper(e.status),'')!='DELETE'
-            ORDER BY e.sequence, e.protogloss""", own).fetchall()
-        if direct:
-            dcounts = reflex_counts(c, [e['tag'] for e in direct])
-            body.append(f'<div class="ety-list"><h3 style="margin-top:30px">Reconstructions <span class="ct">{len(direct):,}</span></h3>')
-            for e in direct:
-                body.append(f'<div class="ety-hit"><a href="/etymon/{e["tag"]}" class="pf2 lat">{esc(alt(e["protoform"]))}</a>'
-                            f'<span class="pg2">{esc(e["protogloss"])}</span>'
-                            f'<span class="tagn">{esc(e["plg"])} #{e["tag"]}{rcount_txt(dcounts.get(e["tag"], 0))}</span></div>')
-            body.append('</div>')
-        # Attested forms (reflexes) filed directly under this meaning — a separate, gloss-level
-        # axis from the etyma above. Most reflexes are tagged to no etymon, so they're reachable
-        # ONLY here or by language browse. Loaded lazily on expand (reuses the search WASM DB);
-        # the count is static so the section is informative before anything downloads.
-        scounts = reflex_semkey_counts()
-        nforms = sum(scounts.get(k, 0) for k in own)
-        if nforms:
-            keys_json = esc(json.dumps(own, separators=(',', ':')))
-            body.append(
-                f'<div class="ety-list catwrap" data-semkeys="{keys_json}">'
-                f'<h3 style="margin-top:30px">Attestations <span class="ct">{nforms:,}</span></h3>'
-                '<div class="rbar"><input class="catfilter" type="search" '
-                'placeholder="Filter by form, gloss, or language…" autocomplete="off">'
-                '<span class="rcount catcount"></span></div>'
-                '<div class="catlist"></div>'
-                '</div>'
-                + _CATFORMS_JS)
-    c.close()
-    body.append('</div>')
-    return page("Thesaurus" + (f": {semkey}" if semkey else ""), ''.join(body), nav="thesaurus")
+    kidinfo = []
+    for k in kids:
+        sk = k['semkey']
+        kown = [sk, sk + '.0'] if '.' not in sk else [sk]   # node-only, matching the index (not subtree)
+        kph = ','.join('?' * len(kown))
+        cnt = conn.execute(f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' "
+                        f"AND {ECAT} IN ({kph})", kown).fetchone()[0]
+        kidinfo.append({"semkey": sk, "semkey_esc": Markup(esc(sk)),
+                        "title": Markup(esc(k['chaptertitle'])), "cnt": cnt})
+    direct = conn.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
+        FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
+        WHERE {ECAT} IN ({ownph})
+          AND coalesce(upper(e.status),'')!='DELETE'
+        ORDER BY e.sequence, e.protogloss""", own).fetchall()
+    dinfo = []
+    if direct:
+        dcounts = reflex_counts(conn, [e['tag'] for e in direct])
+        dinfo = [{"tag": e['tag'], "pf": Markup(esc(alt(e['protoform']))),
+                  "pg": Markup(esc(e['protogloss'])),
+                  "tagn": Markup(f'{esc(e["plg"])} #{e["tag"]}{rcount_txt(dcounts.get(e["tag"], 0))}')}
+                 for e in direct]
+    # Attested forms (reflexes) filed directly under this meaning - a separate, gloss-level axis from
+    # the etyma above. Loaded lazily on expand (reuses the search WASM DB); the count is static.
+    scounts = reflex_semkey_counts()
+    nforms = sum(scounts.get(k, 0) for k in own)
+    attest = None
+    if nforms:
+        attest = {"keys_json": Markup(esc(json.dumps(own, separators=(',', ':')))), "nforms": f"{nforms:,}"}
+    conn.close()
+    return page("Thesaurus" + f": {semkey}", _THESAURUS.render(
+        root=False, crumb=Markup(crumb), title=Markup(esc(title)),
+        cnotes=[Markup(render_note(r['xmlnote'])) for r in cnotes],
+        kids=kidinfo, direct=dinfo, ndirect=f"{len(direct):,}", attest=attest,
+        catforms_js=Markup(_CATFORMS_JS)), nav="thesaurus")
