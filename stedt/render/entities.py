@@ -186,7 +186,11 @@ def etymon(tag):
             + "</section>"
         )
 
-    cnt = f'<span class="cnt">{len(reflex_rows)} reflexes · {nsub} subgroups</span>'
+    nr = len(reflex_rows)
+    cnt = (
+        f'<span class="cnt">{nr:,} reflex{"" if nr == 1 else "es"} · '
+        f'{nsub} subgroup{"" if nsub == 1 else "s"}</span>'
+    )
     reflexeshtml = (
         f'<section class="reflexes etymon-rfx"><h3>Reflexes &amp; cognates{cnt}</h3>{jump}{"".join(sgs)}</section>'
         if sgs
