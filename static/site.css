@@ -136,6 +136,9 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx .form{font-size:17px;}
 .rfx .form .br{color:var(--mut);}
 .rfx .src{font-size:13px;color:var(--mut);}
+/* etymon/meso rows let the source TRAIL the form (1fr col, left-aligned) rather than pin hard-right
+   (avoids a huge gap in the full-width section); give it room so the citation doesn't crowd the gloss */
+.sg .rfx .src,.meso .rfx .src{margin-left:1.8em;}
 .rfx .loc{color:var(--mut);font-variant-numeric:tabular-nums;cursor:help;border-bottom:1px dotted var(--rule);}
 .rfx .g{color:var(--soft);font-size:13.5px;font-style:italic;}
 .rfx a{border-bottom:none;}
@@ -349,6 +352,7 @@ pre.diff .hdr{color:var(--mut);}
 
   /* record rows collapse to a single stacked column (lang / form·gloss / source) */
   .rfx,.sg .rfx,.meso .rfx{grid-template-columns:1fr;gap:1px 0;padding:8px 0;}
+  .sg .rfx .src,.meso .rfx .src{margin-left:0;}   /* stacked: drop the trailing-source indent */
   .rx-hit{grid-template-columns:1fr;gap:1px 0;}
   .rx-hit .rx-src{text-align:left;}
   .ety-hit{grid-template-columns:1fr auto;gap:2px 12px;}
