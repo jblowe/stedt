@@ -1,0 +1,21 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ title }} · STEDT</title>
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/static/site.css?v={{ css_ver }}"></head><body>
+<div class="top"></div>
+<header class="mast">
+  <div class="brand">
+    <span class="wm"><a href="/">STEDT</a></span>
+    <span class="sub">Sino-Tibetan Etymological Dictionary &amp; Thesaurus</span>
+  </div>
+  <nav class="main">{% for key, href, label in nav_items %}<a href="{{ href }}"{% if nav == key %} class="active"{% endif %}>{{ label }}</a>{% endfor %}</nav>
+  <form class="hsearch" action="/search" method="get"><input name="q" placeholder="search…" value="{{ q }}" autocomplete="off"></form>
+</header>
+<main>{{ body }}</main>
+<footer>Preview interface for STEDT · <a href="https://github.com/larc-iu/stedt">github.com/larc-iu/stedt</a> · <a href="/_legacy/" rel="nofollow">Legacy interface</a></footer>
+<script src="/static/site.js?v={{ js_ver }}"></script>
+<script type="module" src="/assets/stedt-search.js"></script>
+</body></html>

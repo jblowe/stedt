@@ -16,7 +16,7 @@ dump.sql ──tools/build_db.py──▶ stedt.sqlite ──tools/export_files.
 ## Prerequisites
 
 ```sh
-pip install pyyaml
+pip install pyyaml jinja2
 npm ci              # esbuild + the WASM SQLite bundle
 ```
 

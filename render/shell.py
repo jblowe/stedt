@@ -1,6 +1,9 @@
 """Page chrome (masthead/nav/footer) + shared, DB-querying view helpers."""
+from markupsafe import Markup
+
 from .config import _CSS_VER, _JS_VER
 from .db import con
+from .templating import env
 from .text import esc
 
 _NAV = [("thesaurus", "/thesaurus", "Thesaurus"),
@@ -9,36 +12,16 @@ _NAV = [("thesaurus", "/thesaurus", "Thesaurus"),
         ("sources", "/sources", "Sources"),
         ("about", "/about", "About")]
 
+_BASE = env.get_template("base.html")
+
 
 def page(title, body, q="", nav=""):
-    nav_parts = []
-    for key, href, label in _NAV:
-        cls = ' class="active"' if nav == key else ''
-        nav_parts.append(f'<a href="{href}"{cls}>{label}</a>')
-    navhtml = "".join(nav_parts)
-    search_box = (f'<form class="hsearch" action="/search" method="get">'
-                  f'<input name="q" placeholder="search…" value="{esc(q)}" autocomplete="off"></form>')
-    return f"""<!doctype html><html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc(title)} · STEDT</title>
-<link rel="icon" href="data:,">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,400&family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/static/site.css?v={_CSS_VER}"></head><body>
-<div class="top"></div>
-<header class="mast">
-  <div class="brand">
-    <span class="wm"><a href="/">STEDT</a></span>
-    <span class="sub">Sino-Tibetan Etymological Dictionary &amp; Thesaurus</span>
-  </div>
-  <nav class="main">{navhtml}</nav>
-  {search_box}
-</header>
-<main>{body}</main>
-<footer>Preview interface for STEDT · <a href="https://github.com/larc-iu/stedt">github.com/larc-iu/stedt</a> · <a href="/_legacy/" rel="nofollow">Legacy interface</a></footer>
-<script src="/static/site.js?v={_JS_VER}"></script>
-<script type="module" src="/assets/stedt-search.js"></script>
-</body></html>"""
+    # title/q are pre-escaped with esc() (html.escape's entity choices, e.g. &#x27;/&quot;) and
+    # body is already-rendered HTML, so all three pass as Markup — emitted verbatim, not re-escaped.
+    return _BASE.render(
+        title=Markup(esc(title)), body=Markup(body), q=Markup(esc(q)),
+        nav=nav, nav_items=_NAV, css_ver=_CSS_VER, js_ver=_JS_VER,
+    )
 
 def breadcrumb(c, semkey):
     parts = (semkey or "").split('.')
