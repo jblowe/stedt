@@ -15,6 +15,10 @@ export const languageHref = lgid => `${B}/language/${lgid}`;            // top o
 export const reflexHref = (lgid, rn) => `${B}/language/${lgid}#rn${rn}`; // a specific attestation row
 export const etymonHref = tag => `${B}/etymon/${tag}`;
 export const sourceHref = abbr => `${B}/source/${esc(abbr)}`;
+// render_note (server) ships root-relative xref links (/etymon/…) in the search DB's note HTML;
+// prepend the page base so they resolve under /stedt (or wherever the site is mounted). The note is
+// then injected as HTML (it's already escaped/sanitised by render_note), not re-escaped.
+export const rebase = html => String(html == null ? '' : html).replace(/href="\//g, `href="${B}/`);
 
 // --- per-syllable etymon links (faithful port of the original SylStation.syllabify): when a
 // reflex's syllables are individually tagged, each links to its etymon. Char classes [(] [)] [|]
@@ -72,7 +76,7 @@ export const reflexRow = r => {
   const src = r.srcabbr ? `<a href="${sourceHref(r.srcabbr)}">${esc(r.citation || r.srcabbr)}</a>` : '';
   const pos = r.gfn ? ` <span class="pos">${esc(r.gfn)}</span>` : '';
   const gl = r.note
-    ? `<span class="g noted" tabindex="0">${esc(r.gloss)}<span class="notepop" role="note">${esc(r.note)}</span></span>`
+    ? `<span class="g noted" tabindex="0">${esc(r.gloss)}<span class="notepop" role="note">${rebase(r.note)}</span></span>`
     : `<span class="g">${esc(r.gloss)}</span>`;
   const lf = sylLink(r); let mid;
   if (lf) {                              // syllables carry their own etymon links

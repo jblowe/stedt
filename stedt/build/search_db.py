@@ -62,27 +62,22 @@ def main():
         -- for no perceptible gain. Keep the transfer lean.
     """)
 
-    # Per-reflex lexical notes (what entry pages show: spec='L', notetype!='I'), stripped to plain
-    # text so a search result can display them. ~2.7K notes / ~0.16 MB — display only, NOT added to
-    # the FTS index (so notes are shown, not searched).
-    import re
-
-    _TAG = re.compile(r"<[^>]+>")
-
-    def _plain(s):
-        s = _TAG.sub(" ", s or "")  # space, not empty: <br/> & block tags are word/line boundaries
-        for a, b in (("&lt;", "<"), ("&gt;", ">"), ("&amp;", "&"), ("&apos;", "'"), ("&quot;", '"')):
-            s = s.replace(a, b)
-        return " ".join(s.split())
+    # Per-reflex lexical notes (what entry pages show: spec='L', notetype!='I'), rendered to HTML with
+    # the SAME render_note() the entity pages use — so a search/thesaurus result shows the identical
+    # note, cross-reference links and all, instead of stripped plain text. Each note is flattened into
+    # one inline <span class="np"> (matching the entity-page popover markup); the client (rows.js
+    # reflexRow) injects it as HTML and rebases the root-relative /etymon links to the page base.
+    # Display only, NOT added to the FTS index (notes are shown, not searched). ~2.7K notes.
+    from stedt.render.notes import render_note
 
     by_rn = {}
     for rn, xml in db.execute("""SELECT rn, xmlnote FROM src.notes
             WHERE spec='L' AND notetype!='I' AND xmlnote IS NOT NULL AND rn IS NOT NULL
             ORDER BY rn, ord, noteid"""):
-        t = _plain(xml)
-        if t:
-            by_rn.setdefault(rn, []).append(t)
-    db.executemany("INSERT INTO lxnote(rn, note) VALUES(?,?)", [(rn, " / ".join(v)) for rn, v in by_rn.items()])
+        h = render_note(xml).replace('<p class="np">', "").replace("</p>", "")
+        if h.strip():
+            by_rn.setdefault(rn, []).append('<span class="np">' + h + "</span>")
+    db.executemany("INSERT INTO lxnote(rn, note) VALUES(?,?)", [(rn, "".join(v)) for rn, v in by_rn.items()])
 
     # FTS5 over reflex form/gloss/language. CONTENTLESS (content='') so the index doesn't
     # duplicate the text (it lives once in lexicon/languagenames) — ~27 MB saved; columnsize=0

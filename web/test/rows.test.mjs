@@ -5,7 +5,7 @@
 import assert from 'node:assert/strict';
 import {
   reflexRow, etymonRow, languageRow,
-  reflexHref, languageHref, etymonHref, sourceHref,
+  reflexHref, languageHref, etymonHref, sourceHref, rebase,
 } from '../src/rows.js';
 
 let n = 0;
@@ -37,10 +37,16 @@ test('reflex row: language name → language TOP (no #rn)', () => assert.match(f
 test('reflex row: via chip → its etymon', () => assert.match(fromSearch, /<a class="via" href="\/etymon\/9">/));
 test('reflex row: the form is NOT its own link (the overlay carries it)', () => assert.doesNotMatch(fromSearch, /<a[^>]*>gâ<\/a>/));
 
-// a noted gloss stays an interactive .noted (not swallowed by the overlay)
-test('reflex row: a note becomes a .noted gloss with its popover', () => {
-  const noted = reflexRow({ ...base, form: 'gâ', note: 'see also' });
-  assert.match(noted, /<span class="g noted" tabindex="0">ladder<span class="notepop" role="note">see also<\/span><\/span>/);
+// a noted gloss stays an interactive .noted, and the note (now render_note HTML from the search DB,
+// same as the entity pages) is injected as HTML — its xref link survives instead of being escaped.
+test('reflex row: note is injected as HTML (xref link survives), not escaped', () => {
+  const note = '<span class="np">cf. <a class="xref" href="/etymon/5">#5</a></span>';
+  const noted = reflexRow({ ...base, form: 'gâ', note });
+  assert.match(noted, /<span class="notepop" role="note"><span class="np">cf\. <a class="xref" href="\/etymon\/5">#5<\/a><\/span><\/span>/);
+});
+test('rebase rewrites root-relative hrefs to the page base (no-op when base is "")', () => {
+  assert.equal(rebase('<a href="/etymon/5">x</a> <a href="https://x/">ext</a>'),
+    '<a href="/etymon/5">x</a> <a href="https://x/">ext</a>');  // base is '' in node; external href untouched
 });
 
 // tagged syllables carry their own etymon links instead of the form being plain
