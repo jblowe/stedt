@@ -114,10 +114,14 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx{display:grid;grid-template-columns:190px minmax(0,1fr) 190px;gap:2px 18px;padding:4px 0;
   border-bottom:1px solid var(--hair);align-items:baseline;line-height:1.35;position:relative;}
 .rfx:hover{background:var(--paper2);}
-/* hover permalink: a # in the left gutter linking to this row's own anchor (#rn… on a language page,
-   #r… on an etymon page), so a reader can grab a direct URL to one entry. Absolutely placed so it
-   never shifts the row; shown only on row hover/focus. Colour + no-underline come from .rfx a rules. */
-.rfx .rnlink{position:absolute;left:-1.35em;top:.15em;opacity:0;color:var(--mut);font-size:13px;line-height:1;}
+/* hover permalink: a link icon in the left gutter pointing at this row's own anchor (#rn… on a
+   language page, #r… on an etymon page), so a reader can grab a direct URL to one entry. The icon is
+   a CSS mask (defined once; the per-row <a> is empty, which keeps big lists light), tinted via
+   currentColor so it still goes mut→accent on hover. Absolutely placed + vertically centred. */
+.rfx .rnlink{position:absolute;left:-1.5em;top:50%;transform:translateY(-50%);opacity:0;
+  width:14px;height:14px;color:var(--mut);background-color:currentColor;
+  -webkit-mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E") center/contain no-repeat;
+          mask:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71'/%3E%3Cpath d='M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71'/%3E%3C/svg%3E") center/contain no-repeat;}
 .rfx:hover .rnlink,.rfx:focus-within .rnlink{opacity:1;}
 .rfx:last-child{border-bottom:none}
 .rfx:target,.rfx.rn-target{background:var(--paper2);box-shadow:inset 3px 0 0 var(--accent);padding-left:8px;}
