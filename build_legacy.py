@@ -79,19 +79,51 @@ def main():
             f.write(s)
         n += 1
 
+    def write_redirect(path, target_hash):
+        nonlocal n
+        url = LEGACY_BASE + target_hash
+        html = ('<!doctype html><meta charset="utf-8">'
+                f'<meta http-equiv="refresh" content="0; url={url}">'
+                f'<script>location.replace("{url}")</script>'
+                f'<p>Redirecting to <a href="{url}">{url}</a>…</p>')
+        fp = os.path.join(LEGACY_OUT, path, "index.html")
+        os.makedirs(os.path.dirname(fp), exist_ok=True)
+        with open(fp, "w", encoding="utf-8") as f:
+            f.write(html)
+        n += 1
+
     write("", L.legacy_splash)
     write("gnis", L.legacy_gnis)
+    write("source", L.legacy_all_sources)
+    write("chapters", L.legacy_chapter_browser)
 
-    # etymon pages (citation core)
-    if hasattr(L, "legacy_etymon"):
-        c = L.render.con()
-        tags = [r[0] for r in c.execute(
-            "SELECT tag FROM etyma WHERE coalesce(upper(status),'')!='DELETE' ORDER BY tag")]
-        c.close()
-        if LIMIT:
-            tags = tags[:LIMIT]
-        for t in tags:
-            write(f"etymon/{t}", (lambda t=t: L.legacy_etymon(t)))
+    c = L.render.con()
+    tags = [r[0] for r in c.execute(
+        "SELECT tag FROM etyma WHERE coalesce(upper(status),'')!='DELETE' ORDER BY tag")]
+    srcs = [r[0] for r in c.execute("""SELECT DISTINCT ln.srcabbr FROM srcbib sb
+        JOIN languagenames ln ON ln.srcabbr=sb.srcabbr JOIN lexicon l ON l.lgid=ln.lgid
+        WHERE coalesce(l.status,'') NOT IN ('HIDE','DELETED') AND coalesce(sb.srcabbr,'')!=''""")]
+    semks = [r[0] for r in c.execute("SELECT semkey FROM chapters WHERE coalesce(semkey,'')!=''")]
+    grpids = [r[0] for r in c.execute("SELECT grpid FROM languagegroups ORDER BY grpid")]
+    # (grpid,lgid) pairs that reflex language-links point at → redirect stubs that scroll the group page
+    lg_pairs = c.execute("""SELECT ln.grpid, ln.lgid FROM languagenames ln JOIN lexicon l ON l.lgid=ln.lgid
+        WHERE coalesce(ln.lgcode,0)!=0 AND coalesce(l.status,'') NOT IN ('HIDE','DELETED')
+          AND ln.grpid IS NOT NULL GROUP BY ln.lgid""").fetchall()
+    c.close()
+    if LIMIT:
+        tags, srcs, semks, grpids = tags[:LIMIT], srcs[:LIMIT], semks[:LIMIT], grpids[:LIMIT]
+
+    for t in tags:
+        write(f"etymon/{t}", (lambda t=t: L.legacy_etymon(t)))
+    for s in srcs:
+        write(f"source/{s}", (lambda s=s: L.legacy_source(s)))
+    for k in semks:
+        write(f"chap/{k}", (lambda k=k: L.legacy_chapter(k)))
+    for gid in grpids:
+        write(f"group/{gid}", (lambda gid=gid: L.legacy_group(gid)))
+    if not LIMIT:
+        for gid, lgid in lg_pairs:
+            write_redirect(f"group/{gid}/{lgid}", f"/group/{gid}/#lg{lgid}")
 
     print(f"legacy: {n} pages, {fails} skipped -> {LEGACY_OUT} (base={LEGACY_BASE!r}, "
           f"ver={os.environ['STEDT_LEGACY_VER']}, {time.time() - t0:.0f}s)")
