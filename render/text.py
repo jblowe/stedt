@@ -1,7 +1,6 @@
 """Small formatting + URL helpers: HTML escaping, proto-form stars, ISO/citation links."""
 import html
 import re
-import urllib.parse
 
 def natkey(s):
     out = []
@@ -28,21 +27,6 @@ def iso_link(code):
     if not code: return ""
     return (f'<a href="https://glottolog.org/resource/languoid/iso/{esc(code)}"'
             f' rel="noopener" target="_blank">{esc(code)}</a>')
-
-def suggest_edit_url(e):
-    """Prefilled 'Suggest an edit' Issue Form link — the contribution front door.
-    Opens a GitHub issue (login handled by GitHub, no service) that the suggest-edit
-    Action turns into a validated PR. Note SQLite cols: gloss=protogloss, references=notes."""
-    q = urllib.parse.urlencode({
-        "template": "suggest-edit.yml",
-        "title": f"Suggested edit to etymon #{e['tag']}",
-        "tag": e['tag'],
-        "protoform": e['protoform'] or "",
-        "gloss": e['protogloss'] or "",
-        "semkey": e['semkey'] or "",
-        "references": e['notes'] or "",
-    })
-    return f"https://github.com/larc-iu/stedt/issues/new?{q}"
 
 def rcount_txt(n):
     """' · 12 reflexes' / ' · 1 reflex' / '' for an etymon's reflex count."""

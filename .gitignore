@@ -29,3 +29,6 @@ stedtdb_v1.0/._*
 # Python
 __pycache__/
 *.pyc
+
+# JetBrains IDE
+.idea/

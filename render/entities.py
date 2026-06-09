@@ -6,7 +6,7 @@ from markupsafe import Markup
 
 from .config import CITE_BASE, PLG_FULL
 from .db import con
-from .text import esc, alt, natkey, iso_link, suggest_edit_url, rcount_txt
+from .text import esc, alt, natkey, iso_link, rcount_txt
 from .notes import render_note
 from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels, canonical_languages, canon_lgid
 from .templating import env
@@ -250,9 +250,6 @@ def etymon(tag):
         <div class="cite-actions">
           <button class="copybtn" data-cite="{esc(cite_text)}">Copy citation</button>
           <button class="copybtn" data-cite="{esc(bib)}">Copy BibTeX</button>
-          <a href="{suggest_edit_url(e)}" target="_blank" rel="noopener">Suggest an edit</a>
-          <a href="https://github.com/larc-iu/stedt/edit/main/data/etyma/{e['tag']}.yaml"
-             target="_blank" rel="noopener">Edit on GitHub</a>
         </div>
         <details class="seg"><summary>BibTeX</summary><pre class="diff">{esc(bib)}</pre></details>
       </div>
