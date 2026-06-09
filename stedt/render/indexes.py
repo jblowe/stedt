@@ -9,7 +9,7 @@ from .config import CITE_BASE, PREVIEW, TREE_INDENT_PX
 from .db import con, reflex_semkey_counts
 from .text import esc, alt, natkey, rcount_txt
 from .notes import render_note
-from .shell import page, breadcrumb, reflex_counts, canon_lgid
+from .shell import page, breadcrumb, reflex_counts, canon_lgid, etymon_href
 from .templating import env
 
 # ---------------------------------------------------------------- views
@@ -291,6 +291,7 @@ def thesaurus(semkey=None):
         dinfo = [
             {
                 "tag": e["tag"],
+                "href": etymon_href(e["tag"]),
                 "pf": Markup(esc(alt(e["protoform"]))),
                 "pg": Markup(esc(e["protogloss"])),
                 "tagn": Markup(f'{esc(e["plg"])} #{e["tag"]}{rcount_txt(dcounts.get(e["tag"], 0))}'),

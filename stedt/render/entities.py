@@ -784,6 +784,7 @@ def group(grpid):
     def reconinfo(r):
         return {
             "tag": r["tag"],
+            "href": etymon_href(r["tag"]),
             "protoform": Markup(esc(alt(r["protoform"]))),
             "protogloss": Markup(esc(r["protogloss"])),
             "tagn": Markup(f'{esc(plg)} #{r["tag"]}{rcount_txt(rcounts.get(r["tag"], 0))}'),
