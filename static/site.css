@@ -1,3 +1,11 @@
+/* Charis SIL self-hosted (SIL OFL, see fonts/OFL.txt). The full font — Google Fonts only serves a
+   latin/cyrillic subset that drops most IPA combining diacritics (U+032A, U+0331, circumflex, caron,
+   …), which a phonetics dictionary lives on; ~6% of reflexes hit one. urls are relative to this file
+   so the /stedt base prefix is moot. */
+@font-face{font-family:"Charis SIL";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/CharisSIL-Regular.woff2) format("woff2");}
+@font-face{font-family:"Charis SIL";font-style:normal;font-weight:700;font-display:swap;src:url(fonts/CharisSIL-Bold.woff2) format("woff2");}
+@font-face{font-family:"Charis SIL";font-style:italic;font-weight:400;font-display:swap;src:url(fonts/CharisSIL-Italic.woff2) format("woff2");}
+@font-face{font-family:"Charis SIL";font-style:italic;font-weight:700;font-display:swap;src:url(fonts/CharisSIL-BoldItalic.woff2) format("woff2");}
 
 :root{
   --paper:#f4efe2; --paper2:#efe8d6; --ink:#211c15; --soft:#5d5443;
