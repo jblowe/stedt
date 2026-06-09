@@ -357,18 +357,26 @@ def etymon(tag):
     )
 
 
-def syl_form(reflex, syn):
-    """Reflex surface form as HTML with each tagged syllable linked to its own etymon, or None to
-    fall back to the plain form + trailing chips. Faithful twin of web/src/rows.js sylLink."""
+def syl_form(reflex, syn, pf=None):
+    """Reflex surface form as HTML with each tagged syllable linked to its own etymon — and, where the
+    etymon's protoform is known, that *protoform set as ruby above the syllable. Returns None to fall
+    back to the plain form + trailing chips. Faithful twin of web/src/rows.js sylLink. pf: tag->protoform."""
     if not syn:
         return None
     syls, dl, prefix = syllabify(reflex or "")
     if any(k >= len(syls) for k in syn):       # a tag must land on a real syllable
         return None
+    pf = pf or {}
     out = esc(prefix)
     for i, syl in enumerate(syls):
-        seg = esc(syl)
-        out += f'<a class="syl" href="{etymon_href(syn[i])}">{seg}</a>' if syn.get(i) is not None else seg
+        tag = syn.get(i)
+        if tag is not None:
+            base = esc(syl)
+            label = pf.get(tag)
+            inner = f'<ruby>{base}<rt>*{esc(alt(label))}</rt></ruby>' if label else base
+            out += f'<a class="syl" href="{etymon_href(tag)}">{inner}</a>'
+        else:
+            out += esc(syl)
         d = dl[i] if i < len(dl) else ""
         out += esc(d).replace("◦", '<span class="br">◦</span>')
     return out
@@ -470,7 +478,7 @@ def language(lgid):
             # when each tagged syllable lands cleanly, link the syllables in place (shows which
             # morpheme is which etymon); otherwise fall back to the plain form + trailing via chips.
             syn = None if r["rn"] in rn_syn_bad else rn_syn.get(r["rn"])
-            linked = syl_form(r["reflex"], syn)
+            linked = syl_form(r["reflex"], syn, plabels)
             vias = []
             if linked is not None:
                 form = linked

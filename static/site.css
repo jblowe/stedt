@@ -210,6 +210,11 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
    .rx-hit, so the treatment stays consistent anywhere a .syl link appears. */
 a.syl{color:var(--morph);border-bottom:1px dotted var(--rule);}
 a.syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
+/* ruby: the *protoform each linked syllable reflects, set small + muted above it (always on). center
+   keeps the base IPA tight rather than justified; the rt may overhang a short syllable. */
+a.syl ruby{ruby-position:over;ruby-align:center;}
+a.syl rt{font-size:.52em;font-weight:400;font-style:normal;line-height:1.1;color:var(--mut);
+  letter-spacing:0;white-space:nowrap;text-decoration:none;padding:0 .3em;}
 .rx-hit .br{color:var(--mut);}
 .rx-hit .vias{color:var(--mut);font-size:12.5px;margin-left:.45em;}
 .rx-hit .via{font-size:12.5px;color:var(--mut);border-bottom:none;}

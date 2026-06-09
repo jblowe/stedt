@@ -55,12 +55,19 @@ const sylLink = r => {                     // syllable-linked form HTML, or null
   if (!r.syn) return null;
   const sy = syllabify(String(r.form || '')), syls = sy.syls, dl = sy.dl;
   for (const k in r.syn) { if (+k >= syls.length) return null; }   // tags must land on real syllables
+  const pf = {};                           // tag -> protoform, for the ruby annotation above each syllable
+  (r.etyma || []).forEach(e => { if (e && e.tag != null) pf[e.tag] = e.pf; });
   let out = esc(sy.prefix || '');
   for (let i = 0; i < syls.length; i++) {
-    out += (r.syn[i] != null
-      ? `<a class="syl" href="${etymonHref(r.syn[i])}">${esc(syls[i])}</a>`
-      : esc(syls[i]))
-      + esc(dl[i] || '').replace(/◦/g, '<span class="br">◦</span>');
+    const tag = r.syn[i];
+    if (tag != null) {
+      const base = esc(syls[i]), lbl = pf[tag];
+      const inner = lbl ? `<ruby>${base}<rt>*${altstar(esc(lbl))}</rt></ruby>` : base;
+      out += `<a class="syl" href="${etymonHref(tag)}">${inner}</a>`;
+    } else {
+      out += esc(syls[i]);
+    }
+    out += esc(dl[i] || '').replace(/◦/g, '<span class="br">◦</span>');
   }
   return out;
 };
