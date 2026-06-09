@@ -76,7 +76,7 @@ const sylLink = r => {                     // syllable-linked form HTML, or null
 
 // --- entity rows ---
 
-// An attested form, shared by the search results and the thesaurus attestations so they can't drift.
+// A reflex, shared by the search results and the thesaurus reflex list so they can't drift.
 // The whole row links to the form's attestation line (#rn) via a stretched overlay; the inner links
 // sit above it (see .rx-go in site.css): the language name → the TOP of its language page, syllables
 // / via chips → their etyma, source → its page, and a noted gloss stays interactive (shows its note).
@@ -104,4 +104,4 @@ export const reflexRow = r => {
 export const etymonRow = e => `<a class="ety-hit" href="${etymonHref(e.tag)}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}${e.nreflex ? ` · ${fmt(e.nreflex)} reflex${e.nreflex == 1 ? '' : 'es'}` : ''}</span></a>`;
 
 // A language result row.
-export const languageRow = l => `<a class="ety-hit" href="${languageHref(l.lgid)}"><span class="rf">${esc(l.language)}</span><span class="gl2">${fmt(l.n)} attested form${l.n == 1 ? '' : 's'}</span><span class="tagn">language</span></a>`;
+export const languageRow = l => `<a class="ety-hit" href="${languageHref(l.lgid)}"><span class="rf">${esc(l.language)}</span><span class="gl2">${fmt(l.n)} reflex${l.n == 1 ? '' : 'es'}</span><span class="tagn">language</span></a>`;

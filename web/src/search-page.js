@@ -47,12 +47,12 @@ async function run() {
   const parts = [];
   if (r.languageTotal) parts.push(fmt(r.languageTotal) + ' language' + (r.languageTotal == 1 ? '' : 's'));
   parts.push(fmt(r.etymaTotal) + ' reconstruction' + (r.etymaTotal == 1 ? '' : 's'));
-  parts.push(fmt(r.reflexTotal) + ' attested form' + (r.reflexTotal == 1 ? '' : 's'));
+  parts.push(fmt(r.reflexTotal) + ' reflex' + (r.reflexTotal == 1 ? '' : 'es'));
   sub.textContent = parts.join(' · ');
   res.innerHTML = '';
   if (r.languageTotal) block('Languages', r.languageTotal, r.languages, languageRow);
   if (r.etymaTotal) block('Reconstructions', r.etymaTotal, r.etyma, etymonRow);
-  if (r.reflexTotal) { _rxsub = null; block('Attested forms', r.reflexTotal, r.reflexes, rfxGrouped); }
+  if (r.reflexTotal) { _rxsub = null; block('Reflexes', r.reflexTotal, r.reflexes, rfxGrouped); }
   if (!r.languageTotal && !r.etymaTotal && !r.reflexTotal) res.innerHTML = '<p class="cap">No matches.</p>';
 }
 window.addEventListener('DOMContentLoaded', run);

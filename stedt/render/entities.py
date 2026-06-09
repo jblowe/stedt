@@ -587,7 +587,7 @@ def source(srcabbr):
     if s["imprint"]:
         meta.append(Markup(f'<span><b>imprint</b> {esc(s["imprint"])}</span>'))
     meta.append(Markup(f"<span><b>{len(langs)}</b> languages</span>"))
-    meta.append(Markup(f"<span><b>{total:,}</b> forms</span>"))
+    meta.append(Markup(f"<span><b>{total:,}</b> reflexes</span>"))
 
     def langinfo(l):
         bits = [esc(x) for x in (l["grpno"], l["subgroup"]) if x]

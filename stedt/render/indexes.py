@@ -222,7 +222,7 @@ def thesaurus(semkey=None):
                     else f'<span class="ti">{esc(title)}</span>'
                 ),
                 "ct": Markup(
-                    f'<span class="ct" title="reconstructions / attestations">{cnt:,} / {lcnt:,}</span>'
+                    f'<span class="ct" title="reconstructions / reflexes">{cnt:,} / {lcnt:,}</span>'
                     if (cnt or lcnt)
                     else ""
                 ),
@@ -267,10 +267,10 @@ def thesaurus(semkey=None):
             f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' " f"AND {ECAT} IN ({kph})", kown
         ).fetchone()[0]
         lcnt = sum(scounts.get(x, 0) for x in kown)
-        # reconstructions / attestations, formatted exactly as the thesaurus index renders each node,
+        # reconstructions / reflexes, formatted exactly as the thesaurus index renders each node,
         # so a recon-less but attestation-rich child no longer reads as a dead "0 etyma"
         ct = (
-            Markup(f'<span class="ct" title="reconstructions / attestations">{cnt:,} / {lcnt:,}</span>')
+            Markup(f'<span class="ct" title="reconstructions / reflexes">{cnt:,} / {lcnt:,}</span>')
             if (cnt or lcnt)
             else Markup("")
         )

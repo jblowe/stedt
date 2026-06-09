@@ -1,6 +1,6 @@
 <div class="thes">
 {%- if root -%}
-<h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px">Semantic Thesaurus</h2><p class="cap">Each count is <b>reconstructions / attestations</b> filed at that node.</p><ul class="tree">
+<h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px">Semantic Thesaurus</h2><p class="cap">Each count is <b>reconstructions / reflexes</b> filed at that node.</p><ul class="tree">
 {%- for t in tree -%}
 <li style="margin-left:{{ t.pad }}px"><a class="row" href="/thesaurus/{{ t.disp }}"><span class="sk">{{ t.disp_esc }}</span>{{ t.ti }}{{ t.ct }}</a></li>
 {%- endfor -%}
@@ -17,7 +17,7 @@
 <div class="ety-list"><h3 style="margin-top:30px">Reconstructions <span class="ct">{{ ndirect }}</span></h3>{% for e in direct %}<div class="ety-hit"><a href="{{ e.href }}" class="pf2 lat">{{ e.pf }}</a><span class="pg2">{{ e.pg }}</span><span class="tagn">{{ e.tagn }}</span></div>{% endfor %}</div>
 {%- endif -%}
 {%- if attest -%}
-<div class="ety-list catwrap" data-semkeys="{{ attest.keys_json }}"><h3 style="margin-top:30px">Attestations <span class="ct">{{ attest.nforms }}</span></h3><div class="rbar"><input class="catfilter" type="search" placeholder="Filter by form, gloss, or language…" autocomplete="off"><span class="rcount catcount"></span></div><div class="catlist"></div></div><script type="module" src="/assets/catforms.js"></script>
+<div class="ety-list catwrap" data-semkeys="{{ attest.keys_json }}"><h3 style="margin-top:30px">Reflexes <span class="ct">{{ attest.nforms }}</span></h3><div class="rbar"><input class="catfilter" type="search" placeholder="Filter by form, gloss, or language…" autocomplete="off"><span class="rcount catcount"></span></div><div class="catlist"></div></div><script type="module" src="/assets/catforms.js"></script>
 {%- endif -%}
 {%- endif -%}
 </div>
