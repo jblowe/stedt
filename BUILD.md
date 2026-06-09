@@ -29,7 +29,8 @@ once and black (line-length 120) formats staged Python on every commit.
 stedt build                      # 1. compile data/ → stedt.sqlite
 stedt search-db                  # 2. derive search.sqlite3 (shipped to the browser for search)
 stedt render                     # 3. prerender HTML under site/
-npm --prefix web run build:search  # 4. bundle web/src/search.js → site/assets/
+npm --prefix web run build:search  # 4. bundle the search data layer → site/assets/
+npm --prefix web run build:pages   # 5. bundle the page scripts (windowed list, search UI, filter)
 ```
 
 Optional: `stedt validate` checks `data/` referential integrity.

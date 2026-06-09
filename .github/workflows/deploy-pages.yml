@@ -41,6 +41,9 @@ jobs:
       - name: Bundle the client search (WASM SQLite)
         run: npm run build:search
         working-directory: web
+      - name: Bundle the page scripts (windowed list, search UI, thesaurus filter)
+        run: npm run build:pages
+        working-directory: web
       # /_legacy/ — pixel-faithful rootcanal clone (separate subtree; writes only under site/_legacy,
       # so these must run AFTER `stedt render`, which rmtrees + builds site/).
       - name: Build the legacy search DB (rootcanal columns + FTS5)
