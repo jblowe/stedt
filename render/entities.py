@@ -14,16 +14,17 @@ from .templating import env
 _SOURCE = env.get_template("source.html")
 _GROUP = env.get_template("group.html")
 _LANGUAGE = env.get_template("language.html")
+_ETYMON = env.get_template("etymon.html")
 
 def etymon(tag):
-    c = con()
-    e = c.execute("""SELECT e.*, g.plg AS plg FROM etyma e
+    conn = con()
+    e = conn.execute("""SELECT e.*, g.plg AS plg FROM etyma e
         LEFT JOIN languagegroups g ON g.grpid=e.grpid WHERE e.tag=?""", (tag,)).fetchone()
     if not e:
-        c.close(); return page("Not found", "<p>No such etymon.</p>")
-    notes = c.execute("""SELECT xmlnote FROM notes WHERE tag=? AND spec='E' AND notetype!='I'
+        conn.close(); return page("Not found", "<p>No such etymon.</p>")
+    notes = conn.execute("""SELECT xmlnote FROM notes WHERE tag=? AND spec='E' AND notetype!='I'
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""", (tag,)).fetchall()
-    rows = c.execute("""SELECT l.rn AS rn, ln.language AS language, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn AS gfn,
+    rows = conn.execute("""SELECT l.rn AS rn, ln.language AS language, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn AS gfn,
             l.srcid AS srcid, g.grp AS subgroup, g.grpno AS groupnode, g.plg AS grpplg,
             sb.citation AS citation, ln.srcabbr AS srcabbr
         FROM lx_et_hash h JOIN lexicon l ON l.rn=h.rn
@@ -31,9 +32,9 @@ def etymon(tag):
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
         WHERE h.tag=? GROUP BY l.rn""", (tag,)).fetchall()
-    hptb = c.execute("""SELECT h.plg, h.protoform, h.protogloss, h.pages
+    hptb = conn.execute("""SELECT h.plg, h.protoform, h.protogloss, h.pages
         FROM et_hptb_hash x JOIN hptb h ON h.hptbid=x.hptbid WHERE x.tag=? ORDER BY x.ord""", (tag,)).fetchall()
-    meso = c.execute("""SELECT g.grp AS subgroup, g.grpno AS groupnode, g.grpid AS grpid, m.form, m.gloss, m.variant, m.old_note
+    meso = conn.execute("""SELECT g.grp AS subgroup, g.grpno AS groupnode, g.grpid AS grpid, m.form, m.gloss, m.variant, m.old_note
         FROM mesoroots m LEFT JOIN languagegroups g ON g.grpid=m.grpid
         WHERE m.tag=? ORDER BY g.grpno, m.id""", (tag,)).fetchall()
     # cross-reference labels: collect every tag mentioned in a pure tag-list field
@@ -49,7 +50,7 @@ def etymon(tag):
     labels = {}
     if digit_tokens:
         toks = list(digit_tokens); qm = ','.join('?' * len(toks))
-        for r in c.execute(f"SELECT tag,protoform,protogloss FROM etyma WHERE tag IN ({qm}) "
+        for r in conn.execute(f"SELECT tag,protoform,protogloss FROM etyma WHERE tag IN ({qm}) "
                            f"AND coalesce(upper(status),'')!='DELETE'", toks):
             labels[r['tag']] = (r['protoform'], r['protogloss'])
     # per-reflex morpheme analysis: a reflex (rn) is segmented into morphemes in lx_et_hash,
@@ -59,26 +60,26 @@ def etymon(tag):
     analysis = {}
     for i in range(0, len(rns), 900):
         chunk = rns[i:i + 900]; qm = ','.join('?' * len(chunk))
-        for r in c.execute(f"SELECT rn, tag FROM lx_et_hash WHERE rn IN ({qm}) ORDER BY rn, ind", chunk):
+        for r in conn.execute(f"SELECT rn, tag FROM lx_et_hash WHERE rn IN ({qm}) ORDER BY rn, ind", chunk):
             analysis.setdefault(r['rn'], []).append(r['tag'])
     # label only sibling etyma that actually have a (non-DELETE) page, so "also contains" never 404s
     morph_tags = list({t for ts in analysis.values() for t in ts if t and t != tag})
     morph_labels = {}
     for i in range(0, len(morph_tags), 900):
         chunk = morph_tags[i:i + 900]; qm = ','.join('?' * len(chunk))
-        for r in c.execute(f"SELECT tag, protoform FROM etyma WHERE tag IN ({qm}) "
+        for r in conn.execute(f"SELECT tag, protoform FROM etyma WHERE tag IN ({qm}) "
                            f"AND coalesce(upper(status),'')!='DELETE'", chunk):
             morph_labels[r['tag']] = r['protoform']
     # per-reflex (L) notes — the largest note class; legacy shows these as reflex footnotes.
     lnotes = {}
     for i in range(0, len(rns), 900):
         chunk = rns[i:i + 900]; qm = ','.join('?' * len(chunk))
-        for r in c.execute(f"SELECT rn, xmlnote FROM notes WHERE spec='L' AND notetype!='I' "
+        for r in conn.execute(f"SELECT rn, xmlnote FROM notes WHERE spec='L' AND notetype!='I' "
                            f"AND xmlnote IS NOT NULL AND rn IN ({qm}) ORDER BY ord, noteid", chunk):
             lnotes.setdefault(r['rn'], []).append(r['xmlnote'])
     ecat = e['chapter'] or e['semkey']   # legacy files an etymon by its (more specific) chapter, not semkey
-    crumb = breadcrumb(c, ecat)
-    c.close()
+    crumb = breadcrumb(conn, ecat)
+    conn.close()
 
     # separate attested reflexes from previously-published reconstructions (language is a *proto-form node)
     recon_rows = [r for r in rows if (r['language'] or '').startswith('*')]
@@ -188,16 +189,16 @@ def etymon(tag):
             return f'<span class="xref">#{esc(t)}</span>'   # DELETE/missing target: bare ref, not a dead search
         g = v.lstrip('↭').strip()  # gloss-based cross-reference
         return f'<a class="xref" href="/search?q={urllib.parse.quote(g)}">{esc(g)}</a>'
-    conn = []
+    rels = []
     for h in hptb:
-        conn.append(f'<div class="conn-row"><span class="rl">HPTB</span>'
+        rels.append(f'<div class="conn-row"><span class="rl">HPTB</span>'
                     f'<span class="reltgt"><span class="lat">{esc(h["protoform"])}</span> ‘{esc(h["protogloss"])}’</span>'
                     f'<span class="src">pp. {esc(h["pages"])}</span></div>')
     for label, fld in (('Allofam', e['allofams']), ('See also', e['xrefs']), ('Poss. allofam', e['possallo'])):
         if fld:
-            conn.append(f'<div class="conn-row"><span class="rl">{label}</span>'
+            rels.append(f'<div class="conn-row"><span class="rl">{label}</span>'
                         f'<span class="reltgt">{rel_render(fld)}</span></div>')
-    connhtml = f'<section class="conn"><h3>Connections</h3>{"".join(conn)}</section>' if conn else ''
+    connhtml = f'<section class="conn"><h3>Connections</h3>{"".join(rels)}</section>' if rels else ''
 
     # reconstruction analysis (the etymon's phonological structure) — exposed by neither the
     # original site nor us before; ~40% of etyma carry it. medial is always empty, so omit.
@@ -257,22 +258,12 @@ def etymon(tag):
       </div>
     </section>{copy_js}"""
 
-    body = f"""
-    <div class="ety-head">
-      <span class="etno">STEDT #{e['tag']}</span>
-      <div class="pf">{pf}{badges}</div>
-      <div class="pg">{esc(e['protogloss'])}</div>
-      <div class="pl">{plg_html}{exm}</div>
-      <div class="crumbs">Semantic domain: {crumb or esc(ecat)}</div>
-    </div>
-    {phonhtml}
-    {reflexeshtml}
-    {noteshtml}
-    {mesohtml}
-    {reconhtml}
-    {connhtml}
-    {apparatus}"""
-    return page(f"*{alt(e['protoform'])} ‘{e['protogloss']}’", body, nav="reconstructions")
+    return page(f"*{alt(e['protoform'])} ‘{e['protogloss']}’", _ETYMON.render(
+        tag=e['tag'], pf=Markup(pf), badges=Markup(badges), pg=Markup(esc(e['protogloss'])),
+        plg_html=Markup(plg_html), exm=Markup(exm), crumbs=Markup(crumb or esc(ecat)),
+        phonhtml=Markup(phonhtml), reflexeshtml=Markup(reflexeshtml), noteshtml=Markup(noteshtml),
+        mesohtml=Markup(mesohtml), reconhtml=Markup(reconhtml), connhtml=Markup(connhtml),
+        apparatus=Markup(apparatus)), nav="reconstructions")
 
 def language(lgid):
     conn = con()
