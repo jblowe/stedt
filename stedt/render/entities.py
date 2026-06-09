@@ -5,7 +5,7 @@ import urllib.parse
 
 from markupsafe import Markup
 
-from .config import CITE_BASE, PLG_FULL
+from .config import CITE_BASE, PLG_FULL, TREE_INDENT_PX
 from .db import con
 from .text import esc, alt, natkey, iso_link, rcount_txt
 from .notes import render_note
@@ -747,7 +747,7 @@ def group(grpid):
         inner = (
             f'<span class="here">{lab}</span>' if t["grpid"] == grpid else f'<a href="/group/{t["grpid"]}">{lab}</a>'
         )
-        return {"pad": d * 16, "inner": Markup(inner)}
+        return {"pad": d * TREE_INDENT_PX, "inner": Markup(inner)}
 
     tree = [treeitem(t) for t in sorted(alltree, key=lambda t: natkey(t["grpno"]))]
 

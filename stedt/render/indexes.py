@@ -5,7 +5,7 @@ import json
 
 from markupsafe import Markup
 
-from .config import CITE_BASE, PREVIEW
+from .config import CITE_BASE, PREVIEW, TREE_INDENT_PX
 from .db import con, reflex_semkey_counts
 from .text import esc, alt, natkey, rcount_txt
 from .notes import render_note
@@ -95,7 +95,7 @@ def languages_index():
     def block(grpno, grp, plg, grpid, langs):
         # pre-escape scalars to Markup so the template (autoescape on) emits them verbatim
         return {
-            "depth": (str(grpno).count(".") if grpno else 0) * 18,
+            "depth": (str(grpno).count(".") if grpno else 0) * TREE_INDENT_PX,
             "grpno": Markup(esc(grpno)) if grpno else "",
             "grp": Markup(esc(grp or "—")),
             "plg": Markup(esc(plg)) if plg else "",
@@ -213,7 +213,7 @@ def thesaurus(semkey=None):
         conn.close()
         treeinfo = [
             {
-                "pad": depth * 18,
+                "pad": depth * TREE_INDENT_PX,
                 "disp": disp,
                 "disp_esc": Markup(esc(disp)),
                 "ti": Markup(

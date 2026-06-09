@@ -18,6 +18,10 @@ CITE_BASE = os.environ.get("STEDT_CITE_BASE", "https://larc-iu.github.io/stedt")
 # STEDT_PREVIEW=0 to turn it off once the site is no longer a preview.
 PREVIEW = os.environ.get("STEDT_PREVIEW", "1") != "0"
 
+# Per-level indent (px) for the hierarchical trees — the genetic/Stammbaum tree (group page) and the
+# semantic + languages index trees — so they nest at the same step instead of 16 vs 18.
+TREE_INDENT_PX = 18
+
 # Proto-language abbreviations (etyma.grpid -> languagegroups.plg) expanded for the etymon header.
 PLG_FULL = {
     "PST": "Proto-Sino-Tibetan",
