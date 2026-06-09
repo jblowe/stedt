@@ -207,13 +207,16 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 /* interactable morpheme (per-syllable etymon link): a quiet accent tint atop the dotted underline,
    so it reads as clickable without shouting; brightens to full accent on hover. Not scoped to
    .rx-hit, so the treatment stays consistent anywhere a .syl link appears. */
-a.syl{color:var(--morph);border-bottom:1px dotted var(--rule);}
+a.syl{color:var(--morph);border-bottom:1px dotted var(--rule);position:relative;}
 a.syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
-/* ruby: the *protoform each linked syllable reflects, set small + muted above it (always on). center
-   keeps the base IPA tight rather than justified; the rt may overhang a short syllable. */
-a.syl ruby{ruby-position:over;ruby-align:center;}
-a.syl rt{font-size:.52em;font-weight:400;font-style:normal;line-height:1.1;color:var(--mut);
-  letter-spacing:0;white-space:nowrap;text-decoration:none;padding:0 .3em;}
+/* hover/focus popover previewing the etymon a linked syllable reflects (*protoform 'gloss'); replaces
+   the always-on ruby. lift the syllable's stacking context while open so the bubble isn't pierced. */
+a.syl .sylpop{display:none;position:absolute;left:0;top:1.5em;z-index:6;width:max-content;
+  max-width:min(280px,calc(100vw - 24px));background:var(--paper);border:1px solid var(--rule);border-radius:3px;
+  padding:5px 9px;font-style:normal;font-weight:400;font-size:12.5px;line-height:1.45;color:var(--soft);
+  white-space:normal;text-align:left;overflow-wrap:anywhere;letter-spacing:0;}
+a.syl:hover .sylpop,a.syl:focus .sylpop,a.syl:focus-within .sylpop{display:block;}
+a.syl:hover,a.syl:focus{z-index:5;}
 .rx-hit .br{color:var(--mut);}
 .rx-hit .vias{color:var(--mut);font-size:12.5px;margin-left:.45em;}
 .rx-hit .via{font-size:12.5px;color:var(--mut);border-bottom:none;}

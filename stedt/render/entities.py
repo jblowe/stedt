@@ -361,10 +361,17 @@ def etymon(tag):
     )
 
 
+def syl_pop(info):
+    """The hover/focus popover for a linked syllable: its etymon's *protoform 'gloss'. info: (pf, pg)."""
+    pfx, pgl = info
+    g = f" ‘{esc(pgl)}’" if pgl else ""
+    return f'<span class="sylpop">*{esc(alt(pfx))}{g}</span>'
+
+
 def syl_form(reflex, syn, pf=None):
-    """Reflex surface form as HTML with each tagged syllable linked to its own etymon — and, where the
-    etymon's protoform is known, that *protoform set as ruby above the syllable. Returns None to fall
-    back to the plain form + trailing chips. Faithful twin of web/src/rows.js sylLink. pf: tag->protoform."""
+    """Reflex surface form as HTML with each tagged syllable linked to its own etymon, each carrying a
+    hover/focus popover previewing that etymon (*protoform 'gloss'). Returns None to fall back to the
+    plain form + trailing chips. Faithful twin of web/src/rows.js sylLink. pf: tag -> (protoform, protogloss)."""
     if not syn:
         return None
     syls, dl, prefix = syllabify(reflex or "")
@@ -376,9 +383,8 @@ def syl_form(reflex, syn, pf=None):
         tag = syn.get(i)
         if tag is not None:
             base = esc(syl)
-            label = pf.get(tag)
-            inner = f'<ruby>{base}<rt>*{esc(alt(label))}</rt></ruby>' if label else base
-            out += f'<a class="syl" href="{etymon_href(tag)}">{inner}</a>'
+            info = pf.get(tag)
+            out += f'<a class="syl" href="{etymon_href(tag)}">{base}{syl_pop(info) if info else ""}</a>'
         else:
             out += esc(syl)
         d = dl[i] if i < len(dl) else ""
@@ -492,7 +498,7 @@ def language(lgid):
                 for t in rn_tags.get(r["rn"], []):
                     if t in plabels and t not in seen:
                         seen.add(t)
-                        vias.append(f'<a class="via" href="{etymon_href(t)}">*{esc(alt(plabels[t]))}</a>')
+                        vias.append(f'<a class="via" href="{etymon_href(t)}">*{esc(alt(plabels[t][0]))}</a>')
             # the second etym line only exists for un-segmented etyma (the trailing chips); when the
             # syllables carry the links inline, or there are no etyma, the row has no second line.
             via = f'<span class="anl">{" ".join(vias)}</span>' if vias else ""

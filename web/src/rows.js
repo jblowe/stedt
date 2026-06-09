@@ -55,15 +55,17 @@ const sylLink = r => {                     // syllable-linked form HTML, or null
   if (!r.syn) return null;
   const sy = syllabify(String(r.form || '')), syls = sy.syls, dl = sy.dl;
   for (const k in r.syn) { if (+k >= syls.length) return null; }   // tags must land on real syllables
-  const pf = {};                           // tag -> protoform, for the ruby annotation above each syllable
-  (r.etyma || []).forEach(e => { if (e && e.tag != null) pf[e.tag] = e.pf; });
+  const info = {};                         // tag -> {pf, pg}, for the syllable's etymon-preview popover
+  (r.etyma || []).forEach(e => { if (e && e.tag != null) info[e.tag] = e; });
   let out = esc(sy.prefix || '');
   for (let i = 0; i < syls.length; i++) {
     const tag = r.syn[i];
     if (tag != null) {
-      const base = esc(syls[i]), lbl = pf[tag];
-      const inner = lbl ? `<ruby>${base}<rt>*${altstar(esc(lbl))}</rt></ruby>` : base;
-      out += `<a class="syl" href="${etymonHref(tag)}">${inner}</a>`;
+      const base = esc(syls[i]), e = info[tag];
+      const pop = e && e.pf
+        ? `<span class="sylpop">*${altstar(esc(e.pf))}${e.pg ? ` ‘${esc(e.pg)}’` : ''}</span>`
+        : '';
+      out += `<a class="syl" href="${etymonHref(tag)}">${base}${pop}</a>`;
     } else {
       out += esc(syls[i]);
     }

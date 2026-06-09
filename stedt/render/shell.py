@@ -83,17 +83,19 @@ def reflex_counts(conn, tags=None):
 
 
 def proto_labels(conn, tags):
-    """Map {tag: protoform} for a set of etymon tags, restricted to non-DELETE etyma (only
-    those have a built page, so callers can gate links on membership)."""
+    """Map {tag: (protoform, protogloss)} for a set of etymon tags, restricted to non-DELETE etyma
+    (only those have a built page, so callers can gate links on membership)."""
     tags = [t for t in tags if t]
     out = {}
     for i in range(0, len(tags), 900):
         chunk = tags[i : i + 900]
         qm = ",".join("?" * len(chunk))
         for r in conn.execute(
-            f"SELECT tag,protoform FROM etyma WHERE tag IN ({qm}) " f"AND coalesce(upper(status),'')!='DELETE'", chunk
+            f"SELECT tag,protoform,protogloss FROM etyma WHERE tag IN ({qm}) "
+            f"AND coalesce(upper(status),'')!='DELETE'",
+            chunk,
         ):
-            out[r["tag"]] = r["protoform"]
+            out[r["tag"]] = (r["protoform"], r["protogloss"])
     return out
 
 
