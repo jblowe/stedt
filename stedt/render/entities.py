@@ -10,6 +10,7 @@ from .db import con
 from .text import esc, alt, natkey, iso_link, rcount_txt
 from .notes import render_note
 from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels, canonical_languages, canon_lgid
+from .shell import etymon_href, source_href, language_href, reflex_href
 from .templating import env
 
 _SOURCE = env.get_template("source.html")
@@ -140,22 +141,22 @@ def etymon(tag):
             form = esc(r["form"]).replace("◦", '<span class="br">◦</span>')
             g = f'<span class="g">{esc(r["gloss"])}</span>' if (r["gloss"] and r["gloss"] != e["protogloss"]) else ""
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r["gfn"] else ""
-            lang = f'<a class="lang" href="/language/{canon_lgid(r["lgid"])}">{esc(r["language"])}</a>'
+            lang = f'<a class="lang" href="{language_href(r["lgid"])}">{esc(r["language"])}</a>'
             loc = f': {esc(r["srcid"])}' if r["srcid"] else ""  # per-reflex source locus (page/entry/note)
             if r["srcabbr"]:
-                src = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
+                src = f'<a class="src" href="{source_href(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
             else:
                 src = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
             seen, links = set(), []
             for mt in analysis.get(r["rn"], []):
                 if mt and mt > 0 and mt != tag and mt not in seen and mt in morph_labels:
                     seen.add(mt)
-                    links.append(f'<a href="/etymon/{mt}">*{esc(alt(morph_labels[mt]))}</a>')
+                    links.append(f'<a href="{etymon_href(mt)}">*{esc(alt(morph_labels[mt]))}</a>')
             anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ""
             note = "".join(f'<div class="rfxnote">{render_note(x)}</div>' for x in lnotes.get(r["rn"], []))
             rfx.append(
                 f'<div class="rfx" id="r{r["rn"]}"><a class="rnlink" href="#r{r["rn"]}" aria-label="Permalink to this entry"></a>{lang}'
-                f'<span class="form"><a href="/language/{canon_lgid(r["lgid"])}#rn{r["rn"]}">{form}</a> {g}{pos}{anl}</span>{src}{note}</div>'
+                f'<span class="form"><a href="{reflex_href(r["lgid"], r["rn"])}">{form}</a> {g}{pos}{anl}</span>{src}{note}</div>'
             )
         code = "" if k[0] in (None, "zz") else f'<span class="grpno">{esc(k[0])}</span>'
         sgs.append(
@@ -205,7 +206,7 @@ def etymon(tag):
             lab = r["grpplg"] or r["subgroup"] or (r["language"] or "").lstrip("*")
             loc = f': {esc(r["srcid"])}' if r["srcid"] else ""
             if r["srcabbr"]:
-                cit = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
+                cit = f'<a class="src" href="{source_href(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
             else:
                 cit = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
             gl = f' ‘{esc(r["gloss"])}’' if r["gloss"] else ""
@@ -227,7 +228,7 @@ def etymon(tag):
                     continue
                 lab = labels.get(int(t))
                 if lab:  # only link to a built (non-DELETE) etymon, else show the bare ref
-                    parts.append(f'<a class="xref" href="/etymon/{t}">*{esc(alt(lab[0]))} ‘{esc(lab[1])}’</a>')
+                    parts.append(f'<a class="xref" href="{etymon_href(t)}">*{esc(alt(lab[0]))} ‘{esc(lab[1])}’</a>')
                 else:
                     parts.append(f'<span class="xref">#{esc(t)}</span>')
             return ", ".join(parts)
@@ -239,7 +240,7 @@ def etymon(tag):
             t = m.group(1)
             lab = labels.get(int(t))
             if lab:
-                return f'<a class="xref" href="/etymon/{t}">*{esc(alt(lab[0]))} ‘{esc(lab[1])}’</a>'
+                return f'<a class="xref" href="{etymon_href(t)}">*{esc(alt(lab[0]))} ‘{esc(lab[1])}’</a>'
             return f'<span class="xref">#{esc(t)}</span>'  # DELETE/missing target: bare ref, not a dead search
         g = v.lstrip("↭").strip()  # gloss-based cross-reference
         return f'<a class="xref" href="/search?q={urllib.parse.quote(g)}">{esc(g)}</a>'
@@ -433,12 +434,12 @@ def language(lgid):
             for t in rn_tags.get(r["rn"], []):
                 if t in plabels and t not in seen:
                     seen.add(t)
-                    vias.append(f'<a class="via" href="/etymon/{t}">› *{esc(alt(plabels[t]))}</a>')
+                    vias.append(f'<a class="via" href="{etymon_href(t)}">› *{esc(alt(plabels[t]))}</a>')
             via = f'<span class="anl">{" ".join(vias)}</span>' if vias else ""
             # each row shows the source it is attested in (the work) + the locus within it
             loc = f': {esc(r["srcid"])}' if r["srcid"] else ""
             if r["srcabbr"]:
-                src = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
+                src = f'<a class="src" href="{source_href(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
             else:
                 src = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
             if lnotes.get(r["rn"]):
@@ -703,7 +704,7 @@ def group(grpid):
         srcs = list(l["srcs"].items())
         if len(srcs) == 1:
             sab, cit = srcs[0]
-            mid.append(f'<a href="/source/{esc(sab)}">{esc(cit or sab)}</a>')
+            mid.append(f'<a href="{source_href(sab)}">{esc(cit or sab)}</a>')
         elif len(srcs) > 1:
             mid.append(f"{len(srcs)} sources")
         if l["silcode"]:

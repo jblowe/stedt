@@ -4,6 +4,7 @@ import re
 
 from .db import valid_etymon_tags, xref_labels
 from .text import esc, alt
+from .shell import etymon_href
 
 # ---------------------------------------------------------------- note XML -> HTML
 _ENT = {"&quot;": '"', "&apos;": "’", "&amp;": "&", "&lt;": "<", "&gt;": ">"}
@@ -63,7 +64,7 @@ def render_note(x):
                     bits.append(esc(pg))
                 if bits:
                     txt = f"{txt} " + " ".join(bits)
-            return f'<a class="xref" href="/etymon/{ref}">{txt}</a>'
+            return f'<a class="xref" href="{etymon_href(ref)}">{txt}</a>'
         return f'<span class="xref">{txt}</span>'
 
     s = re.sub(r'<xref[^>]*\bref="(\d+)"[^>]*>(.*?)</xref>', _xref, s, flags=re.S)

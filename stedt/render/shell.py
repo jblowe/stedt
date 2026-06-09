@@ -131,3 +131,23 @@ def canonical_languages():
 def canon_lgid(lgid):
     """The canonical lgid for a language×source lgid, so internal links skip the redirect hop."""
     return canonical_languages()[0].get(lgid, lgid)
+
+
+# Canonical site-relative URLs — the ONE place each entity's address is built server-side (mirrors
+# the client builders in web/src/rows.js). Language links resolve to the canonical lgid here so they
+# skip the redirect hop; the client builders use the raw lgid and rely on the redirect. The build
+# step (stedt/build/static.py rewrite()) applies the /stedt base prefix to these.
+def etymon_href(tag):
+    return f"/etymon/{tag}"
+
+
+def source_href(srcabbr):
+    return f"/source/{esc(srcabbr)}"
+
+
+def language_href(lgid):
+    return f"/language/{canon_lgid(lgid)}"
+
+
+def reflex_href(lgid, rn):
+    return f"/language/{canon_lgid(lgid)}#rn{rn}"
