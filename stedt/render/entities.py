@@ -306,13 +306,6 @@ def etymon(tag):
         "}"
     )
     refs_line = f'<div>References: {esc(e["notes"])}</div>' if e["notes"] else ""
-    copy_js = (
-        "<script>(function(){var D=new Date().toISOString().slice(0,10);"
-        "document.querySelectorAll('.adate').forEach(function(e){e.textContent=D;});"
-        "document.querySelectorAll('.copybtn').forEach(function(b){b.addEventListener('click',function(){"
-        "navigator.clipboard.writeText((b.dataset.cite||'').replace(/\\[ACCESSED\\]/g,D));"
-        "b.textContent='Copied';});});})();</script>"
-    )
     apparatus = f"""
     <section class="apparatus"><h3>Cite this entry</h3>
       <div class="citebox">
@@ -326,7 +319,7 @@ def etymon(tag):
         </div>
         <details class="seg"><summary>BibTeX</summary><pre class="diff">{esc(bib)}</pre></details>
       </div>
-    </section>{copy_js}"""
+    </section><script type="module" src="/assets/cite.js"></script>"""
 
     return page(
         f"*{alt(e['protoform'])} ‘{e['protogloss']}’",
@@ -572,13 +565,6 @@ def source(srcabbr):
     bib_lines.append("  url    = {" + src_url + "}")
     bib_lines.append("}")
     src_bib = "\n".join(bib_lines)
-    copy_js = (
-        "<script>(function(){var D=new Date().toISOString().slice(0,10);"
-        "document.querySelectorAll('.adate').forEach(function(e){e.textContent=D;});"
-        "document.querySelectorAll('.copybtn').forEach(function(b){b.addEventListener('click',function(){"
-        "navigator.clipboard.writeText((b.dataset.cite||'').replace(/\\[ACCESSED\\]/g,D));"
-        "b.textContent='Copied';});});})();</script>"
-    )
     apparatus = Markup(f"""
     <section class="apparatus"><h3>Cite this source</h3>
       <div class="citebox">
@@ -590,7 +576,7 @@ def source(srcabbr):
         </div>
         <details class="seg"><summary>BibTeX</summary><pre class="diff">{esc(src_bib)}</pre></details>
       </div>
-    </section>{copy_js}""")
+    </section><script type="module" src="/assets/cite.js"></script>""")
     return page(
         s["citation"] or s["srcabbr"],
         _SOURCE.render(
