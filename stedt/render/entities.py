@@ -764,7 +764,9 @@ def group(grpid):
 
     plg = g["plg"] or ""
     head = (f'<span class="grpno">{esc(grpno)}</span>' if grpno else "") + esc(g["grp"] or "—")
-    plg_html = f' <span class="plg2">({esc(plg)})</span>' if plg else ""
+    # show the full proto-language name (abbr in the tooltip), matching the etymon page's PLG link —
+    # so clicking "Proto-Lolo-Burmese" there no longer lands on a header reading only "(PLB)".
+    plg_html = f' <span class="plg2" title="{esc(plg)}">({esc(PLG_FULL.get(plg, plg))})</span>' if plg else ""
     crumb_links = ['<a href="/languages">Languages</a>'] + [
         f'<a href="/group/{gg["grpid"]}">{(esc(gg["grpno"]) + " ") if gg["grpno"] else ""}{esc(gg["grp"])}</a>'
         for gg in lin
