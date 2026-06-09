@@ -10,16 +10,14 @@ word-search prefilter.
 
 Aggregates that depend on ORDER BY group_concat (the `analysis` tag-string sequence) or counts
 are PRECOMPUTED here in Python — the GitHub Actions runner ships an older SQLite without
-`group_concat(... ORDER BY ...)`, so we never rely on it. Mirrors build_search_db.py's
+`group_concat(... ORDER BY ...)`, so we never rely on it. Mirrors the modern search DB's
 page_size/FTS5/VACUUM conventions. Output is .sqlite3 (not .db) for the same GitHub-Pages
 gzip reason noted there.
 """
 import os
 import sqlite3
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(HERE, "stedt.sqlite")
-OUT = os.path.join(HERE, "legacy.sqlite3")
+from stedt.paths import DB as SRC, LEGACY_DB as OUT
 
 # rootcanal's default_where for the public lexicon search (Table/Lexicon.pm).
 LEX_VISIBLE = "coalesce(status,'') NOT IN ('HIDE','DELETED')"

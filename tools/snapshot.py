@@ -96,7 +96,7 @@ def cmd_build(args):
     if args.rebuild_db:
         # data/ -> stedt.sqlite -> search.sqlite3 (and the legacy search DB). Only needed when
         # the data or the DB-build pipeline changed; a render-only refactor leaves these alone.
-        for module in ("stedt.build.from_tsv", "stedt.build.search_db", "build_legacy_search_db"):
+        for module in ("stedt.build.from_tsv", "stedt.build.search_db", "stedt.legacy.search_db"):
             r = subprocess.run([sys.executable, "-m", module], cwd=ROOT)
             if r.returncode != 0:
                 sys.exit(f"snapshot: {module} failed (exit {r.returncode})")
@@ -106,7 +106,7 @@ def cmd_build(args):
 
     _run("stedt.build.static", out, args.limit)         # rmtrees + rebuilds out/  (modern site)
     if not args.no_legacy:
-        _run("build_legacy", out, args.limit)            # adds out/_legacy/  (legacy clone)
+        _run("stedt.legacy.build_site", out, args.limit)   # adds out/_legacy/  (legacy clone)
 
     lines = _manifest_lines(out)
     with open(os.path.join(out, "MANIFEST.sha256"), "w", encoding="utf-8") as f:

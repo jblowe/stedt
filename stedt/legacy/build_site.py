@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
 """Prerender the /_legacy/ rootcanal clone into site/_legacy/.
 
-Runs AFTER build_static.py (which rmtrees + builds site/); this script ONLY writes under site/_legacy/
-and never removes site/. Copies rootcanal's verbatim front-end assets (legacy_assets/) + legacy.sqlite3,
-renders the public pages via legacy_render.py, and stamps a data-version for the WASM DB cache key.
-The legacy-shim JS bundle is produced separately by `npm run build:legacy`.
+Runs AFTER the modern site build (which rmtrees + builds site/); this writes only under
+site/_legacy/ and never removes site/. Copies the verbatim rootcanal front-end assets (assets/)
++ legacy.sqlite3, renders the public pages via stedt.legacy.render, and stamps a data-version for
+the WASM DB cache key. The legacy-shim JS bundle is produced separately by `npm run build:legacy`.
 
-Env:  STEDT_BASE   main-site subpath prefix (default /stedt; '' for apex/localhost). The legacy base
-                   is BASE + '/_legacy'.
-      STEDT_OUT    output dir (default site)
+Env:  STEDT_BASE   main-site subpath prefix (default /stedt; '' for apex/localhost). The legacy
+                   base is BASE + '/_legacy'.
+      STEDT_OUT    output dir (default site/)
       STEDT_LIMIT  cap etyma pages for quick local testing (0 = all)
 """
 import glob
@@ -17,24 +17,27 @@ import os
 import shutil
 import time
 
+from stedt.paths import ROOT, SITE, LEGACY_DB
+
 BASE = os.environ.get("STEDT_BASE", "/stedt").rstrip("/")
 LEGACY_BASE = BASE + "/_legacy"
-OUT = os.environ.get("STEDT_OUT", "site")
+OUT = os.environ.get("STEDT_OUT") or SITE
 LEGACY_OUT = os.path.join(OUT, "_legacy")
 LIMIT = int(os.environ.get("STEDT_LIMIT", "0"))
-HERE = os.path.dirname(os.path.abspath(__file__))
+ASSETS = os.path.join(os.path.dirname(__file__), "assets")   # rootcanal front-end (ships with the package)
 
 
 def data_version():
-    """Cache-bust the legacy DB by hashing data/ + the legacy DB builder (so the key changes when the
-    data OR the schema changes, not on every deploy). Mirrors build_static.data_version()."""
+    """Cache-bust the legacy DB by hashing data/ + the legacy DB builder, relativized to the repo
+    root, so the key changes when the data OR the schema changes but not on every deploy. Mirrors
+    the modern build's data_version()."""
     from stedt import render
     h = hashlib.sha256()
     paths = sorted(glob.glob(os.path.join(render.DATA, "**", "*"), recursive=True))
-    paths.append(os.path.join(HERE, "build_legacy_search_db.py"))
+    paths.append(os.path.join(os.path.dirname(__file__), "search_db.py"))
     for p in paths:
         if os.path.isfile(p):
-            h.update(os.path.relpath(p, HERE).encode("utf-8"))
+            h.update(os.path.relpath(p, ROOT).encode("utf-8"))
             with open(p, "rb") as f:
                 for chunk in iter(lambda: f.read(1 << 20), b""):
                     h.update(chunk)
@@ -47,22 +50,21 @@ def main():
     os.environ["STEDT_LEGACY_BASE"] = LEGACY_BASE
     # Honor a pre-set version (the snapshot harness pins it); otherwise it's a data content hash.
     os.environ["STEDT_LEGACY_VER"] = os.environ.get("STEDT_LEGACY_VER") or data_version()
-    import legacy_render as L
+    from stedt.legacy import render as L
 
     os.makedirs(LEGACY_OUT, exist_ok=True)
 
     # 1) verbatim rootcanal assets (styles/js/scriptaculous/img) -> site/_legacy/
     for sub in ("styles", "js", "scriptaculous", "img"):
-        src = os.path.join(HERE, "legacy_assets", sub)
+        src = os.path.join(ASSETS, sub)
         if os.path.isdir(src):
             shutil.copytree(src, os.path.join(LEGACY_OUT, sub), dirs_exist_ok=True)
 
     # 2) the WASM search DB
-    db = os.path.join(HERE, "legacy.sqlite3")
-    if os.path.exists(db):
-        shutil.copy(db, os.path.join(LEGACY_OUT, "legacy.sqlite3"))
+    if os.path.exists(LEGACY_DB):
+        shutil.copy(LEGACY_DB, os.path.join(LEGACY_OUT, "legacy.sqlite3"))
     else:
-        print("  ! legacy.sqlite3 missing — run build_legacy_search_db.py first")
+        print("  ! legacy.sqlite3 missing — run `stedt legacy search-db` first")
 
     # 3) pages
     n = 0; fails = 0

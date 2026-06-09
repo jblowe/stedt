@@ -2,7 +2,7 @@
 """Render library for the /_legacy/ rootcanal clone — pixel-faithful static pages.
 
 Reproduces rootcanal's PUBLIC (logged-out) Template-Toolkit output as HTML from stedt.sqlite, loading
-rootcanal's verbatim CSS/JS (copied by build_legacy.py). The dynamic behavior (search, sortable tables,
+rootcanal's verbatim CSS/JS (copied by stedt.legacy.build_site). The dynamic behavior (search, sortable tables,
 elink popups, autosuggest) is supplied at runtime by src/legacy-shim.js, which intercepts the original
 AJAX endpoints and answers them from legacy.sqlite3 in WASM. Every page is noindex'd.
 
