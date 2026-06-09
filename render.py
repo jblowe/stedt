@@ -149,11 +149,14 @@ def natkey(s):
 def esc(s): return html.escape(str(s)) if s is not None else ""
 
 def alt(s):
-    """Star every ⪤-joined alternant of a proto-form. The *leading* asterisk is supplied by
-    CSS (.pf/.pf2/.recon ::before); this only adds the ones the CSS can't reach."""
+    """Star every ⪤-joined alternant of a proto-form. The *leading* asterisk is supplied by CSS
+    (.pf/.pf2/.recon ::before) or a literal '*' prefix (cite/title), so strip any leading '*' the
+    data itself carries (only etymon 463 does) to avoid a doubled '**', then add the post-⪤ stars."""
+    if not s: return s or ""
+    s = re.sub(r'^\s*\*\s*', '', s)        # drop a stray leading star baked into the data
     # \*? consumes an asterisk the data already carries on the alternant, so a meaningful
     # double-star (e.g. **d-k-wiy) isn't bumped to *** by adding another.
-    return re.sub(r'⪤\s*\*?', '⪤ *', s) if s else (s or "")
+    return re.sub(r'⪤\s*\*?', '⪤ *', s)
 
 def iso_link(code):
     """An ISO 639-3 code linked to its Glottolog languoid page (the original's Ethnologue
@@ -312,7 +315,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx a.lang{color:var(--soft);}
 .rfx a:hover{color:var(--accent);}
 .lgab{font-variant:small-caps;letter-spacing:.04em;font-size:12px;color:var(--mut);}
-.rfx .pos{font-variant:small-caps;letter-spacing:.03em;font-size:11.5px;color:var(--mut);margin-left:6px;}
+.rfx .pos,.rx-hit .pos,.drop .pos{font-variant:small-caps;letter-spacing:.03em;font-size:11.5px;color:var(--mut);margin-left:6px;}
 .rfx .anl{display:block;font-size:12px;color:var(--mut);margin-top:1px;}
 .rfx .anl a{border-bottom:none;color:var(--mut);}
 .rfx .anl a:hover{color:var(--accent);}
@@ -354,6 +357,7 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .rx-hit .lang{color:var(--soft);font-size:13.5px;border-bottom:none;}
 .rx-hit a.lang:hover{color:var(--accent);}
 .rx-hit .rx-mid{min-width:0;}
+.rx-hit .g,.drop .gl{color:var(--soft);font-style:italic;}
 /* interactable morpheme (per-syllable etymon link): a quiet accent tint atop the dotted underline,
    so it reads as clickable without shouting; brightens to full accent on hover. Not scoped to
    .rx-hit, so the treatment stays consistent anywhere a .syl link appears. */
@@ -368,11 +372,12 @@ a.syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
 .rx-hit .rx-src a:hover{color:var(--accent);}
 /* a reflex carrying a lexical note: dotted-underline its gloss, reveal the note on hover/focus */
 .noted{border-bottom:1px dotted var(--mut);cursor:help;position:relative;}
-.noted>.notepop{display:none;position:absolute;left:0;top:1.55em;z-index:6;width:max-content;max-width:340px;
+.noted>.notepop{display:none;position:absolute;left:0;top:1.55em;z-index:6;width:max-content;max-width:min(340px,calc(100vw - 24px));
   background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:7px 10px;font-style:normal;
-  font-size:12.5px;line-height:1.5;color:var(--soft);white-space:normal;text-align:left;}
+  font-size:12.5px;line-height:1.5;color:var(--soft);white-space:normal;text-align:left;overflow-wrap:anywhere;}
 .noted:hover>.notepop,.noted:focus>.notepop,.noted:focus-within>.notepop{display:block;}
-.noted>.notepop p{margin:0;} .noted>.notepop a{color:var(--soft);}
+.noted>.notepop p,.noted>.notepop .np{margin:0;} .noted>.notepop a{color:var(--soft);}
+.noted>.notepop .np{display:block;} .noted>.notepop .np+.np{margin-top:5px;padding-top:5px;border-top:1px solid var(--hair);}
 /* Stammbaum-subgroup header between attested-form result groups */
 .rx-sub{font-variant:small-caps;letter-spacing:.05em;color:var(--soft);font-size:13px;
   margin:16px 0 3px;padding-bottom:2px;border-bottom:1px solid var(--rule);}
@@ -587,7 +592,7 @@ def home():
         let h='';
         (j.languages||[]).forEach(x=>h+=`<a href="${B}/language/${x.lgid}"><span class="k">lang</span><span>${esc(x.language)}</span></a>`);
         j.etyma.forEach(e=>h+=`<a href="${B}/etymon/${e.tag}"><span class="k">recon</span><span><span class="recon">${altstar(esc(e.protoform))}</span> · <span class="gl">${esc(e.protogloss)}</span></span></a>`);
-        j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:B+'/language/'+x.lgid+'#rn'+x.rn}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> ‘${esc(x.gloss)}’</span></a>`);
+        j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:B+'/language/'+x.lgid+'#rn'+x.rn}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> <span class="gl">${esc(x.gloss)}</span>${x.gfn?` <span class="pos">${esc(x.gfn)}</span>`:''}</span></a>`);
         d.innerHTML=h;d.style.display=h?'block':'none';},180);});
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
     document.addEventListener('click',e=>{if(!e.target.closest('.bigsearch'))d.style.display='none';});
@@ -599,7 +604,10 @@ def about():
     n = lambda s: c.execute(s).fetchone()[0]
     ety = n("SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'")
     rfx = n("SELECT count(*) FROM lexicon")
-    lgs = n("SELECT count(DISTINCT ln.language) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid WHERE ln.language!='' AND ln.language NOT LIKE '*%'")
+    # count a "language" as a lect = (name, subgroup), matching the Languages index header and the
+    # canonicalization (a name spanning two subgroups, e.g. Lahu (Red), is two lects) — not bare name.
+    lgs = n("""SELECT count(*) FROM (SELECT 1 FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
+        WHERE ln.language!='' AND ln.language NOT LIKE '*%' GROUP BY ln.language, ln.grpid)""")
     src = n("""SELECT count(*) FROM srcbib sb WHERE EXISTS(
         SELECT 1 FROM languagenames ln JOIN lexicon l ON l.lgid=ln.lgid WHERE ln.srcabbr=sb.srcabbr)""")
     c.close()
@@ -677,8 +685,13 @@ def etymon(tag):
     # cross-reference labels: collect every tag mentioned in a pure tag-list field
     digit_tokens = set()
     for fld in (e['allofams'], e['xrefs'], e['possallo']):
-        if fld and re.fullmatch(r'[\d,\s]+', fld.strip()):
-            digit_tokens.update(int(t) for t in re.split(r'[,\s]+', fld.strip()) if t)
+        if not fld: continue
+        fs = fld.strip()
+        if re.fullmatch(r'[\d,\s]+', fs):
+            digit_tokens.update(int(t) for t in re.split(r'[,\s]+', fs) if t)
+        else:                                  # also a single tag behind a relate-symbol: "↭ 686", "=1318"
+            m = re.fullmatch(r'[↭=\s]*(\d+)\s*(?:\([^)]*\))?', fs)
+            if m: digit_tokens.add(int(m.group(1)))
     labels = {}
     if digit_tokens:
         toks = list(digit_tokens); qm = ','.join('?' * len(toks))
@@ -810,6 +823,13 @@ def etymon(tag):
                 else:
                     parts.append(f'<span class="xref">#{esc(t)}</span>')
             return ', '.join(parts)
+        # a field embedding a single etymon tag with a relate-symbol/parenthetical (e.g. "↭ 686",
+        # "=1318", "2349 (PLB)") — link it to that etymon, not a (dead) gloss search. Keep it tight
+        # (anchored ↭/= prefix + bare integer) so section refs like "3.4.5" / "8.8" don't match.
+        m = re.fullmatch(r'[↭=\s]*(\d+)\s*(?:\([^)]*\))?', v)
+        if m and int(m.group(1)) in labels:
+            t = m.group(1); lab = labels[int(t)]
+            return f'<a class="xref" href="/etymon/{t}">*{esc(alt(lab[0]))} ‘{esc(lab[1])}’</a>'
         g = v.lstrip('↭').strip()  # gloss-based cross-reference
         return f'<a class="xref" href="/search?q={urllib.parse.quote(g)}">{esc(g)}</a>'
     conn = []
@@ -849,9 +869,9 @@ def etymon(tag):
     badges = '<span class="badge del">deleted</span>' if (e['status'] or '').upper() == 'DELETE' else ''
     exm = ' · <span class="exm">exemplary</span>' if (e['exemplary'] or '') == 'x' else ''
 
-    cite_text = f"STEDT etymon #{e['tag']}, *{e['protoform']} ‘{e['protogloss']}’. {CITE_BASE}/etymon/{e['tag']} (accessed [ACCESSED])"
+    cite_text = f"STEDT etymon #{e['tag']}, *{alt(e['protoform'])} ‘{e['protogloss']}’. {CITE_BASE}/etymon/{e['tag']} (accessed [ACCESSED])"
     bib = ("@misc{stedt-" + str(e['tag']) + ",\n"
-           "  title  = {{*" + (e['protoform'] or '') + " '" + (e['protogloss'] or '') + "'}},\n"
+           "  title  = {{*" + alt(e['protoform'] or '') + " '" + (e['protogloss'] or '') + "'}},\n"
            "  author = {STEDT},\n"
            "  year   = {2017},\n"
            "  note   = {Sino-Tibetan Etymological Dictionary and Thesaurus (STEDT) v1.0, etymon #" + str(e['tag']) + "},\n"
@@ -896,7 +916,7 @@ def etymon(tag):
     {reconhtml}
     {connhtml}
     {apparatus}"""
-    return page(f"*{e['protoform']} ‘{e['protogloss']}’", body, nav="reconstructions")
+    return page(f"*{alt(e['protoform'])} ‘{e['protogloss']}’", body, nav="reconstructions")
 
 def group_lineage(c, grpno):
     """Genetic lineage (ancestors incl. self) by walking grpno prefixes."""
@@ -910,16 +930,20 @@ def group_lineage(c, grpno):
 
 def reflex_counts(c, tags=None):
     """Map {etymon tag: number of attested reflexes}. tags=None counts every etymon in one pass;
-    pass a tag set to limit it."""
+    pass a tag set to limit it. Excludes proto-form stand-ins (language '*…') so the count matches
+    the etymon page's own, reflex_semkey_counts(), and the search query — those are reconstructions,
+    not attested reflexes."""
+    JW = ("FROM lx_et_hash h JOIN lexicon l ON l.rn=h.rn JOIN languagenames ln ON ln.lgid=l.lgid "
+          "WHERE h.tag>0 AND ln.language NOT LIKE '*%'")
     if tags is None:
-        rows = c.execute("SELECT tag, count(DISTINCT rn) n FROM lx_et_hash WHERE tag>0 GROUP BY tag")
+        rows = c.execute(f"SELECT h.tag AS tag, count(DISTINCT h.rn) n {JW} GROUP BY h.tag")
         return {r['tag']: r['n'] for r in rows}
     tags = [t for t in tags if t]
     out = {}
     for i in range(0, len(tags), 900):
         chunk = tags[i:i + 900]; qm = ','.join('?' * len(chunk))
-        for r in c.execute(f"SELECT tag, count(DISTINCT rn) n FROM lx_et_hash "
-                           f"WHERE tag>0 AND tag IN ({qm}) GROUP BY tag", chunk):
+        for r in c.execute(f"SELECT h.tag AS tag, count(DISTINCT h.rn) n {JW} "
+                           f"AND h.tag IN ({qm}) GROUP BY h.tag", chunk):
             out[r['tag']] = r['n']
     return out
 
@@ -1008,14 +1032,21 @@ def language(lgid):
         for nr in c.execute(f"SELECT rn, xmlnote FROM notes WHERE spec='L' AND notetype!='I' "
                             f"AND xmlnote IS NOT NULL AND rn IN ({qmk}) ORDER BY ord, noteid", chunk):
             lnotes.setdefault(nr['rn'], []).append(nr['xmlnote'])
+    # a lect's ISO / short-name may live on a source-variant sibling, not the canonical lgid;
+    # back-fill from any sibling so the lect's own page shows them (group() back-fills the same way)
+    sil, lgab = ln['silcode'] or '', ln['lgabbr'] or ''
+    if (not sil or not lgab) and len(sibs) > 1:
+        for sr in c.execute(f"SELECT silcode, lgabbr FROM languagenames WHERE lgid IN ({qm})", sibs):
+            sil = sil or (sr['silcode'] or '')
+            lgab = lgab or (sr['lgabbr'] or '')
     c.close()
 
     crumb_links = ['<a href="/languages">Languages</a>'] + \
                   [f'<a href="/group/{gg["grpid"]}">{(esc(gg["grpno"]) + " ") if gg["grpno"] else ""}{esc(gg["grp"])}</a>' for gg in lin]
     nsrc = len({r['srcabbr'] for r in rows if r['srcabbr']})
     meta = []
-    if ln['lgabbr']: meta.append(f'<span><b>abbr</b> {esc(ln["lgabbr"])}</span>')
-    if ln['silcode']: meta.append(f'<span><b>ISO 639-3</b> {iso_link(ln["silcode"])}</span>')
+    if lgab: meta.append(f'<span><b>abbr</b> {esc(lgab)}</span>')
+    if sil: meta.append(f'<span><b>ISO 639-3</b> {iso_link(sil)}</span>')
     if nsrc > 1: meta.append(f'<span><b>{nsrc}</b> sources</span>')
     meta.append(f'<span><b>{total:,}</b> reflexes</span>')
 
@@ -1050,9 +1081,12 @@ def language(lgid):
             else:
                 src = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
             if lnotes.get(r['rn']):
-                pop = ''.join(render_note(x) for x in lnotes[r['rn']])
+                # the popover lives inside the inline gloss <span>, so render each note as an inline
+                # <span class="np"> (not render_note's block <p>) — valid markup + cleanly separable
+                pop = ''.join('<span class="np">' + render_note(x).replace('<p class="np">', '').replace('</p>', '')
+                              + '</span>' for x in lnotes[r['rn']])
                 gl = (f'<span class="g noted" tabindex="0">{esc(r["gloss"])}'
-                      f'<span class="notepop">{pop}</span></span>')
+                      f'<span class="notepop" role="note">{pop}</span></span>')
             else:
                 gl = f'<span class="g">{esc(r["gloss"])}</span>'
             rfx.append(f'<div class="rfx" id="rn{r["rn"]}">{catcell}'
@@ -1140,7 +1174,7 @@ def source(srcabbr):
             count(l.rn) AS n
         FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
-        WHERE ln.srcabbr=? AND ln.language!='' GROUP BY ln.lgid
+        WHERE ln.srcabbr=? AND ln.language!='' AND ln.language NOT LIKE '*%' GROUP BY ln.lgid
         HAVING n>0 ORDER BY ln.language""", (srcabbr,)).fetchall()
     c.close()
     total = sum(l['n'] for l in langs)
@@ -1324,7 +1358,7 @@ def group(grpid):
             f'<div class="ety-hit"><a href="/etymon/{r["tag"]}" class="pf2 lat">{esc(alt(r["protoform"]))}</a>'
             f'<span class="pg2">{esc(r["protogloss"])}</span>'
             f'<span class="tagn">{esc(plg)} #{r["tag"]}{rcount_txt(rcounts.get(r["tag"], 0))}</span></div>' for r in recons)
-        reconhtml = (f'<div class="ety-list grpsec"><h3>Reconstructions'
+        reconhtml = (f'<div class="ety-list grpsec"><h3>Reconstructions<span class="cnt">{len(recons)}</span>'
                      f'</h3>{items}</div>')
 
     body = f"""
@@ -1519,8 +1553,8 @@ def sources_index():
     c = con()
     rows = c.execute("""SELECT sb.srcabbr AS srcabbr, sb.citation AS citation, sb.author AS author,
             sb.year AS year, sb.title AS title, sb.imprint AS imprint,
-            count(DISTINCT CASE WHEN l.rn IS NOT NULL THEN ln.lgid END) AS nlang,
-            count(l.rn) AS nforms
+            count(DISTINCT CASE WHEN l.rn IS NOT NULL AND ln.language NOT LIKE '*%' THEN ln.lgid END) AS nlang,
+            count(CASE WHEN ln.language NOT LIKE '*%' THEN l.rn END) AS nforms
         FROM srcbib sb
         LEFT JOIN languagenames ln ON ln.srcabbr=sb.srcabbr
         LEFT JOIN lexicon l ON l.lgid=ln.lgid
@@ -1606,7 +1640,7 @@ def search_page(q=""):
     const CHUNK=200;
     const bs=document.getElementById('bs');
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
-    const etyRow=e=>`<a class="ety-hit" href="${B}/etymon/${e.tag}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}</span></a>`;
+    const etyRow=e=>`<a class="ety-hit" href="${B}/etymon/${e.tag}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}${e.nreflex?` · ${fmt(e.nreflex)} reflex${e.nreflex==1?'':'es'}`:''}</span></a>`;
     // --- per-syllable etymon links (faithful port of the original SylStation.syllabify) ---
     // Syllabify a form the way the data was tagged so lx_et_hash.ind (syllable position -> etymon)
     // aligns; tagged syllables then link to their etymon. Char classes [(] [)] [|] stand in for the
@@ -1653,18 +1687,22 @@ def search_page(q=""):
       return out;
     };
     const rfxRow=r=>{
-      const lang=`<a class="lang" href="${B}/language/${r.lgid}#rn${r.rn}">${esc(r.language)}</a>`;
+      const home=`${B}/language/${r.lgid}#rn${r.rn}`;
       const src=r.srcabbr?`<a href="${B}/source/${esc(r.srcabbr)}">${esc(r.citation||r.srcabbr)}</a>`:'';
-      // a note dotted-underlines the gloss and reveals on hover/focus (rather than an always-on line)
+      const pos=r.gfn?` <span class="pos">${esc(r.gfn)}</span>`:'';
+      // the gloss is styled (italic·soft) so it reads distinct without quotes; a note dotted-
+      // underlines it and reveals on hover/focus (rather than an always-on line)
       const gl=r.note
-        ? `<span class="noted" tabindex="0">‘${esc(r.gloss)}’<span class="notepop">${esc(r.note)}</span></span>`
-        : `‘${esc(r.gloss)}’`;
-      const lf=sylLink(r); let mid;
-      if(lf){                              // syllables carry the etymon links; no separate chips
-        mid=`<span class="lat">${lf}</span> ${gl}`;
-      }else{                               // fall back to plain form + trailing "via" etymon chips
+        ? `<span class="g noted" tabindex="0">${esc(r.gloss)}<span class="notepop" role="note">${esc(r.note)}</span></span>`
+        : `<span class="g">${esc(r.gloss)}</span>`;
+      const lf=sylLink(r); let mid, lang;
+      if(lf){                              // syllables carry the etymon links; the name carries #rn
+        lang=`<a class="lang" href="${home}">${esc(r.language)}</a>`;
+        mid=`<span class="lat">${lf}</span> ${gl}${pos}`;
+      }else{                               // form links to its attestation (#rn); trailing via chips
+        lang=`<span class="lang">${esc(r.language)}</span>`;
         const links=(r.etyma&&r.etyma.length)?` <span class="vias">${r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' ')}</span>`:'';
-        mid=`<span class="lat">${esc(r.form)}</span> ${gl}${links}`;
+        mid=`<a href="${home}"><span class="lat">${esc(r.form)}</span></a> ${gl}${pos}${links}`;
       }
       return `<div class="rx-hit">${lang}<span class="rx-mid">${mid}</span><span class="rx-src">${src}</span></div>`;
     };
@@ -1737,15 +1775,21 @@ _CATFORMS_JS = """
   var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){
     return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
   var norm=function(s){return String(s==null?'':s).toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');};
+  var altstar=function(s){return String(s).replace(/⪤\\s*\\*?/g,'⪤ *');};
   var list=wrap.querySelector('.catlist'),
       count=wrap.querySelector('.catcount'),
       input=wrap.querySelector('.catfilter');
   var DATA=null, view=[], loaded=false, loading=false;
   function row(r){
-    return '<a class="ety-hit" href="'+B+'/language/'+r.lgid+'#rn'+r.rn+'">'+
-      '<span class="rf lat">'+esc(r.reflex)+'</span>'+
-      '<span class="gl2">'+esc(r.gloss)+'</span>'+
-      '<span class="tagn">'+esc(r.language)+'</span></a>';
+    var home=B+'/language/'+r.lgid+'#rn'+r.rn;
+    var gl=r.note?'<span class="noted" tabindex="0">'+esc(r.gloss)+'<span class="notepop" role="note">'+esc(r.note)+'</span></span>':esc(r.gloss);
+    var pos=r.gfn?' <span class="pos">'+esc(r.gfn)+'</span>':'';
+    var via=(r.etyma&&r.etyma.length)?' <span class="vias">'+r.etyma.map(function(x){
+      return '<a class="via" href="'+B+'/etymon/'+x.tag+'">› *'+altstar(esc(x.pf))+'</a>';}).join(' ')+'</span>':'';
+    var src=r.srcabbr?'<a href="'+B+'/source/'+esc(r.srcabbr)+'">'+esc(r.citation||r.srcabbr)+'</a>':'';
+    return '<div class="rx-hit"><a class="lang" href="'+home+'">'+esc(r.language)+'</a>'+
+      '<span class="rx-mid"><a class="lat" href="'+home+'">'+esc(r.reflex)+'</a> '+gl+pos+via+'</span>'+
+      '<span class="rx-src">'+src+'</span></div>';
   }
   function updateCount(shown){
     if(!DATA){count.textContent='';return;}
@@ -1856,8 +1900,10 @@ def thesaurus(semkey=None):
         body.append('<ul>')
         for k in kids:
             sk = k['semkey']
-            cnt = c.execute(f"""SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'
-                AND ({ECAT}=? OR {ECAT} LIKE ?)""", (sk, sk + '.%')).fetchone()[0]
+            kown = [sk, sk + '.0'] if '.' not in sk else [sk]   # node-only, matching the index (not subtree)
+            kph = ','.join('?' * len(kown))
+            cnt = c.execute(f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' "
+                            f"AND {ECAT} IN ({kph})", kown).fetchone()[0]
             body.append(f'<li><a class="row" href="/thesaurus/{k["semkey"]}">'
                         f'<span class="sk">{esc(k["semkey"])}</span><span class="ti">{esc(k["chaptertitle"])}</span>'
                         f'<span class="ct">{cnt} etyma</span></a></li>')
@@ -1870,7 +1916,7 @@ def thesaurus(semkey=None):
             ORDER BY e.sequence, e.protogloss""", own).fetchall()
         if direct:
             dcounts = reflex_counts(c, [e['tag'] for e in direct])
-            body.append('<div class="ety-list"><h3 style="margin-top:30px">Reconstructions</h3>')
+            body.append(f'<div class="ety-list"><h3 style="margin-top:30px">Reconstructions <span class="ct">{len(direct):,}</span></h3>')
             for e in direct:
                 body.append(f'<div class="ety-hit"><a href="/etymon/{e["tag"]}" class="pf2 lat">{esc(alt(e["protoform"]))}</a>'
                             f'<span class="pg2">{esc(e["protogloss"])}</span>'

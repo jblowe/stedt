@@ -64,7 +64,7 @@ function run(db, sql, params) {
 // Each result row carries its source (the WORK it's attested in: srcabbr + srcbib.citation), its
 // Stammbaum subgroup (grpno + grp, for grouping), and its lexical note (lxnote) — same detail the
 // entry pages show. (Per-syllable tag positions live in lx_et_hash.ind for future syllable links.)
-const RFX_COLS = `ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.rn AS rn, l.lgid AS lgid,
+const RFX_COLS = `ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.gfn AS gfn, l.rn AS rn, l.lgid AS lgid,
          ln.srcabbr AS srcabbr, sb.citation AS citation, g.grpno AS grpno, g.grp AS subgroup, nt.note AS note,
          json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'ind', h.ind))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma`;
@@ -82,7 +82,7 @@ const REFLEX_SQL = `
   GROUP BY l.rn LIMIT ?`;
 
 const ETYMA_SQL = `
-  SELECT e.tag AS tag, g.plg AS plg, e.protoform AS protoform, e.protogloss AS protogloss, e.semkey AS semkey
+  SELECT e.tag AS tag, g.plg AS plg, e.protoform AS protoform, e.protogloss AS protogloss, e.semkey AS semkey, e.nreflex AS nreflex
   FROM etyma e LEFT JOIN languagegroups g ON g.grpid = e.grpid
   WHERE coalesce(upper(e.status), '') != 'DELETE'
     AND (e.protogloss LIKE ? OR e.protoform LIKE ?
@@ -91,7 +91,7 @@ const ETYMA_SQL = `
   LIMIT ?`;
 
 const ETYMA_ALL_SQL = `
-  SELECT e.tag AS tag, g.plg AS plg, e.protoform AS protoform, e.protogloss AS protogloss, e.semkey AS semkey
+  SELECT e.tag AS tag, g.plg AS plg, e.protoform AS protoform, e.protogloss AS protogloss, e.semkey AS semkey, e.nreflex AS nreflex
   FROM etyma e LEFT JOIN languagegroups g ON g.grpid = e.grpid
   WHERE coalesce(upper(e.status), '') != 'DELETE' ORDER BY e.tag LIMIT ?`;
 
@@ -100,17 +100,32 @@ const ETYMA_ALL_SQL = `
 // are otherwise unreachable by meaning. This lists the attested forms filed directly under a
 // semantic node, lazily (on expand), reusing the already-loaded search DB.
 const FORMS_BY_CAT_SQL = (n) => `
-  SELECT l.rn AS rn, l.reflex AS reflex, l.gloss AS gloss, l.lgid AS lgid, ln.language AS language
+  SELECT l.rn AS rn, l.reflex AS reflex, l.gloss AS gloss, l.gfn AS gfn, l.lgid AS lgid,
+         ln.language AS language, ln.srcabbr AS srcabbr, sb.citation AS citation, nt.note AS note,
+         json_group_array(json_object('tag', e.tag, 'pf', e.protoform))
+           FILTER (WHERE e.tag IS NOT NULL) AS etyma
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
+  LEFT JOIN srcbib sb ON sb.srcabbr = ln.srcabbr
+  LEFT JOIN lxnote nt ON nt.rn = l.rn
+  LEFT JOIN lx_et_hash h ON h.rn = l.rn AND h.tag > 0
+  LEFT JOIN etyma e ON e.tag = h.tag AND coalesce(upper(e.status), '') != 'DELETE'
   WHERE l.semkey IN (${Array(n).fill('?').join(',')})
     AND ln.language NOT LIKE '*%'
+  GROUP BY l.rn
   ORDER BY ln.language, l.reflex`;
 
 export async function stedtFormsByCategory(semkeys) {
   const keys = (Array.isArray(semkeys) ? semkeys : [semkeys]).filter(Boolean);
   if (!keys.length) return [];
   const db = await getDb();
-  return run(db, FORMS_BY_CAT_SQL(keys.length), keys);
+  const rows = run(db, FORMS_BY_CAT_SQL(keys.length), keys);
+  for (const r of rows) {   // dedupe the reflex's etyma (a polymorphemic form has several) for via-chips
+    let ets = []; try { ets = JSON.parse(r.etyma || '[]'); } catch (e) { ets = []; }
+    const seen = new Set(), uniq = [];
+    for (const x of ets) { if (x && x.tag != null && !seen.has(x.tag)) { seen.add(x.tag); uniq.push(x); } }
+    r.etyma = uniq;
+  }
+  return rows;
 }
 
 // AND the whitespace-separated tokens (FTS5 treats a space between terms as AND), each wrapped as

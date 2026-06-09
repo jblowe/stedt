@@ -37,17 +37,21 @@ def main():
     # the page/entry number lives on the entry page each result links to. Keep the transfer lean.
     db.executescript("""
         -- key columns as INTEGER PRIMARY KEY (the rowid) so no separate index is needed
-        CREATE TABLE etyma          (tag INTEGER PRIMARY KEY, protoform, protogloss, semkey, status, grpid);
+        CREATE TABLE etyma          (tag INTEGER PRIMARY KEY, protoform, protogloss, semkey, status, grpid, nreflex);
         CREATE TABLE languagegroups (grpid INTEGER PRIMARY KEY, plg, grpno, grp);
         CREATE TABLE languagenames  (lgid INTEGER PRIMARY KEY, language, srcabbr, grpid);
-        CREATE TABLE lexicon        (rn INTEGER PRIMARY KEY, reflex, gloss, lgid, semkey);
+        CREATE TABLE lexicon        (rn INTEGER PRIMARY KEY, reflex, gloss, gfn, lgid, semkey);
         CREATE TABLE lx_et_hash     (rn INTEGER, tag INTEGER, ind INTEGER);   -- ind = syllable position
         CREATE TABLE srcbib         (srcabbr TEXT PRIMARY KEY, citation);
         CREATE TABLE lxnote         (rn INTEGER PRIMARY KEY, note);
-        INSERT INTO etyma          SELECT tag, protoform, protogloss, semkey, status, grpid FROM src.etyma;
+        INSERT INTO etyma SELECT e.tag, e.protoform, e.protogloss, e.semkey, e.status, e.grpid,
+            (SELECT count(DISTINCT h.rn) FROM src.lx_et_hash h
+               JOIN src.lexicon l2 ON l2.rn=h.rn JOIN src.languagenames n2 ON n2.lgid=l2.lgid
+               WHERE h.tag=e.tag AND h.tag>0 AND n2.language NOT LIKE '*%')   -- proto-excluded reflex count
+          FROM src.etyma e;
         INSERT INTO languagegroups SELECT grpid, plg, grpno, grp FROM src.languagegroups;
         INSERT INTO languagenames  SELECT lgid, language, srcabbr, grpid FROM src.languagenames;
-        INSERT INTO lexicon        SELECT rn, reflex, gloss, lgid, semkey FROM src.lexicon;
+        INSERT INTO lexicon        SELECT rn, reflex, gloss, gfn, lgid, semkey FROM src.lexicon;
         INSERT INTO lx_et_hash     SELECT rn, tag, ind FROM src.lx_et_hash WHERE tag > 0;
         INSERT INTO srcbib         SELECT srcabbr, citation FROM src.srcbib WHERE coalesce(srcabbr,'')!='';
         CREATE INDEX ix_hash_rn ON lx_et_hash(rn);   -- rn non-unique here (multi-tag reflexes)
