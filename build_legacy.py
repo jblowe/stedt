@@ -45,7 +45,8 @@ def main():
     t0 = time.time()
     # Configure the renderer's base + cache version BEFORE importing its page fns build URLs.
     os.environ["STEDT_LEGACY_BASE"] = LEGACY_BASE
-    os.environ["STEDT_LEGACY_VER"] = data_version()
+    # Honor a pre-set version (the snapshot harness pins it); otherwise it's a data content hash.
+    os.environ["STEDT_LEGACY_VER"] = os.environ.get("STEDT_LEGACY_VER") or data_version()
     import legacy_render as L
 
     os.makedirs(LEGACY_OUT, exist_ok=True)

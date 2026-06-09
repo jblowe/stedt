@@ -108,7 +108,9 @@ def cap(xs):
 def main():
     global DB_VERSION
     t0 = time.time()
-    DB_VERSION = data_version()
+    # STEDT_DB_VERSION pins the cache-bust hash (used by the snapshot harness so renaming a build
+    # file doesn't churn every page's <head>); unset in real builds, where it's a content hash.
+    DB_VERSION = os.environ.get("STEDT_DB_VERSION") or data_version()
     if os.path.isdir(OUT):
         shutil.rmtree(OUT)
     os.makedirs(OUT, exist_ok=True)

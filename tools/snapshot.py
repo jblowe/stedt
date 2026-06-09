@@ -52,6 +52,10 @@ def _run(script, out_dir, limit):
     env = dict(os.environ)
     env["STEDT_OUT"] = out_dir
     env["STEDT_BASE"] = ""            # root-relative -> clean diffs; comparison only, not deploy
+    # Pin the cache-bust versions so a diff reflects only rendered content, not the data/pipeline
+    # content hash (which legitimately changes when a build file is renamed or moved).
+    env["STEDT_DB_VERSION"] = "snapshot"
+    env["STEDT_LEGACY_VER"] = "snapshot"
     if limit:
         env["STEDT_LIMIT"] = str(limit)
     r = subprocess.run([sys.executable, script], cwd=ROOT, env=env)
