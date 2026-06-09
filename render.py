@@ -380,10 +380,7 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .rbar input:focus{outline:none;border-color:var(--accent);}
 .rcount{font-size:13px;color:var(--mut);white-space:nowrap;font-variant-numeric:tabular-nums;}
 .rnone{display:none;color:var(--mut);font-size:15px;padding:24px 0;}
-.rmore{margin:18px 0 0;}
-.rmore button{font-family:inherit;font-size:14px;color:var(--accent);background:none;border:none;
-  cursor:pointer;padding:6px 0;border-bottom:1px dotted var(--rule);}
-.rmore button:hover{color:var(--ink);}
+.wl-spacer{pointer-events:none;}   /* reserves the unrendered tail's height (see _WINDOWED_JS) */
 
 /* thesaurus */
 .thes ul{list-style:none;padding:0;margin:0;}
@@ -1339,6 +1336,64 @@ def group(grpid):
     {reconhtml}"""
     return page(g['grp'] or "Group", body, nav="languages")
 
+# Shared windowed-list engine for the big client-rendered lists (reconstructions index, search
+# results, thesaurus attestations). Rows still render in CHUNK-sized batches to keep the DOM light,
+# but a trailing spacer reserves the whole list's (over)estimated height up front — so the
+# scrollbar reflects the FULL dataset from first paint instead of growing as you scroll. Scrolling
+# toward the end renders the rows that belong there in one batch, so dragging the bar to the bottom
+# lands on the last rows at once. The height estimate is biased high on purpose (MARGIN): real
+# content then only ever settles UP toward a bar you've dragged down, never grows past it. Plain
+# constant (literal { }); embedded inline on each page so it runs before its page script, with no
+# extra request and no module load-order dependency.
+_WINDOWED_JS = """
+function windowedList(list, opts){
+  opts=opts||{};
+  var CHUNK=opts.chunk||200, row=opts.row, MARGIN=opts.margin||1.15, BUFFER=600;
+  var data=[], shown=0, rowH=0;
+  var spacer=document.createElement('div');
+  spacer.className='wl-spacer'; spacer.setAttribute('aria-hidden','true');
+  list.parentNode.insertBefore(spacer, list.nextSibling);
+  function resize(){                         // reserve (over)estimated height for the unrendered tail
+    var rem=data.length-shown;
+    spacer.style.height=(rem>0&&rowH>0)?Math.ceil(rem*rowH*MARGIN)+'px':'';
+  }
+  function renderTo(target){                 // render rows [shown,target) in a single batch
+    if(target>data.length) target=data.length;
+    if(target>shown){
+      var h='';
+      for(var i=shown;i<target;i++) h+=row(data[i]);
+      list.insertAdjacentHTML('beforeend',h);
+      shown=target;
+      if(list.offsetHeight>0) rowH=list.offsetHeight/shown;   // running average; adapts to wrap/zoom
+    }
+    resize();
+    if(opts.onRender) opts.onRender(shown,data.length);
+  }
+  function fill(){                           // render until rendered rows cover the viewport (+buffer)
+    var vh=window.innerHeight||document.documentElement.clientHeight, guard=0;
+    while(shown<data.length && guard++<4000){
+      var top=spacer.getBoundingClientRect().top;   // boundary between real rows and the reserve
+      if(top>=vh+BUFFER) break;
+      var step=CHUNK;
+      if(rowH>0){var need=Math.ceil((vh+BUFFER-top)/rowH); if(need>step) step=need;}
+      renderTo(shown+step);
+    }
+  }
+  function reset(newData){                    // (re)bind data, e.g. after an in-page filter change
+    data=newData||[]; shown=0; list.innerHTML='';
+    renderTo(CHUNK); fill();
+  }
+  var queued=false;
+  function onScroll(){
+    if(queued) return; queued=true;
+    requestAnimationFrame(function(){queued=false; fill();});
+  }
+  window.addEventListener('scroll', onScroll, {passive:true});
+  window.addEventListener('resize', onScroll, {passive:true});
+  return {reset:reset, fill:fill};
+}
+"""
+
 def reconstructions():
     # The whole list (~4k etyma) is shipped once as compact JSON and rendered
     # client-side in windows of CHUNK rows, with an instant in-page filter. This
@@ -1367,59 +1422,44 @@ def reconstructions():
     </div>
     <div id="recon-list"></div>
     <p class="rnone">No reconstructions match your filter.</p>
-    <div class="rmore" id="rmore-wrap" hidden><button id="rmore" type="button">Show more</button></div>
     <noscript><p class="cap">Enable JavaScript to browse and filter all reconstructions, or use
       <a href="/search">search</a>. Each etymon also has its own page, linked from the
       <a href="/thesaurus">thesaurus</a> and <a href="/languages">language</a> indexes.</p></noscript>
     <script id="recon-data" type="application/json">{payload}</script>
-    <script>
-    (function(){{
+    <script>""" + _WINDOWED_JS + """
+    (function(){
       var B=window.STEDT_BASE||'';
-      var esc=function(s){{return String(s==null?'':s).replace(/[&<>"]/g,function(c){{
-        return {{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}}[c];}});}};
-      var norm=function(s){{return String(s==null?'':s).toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');}};
+      var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){
+        return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
+      var norm=function(s){return String(s==null?'':s).toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');};
       var DATA=JSON.parse(document.getElementById('recon-data').textContent);
-      for(var i=0;i<DATA.length;i++){{var r=DATA[i];r[5]=norm(r[1]+' '+r[2]+' '+r[3]+' #'+r[0]);}}
-      var CHUNK=200, view=DATA, shown=0;
+      for(var i=0;i<DATA.length;i++){var r=DATA[i];r[5]=norm(r[1]+' '+r[2]+' '+r[3]+' #'+r[0]);}
+      var view=DATA;
       var list=document.getElementById('recon-list'),
-          wrap=document.getElementById('rmore-wrap'),
-          btn=document.getElementById('rmore'),
           none=document.querySelector('.rnone'),
           count=document.getElementById('rcount'),
           input=document.getElementById('rfilter');
-      function row(r){{var rc=r[4]?(' · '+r[4]+(r[4]==1?' reflex':' reflexes')):'';
+      function row(r){var rc=r[4]?(' · '+r[4]+(r[4]==1?' reflex':' reflexes')):'';
         return '<a class="ety-hit" href="'+B+'/etymon/'+r[0]+'">'+
         '<span class="pf2 lat">'+esc(r[1])+'</span>'+
         '<span class="pg2">'+esc(r[2])+'</span>'+
-        '<span class="tagn">'+esc(r[3])+' #'+esc(r[0])+rc+'</span></a>';}}
-      function updateCount(){{
+        '<span class="tagn">'+esc(r[3])+' #'+esc(r[0])+rc+'</span></a>';}
+      function updateCount(shown){
         var t=DATA.length, m=view.length;
         var s=(m===t)?t.toLocaleString()+' etyma':m.toLocaleString()+(m===1?' match':' matches');
         if(shown<m) s+=' · '+shown.toLocaleString()+' shown';
         count.textContent=s;
-      }}
-      function renderMore(){{
-        var next=view.slice(shown,shown+CHUNK), h='';
-        for(var i=0;i<next.length;i++) h+=row(next[i]);
-        list.insertAdjacentHTML('beforeend',h);
-        shown+=next.length;
-        wrap.hidden=shown>=view.length;
-        none.style.display=view.length?'none':'block';
-        updateCount();
-      }}
-      function apply(){{
+      }
+      var win=windowedList(list,{row:row,onRender:function(shown){
+        updateCount(shown); none.style.display=view.length?'none':'block';}});
+      function apply(){
         var q=norm(input.value.trim());
-        view=q?DATA.filter(function(r){{return r[5].indexOf(q)>=0;}}):DATA;
-        list.innerHTML=''; shown=0; renderMore();
-      }}
-      btn.addEventListener('click',renderMore);
-      var tmr; input.addEventListener('input',function(){{clearTimeout(tmr);tmr=setTimeout(apply,90);}});
-      if('IntersectionObserver' in window){{
-        var io=new IntersectionObserver(function(es){{if(es[0].isIntersecting&&!wrap.hidden)renderMore();}});
-        io.observe(wrap);
-      }}
-      renderMore();
-    }})();
+        view=q?DATA.filter(function(r){return r[5].indexOf(q)>=0;}):DATA;
+        win.reset(view);
+      }
+      var tmr; input.addEventListener('input',function(){clearTimeout(tmr);tmr=setTimeout(apply,90);});
+      win.reset(DATA);
+    })();
     </script>"""
     return page("Reconstructions", body, nav="reconstructions")
 
@@ -1554,7 +1594,7 @@ def search_page(q=""):
       <div id="srsub" class="sub"></div>
       <div id="results"></div>
     </div>
-    <script>
+    <script>""" + _WINDOWED_JS + """
     const B=window.STEDT_BASE||'';
     const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
     const altstar=s=>String(s).replace(/⪤\\s*\\*?/g,'⪤ *');
@@ -1641,22 +1681,7 @@ def search_page(q=""):
     }
     function windowed(host,data,rowFn){
       const list=document.createElement('div'); host.appendChild(list);
-      const moreWrap=document.createElement('div'); moreWrap.className='rmore';
-      const btn=document.createElement('button'); btn.type='button'; btn.textContent='Show more';
-      moreWrap.appendChild(btn); host.appendChild(moreWrap);
-      let shown=0;
-      function more(){
-        const next=data.slice(shown,shown+CHUNK); let h='';
-        for(const r of next) h+=rowFn(r);
-        list.insertAdjacentHTML('beforeend',h); shown+=next.length;
-        moreWrap.hidden=shown>=data.length;
-      }
-      btn.addEventListener('click',more);
-      if('IntersectionObserver' in window){
-        const io=new IntersectionObserver(es=>{if(es[0].isIntersecting&&!moreWrap.hidden)more();});
-        io.observe(moreWrap);
-      }
-      more();
+      windowedList(list,{chunk:CHUNK,row:rowFn}).reset(data);
     }
     function block(title,total,data,rowFn){
       const res=document.getElementById('results');
@@ -1701,6 +1726,7 @@ ECAT = "coalesce(nullif(e.chapter,''),e.semkey)"
 # (keys ride in via data-semkeys), so it's a plain constant: literal { } need no escaping.
 _CATFORMS_JS = """
 <script>
+""" + _WINDOWED_JS + """
 (function(){
   var wrap=document.querySelector('.catwrap'); if(!wrap) return;
   var B=window.STEDT_BASE||'';
@@ -1708,18 +1734,16 @@ _CATFORMS_JS = """
     return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
   var norm=function(s){return String(s==null?'':s).toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');};
   var list=wrap.querySelector('.catlist'),
-      moreWrap=wrap.querySelector('.catmore'),
-      moreBtn=wrap.querySelector('.catmore-btn'),
       count=wrap.querySelector('.catcount'),
       input=wrap.querySelector('.catfilter');
-  var CHUNK=200, DATA=null, view=[], shown=0, loaded=false, loading=false;
+  var DATA=null, view=[], loaded=false, loading=false;
   function row(r){
     return '<a class="ety-hit" href="'+B+'/language/'+r.lgid+'#rn'+r.rn+'">'+
       '<span class="rf lat">'+esc(r.reflex)+'</span>'+
       '<span class="gl2">'+esc(r.gloss)+'</span>'+
       '<span class="tagn">'+esc(r.language)+'</span></a>';
   }
-  function updateCount(){
+  function updateCount(shown){
     if(!DATA){count.textContent='';return;}
     var t=DATA.length,m=view.length;
     var s=(m===t)?t.toLocaleString()+(t===1?' form':' forms')
@@ -1727,16 +1751,11 @@ _CATFORMS_JS = """
     if(shown<m) s+=' · '+shown.toLocaleString()+' shown';
     count.textContent=s;
   }
-  function renderMore(){
-    var next=view.slice(shown,shown+CHUNK),h='';
-    for(var i=0;i<next.length;i++) h+=row(next[i]);
-    list.insertAdjacentHTML('beforeend',h);
-    shown+=next.length; moreWrap.hidden=shown>=view.length; updateCount();
-  }
+  var win=windowedList(list,{row:row,onRender:function(shown){updateCount(shown);}});
   function apply(){
     var q=norm(input.value.trim());
     view=q?DATA.filter(function(r){return r._k.indexOf(q)>=0;}):DATA;
-    list.innerHTML=''; shown=0; renderMore();
+    win.reset(view);
   }
   function load(){
     if(loaded||loading) return; loading=true; count.textContent='Loading forms…';
@@ -1755,12 +1774,7 @@ _CATFORMS_JS = """
     };
     wait(40);
   }
-  moreBtn.addEventListener('click',renderMore);
   var tmr; input.addEventListener('input',function(){if(!loaded)return;clearTimeout(tmr);tmr=setTimeout(apply,90);});
-  if('IntersectionObserver' in window){
-    var io=new IntersectionObserver(function(es){if(es[0].isIntersecting&&!moreWrap.hidden)renderMore();});
-    io.observe(moreWrap);
-  }
   load();   // attestations are shown by default (no expand) — fetch on page load
 })();
 </script>"""
@@ -1873,7 +1887,6 @@ def thesaurus(semkey=None):
                 'placeholder="Filter by form, gloss, or language…" autocomplete="off">'
                 '<span class="rcount catcount"></span></div>'
                 '<div class="catlist"></div>'
-                '<div class="rmore catmore" hidden><button type="button" class="catmore-btn">Show more</button></div>'
                 '</div>'
                 + _CATFORMS_JS)
     c.close()
