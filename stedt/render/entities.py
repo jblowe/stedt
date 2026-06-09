@@ -9,6 +9,7 @@ from .config import CITE_BASE, PLG_FULL
 from .db import con
 from .text import esc, alt, natkey, iso_link, rcount_txt
 from .notes import render_note
+from .syllabify import syllabify
 from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels, canonical_languages, canon_lgid
 from .shell import etymon_href, source_href, language_href, reflex_href
 from .templating import env
@@ -356,6 +357,23 @@ def etymon(tag):
     )
 
 
+def syl_form(reflex, syn):
+    """Reflex surface form as HTML with each tagged syllable linked to its own etymon, or None to
+    fall back to the plain form + trailing chips. Faithful twin of web/src/rows.js sylLink."""
+    if not syn:
+        return None
+    syls, dl, prefix = syllabify(reflex or "")
+    if any(k >= len(syls) for k in syn):       # a tag must land on a real syllable
+        return None
+    out = esc(prefix)
+    for i, syl in enumerate(syls):
+        seg = esc(syl)
+        out += f'<a class="syl" href="{etymon_href(syn[i])}">{seg}</a>' if syn.get(i) is not None else seg
+        d = dl[i] if i < len(dl) else ""
+        out += esc(d).replace("◦", '<span class="br">◦</span>')
+    return out
+
+
 def language(lgid):
     conn = con()
     canon_of, members = canonical_languages()
@@ -380,14 +398,22 @@ def language(lgid):
     total = len(rows)
     chap = {r["semkey"]: r["chaptertitle"] for r in conn.execute("SELECT semkey,chaptertitle FROM chapters")}
     lin = group_lineage(conn, grp["grpno"]) if grp else []
-    # a reflex can belong to several etyma (polymorphemic); collect all, ordered by morpheme.
-    rn_tags = {}
+    # a reflex can belong to several etyma (polymorphemic); collect all, ordered by morpheme. We also
+    # keep ind (syllable position) so a tagged syllable can link to its own etymon — same as search
+    # (web/src/search.js byInd -> rows.js sylLink). rn_syn[rn] = {ind: tag}; a position tagged with two
+    # different etyma is ambiguous, so that reflex drops to the flat trailing-chip fallback.
+    rn_tags, rn_syn, rn_syn_bad = {}, {}, set()
     rns = [r["rn"] for r in rows]
     for i in range(0, len(rns), 900):
         chunk = rns[i : i + 900]
         qmk = ",".join("?" * len(chunk))
-        for hr in conn.execute(f"SELECT rn, tag FROM lx_et_hash WHERE tag>0 AND rn IN ({qmk}) ORDER BY rn, ind", chunk):
+        for hr in conn.execute(f"SELECT rn, tag, ind FROM lx_et_hash WHERE tag>0 AND rn IN ({qmk}) ORDER BY rn, ind", chunk):
             rn_tags.setdefault(hr["rn"], []).append(hr["tag"])
+            byind = rn_syn.setdefault(hr["rn"], {})
+            if hr["ind"] in byind and byind[hr["ind"]] != hr["tag"]:
+                rn_syn_bad.add(hr["rn"])
+            else:
+                byind[hr["ind"]] = hr["tag"]
     plabels = proto_labels(conn, {t for ts in rn_tags.values() for t in ts})
     # lexical notes per reflex (same set the etymon page shows), revealed on hover on the gloss
     lnotes = {}
@@ -440,15 +466,23 @@ def language(lgid):
             catcell = (
                 f'<a class="lang" href="/thesaurus/{esc(sk)}">{esc(cat)}</a>' if sk else '<span class="lang">—</span>'
             )
-            form = esc(r["reflex"]).replace("◦", '<span class="br">◦</span>')
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r["gfn"] else ""
-            seen, vias = set(), []
-            for t in rn_tags.get(r["rn"], []):
-                if t in plabels and t not in seen:
-                    seen.add(t)
-                    vias.append(f'<a class="via" href="{etymon_href(t)}">*{esc(alt(plabels[t]))}</a>')
-            # always emit the etym line (empty when this reflex has no etyma) so every row on a
-            # language wordlist is the same height — see .rfx .anl min-height in site.css
+            # when each tagged syllable lands cleanly, link the syllables in place (shows which
+            # morpheme is which etymon); otherwise fall back to the plain form + trailing via chips.
+            syn = None if r["rn"] in rn_syn_bad else rn_syn.get(r["rn"])
+            linked = syl_form(r["reflex"], syn)
+            vias = []
+            if linked is not None:
+                form = linked
+            else:
+                form = esc(r["reflex"]).replace("◦", '<span class="br">◦</span>')
+                seen = set()
+                for t in rn_tags.get(r["rn"], []):
+                    if t in plabels and t not in seen:
+                        seen.add(t)
+                        vias.append(f'<a class="via" href="{etymon_href(t)}">*{esc(alt(plabels[t]))}</a>')
+            # always emit the etym line (empty when syllables carry the links, or when this reflex has
+            # no etyma) so every row on a language wordlist is the same height — see .rfx .anl in site.css
             via = f'<span class="anl">{" ".join(vias)}</span>'
             # each row shows the source it is attested in (the work) + the locus within it
             loc = f': {esc(r["srcid"])}' if r["srcid"] else ""
