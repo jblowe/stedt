@@ -13,7 +13,7 @@ dependencies = ["jinja2", "typer"]
 stedt = "stedt.cli:app"
 
 [project.optional-dependencies]
-dev = ["black"]
+dev = ["black", "pre-commit"]
 
 [tool.black]
 line-length = 120

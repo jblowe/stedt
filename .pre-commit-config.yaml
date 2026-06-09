@@ -1,0 +1,8 @@
+# Format staged Python with black on every commit.
+# Set up once:  pip install pre-commit && pre-commit install
+# (line-length and other options come from pyproject.toml's [tool.black]).
+repos:
+  - repo: https://github.com/psf/black
+    rev: 26.5.1
+    hooks:
+      - id: black

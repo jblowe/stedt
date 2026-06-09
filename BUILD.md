@@ -20,6 +20,9 @@ pip install .              # installs the `stedt` command + jinja2/typer (use -e
 npm --prefix web ci        # esbuild + the WASM SQLite bundle (the JS frontend lives in web/)
 ```
 
+For development, `pip install -e ".[dev]"` adds black + pre-commit; run `pre-commit install`
+once and black (line-length 120) formats staged Python on every commit.
+
 ## Option 1: Build the site from the markup
 
 ```sh
