@@ -15,6 +15,7 @@ export const languageHref = lgid => `${B}/language/${lgid}`;            // top o
 export const reflexHref = (lgid, rn) => `${B}/language/${lgid}#rn${rn}`; // a specific attestation row
 export const etymonHref = tag => `${B}/etymon/${tag}`;
 export const sourceHref = abbr => `${B}/source/${esc(abbr)}`;
+export const categoryHref = sk => `${B}/thesaurus/${esc(sk)}`;       // a reflex's semantic-category node
 // render_note (server) ships root-relative xref links (/etymon/…) in the search DB's note HTML;
 // prepend the page base so they resolve under /stedt (or wherever the site is mounted). The note is
 // then injected as HTML (it's already escaped/sanitised by render_note), not re-escaped.
@@ -96,6 +97,8 @@ export const reflexRow = r => {
     const links = (r.etyma && r.etyma.length) ? ` <span class="vias">${r.etyma.map(x => `<a class="via" href="${etymonHref(x.tag)}">*${altstar(esc(x.pf))}</a>`).join(' ')}</span>` : '';
     mid = `<span class="lat">${esc(form)}</span> ${pos}${gl}${links}`;
   }
+  // the reflex's semantic category (search rows only; the thesaurus-category list omits it as redundant)
+  if (r.cat) mid += ` <a class="rx-cat" href="${categoryHref(r.semkey)}">${esc(r.cat)}</a>`;
   const go = `<a class="rx-go" href="${reflexHref(r.lgid, r.rn)}" aria-label="${esc(r.language)}: go to this entry"></a>`;
   return `<div class="rx-hit">${go}<a class="lang" href="${languageHref(r.lgid)}">${esc(r.language)}</a><span class="rx-mid">${mid}</span><span class="rx-src">${src}</span></div>`;
 };

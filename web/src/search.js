@@ -65,7 +65,8 @@ function run(db, sql, params) {
 // Stammbaum subgroup (grpno + grp, for grouping), and its lexical note (lxnote) — same detail the
 // entry pages show. (Per-syllable tag positions live in lx_et_hash.ind for future syllable links.)
 const RFX_COLS = `ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.gfn AS gfn, l.rn AS rn, l.lgid AS lgid,
-         ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, g.grpno AS grpno, g.grp AS subgroup, nt.note AS note,
+         ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, l.semkey AS semkey, c.chaptertitle AS cat,
+         g.grpno AS grpno, g.grp AS subgroup, nt.note AS note,
          json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'pg', e.protogloss, 'ind', h.ind))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma`;
 const RFX_JOINS = `
@@ -74,7 +75,8 @@ const RFX_JOINS = `
   LEFT JOIN srcbib sb ON sb.srcabbr = ln.srcabbr
   LEFT JOIN lxnote nt ON nt.rn = l.rn
   LEFT JOIN lx_et_hash h ON h.rn = l.rn AND h.tag > 0
-  LEFT JOIN etyma e ON e.tag = h.tag AND coalesce(upper(e.status), '') != 'DELETE'`;
+  LEFT JOIN etyma e ON e.tag = h.tag AND coalesce(upper(e.status), '') != 'DELETE'
+  LEFT JOIN chapters c ON c.semkey = l.semkey`;
 const REFLEX_SQL = `
   SELECT ${RFX_COLS}${RFX_JOINS}
   WHERE l.rn IN (SELECT rowid FROM lexicon_fts WHERE lexicon_fts MATCH ? LIMIT ?)

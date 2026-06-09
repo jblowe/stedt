@@ -43,6 +43,7 @@ def main():
         CREATE TABLE lx_et_hash     (rn INTEGER, tag INTEGER, ind INTEGER);   -- ind = syllable position
         CREATE TABLE srcbib         (srcabbr TEXT PRIMARY KEY, citation);
         CREATE TABLE lxnote         (rn INTEGER PRIMARY KEY, note);
+        CREATE TABLE chapters       (semkey TEXT PRIMARY KEY, chaptertitle);   -- ~829 rows; semkey -> human label
         INSERT INTO etyma SELECT e.tag, e.protoform, e.protogloss, e.semkey, e.status, e.grpid,
             (SELECT count(DISTINCT h.rn) FROM src.lx_et_hash h
                JOIN src.lexicon l2 ON l2.rn=h.rn JOIN src.languagenames n2 ON n2.lgid=l2.lgid
@@ -54,6 +55,7 @@ def main():
         INSERT INTO lexicon        SELECT rn, reflex, gloss, gfn, lgid, semkey, srcid FROM src.lexicon;
         INSERT INTO lx_et_hash     SELECT rn, tag, ind FROM src.lx_et_hash WHERE tag > 0;
         INSERT INTO srcbib         SELECT srcabbr, citation FROM src.srcbib WHERE coalesce(srcabbr,'')!='';
+        INSERT INTO chapters       SELECT semkey, chaptertitle FROM src.chapters WHERE coalesce(semkey,'')!='';
         CREATE INDEX ix_hash_rn ON lx_et_hash(rn);   -- rn non-unique here (multi-tag reflexes)
         -- ^ REQUIRED, not optional (~1 MB gz): the reflex->etyma enrichment LEFT JOIN (h.rn=l.rn)
         -- is the search's hot path, and SQLite does NOT build an automatic_index for it — without

@@ -199,7 +199,8 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
    inner links (syllables/via -> etyma, source) and the note are raised above it so they keep their
    own click targets; everything else in the row falls through to this overlay. */
 .rx-hit .rx-go{position:absolute;inset:0;border-bottom:none;}
-.rx-hit a.lang,.rx-hit .syl,.rx-hit .via,.rx-hit .rx-src a,.rx-hit .noted{position:relative;z-index:1;}
+.rx-hit a.lang,.rx-hit .syl,.rx-hit .via,.rx-hit .rx-src a,.rx-hit .rx-cat,.rx-hit .noted{position:relative;z-index:1;}
+.rx-cat{font-size:12.5px;color:var(--mut);white-space:nowrap;} .rx-cat::before{content:"· ";} .rx-cat:hover{color:var(--accent);}
 .rx-hit .lang{color:var(--soft);font-size:13.5px;border-bottom:none;}
 .rx-hit a.lang:hover{color:var(--accent);}
 .rx-hit .rx-mid{min-width:0;}
