@@ -59,21 +59,22 @@ const rfxRow = r => {
   const home = `${B}/language/${r.lgid}#rn${r.rn}`;
   const src = r.srcabbr ? `<a href="${B}/source/${esc(r.srcabbr)}">${esc(r.citation || r.srcabbr)}</a>` : '';
   const pos = r.gfn ? ` <span class="pos">${esc(r.gfn)}</span>` : '';
-  // the gloss is styled (italic·soft) so it reads distinct without quotes; a note dotted-
-  // underlines it and reveals on hover/focus (rather than an always-on line)
+  // the gloss is styled (italic·soft) so it reads distinct without quotes; a note marks it with a
+  // circled-i and reveals on hover/focus
   const gl = r.note
     ? `<span class="g noted" tabindex="0">${esc(r.gloss)}<span class="notepop" role="note">${esc(r.note)}</span></span>`
     : `<span class="g">${esc(r.gloss)}</span>`;
-  const lf = sylLink(r); let mid, lang;
-  if (lf) {                              // syllables carry the etymon links; the name carries #rn
-    lang = `<a class="lang" href="${home}">${esc(r.language)}</a>`;
+  const lf = sylLink(r); let mid;
+  if (lf) {                              // syllables carry their own etymon links
     mid = `<span class="lat">${lf}</span> ${gl}${pos}`;
-  } else {                               // form links to its attestation (#rn); trailing via chips
-    lang = `<span class="lang">${esc(r.language)}</span>`;
+  } else {                               // plain form; trailing "via" chips keep their etymon links
     const links = (r.etyma && r.etyma.length) ? ` <span class="vias">${r.etyma.map(x => `<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' ')}</span>` : '';
-    mid = `<a href="${home}"><span class="lat">${esc(r.form)}</span></a> ${gl}${pos}${links}`;
+    mid = `<span class="lat">${esc(r.form)}</span> ${gl}${pos}${links}`;
   }
-  return `<div class="rx-hit">${lang}<span class="rx-mid">${mid}</span><span class="rx-src">${src}</span></div>`;
+  // the whole row navigates to the form's attestation (#rn) via a stretched overlay link; the inner
+  // etymon / source links sit above it (see .rx-go in site.css) so they keep their own targets
+  const go = `<a class="rx-go" href="${home}" aria-label="${esc(r.language)}: go to this entry"></a>`;
+  return `<div class="rx-hit">${go}<span class="lang">${esc(r.language)}</span><span class="rx-mid">${mid}</span><span class="rx-src">${src}</span></div>`;
 };
 // attested-form rows are pre-sorted by subgroup; emit a Stammbaum-subgroup header when it changes
 let _rxsub = null;

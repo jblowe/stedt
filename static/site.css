@@ -174,7 +174,13 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .ety-hit .gl2{color:var(--soft);}
 .ety-hit .tagn{font-family:"Fraunces",serif;font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums;}
 .rx-hit{display:grid;grid-template-columns:160px 1fr auto;gap:4px 14px;align-items:baseline;padding:6px 0;
-  border-bottom:1px solid var(--hair);font-size:15px;}
+  border-bottom:1px solid var(--hair);font-size:15px;position:relative;}
+.rx-hit:hover{background:var(--paper2);}
+/* whole-row link to the form's attestation (#rn): a transparent overlay covering the row. The real
+   inner links (syllables/via -> etyma, source) and the note are raised above it so they keep their
+   own click targets; everything else in the row falls through to this overlay. */
+.rx-hit .rx-go{position:absolute;inset:0;border-bottom:none;}
+.rx-hit .syl,.rx-hit .via,.rx-hit .rx-src a,.rx-hit .noted{position:relative;z-index:1;}
 .rx-hit .lang{color:var(--soft);font-size:13.5px;border-bottom:none;}
 .rx-hit a.lang:hover{color:var(--accent);}
 .rx-hit .rx-mid{min-width:0;}
