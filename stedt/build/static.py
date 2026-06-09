@@ -13,6 +13,7 @@ Env:  STEDT_BASE   subpath prefix (default /stedt; use '' for a custom apex doma
       STEDT_OUT    output dir (default site/)
       STEDT_LIMIT  cap entities per kind for quick local testing (0 = all)
 """
+
 import glob
 import hashlib
 import os
@@ -50,7 +51,7 @@ def data_version():
     return h.hexdigest()[:16]
 
 
-DB_VERSION = ""   # set in main()
+DB_VERSION = ""  # set in main()
 
 
 def rewrite(s):
@@ -87,11 +88,13 @@ def write_redirect(path, target):
     are the no-JS fallback. Written with BASE already applied (not run through rewrite())."""
     global _ok
     url = BASE + target
-    html = ('<!doctype html><meta charset="utf-8">'
-            f'<link rel="canonical" href="{url}">'
-            f'<meta http-equiv="refresh" content="0; url={url}">'
-            f'<script>location.replace("{url}"+location.hash)</script>'
-            f'<p>Redirecting to <a href="{url}">{url}</a>…</p>')
+    html = (
+        '<!doctype html><meta charset="utf-8">'
+        f'<link rel="canonical" href="{url}">'
+        f'<meta http-equiv="refresh" content="0; url={url}">'
+        f'<script>location.replace("{url}"+location.hash)</script>'
+        f'<p>Redirecting to <a href="{url}">{url}</a>…</p>'
+    )
     fp = os.path.join(OUT, path, "index.html")
     os.makedirs(os.path.dirname(fp), exist_ok=True)
     with open(fp, "w", encoding="utf-8") as f:
@@ -121,9 +124,13 @@ def main():
     semks = cap([r[0] for r in c.execute("SELECT semkey FROM chapters WHERE coalesce(semkey,'')!='' ORDER BY semkey")])
     # The thesaurus index and breadcrumbs link top-level chapters by integer key
     # (1.0 -> /thesaurus/1), so emit those pages too or every top-level link 404s.
-    roots = [r[0].split('.')[0] for r in c.execute(
-        "SELECT semkey FROM chapters WHERE semkey LIKE '%.0'"
-        " AND (length(semkey)-length(replace(semkey,'.','')))=1")]
+    roots = [
+        r[0].split(".")[0]
+        for r in c.execute(
+            "SELECT semkey FROM chapters WHERE semkey LIKE '%.0'"
+            " AND (length(semkey)-length(replace(semkey,'.','')))=1"
+        )
+    ]
     semks = list(dict.fromkeys(roots + semks))
     grpids = cap([r[0] for r in c.execute("SELECT grpid FROM languagegroups ORDER BY grpid")])
     c.close()
@@ -134,7 +141,7 @@ def main():
     write("languages", render.languages_index)
     write("sources", render.sources_index)
     write("thesaurus", lambda: render.thesaurus(None))
-    write("search", lambda: render.search_page(""))   # client-side results shell (reads ?q=)
+    write("search", lambda: render.search_page(""))  # client-side results shell (reads ?q=)
     for t in tags:
         write(f"etymon/{t}", lambda t=t: render.etymon(t))
     # A 'language' is a lect: render one canonical page per (name, subgroup) aggregating all its
@@ -160,9 +167,8 @@ def main():
     # copy it in so /static/... resolves (rewrite() applies the BASE prefix to those links).
     if os.path.isdir(STATIC):
         shutil.copytree(STATIC, os.path.join(OUT, "static"), dirs_exist_ok=True)
-    open(os.path.join(OUT, ".nojekyll"), "w").close()   # don't let Pages run Jekyll on our files
-    print(f"Done: {_ok} pages, {_fail} skipped, {time.time() - t0:.0f}s "
-          f"(BASE={BASE!r}, LIMIT={LIMIT or 'all'})")
+    open(os.path.join(OUT, ".nojekyll"), "w").close()  # don't let Pages run Jekyll on our files
+    print(f"Done: {_ok} pages, {_fail} skipped, {time.time() - t0:.0f}s " f"(BASE={BASE!r}, LIMIT={LIMIT or 'all'})")
 
 
 if __name__ == "__main__":

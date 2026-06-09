@@ -17,6 +17,25 @@ dev = ["black", "pre-commit"]
 
 [tool.black]
 line-length = 120
+target-version = ["py311"]
+# Black's default exclude list contains "build", which would silently skip the stedt/build/
+# package. Re-specify the exclude list without it (the repo-root setuptools build/ is gitignored,
+# which Black already honors). Compiled in verbose mode, so this whitespace is insignificant.
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | venv
+  | \.eggs
+  | _build
+  | buck-out
+  | dist
+  | node_modules
+)/
+'''
 
 [tool.setuptools.packages.find]
 include = ["stedt*"]

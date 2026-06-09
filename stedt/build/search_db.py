@@ -7,10 +7,12 @@ languagenames, languagegroups, lx_et_hash — plus the FTS5 index over reflex fo
 + VACUUM so sql.js-httpvfs range requests fetch little; indexes so every query is index-backed
 (the only intentional scan is the ~5K-row etyma table). The full content stays in the HTML pages.
 """
+
 import os
 import sqlite3
 
 from stedt.paths import DB as SRC, SEARCH_DB as OUT
+
 # NB: .sqlite3 (not .db) — GitHub Pages gzip-compresses .db, which corrupts the byte-range
 # math sql.js-httpvfs relies on; it serves .sqlite3 uncompressed. (community #162857)
 
@@ -61,12 +63,15 @@ def main():
     # text so a search result can display them. ~2.7K notes / ~0.16 MB — display only, NOT added to
     # the FTS index (so notes are shown, not searched).
     import re
+
     _TAG = re.compile(r"<[^>]+>")
+
     def _plain(s):
-        s = _TAG.sub(" ", s or "")   # space, not empty: <br/> & block tags are word/line boundaries
+        s = _TAG.sub(" ", s or "")  # space, not empty: <br/> & block tags are word/line boundaries
         for a, b in (("&lt;", "<"), ("&gt;", ">"), ("&amp;", "&"), ("&apos;", "'"), ("&quot;", '"')):
             s = s.replace(a, b)
         return " ".join(s.split())
+
     by_rn = {}
     for rn, xml in db.execute("""SELECT rn, xmlnote FROM src.notes
             WHERE spec='L' AND notetype!='I' AND xmlnote IS NOT NULL AND rn IS NOT NULL
@@ -74,8 +79,7 @@ def main():
         t = _plain(xml)
         if t:
             by_rn.setdefault(rn, []).append(t)
-    db.executemany("INSERT INTO lxnote(rn, note) VALUES(?,?)",
-                   [(rn, " / ".join(v)) for rn, v in by_rn.items()])
+    db.executemany("INSERT INTO lxnote(rn, note) VALUES(?,?)", [(rn, " / ".join(v)) for rn, v in by_rn.items()])
 
     # FTS5 over reflex form/gloss/language. CONTENTLESS (content='') so the index doesn't
     # duplicate the text (it lives once in lexicon/languagenames) — ~27 MB saved; columnsize=0
