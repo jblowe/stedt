@@ -139,7 +139,17 @@ def etymon(tag):
         rfx = []
         for r in items:
             form = esc(r["form"]).replace("◦", '<span class="br">◦</span>')
-            g = f'<span class="g">{esc(r["gloss"])}</span>' if (r["gloss"] and r["gloss"] != e["protogloss"]) else ""
+            if lnotes.get(r["rn"]):
+                # a lexical note rides on the gloss behind a circled-i (like the language/search/thesaurus
+                # views); show the gloss even when it matches the protogloss so the icon has its anchor
+                pop = "".join('<span class="np">' + render_note(x).replace('<p class="np">', "").replace("</p>", "")
+                              + "</span>" for x in lnotes[r["rn"]])
+                g = (f'<span class="g noted" tabindex="0">{esc(r["gloss"] or e["protogloss"])}'
+                     f'<span class="notepop" role="note">{pop}</span></span>')
+            elif r["gloss"] and r["gloss"] != e["protogloss"]:
+                g = f'<span class="g">{esc(r["gloss"])}</span>'
+            else:
+                g = ""
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r["gfn"] else ""
             lang = f'<a class="lang" href="{language_href(r["lgid"])}">{esc(r["language"])}</a>'
             loc = f': {esc(r["srcid"])}' if r["srcid"] else ""  # per-reflex source locus (page/entry/note)
@@ -153,13 +163,12 @@ def etymon(tag):
                     seen.add(mt)
                     links.append(f'<a href="{etymon_href(mt)}">*{esc(alt(morph_labels[mt]))}</a>')
             anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ""
-            note = "".join(f'<div class="rfxnote">{render_note(x)}</div>' for x in lnotes.get(r["rn"], []))
             # whole row → this form's attestation (#rn on its language page), like the search/thesaurus
-            # rows; the language name / "also contains" / source / note links sit above the overlay
+            # rows; the language name / "also contains" / source / note-popover sit above the overlay
             go = f'<a class="rx-go" href="{reflex_href(r["lgid"], r["rn"])}" aria-label="{esc(r["language"])}: go to this entry"></a>'
             rfx.append(
                 f'<div class="rfx" id="r{r["rn"]}">{go}<a class="rnlink" href="#r{r["rn"]}" aria-label="Permalink to this entry"></a>{lang}'
-                f'<span class="form">{form} {pos}{g}{anl}</span>{src}{note}</div>'
+                f'<span class="form">{form} {pos}{g}{anl}</span>{src}</div>'
             )
         code = "" if k[0] in (None, "zz") else f'<span class="grpno">{esc(k[0])}</span>'
         sgs.append(
