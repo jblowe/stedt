@@ -55,7 +55,9 @@ def reconstructions():
     conn.close()
     total = len(rows)
     data = [
-        [r["tag"], alt(r["protoform"] or ""), r["protogloss"] or "", r["plg"] or "", counts.get(r["tag"], 0)]
+        # ship the RAW protoform; the client's etymonRow applies altstar() (same as search), so the
+        # reconstructions index and search render an etymon identically.
+        [r["tag"], r["protoform"] or "", r["protogloss"] or "", r["plg"] or "", counts.get(r["tag"], 0)]
         for r in rows
     ]
     # < keeps the payload from breaking out of the <script> tag and stays valid JSON.

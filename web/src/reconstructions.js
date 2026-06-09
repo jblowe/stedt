@@ -1,11 +1,9 @@
 // Reconstructions index: the full etyma list ships once as JSON in <script id="recon-data"> and is
-// rendered client-side in windows, with an instant in-page filter. Shares the URL + escape helpers
-// with the other views. NOTE: it keeps its own compact-ARRAY row rather than rows.js `etymonRow`,
-// because the payload is a positional array (to keep the ~4k-etyma JSON small) and — unlike the
-// search etymon row — it does NOT comma-format the reflex count and pre-applies `alt()` server-side.
-// Aligning it with `etymonRow` is a deliberate output change (see project-attestation-links).
+// rendered client-side in windows, with an instant in-page filter. The payload is a compact
+// positional ARRAY (to keep the ~4k-etyma JSON small) carrying the RAW protoform; we adapt each row
+// to the shared etymonRow so it renders identically to the search results' reconstruction rows.
 import { windowedList } from './windowed.js';
-import { esc, norm, etymonHref } from './rows.js';
+import { etymonRow, norm } from './rows.js';
 
 (function () {
   var DATA = JSON.parse(document.getElementById('recon-data').textContent);
@@ -15,13 +13,7 @@ import { esc, norm, etymonHref } from './rows.js';
     none = document.querySelector('.rnone'),
     count = document.getElementById('rcount'),
     input = document.getElementById('rfilter');
-  function row(r) {
-    var rc = r[4] ? (' · ' + r[4] + (r[4] == 1 ? ' reflex' : ' reflexes')) : '';
-    return '<a class="ety-hit" href="' + etymonHref(r[0]) + '">' +
-      '<span class="pf2 lat">' + esc(r[1]) + '</span>' +
-      '<span class="pg2">' + esc(r[2]) + '</span>' +
-      '<span class="tagn">' + esc(r[3]) + ' #' + esc(r[0]) + rc + '</span></a>';
-  }
+  var row = r => etymonRow({ tag: r[0], protoform: r[1], protogloss: r[2], plg: r[3], nreflex: r[4] });
   function updateCount(shown) {
     var t = DATA.length, m = view.length;
     var s = (m === t) ? t.toLocaleString() + ' etyma' : m.toLocaleString() + (m === 1 ? ' match' : ' matches');
