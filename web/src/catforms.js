@@ -25,8 +25,11 @@ import { windowedList } from './windowed.js';
       return '<a class="via" href="' + B + '/etymon/' + x.tag + '">› *' + altstar(esc(x.pf)) + '</a>';
     }).join(' ') + '</span>' : '';
     var src = r.srcabbr ? '<a href="' + B + '/source/' + esc(r.srcabbr) + '">' + esc(r.citation || r.srcabbr) + '</a>' : '';
-    return '<div class="rx-hit"><a class="lang" href="' + home + '">' + esc(r.language) + '</a>' +
-      '<span class="rx-mid"><a class="lat" href="' + home + '">' + esc(r.reflex) + '</a> ' + gl + pos + via + '</span>' +
+    // consistent with the search results: the whole row links to this form's attestation (#rn) via a
+    // stretched overlay, while the language name (raised above it) goes to the top of its language page
+    return '<div class="rx-hit"><a class="rx-go" href="' + home + '" aria-label="' + esc(r.language) + ': go to this entry"></a>' +
+      '<a class="lang" href="' + B + '/language/' + r.lgid + '">' + esc(r.language) + '</a>' +
+      '<span class="rx-mid"><span class="lat">' + esc(r.reflex) + '</span> ' + gl + pos + via + '</span>' +
       '<span class="rx-src">' + src + '</span></div>';
   }
   function updateCount(shown) {

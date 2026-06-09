@@ -72,9 +72,10 @@ const rfxRow = r => {
     mid = `<span class="lat">${esc(r.form)}</span> ${gl}${pos}${links}`;
   }
   // the whole row navigates to the form's attestation (#rn) via a stretched overlay link; the inner
-  // etymon / source links sit above it (see .rx-go in site.css) so they keep their own targets
+  // links sit above it (see .rx-go in site.css) so they keep their own targets — the language name
+  // goes to the top of its language page, the syllable / via / source links to their own entities
   const go = `<a class="rx-go" href="${home}" aria-label="${esc(r.language)}: go to this entry"></a>`;
-  return `<div class="rx-hit">${go}<span class="lang">${esc(r.language)}</span><span class="rx-mid">${mid}</span><span class="rx-src">${src}</span></div>`;
+  return `<div class="rx-hit">${go}<a class="lang" href="${B}/language/${r.lgid}">${esc(r.language)}</a><span class="rx-mid">${mid}</span><span class="rx-src">${src}</span></div>`;
 };
 // attested-form rows are pre-sorted by subgroup; emit a Stammbaum-subgroup header when it changes
 let _rxsub = null;
