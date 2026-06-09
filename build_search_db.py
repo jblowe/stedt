@@ -62,7 +62,7 @@ def main():
     import re
     _TAG = re.compile(r"<[^>]+>")
     def _plain(s):
-        s = _TAG.sub("", s or "")
+        s = _TAG.sub(" ", s or "")   # space, not empty: <br/> & block tags are word/line boundaries
         for a, b in (("&lt;", "<"), ("&gt;", ">"), ("&amp;", "&"), ("&apos;", "'"), ("&quot;", '"')):
             s = s.replace(a, b)
         return " ".join(s.split())

@@ -217,10 +217,11 @@ export async function stedtSearch(query, limit = 40) {
       r.pf = uniq.length ? uniq[0].pf : null;
       // ind->tag map for per-syllable etymon links; null if a syllable is ambiguously multi-tagged
       r.syn = (!conflict && Object.keys(byInd).length) ? byInd : null;
+      r._gk = gkey(r.grpno);   // precompute the subgroup sort key once (invariant per row)
     }
     // order by subgroup (then language, form) so the page can render Stammbaum-grouped sections
     reflexes.sort((a, b) => {
-      const ga = gkey(a.grpno), gb = gkey(b.grpno);
+      const ga = a._gk, gb = b._gk;
       return ga < gb ? -1 : ga > gb ? 1
         : (a.language || '') < (b.language || '') ? -1 : (a.language || '') > (b.language || '') ? 1
         : (a.form || '') < (b.form || '') ? -1 : (a.form || '') > (b.form || '') ? 1 : 0;

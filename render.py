@@ -355,6 +355,7 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .rx-hit .rx-mid{min-width:0;}
 .rx-hit .syl{color:inherit;border-bottom:1px dotted var(--rule);}
 .rx-hit .syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
+.rx-hit .br{color:var(--mut);}
 .rx-hit .vias{color:var(--mut);font-size:12.5px;margin-left:.45em;}
 .rx-hit .via{font-size:12.5px;color:var(--mut);border-bottom:none;}
 .rx-hit .via:hover{color:var(--accent);}
@@ -1562,8 +1563,8 @@ def search_page(q=""):
         s=s.substring(m[0].length);
         if(m[1].indexOf('|')!==-1&&syls.length){
           syls[syls.length-1]+=dl.pop();
-          syls[syls.length-1]+=m[1].replace('（','(').replace('）',')').replace('|','');
-        }else{syls.push(m[1].replace('（','(').replace('）',')'));}
+          syls[syls.length-1]+=m[1].replace(/（/g,'(').replace(/）/g,')').replace('|','');
+        }else{syls.push(m[1].replace(/（/g,'(').replace(/）/g,')'));}
         dl.push(m[2]);
       }
       if(!syls[0])syls[0]='';
