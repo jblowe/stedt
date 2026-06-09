@@ -618,7 +618,7 @@ def home():
     <script>
     const B=window.STEDT_BASE||'';
     const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const altstar=s=>String(s).replace(/⪤\\s*\\*?/g,'⪤ *');
+    const altstar=s=>String(s).replace(/^\\s*\\*\\s*/,'').replace(/⪤\\s*\\*?/g,'⪤ *');
     const bs=document.getElementById('bs'),d=document.getElementById('drop');let t;
     const note=m=>{d.innerHTML='<div class="cap" style="padding:10px 12px">'+m+'</div>';d.style.display='block';};
     bs.addEventListener('input',()=>{clearTimeout(t);const q=bs.value.trim();
@@ -641,7 +641,7 @@ def about():
     c = con()
     n = lambda s: c.execute(s).fetchone()[0]
     ety = n("SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'")
-    rfx = n("SELECT count(*) FROM lexicon")
+    rfx = n("SELECT count(*) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid WHERE ln.language NOT LIKE '*%'")
     # count a "language" as a lect = (name, subgroup), matching the Languages index header and the
     # canonicalization (a name spanning two subgroups, e.g. Lahu (Red), is two lects) — not bare name.
     lgs = n("""SELECT count(*) FROM (SELECT 1 FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
@@ -865,9 +865,11 @@ def etymon(tag):
         # "=1318", "2349 (PLB)") — link it to that etymon, not a (dead) gloss search. Keep it tight
         # (anchored ↭/= prefix + bare integer) so section refs like "3.4.5" / "8.8" don't match.
         m = re.fullmatch(r'[↭=\s]*(\d+)\s*(?:\([^)]*\))?', v)
-        if m and int(m.group(1)) in labels:
-            t = m.group(1); lab = labels[int(t)]
-            return f'<a class="xref" href="/etymon/{t}">*{esc(alt(lab[0]))} ‘{esc(lab[1])}’</a>'
+        if m:
+            t = m.group(1); lab = labels.get(int(t))
+            if lab:
+                return f'<a class="xref" href="/etymon/{t}">*{esc(alt(lab[0]))} ‘{esc(lab[1])}’</a>'
+            return f'<span class="xref">#{esc(t)}</span>'   # DELETE/missing target: bare ref, not a dead search
         g = v.lstrip('↭').strip()  # gloss-based cross-reference
         return f'<a class="xref" href="/search?q={urllib.parse.quote(g)}">{esc(g)}</a>'
     conn = []
@@ -1591,8 +1593,8 @@ def sources_index():
     c = con()
     rows = c.execute("""SELECT sb.srcabbr AS srcabbr, sb.citation AS citation, sb.author AS author,
             sb.year AS year, sb.title AS title, sb.imprint AS imprint,
-            count(DISTINCT CASE WHEN l.rn IS NOT NULL AND ln.language NOT LIKE '*%' THEN ln.lgid END) AS nlang,
-            count(CASE WHEN ln.language NOT LIKE '*%' THEN l.rn END) AS nforms
+            count(DISTINCT CASE WHEN l.rn IS NOT NULL AND ln.language NOT LIKE '*%' AND ln.language!='' THEN ln.lgid END) AS nlang,
+            count(CASE WHEN ln.language NOT LIKE '*%' AND ln.language!='' THEN l.rn END) AS nforms
         FROM srcbib sb
         LEFT JOIN languagenames ln ON ln.srcabbr=sb.srcabbr
         LEFT JOIN lexicon l ON l.lgid=ln.lgid
@@ -1673,7 +1675,7 @@ def search_page(q=""):
     <script>""" + _WINDOWED_JS + """
     const B=window.STEDT_BASE||'';
     const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const altstar=s=>String(s).replace(/⪤\\s*\\*?/g,'⪤ *');
+    const altstar=s=>String(s).replace(/^\\s*\\*\\s*/,'').replace(/⪤\\s*\\*?/g,'⪤ *');
     const fmt=n=>Number(n).toLocaleString();
     const CHUNK=200;
     const bs=document.getElementById('bs');
@@ -1813,14 +1815,14 @@ _CATFORMS_JS = """
   var esc=function(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){
     return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});};
   var norm=function(s){return String(s==null?'':s).toLowerCase().normalize('NFD').replace(/[\\u0300-\\u036f]/g,'');};
-  var altstar=function(s){return String(s).replace(/⪤\\s*\\*?/g,'⪤ *');};
+  var altstar=function(s){return String(s).replace(/^\\s*\\*\\s*/,'').replace(/⪤\\s*\\*?/g,'⪤ *');};
   var list=wrap.querySelector('.catlist'),
       count=wrap.querySelector('.catcount'),
       input=wrap.querySelector('.catfilter');
   var DATA=null, view=[], loaded=false, loading=false;
   function row(r){
     var home=B+'/language/'+r.lgid+'#rn'+r.rn;
-    var gl=r.note?'<span class="noted" tabindex="0">'+esc(r.gloss)+'<span class="notepop" role="note">'+esc(r.note)+'</span></span>':esc(r.gloss);
+    var gl=r.note?'<span class="g noted" tabindex="0">'+esc(r.gloss)+'<span class="notepop" role="note">'+esc(r.note)+'</span></span>':'<span class="g">'+esc(r.gloss)+'</span>';
     var pos=r.gfn?' <span class="pos">'+esc(r.gfn)+'</span>':'';
     var via=(r.etyma&&r.etyma.length)?' <span class="vias">'+r.etyma.map(function(x){
       return '<a class="via" href="'+B+'/etymon/'+x.tag+'">› *'+altstar(esc(x.pf))+'</a>';}).join(' ')+'</span>':'';
