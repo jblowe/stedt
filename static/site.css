@@ -231,6 +231,9 @@ a.syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
   background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:7px 10px;font-style:normal;
   font-size:12.5px;line-height:1.5;color:var(--soft);white-space:normal;text-align:left;overflow-wrap:anywhere;}
 .noted:hover>.notepop,.noted:focus>.notepop,.noted:focus-within>.notepop{display:block;}
+/* lift the whole popover stacking context above the sibling via-chips: both are z-index:1 and the
+   chips come later in the DOM, so they'd otherwise paint over the (opaque) bubble. */
+.noted:hover,.noted:focus,.noted:focus-within{z-index:5;}
 .noted>.notepop p,.noted>.notepop .np{margin:0;} .noted>.notepop a{color:var(--soft);}
 .noted>.notepop .np{display:block;} .noted>.notepop .np+.np{margin-top:1.35em;}   /* separate notes by an empty line, no divider */
 /* Stammbaum-subgroup header between attested-form result groups */
