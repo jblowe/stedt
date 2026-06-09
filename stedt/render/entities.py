@@ -11,7 +11,7 @@ from .text import esc, alt, natkey, iso_link, rcount_txt
 from .notes import render_note
 from .syllabify import syllabify
 from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels, canonical_languages, canon_lgid
-from .shell import etymon_href, source_href, language_href, reflex_href
+from .shell import etymon_href, source_href, language_href, reflex_href, source_reference
 from .templating import env
 
 _SOURCE = env.get_template("source.html")
@@ -595,13 +595,10 @@ def source(srcabbr):
     ).fetchall()
     conn.close()
     total = sum(l["n"] for l in langs)
-    _au = (s["author"] or "").rstrip()
-    if _au and not _au.endswith("."):
-        _au += "."
-    cite = " ".join(x for x in (_au, f"{s['year']}." if s["year"] else "", s["title"]) if x)
+    # the visible reference line includes the imprint (via the shared formatter), like the index and
+    # the copy-citation — so the venue isn't relegated to a separate chip on the detail page alone.
+    cite = source_reference(s)
     meta = []
-    if s["imprint"]:
-        meta.append(Markup(f'<span><b>imprint</b> {esc(s["imprint"])}</span>'))
     meta.append(Markup(f"<span><b>{len(langs)}</b> languages</span>"))
     meta.append(Markup(f"<span><b>{total:,}</b> reflexes</span>"))
 
@@ -633,11 +630,7 @@ def source(srcabbr):
     # copy-ready "Cite this source" apparatus (parallels the etymon page; wires the previously
     # orphaned .citebox CSS). Access date is a fill-in blank, like the etymon citebox (static site).
     src_url = f"{CITE_BASE}/source/{s['srcabbr']}"
-    cite_full = cite
-    if s["imprint"]:
-        sep = "" if cite_full.rstrip().endswith(".") else "."  # avoid "Title.. Imprint"
-        cite_full = (cite_full.rstrip() + sep + " " + s["imprint"]) if cite_full else s["imprint"]
-    cite_full = cite_full or (s["citation"] or s["srcabbr"])
+    cite_full = cite or (s["citation"] or s["srcabbr"])
     cite_as = f"{cite_full} — via STEDT, {src_url} (accessed [ACCESSED])."
     # BibTeX for the source, parallel to the etymon citebox so both cite-boxes offer it.
     # imprint is free text (series/publisher/place), so keep it in note rather than mis-splitting it.

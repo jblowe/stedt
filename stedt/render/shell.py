@@ -99,6 +99,20 @@ def proto_labels(conn, tags):
     return out
 
 
+def source_reference(s):
+    """A source's full reference: 'Author. Year. Title. Imprint' — the ONE formatter shared by the
+    sources index, the source page's reference line, and its copy-citation, so the imprint/venue can't
+    appear in one and vanish from another. s is a srcbib row (author, year, title, imprint)."""
+    au = (s["author"] or "").rstrip()
+    if au and not au.endswith("."):
+        au += "."
+    base = " ".join(x for x in (au, f"{s['year']}." if s["year"] else "", s["title"]) if x)
+    if s["imprint"]:
+        sep = "" if base.rstrip().endswith(".") else "."  # avoid "Title.. Imprint"
+        base = (base.rstrip() + sep + " " + s["imprint"]) if base else s["imprint"]
+    return base
+
+
 _CANON = None
 
 

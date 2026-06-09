@@ -9,7 +9,7 @@ from .config import CITE_BASE, PREVIEW, TREE_INDENT_PX
 from .db import con, reflex_semkey_counts
 from .text import esc, alt, natkey, rcount_txt
 from .notes import render_note
-from .shell import page, breadcrumb, reflex_counts, canon_lgid, etymon_href
+from .shell import page, breadcrumb, reflex_counts, canon_lgid, etymon_href, source_reference
 from .templating import env
 
 # ---------------------------------------------------------------- views
@@ -135,21 +135,9 @@ def sources_index():
         ORDER BY lower(coalesce(nullif(sb.author,''),nullif(sb.citation,''),sb.srcabbr)), sb.year""").fetchall()
     conn.close()
 
-    def refstr(s):
-        # full reference incl. the publication imprint (journal/issue/pages or publisher),
-        # so the venue is visible at a glance instead of only on the detail page.
-        au = (s["author"] or "").rstrip()
-        if au and not au.endswith("."):
-            au += "."
-        base = " ".join(x for x in (au, f"{s['year']}." if s["year"] else "", s["title"]) if x)
-        if s["imprint"]:
-            sep = "" if base.rstrip().endswith(".") else "."  # avoid "Title.. Imprint"
-            base = (base.rstrip() + sep + " " + s["imprint"]) if base else s["imprint"]
-        return base
-
     def item(s):
         cit = Markup(esc(s["citation"] or s["srcabbr"]))
-        ref = Markup(esc(refstr(s)))
+        ref = Markup(esc(source_reference(s)))
         return {
             "srcabbr": Markup(esc(s["srcabbr"])),
             "cit": cit,
