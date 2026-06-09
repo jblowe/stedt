@@ -66,3 +66,28 @@ re-derives `stedt.sqlite` from `data/`).
 
 `export_files.py` intentionally drops a few non-curated columns (modtime/uid, stale workflow
 flags, legacy category codes) — see its docstring for the full, documented list.
+
+## Verifying a refactor (golden-output snapshots)
+
+Every page is a deterministic function of `data/` (the only date — the citation "Accessed"
+stamp — is filled in client-side), so a refactor that isn't meant to change the site should
+produce byte-identical HTML. `tools/snapshot.py` makes that checkable: it renders the full
+site (modern + `/_legacy/`) by running the real build scripts, then writes a `MANIFEST.sha256`.
+
+```sh
+# 1. baseline the current site
+python tools/snapshot.py build .snapshots/before
+
+# 2. ...make your change...
+
+# 3. snapshot again and compare
+python tools/snapshot.py build .snapshots/after
+python tools/snapshot.py compare .snapshots/before .snapshots/after
+```
+
+`compare` prints `IDENTICAL` (exit 0) or the list of changed/added/removed pages (exit 1, so
+it works as a pre-commit gate). For an intentional change, inspect the diff it points you at
+(`diff -u .snapshots/before/<path> .snapshots/after/<path>`) and confirm only the expected
+pages moved. A full snapshot is ~60s / ~600MB; `--limit N` caps entities per kind for a quick
+smoke run; `--rebuild-db` regenerates `stedt.sqlite` + the search DBs first (only needed when
+`data/` or the DB-build pipeline changed). Snapshot dirs are gitignored — regenerate on demand.

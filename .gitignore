@@ -4,6 +4,7 @@ stedt.sqlite
 *.sqlite3
 search.db
 site/
+.snapshots/        # refactor-verification snapshots (tools/snapshot.py); regenerate on demand
 
 # Node (search bundle build deps); package-lock.json IS tracked for reproducible CI
 node_modules/
