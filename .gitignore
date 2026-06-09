@@ -1,10 +1,10 @@
-# Derived build artifacts — rebuild with: python3 build_from_tsv.py / build_static.py
+# Derived build artifacts — rebuild with: stedt build / stedt render
 stedt.sqlite
 *.sqlite
 *.sqlite3
 search.db
 site/
-# refactor-verification snapshots (tools/snapshot.py); regenerate on demand
+# refactor-verification snapshots (stedt snapshot); regenerate on demand
 .snapshots/
 
 # Node (search bundle build deps); package-lock.json IS tracked for reproducible CI
