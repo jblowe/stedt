@@ -6,15 +6,13 @@ parsed and loaded with real relations preserved. Cognate links come from the
 authoritative lx_et_hash table. FTS5 (diacritic-folded) is built over reflexes
 joined to their language name.
 
-Usage: python tools/build_db.py [path/to/dump.sql]
-       (defaults to stedtdb_v1.0/STEDT_public_20160602.sql)
+Args: [path/to/dump.sql]  (defaults to stedtdb_v1.0/STEDT_public_20160602.sql)
 """
 import sqlite3, os, sys, time, re
 
-_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # tools/ -> repo root
-BASE = os.path.join(_ROOT, "stedtdb_v1.0")
-SQLDUMP = os.path.join(BASE, "STEDT_public_20160602.sql")
-OUT = os.path.join(_ROOT, "stedt.sqlite")
+from stedt.paths import ROOT, DB as OUT
+
+SQLDUMP = os.path.join(ROOT, "stedtdb_v1.0", "STEDT_public_20160602.sql")
 
 # ---- columns (from the dump's CREATE TABLE statements) ----
 TABLES = {
@@ -120,7 +118,7 @@ def main(sqldump=SQLDUMP):
     t0=time.time()
     if not os.path.exists(sqldump):
         raise SystemExit(f"dump not found: {sqldump}\n"
-                         f"Usage: python tools/build_db.py [path/to/dump.sql]")
+                         f"Usage: stedt import-dump [path/to/dump.sql]")
     print(f"loading {sqldump} -> {OUT}")
     if os.path.exists(OUT): os.remove(OUT)
     db=sqlite3.connect(OUT); c=db.cursor()

@@ -12,20 +12,21 @@ Hybrid layout (see data/FORMAT.md):
                                          hptb, majorcats, otherchapters, pi, glosswords
   data/orphan_links.tsv  orphan_reflex_notes.tsv      rows whose rn is absent from any wordlist
 
-Inverse of build_from_tsv.py. One-to-many collections (notes, mesoroots, annotations)
+Inverse of stedt.build.from_tsv. One-to-many collections (notes, mesoroots, annotations)
 become their own tables rather than nested records; everything is written through the csv
 module (delimiter='\t', QUOTE_MINIMAL) so any cell may hold tab/quote/newline-bearing prose
-losslessly. The build_from_tsv → export_tsv round-trip is asserted lossless by
-tools/gate_tsv_roundtrip.py. Drops the same non-curated columns documented in BUILD.md.
+losslessly. The from_tsv → export_tsv round-trip is asserted lossless by
+stedt.dev.gate_roundtrip. Drops the same non-curated columns documented in BUILD.md.
 
-Usage:  python3 tools/export_tsv.py [DEST_DIR]   (default: repo data/)
+Args:  [DEST_DIR] [DB]   (default to stedt.paths.DATA / stedt.paths.DB)
 """
 import sqlite3, os, csv, re, sys
 from itertools import groupby
 
-_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # tools/ -> repo root
-DEST = sys.argv[1] if len(sys.argv) > 1 else os.path.join(_ROOT, "data")
-DB = sys.argv[2] if len(sys.argv) > 2 else os.path.join(_ROOT, "stedt.sqlite")
+from stedt.paths import DATA, DB
+
+DEST = sys.argv[1] if len(sys.argv) > 1 else DATA
+DB = sys.argv[2] if len(sys.argv) > 2 else DB
 
 def clean(s):  return '' if s is None else str(s)
 def safe(name): return re.sub(r'[^A-Za-z0-9._-]', '_', name) or '_blank'

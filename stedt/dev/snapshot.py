@@ -7,28 +7,28 @@ identical run to run). That lets us verify refactors by *byte comparison*: snaps
 site before a change, snapshot it after, diff. An output-preserving refactor produces an
 empty diff; an intentional change produces a small, reviewable one.
 
-This wraps the REAL build scripts (build_static.py + build_legacy.py) so the snapshot
-covers exactly the pages that ship — there is no second copy of the page list to drift
-out of sync. It then writes a sorted `MANIFEST.sha256` over every text output (HTML/CSS/JS),
-which is the fast way to see *which* pages moved without diffing hundreds of MB.
+This wraps the REAL build modules (stedt.build.static + stedt.legacy.build_site) so the
+snapshot covers exactly the pages that ship — there is no second copy of the page list to
+drift out of sync. It then writes a sorted `MANIFEST.sha256` over every text output
+(HTML/CSS/JS), the fast way to see *which* pages moved without diffing hundreds of MB.
 
 Snapshots are built with STEDT_BASE='' (root-relative links) for clean, short diffs; they
-are for COMPARISON, not deployment. Use the same snapshot.py settings on both sides.
+are for COMPARISON, not deployment. Use the same settings on both sides.
 
 Usage
 -----
     # capture a baseline, make your change, capture again, compare:
-    python tools/snapshot.py build .snapshots/before
+    stedt snapshot build .snapshots/before
     #   ...refactor...
-    python tools/snapshot.py build .snapshots/after
-    python tools/snapshot.py compare .snapshots/before .snapshots/after
+    stedt snapshot build .snapshots/after
+    stedt snapshot compare .snapshots/before .snapshots/after
 
     # fast smoke run (caps entities per kind via STEDT_LIMIT):
-    python tools/snapshot.py build .snapshots/quick --limit 25
+    stedt snapshot build .snapshots/quick --limit 25
 
     # also rebuild stedt.sqlite/search DBs from data/ first (use when data/ or the
     # DB-build pipeline changed, not for a pure render-layer refactor):
-    python tools/snapshot.py build .snapshots/after --rebuild-db
+    stedt snapshot build .snapshots/after --rebuild-db
 
 Compare exits non-zero when anything differs, so it doubles as a CI/pre-commit gate.
 """
@@ -38,7 +38,7 @@ import os
 import subprocess
 import sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+from stedt.paths import ROOT, DB
 
 # Files whose bytes are real render output we want to track. Everything else under site/
 # is a verbatim copy (the WASM search DBs, fonts, images) — excluded so the manifest stays
@@ -101,7 +101,7 @@ def cmd_build(args):
             if r.returncode != 0:
                 sys.exit(f"snapshot: {module} failed (exit {r.returncode})")
 
-    if not os.path.exists(os.path.join(ROOT, "stedt.sqlite")):
+    if not os.path.exists(DB):
         sys.exit("snapshot: stedt.sqlite missing — run with --rebuild-db, or `stedt build` first")
 
     _run("stedt.build.static", out, args.limit)         # rmtrees + rebuilds out/  (modern site)

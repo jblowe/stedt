@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Lossless gate for the all-TSV migration.
+"""Lossless gate for the all-TSV round-trip.
 
-  baseline.sqlite --export_tsv--> /tmp/newdata --build_from_tsv--> rebuilt.sqlite
+  baseline.sqlite → stedt.dev.export_tsv → TSV → stedt.build.from_tsv → rebuilt.sqlite
   assert: per-table semantic fingerprint(rebuilt) == fingerprint(baseline)
 
-Surrogate row-ids that carry no cross-references (and are assigned by iteration order)
-are excluded from the comparison; everything else must match exactly.
+Args: BASELINE_SQLITE REBUILT_SQLITE. Surrogate row-ids that carry no cross-references (and
+are assigned by iteration order) are excluded from the comparison; everything else must match.
 """
 import sqlite3, hashlib, sys
 
