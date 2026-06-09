@@ -13,6 +13,7 @@ from .templating import env
 
 _SOURCE = env.get_template("source.html")
 _GROUP = env.get_template("group.html")
+_LANGUAGE = env.get_template("language.html")
 
 def etymon(tag):
     c = con()
@@ -274,57 +275,57 @@ def etymon(tag):
     return page(f"*{alt(e['protoform'])} ‘{e['protogloss']}’", body, nav="reconstructions")
 
 def language(lgid):
-    c = con()
+    conn = con()
     canon_of, members = canonical_languages()
     canon = canon_of.get(lgid, lgid)
     sibs = members.get(canon, [lgid])     # every source-variant lgid of this lect
-    ln = c.execute("SELECT * FROM languagenames WHERE lgid=?", (canon,)).fetchone()
+    ln = conn.execute("SELECT * FROM languagenames WHERE lgid=?", (canon,)).fetchone()
     if not ln:
-        c.close(); return page("Not found", "<p>No such language.</p>")
-    grp = c.execute("SELECT grpid,grpno,grp,plg FROM languagegroups WHERE grpid=?", (ln['grpid'],)).fetchone()
+        conn.close(); return page("Not found", "<p>No such language.</p>")
+    grp = conn.execute("SELECT grpid,grpno,grp,plg FROM languagegroups WHERE grpid=?", (ln['grpid'],)).fetchone()
     # all attested forms across every source, each row carrying its own source (the work) + locus
     qm = ','.join('?' * len(sibs))
-    rows = c.execute(f"""SELECT l.rn, l.reflex, l.gloss, l.gfn, l.semkey, l.srcid, l.lgid,
+    rows = conn.execute(f"""SELECT l.rn, l.reflex, l.gloss, l.gfn, l.semkey, l.srcid, l.lgid,
             ln.srcabbr AS srcabbr, sb.citation AS citation
         FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
         LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
         WHERE l.lgid IN ({qm})
         ORDER BY l.semkey, ln.srcabbr, l.reflex""", sibs).fetchall()
     total = len(rows)
-    chap = {r['semkey']: r['chaptertitle'] for r in c.execute("SELECT semkey,chaptertitle FROM chapters")}
-    lin = group_lineage(c, grp['grpno']) if grp else []
+    chap = {r['semkey']: r['chaptertitle'] for r in conn.execute("SELECT semkey,chaptertitle FROM chapters")}
+    lin = group_lineage(conn, grp['grpno']) if grp else []
     # a reflex can belong to several etyma (polymorphemic); collect all, ordered by morpheme.
     rn_tags = {}
     rns = [r['rn'] for r in rows]
     for i in range(0, len(rns), 900):
         chunk = rns[i:i + 900]; qmk = ','.join('?' * len(chunk))
-        for hr in c.execute(f"SELECT rn, tag FROM lx_et_hash WHERE tag>0 AND rn IN ({qmk}) ORDER BY rn, ind", chunk):
+        for hr in conn.execute(f"SELECT rn, tag FROM lx_et_hash WHERE tag>0 AND rn IN ({qmk}) ORDER BY rn, ind", chunk):
             rn_tags.setdefault(hr['rn'], []).append(hr['tag'])
-    plabels = proto_labels(c, {t for ts in rn_tags.values() for t in ts})
+    plabels = proto_labels(conn, {t for ts in rn_tags.values() for t in ts})
     # lexical notes per reflex (same set the etymon page shows), revealed on hover on the gloss
     lnotes = {}
     for i in range(0, len(rns), 900):
         chunk = rns[i:i + 900]; qmk = ','.join('?' * len(chunk))
-        for nr in c.execute(f"SELECT rn, xmlnote FROM notes WHERE spec='L' AND notetype!='I' "
+        for nr in conn.execute(f"SELECT rn, xmlnote FROM notes WHERE spec='L' AND notetype!='I' "
                             f"AND xmlnote IS NOT NULL AND rn IN ({qmk}) ORDER BY ord, noteid", chunk):
             lnotes.setdefault(nr['rn'], []).append(nr['xmlnote'])
     # a lect's ISO / short-name may live on a source-variant sibling, not the canonical lgid;
     # back-fill from any sibling so the lect's own page shows them (group() back-fills the same way)
     sil, lgab = ln['silcode'] or '', ln['lgabbr'] or ''
     if (not sil or not lgab) and len(sibs) > 1:
-        for sr in c.execute(f"SELECT silcode, lgabbr FROM languagenames WHERE lgid IN ({qm})", sibs):
+        for sr in conn.execute(f"SELECT silcode, lgabbr FROM languagenames WHERE lgid IN ({qm})", sibs):
             sil = sil or (sr['silcode'] or '')
             lgab = lgab or (sr['lgabbr'] or '')
-    c.close()
+    conn.close()
 
     crumb_links = ['<a href="/languages">Languages</a>'] + \
                   [f'<a href="/group/{gg["grpid"]}">{(esc(gg["grpno"]) + " ") if gg["grpno"] else ""}{esc(gg["grp"])}</a>' for gg in lin]
     nsrc = len({r['srcabbr'] for r in rows if r['srcabbr']})
     meta = []
-    if lgab: meta.append(f'<span><b>abbr</b> {esc(lgab)}</span>')
-    if sil: meta.append(f'<span><b>ISO 639-3</b> {iso_link(sil)}</span>')
-    if nsrc > 1: meta.append(f'<span><b>{nsrc}</b> sources</span>')
-    meta.append(f'<span><b>{total:,}</b> reflexes</span>')
+    if lgab: meta.append(Markup(f'<span><b>abbr</b> {esc(lgab)}</span>'))
+    if sil: meta.append(Markup(f'<span><b>ISO 639-3</b> {iso_link(sil)}</span>'))
+    if nsrc > 1: meta.append(Markup(f'<span><b>{nsrc}</b> sources</span>'))
+    meta.append(Markup(f'<span><b>{total:,}</b> reflexes</span>'))
 
     groups = {}
     for r in rows:
@@ -332,8 +333,8 @@ def language(lgid):
         groups.setdefault(sk.split('.')[0] if sk else '', []).append(r)
     keys = sorted(groups, key=lambda k: (k == '', natkey(k)))
     openall = total < 100
-    segs = []
-    for key in keys:
+
+    def seginfo(key):
         items = groups[key]
         ttl = '(unclassified)' if key == '' else (chap.get(key) or chap.get(key + '.0') or f'Chapter {key}')
         rfx = []
@@ -368,75 +369,13 @@ def language(lgid):
             rfx.append(f'<div class="rfx" id="rn{r["rn"]}">{catcell}'
                        f'<span class="form">{form} {gl}{pos}{via}</span>'
                        f'{src}</div>')
-        # A big lect (Tibetan: ~7,700 forms) would otherwise build tens of thousands of DOM nodes
-        # the reader never scrolls to. Each section ships its rows as inert <script> text and
-        # materialises them the first time it opens (or on load if it starts open) — see the IIFE.
-        segs.append(f'<details class="seg"{" open" if openall else ""}><summary>{esc(ttl)}'
-                    f'<span class="c">{len(items)}</span></summary>'
-                    f'<div class="seg-body"></div>'
-                    f'<script type="text/html" class="seg-src">{"".join(rfx)}</script></details>')
+        return {"open": openall, "ttl": Markup(esc(ttl)), "n": len(items), "rfx": Markup("".join(rfx))}
 
-    body = f"""
-    <div class="ety-head">
-      <div class="plg">Language</div>
-      <div class="pagetitle">{esc(ln['language'])}</div>
-      <div class="crumbs">{' &nbsp;›&nbsp; '.join(crumb_links)}</div>
-      <div class="metabar">{''.join(meta)}</div>
-    </div>
-    <section class="reflexes"><h3>Attested forms{'' if openall else '<button type="button" class="toggle-all" data-all="0">Expand all</button>'}</h3>{''.join(segs)}</section>
-    <script>
-    /* Sections render their rows lazily: each <details> carries its forms as inert <script>
-       text and materialises them the first time it opens (or on load if it starts open), so a
-       7,700-form lect doesn't build ~50k DOM nodes the reader never looks at. reveal() also
-       handles a #rn<id> deep link (e.g. from a thesaurus 'attested forms' link) that points
-       into a section not yet opened, and tags the row with .rn-target for the highlight — a
-       lazily-injected row can't be relied on to match :target (the fragment was already set
-       before it existed), so the class is applied explicitly rather than left to CSS. */
-    (function(){{
-      function fill(d){{
-        if(d.dataset.filled) return;
-        var s=d.querySelector('script.seg-src'), b=d.querySelector('.seg-body');
-        if(s&&b){{ b.innerHTML=s.textContent; d.dataset.filled='1'; }}
-      }}
-      var segs=[].slice.call(document.querySelectorAll('details.seg'));
-      segs.forEach(function(d){{
-        d.addEventListener('toggle',function(){{ if(d.open) fill(d); }});
-        if(d.open) fill(d);
-      }});
-      var btn=document.querySelector('.toggle-all');
-      if(btn) btn.addEventListener('click',function(){{
-        var open=btn.getAttribute('data-all')!=='1';
-        segs.forEach(function(d){{ if(open) fill(d); d.open=open; }});
-        btn.setAttribute('data-all',open?'1':'0');
-        btn.textContent=open?'Collapse all':'Expand all';
-      }});
-      function reveal(){{
-        var prev=document.querySelector('.rfx.rn-target'); if(prev) prev.classList.remove('rn-target');
-        var h=location.hash; if(!h||h.length<2) return;
-        var id; try{{id=decodeURIComponent(h.slice(1));}}catch(e){{return;}}
-        var el=document.getElementById(id);
-        if(!el){{
-          var needle='id="'+id+'"';
-          for(var i=0;i<segs.length;i++){{
-            var s=segs[i].querySelector('script.seg-src');
-            if(s&&s.textContent.indexOf(needle)>=0){{ fill(segs[i]); segs[i].open=true; break; }}
-          }}
-          el=document.getElementById(id);
-        }}
-        if(!el) return;
-        var d=el.closest('details'); if(d&&!d.open){{ fill(d); d.open=true; }}
-        el.classList.add('rn-target');
-        el.scrollIntoView({{block:'center'}});
-        // A cold load scrolls before web fonts arrive; their reflow can nudge the row off its
-        // mark, so re-settle once fonts are ready — but only if this row is still the target.
-        if(document.fonts&&document.fonts.ready) document.fonts.ready.then(function(){{
-          if(location.hash.slice(1)===id) el.scrollIntoView({{block:'center'}});
-        }});
-      }}
-      window.addEventListener('hashchange',reveal); reveal();
-    }})();
-    </script>"""
-    return page(ln['language'], body, nav="languages")
+    segs = [seginfo(key) for key in keys]
+    return page(ln['language'], _LANGUAGE.render(
+        lang=Markup(esc(ln['language'])), crumbs=Markup(' &nbsp;›&nbsp; '.join(crumb_links)),
+        meta=meta, openall=openall, segs=segs), nav="languages")
+
 
 def source(srcabbr):
     conn = con()
