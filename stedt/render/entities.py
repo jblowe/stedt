@@ -447,7 +447,9 @@ def language(lgid):
                 if t in plabels and t not in seen:
                     seen.add(t)
                     vias.append(f'<a class="via" href="{etymon_href(t)}">*{esc(alt(plabels[t]))}</a>')
-            via = f'<span class="anl">{" ".join(vias)}</span>' if vias else ""
+            # always emit the etym line (empty when this reflex has no etyma) so every row on a
+            # language wordlist is the same height — see .rfx .anl min-height in site.css
+            via = f'<span class="anl">{" ".join(vias)}</span>'
             # each row shows the source it is attested in (the work) + the locus within it
             loc = f': {esc(r["srcid"])}' if r["srcid"] else ""
             if r["srcabbr"]:
