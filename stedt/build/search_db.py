@@ -36,7 +36,7 @@ def main():
     # language and etymon pages, instead of dropping the locus only on these two client-rendered views.
     db.executescript("""
         -- key columns as INTEGER PRIMARY KEY (the rowid) so no separate index is needed
-        CREATE TABLE etyma          (tag INTEGER PRIMARY KEY, protoform, protogloss, semkey, status, grpid, nreflex);
+        CREATE TABLE etyma          (tag INTEGER PRIMARY KEY, protoform, protogloss, semkey, status, grpid, nreflex, exemplary);
         CREATE TABLE languagegroups (grpid INTEGER PRIMARY KEY, plg, grpno, grp);
         CREATE TABLE languagenames  (lgid INTEGER PRIMARY KEY, language, srcabbr, grpid);
         CREATE TABLE lexicon        (rn INTEGER PRIMARY KEY, reflex, gloss, gfn, lgid, semkey, srcid);
@@ -46,7 +46,8 @@ def main():
         INSERT INTO etyma SELECT e.tag, e.protoform, e.protogloss, e.semkey, e.status, e.grpid,
             (SELECT count(DISTINCT h.rn) FROM src.lx_et_hash h
                JOIN src.lexicon l2 ON l2.rn=h.rn JOIN src.languagenames n2 ON n2.lgid=l2.lgid
-               WHERE h.tag=e.tag AND h.tag>0 AND n2.language NOT LIKE '*%')   -- proto-excluded reflex count
+               WHERE h.tag=e.tag AND h.tag>0 AND n2.language NOT LIKE '*%'),   -- proto-excluded reflex count
+            e.exemplary
           FROM src.etyma e;
         INSERT INTO languagegroups SELECT grpid, plg, grpno, grp FROM src.languagegroups;
         INSERT INTO languagenames  SELECT lgid, language, srcabbr, grpid FROM src.languagenames;

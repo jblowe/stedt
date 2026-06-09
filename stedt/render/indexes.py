@@ -48,7 +48,7 @@ def reconstructions():
     # gloss-ordered full set stays a single, filterable, statically-hosted page.
     conn = con()
     OK = "coalesce(upper(e.status),'')!='DELETE'"
-    rows = conn.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
+    rows = conn.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg, e.exemplary
         FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
         WHERE {OK} ORDER BY e.protogloss, e.tag""").fetchall()
     counts = reflex_counts(conn)
@@ -56,8 +56,9 @@ def reconstructions():
     total = len(rows)
     data = [
         # ship the RAW protoform; the client's etymonRow applies altstar() (same as search), so the
-        # reconstructions index and search render an etymon identically.
-        [r["tag"], r["protoform"] or "", r["protogloss"] or "", r["plg"] or "", counts.get(r["tag"], 0)]
+        # reconstructions index and search render an etymon identically. Last field: exemplary flag.
+        [r["tag"], r["protoform"] or "", r["protogloss"] or "", r["plg"] or "", counts.get(r["tag"], 0),
+         1 if (r["exemplary"] or "") == "x" else 0]
         for r in rows
     ]
     # < keeps the payload from breaking out of the <script> tag and stays valid JSON.
@@ -266,7 +267,7 @@ def thesaurus(semkey=None):
             {"semkey": sk, "semkey_esc": Markup(esc(sk)), "title": Markup(esc(k["chaptertitle"])), "ct": ct}
         )
     direct = conn.execute(
-        f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
+        f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg, e.exemplary
         FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
         WHERE {ECAT} IN ({ownph})
           AND coalesce(upper(e.status),'')!='DELETE'
@@ -282,7 +283,10 @@ def thesaurus(semkey=None):
                 "href": etymon_href(e["tag"]),
                 "pf": Markup(esc(alt(e["protoform"]))),
                 "pg": Markup(esc(e["protogloss"])),
-                "tagn": Markup(f'{esc(e["plg"])} #{e["tag"]}{rcount_txt(dcounts.get(e["tag"], 0))}'),
+                "tagn": Markup(
+                    f'{esc(e["plg"])} #{e["tag"]}{rcount_txt(dcounts.get(e["tag"], 0))}'
+                    + (' · <span class="exm">exemplary</span>' if (e["exemplary"] or "") == "x" else "")
+                ),
             }
             for e in direct
         ]

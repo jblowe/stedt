@@ -13,7 +13,7 @@ import { etymonRow, norm } from './rows.js';
     none = document.querySelector('.rnone'),
     count = document.getElementById('rcount'),
     input = document.getElementById('rfilter');
-  var row = r => etymonRow({ tag: r[0], protoform: r[1], protogloss: r[2], plg: r[3], nreflex: r[4] });
+  var row = r => etymonRow({ tag: r[0], protoform: r[1], protogloss: r[2], plg: r[3], nreflex: r[4], exemplary: r[5] });
   function updateCount(shown) {
     var t = DATA.length, m = view.length;
     var s = (m === t) ? t.toLocaleString() + ' etyma' : m.toLocaleString() + (m === 1 ? ' match' : ' matches');

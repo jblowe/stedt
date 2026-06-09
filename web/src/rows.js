@@ -101,7 +101,7 @@ export const reflexRow = r => {
 };
 
 // A reconstruction (etymon) result row.
-export const etymonRow = e => `<a class="ety-hit" href="${etymonHref(e.tag)}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}${e.nreflex ? ` · ${fmt(e.nreflex)} reflex${e.nreflex == 1 ? '' : 'es'}` : ''}</span></a>`;
+export const etymonRow = e => `<a class="ety-hit" href="${etymonHref(e.tag)}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}${e.nreflex ? ` · ${fmt(e.nreflex)} reflex${e.nreflex == 1 ? '' : 'es'}` : ''}${e.exemplary ? ' · <span class="exm">exemplary</span>' : ''}</span></a>`;
 
 // A language result row.
 export const languageRow = l => `<a class="ety-hit" href="${languageHref(l.lgid)}"><span class="rf">${esc(l.language)}</span><span class="gl2">${fmt(l.n)} reflex${l.n == 1 ? '' : 'es'}</span><span class="tagn">language</span></a>`;

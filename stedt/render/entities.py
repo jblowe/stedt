@@ -745,7 +745,7 @@ def group(grpid):
             d["srcs"].setdefault(r["srcabbr"], r["citation"])
     langs = sorted(lects.values(), key=lambda d: (d["language"] or "").lower())
     recons = conn.execute(
-        """SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss
+        """SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss, e.exemplary AS exemplary
         FROM etyma e WHERE e.grpid=? AND coalesce(upper(e.status),'')!='DELETE'
         ORDER BY e.sequence, e.protogloss""",
         (grpid,),
@@ -818,7 +818,10 @@ def group(grpid):
             "href": etymon_href(r["tag"]),
             "protoform": Markup(esc(alt(r["protoform"]))),
             "protogloss": Markup(esc(r["protogloss"])),
-            "tagn": Markup(f'{esc(plg)} #{r["tag"]}{rcount_txt(rcounts.get(r["tag"], 0))}'),
+            "tagn": Markup(
+                f'{esc(plg)} #{r["tag"]}{rcount_txt(rcounts.get(r["tag"], 0))}'
+                + (' · <span class="exm">exemplary</span>' if (r["exemplary"] or "") == "x" else "")
+            ),
         }
 
     reconinfos = [reconinfo(r) for r in recons]
