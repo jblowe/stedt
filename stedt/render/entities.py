@@ -44,7 +44,7 @@ def etymon(tag):
     ).fetchall()
     rows = conn.execute(
         """SELECT l.rn AS rn, ln.language AS language, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn AS gfn,
-            l.srcid AS srcid, g.grp AS subgroup, g.grpno AS groupnode, g.plg AS grpplg,
+            l.srcid AS srcid, g.grp AS subgroup, g.grpno AS groupnode, g.plg AS grpplg, g.grpid AS grpid,
             sb.citation AS citation, ln.srcabbr AS srcabbr
         FROM lx_et_hash h JOIN lexicon l ON l.rn=h.rn
         JOIN languagenames ln ON ln.lgid=l.lgid
@@ -247,6 +247,12 @@ def etymon(tag):
         rr = ""
         for r in recon_rows:
             lab = r["grpplg"] or r["subgroup"] or (r["language"] or "").lstrip("*")
+            # the label is a proto-language group (e.g. PTani) — link it to its group page
+            rl = (
+                f'<a class="rl" href="/group/{r["grpid"]}">{esc(lab)}</a>'
+                if r["grpid"] is not None
+                else f'<span class="rl">{esc(lab)}</span>'
+            )
             loc = f': {esc(r["srcid"])}' if r["srcid"] else ""
             if r["srcabbr"]:
                 cit = f'<a class="src" href="{source_href(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
@@ -254,7 +260,7 @@ def etymon(tag):
                 cit = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
             gl = f' ‘{esc(r["gloss"])}’' if r["gloss"] else ""
             rr += (
-                f'<div class="conn-row"><span class="rl">{esc(lab)}</span>'
+                f'<div class="conn-row">{rl}'
                 f'<span class="reltgt"><span class="recon">{esc(alt(r["form"]))}</span>{gl}</span>{cit}</div>'
             )
         reconhtml = f'<section class="conn"><h3>Previously reconstructed as</h3>{rr}</section>'
