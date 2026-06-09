@@ -481,9 +481,9 @@ def language(lgid):
                     if t in plabels and t not in seen:
                         seen.add(t)
                         vias.append(f'<a class="via" href="{etymon_href(t)}">*{esc(alt(plabels[t]))}</a>')
-            # always emit the etym line (empty when syllables carry the links, or when this reflex has
-            # no etyma) so every row on a language wordlist is the same height — see .rfx .anl in site.css
-            via = f'<span class="anl">{" ".join(vias)}</span>'
+            # the second etym line only exists for un-segmented etyma (the trailing chips); when the
+            # syllables carry the links inline, or there are no etyma, the row has no second line.
+            via = f'<span class="anl">{" ".join(vias)}</span>' if vias else ""
             # each row shows the source it is attested in (the work) + the locus within it
             loc = f': {esc(r["srcid"])}' if r["srcid"] else ""
             if r["srcabbr"]:
