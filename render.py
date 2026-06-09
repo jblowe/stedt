@@ -378,7 +378,9 @@ a.syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
   width:1.45em;height:1.45em;margin-left:.34em;border:1px solid currentColor;border-radius:50%;
   font:italic 600 .62em/1 "Fraunces",serif;vertical-align:.28em;color:var(--mut);}
 .noted:hover::after,.noted:focus::after,.noted:focus-within::after{color:var(--accent);}
-.noted>.notepop{display:none;position:absolute;left:0;top:1.55em;z-index:6;width:max-content;max-width:min(340px,calc(100vw - 24px));
+/* right:0 anchors the bubble under the circled-i (the right end of .noted), not the gloss's left
+   edge — otherwise a long gloss strands the bubble far from its icon. */
+.noted>.notepop{display:none;position:absolute;right:0;top:1.55em;z-index:6;width:max-content;max-width:min(340px,calc(100vw - 24px));
   background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:7px 10px;font-style:normal;
   font-size:12.5px;line-height:1.5;color:var(--soft);white-space:normal;text-align:left;overflow-wrap:anywhere;}
 .noted:hover>.notepop,.noted:focus>.notepop,.noted:focus-within>.notepop{display:block;}
