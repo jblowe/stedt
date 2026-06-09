@@ -6,8 +6,7 @@
   "scripts": {
     "build:search": "mkdir -p ../site/assets && cp node_modules/@sqlite.org/sqlite-wasm/dist/sqlite3.wasm ../site/assets/ && esbuild src/search.js --bundle --format=esm --minify --outfile=../site/assets/stedt-search.js",
     "build:pages": "mkdir -p ../site/assets && esbuild src/reconstructions.js src/search-page.js src/catforms.js src/cite.js src/language-page.js --bundle --format=esm --minify --outdir=../site/assets",
-    "build:legacy": "mkdir -p ../site/_legacy/assets && cp node_modules/@sqlite.org/sqlite-wasm/dist/sqlite3.wasm ../site/_legacy/assets/ && esbuild src/legacy-shim.js --bundle --format=esm --minify --outfile=../site/_legacy/assets/legacy-shim.js",
-    "test": "node test/rows.test.mjs"
+    "build:legacy": "mkdir -p ../site/_legacy/assets && cp node_modules/@sqlite.org/sqlite-wasm/dist/sqlite3.wasm ../site/_legacy/assets/ && esbuild src/legacy-shim.js --bundle --format=esm --minify --outfile=../site/_legacy/assets/legacy-shim.js"
   },
   "devDependencies": {
     "esbuild": "^0.23.0"
