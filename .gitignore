@@ -1,4 +1,4 @@
-# Derived build artifacts — rebuild with: python3 build_from_files.py / build_static.py
+# Derived build artifacts — rebuild with: python3 build_from_tsv.py / build_static.py
 stedt.sqlite
 *.sqlite
 *.sqlite3

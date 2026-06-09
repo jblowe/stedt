@@ -1,0 +1,2056 @@
+lgid	name	abbr	grpid	source	iso	lgcode	sort	srcofdata	picode	pinotes	pi_page	notes
+100	"""Pre-Chinese"""	PC	52	WSC-SH		84	CHINESE PRE- CHINESE					
+101	"""Pre-Tibetan"""	PT	24	WSC-SH		308	TIBETAN PRE-TIBETAN					reconstructed? check src
+102	Paangkhua	(LP) BP	70	LL-PRPL	pkh	224	PAANG	LL-PRPL			315	forms identical in BP & LP except where BP lacks (ra)
+103	*Austro-Tai	PAustro-Tai	57	JAM-GSTC		5	*AUSTRO-TAI	***				
+104	*Bah-Sun	wk	30	BM-PK7		391	*KIRANTI	***				
+105	*Barish	BAR	16	AW-TBT		6	*BARISH	***				
+106	*Barish	PBarish	16	JAM-II		6	*BARISH	***				
+107	*Barish (East)	E.Bar	16	AW-TBT		382	*BARISH E	***				
+108	*Bodish	PTB (Bodish)	22	ACST		7	*BODISH	***				
+109	*Bodo-Garo	P B-G	16	ACST		8	*BODO-GARO	***				
+110	*Bodo-Garo	Bodo-Garo	16	JAM-GSTC		8	*BODO-GARO	Bhat, Burling				
+111	*BSDTK	cwk	29	BM-PK7		393	*KIRANTI	***				Bahing-Sunwar-Dumi-Thulung-Khaling (Proto-Central-West-Kiranti)
+112	*Burmese	PBs	44	AW-TBT		9	*BURMESE	***				
+113	*Burmese	PB	44	JO-PB		9	*BURMESE	***				
+114	*Chin	PChin	8	AW-TBT		346	*CHIN	***				
+115	*Dum-Thu-Kha	ck	77	BM-PK7		390	*KIRANTI	***				
+116	*Eastern Tani	PET	74	JS-HCST		380	*TANI EAST					
+117	*Hmong-Mien	PHmong-Mien	57	ACST		3	*HMONG-MIEN	***				
+118	*Jingpho	PJg	37	AW-TBT		10	*JINGPHO	***				
+119	*Karen	PK	50	ACST		11	*KAREN	***				
+120	*Karen	PK	50	AW-TBT		11	*KAREN	***				from Mazaudon
+121	*Karen	PK	50	JAM-GSTC		11	*KAREN	***				
+122	*Karen	*PK	50	RBJ-KLS		11	*KAREN	***				
+123	*Karen (Pwo)	*P	50	RBJ-KLS		384	*KAREN	***				
+124	*Karen (Pwo-Sgaw)	*PS	50	RBJ-KLS		385	*KAREN	***				might be Palaychi-Sgaw
+125	*Karen (Sgaw)	*S	50	RBJ-KLS		383	*KAREN	***				this a proto-lang
+126	*Karen (TP)	*TP	50	RBJ-KLS		384	*KAREN	***				probably proto-Taungthu-Pho
+127	*Karen	P-Karen	50	PKB-KLH		11	*KAREN	***				
+128	*Kiranti	PKir	29	AW-TBT		12	*KIRANTI	***				
+129	*Kiranti	PKir	29	BM-PK7		12	*KIRANTI	***				
+130	*Kiranti	P.Kir	29	AW-TBT		12	*KIRANTI	***				
+131	*Kuki	PKk	8	AW-TBT		148	*KUKI	***				
+132	*Kuki-Naga	K-N	3	ACST		13	*KUKI-NAGA	***				
+133	*Kuki-Naga	PNg-Kuk	3	AW-TBT		13	*KUKI-NAGA					
+134	*Kuki-Naga-Chin	KNC	3	AW-TBT		14	*KUKI-NAGA-CHIN	***				
+135	*Kul-Cham-Ban	sk	76	BM-PK7		392	*KIRANTI	***				
+136	*Lolo-Burmese	P B-L	42	ACST		15	*LOLO-BURMESE	***				
+137	*Lolo-Burmese	LB	42	AW-TBT		15	*LOLO-BURMESE	***				
+138	*Lolo-Burmese	PLB	42	AW-TBT		15	*LOLO-BURMESE	***				
+139	*Lolo-Burmese	PLB	42	JAM-DL		15	*LOLO-BURMESE	***				
+140	*Lolo-Burmese	PLB	42	JAM-Ety		15	*LOLO-BURMESE	***				
+141	*Lolo-Burmese	PLB	42	JAM-GSTC		15	*LOLO-BURMESE	***				
+142	*Lolo-Burmese	*Lolo-Burmese	42	JAM-II		15	*LOLO-BURMESE	***				
+143	*Lolo-Burmese	PLB	42	JAM-MLBM		15	*LOLO-BURMESE	***				
+144	*Lolo-Burmese	PLB	42	JAM-TIL		15	*LOLO-BURMESE	***				
+145	*Lolo-Burmese	PLB	42	JAM-TJLB		15	*LOLO-BURMESE	***				
+146	*Lolo-Burmese	PLB	42	JAM-TSR		15	*LOLO-BURMESE	***				
+147	*Lolo-Burmese	PLB	42	PC		15	*LOLO-BURMESE	***				
+148	*Lolo-Burmese	PLB	42	RJL-DPTB		15	*LOLO-BURMESE	JAM/STC				
+149	*Lolo-Burmese	PLB	42	STC		15	*LOLO-BURMESE	***				
+150	*Lolo-Burmese	PLB	42	WSC-SH		15	*LOLO-BURMESE	***				
+151	*Loloish	PL	45	AW-TBT		16	*LOLOISH	***				
+152	*Loloish	PLol	45	DB-PLolo		16	*LOLOISH	***				
+153	*Loloish	*PL	45	ILH-PL		16	*LOLOISH	***				
+154	*Loloish	PLol	45	JAM-GSTC		16	*LOLOISH	***				
+155	*Loloish	PLol	45	JAM-II		16	*LOLOISH	***				
+156	*Loloish	Loloish	45	RJL-DPTB		16	*LOLOISH	***				
+157	*Naga	PNg	11	AW-TBT		17	*NAGA	***				
+158	*Naga	PNg-I	11	AW-TBT		17	*NAGA	***				
+159	*North Assam	N.Ass	4	AW-TBT		377	*NORTH ASSAM					One form, set 690.  Not clear if this is a protoform, or if the language was accidentally left out as a typo.
+160	*Northern Naga	PNN	12	JAM-GSTC		18	*NAGA (NORTHERN)	***				
+161	*Northern Naga	PNN	12	WTF-PNN		18	*NAGA (NORTHERN)	***				
+162	*Nung	PTB (Nung)	38	ACST		220	*NUNG	***				proto-lang?
+163	*SE Kiranti	sek	29	BM-PK7		389	*KIRANTI	***				
+164	*Sino-Tibetan	PST	1	ACST		19	*SINO-TIBETAN	***				
+165	*Sino-Tibetan	PST	1	JAM-GSTC		19	*SINO-TIBETAN	***				
+166	*Sino-Tibetan	PST	1	JAM-TIL		19	*SINO-TIBETAN	***				
+167	*Sino-Tibetan	PST	1	STC		19	*SINO-TIBETAN	***				
+168	*Sino-Tibetan	ST	1	WSC-SH		19	*SINO-TIBETAN	***				
+169	*Tai	PTai	57	JAM-GSTC		20	*TAI	***				
+170	*TGTM	PTm	23	JAM-GSTC		21	*TAMANG	***				Proto-Tamang?
+171	*TGTM	TGTM	23	MM-K78		21	*TAMANG	MM-K78				
+172	*TGTM	TGTM	23	MM-Thesis		21	*TGTM	original				
+173	*Tani	PT	5	JS-HCST		22	*TANI					
+174	*Tibeto-Burman	PTB	2	ACST		23	*TIBETO-BURMAN	***				
+175	*Tibeto-Burman	PTB	2	AW-TBT		23	*TIBETO-BURMAN	***				
+176	*Tibeto-Burman	PTB	2	BM-PK7		23	*TIBETO-BURMAN	***				
+177	*Tibeto-Burman	PTB	2	JAM-GSTC		23	*TIBETO-BURMAN	***				
+178	*Tibeto-Burman	PTB	2	JAM-TIL		23	*TIBETO-BURMAN	***				
+179	*Tibeto-Burman	PTB	2	JAM-TSR		23	*TIBETO-BURMAN	***				
+180	*Tibeto-Burman	PTB	2	JAM-VSTB		23	*TIBETO-BURMAN	***				
+181	*Tibeto-Burman	PTB	2	RJL-DPTB		23	*TIBETO-BURMAN	JAM/STC				
+182	*Tibeto-Burman	PTB	2	STC		23	*TIBETO-BURMAN	***				
+183	*Tibeto-Burman	TB	2	WSC-SH		23	*TIBETO-BURMAN	***				
+185	*Tibeto-Burman	PTB	2	WTF-PNN		23	*TIBETO-BURMAN	***				
+186	*Tibeto-Karen	TK	2	ACST		24	*TIBETO-KAREN	***				
+187	*Western Tani	PWT	73	JS-HCST		381	*TANI WEST					
+188	Padam [Abor]	Abor	74	JHL-AM	adi	25	ABOR	JHL-AM	Pada2		317	
+189	Padam-Mishing [Abor-Miri]	AM	74	JAM-Ety	adi	26	ABOR-MIRI	STC<JHL-AM	Pada2		317	also Miri [mrg]
+190	Padam-Mishing [Abor-Miri]	AM	74	JAM-GSTC	adi	26	ABOR-MIRI	STC<JHL-AM				also Miri [mrg]
+191	Padam-Mishing [Abor-Miri]	AM	74	JAM-II	adi	26	ABOR-MIRI					also Miri [mrg]
+192	Padam-Mishing [Abor-Miri]	AM	74	JAM-TSR	adi	26	ABOR-MIRI					also Miri [mrg]
+193	Padam-Mishing [Abor-Miri]	AM	74	JAM-VSTB	adi	26	ABOR-MIRI	STC<JHL-AM				also Miri [mrg]
+194	Padam-Mishing [Abor-Miri]	Abor-Miri	74	RJL-DPTB	adi	26	ABOR-MIRI	JAM/STC<JHL-AM				also Miri [mrg]
+195	Padam-Mishing [Abor-Miri]	Abor	74	STC	adi	26	ABOR-MIRI	JHL-AM				also Miri [mrg]
+196	Padam-Mishing [Abor-Miri]	Abor-Miri	74	STC	adi	26	ABOR-MIRI	JHL-AM				also Miri [mrg]
+197	Achang	Ach	44	JAM-GSTC	acn	27	ACHANG					
+198	Achang	Achang	44	PC	acn	27	ACHANG					
+199	Achang	Achang	44	STC	acn	27	ACHANG					
+200	Achang (Longchuan)	Achang41	44	ZMYYC	acn	29	ACHANG LO	ZMYYC	Acha2		2	
+201	Achang (Lianghe)	AClh	44	JZ-Achang	acn	28	ACHANG LI	JZ-Achang	Acha1		1	
+202	Achang (Lianghe)	Achang Lianghe	44	PC	acn	28	ACHANG LI					
+203	Achang (Lianghe)	LHA	44	RJL-DPTB	acn	28	ACHANG LI	JZ-Achang				
+204	Achang (Longchuan)	AClc	44	JZ-Achang	acn	29	ACHANG LO	JZ-Achang	Acha2		2	
+205	Achang (Longchuan)	Achang Longchuan	44	PC	acn	29	ACHANG LO					
+206	Achang (Longchuan)	LCA	44	RJL-DPTB	acn	29	ACHANG LO	JZ-Achang				
+207	Achang (Luxi)	AClx	44	JZ-Achang	acn	30	ACHANG LU	JZ-Achang	Acha3		4	
+208	Achang (Luxi)	LXA	44	RJL-DPTB	acn	30	ACHANG LU	JZ-Achang				
+209	Achang (Xiandao)	Xiandao	44	DQ-Xiandao	xia	31	ACHANG X	DQ-Xiandao				
+210	Ahi	Axi	47	CK-YiQ	yix	32	AHI	CK-YiQ	Ahi3		9	almost same dial. as ZMYYC #25 Yi:Mile
+211	Ahi	Axi	47	DQ-Yi (Axi)	yix	32	AHI					? Does this exist?
+212	Ahi	Ahi	47	JAM-Ety	yix	32	AHI					
+213	Ahi	Ahi	47	JAM-GSTC	yix	32	AHI	YC-FAPL				
+214	Ahi	Ahi	47	JAM-TSR	yix	32	AHI	YC-FAPL	Ahi1		6	
+215	Ahi	Ahi	47	JAM-VSTB	yix	32	AHI	YC-FAPL				
+216	Ahi	Ay	47	LMZ-AhiQ	yix	32	AHI	LMZ-AhiQ	Ahi2		8	
+217	Ahi	Ahi	47	RJL-DPTB	yix	32	AHI	YC-FAPL				
+218	Ahi	Ahi	47	STC	yix	32	AHI	YC-FAPL				
+219	Ahi	Ahi	47	YC-FAPL	yix	32	AHI	YC-FAPL	Ahi1		6	
+220	Ahi	Ahi	47	JAM-TJLB	yix	222	AHI					
+221	Khumi (Ahraing)	Ahraing Khumi	69	GHL-PPB	cnk	134	KHUMI A					Luce spells as K'umi
+222	Aimol	Aimol	72	RJL-DPTB	aim	33	AIMOL					
+223	Aimol	Aimol	72	STC	aim	33	AIMOL					
+224	Aka [Hruso]	Aka	4	IMS-Miji	hru	34	AKA					no IMS-Aka?  Aka Lg Guide (Shillong NEFA) (Huffman 412)
+225	Aka [Hruso]	Aka	4	SHA1947	hru	34	AKA	SHA1947				JS-HCST:13 says Hruso is not Tani
+226	Akha	Akha	48	AW-TBT	ahk	35	AKHA					
+227	Akha	Akha	48	DB-PLolo	ahk	35	AKHA	PL-AED, Nishida				
+228	Akha	Akha	48	ILH-PL	ahk	35	AKHA	ILH-PL	Akha1		11	
+229	Akha	Ak	48	JAM-Ety	ahk	35	AKHA	PL-AED	Akha2		12	
+230	Akha	Ak	48	JAM-GSTC	ahk	35	AKHA	PL-AED	Akha2		12	
+231	Akha	Ak	48	JAM-MLBM	ahk	35	AKHA	PL-AED				
+232	Akha	Ak	48	JAM-TIL	ahk	35	AKHA	PL-AED				
+233	Akha	Ak	48	JAM-TJLB	ahk	35	AKHA	PL-AED				
+234	Akha	Ak	48	JAM-TSR	ahk	35	AKHA	PL-AED	Akha2		12	
+235	Akha	Ak (Burling)	48	JAM-TSR	ahk	35	AKHA	?				<RB-GG??
+236	Akha	Akha	48	JAM-VSTB	ahk	35	AKHA	PL-AED				
+237	Akha	Akha	48	NT-Bisu	ahk	35	AKHA					Is this right srcabbr? (1965-66):A prelim.report on the A. lg,Ó Studia Ph.Via Prof. Nabu?
+238	Akha	Akha	48	PC	ahk	35	AKHA					
+239	Akha	Akha	48	PL-AETD	ahk	35	AKHA	PL-AED	Akha2		12	
+240	Akha	Akha	48	RB-PLB	ahk	35	AKHA					<PL-AED?
+241	Akha	Akha	48	RJL-DPTB	ahk	35	AKHA	PL-AED				
+242	Akha	Akha	48	WSC-SH	ahk	35	AKHA					
+243	Akha (Thai)	Ak1	48	ILH-PL	ahk	35	AKHA	ILH-PL	Akha1		11	
+244	Akha (Yunnan)	Ak2	48	ILH-PL	ahk	35	AKHA	ILH-PL	Akha1		11	
+245	Anal	Anal	8	AW-TBT	anm	36	ANAL					
+246	Anal	Anal	8	JAM-Ety	anm	36	ANAL	OT-KnsI				
+247	Anal	Anal	8	JAM-VSTB	anm	36	ANAL					
+248	Anal	Anal	8	OT-KnsI	anm	36	ANAL	OT-KnsI				
+249	Anal	Anal	8	STC	anm	36	ANAL					
+250	Andro	A	40	GHL-PPB	kdv	37	ANDRO	***				
+251	Andro	Andro	40	STC	kdv	37	ANDRO	***				
+252	Angami (Khonoma)	Angami (Khon)	65	GEM-CNL	njm	38	ANGAMI KHO	MCC1887	Anga1		14	
+253	Angami (Khonoma)	Angami (Khon)	65	BLBC-Khonom	njm	38	ANGAMI KHO	BLBC-Khonom	Anga2		15	
+254	Angami (Kohima)	Angami (Koh)	65	GEM-CNL	njm	38	ANGAMI KOH	GEM-CNL	Anga3		18	<various srcs, see Appendix II p. 331
+255	Angami (Kohima)	Angami (Kohima)	65	RAV1974	njm	38	ANGAMI KOH	RAV1974	Anga4		16	
+256	Angami (Kohima)	Angami (Kohima)	65	VN-AngQ	njm	38	ANGAMI KOH					
+257	Angami Naga	Ang	65	AW-TBT	njm	38	ANGAMI	***				appears to be Kohima dialect
+258	Angami Naga	Angami	65	JAM-Ety	njm	38	ANGAMI	***				
+259	Angami Naga	Angami Naga	65	JAM-GSTC	njm	38	ANGAMI	***				
+260	Angami Naga	Ang Nag	65	JAM-MLBM	njm	38	ANGAMI	***				
+261	Angami Naga	Angami Naga	65	JAM-VSTB	njm	38	ANGAMI	***				
+262	Angami Naga	Angami Naga	65	PC	njm	38	ANGAMI	***				
+263	Angami Naga	Angami Naga	65	RJL-DPTB	njm	38	ANGAMI	***				
+264	Angami Naga	Angami Naga	65	STC	njm	38	ANGAMI	MCC1887				
+265	Angami (Kohima)	Angami Naga	65	MCC1887	njm	38	ANGAMI KOH	MCC1887	Anga1		14	
+266	Anong	Anong (Nungish)	38	RJL-DPTB	nun	220	NUNG					
+267	Anong	Anong	38	SHK-Anong	nun	220	NUNG					= ZMYYC
+268	Anong	Anong	38	WSC-SH	nun	220	NUNG					
+269	Anong	Anong44	38	ZMYYC	nun	220	NUNG	ZMYYC	Nung1		306	
+270	Ao (Chungli)	Ao (Chung)	63	GEM-CNL	njo	41	AO CHONGLI	GEM-Ao, EWC-Ao	AoC1		22	<Mills 1926? see pp. 347-348
+271	Ao (Chungli)	Ao (Chungli)	63	GOW1972	njo	41	AO CHONGLI	GOW1972	AoC2		20	
+272	Ao (Chungli)	Ao Chongli	63	WTF-PNN	njo	41	AO CHONGLI					
+273	Ao (Mongsen: Longchang)	Ao (Mong)	63	GEM-CNL	njo	42	AO MONGSEN L	JPM-Mong	AoM1		23	<Mills 1926? see pp. 347-348; Longchang village variety
+274	Ao (Mongsen: Longchang)	Ao Mongsen	63	WTF-PNN	njo	42	AO MONGSEN L	GEM-CNL				
+275	Ao (Chungli)	Ao	63	AW-TBT	njo	41	AO CHONGLI					This looks like Chungli Ao
+276	Ao (Chungli)	Ao Naga	63	CLA1911	njo	41	AO CHONGLI	CLA1911?				
+277	Ao (Chungli)	Ao Naga	63	JAM-VSTB	njo	41	AO CHONGLI	STC??				
+278	Ao (Chungli)	Ao Naga	63	RJL-DPTB	njo	41	AO CHONGLI	STC				
+279	Ao (Chungli)	Ao	63	STC	njo	41	AO CHONGLI	CLA1911				
+280	Ao (Chungli)	Ao Naga	63	STC	njo	41	AO CHONGLI	CLA1911				
+281	Ao (Chungli)	Ao Naga	63	WSC-SH	njo	41	AO CHONGLI	STC<CLA1911				
+282	Apatani	Apatani	73	ABR1985	apt	44	APATANI	ABR1985	Apat1		25	
+283	Apatani	Ap	73	AW-TBT	apt	44	APATANI	AW-TBT	Apat2		26	trans. normalized
+284	Apatani	Apatani	73	IMS-Apatani	apt	44	APATANI	IMS-Apatani	Apat3		24	
+285	Apatani	Apatani A	73	JS-Tani	apt	44	APATANI	ABR1985	Apat1		25	
+286	Apatani	Apatani S	73	JS-Tani	apt	44	APATANI	IMS-Apatani	Apat3		24	
+287	Apatani	Apatani S	73	JS-HCST	apt	44	APATANI	IMS-Apatani	Apat3		24	
+288	Apatani	Apatani W	73	JS-HCST	apt	44	APATANI	AW-TBT				
+289	Arakanese	Arakanese	44	BER1965	rki	45	ARAKANESE					
+290	Arakanese	AR	44	JO-PB	rki	45	ARAKANESE	JO-PB				
+291	Asho	As	69	AW-TBT	csh	46	ASHO	AW-TBT				
+292	Asho (Sandoway)	Asho (Sandoway)	69	GHL-PPB	csh	46	ASHO	GHL-PPB				
+293	Athpare (Rai)	Ath	31	AW-TBT	aph	241	ATHPARE	AW-TBT?				
+294	Atong	Ato	82	JAM-Ety	aot	47	ATONG	RB-PB	Aton1		28	
+295	Atong	Atong	82	RB-PB	aot	47	ATONG	RB-PB	Aton1		28	
+296	Awa Khumi	Awa Khumi	69	GHL-PPB	cka	143	KHUMI					Luce spells as K'umi
+298	Bahing	Bah	30	AW-TBT	bhj	48	BAHING					
+299	Bahing	Bahing	30	BM-Bah	bhj	48	BAHING	BM-Bah				As BM-PK7.bah
+300	Bahing	Bahing	30	HOD1857	bhj	48	BAHING	HOD1857?				
+301	Bahing	Bh	30	JAM-Ety	bhj	48	BAHING	STC				
+302	Bahing	Bahing	30	JAM-GSTC	bhj	48	BAHING	STC				
+303	Bahing	Bahing	30	JAM-VSTB	bhj	48	BAHING	STC				
+304	Bahing	Bahing	30	RJL-DPTB	bhj	48	BAHING					
+305	Bahing	Bahing	30	STC	bhj	48	BAHING	HOD1857				
+306	Bahing	Bahing	30	WSC-SH	bhj	48	BAHING	STC				
+307	Bahing	bah	30	BM-PK7	bhj	48	BAHING	BM-PK7		Do PI for Edition 2		
+308	Bahing-Rumdali	Bah-Rum	30	AW-TBT	bhj	48	BAH-RUM *					
+309	Bai (Jianchuan)	Bai	51	ZYS-Bai	bca	373	BAI JC	ZYS-Bai	Bai7		37	trans. normalized; Jianchuan Bai
+310	Bai (Bijiang)	BAIbj	51	JZ-Bai	bfc	371	BAI BJ	JZ-Bai	Bai2		30	
+311	Bai (Bijiang)	Bai.Bijiang37	51	ZMYYC	bfc	371	BAI BJ	ZMYYC	Bai1		29	
+312	Bai (Dali)	Bai	51	FD-Bai	bfs	372	BAI DL	FD-Bai	Bai3		31	
+313	Bai (Dali)	BAIdl	51	JZ-Bai	bfs	372	BAI DL	JZ-Bai	Bai4		33	
+314	Bai (Dali)	Bai.Dali35	51	ZMYYC	bfs	372	BAI DL	ZMYYC	Bai4		33	
+315	Bai (Jianchuan)	Bai	51	DQ-Bai	bca	373	BAI JC	DQ-Bai	Bai5		34	by Li Shaoni
+316	Bai (Jianchuan)	BAIjc	51	JZ-Bai	bca	373	BAI JC	JZ-Bai	Bai6		35	
+317	Bai (Jianchuan)	Bai.Jianchuan36	51	ZMYYC	bca	373	BAI JC	ZMYYC	Bai6		35	
+318	Bai	Bai	51	PC		370	BAI					undetermined dialect of Bai
+319	Baima	Baima	22	SHK-BaimaQ	bqh	53	BAIMA	SHK-Baima	Baim1		39	
+320	Banjogi	Banjogi	71	STC	czt	54	BANJOGI *					
+321	Bantawa	Bant	76	AW-TBT	bap	55	BANTAWA	AW-TBT				
+322	Bantawa	Bantawa	76	BM-PTNL	bap	55	BANTAWA	BM-PTNL				
+323	Bantawa	ban	76	BM-PK7	bap	55	BANTAWA	BM-PK7				
+324	Bantawa	banr	76	BM-PK7	bap	55	BANTAWA	NKR-Bant				
+325	Bantawa	Bt	76	JAM-Ety	bap	55	BANTAWA					
+326	Bantawa	Bantawa	76	JAM-VSTB	bap	55	BANTAWA					
+327	Bantawa	Bantawa	76	NKR-Bant	bap	55	BANTAWA	original	Bant1		40	bodypart words
+328	Bantawa	Bantawa	76	WW-Bant	bap	55	BANTAWA					need to extract
+329	Tibetan (Batang)	Batang	24	DQ-Batang	khq	296	TIBETAN (BATANG )	DQ-Batang	TibBt2		396	
+330	Tibetan (Batang)	Batang	24	GJ-Batang	khq	296	TIBETAN (BATANG )	GJ-Batang	TibBt1		393	
+331	Bawm	Bawm	70	LL-PRPL	bgr	56	BAWM					
+332	Bawm	Bawm	70	VS-GBL	bgr	56	BAWM	VS-GBL	Bawm1		42	
+333	Bengni	Bengni S	73	JS-HCST	njz	58	BENGNI	JS-HCST	Beng1		44	JS's original data
+334	Bengni	Bengni S	73	JS-Tani	njz	58	BENGNI	JS-Tani	Beng1		44	JS's original data
+335	Bete	Bete	72	STC	biu	249	BETE *					
+336	Bhote	Bhote	24	AW-TBT		59	BHOTE					"AW-TBT: ""Bhote, dialect of Chepuwa Pyt."""
+337	Baram	Bhramu	20	STC	brd	60	BARAM	LSI?				
+338	Bisu	Bisu	48	DB-PLolo	bzi	61	BISU	NT-Bisu	Bisu1		48	transcription normalized?
+339	Bisu	Bisu	48	JAM-Ety	bzi	61	BISU	NT-Bisu				
+340	Bisu	Bu	48	JAM-GSTC	bzi	61	BISU	NT-Bisu				
+341	Bisu	Bi	48	JAM-TSR	bzi	61	BISU	NT-Bisu	Bisu1		48	
+342	Bisu	Bisu	48	JAM-VSTB	bzi	61	BISU	NT-Bisu				
+343	Bisu	Bisu	48	NT-Bisu	bzi	61	BISU	NT-Bisu	Bisu1		48	
+344	Bisu	Bisu	48	PB-Bisu	bzi	61	BISU	PB-Bisu	Bisu2	transcription normalized in the STEDT db	46	same as PB-MB
+345	Bisu	Bisu	48	RJL-DPTB	bzi	61	BISU					
+346	Bisu	Bisu	48	DB-Bisu	bzi	61	BISU	NT-Bisu	Bisu1		48	transcription normalized
+347	Bisu	Bisu	48	PB-MB	bzi	61	BISU	PB-MB	Bisu2		46	sim to PB-Bisu
+348	Bodo	Bodo	80	ACST	brx	62	BODO	STC				
+349	Bodo	Boro	80	AW-TBT	brx	62	BODO					
+350	Bodo	Boro	80	Bhat-Boro	brx	62	BODO	Bhat-Boro	Bodo1		50	
+351	Bodo	Bodo	80	HOD1847a	brx	62	BODO	HOD1847a?				
+352	Bodo	Bo	80	JAM-Ety	brx	62	BODO	Bhat-Boro, RB-PB	Bodo1	actually also in Bodo3	50	
+353	Bodo	Bo	80	JAM-GSTC	brx	62	BODO	Bhat-Boro, RB-PB	Bodo1	actually also in Bodo3	50	
+354	Bodo	Boro	80	JAM-VSTB	brx	62	BODO	Bhat-Boro, RB-PB				
+355	Bodo	Kachari	80	RB-PB	brx	62	BODO	RB-PB	Bodo3		52	
+356	Bodo	Bodo	80	RJL-DPTB	brx	62	BODO					
+357	Bodo	Bodo	80	SKR1889	brx	62	BODO	SKR1889		don't do		
+358	Bodo	Bodo	80	STC	brx	62	BODO	HOD1847a, SKR1889				
+359	Bodo	Bodo	80	WSC-SH	brx	62	BODO	STC				
+360	Bokar	Bokar OY	73	JS-HCST	adi	63	BOKAR	JZ-Luoba, ZMYYC	Boka1		55	
+361	Bokar	Bokar S	73	JS-HCST	adi	63	BOKAR	JS-HCST				JS's own data
+362	Bokar	Bokar	73	JZ-Luoba	adi	63	BOKAR	JZ-Luoba	Boka1		55	
+363	Bokar	Bokar	73	MEG1990	adi	63	BOKAR	MEG1990	Boka2		54	
+364	Bokar	Bokar	73	OT-KnsI	adi	63	BOKAR					
+365	Bokar	Bokar S	73	JS-Tani	adi	63	BOKAR	JS-Tani				
+366	Bokar Lhoba	LBml	73	SLZO-MLD	adi	63	BOKAR L	SLZO-MLD	Boka1		55	
+367	Bokar Lhoba	Luoba	73	RJL-DPTB	adi	63	BOKAR L					
+368	Bokar Lhoba	Bokar51	73	ZMYYC	adi	63	BOKAR L	ZMYYC	Boka1		55	
+369	Bokar	Bokar M	73	JS-HCST	adi	63	BOKAR	MEG1990	Boka2		54	
+370	Bola	Bola	44	DQ-Bola	bxd	64	BOLA	DQ-Bola	Bola1		57	
+371	Bola	Bola	44	JAM-TSR	bxd	64	BOLA					
+372	Bola	Bola	44	DHFRL	bxd	64	BOLA	DHFRL	Bola1		57	
+373	Bori	Bori	74	MEG1988	adi	347	BORI	MEG1988	Bori1		59	
+374	Bori	Bori M	74	JS-HCST	adi	347	BORI	MEG1988				
+375	Bumthang	Bum	22	AW-TBT	kjz	65	BUMTHANG					
+376	Bunan	Bunan	20	JAM-GSTC	bfu	66	BUNAN					
+377	Bunan	Bunan	20	RJL-DPTB	bfu	66	BUNAN					
+378	Bunan	Bun	20	SBN-BunQ	bfu	66	BUNAN	SBN-BunQ	Buna1		60	
+379	Bunan	Bunan	20	STC	bfu	66	BUNAN					
+380	Bunan	Bunan	20	WSC-SH	bfu	66	BUNAN	STC				
+381	Burmese (Inscriptional)	OB	44	JAM-TIL	obr	69	BURMESE (WRITTEN)	STC/AJ-BED?				
+382	Burmese (Inscriptional)	OB	44	JO-PB	obr	69	BURMESE (WRITTEN)					
+383	Burmese (Modern)	Burmese (Mod)	44	GHL-PPB	mya	67	BURMESE (MODERN)					
+384	Burmese (Modern)	Burmese (Modern)	44	RB-PLB	mya	67	BURMESE (MODERN)	RB-PLB?	Burm2		63	
+385	Burmese (Modern)	Burmese (Modern)	44	DHR-IBWS	mya	67	BURMESE (MODERN)		Burm3		65	
+386	Burmese (Spoken)	Burmese	44	GHL-PPB	mya	67	BURMESE (SPOKEN)					
+387	Burmese (Standard Spoken)	SB	44	JO-PB	mya	67	BURMESE (SPOKEN)					
+388	Burmese (Written)	WB	44	ACST		69	BURMESE (WRITTEN)	STC/AJ-BED?				
+390	Burmese (Written)	Bs	44	AW-TBT		69	BURMESE (WRITTEN)	STC/AJ-BED?				
+391	Burmese (Written)	WB	44	AW-TBT		69	BURMESE (WRITTEN)	STC/AJ-BED?				
+392	Burmese (Written)	Burmese (Wr)	44	GEM-CNL		69	BURMESE (WRITTEN)					
+393	Burmese (Written)	Burmese (Old)	44	GHL-PPB		69	BURMESE (WRITTEN)					
+394	Burmese (Written)	WB	44	ILH-PL		69	BURMESE (WRITTEN)	STC/AJ-BED?				
+395	Burmese (Written)	WB	44	JAM-DL		69	BURMESE (WRITTEN)					
+396	Burmese (Written)	WB	44	JAM-Ety		69	BURMESE (WRITTEN)	STC/AJ-BED?				
+397	Burmese (Written)	WB	44	JAM-GSTC		69	BURMESE (WRITTEN)	STC/AJ-BED?				
+398	Burmese (Written)	WB	44	JAM-II		69	BURMESE (WRITTEN)					
+399	Burmese (Written)	WB	44	JAM-MLBM		69	BURMESE (WRITTEN)	STC/AJ-BED?				
+400	Burmese (Written)	WB	44	JAM-TIL		69	BURMESE (WRITTEN)	STC/AJ-BED?				
+401	Burmese (Written)	WB	44	JAM-TJLB		69	BURMESE (WRITTEN)	STC/AJ-BED?				
+402	Burmese (Written)	WB	44	JAM-TSR		69	BURMESE (WRITTEN)	STC/AJ-BED?				
+403	Burmese (Written)	WB	44	JAM-VSTB		69	BURMESE (WRITTEN)	STC/AJ-BED?				
+404	Burmese (Written)	WB	44	JO-PB		69	BURMESE (WRITTEN)					
+405	Burmese (Written)	Burmese (Written)	44	PC		69	BURMESE (WRITTEN)					
+406	Burmese (Written)	WB	44	PKB-WBRD		69	BURMESE (WRITTEN)	AJ-BED	Burm1		61	Perhaps a note saying AJ-BED also source of numerous other srcs?
+407	Burmese (Written)	B	44	RJL-DPTB		69	BURMESE (WRITTEN)	STC or PKB-WBRD				
+408	Burmese (Written)	WB	44	RJL-DPTB		69	BURMESE (WRITTEN)					
+409	Burmese (Written)	B	44	STC		69	BURMESE (WRITTEN)					
+410	Burmese (Written)	B	44	WSC-SH		69	BURMESE (WRITTEN)	STC				
+411	Burmese (Written)	WB39	44	ZMYYC		69	BURMESE (WRITTEN)					
+412	Bwe	Bw	50	AW-TBT	bwe	70	BWE	AW-TBT	Kare2		159	"""Chitabu dialect"" (p.334)"
+413	Bwe	Bwe	50	EJAH-BKD	bwe	70	BWE	EJAH-BKD	Kare1		158	
+414	Bwe (Western)	W.Bw	50	AW-TBT	bwe	70	BWE					from Henderson 1979
+415	Bwe (Western)	W. Bwe	50	GHL-PPB	bwe	70	BWE					
+416	Byangsi	Byangsi	20	ACST	bee	71	BYANGSI					
+417	Byangsi	Byangsi	20	STC	bee	71	BYANGSI					
+418	Hani (Caiyuan)	Hani.Caiyuan30	48	ZMYYC	hni	111	HANI (BIYUE)	ZMYYC	Hani2		130	云南省墨江县菜园碧约话
+419	Chairel	C	40	GHL-PPB		72	CHAIREL					
+420	Chairel	Chairel	40	STC		72	CHAIREL					
+421	Chokri	Chak	65	AW-TBT	nri	87	CHOKRI	AW-TBT				"AW-TBT: ""Chakrü"""
+422	Chamba Lahuli	Chamba Lahuli	24	STC	lae	227	LAHULI C					
+423	Chamling	Cham	76	AW-TBT	rab	73	CHAMLING	AW-TBT				
+424	Chamling	cha	76	BM-PK7	rab	73	CHAMLING					<KE-Cham(2)?
+425	Chamling	Cham	76	WW-Cham	rab	73	CHAMLING	WW-Cham	Cham1		73	bodypart items
+426	Chamling	Chamling	76	WW-Cham	rab	73	CHAMLING	WW-Cham	Cham1		73	animal items
+427	Chang	Ch Naga	85	ACST	nbc	74	CHANG					
+428	Chang	Chang	85	AW-TBT	nbc	74	CHANG	AW-TBT				
+429	Chang	Chang	85	GEM-CNL	nbc	74	CHANG	HUT1929	Chng1		74	<HUT1929
+430	Chang	Chang	85	HUT1929	nbc	74	CHANG	HUT1929?	Chng1		74	
+431	Chang	Chang	85	JAM-GSTC	nbc	74	CHANG	WTF-PNN, GEM-CNL		no Srcofsrc info		
+432	Chang	Chang	85	RJL-DPTB	nbc	74	CHANG					merge with lgid 433
+433	Chang	Chang (Konyak)	85	RJL-DPTB	nbc	74	CHANG					
+434	Chang	Chang	85	STC	nbc	74	CHANG	HUT1929		no Srcofsrc info		
+435	Chang	Ch	85	WTF-PNN	nbc	74	CHANG	GEM-CNL	Chng1		74	
+436	Chantyal	ChanQ	23	NPB-ChanQ	chx	75	CHANTYAL	NPB-ChanQ	Chtl1		75	
+437	Chaudangsi	Chaudangsi	20	STC	cdn	339	CHAUDANGSI					
+438	Chawte	Chawte	8	STC	nct	348	CHAWTE					
+439	Chepang	Ch	28	ACST	cdm	76	CHEPANG	STC				
+440	Chepang	Chepang	28	ACST	cdm	76	CHEPANG	STC				
+441	Chepang	Ch	28	AH-CSDPN	cdm	76	CHEPANG		Chep1	trans. normalized;  <Bhobikan Chepang, Ross and Kathleen Caughley	78	trans. normalized
+442	Chepang	Chep	28	AW-TBT	cdm	76	CHEPANG	AW-TBT				
+443	Chepang	che	28	BM-PK7	cdm	76	CHEPANG	BM-PK7?				
+444	Chepang	Chepang	28	HOD1848	cdm	76	CHEPANG	HOD1848?				
+445	Chepang	Cp	28	JAM-Ety	cdm	76	CHEPANG	AH-CSDPN		no Srcofsrc info		
+446	Chepang	Chepang	28	JAM-GSTC	cdm	76	CHEPANG					
+447	Chepang	Chepang	28	JAM-VSTB	cdm	76	CHEPANG	AH-CSDPN		no Srcofsrc info		
+448	Chepang	Chepang	28	RJL-DPTB	cdm	76	CHEPANG	JAM/AH-CSDPN?				
+449	Chepang	Chep	28	SIL-Chep	cdm	76	CHEPANG	SIL-Chep	Chep2	trans. normalized	76	trans. normalized
+450	Chepang	Chepang	28	STC	cdm	76	CHEPANG	HOD1848				
+451	Chepang	Chepang	28	WSC-SH	cdm	76	CHEPANG	STC				
+452	Chepang (Eastern)	Chep	28	RC-ChepQ	cdm	76	CHEPANG E	RC-ChepQ	Chep2		76	
+453	Lai (Hakha)	Chin Haka (=Lai)	70	GHL-PPB	cnh	156	LAI					
+454	Chinbok	Chinbok	8	ACST	mwq	77	CHINBOK					
+455	Chinbok	Chinbok	8	JAM-Ety	mwq	77	CHINBOK	OT-KnsI				
+456	Chinbok	Chinbok	8	JAM-VSTB	mwq	77	CHINBOK					
+457	Chinbok	Chinbok	8	OT-KnsI	mwq	77	CHINBOK	OT-KnsI?				
+458	Chinbok	Chinbok	8	STC	mwq	77	CHINBOK					
+459	Chinese (Mandarin)	Chinese	55	JAM-II	cmn	80	CHINESE (MANDARIN)					
+460	Chinese (Old/Mid)	Chinese	53	STC	och	82	CHINESE					appears to be OC/MC reconstructions
+461	Chinese (Middle)	MC	54	ACST		81	CHINESE (MIDDLE)	GSR				
+462	Chinese (Middle)	MC	54	WHB-OC		81	CHINESE (MIDDLE)	WHB-OC				
+463	Chinese (Middle)	Mid Chin	54	BK-AD		81	CHINESE (MIDDLE)					
+464	Garo	Garo	81	RB-GG	grt	104	GARO		Garo1		106	
+465	Chinese (Middle)	MC	54	JAM-Ety		81	CHINESE (MIDDLE)	GSR				
+466	Chinese (Middle)	MC	54	JAM-TIL		81	CHINESE (MIDDLE)					
+467	Chinese (Middle)	MC	54	RJL-DPTB		81	CHINESE (MIDDLE)	GSR				
+468	Chinese (Middle)	MC	54	WSC-SH		81	CHINESE (MIDDLE)					
+469	Chinese (Old)	OC	53	ACST	och	78	CHINESE (OLD)	GSR				
+470	Chinese (Old)	Chs	53	AW-TBT	och	78	CHINESE (OLD)	GSR				
+471	Chinese (Old)	OC	53	WHB-OC	och	78	CHINESE (OLD)	WHB-OC				
+472	Chinese (Old)	Archaic Chinese	53	GHL-PPB	och	78	CHINESE (OLD)					
+473	Chinese (Old)	OC	53	JAM-Ety	och	78	CHINESE (OLD)	GSR				
+474	Chinese (Old)	Chinese	53	JAM-GSTC	och	78	CHINESE (OLD)	GSR				
+475	Chinese (Old)	AC	53	JAM-TIL	och	78	CHINESE (OLD)	GSR				
+476	Chinese (Old)	AC	53	JAM-VSTB	och	78	CHINESE (OLD)					
+477	Chinese (Old)	Old Chinese	53	LI1980	och	78	CHINESE (OLD)	LI1980				
+478	Chinese (Old)	OC	53	WSC-SH	och	78	CHINESE (OLD)	LI1980				
+479	Chinese (Old)	OC	53	PC	och	78	CHINESE (OLD)					
+480	Chinese (Old/Mid)	Chinese	53	ACST	och	82	CHINESE					
+481	Chinese (Old/Mid)	OC/MC	53	GSR	och	82	CHINESE					
+482	Chinese (Old/Mid)	AC	53	RJL-DPTB	och	82	CHINESE	GSR				
+483	Chhintang	Chingtang	31	ACST	ctn	85	CHHINTANG					
+484	Chhintang	Chingtang	31	STC	ctn	85	CHHINTANG					
+485	Chiru	Chiru	72	AW-TBT	cdf	86	CHIRU	AW-TBT??				
+486	Chokri	Chokri	65	GEM-CNL	nri	87	CHOKRI	GEM-Chok	Chok1		80	
+487	Chokri	Chokri	65	VN-ChkQ	nri	87	CHOKRI	VN-ChkQ	Chok2		79	
+488	Chourasya	Chourasya	18	WSC-SH	wme	88	CHOURASYA					
+489	Chourasya	Chou	18	AW-TBT	wme	88	CHOURASYA					"AW-TBT has ""Chourase"""
+490	Chourasya	Ch	18	JAM-Ety	wme	88	CHOURASYA					
+491	Chukwa	Chukwa	31	AW-TBT	cuw	349	CHUKWA					
+492	*Common Lahu	(C)L	47	DB-PLolo		151	LAHU					
+495	Nishi [Dafla]	Dafla	73	AW-TBT	njz	215	NISHI					
+496	Nishi [Dafla]	Dafla	73	RJL-DPTB	njz	215	NISHI					
+497	Nishi [Dafla]	Dafla	73	STC	njz	215	NISHI					
+498	Damu	Damu OY	74	JS-Tani	adi	89	DAMU	JZ-Luoba, Ouyang PC	Damu1		86	
+499	Damu	Damu	74	OT-KnsI	adi	89	DAMU					
+500	Damu	Damu OY	74	JS-HCST	adi	89	DAMU	JZ-Luoba, Ouyang PC	Damu1		86	
+501	Danaw (Mon-Khmer)	Danaw	57	GHL-PPB	dnu	318	DANAW					
+502	Danu	Danu	44	GHL-PPB	mya	90	DANU					
+503	Darang [Taraon]	Tar	6	JAM-Ety	mhu	91	DARANG	NEFA-DTL				
+504	Darang [Taraon]	Taraon	6	JAM-VSTB	mhu	91	DARANG	NEFA-DTL				
+505	Darang [Taraon]	DGdr	6	SLZO-MLD	mhu	91	DARANG	SLZO-MLD	Dara1		88	
+506	Darang [Taraon]	Taraon	6	NEFA-DTL	mhu	91	DARANG	NEFA-DTL				
+507	Darang [Taraon]	DRD	6	RJL-DPTB	mhu	91	DARANG	SLZO-MLD				
+508	Darang [Taraon]	Taraon	6	JFN-DMT	mhu	91	DARANG	JFN-DMT				
+509	Darang [Taraon]	Darang49	6	ZMYYC	mhu	91	DARANG	ZMYYC	Dara1		88	
+510	Hani (Dazhai)	Hani.Dazhai31	48	ZMYYC	hni	111	HANI		Hani6		125	云南省绿春县大寨话
+513	Deori/Deuri	Deuri	83	Deuri	der	93	DEORI					Source? Jacquesson?
+514	Deori/Deuri	Deuri	83	WBB-Deuri	der	93	DEORI	WBB-Deuri?	Deur1		90	
+515	Dhimal	Dhimal	60	ACST	dhi	94	DHIMAL					
+516	Dhimal	Dhimal	60	AW-TBT	dhi	94	DHIMAL	AW-TBT				
+517	Dhimal	Dhimal	60	HOD1847a	dhi	94	DHIMAL	HOD1847a?				
+518	Dhimal	Dhimal	60	JAM-Ety	dhi	94	DHIMAL					
+519	Dhimal	Dhimal	60	JK-Dh	dhi	94	DHIMAL	JK-Dh	Dhim1		92	
+520	Dhimal	Dhimal	60	RJL-DPTB	dhi	94	DHIMAL	JAM/STC?				
+521	Dhimal	Dhimal	60	STC	dhi	94	DHIMAL	HOD1947a				
+522	Dhimal	Dhimal	60	WSC-SH	dhi	94	DHIMAL					
+523	Digaro	Digaro	6	ACST	mhu	95	DIGARO					
+524	Digaro	Digaro	6	JAM-Ety	mhu	95	DIGARO	NEFA-DTL				
+525	Digaro	Digaro	6	JAM-GSTC	mhu	95	DIGARO					
+526	Digaro	Digaro	6	RJL-DPTB	mhu	95	DIGARO					
+527	Digaro	Digaro	6	STC	mhu	95	DIGARO	JFN-DMT				
+528	Digaro	Digaro	6	WSC-SH	mhu	95	DIGARO	STC				
+529	Dimasa	Dimasa	80	ACST	dis	96	DIMASA	STC				
+530	Dimasa	Dimasa (=Kachari)	80	DUN1908	dis	96	DIMASA	DUN1908?				
+531	Dimasa	Dimasa	80	GEM-CNL	dis	96	DIMASA					no PI in GEM-CNL
+532	Dimasa	Dimasa	80	JAM-GSTC	dis	96	DIMASA	STC				
+533	Dimasa	Dimasa	80	RJL-DPTB	dis	96	DIMASA	JAM/STC				
+534	Dimasa	Dimasa	80	STC	dis	96	DIMASA	DUN1908				
+535	Dimasa	Dimasa	80	WSC-SH	dis	96	DIMASA	STC				
+537	Trung [Dulong]	Dulong46	38	ZMYYC	duu	310	TRUNG		Trun1		415	
+538	Trung [Dulong] (Dulonghe)	DLdh	38	JZ-Dulong	duu	311	TRUNG D	JZ-Dulong	Trun1		415	
+539	Trung [Dulong] (Dulonghe)	DLa	38	RJL-DPTB	duu	311	TRUNG D	JZ-Dulong				
+540	Trung [Dulong] (Nujiang)	DLnj	38	JZ-Dulong	duu	312	TRUNG N	JZ-Dulong	Trun2		417	
+541	Trung [Dulong] (Nujiang)	DLb	38	RJL-DPTB	duu	312	TRUNG N	JZ-Dulong				
+542	Trung [Dulong]	Dulong	38	JAM-Ety	duu	310	TRUNG	LCP-Trung				
+543	Dumi	Dumi	77	AW-TBT	dus	97	DUMI	AW-TBT				
+544	Dumi	dum	77	BM-PK7	dus	97	DUMI	BM-PK7				
+545	Dumi	Dumi	77	RJL-DPTB	dus	97	DUMI					
+546	Dumi	Dumi	77	STC	dus	97	DUMI					
+547	Dumi	Dumi	77	SVD-Dum	dus	97	DUMI	SVD-Dumi	Dumi1		94	
+548	Dungmali	Dung	29	AW-TBT	raa	98	DUNGMALI	AW-TBT				
+549	Dungmali	Dungmali	29	STC	raa	98	DUNGMALI					
+550	Dzongkha	Dzong	24	AW-TBT	dzo	99	DZONGKHA	AW-TBT				
+551	Dzongkha	Dzongkha	24	MM-Dzong	dzo	99	DZONGKHA		Dzon1		96	
+552	Karen (Eastern Kayah = Red Karen)	EKayah	50	DS-Kayah	eky	130	KAYAH	DS-Kayah	Kare4		161	
+554	Zeme	Empeo	64	RJL-DPTB	nzm	335	ZEME					
+555	Zeme	Empeo	64	SOP1885	nzm	335	ZEME	SOP1885?				
+556	Zeme	Empeo	64	STC	nzm	335	ZEME	SOP1885				
+557	Ergong (Danba)	Ergong14	35	ZMYYC	ero	100	ERGONG	ZMYYC	Ergo2		99	
+558	Ergong (Danba)	ErgongD	35	SHK-ErgDQ	ero	100	ERGONG	SHK-ErgDQ				
+559	Ergong (Daofu)	Daofu	35	DQ-Daofu	ero	100	ERGONG	DQ-Daofu	Ergo1		98	by Ma Erji
+560	Ergong (Northern)	Ergong	35	SHK-ErgNQ	ero	100	ERGONG	SHK-ErgNQ				
+561	Ersu	Ersu18	34	ZMYYC	ers	101	ERSU	ZMYYC	Ersu1		101	
+562	Ersu	Ersu	34	SHK-ErsCQ	ers	205	ERSU	SHK-ErsCQ				
+563	Galo	Gl	73	AW-TBT	adl	102	GALO	AW-TBT?	Gall1		104	
+564	Galo	Gallong	73	KDG-IGL	adl	102	GALO	KDG-IGL	Gall2	trans. normalized	105	trans. normalized
+565	Galo	Gallong DG	73	JS-HCST	adl	102	GALO	KDG-IGL				
+566	Ganan	Ganan	40	GHL-PPB	zkn	103	GANAN					
+567	Garo	Garo	81	ACST	grt	104	GARO	STC				
+568	Garo	Garo	81	AW-TBT	grt	104	GARO	AW-TBT				
+569	Garo	Garo	81	BON1930-31	grt	104	GARO	BON1930-31?				
+570	Garo	Garo	81	CHU1867	grt	104	GARO	CHU1867?				
+571	Garo	G	81	JAM-Ety	grt	104	GARO	RB-PB/STC				
+572	Garo	G	81	JAM-GSTC	grt	104	GARO	RB-PB/STC				
+573	Garo	Garo	81	JAM-TIL	grt	104	GARO					
+574	Garo	Garo	81	JAM-VSTB	grt	104	GARO	RB-PB/STC				
+575	Garo	Garo	81	KEI1873	grt	104	GARO	KEI1873?				
+576	Garo	Garo	81	PHI1904	grt	104	GARO	PHI1904?				
+577	Garo	Garo	81	RB-PB	grt	104	GARO	RB-PB?	Garo1		106	
+578	Garo	G	81	RJL-DPTB	grt	104	GARO	JAM/STC				
+579	Garo	G	81	STC	grt	104	GARO	BON1930-31, etc., see n				BON1930-31, CHU1867, MIS1905,KEI1873
+580	Garo	G	81	WSC-SH	grt	104	GARO	STC				
+581	Garo (Bangladesh)	Garo-Bang	81	RB-GB	grt	104	GARO B					
+582	*Garo dialects	Garo dialects	81	STC		104	*GARO	see notes				BON1930-31, CHU1867, MIS1905,KEI1873
+583	Gasu	Gasu	46	WZL-Gasu	ykt	350	GASU	WZL-Gasu	Gasu1		108	
+584	Gazhuo	Gazhuo	46	DQ-Gazhuo	kaf	105	GAZHUO	DQ-Gazhuo	Gazh1		110	by Dai Qingxia
+585	Gazhuo	Gazhuo	46	DLF-Gazhuo	kaf	105	GAZHUO		Gazh1		110	
+586	Gazhuo	Gazhuo	46	DHFRL	kaf	105	GAZHUO		Gazh1		110	
+587	Geba	Geba	50	AW-TBT	kvq	106	GEBA					
+588	Geba	Geba	50	GHL-PPB	kvq	106	GEBA					
+589	Kaman [Miju]	Kaman Mishmi	6	JAM-GSTC	mxj	107	GEMAN	STC?				
+590	Kaman [Miju]	DGgm	6	SLZO-MLD	mxj	107	GEMAN	SLZO	Gema1		112	
+591	Kaman [Miju]	GMD	6	RJL-DPTB	mxj	107	GEMAN	SLZO-MLD				
+592	Kaman [Miju]	Geman48	6	ZMYYC	mxj	107	GEMAN	ZMYYC	Gema1		112	
+593	Chinese (GSR #)	GSR	52	GHL-PPB	och	404	CHINESE (OLD/MID)					
+594	Guiqiong	Guiq	34	SHK-GuiqQ	gqi	108	GUIQIONG	SHK-GuiqQ	Guiq1		114	
+595	Guiqiong	Guiqiong17	34	ZMYYC	gqi	108	GUIQIONG	ZMYYC	Guiq1		114	
+596	Gurung	G	23	AH-CSDPN	gvr	109	GURUNG		Guru1	<Deu Bahadur Gurung, Warren and Jessie Glover	116	uses the same informant as Glover (from Ghachok)
+597	Gurung	Gur	23	AW-TBT	gvr	109	GURUNG	AW-TBT				appears to be W. Gurung
+598	Gurung	Gurung	23	JAM-GSTC		109	GURUNG	STC				
+599	Gurung	Gurung	23	JAM-VSTB	gvr	109	GURUNG	AH-CSDPN				
+600	Gurung	gha	23	MM-Thesis	gvr	109	GURUNG	Glover1977, SIL-Gur	Guru2	based on GLO 1977 but reanalysis of the data and different transcription system	117	Glover 1977 =Ghachok =Western Gurung
+601	Gurung	Gurung	23	STC		109	GURUNG	unknown				
+602	Gurung (Ghachok)	Gu	23	JAM-Ety	gvr	109	GURUNG	AH-CSDPN	Guru1		116	
+603	Gurung (Ghachok)	gha	23	MM-K78	gvr	109	GURUNG	MM-K78	Guru2		117	
+604	Gurung (Ghachok)	Gur	23	SIL-Gur	gvr	109	GURUNG		Guru1		116	=Glover 1977
+605	rGyalrong	Gyarung	78	ACST	jya	110	GYARONG					
+606	rGyalrong	Jiarong	78	DQ-Jiarong	jya	110	GYARONG	DQ-Jiarong				
+607	rGyalrong	Gyarong	78	EDG1932	jya	110	GYARONG	EDG1932?				
+608	rGyalrong	Gyarong	78	JAM-GSTC	jya	110	GYARONG	YN-HSJVS				
+609	rGyalrong	Jyarung	78	JAM-VSTB	jya	110	GYARONG	YN-HSJVS				
+610	rGyalrong	Gyarung	78	RJL-DPTB	jya	110	GYARONG	JAM/STC				
+611	rGyalrong	Gyarung	78	STC	jya	110	GYARONG	CK-pGd,EDG1932,WOL1966				
+612	rGyalrong	Gyarong	78	WOL1966	jya	110	GYARONG	WOL1966?				
+613	rGyalrong	Gyarung	78	WSC-SH	jya	110	GYARONG	STC				
+614	rGyalrong	Gyarong	78	YN-HSJVS	jya	110	GYARONG	YN-HSJVS	Gyar1		122	
+615	rGyalrong	Jiarong	78	LXR-Jiarong	jya	110	GYARONG	LXR-Jiarong	Gyar3		120	
+616	rGyalrong (Eastern)	rGyaE	78	SHK-rGEQ	jya	110	GYARONG	SHK-rGEQ				
+617	rGyalrong (Northern)	rGyaN	78	SHK-rGNQ	jya	110	GYARONG	SHK-rGNQ				
+618	rGyalrong (NW)	rGyaNW	78	SHK-rGNWQ	jya	110	GYARONG	SHK-rGNWQ				
+620	Lai (Hakha)	Haka (Lai)	70	GHL-PPB	cnh	156	LAI					
+621	Lai (Hakha)	Haka (=Lai)	70	STC	cnh	156	LAI					
+622	Hani	Hani	48	DQ-Hani	hni	111	HANI	DQ-Hani	Hani6		125	by Dai Qingxia
+623	Hani	Hani	48	HU-Hani	hni	111	HANI	HU-Hani				
+624	Hani	Hani	48	JAM-Ety	hni	111	HANI	GAO1952				
+625	Hani	Hani	48	JAM-GSTC	hni	111	HANI					
+626	Hani	Hani	48	GAO1952	hni	111	HANI	GAO1952				
+627	Hani	Hani	48	PC	hni	111	HANI					
+628	Hani (Caiyuan)	HNcy	48	JZ-Hani	hni	111	HANI (BIYUE)	JZ-Hani	Hani2		130	
+629	Hani (Dazhai)	HNdz	48	JZ-Hani	hni	111	HANI	JZ-Hani	Hani6		125	
+630	Hani (Gelanghe)	HNgl	48	JZ-Hani	hni	111	HANI (GELANGHE)	JZ-Hani				
+631	Hani (Hu T’an)	Ha [HT]	48	JAM-TSR	hni	111	HANI	HU-Hani				
+632	Hani (Kao Hua-Nien)	Ha [K]	48	JAM-TSR	hni	111	HANI	GAO1952				
+633	Hani (Lüchun)	HaL	48	ILH-PL	enu	113	HANI	ILH-PL	Hani3		126	
+634	Hani (Shuikui)	HNsk	48	JZ-Hani	hni	111	HANI (HAONI)	JZ-Hani	Hani4		129	
+635	Hani (Wordlist)	HaW	48	ILH-PL	hni	111	HANI (HAONI)	ILH-PCAH				
+637	Hani (Haoni)	Haoni	48	DQ-Haoni	how	114	HANI (HAONI)	DQ-Haoni	Hani4		129	
+638	Haoni	Hao	48	ILH-PL	how	114	HANI (HAONI)	ILH-PL				
+639	Hayu	Vayu	30	ACST	vay	116	HAYU					
+640	Hayu	Hayu	30	AW-TBT	vay	116	HAYU					
+641	Hayu	Hayu	30	BM-Hay	vay	116	HAYU	BM-Hay	Hayu1		134	trans. normalized
+642	Hayu	Hayu	30	BM-LH	vay	116	HAYU	BM-LH	Hayu1		134	
+643	Hayu	hay	30	BM-PK7	vay	116	HAYU	BM-PK7	Hayu1		134	trans. normalized
+644	Hayu	Hy	30	JAM-Ety	vay	116	HAYU	BM	Hayu1		134	
+645	Hayu	Vayu	30	JAM-GSTC	vay	116	HAYU	BM				
+646	Hayu	Hayu	30	JAM-VSTB	vay	116	HAYU	BM				
+647	Hayu	Vayu	30	RJL-DPTB	vay	116	HAYU	JAM/STC?				
+648	Hayu	Vayu	30	STC	vay	116	HAYU	HOD1857, LSI				
+649	Hayu	Vayu	30	WSC-SH	vay	116	HAYU					
+650	Horpa	Horpa	35	STC	ero	100	ERGONG					
+651	Dhimal	Dhimal	60	JK-Dhimal	dhi	94	DHIMAL	Luce	Dhim1		92	
+652	Hpun (Metjo)	Hpun (Metjo)	44	GHL-PPB	hpo	118	HPUN					
+653	Hpun (Northern)	NHpun	44	EJAH-Hpun	hpo	118	HPUN	Luce	Hpun1		136	Luce's data
+654	Hpun	Hpun	44	JAM-TSR	hpo	118	HPUN					
+655	Aka [Hruso]	Aka	4	RJL-DPTB	hru	34	AKA	STC?				JS-HCST:13 says Hruso is not Tani
+657	Aka [Hruso]	Aka	4	STC	hru	34	AKA	SHA1947				JS-HCST:13 says Hruso is not Tani
+658	Hwalngau	Hwalngau	70	GHL-PPB	lus	175	HWALNGAU					
+659	Idu	LBidu	6	JP-Idu	clk	120	IDU	JP-Idu	Idu1		139	identical to NEFA-PBI
+660	Idu	PBI	6	NEFA-PBI	clk	120	IDU	NEFA-PBI?	Idu1		139	identical to JP-Idu
+661	Idu	Idu	6	SHK-Idu	clk	120	IDU	SHK-Idu				
+662	Idu	Idu50	6	ZMYYC	clk	120	IDU	ZMYYC	Idu2		140	
+663	Intha	IT	44	JO-PB	int	121	INTHA					
+664	Jili	Jili	37	RJL-DPTB	kac	122	JILI					extinct (dial. of Jingpho)
+665	Jili	Jili	37	STC	kac	122	JILI					
+666	Jingpho	Jg	37	ACST	kac	123	JINGPHO	STC				
+667	Jingpho	Jg	37	AW-TBT	kac	123	JINGPHO					not original
+668	Jingpho	Jingpho	37	DQ-Jingpho	kac	123	JINGPHO	JCD	Jing1		143	
+669	Jingpho	Kachin	37	GEM-CNL	kac	123	JINGPHO			No Jingpho PI in GEM		
+670	Jingpho	Jingpho	37	ILH-PL	kac	123	JINGPHO					
+671	Jingpho	Jg	37	JAM-Ety	kac	123	JINGPHO	OH-DKL	Jing3		144	
+672	Jingpho	Jg	37	JAM-GSTC	kac	123	JINGPHO	OH-DKL	Jing3		144	
+673	Jingpho	Jg	37	JAM-II	kac	123	JINGPHO					
+674	Jingpho	Jg	37	JAM-MLBM	kac	123	JINGPHO	OH-DKL				
+675	Jingpho	Jingpho	37	JAM-TIL	kac	123	JINGPHO	OH-DKL				
+676	Jingpho	Jg	37	JAM-TJLB	kac	123	JINGPHO	OH-DKL	Jing3		144	
+677	Jingpho	Jg	37	JAM-TSR	kac	123	JINGPHO					
+678	Jingpho	Jinghpaw	37	JAM-VSTB	kac	123	JINGPHO	OH-DKL				
+679	Jingpho	JPek	37	JZ-Jingpo	kac	123	JINGPHO	JZ-Jingpo	Jing4		146	
+680	Jingpho	Jingpho	37	JAM-MAR	kac	123	JINGPHO					Revised & added to Hanson, w/tone marks
+681	Jingpho	Jinghpo	37	OH-DKL	kac	123	JINGPHO	OH-DKL?	Jing3		144	
+682	Jingpho	Jinghpo	37	PC	kac	123	JINGPHO					
+683	Jingpho	JP	37	RJL-DPTB	kac	123	JINGPHO	JZ-Jingpo?				"""Enkun Jingpho"""
+684	Jingpho	K	37	RJL-DPTB	kac	123	JINGPHO	STC				
+685	Jingpho	K	37	STC	kac	123	JINGPHO	OH-DKL				
+686	Jingpho	Kachin	37	STC	kac	123	JINGPHO	OH-DKL				
+687	Jingpho	K	37	WSC-SH	kac	123	JINGPHO	STC				
+689	Jingpho	Jg	37	WTF-PNN	kac	123	JINGPHO					
+690	Jingpho	Jingpo47	37	ZMYYC	kac	123	JINGPHO	ZMYYC				
+691	Jingpho (Assam)	K (Assam dial.)	37	RJL-DPTB	kac	123	JINGPHO A					
+692	Jingpho (Hkauri)	Hkauri-LM	37	JAM-TJLB	kac	124	JINGPHO HK					
+693	Jingpho (Hkauri)	JgHk	37	JAM-Ety	kac	124	JINGPHO HK					
+694	Jingpho (Maran)	K (Maran)	37	RJL-DPTB	kac	123	JINGPHO M					
+695	Jinuo	Jino	47	JAM-GSTC	jiu	125	JINUO	JZ-Jinuo?				
+696	Jinuo	Jinuo34	47	ZMYYC	jiu	125	JINUO	ZMYYC	Jinu2		151	
+697	Jinuo (Baka)	JinB	47	DQ-JinB	jiu	125	JINUO	DQ-JinB				
+698	Jinuo (Baya/Banai)	JinA	47	DQ-JinA	jiu	125	JINUO	DQ-JinA				
+699	Jinuo (Buyuan)	JNby	47	JZ-Jinuo	jiy	119	JINUO	JZ-Jinuo	Jinu1		148	
+700	Jinuo (Youle)	JNyl	47	JZ-Jinuo	jiu	125	JINUO	JZ-Jinuo	Jinu3		149	
+701	Tibetan (Jirel)	J	24	AH-CSDPN	jul	298	TIBETAN (JIREL)		TibJ1	<Olak Bahadur Jirel, Esther Strahm, Anita Maibaum	397	
+702	Tibetan (Jirel)	Jir	24	JAM-Ety	jul	298	TIBETAN (JIREL)	AH-CSDPN	TibJ1		397	
+703	Jirel	Jir	24	JAM-GSTC	jul	298	TIBETAN (JIREL)					
+704	Jirel	Jirel	24	JAM-VSTB	jul	298	TIBETAN (JIREL)					
+706	Rongmei / Nruanghmei	Kabui	64	JAM-VSTB	nbu	248	RONGMEI					
+707	Rongmei / Nruanghmei	Kabui	64	STC	nbu	248	RONGMEI					
+708	Rongmei / Nruanghmei	Kabui	64	SIN1986	nbu	248	RONGMEI	SIN1986	Rong1		341	PRS?
+709	Dimasa	Dimasa	80	JAM-Ety	dis	96	DIMASA	STC				
+710	Bodo	Kachari	80	JAM-Ety	brx	62	BODO	STC				
+711	Bodo	Kachari	80	JAM-VSTB	brx	62	BODO					
+713	Bodo	Kachari	80	WIL1869	brx	62	BODO	WIL1869?				
+714	Jingpho	Kachin	37	JAM-Kachin	kac	123	JINGPHO		Jing2			dittoed handout
+715	Kadu	Kadu	40	BRO1920	zkd	126	KADU	BRO1920				
+716	Kadu	Kadu	40	GHL-PPB	zkd	126	KADU					
+717	Kadu	Kadu	40	JAM-Ety	zkd	126	KADU	STC				
+718	Kadu	Kadu	40	RJL-DPTB	zkd	126	KADU	JAM/STC				
+719	Kadu	Kadu	40	STC	zkd	126	KADU	BRO1920				
+720	Kadu (Kantu)	Kadu (Kantu)	40	GHL-PPB	zkd	126	KADU					
+721	Kaike	Ke	22	AH-CSDPN	kzq	127	KAIKE					
+722	Kaike	Kai	22	AW-TBT	kzq	127	KAIKE					
+723	Kaike	kaike	22	BM-PK7	kzq	127	KAIKE	not original?				
+724	Kaike	Kk	22	JAM-Ety	kzq	127	KAIKE	AH-CSDPN				
+725	Kaike	Kaike	22	JAM-VSTB	kzq	127	KAIKE	AH-CSDPN				
+726	Kamarupan	Kmrp	3	JAM-GSTC		1	!KAMARUPAN	***				
+727	Kanashi	Kanashi	20	STC	xns	128	KANASHI					
+728	Kanauri	Kanauri	20	ACST	kfk	129	KANAURI					
+729	Kanauri	Kanauri	20	BAI1909	kfk	129	KANAURI	BAI1909				
+730	Kanauri	Kanauri	20	BAI1911	kfk	129	KANAURI	BAI1911?	Kana2			trans. normalized
+731	Kanauri	Kanauri	20	DS-Kan	kfk	129	KANAURI	DS-Kan?	Kana1		154	
+732	Kanauri	Knr	20	JAM-Ety	kfk	129	KANAURI	STC	Kana2		156	
+733	Kanauri	Knr	20	JAM-GSTC	kfk	129	KANAURI					
+734	Kanauri	Kanauri	20	JAM-VSTB	kfk	129	KANAURI	STC				
+735	Kanauri	Kanauri	20	RJL-DPTB	kfk	129	KANAURI	JAM/STC				
+736	Kanauri	Kanauri	20	STC	kfk	129	KANAURI	BAI1909,BAI1911,JTR-GDK	Kana2		156	
+737	Kanauri	Kanauri	20	WSC-SH	kfk	129	KANAURI	STC				
+738	Kanauri	Kanauri	20	JTR-GDK	kfk	129	KANAURI	JTR-GDK?				
+740	Karen	Karen	50	ACST		11	KAREN	STC				proto-Karen?
+741	Karen	K	50	JAM-Ety		11	KAREN	RBJ-KLS,STC				
+742	Karen	Karen	50	RBJ-KLS		11	KAREN	RBJ-KLS				
+743	Karen	Karen	50	RJL-DPTB		11	KAREN	RBJ-KLS				proto-Karen
+744	Karen (Pho)	Karen (P)	50	JAM-VSTB		228	PWO					which dialect?
+745	Karen (Sgaw)	Karen (Sgaw)	50	JAM-VSTB	ksw	257	SGAW					
+746	Karen (Sgaw/Hinthada)	KarenB	50	DQ-KarenB	ksw	257	SGAW HIN	DQ-KarenB				
+747	Karen (Sgaw/Yue)	KarenA	50	DQ-KarenA	ksw	257	SGAW YUE	DQ-KarenA				
+750	Khezha	Kezhama	65	GEM-CNL	nkh	138	KHEZHA	LSI	Khez1		178	
+751	Kha Li	Kha Li	48	STC		351	KHA LI *					"called ""Southern Lolo"" in STC"
+752	Khaling	Kg	77	AH-CSDPN	klr	131	KHALING		Khal1	<Sapta Man Khaling, Sueyoshi and Ingrid Toba	174	
+753	Khaling	Khal	77	AW-TBT	klr	131	KHALING	AW-TBT?				
+754	Khaling	kg	77	BM-PK7	klr	131	KHALING	BM-PK7				
+755	Khaling	Kg	77	JAM-Ety	klr	131	KHALING	AH-CSDPN				
+756	Khaling	Khaling	77	JAM-VSTB	klr	131	KHALING	AH-CSDPN				
+757	Khaling	Khaling	77	STC	klr	131	KHALING					chk BALALI---why grouped w/Khaling? (Bal=Lohoring)
+758	Balali	Balali	31	STC	raf	293	BALALI	old				
+759	Kham	Kh	28	AH-CSDPN		132	KHAM		Kham1	<Hasta Ram Buhda, David and Nancy Watters	176	
+760	Kham	Kham	28	AW-TBT		132	KHAM					
+761	Kham	kham	28	BM-PK7		132	KHAM					
+762	Kham	Kham	28	DNW-Gloss		132	KHAM	DNW-Gloss	Kham2		175	SIL-Kham=DNW-KhamQ=DNW-Gloss
+763	Kham	Km	28	JAM-Ety		132	KHAM	AH-CSDPN	Kham1		176	
+764	Kham	Km	28	JAM-GSTC		132	KHAM	AH-CSDPN (& DNW?)				
+765	Kham	Kham	28	JAM-VSTB		132	KHAM	AH-CSDPN				
+766	Kham	Kham	28	DNW-KhamQ		132	KHAM	DNW-KhamQ	Kham2		175	data accidentally entered twice--count should be 194. SIL-Kham=DNW-KhamQ=DNW-Gloss
+767	Kham	Kham	28	JAM-Ety		132	KHAM					
+768	Kham	Kham	28	SIL-Kham		132	KHAM	SIL-Kham				SIL-Kham=DNW-KhamQ=DNW-Gloss
+769	Khamba	Khamba	20	AW-TBT	kbg	354	KHAMBA					
+770	Khambu	Khambu	29	STC	kle	149	KHAMBU					
+771	Khambu	Khambu	29	WSC-SH	kle	149	KHAMBU					
+772	Khami	Khami	69	HOU1895	cnk	134	KHAMI					or not use-old??
+773	Khami	Khami	69	JAM-MLBM	cnk	134	KHAMI					
+774	Khami	Khami	69	RJL-DPTB	cnk	134	KHAMI					
+775	Khami	Khami	69	STC	cnk	134	KHAMI	HOU1895				
+776	Khami	Khami	69	WSC-SH	cnk	134	KHAMI					
+777	Khami (Northern)	N. Khami	69	JAM-VSTB	cnk	134	KHAMI (NORTHERN)					
+778	Khami (Northern)	N. Khami	69	RJL-DPTB	cnk	134	KHAMI (NORTHERN)					
+779	Khami (Northern)	N-Khami	69	STC	cnk	134	KHAMI (NORTHERN)					
+780	Khami (Southern)	S. Khami	69	JAM-MLBM	cnk	134	KHAMI (SOUTHERN)					
+781	Khami (Southern)	S. Khami	69	RJL-DPTB	cnk	134	KHAMI (SOUTHERN)					
+782	Khami (Southern)	S. Khami	69	STC	cnk	134	KHAMI (SOUTHERN)	HOU1895				
+783	Kharmile	Khar	29	AW-TBT		137	KHARMILE					
+784	Hani (Khatu)	K	48	ILH-PL	ktp	115	HANI (KHATU)	IHL-PL	Hani5		133	should this group with Hani?
+785	Khezha	Khez	65	AW-TBT	nkh	138	KHEZHA					
+786	Khiamngan	Khi	85	AW-TBT	kix	139	KHIAMNGAN	AW-TBT?				
+787	*Khmer	Khmer	57	JAM-TIL		2	*KHMER					lg has 1 rec, which is a proto-form in src
+788	Khoibu	Khoibu	8	STC	nkb	140	KHOIBU					
+789	Khoibu	Khoi-bu	8	WSC-SH	nkb	140	KHOIBU					
+790	Khoirao	Khoirao	64	GEM-CNL	nki	141	KHOIRAO	LSI	Khoi1		181	
+791	Khoirao	Khoirao	64	STC	nki	141	KHOIRAO					
+792	Khualsim	Khualsim	70	GHL-PPB	cfm	158	KHUALSIM					
+793	Khumi	Khumi	69	JAM-Ety	cnk	134	KHUMI	OT-KnsI				
+794	Khumi	Khumi	69	OT-KnsI	cnk	134	KHUMI	OT-KnsI				
+795	Khumi	Khumi	69	STI1866	cnk	134	KHUMI	STI1866?				
+796	Khezha	Khozha	65	SY-KhozhaQ	nkh	138	KHEZHA	SY-KhzhaQ	Khez2		179	
+797	*Kiranti	Kiranti	29	JAM-GSTC		144	*KIRANTI					
+798	*Kiranti	Kiranti	29	RJL-DPTB		144	*KIRANTI					proto-Kiranti
+799	*Kiranti	Kiranti	29	STC		144	*KIRANTI					
+800	Koch	Koch	82	STC	kdq	316	KOCH					
+801	Kokborok	Kokborok	80	JAM-GSTC	trp	145	KOKBOROK					
+802	Kokborok	Kokborok	80	KAR1972	trp	145	KOKBOROK	KAR1972	Kokb1		183	PRS
+803	Kokborok	Kok	80	PT-Kok	trp	145	KOKBOROK	PT-Kok	Kokb2		185	
+804	Kom Rem	Kom	72	AW-TBT	kmm	146	KOM=KOMREM					
+805	Kom Rem	KomRem	72	T-KomRQ	kmm	146	KOM=KOMREM	T-KomRQ	Kom1		188	
+806	Konyak	Kon	85	AW-TBT	nbe	147	KONYAK					Better transcription than GEM.
+807	Konyak	Konyak	85	GEM-CNL	nbe	147	KONYAK	GEM-Kon	Kony1		189	
+808	Konyak	Konyak	85	JAM-GSTC	nbe	147	KONYAK	GEM-CNL				
+809	Konyak	Ky	85	WTF-PNN	nbe	147	KONYAK	GEM-CNL	Kony1		189	
+810	Konyak (Tamlu)	Tam-Kon	85	AW-TBT	nph	231	KONYAK TAM					this may be Phom
+811	Konyak (Tamlu)	Tamlu	85	JAM-VSTB	nph	231	KONYAK TAM					
+812	Konyak (Wakching)	Wak-Kon	85	AW-TBT	nbe	147	KONYAK WAK					
+813	*Kuki	Kuki	8	ACST		148	*KUKI					
+814	*Kuki	Kuki	8	RJL-DPTB		148	*KUKI					
+815	*Kuki	Kuki	8	STC		148	*KUKI					
+816	*Kuki (Southern)	S Kuki	8	ACST		148	*KUKI S					
+817	*Kuki (Western)	W.Kuki	8	RJL-DPTB		148	*KUKI W					
+818	*Kuki (Western)	Western Kuki	8	STC		148	*KUKI W					
+819	*Kuki (Southern)	Kuki (S)	8	STC		148	*KUKI S					
+820	Kulung	Kul	76	AW-TBT	kle	149	KULUNG					
+821	Kulung	kul	76	BM-PK7	kle	149	KULUNG					Is this based on RPHH-Kul?
+822	Kulung	Kulung	76	RPHH-Kul	kle	149	KULUNG		Kulu1		191	
+823	Kurtöp	Kurt	22	AW-TBT	xkz	150	KURTÖP					
+824	Kwoireng	Kwoireng	64	STC	nkd	352	KWOIRENG *					
+825	Kyaw	Kyaw	8	STC	nct	353	KYAW					=Kyau, Chaw, Chote, Chawte
+826	Tibetan (Ladakhi)	Ladakhi	24	KOS1976	lbj	300	TIBETAN (LADAKHI)	KOS1976?	TibLa1		400	PRS
+827	Ladakhi	Ladakhi	24	STC	lbj	300	TIBETAN (LADAKHI)					
+828	Lahuli	Lahauli	24	JDS-Lahauli	lbf	155	LAHULI	JDS-Lahauli?	Lahl1		199	
+829	Lahu	Lahu	47	ACST	lhu	151	LAHU					
+830	Lahu	Lahu	47	AW-TBT	lhu	151	LAHU					
+831	Lahu (Black)	Lahu	47	JAM-DL	lhu	152	LAHU B	JAM-DL	Lahu1		192	
+832	Lahu (Black)	Lh	47	JAM-Ety	lhu	152	LAHU B	JAM-DL	Lahu1		192	
+833	Lahu (Black)	Lh	47	JAM-GSTC	lhu	152	LAHU B	JAM-DL	Lahu1		192	
+834	Lahu (Black)	Lh	47	JAM-II	lhu	152	LAHU B	JAM-DL				
+835	Lahu (Black)	Lh	47	JAM-MLBM	lhu	152	LAHU B	JAM-DL	Lahu1		192	
+836	Lahu	Lh	47	JAM-PC	lhu	151	LAHU	JAM-DL				
+837	Lahu	Lh	47	JAM-TIL	lhu	151	LAHU	JAM-DL				
+838	Lahu (Black)	Lh	47	JAM-TJLB	lhu	152	LAHU B	JAM-DL	Lahu1		192	
+839	Lahu (Black)	Lh	47	JAM-TSR	lhu	152	LAHU B	JAM-DL	Lahu1		192	
+840	Lahu	Lahu	47	JAM-VSTB	lhu	151	LAHU	JAM-DL				
+841	Lahu	Lahu	47	PC	lhu	151	LAHU					
+842	Lahu	Lahu	47	RJL-DPTB	lhu	151	LAHU					
+843	Lahu	Lh	47	RJL-DPTB	lhu	151	LAHU					
+844	Lahu	Lahu	47	STC	lhu	151	LAHU					
+845	Lahu	Lahu	47	WSC-SH	lhu	151	LAHU	JAM				
+846	Lahu (Bakeo)	Bakeo	47	DB-Lahu	lhi	154	LAHU YBAK	DB-Lahu	Lahu3		195	
+847	Lahu (Banlan)	Banlan	47	DB-Lahu	lhi	154	LAHU YBAN	DB-Lahu	Lahu4		197	
+848	Lahu (Black)	Lahu-Na (Kengtung)	47	GHL-PPB	lhu	152	LAHU B					
+849	Lahu (Black)	Black Lh	47	JAM-GSTC	lhu	152	LAHU B	JAM-DL			192	
+850	Lahu (Black)	LHna	47	JZ-Lahu	lhu	152	LAHU B	JZ-Lahu	Lahu2		193	
+851	Lahu (Black)	Lahu33	47	ZMYYC	lhu	152	LAHU B		Lahu2	not good PI source	193	
+852	Lahu (Red)	Lahu (red)	47	JAM-GSTC	lhu	153	LAHU R			no inv. needed--close to Lahu Xi		
+853	Lahu (Yellow)	Lahu (Yellow)	47	JAM-GSTC	lhi	154	LAHU Y					
+854	Lahu (Yellow)	Yellow Lh	47	JAM-GSTC	lhi	154	LAHU Y					
+855	Lahu (Yellow)	Yellow Lh	47	JAM-TJLB	lhi	154	LAHU Y					
+856	Lahu (Yellow)	LHxi	47	JZ-Lahu	lhi	154	LAHU Y	JZ-Lahu				
+857	Lahu (Yellow)	Yellow Lahu	47	STC	lhi	154	LAHU Y					
+858	Lahuli	Lahuli	24	ROE1933	lbf	155	LAHULI					
+859	Lahuli	Lahuli	24	STC	lbf	155	LAHULI	ROE1933?				
+860	Lai (Hakha)	Lai	70	JAM-Ety	cnh	156	LAI	OT-KnsI??				Lai or Laizo?
+861	Lai (Hakha)	Lai	70	KVB-Lai	cnh	156	LAI					
+862	Lailenpi	Lailenpi	71	GHL-PPB	mrh	159	LAILENPI					Mara Chin (KVB-PKC:55)
+863	Laizo	Laizo	70	JAM-Ety	cfm	158	LAIZO	OT-KnsI				
+864	Laizo	Laizo	70	JAM-GSTC	cfm	158	LAIZO	OT-KnsI				
+865	Laizo	Bawm (=Laizo)	70	AO-diss	bgr	158	LAIZO	AO-diss	Laiz1		200	
+866	Laizo	Lai/Laizo	70	OT-KnsI	cfm	158	LAIZO	OT-KnsI				Lai­Laizo--check!!
+867	Laizo	Laizo	70	RJL-DPTB	cfm	158	LAIZO	JAM ??				
+868	Laizo	Laiyo	70	STC	cfm	158	LAIZO					
+869	Laizo	Zo	70	STE-Zo	cfm	158	LAIZO	STE-Zo				
+870	Lakher [Mara]	Lak	71	AW-TBT	mrh	159	LAKHER					
+871	Lakher [Mara]	Lk	71	JAM-Ety	mrh	159	LAKHER	SAV1908				
+872	Lakher [Mara]	Lk	71	JAM-GSTC	mrh	159	LAKHER	SAV1908				
+873	Lakher [Mara]	Lakher	71	JAM-VSTB	mrh	159	LAKHER	SAV1908				
+874	Lakher [Mara]	Lakher	71	LL-PRPL	mrh	159	LAKHER					
+875	Lakher [Mara]	Lakher	71	RAL-GDL	mrh	159	LAKHER	RAL-GDL	Lakh1		202	
+876	Lakher [Mara]	Lakher	71	RJL-DPTB	mrh	159	LAKHER	JAM ??				
+877	Lakher [Mara]	Lakher	71	STC	mrh	159	LAKHER	SAV1908				
+878	Lalo	Lalo	46	CK-YiQ	ywt	160	LALO	CK-YiQ	Lalo1		203	CK-YiQ=CK-CS
+879	Lalo	Lalo	46	SB-Lalo	ywt	160	LALO	SB-Lalo	Lalo2		204	
+880	Lalung [Tiwa]	Lalung	80	MB-Lal	lax	344	LALUNG	MB-Lal	Lalu1		206	
+881	Lambichong	Lambichong	29	RJL-DPTB	lmh	161	LAMBICHONG					
+882	Lambichong	Lambichong	29	STC	lmh	161	LAMBICHONG					
+883	Lamkang	Lam	72	AW-TBT	lmk	162	LAMKANG					
+884	Lamkang	Lamgang	72	STC	lmk	162	LAMKANG					
+886	Lashi	Lashi	44	DQ-Lashi	lsi	163	LASHI	DQ-Lashi	Lash2		207	by Xu Xijian
+887	Lashi	Lashi	44	RJL-DPTB	lsi	163	LASHI					
+888	Lashi	Lashi	44	STC	lsi	163	LASHI					
+889	Lashi (Lachhe')	Lashi (Lachhe')	44	GHL-PPB	lsi	163	LASHI					
+890	Lente	Lente	70	STE-Lente	cfm	158	LENTE	STE-Lente?				
+891	Lepcha	Lepcha	21	ACST	lep	164	LEPCHA					
+892	Lepcha	Lep	21	AW-TBT	lep	164	LEPCHA					
+893	Lepcha	Lepcha	21	GBM-Lepcha	lep	164	LEPCHA	GBM-Lepcha	Lepc1		209	
+894	Lepcha	Lp	21	JAM-Ety	lep	164	LEPCHA	GBM-Lepcha	Lepc1		209	
+895	Lepcha	Lp	21	JAM-GSTC	lep	164	LEPCHA	GBM-Lepcha				
+896	Lepcha	Lepcha	21	JAM-MLBM	lep	164	LEPCHA	GBM-Lepcha				
+897	Lepcha	Lepcha	21	JAM-VSTB	lep	164	LEPCHA	GBM-Lepcha				
+898	Lepcha	Lepcha	21	PC	lep	164	LEPCHA	GBM-Lepcha				
+899	Lepcha	Lepcha	21	RJL-DPTB	lep	164	LEPCHA	JAM/GBM-Lepcha				
+900	Lepcha	Lepcha	21	STC	lep	164	LEPCHA	GBM-Lepcha				
+901	Lepcha	Lepcha	21	WSC-SH	lep	164	LEPCHA	GBM-Lepcha				
+904	Lipho	Li	46	CK-YiQ	lpo	167	LIPHO	CK-YiQ	Li1		211	
+905	Liangmei	Liam	64	AW-TBT	njn	165	LIANGMEI					
+906	Liangmei	Liangmai	64	GEM-CNL	njn	165	LIANGMEI	GEM-Liang	Lian1		212	
+907	Liangmei	Liangmai	64	JAM-GSTC	njn	165	LIANGMEI	GEM-CNL				
+908	Naxi (Lijiang)	Naxi.Lijiang28	43	ZMYYC	nbf	210	NAXI	ZMYYC	Naxi3		278	
+909	Limbu	Limbu	31	ACST	lif	166	LIMBU					
+910	Limbu	Lim	31	AW-TBT	lif	166	LIMBU	AW-TBT				
+911	Limbu	Limbu	31	BM-Lim	lif	166	LIMBU	BM-Lim				
+912	Limbu	lim	31	BM-PK7	lif	166	LIMBU	BM-PK7				
+913	Limbu	Lb	31	JAM-Ety	lif	166	LIMBU	STC				
+914	Limbu	Limbu	31	JAM-GSTC	lif	166	LIMBU	STC				
+915	Limbu	Limbu	31	JAM-TSR	lif	166	LIMBU	STC				
+916	Limbu	Limbu	31	JAM-VSTB	lif	166	LIMBU	STC				
+917	Limbu	Limbu	31	RJL-DPTB	lif	166	LIMBU	JAM				
+918	Limbu	Limbu	31	STC	lif	166	LIMBU					
+919	Limbu	Limbu	31	SVD-Lim	lif	166	LIMBU	SVD-Lim	Limb1		214	best
+920	Lisu	Lisu	47	ACST	lis	168	LISU	STC				
+921	Lisu	Lisu	47	AW-TBT	lis	168	LISU	AW-TBT?				
+922	Lisu	Lisu	47	Anony1959	lis	168	LISU	Anony1959	Lisu1		217	
+923	Lisu	L	47	DB-PLolo	lis	168	LISU	JF-HLL				
+924	Lisu	Lisu	47	ERH-DSLS	lis	168	LISU		Lisu7		225	
+925	Lisu	Ls	47	JAM-Ety	lis	168	LISU	JF-HLL	Lisu2		221	
+926	Lisu	Lisu	47	JAM-GSTC	lis	168	LISU	JF-HLL,RB-PLB, JUI1948				
+927	Lisu	Ls	47	JAM-GSTC	lis	168	LISU	JF-HLL,RB-PLB, JUI1948				
+928	Lisu	Lisu	47	JAM-MLBM	lis	168	LISU	JF-HLL,RB-PLB, JUI1948				
+929	Lisu	Ls	47	JAM-TIL	lis	168	LISU	JF-HLL,RB-PLB, JUI1948				
+930	Lisu	Li	47	JAM-TSR	lis	168	LISU	Anony1959, RB-PLB, JF-H	Lisu1	should also be associated with Lisu2 and Lisu3	217	based on Anony1959, RB-PLB, JF-HLL, JUI1948
+931	Lisu	Li (Nu-C)	47	JAM-TSR	lis	168	LISU					
+932	Lisu	Li [F]	47	JAM-TSR	lis	168	LISU	JF-HLL				
+933	Lisu	Li [J]	47	JAM-TSR	lis	168	LISU	JUI1948				
+934	Lisu	Li [Nu-chiang]	47	JAM-TSR	lis	168	LISU					
+935	Lisu	Li [R]	47	JAM-TSR	lis	168	LISU					
+936	Lisu	Lisu	47	JAM-VSTB	lis	168	LISU	JF-HLL,RB-PLB,JUI1948				
+937	Lisu	Lisu	47	JUI1948	lis	168	LISU	JUI1948				
+938	Lisu	Lisu	47	RB-PLB	lis	168	LISU	RB-PLB	Lisu3		223	
+939	Lisu	Lisu	47	RJL-DPTB	lis	168	LISU	JAM				
+940	Lisu	Lisu	47	STC	lis	168	LISU	JF-HLL				
+941	Lisu	Lisu	47	WSC-SH	lis	168	LISU					
+942	Lisu	Lisu27	47	ZMYYC	lis	168	LISU	ZMYYC	Lisu6		219	
+943	Lisu (Central)	Lisu	47	JF-HLL	lis	168	LISU	JF-HLL	Lisu2		221	
+944	Lisu (Central)	CLisu	47	DB-Lisu	lis	168	LISU		Lisu4	transcription normalized	221	trans. normalized
+945	Lisu (Luquan)	LSlq	47	JZ-Lisu	lis	168	LISU			no phon info		
+946	Lisu (Northern)	NLisu	47	DB-Lisu	lis	168	LISU		Lisu5	transcription normalized	216	trans. normalized
+947	Lisu (Nujiang)	LSnj	47	JZ-Lisu	lis	168	LISU		Lisu6		219	
+948	Lisu (Phuthao)	Lisu (Phuthao)	47	JAM-Ety	lis	168	LISU					
+949	Lisu (Putao)	Lisu Putao	47	GHL-PPB	lis	168	LISU					
+950	Lisu (Theng-yüeh)	Lisu (Theng-yueh)	47	GHL-PPB	lis	168	LISU					
+951	Lisu (Yongsheng)	LSys	47	JZ-Lisu	lis	168	LISU			no phon info		
+952	Lohorong	Loh	31	AW-TBT		169	LOHORONG	AW-TBT				
+953	Lohorong	Lohorong	31	RJL-DPTB		169	LOHORONG	STC?				
+954	Lohorong	Lohorong	31	STC		169	LOHORONG					
+955	Lolo	Lolo	45	RJL-DPTB		170	LOLO	STC?				
+956	Lolo	Lolo	45	STC		170	LOLO					
+957	Lolo (Ni)	Lolo (Ni)	47	GHL-PPB	ysn	222	AHI					
+958	Lolopho	Lolopho	45	DQ-Lolopho	ycl	171	LOLOPHO	DQ-Lolopho	Lolo1		227	
+959	Lolopho	Lolopho	45	RJL-DPTB	ycl	171	LOLOPHO					
+960	Lolopho	Lolopho	45	STC	ycl	171	LOLOPHO					
+961	Lotha Naga	Lotha Naga	63	ACH1975	njh	172	LOTHA NAGA	ACH1975	Loth1		228	PRS
+962	Lotha Naga	Lot	63	AW-TBT	njh	172	LOTHA NAGA	AW-TBT?				
+963	Lotha Naga	Lotha	63	GEM-CNL	njh	172	LOTHA NAGA	WIT-Lotha	Loth2		229	
+964	Lotha Naga	Lotha Naga	63	JAM-GSTC	njh	172	LOTHA NAGA					
+965	Lotha Naga	Lotha	63	VN-LothQ	njh	172	LOTHA NAGA	VN-LothQ				
+966	Lothvo (Hiranpi)	Lothvo (Hiranpi)	71	GHL-PPB	mrh	159	LOTHVO	***				prob. Hriangpi village
+967	Lui	Lui	40	GHL-PPB	kdv	173	LUI	Lui?				Andro, Sengmai, and Chairel *are* the Lui languages
+968	Lui	Lui	40	JAM-Ety	kdv	173	LUI	LL-CS				consists of Andro, Sengmai, and Chairel data taken from LL-CS (originally from MacCulloch 1859)
+969	Luquan	Luquan	46	JAM-GSTC		174	LUQUAN	MXL-Lolo				
+970	Luquan	Lu-ch	46	JAM-MLBM		174	LUQUAN	MXL-Lolo				
+971	Luquan	Lu-ch	46	JAM-TIL		174	LUQUAN	MXL-Lolo				
+972	Luquan	LC	46	JAM-TSR		174	LUQUAN	MXL-Lolo	Luqu1		231	
+973	Luquan	YiLQ	46	MXL-Lolo		174	LUQUAN	MXL-Lolo	Luqu1		231	
+974	Lushai [Mizo]	Lushai	70	ACST	lus	175	LUSHAI					
+975	Lushai [Mizo]	Lush	70	AW-TBT	lus	175	LUSHAI	AW-TBT				
+976	Lushai [Mizo]	Lushai	70	GEM-CNL	lus	175	LUSHAI	JML-Lushai				<Lloyd 1956
+977	Lushai [Mizo]	Lushei	70	GHL-PPB	lus	175	LUSHAI					
+978	Lushai [Mizo]	Lu	70	JAM-Ety	lus	175	LUSHAI	JHL-Lu	Lush1		233	
+979	Lushai [Mizo]	Lu	70	JAM-GSTC	lus	175	LUSHAI	JHL-Lu	Lush1		233	
+980	Lushai [Mizo]	Lushai	70	JAM-VSTB	lus	175	LUSHAI	JHL-Lu				
+981	Lushai [Mizo]	Lushai	70	JHL-Lu	lus	175	LUSHAI	JHL-Lu	Lush1		233	
+982	Lushai [Mizo]	Lushai	70	LL-PRPL	lus	175	LUSHAI					
+983	Lushai [Mizo]	L	70	RJL-DPTB	lus	175	LUSHAI	STC				
+984	Lushai [Mizo]	L	70	STC	lus	175	LUSHAI	JHL-Lu	Lush1		233	
+985	Lushai [Mizo]	Lushei	70	STC	lus	175	LUSHAI	JHL-Lu	Lush1		233	
+986	Lushai [Mizo]	L	70	WSC-SH	lus	175	LUSHAI					
+987	Nepali	Nep	57	BM-PK7	nep	211	!LW *	***				
+988	Lyuzu	Lüsu	34	DHFRL	ers	240	LYUZU		Lüsu1		235	
+989	Magar	Magari	28	ACST		176	MAGAR					
+990	Magar	M	28	AH-CSDPN		176	MAGAR		Maga1	<Krishna Bahadur Thapa Magar, Gary and Barbara Shepherd	237	Eastern or Western?
+991	Magar	Mag	28	AW-TBT		176	MAGAR	AW-TBT				
+992	Magar	Magari	28	BM-PTNL		176	MAGAR	not original?				
+993	Magar	mag	28	BM-PK7		176	MAGAR					
+994	Magar	Mg	28	JAM-Ety		176	MAGAR	AH-CSDPN	Maga1		237	
+995	Magar	Magari	28	JAM-VSTB		176	MAGAR	AH-CSDPN				
+996	Magar	Magari	28	RJL-DPTB		176	MAGAR	AH-CSDPN				"original is probably a typo for ""Magari"""
+997	Magar	Magari	28	STC		176	MAGAR					
+998	Magar	Magari	28	WSC-SH		176	MAGAR					
+999	Manang (Gyaru)	Manang	23	YN-Man	nmm	177	MANANG G	YN-Man	Mana1		239	
+1000	Manang (Manang)	Manangi?	23	COO	nmm	177	MANANG M					
+1001	Manang (Ngawal)	man	23	MM-K78	nmm	177	MANANG N	MM-K78				
+1002	Manang (Prakaa)	Prak	23	HM-Prak	nmm	177	MANANG P	HM-Prak	Mana2		240	
+1003	Manang (Prakaa)	pra	23	MM-Thesis	nmm	177	MANANG P	HM-Prak	Mana2		240	
+1005	Pattani [Manchati]	Manch	20	STP-ManQ	lae	227	PATTANI	STP-ManQ	Patt1		319	
+1006	Pattani [Manchati]	Manchati	20	WSC-SH	lae	227	PATTANI					
+1007	Chinese (Mandarin)	Mandarin	55	GSR	cmn	80	CHINESE (MANDARIN)					
+1008	Chinese (Old/Mid)	Chinese	53	JAM-VSTB	och	82	CHINESE	GSR				
+1009	Chinese (Mandarin)	Chinese (Mand)	55	PC	cmn	80	CHINESE (MANDARIN)					
+1010	Chinese (Mandarin)	Chinese	55	ELS-CLL	cmn	80	CHINESE (MANDARIN)					These Chinese reflexes are very close to the ZMYYC glosses; they were used to gloss the ZMYYC data in ELS-CLL.
+1011	Chinese (Mandarin)	Chinese	55	JS-Ch	cmn	80	CHINESE (MANDARIN)					
+1013	Meithei	Manipuri	13	SIN1975	mni	187	MEITHEI	SIN1975?	Meit3		252	PRS
+1014	Manyak	Manyak	34	RJL-DPTB	mvm	180	MANYAK					
+1015	Manyak	Manyak	34	STC	mvm	180	MANYAK					
+1016	Mao	Mao	65	AW-TBT	nbi	181	MAO	AW-TBT?				
+1017	Mao	Mao	65	GEM-CNL	nbi	181	MAO	GEM-Mao	Mao1		243	
+1018	Maram	Maram	64	GEM-CNL	nma	182	MARAM *	WM-Cha	Mara1		245	appears to be Maram Naga
+1019	Maring	Maring	11	GEM-CNL	nng	183	MARING	LSI	Mari1		246	
+1020	Maring	Maring	11	JAM-VSTB	nng	183	MARING					
+1021	Maring	Maring	11	STC	nng	183	MARING					
+1022	Maru [Langsu]	Maru	44	ACST	mhx	184	MARU					
+1023	Maru [Langsu]	Maru	44	AW-TBT	mhx	184	MARU					
+1024	Maru [Langsu]	Langsu	44	DQ-Langsu	mhx	184	MARU	DQ-Langsu	Maru1		248	by Xu Xijian
+1025	Maru [Langsu]	Maru	44	GHL-PPB	mhx	184	MARU					
+1026	Maru [Langsu]	Maru	44	JAM-GSTC	mhx	184	MARU					
+1027	Maru [Langsu]	Maru	44	JAM-TSR	mhx	184	MARU					
+1028	Maru [Langsu]	Maru	44	JAM-VSTB	mhx	184	MARU					
+1029	Maru [Langsu]	MR	44	JO-PB	mhx	184	MARU					
+1030	Maru [Langsu]	Langsu/Maru	44	RB-PLB	mhx	184	MARU	RB-PLB	Maru2		247	
+1031	Maru [Langsu]	Maru	44	RJL-DPTB	mhx	184	MARU					
+1032	Maru [Langsu]	Maru	44	STC	mhx	184	MARU					
+1033	Maru [Langsu]	Maru	44	WSC-SH	mhx	184	MARU					
+1034	Maru [Langsu]	Langsu43	44	ZMYYC	mhx	184	MARU	ZMYYC				
+1035	Matupi	Matupi	69	GHL-PPB	hlt	185	MATUPI					"orig. ""Matupi ?"""
+1036	Meche	Mec	80	AW-TBT	brx	62	MECHE					
+1037	Meithei	Meithei	13	AAAM-SSM	mni	187	MEITHEI	AAAM-SSM	Meit1	good source	250	
+1038	Meithei	Mani	13	AW-TBT	mni	187	MEITHEI					
+1039	Meithei	Meithei	13	CHE1990	mni	187	MEITHEI		Meit2	good source	251	
+1040	Meithei	MEITHEI	13	CYS-Meithei	mni	187	MEITHEI					
+1041	Meithei	Manipuri	13	GEM-CNL	mni	187	MEITHEI					
+1042	Meithei	Me	13	JAM-Ety	mni	187	MEITHEI					
+1043	Meithei	Me	13	JAM-GSTC	mni	187	MEITHEI					
+1044	Meithei	Meithei	13	JAM-VSTB	mni	187	MEITHEI					
+1045	Meithei	Meithei	13	RJL-DPTB	mni	187	MEITHEI					
+1046	Meithei	Methei	13	RJL-DPTB	mni	187	MEITHEI					
+1047	Meithei	Meithei	13	STC	mni	187	MEITHEI					
+1048	Meithei	Meithei	13	THO1980	mni	187	MEITHEI			best source		
+1049	Meithei	Meithei	13	WSC-SH	mni	187	MEITHEI					
+1050	Meluri	Meluri	65	GEM-CNL	npo	188	MELURI	JPM-Reng	Melu1		254	
+1051	Menia	Menia	34	STC	mvm	180	!MENIA *	***				
+1052	Mera	Mera (Darling)	71	GHL-PPB	mrh	159	MERA	***				prob. Mara (Darling village)
+1053	Miji	Miji	3	IMS-Miji	sjl	189	MIJI		Miji1	trans normalized	255	trans. normalized
+1054	Kaman [Miju]	Miju	6	AW-TBT	mxj	107	GEMAN	AW-TBT				
+1055	Kaman [Miju]	Miju	6	JFN-DMT	mxj	107	GEMAN	JFN-DMT?				
+1056	Kaman [Miju]	Miju	6	STC	mxj	107	GEMAN	JFN-DMT				
+1057	Kaman [Miju]	Miju	6	RJL-DPTB	mxj	107	GEMAN					
+1059	Mikir [Karbi]	Mikir	14	ACST	mjw	190	MIKIR					
+1060	Mikir [Karbi]	Mik	14	AW-TBT	mjw	190	MIKIR					
+1061	Mikir [Karbi]	Mikir	14	GDW-DML	mjw	190	MIKIR	GDW-DML?				
+1062	Mikir [Karbi]	Mikir	14	GEM-CNL	mjw	190	MIKIR					
+1063	Mikir [Karbi]	Mikir	14	KHG-MikirQ	mjw	190	MIKIR	KHG-MEG?	Miki1		256	
+1064	Mikir [Karbi]	Mk	14	JAM-Ety	mjw	190	MIKIR	GDW-DML				
+1065	Mikir [Karbi]	Mk	14	JAM-GSTC	mjw	190	MIKIR					
+1066	Mikir [Karbi]	Mikir	14	JAM-VSTB	mjw	190	MIKIR					
+1067	Mikir [Karbi]	Mikir	14	RJL-DPTB	mjw	190	MIKIR					
+1068	Mikir [Karbi]	Mikir	14	STC	mjw	190	MIKIR					
+1069	Mikir [Karbi]	Mikir	14	WSC-SH	mjw	190	MIKIR					
+1070	Milang	Milang	74	AT-MPB	adi	191	MILANG	AT-MPB?	Mila1	trans normalized	257	trans. normalized
+1071	Mishing [Miri]	Miri	74	ACST	mrg	192	MIRI					
+1072	Mishing [Miri]	Miri	74	JAM-GSTC	mrg	192	MIRI	JHL-AM				
+1073	Mishing [Miri]	Miri	74	JAM-VSTB	mrg	192	MIRI					
+1074	Mishing [Miri]	Miri	74	JHL-AM	mrg	192	MIRI	JHL-AM	Misi3		259	
+1075	Mishing [Miri]	Miri	74	RJL-DPTB	mrg	192	MIRI	JHL-AM				
+1076	Mishing [Miri]	Miri	74	STC	mrg	192	MIRI	JHL-AM	Misi3		259	
+1077	Mishing [Miri]	Miri	74	WSC-SH	mrg	192	MIRI	JHL-AM				
+1078	Miri, Hill	Miri	73	IMS-HMLG	mrg	193	MIRI HILL	IMS-HMLG?	MirH1	trans. normalized	258	trans. normalized
+1079	Mishing [Miri]	Mising L	74	JS-HCST	mrg	192	MIRI	JHL-AM	Misi3		259	
+1080	Mishing [Miri]	Mising	74	TAI1987	mrg	192	MIRI	TAI1987?	Misi2		260	
+1081	Mishing [Miri]	Mising T	74	JS-HCST	mrg	192	MIRI					
+1082	Mo-Ang	Mo-Ang	48	WU1993		142	MO-ANG	WU1993	Mo-A1		262	
+1083	Monpa	Monpa	22	AW-TBT		194	MONPA	AW-TBT?				which dialect?
+1085	Tsangla (Motuo)	CLmt	22	JZ-CLMenba	tsj	195	MONPA CA M	JZ-CLMenba	Cang2		68	
+1086	Tsangla (Motuo)	MBmt	22	SLZO-MLD	tsj	195	MONPA CA M	SLZO-MLD	Cang3		69	
+1087	Tsangla (Motuo)	MBb	22	RJL-DPTB	tsj	195	MONPA CA M	SLZO-MLD				
+1088	Tsangla (Motuo)	Monpa.Motuo7	22	ZMYYC	tsj	195	MONPA CA M	ZMYYC	Cang3		69	
+1089	Tsangla (Tilang)	CLtl	22	JZ-CLMenba	tsj	195	MONPA CA T	KDG-ICL	Cang4		71	transcription  normalized
+1090	Tshona (Mama)	MBcn	22	SLZO-MLD	twm	199	MONPA CU S	SLZO-MLD?	Cuon2		82	=Southern dial.
+1091	Tshona (Mama)	MBa	22	RJL-DPTB	twm	199	MONPA CU S	SLZO-MLD				
+1092	Tshona (Mama)	Monpa.Cuona6	22	ZMYYC	twm	199	MONPA CU S	ZMYYC?	Cuon2		82	=Southern dial.
+1093	Tshona (Wenlang)	CNwl	22	JZ-CNMenba	twm	198	MONPA CU N	JZ-CNMenba?	Cuon1		84	=Northern dial.
+1094	Tsangla	Tsangla	22	ACST	tsj	195	MONPA CA					
+1095	Tsangla (Central)	Tsh	22	EA-Tsh	tsj	195	MONPA CA	EA-Tsh	Cang1		67	=Central Monpa
+1096	Tsangla	MonpaC	22	KDG-ICM	tsj	195	MONPA CA		Cang4		71	=Central Monpa
+1097	Tsangla	Tsangla	22	RJL-DPTB	tsj	195	MONPA CA					
+1098	Tsangla (Central)	Tsangla	22	SER-HSLT	tsj	195	MONPA CA					
+1099	Tsangla (Central)	Tsangla	22	STC	tsj	195	MONPA CA					
+1100	Tsangla (Central)	Tsangla	22	WSC-SH	tsj	195	MONPA CA					
+1101	Tangsa (Moshang)	Moshang	84	ACST	nst	276	TANGSA (MOSHANG)					
+1102	Tangsa (Moshang)	Monshang	84	AW-TBT	nmh	276	TANGSA (MOSHANG)					
+1103	Tangsa (Moshang)	Moshang	84	JAM-GSTC		276	TANGSA (MOSHANG)					
+1104	Tangsa (Moshang)	Moshang	84	RJL-DPTB		276	TANGSA (MOSHANG)					
+1106	Tangsa (Moshang)	Moshang	84	STC		276	TANGSA (MOSHANG)					
+1107	Tangsa (Moshang)	Mo	84	WTF-PNN	nst	276	TANGSA (MOSHANG)	GEM-CNL				
+1108	Moso	Moso (B-L)	43	ACST	nbf	200	MOSO					
+1109	Moso	Mo	43	JAM-TSR	nbf	200	MOSO	LL-MSTC?				
+1110	Moso	Moso	43	LL-MSTC	nbf	200	MOSO	LL-MSTC?				
+1111	Moso	Moso	43	STC	nbf	200	MOSO					
+1112	Moyon	Moyon	72	DK-Moyon	nmo	201	MOYON	DK-Moyon	Moyo1		264	dial. of Meithei--resort?
+1113	Moyon	Moyon	72	WTF-PNN	nmo	201	MOYON					
+1114	Mpi	Mpi	48	DB-PLolo	mpz	202	MPI	SD-MPD	Mpi1		266	
+1115	Mpi	Mpi	48	ILH-PL	mpz	202	MPI	SD-MPD	Mpi1		266	
+1116	Mpi	Mpi	48	JAM-GSTC	mpz	202	MPI	SD-MPD				
+1117	Mpi	Mpi	48	JAM-MLBM	mpz	202	MPI	SD-MPD	Mpi1		266	
+1118	Mpi	Mpi	48	JAM-TSR	mpz	202	MPI	SD-MPD				
+1119	Mpi	Mpi	48	RJL-DPTB	mpz	202	MPI	SD-MPD				
+1120	Mpi	Mpi	48	SD-MPD	mpz	202	MPI	SD-MPD	Mpi1		266	
+1121	Mru	Mru	15	AW-TBT	mro	203	MRU					
+1122	Mru	Mru	15	GHL-PPB	mro	203	MRU					
+1123	Mru	Mru	15	JAM-Ety	mro	203	MRU	LL-CMST	Mru1		268	
+1124	Mru	Mru	15	JAM-GSTC	mro	203	MRU	LL-CMST				
+1125	Mru	Mru	15	JAM-VSTB	mro	203	MRU	LL-CMST				
+1126	Mru	Mru	15	LL-CMST	mro	203	MRU	LL-CMST	Mru1		268	
+1127	Mru	Mru	15	RJL-DPTB	mro	203	MRU					
+1128	Mru	Mru	15	STC	mro	203	MRU					
+1129	Murmi	Murmi	23	ACST	tdg	271	MURMI *					
+1130	Murmi	Murmi	23	WSC-SH	tdg	271	MURMI *					
+1131	Anong (Rawang/Mutwang)	Mutwang dial.	38	ACST	raw	220	NUNG					
+1132	Anong (Rawang/Mutwang)	Mutwang	38	RJL-DPTB	raw	220	NUNG					
+1133	Anong (Rawang/Mutwang)	Mutwang	38	WSC-SH	raw	220	NUNG					
+1135	Muya [Minyak]	Muya	34	SHK-MuyaQ	mvm	180	MUYA (=MINYAK)	SHK-MuyaQ	Muya1		269	= ZMYYC
+1136	Muya [Minyak]	Muya15	34	ZMYYC	mvm	180	MUYA (=MINYAK)	ZMYYC	Muya1		269	
+1137	Mzieme	Mzieme	64	GEM-CNL	nme	336	ZEME NE	GEM-Mzieme	Mzie1		271	
+1138	Mzieme	Mzieme	64	JAM-GSTC	nme	336	ZEME NE					
+1139	Nachereng	Nachereng	18	ACST	ncd	206	NACHERENG *					
+1140	Nachereng	Nachereng	18	STC	ncd	206	NACHERENG *					
+1142	Magar	Nagari	28	RJL-DPTB		176	MAGAR	STC				"original is probably a typo for ""Magari"""
+1143	Magar	Nagari	28	STC		176	MAGAR					"original is probably a typo for ""Magari"""
+1145	Nocte	Namsang	84	STC	njb	216	NOCTE					
+1146	Namuyi	Namu	34	SHK-NamuQ	nmy	208	NAMUYI	SHK-NamuQ	Namu1		273	=ZMYYC
+1147	Namuyi	Namuyi19	34	ZMYYC	nmy	208	NAMUYI	ZMYYC	Namu1		273	
+1148	Nasu	Nasu	46	CK-YiQ	ywq	209	NASU	CK-YiQ	Nasu1		275	
+1149	Nasu	Nasu	46	GAO1958	ywq	209	NASU	GAO1958	Nasu2		276	
+1150	Nasu	Nasu	46	JAM-GSTC	ywq	209	NASU					
+1151	Nasu	Nasu	46	JAM-MLBM	ywq	209	NASU					
+1152	Nasu	Na	46	JAM-TSR	ywq	209	NASU	GAO1958	Nasu2		276	
+1153	Nasu	Nasu	46	RJL-DPTB	ywq	209	NASU					
+1154	Naxi	Naxi	43	DQ-Naxi	nbf	210	NAXI	DQ-Naxi				probably Western dialect
+1155	Naxi	Nakhi	43	JAM-TSR	nbf	210	NAXI					
+1156	Naxi	Na-khi	43	ROC1963	nbf	210	NAXI	ROC1963	Naxi2		279	
+1157	Naxi (Eastern)	NaxiE	43	JZ-Naxi	nbf	210	NAXI	JZ-Naxi	Naxi1		282	
+1158	Naxi (Rock)	Naxi [Rock]	43	JAM-TSR	nbf	210	NAXI	ROC1963				
+1159	Naxi (Western)	NaxiW	43	JZ-Naxi	nbf	210	NAXI	JZ-Naxi	Naxi3		278	
+1160	Nepali	Np	57	AH-CSDPN	nep	211	NEPALI		Nepa1	<Chudamani Bandhu, Maria Hari	284	
+1161	Nepali	Np	57	JAM-Ety	nep	211	NEPALI					
+1162	Nepali	Nep	57	RLS-PDMN	nep	211	NEPALI	RLS-PDMN	Nepa2		284	
+1163	Nesu	Nesu	46	CK-CS		212	NESU					
+1164	Nesu	Nesu	46	CK-YiQ		212	NESU	CK-YiQ	Nesu1		286	
+1165	Newar	Newari	27	ACST	new	213	NEWAR					
+1166	Newar	Nw	27	AH-CSDPN	new	213	NEWAR		Newa3	<Thakurlal Manandhar, Margrit and Austin Hale	292	
+1167	Newar	New	27	AW-TBT	new	213	NEWAR					
+1168	Newar	new	27	BM-PK7	new	213	NEWAR					
+1169	Newar	Nw	27	JAM-Ety	new	213	NEWAR					
+1170	Newar	Nw	27	JAM-GSTC	new	213	NEWAR					
+1171	Newar	Newari	27	JAM-VSTB	new	213	NEWAR					
+1172	Newar	Newari	27	MAL	new	213	NEWAR	MAL	Newa4		288	
+1173	Newar	Newari	27	RJL-DPTB	new	213	NEWAR					
+1174	Newar	Newari	27	SH-KNw	new	213	NEWAR	SH-KNw	Newa5		294	
+1175	Newar	Newari	27	STC	new	213	NEWAR					
+1176	Newar (Dolakhali)	Dolak	27	CG-Dolak	new	213	NEWAR	CG-Dolak	Newa1		287	
+1177	Newar (Kathmandu)	Newari	27	CG-Kath	new	213	NEWAR	CG-Kath		trans too diff from CG-Diss.  If comparison to CG-Diss done, then add to Mng 3		
+1178	Newar (Dolakha)	Newari	27	CG-Diss	new	213	NEWAR	CG-Diss	Newa1		287	
+1179	Newar (Kathmandu)	Newari	27	CG-Diss	new	213	NEWAR	CG-Diss	Newa6		291	
+1180	Ngawn	Ng	8	JAM-Ety	cnw	214	NGAWN	OT-KnsI				
+1181	Ngawn	Ngaun	8	JAM-Ety	cnw	214	NGAWN	OT-KnsI				
+1182	Ngawn	Ngawn	8	OT-KnsI	cnw	214	NGAWN	OT-KnsI				
+1183	Nishi [Dafla]	Nishi	73	TC-list	njz	215	NISHI	TC-list?	Nish1		295	
+1184	Nishi [Dafla]	Nishi C	73	JS-HCST	njz	215	NISHI	TC-list	Nish1		295	
+1186	Nishing	Nishing DG	73	JS-HCST	njz	215	NISHING	KDG-Daf	Nish3		297	not used as a 'key' lg in reconstructions
+1187	Nocte	Noc	84	AW-TBT	njb	216	NOCTE	AW-TBT				
+1188	Nocte	Nocte	84	GEM-CNL	njb	216	NOCTE	BRO1851	Noct1		299	
+1189	Nocte	Nocte	84	JAM-GSTC	njb	216	NOCTE	GEM-CNL				
+1190	Nocte	Nocte	84	KDG-INL	njb	216	NOCTE	KDG-INL	Noct2		300	
+1191	Nocte	Nocte	84	RJL-DPTB	njb	216	NOCTE					
+1192	Nocte	No	84	WTF-PNN	njb	216	NOCTE	GEM-CNL	Noct1		299	
+1193	Noesu	Noesu	46	CK-YiQ		217	NOESU	CK-YiQ	Noes1		302	
+1194	Nosu	Nosu	46	CK-YiQ	iii	218	NOSU	CK-YiQ	Nosu1		303	
+1196	Ntenyi	Ntenyi	65	GEM-CNL	nnl	219	NTENYI	JPM-Reng	Nten1		304	
+1198	Anong	Nung	38	ACST	duu	220	NUNG	LC-Trung				
+1199	Anong	Nung	38	JAM-Ety	duu	220	NUNG	LC-Trung				
+1200	Anong	Nung	38	JAM-GSTC	duu	220	NUNG	LC-Trung				
+1201	Anong	Nung	38	JAM-MLBM	nun	220	NUNG					
+1202	Anong	Nung	38	JAM-VSTB	duu	220	NUNG	LC-Trung				
+1203	Anong	N	38	RJL-DPTB	duu	220	NUNG	LC-Trung				< STC
+1204	Anong	Nungish	38	RJL-DPTB	duu	220	NUNG	LC-Trung				
+1205	Anong	Nung	38	STC	duu	220	NUNG	LC-Trung				
+1206	Anong	Nung	38	WSC-SH	duu	220	NUNG	LC-Trung				
+1207	Anong (dialect)	N dialect	38	RJL-DPTB	nun	220	NUNG	STC				error?
+1208	Anong (dialect)	Nung(dial.)	38	STC	nun	220	NUNG					
+1210	Anong (Rawang)	Nung RW	38	ACST	duu	220	NUNG	LC-Trung				
+1211	Anong (Rawang)	Nung (Rawang)	38	MOR1963	raw	220	NUNG	MOR1963				
+1212	Anong (Rawang)	Rawang	38	WSC-SH	raw	220	NUNG					
+1213	Anong (Rawang/Metu)	Nungish (Metu)	38	ACST	duu	220	NUNG					
+1214	Nusu (Bijiang)	Bij	46	DQ-Nusu	nuf	221	NUSU	DQ-Nusu				from big black binder
+1215	Nusu (Bijiang)	Nusu45	46	ZMYYC	nuf	221	NUSU		Nusu1		309	
+1216	Nusu (Central)	NusuB	46	DQ-NusuB	nuf	221	NUSU	DQ-NusuB				from spiral notebook #2; Dai and Fu
+1217	Nusu (Central)	NUzl	46	JZ-Nusu	nuf	221	NUSU					
+1218	Nusu (Central/Zhizhiluo)	NusuA	46	DQ-NusuA	nuf	221	NUSU	DQ-NusuA				from spiral notebook #2; Dai and Fu
+1219	Nusu (Northern)	NUwk	46	JZ-Nusu	nuf	221	NUSU					
+1220	Nusu (Southern)	NUgp	46	JZ-Nusu	nuf	221	NUSU	JZ-Nusu?	Nusu1		309	
+1221	Sani [Nyi]	Nyi	47	MXL-Sani	ysn	222	NYI	MXL-Sani	Nyi3			
+1222	Sani [Nyi]	Nyi	47	JAM-Ety	ysn	222	NYI					
+1223	Sani [Nyi]	Nyi	47	CK-YiQ	ysn	222	NYI	CK-YiQ	Nyi1		314	
+1224	Sani [Nyi]	Nyiq	47	DQ-Nyiq	ysn	222	NYI	DQ-Nyiq				what is this? see ZJH-CG p.8
+1226	Nishi [Dafla]	Nyisu	73	HAM1900	njz	215	NISHI	HAM1900?	Nish2		396	
+1227	Nyisu	Nyisu H	73	JS-HCST	njz	215	NYISU	HAM1900	Nish2		296	
+1228	Old Meithei	Old Meithei	13	RJL-DPTB	omp	187	MEITHEI O					
+1229	Old Meithei	Old Meithei	13	STC	omp	187	MEITHEI O					
+1230	*Old Mon	Old Mon	57	RJL-DPTB	omx	178	MON					proto-form in src
+1231	Ombule (Rai)	Omb	30	AW-TBT	wme	241	OMBULE	AW-TBT				
+1232	Ong-Be	Ong-Be	57	ACST	onb	179	ONG-BE					The ACST discussion implies that this is a Tai language.
+1233	Pa-O (Northern)	N. Pa-o (Taunggyi)	50	GHL-PPB	blk	223	PA-O					=Taungthu
+1234	Pa-O	T	50	AW-TBT	blk	223	PA-O	RBJ-KLS				from Jones 1961
+1235	Pa-O	PaO	50	DBS-PaO	blk	223	PA-O					
+1236	Pa-O	Pa-O	50	GHL-PPB	blk	223	PA-O					
+1237	Pa-O	KT	50	JAM-Ety	blk	223	PA-O		Kare5		163	
+1238	Pa-O	Thu	50	JAM-Ety	blk	223	PA-O	NJA-TR			163	
+1239	Pa-O	Pa-O	50	JAM-GSTC	blk	223	PA-O					
+1240	Pa-O	Karen (T)	50	JAM-VSTB	blk	223	PA-O					
+1241	Pa-O	Pa-O	50	PKB-KLH	blk	223	PA-O					
+1242	Pa-O	T	50	RBJ-KLS	blk	223	PA-O	RBJ-KLS	Kare5		163	
+1243	Pa-O	Thaungthu	50	WSC-SH	blk	223	PA-O					
+1244	Paangkhua	Paang	70	AW-TBT	pkh	224	PAANG	AW-TBT				
+1245	Paangkhua	Paang	70	LL-CS	pkh	224	PAANG					??Is this right?
+1246	Paangkhua	Paang	70	LL-PRPL	pkh	224	PAANG	LL-PRPL	Paan1		315	
+1247	Paangkhua	BP	70	LL-PRPL	pkh	224	PAANG	LL-PRPL	Paan1		315	(Bawm infl.)
+1248	Paangkhua	LP	70	LL-PRPL	pkh	224	PAANG	LL-PRPL	Paan1		315	(Lushai infl.)
+1249	Padam [Abor]	Padam	74	AT-Padam	adi	25	ABOR	AT-Padam	Pada1		317	
+1250	Padam [Abor]	Padam DG	74	JS-HCST	adi	25	ABOR	???				
+1251	Padam [Abor]	Padam L	74	JS-HCST	adi	25	ABOR	JHL-AM	Pada2		317	
+1252	Padam [Abor]	Padam T	74	JS-HCST	adi	25	ABOR	AT-Padam				
+1253	Padam-Mishing [Abor-Miri]	Padam-Mising L	74	JS-HCST	adi	26	ABOR-MIRI	JHL-AM	Misi3	should this go under Pada2 or Misi3?	259	also Miri [mrg]
+1254	Paku	Paku	50	GHL-PPB	kpp	363	PAKU					
+1255	Palaychi	Palaychi	50	AW-TBT	kpp	225	PALAYCHI					
+1256	Palaychi	Pl	50	JAM-Ety	kpp	225	PALAYCHI	RBJ-KLS	Kare6		164	
+1257	Palaychi	Karen (Palaychi)	50	JAM-VSTB	kpp	225	PALAYCHI					Palaychi=lg of specific village as described by RBJ
+1258	Palaychi	Palaychi	50	PKB-KLH	kpp	225	PALAYCHI					
+1259	Palaychi	Pl	50	RBJ-KLS	kpp	225	PALAYCHI	RBJ-KLS	Kare6		164	
+1260	Pankhu	Pankhu	8	JAM-GSTC	pkh	226	PANKHU					
+1261	Pankhu	Pankhu	8	STC	pkh	226	PANKHU					
+1262	Pattani [Manchati]	DS-Patt	20	DS-Patt	lae	227	PATTANI	DS-Patt				
+1263	Pattani [Manchati]	Manchati	20	STC	lae	227	PATTANI					
+1264	Pwo	Pwo	50	ACST		228	PWO	RBJ-KLS				
+1265	Pwo	P	50	AW-TBT		228	PWO	RBJ-KLS				
+1266	Pwo	Pwo	50	JAM-GSTC		228	PWO	RBJ-KLS				
+1267	Pwo (Bassein)	B Pho	50	PKB-KLH	pwo	229	PWO					
+1268	Pwo (Bassein)	BP	50	AW-TBT	pwo	229	PWO (BASSEIN)	RBJ-KLS	Kare7		166	
+1269	Pwo (Bassein)	BP	50	JAM-Ety	pwo	229	PWO (BASSEIN)	RBJ-KLS	Kare7		166	
+1270	Pwo (Bassein)	BP	50	JAM-GSTC	pwo	229	PWO (BASSEIN)					
+1271	Pwo (Bassein)	Karen (BP)	50	JAM-VSTB	pwo	229	PWO (BASSEIN)	RBJ-KLS				
+1272	Pwo (Bassein)	BP	50	RBJ-KLS	pwo	229	PWO (BASSEIN)	RBJ-KLS	Kare7		166	
+1273	Pwo (Delta)	Pwo (Delta)	50	GHL-PPB	pwo	229	PWO					
+1274	Pwo (Moulmein)	MP	50	AW-TBT	kjp	230	PWO (MOULMEIN)	RBJ-KLS	Kare8		167	
+1275	Pwo (Moulmein)	MP	50	JAM-Ety	kjp	230	PWO (MOULMEIN)	RBJ-KLS	Kare8		172	
+1276	Pwo (Moulmein)	MP	50	JAM-GSTC	kjp	230	PWO (MOULMEIN)					
+1277	Pwo (Moulmein)	Karen (MP)	50	JAM-VSTB	kjp	230	PWO (MOULMEIN)	RBJ-KLS				
+1278	Pwo (Moulmein)	M Pho	50	PKB-KLH	kjp	230	PWO (MOULMEIN)					
+1279	Pwo (Moulmein)	MP	50	RBJ-KLS	kjp	230	PWO (MOULMEIN)	RBJ-KLS	Kare8		167	
+1280	Pwo (Tenasserim)	Pwo (Tenasserim)	50	GHL-PPB	kjp	230	PWO					
+1281	Phom	Phom	85	GEM-CNL	nph	231	PHOM	GEM-Phom	Phom1		321	
+1282	Phom	Phom	85	JAM-GSTC	nph	231	PHOM	GEM-CNL				
+1283	Phom	Ph	85	WTF-PNN	nph	231	PHOM	GEM-CNL	Phom1		321	
+1284	Côông [Phunoi]	Phunoi	48	DB-PLolo	pho	232	PHUNOI	DB-PLolo	Phun1		322	
+1285	Côông [Phunoi]	Phunoi	48	DB-Phunoi	pho	232	PHUNOI					??mystery source
+1286	Côông [Phunoi]	Pn	48	JAM-Ety	pho	232	PHUNOI					<Bradley 1973
+1287	Côông [Phunoi]	Pn	48	JAM-GSTC	pho	232	PHUNOI					<Bradley 1973
+1288	Côông [Phunoi]	Pn	48	JAM-TSR	pho	232	PHUNOI					
+1289	Côông [Phunoi]	Phunoi	48	JAM-VSTB	pho	232	PHUNOI					<Bradley 1973
+1290	Côông [Phunoi]	PhnQ	48	MF-PhnQ	pho	232	PHUNOI	MF-PhnQ	Phun2		323	see Matt's DETS reports re MF-PhnQ vs MF-Phunoi
+1291	Côông [Phunoi]	Phunoi	48	STC	pho	232	PHUNOI					
+1293	Phön	Phön	44	JAM-GSTC	hpo	118	HPUN					
+1294	Phön	Phön	44	RJL-DPTB	hpo	118	HPUN					
+1295	Phön	Phön	44	STC	hpo	118	HPUN					
+1296	Phön (Megyaw)	Phön (Megyaw)	44	STC	hpo	118	HPUN					
+1297	Phön (Samong)	Phön (Samong)	44	STC	hpo	118	HPUN					
+1299	Hani (Pijo)	P	48	ILH-PL	byo	112	HANI (BIYUE)	ILH-PL	Hani1		132	
+1301	Puiron	Puiron	64	GEM-CNL	nbu	233	PUIRON	WM-Cha	Puir1		325	dialect of Rongmei
+1302	Puiron	Poeron	64	RJL-DPTB	nbu	233	PUIRON					if not Inpui [nkf], then might be Rongmei [nbu]
+1303	Pumi	PM	34	RJL-DPTB	pmj	234	PUMI	JZ-Pumi				if not PMa or PMb, probably means both dialects, but form matches TBL: Pumi (Lanping)
+1304	Pumi (Qinghua)	PMjh	34	JZ-Pumi	pmj	234	PUMI Q	JZ-Pumi	Pumi1		326	箐花
+1305	Pumi (Qinghua)	PMa	34	RJL-DPTB	pmj	234	PUMI Q	JZ-Pumi				
+1306	Pumi (Qinghua)	Pumi.Qinghua11	34	ZMYYC	pmj	234	PUMI Q	ZMYYC	Pumi1		326	
+1307	Pumi (Taoba)	PMtb	34	JZ-Pumi	pmi	235	PUMI T	JZ-Pumi	Pumi2		328	
+1308	Pumi (Taoba)	PMb	34	RJL-DPTB	pmi	235	PUMI T	JZ-Pumi				
+1309	Pumi (Taoba)	Pumi.Taoba10	34	ZMYYC	pmi	235	PUMI T	ZMYYC	Pumi2		328	
+1310	Purik	Purik	24	STC	prx	302	TIBETAN (PURIK)					a variety of Balti
+1311	Pwo	Pwo	50	RJL-DPTB		228	PWO					
+1312	Pyen	Pyen	48	JAM-VSTB	pyy	355	!PYEN *	***				
+1313	Pyu	Pyu	44	RJL-DPTB	pyx	236	!PYU *	***				
+1314	Qiang	Ch'iang (Chang Kun)	34	STC	qxs	239	QIANG					Chang Kun: Southern Qiang dialects
+1315	Qiang (ChiuTzuYing)	Ch	34	JAM-TSR		237	QIANG	(???)				dialect?
+1316	Qiang (Mawo)	Mawo	34	JS-Mawo	cng	238	QIANG M	JZ-Qiang	QiaN1		330	
+1317	Qiang (Mawo)	QQmw	34	JZ-Qiang	cng	238	QIANG M	JZ-Qiang	QiaN1		330	
+1318	Qiang (Mawo)	MW	34	RJL-DPTB	cng	238	QIANG M	JZ-Qiang				
+1319	Qiang (Mawo)	Mawo	34	SHK-MawoQ	cng	238	QIANG M	SHK-MawoQ				
+1320	Qiang (Mawo)	Qiang.Mawo8	34	ZMYYC	cng	238	QIANG M		QiaN1		330	
+1321	Qiang (Taoping)	QQtp	34	JZ-Qiang	qxs	239	QIANG T	JZ-Qiang	QiaS1		335	
+1322	Qiang (Taoping)	TP	34	RJL-DPTB	qxs	239	QIANG T	JZ-Qiang				
+1323	Qiang (Taoping)	Qiang.Taoping9	34	ZMYYC	qxs	239	QIANG T		QiaS1		335	
+1324	Qiang (Yadu)	Qiang	34	DQ-Jingpho	cng	238	QIANG Y					
+1325	Qiang (Yadu)	Yadu Qiang	34	DQ-QiangN	cng	238	QIANG Y	DQ-QiangN	QiaN2		333	Huang Chenglong
+1326	Rabha	Rabha	82	STC	rah	356	RABHA *					
+1327	Rai	Rai	77	RJL-DPTB		241	RAI	STC				
+1328	Rai	Rai	77	STC		241	RAI					
+1329	Rangkhol	Rangkhol	70	ACST	hra	242	RANGKHOL					
+1330	Rangkhol	Rangkhol	70	JAM-GSTC	hra	242	RANGKHOL					
+1331	Rangkhol	Rangkhol	70	STC	hra	242	RANGKHOL					
+1333	Anong (Rawang)	Rawang	38	RJL-DPTB	raw	220	NUNG	MOR1963				
+1335	Rengma	Rengma	65	GEM-CNL	nre	244	RENGMA	GEM-Reng	Reng1		338	
+1336	Rengma	Rengma Naga	65	STC	nre	244	RENGMA					
+1337	Rengma (Northern)	N.Reng	65	AW-TBT	nnl	245	RENGMA (NORTHERN)?	AW-TBT				
+1338	Rengma (Southern)	S.Reng	65	AW-TBT	nre	246	RENGMA (SOUTHERN)	AW-TBT				
+1339	rGyalrong	Jy	78	JAM-Ety	jya	110	GYARONG					
+1340	rGyalrong	rGyarong12	78	ZMYYC	jya	110	GYARONG	ZMYYC	Gyar2		123	
+1341	Riang	Riang	80	GHL-PPB	ria	145	RIANG					
+1343	Rodong	Rodong	76	ACST	rab	73	CHAMLING					
+1344	Rodong	Rodong	76	STC	rab	73	CHAMLING	old sources				
+1345	Rokhung	Rokh	29	AW-TBT		247	ROKHUNG					
+1346	Rongmei / Nruanghmei	Rong	64	AW-TBT	nbu	248	RONGMEI	AW-TBT				
+1347	Rongmei / Nruanghmei	Nruanghmei	64	GEM-CNL	nbu	248	RONGMEI	GEM-Nruan	Rong2		340	
+1348	Rongmei / Nruanghmei	Rongmei	64	JAM-Rong	nbu	248	RONGMEI					
+1349	Ruga	Ruga	82	STC	ruh	357	RUGA *					
+1350	Rumdali	Rum	30	AW-TBT	bhj	48	RUMDALI	AW-TBT				
+1351	Rungchangbung	Rungchang-bung	31	ACST	bap	55	RUNGCHANGBUNG					
+1352	Sak	Sak	40	JAM-Ety	ckh	250	SAK					
+1353	"Kadu (""Sak"")"	Sak	40	LL-CS	zkd	250	KADU					
+1354	Sak (Bawtala)	Sak (B)	40	GHL-PPB	ckh	250	SAK					
+1355	Sak (Dodem)	Sak (D)	40	GHL-PPB	ckh	250	SAK					
+1356	Sakka Trokpa	Sak-Tro	24	AW-TBT		251	SAKKA TROKPA	AW-TBT				dissimilar to both Khams and Amdo
+1357	Samong	Samong	44	STC	hpo	118	HPUN					
+1358	Sampang	Samp	77	AW-TBT	rav	252	SAMPANG	AW-TBT				
+1359	Sampang	Sangpang	77	RJL-DPTB	rav	252	SAMPANG					
+1360	Sampang	Sangpang	77	STC	rav	252	SAMPANG					
+1361	Sangkong	Sangkong	48	JAM-II	sgk	253	SANGKONG					
+1362	Sangkong	Sangkong	48	LYS-Sangkon	sgk	253	SANGKONG	LYS-Sangkon	Sang1		344	Error corr.; this source was orig. called LY-Sangkong
+1363	Sangtam	Sang	63	AW-TBT	nsa	254	SANGTAM	AW-TBT				
+1364	Sangtam	Sangtam	63	GEM-CNL	nsa	254	SANGTAM	GEM-Sang	Sang2		345	
+1365	Sani [Nyi]	SaniYi	47	MXL-SaniQ	ysn	222	NYI	MXL-SaniQ			312	
+1366	Sani [Nyi]	SaniYi	47	WAH-Sani	ysn	222	NYI	WAH-Sani	Nyi2		311	=YHJC-Sani, but normalized in db
+1367	Sani [Nyi]	Sani	47	JAM-GSTC	ysn	222	NYI	MXL-Sani				
+1368	Sani [Nyi]	Sa	47	JAM-TSR	ysn	222	NYI	MXL-Sani	Nyi3		312	
+1369	Sani [Nyi]	Sa (Vial)	47	JAM-TSR	ysn	222	NYI	VIA1909				
+1370	Sani [Nyi]	Sani	47	JAM-VSTB	ysn	222	NYI	MXL-Sani				
+1371	Sani [Nyi]	Sani	47	PC	ysn	222	NYI					
+1372	Sani [Nyi]	Nyi	47	RJL-DPTB	ysn	222	NYI	MXL-Sani?				
+1373	Sani [Nyi]	Nyi Lolo	47	RJL-DPTB	ysn	222	NYI					
+1374	Sani [Nyi]	Sani	47	RJL-DPTB	ysn	222	NYI	MXL-Sani				
+1375	Sani [Nyi]	Sani Yi	47	RJL-DPTB	ysn	222	NYI					
+1376	Sani [Nyi]	Nyi	47	STC	ysn	222	NYI					
+1377	Sani [Nyi]	Nyi	47	VIA1909	ysn	222	NYI	VIA1909				
+1378	Sani [Nyi]	Sani	47	WSC-SH	ysn	222	NYI					
+1379	Sani [Nyi]	Sani	47	YHJC-Sani	ysn	222	NYI	YHJC-Sani	Nyi2		311	=WAH-Sani, but not normalized in db.
+1380	Tibetan (Khams:Dege)	Tibetan.Khams3	24	ZMYYC	khg	299	TIBETAN (KHAMS)	ZMYYC	TibK1		399	(Dege = sDe-dge)
+1381	Sema [Sumi]	Sema	65	AW-TBT	nsm	255	SUMI					
+1382	Sema [Sumi]	Sema	65	GEM-CNL	nsm	255	SUMI	BOR-Sema	Sema1		347	
+1383	Sema [Sumi]	Sema	65	SRE1976	nsm	255	SUMI	SRE1976	Sema2		348	PRS
+1384	Sema [Sumi]	Sema Naga	65	STC	nsm	255	SUMI					
+1385	Semang	Semang	57	GHL-PPB		365	SEMANG					Mon-Khmer; 'Semang' is a cover term
+1386	Sengmai	Sngm	40	GHL-PPB	kdv	256	SENGMAI					
+1387	Sgaw	Sgaw	50	ACST	ksw	257	SGAW	RBJ-KLS				
+1388	Sgaw	Sg	50	AW-TBT	ksw	257	SGAW	AW-TBT				"Weidert: ""...I recorded in the field"" (p.334)"
+1389	Sgaw	Sgaw	50	GHL-PPB	ksw	257	SGAW					
+1390	Sgaw	Sgaw	50	JAM-GSTC	ksw	257	SGAW	RBJ-KLS				
+1391	Sgaw	Sgaw	50	PKB-KLH	ksw	257	SGAW					
+1392	Sgaw	Sgaw	50	RJL-DPTB	ksw	257	SGAW					
+1393	Sgaw (Bassein)	BS	50	JAM-Ety	ksw	258	SGAW B	RBJ-KLS	Kare9		170	
+1394	Sgaw (Bassein)	BS	50	RBJ-KLS	ksw	258	SGAW B	RBJ-KLS	Kare9		170	
+1395	Sgaw (Bassein)	Karen (BS)	50	JAM-VSTB	ksw	258	SGAW B	RBJ-KLS				
+1396	Sgaw (Delugong)	Sgaw	50	DHFRL	ksw	257	SGAW DELU	DHFRL	Kare3		171	
+1397	Sgaw (Moulmein)	MS	50	JAM-Ety	ksw	259	SGAW M	RBJ-KLS	Kare10		172	
+1398	Sgaw (Moulmein)	Karen (MS)	50	JAM-VSTB	ksw	259	SGAW M					
+1399	Sgaw (Moulmein)	MS	50	RBJ-KLS	ksw	259	SGAW M	RBJ-KLS	Kare10		172	
+1400	Shangge	Shange	84	RJL-DPTB	nst	260	SHANGGE					
+1401	Shangge	Shangge	84	STC	nst	260	SHANGGE					
+1402	Tibetan (Sherpa)	Sh	24	AH-CSDPN	xsr	303	TIBETAN (SHERPA)		TibSh2	<Ang Nyima Lama, Burkhard and Heiderose Schoettelndreyer	406	
+1403	Sherpa	Sherpa	24	AW-TBT	xsr	303	TIBETAN (SHERPA)	AW-TBT				
+1404	Gurung	Gurung	24	GLO1969	gvr	109	GURUNG	GLO1969				
+1405	Sherpa	Sh	24	JAM-Ety	xsr	303	TIBETAN (SHERPA)	AH-CSDPN				
+1406	Sherpa	Sherpa	24	JAM-VSTB	xsr	303	TIBETAN (SHERPA)	AH-CSDPN				
+1407	Tibetan (Sherpa:Helambu)	SherpaH	24	B-ShrpaHQ	scp	362	TIBETAN (SHERPA)	B-ShrpaHQ	TibSh1		405	
+1408	Xumi	Shix	34	SHK-ShixQ	sxg	261	XUMI	SHK-ShixQ	Shix1		351	"called ""Shixing"" by SHK"
+1409	Xumi	Shixing20	34	ZMYYC	sxg	261	XUMI	ZMYYC	Shix1		351	"called ""Shixing"" by SHK"
+1411	Asho	Sho	69	ACST	csh	46	ASHO					
+1412	Asho	Sho	69	GHL-PPB	csh	46	ASHO	GHL-PPB				
+1413	Asho	Sho	69	RJL-DPTB	csh	46	ASHO					
+1414	Asho	Sho	69	STC	csh	46	ASHO					
+1415	Asho	Ashö	69	STE-Asho	csh	46	ASHO					
+1416	Hani (Shuikui)	Hani.Shuikui32	48	ZMYYC	hni	111	HANI (HAONI)		Hani4		129	
+1417	Siyin	Siyin	68	JAM-GSTC	csy	262	SIYIN					
+1418	Siyin	Siyin	68	OT-KnsI	csy	262	SIYIN					
+1419	Siyin	Siyin	68	RJL-DPTB	csy	262	SIYIN					
+1420	Siyin	Siyin	68	STC	csy	262	SIYIN					
+1421	Siyin	Siyin	68	STE1955	csy	262	SIYIN	STE1955				
+1422	Siyin	Siyin	68	STE1963	csy	262	SIYIN					
+1423	Siyin	Siyin	68	WSC-SH	csy	262	SIYIN					
+1424	Mao	Sopvoma	65	JAM-GSTC	nbi	263	MAO					
+1425	Mao	Sopvoma	65	STC	nbi	263	MAO					
+1426	Spiti	Spiti	24	CB-SpitiQ	spt	304	TIBETAN (SPITI)	CB-SpitiQ				
+1427	Tibetan (Spiti)	Spiti	24	SRS-PSS	spt	304	TIBETAN (SPITI)	SRS-PSS	TibSp1		408	
+1428	Burmese (Spoken Rangoon)	BurmeseMod40	44	ZMYYC	mya	67	BURMESE (SPOKEN)					
+1429	Sui	Sui	57	ACST	swi	358	SUI					Tai-Kadai?
+1430	Sulung [Puroik]	Sulung	4	SHK-Sulung	suv	264	SULUNG	SHK-Sulung	Sulo1		353	JS-HCST:13 says Sulung is not Tani
+1431	Sulung [Puroik]	Sulong52	4	ZMYYC	suv	264	SULUNG	ZMYYC	Sulo1		353	JS-HCST:13 says Sulung is not Tani
+1432	Sunwar	Sunwar	30	ACST	suz	265	SUNWAR					
+1433	Sunwar	S	30	AH-CSDPN	suz	265	SUNWAR		Sunw1	<Gyen Singh Sunwar, Dora Bieri, Marlene Schulze	356	
+1434	Sunwar	Sun	30	AW-TBT	suz	265	SUNWAR					
+1435	Sunwar	sun	30	BM-PK7	suz	265	SUNWAR					<Bieri & Schulze 1971;CG?
+1436	Sunwar	sung	30	BM-PK7	suz	265	SUNWAR					<CG
+1437	Sunwar	Sun	30	JAM-Ety	suz	265	SUNWAR					
+1438	Sunwar	Sun	30	JAM-GSTC	suz	265	SUNWAR					
+1439	Sunwar	Sunwar	30	JAM-VSTB	suz	265	SUNWAR					
+1440	Sunwar	Sunwari	30	STC	suz	265	SUNWAR					
+1442	Tagin	Tagen Nishi	73	BOR1938	tgj	266	TAGIN	BOR1938				
+1443	Tagin	Tagen B	73	JS-HCST	tgj	266	TAGIN	BOR1938				
+1444	Tagin	Tagin	73	KDG-Tag	tgj	266	TAGIN	KDG-Tag	Tagi1		358	(­ Nishi)
+1445	Tagin	Tagin DG	73	JS-HCST	tgj	266	TAGIN	KDG-Tag				
+1446	Takpa	Takpa	22	RJL-DPTB	tkk	267	TAKPA *					
+1447	Takpa	Takpa	22	STC	tkk	267	TAKPA *					
+1448	Tam-Sem	Tam-Sem	23	AW-TBT	tdg	271	!TAM-SEM *	***				"AW-TBT: ""Semdzong Pyt., Western Tamang"""
+1449	Taman	Taman	40	GHL-PPB	tcl	268	TAMAN					
+1450	Tamang	Tam	23	AW-TBT	taj	270	TAMANG					
+1451	Tamang	Tamang	23	MM1973		269	TAMANG R	MM1973				best source; =Risiangku? [Taylor/Hari/Pike var????]
+1452	Tamang	Murmi	23	STC	tdg	271	TAMANG					
+1453	Tamang (Risiangku)	Tamang (Ris)	23	JAM-VSTB	taj	270	TAMANG R					
+1454	Tamang (Risiangku)	ris	23	MM-K78	taj	270	TAMANG R	MM-K78				
+1455	Tamang (Risiangku)	Tam-Ris	23	MM-TamRisQ	taj	270	TAMANG R					same as MM-K78.ris?
+1456	Tamang (Risiangku)	ris	23	MM-Thesis	taj	270	TAMANG R		Tama1		359	
+1457	Tamang (Sahu)	T	23	AH-CSDPN	tdg	271	TAMANG S		Tama2	<Karna Bahadur Tamang, Doreen Taylor, Fay Everitt	362	
+1458	Tamang (Sahu)	Tam-Sahu	23	AW-TBT	tdg	271	TAMANG S					
+1459	Tamang (Sahu)	Tm	23	JAM-Ety	tdg	271	TAMANG S	MM,AH-CSDPN				
+1460	Tamang (Sahu)	Tamang	23	JAM-VSTB	tdg	271	TAMANG S	AH-CSDPN				
+1461	Tamang (Sahu)	sahu	23	MM-K78	tdg	271	TAMANG S	MM-K78				
+1462	Tamang (Sahu)	sahu	23	MM-Thesis	tdg	271	TAMANG S	SIL-Sahu	Tama3		360	
+1463	Tamang (Sahu)	Tamang Sahu	23	PC	tdg	271	TAMANG S					
+1464	Tamang (Sahu)	Sahu	23	SIL-Sahu	tdg	271	TAMANG S	SIL-Sahu				=AH-CSDPN
+1465	Tamang (Sindhuli)	Tam-Sind	23	AW-TBT	taj	270	TAMANG SI					Eastern Tamang, based on Ethnologue map
+1466	Tamang (Taglung)	tag	23	MM-K78		273	TAMANG T	MM-K78				
+1467	Tamang (Taglung)	tag	23	MM-Thesis		273	TAMANG T		Tama4		363	
+1468	Tamang (Bagmati)	Tam-TP	23	AW-TBT	taj	270	TAMANG B					
+1469	Tangkhul	Tank	66	AW-TBT	nmf	274	TANGKHUL	AW-TBT				
+1470	Tangkhul	TN	66	Bhat-TNV	nmf	274	TANGKHUL	Bhat-TNL				
+1471	Tangkhul	Tangkhul	66	GEM-CNL	nmf	274	TANGKHUL	WP-TNgd	Tank2		365	<WP-TNgd
+1472	Tangkhul	TN	66	JAM-Ety	nmf	274	TANGKHUL					
+1473	Tangkhul	Tangkhul	66	JAM-GSTC	nmf	274	TANGKHUL	WP-TNgd,Bhat-TNV				
+1474	Tangkhul	TN	66	JAM-TSR	nmf	274	TANGKHUL					
+1475	Tangkhul	TN	66	JAM-VSTB	nmf	274	TANGKHUL	WP-TNgd,Bhat-TNV				
+1476	Tangkhul	Tangkhul Naga	66	JAM-VSTB	nmf	274	TANGKHUL	WP-TNgd,Bhat-TNV				
+1477	Tangkhul	TN	66	PC	nmf	274	TANGKHUL					
+1478	Tangkhul	Tangkhul	66	WP-TNgd	nmf	274	TANGKHUL	WP-TNgd	Tank2		365	
+1480	Tangkhul	TN	66	RJL-DPTB	nmf	274	TANGKHUL					
+1481	Tangkhul	Tangkhul	66	RJL-DPTB	nmf	274	TANGKHUL					
+1482	Tangkhul	Tangkhul Naga	66	RJL-DPTB	nmf	274	TANGKHUL					
+1483	Tangkhul	Tangkul	66	RJL-DPTB	nmf	274	TANGKHUL					
+1484	Tangkhul	Tangkhul	66	STC	nmf	274	TANGKHUL					
+1485	Tangkhul	Tangkhul	66	WSC-SH	nmf	274	TANGKHUL					
+1486	Tangkhul	Thangkhul	66	WSC-SH	nmf	274	TANGKHUL					
+1487	Tangkhul Naga (Ukrul)	Tangkhul	66	ARO1980	nmf	274	TANGKHUL U	ARO1980	Tank1		366	PRS
+1488	Tangsa	Tang	84	AW-TBT	nst	275	TANGSA	AW-TBT				
+1489	Tangsa (Moshang)	Tangsa (Mo)	84	GEM-CNL	nst	276	TANGSA (MOSHANG)	WAL1948	Tans1		369	
+1490	Tangsa (Yogli)	Tangsa (Yog)	84	GEM-CNL	nst	277	TANGSA (YOGLI)	WAL1948	Tans1		369	
+1491	Tangut [Xixia]	XIXIA	33	DQ-Xixia	txg	278	TANGUT					
+1492	Tangut [Xixia]	Hs	33	JAM-MLBM	txg	278	TANGUT					
+1493	Tangut [Xixia]	Tangut	33	MVS-Grin	txg	278	TANGUT	MVS-Grin	Xixi1		428	
+1494	Tangut [Xixia]	Tangut1	33	NT-SGK	txg	278	TANGUT		Xixi2		427	transcription normalized
+1495	Tangut [Xixia]	Tangut2	33	NT-SGK	txg	278	TANGUT		Xixi2		427	From 'Pearl in the Palm'
+1496	Tangut [Xixia]	Tangut13	33	ZMYYC	txg	278	TANGUT					
+1498	Tashigang	Tash	22	AW-TBT	tsj	195	TASHIGANG	RBJ-KLS				?? Is it from RBJ-KLS
+1499	Taung-Yo	Taung-Yo	44	GHL-PPB	tco	280	TAUNG-YO					
+1502	Tavoyan	Tavoyan	44	BER1965	tvn	281	TAVOYAN	BER1965				
+1503	Tavoyan	TV	44	JO-PB	tvn	281	TAVOYAN	JO-PB				"Not ""PB"":WRITE JO for inventory (along with Arakanese)."
+1504	Tavoyan	Tavoyan	44	PE1933	tvn	281	TAVOYAN	PE1933				
+1505	Tavoyan	Tavoyan	44	STC	tvn	281	TAVOYAN					
+1506	Tavoyan dial.	Tavoyan dial.	44	RJL-DPTB	tvn	281	TAVOYAN					
+1507	Tengsa	Tengsa	63	GEM-CNL	njo	282	TENGSA					This is Tengsa of Yacham-Tengsa; sometimes also called Tangsa, but not to be confused with Tangsa proper.
+1508	Tha'oa	Tha'oa (L)	71	GHL-PPB		4	THA'OA	***				prob. Thangaw village
+1509	Thado	Thaadou	68	THI1972	tcz	283	THADO	THI1972	Thad1		370	PRS
+1510	Thado	Thado	68	ACST	tcz	283	THADO					
+1511	Thado	Thad	68	AW-TBT	tcz	283	THADO					
+1512	Thado	Thado	68	JAM-GSTC	tcz	283	THADO					
+1513	Thado	Thad	68	RJL-DPTB	tcz	283	THADO					
+1514	Thado	Thado	68	RJL-DPTB	tcz	283	THADO					
+1515	Thado	Thado	68	STC	tcz	283	THADO					
+1516	Thado	Thado	68	WSC-SH	tcz	283	THADO					
+1517	Thado	Thadou	68	KRI1980	tcz	283	THADO	KRI1980	Thad2		371	
+1518	Thai	Siamese	57	JAM-GSTC	tha	284	THAI					
+1519	Thai	Thai	57	JAM-MLBM	tha	284	THAI					
+1520	Thakali	Th	23	AH-CSDPN	ths	285	THAKALI		Thak3	<Narendra Garchan, Nila Gauchan, Maria Hari	376	
+1521	Thakali	Thak	23	AW-TBT	ths	285	THAKALI					
+1522	Thakali	Tk	23	JAM-GSTC	ths	285	THAKALI					
+1523	Thakali (Marpha)	mar	23	MM-K78	ths	286	THAKALI M	MM-K78				
+1524	Thakali (Marpha)	mar	23	MM-Thesis	ths	286	THAKALI M		Thak1		373	
+1525	Thakali (Syang)	syang	23	MM-K78	ths	287	THAKALI S	MM-K78				
+1526	Thakali (Syang)	syang	23	MM-Thesis	ths	287	THAKALI S		Thak2		375	
+1527	Thakali (Tukche)	Tk	23	JAM-Ety	ths	288	THAKALI T	AH-CSDPN	Thak3		376	
+1528	Thakali (Tukche)	Thakali	23	JAM-VSTB	ths	288	THAKALI T	AH-CSDPN				
+1529	Thakali (Tukche)	tuk	23	MM-K78	ths	288	THAKALI T	MM-K78				
+1530	Thakali (Tukche)	tuk	23	MM-Thesis	ths	288	THAKALI T	SIL-Thak	Thak4		378	
+1531	Thakali (Tukche)	Thak	23	SIL-Thak	ths	288	THAKALI T	SIL-Thak	Thak3	trans. normalized	376	trans. normalized
+1532	Thangmi	Thami	18	AW-TBT	thf	289	THANGI	AW-TBT				
+1533	Thangmi	Thami	18	STC	thf	289	THANGMI					
+1534	Thangmi	Thami(Kiranti)	18	STC	thf	289	THANGMI					
+1535	Thanphum	Thanphum	8	GHL-PPB		290	THANPHUM					
+1536	Thebor	Thebor	20	JAM-Ety	jna	291	THEBOR					
+1537	Thebor	Thebor	20	JAM-GSTC	jna	291	THEBOR					
+1538	Thebor	Thebor	20	RJL-DPTB	jna	291	THEBOR					
+1539	Thebor	Thebor	20	STC	jna	291	THEBOR					
+1540	Thebor	Thebor	20	WSC-SH	jna	291	THEBOR					
+1541	Thulung	Thul	30	AW-TBT	tdh	292	THULUNG					
+1542	Thulung	thu	30	BM-PK7	tdh	292	THULUNG	BM-PK7				
+1543	Thulung	TR	30	JAM-Ety	tdh	292	THULUNG	NJA-Thulung	Thul1		381	
+1544	Thulung	Thulung Rai	30	JAM-VSTB	tdh	292	THULUNG	NJA-Thulung				
+1545	Thulung	Thulung	30	NJA-Thulung	tdh	292	THULUNG	NJA-Thulung	Thul1		381	
+1546	Thulung	Thulung	30	RJL-DPTB	tdh	292	THULUNG	NJA-Thulung				
+1547	Thulung	Thulung	30	STC	tdh	292	THULUNG					
+1548	Thulung	Thulung(Kiranti)	30	STC	tdh	292	THULUNG					
+1549	Thulung	Thulung	30	WSC-SH	tdh	292	THULUNG					
+1550	Tibetan (Amdo:Bla-brang)	Tibetan.Amdo4	24	ZMYYC	adx	294	TIBETAN (AMDO/B)	ZMYYC	TibA1		388	
+1551	Tibetan (Central)	C.Tib	24	AW-TBT	bod	297	TIBETAN (CENTRAL)					
+1552	Tibetan (Central)	C.Tib	24	HAJ-TED	bod	297	TIBETAN (CENTRAL)					
+1553	Tibetan (Central)	Central T	24	STC	bod	297	TIBETAN (CENTRAL)					
+1554	Tibetan (Ladakhi)	West T (Ladakhi)	24	RJL-DPTB	lbj	300	TIBETAN (LADAKHI)					
+1555	Tibetan (Lhasa)	Lhasa T	24	RJL-DPTB	bod	301	TIBETAN (LHASA)					
+1556	Tibetan (Lhasa)	MT	24	RJL-DPTB	bod	301	TIBETAN (LHASA)					< Jin 1983
+1557	Tibetan (Lhasa)	Tibetan.Lhasa2	24	ZMYYC	bod	301	TIBETAN (LHASA)	ZMYYC	TibLh1		403	
+1558	Tibetan (Spoken)	Tib	24	AW-TBT	bod	301	TIBETAN (SPOKEN)					
+1559	Tibetan (Western)	West T	24	RJL-DPTB		306	TIBETAN (WESTERN)	STC				Is this really Western T?
+1560	Tibetan (Western)	West T	24	STC		306	TIBETAN (WESTERN)					Is this really Western T?
+1561	Tibetan (Written)	WT	24	ACST	xct	307	TIBETAN (WRITTEN)					
+1562	Tibetan (Written)	WT	24	AW-TBT	xct	307	TIBETAN (WRITTEN)					
+1563	Tibetan (Written)	tib	24	BM-PK7	xct	307	TIBETAN (WRITTEN)					
+1564	Tibetan (Written)	Tibetan (Wr)	24	GEM-CNL	xct	307	TIBETAN (WRITTEN)					
+1565	Tibetan (Written)	Tibetan	24	GHL-PPB	xct	307	TIBETAN (WRITTEN)					
+1566	Tibetan (Written/Western?)	W	24	HAJ-TED	xct	307	TIBETAN (WRITTEN)	HAJ-TED	WT1			
+1567	Tibetan (Written)	WT	24	HAJ-TED	xct	307	TIBETAN (WRITTEN)	HAJ-TED	WT1		383	
+1568	Tibetan (Written)	WT	24	JAM-Ety	xct	307	TIBETAN (WRITTEN)	HAJ-TED	WT1		383	
+1569	Tibetan (Written)	WT	24	JAM-GSTC	xct	307	TIBETAN (WRITTEN)	HAJ-TED	WT1		383	
+1570	Tibetan (Written)	WT	24	JAM-II	xct	307	TIBETAN (WRITTEN)	***				
+1571	Tibetan (Written)	WT	24	JAM-PC	xct	307	TIBETAN (WRITTEN)	***				
+1572	Tibetan (Written)	WT	24	JAM-TIL	xct	307	TIBETAN (WRITTEN)	HAJ-TED	WT1		383	
+1573	Tibetan (Written)	WT	24	JAM-TJLB	xct	307	TIBETAN (WRITTEN)	HAJ-TED	WT1		383	
+1574	Tibetan (Written)	WT	24	JAM-VSTB	xct	307	TIBETAN (WRITTEN)	HAJ-TED	WT1		383	
+1575	Tibetan (Written)	WTibetan	24	JS-Tib	xct	307	TIBETAN (WRITTEN)	HAJ-TED	WT1		383	
+1576	Tibetan (Written)	WT	24	PC	xct	307	TIBETAN (WRITTEN)					
+1577	Tibetan (Written)	T	24	RJL-DPTB	xct	307	TIBETAN (WRITTEN)	HAJ-TED				<STC
+1578	Tibetan (Written)	T	24	STC	xct	307	TIBETAN (WRITTEN)					don’t use
+1579	Tibetan (Written)	OT	24	WSC-SH	xct	307	TIBETAN (WRITTEN)					don’t use
+1580	Tibetan (Written)	T	24	WSC-SH	xct	307	TIBETAN (WRITTEN)					don’t use
+1581	Tibetan (Written)	Lhasa	24	ZLS-Tib	xct	307	TIBETAN (WRITTEN)					don’t use
+1582	Tibetan (Written)	WT1	24	ZMYYC	xct	307	TIBETAN (WRITTEN)			donÕt use		
+1584	Tibetan (Amdo:Zeku)	Amdo	24	JS-Amdo	adx	294	TIBETAN (AMDO/Z)	JS-Amdo				
+1585	Tibetan (Amdo:Zeku)	Tibetan.Amdo5	24	ZMYYC	adx	294	TIBETAN (AMDO/Z)	ZMYYC	TibA2		389	
+1586	Tibetan (Balti)	Balti	24	RAN1975	bft	295	TIBETAN (BALTI)	RAN1975	TibBl1		391	PRS     ;  (=sBalti)
+1587	Tibetan (Balti)	West T(Balti)	24	STC	bft	295	TIBETAN (BALTI)					
+1588	Tiddim	Tiddim	68	ACST	ctd	309	TIDDIM	EJAH-TC				
+1589	Tiddim	Tid	68	AW-TBT	ctd	309	TIDDIM	AW-TBT				
+1590	Tiddim	Tiddim	68	EJAH-TC	ctd	309	TIDDIM	EJAH-TC	Tidd1			
+1591	Tiddim	Chin Tedim	68	GHL-PPB	ctd	309	TIDDIM					
+1592	Tiddim	Tedim	68	GHL-PPB	ctd	309	TIDDIM					
+1593	Tiddim	TC	68	JAM-Ety	ctd	309	TIDDIM	EJAH-TC	Tidd1		410	
+1594	Tiddim	Tiddim	68	JAM-GSTC	ctd	309	TIDDIM	EJAH-TC	Tidd1		410	
+1595	Tiddim	Tiddim Chin	68	JAM-VSTB	ctd	309	TIDDIM	EJAH-TC				
+1596	Tiddim	OT-KnsI	68	OT-KnsI	ctd	309	TIDDIM	OT-KnsI				
+1597	Tiddim	TC	68	PB-TCV	ctd	309	TIDDIM					what connex w/ EJAH
+1598	Tiddim	Tiddim	68	RJL-DPTB	ctd	309	TIDDIM	EJAH-TC				
+1599	Pyu [Tircul]	Tircul (Pyu)	44	GHL-PPB	pyx	236	PYU					
+1600	Tosu	Tosu	34	NT-Tosu	ers	205	TOSU	NT-Tosu	Tosu1		413	should this be under Qiangic? [yes -DY]
+1602	Trung [Dulong]	Trung	38	ACST	duu	310	TRUNG	STC				
+1603	Trung [Dulong]	Tg	38	JAM-Ety	duu	310	TRUNG	LCP-Trung				
+1604	Trung [Dulong]	Tg	38	JAM-GSTC	duu	310	TRUNG	LCP-Trung				
+1605	Trung [Dulong]	Tg	38	JAM-II	duu	310	TRUNG					
+1606	Trung [Dulong]	Trung	38	LCP-Trung	duu	310	TRUNG	LCP-Trung?				
+1607	Trung [Dulong]	Trung	38	RJL-DPTB	duu	310	TRUNG	LCP-Trung ?				
+1611	Tujia	TujB	41	CK-TujBQ	tji	313	TUJIA	CK-TujBQ				appears to be Northern Tujia (cf. JZ-Tujia)
+1612	Tujia	TujM	41	CK-TujMQ	tjs	314	TUJIA	CK-TujMQ				appears to be Southern Tujia (cf. JZ-Tujia)
+1613	Tujia	Tujia	41	DQ-Tujia		313	TUJIA	DQ-Tujia				
+1614	Tujia	Tujia	41	PC	tji	313	TUJIA					Northern Tujia?
+1615	Tujia	Tujia38	41	ZMYYC	tji	313	TUJIA					appears to be Northern Tujia (cf. JZ-Tujia)
+1616	Tujia (Northern)	TJls	41	JZ-Tujia	tji	313	TUJIA	JZ-Tujia	Tuji1		419	(Longshan County)
+1617	Tujia (Southern)	TJlx	41	JZ-Tujia	tjs	314	TUJIA	JZ-Tujia	Tuji2		421	(Luxi County)
+1618	Ugong	Ugong	48	DB-Ugong	ugo	243	UGONG	DB-Ugong	Ugon1		423	
+1619	Ugong	Kanburi Lawa=Ugong	48	STC	ugo	243	UGONG					
+1621	Hayu	Vayu	30	HOD1857	vay	116	HAYU	HOD1857?				
+1622	Hayu	Vayu	30	LSI	vay	116	HAYU	LSI?				
+1623	Vietnamese	Vn	57	ACST	vie	204	VIETNAMESE					
+1624	Waling	Waling	29	ACST	wly	315	WALING					
+1625	Waling	Waling	29	STC	wly	315	WALING					
+1626	Wanang	Wanang	82	JAM-Ety	kdq	316	WANANG	RB-PB				
+1627	Wanang	Wanang	82	RB-PB	kdq	316	WANANG	RB-PB	Wana1		425	
+1628	Wancho	Wancho	85	GEM-CNL	nnp	317	WANCHO	PEA1972, PEA1873	Wanc1		426	
+1629	Wancho	Wan	85	JAM-Ety	nnp	317	WANCHO	GEM-CNL				
+1630	Wancho	Wancho	85	JAM-GSTC	nnp	317	WANCHO	GEM-CNL				
+1631	Wancho	Wancho	85	JAM-TSR	nnp	317	WANCHO					
+1632	Wancho	Wa	85	WTF-PNN	nnp	317	WANCHO	GEM-CNL	Wanc1		426	
+1633	Womatu	Womatu	69	GHL-PPB	hlt	185	WOMATU					prob. Matu Chin
+1634	Woni	Woni	48	JAM-GSTC	how	114	WONI	YC-Woni				
+1635	Woni	Wo	48	JAM-TSR	how	114	WONI	YC-Woni				
+1636	Woni	Woni	48	YC-Woni	how	114	WONI	YC-Woni				
+1638	Xongsai	Xongsai	71	GHL-PPB	mrh	320	XONGSAI					=Tlongsai (Mara)?
+1639	Yacham	Yacham	63	GEM-CNL	njo	321	YACHAM					This is Yacham of Yacham-Tengsa.
+1640	Yacham-Tengsa	Yacham-Tengsa	63	GEM-CNL	njo	322	YACHAM-TENGSA	JPM-Ao	Yach1		431	
+1641	Yacham-Tengsa	Yacham-Tengsa	63	WTF-PNN	njo	322	YACHAM-TENGSA					
+1642	Yakha	Yakha	31	ACST	ybh	323	YAKHA					
+1643	Yakha	Yakha	31	STC	ybh	323	YAKHA					
+1644	Yakha	Yakha	31	TK-Yakha	ybh	323	YAKHA	TK-Yakha	Yakh1		433	
+1645	Yakha	Yakha	31	WSC-SH	ybh	323	YAKHA					
+1646	Yakkha-Dewan	Yak-Dew	31	AW-TBT	ybh	323	YAKHA					
+1648	Yakha	Yak	31	AW-TBT	ybh	323	YAKHA					
+1649	Yamphe	Yam	31	AW-TBT	yma	324	YAMPHE					Probably the same as Yamphu Rai(?)
+1650	Yangphe	Yangphe	31	AW-TBT	yma	324	YANGPHE					Probably the same as Yangphu = Yamphu Rai (?)
+1651	Yano	Yano Bengni	73	BOR1938	njz	305	YANO	BOR1938				
+1652	Yano	Yano B	73	JS-HCST	njz	305	YANO	BOR1938				
+1653	Yawdwin	Yawdwin	8	ACST	mwq	77	YAWDWIN					
+1654	Yawdwin	Yawdwin	8	STC	mwq	77	YAWDWIN					
+1655	Yi (Dafang)	Dafang	46	DQ-Dafang	yig	326	YI (DAFANG)					
+1656	Yi (Dafang)	YIdf	46	JZ-Yi	yig	326	YI (DAFANG)		YiDf1		434	
+1657	Yi (Dafang)	Dafang	46	PC	yig	326	YI (DAFANG)					
+1658	Yi (Dafang)	Yi.Dafang22	46	ZMYYC	yig	326	YI (DAFANG)	ZMYYC	YiDf1		434	
+1659	Yi (Liangshan)	Yi	46	LI1981	iii	332	YI (LIANGSHAN)	LI1981?				
+1660	Yi (Liangshan)	Yi (Liangshan)	46	PC	iii	332	YI (LIANGSHAN)					
+1661	Yi (Lishan)	YIls	46	DLF-Gazhuo	nos	327	YI (LISHAN)					Lishan is in Tonghai County
+1662	Yi (Mile)	Yi.Mile25	46	ZMYYC		328	YI (MILE)	ZMYYC	YiMl1		435	
+1663	Yi (Mojiang)	Yi.Mojiang26	46	ZMYYC	nsd	329	YI (MOJIANG)	ZMYYC	YiMj1		437	
+1664	Yi (Nanhua)	Yi.Nanhua24	46	ZMYYC	ycl	330	YI (NANHUA)	ZMYYC	YiNh1		439	
+1665	Yi (Nanjian)	YInj	46	JZ-Yi	ywt	331	YI (NANJIAN)	JZ-Yi	YiNj1		440	
+1666	Yi (Nanjian)	Yi.Nanjian23	46	ZMYYC	ywt	331	YI (NANJIAN)	ZMYYC	YiNj1		440	
+1667	Yi (Xide)	XYi	46	CSL-YIzd	iii	332	YI (XIDE)	CSL-YIzd				
+1668	Yi (Xide)	Xide Loloish	46	JAM-GSTC	iii	332	YI (XIDE)					
+1669	Yi (Xide)	YIxd	46	JZ-Yi	iii	332	YI (XIDE)	JZ-Yi	YiXd1		442	
+1670	Yi (Xide)	Yi.Xide21	46	ZMYYC	iii	332	YI (XIDE)	ZMYYC	YiXd1		442	
+1671	Yimchungrü	Yim	63	AW-TBT	yim	333	YIMCHUNGER	AW-TBT				
+1672	Yimchungrü	Yimchungrü	63	GEM-CNL	yim	333	YIMCHUNGER	GEM-Yimch	Yimc1		444	
+1674	Tangsa (Yogli)	Yogli	84	JAM-GSTC	nst	277	TANGSA (YOGLI)	GEM-CNL				
+1675	Tangsa (Yogli)	Yo	84	WTF-PNN	nst	275	TANGSA (YOGLI)	GEM-CNL				
+1676	Naxi (Yongning)	Naxi.Yongning29	43	ZMYYC	nbf	210	NAXI	ZMYYC	Naxi1		282	Yongning=Moso
+1677	Atsi [Zaiwa]	Atsi	44	ACST	atb	334	ZAIWA					
+1678	Atsi [Zaiwa]	Atsi (Burling)	44	ACST	atb	334	ZAIWA					
+1679	Atsi [Zaiwa]	Atsi	44	AW-TBT	atb	334	ZAIWA					
+1680	Atsi [Zaiwa]	Zaiwa	44	DQ-Zaiwa	atb	334	ZAIWA					
+1681	Atsi [Zaiwa]	Atsi	44	GHL-PPB	atb	334	ZAIWA					
+1682	Atsi [Zaiwa]	Zaiwa	44	JAM-Ety	atb	334	ZAIWA					
+1683	Atsi [Zaiwa]	Ats	44	JAM-GSTC	atb	334	ZAIWA	RB-PLB				
+1684	Atsi [Zaiwa]	At	44	JAM-TSR	atb	334	ZAIWA	RB-PLB				
+1685	Atsi [Zaiwa]	Atsi	44	JAM-VSTB	atb	334	ZAIWA	RB-PLB				
+1686	Atsi [Zaiwa]	ZW	44	JZ-Zaiwa	atb	334	ZAIWA		Zaiw2		446	
+1687	Atsi [Zaiwa]	Atsi	44	RB-PLB	atb	334	ZAIWA	RB-PLB	Zaiw1		445	
+1688	Atsi [Zaiwa]	Zaiwa	44	PC	atb	334	ZAIWA					
+1689	Atsi [Zaiwa]	Atsi	44	RJL-DPTB	atb	334	ZAIWA	JAM				
+1690	Atsi [Zaiwa]	Zaiwa	44	RJL-DPTB	atb	334	ZAIWA	JZ-Zaiwa				
+1691	Atsi [Zaiwa]	Atsi	44	STC	atb	334	ZAIWA					
+1692	Atsi [Zaiwa]	Zaiwa	44	YS-Zaiwa	atb	334	ZAIWA	YS-Zaiwa	Zaiw3		448	
+1693	Atsi [Zaiwa]	Zaiwa42	44	ZMYYC	atb	334	ZAIWA	ZMYYC	Zaiw2		446	
+1694	Zeme	Zeme	64	GEM-CNL	nzm	335	ZEME	GEM-Zeme	Zeme1		451	
+1695	Zeme	Zem	64	AW-TBT	nzm	335	ZEME					
+1696	Zeme	Zemei	64	JAM-GSTC	nzm	335	ZEME					
+1697	Zerungge Rai	Zer	29	AW-TBT		241	ZERUNGGE					
+1698	Queyu (Yajiang) [Zhaba]	Zhaba	34	SHK-ZhabQ	qvy	337	QUEYU	SHK-ZhabQ				
+1699	Queyu (Yajiang) [Zhaba]	Queyu16	34	ZMYYC	qvy	337	QUEYU		Zhab1		453	
+1700	Zotung	Zotung (V)	71	GHL-PPB	czt	338	ZOTUNG					
+1701	Zotung	Zot	71	JAM-Ety	czt	338	ZOTUNG					
+1702	Sak	Sak	40	LB-LC	ckh	250	SAK	LB-LC	Sak1		342	entered by Leela
+1703	Lahu (Nyi)	Nyi	47	DB-Lahu	lhu	153	LAHU	DB-Lahu				
+1704	Lahu (Shehleh)	Shehleh	47	DB-Lahu	lhu	151	LAHU	DB-Lahu				
+1705	Pwo (Moulmein)	Pwo Karen	50	AP-Pwo	kjp	230	PWO (MOULMEIN)					PC letter to Jim
+1706	Akha	Akha	48	ILH-PCAH	ahk	35	AKHA		Akha1		11	
+1707	Apatani	Apatani A	73	JS-HCST	apt	44	APATANI	ABR1985	Apat1		25	
+1708	Tshona (Mama)	CNmm	22	JZ-CNMenba	twm	199	MONPA CU S		Cuon2		82	=Southern dial.
+1709	Jingpho	Jingpho	37	OH-GKL	kac	123	JINGPHO		Jing3		144	
+1710	Thakali	Thakali (Tukche)	23	HAR1969	ths	285	THAKALI		Thak3			
+1717	Akha	Akha	48	STC	ahk	35	AKHA					
+1718	Tibetan (Amdo:Zeku)	Amdo T	24	STC	adx	294	TIBETAN (AMDO/Z)					
+1719	Anong	Anong	38	STC	nun	220	NUNG					
+1720	Anu	Anu	38	STC	anl	345	ANU					"may be same as Anal or Nung (Rawang); STC says ""Anu (S. Kuki)"""
+1721	Intha	B(Intha)	44	STC	int	121	INTHA					
+1722	*Bodo-Garo	B-G	16	STC		8	*BODO-GARO					
+1723	Wancho	Banpara	85	STC	nnp	317	WANCHO					
+1724	Bisu	Bisu	48	STC	bzi	61	BISU					
+1725	*Bodish	Bodish	22	STC		7	*BODISH					
+1726	Chinese (Cantonese)	Cantonese	55	STC	yue	79	CHINESE (CANT)					
+1727	Chourasya	Chourasya	18	STC	wme	88	CHOURASYA					
+1728	Deori/Deuri	Deori	83	STC	der	93	DEORI					
+1729	rGyalrong (Tsuta)	Gyarung Tsuta	78	STC	jya	110	GYARONG					
+1730	Hani	Hani	48	STC	hni	111	HANI					
+1731	Tangut [Xixia]	Hsi-hsia	33	STC	txg	278	TANGUT					
+1732	*Kuki-Naga	K-N	3	STC		13	*KUKI-NAGA					
+1733	Jingpho (Assam)	Kachin(Assam)	37	STC	kac	123	JINGPHO A					
+1734	Jingpho (Hkauri)	Kachin(K)	37	STC	kac	123	JINGPHO HK					
+1735	Jingpho	Kachin(Maran)	37	STC	kac	123	JINGPHO					
+1736	*Karen	Karen	50	STC		11	*KAREN					proto-Karen
+1737	White Karen	Karen(White)	50	STC	kvq	106	KAREN					Also Geba, Karenbyu
+1738	Red Karen	Karenni	50	STC	eky	130	KAREN					Also Kayah
+1739	Lahu	Lahu(Telford)	47	STC	lhu	151	LAHU	Telford				
+1740	Anong (Rawang/Lungmi)	Lungmi	38	STC	raw	220	NUNG	N. Bodman				
+1741	Anong (Rawang/Metu)	Metu	38	STC	duu	220	NUNG					
+1742	Mikir [Karbi]	Mikir(Modern)	14	STC	mjw	190	MIKIR					
+1743	Old Mikir [Karbi]	Mikir(Old)	14	STC	mjw	190	MIKIR O					
+1744	Anong (Rawang/Mutwang)	Mutwang	38	STC	raw	220	NUNG					
+1745	Lotha Naga	Naga(Lhota)	63	STC	njh	172	LOTHA NAGA					
+1746	Nasu	Nasu	46	STC	ywq	209	NASU					
+1747	*Nungish	Nungish	38	STC		220	NUNG					
+1748	Pai-lang	Pai-lang	57	STC		359	!PAI-LANG					TB lg. from Bailangge (白狼歌)
+1749	Palaychi	Karen (Palaychi)	50	STC	kpp	225	PALAYCHI					Bradley 1997:48 says Palaychi=Mopwa
+1750	Pwo	Pwo	50	STC		228	PWO					
+1751	Pwo (Bassein)	Pwo(B)	50	STC	pwo	229	PWO (BASSEIN)					
+1752	Pwo (Moulmein)	Pwo(M)	50	STC	kjp	230	PWO (MOULMEIN)					
+1753	Pyu	Tircul (Pyu)	44	STC	pyx	236	PYU					
+1754	Anong (Rawang)	Rawang	38	STC	raw	220	NUNG					
+1755	Karen (Sgaw)	Sgaw	50	STC	ksw	257	SGAW					
+1756	*Tibeto-Karen	TK	2	STC		24	*TIBETO-KAREN					
+1757	Konyak (Tableng)	Tableng	85	STC	nbe	147	KONYAK TAB					
+1758	Phom	Tamlu	85	STC	nph	231	PHOM					
+1759	Pa-O	Taungthu	50	STC	blk	223	PA-O					
+1760	Thakali	Thakali	23	STC	ths	285	THAKALI					
+1761	Thulung	Thulungya	30	STC	tdh	292	THULUNG					
+1762	Tiddim	Tiddim	68	STC	ctd	309	TIDDIM					
+1763	Rangloi [Tinan]	Tinan	20	STC	lbf	155	RANGLOI					
+1764	Toto	Toto	18	STC	txo	366	TOTO					
+1765	Trung [Dulong]	Trung	38	STC	duu	310	TRUNG					
+1770	Akha	Akha	48	PL-AED	ahk	35	AKHA		Akha2		12	
+1771	Belhare	Belhare	31	BB-Belhare	byw	57	BELHARE					
+1773	Lisu	Lisu	47	JAM-DL	lis	168	LISU	unknown				
+1774	Hani	Hani	48	JAM-DL	hni	111	HANI	unknown				
+1775	Kanauri	Kanauri	20	RSB-STV	kfk	129	KANAURI	Bailey 1911				
+1776	Yi (Southern)	Southern Yi	46	RSB-STV		367	YI (SOUTHERN)	Bradley P.C.				SouthernNisu [nsd]?
+1777	Moso (Weixi)	Moso-Weihsi	43	RSB-STV	nbf	200	MOSO	Bradley P.C.				
+1778	Tiddim	TC	68	PB-CLDB	ctd	309	TIDDIM					
+1779	Lushai [Mizo]	L	70	PB-CLDB	lus	175	LUSHAI					
+1780	Ahi	axi	47	CK-CS	yix	32	AHI		Ahi3			almost same dial. as ZMYYC #25 Yi:Mile
+1781	Lalo	lalo	46	CK-CS	ywt	160	LALO		Lalo1			CK-YiQ=CK-CS
+1782	Lipho	lipho	46	CK-CS	lpo	167	LIPHO		Li1			
+1783	Nasu	nasu	46	CK-CS	ywq	209	NASU		Nasu1			
+1784	Noesu	noesu	46	CK-CS		217	NOESU		Noes1			
+1785	Nosu	nosu	46	CK-CS	iii	218	NOSU		Nosu1			
+1786	Sani [Nyi]	sani	47	CK-CS	ysn	222	NYI		Nyi1			
+1788	Kanauri	Kan	20	BAI1911	kfk	129	KANAURI				156	
+1789	Newar	Newari	27	CG-NewariQ2	new	213	NEWAR					
+1790	PNL	PNL	45	CK-CS		388	PNL					Proto-Northern-Loloish?
+1791	Neisu	neisu	46	CK-CS		196	NEISU					check src
+1792	Nishing	Dafla	73	KDG-Daf	njz	215	NISHING	KDG-Daf	Nish3		297	
+1793	Bai (Dali)	Bai	51	Dell-Bai	bfs	372	BAI DL					Dali Bai
+1794	Tiddim	EJAH-TC	68	EJAH-TC	ctd	309	TIDDIM				410	
+1796	rGyalrong	Gyarong.Nagano	78	Gyarong.Nag	jya	110	GYARONG.NAGANO					
+1797	Caodeng	Caodeng	78	JS-Caodeng	jya	110	GYARONG					
+1798	Shili	Shili	78	JS-Shili	jya	343	SHILI					JS: variety of Showu (alias Ribu) rGyalrong, one of the four languages (“dialects”) of closely-knit rGyalrong cluster
+1799	rGBenzhen	rGBenzhen	78	JS-rGBenzhe	jya	341	RGBENZHEN					"JS: ""a variety of Situ or Eastern rGyalrong, the best-known representative variety of which is Zhuokeji (Cogtse)"""
+1800	Darang [Taraon]	Taraon	6	NEFA-Taraon	mhu	91	DARANG					
+1801	Bantawa	Bant	76	NKR-Bant	bap	55	BANTAWA				40	
+1802	Kuki-Chin	KC	68	Qbp-KC	tcz	283	KC					appears to be Thado
+1803	Sema [Sumi]	Sumi	65	Qbp-Sumi	nsm	255	SUMI					
+1804	Tibetan (Written)	WT 01	24	TBL	xct	307	TIBETAN (WRITTEN)					
+1805	Pumi (Jiulong)	Pumi (Jiulong) 10	34	TBL	pmi	235	PUMI (JIULONG)					
+1806	rGyalrong (Maerkang)	rGyarong 11	78	TBL	jya	110	GYARONG					
+1807	Daofu	Daofu 12	35	TBL	ero	100	ERGONG					
+1808	Queyu (Xinlong)	Queyu (Xinlong) 13	34	TBL	qvy	337	QUEYU					
+1809	Zhaba (Daofu County)	Zhaba 14	34	TBL	zhb	364	ZHABA					
+1810	Muya	Muya 15	34	TBL	mvm	180	MUYA					
+1811	Guiqiong	Guiqiong 16	34	TBL	gqi	108	GUIQIONG					
+1812	Xumi	Shixing 17	34	TBL	sxg	261	XUMI					"called ""Shixing"" by SHK"
+1813	Lyuzu	Lusu 18	34	TBL	ers	240	LYUZU					
+1814	Jingpho	Jingpho 19	37	TBL	kac	123	JINGPHO					
+1815	Tibetan (Lhasa)	Tibetan (Lhasa) 02	24	TBL	bod	301	TIBETAN (LHASA)					
+1816	Dulong	Dulong 20	38	TBL	duu	310	TRUNG					
+1817	Nung	Nung 21	38	TBL	nun	220	NUNG					
+1818	Darang [Taraon]	Darang Deng 22	6	TBL	mhu	91	DARANG					
+1819	Kaman [Miju]	Geman Deng 23	6	TBL	mxj	107	GEMAN					
+1820	Bokar	Bokar 24	73	TBL	adi	63	BOKAR					
+1821	Yidu	Yidu 25	6	TBL	clk	120	YIDU					
+1822	Burmese (Written)	WB 26	44	TBL		69	BURMESE (WRITTEN)					
+1823	Burmese (Rangoon)	Burmese (Rangoon) 27	44	TBL	mya	67	BURMESE (RANGOON)					
+1824	Achang (Longchuan)	Achang 28	44	TBL	acn	29	ACHANG LO					
+1825	Achang (Xiandao)	Xiandao 29	44	TBL	xia	31	ACHANG X					
+1826	Tibetan (Batang)	Tibetan (Batang) 03	24	TBL	khq	296	TIBETAN (BATANG)					
+1827	Atsi [Zaiwa]	Zaiwa 30	44	TBL	atb	334	ZAIWA					
+1828	Langsu (Luxi)	Langsu 31	44	TBL	mhx	184	LANGSU					
+1829	Bola (Luxi)	Bola 32	44	TBL	bxd	64	BOLA					
+1830	Leqi (Luxi)	Leqi 33	44	TBL	lsi	163	LEQI					
+1831	Nusu (Central)	Nusu 34	46	TBL	nuf	221	NUSU					
+1832	Yi (Xide)	Yi (Xide) 35	46	TBL	iii	332	YI (XIDE)					
+1833	Yi (Weishan)	Yi (Weishan) 36	46	TBL		369	YI (WEISHAN)					Xishanba Lalo [ywt] or Dongshanba Lalo [yik]? 
+1834	Yi (Nanhua)	Yi (Nanhua) 37	46	TBL	ycl	330	YI (NANHUA)					
+1835	Yi (Wuding)	Yi (Wuding) 38	46	TBL	ywq	368	YI (WUDING)					
+1836	Yi (Sani)	Yi (Sani) 39	47	TBL	ysn	222	NYI					
+1837	Tibetan (Xiahe)	Tibetan (Xiahe) 04	24	TBL	adx	294	TIBETAN (XIAHE)					Labrang monastery is in Xiahe
+1838	Lisu	Lisu 40	47	TBL	lis	168	LISU					
+1839	Hani (Lüchun)	Hani  (Luchun) 41	48	TBL	enu	113	HANI  (LUCHUN)					
+1840	Hani (Mojiang)	Hani (Mojiang) 42	48	TBL	how	114	HANI (MOJIANG)					
+1841	Lahu (Lancang)	Lahu (Lancang) 43	47	TBL	lhu	151	LAHU (LANCANG)					
+1842	Jinuo	Jinuo 44	47	TBL	jiu	125	JINUO					appears to be Youle (cf. JZ-Jinuo)
+1843	Naxi	Naxi 45	43	TBL	nbf	210	NAXI					
+1844	Namuyi	Namuyi 46	34	TBL	nmy	208	NAMUZI					
+1845	Gazhuo	Gazhuo 47	46	TBL	kaf	105	GAZHUO					
+1846	Bai (Jianchuan)	Bai 48	51	TBL	bca	373	BAI JC					Jianchuan Bai
+1847	Tujia	Tujia 49	41	TBL	tji	313	TUJIA					appears to be N. Tujia (cf. JZ-Tujia)
+1848	Tibetan (Alike)	Tibetan (Alike) 05	24	TBL	adx	68	TIBETAN (ALIKE)					need location
+1849	Karen	Karen 50	50	TBL	ksw	257	KAREN (KELUN)					appears to be Sgaw (cf. DQ-KarenB)
+1850	Cuona Menba	Cuona Menba 06	22	TBL	twm	199	TSHONA					
+1851	Motuo Menba	Motuo Menba 07	22	TBL	tsj	195	MOTUO MENBA					
+1852	Qiang (Mawo)	Qiang  (Mao) 08	34	TBL	cng	238	QIANG M					
+1853	Pumi (Lanping)	Pumi (Lanping) 09	34	TBL	pmj	234	PUMI (LANPING)					
+1855	Inscriptional Burmese (=Pagan)	Burm-Insc	44	STC	obr	69						
+1856	Newar	Newari	27	CG-NewariQ3	new	213	NEWAR					
+1857	Sema [Sumi]	Sumi	65	Qno-Sumi	nsm	255	SUMI					
+1858	Chantyal	ChanQ	23	PC	chx	75	CHANTYAL	NPB-ChanQ	Chtl1			
+1859	Tibetan (Written)	WT	24	DAS-TED	xct	307	TIBETAN (WRITTEN)	DAS-TED	WT1			
+1860	Burmese (Written)	WB	44	AJ-BED		69	BURMESE (WRITTEN)	AJ-BED	Burm1			Perhaps a note saying AJ-BED also source of numerous other srcs?
+1861	Naxi (Lijiang)	COM	43	TMP-Naqxi	nbf	210						
+1862	Naxi (Longquan)	LQ	43	TMP-Naqxi	nbf	210						
+1863	Naxi (Dayan)	DYZ	43	TMP-Naqxi	nbf	210						
+1864	Naxi (Badian)	BD	43	TMP-Naqxi	nbf	210						
+1865	Bodo	Boro	80	DM-BoroQno	brx	62	BODO					
+1866	Bodo	Boro	80	DM-BoroQan	brx	62	BODO					
+1867	Garo	Garo	81	DM-GaroQan	grt	104	GARO					
+1868	Garo	Garo	81	DM-GaroQno	grt	104	GARO					
+1869	Koch	Koch	82	DM-KQno	kdq	316	KOCH					
+1870	Koch	Koch	82	DM-KQan	kdq	316	KOCH					
+1871	Koch (Tintekiya)	TKoch	82	DM-TKQan	kdq	316	KOCH T					
+1872	Koch (Tintekiya)	TKoch	82	DM-TKQno	kdq	316	KOCH T					
+1873	Yamphu	Yam	31	RR-Yamphu	ybi	272	YAM					
+1874	Sani [Nyi]	Sani	47	JAM-TJLB	ysn	222	NYI					
+1875	Sgaw (Bassein)	BS	50	JAM-FM00	ksw	258	SGAW B	RBJ-KLS	Kare9			
+1876	Lai (Hakha)	Lai	70	DVB-LED	cnh	156	LAI					
+1877	Lalo	Lalo	46	SB-LaloGr	ywt	160	LALO	SB-Lalo	Lalo2			
+1878	Limbu	Limbu	31	SVD-LimA	lif	166	LIMBU	SVD-Lim	Limb1			best
+1909	Sani [Nyi]	Nyi	47	JAM-II	ysn	222	NYI					
+1910	Yi (Dafang)	Dafang	46	JAM-II	yig	326	YI (DAFANG)					
+1911	Phom	Phom	85	JAM-II	nph	231	PHOM					
+1912	Sulung [Puroik]	Sulong	4	JAM-II	suv	264	SULUNG	Sulong Jianzhi				JS-HCST:13 says Sulung is not Tani
+1913	Qiang (Mianchi)	Qiang.Mianchi	34	JAM-II	qxs	239	QIANG MIANCHI	Jonathan Evans, p.c.				
+1914	Yi (Xide)	Yi.Xide	0	JAM-II	iii	332	YI (XIDE)					
+1915	Yi (Xide)	Yi.Xide	46	JAM-II	iii	332	YI (XIDE)					
+1916	Newar	Newari	27	JAM-II	new	213	NEWAR	K. Malla, p.c.				
+1917	Lushai [Mizo]	Lushai	70	KVB-Lai	lus	175	LUSHAI					
+1918	Newar	Nw	27	KPM-pc	new	213	NEWAR					
+1919	Newar (Kathmandu)	NwKath	27	KPM-pc	new	213	NEWAR					
+1920	*Chin	PKC	8	KVB-PKC		346	*CHIN					
+1921	Lakher [Mara]	Lk	71	KVB-PKC	mrh	159	LAKHER					
+1923	Lai (Falam)	Falam	70	KVB-PKC	cfm	158	LAI					
+1924	Lushai [Mizo]	Mizo	70	KVB-PKC	lus	175	LUSHAI					
+1925	Tiddim	Tiddim	68	KVB-PKC	ctd	309	TIDDIM					
+1926	Thado	Thado	68	KVB-PKC	tcz	283	THADO					
+1927	Sizang	Sizang	68	KVB-PKC	csy	262	SIZANG					
+1928	Cho (Mindat)	Cho	69	KVB-PKC	mwq	77	CHO					
+1929	Khumi	Khumi	69	KVB-PKC	cnk	134	KHUMI					
+1930	Paite	Paite	68	KVB-PKC	pck	342	PAITE					
+1931	Newar (Dolakhali)	NwDol	27	KPM-pc	new	213	NEWAR					
+1932	Khumi (Bangladesh)	Khumi	69	DAP-Chm	cnk	134	KHUMI B					
+1933	Mishing [Miri]	Miri	74	PKB-KSEA	mrg	192	MIRI					lgname changed from Mising>Mishing in response to letter from Mishing Society
+1934	Padam [Abor]	Abor	74	PKB-KSEA	adi	25	ABOR					
+1935	Nishi [Dafla]	Dafla	73	PKB-KSEA	njz	215	NISHI					
+1936	Tagin	Tagen	73	PKB-KSEA	tgj	266	TAGIN					
+1937	Lepcha	Lepcha	21	PKB-KSEA	lep	164	LEPCHA					
+1938	Nung (Rawang)	Nung	38	PKB-KSEA	raw	220	NUNG					
+1939	Sulung [Puroik]	Sulung	4	JS-HCST	suv	264	SULUNG					JS-HCST:13 says Sulung is not Tani
+1940	Bangru	Bangru	4	JS-HCST	hru	215	NISHI BANGRU					JS-HCST:13 says Bangru is not Tani
+1941	Sherdukpen	Sherdukpen	4	JS-HCST	sdp	340	SHERDUKPEN					
+1942	Tableng	Tableng	85	PKB-KSEA	nbe	147	TABLENG					
+1943	Nocte (Namsang)	Namsang	84	PKB-KSEA	njb	216	NOCTE NAM					
+1944	Tangsa (Moshang)	Moshang	84	PKB-KSEA		276	TANGSA (MOSHANG)					
+1945	Garo (Bangladesh)	Garo	81	RB-LMMG	grt	104	GARO B					
+1946	Chinese (Mandarin)	ChMand	55	JAM-Ety	cmn	80	CHINESE (MANDARIN)					
+1947	Lai (Hakha)	Hakha	70	KVB-PKC	cnh	156	LAI					
+1948	Asho	Asho	69	KVB-PKC	csh	46	ASHO					
+1949	Daai	Daai	69	KVB-PKC	dao	325	DAAI					
+1950	Kaang	Kaang	8	KVB-PKC		319	KAANG					"or ""Kaing"""
+1951	Matu	Matu	69	KVB-PKC	hlt	185	MATU					
+1952	Paangkhua	Pang	70	KVB-PKC	pkh	224	PAANG					(Paangkhua)
+1953	Daai	Daai	69	HSH-SCL	dao	325	DAAI					"""Yang Msaai village, belonging to the Yang subgroup"""
+1954	Nyhmoye	Nyhmoye	69	HSH-SCL		197	NYHMOYE					"""Poong Piin village"""
+1955	Ngmüün	Ngmüün	69	HSH-SCL	mwq	77	NGMUUN					"""Soong Tong village, belonging to the Ni Tu subgroup"""
+1956	Mkaang	Mkaang	69	HSH-SCL	dao	325	MKAANG					"""Hla Tui village"""
+1957	Chinbon	Chinpon	69	HSH-SCL	cnb	360	CHINBON					"""town of Kanpetlet"""
+1958	Matu	Matu	69	HSH-SCL	hlt	185	MATU					"""Hno Te village, belonging to the Va Lang subgroup"""
+1959	Khumi	Khomi	69	HSH-SCL	cnk	134	KHUMI					"""town of Paletwa"""
+1960	Wakung	Wakung	69	HSH-SCL	cka	143	WAKUNG					"""town of Paletwa"""
+1961	Pyen	Pyen	48	ST-PL	pyy	355	PYEN					
+1962	Yi (Liangshan)	Nuosu Yi	46	SIL-Nuosu	iii	332	YI (LIANGSHAN)					
+1963	Ao (Mongsen: Mangmetong)	Mangmetong Mongsen	63	ARC-GMA	njo	42	AO MONGSEN M					Mangmetong village variety
+1964	Sak	Cak	40	HK-Sak	ckh	250	SAK					
+1965	Marma	Marma	44	HK-Sak	rmz	43	MARMA					related to Rakhine
+1966	Tujia (Northern)	Tujia	41	PCB-Tujia	tji	313	TUJIA					
+1967	Tujia (Northern)	Tujia	41	BBL-TL	tji	313	TUJIA					
+1968	Sila	Sila	48	KT-LPDR	slt	279	SILA					
+1969	Kucong	Kucong	47	DC-Kucong	lkc	361	KUCONG					
+1970	Tangut [Xixia]	Xixia	33	LFW1997	txg	278	TANGUT					
+1971	Newar (Kathmandu)	Newari	27	TM-NED	new	213	NEWAR					'rainbow' forms from Kamal P. Malla
+1972	Tamang	Tamang	23	AH-TND		269	TAMANG					
+1973	Atong	Atong	82	SVB-GA	aot	47	ATONG					
+1974	Atong	Atong	82	SVB-PC	aot	47	ATONG					
+1975	Athpare (Rai)	Athpare	31	KE-GA	aph	241	ATHPARE					
+1976	Baram	Baram	20	TRK-Baram	brd	60	BARAM					
+1977	Chepang	Chepang	28	RC-DOC	cdm	76	CHEPANG					
+1978	Phom	Phom	85	BP-PPWL	nph	231	PHOM					
+1979	Galo	Galo	73	GLDC-GED	adl	102	GALO					
+1980	Gazhuo	Gazhuo	46	MS-Gazhuo	kaf	105	GAZHUO					
+1981	Kayan (Pekon)	Pekon Kayan	50	KM-Kayan	pdu	133	KAYAN					
+1982	Rawang	Rawang	38	RJL-Rawang	raw	220	NUNG					
+1983	*Central Chin	PCC	70	KVB-PKC		346	*CHIN C					
+1984	*Northern Chin	PNC	68	KVB-PKC		346	*CHIN N					
+1985	*Peripheral Chin	PPC	67	KVB-PKC		346	*CHIN P					"""PNC and PSPC"" (KVB-PKC: xxvi)"
+1986	*Southern Plains Chin	PSPC	69	KVB-PKC		346	*CHIN SP					
+1987	Deori/Deuri	Deuri	83	FJ-LD	der	93	DEORI					contains many Assamese loans
+1988	Lepcha	Lepcha	21	HP-GL	lep	164	LEPCHA					
+1990	*Sino-Tibetan	PST	1	RJL-DPTB		19	*SINO-TIBETAN					
+1991	Ao (Chungli)	Chungli	63	TT-APPA	njo	41	AO CHONGLI					
+1992	Ao (Mongsen)	Mongsen	63	TT-APPA	njo	42	AO MONGSEN					Mokokchung and Mangmetong varieties
+1993	Khaling	Khaling	77	RJL-DPTB	klr	131	KHALING	STC				
+1994	Balali	Balali	31	RJL-DPTB	raf	293	BALALI	STC				
+1995	Adi	Abor	74	RJL-DPTB	adi	25	ADI					
+1996	Qiang (Longxi)	LX	34	JPE-SQiang	qxs	239	QIANG L					Southern Qiang (Longxi dialect)
+1997	Qiang (Mianchi)	MC	34	JPE-SQiang	qxs	239	QIANG MIANCHI					Southern Qiang (Mianchi dialect)
+1998	Na (Yongning)	Na	43	AM-NaLaze1	nbf	210	NA					
+1999	Laze (Xiangjiao)	Laze	43	AM-NaLaze1	nbf	210	LAZE					
+2000	Sak	BCP	40	LB-Cak	ckh	250	SAK	Bernot (Pakistan)				
+2001	Sak	LCP	40	LB-Cak	ckh	250	SAK	Löffler (Pakistan)				
+2002	Sak	HdCA	40	LB-Cak	ckh	250	SAK	Hodgson (Arakan)				
+2003	Kadu	HtK	40	LB-Cak	zkd	126	KADU	Houghton (Katha)				
+2004	Kadu	LSIK	40	LB-Cak	zkd	126	KADU	LSI				
+2005	Andro	McAM	40	LB-Cak	kdv	37	ANDRO	McCulloch 1859				
+2006	Sengmai	McSM	40	LB-Cak	kdv	256	SENGMAI	McCulloch 1859				
+2007	Meithei	McMa	13	LB-Cak	mni	187	MEITHEI	McCulloch 1859				
+2008	Chairel	McChairel	40	LB-Cak		72	CHAIREL	McCulloch 1859				
+2009	Akha	Akha	48	JAM-DL	ahk	35	AKHA	ILH				
+2010	Limbu	Limbu	31	ISC-LNED	lif	166	Limbu					
+2011	*Lolo-Burmese	PLB	42	JAM-HPTB		15	*LOLO-BURMESE					
+2012	*Tibeto-Burman	PTB	2	JAM-HPTB		23	*TIBETO-BURMAN					
+2013	Bahing	Bahing	30	BMMM-Bbp	bhj	48	BAHING					
+2014	Jingpho	Jinghpaw	37	LRM-DMJ	kac	123	JINGPHO					
+2015	Na (Yongning)	Na	43	LAL-DGYN	nbf	210	NA					
+2016	Phola	Phola	75	JP-CPL	ypg	40	PHOLA					Yuanjiang County, Wadie, Luodie
+2017	Phuza	Phuza	75	JP-CPL	ypz	49	PHUZA					Mengzi County, Lengquan, Bujibai
+2018	Southern Muji	Southern Muji	75	JP-CPL	ymc	50	MUJI SOUTHERN					Jinping County, Adebo, Pujiazhai
+2019	Hlepho Phowa	Hlepho Phowa	75	JP-CPL	yhl	51	PHOWA HLEPHO					Pingbian County, Xinhua, Feizuke
+2020	Azha	Azha	75	JP-CPL	aza	52	AZHA					Wenshan County, Binglie Luojiayi
+2021	*Karen	PKaren	50	JAM-HPTB		11	*KAREN					
+2022	Kachai	1.Kachai	66	DRM-Tk		39	KACHAI	Mortensen				
+2023	Huishu	2.Huishu	66	DRM-Tk		83	HUISHU	Mortensen				
+2024	Tusom	3.Tusom	66	DRM-Tk		117	TUSOM	Mortensen				Tones omitted pending verification
+2025	Ukhrul	4.Ukhrul	66	DRM-Tk	nmf	274	UKHRUL	Bhat, Pettigrew, DRM				"DRM: ""a mixture of contemporary Ukhrul and the more conservative Standard Tangkhul"""
+2026	Tankghul (Central)	C.Tangkhul	66	BRO1837		274	TANGKHUL C	BRO1837				langid 10 in DRM db
+2027	Tangkhul (Northern)	N.Tangkhul	66	BRO1837		274	TANGKHUL N	BRO1837				langid 11 in DRM db
+2028	Tangkhul (Standard)	Luhuppa	66	BRO1837	nmf	274	TANGKHUL S	BRO1837				langid 12 in DRM db
+2029	Champhung	Champhung	66	BRO1837	nmf	135	CHAMPHUNG	BRO1837				langid 13 in DRM db
+2030	Sorbung	Sorbung	72	MK-Sorbung		136	SORBUNG					DRM: classify in 'Old Kuki' with Kom Rem and Moyon; langid 14 in DRM db
+2031	*Tangkhulic	17.PTk	66	DRM-Tk		157	*TANGKHULIC	Mortensen				
+2032	*Tibeto-Burman	18.PTB	2	DRM-Tk		23	*TIBETO-BURMAN	HPTB				
+2033	Sorbung	S.Tangkhul	72	BRO1837		136	SORBUNG	BRO1837				langid 9 in DRM db
+2034	Maring	Maring	11	BRO1837	nng	183	MARING	BRO1837				langid 6 in DRM db
+2035	Khoibu	Khoibu	8	BRO1837	nkb	140	KHOIBU	BRO1837				langid 7 in DRM db; GEM-CNL says this is a dialect of Maring
+2036	Rongmei / Nruanghmei	Kapwi	64	BRO1837	nbu	248	RONGMEI	BRO1837				langid 8 in DRM db; Inpui Naga [nkf] ??
+2037	*Northern Naga	PNN	12	JAM-HPTB		18	*NAGA (NORTHERN)	WTF-PNN				
+2038	*Karen	PK	50	TL-PK		11	*KAREN	TL-PK				
+2039	*Karen [Burling]	RB	50	TL-PK		11	*KAREN	RB-PKR				from Burling 1969
+2040	Pa-O (Northern)	N.PO	50	TL-PK	blk	223	PA-O					
+2041	Pa-O (Southern)	S.PO	50	TL-PK	blk	223	PA-O					
+2042	Kayan	KN	50	TL-PK	pdu	133	KAYAN					
+2043	Kayah	KH	50	TL-PK		130	KAYAH					
+2044	Bwe	BW	50	TL-PK	bwe	70	BWE	EJAH-BKD				from Henderson
+2045	Kayaw	KW	50	TL-PK	kvl	186	KAYAW					
+2046	Sgaw (Northern)	N.SG	50	TL-PK	ksw	257	SGAW					variety is unclear
+2047	Sgaw (Southern)	S.SG	50	TL-PK	ksw	257	SGAW					variety is unclear
+2048	Pwo (Northern)	N.PW	50	TL-PK	pww	374	PHO (NORTHERN)					
+2049	Pwo (Southern)	S.PW	50	TL-PK		228	PWO					variety is unclear
+2050	*Karen (Northern)	PNK	50	TL-PK		387	*KAREN (NORTHERN)					see src notes
+2051	*Karen (Central)	PCK	50	TL-PK		386	*KAREN (CENTRAL)					see src notes
+2052	*Karen (Southern)	PSK	50	TL-PK		385	*KAREN (SOUTHERN)					see src notes
+2053	Lahu (Yellow)	YL	47	JAM-DL	lhi	154	LAHU Y					
+2054	Lahu (Red)	RL	46	JAM-DL		379	LAHU					
+2055	Lahu (Yellow)	YL	47	JAM-PC	lhi	154	LAHU Y					
+2056	Lahu (Red)	RL	46	JAM-PC		379	LAHU					
+2057	Xumi (Upper)	Upper Xumi	34	KC-UXW	sxg	261	XUMI	KC-UXW				"distinct from ""Lower Xumi"""
+2059	Chinese (Old)	OC	53	GHC-RCC	och	78	CHINESE (OLD)					
+2060	Tibetan (Written)	WT	24	GHC-RCC	xct	307	TIBETAN (WRITTEN)					
+2061	Burmese (Written)	WB	44	GHC-RCC		69	BURMESE (WRITTEN)					
+2062	Phu Kha	Phu Kha	75	RF-PK	phh	375	PHU KHA					
+2063	Laghuu	Xa Pho	75	RF-PK	lgh	376	LAGHUU					
+2064	*Bodo-Garo	Proto-Bodo	16	RB-PB		8	*BODO-GARO	RB-PB				
+2065	*Koch	Proto-Koch	82	RB-PB		316	*KOCH	RB-PB				
+2066	*Garo-Kachari	Proto-Garo-Kachari	16	RB-PB		394	*GARO-KACHARI	RB-PB				
+2067	Daai	Daai	69	HSH-DCN	dao	325	DAAI					
+2068	*Kiranti	PK	29	JRO-Tilung		144	*KIRANTI					
+2069	Pa-O	Pa-O	50	JAM-HPTB	blk	223	PA-O	D. Solnit				
+2070	Pwo	Pwo	50	JAM-HPTB	pwo	228	PWO	D. Solnit				
+2071	Sgaw	Sgaw	50	JAM-HPTB	ksw	257	SGAW	D. Solnit				
+2072	Kayah Li	EKayah	50	JAM-HPTB	eky	130	KAYAH	D. Solnit				
+2073	Kayaw	KW	50	JAM-HPTB	kvl	186	KAYAW	D. Solnit				
+2074	Blimaw	Blimaw	50	JAM-HPTB		395	BLIMAW	D. Solnit				=Bwe?
+2075	Kokborok	Kokborok	80	JAM-HPTB	trp	145	KOKBOROK					
+2076	Meithei	Meithei	13	JAM-HPTB	mni	187	MEITHEI					
+2077	Tibetan (Written)	WT	24	GHC-OCP	xct	307	TIBETAN (WRITTEN)					
+2078	Chinese (Old)	OC	53	GHC-OCP	och	78	CHINESE (OLD)					
+2079	Lai (Hakha)	Lai	70	JAM-HPTB	cnh	156	LAI	KVB??				
+2080	Lushai [Mizo]	Mizo	70	JAM-HPTB	lus	175	LUSHAI	KVB				
+2081	Kulung	Kulung	76	STC	kle	149	KULUNG					
+2082	Tibetan (Balti)	Balti	24	STC	bft	295	TIBETAN (BALTI)					
+2083	Tibetan (Written)	Tibetan (Wr)	24	JAM-HPTB	xct	307	TIBETAN (WRITTEN)					
+2084	Tamang (Risiangku)	Tamang (Ris)	23	MM-PC	taj	270	TAMANG R	Personal communication				
+2085	Tamang (Sahu)	Tamang Sahu	23	MM-PC	tdg	271	TAMANG S	Personal communication				
+2086	Chantyal	ChanQ	23	MM-PC	chx	75	CHANTYAL	Personal communication				
+2087	Manang	Manang	23	MM-PC	nmm	177	MANANG	Personal communication				
+2088	Nepali	Nep	62	MM-PC	nep	211	NEPALI	Personal communication				
+2092	Tagin	Tagin	73	JAM-HPTB	tgj	266	TAGIN	?				
+2093	Khaling	Khaling	77	JAM-HPTB	klr	131	KHALING	?				
+2094	Luquan	Lu-Ch'üan	46	JAM-Quo		174	LUQUAN	JW-LC				
+2095	Bokar	Bokar Adi	73	JAM-HPTB	adi	63	BOKAR	?				
+2097	Chairel	Chairel	40	JAM-HPTB		72	CHAIREL	?				
+2098	Lahu (Black)	Lh	47	JAM-HPTB	lhu	152	LAHU B					
+2099	Burmese (Written)	WB	44	JAM-HPTB		69	BURMESE (WRITTEN)					
+2101	Chinese (Old)	OC	53	JAM-HPTB	och	78	CHINESE (OLD)					only JAM reconstructions (not GSR)
+2104	rGyalrong (Aba Kehe Shuiricun)	01kehe	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2108	Byangsi	Byangsi	20	SRS-TBLUP		71	BYANGSI					
+2109	Chaudangsi	Chaudangsi	20	SK-TBLUP		339	CHAUDANGSI					
+2110	Darma	Darma	20	SK-TBLUP		399	DARMA					
+2112	Raji	Raji	20	SK-TBLUP	rji	400	RAJI					
+2113	Rongpo	Rongpo	20	SRS-TBLUP		401	RONGPO					
+2116	Jingpho	Jingpho	37	JAM-HPTB	kac	123	JINGPHO	?				
+2117	Tangkhul	Tangkhul	66	JAM-HPTB	nmf	274	TANGKHUL	?				
+2118	Chinese (Middle)	Chinese	54	JAM-GSTC		81	CHINESE (MIDDLE)	GSR				
+2119	rGyalrong (Aba Rongan Menggucun)	02rong	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2120	rGyalrong (Baoxing Qiaoqi Leilecun Duoguozu)	03leil	78	YN-RGLD	jya	398	GYARONG					Contributor: Satoko Shirai
+2121	rGyalrong (Baoxing Qiaoqi Yuojie)	04yuoj	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2122	rGyalrong (Ganzi Danba Badi Munashan)	06muna	78	YN-RGLD	jya	398	GYARONG					Contributor: Hiroyuki Suzuki
+2123	rGyalrong (Ganzi Danba Badi Qiongshan)	07qion	78	YN-RGLD	jya	398	GYARONG					Contributor: Hiroyuki Suzuki
+2124	rGyalrong (Ganzi Danba Badi)	05badi	78	YN-RGLD	jya	398	GYARONG					Contributors: Tshe-dbang sGrol-ma (wordlist) & Steve Penner (tones)
+2125	rGyalrong (Ganzi Danba Banshanmen)	08bans	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2126	Anong	Anong	38	JAM-HPTB	nun	220	NUNG	?				
+2128	Lakher [Mara]	Lakher	71	JAM-HPTB	mrh	159	LAKHER	?				
+2129	Khaling	Khaling	77	JAM-LITB	klr	131	KHALING					
+2130	rGyalrong (Ganzi Danba Bawang)	09bawa	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2131	rGyalrong (Ganzi Danba Bianer)	10bian	78	YN-RGLD	jya	398	GYRAONG					Contributor: Tshe-dbang sGrol-ma
+2132	rGyalrong (Ganzi Danba Dandong)	11dand	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2133	rGyalrong (Ganzi Danba Dasang)	12dasa	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2134	rGyalrong (Ganzi Danba Niega Jiaju)	14nieg	78	YN-RGLD	jya	398	GYARONG					Contributor: Royce Flamming
+2135	rGyalrong (Ganzi Danba Taipingqiao)	15taip	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2136	rGyalrong (Ganzi Daofu Jiasikong kharjiacun)	16jias	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2137	rGyalrong (Ganzi Daofu Kongse Xiaoguoqiaocun)	17kong	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2138	rGyalrong (Ganzi Daofu Xianshuizhen)	18xian	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2139	rGyalrong (Ganzi Seda Geletuo Naoluocun)	19gele	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2140	rGyalrong (Heishui Luhua)	21luhu	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2141	rGyalrong (Heishui Shashiduo)	22shas	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2142	rGyalrong (Heishui Shashiduo Muchang)	23much	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2143	rGyalrong (Hongyuan Rangkou Jiadang)	24rang	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2144	rGyalrong (Hongyuan Shuajinsi Selong)	25shua	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2145	rGyalrong (Jinchuan Cengda)	26ceng	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2146	rGyalrong (Jinchuan Dusong)	27duso	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2147	rGyalrong (Jinchuan Erkai)	28erka	78	YN-RGLD	jya	398	GYARONG					Contributor:                Jesse Gates
+2148	rGyalrong (Jinchuan Guaninqiao Wobzi)	30wobz	78	YN-RGLD	jya	398	GYARONG					Contributor: Lai Yunfan
+2149	rGyalrong (Jinchuan Hedong)	31hedo	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2150	rGyalrong (Jinchuan Jimu Zhouchan)	32jimu	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2151	rGyalrong (Jinchuan Kalajiao)	33kala	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2152	rGyalrong (Jinchuan Maerbang)	34jima	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2153	rGyalrong (Jinchuan Manai Genza)	35mana	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2154	rGyalrong (Jinchuan Maori Maori)	36maor	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2155	rGyalrong (Jinchuan Sawajiao)	37sawa	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2156	rGyalrong (Jinchuan Taiyanghe)	38taiy	78	YN-RGLD	jya	398	GYARONG					Contributors: Steve Penner & Tshe-dbang sGrol-ma
+2157	rGyalrong (Jinchuan Wanlin Xilizhai)	39wanl	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2158	rGyalrong (Lixian Ganbao)	40ganb	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2159	rGyalrong (Lixian Guergou)	41guer	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2160	rGyalrong (Lixian Jiabi)	42jiab	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2161	rGyalrong (Lixian Miyalo)	43miya	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2162	rGyalrong (Lixian Putou)	44puto	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2163	rGyalrong (Lixian Shangmeng Rajipu)	45shan	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2164	rGyalrong (Lixian Xiameng Xiaogoucun)	46xiam	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2165	rGyalrong (Lixian Xinglong Kechun)	47kech	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2166	rGyalrong (Lixian Xuecheng Jiamizhai)	48jiem	78	YN-RGLD	jya	398	GYARONG					Contributor: Jiang Ying
+2167	rGyalrong (Maerkang Baiwan Muerji)	49baiw	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2168	rGyalrong (Maerkang Benzhen Yingbolo)	50benz	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2169	rGyalrong (Maerkang Bola (A))	51bola	78	YN-RGLD	jya	398	GYARONG					Contributor: Satoko Shirai
+2170	rGyalrong (Maerkang Bola (B))	52bolb	78	YN-RGLD	jya	398	GYARONG					Contributor: Yasuhiko Nagano
+2171	rGyalrong (Maerkang Bola (C))	53bolc	78	YN-RGLD	jya	398	GYARONG					Contributor: Satoko Shirai
+2172	rGyalrong (Maerkang Caodeng (A))	54caoa	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2173	rGyalrong (Maerkang Caodeng (B))	55caob	78	YN-RGLD	jya	398	GYARONG					Contributor: Yasuhiko Nagano
+2174	rGyalrong (Maerkang Dangba Geerda)	56dang	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2175	rGyalrong (Maerkang Dazang)	57daza	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2176	rGyalrong (Maerkang Japhug Shaerzong (A))	58shaa	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2177	rGyalrong (Maerkang Japhug Shaerzong (B))	59shab	78	YN-RGLD	jya	398	GYARONG					Contributor: Guillaume Jacques
+2178	rGyalrong (Maerkang Jiamuzu Konglong)	60jiam	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2179	Zhangzhung	Zh.	22	JAM-Zhang	xzh	396	ZHANGZHUNG					
+2180	rGyalrong (Maerkang Kangshan)	61kang	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2181	rGyalrong (Maerkang Longerjia)	62long	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2182	rGyalrong (Maerkang Ribu)	64ribu	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2183	rGyalrong (Maerkang Soman Seermi)	66seer	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2184	rGyalrong (Maerkang Soman)	65soma	78	YN-RGLD	jya	398	GYARONG					Contributor: Gyamtsho
+2185	rGyalrong (Maerkang Songgang Zhibo)	67song	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2186	rGyalrong (Maerkang Zhuokeji Xisuo)	68zhuo	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2187	rGyalrong (Queyu Gala)	69quey	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2188	rGyalrong (Rangtang Puxi siyaowucun)	70siya	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2189	rGyalrong (Rangtang Puxicun)	71puxi	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2190	rGyalrong (Rangtang Shili Erguowucun)	72shil	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2191	rGyalrong (Rangtang Zongke)	73zong	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2192	rGyalrong (Xiaojin Bajiao)	74baji	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2193	rGyalrong (Xiaojin Dawei)	75dawe	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2194	rGyalrong (Xiaojin Fubian)	76fubi	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2195	rGyalrong (Xiaojin Hanniu)	77hann	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2196	rGyalrong (Xiaojin Jiesi)	78jies	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2197	rGyalrong (Xiaojin Mupo)	79mupo	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2198	rGyalrong (Xiaojin Rilong)	80rilo	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2199	rGyalrong (Xiaojin Xingge)	81xing	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2200	rGyalrong (Xiaojin Zhailong)	82zhai	78	YN-RGLD	jya	398	GYARONG					Contributor: Tshe-dbang sGrol-ma
+2201	Ganzi Danba Geshenzha	13gesh	78	YN-RGLD		397	GESHENZHA					Contributor: Tshe-dbang sGrol-ma
+2202	Nyagrong Minyag (Ganzi Xinlong)	20xinl	35	YN-RGLD		402	GYARONGIC					Contributor: Hiroyuki Suzuki
+2203	Lavrung (Jinchuan Guaninqiao)	29guan	35	YN-RGLD	jiq	403	LAVRUNG					Contributor: Guillaume Jacques
+2204	Lavrung (Maerkang Muerzong)	63muer	35	YN-RGLD	jiq	403	LAVRUNG					Contributor: Tshe-dbang sGrol-ma
+2205	Sangtam	Sangtam	63	BBK-Sangtam	nsa	254	SANGTAM					
+2206	Yimchungrü	Yimchungrü	63	BBK-Yim	yim	333	YIMCHUNGER					
+2207	Chinese (Hanzi)	Hanzi	52	WHBLS-2011		405	CHINESE					traditional characters
+2208	Chinese (Mandarin)	pinyin	55	WHBLS-2011	cmn	80	CHINESE (MANDARIN)					
+2209	Chinese (Middle)	MC	54	WHBLS-2011		81	CHINESE (MIDDLE)					
+2210	Chinese (Old)	OC	53	WHBLS-2011	och	78	CHINESE (OLD)					
+2211	Chinese (GSR #)	GSR	52	WHBLS-2011	och	404	CHINESE (OLD/MID)					
+2212	Nung	Nung	38	JAM-HPTB		220	NUNG	TBL?				
+2213	Limbu	Limbu	31	JAM-HPTB	lif	166	LIMBU	?				
+2214	Kaman [Miju]	Geman	6	JAM-HPTB	mxj	107	GEMAN	?				
+2215	Lalo	Lalo	46	JAM-HPTB	ywt	160	LALO	?				
+2216	Meithei	Meithei	13	SLC-GM	mni	187	MEITHEI					
+2217	Japanese	Japanese	57	YN-RGLD	jpn	406	JAPANESE					in Japanese writing system
+2218	Chinese (Hanzi)	Chinese	52	YN-RGLD		405	CHINESE					simplified characters
+2219	Tibetan (Script)	Tibetan	24	YN-RGLD	xct	407	TIBETAN (SCRIPT)					
+2220	Lotha Naga	Lotha	63	LLC-ALV	njh	172	LOTHA NAGA	LLC-ALV				
+2221	Akha	Akha	48	JAM-HPTB	ahk	35	AKHA	ILH-PL?				
+2222	Rawang (Mvtwang)	Rawang	38	RJL-RT	raw	220	NUNG					
+2223	Jingpho (Hkauri)	Jinghpaw (Hkauri)	37	JAM-VSTB	kac	123	JINGPHO HK					
+2224	Ao (Mongsen: Mangmetong)	Mangmetong	63	TT-PC	njo	42	AO MONGSEN M					
+2225	Ao (Mongsen: Khensa)	Mo	63	DWB-PCN	njo	42	AO MONGSEN KH					consultant: Akum Longchar
+2226	Ao (Chungli)	Ch	63	DWB-PCN	njo	41	AO CHONGLI					consultants included Akum Longchar
+2227	Chinese (Old)	Old Chin	53	BK-AD	och	78	CHINESE (OLD)					
+2228	*Ao	PAo	63	DWB-PCN		408	*PAO					
+2229	*Central Naga	PCN	63	DWB-PCN		409	*CENTRAL NAGA					
+2230	Pumi (Dayang)	Pumi Dayang	34	JAM-HPTB		410	PUMI D	?				
+2231	Lotha Naga	Lotha	63	DWB-PCN	njh	172	LOTHA					consultant: Mhalo Kikon
+2232	Sangkong	Sangkong	48	JAM-HPTB	sgk	253	SANGKONG	?				
+2236	Tangut [Xixia]	Xixia	33	JAM-HPTB	txg	278	TANGUT	GHC-XCS				
+2237	Tibetan (Spoken)	TibSpoken	24	HAJ-TED	bod	301	TIBETAN (SPOKEN)					
+2238	Chinese (Hanzi)	Hanzi	52	JAM-HPTB		405	CHINESE					traditional characters
+2239	Luquan	Luquan	46	JAM-HPTB		174	LUQUAN	MXL-Lolo?				
+2240	Dimasa	Dimasa	80	JAM-HPTB	dis	96	DIMASA					
+2241	Cho (Mindat)	Cho	69	JAM-HPTB	mwq	77	CHO					
+2242	Tibetan (Written)	WT	24	JAM-TSR	xct	307	TIBETAN (WRITTEN)					
+2243	*Burmese	*Burmish	44	JAM-HPTB		9	*BURMESE					
+2244	Digaro	Digaro	6	JAM-HPTB	mhu	95	DIGARO					
+2245	Ao (Chungli)	Ch	63	DWB-CNSD	njo	41	AO CHONGLI					consultants included Akum Longchar; supplements DWB-PCN
+2246	Ao (Mongsen: Khensa)	Mo	63	DWB-CNSD	njo	42	AO MONGSEN KH					consultant: Akum Longchar; supplements DWB-PCN
+2247	Lotha Naga	Lotha	63	DWB-CNSD	njh	172	LOTHA					consultant: Mhalo Kikon; supplements DWB-PCN
+2248	Aka [Hruso]	Aka	4	JAM-STN	hru	34	AKA					
+2249	Pattani [Manchati]	Manchati	20	JAM-GSTC	lae	227	PATTANI					
+2250	Côông [Phunoi]	Phunoi	48	JAM-HPTB	pho	232	PHUNOI					
+2251	Nishi [Dafla]	Dafla	73	JAM-HPTB	njz	215	NISHI					
+2252	Côông [Phunoi]	Phunoi	48	JAM-DL	pho	232	PHUNOI					
+2253	Maru [Langsu]	Maru	44	JAM-HPTB	mhx	184	MARU					
+2254	Burmese (Inscriptional)	OB	44	STC	obr	69	BURMESE (WRITTEN)					
+2255	Gazhuo	Gazhuo	46	JAM-WI	kaf	105	GAZHUO					
+2256	Hani (Lüchun)	Hani (Lüchun)	48	JAM-WI	enu	113	HANI (LUCHUN)					
+2257	Burmese (Written)	WB	44	KVB-PKC		69	BURMESE (WRITTEN)					
+2258	Kadu	LB-Cak	40	JAM-RGPJ	zkd	126	KADU					
+2259	Ganan	Ganan	40	JAM-RGPJ	zkn	103	GANAN					
+2260	Sak	Sak	40	JAM-RGPJ	ckh	250	SAK					
+2261	Lamkang	Lamkang	72	DAP-KCD	lmk	162	LAMKANG					
+2262	K'cho	K'cho	72	DAP-KCD	 mw	411	K'CHO					
+2263	Tarao	Tarao	72	DAP-KCD	tro	412	TARAO					
+2264	Laizo	Laizo	70	DAP-KCD	cfm	158	LAIZO					
+2265	Bawm	Bawm	70	DAP-KCD	bgr	158	LAIZO					
+2266	Lakher [Mara]	Mara	71	DAP-KCD	mrh	159	LAKHER					
+2267	Lai (Hakha)	Hakha Lai	70	DAP-KCD	cnh	156	LAI					
+2268	*Asakian	PAsak	40	HK-Sak		413	*ASAKIAN					
+2269	*Asakian	PAsak	40	HK-TRPL		413	*ASAKIAN					
+2270	Kadu	Kadu	40	HK-TRPL	zkd	126	KADU					
+2271	Ganan	Ganan	40	HK-TRPL	zkn	103	GANAN					
+2272	Sengmai	Sngm	40	HK-TRPL	kdv	256	SENGMAI					
+2273	Bola	Bola	44	JAM-HPTB	bxd	64	BOLA					

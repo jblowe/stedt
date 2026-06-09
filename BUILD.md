@@ -1,22 +1,22 @@
 # Building
 
-Data is canonically stored under **`data/`** as YAML and TSV.
+Data is canonically stored under **`data/`** as TSV (see [`data/FORMAT.md`](data/FORMAT.md)).
 The build pipeline looks like this:
 
 ```
 # normal: build the site from the markup
-data/ ──build_from_files.py──▶ stedt.sqlite ──build_search_db.py──▶ search.sqlite3
-                                     └────────build_static.py────────▶ site/  +  npm run build:search
+data/ ──build_from_tsv.py──▶ stedt.sqlite ──build_search_db.py──▶ search.sqlite3
+                                   └────────build_static.py────────▶ site/  +  npm run build:search
 
 # or: regenerate the markup from a SQL dump (but data/ already exists in the 
 # repo--only needs to be done once per dump)
-dump.sql ──tools/build_db.py──▶ stedt.sqlite ──tools/export_files.py──▶ data/
+dump.sql ──tools/build_db.py──▶ stedt.sqlite ──tools/export_tsv.py──▶ data/
 ```
 
 ## Prerequisites
 
 ```sh
-pip install pyyaml jinja2
+pip install jinja2  # the build no longer needs PyYAML — data/ is pure TSV
 npm ci              # esbuild + the WASM SQLite bundle
 ```
 
@@ -26,7 +26,7 @@ To generate the site artifacts from `data/`, execute the following steps:
 
 ```sh
 # step 1: build `stedt.sqlite` from `data/`
-python build_from_files.py
+python build_from_tsv.py
 # step 2: build `search.sqlite3` from `stedt.sqlite`
 # the search sqlite database is shipped directly to clients' browsers for search
 python build_search_db.py
@@ -58,14 +58,16 @@ dump's path to `build_db.py` and re-export the flat files:
 # step 1: build `stedt.sqlite` from a SQL dump (any path — no fixed filename)
 python tools/build_db.py path/to/dump.sql
 # step 2: export `stedt.sqlite` back out to the flat files under `data/`
-python tools/export_files.py
+python tools/export_tsv.py
 ```
 
 Then review the change with `git diff data/` and build the site as in Option 1 (whose step 1
 re-derives `stedt.sqlite` from `data/`).
 
-`export_files.py` intentionally drops a few non-curated columns (modtime/uid, stale workflow
-flags, legacy category codes) — see its docstring for the full, documented list.
+`export_tsv.py` intentionally drops a few non-curated columns (modtime/uid, stale workflow
+flags, legacy category codes) — see its docstring for the full, documented list. The
+`build_from_tsv → export_tsv` round-trip is lossless; `tools/gate_tsv_roundtrip.py` asserts it
+(every table's content reproduced identically, surrogate row-ids excepted).
 
 ## Verifying a refactor (golden-output snapshots)
 

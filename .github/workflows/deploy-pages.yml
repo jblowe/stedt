@@ -26,13 +26,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install pyyaml jinja2
+      - run: pip install jinja2
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
       - run: npm ci
       - name: Build SQLite from data/
-        run: python3 build_from_files.py
+        run: python3 build_from_tsv.py
       - name: Build the lean search.sqlite3 (FTS5)
         run: python3 build_search_db.py
       - name: Prerender static site (+ copy search.sqlite3)

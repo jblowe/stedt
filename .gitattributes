@@ -1,0 +1,3 @@
+# data/ TSVs are byte-exact: cells may carry quoted CR/LF (original data) that must survive
+# commit/checkout intact, or the build_from_tsv ↔ export_tsv round-trip breaks. Never convert EOLs.
+*.tsv -text

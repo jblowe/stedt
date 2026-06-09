@@ -12,11 +12,11 @@ Hybrid layout (see data/FORMAT.md):
                                          hptb, majorcats, otherchapters, pi, glosswords
   data/orphan_links.tsv  orphan_reflex_notes.tsv      rows whose rn is absent from any wordlist
 
-This is the TSV analogue of tools/export_files.py and preserves exactly the same
-content (same documented normalizations): one-to-many collections (notes, mesoroots,
-annotations) become their own tables rather than nested YAML; everything is written
-through the csv module (delimiter='\t', QUOTE_MINIMAL) so any cell may hold the
-tab/quote-bearing prose losslessly. Raw newlines are forbidden and asserted against.
+Inverse of build_from_tsv.py. One-to-many collections (notes, mesoroots, annotations)
+become their own tables rather than nested records; everything is written through the csv
+module (delimiter='\t', QUOTE_MINIMAL) so any cell may hold tab/quote/newline-bearing prose
+losslessly. The build_from_tsv → export_tsv round-trip is asserted lossless by
+tools/gate_tsv_roundtrip.py. Drops the same non-curated columns documented in BUILD.md.
 
 Usage:  python3 tools/export_tsv.py [DEST_DIR]   (default: repo data/)
 """
@@ -144,7 +144,7 @@ def main():
                for r in c.execute("SELECT word,rn,semcat,subcat,semkey FROM glosswords ORDER BY id")])
 
     # ================= per-source folders =================
-    # analysis (morpheme slots ',' ; same-ind tags '|') reconstructed from lx_et_hash, exactly as export_files
+    # analysis (morpheme slots ',' ; same-ind tags '|') reconstructed from lx_et_hash
     analysis = {}
     hashrows = c.execute("SELECT rn, ind, tag_str FROM lx_et_hash ORDER BY rn, ind, tag_str").fetchall()
     for rn, grp_rows in groupby(hashrows, key=lambda r: r['rn']):

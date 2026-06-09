@@ -58,7 +58,7 @@ def rows(path):
         yield from csv.DictReader(f, delimiter='\t')
 
 def i(v):  return int(v) if v not in (None, '') else None
-def s(v):  return None if v in (None, '') else v   # '' -> NULL, matching build_from_files' .get()
+def s(v):  return None if v in (None, '') else v   # '' -> NULL (absent optional field)
 
 def main():
     if os.path.exists(OUT): os.remove(OUT)

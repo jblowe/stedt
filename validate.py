@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Validate the STEDT flat-file source in data/ for referential integrity.
+"""Validate the STEDT all-TSV flat-file source in data/ for referential integrity.
 
 Exit code 1 if any ERRORs (integrity violations that must block a merge);
 WARNINGs (data-quality issues) are reported but do not fail. Run: python3 validate.py
 """
-import yaml, csv, glob, os, re, sys
+import csv, glob, os, re, sys
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
 csv.field_size_limit(10**7)
@@ -13,207 +13,175 @@ errors, warns = [], []
 def err(m): errors.append(m)
 def warn(m): warns.append(m)
 
-def loadyaml(p):
-    try:
-        return yaml.safe_load(open(p, encoding='utf-8'))
-    except Exception as e:
-        err(f"{rel(p)}: YAML parse error: {e}"); return None
-
-def refset(items, key, label):
-    """Build a key set; ERROR on entries missing the key or duplicating it."""
-    s = set()
-    for it in (items or []):
-        if not isinstance(it, dict) or key not in it:
-            err(f"reference/{label}: entry missing required '{key}': {str(it)[:80]}"); continue
-        v = it[key]
-        if v in s: err(f"reference/{label}: duplicate {key} {v!r}")
-        else: s.add(v)
-    return s
-
-# ---- reference tables (missing-key and duplicate-key are ERRORs) ----
-groups = loadyaml(f"{ROOT}/reference/languagegroups.yaml") or []
-langs  = loadyaml(f"{ROOT}/reference/languages.yaml") or []
-thes   = loadyaml(f"{ROOT}/reference/thesaurus.yaml") or []
-bib    = loadyaml(f"{ROOT}/reference/bibliography.yaml") or []
-hptb   = loadyaml(f"{ROOT}/reference/hptb.yaml") or []
-grpids   = refset(groups, 'grpid', 'languagegroups.yaml')
-lgids    = refset(langs,  'lgid',  'languages.yaml')
-semkeys  = refset(thes,   'semkey', 'thesaurus.yaml')
-srcabbrs = refset(bib,    'srcabbr', 'bibliography.yaml')
-refset(hptb, 'hptbid', 'hptb.yaml')
-lgname = {l['lgid']: (l.get('name') or '') for l in langs if isinstance(l, dict) and 'lgid' in l}
-
-# reference-structure shapes that build_from_files dereferences (else it crashes the build)
-for g in groups:
-    if isinstance(g, dict) and 'lineage' in g and (not isinstance(g['lineage'], list) or len(g['lineage']) < 5):
-        err(f"languagegroups.yaml grpid {g.get('grpid')}: 'lineage' must be a 5-element list")
-    if isinstance(g, dict) and 'genetic' in g and not isinstance(g['genetic'], bool):
-        err(f"languagegroups.yaml grpid {g.get('grpid')}: 'genetic' must be a boolean (build does int(genetic))")
-for t in thes:
-    if isinstance(t, dict):
-        for n in (t.get('notes') or []):
-            if not isinstance(n, dict): err(f"thesaurus.yaml {t.get('semkey')}: note entry not a mapping")
-for b in bib:
-    if isinstance(b, dict):
-        for n in (b.get('annotations') or []):
-            if not isinstance(n, dict): err(f"bibliography.yaml {b.get('srcabbr')}: annotation not a mapping")
-for fn in ('otherchapters', 'majorcats', 'pi'):
-    for it in (loadyaml(f"{ROOT}/reference/{fn}.yaml") or []):
-        if not isinstance(it, dict):
-            err(f"reference/{fn}.yaml: entry is not a mapping: {str(it)[:60]}"); break
-
-# ---- etyma ----
-etyma_tags = set()
-VALID_STATUS = {'KEEP', 'DELETE', ''}
-n_ety = 0
-for p in sorted(glob.glob(f"{ROOT}/etyma/*.yaml")):
-    d = loadyaml(p)
-    if d is None: continue
-    if not isinstance(d, dict):
-        err(f"{rel(p)}: top-level YAML is not a mapping"); continue
-    n_ety += 1
-    base = os.path.basename(p)[:-5]
-    if not base.isdigit():
-        err(f"{rel(p)}: non-numeric etymon filename"); fn_tag = None
-    elif base != str(int(base)):
-        err(f"{rel(p)}: non-canonical filename (leading zeros)"); fn_tag = int(base)
-    else:
-        fn_tag = int(base)
-    tag = d.get('tag')
-    try: tag_int = int(tag) if tag is not None else None
-    except (TypeError, ValueError): tag_int = None; err(f"{rel(p)}: non-integer tag {tag!r}")
-    if tag is None:                              err(f"{rel(p)}: missing 'tag'")
-    elif fn_tag is not None and tag_int != fn_tag: err(f"{rel(p)}: tag {tag} does not match filename ({fn_tag})")
-    if tag_int is not None:
-        if tag_int in etyma_tags: err(f"{rel(p)}: duplicate etymon tag {tag_int}")
-        etyma_tags.add(tag_int)
-    if 'status' not in d:                                     warn(f"{rel(p)}: no 'status' recorded")
-    elif (d.get('status') or '').upper() not in VALID_STATUS: warn(f"{rel(p)}: unknown status {d.get('status')!r}")
-    if d.get('grpid') is not None and d['grpid'] not in grpids:
-        warn(f"{rel(p)}: grpid {d['grpid']} not in languagegroups")
-    sk = d.get('semkey')
-    if sk and sk not in semkeys: err(f"{rel(p)}: semkey {sk!r} not in thesaurus")
-    ms = d.get('mesoroots')
-    if ms is not None and not isinstance(ms, list):
-        err(f"{rel(p)}: 'mesoroots' must be a list")
-    else:
-        for m in (ms or []):
-            if not isinstance(m, dict): err(f"{rel(p)}: mesoroot entry is not a mapping"); continue
-            if m.get('grpid') is not None and m['grpid'] not in grpids:
-                warn(f"{rel(p)}: mesoroot grpid {m['grpid']} not in languagegroups")
-    nt = d.get('notes')
-    if nt is not None and not isinstance(nt, list):
-        err(f"{rel(p)}: 'notes' must be a list")
-    else:
-        for n in (nt or []):
-            if not isinstance(n, dict): err(f"{rel(p)}: note entry is not a mapping")
-    ph = d.get('phonology')
-    if ph is not None and not isinstance(ph, dict):
-        err(f"{rel(p)}: 'phonology' must be a mapping")
-    for k in ('protoform', 'gloss', 'references', 'xrefs', 'allofams', 'possallo',
-              'status', 'semkey', 'chapter', 'proto_language'):
-        if isinstance(d.get(k), (list, dict)):
-            err(f"{rel(p)}: field {k!r} must be a scalar")
-    seq = d.get('sequence')
-    if seq is not None and (isinstance(seq, bool) or not isinstance(seq, (int, float))):
-        err(f"{rel(p)}: 'sequence' must be numeric (export does float(sequence))")
-    ch = d.get('chapter')
-    if ch and ch not in semkeys:
-        warn(f"{rel(p)}: chapter {ch!r} not in thesaurus")
-print(f"  etyma: {n_ety} files, {len(etyma_tags)} tags")
-
-# ---- wordlists ----
-EXPECT = ['rn', 'lgid', 'language', 'reflex', 'originalreflex', 'gloss', 'originalgloss',
-          'gfn', 'originalgfn', 'semkey', 'srcid', 'src_set_rn', 'maintainer', 'status', 'analysis']
-def toks(analysis):
-    for slot in (analysis or '').split(','):
-        for t in slot.split('|'):
-            yield t
-seen_rn, n_ref = {}, 0
-missing_ref, bad_token = {}, {}
-for p in sorted(glob.glob(f"{ROOT}/wordlists/*.tsv")):
-    with open(p, encoding='utf-8', newline='') as f:
-        rdr = csv.DictReader(f, delimiter='\t')
-        if rdr.fieldnames != EXPECT:
-            err(f"{rel(p)}: unexpected columns {rdr.fieldnames}"); continue
-        for row in rdr:
-            n_ref += 1
-            rn = row['rn']
-            if not rn or not rn.isdigit():
-                err(f"{rel(p)}: non-numeric rn {rn!r}"); continue
-            rn = int(rn)
-            if rn in seen_rn: err(f"{rel(p)}: duplicate rn {rn} (also in {seen_rn[rn]})")
-            else: seen_rn[rn] = rel(p)
-            lg = row['lgid']
-            if lg:
-                if not lg.isdigit():            err(f"{rel(p)} rn {rn}: non-numeric lgid {lg!r}")
-                elif int(lg) not in lgids:      warn(f"{rel(p)} rn {rn}: lgid {lg} not in languages")
-                else:
-                    exp = lgname.get(int(lg))
-                    if row['language'] and exp and row['language'] != exp:
-                        warn(f"{rel(p)} rn {rn}: language col {row['language']!r} != lgid {lg} ({exp!r}); 'language' is derived/read-only")
-            if row['src_set_rn'] and not row['src_set_rn'].isdigit():
-                err(f"{rel(p)} rn {rn}: non-numeric src_set_rn {row['src_set_rn']!r}")
-            if row['semkey'] and row['semkey'] not in semkeys:
-                warn(f"{rel(p)} rn {rn}: semkey {row['semkey']!r} not in thesaurus")
-            for tok in toks(row['analysis']):
-                m = re.match(r'\d+', tok)
-                if m:
-                    t = int(m.group())
-                    if t not in etyma_tags: missing_ref.setdefault(t, f"{rel(p)} rn {rn}")
-                elif re.search(r'\d', tok) and not re.match(r'^[A-Za-z?]', tok):
-                    bad_token.setdefault(tok, f"{rel(p)} rn {rn}")   # leading junk before digits -> likely typo'd cognate
-print(f"  wordlists: {len(glob.glob(f'{ROOT}/wordlists/*.tsv'))} files, {n_ref} reflexes")
-
-for t, where in sorted(missing_ref.items()):
-    err(f"analysis references etymon #{t} which has no data/etyma/{t}.yaml (e.g. {where})")
-for tok, where in sorted(bad_token.items()):
-    warn(f"analysis token {tok!r} has digits but no leading digit/marker — possible mis-encoded cognate ({where})")
-
-# ---- reflex notes, glosswords, orphan links ----
-rnotes = loadyaml(f"{ROOT}/reference/reflex-notes.yaml") or []
-orphan_notes = 0
-for n in rnotes:
-    if not isinstance(n, dict) or 'rn' not in n:
-        err(f"reflex-notes.yaml: entry missing 'rn' or not a mapping: {str(n)[:60]}"); continue
-    if n['rn'] not in seen_rn: orphan_notes += 1
-if orphan_notes:
-    warn(f"reflex-notes.yaml: {orphan_notes} note(s) reference an rn not present in any wordlist")
-for h in hptb:
-    for tg in h.get('etyma') or []:
-        if tg not in etyma_tags:   # inherited dangling HPTB links from the dump
-            warn(f"hptb.yaml hptbid {h.get('hptbid')}: links to missing etymon #{tg}")
-
-def tsv_rn_check(path, label, expect):
-    if not os.path.exists(path): return
-    miss = 0
+def read_tsv(path, expect):
+    """Yield rows (dicts) of a TSV, ERRORing on a missing file or unexpected header."""
+    if not os.path.exists(path):
+        err(f"{rel(path)}: missing"); return
     with open(path, encoding='utf-8', newline='') as f:
         rdr = csv.DictReader(f, delimiter='\t')
         if rdr.fieldnames != expect:
-            err(f"{label}: unexpected columns {rdr.fieldnames}"); return
-        for row in rdr:
-            rn = row.get('rn')
-            if rn and not rn.isdigit(): err(f"{label}: non-numeric rn {rn!r}")
-            elif rn and int(rn) not in seen_rn: miss += 1
-    if miss: warn(f"{label}: {miss} entries reference an rn not in any wordlist")
-tsv_rn_check(f"{ROOT}/reference/glosswords.tsv", "glosswords.tsv", ['word', 'rn', 'semcat', 'subcat', 'semkey'])
+            err(f"{rel(path)}: unexpected columns {rdr.fieldnames}"); return
+        yield from rdr
 
-opath = f"{ROOT}/reference/orphan-links.tsv"
-if os.path.exists(opath):
-    with open(opath, encoding='utf-8', newline='') as f:
-        rdr = csv.DictReader(f, delimiter='\t')
-        if rdr.fieldnames != ['rn', 'ind', 'tag_str']:
-            err(f"orphan-links.tsv: unexpected columns {rdr.fieldnames}")
-        else:
-            for row in rdr:
-                if row['rn'] and not row['rn'].isdigit(): err(f"orphan-links.tsv: non-numeric rn {row['rn']!r}")
-                if row['ind'] and not row['ind'].isdigit(): err(f"orphan-links.tsv: non-numeric ind {row['ind']!r}")
-                m = re.match(r'\d+', row.get('tag_str') or '')
-                if m and int(m.group()) not in etyma_tags:
-                    warn(f"orphan-links.tsv: tag {m.group()} not in etyma")
+def keyset(path, expect, key):
+    """Set of `key` values; ERROR on blank or duplicate keys."""
+    s = set()
+    for r in read_tsv(path, expect):
+        v = r[key]
+        if v == '':         err(f"{rel(path)}: blank {key}")
+        elif v in s:        err(f"{rel(path)}: duplicate {key} {v!r}")
+        else:               s.add(v)
+    return s
+
+COLS = {
+ 'etyma': ['tag','grpid','protoform','gloss','semkey','chapter','sequence','status','public',
+           'exemplary','xrefs','allofams','possallo','references','handle','prefix','initial',
+           'medial','rhyme','tone','suffix','initcover','rhymecover'],
+ 'mesoroots': ['tag','grpid','form','gloss','variant','old_tag','source'],
+ 'etymon_notes': ['tag','type','text'],
+ 'languages': ['lgid','name','abbr','grpid','source','iso','lgcode','sort','srcofdata','picode',
+               'pinotes','pi_page','notes'],
+ 'languagegroups': ['grpid','grpno','abbr','name','proto_language','genetic','grp0','grp1','grp2','grp3','grp4'],
+ 'thesaurus': ['semkey','title','semcat','old_chapter','old_subchapter'],
+ 'chapter_notes': ['semkey','type','text'],
+ 'hptb': ['hptbid','plg','protoform','gloss','pages','mainpage','init','allofams','semclass','semclass2','tags','etyma_links'],
+ 'majorcats': ['chapter','subchapter','semcat','heading','frqdb','frqsubcats'],
+ 'otherchapters': ['chapter','heading','semcat','subcat','cf','n'],
+ 'pi': ['lgid','page'],
+ 'glosswords': ['word','rn','semcat','subcat','semkey'],
+ 'orphan_links': ['rn','ind','tag_str'],
+ 'orphan_reflex_notes': ['rn','type','text'],
+ 'source': ['srcabbr','citation','author','year','imprint','title','location','status','dataformat',
+            'format','callnumber','scope','totalnum','refonly','citechk','pi','infascicle','haveit',
+            'todo','proofer','inputter','dbprep','dbload','dbcheck','notes'],
+ 'wordlist': ['rn','lgid','language','reflex','originalreflex','gloss','originalgloss','gfn',
+              'originalgfn','semkey','srcid','src_set_rn','maintainer','status','analysis'],
+ 'notes': ['rn','type','text'],
+ 'annotations': ['type','text'],
+}
+def isint(v): return bool(v) and (v[1:] if v[0] in '+-' else v).isdigit()
+
+# ---- reference tables ----
+grpids  = keyset(f"{ROOT}/languagegroups.tsv", COLS['languagegroups'], 'grpid')
+semkeys = keyset(f"{ROOT}/thesaurus.tsv", COLS['thesaurus'], 'semkey')
+langrows = list(read_tsv(f"{ROOT}/languages.tsv", COLS['languages']))
+lgids, lgname = set(), {}
+for l in langrows:
+    if l['lgid'] == '' or not isint(l['lgid']): err(f"languages.tsv: bad lgid {l['lgid']!r}"); continue
+    if int(l['lgid']) in lgids: err(f"languages.tsv: duplicate lgid {l['lgid']}")
+    lgids.add(int(l['lgid'])); lgname[int(l['lgid'])] = l['name']
+for g in read_tsv(f"{ROOT}/languagegroups.tsv", COLS['languagegroups']):
+    for k in ('grp0','grp1','grp2','grp3','grp4'):
+        if not isint(g[k]): err(f"languagegroups.tsv grpid {g['grpid']}: non-integer {k} {g[k]!r}")
+    if g['genetic'] not in ('0','1'): err(f"languagegroups.tsv grpid {g['grpid']}: genetic must be 0/1")
+# structural-only tables (header check; build dereferences these)
+for fn in ('majorcats', 'otherchapters', 'pi'):
+    list(read_tsv(f"{ROOT}/{fn}.tsv", COLS[fn]))
+for cn in read_tsv(f"{ROOT}/chapter_notes.tsv", COLS['chapter_notes']):
+    if cn['semkey'] not in semkeys: warn(f"chapter_notes.tsv: semkey {cn['semkey']!r} not in thesaurus")
+
+# ---- etyma + children ----
+etyma_tags = set()
+VALID_STATUS = {'KEEP', 'DELETE', ''}
+for d in read_tsv(f"{ROOT}/etyma.tsv", COLS['etyma']):
+    if not isint(d['tag']): err(f"etyma.tsv: non-integer tag {d['tag']!r}"); continue
+    tag = int(d['tag'])
+    if tag in etyma_tags: err(f"etyma.tsv: duplicate tag {tag}")
+    etyma_tags.add(tag)
+    if d['status'].upper() not in VALID_STATUS: warn(f"etyma.tsv #{tag}: unknown status {d['status']!r}")
+    if d['grpid'] and d['grpid'] not in grpids:  warn(f"etyma.tsv #{tag}: grpid {d['grpid']} not in languagegroups")
+    if d['semkey'] and d['semkey'] not in semkeys: err(f"etyma.tsv #{tag}: semkey {d['semkey']!r} not in thesaurus")
+    if d['chapter'] and d['chapter'] not in semkeys: warn(f"etyma.tsv #{tag}: chapter {d['chapter']!r} not in thesaurus")
+    if d['sequence'] and not re.match(r'^-?\d+(\.\d+)?$', d['sequence']):
+        err(f"etyma.tsv #{tag}: non-numeric sequence {d['sequence']!r}")
+    if d['public'] not in ('0','1'): err(f"etyma.tsv #{tag}: public must be 0/1")
+print(f"  etyma: {len(etyma_tags)} tags")
+
+for m in read_tsv(f"{ROOT}/mesoroots.tsv", COLS['mesoroots']):
+    if not isint(m['tag']) or int(m['tag']) not in etyma_tags:
+        err(f"mesoroots.tsv: row references etymon #{m['tag']} with no etyma.tsv row")
+    if m['grpid'] and m['grpid'] not in grpids:
+        warn(f"mesoroots.tsv tag {m['tag']}: grpid {m['grpid']} not in languagegroups")
+for n in read_tsv(f"{ROOT}/etymon_notes.tsv", COLS['etymon_notes']):
+    if not isint(n['tag']) or int(n['tag']) not in etyma_tags:
+        err(f"etymon_notes.tsv: note references etymon #{n['tag']} with no etyma.tsv row")
+
+# ---- per-source: source.tsv + wordlist.tsv + notes.tsv + annotations.tsv ----
+def toks(analysis):
+    for slot in (analysis or '').split(','):
+        yield from slot.split('|')
+seen_rn, n_ref, n_src = {}, 0, 0
+srcabbrs, missing_ref, bad_token = set(), {}, {}
+for srcdir in sorted(glob.glob(f"{ROOT}/sources/*")):
+    n_src += 1
+    sp = f"{srcdir}/source.tsv"
+    if os.path.exists(sp):
+        rows = list(read_tsv(sp, COLS['source']))
+        if len(rows) != 1: err(f"{rel(sp)}: expected exactly 1 row, got {len(rows)}")
+        for s in rows:
+            if s['srcabbr'] == '': err(f"{rel(sp)}: blank srcabbr")
+            elif s['srcabbr'] in srcabbrs: err(f"{rel(sp)}: duplicate srcabbr {s['srcabbr']}")
+            else: srcabbrs.add(s['srcabbr'])
+    wlp = f"{srcdir}/wordlist.tsv"
+    for row in (read_tsv(wlp, COLS['wordlist']) if os.path.exists(wlp) else []):
+        n_ref += 1
+        rn = row['rn']
+        if not isint(rn): err(f"{rel(srcdir)}/wordlist.tsv: non-numeric rn {rn!r}"); continue
+        rn = int(rn)
+        if rn in seen_rn: err(f"{rel(srcdir)}/wordlist.tsv: duplicate rn {rn} (also in {seen_rn[rn]})")
+        else: seen_rn[rn] = rel(srcdir)
+        if row['lgid']:
+            if not isint(row['lgid']):       err(f"{rel(srcdir)} rn {rn}: non-numeric lgid {row['lgid']!r}")
+            elif int(row['lgid']) not in lgids: warn(f"{rel(srcdir)} rn {rn}: lgid {row['lgid']} not in languages")
+            else:
+                exp = lgname.get(int(row['lgid']))
+                if row['language'] and exp and row['language'] != exp:
+                    warn(f"{rel(srcdir)} rn {rn}: language col {row['language']!r} != lgid ({exp!r}); 'language' is derived")
+        if row['src_set_rn'] and not isint(row['src_set_rn']):
+            err(f"{rel(srcdir)} rn {rn}: non-numeric src_set_rn {row['src_set_rn']!r}")
+        if row['semkey'] and row['semkey'] not in semkeys:
+            warn(f"{rel(srcdir)} rn {rn}: semkey {row['semkey']!r} not in thesaurus")
+        for tok in toks(row['analysis']):
+            m = re.match(r'\d+', tok)
+            if m:
+                if int(m.group()) not in etyma_tags: missing_ref.setdefault(int(m.group()), f"{rel(srcdir)} rn {rn}")
+            elif re.search(r'\d', tok) and not re.match(r'^[A-Za-z?]', tok):
+                bad_token.setdefault(tok, f"{rel(srcdir)} rn {rn}")
+    for ln in read_tsv(f"{srcdir}/notes.tsv", COLS['notes']) if os.path.exists(f"{srcdir}/notes.tsv") else []:
+        if not isint(ln['rn']): err(f"{rel(srcdir)}/notes.tsv: non-numeric rn {ln['rn']!r}")
+    if os.path.exists(f"{srcdir}/annotations.tsv"):
+        list(read_tsv(f"{srcdir}/annotations.tsv", COLS['annotations']))
+print(f"  sources: {n_src} folders ({len(srcabbrs)} with source.tsv), {n_ref} reflexes")
+
+for t, where in sorted(missing_ref.items()):
+    err(f"analysis references etymon #{t} with no etyma.tsv row (e.g. {where})")
+for tok, where in sorted(bad_token.items()):
+    warn(f"analysis token {tok!r} has digits but no leading digit/marker — possible mis-encoded cognate ({where})")
+
+# ---- glosswords: gloss->rn index; many rns predate the digitized wordlists (aggregate warning) ----
+g_miss = 0
+for r in read_tsv(f"{ROOT}/glosswords.tsv", COLS['glosswords']):
+    if r['rn'] and not isint(r['rn']): err(f"glosswords.tsv: non-numeric rn {r['rn']!r}")
+    elif r['rn'] and int(r['rn']) not in seen_rn: g_miss += 1
+if g_miss: warn(f"glosswords.tsv: {g_miss} entries reference an rn not in any wordlist")
+
+for h in read_tsv(f"{ROOT}/hptb.tsv", COLS['hptb']):
+    for tok in (h['etyma_links'] or '').split(','):
+        if tok and isint(tok) and int(tok) not in etyma_tags:
+            warn(f"hptb.tsv hptbid {h['hptbid']}: links to missing etymon #{tok}")
+
+if os.path.exists(f"{ROOT}/orphan_reflex_notes.tsv"):
+    n_on = sum(1 for r in read_tsv(f"{ROOT}/orphan_reflex_notes.tsv", COLS['orphan_reflex_notes'])
+               if r['rn'] and (not isint(r['rn']) or int(r['rn']) not in seen_rn))
+    if n_on: warn(f"orphan_reflex_notes.tsv: {n_on} note(s) reference an rn not in any wordlist (expected: orphans)")
+for row in read_tsv(f"{ROOT}/orphan_links.tsv", COLS['orphan_links']):
+    if row['rn'] and not isint(row['rn']):  err(f"orphan_links.tsv: non-numeric rn {row['rn']!r}")
+    if row['ind'] and not isint(row['ind']): err(f"orphan_links.tsv: non-numeric ind {row['ind']!r}")
+    m = re.match(r'\d+', row['tag_str'] or '')
+    if m and int(m.group()) not in etyma_tags: warn(f"orphan_links.tsv: tag {m.group()} not in etyma")
 
 print(f"  reference: {len(grpids)} groups, {len(lgids)} languages, {len(semkeys)} thesaurus nodes, "
-      f"{len(srcabbrs)} sources, {len(rnotes)} reflex-notes")
+      f"{len(srcabbrs)} sources")
 
 # ---- report ----
 def show(label, items, cap=25):

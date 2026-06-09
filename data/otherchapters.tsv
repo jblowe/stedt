@@ -1,0 +1,721 @@
+chapter	heading	semcat	subcat	cf	n
+6b	Colors	Col			55
+x	Errors and apocrypha	Error		*	1089
+8	Grammatical Elements	G			75
+8	Ontological	G	1	x	30
+8	Prepositions	G	1.1		18
+8	Compound	G	1.2.1		5
+8	Subordination	G	1.2.2		5
+8	Classifiers	G	1.3		5
+8	Articles	G	2		4
+8	Grammatical identifiers	G	2.1		19
+8	Phonological entities	G	2.1.1		4
+8	Morphological identifiers	G	2.2		5
+8	Nominative-accusative	G	2.3.1		5
+8	Possessive	G	2.3.2		4
+8	Affixes	G	4		5
+8	Grammatical case	G	4.1.1		13
+8	Animacy	G	4.1.2		2
+8	Diminutivizer, intensifier, etc.	G	4.1.3		3
+8	Person, #, gender	G	4.1.4		8
+8	Verbal	G	4.2		5
+8	Mood	G	4.2.1		7
+8	Aspect, (in)transitivity, ergativity, ca	G	4.2.4		6
+8	Participles, gerunds, etc.	G	4.2.6		3
+8	Nominalizers	G	4.2.7		3
+8	Degrees of comparison	G	4.3.1		7
+8	Demonstrators	G	4.3.2		4
+8	Structuring Words	G	5.1		6
+8	Grammatical functions	G	5.2		3
+8	WH words	G	6.1		27
+8	Affirmative	G	7.1		0
+8	Negative	G	7.2		10
+8	Ejaculations	G	8		13
+6g	Measure Words	Meas			43
+9d	Monetary Tems	N$			58
+5a	Abstract Entities	Nabst			114
+2a.1	Animals	Nanim			0
+2a.1	Bovine	Nanim	1		29
+2a.1	Equine	Nanim	2		17
+2a.1	Porcine	Nanim	3		14
+2a.1	Ovine and Hircine	Nanim	4		19
+2a.1	Pachyderms	Nanim	5		5
+2a.1	Canine	Nanim	6		22
+2a.1	Feline	Nanim	7		17
+2a.1	Cervidae	Nanim	8		14
+2a.1	Ursine	Nanim	9		3
+2a.1	Simian	Nanim	10		10
+2a.1	Birds (in general)	Nanim	11		9
+2a.1	Fowl (i.e. Domestic Birds)	Nanim	11.1		28
+2a.1	Particular birds	Nanim	11.2		61
+2a.1	Reptiles and amphibians	Nanim	12		25
+2a.1	Fish & Mollusks	Nanim	13		38
+2a.1	Insects, Arachnids, & Worm	Nanim	14		94
+2a.1	Other Mammals	Nanim	15		18
+2a.1	Rodents and Lagomorphs	Nanim	16		19
+2a.1	Mythical animals	Nanim	17		4
+2a.1	Associated Animal Terms	Nanim	18		23
+9f	Artifacts (unclassified as yet)	Nart			68
+1a	Body parts	Nbp		*	19
+1a	The Body	Nbp	1.0		0
+1a	Body	Nbp	1.1		7
+1a	Flesh/Meat	Nbp	1.1.1		8
+1a	Lean (Meat)	Nbp	1.1.2		0
+1a	Born/Birth/Give Birth	Nbp	1.2		6
+1a	Life/Live	Nbp	1.2.1		7
+1a	Breath/Breathe	Nbp	1.2.2		9
+1a	Existence	Nbp	1.2.3		3
+1a	Hungry	Nbp	1.3		8
+1a	Thirsty	Nbp	1.3.1		2
+1a	Satiated/Full	Nbp	1.3.2		5
+1a	Wake/Conscious	Nbp	1.4		13
+1a	Sleep	Nbp	1.4.1		2
+1a	Dream	Nbp	1.4.2		3
+1a	Strength	Nbp	1.5		10
+1a	Sick/Hurt	Nbp	1.5.1		25
+1a	Swollen/Swell	Nbp	1.5.2		6
+1a	Die	Nbp	1.6		4
+1a	Carcass/Dead Body	Nbp	1.6.1		5
+1a	Head and Face	Nbp	2.0		0
+1a	Head	Nbp	2.1		13
+1a	Skull	Nbp	2.1.1		2
+1a	Crown/Pate	Nbp	2.1.2		4
+1a	Fontanel	Nbp	2.1.3		3
+1a	Caul	Nbp	2.1.4		0
+1a	Scalp	Nbp	2.1.5		4
+1a	Horn/Antler	Nbp	2.2		6
+1a	Comb/Crest	Nbp	2.2.1		7
+1a	Hair of Head	Nbp	2.3		13
+1a	Cowlick/Flexure	Nbp	2.3.1		6
+1a	Queue/Braid	Nbp	2.3.2		11
+1a	Bald	Nbp	2.3.3		2
+1a	Brain	Nbp	2.4		6
+1a	Face	Nbp	2.5		7
+1a	Forehead/Temples	Nbp	2.5.1		3
+1a	Jaw/Cheek	Nbp	2.5.2		16
+1a	Chin	Nbp	2.5.3		2
+1a	Beard/Moustache/Facial Hair	Nbp	2.5.5		10
+1a	Eye	Nbp	2.6		11
+1a	Eyeball	Nbp	2.6.1		2
+1a	Blink/Wink	Nbp	2.6.10		4
+1a	Eye Illness	Nbp	2.6.11		7
+1a	Iris/Pupil	Nbp	2.6.2		3
+1a	White of Eye	Nbp	2.6.3		0
+1a	Eyelid	Nbp	2.6.4		3
+1a	Eyelash	Nbp	2.6.5		3
+1a	Eyebrow	Nbp	2.6.6		4
+1a	Tears	Nbp	2.6.7		0
+1a	Eye Sand	Nbp	2.6.8		3
+1a	See/Look	Nbp	2.6.9		4
+1a	Ear	Nbp	2.7		11
+1a	Earlobe	Nbp	2.7.1		0
+1a	Eardrum	Nbp	2.7.2		0
+1a	Earwax	Nbp	2.7.3		3
+1a	Hear/Listen	Nbp	2.7.4		3
+1a	Deaf	Nbp	2.7.5		2
+1a	Nose	Nbp	2.8		9
+1a	Nostril	Nbp	2.8.1		2
+1a	Alae Nasi	Nbp	2.8.2		4
+1a	Mouth and Throat	Nbp	3.0		0
+1a	Mouth	Nbp	3.1		7
+1a	Palate	Nbp	3.1.1		2
+1a	Beak/Bill	Nbp	3.1.2		3
+1a	Yawn/Gape	Nbp	3.1.3		0
+1a	Lip	Nbp	3.2		6
+1a	Suck/Suckle	Nbp	3.2.1		2
+1a	Kiss	Nbp	3.2.2		2
+1a	Tongue	Nbp	3.3		3
+1a	Tooth	Nbp	3.4		8
+1a	Eyetooth/Tusk/Canine Tooth	Nbp	3.4.1		7
+1a	Molar	Nbp	3.4.2		4
+1a	Gums	Nbp	3.4.3		2
+1a	Throat/Pharanx	Nbp	3.5		7
+1a	Uvula	Nbp	3.5.1		0
+1a	Windpipe/Trachea	Nbp	3.5.2		4
+1a	Gill	Nbp	3.5.3		2
+1a	Adam's Apple/Larynx	Nbp	3.5.4		3
+1a	Gullet/Esophagus	Nbp	3.5.5		3
+1a	Drunkedness	Nbp	3.5.8		3
+1a	Torso	Nbp	4.0		0
+1a	Torso/Trunk	Nbp	4.1		2
+1a	Buttocks/Rump	Nbp	4.10		5
+1a	Tail	Nbp	4.10.1		4
+1a	Anus/Rectum	Nbp	4.10.2		8
+1a	Neck	Nbp	4.2		4
+1a	Nape of Neck	Nbp	4.2.1		3
+1a	Goiter	Nbp	4.2.2		0
+1a	Shoulder	Nbp	4.3		2
+1a	Collarbone/Clavicle	Nbp	4.3.1		3
+1a	Shoulderblade/Scapula	Nbp	4.3.2		4
+1a	Front	Nbp	4.4		4
+1a	Bosom/Lap	Nbp	4.4.1		4
+1a	Chest	Nbp	4.4.2		6
+1a	Ribs/Ribcage	Nbp	4.4.3		3
+1a	Chest Hair	Nbp	4.4.4		0
+1a	Sides	Nbp	4.5		4
+1a	Waist	Nbp	4.6		2
+1a	Belly/Abdomen	Nbp	4.7		9
+1a	Back	Nbp	4.8		4
+1a	Lower Back/Small of Back	Nbp	4.8.1		2
+1a	Spine/Backbone	Nbp	4.8.2		4
+1a	Hunchback	Nbp	4.8.3		2
+1a	Loins/Groin	Nbp	4.9		3
+1a	Crotch/Fork	Nbp	4.9.1		2
+1a	Hips/Pelvis/Haunches	Nbp	4.9.2		9
+1a	Arm, hand, wing	Nbp	5	x	0
+1a	Hand	Nbp	5.1		7
+1a	Fist	Nbp	5.1.1		2
+1a	Wing	Nbp	5.10		3
+1a	Fin	Nbp	5.10.1		2
+1a	Joint	Nbp	5.11		4
+1a	Wrist	Nbp	5.11.1		2
+1a	Ankle	Nbp	5.11.2		3
+1a	Elbow	Nbp	5.11.3		0
+1a	Knee	Nbp	5.11.4		9
+1a	Knuckle/Phalanx	Nbp	5.11.5		3
+1a	Cubit	Nbp	5.14		2
+1a	Span/Handspan	Nbp	5.15		5
+1a	Fathom/Cord	Nbp	5.16		2
+1a	Nail	Nbp	5.17		2
+1a	Fingernail	Nbp	5.17.1		3
+1a	Toenail	Nbp	5.17.2		4
+1a	Cuticle	Nbp	5.17.3		2
+1a	Claw/Talon/Pincer	Nbp	5.17.4		7
+1a	Numb/Paralyzed	Nbp	5.18		3
+1a	Lame/Limp	Nbp	5.19		2
+1a	Foot	Nbp	5.2		10
+1a	Heel	Nbp	5.2.1		3
+1a	Instep	Nbp	5.2.2		0
+1a	Arch	Nbp	5.2.3		3
+1a	Footprint	Nbp	5.2.5		0
+1a	Hands and Feet/Arms and Legs	Nbp	5.3		3
+1a	Limb/Branch	Nbp	5.3.1		13
+1a	Hoof/Paw	Nbp	5.4		0
+1a	Palm/Sole	Nbp	5.6		5
+1a	Finger/Toe	Nbp	5.7		17
+1a	Thumb/Big Toe	Nbp	5.7.1		2
+1a	Other Specific Digits	Nbp	5.7.2		3
+1a	Fingerprint	Nbp	5.7.3		0
+1a	Arm	Nbp	5.8		8
+1a	Bicep/Upper Arm	Nbp	5.8.1		4
+1a	Forearm	Nbp	5.8.2		2
+1a	Underarm/Armpit	Nbp	5.8.3		2
+1a	Tickle	Nbp	5.8.4		4
+1a	Leg	Nbp	5.9		12
+1a	Thigh	Nbp	5.9.1		6
+1a	Shin/Tibia	Nbp	5.9.2		6
+1a	Calf	Nbp	5.9.3		0
+1a	Diffuse Organs	Nbp	6.0		3
+1a	Body Hair/Fur	Nbp	6.1		14
+1a	Feather	Nbp	6.1.1		5
+1a	Wool	Nbp	6.1.3		5
+1a	Blood/Bleed	Nbp	6.2		7
+1a	Blood Vessel/Vein/Artery	Nbp	6.2.1		6
+1a	Bone	Nbp	6.3		6
+1a	Skeleton	Nbp	6.3.1		0
+1a	Breastbone/Sternum	Nbp	6.3.2		2
+1a	Spine/Backbone	Nbp	6.3.3		6
+1a	Cartilage/Gristle	Nbp	6.3.4		2
+1a	Marrow	Nbp	6.3.5		2
+1a	Fat	Nbp	6.4		7
+1a	Oil/Grease	Nbp	6.4.1		5
+1a	Skin	Nbp	6.5		11
+1a	Hide/Leather	Nbp	6.5.1		6
+1a	Scale (of fish, snake)	Nbp	6.5.2		7
+1a	Skin Blemish/Freckle	Nbp	6.5.3		23
+1a	Itch/Scratch	Nbp	6.5.4		4
+1a	Obscure Internal Channels	Nbp	6.6		0
+1a	Sinew/Tendon/Ligament	Nbp	6.6.1		7
+1a	Muscle	Nbp	6.6.2		10
+1a	Nerve	Nbp	6.6.3		3
+1a	Lymph	Nbp	6.6.4		4
+1a	Internal Organs	Nbp	7.0		5
+1a	Heart	Nbp	7.1		5
+1a	Heartbeat/Pulse	Nbp	7.1.1		4
+1a	Lung	Nbp	7.2		5
+1a	Liver	Nbp	7.3		5
+1a	Gall/Bile	Nbp	7.3.1		2
+1a	Spleen	Nbp	7.4		2
+1a	Kidney	Nbp	7.5		3
+1a	Stomach	Nbp	7.6		10
+1a	Gizzard/Crop	Nbp	7.6.1		3
+1a	Intestines/Bowels/Guts	Nbp	7.7		14
+1a	Bladder	Nbp	7.8		5
+1a	Sweat	Nbp	8.2		2
+1a	Pore	Nbp	8.2.1		2
+1a	Body Dirt	Nbp	8.2.2		4
+1a	Snot/Nasal Mucus	Nbp	8.3		8
+1a	Sneeze	Nbp	8.3.1		0
+1a	Snore	Nbp	8.3.2		2
+1a	Spit/Saliva	Nbp	8.4		9
+1a	Vomit	Nbp	8.4.2		2
+1a	Hiccup	Nbp	8.4.5		4
+1a	Urine/Piss	Nbp	8.5		3
+1a	Feces/Shit/Dung/Filth/Excremen	Nbp	8.6		19
+1a	Fart	Nbp	8.6.2		2
+1a	Pus/Gleet	Nbp	8.7		3
+1a	Abcess/Ulcer	Nbp	8.7.1		8
+1a	Speak/Say/Tell	Nbp	8.8		8
+1a	Stutter/Stammer	Nbp	8.8.2		3
+1a	Laugh	Nbp	8.9		2
+1a	Reproductive System	Nbp	9.0		7
+1a	Genitals/Pudenda	Nbp	9.1		10
+1a	Copulate/Fuck/Intercourse	Nbp	9.1.1		7
+1a	Male	Nbp	9.2		11
+1a	Penis	Nbp	9.2.1		4
+1a	Foreskin/Prepuce	Nbp	9.2.1.1		3
+1a	Glans penis	Nbp	9.2.1.2		2
+1a	Testicles/Virility	Nbp	9.2.2		9
+1a	Scrotum/Pouch	Nbp	9.2.2.1		2
+1a	Sperm/Semen	Nbp	9.2.2.2		2
+1a	Ejaculate	Nbp	9.2.2.3		2
+1a	Male Pubic Hair	Nbp	9.2.3		0
+1a	Female	Nbp	9.3		9
+1a	Breast	Nbp	9.3.1		6
+1a	Milk	Nbp	9.3.1.1		6
+1a	Wean	Nbp	9.3.1.3		2
+1a	Vagina	Nbp	9.3.2		5
+1a	Vulva/Labia	Nbp	9.3.2.1		5
+1a	Clitoris	Nbp	9.3.2.2		0
+1a	Egg	Nbp	9.3.3		10
+1a	Menstruation	Nbp	9.3.3.1		2
+1a	Womb/Uterus	Nbp	9.3.4		4
+1a	Pregnant	Nbp	9.3.4.1		5
+1a	Amniotic sac/Amniotic fluid	Nbp	9.3.4.2		2
+1a	Placenta/Afterbirth	Nbp	9.3.4.3		2
+1a	Female Pubic Hair	Nbp	9.3.5		0
+1a	Navel/Center	Nbp	9.4		6
+1a	Umbilical Cord	Nbp	9.4.1		2
+1a	Mind	Nbp	10.0		10
+9a	Containers	Ncont			52
+9a	Conveyances	Nconv			30
+9b	Cooking Implements	Ncook			42
+9c	Construction	Ncstr			27
+9d	Items of Culture	Ncult			69
+9c	Dwellings	Ndwel			29
+9c	Kinds of dwellings	Ndwel	1		18
+9c	Rooms	Ndwel	2		7
+9c	Parts of the structure	Ndwel	3		13
+9c	Internal	Ndwel	3.1		16
+9c	External	Ndwel	3.2		9
+9c	Furnishings	Ndwel	4		31
+9c	Outdoor/Temporary structures	Ndwel	5		10
+9c	General	Ndwel	6		9
+9c	Fasteners	Nfast		*	11
+2c.3	Objects associated with fire	Nfire	1		21
+2c.3	Fire, flames, and burnt things	Nfire	3.3		28
+9b	Culinary  nouns	Nfood		*	48
+3a	Ethnonyms/Place names	Nhum	1		56
+3a	Pronouns	Nhum	2		27
+3a	Roles	Nhum	3.0		0
+3a	Occupations	Nhum	3.1		17
+3a	Agriculture/Husbandry/Hunting	Nhum	3.1.1		6
+3a	Commercial Roles	Nhum	3.1.2		2
+3a	Artists and Artisans	Nhum	3.1.4		13
+3a	Health-care	Nhum	3.1.5		5
+3a	Ceremonial	Nhum	3.1.6		0
+3a	General	Nhum	3.1.7		0
+3a	Teacher-Student roles	Nhum	3.2		3
+3a	General roles	Nhum	3.3		14
+3a	Religious Roles	Nhum	4		13
+3a	Nobility	Nhum	5		15
+3a	Titles	Nhum	5.1.2		6
+3a	Civil leaders	Nhum	5.2		6
+3a	Owners	Nhum	5.4		5
+3a	Military roles	Nhum	6		12
+3a	Challenged	Nhum	7.1		9
+3a	Marital roles	Nhum	7.2		15
+3a	Sporting	Nhum	8		5
+3a	Stages of growth	Nhum	9.1		16
+3a	People	Nhum	9.2		2
+3a	Servants	Nhum	10		9
+3a	Criminals	Nhum	11.1		9
+3a	Scary things	Nhum	11.2		12
+3a	Insulting names	Nhum	11.3		8
+3a	Groups	Nhum	12		14
+3a	Clans and neighbors	Nhum	12.2		21
+3a	Outsiders	Nhum	12.3		9
+3a	Friends and Acquaintances	Nhum	12.4		0
+3a	Other Collective terms	Nhum	13		11
+9e	Husbandry	Nhusb		*	37
+3b	Previous generation	Nkin	1		33
+3b	Same generation	Nkin	2		14
+3b	Later generation	Nkin	3		28
+3b	Related by marriage	Nkin	4		22
+3b	General	Nkin	5		15
+9d	Leisure	Nleis		*	32
+6k	Roads and Ways	Nloc	1		20
+6k	Waterways/Having to do with water	Nloc	2		16
+6k	Governable units (towns, parts of towns)	Nloc	3		22
+6k	Farm/Agricultural places	Nloc	4		12
+6k	Places in general, countries	Nloc	4.0		43
+6k	Functional buildings/places	Nloc	5		22
+9a	Diseases	Nmed	1		30
+9a	Instruments and therapies	Nmed	2		17
+9a	Musical objects	Nmus		*	48
+2c.1	Weather and seasons	Nnat	1		45
+2c.1	Planets/Meteorological objects/Sky	Nnat	3		29
+2c.1	Water and other liquids	Nnat	4		61
+2c.1	Elements, metals, alloys	Nnat	5		41
+2c.1	Landforms and geographical features	Nnat	6		69
+2c.1	Natural disasters	Nnat	7		7
+2c.1	Cracks/Chasms/Crevices	Nnat	8		28
+2c.1	Organic matter/Organic compounds	Nnat	9		7
+2c.1	Rocks and minerals	Nnat	10		28
+2c.1	Light or lack of light	Nnat	11		19
+2c.1	Ground/Earth/Soil/Dirt	Nnat	12		37
+9d	Ornaments	Norn		*	17
+3c	Footwear	Npers	1		15
+3c	Clothes (general)	Npers	2.1		12
+3c	Head	Npers	2.1.1		17
+3c	Upper body	Npers	2.1.2		8
+3c	Lower body	Npers	2.1.3		17
+3c	Special clothes and equipment	Npers	2.2		18
+3c	Parts of clothing	Npers	2.3		10
+3c	Jewelry and Accessories	Npers	3		31
+3c	Toiletries	Npers	4		7
+9d	Religion	Nrel		*	68
+9d	Deities/Spiritual Beings	Nrel	1.1		7
+9d	Spiritual Beings	Nrel	1.2		6
+9d	General/Other Religious	Nrel	1.3		2
+9d	Occupations	Nrel	2.1		5
+9d	Group appellation	Nrel	2.2		2
+9d	Religious persons/things	Nrel	2.3		0
+9d	Religious Events	Nrel	3.1		8
+9d	Magical	Nrel	3.2		6
+9d	Heaven/Hell	Nrel	4	x	4
+9a	Rope	Nrope		*	26
+6e	Shape and size	Nshiz		*	62
+9d	Social interactions	Nsoc		*	47
+6i	Adverbial uses	Ntime			28
+6i	Months and Years	Ntime	1		21
+6i	Days	Ntime	2		25
+6i	Hours	Ntime	3		25
+6i	Other Intervals	Ntime	4		34
+6i	Years	Ntime	5		0
+9a	Tools	Ntool		*	40
+9a	Agricultural use	Ntool	1		16
+9a	Home/Non-specialized use	Ntool	2		15
+9a	Cutting/Boring	Ntool	3		13
+9a	Workshop use/Equipment	Ntool	4		8
+9a	Equipment	Ntool	6	x	8
+9a	Textile	Ntxtl		*	58
+6h	Numbers and numeric expression	Num		*	135
+2b.1	Names of trees and shrubs	Nveg	1.1		50
+2b.1	Plant parts and types	Nveg	1.2		70
+2b.1	Seeds and flowers, nuts	Nveg	3.1		76
+2b.1	Fruits and vegetables	Nveg	3.2		66
+2b.1	Leafy vegetables	Nveg	3.2.1		20
+2b.1	Extracts and processed forms	Nveg	3.3		15
+2b.1	Spices	Nveg	3.3.1		21
+2b.1	Other ground and milled food	Nveg	3.3.2		19
+2b.1	Juices, beers, etc.	Nveg	3.3.3		19
+2b.1	Building, Non-edible	Nveg	3.3.4		15
+2b.1	Leaves	Nveg	3.4		8
+2b.1	Fungi	Nveg	4.1		22
+2b.1	Other wild plants	Nveg	4.2		17
+2b.1	Vegetative/Agricultural activity	Nveg	5		3
+9e	War and violence	Nwar		*	43
+9a	Waste products	Nwast		*	18
+9a	Writing Implements	Nwrit			32
+6a	Sounds	Sound		*	51
+6j	Spatial terms	Spat		*	19
+6j	Up	Spat	1		19
+6j	Down	Spat	2		12
+6j	Sideways	Spat	3		10
+6j	Apart	Spat	4		8
+6j	Amid	Spat	5		10
+6j	Around	Spat	6		2
+6j	Extent	Spat	7		31
+6j	Directions	Spat	8		39
+5b	Abstract verbs	Vabst		*	43
+5b	Be	Vabst	1.2.3	x	15
+4f.3	Acquisitions	Vacq		*	38
+4a	with Patient	Vact			127
+4a	Affect	Vact	1	x	33
+4a	To do/act	Vact	1.1		8
+4a	Redo, repeat	Vact	1.1.2		6
+4a	Play	Vact	1.3		6
+4a	Lie	Vact	1.4		0
+4a	Sit	Vact	1.4.1		4
+4a	Sprawl	Vact	1.4.2.1		3
+4a	Fall	Vact	1.4.4		2
+4a	Hang	Vact	1.5		6
+4a	Wait	Vact	1.6		4
+4a	Assorted action verbs	Vact	2.1	x	161
+4a	Move an object	Vact	2.2		62
+4a	Carry	Vact	2.2.1		6
+4a	Bring	Vact	2.2.3		3
+4a	Push	Vact	2.3.1		9
+4a	Pull	Vact	2.3.2		2
+4a	Kick	Vact	2.3.4		2
+4a	Clear	Vact	2.5.1		4
+4a	Wash (v.i./v.t.)	Vact	2.5.2		4
+4a	Sweep	Vact	2.5.3		3
+4a	Open	Vact	2.6.1		3
+4a	Close	Vact	2.6.2		0
+4a	Use	Vact	2.7.1		8
+4a	Practice	Vact	2.7.2		2
+4a	Show	Vact	2.8		6
+4a	Write	Vact	2.9.1		4
+4a	Draw	Vact	2.9.2		2
+4a	Read	Vact	2.9.3		2
+5c	Adjectives  and attributives	Vadj		*	127
+5c	Emotive	Vadj	1		20
+5c	Quantity - general	Vadj	2.1		52
+5c	Degree	Vadj	2.2		32
+5c	Temperature	Vadj	2.4	Vbp!	7
+5c	General  - other than appearance	Vadj	3.1		159
+5c	Appearance	Vadj	3.2		15
+5c	Sight	Vadj	4.1		4
+5c	Feel/Tactile/Texture	Vadj	4.2		33
+5c	Hear	Vadj	4.3		7
+5c	Taste	Vadj	4.4		20
+5c	Smell	Vadj	4.5		16
+5c	General - form	Vadj	5.1		125
+5c	Texture	Vadj	5.2		0
+5c	Position - high/low	Vadj	5.3		11
+5c	Position - front/back/side-side	Vadj	5.4		7
+5c	Single/part/few	Vadj	6.1		8
+5c	Accompanied/whole/many	Vadj	6.2		9
+5c	Unique/important/special	Vadj	7.1		23
+5c	Mundane/unimportant/same/routine	Vadj	7.2		8
+5c	Positive term	Vadj	8.1		39
+5c	Negative term	Vadj	8.2		50
+5c	Neutral term	Vadj	8.3		79
+5c	Abruptly	Vadj	10	x	69
+5c	Light	Vadj	11.1		22
+5c	Dark	Vadj	11.2		2
+2a.2	Animate verbs	Vanim		*	1
+2a.2	Caponize	Vanim	11.1		2
+2a.2	Sting	Vanim	14		5
+2a.2	Animal Qualities	Vanim	18		8
+1b	Body part verbs	Vbp		*	8
+1b	Bodied	Vbp	1.1	x	7
+1b	Bear a child	Vbp	1.2	x	8
+1b	Alive	Vbp	1.2.1	x	7
+1b	Breathe	Vbp	1.2.2	x	10
+1b	Be able	Vbp	1.2.3	x	2
+1b	Be hungry	Vbp	1.3	x	2
+1b	Be thirsty	Vbp	1.3.1	x	2
+1b	Enough	Vbp	1.3.2	x	5
+1b	Alert	Vbp	1.4	x	11
+1b	Be asleep	Vbp	1.4.1	x	12
+1b	Get	Vbp	1.5	x	4
+1b	Ache	Vbp	1.5.1	x	28
+1b	Bloated	Vbp	1.5.2	x	6
+1b	Deathly	Vbp	1.6	x	6
+1b	Headed	Vbp	2.1	x	4
+1b	Horned	Vbp	2.2	x	2
+1b	Long-haired	Vbp	2.3	x	2
+1b	Bald	Vbp	2.3.3	x	4
+1b	Bearded	Vbp	2.5	x	6
+1b	Eyed	Vbp	2.6	x	3
+1b	Squint	Vbp	2.6.10	x	2
+1b	Cross-eyed	Vbp	2.6.11	x	3
+1b	Blind	Vbp	2.6.11.1	x	4
+1b	Dilate	Vbp	2.6.2	x	2
+1b	Watch	Vbp	2.6.7	x	5
+1b	Behold	Vbp	2.6.9	x	19
+1b	Audible	Vbp	2.7.4	x	8
+1b	Smell	Vbp	2.8.5	x	5
+1b	Gape	Vbp	3.1	x	4
+1b	Blow	Vbp	3.1.4	x	6
+1b	Sucker	Vbp	3.2.1	x	2
+1b	Lick	Vbp	3.3.1	x	2
+1b	Bite	Vbp	3.4.4	x	10
+1b	Chew	Vbp	3.4.5	x	8
+1b	Choke	Vbp	3.5.6	x	10
+1b	Devour	Vbp	3.5.7	x	19
+1b	Drinkable	Vbp	3.5.8	x	5
+1b	Short-tailed	Vbp	4.10.1	x	2
+1b	Neck-shaped	Vbp	4.2	x	2
+1b	Carry on shoulder	Vbp	4.3	x	2
+1b	Folded	Vbp	4.4.1	x	2
+1b	Spinal	Vbp	4.8	x	2
+1b	Crouch	Vbp	4.8.3	x	5
+1b	Four-handed	Vbp	5.1	x	2
+1b	Knee-deep	Vbp	5.11.4	x	3
+1b	Paralysed	Vbp	5.18	x	3
+1b	Lame	Vbp	5.19	x	6
+1b	Footed	Vbp	5.2	x	3
+1b	Bandy-legged	Vbp	5.3	x	4
+1b	Bristle	Vbp	6.1	x	3
+1b	Bleed	Vbp	6.2	x	4
+1b	Chubby	Vbp	6.4	x	7
+1b	Molt	Vbp	6.5	x	3
+1b	Blistered	Vbp	6.5.3	x	8
+1b	Itching	Vbp	6.5.4	x	2
+1b	Cramped	Vbp	6.6.2	x	5
+1b	Digest	Vbp	7.6	x	3
+1b	Constipated	Vbp	7.7	x	2
+1b	Perspire	Vbp	8.2	x	2
+1b	Cough	Vbp	8.4	x	5
+1b	Belch	Vbp	8.4.4	x	2
+1b	Defecate	Vbp	8.6	x	4
+1b	Flatulate	Vbp	8.6.2	x	2
+1b	Discharge	Vbp	8.7	x	3
+1b	Chuckle	Vbp	8.9	x	9
+1b	Cry	Vbp	8.9.1	x	11
+1b	Bark	Vbp	8.9.4	x	4
+1b	Reproduce	Vbp	9.0	x	2
+1b	Bred	Vbp	9.1.1	x	7
+1b	Circumcise	Vbp	9.2.1.1	x	3
+1b	Sterile	Vbp	9.2.2	x	2
+1b	Castrate	Vbp	9.2.2.4	x	4
+1b	Brood on egg	Vbp	9.3.3	x	4
+1b	Menstrual	Vbp	9.3.4	x	4
+1b	Barren	Vbp	9.3.4.1	x	2
+2c.2	Burn, illuminate	Vburn		*	27
+6c	Change of state	Vcos		*	141
+4c.4	Carve, shave	Vcut	1		31
+4c.4	Chop, slice	Vcut	2		24
+4c.4	Mince, shred	Vcut	3		10
+4c.8	Digging, excavation	Vdig		*	18
+4f.4	Exchanges	Vexch		*	50
+5e	Feeling	Vfeel		*	36
+4b.2	Fighting	Vfigh			39
+9b	Culinary verbs	Vfood		*	32
+4f.5	Giving	Vgive		*	16
+4b.1	Harm	Vharm		*	56
+4e.4	Possession	Vhave		*	6
+4f.2	Helping	Vhelp		*	6
+4c.1	Striking, hitting verbs	Vhit		*	29
+4e.2	Holding	Vhold		*	21
+4d.2	Tying	Vjoin	1.1		16
+4d.2	Adhesion	Vjoin	1.2		11
+4d.2	With Tools	Vjoin	1.3		17
+4d.2	Mix	Vjoin	3		13
+4d.2	Join (general)	Vjoin	5		13
+4b.3	Verbs requiring liquids	Vliq		*	102
+4b.3	Float	Vliq	5	x	13
+4b.3	Dissolve	Vliq	9	x	3
+4d.3	Construction	Vmake		*	30
+4d.4	Repair	Vmend		*	6
+4b.4	Inward	Vmot	1		14
+4b.4	Outward	Vmot	2		27
+4b.4	Awkwardly, Irregularly	Vmot	3		28
+4b.4	Regular, Cyclic, Smoothly	Vmot	4		43
+4b.4	Medium Primary (e.g. air)	Vmot	5		13
+4b.4	Circularly	Vmot	6		25
+4b.4	Up, etc.	Vmot	7		13
+4b.4	Downward	Vmot	8		12
+4b.4	Manner is primary	Vmot	9		31
+4b.4	Move with something else	Vmot	10		36
+4b.4	Movement (general)	Vmot	11		15
+9d	Ornamentation	Vorn		*	25
+5d	Psychological verbs	Vpsi		*	100
+5d	Like	Vpsi	1.1.1		30
+5d	Dislike	Vpsi	1.1.2		12
+5d	Satisfied	Vpsi	1.1.3		3
+5d	Fear	Vpsi	1.10.2		11
+5d	Positive	Vpsi	1.10.4.1		8
+5d	Hesitate	Vpsi	1.10.5		3
+5d	Alert	Vpsi	1.11.1		9
+5d	Tired	Vpsi	1.11.10		5
+5d	Thrilled, Dizzy	Vpsi	1.11.11		26
+5d	Know, Believe	Vpsi	1.12.1		15
+5d	Think/plan	Vpsi	1.13		3
+5d	Think	Vpsi	1.13.1		24
+5d	Plan	Vpsi	1.13.2		10
+5d	Imagination	Vpsi	1.13.8	x	2
+5d	Longing	Vpsi	1.14.1	x	3
+5d	Avarice	Vpsi	1.14.2	x	7
+5d	Desirable	Vpsi	1.14.3	x	8
+5d	Awe	Vpsi	1.15	x	19
+5d	Forget	Vpsi	1.16.1	x	10
+5d	Accept	Vpsi	1.2.1		3
+5d	Blame	Vpsi	1.3.2		3
+5d	Agree	Vpsi	1.4.1		5
+5d	Happy	Vpsi	1.5.1		14
+5d	Sad	Vpsi	1.5.2		13
+5d	Grief	Vpsi	1.5.2.2		2
+5d	Emotional	Vpsi	1.5.3		3
+5d	Enthusiastic	Vpsi	1.5.4		3
+5d	Excited	Vpsi	1.5.6		8
+5d	Frustrated	Vpsi	1.5.7		2
+5d	Angry	Vpsi	1.6.1		11
+5d	Distress	Vpsi	1.6.2		4
+5d	Positive	Vpsi	1.7.1		2
+5d	Negative (e.g. dread)	Vpsi	1.7.2		4
+5d	Neutral or ambiguous	Vpsi	1.7.3		5
+5d	Relieved	Vpsi	1.7.5		2
+5d	Willing	Vpsi	1.8.3		4
+5d	Surprised	Vpsi	1.9.1		8
+5d	Worry	Vpsi	1.9.2		3
+5d	Friendly	Vpsi	2.1.1		4
+5d	appease	Vpsi	2.2.1		2
+5d	Comfort	Vpsi	2.3.1		11
+5d	Pity	Vpsi	2.3.2		9
+5d	Encourage	Vpsi	2.3.3		2
+5d	Defer	Vpsi	2.5.1		3
+5d	Honor	Vpsi	2.5.2		7
+5d	Flatter	Vpsi	2.5.3		2
+5d	Tolerate	Vpsi	2.5.4		4
+5d	Ignore	Vpsi	2.5.5		2
+5d	Disobedient	Vpsi	2.5.6	x	2
+5d	Trust	Vpsi	2.5.7	x	4
+5d	Admire	Vpsi	2.6.1		7
+5d	Envy	Vpsi	2.6.2		3
+5d	Flirt, seduce	Vpsi	2.7.1		4
+5d	Entice, tempt	Vpsi	2.7.2		4
+5d	Forgive	Vpsi	2.9.1		2
+5d	Correct	Vpsi	3.10	x	4
+5d	Kind	Vpsi	3.2.1		5
+5d	Cruel	Vpsi	3.2.2		2
+5d	Discern	Vpsi	3.3.1		3
+5d	Honest	Vpsi	3.4.1		3
+5d	Earnest/sincere	Vpsi	3.4.3		2
+5d	Deceive	Vpsi	3.4.4		2
+5d	Positive/neutral	Vpsi	3.4.4.1		2
+5d	Negative	Vpsi	3.4.4.2		7
+5d	Guilty	Vpsi	3.6.2		2
+5d	Modest	Vpsi	3.8.1		2
+5d	Ashamed	Vpsi	3.8.3		7
+4e.3	Putting	Vput		*	24
+6d	Positive/Desirable qualities	Vqual	1		19
+6d	Neutral and Negative qualities	Vqual	2		30
+4a.2	Friction	Vrub		*	8
+4c.7	Unintentional loss -Misplace	Vsep	1.1		7
+4c.7	Intentional loss - Abandon	Vsep	1.2		16
+4c.7	Wide separation - Scatter	Vsep	2		9
+4c.7	Intentional separation - Sort	Vsep	4		28
+6f	Verbs referring to size/shape	Vshiz		*	65
+4f.1	Social action	Vsoc		*	65
+4c.9	Throwing	Vthrw		*	17
+4c.5	Undoing	Vundo		*	25
+5f	Utterance	Vutt		*	72
+5f	Scold	Vutt	1		24
+5f	Complain	Vutt	2.1		12
+5f	Complement, praise	Vutt	2.2		2
+5f	Declare	Vutt	3		14
+5f	Loud	Vutt	4.1		9
+5f	Soft	Vutt	4.2		4
+5f	Accented	Vutt	4.3		3
+5f		Vutt	4.6		5
+5f	Choppy	Vutt	4.7		2
+5f	Sounds	Vutt	5	x	30
+5f	Answer	Vutt	6	x	8
+5f	Bid	Vutt	7	x	3
+5f	Ask	Vutt	7.1	x	5
+5f	Implore/Coax	Vutt	7.2	x	2
+5f	Coax	Vutt	7.3	x	4
+5f	Banter/Discourse	Vutt	8	x	14
+5f	Jest	Vutt	9	x	4
+5f	Talk, say	Vutt	10.1		15
+5f	Garrulosity, verbosity	Vutt	10.2		10
+5f	Talk with purpose of convincing	Vutt	10.3		2
+5f	Falsehood	Vutt	10.4	x	4
+5f	Formulaic	Vutt	11		6
+5f	Introduction	Vutt	11.2		2
+5f	Farewells	Vutt	11.3		3
+5f	Apology/excuse	Vutt	11.5		3
+5f	Invite	Vutt	11.6		2
+5f	Beckon	Vutt	13	x	9
+5f	Spread information, present ideas	Vutt	14.1		4
+5f	Reveal or give information	Vutt	14.2		8
+5f	Explain	Vutt	14.3		3
+5f	Boast	Vutt	15	x	9
+5f	Dedicate	Vutt	16	x	12
+2b.2	Verbs involving plants	Vveg			65
+x		x		x	57

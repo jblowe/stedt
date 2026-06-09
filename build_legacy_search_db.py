@@ -29,7 +29,7 @@ ETY_VISIBLE = "coalesce(upper(status),'') != 'DELETE'"
 
 def main():
     if not os.path.exists(SRC):
-        raise SystemExit(f"missing {SRC} — run build_from_files.py first")
+        raise SystemExit(f"missing {SRC} — run build_from_tsv.py first")
     if os.path.exists(OUT):
         os.remove(OUT)
 

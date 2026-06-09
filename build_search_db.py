@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build search.sqlite3 — a lean, fully-indexed SQLite for in-browser (WASM) search.
 
-Derived from stedt.sqlite (build_from_files.py output). Holds only what the live search
+Derived from stedt.sqlite (build_from_tsv.py output). Holds only what the live search
 queries touch — etyma, lexicon, languagenames, languagegroups, lx_et_hash — plus the FTS5
 index over reflex form/gloss/language (`unicode61 remove_diacritics 2`, byte-identical to
 the server's `lexicon_fts`). Small page_size + VACUUM so sql.js-httpvfs range requests
@@ -20,7 +20,7 @@ OUT = os.path.join(HERE, "search.sqlite3")
 
 def main():
     if not os.path.exists(SRC):
-        raise SystemExit(f"missing {SRC} — run build_from_files.py first")
+        raise SystemExit(f"missing {SRC} — run build_from_tsv.py first")
     if os.path.exists(OUT):
         os.remove(OUT)
 

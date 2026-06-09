@@ -1,0 +1,78 @@
+grpid	grpno	abbr	name	proto_language	genetic	grp0	grp1	grp2	grp3	grp4
+1	0	ST	Sino-Tibetan (previously published reconstructions)	PST	0	0	0	0	0	0
+2	0.1	PTB	Tibeto-Burman (previously published reconstructions)	PTB	0	0	1	0	0	0
+3	1	KAM	NE Indian Areal Group	NEIA	0	1	0	0	0	0
+4	1.1	NA	“North Assam”		0	1	1	0	0	0
+5	1.1.1	TANI	Tani	PTani	1	1	1	1	0	0
+6	1.1.2	DENG	Deng	PDeng	1	1	1	2	0	0
+8	1.2	KC	Kuki-Chin	PKC	1	1	2	0	0	0
+11	1.3	NAGA	“Naga” Areal Group		0	1	3	0	0	0
+12	1.7.2	NN	Northern Naga/Konyakian	PNN	1	1	7	2	0	0
+13	1.4	MEI	Meithei		1	1	4	0	0	0
+14	1.5	MIK	Mikir [Karbi]		1	1	5	0	0	0
+15	1.6	MRU	Mru		1	1	6	0	0	0
+16	1.7.1	BG	Bodo-Garo	PBG	1	1	7	1	0	0
+18	2	HIM	Himalayish		0	2	0	0	0	0
+19	2.1	TK	Tibeto-Kanauri		0	2	1	0	0	0
+20	2.1.1	WH	Western Himalayish		0	2	1	1	0	0
+21	2.1.3	LEP	Lepcha		1	2	1	3	0	0
+22	2.1.2	TBC	Bodic	PBod	1	2	1	2	0	0
+23	2.1.4	TGTM	Tamangish	TGTM	1	2	1	4	0	0
+24	2.1.2.1	TIB	Tibetan		1	2	1	2	1	0
+27	2.2	NW	Newar		1	2	2	0	0	0
+28	2.4	KMC	Kham-Magar-Chepang		1	2	4	0	0	0
+29	2.3	KIR	Kiranti	PKir	1	2	3	0	0	0
+30	2.3.4	W	Western Kiranti		1	2	3	4	0	0
+31	2.3.1	E	Eastern Kiranti		1	2	3	1	0	0
+32	3	TQ	Tangut-Qiang	PTQ	1	3	0	0	0	0
+33	3.1	X	Tangut		1	3	1	0	0	0
+34	3.2	Q	Qiangic	PQ	1	3	2	0	0	0
+35	3.3	rG	rGyalrongic	PrGy	1	3	3	0	0	0
+36	1.7.3	JNL	Jingpho-Asakian		1	1	7	3	0	0
+37	1.7.3.1	JG	Jingpho		1	1	7	3	1	0
+38	4	NG	Nungic	PNungic	1	4	0	0	0	0
+40	1.7.3.2	LU	Asakian	PAsak	1	1	7	3	2	0
+41	5	TJ	Tujia		1	5	0	0	0	0
+42	6.1	LB	Lolo-Burmese	PLB	1	6	1	0	0	0
+43	6.2	NX	Naxi		1	6	2	0	0	0
+44	6.1.1	BM	Burmish	PBm	1	6	1	1	0	0
+45	6.1.2	YI	Loloish	PL	1	6	1	2	0	0
+46	6.1.2.1	LO-N	Northern Loloish	PNL	1	6	1	2	1	0
+47	6.1.2.2	LO-C	Central Loloish	PCL	1	6	1	2	2	0
+48	6.1.2.3	LO-S	Southern Loloish	PSL	1	6	1	2	3	0
+50	7	KAR	Karenic	PKar	1	7	0	0	0	0
+51	8	BAI	Bai	PBai	1	8	0	0	0	0
+52	9	S	Sinitic	CH	1	9	0	0	0	0
+53	9.0.1	OC	Old Chinese		0	9	0	1	0	0
+54	9.0.2	MC	Middle Chinese		0	9	0	2	0	0
+55	9.0.3	CH	Modern Chinese		0	9	0	3	0	0
+56	X	OTH	Other Languages		0	255	0	0	0	0
+57	X.1	Z	Non-TB		0	255	1	0	0	0
+58	X.2	UNK	Unknown/Unevaluated		0	255	2	0	0	0
+60	2.1.5	DHI	Dhimal		1	2	1	5	0	0
+61	6	LBN	Lolo-Burmese-Naxi		0	6	0	0	0	0
+62	X.1.1	IA	Indo-Aryan	IA	0	255	1	1	0	0
+63	1.3.1	CN	Central Naga (Ao Group)	PCN	1	1	3	1	0	0
+64	1.3.3	ZG	Zeme Group		1	1	3	3	0	0
+65	1.3.2	APG	Angami-Pochuri Group		1	1	3	2	0	0
+66	1.3.4	TK	Tangkhulic	PTk	1	1	3	4	0	0
+67	1.2.1	KC-P	Peripheral Chin	PPC	1	1	2	1	0	0
+68	1.2.1.1	KC-N	Northern Chin	PNC	1	1	2	1	1	0
+69	1.2.1.2	KC-S	Southern Plains Chin	PSPC	1	1	2	1	2	0
+70	1.2.2	KC-C	Central Chin	PCC	1	1	2	2	0	0
+71	1.2.3	KC-M	Maraic	PM	1	1	2	3	0	0
+72	1.2.4	OK	“Old Kuki”		0	1	2	4	0	0
+73	1.1.1.1		Western Tani	PWTani	1	1	1	1	1	0
+74	1.1.1.2		Eastern Tani	PETani	1	1	1	1	2	0
+75	6.1.2.4		Southeastern Loloish	PSEL	1	6	1	2	4	0
+76	2.3.2		Southern Kiranti		1	2	3	2	0	0
+77	2.3.3		Central Kiranti		1	2	3	3	0	0
+78	3.3.1		rGyalrong		1	3	3	1	0	0
+79	1.7		Sal		1	1	7	0	0	0
+80	1.7.1.1		Bodo		1	1	7	1	1	0
+81	1.7.1.2		Garo		1	1	7	1	2	0
+82	1.7.1.3		Koch		1	1	7	1	3	0
+83	1.7.1.4		Deori		1	1	7	1	4	0
+84	1.7.2.1		Tangsa-Nocte		1	1	7	2	1	0
+85	1.7.2.2		Konyak-Chang		1	1	7	2	2	0
+86	X.1.2		Dravidian	DRV	0	255	1	2	0	0

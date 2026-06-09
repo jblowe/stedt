@@ -92,14 +92,14 @@ def cmd_build(args):
     if args.rebuild_db:
         # data/ -> stedt.sqlite -> search.sqlite3 (and the legacy search DB). Only needed when
         # the data or the DB-build pipeline changed; a render-only refactor leaves these alone.
-        for script in ("build_from_files.py", "build_search_db.py", "build_legacy_search_db.py"):
+        for script in ("build_from_tsv.py", "build_search_db.py", "build_legacy_search_db.py"):
             if os.path.exists(os.path.join(ROOT, script)):
                 r = subprocess.run([sys.executable, script], cwd=ROOT)
                 if r.returncode != 0:
                     sys.exit(f"snapshot: {script} failed (exit {r.returncode})")
 
     if not os.path.exists(os.path.join(ROOT, "stedt.sqlite")):
-        sys.exit("snapshot: stedt.sqlite missing — run with --rebuild-db, or `python build_from_files.py` first")
+        sys.exit("snapshot: stedt.sqlite missing — run with --rebuild-db, or `python build_from_tsv.py` first")
 
     _run("build_static.py", out, args.limit)            # rmtrees + rebuilds out/  (modern site)
     if not args.no_legacy and os.path.exists(os.path.join(ROOT, "build_legacy.py")):
