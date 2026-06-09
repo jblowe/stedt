@@ -257,6 +257,7 @@ def thesaurus(semkey=None):
         (semkey + ".%", depth),
     ).fetchall()
     kids = sorted(kids, key=lambda r: natkey(r["semkey"]))
+    scounts = reflex_semkey_counts()   # semkey -> attested-form count, the same source the index uses
     kidinfo = []
     for k in kids:
         sk = k["semkey"]
@@ -265,8 +266,16 @@ def thesaurus(semkey=None):
         cnt = conn.execute(
             f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' " f"AND {ECAT} IN ({kph})", kown
         ).fetchone()[0]
+        lcnt = sum(scounts.get(x, 0) for x in kown)
+        # reconstructions / attestations, formatted exactly as the thesaurus index renders each node,
+        # so a recon-less but attestation-rich child no longer reads as a dead "0 etyma"
+        ct = (
+            Markup(f'<span class="ct" title="reconstructions / attestations">{cnt:,} / {lcnt:,}</span>')
+            if (cnt or lcnt)
+            else Markup("")
+        )
         kidinfo.append(
-            {"semkey": sk, "semkey_esc": Markup(esc(sk)), "title": Markup(esc(k["chaptertitle"])), "cnt": cnt}
+            {"semkey": sk, "semkey_esc": Markup(esc(sk)), "title": Markup(esc(k["chaptertitle"])), "ct": ct}
         )
     direct = conn.execute(
         f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg
@@ -290,8 +299,7 @@ def thesaurus(semkey=None):
         ]
     # Attested forms (reflexes) filed directly under this meaning - a separate, gloss-level axis from
     # the etyma above. Loaded lazily on expand (reuses the search WASM DB); the count is static.
-    scounts = reflex_semkey_counts()
-    nforms = sum(scounts.get(k, 0) for k in own)
+    nforms = sum(scounts.get(k, 0) for k in own)   # scounts computed above (kids loop)
     attest = None
     if nforms:
         attest = {"keys_json": Markup(esc(json.dumps(own, separators=(",", ":")))), "nforms": f"{nforms:,}"}

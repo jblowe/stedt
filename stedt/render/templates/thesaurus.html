@@ -11,7 +11,7 @@
 <section class="notes">{% for n in cnotes %}<div class="note-block">{{ n }}</div>{% endfor %}</section>
 {%- endif -%}
 {%- if kids -%}
-<ul>{% for k in kids %}<li><a class="row" href="/thesaurus/{{ k.semkey }}"><span class="sk">{{ k.semkey_esc }}</span><span class="ti">{{ k.title }}</span><span class="ct">{{ k.cnt }} etyma</span></a></li>{% endfor %}</ul>
+<ul>{% for k in kids %}<li><a class="row" href="/thesaurus/{{ k.semkey }}"><span class="sk">{{ k.semkey_esc }}</span><span class="ti">{{ k.title }}</span>{{ k.ct }}</a></li>{% endfor %}</ul>
 {%- endif -%}
 {%- if direct -%}
 <div class="ety-list"><h3 style="margin-top:30px">Reconstructions <span class="ct">{{ ndirect }}</span></h3>{% for e in direct %}<div class="ety-hit"><a href="/etymon/{{ e.tag }}" class="pf2 lat">{{ e.pf }}</a><span class="pg2">{{ e.pg }}</span><span class="tagn">{{ e.tagn }}</span></div>{% endfor %}</div>
