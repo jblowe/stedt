@@ -2,11 +2,16 @@
 import re
 import urllib.parse
 
+from markupsafe import Markup
+
 from .config import CITE_BASE, PLG_FULL
 from .db import con
 from .text import esc, alt, natkey, iso_link, suggest_edit_url, rcount_txt
 from .notes import render_note
 from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels, canonical_languages, canon_lgid
+from .templating import env
+
+_SOURCE = env.get_template("source.html")
 
 def etymon(tag):
     c = con()
@@ -433,46 +438,41 @@ def language(lgid):
     return page(ln['language'], body, nav="languages")
 
 def source(srcabbr):
-    c = con()
-    s = c.execute("SELECT * FROM srcbib WHERE srcabbr=?", (srcabbr,)).fetchone()
+    conn = con()
+    s = conn.execute("SELECT * FROM srcbib WHERE srcabbr=?", (srcabbr,)).fetchone()
     if not s:
-        c.close(); return page("Not found", "<p>No such source.</p>")
-    notes = c.execute("""SELECT xmlnote FROM notes WHERE id=? AND spec='S'
+        conn.close(); return page("Not found", "<p>No such source.</p>")
+    notes = conn.execute("""SELECT xmlnote FROM notes WHERE id=? AND spec='S'
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""", (srcabbr,)).fetchall()
-    langs = c.execute("""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
+    langs = conn.execute("""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
             ln.silcode AS silcode, g.grp AS subgroup, g.grpno AS grpno, g.grpid AS grpid,
             count(l.rn) AS n
         FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         WHERE ln.srcabbr=? AND ln.language!='' AND ln.language NOT LIKE '*%' GROUP BY ln.lgid
         HAVING n>0 ORDER BY ln.language""", (srcabbr,)).fetchall()
-    c.close()
+    conn.close()
     total = sum(l['n'] for l in langs)
     _au = (s['author'] or '').rstrip()
     if _au and not _au.endswith('.'): _au += '.'
     cite = ' '.join(x for x in (_au, f"{s['year']}." if s['year'] else '', s['title']) if x)
     meta = []
-    if s['imprint']: meta.append(f'<span><b>imprint</b> {esc(s["imprint"])}</span>')
-    meta.append(f'<span><b>{len(langs)}</b> languages</span>')
-    meta.append(f'<span><b>{total:,}</b> forms</span>')
+    if s['imprint']: meta.append(Markup(f'<span><b>imprint</b> {esc(s["imprint"])}</span>'))
+    meta.append(Markup(f'<span><b>{len(langs)}</b> languages</span>'))
+    meta.append(Markup(f'<span><b>{total:,}</b> forms</span>'))
 
-    def langrow(l):
+    def langinfo(l):
         bits = [esc(x) for x in (l['grpno'], l['subgroup']) if x]
         grp = ' '.join(bits)
         grplink = (f'<a href="/group/{l["grpid"]}">{grp}</a>' if (l['grpid'] is not None and grp) else grp)
         iso = f' · ISO {iso_link(l["silcode"])}' if l['silcode'] else ''
         ab = f' <span class="lgab">{esc(l["lgabbr"])}</span>' if l['lgabbr'] else ''
-        return (f'<div class="rfx"><span><a class="lang" href="/language/{canon_lgid(l["lgid"])}">'
-                f'{esc(l["language"])}</a>{ab}</span><span class="subg">{grplink}{iso}</span>'
-                f'<span class="src">{l["n"]:,} forms</span></div>')
-    rows = ''.join(langrow(l) for l in langs)
+        return {"canon": canon_lgid(l['lgid']), "language": Markup(esc(l['language'])),
+                "ab": Markup(ab), "grplink": Markup(grplink), "iso": Markup(iso), "n_fmt": f"{l['n']:,}"}
+    langinfos = [langinfo(l) for l in langs]
 
-    noteshtml = ''
-    if notes:
-        noteshtml = ('<section class="notes"><h3>Notes</h3>'
-                     + ''.join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in notes)
-                     + '</section>')
-    citehtml = f'<div class="pg" style="font-variant:normal;font-size:16px;color:var(--soft);letter-spacing:0">{esc(cite)}</div>' if cite else ''
+    citehtml = (Markup(f'<div class="pg" style="font-variant:normal;font-size:16px;color:var(--soft);letter-spacing:0">{esc(cite)}</div>')
+                if cite else Markup(''))
 
     # copy-ready "Cite this source" apparatus (parallels the etymon page; wires the previously
     # orphaned .citebox CSS). Access date is a fill-in blank, like the etymon citebox (static site).
@@ -502,7 +502,7 @@ def source(srcabbr):
                "document.querySelectorAll('.copybtn').forEach(function(b){b.addEventListener('click',function(){"
                "navigator.clipboard.writeText((b.dataset.cite||'').replace(/\\[ACCESSED\\]/g,D));"
                "b.textContent='Copied';});});})();</script>")
-    apparatus = f"""
+    apparatus = Markup(f"""
     <section class="apparatus"><h3>Cite this source</h3>
       <div class="citebox">
         <div><code>{esc(cite_full)} — via STEDT, {esc(src_url)} (accessed <span class="adate"></span>).</code></div>
@@ -513,19 +513,11 @@ def source(srcabbr):
         </div>
         <details class="seg"><summary>BibTeX</summary><pre class="diff">{esc(src_bib)}</pre></details>
       </div>
-    </section>{copy_js}"""
-    body = f"""
-    <div class="ety-head">
-      <div class="plg">Source · {esc(s['srcabbr'])}</div>
-      <div class="pagetitle">{esc(s['citation'] or s['srcabbr'])}</div>
-      {citehtml}
-      <div class="crumbs"><a href="/sources">Sources</a> &nbsp;›&nbsp; {esc(s['srcabbr'])}</div>
-      <div class="metabar">{''.join(meta)}</div>
-    </div>
-    {noteshtml}
-    <section class="reflexes"><h3>Languages in this source</h3>{rows}</section>
-    {apparatus}"""
-    return page(s['citation'] or s['srcabbr'], body, nav="sources")
+    </section>{copy_js}""")
+    return page(s['citation'] or s['srcabbr'], _SOURCE.render(
+        srcabbr=Markup(esc(s['srcabbr'])), cit_title=Markup(esc(s['citation'] or s['srcabbr'])),
+        citehtml=citehtml, meta=meta, notes=[Markup(render_note(r['xmlnote'])) for r in notes],
+        langs=langinfos, apparatus=apparatus), nav="sources")
 
 def group(grpid):
     c = con()
