@@ -266,7 +266,7 @@ def etymon(tag):
     for h in hptb:
         rels.append(
             f'<div class="conn-row"><span class="rl">HPTB</span>'
-            f'<span class="reltgt"><span class="lat">{esc(h["protoform"])}</span> ‘{esc(h["protogloss"])}’</span>'
+            f'<span class="reltgt"><span class="recon">{esc(alt(h["protoform"]))}</span> ‘{esc(h["protogloss"])}’</span>'
             f'<span class="src">pp. {esc(h["pages"])}</span></div>'
         )
     for label, fld in (("Allofam", e["allofams"]), ("See also", e["xrefs"]), ("Poss. allofam", e["possallo"])):
