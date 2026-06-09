@@ -26,25 +26,25 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - run: pip install jinja2
+      - run: pip install .
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
       - run: npm ci
-      - name: Build SQLite from data/
-        run: python3 build_from_tsv.py
+      - name: Compile data/ into stedt.sqlite
+        run: stedt build
       - name: Build the lean search.sqlite3 (FTS5)
-        run: python3 build_search_db.py
-      - name: Prerender static site (+ copy search.sqlite3)
-        run: python3 build_static.py
+        run: stedt search-db
+      - name: Prerender the static site (+ copy search.sqlite3)
+        run: stedt render
       - name: Bundle the client search (WASM SQLite)
         run: npm run build:search
       # /_legacy/ — pixel-faithful rootcanal clone (separate subtree; writes only under site/_legacy,
-      # so these must run AFTER build_static.py, which rmtrees + builds site/).
+      # so these must run AFTER `stedt render`, which rmtrees + builds site/).
       - name: Build the legacy search DB (rootcanal columns + FTS5)
-        run: python3 build_legacy_search_db.py
+        run: stedt legacy search-db
       - name: Prerender the /_legacy/ rootcanal clone
-        run: python3 build_legacy.py
+        run: stedt legacy render
       - name: Bundle the legacy data-plane shim (WASM SQLite)
         run: npm run build:legacy
       - uses: actions/upload-pages-artifact@v3
