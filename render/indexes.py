@@ -2,6 +2,8 @@
 import re
 import json
 
+from markupsafe import Markup
+
 from .config import CITE_BASE, PREVIEW
 from .db import con, reflex_semkey_counts
 from .text import esc, alt, natkey, rcount_txt
@@ -12,6 +14,7 @@ from .templating import env
 # ---------------------------------------------------------------- views
 _HOME = env.get_template("home.html")
 _ABOUT = env.get_template("about.html")
+_LANGUAGES = env.get_template("languages_index.html")
 
 
 def home():
@@ -159,17 +162,17 @@ def reconstructions():
     return page("Reconstructions", body, nav="reconstructions")
 
 def languages_index():
-    c = con()
+    conn = con()
     # every genetic-classification node, so headline subgroups (Lolo-Burmese, Bodo-Garo, Tani, …)
     # and the two "previously published reconstructions" groups appear as headings even when no
     # member language is directly attested under them.
-    allgroups = c.execute(
+    allgroups = conn.execute(
         "SELECT grpid, grpno, grp, plg FROM languagegroups WHERE grpid IS NOT NULL").fetchall()
-    rows = c.execute("""SELECT ln.grpid AS grpid, ln.language AS language, ln.lgid AS lgid, count(*) AS n
+    rows = conn.execute("""SELECT ln.grpid AS grpid, ln.language AS language, ln.lgid AS lgid, count(*) AS n
         FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
         WHERE ln.language NOT LIKE '*%'
         GROUP BY ln.lgid""").fetchall()
-    c.close()
+    conn.close()
     members, ntot = {}, 0   # grpid -> {language name: (lgid, max reflex count)}
     for r in rows:
         nm = r['language'] or ''
@@ -181,21 +184,19 @@ def languages_index():
     for d in members.values(): ntot += len(d)
 
     def block(grpno, grp, plg, grpid, langs):
-        depth = str(grpno).count('.') if grpno else 0
-        code = f'<span class="grpno">{esc(grpno)}</span>' if grpno else ''
-        head = code + esc(grp or '—') + (f' <span class="plg2">({esc(plg)})</span>' if plg else '')
-        gid = f' id="g{grpid}"' if grpid is not None else ''
-        headhtml = (f'<a href="/group/{grpid}">{head}</a>' if grpid is not None else head)
-        items = ''.join(f'<li><a href="/language/{canon_lgid(lid)}">{esc(nm)}</a></li>'
-                        for nm, (lid, _) in sorted(langs.items(), key=lambda kv: kv[0].lower()))
-        idx = f'<ul class="idx">{items}</ul>' if items else ''
-        return (f'<div class="grpblock" style="margin-left:{depth*18}px">'
-                f'<h4 class="grp"{gid}>{headhtml}</h4>{idx}</div>')
+        # pre-escape scalars to Markup so the template (autoescape on) emits them verbatim
+        return {
+            "depth": (str(grpno).count('.') if grpno else 0) * 18,
+            "grpno": Markup(esc(grpno)) if grpno else "",
+            "grp": Markup(esc(grp or '—')),
+            "plg": Markup(esc(plg)) if plg else "",
+            "grpid": grpid,
+            "langs": [(Markup(esc(nm)), canon_lgid(lid))
+                      for nm, (lid, _) in sorted(langs.items(), key=lambda kv: kv[0].lower())],
+        }
 
-    out = ['<div class="ety-head"><div class="pagetitle">Languages</div>',
-           f'<div class="metabar"><span><b>{ntot:,}</b> languages</span><span>by genetic subgroup</span></div></div>']
-    for g in sorted(allgroups, key=lambda g: natkey(g['grpno'])):
-        out.append(block(g['grpno'], g['grp'], g['plg'], g['grpid'], members.get(g['grpid'], {})))
+    blocks = [block(g['grpno'], g['grp'], g['plg'], g['grpid'], members.get(g['grpid'], {}))
+              for g in sorted(allgroups, key=lambda g: natkey(g['grpno']))]
     # any attested language whose grpid isn't a known classification node (incl. NULL) stays reachable
     known = {g['grpid'] for g in allgroups}
     leftover = {}
@@ -203,8 +204,8 @@ def languages_index():
         if gid not in known:
             leftover.update(d)
     if leftover:
-        out.append(block(None, 'Unclassified', '', None, leftover))
-    return page("Languages", ''.join(out), nav="languages")
+        blocks.append(block(None, 'Unclassified', '', None, leftover))
+    return page("Languages", _LANGUAGES.render(ntot=f"{ntot:,}", blocks=blocks), nav="languages")
 
 def sources_index():
     c = con()
