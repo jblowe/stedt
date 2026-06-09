@@ -47,8 +47,8 @@ TEXT_EXT = {".html", ".css", ".js", ".json", ".txt", ".xml", ".nojekyll"}
 SKIP_NAMES = {"MANIFEST.sha256"}
 
 
-def _run(script, out_dir, limit):
-    """Run one build script into out_dir with a pinned, reproducible env."""
+def _run(module, out_dir, limit):
+    """Run one build module (python -m) into out_dir with a pinned, reproducible env."""
     env = dict(os.environ)
     env["STEDT_OUT"] = out_dir
     env["STEDT_BASE"] = ""            # root-relative -> clean diffs; comparison only, not deploy
@@ -58,9 +58,9 @@ def _run(script, out_dir, limit):
     env["STEDT_LEGACY_VER"] = "snapshot"
     if limit:
         env["STEDT_LIMIT"] = str(limit)
-    r = subprocess.run([sys.executable, script], cwd=ROOT, env=env)
+    r = subprocess.run([sys.executable, "-m", module], cwd=ROOT, env=env)
     if r.returncode != 0:
-        sys.exit(f"snapshot: {script} failed (exit {r.returncode})")
+        sys.exit(f"snapshot: {module} failed (exit {r.returncode})")
 
 
 def _manifest_lines(root):
@@ -96,18 +96,17 @@ def cmd_build(args):
     if args.rebuild_db:
         # data/ -> stedt.sqlite -> search.sqlite3 (and the legacy search DB). Only needed when
         # the data or the DB-build pipeline changed; a render-only refactor leaves these alone.
-        for script in ("build_from_tsv.py", "build_search_db.py", "build_legacy_search_db.py"):
-            if os.path.exists(os.path.join(ROOT, script)):
-                r = subprocess.run([sys.executable, script], cwd=ROOT)
-                if r.returncode != 0:
-                    sys.exit(f"snapshot: {script} failed (exit {r.returncode})")
+        for module in ("stedt.build.from_tsv", "stedt.build.search_db", "build_legacy_search_db"):
+            r = subprocess.run([sys.executable, "-m", module], cwd=ROOT)
+            if r.returncode != 0:
+                sys.exit(f"snapshot: {module} failed (exit {r.returncode})")
 
     if not os.path.exists(os.path.join(ROOT, "stedt.sqlite")):
-        sys.exit("snapshot: stedt.sqlite missing — run with --rebuild-db, or `python build_from_tsv.py` first")
+        sys.exit("snapshot: stedt.sqlite missing — run with --rebuild-db, or `stedt build` first")
 
-    _run("build_static.py", out, args.limit)            # rmtrees + rebuilds out/  (modern site)
-    if not args.no_legacy and os.path.exists(os.path.join(ROOT, "build_legacy.py")):
-        _run("build_legacy.py", out, args.limit)         # adds out/_legacy/  (legacy clone)
+    _run("stedt.build.static", out, args.limit)         # rmtrees + rebuilds out/  (modern site)
+    if not args.no_legacy:
+        _run("build_legacy", out, args.limit)            # adds out/_legacy/  (legacy clone)
 
     lines = _manifest_lines(out)
     with open(os.path.join(out, "MANIFEST.sha256"), "w", encoding="utf-8") as f:

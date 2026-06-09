@@ -1,19 +1,17 @@
 #!/usr/bin/env python3
 """Prerender the STEDT read site to static HTML for GitHub Pages.
 
-Calls render.py's render functions for every stable route — home, about, the browse
-indexes, and every etymon / language / source / thesaurus node — and writes each to
-site/<path>/index.html. Search runs client-side (WASM SQLite over search.sqlite3;
-see build_search_db.py + src/search.js).
+Renders every stable route — home, about, the browse indexes, and every etymon / language /
+source / thesaurus node — to site/<path>/index.html. Search runs client-side (WASM SQLite over
+search.sqlite3; see stedt.build.search_db + src/search.js).
 
-GitHub Pages serves a *project* site under a subpath (https://larc-iu.github.io/stedt/),
-so each page's root-absolute links are rewritten with the /stedt prefix and a base global
-is injected (window.STEDT_BASE) for the client search's result links.
+GitHub Pages serves a *project* site under a subpath (https://larc-iu.github.io/stedt/), so each
+page's root-absolute links are rewritten with the /stedt prefix and a base global is injected
+(window.STEDT_BASE) for the client search's result links.
 
-Usage:  python3 build_static.py            # full build -> site/  (needs stedt.sqlite)
-Env:    STEDT_BASE   subpath prefix (default /stedt; use '' for a custom apex domain)
-        STEDT_OUT    output dir (default site)
-        STEDT_LIMIT  cap entities per kind for quick local testing (0 = all)
+Env:  STEDT_BASE   subpath prefix (default /stedt; use '' for a custom apex domain)
+      STEDT_OUT    output dir (default site/)
+      STEDT_LIMIT  cap entities per kind for quick local testing (0 = all)
 """
 import glob
 import hashlib
@@ -23,9 +21,10 @@ import shutil
 import time
 
 from stedt import render
+from stedt.paths import ROOT, SITE, SEARCH_DB, STATIC
 
 BASE = os.environ.get("STEDT_BASE", "/stedt").rstrip("/")
-OUT = os.environ.get("STEDT_OUT", "site")
+OUT = os.environ.get("STEDT_OUT") or SITE
 LIMIT = int(os.environ.get("STEDT_LIMIT", "0"))
 
 # Add the subpath to root-absolute href/src/action (but not protocol-relative //), and inject
@@ -34,18 +33,17 @@ _LINK = re.compile(r'(\b(?:href|src|action)=")/(?!/)')
 
 
 def data_version():
-    """A content hash for cache-busting the search DB (search.sqlite3?v=...). The DB's bytes are
-    a pure function of data/ AND build_search_db.py (its schema), so hash both — that way the key
-    changes when the data OR the schema changes (e.g. a new column), but NOT on every deploy.
-    Hashing build_search_db.py rather than the 44 MB DB itself avoids cache churn from any
-    run-to-run nondeterminism in the file while still busting on every real schema change."""
+    """Content hash for cache-busting the search DB (search.sqlite3?v=...). The DB's bytes are a
+    pure function of data/ AND the search_db builder (its schema), so hash both: the key changes
+    when the data OR the schema changes, but not on every deploy. Hashing the builder rather than
+    the 44 MB DB avoids cache churn from run-to-run nondeterminism while still busting on a real
+    schema change. Paths are relativized to the repo root so the hash is location-stable."""
     h = hashlib.sha256()
-    here = os.path.dirname(os.path.abspath(__file__))
     paths = sorted(glob.glob(os.path.join(render.DATA, "**", "*"), recursive=True))
-    paths.append(os.path.join(here, "build_search_db.py"))
+    paths.append(os.path.join(os.path.dirname(__file__), "search_db.py"))
     for p in paths:
         if os.path.isfile(p):
-            h.update(os.path.relpath(p, here).encode("utf-8"))
+            h.update(os.path.relpath(p, ROOT).encode("utf-8"))
             with open(p, "rb") as f:
                 for chunk in iter(lambda: f.read(1 << 20), b""):
                     h.update(chunk)
@@ -156,15 +154,12 @@ def main():
     for k in semks:
         write(f"thesaurus/{k}", lambda k=k: render.thesaurus(k))
 
-    here = os.path.dirname(os.path.abspath(__file__))
-    src_db = os.path.join(here, "search.sqlite3")
-    if os.path.exists(src_db):
-        shutil.copy(src_db, os.path.join(OUT, "search.sqlite3"))
-    # static/ holds the shared stylesheet + universal JS that render.py links (site.css, site.js);
+    if os.path.exists(SEARCH_DB):
+        shutil.copy(SEARCH_DB, os.path.join(OUT, "search.sqlite3"))
+    # static/ holds the shared stylesheet + universal JS the renderer links (site.css, site.js);
     # copy it in so /static/... resolves (rewrite() applies the BASE prefix to those links).
-    static_src = os.path.join(here, "static")
-    if os.path.isdir(static_src):
-        shutil.copytree(static_src, os.path.join(OUT, "static"), dirs_exist_ok=True)
+    if os.path.isdir(STATIC):
+        shutil.copytree(STATIC, os.path.join(OUT, "static"), dirs_exist_ok=True)
     open(os.path.join(OUT, ".nojekyll"), "w").close()   # don't let Pages run Jekyll on our files
     print(f"Done: {_ok} pages, {_fail} skipped, {time.time() - t0:.0f}s "
           f"(BASE={BASE!r}, LIMIT={LIMIT or 'all'})")

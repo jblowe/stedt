@@ -1,21 +1,18 @@
 #!/usr/bin/env python3
 """Build search.sqlite3 — a lean, fully-indexed SQLite for in-browser (WASM) search.
 
-Derived from stedt.sqlite (build_from_tsv.py output). Holds only what the live search
-queries touch — etyma, lexicon, languagenames, languagegroups, lx_et_hash — plus the FTS5
-index over reflex form/gloss/language (`unicode61 remove_diacritics 2`, byte-identical to
-the server's `lexicon_fts`). Small page_size + VACUUM so sql.js-httpvfs range requests
-fetch little; indexes so every query is index-backed (the only intentional scan is the
-~5K-row etyma table). The full content stays in the prerendered HTML pages.
+Derived from stedt.sqlite. Holds only what the live search queries touch — etyma, lexicon,
+languagenames, languagegroups, lx_et_hash — plus the FTS5 index over reflex form/gloss/language
+(`unicode61 remove_diacritics 2`, byte-identical to the server's `lexicon_fts`). Small page_size
++ VACUUM so sql.js-httpvfs range requests fetch little; indexes so every query is index-backed
+(the only intentional scan is the ~5K-row etyma table). The full content stays in the HTML pages.
 """
 import os
 import sqlite3
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-SRC = os.path.join(HERE, "stedt.sqlite")
+from stedt.paths import DB as SRC, SEARCH_DB as OUT
 # NB: .sqlite3 (not .db) — GitHub Pages gzip-compresses .db, which corrupts the byte-range
 # math sql.js-httpvfs relies on; it serves .sqlite3 uncompressed. (community #162857)
-OUT = os.path.join(HERE, "search.sqlite3")
 
 
 def main():

@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
 """Compile the all-TSV flat files in data/ -> stedt.sqlite (the canonical build).
 
-Inverse of tools/export_tsv.py. Produces the exact schema render.py reads: reconstructs
-lx_et_hash from each reflex's 'analysis' column, et_hptb_hash from hptb 'etyma_links',
-and the notes table from the etymon_notes / chapter_notes / per-source notes+annotations
-files. See data/FORMAT.md for the layout.
+Inverse of stedt.dev.export_tsv. Produces the exact schema the renderer reads: reconstructs
+lx_et_hash from each reflex's 'analysis' column, et_hptb_hash from hptb 'etyma_links', and
+the notes table from the etymon_notes / chapter_notes / per-source notes+annotations files.
+See data/FORMAT.md for the layout.
 
-Usage:  python3 build_from_tsv.py [OUT_SQLITE] [DATA_DIR]
+Args:  [OUT_SQLITE] [DATA_DIR]  (default to stedt.paths.DB / stedt.paths.DATA)
 """
 import sqlite3, os, csv, glob, sys, re
 
-_HERE = os.path.dirname(os.path.abspath(__file__))
-OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(_HERE, "stedt.sqlite")
-ROOT = sys.argv[2] if len(sys.argv) > 2 else os.path.join(_HERE, "data")
+from stedt.paths import DATA, DB
+
+OUT = sys.argv[1] if len(sys.argv) > 1 else DB
+ROOT = sys.argv[2] if len(sys.argv) > 2 else DATA
 csv.field_size_limit(10**7)
 
 TABLES = {

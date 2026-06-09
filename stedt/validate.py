@@ -2,11 +2,12 @@
 """Validate the STEDT all-TSV flat-file source in data/ for referential integrity.
 
 Exit code 1 if any ERRORs (integrity violations that must block a merge);
-WARNINGs (data-quality issues) are reported but do not fail. Run: python3 validate.py
+WARNINGs (data-quality issues) are reported but do not fail. Run: stedt validate
 """
 import csv, glob, os, re, sys
 
-ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data")
+from stedt.paths import DATA as ROOT
+
 csv.field_size_limit(10**7)
 rel = lambda p: os.path.relpath(p, ROOT)
 errors, warns = [], []
