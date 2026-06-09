@@ -276,6 +276,7 @@ def thesaurus(semkey=None):
     ).fetchall()
     dinfo = []
     if direct:
+        # SYNC(etymon-row) ↔ web/src/rows.js etymonRow — keep protoform/PLG/#tag/count/exemplary identical.
         dcounts = reflex_counts(conn, [e["tag"] for e in direct])
         dinfo = [
             {

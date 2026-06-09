@@ -1,16 +1,26 @@
-// Shared client-side presentation layer for entity rows (search results, thesaurus attestations,
-// reconstructions index). Goal: ONE row builder and ONE url builder per entity type, so the views
-// can't drift — a reflex row used to be hand-built in three places and quietly diverged (see the
-// project-attestation-links convention). Pure + Node-importable (no DOM at import; B falls back to
-// '' off-browser) so web/test can pin the contract.
+// Shared client-side presentation layer for entity rows (search results, thesaurus reflex list,
+// reconstructions index). Goal: ONE row builder and ONE url builder per entity type, so the CLIENT
+// views can't drift — a reflex row used to be hand-built in three places and quietly diverged (see
+// the project-attestation-links convention). Pure + Node-importable (no DOM at import; B falls back
+// to '' off-browser).
+//
+// SYNC — the static pages (language / etymon / group / thesaurus) are rendered SERVER-side in Python
+// and do NOT use this file, so several builders below have a Python twin that must render the SAME
+// markup. When you change one, change its twin: both sides are tagged `SYNC(<key>)` — grep the key to
+// find every site. Twins: SYNC(reflex-row), SYNC(etymon-row), SYNC(syllabify), SYNC(syllable-links),
+// SYNC(protoform-fmt), SYNC(entity-urls).
 
 export const B = (typeof window !== 'undefined' && window.STEDT_BASE) || '';
 export const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+// SYNC(protoform-fmt) ↔ stedt/render/text.py alt() — normalise a proto-form (strip the leading *,
+// which CSS/markup re-adds; star each ⪤-alternant). Keep identical.
 export const altstar = s => String(s).replace(/^\s*\*\s*/, '').replace(/⪤\s*\*?/g, '⪤ *');
 export const fmt = n => Number(n).toLocaleString();
 export const norm = s => String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
 // --- canonical URLs: the ONE place each entity's address is built ---
+// SYNC(entity-urls) ↔ stedt/render/shell.py {etymon,source,language,reflex}_href + the /thesaurus/{sk}
+// category link — the server builds the same addresses; keep the URL shapes + conventions identical.
 export const languageHref = lgid => `${B}/language/${lgid}`;            // top of a language page
 export const reflexHref = (lgid, rn) => `${B}/language/${lgid}#rn${rn}`; // a specific attestation row
 export const etymonHref = tag => `${B}/etymon/${tag}`;
@@ -24,6 +34,8 @@ export const rebase = html => String(html == null ? '' : html).replace(/href="\/
 // --- per-syllable etymon links (faithful port of the original SylStation.syllabify): when a
 // reflex's syllables are individually tagged, each links to its etymon. Char classes [(] [)] [|]
 // stand in for the escaped \( \) \| to keep this readable. ---
+// SYNC(syllabify) ↔ stedt/render/syllabify.py — same tokenizer in two runtimes; verified byte-equal
+// over 40k tagged forms. Any change must stay identical (re-run that diff).
 const _TONE = "⁰¹²³⁴⁵⁶⁷⁸0-9ˊˋ˥-˩";
 const _DELIM = "-=≡≣+.,;/~◦⪤()↮ ";
 const _HIDE = new RegExp('[(]([^' + _DELIM + _TONE + ']+)[)]', 'g');
@@ -52,6 +64,8 @@ function syllabify(s) {
   if (!r.ok) { r = _syl1(s, _REPRE); if (!r.ok) r = _syl1(s, _REDEL); }
   return r;
 }
+// SYNC(syllable-links) ↔ stedt/render/entities.py syl_form() + syl_pop(): the syllable-linked form
+// + its etymon-preview popover. Keep the markup (a.syl, .sylpop, *protoform 'gloss') identical.
 const sylLink = r => {                     // syllable-linked form HTML, or null to fall back
   if (!r.syn) return null;
   const sy = syllabify(String(r.form || '')), syls = sy.syls, dl = sy.dl;
@@ -78,6 +92,9 @@ const sylLink = r => {                     // syllable-linked form HTML, or null
 // --- entity rows ---
 
 // A reflex, shared by the search results and the thesaurus reflex list so they can't drift.
+// SYNC(reflex-row) ↔ the server-rendered reflex rows in stedt/render/entities.py — language()
+// seginfo + etymon() rfx builder. Keep the fields, order (POS before gloss), classes, and link
+// targets identical across both runtimes.
 // The whole row links to the form's attestation line (#rn) via a stretched overlay; the inner links
 // sit above it (see .rx-go in site.css): the language name → the TOP of its language page, syllables
 // / via chips → their etyma, source → its page, and a noted gloss stays interactive (shows its note).
@@ -104,6 +121,9 @@ export const reflexRow = r => {
 };
 
 // A reconstruction (etymon) result row.
+// SYNC(etymon-row) ↔ the server-rendered etymon lists: stedt/render/entities.py reconinfo() (group
+// page) + stedt/render/indexes.py dinfo (thesaurus). Keep protoform / PLG / #tag / reflex-count /
+// exemplary-badge identical.
 export const etymonRow = e => `<a class="ety-hit" href="${etymonHref(e.tag)}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}${e.nreflex ? ` · ${fmt(e.nreflex)} reflex${e.nreflex == 1 ? '' : 'es'}` : ''}${e.exemplary ? ' · <span class="exm">exemplary</span>' : ''}</span></a>`;
 
 // A language result row.

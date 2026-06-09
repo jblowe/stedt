@@ -149,6 +149,7 @@ def canon_lgid(lgid):
     return canonical_languages()[0].get(lgid, lgid)
 
 
+# SYNC(entity-urls) ↔ web/src/rows.js {etymonHref,sourceHref,languageHref,reflexHref,categoryHref}.
 # Canonical site-relative URLs — the ONE place each entity's address is built server-side (mirrors
 # the client builders in web/src/rows.js). Language links resolve to the canonical lgid here so they
 # skip the redirect hop; the client builders use the raw lgid and rely on the redirect. The build

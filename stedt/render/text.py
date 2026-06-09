@@ -16,7 +16,8 @@ def esc(s):
 
 
 def alt(s):
-    """Star every ⪤-joined alternant of a proto-form. The *leading* asterisk is supplied by CSS
+    """SYNC(protoform-fmt) ↔ web/src/rows.js altstar() — same normalisation in both runtimes, keep identical.
+    Star every ⪤-joined alternant of a proto-form. The *leading* asterisk is supplied by CSS
     (.pf/.pf2/.recon ::before) or a literal '*' prefix (cite/title), so strip any leading '*' the
     data itself carries (only etymon 463 does) to avoid a doubled '**', then add the post-⪤ stars."""
     if not s:

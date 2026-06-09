@@ -145,6 +145,8 @@ def etymon(tag):
     for i, k in enumerate(gkeys):
         items = sorted(groups[k], key=lambda r: ((r["language"] or ""), (r["form"] or "")))
         rfx = []
+        # SYNC(reflex-row) ↔ web/src/rows.js reflexRow — keep this server-rendered reflex row's
+        # fields/order/classes/links identical to the client one.
         for r in items:
             if lnotes.get(r["rn"]):
                 # a lexical note rides on the gloss behind a circled-i (like the language/search/thesaurus
@@ -394,18 +396,19 @@ def etymon(tag):
 
 
 def syl_pop(info):
-    """The hover/focus popover for a linked syllable: its etymon's *protoform 'gloss'. info: (pf, pg)."""
+    """SYNC(syllable-links) ↔ web/src/rows.js sylLink popover. The hover/focus popover for a linked
+    syllable: its etymon's *protoform 'gloss'. info: (pf, pg)."""
     pfx, pgl = info
     g = f" ‘{esc(pgl)}’" if pgl else ""
     return f'<span class="sylpop">*{esc(alt(pfx))}{g}</span>'
 
 
 def syl_form(reflex, syn, pf=None, self_tag=None):
-    """Reflex surface form as HTML with each tagged syllable linked to its own etymon, each carrying a
+    """SYNC(syllable-links) ↔ web/src/rows.js sylLink — keep the markup identical.
+    Reflex surface form as HTML with each tagged syllable linked to its own etymon, each carrying a
     hover/focus popover previewing that etymon (*protoform 'gloss'). On an etymon page, pass self_tag =
     that etymon: the syllable that IS this etymon is marked but not linked (you're already here).
-    Returns None to fall back to the plain form + trailing chips. Faithful twin of web/src/rows.js
-    sylLink. pf: tag -> (protoform, protogloss)."""
+    Returns None to fall back to the plain form + trailing chips. pf: tag -> (protoform, protogloss)."""
     if not syn:
         return None
     syls, dl, prefix = syllabify(reflex or "")
@@ -514,6 +517,8 @@ def language(lgid):
         items = groups[key]
         ttl = "(unclassified)" if key == "" else (chap.get(key) or chap.get(key + ".0") or f"Chapter {key}")
         rfx = []
+        # SYNC(reflex-row) ↔ web/src/rows.js reflexRow — keep this server-rendered reflex row's
+        # fields/order/classes/links identical to the client one.
         for r in items:
             sk = r["semkey"] or ""
             cat = chap.get(sk) or sk
@@ -821,6 +826,7 @@ def group(grpid):
     langinfos = [langinfo(l) for l in langs]
 
     def reconinfo(r):
+        # SYNC(etymon-row) ↔ web/src/rows.js etymonRow — keep protoform/PLG/#tag/count/exemplary identical.
         return {
             "tag": r["tag"],
             "href": etymon_href(r["tag"]),

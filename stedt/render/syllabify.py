@@ -1,5 +1,8 @@
-"""Faithful port of the original SylStation.syllabify (also ported to JS in web/src/rows.js — keep
-the two in sync). Splits a reflex's surface form into syllables + the delimiters between them, so a
+"""SYNC(syllabify) ↔ web/src/rows.js syllabify/_syl1 — the SAME tokenizer in two runtimes, verified
+byte-equal over 40k tagged forms; any change must stay identical (re-run that diff).
+
+Faithful port of the original SylStation.syllabify. Splits a reflex's surface form into syllables +
+the delimiters between them, so a
 caller can link each syllable to its etymon (lx_et_hash.ind = syllable position). Pure string logic;
 no DB, no escaping. Returns (syls, dl, prefix): dl[i] is the delimiter trailing syls[i]; prefix is
 any leading delimiter run."""
