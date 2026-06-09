@@ -1,0 +1,53 @@
+"""Read-only SQLite connection + cached cross-page lookups (loaded once per process)."""
+import sqlite3
+
+from .config import DB
+
+def con():
+    c = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
+    c.row_factory = sqlite3.Row
+    return c
+
+_VALID_TAGS = None
+_SEMKEY_COUNTS = None
+_XREF_LABELS = None
+def valid_etymon_tags():
+    """Cached frozenset of etymon tags that have a built page (non-DELETE). Used to gate
+    xref links so notes never point at an unbuilt (404) etymon. Loaded once per process."""
+    global _VALID_TAGS
+    if _VALID_TAGS is None:
+        c = con()
+        _VALID_TAGS = frozenset(r[0] for r in c.execute(
+            "SELECT tag FROM etyma WHERE coalesce(upper(status),'')!='DELETE'"))
+        c.close()
+    return _VALID_TAGS
+
+def xref_labels():
+    """Cached {tag: (plg, protoform, protogloss)} for non-DELETE etyma, so note cross-references
+    can be annotated inline (e.g. '#206 PTB *(k/g)um BACK / BODY' instead of a bare '#206').
+    Loaded once per process; render_note() takes no connection, so it must self-fetch."""
+    global _XREF_LABELS
+    if _XREF_LABELS is None:
+        c = con()
+        _XREF_LABELS = {r[0]: (r[1], r[2], r[3]) for r in c.execute(
+            "SELECT e.tag, g.plg, e.protoform, e.protogloss FROM etyma e "
+            "LEFT JOIN languagegroups g ON g.grpid=e.grpid "
+            "WHERE coalesce(upper(e.status),'')!='DELETE'")}
+        c.close()
+    return _XREF_LABELS
+
+def reflex_semkey_counts():
+    """Cached {lexicon.semkey: reflex count}. Each reflex carries its own gloss-level semkey
+    (independent of any etymon); this powers the 'Attested forms here' count on thesaurus
+    pages. One GROUP BY pass, loaded once per process."""
+    global _SEMKEY_COUNTS
+    if _SEMKEY_COUNTS is None:
+        c = con()
+        # Exclude proto-language stand-ins (language LIKE '*%') — those are reconstructions, not
+        # attested forms (they surface as etyma under "Reconstructions here"), and the languages
+        # index hides them too. Must match the client query's filter so count == list length.
+        _SEMKEY_COUNTS = {r[0]: r[1] for r in c.execute(
+            "SELECT l.semkey, count(*) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid "
+            "WHERE coalesce(l.semkey,'')!='' AND ln.language NOT LIKE '*%' GROUP BY l.semkey")}
+        c.close()
+    return _SEMKEY_COUNTS
