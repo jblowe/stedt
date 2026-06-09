@@ -12,23 +12,4 @@
         <a href="/etymon/260">A sample entry: *m-gam ‘ladder’</a>
       </div>
     </div>
-    <script>
-    const B=window.STEDT_BASE||'';
-    const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const altstar=s=>String(s).replace(/^\s*\*\s*/,'').replace(/⪤\s*\*?/g,'⪤ *');
-    const bs=document.getElementById('bs'),d=document.getElementById('drop');let t;
-    const note=m=>{d.innerHTML='<div class="cap" style="padding:10px 12px">'+m+'</div>';d.style.display='block';};
-    bs.addEventListener('input',()=>{clearTimeout(t);const q=bs.value.trim();
-      if(q.length<2){d.style.display='none';return;}
-      t=setTimeout(async()=>{
-        if(!window.stedtSearch){return;}
-        if(!window.stedtDbLoaded)note('Loading search…');
-        let j;try{j=await window.stedtSearch(q,8);}catch(e){note('Search is unavailable.');return;}
-        let h='';
-        (j.languages||[]).forEach(x=>h+=`<a href="${B}/language/${x.lgid}"><span class="k">lang</span><span>${esc(x.language)}</span></a>`);
-        j.etyma.forEach(e=>h+=`<a href="${B}/etymon/${e.tag}"><span class="k">recon</span><span><span class="recon">${altstar(esc(e.protoform))}</span> · <span class="gl">${esc(e.protogloss)}</span></span></a>`);
-        j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:B+'/language/'+x.lgid+'#rn'+x.rn}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> ${x.gfn?`<span class="pos">${esc(x.gfn)}</span>`:''}<span class="gl">${esc(x.gloss)}</span></span></a>`);
-        d.innerHTML=h;d.style.display=h?'block':'none';},180);});
-    bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
-    document.addEventListener('click',e=>{if(!e.target.closest('.bigsearch'))d.style.display='none';});
-    </script>
+    <script type="module" src="/assets/home.js"></script>
