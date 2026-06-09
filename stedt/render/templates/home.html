@@ -27,7 +27,7 @@
         let h='';
         (j.languages||[]).forEach(x=>h+=`<a href="${B}/language/${x.lgid}"><span class="k">lang</span><span>${esc(x.language)}</span></a>`);
         j.etyma.forEach(e=>h+=`<a href="${B}/etymon/${e.tag}"><span class="k">recon</span><span><span class="recon">${altstar(esc(e.protoform))}</span> · <span class="gl">${esc(e.protogloss)}</span></span></a>`);
-        j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:B+'/language/'+x.lgid+'#rn'+x.rn}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> <span class="gl">${esc(x.gloss)}</span>${x.gfn?` <span class="pos">${esc(x.gfn)}</span>`:''}</span></a>`);
+        j.reflexes.forEach(x=>h+=`<a href="${x.tag?B+'/etymon/'+x.tag:B+'/language/'+x.lgid+'#rn'+x.rn}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> ${x.gfn?`<span class="pos">${esc(x.gfn)}</span>`:''}<span class="gl">${esc(x.gloss)}</span></span></a>`);
         d.innerHTML=h;d.style.display=h?'block':'none';},180);});
     bs.addEventListener('keydown',e=>{if(e.key==='Enter')location=B+'/search?q='+encodeURIComponent(bs.value);});
     document.addEventListener('click',e=>{if(!e.target.closest('.bigsearch'))d.style.display='none';});

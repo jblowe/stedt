@@ -74,17 +74,17 @@ const sylLink = r => {                     // syllable-linked form HTML, or null
 // Accepts either `form` (search payload) or `reflex` (category payload) for the headword.
 export const reflexRow = r => {
   const src = r.srcabbr ? `<a href="${sourceHref(r.srcabbr)}">${esc(r.citation || r.srcabbr)}</a>` : '';
-  const pos = r.gfn ? ` <span class="pos">${esc(r.gfn)}</span>` : '';
+  const pos = r.gfn ? `<span class="pos">${esc(r.gfn)}</span>` : '';   // sits before the gloss (.pos has margin-right)
   const gl = r.note
     ? `<span class="g noted" tabindex="0">${esc(r.gloss)}<span class="notepop" role="note">${rebase(r.note)}</span></span>`
     : `<span class="g">${esc(r.gloss)}</span>`;
   const lf = sylLink(r); let mid;
   if (lf) {                              // syllables carry their own etymon links
-    mid = `<span class="lat">${lf}</span> ${gl}${pos}`;
+    mid = `<span class="lat">${lf}</span> ${pos}${gl}`;
   } else {                              // plain form; trailing "via" chips keep their etymon links
     const form = r.form != null ? r.form : r.reflex;
     const links = (r.etyma && r.etyma.length) ? ` <span class="vias">${r.etyma.map(x => `<a class="via" href="${etymonHref(x.tag)}">› *${altstar(esc(x.pf))}</a>`).join(' ')}</span>` : '';
-    mid = `<span class="lat">${esc(form)}</span> ${gl}${pos}${links}`;
+    mid = `<span class="lat">${esc(form)}</span> ${pos}${gl}${links}`;
   }
   const go = `<a class="rx-go" href="${reflexHref(r.lgid, r.rn)}" aria-label="${esc(r.language)}: go to this entry"></a>`;
   return `<div class="rx-hit">${go}<a class="lang" href="${languageHref(r.lgid)}">${esc(r.language)}</a><span class="rx-mid">${mid}</span><span class="rx-src">${src}</span></div>`;

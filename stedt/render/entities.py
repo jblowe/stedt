@@ -159,7 +159,7 @@ def etymon(tag):
             go = f'<a class="rx-go" href="{reflex_href(r["lgid"], r["rn"])}" aria-label="{esc(r["language"])}: go to this entry"></a>'
             rfx.append(
                 f'<div class="rfx" id="r{r["rn"]}">{go}<a class="rnlink" href="#r{r["rn"]}" aria-label="Permalink to this entry"></a>{lang}'
-                f'<span class="form">{form} {g}{pos}{anl}</span>{src}{note}</div>'
+                f'<span class="form">{form} {pos}{g}{anl}</span>{src}{note}</div>'
             )
         code = "" if k[0] in (None, "zz") else f'<span class="grpno">{esc(k[0])}</span>'
         sgs.append(
@@ -460,7 +460,7 @@ def language(lgid):
                 gl = f'<span class="g">{esc(r["gloss"])}</span>'
             rfx.append(
                 f'<div class="rfx" id="rn{r["rn"]}"><a class="rnlink" href="#rn{r["rn"]}" aria-label="Permalink to this entry"></a>{catcell}'
-                f'<span class="form">{form} {gl}{pos}{via}</span>'
+                f'<span class="form">{form} {pos}{gl}{via}</span>'
                 f"{src}</div>"
             )
         return {"open": openall, "ttl": Markup(esc(ttl)), "n": len(items), "rfx": Markup("".join(rfx))}
