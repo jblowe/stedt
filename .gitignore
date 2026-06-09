@@ -30,5 +30,10 @@ stedtdb_v1.0/._*
 __pycache__/
 *.pyc
 
+# Python packaging (`pip install .` build artifacts; leading slash keeps the tracked
+# stedt/build/ package safe — only the top-level setuptools build/ dir is ignored)
+/build/
+*.egg-info/
+
 # JetBrains IDE
 .idea/

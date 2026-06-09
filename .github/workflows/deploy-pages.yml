@@ -31,6 +31,7 @@ jobs:
         with:
           node-version: '20'
       - run: npm ci
+        working-directory: web
       - name: Compile data/ into stedt.sqlite
         run: stedt build
       - name: Build the lean search.sqlite3 (FTS5)
@@ -39,6 +40,7 @@ jobs:
         run: stedt render
       - name: Bundle the client search (WASM SQLite)
         run: npm run build:search
+        working-directory: web
       # /_legacy/ — pixel-faithful rootcanal clone (separate subtree; writes only under site/_legacy,
       # so these must run AFTER `stedt render`, which rmtrees + builds site/).
       - name: Build the legacy search DB (rootcanal columns + FTS5)
@@ -47,6 +49,7 @@ jobs:
         run: stedt legacy render
       - name: Bundle the legacy data-plane shim (WASM SQLite)
         run: npm run build:legacy
+        working-directory: web
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

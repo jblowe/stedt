@@ -9,7 +9,7 @@
 import sqlite3InitModule from '@sqlite.org/sqlite-wasm';
 
 const base = () => (typeof window !== 'undefined' && window.STEDT_BASE) || '';
-// Cache-key the DB by a data-content version (injected by build_static) so it re-downloads only
+// Cache-key the DB by a data-content version (injected by `stedt render`) so it re-downloads only
 // when the data changes — not on every deploy (GitHub Pages' ETag is mtime-based, so it churns).
 const dbUrl = () => base() + '/search.sqlite3'
   + ((typeof window !== 'undefined' && window.STEDT_DB_VERSION) ? '?v=' + window.STEDT_DB_VERSION : '');
