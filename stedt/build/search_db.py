@@ -54,6 +54,9 @@ def main():
         INSERT INTO lx_et_hash     SELECT rn, tag, ind FROM src.lx_et_hash WHERE tag > 0;
         INSERT INTO srcbib         SELECT srcabbr, citation FROM src.srcbib WHERE coalesce(srcabbr,'')!='';
         CREATE INDEX ix_hash_rn ON lx_et_hash(rn);   -- rn non-unique here (multi-tag reflexes)
+        -- ^ REQUIRED, not optional (~1 MB gz): the reflex->etyma enrichment LEFT JOIN (h.rn=l.rn)
+        -- is the search's hot path, and SQLite does NOT build an automatic_index for it — without
+        -- this it full-scans lx_et_hash per driving row (heavy LIMIT-10000 query: 0.01s -> 34s+).
         -- NB: no index on lexicon.semkey. The "attested forms" browse scans it once in-memory
         -- (WASM, ~540K rows = a few ms) on expand; an index would add ~2.4 MB to the gz download
         -- for no perceptible gain. Keep the transfer lean.
@@ -83,12 +86,15 @@ def main():
 
     # FTS5 over reflex form/gloss/language. CONTENTLESS (content='') so the index doesn't
     # duplicate the text (it lives once in lexicon/languagenames) — ~27 MB saved; columnsize=0
-    # drops the per-doc size table (~7 MB; we don't bm25-rank). detail stays full so the phrase
-    # queries fts_q builds still work. rowid = rn, so the search selects rowid. Same tokenizer
-    # and MATCH semantics as the server's lexicon_fts.
+    # drops the per-doc size table (we don't bm25-rank). detail=column drops the position lists
+    # too (~0.6 MB gz): the search builds only single-term AND/OR and column-filtered (`gloss:(…)`)
+    # MATCH queries — never a multi-word phrase — so positions buy nothing, while column info is
+    # kept for the `gloss:` filter. rowid = rn, so the search selects rowid. Same tokenizer and
+    # MATCH semantics as the server's lexicon_fts.
     db.executescript("""
         CREATE VIRTUAL TABLE lexicon_fts USING fts5(
-            form, gloss, language, content='', columnsize=0, tokenize='unicode61 remove_diacritics 2');
+            form, gloss, language, content='', columnsize=0, detail=column,
+            tokenize='unicode61 remove_diacritics 2');
         INSERT INTO lexicon_fts(rowid, form, gloss, language)
           SELECT l.rn, l.reflex, l.gloss, ln.language
           FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid;
