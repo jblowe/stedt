@@ -559,7 +559,7 @@ def page(title, body, q="", nav=""):
   {search_box}
 </header>
 <main>{body}</main>
-<footer>Preview interface for STEDT · <a href="https://github.com/larc-iu/stedt">github.com/larc-iu/stedt</a></footer>
+<footer>Preview interface for STEDT · <a href="https://github.com/larc-iu/stedt">github.com/larc-iu/stedt</a> · <a href="/_legacy/" rel="nofollow">Legacy interface</a></footer>
 <script type="module" src="/assets/stedt-search.js"></script>
 </body></html>"""
 

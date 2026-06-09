@@ -39,6 +39,14 @@ jobs:
         run: python3 build_static.py
       - name: Bundle the client search (WASM SQLite)
         run: npm run build:search
+      # /_legacy/ — pixel-faithful rootcanal clone (separate subtree; writes only under site/_legacy,
+      # so these must run AFTER build_static.py, which rmtrees + builds site/).
+      - name: Build the legacy search DB (rootcanal columns + FTS5)
+        run: python3 build_legacy_search_db.py
+      - name: Prerender the /_legacy/ rootcanal clone
+        run: python3 build_legacy.py
+      - name: Bundle the legacy data-plane shim (WASM SQLite)
+        run: npm run build:legacy
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
