@@ -362,7 +362,13 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .rx-hit .rx-src{text-align:right;color:var(--mut);font-size:12.5px;white-space:nowrap;}
 .rx-hit .rx-src a{color:var(--mut);border-bottom:1px dotted var(--rule);}
 .rx-hit .rx-src a:hover{color:var(--accent);}
-.rx-hit .rx-note{grid-column:1/-1;color:var(--soft);font-size:12.5px;margin:1px 0 0;max-width:64em;}
+/* a reflex carrying a lexical note: dotted-underline its gloss, reveal the note on hover/focus */
+.noted{border-bottom:1px dotted var(--mut);cursor:help;position:relative;}
+.noted>.notepop{display:none;position:absolute;left:0;top:1.55em;z-index:6;width:max-content;max-width:340px;
+  background:var(--paper);border:1px solid var(--rule);border-radius:3px;padding:7px 10px;font-style:normal;
+  font-size:12.5px;line-height:1.5;color:var(--soft);white-space:normal;text-align:left;}
+.noted:hover>.notepop,.noted:focus>.notepop,.noted:focus-within>.notepop{display:block;}
+.noted>.notepop p{margin:0;} .noted>.notepop a{color:var(--soft);}
 /* Stammbaum-subgroup header between attested-form result groups */
 .rx-sub{font-variant:small-caps;letter-spacing:.05em;color:var(--soft);font-size:13px;
   margin:16px 0 3px;padding-bottom:2px;border-bottom:1px solid var(--rule);}
@@ -994,6 +1000,13 @@ def language(lgid):
         for hr in c.execute(f"SELECT rn, tag FROM lx_et_hash WHERE tag>0 AND rn IN ({qmk}) ORDER BY rn, ind", chunk):
             rn_tags.setdefault(hr['rn'], []).append(hr['tag'])
     plabels = proto_labels(c, {t for ts in rn_tags.values() for t in ts})
+    # lexical notes per reflex (same set the etymon page shows), revealed on hover on the gloss
+    lnotes = {}
+    for i in range(0, len(rns), 900):
+        chunk = rns[i:i + 900]; qmk = ','.join('?' * len(chunk))
+        for nr in c.execute(f"SELECT rn, xmlnote FROM notes WHERE spec='L' AND notetype!='I' "
+                            f"AND xmlnote IS NOT NULL AND rn IN ({qmk}) ORDER BY ord, noteid", chunk):
+            lnotes.setdefault(nr['rn'], []).append(nr['xmlnote'])
     c.close()
 
     crumb_links = ['<a href="/languages">Languages</a>'] + \
@@ -1035,8 +1048,14 @@ def language(lgid):
                 src = f'<a class="src" href="/source/{esc(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
             else:
                 src = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
+            if lnotes.get(r['rn']):
+                pop = ''.join(render_note(x) for x in lnotes[r['rn']])
+                gl = (f'<span class="g noted" tabindex="0">{esc(r["gloss"])}'
+                      f'<span class="notepop">{pop}</span></span>')
+            else:
+                gl = f'<span class="g">{esc(r["gloss"])}</span>'
             rfx.append(f'<div class="rfx" id="rn{r["rn"]}">{catcell}'
-                       f'<span class="form">{form} <span class="g">{esc(r["gloss"])}</span>{pos}{via}</span>'
+                       f'<span class="form">{form} {gl}{pos}{via}</span>'
                        f'{src}</div>')
         # A big lect (Tibetan: ~7,700 forms) would otherwise build tens of thousands of DOM nodes
         # the reader never scrolls to. Each section ships its rows as inert <script> text and
@@ -1592,15 +1611,18 @@ def search_page(q=""):
     const rfxRow=r=>{
       const lang=`<a class="lang" href="${B}/language/${r.lgid}#rn${r.rn}">${esc(r.language)}</a>`;
       const src=r.srcabbr?`<a href="${B}/source/${esc(r.srcabbr)}">${esc(r.citation||r.srcabbr)}</a>`:'';
-      const note=r.note?`<div class="rx-note">${esc(r.note)}</div>`:'';
+      // a note dotted-underlines the gloss and reveals on hover/focus (rather than an always-on line)
+      const gl=r.note
+        ? `<span class="noted" tabindex="0">‘${esc(r.gloss)}’<span class="notepop">${esc(r.note)}</span></span>`
+        : `‘${esc(r.gloss)}’`;
       const lf=sylLink(r); let mid;
       if(lf){                              // syllables carry the etymon links; no separate chips
-        mid=`<span class="lat">${lf}</span> ‘${esc(r.gloss)}’`;
+        mid=`<span class="lat">${lf}</span> ${gl}`;
       }else{                               // fall back to plain form + trailing "via" etymon chips
         const links=(r.etyma&&r.etyma.length)?` <span class="vias">${r.etyma.map(x=>`<a class="via" href="${B}/etymon/${x.tag}">› *${altstar(esc(x.pf))}</a>`).join(' ')}</span>`:'';
-        mid=`<span class="lat">${esc(r.form)}</span> ‘${esc(r.gloss)}’${links}`;
+        mid=`<span class="lat">${esc(r.form)}</span> ${gl}${links}`;
       }
-      return `<div class="rx-hit">${lang}<span class="rx-mid">${mid}</span><span class="rx-src">${src}</span>${note}</div>`;
+      return `<div class="rx-hit">${lang}<span class="rx-mid">${mid}</span><span class="rx-src">${src}</span></div>`;
     };
     // attested-form rows are pre-sorted by subgroup; emit a Stammbaum-subgroup header when it changes
     let _rxsub=null;
