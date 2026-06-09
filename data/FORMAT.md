@@ -1,7 +1,7 @@
 # `data/` — the STEDT source of truth
 
 Everything here is **TSV**. The whole site is a deterministic function of these files:
-`data/ ──build_from_tsv.py──▶ stedt.sqlite ──▶ site/`.
+`data/ ──stedt build──▶ stedt.sqlite ──stedt render──▶ site/`.
 
 ## The one escaping rule
 
@@ -54,6 +54,6 @@ language's data is therefore **one new folder that collides with nothing** — t
 
 ## Contributing
 
-`python3 validate.py` checks referential integrity (TSV headers, unique/known keys, every
+`stedt validate` checks referential integrity (TSV headers, unique/known keys, every
 `analysis`/note/link target exists). It runs on every PR. ERRORs block a merge; WARNINGs (legacy
 dangling links inherited from the original dump) don't.

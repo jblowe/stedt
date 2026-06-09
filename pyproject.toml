@@ -7,7 +7,7 @@ name = "stedt"
 version = "0.1.0"
 description = "Build tooling and page renderer for the STEDT static site"
 requires-python = ">=3.11"
-dependencies = ["pyyaml", "jinja2", "typer"]
+dependencies = ["jinja2", "typer"]
 
 [project.scripts]
 stedt = "stedt.cli:app"
