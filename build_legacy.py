@@ -28,7 +28,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 def data_version():
     """Cache-bust the legacy DB by hashing data/ + the legacy DB builder (so the key changes when the
     data OR the schema changes, not on every deploy). Mirrors build_static.data_version()."""
-    import render
+    from stedt import render
     h = hashlib.sha256()
     paths = sorted(glob.glob(os.path.join(render.DATA, "**", "*"), recursive=True))
     paths.append(os.path.join(HERE, "build_legacy_search_db.py"))

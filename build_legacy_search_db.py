@@ -93,7 +93,7 @@ def main():
     #     "N notes" click + hover tip in search results / etymon reflex rows). Matches rootcanal's
     #     runmode: notes WHERE rn=? AND notetype!='I', each xml2html'd, joined by <p>. render_note's
     #     xref links stay root-relative (/etymon/N); the shim rebases them to the legacy base. ---
-    import render
+    from stedt import render
     notes_by_rn = {}
     for rn, xml in db.execute("""SELECT rn, xmlnote FROM src.notes
             WHERE rn IS NOT NULL AND notetype!='I' AND xmlnote IS NOT NULL ORDER BY rn, ord, noteid"""):

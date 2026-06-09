@@ -22,7 +22,7 @@ import re
 import shutil
 import time
 
-import render                               # noqa: E402
+from stedt import render
 
 BASE = os.environ.get("STEDT_BASE", "/stedt").rstrip("/")
 OUT = os.environ.get("STEDT_OUT", "site")

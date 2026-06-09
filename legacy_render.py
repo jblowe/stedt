@@ -13,7 +13,7 @@ stay inside the subtree. Reuses render.con() for the DB connection.
 import os
 import html as _html
 
-import render  # reuse con() + helpers; same stedt.sqlite schema
+from stedt import render  # reuse con() + helpers; same stedt.sqlite schema
 
 BASE = os.environ.get("STEDT_LEGACY_BASE", "/_legacy").rstrip("/")
 VER = os.environ.get("STEDT_LEGACY_VER", "")

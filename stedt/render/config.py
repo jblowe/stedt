@@ -1,13 +1,12 @@
-"""Configuration constants + static-asset versions.
+"""Configuration constants and static-asset cache-bust versions.
 
-Paths resolve against the repo root (this file lives in render/, one level down).
+Filesystem paths come from stedt.paths; this module adds the public citation base, the
+preview flag, proto-language label expansions, and the site.css/site.js content hashes.
 """
 import os
 import hashlib
 
-_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
-DATA = os.path.join(_ROOT, "data")
+from stedt.paths import DATA, DB, STATIC   # noqa: F401  (re-exported for the renderers)
 
 # The canonical public base URL used in citations (includes any path prefix, no trailing
 # slash). Defaults to the live GitHub Pages URL so copied citations resolve today; override
@@ -32,15 +31,11 @@ PLG_FULL = {
     'CH': 'Sinitic (Chinese)', 'DRV': 'Dravidian',
 }
 
-DB = os.path.join(_ROOT, "stedt.sqlite")
-
 # ---------------------------------------------------------------- page shell
 # CSS and the universal note-popover JS live in static/ (site.css, site.js) and are linked,
 # not inlined, so the stylesheet downloads once and is cached instead of repeated on every
-# page. build_static.py copies static/ into the site; the ?v= content hash busts the browser
+# page. The site build copies static/ into the output; the ?v= content hash busts the browser
 # cache when (and only when) the file changes.
-STATIC = os.path.join(_ROOT, "static")
-
 def _asset_ver(name):
     try:
         with open(os.path.join(STATIC, name), "rb") as f:
