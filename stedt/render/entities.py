@@ -31,7 +31,14 @@ def etymon(tag):
         conn.close()
         return page("Not found", "<p>No such etymon.</p>")
     notes = conn.execute(
-        """SELECT xmlnote FROM notes WHERE tag=? AND spec='E' AND notetype!='I'
+        """SELECT xmlnote FROM notes WHERE tag=? AND spec='E' AND notetype NOT IN ('F','I')
+                         AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
+        (tag,),
+    ).fetchall()
+    # Chinese comparanda (notetype='F') are a distinct class — legacy gave them their own block
+    # rather than burying them in the general Notes; keep that separation.
+    compar = conn.execute(
+        """SELECT xmlnote FROM notes WHERE tag=? AND spec='E' AND notetype='F'
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
         (tag,),
     ).fetchall()
@@ -193,6 +200,13 @@ def etymon(tag):
         noteshtml = (
             '<section class="notes"><h3>Notes</h3>'
             + "".join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in notes)
+            + "</section>"
+        )
+    if compar:
+        label = "Chinese comparand" + ("um" if len(compar) == 1 else "a")
+        noteshtml += (
+            f'<section class="notes"><h3>{label}</h3>'
+            + "".join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in compar)
             + "</section>"
         )
 
