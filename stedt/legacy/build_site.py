@@ -11,6 +11,7 @@ Env:  STEDT_BASE   main-site subpath prefix (default /stedt; '' for apex/localho
       STEDT_OUT    output dir (default site/)
       STEDT_LIMIT  cap etyma pages for quick local testing (0 = all)
 """
+
 import glob
 import hashlib
 import os
@@ -24,7 +25,7 @@ LEGACY_BASE = BASE + "/_legacy"
 OUT = os.environ.get("STEDT_OUT") or SITE
 LEGACY_OUT = os.path.join(OUT, "_legacy")
 LIMIT = int(os.environ.get("STEDT_LIMIT", "0"))
-ASSETS = os.path.join(os.path.dirname(__file__), "assets")   # rootcanal front-end (ships with the package)
+ASSETS = os.path.join(os.path.dirname(__file__), "assets")  # rootcanal front-end (ships with the package)
 
 
 def data_version():
@@ -32,6 +33,7 @@ def data_version():
     root, so the key changes when the data OR the schema changes but not on every deploy. Mirrors
     the modern build's data_version()."""
     from stedt import render
+
     h = hashlib.sha256()
     paths = sorted(glob.glob(os.path.join(render.DATA, "**", "*"), recursive=True))
     paths.append(os.path.join(os.path.dirname(__file__), "search_db.py"))
@@ -67,7 +69,9 @@ def main():
         print("  ! legacy.sqlite3 missing — run `stedt legacy search-db` first")
 
     # 3) pages
-    n = 0; fails = 0
+    n = 0
+    fails = 0
+
     def write(path, fn):
         nonlocal n, fails
         try:
@@ -88,8 +92,7 @@ def main():
     write("chapters", L.legacy_chapter_browser)
 
     c = L.render.con()
-    tags = [r[0] for r in c.execute(
-        "SELECT tag FROM etyma WHERE coalesce(upper(status),'')!='DELETE' ORDER BY tag")]
+    tags = [r[0] for r in c.execute("SELECT tag FROM etyma WHERE coalesce(upper(status),'')!='DELETE' ORDER BY tag")]
     srcs = [r[0] for r in c.execute("""SELECT DISTINCT ln.srcabbr FROM srcbib sb
         JOIN languagenames ln ON ln.srcabbr=sb.srcabbr JOIN lexicon l ON l.lgid=ln.lgid
         WHERE coalesce(l.status,'') NOT IN ('HIDE','DELETED') AND coalesce(sb.srcabbr,'')!=''""")]
@@ -117,6 +120,7 @@ def main():
 
     # static per-source raw-data TSVs (rootcanal's guest /sources/ddata export, linked from source pages)
     import csv
+
     ddir = os.path.join(LEGACY_OUT, "sources", "ddata")
     os.makedirs(ddir, exist_ok=True)
     c = L.render.con()
@@ -136,8 +140,10 @@ def main():
                 w.writerow([rn, reflex, gloss, gfn, src, lgid, language, srcid])
     print(f"  + {len(by_src)} source data TSVs -> {ddir}")
 
-    print(f"legacy: {n} pages, {fails} skipped -> {LEGACY_OUT} (base={LEGACY_BASE!r}, "
-          f"ver={os.environ['STEDT_LEGACY_VER']}, {time.time() - t0:.0f}s)")
+    print(
+        f"legacy: {n} pages, {fails} skipped -> {LEGACY_OUT} (base={LEGACY_BASE!r}, "
+        f"ver={os.environ['STEDT_LEGACY_VER']}, {time.time() - t0:.0f}s)"
+    )
 
 
 if __name__ == "__main__":

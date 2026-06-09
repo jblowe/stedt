@@ -14,6 +14,7 @@ are PRECOMPUTED here in Python — the GitHub Actions runner ships an older SQLi
 page_size/FTS5/VACUUM conventions. Output is .sqlite3 (not .db) for the same GitHub-Pages
 gzip reason noted there.
 """
+
 import os
 import sqlite3
 
@@ -66,39 +67,39 @@ def main():
     # --- analysis = GROUP_CONCAT(tag_str ORDER BY ind), comma-separated, over ALL hash rows for the rn
     #     (incl. tag=0 morpheme markers like 'm'). MySQL GROUP_CONCAT skips NULL tag_str. ---
     ana = {}
-    for rn, ts in db.execute(
-            "SELECT rn, tag_str FROM src.lx_et_hash WHERE tag_str IS NOT NULL ORDER BY rn, ind"):
+    for rn, ts in db.execute("SELECT rn, tag_str FROM src.lx_et_hash WHERE tag_str IS NOT NULL ORDER BY rn, ind"):
         ana.setdefault(rn, []).append(str(ts))
-    db.executemany("UPDATE lexicon SET analysis=? WHERE rn=?",
-                   [(",".join(v), rn) for rn, v in ana.items()])
+    db.executemany("UPDATE lexicon SET analysis=? WHERE rn=?", [(",".join(v), rn) for rn, v in ana.items()])
 
     # --- per-rn public note count (notetype != 'I'); per-tag etyma note/comparandum/record counts ---
-    lex_nn = dict(db.execute(
-        "SELECT rn, COUNT(*) FROM src.notes WHERE rn IS NOT NULL AND notetype!='I' GROUP BY rn"))
+    lex_nn = dict(db.execute("SELECT rn, COUNT(*) FROM src.notes WHERE rn IS NOT NULL AND notetype!='I' GROUP BY rn"))
     db.executemany("UPDATE lexicon SET num_notes=? WHERE rn=?", [(n, rn) for rn, n in lex_nn.items()])
 
-    ety_nn = dict(db.execute(
-        "SELECT tag, COUNT(*) FROM src.notes WHERE tag IS NOT NULL AND tag>0 GROUP BY tag"))
-    ety_cmp = dict(db.execute(
-        "SELECT tag, COUNT(*) FROM src.notes WHERE tag IS NOT NULL AND tag>0 AND notetype='F' GROUP BY tag"))
-    ety_rec = dict(db.execute(
-        "SELECT tag, COUNT(DISTINCT rn) FROM src.lx_et_hash WHERE tag>0 GROUP BY tag"))
-    db.executemany("UPDATE etyma SET num_notes=?, num_comparanda=?, num_recs=? WHERE tag=?",
-                   [(ety_nn.get(t, 0), ety_cmp.get(t, 0), ety_rec.get(t, 0), t)
-                    for t in set(ety_nn) | set(ety_cmp) | set(ety_rec)])
+    ety_nn = dict(db.execute("SELECT tag, COUNT(*) FROM src.notes WHERE tag IS NOT NULL AND tag>0 GROUP BY tag"))
+    ety_cmp = dict(
+        db.execute("SELECT tag, COUNT(*) FROM src.notes WHERE tag IS NOT NULL AND tag>0 AND notetype='F' GROUP BY tag")
+    )
+    ety_rec = dict(db.execute("SELECT tag, COUNT(DISTINCT rn) FROM src.lx_et_hash WHERE tag>0 GROUP BY tag"))
+    db.executemany(
+        "UPDATE etyma SET num_notes=?, num_comparanda=?, num_recs=? WHERE tag=?",
+        [
+            (ety_nn.get(t, 0), ety_cmp.get(t, 0), ety_rec.get(t, 0), t)
+            for t in set(ety_nn) | set(ety_cmp) | set(ety_rec)
+        ],
+    )
 
     # --- pre-rendered per-rn lexical-note HTML for the shim's notes/notes_for_rn endpoint (the
     #     "N notes" click + hover tip in search results / etymon reflex rows). Matches rootcanal's
     #     runmode: notes WHERE rn=? AND notetype!='I', each xml2html'd, joined by <p>. render_note's
     #     xref links stay root-relative (/etymon/N); the shim rebases them to the legacy base. ---
     from stedt import render
+
     notes_by_rn = {}
     for rn, xml in db.execute("""SELECT rn, xmlnote FROM src.notes
             WHERE rn IS NOT NULL AND notetype!='I' AND xmlnote IS NOT NULL ORDER BY rn, ord, noteid"""):
         notes_by_rn.setdefault(rn, []).append(render.render_note(xml))
     db.execute("CREATE TABLE lexnotes (rn INTEGER PRIMARY KEY, html)")
-    db.executemany("INSERT INTO lexnotes(rn, html) VALUES(?,?)",
-                   [(rn, "<p>".join(v)) for rn, v in notes_by_rn.items()])
+    db.executemany("INSERT INTO lexnotes(rn, html) VALUES(?,?)", [(rn, "<p>".join(v)) for rn, v in notes_by_rn.items()])
 
     # --- indexes for the shim's prefilter joins (FK lookups + grpno/srcabbr/tag) ---
     db.executescript("""

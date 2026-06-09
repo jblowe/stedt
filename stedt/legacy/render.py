@@ -10,6 +10,7 @@ AJAX endpoints and answers them from legacy.sqlite3 in WASM. Every page is noind
 etymon.tt. self_base/self_url/baseRef are set to the legacy base (BASE), so all asset/link/AJAX URLs
 stay inside the subtree. Reuses render.con() for the DB connection.
 """
+
 import os
 import html as _html
 
@@ -35,15 +36,19 @@ def chrome(title, body, vert_tog=False, cognates=None, extra_scripts=""):
     XHR patch is installed before any AJAX), noindex meta, guest header (login/tools forms removed)."""
     cog = ""
     if cognates:
-        cog = ("<style type=\"text/css\">"
-               + "".join(f".r{n} {{ background-color:yellow; }} " for n in cognates)
-               + "".join(f".u{n} {{ background-color:#6FF; }} " for n in cognates)
-               + "</style>")
+        cog = (
+            '<style type="text/css">'
+            + "".join(f".r{n} {{ background-color:yellow; }} " for n in cognates)
+            + "".join(f".u{n} {{ background-color:#6FF; }} " for n in cognates)
+            + "</style>"
+        )
     tog = ""
     if vert_tog:
-        tog = (f'<img id="spinner" src="{BASE}/img/spinner.gif" style="display:none;">&nbsp;'
-               f'<a href="#" onclick="return vert_tog()"><img title="Rotate View" '
-               f'src="{BASE}/img/toggle.png" alt="toggle" id="tog-img" border="0"></a>&nbsp;')
+        tog = (
+            f'<img id="spinner" src="{BASE}/img/spinner.gif" style="display:none;">&nbsp;'
+            f'<a href="#" onclick="return vert_tog()"><img title="Rotate View" '
+            f'src="{BASE}/img/toggle.png" alt="toggle" id="tog-img" border="0"></a>&nbsp;'
+        )
     return f"""﻿<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -263,18 +268,32 @@ document.observe("dom:loaded", function () {{
     return chrome("STEDT Database", body, vert_tog=True)
 
 
-  # ------------------------------------------------------------------------------- etymon page
+# ------------------------------------------------------------------------------- etymon page
 import json as _json
 
-ETYMON_FIELDS = ["lexicon.rn", "analysis", "languagenames.lgid", "lexicon.reflex", "lexicon.gloss",
-                 "lexicon.gfn", "languagenames.language", "languagegroups.grpid", "languagegroups.grpno",
-                 "languagegroups.grp", "languagegroups.genetic", "citation", "languagenames.srcabbr",
-                 "lexicon.srcid", "notes.rn"]
+ETYMON_FIELDS = [
+    "lexicon.rn",
+    "analysis",
+    "languagenames.lgid",
+    "lexicon.reflex",
+    "lexicon.gloss",
+    "lexicon.gfn",
+    "languagenames.language",
+    "languagegroups.grpid",
+    "languagegroups.grpno",
+    "languagegroups.grp",
+    "languagegroups.genetic",
+    "citation",
+    "languagenames.srcabbr",
+    "lexicon.srcid",
+    "notes.rn",
+]
 
 
 def _alt_stars(pf):
     """etymon.tt: asterisk each alternant (after ⪤ / OR / ~ / =) then prefix '*'."""
     import re as _re
+
     for d in ("⪤", "OR", "~", " ="):
         pf = pf.replace(d + " ", d + " *")
     return "*" + pf
@@ -300,30 +319,38 @@ def _breadcrumbs(c, chapter):
 
 def legacy_etymon(tag):
     c = render.con()
-    e = c.execute("""SELECT e.tag, e.chapter, e.sequence, e.protoform, e.protogloss, e.public, g.plg
+    e = c.execute(
+        """SELECT e.tag, e.chapter, e.sequence, e.protoform, e.protogloss, e.public, g.plg
                      FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-                     WHERE e.tag=? AND coalesce(upper(e.status),'')!='DELETE'""", (tag,)).fetchone()
+                     WHERE e.tag=? AND coalesce(upper(e.status),'')!='DELETE'""",
+        (tag,),
+    ).fetchone()
     if not e:
         c.close()
         raise ValueError(f"no etymon #{tag}")
     plg, pf, pg = e["plg"] or "", e["protoform"] or "", e["protogloss"] or ""
 
     # allofams: same chapter & same integer sequence (FLOOR), non-DELETE
-    allo = c.execute("""SELECT tag, sequence, protoform, protogloss FROM etyma
+    allo = c.execute(
+        """SELECT tag, sequence, protoform, protogloss FROM etyma
                         WHERE chapter=? AND sequence!='0' AND sequence!='0.0'
                           AND CAST(sequence AS INTEGER)=CAST(? AS INTEGER)
                           AND coalesce(upper(status),'')!='DELETE' ORDER BY sequence""",
-                     (e["chapter"], e["sequence"])).fetchall()
+        (e["chapter"], e["sequence"]),
+    ).fetchall()
 
     # mesoroots
-    meso = c.execute("""SELECT m.grpid, g.grpno, g.grp, g.plg, m.form, m.gloss, m.variant, g.genetic
+    meso = c.execute(
+        """SELECT m.grpid, g.grpno, g.grp, g.plg, m.form, m.gloss, m.variant, g.genetic
                         FROM mesoroots m LEFT JOIN languagegroups g ON g.grpid=m.grpid
                         WHERE m.tag=? ORDER BY g.grp0,g.grp1,g.grp2,g.grp3,g.grp4, m.variant""",
-                     (tag,)).fetchall()
+        (tag,),
+    ).fetchall()
     meso = [dict(m) for m in meso]
 
     # reflexes (Tags.pm::etymon, guest 15 cols); analysis computed in Python (version-safe)
-    recs = c.execute("""SELECT l.rn, ln.lgid, l.reflex, l.gloss, l.gfn, ln.language, g.grpid, g.grpno,
+    recs = c.execute(
+        """SELECT l.rn, ln.lgid, l.reflex, l.gloss, l.gfn, ln.language, g.grpid, g.grpno,
                           g.grp, g.genetic, sb.citation, ln.srcabbr, l.srcid,
                           (SELECT COUNT(*) FROM notes WHERE notes.rn=l.rn) AS num_notes
                         FROM lexicon l JOIN lx_et_hash h ON h.rn=l.rn AND h.tag=?
@@ -333,13 +360,15 @@ def legacy_etymon(tag):
                         WHERE coalesce(l.status,'') NOT IN ('HIDE','DELETED')
                         GROUP BY l.rn
                         ORDER BY g.grp0,g.grp1,g.grp2,g.grp3,g.grp4, ln.lgsort, l.reflex, ln.srcabbr, l.srcid""",
-                     (tag,)).fetchall()
+        (tag,),
+    ).fetchall()
     rns = [r["rn"] for r in recs]
     ana = {}
     if rns:
         qm = ",".join("?" * len(rns))
-        for rn, ts in c.execute(f"SELECT rn, tag_str FROM lx_et_hash WHERE rn IN ({qm}) AND tag_str IS NOT NULL "
-                                f"ORDER BY rn, ind", rns):
+        for rn, ts in c.execute(
+            f"SELECT rn, tag_str FROM lx_et_hash WHERE rn IN ({qm}) AND tag_str IS NOT NULL " f"ORDER BY rn, ind", rns
+        ):
             ana.setdefault(rn, []).append(str(ts))
 
     def cell(v):
@@ -351,8 +380,11 @@ def legacy_etymon(tag):
     lex_notes = {}
     if rns:
         qm = ",".join("?" * len(rns))
-        for rn, xml in c.execute(f"SELECT rn, xmlnote FROM notes WHERE rn IN ({qm}) AND spec='L' "
-                                 f"AND notetype!='I' AND xmlnote IS NOT NULL ORDER BY rn, ord, noteid", rns):
+        for rn, xml in c.execute(
+            f"SELECT rn, xmlnote FROM notes WHERE rn IN ({qm}) AND spec='L' "
+            f"AND notetype!='I' AND xmlnote IS NOT NULL ORDER BY rn, ord, noteid",
+            rns,
+        ):
             lex_notes.setdefault(rn, []).append(xml)
 
     footnotes = []  # (num, html)
@@ -363,20 +395,45 @@ def legacy_etymon(tag):
             footnotes.append((len(footnotes) + 1, _lnote(xml)))
             nums.append(footnotes[-1][0])
         notes_col = " ".join(str(x) for x in nums) if nums else "0"
-        vals = [r["rn"], ",".join(ana.get(r["rn"], [])), r["lgid"], r["reflex"], r["gloss"], r["gfn"],
-                r["language"], r["grpid"], r["grpno"], r["grp"], r["genetic"], r["citation"],
-                r["srcabbr"], r["srcid"], notes_col]
+        vals = [
+            r["rn"],
+            ",".join(ana.get(r["rn"], [])),
+            r["lgid"],
+            r["reflex"],
+            r["gloss"],
+            r["gfn"],
+            r["language"],
+            r["grpid"],
+            r["grpno"],
+            r["grp"],
+            r["genetic"],
+            r["citation"],
+            r["srcabbr"],
+            r["srcid"],
+            notes_col,
+        ]
         rows_html += "<tr>" + "".join(cell(v) for v in vals) + "</tr>\n"
 
     # notes (spec=E, not comparanda 'F', not internal 'I') + Chinese comparanda ('F')
-    notes = c.execute("""SELECT xmlnote FROM notes WHERE tag=? AND spec='E'
+    notes = c.execute(
+        """SELECT xmlnote FROM notes WHERE tag=? AND spec='E'
                          AND notetype NOT IN ('F','I') AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
-                      (tag,)).fetchall()
-    comp = c.execute("""SELECT xmlnote FROM notes WHERE tag=? AND notetype='F'
-                        AND xmlnote IS NOT NULL ORDER BY ord, noteid""", (tag,)).fetchall()
-    all_grps = {r["grpno"]: {"grpid": r["grpid"], "grpno": r["grpno"], "grp": r["grp"],
-                             "genetic": str(r["genetic"]) if r["genetic"] is not None else "0"}
-                for r in c.execute("SELECT grpid, grpno, grp, genetic FROM languagegroups")}
+        (tag,),
+    ).fetchall()
+    comp = c.execute(
+        """SELECT xmlnote FROM notes WHERE tag=? AND notetype='F'
+                        AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
+        (tag,),
+    ).fetchall()
+    all_grps = {
+        r["grpno"]: {
+            "grpid": r["grpid"],
+            "grpno": r["grpno"],
+            "grp": r["grp"],
+            "genetic": str(r["genetic"]) if r["genetic"] is not None else "0",
+        }
+        for r in c.execute("SELECT grpid, grpno, grp, genetic FROM languagegroups")
+    }
     crumbs = _breadcrumbs(c, e["chapter"])
     c.close()
 
@@ -384,11 +441,14 @@ def legacy_etymon(tag):
     allobox = ""
     if len(allo) > 1:
         items = "".join(
-            (f'<li><b>{esc(_fmt_seq(a["sequence"]))} #{a["tag"]} *{esc(a["protoform"])} {esc(a["protogloss"])}</b></li>'
-             if a["tag"] == tag else
-             f'<li><a href="{BASE}/etymon/{a["tag"]}">{esc(_fmt_seq(a["sequence"]))} #{a["tag"]} '
-             f'*{esc(a["protoform"])} {esc(a["protogloss"])}</a></li>')
-            for a in allo)
+            (
+                f'<li><b>{esc(_fmt_seq(a["sequence"]))} #{a["tag"]} *{esc(a["protoform"])} {esc(a["protogloss"])}</b></li>'
+                if a["tag"] == tag
+                else f'<li><a href="{BASE}/etymon/{a["tag"]}">{esc(_fmt_seq(a["sequence"]))} #{a["tag"]} '
+                f'*{esc(a["protoform"])} {esc(a["protogloss"])}</a></li>'
+            )
+            for a in allo
+        )
         allobox = f'<div class="right" id="allofambox"><b>Allofams:</b><ul>{items}</ul></div>'
 
     crumbs_html = ""
@@ -396,16 +456,24 @@ def legacy_etymon(tag):
         if i == len(crumbs) - 1:
             crumbs_html += f'<a href="{BASE}/chap/{esc(sk)}">{esc(sk)} <b>{esc(ti)}</b></a>'
         else:
-            crumbs_html += f'{esc(sk)} <b>{esc(ti)}</b> &gt; '
+            crumbs_html += f"{esc(sk)} <b>{esc(ti)}</b> &gt; "
 
-    prov = '' if e["public"] else ' <span id="prov_heading" style="color:red; cursor:help; font-size:medium">(provisional)</span>'
-    heading = (f'<table><tr><td style="padding: 10px;">'
-               f'<h1>#{tag} {esc(plg)} {esc(_alt_stars(pf))} {esc(pg)}{prov}</h1></td></tr></table>')
+    prov = (
+        ""
+        if e["public"]
+        else ' <span id="prov_heading" style="color:red; cursor:help; font-size:medium">(provisional)</span>'
+    )
+    heading = (
+        f'<table><tr><td style="padding: 10px;">'
+        f"<h1>#{tag} {esc(plg)} {esc(_alt_stars(pf))} {esc(pg)}{prov}</h1></td></tr></table>"
+    )
 
     meso_html = ""
     if meso:
-        lis = "".join(f'<li><a href="#{esc(m["grpno"])}">{esc(m["plg"])} *{esc(m["form"])} {esc(m["gloss"])}</a></li>'
-                      for m in meso)
+        lis = "".join(
+            f'<li><a href="#{esc(m["grpno"])}">{esc(m["plg"])} *{esc(m["form"])} {esc(m["gloss"])}</a></li>'
+            for m in meso
+        )
         meso_html = f'Reconstructed mesoroots below:\n<ul class="mesolist">{lis}</ul>'
 
     notes_html = "".join(f'<div class="notepreview">{_lnote(n["xmlnote"])}</div>' for n in notes)
@@ -413,22 +481,28 @@ def legacy_etymon(tag):
     table_html = ""
     if recs:
         ths = "".join(f'<th id="{f}">{esc(f.split(".")[-1])}</th>' for f in ETYMON_FIELDS)
-        table_html = (f'{len(recs)} records <span class="r{tag}">tagged by <b>stedt</b></span> under this etymon.\n'
-                      f'<table id="lexicon1" tag="{tag}" class="hangindent">\n'
-                      f'<thead><tr>{ths}</tr></thead>\n<tbody>\n{rows_html}</tbody></table>')
+        table_html = (
+            f'{len(recs)} records <span class="r{tag}">tagged by <b>stedt</b></span> under this etymon.\n'
+            f'<table id="lexicon1" tag="{tag}" class="hangindent">\n'
+            f"<thead><tr>{ths}</tr></thead>\n<tbody>\n{rows_html}</tbody></table>"
+        )
 
     comp_html = ""
     if comp:
         label = "Chinese comparand" + ("um" if len(comp) == 1 else "a")
-        comp_html = f'<h2>{label}</h2>' + "".join(_lnote(n["xmlnote"]) for n in comp)
+        comp_html = f"<h2>{label}</h2>" + "".join(_lnote(n["xmlnote"]) for n in comp)
 
     # reflex-note endnotes (rootcanal lists these at the bottom; the notes.rn column links to them)
     footnotes_html = "".join(
         f'<div class="footnote" id="foot{num}"><a href="#toof{num}" class="left">^ {num}.</a> '
-        f'<div class="notepreview">{html}</div></div>\n' for num, html in footnotes)
+        f'<div class="notepreview">{html}</div></div>\n'
+        for num, html in footnotes
+    )
 
-    body = (f'{allobox}\n<p>{crumbs_html}</p>\n{heading}\n{meso_html}\n{notes_html}\n{table_html}\n{comp_html}\n'
-            f'<br>\n{footnotes_html}')
+    body = (
+        f"{allobox}\n<p>{crumbs_html}</p>\n{heading}\n{meso_html}\n{notes_html}\n{table_html}\n{comp_html}\n"
+        f"<br>\n{footnotes_html}"
+    )
 
     scripts = f"""<script>
 var footnote_counter = {len(footnotes)};
@@ -454,19 +528,33 @@ def _fmt_seq(s):
     if f == int(f):
         return str(int(f))
     frac = str(s).split(".")[-1]
-    return str(int(f)) + (chr(ord('a') - 1 + int(frac[0])) if frac and frac[0].isdigit() else "")
+    return str(int(f)) + (chr(ord("a") - 1 + int(frac[0])) if frac and frac[0].isdigit() else "")
 
 
-  # ----------------------------------------------------------------------- source / group / chapter
+# ----------------------------------------------------------------------- source / group / chapter
 import datetime as _dt
 
 _BUILD_DATE = _dt.date.today().isoformat()
 
 # 16-col etyma result table (gnis/chapter format); num_recs/num_notes/num_comparanda via subqueries.
-ETYMA16 = ["etyma.tag", "num_recs", "chapters.chaptertitle", "etyma.chapter", "etyma.sequence",
-           "etyma.protoform", "etyma.protogloss", "etyma.grpid", "languagegroups.plg",
-           "languagegroups.grpno", "etyma.notes", "num_notes", "num_comparanda", "etyma.status",
-           "etyma.public", "users.username"]
+ETYMA16 = [
+    "etyma.tag",
+    "num_recs",
+    "chapters.chaptertitle",
+    "etyma.chapter",
+    "etyma.sequence",
+    "etyma.protoform",
+    "etyma.protogloss",
+    "etyma.grpid",
+    "languagegroups.plg",
+    "languagegroups.grpno",
+    "etyma.notes",
+    "num_notes",
+    "num_comparanda",
+    "etyma.status",
+    "etyma.public",
+    "users.username",
+]
 _ETYMA16_SELECT = """SELECT e.tag,
   (SELECT COUNT(DISTINCT rn) FROM lx_et_hash WHERE tag=e.tag) AS num_recs,
   ch.chaptertitle, e.chapter, e.sequence, e.protoform, e.protogloss, e.grpid, g.plg, g.grpno, e.notes,
@@ -484,8 +572,10 @@ def _etyma_table(c, where, params, order):
     body = ""
     for r in rows:
         body += "<tr>" + "".join(f"<td>{esc(v)}</td>" for v in r) + "</tr>\n"
-    html = (f'<table id="etyma_resulttable" class="resizable hangindent" width="100%" '
-            f'style="table-layout:fixed;">\n<thead><tr>{ths}</tr></thead>\n<tbody>\n{body}</tbody></table>')
+    html = (
+        f'<table id="etyma_resulttable" class="resizable hangindent" width="100%" '
+        f'style="table-layout:fixed;">\n<thead><tr>{ths}</tr></thead>\n<tbody>\n{body}</tbody></table>'
+    )
     return html, len(rows)
 
 
@@ -502,38 +592,63 @@ def legacy_source(srcabbr):
         c.close()
         raise ValueError(f"no source {srcabbr}")
     author, year, title, imprint = sb["author"] or "", sb["year"] or "", sb["title"] or "", sb["imprint"] or ""
-    lgs = c.execute("""SELECT ln.silcode, ln.language, g.grpid, g.grpno, g.grp,
+    lgs = c.execute(
+        """SELECT ln.silcode, ln.language, g.grpid, g.grpno, g.grp,
                          COUNT(l.rn) AS nrec, ln.lgid, ln.pi_page, ln.lgabbr
                        FROM languagenames ln LEFT JOIN languagegroups g ON g.grpid=ln.grpid
                          LEFT JOIN lexicon l ON l.lgid=ln.lgid
                        WHERE ln.srcabbr=? AND coalesce(ln.lgcode,0)!=0
                          AND coalesce(l.status,'') NOT IN ('HIDE','DELETED')
-                       GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language""", (srcabbr,)).fetchall()
-    notes = c.execute("""SELECT xmlnote FROM notes WHERE spec='S' AND id=? AND notetype!='I'
-                         AND xmlnote IS NOT NULL ORDER BY ord, noteid""", (srcabbr,)).fetchall()
+                       GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language""",
+        (srcabbr,),
+    ).fetchall()
+    notes = c.execute(
+        """SELECT xmlnote FROM notes WHERE spec='S' AND id=? AND notetype!='I'
+                         AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
+        (srcabbr,),
+    ).fetchall()
     c.close()
 
-    cite = (f'<p align="center" style="width:50%">{esc(_period(author))} {esc(_period(year))} '
-            f'<cite>{esc(title)}</cite>{"" if title.endswith((".", "?")) else "."}'
-            f'{(" " + esc(_period(imprint))) if imprint else ""}\nAccessed via STEDT database '
-            f'<tt>&lt;https://larc-iu.github.io/stedt/&gt;</tt> on {_BUILD_DATE}.</p>')
+    cite = (
+        f'<p align="center" style="width:50%">{esc(_period(author))} {esc(_period(year))} '
+        f'<cite>{esc(title)}</cite>{"" if title.endswith((".", "?")) else "."}'
+        f'{(" " + esc(_period(imprint))) if imprint else ""}\nAccessed via STEDT database '
+        f"<tt>&lt;https://larc-iu.github.io/stedt/&gt;</tt> on {_BUILD_DATE}.</p>"
+    )
     notes_html = "".join(f'<p>{_lnote(n["xmlnote"])}</p>' for n in notes)
     # guest-available raw-data export (rootcanal's /sources/ddata); a static TSV written by build_legacy
-    dl = ("" if srcabbr == "SIL-Nuosu" else
-          f'<p><a href="{BASE}/sources/ddata/{esc(srcabbr)}.tsv">Download data for {esc(srcabbr)}</a></p>')
+    dl = (
+        ""
+        if srcabbr == "SIL-Nuosu"
+        else f'<p><a href="{BASE}/sources/ddata/{esc(srcabbr)}.tsv">Download data for {esc(srcabbr)}</a></p>'
+    )
 
     rows = ""
     for r in lgs:
-        iso = (f'<a href="http://www.ethnologue.com/show_language.asp?code={esc(r["silcode"])}" '
-               f'target="stedt_ethnologue">{esc(r["silcode"])}</a>') if r["silcode"] else "n/a"
-        pi = (f'<a href="{BASE}/phon_inv.html?page={(r["pi_page"] or 0) + 26}" target="stedt_pi" '
-              f'title="Namkung, ed. 1996">p.{r["pi_page"]}</a>') if r["pi_page"] else ""
-        rows += (f'<tr>\n<td>{iso}</td>\n'
-                 f'<td><a href="{BASE}/group/{r["grpid"]}/{r["lgid"]}" target="stedt_grps">{esc(r["language"])}</a></td>\n'
-                 f'<td>{esc(r["lgabbr"])}</td>\n'
-                 f'<td>{esc(r["grpno"])} - <a href="{BASE}/group/{r["grpid"]}" target="stedt_grps">{esc(r["grp"])}</a></td>\n'
-                 f'<td><a href="{BASE}/gnis?lexicon.lgid={r["lgid"]}" target="stedt_sss">{r["nrec"]}</a></td>\n'
-                 f'<td>{pi}</td>\n</tr>\n')
+        iso = (
+            (
+                f'<a href="http://www.ethnologue.com/show_language.asp?code={esc(r["silcode"])}" '
+                f'target="stedt_ethnologue">{esc(r["silcode"])}</a>'
+            )
+            if r["silcode"]
+            else "n/a"
+        )
+        pi = (
+            (
+                f'<a href="{BASE}/phon_inv.html?page={(r["pi_page"] or 0) + 26}" target="stedt_pi" '
+                f'title="Namkung, ed. 1996">p.{r["pi_page"]}</a>'
+            )
+            if r["pi_page"]
+            else ""
+        )
+        rows += (
+            f"<tr>\n<td>{iso}</td>\n"
+            f'<td><a href="{BASE}/group/{r["grpid"]}/{r["lgid"]}" target="stedt_grps">{esc(r["language"])}</a></td>\n'
+            f'<td>{esc(r["lgabbr"])}</td>\n'
+            f'<td>{esc(r["grpno"])} - <a href="{BASE}/group/{r["grpid"]}" target="stedt_grps">{esc(r["grp"])}</a></td>\n'
+            f'<td><a href="{BASE}/gnis?lexicon.lgid={r["lgid"]}" target="stedt_sss">{r["nrec"]}</a></td>\n'
+            f"<td>{pi}</td>\n</tr>\n"
+        )
 
     body = f"""<p>Cite as follows:</p>
 {cite}
@@ -557,11 +672,15 @@ def legacy_all_sources():
     c.close()
     trs = ""
     for r in rows:
-        ref = (f'{esc(_period(r["author"]))} {esc(_period(r["year"]))} <cite>{esc(r["title"])}</cite>'
-               f'{"" if (r["title"] or "").endswith((".", "?")) else "."}'
-               f'{(" " + esc(_period(r["imprint"]))) if r["imprint"] else ""}')
-        trs += (f'<tr>\n<td><a href="{BASE}/source/{esc(r["srcabbr"])}" target="stedt_src">{esc(r["citation"])}</a></td>\n'
-                f'<td>{r["num_lgs"]}</td>\n<td>{r["num_recs"]}</td>\n<td>{ref}</td>\n</tr>\n')
+        ref = (
+            f'{esc(_period(r["author"]))} {esc(_period(r["year"]))} <cite>{esc(r["title"])}</cite>'
+            f'{"" if (r["title"] or "").endswith((".", "?")) else "."}'
+            f'{(" " + esc(_period(r["imprint"]))) if r["imprint"] else ""}'
+        )
+        trs += (
+            f'<tr>\n<td><a href="{BASE}/source/{esc(r["srcabbr"])}" target="stedt_src">{esc(r["citation"])}</a></td>\n'
+            f'<td>{r["num_lgs"]}</td>\n<td>{r["num_recs"]}</td>\n<td>{ref}</td>\n</tr>\n'
+        )
     body = f"""<p>Sources for the data in the STEDT database ({len(rows)} total):</p>
 <table class="hangindent sortable">
 <tr><th>citation</th><th>languages</th><th>records</th><th>Reference</th></tr>
@@ -570,9 +689,11 @@ def legacy_all_sources():
 
 
 # ------------------------------------------------------------------------------------- group pages
-_LG_TH = ('<th title="Language name from source OR abbreviated name" style="cursor:help;">Short Lg Name</th>'
-          '<th>num. of records</th><th title="from Namkung, ed. 1996 (STEDT Monograph #3)" '
-          'style="cursor:help;">Phon. Inventory</th>')
+_LG_TH = (
+    '<th title="Language name from source OR abbreviated name" style="cursor:help;">Short Lg Name</th>'
+    '<th>num. of records</th><th title="from Namkung, ed. 1996 (STEDT Monograph #3)" '
+    'style="cursor:help;">Phon. Inventory</th>'
+)
 
 
 def legacy_group(grpid, lgid=None):
@@ -585,24 +706,41 @@ def legacy_group(grpid, lgid=None):
         c.close()
         raise ValueError(f"no group {grpid}")
     grps = c.execute("SELECT grpid, grpno, grp FROM languagegroups ORDER BY grp0,grp1,grp2,grp3,grp4").fetchall()
-    lgs = [dict(r) for r in c.execute(
-        """SELECT ln.silcode, ln.language, ln.lgcode, ln.srcabbr, sb.citation, ln.lgid,
+    lgs = [
+        dict(r)
+        for r in c.execute(
+            """SELECT ln.silcode, ln.language, ln.lgcode, ln.srcabbr, sb.citation, ln.lgid,
              COUNT(l.rn) AS nrec, ln.pi_page, ln.lgabbr
            FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid
              LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
            WHERE ln.grpid=? AND coalesce(ln.lgcode,0)!=0
              AND coalesce(l.status,'') NOT IN ('HIDE','DELETED')
-           GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language""", (grpid,))]
+           GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language""",
+            (grpid,),
+        )
+    ]
     c.close()
     grpname = f'{esc(grp["grpno"])} {esc(grp["grp"])}'
 
     def iso(r):
-        return (f'<a href="http://www.ethnologue.com/show_language.asp?code={esc(r["silcode"])}" '
-                f'target="stedt_ethnologue">{esc(r["silcode"])}</a>') if r["silcode"] else "n/a"
+        return (
+            (
+                f'<a href="http://www.ethnologue.com/show_language.asp?code={esc(r["silcode"])}" '
+                f'target="stedt_ethnologue">{esc(r["silcode"])}</a>'
+            )
+            if r["silcode"]
+            else "n/a"
+        )
 
     def pi(r):
-        return (f'<a href="{BASE}/phon_inv.html?page={(r["pi_page"] or 0) + 26}" target="stedt_pi" '
-                f'title="Namkung, ed. 1996">p.{r["pi_page"]}</a>') if r["pi_page"] else ""
+        return (
+            (
+                f'<a href="{BASE}/phon_inv.html?page={(r["pi_page"] or 0) + 26}" target="stedt_pi" '
+                f'title="Namkung, ed. 1996">p.{r["pi_page"]}</a>'
+            )
+            if r["pi_page"]
+            else ""
+        )
 
     def recs(r):
         return f'<a href="{BASE}/gnis?lexicon.lgid={r["lgid"]}" target="stedt_sss">{r["nrec"]}</a>'
@@ -611,10 +749,14 @@ def legacy_group(grpid, lgid=None):
         return f'<a href="{BASE}/source/{esc(r["srcabbr"])}" target="stedt_src">{esc(r["citation"])}</a>'
 
     tree = "".join(
-        (f'<tr bgcolor="#FFFF99" id="showme"><td>{esc(g["grpno"])}</td>'
-         if g["grpid"] == grpid else f'<tr><td>{esc(g["grpno"])}</td>')
+        (
+            f'<tr bgcolor="#FFFF99" id="showme"><td>{esc(g["grpno"])}</td>'
+            if g["grpid"] == grpid
+            else f'<tr><td>{esc(g["grpno"])}</td>'
+        )
         + f'<td><a href="{BASE}/group/{g["grpid"]}">{esc(g["grp"])}</a></td></tr>\n'
-        for g in grps)
+        for g in grps
+    )
 
     sel = next((i for i, r in enumerate(lgs) if r["lgid"] == lgid), None) if lgid is not None else None
 
@@ -622,33 +764,44 @@ def legacy_group(grpid, lgid=None):
     if sel is not None:
         s = lgs[sel]
         lg_code = s["lgcode"]
-        lginfo += (f'<p>Language information for <b>{esc(s["language"])}</b> from source {src(s)}:</p>\n'
-                   f'<table>\n'
-                   f'<tr><th title="Language name from source OR abbreviated name" style="cursor:help;">Short Lg Name</th><td>{esc(s["lgabbr"])}</td></tr>\n'
-                   f'<tr><th>ISO 639-3</th><td>{iso(s)}</td></tr>\n'
-                   f'<tr><th>num. of records</th><td>{recs(s)}</td></tr>\n'
-                   + (f'<tr><th title="from Namkung, ed. 1996 (STEDT Monograph #3)" style="cursor:help;">Phon. Inventory</th><td>{pi(s)}</td></tr>\n' if s["pi_page"] else '')
-                   + '</table>\n')
+        lginfo += (
+            f'<p>Language information for <b>{esc(s["language"])}</b> from source {src(s)}:</p>\n'
+            f"<table>\n"
+            f'<tr><th title="Language name from source OR abbreviated name" style="cursor:help;">Short Lg Name</th><td>{esc(s["lgabbr"])}</td></tr>\n'
+            f"<tr><th>ISO 639-3</th><td>{iso(s)}</td></tr>\n"
+            f"<tr><th>num. of records</th><td>{recs(s)}</td></tr>\n"
+            + (
+                f'<tr><th title="from Namkung, ed. 1996 (STEDT Monograph #3)" style="cursor:help;">Phon. Inventory</th><td>{pi(s)}</td></tr>\n'
+                if s["pi_page"]
+                else ""
+            )
+            + "</table>\n"
+        )
         others = [r for j, r in enumerate(lgs) if j != sel and r["lgcode"] == lg_code]
         if others:
-            orows = "".join(f'<tr>\n<td>{esc(r["language"])}</td>\n<td>{src(r)}</td>\n'
-                            f'<td>{esc(r["lgabbr"])}</td>\n<td>{recs(r)}</td>\n<td>{pi(r)}</td>\n</tr>\n'
-                            for r in others)
-            lginfo += ('<p>Other sources which include this language:</p>\n<table class="hangindent">\n'
-                       f'<tr><th>Language Name</th><th>Source</th>{_LG_TH}</tr>\n{orows}</table>\n')
+            orows = "".join(
+                f'<tr>\n<td>{esc(r["language"])}</td>\n<td>{src(r)}</td>\n'
+                f'<td>{esc(r["lgabbr"])}</td>\n<td>{recs(r)}</td>\n<td>{pi(r)}</td>\n</tr>\n'
+                for r in others
+            )
+            lginfo += (
+                '<p>Other sources which include this language:</p>\n<table class="hangindent">\n'
+                f"<tr><th>Language Name</th><th>Source</th>{_LG_TH}</tr>\n{orows}</table>\n"
+            )
         else:
-            lginfo += '(No other sources with this language.)\n'
-        lginfo += f'<p>Other languages in <b>{grpname}</b>:</p>\n'
+            lginfo += "(No other sources with this language.)\n"
+        lginfo += f"<p>Other languages in <b>{grpname}</b>:</p>\n"
         main = [r for j, r in enumerate(lgs) if j != sel and r["lgcode"] != lg_code]
     else:
-        lginfo += f'<p>Languages in <b>{grpname}</b></p>\n'
+        lginfo += f"<p>Languages in <b>{grpname}</b></p>\n"
         main = lgs
 
     lrows = "".join(
         f'<tr id="lg{r["lgid"]}">\n<td>{iso(r)}</td>\n'
         f'<td><a href="{BASE}/group/{grpid}/{r["lgid"]}" target="_self">{esc(r["language"])}</a></td>\n'
         f'<td>{src(r)}</td>\n<td>{esc(r["lgabbr"])}</td>\n<td>{recs(r)}</td>\n<td>{pi(r)}</td>\n</tr>\n'
-        for r in main)
+        for r in main
+    )
 
     body = f"""<table id="lgtreehead"><tr><th style="width:4em">Group #</th><th>Group Name</th></tr></table>
 <div id="lgtree"><table>
@@ -669,22 +822,29 @@ def legacy_chapter(semkey):
     c = render.con()
     row = c.execute("SELECT chaptertitle FROM chapters WHERE semkey=?", (semkey,)).fetchone()
     title = (row["chaptertitle"] if row else None) or "[chapter does not exist in chapters table!]"
-    notes = c.execute("""SELECT notetype, noteid, xmlnote FROM notes WHERE spec='C' AND id=? AND notetype!='I'
-                         AND xmlnote IS NOT NULL ORDER BY ord, noteid""", (semkey,)).fetchall()
+    notes = c.execute(
+        """SELECT notetype, noteid, xmlnote FROM notes WHERE spec='C' AND id=? AND notetype!='I'
+                         AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
+        (semkey,),
+    ).fetchall()
     table, n = _etyma_table(
-        c, "e.chapter=? AND coalesce(upper(e.status),'')!='DELETE'", (semkey,),
-        "CASE WHEN CAST(e.sequence AS REAL)=0 THEN 1 ELSE 0 END, CAST(e.sequence AS REAL), e.public DESC")
+        c,
+        "e.chapter=? AND coalesce(upper(e.status),'')!='DELETE'",
+        (semkey,),
+        "CASE WHEN CAST(e.sequence AS REAL)=0 THEN 1 ELSE 0 END, CAST(e.sequence AS REAL), e.public DESC",
+    )
     c.close()
 
     notes_html = ""
     for nt in notes:
         if nt["notetype"] == "G":
-            notes_html += (f'<div><a href="{BASE}/pdf/{nt["noteid"]}.pdf">'
-                           f'<img src="{BASE}/png/{nt["noteid"]}.png"></a></div>')
+            notes_html += (
+                f'<div><a href="{BASE}/pdf/{nt["noteid"]}.pdf">' f'<img src="{BASE}/png/{nt["noteid"]}.png"></a></div>'
+            )
         else:
             notes_html += f'<p>{_lnote(nt["xmlnote"])}</p>'
 
-    etyma_section = f'<h2>Etyma in this chapter</h2>\n{table}' if table else ""
+    etyma_section = f"<h2>Etyma in this chapter</h2>\n{table}" if table else ""
     body = f"""<p>[Back to the <a href="{BASE}/chapters">Chapter Browser</a>]</p>
 <h1>{esc(semkey)} {esc(title)}</h1>
 {notes_html}
@@ -711,7 +871,7 @@ TableKit.Rows.stripe('etyma_resulttable');
 def _semkey_tuple(sk):
     # numeric parts sort naturally; non-numeric (e.g. the 'x.x' admin chapter) sort to the very end,
     # matching rootcanal's v/f/c ordering which keeps special chapters at the bottom.
-    return tuple(int(p) if str(p).isdigit() else 10 ** 9 for p in str(sk).split("."))
+    return tuple(int(p) if str(p).isdigit() else 10**9 for p in str(sk).split("."))
 
 
 def legacy_chapter_browser():
@@ -724,8 +884,9 @@ def legacy_chapter_browser():
     c.close()
     chs = sorted((dict(r) for r in chs), key=lambda r: _semkey_tuple(r["semkey"]))
 
-    vols = [r for r in chs if str(r["semkey"]).replace(".0", "").count(".") == 0
-            and _semkey_tuple(r["semkey"])[0] <= 10]
+    vols = [
+        r for r in chs if str(r["semkey"]).replace(".0", "").count(".") == 0 and _semkey_tuple(r["semkey"])[0] <= 10
+    ]
     vol_html = "".join(f'<li><a href="#v{esc(v["semkey"])}">{esc(v["chaptertitle"])}</a></li>' for v in vols)
 
     trs = ""
@@ -740,9 +901,11 @@ def legacy_chapter_browser():
         elif indent == 1:
             ti = f"<i>{ti}</i>"
         anchor = f'<a name="v{esc(sk)}"></a>' if r in vols else ""
-        trs += (f'<tr>\n<td>{anchor}{pad}<a target="notes" href="{BASE}/chap/{esc(sk)}">{esc(sk)}</a></td>\n'
-                f'<td>{pad}{ti}</td>\n<td>{r["netyma"] or ""}</td>\n<td>{r["nnotes"] or ""}</td>\n'
-                f'<td>{"✓" if r["flow"] else ""}</td>\n</tr>\n')
+        trs += (
+            f'<tr>\n<td>{anchor}{pad}<a target="notes" href="{BASE}/chap/{esc(sk)}">{esc(sk)}</a></td>\n'
+            f'<td>{pad}{ti}</td>\n<td>{r["netyma"] or ""}</td>\n<td>{r["nnotes"] or ""}</td>\n'
+            f'<td>{"✓" if r["flow"] else ""}</td>\n</tr>\n'
+        )
 
     body = f"""<h1>Chapters</h1>
 Volumes:
@@ -756,7 +919,6 @@ Volumes:
 
 
 if __name__ == "__main__":
-    for name, fn in (("splash", legacy_splash), ("gnis", legacy_gnis),
-                     ("etymon1764", lambda: legacy_etymon(1764))):
+    for name, fn in (("splash", legacy_splash), ("gnis", legacy_gnis), ("etymon1764", lambda: legacy_etymon(1764))):
         open(f"/tmp/legacy_{name}.html", "w").write(fn())
         print(f"wrote /tmp/legacy_{name}.html")

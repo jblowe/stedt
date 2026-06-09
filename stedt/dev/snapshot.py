@@ -32,6 +32,7 @@ Usage
 
 Compare exits non-zero when anything differs, so it doubles as a CI/pre-commit gate.
 """
+
 import argparse
 import hashlib
 import os
@@ -51,7 +52,7 @@ def _run(module, out_dir, limit):
     """Run one build module (python -m) into out_dir with a pinned, reproducible env."""
     env = dict(os.environ)
     env["STEDT_OUT"] = out_dir
-    env["STEDT_BASE"] = ""            # root-relative -> clean diffs; comparison only, not deploy
+    env["STEDT_BASE"] = ""  # root-relative -> clean diffs; comparison only, not deploy
     # Pin the cache-bust versions so a diff reflects only rendered content, not the data/pipeline
     # content hash (which legitimately changes when a build file is renamed or moved).
     env["STEDT_DB_VERSION"] = "snapshot"
@@ -70,7 +71,7 @@ def _manifest_lines(root):
         for name in files:
             if name in SKIP_NAMES:
                 continue
-            ext = name[name.rfind("."):] if "." in name else ""
+            ext = name[name.rfind(".") :] if "." in name else ""
             if name not in TEXT_EXT and ext not in TEXT_EXT:
                 continue
             fp = os.path.join(dirpath, name)
@@ -104,9 +105,9 @@ def cmd_build(args):
     if not os.path.exists(DB):
         sys.exit("snapshot: stedt.sqlite missing — run with --rebuild-db, or `stedt build` first")
 
-    _run("stedt.build.static", out, args.limit)         # rmtrees + rebuilds out/  (modern site)
+    _run("stedt.build.static", out, args.limit)  # rmtrees + rebuilds out/  (modern site)
     if not args.no_legacy:
-        _run("stedt.legacy.build_site", out, args.limit)   # adds out/_legacy/  (legacy clone)
+        _run("stedt.legacy.build_site", out, args.limit)  # adds out/_legacy/  (legacy clone)
 
     lines = _manifest_lines(out)
     with open(os.path.join(out, "MANIFEST.sha256"), "w", encoding="utf-8") as f:
@@ -139,9 +140,11 @@ def cmd_compare(args):
         print(f"IDENTICAL — {len(a)} outputs match byte-for-byte.")
         return
 
-    print(f"DIFFERS — {len(changed)} changed, {len(added)} added, {len(removed)} removed "
-          f"(of {len(a)} -> {len(b)} outputs)\n")
-    show = lambda label, items: [print(f"  {label} {r}") for r in items[:args.max_list]]
+    print(
+        f"DIFFERS — {len(changed)} changed, {len(added)} added, {len(removed)} removed "
+        f"(of {len(a)} -> {len(b)} outputs)\n"
+    )
+    show = lambda label, items: [print(f"  {label} {r}") for r in items[: args.max_list]]
     if removed:
         show("removed", removed)
         if len(removed) > args.max_list:
@@ -154,9 +157,11 @@ def cmd_compare(args):
         show("changed", changed)
         if len(changed) > args.max_list:
             print(f"  … +{len(changed) - args.max_list} more changed")
-        print(f"\nInspect a change with:\n"
-              f"  diff -u {args.before}/<path> {args.after}/<path>\n"
-              f"  # or, for color: git diff --no-index {args.before}/<path> {args.after}/<path>")
+        print(
+            f"\nInspect a change with:\n"
+            f"  diff -u {args.before}/<path> {args.after}/<path>\n"
+            f"  # or, for color: git diff --no-index {args.before}/<path> {args.after}/<path>"
+        )
     sys.exit(1)
 
 

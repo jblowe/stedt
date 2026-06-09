@@ -5,10 +5,11 @@ SQLite over search.sqlite3).
 Split into focused modules (config, db, text, notes, shell, entities, indexes); this package
 re-exports their public names, so callers do ``from stedt import render`` then ``render.<fn>``.
 """
-from .config import *    # noqa: F401,F403
-from .db import *        # noqa: F401,F403
-from .text import *      # noqa: F401,F403
-from .notes import *     # noqa: F401,F403
-from .shell import *     # noqa: F401,F403
+
+from .config import *  # noqa: F401,F403
+from .db import *  # noqa: F401,F403
+from .text import *  # noqa: F401,F403
+from .notes import *  # noqa: F401,F403
+from .shell import *  # noqa: F401,F403
 from .entities import *  # noqa: F401,F403
-from .indexes import *   # noqa: F401,F403
+from .indexes import *  # noqa: F401,F403

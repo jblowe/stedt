@@ -5,14 +5,14 @@ its return code. That isolation is deliberate: the modules read sys.argv/env at 
 (the legacy renderer even needs its base set *before* it is imported), so a subprocess
 reproduces their behavior exactly and keeps every module runnable on its own.
 """
+
 import os
 import subprocess
 import sys
 
 import typer
 
-app = typer.Typer(add_completion=False, no_args_is_help=True,
-                  help="Build tooling for the STEDT static site.")
+app = typer.Typer(add_completion=False, no_args_is_help=True, help="Build tooling for the STEDT static site.")
 legacy_app = typer.Typer(no_args_is_help=True, help="Build the /_legacy/ rootcanal clone.")
 snapshot_app = typer.Typer(no_args_is_help=True, help="Golden-output harness for verifying refactors.")
 app.add_typer(legacy_app, name="legacy")

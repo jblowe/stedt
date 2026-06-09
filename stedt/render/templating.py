@@ -5,6 +5,7 @@ already-rendered page bodies, etc.) are passed as markupsafe.Markup so they are 
 instead of double-escaped. Block tags are kept whitespace-verbatim (no trim/lstrip) so a template
 can reproduce hand-written markup exactly.
 """
+
 import os
 
 from jinja2 import Environment, FileSystemLoader

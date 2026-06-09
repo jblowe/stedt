@@ -12,6 +12,12 @@ dependencies = ["jinja2", "typer"]
 [project.scripts]
 stedt = "stedt.cli:app"
 
+[project.optional-dependencies]
+dev = ["black"]
+
+[tool.black]
+line-length = 120
+
 [tool.setuptools.packages.find]
 include = ["stedt*"]
 

@@ -3,10 +3,11 @@
 Filesystem paths come from stedt.paths; this module adds the public citation base, the
 preview flag, proto-language label expansions, and the site.css/site.js content hashes.
 """
+
 import os
 import hashlib
 
-from stedt.paths import DATA, DB, STATIC   # noqa: F401  (re-exported for the renderers)
+from stedt.paths import DATA, DB, STATIC  # noqa: F401  (re-exported for the renderers)
 
 # The canonical public base URL used in citations (includes any path prefix, no trailing
 # slash). Defaults to the live GitHub Pages URL so copied citations resolve today; override
@@ -19,17 +20,36 @@ PREVIEW = os.environ.get("STEDT_PREVIEW", "1") != "0"
 
 # Proto-language abbreviations (etyma.grpid -> languagegroups.plg) expanded for the etymon header.
 PLG_FULL = {
-    'PST': 'Proto-Sino-Tibetan', 'PTB': 'Proto-Tibeto-Burman', 'PLB': 'Proto-Lolo-Burmese',
-    'PL': 'Proto-Loloish', 'PKC': 'Proto-Kuki-Chin', 'PCC': 'Proto-Central Chin',
-    'PNC': 'Proto-Northern Chin', 'PSPC': 'Proto-Southern Plains Chin', 'PPC': 'Proto-Peripheral Chin',
-    'PTani': 'Proto-Tani', 'PTk': 'Proto-Tangkhulic', 'PKar': 'Proto-Karenic',
-    'PCN': 'Proto-Central Naga (Ao group)', 'PNN': 'Proto-Northern Naga / Konyakian',
-    'TGTM': 'Tamang–Gurung–Thakali–Manang', 'PKir': 'Proto-Kiranti', 'PBod': 'Proto-Bodic',
-    'PQ': 'Proto-Qiangic', 'PrGy': 'Proto-rGyalrongic', 'PDeng': 'Proto-Deng',
-    'PTQ': 'Proto-Tangut–Qiang', 'PBm': 'Proto-Burmish', 'PNungic': 'Proto-Nungic',
-    'PAsak': 'Proto-Asakian', 'NEIA': 'NE Indian Areal Group', 'IA': 'Indo-Aryan',
-    'CH': 'Sinitic (Chinese)', 'DRV': 'Dravidian',
+    "PST": "Proto-Sino-Tibetan",
+    "PTB": "Proto-Tibeto-Burman",
+    "PLB": "Proto-Lolo-Burmese",
+    "PL": "Proto-Loloish",
+    "PKC": "Proto-Kuki-Chin",
+    "PCC": "Proto-Central Chin",
+    "PNC": "Proto-Northern Chin",
+    "PSPC": "Proto-Southern Plains Chin",
+    "PPC": "Proto-Peripheral Chin",
+    "PTani": "Proto-Tani",
+    "PTk": "Proto-Tangkhulic",
+    "PKar": "Proto-Karenic",
+    "PCN": "Proto-Central Naga (Ao group)",
+    "PNN": "Proto-Northern Naga / Konyakian",
+    "TGTM": "Tamang–Gurung–Thakali–Manang",
+    "PKir": "Proto-Kiranti",
+    "PBod": "Proto-Bodic",
+    "PQ": "Proto-Qiangic",
+    "PrGy": "Proto-rGyalrongic",
+    "PDeng": "Proto-Deng",
+    "PTQ": "Proto-Tangut–Qiang",
+    "PBm": "Proto-Burmish",
+    "PNungic": "Proto-Nungic",
+    "PAsak": "Proto-Asakian",
+    "NEIA": "NE Indian Areal Group",
+    "IA": "Indo-Aryan",
+    "CH": "Sinitic (Chinese)",
+    "DRV": "Dravidian",
 }
+
 
 # ---------------------------------------------------------------- page shell
 # CSS and the universal note-popover JS live in static/ (site.css, site.js) and are linked,
@@ -42,6 +62,7 @@ def _asset_ver(name):
             return hashlib.sha256(f.read()).hexdigest()[:8]
     except OSError:
         return "0"
+
 
 _CSS_VER = _asset_ver("site.css")
 _JS_VER = _asset_ver("site.js")
