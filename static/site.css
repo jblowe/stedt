@@ -211,8 +211,9 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 a.syl{color:var(--morph);border-bottom:1px dotted var(--rule);position:relative;}
 a.syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
 /* hover/focus popover previewing the etymon a linked syllable reflects (*protoform 'gloss'); replaces
-   the always-on ruby. lift the syllable's stacking context while open so the bubble isn't pierced. */
-a.syl .sylpop{display:none;position:absolute;left:0;top:1.5em;z-index:6;width:max-content;
+   the always-on ruby. Opens ABOVE the syllable so it covers the already-read row above rather than
+   obscuring the next form in a top-down wordlist. Lift the stacking context so the bubble isn't pierced. */
+a.syl .sylpop{display:none;position:absolute;left:0;bottom:calc(100% + 5px);z-index:6;width:max-content;
   max-width:min(280px,calc(100vw - 24px));background:var(--paper);border:1px solid var(--rule);border-radius:3px;
   padding:5px 9px;font-style:normal;font-weight:400;font-size:12.5px;line-height:1.45;color:var(--soft);
   white-space:normal;text-align:left;overflow-wrap:anywhere;letter-spacing:0;}
