@@ -12,6 +12,7 @@ from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels,
 from .templating import env
 
 _SOURCE = env.get_template("source.html")
+_GROUP = env.get_template("group.html")
 
 def etymon(tag):
     c = con()
@@ -520,28 +521,28 @@ def source(srcabbr):
         langs=langinfos, apparatus=apparatus), nav="sources")
 
 def group(grpid):
-    c = con()
-    g = c.execute("SELECT * FROM languagegroups WHERE grpid=?", (grpid,)).fetchone()
+    conn = con()
+    g = conn.execute("SELECT * FROM languagegroups WHERE grpid=?", (grpid,)).fetchone()
     if not g:
-        c.close(); return page("Not found", "<p>No such group.</p>")
+        conn.close(); return page("Not found", "<p>No such group.</p>")
     grpno = g['grpno']
-    lin = group_lineage(c, grpno)
+    lin = group_lineage(conn, grpno)
     depth = str(grpno).count('.') if grpno is not None else 0
-    children = c.execute("""SELECT grpid, grpno, grp, plg FROM languagegroups
+    children = conn.execute("""SELECT grpid, grpno, grp, plg FROM languagegroups
         WHERE grpno LIKE ? AND (length(grpno)-length(replace(grpno,'.','')))=?
         ORDER BY grpno""", (str(grpno) + '.%', depth + 1)).fetchall() if grpno is not None else []
     childinfo = []
     for ch in children:
         # count canonical member lects (distinct non-proto name == one lect within a grpid),
         # not raw language×source rows, so the tally matches the subgroup's own page header
-        nl = c.execute("""SELECT count(DISTINCT ln.language) FROM languagenames ln
+        nl = conn.execute("""SELECT count(DISTINCT ln.language) FROM languagenames ln
             JOIN lexicon l ON l.lgid=ln.lgid
             WHERE ln.grpid=? AND ln.language NOT LIKE '*%'""", (ch['grpid'],)).fetchone()[0]
         childinfo.append((ch, nl))
     # member lects directly attested at this node: collapse the per-source lgids of one lect onto its
     # canonical page (summing forms, merging sources), and drop proto-forms — they are this group's own
     # reconstruction (the plg + Reconstructions section), not member languages.
-    langrows = c.execute("""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
+    langrows = conn.execute("""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
             ln.silcode AS silcode, ln.srcabbr AS srcabbr, sb.citation AS citation, count(l.rn) AS n
         FROM languagenames ln LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
         JOIN lexicon l ON l.lgid=ln.lgid
@@ -559,43 +560,38 @@ def group(grpid):
         if not d['silcode'] and r['silcode']: d['silcode'] = r['silcode']
         if r['srcabbr']: d['srcs'].setdefault(r['srcabbr'], r['citation'])
     langs = sorted(lects.values(), key=lambda d: (d['language'] or '').lower())
-    recons = c.execute("""SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss
+    recons = conn.execute("""SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss
         FROM etyma e WHERE e.grpid=? AND coalesce(upper(e.status),'')!='DELETE'
         ORDER BY e.sequence, e.protogloss""", (grpid,)).fetchall()
-    rcounts = reflex_counts(c, [r['tag'] for r in recons])
+    rcounts = reflex_counts(conn, [r['tag'] for r in recons])
     # the complete genetic tree, so every group page offers one-click cross-branch navigation
-    alltree = c.execute(
+    alltree = conn.execute(
         "SELECT grpid, grpno, grp FROM languagegroups WHERE grpid IS NOT NULL AND grpno IS NOT NULL").fetchall()
-    c.close()
+    conn.close()
 
     plg = g['plg'] or ''
     head = (f'<span class="grpno">{esc(grpno)}</span>' if grpno else '') + esc(g['grp'] or '—')
     plg_html = f' <span class="plg2">({esc(plg)})</span>' if plg else ''
+    crumb_links = ['<a href="/languages">Languages</a>'] +                   [f'<a href="/group/{gg["grpid"]}">{(esc(gg["grpno"]) + " ") if gg["grpno"] else ""}{esc(gg["grp"])}</a>' for gg in lin]
+    meta = []
+    if langs: meta.append(Markup(f'<span><b>{len(langs)}</b> languages</span>'))
+    if recons: meta.append(Markup(f'<span><b>{len(recons):,}</b> reconstructions</span>'))
 
-    def treerow(t):
-        depth = str(t['grpno']).count('.')
+    def treeitem(t):
+        d = str(t['grpno']).count('.')
         lab = f'<span class="grpno">{esc(t["grpno"])}</span>{esc(t["grp"] or "")}'
         inner = (f'<span class="here">{lab}</span>' if t['grpid'] == grpid
                  else f'<a href="/group/{t["grpid"]}">{lab}</a>')
-        return f'<div style="padding-left:{depth*16}px">{inner}</div>'
-    tree = ''.join(treerow(t) for t in sorted(alltree, key=lambda t: natkey(t['grpno'])))
-    treehtml = (f'<details class="seg" open><summary>Family tree<span class="c">{len(alltree)} groups</span></summary>'
-                f'<div class="lgtree">{tree}</div></details>')
-    crumb_links = ['<a href="/languages">Languages</a>'] + \
-                  [f'<a href="/group/{gg["grpid"]}">{(esc(gg["grpno"]) + " ") if gg["grpno"] else ""}{esc(gg["grp"])}</a>' for gg in lin]
-    meta = []
-    if langs: meta.append(f'<span><b>{len(langs)}</b> languages</span>')
-    if recons: meta.append(f'<span><b>{len(recons):,}</b> reconstructions</span>')
+        return {"pad": d * 16, "inner": Markup(inner)}
+    tree = [treeitem(t) for t in sorted(alltree, key=lambda t: natkey(t['grpno']))]
 
-    def subitem(ch, nl):
+    def subinfo(ch, nl):
         code = f'<span class="grpno">{esc(ch["grpno"])}</span>' if ch['grpno'] else ''
         lab = code + esc(ch['grp']) + (f' <span class="plg2">({esc(ch["plg"])})</span>' if ch['plg'] else '')
-        return (f'<li><a class="row" href="/group/{ch["grpid"]}">'
-                f'<span class="ti">{lab}</span><span class="ct">{nl} languages</span></a></li>')
-    subhtml = ('<section class="thes grpsec"><h3>Subgroups</h3><ul>'
-               + ''.join(subitem(ch, nl) for ch, nl in childinfo) + '</ul></section>') if childinfo else ''
+        return {"grpid": ch['grpid'], "lab": Markup(lab), "nl": nl}
+    subs = [subinfo(ch, nl) for ch, nl in childinfo]
 
-    def langrow(l):
+    def langinfo(l):
         ab = f' <span class="lgab">{esc(l["lgabbr"])}</span>' if l['lgabbr'] else ''
         mid = []
         srcs = list(l['srcs'].items())
@@ -608,30 +604,17 @@ def group(grpid):
             mid.append('ISO ' + iso_link(l['silcode']))
         # same row primitive as the Reconstructions list below (and as language/reconstruction rows
         # on the search page), so the group page's two entity lists share one rhythm
-        return (f'<div class="ety-hit"><span class="rf"><a href="/language/{l["lgid"]}">{esc(l["language"])}</a>{ab}</span>'
-                f'<span class="gl2">{" · ".join(mid)}</span>'
-                f'<span class="tagn">{l["n"]:,} forms</span></div>')
-    langhtml = (f'<div class="ety-list grpsec"><h3>Languages<span class="cnt">{len(langs)}</span></h3>'
-                + ''.join(langrow(l) for l in langs) + '</div>') if langs else ''
+        return {"lgid": l['lgid'], "language": Markup(esc(l['language'])), "ab": Markup(ab),
+                "mid": Markup(' · '.join(mid)), "n_fmt": f"{l['n']:,}"}
+    langinfos = [langinfo(l) for l in langs]
 
-    reconhtml = ''
-    if recons:
-        items = ''.join(
-            f'<div class="ety-hit"><a href="/etymon/{r["tag"]}" class="pf2 lat">{esc(alt(r["protoform"]))}</a>'
-            f'<span class="pg2">{esc(r["protogloss"])}</span>'
-            f'<span class="tagn">{esc(plg)} #{r["tag"]}{rcount_txt(rcounts.get(r["tag"], 0))}</span></div>' for r in recons)
-        reconhtml = (f'<div class="ety-list grpsec"><h3>Reconstructions<span class="cnt">{len(recons)}</span>'
-                     f'</h3>{items}</div>')
+    def reconinfo(r):
+        return {"tag": r['tag'], "protoform": Markup(esc(alt(r['protoform']))),
+                "protogloss": Markup(esc(r['protogloss'])),
+                "tagn": Markup(f'{esc(plg)} #{r["tag"]}{rcount_txt(rcounts.get(r["tag"], 0))}')}
+    reconinfos = [reconinfo(r) for r in recons]
 
-    body = f"""
-    <div class="ety-head">
-      <div class="plg">Language group</div>
-      <div class="pagetitle">{head}{plg_html}</div>
-      <div class="crumbs">{' &nbsp;›&nbsp; '.join(crumb_links)}</div>
-      <div class="metabar">{''.join(meta)}</div>
-    </div>
-    {treehtml}
-    {subhtml}
-    {langhtml}
-    {reconhtml}"""
-    return page(g['grp'] or "Group", body, nav="languages")
+    return page(g['grp'] or "Group", _GROUP.render(
+        pagetitle=Markup(head + plg_html), crumbs=Markup(' &nbsp;›&nbsp; '.join(crumb_links)),
+        meta=meta, tree=tree, ntree=len(alltree), subs=subs,
+        langs=langinfos, nlangs=len(langs), recons=reconinfos, nrecons=len(recons)), nav="languages")
