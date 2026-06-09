@@ -29,17 +29,17 @@ def main():
 
     # Lean copies — only the columns the search queries read. Beyond the bare match columns we
     # carry what a result ROW shows: each reflex's source (per-lgid srcabbr + srcbib.citation — the
-    # WORK it's attested in), its subgroup (languagenames.grpid -> languagegroups.grpno/grp), its
-    # lexical note (lxnote, built below), and the per-syllable tag position (lx_et_hash.ind) so
-    # tagged syllables can link to their etymon. NB: we deliberately do NOT carry the per-reflex
-    # locus lexicon.srcid — it is per-reflex (540K rows, ~0.8 MB gz) and only refines the source;
-    # the page/entry number lives on the entry page each result links to. Keep the transfer lean.
+    # WORK it's attested in) and its locus within that work (lexicon.srcid, the page/entry, ~0.8 MB gz
+    # over 540K rows), its subgroup (languagenames.grpid -> languagegroups.grpno/grp), its lexical note
+    # (lxnote, built below), and the per-syllable tag position (lx_et_hash.ind) so tagged syllables can
+    # link to their etymon — so a search/thesaurus row reads "Citation: locus" exactly like the
+    # language and etymon pages, instead of dropping the locus only on these two client-rendered views.
     db.executescript("""
         -- key columns as INTEGER PRIMARY KEY (the rowid) so no separate index is needed
         CREATE TABLE etyma          (tag INTEGER PRIMARY KEY, protoform, protogloss, semkey, status, grpid, nreflex);
         CREATE TABLE languagegroups (grpid INTEGER PRIMARY KEY, plg, grpno, grp);
         CREATE TABLE languagenames  (lgid INTEGER PRIMARY KEY, language, srcabbr, grpid);
-        CREATE TABLE lexicon        (rn INTEGER PRIMARY KEY, reflex, gloss, gfn, lgid, semkey);
+        CREATE TABLE lexicon        (rn INTEGER PRIMARY KEY, reflex, gloss, gfn, lgid, semkey, srcid);
         CREATE TABLE lx_et_hash     (rn INTEGER, tag INTEGER, ind INTEGER);   -- ind = syllable position
         CREATE TABLE srcbib         (srcabbr TEXT PRIMARY KEY, citation);
         CREATE TABLE lxnote         (rn INTEGER PRIMARY KEY, note);
@@ -50,7 +50,7 @@ def main():
           FROM src.etyma e;
         INSERT INTO languagegroups SELECT grpid, plg, grpno, grp FROM src.languagegroups;
         INSERT INTO languagenames  SELECT lgid, language, srcabbr, grpid FROM src.languagenames;
-        INSERT INTO lexicon        SELECT rn, reflex, gloss, gfn, lgid, semkey FROM src.lexicon;
+        INSERT INTO lexicon        SELECT rn, reflex, gloss, gfn, lgid, semkey, srcid FROM src.lexicon;
         INSERT INTO lx_et_hash     SELECT rn, tag, ind FROM src.lx_et_hash WHERE tag > 0;
         INSERT INTO srcbib         SELECT srcabbr, citation FROM src.srcbib WHERE coalesce(srcabbr,'')!='';
         CREATE INDEX ix_hash_rn ON lx_et_hash(rn);   -- rn non-unique here (multi-tag reflexes)

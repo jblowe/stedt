@@ -65,7 +65,7 @@ function run(db, sql, params) {
 // Stammbaum subgroup (grpno + grp, for grouping), and its lexical note (lxnote) — same detail the
 // entry pages show. (Per-syllable tag positions live in lx_et_hash.ind for future syllable links.)
 const RFX_COLS = `ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.gfn AS gfn, l.rn AS rn, l.lgid AS lgid,
-         ln.srcabbr AS srcabbr, sb.citation AS citation, g.grpno AS grpno, g.grp AS subgroup, nt.note AS note,
+         ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, g.grpno AS grpno, g.grp AS subgroup, nt.note AS note,
          json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'pg', e.protogloss, 'ind', h.ind))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma`;
 const RFX_JOINS = `
@@ -101,7 +101,7 @@ const ETYMA_ALL_SQL = `
 // semantic node, lazily (on expand), reusing the already-loaded search DB.
 const FORMS_BY_CAT_SQL = (n) => `
   SELECT l.rn AS rn, l.reflex AS reflex, l.gloss AS gloss, l.gfn AS gfn, l.lgid AS lgid,
-         ln.language AS language, ln.srcabbr AS srcabbr, sb.citation AS citation, nt.note AS note,
+         ln.language AS language, ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, nt.note AS note,
          json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'pg', e.protogloss, 'ind', h.ind))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid

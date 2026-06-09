@@ -82,7 +82,8 @@ const sylLink = r => {                     // syllable-linked form HTML, or null
 // / via chips → their etyma, source → its page, and a noted gloss stays interactive (shows its note).
 // Accepts either `form` (search payload) or `reflex` (category payload) for the headword.
 export const reflexRow = r => {
-  const src = r.srcabbr ? `<a href="${sourceHref(r.srcabbr)}">${esc(r.citation || r.srcabbr)}</a>` : '';
+  const loc = r.srcid ? `: ${esc(r.srcid)}` : '';   // per-reflex locus (page/entry), like the entity pages
+  const src = r.srcabbr ? `<a href="${sourceHref(r.srcabbr)}">${esc(r.citation || r.srcabbr)}${loc}</a>` : '';
   const pos = r.gfn ? `<span class="pos">${esc(r.gfn)}</span>` : '';   // sits before the gloss (.pos has margin-right)
   const gl = r.note
     ? `<span class="g noted" tabindex="0">${esc(r.gloss)}<span class="notepop" role="note">${rebase(r.note)}</span></span>`
