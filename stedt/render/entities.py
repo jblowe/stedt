@@ -800,8 +800,10 @@ def group(grpid):
             mid.append(f"{len(srcs)} sources")
         if l["silcode"]:
             mid.append("ISO " + iso_link(l["silcode"]))
-        # same row primitive as the Reconstructions list below (and as language/reconstruction rows
-        # on the search page), so the group page's two entity lists share one rhythm
+        # shares the .ety-hit visual shell with the Reconstructions list below + the search rows, but
+        # populates the columns for THIS context: the member row carries subgroup/source/ISO in the
+        # middle and the reflex count on the right, where a search language suggestion puts the count
+        # in the middle and an entity-type label on the right.
         return {
             "lgid": l["lgid"],
             "language": Markup(esc(l["language"])),
