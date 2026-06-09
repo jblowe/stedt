@@ -73,11 +73,10 @@ var baseRef = '{BASE}/';
 var stedtuserprivs = 0;
 </script>
 <a href="https://stedt.berkeley.edu/documentation" target="_blank">help</a>
-&nbsp;&nbsp;<a href="{BASE}/../" title="Leave the legacy interface" style="color:#a33">current STEDT site &rarr;</a>
 <script src="{BASE}/js/stedtconfig.js"></script>
 </span>
 <a href="{BASE}/" title="Search Home"><img src="{BASE}/img/splashy32x32.gif" alt="STEDT Logo" width="32" height="32" class="left" border=0></a>
-<b>{esc(title)} <span style="font-weight:normal;color:#999;font-size:small">(legacy interface)</span></b>
+<b>{esc(title)}</b>
 <hr style="clear:both; margin-left:45px">
 </div>
 {body}
