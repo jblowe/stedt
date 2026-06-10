@@ -278,9 +278,12 @@ def etymon(tag):
                 if m["grpid"] is not None
                 else f'<span class="lang">{lab}</span>'
             )
+            # variant letters mark co-reconstructed alternants of one mesoroot: '(a) tsa EAT,
+            # (b) tsaat RICE' are a pair, not independent reconstructions (60 mesoroots)
+            var = f"({esc(m['variant'])}) " if m["variant"] else ""
             mr += (
                 f'<div class="rfx">{langcell}'
-                f'<span class="form"><span class="recon">{esc(alt(m["form"]))}</span> '
+                f'<span class="form">{var}<span class="recon">{esc(alt(m["form"]))}</span> '
                 f'<span class="g">{esc(m["gloss"])}</span></span>{sm}</div>'
             )
         mesohtml = f'<section class="meso"><h3>Intermediate reconstructions</h3>{mr}</section>'
