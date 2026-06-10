@@ -65,7 +65,7 @@ function syllabify(s) {
   if (!r.ok) { r = _syl1(s, _REPRE); if (!r.ok) r = _syl1(s, _REDEL); }
   return r;
 }
-// SYNC(syllable-links) ↔ stedt/render/entities.py syl_form() + syl_pop(): the syllable-linked form
+// SYNC(syllable-links) ↔ stedt/render/rows.py syl_form() + syl_pop(): the syllable-linked form
 // + its etymon-preview popover. Keep the markup (a.syl, .sylpop, *protoform 'gloss') identical.
 const sylLink = r => {                     // syllable-linked form HTML, or null to fall back
   if (!r.syn) return null;
@@ -93,8 +93,8 @@ const sylLink = r => {                     // syllable-linked form HTML, or null
 // --- entity rows ---
 
 // A reflex, shared by the search results and the thesaurus reflex list so they can't drift.
-// SYNC(reflex-row) ↔ the server-rendered reflex rows in stedt/render/entities.py — language()
-// seginfo + etymon() rfx builder. Keep the fields, order (POS before gloss), classes, and link
+// SYNC(reflex-row) ↔ the server-rendered reflex rows in stedt/render/language.py — language()
+// seginfo + stedt/render/etymon.py etymon() rfx builder. Keep the fields, order (POS before gloss), classes, and link
 // targets identical across both runtimes.
 // The whole row links to the form's attestation line (#rn) via a stretched overlay; the inner links
 // sit above it (see .rx-go in site.css): the language name → the TOP of its language page, syllables
@@ -122,7 +122,7 @@ export const reflexRow = r => {
 };
 
 // A reconstruction (etymon) result row.
-// SYNC(etymon-row) ↔ the server-rendered etymon lists: stedt/render/entities.py reconinfo() (group
+// SYNC(etymon-row) ↔ the server-rendered etymon lists: stedt/render/group.py reconinfo() (group
 // page) + stedt/render/indexes.py dinfo (thesaurus). Keep protoform / PLG / #tag / reflex-count /
 // exemplary-badge identical.
 export const etymonRow = e => `<a class="ety-hit" href="${etymonHref(e.tag)}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}${e.nreflex ? ` · ${fmt(e.nreflex)} reflex${e.nreflex == 1 ? '' : 'es'}` : ''}${e.exemplary ? ' · <span class="exm">exemplary</span>' : ''}${e.public === 0 || e.public === '0' || e.provisional ? ' · <span class="prov">provisional</span>' : ''}</span></a>`;
