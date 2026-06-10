@@ -119,7 +119,7 @@ def source(srcabbr):
     apparatus = Markup(f"""
     <section class="apparatus"><h3>Cite this source</h3>
       <div class="citebox">
-        <div><code>{esc(cite_full)} — via STEDT, {esc(src_url)} (accessed <span class="adate"></span>).</code></div>
+        <div><code>{esc(cite_full)} — via STEDT, {esc(src_url)} (accessed <span class="adate">[date]</span>).</code></div>
         <div>Stable link: <code>{esc(src_url)}</code></div>
         <div class="cite-actions">
           <button class="copybtn" data-cite="{esc(cite_as)}">Copy citation</button>

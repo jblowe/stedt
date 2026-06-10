@@ -34,7 +34,7 @@
 <div class="ety-list"><h3>Reconstructions <span class="ct">{{ ndirect }}</span></h3>{% for e in direct %}<div class="ety-hit"><a href="{{ e.href }}" class="pf2 lat">{{ e.pf }}</a><span class="pg2">{{ e.pg }}</span><span class="tagn">{{ e.tagn }}</span></div>{% endfor %}</div>
 {%- endif -%}
 {%- if attest -%}
-<div class="ety-list catwrap" data-semkeys="{{ attest.keys_json }}"><h3>Reflexes <span class="ct">{{ attest.nforms }}</span></h3><div class="rbar"><input class="catfilter" type="search" placeholder="Filter by form, gloss, or language…" autocomplete="off"><span class="rcount catcount"></span></div><div class="catlist"></div></div><script type="module" src="/assets/catforms.js"></script>
+<div class="ety-list catwrap" data-semkeys="{{ attest.keys_json }}"><h3>Reflexes <span class="ct">{{ attest.nforms }}</span></h3><div class="rbar"><input class="catfilter" type="search" aria-label="Filter reflexes" placeholder="Filter by form, gloss, or language…" autocomplete="off"><span class="rcount catcount" role="status"></span></div><div class="catlist"></div></div><script type="module" src="/assets/catforms.js"></script>
 {%- endif -%}
 {%- endif -%}
 </div>

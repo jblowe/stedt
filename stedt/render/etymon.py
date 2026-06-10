@@ -335,6 +335,9 @@ def etymon(tag):
     reconhtml = ""
     if recon_rows:
         rr = ""
+        # Stammbaum order (then form), like the original's ORDER BY grp0..grp4 — not DB order,
+        # which scattered one scholar's PTB attributions across the list
+        recon_rows = sorted(recon_rows, key=lambda r: (natkey(r["groupnode"] or ""), sortkey(r["form"] or "")))
         for r in recon_rows:
             if _is_own_proto(r["language"], r["subgroup"]) and r["grpplg"]:
                 lab = r["grpplg"]
@@ -436,6 +439,11 @@ def etymon(tag):
         )
     for label, fld in (("Allofam", e["allofams"]), ("See also", e["xrefs"]), ("Poss. allofam", e["possallo"])):
         if fld:
+            # pluralize the curated label by how many refs it actually carries — an 'Allofam' row
+            # listing two targets read as a typo next to the computed 'Allofams' family above
+            n_refs = len(re.findall(r"(?<![\w.])\d+(?![\w.])", fld))
+            if n_refs > 1 and not label.endswith("s"):
+                label += "s"
             rels.append(
                 f'<div class="conn-row"><span class="rl">{label}</span>'
                 f'<span class="reltgt">{rel_render(fld)}</span></div>'
@@ -501,7 +509,7 @@ def etymon(tag):
       <div class="citebox">
         <div>STEDT etymon #{e['tag']}, <code>*{pf} ‘{esc(e['protogloss'])}’</code>.</div>
         <div>Stable link: <code>{esc(CITE_BASE)}/etymon/{e['tag']}</code></div>
-        <div>Data: STEDT v1.0 (2017). Accessed: <span class="adate"></span>.</div>
+        <div>Data: STEDT v1.0 (2017). Accessed: <span class="adate">[date]</span>.</div>
         {refs_line}
         <div class="cite-actions">
           <button class="copybtn" data-cite="{esc(cite_text)}">Copy citation</button>
@@ -512,7 +520,9 @@ def etymon(tag):
     </section><script type="module" src="/assets/cite.js"></script>"""
 
     return page(
-        f"*{alt(e['protoform'])} ‘{e['protogloss']}’",
+        # the #tag is the citable identity (About says so) — without it, homophonous etyma
+        # (#2621/#5521 *d-k-ruk 'SIX') share an identical <title>
+        f"*{alt(e['protoform'])} ‘{e['protogloss']}’ #{e['tag']}",
         _ETYMON.render(
             tag=e["tag"],
             pf=Markup(pf),
@@ -530,4 +540,6 @@ def etymon(tag):
             apparatus=Markup(apparatus),
         ),
         nav="reconstructions",
+        desc=f"Sino-Tibetan etymon #{e['tag']}, *{alt(e['protoform'])} ‘{e['protogloss']}’: "
+        "reflexes, reconstructions, and sources.",
     )

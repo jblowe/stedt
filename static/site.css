@@ -14,6 +14,11 @@
   --accent2:#3a5a6b; --gold:#b08a3c;
 }
 *{box-sizing:border-box}
+/* one shared, clearly visible keyboard-focus ring (replaces five per-control suppressions) */
+:is(input,select,a,button,[tabindex]):focus-visible{outline:2px solid var(--accent);outline-offset:1px;}
+/* skip link: first tab stop, visible only when focused */
+.skip{position:absolute;left:-9999px;top:0;z-index:50;background:var(--paper);color:var(--accent-d);padding:8px 14px;border:1px solid var(--rule);}
+.skip:focus{left:8px;}
 body{
   margin:0; background:var(--paper); color:var(--ink);
   font-family:"Charis SIL","Gentium Plus",Georgia,serif; font-size:18px; line-height:1.55;
@@ -44,7 +49,7 @@ nav.main a{color:var(--soft);} nav.main a:hover{color:var(--accent);}
 nav.main a.active{color:var(--ink);border-bottom:2px solid var(--accent);padding-bottom:2px;}
 .hsearch input{font-family:inherit;font-size:15px;padding:7px 11px;width:200px;border:1px solid var(--rule);
   background:var(--paper2);color:var(--ink);border-radius:2px;}
-.hsearch input:focus{outline:none;border-color:var(--accent);}
+.hsearch input:focus{border-color:var(--accent);}
 
 main{max-width:1080px;margin:0 auto;padding:34px 28px 90px;}
 .prose{max-width:38em;}
@@ -57,7 +62,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .bigsearch{position:relative;text-align:left;}
 .bigsearch input{width:100%;font-family:inherit;font-size:21px;padding:14px 18px;border:1.5px solid var(--ink);
   background:var(--paper2);border-radius:3px;}
-.bigsearch input:focus{outline:none;border-color:var(--accent);}
+.bigsearch input:focus{border-color:var(--accent);}
 .drop{position:absolute;left:0;right:0;top:104%;background:var(--paper);border:1px solid var(--rule);
   border-radius:3px;box-shadow:0 10px 30px rgba(33,28,21,.10);z-index:9;overflow:hidden;display:none;}
 .drop a{display:flex;gap:10px;align-items:baseline;padding:9px 15px;border-bottom:1px solid var(--rule);}
@@ -270,7 +275,7 @@ a.syl:hover,a.syl:focus{z-index:5;}
 .rbar{display:flex;gap:14px;align-items:baseline;flex-wrap:wrap;margin:0 0 14px;}
 .rbar input{flex:1;min-width:240px;font-family:inherit;font-size:16px;padding:9px 13px;
   border:1px solid var(--rule);background:var(--paper2);color:var(--ink);border-radius:2px;}
-.rbar input:focus{outline:none;border-color:var(--accent);}
+.rbar input:focus{border-color:var(--accent);}
 .rcount{font-size:13px;color:var(--mut);white-space:nowrap;font-variant-numeric:tabular-nums;}
 .rnone{display:none;color:var(--mut);font-size:15px;padding:24px 0;}
 .wl-spacer{pointer-events:none;}   /* reserves the unrendered tail's height (see _WINDOWED_JS) */
@@ -310,7 +315,7 @@ a.syl:hover,a.syl:focus{z-index:5;}
 .sec-label .rxsort{margin-left:14px;font-variant:normal;letter-spacing:0;font-size:12.5px;color:var(--mut);white-space:nowrap;}
 .sec-label .rxsort select{font-family:inherit;font-size:12.5px;color:var(--ink);background:var(--paper2);
   border:1px solid var(--rule);border-radius:3px;padding:1px 4px;}
-.sec-label .rxsort select:focus{outline:none;border-color:var(--accent);}
+.sec-label .rxsort select:focus{border-color:var(--accent);}
 .sr .bigsearch{margin:0 0 8px;}
 /* the search-syntax hint under the box: one runnable example + an expandable reference */
 .qhint{margin:0 0 22px;line-height:1.9;display:flex;gap:24px;align-items:baseline;flex-wrap:wrap;}
@@ -361,7 +366,7 @@ a.syl:hover,a.syl:focus{z-index:5;}
 .refonly{margin-top:24px;}
 .srcsort select{font-family:inherit;font-size:13px;color:var(--ink);background:var(--paper2);
   border:1px solid var(--rule);border-radius:2px;padding:3px 7px;}
-.srcsort select:focus{outline:none;border-color:var(--accent);}
+.srcsort select:focus{border-color:var(--accent);}
 .subg{color:var(--soft);font-size:14px;}
 details.seg{border-bottom:1px solid var(--rule);}
 details.seg:last-of-type{border-bottom:none;}
@@ -431,3 +436,9 @@ pre.diff{background:#faf7ef;border:1px solid var(--rule);border-radius:3px;paddi
   margin:0 0 22px;font-size:15px;line-height:1.55;}
 /* source page: the full-reference line under the title (resets .pg's small-caps look) */
 .pg.citeline{font-variant:normal;font-size:16px;color:var(--soft);letter-spacing:0;}
+
+/* print: drop the interactive chrome; the scholarship is the page */
+@media print{
+  .hsearch,.skip,nav.main,.jump,.rbar,.srcsort,.rxsort,.cite-actions,.preview-banner,footer{display:none !important;}
+  body{background:none;}
+}

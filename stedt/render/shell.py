@@ -18,7 +18,13 @@ _NAV = [
 _BASE = env.get_template("base.html")
 
 
-def page(title, body, q="", nav=""):
+_DESC = (
+    "The Sino-Tibetan Etymological Dictionary and Thesaurus: reconstructions, reflexes, "
+    "languages and sources for the comparative study of Sino-Tibetan."
+)
+
+
+def page(title, body, q="", nav="", desc=""):
     # title/q are pre-escaped with esc() (html.escape's entity choices, e.g. &#x27;/&quot;) and
     # body is already-rendered HTML, so all three pass as Markup — emitted verbatim, not re-escaped.
     return _BASE.render(
@@ -29,6 +35,7 @@ def page(title, body, q="", nav=""):
         nav_items=_NAV,
         css_ver=_CSS_VER,
         js_ver=_JS_VER,
+        desc=Markup(esc(desc or _DESC)),
     )
 
 

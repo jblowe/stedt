@@ -7,7 +7,7 @@ from markupsafe import Markup
 
 from .config import CITE_BASE, PREVIEW, TREE_INDENT_PX
 from .db import ECAT, ETY_LIVE, LEX_VISIBLE, con, reflex_semkey_counts
-from .text import esc, alt, natkey, rcount_txt, rfx_noun, sortkey
+from .text import esc, alt, natkey, plural, rcount_txt, rfx_noun, sortkey
 from .notes import render_note
 from .shell import page, breadcrumb, reflex_counts, canon_lgid, etymon_href, source_reference
 from .templating import env
@@ -160,13 +160,14 @@ def sources_index():
     def item(s):
         cit = Markup(esc(s["citation"] or s["srcabbr"]))
         ref = Markup(esc(source_reference(s)))
+        # languages first, then reflexes — the canonical order the source and group pages use
         parts = []
+        if s["nlang"]:
+            parts.append(f"{s['nlang']} {plural(s['nlang'], 'language')}")
         if s["nforms"]:
             parts.append(f"{s['nforms']:,} {rfx_noun(s['nforms'])}")
         if s["nproto"]:  # previously published reconstruction records ('*…' lects)
-            parts.append(f"{s['nproto']:,} reconstruction record" + ("" if s["nproto"] == 1 else "s"))
-        if s["nlang"]:
-            parts.append(f"{s['nlang']} language" + ("" if s["nlang"] == 1 else "s"))
+            parts.append(f"{s['nproto']:,} {plural(s['nproto'], 'reconstruction record')}")
         return {
             "srcabbr": Markup(esc(s["srcabbr"])),
             "cit": cit,
@@ -235,14 +236,15 @@ def thesaurus(semkey=None):
         nodes = conn.execute("SELECT semkey, chaptertitle FROM chapters WHERE coalesce(semkey,'')!=''").fetchall()
         SPECIAL = {"999", "950.1", "x.x"}
         scounts = reflex_semkey_counts()  # exact per-semkey reflex counts (proto-excluded)
-        # chapters carrying prose notes get a marker (the original's browser has a notes column)
-        nnotes = {
-            r[0]: r[1]
-            for r in conn.execute(
-                "SELECT id, count(*) FROM notes WHERE spec='C' AND notetype!='I' "
-                "AND xmlnote IS NOT NULL GROUP BY id"
-            )
-        }
+        # chapters carrying prose notes get a marker (the original's browser has a notes column).
+        # Count only notes that RENDER to text — the chapter page drops empty '<par></par>'
+        # graphical notes, and the index promising '1 note' above an empty page reads as broken.
+        nnotes = {}
+        for cid, xml in conn.execute(
+            "SELECT id, xmlnote FROM notes WHERE spec='C' AND notetype!='I' AND xmlnote IS NOT NULL"
+        ):
+            if re.sub(r"<[^>]+>", "", render_note(xml)).strip():
+                nnotes[cid] = nnotes.get(cid, 0) + 1
         tree = []
         for n in nodes:
             sk = n["semkey"]

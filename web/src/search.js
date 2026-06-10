@@ -217,7 +217,7 @@ const ETYMA_COUNT_ALL_SQL = `SELECT count(*) AS n FROM etyma WHERE coalesce(uppe
 // Language-name matches are their own result type: a query that names a language should offer a
 // direct jump to that language's page, not just bury it in the reflex list.
 const LANG_SQL = `
-  SELECT ln.language AS language, ln.lgid AS lgid, count(l.rn) AS n
+  SELECT ln.language AS language, ln.lgid AS lgid, ln.grpid AS grpid, count(l.rn) AS n
   FROM languagenames ln JOIN lexicon l ON l.lgid = ln.lgid
   WHERE ln.language LIKE ? AND ln.language NOT LIKE '*%'
   GROUP BY ln.lgid`;
@@ -478,12 +478,13 @@ export async function stedtSearch(query, limit = 40) {
     // A canonical language page aggregates every source-variant lgid of a (name, subgroup), so its
     // form count is the SUM across variants — match that (was: the single largest variant's count,
     // which underreported multi-source lects ~2-4x). Link to the best-attested lgid = that lect's
-    // canonical page. (Same-name lects in different subgroups, e.g. Lahu (Red), merge into one row —
-    // a rare imprecision, as the search DB carries no subgroup id.)
+    // canonical page. Keyed by (name, subgroup): same-name lects in different subgroups — Lahu (Red)
+    // exists in two — are distinct lects with distinct pages, so they must not merge.
     const byName = new Map();
     for (const r of rows) {
-      const cur = byName.get(r.language);
-      if (!cur) byName.set(r.language, { language: r.language, lgid: r.lgid, n: r.n, _max: r.n });
+      const key = r.language + ' ' + (r.grpid == null ? '' : r.grpid);
+      const cur = byName.get(key);
+      if (!cur) byName.set(key, { language: r.language, lgid: r.lgid, n: r.n, _max: r.n });
       else { cur.n += r.n; if (r.n > cur._max) { cur._max = r.n; cur.lgid = r.lgid; } }
     }
     const ql = qe.toLowerCase();
