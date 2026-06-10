@@ -8,7 +8,7 @@ from markupsafe import Markup
 from .config import CITE_BASE, PLG_FULL, TREE_INDENT_PX
 from .db import LEX_VISIBLE, con
 from .text import esc, alt, natkey, iso_link, rcount_txt
-from .notes import render_note
+from .notes import note_label, render_note
 from .syllabify import syllabify
 from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels, canonical_languages, canon_lgid
 from .shell import etymon_href, source_href, language_href, reflex_href, source_reference
@@ -153,11 +153,11 @@ def etymon(tag):
         chunk = rns[i : i + 900]
         qm = ",".join("?" * len(chunk))
         for r in conn.execute(
-            f"SELECT rn, xmlnote FROM notes WHERE spec='L' AND notetype!='I' "
+            f"SELECT rn, xmlnote, notetype FROM notes WHERE spec='L' AND notetype!='I' "
             f"AND xmlnote IS NOT NULL AND rn IN ({qm}) ORDER BY ord, noteid",
             chunk,
         ):
-            lnotes.setdefault(r["rn"], []).append(r["xmlnote"])
+            lnotes.setdefault(r["rn"], []).append((r["notetype"], r["xmlnote"]))
     ecat = e["chapter"] or e["semkey"]  # legacy files an etymon by its (more specific) chapter, not semkey
     crumb = breadcrumb(conn, ecat)
     conn.close()
@@ -192,8 +192,9 @@ def etymon(tag):
             if lnotes.get(r["rn"]):
                 # a lexical note rides on the gloss behind a circled-i (like the language/search/thesaurus
                 # views); show the gloss even when it matches the protogloss so the icon has its anchor
-                pop = "".join('<span class="np">' + render_note(x).replace('<p class="np">', "").replace("</p>", "")
-                              + "</span>" for x in lnotes[r["rn"]])
+                pop = "".join('<span class="np">' + note_label(nt)
+                              + render_note(x).replace('<p class="np">', "").replace("</p>", "")
+                              + "</span>" for nt, x in lnotes[r["rn"]])
                 g = (f'<span class="g noted" tabindex="0">{esc(r["gloss"] or e["protogloss"])}'
                      f'<span class="notepop" role="note">{pop}</span></span>')
             elif r["gloss"] and r["gloss"] != e["protogloss"]:
@@ -536,11 +537,11 @@ def language(lgid):
         chunk = rns[i : i + 900]
         qmk = ",".join("?" * len(chunk))
         for nr in conn.execute(
-            f"SELECT rn, xmlnote FROM notes WHERE spec='L' AND notetype!='I' "
+            f"SELECT rn, xmlnote, notetype FROM notes WHERE spec='L' AND notetype!='I' "
             f"AND xmlnote IS NOT NULL AND rn IN ({qmk}) ORDER BY ord, noteid",
             chunk,
         ):
-            lnotes.setdefault(nr["rn"], []).append(nr["xmlnote"])
+            lnotes.setdefault(nr["rn"], []).append((nr["notetype"], nr["xmlnote"]))
     # a lect's ISO / short-name may live on a source-variant sibling, not the canonical lgid;
     # back-fill from any sibling so the lect's own page shows them (group() back-fills the same way)
     sil, lgab = ln["silcode"] or "", ln["lgabbr"] or ""
@@ -611,8 +612,9 @@ def language(lgid):
                 # the popover lives inside the inline gloss <span>, so render each note as an inline
                 # <span class="np"> (not render_note's block <p>) — valid markup + cleanly separable
                 pop = "".join(
-                    '<span class="np">' + render_note(x).replace('<p class="np">', "").replace("</p>", "") + "</span>"
-                    for x in lnotes[r["rn"]]
+                    '<span class="np">' + note_label(nt)
+                    + render_note(x).replace('<p class="np">', "").replace("</p>", "") + "</span>"
+                    for nt, x in lnotes[r["rn"]]
                 )
                 gl = (
                     f'<span class="g noted" tabindex="0">{esc(r["gloss"])}'

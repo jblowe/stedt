@@ -95,9 +95,11 @@ def main():
     from stedt import render
 
     notes_by_rn = {}
-    for rn, xml in db.execute("""SELECT rn, xmlnote FROM src.notes
+    for rn, xml, nt in db.execute("""SELECT rn, xmlnote, notetype FROM src.notes
             WHERE rn IS NOT NULL AND notetype!='I' AND xmlnote IS NOT NULL ORDER BY rn, ord, noteid"""):
-        notes_by_rn.setdefault(rn, []).append(render.render_note(xml))
+        h = render.render_note(xml)
+        lab = render.note_label(nt)  # '[Source note]' on source-quoted notes, like the original
+        notes_by_rn.setdefault(rn, []).append(h.replace('<p class="np">', f'<p class="np">{lab}', 1) if lab else h)
     db.execute("CREATE TABLE lexnotes (rn INTEGER PRIMARY KEY, html)")
     db.executemany("INSERT INTO lexnotes(rn, html) VALUES(?,?)", [(rn, "<p>".join(v)) for rn, v in notes_by_rn.items()])
 

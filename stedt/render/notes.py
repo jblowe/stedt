@@ -24,6 +24,14 @@ _PAIR = {
 }
 
 
+def note_label(notetype):
+    """Provenance prefix for a reflex-level note: notetype 'O' notes are quoted from the cited
+    source, not STEDT commentary — the original labels them '[Source note]' so readers can tell
+    the dictionary's own annotation from an editor's (rootcanal Notes.pm does the same; 'I'
+    internal notes are excluded upstream, and no other public type carries a label)."""
+    return "[Source note] " if (notetype or "").upper() == "O" else ""
+
+
 def _smart_quotes(s):
     """Turn the &quot;/&apos; entities found in note *text* (tag attributes use literal
     quotes, so they stay untouched) into directional quotation marks, by context."""

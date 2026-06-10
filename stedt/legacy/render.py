@@ -24,10 +24,13 @@ def esc(s):
     return _html.escape("" if s is None else str(s))
 
 
-def _lnote(xml):
+def _lnote(xml, notetype=None):
     """The renderer's note XML→HTML, with etymon xref links rebased into the legacy subtree
-    (render_note emits root-absolute /etymon/N, which would 404 under /_legacy/)."""
-    return render.render_note(xml).replace('href="/etymon/', f'href="{BASE}/etymon/')
+    (render_note emits root-absolute /etymon/N, which would 404 under /_legacy/). Source-quoted
+    notes (notetype 'O') get the original's '[Source note]' prefix inside the first paragraph."""
+    h = render.render_note(xml).replace('href="/etymon/', f'href="{BASE}/etymon/')
+    lab = render.note_label(notetype)
+    return h.replace('<p class="np">', f'<p class="np">{lab}', 1) if lab else h
 
 
 # ---------------------------------------------------------------------------------- shared chrome
@@ -378,19 +381,19 @@ def legacy_etymon(tag):
     lex_notes = {}
     if rns:
         qm = ",".join("?" * len(rns))
-        for rn, xml in c.execute(
-            f"SELECT rn, xmlnote FROM notes WHERE rn IN ({qm}) AND spec='L' "
+        for rn, xml, nt in c.execute(
+            f"SELECT rn, xmlnote, notetype FROM notes WHERE rn IN ({qm}) AND spec='L' "
             f"AND notetype!='I' AND xmlnote IS NOT NULL ORDER BY rn, ord, noteid",
             rns,
         ):
-            lex_notes.setdefault(rn, []).append(xml)
+            lex_notes.setdefault(rn, []).append((nt, xml))
 
     footnotes = []  # (num, html)
     rows_html = ""
     for r in recs:
         nums = []
-        for xml in lex_notes.get(r["rn"], []):
-            footnotes.append((len(footnotes) + 1, _lnote(xml)))
+        for nt, xml in lex_notes.get(r["rn"], []):
+            footnotes.append((len(footnotes) + 1, _lnote(xml, nt)))
             nums.append(footnotes[-1][0])
         notes_col = " ".join(str(x) for x in nums) if nums else "0"
         vals = [
