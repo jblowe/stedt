@@ -112,8 +112,16 @@ def main():
     # STEDT_DB_VERSION pins the cache-bust hash (used by the snapshot harness so renaming a build
     # file doesn't churn every page's <head>); unset in real builds, where it's a content hash.
     DB_VERSION = os.environ.get("STEDT_DB_VERSION") or data_version()
+    # Clear only what THIS step owns: other steps' outputs survive a render re-run, so the local
+    # iterate loop is render-only (previously rmtree(site/) silently 404'd the JS bundles and
+    # deleted the whole /_legacy subtree until `stedt build bundle`/`legacy` were re-run).
+    KEEP = {"assets", "_legacy"}
     if os.path.isdir(OUT):
-        shutil.rmtree(OUT)
+        for name in os.listdir(OUT):
+            if name in KEEP:
+                continue
+            p = os.path.join(OUT, name)
+            shutil.rmtree(p) if os.path.isdir(p) else os.remove(p)
     os.makedirs(OUT, exist_ok=True)
 
     c = render.con()
