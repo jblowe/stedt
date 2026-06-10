@@ -54,7 +54,7 @@ def reconstructions():
     # gloss-ordered full set stays a single, filterable, statically-hosted page.
     conn = con()
     OK = "coalesce(upper(e.status),'')!='DELETE'"
-    rows = conn.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg, e.exemplary
+    rows = conn.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg, e.exemplary, e.public
         FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
         WHERE {OK} ORDER BY e.protogloss, e.tag""").fetchall()
     counts = reflex_counts(conn)
@@ -62,9 +62,10 @@ def reconstructions():
     total = len(rows)
     data = [
         # ship the RAW protoform; the client's etymonRow applies altstar() (same as search), so the
-        # reconstructions index and search render an etymon identically. Last field: exemplary flag.
+        # reconstructions index and search render an etymon identically. Trailing fields:
+        # exemplary flag, provisional flag (public=0).
         [r["tag"], r["protoform"] or "", r["protogloss"] or "", r["plg"] or "", counts.get(r["tag"], 0),
-         1 if (r["exemplary"] or "") == "x" else 0]
+         1 if (r["exemplary"] or "") == "x" else 0, 0 if r["public"] else 1]
         for r in rows
     ]
     # < keeps the payload from breaking out of the <script> tag and stays valid JSON.
@@ -315,7 +316,7 @@ def thesaurus(semkey=None):
         )
     own_e = _with_orphans(conn, semkey, own)  # etyma filing keys: this node + orphan keys aliased here
     direct = conn.execute(
-        f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg, e.exemplary
+        f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg, e.exemplary, e.public
         FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
         WHERE {ECAT} IN ({",".join("?" * len(own_e))})
           AND coalesce(upper(e.status),'')!='DELETE'
@@ -335,6 +336,7 @@ def thesaurus(semkey=None):
                 "tagn": Markup(
                     f'{esc(e["plg"])} #{e["tag"]}{rcount_txt(dcounts.get(e["tag"], 0))}'
                     + (' · <span class="exm">exemplary</span>' if (e["exemplary"] or "") == "x" else "")
+                    + ("" if e["public"] else ' · <span class="prov">provisional</span>')
                 ),
             }
             for e in direct

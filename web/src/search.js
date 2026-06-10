@@ -84,7 +84,7 @@ const REFLEX_SQL = `
   GROUP BY l.rn LIMIT ?`;
 
 const ETYMA_SQL = `
-  SELECT e.tag AS tag, g.plg AS plg, e.protoform AS protoform, e.protogloss AS protogloss, e.semkey AS semkey, e.nreflex AS nreflex, e.exemplary AS exemplary
+  SELECT e.tag AS tag, g.plg AS plg, e.protoform AS protoform, e.protogloss AS protogloss, e.semkey AS semkey, e.nreflex AS nreflex, e.exemplary AS exemplary, e.public AS public
   FROM etyma e LEFT JOIN languagegroups g ON g.grpid = e.grpid
   WHERE coalesce(upper(e.status), '') != 'DELETE'
     AND (e.protogloss LIKE ? OR e.protoform LIKE ?
@@ -93,7 +93,7 @@ const ETYMA_SQL = `
   LIMIT ?`;
 
 const ETYMA_ALL_SQL = `
-  SELECT e.tag AS tag, g.plg AS plg, e.protoform AS protoform, e.protogloss AS protogloss, e.semkey AS semkey, e.nreflex AS nreflex, e.exemplary AS exemplary
+  SELECT e.tag AS tag, g.plg AS plg, e.protoform AS protoform, e.protogloss AS protogloss, e.semkey AS semkey, e.nreflex AS nreflex, e.exemplary AS exemplary, e.public AS public
   FROM etyma e LEFT JOIN languagegroups g ON g.grpid = e.grpid
   WHERE coalesce(upper(e.status), '') != 'DELETE' ORDER BY e.tag LIMIT ?`;
 

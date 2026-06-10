@@ -455,6 +455,11 @@ def etymon(tag):
         plg_html = ""
     badges = '<span class="badge del">deleted</span>' if (e["status"] or "").upper() == "DELETE" else ""
     exm = ' · <span class="exm">exemplary</span>' if (e["exemplary"] or "") == "x" else ""
+    if not e["public"]:  # original marks these '(provisional)' in red on the heading
+        exm += (
+            ' · <span class="prov" title="This etymon is provisional and should not be considered'
+            ' an official STEDT reconstruction.">provisional</span>'
+        )
 
     cite_text = f"STEDT etymon #{e['tag']}, *{alt(e['protoform'])} ‘{e['protogloss']}’. {CITE_BASE}/etymon/{e['tag']} (accessed [ACCESSED])"
     bib = (
@@ -915,7 +920,8 @@ def group(grpid):
     langs = collapse(langrows)
     protos = collapse(protorows)
     recons = conn.execute(
-        """SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss, e.exemplary AS exemplary
+        """SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss, e.exemplary AS exemplary,
+            e.public AS public
         FROM etyma e WHERE e.grpid=? AND coalesce(upper(e.status),'')!='DELETE'
         ORDER BY e.sequence, e.protogloss""",
         (grpid,),
@@ -1001,6 +1007,7 @@ def group(grpid):
             "tagn": Markup(
                 f'{esc(plg)} #{r["tag"]}{rcount_txt(rcounts.get(r["tag"], 0))}'
                 + (' · <span class="exm">exemplary</span>' if (r["exemplary"] or "") == "x" else "")
+                + ("" if r["public"] else ' · <span class="prov">provisional</span>')
             ),
         }
 

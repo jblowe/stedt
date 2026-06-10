@@ -50,6 +50,7 @@ TABLES = [
         ("grpid",      "",                    "e.grpid"),     # join -> languagegroups (plg)
         ("nreflex",    "",                    _NREFLEX),      # etymonRow "· N reflexes"
         ("exemplary",  "",                    "e.exemplary"), # etymonRow .exm badge
+        ("public",     "",                    "e.public"),    # etymonRow .prov marker (public=0)
     ]},
     {"name": "languagegroups", "src": "src.languagegroups", "cols": [
         ("grpid", "INTEGER PRIMARY KEY", "grpid"),
