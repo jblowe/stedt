@@ -546,11 +546,15 @@ def language(lgid):
         ):
             lnotes.setdefault(nr["rn"], []).append((nr["notetype"], nr["xmlnote"]))
     # a lect's ISO / short-name / Namkung page may live on a source-variant sibling, not the
-    # canonical lgid; back-fill from any sibling so the lect's own page shows them (group() too)
-    sil, lgab, pi_page = ln["silcode"] or "", ln["lgabbr"] or "", ln["pi_page"] or ""
-    if (not sil or not lgab or not pi_page) and len(sibs) > 1:
+    # canonical lgid; back-fill from any sibling so the lect's own page shows them (group() too).
+    # ISO keeps EVERY distinct sibling code (6 lects' sources disagree, e.g. Tujia tji/tjs) —
+    # asserting only the canonical variant's code would misdescribe the other variants' records.
+    lgab, pi_page = ln["lgabbr"] or "", ln["pi_page"] or ""
+    sils = [ln["silcode"]] if ln["silcode"] else []
+    if len(sibs) > 1:
         for sr in conn.execute(f"SELECT silcode, lgabbr, pi_page FROM languagenames WHERE lgid IN ({qm})", sibs):
-            sil = sil or (sr["silcode"] or "")
+            if sr["silcode"] and sr["silcode"] not in sils:
+                sils.append(sr["silcode"])
             lgab = lgab or (sr["lgabbr"] or "")
             pi_page = pi_page or (sr["pi_page"] or "")
     conn.close()
@@ -563,8 +567,8 @@ def language(lgid):
     meta = []
     if lgab:
         meta.append(Markup(f"<span><b>abbr</b> {esc(lgab)}</span>"))
-    if sil:
-        meta.append(Markup(f"<span><b>ISO 639-3</b> {iso_link(sil)}</span>"))
+    if sils:
+        meta.append(Markup(f"<span><b>ISO 639-3</b> {' / '.join(iso_link(s) for s in sils)}</span>"))
     if nsrc > 1:
         meta.append(Markup(f"<span><b>{nsrc}</b> sources</span>"))
     if pi_page:
