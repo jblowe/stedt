@@ -42,10 +42,26 @@ async function loadDb() {
 async function fetchDbBytes(url) {
   // Never cache a non-OK body: a transient 404/500 stored under the versioned URL would brick
   // search until the next data version, because cache hits are never revalidated.
+  // Streams the body so the page can show progress on the first-visit download
+  // (a stedt-db-progress event per chunk; search-page.js renders it in the status line).
   const get = async () => {
     const res = await fetch(url);
     if (!res.ok) throw new Error('search DB fetch failed: HTTP ' + res.status);
-    return res.arrayBuffer();
+    const total = +res.headers.get('Content-Length') || 0;
+    if (!res.body || !total) return res.arrayBuffer();
+    const reader = res.body.getReader(), parts = [];
+    let loaded = 0;
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      parts.push(value);
+      loaded += value.length;
+      try { dispatchEvent(new CustomEvent('stedt-db-progress', { detail: { loaded, total } })); } catch (e) { /* non-window context */ }
+    }
+    const buf = new Uint8Array(loaded);
+    let o = 0;
+    for (const p of parts) { buf.set(p, o); o += p.length; }
+    return buf.buffer;
   };
   try {
     const cache = await caches.open('stedt-search-db');

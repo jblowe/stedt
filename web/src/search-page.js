@@ -79,7 +79,15 @@ async function run() {
   if (!window.stedtSearch) return;
   // #srsub is a role=status live region: transient state lands there so SRs announce it,
   // and the result totals below replace it when they arrive.
-  if (!window.stedtDbLoaded) sub.textContent = 'Loading search…';
+  if (!window.stedtDbLoaded) {
+    sub.textContent = 'Loading search…';
+    // first visit downloads the search index; show how far along it is
+    addEventListener('stedt-db-progress', (e) => {
+      if (window.stedtDbLoaded) return;
+      const mb = (n) => (n / 1048576).toFixed(n < 10485760 ? 1 : 0);
+      sub.textContent = 'Loading search index… ' + mb(e.detail.loaded) + ' / ' + mb(e.detail.total) + ' MB';
+    });
+  }
   let r;
   try { r = await window.stedtSearch(q, null); }
   catch (err) { sub.textContent = 'Search is unavailable.'; res.innerHTML = ''; return; }
