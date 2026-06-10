@@ -61,6 +61,7 @@ TABLES = [
     {"name": "languagenames", "src": "src.languagenames", "cols": [
         ("lgid",     "INTEGER PRIMARY KEY", "lgid"),
         ("language", "",                    "language"),  # reflexRow language name + FTS column
+        ("lgsort",   "",                    "lgsort"),    # curated collation key: listings order by it, not the display name
         ("srcabbr",  "",                    "srcabbr"),   # reflexRow source -> srcbib.citation
         ("grpid",    "",                    "grpid"),     # join -> languagegroups
     ]},

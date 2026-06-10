@@ -88,7 +88,7 @@ function run(db, sql, params) {
 // Each result row carries its source (the WORK it's attested in: srcabbr + srcbib.citation), its
 // Stammbaum subgroup (grpno + grp, for grouping), and its lexical note (lxnote) — same detail the
 // entry pages show. (Per-syllable tag positions live in lx_et_hash.ind for future syllable links.)
-const RFX_COLS = `ln.language AS language, l.reflex AS form, l.gloss AS gloss, l.gfn AS gfn, l.rn AS rn, l.lgid AS lgid,
+const RFX_COLS = `ln.language AS language, ln.lgsort AS lgsort, l.reflex AS form, l.gloss AS gloss, l.gfn AS gfn, l.rn AS rn, l.lgid AS lgid,
          ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, l.semkey AS semkey, c.chaptertitle AS cat,
          g.grpno AS grpno, g.grp AS subgroup, nt.note AS note,
          json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'pg', e.protogloss, 'ind', h.ind))
@@ -127,7 +127,7 @@ const ETYMA_ALL_SQL = `
 // semantic node, lazily (on expand), reusing the already-loaded search DB.
 const FORMS_BY_CAT_SQL = (n) => `
   SELECT l.rn AS rn, l.reflex AS reflex, l.gloss AS gloss, l.gfn AS gfn, l.lgid AS lgid,
-         ln.language AS language, ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, nt.note AS note,
+         ln.language AS language, ln.lgsort AS lgsort, ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, nt.note AS note,
          json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'pg', e.protogloss, 'ind', h.ind))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
@@ -172,7 +172,8 @@ export async function stedtFormsByCategory(semkeys) {
   // re-sort with the shared collation key: the SQL ORDER BY is binary in WASM (no custom
   // collations registered there), which would order these unlike the server-rendered lists
   rows.sort((a, b) => {
-    const la = sortkey(a.language), lb = sortkey(b.language);
+    // SYNC(reflex-order): curated lgsort first, display name as fallback (see shapeSortReflexes)
+    const la = sortkey(a.lgsort || a.language), lb = sortkey(b.lgsort || b.language);
     if (la !== lb) return la < lb ? -1 : 1;
     const fa = sortkey(a.reflex), fb = sortkey(b.reflex);
     return fa < fb ? -1 : fa > fb ? 1 : 0;
@@ -415,7 +416,10 @@ function shapeSortReflexes(reflexes) {
   for (const r of reflexes) {
     shapeReflexEtyma(r);
     r._gk = gkey(r.grpno);   // precompute the sort keys once (invariant per row)
-    r._lk = sortkey(r.language);
+    // SYNC(reflex-order) ↔ stedt/render/etymon.py reflex sort: the curated languagenames.lgsort
+    // orders listings (it files 'Burmese (Inscriptional)' with Written Burmese); display name is
+    // only the fallback.
+    r._lk = sortkey(r.lgsort || r.language);
     r._fk = sortkey(r.form);
   }
   reflexes.sort((a, b) => {

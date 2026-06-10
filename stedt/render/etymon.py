@@ -85,7 +85,7 @@ def etymon(tag):
         (tag,),
     ).fetchall()
     rows = conn.execute(
-        f"""SELECT l.rn AS rn, ln.language AS language, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn AS gfn,
+        f"""SELECT l.rn AS rn, ln.language AS language, ln.lgsort AS lgsort, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn AS gfn,
             l.srcid AS srcid, g.grp AS subgroup, g.grpno AS groupnode, g.plg AS grpplg, g.grpid AS grpid,
             sb.citation AS citation, ln.srcabbr AS srcabbr
         FROM lx_et_hash h JOIN lexicon l ON l.rn=h.rn
@@ -209,7 +209,14 @@ def etymon(tag):
 
     sgs = []
     for i, k in enumerate(gkeys):
-        items = sorted(groups[k], key=lambda r: (sortkey(r["language"]), sortkey(r["form"])))
+        # SYNC(reflex-order) ↔ web/src/search.js shapeSortReflexes: order by the curated
+        # languagenames.lgsort (the original's ORDER BY … lgsort, reflex, srcabbr, srcid — it
+        # interleaves Inscriptional Burmese with Written, as the curators filed them), display
+        # name only as fallback.
+        items = sorted(
+            groups[k],
+            key=lambda r: (sortkey(r["lgsort"] or r["language"]), sortkey(r["form"]), r["srcabbr"] or "", str(r["srcid"] or "")),
+        )
         rfx = []
         # SYNC(reflex-row) ↔ web/src/rows.js reflexRow — keep this server-rendered reflex row's
         # fields/order/classes/links identical to the client one.
