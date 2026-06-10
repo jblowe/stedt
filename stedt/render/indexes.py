@@ -293,7 +293,19 @@ def thesaurus(semkey=None):
             }
             for disp, depth, title, cnt, lcnt, nn in tree
         ]
-        return page("Thesaurus", _THESAURUS.render(root=True, tree=treeinfo), nav="thesaurus")
+        # metabar totals sum the per-node counts above, so the header agrees with the tree it
+        # heads (SPECIAL filing keys stay excluded here as they are from the tree)
+        return page(
+            "Thesaurus",
+            _THESAURUS.render(
+                root=True,
+                tree=treeinfo,
+                nnodes=f"{len(tree):,}",
+                ncnt=f"{sum(t[3] for t in tree):,}",
+                nlcnt=f"{sum(t[4] for t in tree):,}",
+            ),
+            nav="thesaurus",
+        )
 
     # The integer node N and the chapter N.0 are the same category-overview node; treat
     # /thesaurus/N.0 as an alias of /thesaurus/N so it doesn't render an empty, self-referential page.
@@ -399,10 +411,11 @@ def thesaurus(semkey=None):
         if re.sub(r"<[^>]+>", "", h).strip()
     ]
     return page(
-        "Thesaurus" + f": {semkey}",
+        title,  # the human name, like every other entity page; the semkey stays visible in the header's plg line
         _THESAURUS.render(
             root=False,
             crumb=Markup(crumb),
+            semkey=Markup(esc(semkey)),
             title=Markup(esc(title)),
             cnotes=cnoteinfo,
             cfeet=Markup(footnotes_block(cfeet)),

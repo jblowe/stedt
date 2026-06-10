@@ -312,7 +312,8 @@ def etymon(tag):
     reflexeshtml = (
         f'<section class="reflexes etymon-rfx"><h3>Reflexes &amp; cognates{cnt}</h3>{jump}{"".join(sgs)}</section>'
         if sgs
-        else ""
+        # 33 etyma have zero visible reflexes; say so rather than jumping straight to Connections
+        else '<p class="cap">No attested reflexes are linked to this etymon.</p>'
     )
 
     mesohtml = ""

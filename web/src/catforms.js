@@ -9,7 +9,8 @@ import { reflexRow, norm } from './rows.js';
   var wrap = document.querySelector('.catwrap'); if (!wrap) return;
   var list = wrap.querySelector('.catlist'),
     count = wrap.querySelector('.catcount'),
-    input = wrap.querySelector('.catfilter');
+    input = wrap.querySelector('.catfilter'),
+    none = wrap.querySelector('.rnone');
   var DATA = null, view = [], loaded = false, loading = false;
   function updateCount(shown) {
     if (!DATA) { count.textContent = ''; return; }
@@ -19,7 +20,13 @@ import { reflexRow, norm } from './rows.js';
     if (shown < m) s += ' · ' + shown.toLocaleString() + ' shown';
     count.textContent = s;
   }
-  var win = windowedList(list, { row: reflexRow, onRender: function (shown) { updateCount(shown); } });
+  var win = windowedList(list, {
+    row: reflexRow, onRender: function (shown) {
+      updateCount(shown);
+      // '0 matches of N' alone reads as broken — the explicit empty state the siblings have
+      none.style.display = (DATA && !view.length) ? 'block' : 'none';
+    }
+  });
   function apply() {
     var q = norm(input.value.trim());
     view = q ? DATA.filter(function (r) { return r._k.indexOf(q) >= 0; }) : DATA;

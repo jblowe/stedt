@@ -312,8 +312,6 @@ a.syl:hover,a.syl:focus{z-index:5;}
 /* thesaurus */
 .thes ul{list-style:none;padding:0;margin:0;}
 .thes li{border-bottom:1px solid var(--rule);}
-.thes h1{font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px;}
-.thes .crumbs+h1{margin:10px 0 18px;}   /* node pages: the crumb row sits above the title */
 .thes .ety-list h3{margin-top:30px;}
 .thes li a.row{display:flex;align-items:baseline;gap:12px;padding:11px 6px;border-bottom:none;}
 .thes li a.row:hover{background:var(--paper2);color:inherit;}

@@ -1,6 +1,7 @@
 <div class="thes">
 {%- if root -%}
-<h1>Semantic Thesaurus</h1><p class="cap">Each count is <b>reconstructions / reflexes</b> filed at that node.</p>
+<div class="ety-head"><h1 class="pagetitle">Thesaurus</h1><div class="metabar"><span><b>{{ nnodes }}</b> semantic nodes</span><span><b>{{ ncnt }}</b> reconstructions</span><span><b>{{ nlcnt }}</b> reflexes</span></div></div>
+<p class="cap">Each count is <b>reconstructions / reflexes</b> filed at that node.</p>
 <div class="srcsort">Sort <select id="thsort" aria-label="Sort thesaurus nodes"><option value="key">thesaurus order</option><option value="cnt">most reconstructions</option><option value="lcnt">most reflexes</option></select></div>
 <ul class="tree" id="thtree">
 {%- for t in tree -%}
@@ -23,7 +24,7 @@
 })();
 </script>
 {%- else -%}
-<div class="crumbs"><a href="/thesaurus">Thesaurus</a>{% if crumb %} &nbsp;›&nbsp; {{ crumb }}{% endif %}</div><h1>{{ title }}</h1>
+<div class="ety-head"><div class="plg">Thesaurus · {{ semkey }}</div><h1 class="pagetitle">{{ title }}</h1><div class="crumbs"><a href="/thesaurus">Thesaurus</a>{% if crumb %} &nbsp;›&nbsp; {{ crumb }}{% endif %}</div></div>
 {%- if cnotes -%}
 <section class="notes">{% for n in cnotes %}<div class="note-block">{{ n }}</div>{% endfor %}{{ cfeet }}</section>
 {%- endif -%}
@@ -34,7 +35,7 @@
 <div class="ety-list"><h3>Reconstructions <span class="ct">{{ ndirect }}</span></h3>{% for e in direct %}<div class="ety-hit"><a href="{{ e.href }}" class="pf2 lat"><span class="star">*</span>{{ e.pf }}</a><span class="pg2">{{ e.pg }}</span><span class="tagn">{{ e.tagn }}</span></div>{% endfor %}</div>
 {%- endif -%}
 {%- if attest -%}
-<div class="ety-list catwrap" data-semkeys="{{ attest.keys_json }}"><h3>Reflexes <span class="ct">{{ attest.nforms }}</span></h3><div class="rbar"><input class="catfilter" type="search" aria-label="Filter reflexes" placeholder="Filter by form, gloss, or language…" autocomplete="off"><span class="rcount catcount" role="status"></span></div><div class="catlist" role="list" aria-label="Reflexes"></div></div><script type="module" src="/assets/catforms.js"></script>
+<div class="ety-list catwrap" data-semkeys="{{ attest.keys_json }}"><h3>Reflexes <span class="ct">{{ attest.nforms }}</span></h3><div class="rbar"><input class="catfilter" type="search" aria-label="Filter reflexes" placeholder="Filter by form, gloss, or language…" autocomplete="off"><span class="rcount catcount" role="status"></span></div><div class="catlist" role="list" aria-label="Reflexes"></div><p class="rnone">No forms match.</p></div><script type="module" src="/assets/catforms.js"></script>
 {%- endif -%}
 {%- endif -%}
 </div>
