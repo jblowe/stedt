@@ -245,10 +245,11 @@ const reflexLikeCountSql = (groups) => `
 // ---- fielded syntax: a `field:value` term narrows one axis --------------------------------
 // form:/gloss:/language: filter that FTS column; subgroup: restricts every result type to a
 // Stammbaum subtree (matched by group name, plg abbreviation, or grpno — descendants included);
-// proto:/pgloss: target a reconstruction's form/gloss. Bare terms keep matching anywhere, all
-// terms AND. (Documented by the expandable 'Search syntax' reference under the box — keep in step.)
+// pform:/pgloss: target a reconstruction's form/gloss (the p- prefix pairs them). Bare terms keep
+// matching anywhere, all terms AND. (Documented by the expandable 'Search syntax' reference under
+// the box — keep in step.)
 const FIELDS = { form: 'form', reflex: 'form', gloss: 'gloss', language: 'language', lg: 'language',
-                 subgroup: 'subgroup', group: 'subgroup', proto: 'proto', pgloss: 'pgloss',
+                 subgroup: 'subgroup', group: 'subgroup', pform: 'proto', proto: 'proto', pgloss: 'pgloss',
                  source: 'source', src: 'source', pos: 'pos', tag: 'tag', etymon: 'tag' };
 // tokenizer: a value with spaces takes quotes — subgroup:"Central Loloish", language:"Lotha Naga".
 // (Unquoted, the space ends the value and the rest becomes bare terms.)
