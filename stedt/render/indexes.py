@@ -177,6 +177,36 @@ def search_page(q=""):
 # the lone live etymon whose chapter doesn't resolve. Used for thesaurus placement + counts.
 ECAT = "coalesce(nullif(e.chapter,''),e.semkey)"
 
+_ORPHANS = None
+
+
+def _orphan_aliases(conn):
+    """{orphan filing key: nearest existing chapters ancestor}. An etymon can be filed under a
+    key with no chapters row (one today: #5763 under 8.3.3.8.3, missing upstream too); the
+    original still serves that key, so rather than letting the etymon vanish from the whole
+    thesaurus, list it on the nearest real ancestor node (8.3.3.8 'Pride' — where its own
+    breadcrumb already points). Loaded once per process."""
+    global _ORPHANS
+    if _ORPHANS is None:
+        have = {r[0] for r in conn.execute("SELECT semkey FROM chapters WHERE coalesce(semkey,'')!=''")}
+        out = {}
+        for (k,) in conn.execute(f"SELECT DISTINCT {ECAT} FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'"):
+            if not k or k in have:
+                continue
+            a = k
+            while "." in a:
+                a = a.rsplit(".", 1)[0]
+                if a in have or ("." not in a and a + ".0" in have):
+                    out[k] = a
+                    break
+        _ORPHANS = out
+    return _ORPHANS
+
+
+def _with_orphans(conn, node, keys):
+    """The node's filing keys plus any orphan keys that alias to it."""
+    return keys + [o for o, anc in _orphan_aliases(conn).items() if anc == node]
+
 
 def thesaurus(semkey=None):
     conn = con()
@@ -196,7 +226,7 @@ def thesaurus(semkey=None):
             # both counts are exact (this node only, NOT the subtree): an integer root N also
             # owns its N.0 overview key. Reconstructions and reflexes are mostly filed at leaves,
             # so upper nodes read small/zero - that's intended (each item counted once, at home).
-            own_n = [disp, disp + ".0"] if "." not in disp else [disp]
+            own_n = _with_orphans(conn, disp, [disp, disp + ".0"] if "." not in disp else [disp])
             ph = ",".join("?" * len(own_n))
             cnt = conn.execute(
                 f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' " f"AND {ECAT} IN ({ph})",
@@ -256,7 +286,7 @@ def thesaurus(semkey=None):
     kidinfo = []
     for k in kids:
         sk = k["semkey"]
-        kown = [sk, sk + ".0"] if "." not in sk else [sk]  # node-only, matching the index (not subtree)
+        kown = _with_orphans(conn, sk, [sk, sk + ".0"] if "." not in sk else [sk])  # node-only, like the index
         kph = ",".join("?" * len(kown))
         cnt = conn.execute(
             f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' " f"AND {ECAT} IN ({kph})", kown
@@ -272,13 +302,14 @@ def thesaurus(semkey=None):
         kidinfo.append(
             {"semkey": sk, "semkey_esc": Markup(esc(sk)), "title": Markup(esc(k["chaptertitle"])), "ct": ct}
         )
+    own_e = _with_orphans(conn, semkey, own)  # etyma filing keys: this node + orphan keys aliased here
     direct = conn.execute(
         f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg, e.exemplary
         FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-        WHERE {ECAT} IN ({ownph})
+        WHERE {ECAT} IN ({",".join("?" * len(own_e))})
           AND coalesce(upper(e.status),'')!='DELETE'
         ORDER BY e.sequence, e.protogloss""",
-        own,
+        own_e,
     ).fetchall()
     dinfo = []
     if direct:
