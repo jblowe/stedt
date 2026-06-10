@@ -47,7 +47,10 @@ async function fetchDbBytes(url) {
   const get = async () => {
     const res = await fetch(url);
     if (!res.ok) throw new Error('search DB fetch failed: HTTP ' + res.status);
-    const total = +res.headers.get('Content-Length') || 0;
+    // Content-Length is the WIRE size — Pages gzips the DB (~18 MB) while the streamed reader
+    // counts decompressed bytes (~43 MB), which once showed '41 / 18 MB'. The build bakes the
+    // decompressed size into every page instead; without it, skip progress entirely.
+    const total = (typeof window !== 'undefined' && window.STEDT_DB_BYTES) || 0;
     if (!res.body || !total) return res.arrayBuffer();
     const reader = res.body.getReader(), parts = [];
     let loaded = 0;

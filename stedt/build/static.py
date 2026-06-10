@@ -34,12 +34,19 @@ _LINK = re.compile(r'(\b(?:href|src|action)=")/(?!/)')
 
 
 DB_VERSION = ""  # set in main()
+DB_BYTES = 0  # set in main(): decompressed search-DB size for the client progress denominator
 
 
 def rewrite(s):
     if BASE:
         s = _LINK.sub(lambda m: m.group(1) + BASE + "/", s)
-    head = f'<head><script>window.STEDT_BASE="{BASE}";window.STEDT_DB_VERSION="{DB_VERSION}";</script>'
+    # DB_BYTES is the DECOMPRESSED size, for the download-progress denominator: Pages serves the
+    # DB gzipped, so Content-Length is the ~18 MB wire size while the streamed reader counts the
+    # ~43 MB decompressed bytes — using the header showed '41 / 18 MB'.
+    head = (
+        f'<head><script>window.STEDT_BASE="{BASE}";window.STEDT_DB_VERSION="{DB_VERSION}";'
+        f"window.STEDT_DB_BYTES={DB_BYTES};</script>"
+    )
     return s.replace("<head>", head, 1)
 
 
@@ -89,12 +96,16 @@ def cap(xs):
 
 
 def main():
-    global DB_VERSION
+    global DB_VERSION, DB_BYTES
     t0 = time.time()
     # STEDT_DB_VERSION pins the cache-bust hash (used by the snapshot harness so renaming a build
     # file doesn't churn every page's <head>); unset in real builds, where it's a content hash.
     DB_VERSION = os.environ.get("STEDT_DB_VERSION") or data_version(
         os.path.join(os.path.dirname(__file__), "search_db.py")
+    )
+    # pinnable like the version (snapshot harness), else the real artifact size
+    DB_BYTES = int(os.environ.get("STEDT_DB_BYTES", "0")) or (
+        os.path.getsize(SEARCH_DB) if os.path.exists(SEARCH_DB) else 0
     )
     # Clear only what THIS step owns: other steps' outputs survive a render re-run, so the local
     # iterate loop is render-only (previously rmtree(site/) silently 404'd the JS bundles and
