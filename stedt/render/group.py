@@ -21,17 +21,27 @@ def group(grpid):
         return page("Not found", "<p>No such group.</p>")
     grpno = g["grpno"]
     lin = group_lineage(conn, grpno)
-    depth = str(grpno).count(".") if grpno is not None else 0
-    children = (
-        conn.execute(
-            """SELECT grpid, grpno, grp, plg FROM languagegroups
-        WHERE grpno LIKE ? AND (length(grpno)-length(replace(grpno,'.','')))=?
-        ORDER BY grpno""",
-            (str(grpno) + ".%", depth + 1),
+    # Children are the descendants whose NEAREST EXISTING ancestor is this node — not "exactly one
+    # dot deeper": the Stammbaum skips levels (Sinitic is '9', its children are 9.0.1/9.0.2/9.0.3
+    # with no '9.0' row), the same prefix-walk group_lineage() does upward.
+    if grpno is not None:
+        desc = conn.execute(
+            "SELECT grpid, grpno, grp, plg FROM languagegroups WHERE grpno LIKE ? ORDER BY grpno",
+            (str(grpno) + ".%",),
         ).fetchall()
-        if grpno is not None
-        else []
-    )
+        have = {d["grpno"] for d in desc} | {str(grpno)}
+
+        def _nearest(no):
+            parts = str(no).split(".")
+            for k in range(len(parts) - 1, 0, -1):
+                p = ".".join(parts[:k])
+                if p in have:
+                    return p
+            return None
+
+        children = [d for d in desc if _nearest(d["grpno"]) == str(grpno)]
+    else:
+        children = []
     childinfo = []
     for ch in children:
         # count canonical member lects (distinct non-proto name == one lect within a grpid),
