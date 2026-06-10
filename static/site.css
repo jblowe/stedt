@@ -285,6 +285,9 @@ a.syl:hover,a.syl:focus{z-index:5;}
 .phon .pf-f .rl{display:inline;width:auto;flex:none;margin-right:7px;}
 .phon .pf-f .val{font-family:"Charis SIL",serif;color:var(--ink);}
 .conn-row{display:flex;align-items:baseline;gap:12px;padding:6px 0;}
+/* computed allofam family: one unbreakable chip per member, wrapping at member boundaries */
+.famlist{display:flex;flex-wrap:wrap;gap:3px 22px;line-height:1.6;}
+.fam{white-space:nowrap;}
 .rl{font-variant:small-caps;letter-spacing:.08em;font-size:12px;color:var(--accent);width:92px;flex:none;}
 .conn-row .reltgt{flex:1;}
 .exm{color:var(--gold);font-variant:small-caps;letter-spacing:.06em;font-size:.9em;}
@@ -403,7 +406,7 @@ pre.diff .hdr{color:var(--mut);}
   .idx{columns:1;}
 
   /* connections: let the relation label sit on its own line above the target */
-  .conn-row{flex-wrap:wrap;}
+  .conn-row{flex-wrap:wrap;}  .fam{white-space:normal;}  /* narrow screens: let long member labels wrap */
   .conn-row .rl{width:100%;}
 
   /* thesaurus rows: let the title wrap, keep the count pinned right (don't let title grow) */

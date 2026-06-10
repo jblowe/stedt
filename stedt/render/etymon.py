@@ -395,12 +395,16 @@ def etymon(tag):
                 f'<span class="recon">{esc(alt(a["protoform"]))}</span>'
                 f' ‘{esc(a["protogloss"])}’'
             )
+            # each member is its own non-breaking chip (.fam), so a 10-member family wraps at
+            # member boundaries instead of mid-label
             fam.append(
-                f"<b>{lab}</b>" if a["tag"] == tag else f'<a href="{etymon_href(a["tag"])}">{lab}</a>'
+                f'<span class="fam"><b>{lab}</b></span>'
+                if a["tag"] == tag
+                else f'<span class="fam"><a href="{etymon_href(a["tag"])}">{lab}</a></span>'
             )
         rels.append(
             f'<div class="conn-row"><span class="rl">Allofams</span>'
-            f'<span class="reltgt">{" · ".join(fam)}</span></div>'
+            f'<span class="reltgt famlist">{"".join(fam)}</span></div>'
         )
     for h in hptb:
         rels.append(
