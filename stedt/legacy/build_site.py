@@ -125,9 +125,12 @@ def main():
     os.makedirs(ddir, exist_ok=True)
     c = L.render.con()
     by_src = {}
-    for r in c.execute("""SELECT ln.srcabbr, l.rn, l.reflex, l.gloss, l.gfn, l.lgid, ln.language, l.srcid
+    # Withdrawn rows (HIDE/DELETED) must not ship: rootcanal's export ran behind the same status
+    # gate as its listings, and the rest of this build filters them everywhere else.
+    for r in c.execute(f"""SELECT ln.srcabbr, l.rn, l.reflex, l.gloss, l.gfn, l.lgid, ln.language, l.srcid
                           FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
-                          WHERE coalesce(ln.srcabbr,'')!='' AND ln.srcabbr!='SIL-Nuosu'"""):
+                          WHERE coalesce(ln.srcabbr,'')!='' AND ln.srcabbr!='SIL-Nuosu'
+                            AND {L.render.LEX_VISIBLE}"""):
         by_src.setdefault(r[0], []).append(r[1:])
     c.close()
     if LIMIT:
