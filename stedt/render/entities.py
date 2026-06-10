@@ -14,6 +14,19 @@ from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels,
 from .shell import etymon_href, source_href, language_href, reflex_href, source_reference
 from .templating import env
 
+_GRP_NOISE = re.compile(r"\(previously published reconstructions\)|[^a-z0-9]")
+
+
+def _is_own_proto(language, grp):
+    """True when a proto-lect row ('*Tibeto-Burman') IS its group's own proto-language, so the
+    group's plg (PTB) labels it faithfully; False for guest reconstructions merely filed in a
+    group ('*Tibeto-Karen' in the TB bucket, '*Common Lahu' under Central Loloish, '*Burmese'
+    under Burmish) — those must keep their published attribution verbatim."""
+    lang = _GRP_NOISE.sub("", (language or "").lstrip("*").lower())
+    g = _GRP_NOISE.sub("", (grp or "").lower())
+    return bool(lang) and g.startswith(lang)
+
+
 def _seq_label(s):
     """Allofam label from the curated sequence: integer -> '1', fraction -> '1a'/'1b'…
     (twin of legacy/render.py _fmt_seq — same labels on both UIs)."""
@@ -276,8 +289,11 @@ def etymon(tag):
     if recon_rows:
         rr = ""
         for r in recon_rows:
-            lab = r["grpplg"] or r["subgroup"] or (r["language"] or "").lstrip("*")
-            # the label is a proto-language group (e.g. PTani) — link it to its group page
+            if _is_own_proto(r["language"], r["subgroup"]):
+                lab = r["grpplg"] or r["subgroup"] or (r["language"] or "").lstrip("*")
+            else:
+                lab = (r["language"] or "").strip()  # keep the published name, star and all
+            # the label names a proto-language — link it to its group page
             rl = (
                 f'<a class="rl" href="/group/{r["grpid"]}">{esc(lab)}</a>'
                 if r["grpid"] is not None
