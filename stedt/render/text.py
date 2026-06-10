@@ -40,8 +40,13 @@ def iso_link(code):
     )
 
 
+def rfx_noun(n):
+    """'reflex' / 'reflexes' — every count label shares it so '1 reflexes' can't recur."""
+    return "reflex" if n == 1 else "reflexes"
+
+
 def rcount_txt(n):
     """' · 12 reflexes' / ' · 1 reflex' / '' for an etymon's reflex count."""
     if not n:
         return ""
-    return f" · {n:,} " + ("reflex" if n == 1 else "reflexes")
+    return f" · {n:,} {rfx_noun(n)}"

@@ -7,7 +7,7 @@ from markupsafe import Markup
 
 from .config import CITE_BASE, PLG_FULL, TREE_INDENT_PX
 from .db import LEX_VISIBLE, con
-from .text import esc, alt, natkey, iso_link, rcount_txt
+from .text import esc, alt, natkey, iso_link, rcount_txt, rfx_noun
 from .notes import note_label, render_note
 from .syllabify import syllabify
 from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels, canonical_languages, canon_lgid
@@ -566,7 +566,7 @@ def language(lgid):
         meta.append(Markup(f"<span><b>ISO 639-3</b> {iso_link(sil)}</span>"))
     if nsrc > 1:
         meta.append(Markup(f"<span><b>{nsrc}</b> sources</span>"))
-    meta.append(Markup(f"<span><b>{total:,}</b> reflexes</span>"))
+    meta.append(Markup(f"<span><b>{total:,}</b> {rfx_noun(total)}</span>"))
 
     groups = {}
     for r in rows:
@@ -674,7 +674,7 @@ def source(srcabbr):
     cite = source_reference(s)
     meta = []
     meta.append(Markup(f"<span><b>{len(langs)}</b> languages</span>"))
-    meta.append(Markup(f"<span><b>{total:,}</b> reflexes</span>"))
+    meta.append(Markup(f"<span><b>{total:,}</b> {rfx_noun(total)}</span>"))
 
     def langinfo(l):
         bits = [esc(x) for x in (l["grpno"], l["subgroup"]) if x]
@@ -688,7 +688,7 @@ def source(srcabbr):
             "ab": Markup(ab),
             "grplink": Markup(grplink),
             "iso": Markup(iso),
-            "n_fmt": f"{l['n']:,}",
+            "n_txt": f"{l['n']:,} {rfx_noun(l['n'])}",
         }
 
     langinfos = [langinfo(l) for l in langs]
@@ -883,7 +883,7 @@ def group(grpid):
             "language": Markup(esc(l["language"])),
             "ab": Markup(ab),
             "mid": Markup(" · ".join(mid)),
-            "n_fmt": f"{l['n']:,}",
+            "n_txt": f"{l['n']:,} {rfx_noun(l['n'])}",
         }
 
     langinfos = [langinfo(l) for l in langs]
