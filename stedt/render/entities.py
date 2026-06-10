@@ -6,7 +6,7 @@ import urllib.parse
 from markupsafe import Markup
 
 from .config import CITE_BASE, PLG_FULL, TREE_INDENT_PX
-from .db import con
+from .db import LEX_VISIBLE, con
 from .text import esc, alt, natkey, iso_link, rcount_txt
 from .notes import render_note
 from .syllabify import syllabify
@@ -50,7 +50,7 @@ def etymon(tag):
         JOIN languagenames ln ON ln.lgid=l.lgid
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
-        WHERE h.tag=? GROUP BY l.rn""",
+        WHERE h.tag=? AND {LEX_VISIBLE} GROUP BY l.rn""".format(LEX_VISIBLE=LEX_VISIBLE),
         (tag,),
     ).fetchall()
     hptb = conn.execute(
@@ -448,7 +448,7 @@ def language(lgid):
             ln.srcabbr AS srcabbr, sb.citation AS citation
         FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
         LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
-        WHERE l.lgid IN ({qm})
+        WHERE l.lgid IN ({qm}) AND {LEX_VISIBLE}
         ORDER BY l.semkey, ln.srcabbr, l.reflex""",
         sibs,
     ).fetchall()
@@ -598,10 +598,10 @@ def source(srcabbr):
         """SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
             ln.silcode AS silcode, g.grp AS subgroup, g.grpno AS grpno, g.grpid AS grpid,
             count(l.rn) AS n
-        FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid
+        FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid AND {LEX_VISIBLE}
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         WHERE ln.srcabbr=? AND ln.language!='' AND ln.language NOT LIKE '*%' GROUP BY ln.lgid
-        HAVING n>0 ORDER BY ln.language""",
+        HAVING n>0 ORDER BY ln.language""".format(LEX_VISIBLE=LEX_VISIBLE),
         (srcabbr,),
     ).fetchall()
     conn.close()
@@ -719,7 +719,7 @@ def group(grpid):
         nl = conn.execute(
             """SELECT count(DISTINCT ln.language) FROM languagenames ln
             JOIN lexicon l ON l.lgid=ln.lgid
-            WHERE ln.grpid=? AND ln.language NOT LIKE '*%'""",
+            WHERE ln.grpid=? AND ln.language NOT LIKE '*%' AND {LEX_VISIBLE}""".format(LEX_VISIBLE=LEX_VISIBLE),
             (ch["grpid"],),
         ).fetchone()[0]
         childinfo.append((ch, nl))
@@ -731,8 +731,8 @@ def group(grpid):
             ln.silcode AS silcode, ln.srcabbr AS srcabbr, sb.citation AS citation, count(l.rn) AS n
         FROM languagenames ln LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
         JOIN lexicon l ON l.lgid=ln.lgid
-        WHERE ln.grpid=? AND ln.language NOT LIKE '*%'
-        GROUP BY ln.lgid HAVING n>0""",
+        WHERE ln.grpid=? AND ln.language NOT LIKE '*%' AND {LEX_VISIBLE}
+        GROUP BY ln.lgid HAVING n>0""".format(LEX_VISIBLE=LEX_VISIBLE),
         (grpid,),
     ).fetchall()
     canon_of = canonical_languages()[0]

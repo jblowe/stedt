@@ -3,7 +3,7 @@
 from markupsafe import Markup
 
 from .config import _CSS_VER, _JS_VER
-from .db import con
+from .db import LEX_VISIBLE, con
 from .templating import env
 from .text import esc
 
@@ -65,7 +65,7 @@ def reflex_counts(conn, tags=None):
     not attested reflexes."""
     JW = (
         "FROM lx_et_hash h JOIN lexicon l ON l.rn=h.rn JOIN languagenames ln ON ln.lgid=l.lgid "
-        "WHERE h.tag>0 AND ln.language NOT LIKE '*%'"
+        f"WHERE h.tag>0 AND ln.language NOT LIKE '*%' AND {LEX_VISIBLE}"
     )
     if tags is None:
         rows = conn.execute(f"SELECT h.tag AS tag, count(DISTINCT h.rn) n {JW} GROUP BY h.tag")
@@ -125,9 +125,9 @@ def canonical_languages():
     global _CANON
     if _CANON is None:
         conn = con()
-        rows = conn.execute("""SELECT ln.lgid AS lgid, ln.language AS language, ln.grpid AS grpid,
+        rows = conn.execute(f"""SELECT ln.lgid AS lgid, ln.language AS language, ln.grpid AS grpid,
                 count(l.rn) AS n
-            FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid
+            FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid AND {LEX_VISIBLE}
             GROUP BY ln.lgid""").fetchall()
         conn.close()
         groups = {}

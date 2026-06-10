@@ -11,6 +11,13 @@ def con():
     return conn
 
 
+# The original site never shows HIDE/DELETED lexicon rows (placeholder '*' forms and withdrawn
+# records — ~10k rows). Every lexicon read (render queries AND the search-DB build) must apply
+# this, with the table aliased as `l`, or listings and counts disagree with the data the site
+# stands behind. Other statuses (D0/D1/…) stay visible, matching the original.
+LEX_VISIBLE = "coalesce(upper(l.status),'') NOT IN ('HIDE','DELETED')"
+
+
 _VALID_TAGS = None
 _SEMKEY_COUNTS = None
 _XREF_LABELS = None
@@ -62,7 +69,8 @@ def reflex_semkey_counts():
             r[0]: r[1]
             for r in conn.execute(
                 "SELECT l.semkey, count(*) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid "
-                "WHERE coalesce(l.semkey,'')!='' AND ln.language NOT LIKE '*%' GROUP BY l.semkey"
+                f"WHERE coalesce(l.semkey,'')!='' AND ln.language NOT LIKE '*%' AND {LEX_VISIBLE} "
+                "GROUP BY l.semkey"
             )
         }
         conn.close()

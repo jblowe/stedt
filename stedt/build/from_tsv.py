@@ -417,7 +417,9 @@ def main():
             )
             for ind, slot in enumerate((row["analysis"] or "").split(",") if row["analysis"] else []):
                 for tok in slot.split("|"):
-                    m = re.match(r"\d+", tok)
+                    # digit-prefix tags an etymon ('811a' → 811), but tokens carrying
+                    # '=' are named annotations ('2ndroot=2767'), never a tag
+                    m = None if "=" in tok else re.match(r"\d+", tok)
                     links.append({"rn": rn, "tag": int(m.group()) if m else 0, "ind": ind, "tag_str": tok})
         for ln in rows(f"{srcdir}/notes.tsv"):
             add_note("L", int(ln["rn"]), ln["type"], ln["text"])
@@ -429,7 +431,8 @@ def main():
     for ln in rows(f"{ROOT}/orphan_reflex_notes.tsv"):
         add_note("L", int(ln["rn"]), ln["type"], ln["text"])
     for row in rows(f"{ROOT}/orphan_links.tsv"):
-        m = re.match(r"\d+", row["tag_str"] or "")
+        ts = row["tag_str"] or ""
+        m = None if "=" in ts else re.match(r"\d+", ts)
         links2 = {
             "rn": int(row["rn"]),
             "tag": int(m.group()) if m else 0,

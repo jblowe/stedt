@@ -19,15 +19,17 @@ import re
 import sqlite3
 
 from stedt.paths import DB as SRC, SEARCH_DB as OUT, WEB
+from stedt.render.db import LEX_VISIBLE
 
 # NB: .sqlite3 (not .db) — GitHub Pages gzip-compresses .db, which corrupts the byte-range
 # math sql.js-httpvfs relies on; it serves .sqlite3 uncompressed. (community #162857)
 
-# proto-excluded reflex count, shown by etymonRow as "· N reflexes"
+# proto-excluded reflex count, shown by etymonRow as "· N reflexes" (the inner alias is `l` so the
+# shared LEX_VISIBLE filter applies verbatim, matching the etymon page's reflex_counts())
 _NREFLEX = (
     "(SELECT count(DISTINCT h.rn) FROM src.lx_et_hash h "
-    "JOIN src.lexicon l2 ON l2.rn=h.rn JOIN src.languagenames n2 ON n2.lgid=l2.lgid "
-    "WHERE h.tag=e.tag AND h.tag>0 AND n2.language NOT LIKE '*%')"
+    "JOIN src.lexicon l ON l.rn=h.rn JOIN src.languagenames n2 ON n2.lgid=l.lgid "
+    f"WHERE h.tag=e.tag AND h.tag>0 AND n2.language NOT LIKE '*%' AND {LEX_VISIBLE})"
 )
 
 # --- The search DB's column contract -----------------------------------------------------------
@@ -61,7 +63,7 @@ TABLES = [
         ("srcabbr",  "",                    "srcabbr"),   # reflexRow source -> srcbib.citation
         ("grpid",    "",                    "grpid"),     # join -> languagegroups
     ]},
-    {"name": "lexicon", "src": "src.lexicon", "cols": [
+    {"name": "lexicon", "src": "src.lexicon l", "where": LEX_VISIBLE, "cols": [
         ("rn",     "INTEGER PRIMARY KEY", "rn"),     # reflexRow #rn attestation link + FTS rowid
         ("reflex", "",                    "reflex"), # reflexRow form + FTS column
         ("gloss",  "",                    "gloss"),  # reflexRow gloss + FTS column
@@ -70,10 +72,13 @@ TABLES = [
         ("semkey", "",                    "semkey"), # reflexRow category link -> chapters
         ("srcid",  "",                    "srcid"),  # reflexRow source locus ": page/entry"
     ]},
+    # NB: the INTEGER decls are load-bearing, not documentation — typeless columns get BLOB
+    # affinity, which disqualifies ix_hash_rn from the h.rn=l.rn join (lexicon.rn is INTEGER)
+    # and turns every search into a per-row full scan of this table.
     {"name": "lx_et_hash", "src": "src.lx_et_hash", "where": "tag > 0", "cols": [
-        ("rn",  "", "rn"),   # reflex -> etyma enrichment join (hot path; indexed below)
-        ("tag", "", "tag"),  # etymon a syllable/reflex belongs to
-        ("ind", "", "ind"),  # syllable position -> per-syllable links (r.syn)
+        ("rn",  "INTEGER", "rn"),   # reflex -> etyma enrichment join (hot path; indexed below)
+        ("tag", "INTEGER", "tag"),  # etymon a syllable/reflex belongs to
+        ("ind", "INTEGER", "ind"),  # syllable position -> per-syllable links (r.syn)
     ]},
     {"name": "srcbib", "src": "src.srcbib", "where": "coalesce(srcabbr,'')!=''", "cols": [
         ("srcabbr",  "TEXT PRIMARY KEY", "srcabbr"),

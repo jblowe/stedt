@@ -6,7 +6,7 @@ import json
 from markupsafe import Markup
 
 from .config import CITE_BASE, PREVIEW, TREE_INDENT_PX
-from .db import con, reflex_semkey_counts
+from .db import LEX_VISIBLE, con, reflex_semkey_counts
 from .text import esc, alt, natkey, rcount_txt
 from .notes import render_note
 from .shell import page, breadcrumb, reflex_counts, canon_lgid, etymon_href, source_reference
@@ -30,12 +30,18 @@ def about():
     conn = con()
     one = lambda sql: conn.execute(sql).fetchone()[0]
     ety = one("SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'")
-    rfx = one("SELECT count(*) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid WHERE ln.language NOT LIKE '*%'")
+    rfx = one(
+        "SELECT count(*) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid "
+        f"WHERE ln.language NOT LIKE '*%' AND {LEX_VISIBLE}"
+    )
     # a "language" is a lect = (name, subgroup), matching the Languages index header + canonicalization
-    lgs = one("""SELECT count(*) FROM (SELECT 1 FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
-        WHERE ln.language!=\'\' AND ln.language NOT LIKE \'*%\' GROUP BY ln.language, ln.grpid)""")
-    src = one("""SELECT count(*) FROM srcbib sb WHERE EXISTS(
-        SELECT 1 FROM languagenames ln JOIN lexicon l ON l.lgid=ln.lgid WHERE ln.srcabbr=sb.srcabbr)""")
+    lgs = one(f"""SELECT count(*) FROM (SELECT 1 FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
+        WHERE ln.language!='' AND ln.language NOT LIKE '*%' AND {LEX_VISIBLE} GROUP BY ln.language, ln.grpid)""")
+    # any visible record counts — attested or previously-published reconstruction (so a source
+    # holding only reconstructions, e.g. JRO-Tilung, still counts; matches the sources index)
+    src = one(f"""SELECT count(*) FROM srcbib sb WHERE EXISTS(
+        SELECT 1 FROM languagenames ln JOIN lexicon l ON l.lgid=ln.lgid
+        WHERE ln.srcabbr=sb.srcabbr AND {LEX_VISIBLE})""")
     conn.close()
     body = _ABOUT.render(ety=f"{ety:,}", rfx=f"{rfx:,}", lgs=f"{lgs:,}", src=f"{src:,}", cite_base=CITE_BASE)
     return page("About", body, nav="about")
@@ -76,9 +82,9 @@ def languages_index():
     # and the two "previously published reconstructions" groups appear as headings even when no
     # member language is directly attested under them.
     allgroups = conn.execute("SELECT grpid, grpno, grp, plg FROM languagegroups WHERE grpid IS NOT NULL").fetchall()
-    rows = conn.execute("""SELECT ln.grpid AS grpid, ln.language AS language, ln.lgid AS lgid, count(*) AS n
+    rows = conn.execute(f"""SELECT ln.grpid AS grpid, ln.language AS language, ln.lgid AS lgid, count(*) AS n
         FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
-        WHERE ln.language NOT LIKE '*%'
+        WHERE ln.language NOT LIKE '*%' AND {LEX_VISIBLE}
         GROUP BY ln.lgid""").fetchall()
     conn.close()
     members, ntot = {}, 0  # grpid -> {language name: (lgid, max reflex count)}
@@ -124,13 +130,13 @@ def languages_index():
 
 def sources_index():
     conn = con()
-    rows = conn.execute("""SELECT sb.srcabbr AS srcabbr, sb.citation AS citation, sb.author AS author,
+    rows = conn.execute(f"""SELECT sb.srcabbr AS srcabbr, sb.citation AS citation, sb.author AS author,
             sb.year AS year, sb.title AS title, sb.imprint AS imprint,
             count(DISTINCT CASE WHEN l.rn IS NOT NULL AND ln.language NOT LIKE '*%' AND ln.language!='' THEN ln.lgid END) AS nlang,
             count(CASE WHEN ln.language NOT LIKE '*%' AND ln.language!='' THEN l.rn END) AS nforms
         FROM srcbib sb
         LEFT JOIN languagenames ln ON ln.srcabbr=sb.srcabbr
-        LEFT JOIN lexicon l ON l.lgid=ln.lgid
+        LEFT JOIN lexicon l ON l.lgid=ln.lgid AND {LEX_VISIBLE}
         WHERE coalesce(sb.srcabbr,'')!=''
         GROUP BY sb.srcabbr
         ORDER BY lower(coalesce(nullif(sb.author,''),nullif(sb.citation,''),sb.srcabbr)), sb.year""").fetchall()
