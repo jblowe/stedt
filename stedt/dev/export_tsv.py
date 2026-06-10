@@ -63,7 +63,8 @@ def main():
             continue
         t = r["notetype"] or "T"
         if r["spec"] == "E":
-            enotes.append((r["tag"], t, r["xmlnote"]))
+            # id may carry a subgroup anchor (grpid) -> the TSV's `group` column
+            enotes.append((r["tag"], t, clean(r["id"]), r["xmlnote"]))
         elif r["spec"] == "C":
             cnotes.append((clean(r["id"]), t, r["xmlnote"]))
         elif r["spec"] == "S":
@@ -129,7 +130,9 @@ def main():
         )
     write_tsv(f"{DEST}/mesoroots.tsv", ["tag", "grpid", "form", "gloss", "variant", "old_tag", "source"], meso_rows)
 
-    write_tsv(f"{DEST}/etymon_notes.tsv", ["tag", "type", "text"], [[clean(tag), t, x] for tag, t, x in enotes])
+    write_tsv(
+        f"{DEST}/etymon_notes.tsv", ["tag", "type", "group", "text"], [[clean(tag), t, g, x] for tag, t, g, x in enotes]
+    )
 
     # ================= reference tables =================
     write_tsv(

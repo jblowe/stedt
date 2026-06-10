@@ -208,7 +208,7 @@ def main():
     noteid = [0]
     notes = []
 
-    def add_note(spec, key, notetype, text):
+    def add_note(spec, key, notetype, text, gid=""):
         if not text:
             return
         noteid[0] += 1
@@ -216,7 +216,9 @@ def main():
             {
                 "rn": key if spec == "L" else 0,
                 "tag": key if spec == "E" else 0,
-                "id": key if spec in ("C", "S") else "",
+                # E-notes may carry a subgroup anchor (grpid) in id — the original renders such a
+                # note as a footnote on that subgroup's band, not as a general etymon note
+                "id": key if spec in ("C", "S") else (gid or ""),
                 "notetype": notetype or "T",
                 "spec": spec,
                 "ord": 0,
@@ -382,7 +384,7 @@ def main():
     ]
     insert("mesoroots", meso)
     for en in rows(f"{ROOT}/etymon_notes.tsv"):
-        add_note("E", i(en["tag"]), en["type"], en["text"])
+        add_note("E", i(en["tag"]), en["type"], en["text"], gid=en.get("group", ""))
     print(f"  etyma {len(ety)}  mesoroots {len(meso)}")
 
     # ---- per-source: srcbib + lexicon (+lx_et_hash) + reflex notes + annotations ----

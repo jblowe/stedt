@@ -24,7 +24,7 @@ table keyed back by id — TSV has no nesting, so one-to-many becomes a second t
 |------|-------|-----|
 | `etyma.tsv` | one cognate set (reconstruction + phonology, flattened to columns) | `tag` |
 | `mesoroots.tsv` | intermediate reconstructions, child of an etymon | → `tag` |
-| `etymon_notes.tsv` | notes on an etymon | → `tag` |
+| `etymon_notes.tsv` | notes on an etymon; optional `group` (a grpid) anchors the note to that subgroup's band in the reflex table | → `tag` |
 | `languages.tsv` | one language | `lgid` |
 | `languagegroups.tsv` | one subgroup (`lineage` flattened to `grp0..grp4`) | `grpid` |
 | `thesaurus.tsv` | one semantic-category node | `semkey` |

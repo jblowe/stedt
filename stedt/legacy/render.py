@@ -393,9 +393,28 @@ def legacy_etymon(tag):
         ):
             lex_notes.setdefault(rn, []).append((nt, xml))
 
+    # subgroup-anchored etymon notes (notes.id = grpid): etymon.js places each as a footnote
+    # marker on the first band at-or-under its grpno (it shift()s a sorted list while streaming
+    # bands), so emit them sorted by grpno with page-order footnote numbers interleaved below.
+    sg_pending = [
+        (gr["grpno"], r["notetype"], r["xmlnote"])
+        for r in c.execute(
+            "SELECT id, notetype, xmlnote FROM notes WHERE tag=? AND spec='E' AND coalesce(id,'')!='' "
+            "AND notetype!='I' AND xmlnote IS NOT NULL ORDER BY ord, noteid",
+            (tag,),
+        )
+        if (gr := c.execute("SELECT grpno FROM languagegroups WHERE grpid=?", (r["id"],)).fetchone()) and gr["grpno"]
+    ]
+    sg_pending.sort(key=lambda t: t[0])
+    subgroupnotes = []
+
     footnotes = []  # (num, html)
     rows_html = ""
     for r in recs:
+        while sg_pending and r["grpno"] and sg_pending[0][0] <= r["grpno"]:
+            grpno, nt, xml = sg_pending.pop(0)
+            footnotes.append((len(footnotes) + 1, _lnote(xml, nt)))
+            subgroupnotes.append({"grpno": grpno, "ind": footnotes[-1][0]})
         nums = []
         for nt, xml in lex_notes.get(r["rn"], []):
             footnotes.append((len(footnotes) + 1, _lnote(xml, nt)))
@@ -419,10 +438,13 @@ def legacy_etymon(tag):
             notes_col,
         ]
         rows_html += "<tr>" + "".join(cell(v) for v in vals) + "</tr>\n"
+    for grpno, nt, xml in sg_pending:  # anchors with no band on this page: still footnoted at the end
+        footnotes.append((len(footnotes) + 1, _lnote(xml, nt)))
+        subgroupnotes.append({"grpno": grpno, "ind": footnotes[-1][0]})
 
-    # notes (spec=E, not comparanda 'F', not internal 'I') + Chinese comparanda ('F')
+    # notes (spec=E, not comparanda 'F', not internal 'I', not subgroup-anchored) + comparanda ('F')
     notes = c.execute(
-        """SELECT xmlnote FROM notes WHERE tag=? AND spec='E'
+        """SELECT xmlnote FROM notes WHERE tag=? AND spec='E' AND coalesce(id,'')=''
                          AND notetype NOT IN ('F','I') AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
         (tag,),
     ).fetchall()
@@ -517,7 +539,7 @@ num_tables = 2;
 var stedt_other_username = '';
 var uid2 = '';
 var mesoroots = {_json.dumps(meso)};
-var subgroupnotes = [];
+var subgroupnotes = {_json.dumps(subgroupnotes)};
 var all_subgroups = {_json.dumps(all_grps)};
 </script>
 <script src="{BASE}/js/etymon.js"></script>

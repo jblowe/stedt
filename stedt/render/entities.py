@@ -62,10 +62,24 @@ def etymon(tag):
         conn.close()
         return page("Not found", "<p>No such etymon.</p>")
     notes = conn.execute(
-        """SELECT xmlnote FROM notes WHERE tag=? AND spec='E' AND notetype NOT IN ('F','I')
+        """SELECT xmlnote, id FROM notes WHERE tag=? AND spec='E' AND notetype NOT IN ('F','I')
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
         (tag,),
     ).fetchall()
+    # a note whose id carries a grpid is anchored to that subgroup in the reflex table — the
+    # original renders it as a footnote on the band. The anchor can be an ANCESTOR of the bands
+    # actually present (e.g. 'Tani' over a page banded 1.1.1.1 Western Tani …), so placement is
+    # "first band at or under the anchor", matching the original's sorted-position behavior.
+    anchored = []  # (grpno, grp name, note row)
+    if any(n["id"] for n in notes):
+        unanchored = []
+        for n in notes:
+            gr = conn.execute("SELECT grpno, grp FROM languagegroups WHERE grpid=?", (n["id"],)).fetchone() if n["id"] else None
+            if gr and gr["grpno"]:
+                anchored.append((gr["grpno"], gr["grp"] or "", n))
+            else:
+                unanchored.append(n)
+        notes = unanchored
     # Chinese comparanda (notetype='F') are a distinct class — legacy gave them their own block
     # rather than burying them in the general Notes; keep that separation.
     compar = conn.execute(
@@ -184,6 +198,15 @@ def etymon(tag):
     gkeys = sorted(groups, key=lambda k: (natkey(k[0]), k[1]))
     nsub = len(gkeys)
 
+    # place each anchored note at the first band at-or-under its anchor; no such band -> general list
+    sg_notes_at = {}  # section index -> [(grp name, note row)]
+    for grpno, grp, n in anchored:
+        idx = next((i for i, k in enumerate(gkeys) if k[0] == grpno or (k[0] or "").startswith(grpno + ".")), None)
+        if idx is None:
+            notes = list(notes) + [n]
+        else:
+            sg_notes_at.setdefault(idx, []).append((grp, n))
+
     jump = ""
     if nsub > 3:
         jump = (
@@ -245,8 +268,19 @@ def etymon(tag):
                 f'<span class="form">{form} {pos}{g}{anl}</span>{src}</div>'
             )
         code = "" if k[0] in (None, "zz") else f'<span class="grpno">{esc(k[0])}</span>'
+        # subgroup-anchored notes render on their band, like the original's band footnotes; the
+        # group-name lead-in states the scope (the anchor may cover several adjacent bands)
+        sgn = "".join(
+            '<div class="note-block sgnote">'
+            + render_note(n["xmlnote"]).replace(
+                '<p class="np">', f'<p class="np"><span class="sgnote-scope">{esc(grp)} —</span> ', 1
+            )
+            + "</div>"
+            for grp, n in sg_notes_at.get(i, [])
+        )
         sgs.append(
             f'<div class="sg" id="sg{i}"><h4>{code}{esc(k[1])}<span class="c">{len(items)}</span></h4>'
+            + sgn
             + "".join(rfx)
             + "</div>"
         )
