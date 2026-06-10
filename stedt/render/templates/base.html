@@ -13,9 +13,9 @@
 <a class="skip" href="#main">Skip to content</a>
 <div class="top"></div>
 <header class="mast">
+  {# wordmark only — the spell-out lives on the home h1 and About; masthead width is precious #}
   <div class="brand">
-    <span class="wm"><a href="/">STEDT</a></span>
-    <span class="sub">Sino-Tibetan Etymological Dictionary &amp; Thesaurus</span>
+    <span class="wm"><a href="/" title="Sino-Tibetan Etymological Dictionary &amp; Thesaurus">STEDT</a></span>
   </div>
   <nav class="main">{% for key, href, label in nav_items %}<a href="{{ href }}"{% if nav == key %} class="active"{% endif %}>{{ label }}</a>{% endfor %}</nav>
   <form class="hsearch" action="/search" method="get"><input name="q" aria-label="Search STEDT" placeholder="search…" value="{{ q }}" autocomplete="off"></form>

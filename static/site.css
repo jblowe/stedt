@@ -62,13 +62,15 @@ a.xref{color:var(--accent); border-bottom:1px dotted var(--accent);}
 
 /* masthead */
 .top{height:3px;background:var(--accent);}
+/* one row: wordmark, then the sections, search pushed to the right edge; when the row runs out
+   of width, flex-wrap drops the search onto its own right-aligned line (and ≤720px restacks) */
 header.mast{max-width:1080px;margin:0 auto;padding:22px 28px 14px;display:flex;align-items:flex-end;
   gap:26px;border-bottom:1px solid var(--rule);flex-wrap:wrap;}
 .brand{display:flex;flex-direction:column;line-height:1;}
-.brand .wm{font-family:"Fraunces",serif;font-weight:600;font-size:30px;letter-spacing:.01em;
+.brand .wm{font-family:"Fraunces",serif;font-weight:600;font-size:26px;letter-spacing:.01em;
   font-optical-sizing:auto;}
-.brand .sub{font-variant:small-caps;letter-spacing:.08em;font-size:11.5px;color:var(--mut);margin-top:7px;}
-nav.main{margin-left:auto;display:flex;gap:20px;font-variant:small-caps;letter-spacing:.07em;font-size:15px;}
+nav.main{display:flex;gap:20px;font-variant:small-caps;letter-spacing:.07em;font-size:15px;}
+.hsearch{margin-left:auto;}
 nav.main a{color:var(--soft);} nav.main a:hover{color:var(--accent);}
 nav.main a.active{color:var(--ink);border-bottom:2px solid var(--accent);padding-bottom:2px;}
 .hsearch input{font-family:inherit;font-size:15px;padding:7px 11px;width:200px;border:1px solid var(--rule);
@@ -421,7 +423,7 @@ pre.diff{background:#faf7ef;border:1px solid var(--rule);border-radius:3px;paddi
   header.mast{flex-direction:column;align-items:stretch;gap:12px;padding:16px 18px 12px;}
   .brand{order:1;}
   .brand .wm{font-size:25px;}
-  .hsearch{order:2;}
+  .hsearch{order:2;margin:0;}  /* cancel the desktop right-push so the stacked box stretches */
   /* 16px floor on focusable controls: iOS auto-zooms the page when a focused control is smaller */
   .hsearch input{width:100%;font-size:16px;}
   /* SYNC(page-class) ↔ templates/base.html <body> class: home and search already carry a
