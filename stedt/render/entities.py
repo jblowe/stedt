@@ -14,6 +14,19 @@ from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels,
 from .shell import etymon_href, source_href, language_href, reflex_href, source_reference
 from .templating import env
 
+def _seq_label(s):
+    """Allofam label from the curated sequence: integer -> '1', fraction -> '1a'/'1b'…
+    (twin of legacy/render.py _fmt_seq — same labels on both UIs)."""
+    try:
+        f = float(s)
+    except (TypeError, ValueError):
+        return s or ""
+    if f == int(f):
+        return str(int(f))
+    frac = str(s).split(".")[-1]
+    return str(int(f)) + (chr(ord("a") - 1 + int(frac[0])) if frac and frac[0].isdigit() else "")
+
+
 _SOURCE = env.get_template("source.html")
 _GROUP = env.get_template("group.html")
 _LANGUAGE = env.get_template("language.html")
@@ -64,6 +77,21 @@ def etymon(tag):
         WHERE m.tag=? ORDER BY g.grpno, m.id""",
         (tag,),
     ).fetchall()
+    # computed allofam family: etyma in one chapter sharing the integer part of the curated
+    # sequence are allofams of one root — how the original derives its Allofams box (the
+    # allofams/xrefs text fields are EMPTY for most family members, so without this the
+    # family is invisible; cf. the same query in legacy/render.py).
+    family = []
+    if (e["chapter"] or "") and (e["sequence"] or "") not in ("", "0", "0.0"):
+        family = conn.execute(
+            """SELECT tag, sequence, protoform, protogloss FROM etyma
+            WHERE chapter=? AND sequence!='0' AND sequence!='0.0'
+              AND CAST(sequence AS INTEGER)=CAST(? AS INTEGER)
+              AND coalesce(upper(status),'')!='DELETE' ORDER BY sequence""",
+            (e["chapter"], e["sequence"]),
+        ).fetchall()
+        if len(family) < 2:  # just this etymon: no family to show
+            family = []
     # cross-reference labels: collect every tag mentioned in a pure tag-list field
     digit_tokens = set()
     for fld in (e["allofams"], e["xrefs"], e["possallo"]):
@@ -297,6 +325,20 @@ def etymon(tag):
         return f'<a class="xref" href="/search?q={urllib.parse.quote(g)}">{esc(g)}</a>'
 
     rels = []
+    if family:
+        fam = []
+        for a in family:
+            lab = (
+                f'{esc(_seq_label(a["sequence"]))} <span class="recon">{esc(alt(a["protoform"]))}</span>'
+                f' ‘{esc(a["protogloss"])}’'
+            )
+            fam.append(
+                f"<b>{lab}</b>" if a["tag"] == tag else f'<a href="{etymon_href(a["tag"])}">{lab}</a>'
+            )
+        rels.append(
+            f'<div class="conn-row"><span class="rl">Allofams</span>'
+            f'<span class="reltgt">{" · ".join(fam)}</span></div>'
+        )
     for h in hptb:
         rels.append(
             f'<div class="conn-row"><span class="rl">HPTB</span>'
