@@ -259,11 +259,10 @@ def thesaurus(semkey=None):
                 "disp_esc": Markup(esc(disp)),
                 "cnt": cnt,
                 "lcnt": lcnt,
-                "ti": Markup(
-                    f'<span class="ti" style="font-weight:600">{esc(title)}</span>'
-                    if depth == 0
-                    else f'<span class="ti">{esc(title)}</span>'
-                ),
+                # depth-0 roots get a CLASS (not inline weight) so the sorted/flattened view
+                # can neutralize it — a by-count ranking mixing bold roots with plain leaves
+                # read as emphasis it didn't mean
+                "ti": Markup(f'<span class="ti{" d0" if depth == 0 else ""}">{esc(title)}</span>'),
                 "ct": Markup(
                     (f'<span class="nnote">{nn} note{"" if nn == 1 else "s"}</span>' if nn else "")
                     + (

@@ -306,6 +306,10 @@ a.syl:hover,a.syl:focus{z-index:5;}
 .qhint-fields{white-space:nowrap;}
 /* curated etyma.sequence on thesaurus listings (decimal = sub-root of the integer root) */
 .seqn{color:var(--mut);font-variant-numeric:tabular-nums;}
+/* thesaurus tree depth styling: roots bold in the hierarchical view only — the sorted
+   (flattened) view ranks nodes as peers, where leftover bold reads as unmeant emphasis */
+.tree .d0{font-weight:600;}
+.tree.flat .d0{font-weight:inherit;}
 /* thesaurus-index marker for nodes carrying chapter notes; when present it takes the row's
    flexible gap so the recon/reflex count keeps its right edge */
 .tree .nnote{color:var(--mut);font-size:12px;white-space:nowrap;margin-left:auto;}

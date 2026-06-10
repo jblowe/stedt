@@ -17,6 +17,7 @@
     if(k!=='key')items.sort(function(a,b){return (+b.getAttribute('data-'+k)||0)-(+a.getAttribute('data-'+k)||0);});
     var f=document.createDocumentFragment();
     items.forEach(function(li){li.style.marginLeft=(k==='key'?li.getAttribute('data-pad'):0)+'px';f.appendChild(li);});
+    ul.classList.toggle('flat',k!=='key');
     ul.appendChild(f);
   });
 })();
