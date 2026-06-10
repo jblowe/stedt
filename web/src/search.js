@@ -152,9 +152,21 @@ export async function stedtFormsByCategory(semkeys) {
 // a quoted phrase so it can match in ANY column (form/gloss/language). So "hit Lotha" finds rows
 // where 'hit' (gloss) AND 'Lotha' (language) both occur — the combined query the single box used
 // to fail silently (it matched the whole input as one adjacent phrase → always zero).
+// Two invariants, both load-bearing:
+//  - every quoted term must be a SINGLE FTS token: the index is detail=column (no position
+//    lists), where FTS5 rejects multi-token phrases — and unicode61 splits word-internal
+//    punctuation, so a raw quoted 'b-riŋ' / "k'a" (the normal shape of STEDT forms) used to
+//    throw and take the whole search down. Replacing every separator with a space first makes
+//    that impossible; adjacency was never expressible at detail=column, so nothing is lost.
+//  - commas are OR groups ('frog, snail' = either gloss), the original site's documented idiom;
+//    tokens within a group still AND. FTS5's AND binds tighter than OR, so groups need parens.
+const ftsTok = (s) => s.replace(/[^\p{L}\p{N}\p{M}]+/gu, ' ').split(/\s+/).filter(Boolean);
 const ftsQ = (s) => {
-  const toks = s.replace(/["()*:^]/g, ' ').split(/\s+/).filter(Boolean);
-  return toks.length ? toks.map((t) => '"' + t + '"').join(' ') : '""';
+  const groups = s.split(',')
+    .map((g) => ftsTok(g).map((t) => '"' + t + '"').join(' '))
+    .filter(Boolean);
+  if (!groups.length) return '""';   // separator-only query; matches nothing, throws nothing
+  return groups.length === 1 ? groups[0] : groups.map((g) => '(' + g + ')').join(' OR ');
 };
 
 // excludes proto-language pseudo-forms (language '*…'): those are reconstructions, surfaced under
@@ -182,7 +194,7 @@ const LANG_SQL = `
 // corpus. Detect CJK and route those queries through a substring LIKE over the stored lexicon text
 // (mirroring the original site's RLIKE form search) instead of FTS MATCH.
 const hasCJK = (s) => /[㐀-鿿豈-﫿]|[\ud840-\ud87f][\udc00-\udfff]/.test(s || '');
-const likeToks = (s) => s.replace(/["()*:^%_]/g, ' ').split(/\s+/).filter(Boolean);
+const likeToks = (s) => s.replace(/["()*:^%_,，]/g, ' ').split(/\s+/).filter(Boolean);
 const _likeWhere = (n) => Array(n).fill('(reflex LIKE ? OR gloss LIKE ?)').join(' AND ');
 const reflexLikeSql = (n) => `
   SELECT ${RFX_COLS}${RFX_JOINS}
