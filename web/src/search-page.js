@@ -2,7 +2,7 @@
 // layer in search.js, loaded on every page), windowing each result section with windowedList. The
 // row markup + URLs live in rows.js (shared with the thesaurus + reconstructions views).
 import { windowedList } from './windowed.js';
-import { B, esc, fmt, reflexRow, etymonRow, languageRow } from './rows.js';
+import { B, esc, fmt, norm, reflexRow, etymonRow, languageRow } from './rows.js';
 
 const CHUNK = 200;
 const bs = document.getElementById('bs');
@@ -33,6 +33,42 @@ function block(title, total, data, rowFn) {
   const host = document.createElement('div'); res.appendChild(host);
   windowed(host, data, rowFn);
 }
+// the Reflexes section gets a sort control: 'by subgroup' is the default Stammbaum-grouped view;
+// any other key re-sorts the fetched rows in memory (case/accent-insensitive) and renders them
+// flat — subgroup band headers would be meaningless mid-sort. _lk/_fk come precomputed from
+// search.js; gloss/source keys are derived here on demand.
+const RX_KEYS = {
+  language: r => [r._lk, r._fk],
+  form:     r => [r._fk, r._lk],
+  gloss:    r => [norm(r.gloss), r._lk, r._fk],
+  source:   r => [norm(r.citation || r.srcabbr), r._lk, r._fk],
+};
+function reflexBlock(total, data) {
+  const res = document.getElementById('results');
+  res.insertAdjacentHTML('beforeend', sectionLabel('Reflexes', total, data.length));
+  const lab = res.lastElementChild;
+  const sel = document.createElement('select');
+  sel.setAttribute('aria-label', 'Sort reflexes');
+  for (const [v, t] of [['subgroup', 'by subgroup'], ['language', 'by language'], ['form', 'by form'],
+                        ['gloss', 'by gloss'], ['source', 'by source']]) sel.add(new Option(t, v));
+  const wrap = document.createElement('label');
+  wrap.className = 'rxsort'; wrap.append('Sort '); wrap.appendChild(sel);
+  lab.appendChild(wrap);
+  const host = document.createElement('div'); res.appendChild(host);
+  const render = () => {
+    host.innerHTML = '';
+    const keyFn = RX_KEYS[sel.value];
+    if (!keyFn) { _rxsub = null; windowed(host, data, rfxGrouped); return; }   // default order, grouped
+    const keyed = data.map(r => [keyFn(r), r]);
+    keyed.sort((a, b) => {
+      for (let i = 0; i < a[0].length; i++) { if (a[0][i] < b[0][i]) return -1; if (a[0][i] > b[0][i]) return 1; }
+      return 0;
+    });
+    windowed(host, keyed.map(p => p[1]), reflexRow);
+  };
+  sel.addEventListener('change', render);
+  render();
+}
 async function run() {
   const q = (new URLSearchParams(location.search).get('q') || '').trim();
   bs.value = q;
@@ -52,7 +88,7 @@ async function run() {
   res.innerHTML = '';
   if (r.languageTotal) block('Languages', r.languageTotal, r.languages, languageRow);
   if (r.etymaTotal) block('Reconstructions', r.etymaTotal, r.etyma, etymonRow);
-  if (r.reflexTotal) { _rxsub = null; block('Reflexes', r.reflexTotal, r.reflexes, rfxGrouped); }
+  if (r.reflexTotal) reflexBlock(r.reflexTotal, r.reflexes);
   if (!r.languageTotal && !r.etymaTotal && !r.reflexTotal) res.innerHTML = '<p class="cap">No matches.</p>';
 }
 window.addEventListener('DOMContentLoaded', run);
