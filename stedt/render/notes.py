@@ -42,7 +42,12 @@ def _smart_quotes(s):
 def render_note(x):
     if not x:
         return ""
-    s = x
+    # Note text writes the asterisk literally inside <reconstruction>*li̯ək</reconstruction>
+    # (all 512 such notes, zero exceptions), but CSS .recon::before injects one too — strip the
+    # literal one so note recons show '*li̯ək', not '**li̯ək' ('**' marks a rejected form to
+    # historical linguists). Leading star only: ::before fires once per span, so interior stars
+    # in multi-form contents ('*lək, *li̯ək' in one tag) stay literal and still render right.
+    s = x.replace("<reconstruction>*", "<reconstruction>")
     valid = valid_etymon_tags()
     labels = xref_labels()
 
