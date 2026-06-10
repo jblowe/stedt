@@ -32,8 +32,12 @@ def syl_form(reflex, syn, pf=None, self_tag=None):
         base = esc(syl)
         if tag is not None and tag == self_tag:
             out += f'<span class="syl-self">{base}</span>'   # this etymon's own reflex syllable
-        elif tag is not None:
-            info = pf.get(tag)
+        elif tag is not None and tag in pf:
+            # pf membership gates the link: pf comes from proto_labels(), which is restricted to
+            # non-DELETE etyma — the only ones with a built page. A tag outside pf (withdrawn
+            # etymon) renders as plain text, matching the client, whose DELETE-filtered join never
+            # sees such tags at all.
+            info = pf[tag]
             out += f'<a class="syl" href="{etymon_href(tag)}">{base}{syl_pop(info) if info else ""}</a>'
         else:
             out += base
