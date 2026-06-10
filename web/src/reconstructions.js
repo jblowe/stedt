@@ -18,7 +18,9 @@ import { etymonRow, norm } from './rows.js';
   var row = r => etymonRow({ tag: r[0], protoform: r[1], protogloss: r[2], plg: r[3], nreflex: r[4], exemplary: r[5], provisional: r[6] });
   function updateCount(shown) {
     var t = DATA.length, m = view.length;
-    var s = (m === t) ? t.toLocaleString() + ' etyma' : m.toLocaleString() + (m === 1 ? ' match' : ' matches');
+    // 'reconstructions', not 'etyma' — the sitewide term (nav, About, search, group metabars)
+    var s = (m === t) ? t.toLocaleString() + (t === 1 ? ' reconstruction' : ' reconstructions')
+      : m.toLocaleString() + (m === 1 ? ' match' : ' matches');
     if (shown < m) s += ' · ' + shown.toLocaleString() + ' shown';
     count.textContent = s;
   }

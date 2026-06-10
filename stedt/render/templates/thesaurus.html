@@ -23,7 +23,7 @@
 })();
 </script>
 {%- else -%}
-<div class="crumbs"><a href="/thesaurus">Thesaurus</a> &nbsp;›&nbsp; {{ crumb }}</div><h1>{{ title }}</h1>
+<div class="crumbs"><a href="/thesaurus">Thesaurus</a>{% if crumb %} &nbsp;›&nbsp; {{ crumb }}{% endif %}</div><h1>{{ title }}</h1>
 {%- if cnotes -%}
 <section class="notes">{% for n in cnotes %}<div class="note-block">{{ n }}</div>{% endfor %}</section>
 {%- endif -%}

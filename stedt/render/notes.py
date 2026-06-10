@@ -119,9 +119,8 @@ def render_note(x):
 
     s = re.sub(r'<xref[^>]*\bref="(\d+)"[^>]*>(.*?)</xref>', _xref, s, flags=re.S)
     s = re.sub(r"</?xref[^>]*>", "", s)
-    s = re.sub(
-        r'<a\s+href="([^"]*)"[^>]*>(.*?)</a>', r'<a href="\1" rel="noopener" target="_blank">\2</a>', s, flags=re.S
-    )
+    # anchors keep only their href; external links open in the same tab (convention at iso_link)
+    s = re.sub(r'<a\s+href="([^"]*)"[^>]*>(.*?)</a>', r'<a href="\1">\2</a>', s, flags=re.S)
     for t, (o, c) in _PAIR.items():
         s = s.replace(f"<{t}>", o).replace(f"</{t}>", c)
     s = re.sub(r"<br\s*/?>", "<br>", s)

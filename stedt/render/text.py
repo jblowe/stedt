@@ -45,10 +45,8 @@ def iso_link(code):
     code = (code or "").strip()
     if not code:
         return ""
-    return (
-        f'<a href="https://glottolog.org/resource/languoid/iso/{esc(code)}"'
-        f' rel="noopener" target="_blank">{esc(code)}</a>'
-    )
+    # convention: external links open in the same tab, like every other link on the site
+    return f'<a href="https://glottolog.org/resource/languoid/iso/{esc(code)}">{esc(code)}</a>'
 
 
 def rfx_noun(n):

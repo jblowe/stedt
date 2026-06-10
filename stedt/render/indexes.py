@@ -86,7 +86,9 @@ def reconstructions():
     payload = json.dumps(data, separators=(",", ":"), ensure_ascii=False).replace("<", "\u003c")
     return page(
         "Reconstructions",
-        _RECONSTRUCTIONS.render(total=f"{total:,}", payload=Markup(payload)),
+        _RECONSTRUCTIONS.render(
+            total=f"{total:,}", total_noun=plural(total, "reconstruction"), payload=Markup(payload)
+        ),
         nav="reconstructions",
     )
 
@@ -308,7 +310,7 @@ def thesaurus(semkey=None):
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
         own,
     ).fetchall()
-    crumb = breadcrumb(conn, semkey)
+    crumb = breadcrumb(conn, semkey, ancestors_only=True)
     depth = len(semkey.split("."))
     # Children at the next depth, minus the N.0 overview (it IS this integer node).
     kids = conn.execute(

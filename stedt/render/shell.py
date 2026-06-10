@@ -39,10 +39,13 @@ def page(title, body, q="", nav="", desc=""):
     )
 
 
-def breadcrumb(conn, semkey):
+def breadcrumb(conn, semkey, ancestors_only=False):
+    """Linked chapter chain for a filing key. The etymon page wants the full chain (the filing node
+    is an ancestor of the etymon); a thesaurus node page passes ancestors_only=True so the crumb
+    never names the page itself — the current page is the h1, never its own crumb (sitewide rule)."""
     parts = (semkey or "").split(".")
     out = []
-    for i in range(1, len(parts) + 1):
+    for i in range(1, len(parts) + 1 - (1 if ancestors_only else 0)):
         sk = ".".join(parts[:i])
         r = conn.execute("SELECT chaptertitle FROM chapters WHERE semkey=?", (sk,)).fetchone()
         if not r and "." not in sk:  # integer chapter level: borrow the N.0 overview title

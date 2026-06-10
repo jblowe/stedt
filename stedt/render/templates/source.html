@@ -3,7 +3,7 @@
       <div class="plg">Source · {{ srcabbr }}</div>
       <h1 class="pagetitle">{{ cit_title }}</h1>
       {{ citehtml }}
-      <div class="crumbs"><a href="/sources">Sources</a> &nbsp;›&nbsp; {{ srcabbr }}</div>
+      <div class="crumbs"><a href="/sources">Sources</a></div>
       <div class="metabar">{% for m in meta %}{{ m }}{% endfor %}</div>
     </div>
     {% if notes %}<section class="notes"><h3>Notes</h3>{% for n in notes %}<div class="note-block">{{ n }}</div>{% endfor %}</section>{% endif %}
