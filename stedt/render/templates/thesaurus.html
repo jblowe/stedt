@@ -25,7 +25,7 @@
 {%- else -%}
 <div class="crumbs"><a href="/thesaurus">Thesaurus</a>{% if crumb %} &nbsp;›&nbsp; {{ crumb }}{% endif %}</div><h1>{{ title }}</h1>
 {%- if cnotes -%}
-<section class="notes">{% for n in cnotes %}<div class="note-block">{{ n }}</div>{% endfor %}</section>
+<section class="notes">{% for n in cnotes %}<div class="note-block">{{ n }}</div>{% endfor %}{{ cfeet }}</section>
 {%- endif -%}
 {%- if kids -%}
 <ul>{% for k in kids %}<li><a class="row" href="/thesaurus/{{ k.semkey }}"><span class="sk">{{ k.semkey_esc }}</span><span class="ti">{{ k.title }}</span>{{ k.ct }}</a></li>{% endfor %}</ul>

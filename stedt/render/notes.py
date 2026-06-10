@@ -17,8 +17,9 @@ _PAIR = {
     "gloss": ('<span class="gl">', "</span>"),
     "emph": ("<em>", "</em>"),
     "strong": ("<strong>", "</strong>"),
-    # bracketed inline: the original collected these into numbered bottom-of-page footnotes; until
-    # that apparatus exists, the bracket at least keeps the aside from fusing into the sentence
+    # fallback only: page renderers pass a collector to render_note and get the original's
+    # numbered bottom-of-page footnotes; without one (search-DB lexnote baking, note popovers —
+    # contexts with no page bottom) the bracket keeps the aside from fusing into the sentence
     "footnote": (' <span class="fn">[fn: ', "]</span>"),
     "unicode": ("<span>", "</span>"),
     "sup": ("<sup>", "</sup>"),
@@ -64,14 +65,30 @@ def _typography(text):
     return _ITAL.sub(r"<i>\1</i>", text)
 
 
-def render_note(x):
+def render_note(x, footnotes=None):
     if not x:
         return ""
+    s = x
+    # Footnote apparatus (rootcanal Notes.pm xml2html): with a page-level collector, each
+    # <footnote> becomes a numbered superscript link and its body joins the page's bottom
+    # footnote list (footnotes_block). Bodies are extracted BEFORE every other pass — they carry
+    # the same tag vocabulary as note text (xrefs, forms, quote entities), so each is rendered
+    # recursively through this whole pipeline, not patched through the outer note's passes.
+    # Numbering continues across the notes of one page (n = list length so far). The marker is
+    # planted as a control-char slot and substituted at the end so no pass can mangle it.
+    if footnotes is not None:
+
+        def _foot(m):
+            n = len(footnotes) + 1
+            footnotes.append(render_note(m.group(1)).replace('<p class="np">', "").replace("</p>", ""))
+            return f"\x02{n}\x03"
+
+        s = re.sub(r"<footnote>(.*?)</footnote>", _foot, s, flags=re.S)
     # Note text writes the asterisk literally inside <reconstruction>*li̯ək</reconstruction>
     # (all such notes, zero exceptions) — keep it as REAL text (CSS ::before doesn't copy), only
     # wrap it in .star for the accent color. Leading star only: interior stars in multi-form
     # contents ('*lək, *li̯ək' in one tag) stay plain literal text and still render right.
-    s = x.replace("<reconstruction>*", '<reconstruction><span class="star">*</span>')
+    s = s.replace("<reconstruction>*", '<reconstruction><span class="star">*</span>')
     # Shield quote entities inside form tags from _smart_quotes: a form-initial apostrophe is a
     # tone/register letter, not punctuation — educating it to ‘ makes it read as an opening quote
     # (rootcanal Notes.pm _qtd shields forms the same way). Placeholders survive the passes below
@@ -127,9 +144,26 @@ def render_note(x):
     s = s.replace("\x00", "'").replace("\x01", '"')  # shielded form-internal marks stay straight
     # typography (arrows, work-title italics) on text runs only — never inside a tag
     s = "".join(p if p.startswith("<") else _typography(p) for p in re.split(r"(<[^>]+>)", s))
+    if footnotes is not None:  # slots planted above -> superscript markers (rootcanal's footlink/toof ids)
+        s = re.sub(r"\x02(\d+)\x03", r'<a class="footlink" href="#foot\1" id="toof\1"><sup>\1</sup></a>', s)
     # Leave &lt;/&gt;/&amp; as entities: in note text they're literal angle brackets/ampersands
     # (linguistic notation like "<WT", "<n>", "&lt;--&gt;"). Un-escaping them to raw < > here
     # produced bogus unclosed tags. Structural markup uses literal <tag> and was handled above.
     if "<p" not in s:
         s = f'<p class="np">{s}</p>'
     return s
+
+
+def footnotes_block(footnotes):
+    """Bottom-of-page footnote list paired with render_note's superscript markers — ids must
+    mirror the markers' (#foot{n} target, #toof{n} backlink), numbering from 1 in list order."""
+    if not footnotes:
+        return ""
+    return (
+        '<div class="footnotes">'
+        + "".join(
+            f'<div class="fnote" id="foot{n}"><a href="#toof{n}" class="footback">{n}</a> {body}</div>'
+            for n, body in enumerate(footnotes, 1)
+        )
+        + "</div>"
+    )

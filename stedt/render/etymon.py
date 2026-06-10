@@ -8,7 +8,7 @@ from markupsafe import Markup
 from .config import CITE_BASE, PLG_FULL
 from .db import ETY_LIVE, LEX_VISIBLE, con
 from .text import cite_tail, esc, alt, natkey, sortkey
-from .notes import note_label, render_note
+from .notes import footnotes_block, note_label, render_note
 from .rows import disp_form, syl_form
 from .shell import page, breadcrumb, proto_labels
 from .shell import etymon_href, source_href, language_href, reflex_href
@@ -284,20 +284,22 @@ def etymon(tag):
             + "</div>"
         )
 
+    feet = []  # page footnote collector — numbering runs on across notes AND comparanda
     noteshtml = ""
     if notes:
         noteshtml = (
             '<section class="notes"><h3>Notes</h3>'
-            + "".join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in notes)
+            + "".join(f'<div class="note-block">{render_note(r["xmlnote"], footnotes=feet)}</div>' for r in notes)
             + "</section>"
         )
     if compar:
         label = "Chinese comparand" + ("um" if len(compar) == 1 else "a")
         noteshtml += (
             f'<section class="notes"><h3>{label}</h3>'
-            + "".join(f'<div class="note-block">{render_note(r["xmlnote"])}</div>' for r in compar)
+            + "".join(f'<div class="note-block">{render_note(r["xmlnote"], footnotes=feet)}</div>' for r in compar)
             + "</section>"
         )
+    noteshtml += footnotes_block(feet)
 
     nr = len(reflex_rows)
     cnt = (

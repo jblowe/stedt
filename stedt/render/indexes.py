@@ -8,7 +8,7 @@ from markupsafe import Markup
 from .config import CITE_BASE, PREVIEW, TREE_INDENT_PX
 from .db import ECAT, ETY_LIVE, LEX_VISIBLE, con, reflex_semkey_counts
 from .text import esc, alt, natkey, plural, rcount_txt, rfx_noun, sortkey
-from .notes import render_note
+from .notes import footnotes_block, render_note
 from .shell import page, breadcrumb, reflex_counts, canon_lgid, etymon_href, source_reference
 from .templating import env
 
@@ -390,19 +390,22 @@ def thesaurus(semkey=None):
     if nforms:
         attest = {"keys_json": Markup(esc(json.dumps(own, separators=(",", ":")))), "nforms": f"{nforms:,}"}
     conn.close()
+    # drop notes that render to no text (3 chapters carry an empty '<par></par>'
+    # graphical note whose image never shipped) — else an empty grey box renders
+    cfeet = []  # page footnote collector — must be filled (all notes rendered) before its block
+    cnoteinfo = [
+        Markup(h)
+        for h in (render_note(r["xmlnote"], footnotes=cfeet) for r in cnotes)
+        if re.sub(r"<[^>]+>", "", h).strip()
+    ]
     return page(
         "Thesaurus" + f": {semkey}",
         _THESAURUS.render(
             root=False,
             crumb=Markup(crumb),
             title=Markup(esc(title)),
-            # drop notes that render to no text (3 chapters carry an empty '<par></par>'
-            # graphical note whose image never shipped) — else an empty grey box renders
-            cnotes=[
-                Markup(h)
-                for h in (render_note(r["xmlnote"]) for r in cnotes)
-                if re.sub(r"<[^>]+>", "", h).strip()
-            ],
+            cnotes=cnoteinfo,
+            cfeet=Markup(footnotes_block(cfeet)),
             kids=kidinfo,
             direct=dinfo,
             ndirect=f"{len(direct):,}",

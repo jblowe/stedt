@@ -142,6 +142,12 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .notes{margin:26px 0 8px;}
 .np{margin:0 0 12px;max-width:38em;} .fn{font-size:.86em;color:var(--soft);}
 .note-block{margin-bottom:6px;}
+/* bottom-of-page footnote apparatus (render_note collector + footnotes_block) */
+.footlink{border-bottom:none;}
+.footnotes{margin-top:16px;padding-top:10px;border-top:1px solid var(--hair);
+  font-size:.86em;color:var(--soft);max-width:44em;}
+.fnote{margin:0 0 6px;}
+.footback{vertical-align:super;font-size:.85em;border-bottom:none;}
 /* subgroup-anchored etymon note, shown on its band in the reflex table (original: band footnote) */
 .sg .sgnote{margin:2px 0 10px;font-size:14px;color:var(--soft);}
 .sg .sgnote .np{margin:0 0 6px;}
