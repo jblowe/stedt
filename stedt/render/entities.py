@@ -545,13 +545,14 @@ def language(lgid):
             chunk,
         ):
             lnotes.setdefault(nr["rn"], []).append((nr["notetype"], nr["xmlnote"]))
-    # a lect's ISO / short-name may live on a source-variant sibling, not the canonical lgid;
-    # back-fill from any sibling so the lect's own page shows them (group() back-fills the same way)
-    sil, lgab = ln["silcode"] or "", ln["lgabbr"] or ""
-    if (not sil or not lgab) and len(sibs) > 1:
-        for sr in conn.execute(f"SELECT silcode, lgabbr FROM languagenames WHERE lgid IN ({qm})", sibs):
+    # a lect's ISO / short-name / Namkung page may live on a source-variant sibling, not the
+    # canonical lgid; back-fill from any sibling so the lect's own page shows them (group() too)
+    sil, lgab, pi_page = ln["silcode"] or "", ln["lgabbr"] or "", ln["pi_page"] or ""
+    if (not sil or not lgab or not pi_page) and len(sibs) > 1:
+        for sr in conn.execute(f"SELECT silcode, lgabbr, pi_page FROM languagenames WHERE lgid IN ({qm})", sibs):
             sil = sil or (sr["silcode"] or "")
             lgab = lgab or (sr["lgabbr"] or "")
+            pi_page = pi_page or (sr["pi_page"] or "")
     conn.close()
 
     crumb_links = ['<a href="/languages">Languages</a>'] + [
@@ -566,6 +567,10 @@ def language(lgid):
         meta.append(Markup(f"<span><b>ISO 639-3</b> {iso_link(sil)}</span>"))
     if nsrc > 1:
         meta.append(Markup(f"<span><b>{nsrc}</b> sources</span>"))
+    if pi_page:
+        # print citation into the phonological-inventory monograph (the original's viewer for it
+        # is dead upstream, but the page number remains a usable reference)
+        meta.append(Markup(f"<span><b>phon. inventory</b> Namkung 1996, p. {esc(str(pi_page))}</span>"))
     meta.append(Markup(f"<span><b>{total:,}</b> {rfx_noun(total)}</span>"))
 
     groups = {}
