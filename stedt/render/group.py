@@ -4,7 +4,7 @@ from markupsafe import Markup
 
 from .config import PLG_FULL, TREE_INDENT_PX
 from .db import ETY_LIVE, LEX_VISIBLE, con
-from .text import esc, alt, natkey, iso_link, rcount_txt, rfx_noun, sortkey
+from .text import esc, alt, natkey, iso_link, plural, rcount_txt, rfx_noun, sortkey
 from .rows import lgab_span
 from .shell import page, group_lineage, reflex_counts, canonical_languages
 from .shell import etymon_href, source_href
@@ -132,7 +132,7 @@ def group(grpid):
     ]
     meta = []
     if langs:
-        meta.append(Markup(f"<span><b>{len(langs)}</b> languages</span>"))
+        meta.append(Markup(f"<span><b>{len(langs)}</b> {plural(len(langs), 'language')}</span>"))
     if recons:
         meta.append(Markup(f"<span><b>{len(recons):,}</b> reconstructions</span>"))
 

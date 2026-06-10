@@ -7,7 +7,7 @@ from markupsafe import Markup
 
 from .config import CITE_BASE, PLG_FULL
 from .db import ETY_LIVE, LEX_VISIBLE, con
-from .text import esc, alt, natkey, sortkey
+from .text import cite_tail, esc, alt, natkey, sortkey
 from .notes import note_label, render_note
 from .rows import disp_form, syl_form
 from .shell import page, breadcrumb, proto_labels
@@ -410,7 +410,8 @@ def etymon(tag):
         rels.append(
             f'<div class="conn-row"><span class="rl">HPTB</span>'
             f'<span class="reltgt"><span class="recon">{esc(alt(h["protoform"]))}</span> ‘{esc(h["protogloss"])}’</span>'
-            f'<span class="src">pp. {esc(h["pages"])}</span></div>'
+            # 'p.' for a single page, 'pp.' for a range/list (842 of 1,500 hptb refs are one page)
+            f'<span class="src">{"pp." if re.search(r"[-–,;]", str(h["pages"] or "")) else "p."} {esc(h["pages"])}</span></div>'
         )
     for label, fld in (("Allofam", e["allofams"]), ("See also", e["xrefs"]), ("Poss. allofam", e["possallo"])):
         if fld:
@@ -461,7 +462,9 @@ def etymon(tag):
             ' an official STEDT reconstruction.">provisional</span>'
         )
 
-    cite_text = f"STEDT etymon #{e['tag']}, *{alt(e['protoform'])} ‘{e['protogloss']}’. {CITE_BASE}/etymon/{e['tag']} (accessed [ACCESSED])"
+    cite_text = f"STEDT etymon #{e['tag']}, *{alt(e['protoform'])} ‘{e['protogloss']}’. " + cite_tail(
+        f"{CITE_BASE}/etymon/{e['tag']}"
+    )
     bib = (
         "@misc{stedt-" + str(e["tag"]) + ",\n"
         "  title  = {{*" + alt(e["protoform"] or "") + " '" + (e["protogloss"] or "") + "'}},\n"

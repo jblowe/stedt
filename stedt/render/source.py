@@ -6,7 +6,7 @@ from markupsafe import Markup
 
 from .config import CITE_BASE
 from .db import LEX_VISIBLE, con
-from .text import esc, iso_link, rfx_noun
+from .text import cite_tail, esc, iso_link, plural, rfx_noun
 from .notes import render_note
 from .rows import lgab_span
 from .shell import page, canon_lgid, source_reference
@@ -57,10 +57,10 @@ def source(srcabbr):
     cite = source_reference(s)
     meta = []
     if langs:  # a reconstruction-only source (JRO-Tilung) shouldn't lead with '0 languages · 0 reflexes'
-        meta.append(Markup(f"<span><b>{len(langs)}</b> languages</span>"))
+        meta.append(Markup(f"<span><b>{len(langs)}</b> {plural(len(langs), 'language')}</span>"))
         meta.append(Markup(f"<span><b>{total:,}</b> {rfx_noun(total)}</span>"))
     if plangs:
-        meta.append(Markup(f"<span><b>{ptotal:,}</b> reconstruction records</span>"))
+        meta.append(Markup(f"<span><b>{ptotal:,}</b> {plural(ptotal, 'reconstruction record')}</span>"))
 
     def langinfo(l, noun=None):
         bits = [esc(x) for x in (l["grpno"], l["subgroup"]) if x]
@@ -92,7 +92,7 @@ def source(srcabbr):
     # orphaned .citebox CSS). Access date is a fill-in blank, like the etymon citebox (static site).
     src_url = f"{CITE_BASE}/source/{s['srcabbr']}"
     cite_full = cite or (s["citation"] or s["srcabbr"])
-    cite_as = f"{cite_full} — via STEDT, {src_url} (accessed [ACCESSED])."
+    cite_as = f"{cite_full} — via STEDT, {cite_tail(src_url)}"
     # BibTeX for the source, parallel to the etymon citebox so both cite-boxes offer it.
     # imprint is free text (series/publisher/place), so keep it in note rather than mis-splitting it.
     bibkey = "stedt-src-" + re.sub(r"[^A-Za-z0-9]+", "-", s["srcabbr"] or "source").strip("-")

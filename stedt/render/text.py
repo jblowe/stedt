@@ -55,6 +55,18 @@ def rfx_noun(n):
     return "reflex" if n == 1 else "reflexes"
 
 
+def plural(n, noun):
+    """The s-pluralizing sibling of rfx_noun: 'language' / 'languages' by count. Every count label
+    goes through one of the two, so '1 languages' can't recur either."""
+    return noun if n == 1 else noun + "s"
+
+
+def cite_tail(url):
+    """Shared terminal of every copy-citation: URL + access-date blank + period — one helper so the
+    etymon and source citeboxes can't disagree on punctuation."""
+    return f"{url} (accessed [ACCESSED])."
+
+
 def rcount_txt(n):
     """' · 12 reflexes' / ' · 1 reflex' / '' for an etymon's reflex count."""
     if not n:
