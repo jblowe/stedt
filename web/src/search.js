@@ -221,9 +221,10 @@ const reflexLikeCountSql = (groups) => `
 // form:/gloss:/language: filter that FTS column; subgroup: restricts every result type to a
 // Stammbaum subtree (matched by group name, plg abbreviation, or grpno — descendants included);
 // proto:/pgloss: target a reconstruction's form/gloss. Bare terms keep matching anywhere, all
-// terms AND. (Documented by the hint row under the search box — keep the two in step.)
+// terms AND. (Documented by the expandable 'Search syntax' reference under the box — keep in step.)
 const FIELDS = { form: 'form', reflex: 'form', gloss: 'gloss', language: 'language', lg: 'language',
-                 subgroup: 'subgroup', group: 'subgroup', proto: 'proto', pgloss: 'pgloss' };
+                 subgroup: 'subgroup', group: 'subgroup', proto: 'proto', pgloss: 'pgloss',
+                 source: 'source', src: 'source', pos: 'pos', tag: 'tag', etymon: 'tag' };
 // tokenizer: a value with spaces takes quotes — subgroup:"Central Loloish", language:"Lotha Naga".
 // (Unquoted, the space ends the value and the rest becomes bare terms.)
 const _qtoks = (s) => s.match(/[A-Za-z]+:"[^"]*"|"[^"]*"|\S+/g) || [];
@@ -234,11 +235,12 @@ const _fieldOf = (w) => {
 };
 const hasFields = (s) => _qtoks(s).some((w) => _fieldOf(w));
 const parseFields = (s) => {
-  const q = { cols: [], bare: [], subgroup: [], proto: [], pgloss: [] };
+  const q = { cols: [], bare: [], subgroup: [], proto: [], pgloss: [], source: [], pos: [], tag: [] };
   for (const raw of _qtoks(s)) {
     const f = _fieldOf(raw);
     if (!f) { q.bare.push(_unq(raw)); continue; }
-    if (f[0] === 'subgroup' || f[0] === 'proto' || f[0] === 'pgloss') q[f[0]].push(f[1]);
+    if (f[0] === 'tag') { const n = parseInt(f[1], 10); if (n > 0) q.tag.push(n); }
+    else if (f[0] !== 'form' && f[0] !== 'gloss' && f[0] !== 'language') q[f[0]].push(f[1]);
     // a multi-word column value becomes several column-filtered tokens, ANDed — adjacency isn't
     // expressible anyway (detail=column drops positions), and the tokens must co-occur in the column
     else for (const t of ftsTok(f[1])) q.cols.push(f[0] + ':"' + t + '"');
@@ -267,17 +269,37 @@ const subgroupGrpids = (db, terms) => {
   return ids ? [...ids] : [];
 };
 
+// source: terms -> srcabbr list (exact abbreviation, else citation substring; terms union —
+// a record has one source, so intersecting two different source: terms could only be empty)
+let _srcCache = null;
+const sourceAbbrs = (db, terms) => {
+  if (!_srcCache) _srcCache = run(db, 'SELECT srcabbr, citation FROM srcbib');
+  const out = new Set();
+  for (const t of terms) {
+    const tl = t.toLowerCase();
+    for (const r of _srcCache) {
+      if ((r.srcabbr || '').toLowerCase() === tl || (r.citation || '').toLowerCase().includes(tl)) out.add(r.srcabbr);
+    }
+  }
+  return [...out];
+};
+
 const _ph = (n) => Array(n).fill('?').join(',');
 // reflex query/count for a fielded search: optional FTS MATCH, optional subgroup restriction.
 // With no MATCH (subgroup:-only browse) it scans lexicon once — a few hundred ms in WASM.
-const reflexFieldCountSql = (m, ng) => `
+// the non-FTS axes a fielded reflex query can carry (params in this order, after any MATCH)
+const _axes = (x) => (x.ng ? ` AND ln.grpid IN (${_ph(x.ng)})` : '')
+  + (x.ns ? ` AND ln.srcabbr IN (${_ph(x.ns)})` : '')
+  + (x.np ? ` AND (${Array(x.np).fill('l.gfn LIKE ?').join(' OR ')})` : '')
+  + (x.nt ? ` AND EXISTS (SELECT 1 FROM lx_et_hash h2 WHERE h2.rn = l.rn AND h2.tag IN (${_ph(x.nt)}))` : '');
+const reflexFieldCountSql = (m, x) => `
   SELECT count(*) AS n
   FROM ${m ? 'lexicon_fts f JOIN lexicon l ON l.rn = f.rowid' : 'lexicon l'}
   JOIN languagenames ln ON ln.lgid = l.lgid
-  WHERE ${m ? 'f.lexicon_fts MATCH ? AND ' : ''}ln.language NOT LIKE '*%'${ng ? ` AND ln.grpid IN (${_ph(ng)})` : ''}`;
-const reflexFieldSql = (m, ng) => `
+  WHERE ${m ? 'f.lexicon_fts MATCH ? AND ' : ''}ln.language NOT LIKE '*%'${_axes(x)}`;
+const reflexFieldSql = (m, x) => `
   SELECT ${RFX_COLS}${RFX_JOINS}
-  WHERE ${m ? 'l.rn IN (SELECT rowid FROM lexicon_fts WHERE lexicon_fts MATCH ? LIMIT ?) AND ' : ''}ln.language NOT LIKE '*%'${ng ? ` AND ln.grpid IN (${_ph(ng)})` : ''}
+  WHERE ${m ? 'l.rn IN (SELECT rowid FROM lexicon_fts WHERE lexicon_fts MATCH ? LIMIT ?) AND ' : ''}ln.language NOT LIKE '*%'${_axes(x)}
   GROUP BY l.rn LIMIT ?`;
 const ETYMA_COLS = `e.tag AS tag, g.plg AS plg, e.protoform AS protoform, e.protogloss AS protogloss,
   e.semkey AS semkey, e.nreflex AS nreflex, e.exemplary AS exemplary, e.public AS public`;
@@ -308,17 +330,21 @@ const sortkey = (s) => (s || '').normalize('NFD').replace(/\p{M}+/gu, '').toLowe
 function fieldedSearch(db, qe, lim) {
   const q = parseFields(qe);
   const grpids = q.subgroup.length ? subgroupGrpids(db, q.subgroup) : null;
+  const srcs = q.source.length ? sourceAbbrs(db, q.source) : null;
   const inner = lim < 0 ? -1 : lim + 40;
   const out = { etyma: [], etymaTotal: 0, reflexes: [], reflexTotal: 0, languages: [], languageTotal: 0 };
   if (q.subgroup.length && !(grpids && grpids.length)) return out;  // no such subgroup: honest empty
+  if (q.source.length && !(srcs && srcs.length)) return out;        // no such source: honest empty
 
-  // reflexes — bare + column terms feed one FTS MATCH; subgroup restricts via grpid
+  // reflexes — bare + column terms feed one FTS MATCH; subgroup/source/pos/tag restrict in SQL
   const ftsTerms = [...q.bare.flatMap(ftsTok).map((t) => '"' + t + '"'), ...q.cols];
   const m = ftsTerms.length ? ftsTerms.join(' ') : null;
-  const ng = grpids ? grpids.length : 0;
-  if (m || ng) {
-    out.reflexTotal = run(db, reflexFieldCountSql(m, ng), [...(m ? [m] : []), ...(grpids || [])])[0].n;
-    out.reflexes = run(db, reflexFieldSql(m, ng), [...(m ? [m, inner] : []), ...(grpids || []), lim]);
+  const x = { ng: grpids ? grpids.length : 0, ns: srcs ? srcs.length : 0, np: q.pos.length, nt: q.tag.length };
+  const ng = x.ng;
+  const xp = [...(grpids || []), ...(srcs || []), ...q.pos.map((t) => t + '%'), ...q.tag];
+  if (m || ng || x.ns || x.np || x.nt) {
+    out.reflexTotal = run(db, reflexFieldCountSql(m, x), [...(m ? [m] : []), ...xp])[0].n;
+    out.reflexes = run(db, reflexFieldSql(m, x), [...(m ? [m, inner] : []), ...xp, lim]);
     shapeSortReflexes(out.reflexes);
   }
 
@@ -334,15 +360,17 @@ function fieldedSearch(db, qe, lim) {
     eparams.push('%' + t + '%', '%' + t + '%', '%' + t.replace(/[-|◦\s]/g, '') + '%');
   }
   if (ng) { ewhere.push(`e.grpid IN (${_ph(ng)})`); eparams.push(...grpids); }
-  if (q.proto.length || q.pgloss.length || q.bare.length || (ng && !m)) {
+  if (q.tag.length) { ewhere.push(`e.tag IN (${_ph(q.tag.length)})`); eparams.push(...q.tag); }
+  if (q.proto.length || q.pgloss.length || q.bare.length || q.tag.length || (ng && !m)) {
     const w = ewhere.join(' AND ');
     out.etymaTotal = run(db, etymaFieldSql(w, true), eparams)[0].n;
     out.etyma = run(db, etymaFieldSql(w, false), [...eparams, lim]);
   }
 
-  // languages — language: terms (and/or a subgroup restriction); collapse per-source variants
+  // languages — language: terms, or a pure subgroup browse (any other axis means the user is
+  // after records, not a roster: 'tag:695 subgroup:Kiranti' shouldn't list 35 Kiranti lects)
   const lterms = q.cols.filter((c) => c.startsWith('language:')).map((c) => c.slice(10, -1));
-  if (lterms.length || (ng && !m && !q.bare.length)) {
+  if (lterms.length || (ng && !m && !q.bare.length && !q.tag.length && !q.pos.length && !q.source.length)) {
     const rows = run(db, langFieldSql(lterms.length, ng), [...lterms.map((t) => '%' + t + '%'), ...(grpids || [])]);
     const byName = new Map();
     for (const r of rows) {
