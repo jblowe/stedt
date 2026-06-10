@@ -72,13 +72,10 @@ TABLES = [
         ("semkey", "",                    "semkey"), # reflexRow category link -> chapters
         ("srcid",  "",                    "srcid"),  # reflexRow source locus ": page/entry"
     ]},
-    # NB: the INTEGER decls are load-bearing, not documentation — typeless columns get BLOB
-    # affinity, which disqualifies ix_hash_rn from the h.rn=l.rn join (lexicon.rn is INTEGER)
-    # and turns every search into a per-row full scan of this table.
     {"name": "lx_et_hash", "src": "src.lx_et_hash", "where": "tag > 0", "cols": [
-        ("rn",  "INTEGER", "rn"),   # reflex -> etyma enrichment join (hot path; indexed below)
-        ("tag", "INTEGER", "tag"),  # etymon a syllable/reflex belongs to
-        ("ind", "INTEGER", "ind"),  # syllable position -> per-syllable links (r.syn)
+        ("rn",  "", "rn"),   # reflex -> etyma enrichment join (hot path; indexed below)
+        ("tag", "", "tag"),  # etymon a syllable/reflex belongs to
+        ("ind", "", "ind"),  # syllable position -> per-syllable links (r.syn)
     ]},
     {"name": "srcbib", "src": "src.srcbib", "where": "coalesce(srcabbr,'')!=''", "cols": [
         ("srcabbr",  "TEXT PRIMARY KEY", "srcabbr"),
