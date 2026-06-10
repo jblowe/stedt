@@ -46,6 +46,24 @@ def syl_form(reflex, syn, pf=None, self_tag=None):
     return out
 
 
+def disp_form(s):
+    """SYNC(display-form) ↔ web/src/rows.js dispForm — the plain (unlinked) rendering of a stored
+    form. The '|' in a stored form is STEDT's internal analysis-override delimiter, never part of
+    the citation form: the original stripped it from every displayed form, and our syllable-linked
+    path does too (syllabify glues 'g-|lak' → 'g-lak'). Route piped forms through the same
+    syllabify+rejoin; unpiped forms pass straight through. Escapes, and mutes the ◦ morpheme
+    separator like the linked path."""
+    s = s or ""
+    if "|" not in s:
+        return esc(s).replace("◦", '<span class="br">◦</span>')
+    syls, dl, prefix = syllabify(s)
+    out = esc(prefix)
+    for i, syl in enumerate(syls):
+        out += esc(syl)
+        out += esc(dl[i] if i < len(dl) else "").replace("◦", '<span class="br">◦</span>')
+    return out
+
+
 def lgab_span(lgabbr):
     """The language-abbreviation chip (leading space + <span class="lgab">), or "" when absent."""
     return f' <span class="lgab">{esc(lgabbr)}</span>' if lgabbr else ""

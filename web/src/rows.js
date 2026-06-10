@@ -90,6 +90,21 @@ const sylLink = r => {                     // syllable-linked form HTML, or null
   return out;
 };
 
+// SYNC(display-form) ↔ stedt/render/rows.py disp_form — plain (unlinked) display of a stored form:
+// strip the internal '|' analysis delimiter via the same syllabify+rejoin the linked path uses,
+// escape, and mute the ◦ morpheme separator. Unpiped forms pass straight through.
+export const dispForm = s => {
+  s = String(s == null ? '' : s);
+  if (s.indexOf('|') < 0) return esc(s).replace(/◦/g, '<span class="br">◦</span>');
+  const sy = syllabify(s);
+  let out = esc(sy.prefix || '');
+  for (let i = 0; i < sy.syls.length; i++) {
+    out += esc(sy.syls[i]);
+    out += esc(sy.dl[i] || '').replace(/◦/g, '<span class="br">◦</span>');
+  }
+  return out;
+};
+
 // --- entity rows ---
 
 // A reflex, shared by the search results and the thesaurus reflex list so they can't drift.
@@ -113,7 +128,7 @@ export const reflexRow = r => {
   } else {                              // plain form; trailing "via" chips keep their etymon links
     const form = r.form != null ? r.form : r.reflex;
     const links = (r.etyma && r.etyma.length) ? ` <span class="vias">${r.etyma.map(x => `<a class="via" href="${etymonHref(x.tag)}">*${altstar(esc(x.pf))}</a>`).join(' ')}</span>` : '';
-    mid = `<span class="lat">${esc(form)}</span> ${pos}${gl}${links}`;
+    mid = `<span class="lat">${dispForm(form)}</span> ${pos}${gl}${links}`;
   }
   // the reflex's semantic category (search rows only; the thesaurus-category list omits it as redundant)
   if (r.cat) mid += ` <a class="rx-cat" href="${categoryHref(r.semkey)}">${esc(r.cat)}</a>`;

@@ -5,7 +5,7 @@ from markupsafe import Markup
 from .db import LEX_VISIBLE, con
 from .text import esc, alt, natkey, iso_link, rfx_noun
 from .notes import note_label, render_note
-from .rows import syl_form, lgab_span
+from .rows import disp_form, syl_form, lgab_span
 from .shell import page, group_lineage, proto_labels, canonical_languages
 from .shell import etymon_href, source_href, language_href
 from .templating import env
@@ -175,7 +175,7 @@ def language(lgid):
             if linked is not None:
                 form = linked
             else:
-                form = esc(r["reflex"]).replace("◦", '<span class="br">◦</span>')
+                form = disp_form(r["reflex"])
                 seen = set()
                 for t in rn_tags.get(r["rn"], []):
                     if t in plabels and t not in seen:

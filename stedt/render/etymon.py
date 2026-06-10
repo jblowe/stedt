@@ -9,7 +9,7 @@ from .config import CITE_BASE, PLG_FULL
 from .db import ETY_LIVE, LEX_VISIBLE, con
 from .text import esc, alt, natkey, sortkey
 from .notes import note_label, render_note
-from .rows import syl_form
+from .rows import disp_form, syl_form
 from .shell import page, breadcrumb, proto_labels
 from .shell import etymon_href, source_href, language_href, reflex_href
 from .templating import env
@@ -249,7 +249,7 @@ def etymon(tag):
             if linked is not None:
                 form, anl = linked, ""
             else:
-                form = esc(r["form"]).replace("◦", '<span class="br">◦</span>')
+                form = disp_form(r["form"])
                 seen, links = set(), []
                 for mt in analysis.get(r["rn"], []):
                     if mt and mt > 0 and mt != tag and mt not in seen and mt in proto:
@@ -351,7 +351,7 @@ def etymon(tag):
             gl = f' ‘{esc(r["gloss"])}’' if r["gloss"] else ""
             rr += (
                 f'<div class="conn-row">{rl}'
-                f'<span class="reltgt"><span class="recon">{esc(alt(r["form"]))}</span>{gl}</span>{cit}</div>'
+                f'<span class="reltgt"><span class="recon">{disp_form(alt(r["form"]))}</span>{gl}</span>{cit}</div>'
             )
         reconhtml = f'<section class="conn"><h3>Previously reconstructed as</h3>{rr}</section>'
 
