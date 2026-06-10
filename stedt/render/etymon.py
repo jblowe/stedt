@@ -219,7 +219,7 @@ def etymon(tag):
         )
         rfx = []
         # SYNC(reflex-row) ↔ web/src/rows.js reflexRow — keep this server-rendered reflex row's
-        # fields/order/classes/links identical to the client one.
+        # fields/order/classes/roles/links identical to the client one.
         for r in items:
             if lnotes.get(r["rn"]):
                 # a lexical note rides on the gloss behind a circled-i (like the language/search/thesaurus
@@ -263,7 +263,7 @@ def etymon(tag):
             # rows; the language name / "also contains" / source / note-popover sit above the overlay
             go = f'<a class="rx-go" href="{reflex_href(r["lgid"], r["rn"])}" aria-label="{esc(r["language"])}: go to this entry"></a>'
             rfx.append(
-                f'<div class="rfx" id="r{r["rn"]}">{go}<a class="rnlink" href="#r{r["rn"]}" aria-label="Permalink to this entry"></a>{lang}'
+                f'<div class="rfx" role="listitem" id="r{r["rn"]}">{go}<a class="rnlink" href="#r{r["rn"]}" aria-label="Permalink to this entry"></a>{lang}'
                 f'<span class="form">{form} {pos}{g}{anl}</span>{src}</div>'
             )
         code = "" if k[0] in (None, "zz") else f'<span class="grpno">{esc(k[0])}</span>'
@@ -278,10 +278,13 @@ def etymon(tag):
             for grp, n in sg_notes_at.get(i, [])
         )
         sgs.append(
+            # rows-only wrapper carries role=list: the band header/notes must sit OUTSIDE it or
+            # AT item counts break (role=list children must all be listitems)
             f'<div class="sg" id="sg{i}"><h4>{code}{esc(k[1])}<span class="c">{len(items)}</span></h4>'
             + sgn
+            + f'<div role="list" aria-label="{esc(k[1])} reflexes">'
             + "".join(rfx)
-            + "</div>"
+            + "</div></div>"
         )
 
     feet = []  # page footnote collector — numbering runs on across notes AND comparanda
@@ -327,11 +330,14 @@ def etymon(tag):
             # (b) tsaat RICE' are a pair, not independent reconstructions (60 mesoroots)
             var = f"({esc(m['variant'])}) " if m["variant"] else ""
             mr += (
-                f'<div class="rfx">{langcell}'
+                f'<div class="rfx" role="listitem">{langcell}'
                 f'<span class="form">{var}<span class="recon"><span class="star">*</span>{esc(alt(m["form"]))}</span> '
                 f'<span class="g">{esc(m["gloss"])}</span></span>{sm}</div>'
             )
-        mesohtml = f'<section class="meso"><h3>Intermediate reconstructions</h3>{mr}</section>'
+        mesohtml = (
+            '<section class="meso"><h3>Intermediate reconstructions</h3>'
+            f'<div role="list" aria-label="Intermediate reconstructions">{mr}</div></section>'
+        )
 
     # previously published reconstructions (reflex rows whose "language" is a proto-form node)
     reconhtml = ""

@@ -109,7 +109,8 @@ export const dispForm = s => {
 
 // A reflex, shared by the search results and the thesaurus reflex list so they can't drift.
 // SYNC(reflex-row) ↔ the server-rendered reflex rows in stedt/render/language.py — language()
-// seginfo + stedt/render/etymon.py etymon() rfx builder. Keep the fields, order (POS before gloss), classes, and link
+// seginfo + stedt/render/etymon.py etymon() rfx builder. Keep the fields, order (POS before gloss), classes,
+// roles (listitem — every container holding these rows carries role=list), and link
 // targets identical across both runtimes.
 // The whole row links to the form's attestation line (#rn) via a stretched overlay; the inner links
 // sit above it (see .rx-go in site.css): the language name → the TOP of its language page, syllables
@@ -133,7 +134,7 @@ export const reflexRow = r => {
   // the reflex's semantic category (search rows only; the thesaurus-category list omits it as redundant)
   if (r.cat) mid += ` <a class="rx-cat" href="${categoryHref(r.semkey)}">${esc(r.cat)}</a>`;
   const go = `<a class="rx-go" href="${reflexHref(r.lgid, r.rn)}" aria-label="${esc(r.language)}: go to this entry"></a>`;
-  return `<div class="rx-hit">${go}<a class="lang" href="${languageHref(r.lgid)}">${esc(r.language)}</a><span class="rx-mid">${mid}</span><span class="rx-src">${src}</span></div>`;
+  return `<div class="rx-hit" role="listitem">${go}<a class="lang" href="${languageHref(r.lgid)}">${esc(r.language)}</a><span class="rx-mid">${mid}</span><span class="rx-src">${src}</span></div>`;
 };
 
 // A reconstruction (etymon) result row.

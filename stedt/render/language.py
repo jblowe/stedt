@@ -159,7 +159,7 @@ def language(lgid):
         ttl = "(unclassified)" if key == "" else (chap.get(key) or chap.get(key + ".0") or f"Chapter {key}")
         rfx = []
         # SYNC(reflex-row) ↔ web/src/rows.js reflexRow — keep this server-rendered reflex row's
-        # fields/order/classes/links identical to the client one.
+        # fields/order/classes/roles/links identical to the client one.
         for r in items:
             sk = r["semkey"] or ""
             cat = chap.get(sk) or sk
@@ -206,7 +206,7 @@ def language(lgid):
             else:
                 gl = f'<span class="g">{esc(r["gloss"])}</span>'
             rfx.append(
-                f'<div class="rfx" id="rn{r["rn"]}"><a class="rnlink" href="#rn{r["rn"]}" aria-label="Permalink to this entry"></a>{catcell}'
+                f'<div class="rfx" role="listitem" id="rn{r["rn"]}"><a class="rnlink" href="#rn{r["rn"]}" aria-label="Permalink to this entry"></a>{catcell}'
                 f'<span class="form">{form} {pos}{gl}{via}</span>'
                 f"{src}</div>"
             )

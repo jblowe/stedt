@@ -11,14 +11,17 @@ bs.closest('form').addEventListener('submit', e => {
   e.preventDefault();
   location = B + '/search?q=' + encodeURIComponent(bs.value);
 });
-// attested-form rows are pre-sorted by subgroup; emit a Stammbaum-subgroup header when it changes
+// attested-form rows are pre-sorted by subgroup; emit a Stammbaum-subgroup header when it changes.
+// The header is a listitem too: it streams through the same role=list container as the rows
+// (bands span render chunks, so a per-band wrapper is impossible), and role=list only admits
+// listitem children — the original's table counted band header rows as rows the same way.
 let _rxsub = null;
 const rfxGrouped = r => {
   const key = (r.grpno || '') + '|' + (r.subgroup || '');
   let head = '';
   if (key !== _rxsub) {
     _rxsub = key; const code = r.grpno ? `<span class="grpno">${esc(r.grpno)}</span>` : '';
-    head = `<div class="rx-sub">${code}${esc(r.subgroup || '(unclassified)')}</div>`;
+    head = `<div class="rx-sub" role="listitem">${code}${esc(r.subgroup || '(unclassified)')}</div>`;
   }
   return head + reflexRow(r);
 };
@@ -27,8 +30,13 @@ function sectionLabel(title, total, fetched) {
   if (fetched < total) h += ' · first ' + fmt(fetched) + ' shown';
   return h + '</span></div>';
 }
-function windowed(host, data, rowFn) {
+// label → role=list on the container (reflex sections only: their rows are role=listitem divs;
+// the .ety-hit language/reconstruction rows are <a> links, and role=listitem would override
+// their link semantics, so those sections stay plain). windowedList's spacer is a SIBLING of
+// the container, so only listitems land inside the role=list element.
+function windowed(host, data, rowFn, label) {
   const list = document.createElement('div'); host.appendChild(list);
+  if (label) { list.setAttribute('role', 'list'); list.setAttribute('aria-label', label); }
   windowedList(list, { chunk: CHUNK, row: rowFn }).reset(data);
 }
 function block(title, total, data, rowFn) {
@@ -62,13 +70,13 @@ function reflexBlock(total, data) {
   const render = () => {
     host.innerHTML = '';
     const keyFn = RX_KEYS[sel.value];
-    if (!keyFn) { _rxsub = null; windowed(host, data, rfxGrouped); return; }   // default order, grouped
+    if (!keyFn) { _rxsub = null; windowed(host, data, rfxGrouped, 'Reflexes'); return; }   // default order, grouped
     const keyed = data.map(r => [keyFn(r), r]);
     keyed.sort((a, b) => {
       for (let i = 0; i < a[0].length; i++) { if (a[0][i] < b[0][i]) return -1; if (a[0][i] > b[0][i]) return 1; }
       return 0;
     });
-    windowed(host, keyed.map(p => p[1]), reflexRow);
+    windowed(host, keyed.map(p => p[1]), reflexRow, 'Reflexes');
   };
   sel.addEventListener('change', render);
   render();
