@@ -7,7 +7,9 @@ import { etymonRow, norm } from './rows.js';
 
 (function () {
   var DATA = JSON.parse(document.getElementById('recon-data').textContent);
-  for (var i = 0; i < DATA.length; i++) { var r = DATA[i]; r[5] = norm(r[1] + ' ' + r[2] + ' ' + r[3] + ' #' + r[0]); }
+  // Filter key goes in a NEW trailing slot — the payload's own slots (5 exemplary, 6 provisional)
+  // must stay untouched (writing the key into r[5] once badged every etymon "exemplary").
+  for (var i = 0; i < DATA.length; i++) { var r = DATA[i]; r[7] = norm(r[1] + ' ' + r[2] + ' ' + r[3] + ' #' + r[0]); }
   var view = DATA;
   var list = document.getElementById('recon-list'),
     none = document.querySelector('.rnone'),
@@ -27,7 +29,7 @@ import { etymonRow, norm } from './rows.js';
   });
   function apply() {
     var q = norm(input.value.trim());
-    view = q ? DATA.filter(function (r) { return r[5].indexOf(q) >= 0; }) : DATA;
+    view = q ? DATA.filter(function (r) { return r[7].indexOf(q) >= 0; }) : DATA;
     win.reset(view);
   }
   var tmr; input.addEventListener('input', function () { clearTimeout(tmr); tmr = setTimeout(apply, 90); });
