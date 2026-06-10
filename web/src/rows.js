@@ -14,7 +14,7 @@ export const B = (typeof window !== 'undefined' && window.STEDT_BASE) || '';
 export const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 // SYNC(protoform-fmt) ↔ stedt/render/text.py alt() — normalise a proto-form (strip the leading *,
 // which CSS/markup re-adds; star each ⪤-alternant). Keep identical.
-export const altstar = s => String(s).replace(/^\s*\*\s*/, '').replace(/⪤\s*\*?/g, '⪤ *');
+export const altstar = s => String(s).replace(/^\s*\*\s*/, '').replace(/(⪤|\bOR\b|~|=)\s*\*?/g, '$1 *');
 export const fmt = n => Number(n).toLocaleString();
 // SYNC(sortkey) ↔ text.py sortkey + search.js sortkey — the case/accent-insensitive collation key
 export const norm = s => String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');

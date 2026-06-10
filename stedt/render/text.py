@@ -27,15 +27,16 @@ def esc(s):
 
 def alt(s):
     """SYNC(protoform-fmt) ↔ web/src/rows.js altstar() — same normalisation in both runtimes, keep identical.
-    Star every ⪤-joined alternant of a proto-form. The *leading* asterisk is supplied by CSS
+    Star every joined alternant of a proto-form — the joiners are ⪤, OR, ~ and = (rootcanal
+    etymon.tt stars all four; 15 live etyma use OR/~). The *leading* asterisk is supplied by CSS
     (.pf/.pf2/.recon ::before) or a literal '*' prefix (cite/title), so strip any leading '*' the
-    data itself carries (only etymon 463 does) to avoid a doubled '**', then add the post-⪤ stars."""
+    data itself carries (only etymon 463 does) to avoid a doubled '**', then star the alternants."""
     if not s:
         return s or ""
     s = re.sub(r"^\s*\*\s*", "", s)  # drop a stray leading star baked into the data
     # \*? consumes an asterisk the data already carries on the alternant, so a meaningful
     # double-star (e.g. **d-k-wiy) isn't bumped to *** by adding another.
-    return re.sub(r"⪤\s*\*?", "⪤ *", s)
+    return re.sub(r"(⪤|\bOR\b|~|=)\s*\*?", r"\1 *", s)
 
 
 def iso_link(code):
