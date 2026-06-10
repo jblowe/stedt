@@ -68,11 +68,10 @@ def render_note(x):
     if not x:
         return ""
     # Note text writes the asterisk literally inside <reconstruction>*li̯ək</reconstruction>
-    # (all 512 such notes, zero exceptions), but CSS .recon::before injects one too — strip the
-    # literal one so note recons show '*li̯ək', not '**li̯ək' ('**' marks a rejected form to
-    # historical linguists). Leading star only: ::before fires once per span, so interior stars
-    # in multi-form contents ('*lək, *li̯ək' in one tag) stay literal and still render right.
-    s = x.replace("<reconstruction>*", "<reconstruction>")
+    # (all such notes, zero exceptions) — keep it as REAL text (CSS ::before doesn't copy), only
+    # wrap it in .star for the accent color. Leading star only: interior stars in multi-form
+    # contents ('*lək, *li̯ək' in one tag) stay plain literal text and still render right.
+    s = x.replace("<reconstruction>*", '<reconstruction><span class="star">*</span>')
     # Shield quote entities inside form tags from _smart_quotes: a form-initial apostrophe is a
     # tone/register letter, not punctuation — educating it to ‘ makes it read as an opening quote
     # (rootcanal Notes.pm _qtd shields forms the same way). Placeholders survive the passes below
@@ -109,7 +108,7 @@ def render_note(x):
                 if plg:
                     bits.append(esc(plg))
                 if pf:
-                    bits.append(f'<span class="recon">{esc(alt(pf))}</span>')  # CSS .recon::before adds the *
+                    bits.append(f'<span class="recon"><span class="star">*</span>{esc(alt(pf))}</span>')
                 if pg:
                     bits.append(esc(pg))
                 if bits:

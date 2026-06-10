@@ -12,7 +12,7 @@ if (bs && d) {
   let t;
   const note = m => { d.innerHTML = `<div class="cap" style="padding:10px 12px">${m}</div>`; d.style.display = 'block'; };
   const langRow = x => `<a href="${languageHref(x.lgid)}"><span class="k">lang</span><span>${esc(x.language)}</span></a>`;
-  const etymonRow = e => `<a href="${etymonHref(e.tag)}"><span class="k">recon</span><span><span class="recon">${altstar(esc(e.protoform))}</span> · <span class="gl">${esc(e.protogloss)}</span></span></a>`;
+  const etymonRow = e => `<a href="${etymonHref(e.tag)}"><span class="k">recon</span><span><span class="recon"><span class="star">*</span>${altstar(esc(e.protoform))}</span> · <span class="gl">${esc(e.protogloss)}</span></span></a>`;
   const reflexRow = x => `<a href="${reflexHref(x.lgid, x.rn)}"><span class="k">${esc(x.language)}</span><span><span class="lat">${esc(x.form)}</span> ${x.gfn ? `<span class="pos">${esc(x.gfn)}</span>` : ''}<span class="gl">${esc(x.gloss)}</span></span></a>`;
   bs.addEventListener('input', () => {
     clearTimeout(t);

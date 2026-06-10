@@ -326,7 +326,7 @@ def etymon(tag):
             var = f"({esc(m['variant'])}) " if m["variant"] else ""
             mr += (
                 f'<div class="rfx">{langcell}'
-                f'<span class="form">{var}<span class="recon">{esc(alt(m["form"]))}</span> '
+                f'<span class="form">{var}<span class="recon"><span class="star">*</span>{esc(alt(m["form"]))}</span> '
                 f'<span class="g">{esc(m["gloss"])}</span></span>{sm}</div>'
             )
         mesohtml = f'<section class="meso"><h3>Intermediate reconstructions</h3>{mr}</section>'
@@ -357,7 +357,7 @@ def etymon(tag):
             gl = f' ‘{esc(r["gloss"])}’' if r["gloss"] else ""
             rr += (
                 f'<div class="conn-row">{rl}'
-                f'<span class="reltgt"><span class="recon">{disp_form(alt(r["form"]))}</span>{gl}</span>{cit}</div>'
+                f'<span class="reltgt"><span class="recon"><span class="star">*</span>{disp_form(alt(r["form"]))}</span>{gl}</span>{cit}</div>'
             )
         reconhtml = f'<section class="conn"><h3>Previously reconstructed as</h3>{rr}</section>'
 
@@ -412,7 +412,7 @@ def etymon(tag):
             # and matches the legacy/original label shape ('1a #695 *lak …')
             lab = (
                 f'{esc(_seq_label(a["sequence"]))} #{a["tag"]} '
-                f'<span class="recon">{esc(alt(a["protoform"]))}</span>'
+                f'<span class="recon"><span class="star">*</span>{esc(alt(a["protoform"]))}</span>'
                 f' ‘{esc(a["protogloss"])}’'
             )
             # each member is its own non-breaking chip (.fam), so a 10-member family wraps at
@@ -433,7 +433,7 @@ def etymon(tag):
         lvl = f' <span class="plg2">({esc(hplg)})</span>' if hplg and hplg != (e["plg"] or "") else ""
         rels.append(
             f'<div class="conn-row"><span class="rl">HPTB{lvl}</span>'
-            f'<span class="reltgt"><span class="recon">{esc(alt(h["protoform"]))}</span> ‘{esc(h["protogloss"])}’</span>'
+            f'<span class="reltgt"><span class="recon"><span class="star">*</span>{esc(alt(h["protoform"]))}</span> ‘{esc(h["protogloss"])}’</span>'
             # 'p.' for a single page, 'pp.' for a range/list (842 of 1,500 hptb refs are one page)
             f'<span class="src">{"pp." if re.search(r"[-–,;]", str(h["pages"] or "")) else "p."} {esc(h["pages"])}</span></div>'
         )

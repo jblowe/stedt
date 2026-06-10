@@ -64,10 +64,8 @@ def chrome(title, body, vert_tog=False, cognates=None, extra_scripts=""):
 \t<link rel="stylesheet" href="{BASE}/styles/rootcanal.css">
 \t<link rel="stylesheet" href="{BASE}/styles/autoSuggest.css">
 \t<link rel="stylesheet" href="{BASE}/styles/opentip.css">
-\t<style>.recon::before{{content:"*"}}</style><!-- SYNC(recon-star) ↔ static/site.css .recon::before:
-\t  render_note strips the literal leading '*' from <reconstruction> (the main UI's CSS re-supplies
-\t  it); vendored rootcanal.css has no such rule, so the legacy shell must add the twin or every
-\t  note reconstruction renders starless here. Also stars the xref-injected recon labels. -->
+\t<!-- note reconstructions arrive from render_note with their leading '*' as literal text
+\t  (wrapped in an unstyled span.star), so the legacy shell needs no star rule of its own -->
 \t{cog}
 \t<script src="{BASE}/scriptaculous/lib/prototype.js"></script>
 \t<script src="{BASE}/scriptaculous/src/scriptaculous.js?load=effects,dragdrop,controls"></script>

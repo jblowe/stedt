@@ -13,7 +13,7 @@
 export const B = (typeof window !== 'undefined' && window.STEDT_BASE) || '';
 export const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 // SYNC(protoform-fmt) ↔ stedt/render/text.py alt() — normalise a proto-form (strip the leading *,
-// which CSS/markup re-adds; star each ⪤-alternant). Keep identical.
+// which every emission site re-adds as literal text; star each ⪤-alternant). Keep identical.
 export const altstar = s => String(s).replace(/^\s*\*\s*/, '').replace(/(⪤|\bOR\b|~|=)\s*\*?/g, '$1 *');
 export const fmt = n => Number(n).toLocaleString();
 // SYNC(sortkey) ↔ text.py sortkey + search.js sortkey — the case/accent-insensitive collation key
@@ -140,7 +140,7 @@ export const reflexRow = r => {
 // SYNC(etymon-row) ↔ the server-rendered etymon lists: stedt/render/group.py reconinfo() (group
 // page) + stedt/render/indexes.py dinfo (thesaurus). Keep protoform / PLG / #tag / reflex-count /
 // exemplary-badge identical.
-export const etymonRow = e => `<a class="ety-hit" href="${etymonHref(e.tag)}"><span class="pf2 lat">${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}${e.nreflex ? ` · ${fmt(e.nreflex)} reflex${e.nreflex == 1 ? '' : 'es'}` : ''}${e.exemplary ? ' · <span class="exm">exemplary</span>' : ''}${e.public === 0 || e.public === '0' || e.provisional ? ' · <span class="prov">provisional</span>' : ''}</span></a>`;
+export const etymonRow = e => `<a class="ety-hit" href="${etymonHref(e.tag)}"><span class="pf2 lat"><span class="star">*</span>${altstar(esc(e.protoform))}</span><span class="pg2">${esc(e.protogloss)}</span><span class="tagn">${esc(e.plg)} #${e.tag}${e.nreflex ? ` · ${fmt(e.nreflex)} reflex${e.nreflex == 1 ? '' : 'es'}` : ''}${e.exemplary ? ' · <span class="exm">exemplary</span>' : ''}${e.public === 0 || e.public === '0' || e.provisional ? ' · <span class="prov">provisional</span>' : ''}</span></a>`;
 
 // A language result row.
 export const languageRow = l => `<a class="ety-hit" href="${languageHref(l.lgid)}"><span class="rf">${esc(l.language)}</span><span class="gl2">${fmt(l.n)} reflex${l.n == 1 ? '' : 'es'}</span><span class="tagn">language</span></a>`;
