@@ -3,11 +3,19 @@
 import sqlite3
 
 from .config import DB
+from .text import sortkey
+
+
+def _unaccent(a, b):
+    ka, kb = sortkey(a), sortkey(b)
+    return -1 if ka < kb else (1 if ka > kb else 0)
 
 
 def con():
     conn = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
     conn.row_factory = sqlite3.Row
+    # ORDER BY … COLLATE unaccent = case/accent-insensitive listings (see text.sortkey)
+    conn.create_collation("unaccent", _unaccent)
     return conn
 
 

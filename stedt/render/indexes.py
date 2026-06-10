@@ -7,7 +7,7 @@ from markupsafe import Markup
 
 from .config import CITE_BASE, PREVIEW, TREE_INDENT_PX
 from .db import LEX_VISIBLE, con, reflex_semkey_counts
-from .text import esc, alt, natkey, rcount_txt, rfx_noun
+from .text import esc, alt, natkey, rcount_txt, rfx_noun, sortkey
 from .notes import render_note
 from .shell import page, breadcrumb, reflex_counts, canon_lgid, etymon_href, source_reference
 from .templating import env
@@ -109,7 +109,7 @@ def languages_index():
             "grpid": grpid,
             "langs": [
                 (Markup(esc(nm)), canon_lgid(lid))
-                for nm, (lid, _) in sorted(langs.items(), key=lambda kv: kv[0].lower())
+                for nm, (lid, _) in sorted(langs.items(), key=lambda kv: sortkey(kv[0]))
             ],
         }
 
@@ -140,7 +140,7 @@ def sources_index():
         LEFT JOIN lexicon l ON l.lgid=ln.lgid AND {LEX_VISIBLE}
         WHERE coalesce(sb.srcabbr,'')!=''
         GROUP BY sb.srcabbr
-        ORDER BY lower(coalesce(nullif(sb.author,''),nullif(sb.citation,''),sb.srcabbr)), sb.year""").fetchall()
+        ORDER BY coalesce(nullif(sb.author,''),nullif(sb.citation,''),sb.srcabbr) COLLATE unaccent, sb.year""").fetchall()
     conn.close()
 
     def item(s):
@@ -158,7 +158,7 @@ def sources_index():
             "cit": cit,
             "ref": ref,
             "show_ref": bool(ref) and ref != cit,  # data list hides ref when it just repeats the citation
-            "au": Markup(esc((s["author"] or s["citation"] or s["srcabbr"] or "").lower())),
+            "au": Markup(esc(sortkey(s["author"] or s["citation"] or s["srcabbr"] or ""))),
             "nforms": s["nforms"],
             "cnt_txt": " · ".join(parts),
             "nlang": s["nlang"],

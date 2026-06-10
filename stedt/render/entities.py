@@ -7,7 +7,7 @@ from markupsafe import Markup
 
 from .config import CITE_BASE, PLG_FULL, TREE_INDENT_PX
 from .db import LEX_VISIBLE, con
-from .text import esc, alt, natkey, iso_link, rcount_txt, rfx_noun
+from .text import esc, alt, natkey, iso_link, rcount_txt, rfx_noun, sortkey
 from .notes import note_label, render_note
 from .syllabify import syllabify
 from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels, canonical_languages, canon_lgid
@@ -184,7 +184,7 @@ def etymon(tag):
 
     sgs = []
     for i, k in enumerate(gkeys):
-        items = sorted(groups[k], key=lambda r: ((r["language"] or ""), (r["form"] or "")))
+        items = sorted(groups[k], key=lambda r: (sortkey(r["language"]), sortkey(r["form"])))
         rfx = []
         # SYNC(reflex-row) ↔ web/src/rows.js reflexRow — keep this server-rendered reflex row's
         # fields/order/classes/links identical to the client one.
@@ -511,7 +511,7 @@ def language(lgid):
         FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid
         LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
         WHERE l.lgid IN ({qm}) AND {LEX_VISIBLE}
-        ORDER BY l.semkey, ln.srcabbr, l.reflex""",
+        ORDER BY l.semkey, ln.srcabbr, l.reflex COLLATE unaccent""",
         sibs,
     ).fetchall()
     total = len(rows)
@@ -673,7 +673,7 @@ def source(srcabbr):
         FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid AND {LEX_VISIBLE}
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         WHERE ln.srcabbr=? AND ln.language!='' AND ln.language NOT LIKE '*%' GROUP BY ln.lgid
-        HAVING n>0 ORDER BY ln.language""".format(LEX_VISIBLE=LEX_VISIBLE),
+        HAVING n>0 ORDER BY ln.language COLLATE unaccent""".format(LEX_VISIBLE=LEX_VISIBLE),
         (srcabbr,),
     ).fetchall()
     # previously published reconstruction sets ('*Tibeto-Burman' …) held in this source — a third
@@ -686,7 +686,7 @@ def source(srcabbr):
         FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid AND {LEX_VISIBLE}
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         WHERE ln.srcabbr=? AND ln.language LIKE '*%' GROUP BY ln.lgid
-        HAVING n>0 ORDER BY ln.language""".format(LEX_VISIBLE=LEX_VISIBLE),
+        HAVING n>0 ORDER BY ln.language COLLATE unaccent""".format(LEX_VISIBLE=LEX_VISIBLE),
         (srcabbr,),
     ).fetchall()
     conn.close()
@@ -858,7 +858,7 @@ def group(grpid):
                 d["silcode"] = r["silcode"]
             if r["srcabbr"]:
                 d["srcs"].setdefault(r["srcabbr"], r["citation"])
-        return sorted(lects.values(), key=lambda d: (d["language"] or "").lower())
+        return sorted(lects.values(), key=lambda d: sortkey(d["language"]))
 
     langs = collapse(langrows)
     protos = collapse(protorows)

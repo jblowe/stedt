@@ -360,7 +360,7 @@ def legacy_etymon(tag):
                           LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
                         WHERE coalesce(l.status,'') NOT IN ('HIDE','DELETED')
                         GROUP BY l.rn
-                        ORDER BY g.grp0,g.grp1,g.grp2,g.grp3,g.grp4, ln.lgsort, l.reflex, ln.srcabbr, l.srcid""",
+                        ORDER BY g.grp0,g.grp1,g.grp2,g.grp3,g.grp4, ln.lgsort, l.reflex COLLATE unaccent, ln.srcabbr, l.srcid""",
         (tag,),
     ).fetchall()
     rns = [r["rn"] for r in recs]
@@ -600,7 +600,7 @@ def legacy_source(srcabbr):
                          LEFT JOIN lexicon l ON l.lgid=ln.lgid
                        WHERE ln.srcabbr=? AND coalesce(ln.lgcode,0)!=0
                          AND coalesce(l.status,'') NOT IN ('HIDE','DELETED')
-                       GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language""",
+                       GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language COLLATE unaccent""",
         (srcabbr,),
     ).fetchall()
     notes = c.execute(
@@ -669,7 +669,7 @@ def legacy_all_sources():
                         FROM srcbib sb LEFT JOIN languagenames ln ON ln.srcabbr=sb.srcabbr
                           LEFT JOIN lexicon l ON l.lgid=ln.lgid
                         WHERE coalesce(l.status,'') NOT IN ('HIDE','DELETED')
-                        GROUP BY sb.srcabbr HAVING num_recs>0 ORDER BY sb.citation""").fetchall()
+                        GROUP BY sb.srcabbr HAVING num_recs>0 ORDER BY sb.citation COLLATE unaccent""").fetchall()
     c.close()
     trs = ""
     for r in rows:
@@ -716,7 +716,7 @@ def legacy_group(grpid, lgid=None):
              LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
            WHERE ln.grpid=? AND coalesce(ln.lgcode,0)!=0
              AND coalesce(l.status,'') NOT IN ('HIDE','DELETED')
-           GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language""",
+           GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language COLLATE unaccent""",
             (grpid,),
         )
     ]

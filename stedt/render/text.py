@@ -2,6 +2,16 @@
 
 import html
 import re
+import unicodedata
+
+
+def sortkey(s):
+    """Case- and accent-insensitive collation key (close to the MySQL utf8_general_ci order the
+    original sorted with — binary order exiled 'van Breugel' past 'Zhao' and 'kûi' past 'kuiy'):
+    NFD, strip combining marks, casefold. Shared by the SQL 'unaccent' collation (db.con) and
+    every Python-side listing sort, so the two can't order differently."""
+    s = unicodedata.normalize("NFD", s or "")
+    return "".join(ch for ch in s if not unicodedata.combining(ch)).casefold()
 
 
 def natkey(s):
