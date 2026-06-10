@@ -223,6 +223,8 @@ a.syl .sylpop{display:none;position:absolute;left:0;bottom:calc(100% + 5px);z-in
   padding:5px 9px;font-style:normal;font-weight:400;font-size:12.5px;line-height:1.45;color:var(--soft);
   white-space:normal;text-align:left;overflow-wrap:anywhere;letter-spacing:0;}
 a.syl:hover .sylpop,a.syl:focus .sylpop,a.syl:focus-within .sylpop{display:block;}
+/* the reveal hook (static/site.js) flips a top-clipped preview to open below its syllable */
+a.syl .sylpop.flip{bottom:auto;top:calc(100% + 5px);}
 a.syl:hover,a.syl:focus{z-index:5;}
 /* on an etymon page, the reflex syllable that IS this etymon: grouped in the morpheme colour but a
    solid underline (not the dotted link), since you're already on its page. */
