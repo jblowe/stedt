@@ -56,6 +56,26 @@ def render_note(x):
     # historical linguists). Leading star only: ::before fires once per span, so interior stars
     # in multi-form contents ('*lək, *li̯ək' in one tag) stay literal and still render right.
     s = x.replace("<reconstruction>*", "<reconstruction>")
+    # Shield quote entities inside form tags from _smart_quotes: a form-initial apostrophe is a
+    # tone/register letter, not punctuation — educating it to ‘ makes it read as an opening quote
+    # (rootcanal Notes.pm _qtd shields forms the same way). Placeholders survive the passes below
+    # and are restored as straight marks after the quote pass.
+    s = re.sub(
+        r"<(latinform|plainlatinform|reconstruction|hanform)>(.*?)</\1>",
+        lambda m: m.group(0).replace("&apos;", "\x00").replace("&quot;", "\x01"),
+        s,
+        flags=re.S,
+    )
+    # <unicode>HEX</unicode> names a codepoint (Han characters beyond the fonts of the era) — emit
+    # the character itself, not the hex digits (rootcanal Notes.pm emits &#xHEX;).
+    def _uni(m):
+        try:
+            ch = chr(int(m.group(1), 16))
+        except (ValueError, OverflowError):
+            return esc(m.group(1))
+        return f'<span class="han">{ch}</span>'
+
+    s = re.sub(r"<unicode>\s*([0-9A-Fa-f]{1,6})\s*</unicode>", _uni, s)
     valid = valid_etymon_tags()
     labels = xref_labels()
 
@@ -89,6 +109,7 @@ def render_note(x):
         s = s.replace(f"<{t}>", o).replace(f"</{t}>", c)
     s = re.sub(r"<br\s*/?>", "<br>", s)
     s = _smart_quotes(s)
+    s = s.replace("\x00", "'").replace("\x01", '"')  # shielded form-internal marks stay straight
     # Leave &lt;/&gt;/&amp; as entities: in note text they're literal angle brackets/ampersands
     # (linguistic notation like "<WT", "<n>", "&lt;--&gt;"). Un-escaping them to raw < > here
     # produced bogus unclosed tags. Structural markup uses literal <tag> and was handled above.
