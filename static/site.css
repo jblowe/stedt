@@ -333,7 +333,6 @@ a.syl:hover,a.syl:focus{z-index:5;}
 .lgtree a{border-bottom:none;color:var(--soft);}
 .lgtree a:hover{color:var(--accent);}
 .lgtree .here{color:var(--ink);font-weight:700;}
-.srclangs{margin:12px 0 4px;font-size:13.5px;color:var(--soft);line-height:1.9;}
 .srcidx{list-style:none;padding:0;margin:8px 0 0;}
 .srcidx li{padding:8px 2px;border-bottom:1px solid var(--rule);}
 .srcidx li a{font-family:"Fraunces",serif;}
@@ -358,30 +357,10 @@ details.seg > summary .c{margin-left:auto;font-family:"Fraunces",serif;font-size
 details.seg .rfx{padding-left:20px;}
 details.seg[open]{padding-bottom:8px;}
 
-/* contribution form + diff */
-.editform{max-width:620px;margin:8px 0;}
-.editform label{display:block;margin:0 0 14px;font-variant:small-caps;letter-spacing:.06em;font-size:13px;color:var(--soft);}
-.editform input,.editform textarea{display:block;width:100%;margin-top:4px;font-family:"Charis SIL",serif;
-  font-size:16px;font-variant:normal;letter-spacing:0;color:var(--ink);padding:8px 11px;
-  border:1px solid var(--rule);background:var(--paper2);border-radius:2px;}
-.editform input:focus,.editform textarea:focus{outline:none;border-color:var(--accent);}
-.editform .hint{font-variant:normal;letter-spacing:0;color:var(--mut);text-transform:none;}
-.editform hr,.editform .who{border:none;border-top:1px solid var(--rule);margin:18px 0;padding-top:14px;}
-.editform .actions{display:flex;align-items:center;gap:16px;margin-top:6px;}
-.editform button{font-family:inherit;font-size:16px;font-variant:small-caps;letter-spacing:.05em;
-  padding:9px 22px;background:var(--accent);color:var(--paper);border:none;border-radius:2px;cursor:pointer;}
-.editform button:hover{background:var(--accent-d);}
-.editform .cancel{background:none;color:var(--mut);}
-.gate{padding:10px 16px;border-radius:2px;margin:16px 0;font-size:15px;}
-.gate.ok{background:#e8f0e3;border-left:3px solid #4a7c3a;color:#2f4f25;}
-.gate.bad{background:#f6e3e0;border-left:3px solid var(--accent);color:var(--accent-d);}
-.gate ul{margin:6px 0 0 18px;}
+/* code box (BibTeX on etymon/source pages; was also the contribution-diff box before the
+   edit flow was torn out — the form/gate/diff-coloring rules went with it) */
 pre.diff{background:#faf7ef;border:1px solid var(--rule);border-radius:3px;padding:14px 16px;overflow:auto;
   font-family:ui-monospace,"SF Mono",Menlo,monospace;font-size:13px;line-height:1.5;}
-pre.diff span{display:block;white-space:pre-wrap;}
-pre.diff .add{background:#e3f0db;color:#2f4f25;}
-pre.diff .del{background:#f6dfdb;color:var(--accent-d);}
-pre.diff .hdr{color:var(--mut);}
 
 /* ---------------------------------------------------------------- responsive (phones/tablets) */
 @media (max-width:720px){

@@ -384,6 +384,28 @@ for _p in glob.glob(os.path.join(_REPO, "stedt", "render", "templates", "*.html"
             err(f"{os.path.relpath(_p, _REPO)}: static inline style=\"{_m.group(1)[:50]}\" — move it to a class in site.css")
 
 
+# ---- site.css carries no ghost rules ----
+# Every class selector in site.css must be referenced somewhere in the markup sources (templates,
+# the renderer, the client JS) — orphaned rules sat unwired for a whole release once (.citebox)
+# and the torn-out edit flow left a family of corpses. The scan is conservative: a class whose
+# name happens to occur as a plain word anywhere in the sources passes, so it only catches the
+# unambiguous ghosts; that still holds the floor at zero.
+_css = re.sub(r"/\*.*?\*/", "", open(os.path.join(_REPO, "static", "site.css"), encoding="utf-8").read(), flags=re.S)
+_classes = set()
+for _sel in re.findall(r"([^{}]+)\{", _css):
+    if not _sel.strip().startswith("@"):
+        _classes.update(re.findall(r"\.([A-Za-z][\w-]*)", _sel))
+_corpus = "".join(
+    open(_p, encoding="utf-8").read()
+    for _pat in ("stedt/render/templates/*.html", "stedt/render/*.py", "web/src/*.js", "static/*.js")
+    for _p in glob.glob(os.path.join(_REPO, *_pat.split("/")))
+)
+for _c in sorted(_classes):
+    if not re.search(r"\b" + re.escape(_c) + r"\b", _corpus):
+        err(f"site.css: class .{_c} is referenced nowhere in templates/renderer/client JS — dead rule")
+print(f"  css: {len(_classes)} classes, all referenced")
+
+
 # ---- report ----
 def show(label, items, cap=25):
     print(f"\n{label}: {len(items)}")
