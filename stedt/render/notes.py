@@ -17,7 +17,9 @@ _PAIR = {
     "gloss": ('<span class="gl">', "</span>"),
     "emph": ("<em>", "</em>"),
     "strong": ("<strong>", "</strong>"),
-    "footnote": ('<span class="fn">', "</span>"),
+    # bracketed inline: the original collected these into numbered bottom-of-page footnotes; until
+    # that apparatus exists, the bracket at least keeps the aside from fusing into the sentence
+    "footnote": (' <span class="fn">[fn: ', "]</span>"),
     "unicode": ("<span>", "</span>"),
     "sup": ("<sup>", "</sup>"),
     "sub": ("<sub>", "</sub>"),
@@ -45,6 +47,21 @@ def _smart_quotes(s):
         return "‘" if opening else "’"
 
     return re.sub(r"&quot;|&apos;", repl, s)
+
+
+# Work-title abbreviations the original italicizes (rootcanal Notes.pm italicize_abbrevs) — cited
+# monographs/journals (GSR, HPTB, LTBA…), set in italics like any work title.
+_ITAL = re.compile(r"\b(GSR|GSTC|STC|HPTB|TBRS|LTSR|TSR|AHD|VSTB|TBT|HCT|LTBA|BSOAS|CSDPN|TIL|OED)\b")
+
+
+def _typography(text):
+    """Arrow notation + work-title italics on a TEXT chunk (no tags). The arrows arrive as
+    entity-escaped ASCII ('&lt;--&gt;'); the original converts them to real arrows (Notes.pm).
+    Other &lt;/&gt; stay entities — linguistic notation like '<WT' depends on it."""
+    text = re.sub(r"&lt;-+&gt;", "⟷", text)
+    text = re.sub(r"-+&gt;", "→", text)
+    text = re.sub(r"&lt;-+", "←", text)
+    return _ITAL.sub(r"<i>\1</i>", text)
 
 
 def render_note(x):
@@ -110,6 +127,8 @@ def render_note(x):
     s = re.sub(r"<br\s*/?>", "<br>", s)
     s = _smart_quotes(s)
     s = s.replace("\x00", "'").replace("\x01", '"')  # shielded form-internal marks stay straight
+    # typography (arrows, work-title italics) on text runs only — never inside a tag
+    s = "".join(p if p.startswith("<") else _typography(p) for p in re.split(r"(<[^>]+>)", s))
     # Leave &lt;/&gt;/&amp; as entities: in note text they're literal angle brackets/ampersands
     # (linguistic notation like "<WT", "<n>", "&lt;--&gt;"). Un-escaping them to raw < > here
     # produced bogus unclosed tags. Structural markup uses literal <tag> and was handled above.
