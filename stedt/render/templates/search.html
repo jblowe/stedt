@@ -1,6 +1,8 @@
 
     <div class="sr">
-      <div class="bigsearch"><input id="bs" aria-label="Search STEDT" placeholder="Search a meaning, form, or language…" autocomplete="off"></div>
+      {# real GET form so JS-less users still get a working submit; search-page.js preventDefaults it #}
+      <div class="bigsearch"><form action="/search" method="get"><input id="bs" name="q" aria-label="Search STEDT" placeholder="Search a meaning, form, or language…" autocomplete="off"></form></div>
+      <noscript><p class="cap">Search runs in your browser and requires JavaScript.</p></noscript>
       <div class="cap qhint">
         <span>Try <a href="?q=gloss%3Adog%20subgroup%3AKiranti"><code>gloss:dog subgroup:Kiranti</code></a></span>
         <details class="qref">

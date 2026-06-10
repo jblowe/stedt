@@ -91,7 +91,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
   border-radius:3px;box-shadow:0 10px 30px rgba(33,28,21,.10);z-index:9;overflow:hidden;display:none;}
 .drop a{display:flex;gap:10px;align-items:baseline;padding:9px 15px;border-bottom:1px solid var(--rule);}
 .drop a:last-child{border-bottom:none}
-.drop a:hover{background:var(--paper2);color:inherit;border-color:var(--rule);}
+.drop a:hover,.drop a.active{background:var(--paper2);color:inherit;border-color:var(--rule);}  /* .active = keyboard active descendant (home.js) */
 .drop .k{font-variant:small-caps;font-size:11px;color:var(--mut);width:46px;flex:none;letter-spacing:.08em;}
 .entry{display:flex;flex-wrap:wrap;gap:10px 22px;justify-content:center;margin-top:28px;font-size:15px;}
 .entry a{color:var(--soft);}

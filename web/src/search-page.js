@@ -6,7 +6,11 @@ import { B, esc, fmt, norm, reflexRow, etymonRow, languageRow } from './rows.js'
 
 const CHUNK = 200;
 const bs = document.getElementById('bs');
-bs.addEventListener('keydown', e => { if (e.key === 'Enter') location = B + '/search?q=' + encodeURIComponent(bs.value); });
+// the input sits in a real GET form (the no-JS path); preventDefault so JS users navigate once
+bs.closest('form').addEventListener('submit', e => {
+  e.preventDefault();
+  location = B + '/search?q=' + encodeURIComponent(bs.value);
+});
 // attested-form rows are pre-sorted by subgroup; emit a Stammbaum-subgroup header when it changes
 let _rxsub = null;
 const rfxGrouped = r => {
