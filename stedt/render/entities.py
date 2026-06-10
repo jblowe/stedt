@@ -709,8 +709,9 @@ def source(srcabbr):
     # the copy-citation — so the venue isn't relegated to a separate chip on the detail page alone.
     cite = source_reference(s)
     meta = []
-    meta.append(Markup(f"<span><b>{len(langs)}</b> languages</span>"))
-    meta.append(Markup(f"<span><b>{total:,}</b> {rfx_noun(total)}</span>"))
+    if langs:  # a reconstruction-only source (JRO-Tilung) shouldn't lead with '0 languages · 0 reflexes'
+        meta.append(Markup(f"<span><b>{len(langs)}</b> languages</span>"))
+        meta.append(Markup(f"<span><b>{total:,}</b> {rfx_noun(total)}</span>"))
     if plangs:
         meta.append(Markup(f"<span><b>{ptotal:,}</b> reconstruction records</span>"))
 
@@ -818,14 +819,18 @@ def group(grpid):
     childinfo = []
     for ch in children:
         # count canonical member lects (distinct non-proto name == one lect within a grpid),
-        # not raw language×source rows, so the tally matches the subgroup's own page header
-        nl = conn.execute(
-            """SELECT count(DISTINCT ln.language) FROM languagenames ln
+        # not raw language×source rows, so the tally matches the subgroup's own page header;
+        # a node holding only reconstruction sets (groups 1/2) is labeled by those instead of
+        # reading '0 languages'
+        nl, nproto = conn.execute(
+            """SELECT count(DISTINCT CASE WHEN ln.language NOT LIKE '*%' THEN ln.language END),
+                      count(DISTINCT CASE WHEN ln.language LIKE '*%' THEN ln.language END)
+            FROM languagenames ln
             JOIN lexicon l ON l.lgid=ln.lgid
-            WHERE ln.grpid=? AND ln.language NOT LIKE '*%' AND {LEX_VISIBLE}""".format(LEX_VISIBLE=LEX_VISIBLE),
+            WHERE ln.grpid=? AND {LEX_VISIBLE}""".format(LEX_VISIBLE=LEX_VISIBLE),
             (ch["grpid"],),
-        ).fetchone()[0]
-        childinfo.append((ch, nl))
+        ).fetchone()
+        childinfo.append((ch, nl, nproto))
     # member lects directly attested at this node: collapse the per-source lgids of one lect onto its
     # canonical page (summing forms, merging sources), and drop proto-forms — they are this group's own
     # reconstruction (the plg + Reconstructions section), not member languages.
@@ -913,12 +918,18 @@ def group(grpid):
 
     tree = [treeitem(t) for t in sorted(alltree, key=lambda t: natkey(t["grpno"]))]
 
-    def subinfo(ch, nl):
+    def subinfo(ch, nl, nproto):
         code = f'<span class="grpno">{esc(ch["grpno"])}</span>' if ch["grpno"] else ""
         lab = code + esc(ch["grp"]) + (f' <span class="plg2">({esc(ch["plg"])})</span>' if ch["plg"] else "")
-        return {"grpid": ch["grpid"], "lab": Markup(lab), "nl": nl}
+        if nl:
+            ct = f"{nl} language" + ("" if nl == 1 else "s")
+        elif nproto:
+            ct = f"{nproto} reconstruction set" + ("" if nproto == 1 else "s")
+        else:
+            ct = "0 languages"
+        return {"grpid": ch["grpid"], "lab": Markup(lab), "ct": ct}
 
-    subs = [subinfo(ch, nl) for ch, nl in childinfo]
+    subs = [subinfo(ch, nl, nproto) for ch, nl, nproto in childinfo]
 
     def langinfo(l, noun=None):
         ab = f' <span class="lgab">{esc(l["lgabbr"])}</span>' if l["lgabbr"] else ""

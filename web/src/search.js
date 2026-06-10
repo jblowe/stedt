@@ -145,6 +145,14 @@ export async function stedtFormsByCategory(semkeys) {
   const db = await getDb();
   const rows = run(db, FORMS_BY_CAT_SQL(keys.length), keys);
   for (const r of rows) shapeReflexEtyma(r);
+  // re-sort with the shared collation key: the SQL ORDER BY is binary in WASM (no custom
+  // collations registered there), which would order these unlike the server-rendered lists
+  rows.sort((a, b) => {
+    const la = sortkey(a.language), lb = sortkey(b.language);
+    if (la !== lb) return la < lb ? -1 : 1;
+    const fa = sortkey(a.reflex), fb = sortkey(b.reflex);
+    return fa < fb ? -1 : fa > fb ? 1 : 0;
+  });
   return rows;
 }
 
@@ -162,7 +170,7 @@ export async function stedtFormsByCategory(semkeys) {
 //    tokens within a group still AND. FTS5's AND binds tighter than OR, so groups need parens.
 const ftsTok = (s) => s.replace(/[^\p{L}\p{N}\p{M}]+/gu, ' ').split(/\s+/).filter(Boolean);
 const ftsQ = (s) => {
-  const groups = s.split(',')
+  const groups = s.split(/[,，]/)
     .map((g) => ftsTok(g).map((t) => '"' + t + '"').join(' '))
     .filter(Boolean);
   if (!groups.length) return '""';   // separator-only query; matches nothing, throws nothing
@@ -194,20 +202,29 @@ const LANG_SQL = `
 // corpus. Detect CJK and route those queries through a substring LIKE over the stored lexicon text
 // (mirroring the original site's RLIKE form search) instead of FTS MATCH.
 const hasCJK = (s) => /[㐀-鿿豈-﫿]|[\ud840-\ud87f][\udc00-\udfff]/.test(s || '');
-const likeToks = (s) => s.replace(/["()*:^%_,，]/g, ' ').split(/\s+/).filter(Boolean);
-const _likeWhere = (n) => Array(n).fill('(reflex LIKE ? OR gloss LIKE ?)').join(' AND ');
-const reflexLikeSql = (n) => `
+const likeToks = (s) => s.replace(/["()*:^%_]/g, ' ').split(/\s+/).filter(Boolean);
+// comma = OR group, like ftsQ: '头, 蛇' is head-OR-snake, not an empty AND intersection
+const likeGroups = (s) => s.split(/[,，]/).map(likeToks).filter((g) => g.length);
+const _likeWhere = (groups) => groups
+  .map((g) => '(' + g.map(() => '(reflex LIKE ? OR gloss LIKE ?)').join(' AND ') + ')')
+  .join(' OR ');
+const reflexLikeSql = (groups) => `
   SELECT ${RFX_COLS}${RFX_JOINS}
   WHERE l.rn IN (SELECT l2.rn FROM lexicon l2 JOIN languagenames n2 ON n2.lgid = l2.lgid
-                 WHERE ${_likeWhere(n)} AND n2.language NOT LIKE '*%' LIMIT ?)
+                 WHERE (${_likeWhere(groups)}) AND n2.language NOT LIKE '*%' LIMIT ?)
   GROUP BY l.rn LIMIT ?`;
-const reflexLikeCountSql = (n) => `
+const reflexLikeCountSql = (groups) => `
   SELECT count(*) AS n FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
-  WHERE ${_likeWhere(n)} AND ln.language NOT LIKE '*%'`;
+  WHERE (${_likeWhere(groups)}) AND ln.language NOT LIKE '*%'`;
 
 // Natural-order key for a Stammbaum grpno so "6.1.10" sorts after "6.1.2" (lexical would invert
 // them); blanks sort last. Used to group/order the attested-form results by subgroup.
 const gkey = (s) => String(s == null || s === '' ? '~~' : s).split('.').map((x) => x.padStart(4, '0')).join('.');
+
+// SYNC(sortkey) ↔ stedt/render/text.py sortkey — case/accent-insensitive collation key (NFD,
+// strip combining marks, casefold), so client-sorted lists order like the server-rendered ones
+// (binary order exiles 'kûi' past all ASCII 'kuiy').
+const sortkey = (s) => (s || '').normalize('NFD').replace(/\p{M}+/gu, '').toLowerCase();
 
 // limit caps the rows fetched per type (the page windows them client-side); the *Total fields are
 // the true match counts so the UI can show "first N of M shown" instead of silently truncating.
@@ -236,10 +253,10 @@ export async function stedtSearch(query, limit = 40) {
     const inner = lim < 0 ? -1 : lim + 40;
     if (hasCJK(qe)) {
       // CJK substrings are invisible to FTS MATCH (see hasCJK note) — match them with LIKE instead.
-      const toks = likeToks(qe), p = [];
-      for (const t of toks) { const w = '%' + t + '%'; p.push(w, w); }
-      reflexTotal = run(db, reflexLikeCountSql(toks.length), p)[0].n;
-      reflexes = run(db, reflexLikeSql(toks.length), [...p, inner, lim]);
+      const groups = likeGroups(qe), p = [];
+      for (const g of groups) for (const t of g) { const w = '%' + t + '%'; p.push(w, w); }
+      reflexTotal = groups.length ? run(db, reflexLikeCountSql(groups), p)[0].n : 0;
+      reflexes = groups.length ? run(db, reflexLikeSql(groups), [...p, inner, lim]) : [];
     } else {
       const m = ftsQ(qe);
       reflexTotal = run(db, REFLEX_COUNT_SQL, [m])[0].n;
@@ -248,14 +265,16 @@ export async function stedtSearch(query, limit = 40) {
     // parse the aggregated etyma JSON into deduped etyma/tag/pf/syn (shared with the category list)
     for (const r of reflexes) {
       shapeReflexEtyma(r);
-      r._gk = gkey(r.grpno);   // precompute the subgroup sort key once (invariant per row)
+      r._gk = gkey(r.grpno);   // precompute the sort keys once (invariant per row)
+      r._lk = sortkey(r.language);
+      r._fk = sortkey(r.form);
     }
     // order by subgroup (then language, form) so the page can render Stammbaum-grouped sections
     reflexes.sort((a, b) => {
       const ga = a._gk, gb = b._gk;
       return ga < gb ? -1 : ga > gb ? 1
-        : (a.language || '') < (b.language || '') ? -1 : (a.language || '') > (b.language || '') ? 1
-        : (a.form || '') < (b.form || '') ? -1 : (a.form || '') > (b.form || '') ? 1 : 0;
+        : a._lk < b._lk ? -1 : a._lk > b._lk ? 1
+        : a._fk < b._fk ? -1 : a._fk > b._fk ? 1 : 0;
     });
   }
 

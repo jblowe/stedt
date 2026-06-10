@@ -75,7 +75,9 @@ TABLES = [
     # NB: the INTEGER decls are load-bearing, not documentation — typeless columns get BLOB
     # affinity, which disqualifies ix_hash_rn from the h.rn=l.rn join (lexicon.rn is INTEGER),
     # turning every search into a per-row full scan of this table (~9-75s tab freezes).
-    {"name": "lx_et_hash", "src": "src.lx_et_hash", "where": "tag > 0", "cols": [
+    # rn IN (SELECT …) keeps the table consistent with the LEX_VISIBLE-filtered lexicon copy
+    # (which is inserted before this one): no orphan rows for suppressed reflexes.
+    {"name": "lx_et_hash", "src": "src.lx_et_hash", "where": "tag > 0 AND rn IN (SELECT rn FROM lexicon)", "cols": [
         ("rn",  "INTEGER", "rn"),   # reflex -> etyma enrichment join (hot path; indexed below)
         ("tag", "INTEGER", "tag"),  # etymon a syllable/reflex belongs to
         ("ind", "INTEGER", "ind"),  # syllable position -> per-syllable links (r.syn)
@@ -182,6 +184,7 @@ def main():
     by_rn = {}
     for rn, xml, nt in db.execute("""SELECT rn, xmlnote, notetype FROM src.notes
             WHERE spec='L' AND notetype!='I' AND xmlnote IS NOT NULL AND rn IS NOT NULL
+            AND rn IN (SELECT rn FROM lexicon)
             ORDER BY rn, ord, noteid"""):
         h = render_note(xml).replace('<p class="np">', "").replace("</p>", "")
         if h.strip():
