@@ -26,6 +26,20 @@ def home():
     return page("Home", _HOME.render(preview=PREVIEW))
 
 
+def not_found():
+    """GitHub Pages serves /404.html for any missing path; the standard shell keeps the masthead
+    search + nav, so a dead link is one step from recovery. Asset/nav URLs are root-absolute with
+    the BASE prefix already applied, so they resolve from any URL depth."""
+    body = (
+        '<div class="sr"><h1>Page not found</h1>'
+        "<p>There’s nothing at this address — the entry may have been renumbered or withdrawn.</p>"
+        '<p>Try a <a href="/search">search</a>, or start from the '
+        '<a href="/thesaurus">thesaurus</a>, <a href="/reconstructions">reconstructions</a>, '
+        '<a href="/languages">languages</a>, or <a href="/sources">sources</a>.</p></div>'
+    )
+    return page("Page not found", body)
+
+
 def about():
     conn = con()
     one = lambda sql: conn.execute(sql).fetchone()[0]

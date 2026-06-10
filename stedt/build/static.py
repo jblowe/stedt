@@ -127,6 +127,9 @@ def main():
     c.close()
 
     write("", render.home)
+    # GitHub Pages picks up 404.html at the artifact root (must be the bare file, not 404/index.html)
+    with open(os.path.join(OUT, "404.html"), "w", encoding="utf-8") as f:
+        f.write(rewrite(render.not_found()))
     write("about", render.about)
     write("reconstructions", render.reconstructions)
     write("languages", render.languages_index)

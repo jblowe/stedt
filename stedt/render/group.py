@@ -46,7 +46,18 @@ def group(grpid):
             WHERE ln.grpid=? AND {LEX_VISIBLE}""",
             (ch["grpid"],),
         ).fetchone()
-        childinfo.append((ch, nl, nproto))
+        # a branch node whose lects all live in deeper subgroups (e.g. Tibeto-Kanauri, Sal) has no
+        # direct members — count its subtree by grpno prefix so the row doesn't read '0 languages'
+        nsub = 0
+        if not nl and not nproto and ch["grpno"]:
+            nsub = conn.execute(
+                f"""SELECT count(DISTINCT ln.language) FROM languagenames ln
+                JOIN languagegroups g ON g.grpid=ln.grpid
+                JOIN lexicon l ON l.lgid=ln.lgid
+                WHERE (g.grpno=? OR g.grpno LIKE ?) AND ln.language NOT LIKE '*%' AND {LEX_VISIBLE}""",
+                (ch["grpno"], str(ch["grpno"]) + ".%"),
+            ).fetchone()[0]
+        childinfo.append((ch, nl, nproto, nsub))
     # member lects directly attested at this node: collapse the per-source lgids of one lect onto its
     # canonical page (summing forms, merging sources), and drop proto-forms — they are this group's own
     # reconstruction (the plg + Reconstructions section), not member languages.
@@ -135,18 +146,21 @@ def group(grpid):
 
     tree = [treeitem(t) for t in sorted(alltree, key=lambda t: natkey(t["grpno"]))]
 
-    def subinfo(ch, nl, nproto):
+    def subinfo(ch, nl, nproto, nsub):
         code = f'<span class="grpno">{esc(ch["grpno"])}</span>' if ch["grpno"] else ""
         lab = code + esc(ch["grp"]) + (f' <span class="plg2">({esc(ch["plg"])})</span>' if ch["plg"] else "")
         if nl:
             ct = f"{nl} language" + ("" if nl == 1 else "s")
         elif nproto:
             ct = f"{nproto} reconstruction set" + ("" if nproto == 1 else "s")
+        elif nsub:
+            # branch node: members live in deeper subgroups, say so instead of '0 languages'
+            ct = f"{nsub} language" + ("" if nsub == 1 else "s") + " in subgroups"
         else:
-            ct = "0 languages"
+            ct = ""  # truly empty node — show nothing, like the thesaurus index at 0
         return {"grpid": ch["grpid"], "lab": Markup(lab), "ct": ct}
 
-    subs = [subinfo(ch, nl, nproto) for ch, nl, nproto in childinfo]
+    subs = [subinfo(ch, nl, nproto, nsub) for ch, nl, nproto, nsub in childinfo]
 
     def langinfo(l, noun=None):
         ab = lgab_span(l["lgabbr"])
