@@ -268,6 +268,9 @@ a.syl:hover,a.syl:focus{z-index:5;}
 /* thesaurus */
 .thes ul{list-style:none;padding:0;margin:0;}
 .thes li{border-bottom:1px solid var(--rule);}
+.thes h2{font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px;}
+.thes .crumbs+h2{margin:10px 0 18px;}   /* node pages: the crumb row sits above the title */
+.thes .ety-list h3{margin-top:30px;}
 .thes li a.row{display:flex;align-items:baseline;gap:12px;padding:11px 6px;border-bottom:none;}
 .thes li a.row:hover{background:var(--paper2);color:inherit;}
 .thes .sk{font-family:"Fraunces",serif;font-size:13px;color:var(--mut);width:64px;flex:none;
@@ -298,6 +301,7 @@ a.syl:hover,a.syl:focus{z-index:5;}
 .sec-label .rxsort select{font-family:inherit;font-size:12.5px;color:var(--ink);background:var(--paper2);
   border:1px solid var(--rule);border-radius:3px;padding:1px 4px;}
 .sec-label .rxsort select:focus{outline:none;border-color:var(--accent);}
+.sr .bigsearch{margin:0 0 8px;}
 /* the search-syntax hint row under the box; teaches the field:value forms */
 .qhint{margin:0 0 22px;line-height:1.9;}
 .qhint code{font-family:"Charis SIL",serif;background:var(--paper2);border:1px solid var(--hair);
@@ -336,6 +340,7 @@ a.syl:hover,a.syl:focus{z-index:5;}
 .srcidx .srcref{color:var(--soft);font-size:13.5px;margin-left:9px;}
 .srcidx .srccnt{color:var(--mut);font-size:12.5px;margin-left:9px;font-variant-numeric:tabular-nums;white-space:nowrap;}
 .srcsort{font-size:13px;color:var(--mut);margin:6px 0 14px;}
+.refonly{margin-top:24px;}
 .srcsort select{font-family:inherit;font-size:13px;color:var(--ink);background:var(--paper2);
   border:1px solid var(--rule);border-radius:2px;padding:3px 7px;}
 .srcsort select:focus{outline:none;border-color:var(--accent);}
@@ -418,3 +423,9 @@ pre.diff .hdr{color:var(--mut);}
 
   .stats{gap:20px;}
 }
+
+/* the home-page preview banner ({% if preview %}) */
+.preview-banner{background:var(--accent);color:var(--paper);padding:14px 20px;border-radius:3px;
+  margin:0 0 22px;font-size:15px;line-height:1.55;}
+/* source page: the full-reference line under the title (resets .pg's small-caps look) */
+.pg.citeline{font-variant:normal;font-size:16px;color:var(--soft);letter-spacing:0;}

@@ -374,6 +374,16 @@ for _name, _files in sorted(_sync.items()):
 print(f"  sync markers: {len(_sync)} twins across {len(set().union(*_sync.values()) if _sync else set())} files")
 
 
+# ---- templates carry no static inline styles ----
+# A literal style="…" in a template is unoverridable from site.css (it kept blocking restyling);
+# style constants belong in classes. Values interpolating template data ({{ … }}) are exempt —
+# those are computed indents, parameterized rather than constant.
+for _p in glob.glob(os.path.join(_REPO, "stedt", "render", "templates", "*.html")):
+    for _m in re.finditer(r'style="([^"]*)"', open(_p, encoding="utf-8").read()):
+        if "{{" not in _m.group(1):
+            err(f"{os.path.relpath(_p, _REPO)}: static inline style=\"{_m.group(1)[:50]}\" — move it to a class in site.css")
+
+
 # ---- report ----
 def show(label, items, cap=25):
     print(f"\n{label}: {len(items)}")

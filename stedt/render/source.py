@@ -82,7 +82,7 @@ def source(srcabbr):
 
     citehtml = (
         Markup(
-            f'<div class="pg" style="font-variant:normal;font-size:16px;color:var(--soft);letter-spacing:0">{esc(cite)}</div>'
+            f'<div class="pg citeline">{esc(cite)}</div>'
         )
         if cite
         else Markup("")
