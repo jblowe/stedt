@@ -57,6 +57,7 @@ def chrome(title, body, vert_tog=False, cognates=None, extra_scripts=""):
 <head>
 \t<meta charset="utf-8">
 \t<meta name="robots" content="noindex,nofollow">
+\t<link rel="icon" href="data:,">
 \t<title>{esc(title)}</title>
 \t<script>window.STEDT_BASE="{BASE}";window.STEDT_LEGACY_DB_VERSION="{VER}";</script>
 \t<script type="module" src="{BASE}/assets/legacy-shim.js"></script>
@@ -888,7 +889,7 @@ def legacy_chapter_browser():
     vols = [
         r for r in chs if str(r["semkey"]).replace(".0", "").count(".") == 0 and _semkey_tuple(r["semkey"])[0] <= 10
     ]
-    vol_html = "".join(f'<li><a href="#v{esc(v["semkey"])}">{esc(v["chaptertitle"])}</a></li>' for v in vols)
+    vol_html = "".join(f'<li><a href="#{esc(v["semkey"])}">{esc(v["chaptertitle"])}</a></li>' for v in vols)
 
     trs = ""
     for r in chs:
@@ -901,7 +902,8 @@ def legacy_chapter_browser():
             ti = f"<b>{ti}</b>"
         elif indent == 1:
             ti = f"<i>{ti}</i>"
-        anchor = f'<a name="v{esc(sk)}"></a>' if r in vols else ""
+        # every row is a deep-link target, like the original's /chapters#1.1.1 (829 anchors)
+        anchor = f'<a name="{esc(sk)}"></a>'
         trs += (
             f'<tr>\n<td>{anchor}{pad}<a target="notes" href="{BASE}/chap/{esc(sk)}">{esc(sk)}</a></td>\n'
             f'<td>{pad}{ti}</td>\n<td>{r["netyma"] or ""}</td>\n<td>{r["nnotes"] or ""}</td>\n'
