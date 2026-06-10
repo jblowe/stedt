@@ -324,9 +324,9 @@ def _breadcrumbs(c, chapter):
 def legacy_etymon(tag):
     c = render.con()
     e = c.execute(
-        """SELECT e.tag, e.chapter, e.sequence, e.protoform, e.protogloss, e.public, g.plg
+        f"""SELECT e.tag, e.chapter, e.sequence, e.protoform, e.protogloss, e.public, g.plg
                      FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-                     WHERE e.tag=? AND coalesce(upper(e.status),'')!='DELETE'""",
+                     WHERE e.tag=? AND {render.ETY_LIVE}""",
         (tag,),
     ).fetchone()
     if not e:
@@ -354,14 +354,14 @@ def legacy_etymon(tag):
 
     # reflexes (Tags.pm::etymon, guest 15 cols); analysis computed in Python (version-safe)
     recs = c.execute(
-        """SELECT l.rn, ln.lgid, l.reflex, l.gloss, l.gfn, ln.language, g.grpid, g.grpno,
+        f"""SELECT l.rn, ln.lgid, l.reflex, l.gloss, l.gfn, ln.language, g.grpid, g.grpno,
                           g.grp, g.genetic, sb.citation, ln.srcabbr, l.srcid,
                           (SELECT COUNT(*) FROM notes WHERE notes.rn=l.rn) AS num_notes
                         FROM lexicon l JOIN lx_et_hash h ON h.rn=l.rn AND h.tag=?
                           LEFT JOIN languagenames ln ON ln.lgid=l.lgid
                           LEFT JOIN languagegroups g ON g.grpid=ln.grpid
                           LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
-                        WHERE coalesce(l.status,'') NOT IN ('HIDE','DELETED')
+                        WHERE {render.LEX_VISIBLE}
                         GROUP BY l.rn
                         ORDER BY g.grp0,g.grp1,g.grp2,g.grp3,g.grp4, ln.lgsort, l.reflex COLLATE unaccent, ln.srcabbr, l.srcid""",
         (tag,),
@@ -615,12 +615,12 @@ def legacy_source(srcabbr):
         raise ValueError(f"no source {srcabbr}")
     author, year, title, imprint = sb["author"] or "", sb["year"] or "", sb["title"] or "", sb["imprint"] or ""
     lgs = c.execute(
-        """SELECT ln.silcode, ln.language, g.grpid, g.grpno, g.grp,
+        f"""SELECT ln.silcode, ln.language, g.grpid, g.grpno, g.grp,
                          COUNT(l.rn) AS nrec, ln.lgid, ln.pi_page, ln.lgabbr
                        FROM languagenames ln LEFT JOIN languagegroups g ON g.grpid=ln.grpid
                          LEFT JOIN lexicon l ON l.lgid=ln.lgid
                        WHERE ln.srcabbr=? AND coalesce(ln.lgcode,0)!=0
-                         AND coalesce(l.status,'') NOT IN ('HIDE','DELETED')
+                         AND {render.LEX_VISIBLE}
                        GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language COLLATE unaccent""",
         (srcabbr,),
     ).fetchall()
@@ -687,11 +687,11 @@ def legacy_source(srcabbr):
 
 def legacy_all_sources():
     c = render.con()
-    rows = c.execute("""SELECT sb.srcabbr, COUNT(DISTINCT ln.lgid) AS num_lgs, COUNT(l.rn) AS num_recs,
+    rows = c.execute(f"""SELECT sb.srcabbr, COUNT(DISTINCT ln.lgid) AS num_lgs, COUNT(l.rn) AS num_recs,
                           sb.citation, sb.author, sb.year, sb.title, sb.imprint
                         FROM srcbib sb LEFT JOIN languagenames ln ON ln.srcabbr=sb.srcabbr
                           LEFT JOIN lexicon l ON l.lgid=ln.lgid
-                        WHERE coalesce(l.status,'') NOT IN ('HIDE','DELETED')
+                        WHERE {render.LEX_VISIBLE}
                         GROUP BY sb.srcabbr HAVING num_recs>0 ORDER BY sb.citation COLLATE unaccent""").fetchall()
     c.close()
     trs = ""
@@ -733,12 +733,12 @@ def legacy_group(grpid, lgid=None):
     lgs = [
         dict(r)
         for r in c.execute(
-            """SELECT ln.silcode, ln.language, ln.lgcode, ln.srcabbr, sb.citation, ln.lgid,
+            f"""SELECT ln.silcode, ln.language, ln.lgcode, ln.srcabbr, sb.citation, ln.lgid,
              COUNT(l.rn) AS nrec, ln.pi_page, ln.lgabbr
            FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid
              LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
            WHERE ln.grpid=? AND coalesce(ln.lgcode,0)!=0
-             AND coalesce(l.status,'') NOT IN ('HIDE','DELETED')
+             AND {render.LEX_VISIBLE}
            GROUP BY ln.lgid HAVING nrec>0 ORDER BY ln.lgcode, ln.language COLLATE unaccent""",
             (grpid,),
         )
@@ -853,7 +853,7 @@ def legacy_chapter(semkey):
     ).fetchall()
     table, n = _etyma_table(
         c,
-        "e.chapter=? AND coalesce(upper(e.status),'')!='DELETE'",
+        f"e.chapter=? AND {render.ETY_LIVE}",
         (semkey,),
         "CASE WHEN CAST(e.sequence AS REAL)=0 THEN 1 ELSE 0 END, CAST(e.sequence AS REAL), e.public DESC",
     )

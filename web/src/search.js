@@ -340,9 +340,15 @@ const langFieldSql = (nLang, ng) => `
   WHERE ln.language NOT LIKE '*%'${' AND ln.language LIKE ?'.repeat(nLang)}${ng ? ` AND ln.grpid IN (${_ph(ng)})` : ''}
   GROUP BY ln.lgid`;
 
-// Natural-order key for a Stammbaum grpno so "6.1.10" sorts after "6.1.2" (lexical would invert
-// them); blanks sort last. Used to group/order the attested-form results by subgroup.
-const gkey = (s) => String(s == null || s === '' ? '~~' : s).split('.').map((x) => x.padStart(4, '0')).join('.');
+// SYNC(grpno-order) ↔ stedt/render/text.py natkey — natural order for a Stammbaum grpno: per
+// '.'-segment, digit runs compare numerically and before alpha tokens ('6.1.10' after '6.1.2',
+// 'X' after every number). Each segment becomes '0'+zero-padded digits (to 8 — beyond any
+// Stammbaum numbering; natkey's ints are unbounded) or '1'+token, mirroring natkey's
+// (kind, value) tuples; the '.' joiner collates below both prefixes, so a prefix grpno
+// sorts before its extensions like Python's list comparison. Blanks (unjoined rows) sort last,
+// as the server's blank-seeing caller (language.py) forces explicitly.
+const gkey = (s) => (s == null || s === '' ? '2' : String(s).split('.')
+  .map((x) => (/^\d+$/.test(x) ? '0' + x.padStart(8, '0') : '1' + x)).join('.'));
 
 // SYNC(sortkey) ↔ stedt/render/text.py sortkey — case/accent-insensitive collation key (NFD,
 // strip combining marks, casefold), so client-sorted lists order like the server-rendered ones

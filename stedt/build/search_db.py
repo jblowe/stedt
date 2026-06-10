@@ -3,7 +3,7 @@
 
 Derived from stedt.sqlite. Holds only what the live search queries touch — etyma, lexicon,
 languagenames, languagegroups, lx_et_hash, srcbib, lxnote, chapters — plus the FTS5 index over
-reflex form/gloss/language (`unicode61 remove_diacritics 2`, byte-identical to the server's
+reflex form/gloss/language (`unicode61 remove_diacritics 2`, same tokenizer as legacy.sqlite3's
 `lexicon_fts`). Small page_size + VACUUM so sql.js-httpvfs range requests fetch little; indexes so
 every query is index-backed (the only intentional scan is the ~5K-row etyma table). The full
 content stays in the HTML pages.
@@ -199,7 +199,7 @@ def main():
     # too (~0.6 MB gz): the search builds only single-term AND/OR and column-filtered (`gloss:(…)`)
     # MATCH queries — never a multi-word phrase — so positions buy nothing, while column info is
     # kept for the `gloss:` filter. rowid = rn, so the search selects rowid. Same tokenizer and
-    # MATCH semantics as the server's lexicon_fts.
+    # MATCH semantics as legacy.sqlite3's lexicon_fts.
     db.executescript("""
         CREATE VIRTUAL TABLE lexicon_fts USING fts5(
             form, gloss, language, content='', columnsize=0, detail=column,

@@ -334,7 +334,7 @@ def main(sqldump=SQLDUMP):
     for t in TABLES:
         print(f"  {t:16s} {counts[t]:>7,}")
 
-    print("  building indexes + FTS…")
+    print("  building indexes…")
     for stmt in [
         "CREATE INDEX ix_lex_lgid ON lexicon(lgid)",
         "CREATE INDEX ix_lex_semkey ON lexicon(semkey)",
@@ -354,11 +354,8 @@ def main(sqldump=SQLDUMP):
         "CREATE INDEX ix_chap_semkey ON chapters(semkey)",
     ]:
         c.execute(stmt)
-    c.execute("""CREATE VIRTUAL TABLE lexicon_fts USING fts5(
-        form, gloss, language, rn UNINDEXED, tokenize='unicode61 remove_diacritics 2')""")
-    c.execute("""INSERT INTO lexicon_fts(form,gloss,language,rn)
-        SELECT l.reflex, l.gloss, ln.language, l.rn
-        FROM lexicon l LEFT JOIN languagenames ln ON ln.lgid=l.lgid""")
+    # no FTS here: search.sqlite3 and legacy.sqlite3 each build their own lexicon_fts; the
+    # canonical DB's copy lost its last reader when server-side search was retired (0916682).
     db.commit()
     c.execute("VACUUM")
     db.commit()

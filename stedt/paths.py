@@ -20,7 +20,8 @@ def _find_root():
             return d
         parent = os.path.dirname(d)
         if parent == d:
-            return os.getcwd()  # no marker found: fall back to the current directory
+            # never fall back to cwd: that once built an empty stedt.sqlite into /tmp with exit 0
+            raise SystemExit("not inside a STEDT checkout (data/ not found; set STEDT_ROOT to override)")
         d = parent
 
 
@@ -28,7 +29,6 @@ ROOT = _find_root()
 
 DATA = os.path.join(ROOT, "data")  # all-TSV source of truth
 STATIC = os.path.join(ROOT, "static")  # shared site assets (site.css, site.js)
-LEGACY_ASSETS = os.path.join(ROOT, "legacy_assets")  # verbatim rootcanal front-end
 SITE = os.path.join(ROOT, "site")  # prerendered output
 WEB = os.path.join(ROOT, "web")  # JS frontend (npm project; esbuild bundles)
 

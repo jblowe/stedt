@@ -82,14 +82,14 @@ def main():
 
     c = L.render.con()
     tags = [r[0] for r in c.execute("SELECT tag FROM etyma WHERE coalesce(upper(status),'')!='DELETE' ORDER BY tag")]
-    srcs = [r[0] for r in c.execute("""SELECT DISTINCT ln.srcabbr FROM srcbib sb
+    srcs = [r[0] for r in c.execute(f"""SELECT DISTINCT ln.srcabbr FROM srcbib sb
         JOIN languagenames ln ON ln.srcabbr=sb.srcabbr JOIN lexicon l ON l.lgid=ln.lgid
-        WHERE coalesce(l.status,'') NOT IN ('HIDE','DELETED') AND coalesce(sb.srcabbr,'')!=''""")]
+        WHERE {L.render.LEX_VISIBLE} AND coalesce(sb.srcabbr,'')!=''""")]
     semks = [r[0] for r in c.execute("SELECT semkey FROM chapters WHERE coalesce(semkey,'')!=''")]
     grpids = [r[0] for r in c.execute("SELECT grpid FROM languagegroups ORDER BY grpid")]
     # (grpid,lgid) pairs that reflex language-links point at → redirect stubs that scroll the group page
-    lg_pairs = c.execute("""SELECT ln.grpid, ln.lgid FROM languagenames ln JOIN lexicon l ON l.lgid=ln.lgid
-        WHERE coalesce(ln.lgcode,0)!=0 AND coalesce(l.status,'') NOT IN ('HIDE','DELETED')
+    lg_pairs = c.execute(f"""SELECT ln.grpid, ln.lgid FROM languagenames ln JOIN lexicon l ON l.lgid=ln.lgid
+        WHERE coalesce(ln.lgcode,0)!=0 AND {L.render.LEX_VISIBLE}
           AND ln.grpid IS NOT NULL GROUP BY ln.lgid""").fetchall()
     c.close()
     if LIMIT:

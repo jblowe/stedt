@@ -15,6 +15,10 @@ def sortkey(s):
 
 
 def natkey(s):
+    """SYNC(grpno-order) ↔ web/src/search.js gkey — natural order for a Stammbaum grpno:
+    per '.'-segment, digit runs compare numerically and before alpha tokens ('6.1.10' after
+    '6.1.2', 'X' after every number); a prefix sorts before its extensions. Blank grpnos are
+    sorted last by the callers that can see one (language.py); gkey bakes that in."""
     out = []
     for p in (s or "").split("."):
         out.append((0, int(p), "") if p.isdigit() else (1, 0, p))
@@ -42,10 +46,11 @@ def alt(s):
 
 def iso_link(code):
     """An ISO 639-3 code linked to its Glottolog languoid page (the original's Ethnologue
-    show_language.asp links are long dead)."""
+    show_language.asp links are long dead). Only a well-formed code gets a link: silcode
+    carries garbage values (' mw', two-letter stubs) that would 404 — show those as text."""
     code = (code or "").strip()
-    if not code:
-        return ""
+    if not re.fullmatch(r"[a-z]{3}", code):
+        return esc(code)
     # convention: external links open in the same tab, like every other link on the site
     return f'<a href="https://glottolog.org/resource/languoid/iso/{esc(code)}">{esc(code)}</a>'
 

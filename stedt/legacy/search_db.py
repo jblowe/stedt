@@ -16,14 +16,49 @@ gzip reason noted there.
 """
 
 import os
+import re
 import sqlite3
 
-from stedt.paths import DB as SRC, LEGACY_DB as OUT
+from stedt.paths import DB as SRC, LEGACY_DB as OUT, WEB
 
-# rootcanal's default_where for the public lexicon search (Table/Lexicon.pm).
-LEX_VISIBLE = "coalesce(status,'') NOT IN ('HIDE','DELETED')"
+# rootcanal's default_where for the public lexicon search (Table/Lexicon.pm). These are
+# render.db's LEX_VISIBLE / ETY_LIVE minus the l./e. alias (the INSERTs below read src tables
+# unaliased) — keep the upper() so case drift in a future dump can't leak withdrawn rows here.
+LEX_VISIBLE = "coalesce(upper(status),'') NOT IN ('HIDE','DELETED')"
 # rootcanal's default_where for etyma (Table/Etyma.pm: status != 'DELETE').
 ETY_VISIBLE = "coalesce(upper(status),'') != 'DELETE'"
+
+# the aliases legacy-shim.js binds to the legacy-DB tables (from its SELECT FROM/JOIN clauses)
+_SHIM_ALIASES = {"e": "etyma", "l": "lexicon", "ln": "languagenames", "g": "languagegroups",
+                 "sb": "srcbib", "ch": "chapters"}
+
+
+def _verify_shim_contract(db):
+    """Every alias-qualified column and every FROM/JOIN table the shim's SQL reads must exist in
+    the built DB — the modern pair got this check (build/search_db.py verify_client_contract)
+    after four real column-drift bugs of this class. The shim has no manifest, so the read set
+    comes from scanning its string literals; // comments are stripped first, or their prose
+    apostrophes would pair into pseudo-strings full of false column refs."""
+    js = os.path.join(WEB, "src", "legacy-shim.js")
+    if not os.path.isfile(js):
+        print("  (shim-contract check skipped: web/src/legacy-shim.js not found)")
+        return
+    with open(js, encoding="utf-8") as fh:
+        code = "\n".join(re.sub(r"//.*$", "", ln) for ln in fh)
+    sql = " ".join(s for q in (r"`([^`]*)`", r"'((?:[^'\\\n]|\\.)*)'") for s in re.findall(q, code))
+    aliases = sorted(_SHIM_ALIASES, key=len, reverse=True)  # ln before l, so "ln.x" binds to ln
+    pat = re.compile(r"\b(" + "|".join(aliases) + r")\.(\w+)\b")
+    tables = {r[0] for r in db.execute("SELECT name FROM sqlite_master WHERE type='table'")}
+    missing = {
+        f"legacy-shim.js reads FROM/JOIN {t}, not shipped by legacy.sqlite3"
+        for t in re.findall(r"\b(?:FROM|JOIN)\s+(\w+)", sql) if t not in tables
+    }
+    for a, c in set(pat.findall(sql)):
+        cols = {r[1] for r in db.execute(f"PRAGMA table_info({_SHIM_ALIASES[a]})")}
+        if c not in cols:
+            missing.add(f"legacy-shim.js reads {_SHIM_ALIASES[a]}.{c}, not shipped by legacy.sqlite3")
+    if missing:
+        raise SystemExit("legacy-db contract violation:\n  " + "\n  ".join(sorted(missing)))
 
 
 def main():
@@ -113,7 +148,7 @@ def main():
     """)
 
     # --- FTS5 over reflex/gloss/language (visible rows only). Contentless + columnsize=0, same
-    #     tokenizer/MATCH semantics as the server's lexicon_fts; rowid = rn. ---
+    #     tokenizer/MATCH semantics as search.sqlite3's lexicon_fts; rowid = rn. ---
     db.executescript("""
         CREATE VIRTUAL TABLE lexicon_fts USING fts5(
             form, gloss, language, content='', columnsize=0, tokenize='unicode61 remove_diacritics 2');
@@ -122,6 +157,7 @@ def main():
           FROM lexicon l LEFT JOIN languagenames ln ON ln.lgid = l.lgid;
     """)
 
+    _verify_shim_contract(db)
     db.commit()
     db.execute("VACUUM")
     db.close()
