@@ -14,17 +14,22 @@ from .shell import page, breadcrumb, group_lineage, reflex_counts, proto_labels,
 from .shell import etymon_href, source_href, language_href, reflex_href, source_reference
 from .templating import env
 
-_GRP_NOISE = re.compile(r"\(previously published reconstructions\)|[^a-z0-9]")
+def _grp_norm(s):
+    s = (s or "").lstrip("*").lower()
+    s = re.sub(r"\([^)]*\)", "", s)  # parenthetical qualifiers: '(Ao Group)', '(previously published …)'
+    s = re.sub(r"/.*$", "", s)  # slash-alternative tail: 'Northern Naga/Konyakian'
+    return re.sub(r"[^a-z0-9]", "", s)
 
 
 def _is_own_proto(language, grp):
     """True when a proto-lect row ('*Tibeto-Burman') IS its group's own proto-language, so the
     group's plg (PTB) labels it faithfully; False for guest reconstructions merely filed in a
-    group ('*Tibeto-Karen' in the TB bucket, '*Common Lahu' under Central Loloish, '*Burmese'
-    under Burmish) — those must keep their published attribution verbatim."""
-    lang = _GRP_NOISE.sub("", (language or "").lstrip("*").lower())
-    g = _GRP_NOISE.sub("", (grp or "").lower())
-    return bool(lang) and g.startswith(lang)
+    group ('*Tibeto-Karen' in the TB bucket, '*Common Lahu' under Central Loloish, '*Kuki'
+    under Kuki-Chin) — those must keep their published attribution verbatim. Equality after
+    qualifier-stripping, NOT a prefix test: 'Kuki' is a prefix of 'Kuki-Chin' but a different
+    published taxon."""
+    lang = _grp_norm(language)
+    return bool(lang) and lang == _grp_norm(grp)
 
 
 def _seq_label(s):
@@ -95,13 +100,18 @@ def etymon(tag):
     # allofams/xrefs text fields are EMPTY for most family members, so without this the
     # family is invisible; cf. the same query in legacy/render.py).
     family = []
-    if (e["chapter"] or "") and (e["sequence"] or "") not in ("", "0", "0.0"):
+    seq = e["sequence"]
+    try:
+        seq_ok = seq is not None and float(seq) >= 1  # sequence is REAL; 0/0.0 = unsequenced
+    except (TypeError, ValueError):
+        seq_ok = False
+    if (e["chapter"] or "") and seq_ok:
         family = conn.execute(
             """SELECT tag, sequence, protoform, protogloss FROM etyma
-            WHERE chapter=? AND sequence!='0' AND sequence!='0.0'
+            WHERE chapter=? AND CAST(sequence AS INTEGER)>0
               AND CAST(sequence AS INTEGER)=CAST(? AS INTEGER)
               AND coalesce(upper(status),'')!='DELETE' ORDER BY sequence""",
-            (e["chapter"], e["sequence"]),
+            (e["chapter"], seq),
         ).fetchall()
         if len(family) < 2:  # just this etymon: no family to show
             family = []
@@ -293,8 +303,8 @@ def etymon(tag):
     if recon_rows:
         rr = ""
         for r in recon_rows:
-            if _is_own_proto(r["language"], r["subgroup"]):
-                lab = r["grpplg"] or r["subgroup"] or (r["language"] or "").lstrip("*")
+            if _is_own_proto(r["language"], r["subgroup"]) and r["grpplg"]:
+                lab = r["grpplg"]
             else:
                 lab = (r["language"] or "").strip()  # keep the published name, star and all
             # the label names a proto-language — link it to its group page
@@ -348,8 +358,11 @@ def etymon(tag):
     if family:
         fam = []
         for a in family:
+            # the #tag disambiguates etyma sharing one curated sequence (e.g. 208/212 both '4')
+            # and matches the legacy/original label shape ('1a #695 *lak …')
             lab = (
-                f'{esc(_seq_label(a["sequence"]))} <span class="recon">{esc(alt(a["protoform"]))}</span>'
+                f'{esc(_seq_label(a["sequence"]))} #{a["tag"]} '
+                f'<span class="recon">{esc(alt(a["protoform"]))}</span>'
                 f' ‘{esc(a["protogloss"])}’'
             )
             fam.append(
