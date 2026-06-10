@@ -38,17 +38,25 @@ async function loadDb() {
 // carries the data version, so a cache hit means "same data" — no revalidation needed; a data
 // change yields a new URL (miss). Old versions are evicted so storage holds one DB at a time.
 // Falls back to a plain fetch where caches are unavailable (e.g. file://).
+// SYNC(db-fetch) ↔ web/src/legacy-shim.js fetchDbBytes — same shape, separate cache key.
 async function fetchDbBytes(url) {
+  // Never cache a non-OK body: a transient 404/500 stored under the versioned URL would brick
+  // search until the next data version, because cache hits are never revalidated.
+  const get = async () => {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('search DB fetch failed: HTTP ' + res.status);
+    return res.arrayBuffer();
+  };
   try {
     const cache = await caches.open('stedt-search-db');
     const hit = await cache.match(url);
     if (hit) return new Uint8Array(await hit.arrayBuffer());
-    const buf = await (await fetch(url)).arrayBuffer();
+    const buf = await get();
     for (const k of await cache.keys()) await cache.delete(k);   // evict older DB versions
     await cache.put(url, new Response(buf));
     return new Uint8Array(buf);
   } catch (e) {
-    return new Uint8Array(await (await fetch(url)).arrayBuffer());
+    return new Uint8Array(await get());                          // caches unavailable (e.g. file://)
   }
 }
 

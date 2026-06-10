@@ -36,17 +36,25 @@ async function loadDb() {
   return db;
 }
 
+// SYNC(db-fetch) ↔ web/src/search.js fetchDbBytes — same shape, separate cache key.
 async function fetchDbBytes(url) {
+  // Never cache a non-OK body: a transient 404/500 stored under the versioned URL would brick
+  // the legacy search until the next data version (cache hits are never revalidated).
+  const get = async () => {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('legacy DB fetch failed: HTTP ' + res.status);
+    return res.arrayBuffer();
+  };
   try {
     const cache = await caches.open('stedt-legacy-db');           // own cache key, separate from the main site
     const hit = await cache.match(url);
     if (hit) return new Uint8Array(await hit.arrayBuffer());
-    const buf = await (await fetch(url)).arrayBuffer();
+    const buf = await get();
     for (const k of await cache.keys()) await cache.delete(k);     // evict older DB versions
     await cache.put(url, new Response(buf));
     return new Uint8Array(buf);
   } catch (e) {
-    return new Uint8Array(await (await fetch(url)).arrayBuffer());
+    return new Uint8Array(await get());                            // caches unavailable (e.g. file://)
   }
 }
 
@@ -179,7 +187,9 @@ function elink(db, tags) {
       ORDER BY e.sequence`, [chap, seq]);
     if (allo.length > 1) {
       html += '<ul>' + allo.map(([at, , aplg, apf, apg]) =>
-        `<li><a href="${base()}/_legacy/etymon/${at}">#${at} ${aplg || ''} *${apf || ''} ${apg || ''}</a></li>`).join('') + '</ul>';
+        // base() is already the legacy base (/stedt/_legacy) on these pages — adding another
+        // /_legacy segment 404'd every allofam link in the etymon-info popup
+        `<li><a href="${base()}/etymon/${at}">#${at} ${aplg || ''} *${apf || ''} ${apg || ''}</a></li>`).join('') + '</ul>';
     }
     html += '</div>';
   }
