@@ -217,6 +217,73 @@ const reflexLikeCountSql = (groups) => `
   SELECT count(*) AS n FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
   WHERE (${_likeWhere(groups)}) AND ln.language NOT LIKE '*%'`;
 
+// ---- fielded syntax: a `field:value` term narrows one axis --------------------------------
+// form:/gloss:/language: filter that FTS column; subgroup: restricts every result type to a
+// Stammbaum subtree (matched by group name, plg abbreviation, or grpno — descendants included);
+// proto:/pgloss: target a reconstruction's form/gloss. Bare terms keep matching anywhere, all
+// terms AND. (Documented by the hint row under the search box — keep the two in step.)
+const FIELDS = { form: 'form', reflex: 'form', gloss: 'gloss', language: 'language', lg: 'language',
+                 subgroup: 'subgroup', group: 'subgroup', proto: 'proto', pgloss: 'pgloss' };
+const _fieldOf = (w) => { const m = w.match(/^([A-Za-z]+):(.+)$/); return m && FIELDS[m[1].toLowerCase()] ? [FIELDS[m[1].toLowerCase()], m[2]] : null; };
+const hasFields = (s) => s.split(/\s+/).some((w) => _fieldOf(w));
+const parseFields = (s) => {
+  const q = { cols: [], bare: [], subgroup: [], proto: [], pgloss: [] };
+  for (const raw of s.split(/\s+/).filter(Boolean)) {
+    const f = _fieldOf(raw);
+    if (!f) { q.bare.push(raw); continue; }
+    if (f[0] === 'subgroup' || f[0] === 'proto' || f[0] === 'pgloss') q[f[0]].push(f[1]);
+    else for (const t of ftsTok(f[1])) q.cols.push(f[0] + ':"' + t + '"');
+  }
+  return q;
+};
+
+// subgroup: terms -> grpid list. Match a term against group name (substring), plg abbr, or
+// grpno, then take the whole subtree by grpno prefix; several subgroup: terms intersect.
+let _groupsCache = null;
+const subgroupGrpids = (db, terms) => {
+  if (!_groupsCache) _groupsCache = run(db, 'SELECT grpid, grpno, grp, plg FROM languagegroups');
+  let ids = null;
+  for (const t of terms) {
+    const tl = t.toLowerCase();
+    const pref = _groupsCache
+      .filter((g) => (g.grp || '').toLowerCase().includes(tl) || (g.plg || '').toLowerCase() === tl || String(g.grpno) === t)
+      .map((g) => String(g.grpno));
+    const set = new Set();
+    for (const g of _groupsCache) {
+      const no = String(g.grpno || '');
+      if (pref.some((p) => no === p || no.startsWith(p + '.'))) set.add(g.grpid);
+    }
+    ids = ids === null ? set : new Set([...ids].filter((x) => set.has(x)));
+  }
+  return ids ? [...ids] : [];
+};
+
+const _ph = (n) => Array(n).fill('?').join(',');
+// reflex query/count for a fielded search: optional FTS MATCH, optional subgroup restriction.
+// With no MATCH (subgroup:-only browse) it scans lexicon once — a few hundred ms in WASM.
+const reflexFieldCountSql = (m, ng) => `
+  SELECT count(*) AS n
+  FROM ${m ? 'lexicon_fts f JOIN lexicon l ON l.rn = f.rowid' : 'lexicon l'}
+  JOIN languagenames ln ON ln.lgid = l.lgid
+  WHERE ${m ? 'f.lexicon_fts MATCH ? AND ' : ''}ln.language NOT LIKE '*%'${ng ? ` AND ln.grpid IN (${_ph(ng)})` : ''}`;
+const reflexFieldSql = (m, ng) => `
+  SELECT ${RFX_COLS}${RFX_JOINS}
+  WHERE ${m ? 'l.rn IN (SELECT rowid FROM lexicon_fts WHERE lexicon_fts MATCH ? LIMIT ?) AND ' : ''}ln.language NOT LIKE '*%'${ng ? ` AND ln.grpid IN (${_ph(ng)})` : ''}
+  GROUP BY l.rn LIMIT ?`;
+const ETYMA_COLS = `e.tag AS tag, g.plg AS plg, e.protoform AS protoform, e.protogloss AS protogloss,
+  e.semkey AS semkey, e.nreflex AS nreflex, e.exemplary AS exemplary, e.public AS public`;
+const _NOHY = "replace(replace(replace(e.protoform, '-', ''), '|', ''), '◦', '')";
+const etymaFieldSql = (where, count) => `
+  SELECT ${count ? 'count(*) AS n' : ETYMA_COLS}
+  FROM etyma e LEFT JOIN languagegroups g ON g.grpid = e.grpid
+  WHERE coalesce(upper(e.status), '') != 'DELETE'${where ? ' AND ' + where : ''}
+  ${count ? '' : 'ORDER BY e.protogloss LIMIT ?'}`;
+const langFieldSql = (nLang, ng) => `
+  SELECT ln.language AS language, ln.lgid AS lgid, count(l.rn) AS n
+  FROM languagenames ln JOIN lexicon l ON l.lgid = ln.lgid
+  WHERE ln.language NOT LIKE '*%'${' AND ln.language LIKE ?'.repeat(nLang)}${ng ? ` AND ln.grpid IN (${_ph(ng)})` : ''}
+  GROUP BY ln.lgid`;
+
 // Natural-order key for a Stammbaum grpno so "6.1.10" sorts after "6.1.2" (lexical would invert
 // them); blanks sort last. Used to group/order the attested-form results by subgroup.
 const gkey = (s) => String(s == null || s === '' ? '~~' : s).split('.').map((x) => x.padStart(4, '0')).join('.');
@@ -225,6 +292,78 @@ const gkey = (s) => String(s == null || s === '' ? '~~' : s).split('.').map((x) 
 // strip combining marks, casefold), so client-sorted lists order like the server-rendered ones
 // (binary order exiles 'kûi' past all ASCII 'kuiy').
 const sortkey = (s) => (s || '').normalize('NFD').replace(/\p{M}+/gu, '').toLowerCase();
+
+// the fielded engine: every term ANDs; each result type runs only when the query carries
+// criteria that apply to it (form:/language: say nothing about reconstructions, so a
+// form:-only query shows no Reconstructions section instead of a misleading zero-match scan).
+function fieldedSearch(db, qe, lim) {
+  const q = parseFields(qe);
+  const grpids = q.subgroup.length ? subgroupGrpids(db, q.subgroup) : null;
+  const inner = lim < 0 ? -1 : lim + 40;
+  const out = { etyma: [], etymaTotal: 0, reflexes: [], reflexTotal: 0, languages: [], languageTotal: 0 };
+  if (q.subgroup.length && !(grpids && grpids.length)) return out;  // no such subgroup: honest empty
+
+  // reflexes — bare + column terms feed one FTS MATCH; subgroup restricts via grpid
+  const ftsTerms = [...q.bare.flatMap(ftsTok).map((t) => '"' + t + '"'), ...q.cols];
+  const m = ftsTerms.length ? ftsTerms.join(' ') : null;
+  const ng = grpids ? grpids.length : 0;
+  if (m || ng) {
+    out.reflexTotal = run(db, reflexFieldCountSql(m, ng), [...(m ? [m] : []), ...(grpids || [])])[0].n;
+    out.reflexes = run(db, reflexFieldSql(m, ng), [...(m ? [m, inner] : []), ...(grpids || []), lim]);
+    shapeSortReflexes(out.reflexes);
+  }
+
+  // reconstructions — proto:/pgloss:/bare terms AND a subgroup's own etyma (etyma.grpid)
+  const ewhere = [], eparams = [];
+  for (const t of q.proto) {
+    ewhere.push(`(e.protoform LIKE ? OR ${_NOHY} LIKE ?)`);
+    eparams.push('%' + t + '%', '%' + t.replace(/[-|◦\s]/g, '') + '%');
+  }
+  for (const t of q.pgloss) { ewhere.push('e.protogloss LIKE ?'); eparams.push('%' + t + '%'); }
+  for (const t of q.bare) {
+    ewhere.push(`(e.protogloss LIKE ? OR e.protoform LIKE ? OR ${_NOHY} LIKE ?)`);
+    eparams.push('%' + t + '%', '%' + t + '%', '%' + t.replace(/[-|◦\s]/g, '') + '%');
+  }
+  if (ng) { ewhere.push(`e.grpid IN (${_ph(ng)})`); eparams.push(...grpids); }
+  if (q.proto.length || q.pgloss.length || q.bare.length || (ng && !m)) {
+    const w = ewhere.join(' AND ');
+    out.etymaTotal = run(db, etymaFieldSql(w, true), eparams)[0].n;
+    out.etyma = run(db, etymaFieldSql(w, false), [...eparams, lim]);
+  }
+
+  // languages — language: terms (and/or a subgroup restriction); collapse per-source variants
+  const lterms = q.cols.filter((c) => c.startsWith('language:')).map((c) => c.slice(10, -1));
+  if (lterms.length || (ng && !m && !q.bare.length)) {
+    const rows = run(db, langFieldSql(lterms.length, ng), [...lterms.map((t) => '%' + t + '%'), ...(grpids || [])]);
+    const byName = new Map();
+    for (const r of rows) {
+      const cur = byName.get(r.language);
+      if (!cur) byName.set(r.language, { language: r.language, lgid: r.lgid, n: r.n, _max: r.n });
+      else { cur.n += r.n; if (r.n > cur._max) { cur._max = r.n; cur.lgid = r.lgid; } }
+    }
+    const list = [...byName.values()].sort((a, b) => b.n - a.n);
+    out.languageTotal = list.length;
+    out.languages = list.slice(0, lim < 0 ? list.length : Math.min(lim, 50));
+  }
+  return out;
+}
+
+// parse the aggregated etyma JSON into deduped etyma/tag/pf/syn (shared with the category list),
+// then order by subgroup (then language, form) so the page renders Stammbaum-grouped sections
+function shapeSortReflexes(reflexes) {
+  for (const r of reflexes) {
+    shapeReflexEtyma(r);
+    r._gk = gkey(r.grpno);   // precompute the sort keys once (invariant per row)
+    r._lk = sortkey(r.language);
+    r._fk = sortkey(r.form);
+  }
+  reflexes.sort((a, b) => {
+    const ga = a._gk, gb = b._gk;
+    return ga < gb ? -1 : ga > gb ? 1
+      : a._lk < b._lk ? -1 : a._lk > b._lk ? 1
+      : a._fk < b._fk ? -1 : a._fk > b._fk ? 1 : 0;
+  });
+}
 
 // limit caps the rows fetched per type (the page windows them client-side); the *Total fields are
 // the true match counts so the UI can show "first N of M shown" instead of silently truncating.
@@ -236,6 +375,9 @@ export async function stedtSearch(query, limit = 40) {
   // limit <= 0 / null means "no cap": fetch every match and let the page infinite-scroll through
   // them (SQLite reads LIMIT -1 as unbounded). The home dropdown still passes a small limit.
   const lim = (limit == null || limit <= 0) ? -1 : limit;
+
+  // field:value terms switch to the fielded engine (one AND group; commas stay plain-search syntax)
+  if (qe && query !== '*' && hasFields(qe)) return fieldedSearch(db, qe, lim);
 
   let etyma = [], etymaTotal = 0;
   if (query === '*') {
@@ -262,20 +404,7 @@ export async function stedtSearch(query, limit = 40) {
       reflexTotal = run(db, REFLEX_COUNT_SQL, [m])[0].n;
       reflexes = run(db, REFLEX_SQL, [m, inner, lim]);
     }
-    // parse the aggregated etyma JSON into deduped etyma/tag/pf/syn (shared with the category list)
-    for (const r of reflexes) {
-      shapeReflexEtyma(r);
-      r._gk = gkey(r.grpno);   // precompute the sort keys once (invariant per row)
-      r._lk = sortkey(r.language);
-      r._fk = sortkey(r.form);
-    }
-    // order by subgroup (then language, form) so the page can render Stammbaum-grouped sections
-    reflexes.sort((a, b) => {
-      const ga = a._gk, gb = b._gk;
-      return ga < gb ? -1 : ga > gb ? 1
-        : a._lk < b._lk ? -1 : a._lk > b._lk ? 1
-        : a._fk < b._fk ? -1 : a._fk > b._fk ? 1 : 0;
-    });
+    shapeSortReflexes(reflexes);
   }
 
   let languages = [], languageTotal = 0;
