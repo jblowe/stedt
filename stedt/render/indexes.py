@@ -310,7 +310,13 @@ def thesaurus(semkey=None):
             root=False,
             crumb=Markup(crumb),
             title=Markup(esc(title)),
-            cnotes=[Markup(render_note(r["xmlnote"])) for r in cnotes],
+            # drop notes that render to no text (3 chapters carry an empty '<par></par>'
+            # graphical note whose image never shipped) — else an empty grey box renders
+            cnotes=[
+                Markup(h)
+                for h in (render_note(r["xmlnote"]) for r in cnotes)
+                if re.sub(r"<[^>]+>", "", h).strip()
+            ],
             kids=kidinfo,
             direct=dinfo,
             ndirect=f"{len(direct):,}",
