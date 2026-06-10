@@ -6,7 +6,7 @@ import urllib.parse
 from markupsafe import Markup
 
 from .config import CITE_BASE, PLG_FULL, TREE_INDENT_PX
-from .db import LEX_VISIBLE, con
+from .db import ETY_LIVE, LEX_VISIBLE, con
 from .text import esc, alt, natkey, iso_link, rcount_txt, rfx_noun, sortkey
 from .notes import note_label, render_note
 from .syllabify import syllabify
@@ -88,14 +88,14 @@ def etymon(tag):
         (tag,),
     ).fetchall()
     rows = conn.execute(
-        """SELECT l.rn AS rn, ln.language AS language, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn AS gfn,
+        f"""SELECT l.rn AS rn, ln.language AS language, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn AS gfn,
             l.srcid AS srcid, g.grp AS subgroup, g.grpno AS groupnode, g.plg AS grpplg, g.grpid AS grpid,
             sb.citation AS citation, ln.srcabbr AS srcabbr
         FROM lx_et_hash h JOIN lexicon l ON l.rn=h.rn
         JOIN languagenames ln ON ln.lgid=l.lgid
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
-        WHERE h.tag=? AND {LEX_VISIBLE} GROUP BY l.rn""".format(LEX_VISIBLE=LEX_VISIBLE),
+        WHERE h.tag=? AND {LEX_VISIBLE} GROUP BY l.rn""",
         (tag,),
     ).fetchall()
     hptb = conn.execute(
@@ -121,10 +121,10 @@ def etymon(tag):
         seq_ok = False
     if (e["chapter"] or "") and seq_ok:
         family = conn.execute(
-            """SELECT tag, sequence, protoform, protogloss FROM etyma
+            f"""SELECT tag, sequence, protoform, protogloss FROM etyma e
             WHERE chapter=? AND CAST(sequence AS INTEGER)>0
               AND CAST(sequence AS INTEGER)=CAST(? AS INTEGER)
-              AND coalesce(upper(status),'')!='DELETE' ORDER BY sequence""",
+              AND {ETY_LIVE} ORDER BY sequence""",
             (e["chapter"], seq),
         ).fetchall()
         if len(family) < 2:  # just this etymon: no family to show
@@ -146,8 +146,7 @@ def etymon(tag):
         toks = list(digit_tokens)
         qm = ",".join("?" * len(toks))
         for r in conn.execute(
-            f"SELECT tag,protoform,protogloss FROM etyma WHERE tag IN ({qm}) "
-            f"AND coalesce(upper(status),'')!='DELETE'",
+            f"SELECT tag,protoform,protogloss FROM etyma e WHERE tag IN ({qm}) AND {ETY_LIVE}",
             toks,
         ):
             labels[r["tag"]] = (r["protoform"], r["protogloss"])
@@ -770,26 +769,26 @@ def source(srcabbr):
         (srcabbr,),
     ).fetchall()
     langs = conn.execute(
-        """SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
+        f"""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
             ln.silcode AS silcode, g.grp AS subgroup, g.grpno AS grpno, g.grpid AS grpid,
             count(l.rn) AS n
         FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid AND {LEX_VISIBLE}
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         WHERE ln.srcabbr=? AND ln.language!='' AND ln.language NOT LIKE '*%' GROUP BY ln.lgid
-        HAVING n>0 ORDER BY ln.language COLLATE unaccent""".format(LEX_VISIBLE=LEX_VISIBLE),
+        HAVING n>0 ORDER BY ln.language COLLATE unaccent""",
         (srcabbr,),
     ).fetchall()
     # previously published reconstruction sets ('*Tibeto-Burman' …) held in this source — a third
     # of some reconstruction sources' records, and JRO-Tilung's ONLY records; the original lists
     # them among the source's languages, we give them their own labeled section
     plangs = conn.execute(
-        """SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
+        f"""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
             ln.silcode AS silcode, g.grp AS subgroup, g.grpno AS grpno, g.grpid AS grpid,
             count(l.rn) AS n
         FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid AND {LEX_VISIBLE}
         LEFT JOIN languagegroups g ON g.grpid=ln.grpid
         WHERE ln.srcabbr=? AND ln.language LIKE '*%' GROUP BY ln.lgid
-        HAVING n>0 ORDER BY ln.language COLLATE unaccent""".format(LEX_VISIBLE=LEX_VISIBLE),
+        HAVING n>0 ORDER BY ln.language COLLATE unaccent""",
         (srcabbr,),
     ).fetchall()
     conn.close()
@@ -913,11 +912,11 @@ def group(grpid):
         # a node holding only reconstruction sets (groups 1/2) is labeled by those instead of
         # reading '0 languages'
         nl, nproto = conn.execute(
-            """SELECT count(DISTINCT CASE WHEN ln.language NOT LIKE '*%' THEN ln.language END),
+            f"""SELECT count(DISTINCT CASE WHEN ln.language NOT LIKE '*%' THEN ln.language END),
                       count(DISTINCT CASE WHEN ln.language LIKE '*%' THEN ln.language END)
             FROM languagenames ln
             JOIN lexicon l ON l.lgid=ln.lgid
-            WHERE ln.grpid=? AND {LEX_VISIBLE}""".format(LEX_VISIBLE=LEX_VISIBLE),
+            WHERE ln.grpid=? AND {LEX_VISIBLE}""",
             (ch["grpid"],),
         ).fetchone()
         childinfo.append((ch, nl, nproto))
@@ -925,24 +924,24 @@ def group(grpid):
     # canonical page (summing forms, merging sources), and drop proto-forms — they are this group's own
     # reconstruction (the plg + Reconstructions section), not member languages.
     langrows = conn.execute(
-        """SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
+        f"""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
             ln.silcode AS silcode, ln.srcabbr AS srcabbr, sb.citation AS citation, count(l.rn) AS n
         FROM languagenames ln LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
         JOIN lexicon l ON l.lgid=ln.lgid
         WHERE ln.grpid=? AND ln.language NOT LIKE '*%' AND {LEX_VISIBLE}
-        GROUP BY ln.lgid HAVING n>0""".format(LEX_VISIBLE=LEX_VISIBLE),
+        GROUP BY ln.lgid HAVING n>0""",
         (grpid,),
     ).fetchall()
     # previously published reconstruction sets filed at this node ('*Tibeto-Burman' per source…):
     # the original lists them as group members; their /language pages exist but were reachable
     # from nowhere. Same per-source collapse as the member lects, own section below.
     protorows = conn.execute(
-        """SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
+        f"""SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
             ln.silcode AS silcode, ln.srcabbr AS srcabbr, sb.citation AS citation, count(l.rn) AS n
         FROM languagenames ln LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
         JOIN lexicon l ON l.lgid=ln.lgid
         WHERE ln.grpid=? AND ln.language LIKE '*%' AND {LEX_VISIBLE}
-        GROUP BY ln.lgid HAVING n>0""".format(LEX_VISIBLE=LEX_VISIBLE),
+        GROUP BY ln.lgid HAVING n>0""",
         (grpid,),
     ).fetchall()
     canon_of = canonical_languages()[0]
@@ -971,9 +970,9 @@ def group(grpid):
     langs = collapse(langrows)
     protos = collapse(protorows)
     recons = conn.execute(
-        """SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss, e.exemplary AS exemplary,
+        f"""SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss, e.exemplary AS exemplary,
             e.public AS public
-        FROM etyma e WHERE e.grpid=? AND coalesce(upper(e.status),'')!='DELETE'
+        FROM etyma e WHERE e.grpid=? AND {ETY_LIVE}
         ORDER BY e.sequence, e.protogloss""",
         (grpid,),
     ).fetchall()

@@ -6,7 +6,7 @@ import json
 from markupsafe import Markup
 
 from .config import CITE_BASE, PREVIEW, TREE_INDENT_PX
-from .db import LEX_VISIBLE, con, reflex_semkey_counts
+from .db import ECAT, ETY_LIVE, LEX_VISIBLE, con, reflex_semkey_counts
 from .text import esc, alt, natkey, rcount_txt, rfx_noun, sortkey
 from .notes import render_note
 from .shell import page, breadcrumb, reflex_counts, canon_lgid, etymon_href, source_reference
@@ -29,7 +29,7 @@ def home():
 def about():
     conn = con()
     one = lambda sql: conn.execute(sql).fetchone()[0]
-    ety = one("SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'")
+    ety = one(f"SELECT count(*) FROM etyma e WHERE {ETY_LIVE}")
     rfx = one(
         "SELECT count(*) FROM lexicon l JOIN languagenames ln ON ln.lgid=l.lgid "
         f"WHERE ln.language NOT LIKE '*%' AND {LEX_VISIBLE}"
@@ -53,10 +53,9 @@ def reconstructions():
     # keeps the initial DOM small (~200 nodes vs ~31k) on slow devices while the
     # gloss-ordered full set stays a single, filterable, statically-hosted page.
     conn = con()
-    OK = "coalesce(upper(e.status),'')!='DELETE'"
     rows = conn.execute(f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg, e.exemplary, e.public
         FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-        WHERE {OK} ORDER BY e.protogloss, e.tag""").fetchall()
+        WHERE {ETY_LIVE} ORDER BY e.protogloss, e.tag""").fetchall()
     counts = reflex_counts(conn)
     conn.close()
     total = len(rows)
@@ -185,10 +184,6 @@ def search_page(q=""):
     return page("Search", _SEARCH.render(), q)
 
 
-# Legacy files an etymon under its (more specific) `chapter`; `semkey` is only a fallback for
-# the lone live etymon whose chapter doesn't resolve. Used for thesaurus placement + counts.
-ECAT = "coalesce(nullif(e.chapter,''),e.semkey)"
-
 _ORPHANS = None
 
 
@@ -202,7 +197,7 @@ def _orphan_aliases(conn):
     if _ORPHANS is None:
         have = {r[0] for r in conn.execute("SELECT semkey FROM chapters WHERE coalesce(semkey,'')!=''")}
         out = {}
-        for (k,) in conn.execute(f"SELECT DISTINCT {ECAT} FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE'"):
+        for (k,) in conn.execute(f"SELECT DISTINCT {ECAT} FROM etyma e WHERE {ETY_LIVE}"):
             if not k or k in have:
                 continue
             a = k
@@ -249,7 +244,7 @@ def thesaurus(semkey=None):
             own_n = _with_orphans(conn, disp, [disp, disp + ".0"] if "." not in disp else [disp])
             ph = ",".join("?" * len(own_n))
             cnt = conn.execute(
-                f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' " f"AND {ECAT} IN ({ph})",
+                f"SELECT count(*) FROM etyma e WHERE {ETY_LIVE} AND {ECAT} IN ({ph})",
                 own_n,
             ).fetchone()[0]
             lcnt = sum(scounts.get(k, 0) for k in own_n)
@@ -315,7 +310,7 @@ def thesaurus(semkey=None):
         kown = _with_orphans(conn, sk, [sk, sk + ".0"] if "." not in sk else [sk])  # node-only, like the index
         kph = ",".join("?" * len(kown))
         cnt = conn.execute(
-            f"SELECT count(*) FROM etyma e WHERE coalesce(upper(e.status),'')!='DELETE' " f"AND {ECAT} IN ({kph})", kown
+            f"SELECT count(*) FROM etyma e WHERE {ETY_LIVE} AND {ECAT} IN ({kph})", kown
         ).fetchone()[0]
         lcnt = sum(scounts.get(x, 0) for x in kown)
         # reconstructions / reflexes, formatted exactly as the thesaurus index renders each node,
@@ -333,7 +328,7 @@ def thesaurus(semkey=None):
         f"""SELECT e.tag, e.protoform, e.protogloss, e.sequence, g.plg AS plg, e.exemplary, e.public
         FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
         WHERE {ECAT} IN ({",".join("?" * len(own_e))})
-          AND coalesce(upper(e.status),'')!='DELETE'
+          AND {ETY_LIVE}
         ORDER BY e.sequence, e.protogloss""",
         own_e,
     ).fetchall()

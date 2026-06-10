@@ -125,8 +125,7 @@ def main():
     os.makedirs(OUT, exist_ok=True)
 
     c = render.con()
-    OKE = "coalesce(upper(status),'')!='DELETE'"
-    tags = cap([r[0] for r in c.execute(f"SELECT tag FROM etyma WHERE {OKE} ORDER BY tag")])
+    tags = cap([r[0] for r in c.execute(f"SELECT tag FROM etyma e WHERE {render.ETY_LIVE} ORDER BY tag")])
     lgids = cap([r[0] for r in c.execute("SELECT lgid FROM languagenames ORDER BY lgid")])
     srcs = cap([r[0] for r in c.execute("SELECT srcabbr FROM srcbib WHERE coalesce(srcabbr,'')!='' ORDER BY srcabbr")])
     semks = cap([r[0] for r in c.execute("SELECT semkey FROM chapters WHERE coalesce(semkey,'')!='' ORDER BY semkey")])

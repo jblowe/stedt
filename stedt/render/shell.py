@@ -3,7 +3,7 @@
 from markupsafe import Markup
 
 from .config import _CSS_VER, _JS_VER
-from .db import LEX_VISIBLE, con
+from .db import ETY_LIVE, LEX_VISIBLE, con
 from .templating import env
 from .text import esc
 
@@ -91,8 +91,7 @@ def proto_labels(conn, tags):
         chunk = tags[i : i + 900]
         qm = ",".join("?" * len(chunk))
         for r in conn.execute(
-            f"SELECT tag,protoform,protogloss FROM etyma WHERE tag IN ({qm}) "
-            f"AND coalesce(upper(status),'')!='DELETE'",
+            f"SELECT tag,protoform,protogloss FROM etyma e WHERE tag IN ({qm}) AND {ETY_LIVE}",
             chunk,
         ):
             out[r["tag"]] = (r["protoform"], r["protogloss"])

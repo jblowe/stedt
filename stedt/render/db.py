@@ -19,6 +19,14 @@ def con():
     return conn
 
 
+# --- the visibility/filing vocabulary: every query spells these rules ONE way ---------------
+# DELETE-status etyma have no built pages and appear nowhere (alias the table as `e`).
+ETY_LIVE = "coalesce(upper(e.status),'')!='DELETE'"
+
+# Legacy files an etymon under its (more specific) `chapter`; `semkey` is only a fallback for
+# the lone live etymon whose chapter doesn't resolve. Used for thesaurus placement + counts.
+ECAT = "coalesce(nullif(e.chapter,''),e.semkey)"
+
 # The original site never shows HIDE/DELETED lexicon rows (placeholder '*' forms and withdrawn
 # records — ~10k rows). Every lexicon read (render queries AND the search-DB build) must apply
 # this, with the table aliased as `l`, or listings and counts disagree with the data the site
@@ -38,7 +46,7 @@ def valid_etymon_tags():
     if _VALID_TAGS is None:
         conn = con()
         _VALID_TAGS = frozenset(
-            r[0] for r in conn.execute("SELECT tag FROM etyma WHERE coalesce(upper(status),'')!='DELETE'")
+            r[0] for r in conn.execute(f"SELECT tag FROM etyma e WHERE {ETY_LIVE}")
         )
         conn.close()
     return _VALID_TAGS
@@ -56,7 +64,7 @@ def xref_labels():
             for r in conn.execute(
                 "SELECT e.tag, g.plg, e.protoform, e.protogloss FROM etyma e "
                 "LEFT JOIN languagegroups g ON g.grpid=e.grpid "
-                "WHERE coalesce(upper(e.status),'')!='DELETE'"
+                f"WHERE {ETY_LIVE}"
             )
         }
         conn.close()
