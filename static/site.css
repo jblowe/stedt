@@ -7,6 +7,24 @@
 @font-face{font-family:"Charis SIL";font-style:italic;font-weight:400;font-display:swap;src:url(fonts/CharisSIL-Italic.woff2) format("woff2");}
 @font-face{font-family:"Charis SIL";font-style:italic;font-weight:700;font-display:swap;src:url(fonts/CharisSIL-BoldItalic.woff2) format("woff2");}
 
+/* Fraunces self-hosted (SIL OFL, fonts/OFL-Fraunces.txt) — Google Fonts is unreachable from
+   mainland China, so no page may depend on fonts.googleapis.com. Latin-subset variable woff2
+   (opsz 9..144, roman wght 100..900) from the css2 API; font-optical-sizing relies on the
+   opsz axis. */
+@font-face{font-family:"Fraunces";font-style:normal;font-weight:100 900;font-display:swap;src:url(fonts/Fraunces-latin.woff2) format("woff2");}
+@font-face{font-family:"Fraunces";font-style:italic;font-weight:400;font-display:swap;src:url(fonts/Fraunces-Italic-latin.woff2) format("woff2");}
+
+/* Noto Serif SC self-hosted (SIL OFL, fonts/OFL-NotoSerifSC.txt), subset to the Han inventory of
+   the database (notes incl. <unicode> codepoints, glosses, reflexes, protoforms, chapter titles)
+   plus ASCII and general punctuation — the full CJK font is >20 MB. Rebuild the subsets when new
+   Han characters enter the data. The 12 Extension-B codepoints Noto lacks (incl. U+2510E) come
+   from a Jigmo2 subset (CC0, fonts/CC0-Jigmo.txt) registered under the same family: its
+   unicode-range wins by later declaration, and the file is only fetched when one occurs. */
+@font-face{font-family:"Noto Serif SC";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/NotoSerifSC-Regular.woff2) format("woff2");}
+@font-face{font-family:"Noto Serif SC";font-style:normal;font-weight:600;font-display:swap;src:url(fonts/NotoSerifSC-SemiBold.woff2) format("woff2");}
+@font-face{font-family:"Noto Serif SC";font-style:normal;font-weight:400;font-display:swap;src:url(fonts/Jigmo2-extb.woff2) format("woff2");
+  unicode-range:U+20A9A,U+218D5,U+21C42,U+2299F,U+239DF,U+23A75,U+23E64,U+24226,U+2510E,U+25A0D,U+26408,U+27498;}
+
 :root{
   --paper:#f4efe2; --paper2:#efe8d6; --ink:#211c15; --soft:#5d5443;
   --mut:#94886e; --rule:#ddd1b6; --hair:#e7dcc4; --accent:#9c2b25; --accent-d:#7e201b;
