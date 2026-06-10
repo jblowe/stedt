@@ -349,6 +349,31 @@ print(
 )
 
 
+# ---- SYNC markers: every render twin must be marked on BOTH sides ----
+# A `SYNC(<name>)` comment marks code whose output must stay identical to a counterpart in another
+# file (Python↔JS, main↔legacy, Python↔CSS) — the codebase's most repeated bug class is fixing
+# one side and missing the other. A name found in only ONE file means a twin lost its marker (or
+# the marked twin was deleted): fail loudly. Scans the working tree (paths.ROOT), never site/.
+from stedt.paths import ROOT as _REPO
+
+_SYNC_SCAN = (
+    glob.glob(os.path.join(_REPO, "stedt", "**", "*.py"), recursive=True)
+    + glob.glob(os.path.join(_REPO, "web", "src", "*.js"))
+    + glob.glob(os.path.join(_REPO, "static", "*.css"))
+    + glob.glob(os.path.join(_REPO, "stedt", "render", "templates", "*.html"))
+)
+_sync = {}
+for _p in _SYNC_SCAN:
+    if "__pycache__" in _p:
+        continue
+    for _name in set(re.findall(r"SYNC\(([\w-]+)\)", open(_p, encoding="utf-8").read())):
+        _sync.setdefault(_name, set()).add(os.path.relpath(_p, _REPO))
+for _name, _files in sorted(_sync.items()):
+    if len(_files) < 2:
+        err(f"SYNC({_name}) marked in only one file ({next(iter(_files))}) — its twin is unmarked or gone")
+print(f"  sync markers: {len(_sync)} twins across {len(set().union(*_sync.values()) if _sync else set())} files")
+
+
 # ---- report ----
 def show(label, items, cap=25):
     print(f"\n{label}: {len(items)}")

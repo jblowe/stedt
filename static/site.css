@@ -22,7 +22,7 @@ body{
 }
 .han{font-family:"Noto Serif SC","Songti SC",serif;}
 .lat{font-style:italic;}
-.recon{font-style:italic;} .recon::before{content:"*"; color:var(--accent);}
+.recon{font-style:italic;} .recon::before{content:"*"; color:var(--accent);} /* SYNC(recon-star) ↔ legacy chrome() <style>: render_note strips the literal star, CSS re-supplies it */
 .gl,.gloss{font-variant:small-caps; letter-spacing:.02em;}
 
 /* links: quiet neutral underline at rest; vermilion only on hover */

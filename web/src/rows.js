@@ -16,6 +16,7 @@ export const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&
 // which CSS/markup re-adds; star each ⪤-alternant). Keep identical.
 export const altstar = s => String(s).replace(/^\s*\*\s*/, '').replace(/⪤\s*\*?/g, '⪤ *');
 export const fmt = n => Number(n).toLocaleString();
+// SYNC(sortkey) ↔ text.py sortkey + search.js sortkey — the case/accent-insensitive collation key
 export const norm = s => String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
 // --- canonical URLs: the ONE place each entity's address is built ---
