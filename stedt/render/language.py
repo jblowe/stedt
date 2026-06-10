@@ -199,8 +199,9 @@ def language(lgid):
                     for nt, x in lnotes[r["rn"]]
                 )
                 gl = (
-                    f'<span class="g noted" tabindex="0">{esc(r["gloss"])}'
-                    f'<span class="notepop" role="note">{pop}</span></span>'
+                    # aria-describedby ties the note to the gloss for AT (SYNC(reflex-row) twins)
+                    f'<span class="g noted" tabindex="0" aria-describedby="np{r["rn"]}">{esc(r["gloss"])}'
+                    f'<span class="notepop" role="note" id="np{r["rn"]}">{pop}</span></span>'
                 )
             else:
                 gl = f'<span class="g">{esc(r["gloss"])}</span>'

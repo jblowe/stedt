@@ -220,8 +220,8 @@ def etymon(tag):
                 pop = "".join('<span class="np">' + note_label(nt)
                               + render_note(x).replace('<p class="np">', "").replace("</p>", "")
                               + "</span>" for nt, x in lnotes[r["rn"]])
-                g = (f'<span class="g noted" tabindex="0">{esc(r["gloss"] or e["protogloss"])}'
-                     f'<span class="notepop" role="note">{pop}</span></span>')
+                g = (f'<span class="g noted" tabindex="0" aria-describedby="np{r["rn"]}">{esc(r["gloss"] or e["protogloss"])}'
+                     f'<span class="notepop" role="note" id="np{r["rn"]}">{pop}</span></span>')
             elif r["gloss"] and r["gloss"] != e["protogloss"]:
                 g = f'<span class="g">{esc(r["gloss"])}</span>'
             else:

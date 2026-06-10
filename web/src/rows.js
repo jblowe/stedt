@@ -120,7 +120,7 @@ export const reflexRow = r => {
   const src = r.srcabbr ? `<a href="${sourceHref(r.srcabbr)}">${esc(r.citation || r.srcabbr)}${loc}</a>` : '';
   const pos = r.gfn ? `<span class="pos">${esc(r.gfn)}</span>` : '';   // sits before the gloss (.pos has margin-right)
   const gl = r.note
-    ? `<span class="g noted" tabindex="0">${esc(r.gloss)}<span class="notepop" role="note">${rebase(r.note)}</span></span>`
+    ? `<span class="g noted" tabindex="0" aria-describedby="np${r.rn}">${esc(r.gloss)}<span class="notepop" role="note" id="np${r.rn}">${rebase(r.note)}</span></span>`
     : `<span class="g">${esc(r.gloss)}</span>`;
   const lf = sylLink(r); let mid;
   if (lf) {                              // syllables carry their own etymon links

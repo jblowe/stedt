@@ -560,10 +560,6 @@ def _fmt_seq(s):
 
 
 # ----------------------------------------------------------------------- source / group / chapter
-import datetime as _dt
-
-_BUILD_DATE = _dt.date.today().isoformat()
-
 # 16-col etyma result table (gnis/chapter format); num_recs/num_notes/num_comparanda via subqueries.
 ETYMA16 = [
     "etyma.tag",
@@ -641,7 +637,9 @@ def legacy_source(srcabbr):
         f'<p align="center" style="width:50%">{esc(_period(author))} {esc(_period(year))} '
         f'<cite>{esc(title)}</cite>{"" if title.endswith((".", "?")) else "."}'
         f'{(" " + esc(_period(imprint))) if imprint else ""}\nAccessed via STEDT database '
-        f"<tt>&lt;https://larc-iu.github.io/stedt/&gt;</tt> on {_BUILD_DATE}.</p>"
+        # an access-date blank, like the main site's citebox: the date belongs to the reader, and a
+        # clock-baked date made 300 source pages nondeterministic under the snapshot harness
+        f"<tt>&lt;https://larc-iu.github.io/stedt/&gt;</tt> on [date accessed].</p>"
     )
     notes_html = "".join(f'<p>{_lnote(n["xmlnote"])}</p>' for n in notes)
     # guest-available raw-data export (rootcanal's /sources/ddata); a static TSV written by build_legacy

@@ -228,6 +228,10 @@ a.syl .sylpop{display:none;position:absolute;left:0;bottom:calc(100% + 5px);z-in
 a.syl:hover .sylpop,a.syl:focus .sylpop,a.syl:focus-within .sylpop{display:block;}
 /* the reveal hook (static/site.js) flips a top-clipped preview to open below its syllable */
 a.syl .sylpop.flip{bottom:auto;top:calc(100% + 5px);}
+/* invisible hover bridge across the 5px offset, so the pointer can travel into the bubble
+   without dismissing it (WCAG 1.4.13 hoverable); mirrored when flipped below */
+a.syl .sylpop::after{content:"";position:absolute;left:0;right:0;top:100%;height:7px;}
+a.syl .sylpop.flip::after{top:auto;bottom:100%;}
 a.syl:hover,a.syl:focus{z-index:5;}
 /* on an etymon page, the reflex syllable that IS this etymon: grouped in the morpheme colour but a
    solid underline (not the dotted link), since you're already on its page. */
