@@ -5,5 +5,6 @@
       <div class="crumbs">{{ crumbs }}</div>
       <div class="metabar">{% for m in meta %}{{ m }}{% endfor %}</div>
     </div>
+    {% if variants %}<section class="reflexes"><h3>Sources<span class="cnt">{{ variants|length }}</span></h3>{% for v in variants %}<div class="rfx"><span>{{ v.cit }}</span><span class="subg">{{ v.mid }}</span><span class="src">{{ v.n_txt }}</span></div>{% endfor %}</section>{% endif %}
     <section class="reflexes"><h3>Reflexes{% if not openall %}<button type="button" class="toggle-all" data-all="0">Expand all</button>{% endif %}</h3>{% for s in segs %}<details class="seg"{% if s.open %} open{% endif %}><summary>{{ s.ttl }}<span class="c">{{ s.n }}</span></summary><div class="seg-body"></div><script type="text/html" class="seg-src">{{ s.rfx }}</script></details>{% endfor %}</section>
     <script type="module" src="/assets/language-page.js"></script>

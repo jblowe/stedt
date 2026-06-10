@@ -609,6 +609,53 @@ def language(lgid):
                 sils.append(sr["silcode"])
             lgab = lgab or (sr["lgabbr"] or "")
             pi_page = pi_page or (sr["pi_page"] or "")
+    # per-source breakdown — the detail canonicalization folds away (which sources record this
+    # lect, under what short name / ISO, how many entries each); shown as its own section when
+    # the page merges more than one source variant. Mirrors the original's language-by-source rows.
+    nbysib = {}
+    for r in rows:
+        nbysib[r["lgid"]] = nbysib.get(r["lgid"], 0) + 1
+    variants = []
+    if len(sibs) > 1:
+        for sr in conn.execute(
+            f"""SELECT ln2.lgid, ln2.srcabbr, ln2.lgabbr, ln2.silcode, sb.citation
+            FROM languagenames ln2 LEFT JOIN srcbib sb ON sb.srcabbr=ln2.srcabbr
+            WHERE ln2.lgid IN ({qm}) ORDER BY ln2.srcabbr""",
+            sibs,
+        ):
+            if not nbysib.get(sr["lgid"]):
+                continue  # variant contributes no visible records
+            mid = []
+            if sr["lgabbr"]:
+                mid.append(f'as <span class="lgab">{esc(sr["lgabbr"])}</span>')
+            if sr["silcode"]:
+                mid.append("ISO " + iso_link(sr["silcode"]))
+            n = nbysib[sr["lgid"]]
+            variants.append(
+                {
+                    "cit": Markup(
+                        f'<a class="lang" href="{source_href(sr["srcabbr"])}">{esc(sr["citation"] or sr["srcabbr"])}</a>'
+                        if sr["srcabbr"]
+                        else esc(sr["citation"] or "")
+                    ),
+                    "mid": Markup(" · ".join(mid)),
+                    "n_txt": f"{n:,} {rfx_noun(n)}",
+                }
+            )
+    # other lects recorded under the same ISO code — the original's 'other sources which include
+    # this language' discovery path (Manyak / Menia / Muya), lost when names differ
+    seealso = []
+    if sils:
+        qs = ",".join("?" * len(sils))
+        for sr in conn.execute(
+            f"""SELECT DISTINCT ln2.language, ln2.lgid FROM languagenames ln2
+            WHERE ln2.silcode IN ({qs}) AND ln2.language NOT LIKE '*%' ORDER BY ln2.language""",
+            sils,
+        ):
+            cid = canon_of.get(sr["lgid"], sr["lgid"])
+            if cid != canon and (sr["language"] or "") != (ln["language"] or ""):
+                if all(cid != s[1] for s in seealso):
+                    seealso.append((sr["language"], cid))
     conn.close()
 
     crumb_links = ['<a href="/languages">Languages</a>'] + [
@@ -628,6 +675,9 @@ def language(lgid):
         # is dead upstream, but the page number remains a usable reference)
         meta.append(Markup(f"<span><b>phon. inventory</b> Namkung 1996, p. {esc(str(pi_page))}</span>"))
     meta.append(Markup(f"<span><b>{total:,}</b> {rfx_noun(total)}</span>"))
+    if seealso:
+        links = ", ".join(f'<a href="{language_href(cid)}">{esc(nm)}</a>' for nm, cid in seealso)
+        meta.append(Markup(f"<span><b>same ISO</b> {links}</span>"))
 
     groups = {}
     for r in rows:
@@ -700,6 +750,7 @@ def language(lgid):
             lang=Markup(esc(ln["language"])),
             crumbs=Markup(" &nbsp;›&nbsp; ".join(crumb_links)),
             meta=meta,
+            variants=variants,
             openall=openall,
             segs=segs,
         ),
