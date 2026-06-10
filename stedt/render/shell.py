@@ -103,12 +103,16 @@ def source_reference(s):
     """A source's full reference: 'Author. Year. Title. Imprint' — the ONE formatter shared by the
     sources index, the source page's reference line, and its copy-citation, so the imprint/venue can't
     appear in one and vanish from another. s is a srcbib row (author, year, title, imprint)."""
+    final = (".", "?", "!", "。", "？", "！")  # already sentence-final: don't add another period
     au = (s["author"] or "").rstrip()
     if au and not au.endswith("."):
         au += "."
-    base = " ".join(x for x in (au, f"{s['year']}." if s["year"] else "", s["title"]) if x)
+    yr = (str(s["year"]).rstrip() if s["year"] else "")
+    if yr and not yr.endswith("."):  # 'n.d.' already carries its period
+        yr += "."
+    base = " ".join(x for x in (au, yr, s["title"]) if x)
     if s["imprint"]:
-        sep = "" if base.rstrip().endswith(".") else "."  # avoid "Title.. Imprint"
+        sep = "" if base.rstrip().endswith(final) else "."  # avoid 'Title.. Imprint' / 'vadimus?.'
         base = (base.rstrip() + sep + " " + s["imprint"]) if base else s["imprint"]
     return base
 
