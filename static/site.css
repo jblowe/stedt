@@ -354,7 +354,7 @@ a.syl:hover,a.syl:focus{z-index:5;}
 .qref{flex:1 1 100%;margin:0;}
 .qref summary{cursor:pointer;font-variant:small-caps;letter-spacing:.06em;color:var(--mut);width:max-content;}
 .qref summary:hover{color:var(--accent);}
-.qref p{max-width:64ch;margin:8px 0 10px;}
+.qref p{margin:8px 0 10px;}  /* full width: a 64ch cap at this 14px size wrapped at ~460px while the field grid below ran the container */
 .qfields{display:grid;grid-template-columns:max-content 1fr;gap:7px 18px;margin:0;align-items:baseline;}
 .qfields dt{margin:0;}
 .qfields dd{margin:0;}
