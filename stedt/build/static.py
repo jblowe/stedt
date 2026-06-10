@@ -14,15 +14,15 @@ Env:  STEDT_BASE   subpath prefix (default /stedt; use '' for a custom apex doma
       STEDT_LIMIT  cap entities per kind for quick local testing (0 = all)
 """
 
-import glob
-import hashlib
 import os
 import re
 import shutil
+import sys
 import time
 
 from stedt import render
-from stedt.paths import ROOT, SITE, SEARCH_DB, STATIC
+from stedt.build.version import data_version
+from stedt.paths import SITE, SEARCH_DB, STATIC
 
 BASE = os.environ.get("STEDT_BASE", "/stedt").rstrip("/")
 OUT = os.environ.get("STEDT_OUT") or SITE
@@ -31,24 +31,6 @@ LIMIT = int(os.environ.get("STEDT_LIMIT", "0"))
 # Add the subpath to root-absolute href/src/action (but not protocol-relative //), and inject
 # the base + data version so the client search can prefix result URLs and cache-key the DB.
 _LINK = re.compile(r'(\b(?:href|src|action)=")/(?!/)')
-
-
-def data_version():
-    """Content hash for cache-busting the search DB (search.sqlite3?v=...). The DB's bytes are a
-    pure function of data/ AND the search_db builder (its schema), so hash both: the key changes
-    when the data OR the schema changes, but not on every deploy. Hashing the builder rather than
-    the 44 MB DB avoids cache churn from run-to-run nondeterminism while still busting on a real
-    schema change. Paths are relativized to the repo root so the hash is location-stable."""
-    h = hashlib.sha256()
-    paths = sorted(glob.glob(os.path.join(render.DATA, "**", "*"), recursive=True))
-    paths.append(os.path.join(os.path.dirname(__file__), "search_db.py"))
-    for p in paths:
-        if os.path.isfile(p):
-            h.update(os.path.relpath(p, ROOT).encode("utf-8"))
-            with open(p, "rb") as f:
-                for chunk in iter(lambda: f.read(1 << 20), b""):
-                    h.update(chunk)
-    return h.hexdigest()[:16]
 
 
 DB_VERSION = ""  # set in main()
@@ -111,7 +93,9 @@ def main():
     t0 = time.time()
     # STEDT_DB_VERSION pins the cache-bust hash (used by the snapshot harness so renaming a build
     # file doesn't churn every page's <head>); unset in real builds, where it's a content hash.
-    DB_VERSION = os.environ.get("STEDT_DB_VERSION") or data_version()
+    DB_VERSION = os.environ.get("STEDT_DB_VERSION") or data_version(
+        os.path.join(os.path.dirname(__file__), "search_db.py")
+    )
     # Clear only what THIS step owns: other steps' outputs survive a render re-run, so the local
     # iterate loop is render-only (previously rmtree(site/) silently 404'd the JS bundles and
     # deleted the whole /_legacy subtree until `stedt build bundle`/`legacy` were re-run).
@@ -176,6 +160,10 @@ def main():
         shutil.copytree(STATIC, os.path.join(OUT, "static"), dirs_exist_ok=True)
     open(os.path.join(OUT, ".nojekyll"), "w").close()  # don't let Pages run Jekyll on our files
     print(f"Done: {_ok} pages, {_fail} skipped, {time.time() - t0:.0f}s " f"(BASE={BASE!r}, LIMIT={LIMIT or 'all'})")
+    # A skipped page is a permanent production 404 under a green CI run — the only detection point
+    # in a project with no test harness. Partial builds are only acceptable in capped local runs.
+    if _fail and not LIMIT:
+        sys.exit(f"{_fail} page(s) failed to render — refusing to ship a partial site")
 
 
 if __name__ == "__main__":

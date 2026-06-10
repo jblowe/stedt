@@ -12,13 +12,12 @@ Env:  STEDT_BASE   main-site subpath prefix (default /stedt; '' for apex/localho
       STEDT_LIMIT  cap etyma pages for quick local testing (0 = all)
 """
 
-import glob
-import hashlib
 import os
 import shutil
+import sys
 import time
 
-from stedt.paths import ROOT, SITE, LEGACY_DB
+from stedt.paths import SITE, LEGACY_DB
 
 BASE = os.environ.get("STEDT_BASE", "/stedt").rstrip("/")
 LEGACY_BASE = BASE + "/_legacy"
@@ -29,21 +28,11 @@ ASSETS = os.path.join(os.path.dirname(__file__), "assets")  # rootcanal front-en
 
 
 def data_version():
-    """Cache-bust the legacy DB by hashing data/ + the legacy DB builder, relativized to the repo
-    root, so the key changes when the data OR the schema changes but not on every deploy. Mirrors
-    the modern build's data_version()."""
-    from stedt import render
+    """Cache-bust the legacy DB: the shared dependency-closure hash (data/ + this builder + the
+    render_note pipeline whose HTML is baked into legacy.sqlite3 — see stedt/build/version.py)."""
+    from stedt.build.version import data_version as dv
 
-    h = hashlib.sha256()
-    paths = sorted(glob.glob(os.path.join(render.DATA, "**", "*"), recursive=True))
-    paths.append(os.path.join(os.path.dirname(__file__), "search_db.py"))
-    for p in paths:
-        if os.path.isfile(p):
-            h.update(os.path.relpath(p, ROOT).encode("utf-8"))
-            with open(p, "rb") as f:
-                for chunk in iter(lambda: f.read(1 << 20), b""):
-                    h.update(chunk)
-    return h.hexdigest()[:16]
+    return dv(os.path.join(os.path.dirname(__file__), "search_db.py"))
 
 
 def main():
@@ -147,6 +136,10 @@ def main():
         f"legacy: {n} pages, {fails} skipped -> {LEGACY_OUT} (base={LEGACY_BASE!r}, "
         f"ver={os.environ['STEDT_LEGACY_VER']}, {time.time() - t0:.0f}s)"
     )
+    # Same contract as the modern build: a skipped page is a silent production 404 — only a
+    # capped local run (STEDT_LIMIT) may ship partial output.
+    if fails and not LIMIT:
+        sys.exit(f"{fails} legacy page(s) failed to render — refusing to ship a partial site")
 
 
 if __name__ == "__main__":

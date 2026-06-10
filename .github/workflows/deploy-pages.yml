@@ -34,6 +34,10 @@ jobs:
         run: stedt setup
       - name: Compile data/ into stedt.sqlite
         run: stedt build db
+      # Gate the deploy on the same integrity checks validate.yml runs: without this, a push that
+      # fails validation still deploys (the two workflows run independently on the same push).
+      - name: Validate data + render contracts
+        run: stedt validate
       - name: Build the lean search.sqlite3 (FTS5)
         run: stedt build search-db
       - name: Prerender the static site (+ copy search.sqlite3)
