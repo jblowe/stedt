@@ -76,7 +76,7 @@ COLS = {
         "rhymecover",
     ],
     "mesoroots": ["tag", "grpid", "form", "gloss", "variant", "old_tag", "source"],
-    "etymon_notes": ["tag", "type", "text"],
+    "etymon_notes": ["tag", "type", "group", "text"],
     "languages": [
         "lgid",
         "name",
@@ -239,6 +239,8 @@ for m in read_tsv(f"{ROOT}/mesoroots.tsv", COLS["mesoroots"]):
 for n in read_tsv(f"{ROOT}/etymon_notes.tsv", COLS["etymon_notes"]):
     if not isint(n["tag"]) or int(n["tag"]) not in etyma_tags:
         err(f"etymon_notes.tsv: note references etymon #{n['tag']} with no etyma.tsv row")
+    if n["group"] and n["group"] not in grpids:
+        err(f"etymon_notes.tsv tag {n['tag']}: subgroup anchor grpid {n['group']} not in languagegroups")
 
 
 # ---- per-source: source.tsv + wordlist.tsv + notes.tsv + annotations.tsv ----
