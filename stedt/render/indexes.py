@@ -7,7 +7,7 @@ from markupsafe import Markup
 
 from .config import CITE_BASE, PREVIEW, TREE_INDENT_PX
 from .db import LEX_VISIBLE, con, reflex_semkey_counts
-from .text import esc, alt, natkey, rcount_txt
+from .text import esc, alt, natkey, rcount_txt, rfx_noun
 from .notes import render_note
 from .shell import page, breadcrumb, reflex_counts, canon_lgid, etymon_href, source_reference
 from .templating import env
@@ -133,7 +133,8 @@ def sources_index():
     rows = conn.execute(f"""SELECT sb.srcabbr AS srcabbr, sb.citation AS citation, sb.author AS author,
             sb.year AS year, sb.title AS title, sb.imprint AS imprint,
             count(DISTINCT CASE WHEN l.rn IS NOT NULL AND ln.language NOT LIKE '*%' AND ln.language!='' THEN ln.lgid END) AS nlang,
-            count(CASE WHEN ln.language NOT LIKE '*%' AND ln.language!='' THEN l.rn END) AS nforms
+            count(CASE WHEN ln.language NOT LIKE '*%' AND ln.language!='' THEN l.rn END) AS nforms,
+            count(CASE WHEN ln.language LIKE '*%' THEN l.rn END) AS nproto
         FROM srcbib sb
         LEFT JOIN languagenames ln ON ln.srcabbr=sb.srcabbr
         LEFT JOIN lexicon l ON l.lgid=ln.lgid AND {LEX_VISIBLE}
@@ -145,6 +146,13 @@ def sources_index():
     def item(s):
         cit = Markup(esc(s["citation"] or s["srcabbr"]))
         ref = Markup(esc(source_reference(s)))
+        parts = []
+        if s["nforms"]:
+            parts.append(f"{s['nforms']:,} {rfx_noun(s['nforms'])}")
+        if s["nproto"]:  # previously published reconstruction records ('*…' lects)
+            parts.append(f"{s['nproto']:,} reconstruction record" + ("" if s["nproto"] == 1 else "s"))
+        if s["nlang"]:
+            parts.append(f"{s['nlang']} language" + ("" if s["nlang"] == 1 else "s"))
         return {
             "srcabbr": Markup(esc(s["srcabbr"])),
             "cit": cit,
@@ -152,12 +160,15 @@ def sources_index():
             "show_ref": bool(ref) and ref != cit,  # data list hides ref when it just repeats the citation
             "au": Markup(esc((s["author"] or s["citation"] or s["srcabbr"] or "").lower())),
             "nforms": s["nforms"],
-            "nforms_fmt": f"{s['nforms']:,}",
+            "cnt_txt": " · ".join(parts),
             "nlang": s["nlang"],
         }
 
-    data = [item(s) for s in rows if s["nforms"]]
-    refonly = [item(s) for s in rows if not s["nforms"]]
+    # a source counts as data-bearing when it holds ANY visible records — attested forms OR
+    # previously published reconstructions (JRO-Tilung holds only the latter and was misfiled
+    # as 'no attested forms held in STEDT')
+    data = [item(s) for s in rows if s["nforms"] or s["nproto"]]
+    refonly = [item(s) for s in rows if not (s["nforms"] or s["nproto"])]
     total_forms = sum(s["nforms"] for s in rows if s["nforms"])
     return page(
         "Sources",

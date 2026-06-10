@@ -672,16 +672,32 @@ def source(srcabbr):
         HAVING n>0 ORDER BY ln.language""".format(LEX_VISIBLE=LEX_VISIBLE),
         (srcabbr,),
     ).fetchall()
+    # previously published reconstruction sets ('*Tibeto-Burman' …) held in this source — a third
+    # of some reconstruction sources' records, and JRO-Tilung's ONLY records; the original lists
+    # them among the source's languages, we give them their own labeled section
+    plangs = conn.execute(
+        """SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
+            ln.silcode AS silcode, g.grp AS subgroup, g.grpno AS grpno, g.grpid AS grpid,
+            count(l.rn) AS n
+        FROM languagenames ln LEFT JOIN lexicon l ON l.lgid=ln.lgid AND {LEX_VISIBLE}
+        LEFT JOIN languagegroups g ON g.grpid=ln.grpid
+        WHERE ln.srcabbr=? AND ln.language LIKE '*%' GROUP BY ln.lgid
+        HAVING n>0 ORDER BY ln.language""".format(LEX_VISIBLE=LEX_VISIBLE),
+        (srcabbr,),
+    ).fetchall()
     conn.close()
     total = sum(l["n"] for l in langs)
+    ptotal = sum(l["n"] for l in plangs)
     # the visible reference line includes the imprint (via the shared formatter), like the index and
     # the copy-citation — so the venue isn't relegated to a separate chip on the detail page alone.
     cite = source_reference(s)
     meta = []
     meta.append(Markup(f"<span><b>{len(langs)}</b> languages</span>"))
     meta.append(Markup(f"<span><b>{total:,}</b> {rfx_noun(total)}</span>"))
+    if plangs:
+        meta.append(Markup(f"<span><b>{ptotal:,}</b> reconstruction records</span>"))
 
-    def langinfo(l):
+    def langinfo(l, noun=None):
         bits = [esc(x) for x in (l["grpno"], l["subgroup"]) if x]
         grp = " ".join(bits)
         grplink = f'<a href="/group/{l["grpid"]}">{grp}</a>' if (l["grpid"] is not None and grp) else grp
@@ -693,10 +709,11 @@ def source(srcabbr):
             "ab": Markup(ab),
             "grplink": Markup(grplink),
             "iso": Markup(iso),
-            "n_txt": f"{l['n']:,} {rfx_noun(l['n'])}",
+            "n_txt": f"{l['n']:,} {noun(l['n']) if noun else rfx_noun(l['n'])}",
         }
 
     langinfos = [langinfo(l) for l in langs]
+    planginfos = [langinfo(l, noun=lambda n: "record" if n == 1 else "records") for l in plangs]
 
     citehtml = (
         Markup(
@@ -755,6 +772,7 @@ def source(srcabbr):
             meta=meta,
             notes=[Markup(render_note(r["xmlnote"])) for r in notes],
             langs=langinfos,
+            plangs=planginfos,
             apparatus=apparatus,
         ),
         nav="sources",
@@ -803,26 +821,43 @@ def group(grpid):
         GROUP BY ln.lgid HAVING n>0""".format(LEX_VISIBLE=LEX_VISIBLE),
         (grpid,),
     ).fetchall()
+    # previously published reconstruction sets filed at this node ('*Tibeto-Burman' per source…):
+    # the original lists them as group members; their /language pages exist but were reachable
+    # from nowhere. Same per-source collapse as the member lects, own section below.
+    protorows = conn.execute(
+        """SELECT ln.lgid AS lgid, ln.language AS language, ln.lgabbr AS lgabbr,
+            ln.silcode AS silcode, ln.srcabbr AS srcabbr, sb.citation AS citation, count(l.rn) AS n
+        FROM languagenames ln LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
+        JOIN lexicon l ON l.lgid=ln.lgid
+        WHERE ln.grpid=? AND ln.language LIKE '*%' AND {LEX_VISIBLE}
+        GROUP BY ln.lgid HAVING n>0""".format(LEX_VISIBLE=LEX_VISIBLE),
+        (grpid,),
+    ).fetchall()
     canon_of = canonical_languages()[0]
-    lects = {}
-    for r in langrows:
-        cid = canon_of.get(r["lgid"], r["lgid"])
-        d = lects.get(cid)
-        if d is None:
-            d = lects[cid] = {
-                "lgid": cid,
-                "language": r["language"],
-                "lgabbr": r["lgabbr"],
-                "silcode": r["silcode"],
-                "n": 0,
-                "srcs": {},
-            }
-        d["n"] += r["n"]
-        if not d["silcode"] and r["silcode"]:
-            d["silcode"] = r["silcode"]
-        if r["srcabbr"]:
-            d["srcs"].setdefault(r["srcabbr"], r["citation"])
-    langs = sorted(lects.values(), key=lambda d: (d["language"] or "").lower())
+
+    def collapse(rows_in):
+        lects = {}
+        for r in rows_in:
+            cid = canon_of.get(r["lgid"], r["lgid"])
+            d = lects.get(cid)
+            if d is None:
+                d = lects[cid] = {
+                    "lgid": cid,
+                    "language": r["language"],
+                    "lgabbr": r["lgabbr"],
+                    "silcode": r["silcode"],
+                    "n": 0,
+                    "srcs": {},
+                }
+            d["n"] += r["n"]
+            if not d["silcode"] and r["silcode"]:
+                d["silcode"] = r["silcode"]
+            if r["srcabbr"]:
+                d["srcs"].setdefault(r["srcabbr"], r["citation"])
+        return sorted(lects.values(), key=lambda d: (d["language"] or "").lower())
+
+    langs = collapse(langrows)
+    protos = collapse(protorows)
     recons = conn.execute(
         """SELECT e.tag AS tag, e.protoform AS protoform, e.protogloss AS protogloss, e.exemplary AS exemplary
         FROM etyma e WHERE e.grpid=? AND coalesce(upper(e.status),'')!='DELETE'
@@ -868,7 +903,7 @@ def group(grpid):
 
     subs = [subinfo(ch, nl) for ch, nl in childinfo]
 
-    def langinfo(l):
+    def langinfo(l, noun=None):
         ab = f' <span class="lgab">{esc(l["lgabbr"])}</span>' if l["lgabbr"] else ""
         mid = []
         srcs = list(l["srcs"].items())
@@ -888,10 +923,11 @@ def group(grpid):
             "language": Markup(esc(l["language"])),
             "ab": Markup(ab),
             "mid": Markup(" · ".join(mid)),
-            "n_txt": f"{l['n']:,} {rfx_noun(l['n'])}",
+            "n_txt": f"{l['n']:,} {noun(l['n']) if noun else rfx_noun(l['n'])}",
         }
 
     langinfos = [langinfo(l) for l in langs]
+    protoinfos = [langinfo(l, noun=lambda n: "record" if n == 1 else "records") for l in protos]
 
     def reconinfo(r):
         # SYNC(etymon-row) ↔ web/src/rows.js etymonRow — keep protoform/PLG/#tag/count/exemplary identical.
@@ -919,6 +955,8 @@ def group(grpid):
             subs=subs,
             langs=langinfos,
             nlangs=len(langs),
+            protos=protoinfos,
+            nprotos=len(protos),
             recons=reconinfos,
             nrecons=len(recons),
         ),

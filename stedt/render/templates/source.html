@@ -7,5 +7,6 @@
       <div class="metabar">{% for m in meta %}{{ m }}{% endfor %}</div>
     </div>
     {% if notes %}<section class="notes"><h3>Notes</h3>{% for n in notes %}<div class="note-block">{{ n }}</div>{% endfor %}</section>{% endif %}
-    <section class="reflexes"><h3>Languages in this source</h3>{% for l in langs %}<div class="rfx"><span><a class="lang" href="/language/{{ l.canon }}">{{ l.language }}</a>{{ l.ab }}</span><span class="subg">{{ l.grplink }}{{ l.iso }}</span><span class="src">{{ l.n_txt }}</span></div>{% endfor %}</section>
+    {% if langs %}<section class="reflexes"><h3>Languages in this source</h3>{% for l in langs %}<div class="rfx"><span><a class="lang" href="/language/{{ l.canon }}">{{ l.language }}</a>{{ l.ab }}</span><span class="subg">{{ l.grplink }}{{ l.iso }}</span><span class="src">{{ l.n_txt }}</span></div>{% endfor %}</section>{% endif %}
+    {% if plangs %}<section class="reflexes"><h3>Previously published reconstructions</h3>{% for l in plangs %}<div class="rfx"><span><a class="lang" href="/language/{{ l.canon }}">{{ l.language }}</a>{{ l.ab }}</span><span class="subg">{{ l.grplink }}{{ l.iso }}</span><span class="src">{{ l.n_txt }}</span></div>{% endfor %}</section>{% endif %}
     {{ apparatus }}
