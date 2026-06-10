@@ -224,14 +224,23 @@ const reflexLikeCountSql = (groups) => `
 // terms AND. (Documented by the hint row under the search box — keep the two in step.)
 const FIELDS = { form: 'form', reflex: 'form', gloss: 'gloss', language: 'language', lg: 'language',
                  subgroup: 'subgroup', group: 'subgroup', proto: 'proto', pgloss: 'pgloss' };
-const _fieldOf = (w) => { const m = w.match(/^([A-Za-z]+):(.+)$/); return m && FIELDS[m[1].toLowerCase()] ? [FIELDS[m[1].toLowerCase()], m[2]] : null; };
-const hasFields = (s) => s.split(/\s+/).some((w) => _fieldOf(w));
+// tokenizer: a value with spaces takes quotes — subgroup:"Central Loloish", language:"Lotha Naga".
+// (Unquoted, the space ends the value and the rest becomes bare terms.)
+const _qtoks = (s) => s.match(/[A-Za-z]+:"[^"]*"|"[^"]*"|\S+/g) || [];
+const _unq = (v) => (v.length > 1 && v.startsWith('"') && v.endsWith('"')) ? v.slice(1, -1) : v;
+const _fieldOf = (w) => {
+  const m = w.match(/^([A-Za-z]+):(.+)$/s);
+  return m && FIELDS[m[1].toLowerCase()] ? [FIELDS[m[1].toLowerCase()], _unq(m[2])] : null;
+};
+const hasFields = (s) => _qtoks(s).some((w) => _fieldOf(w));
 const parseFields = (s) => {
   const q = { cols: [], bare: [], subgroup: [], proto: [], pgloss: [] };
-  for (const raw of s.split(/\s+/).filter(Boolean)) {
+  for (const raw of _qtoks(s)) {
     const f = _fieldOf(raw);
-    if (!f) { q.bare.push(raw); continue; }
+    if (!f) { q.bare.push(_unq(raw)); continue; }
     if (f[0] === 'subgroup' || f[0] === 'proto' || f[0] === 'pgloss') q[f[0]].push(f[1]);
+    // a multi-word column value becomes several column-filtered tokens, ANDed — adjacency isn't
+    // expressible anyway (detail=column drops positions), and the tokens must co-occur in the column
     else for (const t of ftsTok(f[1])) q.cols.push(f[0] + ':"' + t + '"');
   }
   return q;
