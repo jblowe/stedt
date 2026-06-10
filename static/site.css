@@ -86,7 +86,10 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .badge{font-variant:small-caps;letter-spacing:.08em;font-size:11px;padding:1px 8px;margin-left:8px;
   border-radius:2px;border:1px solid;vertical-align:middle;}
 .badge.del{color:var(--accent);border-color:var(--accent);}
-.ety-head .pf{font-family:"Charis SIL",serif;font-size:44px;line-height:1.1;margin:6px 0 4px;}
+/* page titles are h1 elements (screen-reader landmark) styled entirely by class — the explicit
+   font-weight/margins below override the UA's h1 defaults, so they render as they did as divs */
+.ety-head .pf{font-family:"Charis SIL",serif;font-size:44px;font-weight:400;line-height:1.1;margin:6px 0 4px;}
+.vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;}
 .ety-head .pf::before{content:"*";color:var(--accent);}
 .ety-head .pg{font-variant:small-caps;letter-spacing:.03em;font-size:20px;color:var(--soft);}
 .crumbs{font-size:13px;color:var(--mut);margin:14px 0 0;}
@@ -183,7 +186,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .cite-actions a:hover,.copybtn:hover{color:var(--accent);border-color:var(--accent);}
 
 /* search */
-.sr h2{font-family:"Fraunces",serif;font-weight:600;font-size:24px;margin:0 0 4px;}
+.sr h1{font-family:"Fraunces",serif;font-weight:600;font-size:24px;margin:0 0 4px;}
 .sr .sub{color:var(--mut);font-size:14px;margin-bottom:24px;}
 .sec-label{font-variant:small-caps;letter-spacing:.10em;font-size:13px;color:var(--accent);
   border-bottom:1px solid var(--rule);padding-bottom:5px;margin:28px 0 10px;
@@ -271,8 +274,8 @@ a.syl:hover,a.syl:focus{z-index:5;}
 /* thesaurus */
 .thes ul{list-style:none;padding:0;margin:0;}
 .thes li{border-bottom:1px solid var(--rule);}
-.thes h2{font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px;}
-.thes .crumbs+h2{margin:10px 0 18px;}   /* node pages: the crumb row sits above the title */
+.thes h1{font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px;}
+.thes .crumbs+h1{margin:10px 0 18px;}   /* node pages: the crumb row sits above the title */
 .thes .ety-list h3{margin-top:30px;}
 .thes li a.row{display:flex;align-items:baseline;gap:12px;padding:11px 6px;border-bottom:none;}
 .thes li a.row:hover{background:var(--paper2);color:inherit;}

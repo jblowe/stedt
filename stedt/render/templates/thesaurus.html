@@ -1,6 +1,6 @@
 <div class="thes">
 {%- if root -%}
-<h2>Semantic Thesaurus</h2><p class="cap">Each count is <b>reconstructions / reflexes</b> filed at that node.</p>
+<h1>Semantic Thesaurus</h1><p class="cap">Each count is <b>reconstructions / reflexes</b> filed at that node.</p>
 <div class="srcsort">Sort <select id="thsort" aria-label="Sort thesaurus nodes"><option value="key">thesaurus order</option><option value="cnt">most reconstructions</option><option value="lcnt">most reflexes</option></select></div>
 <ul class="tree" id="thtree">
 {%- for t in tree -%}
@@ -23,7 +23,7 @@
 })();
 </script>
 {%- else -%}
-<div class="crumbs"><a href="/thesaurus">Thesaurus</a> &nbsp;›&nbsp; {{ crumb }}</div><h2>{{ title }}</h2>
+<div class="crumbs"><a href="/thesaurus">Thesaurus</a> &nbsp;›&nbsp; {{ crumb }}</div><h1>{{ title }}</h1>
 {%- if cnotes -%}
 <section class="notes">{% for n in cnotes %}<div class="note-block">{{ n }}</div>{% endfor %}</section>
 {%- endif -%}

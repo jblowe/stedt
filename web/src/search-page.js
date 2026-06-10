@@ -75,11 +75,14 @@ async function run() {
   const srh = document.getElementById('srh'), sub = document.getElementById('srsub'), res = document.getElementById('results');
   if (!q) { srh.textContent = 'Search'; return; }
   srh.textContent = 'Results for ' + (q === '*' ? 'all reconstructions' : '“' + q + '”');
+  document.title = (q === '*' ? 'All reconstructions' : '“' + q + '”') + ' · Search · STEDT';
   if (!window.stedtSearch) return;
-  if (!window.stedtDbLoaded) res.innerHTML = '<p class="cap">Loading search…</p>';
+  // #srsub is a role=status live region: transient state lands there so SRs announce it,
+  // and the result totals below replace it when they arrive.
+  if (!window.stedtDbLoaded) sub.textContent = 'Loading search…';
   let r;
   try { r = await window.stedtSearch(q, null); }
-  catch (err) { res.innerHTML = '<p class="cap">Search is unavailable.</p>'; return; }
+  catch (err) { sub.textContent = 'Search is unavailable.'; res.innerHTML = ''; return; }
   const parts = [];
   if (r.languageTotal) parts.push(fmt(r.languageTotal) + ' language' + (r.languageTotal == 1 ? '' : 's'));
   parts.push(fmt(r.etymaTotal) + ' reconstruction' + (r.etymaTotal == 1 ? '' : 's'));

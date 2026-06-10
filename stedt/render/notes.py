@@ -13,7 +13,7 @@ _PAIR = {
     "reconstruction": ('<span class="recon">', "</span>"),
     "latinform": ('<span class="lat">', "</span>"),
     "plainlatinform": ('<span class="lat">', "</span>"),
-    "hanform": ('<span class="han">', "</span>"),
+    "hanform": ('<span class="han" lang="zh">', "</span>"),  # declare CJK runs so SRs switch voice
     "gloss": ('<span class="gl">', "</span>"),
     "emph": ("<em>", "</em>"),
     "strong": ("<strong>", "</strong>"),
@@ -73,7 +73,7 @@ def render_note(x):
             ch = chr(int(m.group(1), 16))
         except (ValueError, OverflowError):
             return esc(m.group(1))
-        return f'<span class="han">{ch}</span>'
+        return f'<span class="han" lang="zh">{ch}</span>'
 
     s = re.sub(r"<unicode>\s*([0-9A-Fa-f]{1,6})\s*</unicode>", _uni, s)
     valid = valid_etymon_tags()
