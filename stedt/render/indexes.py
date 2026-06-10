@@ -23,7 +23,8 @@ _THESAURUS = env.get_template("thesaurus.html")
 
 
 def home():
-    return page("Home", _HOME.render(preview=PREVIEW))
+    # nav="home" matches no nav_items key (no active link); it exists for the body page-class
+    return page("Home", _HOME.render(preview=PREVIEW), nav="home")
 
 
 def not_found():
@@ -196,7 +197,7 @@ def search_page(q=""):
     """Static results shell — reads ?q= and renders matches client-side via window.stedtSearch,
     federated across entity types (languages / reconstructions / attested forms), each with its
     true total count and windowed infinite-scroll, so results are never silently capped."""
-    return page("Search", _SEARCH.render(), q)
+    return page("Search", _SEARCH.render(), q, nav="search")  # no nav_items key; body page-class only
 
 
 _ORPHANS = None

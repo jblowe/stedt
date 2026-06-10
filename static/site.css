@@ -27,9 +27,12 @@
 
 :root{
   --paper:#f4efe2; --paper2:#efe8d6; --ink:#211c15; --soft:#5d5443;
-  --mut:#94886e; --rule:#ddd1b6; --hair:#e7dcc4; --accent:#9c2b25; --accent-d:#7e201b;
+  /* --mut/--gold color 12-14px text (source links, counts, .exm, …): both must hold WCAG AA
+     4.5:1 against --paper AND --paper2 (the hover background). #726750 = 4.85/4.56,
+     #806326 = 4.90/4.61 — the lightest steps of the original tan/gold hues that pass. */
+  --mut:#726750; --rule:#ddd1b6; --hair:#e7dcc4; --accent:#9c2b25; --accent-d:#7e201b;
   --morph:#4c211b;   /* interactable morpheme at rest: a quiet, dark accent — clearly a link, barely louder than ink */
-  --accent2:#3a5a6b; --gold:#b08a3c;
+  --accent2:#3a5a6b; --gold:#806326;
 }
 *{box-sizing:border-box}
 /* one shared, clearly visible keyboard-focus ring (replaces five per-control suppressions) */
@@ -415,6 +418,9 @@ pre.diff{background:#faf7ef;border:1px solid var(--rule);border-radius:3px;paddi
   .hsearch{order:2;}
   /* 16px floor on focusable controls: iOS auto-zooms the page when a focused control is smaller */
   .hsearch input{width:100%;font-size:16px;}
+  /* SYNC(page-class) ↔ templates/base.html <body> class: home and search already carry a
+     full-width search box in the body — stacking the masthead twin above it reads as two inputs */
+  .p-home .hsearch,.p-search .hsearch{display:none;}
   .sec-label .rxsort select,.srcsort select{font-size:16px;}
   nav.main{order:3;margin:0;flex-wrap:wrap;gap:9px 18px;font-size:14px;}
 

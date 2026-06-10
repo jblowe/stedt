@@ -57,7 +57,7 @@ def chrome(title, body, vert_tog=False, cognates=None, extra_scripts=""):
 <head>
 \t<meta charset="utf-8">
 \t<meta name="robots" content="noindex,nofollow">
-\t<link rel="icon" href="data:,">
+\t<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Ctext x='8' y='20.5' text-anchor='middle' font-family='Georgia,serif' font-size='26' fill='%239c2b25'%3E*%3C/text%3E%3C/svg%3E">
 \t<title>{esc(title)}</title>
 \t<script>window.STEDT_BASE="{BASE}";window.STEDT_LEGACY_DB_VERSION="{VER}";</script>
 \t<script type="module" src="{BASE}/assets/legacy-shim.js"></script>
