@@ -1,10 +1,26 @@
 <div class="thes">
 {%- if root -%}
-<h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px">Semantic Thesaurus</h2><p class="cap">Each count is <b>reconstructions / reflexes</b> filed at that node.</p><ul class="tree">
+<h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:0 0 6px">Semantic Thesaurus</h2><p class="cap">Each count is <b>reconstructions / reflexes</b> filed at that node.</p>
+<div class="srcsort">Sort <select id="thsort" aria-label="Sort thesaurus nodes"><option value="key">thesaurus order</option><option value="cnt">most reconstructions</option><option value="lcnt">most reflexes</option></select></div>
+<ul class="tree" id="thtree">
 {%- for t in tree -%}
-<li style="margin-left:{{ t.pad }}px"><a class="row" href="/thesaurus/{{ t.disp }}"><span class="sk">{{ t.disp_esc }}</span>{{ t.ti }}{{ t.ct }}</a></li>
+<li style="margin-left:{{ t.pad }}px" data-pad="{{ t.pad }}" data-cnt="{{ t.cnt }}" data-lcnt="{{ t.lcnt }}"><a class="row" href="/thesaurus/{{ t.disp }}"><span class="sk">{{ t.disp_esc }}</span>{{ t.ti }}{{ t.ct }}</a></li>
 {%- endfor -%}
 </ul>
+<script>
+(function(){
+  var sel=document.getElementById('thsort'),ul=document.getElementById('thtree');
+  if(!sel||!ul)return;
+  var orig=[].slice.call(ul.children);
+  sel.addEventListener('change',function(){
+    var k=sel.value,items=orig.slice();
+    if(k!=='key')items.sort(function(a,b){return (+b.getAttribute('data-'+k)||0)-(+a.getAttribute('data-'+k)||0);});
+    var f=document.createDocumentFragment();
+    items.forEach(function(li){li.style.marginLeft=(k==='key'?li.getAttribute('data-pad'):0)+'px';f.appendChild(li);});
+    ul.appendChild(f);
+  });
+})();
+</script>
 {%- else -%}
 <div class="crumbs"><a href="/thesaurus">Thesaurus</a> &nbsp;›&nbsp; {{ crumb }}</div><h2 style="font-family:Fraunces;font-weight:600;font-size:30px;margin:10px 0 18px">{{ title }}</h2>
 {%- if cnotes -%}

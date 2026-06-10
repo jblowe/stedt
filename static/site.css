@@ -290,6 +290,12 @@ a.syl:hover,a.syl:focus{z-index:5;}
 .exm{color:var(--gold);font-variant:small-caps;letter-spacing:.06em;font-size:.9em;}
 /* public=0: not an official STEDT reconstruction (original shows a red '(provisional)') */
 .prov{color:var(--mut);font-variant:small-caps;letter-spacing:.06em;font-size:.9em;}
+/* curated etyma.sequence on thesaurus listings (decimal = sub-root of the integer root) */
+.seqn{color:var(--mut);font-variant-numeric:tabular-nums;}
+/* thesaurus-index marker for nodes carrying chapter notes; when present it takes the row's
+   flexible gap so the recon/reflex count keeps its right edge */
+.tree .nnote{color:var(--mut);font-size:12px;white-space:nowrap;margin-left:auto;}
+.tree .nnote~.ct{margin-left:14px;}
 .metabar a{border-bottom:1px dotted var(--rule);}
 .metabar a:hover{color:var(--accent);}
 .idx{list-style:none;padding:0;margin:6px 0 0;columns:2;column-gap:44px;font-size:15px;}

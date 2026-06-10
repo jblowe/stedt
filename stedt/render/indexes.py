@@ -226,6 +226,14 @@ def thesaurus(semkey=None):
         nodes = conn.execute("SELECT semkey, chaptertitle FROM chapters WHERE coalesce(semkey,'')!=''").fetchall()
         SPECIAL = {"999", "950.1", "x.x"}
         scounts = reflex_semkey_counts()  # exact per-semkey reflex counts (proto-excluded)
+        # chapters carrying prose notes get a marker (the original's browser has a notes column)
+        nnotes = {
+            r[0]: r[1]
+            for r in conn.execute(
+                "SELECT id, count(*) FROM notes WHERE spec='C' AND notetype!='I' "
+                "AND xmlnote IS NOT NULL GROUP BY id"
+            )
+        }
         tree = []
         for n in nodes:
             sk = n["semkey"]
@@ -245,7 +253,8 @@ def thesaurus(semkey=None):
                 own_n,
             ).fetchone()[0]
             lcnt = sum(scounts.get(k, 0) for k in own_n)
-            tree.append((disp, depth, n["chaptertitle"], cnt, lcnt))
+            nn = sum(nnotes.get(k, 0) for k in own_n)
+            tree.append((disp, depth, n["chaptertitle"], cnt, lcnt, nn))
         tree.sort(key=lambda r: natkey(r[0]))
         conn.close()
         treeinfo = [
@@ -253,18 +262,23 @@ def thesaurus(semkey=None):
                 "pad": depth * TREE_INDENT_PX,
                 "disp": disp,
                 "disp_esc": Markup(esc(disp)),
+                "cnt": cnt,
+                "lcnt": lcnt,
                 "ti": Markup(
                     f'<span class="ti" style="font-weight:600">{esc(title)}</span>'
                     if depth == 0
                     else f'<span class="ti">{esc(title)}</span>'
                 ),
                 "ct": Markup(
-                    f'<span class="ct" title="reconstructions / reflexes">{cnt:,} / {lcnt:,}</span>'
-                    if (cnt or lcnt)
-                    else ""
+                    (f'<span class="nnote">{nn} note{"" if nn == 1 else "s"}</span>' if nn else "")
+                    + (
+                        f'<span class="ct" title="reconstructions / reflexes">{cnt:,} / {lcnt:,}</span>'
+                        if (cnt or lcnt)
+                        else ""
+                    )
                 ),
             }
-            for disp, depth, title, cnt, lcnt in tree
+            for disp, depth, title, cnt, lcnt, nn in tree
         ]
         return page("Thesaurus", _THESAURUS.render(root=True, tree=treeinfo), nav="thesaurus")
 
@@ -316,13 +330,25 @@ def thesaurus(semkey=None):
         )
     own_e = _with_orphans(conn, semkey, own)  # etyma filing keys: this node + orphan keys aliased here
     direct = conn.execute(
-        f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg, e.exemplary, e.public
+        f"""SELECT e.tag, e.protoform, e.protogloss, e.sequence, g.plg AS plg, e.exemplary, e.public
         FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
         WHERE {ECAT} IN ({",".join("?" * len(own_e))})
           AND coalesce(upper(e.status),'')!='DELETE'
         ORDER BY e.sequence, e.protogloss""",
         own_e,
     ).fetchall()
+
+    def seq_disp(v):
+        # the curated sequence, as the original's chapter table shows it: '1' for a main root,
+        # '1.1'/'1.2' for its sub-roots (the decimal marks variants of the integer root)
+        try:
+            f = float(v)
+        except (TypeError, ValueError):
+            return ""
+        if f <= 0:
+            return ""
+        return f"{f:g}"
+
     dinfo = []
     if direct:
         # SYNC(etymon-row) ↔ web/src/rows.js etymonRow — keep protoform/PLG/#tag/count/exemplary identical.
@@ -334,7 +360,10 @@ def thesaurus(semkey=None):
                 "pf": Markup(esc(alt(e["protoform"]))),
                 "pg": Markup(esc(e["protogloss"])),
                 "tagn": Markup(
-                    f'{esc(e["plg"])} #{e["tag"]}{rcount_txt(dcounts.get(e["tag"], 0))}'
+                    # leading curated-sequence label: the decimal marks sub-roots of the integer
+                    # root (1 / 1.1 / 1.2 …) — the order the list is already sorted by
+                    (f'<span class="seqn">{seq_disp(e["sequence"])}</span> · ' if seq_disp(e["sequence"]) else "")
+                    + f'{esc(e["plg"])} #{e["tag"]}{rcount_txt(dcounts.get(e["tag"], 0))}'
                     + (' · <span class="exm">exemplary</span>' if (e["exemplary"] or "") == "x" else "")
                     + ("" if e["public"] else ' · <span class="prov">provisional</span>')
                 ),
