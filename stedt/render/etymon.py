@@ -126,18 +126,14 @@ def etymon(tag):
         ).fetchall()
         if len(family) < 2:  # just this etymon: no family to show
             family = []
-    # cross-reference labels: collect every tag mentioned in a pure tag-list field
+    # cross-reference labels: collect every standalone number in the three xref fields — a
+    # superset of what rel_render below will link (comma/semicolon lists, '↭ 686', and numbers
+    # embedded in prose), so the labels dict can serve them all. Dotted section refs ('3.4.5')
+    # are excluded by the lookarounds.
     digit_tokens = set()
     for fld in (e["allofams"], e["xrefs"], e["possallo"]):
-        if not fld:
-            continue
-        fs = fld.strip()
-        if re.fullmatch(r"[\d,\s]+", fs):
-            digit_tokens.update(int(t) for t in re.split(r"[,\s]+", fs) if t)
-        else:  # also a single tag behind a relate-symbol: "↭ 686", "=1318"
-            m = re.fullmatch(r"[↭=\s]*(\d+)\s*(?:\([^)]*\))?", fs)
-            if m:
-                digit_tokens.add(int(m.group(1)))
+        if fld:
+            digit_tokens.update(int(t) for t in re.findall(r"(?<![\w.])\d+(?![\w.])", fld))
     labels = {}
     if digit_tokens:
         toks = list(digit_tokens)
@@ -360,9 +356,11 @@ def etymon(tag):
         v = (v or "").strip()
         if not v:
             return ""
-        if re.fullmatch(r"[\d,\s]+", v):  # tag list -> etymon links
+        # tag list -> etymon links; the curators separate with ',' or ';' and sometimes lead with
+        # the relate-symbol ('↭ 3350; 568; 570')
+        if re.fullmatch(r"[↭=\s]*[\d][\d,;\s]*", v):
             parts = []
-            for t in re.split(r"[,\s]+", v):
+            for t in re.split(r"[,;\s]+", v.lstrip("↭= ")):
                 if not t:
                     continue
                 lab = labels.get(int(t))
@@ -381,6 +379,18 @@ def etymon(tag):
             if lab:
                 return f'<a class="xref" href="{etymon_href(t)}">*{esc(alt(lab[0]))} ‘{esc(lab[1])}’</a>'
             return f'<span class="xref">#{esc(t)}</span>'  # DELETE/missing target: bare ref, not a dead search
+        # mixed prose with embedded tags ('↭ *l-kok 486, include PT 3244'): link each standalone
+        # number that names a built etymon, in place; the prose stays prose. A search link on the
+        # whole string returned 0 results for every such field.
+        def _tagtok(mm):
+            t = int(mm.group(0))
+            if t in labels:
+                return f'<a class="xref" href="{etymon_href(mm.group(0))}">#{mm.group(0)}</a>'
+            return mm.group(0)
+
+        linked = re.sub(r"(?<![\w.])\d+(?![\w.])", _tagtok, esc(v))
+        if "<a " in linked:
+            return f'<span class="xref">{linked}</span>'
         g = v.lstrip("↭").strip()  # gloss-based cross-reference
         return f'<a class="xref" href="/search?q={urllib.parse.quote(g)}">{esc(g)}</a>'
 
@@ -407,8 +417,12 @@ def etymon(tag):
             f'<span class="reltgt famlist">{"".join(fam)}</span></div>'
         )
     for h in hptb:
+        # an HPTB reconstruction can sit at a different level than this etymon (130 etyma cite a
+        # PLB/PNN/PKar form under a PTB headword) — say which, or the attribution misleads
+        hplg = (h["plg"] or "").strip()
+        lvl = f' <span class="plg2">({esc(hplg)})</span>' if hplg and hplg != (e["plg"] or "") else ""
         rels.append(
-            f'<div class="conn-row"><span class="rl">HPTB</span>'
+            f'<div class="conn-row"><span class="rl">HPTB{lvl}</span>'
             f'<span class="reltgt"><span class="recon">{esc(alt(h["protoform"]))}</span> ‘{esc(h["protogloss"])}’</span>'
             # 'p.' for a single page, 'pp.' for a range/list (842 of 1,500 hptb refs are one page)
             f'<span class="src">{"pp." if re.search(r"[-–,;]", str(h["pages"] or "")) else "p."} {esc(h["pages"])}</span></div>'
