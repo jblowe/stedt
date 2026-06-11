@@ -420,16 +420,16 @@ def etymon(tag):
                 f'<span class="recon"><span class="star">*</span>{esc(alt(a["protoform"]))}</span>'
                 f' ‘{esc(a["protogloss"])}’'
             )
-            # each member is its own non-breaking chip (.fam), so a 10-member family wraps at
-            # member boundaries instead of mid-label
+            # one member per line, a real list — the original's allofam box was a <ul>, and a
+            # wrapped run of inline chips read as an unstructured jumble (review finding)
             fam.append(
-                f'<span class="fam"><b>{lab}</b></span>'
+                f'<li class="fam"><b>{lab}</b></li>'
                 if a["tag"] == tag
-                else f'<span class="fam"><a href="{etymon_href(a["tag"])}">{lab}</a></span>'
+                else f'<li class="fam"><a href="{etymon_href(a["tag"])}">{lab}</a></li>'
             )
         rels.append(
             f'<div class="conn-row"><span class="rl">Allofams</span>'
-            f'<span class="reltgt famlist">{"".join(fam)}</span></div>'
+            f'<ul class="reltgt famlist">{"".join(fam)}</ul></div>'
         )
     for h in hptb:
         # an HPTB reconstruction can sit at a different level than this etymon (130 etyma cite a
