@@ -78,7 +78,6 @@ nav.main a.active{color:var(--ink);border-bottom:2px solid var(--accent);padding
 .hsearch input:focus{border-color:var(--accent);}
 
 main{max-width:1080px;margin:0 auto;padding:34px 28px 90px;}
-.prose{max-width:38em;}
 .cap{color:var(--mut);font-size:14px;margin:0 0 14px;}
 footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px solid var(--rule);
   color:var(--mut);font-size:13.5px;}
@@ -100,7 +99,6 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .entry a:hover{color:var(--accent);}
 
 /* about */
-.about{max-width:40em;}
 .about p{margin:0 0 14px;}
 .stats{display:flex;gap:34px;flex-wrap:wrap;margin:6px 0 18px;}
 .stats .n{font-family:"Fraunces",serif;font-size:28px;color:var(--ink);line-height:1.1;font-variant-numeric:tabular-nums;}
@@ -130,7 +128,6 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 /* section headers — the primary structural tier in ink (vermilion reserved for asterisk, proto-language, links) */
 .notes h3,.reflexes h3,.thes h3,.conn h3,.meso h3,.apparatus h3,.ety-list h3,.phon h3{font-variant:small-caps;letter-spacing:.10em;
   font-size:16px;color:var(--ink);border-bottom:1px solid var(--rule);padding-bottom:5px;margin:0 0 12px;}
-.reflexes{max-width:900px;}
 .reflexes h3{display:flex;align-items:baseline;}
 .reflexes h3 .cnt{margin-left:auto;font-size:.92em;letter-spacing:0;color:var(--mut);font-variant-numeric:tabular-nums;}
 .reflexes h3 .toggle-all{margin-left:auto;font-family:"Fraunces",serif;font-size:11.5px;font-variant:small-caps;
@@ -142,12 +139,12 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .grpsec h3{display:flex;align-items:baseline;}
 .grpsec h3 .cnt{margin-left:auto;font-size:.92em;letter-spacing:0;color:var(--mut);font-variant-numeric:tabular-nums;}
 .notes{margin:26px 0 8px;}
-.np{margin:0 0 12px;max-width:38em;} .fn{font-size:.86em;color:var(--soft);}
+.np{margin:0 0 12px;} .fn{font-size:.86em;color:var(--soft);}
 .note-block{margin-bottom:6px;}
 /* bottom-of-page footnote apparatus (render_note collector + footnotes_block) */
 .footlink{border-bottom:none;}
 .footnotes{margin-top:16px;padding-top:10px;border-top:1px solid var(--hair);
-  font-size:.86em;color:var(--soft);max-width:44em;}
+  font-size:.86em;color:var(--soft);}
 .fnote{margin:0 0 6px;}
 .footback{vertical-align:super;font-size:.85em;border-bottom:none;}
 /* subgroup-anchored etymon note, shown on its band in the reflex table (original: band footnote) */
@@ -183,7 +180,6 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 /* etymon page only: subgroup-grouped reflexes + intermediate-recon rows.
    no per-row rule; the source trails the form instead of pinning hard-right;
    full-width section so its header rule lines up with Notes / Prev-reconstructed. */
-.reflexes.etymon-rfx{max-width:none;}
 /* etymon/meso reflex rows: source in its own right-aligned column (like search + the language page),
    not trailing the gloss. The middle (form·gloss) takes the slack; the source's right edges line up. */
 .sg .rfx,.meso .rfx{grid-template-columns:190px minmax(0,1fr) auto;border-bottom:none;}

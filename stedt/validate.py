@@ -406,6 +406,45 @@ for _c in sorted(_classes):
 print(f"  css: {len(_classes)} classes, all referenced")
 
 
+# ---- prose stays full-width: every max-width is allowlisted ----
+# Em-measure caps on text blocks kept regressing pages to ~60% width, found one symptom at a
+# time (search syntax reference, Chinese comparanda, subgroup notes — review findings
+# 2026-06-10/11). Standing design rule: running text fills the main column. A max-width in
+# site.css must appear on this allowlist — adding one is a deliberate design decision, made
+# visibly here, not a habit.
+_MAXW_OK = {
+    ("header.mast", "1080px"), ("main", "1080px"), ("footer", "1080px"),  # the page column itself
+    (".home", "600px"),  # a centered component, not prose
+    ("a.syl .sylpop", "min(280px,calc(100vw - 24px))"),  # floating popovers
+    (".noted>.notepop", "min(340px,calc(100vw - 24px))"),
+    (".citebox", "48em"),  # bordered cite box, not running text
+}
+for _sel, _body in re.findall(r"([^{}@]+)\{([^{}]*)\}", _css):
+    for _v in re.findall(r"max-width\s*:\s*([^;}]+)", _body):
+        _key = (_sel.strip().split(",")[0].strip(), _v.strip())
+        if _key not in _MAXW_OK:
+            err(f"site.css: max-width {_key[1]!r} on {_key[0]!r} — running text fills the main column; "
+                "if this cap is deliberate, allowlist it in validate.py")
+print(f"  css: max-width allowlist holds ({len(_MAXW_OK)} approved caps)")
+
+
+# ---- render invariants over a fixed page sample ----
+# Promoted from the 2026-06 review-round probes (see stedt/dev/invariants.py for the
+# per-check history): renders a deterministic edge-biased sample in-process and asserts
+# no empty form text, no popover-only syllable links, no '**', no dangling anchors or
+# entity links, no pipeline-internal leaks. Needs stedt.sqlite (built before validate in
+# the deploy workflow); without it the section is skipped as a warning so a bare
+# data/-only checkout can still validate.
+from stedt.paths import DB as _DB  # noqa: E402
+
+if os.path.exists(_DB):
+    from stedt.dev import invariants as _inv
+
+    _inv.run(err)
+else:
+    warn("render invariants skipped: stedt.sqlite not built (run `stedt build db` first)")
+
+
 # ---- report ----
 def show(label, items, cap=25):
     print(f"\n{label}: {len(items)}")
