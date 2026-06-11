@@ -296,6 +296,13 @@ a.sp-m:hover{color:var(--accent);}
 /* a reflex carrying a lexical note: a small circled-i after the gloss (NOT a dotted underline —
    that signal is reserved for clickable morphemes); the note reveals on hover/focus. The badge is
    drawn in CSS so it's crisp and on-palette, brightening to accent when active. */
+/* language-page source filter (language-page.js): rows/sections outside the picked source */
+.srchide{display:none !important;}
+.srcpick{float:right;font-size:13px;font-weight:400;color:var(--mut);letter-spacing:0;font-variant:normal;margin-left:14px;}
+.srcpick select{max-width:340px;}
+.src-only{font:inherit;font-size:12px;color:var(--soft);background:none;border:none;cursor:pointer;
+  border-bottom:1px dotted var(--rule);margin-left:10px;padding:0;}
+.src-only:hover{color:var(--accent);border-bottom-color:var(--accent);}
 .noted{cursor:help;position:relative;}
 /* a filled disc, not an outline ring: the note marker is an invitation, and the muted ring
    was invisible at row size (review finding — 'much more prominent') */

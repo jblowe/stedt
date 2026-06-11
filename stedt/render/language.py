@@ -108,6 +108,11 @@ def language(lgid):
                     ),
                     "mid": Markup(" · ".join(mid)),
                     "n_txt": f"{n:,} {rfx_noun(n)}",
+                    # the source filter (language-page.js): option value + label, and the
+                    # per-variant "only" button. Restores the original's language×source view
+                    # as a dynamic filter over the one canonical page.
+                    "abbr": sr["srcabbr"] or "",
+                    "opt": f'{sr["citation"] or sr["srcabbr"] or "(no source)"} · {n:,}',
                 }
             )
     # other lects recorded under the same ISO code — the original's 'other sources which include

@@ -13,9 +13,67 @@
   }
   var segs = [].slice.call(document.querySelectorAll('details.seg'));
   segs.forEach(function (d) {
-    d.addEventListener('toggle', function () { if (d.open) fill(d); });
+    d.addEventListener('toggle', function () { if (d.open) { fill(d); filterRows(d); } });
     if (d.open) fill(d);
   });
+
+  // ---- source filter: show only one source's record of this lect (the canonical page keeps
+  // every source; this restores the original's language×source view as a view, not a page).
+  // Rows carry their source in the a.src href; unopened sections are counted by scanning their
+  // inert template text, so chips and section-hiding work without materialising anything.
+  var pick = document.getElementById('srcpick'), cur = '';
+  function rowAbbr(r) {
+    var a = r.querySelector('a.src'), m = a && a.getAttribute('href').match(/\/source\/([^\/#?]+)$/);
+    return m ? decodeURIComponent(m[1]) : '';
+  }
+  function filterRows(d) {
+    if (!pick || !d.dataset.filled) return;
+    [].forEach.call(d.querySelectorAll('.seg-body .rfx'), function (r) {
+      r.classList.toggle('srchide', !!cur && rowAbbr(r) !== cur);
+    });
+  }
+  function segCount(d) {                       // matching rows, without forcing a fill
+    if (!cur) return null;
+    var s = d.querySelector('script.seg-src');
+    if (d.dataset.filled || !s) {
+      var k = 0;
+      [].forEach.call(d.querySelectorAll('.seg-body .rfx'), function (r) { if (rowAbbr(r) === cur) k++; });
+      return k;
+    }
+    return s.textContent.split('/source/' + cur + '"').length - 1;
+  }
+  function applyFilter() {
+    if (!pick) return;
+    segs.forEach(function (d) {
+      var c = d.querySelector('summary .c');
+      if (c && c.dataset.n == null) c.dataset.n = c.textContent;
+      filterRows(d);
+      var k = segCount(d);
+      if (c) c.textContent = (k == null) ? c.dataset.n : k + ' of ' + c.dataset.n;
+      d.classList.toggle('srchide', k === 0);  // a section with nothing to show steps aside
+    });
+    var q = new URLSearchParams(location.search);
+    if (cur) q.set('src', cur); else q.delete('src');
+    var qs = q.toString();
+    history.replaceState(null, '', location.pathname + (qs ? '?' + qs : '') + location.hash);
+  }
+  if (pick) {
+    pick.addEventListener('change', function () { cur = pick.value; applyFilter(); });
+    [].forEach.call(document.querySelectorAll('.src-only'), function (b) {
+      b.addEventListener('click', function () {
+        cur = (cur === b.dataset.abbr) ? '' : b.dataset.abbr;  // click again to clear
+        pick.value = cur;
+        applyFilter();
+      });
+    });
+    var want = new URLSearchParams(location.search).get('src');
+    if (want) {
+      pick.value = want;
+      // an unknown ?src (typo, stale link, other lect's source) must not blank the page
+      if (pick.value === want) { cur = want; applyFilter(); }
+      else history.replaceState(null, '', location.pathname + location.hash);
+    }
+  }
   var btn = document.querySelector('.toggle-all');
   if (btn) btn.addEventListener('click', function () {
     var open = btn.getAttribute('data-all') !== '1';

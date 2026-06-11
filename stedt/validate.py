@@ -418,6 +418,7 @@ _MAXW_OK = {
     (".syl-w .sylpop", "min(280px,calc(100vw - 24px))"),  # floating popovers
     (".noted>.notepop", "min(340px,calc(100vw - 24px))"),
     (".citebox", "48em"),  # bordered cite box, not running text
+    (".srcpick select", "340px"),  # a form control (source filter), not running text
 }
 for _sel, _body in re.findall(r"([^{}@]+)\{([^{}]*)\}", _css):
     for _v in re.findall(r"max-width\s*:\s*([^;}]+)", _body):
