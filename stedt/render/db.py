@@ -34,6 +34,17 @@ ECAT = "coalesce(nullif(e.chapter,''),e.semkey)"
 LEX_VISIBLE = "coalesce(upper(l.status),'') NOT IN ('HIDE','DELETED')"
 
 
+def chunked_in(conn, sql, ids, chunk=900):
+    """Run `sql` — containing one literal {qm} slot for its IN-list placeholders — over ids in
+    chunks, yielding the rows of every chunk. 900 stays under SQLite's 999 bound-variable
+    ceiling; every multi-thousand-id lookup (reflex counts, per-reflex notes, analysis maps)
+    goes through here instead of hand-rolling the slice arithmetic."""
+    ids = list(ids)
+    for i in range(0, len(ids), chunk):
+        part = ids[i : i + chunk]
+        yield from conn.execute(sql.replace("{qm}", ",".join("?" * len(part))), part)
+
+
 _VALID_TAGS = None
 _SEMKEY_COUNTS = None
 _XREF_LABELS = None

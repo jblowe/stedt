@@ -3,7 +3,7 @@
 from markupsafe import Markup
 
 from .config import _CSS_VER, _JS_VER
-from .db import ETY_LIVE, LEX_VISIBLE, con
+from .db import ETY_LIVE, LEX_VISIBLE, chunked_in, con
 from .templating import env
 from .text import esc
 
@@ -80,15 +80,10 @@ def reflex_counts(conn, tags=None):
     if tags is None:
         rows = conn.execute(f"SELECT h.tag AS tag, count(DISTINCT h.rn) n {JW} GROUP BY h.tag")
         return {r["tag"]: r["n"] for r in rows}
-    tags = [t for t in tags if t]
     out = {}
-    for i in range(0, len(tags), 900):
-        chunk = tags[i : i + 900]
-        qm = ",".join("?" * len(chunk))
-        for r in conn.execute(
-            f"SELECT h.tag AS tag, count(DISTINCT h.rn) n {JW} " f"AND h.tag IN ({qm}) GROUP BY h.tag", chunk
-        ):
-            out[r["tag"]] = r["n"]
+    for r in chunked_in(conn, f"SELECT h.tag AS tag, count(DISTINCT h.rn) n {JW} AND h.tag IN ({{qm}}) GROUP BY h.tag",
+                        [t for t in tags if t]):
+        out[r["tag"]] = r["n"]
     return out
 
 
@@ -104,42 +99,38 @@ def proto_labels(conn, tags):
     tags = [t for t in tags if t]
     out = {}
     fam_key = {}  # (chapter, int seq) -> [tags interested]
-    for i in range(0, len(tags), 900):
-        chunk = tags[i : i + 900]
-        qm = ",".join("?" * len(chunk))
-        for r in conn.execute(
-            f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg, e.chapter, e.sequence
-            FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-            WHERE e.tag IN ({qm}) AND {ETY_LIVE}""",
-            chunk,
-        ):
-            out[r["tag"]] = (r["protoform"], r["protogloss"], r["plg"], [], [])
-            try:
-                if (r["chapter"] or "") and r["sequence"] is not None and float(r["sequence"]) >= 1:
-                    fam_key.setdefault((r["chapter"], int(float(r["sequence"]))), []).append(r["tag"])
-            except (TypeError, ValueError):
-                pass
-        for r in conn.execute(
-            f"""SELECT m.tag, g.plg AS plg, m.form, m.gloss, g.grpno AS grpno FROM mesoroots m
-            LEFT JOIN languagegroups g ON g.grpid=m.grpid WHERE m.tag IN ({qm})
-            ORDER BY g.grp0, g.grp1, g.grp2, g.grp3, g.grp4, m.variant""",
-            chunk,
-        ):
-            if r["tag"] in out:
-                out[r["tag"]][3].append((r["plg"], r["form"], r["gloss"], r["grpno"]))
-    chapters = sorted({c for c, _ in fam_key})
-    for i in range(0, len(chapters), 450):
-        chunk = chapters[i : i + 450]
-        qm = ",".join("?" * len(chunk))
-        for r in conn.execute(
-            f"""SELECT e.tag, e.sequence, e.chapter, e.protoform, e.protogloss, g.plg AS plg
-            FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
-            WHERE e.chapter IN ({qm}) AND CAST(e.sequence AS INTEGER) > 0 AND {ETY_LIVE}
-            ORDER BY e.sequence""",
-            chunk,
-        ):
-            for t in fam_key.get((r["chapter"], int(float(r["sequence"]))), []):
-                out[t][4].append((r["sequence"], r["tag"], r["plg"], r["protoform"], r["protogloss"]))
+    for r in chunked_in(
+        conn,
+        f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg, e.chapter, e.sequence
+        FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
+        WHERE e.tag IN ({{qm}}) AND {ETY_LIVE}""",
+        tags,
+    ):
+        out[r["tag"]] = (r["protoform"], r["protogloss"], r["plg"], [], [])
+        try:
+            if (r["chapter"] or "") and r["sequence"] is not None and float(r["sequence"]) >= 1:
+                fam_key.setdefault((r["chapter"], int(float(r["sequence"]))), []).append(r["tag"])
+        except (TypeError, ValueError):
+            pass
+    for r in chunked_in(
+        conn,
+        """SELECT m.tag, g.plg AS plg, m.form, m.gloss, g.grpno AS grpno FROM mesoroots m
+        LEFT JOIN languagegroups g ON g.grpid=m.grpid WHERE m.tag IN ({qm})
+        ORDER BY g.grp0, g.grp1, g.grp2, g.grp3, g.grp4, m.variant""",
+        tags,
+    ):
+        if r["tag"] in out:
+            out[r["tag"]][3].append((r["plg"], r["form"], r["gloss"], r["grpno"]))
+    for r in chunked_in(
+        conn,
+        f"""SELECT e.tag, e.sequence, e.chapter, e.protoform, e.protogloss, g.plg AS plg
+        FROM etyma e LEFT JOIN languagegroups g ON g.grpid=e.grpid
+        WHERE e.chapter IN ({{qm}}) AND CAST(e.sequence AS INTEGER) > 0 AND {ETY_LIVE}
+        ORDER BY e.sequence""",
+        sorted({c for c, _ in fam_key}),
+    ):
+        for t in fam_key.get((r["chapter"], int(float(r["sequence"]))), []):
+            out[t][4].append((r["sequence"], r["tag"], r["plg"], r["protoform"], r["protogloss"]))
     for v in out.values():
         if len(v[4]) < 2:  # an etymon alone in its sequence has no family to show
             v[4].clear()
