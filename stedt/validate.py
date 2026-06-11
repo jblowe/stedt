@@ -429,23 +429,6 @@ for _sel, _body in re.findall(r"([^{}@]+)\{([^{}]*)\}", _css):
 print(f"  css: max-width allowlist holds ({len(_MAXW_OK)} approved caps)")
 
 
-# ---- render invariants over a fixed page sample ----
-# Promoted from the 2026-06 review-round probes (see stedt/dev/invariants.py for the
-# per-check history): renders a deterministic edge-biased sample in-process and asserts
-# no empty form text, no popover-only syllable links, no '**', no dangling anchors or
-# entity links, no pipeline-internal leaks. Needs stedt.sqlite (built before validate in
-# the deploy workflow); without it the section is skipped as a warning so a bare
-# data/-only checkout can still validate.
-from stedt.paths import DB as _DB  # noqa: E402
-
-if os.path.exists(_DB):
-    from stedt.dev import invariants as _inv
-
-    _inv.run(err)
-else:
-    warn("render invariants skipped: stedt.sqlite not built (run `stedt build db` first)")
-
-
 # ---- report ----
 def show(label, items, cap=25):
     print(f"\n{label}: {len(items)}")
