@@ -57,34 +57,43 @@ def _cols_block(width=78):
     return "\n".join(lines)
 
 
-# The user-facing documentation. This help text is the ONE place the new-source workflow is
-# documented (Luke's ruling 2026-06-11): both `stedt new-source --help` (cli.py imports it) and
-# `python -m stedt.new_source --help` render it verbatim — keep every line under 78 columns.
-HELP = f"""Onboard a new source: a contributor wordlist file becomes
-data/sources/<srcabbr>/.
+# The user-facing documentation, written for a potential contributor. This help text is the ONE
+# place the new-source workflow is documented (Luke's ruling 2026-06-11): both `stedt new-source
+# --help` (cli.py imports it) and `python -m stedt.new_source --help` render it verbatim — keep
+# every line under 78 columns. Maintainer-facing data-model facts live in data/FORMAT.md.
+HELP = f"""Contribute a wordlist to STEDT: fill in a spreadsheet, and this
+command turns it into a complete source folder under data/sources/.
 
-The flow: `stedt new-source --template` writes wordlist-template.tsv/.xlsx
-for a contributor to fill in (Excel is fine — the .xlsx explains every
-column on a second sheet). `stedt new-source <file>` then imports it:
-bibliography prompts, language placement, fresh global rns, the source
-folder, and finally `stedt validate` (the merge gate).
+You fill in one row per form, copying the source's own spelling and
+glosses — diacritics and IPA exactly as printed. Templates live in
+resources/ (wordlist-template.xlsx or .tsv; `stedt new-source --template`
+writes fresh copies). Excel is fine: the .xlsx explains every column on
+its second sheet, and the import reads .xlsx directly, so there is no
+export step to mangle your transcriptions.
 
-Template columns — only reflex and gloss are required:
+The columns — only reflex and gloss are required, blank is always safe:
 
 {_cols_block()}
 
-A `language` column is for multi-language sources: fill it on every row,
-or drop the column and the wizard asks once for the whole list's language.
+If the wordlist covers several languages, fill `language` on every row;
+for a single-language list drop that column and you are asked once.
 
-Language entries are per-source (a languages.tsv row is "a lect as
-documented in one source"), so the import always creates this source's own
-entries, placing them in the subgroup tree by same-name precedent; it
-prompts only when precedent is absent or split.
+There are no ids to manage: record numbers, language ids, and the tagging
+of forms to etyma never appear in the template — ids are assigned during
+import, and etymological analysis is later editorial work. Likewise the
+bibliography (author, year, title, …) is asked for during import, not put
+in the spreadsheet.
 
-The contributor file stays the source of truth. Re-running with --force
-regenerates the folder with the SAME rns; if a parallel merge claimed them
-first, re-run on the up-to-date branch and fresh rns are allocated — never
-renumber by hand.
+When the file is ready, either send it to the maintainers, or run
+`stedt new-source <file>` yourself from a checkout: it walks through the
+bibliography, places any new language in the subgroup tree (existing
+same-named languages suggest the spot), writes the folder, and checks the
+result. Open a PR with the changes it made under data/.
+
+Your file stays the source of truth: re-running the import with --force
+regenerates the folder, so corrections belong in your file, never in the
+generated data/ — and if the PR is told its record numbers collided with
+one merged before it, updating the branch and re-running is the whole fix.
 
 Every prompt has a flag, so an import can run unattended:
 
