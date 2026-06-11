@@ -300,7 +300,11 @@ a.sp-m:hover{color:var(--accent);}
 /* language-page source filter (language-page.js): rows/sections outside the picked source */
 .srchide{display:none !important;}
 .srcpick{float:right;font-size:13px;font-weight:400;color:var(--mut);letter-spacing:0;font-variant:normal;margin-left:14px;}
-.srcpick select{max-width:340px;}
+.srcpick select{max-width:340px;font-family:inherit;font-size:13px;color:var(--ink);background:var(--paper2);
+  border:1px solid var(--rule);border-radius:2px;padding:3px 7px;}
+.srcpick select:focus{border-color:var(--accent);}
+/* stacked content sections (Sources list, then Reflexes) need air between them */
+section.reflexes + section.reflexes{margin-top:34px;}
 .src-only{font:inherit;font-size:12px;color:var(--soft);background:none;border:none;cursor:pointer;
   border-bottom:1px dotted var(--rule);margin-left:10px;padding:0;}
 .src-only:hover{color:var(--accent);border-bottom-color:var(--accent);}

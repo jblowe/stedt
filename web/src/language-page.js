@@ -44,14 +44,27 @@
   }
   function applyFilter() {
     if (!pick) return;
+    var total = 0;
     segs.forEach(function (d) {
       var c = d.querySelector('summary .c');
       if (c && c.dataset.n == null) c.dataset.n = c.textContent;
+      if (d.dataset.defopen == null) d.dataset.defopen = d.open ? '1' : '0';
       filterRows(d);
       var k = segCount(d);
+      total += k || 0;
       if (c) c.textContent = (k == null) ? c.dataset.n : k + ' of ' + c.dataset.n;
       d.classList.toggle('srchide', k === 0);  // a section with nothing to show steps aside
     });
+    // a small filtered view opens itself (the server's own openall rule: <100 rows);
+    // clearing the filter restores each section's build-time state
+    var btn = document.querySelector('.toggle-all');
+    if (cur && total < 100) {
+      segs.forEach(function (d) { if (!d.classList.contains('srchide')) { fill(d); filterRows(d); d.open = true; } });
+      if (btn) { btn.setAttribute('data-all', '1'); btn.textContent = 'Collapse all'; }
+    } else if (!cur) {
+      segs.forEach(function (d) { d.open = d.dataset.defopen === '1'; });
+      if (btn) { btn.setAttribute('data-all', '0'); btn.textContent = 'Expand all'; }
+    }
     var q = new URLSearchParams(location.search);
     if (cur) q.set('src', cur); else q.delete('src');
     var qs = q.toString();
