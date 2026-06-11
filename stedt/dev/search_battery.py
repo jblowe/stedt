@@ -33,7 +33,7 @@ from collections import Counter
 
 from stedt.paths import DB, ROOT, SEARCH_DB
 
-CORPUS = os.path.join(ROOT, "archive", "original-snapshot")
+CORPUS = os.path.join(ROOT, ".archive", "original-snapshot")
 failures = []
 
 
