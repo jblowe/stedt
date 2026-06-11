@@ -31,7 +31,7 @@
      4.5:1 against --paper AND --paper2 (the hover background). #726750 = 4.85/4.56,
      #806326 = 4.90/4.61 — the lightest steps of the original tan/gold hues that pass. */
   --mut:#726750; --rule:#ddd1b6; --hair:#e7dcc4; --accent:#9c2b25; --accent-d:#7e201b;
-  --morph:#4c211b;   /* interactable morpheme at rest: a quiet, dark accent — clearly a link, barely louder than ink */
+  --morph:#4c211b;   /* the self-syllable mark (.syl-self): quiet dark emphasis, never a link */
   --accent2:#3a5a6b; --gold:#806326;
 }
 *{box-sizing:border-box}
@@ -249,8 +249,13 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 /* interactable morpheme (per-syllable etymon link): a quiet accent tint atop the dotted underline,
    so it reads as clickable without shouting; brightens to full accent on hover. Not scoped to
    .rx-hit, so the treatment stays consistent anywhere a .syl link appears. */
-a.syl{color:var(--morph);border-bottom:1px dotted var(--rule);position:relative;}
-a.syl:hover{color:var(--accent);border-bottom-color:var(--accent);}
+/* syllable links underline via text-decoration, not border-bottom: the border hugged the
+   inline BOX, which superscript tones/aspiration inflate, dropping the line far below the
+   baseline; decoration anchors to the baseline and skips descender ink. Color: at-rest was
+   too faint to read as a link (review finding) — darker red text, gold dotted line. */
+a.syl{color:var(--accent-d);text-decoration:underline;text-decoration-style:dotted;
+  text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:2px;position:relative;}
+a.syl:hover{color:var(--accent);text-decoration-color:var(--accent);}
 /* hover/focus popover previewing the etymon a linked syllable reflects (*protoform 'gloss'); replaces
    the always-on ruby. Opens ABOVE the syllable so it covers the already-read row above rather than
    obscuring the next form in a top-down wordlist. Lift the stacking context so the bubble isn't pierced. */
