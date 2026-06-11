@@ -9,6 +9,10 @@
       {% if meta %}<div class="metabar">{% for m in meta %}{{ m }}{% endfor %}</div>{% else %}<p class="cap">Cited in the literature; no records held in STEDT.</p>{% endif %}
     </div>
     {% if notes %}<section class="notes"><h3>Notes</h3>{% for n in notes %}<div class="note-block">{{ n }}</div>{% endfor %}</section>{% endif %}
+    {#- reconstructions lead, as in the original (its '*' names sorted to the top of the one
+        table) — for a source like STC they ARE the content. And the heading speaks from the
+        source's own viewpoint: 'previously published' is STEDT-relative editorial framing
+        (it's the grpno-0 BUCKET name in languagegroups), wrong in a bibliographic context. -#}
+    {% if plangs %}<section class="reflexes"><h3>Reconstructions in this source</h3>{% for l in plangs %}<div class="rfx"><span><a class="lang" href="/language/{{ l.canon }}">{{ l.language }}</a>{{ l.ab2 }}</span><span class="subg">{{ l.mid }}</span><span class="src">{{ l.n_txt }}</span></div>{% endfor %}</section>{% endif %}
     {% if langs %}<section class="reflexes"><h3>Languages in this source</h3>{% for l in langs %}<div class="rfx"><span><a class="lang" href="/language/{{ l.canon }}">{{ l.language }}</a>{{ l.ab2 }}</span><span class="subg">{{ l.mid }}</span><span class="src">{{ l.n_txt }}</span></div>{% endfor %}</section>{% endif %}
-    {% if plangs %}<section class="reflexes"><h3>Previously published reconstructions</h3>{% for l in plangs %}<div class="rfx"><span><a class="lang" href="/language/{{ l.canon }}">{{ l.language }}</a>{{ l.ab2 }}</span><span class="subg">{{ l.mid }}</span><span class="src">{{ l.n_txt }}</span></div>{% endfor %}</section>{% endif %}
     {{ apparatus }}
