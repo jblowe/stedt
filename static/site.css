@@ -297,10 +297,13 @@ a.sp-m:hover{color:var(--accent);}
    that signal is reserved for clickable morphemes); the note reveals on hover/focus. The badge is
    drawn in CSS so it's crisp and on-palette, brightening to accent when active. */
 .noted{cursor:help;position:relative;}
+/* a filled disc, not an outline ring: the note marker is an invitation, and the muted ring
+   was invisible at row size (review finding — 'much more prominent') */
 .noted::after{content:"i";display:inline-grid;place-content:center;box-sizing:border-box;
-  width:1.45em;height:1.45em;margin-left:.34em;border:1px solid currentColor;border-radius:50%;
-  font:italic 600 .62em/1 "Fraunces",serif;vertical-align:.28em;color:var(--mut);}
-.noted:hover::after,.noted:focus::after,.noted:focus-within::after{color:var(--accent);}
+  width:1.5em;height:1.5em;margin-left:.38em;border-radius:50%;
+  font:italic 700 .7em/1 "Fraunces",serif;vertical-align:.24em;
+  background:var(--gold);color:var(--paper);}
+.noted:hover::after,.noted:focus::after,.noted:focus-within::after{background:var(--accent);}
 /* right:0 anchors the bubble under the circled-i (the right end of .noted), not the gloss's left
    edge — otherwise a long gloss strands the bubble far from its icon. */
 .noted>.notepop{display:none;position:absolute;right:0;top:1.55em;z-index:6;width:max-content;max-width:min(340px,calc(100vw - 24px));
