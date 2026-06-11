@@ -77,7 +77,7 @@ const sylPop = e => {
   if (meso.length) {
     if (fam.length) out += '<span class="sp-sec">Mesoroots</span>';
     out += meso.map(m =>
-      `<span class="sp-m"><a class="sp-plg" href="${etymonHref(e.tag)}#ms-${esc(String(m.no || ''))}">${esc(m.plg || '')}</a> *${altstar(esc(m.f))}${m.g ? ` ‘${esc(m.g)}’` : ''}</span>`
+      `<a class="sp-m" href="${etymonHref(e.tag)}#ms-${esc(String(m.no || ''))}"><span class="sp-plg">${esc(m.plg || '')}</span> *${altstar(esc(m.f))}${m.g ? ` ‘${esc(m.g)}’` : ''}</a>`
     ).join('');
   }
   if (fam.length) {
@@ -86,7 +86,7 @@ const sylPop = e => {
       const lab = `${esc(a.s)} #${a.tag}${a.plg ? ' ' + esc(a.plg) : ''} *${altstar(esc(a.pf))}${a.pg ? ` ‘${esc(a.pg)}’` : ''}`;
       return a.tag === e.tag
         ? `<span class="sp-m"><b>${lab}</b></span>`
-        : `<span class="sp-m"><a href="${etymonHref(a.tag)}">${lab}</a></span>`;
+        : `<a class="sp-m" href="${etymonHref(a.tag)}">${lab}</a>`;
     }).join('');
   }
   return `<span class="sylpop">${out}</span>`;

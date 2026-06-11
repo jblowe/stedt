@@ -256,17 +256,22 @@ a.syl:hover{color:var(--accent);text-decoration-color:var(--accent);}
 /* hover/focus popover previewing the etymon a linked syllable reflects (*protoform 'gloss'); replaces
    the always-on ruby. Opens ABOVE the syllable so it covers the already-read row above rather than
    obscuring the next form in a top-down wordlist. Lift the stacking context so the bubble isn't pierced. */
-.syl-w .sylpop{display:none;position:absolute;left:0;bottom:calc(100% + 5px);z-index:6;width:max-content;
+/* hidden via visibility (not display) with a short close delay: the card is several lines
+   tall now, and an instant close made the diagonal mouse-in path unforgiving */
+.syl-w .sylpop{visibility:hidden;transition:visibility 0s linear .25s;display:block;
+  position:absolute;left:0;bottom:calc(100% + 5px);z-index:6;width:max-content;
   max-width:min(280px,calc(100vw - 24px));background:var(--paper);border:1px solid var(--rule);border-radius:3px;
   padding:5px 9px;font-style:normal;font-weight:400;font-size:12.5px;line-height:1.45;color:var(--soft);
   white-space:normal;text-align:left;overflow-wrap:anywhere;letter-spacing:0;}
-.syl-w:hover .sylpop,.syl-w:focus-within .sylpop{display:block;}
+.syl-w:hover .sylpop,.syl-w:focus-within .sylpop{visibility:visible;transition-delay:0s;}
 /* the popover's elink-style card: linked '#tag PLG *protoform' header, then the etymon's
    mesoroots and allofam family under small-caps section labels */
 .sylpop a.sp-h{display:block;color:var(--ink);border-bottom:none;}
 .sylpop a.sp-h:hover{color:var(--accent);}
 .sylpop .sp-sec{display:block;margin-top:4px;font-variant:small-caps;letter-spacing:.06em;color:var(--mut);}
 .sylpop .sp-m{display:block;padding-left:14px;}
+a.sp-m{color:var(--soft);border-bottom:none;}  /* whole-row links (improves on the original) */
+a.sp-m:hover{color:var(--accent);}
 .sylpop .sp-plg{font-variant:small-caps;letter-spacing:.05em;color:var(--mut);}
 
 /* the reveal hook (static/site.js) flips a top-clipped preview to open below its syllable */

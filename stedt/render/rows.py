@@ -26,8 +26,8 @@ def syl_pop(tag, info):
         if fam:
             out += '<span class="sp-sec">Mesoroots</span>'
         out += "".join(
-            f'<span class="sp-m"><a class="sp-plg" href="{etymon_href(tag)}#ms-{esc(str(no or ""))}">'
-            f'{esc(mp or "")}</a> *{esc(alt(mf))}{f" ‘{esc(mg)}’" if mg else ""}</span>'
+            f'<a class="sp-m" href="{etymon_href(tag)}#ms-{esc(str(no or ""))}">'
+            f'<span class="sp-plg">{esc(mp or "")}</span> *{esc(alt(mf))}{f" ‘{esc(mg)}’" if mg else ""}</a>'
             for mp, mf, mg, no in meso
         )
     if fam:
@@ -36,7 +36,7 @@ def syl_pop(tag, info):
             lab = (f'{esc(seq_label(seq))} #{t2}{" " + esc(plg2) if plg2 else ""} *{esc(alt(pf2))}'
                    f'{f" ‘{esc(pg2)}’" if pg2 else ""}')
             out += (f'<span class="sp-m"><b>{lab}</b></span>' if t2 == tag
-                    else f'<span class="sp-m"><a href="{etymon_href(t2)}">{lab}</a></span>')
+                    else f'<a class="sp-m" href="{etymon_href(t2)}">{lab}</a>')
     return f'<span class="sylpop">{out}</span>'
 
 
