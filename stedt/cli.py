@@ -166,6 +166,47 @@ def build_legacy(
 
 
 # ───────────────────────────── top-level ─────────────────────────────
+@app.command("new-source")
+def new_source(
+    wordlist: str = typer.Argument(None, help="Contributor wordlist (.tsv/.csv/.xlsx)."),
+    template: bool = typer.Option(False, "--template", help="Write the contributor template files and exit."),
+    out: str = typer.Option(".", help="Directory for --template output."),
+    srcabbr: str = typer.Option(None, help="Source abbreviation (folder name); prompted if omitted."),
+    citation: str = typer.Option(None, help="Short citation (e.g. 'Abbi 85'); prompted if omitted."),
+    author: str = typer.Option(None, help="Author(s); prompted if omitted."),
+    year: str = typer.Option(None, help="Year; prompted if omitted."),
+    title: str = typer.Option(None, help="Title; prompted if omitted."),
+    imprint: str = typer.Option(None, help="Imprint (publisher/journal); prompted if omitted."),
+    language: str = typer.Option(None, help="Language of the whole list (when it has no language column)."),
+    grpid: str = typer.Option(None, help="Subgroup id for any language entry this run creates."),
+    force: bool = typer.Option(False, "--force", help="Regenerate an existing source folder without asking."),
+    no_validate: bool = typer.Option(False, "--no-validate", help="Skip the validate run at the end."),
+):
+    """Onboard a new source: walk a contributor wordlist into data/sources/<srcabbr>/
+    (bibliography prompts, language→lgid mapping, fresh global rns), then validate."""
+    args = ["--template", "--out", out] if template else []
+    if wordlist:
+        args.append(wordlist)
+    opts = [
+        ("--srcabbr", srcabbr),
+        ("--citation", citation),
+        ("--author", author),
+        ("--year", year),
+        ("--title", title),
+        ("--imprint", imprint),
+        ("--language", language),
+        ("--grpid", grpid),
+    ]
+    for flag, val in opts:
+        if val is not None:
+            args += [flag, val]
+    if force:
+        args.append("--force")
+    if no_validate:
+        args.append("--no-validate")
+    _run("stedt.new_source", *args)
+
+
 @app.command()
 def validate():
     """Check data/ for referential integrity (non-zero exit on errors)."""
