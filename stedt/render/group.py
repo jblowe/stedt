@@ -5,7 +5,7 @@ from markupsafe import Markup
 from .config import PLG_FULL, TREE_INDENT_PX
 from .db import ETY_LIVE, LEX_VISIBLE, con
 from .text import esc, alt, natkey, iso_link, plural, rcount_txt, rfx_noun, sortkey
-from .rows import lgab_span
+from .rows import etymon_flags, lgab_span
 from .shell import page, group_lineage, reflex_counts, canonical_languages
 from .shell import etymon_href, source_href
 from .templating import env
@@ -161,12 +161,12 @@ def group(grpid):
         code = f'<span class="grpno">{esc(ch["grpno"])}</span>' if ch["grpno"] else ""
         lab = code + esc(ch["grp"]) + (f' <span class="plg2">({esc(ch["plg"])})</span>' if ch["plg"] else "")
         if nl:
-            ct = f"{nl} language" + ("" if nl == 1 else "s")
+            ct = f"{nl} {plural(nl, 'language')}"
         elif nproto:
-            ct = f"{nproto} reconstruction set" + ("" if nproto == 1 else "s")
+            ct = f"{nproto} {plural(nproto, 'reconstruction set')}"
         elif nsub:
             # branch node: members live in deeper subgroups, say so instead of '0 languages'
-            ct = f"{nsub} language" + ("" if nsub == 1 else "s") + " in subgroups"
+            ct = f"{nsub} {plural(nsub, 'language')} in subgroups"
         else:
             ct = ""  # truly empty node — show nothing, like the thesaurus index at 0
         return {"grpid": ch["grpid"], "lab": Markup(lab), "ct": ct}
@@ -197,7 +197,7 @@ def group(grpid):
         }
 
     langinfos = [langinfo(l) for l in langs]
-    protoinfos = [langinfo(l, noun=lambda n: "record" if n == 1 else "records") for l in protos]
+    protoinfos = [langinfo(l, noun=lambda n: plural(n, "record")) for l in protos]
 
     def reconinfo(r):
         # SYNC(etymon-row) ↔ web/src/rows.js etymonRow — keep protoform/PLG/#tag/count/exemplary identical.
@@ -208,8 +208,7 @@ def group(grpid):
             "protogloss": Markup(esc(r["protogloss"])),
             "tagn": Markup(
                 f'{esc(plg)} #{r["tag"]}{rcount_txt(rcounts.get(r["tag"], 0))}'
-                + (' · <span class="exm">exemplary</span>' if (r["exemplary"] or "") == "x" else "")
-                + ("" if r["public"] else ' · <span class="prov">provisional</span>')
+                + etymon_flags(r["exemplary"], r["public"])
             ),
         }
 

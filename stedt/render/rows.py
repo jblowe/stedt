@@ -100,6 +100,17 @@ def lgab_span(lgabbr):
     return f' <span class="lgab">{esc(lgabbr)}</span>' if lgabbr else ""
 
 
+def etymon_flags(exemplary, public, prov_title=None):
+    """SYNC(etymon-row) ↔ web/src/rows.js etymonRow — the ' · exemplary' / ' · provisional'
+    chips trailing an etymon's tag line, identical wherever an etymon row renders. prov_title:
+    the etymon page's own header explains the provisional mark with a tooltip; rows don't."""
+    out = ' · <span class="exm">exemplary</span>' if (exemplary or "") == "x" else ""
+    if not public:
+        t = f' title="{esc(prov_title)}"' if prov_title else ""
+        out += f' · <span class="prov"{t}>provisional</span>'
+    return out
+
+
 def noted_gloss(rn, gloss, notes):
     """SYNC(reflex-row) ↔ web/src/rows.js reflexRow — the gloss cell when the reflex carries
     lexical notes: the note popover rides on the gloss behind a circled-i. The popover lives

@@ -85,7 +85,7 @@ def source(srcabbr):
         }
 
     langinfos = [langinfo(l) for l in langs]
-    planginfos = [langinfo(l, noun=lambda n: "record" if n == 1 else "records") for l in plangs]
+    planginfos = [langinfo(l, noun=lambda n: plural(n, "record")) for l in plangs]
 
     citehtml = (
         Markup(

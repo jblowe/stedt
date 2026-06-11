@@ -7,9 +7,9 @@ from markupsafe import Markup
 
 from .config import CITE_BASE, PLG_FULL
 from .db import ETY_LIVE, LEX_VISIBLE, con
-from .text import cite_tail, esc, alt, natkey, seq_label, sortkey
+from .text import cite_tail, esc, alt, natkey, plural, rfx_noun, seq_label, sortkey
 from .notes import footnotes_block, render_note
-from .rows import disp_form, noted_gloss, src_cell, syl_form
+from .rows import disp_form, etymon_flags, noted_gloss, src_cell, syl_form
 from .shell import page, breadcrumb, lexical_notes, proto_labels, reflex_links
 from .shell import etymon_href, language_href, reflex_href
 from .templating import env
@@ -243,10 +243,7 @@ def etymon(tag):
     noteshtml += footnotes_block(feet)
 
     nr = len(reflex_rows)
-    cnt = (
-        f'<span class="cnt">{nr:,} reflex{"" if nr == 1 else "es"} · '
-        f'{nsub} subgroup{"" if nsub == 1 else "s"}</span>'
-    )
+    cnt = f'<span class="cnt">{nr:,} {rfx_noun(nr)} · {nsub} {plural(nsub, "subgroup")}</span>'
     reflexeshtml = (
         f'<section class="reflexes etymon-rfx"><h3>Reflexes &amp; cognates{cnt}</h3>{"".join(sgs)}</section>'
         if sgs
@@ -404,12 +401,10 @@ def etymon(tag):
     else:
         plg_html = ""
     badges = '<span class="badge del">deleted</span>' if (e["status"] or "").upper() == "DELETE" else ""
-    exm = ' · <span class="exm">exemplary</span>' if (e["exemplary"] or "") == "x" else ""
-    if not e["public"]:  # original marks these '(provisional)' in red on the heading
-        exm += (
-            ' · <span class="prov" title="This etymon is provisional and should not be considered'
-            ' an official STEDT reconstruction.">provisional</span>'
-        )
+    # original marks provisional etyma '(provisional)' in red on the heading
+    exm = etymon_flags(e["exemplary"], e["public"],
+                       prov_title="This etymon is provisional and should not be considered"
+                       " an official STEDT reconstruction.")
 
     cite_text = f"STEDT etymon #{e['tag']}, *{alt(e['protoform'])} ‘{e['protogloss']}’. " + cite_tail(
         f"{CITE_BASE}/etymon/{e['tag']}"

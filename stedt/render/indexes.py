@@ -9,6 +9,7 @@ from .config import CITE_BASE, PREVIEW, TREE_INDENT_PX
 from .db import ECAT, ETY_LIVE, LEX_VISIBLE, con, reflex_semkey_counts
 from .text import esc, alt, natkey, plural, rcount_txt, rfx_noun, sortkey
 from .notes import footnotes_block, render_note
+from .rows import etymon_flags
 from .shell import page, breadcrumb, reflex_counts, canon_lgid, etymon_href, source_reference
 from .templating import env
 
@@ -287,7 +288,7 @@ def thesaurus(semkey=None):
                 # read as emphasis it didn't mean
                 "ti": Markup(f'<span class="ti{" d0" if depth == 0 else ""}">{esc(title)}</span>'),
                 "ct": Markup(
-                    (f'<span class="nnote">{nn} note{"" if nn == 1 else "s"}</span>' if nn else "")
+                    (f'<span class="nnote">{nn} {plural(nn, "note")}</span>' if nn else "")
                     + (
                         f'<span class="ct" title="reconstructions / reflexes">{cnt:,} / {lcnt:,}</span>'
                         if (cnt or lcnt)
@@ -394,8 +395,7 @@ def thesaurus(semkey=None):
                     # root (1 / 1.1 / 1.2 …) — the order the list is already sorted by
                     (f'<span class="seqn">{seq_disp(e["sequence"])}</span> · ' if seq_disp(e["sequence"]) else "")
                     + f'{esc(e["plg"])} #{e["tag"]}{rcount_txt(dcounts.get(e["tag"], 0))}'
-                    + (' · <span class="exm">exemplary</span>' if (e["exemplary"] or "") == "x" else "")
-                    + ("" if e["public"] else ' · <span class="prov">provisional</span>')
+                    + etymon_flags(e["exemplary"], e["public"])
                 ),
             }
             for e in direct
