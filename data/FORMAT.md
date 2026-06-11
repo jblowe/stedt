@@ -63,3 +63,23 @@ Because `tag` is a sequential key, two PRs adding etyma in parallel can independ
 same number, so `main` requires a PR to be **up to date before merging**: the second PR then
 re-runs `stedt validate` against the merged state, where a duplicate `tag` is an ERROR — bump it
 and re-push.
+
+### Adding a whole source: `stedt new-source`
+
+A new wordlist never edits these files by hand. `stedt new-source --template` writes the
+contributor fill-in files (`wordlist-template.tsv` / `.xlsx` — columns `language?, reflex,
+gloss, gfn?, semkey?, page?, note?, source_note?`; the xlsx documents each column on a second
+sheet). The template deliberately omits everything machine-assigned or editorial: `rn`, `lgid`,
+the `original*` twins, workflow columns, and `analysis`/`semkey` placement, which is editor work.
+
+`stedt new-source <file>` (`.tsv`, `.csv`, or `.xlsx` — needs `pip install stedt[xlsx]` for
+Excel) then walks the projection: bibliography prompts → language placement → fresh `rn`s →
+the folder → `stedt validate`. Language entries are **per-source** (every `lgid` in the corpus
+is used by exactly one source; `languages.source` names it), so the wizard always appends new
+`languages.tsv` rows for the source, placing them by same-name precedent and prompting only
+when precedent is absent or split.
+
+`rn` follows the same parallel-PR rule as `tag`, with a mechanical fix: the contributor file
+stays the source of truth, and re-running `stedt new-source --force` against an up-to-date
+`main` regenerates the folder with fresh non-colliding `rn`s (a re-run with no upstream change
+reallocates the *same* `rn`s, so diffs stay stable).
