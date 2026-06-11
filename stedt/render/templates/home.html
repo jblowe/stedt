@@ -10,12 +10,14 @@
         </form>
         <div class="drop" id="drop" role="listbox" aria-label="Suggestions"></div>
       </div>
+      {# browse links live in the masthead — repeating them here was noise. What earns the
+         front page: a runnable query and a representative entry. #}
       <div class="entry">
-        <a href="/thesaurus">Browse by meaning</a>
-        <a href="/reconstructions">All reconstructions</a>
-        <a href="/languages">Languages</a>
-        <a href="/sources">Sources</a>
+        <a href="/search?q=ladder">Try a search: <code>ladder</code></a>
         <a href="/etymon/260">A sample entry: *m-gam ‘ladder’</a>
+      </div>
+      <div class="cap qhint">
+        {% include "_qref.html" %}
       </div>
     </div>
     <script type="module" src="/assets/home.js"></script>

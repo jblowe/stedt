@@ -9,22 +9,7 @@
       {# the invitation is the disclosure line alone — a bare example query under the input read
          as an APPLIED filter (that's where other UIs show active filters); it lives inside now #}
       <div class="cap qhint">
-        <details class="qref">
-          <summary>Search syntax &amp; examples</summary>
-          <p>Plain words match forms, meanings, and language names. Commas separate alternatives (<a href="?q=frog%2C%20snail"><code>frog, snail</code></a>). Quote a value containing spaces. Narrow one axis with <code>field:value</code> — fields combine: try <a href="?q=gloss%3Adog%20subgroup%3AKiranti"><code>gloss:dog subgroup:Kiranti</code></a>; repeating a field requires both at once (<a href="?q=gloss%3Abody%20gloss%3Ahair"><code>gloss:body gloss:hair</code></a>). Every example below is runnable:</p>
-          <dl class="qfields">
-            <dt><a href="?q=gloss%3Ahand"><code>gloss:hand</code></a></dt><dd>the meaning</dd>
-            <dt><a href="?q=form%3Amruk"><code>form:mruk</code></a></dt><dd>the form itself</dd>
-            <dt><a href="?q=language%3ALotha%20gloss%3Ahit"><code>language:Lotha</code></a></dt><dd>the language name</dd>
-            <dt><a href="?q=gloss%3Afire%20subgroup%3A%22Central%20Loloish%22"><code>subgroup:"Central Loloish"</code></a></dt><dd>a Stammbaum subtree by name, abbreviation (<code>PKC</code>), or number (<code>2.3</code>)</dd>
-            <dt><a href="?q=group%3AKuki-Chin"><code>group:Kuki-Chin</code></a></dt><dd>exactly that group, none of the subgroups beneath it (same keys, matched whole)</dd>
-            <dt><a href="?q=source%3ATBL%20gloss%3Adog"><code>source:TBL</code></a></dt><dd>records from matching sources (abbreviation or author/title)</dd>
-            <dt><a href="?q=gloss%3Afly%20pos%3Av"><code>pos:v</code></a></dt><dd>part of speech (<code>v</code>, <code>n</code>, <code>adj</code>…)</dd>
-            <dt><a href="?q=pform%3Alak"><code>pform:lak</code></a></dt><dd>a reconstruction&#x27;s form</dd>
-            <dt><a href="?q=pgloss%3Ahand"><code>pgloss:hand</code></a></dt><dd>a reconstruction&#x27;s meaning</dd>
-            <dt><a href="?q=tag%3A695%20subgroup%3AKiranti"><code>tag:695</code></a></dt><dd>forms tagged to etymon #695</dd>
-          </dl>
-        </details>
+        {% include "_qref.html" %}
       </div>
       <h1 id="srh">Search</h1>
       <div id="srsub" class="sub" role="status"></div>
