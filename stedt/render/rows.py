@@ -1,7 +1,8 @@
 """Shared row fragments used by more than one entity page — the server-side counterpart of
 web/src/rows.js (the client renders the same row shapes)."""
 
-from .shell import etymon_href
+from .notes import note_span
+from .shell import etymon_href, source_href
 from .syllabify import syllabify
 from .text import esc, alt, seq_label
 
@@ -97,3 +98,26 @@ def disp_form(s):
 def lgab_span(lgabbr):
     """The language-abbreviation chip (leading space + <span class="lgab">), or "" when absent."""
     return f' <span class="lgab">{esc(lgabbr)}</span>' if lgabbr else ""
+
+
+def noted_gloss(rn, gloss, notes):
+    """SYNC(reflex-row) ↔ web/src/rows.js reflexRow — the gloss cell when the reflex carries
+    lexical notes: the note popover rides on the gloss behind a circled-i. The popover lives
+    INSIDE the inline gloss <span>, so each note renders as an inline note_span (a block <p>
+    here would be invalid markup); aria-describedby ties the notes to the gloss for AT.
+    notes: [(notetype, xmlnote), …] as lexical_notes() returns them."""
+    pop = "".join(note_span(nt, x) for nt, x in notes)
+    return (
+        f'<span class="g noted" tabindex="0" aria-describedby="np{rn}">{esc(gloss)}'
+        f'<span class="notepop" role="note" id="np{rn}">{pop}</span></span>'
+    )
+
+
+def src_cell(srcabbr, citation, srcid):
+    """SYNC(reflex-row) ↔ web/src/rows.js reflexRow — the source cell: the work the form is
+    attested in (citation linked to its source page) + ': locus' (page/entry/note) within it;
+    a record with no source keeps its citation text as a plain span."""
+    loc = f": {esc(srcid)}" if srcid else ""
+    if srcabbr:
+        return f'<a class="src" href="{source_href(srcabbr)}">{esc(citation or srcabbr)}{loc}</a>'
+    return f'<span class="src">{esc(citation or "")}{loc}</span>'

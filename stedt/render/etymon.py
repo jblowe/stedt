@@ -8,10 +8,10 @@ from markupsafe import Markup
 from .config import CITE_BASE, PLG_FULL
 from .db import ETY_LIVE, LEX_VISIBLE, con
 from .text import cite_tail, esc, alt, natkey, seq_label, sortkey
-from .notes import footnotes_block, note_label, render_note
-from .rows import disp_form, syl_form
-from .shell import page, breadcrumb, proto_labels
-from .shell import etymon_href, source_href, language_href, reflex_href
+from .notes import footnotes_block, render_note
+from .rows import disp_form, noted_gloss, src_cell, syl_form
+from .shell import page, breadcrumb, lexical_notes, proto_labels, reflex_links
+from .shell import etymon_href, language_href, reflex_href
 from .templating import env
 
 _ETYMON = env.get_template("etymon.html")
@@ -112,37 +112,15 @@ def etymon(tag):
             toks,
         ):
             labels[r["tag"]] = (r["protoform"], r["protogloss"])
-    # per-reflex morpheme analysis: a reflex (rn) is segmented into morphemes in lx_et_hash,
-    # each tied to an etymon tag (0 = a non-etymon affix). Surface the *other* etyma a reflex
-    # also belongs to (i.e. it's a compound) as links.
+    # per-reflex morpheme analysis: surface the *other* etyma a reflex also belongs to
+    # (i.e. it's a compound) as links, and per-syllable tagging for the linked form.
     rns = [r["rn"] for r in rows]
-    analysis = {}
-    rn_syn, rn_syn_bad = {}, set()
-    for i in range(0, len(rns), 900):
-        chunk = rns[i : i + 900]
-        qm = ",".join("?" * len(chunk))
-        for r in conn.execute(f"SELECT rn, tag, ind FROM lx_et_hash WHERE rn IN ({qm}) ORDER BY rn, ind", chunk):
-            analysis.setdefault(r["rn"], []).append(r["tag"])
-            if r["tag"] and r["tag"] > 0:           # syllable position -> etymon, for per-syllable links
-                byind = rn_syn.setdefault(r["rn"], {})
-                if r["ind"] in byind and byind[r["ind"]] != r["tag"]:
-                    rn_syn_bad.add(r["rn"])
-                else:
-                    byind[r["ind"]] = r["tag"]
+    analysis, rn_syn, rn_syn_bad = reflex_links(conn, rns)
     # protoform + gloss for every etymon tagged on these reflexes (incl. this one), gated to non-DELETE
     # pages: powers the per-syllable popovers (syl_form) and the "also contains" sibling links.
     proto = proto_labels(conn, {t for ts in analysis.values() for t in ts if t and t > 0})
-    # per-reflex (L) notes — the largest note class; legacy shows these as reflex footnotes.
-    lnotes = {}
-    for i in range(0, len(rns), 900):
-        chunk = rns[i : i + 900]
-        qm = ",".join("?" * len(chunk))
-        for r in conn.execute(
-            f"SELECT rn, xmlnote, notetype FROM notes WHERE spec='L' AND notetype!='I' "
-            f"AND xmlnote IS NOT NULL AND rn IN ({qm}) ORDER BY ord, noteid",
-            chunk,
-        ):
-            lnotes.setdefault(r["rn"], []).append((r["notetype"], r["xmlnote"]))
+    # per-reflex (L) notes; legacy shows these as reflex footnotes.
+    lnotes = lexical_notes(conn, rns)
     ecat = e["chapter"] or e["semkey"]  # legacy files an etymon by its (more specific) chapter, not semkey
     crumb = breadcrumb(conn, ecat)
     conn.close()
@@ -194,13 +172,9 @@ def etymon(tag):
         # fields/order/classes/roles/links identical to the client one.
         for r in items:
             if lnotes.get(r["rn"]):
-                # a lexical note rides on the gloss behind a circled-i (like the language/search/thesaurus
-                # views); show the gloss even when it matches the protogloss so the icon has its anchor
-                pop = "".join('<span class="np">' + note_label(nt)
-                              + render_note(x).replace('<p class="np">', "").replace("</p>", "")
-                              + "</span>" for nt, x in lnotes[r["rn"]])
-                g = (f'<span class="g noted" tabindex="0" aria-describedby="np{r["rn"]}">{esc(r["gloss"] or e["protogloss"])}'
-                     f'<span class="notepop" role="note" id="np{r["rn"]}">{pop}</span></span>')
+                # show the gloss even when it matches the protogloss (which the branch below
+                # suppresses) so the note icon has its anchor
+                g = noted_gloss(r["rn"], r["gloss"] or e["protogloss"], lnotes[r["rn"]])
             elif r["gloss"] and r["gloss"] != e["protogloss"]:
                 g = f'<span class="g">{esc(r["gloss"])}</span>'
             else:
@@ -209,11 +183,7 @@ def etymon(tag):
                 g = ""
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r["gfn"] else ""
             lang = f'<a class="lang" href="{language_href(r["lgid"])}">{esc(r["language"])}</a>'
-            loc = f': {esc(r["srcid"])}' if r["srcid"] else ""  # per-reflex source locus (page/entry/note)
-            if r["srcabbr"]:
-                src = f'<a class="src" href="{source_href(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
-            else:
-                src = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
+            src = src_cell(r["srcabbr"], r["citation"], r["srcid"])
             # every analyzed reflex marks the syllable that IS this etymon (bold via .syl-self) and
             # links sibling-etymon syllables (popover preview). Marking used to be suppressed when
             # there was no sibling, but an identical form marked in one row and plain in the next

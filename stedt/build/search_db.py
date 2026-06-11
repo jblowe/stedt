@@ -221,16 +221,15 @@ def main():
     # one inline <span class="np"> (matching the entity-page popover markup); the client (rows.js
     # reflexRow) injects it as HTML and rebases the root-relative /etymon links to the page base.
     # Display only, NOT added to the FTS index (notes are shown, not searched). ~2.7K notes.
-    from stedt.render.notes import note_label, render_note
+    from stedt.render.notes import note_span, render_note_inline
 
     by_rn = {}
     for rn, xml, nt in db.execute("""SELECT rn, xmlnote, notetype FROM src.notes
             WHERE spec='L' AND notetype!='I' AND xmlnote IS NOT NULL AND rn IS NOT NULL
             AND rn IN (SELECT rn FROM lexicon)
             ORDER BY rn, ord, noteid"""):
-        h = render_note(xml).replace('<p class="np">', "").replace("</p>", "")
-        if h.strip():
-            by_rn.setdefault(rn, []).append('<span class="np">' + note_label(nt) + h + "</span>")
+        if render_note_inline(xml).strip():  # a note rendering to no text never bakes an empty span
+            by_rn.setdefault(rn, []).append(note_span(nt, xml))
     db.executemany("INSERT INTO lxnote(rn, note) VALUES(?,?)", [(rn, "".join(v)) for rn, v in by_rn.items()])
 
     # FTS5 over reflex form/gloss/language. CONTENTLESS (content='') so the index doesn't

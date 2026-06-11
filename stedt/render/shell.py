@@ -137,6 +137,40 @@ def proto_labels(conn, tags):
     return out
 
 
+def reflex_links(conn, rns):
+    """Per-reflex morpheme analysis from lx_et_hash for a page's reflex set, three views:
+    - tags_by_rn {rn: [tag, …]} in morpheme order, every slot kept (0 = a non-etymon affix;
+      callers filter) — feeds the "also contains"/via chips;
+    - syn_by_rn {rn: {syllable position: tag}} — feeds the per-syllable links (rows.syl_form);
+    - ambiguous: rns where one position is claimed by two different etyma — those reflexes
+      drop to the plain form + trailing-chip fallback.
+    The client derives the same maps for search rows (web/src/search.js byInd -> rows.js sylLink)."""
+    tags_by_rn, syn_by_rn, ambiguous = {}, {}, set()
+    for r in chunked_in(conn, "SELECT rn, tag, ind FROM lx_et_hash WHERE rn IN ({qm}) ORDER BY rn, ind", rns):
+        tags_by_rn.setdefault(r["rn"], []).append(r["tag"])
+        if r["tag"] and r["tag"] > 0:
+            byind = syn_by_rn.setdefault(r["rn"], {})
+            if r["ind"] in byind and byind[r["ind"]] != r["tag"]:
+                ambiguous.add(r["rn"])
+            else:
+                byind[r["ind"]] = r["tag"]
+    return tags_by_rn, syn_by_rn, ambiguous
+
+
+def lexical_notes(conn, rns):
+    """{rn: [(notetype, xmlnote), …]} — the per-reflex (L) notes, the largest note class; the
+    entity pages show them as gloss popovers (internal 'I' notes excluded), in ord/noteid order."""
+    out = {}
+    for r in chunked_in(
+        conn,
+        "SELECT rn, xmlnote, notetype FROM notes WHERE spec='L' AND notetype!='I' "
+        "AND xmlnote IS NOT NULL AND rn IN ({qm}) ORDER BY ord, noteid",
+        rns,
+    ):
+        out.setdefault(r["rn"], []).append((r["notetype"], r["xmlnote"]))
+    return out
+
+
 def source_reference(s):
     """A source's full reference: 'Author. Year. Title. Imprint' — the ONE formatter shared by the
     sources index, the source page's reference line, and its copy-citation, so the imprint/venue can't

@@ -4,9 +4,8 @@ from markupsafe import Markup
 
 from .db import LEX_VISIBLE, con
 from .text import esc, alt, natkey, iso_link, rfx_noun
-from .notes import note_label, render_note
-from .rows import disp_form, syl_form, lgab_span
-from .shell import page, group_lineage, proto_labels, canonical_languages
+from .rows import disp_form, lgab_span, noted_gloss, src_cell, syl_form
+from .shell import page, group_lineage, lexical_notes, proto_labels, reflex_links, canonical_languages
 from .shell import etymon_href, source_href, language_href
 from .templating import env
 
@@ -37,34 +36,13 @@ def language(lgid):
     total = len(rows)
     chap = {r["semkey"]: r["chaptertitle"] for r in conn.execute("SELECT semkey,chaptertitle FROM chapters")}
     lin = group_lineage(conn, grp["grpno"]) if grp else []
-    # a reflex can belong to several etyma (polymorphemic); collect all, ordered by morpheme. We also
-    # keep ind (syllable position) so a tagged syllable can link to its own etymon — same as search
-    # (web/src/search.js byInd -> rows.js sylLink). rn_syn[rn] = {ind: tag}; a position tagged with two
-    # different etyma is ambiguous, so that reflex drops to the flat trailing-chip fallback.
-    rn_tags, rn_syn, rn_syn_bad = {}, {}, set()
+    # a reflex can belong to several etyma (polymorphemic) — rn_tags collects all, ordered by
+    # morpheme; rn_syn lets each tagged syllable link to its own etymon (same as search).
     rns = [r["rn"] for r in rows]
-    for i in range(0, len(rns), 900):
-        chunk = rns[i : i + 900]
-        qmk = ",".join("?" * len(chunk))
-        for hr in conn.execute(f"SELECT rn, tag, ind FROM lx_et_hash WHERE tag>0 AND rn IN ({qmk}) ORDER BY rn, ind", chunk):
-            rn_tags.setdefault(hr["rn"], []).append(hr["tag"])
-            byind = rn_syn.setdefault(hr["rn"], {})
-            if hr["ind"] in byind and byind[hr["ind"]] != hr["tag"]:
-                rn_syn_bad.add(hr["rn"])
-            else:
-                byind[hr["ind"]] = hr["tag"]
-    plabels = proto_labels(conn, {t for ts in rn_tags.values() for t in ts})
+    rn_tags, rn_syn, rn_syn_bad = reflex_links(conn, rns)
+    plabels = proto_labels(conn, {t for ts in rn_tags.values() for t in ts if t and t > 0})
     # lexical notes per reflex (same set the etymon page shows), revealed on hover on the gloss
-    lnotes = {}
-    for i in range(0, len(rns), 900):
-        chunk = rns[i : i + 900]
-        qmk = ",".join("?" * len(chunk))
-        for nr in conn.execute(
-            f"SELECT rn, xmlnote, notetype FROM notes WHERE spec='L' AND notetype!='I' "
-            f"AND xmlnote IS NOT NULL AND rn IN ({qmk}) ORDER BY ord, noteid",
-            chunk,
-        ):
-            lnotes.setdefault(nr["rn"], []).append((nr["notetype"], nr["xmlnote"]))
+    lnotes = lexical_notes(conn, rns)
     # a lect's ISO / short-name / Namkung page may live on a source-variant sibling, not the
     # canonical lgid; back-fill from any sibling so the lect's own page shows them (group() too).
     # ISO keeps EVERY distinct sibling code (6 lects' sources disagree, e.g. Tujia tji/tjs) —
@@ -190,24 +168,9 @@ def language(lgid):
             # syllable-linked or etymon-less rows have none.
             via = f'<span class="vias">{" ".join(vias)}</span>' if vias else ""
             # each row shows the source it is attested in (the work) + the locus within it
-            loc = f': {esc(r["srcid"])}' if r["srcid"] else ""
-            if r["srcabbr"]:
-                src = f'<a class="src" href="{source_href(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
-            else:
-                src = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
+            src = src_cell(r["srcabbr"], r["citation"], r["srcid"])
             if lnotes.get(r["rn"]):
-                # the popover lives inside the inline gloss <span>, so render each note as an inline
-                # <span class="np"> (not render_note's block <p>) — valid markup + cleanly separable
-                pop = "".join(
-                    '<span class="np">' + note_label(nt)
-                    + render_note(x).replace('<p class="np">', "").replace("</p>", "") + "</span>"
-                    for nt, x in lnotes[r["rn"]]
-                )
-                gl = (
-                    # aria-describedby ties the note to the gloss for AT (SYNC(reflex-row) twins)
-                    f'<span class="g noted" tabindex="0" aria-describedby="np{r["rn"]}">{esc(r["gloss"])}'
-                    f'<span class="notepop" role="note" id="np{r["rn"]}">{pop}</span></span>'
-                )
+                gl = noted_gloss(r["rn"], r["gloss"], lnotes[r["rn"]])
             else:
                 gl = f'<span class="g">{esc(r["gloss"])}</span>'
             rfx.append(

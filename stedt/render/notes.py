@@ -80,7 +80,7 @@ def render_note(x, footnotes=None):
 
         def _foot(m):
             n = len(footnotes) + 1
-            footnotes.append(render_note(m.group(1)).replace('<p class="np">', "").replace("</p>", ""))
+            footnotes.append(render_note_inline(m.group(1)))
             return f"\x02{n}\x03"
 
         s = re.sub(r"<footnote>(.*?)</footnote>", _foot, s, flags=re.S)
@@ -152,6 +152,19 @@ def render_note(x, footnotes=None):
     if "<p" not in s:
         s = f'<p class="np">{s}</p>'
     return s
+
+
+def render_note_inline(x):
+    """render_note minus its block <p class="np"> wrapper — for contexts where the note rides
+    inside inline markup (gloss popovers, footnote bodies, the baked search-DB notes) and a
+    nested <p> would be invalid."""
+    return render_note(x).replace('<p class="np">', "").replace("</p>", "")
+
+
+def note_span(notetype, xmlnote):
+    """One reflex-level note as a single inline <span class="np"> — provenance label + body,
+    the unit the gloss popovers and the search DB's baked lxnote rows are assembled from."""
+    return '<span class="np">' + note_label(notetype) + render_note_inline(xmlnote) + "</span>"
 
 
 def footnotes_block(footnotes):
