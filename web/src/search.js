@@ -250,11 +250,12 @@ const reflexLikeCountSql = (groups) => `
 // ---- fielded syntax: a `field:value` term narrows one axis --------------------------------
 // form:/gloss:/language: filter that FTS column; subgroup: restricts every result type to a
 // Stammbaum subtree (matched by group name, plg abbreviation, or grpno — descendants included);
+// group: is the strict variant — exactly one node (name/plg/grpno equality, no descendants);
 // pform:/pgloss: target a reconstruction's form/gloss (the p- prefix pairs them). Bare terms keep
 // matching anywhere, all terms AND. (Documented by the expandable 'Search syntax' reference under
 // the box — keep in step.)
 const FIELDS = { form: 'form', reflex: 'form', gloss: 'gloss', language: 'language', lg: 'language',
-                 subgroup: 'subgroup', group: 'subgroup', pform: 'proto', proto: 'proto', pgloss: 'pgloss',
+                 subgroup: 'subgroup', group: 'group', pform: 'proto', proto: 'proto', pgloss: 'pgloss',
                  source: 'source', src: 'source', pos: 'pos', tag: 'tag', etymon: 'tag' };
 // tokenizer: a value with spaces takes quotes — subgroup:"Central Loloish", language:"Lotha Naga".
 // (Unquoted, the space ends the value and the rest becomes bare terms.)
@@ -266,7 +267,7 @@ const _fieldOf = (w) => {
 };
 const hasFields = (s) => _qtoks(s).some((w) => _fieldOf(w));
 const parseFields = (s) => {
-  const q = { cols: [], bare: [], subgroup: [], proto: [], pgloss: [], source: [], pos: [], tag: [] };
+  const q = { cols: [], bare: [], subgroup: [], group: [], proto: [], pgloss: [], source: [], pos: [], tag: [] };
   for (const raw of _qtoks(s)) {
     const f = _fieldOf(raw);
     if (!f) { q.bare.push(_unq(raw)); continue; }
@@ -279,21 +280,30 @@ const parseFields = (s) => {
   return q;
 };
 
-// subgroup: terms -> grpid list. Match a term against group name (substring), plg abbr, or
-// grpno, then take the whole subtree by grpno prefix; several subgroup: terms intersect.
+// subgroup:/group: terms -> grpid list. subgroup: matches a term against group name (substring),
+// plg abbr, or grpno, then takes the whole subtree by grpno prefix; group: is strict — name/plg/
+// grpno EQUALITY pins exactly one node, no descendants (substring would quietly re-admit
+// 'Western Kiranti' under group:Kiranti, the very thing strict exists to exclude). All terms
+// intersect, across both fields.
 let _groupsCache = null;
-const subgroupGrpids = (db, terms) => {
+const subgroupGrpids = (db, terms, exactTerms = []) => {
   if (!_groupsCache) _groupsCache = run(db, 'SELECT grpid, grpno, grp, plg FROM languagegroups');
   let ids = null;
-  for (const t of terms) {
+  for (const [t, exact] of [...terms.map((t) => [t, false]), ...exactTerms.map((t) => [t, true])]) {
     const tl = t.toLowerCase();
-    const pref = _groupsCache
-      .filter((g) => (g.grp || '').toLowerCase().includes(tl) || (g.plg || '').toLowerCase() === tl || String(g.grpno) === t)
-      .map((g) => String(g.grpno));
     const set = new Set();
-    for (const g of _groupsCache) {
-      const no = String(g.grpno || '');
-      if (pref.some((p) => no === p || no.startsWith(p + '.'))) set.add(g.grpid);
+    if (exact) {
+      for (const g of _groupsCache) {
+        if ((g.grp || '').toLowerCase() === tl || (g.plg || '').toLowerCase() === tl || String(g.grpno) === t) set.add(g.grpid);
+      }
+    } else {
+      const pref = _groupsCache
+        .filter((g) => (g.grp || '').toLowerCase().includes(tl) || (g.plg || '').toLowerCase() === tl || String(g.grpno) === t)
+        .map((g) => String(g.grpno));
+      for (const g of _groupsCache) {
+        const no = String(g.grpno || '');
+        if (pref.some((p) => no === p || no.startsWith(p + '.'))) set.add(g.grpid);
+      }
     }
     ids = ids === null ? set : new Set([...ids].filter((x) => set.has(x)));
   }
@@ -366,11 +376,11 @@ const sortkey = (s) => (s || '').normalize('NFD').replace(/\p{M}+/gu, '').toLowe
 // form:-only query shows no Reconstructions section instead of a misleading zero-match scan).
 function fieldedSearch(db, qe, lim) {
   const q = parseFields(qe);
-  const grpids = q.subgroup.length ? subgroupGrpids(db, q.subgroup) : null;
+  const grpids = (q.subgroup.length || q.group.length) ? subgroupGrpids(db, q.subgroup, q.group) : null;
   const srcs = q.source.length ? sourceAbbrs(db, q.source) : null;
   const inner = lim < 0 ? -1 : lim + 40;
   const out = { etyma: [], etymaTotal: 0, reflexes: [], reflexTotal: 0, languages: [], languageTotal: 0 };
-  if (q.subgroup.length && !(grpids && grpids.length)) return out;  // no such subgroup: honest empty
+  if (grpids && !grpids.length) return out;  // no such subgroup/group: honest empty
   if (q.source.length && !(srcs && srcs.length)) return out;        // no such source: honest empty
 
   // reflexes — bare + column terms feed one FTS MATCH; subgroup/source/pos/tag restrict in SQL
