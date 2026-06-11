@@ -235,84 +235,91 @@ def _with_orphans(conn, node, keys):
 
 
 def thesaurus(semkey=None):
-    conn = con()
-    if semkey is None:
-        nodes = conn.execute("SELECT semkey, chaptertitle FROM chapters WHERE coalesce(semkey,'')!=''").fetchall()
-        SPECIAL = {"999", "950.1", "x.x"}
-        scounts = reflex_semkey_counts()  # exact per-semkey reflex counts (proto-excluded)
-        # chapters carrying prose notes get a marker (the original's browser has a notes column).
-        # Count only notes that RENDER to text — the chapter page drops empty '<par></par>'
-        # graphical notes, and the index promising '1 note' above an empty page reads as broken.
-        nnotes = {}
-        for cid, xml in conn.execute(
-            "SELECT id, xmlnote FROM notes WHERE spec='C' AND notetype!='I' AND xmlnote IS NOT NULL"
-        ):
-            if re.sub(r"<[^>]+>", "", render_note(xml)).strip():
-                nnotes[cid] = nnotes.get(cid, 0) + 1
-        tree = []
-        for n in nodes:
-            sk = n["semkey"]
-            if sk in SPECIAL:
-                continue
-            if sk.endswith(".0") and sk.count(".") == 1:
-                disp, depth = sk.split(".")[0], 0
-            else:
-                disp, depth = sk, sk.count(".")
-            # both counts are exact (this node only, NOT the subtree): an integer root N also
-            # owns its N.0 overview key. Reconstructions and reflexes are mostly filed at leaves,
-            # so upper nodes read small/zero - that's intended (each item counted once, at home).
-            own_n = _with_orphans(conn, disp, [disp, disp + ".0"] if "." not in disp else [disp])
-            ph = ",".join("?" * len(own_n))
-            cnt = conn.execute(
-                f"SELECT count(*) FROM etyma e WHERE {ETY_LIVE} AND {ECAT} IN ({ph})",
-                own_n,
-            ).fetchone()[0]
-            lcnt = sum(scounts.get(k, 0) for k in own_n)
-            nn = sum(nnotes.get(k, 0) for k in own_n)
-            tree.append((disp, depth, n["chaptertitle"], cnt, lcnt, nn))
-        tree.sort(key=lambda r: natkey(r[0]))
-        conn.close()
-        # the volumes (depth-0 roots) double as a TOC: the tree is ~830 rows, and jumping
-        # between volumes by scroll alone was the chapter browser's worst ergonomics
-        volumes = [(disp, title) for disp, depth, title, *_ in tree if depth == 0]
-        treeinfo = [
-            {
-                "pad": depth * TREE_INDENT_PX,
-                "vol": disp if depth == 0 else None,   # anchor id for the volumes TOC
-                "disp": disp,
-                "disp_esc": Markup(esc(disp)),
-                "cnt": cnt,
-                "lcnt": lcnt,
-                # depth-0 roots get a CLASS (not inline weight) so the sorted/flattened view
-                # can neutralize it — a by-count ranking mixing bold roots with plain leaves
-                # read as emphasis it didn't mean
-                "ti": Markup(f'<span class="ti{" d0" if depth == 0 else ""}">{esc(title)}</span>'),
-                "ct": Markup(
-                    (f'<span class="nnote">{nn} {plural(nn, "note")}</span>' if nn else "")
-                    + (
-                        f'<span class="ct" title="reconstructions / reflexes">{cnt:,} / {lcnt:,}</span>'
-                        if (cnt or lcnt)
-                        else ""
-                    )
-                ),
-            }
-            for disp, depth, title, cnt, lcnt, nn in tree
-        ]
-        # metabar totals sum the per-node counts above, so the header agrees with the tree it
-        # heads (SPECIAL filing keys stay excluded here as they are from the tree)
-        return page(
-            "Thesaurus",
-            _THESAURUS.render(
-                root=True,
-                volumes=[{"k": esc(d), "ti": esc(t)} for d, t in volumes],
-                tree=treeinfo,
-                nnodes=f"{len(tree):,}",
-                ncnt=f"{sum(t[3] for t in tree):,}",
-                nlcnt=f"{sum(t[4] for t in tree):,}",
-            ),
-            nav="thesaurus",
-        )
+    """Two pages share the template: the full chapter tree (no semkey) and one node's page."""
+    return _thesaurus_index() if semkey is None else _thesaurus_node(semkey)
 
+
+def _thesaurus_index():
+    conn = con()
+    nodes = conn.execute("SELECT semkey, chaptertitle FROM chapters WHERE coalesce(semkey,'')!=''").fetchall()
+    SPECIAL = {"999", "950.1", "x.x"}
+    scounts = reflex_semkey_counts()  # exact per-semkey reflex counts (proto-excluded)
+    # chapters carrying prose notes get a marker (the original's browser has a notes column).
+    # Count only notes that RENDER to text — the chapter page drops empty '<par></par>'
+    # graphical notes, and the index promising '1 note' above an empty page reads as broken.
+    nnotes = {}
+    for cid, xml in conn.execute(
+        "SELECT id, xmlnote FROM notes WHERE spec='C' AND notetype!='I' AND xmlnote IS NOT NULL"
+    ):
+        if re.sub(r"<[^>]+>", "", render_note(xml)).strip():
+            nnotes[cid] = nnotes.get(cid, 0) + 1
+    tree = []
+    for n in nodes:
+        sk = n["semkey"]
+        if sk in SPECIAL:
+            continue
+        if sk.endswith(".0") and sk.count(".") == 1:
+            disp, depth = sk.split(".")[0], 0
+        else:
+            disp, depth = sk, sk.count(".")
+        # both counts are exact (this node only, NOT the subtree): an integer root N also
+        # owns its N.0 overview key. Reconstructions and reflexes are mostly filed at leaves,
+        # so upper nodes read small/zero - that's intended (each item counted once, at home).
+        own_n = _with_orphans(conn, disp, [disp, disp + ".0"] if "." not in disp else [disp])
+        ph = ",".join("?" * len(own_n))
+        cnt = conn.execute(
+            f"SELECT count(*) FROM etyma e WHERE {ETY_LIVE} AND {ECAT} IN ({ph})",
+            own_n,
+        ).fetchone()[0]
+        lcnt = sum(scounts.get(k, 0) for k in own_n)
+        nn = sum(nnotes.get(k, 0) for k in own_n)
+        tree.append((disp, depth, n["chaptertitle"], cnt, lcnt, nn))
+    tree.sort(key=lambda r: natkey(r[0]))
+    conn.close()
+    # the volumes (depth-0 roots) double as a TOC: the tree is ~830 rows, and jumping
+    # between volumes by scroll alone was the chapter browser's worst ergonomics
+    volumes = [(disp, title) for disp, depth, title, *_ in tree if depth == 0]
+    treeinfo = [
+        {
+            "pad": depth * TREE_INDENT_PX,
+            "vol": disp if depth == 0 else None,   # anchor id for the volumes TOC
+            "disp": disp,
+            "disp_esc": Markup(esc(disp)),
+            "cnt": cnt,
+            "lcnt": lcnt,
+            # depth-0 roots get a CLASS (not inline weight) so the sorted/flattened view
+            # can neutralize it — a by-count ranking mixing bold roots with plain leaves
+            # read as emphasis it didn't mean
+            "ti": Markup(f'<span class="ti{" d0" if depth == 0 else ""}">{esc(title)}</span>'),
+            "ct": Markup(
+                (f'<span class="nnote">{nn} {plural(nn, "note")}</span>' if nn else "")
+                + (
+                    f'<span class="ct" title="reconstructions / reflexes">{cnt:,} / {lcnt:,}</span>'
+                    if (cnt or lcnt)
+                    else ""
+                )
+            ),
+        }
+        for disp, depth, title, cnt, lcnt, nn in tree
+    ]
+    # metabar totals sum the per-node counts above, so the header agrees with the tree it
+    # heads (SPECIAL filing keys stay excluded here as they are from the tree)
+    return page(
+        "Thesaurus",
+        _THESAURUS.render(
+            root=True,
+            volumes=[{"k": esc(d), "ti": esc(t)} for d, t in volumes],
+            tree=treeinfo,
+            nnodes=f"{len(tree):,}",
+            ncnt=f"{sum(t[3] for t in tree):,}",
+            nlcnt=f"{sum(t[4] for t in tree):,}",
+        ),
+        nav="thesaurus",
+    )
+
+
+def _thesaurus_node(semkey):
+    conn = con()
     # The integer node N and the chapter N.0 are the same category-overview node; treat
     # /thesaurus/N.0 as an alias of /thesaurus/N so it doesn't render an empty, self-referential page.
     if re.fullmatch(r"\d+\.0", semkey):
