@@ -15,5 +15,9 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install .
-      - name: Validate data/ integrity
+      # the render-invariant section of validate needs the compiled DB; building it
+      # here makes this workflow assert the same contract the deploy gate does
+      - name: Compile data/ into stedt.sqlite
+        run: stedt build db
+      - name: Validate data/ integrity + render invariants
         run: stedt validate

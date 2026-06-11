@@ -181,6 +181,20 @@ def setup():
 
 
 # ───────────────────────────── dev ─────────────────────────────
+@dev_app.command("parity")
+def dev_parity():
+    """Diff the modern pages against the /_legacy/ mirror (the rendering oracle);
+    non-zero exit on any divergence outside the documented whitelist."""
+    _run("stedt.dev.parity")
+
+
+@dev_app.command("search-battery")
+def dev_search_battery():
+    """Assert the documented search idioms (token match, comma-OR, field filters,
+    CJK fallback, subgroup subtrees) over the built search.sqlite3."""
+    _run("stedt.dev.search_battery")
+
+
 @snapshot_app.command("build")
 def snapshot_build(
     directory: str = typer.Argument(..., help="Snapshot output directory."),
