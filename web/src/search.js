@@ -411,13 +411,17 @@ function fieldedSearch(db, qe, lim) {
   if (grpids && !grpids.length) return out;  // no such subgroup/group: honest empty
   if (q.source.length && !(srcs && srcs.length)) return out;        // no such source: honest empty
 
-  // reflexes — bare + column terms feed one FTS MATCH; subgroup/source/pos/tag restrict in SQL
+  // reflexes — bare + column terms feed one FTS MATCH; subgroup/source/pos/tag restrict in SQL.
+  // pform:/pgloss: say nothing about reflexes, so when they're the only company subgroup: keeps,
+  // the reflex scan stays off — otherwise 'pgloss:water subgroup:Loloish' would bury its honest
+  // zero reconstructions under the whole subtree's lexicon (87k rows).
   const ftsTerms = [...q.bare.flatMap(ftsTok).map((t) => '"' + t + '"'), ...q.cols];
   const m = ftsTerms.length ? ftsTerms.join(' ') : null;
   const x = { ng: grpids ? grpids.length : 0, ns: srcs ? srcs.length : 0, np: q.pos.length, nt: q.tag.length };
   const ng = x.ng;
+  const etymaOnly = q.proto.length || q.pgloss.length;
   const xp = [...(grpids || []), ...(srcs || []), ...q.pos.map((t) => t + '%'), ...q.tag];
-  if (m || ng || x.ns || x.np || x.nt) {
+  if (m || x.ns || x.np || x.nt || (ng && !etymaOnly)) {
     out.reflexTotal = run(db, reflexFieldCountSql(m, x), [...(m ? [m] : []), ...xp])[0].n;
     out.reflexes = run(db, reflexFieldSql(m, x), [...(m ? [m, inner] : []), ...xp, lim]);
     shapeSortReflexes(out.reflexes);
@@ -443,9 +447,10 @@ function fieldedSearch(db, qe, lim) {
   }
 
   // languages — language: terms, or a pure subgroup browse (any other axis means the user is
-  // after records, not a roster: 'tag:695 subgroup:Kiranti' shouldn't list 35 Kiranti lects)
+  // after records, not a roster: 'tag:695 subgroup:Kiranti' shouldn't list 35 Kiranti lects,
+  // and 'pgloss:water subgroup:Loloish' is asking about reconstructions, not for a roster)
   const lterms = q.cols.filter((c) => c.startsWith('language:')).map((c) => c.slice(10, -1));
-  if (lterms.length || (ng && !m && !q.bare.length && !q.tag.length && !q.pos.length && !q.source.length)) {
+  if (lterms.length || (ng && !m && !q.bare.length && !q.tag.length && !q.pos.length && !q.source.length && !etymaOnly)) {
     const rows = run(db, langFieldSql(lterms.length, ng), [...lterms.map((t) => '%' + t + '%'), ...(grpids || [])]);
     const byName = new Map();
     for (const r of rows) {
