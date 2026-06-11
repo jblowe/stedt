@@ -252,13 +252,15 @@ const reflexLikeCountSql = (groups) => `
 // Stammbaum subtree (matched by group name, plg abbreviation, or grpno — descendants included);
 // group: is the strict variant — exactly one node (name/plg/grpno equality, no descendants);
 // pform:/pgloss: target a reconstruction's form/gloss (the p- prefix pairs them). Bare terms keep
-// matching anywhere, all terms AND. (Documented by the expandable 'Search syntax' reference under
-// the box — keep in step.)
+// matching anywhere, all terms AND. Commas INSIDE a value are alternatives — gloss:"frog, snail"
+// is the legacy gloss box's comma idiom, the quotes marking off what would have been typed there.
+// (Documented by the expandable 'Search syntax' reference under the box — keep in step.)
 const FIELDS = { form: 'form', reflex: 'form', gloss: 'gloss', language: 'language', lg: 'language',
                  subgroup: 'subgroup', group: 'group', pform: 'proto', proto: 'proto', pgloss: 'pgloss',
                  source: 'source', src: 'source', pos: 'pos', tag: 'tag', etymon: 'tag' };
 // tokenizer: a value with spaces takes quotes — subgroup:"Central Loloish", language:"Lotha Naga".
-// (Unquoted, the space ends the value and the rest becomes bare terms.)
+// (Unquoted, the space ends the value and the rest becomes bare terms — so an unquoted trailing
+// comma can NOT pull the next word into the field; alternatives only group inside the value.)
 const _qtoks = (s) => s.match(/[A-Za-z]+:"[^"]*"|"[^"]*"|\S+/g) || [];
 const _unq = (v) => (v.length > 1 && v.startsWith('"') && v.endsWith('"')) ? v.slice(1, -1) : v;
 const _fieldOf = (w) => {
@@ -266,43 +268,59 @@ const _fieldOf = (w) => {
   return m && FIELDS[m[1].toLowerCase()] ? [FIELDS[m[1].toLowerCase()], _unq(m[2])] : null;
 };
 const hasFields = (s) => _qtoks(s).some((w) => _fieldOf(w));
+const _alts = (v) => v.split(/[,，]/).map((t) => t.trim()).filter(Boolean);
+// q.bare/lang/subgroup/group/proto/pgloss hold GROUPS (arrays of comma-alternatives, OR within,
+// AND across); source/pos/tag stay flat — they union/OR anyway, a record has only one of each.
+// q.lang carries the language: alternatives' raw tokens for the roster query, which is LIKE-based
+// and can't reuse the FTS strings in q.cols.
 const parseFields = (s) => {
-  const q = { cols: [], bare: [], subgroup: [], group: [], proto: [], pgloss: [], source: [], pos: [], tag: [] };
+  const q = { cols: [], bare: [], lang: [], subgroup: [], group: [], proto: [], pgloss: [], source: [], pos: [], tag: [] };
   for (const raw of _qtoks(s)) {
     const f = _fieldOf(raw);
-    if (!f) { q.bare.push(_unq(raw)); continue; }
-    if (f[0] === 'tag') { const n = parseInt(f[1], 10); if (n > 0) q.tag.push(n); }
-    else if (f[0] !== 'form' && f[0] !== 'gloss' && f[0] !== 'language') q[f[0]].push(f[1]);
-    // a multi-word column value becomes several column-filtered tokens, ANDed — adjacency isn't
-    // expressible anyway (detail=column drops positions), and the tokens must co-occur in the column
-    else for (const t of ftsTok(f[1])) q.cols.push(f[0] + ':"' + t + '"');
+    if (!f) { const g = _alts(_unq(raw)); if (g.length) q.bare.push(g); continue; }
+    const alts = _alts(f[1]);
+    if (f[0] === 'tag') { for (const a of alts) { const n = parseInt(a, 10); if (n > 0) q.tag.push(n); } }
+    else if (f[0] === 'source' || f[0] === 'pos') q[f[0]].push(...alts);
+    else if (f[0] !== 'form' && f[0] !== 'gloss' && f[0] !== 'language') { if (alts.length) q[f[0]].push(alts); }
+    else {
+      // a multi-word alternative becomes several column-filtered tokens, ANDed — adjacency isn't
+      // expressible anyway (detail=column drops positions), and the tokens must co-occur in the
+      // column. Several alternatives become one column-scoped OR group: gloss:("frog" OR "snail").
+      const toks = alts.map((a) => ftsTok(a)).filter((ts) => ts.length);
+      if (!toks.length) continue;
+      if (f[0] === 'language') q.lang.push(toks);
+      if (toks.length === 1) for (const t of toks[0]) q.cols.push(f[0] + ':"' + t + '"');
+      else q.cols.push(f[0] + ':(' + toks.map((ts) => ts.map((t) => '"' + t + '"').join(' ')).join(' OR ') + ')');
+    }
   }
   return q;
 };
 
-// subgroup:/group: terms -> grpid list. subgroup: matches a term against group name (substring),
-// plg abbr, or grpno, then takes the whole subtree by grpno prefix; group: is strict — name/plg/
-// grpno EQUALITY pins exactly one node, no descendants (substring would quietly re-admit
-// 'Western Kiranti' under group:Kiranti, the very thing strict exists to exclude). All terms
-// intersect, across both fields.
+// subgroup:/group: term groups -> grpid list. subgroup: matches a term against group name
+// (substring), plg abbr, or grpno, then takes the whole subtree by grpno prefix; group: is
+// strict — name/plg/grpno EQUALITY pins exactly one node, no descendants (substring would
+// quietly re-admit 'Western Kiranti' under group:Kiranti, the very thing strict exists to
+// exclude). Comma-alternatives within one value union; terms intersect, across both fields.
 let _groupsCache = null;
-const subgroupGrpids = (db, terms, exactTerms = []) => {
+const subgroupGrpids = (db, termGroups, exactGroups = []) => {
   if (!_groupsCache) _groupsCache = run(db, 'SELECT grpid, grpno, grp, plg FROM languagegroups');
   let ids = null;
-  for (const [t, exact] of [...terms.map((t) => [t, false]), ...exactTerms.map((t) => [t, true])]) {
-    const tl = t.toLowerCase();
+  for (const [alts, exact] of [...termGroups.map((g) => [g, false]), ...exactGroups.map((g) => [g, true])]) {
     const set = new Set();
-    if (exact) {
-      for (const g of _groupsCache) {
-        if ((g.grp || '').toLowerCase() === tl || (g.plg || '').toLowerCase() === tl || String(g.grpno) === t) set.add(g.grpid);
-      }
-    } else {
-      const pref = _groupsCache
-        .filter((g) => (g.grp || '').toLowerCase().includes(tl) || (g.plg || '').toLowerCase() === tl || String(g.grpno) === t)
-        .map((g) => String(g.grpno));
-      for (const g of _groupsCache) {
-        const no = String(g.grpno || '');
-        if (pref.some((p) => no === p || no.startsWith(p + '.'))) set.add(g.grpid);
+    for (const t of alts) {
+      const tl = t.toLowerCase();
+      if (exact) {
+        for (const g of _groupsCache) {
+          if ((g.grp || '').toLowerCase() === tl || (g.plg || '').toLowerCase() === tl || String(g.grpno) === t) set.add(g.grpid);
+        }
+      } else {
+        const pref = _groupsCache
+          .filter((g) => (g.grp || '').toLowerCase().includes(tl) || (g.plg || '').toLowerCase() === tl || String(g.grpno) === t)
+          .map((g) => String(g.grpno));
+        for (const g of _groupsCache) {
+          const no = String(g.grpno || '');
+          if (pref.some((p) => no === p || no.startsWith(p + '.'))) set.add(g.grpid);
+        }
       }
     }
     ids = ids === null ? set : new Set([...ids].filter((x) => set.has(x)));
@@ -378,10 +396,10 @@ const etymaFieldSql = (where, count) => `
   FROM etyma e LEFT JOIN languagegroups g ON g.grpid = e.grpid
   WHERE coalesce(upper(e.status), '') != 'DELETE'${where ? ' AND ' + where : ''}
   ${count ? '' : 'ORDER BY e.protogloss LIMIT ?'}`;
-const langFieldSql = (nLang, ng) => `
+const langFieldSql = (langWhere, ng) => `
   SELECT ln.language AS language, ln.lgid AS lgid, count(l.rn) AS n
   FROM languagenames ln JOIN lexicon l ON l.lgid = ln.lgid
-  WHERE ln.language NOT LIKE '*%'${' AND ln.language LIKE ?'.repeat(nLang)}${ng ? ` AND ln.grpid IN (${_ph(ng)})` : ''}
+  WHERE ln.language NOT LIKE '*%'${langWhere ? ' AND ' + langWhere : ''}${ng ? ` AND ln.grpid IN (${_ph(ng)})` : ''}
   GROUP BY ln.lgid`;
 
 // SYNC(grpno-order) ↔ stedt/render/text.py natkey — natural order for a Stammbaum grpno: per
@@ -415,8 +433,14 @@ function fieldedSearch(db, qe, lim) {
   // pform:/pgloss: say nothing about reflexes, so when they're the only company subgroup: keeps,
   // the reflex scan stays off — otherwise 'pgloss:water subgroup:Loloish' would bury its honest
   // zero reconstructions under the whole subtree's lexicon (87k rows).
-  const ftsTerms = [...q.bare.flatMap(ftsTok).map((t) => '"' + t + '"'), ...q.cols];
-  const m = ftsTerms.length ? ftsTerms.join(' ') : null;
+  // Terms join with explicit AND: FTS5 accepts implicit (space) AND between plain tokens but
+  // rejects it next to a parenthesized OR group, which comma-alternatives produce.
+  const bareTerms = q.bare.map((g) => {
+    const alts = g.map((a) => ftsTok(a).map((t) => '"' + t + '"').join(' ')).filter(Boolean);
+    return alts.length > 1 ? '(' + alts.join(' OR ') + ')' : alts[0];
+  }).filter(Boolean);
+  const ftsTerms = [...bareTerms, ...q.cols];
+  const m = ftsTerms.length ? ftsTerms.join(' AND ') : null;
   const x = { ng: grpids ? grpids.length : 0, ns: srcs ? srcs.length : 0, np: q.pos.length, nt: q.tag.length };
   const ng = x.ng;
   const etymaOnly = q.proto.length || q.pgloss.length;
@@ -427,16 +451,20 @@ function fieldedSearch(db, qe, lim) {
     shapeSortReflexes(out.reflexes);
   }
 
-  // reconstructions — proto:/pgloss:/bare terms AND a subgroup's own etyma (etyma.grpid)
+  // reconstructions — proto:/pgloss:/bare terms AND a subgroup's own etyma (etyma.grpid);
+  // comma-alternatives within one term OR inside its clause
   const ewhere = [], eparams = [];
-  for (const t of q.proto) {
-    ewhere.push(`(e.protoform LIKE ? OR ${_NOHY} LIKE ?)`);
-    eparams.push('%' + t + '%', '%' + t.replace(/[-|◦\s]/g, '') + '%');
+  for (const g of q.proto) {
+    ewhere.push('(' + g.map(() => `(e.protoform LIKE ? OR ${_NOHY} LIKE ?)`).join(' OR ') + ')');
+    for (const t of g) eparams.push('%' + t + '%', '%' + t.replace(/[-|◦\s]/g, '') + '%');
   }
-  for (const t of q.pgloss) { ewhere.push('e.protogloss LIKE ?'); eparams.push('%' + t + '%'); }
-  for (const t of q.bare) {
-    ewhere.push(`(e.protogloss LIKE ? OR e.protoform LIKE ? OR ${_NOHY} LIKE ?)`);
-    eparams.push('%' + t + '%', '%' + t + '%', '%' + t.replace(/[-|◦\s]/g, '') + '%');
+  for (const g of q.pgloss) {
+    ewhere.push('(' + g.map(() => 'e.protogloss LIKE ?').join(' OR ') + ')');
+    for (const t of g) eparams.push('%' + t + '%');
+  }
+  for (const g of q.bare) {
+    ewhere.push('(' + g.map(() => `(e.protogloss LIKE ? OR e.protoform LIKE ? OR ${_NOHY} LIKE ?)`).join(' OR ') + ')');
+    for (const t of g) eparams.push('%' + t + '%', '%' + t + '%', '%' + t.replace(/[-|◦\s]/g, '') + '%');
   }
   if (ng) { ewhere.push(`e.grpid IN (${_ph(ng)})`); eparams.push(...grpids); }
   if (q.tag.length) { ewhere.push(`e.tag IN (${_ph(q.tag.length)})`); eparams.push(...q.tag); }
@@ -448,10 +476,14 @@ function fieldedSearch(db, qe, lim) {
 
   // languages — language: terms, or a pure subgroup browse (any other axis means the user is
   // after records, not a roster: 'tag:695 subgroup:Kiranti' shouldn't list 35 Kiranti lects,
-  // and 'pgloss:water subgroup:Loloish' is asking about reconstructions, not for a roster)
-  const lterms = q.cols.filter((c) => c.startsWith('language:')).map((c) => c.slice(10, -1));
-  if (lterms.length || (ng && !m && !q.bare.length && !q.tag.length && !q.pos.length && !q.source.length && !etymaOnly)) {
-    const rows = run(db, langFieldSql(lterms.length, ng), [...lterms.map((t) => '%' + t + '%'), ...(grpids || [])]);
+  // and 'pgloss:water subgroup:Loloish' is asking about reconstructions, not for a roster).
+  // Each language: term -> OR over its alternatives, AND over an alternative's words (word-AND,
+  // not phrase, so language:"Black Lahu" still finds 'Lahu (Black)').
+  const langWhere = q.lang.map((g) =>
+    '(' + g.map((ts) => '(' + ts.map(() => 'ln.language LIKE ?').join(' AND ') + ')').join(' OR ') + ')').join(' AND ');
+  if (q.lang.length || (ng && !m && !q.bare.length && !q.tag.length && !q.pos.length && !q.source.length && !etymaOnly)) {
+    const lparams = q.lang.flatMap((g) => g.flatMap((ts) => ts.map((t) => '%' + t + '%')));
+    const rows = run(db, langFieldSql(langWhere, ng), [...lparams, ...(grpids || [])]);
     const byName = new Map();
     for (const r of rows) {
       const cur = byName.get(r.language);
@@ -496,7 +528,7 @@ export async function stedtSearch(query, limit = 40) {
   // them (SQLite reads LIMIT -1 as unbounded). The home dropdown still passes a small limit.
   const lim = (limit == null || limit <= 0) ? -1 : limit;
 
-  // field:value terms switch to the fielded engine (one AND group; commas stay plain-search syntax)
+  // field:value terms switch to the fielded engine (all terms AND; commas inside a value OR)
   if (qe && query !== '*' && hasFields(qe)) return fieldedSearch(db, qe, lim);
 
   let etyma = [], etymaTotal = 0;
