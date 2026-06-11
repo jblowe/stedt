@@ -2,10 +2,11 @@
 {%- if root -%}
 <div class="ety-head"><h1 class="pagetitle">Thesaurus</h1><div class="metabar"><span><b>{{ nnodes }}</b> semantic nodes</span><span><b>{{ ncnt }}</b> reconstructions</span><span><b>{{ nlcnt }}</b> reflexes</span></div></div>
 <p class="cap">Each count is <b>reconstructions / reflexes</b> filed at that node.</p>
+<nav class="vol-toc" aria-label="Volumes">{% for v in volumes %}<a href="#vol-{{ v.k }}"><span class="vk">{{ v.k }}</span>{{ v.ti }}</a>{% endfor %}</nav>
 <div class="srcsort">Sort <select id="thsort" aria-label="Sort thesaurus nodes"><option value="key">thesaurus order</option><option value="cnt">most reconstructions</option><option value="lcnt">most reflexes</option></select></div>
 <ul class="tree" id="thtree">
 {%- for t in tree -%}
-<li style="margin-left:{{ t.pad }}px" data-pad="{{ t.pad }}" data-cnt="{{ t.cnt }}" data-lcnt="{{ t.lcnt }}"><a class="row" href="/thesaurus/{{ t.disp }}"><span class="sk">{{ t.disp_esc }}</span>{{ t.ti }}{{ t.ct }}</a></li>
+<li{% if t.vol %} id="vol-{{ t.vol }}"{% endif %} style="margin-left:{{ t.pad }}px" data-pad="{{ t.pad }}" data-cnt="{{ t.cnt }}" data-lcnt="{{ t.lcnt }}"><a class="row" href="/thesaurus/{{ t.disp }}"><span class="sk">{{ t.disp_esc }}</span>{{ t.ti }}{{ t.ct }}</a></li>
 {%- endfor -%}
 </ul>
 <script>

@@ -271,9 +271,13 @@ def thesaurus(semkey=None):
             tree.append((disp, depth, n["chaptertitle"], cnt, lcnt, nn))
         tree.sort(key=lambda r: natkey(r[0]))
         conn.close()
+        # the volumes (depth-0 roots) double as a TOC: the tree is ~830 rows, and jumping
+        # between volumes by scroll alone was the chapter browser's worst ergonomics
+        volumes = [(disp, title) for disp, depth, title, *_ in tree if depth == 0]
         treeinfo = [
             {
                 "pad": depth * TREE_INDENT_PX,
+                "vol": disp if depth == 0 else None,   # anchor id for the volumes TOC
                 "disp": disp,
                 "disp_esc": Markup(esc(disp)),
                 "cnt": cnt,
@@ -299,6 +303,7 @@ def thesaurus(semkey=None):
             "Thesaurus",
             _THESAURUS.render(
                 root=True,
+                volumes=[{"k": esc(d), "ti": esc(t)} for d, t in volumes],
                 tree=treeinfo,
                 nnodes=f"{len(tree):,}",
                 ncnt=f"{sum(t[3] for t in tree):,}",
