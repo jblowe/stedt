@@ -65,8 +65,20 @@ function syllabify(s) {
   if (!r.ok) { r = _syl1(s, _REPRE); if (!r.ok) r = _syl1(s, _REDEL); }
   return r;
 }
+// SYNC(syllable-links) ↔ stedt/render/rows.py syl_pop(): the linked syllable's etymon-preview
+// popover, modeled on the original's elink popup — '#tag PLG *protoform ‘gloss’' header + the
+// etymon's mesoroots (Stammbaum-ordered in the payload). Keep the markup identical.
+const sylPop = e => {
+  const g = e.pg ? ` ‘${esc(e.pg)}’` : '';
+  const head = `<span class="sp-h">#${e.tag}${e.plg ? ' ' + esc(e.plg) : ''} *${altstar(esc(e.pf))}${g}</span>`;
+  const rows = (Array.isArray(e.meso) ? e.meso : []).map(m =>
+    `<span class="sp-m"><span class="sp-plg">${esc(m.plg || '')}</span> *${altstar(esc(m.f))}${m.g ? ` ‘${esc(m.g)}’` : ''}</span>`
+  ).join('');
+  return `<span class="sylpop">${head}${rows}</span>`;
+};
+
 // SYNC(syllable-links) ↔ stedt/render/rows.py syl_form() + syl_pop(): the syllable-linked form
-// + its etymon-preview popover. Keep the markup (a.syl, .sylpop, *protoform 'gloss') identical.
+// + its etymon-preview popover. Keep the markup (a.syl, .sylpop, header + mesoroot lines) identical.
 const sylLink = r => {                     // syllable-linked form HTML, or null to fall back
   if (!r.syn) return null;
   // headword arrives as `form` (search payload) or `reflex` (category payload) — same fallback
@@ -82,9 +94,7 @@ const sylLink = r => {                     // syllable-linked form HTML, or null
     const tag = r.syn[i];
     if (tag != null) {
       const base = esc(syls[i]), e = info[tag];
-      const pop = e && e.pf
-        ? `<span class="sylpop">*${altstar(esc(e.pf))}${e.pg ? ` ‘${esc(e.pg)}’` : ''}</span>`
-        : '';
+      const pop = e && e.pf ? sylPop(e) : '';
       out += `<a class="syl" href="${etymonHref(tag)}">${base}${pop}</a>`;
     } else {
       out += esc(syls[i]);

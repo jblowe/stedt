@@ -264,6 +264,11 @@ a.syl .sylpop{display:none;position:absolute;left:0;bottom:calc(100% + 5px);z-in
   padding:5px 9px;font-style:normal;font-weight:400;font-size:12.5px;line-height:1.45;color:var(--soft);
   white-space:normal;text-align:left;overflow-wrap:anywhere;letter-spacing:0;}
 a.syl:hover .sylpop,a.syl:focus .sylpop,a.syl:focus-within .sylpop{display:block;}
+/* the popover's elink-style card: '#tag PLG *protoform' header, then the etymon's mesoroots */
+.sylpop .sp-h{display:block;color:var(--ink);}
+.sylpop .sp-m{display:block;padding-left:14px;}
+.sylpop .sp-plg{font-variant:small-caps;letter-spacing:.05em;color:var(--mut);}
+
 /* the reveal hook (static/site.js) flips a top-clipped preview to open below its syllable */
 a.syl .sylpop.flip{bottom:auto;top:calc(100% + 5px);}
 /* invisible hover bridge across the 5px offset, so the pointer can travel into the bubble

@@ -51,6 +51,15 @@ TABLES = [
         ("nreflex",    "",                    _NREFLEX),      # etymonRow "· N reflexes"
         ("exemplary",  "",                    "e.exemplary"), # etymonRow .exm badge
         ("public",     "",                    "e.public"),    # etymonRow .prov marker (public=0)
+        # syllable-popover enrichment (etyma 'plg'/'meso'): the popover mirrors the original's
+        # elink popup — '#tag PLG *protoform' + the etymon's mesoroots. plg denormalized so the
+        # reflex payload needn't join languagegroups twice; meso prebuilt as an ORDERED JSON
+        # array [{plg,f,g},…] (Stammbaum: grp0..grp4, variant — the original elink ORDER BY).
+        ("plg",        "",                    "(SELECT g2.plg FROM src.languagegroups g2 WHERE g2.grpid=e.grpid)"),
+        ("meso",       "",                    """(SELECT json_group_array(json_object('plg', plg, 'f', form, 'g', gloss))
+            FROM (SELECT lg.plg AS plg, m.form AS form, m.gloss AS gloss
+                  FROM src.mesoroots m LEFT JOIN src.languagegroups lg ON lg.grpid=m.grpid
+                  WHERE m.tag=e.tag ORDER BY lg.grp0, lg.grp1, lg.grp2, lg.grp3, lg.grp4, m.variant))"""),
     ]},
     {"name": "languagegroups", "src": "src.languagegroups", "cols": [
         ("grpid", "INTEGER PRIMARY KEY", "grpid"),

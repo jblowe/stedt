@@ -93,18 +93,29 @@ def reflex_counts(conn, tags=None):
 
 
 def proto_labels(conn, tags):
-    """Map {tag: (protoform, protogloss)} for a set of etymon tags, restricted to non-DELETE etyma
-    (only those have a built page, so callers can gate links on membership)."""
+    """Map {tag: (protoform, protogloss, plg, mesoroots)} for a set of etymon tags, restricted to
+    non-DELETE etyma (only those have a built page, so callers can gate links on membership).
+    mesoroots is [(plg, form, gloss), …] in Stammbaum order (grp0..grp4, variant — the original
+    elink popup's ORDER BY), feeding the syllable popover's intermediate-reconstruction lines."""
     tags = [t for t in tags if t]
     out = {}
     for i in range(0, len(tags), 900):
         chunk = tags[i : i + 900]
         qm = ",".join("?" * len(chunk))
         for r in conn.execute(
-            f"SELECT tag,protoform,protogloss FROM etyma e WHERE tag IN ({qm}) AND {ETY_LIVE}",
+            f"""SELECT e.tag, e.protoform, e.protogloss, g.plg AS plg FROM etyma e
+            LEFT JOIN languagegroups g ON g.grpid=e.grpid WHERE e.tag IN ({qm}) AND {ETY_LIVE}""",
             chunk,
         ):
-            out[r["tag"]] = (r["protoform"], r["protogloss"])
+            out[r["tag"]] = (r["protoform"], r["protogloss"], r["plg"], [])
+        for r in conn.execute(
+            f"""SELECT m.tag, g.plg AS plg, m.form, m.gloss FROM mesoroots m
+            LEFT JOIN languagegroups g ON g.grpid=m.grpid WHERE m.tag IN ({qm})
+            ORDER BY g.grp0, g.grp1, g.grp2, g.grp3, g.grp4, m.variant""",
+            chunk,
+        ):
+            if r["tag"] in out:
+                out[r["tag"]][3].append((r["plg"], r["form"], r["gloss"]))
     return out
 
 

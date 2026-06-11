@@ -6,12 +6,22 @@ from .syllabify import syllabify
 from .text import esc, alt
 
 
-def syl_pop(info):
-    """SYNC(syllable-links) ↔ web/src/rows.js sylLink popover. The hover/focus popover for a linked
-    syllable: its etymon's *protoform 'gloss'. info: (pf, pg)."""
-    pfx, pgl = info
+def syl_pop(tag, info):
+    """SYNC(syllable-links) ↔ web/src/rows.js sylPop. The hover/focus popover for a linked
+    syllable, modeled on the original's elink popup (rootcanal tt/et_info.tt): a header line
+    "#tag PLG *protoform ‘gloss’" followed by the etymon's mesoroots ("PLG *form ‘gloss’" each,
+    Stammbaum-ordered). The original's allofams tab is deliberately absent: tabs can't live in a
+    hover card, and the family renders on the etymon page itself, one click through this link.
+    info: (pf, pg, plg, mesoroots)."""
+    pfx, pgl, plg, meso = info
     g = f" ‘{esc(pgl)}’" if pgl else ""
-    return f'<span class="sylpop">*{esc(alt(pfx))}{g}</span>'
+    head = f'<span class="sp-h">#{tag}{" " + esc(plg) if plg else ""} *{esc(alt(pfx))}{g}</span>'
+    rows = "".join(
+        f'<span class="sp-m"><span class="sp-plg">{esc(mp or "")}</span> *{esc(alt(mf))}'
+        f'{f" ‘{esc(mg)}’" if mg else ""}</span>'
+        for mp, mf, mg in meso
+    )
+    return f'<span class="sylpop">{head}{rows}</span>'
 
 
 def syl_form(reflex, syn, pf=None, self_tag=None):
@@ -38,7 +48,7 @@ def syl_form(reflex, syn, pf=None, self_tag=None):
             # etymon) renders as plain text, matching the client, whose DELETE-filtered join never
             # sees such tags at all.
             info = pf[tag]
-            out += f'<a class="syl" href="{etymon_href(tag)}">{base}{syl_pop(info) if info else ""}</a>'
+            out += f'<a class="syl" href="{etymon_href(tag)}">{base}{syl_pop(tag, info) if info else ""}</a>'
         else:
             out += base
         d = dl[i] if i < len(dl) else ""
