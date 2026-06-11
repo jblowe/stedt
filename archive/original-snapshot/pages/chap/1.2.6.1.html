@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>STEDT Chapter 1.2.6.1</title>
+	<link rel="stylesheet" href="/styles/rootcanal.css">
+	<link rel="stylesheet" href="/styles/autoSuggest.css">
+	<link rel="stylesheet" href="/styles/opentip.css">
+	<script src="/scriptaculous/lib/prototype.js"></script>
+	<script src="/scriptaculous/src/scriptaculous.js?load=effects,dragdrop,controls"></script>
+	<script src="/js/opentip.js"></script>
+	<script src="/js/excanvas.js"></script>
+	<script src="/js/tablekit.js"></script>
+	<script src="/js/jquery-1.8.0.js"></script>
+	<script src="/js/jquery.autoSuggest.js"></script>
+</head>
+<body>
+<div id="header" style="display:none;">
+<span class="right">
+<script>
+$.noConflict();
+var baseRef = '/';
+</script>
+<form style="display:none;" id="guest_tools_header" method="post" action="/account/login"><input type="hidden" name="user" value="guest"><input type="hidden" name="pwd" value="guest"><input type="hidden" name="url" value="/admin"></form>
+&nbsp;<a href="#" onclick="$('guest_tools_header').submit();">tools</a>
+&nbsp;&nbsp;<a href="/account/login?url=https://stedtdb.johnblowe.com/chap/1.2.6.1">log in</a><script>
+var stedtuserprivs = 0;
+$('header').show();
+</script>
+﻿&nbsp;&nbsp;<a href="http://stedt.berkeley.edu/documentation" target="_blank">help</a>
+<script src="/js/stedtconfig.js"></script>
+</span>
+<a href="/" title="Search Home"><img src="/img/splashy32x32.gif" alt="STEDT Logo" width="32" height="32" class="left" border=0></a>
+<b>STEDT Chapter 1.2.6.1</b>
+<hr style="clear:both; margin-left:45px">
+</div>
+<p>[Back to the <a href="/chapters">Chapter Browser</a>]</p>
+<h1>1.2.6.1 Eyeball</h1>
+
+<h2>Etyma in this chapter</h2>
+<table id="etyma_resulttable" class="resizable hangindent" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="etyma.tag">tag
+</th>
+<th id="num_recs">num_recs
+</th>
+<th id="chapters.chaptertitle">chaptertitle
+</th>
+<th id="etyma.chapter">chapter
+</th>
+<th id="etyma.sequence">sequence
+</th>
+<th id="etyma.protoform">protoform
+</th>
+<th id="etyma.protogloss">protogloss
+</th>
+<th id="etyma.grpid">grpid
+</th>
+<th id="languagegroups.plg">plg
+</th>
+<th id="languagegroups.grpno">grpno
+</th>
+<th id="etyma.notes">notes
+</th>
+<th id="num_notes">num_notes
+</th>
+<th id="num_comparanda">num_comparanda
+</th>
+<th id="etyma.status">status
+</th>
+<th id="etyma.public">public
+</th>
+<th id="users.username">username
+</th>
+</tr></thead>
+<tbody>
+<tr><td>2073</td><td>4</td><td>Eyeball</td><td>1.2.6.1</td><td>12.0</td><td>g-(d/r)a</td><td>EYEBALL</td><td>2</td><td>PTB</td><td>0.1</td><td></td><td>1</td><td>0</td><td>KEEP</td><td>1</td><td>stedt</td></tr>
+</tbody>
+</table>
+
+<br>
+
+
+<script src="/js/tbl/etyma.js"></script>
+<script>
+var footnote_counter = 0;
+$w('u_recs o_recs etyma.exemplary etyma.chapter etyma.notes etyma.xrefs etyma.possallo etyma.allofams users.username etyma.semkey etyma.status etyma.prefix etyma.initial etyma.rhyme etyma.tone').each(function (col) {
+	setup['etyma'][col].hide = true;
+});
+setup['etyma']['etyma.protoform'].transform = function (v, key, rec, n) {
+						// if public field is 1, don't add 'provisional' note
+						if (rec[$('etyma.public').cellIndex] === '1') return v;
+						return v + ' <span style="color:red;">[provisional]</span>';
+				  	};
+setup['etyma']['etyma.public'] = {
+	noedit: !(stedtuserprivs & 16),
+	hide: !(stedtuserprivs & 16),
+	size: 15,
+};
+
+TableKit.Raw.init('etyma_resulttable', 'etyma', setup['etyma']);
+TableKit.Rows.stripe('etyma_resulttable');
+</script>
+<script src="/js/notes.js"></script>
+</body>
+</html>

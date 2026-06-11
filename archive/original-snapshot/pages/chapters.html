@@ -1,0 +1,5903 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>STEDT Chapter Browser</title>
+	<link rel="stylesheet" href="/styles/rootcanal.css">
+	<link rel="stylesheet" href="/styles/autoSuggest.css">
+	<link rel="stylesheet" href="/styles/opentip.css">
+	<script src="/scriptaculous/lib/prototype.js"></script>
+	<script src="/scriptaculous/src/scriptaculous.js?load=effects,dragdrop,controls"></script>
+	<script src="/js/opentip.js"></script>
+	<script src="/js/excanvas.js"></script>
+	<script src="/js/tablekit.js"></script>
+	<script src="/js/jquery-1.8.0.js"></script>
+	<script src="/js/jquery.autoSuggest.js"></script>
+</head>
+<body>
+<div id="header" style="display:none;">
+<span class="right">
+<script>
+$.noConflict();
+var baseRef = '/';
+</script>
+<form style="display:none;" id="guest_tools_header" method="post" action="/account/login"><input type="hidden" name="user" value="guest"><input type="hidden" name="pwd" value="guest"><input type="hidden" name="url" value="/admin"></form>
+&nbsp;<a href="#" onclick="$('guest_tools_header').submit();">tools</a>
+&nbsp;&nbsp;<a href="/account/login?url=https://stedtdb.johnblowe.com/chapters">log in</a><script>
+var stedtuserprivs = 0;
+$('header').show();
+</script>
+﻿&nbsp;&nbsp;<a href="http://stedt.berkeley.edu/documentation" target="_blank">help</a>
+<script src="/js/stedtconfig.js"></script>
+</span>
+<a href="/" title="Search Home"><img src="/img/splashy32x32.gif" alt="STEDT Logo" width="32" height="32" class="left" border=0></a>
+<b>STEDT Chapter Browser</b>
+<hr style="clear:both; margin-left:45px">
+</div>
+
+<h1>Chapters</h1>
+
+Volumes:
+<ol>
+<li><a href="#1.0">The Body</a></li>
+<li><a href="#2.0">Animals and Animal Verbs</a></li>
+<li><a href="#3.0">Natural Objects, Plants, Foods</a></li>
+<li><a href="#4.0">Kinship Terms, Ethnonyms, Social Roles</a></li>
+<li><a href="#5.0">Culture, Artifacts, Religion</a></li>
+<li><a href="#6.0">Verbs of Motion, of Manipulation, and of Production</a></li>
+<li><a href="#7.0">Adjectival Verbs</a></li>
+<li><a href="#8.0">Abstract Nouns and Verbs, Psychological Verbs, Verbs of Utterance</a></li>
+<li><a href="#9.0">Shape, Size, Color, Measure, Number, Time, Space</a></li>
+<li><a href="#10.0">Grammatical Words</a></li>
+</ol>
+
+<p>829 nodes (took 0.0856 seconds to retrieve)</p>
+<table id="ch" class="sortable resizable hangindent" style="table-layout:fixed">
+<thead><tr>
+	<th id="chapters.semkey">semkey</th>
+	<th id="chapters.chaptertitle">Title</th>
+	
+	<th>num. etyma</th><th>notes</th><th>flowchart?</th>
+	<th id="chapters.indent">indent</th>
+	<th id="chapters.id">id</th>
+</tr></thead>
+<tbody>
+<tr>
+<td><a name="1.0"></a><a target="notes" href="/chap/1.0">1.0</a></td>
+<td><b>The Body</b></td><td></td>
+<td></td><td></td>
+<td id='indent_808'>0</td>
+<td>808</td>
+</tr>
+<tr>
+<td><a name="1.1"></a><a target="notes" href="/chap/1.1">1.1</a></td>
+<td><i>Body Parts</i></td><td></td>
+<td>1</td><td>✓</td>
+<td id='indent_809'>1</td>
+<td>809</td>
+</tr>
+<tr>
+<td><a name="1.1.1"></a><a target="notes" href="/chap/1.1.1">1.1.1</a></td>
+<td>Body</td><td>24</td>
+<td>3</td><td>✓</td>
+<td id='indent_810'>2</td>
+<td>810</td>
+</tr>
+<tr>
+<td><a name="1.1.1.1"></a><a target="notes" href="/chap/1.1.1.1">1.1.1.1</a></td>
+<td>Flesh/Meat</td><td>13</td>
+<td>1</td><td>✓</td>
+<td id='indent_811'>3</td>
+<td>811</td>
+</tr>
+<tr>
+<td><a name="1.1.1.2"></a><a target="notes" href="/chap/1.1.1.2">1.1.1.2</a></td>
+<td>Lean (Meat)</td><td>8</td>
+<td>1</td><td>✓</td>
+<td id='indent_812'>3</td>
+<td>812</td>
+</tr>
+<tr>
+<td><a name="1.1.2"></a><a target="notes" href="/chap/1.1.2">1.1.2</a></td>
+<td>Life/Breathe/Exist</td><td>2</td>
+<td></td><td></td>
+<td id='indent_813'>2</td>
+<td>813</td>
+</tr>
+<tr>
+<td><a name="1.1.2.1"></a><a target="notes" href="/chap/1.1.2.1">1.1.2.1</a></td>
+<td>Life/Live/Alive</td><td>11</td>
+<td>1</td><td></td>
+<td id='indent_814'>3</td>
+<td>814</td>
+</tr>
+<tr>
+<td><a name="1.1.2.2"></a><a target="notes" href="/chap/1.1.2.2">1.1.2.2</a></td>
+<td>Breath/Breathe</td><td>17</td>
+<td>2</td><td>✓</td>
+<td id='indent_815'>3</td>
+<td>815</td>
+</tr>
+<tr>
+<td><a name="1.1.2.3"></a><a target="notes" href="/chap/1.1.2.3">1.1.2.3</a></td>
+<td>Existence</td><td>16</td>
+<td></td><td></td>
+<td id='indent_816'>3</td>
+<td>816</td>
+</tr>
+<tr>
+<td><a name="1.1.2.4"></a><a target="notes" href="/chap/1.1.2.4">1.1.2.4</a></td>
+<td>Be able</td><td>1</td>
+<td></td><td></td>
+<td id='indent_817'>3</td>
+<td>817</td>
+</tr>
+<tr>
+<td><a name="1.1.3"></a><a target="notes" href="/chap/1.1.3">1.1.3</a></td>
+<td>Hungry</td><td>13</td>
+<td>1</td><td>✓</td>
+<td id='indent_818'>2</td>
+<td>818</td>
+</tr>
+<tr>
+<td><a name="1.1.3.1"></a><a target="notes" href="/chap/1.1.3.1">1.1.3.1</a></td>
+<td>Thirsty</td><td>15</td>
+<td>2</td><td>✓</td>
+<td id='indent_819'>3</td>
+<td>819</td>
+</tr>
+<tr>
+<td><a name="1.1.3.2"></a><a target="notes" href="/chap/1.1.3.2">1.1.3.2</a></td>
+<td>Satiated/Full/Enough</td><td>22</td>
+<td>1</td><td>✓</td>
+<td id='indent_820'>3</td>
+<td>820</td>
+</tr>
+<tr>
+<td><a name="1.1.4"></a><a target="notes" href="/chap/1.1.4">1.1.4</a></td>
+<td>Wake/Conscious/Alert</td><td>23</td>
+<td>1</td><td>✓</td>
+<td id='indent_821'>2</td>
+<td>821</td>
+</tr>
+<tr>
+<td><a name="1.1.4.1"></a><a target="notes" href="/chap/1.1.4.1">1.1.4.1</a></td>
+<td>Sleep/Be asleep</td><td>12</td>
+<td>2</td><td>✓</td>
+<td id='indent_822'>3</td>
+<td>822</td>
+</tr>
+<tr>
+<td><a name="1.1.4.2"></a><a target="notes" href="/chap/1.1.4.2">1.1.4.2</a></td>
+<td>Dream</td><td>3</td>
+<td>1</td><td>✓</td>
+<td id='indent_823'>3</td>
+<td>823</td>
+</tr>
+<tr>
+<td><a name="1.1.5"></a><a target="notes" href="/chap/1.1.5">1.1.5</a></td>
+<td>Strength</td><td>19</td>
+<td></td><td></td>
+<td id='indent_824'>2</td>
+<td>824</td>
+</tr>
+<tr>
+<td><a name="1.1.5.1"></a><a target="notes" href="/chap/1.1.5.1">1.1.5.1</a></td>
+<td>Sick/Hurt/Ache</td><td>14</td>
+<td></td><td></td>
+<td id='indent_825'>3</td>
+<td>825</td>
+</tr>
+<tr>
+<td><a name="1.1.5.2"></a><a target="notes" href="/chap/1.1.5.2">1.1.5.2</a></td>
+<td>Swollen/Swell/Bloated</td><td>12</td>
+<td>1</td><td></td>
+<td id='indent_826'>3</td>
+<td>826</td>
+</tr>
+<tr>
+<td><a name="1.1.6"></a><a target="notes" href="/chap/1.1.6">1.1.6</a></td>
+<td>Die/Deathly</td><td>14</td>
+<td></td><td></td>
+<td id='indent_827'>2</td>
+<td>827</td>
+</tr>
+<tr>
+<td><a name="1.1.6.1"></a><a target="notes" href="/chap/1.1.6.1">1.1.6.1</a></td>
+<td>Carcass/Dead Body</td><td>10</td>
+<td></td><td></td>
+<td id='indent_828'>3</td>
+<td>828</td>
+</tr>
+<tr>
+<td><a name="1.2"></a><a target="notes" href="/chap/1.2">1.2</a></td>
+<td><i>Head and Face</i></td><td></td>
+<td></td><td></td>
+<td id='indent_829'>1</td>
+<td>829</td>
+</tr>
+<tr>
+<td><a name="1.2.1"></a><a target="notes" href="/chap/1.2.1">1.2.1</a></td>
+<td>Head/Headed</td><td>15</td>
+<td>4</td><td>✓</td>
+<td id='indent_830'>2</td>
+<td>830</td>
+</tr>
+<tr>
+<td><a name="1.2.1.1"></a><a target="notes" href="/chap/1.2.1.1">1.2.1.1</a></td>
+<td>Skull</td><td>3</td>
+<td>2</td><td>✓</td>
+<td id='indent_831'>3</td>
+<td>831</td>
+</tr>
+<tr>
+<td><a name="1.2.1.2"></a><a target="notes" href="/chap/1.2.1.2">1.2.1.2</a></td>
+<td>Crown/Pate</td><td>1</td>
+<td></td><td></td>
+<td id='indent_832'>3</td>
+<td>832</td>
+</tr>
+<tr>
+<td><a name="1.2.1.3"></a><a target="notes" href="/chap/1.2.1.3">1.2.1.3</a></td>
+<td>Fontanel</td><td>4</td>
+<td></td><td></td>
+<td id='indent_833'>3</td>
+<td>833</td>
+</tr>
+<tr>
+<td><a name="1.2.1.4"></a><a target="notes" href="/chap/1.2.1.4">1.2.1.4</a></td>
+<td>Caul</td><td></td>
+<td></td><td></td>
+<td id='indent_834'>3</td>
+<td>834</td>
+</tr>
+<tr>
+<td><a name="1.2.1.5"></a><a target="notes" href="/chap/1.2.1.5">1.2.1.5</a></td>
+<td>Scalp</td><td></td>
+<td></td><td></td>
+<td id='indent_835'>3</td>
+<td>835</td>
+</tr>
+<tr>
+<td><a name="1.2.2"></a><a target="notes" href="/chap/1.2.2">1.2.2</a></td>
+<td>Horn(ed)/Antler</td><td>6</td>
+<td>1</td><td>✓</td>
+<td id='indent_836'>2</td>
+<td>836</td>
+</tr>
+<tr>
+<td><a name="1.2.2.1"></a><a target="notes" href="/chap/1.2.2.1">1.2.2.1</a></td>
+<td>Comb/Crest</td><td>6</td>
+<td></td><td></td>
+<td id='indent_837'>3</td>
+<td>837</td>
+</tr>
+<tr>
+<td><a name="1.2.2.2"></a><a target="notes" href="/chap/1.2.2.2">1.2.2.2</a></td>
+<td>Comb (Hair)</td><td>5</td>
+<td></td><td></td>
+<td id='indent_838'>3</td>
+<td>838</td>
+</tr>
+<tr>
+<td><a name="1.2.3"></a><a target="notes" href="/chap/1.2.3">1.2.3</a></td>
+<td>Hair of Head</td><td>6</td>
+<td>3</td><td>✓</td>
+<td id='indent_839'>2</td>
+<td>839</td>
+</tr>
+<tr>
+<td><a name="1.2.3.1"></a><a target="notes" href="/chap/1.2.3.1">1.2.3.1</a></td>
+<td>Cowlick/Flexure</td><td>2</td>
+<td></td><td></td>
+<td id='indent_840'>3</td>
+<td>840</td>
+</tr>
+<tr>
+<td><a name="1.2.3.2"></a><a target="notes" href="/chap/1.2.3.2">1.2.3.2</a></td>
+<td>Queue/Braid</td><td>4</td>
+<td></td><td></td>
+<td id='indent_841'>3</td>
+<td>841</td>
+</tr>
+<tr>
+<td><a name="1.2.3.3"></a><a target="notes" href="/chap/1.2.3.3">1.2.3.3</a></td>
+<td>Long-haired</td><td></td>
+<td></td><td></td>
+<td id='indent_842'>3</td>
+<td>842</td>
+</tr>
+<tr>
+<td><a name="1.2.3.4"></a><a target="notes" href="/chap/1.2.3.4">1.2.3.4</a></td>
+<td>Bald</td><td>5</td>
+<td>1</td><td></td>
+<td id='indent_843'>3</td>
+<td>843</td>
+</tr>
+<tr>
+<td><a name="1.2.4"></a><a target="notes" href="/chap/1.2.4">1.2.4</a></td>
+<td>Brain</td><td>8</td>
+<td>10</td><td>✓</td>
+<td id='indent_844'>2</td>
+<td>844</td>
+</tr>
+<tr>
+<td><a name="1.2.5"></a><a target="notes" href="/chap/1.2.5">1.2.5</a></td>
+<td>Face</td><td>15</td>
+<td>2</td><td>✓</td>
+<td id='indent_845'>2</td>
+<td>845</td>
+</tr>
+<tr>
+<td><a name="1.2.5.1"></a><a target="notes" href="/chap/1.2.5.1">1.2.5.1</a></td>
+<td>Forehead/Temples</td><td>11</td>
+<td>1</td><td>✓</td>
+<td id='indent_846'>3</td>
+<td>846</td>
+</tr>
+<tr>
+<td><a name="1.2.5.2"></a><a target="notes" href="/chap/1.2.5.2">1.2.5.2</a></td>
+<td>Jaw/Cheek</td><td>24</td>
+<td>7</td><td>✓</td>
+<td id='indent_847'>3</td>
+<td>847</td>
+</tr>
+<tr>
+<td><a name="1.2.5.3"></a><a target="notes" href="/chap/1.2.5.3">1.2.5.3</a></td>
+<td>Chin</td><td>8</td>
+<td>1</td><td>✓</td>
+<td id='indent_848'>3</td>
+<td>848</td>
+</tr>
+<tr>
+<td><a name="1.2.5.4"></a><a target="notes" href="/chap/1.2.5.4">1.2.5.4</a></td>
+<td>Dimple</td><td></td>
+<td></td><td></td>
+<td id='indent_849'>3</td>
+<td>849</td>
+</tr>
+<tr>
+<td><a name="1.2.5.5"></a><a target="notes" href="/chap/1.2.5.5">1.2.5.5</a></td>
+<td>Beard/Moustache/Facial Hair</td><td>10</td>
+<td>5</td><td>✓</td>
+<td id='indent_850'>3</td>
+<td>850</td>
+</tr>
+<tr>
+<td><a name="1.2.6"></a><a target="notes" href="/chap/1.2.6">1.2.6</a></td>
+<td>Eye</td><td>16</td>
+<td>5</td><td>✓</td>
+<td id='indent_851'>2</td>
+<td>851</td>
+</tr>
+<tr>
+<td><a name="1.2.6.1"></a><a target="notes" href="/chap/1.2.6.1">1.2.6.1</a></td>
+<td>Eyeball</td><td>1</td>
+<td></td><td></td>
+<td id='indent_852'>3</td>
+<td>852</td>
+</tr>
+<tr>
+<td><a name="1.2.6.2"></a><a target="notes" href="/chap/1.2.6.2">1.2.6.2</a></td>
+<td>Iris/Pupil</td><td></td>
+<td>2</td><td>✓</td>
+<td id='indent_853'>3</td>
+<td>853</td>
+</tr>
+<tr>
+<td><a name="1.2.6.2.1"></a><a target="notes" href="/chap/1.2.6.2.1">1.2.6.2.1</a></td>
+<td>Dilate</td><td></td>
+<td></td><td></td>
+<td id='indent_854'>4</td>
+<td>854</td>
+</tr>
+<tr>
+<td><a name="1.2.6.3"></a><a target="notes" href="/chap/1.2.6.3">1.2.6.3</a></td>
+<td>White of Eye</td><td></td>
+<td></td><td></td>
+<td id='indent_855'>3</td>
+<td>855</td>
+</tr>
+<tr>
+<td><a name="1.2.6.4"></a><a target="notes" href="/chap/1.2.6.4">1.2.6.4</a></td>
+<td>Eyelid</td><td></td>
+<td>2</td><td>✓</td>
+<td id='indent_856'>3</td>
+<td>856</td>
+</tr>
+<tr>
+<td><a name="1.2.6.5"></a><a target="notes" href="/chap/1.2.6.5">1.2.6.5</a></td>
+<td>Eyelash</td><td></td>
+<td>6</td><td>✓</td>
+<td id='indent_857'>3</td>
+<td>857</td>
+</tr>
+<tr>
+<td><a name="1.2.6.6"></a><a target="notes" href="/chap/1.2.6.6">1.2.6.6</a></td>
+<td>Eyebrow</td><td></td>
+<td>1</td><td>✓</td>
+<td id='indent_858'>3</td>
+<td>858</td>
+</tr>
+<tr>
+<td><a name="1.2.6.7"></a><a target="notes" href="/chap/1.2.6.7">1.2.6.7</a></td>
+<td>Tears</td><td>1</td>
+<td>2</td><td>✓</td>
+<td id='indent_859'>3</td>
+<td>859</td>
+</tr>
+<tr>
+<td><a name="1.2.6.8"></a><a target="notes" href="/chap/1.2.6.8">1.2.6.8</a></td>
+<td>Eye Sand</td><td></td>
+<td></td><td></td>
+<td id='indent_860'>3</td>
+<td>860</td>
+</tr>
+<tr>
+<td><a name="1.2.6.9"></a><a target="notes" href="/chap/1.2.6.9">1.2.6.9</a></td>
+<td>Watch</td><td></td>
+<td></td><td></td>
+<td id='indent_861'>3</td>
+<td>861</td>
+</tr>
+<tr>
+<td><a name="1.2.6.10"></a><a target="notes" href="/chap/1.2.6.10">1.2.6.10</a></td>
+<td>See/Look</td><td>11</td>
+<td></td><td></td>
+<td id='indent_862'>3</td>
+<td>862</td>
+</tr>
+<tr>
+<td><a name="1.2.6.11"></a><a target="notes" href="/chap/1.2.6.11">1.2.6.11</a></td>
+<td>Behold</td><td></td>
+<td></td><td></td>
+<td id='indent_863'>3</td>
+<td>863</td>
+</tr>
+<tr>
+<td><a name="1.2.6.12"></a><a target="notes" href="/chap/1.2.6.12">1.2.6.12</a></td>
+<td>Blink/Wink</td><td>3</td>
+<td></td><td></td>
+<td id='indent_864'>3</td>
+<td>864</td>
+</tr>
+<tr>
+<td><a name="1.2.6.13"></a><a target="notes" href="/chap/1.2.6.13">1.2.6.13</a></td>
+<td>Squint</td><td>1</td>
+<td></td><td></td>
+<td id='indent_865'>3</td>
+<td>865</td>
+</tr>
+<tr>
+<td><a name="1.2.6.14"></a><a target="notes" href="/chap/1.2.6.14">1.2.6.14</a></td>
+<td>Eye Illness</td><td></td>
+<td></td><td></td>
+<td id='indent_866'>3</td>
+<td>866</td>
+</tr>
+<tr>
+<td><a name="1.2.6.14.1"></a><a target="notes" href="/chap/1.2.6.14.1">1.2.6.14.1</a></td>
+<td>Cross-eyed</td><td></td>
+<td></td><td></td>
+<td id='indent_867'>4</td>
+<td>867</td>
+</tr>
+<tr>
+<td><a name="1.2.6.14.2"></a><a target="notes" href="/chap/1.2.6.14.2">1.2.6.14.2</a></td>
+<td>Blind</td><td>5</td>
+<td></td><td></td>
+<td id='indent_868'>4</td>
+<td>868</td>
+</tr>
+<tr>
+<td><a name="1.2.6.14.3"></a><a target="notes" href="/chap/1.2.6.14.3">1.2.6.14.3</a></td>
+<td>Sty of Eye</td><td></td>
+<td></td><td></td>
+<td id='indent_869'>4</td>
+<td>869</td>
+</tr>
+<tr>
+<td><a name="1.2.7"></a><a target="notes" href="/chap/1.2.7">1.2.7</a></td>
+<td>Ear</td><td>18</td>
+<td>4</td><td>✓</td>
+<td id='indent_870'>2</td>
+<td>870</td>
+</tr>
+<tr>
+<td><a name="1.2.7.1"></a><a target="notes" href="/chap/1.2.7.1">1.2.7.1</a></td>
+<td>Earlobe</td><td></td>
+<td>1</td><td>✓</td>
+<td id='indent_871'>3</td>
+<td>871</td>
+</tr>
+<tr>
+<td><a name="1.2.7.2"></a><a target="notes" href="/chap/1.2.7.2">1.2.7.2</a></td>
+<td>Eardrum</td><td></td>
+<td>1</td><td>✓</td>
+<td id='indent_872'>3</td>
+<td>872</td>
+</tr>
+<tr>
+<td><a name="1.2.7.3"></a><a target="notes" href="/chap/1.2.7.3">1.2.7.3</a></td>
+<td>Earwax</td><td>3</td>
+<td>1</td><td>✓</td>
+<td id='indent_873'>3</td>
+<td>873</td>
+</tr>
+<tr>
+<td><a name="1.2.7.4"></a><a target="notes" href="/chap/1.2.7.4">1.2.7.4</a></td>
+<td>Hear/Listen</td><td>6</td>
+<td></td><td></td>
+<td id='indent_874'>3</td>
+<td>874</td>
+</tr>
+<tr>
+<td><a name="1.2.7.5"></a><a target="notes" href="/chap/1.2.7.5">1.2.7.5</a></td>
+<td>Deaf</td><td>5</td>
+<td></td><td></td>
+<td id='indent_875'>3</td>
+<td>875</td>
+</tr>
+<tr>
+<td><a name="1.2.8"></a><a target="notes" href="/chap/1.2.8">1.2.8</a></td>
+<td>Nose</td><td>10</td>
+<td>4</td><td>✓</td>
+<td id='indent_876'>2</td>
+<td>876</td>
+</tr>
+<tr>
+<td><a name="1.2.8.1"></a><a target="notes" href="/chap/1.2.8.1">1.2.8.1</a></td>
+<td>Nostril</td><td></td>
+<td>1</td><td>✓</td>
+<td id='indent_877'>3</td>
+<td>877</td>
+</tr>
+<tr>
+<td><a name="1.2.8.2"></a><a target="notes" href="/chap/1.2.8.2">1.2.8.2</a></td>
+<td>Alae Nasi</td><td></td>
+<td></td><td></td>
+<td id='indent_878'>3</td>
+<td>878</td>
+</tr>
+<tr>
+<td><a name="1.2.8.3"></a><a target="notes" href="/chap/1.2.8.3">1.2.8.3</a></td>
+<td>Snout</td><td>1</td>
+<td></td><td></td>
+<td id='indent_879'>3</td>
+<td>879</td>
+</tr>
+<tr>
+<td><a name="1.2.8.4"></a><a target="notes" href="/chap/1.2.8.4">1.2.8.4</a></td>
+<td>Snot: See Secretions</td><td></td>
+<td></td><td></td>
+<td id='indent_880'>3</td>
+<td>880</td>
+</tr>
+<tr>
+<td><a name="1.2.8.5"></a><a target="notes" href="/chap/1.2.8.5">1.2.8.5</a></td>
+<td>Smell</td><td>10</td>
+<td></td><td></td>
+<td id='indent_881'>3</td>
+<td>881</td>
+</tr>
+<tr>
+<td><a name="1.3"></a><a target="notes" href="/chap/1.3">1.3</a></td>
+<td><i>Mouth and Throat</i></td><td></td>
+<td>1</td><td>✓</td>
+<td id='indent_882'>1</td>
+<td>882</td>
+</tr>
+<tr>
+<td><a name="1.3.1"></a><a target="notes" href="/chap/1.3.1">1.3.1</a></td>
+<td>Mouth</td><td>15</td>
+<td>5</td><td>✓</td>
+<td id='indent_883'>2</td>
+<td>883</td>
+</tr>
+<tr>
+<td><a name="1.3.1.1"></a><a target="notes" href="/chap/1.3.1.1">1.3.1.1</a></td>
+<td>Palate</td><td>5</td>
+<td></td><td></td>
+<td id='indent_884'>3</td>
+<td>884</td>
+</tr>
+<tr>
+<td><a name="1.3.1.2"></a><a target="notes" href="/chap/1.3.1.2">1.3.1.2</a></td>
+<td>Beak/Bill</td><td></td>
+<td>1</td><td></td>
+<td id='indent_885'>3</td>
+<td>885</td>
+</tr>
+<tr>
+<td><a name="1.3.1.3"></a><a target="notes" href="/chap/1.3.1.3">1.3.1.3</a></td>
+<td>Yawn/Gape</td><td>3</td>
+<td></td><td></td>
+<td id='indent_886'>3</td>
+<td>886</td>
+</tr>
+<tr>
+<td><a name="1.3.1.4"></a><a target="notes" href="/chap/1.3.1.4">1.3.1.4</a></td>
+<td>Blow</td><td>11</td>
+<td></td><td></td>
+<td id='indent_887'>3</td>
+<td>887</td>
+</tr>
+<tr>
+<td><a name="1.3.2"></a><a target="notes" href="/chap/1.3.2">1.3.2</a></td>
+<td>Lip</td><td>6</td>
+<td>4</td><td>✓</td>
+<td id='indent_888'>2</td>
+<td>888</td>
+</tr>
+<tr>
+<td><a name="1.3.2.1"></a><a target="notes" href="/chap/1.3.2.1">1.3.2.1</a></td>
+<td>Suck/Suckle</td><td>1</td>
+<td></td><td></td>
+<td id='indent_889'>3</td>
+<td>889</td>
+</tr>
+<tr>
+<td><a name="1.3.2.2"></a><a target="notes" href="/chap/1.3.2.2">1.3.2.2</a></td>
+<td>Kiss</td><td>1</td>
+<td></td><td></td>
+<td id='indent_890'>3</td>
+<td>890</td>
+</tr>
+<tr>
+<td><a name="1.3.3"></a><a target="notes" href="/chap/1.3.3">1.3.3</a></td>
+<td>Tongue</td><td>5</td>
+<td>2</td><td>✓</td>
+<td id='indent_891'>2</td>
+<td>891</td>
+</tr>
+<tr>
+<td><a name="1.3.3.1"></a><a target="notes" href="/chap/1.3.3.1">1.3.3.1</a></td>
+<td>Lick</td><td></td>
+<td></td><td></td>
+<td id='indent_892'>3</td>
+<td>892</td>
+</tr>
+<tr>
+<td><a name="1.3.4"></a><a target="notes" href="/chap/1.3.4">1.3.4</a></td>
+<td>Tooth</td><td>8</td>
+<td>6</td><td>✓</td>
+<td id='indent_893'>2</td>
+<td>893</td>
+</tr>
+<tr>
+<td><a name="1.3.4.1"></a><a target="notes" href="/chap/1.3.4.1">1.3.4.1</a></td>
+<td>Eyetooth/Tusk/Canine Tooth</td><td>3</td>
+<td>2</td><td>✓</td>
+<td id='indent_894'>3</td>
+<td>894</td>
+</tr>
+<tr>
+<td><a name="1.3.4.2"></a><a target="notes" href="/chap/1.3.4.2">1.3.4.2</a></td>
+<td>Molar</td><td>2</td>
+<td>1</td><td></td>
+<td id='indent_895'>3</td>
+<td>895</td>
+</tr>
+<tr>
+<td><a name="1.3.4.3"></a><a target="notes" href="/chap/1.3.4.3">1.3.4.3</a></td>
+<td>Gums</td><td>4</td>
+<td>1</td><td></td>
+<td id='indent_896'>3</td>
+<td>896</td>
+</tr>
+<tr>
+<td><a name="1.3.4.4"></a><a target="notes" href="/chap/1.3.4.4">1.3.4.4</a></td>
+<td>Bite/Hold in Mouth</td><td>13</td>
+<td></td><td></td>
+<td id='indent_897'>3</td>
+<td>897</td>
+</tr>
+<tr>
+<td><a name="1.3.4.5"></a><a target="notes" href="/chap/1.3.4.5">1.3.4.5</a></td>
+<td>Chew</td><td>14</td>
+<td>2</td><td></td>
+<td id='indent_898'>3</td>
+<td>898</td>
+</tr>
+<tr>
+<td><a name="1.3.5"></a><a target="notes" href="/chap/1.3.5">1.3.5</a></td>
+<td>Throat/Pharynx</td><td>18</td>
+<td>6</td><td>✓</td>
+<td id='indent_899'>2</td>
+<td>899</td>
+</tr>
+<tr>
+<td><a name="1.3.5.1"></a><a target="notes" href="/chap/1.3.5.1">1.3.5.1</a></td>
+<td>Uvula</td><td></td>
+<td></td><td></td>
+<td id='indent_900'>3</td>
+<td>900</td>
+</tr>
+<tr>
+<td><a name="1.3.5.2"></a><a target="notes" href="/chap/1.3.5.2">1.3.5.2</a></td>
+<td>Windpipe/Trachea</td><td>2</td>
+<td></td><td></td>
+<td id='indent_901'>3</td>
+<td>901</td>
+</tr>
+<tr>
+<td><a name="1.3.5.3"></a><a target="notes" href="/chap/1.3.5.3">1.3.5.3</a></td>
+<td>Gill</td><td></td>
+<td></td><td></td>
+<td id='indent_902'>3</td>
+<td>902</td>
+</tr>
+<tr>
+<td><a name="1.3.5.4"></a><a target="notes" href="/chap/1.3.5.4">1.3.5.4</a></td>
+<td>Adam's Apple/Larynx</td><td>2</td>
+<td>1</td><td></td>
+<td id='indent_903'>3</td>
+<td>903</td>
+</tr>
+<tr>
+<td><a name="1.3.5.5"></a><a target="notes" href="/chap/1.3.5.5">1.3.5.5</a></td>
+<td>Gullet/Esophagus</td><td></td>
+<td></td><td></td>
+<td id='indent_904'>3</td>
+<td>904</td>
+</tr>
+<tr>
+<td><a name="1.3.5.6"></a><a target="notes" href="/chap/1.3.5.6">1.3.5.6</a></td>
+<td>Swallow</td><td>10</td>
+<td>1</td><td></td>
+<td id='indent_905'>3</td>
+<td>905</td>
+</tr>
+<tr>
+<td><a name="1.3.5.7"></a><a target="notes" href="/chap/1.3.5.7">1.3.5.7</a></td>
+<td>Choke</td><td>2</td>
+<td></td><td></td>
+<td id='indent_906'>3</td>
+<td>906</td>
+</tr>
+<tr>
+<td><a name="1.3.5.8"></a><a target="notes" href="/chap/1.3.5.8">1.3.5.8</a></td>
+<td>Eat/Devour</td><td>14</td>
+<td></td><td></td>
+<td id='indent_907'>3</td>
+<td>907</td>
+</tr>
+<tr>
+<td><a name="1.3.5.9"></a><a target="notes" href="/chap/1.3.5.9">1.3.5.9</a></td>
+<td>Drink</td><td>13</td>
+<td></td><td></td>
+<td id='indent_908'>3</td>
+<td>908</td>
+</tr>
+<tr>
+<td><a name="1.4"></a><a target="notes" href="/chap/1.4">1.4</a></td>
+<td><i>Torso</i></td><td></td>
+<td></td><td></td>
+<td id='indent_909'>1</td>
+<td>909</td>
+</tr>
+<tr>
+<td><a name="1.4.1"></a><a target="notes" href="/chap/1.4.1">1.4.1</a></td>
+<td>Torso/Trunk</td><td></td>
+<td></td><td></td>
+<td id='indent_910'>2</td>
+<td>910</td>
+</tr>
+<tr>
+<td><a name="1.4.2"></a><a target="notes" href="/chap/1.4.2">1.4.2</a></td>
+<td>Neck</td><td>17</td>
+<td>3</td><td>✓</td>
+<td id='indent_911'>2</td>
+<td>911</td>
+</tr>
+<tr>
+<td><a name="1.4.2.1"></a><a target="notes" href="/chap/1.4.2.1">1.4.2.1</a></td>
+<td>Nape of Neck</td><td></td>
+<td></td><td></td>
+<td id='indent_912'>3</td>
+<td>912</td>
+</tr>
+<tr>
+<td><a name="1.4.2.2"></a><a target="notes" href="/chap/1.4.2.2">1.4.2.2</a></td>
+<td>Goiter</td><td></td>
+<td></td><td></td>
+<td id='indent_913'>3</td>
+<td>913</td>
+</tr>
+<tr>
+<td><a name="1.4.3"></a><a target="notes" href="/chap/1.4.3">1.4.3</a></td>
+<td>Shoulder</td><td>18</td>
+<td>3</td><td>✓</td>
+<td id='indent_914'>2</td>
+<td>914</td>
+</tr>
+<tr>
+<td><a name="1.4.3.1"></a><a target="notes" href="/chap/1.4.3.1">1.4.3.1</a></td>
+<td>Collarbone/Clavicle</td><td></td>
+<td></td><td></td>
+<td id='indent_915'>3</td>
+<td>915</td>
+</tr>
+<tr>
+<td><a name="1.4.3.2"></a><a target="notes" href="/chap/1.4.3.2">1.4.3.2</a></td>
+<td>Shoulderblade/Scapula</td><td></td>
+<td></td><td></td>
+<td id='indent_916'>3</td>
+<td>916</td>
+</tr>
+<tr>
+<td><a name="1.4.3.3"></a><a target="notes" href="/chap/1.4.3.3">1.4.3.3</a></td>
+<td>Carry on shoulder</td><td></td>
+<td></td><td></td>
+<td id='indent_917'>3</td>
+<td>917</td>
+</tr>
+<tr>
+<td><a name="1.4.4"></a><a target="notes" href="/chap/1.4.4">1.4.4</a></td>
+<td>Front</td><td>6</td>
+<td></td><td></td>
+<td id='indent_918'>2</td>
+<td>918</td>
+</tr>
+<tr>
+<td><a name="1.4.4.1"></a><a target="notes" href="/chap/1.4.4.1">1.4.4.1</a></td>
+<td>Folded</td><td>2</td>
+<td></td><td></td>
+<td id='indent_919'>3</td>
+<td>919</td>
+</tr>
+<tr>
+<td><a name="1.4.4.2"></a><a target="notes" href="/chap/1.4.4.2">1.4.4.2</a></td>
+<td>Bosom/Lap</td><td>2</td>
+<td></td><td></td>
+<td id='indent_920'>3</td>
+<td>920</td>
+</tr>
+<tr>
+<td><a name="1.4.4.3"></a><a target="notes" href="/chap/1.4.4.3">1.4.4.3</a></td>
+<td>Chest</td><td>19</td>
+<td>1</td><td></td>
+<td id='indent_921'>3</td>
+<td>921</td>
+</tr>
+<tr>
+<td><a name="1.4.4.4"></a><a target="notes" href="/chap/1.4.4.4">1.4.4.4</a></td>
+<td>Ribs/Ribcage</td><td>6</td>
+<td>2</td><td>✓</td>
+<td id='indent_922'>3</td>
+<td>922</td>
+</tr>
+<tr>
+<td><a name="1.4.4.5"></a><a target="notes" href="/chap/1.4.4.5">1.4.4.5</a></td>
+<td>Chest Hair</td><td></td>
+<td></td><td></td>
+<td id='indent_923'>3</td>
+<td>923</td>
+</tr>
+<tr>
+<td><a name="1.4.5"></a><a target="notes" href="/chap/1.4.5">1.4.5</a></td>
+<td>Sides</td><td>5</td>
+<td>1</td><td>✓</td>
+<td id='indent_924'>2</td>
+<td>924</td>
+</tr>
+<tr>
+<td><a name="1.4.6"></a><a target="notes" href="/chap/1.4.6">1.4.6</a></td>
+<td>Waist</td><td>14</td>
+<td>1</td><td></td>
+<td id='indent_925'>2</td>
+<td>925</td>
+</tr>
+<tr>
+<td><a name="1.4.7"></a><a target="notes" href="/chap/1.4.7">1.4.7</a></td>
+<td>Belly/Abdomen</td><td></td>
+<td>3</td><td>✓</td>
+<td id='indent_926'>2</td>
+<td>926</td>
+</tr>
+<tr>
+<td><a name="1.4.8"></a><a target="notes" href="/chap/1.4.8">1.4.8</a></td>
+<td>Back</td><td>16</td>
+<td>3</td><td>✓</td>
+<td id='indent_927'>2</td>
+<td>927</td>
+</tr>
+<tr>
+<td><a name="1.4.8.1"></a><a target="notes" href="/chap/1.4.8.1">1.4.8.1</a></td>
+<td>Lower Back/Small of Back</td><td>6</td>
+<td>1</td><td>✓</td>
+<td id='indent_928'>3</td>
+<td>928</td>
+</tr>
+<tr>
+<td><a name="1.4.8.2"></a><a target="notes" href="/chap/1.4.8.2">1.4.8.2</a></td>
+<td>Spine/Backbone</td><td></td>
+<td></td><td></td>
+<td id='indent_929'>3</td>
+<td>929</td>
+</tr>
+<tr>
+<td><a name="1.4.8.3"></a><a target="notes" href="/chap/1.4.8.3">1.4.8.3</a></td>
+<td>Hunchback</td><td></td>
+<td></td><td></td>
+<td id='indent_930'>3</td>
+<td>930</td>
+</tr>
+<tr>
+<td><a name="1.4.8.4"></a><a target="notes" href="/chap/1.4.8.4">1.4.8.4</a></td>
+<td>Crouch</td><td></td>
+<td></td><td></td>
+<td id='indent_931'>3</td>
+<td>931</td>
+</tr>
+<tr>
+<td><a name="1.4.9"></a><a target="notes" href="/chap/1.4.9">1.4.9</a></td>
+<td>Loins/Groin</td><td>5</td>
+<td></td><td></td>
+<td id='indent_932'>2</td>
+<td>932</td>
+</tr>
+<tr>
+<td><a name="1.4.9.1"></a><a target="notes" href="/chap/1.4.9.1">1.4.9.1</a></td>
+<td>Crotch/Fork</td><td>4</td>
+<td></td><td></td>
+<td id='indent_933'>3</td>
+<td>933</td>
+</tr>
+<tr>
+<td><a name="1.4.9.2"></a><a target="notes" href="/chap/1.4.9.2">1.4.9.2</a></td>
+<td>Hips/Pelvis/Haunches</td><td>13</td>
+<td></td><td></td>
+<td id='indent_934'>3</td>
+<td>934</td>
+</tr>
+<tr>
+<td><a name="1.4.10"></a><a target="notes" href="/chap/1.4.10">1.4.10</a></td>
+<td>Buttocks/Rump</td><td>11</td>
+<td>2</td><td>✓</td>
+<td id='indent_935'>2</td>
+<td>935</td>
+</tr>
+<tr>
+<td><a name="1.4.10.1"></a><a target="notes" href="/chap/1.4.10.1">1.4.10.1</a></td>
+<td>Tail</td><td>6</td>
+<td>1</td><td>✓</td>
+<td id='indent_936'>3</td>
+<td>936</td>
+</tr>
+<tr>
+<td><a name="1.4.10.1.1"></a><a target="notes" href="/chap/1.4.10.1.1">1.4.10.1.1</a></td>
+<td>Short-tailed</td><td></td>
+<td></td><td></td>
+<td id='indent_937'>4</td>
+<td>937</td>
+</tr>
+<tr>
+<td><a name="1.4.10.2"></a><a target="notes" href="/chap/1.4.10.2">1.4.10.2</a></td>
+<td>Anus/Rectum</td><td></td>
+<td></td><td></td>
+<td id='indent_938'>3</td>
+<td>938</td>
+</tr>
+<tr>
+<td><a name="1.5"></a><a target="notes" href="/chap/1.5">1.5</a></td>
+<td><i>Limbs, Joints, and Body Measures</i></td><td></td>
+<td>1</td><td>✓</td>
+<td id='indent_939'>1</td>
+<td>939</td>
+</tr>
+<tr>
+<td><a name="1.5.1"></a><a target="notes" href="/chap/1.5.1">1.5.1</a></td>
+<td>Hand, Arm, Wing</td><td>64</td>
+<td>3</td><td>✓</td>
+<td id='indent_940'>2</td>
+<td>940</td>
+</tr>
+<tr>
+<td><a name="1.5.1.1"></a><a target="notes" href="/chap/1.5.1.1">1.5.1.1</a></td>
+<td>Hand</td><td></td>
+<td></td><td></td>
+<td id='indent_941'>3</td>
+<td>941</td>
+</tr>
+<tr>
+<td><a name="1.5.1.1.1"></a><a target="notes" href="/chap/1.5.1.1.1">1.5.1.1.1</a></td>
+<td>Fist</td><td></td>
+<td></td><td></td>
+<td id='indent_942'>4</td>
+<td>942</td>
+</tr>
+<tr>
+<td><a name="1.5.1.1.2"></a><a target="notes" href="/chap/1.5.1.1.2">1.5.1.1.2</a></td>
+<td>Back of Hand</td><td></td>
+<td></td><td></td>
+<td id='indent_943'>4</td>
+<td>943</td>
+</tr>
+<tr>
+<td><a name="1.5.1.1.3"></a><a target="notes" href="/chap/1.5.1.1.3">1.5.1.1.3</a></td>
+<td>Four-handed</td><td></td>
+<td></td><td></td>
+<td id='indent_944'>4</td>
+<td>944</td>
+</tr>
+<tr>
+<td><a name="1.5.1.2"></a><a target="notes" href="/chap/1.5.1.2">1.5.1.2</a></td>
+<td>Arm</td><td></td>
+<td></td><td></td>
+<td id='indent_945'>3</td>
+<td>945</td>
+</tr>
+<tr>
+<td><a name="1.5.1.2.1"></a><a target="notes" href="/chap/1.5.1.2.1">1.5.1.2.1</a></td>
+<td>Bicep/Upper Arm</td><td></td>
+<td></td><td></td>
+<td id='indent_946'>4</td>
+<td>946</td>
+</tr>
+<tr>
+<td><a name="1.5.1.2.2"></a><a target="notes" href="/chap/1.5.1.2.2">1.5.1.2.2</a></td>
+<td>Forearm</td><td></td>
+<td></td><td></td>
+<td id='indent_947'>4</td>
+<td>947</td>
+</tr>
+<tr>
+<td><a name="1.5.1.2.3"></a><a target="notes" href="/chap/1.5.1.2.3">1.5.1.2.3</a></td>
+<td>Underarm/Armpit</td><td>1</td>
+<td></td><td></td>
+<td id='indent_948'>4</td>
+<td>948</td>
+</tr>
+<tr>
+<td><a name="1.5.1.2.4"></a><a target="notes" href="/chap/1.5.1.2.4">1.5.1.2.4</a></td>
+<td>Tickle</td><td></td>
+<td></td><td></td>
+<td id='indent_949'>4</td>
+<td>949</td>
+</tr>
+<tr>
+<td><a name="1.5.1.3"></a><a target="notes" href="/chap/1.5.1.3">1.5.1.3</a></td>
+<td>Wing</td><td></td>
+<td></td><td></td>
+<td id='indent_950'>3</td>
+<td>950</td>
+</tr>
+<tr>
+<td><a name="1.5.1.3.1"></a><a target="notes" href="/chap/1.5.1.3.1">1.5.1.3.1</a></td>
+<td>Fin</td><td></td>
+<td></td><td></td>
+<td id='indent_951'>4</td>
+<td>951</td>
+</tr>
+<tr>
+<td><a name="1.5.2"></a><a target="notes" href="/chap/1.5.2">1.5.2</a></td>
+<td>Foot</td><td>15</td>
+<td></td><td></td>
+<td id='indent_952'>2</td>
+<td>952</td>
+</tr>
+<tr>
+<td><a name="1.5.2.1"></a><a target="notes" href="/chap/1.5.2.1">1.5.2.1</a></td>
+<td>Heel</td><td>3</td>
+<td>1</td><td></td>
+<td id='indent_953'>3</td>
+<td>953</td>
+</tr>
+<tr>
+<td><a name="1.5.2.2"></a><a target="notes" href="/chap/1.5.2.2">1.5.2.2</a></td>
+<td>Instep</td><td></td>
+<td></td><td></td>
+<td id='indent_954'>3</td>
+<td>954</td>
+</tr>
+<tr>
+<td><a name="1.5.2.3"></a><a target="notes" href="/chap/1.5.2.3">1.5.2.3</a></td>
+<td>Arch</td><td></td>
+<td></td><td></td>
+<td id='indent_955'>3</td>
+<td>955</td>
+</tr>
+<tr>
+<td><a name="1.5.2.4"></a><a target="notes" href="/chap/1.5.2.4">1.5.2.4</a></td>
+<td>Ball of Foot</td><td></td>
+<td></td><td></td>
+<td id='indent_956'>3</td>
+<td>956</td>
+</tr>
+<tr>
+<td><a name="1.5.2.5"></a><a target="notes" href="/chap/1.5.2.5">1.5.2.5</a></td>
+<td>Footprint</td><td>1</td>
+<td></td><td></td>
+<td id='indent_957'>3</td>
+<td>957</td>
+</tr>
+<tr>
+<td><a name="1.5.3"></a><a target="notes" href="/chap/1.5.3">1.5.3</a></td>
+<td>Hands and Feet/Arms and Legs</td><td></td>
+<td></td><td></td>
+<td id='indent_958'>2</td>
+<td>958</td>
+</tr>
+<tr>
+<td><a name="1.5.3.1"></a><a target="notes" href="/chap/1.5.3.1">1.5.3.1</a></td>
+<td>Limb/Branch</td><td></td>
+<td></td><td></td>
+<td id='indent_959'>3</td>
+<td>959</td>
+</tr>
+<tr>
+<td><a name="1.5.3.2"></a><a target="notes" href="/chap/1.5.3.2">1.5.3.2</a></td>
+<td>Five</td><td></td>
+<td></td><td></td>
+<td id='indent_960'>3</td>
+<td>960</td>
+</tr>
+<tr>
+<td><a name="1.5.3.3"></a><a target="notes" href="/chap/1.5.3.3">1.5.3.3</a></td>
+<td>Bandy-legged</td><td></td>
+<td></td><td></td>
+<td id='indent_961'>3</td>
+<td>961</td>
+</tr>
+<tr>
+<td><a name="1.5.4"></a><a target="notes" href="/chap/1.5.4">1.5.4</a></td>
+<td>Hoof/Paw</td><td>3</td>
+<td></td><td></td>
+<td id='indent_962'>2</td>
+<td>962</td>
+</tr>
+<tr>
+<td><a name="1.5.5"></a><a target="notes" href="/chap/1.5.5">1.5.5</a></td>
+<td>Palm/Sole</td><td>7</td>
+<td>1</td><td>✓</td>
+<td id='indent_963'>2</td>
+<td>963</td>
+</tr>
+<tr>
+<td><a name="1.5.6"></a><a target="notes" href="/chap/1.5.6">1.5.6</a></td>
+<td>Finger/Toe</td><td>12</td>
+<td>2</td><td>✓</td>
+<td id='indent_964'>2</td>
+<td>964</td>
+</tr>
+<tr>
+<td><a name="1.5.6.1"></a><a target="notes" href="/chap/1.5.6.1">1.5.6.1</a></td>
+<td>Thumb/Big Toe</td><td></td>
+<td>1</td><td></td>
+<td id='indent_965'>3</td>
+<td>965</td>
+</tr>
+<tr>
+<td><a name="1.5.6.2"></a><a target="notes" href="/chap/1.5.6.2">1.5.6.2</a></td>
+<td>Other Specific Digits</td><td></td>
+<td></td><td></td>
+<td id='indent_966'>3</td>
+<td>966</td>
+</tr>
+<tr>
+<td><a name="1.5.6.3"></a><a target="notes" href="/chap/1.5.6.3">1.5.6.3</a></td>
+<td>Fingerprint</td><td></td>
+<td></td><td></td>
+<td id='indent_967'>3</td>
+<td>967</td>
+</tr>
+<tr>
+<td><a name="1.5.7"></a><a target="notes" href="/chap/1.5.7">1.5.7</a></td>
+<td>Leg</td><td></td>
+<td>1</td><td></td>
+<td id='indent_968'>2</td>
+<td>968</td>
+</tr>
+<tr>
+<td><a name="1.5.7.1"></a><a target="notes" href="/chap/1.5.7.1">1.5.7.1</a></td>
+<td>Thigh</td><td>1</td>
+<td></td><td></td>
+<td id='indent_969'>3</td>
+<td>969</td>
+</tr>
+<tr>
+<td><a name="1.5.7.2"></a><a target="notes" href="/chap/1.5.7.2">1.5.7.2</a></td>
+<td>Shin/Tibia</td><td>4</td>
+<td></td><td></td>
+<td id='indent_970'>3</td>
+<td>970</td>
+</tr>
+<tr>
+<td><a name="1.5.7.3"></a><a target="notes" href="/chap/1.5.7.3">1.5.7.3</a></td>
+<td>Calf</td><td>1</td>
+<td></td><td></td>
+<td id='indent_971'>3</td>
+<td>971</td>
+</tr>
+<tr>
+<td><a name="1.5.7.4"></a><a target="notes" href="/chap/1.5.7.4">1.5.7.4</a></td>
+<td>Lower Leg</td><td></td>
+<td></td><td></td>
+<td id='indent_972'>3</td>
+<td>972</td>
+</tr>
+<tr>
+<td><a name="1.5.8"></a><a target="notes" href="/chap/1.5.8">1.5.8</a></td>
+<td>Joint</td><td>12</td>
+<td>3</td><td>✓</td>
+<td id='indent_973'>2</td>
+<td>973</td>
+</tr>
+<tr>
+<td><a name="1.5.8.1"></a><a target="notes" href="/chap/1.5.8.1">1.5.8.1</a></td>
+<td>Wrist</td><td></td>
+<td>1</td><td>✓</td>
+<td id='indent_974'>3</td>
+<td>974</td>
+</tr>
+<tr>
+<td><a name="1.5.8.2"></a><a target="notes" href="/chap/1.5.8.2">1.5.8.2</a></td>
+<td>Ankle</td><td></td>
+<td>1</td><td>✓</td>
+<td id='indent_975'>3</td>
+<td>975</td>
+</tr>
+<tr>
+<td><a name="1.5.8.3"></a><a target="notes" href="/chap/1.5.8.3">1.5.8.3</a></td>
+<td>Elbow</td><td>2</td>
+<td>1</td><td>✓</td>
+<td id='indent_976'>3</td>
+<td>976</td>
+</tr>
+<tr>
+<td><a name="1.5.8.4"></a><a target="notes" href="/chap/1.5.8.4">1.5.8.4</a></td>
+<td>Knee</td><td>7</td>
+<td>1</td><td></td>
+<td id='indent_977'>3</td>
+<td>977</td>
+</tr>
+<tr>
+<td><a name="1.5.8.4.1"></a><a target="notes" href="/chap/1.5.8.4.1">1.5.8.4.1</a></td>
+<td>Knee-deep</td><td></td>
+<td></td><td></td>
+<td id='indent_978'>4</td>
+<td>978</td>
+</tr>
+<tr>
+<td><a name="1.5.8.5"></a><a target="notes" href="/chap/1.5.8.5">1.5.8.5</a></td>
+<td>Knuckle/Phalanx</td><td></td>
+<td></td><td></td>
+<td id='indent_979'>3</td>
+<td>979</td>
+</tr>
+<tr>
+<td><a name="1.5.9"></a><a target="notes" href="/chap/1.5.9">1.5.9</a></td>
+<td>Body Measures</td><td></td>
+<td>1</td><td></td>
+<td id='indent_980'>2</td>
+<td>980</td>
+</tr>
+<tr>
+<td><a name="1.5.9.1"></a><a target="notes" href="/chap/1.5.9.1">1.5.9.1</a></td>
+<td>Right</td><td>3</td>
+<td></td><td></td>
+<td id='indent_981'>3</td>
+<td>981</td>
+</tr>
+<tr>
+<td><a name="1.5.9.2"></a><a target="notes" href="/chap/1.5.9.2">1.5.9.2</a></td>
+<td>Left</td><td>2</td>
+<td></td><td></td>
+<td id='indent_982'>3</td>
+<td>982</td>
+</tr>
+<tr>
+<td><a name="1.5.9.3"></a><a target="notes" href="/chap/1.5.9.3">1.5.9.3</a></td>
+<td>Cubit</td><td></td>
+<td></td><td></td>
+<td id='indent_983'>3</td>
+<td>983</td>
+</tr>
+<tr>
+<td><a name="1.5.9.4"></a><a target="notes" href="/chap/1.5.9.4">1.5.9.4</a></td>
+<td>Span/Handspan</td><td>3</td>
+<td></td><td></td>
+<td id='indent_984'>3</td>
+<td>984</td>
+</tr>
+<tr>
+<td><a name="1.5.9.5"></a><a target="notes" href="/chap/1.5.9.5">1.5.9.5</a></td>
+<td>Fathom/Cord</td><td></td>
+<td></td><td></td>
+<td id='indent_985'>3</td>
+<td>985</td>
+</tr>
+<tr>
+<td><a name="1.5.10"></a><a target="notes" href="/chap/1.5.10">1.5.10</a></td>
+<td>Nail</td><td>12</td>
+<td>1</td><td>✓</td>
+<td id='indent_986'>2</td>
+<td>986</td>
+</tr>
+<tr>
+<td><a name="1.5.10.1"></a><a target="notes" href="/chap/1.5.10.1">1.5.10.1</a></td>
+<td>Fingernail</td><td></td>
+<td></td><td></td>
+<td id='indent_987'>3</td>
+<td>987</td>
+</tr>
+<tr>
+<td><a name="1.5.10.2"></a><a target="notes" href="/chap/1.5.10.2">1.5.10.2</a></td>
+<td>Toenail</td><td></td>
+<td></td><td></td>
+<td id='indent_988'>3</td>
+<td>988</td>
+</tr>
+<tr>
+<td><a name="1.5.10.3"></a><a target="notes" href="/chap/1.5.10.3">1.5.10.3</a></td>
+<td>Cuticle</td><td></td>
+<td></td><td></td>
+<td id='indent_989'>3</td>
+<td>989</td>
+</tr>
+<tr>
+<td><a name="1.5.10.4"></a><a target="notes" href="/chap/1.5.10.4">1.5.10.4</a></td>
+<td>Claw/Talon/Pincer</td><td>3</td>
+<td></td><td></td>
+<td id='indent_990'>3</td>
+<td>990</td>
+</tr>
+<tr>
+<td><a name="1.5.11"></a><a target="notes" href="/chap/1.5.11">1.5.11</a></td>
+<td>Numb/Paralyzed</td><td>4</td>
+<td></td><td></td>
+<td id='indent_991'>2</td>
+<td>991</td>
+</tr>
+<tr>
+<td><a name="1.5.12"></a><a target="notes" href="/chap/1.5.12">1.5.12</a></td>
+<td>Lame/Limp</td><td>3</td>
+<td></td><td></td>
+<td id='indent_992'>2</td>
+<td>992</td>
+</tr>
+<tr>
+<td><a name="1.6"></a><a target="notes" href="/chap/1.6">1.6</a></td>
+<td><i>Diffuse Organs</i></td><td></td>
+<td></td><td></td>
+<td id='indent_993'>1</td>
+<td>993</td>
+</tr>
+<tr>
+<td><a name="1.6.1"></a><a target="notes" href="/chap/1.6.1">1.6.1</a></td>
+<td>Body Hair/Fur</td><td>6</td>
+<td></td><td></td>
+<td id='indent_994'>2</td>
+<td>994</td>
+</tr>
+<tr>
+<td><a name="1.6.1.1"></a><a target="notes" href="/chap/1.6.1.1">1.6.1.1</a></td>
+<td>Feather</td><td>1</td>
+<td></td><td></td>
+<td id='indent_995'>3</td>
+<td>995</td>
+</tr>
+<tr>
+<td><a name="1.6.1.2"></a><a target="notes" href="/chap/1.6.1.2">1.6.1.2</a></td>
+<td>Mane</td><td>1</td>
+<td></td><td></td>
+<td id='indent_996'>3</td>
+<td>996</td>
+</tr>
+<tr>
+<td><a name="1.6.1.3"></a><a target="notes" href="/chap/1.6.1.3">1.6.1.3</a></td>
+<td>Wool</td><td>1</td>
+<td></td><td></td>
+<td id='indent_997'>3</td>
+<td>997</td>
+</tr>
+<tr>
+<td><a name="1.6.1.4"></a><a target="notes" href="/chap/1.6.1.4">1.6.1.4</a></td>
+<td>Bristle</td><td></td>
+<td></td><td></td>
+<td id='indent_998'>3</td>
+<td>998</td>
+</tr>
+<tr>
+<td><a name="1.6.2"></a><a target="notes" href="/chap/1.6.2">1.6.2</a></td>
+<td>Blood/Bleed</td><td>3</td>
+<td></td><td></td>
+<td id='indent_999'>2</td>
+<td>999</td>
+</tr>
+<tr>
+<td><a name="1.6.2.1"></a><a target="notes" href="/chap/1.6.2.1">1.6.2.1</a></td>
+<td>Blood Vessel/Vein/Artery</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1000'>3</td>
+<td>1000</td>
+</tr>
+<tr>
+<td><a name="1.6.3"></a><a target="notes" href="/chap/1.6.3">1.6.3</a></td>
+<td>Bone</td><td>8</td>
+<td>2</td><td>✓</td>
+<td id='indent_1001'>2</td>
+<td>1001</td>
+</tr>
+<tr>
+<td><a name="1.6.3.1"></a><a target="notes" href="/chap/1.6.3.1">1.6.3.1</a></td>
+<td>Skeleton</td><td></td>
+<td></td><td></td>
+<td id='indent_1002'>3</td>
+<td>1002</td>
+</tr>
+<tr>
+<td><a name="1.6.3.2"></a><a target="notes" href="/chap/1.6.3.2">1.6.3.2</a></td>
+<td>Breastbone/Sternum</td><td></td>
+<td></td><td></td>
+<td id='indent_1003'>3</td>
+<td>1003</td>
+</tr>
+<tr>
+<td><a name="1.6.3.3"></a><a target="notes" href="/chap/1.6.3.3">1.6.3.3</a></td>
+<td>Spine/Backbone</td><td></td>
+<td></td><td></td>
+<td id='indent_1004'>3</td>
+<td>1004</td>
+</tr>
+<tr>
+<td><a name="1.6.3.4"></a><a target="notes" href="/chap/1.6.3.4">1.6.3.4</a></td>
+<td>Cartilage/Gristle</td><td></td>
+<td></td><td></td>
+<td id='indent_1005'>3</td>
+<td>1005</td>
+</tr>
+<tr>
+<td><a name="1.6.3.5"></a><a target="notes" href="/chap/1.6.3.5">1.6.3.5</a></td>
+<td>Marrow</td><td>2</td>
+<td>4</td><td>✓</td>
+<td id='indent_1006'>3</td>
+<td>1006</td>
+</tr>
+<tr>
+<td><a name="1.6.4"></a><a target="notes" href="/chap/1.6.4">1.6.4</a></td>
+<td>Fat/Be Fat</td><td>23</td>
+<td></td><td></td>
+<td id='indent_1007'>2</td>
+<td>1007</td>
+</tr>
+<tr>
+<td><a name="1.6.4.1"></a><a target="notes" href="/chap/1.6.4.1">1.6.4.1</a></td>
+<td>Oil/Grease</td><td>2</td>
+<td></td><td></td>
+<td id='indent_1008'>3</td>
+<td>1008</td>
+</tr>
+<tr>
+<td><a name="1.6.5"></a><a target="notes" href="/chap/1.6.5">1.6.5</a></td>
+<td>Skin</td><td>32</td>
+<td>3</td><td>✓</td>
+<td id='indent_1009'>2</td>
+<td>1009</td>
+</tr>
+<tr>
+<td><a name="1.6.5.1"></a><a target="notes" href="/chap/1.6.5.1">1.6.5.1</a></td>
+<td>Hide/Leather</td><td></td>
+<td></td><td></td>
+<td id='indent_1010'>3</td>
+<td>1010</td>
+</tr>
+<tr>
+<td><a name="1.6.5.2"></a><a target="notes" href="/chap/1.6.5.2">1.6.5.2</a></td>
+<td>Scale (of fish, snake)</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1011'>3</td>
+<td>1011</td>
+</tr>
+<tr>
+<td><a name="1.6.5.3"></a><a target="notes" href="/chap/1.6.5.3">1.6.5.3</a></td>
+<td>Skin Blemish/Freckle</td><td>5</td>
+<td></td><td></td>
+<td id='indent_1012'>3</td>
+<td>1012</td>
+</tr>
+<tr>
+<td><a name="1.6.5.4"></a><a target="notes" href="/chap/1.6.5.4">1.6.5.4</a></td>
+<td>Blistered</td><td></td>
+<td></td><td></td>
+<td id='indent_1013'>3</td>
+<td>1013</td>
+</tr>
+<tr>
+<td><a name="1.6.5.4.1"></a><a target="notes" href="/chap/1.6.5.4.1">1.6.5.4.1</a></td>
+<td>Boil (n.)</td><td></td>
+<td></td><td></td>
+<td id='indent_1014'>4</td>
+<td>1014</td>
+</tr>
+<tr>
+<td><a name="1.6.5.5"></a><a target="notes" href="/chap/1.6.5.5">1.6.5.5</a></td>
+<td>Itch/Scratch</td><td>11</td>
+<td></td><td></td>
+<td id='indent_1015'>3</td>
+<td>1015</td>
+</tr>
+<tr>
+<td><a name="1.6.5.6"></a><a target="notes" href="/chap/1.6.5.6">1.6.5.6</a></td>
+<td>Molt</td><td></td>
+<td></td><td></td>
+<td id='indent_1016'>3</td>
+<td>1016</td>
+</tr>
+<tr>
+<td><a name="1.6.6"></a><a target="notes" href="/chap/1.6.6">1.6.6</a></td>
+<td>Obscure Internal Channels</td><td>4</td>
+<td></td><td></td>
+<td id='indent_1017'>2</td>
+<td>1017</td>
+</tr>
+<tr>
+<td><a name="1.6.6.1"></a><a target="notes" href="/chap/1.6.6.1">1.6.6.1</a></td>
+<td>Sinew/Tendon/Ligament</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1018'>3</td>
+<td>1018</td>
+</tr>
+<tr>
+<td><a name="1.6.6.2"></a><a target="notes" href="/chap/1.6.6.2">1.6.6.2</a></td>
+<td>Muscle</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1019'>3</td>
+<td>1019</td>
+</tr>
+<tr>
+<td><a name="1.6.6.2.1"></a><a target="notes" href="/chap/1.6.6.2.1">1.6.6.2.1</a></td>
+<td>Cramped</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1020'>4</td>
+<td>1020</td>
+</tr>
+<tr>
+<td><a name="1.6.6.3"></a><a target="notes" href="/chap/1.6.6.3">1.6.6.3</a></td>
+<td>Nerve</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1021'>3</td>
+<td>1021</td>
+</tr>
+<tr>
+<td><a name="1.6.6.4"></a><a target="notes" href="/chap/1.6.6.4">1.6.6.4</a></td>
+<td>Lymph</td><td>2</td>
+<td></td><td></td>
+<td id='indent_1022'>3</td>
+<td>1022</td>
+</tr>
+<tr>
+<td><a name="1.7"></a><a target="notes" href="/chap/1.7">1.7</a></td>
+<td><i>Internal Organs</i></td><td></td>
+<td>3</td><td>✓</td>
+<td id='indent_1023'>1</td>
+<td>1023</td>
+</tr>
+<tr>
+<td><a name="1.7.1"></a><a target="notes" href="/chap/1.7.1">1.7.1</a></td>
+<td>Heart</td><td>12</td>
+<td>3</td><td>✓</td>
+<td id='indent_1024'>2</td>
+<td>1024</td>
+</tr>
+<tr>
+<td><a name="1.7.1.1"></a><a target="notes" href="/chap/1.7.1.1">1.7.1.1</a></td>
+<td>Heartbeat/Pulse</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1025'>3</td>
+<td>1025</td>
+</tr>
+<tr>
+<td><a name="1.7.2"></a><a target="notes" href="/chap/1.7.2">1.7.2</a></td>
+<td>Lung</td><td>11</td>
+<td>2</td><td>✓</td>
+<td id='indent_1026'>2</td>
+<td>1026</td>
+</tr>
+<tr>
+<td><a name="1.7.2.1"></a><a target="notes" href="/chap/1.7.2.1">1.7.2.1</a></td>
+<td>Tuberculosis</td><td></td>
+<td></td><td></td>
+<td id='indent_1027'>3</td>
+<td>1027</td>
+</tr>
+<tr>
+<td><a name="1.7.3"></a><a target="notes" href="/chap/1.7.3">1.7.3</a></td>
+<td>Liver</td><td>2</td>
+<td>1</td><td>✓</td>
+<td id='indent_1028'>2</td>
+<td>1028</td>
+</tr>
+<tr>
+<td><a name="1.7.3.1"></a><a target="notes" href="/chap/1.7.3.1">1.7.3.1</a></td>
+<td>Gall/Bile</td><td>8</td>
+<td></td><td></td>
+<td id='indent_1029'>3</td>
+<td>1029</td>
+</tr>
+<tr>
+<td><a name="1.7.4"></a><a target="notes" href="/chap/1.7.4">1.7.4</a></td>
+<td>Spleen</td><td>7</td>
+<td>2</td><td>✓</td>
+<td id='indent_1030'>2</td>
+<td>1030</td>
+</tr>
+<tr>
+<td><a name="1.7.4.1"></a><a target="notes" href="/chap/1.7.4.1">1.7.4.1</a></td>
+<td>Swollen Spleen</td><td></td>
+<td></td><td></td>
+<td id='indent_1031'>3</td>
+<td>1031</td>
+</tr>
+<tr>
+<td><a name="1.7.5"></a><a target="notes" href="/chap/1.7.5">1.7.5</a></td>
+<td>Kidney</td><td>2</td>
+<td>1</td><td>✓</td>
+<td id='indent_1032'>2</td>
+<td>1032</td>
+</tr>
+<tr>
+<td><a name="1.7.6"></a><a target="notes" href="/chap/1.7.6">1.7.6</a></td>
+<td>Stomach</td><td>12</td>
+<td>2</td><td>✓</td>
+<td id='indent_1033'>2</td>
+<td>1033</td>
+</tr>
+<tr>
+<td><a name="1.7.6.1"></a><a target="notes" href="/chap/1.7.6.1">1.7.6.1</a></td>
+<td>Gizzard/Crop</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1034'>3</td>
+<td>1034</td>
+</tr>
+<tr>
+<td><a name="1.7.6.2"></a><a target="notes" href="/chap/1.7.6.2">1.7.6.2</a></td>
+<td>Digest</td><td></td>
+<td></td><td></td>
+<td id='indent_1035'>3</td>
+<td>1035</td>
+</tr>
+<tr>
+<td><a name="1.7.7"></a><a target="notes" href="/chap/1.7.7">1.7.7</a></td>
+<td>Intestines/Bowels/Guts</td><td>3</td>
+<td></td><td></td>
+<td id='indent_1036'>2</td>
+<td>1036</td>
+</tr>
+<tr>
+<td><a name="1.7.7.1"></a><a target="notes" href="/chap/1.7.7.1">1.7.7.1</a></td>
+<td>Appendix</td><td></td>
+<td></td><td></td>
+<td id='indent_1037'>3</td>
+<td>1037</td>
+</tr>
+<tr>
+<td><a name="1.7.7.2"></a><a target="notes" href="/chap/1.7.7.2">1.7.7.2</a></td>
+<td>Pancreas</td><td></td>
+<td></td><td></td>
+<td id='indent_1038'>3</td>
+<td>1038</td>
+</tr>
+<tr>
+<td><a name="1.7.7.3"></a><a target="notes" href="/chap/1.7.7.3">1.7.7.3</a></td>
+<td>Constipated</td><td></td>
+<td></td><td></td>
+<td id='indent_1039'>3</td>
+<td>1039</td>
+</tr>
+<tr>
+<td><a name="1.7.8"></a><a target="notes" href="/chap/1.7.8">1.7.8</a></td>
+<td>Bladder</td><td>4</td>
+<td></td><td></td>
+<td id='indent_1040'>2</td>
+<td>1040</td>
+</tr>
+<tr>
+<td><a name="1.8"></a><a target="notes" href="/chap/1.8">1.8</a></td>
+<td><i>Secretions and Somatophonics</i></td><td></td>
+<td></td><td></td>
+<td id='indent_1041'>1</td>
+<td>1041</td>
+</tr>
+<tr>
+<td><a name="1.8.1"></a><a target="notes" href="/chap/1.8.1">1.8.1</a></td>
+<td>Sweat/Perspire</td><td>9</td>
+<td></td><td></td>
+<td id='indent_1042'>2</td>
+<td>1042</td>
+</tr>
+<tr>
+<td><a name="1.8.1.1"></a><a target="notes" href="/chap/1.8.1.1">1.8.1.1</a></td>
+<td>Pore</td><td></td>
+<td></td><td></td>
+<td id='indent_1043'>3</td>
+<td>1043</td>
+</tr>
+<tr>
+<td><a name="1.8.1.2"></a><a target="notes" href="/chap/1.8.1.2">1.8.1.2</a></td>
+<td>Body Dirt</td><td>2</td>
+<td></td><td></td>
+<td id='indent_1044'>3</td>
+<td>1044</td>
+</tr>
+<tr>
+<td><a name="1.8.2"></a><a target="notes" href="/chap/1.8.2">1.8.2</a></td>
+<td>Snot/Nasal Mucus</td><td>3</td>
+<td></td><td></td>
+<td id='indent_1045'>2</td>
+<td>1045</td>
+</tr>
+<tr>
+<td><a name="1.8.2.1"></a><a target="notes" href="/chap/1.8.2.1">1.8.2.1</a></td>
+<td>Sneeze</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1046'>3</td>
+<td>1046</td>
+</tr>
+<tr>
+<td><a name="1.8.2.2"></a><a target="notes" href="/chap/1.8.2.2">1.8.2.2</a></td>
+<td>Snore</td><td>3</td>
+<td></td><td></td>
+<td id='indent_1047'>3</td>
+<td>1047</td>
+</tr>
+<tr>
+<td><a name="1.8.3"></a><a target="notes" href="/chap/1.8.3">1.8.3</a></td>
+<td>Spit/Saliva</td><td>10</td>
+<td>2</td><td>✓</td>
+<td id='indent_1048'>2</td>
+<td>1048</td>
+</tr>
+<tr>
+<td><a name="1.8.3.1"></a><a target="notes" href="/chap/1.8.3.1">1.8.3.1</a></td>
+<td>Phlegm</td><td>4</td>
+<td>1</td><td></td>
+<td id='indent_1049'>3</td>
+<td>1049</td>
+</tr>
+<tr>
+<td><a name="1.8.3.2"></a><a target="notes" href="/chap/1.8.3.2">1.8.3.2</a></td>
+<td>Vomit</td><td>9</td>
+<td>2</td><td></td>
+<td id='indent_1050'>3</td>
+<td>1050</td>
+</tr>
+<tr>
+<td><a name="1.8.3.3"></a><a target="notes" href="/chap/1.8.3.3">1.8.3.3</a></td>
+<td>Cough</td><td>5</td>
+<td></td><td></td>
+<td id='indent_1051'>3</td>
+<td>1051</td>
+</tr>
+<tr>
+<td><a name="1.8.3.4"></a><a target="notes" href="/chap/1.8.3.4">1.8.3.4</a></td>
+<td>Belch/Burp</td><td></td>
+<td></td><td></td>
+<td id='indent_1052'>3</td>
+<td>1052</td>
+</tr>
+<tr>
+<td><a name="1.8.3.5"></a><a target="notes" href="/chap/1.8.3.5">1.8.3.5</a></td>
+<td>Hiccup</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1053'>3</td>
+<td>1053</td>
+</tr>
+<tr>
+<td><a name="1.8.4"></a><a target="notes" href="/chap/1.8.4">1.8.4</a></td>
+<td>Urine/Piss</td><td>9</td>
+<td>2</td><td></td>
+<td id='indent_1054'>2</td>
+<td>1054</td>
+</tr>
+<tr>
+<td><a name="1.8.5"></a><a target="notes" href="/chap/1.8.5">1.8.5</a></td>
+<td>Feces/Shit/Dung/Filth/Excrement</td><td>11</td>
+<td>2</td><td>✓</td>
+<td id='indent_1055'>2</td>
+<td>1055</td>
+</tr>
+<tr>
+<td><a name="1.8.5.1"></a><a target="notes" href="/chap/1.8.5.1">1.8.5.1</a></td>
+<td>Meconium</td><td></td>
+<td></td><td></td>
+<td id='indent_1056'>3</td>
+<td>1056</td>
+</tr>
+<tr>
+<td><a name="1.8.5.2"></a><a target="notes" href="/chap/1.8.5.2">1.8.5.2</a></td>
+<td>Fart</td><td>3</td>
+<td>1</td><td></td>
+<td id='indent_1057'>3</td>
+<td>1057</td>
+</tr>
+<tr>
+<td><a name="1.8.5.3"></a><a target="notes" href="/chap/1.8.5.3">1.8.5.3</a></td>
+<td>Flatulate</td><td></td>
+<td></td><td></td>
+<td id='indent_1058'>3</td>
+<td>1058</td>
+</tr>
+<tr>
+<td><a name="1.8.5.4"></a><a target="notes" href="/chap/1.8.5.4">1.8.5.4</a></td>
+<td>Defecate</td><td></td>
+<td></td><td></td>
+<td id='indent_1059'>3</td>
+<td>1059</td>
+</tr>
+<tr>
+<td><a name="1.8.6"></a><a target="notes" href="/chap/1.8.6">1.8.6</a></td>
+<td>Discharge</td><td></td>
+<td></td><td></td>
+<td id='indent_1060'>2</td>
+<td>1060</td>
+</tr>
+<tr>
+<td><a name="1.8.6.1"></a><a target="notes" href="/chap/1.8.6.1">1.8.6.1</a></td>
+<td>Pus/Gleet</td><td>11</td>
+<td>1</td><td></td>
+<td id='indent_1061'>3</td>
+<td>1061</td>
+</tr>
+<tr>
+<td><a name="1.8.6.2"></a><a target="notes" href="/chap/1.8.6.2">1.8.6.2</a></td>
+<td>Abscess/Ulcer</td><td>3</td>
+<td></td><td></td>
+<td id='indent_1062'>3</td>
+<td>1062</td>
+</tr>
+<tr>
+<td><a name="1.8.7"></a><a target="notes" href="/chap/1.8.7">1.8.7</a></td>
+<td>Speak/Say/Tell</td><td>16</td>
+<td></td><td></td>
+<td id='indent_1063'>2</td>
+<td>1063</td>
+</tr>
+<tr>
+<td><a name="1.8.7.1"></a><a target="notes" href="/chap/1.8.7.1">1.8.7.1</a></td>
+<td>Mute/Dumb</td><td>3</td>
+<td></td><td></td>
+<td id='indent_1064'>3</td>
+<td>1064</td>
+</tr>
+<tr>
+<td><a name="1.8.7.2"></a><a target="notes" href="/chap/1.8.7.2">1.8.7.2</a></td>
+<td>Stutter/Stammer</td><td></td>
+<td></td><td></td>
+<td id='indent_1065'>3</td>
+<td>1065</td>
+</tr>
+<tr>
+<td><a name="1.8.8"></a><a target="notes" href="/chap/1.8.8">1.8.8</a></td>
+<td>Emotional Somatophonics</td><td></td>
+<td></td><td></td>
+<td id='indent_1066'>2</td>
+<td>1066</td>
+</tr>
+<tr>
+<td><a name="1.8.8.1"></a><a target="notes" href="/chap/1.8.8.1">1.8.8.1</a></td>
+<td>Laugh/Smile</td><td>5</td>
+<td></td><td></td>
+<td id='indent_1067'>3</td>
+<td>1067</td>
+</tr>
+<tr>
+<td><a name="1.8.8.2"></a><a target="notes" href="/chap/1.8.8.2">1.8.8.2</a></td>
+<td>Cry/Weep</td><td>5</td>
+<td>1</td><td></td>
+<td id='indent_1068'>3</td>
+<td>1068</td>
+</tr>
+<tr>
+<td><a name="1.8.8.3"></a><a target="notes" href="/chap/1.8.8.3">1.8.8.3</a></td>
+<td>Tears</td><td></td>
+<td>1</td><td></td>
+<td id='indent_1069'>3</td>
+<td>1069</td>
+</tr>
+<tr>
+<td><a name="1.8.8.4"></a><a target="notes" href="/chap/1.8.8.4">1.8.8.4</a></td>
+<td>Whistle</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1070'>3</td>
+<td>1070</td>
+</tr>
+<tr>
+<td><a name="1.9"></a><a target="notes" href="/chap/1.9">1.9</a></td>
+<td><i>Reproductive System</i></td><td></td>
+<td>1</td><td></td>
+<td id='indent_1071'>1</td>
+<td>1071</td>
+</tr>
+<tr>
+<td><a name="1.9.1"></a><a target="notes" href="/chap/1.9.1">1.9.1</a></td>
+<td>Egg</td><td>23</td>
+<td>3</td><td>✓</td>
+<td id='indent_1072'>2</td>
+<td>1072</td>
+</tr>
+<tr>
+<td><a name="1.9.1.1"></a><a target="notes" href="/chap/1.9.1.1">1.9.1.1</a></td>
+<td>Bred</td><td></td>
+<td></td><td></td>
+<td id='indent_1073'>3</td>
+<td>1073</td>
+</tr>
+<tr>
+<td><a name="1.9.1.2"></a><a target="notes" href="/chap/1.9.1.2">1.9.1.2</a></td>
+<td>Brood on egg</td><td></td>
+<td></td><td></td>
+<td id='indent_1074'>3</td>
+<td>1074</td>
+</tr>
+<tr>
+<td><a name="1.9.2"></a><a target="notes" href="/chap/1.9.2">1.9.2</a></td>
+<td>Birth</td><td>21</td>
+<td>1</td><td>✓</td>
+<td id='indent_1075'>2</td>
+<td>1075</td>
+</tr>
+<tr>
+<td><a name="1.9.2.1"></a><a target="notes" href="/chap/1.9.2.1">1.9.2.1</a></td>
+<td>Sterile</td><td></td>
+<td></td><td></td>
+<td id='indent_1076'>3</td>
+<td>1076</td>
+</tr>
+<tr>
+<td><a name="1.9.2.2"></a><a target="notes" href="/chap/1.9.2.2">1.9.2.2</a></td>
+<td>Circumcise</td><td></td>
+<td></td><td></td>
+<td id='indent_1077'>3</td>
+<td>1077</td>
+</tr>
+<tr>
+<td><a name="1.9.2.3"></a><a target="notes" href="/chap/1.9.2.3">1.9.2.3</a></td>
+<td>Castrate</td><td></td>
+<td></td><td></td>
+<td id='indent_1078'>3</td>
+<td>1078</td>
+</tr>
+<tr>
+<td><a name="1.9.3"></a><a target="notes" href="/chap/1.9.3">1.9.3</a></td>
+<td>Navel</td><td>20</td>
+<td>1</td><td>✓</td>
+<td id='indent_1079'>2</td>
+<td>1079</td>
+</tr>
+<tr>
+<td><a name="1.9.3.1"></a><a target="notes" href="/chap/1.9.3.1">1.9.3.1</a></td>
+<td>Umbilical Cord</td><td></td>
+<td></td><td></td>
+<td id='indent_1080'>3</td>
+<td>1080</td>
+</tr>
+<tr>
+<td><a name="1.9.4"></a><a target="notes" href="/chap/1.9.4">1.9.4</a></td>
+<td>Breast</td><td>31</td>
+<td>3</td><td>✓</td>
+<td id='indent_1081'>2</td>
+<td>1081</td>
+</tr>
+<tr>
+<td><a name="1.9.4.1"></a><a target="notes" href="/chap/1.9.4.1">1.9.4.1</a></td>
+<td>Milk</td><td></td>
+<td></td><td></td>
+<td id='indent_1082'>3</td>
+<td>1082</td>
+</tr>
+<tr>
+<td><a name="1.9.4.2"></a><a target="notes" href="/chap/1.9.4.2">1.9.4.2</a></td>
+<td>Wean</td><td></td>
+<td></td><td></td>
+<td id='indent_1083'>3</td>
+<td>1083</td>
+</tr>
+<tr>
+<td><a name="1.9.5"></a><a target="notes" href="/chap/1.9.5">1.9.5</a></td>
+<td>Vagina</td><td>20</td>
+<td>5</td><td>✓</td>
+<td id='indent_1084'>2</td>
+<td>1084</td>
+</tr>
+<tr>
+<td><a name="1.9.5.1"></a><a target="notes" href="/chap/1.9.5.1">1.9.5.1</a></td>
+<td>Vulva/Labia</td><td></td>
+<td></td><td></td>
+<td id='indent_1085'>3</td>
+<td>1085</td>
+</tr>
+<tr>
+<td><a name="1.9.5.2"></a><a target="notes" href="/chap/1.9.5.2">1.9.5.2</a></td>
+<td>Clitoris</td><td></td>
+<td></td><td></td>
+<td id='indent_1086'>3</td>
+<td>1086</td>
+</tr>
+<tr>
+<td><a name="1.9.6"></a><a target="notes" href="/chap/1.9.6">1.9.6</a></td>
+<td>Womb</td><td>23</td>
+<td>3</td><td>✓</td>
+<td id='indent_1087'>2</td>
+<td>1087</td>
+</tr>
+<tr>
+<td><a name="1.9.6.1"></a><a target="notes" href="/chap/1.9.6.1">1.9.6.1</a></td>
+<td>Pregnant</td><td></td>
+<td></td><td></td>
+<td id='indent_1088'>3</td>
+<td>1088</td>
+</tr>
+<tr>
+<td><a name="1.9.6.2"></a><a target="notes" href="/chap/1.9.6.2">1.9.6.2</a></td>
+<td>Barren</td><td></td>
+<td></td><td></td>
+<td id='indent_1089'>3</td>
+<td>1089</td>
+</tr>
+<tr>
+<td><a name="1.9.6.3"></a><a target="notes" href="/chap/1.9.6.3">1.9.6.3</a></td>
+<td>Amniotic sac/Amniotic fluid</td><td></td>
+<td></td><td></td>
+<td id='indent_1090'>3</td>
+<td>1090</td>
+</tr>
+<tr>
+<td><a name="1.9.6.4"></a><a target="notes" href="/chap/1.9.6.4">1.9.6.4</a></td>
+<td>Placenta/Afterbirth</td><td></td>
+<td></td><td></td>
+<td id='indent_1091'>3</td>
+<td>1091</td>
+</tr>
+<tr>
+<td><a name="1.9.6.5"></a><a target="notes" href="/chap/1.9.6.5">1.9.6.5</a></td>
+<td>Fertility</td><td></td>
+<td></td><td></td>
+<td id='indent_1092'>3</td>
+<td>1092</td>
+</tr>
+<tr>
+<td><a name="1.9.7"></a><a target="notes" href="/chap/1.9.7">1.9.7</a></td>
+<td>Penis</td><td>29</td>
+<td>4</td><td>✓</td>
+<td id='indent_1093'>2</td>
+<td>1093</td>
+</tr>
+<tr>
+<td><a name="1.9.7.1"></a><a target="notes" href="/chap/1.9.7.1">1.9.7.1</a></td>
+<td>Testicle</td><td></td>
+<td></td><td></td>
+<td id='indent_1094'>3</td>
+<td>1094</td>
+</tr>
+<tr>
+<td><a name="1.9.7.2"></a><a target="notes" href="/chap/1.9.7.2">1.9.7.2</a></td>
+<td>Scrotum/Pouch</td><td></td>
+<td></td><td></td>
+<td id='indent_1095'>3</td>
+<td>1095</td>
+</tr>
+<tr>
+<td><a name="1.9.7.3"></a><a target="notes" href="/chap/1.9.7.3">1.9.7.3</a></td>
+<td>Foreskin/Prepuce</td><td></td>
+<td></td><td></td>
+<td id='indent_1096'>3</td>
+<td>1096</td>
+</tr>
+<tr>
+<td><a name="1.9.7.4"></a><a target="notes" href="/chap/1.9.7.4">1.9.7.4</a></td>
+<td>Glans penis</td><td></td>
+<td></td><td></td>
+<td id='indent_1097'>3</td>
+<td>1097</td>
+</tr>
+<tr>
+<td><a name="1.9.8"></a><a target="notes" href="/chap/1.9.8">1.9.8</a></td>
+<td>Copulate</td><td>15</td>
+<td>2</td><td>✓</td>
+<td id='indent_1098'>2</td>
+<td>1098</td>
+</tr>
+<tr>
+<td><a name="1.9.9"></a><a target="notes" href="/chap/1.9.9">1.9.9</a></td>
+<td>Body Fluids</td><td>9</td>
+<td>2</td><td>✓</td>
+<td id='indent_1099'>2</td>
+<td>1099</td>
+</tr>
+<tr>
+<td><a name="1.9.9.1"></a><a target="notes" href="/chap/1.9.9.1">1.9.9.1</a></td>
+<td>Sperm/Semen</td><td></td>
+<td></td><td></td>
+<td id='indent_1100'>3</td>
+<td>1100</td>
+</tr>
+<tr>
+<td><a name="1.9.9.2"></a><a target="notes" href="/chap/1.9.9.2">1.9.9.2</a></td>
+<td>Ejaculate</td><td></td>
+<td>1</td><td></td>
+<td id='indent_1101'>3</td>
+<td>1101</td>
+</tr>
+<tr>
+<td><a name="1.9.10"></a><a target="notes" href="/chap/1.9.10">1.9.10</a></td>
+<td>Genitals/Pudenda</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1102'>2</td>
+<td>1102</td>
+</tr>
+<tr>
+<td><a name="1.9.11"></a><a target="notes" href="/chap/1.9.11">1.9.11</a></td>
+<td>Menstruation</td><td></td>
+<td></td><td></td>
+<td id='indent_1103'>2</td>
+<td>1103</td>
+</tr>
+<tr>
+<td><a name="1.9.11.1"></a><a target="notes" href="/chap/1.9.11.1">1.9.11.1</a></td>
+<td>Menstrual</td><td></td>
+<td></td><td></td>
+<td id='indent_1104'>3</td>
+<td>1104</td>
+</tr>
+<tr>
+<td><a name="1.9.12"></a><a target="notes" href="/chap/1.9.12">1.9.12</a></td>
+<td>Female</td><td>8</td>
+<td></td><td></td>
+<td id='indent_1105'>2</td>
+<td>1105</td>
+</tr>
+<tr>
+<td><a name="1.9.12.1"></a><a target="notes" href="/chap/1.9.12.1">1.9.12.1</a></td>
+<td>Female Pubic Hair</td><td></td>
+<td></td><td></td>
+<td id='indent_1106'>3</td>
+<td>1106</td>
+</tr>
+<tr>
+<td><a name="1.9.13"></a><a target="notes" href="/chap/1.9.13">1.9.13</a></td>
+<td>Male</td><td>2</td>
+<td></td><td></td>
+<td id='indent_1107'>2</td>
+<td>1107</td>
+</tr>
+<tr>
+<td><a name="1.9.13.1"></a><a target="notes" href="/chap/1.9.13.1">1.9.13.1</a></td>
+<td>Male Pubic Hair</td><td></td>
+<td></td><td></td>
+<td id='indent_1108'>3</td>
+<td>1108</td>
+</tr>
+<tr>
+<td><a name="1.9.14"></a><a target="notes" href="/chap/1.9.14">1.9.14</a></td>
+<td>Other Reproductive System</td><td></td>
+<td></td><td></td>
+<td id='indent_1109'>2</td>
+<td>1109</td>
+</tr>
+<tr>
+<td><a name="1.10"></a><a target="notes" href="/chap/1.10">1.10</a></td>
+<td><i>Mind</i></td><td>2</td>
+<td></td><td></td>
+<td id='indent_1110'>1</td>
+<td>1110</td>
+</tr>
+<tr>
+<td><a name="2.0"></a><a target="notes" href="/chap/2.0">2.0</a></td>
+<td><b>Animals and Animal Verbs</b></td><td>1</td>
+<td></td><td></td>
+<td id='indent_305'>0</td>
+<td>305</td>
+</tr>
+<tr>
+<td><a name="2.1"></a><a target="notes" href="/chap/2.1">2.1</a></td>
+<td><i>Animals of the Chinese Zodiac</i></td><td></td>
+<td></td><td></td>
+<td id='indent_1116'>1</td>
+<td>1116</td>
+</tr>
+<tr>
+<td><a name="2.1.1"></a><a target="notes" href="/chap/2.1.1">2.1.1</a></td>
+<td>Rodents</td><td>16</td>
+<td>1</td><td>✓</td>
+<td id='indent_324'>2</td>
+<td>324</td>
+</tr>
+<tr>
+<td><a name="2.1.2"></a><a target="notes" href="/chap/2.1.2">2.1.2</a></td>
+<td>Bovine</td><td>14</td>
+<td>1</td><td>✓</td>
+<td id='indent_306'>2</td>
+<td>306</td>
+</tr>
+<tr>
+<td><a name="2.1.3"></a><a target="notes" href="/chap/2.1.3">2.1.3</a></td>
+<td>Feline</td><td>16</td>
+<td>1</td><td>✓</td>
+<td id='indent_313'>2</td>
+<td>313</td>
+</tr>
+<tr>
+<td><a name="2.1.4"></a><a target="notes" href="/chap/2.1.4">2.1.4</a></td>
+<td>Lagomorphs</td><td>9</td>
+<td>1</td><td>✓</td>
+<td id='indent_325'>2</td>
+<td>325</td>
+</tr>
+<tr>
+<td><a name="2.1.5"></a><a target="notes" href="/chap/2.1.5">2.1.5</a></td>
+<td>Dragon</td><td>1</td>
+<td>1</td><td>✓</td>
+<td id='indent_326'>2</td>
+<td>326</td>
+</tr>
+<tr>
+<td><a name="2.1.6"></a><a target="notes" href="/chap/2.1.6">2.1.6</a></td>
+<td>Reptiles and Amphibians</td><td>5</td>
+<td>1</td><td>✓</td>
+<td id='indent_320'>2</td>
+<td>320</td>
+</tr>
+<tr>
+<td><a name="2.1.6.1"></a><a target="notes" href="/chap/2.1.6.1">2.1.6.1</a></td>
+<td>Snake</td><td>5</td>
+<td></td><td></td>
+<td id='indent_1119'>3</td>
+<td>1119</td>
+</tr>
+<tr>
+<td><a name="2.1.6.2"></a><a target="notes" href="/chap/2.1.6.2">2.1.6.2</a></td>
+<td>Frog/Toad</td><td>5</td>
+<td></td><td></td>
+<td id='indent_1120'>3</td>
+<td>1120</td>
+</tr>
+<tr>
+<td><a name="2.1.6.3"></a><a target="notes" href="/chap/2.1.6.3">2.1.6.3</a></td>
+<td>Lizard</td><td>9</td>
+<td></td><td></td>
+<td id='indent_1132'>3</td>
+<td>1132</td>
+</tr>
+<tr>
+<td><a name="2.1.7"></a><a target="notes" href="/chap/2.1.7">2.1.7</a></td>
+<td>Equine</td><td>8</td>
+<td>2</td><td>✓</td>
+<td id='indent_307'>2</td>
+<td>307</td>
+</tr>
+<tr>
+<td><a name="2.1.8"></a><a target="notes" href="/chap/2.1.8">2.1.8</a></td>
+<td>Ovine and Hircine</td><td>20</td>
+<td>1</td><td>✓</td>
+<td id='indent_309'>2</td>
+<td>309</td>
+</tr>
+<tr>
+<td><a name="2.1.9"></a><a target="notes" href="/chap/2.1.9">2.1.9</a></td>
+<td>Simian</td><td>9</td>
+<td>1</td><td>✓</td>
+<td id='indent_316'>2</td>
+<td>316</td>
+</tr>
+<tr>
+<td><a name="2.1.10"></a><a target="notes" href="/chap/2.1.10">2.1.10</a></td>
+<td>Fowl (i.e. Domestic Birds)</td><td>15</td>
+<td>1</td><td>✓</td>
+<td id='indent_318'>2</td>
+<td>318</td>
+</tr>
+<tr>
+<td><a name="2.1.11"></a><a target="notes" href="/chap/2.1.11">2.1.11</a></td>
+<td>Canine</td><td>8</td>
+<td>1</td><td>✓</td>
+<td id='indent_311'>2</td>
+<td>311</td>
+</tr>
+<tr>
+<td><a name="2.1.11.1"></a><a target="notes" href="/chap/2.1.11.1">2.1.11.1</a></td>
+<td>Bark (of dog)</td><td>6</td>
+<td></td><td></td>
+<td id='indent_312'>3</td>
+<td>312</td>
+</tr>
+<tr>
+<td><a name="2.1.12"></a><a target="notes" href="/chap/2.1.12">2.1.12</a></td>
+<td>Porcine</td><td>4</td>
+<td>1</td><td>✓</td>
+<td id='indent_308'>2</td>
+<td>308</td>
+</tr>
+<tr>
+<td><a name="2.2"></a><a target="notes" href="/chap/2.2">2.2</a></td>
+<td><i>Other Animals</i></td><td>1</td>
+<td></td><td></td>
+<td id='indent_1117'>1</td>
+<td>1117</td>
+</tr>
+<tr>
+<td><a name="2.2.1"></a><a target="notes" href="/chap/2.2.1">2.2.1</a></td>
+<td>Pachyderms</td><td>5</td>
+<td></td><td></td>
+<td id='indent_310'>2</td>
+<td>310</td>
+</tr>
+<tr>
+<td><a name="2.2.2"></a><a target="notes" href="/chap/2.2.2">2.2.2</a></td>
+<td>Cervidae</td><td>6</td>
+<td></td><td></td>
+<td id='indent_314'>2</td>
+<td>314</td>
+</tr>
+<tr>
+<td><a name="2.2.3"></a><a target="notes" href="/chap/2.2.3">2.2.3</a></td>
+<td>Ursine</td><td>1</td>
+<td></td><td></td>
+<td id='indent_315'>2</td>
+<td>315</td>
+</tr>
+<tr>
+<td><a name="2.2.4"></a><a target="notes" href="/chap/2.2.4">2.2.4</a></td>
+<td>Birds (in general)</td><td>23</td>
+<td></td><td></td>
+<td id='indent_317'>2</td>
+<td>317</td>
+</tr>
+<tr>
+<td><a name="2.2.4.1"></a><a target="notes" href="/chap/2.2.4.1">2.2.4.1</a></td>
+<td>Particular birds</td><td>8</td>
+<td></td><td></td>
+<td id='indent_319'>3</td>
+<td>319</td>
+</tr>
+<tr>
+<td><a name="2.2.5"></a><a target="notes" href="/chap/2.2.5">2.2.5</a></td>
+<td>Fish and Mollusks</td><td>14</td>
+<td></td><td></td>
+<td id='indent_321'>2</td>
+<td>321</td>
+</tr>
+<tr>
+<td><a name="2.2.6"></a><a target="notes" href="/chap/2.2.6">2.2.6</a></td>
+<td>Insects, Arachnids, and Worms</td><td>76</td>
+<td></td><td></td>
+<td id='indent_322'>2</td>
+<td>322</td>
+</tr>
+<tr>
+<td><a name="2.2.7"></a><a target="notes" href="/chap/2.2.7">2.2.7</a></td>
+<td>Other Mammals</td><td>8</td>
+<td></td><td></td>
+<td id='indent_323'>2</td>
+<td>323</td>
+</tr>
+<tr>
+<td><a name="2.2.7.1"></a><a target="notes" href="/chap/2.2.7.1">2.2.7.1</a></td>
+<td>Otter</td><td>2</td>
+<td></td><td></td>
+<td id='indent_1122'>3</td>
+<td>1122</td>
+</tr>
+<tr>
+<td><a name="2.2.8"></a><a target="notes" href="/chap/2.2.8">2.2.8</a></td>
+<td>Other Mythical Animals</td><td></td>
+<td></td><td></td>
+<td id='indent_327'>2</td>
+<td>327</td>
+</tr>
+<tr>
+<td><a name="2.3"></a><a target="notes" href="/chap/2.3">2.3</a></td>
+<td><i>Associated Animal Terms</i></td><td>9</td>
+<td></td><td></td>
+<td id='indent_328'>1</td>
+<td>328</td>
+</tr>
+<tr>
+<td><a name="2.4"></a><a target="notes" href="/chap/2.4">2.4</a></td>
+<td><i>Other Verbs Pertaining to Animals</i></td><td>5</td>
+<td></td><td></td>
+<td id='indent_329'>1</td>
+<td>329</td>
+</tr>
+<tr>
+<td><a name="2.4.1"></a><a target="notes" href="/chap/2.4.1">2.4.1</a></td>
+<td>Caponize</td><td></td>
+<td></td><td></td>
+<td id='indent_330'>2</td>
+<td>330</td>
+</tr>
+<tr>
+<td><a name="2.4.2"></a><a target="notes" href="/chap/2.4.2">2.4.2</a></td>
+<td>Sting</td><td>1</td>
+<td></td><td></td>
+<td id='indent_331'>2</td>
+<td>331</td>
+</tr>
+<tr>
+<td><a name="2.4.3"></a><a target="notes" href="/chap/2.4.3">2.4.3</a></td>
+<td>Animal Qualities</td><td>1</td>
+<td></td><td></td>
+<td id='indent_332'>2</td>
+<td>332</td>
+</tr>
+<tr>
+<td><a name="2.4.4"></a><a target="notes" href="/chap/2.4.4">2.4.4</a></td>
+<td>Peck</td><td></td>
+<td></td><td></td>
+<td id='indent_333'>2</td>
+<td>333</td>
+</tr>
+<tr>
+<td><a name="3.0"></a><a target="notes" href="/chap/3.0">3.0</a></td>
+<td><b>Natural Objects, Plants, Foods</b></td><td></td>
+<td></td><td></td>
+<td id='indent_334'>0</td>
+<td>334</td>
+</tr>
+<tr>
+<td><a name="3.1"></a><a target="notes" href="/chap/3.1">3.1</a></td>
+<td><i>Plants</i></td><td>1</td>
+<td></td><td></td>
+<td id='indent_335'>1</td>
+<td>335</td>
+</tr>
+<tr>
+<td><a name="3.1.1"></a><a target="notes" href="/chap/3.1.1">3.1.1</a></td>
+<td>Names of trees and shrubs</td><td>14</td>
+<td></td><td></td>
+<td id='indent_336'>2</td>
+<td>336</td>
+</tr>
+<tr>
+<td><a name="3.1.2"></a><a target="notes" href="/chap/3.1.2">3.1.2</a></td>
+<td>Plant parts and types</td><td>34</td>
+<td></td><td></td>
+<td id='indent_337'>2</td>
+<td>337</td>
+</tr>
+<tr>
+<td><a name="3.1.3"></a><a target="notes" href="/chap/3.1.3">3.1.3</a></td>
+<td>Leaves</td><td>6</td>
+<td></td><td></td>
+<td id='indent_338'>2</td>
+<td>338</td>
+</tr>
+<tr>
+<td><a name="3.1.4"></a><a target="notes" href="/chap/3.1.4">3.1.4</a></td>
+<td>Seeds and flowers, nuts</td><td>37</td>
+<td></td><td></td>
+<td id='indent_339'>2</td>
+<td>339</td>
+</tr>
+<tr>
+<td><a name="3.1.5"></a><a target="notes" href="/chap/3.1.5">3.1.5</a></td>
+<td>Fruits and vegetables</td><td>33</td>
+<td></td><td></td>
+<td id='indent_340'>2</td>
+<td>340</td>
+</tr>
+<tr>
+<td><a name="3.1.5.1"></a><a target="notes" href="/chap/3.1.5.1">3.1.5.1</a></td>
+<td>Leafy vegetables</td><td>3</td>
+<td></td><td></td>
+<td id='indent_341'>3</td>
+<td>341</td>
+</tr>
+<tr>
+<td><a name="3.1.6"></a><a target="notes" href="/chap/3.1.6">3.1.6</a></td>
+<td>Extracts and processed forms</td><td>14</td>
+<td></td><td></td>
+<td id='indent_342'>2</td>
+<td>342</td>
+</tr>
+<tr>
+<td><a name="3.1.6.1"></a><a target="notes" href="/chap/3.1.6.1">3.1.6.1</a></td>
+<td>Spices</td><td>1</td>
+<td></td><td></td>
+<td id='indent_343'>3</td>
+<td>343</td>
+</tr>
+<tr>
+<td><a name="3.1.6.2"></a><a target="notes" href="/chap/3.1.6.2">3.1.6.2</a></td>
+<td>Other ground and milled food</td><td>1</td>
+<td></td><td></td>
+<td id='indent_344'>3</td>
+<td>344</td>
+</tr>
+<tr>
+<td><a name="3.1.6.3"></a><a target="notes" href="/chap/3.1.6.3">3.1.6.3</a></td>
+<td>Juices, beers, etc.</td><td>11</td>
+<td></td><td></td>
+<td id='indent_345'>3</td>
+<td>345</td>
+</tr>
+<tr>
+<td><a name="3.1.6.4"></a><a target="notes" href="/chap/3.1.6.4">3.1.6.4</a></td>
+<td>Building, Non-edible</td><td>2</td>
+<td></td><td></td>
+<td id='indent_346'>3</td>
+<td>346</td>
+</tr>
+<tr>
+<td><a name="3.1.7"></a><a target="notes" href="/chap/3.1.7">3.1.7</a></td>
+<td>Fungi</td><td>6</td>
+<td></td><td></td>
+<td id='indent_347'>2</td>
+<td>347</td>
+</tr>
+<tr>
+<td><a name="3.1.8"></a><a target="notes" href="/chap/3.1.8">3.1.8</a></td>
+<td>Other wild plants</td><td>8</td>
+<td></td><td></td>
+<td id='indent_348'>2</td>
+<td>348</td>
+</tr>
+<tr>
+<td><a name="3.1.9"></a><a target="notes" href="/chap/3.1.9">3.1.9</a></td>
+<td>Vegetative/Agricultural activity</td><td>9</td>
+<td></td><td></td>
+<td id='indent_349'>2</td>
+<td>349</td>
+</tr>
+<tr>
+<td><a name="3.1.10"></a><a target="notes" href="/chap/3.1.10">3.1.10</a></td>
+<td>Verbs involving plants</td><td>11</td>
+<td></td><td></td>
+<td id='indent_350'>2</td>
+<td>350</td>
+</tr>
+<tr>
+<td><a name="3.2"></a><a target="notes" href="/chap/3.2">3.2</a></td>
+<td><i>Natural Objects</i></td><td></td>
+<td></td><td></td>
+<td id='indent_351'>1</td>
+<td>351</td>
+</tr>
+<tr>
+<td><a name="3.2.1"></a><a target="notes" href="/chap/3.2.1">3.2.1</a></td>
+<td>Weather and seasons</td><td>53</td>
+<td></td><td></td>
+<td id='indent_352'>2</td>
+<td>352</td>
+</tr>
+<tr>
+<td><a name="3.2.2"></a><a target="notes" href="/chap/3.2.2">3.2.2</a></td>
+<td>Planets/Meteorological objects/Sky</td><td>23</td>
+<td>1</td><td>✓</td>
+<td id='indent_353'>2</td>
+<td>353</td>
+</tr>
+<tr>
+<td><a name="3.2.3"></a><a target="notes" href="/chap/3.2.3">3.2.3</a></td>
+<td>Water and other liquids</td><td>10</td>
+<td></td><td></td>
+<td id='indent_354'>2</td>
+<td>354</td>
+</tr>
+<tr>
+<td><a name="3.2.4"></a><a target="notes" href="/chap/3.2.4">3.2.4</a></td>
+<td>Elements, metals, alloys</td><td>20</td>
+<td></td><td></td>
+<td id='indent_355'>2</td>
+<td>355</td>
+</tr>
+<tr>
+<td><a name="3.2.5"></a><a target="notes" href="/chap/3.2.5">3.2.5</a></td>
+<td>Landforms and geographical features</td><td>30</td>
+<td></td><td></td>
+<td id='indent_356'>2</td>
+<td>356</td>
+</tr>
+<tr>
+<td><a name="3.2.6"></a><a target="notes" href="/chap/3.2.6">3.2.6</a></td>
+<td>Natural disasters</td><td>1</td>
+<td></td><td></td>
+<td id='indent_357'>2</td>
+<td>357</td>
+</tr>
+<tr>
+<td><a name="3.2.7"></a><a target="notes" href="/chap/3.2.7">3.2.7</a></td>
+<td>Cracks/Chasms/Crevices</td><td>6</td>
+<td></td><td></td>
+<td id='indent_358'>2</td>
+<td>358</td>
+</tr>
+<tr>
+<td><a name="3.2.8"></a><a target="notes" href="/chap/3.2.8">3.2.8</a></td>
+<td>Organic matter/Organic compounds</td><td></td>
+<td></td><td></td>
+<td id='indent_359'>2</td>
+<td>359</td>
+</tr>
+<tr>
+<td><a name="3.2.9"></a><a target="notes" href="/chap/3.2.9">3.2.9</a></td>
+<td>Rocks and minerals</td><td>10</td>
+<td></td><td></td>
+<td id='indent_360'>2</td>
+<td>360</td>
+</tr>
+<tr>
+<td><a name="3.2.10"></a><a target="notes" href="/chap/3.2.10">3.2.10</a></td>
+<td>Light or lack of light</td><td>21</td>
+<td></td><td></td>
+<td id='indent_361'>2</td>
+<td>361</td>
+</tr>
+<tr>
+<td><a name="3.2.11"></a><a target="notes" href="/chap/3.2.11">3.2.11</a></td>
+<td>Ground/Earth/Soil/Dirt</td><td>27</td>
+<td></td><td></td>
+<td id='indent_362'>2</td>
+<td>362</td>
+</tr>
+<tr>
+<td><a name="3.2.12"></a><a target="notes" href="/chap/3.2.12">3.2.12</a></td>
+<td>Fire</td><td></td>
+<td></td><td></td>
+<td id='indent_743'>2</td>
+<td>743</td>
+</tr>
+<tr>
+<td><a name="3.2.12.1"></a><a target="notes" href="/chap/3.2.12.1">3.2.12.1</a></td>
+<td>Verbs pertaining to fire</td><td>25</td>
+<td></td><td></td>
+<td id='indent_363'>3</td>
+<td>363</td>
+</tr>
+<tr>
+<td><a name="3.2.12.2"></a><a target="notes" href="/chap/3.2.12.2">3.2.12.2</a></td>
+<td>Fire, flames, and burnt things</td><td>10</td>
+<td></td><td></td>
+<td id='indent_365'>3</td>
+<td>365</td>
+</tr>
+<tr>
+<td><a name="4.0"></a><a target="notes" href="/chap/4.0">4.0</a></td>
+<td><b>Kinship Terms, Ethnonyms, Social Roles</b></td><td>2</td>
+<td></td><td></td>
+<td id='indent_366'>0</td>
+<td>366</td>
+</tr>
+<tr>
+<td><a name="4.1"></a><a target="notes" href="/chap/4.1">4.1</a></td>
+<td><i>Pronouns</i></td><td>12</td>
+<td></td><td></td>
+<td id='indent_367'>1</td>
+<td>367</td>
+</tr>
+<tr>
+<td><a name="4.2"></a><a target="notes" href="/chap/4.2">4.2</a></td>
+<td><i>Roles</i></td><td>1</td>
+<td></td><td></td>
+<td id='indent_368'>1</td>
+<td>368</td>
+</tr>
+<tr>
+<td><a name="4.2.1"></a><a target="notes" href="/chap/4.2.1">4.2.1</a></td>
+<td>Occupations</td><td></td>
+<td></td><td></td>
+<td id='indent_369'>2</td>
+<td>369</td>
+</tr>
+<tr>
+<td><a name="4.2.1.1"></a><a target="notes" href="/chap/4.2.1.1">4.2.1.1</a></td>
+<td>Agriculture/Husbandry/Hunting</td><td></td>
+<td></td><td></td>
+<td id='indent_370'>3</td>
+<td>370</td>
+</tr>
+<tr>
+<td><a name="4.2.1.2"></a><a target="notes" href="/chap/4.2.1.2">4.2.1.2</a></td>
+<td>Commercial Roles</td><td></td>
+<td></td><td></td>
+<td id='indent_371'>3</td>
+<td>371</td>
+</tr>
+<tr>
+<td><a name="4.2.1.3"></a><a target="notes" href="/chap/4.2.1.3">4.2.1.3</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_372'>3</td>
+<td>372</td>
+</tr>
+<tr>
+<td><a name="4.2.1.4"></a><a target="notes" href="/chap/4.2.1.4">4.2.1.4</a></td>
+<td>Artists and Artisans</td><td></td>
+<td></td><td></td>
+<td id='indent_373'>3</td>
+<td>373</td>
+</tr>
+<tr>
+<td><a name="4.2.1.5"></a><a target="notes" href="/chap/4.2.1.5">4.2.1.5</a></td>
+<td>Health-care</td><td></td>
+<td></td><td></td>
+<td id='indent_374'>3</td>
+<td>374</td>
+</tr>
+<tr>
+<td><a name="4.2.1.6"></a><a target="notes" href="/chap/4.2.1.6">4.2.1.6</a></td>
+<td>Ceremonial</td><td></td>
+<td></td><td></td>
+<td id='indent_375'>3</td>
+<td>375</td>
+</tr>
+<tr>
+<td><a name="4.2.1.7"></a><a target="notes" href="/chap/4.2.1.7">4.2.1.7</a></td>
+<td>General</td><td></td>
+<td></td><td></td>
+<td id='indent_376'>3</td>
+<td>376</td>
+</tr>
+<tr>
+<td><a name="4.2.2"></a><a target="notes" href="/chap/4.2.2">4.2.2</a></td>
+<td>Teacher-Student roles</td><td></td>
+<td></td><td></td>
+<td id='indent_377'>2</td>
+<td>377</td>
+</tr>
+<tr>
+<td><a name="4.2.3"></a><a target="notes" href="/chap/4.2.3">4.2.3</a></td>
+<td>General roles</td><td>1</td>
+<td></td><td></td>
+<td id='indent_378'>2</td>
+<td>378</td>
+</tr>
+<tr>
+<td><a name="4.2.4"></a><a target="notes" href="/chap/4.2.4">4.2.4</a></td>
+<td>Religious Roles</td><td>1</td>
+<td></td><td></td>
+<td id='indent_379'>2</td>
+<td>379</td>
+</tr>
+<tr>
+<td><a name="4.2.5"></a><a target="notes" href="/chap/4.2.5">4.2.5</a></td>
+<td>Nobility</td><td></td>
+<td></td><td></td>
+<td id='indent_380'>2</td>
+<td>380</td>
+</tr>
+<tr>
+<td><a name="4.2.5.1"></a><a target="notes" href="/chap/4.2.5.1">4.2.5.1</a></td>
+<td>Titles</td><td></td>
+<td></td><td></td>
+<td id='indent_381'>3</td>
+<td>381</td>
+</tr>
+<tr>
+<td><a name="4.2.5.2"></a><a target="notes" href="/chap/4.2.5.2">4.2.5.2</a></td>
+<td>Civil leaders</td><td>5</td>
+<td></td><td></td>
+<td id='indent_382'>3</td>
+<td>382</td>
+</tr>
+<tr>
+<td><a name="4.2.5.3"></a><a target="notes" href="/chap/4.2.5.3">4.2.5.3</a></td>
+<td>Owners</td><td></td>
+<td></td><td></td>
+<td id='indent_383'>3</td>
+<td>383</td>
+</tr>
+<tr>
+<td><a name="4.2.6"></a><a target="notes" href="/chap/4.2.6">4.2.6</a></td>
+<td>Military roles</td><td></td>
+<td></td><td></td>
+<td id='indent_384'>2</td>
+<td>384</td>
+</tr>
+<tr>
+<td><a name="4.2.7"></a><a target="notes" href="/chap/4.2.7">4.2.7</a></td>
+<td>Challenged</td><td></td>
+<td></td><td></td>
+<td id='indent_385'>2</td>
+<td>385</td>
+</tr>
+<tr>
+<td><a name="4.2.8"></a><a target="notes" href="/chap/4.2.8">4.2.8</a></td>
+<td>Marital roles</td><td>3</td>
+<td></td><td></td>
+<td id='indent_386'>2</td>
+<td>386</td>
+</tr>
+<tr>
+<td><a name="4.2.9"></a><a target="notes" href="/chap/4.2.9">4.2.9</a></td>
+<td>Sporting</td><td></td>
+<td></td><td></td>
+<td id='indent_387'>2</td>
+<td>387</td>
+</tr>
+<tr>
+<td><a name="4.2.10"></a><a target="notes" href="/chap/4.2.10">4.2.10</a></td>
+<td>Servants</td><td>2</td>
+<td></td><td></td>
+<td id='indent_388'>2</td>
+<td>388</td>
+</tr>
+<tr>
+<td><a name="4.2.11"></a><a target="notes" href="/chap/4.2.11">4.2.11</a></td>
+<td>Stages of growth</td><td>8</td>
+<td></td><td></td>
+<td id='indent_389'>2</td>
+<td>389</td>
+</tr>
+<tr>
+<td><a name="4.2.12"></a><a target="notes" href="/chap/4.2.12">4.2.12</a></td>
+<td>Pejorative/Deprecated Roles</td><td></td>
+<td></td><td></td>
+<td id='indent_390'>2</td>
+<td>390</td>
+</tr>
+<tr>
+<td><a name="4.2.12.1"></a><a target="notes" href="/chap/4.2.12.1">4.2.12.1</a></td>
+<td>Criminals</td><td></td>
+<td></td><td></td>
+<td id='indent_391'>3</td>
+<td>391</td>
+</tr>
+<tr>
+<td><a name="4.2.12.2"></a><a target="notes" href="/chap/4.2.12.2">4.2.12.2</a></td>
+<td>Scary things</td><td></td>
+<td></td><td></td>
+<td id='indent_392'>3</td>
+<td>392</td>
+</tr>
+<tr>
+<td><a name="4.2.12.3"></a><a target="notes" href="/chap/4.2.12.3">4.2.12.3</a></td>
+<td>Insulting names</td><td></td>
+<td></td><td></td>
+<td id='indent_393'>3</td>
+<td>393</td>
+</tr>
+<tr>
+<td><a name="4.3"></a><a target="notes" href="/chap/4.3">4.3</a></td>
+<td><i>People</i></td><td>1</td>
+<td></td><td></td>
+<td id='indent_394'>1</td>
+<td>394</td>
+</tr>
+<tr>
+<td><a name="4.4"></a><a target="notes" href="/chap/4.4">4.4</a></td>
+<td><i>Groups</i></td><td>3</td>
+<td></td><td></td>
+<td id='indent_395'>1</td>
+<td>395</td>
+</tr>
+<tr>
+<td><a name="4.4.1"></a><a target="notes" href="/chap/4.4.1">4.4.1</a></td>
+<td>Generic person terms</td><td>5</td>
+<td></td><td></td>
+<td id='indent_396'>2</td>
+<td>396</td>
+</tr>
+<tr>
+<td><a name="4.4.2"></a><a target="notes" href="/chap/4.4.2">4.4.2</a></td>
+<td>Clans and neighbors</td><td>1</td>
+<td></td><td></td>
+<td id='indent_397'>2</td>
+<td>397</td>
+</tr>
+<tr>
+<td><a name="4.4.3"></a><a target="notes" href="/chap/4.4.3">4.4.3</a></td>
+<td>Outsiders</td><td>4</td>
+<td></td><td></td>
+<td id='indent_398'>2</td>
+<td>398</td>
+</tr>
+<tr>
+<td><a name="4.4.4"></a><a target="notes" href="/chap/4.4.4">4.4.4</a></td>
+<td>Friends and Acquaintances</td><td>7</td>
+<td></td><td></td>
+<td id='indent_399'>2</td>
+<td>399</td>
+</tr>
+<tr>
+<td><a name="4.5"></a><a target="notes" href="/chap/4.5">4.5</a></td>
+<td><i>Other Collective terms</i></td><td></td>
+<td></td><td></td>
+<td id='indent_400'>1</td>
+<td>400</td>
+</tr>
+<tr>
+<td><a name="4.6"></a><a target="notes" href="/chap/4.6">4.6</a></td>
+<td><i>Ethnonyms/Place names</i></td><td>1</td>
+<td></td><td></td>
+<td id='indent_401'>1</td>
+<td>401</td>
+</tr>
+<tr>
+<td><a name="4.7"></a><a target="notes" href="/chap/4.7">4.7</a></td>
+<td><i>Kinship Terms</i></td><td>1</td>
+<td></td><td></td>
+<td id='indent_402'>1</td>
+<td>402</td>
+</tr>
+<tr>
+<td><a name="4.7.1"></a><a target="notes" href="/chap/4.7.1">4.7.1</a></td>
+<td>Previous generation</td><td>16</td>
+<td></td><td></td>
+<td id='indent_403'>2</td>
+<td>403</td>
+</tr>
+<tr>
+<td><a name="4.7.2"></a><a target="notes" href="/chap/4.7.2">4.7.2</a></td>
+<td>Same generation</td><td>20</td>
+<td></td><td></td>
+<td id='indent_404'>2</td>
+<td>404</td>
+</tr>
+<tr>
+<td><a name="4.7.3"></a><a target="notes" href="/chap/4.7.3">4.7.3</a></td>
+<td>Later generation</td><td>6</td>
+<td></td><td></td>
+<td id='indent_405'>2</td>
+<td>405</td>
+</tr>
+<tr>
+<td><a name="4.7.4"></a><a target="notes" href="/chap/4.7.4">4.7.4</a></td>
+<td>Related by marriage</td><td>16</td>
+<td></td><td></td>
+<td id='indent_406'>2</td>
+<td>406</td>
+</tr>
+<tr>
+<td><a name="4.7.5"></a><a target="notes" href="/chap/4.7.5">4.7.5</a></td>
+<td>General</td><td>2</td>
+<td></td><td></td>
+<td id='indent_407'>2</td>
+<td>407</td>
+</tr>
+<tr>
+<td><a name="5.0"></a><a target="notes" href="/chap/5.0">5.0</a></td>
+<td><b>Culture, Artifacts, Religion</b></td><td>2</td>
+<td></td><td></td>
+<td id='indent_408'>0</td>
+<td>408</td>
+</tr>
+<tr>
+<td><a name="5.1"></a><a target="notes" href="/chap/5.1">5.1</a></td>
+<td><i>Waste products</i></td><td>3</td>
+<td></td><td></td>
+<td id='indent_409'>1</td>
+<td>409</td>
+</tr>
+<tr>
+<td><a name="5.2"></a><a target="notes" href="/chap/5.2">5.2</a></td>
+<td><i>Writing Implements</i></td><td></td>
+<td></td><td></td>
+<td id='indent_410'>1</td>
+<td>410</td>
+</tr>
+<tr>
+<td><a name="5.3"></a><a target="notes" href="/chap/5.3">5.3</a></td>
+<td><i>Diseases</i></td><td>3</td>
+<td></td><td></td>
+<td id='indent_411'>1</td>
+<td>411</td>
+</tr>
+<tr>
+<td><a name="5.4"></a><a target="notes" href="/chap/5.4">5.4</a></td>
+<td><i>Instruments and therapies</i></td><td>4</td>
+<td></td><td></td>
+<td id='indent_412'>1</td>
+<td>412</td>
+</tr>
+<tr>
+<td><a name="5.5"></a><a target="notes" href="/chap/5.5">5.5</a></td>
+<td><i>Cooking Implements</i></td><td>20</td>
+<td></td><td></td>
+<td id='indent_413'>1</td>
+<td>413</td>
+</tr>
+<tr>
+<td><a name="5.6"></a><a target="notes" href="/chap/5.6">5.6</a></td>
+<td><i>Culinary nouns</i></td><td>3</td>
+<td></td><td></td>
+<td id='indent_414'>1</td>
+<td>414</td>
+</tr>
+<tr>
+<td><a name="5.7"></a><a target="notes" href="/chap/5.7">5.7</a></td>
+<td><i>Culinary verbs</i></td><td>20</td>
+<td></td><td></td>
+<td id='indent_415'>1</td>
+<td>415</td>
+</tr>
+<tr>
+<td><a name="5.8"></a><a target="notes" href="/chap/5.8">5.8</a></td>
+<td><i>Religion</i></td><td>1</td>
+<td></td><td></td>
+<td id='indent_416'>1</td>
+<td>416</td>
+</tr>
+<tr>
+<td><a name="5.8.1"></a><a target="notes" href="/chap/5.8.1">5.8.1</a></td>
+<td>Dieties and Spiritual Beings</td><td>2</td>
+<td></td><td></td>
+<td id='indent_417'>2</td>
+<td>417</td>
+</tr>
+<tr>
+<td><a name="5.8.1.1"></a><a target="notes" href="/chap/5.8.1.1">5.8.1.1</a></td>
+<td>Deities/Spiritual Beings</td><td>4</td>
+<td></td><td></td>
+<td id='indent_418'>3</td>
+<td>418</td>
+</tr>
+<tr>
+<td><a name="5.8.1.2"></a><a target="notes" href="/chap/5.8.1.2">5.8.1.2</a></td>
+<td>Spiritual Beings</td><td></td>
+<td></td><td></td>
+<td id='indent_419'>3</td>
+<td>419</td>
+</tr>
+<tr>
+<td><a name="5.8.1.3"></a><a target="notes" href="/chap/5.8.1.3">5.8.1.3</a></td>
+<td>General/Other Religious</td><td>2</td>
+<td></td><td></td>
+<td id='indent_420'>3</td>
+<td>420</td>
+</tr>
+<tr>
+<td><a name="5.8.2"></a><a target="notes" href="/chap/5.8.2">5.8.2</a></td>
+<td>Persons and Things associated with Religion</td><td></td>
+<td></td><td></td>
+<td id='indent_421'>2</td>
+<td>421</td>
+</tr>
+<tr>
+<td><a name="5.8.2.1"></a><a target="notes" href="/chap/5.8.2.1">5.8.2.1</a></td>
+<td>Occupations</td><td></td>
+<td></td><td></td>
+<td id='indent_422'>3</td>
+<td>422</td>
+</tr>
+<tr>
+<td><a name="5.8.2.2"></a><a target="notes" href="/chap/5.8.2.2">5.8.2.2</a></td>
+<td>Group appellation</td><td></td>
+<td></td><td></td>
+<td id='indent_423'>3</td>
+<td>423</td>
+</tr>
+<tr>
+<td><a name="5.8.2.3"></a><a target="notes" href="/chap/5.8.2.3">5.8.2.3</a></td>
+<td>Religious persons/things</td><td></td>
+<td></td><td></td>
+<td id='indent_424'>3</td>
+<td>424</td>
+</tr>
+<tr>
+<td><a name="5.8.3"></a><a target="notes" href="/chap/5.8.3">5.8.3</a></td>
+<td>Religious and Magical Events</td><td></td>
+<td></td><td></td>
+<td id='indent_425'>2</td>
+<td>425</td>
+</tr>
+<tr>
+<td><a name="5.8.3.1"></a><a target="notes" href="/chap/5.8.3.1">5.8.3.1</a></td>
+<td>Religious Events</td><td></td>
+<td></td><td></td>
+<td id='indent_426'>3</td>
+<td>426</td>
+</tr>
+<tr>
+<td><a name="5.8.3.2"></a><a target="notes" href="/chap/5.8.3.2">5.8.3.2</a></td>
+<td>Magical</td><td></td>
+<td></td><td></td>
+<td id='indent_427'>3</td>
+<td>427</td>
+</tr>
+<tr>
+<td><a name="5.8.4"></a><a target="notes" href="/chap/5.8.4">5.8.4</a></td>
+<td>Heaven/Hell</td><td></td>
+<td></td><td></td>
+<td id='indent_428'>2</td>
+<td>428</td>
+</tr>
+<tr>
+<td><a name="5.8.5"></a><a target="notes" href="/chap/5.8.5">5.8.5</a></td>
+<td>Sin ?</td><td></td>
+<td></td><td></td>
+<td id='indent_429'>2</td>
+<td>429</td>
+</tr>
+<tr>
+<td><a name="5.9"></a><a target="notes" href="/chap/5.9">5.9</a></td>
+<td><i>Monetary Terms</i></td><td>11</td>
+<td></td><td></td>
+<td id='indent_430'>1</td>
+<td>430</td>
+</tr>
+<tr>
+<td><a name="5.10"></a><a target="notes" href="/chap/5.10">5.10</a></td>
+<td><i>Items of Culture</i></td><td>6</td>
+<td></td><td></td>
+<td id='indent_431'>1</td>
+<td>431</td>
+</tr>
+<tr>
+<td><a name="5.11"></a><a target="notes" href="/chap/5.11">5.11</a></td>
+<td><i>Artifacts (unclassified as yet)</i></td><td>3</td>
+<td></td><td></td>
+<td id='indent_432'>1</td>
+<td>432</td>
+</tr>
+<tr>
+<td><a name="5.11.1"></a><a target="notes" href="/chap/5.11.1">5.11.1</a></td>
+<td>Containers</td><td>11</td>
+<td></td><td></td>
+<td id='indent_433'>2</td>
+<td>433</td>
+</tr>
+<tr>
+<td><a name="5.11.2"></a><a target="notes" href="/chap/5.11.2">5.11.2</a></td>
+<td>Conveyances</td><td>12</td>
+<td></td><td></td>
+<td id='indent_434'>2</td>
+<td>434</td>
+</tr>
+<tr>
+<td><a name="5.11.3"></a><a target="notes" href="/chap/5.11.3">5.11.3</a></td>
+<td>Musical objects</td><td>7</td>
+<td></td><td></td>
+<td id='indent_435'>2</td>
+<td>435</td>
+</tr>
+<tr>
+<td><a name="5.11.4"></a><a target="notes" href="/chap/5.11.4">5.11.4</a></td>
+<td>Rope</td><td>4</td>
+<td></td><td></td>
+<td id='indent_436'>2</td>
+<td>436</td>
+</tr>
+<tr>
+<td><a name="5.11.5"></a><a target="notes" href="/chap/5.11.5">5.11.5</a></td>
+<td>Tools</td><td>6</td>
+<td></td><td></td>
+<td id='indent_437'>2</td>
+<td>437</td>
+</tr>
+<tr>
+<td><a name="5.11.5.1"></a><a target="notes" href="/chap/5.11.5.1">5.11.5.1</a></td>
+<td>Agricultural use</td><td>4</td>
+<td></td><td></td>
+<td id='indent_438'>3</td>
+<td>438</td>
+</tr>
+<tr>
+<td><a name="5.11.5.2"></a><a target="notes" href="/chap/5.11.5.2">5.11.5.2</a></td>
+<td>Home/Non-specialized use</td><td></td>
+<td></td><td></td>
+<td id='indent_439'>3</td>
+<td>439</td>
+</tr>
+<tr>
+<td><a name="5.11.5.3"></a><a target="notes" href="/chap/5.11.5.3">5.11.5.3</a></td>
+<td>Cutting/Boring</td><td>4</td>
+<td></td><td></td>
+<td id='indent_440'>3</td>
+<td>440</td>
+</tr>
+<tr>
+<td><a name="5.11.5.4"></a><a target="notes" href="/chap/5.11.5.4">5.11.5.4</a></td>
+<td>Workshop use/Equipment</td><td>2</td>
+<td></td><td></td>
+<td id='indent_441'>3</td>
+<td>441</td>
+</tr>
+<tr>
+<td><a name="5.11.5.5"></a><a target="notes" href="/chap/5.11.5.5">5.11.5.5</a></td>
+<td>Tools pertaining to fire</td><td>4</td>
+<td></td><td></td>
+<td id='indent_364'>3</td>
+<td>364</td>
+</tr>
+<tr>
+<td><a name="5.11.5.6"></a><a target="notes" href="/chap/5.11.5.6">5.11.5.6</a></td>
+<td>Equipment</td><td></td>
+<td></td><td></td>
+<td id='indent_442'>3</td>
+<td>442</td>
+</tr>
+<tr>
+<td><a name="5.11.6"></a><a target="notes" href="/chap/5.11.6">5.11.6</a></td>
+<td>Textile</td><td>20</td>
+<td></td><td></td>
+<td id='indent_443'>2</td>
+<td>443</td>
+</tr>
+<tr>
+<td><a name="5.11.7"></a><a target="notes" href="/chap/5.11.7">5.11.7</a></td>
+<td>Ornaments</td><td>2</td>
+<td></td><td></td>
+<td id='indent_444'>2</td>
+<td>444</td>
+</tr>
+<tr>
+<td><a name="5.11.8"></a><a target="notes" href="/chap/5.11.8">5.11.8</a></td>
+<td>Ornamentation</td><td>1</td>
+<td></td><td></td>
+<td id='indent_445'>2</td>
+<td>445</td>
+</tr>
+<tr>
+<td><a name="5.11.8.1"></a><a target="notes" href="/chap/5.11.8.1">5.11.8.1</a></td>
+<td>Footwear</td><td>1</td>
+<td></td><td></td>
+<td id='indent_446'>3</td>
+<td>446</td>
+</tr>
+<tr>
+<td><a name="5.11.8.2"></a><a target="notes" href="/chap/5.11.8.2">5.11.8.2</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_447'>3</td>
+<td>447</td>
+</tr>
+<tr>
+<td><a name="5.11.8.2.1"></a><a target="notes" href="/chap/5.11.8.2.1">5.11.8.2.1</a></td>
+<td>Clothes (general)</td><td>10</td>
+<td></td><td></td>
+<td id='indent_448'>4</td>
+<td>448</td>
+</tr>
+<tr>
+<td><a name="5.11.8.2.1.1"></a><a target="notes" href="/chap/5.11.8.2.1.1">5.11.8.2.1.1</a></td>
+<td>Head</td><td></td>
+<td></td><td></td>
+<td id='indent_449'>5</td>
+<td>449</td>
+</tr>
+<tr>
+<td><a name="5.11.8.2.1.2"></a><a target="notes" href="/chap/5.11.8.2.1.2">5.11.8.2.1.2</a></td>
+<td>Upper body</td><td></td>
+<td></td><td></td>
+<td id='indent_450'>5</td>
+<td>450</td>
+</tr>
+<tr>
+<td><a name="5.11.8.2.1.3"></a><a target="notes" href="/chap/5.11.8.2.1.3">5.11.8.2.1.3</a></td>
+<td>Lower body</td><td></td>
+<td></td><td></td>
+<td id='indent_451'>5</td>
+<td>451</td>
+</tr>
+<tr>
+<td><a name="5.11.8.2.2"></a><a target="notes" href="/chap/5.11.8.2.2">5.11.8.2.2</a></td>
+<td>Special clothes and equipment</td><td>1</td>
+<td></td><td></td>
+<td id='indent_452'>4</td>
+<td>452</td>
+</tr>
+<tr>
+<td><a name="5.11.8.2.3"></a><a target="notes" href="/chap/5.11.8.2.3">5.11.8.2.3</a></td>
+<td>Parts of clothing</td><td></td>
+<td></td><td></td>
+<td id='indent_453'>4</td>
+<td>453</td>
+</tr>
+<tr>
+<td><a name="5.11.8.3"></a><a target="notes" href="/chap/5.11.8.3">5.11.8.3</a></td>
+<td>Jewelry and Accessories</td><td></td>
+<td></td><td></td>
+<td id='indent_454'>3</td>
+<td>454</td>
+</tr>
+<tr>
+<td><a name="5.11.8.4"></a><a target="notes" href="/chap/5.11.8.4">5.11.8.4</a></td>
+<td>Toiletries</td><td></td>
+<td></td><td></td>
+<td id='indent_455'>3</td>
+<td>455</td>
+</tr>
+<tr>
+<td><a name="5.11.9"></a><a target="notes" href="/chap/5.11.9">5.11.9</a></td>
+<td>Dwellings</td><td>5</td>
+<td></td><td></td>
+<td id='indent_456'>2</td>
+<td>456</td>
+</tr>
+<tr>
+<td><a name="5.11.9.1"></a><a target="notes" href="/chap/5.11.9.1">5.11.9.1</a></td>
+<td>Kinds of dwellings</td><td>4</td>
+<td></td><td></td>
+<td id='indent_457'>3</td>
+<td>457</td>
+</tr>
+<tr>
+<td><a name="5.11.9.2"></a><a target="notes" href="/chap/5.11.9.2">5.11.9.2</a></td>
+<td>Rooms</td><td></td>
+<td></td><td></td>
+<td id='indent_458'>3</td>
+<td>458</td>
+</tr>
+<tr>
+<td><a name="5.11.9.3"></a><a target="notes" href="/chap/5.11.9.3">5.11.9.3</a></td>
+<td>Parts of the structure</td><td>5</td>
+<td></td><td></td>
+<td id='indent_459'>3</td>
+<td>459</td>
+</tr>
+<tr>
+<td><a name="5.11.9.3.1"></a><a target="notes" href="/chap/5.11.9.3.1">5.11.9.3.1</a></td>
+<td>Internal</td><td>1</td>
+<td></td><td></td>
+<td id='indent_460'>4</td>
+<td>460</td>
+</tr>
+<tr>
+<td><a name="5.11.9.3.2"></a><a target="notes" href="/chap/5.11.9.3.2">5.11.9.3.2</a></td>
+<td>External</td><td>1</td>
+<td></td><td></td>
+<td id='indent_461'>4</td>
+<td>461</td>
+</tr>
+<tr>
+<td><a name="5.11.9.4"></a><a target="notes" href="/chap/5.11.9.4">5.11.9.4</a></td>
+<td>Furnishings</td><td>3</td>
+<td></td><td></td>
+<td id='indent_462'>3</td>
+<td>462</td>
+</tr>
+<tr>
+<td><a name="5.11.9.5"></a><a target="notes" href="/chap/5.11.9.5">5.11.9.5</a></td>
+<td>Outdoor/Temporary structures</td><td>3</td>
+<td></td><td></td>
+<td id='indent_463'>3</td>
+<td>463</td>
+</tr>
+<tr>
+<td><a name="5.11.9.6"></a><a target="notes" href="/chap/5.11.9.6">5.11.9.6</a></td>
+<td>General</td><td></td>
+<td></td><td></td>
+<td id='indent_464'>3</td>
+<td>464</td>
+</tr>
+<tr>
+<td><a name="5.11.10"></a><a target="notes" href="/chap/5.11.10">5.11.10</a></td>
+<td>Fasteners</td><td></td>
+<td></td><td></td>
+<td id='indent_465'>2</td>
+<td>465</td>
+</tr>
+<tr>
+<td><a name="5.11.11"></a><a target="notes" href="/chap/5.11.11">5.11.11</a></td>
+<td>Construction</td><td>1</td>
+<td></td><td></td>
+<td id='indent_466'>2</td>
+<td>466</td>
+</tr>
+<tr>
+<td><a name="5.12"></a><a target="notes" href="/chap/5.12">5.12</a></td>
+<td><i>Leisure</i></td><td></td>
+<td></td><td></td>
+<td id='indent_467'>1</td>
+<td>467</td>
+</tr>
+<tr>
+<td><a name="5.13"></a><a target="notes" href="/chap/5.13">5.13</a></td>
+<td><i>Social interactions</i></td><td></td>
+<td></td><td></td>
+<td id='indent_468'>1</td>
+<td>468</td>
+</tr>
+<tr>
+<td><a name="5.14"></a><a target="notes" href="/chap/5.14">5.14</a></td>
+<td><i>Husbandry</i></td><td>5</td>
+<td></td><td></td>
+<td id='indent_469'>1</td>
+<td>469</td>
+</tr>
+<tr>
+<td><a name="5.15"></a><a target="notes" href="/chap/5.15">5.15</a></td>
+<td><i>War and violence</i></td><td>34</td>
+<td></td><td></td>
+<td id='indent_470'>1</td>
+<td>470</td>
+</tr>
+<tr>
+<td><a name="6.0"></a><a target="notes" href="/chap/6.0">6.0</a></td>
+<td><b>Verbs of Motion, of Manipulation, and of Production</b></td><td></td>
+<td></td><td></td>
+<td id='indent_471'>0</td>
+<td>471</td>
+</tr>
+<tr>
+<td><a name="6.1"></a><a target="notes" href="/chap/6.1">6.1</a></td>
+<td><i>Action Verbs without Patient</i></td><td></td>
+<td></td><td></td>
+<td id='indent_472'>1</td>
+<td>472</td>
+</tr>
+<tr>
+<td><a name="6.1.1"></a><a target="notes" href="/chap/6.1.1">6.1.1</a></td>
+<td>Affect</td><td>4</td>
+<td></td><td></td>
+<td id='indent_473'>2</td>
+<td>473</td>
+</tr>
+<tr>
+<td><a name="6.1.1.1"></a><a target="notes" href="/chap/6.1.1.1">6.1.1.1</a></td>
+<td>To do/act</td><td>14</td>
+<td></td><td></td>
+<td id='indent_474'>3</td>
+<td>474</td>
+</tr>
+<tr>
+<td><a name="6.1.1.1.1"></a><a target="notes" href="/chap/6.1.1.1.1">6.1.1.1.1</a></td>
+<td>Redo, repeat</td><td></td>
+<td></td><td></td>
+<td id='indent_475'>4</td>
+<td>475</td>
+</tr>
+<tr>
+<td><a name="6.1.1.3"></a><a target="notes" href="/chap/6.1.1.3">6.1.1.3</a></td>
+<td>Play</td><td>4</td>
+<td></td><td></td>
+<td id='indent_476'>3</td>
+<td>476</td>
+</tr>
+<tr>
+<td><a name="6.1.1.4"></a><a target="notes" href="/chap/6.1.1.4">6.1.1.4</a></td>
+<td>Lie (down)</td><td>1</td>
+<td></td><td></td>
+<td id='indent_477'>3</td>
+<td>477</td>
+</tr>
+<tr>
+<td><a name="6.1.1.4.1"></a><a target="notes" href="/chap/6.1.1.4.1">6.1.1.4.1</a></td>
+<td>Sit</td><td>15</td>
+<td></td><td></td>
+<td id='indent_478'>4</td>
+<td>478</td>
+</tr>
+<tr>
+<td><a name="6.1.1.4.1.1"></a><a target="notes" href="/chap/6.1.1.4.1.1">6.1.1.4.1.1</a></td>
+<td>Sprawl</td><td></td>
+<td></td><td></td>
+<td id='indent_479'>5</td>
+<td>479</td>
+</tr>
+<tr>
+<td><a name="6.1.1.4.2"></a><a target="notes" href="/chap/6.1.1.4.2">6.1.1.4.2</a></td>
+<td>Fall</td><td>12</td>
+<td></td><td></td>
+<td id='indent_480'>4</td>
+<td>480</td>
+</tr>
+<tr>
+<td><a name="6.1.1.5"></a><a target="notes" href="/chap/6.1.1.5">6.1.1.5</a></td>
+<td>Hang</td><td>6</td>
+<td></td><td></td>
+<td id='indent_481'>3</td>
+<td>481</td>
+</tr>
+<tr>
+<td><a name="6.1.1.6"></a><a target="notes" href="/chap/6.1.1.6">6.1.1.6</a></td>
+<td>Wait</td><td>5</td>
+<td></td><td></td>
+<td id='indent_482'>3</td>
+<td>482</td>
+</tr>
+<tr>
+<td><a name="6.2"></a><a target="notes" href="/chap/6.2">6.2</a></td>
+<td><i>Action Verbs with Patient</i></td><td>17</td>
+<td></td><td></td>
+<td id='indent_483'>1</td>
+<td>483</td>
+</tr>
+<tr>
+<td><a name="6.2.2"></a><a target="notes" href="/chap/6.2.2">6.2.2</a></td>
+<td>Assorted action verbs</td><td>2</td>
+<td></td><td></td>
+<td id='indent_484'>2</td>
+<td>484</td>
+</tr>
+<tr>
+<td><a name="6.2.2.1"></a><a target="notes" href="/chap/6.2.2.1">6.2.2.1</a></td>
+<td>Assorted action verbs</td><td>59</td>
+<td></td><td></td>
+<td id='indent_485'>3</td>
+<td>485</td>
+</tr>
+<tr>
+<td><a name="6.2.2.2"></a><a target="notes" href="/chap/6.2.2.2">6.2.2.2</a></td>
+<td>Move an object</td><td>5</td>
+<td></td><td></td>
+<td id='indent_486'>3</td>
+<td>486</td>
+</tr>
+<tr>
+<td><a name="6.2.2.2.1"></a><a target="notes" href="/chap/6.2.2.2.1">6.2.2.2.1</a></td>
+<td>Carry</td><td>10</td>
+<td></td><td></td>
+<td id='indent_487'>4</td>
+<td>487</td>
+</tr>
+<tr>
+<td><a name="6.2.2.2.2"></a><a target="notes" href="/chap/6.2.2.2.2">6.2.2.2.2</a></td>
+<td>Bring</td><td></td>
+<td></td><td></td>
+<td id='indent_488'>4</td>
+<td>488</td>
+</tr>
+<tr>
+<td><a name="6.2.2.3"></a><a target="notes" href="/chap/6.2.2.3">6.2.2.3</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_489'>3</td>
+<td>489</td>
+</tr>
+<tr>
+<td><a name="6.2.2.3.1"></a><a target="notes" href="/chap/6.2.2.3.1">6.2.2.3.1</a></td>
+<td>Push</td><td>10</td>
+<td></td><td></td>
+<td id='indent_490'>4</td>
+<td>490</td>
+</tr>
+<tr>
+<td><a name="6.2.2.3.2"></a><a target="notes" href="/chap/6.2.2.3.2">6.2.2.3.2</a></td>
+<td>Pull</td><td>9</td>
+<td></td><td></td>
+<td id='indent_491'>4</td>
+<td>491</td>
+</tr>
+<tr>
+<td><a name="6.2.2.3.3"></a><a target="notes" href="/chap/6.2.2.3.3">6.2.2.3.3</a></td>
+<td>Kick</td><td>1</td>
+<td></td><td></td>
+<td id='indent_492'>4</td>
+<td>492</td>
+</tr>
+<tr>
+<td><a name="6.2.2.5"></a><a target="notes" href="/chap/6.2.2.5">6.2.2.5</a></td>
+<td>Cleaning</td><td></td>
+<td></td><td></td>
+<td id='indent_493'>3</td>
+<td>493</td>
+</tr>
+<tr>
+<td><a name="6.2.2.5.1"></a><a target="notes" href="/chap/6.2.2.5.1">6.2.2.5.1</a></td>
+<td>Clear</td><td>2</td>
+<td></td><td></td>
+<td id='indent_494'>4</td>
+<td>494</td>
+</tr>
+<tr>
+<td><a name="6.2.2.5.2"></a><a target="notes" href="/chap/6.2.2.5.2">6.2.2.5.2</a></td>
+<td>Wash (v.i./v.t.)</td><td>12</td>
+<td></td><td></td>
+<td id='indent_495'>4</td>
+<td>495</td>
+</tr>
+<tr>
+<td><a name="6.2.2.5.3"></a><a target="notes" href="/chap/6.2.2.5.3">6.2.2.5.3</a></td>
+<td>Sweep</td><td>4</td>
+<td></td><td></td>
+<td id='indent_496'>4</td>
+<td>496</td>
+</tr>
+<tr>
+<td><a name="6.2.2.6"></a><a target="notes" href="/chap/6.2.2.6">6.2.2.6</a></td>
+<td>Open/Close</td><td></td>
+<td></td><td></td>
+<td id='indent_497'>3</td>
+<td>497</td>
+</tr>
+<tr>
+<td><a name="6.2.2.6.1"></a><a target="notes" href="/chap/6.2.2.6.1">6.2.2.6.1</a></td>
+<td>Open</td><td>8</td>
+<td></td><td></td>
+<td id='indent_498'>4</td>
+<td>498</td>
+</tr>
+<tr>
+<td><a name="6.2.2.6.2"></a><a target="notes" href="/chap/6.2.2.6.2">6.2.2.6.2</a></td>
+<td>Close</td><td>5</td>
+<td></td><td></td>
+<td id='indent_499'>4</td>
+<td>499</td>
+</tr>
+<tr>
+<td><a name="6.2.2.7"></a><a target="notes" href="/chap/6.2.2.7">6.2.2.7</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_500'>3</td>
+<td>500</td>
+</tr>
+<tr>
+<td><a name="6.2.2.7.1"></a><a target="notes" href="/chap/6.2.2.7.1">6.2.2.7.1</a></td>
+<td>Use</td><td>3</td>
+<td></td><td></td>
+<td id='indent_501'>4</td>
+<td>501</td>
+</tr>
+<tr>
+<td><a name="6.2.2.7.2"></a><a target="notes" href="/chap/6.2.2.7.2">6.2.2.7.2</a></td>
+<td>Practice</td><td>2</td>
+<td></td><td></td>
+<td id='indent_502'>4</td>
+<td>502</td>
+</tr>
+<tr>
+<td><a name="6.2.2.8"></a><a target="notes" href="/chap/6.2.2.8">6.2.2.8</a></td>
+<td>Show</td><td></td>
+<td></td><td></td>
+<td id='indent_503'>3</td>
+<td>503</td>
+</tr>
+<tr>
+<td><a name="6.2.2.9"></a><a target="notes" href="/chap/6.2.2.9">6.2.2.9</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_504'>3</td>
+<td>504</td>
+</tr>
+<tr>
+<td><a name="6.2.2.9.1"></a><a target="notes" href="/chap/6.2.2.9.1">6.2.2.9.1</a></td>
+<td>Write</td><td>1</td>
+<td></td><td></td>
+<td id='indent_505'>4</td>
+<td>505</td>
+</tr>
+<tr>
+<td><a name="6.2.2.9.2"></a><a target="notes" href="/chap/6.2.2.9.2">6.2.2.9.2</a></td>
+<td>Draw</td><td>6</td>
+<td></td><td></td>
+<td id='indent_506'>4</td>
+<td>506</td>
+</tr>
+<tr>
+<td><a name="6.2.2.9.3"></a><a target="notes" href="/chap/6.2.2.9.3">6.2.2.9.3</a></td>
+<td>Read</td><td>4</td>
+<td></td><td></td>
+<td id='indent_507'>4</td>
+<td>507</td>
+</tr>
+<tr>
+<td><a name="6.3"></a><a target="notes" href="/chap/6.3">6.3</a></td>
+<td><i>Friction</i></td><td>15</td>
+<td></td><td></td>
+<td id='indent_508'>1</td>
+<td>508</td>
+</tr>
+<tr>
+<td><a name="6.4"></a><a target="notes" href="/chap/6.4">6.4</a></td>
+<td><i>Harm</i></td><td>11</td>
+<td></td><td></td>
+<td id='indent_509'>1</td>
+<td>509</td>
+</tr>
+<tr>
+<td><a name="6.5"></a><a target="notes" href="/chap/6.5">6.5</a></td>
+<td><i>Fighting</i></td><td>8</td>
+<td></td><td></td>
+<td id='indent_510'>1</td>
+<td>510</td>
+</tr>
+<tr>
+<td><a name="6.5.1"></a><a target="notes" href="/chap/6.5.1">6.5.1</a></td>
+<td>Opposition</td><td>3</td>
+<td></td><td></td>
+<td id='indent_511'>2</td>
+<td>511</td>
+</tr>
+<tr>
+<td><a name="6.6"></a><a target="notes" href="/chap/6.6">6.6</a></td>
+<td><i>Verbs requiring liquids</i></td><td>52</td>
+<td></td><td></td>
+<td id='indent_512'>1</td>
+<td>512</td>
+</tr>
+<tr>
+<td><a name="6.6.1"></a><a target="notes" href="/chap/6.6.1">6.6.1</a></td>
+<td>Float</td><td></td>
+<td></td><td></td>
+<td id='indent_513'>2</td>
+<td>513</td>
+</tr>
+<tr>
+<td><a name="6.6.2"></a><a target="notes" href="/chap/6.6.2">6.6.2</a></td>
+<td>Dissolve</td><td></td>
+<td></td><td></td>
+<td id='indent_514'>2</td>
+<td>514</td>
+</tr>
+<tr>
+<td><a name="6.7"></a><a target="notes" href="/chap/6.7">6.7</a></td>
+<td><i>Movement</i></td><td>7</td>
+<td></td><td></td>
+<td id='indent_515'>1</td>
+<td>515</td>
+</tr>
+<tr>
+<td><a name="6.7.1"></a><a target="notes" href="/chap/6.7.1">6.7.1</a></td>
+<td>Inward</td><td>20</td>
+<td></td><td></td>
+<td id='indent_516'>2</td>
+<td>516</td>
+</tr>
+<tr>
+<td><a name="6.7.2"></a><a target="notes" href="/chap/6.7.2">6.7.2</a></td>
+<td>Outward</td><td>10</td>
+<td></td><td></td>
+<td id='indent_517'>2</td>
+<td>517</td>
+</tr>
+<tr>
+<td><a name="6.7.3"></a><a target="notes" href="/chap/6.7.3">6.7.3</a></td>
+<td>Awkwardly, Irregularly, Abruptly</td><td>10</td>
+<td></td><td></td>
+<td id='indent_518'>2</td>
+<td>518</td>
+</tr>
+<tr>
+<td><a name="6.7.4"></a><a target="notes" href="/chap/6.7.4">6.7.4</a></td>
+<td>Regular, Cyclic, Smoothly</td><td>14</td>
+<td></td><td></td>
+<td id='indent_519'>2</td>
+<td>519</td>
+</tr>
+<tr>
+<td><a name="6.7.5"></a><a target="notes" href="/chap/6.7.5">6.7.5</a></td>
+<td>Medium Primary (e.g. air)</td><td>7</td>
+<td></td><td></td>
+<td id='indent_520'>2</td>
+<td>520</td>
+</tr>
+<tr>
+<td><a name="6.7.6"></a><a target="notes" href="/chap/6.7.6">6.7.6</a></td>
+<td>Circularly</td><td>24</td>
+<td></td><td></td>
+<td id='indent_521'>2</td>
+<td>521</td>
+</tr>
+<tr>
+<td><a name="6.7.7"></a><a target="notes" href="/chap/6.7.7">6.7.7</a></td>
+<td>Up, etc.</td><td>7</td>
+<td></td><td></td>
+<td id='indent_522'>2</td>
+<td>522</td>
+</tr>
+<tr>
+<td><a name="6.7.8"></a><a target="notes" href="/chap/6.7.8">6.7.8</a></td>
+<td>Downward</td><td>5</td>
+<td></td><td></td>
+<td id='indent_523'>2</td>
+<td>523</td>
+</tr>
+<tr>
+<td><a name="6.7.9"></a><a target="notes" href="/chap/6.7.9">6.7.9</a></td>
+<td>Manner is primary</td><td>36</td>
+<td></td><td></td>
+<td id='indent_524'>2</td>
+<td>524</td>
+</tr>
+<tr>
+<td><a name="6.7.10"></a><a target="notes" href="/chap/6.7.10">6.7.10</a></td>
+<td>Move with something else</td><td>19</td>
+<td></td><td></td>
+<td id='indent_525'>2</td>
+<td>525</td>
+</tr>
+<tr>
+<td><a name="6.7.11"></a><a target="notes" href="/chap/6.7.11">6.7.11</a></td>
+<td>Movement (general)</td><td>22</td>
+<td></td><td></td>
+<td id='indent_526'>2</td>
+<td>526</td>
+</tr>
+<tr>
+<td><a name="6.8"></a><a target="notes" href="/chap/6.8">6.8</a></td>
+<td><i>Striking, hitting verbs</i></td><td>37</td>
+<td></td><td></td>
+<td id='indent_527'>1</td>
+<td>527</td>
+</tr>
+<tr>
+<td><a name="6.9"></a><a target="notes" href="/chap/6.9">6.9</a></td>
+<td><i>Undoing</i></td><td>14</td>
+<td></td><td></td>
+<td id='indent_528'>1</td>
+<td>528</td>
+</tr>
+<tr>
+<td><a name="6.9.1"></a><a target="notes" href="/chap/6.9.1">6.9.1</a></td>
+<td>Peel</td><td>2</td>
+<td></td><td></td>
+<td id='indent_529'>2</td>
+<td>529</td>
+</tr>
+<tr>
+<td><a name="6.9.2"></a><a target="notes" href="/chap/6.9.2">6.9.2</a></td>
+<td>Carve, shave</td><td>22</td>
+<td></td><td></td>
+<td id='indent_530'>2</td>
+<td>530</td>
+</tr>
+<tr>
+<td><a name="6.9.3"></a><a target="notes" href="/chap/6.9.3">6.9.3</a></td>
+<td>Chop, slice</td><td>38</td>
+<td></td><td></td>
+<td id='indent_531'>2</td>
+<td>531</td>
+</tr>
+<tr>
+<td><a name="6.9.4"></a><a target="notes" href="/chap/6.9.4">6.9.4</a></td>
+<td>Mince, shred</td><td></td>
+<td></td><td></td>
+<td id='indent_532'>2</td>
+<td>532</td>
+</tr>
+<tr>
+<td><a name="6.10"></a><a target="notes" href="/chap/6.10">6.10</a></td>
+<td><i>Loss, separation</i></td><td></td>
+<td></td><td></td>
+<td id='indent_533'>1</td>
+<td>533</td>
+</tr>
+<tr>
+<td><a name="6.10.1"></a><a target="notes" href="/chap/6.10.1">6.10.1</a></td>
+<td>Unintentional loss - Misplace</td><td>4</td>
+<td></td><td></td>
+<td id='indent_534'>2</td>
+<td>534</td>
+</tr>
+<tr>
+<td><a name="6.10.2"></a><a target="notes" href="/chap/6.10.2">6.10.2</a></td>
+<td>Intentional loss - Abandon</td><td>4</td>
+<td></td><td></td>
+<td id='indent_535'>2</td>
+<td>535</td>
+</tr>
+<tr>
+<td><a name="6.10.3"></a><a target="notes" href="/chap/6.10.3">6.10.3</a></td>
+<td>Wide separation - Scatter</td><td>8</td>
+<td></td><td></td>
+<td id='indent_536'>2</td>
+<td>536</td>
+</tr>
+<tr>
+<td><a name="6.10.4"></a><a target="notes" href="/chap/6.10.4">6.10.4</a></td>
+<td>Intentional separation - Sort</td><td>18</td>
+<td></td><td></td>
+<td id='indent_537'>2</td>
+<td>537</td>
+</tr>
+<tr>
+<td><a name="6.11"></a><a target="notes" href="/chap/6.11">6.11</a></td>
+<td><i>Digging, excavation</i></td><td>27</td>
+<td></td><td></td>
+<td id='indent_538'>1</td>
+<td>538</td>
+</tr>
+<tr>
+<td><a name="6.12"></a><a target="notes" href="/chap/6.12">6.12</a></td>
+<td><i>Throwing</i></td><td>7</td>
+<td></td><td></td>
+<td id='indent_539'>1</td>
+<td>539</td>
+</tr>
+<tr>
+<td><a name="6.13"></a><a target="notes" href="/chap/6.13">6.13</a></td>
+<td><i>Convergence</i></td><td>28</td>
+<td></td><td></td>
+<td id='indent_540'>1</td>
+<td>540</td>
+</tr>
+<tr>
+<td><a name="6.13.1"></a><a target="notes" href="/chap/6.13.1">6.13.1</a></td>
+<td>Tying</td><td>14</td>
+<td></td><td></td>
+<td id='indent_541'>2</td>
+<td>541</td>
+</tr>
+<tr>
+<td><a name="6.13.2"></a><a target="notes" href="/chap/6.13.2">6.13.2</a></td>
+<td>Adhesion</td><td>6</td>
+<td></td><td></td>
+<td id='indent_542'>2</td>
+<td>542</td>
+</tr>
+<tr>
+<td><a name="6.13.3"></a><a target="notes" href="/chap/6.13.3">6.13.3</a></td>
+<td>With Tools</td><td>3</td>
+<td></td><td></td>
+<td id='indent_543'>2</td>
+<td>543</td>
+</tr>
+<tr>
+<td><a name="6.13.4"></a><a target="notes" href="/chap/6.13.4">6.13.4</a></td>
+<td>Mix</td><td>4</td>
+<td></td><td></td>
+<td id='indent_544'>2</td>
+<td>544</td>
+</tr>
+<tr>
+<td><a name="6.13.5"></a><a target="notes" href="/chap/6.13.5">6.13.5</a></td>
+<td>Join (general)</td><td>12</td>
+<td></td><td></td>
+<td id='indent_545'>2</td>
+<td>545</td>
+</tr>
+<tr>
+<td><a name="6.14"></a><a target="notes" href="/chap/6.14">6.14</a></td>
+<td><i>Construction</i></td><td>10</td>
+<td></td><td></td>
+<td id='indent_546'>1</td>
+<td>546</td>
+</tr>
+<tr>
+<td><a name="6.15"></a><a target="notes" href="/chap/6.15">6.15</a></td>
+<td><i>Repair</i></td><td>1</td>
+<td></td><td></td>
+<td id='indent_547'>1</td>
+<td>547</td>
+</tr>
+<tr>
+<td><a name="6.16"></a><a target="notes" href="/chap/6.16">6.16</a></td>
+<td><i>Holding</i></td><td>31</td>
+<td></td><td></td>
+<td id='indent_548'>1</td>
+<td>548</td>
+</tr>
+<tr>
+<td><a name="6.17"></a><a target="notes" href="/chap/6.17">6.17</a></td>
+<td><i>Putting</i></td><td>9</td>
+<td></td><td></td>
+<td id='indent_549'>1</td>
+<td>549</td>
+</tr>
+<tr>
+<td><a name="6.18"></a><a target="notes" href="/chap/6.18">6.18</a></td>
+<td><i>Possession</i></td><td>2</td>
+<td></td><td></td>
+<td id='indent_550'>1</td>
+<td>550</td>
+</tr>
+<tr>
+<td><a name="6.19"></a><a target="notes" href="/chap/6.19">6.19</a></td>
+<td><i>Social action</i></td><td>15</td>
+<td></td><td></td>
+<td id='indent_551'>1</td>
+<td>551</td>
+</tr>
+<tr>
+<td><a name="6.20"></a><a target="notes" href="/chap/6.20">6.20</a></td>
+<td><i>Helping</i></td><td>9</td>
+<td></td><td></td>
+<td id='indent_552'>1</td>
+<td>552</td>
+</tr>
+<tr>
+<td><a name="6.21"></a><a target="notes" href="/chap/6.21">6.21</a></td>
+<td><i>Acquisitions</i></td><td>25</td>
+<td></td><td></td>
+<td id='indent_553'>1</td>
+<td>553</td>
+</tr>
+<tr>
+<td><a name="6.22"></a><a target="notes" href="/chap/6.22">6.22</a></td>
+<td><i>Exchanges</i></td><td>32</td>
+<td></td><td></td>
+<td id='indent_554'>1</td>
+<td>554</td>
+</tr>
+<tr>
+<td><a name="6.23"></a><a target="notes" href="/chap/6.23">6.23</a></td>
+<td><i>Giving</i></td><td>15</td>
+<td></td><td></td>
+<td id='indent_555'>1</td>
+<td>555</td>
+</tr>
+<tr>
+<td><a name="6.24"></a><a target="notes" href="/chap/6.24">6.24</a></td>
+<td><i>Verbs concerning textiles</i></td><td>12</td>
+<td></td><td></td>
+<td id='indent_1124'>1</td>
+<td>1124</td>
+</tr>
+<tr>
+<td><a name="7.0"></a><a target="notes" href="/chap/7.0">7.0</a></td>
+<td><b>Adjectival Verbs</b></td><td></td>
+<td></td><td></td>
+<td id='indent_556'>0</td>
+<td>556</td>
+</tr>
+<tr>
+<td><a name="7.1"></a><a target="notes" href="/chap/7.1">7.1</a></td>
+<td><i>Adjectives and attributives</i></td><td></td>
+<td></td><td></td>
+<td id='indent_557'>1</td>
+<td>557</td>
+</tr>
+<tr>
+<td><a name="7.1.1"></a><a target="notes" href="/chap/7.1.1">7.1.1</a></td>
+<td>Emotive</td><td></td>
+<td></td><td></td>
+<td id='indent_558'>2</td>
+<td>558</td>
+</tr>
+<tr>
+<td><a name="7.1.2"></a><a target="notes" href="/chap/7.1.2">7.1.2</a></td>
+<td>Quantity/Degree/Temperature</td><td></td>
+<td></td><td></td>
+<td id='indent_559'>2</td>
+<td>559</td>
+</tr>
+<tr>
+<td><a name="7.1.2.1"></a><a target="notes" href="/chap/7.1.2.1">7.1.2.1</a></td>
+<td>Quantity - general</td><td>26</td>
+<td></td><td></td>
+<td id='indent_560'>3</td>
+<td>560</td>
+</tr>
+<tr>
+<td><a name="7.1.2.2"></a><a target="notes" href="/chap/7.1.2.2">7.1.2.2</a></td>
+<td>Degree</td><td>6</td>
+<td></td><td></td>
+<td id='indent_561'>3</td>
+<td>561</td>
+</tr>
+<tr>
+<td><a name="7.1.2.3"></a><a target="notes" href="/chap/7.1.2.3">7.1.2.3</a></td>
+<td>Temperature</td><td>13</td>
+<td></td><td></td>
+<td id='indent_562'>3</td>
+<td>562</td>
+</tr>
+<tr>
+<td><a name="7.1.3"></a><a target="notes" href="/chap/7.1.3">7.1.3</a></td>
+<td>Human qualities and appearance</td><td>4</td>
+<td></td><td></td>
+<td id='indent_563'>2</td>
+<td>563</td>
+</tr>
+<tr>
+<td><a name="7.1.4"></a><a target="notes" href="/chap/7.1.4">7.1.4</a></td>
+<td>Sensations</td><td></td>
+<td></td><td></td>
+<td id='indent_566'>2</td>
+<td>566</td>
+</tr>
+<tr>
+<td><a name="7.1.4.1"></a><a target="notes" href="/chap/7.1.4.1">7.1.4.1</a></td>
+<td>Sight</td><td></td>
+<td></td><td></td>
+<td id='indent_567'>3</td>
+<td>567</td>
+</tr>
+<tr>
+<td><a name="7.1.4.2"></a><a target="notes" href="/chap/7.1.4.2">7.1.4.2</a></td>
+<td>Feel/Tactile/Texture</td><td>26</td>
+<td></td><td></td>
+<td id='indent_568'>3</td>
+<td>568</td>
+</tr>
+<tr>
+<td><a name="7.1.4.3"></a><a target="notes" href="/chap/7.1.4.3">7.1.4.3</a></td>
+<td>Hear</td><td>1</td>
+<td></td><td></td>
+<td id='indent_569'>3</td>
+<td>569</td>
+</tr>
+<tr>
+<td><a name="7.1.4.4"></a><a target="notes" href="/chap/7.1.4.4">7.1.4.4</a></td>
+<td>Taste</td><td>24</td>
+<td></td><td></td>
+<td id='indent_570'>3</td>
+<td>570</td>
+</tr>
+<tr>
+<td><a name="7.1.4.5"></a><a target="notes" href="/chap/7.1.4.5">7.1.4.5</a></td>
+<td>Smell</td><td>3</td>
+<td></td><td></td>
+<td id='indent_571'>3</td>
+<td>571</td>
+</tr>
+<tr>
+<td><a name="7.1.5"></a><a target="notes" href="/chap/7.1.5">7.1.5</a></td>
+<td>Object Qualities</td><td></td>
+<td></td><td></td>
+<td id='indent_572'>2</td>
+<td>572</td>
+</tr>
+<tr>
+<td><a name="7.1.5.1"></a><a target="notes" href="/chap/7.1.5.1">7.1.5.1</a></td>
+<td>General - form</td><td>23</td>
+<td></td><td></td>
+<td id='indent_573'>3</td>
+<td>573</td>
+</tr>
+<tr>
+<td><a name="7.1.5.3"></a><a target="notes" href="/chap/7.1.5.3">7.1.5.3</a></td>
+<td>Position - high/low</td><td>9</td>
+<td></td><td></td>
+<td id='indent_575'>3</td>
+<td>575</td>
+</tr>
+<tr>
+<td><a name="7.1.5.4"></a><a target="notes" href="/chap/7.1.5.4">7.1.5.4</a></td>
+<td>Position - front/back/side-side</td><td>1</td>
+<td></td><td></td>
+<td id='indent_576'>3</td>
+<td>576</td>
+</tr>
+<tr>
+<td><a name="7.1.6"></a><a target="notes" href="/chap/7.1.6">7.1.6</a></td>
+<td>Composition</td><td></td>
+<td></td><td></td>
+<td id='indent_577'>2</td>
+<td>577</td>
+</tr>
+<tr>
+<td><a name="7.1.6.1"></a><a target="notes" href="/chap/7.1.6.1">7.1.6.1</a></td>
+<td>Single/part/few</td><td>2</td>
+<td></td><td></td>
+<td id='indent_578'>3</td>
+<td>578</td>
+</tr>
+<tr>
+<td><a name="7.1.6.2"></a><a target="notes" href="/chap/7.1.6.2">7.1.6.2</a></td>
+<td>Accompanied/whole/many</td><td></td>
+<td></td><td></td>
+<td id='indent_579'>3</td>
+<td>579</td>
+</tr>
+<tr>
+<td><a name="7.1.7"></a><a target="notes" href="/chap/7.1.7">7.1.7</a></td>
+<td>Importance/Significance</td><td></td>
+<td></td><td></td>
+<td id='indent_580'>2</td>
+<td>580</td>
+</tr>
+<tr>
+<td><a name="7.1.7.1"></a><a target="notes" href="/chap/7.1.7.1">7.1.7.1</a></td>
+<td>Unique/important/special</td><td>2</td>
+<td></td><td></td>
+<td id='indent_581'>3</td>
+<td>581</td>
+</tr>
+<tr>
+<td><a name="7.1.7.2"></a><a target="notes" href="/chap/7.1.7.2">7.1.7.2</a></td>
+<td>Mundane/unimportant/same/routine</td><td>4</td>
+<td></td><td></td>
+<td id='indent_582'>3</td>
+<td>582</td>
+</tr>
+<tr>
+<td><a name="7.1.8"></a><a target="notes" href="/chap/7.1.8">7.1.8</a></td>
+<td>Evaluatives (but see also 7.1.3, 7.1.5, 9.6)</td><td></td>
+<td></td><td></td>
+<td id='indent_583'>2</td>
+<td>583</td>
+</tr>
+<tr>
+<td><a name="7.1.8.3"></a><a target="notes" href="/chap/7.1.8.3">7.1.8.3</a></td>
+<td>Neutral term</td><td>18</td>
+<td></td><td></td>
+<td id='indent_586'>3</td>
+<td>586</td>
+</tr>
+<tr>
+<td><a name="7.1.10"></a><a target="notes" href="/chap/7.1.10">7.1.10</a></td>
+<td>MERGE WITH 6.7.3</td><td></td>
+<td></td><td></td>
+<td id='indent_587'>2</td>
+<td>587</td>
+</tr>
+<tr>
+<td><a name="7.1.11"></a><a target="notes" href="/chap/7.1.11">7.1.11</a></td>
+<td>Light/Dark</td><td></td>
+<td></td><td></td>
+<td id='indent_588'>2</td>
+<td>588</td>
+</tr>
+<tr>
+<td><a name="7.1.11.1"></a><a target="notes" href="/chap/7.1.11.1">7.1.11.1</a></td>
+<td>Light</td><td>2</td>
+<td></td><td></td>
+<td id='indent_589'>3</td>
+<td>589</td>
+</tr>
+<tr>
+<td><a name="7.1.11.2"></a><a target="notes" href="/chap/7.1.11.2">7.1.11.2</a></td>
+<td>Dark</td><td>2</td>
+<td></td><td></td>
+<td id='indent_590'>3</td>
+<td>590</td>
+</tr>
+<tr>
+<td><a name="7.2"></a><a target="notes" href="/chap/7.2">7.2</a></td>
+<td><i>Epistemics</i></td><td></td>
+<td></td><td></td>
+<td id='indent_1111'>1</td>
+<td>1111</td>
+</tr>
+<tr>
+<td><a name="7.3"></a><a target="notes" href="/chap/7.3">7.3</a></td>
+<td><i>Manner Adverbials</i></td><td></td>
+<td></td><td></td>
+<td id='indent_1115'>1</td>
+<td>1115</td>
+</tr>
+<tr>
+<td><a name="8.0"></a><a target="notes" href="/chap/8.0">8.0</a></td>
+<td><b>Abstract Nouns and Verbs, Psychological Verbs, Verbs of Utterance</b></td><td></td>
+<td></td><td></td>
+<td id='indent_591'>0</td>
+<td>591</td>
+</tr>
+<tr>
+<td><a name="8.1"></a><a target="notes" href="/chap/8.1">8.1</a></td>
+<td><i>Abstract Entities</i></td><td>15</td>
+<td></td><td></td>
+<td id='indent_592'>1</td>
+<td>592</td>
+</tr>
+<tr>
+<td><a name="8.2"></a><a target="notes" href="/chap/8.2">8.2</a></td>
+<td><i>Abstract verbs</i></td><td>8</td>
+<td></td><td></td>
+<td id='indent_593'>1</td>
+<td>593</td>
+</tr>
+<tr>
+<td><a name="8.2.1"></a><a target="notes" href="/chap/8.2.1">8.2.1</a></td>
+<td>Be</td><td></td>
+<td></td><td></td>
+<td id='indent_594'>2</td>
+<td>594</td>
+</tr>
+<tr>
+<td><a name="8.3"></a><a target="notes" href="/chap/8.3">8.3</a></td>
+<td><i>Psychological verbs</i></td><td>1</td>
+<td></td><td></td>
+<td id='indent_595'>1</td>
+<td>595</td>
+</tr>
+<tr>
+<td><a name="8.3.1"></a><a target="notes" href="/chap/8.3.1">8.3.1</a></td>
+<td>Verbs of Feeling</td><td>1</td>
+<td></td><td></td>
+<td id='indent_596'>2</td>
+<td>596</td>
+</tr>
+<tr>
+<td><a name="8.3.1.1"></a><a target="notes" href="/chap/8.3.1.1">8.3.1.1</a></td>
+<td>Like and Dislike</td><td></td>
+<td></td><td></td>
+<td id='indent_597'>3</td>
+<td>597</td>
+</tr>
+<tr>
+<td><a name="8.3.1.1.1"></a><a target="notes" href="/chap/8.3.1.1.1">8.3.1.1.1</a></td>
+<td>Like</td><td>5</td>
+<td></td><td></td>
+<td id='indent_598'>4</td>
+<td>598</td>
+</tr>
+<tr>
+<td><a name="8.3.1.1.2"></a><a target="notes" href="/chap/8.3.1.1.2">8.3.1.1.2</a></td>
+<td>Dislike</td><td>3</td>
+<td></td><td></td>
+<td id='indent_599'>4</td>
+<td>599</td>
+</tr>
+<tr>
+<td><a name="8.3.1.1.3"></a><a target="notes" href="/chap/8.3.1.1.3">8.3.1.1.3</a></td>
+<td>Satisfied</td><td></td>
+<td></td><td></td>
+<td id='indent_600'>4</td>
+<td>600</td>
+</tr>
+<tr>
+<td><a name="8.3.1.2"></a><a target="notes" href="/chap/8.3.1.2">8.3.1.2</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_601'>3</td>
+<td>601</td>
+</tr>
+<tr>
+<td><a name="8.3.1.2.1"></a><a target="notes" href="/chap/8.3.1.2.1">8.3.1.2.1</a></td>
+<td>Accept</td><td>1</td>
+<td></td><td></td>
+<td id='indent_602'>4</td>
+<td>602</td>
+</tr>
+<tr>
+<td><a name="8.3.1.3"></a><a target="notes" href="/chap/8.3.1.3">8.3.1.3</a></td>
+<td>Commend</td><td></td>
+<td></td><td></td>
+<td id='indent_603'>3</td>
+<td>603</td>
+</tr>
+<tr>
+<td><a name="8.3.1.3.1"></a><a target="notes" href="/chap/8.3.1.3.1">8.3.1.3.1</a></td>
+<td>Blame</td><td>1</td>
+<td></td><td></td>
+<td id='indent_604'>4</td>
+<td>604</td>
+</tr>
+<tr>
+<td><a name="8.3.1.4"></a><a target="notes" href="/chap/8.3.1.4">8.3.1.4</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_605'>3</td>
+<td>605</td>
+</tr>
+<tr>
+<td><a name="8.3.1.4.1"></a><a target="notes" href="/chap/8.3.1.4.1">8.3.1.4.1</a></td>
+<td>Agree</td><td>1</td>
+<td></td><td></td>
+<td id='indent_606'>4</td>
+<td>606</td>
+</tr>
+<tr>
+<td><a name="8.3.1.5"></a><a target="notes" href="/chap/8.3.1.5">8.3.1.5</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_607'>3</td>
+<td>607</td>
+</tr>
+<tr>
+<td><a name="8.3.1.5.1"></a><a target="notes" href="/chap/8.3.1.5.1">8.3.1.5.1</a></td>
+<td>Happy</td><td>1</td>
+<td></td><td></td>
+<td id='indent_608'>4</td>
+<td>608</td>
+</tr>
+<tr>
+<td><a name="8.3.1.5.1.1"></a><a target="notes" href="/chap/8.3.1.5.1.1">8.3.1.5.1.1</a></td>
+<td>Grief</td><td></td>
+<td></td><td></td>
+<td id='indent_609'>5</td>
+<td>609</td>
+</tr>
+<tr>
+<td><a name="8.3.1.5.2"></a><a target="notes" href="/chap/8.3.1.5.2">8.3.1.5.2</a></td>
+<td>Sad</td><td>1</td>
+<td></td><td></td>
+<td id='indent_610'>4</td>
+<td>610</td>
+</tr>
+<tr>
+<td><a name="8.3.1.5.3"></a><a target="notes" href="/chap/8.3.1.5.3">8.3.1.5.3</a></td>
+<td>Emotional</td><td></td>
+<td></td><td></td>
+<td id='indent_611'>4</td>
+<td>611</td>
+</tr>
+<tr>
+<td><a name="8.3.1.5.4"></a><a target="notes" href="/chap/8.3.1.5.4">8.3.1.5.4</a></td>
+<td>Enthusiastic</td><td></td>
+<td></td><td></td>
+<td id='indent_612'>4</td>
+<td>612</td>
+</tr>
+<tr>
+<td><a name="8.3.1.5.5"></a><a target="notes" href="/chap/8.3.1.5.5">8.3.1.5.5</a></td>
+<td>Excited</td><td></td>
+<td></td><td></td>
+<td id='indent_613'>4</td>
+<td>613</td>
+</tr>
+<tr>
+<td><a name="8.3.1.5.6"></a><a target="notes" href="/chap/8.3.1.5.6">8.3.1.5.6</a></td>
+<td>Frustrated</td><td></td>
+<td></td><td></td>
+<td id='indent_614'>4</td>
+<td>614</td>
+</tr>
+<tr>
+<td><a name="8.3.1.6"></a><a target="notes" href="/chap/8.3.1.6">8.3.1.6</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_615'>3</td>
+<td>615</td>
+</tr>
+<tr>
+<td><a name="8.3.1.6.1"></a><a target="notes" href="/chap/8.3.1.6.1">8.3.1.6.1</a></td>
+<td>Angry</td><td>1</td>
+<td></td><td></td>
+<td id='indent_616'>4</td>
+<td>616</td>
+</tr>
+<tr>
+<td><a name="8.3.1.6.2"></a><a target="notes" href="/chap/8.3.1.6.2">8.3.1.6.2</a></td>
+<td>Distress</td><td></td>
+<td></td><td></td>
+<td id='indent_617'>4</td>
+<td>617</td>
+</tr>
+<tr>
+<td><a name="8.3.1.7"></a><a target="notes" href="/chap/8.3.1.7">8.3.1.7</a></td>
+<td>Procrastinate?</td><td></td>
+<td></td><td></td>
+<td id='indent_618'>3</td>
+<td>618</td>
+</tr>
+<tr>
+<td><a name="8.3.1.7.1"></a><a target="notes" href="/chap/8.3.1.7.1">8.3.1.7.1</a></td>
+<td>Positive</td><td>3</td>
+<td></td><td></td>
+<td id='indent_619'>4</td>
+<td>619</td>
+</tr>
+<tr>
+<td><a name="8.3.1.7.2"></a><a target="notes" href="/chap/8.3.1.7.2">8.3.1.7.2</a></td>
+<td>Negative (e.g. dread)</td><td></td>
+<td></td><td></td>
+<td id='indent_620'>4</td>
+<td>620</td>
+</tr>
+<tr>
+<td><a name="8.3.1.7.3"></a><a target="notes" href="/chap/8.3.1.7.3">8.3.1.7.3</a></td>
+<td>Neutral or ambiguous</td><td></td>
+<td></td><td></td>
+<td id='indent_621'>4</td>
+<td>621</td>
+</tr>
+<tr>
+<td><a name="8.3.1.7.4"></a><a target="notes" href="/chap/8.3.1.7.4">8.3.1.7.4</a></td>
+<td>Relieved</td><td></td>
+<td></td><td></td>
+<td id='indent_622'>4</td>
+<td>622</td>
+</tr>
+<tr>
+<td><a name="8.3.1.8"></a><a target="notes" href="/chap/8.3.1.8">8.3.1.8</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_623'>3</td>
+<td>623</td>
+</tr>
+<tr>
+<td><a name="8.3.1.8.1"></a><a target="notes" href="/chap/8.3.1.8.1">8.3.1.8.1</a></td>
+<td>Willing</td><td></td>
+<td></td><td></td>
+<td id='indent_624'>4</td>
+<td>624</td>
+</tr>
+<tr>
+<td><a name="8.3.1.9"></a><a target="notes" href="/chap/8.3.1.9">8.3.1.9</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_625'>3</td>
+<td>625</td>
+</tr>
+<tr>
+<td><a name="8.3.1.9.1"></a><a target="notes" href="/chap/8.3.1.9.1">8.3.1.9.1</a></td>
+<td>Surprised</td><td>1</td>
+<td></td><td></td>
+<td id='indent_626'>4</td>
+<td>626</td>
+</tr>
+<tr>
+<td><a name="8.3.1.9.2"></a><a target="notes" href="/chap/8.3.1.9.2">8.3.1.9.2</a></td>
+<td>Worry</td><td>1</td>
+<td></td><td></td>
+<td id='indent_627'>4</td>
+<td>627</td>
+</tr>
+<tr>
+<td><a name="8.3.1.10"></a><a target="notes" href="/chap/8.3.1.10">8.3.1.10</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_628'>3</td>
+<td>628</td>
+</tr>
+<tr>
+<td><a name="8.3.1.10.1"></a><a target="notes" href="/chap/8.3.1.10.1">8.3.1.10.1</a></td>
+<td>Fear</td><td>6</td>
+<td></td><td></td>
+<td id='indent_629'>4</td>
+<td>629</td>
+</tr>
+<tr>
+<td><a name="8.3.1.10.2"></a><a target="notes" href="/chap/8.3.1.10.2">8.3.1.10.2</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_630'>4</td>
+<td>630</td>
+</tr>
+<tr>
+<td><a name="8.3.1.10.2.1"></a><a target="notes" href="/chap/8.3.1.10.2.1">8.3.1.10.2.1</a></td>
+<td>Positive</td><td></td>
+<td></td><td></td>
+<td id='indent_631'>5</td>
+<td>631</td>
+</tr>
+<tr>
+<td><a name="8.3.1.10.3"></a><a target="notes" href="/chap/8.3.1.10.3">8.3.1.10.3</a></td>
+<td>Hesitate</td><td></td>
+<td></td><td></td>
+<td id='indent_632'>4</td>
+<td>632</td>
+</tr>
+<tr>
+<td><a name="8.3.1.11"></a><a target="notes" href="/chap/8.3.1.11">8.3.1.11</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_633'>3</td>
+<td>633</td>
+</tr>
+<tr>
+<td><a name="8.3.1.11.1"></a><a target="notes" href="/chap/8.3.1.11.1">8.3.1.11.1</a></td>
+<td>Alert</td><td></td>
+<td></td><td></td>
+<td id='indent_634'>4</td>
+<td>634</td>
+</tr>
+<tr>
+<td><a name="8.3.1.11.2"></a><a target="notes" href="/chap/8.3.1.11.2">8.3.1.11.2</a></td>
+<td>Tired</td><td>6</td>
+<td></td><td></td>
+<td id='indent_635'>4</td>
+<td>635</td>
+</tr>
+<tr>
+<td><a name="8.3.1.11.3"></a><a target="notes" href="/chap/8.3.1.11.3">8.3.1.11.3</a></td>
+<td>Thrilled, Dizzy</td><td>3</td>
+<td></td><td></td>
+<td id='indent_636'>4</td>
+<td>636</td>
+</tr>
+<tr>
+<td><a name="8.3.1.12"></a><a target="notes" href="/chap/8.3.1.12">8.3.1.12</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_637'>3</td>
+<td>637</td>
+</tr>
+<tr>
+<td><a name="8.3.1.12.1"></a><a target="notes" href="/chap/8.3.1.12.1">8.3.1.12.1</a></td>
+<td>Know, Believe</td><td>4</td>
+<td></td><td></td>
+<td id='indent_638'>4</td>
+<td>638</td>
+</tr>
+<tr>
+<td><a name="8.3.1.13"></a><a target="notes" href="/chap/8.3.1.13">8.3.1.13</a></td>
+<td>Think/plan</td><td></td>
+<td></td><td></td>
+<td id='indent_639'>3</td>
+<td>639</td>
+</tr>
+<tr>
+<td><a name="8.3.1.13.1"></a><a target="notes" href="/chap/8.3.1.13.1">8.3.1.13.1</a></td>
+<td>Think</td><td>3</td>
+<td></td><td></td>
+<td id='indent_640'>4</td>
+<td>640</td>
+</tr>
+<tr>
+<td><a name="8.3.1.13.2"></a><a target="notes" href="/chap/8.3.1.13.2">8.3.1.13.2</a></td>
+<td>Plan</td><td>3</td>
+<td></td><td></td>
+<td id='indent_641'>4</td>
+<td>641</td>
+</tr>
+<tr>
+<td><a name="8.3.1.13.3"></a><a target="notes" href="/chap/8.3.1.13.3">8.3.1.13.3</a></td>
+<td>Imagination</td><td></td>
+<td></td><td></td>
+<td id='indent_642'>4</td>
+<td>642</td>
+</tr>
+<tr>
+<td><a name="8.3.1.14"></a><a target="notes" href="/chap/8.3.1.14">8.3.1.14</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_643'>3</td>
+<td>643</td>
+</tr>
+<tr>
+<td><a name="8.3.1.14.1"></a><a target="notes" href="/chap/8.3.1.14.1">8.3.1.14.1</a></td>
+<td>Longing</td><td>3</td>
+<td></td><td></td>
+<td id='indent_644'>4</td>
+<td>644</td>
+</tr>
+<tr>
+<td><a name="8.3.1.14.2"></a><a target="notes" href="/chap/8.3.1.14.2">8.3.1.14.2</a></td>
+<td>Avarice</td><td></td>
+<td></td><td></td>
+<td id='indent_645'>4</td>
+<td>645</td>
+</tr>
+<tr>
+<td><a name="8.3.1.14.3"></a><a target="notes" href="/chap/8.3.1.14.3">8.3.1.14.3</a></td>
+<td>Desirable</td><td>5</td>
+<td></td><td></td>
+<td id='indent_646'>4</td>
+<td>646</td>
+</tr>
+<tr>
+<td><a name="8.3.1.15"></a><a target="notes" href="/chap/8.3.1.15">8.3.1.15</a></td>
+<td>Awe</td><td></td>
+<td></td><td></td>
+<td id='indent_647'>3</td>
+<td>647</td>
+</tr>
+<tr>
+<td><a name="8.3.1.16"></a><a target="notes" href="/chap/8.3.1.16">8.3.1.16</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_648'>3</td>
+<td>648</td>
+</tr>
+<tr>
+<td><a name="8.3.1.16.1"></a><a target="notes" href="/chap/8.3.1.16.1">8.3.1.16.1</a></td>
+<td>Forget</td><td>8</td>
+<td></td><td></td>
+<td id='indent_649'>4</td>
+<td>649</td>
+</tr>
+<tr>
+<td><a name="8.3.2"></a><a target="notes" href="/chap/8.3.2">8.3.2</a></td>
+<td>Verbs of Affection</td><td></td>
+<td></td><td></td>
+<td id='indent_650'>2</td>
+<td>650</td>
+</tr>
+<tr>
+<td><a name="8.3.2.1"></a><a target="notes" href="/chap/8.3.2.1">8.3.2.1</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_651'>3</td>
+<td>651</td>
+</tr>
+<tr>
+<td><a name="8.3.2.1.1"></a><a target="notes" href="/chap/8.3.2.1.1">8.3.2.1.1</a></td>
+<td>Friendly</td><td></td>
+<td></td><td></td>
+<td id='indent_652'>4</td>
+<td>652</td>
+</tr>
+<tr>
+<td><a name="8.3.2.2"></a><a target="notes" href="/chap/8.3.2.2">8.3.2.2</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_653'>3</td>
+<td>653</td>
+</tr>
+<tr>
+<td><a name="8.3.2.2.1"></a><a target="notes" href="/chap/8.3.2.2.1">8.3.2.2.1</a></td>
+<td>Appease</td><td>1</td>
+<td></td><td></td>
+<td id='indent_654'>4</td>
+<td>654</td>
+</tr>
+<tr>
+<td><a name="8.3.2.3"></a><a target="notes" href="/chap/8.3.2.3">8.3.2.3</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_655'>3</td>
+<td>655</td>
+</tr>
+<tr>
+<td><a name="8.3.2.3.1"></a><a target="notes" href="/chap/8.3.2.3.1">8.3.2.3.1</a></td>
+<td>Comfort</td><td>6</td>
+<td></td><td></td>
+<td id='indent_656'>4</td>
+<td>656</td>
+</tr>
+<tr>
+<td><a name="8.3.2.3.2"></a><a target="notes" href="/chap/8.3.2.3.2">8.3.2.3.2</a></td>
+<td>Pity</td><td>1</td>
+<td></td><td></td>
+<td id='indent_657'>4</td>
+<td>657</td>
+</tr>
+<tr>
+<td><a name="8.3.2.3.3"></a><a target="notes" href="/chap/8.3.2.3.3">8.3.2.3.3</a></td>
+<td>Encourage</td><td></td>
+<td></td><td></td>
+<td id='indent_658'>4</td>
+<td>658</td>
+</tr>
+<tr>
+<td><a name="8.3.2.4"></a><a target="notes" href="/chap/8.3.2.4">8.3.2.4</a></td>
+<td>Conspire</td><td></td>
+<td></td><td></td>
+<td id='indent_659'>3</td>
+<td>659</td>
+</tr>
+<tr>
+<td><a name="8.3.2.5"></a><a target="notes" href="/chap/8.3.2.5">8.3.2.5</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_660'>3</td>
+<td>660</td>
+</tr>
+<tr>
+<td><a name="8.3.2.5.1"></a><a target="notes" href="/chap/8.3.2.5.1">8.3.2.5.1</a></td>
+<td>Defer</td><td></td>
+<td></td><td></td>
+<td id='indent_661'>4</td>
+<td>661</td>
+</tr>
+<tr>
+<td><a name="8.3.2.5.2"></a><a target="notes" href="/chap/8.3.2.5.2">8.3.2.5.2</a></td>
+<td>Honor</td><td></td>
+<td></td><td></td>
+<td id='indent_662'>4</td>
+<td>662</td>
+</tr>
+<tr>
+<td><a name="8.3.2.5.3"></a><a target="notes" href="/chap/8.3.2.5.3">8.3.2.5.3</a></td>
+<td>Flatter</td><td></td>
+<td></td><td></td>
+<td id='indent_663'>4</td>
+<td>663</td>
+</tr>
+<tr>
+<td><a name="8.3.2.5.4"></a><a target="notes" href="/chap/8.3.2.5.4">8.3.2.5.4</a></td>
+<td>Tolerate</td><td>3</td>
+<td></td><td></td>
+<td id='indent_664'>4</td>
+<td>664</td>
+</tr>
+<tr>
+<td><a name="8.3.2.5.5"></a><a target="notes" href="/chap/8.3.2.5.5">8.3.2.5.5</a></td>
+<td>Ignore</td><td></td>
+<td></td><td></td>
+<td id='indent_665'>4</td>
+<td>665</td>
+</tr>
+<tr>
+<td><a name="8.3.2.5.6"></a><a target="notes" href="/chap/8.3.2.5.6">8.3.2.5.6</a></td>
+<td>Disobedient</td><td></td>
+<td></td><td></td>
+<td id='indent_666'>4</td>
+<td>666</td>
+</tr>
+<tr>
+<td><a name="8.3.2.5.7"></a><a target="notes" href="/chap/8.3.2.5.7">8.3.2.5.7</a></td>
+<td>Trust</td><td>1</td>
+<td></td><td></td>
+<td id='indent_667'>4</td>
+<td>667</td>
+</tr>
+<tr>
+<td><a name="8.3.2.6"></a><a target="notes" href="/chap/8.3.2.6">8.3.2.6</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_668'>3</td>
+<td>668</td>
+</tr>
+<tr>
+<td><a name="8.3.2.6.1"></a><a target="notes" href="/chap/8.3.2.6.1">8.3.2.6.1</a></td>
+<td>Admire</td><td>4</td>
+<td></td><td></td>
+<td id='indent_669'>4</td>
+<td>669</td>
+</tr>
+<tr>
+<td><a name="8.3.2.6.2"></a><a target="notes" href="/chap/8.3.2.6.2">8.3.2.6.2</a></td>
+<td>Envy</td><td></td>
+<td></td><td></td>
+<td id='indent_670'>4</td>
+<td>670</td>
+</tr>
+<tr>
+<td><a name="8.3.2.7"></a><a target="notes" href="/chap/8.3.2.7">8.3.2.7</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_671'>3</td>
+<td>671</td>
+</tr>
+<tr>
+<td><a name="8.3.2.7.1"></a><a target="notes" href="/chap/8.3.2.7.1">8.3.2.7.1</a></td>
+<td>Flirt, seduce</td><td></td>
+<td></td><td></td>
+<td id='indent_672'>4</td>
+<td>672</td>
+</tr>
+<tr>
+<td><a name="8.3.2.7.2"></a><a target="notes" href="/chap/8.3.2.7.2">8.3.2.7.2</a></td>
+<td>Entice, tempt</td><td>2</td>
+<td></td><td></td>
+<td id='indent_673'>4</td>
+<td>673</td>
+</tr>
+<tr>
+<td><a name="8.3.2.8"></a><a target="notes" href="/chap/8.3.2.8">8.3.2.8</a></td>
+<td>Grudge</td><td>2</td>
+<td></td><td></td>
+<td id='indent_674'>3</td>
+<td>674</td>
+</tr>
+<tr>
+<td><a name="8.3.2.9"></a><a target="notes" href="/chap/8.3.2.9">8.3.2.9</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_675'>3</td>
+<td>675</td>
+</tr>
+<tr>
+<td><a name="8.3.2.9.1"></a><a target="notes" href="/chap/8.3.2.9.1">8.3.2.9.1</a></td>
+<td>Forgive</td><td></td>
+<td></td><td></td>
+<td id='indent_676'>4</td>
+<td>676</td>
+</tr>
+<tr>
+<td><a name="8.3.3"></a><a target="notes" href="/chap/8.3.3">8.3.3</a></td>
+<td>Verbs of Conscience and Shame</td><td></td>
+<td></td><td></td>
+<td id='indent_677'>2</td>
+<td>677</td>
+</tr>
+<tr>
+<td><a name="8.3.3.1"></a><a target="notes" href="/chap/8.3.3.1">8.3.3.1</a></td>
+<td>Conscience/Vengeance</td><td></td>
+<td></td><td></td>
+<td id='indent_678'>3</td>
+<td>678</td>
+</tr>
+<tr>
+<td><a name="8.3.3.2"></a><a target="notes" href="/chap/8.3.3.2">8.3.3.2</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_679'>3</td>
+<td>679</td>
+</tr>
+<tr>
+<td><a name="8.3.3.2.1"></a><a target="notes" href="/chap/8.3.3.2.1">8.3.3.2.1</a></td>
+<td>Kind</td><td></td>
+<td></td><td></td>
+<td id='indent_680'>4</td>
+<td>680</td>
+</tr>
+<tr>
+<td><a name="8.3.3.2.2"></a><a target="notes" href="/chap/8.3.3.2.2">8.3.3.2.2</a></td>
+<td>Cruel</td><td></td>
+<td></td><td></td>
+<td id='indent_681'>4</td>
+<td>681</td>
+</tr>
+<tr>
+<td><a name="8.3.3.3"></a><a target="notes" href="/chap/8.3.3.3">8.3.3.3</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_682'>3</td>
+<td>682</td>
+</tr>
+<tr>
+<td><a name="8.3.3.3.1"></a><a target="notes" href="/chap/8.3.3.3.1">8.3.3.3.1</a></td>
+<td>Discern</td><td></td>
+<td></td><td></td>
+<td id='indent_683'>4</td>
+<td>683</td>
+</tr>
+<tr>
+<td><a name="8.3.3.4"></a><a target="notes" href="/chap/8.3.3.4">8.3.3.4</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_684'>3</td>
+<td>684</td>
+</tr>
+<tr>
+<td><a name="8.3.3.4.1"></a><a target="notes" href="/chap/8.3.3.4.1">8.3.3.4.1</a></td>
+<td>Honest</td><td></td>
+<td></td><td></td>
+<td id='indent_685'>4</td>
+<td>685</td>
+</tr>
+<tr>
+<td><a name="8.3.3.4.2"></a><a target="notes" href="/chap/8.3.3.4.2">8.3.3.4.2</a></td>
+<td>Earnest/sincere</td><td>1</td>
+<td></td><td></td>
+<td id='indent_686'>4</td>
+<td>686</td>
+</tr>
+<tr>
+<td><a name="8.3.3.4.3"></a><a target="notes" href="/chap/8.3.3.4.3">8.3.3.4.3</a></td>
+<td>Deceive</td><td>5</td>
+<td></td><td></td>
+<td id='indent_687'>4</td>
+<td>687</td>
+</tr>
+<tr>
+<td><a name="8.3.3.4.3.1"></a><a target="notes" href="/chap/8.3.3.4.3.1">8.3.3.4.3.1</a></td>
+<td>Positive/neutral</td><td></td>
+<td></td><td></td>
+<td id='indent_688'>5</td>
+<td>688</td>
+</tr>
+<tr>
+<td><a name="8.3.3.4.3.2"></a><a target="notes" href="/chap/8.3.3.4.3.2">8.3.3.4.3.2</a></td>
+<td>Negative</td><td></td>
+<td></td><td></td>
+<td id='indent_689'>5</td>
+<td>689</td>
+</tr>
+<tr>
+<td><a name="8.3.3.5"></a><a target="notes" href="/chap/8.3.3.5">8.3.3.5</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_690'>3</td>
+<td>690</td>
+</tr>
+<tr>
+<td><a name="8.3.3.6"></a><a target="notes" href="/chap/8.3.3.6">8.3.3.6</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_691'>3</td>
+<td>691</td>
+</tr>
+<tr>
+<td><a name="8.3.3.6.1"></a><a target="notes" href="/chap/8.3.3.6.1">8.3.3.6.1</a></td>
+<td>Guilty</td><td></td>
+<td></td><td></td>
+<td id='indent_692'>4</td>
+<td>692</td>
+</tr>
+<tr>
+<td><a name="8.3.3.7"></a><a target="notes" href="/chap/8.3.3.7">8.3.3.7</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_693'>3</td>
+<td>693</td>
+</tr>
+<tr>
+<td><a name="8.3.3.8"></a><a target="notes" href="/chap/8.3.3.8">8.3.3.8</a></td>
+<td>Pride</td><td></td>
+<td></td><td></td>
+<td id='indent_694'>3</td>
+<td>694</td>
+</tr>
+<tr>
+<td><a name="8.3.3.8.1"></a><a target="notes" href="/chap/8.3.3.8.1">8.3.3.8.1</a></td>
+<td>Modest</td><td></td>
+<td></td><td></td>
+<td id='indent_695'>4</td>
+<td>695</td>
+</tr>
+<tr>
+<td><a name="8.3.3.8.2"></a><a target="notes" href="/chap/8.3.3.8.2">8.3.3.8.2</a></td>
+<td>Ashamed</td><td>5</td>
+<td></td><td></td>
+<td id='indent_696'>4</td>
+<td>696</td>
+</tr>
+<tr>
+<td><a name="8.3.3.9"></a><a target="notes" href="/chap/8.3.3.9">8.3.3.9</a></td>
+<td>Correct</td><td>4</td>
+<td></td><td></td>
+<td id='indent_697'>3</td>
+<td>697</td>
+</tr>
+<tr>
+<td><a name="8.4"></a><a target="notes" href="/chap/8.4">8.4</a></td>
+<td><i>Feeling</i></td><td>12</td>
+<td></td><td></td>
+<td id='indent_698'>1</td>
+<td>698</td>
+</tr>
+<tr>
+<td><a name="8.5"></a><a target="notes" href="/chap/8.5">8.5</a></td>
+<td><i>Utterance</i></td><td></td>
+<td></td><td></td>
+<td id='indent_699'>1</td>
+<td>699</td>
+</tr>
+<tr>
+<td><a name="8.5.1"></a><a target="notes" href="/chap/8.5.1">8.5.1</a></td>
+<td>Scold</td><td>7</td>
+<td></td><td></td>
+<td id='indent_700'>2</td>
+<td>700</td>
+</tr>
+<tr>
+<td><a name="8.5.2"></a><a target="notes" href="/chap/8.5.2">8.5.2</a></td>
+<td>Verbs of Complaint and Praise</td><td></td>
+<td></td><td></td>
+<td id='indent_701'>2</td>
+<td>701</td>
+</tr>
+<tr>
+<td><a name="8.5.2.1"></a><a target="notes" href="/chap/8.5.2.1">8.5.2.1</a></td>
+<td>Complain</td><td>4</td>
+<td></td><td></td>
+<td id='indent_702'>3</td>
+<td>702</td>
+</tr>
+<tr>
+<td><a name="8.5.2.2"></a><a target="notes" href="/chap/8.5.2.2">8.5.2.2</a></td>
+<td>Compliment, praise</td><td></td>
+<td></td><td></td>
+<td id='indent_703'>3</td>
+<td>703</td>
+</tr>
+<tr>
+<td><a name="8.5.3"></a><a target="notes" href="/chap/8.5.3">8.5.3</a></td>
+<td>Declare</td><td></td>
+<td></td><td></td>
+<td id='indent_704'>2</td>
+<td>704</td>
+</tr>
+<tr>
+<td><a name="8.5.4"></a><a target="notes" href="/chap/8.5.4">8.5.4</a></td>
+<td>Verbs Expressing Communicative Affect</td><td></td>
+<td></td><td></td>
+<td id='indent_705'>2</td>
+<td>705</td>
+</tr>
+<tr>
+<td><a name="8.5.4.1"></a><a target="notes" href="/chap/8.5.4.1">8.5.4.1</a></td>
+<td>Loud</td><td>9</td>
+<td></td><td></td>
+<td id='indent_706'>3</td>
+<td>706</td>
+</tr>
+<tr>
+<td><a name="8.5.4.2"></a><a target="notes" href="/chap/8.5.4.2">8.5.4.2</a></td>
+<td>Soft</td><td>1</td>
+<td></td><td></td>
+<td id='indent_707'>3</td>
+<td>707</td>
+</tr>
+<tr>
+<td><a name="8.5.4.3"></a><a target="notes" href="/chap/8.5.4.3">8.5.4.3</a></td>
+<td>Accented</td><td></td>
+<td></td><td></td>
+<td id='indent_708'>3</td>
+<td>708</td>
+</tr>
+<tr>
+<td><a name="8.5.4.4"></a><a target="notes" href="/chap/8.5.4.4">8.5.4.4</a></td>
+<td>Glottal sound</td><td></td>
+<td></td><td></td>
+<td id='indent_709'>3</td>
+<td>709</td>
+</tr>
+<tr>
+<td><a name="8.5.4.5"></a><a target="notes" href="/chap/8.5.4.5">8.5.4.5</a></td>
+<td>Choppy</td><td></td>
+<td></td><td></td>
+<td id='indent_710'>3</td>
+<td>710</td>
+</tr>
+<tr>
+<td><a name="8.5.5"></a><a target="notes" href="/chap/8.5.5">8.5.5</a></td>
+<td>Sounds</td><td>12</td>
+<td></td><td></td>
+<td id='indent_711'>2</td>
+<td>711</td>
+</tr>
+<tr>
+<td><a name="8.5.6"></a><a target="notes" href="/chap/8.5.6">8.5.6</a></td>
+<td>Answer</td><td>1</td>
+<td></td><td></td>
+<td id='indent_712'>2</td>
+<td>712</td>
+</tr>
+<tr>
+<td><a name="8.5.7"></a><a target="notes" href="/chap/8.5.7">8.5.7</a></td>
+<td>Bid</td><td></td>
+<td></td><td></td>
+<td id='indent_713'>2</td>
+<td>713</td>
+</tr>
+<tr>
+<td><a name="8.5.7.1"></a><a target="notes" href="/chap/8.5.7.1">8.5.7.1</a></td>
+<td>Ask</td><td>11</td>
+<td></td><td></td>
+<td id='indent_714'>3</td>
+<td>714</td>
+</tr>
+<tr>
+<td><a name="8.5.7.2"></a><a target="notes" href="/chap/8.5.7.2">8.5.7.2</a></td>
+<td>Implore/Coax</td><td>1</td>
+<td></td><td></td>
+<td id='indent_715'>3</td>
+<td>715</td>
+</tr>
+<tr>
+<td><a name="8.5.7.3"></a><a target="notes" href="/chap/8.5.7.3">8.5.7.3</a></td>
+<td>Coax</td><td></td>
+<td></td><td></td>
+<td id='indent_716'>3</td>
+<td>716</td>
+</tr>
+<tr>
+<td><a name="8.5.8"></a><a target="notes" href="/chap/8.5.8">8.5.8</a></td>
+<td>Banter/Discourse</td><td>1</td>
+<td></td><td></td>
+<td id='indent_717'>2</td>
+<td>717</td>
+</tr>
+<tr>
+<td><a name="8.5.9"></a><a target="notes" href="/chap/8.5.9">8.5.9</a></td>
+<td>Jest</td><td></td>
+<td></td><td></td>
+<td id='indent_718'>2</td>
+<td>718</td>
+</tr>
+<tr>
+<td><a name="8.5.10"></a><a target="notes" href="/chap/8.5.10">8.5.10</a></td>
+<td>Verbs of Verbosity and Intensity</td><td>1</td>
+<td></td><td></td>
+<td id='indent_719'>2</td>
+<td>719</td>
+</tr>
+<tr>
+<td><a name="8.5.10.1"></a><a target="notes" href="/chap/8.5.10.1">8.5.10.1</a></td>
+<td>Talk, say</td><td></td>
+<td></td><td></td>
+<td id='indent_720'>3</td>
+<td>720</td>
+</tr>
+<tr>
+<td><a name="8.5.10.2"></a><a target="notes" href="/chap/8.5.10.2">8.5.10.2</a></td>
+<td>Garrulosity, verbosity</td><td>2</td>
+<td></td><td></td>
+<td id='indent_721'>3</td>
+<td>721</td>
+</tr>
+<tr>
+<td><a name="8.5.10.3"></a><a target="notes" href="/chap/8.5.10.3">8.5.10.3</a></td>
+<td>Talk with purpose of convincing</td><td>4</td>
+<td></td><td></td>
+<td id='indent_722'>3</td>
+<td>722</td>
+</tr>
+<tr>
+<td><a name="8.5.10.4"></a><a target="notes" href="/chap/8.5.10.4">8.5.10.4</a></td>
+<td>Falsehood</td><td>3</td>
+<td></td><td></td>
+<td id='indent_723'>3</td>
+<td>723</td>
+</tr>
+<tr>
+<td><a name="8.5.11"></a><a target="notes" href="/chap/8.5.11">8.5.11</a></td>
+<td>Formulaic</td><td></td>
+<td></td><td></td>
+<td id='indent_724'>2</td>
+<td>724</td>
+</tr>
+<tr>
+<td><a name="8.5.11.1"></a><a target="notes" href="/chap/8.5.11.1">8.5.11.1</a></td>
+<td>Introduction</td><td></td>
+<td></td><td></td>
+<td id='indent_725'>3</td>
+<td>725</td>
+</tr>
+<tr>
+<td><a name="8.5.11.2"></a><a target="notes" href="/chap/8.5.11.2">8.5.11.2</a></td>
+<td>Farewells</td><td></td>
+<td></td><td></td>
+<td id='indent_726'>3</td>
+<td>726</td>
+</tr>
+<tr>
+<td><a name="8.5.11.3"></a><a target="notes" href="/chap/8.5.11.3">8.5.11.3</a></td>
+<td>Apology/excuse</td><td></td>
+<td></td><td></td>
+<td id='indent_727'>3</td>
+<td>727</td>
+</tr>
+<tr>
+<td><a name="8.5.11.4"></a><a target="notes" href="/chap/8.5.11.4">8.5.11.4</a></td>
+<td>Invite</td><td></td>
+<td></td><td></td>
+<td id='indent_728'>3</td>
+<td>728</td>
+</tr>
+<tr>
+<td><a name="8.5.13"></a><a target="notes" href="/chap/8.5.13">8.5.13</a></td>
+<td>Beckon</td><td>7</td>
+<td></td><td></td>
+<td id='indent_729'>2</td>
+<td>729</td>
+</tr>
+<tr>
+<td><a name="8.5.14"></a><a target="notes" href="/chap/8.5.14">8.5.14</a></td>
+<td>Broadcast and Announce</td><td></td>
+<td></td><td></td>
+<td id='indent_730'>2</td>
+<td>730</td>
+</tr>
+<tr>
+<td><a name="8.5.14.1"></a><a target="notes" href="/chap/8.5.14.1">8.5.14.1</a></td>
+<td>Spread information, present ideas</td><td></td>
+<td></td><td></td>
+<td id='indent_731'>3</td>
+<td>731</td>
+</tr>
+<tr>
+<td><a name="8.5.14.2"></a><a target="notes" href="/chap/8.5.14.2">8.5.14.2</a></td>
+<td>Reveal or give information</td><td>2</td>
+<td></td><td></td>
+<td id='indent_732'>3</td>
+<td>732</td>
+</tr>
+<tr>
+<td><a name="8.5.14.3"></a><a target="notes" href="/chap/8.5.14.3">8.5.14.3</a></td>
+<td>Explain</td><td>2</td>
+<td></td><td></td>
+<td id='indent_733'>3</td>
+<td>733</td>
+</tr>
+<tr>
+<td><a name="8.5.15"></a><a target="notes" href="/chap/8.5.15">8.5.15</a></td>
+<td>Boast</td><td>1</td>
+<td></td><td></td>
+<td id='indent_734'>2</td>
+<td>734</td>
+</tr>
+<tr>
+<td><a name="8.5.16"></a><a target="notes" href="/chap/8.5.16">8.5.16</a></td>
+<td>Dedicate</td><td>2</td>
+<td></td><td></td>
+<td id='indent_735'>2</td>
+<td>735</td>
+</tr>
+<tr>
+<td><a name="9.0"></a><a target="notes" href="/chap/9.0">9.0</a></td>
+<td><b>Shape, Size, Color, Measure, Number, Time, Space</b></td><td></td>
+<td></td><td></td>
+<td id='indent_736'>0</td>
+<td>736</td>
+</tr>
+<tr>
+<td><a name="9.1"></a><a target="notes" href="/chap/9.1">9.1</a></td>
+<td><i>Time</i></td><td>9</td>
+<td></td><td></td>
+<td id='indent_737'>1</td>
+<td>737</td>
+</tr>
+<tr>
+<td><a name="9.1.1"></a><a target="notes" href="/chap/9.1.1">9.1.1</a></td>
+<td>Adverbial uses</td><td>12</td>
+<td></td><td></td>
+<td id='indent_738'>2</td>
+<td>738</td>
+</tr>
+<tr>
+<td><a name="9.1.2"></a><a target="notes" href="/chap/9.1.2">9.1.2</a></td>
+<td>Months and Years</td><td>6</td>
+<td></td><td></td>
+<td id='indent_739'>2</td>
+<td>739</td>
+</tr>
+<tr>
+<td><a name="9.1.3"></a><a target="notes" href="/chap/9.1.3">9.1.3</a></td>
+<td>Days</td><td></td>
+<td></td><td></td>
+<td id='indent_740'>2</td>
+<td>740</td>
+</tr>
+<tr>
+<td><a name="9.1.3.1"></a><a target="notes" href="/chap/9.1.3.1">9.1.3.1</a></td>
+<td>Tomorrow</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1125'>3</td>
+<td>1125</td>
+</tr>
+<tr>
+<td><a name="9.1.3.2"></a><a target="notes" href="/chap/9.1.3.2">9.1.3.2</a></td>
+<td>Yesterday</td><td></td>
+<td></td><td></td>
+<td id='indent_1126'>3</td>
+<td>1126</td>
+</tr>
+<tr>
+<td><a name="9.1.3.3"></a><a target="notes" href="/chap/9.1.3.3">9.1.3.3</a></td>
+<td>Today</td><td></td>
+<td></td><td></td>
+<td id='indent_1127'>3</td>
+<td>1127</td>
+</tr>
+<tr>
+<td><a name="9.1.3.4"></a><a target="notes" href="/chap/9.1.3.4">9.1.3.4</a></td>
+<td>Day</td><td>5</td>
+<td></td><td></td>
+<td id='indent_1128'>3</td>
+<td>1128</td>
+</tr>
+<tr>
+<td><a name="9.1.3.5"></a><a target="notes" href="/chap/9.1.3.5">9.1.3.5</a></td>
+<td>Day before yesterday</td><td></td>
+<td></td><td></td>
+<td id='indent_1130'>3</td>
+<td>1130</td>
+</tr>
+<tr>
+<td><a name="9.1.3.6"></a><a target="notes" href="/chap/9.1.3.6">9.1.3.6</a></td>
+<td>Day after tomorrow</td><td></td>
+<td></td><td></td>
+<td id='indent_1131'>3</td>
+<td>1131</td>
+</tr>
+<tr>
+<td><a name="9.1.4"></a><a target="notes" href="/chap/9.1.4">9.1.4</a></td>
+<td>Times of Day</td><td></td>
+<td></td><td></td>
+<td id='indent_741'>2</td>
+<td>741</td>
+</tr>
+<tr>
+<td><a name="9.1.4.1"></a><a target="notes" href="/chap/9.1.4.1">9.1.4.1</a></td>
+<td>Night</td><td></td>
+<td></td><td></td>
+<td id='indent_1121'>3</td>
+<td>1121</td>
+</tr>
+<tr>
+<td><a name="9.1.4.2"></a><a target="notes" href="/chap/9.1.4.2">9.1.4.2</a></td>
+<td>Morning</td><td></td>
+<td></td><td></td>
+<td id='indent_1123'>3</td>
+<td>1123</td>
+</tr>
+<tr>
+<td><a name="9.1.4.3"></a><a target="notes" href="/chap/9.1.4.3">9.1.4.3</a></td>
+<td>Noon</td><td>1</td>
+<td></td><td></td>
+<td id='indent_1129'>3</td>
+<td>1129</td>
+</tr>
+<tr>
+<td><a name="9.1.4.4"></a><a target="notes" href="/chap/9.1.4.4">9.1.4.4</a></td>
+<td>Evening</td><td>4</td>
+<td></td><td></td>
+<td id='indent_1133'>3</td>
+<td>1133</td>
+</tr>
+<tr>
+<td><a name="9.1.4.5"></a><a target="notes" href="/chap/9.1.4.5">9.1.4.5</a></td>
+<td>Tonight</td><td></td>
+<td></td><td></td>
+<td id='indent_1134'>3</td>
+<td>1134</td>
+</tr>
+<tr>
+<td><a name="9.1.5"></a><a target="notes" href="/chap/9.1.5">9.1.5</a></td>
+<td>Other Intervals</td><td>5</td>
+<td></td><td></td>
+<td id='indent_742'>2</td>
+<td>742</td>
+</tr>
+<tr>
+<td><a name="9.2"></a><a target="notes" href="/chap/9.2">9.2</a></td>
+<td><i>Spatial terms</i></td><td>7</td>
+<td></td><td></td>
+<td id='indent_744'>1</td>
+<td>744</td>
+</tr>
+<tr>
+<td><a name="9.2.1"></a><a target="notes" href="/chap/9.2.1">9.2.1</a></td>
+<td>Up</td><td>4</td>
+<td></td><td></td>
+<td id='indent_745'>2</td>
+<td>745</td>
+</tr>
+<tr>
+<td><a name="9.2.2"></a><a target="notes" href="/chap/9.2.2">9.2.2</a></td>
+<td>Down</td><td>4</td>
+<td></td><td></td>
+<td id='indent_746'>2</td>
+<td>746</td>
+</tr>
+<tr>
+<td><a name="9.2.3"></a><a target="notes" href="/chap/9.2.3">9.2.3</a></td>
+<td>Sideways</td><td>4</td>
+<td></td><td></td>
+<td id='indent_747'>2</td>
+<td>747</td>
+</tr>
+<tr>
+<td><a name="9.2.4"></a><a target="notes" href="/chap/9.2.4">9.2.4</a></td>
+<td>Apart</td><td>2</td>
+<td></td><td></td>
+<td id='indent_748'>2</td>
+<td>748</td>
+</tr>
+<tr>
+<td><a name="9.2.5"></a><a target="notes" href="/chap/9.2.5">9.2.5</a></td>
+<td>Amid</td><td>2</td>
+<td></td><td></td>
+<td id='indent_749'>2</td>
+<td>749</td>
+</tr>
+<tr>
+<td><a name="9.2.6"></a><a target="notes" href="/chap/9.2.6">9.2.6</a></td>
+<td>Around</td><td>2</td>
+<td></td><td></td>
+<td id='indent_750'>2</td>
+<td>750</td>
+</tr>
+<tr>
+<td><a name="9.2.7"></a><a target="notes" href="/chap/9.2.7">9.2.7</a></td>
+<td>Extent</td><td>6</td>
+<td></td><td></td>
+<td id='indent_751'>2</td>
+<td>751</td>
+</tr>
+<tr>
+<td><a name="9.2.8"></a><a target="notes" href="/chap/9.2.8">9.2.8</a></td>
+<td>Directions</td><td>5</td>
+<td></td><td></td>
+<td id='indent_752'>2</td>
+<td>752</td>
+</tr>
+<tr>
+<td><a name="9.3"></a><a target="notes" href="/chap/9.3">9.3</a></td>
+<td><i>Sounds</i></td><td>6</td>
+<td></td><td></td>
+<td id='indent_753'>1</td>
+<td>753</td>
+</tr>
+<tr>
+<td><a name="9.4"></a><a target="notes" href="/chap/9.4">9.4</a></td>
+<td><i>Colors</i></td><td>31</td>
+<td></td><td></td>
+<td id='indent_754'>1</td>
+<td>754</td>
+</tr>
+<tr>
+<td><a name="9.5"></a><a target="notes" href="/chap/9.5">9.5</a></td>
+<td><i>Change of state</i></td><td>77</td>
+<td></td><td></td>
+<td id='indent_755'>1</td>
+<td>755</td>
+</tr>
+<tr>
+<td><a name="9.6"></a><a target="notes" href="/chap/9.6">9.6</a></td>
+<td><i>Qualities</i></td><td></td>
+<td></td><td></td>
+<td id='indent_756'>1</td>
+<td>756</td>
+</tr>
+<tr>
+<td><a name="9.6.1"></a><a target="notes" href="/chap/9.6.1">9.6.1</a></td>
+<td>Positive/Desirable qualities</td><td>3</td>
+<td></td><td></td>
+<td id='indent_757'>2</td>
+<td>757</td>
+</tr>
+<tr>
+<td><a name="9.6.1.1"></a><a target="notes" href="/chap/9.6.1.1">9.6.1.1</a></td>
+<td>Positive Qualities</td><td>28</td>
+<td></td><td></td>
+<td id='indent_584'>3</td>
+<td>584</td>
+</tr>
+<tr>
+<td><a name="9.6.1.2"></a><a target="notes" href="/chap/9.6.1.2">9.6.1.2</a></td>
+<td>Positive Human Qualities</td><td>6</td>
+<td></td><td></td>
+<td id='indent_1112'>3</td>
+<td>1112</td>
+</tr>
+<tr>
+<td><a name="9.6.2"></a><a target="notes" href="/chap/9.6.2">9.6.2</a></td>
+<td>Negative Qualities</td><td>1</td>
+<td></td><td></td>
+<td id='indent_758'>2</td>
+<td>758</td>
+</tr>
+<tr>
+<td><a name="9.6.2.1"></a><a target="notes" href="/chap/9.6.2.1">9.6.2.1</a></td>
+<td>Negative Qualities</td><td>11</td>
+<td></td><td></td>
+<td id='indent_585'>3</td>
+<td>585</td>
+</tr>
+<tr>
+<td><a name="9.6.2.2"></a><a target="notes" href="/chap/9.6.2.2">9.6.2.2</a></td>
+<td>Negative Human Qualities</td><td>8</td>
+<td></td><td></td>
+<td id='indent_1113'>3</td>
+<td>1113</td>
+</tr>
+<tr>
+<td><a name="9.6.3"></a><a target="notes" href="/chap/9.6.3">9.6.3</a></td>
+<td>Neutral</td><td>4</td>
+<td></td><td></td>
+<td id='indent_1114'>2</td>
+<td>1114</td>
+</tr>
+<tr>
+<td><a name="9.7"></a><a target="notes" href="/chap/9.7">9.7</a></td>
+<td><i>Shape/Size</i></td><td></td>
+<td></td><td></td>
+<td id='indent_759'>1</td>
+<td>759</td>
+</tr>
+<tr>
+<td><a name="9.7.1"></a><a target="notes" href="/chap/9.7.1">9.7.1</a></td>
+<td>Shape and size</td><td>9</td>
+<td></td><td></td>
+<td id='indent_760'>2</td>
+<td>760</td>
+</tr>
+<tr>
+<td><a name="9.7.2"></a><a target="notes" href="/chap/9.7.2">9.7.2</a></td>
+<td>Verbs referring to size/shape</td><td>61</td>
+<td></td><td></td>
+<td id='indent_761'>2</td>
+<td>761</td>
+</tr>
+<tr>
+<td><a name="9.8"></a><a target="notes" href="/chap/9.8">9.8</a></td>
+<td><i>Measure Words</i></td><td>10</td>
+<td></td><td></td>
+<td id='indent_762'>1</td>
+<td>762</td>
+</tr>
+<tr>
+<td><a name="9.9"></a><a target="notes" href="/chap/9.9">9.9</a></td>
+<td><i>Numbers and numeric expression</i></td><td>56</td>
+<td></td><td></td>
+<td id='indent_763'>1</td>
+<td>763</td>
+</tr>
+<tr>
+<td><a name="9.10"></a><a target="notes" href="/chap/9.10">9.10</a></td>
+<td><i>Locations</i></td><td></td>
+<td></td><td></td>
+<td id='indent_764'>1</td>
+<td>764</td>
+</tr>
+<tr>
+<td><a name="9.10.1"></a><a target="notes" href="/chap/9.10.1">9.10.1</a></td>
+<td>Roads and Ways</td><td>5</td>
+<td></td><td></td>
+<td id='indent_765'>2</td>
+<td>765</td>
+</tr>
+<tr>
+<td><a name="9.10.2"></a><a target="notes" href="/chap/9.10.2">9.10.2</a></td>
+<td>Waterways/Having to do with water</td><td>6</td>
+<td></td><td></td>
+<td id='indent_766'>2</td>
+<td>766</td>
+</tr>
+<tr>
+<td><a name="9.10.3"></a><a target="notes" href="/chap/9.10.3">9.10.3</a></td>
+<td>Governable units (towns, parts of towns)</td><td>9</td>
+<td></td><td></td>
+<td id='indent_767'>2</td>
+<td>767</td>
+</tr>
+<tr>
+<td><a name="9.10.4"></a><a target="notes" href="/chap/9.10.4">9.10.4</a></td>
+<td>Farm/Agricultural places</td><td>6</td>
+<td></td><td></td>
+<td id='indent_768'>2</td>
+<td>768</td>
+</tr>
+<tr>
+<td><a name="9.10.5"></a><a target="notes" href="/chap/9.10.5">9.10.5</a></td>
+<td>Places in general, countries</td><td>5</td>
+<td></td><td></td>
+<td id='indent_769'>2</td>
+<td>769</td>
+</tr>
+<tr>
+<td><a name="9.10.6"></a><a target="notes" href="/chap/9.10.6">9.10.6</a></td>
+<td>Functional buildings/places</td><td>2</td>
+<td></td><td></td>
+<td id='indent_770'>2</td>
+<td>770</td>
+</tr>
+<tr>
+<td><a name="10.0"></a><a target="notes" href="/chap/10.0">10.0</a></td>
+<td><b>Grammatical Words</b></td><td>5</td>
+<td></td><td></td>
+<td id='indent_771'>0</td>
+<td>771</td>
+</tr>
+<tr>
+<td><a name="10.1"></a><a target="notes" href="/chap/10.1">10.1</a></td>
+<td><i>Ontological</i></td><td>1</td>
+<td></td><td></td>
+<td id='indent_772'>1</td>
+<td>772</td>
+</tr>
+<tr>
+<td><a name="10.1.1"></a><a target="notes" href="/chap/10.1.1">10.1.1</a></td>
+<td>Prepositions</td><td></td>
+<td></td><td></td>
+<td id='indent_773'>2</td>
+<td>773</td>
+</tr>
+<tr>
+<td><a name="10.1.2"></a><a target="notes" href="/chap/10.1.2">10.1.2</a></td>
+<td>Conjunctives</td><td></td>
+<td></td><td></td>
+<td id='indent_774'>2</td>
+<td>774</td>
+</tr>
+<tr>
+<td><a name="10.1.2.1"></a><a target="notes" href="/chap/10.1.2.1">10.1.2.1</a></td>
+<td>Compound</td><td>2</td>
+<td></td><td></td>
+<td id='indent_775'>3</td>
+<td>775</td>
+</tr>
+<tr>
+<td><a name="10.1.2.2"></a><a target="notes" href="/chap/10.1.2.2">10.1.2.2</a></td>
+<td>Subordination</td><td></td>
+<td></td><td></td>
+<td id='indent_776'>3</td>
+<td>776</td>
+</tr>
+<tr>
+<td><a name="10.1.3"></a><a target="notes" href="/chap/10.1.3">10.1.3</a></td>
+<td>Classifiers</td><td>14</td>
+<td></td><td></td>
+<td id='indent_777'>2</td>
+<td>777</td>
+</tr>
+<tr>
+<td><a name="10.2"></a><a target="notes" href="/chap/10.2">10.2</a></td>
+<td><i>Articles</i></td><td></td>
+<td></td><td></td>
+<td id='indent_778'>1</td>
+<td>778</td>
+</tr>
+<tr>
+<td><a name="10.2.1"></a><a target="notes" href="/chap/10.2.1">10.2.1</a></td>
+<td>Grammatical identifiers</td><td>1</td>
+<td></td><td></td>
+<td id='indent_779'>2</td>
+<td>779</td>
+</tr>
+<tr>
+<td><a name="10.2.1.1"></a><a target="notes" href="/chap/10.2.1.1">10.2.1.1</a></td>
+<td>Phonological entities</td><td></td>
+<td></td><td></td>
+<td id='indent_780'>3</td>
+<td>780</td>
+</tr>
+<tr>
+<td><a name="10.2.2"></a><a target="notes" href="/chap/10.2.2">10.2.2</a></td>
+<td>Morphological identifiers</td><td>4</td>
+<td></td><td></td>
+<td id='indent_781'>2</td>
+<td>781</td>
+</tr>
+<tr>
+<td><a name="10.2.3"></a><a target="notes" href="/chap/10.2.3">10.2.3</a></td>
+<td>?</td><td></td>
+<td></td><td></td>
+<td id='indent_782'>2</td>
+<td>782</td>
+</tr>
+<tr>
+<td><a name="10.2.3.1"></a><a target="notes" href="/chap/10.2.3.1">10.2.3.1</a></td>
+<td>Nominative-accusative</td><td></td>
+<td></td><td></td>
+<td id='indent_783'>3</td>
+<td>783</td>
+</tr>
+<tr>
+<td><a name="10.2.3.2"></a><a target="notes" href="/chap/10.2.3.2">10.2.3.2</a></td>
+<td>Possessive</td><td></td>
+<td></td><td></td>
+<td id='indent_784'>3</td>
+<td>784</td>
+</tr>
+<tr>
+<td><a name="10.3"></a><a target="notes" href="/chap/10.3">10.3</a></td>
+<td><i>?</i></td><td></td>
+<td></td><td></td>
+<td id='indent_1118'>1</td>
+<td>1118</td>
+</tr>
+<tr>
+<td><a name="10.4"></a><a target="notes" href="/chap/10.4">10.4</a></td>
+<td><i>Affixes</i></td><td></td>
+<td></td><td></td>
+<td id='indent_785'>1</td>
+<td>785</td>
+</tr>
+<tr>
+<td><a name="10.4.1"></a><a target="notes" href="/chap/10.4.1">10.4.1</a></td>
+<td>Nominal</td><td>1</td>
+<td></td><td></td>
+<td id='indent_786'>2</td>
+<td>786</td>
+</tr>
+<tr>
+<td><a name="10.4.1.1"></a><a target="notes" href="/chap/10.4.1.1">10.4.1.1</a></td>
+<td>Grammatical case</td><td>2</td>
+<td></td><td></td>
+<td id='indent_787'>3</td>
+<td>787</td>
+</tr>
+<tr>
+<td><a name="10.4.1.2"></a><a target="notes" href="/chap/10.4.1.2">10.4.1.2</a></td>
+<td>Animacy</td><td></td>
+<td></td><td></td>
+<td id='indent_788'>3</td>
+<td>788</td>
+</tr>
+<tr>
+<td><a name="10.4.1.3"></a><a target="notes" href="/chap/10.4.1.3">10.4.1.3</a></td>
+<td>Diminutivizer, intensifier, etc.</td><td>4</td>
+<td></td><td></td>
+<td id='indent_789'>3</td>
+<td>789</td>
+</tr>
+<tr>
+<td><a name="10.4.1.4"></a><a target="notes" href="/chap/10.4.1.4">10.4.1.4</a></td>
+<td>Person, #, gender</td><td></td>
+<td></td><td></td>
+<td id='indent_790'>3</td>
+<td>790</td>
+</tr>
+<tr>
+<td><a name="10.4.2"></a><a target="notes" href="/chap/10.4.2">10.4.2</a></td>
+<td>Verbal</td><td>3</td>
+<td></td><td></td>
+<td id='indent_791'>2</td>
+<td>791</td>
+</tr>
+<tr>
+<td><a name="10.4.2.1"></a><a target="notes" href="/chap/10.4.2.1">10.4.2.1</a></td>
+<td>Mood</td><td>5</td>
+<td></td><td></td>
+<td id='indent_792'>3</td>
+<td>792</td>
+</tr>
+<tr>
+<td><a name="10.4.2.4"></a><a target="notes" href="/chap/10.4.2.4">10.4.2.4</a></td>
+<td>Aspect, (in)transitivity, ergativity, causativity</td><td></td>
+<td></td><td></td>
+<td id='indent_793'>3</td>
+<td>793</td>
+</tr>
+<tr>
+<td><a name="10.4.2.6"></a><a target="notes" href="/chap/10.4.2.6">10.4.2.6</a></td>
+<td>Participles, gerunds, etc.</td><td></td>
+<td></td><td></td>
+<td id='indent_794'>3</td>
+<td>794</td>
+</tr>
+<tr>
+<td><a name="10.4.2.7"></a><a target="notes" href="/chap/10.4.2.7">10.4.2.7</a></td>
+<td>Nominalizers</td><td>1</td>
+<td></td><td></td>
+<td id='indent_795'>3</td>
+<td>795</td>
+</tr>
+<tr>
+<td><a name="10.4.3"></a><a target="notes" href="/chap/10.4.3">10.4.3</a></td>
+<td>Other</td><td></td>
+<td></td><td></td>
+<td id='indent_796'>2</td>
+<td>796</td>
+</tr>
+<tr>
+<td><a name="10.4.3.1"></a><a target="notes" href="/chap/10.4.3.1">10.4.3.1</a></td>
+<td>Degrees of comparison</td><td></td>
+<td></td><td></td>
+<td id='indent_797'>3</td>
+<td>797</td>
+</tr>
+<tr>
+<td><a name="10.4.3.2"></a><a target="notes" href="/chap/10.4.3.2">10.4.3.2</a></td>
+<td>Demonstrators</td><td>7</td>
+<td></td><td></td>
+<td id='indent_798'>3</td>
+<td>798</td>
+</tr>
+<tr>
+<td><a name="10.5"></a><a target="notes" href="/chap/10.5">10.5</a></td>
+<td><i>?</i></td><td></td>
+<td></td><td></td>
+<td id='indent_799'>1</td>
+<td>799</td>
+</tr>
+<tr>
+<td><a name="10.5.1"></a><a target="notes" href="/chap/10.5.1">10.5.1</a></td>
+<td>Structuring Words</td><td></td>
+<td></td><td></td>
+<td id='indent_800'>2</td>
+<td>800</td>
+</tr>
+<tr>
+<td><a name="10.5.2"></a><a target="notes" href="/chap/10.5.2">10.5.2</a></td>
+<td>Grammatical functions</td><td>1</td>
+<td></td><td></td>
+<td id='indent_801'>2</td>
+<td>801</td>
+</tr>
+<tr>
+<td><a name="10.5.3"></a><a target="notes" href="/chap/10.5.3">10.5.3</a></td>
+<td>WH words</td><td>12</td>
+<td></td><td></td>
+<td id='indent_802'>2</td>
+<td>802</td>
+</tr>
+<tr>
+<td><a name="10.6"></a><a target="notes" href="/chap/10.6">10.6</a></td>
+<td><i>Not, yes ?</i></td><td></td>
+<td></td><td></td>
+<td id='indent_803'>1</td>
+<td>803</td>
+</tr>
+<tr>
+<td><a name="10.6.1"></a><a target="notes" href="/chap/10.6.1">10.6.1</a></td>
+<td>Affirmative</td><td>2</td>
+<td></td><td></td>
+<td id='indent_804'>2</td>
+<td>804</td>
+</tr>
+<tr>
+<td><a name="10.6.2"></a><a target="notes" href="/chap/10.6.2">10.6.2</a></td>
+<td>Negative</td><td>6</td>
+<td></td><td></td>
+<td id='indent_805'>2</td>
+<td>805</td>
+</tr>
+<tr>
+<td><a name="10.7"></a><a target="notes" href="/chap/10.7">10.7</a></td>
+<td><i>Ejaculations</i></td><td></td>
+<td></td><td></td>
+<td id='indent_806'>1</td>
+<td>806</td>
+</tr>
+<tr>
+<td><a name="x.x"></a><a target="notes" href="/chap/x.x">x.x</a></td>
+<td><b>Errors and apocrypha</b></td><td>1</td>
+<td></td><td></td>
+<td id='indent_807'>1</td>
+<td>807</td>
+</tr>
+<tr>
+<td><a name="999"></a><a target="notes" href="/chap/999">999</a></td>
+<td><b>Unused/Deleted Etyma</b></td><td></td>
+<td></td><td></td>
+<td id='indent_1'>0</td>
+<td>1</td>
+</tr>
+<tr>
+<td><a name="950.1"></a><a target="notes" href="/chap/950.1">950.1</a></td>
+<td><i>Strange but Weird Etyma</i></td><td></td>
+<td></td><td></td>
+<td id='indent_255'>1</td>
+<td>255</td>
+</tr>
+</tbody>
+</table>
+
+
+<script src="/js/tbl/chapters.js"></script>
+<script>
+TableKit.Raw.init('ch', 'chapters', setup['chapters']);
+
+// indentation of semkey and title
+var brows_table = $('ch').getElementsByTagName('tbody')[0];
+
+// get value of indent level and setup spaces
+for (var i = 0, row; row = brows_table.rows[i]; i++) {
+	var row_id = $('ch').getElementsByTagName('tbody')[0].rows[i].cells[$('ch').getElementsByTagName('tbody')[0].rows[i].cells.length-1].textContent;
+	var indent_level = $('indent_'+row_id).textContent;
+	var spaces = '';
+	for (var j = 0; j < indent_level; j++) {
+		spaces += '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;';
+	}
+
+// don't indent x.x row
+if ($('ch_'+row_id).children[0].lastChild.innerHTML === 'x.x') {
+	spaces = '';
+}
+
+// indent semkey
+$('ch_'+row_id).children[0].lastChild.innerHTML = spaces + $('ch_'+row_id).children[0].lastChild.innerHTML;
+
+// indent title
+$('ch_'+row_id).children[1].innerHTML = spaces + $('ch_'+row_id).children[1].innerHTML;
+
+}
+
+</script>
+</body>
+</html>

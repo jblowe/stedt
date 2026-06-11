@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>STEDT Database</title>
+	<link rel="stylesheet" href="/styles/rootcanal.css">
+	<link rel="stylesheet" href="/styles/autoSuggest.css">
+	<link rel="stylesheet" href="/styles/opentip.css">
+	<script src="/scriptaculous/lib/prototype.js"></script>
+	<script src="/scriptaculous/src/scriptaculous.js?load=effects,dragdrop,controls"></script>
+	<script src="/js/opentip.js"></script>
+	<script src="/js/excanvas.js"></script>
+	<script src="/js/tablekit.js"></script>
+	<script src="/js/jquery-1.8.0.js"></script>
+	<script src="/js/jquery.autoSuggest.js"></script>
+</head>
+<body>
+<div id="header" style="display:none;">
+<span class="right">
+<img id="spinner" src="/img/spinner.gif" style="display:none;">&nbsp;
+<a href="#" onclick="return vert_tog()"><img title="Rotate View" src="/img/toggle.png" alt="toggle" id="tog-img" border="0"></a>&nbsp;
+<script>
+$.noConflict();
+var baseRef = '/';
+</script>
+<form style="display:none;" id="guest_tools_header" method="post" action="/account/login"><input type="hidden" name="user" value="guest"><input type="hidden" name="pwd" value="guest"><input type="hidden" name="url" value="/admin"></form>
+&nbsp;<a href="#" onclick="$('guest_tools_header').submit();">tools</a>
+&nbsp;&nbsp;<a href="/account/login?url=https://stedtdb.johnblowe.com/gnis?t=carry%2520on%2520back">log in</a><script>
+var stedtuserprivs = 0;
+$('header').show();
+</script>
+﻿&nbsp;&nbsp;<a href="http://stedt.berkeley.edu/documentation" target="_blank">help</a>
+<script src="/js/stedtconfig.js"></script>
+</span>
+<a href="/" title="Search Home"><img src="/img/splashy32x32.gif" alt="STEDT Logo" width="32" height="32" class="left" border=0></a>
+<b>STEDT Database</b>
+<hr style="clear:both; margin-left:45px">
+</div>
+
+<div id="etyma" class="vert">
+<div class="panetitle">Etyma</div>
+<div align="center">
+<form id="etyma_search" method="post">
+<table>
+<tr><th>proto-form</th><th>proto-gloss</th></tr>
+<tr><td><input type="text" title="Type a proto-form" name="f" id="etyma_searchform" size="15" maxlength="128"></td>
+<td><input name="s" type="text" title="Type an English word" size="20" id="etyma_searchgloss"  value="carry on back" maxlength="128"></td>
+<td><input name="btn" type="submit" value="Search"></td></tr></table>
+</form>
+</div>
+<div id="etyma_status"></div>
+<div id="etyma_results"></div>
+
+<table id="etyma_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="etyma.tag">tag</th>
+<th id="num_recs">num_recs</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="etyma.chapter">chapter</th>
+<th id="etyma.sequence">sequence</th>
+<th id="etyma.protoform">protoform</th>
+<th id="etyma.protogloss">protogloss</th>
+<th id="etyma.grpid">grpid</th>
+<th id="languagegroups.plg">plg</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="etyma.notes">notes</th>
+<th id="num_notes">num_notes</th>
+<th id="num_comparanda">num_comparanda</th>
+<th id="etyma.status">status</th>
+<th id="etyma.public">public</th>
+<th id="users.username">username</th>
+</tr></thead>
+<tbody>
+<tr><td>6339</td><td>24</td><td>Carry</td><td>6.2.2.2.1</td><td>1351.0</td><td>gəː</td><td>CARRY ON BACK / PREGNANT</td><td>5</td><td>PTani</td><td>1.1.1</td><td>JS-HCST: 97</td><td>0</td><td>0</td><td>KEEP</td><td>0</td><td>stedt</td></tr>
+</tbody>
+</table>
+
+<div id="addform"></div>
+<div id="debug"></div>
+</div>
+
+<div id="dragger" class="vert"></div>
+
+<div id="lexicon" class="vert">
+<div class="panetitle"><b>Lexicon</b></div>
+<div align="center">
+<form id="lexicon_search" method="post">
+<table>
+<tr><th>form</th><th>gloss</th><th>language</th><th>language group</th></tr>
+<tr><td><input type="text" name="f" title="Type a linguistic form" id="lexicon_searchform" size="24" maxlength="128"></td>
+<td><input name="s" title="Type an English word" type="text" size="24" maxlength="128" id="lexicon_searchgloss"></td>
+<td><input name="lg" title="Type a language name" type="text" size="32" maxlength="96" id="lexicon_searchlg" ></td>
+<td><select name="lggrp" title="Choose a subgroup" id="lexicon_searchlggrp">
+<option selected="selected" value=""></option>
+<option value="0">0 Sino-Tibetan (previously published reconstructions)</option>
+<option value="0.1">0.1 Tibeto-Burman (previously published reconstructions)</option>
+<option value="1">1 NE Indian Areal Group</option>
+<option value="1.1">1.1 “North Assam”</option>
+<option value="1.1.1">1.1.1 Tani</option>
+<option value="1.1.1.1">1.1.1.1 Western Tani</option>
+<option value="1.1.1.2">1.1.1.2 Eastern Tani</option>
+<option value="1.1.2">1.1.2 Deng</option>
+<option value="1.2">1.2 Kuki-Chin</option>
+<option value="1.2.1">1.2.1 Peripheral Chin</option>
+<option value="1.2.1.1">1.2.1.1 Northern Chin</option>
+<option value="1.2.1.2">1.2.1.2 Southern Plains Chin</option>
+<option value="1.2.2">1.2.2 Central Chin</option>
+<option value="1.2.3">1.2.3 Maraic</option>
+<option value="1.2.4">1.2.4 “Old Kuki”</option>
+<option value="1.3">1.3 “Naga” Areal Group</option>
+<option value="1.3.1">1.3.1 Central Naga (Ao Group)</option>
+<option value="1.3.2">1.3.2 Angami-Pochuri Group</option>
+<option value="1.3.3">1.3.3 Zeme Group</option>
+<option value="1.3.4">1.3.4 Tangkhulic</option>
+<option value="1.4">1.4 Meithei</option>
+<option value="1.5">1.5 Mikir [Karbi]</option>
+<option value="1.6">1.6 Mru</option>
+<option value="1.7">1.7 Sal</option>
+<option value="1.7.1">1.7.1 Bodo-Garo</option>
+<option value="1.7.1.1">1.7.1.1 Bodo</option>
+<option value="1.7.1.2">1.7.1.2 Garo</option>
+<option value="1.7.1.3">1.7.1.3 Koch</option>
+<option value="1.7.1.4">1.7.1.4 Deori</option>
+<option value="1.7.2">1.7.2 Northern Naga/Konyakian</option>
+<option value="1.7.2.1">1.7.2.1 Tangsa-Nocte</option>
+<option value="1.7.2.2">1.7.2.2 Konyak-Chang</option>
+<option value="1.7.3">1.7.3 Jingpho-Asakian</option>
+<option value="1.7.3.1">1.7.3.1 Jingpho</option>
+<option value="1.7.3.2">1.7.3.2 Asakian</option>
+<option value="2">2 Himalayish</option>
+<option value="2.1">2.1 Tibeto-Kanauri</option>
+<option value="2.1.1">2.1.1 Western Himalayish</option>
+<option value="2.1.2">2.1.2 Bodic</option>
+<option value="2.1.2.1">2.1.2.1 Tibetan</option>
+<option value="2.1.3">2.1.3 Lepcha</option>
+<option value="2.1.4">2.1.4 Tamangish</option>
+<option value="2.1.5">2.1.5 Dhimal</option>
+<option value="2.2">2.2 Newar</option>
+<option value="2.3">2.3 Kiranti</option>
+<option value="2.3.1">2.3.1 Eastern Kiranti</option>
+<option value="2.3.2">2.3.2 Southern Kiranti</option>
+<option value="2.3.3">2.3.3 Central Kiranti</option>
+<option value="2.3.4">2.3.4 Western Kiranti</option>
+<option value="2.4">2.4 Kham-Magar-Chepang</option>
+<option value="3">3 Tangut-Qiang</option>
+<option value="3.1">3.1 Tangut</option>
+<option value="3.2">3.2 Qiangic</option>
+<option value="3.3">3.3 rGyalrongic</option>
+<option value="3.3.1">3.3.1 rGyalrong</option>
+<option value="4">4 Nungic</option>
+<option value="5">5 Tujia</option>
+<option value="6">6 Lolo-Burmese-Naxi</option>
+<option value="6.1">6.1 Lolo-Burmese</option>
+<option value="6.1.1">6.1.1 Burmish</option>
+<option value="6.1.2">6.1.2 Loloish</option>
+<option value="6.1.2.1">6.1.2.1 Northern Loloish</option>
+<option value="6.1.2.2">6.1.2.2 Central Loloish</option>
+<option value="6.1.2.3">6.1.2.3 Southern Loloish</option>
+<option value="6.1.2.4">6.1.2.4 Southeastern Loloish</option>
+<option value="6.2">6.2 Naxi</option>
+<option value="7">7 Karenic</option>
+<option value="8">8 Bai</option>
+<option value="9">9 Sinitic</option>
+<option value="9.0.1">9.0.1 Old Chinese</option>
+<option value="9.0.2">9.0.2 Middle Chinese</option>
+<option value="9.0.3">9.0.3 Modern Chinese</option>
+<option value="X">X Other Languages</option>
+<option value="X.1">X.1 Non-TB</option>
+<option value="X.1.1">X.1.1 Indo-Aryan</option>
+<option value="X.1.2">X.1.2 Dravidian</option>
+<option value="X.2">X.2 Unknown/Unevaluated</option>
+<option value="X.3">X.3 East & Southeast Asia Areal</option>
+</select>
+</td>
+<td><input name="btn" type="submit" value="Search"><input type="button" name="clear" value="Clear" onclick="this.form.reset(); $('as-values-lg-auto').value='';jQuery('.as-selection-item').remove()"></td></tr></table>
+</form>
+</div>
+<div id="lexicon_status">117 records found.</div>
+<div id="lexicon_results"></div>
+
+<table id="lexicon_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="lexicon.rn">rn</th>
+<th id="analysis">analysis</th>
+<th id="lexicon.reflex">reflex</th>
+<th id="lexicon.gloss">gloss</th>
+<th id="lexicon.gfn">gfn</th>
+<th id="languagenames.lgid">lgid</th>
+<th id="languagenames.language">language</th>
+<th id="languagegroups.grpid">grpid</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="languagegroups.grp">grp</th>
+<th id="citation">citation</th>
+<th id="languagenames.srcabbr">srcabbr</th>
+<th id="lexicon.srcid">srcid</th>
+<th id="lexicon.semkey">semkey</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="num_notes">num_notes</th>
+</tr></thead>
+<tbody>
+<tr><td>514717</td><td>570</td><td>ba</td><td>carry on back</td><td></td><td>2012</td><td>*Tibeto-Burman</td><td>2</td><td>0.1</td><td>Tibeto-Burman (previously published reconstructions)</td><td>Matisoff 03 HPTB</td><td>JAM-HPTB</td><td>583</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>514747</td><td>2177</td><td>bəw</td><td>carry on back</td><td></td><td>2012</td><td>*Tibeto-Burman</td><td>2</td><td>0.1</td><td>Tibeto-Burman (previously published reconstructions)</td><td>Matisoff 03 HPTB</td><td>JAM-HPTB</td><td>584</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209335</td><td></td><td>ɣəȶ³³</td><td>carry on back</td><td></td><td>1431</td><td>Sulung [Puroik]</td><td>4</td><td>1.1</td><td>“North Assam”</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.52</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>283067</td><td>570</td><td>bak</td><td>carry on back</td><td></td><td>173</td><td>*Tani</td><td>5</td><td>1.1.1</td><td>Tani</td><td>Sun J 93 HCST</td><td>JS-HCST</td><td>58</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>283068</td><td>6339</td><td>gəː</td><td>carry on back / pregnant</td><td></td><td>173</td><td>*Tani</td><td>5</td><td>1.1.1</td><td>Tani</td><td>Sun J 93 HCST</td><td>JS-HCST</td><td>59</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>151977</td><td>m,570</td><td>a-bà</td><td>carry on back</td><td></td><td>285</td><td>Apatani</td><td>73</td><td>1.1.1.1</td><td>Western Tani</td><td>Sun J 93 Tani</td><td>JS-Tani</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>151978</td><td></td><td>baŋ</td><td>carry on back</td><td></td><td>285</td><td>Apatani</td><td>73</td><td>1.1.1.1</td><td>Western Tani</td><td>Sun J 93 Tani</td><td>JS-Tani</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>173220</td><td>570</td><td>baʔ</td><td>carry on back</td><td></td><td>287</td><td>Apatani</td><td>73</td><td>1.1.1.1</td><td>Western Tani</td><td>Sun J 93 HCST</td><td>JS-HCST</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>173222</td><td>p,90,6339</td><td>ə-ŋa gɯ</td><td>carry on back / pregnant</td><td></td><td>287</td><td>Apatani</td><td>73</td><td>1.1.1.1</td><td>Western Tani</td><td>Sun J 93 HCST</td><td>JS-HCST</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>173221</td><td>570</td><td>bak</td><td>carry on back</td><td></td><td>333</td><td>Bengni</td><td>73</td><td>1.1.1.1</td><td>Western Tani</td><td>Sun J 93 HCST</td><td>JS-HCST</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>151979</td><td>6339</td><td>gɯː</td><td>carry on back</td><td></td><td>334</td><td>Bengni</td><td>73</td><td>1.1.1.1</td><td>Western Tani</td><td>Sun J 93 Tani</td><td>JS-Tani</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>173223</td><td>6388,6339</td><td>kuː gɯː</td><td>carry on back / pregnant</td><td></td><td>333</td><td>Bengni</td><td>73</td><td>1.1.1.1</td><td>Western Tani</td><td>Sun J 93 HCST</td><td>JS-HCST</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>173224</td><td>p,6658,6339</td><td>a-ɦo gəː</td><td>carry on back / pregnant</td><td></td><td>360</td><td>Bokar</td><td>73</td><td>1.1.1.1</td><td>Western Tani</td><td>Sun J 93 HCST</td><td>JS-HCST</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209309</td><td>6339</td><td>gə:</td><td>carry on back</td><td></td><td>368</td><td>Bokar Lhoba</td><td>73</td><td>1.1.1.1</td><td>Western Tani</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.51</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>45307</td><td>m,s</td><td>bɤ-nam</td><td>carry on back</td><td>v</td><td>564</td><td>Galo</td><td>73</td><td>1.1.1.1</td><td>Western Tani</td><td>Das Gupta 63 Gal</td><td>KDG-IGL</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>173225</td><td>p,6658,6339,m,6339</td><td>a-o gə; ko gə</td><td>carry on back / pregnant</td><td></td><td>1253</td><td>Padam-Mishing [Abor-Miri]</td><td>74</td><td>1.1.1.2</td><td>Eastern Tani</td><td>Sun J 93 HCST</td><td>JS-HCST</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>151980</td><td></td><td>ʔa-geː bɯk</td><td>carry on back</td><td></td><td>498</td><td>Damu</td><td>74</td><td>1.1.1.2</td><td>Eastern Tani</td><td>Sun J 93 Tani</td><td>JS-Tani</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209308</td><td>570</td><td>bɑ⁵⁵</td><td>carry on back</td><td></td><td>509</td><td>Darang [Taraon]</td><td>6</td><td>1.1.2</td><td>Deng</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.49</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>339981</td><td>209,m</td><td>pling gla:</td><td>carry on back</td><td></td><td>1800</td><td>Darang [Taraon]</td><td>6</td><td>1.1.2</td><td>Deng</td><td>Anonymous xx Tar</td><td>NEFA-Taraon</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209333</td><td></td><td>tɑ⁵⁵pɑ⁵³</td><td>carry on back</td><td></td><td>592</td><td>Kaman [Miju]</td><td>6</td><td>1.1.2</td><td>Deng</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.48</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209334</td><td></td><td>gɹi⁵⁵</td><td>carry on back</td><td></td><td>662</td><td>Idu</td><td>6</td><td>1.1.2</td><td>Deng</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.50</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>442135</td><td>4130</td><td>pôok-INV</td><td>carry on back</td><td>v</td><td>1923</td><td>Lai (Falam)</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>VanBik 09 PKC</td><td>KVB-PKC</td><td>130</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>442134</td><td>4130</td><td>pùa-I, puak-II</td><td>carry on back</td><td>v</td><td>1947</td><td>Lai (Hakha)</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>VanBik 09 PKC</td><td>KVB-PKC</td><td>130</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>442133</td><td>4130</td><td>pī</td><td>carry on back</td><td></td><td>1921</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>VanBik 09 PKC</td><td>KVB-PKC</td><td>130</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>450556</td><td>2177</td><td>pùʔ</td><td>carry on back [carried on back]</td><td>v.</td><td>1963</td><td>Ao (Mongsen: Mangmetong)</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Coupe 07 Ao</td><td>ARC-GMA</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>55711</td><td></td><td>hɔ</td><td>carry on back</td><td></td><td>803</td><td>Kokborok</td><td>80</td><td>1.7.1.1</td><td>Bodo</td><td>Tripuri 88</td><td>PT-Kok</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>503593</td><td></td><td>hẽ-nĩ</td><td>bear (in a knotted cloth), carry on back (as a rucksack)</td><td></td><td>1987</td><td>Deori/Deuri</td><td>83</td><td>1.7.1.4</td><td>Deori</td><td>Jacquesson 05 Deuri</td><td>FJ-LD</td><td></td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>77833</td><td>570</td><td>baʔ</td><td>carry on back</td><td></td><td>1192</td><td>Nocte</td><td>84</td><td>1.7.2.1</td><td>Tangsa-Nocte</td><td>French 83</td><td>WTF-PNN</td><td>467</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>77832</td><td>570</td><td>boʔ</td><td>carry on back</td><td></td><td>1675</td><td>Tangsa (Yogli)</td><td>84</td><td>1.7.2.1</td><td>Tangsa-Nocte</td><td>French 83</td><td>WTF-PNN</td><td>467</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>77824</td><td>5665</td><td>hul</td><td>carry on back</td><td></td><td>1675</td><td>Tangsa (Yogli)</td><td>84</td><td>1.7.2.1</td><td>Tangsa-Nocte</td><td>French 83</td><td>WTF-PNN</td><td>466</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209307</td><td>5665</td><td>kun³³</td><td>carry on back</td><td></td><td>690</td><td>Jingpho</td><td>37</td><td>1.7.3.1</td><td>Jingpho</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.47</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>334459</td><td>570</td><td>paʔ³¹</td><td>carry on back</td><td></td><td>679</td><td>Jingpho</td><td>37</td><td>1.7.3.1</td><td>Jingpho</td><td>Liu 84</td><td>JZ-Jingpo</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>452034</td><td></td><td>mɯʔ</td><td>carry on back</td><td></td><td>1964</td><td>Sak</td><td>40</td><td>1.7.3.2</td><td>Asakian</td><td>Huziwara 08 Sak</td><td>HK-Sak</td><td>208</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>543682</td><td></td><td>bu-mo</td><td>carry on back</td><td>v.</td><td>2110</td><td>Darma</td><td>20</td><td>2.1.1</td><td>Western Himalayish</td><td>Krishan 2003</td><td>SK-TBLUP</td><td>46</td><td></td><td></td><td>0</td></tr>
+<tr><td>209288</td><td></td><td>baŋ</td><td>carry on back</td><td></td><td>1088</td><td>Tsangla (Motuo)</td><td>22</td><td>2.1.2</td><td>Bodic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.7</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>297046</td><td></td><td>paŋ¹³</td><td>carry on back</td><td></td><td>1085</td><td>Tsangla (Motuo)</td><td>22</td><td>2.1.2</td><td>Bodic</td><td>Zhang Jichuan 86</td><td>JZ-CLMenba</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>297703</td><td></td><td>bang</td><td>carry on back</td><td></td><td>1089</td><td>Tsangla (Tilang)</td><td>22</td><td>2.1.2</td><td>Bodic</td><td>Zhang Jichuan 86</td><td>JZ-CLMenba</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>298424</td><td></td><td>by³⁵ɣu³⁵</td><td>carry on back</td><td></td><td>1093</td><td>Tshona (Wenlang)</td><td>22</td><td>2.1.2</td><td>Bodic</td><td>Lu 86 CuoM</td><td>JZ-CNMenba</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209312</td><td></td><td>puʔ¹³</td><td>carry on back</td><td></td><td>1092</td><td>Tshona (Mama)</td><td>22</td><td>2.1.2</td><td>Bodic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.6</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209311</td><td></td><td>khər</td><td>carry on back</td><td></td><td>1550</td><td>Tibetan (Amdo:Bla-brang)</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.4</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209287</td><td></td><td>nkhər</td><td>carry on back</td><td></td><td>1585</td><td>Tibetan (Amdo:Zeku)</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.5</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209286</td><td></td><td>khe⁵³</td><td>carry on back</td><td></td><td>1380</td><td>Tibetan (Khams:Dege)</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.3</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209310</td><td></td><td>kɛ¹⁵pa⁵⁵che⁵⁵</td><td>carry on back</td><td></td><td>1557</td><td>Tibetan (Lhasa)</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.2</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209285</td><td>201,m,m</td><td>sgal par ɦkhjer</td><td>carry on back</td><td></td><td>1582</td><td>Tibetan (Written)</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.1</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>484343</td><td></td><td>bu-</td><td>carry on back (child's speech)</td><td>vt.</td><td>1977</td><td>Chepang</td><td>28</td><td>2.4</td><td>Kham-Magar-Chepang</td><td>Caughley 00 Chepang</td><td>RC-DOC</td><td></td><td>1.5.3.2</td><td>Five</td><td>0</td></tr>
+<tr><td>484374</td><td></td><td>bus-</td><td>carry on back</td><td>vt.</td><td>1977</td><td>Chepang</td><td>28</td><td>2.4</td><td>Kham-Magar-Chepang</td><td>Caughley 00 Chepang</td><td>RC-DOC</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>484368</td><td></td><td>buy-</td><td>carry on back (esp. child)</td><td>vt.</td><td>1977</td><td>Chepang</td><td>28</td><td>2.4</td><td>Kham-Magar-Chepang</td><td>Caughley 00 Chepang</td><td>RC-DOC</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>231748</td><td></td><td>--</td><td>carry on back</td><td></td><td>1496</td><td>Tangut [Xixia]</td><td>33</td><td>3.1</td><td>Tangut</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.13</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209318</td><td>570</td><td>ba⁵⁵</td><td>carry on back</td><td></td><td>561</td><td>Ersu</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.18</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209292</td><td>2177</td><td>bu³³</td><td>carry on back</td><td></td><td>595</td><td>Guiqiong</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.17</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209291</td><td>m,5666</td><td>tu⁵⁵ku⁵⁵</td><td>carry on back</td><td></td><td>1136</td><td>Muya [Minyak]</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.15</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209293</td><td>570,570</td><td>bɛ³³bɛ⁵⁵</td><td>carry on back</td><td></td><td>1147</td><td>Namuyi</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.19</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209290</td><td>p,5666</td><td>tə⁵⁵skiu⁵⁵</td><td>carry on back</td><td></td><td>1306</td><td>Pumi (Qinghua)</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.11</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209314</td><td>m,5666</td><td>nə³⁵xu³⁵</td><td>carry on back</td><td></td><td>1309</td><td>Pumi (Taoba)</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.10</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>511927</td><td></td><td>qá</td><td>carry on back (of animal)</td><td></td><td>1996</td><td>Qiang (Longxi)</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Evans 99 Qiang</td><td>JPE-SQiang</td><td>2435</td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>209313</td><td>570</td><td>bi</td><td>carry on back</td><td></td><td>1320</td><td>Qiang (Mawo)</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.8</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>511928</td><td></td><td>ké</td><td>carry on back (of animal)</td><td></td><td>1997</td><td>Qiang (Mianchi)</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Evans 99 Qiang</td><td>JPE-SQiang</td><td>2435</td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>209289</td><td>570</td><td>ba³³</td><td>carry on back</td><td></td><td>1323</td><td>Qiang (Taoping)</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.9</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209317</td><td>m,5666</td><td>lə³⁵ku⁵³</td><td>carry on back</td><td></td><td>1699</td><td>Queyu (Yajiang) [Zhaba]</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.16</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209319</td><td>570,570</td><td>pɑ³³pɑ⁵⁵</td><td>carry on back</td><td></td><td>1409</td><td>Xumi</td><td>34</td><td>3.2</td><td>Qiangic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.20</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209316</td><td>2177,570,5666</td><td>mbɯ vɛ; mgue</td><td>carry on back</td><td></td><td>557</td><td>Ergong (Danba)</td><td>35</td><td>3.3</td><td>rGyalrongic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.14</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209315</td><td>p,5665</td><td>kɐ pkor</td><td>carry on back</td><td></td><td>1340</td><td>rGyalrong</td><td>78</td><td>3.3.1</td><td>rGyalrong</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.12</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>330228</td><td>p,5665</td><td>kɐ-fkoʔr</td><td>carry on back</td><td></td><td>1797</td><td>Caodeng</td><td>78</td><td>3.3.1</td><td>rGyalrong</td><td>Sun J 97 Cao</td><td>JS-Caodeng</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209331</td><td></td><td>sɿ⁵³</td><td>carry on back</td><td></td><td>269</td><td>Anong</td><td>38</td><td>4</td><td>Nungic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.44</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209332</td><td></td><td>ɹi⁵⁵</td><td>carry on back</td><td></td><td>537</td><td>Trung [Dulong]</td><td>38</td><td>4</td><td>Nungic</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.46</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>299395</td><td></td><td>ɹi⁵³</td><td>carry on back</td><td></td><td>540</td><td>Trung [Dulong] (Nujiang)</td><td>38</td><td>4</td><td>Nungic</td><td>Sun H 82 Dul</td><td>JZ-Dulong</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209328</td><td></td><td>wo⁵³</td><td>carry on back</td><td></td><td>1615</td><td>Tujia</td><td>41</td><td>5</td><td>Tujia</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.38</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>288979</td><td></td><td>wo⁵⁵</td><td>carry on back</td><td></td><td>1616</td><td>Tujia (Northern)</td><td>41</td><td>5</td><td>Tujia</td><td>Tian 86</td><td>JZ-Tujia</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>289906</td><td></td><td>ʔa³³</td><td>carry on back</td><td></td><td>1617</td><td>Tujia (Southern)</td><td>41</td><td>5</td><td>Tujia</td><td>Tian 86</td><td>JZ-Tujia</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>514749</td><td>2177</td><td>bəw²</td><td>carry on back</td><td></td><td>2011</td><td>*Lolo-Burmese</td><td>42</td><td>6.1</td><td>Lolo-Burmese</td><td>Matisoff 03 HPTB</td><td>JAM-HPTB</td><td>584</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>288093</td><td>2177</td><td>pu³¹</td><td>carry on back</td><td></td><td>201</td><td>Achang (Lianghe)</td><td>44</td><td>6.1.1</td><td>Burmish</td><td>Dai 85 AcJZ</td><td>JZ-Achang</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209304</td><td></td><td>pei³⁵; pui³⁵</td><td>carry on back</td><td></td><td>200</td><td>Achang (Longchuan)</td><td>44</td><td>6.1.1</td><td>Burmish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.41</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>287269</td><td>2177</td><td>pu⁵¹</td><td>carry on back</td><td></td><td>207</td><td>Achang (Luxi)</td><td>44</td><td>6.1.1</td><td>Burmish</td><td>Dai 85 AcJZ</td><td>JZ-Achang</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209329</td><td>2177</td><td>po⁵⁵</td><td>carry on back</td><td></td><td>1428</td><td>Burmese (Spoken Rangoon)</td><td>44</td><td>6.1.1</td><td>Burmish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.40</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>164909</td><td></td><td>Mod. pui⁴</td><td>carry on back</td><td>v.</td><td>393</td><td>Burmese (Written)</td><td>44</td><td>6.1.1</td><td>Burmish</td><td>Luce 85</td><td>GHL-PPB</td><td>Y.39</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209303</td><td></td><td>po³</td><td>carry on back</td><td></td><td>411</td><td>Burmese (Written)</td><td>44</td><td>6.1.1</td><td>Burmish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.39</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>233680</td><td></td><td>pò, pò-ŋ</td><td>carry on back</td><td>v.</td><td>653</td><td>Hpun (Northern)</td><td>44</td><td>6.1.1</td><td>Burmish</td><td>Henderson 86 Hpun</td><td>EJAH-Hpun</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>453007</td><td></td><td>pú</td><td>carry on back</td><td></td><td>1965</td><td>Marma</td><td>44</td><td>6.1.1</td><td>Burmish</td><td>Huziwara 08 Sak</td><td>HK-Sak</td><td>208</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209305</td><td></td><td>vəŋ³¹; fəŋ³¹</td><td>carry on back</td><td></td><td>1034</td><td>Maru [Langsu]</td><td>44</td><td>6.1.1</td><td>Burmish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.43</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209330</td><td></td><td>vun⁵¹</td><td>carry on back</td><td></td><td>1693</td><td>Atsi [Zaiwa]</td><td>44</td><td>6.1.1</td><td>Burmish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.42</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>292036</td><td></td><td>vì</td><td>carry on back</td><td></td><td>879</td><td>Lalo</td><td>46</td><td>6.1.2.1</td><td>Northern Loloish</td><td>Björverud 94</td><td>SB-Lalo</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>335353</td><td></td><td>ba⁵⁵</td><td>carry on back</td><td></td><td>1219</td><td>Nusu (Northern)</td><td>46</td><td>6.1.2.1</td><td>Northern Loloish</td><td>Sun J 86 Nusu</td><td>JZ-Nusu</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>336253</td><td></td><td>ba⁵⁵</td><td>carry on back</td><td></td><td>1220</td><td>Nusu (Southern)</td><td>46</td><td>6.1.2.1</td><td>Northern Loloish</td><td>Sun J 86 Nusu</td><td>JZ-Nusu</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209306</td><td></td><td>bɑ⁵⁵</td><td>carry on back</td><td></td><td>1215</td><td>Nusu (Bijiang)</td><td>46</td><td>6.1.2.1</td><td>Northern Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.45</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209320</td><td></td><td>ba³³</td><td>carry on back</td><td></td><td>1658</td><td>Yi (Dafang)</td><td>46</td><td>6.1.2.1</td><td>Northern Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.22</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209296</td><td></td><td>bu²¹</td><td>carry on back</td><td></td><td>1662</td><td>Yi (Mile)</td><td>46</td><td>6.1.2.1</td><td>Northern Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.25</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209322</td><td></td><td>bɒ⁵⁵</td><td>carry on back</td><td></td><td>1663</td><td>Yi (Mojiang)</td><td>46</td><td>6.1.2.1</td><td>Northern Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.26</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209321</td><td></td><td>bɯ²¹</td><td>carry on back</td><td></td><td>1664</td><td>Yi (Nanhua)</td><td>46</td><td>6.1.2.1</td><td>Northern Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.24</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209295</td><td></td><td>mɑ⁵⁵</td><td>carry on back</td><td></td><td>1666</td><td>Yi (Nanjian)</td><td>46</td><td>6.1.2.1</td><td>Northern Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.23</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209294</td><td></td><td>pɿ²¹</td><td>carry on back</td><td></td><td>1670</td><td>Yi (Xide)</td><td>46</td><td>6.1.2.1</td><td>Northern Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.21</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209326</td><td></td><td>phi³⁵</td><td>carry on back</td><td></td><td>696</td><td>Jinuo</td><td>47</td><td>6.1.2.2</td><td>Central Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.34</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>301234</td><td></td><td>ə³³</td><td>carry on back</td><td></td><td>700</td><td>Jinuo (Youle)</td><td>47</td><td>6.1.2.2</td><td>Central Loloish</td><td>Gai 86</td><td>JZ-Jinuo</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209300</td><td>2177</td><td>pu⁵³</td><td>carry on back</td><td></td><td>851</td><td>Lahu (Black)</td><td>47</td><td>6.1.2.2</td><td>Central Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.33</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>302480</td><td></td><td>pv̩³</td><td>carry on back</td><td></td><td>856</td><td>Lahu (Yellow)</td><td>47</td><td>6.1.2.2</td><td>Central Loloish</td><td>Chang 86</td><td>JZ-Lahu</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209297</td><td></td><td>mɛ³³</td><td>carry on back</td><td></td><td>942</td><td>Lisu</td><td>47</td><td>6.1.2.2</td><td>Central Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.27</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>276133</td><td></td><td>tɕe³⁵</td><td>carry on back</td><td>V</td><td>946</td><td>Lisu (Northern)</td><td>47</td><td>6.1.2.2</td><td>Central Loloish</td><td>Bradley 94 Lisu</td><td>DB-Lisu</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>141961</td><td></td><td>pà</td><td>carry on back</td><td></td><td>346</td><td>Bisu</td><td>48</td><td>6.1.2.3</td><td>Southern Loloish</td><td>Bradley 9x Bisu</td><td>DB-Bisu</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209299</td><td></td><td>ɤ³¹</td><td>carry on back</td><td></td><td>510</td><td>Hani (Dazhai)</td><td>48</td><td>6.1.2.3</td><td>Southern Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.31</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209324</td><td></td><td>phi³³</td><td>carry on back</td><td></td><td>418</td><td>Hani (Caiyuan)</td><td>48</td><td>6.1.2.3</td><td>Southern Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.30</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>300299</td><td></td><td>ɤ³¹</td><td>carry on back</td><td></td><td>630</td><td>Hani (Gelanghe)</td><td>48</td><td>6.1.2.3</td><td>Southern Loloish</td><td>Li Yongsui 86 Hani</td><td>JZ-Hani</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209325</td><td></td><td>phi̱³³</td><td>carry on back</td><td></td><td>1416</td><td>Hani (Shuikui)</td><td>48</td><td>6.1.2.3</td><td>Southern Loloish</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.32</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209298</td><td></td><td>pə³³pə³³</td><td>carry on back</td><td></td><td>1676</td><td>Naxi (Yongning)</td><td>43</td><td>6.2</td><td>Naxi</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.29</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209323</td><td></td><td>pɑ³³pɑ³¹</td><td>carry on back</td><td></td><td>908</td><td>Naxi (Lijiang)</td><td>43</td><td>6.2</td><td>Naxi</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.28</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>304467</td><td>6402</td><td>phün (B)</td><td>carry on back</td><td></td><td>1736</td><td>*Karen</td><td>50</td><td>7</td><td>Karenic</td><td>Benedict 72 STC</td><td>STC</td><td>135n368</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>496341</td><td></td><td>bwì</td><td>carry on back using a strap across the forehead to hold the weight</td><td>Vtr</td><td>1981</td><td>Kayan (Pekon)</td><td>50</td><td>7</td><td>Karenic</td><td>Manson 10 Kayan</td><td>KM-Kayan</td><td></td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>497877</td><td></td><td>pà</td><td>carry on back (most general word for carrying)</td><td>Vtr</td><td>1981</td><td>Kayan (Pekon)</td><td>50</td><td>7</td><td>Karenic</td><td>Manson 10 Kayan</td><td>KM-Kayan</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>307583</td><td></td><td>bàʔ</td><td>carry on back, as knapsack, ch</td><td></td><td>1235</td><td>Pa-O</td><td>50</td><td>7</td><td>Karenic</td><td>Solnit 89 PaO</td><td>DBS-PaO</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>304670</td><td>6402</td><td>bü</td><td>carry on back</td><td></td><td>1759</td><td>Pa-O</td><td>50</td><td>7</td><td>Karenic</td><td>Benedict 72 STC</td><td>STC</td><td>147n402</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>304469</td><td>6402</td><td>phü</td><td>carry on back</td><td></td><td>1749</td><td>Palaychi</td><td>50</td><td>7</td><td>Karenic</td><td>Benedict 72 STC</td><td>STC</td><td>135n368</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>304468</td><td>6402</td><td>phün/phən</td><td>carry on back</td><td></td><td>1750</td><td>Pwo</td><td>50</td><td>7</td><td>Karenic</td><td>Benedict 72 STC</td><td>STC</td><td>135n368</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>304470</td><td>6402</td><td>phü</td><td>carry on back</td><td></td><td>1755</td><td>Karen (Sgaw)</td><td>50</td><td>7</td><td>Karenic</td><td>Benedict 72 STC</td><td>STC</td><td>135n368</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209302</td><td></td><td>veʴ³³</td><td>carry on back</td><td></td><td>311</td><td>Bai (Bijiang)</td><td>51</td><td>8</td><td>Bai</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.37</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209301</td><td></td><td>jeʴ⁴²</td><td>carry on back</td><td></td><td>314</td><td>Bai (Dali)</td><td>51</td><td>8</td><td>Bai</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.35</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>209327</td><td></td><td>v̩u³³</td><td>carry on back</td><td></td><td>317</td><td>Bai (Jianchuan)</td><td>51</td><td>8</td><td>Bai</td><td>Sun H 91 ZMYY</td><td>ZMYYC</td><td>575.36</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>164911</td><td></td><td>1000a</td><td>carry on back</td><td>v.</td><td>593</td><td>Chinese (GSR #)</td><td>52</td><td>9</td><td>Sinitic</td><td>Luce 85</td><td>GHL-PPB</td><td>Y.39</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>164910</td><td></td><td>bʻi̯ŭg</td><td>carry on back</td><td>v.</td><td>472</td><td>Chinese (Old)</td><td>53</td><td>9.0.1</td><td>Old Chinese</td><td>Luce 85</td><td>GHL-PPB</td><td>Y.39</td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>142354</td><td></td><td>bēi</td><td>carry on back</td><td></td><td>1010</td><td>Chinese (Mandarin)</td><td>55</td><td>9.0.3</td><td>Modern Chinese</td><td>Evans 91</td><td>ELS-CLL</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<script src="/js/simplesearch.js"></script>
+</body>
+</html>

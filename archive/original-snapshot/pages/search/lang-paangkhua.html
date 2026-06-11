@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>STEDT Database</title>
+	<link rel="stylesheet" href="/styles/rootcanal.css">
+	<link rel="stylesheet" href="/styles/autoSuggest.css">
+	<link rel="stylesheet" href="/styles/opentip.css">
+	<script src="/scriptaculous/lib/prototype.js"></script>
+	<script src="/scriptaculous/src/scriptaculous.js?load=effects,dragdrop,controls"></script>
+	<script src="/js/opentip.js"></script>
+	<script src="/js/excanvas.js"></script>
+	<script src="/js/tablekit.js"></script>
+	<script src="/js/jquery-1.8.0.js"></script>
+	<script src="/js/jquery.autoSuggest.js"></script>
+</head>
+<body>
+<div id="header" style="display:none;">
+<span class="right">
+<img id="spinner" src="/img/spinner.gif" style="display:none;">&nbsp;
+<a href="#" onclick="return vert_tog()"><img title="Rotate View" src="/img/toggle.png" alt="toggle" id="tog-img" border="0"></a>&nbsp;
+<script>
+$.noConflict();
+var baseRef = '/';
+</script>
+<form style="display:none;" id="guest_tools_header" method="post" action="/account/login"><input type="hidden" name="user" value="guest"><input type="hidden" name="pwd" value="guest"><input type="hidden" name="url" value="/admin"></form>
+&nbsp;<a href="#" onclick="$('guest_tools_header').submit();">tools</a>
+&nbsp;&nbsp;<a href="/account/login?url=https://stedtdb.johnblowe.com/gnis?lg=Paangkhua">log in</a><script>
+var stedtuserprivs = 0;
+$('header').show();
+</script>
+﻿&nbsp;&nbsp;<a href="http://stedt.berkeley.edu/documentation" target="_blank">help</a>
+<script src="/js/stedtconfig.js"></script>
+</span>
+<a href="/" title="Search Home"><img src="/img/splashy32x32.gif" alt="STEDT Logo" width="32" height="32" class="left" border=0></a>
+<b>STEDT Database</b>
+<hr style="clear:both; margin-left:45px">
+</div>
+
+<div id="etyma" class="vert">
+<div class="panetitle">Etyma</div>
+<div align="center">
+<form id="etyma_search" method="post">
+<table>
+<tr><th>proto-form</th><th>proto-gloss</th></tr>
+<tr><td><input type="text" title="Type a proto-form" name="f" id="etyma_searchform" size="15" maxlength="128"></td>
+<td><input name="s" type="text" title="Type an English word" size="20" id="etyma_searchgloss"  maxlength="128"></td>
+<td><input name="btn" type="submit" value="Search"></td></tr></table>
+</form>
+</div>
+<div id="etyma_status"></div>
+<div id="etyma_results"></div>
+
+<table id="etyma_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="etyma.tag">tag</th>
+<th id="num_recs">num_recs</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="etyma.chapter">chapter</th>
+<th id="etyma.sequence">sequence</th>
+<th id="etyma.protoform">protoform</th>
+<th id="etyma.protogloss">protogloss</th>
+<th id="etyma.grpid">grpid</th>
+<th id="languagegroups.plg">plg</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="etyma.notes">notes</th>
+<th id="num_notes">num_notes</th>
+<th id="num_comparanda">num_comparanda</th>
+<th id="etyma.status">status</th>
+<th id="etyma.public">public</th>
+<th id="users.username">username</th>
+</tr></thead>
+<tbody>
+<tr><td>1</td><td>146</td><td>Body</td><td>1.1.1</td><td>2.0</td><td>guŋ</td><td>BODY / BACK</td><td>1</td><td>PST</td><td>0</td><td>STC p.182, GSR, HPTB p.309</td><td>2</td><td>1</td><td>KEEP</td><td>1</td><td>stedt</td></tr>
+</tbody>
+</table>
+
+<div id="addform"></div>
+<div id="debug"></div>
+</div>
+
+<div id="dragger" class="vert"></div>
+
+<div id="lexicon" class="vert">
+<div class="panetitle"><b>Lexicon</b></div>
+<div align="center">
+<form id="lexicon_search" method="post">
+<table>
+<tr><th>form</th><th>gloss</th><th>language</th><th>language group</th></tr>
+<tr><td><input type="text" name="f" title="Type a linguistic form" id="lexicon_searchform" size="24" maxlength="128"></td>
+<td><input name="s" title="Type an English word" type="text" size="24" maxlength="128" id="lexicon_searchgloss"></td>
+<td><input name="lg" title="Type a language name" type="text" size="32" maxlength="96" id="lexicon_searchlg" ></td>
+<td><select name="lggrp" title="Choose a subgroup" id="lexicon_searchlggrp">
+<option selected="selected" value=""></option>
+<option value="0">0 Sino-Tibetan (previously published reconstructions)</option>
+<option value="0.1">0.1 Tibeto-Burman (previously published reconstructions)</option>
+<option value="1">1 NE Indian Areal Group</option>
+<option value="1.1">1.1 “North Assam”</option>
+<option value="1.1.1">1.1.1 Tani</option>
+<option value="1.1.1.1">1.1.1.1 Western Tani</option>
+<option value="1.1.1.2">1.1.1.2 Eastern Tani</option>
+<option value="1.1.2">1.1.2 Deng</option>
+<option value="1.2">1.2 Kuki-Chin</option>
+<option value="1.2.1">1.2.1 Peripheral Chin</option>
+<option value="1.2.1.1">1.2.1.1 Northern Chin</option>
+<option value="1.2.1.2">1.2.1.2 Southern Plains Chin</option>
+<option value="1.2.2">1.2.2 Central Chin</option>
+<option value="1.2.3">1.2.3 Maraic</option>
+<option value="1.2.4">1.2.4 “Old Kuki”</option>
+<option value="1.3">1.3 “Naga” Areal Group</option>
+<option value="1.3.1">1.3.1 Central Naga (Ao Group)</option>
+<option value="1.3.2">1.3.2 Angami-Pochuri Group</option>
+<option value="1.3.3">1.3.3 Zeme Group</option>
+<option value="1.3.4">1.3.4 Tangkhulic</option>
+<option value="1.4">1.4 Meithei</option>
+<option value="1.5">1.5 Mikir [Karbi]</option>
+<option value="1.6">1.6 Mru</option>
+<option value="1.7">1.7 Sal</option>
+<option value="1.7.1">1.7.1 Bodo-Garo</option>
+<option value="1.7.1.1">1.7.1.1 Bodo</option>
+<option value="1.7.1.2">1.7.1.2 Garo</option>
+<option value="1.7.1.3">1.7.1.3 Koch</option>
+<option value="1.7.1.4">1.7.1.4 Deori</option>
+<option value="1.7.2">1.7.2 Northern Naga/Konyakian</option>
+<option value="1.7.2.1">1.7.2.1 Tangsa-Nocte</option>
+<option value="1.7.2.2">1.7.2.2 Konyak-Chang</option>
+<option value="1.7.3">1.7.3 Jingpho-Asakian</option>
+<option value="1.7.3.1">1.7.3.1 Jingpho</option>
+<option value="1.7.3.2">1.7.3.2 Asakian</option>
+<option value="2">2 Himalayish</option>
+<option value="2.1">2.1 Tibeto-Kanauri</option>
+<option value="2.1.1">2.1.1 Western Himalayish</option>
+<option value="2.1.2">2.1.2 Bodic</option>
+<option value="2.1.2.1">2.1.2.1 Tibetan</option>
+<option value="2.1.3">2.1.3 Lepcha</option>
+<option value="2.1.4">2.1.4 Tamangish</option>
+<option value="2.1.5">2.1.5 Dhimal</option>
+<option value="2.2">2.2 Newar</option>
+<option value="2.3">2.3 Kiranti</option>
+<option value="2.3.1">2.3.1 Eastern Kiranti</option>
+<option value="2.3.2">2.3.2 Southern Kiranti</option>
+<option value="2.3.3">2.3.3 Central Kiranti</option>
+<option value="2.3.4">2.3.4 Western Kiranti</option>
+<option value="2.4">2.4 Kham-Magar-Chepang</option>
+<option value="3">3 Tangut-Qiang</option>
+<option value="3.1">3.1 Tangut</option>
+<option value="3.2">3.2 Qiangic</option>
+<option value="3.3">3.3 rGyalrongic</option>
+<option value="3.3.1">3.3.1 rGyalrong</option>
+<option value="4">4 Nungic</option>
+<option value="5">5 Tujia</option>
+<option value="6">6 Lolo-Burmese-Naxi</option>
+<option value="6.1">6.1 Lolo-Burmese</option>
+<option value="6.1.1">6.1.1 Burmish</option>
+<option value="6.1.2">6.1.2 Loloish</option>
+<option value="6.1.2.1">6.1.2.1 Northern Loloish</option>
+<option value="6.1.2.2">6.1.2.2 Central Loloish</option>
+<option value="6.1.2.3">6.1.2.3 Southern Loloish</option>
+<option value="6.1.2.4">6.1.2.4 Southeastern Loloish</option>
+<option value="6.2">6.2 Naxi</option>
+<option value="7">7 Karenic</option>
+<option value="8">8 Bai</option>
+<option value="9">9 Sinitic</option>
+<option value="9.0.1">9.0.1 Old Chinese</option>
+<option value="9.0.2">9.0.2 Middle Chinese</option>
+<option value="9.0.3">9.0.3 Modern Chinese</option>
+<option value="X">X Other Languages</option>
+<option value="X.1">X.1 Non-TB</option>
+<option value="X.1.1">X.1.1 Indo-Aryan</option>
+<option value="X.1.2">X.1.2 Dravidian</option>
+<option value="X.2">X.2 Unknown/Unevaluated</option>
+<option value="X.3">X.3 East & Southeast Asia Areal</option>
+</select>
+</td>
+<td><input name="btn" type="submit" value="Search"><input type="button" name="clear" value="Clear" onclick="this.form.reset(); $('as-values-lg-auto').value='';jQuery('.as-selection-item').remove()"></td></tr></table>
+</form>
+</div>
+<div id="lexicon_status">108 records found.</div>
+<div id="lexicon_results"></div>
+
+<table id="lexicon_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="lexicon.rn">rn</th>
+<th id="analysis">analysis</th>
+<th id="lexicon.reflex">reflex</th>
+<th id="lexicon.gloss">gloss</th>
+<th id="lexicon.gfn">gfn</th>
+<th id="languagenames.lgid">lgid</th>
+<th id="languagenames.language">language</th>
+<th id="languagegroups.grpid">grpid</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="languagegroups.grp">grp</th>
+<th id="citation">citation</th>
+<th id="languagenames.srcabbr">srcabbr</th>
+<th id="lexicon.srcid">srcid</th>
+<th id="lexicon.semkey">semkey</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="num_notes">num_notes</th>
+</tr></thead>
+<tbody>
+<tr><td>233439</td><td></td><td>(an)vèi</td><td>labour (child birth)</td><td>v.</td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.1.1</td><td>Affect</td><td>0</td></tr>
+<tr><td>233522</td><td>632,m</td><td>(há)-manIit</td><td>gums</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.3.4.3</td><td>Gums</td><td>0</td></tr>
+<tr><td>233523</td><td>632,504</td><td>(háa)◦níi</td><td>gums</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.3.4.3</td><td>Gums</td><td>0</td></tr>
+<tr><td>233498</td><td></td><td>(khùm)-masáa</td><td>bed-bug</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.5.3.2</td><td>Five</td><td>0</td></tr>
+<tr><td>233442</td><td>2012</td><td>(ra)kíi</td><td>horn</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.2.2</td><td>Horn(ed)/Antler</td><td>0</td></tr>
+<tr><td>233470</td><td></td><td>(ra)làang</td><td>bier</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>5.8.2.3</td><td>Religious persons/things</td><td>0</td></tr>
+<tr><td>233444</td><td>m,665a</td><td>(ra)◦kùa</td><td>hole</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.2.7</td><td>Cracks/Chasms/Crevices</td><td>0</td></tr>
+<tr><td>233472</td><td>m,5432</td><td>(ra)◦lùng</td><td>maggot</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>233466</td><td>232,682</td><td>(ra)◦mìt</td><td>ankle</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.5.8.2</td><td>Ankle</td><td>0</td></tr>
+<tr><td>233452</td><td></td><td>-(ra)tsíng</td><td>soot</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>233329</td><td></td><td>àn-tsàm</td><td>turnip</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>233341</td><td></td><td>ansaà</td><td>thick (to be)</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>9.7.2</td><td>Verbs referring to size/shape</td><td>0</td></tr>
+<tr><td>233403</td><td></td><td>an◦bàat</td><td>throw over the shoulder</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.12</td><td>Throwing</td><td>0</td></tr>
+<tr><td>233335</td><td></td><td>an◦tsìt</td><td>afraid (to be)</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>7.1.1</td><td>Emotive</td><td>0</td></tr>
+<tr><td>233435</td><td></td><td>an◦zòon</td><td>carry between</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>233519</td><td>1719</td><td>dáng</td><td>palate</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.3.1.1</td><td>Palate</td><td>0</td></tr>
+<tr><td>233432</td><td></td><td>dìil</td><td>ask for</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>8.5.7.1</td><td>Ask</td><td>0</td></tr>
+<tr><td>233407</td><td>5496</td><td>kuái</td><td>pull down</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.2.2.3.1</td><td>Push</td><td>0</td></tr>
+<tr><td>233550</td><td>2416</td><td>lóng</td><td>boat</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>233542</td><td>1381</td><td>lúng</td><td>heart</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.7.1</td><td>Heart</td><td>0</td></tr>
+<tr><td>233546</td><td>563</td><td>malíang</td><td>shoulder</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.4.3</td><td>Shoulder</td><td>0</td></tr>
+<tr><td>233545</td><td>563</td><td>malíang</td><td>shoulder</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.4.3</td><td>Shoulder</td><td>0</td></tr>
+<tr><td>233549</td><td>2416</td><td>malóng</td><td>boat</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>233541</td><td>1381</td><td>malúng</td><td>heart</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.7.1</td><td>Heart</td><td>0</td></tr>
+<tr><td>3134</td><td>504</td><td>maniit</td><td>gums</td><td></td><td>1244</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Weidert 87 TBTo</td><td>AW-TBT</td><td>164</td><td>1.3.4.3</td><td>Gums</td><td>0</td></tr>
+<tr><td>233533</td><td>2623</td><td>marúul</td><td>snake</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>2.1.6.1</td><td>Snake</td><td>0</td></tr>
+<tr><td>233368</td><td></td><td>masèn</td><td>divide</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.10.4</td><td>Intentional separation - Sort</td><td>0</td></tr>
+<tr><td>233365</td><td></td><td>masíi</td><td>bead</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>5.11.8.3</td><td>Jewelry and Accessories</td><td>0</td></tr>
+<tr><td>233395</td><td></td><td>masiì</td><td>pinch</td><td>v.</td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>8.4</td><td>Feeling</td><td>0</td></tr>
+<tr><td>233399</td><td></td><td>masùa</td><td>release</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.10.1</td><td>Unintentional loss - Misplace</td><td>0</td></tr>
+<tr><td>233359</td><td></td><td>masúi</td><td>kick</td><td>v.</td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.2.2.3.3</td><td>Kick</td><td>0</td></tr>
+<tr><td>233353</td><td></td><td>masún</td><td>spear</td><td>v.</td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>5.14</td><td>Husbandry</td><td>0</td></tr>
+<tr><td>233377</td><td></td><td>masúu</td><td>sugar cane</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.1.6.2</td><td>Other ground and milled food</td><td>0</td></tr>
+<tr><td>233515</td><td></td><td>mathláak</td><td>offspring</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>4.7.3</td><td>Later generation</td><td>0</td></tr>
+<tr><td>233512</td><td></td><td>mathòu</td><td>fly</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>233511</td><td></td><td>mathòu</td><td>fly</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>233504</td><td></td><td>matíit</td><td>muscle</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.6.6.2</td><td>Muscle</td><td>0</td></tr>
+<tr><td>233507</td><td>512</td><td>matìn</td><td>nail / hoof</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.5.10</td><td>Nail</td><td>0</td></tr>
+<tr><td>233487</td><td></td><td>matsáng</td><td>twig</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.1.2</td><td>Plant parts and types</td><td>0</td></tr>
+<tr><td>233491</td><td>2747</td><td>matsiì</td><td>salt</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>233480</td><td>3457,m</td><td>ma◦'ír</td><td>breast</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.4.4.3</td><td>Chest</td><td>0</td></tr>
+<tr><td>233518</td><td>m,1719</td><td>ma◦dáng</td><td>palate</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.3.1.1</td><td>Palate</td><td>0</td></tr>
+<tr><td>233482</td><td>m,201</td><td>ma◦kàl</td><td>kidney</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.7.5</td><td>Kidney</td><td>0</td></tr>
+<tr><td>233485</td><td>1187,m</td><td>ma◦kòt</td><td>front (in front of house)</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.4.4</td><td>Front</td><td>0</td></tr>
+<tr><td>233484</td><td>1187,m</td><td>ma◦kòt</td><td>front (in front of house)</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.4.4</td><td>Front</td><td>0</td></tr>
+<tr><td>233538</td><td>m,2812</td><td>ma◦láa</td><td>spleen</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.7.4</td><td>Spleen</td><td>0</td></tr>
+<tr><td>233537</td><td>m,2812</td><td>ma◦láa</td><td>spleen</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.7.4</td><td>Spleen</td><td>0</td></tr>
+<tr><td>233530</td><td></td><td>ma◦raà</td><td>fruit</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>233501</td><td>p,1651</td><td>ma◦sùul</td><td>womb</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>233494</td><td>m,5558</td><td>ma◦tsèek</td><td>thunderbolt</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.2.1</td><td>Weather and seasons</td><td>0</td></tr>
+<tr><td>233527</td><td>m,2796</td><td>ma◦zúu</td><td>rat</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>2.1.1</td><td>Rodents</td><td>0</td></tr>
+<tr><td>233526</td><td>m,2796</td><td>ma◦zúu</td><td>rat</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>2.1.1</td><td>Rodents</td><td>0</td></tr>
+<tr><td>233531</td><td>2071</td><td>raà</td><td>fruit</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>233460</td><td></td><td>rabàal</td><td>tube / bulb</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>233431</td><td></td><td>radìil</td><td>ask for</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>8.5.7.1</td><td>Ask</td><td>0</td></tr>
+<tr><td>233478</td><td></td><td>rahòl</td><td>charcoal</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>233392</td><td></td><td>rakèek</td><td>separate</td><td>v.</td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.10.4</td><td>Intentional separation - Sort</td><td>0</td></tr>
+<tr><td>233410</td><td></td><td>rakhúng</td><td>imprison</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>5.11.9.1</td><td>Kinds of dwellings</td><td>0</td></tr>
+<tr><td>233450</td><td></td><td>rangúl</td><td>rod</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>9.7.1</td><td>Shape and size</td><td>0</td></tr>
+<tr><td>233428</td><td></td><td>rasìal</td><td>cut (a road)</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.9.3</td><td>Chop, slice</td><td>0</td></tr>
+<tr><td>233394</td><td></td><td>rasiì</td><td>pinch</td><td>v.</td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>8.4</td><td>Feeling</td><td>0</td></tr>
+<tr><td>233398</td><td></td><td>rasùa</td><td>release</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.10.1</td><td>Unintentional loss - Misplace</td><td>0</td></tr>
+<tr><td>233417</td><td></td><td>ratsaà</td><td>send on commission</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.2.2.2</td><td>Move an object</td><td>0</td></tr>
+<tr><td>233416</td><td></td><td>ratsaà</td><td>send on commission</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.2.2.2</td><td>Move an object</td><td>0</td></tr>
+<tr><td>233338</td><td></td><td>ratsìal</td><td>chew / gnash teeth</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.3.4</td><td>Tooth</td><td>0</td></tr>
+<tr><td>233424</td><td></td><td>ratsìal</td><td>chew / gnash teeth</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.3.4</td><td>Tooth</td><td>0</td></tr>
+<tr><td>233420</td><td></td><td>ratsìil</td><td>trample / tread</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.7.10</td><td>Move with something else</td><td>0</td></tr>
+<tr><td>233454</td><td></td><td>ratúng</td><td>post</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>5.11</td><td>Artifacts (unclassified as yet)</td><td>0</td></tr>
+<tr><td>233474</td><td></td><td>ravàam</td><td>potash</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>233402</td><td></td><td>ra◦bàat</td><td>throw over the shoulder</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.12</td><td>Throwing</td><td>0</td></tr>
+<tr><td>233462</td><td>m,4004</td><td>ra◦búng</td><td>banyan tree</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.1.1</td><td>Names of trees and shrubs</td><td>0</td></tr>
+<tr><td>233446</td><td>m,1251</td><td>ra◦khúup</td><td>knee</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.5.8.4</td><td>Knee</td><td>0</td></tr>
+<tr><td>233406</td><td>m,5496</td><td>ra◦kuài</td><td>pull down</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.2.2.3.1</td><td>Push</td><td>0</td></tr>
+<tr><td>233464</td><td>m,126</td><td>ra◦màng</td><td>dream</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.1.4.2</td><td>Dream</td><td>0</td></tr>
+<tr><td>233448</td><td>m,1306</td><td>ra◦ngáa</td><td>five</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>233413</td><td>m,1160</td><td>ra◦ngáai</td><td>love</td><td>v.</td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>8.3.1.1.1</td><td>Like</td><td>0</td></tr>
+<tr><td>233412</td><td>m,1160</td><td>ra◦ngáai</td><td>love</td><td>v.</td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>8.3.1.1.1</td><td>Like</td><td>0</td></tr>
+<tr><td>233458</td><td>m,253</td><td>ra◦nuù</td><td>breast / milk</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.4.4.3</td><td>Chest</td><td>0</td></tr>
+<tr><td>233456</td><td>m,2264</td><td>ra◦tlháa</td><td>ghost</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>4.2.12.2</td><td>Scary things</td><td>0</td></tr>
+<tr><td>233438</td><td></td><td>ra◦vèi</td><td>labour (child birth)</td><td>v.</td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.1.1</td><td>Affect</td><td>0</td></tr>
+<tr><td>233476</td><td>m,2555</td><td>ra◦vòt</td><td>land-leech</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>2990</td><td>6031,6032</td><td>ra◦záa</td><td>goat (wild)(1)</td><td></td><td>1244</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Weidert 87 TBTo</td><td>AW-TBT</td><td>151</td><td>2.1.8</td><td>Ovine and Hircine</td><td>0</td></tr>
+<tr><td>233468</td><td>6031,6032</td><td>ra◦záa</td><td>goat (wild)</td><td></td><td>102</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>2.1.8</td><td>Ovine and Hircine</td><td>0</td></tr>
+<tr><td>233434</td><td></td><td>ra◦zòon</td><td>carry between</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>233534</td><td>2623</td><td>rúul</td><td>snake</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>2.1.6.1</td><td>Snake</td><td>0</td></tr>
+<tr><td>233362</td><td></td><td>saà</td><td>good</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>233344</td><td></td><td>sàn-suak</td><td>rescue</td><td>v.</td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.2.2.1</td><td>Assorted action verbs</td><td>0</td></tr>
+<tr><td>233371</td><td></td><td>sapaà</td><td>son</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>4.7.3</td><td>Later generation</td><td>0</td></tr>
+<tr><td>233383</td><td></td><td>sèi</td><td>spear</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>5.14</td><td>Husbandry</td><td>0</td></tr>
+<tr><td>233386</td><td></td><td>síang</td><td>clear</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>233350</td><td></td><td>síat-sám2</td><td>take an oath</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.21</td><td>Acquisitions</td><td>0</td></tr>
+<tr><td>233374</td><td></td><td>sìng</td><td>clever</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>9.6.1.2</td><td>Positive Human Qualities</td><td>0</td></tr>
+<tr><td>233347</td><td></td><td>síng-sià</td><td>mark</td><td>v.</td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>233500</td><td>1651,1612</td><td>sùul-ìn</td><td>womb</td><td></td><td>1248</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>233356</td><td></td><td>sùum</td><td>fog</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.2.1</td><td>Weather and seasons</td><td>0</td></tr>
+<tr><td>233380</td><td></td><td>sùun</td><td>wrap up</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.2.2.1</td><td>Assorted action verbs</td><td>0</td></tr>
+<tr><td>442665</td><td>1373</td><td>tái</td><td>waist</td><td></td><td>1952</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>VanBik 09 PKC</td><td>KVB-PKC</td><td>242</td><td>1.4.6</td><td>Waist</td><td>0</td></tr>
+<tr><td>233516</td><td></td><td>thláak</td><td>offspring</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>4.7.3</td><td>Later generation</td><td>0</td></tr>
+<tr><td>233505</td><td></td><td>tíit</td><td>muscle</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.6.6.2</td><td>Muscle</td><td>0</td></tr>
+<tr><td>233508</td><td>512</td><td>tìn</td><td>nail / hoof</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.5.10</td><td>Nail</td><td>0</td></tr>
+<tr><td>233332</td><td>5320</td><td>tsàam</td><td>hungry</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.1.3</td><td>Hungry</td><td>0</td></tr>
+<tr><td>233326</td><td></td><td>tsàng</td><td>dry</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.6</td><td>Verbs requiring liquids</td><td>0</td></tr>
+<tr><td>233488</td><td></td><td>tsáng</td><td>twig</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.1.2</td><td>Plant parts and types</td><td>0</td></tr>
+<tr><td>233495</td><td>5558</td><td>tsèek</td><td>thunderbolt</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.2.1</td><td>Weather and seasons</td><td>0</td></tr>
+<tr><td>233425</td><td></td><td>tsìal</td><td>chew / gnash teeth</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.3.4</td><td>Tooth</td><td>0</td></tr>
+<tr><td>233492</td><td>2747</td><td>tsiì</td><td>salt</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>233421</td><td></td><td>tsìil</td><td>trample / tread</td><td></td><td>1247</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>6.7.10</td><td>Move with something else</td><td>0</td></tr>
+<tr><td>233389</td><td></td><td>ùi-sòom</td><td>mantis</td><td></td><td>1246</td><td>Paangkhua</td><td>70</td><td>1.2.2</td><td>Central Chin</td><td>Løffler 85 Paa</td><td>LL-PRPL</td><td></td><td>1.9.6.1</td><td>Pregnant</td><td>0</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<script src="/js/simplesearch.js"></script>
+</body>
+</html>

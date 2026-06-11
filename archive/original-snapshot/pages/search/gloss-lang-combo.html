@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>STEDT Database</title>
+	<link rel="stylesheet" href="/styles/rootcanal.css">
+	<link rel="stylesheet" href="/styles/autoSuggest.css">
+	<link rel="stylesheet" href="/styles/opentip.css">
+	<script src="/scriptaculous/lib/prototype.js"></script>
+	<script src="/scriptaculous/src/scriptaculous.js?load=effects,dragdrop,controls"></script>
+	<script src="/js/opentip.js"></script>
+	<script src="/js/excanvas.js"></script>
+	<script src="/js/tablekit.js"></script>
+	<script src="/js/jquery-1.8.0.js"></script>
+	<script src="/js/jquery.autoSuggest.js"></script>
+</head>
+<body>
+<div id="header" style="display:none;">
+<span class="right">
+<img id="spinner" src="/img/spinner.gif" style="display:none;">&nbsp;
+<a href="#" onclick="return vert_tog()"><img title="Rotate View" src="/img/toggle.png" alt="toggle" id="tog-img" border="0"></a>&nbsp;
+<script>
+$.noConflict();
+var baseRef = '/';
+</script>
+<form style="display:none;" id="guest_tools_header" method="post" action="/account/login"><input type="hidden" name="user" value="guest"><input type="hidden" name="pwd" value="guest"><input type="hidden" name="url" value="/admin"></form>
+&nbsp;<a href="#" onclick="$('guest_tools_header').submit();">tools</a>
+&nbsp;&nbsp;<a href="/account/login?url=https://stedtdb.johnblowe.com/gnis?t=hit;lg=Lotha">log in</a><script>
+var stedtuserprivs = 0;
+$('header').show();
+</script>
+﻿&nbsp;&nbsp;<a href="http://stedt.berkeley.edu/documentation" target="_blank">help</a>
+<script src="/js/stedtconfig.js"></script>
+</span>
+<a href="/" title="Search Home"><img src="/img/splashy32x32.gif" alt="STEDT Logo" width="32" height="32" class="left" border=0></a>
+<b>STEDT Database</b>
+<hr style="clear:both; margin-left:45px">
+</div>
+
+<div id="etyma" class="vert">
+<div class="panetitle">Etyma</div>
+<div align="center">
+<form id="etyma_search" method="post">
+<table>
+<tr><th>proto-form</th><th>proto-gloss</th></tr>
+<tr><td><input type="text" title="Type a proto-form" name="f" id="etyma_searchform" size="15" maxlength="128"></td>
+<td><input name="s" type="text" title="Type an English word" size="20" id="etyma_searchgloss"  value="hit" maxlength="128"></td>
+<td><input name="btn" type="submit" value="Search"></td></tr></table>
+</form>
+</div>
+<div id="etyma_status">18 records found.</div>
+<div id="etyma_results"></div>
+
+<table id="etyma_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="etyma.tag">tag</th>
+<th id="num_recs">num_recs</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="etyma.chapter">chapter</th>
+<th id="etyma.sequence">sequence</th>
+<th id="etyma.protoform">protoform</th>
+<th id="etyma.protogloss">protogloss</th>
+<th id="etyma.grpid">grpid</th>
+<th id="languagegroups.plg">plg</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="etyma.notes">notes</th>
+<th id="num_notes">num_notes</th>
+<th id="num_comparanda">num_comparanda</th>
+<th id="etyma.status">status</th>
+<th id="etyma.public">public</th>
+<th id="users.username">username</th>
+</tr></thead>
+<tbody>
+<tr><td>5935</td><td>0</td><td>Striking, hitting verbs</td><td>6.8</td><td>0.0</td><td>r-gya(p/k)</td><td>DO / MAKE / THROW / HIT / BEAT /  Performative</td><td>2</td><td>PTB</td><td>0.1</td><td></td><td>1</td><td>0</td><td></td><td>0</td><td>spbyte</td></tr>
+<tr><td>4087</td><td>13</td><td>Striking, hitting verbs</td><td>6.8</td><td>6.0</td><td>ɗeeŋ-I, ɗeen-II</td><td>HAMMER / BEAT / HIT / PELT</td><td>8</td><td>PKC</td><td>1.2</td><td>PKC #87</td><td>1</td><td>1</td><td>KEEP</td><td>0</td><td>stedt</td></tr>
+<tr><td>5670</td><td>14</td><td>Striking, hitting verbs</td><td>6.8</td><td>7.0</td><td>lak</td><td>HIT / BEAT / STRIKE</td><td>3</td><td>NEIA</td><td>1</td><td></td><td>1</td><td>0</td><td>KEEP</td><td>1</td><td>stedt</td></tr>
+<tr><td>5152</td><td>13</td><td>Striking, hitting verbs</td><td>6.8</td><td>8.0</td><td>wua-I, wuak-II</td><td>HIT / BEAT / STRIKE</td><td>8</td><td>PKC</td><td>1.2</td><td>PKC #1152</td><td>0</td><td>0</td><td>KEEP</td><td>0</td><td>stedt</td></tr>
+<tr><td>7350</td><td>9</td><td>Striking, hitting verbs</td><td>6.8</td><td>11.0</td><td>doŋᴮ</td><td>HIT HARD (with a fist)</td><td>50</td><td>PKar</td><td>7</td><td>TL#146</td><td>1</td><td>0</td><td>KEEP</td><td>1</td><td>stedt</td></tr>
+<tr><td>4447</td><td>10</td><td>Striking, hitting verbs</td><td>6.8</td><td>13.0</td><td>khe(e)n-I, khenʔ-II</td><td>HAMMER / HIT / STRIKE</td><td>8</td><td>PKC</td><td>1.2</td><td>PKC #447</td><td>0</td><td>0</td><td>KEEP</td><td>0</td><td>stedt</td></tr>
+<tr><td>4555</td><td>10</td><td>Striking, hitting verbs</td><td>6.8</td><td>14.0</td><td>tsu(u)m-I, tsumʔ-II</td><td>POUND (with fist) / HIT / STRIKE</td><td>8</td><td>PKC</td><td>1.2</td><td>PKC #555</td><td>0</td><td>0</td><td>KEEP</td><td>0</td><td>stedt</td></tr>
+<tr><td>2759</td><td>11</td><td>Striking, hitting verbs</td><td>6.8</td><td>15.0</td><td>tsy(u/i)k</td><td>HIT / KNOCK AGAINST</td><td>2</td><td>PTB</td><td>0.1</td><td>(&quot;PKN&quot;) STC p.53</td><td>1</td><td>0</td><td>KEEP</td><td>1</td><td>stedt</td></tr>
+<tr><td>2662</td><td>5</td><td>Striking, hitting verbs</td><td>6.8</td><td>17.0</td><td>soy</td><td>GRAZE / ALMOST HIT / PASSING CLOSE</td><td>2</td><td>PTB</td><td>0.1</td><td>STC#306</td><td>0</td><td>0</td><td>KEEP</td><td>1</td><td>stedt</td></tr>
+<tr><td>4459</td><td>5</td><td>Striking, hitting verbs</td><td>6.8</td><td>18.0</td><td>khooŋ</td><td>STRIKE / BANG / BEAT / THRESH / HIT</td><td>8</td><td>PKC</td><td>1.2</td><td>PKC #459</td><td>2</td><td>1</td><td>KEEP</td><td>0</td><td>stedt</td></tr>
+<tr><td>4449</td><td>4</td><td>Striking, hitting verbs</td><td>6.8</td><td>20.0</td><td>kheeŋ-I, kheen-II</td><td>HIT (a target)</td><td>8</td><td>PKC</td><td>1.2</td><td>PKC #449</td><td>0</td><td>0</td><td>KEEP</td><td>0</td><td>stedt</td></tr>
+<tr><td>6259</td><td>4</td><td>Striking, hitting verbs</td><td>6.8</td><td>21.0</td><td>bjək</td><td>HIT (target)</td><td>5</td><td>PTani</td><td>1.1.1</td><td>JS-HCST: 139</td><td>0</td><td>0</td><td>KEEP</td><td>0</td><td>stedt</td></tr>
+<tr><td>4403</td><td>3</td><td>Striking, hitting verbs</td><td>6.8</td><td>23.0</td><td>thoŋ</td><td>PUNCH / HIT</td><td>8</td><td>PKC</td><td>1.2</td><td>PKC #403</td><td>1</td><td>0</td><td>KEEP</td><td>0</td><td>stedt</td></tr>
+<tr><td>7028</td><td>3</td><td>Striking, hitting verbs</td><td>6.8</td><td>25.0</td><td>jap</td><td>HIT / STRIKE</td><td>66</td><td>PTk</td><td>1.3.4</td><td>DRM#631</td><td>0</td><td>0</td><td>KEEP</td><td>0</td><td>stedt</td></tr>
+<tr><td>7068</td><td>3</td><td>Striking, hitting verbs</td><td>6.8</td><td>27.0</td><td>pʰit</td><td>HIT</td><td>66</td><td>PTk</td><td>1.3.4</td><td>DRM#680</td><td>0</td><td>0</td><td>KEEP</td><td>0</td><td>stedt</td></tr>
+<tr><td>7674</td><td>10</td><td>Striking, hitting verbs</td><td>6.8</td><td>28.0</td><td>tam</td><td>HIT / SLAP</td><td>63</td><td>PCN</td><td>1.3.1</td><td>PCN #127</td><td>1</td><td>0</td><td>KEEP</td><td>1</td><td>stedt</td></tr>
+<tr><td>5822</td><td>0</td><td>Striking, hitting verbs</td><td>6.8</td><td>3269.0</td><td>m-p(r)uŋ/k</td><td>STRIKE / KNOCK / HIT / DRUM</td><td>2</td><td>PTB</td><td>0.1</td><td></td><td>1</td><td>1</td><td></td><td>0</td><td>stedt</td></tr>
+<tr><td>669</td><td>5</td><td>Feeling</td><td>8.4</td><td>2083.0</td><td>s-raːp</td><td>GRAZE / ALMOST HIT / PASSING GLOSE</td><td>2</td><td>PTB</td><td>0.1</td><td>cf. HPTB p.340</td><td>3</td><td>1</td><td>KEEP</td><td>1</td><td>stedt</td></tr>
+</tbody>
+</table>
+
+<div id="addform"></div>
+<div id="debug"></div>
+</div>
+
+<div id="dragger" class="vert"></div>
+
+<div id="lexicon" class="vert">
+<div class="panetitle"><b>Lexicon</b></div>
+<div align="center">
+<form id="lexicon_search" method="post">
+<table>
+<tr><th>form</th><th>gloss</th><th>language</th><th>language group</th></tr>
+<tr><td><input type="text" name="f" title="Type a linguistic form" id="lexicon_searchform" size="24" maxlength="128"></td>
+<td><input name="s" title="Type an English word" type="text" size="24" maxlength="128" id="lexicon_searchgloss"></td>
+<td><input name="lg" title="Type a language name" type="text" size="32" maxlength="96" id="lexicon_searchlg" ></td>
+<td><select name="lggrp" title="Choose a subgroup" id="lexicon_searchlggrp">
+<option selected="selected" value=""></option>
+<option value="0">0 Sino-Tibetan (previously published reconstructions)</option>
+<option value="0.1">0.1 Tibeto-Burman (previously published reconstructions)</option>
+<option value="1">1 NE Indian Areal Group</option>
+<option value="1.1">1.1 “North Assam”</option>
+<option value="1.1.1">1.1.1 Tani</option>
+<option value="1.1.1.1">1.1.1.1 Western Tani</option>
+<option value="1.1.1.2">1.1.1.2 Eastern Tani</option>
+<option value="1.1.2">1.1.2 Deng</option>
+<option value="1.2">1.2 Kuki-Chin</option>
+<option value="1.2.1">1.2.1 Peripheral Chin</option>
+<option value="1.2.1.1">1.2.1.1 Northern Chin</option>
+<option value="1.2.1.2">1.2.1.2 Southern Plains Chin</option>
+<option value="1.2.2">1.2.2 Central Chin</option>
+<option value="1.2.3">1.2.3 Maraic</option>
+<option value="1.2.4">1.2.4 “Old Kuki”</option>
+<option value="1.3">1.3 “Naga” Areal Group</option>
+<option value="1.3.1">1.3.1 Central Naga (Ao Group)</option>
+<option value="1.3.2">1.3.2 Angami-Pochuri Group</option>
+<option value="1.3.3">1.3.3 Zeme Group</option>
+<option value="1.3.4">1.3.4 Tangkhulic</option>
+<option value="1.4">1.4 Meithei</option>
+<option value="1.5">1.5 Mikir [Karbi]</option>
+<option value="1.6">1.6 Mru</option>
+<option value="1.7">1.7 Sal</option>
+<option value="1.7.1">1.7.1 Bodo-Garo</option>
+<option value="1.7.1.1">1.7.1.1 Bodo</option>
+<option value="1.7.1.2">1.7.1.2 Garo</option>
+<option value="1.7.1.3">1.7.1.3 Koch</option>
+<option value="1.7.1.4">1.7.1.4 Deori</option>
+<option value="1.7.2">1.7.2 Northern Naga/Konyakian</option>
+<option value="1.7.2.1">1.7.2.1 Tangsa-Nocte</option>
+<option value="1.7.2.2">1.7.2.2 Konyak-Chang</option>
+<option value="1.7.3">1.7.3 Jingpho-Asakian</option>
+<option value="1.7.3.1">1.7.3.1 Jingpho</option>
+<option value="1.7.3.2">1.7.3.2 Asakian</option>
+<option value="2">2 Himalayish</option>
+<option value="2.1">2.1 Tibeto-Kanauri</option>
+<option value="2.1.1">2.1.1 Western Himalayish</option>
+<option value="2.1.2">2.1.2 Bodic</option>
+<option value="2.1.2.1">2.1.2.1 Tibetan</option>
+<option value="2.1.3">2.1.3 Lepcha</option>
+<option value="2.1.4">2.1.4 Tamangish</option>
+<option value="2.1.5">2.1.5 Dhimal</option>
+<option value="2.2">2.2 Newar</option>
+<option value="2.3">2.3 Kiranti</option>
+<option value="2.3.1">2.3.1 Eastern Kiranti</option>
+<option value="2.3.2">2.3.2 Southern Kiranti</option>
+<option value="2.3.3">2.3.3 Central Kiranti</option>
+<option value="2.3.4">2.3.4 Western Kiranti</option>
+<option value="2.4">2.4 Kham-Magar-Chepang</option>
+<option value="3">3 Tangut-Qiang</option>
+<option value="3.1">3.1 Tangut</option>
+<option value="3.2">3.2 Qiangic</option>
+<option value="3.3">3.3 rGyalrongic</option>
+<option value="3.3.1">3.3.1 rGyalrong</option>
+<option value="4">4 Nungic</option>
+<option value="5">5 Tujia</option>
+<option value="6">6 Lolo-Burmese-Naxi</option>
+<option value="6.1">6.1 Lolo-Burmese</option>
+<option value="6.1.1">6.1.1 Burmish</option>
+<option value="6.1.2">6.1.2 Loloish</option>
+<option value="6.1.2.1">6.1.2.1 Northern Loloish</option>
+<option value="6.1.2.2">6.1.2.2 Central Loloish</option>
+<option value="6.1.2.3">6.1.2.3 Southern Loloish</option>
+<option value="6.1.2.4">6.1.2.4 Southeastern Loloish</option>
+<option value="6.2">6.2 Naxi</option>
+<option value="7">7 Karenic</option>
+<option value="8">8 Bai</option>
+<option value="9">9 Sinitic</option>
+<option value="9.0.1">9.0.1 Old Chinese</option>
+<option value="9.0.2">9.0.2 Middle Chinese</option>
+<option value="9.0.3">9.0.3 Modern Chinese</option>
+<option value="X">X Other Languages</option>
+<option value="X.1">X.1 Non-TB</option>
+<option value="X.1.1">X.1.1 Indo-Aryan</option>
+<option value="X.1.2">X.1.2 Dravidian</option>
+<option value="X.2">X.2 Unknown/Unevaluated</option>
+<option value="X.3">X.3 East & Southeast Asia Areal</option>
+</select>
+</td>
+<td><input name="btn" type="submit" value="Search"><input type="button" name="clear" value="Clear" onclick="this.form.reset(); $('as-values-lg-auto').value='';jQuery('.as-selection-item').remove()"></td></tr></table>
+</form>
+</div>
+<div id="lexicon_status">13 records found.</div>
+<div id="lexicon_results"></div>
+
+<table id="lexicon_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="lexicon.rn">rn</th>
+<th id="analysis">analysis</th>
+<th id="lexicon.reflex">reflex</th>
+<th id="lexicon.gloss">gloss</th>
+<th id="lexicon.gfn">gfn</th>
+<th id="languagenames.lgid">lgid</th>
+<th id="languagenames.language">language</th>
+<th id="languagegroups.grpid">grpid</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="languagegroups.grp">grp</th>
+<th id="citation">citation</th>
+<th id="languagenames.srcabbr">srcabbr</th>
+<th id="lexicon.srcid">srcid</th>
+<th id="lexicon.semkey">semkey</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="num_notes">num_notes</th>
+</tr></thead>
+<tbody>
+<tr><td>621478</td><td>p,2759</td><td>e¹-tʃhək²-</td><td>hit (with stick)</td><td>v.</td><td>2247</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Bruhn 14 SuppCN</td><td>DWB-CNSD</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>621477</td><td></td><td>sa¹-</td><td>hit, beat</td><td>v.</td><td>2247</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Bruhn 14 SuppCN</td><td>DWB-CNSD</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>621756</td><td></td><td>ta²-</td><td>hit, beat</td><td>v.</td><td>2247</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Bruhn 14 SuppCN</td><td>DWB-CNSD</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>620326</td><td>6312,m</td><td>tsəŋ³-tʃo³-</td><td>hit by lightning</td><td>v.</td><td>2231</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Bruhn 14 PCN</td><td>DWB-PCN</td><td>III.214</td><td></td><td></td><td>0</td></tr>
+<tr><td>620325</td><td>7674</td><td>təm³-</td><td>hit (with hand), slap</td><td>v.</td><td>2231</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Bruhn 14 PCN</td><td>DWB-PCN</td><td>III.127</td><td></td><td></td><td>0</td></tr>
+<tr><td>621814</td><td></td><td>tʃhen²-</td><td>hit, strike (with fist, car)</td><td>v.</td><td>2247</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Bruhn 14 SuppCN</td><td>DWB-CNSD</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>621552</td><td></td><td>tʃhen³-</td><td>spear, kill with spear, hit target with spear or dart</td><td>v.</td><td>2247</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Bruhn 14 SuppCN</td><td>DWB-CNSD</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>621846</td><td></td><td>tʃhen¹-tʃhi¹-</td><td>hit (indirectly/inadvertently)</td><td>v.</td><td>2247</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Bruhn 14 SuppCN</td><td>DWB-CNSD</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>621656</td><td></td><td>vəm³-</td><td>hit, strike (with object or heavy blow with hand)</td><td>v.</td><td>2247</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Bruhn 14 SuppCN</td><td>DWB-CNSD</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>616986</td><td></td><td>chenkata</td><td>hit</td><td></td><td>2220</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Murry 78</td><td>LLC-ALV</td><td>55</td><td></td><td></td><td>0</td></tr>
+<tr><td>242934</td><td></td><td>ekhokat</td><td>hit</td><td>v</td><td>963</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.8</td><td>Striking, hitting verbs</td><td>0</td></tr>
+<tr><td>242932</td><td>7674</td><td>tam</td><td>hit</td><td>v</td><td>963</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.8</td><td>Striking, hitting verbs</td><td>0</td></tr>
+<tr><td>242933</td><td>2206</td><td>tap</td><td>hit</td><td>v</td><td>963</td><td>Lotha Naga</td><td>63</td><td>1.3.1</td><td>Central Naga (Ao Group)</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.8</td><td>Striking, hitting verbs</td><td>0</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<script src="/js/simplesearch.js"></script>
+</body>
+</html>

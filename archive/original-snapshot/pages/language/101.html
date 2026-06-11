@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>STEDT Database</title>
+	<link rel="stylesheet" href="/styles/rootcanal.css">
+	<link rel="stylesheet" href="/styles/autoSuggest.css">
+	<link rel="stylesheet" href="/styles/opentip.css">
+	<script src="/scriptaculous/lib/prototype.js"></script>
+	<script src="/scriptaculous/src/scriptaculous.js?load=effects,dragdrop,controls"></script>
+	<script src="/js/opentip.js"></script>
+	<script src="/js/excanvas.js"></script>
+	<script src="/js/tablekit.js"></script>
+	<script src="/js/jquery-1.8.0.js"></script>
+	<script src="/js/jquery.autoSuggest.js"></script>
+</head>
+<body>
+<div id="header" style="display:none;">
+<span class="right">
+<img id="spinner" src="/img/spinner.gif" style="display:none;">&nbsp;
+<a href="#" onclick="return vert_tog()"><img title="Rotate View" src="/img/toggle.png" alt="toggle" id="tog-img" border="0"></a>&nbsp;
+<script>
+$.noConflict();
+var baseRef = '/';
+</script>
+<form style="display:none;" id="guest_tools_header" method="post" action="/account/login"><input type="hidden" name="user" value="guest"><input type="hidden" name="pwd" value="guest"><input type="hidden" name="url" value="/admin"></form>
+&nbsp;<a href="#" onclick="$('guest_tools_header').submit();">tools</a>
+&nbsp;&nbsp;<a href="/account/login?url=https://stedtdb.johnblowe.com/gnis?lexicon.lgid=101">log in</a><script>
+var stedtuserprivs = 0;
+$('header').show();
+</script>
+﻿&nbsp;&nbsp;<a href="http://stedt.berkeley.edu/documentation" target="_blank">help</a>
+<script src="/js/stedtconfig.js"></script>
+</span>
+<a href="/" title="Search Home"><img src="/img/splashy32x32.gif" alt="STEDT Logo" width="32" height="32" class="left" border=0></a>
+<b>STEDT Database</b>
+<hr style="clear:both; margin-left:45px">
+</div>
+
+<div id="etyma" class="vert">
+<div class="panetitle">Etyma</div>
+<div align="center">
+<form id="etyma_search" method="post">
+<table>
+<tr><th>proto-form</th><th>proto-gloss</th></tr>
+<tr><td><input type="text" title="Type a proto-form" name="f" id="etyma_searchform" size="15" maxlength="128"></td>
+<td><input name="s" type="text" title="Type an English word" size="20" id="etyma_searchgloss"  maxlength="128"></td>
+<td><input name="btn" type="submit" value="Search"></td></tr></table>
+</form>
+</div>
+<div id="etyma_status"></div>
+<div id="etyma_results"></div>
+
+<table id="etyma_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="etyma.tag">tag</th>
+<th id="num_recs">num_recs</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="etyma.chapter">chapter</th>
+<th id="etyma.sequence">sequence</th>
+<th id="etyma.protoform">protoform</th>
+<th id="etyma.protogloss">protogloss</th>
+<th id="etyma.grpid">grpid</th>
+<th id="languagegroups.plg">plg</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="etyma.notes">notes</th>
+<th id="num_notes">num_notes</th>
+<th id="num_comparanda">num_comparanda</th>
+<th id="etyma.status">status</th>
+<th id="etyma.public">public</th>
+<th id="users.username">username</th>
+</tr></thead>
+<tbody>
+<tr><td>1</td><td>146</td><td>Body</td><td>1.1.1</td><td>2.0</td><td>guŋ</td><td>BODY / BACK</td><td>1</td><td>PST</td><td>0</td><td>STC p.182, GSR, HPTB p.309</td><td>2</td><td>1</td><td>KEEP</td><td>1</td><td>stedt</td></tr>
+</tbody>
+</table>
+
+<div id="addform"></div>
+<div id="debug"></div>
+</div>
+
+<div id="dragger" class="vert"></div>
+
+<div id="lexicon" class="vert">
+<div class="panetitle"><b>Lexicon</b></div>
+<div align="center">
+<form id="lexicon_search" method="post">
+<table>
+<tr><th>form</th><th>gloss</th><th>language</th><th>language group</th></tr>
+<tr><td><input type="text" name="f" title="Type a linguistic form" id="lexicon_searchform" size="24" maxlength="128"></td>
+<td><input name="s" title="Type an English word" type="text" size="24" maxlength="128" id="lexicon_searchgloss"></td>
+<td><input name="lg" title="Type a language name" type="text" size="32" maxlength="96" id="lexicon_searchlg" ></td>
+<td><select name="lggrp" title="Choose a subgroup" id="lexicon_searchlggrp">
+<option selected="selected" value=""></option>
+<option value="0">0 Sino-Tibetan (previously published reconstructions)</option>
+<option value="0.1">0.1 Tibeto-Burman (previously published reconstructions)</option>
+<option value="1">1 NE Indian Areal Group</option>
+<option value="1.1">1.1 “North Assam”</option>
+<option value="1.1.1">1.1.1 Tani</option>
+<option value="1.1.1.1">1.1.1.1 Western Tani</option>
+<option value="1.1.1.2">1.1.1.2 Eastern Tani</option>
+<option value="1.1.2">1.1.2 Deng</option>
+<option value="1.2">1.2 Kuki-Chin</option>
+<option value="1.2.1">1.2.1 Peripheral Chin</option>
+<option value="1.2.1.1">1.2.1.1 Northern Chin</option>
+<option value="1.2.1.2">1.2.1.2 Southern Plains Chin</option>
+<option value="1.2.2">1.2.2 Central Chin</option>
+<option value="1.2.3">1.2.3 Maraic</option>
+<option value="1.2.4">1.2.4 “Old Kuki”</option>
+<option value="1.3">1.3 “Naga” Areal Group</option>
+<option value="1.3.1">1.3.1 Central Naga (Ao Group)</option>
+<option value="1.3.2">1.3.2 Angami-Pochuri Group</option>
+<option value="1.3.3">1.3.3 Zeme Group</option>
+<option value="1.3.4">1.3.4 Tangkhulic</option>
+<option value="1.4">1.4 Meithei</option>
+<option value="1.5">1.5 Mikir [Karbi]</option>
+<option value="1.6">1.6 Mru</option>
+<option value="1.7">1.7 Sal</option>
+<option value="1.7.1">1.7.1 Bodo-Garo</option>
+<option value="1.7.1.1">1.7.1.1 Bodo</option>
+<option value="1.7.1.2">1.7.1.2 Garo</option>
+<option value="1.7.1.3">1.7.1.3 Koch</option>
+<option value="1.7.1.4">1.7.1.4 Deori</option>
+<option value="1.7.2">1.7.2 Northern Naga/Konyakian</option>
+<option value="1.7.2.1">1.7.2.1 Tangsa-Nocte</option>
+<option value="1.7.2.2">1.7.2.2 Konyak-Chang</option>
+<option value="1.7.3">1.7.3 Jingpho-Asakian</option>
+<option value="1.7.3.1">1.7.3.1 Jingpho</option>
+<option value="1.7.3.2">1.7.3.2 Asakian</option>
+<option value="2">2 Himalayish</option>
+<option value="2.1">2.1 Tibeto-Kanauri</option>
+<option value="2.1.1">2.1.1 Western Himalayish</option>
+<option value="2.1.2">2.1.2 Bodic</option>
+<option value="2.1.2.1">2.1.2.1 Tibetan</option>
+<option value="2.1.3">2.1.3 Lepcha</option>
+<option value="2.1.4">2.1.4 Tamangish</option>
+<option value="2.1.5">2.1.5 Dhimal</option>
+<option value="2.2">2.2 Newar</option>
+<option value="2.3">2.3 Kiranti</option>
+<option value="2.3.1">2.3.1 Eastern Kiranti</option>
+<option value="2.3.2">2.3.2 Southern Kiranti</option>
+<option value="2.3.3">2.3.3 Central Kiranti</option>
+<option value="2.3.4">2.3.4 Western Kiranti</option>
+<option value="2.4">2.4 Kham-Magar-Chepang</option>
+<option value="3">3 Tangut-Qiang</option>
+<option value="3.1">3.1 Tangut</option>
+<option value="3.2">3.2 Qiangic</option>
+<option value="3.3">3.3 rGyalrongic</option>
+<option value="3.3.1">3.3.1 rGyalrong</option>
+<option value="4">4 Nungic</option>
+<option value="5">5 Tujia</option>
+<option value="6">6 Lolo-Burmese-Naxi</option>
+<option value="6.1">6.1 Lolo-Burmese</option>
+<option value="6.1.1">6.1.1 Burmish</option>
+<option value="6.1.2">6.1.2 Loloish</option>
+<option value="6.1.2.1">6.1.2.1 Northern Loloish</option>
+<option value="6.1.2.2">6.1.2.2 Central Loloish</option>
+<option value="6.1.2.3">6.1.2.3 Southern Loloish</option>
+<option value="6.1.2.4">6.1.2.4 Southeastern Loloish</option>
+<option value="6.2">6.2 Naxi</option>
+<option value="7">7 Karenic</option>
+<option value="8">8 Bai</option>
+<option value="9">9 Sinitic</option>
+<option value="9.0.1">9.0.1 Old Chinese</option>
+<option value="9.0.2">9.0.2 Middle Chinese</option>
+<option value="9.0.3">9.0.3 Modern Chinese</option>
+<option value="X">X Other Languages</option>
+<option value="X.1">X.1 Non-TB</option>
+<option value="X.1.1">X.1.1 Indo-Aryan</option>
+<option value="X.1.2">X.1.2 Dravidian</option>
+<option value="X.2">X.2 Unknown/Unevaluated</option>
+<option value="X.3">X.3 East & Southeast Asia Areal</option>
+</select>
+</td>
+<td><input name="btn" type="submit" value="Search"><input type="button" name="clear" value="Clear" onclick="this.form.reset(); $('as-values-lg-auto').value='';jQuery('.as-selection-item').remove()"></td></tr></table>
+</form>
+</div>
+<div id="lexicon_status">12 records found.</div>
+<div id="lexicon_results"></div>
+
+<table id="lexicon_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="lexicon.rn">rn</th>
+<th id="analysis">analysis</th>
+<th id="lexicon.reflex">reflex</th>
+<th id="lexicon.gloss">gloss</th>
+<th id="lexicon.gfn">gfn</th>
+<th id="languagenames.lgid">lgid</th>
+<th id="languagenames.language">language</th>
+<th id="languagegroups.grpid">grpid</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="languagegroups.grp">grp</th>
+<th id="citation">citation</th>
+<th id="languagenames.srcabbr">srcabbr</th>
+<th id="lexicon.srcid">srcid</th>
+<th id="lexicon.semkey">semkey</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="num_notes">num_notes</th>
+</tr></thead>
+<tbody>
+<tr><td>77233</td><td>479</td><td>'mlying</td><td>neck</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>112</td><td>1.4.2</td><td>Neck</td><td>0</td></tr>
+<tr><td>76882</td><td>572</td><td>hlyi</td><td>excrement</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>75</td><td>1.8.5</td><td>Feces/Shit/Dung/Filth/Excrement</td><td>0</td></tr>
+<tr><td>77152</td><td>629</td><td>lyags</td><td>lick / tongue</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>103</td><td>1.3.3.1</td><td>Lick</td><td>0</td></tr>
+<tr><td>76558</td><td>1390</td><td>msyin</td><td>bitter / liver</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>44</td><td>7.1.4.4</td><td>Taste</td><td>0</td></tr>
+<tr><td>77576</td><td>298</td><td>mthyi</td><td>tears / snot</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>147</td><td>1.2.6.7</td><td>Tears</td><td>0</td></tr>
+<tr><td>76708</td><td></td><td>mthyi</td><td>come / arrive</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>56</td><td>6.7.1</td><td>Inward</td><td>0</td></tr>
+<tr><td>76500</td><td>442</td><td>mthyu</td><td>beak / lip</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>39</td><td>1.3.1.2</td><td>Beak/Bill</td><td>0</td></tr>
+<tr><td>77440</td><td></td><td>plags</td><td>skin</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>134</td><td>1.6.5</td><td>Skin</td><td>0</td></tr>
+<tr><td>76912</td><td></td><td>ryed</td><td>fear</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>77</td><td>8.3.1.10.1</td><td>Fear</td><td>0</td></tr>
+<tr><td>77131</td><td>2670</td><td>syes</td><td>know</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>101</td><td>8.3.1.12.1</td><td>Know, Believe</td><td>0</td></tr>
+<tr><td>76777</td><td>27</td><td>syi</td><td>die</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>63</td><td>1.1.6</td><td>Die/Deathly</td><td>0</td></tr>
+<tr><td>76460</td><td></td><td>tshya</td><td>about to / on the point of</td><td></td><td>101</td><td>&quot;Pre-Tibetan&quot;</td><td>24</td><td>2.1.2.1</td><td>Tibetan</td><td>Coblin 86</td><td>WSC-SH</td><td>36</td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<script src="/js/simplesearch.js"></script>
+</body>
+</html>

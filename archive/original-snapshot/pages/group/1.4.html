@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Language Groups - STEDT Database</title>
+	<link rel="stylesheet" href="/styles/rootcanal.css">
+	<link rel="stylesheet" href="/styles/autoSuggest.css">
+	<link rel="stylesheet" href="/styles/opentip.css">
+	<script src="/scriptaculous/lib/prototype.js"></script>
+	<script src="/scriptaculous/src/scriptaculous.js?load=effects,dragdrop,controls"></script>
+	<script src="/js/opentip.js"></script>
+	<script src="/js/excanvas.js"></script>
+	<script src="/js/tablekit.js"></script>
+	<script src="/js/jquery-1.8.0.js"></script>
+	<script src="/js/jquery.autoSuggest.js"></script>
+</head>
+<body>
+<div id="header" style="display:none;">
+<span class="right">
+<script>
+$.noConflict();
+var baseRef = '/';
+</script>
+<form style="display:none;" id="guest_tools_header" method="post" action="/account/login"><input type="hidden" name="user" value="guest"><input type="hidden" name="pwd" value="guest"><input type="hidden" name="url" value="/admin"></form>
+&nbsp;<a href="#" onclick="$('guest_tools_header').submit();">tools</a>
+&nbsp;&nbsp;<a href="/account/login?url=https://stedtdb.johnblowe.com/group/1/4">log in</a><script>
+var stedtuserprivs = 0;
+$('header').show();
+</script>
+﻿&nbsp;&nbsp;<a href="http://stedt.berkeley.edu/documentation" target="_blank">help</a>
+<script src="/js/stedtconfig.js"></script>
+</span>
+<a href="/" title="Search Home"><img src="/img/splashy32x32.gif" alt="STEDT Logo" width="32" height="32" class="left" border=0></a>
+<b>Language Groups - STEDT Database</b>
+<hr style="clear:both; margin-left:45px">
+</div>
+
+<table id="lgtreehead">
+<tr><th style="width:4em">Group #</th><th>Group Name</th></tr>
+</table>
+<div id="lgtree">
+<table>
+<tr bgcolor="#FFFF99" id="showme">
+	<td>0</td>
+	<td><a href="/group/1">Sino-Tibetan (previously published reconstructions)</a></td>
+</tr>
+<tr>
+	<td>0.1</td>
+	<td><a href="/group/2">Tibeto-Burman (previously published reconstructions)</a></td>
+</tr>
+<tr>
+	<td>1</td>
+	<td><a href="/group/3">NE Indian Areal Group</a></td>
+</tr>
+<tr>
+	<td>1.1</td>
+	<td><a href="/group/4">“North Assam”</a></td>
+</tr>
+<tr>
+	<td>1.1.1</td>
+	<td><a href="/group/5">Tani</a></td>
+</tr>
+<tr>
+	<td>1.1.1.1</td>
+	<td><a href="/group/73">Western Tani</a></td>
+</tr>
+<tr>
+	<td>1.1.1.2</td>
+	<td><a href="/group/74">Eastern Tani</a></td>
+</tr>
+<tr>
+	<td>1.1.2</td>
+	<td><a href="/group/6">Deng</a></td>
+</tr>
+<tr>
+	<td>1.2</td>
+	<td><a href="/group/8">Kuki-Chin</a></td>
+</tr>
+<tr>
+	<td>1.2.1</td>
+	<td><a href="/group/67">Peripheral Chin</a></td>
+</tr>
+<tr>
+	<td>1.2.1.1</td>
+	<td><a href="/group/68">Northern Chin</a></td>
+</tr>
+<tr>
+	<td>1.2.1.2</td>
+	<td><a href="/group/69">Southern Plains Chin</a></td>
+</tr>
+<tr>
+	<td>1.2.2</td>
+	<td><a href="/group/70">Central Chin</a></td>
+</tr>
+<tr>
+	<td>1.2.3</td>
+	<td><a href="/group/71">Maraic</a></td>
+</tr>
+<tr>
+	<td>1.2.4</td>
+	<td><a href="/group/72">“Old Kuki”</a></td>
+</tr>
+<tr>
+	<td>1.3</td>
+	<td><a href="/group/11">“Naga” Areal Group</a></td>
+</tr>
+<tr>
+	<td>1.3.1</td>
+	<td><a href="/group/63">Central Naga (Ao Group)</a></td>
+</tr>
+<tr>
+	<td>1.3.2</td>
+	<td><a href="/group/65">Angami-Pochuri Group</a></td>
+</tr>
+<tr>
+	<td>1.3.3</td>
+	<td><a href="/group/64">Zeme Group</a></td>
+</tr>
+<tr>
+	<td>1.3.4</td>
+	<td><a href="/group/66">Tangkhulic</a></td>
+</tr>
+<tr>
+	<td>1.4</td>
+	<td><a href="/group/13">Meithei</a></td>
+</tr>
+<tr>
+	<td>1.5</td>
+	<td><a href="/group/14">Mikir [Karbi]</a></td>
+</tr>
+<tr>
+	<td>1.6</td>
+	<td><a href="/group/15">Mru</a></td>
+</tr>
+<tr>
+	<td>1.7</td>
+	<td><a href="/group/79">Sal</a></td>
+</tr>
+<tr>
+	<td>1.7.1</td>
+	<td><a href="/group/16">Bodo-Garo</a></td>
+</tr>
+<tr>
+	<td>1.7.1.1</td>
+	<td><a href="/group/80">Bodo</a></td>
+</tr>
+<tr>
+	<td>1.7.1.2</td>
+	<td><a href="/group/81">Garo</a></td>
+</tr>
+<tr>
+	<td>1.7.1.3</td>
+	<td><a href="/group/82">Koch</a></td>
+</tr>
+<tr>
+	<td>1.7.1.4</td>
+	<td><a href="/group/83">Deori</a></td>
+</tr>
+<tr>
+	<td>1.7.2</td>
+	<td><a href="/group/12">Northern Naga/Konyakian</a></td>
+</tr>
+<tr>
+	<td>1.7.2.1</td>
+	<td><a href="/group/84">Tangsa-Nocte</a></td>
+</tr>
+<tr>
+	<td>1.7.2.2</td>
+	<td><a href="/group/85">Konyak-Chang</a></td>
+</tr>
+<tr>
+	<td>1.7.3</td>
+	<td><a href="/group/36">Jingpho-Asakian</a></td>
+</tr>
+<tr>
+	<td>1.7.3.1</td>
+	<td><a href="/group/37">Jingpho</a></td>
+</tr>
+<tr>
+	<td>1.7.3.2</td>
+	<td><a href="/group/40">Asakian</a></td>
+</tr>
+<tr>
+	<td>2</td>
+	<td><a href="/group/18">Himalayish</a></td>
+</tr>
+<tr>
+	<td>2.1</td>
+	<td><a href="/group/19">Tibeto-Kanauri</a></td>
+</tr>
+<tr>
+	<td>2.1.1</td>
+	<td><a href="/group/20">Western Himalayish</a></td>
+</tr>
+<tr>
+	<td>2.1.2</td>
+	<td><a href="/group/22">Bodic</a></td>
+</tr>
+<tr>
+	<td>2.1.2.1</td>
+	<td><a href="/group/24">Tibetan</a></td>
+</tr>
+<tr>
+	<td>2.1.3</td>
+	<td><a href="/group/21">Lepcha</a></td>
+</tr>
+<tr>
+	<td>2.1.4</td>
+	<td><a href="/group/23">Tamangish</a></td>
+</tr>
+<tr>
+	<td>2.1.5</td>
+	<td><a href="/group/60">Dhimal</a></td>
+</tr>
+<tr>
+	<td>2.2</td>
+	<td><a href="/group/27">Newar</a></td>
+</tr>
+<tr>
+	<td>2.3</td>
+	<td><a href="/group/29">Kiranti</a></td>
+</tr>
+<tr>
+	<td>2.3.1</td>
+	<td><a href="/group/31">Eastern Kiranti</a></td>
+</tr>
+<tr>
+	<td>2.3.2</td>
+	<td><a href="/group/76">Southern Kiranti</a></td>
+</tr>
+<tr>
+	<td>2.3.3</td>
+	<td><a href="/group/77">Central Kiranti</a></td>
+</tr>
+<tr>
+	<td>2.3.4</td>
+	<td><a href="/group/30">Western Kiranti</a></td>
+</tr>
+<tr>
+	<td>2.4</td>
+	<td><a href="/group/28">Kham-Magar-Chepang</a></td>
+</tr>
+<tr>
+	<td>3</td>
+	<td><a href="/group/32">Tangut-Qiang</a></td>
+</tr>
+<tr>
+	<td>3.1</td>
+	<td><a href="/group/33">Tangut</a></td>
+</tr>
+<tr>
+	<td>3.2</td>
+	<td><a href="/group/34">Qiangic</a></td>
+</tr>
+<tr>
+	<td>3.3</td>
+	<td><a href="/group/35">rGyalrongic</a></td>
+</tr>
+<tr>
+	<td>3.3.1</td>
+	<td><a href="/group/78">rGyalrong</a></td>
+</tr>
+<tr>
+	<td>4</td>
+	<td><a href="/group/38">Nungic</a></td>
+</tr>
+<tr>
+	<td>5</td>
+	<td><a href="/group/41">Tujia</a></td>
+</tr>
+<tr>
+	<td>6</td>
+	<td><a href="/group/61">Lolo-Burmese-Naxi</a></td>
+</tr>
+<tr>
+	<td>6.1</td>
+	<td><a href="/group/42">Lolo-Burmese</a></td>
+</tr>
+<tr>
+	<td>6.1.1</td>
+	<td><a href="/group/44">Burmish</a></td>
+</tr>
+<tr>
+	<td>6.1.2</td>
+	<td><a href="/group/45">Loloish</a></td>
+</tr>
+<tr>
+	<td>6.1.2.1</td>
+	<td><a href="/group/46">Northern Loloish</a></td>
+</tr>
+<tr>
+	<td>6.1.2.2</td>
+	<td><a href="/group/47">Central Loloish</a></td>
+</tr>
+<tr>
+	<td>6.1.2.3</td>
+	<td><a href="/group/48">Southern Loloish</a></td>
+</tr>
+<tr>
+	<td>6.1.2.4</td>
+	<td><a href="/group/75">Southeastern Loloish</a></td>
+</tr>
+<tr>
+	<td>6.2</td>
+	<td><a href="/group/43">Naxi</a></td>
+</tr>
+<tr>
+	<td>7</td>
+	<td><a href="/group/50">Karenic</a></td>
+</tr>
+<tr>
+	<td>8</td>
+	<td><a href="/group/51">Bai</a></td>
+</tr>
+<tr>
+	<td>9</td>
+	<td><a href="/group/52">Sinitic</a></td>
+</tr>
+<tr>
+	<td>9.0.1</td>
+	<td><a href="/group/53">Old Chinese</a></td>
+</tr>
+<tr>
+	<td>9.0.2</td>
+	<td><a href="/group/54">Middle Chinese</a></td>
+</tr>
+<tr>
+	<td>9.0.3</td>
+	<td><a href="/group/55">Modern Chinese</a></td>
+</tr>
+<tr>
+	<td>X</td>
+	<td><a href="/group/56">Other Languages</a></td>
+</tr>
+<tr>
+	<td>X.1</td>
+	<td><a href="/group/57">Non-TB</a></td>
+</tr>
+<tr>
+	<td>X.1.1</td>
+	<td><a href="/group/62">Indo-Aryan</a></td>
+</tr>
+<tr>
+	<td>X.1.2</td>
+	<td><a href="/group/86">Dravidian</a></td>
+</tr>
+<tr>
+	<td>X.2</td>
+	<td><a href="/group/58">Unknown/Unevaluated</a></td>
+</tr>
+<tr>
+	<td>X.3</td>
+	<td><a href="/group/87">East & Southeast Asia Areal</a></td>
+</tr>
+</table>
+</div>
+<div id="lginfo">
+<p>Languages in <b>0 Sino-Tibetan (previously published reconstructions)</b></p>
+<table>
+<tr>
+	<th>ISO 639-3</th>
+	<th>Language Name</th>
+	<th>Source</th>
+	<th title="Language name from source OR abbreviated name" style="cursor:help;">Short Lg Name</th>
+	<th>num. of records</th>
+	<th title="from Namkung, ed. 1996 (STEDT Monograph #3)" style="cursor:help;">Phon. Inventory</th>
+</tr>
+<tr>
+	<td>n/a</td>
+	<td><a href="/group/1/166" target="_self">*Sino-Tibetan</a></td>
+	<td><a href="/source/JAM-TIL" target="stedt_src">Matisoff 83 TIL</a></td>
+	<td>PST</td>
+	<td><a href="/gnis?lexicon.lgid=166" target="stedt_sss">16</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td>n/a</td>
+	<td><a href="/group/1/1990" target="_self">*Sino-Tibetan</a></td>
+	<td><a href="/source/RJL-DPTB" target="stedt_src">LaPolla 87</a></td>
+	<td>PST</td>
+	<td><a href="/gnis?lexicon.lgid=1990" target="stedt_sss">5</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td>n/a</td>
+	<td><a href="/group/1/164" target="_self">*Sino-Tibetan</a></td>
+	<td><a href="/source/ACST" target="stedt_src">Chou 72</a></td>
+	<td>PST</td>
+	<td><a href="/gnis?lexicon.lgid=164" target="stedt_sss">44</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td>n/a</td>
+	<td><a href="/group/1/167" target="_self">*Sino-Tibetan</a></td>
+	<td><a href="/source/STC" target="stedt_src">Benedict 72 STC</a></td>
+	<td>PST</td>
+	<td><a href="/gnis?lexicon.lgid=167" target="stedt_sss">1</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td>n/a</td>
+	<td><a href="/group/1/165" target="_self">*Sino-Tibetan</a></td>
+	<td><a href="/source/JAM-GSTC" target="stedt_src">Matisoff 85 GSTC</a></td>
+	<td>PST</td>
+	<td><a href="/gnis?lexicon.lgid=165" target="stedt_sss">6</a></td>
+	<td></td>
+</tr>
+<tr>
+	<td>n/a</td>
+	<td><a href="/group/1/168" target="_self">*Sino-Tibetan</a></td>
+	<td><a href="/source/WSC-SH" target="stedt_src">Coblin 86</a></td>
+	<td>ST</td>
+	<td><a href="/gnis?lexicon.lgid=168" target="stedt_sss">494</a></td>
+	<td></td>
+</tr>
+</table>
+</div>
+<script>
+$('lgtree').scrollTop = Math.max(0, $('showme').offsetTop - document.viewport.getHeight()*1/3);
+</script>
+</body>
+</html>

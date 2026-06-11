@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>STEDT side-by-side review — original vs remake</title>
+<style>
+  body { margin: 0; font: 14px/1.4 system-ui, sans-serif; }
+  header { padding: 8px 14px; background: #f4efe4; border-bottom: 1px solid #c9bda0; }
+  header b { margin-right: 10px; }
+  nav { display: flex; flex-wrap: wrap; gap: 4px; padding: 6px 14px; background: #faf7f0; border-bottom: 1px solid #ddd; }
+  nav button { font: 13px system-ui; padding: 3px 9px; border: 1px solid #b9ad90; background: #fff; border-radius: 4px; cursor: pointer; }
+  nav button.on { background: #806326; color: #fff; border-color: #806326; }
+  .why { padding: 5px 14px; color: #555; background: #fffdf7; border-bottom: 1px solid #eee; }
+  .panes { display: flex; height: calc(100vh - 110px); }
+  .panes > div { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+  .panes h2 { margin: 0; font-size: 12px; font-weight: 600; padding: 4px 10px; background: #eee; color: #444;
+              border-bottom: 1px solid #ccc; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  iframe { border: 0; width: 100%; flex: 1; }
+  .panes > div + div { border-left: 2px solid #806326; }
+</style>
+</head>
+<body>
+<header><b>STEDT review</b> original (left) vs remake (right) — pick a case, judge whether the remake reads as “expected”.
+  PARITY.md’s “changed” entries are the agenda; content equality is already machine-checked (stedt dev parity).</header>
+<nav id="nav"></nav>
+<div class="why" id="why"></div>
+<div class="panes">
+  <div><h2 id="lt"></h2><iframe id="lf"></iframe></div>
+  <div><h2 id="rt"></h2><iframe id="rf"></iframe></div>
+</div>
+<script>
+// If the original goes dark, swap ORIG for a local server over pages/ in this directory
+// (the archived copies are raw HTML; serve /tmp/sss/rootcanal/web/js for full client rendering).
+const ORIG = 'https://stedtdb.johnblowe.com';
+// prefer the local build (uncommitted/unpushed work included) over the deployed site
+const LOCAL = 'http://localhost:8730/stedt';
+let OURS = 'https://larc-iu.github.io/stedt';
+fetch(LOCAL + '/', { mode: 'no-cors' }).then(() => { OURS = LOCAL; show(cur); }).catch(() => {});
+const CASES = [
+  ['Etymon, huge', '/etymon/34', '/etymon/34', '#34 *sya-n FLESH/MEAT — 1,200+ reflexes: band grouping, jump links, count handling'],
+  ['Etymon, dense allofams', '/etymon/512', '/etymon/512', '#512 NAIL/CLAW — allofam box vs Connections; mesoroots; the sylLink bug neighbourhood'],
+  ['Etymon, recon-heavy', '/etymon/1', '/etymon/1', '#1 *guŋ BODY — “Previously reconstructed as” vs the raw proto-lect rows'],
+  ['Etymon, provisional', '/etymon/1705', '/etymon/1705', 'provisional (public=0) labeling on both sides'],
+  ['Etymon, long notes', '/etymon/1006', '/etymon/1006', 'note typography: italics, xrefs, quotes, footnotes, U+2011 hyphens (NOTES-09!)'],
+  ['Etymon, alternation', '/etymon/2322', '/etymon/2322', 'protoform star logic on ⪤ alternants'],
+  ['Chapter vs thesaurus', '/chap/1.1.1', '/thesaurus/1.1.1', 'etyma listing: sequence labels (1b vs 1.2), counts, provisional badges'],
+  ['Chapter browser', '/chapters', '/thesaurus', 'full tree vs full tree'],
+  ['Group browser', '/group/2', '/group/2', 'group tree + languages vs the group page'],
+  ['Source, big', '/source/STC', '/source/STC', 'citation, “cite as”, language table vs language list'],
+  ['Source index', '/source', '/sources', 'bibliography: punctuation normalization, ordering, counts'],
+  ['Language view', '/gnis?lexicon.lgid=1079', '/language/1079', 'the original had NO language page — gnis filter vs our language page (Mishing)'],
+  ['Search: gloss', '/gnis?t=dog', '/search?q=dog', 'plain gloss search, result shaping'],
+  ['Search: combo', '/gnis?t=hit&lg=Lotha', '/search?q=hit%20language%3ALotha', 'gloss+language combo'],
+  ['Search: comma-OR', '/gnis?t=frog%2C%20snail', '/search?q=frog%2C%20snail', 'the documented comma idiom (651 rows both sides)'],
+  ['Home', '/', '/', 'splash vs home'],
+];
+const nav = document.getElementById('nav');
+CASES.forEach((c, i) => {
+  const b = document.createElement('button');
+  b.textContent = c[0];
+  b.onclick = () => show(i);
+  nav.appendChild(b);
+});
+let cur = 0;
+function show(i) {
+  cur = i;
+  const [label, l, r, why] = CASES[i];
+  document.getElementById('why').textContent = why;
+  document.getElementById('lt').textContent = ORIG + l;
+  document.getElementById('rt').textContent = OURS + r;
+  document.getElementById('lf').src = ORIG + l;
+  document.getElementById('rf').src = OURS + r;
+  [...nav.children].forEach((b, j) => b.classList.toggle('on', i === j));
+}
+show(0);
+</script>
+</body>
+</html>

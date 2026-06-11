@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>STEDT Database</title>
+	<link rel="stylesheet" href="/styles/rootcanal.css">
+	<link rel="stylesheet" href="/styles/autoSuggest.css">
+	<link rel="stylesheet" href="/styles/opentip.css">
+	<script src="/scriptaculous/lib/prototype.js"></script>
+	<script src="/scriptaculous/src/scriptaculous.js?load=effects,dragdrop,controls"></script>
+	<script src="/js/opentip.js"></script>
+	<script src="/js/excanvas.js"></script>
+	<script src="/js/tablekit.js"></script>
+	<script src="/js/jquery-1.8.0.js"></script>
+	<script src="/js/jquery.autoSuggest.js"></script>
+</head>
+<body>
+<div id="header" style="display:none;">
+<span class="right">
+<img id="spinner" src="/img/spinner.gif" style="display:none;">&nbsp;
+<a href="#" onclick="return vert_tog()"><img title="Rotate View" src="/img/toggle.png" alt="toggle" id="tog-img" border="0"></a>&nbsp;
+<script>
+$.noConflict();
+var baseRef = '/';
+</script>
+<form style="display:none;" id="guest_tools_header" method="post" action="/account/login"><input type="hidden" name="user" value="guest"><input type="hidden" name="pwd" value="guest"><input type="hidden" name="url" value="/admin"></form>
+&nbsp;<a href="#" onclick="$('guest_tools_header').submit();">tools</a>
+&nbsp;&nbsp;<a href="/account/login?url=https://stedtdb.johnblowe.com/gnis?lexicon.lgid=872">log in</a><script>
+var stedtuserprivs = 0;
+$('header').show();
+</script>
+﻿&nbsp;&nbsp;<a href="http://stedt.berkeley.edu/documentation" target="_blank">help</a>
+<script src="/js/stedtconfig.js"></script>
+</span>
+<a href="/" title="Search Home"><img src="/img/splashy32x32.gif" alt="STEDT Logo" width="32" height="32" class="left" border=0></a>
+<b>STEDT Database</b>
+<hr style="clear:both; margin-left:45px">
+</div>
+
+<div id="etyma" class="vert">
+<div class="panetitle">Etyma</div>
+<div align="center">
+<form id="etyma_search" method="post">
+<table>
+<tr><th>proto-form</th><th>proto-gloss</th></tr>
+<tr><td><input type="text" title="Type a proto-form" name="f" id="etyma_searchform" size="15" maxlength="128"></td>
+<td><input name="s" type="text" title="Type an English word" size="20" id="etyma_searchgloss"  maxlength="128"></td>
+<td><input name="btn" type="submit" value="Search"></td></tr></table>
+</form>
+</div>
+<div id="etyma_status"></div>
+<div id="etyma_results"></div>
+
+<table id="etyma_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="etyma.tag">tag</th>
+<th id="num_recs">num_recs</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="etyma.chapter">chapter</th>
+<th id="etyma.sequence">sequence</th>
+<th id="etyma.protoform">protoform</th>
+<th id="etyma.protogloss">protogloss</th>
+<th id="etyma.grpid">grpid</th>
+<th id="languagegroups.plg">plg</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="etyma.notes">notes</th>
+<th id="num_notes">num_notes</th>
+<th id="num_comparanda">num_comparanda</th>
+<th id="etyma.status">status</th>
+<th id="etyma.public">public</th>
+<th id="users.username">username</th>
+</tr></thead>
+<tbody>
+<tr><td>1</td><td>146</td><td>Body</td><td>1.1.1</td><td>2.0</td><td>guŋ</td><td>BODY / BACK</td><td>1</td><td>PST</td><td>0</td><td>STC p.182, GSR, HPTB p.309</td><td>2</td><td>1</td><td>KEEP</td><td>1</td><td>stedt</td></tr>
+</tbody>
+</table>
+
+<div id="addform"></div>
+<div id="debug"></div>
+</div>
+
+<div id="dragger" class="vert"></div>
+
+<div id="lexicon" class="vert">
+<div class="panetitle"><b>Lexicon</b></div>
+<div align="center">
+<form id="lexicon_search" method="post">
+<table>
+<tr><th>form</th><th>gloss</th><th>language</th><th>language group</th></tr>
+<tr><td><input type="text" name="f" title="Type a linguistic form" id="lexicon_searchform" size="24" maxlength="128"></td>
+<td><input name="s" title="Type an English word" type="text" size="24" maxlength="128" id="lexicon_searchgloss"></td>
+<td><input name="lg" title="Type a language name" type="text" size="32" maxlength="96" id="lexicon_searchlg" ></td>
+<td><select name="lggrp" title="Choose a subgroup" id="lexicon_searchlggrp">
+<option selected="selected" value=""></option>
+<option value="0">0 Sino-Tibetan (previously published reconstructions)</option>
+<option value="0.1">0.1 Tibeto-Burman (previously published reconstructions)</option>
+<option value="1">1 NE Indian Areal Group</option>
+<option value="1.1">1.1 “North Assam”</option>
+<option value="1.1.1">1.1.1 Tani</option>
+<option value="1.1.1.1">1.1.1.1 Western Tani</option>
+<option value="1.1.1.2">1.1.1.2 Eastern Tani</option>
+<option value="1.1.2">1.1.2 Deng</option>
+<option value="1.2">1.2 Kuki-Chin</option>
+<option value="1.2.1">1.2.1 Peripheral Chin</option>
+<option value="1.2.1.1">1.2.1.1 Northern Chin</option>
+<option value="1.2.1.2">1.2.1.2 Southern Plains Chin</option>
+<option value="1.2.2">1.2.2 Central Chin</option>
+<option value="1.2.3">1.2.3 Maraic</option>
+<option value="1.2.4">1.2.4 “Old Kuki”</option>
+<option value="1.3">1.3 “Naga” Areal Group</option>
+<option value="1.3.1">1.3.1 Central Naga (Ao Group)</option>
+<option value="1.3.2">1.3.2 Angami-Pochuri Group</option>
+<option value="1.3.3">1.3.3 Zeme Group</option>
+<option value="1.3.4">1.3.4 Tangkhulic</option>
+<option value="1.4">1.4 Meithei</option>
+<option value="1.5">1.5 Mikir [Karbi]</option>
+<option value="1.6">1.6 Mru</option>
+<option value="1.7">1.7 Sal</option>
+<option value="1.7.1">1.7.1 Bodo-Garo</option>
+<option value="1.7.1.1">1.7.1.1 Bodo</option>
+<option value="1.7.1.2">1.7.1.2 Garo</option>
+<option value="1.7.1.3">1.7.1.3 Koch</option>
+<option value="1.7.1.4">1.7.1.4 Deori</option>
+<option value="1.7.2">1.7.2 Northern Naga/Konyakian</option>
+<option value="1.7.2.1">1.7.2.1 Tangsa-Nocte</option>
+<option value="1.7.2.2">1.7.2.2 Konyak-Chang</option>
+<option value="1.7.3">1.7.3 Jingpho-Asakian</option>
+<option value="1.7.3.1">1.7.3.1 Jingpho</option>
+<option value="1.7.3.2">1.7.3.2 Asakian</option>
+<option value="2">2 Himalayish</option>
+<option value="2.1">2.1 Tibeto-Kanauri</option>
+<option value="2.1.1">2.1.1 Western Himalayish</option>
+<option value="2.1.2">2.1.2 Bodic</option>
+<option value="2.1.2.1">2.1.2.1 Tibetan</option>
+<option value="2.1.3">2.1.3 Lepcha</option>
+<option value="2.1.4">2.1.4 Tamangish</option>
+<option value="2.1.5">2.1.5 Dhimal</option>
+<option value="2.2">2.2 Newar</option>
+<option value="2.3">2.3 Kiranti</option>
+<option value="2.3.1">2.3.1 Eastern Kiranti</option>
+<option value="2.3.2">2.3.2 Southern Kiranti</option>
+<option value="2.3.3">2.3.3 Central Kiranti</option>
+<option value="2.3.4">2.3.4 Western Kiranti</option>
+<option value="2.4">2.4 Kham-Magar-Chepang</option>
+<option value="3">3 Tangut-Qiang</option>
+<option value="3.1">3.1 Tangut</option>
+<option value="3.2">3.2 Qiangic</option>
+<option value="3.3">3.3 rGyalrongic</option>
+<option value="3.3.1">3.3.1 rGyalrong</option>
+<option value="4">4 Nungic</option>
+<option value="5">5 Tujia</option>
+<option value="6">6 Lolo-Burmese-Naxi</option>
+<option value="6.1">6.1 Lolo-Burmese</option>
+<option value="6.1.1">6.1.1 Burmish</option>
+<option value="6.1.2">6.1.2 Loloish</option>
+<option value="6.1.2.1">6.1.2.1 Northern Loloish</option>
+<option value="6.1.2.2">6.1.2.2 Central Loloish</option>
+<option value="6.1.2.3">6.1.2.3 Southern Loloish</option>
+<option value="6.1.2.4">6.1.2.4 Southeastern Loloish</option>
+<option value="6.2">6.2 Naxi</option>
+<option value="7">7 Karenic</option>
+<option value="8">8 Bai</option>
+<option value="9">9 Sinitic</option>
+<option value="9.0.1">9.0.1 Old Chinese</option>
+<option value="9.0.2">9.0.2 Middle Chinese</option>
+<option value="9.0.3">9.0.3 Modern Chinese</option>
+<option value="X">X Other Languages</option>
+<option value="X.1">X.1 Non-TB</option>
+<option value="X.1.1">X.1.1 Indo-Aryan</option>
+<option value="X.1.2">X.1.2 Dravidian</option>
+<option value="X.2">X.2 Unknown/Unevaluated</option>
+<option value="X.3">X.3 East & Southeast Asia Areal</option>
+</select>
+</td>
+<td><input name="btn" type="submit" value="Search"><input type="button" name="clear" value="Clear" onclick="this.form.reset(); $('as-values-lg-auto').value='';jQuery('.as-selection-item').remove()"></td></tr></table>
+</form>
+</div>
+<div id="lexicon_status">46 records found.</div>
+<div id="lexicon_results"></div>
+
+<table id="lexicon_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="lexicon.rn">rn</th>
+<th id="analysis">analysis</th>
+<th id="lexicon.reflex">reflex</th>
+<th id="lexicon.gloss">gloss</th>
+<th id="lexicon.gfn">gfn</th>
+<th id="languagenames.lgid">lgid</th>
+<th id="languagenames.language">language</th>
+<th id="languagegroups.grpid">grpid</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="languagegroups.grp">grp</th>
+<th id="citation">citation</th>
+<th id="languagenames.srcabbr">srcabbr</th>
+<th id="lexicon.srcid">srcid</th>
+<th id="lexicon.semkey">semkey</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="num_notes">num_notes</th>
+</tr></thead>
+<tbody>
+<tr><td>29850</td><td>172</td><td>bai</td><td>add to</td><td>v.</td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>107</td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>29851</td><td>172,m</td><td>bai-chhah</td><td>add to</td><td>v.</td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>107</td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>29815</td><td>381</td><td>dai</td><td>pound, as grain</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>102</td><td>6.8</td><td>Striking, hitting verbs</td><td>0</td></tr>
+<tr><td>30103</td><td>5377</td><td>dei</td><td>only; alone</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>148</td><td>7.1.6.1</td><td>Single/part/few</td><td>0</td></tr>
+<tr><td>146238</td><td>3511</td><td>hai</td><td>misrepresent, lie; false, untrue; a lie</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>099</td><td>8.5.10.4</td><td>Falsehood</td><td>0</td></tr>
+<tr><td>29787</td><td>3511,m</td><td>hai-bi</td><td>liar</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>099</td><td>4.2.12.3</td><td>Insulting names</td><td>0</td></tr>
+<tr><td>29789</td><td>3511,m,3511,m</td><td>hai-di-hai-dua</td><td>falsehood</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>099</td><td>8.5.10.4</td><td>Falsehood</td><td>0</td></tr>
+<tr><td>29788</td><td>3511,m</td><td>hai-na</td><td>falsehood</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>099</td><td>8.5.10.4</td><td>Falsehood</td><td>0</td></tr>
+<tr><td>29786</td><td>3511,s,3511,m,s</td><td>hai-pa~hai-tai-pa</td><td>liar</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>099</td><td>4.2.12.3</td><td>Insulting names</td><td>0</td></tr>
+<tr><td>29790</td><td>3511,m</td><td>hai-phia</td><td>guile, deceit</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>099</td><td>8.3.3.4.3</td><td>Deceive</td><td>0</td></tr>
+<tr><td>146207</td><td>2397</td><td>hlei</td><td>more than others; beyond, more than; special</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>058</td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>146286</td><td>3582,m</td><td>hlei-dy</td><td>stair, bridge, ladder; flight of steps</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>133</td><td>5.11.9.3.1</td><td>Internal</td><td>0</td></tr>
+<tr><td>30025</td><td>3582,m</td><td>hlei-ri</td><td>small bridge</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>133</td><td>9.7.2</td><td>Verbs referring to size/shape</td><td>0</td></tr>
+<tr><td>29866</td><td>1187</td><td>hmìa</td><td>face</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>109</td><td>1.2.5</td><td>Face</td><td>0</td></tr>
+<tr><td>146201</td><td>2498</td><td>hnei</td><td>shift, obtain, acquire; have, possess</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>050</td><td>6.21</td><td>Acquisitions</td><td>0</td></tr>
+<tr><td>29774</td><td>434</td><td>hnei</td><td>have cohesion</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>097</td><td>8.2</td><td>Abstract verbs</td><td>0</td></tr>
+<tr><td>30270</td><td>548</td><td>hnei</td><td>copulate</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>172</td><td>1.9.1.1</td><td>Bred</td><td>0</td></tr>
+<tr><td>29827</td><td>1294</td><td>hnia</td><td>pus from a wound, etc.</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>105</td><td>1.8.6.1</td><td>Pus/Gleet</td><td>0</td></tr>
+<tr><td>146319</td><td>5495</td><td>hrai</td><td>plural affix for denoting company, etc.</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>186</td><td>10.4.1.4</td><td>Person, #, gender</td><td>0</td></tr>
+<tr><td>30182</td><td>5764</td><td>kai</td><td>sulfur</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>155</td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>29931</td><td>m,m,5381,m,m,m</td><td>kei o tai a khy te</td><td>come up as far as my house</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>119</td><td>10.0</td><td>Grammatical Words</td><td>0</td></tr>
+<tr><td>29632</td><td>2370</td><td>khei</td><td>bee</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>076</td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>146206</td><td></td><td>lai-pa</td><td>remains, that which is left over</td><td>n</td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>058</td><td>1.1.6.1</td><td>Carcass/Dead Body</td><td>0</td></tr>
+<tr><td>29344</td><td></td><td>mei</td><td>fire</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>047</td><td>3.2.12.2</td><td>Fire, flames, and burnt things</td><td>0</td></tr>
+<tr><td>146263</td><td>283,m</td><td>nai-ny</td><td>not exert self in word and speech</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>113</td><td>1.5.3.2</td><td>Five</td><td>0</td></tr>
+<tr><td>29892</td><td>283,m</td><td>nai-pi</td><td>slowly, leisurely</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>113</td><td>9.1.1</td><td>Adverbial uses</td><td>0</td></tr>
+<tr><td>146262</td><td>283,m,m</td><td>nai-so-so</td><td>loiter; be slow; take things easily</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>113</td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>146218</td><td>2585</td><td>pai</td><td>scattered, disperse; emigrate, migrate</td><td>be v.</td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>077</td><td>6.10.3</td><td>Wide separation - Scatter</td><td>0</td></tr>
+<tr><td>30062</td><td>343</td><td>phei</td><td>leg</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>142</td><td>1.5.7</td><td>Leg</td><td>0</td></tr>
+<tr><td>146285</td><td>279</td><td>rei</td><td>language, tongue, dialect, speech</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>132</td><td>5.8</td><td>Religion</td><td>0</td></tr>
+<tr><td>29860</td><td>5442,576</td><td>sai-i</td><td>rust, rusty</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>108</td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>146259</td><td>5443,m</td><td>sai-kyu</td><td>dipper; ladle...used for dipping up water</td><td>n.</td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>112</td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>30145</td><td>5721,m</td><td>sai-law</td><td>red</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>150</td><td>9.4</td><td>Colors</td><td>0</td></tr>
+<tr><td>29479</td><td>2746,m</td><td>sai-so</td><td>joke, jest, be funny</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>064</td><td>8.5.9</td><td>Jest</td><td>0</td></tr>
+<tr><td>146273</td><td>5381</td><td>tai</td><td>as far as; up to; all the way to; even to; even to the extent of</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>119</td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>29818</td><td>552</td><td>tei</td><td>work; do</td><td>v.</td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>103</td><td>6.1.1</td><td>Affect</td><td>0</td></tr>
+<tr><td>146260</td><td>5443</td><td>thai</td><td>draw out, dip out, ladle out (as water)</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>112</td><td>9.2</td><td>Spatial terms</td><td>0</td></tr>
+<tr><td>29840</td><td>1388,m</td><td>thai-na</td><td>ability</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>106</td><td>8.1</td><td>Abstract Entities</td><td>0</td></tr>
+<tr><td>29841</td><td>1388,m,m</td><td>thai-pa-ki</td><td>talent, aptitude, skill</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>106</td><td>1.10</td><td>Mind</td><td>0</td></tr>
+<tr><td>29329</td><td></td><td>thei</td><td>fruit</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>046</td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>29561</td><td>517</td><td>tlai</td><td>oneself, self</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>071</td><td>4.1</td><td>Pronouns</td><td>0</td></tr>
+<tr><td>30190</td><td>6231</td><td>tlai</td><td>late</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>157</td><td>9.1.1</td><td>Adverbial uses</td><td>0</td></tr>
+<tr><td>30187</td><td></td><td>tlei</td><td>cease, stop, come to an end</td><td>v.</td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>156</td><td>9.5</td><td>Change of state</td><td>0</td></tr>
+<tr><td>29936</td><td>5149</td><td>vai</td><td>guard, look after</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>121</td><td>6.2.2.1</td><td>Assorted action verbs</td><td>0</td></tr>
+<tr><td>30266</td><td></td><td>vai</td><td>hamlet; neighbor</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>170</td><td>9.10.3</td><td>Governable units (towns, parts of towns)</td><td>0</td></tr>
+<tr><td>29631</td><td>2370</td><td>əkha</td><td>bee</td><td></td><td>872</td><td>Lakher [Mara]</td><td>71</td><td>1.2.3</td><td>Maraic</td><td>Matisoff 85 GSTC</td><td>JAM-GSTC</td><td>076</td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<script src="/js/simplesearch.js"></script>
+</body>
+</html>

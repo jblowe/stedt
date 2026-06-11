@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>STEDT Database</title>
+	<link rel="stylesheet" href="/styles/rootcanal.css">
+	<link rel="stylesheet" href="/styles/autoSuggest.css">
+	<link rel="stylesheet" href="/styles/opentip.css">
+	<script src="/scriptaculous/lib/prototype.js"></script>
+	<script src="/scriptaculous/src/scriptaculous.js?load=effects,dragdrop,controls"></script>
+	<script src="/js/opentip.js"></script>
+	<script src="/js/excanvas.js"></script>
+	<script src="/js/tablekit.js"></script>
+	<script src="/js/jquery-1.8.0.js"></script>
+	<script src="/js/jquery.autoSuggest.js"></script>
+</head>
+<body>
+<div id="header" style="display:none;">
+<span class="right">
+<img id="spinner" src="/img/spinner.gif" style="display:none;">&nbsp;
+<a href="#" onclick="return vert_tog()"><img title="Rotate View" src="/img/toggle.png" alt="toggle" id="tog-img" border="0"></a>&nbsp;
+<script>
+$.noConflict();
+var baseRef = '/';
+</script>
+<form style="display:none;" id="guest_tools_header" method="post" action="/account/login"><input type="hidden" name="user" value="guest"><input type="hidden" name="pwd" value="guest"><input type="hidden" name="url" value="/admin"></form>
+&nbsp;<a href="#" onclick="$('guest_tools_header').submit();">tools</a>
+&nbsp;&nbsp;<a href="/account/login?url=https://stedtdb.johnblowe.com/gnis?lexicon.lgid=486">log in</a><script>
+var stedtuserprivs = 0;
+$('header').show();
+</script>
+﻿&nbsp;&nbsp;<a href="http://stedt.berkeley.edu/documentation" target="_blank">help</a>
+<script src="/js/stedtconfig.js"></script>
+</span>
+<a href="/" title="Search Home"><img src="/img/splashy32x32.gif" alt="STEDT Logo" width="32" height="32" class="left" border=0></a>
+<b>STEDT Database</b>
+<hr style="clear:both; margin-left:45px">
+</div>
+
+<div id="etyma" class="vert">
+<div class="panetitle">Etyma</div>
+<div align="center">
+<form id="etyma_search" method="post">
+<table>
+<tr><th>proto-form</th><th>proto-gloss</th></tr>
+<tr><td><input type="text" title="Type a proto-form" name="f" id="etyma_searchform" size="15" maxlength="128"></td>
+<td><input name="s" type="text" title="Type an English word" size="20" id="etyma_searchgloss"  maxlength="128"></td>
+<td><input name="btn" type="submit" value="Search"></td></tr></table>
+</form>
+</div>
+<div id="etyma_status"></div>
+<div id="etyma_results"></div>
+
+<table id="etyma_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="etyma.tag">tag</th>
+<th id="num_recs">num_recs</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="etyma.chapter">chapter</th>
+<th id="etyma.sequence">sequence</th>
+<th id="etyma.protoform">protoform</th>
+<th id="etyma.protogloss">protogloss</th>
+<th id="etyma.grpid">grpid</th>
+<th id="languagegroups.plg">plg</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="etyma.notes">notes</th>
+<th id="num_notes">num_notes</th>
+<th id="num_comparanda">num_comparanda</th>
+<th id="etyma.status">status</th>
+<th id="etyma.public">public</th>
+<th id="users.username">username</th>
+</tr></thead>
+<tbody>
+<tr><td>1</td><td>146</td><td>Body</td><td>1.1.1</td><td>2.0</td><td>guŋ</td><td>BODY / BACK</td><td>1</td><td>PST</td><td>0</td><td>STC p.182, GSR, HPTB p.309</td><td>2</td><td>1</td><td>KEEP</td><td>1</td><td>stedt</td></tr>
+</tbody>
+</table>
+
+<div id="addform"></div>
+<div id="debug"></div>
+</div>
+
+<div id="dragger" class="vert"></div>
+
+<div id="lexicon" class="vert">
+<div class="panetitle"><b>Lexicon</b></div>
+<div align="center">
+<form id="lexicon_search" method="post">
+<table>
+<tr><th>form</th><th>gloss</th><th>language</th><th>language group</th></tr>
+<tr><td><input type="text" name="f" title="Type a linguistic form" id="lexicon_searchform" size="24" maxlength="128"></td>
+<td><input name="s" title="Type an English word" type="text" size="24" maxlength="128" id="lexicon_searchgloss"></td>
+<td><input name="lg" title="Type a language name" type="text" size="32" maxlength="96" id="lexicon_searchlg" ></td>
+<td><select name="lggrp" title="Choose a subgroup" id="lexicon_searchlggrp">
+<option selected="selected" value=""></option>
+<option value="0">0 Sino-Tibetan (previously published reconstructions)</option>
+<option value="0.1">0.1 Tibeto-Burman (previously published reconstructions)</option>
+<option value="1">1 NE Indian Areal Group</option>
+<option value="1.1">1.1 “North Assam”</option>
+<option value="1.1.1">1.1.1 Tani</option>
+<option value="1.1.1.1">1.1.1.1 Western Tani</option>
+<option value="1.1.1.2">1.1.1.2 Eastern Tani</option>
+<option value="1.1.2">1.1.2 Deng</option>
+<option value="1.2">1.2 Kuki-Chin</option>
+<option value="1.2.1">1.2.1 Peripheral Chin</option>
+<option value="1.2.1.1">1.2.1.1 Northern Chin</option>
+<option value="1.2.1.2">1.2.1.2 Southern Plains Chin</option>
+<option value="1.2.2">1.2.2 Central Chin</option>
+<option value="1.2.3">1.2.3 Maraic</option>
+<option value="1.2.4">1.2.4 “Old Kuki”</option>
+<option value="1.3">1.3 “Naga” Areal Group</option>
+<option value="1.3.1">1.3.1 Central Naga (Ao Group)</option>
+<option value="1.3.2">1.3.2 Angami-Pochuri Group</option>
+<option value="1.3.3">1.3.3 Zeme Group</option>
+<option value="1.3.4">1.3.4 Tangkhulic</option>
+<option value="1.4">1.4 Meithei</option>
+<option value="1.5">1.5 Mikir [Karbi]</option>
+<option value="1.6">1.6 Mru</option>
+<option value="1.7">1.7 Sal</option>
+<option value="1.7.1">1.7.1 Bodo-Garo</option>
+<option value="1.7.1.1">1.7.1.1 Bodo</option>
+<option value="1.7.1.2">1.7.1.2 Garo</option>
+<option value="1.7.1.3">1.7.1.3 Koch</option>
+<option value="1.7.1.4">1.7.1.4 Deori</option>
+<option value="1.7.2">1.7.2 Northern Naga/Konyakian</option>
+<option value="1.7.2.1">1.7.2.1 Tangsa-Nocte</option>
+<option value="1.7.2.2">1.7.2.2 Konyak-Chang</option>
+<option value="1.7.3">1.7.3 Jingpho-Asakian</option>
+<option value="1.7.3.1">1.7.3.1 Jingpho</option>
+<option value="1.7.3.2">1.7.3.2 Asakian</option>
+<option value="2">2 Himalayish</option>
+<option value="2.1">2.1 Tibeto-Kanauri</option>
+<option value="2.1.1">2.1.1 Western Himalayish</option>
+<option value="2.1.2">2.1.2 Bodic</option>
+<option value="2.1.2.1">2.1.2.1 Tibetan</option>
+<option value="2.1.3">2.1.3 Lepcha</option>
+<option value="2.1.4">2.1.4 Tamangish</option>
+<option value="2.1.5">2.1.5 Dhimal</option>
+<option value="2.2">2.2 Newar</option>
+<option value="2.3">2.3 Kiranti</option>
+<option value="2.3.1">2.3.1 Eastern Kiranti</option>
+<option value="2.3.2">2.3.2 Southern Kiranti</option>
+<option value="2.3.3">2.3.3 Central Kiranti</option>
+<option value="2.3.4">2.3.4 Western Kiranti</option>
+<option value="2.4">2.4 Kham-Magar-Chepang</option>
+<option value="3">3 Tangut-Qiang</option>
+<option value="3.1">3.1 Tangut</option>
+<option value="3.2">3.2 Qiangic</option>
+<option value="3.3">3.3 rGyalrongic</option>
+<option value="3.3.1">3.3.1 rGyalrong</option>
+<option value="4">4 Nungic</option>
+<option value="5">5 Tujia</option>
+<option value="6">6 Lolo-Burmese-Naxi</option>
+<option value="6.1">6.1 Lolo-Burmese</option>
+<option value="6.1.1">6.1.1 Burmish</option>
+<option value="6.1.2">6.1.2 Loloish</option>
+<option value="6.1.2.1">6.1.2.1 Northern Loloish</option>
+<option value="6.1.2.2">6.1.2.2 Central Loloish</option>
+<option value="6.1.2.3">6.1.2.3 Southern Loloish</option>
+<option value="6.1.2.4">6.1.2.4 Southeastern Loloish</option>
+<option value="6.2">6.2 Naxi</option>
+<option value="7">7 Karenic</option>
+<option value="8">8 Bai</option>
+<option value="9">9 Sinitic</option>
+<option value="9.0.1">9.0.1 Old Chinese</option>
+<option value="9.0.2">9.0.2 Middle Chinese</option>
+<option value="9.0.3">9.0.3 Modern Chinese</option>
+<option value="X">X Other Languages</option>
+<option value="X.1">X.1 Non-TB</option>
+<option value="X.1.1">X.1.1 Indo-Aryan</option>
+<option value="X.1.2">X.1.2 Dravidian</option>
+<option value="X.2">X.2 Unknown/Unevaluated</option>
+<option value="X.3">X.3 East & Southeast Asia Areal</option>
+</select>
+</td>
+<td><input name="btn" type="submit" value="Search"><input type="button" name="clear" value="Clear" onclick="this.form.reset(); $('as-values-lg-auto').value='';jQuery('.as-selection-item').remove()"></td></tr></table>
+</form>
+</div>
+<div id="lexicon_status">519 records found.</div>
+<div id="lexicon_results"></div>
+
+<table id="lexicon_resulttable" class="hangindent sortable resizable" width="100%" style="table-layout:fixed;">
+<thead><tr>
+<th id="lexicon.rn">rn</th>
+<th id="analysis">analysis</th>
+<th id="lexicon.reflex">reflex</th>
+<th id="lexicon.gloss">gloss</th>
+<th id="lexicon.gfn">gfn</th>
+<th id="languagenames.lgid">lgid</th>
+<th id="languagenames.language">language</th>
+<th id="languagegroups.grpid">grpid</th>
+<th id="languagegroups.grpno">grpno</th>
+<th id="languagegroups.grp">grp</th>
+<th id="citation">citation</th>
+<th id="languagenames.srcabbr">srcabbr</th>
+<th id="lexicon.srcid">srcid</th>
+<th id="lexicon.semkey">semkey</th>
+<th id="chapters.chaptertitle">chaptertitle</th>
+<th id="num_notes">num_notes</th>
+</tr></thead>
+<tbody>
+<tr><td>251246</td><td></td><td>-che</td><td>to</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>236641</td><td></td><td>-lu</td><td>at</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.0</td><td>Grammatical Words</td><td>0</td></tr>
+<tr><td>240993</td><td></td><td>akan-koti</td><td>fell</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.1.1.4.2</td><td>Fall</td><td>0</td></tr>
+<tr><td>245118</td><td>bIndic</td><td>am</td><td>mango</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>254809</td><td></td><td>anu</td><td>son</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.7.3</td><td>Later generation</td><td>0</td></tr>
+<tr><td>254337</td><td></td><td>apo</td><td>father</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.7.1</td><td>Previous generation</td><td>0</td></tr>
+<tr><td>254610</td><td></td><td>azu</td><td>mother</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.7.1</td><td>Previous generation</td><td>0</td></tr>
+<tr><td>257755</td><td>3599</td><td>ba</td><td>sit</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.1.1.4.1</td><td>Sit</td><td>0</td></tr>
+<tr><td>240351</td><td></td><td>bade</td><td>drum</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>237985</td><td></td><td>bakos</td><td>box</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>238769</td><td></td><td>baro</td><td>chair</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.9.4</td><td>Furnishings</td><td>0</td></tr>
+<tr><td>237141</td><td></td><td>batü</td><td>bean</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.4</td><td>Seeds and flowers, nuts</td><td>0</td></tr>
+<tr><td>238991</td><td></td><td>bavü</td><td>clock</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.9.4</td><td>Furnishings</td><td>0</td></tr>
+<tr><td>244579</td><td></td><td>bi</td><td>like (as)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.1.1</td><td>Like</td><td>0</td></tr>
+<tr><td>172090</td><td>3450</td><td>bo</td><td>kiss</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.3.2.2</td><td>Kiss</td><td>0</td></tr>
+<tr><td>239074</td><td></td><td>bola</td><td>coat</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.8.2.1.2</td><td>Upper body</td><td>0</td></tr>
+<tr><td>237888</td><td></td><td>bü</td><td>boil</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.6</td><td>Verbs requiring liquids</td><td>0</td></tr>
+<tr><td>250475</td><td></td><td>cha</td><td>tea</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.1</td><td>Names of trees and shrubs</td><td>0</td></tr>
+<tr><td>243149</td><td>1612</td><td>che</td><td>house</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.9.1</td><td>Kinds of dwellings</td><td>0</td></tr>
+<tr><td>249231</td><td></td><td>che</td><td>shoot</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.1</td><td>Assorted action verbs</td><td>0</td></tr>
+<tr><td>248126</td><td></td><td>chebü</td><td>room</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.9.2</td><td>Rooms</td><td>0</td></tr>
+<tr><td>241164</td><td></td><td>chedü</td><td>fig</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>240221</td><td></td><td>chekha</td><td>door</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.9.3</td><td>Parts of the structure</td><td>0</td></tr>
+<tr><td>236948</td><td></td><td>chekho</td><td>basket (generic)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>250556</td><td></td><td>chekhro</td><td>tear</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.8.8.1</td><td>Laugh/Smile</td><td>0</td></tr>
+<tr><td>248095</td><td></td><td>chela</td><td>roof</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.9</td><td>Dwellings</td><td>0</td></tr>
+<tr><td>241386</td><td></td><td>chelha</td><td>floor</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.9.3</td><td>Parts of the structure</td><td>0</td></tr>
+<tr><td>246462</td><td></td><td>cheta</td><td>outside</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.2.7</td><td>Extent</td><td>0</td></tr>
+<tr><td>244027</td><td></td><td>chezü</td><td>land</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.5</td><td>Landforms and geographical features</td><td>0</td></tr>
+<tr><td>258705</td><td></td><td>chezü</td><td>earth</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.11</td><td>Ground/Earth/Soil/Dirt</td><td>0</td></tr>
+<tr><td>260386</td><td></td><td>chezü</td><td>world</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.10.2</td><td>Waterways/Having to do with water</td><td>0</td></tr>
+<tr><td>258952</td><td></td><td>chezüthu</td><td>hill</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.5</td><td>Landforms and geographical features</td><td>0</td></tr>
+<tr><td>259230</td><td></td><td>chezüthu</td><td>mountain</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.5</td><td>Landforms and geographical features</td><td>0</td></tr>
+<tr><td>239225</td><td></td><td>cho</td><td>cook</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.5</td><td>Cooking Implements</td><td>0</td></tr>
+<tr><td>241573</td><td></td><td>cho</td><td>food</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.5</td><td>Cooking Implements</td><td>0</td></tr>
+<tr><td>255317</td><td></td><td>cho</td><td>ant (generic)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>238893</td><td></td><td>da</td><td>choose</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.10.4</td><td>Intentional separation - Sort</td><td>0</td></tr>
+<tr><td>258329</td><td></td><td>da</td><td>four</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>239602</td><td></td><td>daküthü</td><td>cut (generic)</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.9.3</td><td>Chop, slice</td><td>0</td></tr>
+<tr><td>243197</td><td></td><td>dibin</td><td>how</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1</td><td>Ontological</td><td>0</td></tr>
+<tr><td>252764</td><td></td><td>diche</td><td>where?</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.5.3</td><td>WH words</td><td>0</td></tr>
+<tr><td>252720</td><td></td><td>diküthiche</td><td>when?</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.5.3</td><td>WH words</td><td>0</td></tr>
+<tr><td>252765</td><td></td><td>dipüche</td><td>where?</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.5.3</td><td>WH words</td><td>0</td></tr>
+<tr><td>252907</td><td></td><td>dipüla</td><td>why?</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.5.3</td><td>WH words</td><td>0</td></tr>
+<tr><td>252675</td><td></td><td>di◦pü</td><td>what?</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.5.3</td><td>WH words</td><td>0</td></tr>
+<tr><td>239871</td><td></td><td>do</td><td>deceive</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.3.4.3.2</td><td>Negative</td><td>0</td></tr>
+<tr><td>243672</td><td></td><td>dokhri</td><td>kill</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.4</td><td>Harm</td><td>0</td></tr>
+<tr><td>244617</td><td></td><td>dotsüne</td><td>little</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.7.2</td><td>Verbs referring to size/shape</td><td>0</td></tr>
+<tr><td>238501</td><td></td><td>eli</td><td>but</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.0</td><td>Grammatical Words</td><td>0</td></tr>
+<tr><td>172605</td><td></td><td>eromi</td><td>spirit</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.8.1.1</td><td>Deities/Spiritual Beings</td><td>0</td></tr>
+<tr><td>252048</td><td></td><td>gade</td><td>vegetable</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.2</td><td>Plant parts and types</td><td>0</td></tr>
+<tr><td>245561</td><td></td><td>gakre</td><td>mustard</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.4</td><td>Seeds and flowers, nuts</td><td>0</td></tr>
+<tr><td>239560</td><td></td><td>ganyo</td><td>curry</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.6</td><td>Extracts and processed forms</td><td>0</td></tr>
+<tr><td>249133</td><td></td><td>gide</td><td>shield</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.15</td><td>War and violence</td><td>0</td></tr>
+<tr><td>256562</td><td>6023</td><td>gura</td><td>horse</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.7</td><td>Equine</td><td>0</td></tr>
+<tr><td>257028</td><td></td><td>hetulu</td><td>owl</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.4.1</td><td>Particular birds</td><td>0</td></tr>
+<tr><td>242801</td><td></td><td>hiche</td><td>here</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.2.3</td><td>Sideways</td><td>0</td></tr>
+<tr><td>258291</td><td></td><td>hie◦da</td><td>forty</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>258181</td><td>m,1306</td><td>hie◦püngu</td><td>fifty</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>165545</td><td>m,p,2505</td><td>hie◦thu◦na</td><td>seventy</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>258079</td><td></td><td>hie◦tütha</td><td>eighty</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>250987</td><td></td><td>hihi</td><td>this</td><td>adj</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.4.3.2</td><td>Demonstrators</td><td>0</td></tr>
+<tr><td>253752</td><td></td><td>i</td><td>I</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.1</td><td>Pronouns</td><td>0</td></tr>
+<tr><td>244405</td><td>p,71</td><td>ke◦rhü</td><td>life</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.2.1</td><td>Life/Live/Alive</td><td>0</td></tr>
+<tr><td>257588</td><td></td><td>kha</td><td>shut</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.6.2</td><td>Close</td><td>0</td></tr>
+<tr><td>238235</td><td></td><td>khade</td><td>brinjal (bengan, eggplant)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>253003</td><td></td><td>kharki</td><td>window</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.9.3</td><td>Parts of the structure</td><td>0</td></tr>
+<tr><td>246393</td><td></td><td>khasü</td><td>order</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.5.1</td><td>Scold</td><td>0</td></tr>
+<tr><td>246552</td><td></td><td>khasü</td><td>pay</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.22</td><td>Exchanges</td><td>0</td></tr>
+<tr><td>250444</td><td></td><td>khazhonu</td><td>tax</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.9</td><td>Monetary Terms</td><td>0</td></tr>
+<tr><td>250288</td><td></td><td>khi</td><td>take</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.21</td><td>Acquisitions</td><td>0</td></tr>
+<tr><td>243002</td><td></td><td>khiyi</td><td>hold</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.16</td><td>Holding</td><td>0</td></tr>
+<tr><td>236515</td><td></td><td>kho</td><td>ascend</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.7</td><td>Up, etc.</td><td>0</td></tr>
+<tr><td>237003</td><td></td><td>khodü</td><td>basket (back, woman's)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>256706</td><td>2308,m,m</td><td>kho◦r◦hanu</td><td>leopard</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.3</td><td>Feline</td><td>0</td></tr>
+<tr><td>238541</td><td>2137</td><td>khri</td><td>buy</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.22</td><td>Exchanges</td><td>0</td></tr>
+<tr><td>246333</td><td></td><td>khri</td><td>open</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.6.1</td><td>Open</td><td>0</td></tr>
+<tr><td>259162</td><td>5404</td><td>khri</td><td>moon</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.2</td><td>Planets/Meteorological objects/Sky</td><td>0</td></tr>
+<tr><td>244860</td><td>1645</td><td>khrü</td><td>love</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.1.1</td><td>Like</td><td>0</td></tr>
+<tr><td>252430</td><td>2344</td><td>khrü</td><td>wash (self)</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.5.2</td><td>Wash (v.i./v.t.)</td><td>0</td></tr>
+<tr><td>242771</td><td></td><td>khrühi</td><td>help</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.1</td><td>Assorted action verbs</td><td>0</td></tr>
+<tr><td>247299</td><td></td><td>khu</td><td>push</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.3.1</td><td>Push</td><td>0</td></tr>
+<tr><td>256249</td><td></td><td>khu</td><td>fish</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.5</td><td>Fish and Mollusks</td><td>0</td></tr>
+<tr><td>245822</td><td></td><td>khumakhwü</td><td>net</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.5.4</td><td>Workshop use/Equipment</td><td>0</td></tr>
+<tr><td>259200</td><td></td><td>khüshwü</td><td>morning</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.1.4</td><td>Times of Day</td><td>0</td></tr>
+<tr><td>247818</td><td></td><td>khutsü</td><td>rice (cooked)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.4</td><td>Seeds and flowers, nuts</td><td>0</td></tr>
+<tr><td>243963</td><td></td><td>khüyho</td><td>lame</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.12</td><td>Lame/Limp</td><td>0</td></tr>
+<tr><td>239007</td><td></td><td>khwü</td><td>cloth</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>247491</td><td></td><td>khwü</td><td>rake</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>252192</td><td></td><td>khwü</td><td>wait</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.1.1.6</td><td>Wait</td><td>0</td></tr>
+<tr><td>239046</td><td></td><td>khwükra</td><td>clothes</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.8.2.1</td><td>Clothes (general)</td><td>0</td></tr>
+<tr><td>239900</td><td></td><td>kiri</td><td>descend</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.8</td><td>Downward</td><td>0</td></tr>
+<tr><td>256404</td><td>2303</td><td>ko</td><td>grasshopper</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>256772</td><td>2303</td><td>ko</td><td>locust</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>239460</td><td>1103</td><td>kra</td><td>cry (weep)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.8.8.2</td><td>Cry/Weep</td><td>0</td></tr>
+<tr><td>240308</td><td></td><td>kra</td><td>drink</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>258402</td><td>2258</td><td>kra</td><td>hundred</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>240733</td><td></td><td>kri</td><td>fall</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.1.1.4.2</td><td>Fall</td><td>0</td></tr>
+<tr><td>249762</td><td></td><td>küche</td><td>spoon</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.5</td><td>Cooking Implements</td><td>0</td></tr>
+<tr><td>243739</td><td></td><td>küdema</td><td>king</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.2.5</td><td>Nobility</td><td>0</td></tr>
+<tr><td>242973</td><td></td><td>küdi</td><td>hoe</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.3</td><td>Diseases</td><td>0</td></tr>
+<tr><td>246884</td><td></td><td>küdi</td><td>poor</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.2.2</td><td>Negative Human Qualities</td><td>0</td></tr>
+<tr><td>246149</td><td></td><td>kügwü</td><td>old (of things)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.8.3</td><td>Neutral term</td><td>0</td></tr>
+<tr><td>240646</td><td></td><td>kühothi</td><td>every</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>247944</td><td></td><td>kükha</td><td>ring (finger ring)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.8.3</td><td>Jewelry and Accessories</td><td>0</td></tr>
+<tr><td>246427</td><td></td><td>kükre</td><td>other</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.1</td><td>Abstract Entities</td><td>0</td></tr>
+<tr><td>237315</td><td></td><td>kükrenamoli</td><td>because</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1.2.2</td><td>Subordination</td><td>0</td></tr>
+<tr><td>245141</td><td></td><td>kükro</td><td>many</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>248460</td><td></td><td>külayiti</td><td>save</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.1</td><td>Assorted action verbs</td><td>0</td></tr>
+<tr><td>240923</td><td></td><td>külu</td><td>fat</td><td>adj</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.6.4</td><td>Fat/Be Fat</td><td>0</td></tr>
+<tr><td>243105</td><td></td><td>külü</td><td>hot</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>172479</td><td></td><td>kümhathi</td><td>sick</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.5.1</td><td>Sick/Hurt/Ache</td><td>0</td></tr>
+<tr><td>258526</td><td></td><td>kümhü</td><td>cloud</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.1</td><td>Weather and seasons</td><td>0</td></tr>
+<tr><td>255217</td><td></td><td>kümüga</td><td>white</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.4</td><td>Colors</td><td>0</td></tr>
+<tr><td>255257</td><td></td><td>kümühü</td><td>yellow</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.4</td><td>Colors</td><td>0</td></tr>
+<tr><td>239105</td><td></td><td>kümüko</td><td>cold</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.2.3</td><td>Temperature</td><td>0</td></tr>
+<tr><td>247204</td><td></td><td>kümüko</td><td>proud</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3</td><td>Psychological verbs</td><td>0</td></tr>
+<tr><td>247437</td><td></td><td>kümükrethi</td><td>quiet</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.8.3</td><td>Neutral term</td><td>0</td></tr>
+<tr><td>241601</td><td></td><td>kümüloma</td><td>fool</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.2.12.3</td><td>Insulting names</td><td>0</td></tr>
+<tr><td>245696</td><td></td><td>kümüno</td><td>near</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.2.3</td><td>Sideways</td><td>0</td></tr>
+<tr><td>240815</td><td></td><td>kümüprü</td><td>far</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.2.4</td><td>Apart</td><td>0</td></tr>
+<tr><td>238923</td><td></td><td>kümüsa</td><td>clean</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.5.2</td><td>Wash (v.i./v.t.)</td><td>0</td></tr>
+<tr><td>242722</td><td></td><td>kümüshwi</td><td>heavy</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.2</td><td>Negative Qualities</td><td>0</td></tr>
+<tr><td>239812</td><td></td><td>kümüsü</td><td>deep</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.5.3</td><td>Position - high/low</td><td>0</td></tr>
+<tr><td>250526</td><td></td><td>kümütha</td><td>teacher</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.19</td><td>Social action</td><td>0</td></tr>
+<tr><td>240518</td><td></td><td>kümüthu</td><td>empty</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.2.1</td><td>Quantity - general</td><td>0</td></tr>
+<tr><td>241844</td><td></td><td>kümütü</td><td>full</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.3.2</td><td>Satiated/Full/Enough</td><td>0</td></tr>
+<tr><td>255143</td><td></td><td>kümüzho</td><td>green</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.4</td><td>Colors</td><td>0</td></tr>
+<tr><td>249972</td><td></td><td>kümüzi</td><td>straight</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.5.1</td><td>General - form</td><td>0</td></tr>
+<tr><td>248611</td><td></td><td>künao</td><td>second</td><td>adj</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>255013</td><td></td><td>künatsi</td><td>young</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.8.3</td><td>Neutral term</td><td>0</td></tr>
+<tr><td>250169</td><td></td><td>küngu</td><td>sweet</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.4.4</td><td>Taste</td><td>0</td></tr>
+<tr><td>237567</td><td></td><td>künye</td><td>big</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.7.2</td><td>Verbs referring to size/shape</td><td>0</td></tr>
+<tr><td>257894</td><td></td><td>künyi</td><td>small</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.7.2</td><td>Verbs referring to size/shape</td><td>0</td></tr>
+<tr><td>246188</td><td></td><td>küpethi</td><td>old (of persons)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.8.3</td><td>Neutral term</td><td>0</td></tr>
+<tr><td>257654</td><td></td><td>küphoma</td><td>sin</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.8.3.1</td><td>Religious Events</td><td>0</td></tr>
+<tr><td>240922</td><td></td><td>küpü</td><td>fat</td><td>adj</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.6.4</td><td>Fat/Be Fat</td><td>0</td></tr>
+<tr><td>245495</td><td></td><td>küpü</td><td>much</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.2.1</td><td>Quantity - general</td><td>0</td></tr>
+<tr><td>236846</td><td></td><td>küra</td><td>bamboo</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.1</td><td>Names of trees and shrubs</td><td>0</td></tr>
+<tr><td>258220</td><td></td><td>kürao</td><td>first</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>240033</td><td></td><td>kürho</td><td>dirty</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.11</td><td>Ground/Earth/Soil/Dirt</td><td>0</td></tr>
+<tr><td>258369</td><td></td><td>kürida</td><td>fourteen</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>258115</td><td></td><td>küripükri</td><td>eleven</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>258048</td><td></td><td>kürithütha</td><td>eighteen</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>258150</td><td>m,1306</td><td>küri◦püngu</td><td>fifteen</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>311297</td><td>m,p,2505</td><td>küri◦thü◦na</td><td>seventeen</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>239967</td><td></td><td>küru</td><td>difficult</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.2</td><td>Negative Qualities</td><td>0</td></tr>
+<tr><td>250847</td><td></td><td>kürü</td><td>thin</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.7.2</td><td>Verbs referring to size/shape</td><td>0</td></tr>
+<tr><td>259568</td><td></td><td>kürü</td><td>river</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.3</td><td>Water and other liquids</td><td>0</td></tr>
+<tr><td>240857</td><td></td><td>kürükri</td><td>fast (quick)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>242881</td><td></td><td>kürükrü</td><td>high</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.5.3</td><td>Position - high/low</td><td>0</td></tr>
+<tr><td>250379</td><td></td><td>kürükrü</td><td>tall</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.7.2</td><td>Verbs referring to size/shape</td><td>0</td></tr>
+<tr><td>257867</td><td></td><td>kürüle</td><td>slow</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.2.1</td><td>Negative Qualities</td><td>0</td></tr>
+<tr><td>240488</td><td></td><td>kürüyi</td><td>easy</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>245881</td><td>2651</td><td>küsa</td><td>new</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>236760</td><td></td><td>küso</td><td>bad</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.2.1</td><td>Negative Qualities</td><td>0</td></tr>
+<tr><td>240379</td><td></td><td>küso</td><td>dry</td><td>adj</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.6</td><td>Verbs requiring liquids</td><td>0</td></tr>
+<tr><td>247047</td><td></td><td>küsü</td><td>prepare</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.14</td><td>Construction</td><td>0</td></tr>
+<tr><td>243788</td><td></td><td>kutari</td><td>knife</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.5</td><td>Cooking Implements</td><td>0</td></tr>
+<tr><td>252526</td><td></td><td>küthathi</td><td>weak</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.5</td><td>Strength</td><td>0</td></tr>
+<tr><td>249903</td><td></td><td>küthü</td><td>stick</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.2</td><td>Plant parts and types</td><td>0</td></tr>
+<tr><td>238074</td><td></td><td>küthüpu</td><td>brave</td><td>adj</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>259964</td><td></td><td>kütsü</td><td>stone</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.9</td><td>Rocks and minerals</td><td>0</td></tr>
+<tr><td>239844</td><td></td><td>kütü</td><td>dear (expensive)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>255103</td><td></td><td>kütü</td><td>black</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.4</td><td>Colors</td><td>0</td></tr>
+<tr><td>244482</td><td></td><td>küve</td><td>light (bright)</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.11.1</td><td>Light</td><td>0</td></tr>
+<tr><td>241990</td><td></td><td>küvü</td><td>ginger</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>237566</td><td></td><td>küzho</td><td>big</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.7.2</td><td>Verbs referring to size/shape</td><td>0</td></tr>
+<tr><td>242371</td><td></td><td>küzho</td><td>great</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1</td><td>Positive/Desirable qualities</td><td>0</td></tr>
+<tr><td>239767</td><td></td><td>küzü</td><td>dark</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.4</td><td>Colors</td><td>0</td></tr>
+<tr><td>251379</td><td></td><td>küzün</td><td>together</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>247174</td><td></td><td>küzüthi</td><td>prison</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.9.1</td><td>Kinds of dwellings</td><td>0</td></tr>
+<tr><td>249507</td><td>m,2338</td><td>kü◦khro</td><td>sour</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.4.4</td><td>Taste</td><td>0</td></tr>
+<tr><td>237763</td><td>p,229</td><td>kü◦khu</td><td>bitter</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.4.4</td><td>Taste</td><td>0</td></tr>
+<tr><td>172661</td><td></td><td>kü◦ku</td><td>strong</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>247979</td><td>m,2449</td><td>kü◦mü</td><td>ripe</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.10</td><td>Verbs involving plants</td><td>0</td></tr>
+<tr><td>240705</td><td>p,1381</td><td>kü◦mülü</td><td>faith</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.15</td><td>Awe</td><td>0</td></tr>
+<tr><td>243234</td><td></td><td>kü◦müri</td><td>hungry</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.3</td><td>Hungry</td><td>0</td></tr>
+<tr><td>255176</td><td></td><td>kü◦mü◦re</td><td>red</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.4</td><td>Colors</td><td>0</td></tr>
+<tr><td>248200</td><td>p,659</td><td>kü◦ro</td><td>rope</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.4</td><td>Rope</td><td>0</td></tr>
+<tr><td>242219</td><td></td><td>kü◦ve</td><td>good</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>247721</td><td>m,2774,m</td><td>la◦vo◦ri</td><td>return (come back)</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.1</td><td>Assorted action verbs</td><td>0</td></tr>
+<tr><td>172177</td><td></td><td>lepraküthimi</td><td>leper</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.2.7</td><td>Challenged</td><td>0</td></tr>
+<tr><td>243939</td><td></td><td>levü</td><td>ladle</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.5</td><td>Cooking Implements</td><td>0</td></tr>
+<tr><td>247785</td><td></td><td>lhako</td><td>rice (uncooked)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.4</td><td>Seeds and flowers, nuts</td><td>0</td></tr>
+<tr><td>245183</td><td></td><td>lhethothi</td><td>market</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.10.6</td><td>Functional buildings/places</td><td>0</td></tr>
+<tr><td>251105</td><td></td><td>lhu</td><td>throw</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.12</td><td>Throwing</td><td>0</td></tr>
+<tr><td>254773</td><td></td><td>lipü</td><td>sister (younger)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.7.2</td><td>Same generation</td><td>0</td></tr>
+<tr><td>246610</td><td></td><td>lisiküthosü</td><td>pen</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>237920</td><td></td><td>li◦sida</td><td>book</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>257685</td><td></td><td>li◦tho</td><td>sing</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>240610</td><td></td><td>lü</td><td>enter</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.1</td><td>Inward</td><td>0</td></tr>
+<tr><td>243079</td><td></td><td>lü</td><td>hope</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.7.1</td><td>Positive</td><td>0</td></tr>
+<tr><td>243336</td><td></td><td>lü</td><td>in</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>250925</td><td></td><td>lü</td><td>think</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.13.1</td><td>Think</td><td>0</td></tr>
+<tr><td>253185</td><td></td><td>lü</td><td>within</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>257441</td><td></td><td>lüle</td><td>squirrel</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.1</td><td>Rodents</td><td>0</td></tr>
+<tr><td>242268</td><td></td><td>lümu</td><td>gourd</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.6.4</td><td>Building, Non-edible</td><td>0</td></tr>
+<tr><td>241756</td><td></td><td>lün</td><td>from</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>241572</td><td></td><td>lüva</td><td>food</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.5</td><td>Cooking Implements</td><td>0</td></tr>
+<tr><td>240282</td><td></td><td>ma</td><td>dream</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.4.2</td><td>Dream</td><td>0</td></tr>
+<tr><td>258842</td><td></td><td>me</td><td>fire</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.12.2</td><td>Fire, flames, and burnt things</td><td>0</td></tr>
+<tr><td>259540</td><td></td><td>merü◦zho</td><td>rainbow</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.1</td><td>Weather and seasons</td><td>0</td></tr>
+<tr><td>255790</td><td></td><td>metho</td><td>cattle</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.2</td><td>Bovine</td><td>0</td></tr>
+<tr><td>255916</td><td></td><td>metho</td><td>cow</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.2</td><td>Bovine</td><td>0</td></tr>
+<tr><td>255699</td><td></td><td>methone</td><td>calf (of cow)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.7</td><td>Leg</td><td>0</td></tr>
+<tr><td>250264</td><td></td><td>mez</td><td>table</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.9.4</td><td>Furnishings</td><td>0</td></tr>
+<tr><td>238789</td><td></td><td>mezhikhra</td><td>charcoal</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>243294</td><td></td><td>mhachen</td><td>if</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1.2.2</td><td>Subordination</td><td>0</td></tr>
+<tr><td>243770</td><td></td><td>mhachoche</td><td>kitchen</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.5</td><td>Cooking Implements</td><td>0</td></tr>
+<tr><td>247885</td><td></td><td>mhaküne</td><td>rich</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.9</td><td>Monetary Terms</td><td>0</td></tr>
+<tr><td>250888</td><td></td><td>mhasü</td><td>thing</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.1</td><td>Abstract Entities</td><td>0</td></tr>
+<tr><td>253367</td><td></td><td>mhatho</td><td>work</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.1.1</td><td>Affect</td><td>0</td></tr>
+<tr><td>237417</td><td></td><td>mhuzü</td><td>before</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.1.5</td><td>Other Intervals</td><td>0</td></tr>
+<tr><td>171642</td><td>682,1401</td><td>mhü◦che</td><td>blind</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.6.14.2</td><td>Blind</td><td>0</td></tr>
+<tr><td>246659</td><td></td><td>mi</td><td>person</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.5</td><td>Other Collective terms</td><td>0</td></tr>
+<tr><td>245034</td><td>1002,m</td><td>mi◦pün</td><td>man (male)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.9.6.1</td><td>Pregnant</td><td>0</td></tr>
+<tr><td>246000</td><td></td><td>mo</td><td>not</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.3.2</td><td>Five</td><td>0</td></tr>
+<tr><td>245530</td><td></td><td>mozesu</td><td>must</td><td>modal</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.2</td><td>Abstract verbs</td><td>0</td></tr>
+<tr><td>236317</td><td></td><td>mu</td><td>and</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1.2.1</td><td>Compound</td><td>0</td></tr>
+<tr><td>237727</td><td></td><td>müche</td><td>bite</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.3.4.4</td><td>Bite/Hold in Mouth</td><td>0</td></tr>
+<tr><td>236988</td><td></td><td>mükho</td><td>basket (back, man's)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>256127</td><td></td><td>mükhro</td><td>dove</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.4.1</td><td>Particular birds</td><td>0</td></tr>
+<tr><td>259891</td><td></td><td>mükhrocho</td><td>south</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.2.8</td><td>Directions</td><td>0</td></tr>
+<tr><td>240071</td><td></td><td>mükhu</td><td>dish</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.5</td><td>Cooking Implements</td><td>0</td></tr>
+<tr><td>246779</td><td></td><td>mükhu</td><td>plate</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.5</td><td>Cooking Implements</td><td>0</td></tr>
+<tr><td>245306</td><td></td><td>mükhuba</td><td>mend</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.15</td><td>Repair</td><td>0</td></tr>
+<tr><td>238808</td><td></td><td>müle</td><td>cheap</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.9</td><td>Monetary Terms</td><td>0</td></tr>
+<tr><td>239689</td><td></td><td>mülophe</td><td>dance</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.9</td><td>Manner is primary</td><td>0</td></tr>
+<tr><td>237487</td><td>1381</td><td>mülü</td><td>believe</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.12.1</td><td>Know, Believe</td><td>0</td></tr>
+<tr><td>257795</td><td></td><td>müne</td><td>skirt</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.8.2.1</td><td>Clothes (general)</td><td>0</td></tr>
+<tr><td>240466</td><td></td><td>münye</td><td>earring</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.8.3</td><td>Jewelry and Accessories</td><td>0</td></tr>
+<tr><td>255540</td><td></td><td>müra</td><td>bird</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.4</td><td>Birds (in general)</td><td>0</td></tr>
+<tr><td>236987</td><td></td><td>mürha</td><td>basket (back, man's)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>259379</td><td></td><td>müsocho</td><td>north</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.2.8</td><td>Directions</td><td>0</td></tr>
+<tr><td>258440</td><td></td><td>müsügi</td><td>brass</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>256660</td><td></td><td>müsürü</td><td>jackal</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.11</td><td>Canine</td><td>0</td></tr>
+<tr><td>250414</td><td></td><td>mütha</td><td>taste</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.3.5.8</td><td>Eat/Devour</td><td>0</td></tr>
+<tr><td>250496</td><td></td><td>mütha</td><td>teach</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.19</td><td>Social action</td><td>0</td></tr>
+<tr><td>259638</td><td>2747</td><td>mütsa</td><td>salt</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>245465</td><td></td><td>mütü</td><td>move</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.11</td><td>Movement (general)</td><td>0</td></tr>
+<tr><td>252871</td><td></td><td>mütü</td><td>whole</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.6.2</td><td>Accompanied/whole/many</td><td>0</td></tr>
+<tr><td>250591</td><td></td><td>müza</td><td>thank</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.5.11</td><td>Formulaic</td><td>0</td></tr>
+<tr><td>255488</td><td>p,2370</td><td>mü◦khwi</td><td>bee</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>256495</td><td>p,2370,1631</td><td>mü◦khwi◦zü</td><td>honey</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>240953</td><td></td><td>mü◦prü</td><td>fear</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.10.1</td><td>Fear</td><td>0</td></tr>
+<tr><td>241540</td><td>m,2801</td><td>mü◦zwi</td><td>follow</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.10</td><td>Move with something else</td><td>0</td></tr>
+<tr><td>240893</td><td></td><td>mvovo</td><td>fast</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>260073</td><td></td><td>nache</td><td>sun</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.10</td><td>Light or lack of light</td><td>0</td></tr>
+<tr><td>260289</td><td></td><td>nachekükricho</td><td>west</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.2.8</td><td>Directions</td><td>0</td></tr>
+<tr><td>255728</td><td></td><td>nalü</td><td>cat</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.3</td><td>Feline</td><td>0</td></tr>
+<tr><td>255727</td><td></td><td>nanu</td><td>cat</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.3</td><td>Feline</td><td>0</td></tr>
+<tr><td>258776</td><td></td><td>nathocho</td><td>east</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.2.8</td><td>Directions</td><td>0</td></tr>
+<tr><td>254218</td><td></td><td>natsimi</td><td>child</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.3.2</td><td>Five</td><td>0</td></tr>
+<tr><td>253654</td><td></td><td>ndo</td><td>yesterday</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.1.3</td><td>Days</td><td>0</td></tr>
+<tr><td>253975</td><td></td><td>neko</td><td>you</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.1</td><td>Pronouns</td><td>0</td></tr>
+<tr><td>172067</td><td></td><td>ngok, hak</td><td>hoof</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.4</td><td>Hoof/Paw</td><td>0</td></tr>
+<tr><td>242631</td><td></td><td>ngomütsü</td><td>hate</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.1.2</td><td>Dislike</td><td>0</td></tr>
+<tr><td>241272</td><td></td><td>ngoyi</td><td>find</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.21</td><td>Acquisitions</td><td>0</td></tr>
+<tr><td>241955</td><td>6172,m</td><td>ngo◦yi</td><td>get</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.5</td><td>Strength</td><td>0</td></tr>
+<tr><td>241920</td><td></td><td>ngü</td><td>gather</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.13.5</td><td>Join (general)</td><td>0</td></tr>
+<tr><td>171418</td><td>483</td><td>ngüm</td><td>throat</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.3.5</td><td>Throat/Pharynx</td><td>0</td></tr>
+<tr><td>242298</td><td></td><td>nha</td><td>grass</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.8</td><td>Other wild plants</td><td>0</td></tr>
+<tr><td>255348</td><td></td><td>nhacho</td><td>ant (black)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>244240</td><td></td><td>nhanyi</td><td>leaf</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.3</td><td>Leaves</td><td>0</td></tr>
+<tr><td>241802</td><td></td><td>nhase</td><td>fruit</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>255285</td><td></td><td>nhathi</td><td>animal</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.3</td><td>Associated Animal Terms</td><td>0</td></tr>
+<tr><td>253855</td><td>2489</td><td>no</td><td>thou</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.2.3.1</td><td>Nominative-accusative</td><td>0</td></tr>
+<tr><td>253088</td><td>6621</td><td>nü</td><td>wish</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.14.3</td><td>Desirable</td><td>0</td></tr>
+<tr><td>254261</td><td></td><td>nupü</td><td>daughter</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.7.3</td><td>Later generation</td><td>0</td></tr>
+<tr><td>244788</td><td></td><td>nyepo</td><td>lord</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.2.5</td><td>Nobility</td><td>0</td></tr>
+<tr><td>246502</td><td></td><td>nyepo</td><td>owner</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.19</td><td>Social action</td><td>0</td></tr>
+<tr><td>241450</td><td></td><td>nyepü</td><td>flower</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.4</td><td>Seeds and flowers, nuts</td><td>0</td></tr>
+<tr><td>244118</td><td>1105</td><td>nyi</td><td>laugh</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.8.8.1</td><td>Laugh/Smile</td><td>0</td></tr>
+<tr><td>251514</td><td></td><td>nyi</td><td>touch</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.4</td><td>Feeling</td><td>0</td></tr>
+<tr><td>244667</td><td></td><td>nyiküba</td><td>long</td><td>adj</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.7.2</td><td>Verbs referring to size/shape</td><td>0</td></tr>
+<tr><td>252301</td><td>6621</td><td>nyi◦ba</td><td>want</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.14.3</td><td>Desirable</td><td>0</td></tr>
+<tr><td>258498</td><td></td><td>nyoba</td><td>clay</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.11</td><td>Ground/Earth/Soil/Dirt</td><td>0</td></tr>
+<tr><td>257245</td><td></td><td>ohe</td><td>rhinoceros</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.1</td><td>Pachyderms</td><td>0</td></tr>
+<tr><td>249054</td><td></td><td>pabebü</td><td>shallow</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.5.3</td><td>Position - high/low</td><td>0</td></tr>
+<tr><td>257154</td><td></td><td>paronu</td><td>pigeon</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.4.1</td><td>Particular birds</td><td>0</td></tr>
+<tr><td>248643</td><td></td><td>pe</td><td>see</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.6.10</td><td>See/Look</td><td>0</td></tr>
+<tr><td>247142</td><td></td><td>pethiküzho</td><td>priest</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.2.4</td><td>Religious Roles</td><td>0</td></tr>
+<tr><td>237610</td><td></td><td>pha</td><td>bind</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.13.1</td><td>Tying</td><td>0</td></tr>
+<tr><td>251149</td><td></td><td>pha pha</td><td>tie</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.13.1</td><td>Tying</td><td>0</td></tr>
+<tr><td>238291</td><td>2587,m</td><td>phak◦hwü</td><td>broom</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.4</td><td>Instruments and therapies</td><td>0</td></tr>
+<tr><td>243268</td><td>2585,m</td><td>pha◦kukoi</td><td>husk</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.2</td><td>Plant parts and types</td><td>0</td></tr>
+<tr><td>243034</td><td></td><td>pheklang</td><td>hook</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.4</td><td>Instruments and therapies</td><td>0</td></tr>
+<tr><td>249200</td><td></td><td>pheku</td><td>shoe</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.8.1</td><td>Footwear</td><td>0</td></tr>
+<tr><td>247538</td><td></td><td>phi</td><td>read</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.9.3</td><td>Read</td><td>0</td></tr>
+<tr><td>240734</td><td></td><td>phru</td><td>fall</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.1.1.4.2</td><td>Fall</td><td>0</td></tr>
+<tr><td>241236</td><td></td><td>phru</td><td>fill</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.11</td><td>Digging, excavation</td><td>0</td></tr>
+<tr><td>251941</td><td></td><td>phrü</td><td>untie</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.13.1</td><td>Tying</td><td>0</td></tr>
+<tr><td>244740</td><td>6129</td><td>phu</td><td>look for</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.6.11</td><td>Behold</td><td>0</td></tr>
+<tr><td>248730</td><td>5572</td><td>phu</td><td>seek</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.2</td><td>Move an object</td><td>0</td></tr>
+<tr><td>248574</td><td></td><td>pibü</td><td>scissors</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.5.3</td><td>Cutting/Boring</td><td>0</td></tr>
+<tr><td>239151</td><td></td><td>pitho</td><td>comb</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.2.1</td><td>Comb/Crest</td><td>0</td></tr>
+<tr><td>246270</td><td></td><td>piyazü</td><td>onion</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>242597</td><td></td><td>pizü</td><td>hat, helmet</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.8.2.1.1</td><td>Head</td><td>0</td></tr>
+<tr><td>246731</td><td>m,692</td><td>pi◦khü</td><td>pillow</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.1</td><td>Head/Headed</td><td>0</td></tr>
+<tr><td>248509</td><td></td><td>po</td><td>say</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.8.7</td><td>Speak/Say/Tell</td><td>0</td></tr>
+<tr><td>249577</td><td></td><td>po</td><td>speak</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.5.10.1</td><td>Talk, say</td><td>0</td></tr>
+<tr><td>242149</td><td>2573</td><td>pra</td><td>go out</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.2</td><td>Outward</td><td>0</td></tr>
+<tr><td>241510</td><td></td><td>prü</td><td>fly</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>242014</td><td></td><td>prü</td><td>give</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.23</td><td>Giving</td><td>0</td></tr>
+<tr><td>249541</td><td></td><td>prü</td><td>sow</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.12</td><td>Porcine</td><td>0</td></tr>
+<tr><td>256217</td><td></td><td>prü</td><td>elephant</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.1</td><td>Pachyderms</td><td>0</td></tr>
+<tr><td>237169</td><td>1811</td><td>pü</td><td>birth, give</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.2</td><td>Life/Breathe/Exist</td><td>0</td></tr>
+<tr><td>238167</td><td></td><td>pü</td><td>bridge</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.10.2</td><td>Waterways/Having to do with water</td><td>0</td></tr>
+<tr><td>238654</td><td>2177</td><td>pü</td><td>carry (generic)</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.2.1</td><td>Carry</td><td>0</td></tr>
+<tr><td>253709</td><td>1634</td><td>pu</td><td>he</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.1</td><td>Pronouns</td><td>0</td></tr>
+<tr><td>247332</td><td></td><td>püba</td><td>put</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.17</td><td>Putting</td><td>0</td></tr>
+<tr><td>237527</td><td></td><td>püh</td><td>belt (girdle)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.8.2.1.3</td><td>Lower body</td><td>0</td></tr>
+<tr><td>258252</td><td>1306</td><td>püngu</td><td>five</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>259759</td><td></td><td>raka</td><td>silver</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>245408</td><td>6490,m</td><td>raka◦thi</td><td>money</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.9</td><td>Monetary Terms</td><td>0</td></tr>
+<tr><td>241803</td><td></td><td>rase</td><td>fruit</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>172252</td><td>71,71</td><td>rhü, lhü</td><td>live (to be alive)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.2.1</td><td>Life/Live/Alive</td><td>0</td></tr>
+<tr><td>247569</td><td></td><td>rü</td><td>reap</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.10</td><td>Verbs involving plants</td><td>0</td></tr>
+<tr><td>249866</td><td></td><td>rügo</td><td>steal</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.1</td><td>Assorted action verbs</td><td>0</td></tr>
+<tr><td>171742</td><td></td><td>rükho</td><td>cough</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.8.3.3</td><td>Cough</td><td>0</td></tr>
+<tr><td>255584</td><td></td><td>rüli</td><td>buffalo</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.2</td><td>Bovine</td><td>0</td></tr>
+<tr><td>239312</td><td></td><td>rüna</td><td>country</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.10.3</td><td>Governable units (towns, parts of towns)</td><td>0</td></tr>
+<tr><td>252111</td><td></td><td>rüna</td><td>village</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.8</td><td>Religion</td><td>0</td></tr>
+<tr><td>249624</td><td></td><td>rüngu</td><td>spear</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.14</td><td>Husbandry</td><td>0</td></tr>
+<tr><td>172011</td><td></td><td>rünyi</td><td>hear</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.7.4</td><td>Hear/Listen</td><td>0</td></tr>
+<tr><td>172573</td><td></td><td>rüpü</td><td>soul</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.10</td><td>Mind</td><td>0</td></tr>
+<tr><td>236356</td><td></td><td>rürü</td><td>angry</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.6.1</td><td>Angry</td><td>0</td></tr>
+<tr><td>242845</td><td></td><td>rüsü</td><td>hide</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.6.5.1</td><td>Hide/Leather</td><td>0</td></tr>
+<tr><td>244821</td><td></td><td>rüyi</td><td>lose</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.10.1</td><td>Unintentional loss - Misplace</td><td>0</td></tr>
+<tr><td>257053</td><td></td><td>rüyi</td><td>peacock</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.4.1</td><td>Particular birds</td><td>0</td></tr>
+<tr><td>259065</td><td></td><td>rüza</td><td>lake</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.5</td><td>Landforms and geographical features</td><td>0</td></tr>
+<tr><td>241059</td><td>6192,m</td><td>rü◦che</td><td>fever</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.5.1</td><td>Sick/Hurt/Ache</td><td>0</td></tr>
+<tr><td>251590</td><td></td><td>rü◦na</td><td>town</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.10.3</td><td>Governable units (towns, parts of towns)</td><td>0</td></tr>
+<tr><td>172226</td><td></td><td>rü◦nyi</td><td>listen</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.7.4</td><td>Hear/Listen</td><td>0</td></tr>
+<tr><td>171798</td><td></td><td>sa</td><td>die</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.6</td><td>Die/Deathly</td><td>0</td></tr>
+<tr><td>244967</td><td></td><td>sako</td><td>maize</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>255672</td><td></td><td>saprü</td><td>butterfly</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>257415</td><td></td><td>saro</td><td>spider</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>252265</td><td></td><td>sazho</td><td>wall</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.11.9.3</td><td>Parts of the structure</td><td>0</td></tr>
+<tr><td>254176</td><td></td><td>sazüyo</td><td>brother (younger)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.3.2</td><td>Five</td><td>0</td></tr>
+<tr><td>250476</td><td></td><td>sa◦kro◦zü</td><td>tea</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.1</td><td>Names of trees and shrubs</td><td>0</td></tr>
+<tr><td>243873</td><td>2670</td><td>se</td><td>know</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.12.1</td><td>Know, Believe</td><td>0</td></tr>
+<tr><td>251907</td><td></td><td>seyi</td><td>understand</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.13.1</td><td>Think</td><td>0</td></tr>
+<tr><td>236918</td><td></td><td>shi</td><td>bank (edge)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.10.2</td><td>Waterways/Having to do with water</td><td>0</td></tr>
+<tr><td>255998</td><td></td><td>shizho</td><td>crow (bird)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.4.1</td><td>Particular birds</td><td>0</td></tr>
+<tr><td>236575</td><td></td><td>sho</td><td>ask (a question)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.5.7.1</td><td>Ask</td><td>0</td></tr>
+<tr><td>239224</td><td></td><td>sho</td><td>cook</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.5</td><td>Cooking Implements</td><td>0</td></tr>
+<tr><td>247017</td><td></td><td>sho</td><td>pray</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.8.3.1</td><td>Religious Events</td><td>0</td></tr>
+<tr><td>248056</td><td></td><td>shode</td><td>road</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.10.1</td><td>Roads and Ways</td><td>0</td></tr>
+<tr><td>250783</td><td></td><td>si</td><td>thick</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.7.2</td><td>Verbs referring to size/shape</td><td>0</td></tr>
+<tr><td>252829</td><td></td><td>so◦pü</td><td>who?</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.5.3</td><td>WH words</td><td>0</td></tr>
+<tr><td>239997</td><td></td><td>sü</td><td>dig</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.11</td><td>Digging, excavation</td><td>0</td></tr>
+<tr><td>248015</td><td></td><td>sü</td><td>rise</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.4</td><td>Wake/Conscious/Alert</td><td>0</td></tr>
+<tr><td>248510</td><td></td><td>sü</td><td>say</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.8.7</td><td>Speak/Say/Tell</td><td>0</td></tr>
+<tr><td>252026</td><td></td><td>sü</td><td>use</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.7.1</td><td>Use</td><td>0</td></tr>
+<tr><td>253300</td><td></td><td>sü</td><td>wood (timber)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.2</td><td>Plant parts and types</td><td>0</td></tr>
+<tr><td>250736</td><td></td><td>süche</td><td>there</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.2.7</td><td>Extent</td><td>0</td></tr>
+<tr><td>250685</td><td></td><td>süchesü</td><td>then</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.1.5</td><td>Other Intervals</td><td>0</td></tr>
+<tr><td>251302</td><td></td><td>süda</td><td>tobacco</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.6.2</td><td>Other ground and milled food</td><td>0</td></tr>
+<tr><td>251410</td><td></td><td>südo</td><td>tomorrow</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.1.3</td><td>Days</td><td>0</td></tr>
+<tr><td>250662</td><td></td><td>süga</td><td>thatch</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.6.4</td><td>Building, Non-edible</td><td>0</td></tr>
+<tr><td>246367</td><td></td><td>sühi-küngu</td><td>orange</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>244312</td><td></td><td>sühikükhro</td><td>lemon</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>243397</td><td></td><td>sühizü</td><td>ink</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>250737</td><td></td><td>sülü</td><td>there</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.2.7</td><td>Extent</td><td>0</td></tr>
+<tr><td>248160</td><td></td><td>süm</td><td>root</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.2</td><td>Plant parts and types</td><td>0</td></tr>
+<tr><td>253221</td><td></td><td>sümodie</td><td>without</td><td>prep</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>258918</td><td></td><td>suna</td><td>gold</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>250079</td><td></td><td>sünyi</td><td>sugar</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.6.2</td><td>Other ground and milled food</td><td>0</td></tr>
+<tr><td>248016</td><td></td><td>süri</td><td>rise</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.4</td><td>Wake/Conscious/Alert</td><td>0</td></tr>
+<tr><td>250686</td><td></td><td>süsa</td><td>then</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.1.5</td><td>Other Intervals</td><td>0</td></tr>
+<tr><td>238193</td><td></td><td>süvori</td><td>bring</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.2.2</td><td>Bring</td><td>0</td></tr>
+<tr><td>251656</td><td></td><td>sü◦bo</td><td>tree</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.2</td><td>Plant parts and types</td><td>0</td></tr>
+<tr><td>237454</td><td></td><td>ta</td><td>begin</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.5</td><td>Change of state</td><td>0</td></tr>
+<tr><td>248344</td><td></td><td>ta</td><td>run</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.4</td><td>Regular, Cyclic, Smoothly</td><td>0</td></tr>
+<tr><td>252222</td><td></td><td>ta</td><td>walk</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.4</td><td>Regular, Cyclic, Smoothly</td><td>0</td></tr>
+<tr><td>239251</td><td></td><td>taphro</td><td>cotton</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>249825</td><td></td><td>tha</td><td>stand</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.2</td><td>Foot</td><td>0</td></tr>
+<tr><td>251333</td><td></td><td>tha</td><td>today</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.1.3</td><td>Days</td><td>0</td></tr>
+<tr><td>240173</td><td>552</td><td>thi</td><td>do</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.1.1.1</td><td>To do/act</td><td>0</td></tr>
+<tr><td>172290</td><td>34,m</td><td>thi, thümu</td><td>meat</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.1.1</td><td>Flesh/Meat</td><td>0</td></tr>
+<tr><td>172119</td><td></td><td>thigi</td><td>leather</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.6.5.1</td><td>Hide/Leather</td><td>0</td></tr>
+<tr><td>242668</td><td></td><td>thikümünü</td><td>heal</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.5.1</td><td>Sick/Hurt/Ache</td><td>0</td></tr>
+<tr><td>239932</td><td>m,6621</td><td>thikü◦nyi</td><td>desire</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.14.3</td><td>Desirable</td><td>0</td></tr>
+<tr><td>251148</td><td></td><td>thimütü</td><td>tie</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.13.1</td><td>Tying</td><td>0</td></tr>
+<tr><td>238863</td><td></td><td>thise</td><td>chillie</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>256044</td><td>34,m</td><td>thi◦ze</td><td>deer (barking)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.2</td><td>Cervidae</td><td>0</td></tr>
+<tr><td>248807</td><td></td><td>tho</td><td>self</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.1</td><td>Pronouns</td><td>0</td></tr>
+<tr><td>251732</td><td></td><td>tho</td><td>true</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>253465</td><td></td><td>tho</td><td>write</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.9.1</td><td>Write</td><td>0</td></tr>
+<tr><td>255917</td><td></td><td>thokrü</td><td>cow</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.2</td><td>Bovine</td><td>0</td></tr>
+<tr><td>172323</td><td>m,253,5539</td><td>tho◦no◦zü</td><td>milk</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>241404</td><td></td><td>thu</td><td>flour</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.6.2</td><td>Other ground and milled food</td><td>0</td></tr>
+<tr><td>255641</td><td></td><td>thüdo</td><td>bull</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.2</td><td>Bovine</td><td>0</td></tr>
+<tr><td>255452</td><td></td><td>thüga</td><td>bear (animal)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.3</td><td>Ursine</td><td>0</td></tr>
+<tr><td>259027</td><td></td><td>thügi</td><td>iron</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.4</td><td>Elements, metals, alloys</td><td>0</td></tr>
+<tr><td>256337</td><td></td><td>thügo</td><td>frog</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.6.2</td><td>Frog/Toad</td><td>0</td></tr>
+<tr><td>255973</td><td></td><td>thügu</td><td>crab</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.5</td><td>Fish and Mollusks</td><td>0</td></tr>
+<tr><td>245075</td><td></td><td>thüma</td><td>man (mankind)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.9.6.1</td><td>Pregnant</td><td>0</td></tr>
+<tr><td>259922</td><td>3577</td><td>thümvü</td><td>star</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.2</td><td>Planets/Meteorological objects/Sky</td><td>0</td></tr>
+<tr><td>254464</td><td></td><td>thünonomi</td><td>girl</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.9.3</td><td>Navel</td><td>0</td></tr>
+<tr><td>254076</td><td></td><td>thüpunumi</td><td>boy</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.9.6.1</td><td>Pregnant</td><td>0</td></tr>
+<tr><td>257153</td><td></td><td>thürüvu</td><td>pigeon</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.4.1</td><td>Particular birds</td><td>0</td></tr>
+<tr><td>258809</td><td></td><td>thüva</td><td>evening</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.1.4</td><td>Times of Day</td><td>0</td></tr>
+<tr><td>256306</td><td></td><td>thüve</td><td>fly</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>168876</td><td>230</td><td>thüza</td><td>blood</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.6.2</td><td>Blood/Bleed</td><td>0</td></tr>
+<tr><td>237382</td><td></td><td>thüzi</td><td>bed</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.3.2</td><td>Five</td><td>0</td></tr>
+<tr><td>257212</td><td></td><td>thüzo</td><td>rat</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.1</td><td>Rodents</td><td>0</td></tr>
+<tr><td>243003</td><td></td><td>thüzü</td><td>hold</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.16</td><td>Holding</td><td>0</td></tr>
+<tr><td>258649</td><td></td><td>thüzü</td><td>dew</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>311302</td><td>p,2505</td><td>thü◦na</td><td>seven</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>311188</td><td>m,m,1618</td><td>thü◦no◦mi</td><td>woman</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.9.3</td><td>Navel</td><td>0</td></tr>
+<tr><td>245790</td><td>p,5371</td><td>thü◦prü</td><td>needle</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>249000</td><td></td><td>thü◦rü</td><td>sew</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>257097</td><td>p,1006</td><td>thü◦vo</td><td>pig (domestic)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.12</td><td>Porcine</td><td>0</td></tr>
+<tr><td>171923</td><td>p,301,3436</td><td>thü◦vu◦zü</td><td>egg</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>171885</td><td></td><td>ti</td><td>eat</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.3.2</td><td>Five</td><td>0</td></tr>
+<tr><td>172405</td><td></td><td>tir</td><td>oil</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.6.4.1</td><td>Oil/Grease</td><td>0</td></tr>
+<tr><td>241877</td><td></td><td>tizhe</td><td>garden</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.10.4</td><td>Farm/Agricultural places</td><td>0</td></tr>
+<tr><td>237028</td><td></td><td>to</td><td>be</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.4.1.1</td><td>Grammatical case</td><td>0</td></tr>
+<tr><td>241091</td><td></td><td>tsa</td><td>few</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>248695</td><td>3559</td><td>tsa</td><td>seed</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.4</td><td>Seeds and flowers, nuts</td><td>0</td></tr>
+<tr><td>241313</td><td></td><td>tso</td><td>finish</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.5</td><td>Change of state</td><td>0</td></tr>
+<tr><td>236449</td><td></td><td>tsoküyi</td><td>arrive</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.1</td><td>Inward</td><td>0</td></tr>
+<tr><td>236482</td><td></td><td>tsoküyi</td><td>arrow</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.15</td><td>War and violence</td><td>0</td></tr>
+<tr><td>242435</td><td></td><td>tsü</td><td>grow</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.7.2</td><td>Verbs referring to size/shape</td><td>0</td></tr>
+<tr><td>248879</td><td></td><td>tsü</td><td>send</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.2</td><td>Move an object</td><td>0</td></tr>
+<tr><td>238092</td><td></td><td>tsükhrüda</td><td>bread</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.5</td><td>Cooking Implements</td><td>0</td></tr>
+<tr><td>250615</td><td></td><td>tsüo</td><td>that</td><td>adj</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1</td><td>Ontological</td><td>0</td></tr>
+<tr><td>259676</td><td></td><td>tsüshe</td><td>sand</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.11</td><td>Ground/Earth/Soil/Dirt</td><td>0</td></tr>
+<tr><td>259675</td><td></td><td>tsüsü</td><td>sand</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.11</td><td>Ground/Earth/Soil/Dirt</td><td>0</td></tr>
+<tr><td>248774</td><td></td><td>tü</td><td>seize</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.21</td><td>Acquisitions</td><td>0</td></tr>
+<tr><td>259794</td><td></td><td>tü</td><td>sky</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.2</td><td>Planets/Meteorological objects/Sky</td><td>0</td></tr>
+<tr><td>239526</td><td></td><td>tühe</td><td>cup</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>236885</td><td></td><td>tükhwü</td><td>banana</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.1.5</td><td>Fruits and vegetables</td><td>0</td></tr>
+<tr><td>244439</td><td></td><td>tunem</td><td>lift</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.16</td><td>Holding</td><td>0</td></tr>
+<tr><td>256365</td><td>6029</td><td>tunyü</td><td>goat</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.8</td><td>Ovine and Hircine</td><td>0</td></tr>
+<tr><td>258602</td><td></td><td>tüsozho</td><td>day</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.3.2</td><td>Five</td><td>0</td></tr>
+<tr><td>258008</td><td></td><td>tütha</td><td>eight</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.9</td><td>Numbers and numeric expression</td><td>0</td></tr>
+<tr><td>253546</td><td></td><td>tütse</td><td>year</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.1.2</td><td>Months and Years</td><td>0</td></tr>
+<tr><td>259297</td><td></td><td>tüzü</td><td>night</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.1.4</td><td>Times of Day</td><td>0</td></tr>
+<tr><td>257466</td><td>p,2308</td><td>tü◦kho</td><td>tiger</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.3</td><td>Feline</td><td>0</td></tr>
+<tr><td>260320</td><td></td><td>tü◦khra</td><td>wind</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.1</td><td>Weather and seasons</td><td>0</td></tr>
+<tr><td>257288</td><td>p,6034</td><td>tü◦ko</td><td>sheep</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.8</td><td>Ovine and Hircine</td><td>0</td></tr>
+<tr><td>256910</td><td>p,2782</td><td>tü◦kwi</td><td>monkey (macaque)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.9</td><td>Simian</td><td>0</td></tr>
+<tr><td>257351</td><td>m,6109</td><td>tü◦nhi</td><td>snake</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.6.1</td><td>Snake</td><td>0</td></tr>
+<tr><td>256158</td><td>m,5716</td><td>tu◦pha</td><td>duck</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.10</td><td>Fowl (i.e. Domestic Birds)</td><td>0</td></tr>
+<tr><td>259504</td><td>p,2080</td><td>tü◦rü</td><td>rain</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.1</td><td>Weather and seasons</td><td>0</td></tr>
+<tr><td>256087</td><td>p,1764</td><td>tü◦shi</td><td>dog</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.11</td><td>Canine</td><td>0</td></tr>
+<tr><td>247230</td><td>m,5618</td><td>tü◦sü</td><td>pull</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.2.2.3.1</td><td>Push</td><td>0</td></tr>
+<tr><td>260113</td><td></td><td>tü◦sü</td><td>thunder</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.1</td><td>Weather and seasons</td><td>0</td></tr>
+<tr><td>150001</td><td>m,1242,366</td><td>u-pi-tha</td><td>hair</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td>116</td><td>1.2.3</td><td>Hair of Head</td><td>0</td></tr>
+<tr><td>166308</td><td>p,3367</td><td>u-vo</td><td>neck</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.4.2</td><td>Neck</td><td>0</td></tr>
+<tr><td>165593</td><td></td><td>ubechine</td><td>finger</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.6</td><td>Finger/Toe</td><td>0</td></tr>
+<tr><td>253049</td><td></td><td>udoküve</td><td>wise</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.3.3.1</td><td>Discern</td><td>0</td></tr>
+<tr><td>251868</td><td></td><td>ukhro</td><td>under</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.2.2</td><td>Down</td><td>0</td></tr>
+<tr><td>253793</td><td></td><td>uko</td><td>they</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.1</td><td>Pronouns</td><td>0</td></tr>
+<tr><td>253899</td><td></td><td>uko</td><td>we (incl.)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.1</td><td>Pronouns</td><td>0</td></tr>
+<tr><td>242064</td><td></td><td>ukünü</td><td>glad</td><td>v.i.</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.1.5.1</td><td>Happy</td><td>0</td></tr>
+<tr><td>239845</td><td></td><td>umakürü</td><td>dear (expensive)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>253276</td><td></td><td>ungo</td><td>wonderful</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>249098</td><td></td><td>uyiküve</td><td>sharp</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.9.2</td><td>Carve, shave</td><td>0</td></tr>
+<tr><td>165780</td><td>p,751</td><td>u◦be</td><td>hand</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.1.1</td><td>Hand</td><td>0</td></tr>
+<tr><td>164994</td><td>p,1327</td><td>u◦bo</td><td>arm</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.1.2</td><td>Arm</td><td>0</td></tr>
+<tr><td>165026</td><td>p,221</td><td>u◦che</td><td>back (body)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.4.8</td><td>Back</td><td>0</td></tr>
+<tr><td>171559</td><td>p,223</td><td>u◦che</td><td>waist</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.4.6</td><td>Waist</td><td>0</td></tr>
+<tr><td>171505</td><td>18,632</td><td>u◦hu</td><td>tooth</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.3.4</td><td>Tooth</td><td>0</td></tr>
+<tr><td>166055</td><td>p,1251,m</td><td>u◦khü◦ba</td><td>knee</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.8.4</td><td>Knee</td><td>0</td></tr>
+<tr><td>165756</td><td>p,363</td><td>u◦ma</td><td>hair (of body)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.3</td><td>Hair of Head</td><td>0</td></tr>
+<tr><td>171470</td><td>p,621</td><td>u◦meyi</td><td>tongue</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.3.3</td><td>Tongue</td><td>0</td></tr>
+<tr><td>165474</td><td>p,682</td><td>u◦mhü</td><td>eye</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.6</td><td>Eye</td><td>0</td></tr>
+<tr><td>165175</td><td>18,17</td><td>u◦mo</td><td>body</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.1</td><td>Body</td><td>0</td></tr>
+<tr><td>165856</td><td>m,1381</td><td>u◦mülü</td><td>heart</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.7.1</td><td>Heart</td><td>0</td></tr>
+<tr><td>165355</td><td>p,3375,3396</td><td>u◦mü◦rü</td><td>chest</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.4.4.3</td><td>Chest</td><td>0</td></tr>
+<tr><td>166345</td><td>p,803,2091</td><td>u◦nhi◦cho</td><td>nose</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.8</td><td>Nose</td><td>0</td></tr>
+<tr><td>165410</td><td>p,811</td><td>u◦nyi</td><td>ear</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.7</td><td>Ear</td><td>0</td></tr>
+<tr><td>253837</td><td>m,2504</td><td>u◦nyi</td><td>they two</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.1</td><td>Pronouns</td><td>0</td></tr>
+<tr><td>166125</td><td>p,343</td><td>u◦phe</td><td>leg</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.7</td><td>Leg</td><td>0</td></tr>
+<tr><td>165660</td><td>p,343,m</td><td>u◦phe◦zi</td><td>foot</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.2</td><td>Foot</td><td>0</td></tr>
+<tr><td>165818</td><td>m,1242</td><td>u◦pi</td><td>head</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.1</td><td>Head/Headed</td><td>0</td></tr>
+<tr><td>165718</td><td>m,1242,366</td><td>u◦pi◦tha</td><td>hair (of head)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.3</td><td>Hair of Head</td><td>0</td></tr>
+<tr><td>166162</td><td>p,442</td><td>u◦su</td><td>lip</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.3.2</td><td>Lip</td><td>0</td></tr>
+<tr><td>171979</td><td>p,34</td><td>u◦thi</td><td>flesh</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.1.1</td><td>Flesh/Meat</td><td>0</td></tr>
+<tr><td>165138</td><td>p,230</td><td>u◦za</td><td>blood</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.6.2</td><td>Blood/Bleed</td><td>0</td></tr>
+<tr><td>165512</td><td>p,1190</td><td>u◦zü</td><td>face</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.2.5</td><td>Face</td><td>0</td></tr>
+<tr><td>238123</td><td></td><td>vaphro</td><td>break</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.5</td><td>Change of state</td><td>0</td></tr>
+<tr><td>241701</td><td></td><td>vaprü</td><td>forgive</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.3.2.9.1</td><td>Forgive</td><td>0</td></tr>
+<tr><td>259098</td><td></td><td>veba</td><td>lightning</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.1</td><td>Weather and seasons</td><td>0</td></tr>
+<tr><td>256923</td><td></td><td>verü</td><td>mosquito</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.2.6</td><td>Insects, Arachnids, and Worms</td><td>0</td></tr>
+<tr><td>242101</td><td>2774</td><td>vo</td><td>go</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.2</td><td>Outward</td><td>0</td></tr>
+<tr><td>239176</td><td>2774,m</td><td>vo◦ri</td><td>come</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.7.1</td><td>Inward</td><td>0</td></tr>
+<tr><td>237216</td><td></td><td>vü</td><td>beat</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.8</td><td>Striking, hitting verbs</td><td>0</td></tr>
+<tr><td>255883</td><td></td><td>vuzü</td><td>cock</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.10</td><td>Fowl (i.e. Domestic Birds)</td><td>0</td></tr>
+<tr><td>241123</td><td>2453</td><td>yi</td><td>field</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.5</td><td>Landforms and geographical features</td><td>0</td></tr>
+<tr><td>247604</td><td></td><td>yi</td><td>receive</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.21</td><td>Acquisitions</td><td>0</td></tr>
+<tr><td>246223</td><td></td><td>yo</td><td>on</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>165085</td><td></td><td>yvade</td><td>belly</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.4.7</td><td>Belly/Abdomen</td><td>0</td></tr>
+<tr><td>245621</td><td></td><td>za</td><td>name</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.8</td><td>Religion</td><td>0</td></tr>
+<tr><td>240139</td><td></td><td>zapü</td><td>divide</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.10.4</td><td>Intentional separation - Sort</td><td>0</td></tr>
+<tr><td>239731</td><td></td><td>ze</td><td>dao</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>248934</td><td>m,1002</td><td>zhokro◦mi</td><td>servant</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.2.10</td><td>Servants</td><td>0</td></tr>
+<tr><td>253250</td><td></td><td>zhopo</td><td>witness</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.2.3</td><td>General roles</td><td>0</td></tr>
+<tr><td>256986</td><td></td><td>zolüne</td><td>mouse</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>2.1.1</td><td>Rodents</td><td>0</td></tr>
+<tr><td>172510</td><td></td><td>zü</td><td>sleep</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.1.4.1</td><td>Sleep/Be asleep</td><td>0</td></tr>
+<tr><td>244351</td><td></td><td>zü</td><td>lie down</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.1.1.4</td><td>Lie (down)</td><td>0</td></tr>
+<tr><td>253133</td><td></td><td>zü</td><td>with (accompaniment)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>10.1.1</td><td>Prepositions</td><td>0</td></tr>
+<tr><td>260219</td><td>1631</td><td>zü</td><td>water</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.3</td><td>Water and other liquids</td><td>0</td></tr>
+<tr><td>260258</td><td></td><td>zükhu</td><td>well</td><td>n</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>9.6.1.1</td><td>Positive Qualities</td><td>0</td></tr>
+<tr><td>236396</td><td></td><td>züla</td><td>answer</td><td>v</td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.5.6</td><td>Answer</td><td>0</td></tr>
+<tr><td>253332</td><td></td><td>züo</td><td>word</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>8.5.10.2</td><td>Garrulosity, verbosity</td><td>0</td></tr>
+<tr><td>254136</td><td></td><td>zürayo</td><td>brother (elder)</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>1.5.3.2</td><td>Five</td><td>0</td></tr>
+<tr><td>251841</td><td></td><td>züsu</td><td>ugly</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.3</td><td>Human qualities and appearance</td><td>0</td></tr>
+<tr><td>245921</td><td></td><td>züyi</td><td>news</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td></td><td></td><td>0</td></tr>
+<tr><td>254417</td><td></td><td>züyo</td><td>friend</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>4.4.2</td><td>Clans and neighbors</td><td>0</td></tr>
+<tr><td>259704</td><td></td><td>zü◦kü◦zho</td><td>sea</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>3.2.3</td><td>Water and other liquids</td><td>0</td></tr>
+<tr><td>237851</td><td>m,2416</td><td>zü◦ru</td><td>boat</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>5.1</td><td>Waste products</td><td>0</td></tr>
+<tr><td>237279</td><td></td><td>zü◦ve</td><td>beautiful</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>7.1.3</td><td>Human qualities and appearance</td><td>0</td></tr>
+<tr><td>248840</td><td></td><td>zwü</td><td>sell</td><td></td><td>486</td><td>Chokri</td><td>65</td><td>1.3.2</td><td>Angami-Pochuri Group</td><td>Marrison 67 Naga</td><td>GEM-CNL</td><td></td><td>6.22</td><td>Exchanges</td><td>0</td></tr>
+</tbody>
+</table>
+
+</div>
+
+<script src="/js/simplesearch.js"></script>
+</body>
+</html>
