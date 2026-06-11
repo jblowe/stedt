@@ -6,10 +6,13 @@
       <div class="pl">{{ plg_html }}{{ exm }}</div>
       <div class="crumbs">Semantic domain: {{ crumbs }}</div>
     </div>
+    {# reconstruction-level material reads top-down — this etymon, its published priors,
+       intermediate reconstructions, relations, then the discursive notes — with the (often
+       enormous) reflex list LAST, so the entry's scholarship isn't buried beneath it. #}
     {{ phonhtml }}
-    {{ reflexeshtml }}
-    {{ noteshtml }}
-    {{ mesohtml }}
     {{ reconhtml }}
+    {{ mesohtml }}
     {{ connhtml }}
+    {{ noteshtml }}
+    {{ reflexeshtml }}
     {{ apparatus }}
