@@ -7,7 +7,7 @@ from markupsafe import Markup
 
 from .config import CITE_BASE, PLG_FULL
 from .db import ETY_LIVE, LEX_VISIBLE, con
-from .text import cite_tail, esc, alt, natkey, sortkey
+from .text import cite_tail, esc, alt, natkey, seq_label, sortkey
 from .notes import footnotes_block, note_label, render_note
 from .rows import disp_form, syl_form
 from .shell import page, breadcrumb, proto_labels
@@ -30,19 +30,6 @@ def _is_own_proto(language, grp):
     published taxon."""
     lang = _grp_norm(language)
     return bool(lang) and lang == _grp_norm(grp)
-
-
-def _seq_label(s):
-    """Allofam label from the curated sequence: integer -> '1', fraction -> '1a'/'1b'…
-    (twin of legacy/render.py _fmt_seq — same labels on both UIs)."""
-    try:
-        f = float(s)
-    except (TypeError, ValueError):
-        return s or ""
-    if f == int(f):
-        return str(int(f))
-    frac = str(s).split(".")[-1]
-    return str(int(f)) + (chr(ord("a") - 1 + int(frac[0])) if frac and frac[0].isdigit() else "")
 
 
 _ETYMON = env.get_template("etymon.html")
@@ -326,8 +313,11 @@ def etymon(tag):
             # variant letters mark co-reconstructed alternants of one mesoroot: '(a) tsa EAT,
             # (b) tsaat RICE' are a pair, not independent reconstructions (60 mesoroots)
             var = f"({esc(m['variant'])}) " if m["variant"] else ""
+            # id anchors the syllable popover's mesoroot links (#ms-{grpno}), like the
+            # original elink popup's /etymon/tag#grpno targets
+            mid = f' id="ms-{esc(str(m["groupnode"] or ""))}"' if m["groupnode"] else ""
             mr += (
-                f'<div class="rfx" role="listitem">{langcell}'
+                f'<div class="rfx" role="listitem"{mid}>{langcell}'
                 f'<span class="form">{var}<span class="recon"><span class="star">*</span>{esc(alt(m["form"]))}</span> '
                 f'<span class="g">{esc(m["gloss"])}</span></span>{sm}</div>'
             )
@@ -416,7 +406,7 @@ def etymon(tag):
             # the #tag disambiguates etyma sharing one curated sequence (e.g. 208/212 both '4')
             # and matches the legacy/original label shape ('1a #695 *lak …')
             lab = (
-                f'{esc(_seq_label(a["sequence"]))} #{a["tag"]} '
+                f'{esc(seq_label(a["sequence"]))} #{a["tag"]} '
                 f'<span class="recon"><span class="star">*</span>{esc(alt(a["protoform"]))}</span>'
                 f' ‘{esc(a["protogloss"])}’'
             )

@@ -14,12 +14,14 @@ the result against it, and the in-browser SQL (web/src/search.js) is checked aga
 a row builder needs can't be silently dropped (the failure mode this manifest exists to prevent).
 """
 
+import json
 import os
 import re
 import sqlite3
 
 from stedt.paths import DB as SRC, SEARCH_DB as OUT, WEB
 from stedt.render.db import LEX_VISIBLE
+from stedt.render.text import seq_label
 
 # NB: .sqlite3 (not .db) — GitHub Pages gzip-compresses .db, which corrupts the byte-range
 # math sql.js-httpvfs relies on; it serves .sqlite3 uncompressed. (community #162857)
@@ -54,12 +56,17 @@ TABLES = [
         # syllable-popover enrichment (etyma 'plg'/'meso'): the popover mirrors the original's
         # elink popup — '#tag PLG *protoform' + the etymon's mesoroots. plg denormalized so the
         # reflex payload needn't join languagegroups twice; meso prebuilt as an ORDERED JSON
-        # array [{plg,f,g},…] (Stammbaum: grp0..grp4, variant — the original elink ORDER BY).
+        # array [{plg,f,g,no},…] (Stammbaum: grp0..grp4, variant — the original elink ORDER BY;
+        # 'no' = grpno, anchoring the popover's meso link to its row on the etymon page).
         ("plg",        "",                    "(SELECT g2.plg FROM src.languagegroups g2 WHERE g2.grpid=e.grpid)"),
-        ("meso",       "",                    """(SELECT json_group_array(json_object('plg', plg, 'f', form, 'g', gloss))
-            FROM (SELECT lg.plg AS plg, m.form AS form, m.gloss AS gloss
+        ("meso",       "",                    """(SELECT json_group_array(json_object('plg', plg, 'f', form, 'g', gloss, 'no', grpno))
+            FROM (SELECT lg.plg AS plg, m.form AS form, m.gloss AS gloss, lg.grpno AS grpno
                   FROM src.mesoroots m LEFT JOIN src.languagegroups lg ON lg.grpid=m.grpid
                   WHERE m.tag=e.tag ORDER BY lg.grp0, lg.grp1, lg.grp2, lg.grp3, lg.grp4, m.variant))"""),
+        # the computed allofam family (chapter + integer sequence — the original elink's allofams
+        # query), prebuilt as ordered JSON [{s,tag,plg,pf,pg},…] with the seq label preformatted;
+        # filled in Python after the insert (families need a group-by pass), '[]' when alone
+        ("fam",        "",                    "'[]'"),
     ]},
     {"name": "languagegroups", "src": "src.languagegroups", "cols": [
         ("grpid", "INTEGER PRIMARY KEY", "grpid"),
@@ -173,6 +180,30 @@ def main():
     for t in TABLES:
         if t["src"]:
             db.execute(_insert_sql(t))
+
+    # etyma.fam: the computed allofam family (same chapter + integer sequence, the original
+    # elink's allofams derivation) needs a grouping pass, so it's filled here rather than in
+    # the generated INSERT. Members are sequence-ordered; the seq label is preformatted with
+    # the shared seq_label (the etymon page's Allofams list shows identical labels).
+    fams = {}
+    for tag, chap, seq, pf, pg, plg in db.execute("""
+            SELECT e.tag, e.chapter, e.sequence, e.protoform, e.protogloss, g.plg
+            FROM src.etyma e LEFT JOIN src.languagegroups g ON g.grpid=e.grpid
+            WHERE coalesce(upper(e.status),'') != 'DELETE' AND coalesce(e.chapter,'') != ''
+              AND CAST(e.sequence AS INTEGER) > 0
+            ORDER BY e.chapter, e.sequence"""):
+        fams.setdefault((chap, int(float(seq))), []).append((seq, tag, plg, pf, pg))
+    upd = []
+    for members in fams.values():
+        if len(members) < 2:
+            continue
+        arr = json.dumps(
+            [{"s": seq_label(q), "tag": t, "plg": gp, "pf": f, "pg": g}
+             for q, t, gp, f, g in members],
+            ensure_ascii=False,
+        )
+        upd.extend((arr, t) for _, t, _, _, _ in members)
+    db.executemany("UPDATE etyma SET fam=? WHERE tag=?", upd)
 
     db.executescript("""
         CREATE INDEX ix_hash_rn ON lx_et_hash(rn);   -- rn non-unique here (multi-tag reflexes)

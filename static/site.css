@@ -249,29 +249,33 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
    inline BOX, which superscript tones/aspiration inflate, dropping the line far below the
    baseline; decoration anchors to the baseline and skips descender ink. Color: at-rest was
    too faint to read as a link (review finding) — darker red text, gold dotted line. */
+.syl-w{position:relative;}  /* the trigger link + its popover card, side by side */
 a.syl{color:var(--accent-d);text-decoration:underline;text-decoration-style:dotted;
-  text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:2px;position:relative;}
+  text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:2px;}
 a.syl:hover{color:var(--accent);text-decoration-color:var(--accent);}
 /* hover/focus popover previewing the etymon a linked syllable reflects (*protoform 'gloss'); replaces
    the always-on ruby. Opens ABOVE the syllable so it covers the already-read row above rather than
    obscuring the next form in a top-down wordlist. Lift the stacking context so the bubble isn't pierced. */
-a.syl .sylpop{display:none;position:absolute;left:0;bottom:calc(100% + 5px);z-index:6;width:max-content;
+.syl-w .sylpop{display:none;position:absolute;left:0;bottom:calc(100% + 5px);z-index:6;width:max-content;
   max-width:min(280px,calc(100vw - 24px));background:var(--paper);border:1px solid var(--rule);border-radius:3px;
   padding:5px 9px;font-style:normal;font-weight:400;font-size:12.5px;line-height:1.45;color:var(--soft);
   white-space:normal;text-align:left;overflow-wrap:anywhere;letter-spacing:0;}
-a.syl:hover .sylpop,a.syl:focus .sylpop,a.syl:focus-within .sylpop{display:block;}
-/* the popover's elink-style card: '#tag PLG *protoform' header, then the etymon's mesoroots */
-.sylpop .sp-h{display:block;color:var(--ink);}
+.syl-w:hover .sylpop,.syl-w:focus-within .sylpop{display:block;}
+/* the popover's elink-style card: linked '#tag PLG *protoform' header, then the etymon's
+   mesoroots and allofam family under small-caps section labels */
+.sylpop a.sp-h{display:block;color:var(--ink);border-bottom:none;}
+.sylpop a.sp-h:hover{color:var(--accent);}
+.sylpop .sp-sec{display:block;margin-top:4px;font-variant:small-caps;letter-spacing:.06em;color:var(--mut);}
 .sylpop .sp-m{display:block;padding-left:14px;}
 .sylpop .sp-plg{font-variant:small-caps;letter-spacing:.05em;color:var(--mut);}
 
 /* the reveal hook (static/site.js) flips a top-clipped preview to open below its syllable */
-a.syl .sylpop.flip{bottom:auto;top:calc(100% + 5px);}
+.syl-w .sylpop.flip{bottom:auto;top:calc(100% + 5px);}
 /* invisible hover bridge across the 5px offset, so the pointer can travel into the bubble
    without dismissing it (WCAG 1.4.13 hoverable); mirrored when flipped below */
-a.syl .sylpop::after{content:"";position:absolute;left:0;right:0;top:100%;height:7px;}
-a.syl .sylpop.flip::after{top:auto;bottom:100%;}
-a.syl:hover,a.syl:focus{z-index:5;}
+.syl-w .sylpop::after{content:"";position:absolute;left:0;right:0;top:100%;height:7px;}
+.syl-w .sylpop.flip::after{top:auto;bottom:100%;}
+.syl-w:hover,.syl-w:focus-within{z-index:5;}
 /* on an etymon page, the reflex syllable that IS this etymon: grouped in the morpheme colour but a
    solid underline (not the dotted link), since you're already on its page. */
 /* the current etymon's own syllable: bold, NOT underlined — an underline here read as

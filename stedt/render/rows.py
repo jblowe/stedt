@@ -3,25 +3,41 @@ web/src/rows.js (the client renders the same row shapes)."""
 
 from .shell import etymon_href
 from .syllabify import syllabify
-from .text import esc, alt
+from .text import esc, alt, seq_label
 
 
 def syl_pop(tag, info):
     """SYNC(syllable-links) ↔ web/src/rows.js sylPop. The hover/focus popover for a linked
-    syllable, modeled on the original's elink popup (rootcanal tt/et_info.tt): a header line
-    "#tag PLG *protoform ‘gloss’" followed by the etymon's mesoroots ("PLG *form ‘gloss’" each,
-    Stammbaum-ordered). The original's allofams tab is deliberately absent: tabs can't live in a
-    hover card, and the family renders on the etymon page itself, one click through this link.
-    info: (pf, pg, plg, mesoroots)."""
-    pfx, pgl, plg, meso = info
+    syllable — the original's elink popup (rootcanal tt/et_info.tt), all three parts:
+    - header "#tag PLG *protoform ‘gloss’", linked to the etymon page (the original's '#232:');
+    - the etymon's mesoroots ("PLG *form ‘gloss’", Stammbaum-ordered), each PLG linked to its
+      row on the etymon page (#ms-{grpno} — the original linked /etymon/tag#grpno);
+    - the computed allofam family ("1a #34 PLG *form ‘gloss’"), members linked, the popover's
+      own etymon bold and unlinked, exactly the original's list. The original's tab SWITCHER
+      is the one omission (tabs can't operate in a hover card): both sections show, labeled.
+    The card sits NEXT TO the trigger link (inside .syl-w), not inside it, so its links are
+    real. info: (pf, pg, plg, mesoroots, family)."""
+    pfx, pgl, plg, meso, fam = info
     g = f" ‘{esc(pgl)}’" if pgl else ""
-    head = f'<span class="sp-h">#{tag}{" " + esc(plg) if plg else ""} *{esc(alt(pfx))}{g}</span>'
-    rows = "".join(
-        f'<span class="sp-m"><span class="sp-plg">{esc(mp or "")}</span> *{esc(alt(mf))}'
-        f'{f" ‘{esc(mg)}’" if mg else ""}</span>'
-        for mp, mf, mg in meso
-    )
-    return f'<span class="sylpop">{head}{rows}</span>'
+    head = (f'<a class="sp-h" href="{etymon_href(tag)}">#{tag}{" " + esc(plg) if plg else ""}'
+            f' *{esc(alt(pfx))}{g}</a>')
+    out = head
+    if meso:
+        if fam:
+            out += '<span class="sp-sec">Mesoroots</span>'
+        out += "".join(
+            f'<span class="sp-m"><a class="sp-plg" href="{etymon_href(tag)}#ms-{esc(str(no or ""))}">'
+            f'{esc(mp or "")}</a> *{esc(alt(mf))}{f" ‘{esc(mg)}’" if mg else ""}</span>'
+            for mp, mf, mg, no in meso
+        )
+    if fam:
+        out += '<span class="sp-sec">Allofams</span>'
+        for seq, t2, plg2, pf2, pg2 in fam:
+            lab = (f'{esc(seq_label(seq))} #{t2}{" " + esc(plg2) if plg2 else ""} *{esc(alt(pf2))}'
+                   f'{f" ‘{esc(pg2)}’" if pg2 else ""}')
+            out += (f'<span class="sp-m"><b>{lab}</b></span>' if t2 == tag
+                    else f'<span class="sp-m"><a href="{etymon_href(t2)}">{lab}</a></span>')
+    return f'<span class="sylpop">{out}</span>'
 
 
 def syl_form(reflex, syn, pf=None, self_tag=None):
@@ -47,8 +63,12 @@ def syl_form(reflex, syn, pf=None, self_tag=None):
             # non-DELETE etyma — the only ones with a built page. A tag outside pf (withdrawn
             # etymon) renders as plain text, matching the client, whose DELETE-filtered join never
             # sees such tags at all.
+            # the popover sits BESIDE the link inside a .syl-w wrapper (hover/focus-within on the
+            # wrapper reveals it): nested <a> is invalid HTML, and the card now carries links
             info = pf[tag]
-            out += f'<a class="syl" href="{etymon_href(tag)}">{base}{syl_pop(tag, info) if info else ""}</a>'
+            pop = syl_pop(tag, info) if info else ""
+            link = f'<a class="syl" href="{etymon_href(tag)}">{base}</a>'
+            out += f'<span class="syl-w">{link}{pop}</span>' if pop else link
         else:
             out += base
         d = dl[i] if i < len(dl) else ""

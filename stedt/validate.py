@@ -415,7 +415,7 @@ print(f"  css: {len(_classes)} classes, all referenced")
 _MAXW_OK = {
     ("header.mast", "1080px"), ("main", "1080px"), ("footer", "1080px"),  # the page column itself
     (".home", "600px"),  # a centered component, not prose
-    ("a.syl .sylpop", "min(280px,calc(100vw - 24px))"),  # floating popovers
+    (".syl-w .sylpop", "min(280px,calc(100vw - 24px))"),  # floating popovers
     (".noted>.notepop", "min(340px,calc(100vw - 24px))"),
     (".citebox", "48em"),  # bordered cite box, not running text
 }

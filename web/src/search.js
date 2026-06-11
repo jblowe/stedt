@@ -94,7 +94,7 @@ function run(db, sql, params) {
 const RFX_COLS = `ln.language AS language, ln.lgsort AS lgsort, l.reflex AS form, l.gloss AS gloss, l.gfn AS gfn, l.rn AS rn, l.lgid AS lgid,
          ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, l.semkey AS semkey, c.chaptertitle AS cat,
          g.grpno AS grpno, g.grp AS subgroup, nt.note AS note,
-         json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'pg', e.protogloss, 'ind', h.ind, 'plg', e.plg, 'meso', e.meso))
+         json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'pg', e.protogloss, 'ind', h.ind, 'plg', e.plg, 'meso', e.meso, 'fam', e.fam))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma`;
 const RFX_JOINS = `
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
@@ -131,7 +131,7 @@ const ETYMA_ALL_SQL = `
 const FORMS_BY_CAT_SQL = (n) => `
   SELECT l.rn AS rn, l.reflex AS reflex, l.gloss AS gloss, l.gfn AS gfn, l.lgid AS lgid,
          ln.language AS language, ln.lgsort AS lgsort, ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, nt.note AS note,
-         json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'pg', e.protogloss, 'ind', h.ind, 'plg', e.plg, 'meso', e.meso))
+         json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'pg', e.protogloss, 'ind', h.ind, 'plg', e.plg, 'meso', e.meso, 'fam', e.fam))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
   LEFT JOIN srcbib sb ON sb.srcabbr = ln.srcabbr
@@ -154,6 +154,7 @@ export function shapeReflexEtyma(r) {
   for (const x of ets) {
     if (!x || x.tag == null) continue;
     if (typeof x.meso === 'string') { try { x.meso = JSON.parse(x.meso); } catch (e) { x.meso = []; } }
+    if (typeof x.fam === 'string') { try { x.fam = JSON.parse(x.fam); } catch (e) { x.fam = []; } }
     if (!seen.has(x.tag)) { seen.add(x.tag); uniq.push(x); }
     if (x.ind != null) {                       // syllable position -> etymon, for per-syllable links
       if (byInd[x.ind] != null && byInd[x.ind] !== x.tag) conflict = true;

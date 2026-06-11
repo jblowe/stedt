@@ -77,3 +77,17 @@ def rcount_txt(n):
     if not n:
         return ""
     return f" · {n:,} {rfx_noun(n)}"
+
+
+def seq_label(s):
+    """Allofam label from the curated sequence: integer -> '1', fraction -> '1a'/'1b'…
+    (twin of legacy/render.py _fmt_seq — same labels on both UIs). Shared by the etymon
+    page's Allofams list and the syllable popover's family lines."""
+    try:
+        f = float(s)
+    except (TypeError, ValueError):
+        return s or ""
+    if f == int(f):
+        return str(int(f))
+    frac = str(s).split(".")[-1]
+    return str(int(f)) + (chr(ord("a") - 1 + int(frac[0])) if frac and frac[0].isdigit() else "")

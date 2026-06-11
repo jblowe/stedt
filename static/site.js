@@ -1,6 +1,6 @@
 /* Site-wide popover positioning + dismissal, for both popover kinds: the reflex-note bubble
    (.noted > .notepop, right edge pinned under the circled-i) and the syllable etymon preview
-   (a.syl > .sylpop, left-anchored, opens above the syllable). On a narrow viewport either can run
+   (.syl-w > .sylpop beside its a.syl trigger, left-anchored, opens above the syllable). On a narrow viewport either can run
    off an edge, and the sylpop can open fully above the viewport when its row sits at the top.
    CSS can't clamp them (the offset parent is a tiny inline span at an unpredictable x), so when
    one is shown we measure it and: nudge it back inside an 8px margin (translateX), and flip the
@@ -29,7 +29,7 @@
     if(dx) p.style.transform='translateX('+Math.round(dx)+'px)';
   }
   function ping(e){
-    var t=e.target, n=t&&t.closest&&t.closest('.noted,a.syl');
+    var t=e.target, n=t&&t.closest&&t.closest('.noted,.syl-w');
     if(!n) return;
     pending=n;
     if(queued) return;
@@ -43,6 +43,6 @@
   document.addEventListener('keydown', function(e){
     if(e.key!=='Escape') return;
     var a=document.activeElement;
-    if(a && a.closest && a.closest('.noted,a.syl')) a.blur();
+    if(a && a.closest && a.closest('.noted,.syl-w')) a.blur();
   });
 })();

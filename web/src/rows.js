@@ -66,15 +66,30 @@ function syllabify(s) {
   return r;
 }
 // SYNC(syllable-links) ↔ stedt/render/rows.py syl_pop(): the linked syllable's etymon-preview
-// popover, modeled on the original's elink popup — '#tag PLG *protoform ‘gloss’' header + the
-// etymon's mesoroots (Stammbaum-ordered in the payload). Keep the markup identical.
+// popover — the original's elink popup, all three parts: linked '#tag PLG *protoform ‘gloss’'
+// header, the etymon's mesoroots (each PLG linked to its #ms-{grpno} row on the etymon page),
+// and the allofam family (members linked, this etymon bold). The card sits BESIDE the trigger
+// link inside .syl-w (nested <a> is invalid), so its links are real. Keep the markup identical.
 const sylPop = e => {
   const g = e.pg ? ` ‘${esc(e.pg)}’` : '';
-  const head = `<span class="sp-h">#${e.tag}${e.plg ? ' ' + esc(e.plg) : ''} *${altstar(esc(e.pf))}${g}</span>`;
-  const rows = (Array.isArray(e.meso) ? e.meso : []).map(m =>
-    `<span class="sp-m"><span class="sp-plg">${esc(m.plg || '')}</span> *${altstar(esc(m.f))}${m.g ? ` ‘${esc(m.g)}’` : ''}</span>`
-  ).join('');
-  return `<span class="sylpop">${head}${rows}</span>`;
+  let out = `<a class="sp-h" href="${etymonHref(e.tag)}">#${e.tag}${e.plg ? ' ' + esc(e.plg) : ''} *${altstar(esc(e.pf))}${g}</a>`;
+  const meso = Array.isArray(e.meso) ? e.meso : [], fam = Array.isArray(e.fam) ? e.fam : [];
+  if (meso.length) {
+    if (fam.length) out += '<span class="sp-sec">Mesoroots</span>';
+    out += meso.map(m =>
+      `<span class="sp-m"><a class="sp-plg" href="${etymonHref(e.tag)}#ms-${esc(String(m.no || ''))}">${esc(m.plg || '')}</a> *${altstar(esc(m.f))}${m.g ? ` ‘${esc(m.g)}’` : ''}</span>`
+    ).join('');
+  }
+  if (fam.length) {
+    out += '<span class="sp-sec">Allofams</span>';
+    out += fam.map(a => {
+      const lab = `${esc(a.s)} #${a.tag}${a.plg ? ' ' + esc(a.plg) : ''} *${altstar(esc(a.pf))}${a.pg ? ` ‘${esc(a.pg)}’` : ''}`;
+      return a.tag === e.tag
+        ? `<span class="sp-m"><b>${lab}</b></span>`
+        : `<span class="sp-m"><a href="${etymonHref(a.tag)}">${lab}</a></span>`;
+    }).join('');
+  }
+  return `<span class="sylpop">${out}</span>`;
 };
 
 // SYNC(syllable-links) ↔ stedt/render/rows.py syl_form() + syl_pop(): the syllable-linked form
@@ -95,7 +110,8 @@ const sylLink = r => {                     // syllable-linked form HTML, or null
     if (tag != null) {
       const base = esc(syls[i]), e = info[tag];
       const pop = e && e.pf ? sylPop(e) : '';
-      out += `<a class="syl" href="${etymonHref(tag)}">${base}${pop}</a>`;
+      const link = `<a class="syl" href="${etymonHref(tag)}">${base}</a>`;
+      out += pop ? `<span class="syl-w">${link}${pop}</span>` : link;
     } else {
       out += esc(syls[i]);
     }
