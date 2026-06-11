@@ -325,6 +325,34 @@ const sourceAbbrs = (db, terms) => {
   return [...out];
 };
 
+// field-value completion for the search box: language names / Stammbaum group names matched by
+// word-prefix on the diacritic-insensitive sortkey, so 'lah' offers Lahu (Black) and Chamba
+// Lahuli alike — the legacy form's language autosuggest, recast for the fielded syntax. Whole-name
+// prefixes rank before mid-name word hits. Both rosters are tiny and cached after first use.
+let _langNames = null;
+export async function stedtFieldSuggest(field, partial, limit = 8) {
+  const db = await getDb();
+  let names;
+  if (field === 'language') {
+    if (!_langNames) _langNames = run(db, `SELECT DISTINCT language FROM languagenames
+      WHERE language NOT LIKE '*%' AND coalesce(language, '') != '' ORDER BY language`).map((r) => r.language);
+    names = _langNames;
+  } else {
+    if (!_groupsCache) _groupsCache = run(db, 'SELECT grpid, grpno, grp, plg FROM languagegroups');
+    names = [...new Set(_groupsCache.map((g) => g.grp).filter(Boolean))].sort();
+  }
+  const p = sortkey(partial);
+  if (!p) return [];
+  const starts = [], words = [];
+  for (const n of names) {
+    const k = sortkey(n);
+    if (k.startsWith(p)) starts.push(n);
+    else if (k.split(/[^\p{L}\p{N}]+/u).some((w) => w.startsWith(p))) words.push(n);
+    if (starts.length >= limit) break;
+  }
+  return [...starts, ...words].slice(0, limit);
+}
+
 const _ph = (n) => Array(n).fill('?').join(',');
 // reflex query/count for a fielded search: optional FTS MATCH, optional subgroup restriction.
 // With no MATCH (subgroup:-only browse) it scans lexicon once — a few hundred ms in WASM.
@@ -523,4 +551,5 @@ if (typeof window !== 'undefined') {
   window.stedtDbLoaded = false;
   window.stedtSearch = stedtSearch;
   window.stedtFormsByCategory = stedtFormsByCategory;
+  window.stedtFieldSuggest = stedtFieldSuggest;
 }

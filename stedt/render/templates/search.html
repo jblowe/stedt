@@ -1,7 +1,10 @@
 
     <div class="sr">
       {# real GET form so JS-less users still get a working submit; search-page.js preventDefaults it #}
-      <div class="bigsearch"><form action="/search" method="get"><input id="bs" name="q" aria-label="Search STEDT" placeholder="Search a meaning, form, or language…" autocomplete="off"></form></div>
+      <div class="bigsearch"><form action="/search" method="get"><input id="bs" name="q" aria-label="Search STEDT" placeholder="Search a meaning, form, or language…" autocomplete="off"
+               role="combobox" aria-expanded="false" aria-controls="drop" aria-autocomplete="list"></form>
+        {# completion listbox for language:/subgroup: values — search-page.js fills it #}
+        <div class="drop" id="drop" role="listbox" aria-label="Name completions"></div></div>
       <noscript><p class="cap">Search runs in your browser and requires JavaScript.</p></noscript>
       {# the invitation is the disclosure line alone — a bare example query under the input read
          as an APPLIED filter (that's where other UIs show active filters); it lives inside now #}
