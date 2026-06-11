@@ -16,6 +16,7 @@ import sys
 
 import typer
 
+from stedt.new_source import HELP as NEW_SOURCE_HELP
 from stedt.paths import SITE, WEB
 
 app = typer.Typer(add_completion=False, no_args_is_help=True, help="Build tooling for the STEDT static site.")
@@ -166,7 +167,7 @@ def build_legacy(
 
 
 # ───────────────────────────── top-level ─────────────────────────────
-@app.command("new-source")
+@app.command("new-source", help=NEW_SOURCE_HELP, short_help="Onboard a new source from a contributor wordlist.")
 def new_source(
     wordlist: str = typer.Argument(None, help="Contributor wordlist (.tsv/.csv/.xlsx)."),
     template: bool = typer.Option(False, "--template", help="Write the contributor template files and exit."),
@@ -182,8 +183,6 @@ def new_source(
     force: bool = typer.Option(False, "--force", help="Regenerate an existing source folder without asking."),
     no_validate: bool = typer.Option(False, "--no-validate", help="Skip the validate run at the end."),
 ):
-    """Onboard a new source: walk a contributor wordlist into data/sources/<srcabbr>/
-    (bibliography prompts, language→lgid mapping, fresh global rns), then validate."""
     args = ["--template", "--out", out] if template else []
     if wordlist:
         args.append(wordlist)

@@ -45,6 +45,54 @@ TEMPLATE_COLS = {
 }
 REQUIRED = ("reflex", "gloss")
 
+
+def _cols_block(width=78):
+    """The TEMPLATE_COLS table as indented help-text lines, wrapped to `width`."""
+    import textwrap
+
+    w = max(map(len, TEMPLATE_COLS))
+    lines = []
+    for c, (doc, _) in TEMPLATE_COLS.items():
+        lines.append(textwrap.fill(doc, width, initial_indent=f"  {c:<{w}}  ", subsequent_indent=" " * (w + 4)))
+    return "\n".join(lines)
+
+
+# The user-facing documentation. This help text is the ONE place the new-source workflow is
+# documented (Luke's ruling 2026-06-11): both `stedt new-source --help` (cli.py imports it) and
+# `python -m stedt.new_source --help` render it verbatim — keep every line under 78 columns.
+HELP = f"""Onboard a new source: a contributor wordlist file becomes
+data/sources/<srcabbr>/.
+
+The flow: `stedt new-source --template` writes wordlist-template.tsv/.xlsx
+for a contributor to fill in (Excel is fine — the .xlsx explains every
+column on a second sheet). `stedt new-source <file>` then imports it:
+bibliography prompts, language placement, fresh global rns, the source
+folder, and finally `stedt validate` (the merge gate).
+
+Template columns — only reflex and gloss are required:
+
+{_cols_block()}
+
+A `language` column is for multi-language sources: fill it on every row,
+or drop the column and the wizard asks once for the whole list's language.
+
+Language entries are per-source (a languages.tsv row is "a lect as
+documented in one source"), so the import always creates this source's own
+entries, placing them in the subgroup tree by same-name precedent; it
+prompts only when precedent is absent or split.
+
+The contributor file stays the source of truth. Re-running with --force
+regenerates the folder with the SAME rns; if a parallel merge claimed them
+first, re-run on the up-to-date branch and fresh rns are allocated — never
+renumber by hand.
+
+Every prompt has a flag, so an import can run unattended:
+
+  stedt new-source apatani.tsv --srcabbr ABR1985 --year 1985 \\
+      --author 'Abraham, P.T.' --title 'Apatani grammar' \\
+      --imprint 'Mysore: CIIL' --language Apatani
+"""
+
 # Generated-file headers. These mirror validate.py's COLS — validate header-checks every file in
 # data/, so any drift between the two lists fails loudly on the next run.
 SOURCE_COLS = (
@@ -300,12 +348,20 @@ def bibliography(a):
 
 
 def main():
-    p = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    p = argparse.ArgumentParser(description=HELP, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("wordlist", nargs="?", help="contributor wordlist (.tsv/.csv/.xlsx)")
     p.add_argument("--template", action="store_true", help="write the contributor template files and exit")
     p.add_argument("--out", default=".", help="directory for --template output")
-    for flag in ("srcabbr", "citation", "author", "year", "title", "imprint", "language"):
-        p.add_argument(f"--{flag}")
+    for flag, h in (
+        ("srcabbr", "source abbreviation — becomes the folder name (e.g. ABR1985)"),
+        ("citation", "short citation (e.g. 'Abraham 85'; suggested from author+year)"),
+        ("author", "author(s), surname first"),
+        ("year", "publication year"),
+        ("title", "title of the source"),
+        ("imprint", "publisher or journal"),
+        ("language", "language of the whole list (only when the file has no language column)"),
+    ):
+        p.add_argument(f"--{flag}", help=f"{h}; prompted if omitted")
     p.add_argument("--grpid", help="subgroup id for any language entry this run creates (skips placement prompts)")
     p.add_argument("--force", action="store_true", help="regenerate an existing source folder without asking")
     p.add_argument("--no-validate", action="store_true", help="skip the validate run at the end")
