@@ -190,22 +190,22 @@ def etymon(tag):
     gkeys = sorted(groups, key=lambda k: (natkey(k[0]), k[1]))
     nsub = len(gkeys)
 
-    # place each anchored note at the first band at-or-under its anchor; no such band -> general list
-    sg_notes_at = {}  # section index -> [(grp name, note row)]
+    # place each anchored note under its anchor group's OWN band header — where the original put
+    # its footnote mark, so a reader trained on it finds the note under the expected name. An
+    # anchor whose rows all live in descendant bands (e.g. 'Tani' over a page banded 1.1.1.1
+    # Western Tani …) gets a synthetic header band carrying just the note; an anchor with no
+    # rows under it at all falls back to the general Notes.
+    sg_notes = {}  # band key -> [note rows]
     for grpno, grp, n in anchored:
-        idx = next((i for i, k in enumerate(gkeys) if k[0] == grpno or (k[0] or "").startswith(grpno + ".")), None)
-        if idx is None:
+        key = next((k for k in gkeys if k[0] == grpno), None)
+        if key is None and any((k[0] or "").startswith(grpno + ".") for k in gkeys):
+            key = (grpno, grp or "—")
+            groups.setdefault(key, [])  # synthetic: header + note, no reflex rows
+        if key is None:
             notes = list(notes) + [n]
         else:
-            sg_notes_at.setdefault(idx, []).append((grp, n))
-
-    jump = ""
-    if nsub > 3:
-        jump = (
-            '<div class="jump">Jump to subgroup: '
-            + " · ".join(f'<a href="#sg{i}">{esc(k[1])} ({len(groups[k])})</a>' for i, k in enumerate(gkeys))
-            + "</div>"
-        )
+            sg_notes.setdefault(key, []).append(n)
+    gkeys = sorted(groups, key=lambda k: (natkey(k[0]), k[1]))  # re-sort: synthetic bands sit above their descendants
 
     sgs = []
     for i, k in enumerate(gkeys):
@@ -268,24 +268,19 @@ def etymon(tag):
             )
         code = "" if k[0] in (None, "zz") else f'<span class="grpno">{esc(k[0])}</span>'
         # subgroup-anchored notes render on their band, like the original's band footnotes; the
-        # group-name lead-in states the scope (the anchor may cover several adjacent bands)
-        sgn = "".join(
-            '<div class="note-block sgnote">'
-            + render_note(n["xmlnote"]).replace(
-                '<p class="np">', f'<p class="np"><span class="sgnote-scope">{esc(grp)} —</span> ', 1
-            )
-            + "</div>"
-            for grp, n in sg_notes_at.get(i, [])
-        )
-        sgs.append(
+        # band header itself names the scope (synthetic bands exist only to carry their note)
+        sgn = "".join('<div class="note-block sgnote">' + render_note(n["xmlnote"]) + "</div>"
+                      for n in sg_notes.get(k, []))
+        # a synthetic note-only band gets no count chip and no (empty) list wrapper
+        count = f'<span class="c">{len(items)}</span>' if items else ""
+        body = (
             # rows-only wrapper carries role=list: the band header/notes must sit OUTSIDE it or
             # AT item counts break (role=list children must all be listitems)
-            f'<div class="sg" id="sg{i}"><h4>{code}{esc(k[1])}<span class="c">{len(items)}</span></h4>'
-            + sgn
-            + f'<div role="list" aria-label="{esc(k[1])} reflexes">'
-            + "".join(rfx)
-            + "</div></div>"
+            f'<div role="list" aria-label="{esc(k[1])} reflexes">' + "".join(rfx) + "</div>"
+            if items
+            else ""
         )
+        sgs.append(f'<div class="sg" id="sg{i}"><h4>{code}{esc(k[1])}{count}</h4>' + sgn + body + "</div>")
 
     feet = []  # page footnote collector — numbering runs on across notes AND comparanda
     noteshtml = ""
@@ -310,7 +305,7 @@ def etymon(tag):
         f'{nsub} subgroup{"" if nsub == 1 else "s"}</span>'
     )
     reflexeshtml = (
-        f'<section class="reflexes etymon-rfx"><h3>Reflexes &amp; cognates{cnt}</h3>{jump}{"".join(sgs)}</section>'
+        f'<section class="reflexes etymon-rfx"><h3>Reflexes &amp; cognates{cnt}</h3>{"".join(sgs)}</section>'
         if sgs
         # 33 etyma have zero visible reflexes; say so rather than jumping straight to Connections
         else '<p class="cap">No attested reflexes are linked to this etymon.</p>'
