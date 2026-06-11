@@ -242,13 +242,14 @@ def etymon(tag):
                 src = f'<a class="src" href="{source_href(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
             else:
                 src = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
-            # for a polymorphemic reflex (this etymon + at least one sibling), link each tagged syllable
-            # to its etymon (popover preview) and mark the syllable that IS this etymon; otherwise leave
-            # the form plain (marking a monomorphemic reflex's whole form would just be noise). Falls
-            # back to the plain form + an "also contains" list of siblings when syllabification doesn't fit.
+            # every analyzed reflex marks the syllable that IS this etymon (bold via .syl-self) and
+            # links sibling-etymon syllables (popover preview). Marking used to be suppressed when
+            # there was no sibling, but an identical form marked in one row and plain in the next
+            # read as random — the original marked the self syllable in every analyzed row, and that
+            # consistency is what made its convention learnable. Falls back to the plain form + an
+            # "also contains" list of siblings when syllabification doesn't fit the tagging.
             syn = None if r["rn"] in rn_syn_bad else rn_syn.get(r["rn"])
-            has_sibling = bool(syn) and any(t != tag for t in syn.values())
-            linked = syl_form(r["form"], syn, proto, self_tag=tag) if has_sibling else None
+            linked = syl_form(r["form"], syn, proto, self_tag=tag) if syn else None
             if linked is not None:
                 form, anl = linked, ""
             else:
