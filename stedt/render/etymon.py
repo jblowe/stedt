@@ -14,24 +14,6 @@ from .shell import page, breadcrumb, proto_labels
 from .shell import etymon_href, source_href, language_href, reflex_href
 from .templating import env
 
-def _grp_norm(s):
-    s = (s or "").lstrip("*").lower()
-    s = re.sub(r"\([^)]*\)", "", s)  # parenthetical qualifiers: '(Ao Group)', '(previously published …)'
-    s = re.sub(r"/.*$", "", s)  # slash-alternative tail: 'Northern Naga/Konyakian'
-    return re.sub(r"[^a-z0-9]", "", s)
-
-
-def _is_own_proto(language, grp):
-    """True when a proto-lect row ('*Tibeto-Burman') IS its group's own proto-language, so the
-    group's plg (PTB) labels it faithfully; False for guest reconstructions merely filed in a
-    group ('*Tibeto-Karen' in the TB bucket, '*Common Lahu' under Central Loloish, '*Kuki'
-    under Kuki-Chin) — those must keep their published attribution verbatim. Equality after
-    qualifier-stripping, NOT a prefix test: 'Kuki' is a prefix of 'Kuki-Chin' but a different
-    published taxon."""
-    lang = _grp_norm(language)
-    return bool(lang) and lang == _grp_norm(grp)
-
-
 _ETYMON = env.get_template("etymon.html")
 
 
@@ -165,13 +147,16 @@ def etymon(tag):
     crumb = breadcrumb(conn, ecat)
     conn.close()
 
-    # separate attested reflexes from previously-published reconstructions (language is a *proto-form node)
-    recon_rows = [r for r in rows if (r["language"] or "").startswith("*")]
+    # previously-published reconstructions (language is a *proto-form node) render as ordinary
+    # rows in the reflex table — their grpno-0.x buckets sort first, so they LEAD it, exactly the
+    # original's layout (a separate bottom section was tried and reverted 2026-06-11: splitting
+    # them read as missing data, and the table is where the original trained readers to look).
+    # They're split out here only for the header count, which keeps meaning attested reflexes.
     reflex_rows = [r for r in rows if not (r["language"] or "").startswith("*")]
 
-    # group attested reflexes by subgroup, order by stammbaum (groupnode)
+    # group ALL rows by subgroup, order by stammbaum (groupnode)
     groups = {}
-    for r in reflex_rows:
+    for r in rows:
         key = (r["groupnode"] or "zz", r["subgroup"] or "—")
         groups.setdefault(key, []).append(r)
     gkeys = sorted(groups, key=lambda k: (natkey(k[0]), k[1]))
@@ -325,36 +310,6 @@ def etymon(tag):
             '<section class="meso"><h3>Intermediate reconstructions</h3>'
             f'<div role="list" aria-label="Intermediate reconstructions">{mr}</div></section>'
         )
-
-    # previously published reconstructions (reflex rows whose "language" is a proto-form node)
-    reconhtml = ""
-    if recon_rows:
-        rr = ""
-        # Stammbaum order (then form), like the original's ORDER BY grp0..grp4 — not DB order,
-        # which scattered one scholar's PTB attributions across the list
-        recon_rows = sorted(recon_rows, key=lambda r: (natkey(r["groupnode"] or ""), sortkey(r["form"] or "")))
-        for r in recon_rows:
-            if _is_own_proto(r["language"], r["subgroup"]) and r["grpplg"]:
-                lab = r["grpplg"]
-            else:
-                lab = (r["language"] or "").strip()  # keep the published name, star and all
-            # the label names a proto-language — link it to its group page
-            rl = (
-                f'<a class="rl" href="/group/{r["grpid"]}">{esc(lab)}</a>'
-                if r["grpid"] is not None
-                else f'<span class="rl">{esc(lab)}</span>'
-            )
-            loc = f': {esc(r["srcid"])}' if r["srcid"] else ""
-            if r["srcabbr"]:
-                cit = f'<a class="src" href="{source_href(r["srcabbr"])}">{esc(r["citation"] or r["srcabbr"])}{loc}</a>'
-            else:
-                cit = f'<span class="src">{esc(r["citation"] or "")}{loc}</span>'
-            gl = f' ‘{esc(r["gloss"])}’' if r["gloss"] else ""
-            rr += (
-                f'<div class="conn-row">{rl}'
-                f'<span class="reltgt"><span class="recon"><span class="star">*</span>{disp_form(alt(r["form"]))}</span>{gl}</span>{cit}</div>'
-            )
-        reconhtml = f'<section class="conn"><h3>Previously reconstructed as</h3>{rr}</section>'
 
     # connections: HPTB reconstruction(s) + allofam / xref / possible allofam
     def rel_render(v):
@@ -530,7 +485,6 @@ def etymon(tag):
             reflexeshtml=Markup(reflexeshtml),
             noteshtml=Markup(noteshtml),
             mesohtml=Markup(mesohtml),
-            reconhtml=Markup(reconhtml),
             connhtml=Markup(connhtml),
             apparatus=Markup(apparatus),
         ),
