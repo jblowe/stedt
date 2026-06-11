@@ -99,6 +99,17 @@ def ingest_export(dest: str = typer.Argument(None, help="Destination directory (
     _run("stedt.dev.export_tsv", *([dest] if dest else []))
 
 
+@ingest_app.command("export-dump")
+def ingest_export_dump(
+    dest: str = typer.Argument(None, help="Output .sql path (default stedt_export.sql)."),
+    ddl_from: str = typer.Option(None, help="Reference dump supplying the verbatim DDL."),
+):
+    """Export stedt.sqlite back to MySQL dump format (the inverse of import-dump) —
+    for a post-revival public dump release or feeding the original rootcanal stack."""
+    args = ([dest] if dest else []) + (["--ddl-from", ddl_from] if ddl_from else [])
+    _run("stedt.dev.export_dump", *args)
+
+
 @ingest_app.command("roundtrip")
 def ingest_roundtrip(
     baseline: str = typer.Argument(..., help="Baseline sqlite."),
