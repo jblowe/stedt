@@ -333,6 +333,10 @@ a.syl:hover,a.syl:focus{z-index:5;}
 .famlist{display:flex;flex-wrap:wrap;gap:3px 22px;line-height:1.6;}
 .fam{white-space:nowrap;}
 .rl{font-variant:small-caps;letter-spacing:.08em;font-size:12px;color:var(--accent);width:92px;flex:none;}
+/* a linked label underlines its TEXT, not its fixed-width column box (border-bottom on the
+   92px flex item drew a long rule past short labels like 'PTB') */
+a.rl{border-bottom:none;text-decoration:underline;text-decoration-thickness:1px;text-decoration-color:var(--rule);text-underline-offset:3px;}
+a.rl:hover{text-decoration-color:var(--accent);}
 .conn-row .reltgt{flex:1;}
 .exm{color:var(--gold);font-variant:small-caps;letter-spacing:.06em;font-size:.9em;}
 /* public=0: not an official STEDT reconstruction (original shows a red '(provisional)') */
