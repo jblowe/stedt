@@ -69,7 +69,11 @@ function syllabify(s) {
 // + its etymon-preview popover. Keep the markup (a.syl, .sylpop, *protoform 'gloss') identical.
 const sylLink = r => {                     // syllable-linked form HTML, or null to fall back
   if (!r.syn) return null;
-  const sy = syllabify(String(r.form || '')), syls = sy.syls, dl = sy.dl;
+  // headword arrives as `form` (search payload) or `reflex` (category payload) — same fallback
+  // as the plain path below, or category rows lose their links (and ind-0 rows lost their TEXT:
+  // syllabifying '' yields one empty syllable, which happily took the link)
+  const head = r.form != null ? r.form : r.reflex;
+  const sy = syllabify(String(head || '')), syls = sy.syls, dl = sy.dl;
   for (const k in r.syn) { if (+k >= syls.length) return null; }   // tags must land on real syllables
   const info = {};                         // tag -> {pf, pg}, for the syllable's etymon-preview popover
   (r.etyma || []).forEach(e => { if (e && e.tag != null) info[e.tag] = e; });
