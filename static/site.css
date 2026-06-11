@@ -122,7 +122,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .ety-head .pf{font-family:"Charis SIL",serif;font-size:44px;font-weight:400;line-height:1.1;margin:6px 0 4px;}
 .vh{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap;}
 .ety-head .pg{font-variant:small-caps;letter-spacing:.03em;font-size:20px;color:var(--soft);}
-.crumbs{font-size:13px;color:var(--mut);margin:14px 0 0;}
+.crumbs{font-size:13px;color:var(--mut);margin:0 0 10px;}
 .crumbs a{color:var(--soft);border-bottom:1px dotted var(--rule);}
 .metabar{display:flex;gap:24px;margin:16px 0 4px;font-size:14px;color:var(--mut);flex-wrap:wrap;}
 .metabar b{font-family:"Fraunces",serif;color:var(--ink);font-size:16px;margin-right:5px;font-variant-numeric:tabular-nums;}

@@ -1,10 +1,12 @@
 
     <div class="ety-head">
+      {# crumbs lead the header sitewide: wayfinding reads before the content it situates,
+         and up here the chain needs no 'Semantic domain:' label to explain itself #}
+      <div class="crumbs">{{ crumbs }}</div>
       <span class="etno">STEDT #{{ tag }}</span>
       <h1 class="pf"><span class="star">*</span>{{ pf }}{{ badges }}</h1>
       <div class="pg">{{ pg }}</div>
       <div class="pl">{{ plg_html }}{{ exm }}</div>
-      <div class="crumbs">Semantic domain: {{ crumbs }}</div>
     </div>
     {# reconstruction-level material reads top-down — this etymon, its published priors,
        intermediate reconstructions, relations, then the discursive notes — with the (often

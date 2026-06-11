@@ -1,8 +1,8 @@
 
     <div class="ety-head">
+      <div class="crumbs">{{ crumbs }}</div>
       <div class="plg">Language group</div>
       <h1 class="pagetitle">{{ pagetitle }}</h1>
-      <div class="crumbs">{{ crumbs }}</div>
       <div class="metabar">{% for m in meta %}{{ m }}{% endfor %}</div>
     </div>
     <details class="seg" open><summary>Family tree<span class="c">{{ ntree }} groups</span></summary><div class="lgtree">{% for t in tree %}<div style="padding-left:{{ t.pad }}px">{{ t.inner }}</div>{% endfor %}</div></details>

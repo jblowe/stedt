@@ -1,8 +1,8 @@
 
     <div class="ety-head">
+      <div class="crumbs">{{ crumbs }}</div>
       <div class="plg">Language</div>
       <h1 class="pagetitle">{{ lang }}</h1>
-      <div class="crumbs">{{ crumbs }}</div>
       <div class="metabar">{% for m in meta %}{{ m }}{% endfor %}</div>
     </div>
     {% if variants %}<section class="reflexes"><h3>Sources<span class="cnt">{{ variants|length }}</span></h3><div role="list" aria-label="Sources">{% for v in variants %}<div class="rfx" role="listitem"><span>{{ v.cit }}</span><span class="subg">{{ v.mid }}</span><span class="src">{{ v.n_txt }}</span></div>{% endfor %}</div></section>{% endif %}

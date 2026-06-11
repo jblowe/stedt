@@ -1,9 +1,9 @@
 
     <div class="ety-head">
+      <div class="crumbs"><a href="/sources">Sources</a></div>
       <div class="plg">Source · {{ srcabbr }}</div>
       <h1 class="pagetitle">{{ cit_title }}</h1>
       {{ citehtml }}
-      <div class="crumbs"><a href="/sources">Sources</a></div>
       {#- meta is empty exactly when the source holds no visible records — the sources index's
           'Reference-only sources' bucket; mirror its language instead of an empty metabar -#}
       {% if meta %}<div class="metabar">{% for m in meta %}{{ m }}{% endfor %}</div>{% else %}<p class="cap">Cited in the literature; no records held in STEDT.</p>{% endif %}

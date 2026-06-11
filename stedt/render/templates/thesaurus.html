@@ -24,7 +24,7 @@
 })();
 </script>
 {%- else -%}
-<div class="ety-head"><div class="plg">Thesaurus · {{ semkey }}</div><h1 class="pagetitle">{{ title }}</h1><div class="crumbs"><a href="/thesaurus">Thesaurus</a>{% if crumb %} &nbsp;›&nbsp; {{ crumb }}{% endif %}</div></div>
+<div class="ety-head"><div class="crumbs"><a href="/thesaurus">Thesaurus</a>{% if crumb %} &nbsp;›&nbsp; {{ crumb }}{% endif %}</div><div class="plg">Thesaurus · {{ semkey }}</div><h1 class="pagetitle">{{ title }}</h1></div>
 {%- if cnotes -%}
 <section class="notes">{% for n in cnotes %}<div class="note-block">{{ n }}</div>{% endfor %}{{ cfeet }}</section>
 {%- endif -%}
