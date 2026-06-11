@@ -1,3 +1,11 @@
+# Setup
+
+Install the package to get the `stedt` command:
+
+```bash
+pip install -e .
+```
+
 # Building
 
 Data is canonically stored under **`data/`** as TSV (see [`data/FORMAT.md`](data/FORMAT.md)).
