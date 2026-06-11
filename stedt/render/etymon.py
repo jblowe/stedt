@@ -1,4 +1,8 @@
-"""Etymon page: the reconstruction with its reflexes, notes, and connections."""
+"""Etymon page: the reconstruction with its reflexes, notes, and connections.
+
+One section builder per page section (reflex bands, notes, intermediate reconstructions,
+connections, phonology, citation apparatus); etymon() fetches the data and assembles them.
+"""
 
 import re
 import urllib.parse
@@ -17,25 +21,19 @@ from .templating import env
 _ETYMON = env.get_template("etymon.html")
 
 
-def etymon(tag):
-    conn = con()
-    e = conn.execute(
-        """SELECT e.*, g.plg AS plg FROM etyma e
-        LEFT JOIN languagegroups g ON g.grpid=e.grpid WHERE e.tag=?""",
-        (tag,),
-    ).fetchone()
-    if not e:
-        conn.close()
-        return page("Not found", "<p>No such etymon.</p>")
+# ---------------------------------------------------------------- data
+def _notes_rows(conn, tag):
+    """The etymon's E-notes, split three ways: general notes, subgroup-anchored notes, and the
+    Chinese comparanda. A note whose id carries a grpid is anchored to that subgroup in the
+    reflex table — the original renders it as a footnote on the band. The anchor can be an
+    ANCESTOR of the bands actually present (e.g. 'Tani' over a page banded 1.1.1.1 Western
+    Tani …), so placement (in _reflex_section) is "first band at or under the anchor", matching
+    the original's sorted-position behavior."""
     notes = conn.execute(
         """SELECT xmlnote, id FROM notes WHERE tag=? AND spec='E' AND notetype NOT IN ('F','I')
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
         (tag,),
     ).fetchall()
-    # a note whose id carries a grpid is anchored to that subgroup in the reflex table — the
-    # original renders it as a footnote on the band. The anchor can be an ANCESTOR of the bands
-    # actually present (e.g. 'Tani' over a page banded 1.1.1.1 Western Tani …), so placement is
-    # "first band at or under the anchor", matching the original's sorted-position behavior.
     anchored = []  # (grpno, grp name, note row)
     if any(n["id"] for n in notes):
         unanchored = []
@@ -53,52 +51,36 @@ def etymon(tag):
                          AND xmlnote IS NOT NULL ORDER BY ord, noteid""",
         (tag,),
     ).fetchall()
-    rows = conn.execute(
-        f"""SELECT l.rn AS rn, ln.language AS language, ln.lgsort AS lgsort, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn AS gfn,
-            l.srcid AS srcid, g.grp AS subgroup, g.grpno AS groupnode, g.plg AS grpplg, g.grpid AS grpid,
-            sb.citation AS citation, ln.srcabbr AS srcabbr
-        FROM lx_et_hash h JOIN lexicon l ON l.rn=h.rn
-        JOIN languagenames ln ON ln.lgid=l.lgid
-        LEFT JOIN languagegroups g ON g.grpid=ln.grpid
-        LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
-        WHERE h.tag=? AND {LEX_VISIBLE} GROUP BY l.rn""",
-        (tag,),
-    ).fetchall()
-    hptb = conn.execute(
-        """SELECT h.plg, h.protoform, h.protogloss, h.pages
-        FROM et_hptb_hash x JOIN hptb h ON h.hptbid=x.hptbid WHERE x.tag=? ORDER BY x.ord""",
-        (tag,),
-    ).fetchall()
-    meso = conn.execute(
-        """SELECT g.grp AS subgroup, g.grpno AS groupnode, g.grpid AS grpid, m.form, m.gloss, m.variant, m.old_note
-        FROM mesoroots m LEFT JOIN languagegroups g ON g.grpid=m.grpid
-        WHERE m.tag=? ORDER BY g.grpno, m.id""",
-        (tag,),
-    ).fetchall()
-    # computed allofam family: etyma in one chapter sharing the integer part of the curated
-    # sequence are allofams of one root — how the original derives its Allofams box (the
-    # allofams/xrefs text fields are EMPTY for most family members, so without this the
-    # family is invisible; cf. the same query in legacy/render.py).
-    family = []
+    return notes, anchored, compar
+
+
+def _family_rows(conn, e):
+    """The computed allofam family: etyma in one chapter sharing the integer part of the curated
+    sequence are allofams of one root — how the original derives its Allofams box (the
+    allofams/xrefs text fields are EMPTY for most family members, so without this the
+    family is invisible; cf. the same query in legacy/render.py)."""
     seq = e["sequence"]
     try:
         seq_ok = seq is not None and float(seq) >= 1  # sequence is REAL; 0/0.0 = unsequenced
     except (TypeError, ValueError):
         seq_ok = False
-    if (e["chapter"] or "") and seq_ok:
-        family = conn.execute(
-            f"""SELECT tag, sequence, protoform, protogloss FROM etyma e
-            WHERE chapter=? AND CAST(sequence AS INTEGER)>0
-              AND CAST(sequence AS INTEGER)=CAST(? AS INTEGER)
-              AND {ETY_LIVE} ORDER BY sequence""",
-            (e["chapter"], seq),
-        ).fetchall()
-        if len(family) < 2:  # just this etymon: no family to show
-            family = []
-    # cross-reference labels: collect every standalone number in the three xref fields — a
-    # superset of what rel_render below will link (comma/semicolon lists, '↭ 686', and numbers
-    # embedded in prose), so the labels dict can serve them all. Dotted section refs ('3.4.5')
-    # are excluded by the lookarounds.
+    if not (e["chapter"] or "") or not seq_ok:
+        return []
+    family = conn.execute(
+        f"""SELECT tag, sequence, protoform, protogloss FROM etyma e
+        WHERE chapter=? AND CAST(sequence AS INTEGER)>0
+          AND CAST(sequence AS INTEGER)=CAST(? AS INTEGER)
+          AND {ETY_LIVE} ORDER BY sequence""",
+        (e["chapter"], seq),
+    ).fetchall()
+    return family if len(family) >= 2 else []  # just this etymon: no family to show
+
+
+def _relation_labels(conn, e):
+    """Cross-reference labels {tag: (protoform, protogloss)}: collect every standalone number in
+    the three xref fields — a superset of what _connections will link (comma/semicolon lists,
+    '↭ 686', and numbers embedded in prose), so the labels dict can serve them all. Dotted
+    section refs ('3.4.5') are excluded by the lookarounds."""
     digit_tokens = set()
     for fld in (e["allofams"], e["xrefs"], e["possallo"]):
         if fld:
@@ -112,19 +94,14 @@ def etymon(tag):
             toks,
         ):
             labels[r["tag"]] = (r["protoform"], r["protogloss"])
-    # per-reflex morpheme analysis: surface the *other* etyma a reflex also belongs to
-    # (i.e. it's a compound) as links, and per-syllable tagging for the linked form.
-    rns = [r["rn"] for r in rows]
-    analysis, rn_syn, rn_syn_bad = reflex_links(conn, rns)
-    # protoform + gloss for every etymon tagged on these reflexes (incl. this one), gated to non-DELETE
-    # pages: powers the per-syllable popovers (syl_form) and the "also contains" sibling links.
-    proto = proto_labels(conn, {t for ts in analysis.values() for t in ts if t and t > 0})
-    # per-reflex (L) notes; legacy shows these as reflex footnotes.
-    lnotes = lexical_notes(conn, rns)
-    ecat = e["chapter"] or e["semkey"]  # legacy files an etymon by its (more specific) chapter, not semkey
-    crumb = breadcrumb(conn, ecat)
-    conn.close()
+    return labels
 
+
+# ---------------------------------------------------------------- sections
+def _reflex_section(e, tag, rows, anchored, notes, lnotes, rn_syn, rn_syn_bad, analysis, proto):
+    """The reflex table: rows banded by subgroup in Stammbaum order, subgroup-anchored notes on
+    their bands. Returns (html, notes) — an anchored note whose subgroup has no band at or under
+    it falls back into the general notes list."""
     # previously-published reconstructions (language is a *proto-form node) render as ordinary
     # rows in the reflex table — their grpno-0.x buckets sort first, so they LEAD it, exactly the
     # original's layout (a separate bottom section was tried and reverted 2026-06-11: splitting
@@ -167,48 +144,7 @@ def etymon(tag):
             groups[k],
             key=lambda r: (sortkey(r["lgsort"] or r["language"]), sortkey(r["form"]), r["srcabbr"] or "", str(r["srcid"] or "")),
         )
-        rfx = []
-        # SYNC(reflex-row) ↔ web/src/rows.js reflexRow — keep this server-rendered reflex row's
-        # fields/order/classes/roles/links identical to the client one.
-        for r in items:
-            if lnotes.get(r["rn"]):
-                # show the gloss even when it matches the protogloss (which the branch below
-                # suppresses) so the note icon has its anchor
-                g = noted_gloss(r["rn"], r["gloss"] or e["protogloss"], lnotes[r["rn"]])
-            elif r["gloss"] and r["gloss"] != e["protogloss"]:
-                g = f'<span class="g">{esc(r["gloss"])}</span>'
-            else:
-                # deliberately suppress a reflex gloss identical to the etymon's protogloss (this is an
-                # etymon page — repeating it on every row is noise); search/language pages always show it.
-                g = ""
-            pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r["gfn"] else ""
-            lang = f'<a class="lang" href="{language_href(r["lgid"])}">{esc(r["language"])}</a>'
-            src = src_cell(r["srcabbr"], r["citation"], r["srcid"])
-            # every analyzed reflex marks the syllable that IS this etymon (bold via .syl-self) and
-            # links sibling-etymon syllables (popover preview). Marking used to be suppressed when
-            # there was no sibling, but an identical form marked in one row and plain in the next
-            # read as random — the original marked the self syllable in every analyzed row, and that
-            # consistency is what made its convention learnable. Falls back to the plain form + an
-            # "also contains" list of siblings when syllabification doesn't fit the tagging.
-            syn = None if r["rn"] in rn_syn_bad else rn_syn.get(r["rn"])
-            linked = syl_form(r["form"], syn, proto, self_tag=tag) if syn else None
-            if linked is not None:
-                form, anl = linked, ""
-            else:
-                form = disp_form(r["form"])
-                seen, links = set(), []
-                for mt in analysis.get(r["rn"], []):
-                    if mt and mt > 0 and mt != tag and mt not in seen and mt in proto:
-                        seen.add(mt)
-                        links.append(f'<a href="{etymon_href(mt)}">*{esc(alt(proto[mt][0]))}</a>')
-                anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ""
-            # whole row → this form's attestation (#rn on its language page), like the search/thesaurus
-            # rows; the language name / "also contains" / source / note-popover sit above the overlay
-            go = f'<a class="rx-go" href="{reflex_href(r["lgid"], r["rn"])}" aria-label="{esc(r["language"])}: go to this entry"></a>'
-            rfx.append(
-                f'<div class="rfx" role="listitem" id="r{r["rn"]}">{go}<a class="rnlink" href="#r{r["rn"]}" aria-label="Permalink to this entry"></a>{lang}'
-                f'<span class="form">{form} {pos}{g}{anl}</span>{src}</div>'
-            )
+        rfx = [_reflex_row(r, e, tag, lnotes, rn_syn, rn_syn_bad, analysis, proto) for r in items]
         code = "" if k[0] in (None, "zz") else f'<span class="grpno">{esc(k[0])}</span>'
         # subgroup-anchored notes render on their band, like the original's band footnotes; the
         # band header itself names the scope (synthetic bands exist only to carry their note)
@@ -225,6 +161,61 @@ def etymon(tag):
         )
         sgs.append(f'<div class="sg" id="sg{i}"><h4>{code}{esc(k[1])}{count}</h4>' + sgn + body + "</div>")
 
+    nr = len(reflex_rows)
+    cnt = f'<span class="cnt">{nr:,} {rfx_noun(nr)} · {nsub} {plural(nsub, "subgroup")}</span>'
+    html = (
+        f'<section class="reflexes etymon-rfx"><h3>Reflexes &amp; cognates{cnt}</h3>{"".join(sgs)}</section>'
+        if sgs
+        # 33 etyma have zero visible reflexes; say so rather than jumping straight to Connections
+        else '<p class="cap">No attested reflexes are linked to this etymon.</p>'
+    )
+    return html, notes
+
+
+def _reflex_row(r, e, tag, lnotes, rn_syn, rn_syn_bad, analysis, proto):
+    # SYNC(reflex-row) ↔ web/src/rows.js reflexRow — keep this server-rendered reflex row's
+    # fields/order/classes/roles/links identical to the client one.
+    if lnotes.get(r["rn"]):
+        # show the gloss even when it matches the protogloss (which the branch below
+        # suppresses) so the note icon has its anchor
+        g = noted_gloss(r["rn"], r["gloss"] or e["protogloss"], lnotes[r["rn"]])
+    elif r["gloss"] and r["gloss"] != e["protogloss"]:
+        g = f'<span class="g">{esc(r["gloss"])}</span>'
+    else:
+        # deliberately suppress a reflex gloss identical to the etymon's protogloss (this is an
+        # etymon page — repeating it on every row is noise); search/language pages always show it.
+        g = ""
+    pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r["gfn"] else ""
+    lang = f'<a class="lang" href="{language_href(r["lgid"])}">{esc(r["language"])}</a>'
+    src = src_cell(r["srcabbr"], r["citation"], r["srcid"])
+    # every analyzed reflex marks the syllable that IS this etymon (bold via .syl-self) and
+    # links sibling-etymon syllables (popover preview). Marking used to be suppressed when
+    # there was no sibling, but an identical form marked in one row and plain in the next
+    # read as random — the original marked the self syllable in every analyzed row, and that
+    # consistency is what made its convention learnable. Falls back to the plain form + an
+    # "also contains" list of siblings when syllabification doesn't fit the tagging.
+    syn = None if r["rn"] in rn_syn_bad else rn_syn.get(r["rn"])
+    linked = syl_form(r["form"], syn, proto, self_tag=tag) if syn else None
+    if linked is not None:
+        form, anl = linked, ""
+    else:
+        form = disp_form(r["form"])
+        seen, links = set(), []
+        for mt in analysis.get(r["rn"], []):
+            if mt and mt > 0 and mt != tag and mt not in seen and mt in proto:
+                seen.add(mt)
+                links.append(f'<a href="{etymon_href(mt)}">*{esc(alt(proto[mt][0]))}</a>')
+        anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ""
+    # whole row → this form's attestation (#rn on its language page), like the search/thesaurus
+    # rows; the language name / "also contains" / source / note-popover sit above the overlay
+    go = f'<a class="rx-go" href="{reflex_href(r["lgid"], r["rn"])}" aria-label="{esc(r["language"])}: go to this entry"></a>'
+    return (
+        f'<div class="rfx" role="listitem" id="r{r["rn"]}">{go}<a class="rnlink" href="#r{r["rn"]}" aria-label="Permalink to this entry"></a>{lang}'
+        f'<span class="form">{form} {pos}{g}{anl}</span>{src}</div>'
+    )
+
+
+def _notes_section(notes, compar):
     feet = []  # page footnote collector — numbering runs on across notes AND comparanda
     noteshtml = ""
     if notes:
@@ -240,45 +231,42 @@ def etymon(tag):
             + "".join(f'<div class="note-block">{render_note(r["xmlnote"], footnotes=feet)}</div>' for r in compar)
             + "</section>"
         )
-    noteshtml += footnotes_block(feet)
+    return noteshtml + footnotes_block(feet)
 
-    nr = len(reflex_rows)
-    cnt = f'<span class="cnt">{nr:,} {rfx_noun(nr)} · {nsub} {plural(nsub, "subgroup")}</span>'
-    reflexeshtml = (
-        f'<section class="reflexes etymon-rfx"><h3>Reflexes &amp; cognates{cnt}</h3>{"".join(sgs)}</section>'
-        if sgs
-        # 33 etyma have zero visible reflexes; say so rather than jumping straight to Connections
-        else '<p class="cap">No attested reflexes are linked to this etymon.</p>'
+
+def _meso_section(meso):
+    if not meso:
+        return ""
+    mr = ""
+    for m in meso:
+        sm = f'<span class="src">{esc(m["old_note"])}</span>' if m["old_note"] else '<span class="src"></span>'
+        lab = esc(m["subgroup"] or "")
+        langcell = (
+            f'<a class="lang" href="/group/{m["grpid"]}">{lab}</a>'
+            if m["grpid"] is not None
+            else f'<span class="lang">{lab}</span>'
+        )
+        # variant letters mark co-reconstructed alternants of one mesoroot: '(a) tsa EAT,
+        # (b) tsaat RICE' are a pair, not independent reconstructions (60 mesoroots)
+        var = f"({esc(m['variant'])}) " if m["variant"] else ""
+        # id anchors the syllable popover's mesoroot links (#ms-{grpno}), like the
+        # original elink popup's /etymon/tag#grpno targets
+        mid = f' id="ms-{esc(str(m["groupnode"] or ""))}"' if m["groupnode"] else ""
+        mr += (
+            f'<div class="rfx" role="listitem"{mid}>{langcell}'
+            f'<span class="form">{var}<span class="recon"><span class="star">*</span>{esc(alt(m["form"]))}</span> '
+            f'<span class="g">{esc(m["gloss"])}</span></span>{sm}</div>'
+        )
+    return (
+        '<section class="meso"><h3>Intermediate reconstructions</h3>'
+        f'<div role="list" aria-label="Intermediate reconstructions">{mr}</div></section>'
     )
 
-    mesohtml = ""
-    if meso:
-        mr = ""
-        for m in meso:
-            sm = f'<span class="src">{esc(m["old_note"])}</span>' if m["old_note"] else '<span class="src"></span>'
-            lab = esc(m["subgroup"] or "")
-            langcell = (
-                f'<a class="lang" href="/group/{m["grpid"]}">{lab}</a>'
-                if m["grpid"] is not None
-                else f'<span class="lang">{lab}</span>'
-            )
-            # variant letters mark co-reconstructed alternants of one mesoroot: '(a) tsa EAT,
-            # (b) tsaat RICE' are a pair, not independent reconstructions (60 mesoroots)
-            var = f"({esc(m['variant'])}) " if m["variant"] else ""
-            # id anchors the syllable popover's mesoroot links (#ms-{grpno}), like the
-            # original elink popup's /etymon/tag#grpno targets
-            mid = f' id="ms-{esc(str(m["groupnode"] or ""))}"' if m["groupnode"] else ""
-            mr += (
-                f'<div class="rfx" role="listitem"{mid}>{langcell}'
-                f'<span class="form">{var}<span class="recon"><span class="star">*</span>{esc(alt(m["form"]))}</span> '
-                f'<span class="g">{esc(m["gloss"])}</span></span>{sm}</div>'
-            )
-        mesohtml = (
-            '<section class="meso"><h3>Intermediate reconstructions</h3>'
-            f'<div role="list" aria-label="Intermediate reconstructions">{mr}</div></section>'
-        )
 
-    # connections: HPTB reconstruction(s) + allofam / xref / possible allofam
+def _connections(e, tag, hptb, family, labels):
+    """HPTB reconstruction(s) + the computed allofam family + the curated allofam / xref /
+    possible-allofam fields, each rendered as a labeled connection row."""
+
     def rel_render(v):
         v = (v or "").strip()
         if not v:
@@ -365,8 +353,10 @@ def etymon(tag):
                 f'<div class="conn-row"><span class="rl">{label}</span>'
                 f'<span class="reltgt">{rel_render(fld)}</span></div>'
             )
-    connhtml = f'<section class="conn"><h3>Connections</h3>{"".join(rels)}</section>' if rels else ""
+    return f'<section class="conn"><h3>Connections</h3>{"".join(rels)}</section>' if rels else ""
 
+
+def _phon_section(e):
     # reconstruction analysis (the etymon's phonological structure) — exposed by neither the
     # original site nor us before; ~40% of etyma carry it. medial is always empty, so omit.
     phon_fields = [
@@ -381,15 +371,97 @@ def etymon(tag):
     cover = " · ".join(x for x in (e["initcover"], e["rhymecover"]) if x)
     if cover:
         chips.append(("cover", cover))
-    phonhtml = ""
-    if chips:
-        cells = "".join(
-            f'<span class="pf-f"><span class="rl">{lab}</span>' f'<span class="val">{esc(val)}</span></span>'
-            for lab, val in chips
-        )
-        phonhtml = (
-            f'<section class="phon"><h3>Reconstruction analysis</h3>' f'<div class="phon-grid">{cells}</div></section>'
-        )
+    if not chips:
+        return ""
+    cells = "".join(
+        f'<span class="pf-f"><span class="rl">{lab}</span>' f'<span class="val">{esc(val)}</span></span>'
+        for lab, val in chips
+    )
+    return f'<section class="phon"><h3>Reconstruction analysis</h3>' f'<div class="phon-grid">{cells}</div></section>'
+
+
+def _apparatus(e):
+    """The copy-ready "Cite this entry" box: citation line, stable link, copy buttons, BibTeX."""
+    pf = esc(alt(e["protoform"]))
+    cite_text = f"STEDT etymon #{e['tag']}, *{alt(e['protoform'])} ‘{e['protogloss']}’. " + cite_tail(
+        f"{CITE_BASE}/etymon/{e['tag']}"
+    )
+    bib = (
+        "@misc{stedt-" + str(e["tag"]) + ",\n"
+        "  title  = {{*" + alt(e["protoform"] or "") + " '" + (e["protogloss"] or "") + "'}},\n"
+        "  author = {STEDT},\n"
+        "  year   = {2017},\n"
+        "  note   = {Sino-Tibetan Etymological Dictionary and Thesaurus (STEDT) v1.0, etymon #" + str(e["tag"]) + "},\n"
+        "  url    = {" + CITE_BASE + "/etymon/" + str(e["tag"]) + "}\n"
+        "}"
+    )
+    refs_line = f'<div>References: {esc(e["notes"])}</div>' if e["notes"] else ""
+    return f"""
+    <section class="apparatus"><h3>Cite this entry</h3>
+      <div class="citebox">
+        <div>STEDT etymon #{e['tag']}, <code>*{pf} ‘{esc(e['protogloss'])}’</code>.</div>
+        <div>Stable link: <code>{esc(CITE_BASE)}/etymon/{e['tag']}</code></div>
+        <div>Data: STEDT v1.0 (2017). Accessed: <span class="adate">[date]</span>.</div>
+        {refs_line}
+        <div class="cite-actions">
+          <button class="copybtn" data-cite="{esc(cite_text)}">Copy citation</button>
+          <button class="copybtn" data-cite="{esc(bib)}">Copy BibTeX</button>
+        </div>
+        <details class="seg"><summary>BibTeX</summary><pre class="diff">{esc(bib)}</pre></details>
+      </div>
+    </section><script type="module" src="/assets/cite.js"></script>"""
+
+
+# ---------------------------------------------------------------- the page
+def etymon(tag):
+    conn = con()
+    e = conn.execute(
+        """SELECT e.*, g.plg AS plg FROM etyma e
+        LEFT JOIN languagegroups g ON g.grpid=e.grpid WHERE e.tag=?""",
+        (tag,),
+    ).fetchone()
+    if not e:
+        conn.close()
+        return page("Not found", "<p>No such etymon.</p>")
+    notes, anchored, compar = _notes_rows(conn, tag)
+    rows = conn.execute(
+        f"""SELECT l.rn AS rn, ln.language AS language, ln.lgsort AS lgsort, l.lgid AS lgid, l.reflex AS form, l.gloss, l.gfn AS gfn,
+            l.srcid AS srcid, g.grp AS subgroup, g.grpno AS groupnode, g.plg AS grpplg, g.grpid AS grpid,
+            sb.citation AS citation, ln.srcabbr AS srcabbr
+        FROM lx_et_hash h JOIN lexicon l ON l.rn=h.rn
+        JOIN languagenames ln ON ln.lgid=l.lgid
+        LEFT JOIN languagegroups g ON g.grpid=ln.grpid
+        LEFT JOIN srcbib sb ON sb.srcabbr=ln.srcabbr
+        WHERE h.tag=? AND {LEX_VISIBLE} GROUP BY l.rn""",
+        (tag,),
+    ).fetchall()
+    hptb = conn.execute(
+        """SELECT h.plg, h.protoform, h.protogloss, h.pages
+        FROM et_hptb_hash x JOIN hptb h ON h.hptbid=x.hptbid WHERE x.tag=? ORDER BY x.ord""",
+        (tag,),
+    ).fetchall()
+    meso = conn.execute(
+        """SELECT g.grp AS subgroup, g.grpno AS groupnode, g.grpid AS grpid, m.form, m.gloss, m.variant, m.old_note
+        FROM mesoroots m LEFT JOIN languagegroups g ON g.grpid=m.grpid
+        WHERE m.tag=? ORDER BY g.grpno, m.id""",
+        (tag,),
+    ).fetchall()
+    family = _family_rows(conn, e)
+    labels = _relation_labels(conn, e)
+    # per-reflex morpheme analysis: surface the *other* etyma a reflex also belongs to
+    # (i.e. it's a compound) as links, and per-syllable tagging for the linked form.
+    rns = [r["rn"] for r in rows]
+    analysis, rn_syn, rn_syn_bad = reflex_links(conn, rns)
+    # protoform + gloss for every etymon tagged on these reflexes (incl. this one), gated to non-DELETE
+    # pages: powers the per-syllable popovers (syl_form) and the "also contains" sibling links.
+    proto = proto_labels(conn, {t for ts in analysis.values() for t in ts if t and t > 0})
+    # per-reflex (L) notes; legacy shows these as reflex footnotes.
+    lnotes = lexical_notes(conn, rns)
+    ecat = e["chapter"] or e["semkey"]  # legacy files an etymon by its (more specific) chapter, not semkey
+    crumb = breadcrumb(conn, ecat)
+    conn.close()
+
+    reflexeshtml, notes = _reflex_section(e, tag, rows, anchored, notes, lnotes, rn_syn, rn_syn_bad, analysis, proto)
 
     pf = esc(alt(e["protoform"]))
     plg_ab = e["plg"] or ""
@@ -406,34 +478,6 @@ def etymon(tag):
                        prov_title="This etymon is provisional and should not be considered"
                        " an official STEDT reconstruction.")
 
-    cite_text = f"STEDT etymon #{e['tag']}, *{alt(e['protoform'])} ‘{e['protogloss']}’. " + cite_tail(
-        f"{CITE_BASE}/etymon/{e['tag']}"
-    )
-    bib = (
-        "@misc{stedt-" + str(e["tag"]) + ",\n"
-        "  title  = {{*" + alt(e["protoform"] or "") + " '" + (e["protogloss"] or "") + "'}},\n"
-        "  author = {STEDT},\n"
-        "  year   = {2017},\n"
-        "  note   = {Sino-Tibetan Etymological Dictionary and Thesaurus (STEDT) v1.0, etymon #" + str(e["tag"]) + "},\n"
-        "  url    = {" + CITE_BASE + "/etymon/" + str(e["tag"]) + "}\n"
-        "}"
-    )
-    refs_line = f'<div>References: {esc(e["notes"])}</div>' if e["notes"] else ""
-    apparatus = f"""
-    <section class="apparatus"><h3>Cite this entry</h3>
-      <div class="citebox">
-        <div>STEDT etymon #{e['tag']}, <code>*{pf} ‘{esc(e['protogloss'])}’</code>.</div>
-        <div>Stable link: <code>{esc(CITE_BASE)}/etymon/{e['tag']}</code></div>
-        <div>Data: STEDT v1.0 (2017). Accessed: <span class="adate">[date]</span>.</div>
-        {refs_line}
-        <div class="cite-actions">
-          <button class="copybtn" data-cite="{esc(cite_text)}">Copy citation</button>
-          <button class="copybtn" data-cite="{esc(bib)}">Copy BibTeX</button>
-        </div>
-        <details class="seg"><summary>BibTeX</summary><pre class="diff">{esc(bib)}</pre></details>
-      </div>
-    </section><script type="module" src="/assets/cite.js"></script>"""
-
     return page(
         # the #tag is the citable identity (About says so) — without it, homophonous etyma
         # (#2621/#5521 *d-k-ruk 'SIX') share an identical <title>
@@ -446,12 +490,12 @@ def etymon(tag):
             plg_html=Markup(plg_html),
             exm=Markup(exm),
             crumbs=Markup(crumb or esc(ecat)),
-            phonhtml=Markup(phonhtml),
+            phonhtml=Markup(_phon_section(e)),
             reflexeshtml=Markup(reflexeshtml),
-            noteshtml=Markup(noteshtml),
-            mesohtml=Markup(mesohtml),
-            connhtml=Markup(connhtml),
-            apparatus=Markup(apparatus),
+            noteshtml=Markup(_notes_section(notes, compar)),
+            mesohtml=Markup(_meso_section(meso)),
+            connhtml=Markup(_connections(e, tag, hptb, family, labels)),
+            apparatus=Markup(_apparatus(e)),
         ),
         nav="reconstructions",
         desc=f"Sino-Tibetan etymon #{e['tag']}, *{alt(e['protoform'])} ‘{e['protogloss']}’: "
