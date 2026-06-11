@@ -72,9 +72,8 @@ gloss, gfn?, semkey?, page?, note?, source_note?`; the xlsx documents each colum
 sheet). The template deliberately omits everything machine-assigned or editorial: `rn`, `lgid`,
 the `original*` twins, workflow columns, and `analysis`/`semkey` placement, which is editor work.
 
-`stedt new-source <file>` (`.tsv`, `.csv`, or `.xlsx` — needs `pip install stedt[xlsx]` for
-Excel) then walks the projection: bibliography prompts → language placement → fresh `rn`s →
-the folder → `stedt validate`. Language entries are **per-source** (every `lgid` in the corpus
+`stedt new-source <file>` (`.tsv`, `.csv`, or `.xlsx`) then walks the projection: bibliography
+prompts → language placement → fresh `rn`s → the folder → `stedt validate`. Language entries are **per-source** (every `lgid` in the corpus
 is used by exactly one source; `languages.source` names it), so the wizard always appends new
 `languages.tsv` rows for the source, placing them by same-name precedent and prompting only
 when precedent is absent or split.

@@ -7,14 +7,13 @@ name = "stedt"
 version = "0.1.0"
 description = "Build tooling and page renderer for the STEDT static site"
 requires-python = ">=3.11"
-dependencies = ["jinja2", "typer"]
+dependencies = ["jinja2", "typer", "openpyxl"]
 
 [project.scripts]
 stedt = "stedt.cli:app"
 
 [project.optional-dependencies]
 dev = ["black", "pre-commit"]
-xlsx = ["openpyxl"]  # `stedt new-source`: contributor .xlsx wordlists + the .xlsx template
 
 [tool.black]
 line-length = 120
