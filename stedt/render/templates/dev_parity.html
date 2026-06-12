@@ -39,17 +39,15 @@
 <script>
 (function () {
   var B = window.STEDT_BASE || '';
-  var ORIG = 'https://stedtdb.johnblowe.com';
   var CASES = [
   {%- for c in cases %}
-  {legacy: {{ c.legacy|tojson }}, modern: {{ c.modern|tojson }}, orig: {{ c.orig|tojson }}, note: {{ c.note|tojson }}}{{ "," if not loop.last }}
+  {legacy: {{ c.legacy|tojson }}, modern: {{ c.modern|tojson }}, note: {{ c.note|tojson }}}{{ "," if not loop.last }}
   {%- endfor %}
   ];
   var btns = document.querySelectorAll('#pv-cases button');
   function show(i) {
     var c = CASES[i];
-    document.getElementById('pv-note').innerHTML = c.note +
-      ' <a href="' + ORIG + c.orig + '" target="_blank" rel="noopener">(this view on the old server, while it lasts)</a>';
+    document.getElementById('pv-note').textContent = c.note;
     document.getElementById('pv-l').src = B + c.legacy;
     document.getElementById('pv-r').src = B + c.modern;
     document.getElementById('pv-la').textContent = c.legacy;

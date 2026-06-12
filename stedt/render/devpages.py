@@ -3,8 +3,7 @@
 For showing old STEDT users what views correspond to what. Deliberately NOT a themed
 site page: a standalone document (its own minimal styling, no masthead), modeled on the
 dev review harness. Left pane is /_legacy/ — the static, working rootcanal clone, so the
-exhibit outlives the original server; right pane is the modern view; each case links the
-live original while it survives.
+exhibit outlives the original server; right pane is the modern view.
 
 TO RETIRE: build with STEDT_DEV_PARITY=0, or delete this module, its template
 (dev_parity.html), and the gated write() in stedt/build/static.py. Nothing else
@@ -15,7 +14,7 @@ from .templating import env
 
 _DEV_PARITY = env.get_template("dev_parity.html")
 
-# (label, legacy path, modern path, original path on the live server, what to notice)
+# (label, legacy path, modern path, retired live-server path (unused), what to notice)
 CASES = [
     ("Front page", "/_legacy/", "/",
      "/", "The splash's gloss + language boxes became one box; the same examples are runnable beneath it."),
