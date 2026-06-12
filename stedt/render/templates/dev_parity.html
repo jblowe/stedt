@@ -1,0 +1,65 @@
+{# /_dev/parity/ — the "where did everything go?" exhibit (see devpages.py for the
+   retirement instructions; this template has no other consumers). #}
+    <div class="ety-head">
+      <div class="plg">For readers of the original STEDT database</div>
+      <h1 class="pagetitle">Where everything went</h1>
+    </div>
+    <p>This site replaces the STEDT database interface that ran at Berkeley (and later at
+    <a href="https://stedtdb.johnblowe.com/">stedtdb.johnblowe.com</a>) — same data, new pages.
+    The table below maps each view of the original to its home here. Below it, a side-by-side
+    viewer shows the two interfaces on the same content: the left pane is
+    <a href="/_legacy/">/_legacy/</a>, this site's faithful working copy of the original
+    (it stays available permanently), and the right pane is the modern view.</p>
+
+    <section class="thes">
+      <h3>The map</h3>
+      <table class="pv-map">
+        <thead><tr><th>In the original</th><th>Here</th><th>What changed</th></tr></thead>
+        <tbody>
+        {%- for r in table %}
+        <tr><td>{{ r.was }}</td><td>{{ r.now }}</td><td>{{ r.note }}</td></tr>
+        {%- endfor %}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="pv-viewer">
+      <h3>Side by side</h3>
+      <nav class="pv-cases" aria-label="Comparison cases">
+        {%- for c in cases %}
+        <button type="button" data-i="{{ loop.index0 }}">{{ c.label }}</button>
+        {%- endfor %}
+      </nav>
+      <p class="cap pv-note" id="pv-note"></p>
+      <div class="pv-panes">
+        <div><h4>Original interface <span class="pv-addr" id="pv-la"></span></h4><iframe id="pv-l" title="Original interface (legacy mirror)"></iframe></div>
+        <div><h4>This site <span class="pv-addr" id="pv-ra"></span></h4><iframe id="pv-r" title="Modern interface"></iframe></div>
+      </div>
+      <p class="cap">Each pane is the real page — click around in either. <span id="pv-live"></span></p>
+    </section>
+
+    <script>
+    (function () {
+      var B = window.STEDT_BASE || '';
+      var ORIG = 'https://stedtdb.johnblowe.com';
+      var CASES = [
+        {%- for c in cases %}
+        {legacy: {{ c.legacy|tojson }}, modern: {{ c.modern|tojson }}, orig: {{ c.orig|tojson }}, note: {{ c.note|tojson }}}{{ "," if not loop.last }}
+        {%- endfor %}
+      ];
+      var btns = document.querySelectorAll('.pv-cases button');
+      function show(i) {
+        var c = CASES[i];
+        document.getElementById('pv-note').textContent = c.note;
+        document.getElementById('pv-l').src = B + c.legacy;
+        document.getElementById('pv-r').src = B + c.modern;
+        document.getElementById('pv-la').textContent = c.legacy;
+        document.getElementById('pv-ra').textContent = c.modern;
+        document.getElementById('pv-live').innerHTML =
+          'While the old server is still up, this view on it: <a href="' + ORIG + c.orig + '" target="_blank" rel="noopener">' + ORIG + c.orig + '</a>.';
+        btns.forEach(function (b, j) { b.classList.toggle('on', i === j); });
+      }
+      btns.forEach(function (b) { b.addEventListener('click', function () { show(+b.dataset.i); }); });
+      show(0);
+    })();
+    </script>

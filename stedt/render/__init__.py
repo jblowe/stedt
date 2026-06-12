@@ -18,3 +18,4 @@ from .language import *  # noqa: F401,F403
 from .source import *  # noqa: F401,F403
 from .group import *  # noqa: F401,F403
 from .indexes import *  # noqa: F401,F403
+from .devpages import *  # noqa: F401,F403
