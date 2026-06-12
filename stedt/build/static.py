@@ -137,10 +137,9 @@ def main():
     grpids = cap([r[0] for r in c.execute("SELECT grpid FROM languagegroups ORDER BY grpid")])
     c.close()
 
-    # /_dev/parity/ — the "where did everything go?" exhibit for old STEDT users (the
-    # correspondence map + the legacy↔modern side-by-side viewer). TO RETIRE: build with
-    # STEDT_DEV_PARITY=0, or delete this block + stedt/render/devpages.py + its template
-    # + the .pv- CSS block in site.css.
+    # /_dev/parity/ — bare side-by-side viewer (legacy mirror ↔ modern view) for old STEDT
+    # users. TO RETIRE: build with STEDT_DEV_PARITY=0, or delete this block +
+    # stedt/render/devpages.py + its template (the page carries its own styles).
     if os.environ.get("STEDT_DEV_PARITY", "1") != "0":
         write("_dev/parity", render.dev_parity)
 
