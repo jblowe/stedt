@@ -12,8 +12,9 @@ Data is canonically stored under **`data/`** as TSV (see [`data/FORMAT.md`](data
 Everything is a subcommand of the `stedt` CLI (`stedt --help`), grouped by workflow:
 
 ```
-data/    ──stedt build──▶  site/     # compile + render + bundle the whole deployable site
-dump.sql ──stedt ingest──▶ data/     # (re)derive the TSV markup from a SQL dump (rare)
+data/    ──stedt build───────▶ site/     # compile + render + bundle the whole deployable site
+dump.sql ──stedt dump import─▶ data/     # (re)derive the TSV markup from a SQL dump (rare)
+data/    ──stedt dump export─▶ dump.sql  # emit a MySQL dump (public release / rootcanal stack)
 ```
 
 ## Prerequisites
@@ -55,35 +56,41 @@ stedt serve       # builds root-relative (base='') and serves site/ at http://lo
 changes the port. (A plain `stedt build` prefixes links with `/stedt`, the GitHub Pages subpath —
 that's for deploying, not local serving.)
 
-## Regenerate the markup from a SQL dump
+## The MySQL dump (import / export)
 
 `data/` was generated once from a STEDT SQL dump. To re-derive it (rarely needed):
 
 ```sh
-stedt ingest                              # the archived dump → stedt.sqlite → data/ TSVs
-# or, for a specific dump:
-stedt ingest import-dump path/to/dump.sql
-stedt ingest export
+stedt dump import                         # the archived dump → stedt.sqlite → data/ TSVs
+stedt dump import path/to/dump.sql        # or, for a specific dump
 ```
 
 Then review with `git diff data/` and rebuild as above (`stedt build` re-derives `stedt.sqlite`
-from `data/`). `stedt ingest export` drops a few non-curated columns (modtime/uid, stale workflow
-flags, legacy category codes) — see `stedt/dev/export_tsv.py`. The round-trip is lossless;
-`stedt ingest roundtrip <baseline.sqlite> <rebuilt.sqlite>` asserts it (every table reproduced
-identically, surrogate row-ids excepted).
+from `data/`). The import drops a few non-curated columns (modtime/uid, stale workflow flags,
+legacy category codes) — see `stedt/dev/export_tsv.py`.
+
+To go the other way (for a public dump release or feeding the original rootcanal stack):
+
+```sh
+stedt dump export                         # data/ → stedt.sqlite → stedt_export.sql
+stedt dump export out.sql --ddl-from path/to/reference.sql
+```
+
+The round-trip is lossless; `stedt check roundtrip <baseline.sqlite> <rebuilt.sqlite>` asserts it
+(every table reproduced identically, surrogate row-ids excepted).
 
 ## Verifying a refactor (golden-output snapshots)
 
 Every page is a deterministic function of `data/` (the only date — the citation "Accessed" stamp
 — is filled in client-side), so a refactor that isn't meant to change the site should produce
-byte-identical HTML. `stedt dev snapshot` makes that checkable: it renders the full site (modern +
+byte-identical HTML. `stedt check snapshot` makes that checkable: it renders the full site (modern +
 `/_legacy/`) via the real build modules, then writes a `MANIFEST.sha256`.
 
 ```sh
-stedt dev snapshot build .snapshots/before    # 1. baseline the current site
+stedt check snapshot build .snapshots/before    # 1. baseline the current site
 # 2. ...make your change...
-stedt dev snapshot build .snapshots/after     # 3. snapshot again
-stedt dev snapshot compare .snapshots/before .snapshots/after
+stedt check snapshot build .snapshots/after     # 3. snapshot again
+stedt check snapshot compare .snapshots/before .snapshots/after
 ```
 
 `compare` prints `IDENTICAL` (exit 0) or the list of changed/added/removed pages (exit 1, so it

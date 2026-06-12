@@ -41,7 +41,7 @@ entry, so a change that silently widens a divergence still fails:
               at its nearest real ancestor by the modern thesaurus; the faithful
               legacy port (WHERE chapter = semkey) orphans it.
 
-Usage: python -m stedt.dev.parity  (or `stedt dev parity`); exits nonzero on
+Usage: python -m stedt.dev.parity  (or `stedt check parity`); exits nonzero on
 non-whitelisted divergences. Compares every page present in BOTH trees, so it works
 on STEDT_LIMIT builds too (and says how many pages were skipped as one-sided).
 """

@@ -1,9 +1,10 @@
-"""The ``stedt`` command — a workflow-grouped dispatcher over the build/ingest/dev modules.
+"""The ``stedt`` command — a workflow-grouped dispatcher over the build/dump/dev modules.
 
-Commands are grouped by the job they belong to: ``ingest`` (a MySQL dump → the data/ TSVs),
-``build`` (data/ → the deployable site/, with npm wrapped), and ``dev`` (the snapshot harness),
-plus top-level ``validate``, ``serve``, and ``setup``. A bare group command runs that whole chunk —
-``stedt build`` builds the entire site, ``stedt ingest`` re-derives data/ from the dump.
+Commands are grouped by the job they belong to: ``build`` (data/ → the deployable site/, with npm
+wrapped), ``dump`` (two-way interchange with the legacy MySQL ``.sql`` dump), and ``check`` (the
+verification harness), plus top-level ``validate``, ``serve``, ``new-source``, and ``setup``. A bare
+group command runs that whole chunk where there's an obvious default — ``stedt build`` builds the
+entire site.
 
 Each step runs its module in a fresh process (``python -m stedt.…``) so the modules' import-time
 argv/env reads are preserved and every module stays runnable on its own; the JS steps shell out to
@@ -20,14 +21,14 @@ from stedt.new_source import HELP as NEW_SOURCE_HELP
 from stedt.paths import SITE, WEB
 
 app = typer.Typer(add_completion=False, no_args_is_help=True, help="Build tooling for the STEDT static site.")
-ingest_app = typer.Typer(no_args_is_help=False, help="Ingest a MySQL dump into the data/ TSVs.")
 build_app = typer.Typer(no_args_is_help=False, help="Build the deployable site from data/.")
-dev_app = typer.Typer(no_args_is_help=True, help="Developer tooling.")
+dump_app = typer.Typer(no_args_is_help=True, help="Interchange with the legacy MySQL .sql dump (import/export).")
+check_app = typer.Typer(no_args_is_help=True, help="Verify the build: parity, search, snapshots, round-trip.")
 snapshot_app = typer.Typer(no_args_is_help=True, help="Golden-output harness for verifying refactors.")
-dev_app.add_typer(snapshot_app, name="snapshot")
-app.add_typer(ingest_app, name="ingest")
+check_app.add_typer(snapshot_app, name="snapshot")
 app.add_typer(build_app, name="build")
-app.add_typer(dev_app, name="dev")
+app.add_typer(dump_app, name="dump")
+app.add_typer(check_app, name="check")
 
 
 def _run(module, *args, env=None):
@@ -79,47 +80,6 @@ def _full_build(env=None):
     _legacy(base=env.get("STEDT_BASE"))
 
 
-# ───────────────────────────── ingest: dump → data/ TSVs ─────────────────────────────
-@ingest_app.callback(invoke_without_command=True)
-def ingest(ctx: typer.Context):
-    """MySQL dump → data/ TSVs. With no subcommand: import-dump then export (the default dump)."""
-    if ctx.invoked_subcommand is None:
-        _run("stedt.dev.build_db")
-        _run("stedt.dev.export_tsv")
-
-
-@ingest_app.command("import-dump")
-def ingest_import_dump(dump: str = typer.Argument(None, help="Path to the MySQL dump (default stedtdb_v1.0/…).")):
-    """Build stedt.sqlite from the original MySQL dump."""
-    _run("stedt.dev.build_db", *([dump] if dump else []))
-
-
-@ingest_app.command("export")
-def ingest_export(dest: str = typer.Argument(None, help="Destination directory (default data/).")):
-    """Export stedt.sqlite back to the all-TSV source in data/."""
-    _run("stedt.dev.export_tsv", *([dest] if dest else []))
-
-
-@ingest_app.command("export-dump")
-def ingest_export_dump(
-    dest: str = typer.Argument(None, help="Output .sql path (default stedt_export.sql)."),
-    ddl_from: str = typer.Option(None, help="Reference dump supplying the verbatim DDL."),
-):
-    """Export stedt.sqlite back to MySQL dump format (the inverse of import-dump) —
-    for a post-revival public dump release or feeding the original rootcanal stack."""
-    args = ([dest] if dest else []) + (["--ddl-from", ddl_from] if ddl_from else [])
-    _run("stedt.dev.export_dump", *args)
-
-
-@ingest_app.command("roundtrip")
-def ingest_roundtrip(
-    baseline: str = typer.Argument(..., help="Baseline sqlite."),
-    rebuilt: str = typer.Argument(..., help="Rebuilt sqlite."),
-):
-    """Assert two sqlite DBs are semantically identical (the lossless round-trip gate)."""
-    _run("stedt.dev.gate_roundtrip", baseline, rebuilt)
-
-
 # ───────────────────────────── build: data/ → site/ ─────────────────────────────
 @build_app.callback(invoke_without_command=True)
 def build(ctx: typer.Context):
@@ -164,6 +124,28 @@ def build_legacy(
 ):
     """Build the /_legacy/ rootcanal clone (search DB + pages + shim) into site/_legacy/."""
     _legacy(base, out, limit)
+
+
+# ───────────────────────────── dump: MySQL .sql ⇄ data/ ─────────────────────────────
+@dump_app.command("import")
+def dump_import(dump: str = typer.Argument(None, help="Path to the MySQL dump (default stedtdb_v1.0/…).")):
+    """Import a MySQL dump into data/: dump → stedt.sqlite → the all-TSV source in data/.
+    Rarely needed — data/ is the source of truth; this re-derives it from an archived dump."""
+    _run("stedt.dev.build_db", *([dump] if dump else []))
+    _run("stedt.dev.export_tsv")
+
+
+@dump_app.command("export")
+def dump_export(
+    dest: str = typer.Argument(None, help="Output .sql path (default stedt_export.sql)."),
+    ddl_from: str = typer.Option(None, help="Reference dump supplying the verbatim DDL."),
+):
+    """Export data/ to a MySQL dump (the inverse of import): data/ → stedt.sqlite → .sql —
+    for a public dump release or feeding the original rootcanal stack. Compiles stedt.sqlite from
+    data/ first, so it works from a clean checkout."""
+    _run("stedt.build.from_tsv")
+    args = ([dest] if dest else []) + (["--ddl-from", ddl_from] if ddl_from else [])
+    _run("stedt.dev.export_dump", *args)
 
 
 # ───────────────────────────── top-level ─────────────────────────────
@@ -231,19 +213,28 @@ def setup():
     typer.echo("JS deps installed. Python deps come from `pip install .` (or `-e .[dev]` for development).")
 
 
-# ───────────────────────────── dev ─────────────────────────────
-@dev_app.command("parity")
-def dev_parity():
+# ───────────────────────────── check: verification harness ─────────────────────────────
+@check_app.command("parity")
+def check_parity():
     """Diff the modern pages against the /_legacy/ mirror (the rendering oracle);
     non-zero exit on any divergence outside the documented whitelist."""
     _run("stedt.dev.parity")
 
 
-@dev_app.command("search-battery")
-def dev_search_battery():
+@check_app.command("search")
+def check_search():
     """Assert the documented search idioms (token match, comma-OR, field filters,
     CJK fallback, subgroup subtrees) over the built search.sqlite3."""
     _run("stedt.dev.search_battery")
+
+
+@check_app.command("roundtrip")
+def check_roundtrip(
+    baseline: str = typer.Argument(..., help="Baseline sqlite."),
+    rebuilt: str = typer.Argument(..., help="Rebuilt sqlite."),
+):
+    """Assert two sqlite DBs are semantically identical (the lossless round-trip gate)."""
+    _run("stedt.dev.gate_roundtrip", baseline, rebuilt)
 
 
 @snapshot_app.command("build")

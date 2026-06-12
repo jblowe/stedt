@@ -18,7 +18,7 @@ What this deliberately does NOT cover: the JS query-construction code itself (ft
 parseFields) — that runs only in the browser; its contract with the DB is what's
 asserted here, its parsing is exercised by the runnable examples on /search.
 
-Run: python -m stedt.dev.search_battery  (or `stedt dev search-battery`).
+Run: python -m stedt.dev.search_battery  (or `stedt check search`).
 Needs stedt.sqlite + search.sqlite3 built. Exits nonzero on any failed assertion.
 The golden-corpus comparison at the end is REPORT-ONLY (data vintage + word-boundary
 vs token semantics differ by design).
@@ -73,7 +73,7 @@ def toks(s):
 
 def main():
     if not (os.path.exists(DB) and os.path.exists(SEARCH_DB)):
-        sys.exit("search-battery: build stedt.sqlite and search.sqlite3 first")
+        sys.exit("check search: build stedt.sqlite and search.sqlite3 first")
     sdb = sqlite3.connect(f"file:{SEARCH_DB}?mode=ro", uri=True)
     cdb = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
 
@@ -249,11 +249,11 @@ def main():
 
     print()
     if failures:
-        print(f"search-battery: {len(failures)} FAILURE(S)")
+        print(f"check search: {len(failures)} FAILURE(S)")
         for f in failures:
             print(f"  FAIL {f}")
         sys.exit(1)
-    print("search-battery: all documented search semantics hold")
+    print("check search: all documented search semantics hold")
 
 
 if __name__ == "__main__":

@@ -9,7 +9,7 @@ emitted full-width in the dump's column order — build_db.TABLES, the single pr
 that order — with single-line multi-row INSERTs, which is also what build_db's own parser
 reads, so the round trip is self-testable:
 
-    stedt ingest export-dump out.sql
+    stedt dump export out.sql
     STEDT_ROOT=/tmp/x python -m stedt.dev.build_db out.sql   # parse it back
     (then compare shared columns per table against the source stedt.sqlite)
 
@@ -81,7 +81,7 @@ def _ddl_blocks(ref_path, tables):
             re.S,
         )
         if not m:
-            raise SystemExit(f"export-dump: no CREATE TABLE block for `{t}` in {ref_path}")
+            raise SystemExit(f"dump export: no CREATE TABLE block for `{t}` in {ref_path}")
         out[t] = m.group(0)
     # the dump's own global preamble (everything before the first table banner)
     preamble = src[: src.index("--\n-- Table structure for table")]
@@ -97,7 +97,7 @@ def main():
                     help="reference dump supplying the verbatim DDL (default: the stock 2016 dump)")
     args = ap.parse_args()
     if not os.path.exists(DB):
-        raise SystemExit("export-dump: build stedt.sqlite first (stedt build db)")
+        raise SystemExit("dump export: build stedt.sqlite first (stedt build db)")
 
     db = sqlite3.connect(f"file:{DB}?mode=ro", uri=True)
     have = {t: [r[1] for r in db.execute(f"PRAGMA table_info({t})")] for t in TABLES}
@@ -108,7 +108,7 @@ def main():
         f.write(preamble)
         f.write(
             "--\n-- Re-exported from the STEDT revival's all-TSV data "
-            "(stedt ingest export-dump).\n"
+            "(stedt dump export).\n"
             "-- Columns not preserved by the migration are constants: uid=8 ('stedt'; exact\n"
             "-- for lx_et_hash), timestamps '0000-00-00 00:00:00', refcount NULL, "
             "seqlocked 0,\n-- lexicon.chapter '', chapters fascicle counters 0.\n--\n\n"

@@ -299,7 +299,7 @@ def _fix_cesu(b):
 def main(sqldump=SQLDUMP):
     t0 = time.time()
     if not os.path.exists(sqldump):
-        raise SystemExit(f"dump not found: {sqldump}\n" f"Usage: stedt import-dump [path/to/dump.sql]")
+        raise SystemExit(f"dump not found: {sqldump}\n" f"Usage: stedt dump import [path/to/dump.sql]")
     print(f"loading {sqldump} -> {OUT}")
     if os.path.exists(OUT):
         os.remove(OUT)
