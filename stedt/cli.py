@@ -17,6 +17,7 @@ import sys
 
 import typer
 
+from stedt import __version__
 from stedt.new_source import HELP as NEW_SOURCE_HELP
 from stedt.paths import SITE, WEB
 
@@ -29,6 +30,21 @@ check_app.add_typer(snapshot_app, name="snapshot")
 app.add_typer(build_app, name="build")
 app.add_typer(dump_app, name="dump")
 app.add_typer(check_app, name="check")
+
+
+def _version(value: bool):
+    if value:
+        typer.echo(f"stedt {__version__}")
+        raise typer.Exit()
+
+
+@app.callback()
+def main(
+    version: bool = typer.Option(
+        None, "--version", "-V", callback=_version, is_eager=True, help="Show the stedt version and exit."
+    ),
+):
+    """Build tooling for the STEDT static site."""
 
 
 def _run(module, *args, env=None):
