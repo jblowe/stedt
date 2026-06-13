@@ -436,6 +436,7 @@ def check_css():
         (".noted>.notepop", "min(340px,calc(100vw - 24px))"),
         (".citebox", "48em"),  # bordered cite box, not running text
         (".srcpick select", "340px"),  # a form control (source filter), not running text
+        (".phoninv-fig", "600px"),  # the embedded inventory-page image, not running text
     }
     for sel, body in re.findall(r"([^{}@]+)\{([^{}]*)\}", css):
         for v in re.findall(r"max-width\s*:\s*([^;}]+)", body):
