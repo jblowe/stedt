@@ -17,7 +17,7 @@ import shutil
 import sys
 import time
 
-from stedt.paths import SITE, LEGACY_DB
+from stedt.paths import SITE, LEGACY_DB, STATIC
 
 BASE = os.environ.get("STEDT_BASE", "/stedt").rstrip("/")
 LEGACY_BASE = BASE + "/_legacy"
@@ -50,6 +50,15 @@ def main():
         src = os.path.join(ASSETS, sub)
         if os.path.isdir(src):
             shutil.copytree(src, os.path.join(LEGACY_OUT, sub), dirs_exist_ok=True)
+
+    # 1b) the "Phon. Inventory" viewer + the monograph it embeds. rootcanal's column links to
+    #     phon_inv.html?page=N (N already = printed page + 26pp front matter); the original fed N to
+    #     Google Docs Viewer, dead since ~2021, so we host the PDF ourselves. The PDF is the main
+    #     site's shared publication (static/pubs/) — copy it in so the subtree stays self-contained.
+    shutil.copy(os.path.join(ASSETS, "phon_inv.html"), os.path.join(LEGACY_OUT, "phon_inv.html"))
+    pi_pdf = "STEDT_Monograph3_Phonological-Inv-TB.pdf"
+    os.makedirs(os.path.join(LEGACY_OUT, "pubs"), exist_ok=True)
+    shutil.copy(os.path.join(STATIC, "pubs", pi_pdf), os.path.join(LEGACY_OUT, "pubs", pi_pdf))
 
     # 2) the WASM search DB
     if os.path.exists(LEGACY_DB):

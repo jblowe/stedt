@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex,nofollow">
+<title>Phonological Inventory — Namkung, ed. 1996 (STEDT Monograph #3)</title>
+<style>html,body{margin:0;height:100%}iframe{display:block;width:100%;height:100%;border:0}</style>
+</head>
+<body>
+<script>
+  // The "Phon. Inventory" links pass ?page=N, where N is already the physical PDF page (the
+  // language's printed inventory page in Namkung 1996 plus the +26pp of front matter — the same
+  // offset rootcanal used). The original fed N to Google Docs Viewer; that endpoint died ~2021,
+  // so we host the monograph beside this file and let the browser's PDF viewer honor #page=N.
+  var n = parseInt((location.search.match(/[?&]page=(\d+)/) || [])[1], 10);
+  if (!(n > 0)) n = 1;
+  var pdf = "pubs/STEDT_Monograph3_Phonological-Inv-TB.pdf";
+  document.write('<iframe src="' + pdf + '#page=' + n + '" title="Namkung, ed. 1996, p. ' + n + '"></iframe>');
+</script>
+<noscript>
+  <p style="font-family:sans-serif;padding:1em">
+    Open the <a href="pubs/STEDT_Monograph3_Phonological-Inv-TB.pdf">Phonological Inventories of
+    Tibeto-Burman Languages</a> (Namkung, ed. 1996; STEDT Monograph #3).
+  </p>
+</noscript>
+</body>
+</html>
