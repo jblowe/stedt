@@ -126,7 +126,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .metabar b{font-family:"Fraunces",serif;color:var(--ink);font-size:16px;margin-right:5px;font-variant-numeric:tabular-nums;}
 
 /* section headers — the primary structural tier in ink (vermilion reserved for asterisk, proto-language, links) */
-.notes h3,.reflexes h3,.thes h3,.conn h3,.meso h3,.apparatus h3,.ety-list h3,.phon h3{font-variant:small-caps;letter-spacing:.10em;
+.notes h3,.reflexes h3,.thes h3,.conn h3,.meso h3,.apparatus h3,.ety-list h3,.phon h3,.phoninv h3{font-variant:small-caps;letter-spacing:.10em;
   font-size:16px;color:var(--ink);border-bottom:1px solid var(--rule);padding-bottom:5px;margin:0 0 12px;}
 .reflexes h3{display:flex;align-items:baseline;}
 .reflexes h3 .cnt{margin-left:auto;font-size:.92em;letter-spacing:0;color:var(--mut);font-variant-numeric:tabular-nums;}
@@ -361,6 +361,11 @@ section.reflexes + section.reflexes{margin-top:34px;}
 .pagetitle{font-family:"Fraunces",serif;font-weight:600;font-size:36px;line-height:1.08;margin:6px 0 4px;}
 .conn,.meso{margin:24px 0 8px;}
 .phon{margin:20px 0 8px;}
+.phoninv{margin:24px 0 8px;}
+.phoninv-fig{margin:12px 0 0;}
+.phoninv-frame{display:block;width:100%;height:70vh;min-height:420px;border:1px solid var(--rule);border-radius:2px;background:var(--paper2);}
+.phoninv figcaption{margin-top:9px;font-size:13.5px;color:var(--mut);}
+.phoninv figcaption cite{font-style:italic;}
 .phon-grid{display:flex;flex-wrap:wrap;gap:7px 26px;}
 .phon .pf-f{font-size:15px;white-space:nowrap;}
 .phon .pf-f .rl{display:inline;width:auto;flex:none;margin-right:7px;}

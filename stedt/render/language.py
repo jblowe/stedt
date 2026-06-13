@@ -121,22 +121,31 @@ def language(lgid):
         meta.append(Markup(f"<span><b>ISO 639-3</b> {' / '.join(iso_link(s) for s in sils)}</span>"))
     if nsrc > 1:
         meta.append(Markup(f"<span><b>{nsrc}</b> sources</span>"))
-    if pi_page:
-        # link into the phonological-inventory monograph (Namkung, ed. 1996 = STEDT Monograph #3).
-        # The label shows the printed page; the PDF anchor adds the +26pp of front matter to reach
-        # the physical page. rootcanal opened this via Google Docs Viewer (dead since ~2021); we
-        # host the PDF ourselves under /static/pubs/ (rewrite() applies the base prefix).
-        pi_url = f"/static/pubs/STEDT_Monograph3_Phonological-Inv-TB.pdf#page={int(pi_page) + 26}"
-        meta.append(
-            Markup(
-                f'<span><b>phon. inventory</b> <a href="{pi_url}" target="_blank" '
-                f'rel="noopener">Namkung 1996, p. {esc(str(pi_page))}</a></span>'
-            )
-        )
     meta.append(Markup(f"<span><b>{total:,}</b> {rfx_noun(total)}</span>"))
     if seealso:
         links = ", ".join(f'<a href="{language_href(cid)}">{esc(nm)}</a>' for nm, cid in seealso)
         meta.append(Markup(f"<span><b>same ISO</b> {links}</span>"))
+
+    # Phonological inventory — its own section (the original buried it as a per-row link). Namkung,
+    # ed. 1996 (STEDT Monograph #3) documents each language's phonology; the printed page is pi_page,
+    # the physical PDF page adds the +26pp of front matter. rootcanal opened it via Google Docs
+    # Viewer (dead since ~2021); we host the PDF under /static/pubs/ (rewrite() adds the base prefix)
+    # and embed the page inline, with a link to the full monograph.
+    phon_inv = ""
+    if pi_page:
+        pdf = "/static/pubs/STEDT_Monograph3_Phonological-Inv-TB.pdf"
+        phys = int(pi_page) + 26
+        phon_inv = Markup(
+            '<section class="phoninv"><h3>Phonological inventory</h3>'
+            '<figure class="phoninv-fig">'
+            f'<iframe class="phoninv-frame" src="{pdf}#page={phys}&amp;view=FitH" loading="lazy" '
+            f'title="Phonological inventory of {esc(ln["language"])} — Namkung 1996, p. {esc(str(pi_page))}">'
+            "</iframe>"
+            "<figcaption>Namkung, ed. 1996, <cite>Phonological Inventories of Tibeto-Burman "
+            f"Languages</cite> (STEDT Monograph #3), p. {esc(str(pi_page))}. "
+            f'<a href="{pdf}#page={phys}" target="_blank" rel="noopener">Open full PDF ↗</a>'
+            "</figcaption></figure></section>"
+        )
 
     groups = {}
     for r in rows:
@@ -195,6 +204,7 @@ def language(lgid):
             lang=Markup(esc(ln["language"])),
             crumbs=Markup(" &nbsp;›&nbsp; ".join(crumb_links)),
             meta=meta,
+            phon_inv=phon_inv,
             variants=variants,
             openall=openall,
             segs=segs,
