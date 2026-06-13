@@ -100,6 +100,17 @@ def lgab_span(lgabbr):
     return f' <span class="lgab">{esc(lgabbr)}</span>' if lgabbr else ""
 
 
+def as_abbr(lgabbr, name):
+    """The "as SHORTNAME" connective — a muted .asab span around the .lgab chip — for the lead of
+    an entity row's metadata (.subg) column. Empty when the abbr is absent or merely echoes the lect
+    name (no point printing "Khaling as Khaling"). SYNC: source.py langinfo ↔ language.py variants
+    both lead .subg with this, so a source's short name for a lect reads the same from either end."""
+    ab = (lgabbr or "").strip()
+    if not ab or ab.casefold() == (name or "").strip().casefold():
+        return ""
+    return f'<span class="asab">as <span class="lgab">{esc(ab)}</span></span>'
+
+
 def etymon_flags(exemplary, public, prov_title=None):
     """SYNC(etymon-row) ↔ web/src/rows.js etymonRow — the ' · exemplary' / ' · provisional'
     chips trailing an etymon's tag line, identical wherever an etymon row renders. prov_title:

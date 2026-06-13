@@ -198,7 +198,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx .rx-go,.rx-hit .rx-go{position:absolute;inset:0;border-bottom:none;}
 .rfx a.lang,.rfx .anl a,.rfx a.src,.rfx .noted{position:relative;z-index:1;}
 .lgab{font-variant:small-caps;letter-spacing:.04em;font-size:12px;color:var(--mut);}
-.asab{color:var(--mut);font-size:13px;}  /* the “as SHORTNAME” connective after a language name */
+.asab{color:var(--mut);font-size:13px;}  /* the “as SHORTNAME” connective leading an entity row’s metadata column */
 .rfx .pos,.rx-hit .pos,.drop .pos{font-variant:small-caps;letter-spacing:.03em;font-size:11.5px;color:var(--mut);margin-right:6px;}
 .rfx .anl{display:block;font-size:12px;color:var(--mut);margin-top:1px;}   /* present only for un-segmented (chip) etyma; rows are otherwise single-line */
 .rfx .anl a{border-bottom:none;color:var(--mut);}

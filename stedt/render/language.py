@@ -4,7 +4,7 @@ from markupsafe import Markup
 
 from .db import LEX_VISIBLE, con
 from .text import esc, alt, natkey, iso_link, rfx_noun
-from .rows import disp_form, lgab_span, noted_gloss, src_cell, syl_form
+from .rows import disp_form, as_abbr, noted_gloss, src_cell, syl_form
 from .shell import page, group_lineage, lexical_notes, proto_labels, reflex_links, canonical_languages
 from .shell import etymon_href, source_href, language_href
 from .templating import env
@@ -72,8 +72,11 @@ def language(lgid):
             if not nbysib.get(sr["lgid"]):
                 continue  # variant contributes no visible records
             mid = []
-            if sr["lgabbr"]:
-                mid.append("as" + lgab_span(sr["lgabbr"]))
+            # SYNC: the source page leads its language rows' .subg with the same as_abbr()
+            # connective. Suppressed when this source's short name just echoes the lect name.
+            ab = as_abbr(sr["lgabbr"], ln["language"])
+            if ab:
+                mid.append(ab)
             if sr["silcode"]:
                 mid.append("ISO " + iso_link(sr["silcode"]))
             n = nbysib[sr["lgid"]]

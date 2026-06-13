@@ -8,6 +8,7 @@ from .config import CITE_BASE
 from .db import LEX_VISIBLE, con
 from .text import cite_tail, esc, iso_link, plural, rfx_noun
 from .notes import render_note
+from .rows import as_abbr
 from .shell import page, canon_lgid, source_reference
 from .templating import env
 
@@ -65,13 +66,14 @@ def source(srcabbr):
         bits = [esc(x) for x in (l["grpno"], l["subgroup"]) if x]
         grp = " ".join(bits)
         grplink = f'<a href="/group/{l["grpid"]}">{grp}</a>' if (l["grpid"] is not None and grp) else grp
-        # the source's own short name follows the language name ('Jingpho (Assam) as
-        # KACHIN(ASSAM)') — and only when it differs from it: the bare chip both echoed the
-        # name uselessly ('Kadu KADU') and read as unexplained decoration
-        ab = (l["lgabbr"] or "").strip()
-        as_ab = (f' <span class="asab">as <span class="lgab">{esc(ab)}</span></span>'
-                 if ab and ab.lower() != (l["language"] or "").strip().lower() else "")
+        # the source's own short name for the lect leads the metadata column ('as KACHIN(ASSAM)'),
+        # alongside group + ISO — it is recording metadata of the same kind. Suppressed when it merely
+        # echoes the language name ('Kadu as KADU'): a bare echo read as unexplained decoration.
+        # SYNC: the language page's per-source variants lead .subg with the same as_abbr() connective.
         mid = []
+        ab = as_abbr(l["lgabbr"], l["language"])
+        if ab:
+            mid.append(ab)
         if grplink:
             mid.append(grplink)
         if l["silcode"]:
@@ -79,7 +81,6 @@ def source(srcabbr):
         return {
             "canon": canon_lgid(l["lgid"]),
             "language": Markup(esc(l["language"])),
-            "ab2": Markup(as_ab),
             "mid": Markup(" · ".join(mid)),
             "n_txt": f"{l['n']:,} {noun(l['n']) if noun else rfx_noun(l['n'])}",
         }
