@@ -371,6 +371,7 @@ section.reflexes + section.reflexes{margin-top:34px;}
 .phoninv > summary:hover{color:var(--accent);}
 .phoninv-fig{max-width:600px;margin:14px 0 0;}
 .phoninv-img{display:block;width:100%;height:auto;border:1px solid var(--rule);border-radius:2px;background:var(--paper);}
+.phoninv-load{margin:0;font-size:13.5px;color:var(--mut);font-style:italic;}
 .phoninv figcaption{margin-top:9px;font-size:13.5px;color:var(--mut);}
 .phoninv figcaption cite{font-style:italic;}
 .phon-grid{display:flex;flex-wrap:wrap;gap:7px 26px;}

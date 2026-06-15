@@ -132,22 +132,20 @@ def language(lgid):
     # Phonological inventory — its own section (the original buried it as a per-row link). Namkung,
     # ed. 1996 (STEDT Monograph #3) documents each language's phonology; the printed page is pi_page,
     # the physical PDF page adds the +26pp of front matter. rootcanal opened it via Google Docs
-    # Viewer (dead since ~2021). We show a pre-rendered image of just that page (no PDF-viewer
-    # chrome/scroll — see stedt.dev.render_pi_pages), collapsed by default, with a link to the PDF.
-    # /static/pubs/ paths get the base prefix from static.py rewrite().
+    # Viewer (dead since ~2021). We render just that page client-side from the vendored PDF (pdf.js,
+    # see web/src/phon-inventory.js), collapsed by default — no page images committed, the view never
+    # drifts from the source. data-pdf is base-relative (data-* skips static.py's src/href rewrite);
+    # language-page.js prepends STEDT_BASE. The "Open full PDF" href is rewritten normally.
     phon_inv = ""
     if pi_page:
         phys = int(pi_page) + 26
-        img = f"/static/pubs/pi/p{phys}.png"
-        pdf = f"/static/pubs/STEDT_Monograph3_Phonological-Inv-TB.pdf#page={phys}"
+        src = "/static/pubs/STEDT_Monograph3_Phonological-Inv-TB.pdf"
         phon_inv = Markup(
             '<details class="phoninv"><summary>Phonological inventory</summary>'
-            '<figure class="phoninv-fig">'
-            f'<img class="phoninv-img" src="{img}" loading="lazy" '
-            f'alt="Phonological inventory of {esc(ln["language"])} — Namkung 1996, p. {esc(str(pi_page))}">'
+            f'<figure class="phoninv-fig" data-pdf="{src}" data-page="{phys}">'
             "<figcaption>Namkung, ed. 1996, <cite>Phonological Inventories of Tibeto-Burman "
             f"Languages</cite> (STEDT Monograph #3), p. {esc(str(pi_page))}. "
-            f'<a href="{pdf}" target="_blank" rel="noopener">Open full PDF ↗</a>'
+            f'<a href="{src}#page={phys}" target="_blank" rel="noopener">Open full PDF ↗</a>'
             "</figcaption></figure></details>"
         )
 

@@ -119,3 +119,23 @@
   }
   window.addEventListener('hashchange', reveal); reveal();
 })();
+
+// Phonological inventory: render the monograph page client-side (pdf.js) the first time the reader
+// opens the disclosure. The heavy renderer is fetched only then — never on a page view that doesn't
+// expand it — and falls back to the "Open full PDF" link if anything fails. data-pdf is a
+// base-relative path (data-* attrs skip static.py's href/src base-rewrite), so prepend STEDT_BASE.
+(function () {
+  var det = document.querySelector('details.phoninv');
+  if (!det) return;
+  var fig = det.querySelector('.phoninv-fig');
+  function load() {
+    if (!fig || det.dataset.rendered) return;
+    det.dataset.rendered = '1';
+    var base = window.STEDT_BASE || '';
+    import(base + '/assets/phon-inventory.js')
+      .then(function (m) { return m.render(fig, base + fig.dataset.pdf, +fig.dataset.page); })
+      .catch(function () { det.dataset.rendered = ''; });
+  }
+  det.addEventListener('toggle', function () { if (det.open) load(); });
+  if (det.open) load();
+})();
