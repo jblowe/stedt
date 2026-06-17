@@ -14,7 +14,20 @@
    popover was still display:none got memoized as a useless 8px shift).
    Escape blurs the focused trigger, closing a keyboard-opened popover (WCAG 1.4.13). */
 (function(){
-  var M=8, pending=null, queued=false;
+  var M=8, pending=null, queued=false, active=null;
+  /* The syllable/morpheme popovers (.sylpop/.mpop) linger 0.25s after their trigger un-hovers, so the
+     pointer can travel diagonally into the bubble. That grace period meant moving quickly from one
+     trigger to the next left BOTH bubbles briefly open. So when a new trigger activates we cancel the
+     previous popover's transition: it then snaps to its true hover/focus state (hidden, since you've
+     moved off it) at once — but stays open if it's genuinely still hovered, since we only drop the
+     delay, never force visibility. The note bubble (.notepop) is display-toggled with no delay, so it
+     never overlaps and needs no snapping. */
+  function snapShut(wrap){
+    var p=wrap&&wrap.querySelector&&wrap.querySelector('.sylpop,.mpop');
+    if(!p) return;
+    p.style.transition='none'; void p.offsetWidth;     // drop the close-delay -> reflect reality now
+    requestAnimationFrame(function(){ p.style.transition=''; });   // restore it for this popover's next open
+  }
   function fit(n){
     var p=n&&n.querySelector('.notepop,.sylpop,.mpop'); if(!p) return;
     p.style.transform='';                              // measure from the natural position
@@ -32,6 +45,8 @@
   function ping(e){
     var t=e.target, n=t&&t.closest&&t.closest('.noted,.syl-w,.morph-w');
     if(!n) return;
+    if(active && active!==n) snapShut(active);   // moved to a different trigger: close the previous at once
+    active=n;
     pending=n;
     if(queued) return;
     queued=true;
