@@ -89,6 +89,7 @@ TABLES = [
         ("lgid",   "",                    "lgid"),   # join -> languagenames
         ("semkey", "",                    "semkey"), # reflexRow category link -> chapters
         ("srcid",  "",                    "srcid"),  # reflexRow source locus ": page/entry"
+        ("analysis", "",                  "''"),     # reflexRow per-morpheme codes (b/p/s/m); filled in main()
     ]},
     # NB: the INTEGER decls are load-bearing, not documentation — typeless columns get BLOB
     # affinity, which disqualifies ix_hash_rn from the h.rn=l.rn join (lexicon.rn is INTEGER),
@@ -204,6 +205,27 @@ def main():
         )
         upd.extend((arr, t) for _, t, _, _, _ in members)
     db.executemany("UPDATE etyma SET fam=? WHERE tag=?", upd)
+
+    # lexicon.analysis: the per-reflex morpheme-analysis codes (b/p/s/m + borrowing source) the
+    # original surfaced in its "analysis" column. Stored ONLY for reflexes that carry at least one
+    # code — purely-cognate reflexes already get their links from lx_et_hash — as the grouped string
+    # the client (search.js shapeReflexEtyma) splits by morpheme slot: ',' between slots (= the
+    # lx_et_hash.ind position), '|' within a slot. Numeric/empty slots are kept as placeholders so a
+    # code's position still equals its ind. Read from the FULL src.lx_et_hash (the shipped copy drops
+    # tag=0 code rows); grouping mirrors dev/export_tsv.py.
+    from stedt.render.rows import morph_code
+
+    slots_by_rn = {}
+    for rn, ind, tag_str in db.execute(
+        "SELECT rn, ind, tag_str FROM src.lx_et_hash WHERE rn IN (SELECT rn FROM lexicon) "
+        "ORDER BY rn, ind, tag_str"
+    ):
+        slots_by_rn.setdefault(rn, {}).setdefault(ind, []).append(tag_str or "")
+    ana = []
+    for rn, slots in slots_by_rn.items():
+        if any(morph_code(t) for toks in slots.values() for t in toks):
+            ana.append((",".join("|".join(slots[i]) for i in sorted(slots)), rn))
+    db.executemany("UPDATE lexicon SET analysis=? WHERE rn=?", ana)
 
     db.executescript("""
         CREATE INDEX ix_hash_rn ON lx_et_hash(rn);   -- rn non-unique here (multi-tag reflexes)
