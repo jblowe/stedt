@@ -13,7 +13,7 @@ from .config import CITE_BASE, PLG_FULL
 from .db import ETY_LIVE, LEX_VISIBLE, con
 from .text import cite_tail, esc, alt, natkey, plural, rfx_noun, seq_label, sortkey
 from .notes import footnotes_block, render_note
-from .rows import disp_form, etymon_flags, noted_gloss, src_cell, syl_form
+from .rows import disp_form, etymon_flags, morph_chip, noted_gloss, src_cell, syl_form
 from .shell import page, breadcrumb, lexical_notes, proto_labels, reflex_links
 from .shell import etymon_href, language_href, reflex_href
 from .templating import env
@@ -98,7 +98,7 @@ def _relation_labels(conn, e):
 
 
 # ---------------------------------------------------------------- sections
-def _reflex_section(e, tag, rows, anchored, notes, lnotes, rn_syn, rn_syn_bad, analysis, proto):
+def _reflex_section(e, tag, rows, anchored, notes, lnotes, rn_syn, rn_syn_bad, rn_codes, analysis, proto):
     """The reflex table: rows banded by subgroup in Stammbaum order, subgroup-anchored notes on
     their bands. Returns (html, notes) — an anchored note whose subgroup has no band at or under
     it falls back into the general notes list."""
@@ -144,7 +144,7 @@ def _reflex_section(e, tag, rows, anchored, notes, lnotes, rn_syn, rn_syn_bad, a
             groups[k],
             key=lambda r: (sortkey(r["lgsort"] or r["language"]), sortkey(r["form"]), r["srcabbr"] or "", str(r["srcid"] or "")),
         )
-        rfx = [_reflex_row(r, e, tag, lnotes, rn_syn, rn_syn_bad, analysis, proto) for r in items]
+        rfx = [_reflex_row(r, e, tag, lnotes, rn_syn, rn_syn_bad, rn_codes, analysis, proto) for r in items]
         code = "" if k[0] in (None, "zz") else f'<span class="grpno">{esc(k[0])}</span>'
         # subgroup-anchored notes render on their band, like the original's band footnotes; the
         # band header itself names the scope (synthetic bands exist only to carry their note)
@@ -172,7 +172,7 @@ def _reflex_section(e, tag, rows, anchored, notes, lnotes, rn_syn, rn_syn_bad, a
     return html, notes
 
 
-def _reflex_row(r, e, tag, lnotes, rn_syn, rn_syn_bad, analysis, proto):
+def _reflex_row(r, e, tag, lnotes, rn_syn, rn_syn_bad, rn_codes, analysis, proto):
     # SYNC(reflex-row) ↔ web/src/rows.js reflexRow — keep this server-rendered reflex row's
     # fields/order/classes/roles/links identical to the client one.
     if lnotes.get(r["rn"]):
@@ -192,20 +192,24 @@ def _reflex_row(r, e, tag, lnotes, rn_syn, rn_syn_bad, analysis, proto):
     # links sibling-etymon syllables (popover preview). Marking used to be suppressed when
     # there was no sibling, but an identical form marked in one row and plain in the next
     # read as random — the original marked the self syllable in every analyzed row, and that
-    # consistency is what made its convention learnable. Falls back to the plain form + an
-    # "also contains" list of siblings when syllabification doesn't fit the tagging.
+    # consistency is what made its convention learnable. Coded (non-cognate) morphemes are marked
+    # in the same linked form (morph_mark). Falls back to the plain form + an "also contains" list of
+    # siblings (and a morph_chip carrying the codes) when syllabification doesn't fit the tagging.
     syn = None if r["rn"] in rn_syn_bad else rn_syn.get(r["rn"])
-    linked = syl_form(r["form"], syn, proto, self_tag=tag) if syn else None
+    codes = rn_codes.get(r["rn"])
+    linked = syl_form(r["form"], syn, proto, self_tag=tag, codes=codes) if (syn or codes) else None
+    inline = set((syn or {}).values()) if linked is not None else set()  # siblings already linked in the form
+    seen, links = set(), []
+    for mt in analysis.get(r["rn"], []):
+        if mt and mt > 0 and mt != tag and mt not in seen and mt in proto and mt not in inline:
+            seen.add(mt)
+            links.append(f'<a href="{etymon_href(mt)}">*{esc(alt(proto[mt][0]))}</a>')
+    anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ""
     if linked is not None:
-        form, anl = linked, ""
+        form = linked  # codes (if any) marked inline by syl_form
     else:
         form = disp_form(r["form"])
-        seen, links = set(), []
-        for mt in analysis.get(r["rn"], []):
-            if mt and mt > 0 and mt != tag and mt not in seen and mt in proto:
-                seen.add(mt)
-                links.append(f'<a href="{etymon_href(mt)}">*{esc(alt(proto[mt][0]))}</a>')
-        anl = f'<span class="anl">also contains {", ".join(links)}</span>' if links else ""
+        anl += morph_chip(codes)  # codes ride along as a trailing chip when the form can't be syllabified
     # whole row → this form's attestation (#rn on its language page), like the search/thesaurus
     # rows; the language name / "also contains" / source / note-popover sit above the overlay
     go = f'<a class="rx-go" href="{reflex_href(r["lgid"], r["rn"])}" aria-label="{esc(r["language"])}: go to this entry"></a>'
@@ -451,7 +455,7 @@ def etymon(tag):
     # per-reflex morpheme analysis: surface the *other* etyma a reflex also belongs to
     # (i.e. it's a compound) as links, and per-syllable tagging for the linked form.
     rns = [r["rn"] for r in rows]
-    analysis, rn_syn, rn_syn_bad = reflex_links(conn, rns)
+    analysis, rn_syn, rn_syn_bad, rn_codes = reflex_links(conn, rns)
     # protoform + gloss for every etymon tagged on these reflexes (incl. this one), gated to non-DELETE
     # pages: powers the per-syllable popovers (syl_form) and the "also contains" sibling links.
     proto = proto_labels(conn, {t for ts in analysis.values() for t in ts if t and t > 0})
@@ -461,7 +465,7 @@ def etymon(tag):
     crumb = breadcrumb(conn, ecat)
     conn.close()
 
-    reflexeshtml, notes = _reflex_section(e, tag, rows, anchored, notes, lnotes, rn_syn, rn_syn_bad, analysis, proto)
+    reflexeshtml, notes = _reflex_section(e, tag, rows, anchored, notes, lnotes, rn_syn, rn_syn_bad, rn_codes, analysis, proto)
 
     pf = esc(alt(e["protoform"]))
     plg_ab = e["plg"] or ""

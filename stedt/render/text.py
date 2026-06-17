@@ -5,6 +5,38 @@ import re
 import unicodedata
 
 
+# SYNC(morph-codes) ↔ web/src/rows.js morphCode/morphLabel — STEDT's per-morpheme analysis codes
+# (the original's lexicon.analysis column). Each non-cognate morpheme slot is tagged 'b' (borrowing,
+# optionally with a source, e.g. 'bIndic'/'bChinese'), 'p' (prefix), 's' (suffix), or 'm' (an
+# identifiable but unreconstructed morpheme). A code is a run of letters/'?' only — which excludes
+# numeric etymon tags (rendered as cognate links instead), '='-named annotations ('2ndroot=2767'),
+# and free-text editorial flags ('DUPE IN SOURCE'). Keep the predicate + label map identical to the
+# client twin so server- and client-rendered reflex rows mark the same morphemes the same way.
+_MORPH_RE = re.compile(r"^[A-Za-z?]+$")
+
+
+def morph_code(tok):
+    """The morpheme-analysis code in a tag_str token, or None when the token isn't a code."""
+    return tok if tok and _MORPH_RE.match(tok) else None
+
+
+def morph_label(code):
+    """Plain-language expansion of a morpheme code; unknown long-tail codes show raw."""
+    if code == "p":
+        return "prefix"
+    if code == "s":
+        return "suffix"
+    if code == "m":
+        return "morpheme"
+    if code[:1] == "b":  # borrowing: b / b? / bSOURCE / b?SOURCE / bSOURCE?
+        rest = code[1:]
+        uncertain = rest.startswith("?") or rest.endswith("?")
+        rest = rest.strip("?")
+        lab = f"{rest} loanword" if rest else "loanword"
+        return f"probable {lab}" if uncertain else lab
+    return code
+
+
 def sortkey(s):
     """SYNC(sortkey) ↔ web/src/search.js sortkey + rows.js norm. Case- and accent-insensitive collation key (close to the MySQL utf8_general_ci order the
     original sorted with — binary order exiled 'van Breugel' past 'Zhao' and 'kûi' past 'kuiy'):

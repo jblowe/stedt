@@ -4,7 +4,7 @@ from markupsafe import Markup
 
 from .db import LEX_VISIBLE, con
 from .text import esc, alt, natkey, iso_link, rfx_noun
-from .rows import disp_form, as_abbr, noted_gloss, src_cell, syl_form
+from .rows import disp_form, as_abbr, morph_chip, noted_gloss, src_cell, syl_form
 from .shell import page, group_lineage, lexical_notes, proto_labels, reflex_links, canonical_languages
 from .shell import etymon_href, source_href, language_href
 from .templating import env
@@ -39,7 +39,7 @@ def language(lgid):
     # a reflex can belong to several etyma (polymorphemic) — rn_tags collects all, ordered by
     # morpheme; rn_syn lets each tagged syllable link to its own etymon (same as search).
     rns = [r["rn"] for r in rows]
-    rn_tags, rn_syn, rn_syn_bad = reflex_links(conn, rns)
+    rn_tags, rn_syn, rn_syn_bad, rn_codes = reflex_links(conn, rns)
     plabels = proto_labels(conn, {t for ts in rn_tags.values() for t in ts if t and t > 0})
     # lexical notes per reflex (same set the etymon page shows), revealed on hover on the gloss
     lnotes = lexical_notes(conn, rns)
@@ -170,22 +170,25 @@ def language(lgid):
             )
             pos = f'<span class="pos">{esc(r["gfn"])}</span>' if r["gfn"] else ""
             # when each tagged syllable lands cleanly, link the syllables in place (shows which
-            # morpheme is which etymon); otherwise fall back to the plain form + trailing via chips.
+            # morpheme is which etymon) and mark coded morphemes (b/p/s/m); otherwise fall back to the
+            # plain form + trailing via chips (and a morph_chip carrying the codes).
             syn = None if r["rn"] in rn_syn_bad else rn_syn.get(r["rn"])
-            linked = syl_form(r["reflex"], syn, plabels)
-            vias = []
-            if linked is not None:
-                form = linked
-            else:
-                form = disp_form(r["reflex"])
-                seen = set()
-                for t in rn_tags.get(r["rn"], []):
-                    if t in plabels and t not in seen:
-                        seen.add(t)
-                        vias.append(f'<a class="via" href="{etymon_href(t)}">*{esc(alt(plabels[t][0]))}</a>')
+            codes = rn_codes.get(r["rn"])
+            linked = syl_form(r["reflex"], syn, plabels, codes=codes)
+            inline = set((syn or {}).values()) if linked is not None else set()  # etyma already linked in the form
+            vias, seen = [], set()
+            for t in rn_tags.get(r["rn"], []):
+                if t in plabels and t not in seen and t not in inline:
+                    seen.add(t)
+                    vias.append(f'<a class="via" href="{etymon_href(t)}">*{esc(alt(plabels[t][0]))}</a>')
             # un-segmented etyma trail the gloss as inline chips (same geometry as the search rows);
             # syllable-linked or etymon-less rows have none.
             via = f'<span class="vias">{" ".join(vias)}</span>' if vias else ""
+            if linked is not None:
+                form = linked  # codes (if any) marked inline by syl_form
+            else:
+                form = disp_form(r["reflex"])
+                via += morph_chip(codes)  # codes ride along as a trailing chip when the form can't be syllabified
             # each row shows the source it is attested in (the work) + the locus within it
             src = src_cell(r["srcabbr"], r["citation"], r["srcid"])
             if lnotes.get(r["rn"]):

@@ -21,7 +21,7 @@ import sqlite3
 
 from stedt.paths import DB as SRC, SEARCH_DB as OUT, WEB
 from stedt.render.db import LEX_VISIBLE
-from stedt.render.text import seq_label
+from stedt.render.text import morph_code, seq_label
 
 # NB: .sqlite3 (not .db) — GitHub Pages gzip-compresses .db, which corrupts the byte-range
 # math sql.js-httpvfs relies on; it serves .sqlite3 uncompressed. (community #162857)
@@ -213,8 +213,6 @@ def main():
     # lx_et_hash.ind position), '|' within a slot. Numeric/empty slots are kept as placeholders so a
     # code's position still equals its ind. Read from the FULL src.lx_et_hash (the shipped copy drops
     # tag=0 code rows); grouping mirrors dev/export_tsv.py.
-    from stedt.render.rows import morph_code
-
     slots_by_rn = {}
     for rn, ind, tag_str in db.execute(
         "SELECT rn, ind, tag_str FROM src.lx_et_hash WHERE rn IN (SELECT rn FROM lexicon) "

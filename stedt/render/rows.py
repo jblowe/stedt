@@ -1,43 +1,10 @@
 """Shared row fragments used by more than one entity page — the server-side counterpart of
 web/src/rows.js (the client renders the same row shapes)."""
 
-import re
-
 from .notes import note_span
 from .shell import etymon_href, source_href
 from .syllabify import syllabify
-from .text import esc, alt, seq_label
-
-# SYNC(morph-codes) ↔ web/src/rows.js morphCode/morphLabel — STEDT's per-morpheme analysis codes
-# (the original's lexicon.analysis column). Each non-cognate morpheme slot is tagged 'b' (borrowing,
-# optionally with a source, e.g. 'bIndic'/'bChinese'), 'p' (prefix), 's' (suffix), or 'm' (an
-# identifiable but unreconstructed morpheme). A code is a run of letters/'?' only — which excludes
-# numeric etymon tags (rendered as cognate links instead), '='-named annotations ('2ndroot=2767'),
-# and free-text editorial flags ('DUPE IN SOURCE'). Keep the predicate + label map identical to the
-# client twin so server- and client-rendered reflex rows mark the same morphemes the same way.
-_MORPH_RE = re.compile(r"^[A-Za-z?]+$")
-
-
-def morph_code(tok):
-    """The morpheme-analysis code in a tag_str token, or None when the token isn't a code."""
-    return tok if tok and _MORPH_RE.match(tok) else None
-
-
-def morph_label(code):
-    """Plain-language expansion of a morpheme code; unknown long-tail codes show raw."""
-    if code == "p":
-        return "prefix"
-    if code == "s":
-        return "suffix"
-    if code == "m":
-        return "morpheme"
-    if code[:1] == "b":  # borrowing: b / b? / bSOURCE / b?SOURCE / bSOURCE?
-        rest = code[1:]
-        uncertain = rest.startswith("?") or rest.endswith("?")
-        rest = rest.strip("?")
-        lab = f"{rest} loanword" if rest else "loanword"
-        return f"probable {lab}" if uncertain else lab
-    return code
+from .text import esc, alt, morph_label, seq_label
 
 
 def syl_pop(tag, info):
@@ -74,16 +41,39 @@ def syl_pop(tag, info):
     return f'<span class="sylpop">{out}</span>'
 
 
-def syl_form(reflex, syn, pf=None, self_tag=None):
+def morph_mark(code, base):
+    """SYNC(morph-codes) ↔ web/src/rows.js morphMark — a coded (non-cognate) morpheme: the syllable
+    text marked (.morph; borrowings add .morph-b to stand out a touch more) with a hover/focus
+    popover naming the analysis (text.morph_label). The popover sits BESIDE the mark inside .morph-w,
+    mirroring the cognate links' .syl-w, so the two annotation kinds lay out the same. base is already
+    escaped."""
+    cls = "morph morph-b" if code[:1] == "b" else "morph"
+    return f'<span class="morph-w"><span class="{cls}">{base}</span><span class="mpop">{esc(morph_label(code))}</span></span>'
+
+
+def morph_chip(codes):
+    """SYNC(reflex-row) ↔ web/src/rows.js morphChip — the fallback trailing summary of a reflex's
+    morpheme codes (' · prefix · Indic loanword'), used when the form can't be syllabified so the
+    marks can't sit on the morphemes themselves. codes: {position: code}, rendered in order."""
+    if not codes:
+        return ""
+    labs = " · ".join(esc(morph_label(codes[i])) for i in sorted(codes))
+    return f'<span class="anl morphs">{labs}</span>'
+
+
+def syl_form(reflex, syn, pf=None, self_tag=None, codes=None):
     """SYNC(syllable-links) ↔ web/src/rows.js sylLink — keep the markup identical.
-    Reflex surface form as HTML with each tagged syllable linked to its own etymon, each carrying a
-    hover/focus popover previewing that etymon (*protoform 'gloss'). On an etymon page, pass self_tag =
-    that etymon: the syllable that IS this etymon is marked but not linked (you're already here).
-    Returns None to fall back to the plain form + trailing chips. pf: tag -> (protoform, protogloss)."""
-    if not syn:
+    Reflex surface form as HTML with each tagged syllable linked to its own etymon (cognate links,
+    each carrying a *protoform 'gloss' popover) and each coded morpheme marked (morph_mark). On an
+    etymon page, pass self_tag = that etymon: the syllable that IS this etymon is marked but not
+    linked (you're already here). Returns None to fall back to the plain form + trailing chips
+    (morph_chip carries the codes there). pf: tag -> (protoform, protogloss); codes: {position: code}."""
+    syn = syn or {}
+    codes = codes or {}
+    if not syn and not codes:
         return None
     syls, dl, prefix = syllabify(reflex or "")
-    if any(k >= len(syls) for k in syn):       # a tag must land on a real syllable
+    if any(k >= len(syls) for k in syn) or any(k >= len(syls) for k in codes):   # a tag/code must land on a real syllable
         return None
     pf = pf or {}
     out = esc(prefix)
@@ -103,6 +93,8 @@ def syl_form(reflex, syn, pf=None, self_tag=None):
             pop = syl_pop(tag, info) if info else ""
             link = f'<a class="syl" href="{etymon_href(tag)}">{base}</a>'
             out += f'<span class="syl-w">{link}{pop}</span>' if pop else link
+        elif i in codes:
+            out += morph_mark(codes[i], base)
         else:
             out += base
         d = dl[i] if i < len(dl) else ""

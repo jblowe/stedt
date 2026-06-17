@@ -5,7 +5,7 @@ from markupsafe import Markup
 from .config import _CSS_VER, _JS_VER
 from .db import ETY_LIVE, LEX_VISIBLE, chunked_in, con
 from .templating import env
-from .text import esc
+from .text import esc, morph_code
 
 _NAV = [
     ("thesaurus", "/thesaurus", "Thesaurus"),
@@ -138,15 +138,19 @@ def proto_labels(conn, tags):
 
 
 def reflex_links(conn, rns):
-    """Per-reflex morpheme analysis from lx_et_hash for a page's reflex set, three views:
+    """Per-reflex morpheme analysis from lx_et_hash for a page's reflex set, four views:
     - tags_by_rn {rn: [tag, …]} in morpheme order, every slot kept (0 = a non-etymon affix;
       callers filter) — feeds the "also contains"/via chips;
-    - syn_by_rn {rn: {syllable position: tag}} — feeds the per-syllable links (rows.syl_form);
+    - syn_by_rn {rn: {syllable position: tag}} — feeds the per-syllable cognate links (rows.syl_form);
     - ambiguous: rns where one position is claimed by two different etyma — those reflexes
-      drop to the plain form + trailing-chip fallback.
-    The client derives the same maps for search rows (web/src/search.js byInd -> rows.js sylLink)."""
-    tags_by_rn, syn_by_rn, ambiguous = {}, {}, set()
-    for r in chunked_in(conn, "SELECT rn, tag, ind FROM lx_et_hash WHERE rn IN ({qm}) ORDER BY rn, ind", rns):
+      drop to the plain form + trailing-chip fallback;
+    - code_by_rn {rn: {syllable position: code}} — the non-cognate morpheme codes (b/p/s/m, see
+      text.morph_code) per position, for the morphology marks; a position also claimed by an etymon
+      stays a cognate link and carries no code.
+    The client derives the same maps for search rows (web/src/search.js shapeReflexEtyma -> rows.js
+    sylLink): byInd from lx_et_hash for cognates, r.morph from lexicon.analysis for codes."""
+    tags_by_rn, syn_by_rn, ambiguous, code_by_rn = {}, {}, set(), {}
+    for r in chunked_in(conn, "SELECT rn, tag, ind, tag_str FROM lx_et_hash WHERE rn IN ({qm}) ORDER BY rn, ind", rns):
         tags_by_rn.setdefault(r["rn"], []).append(r["tag"])
         if r["tag"] and r["tag"] > 0:
             byind = syn_by_rn.setdefault(r["rn"], {})
@@ -154,7 +158,16 @@ def reflex_links(conn, rns):
                 ambiguous.add(r["rn"])
             else:
                 byind[r["ind"]] = r["tag"]
-    return tags_by_rn, syn_by_rn, ambiguous
+        else:
+            code = morph_code(r["tag_str"])
+            if code:
+                code_by_rn.setdefault(r["rn"], {})[r["ind"]] = code
+    for rn, byind in list(code_by_rn.items()):  # a slot claimed by an etymon is a cognate link, never a code
+        for ind in syn_by_rn.get(rn, ()):
+            byind.pop(ind, None)
+        if not byind:
+            del code_by_rn[rn]
+    return tags_by_rn, syn_by_rn, ambiguous, code_by_rn
 
 
 def lexical_notes(conn, rns):
