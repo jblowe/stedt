@@ -48,7 +48,7 @@ def morph_mark(code, base):
     mirroring the cognate links' .syl-w, so the two annotation kinds lay out the same. base is already
     escaped."""
     cls = "morph morph-b" if code[:1] == "b" else "morph"
-    return f'<span class="morph-w"><span class="{cls}">{base}</span><span class="mpop">{esc(morph_label(code))}</span></span>'
+    return f'<span class="morph-w"><span class="{cls}" tabindex="0">{base}</span><span class="mpop">{esc(morph_label(code))}</span></span>'
 
 
 def morph_chip(codes):
@@ -58,7 +58,7 @@ def morph_chip(codes):
     if not codes:
         return ""
     labs = " · ".join(esc(morph_label(codes[i])) for i in sorted(codes))
-    return f'<span class="anl morphs">{labs}</span>'
+    return f'<span class="anl">{labs}</span>'
 
 
 def syl_form(reflex, syn, pf=None, self_tag=None, codes=None):

@@ -115,13 +115,13 @@ const morphLabel = code => {
 // SYNC(morph-codes) ↔ stedt/render/rows.py morph_mark — a coded morpheme: text marked (.morph;
 // borrowings add .morph-b) with a popover BESIDE it inside .morph-w (mirrors .syl-w). base escaped.
 const morphMark = (code, base) =>
-  `<span class="morph-w"><span class="${code[0] === 'b' ? 'morph morph-b' : 'morph'}">${base}</span><span class="mpop">${esc(morphLabel(code))}</span></span>`;
+  `<span class="morph-w"><span class="${code[0] === 'b' ? 'morph morph-b' : 'morph'}" tabindex="0">${base}</span><span class="mpop">${esc(morphLabel(code))}</span></span>`;
 // SYNC(reflex-row) ↔ stedt/render/rows.py morph_chip — fallback trailing summary of the codes,
 // used when the form can't be syllabified so the marks can't sit on the morphemes themselves.
 const morphChip = codes => {
   if (!codes) return '';
   const labs = Object.keys(codes).map(Number).sort((a, b) => a - b).map(i => esc(morphLabel(codes[i]))).join(' · ');
-  return `<span class="anl morphs">${labs}</span>`;
+  return `<span class="anl">${labs}</span>`;
 };
 
 // SYNC(syllable-links) ↔ stedt/render/rows.py syl_form() + syl_pop(): the syllable-linked form

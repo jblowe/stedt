@@ -82,7 +82,7 @@ class Scanner(html.parser.HTMLParser):
 
     def handle_data(self, data):
         self.text.append(data)
-        if any({"sylpop", "notepop"} & c for _, c in self._stack):
+        if any({"sylpop", "notepop", "mpop"} & c for _, c in self._stack):
             return  # popover content is not the row's own text
         in_gp = any({"g", "pos"} & c for _, c in self._stack)
         for i in self._forms_open:

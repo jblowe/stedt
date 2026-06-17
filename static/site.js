@@ -1,6 +1,7 @@
-/* Site-wide popover positioning + dismissal, for both popover kinds: the reflex-note bubble
-   (.noted > .notepop, right edge pinned under the circled-i) and the syllable etymon preview
-   (.syl-w > .sylpop beside its a.syl trigger, left-anchored, opens above the syllable). On a narrow viewport either can run
+/* Site-wide popover positioning + dismissal, for all popover kinds: the reflex-note bubble
+   (.noted > .notepop, right edge pinned under the circled-i), the syllable etymon preview
+   (.syl-w > .sylpop beside its a.syl trigger, left-anchored, opens above the syllable), and the
+   morpheme-analysis label (.morph-w > .mpop, same geometry as .sylpop). On a narrow viewport either can run
    off an edge, and the sylpop can open fully above the viewport when its row sits at the top.
    CSS can't clamp them (the offset parent is a tiny inline span at an unpredictable x), so when
    one is shown we measure it and: nudge it back inside an 8px margin (translateX), and flip the
@@ -15,12 +16,12 @@
 (function(){
   var M=8, pending=null, queued=false;
   function fit(n){
-    var p=n&&n.querySelector('.notepop,.sylpop'); if(!p) return;
+    var p=n&&n.querySelector('.notepop,.sylpop,.mpop'); if(!p) return;
     p.style.transform='';                              // measure from the natural position
     p.classList.remove('flip');
     var r=p.getBoundingClientRect();
     if(!r.width) return;                               // not shown / laid out yet — leave it be
-    if(r.top<M && p.classList.contains('sylpop')){     // clipped above the viewport: open below
+    if(r.top<M && (p.classList.contains('sylpop')||p.classList.contains('mpop'))){  // clipped above the viewport: open below
       p.classList.add('flip');
       r=p.getBoundingClientRect();
     }
@@ -29,7 +30,7 @@
     if(dx) p.style.transform='translateX('+Math.round(dx)+'px)';
   }
   function ping(e){
-    var t=e.target, n=t&&t.closest&&t.closest('.noted,.syl-w');
+    var t=e.target, n=t&&t.closest&&t.closest('.noted,.syl-w,.morph-w');
     if(!n) return;
     pending=n;
     if(queued) return;
@@ -43,6 +44,6 @@
   document.addEventListener('keydown', function(e){
     if(e.key!=='Escape') return;
     var a=document.activeElement;
-    if(a && a.closest && a.closest('.noted,.syl-w')) a.blur();
+    if(a && a.closest && a.closest('.noted,.syl-w,.morph-w')) a.blur();
   });
 })();

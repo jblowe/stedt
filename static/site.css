@@ -250,7 +250,7 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
    inline BOX, which superscript tones/aspiration inflate, dropping the line far below the
    baseline; decoration anchors to the baseline and skips descender ink. Color: at-rest was
    too faint to read as a link (review finding) — darker red text, gold dotted line. */
-.syl-w{position:relative;}  /* the trigger link + its popover card, side by side */
+.syl-w,.morph-w{position:relative;}  /* the trigger + its popover card, side by side */
 a.syl{color:var(--accent-d);text-decoration:underline;text-decoration-style:dotted;
   text-decoration-color:var(--gold);text-decoration-thickness:1px;text-underline-offset:2px;}
 a.syl:hover{color:var(--accent);text-decoration-color:var(--accent);}
@@ -259,12 +259,12 @@ a.syl:hover{color:var(--accent);text-decoration-color:var(--accent);}
    obscuring the next form in a top-down wordlist. Lift the stacking context so the bubble isn't pierced. */
 /* hidden via visibility (not display) with a short close delay: the card is several lines
    tall now, and an instant close made the diagonal mouse-in path unforgiving */
-.syl-w .sylpop{visibility:hidden;transition:visibility 0s linear .25s;display:block;
+.syl-w .sylpop,.morph-w .mpop{visibility:hidden;transition:visibility 0s linear .25s;display:block;
   position:absolute;left:0;bottom:calc(100% + 5px);z-index:6;width:max-content;
   max-width:min(280px,calc(100vw - 24px));background:var(--paper);border:1px solid var(--rule);border-radius:3px;
   padding:5px 9px;font-style:normal;font-weight:400;font-size:12.5px;line-height:1.45;color:var(--soft);
   white-space:normal;text-align:left;overflow-wrap:anywhere;letter-spacing:0;}
-.syl-w:hover .sylpop,.syl-w:focus-within .sylpop{visibility:visible;transition-delay:0s;}
+.syl-w:hover .sylpop,.syl-w:focus-within .sylpop,.morph-w:hover .mpop,.morph-w:focus-within .mpop{visibility:visible;transition-delay:0s;}
 /* the popover's elink-style card: linked '#tag PLG *protoform' header, then the etymon's
    mesoroots and allofam family under small-caps section labels */
 .sylpop a.sp-h{display:block;color:var(--ink);border-bottom:none;}
@@ -276,17 +276,24 @@ a.sp-m:hover{color:var(--accent);}
 .sylpop .sp-plg{font-variant:small-caps;letter-spacing:.05em;color:var(--mut);}
 
 /* the reveal hook (static/site.js) flips a top-clipped preview to open below its syllable */
-.syl-w .sylpop.flip{bottom:auto;top:calc(100% + 5px);}
+.syl-w .sylpop.flip,.morph-w .mpop.flip{bottom:auto;top:calc(100% + 5px);}
 /* invisible hover bridge across the 5px offset, so the pointer can travel into the bubble
    without dismissing it (WCAG 1.4.13 hoverable); mirrored when flipped below */
-.syl-w .sylpop::after{content:"";position:absolute;left:0;right:0;top:100%;height:7px;}
-.syl-w .sylpop.flip::after{top:auto;bottom:100%;}
-.syl-w:hover,.syl-w:focus-within{z-index:5;}
+.syl-w .sylpop::after,.morph-w .mpop::after{content:"";position:absolute;left:0;right:0;top:100%;height:7px;}
+.syl-w .sylpop.flip::after,.morph-w .mpop.flip::after{top:auto;bottom:100%;}
+.syl-w:hover,.syl-w:focus-within,.morph-w:hover,.morph-w:focus-within{z-index:5;}
 /* on an etymon page, the reflex syllable that IS this etymon: grouped in the morpheme colour but a
    solid underline (not the dotted link), since you're already on its page. */
 /* the current etymon's own syllable: bold, NOT underlined — an underline here read as
    "this is a link", and the one thing .syl-self never is, is a link */
 .syl-self{color:var(--morph);font-weight:700;}
+/* coded (non-cognate) morpheme: a quiet dotted underline — NOT a link (there's no page to open),
+   so it's grey, not the syllable link's accent — with the analysis (prefix/suffix/loanword/morpheme)
+   named in a hover/focus popover. Borrowings (.morph-b) take a heavier, morpheme-coloured line so
+   loans stand out a touch more than prefixes/suffixes/bare morphemes. Focusable for keyboard/touch. */
+.morph{text-decoration:underline dotted;text-decoration-color:var(--mut);text-decoration-thickness:1px;
+  text-underline-offset:2px;cursor:help;outline-offset:2px;}
+.morph-b{text-decoration-color:var(--morph);text-decoration-thickness:2px;}
 .rx-hit .br{color:var(--mut);}
 .vias{color:var(--mut);font-size:12.5px;margin-left:.45em;}   /* inline trailing etymon chips (search + language wordlist) */
 .via{font-size:12.5px;color:var(--mut);border-bottom:none;}
