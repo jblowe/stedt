@@ -16,6 +16,9 @@ export const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&
 // which every emission site re-adds as literal text; star each ⪤-alternant). Keep identical.
 export const altstar = s => String(s).replace(/^\s*\*\s*/, '').replace(/(⪤|\bOR\b|~|=)\s*\*?/g, '$1 *');
 export const fmt = n => Number(n).toLocaleString();
+// SYNC(reflex-row) ↔ stedt/render/rows.py gloss_q — a reflex gloss in scholarly single quotes
+// (forms keep the italics, glosses take the quotes), '' when empty.
+export const glossQ = s => s ? `‘${esc(s)}’` : '';
 // SYNC(sortkey) ↔ text.py sortkey + search.js sortkey — the case/accent-insensitive collation key
 export const norm = s => String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
 
@@ -187,8 +190,8 @@ export const reflexRow = r => {
   const src = r.srcabbr ? `<a href="${sourceHref(r.srcabbr)}">${esc(r.citation || r.srcabbr)}${loc}</a>` : '';
   const pos = r.gfn ? `<span class="pos">${esc(r.gfn)}</span>` : '';   // sits before the gloss (.pos has margin-right)
   const gl = r.note
-    ? `<span class="g noted" tabindex="0" aria-describedby="np${r.rn}">${esc(r.gloss)}<span class="notepop" role="note" id="np${r.rn}">${rebase(r.note)}</span></span>`
-    : `<span class="g">${esc(r.gloss)}</span>`;
+    ? `<span class="g noted" tabindex="0" aria-describedby="np${r.rn}">${glossQ(r.gloss)}<span class="notepop" role="note" id="np${r.rn}">${rebase(r.note)}</span></span>`
+    : `<span class="g">${glossQ(r.gloss)}</span>`;
   const lf = sylLink(r); let mid;
   // etyma already linked inline in the syllable form don't repeat as trailing chips
   const inline = (lf && r.syn) ? new Set(Object.values(r.syn)) : new Set();

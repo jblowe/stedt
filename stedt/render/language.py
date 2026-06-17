@@ -4,7 +4,7 @@ from markupsafe import Markup
 
 from .db import LEX_VISIBLE, con
 from .text import esc, alt, natkey, iso_link, rfx_noun
-from .rows import disp_form, as_abbr, morph_chip, noted_gloss, src_cell, syl_form
+from .rows import disp_form, as_abbr, gloss_q, morph_chip, noted_gloss, src_cell, syl_form
 from .shell import page, group_lineage, lexical_notes, proto_labels, reflex_links, canonical_languages
 from .shell import etymon_href, source_href, language_href
 from .templating import env
@@ -194,7 +194,7 @@ def language(lgid):
             if lnotes.get(r["rn"]):
                 gl = noted_gloss(r["rn"], r["gloss"], lnotes[r["rn"]])
             else:
-                gl = f'<span class="g">{esc(r["gloss"])}</span>'
+                gl = f'<span class="g">{gloss_q(r["gloss"])}</span>'
             rfx.append(
                 f'<div class="rfx" role="listitem" id="rn{r["rn"]}"><a class="rnlink" href="#rn{r["rn"]}" aria-label="Permalink to this entry"></a>{catcell}'
                 f'<span class="form">{form} {pos}{gl}{via}</span>'

@@ -13,7 +13,7 @@ from .config import CITE_BASE, PLG_FULL
 from .db import ETY_LIVE, LEX_VISIBLE, con
 from .text import cite_tail, esc, alt, natkey, plural, rfx_noun, seq_label, sortkey
 from .notes import footnotes_block, render_note
-from .rows import disp_form, etymon_flags, morph_chip, noted_gloss, src_cell, syl_form
+from .rows import disp_form, etymon_flags, gloss_q, morph_chip, noted_gloss, src_cell, syl_form
 from .shell import page, breadcrumb, lexical_notes, proto_labels, reflex_links
 from .shell import etymon_href, language_href, reflex_href
 from .templating import env
@@ -180,7 +180,7 @@ def _reflex_row(r, e, tag, lnotes, rn_syn, rn_syn_bad, rn_codes, analysis, proto
         # suppresses) so the note icon has its anchor
         g = noted_gloss(r["rn"], r["gloss"] or e["protogloss"], lnotes[r["rn"]])
     elif r["gloss"] and r["gloss"] != e["protogloss"]:
-        g = f'<span class="g">{esc(r["gloss"])}</span>'
+        g = f'<span class="g">{gloss_q(r["gloss"])}</span>'
     else:
         # deliberately suppress a reflex gloss identical to the etymon's protogloss (this is an
         # etymon page — repeating it on every row is noise); search/language pages always show it.
@@ -259,7 +259,7 @@ def _meso_section(meso):
         mr += (
             f'<div class="rfx" role="listitem"{mid}>{langcell}'
             f'<span class="form">{var}<span class="recon"><span class="star">*</span>{esc(alt(m["form"]))}</span> '
-            f'<span class="g">{esc(m["gloss"])}</span></span>{sm}</div>'
+            f'<span class="g">{gloss_q(m["gloss"])}</span></span>{sm}</div>'
         )
     return (
         '<section class="meso"><h3>Intermediate reconstructions</h3>'

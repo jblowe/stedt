@@ -147,6 +147,14 @@ def etymon_flags(exemplary, public, prov_title=None):
     return out
 
 
+def gloss_q(s):
+    """SYNC(reflex-row) ↔ web/src/rows.js glossQ — a reflex/mesoroot gloss in the scholarly single
+    quotes (curly ‘ ’), escaped; '' when empty. Forms carry the italics (.lat/.recon), glosses the
+    quotes, so italic marks object-language forms and only forms (etymon headers, xrefs and the
+    syllable popovers already render glosses this way)."""
+    return f"‘{esc(s)}’" if s else ""
+
+
 def noted_gloss(rn, gloss, notes):
     """SYNC(reflex-row) ↔ web/src/rows.js reflexRow — the gloss cell when the reflex carries
     lexical notes: the note popover rides on the gloss behind a circled-i. The popover lives
@@ -155,7 +163,7 @@ def noted_gloss(rn, gloss, notes):
     notes: [(notetype, xmlnote), …] as lexical_notes() returns them."""
     pop = "".join(note_span(nt, x) for nt, x in notes)
     return (
-        f'<span class="g noted" tabindex="0" aria-describedby="np{rn}">{esc(gloss)}'
+        f'<span class="g noted" tabindex="0" aria-describedby="np{rn}">{gloss_q(gloss)}'
         f'<span class="notepop" role="note" id="np{rn}">{pop}</span></span>'
     )
 

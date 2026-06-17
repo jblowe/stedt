@@ -187,7 +187,7 @@ footer{max-width:1080px;margin:0 auto;padding:24px 28px 60px;border-top:1px soli
 .rfx .form{font-size:17px;}
 .rfx .form .br{color:var(--mut);}
 .rfx .src{font-size:13px;color:var(--mut);}
-.rfx .g{color:var(--soft);font-size:13.5px;font-style:italic;}
+.rfx .g{color:var(--soft);font-size:13.5px;}   /* reflex gloss: roman in ‘single quotes’ (gloss_q) — italic is reserved for forms (.lat/.recon) */
 .rfx a{border-bottom:none;}
 .rfx a.lang{color:var(--soft);}
 .rfx a:hover{color:var(--accent);}
@@ -242,7 +242,7 @@ a.ety-hit:hover{color:inherit;background:var(--paper2);border-color:var(--hair);
 .rx-hit .lang{color:var(--soft);font-size:13.5px;border-bottom:none;}
 .rx-hit a.lang:hover{color:var(--accent);}
 .rx-hit .rx-mid{min-width:0;}
-.rx-hit .g,.drop .gl{color:var(--soft);font-style:italic;}
+.rx-hit .g,.drop .gl,.drop .g{color:var(--soft);}   /* glosses are soft + roman; the reflex gloss carries quotes (gloss_q), the protogloss small-caps (.gl) */
 /* interactable morpheme (per-syllable etymon link): a quiet accent tint atop the dotted underline,
    so it reads as clickable without shouting; brightens to full accent on hover. Not scoped to
    .rx-hit, so the treatment stays consistent anywhere a .syl link appears. */
