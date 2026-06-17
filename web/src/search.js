@@ -7,6 +7,7 @@
 // is gzip-transparent, so we download the DB once (gzip transfer), keep it in memory, and
 // cache the bytes (Cache API, ETag-revalidated) so repeat visits/searches are instant.
 import sqlite3InitModule from '@sqlite.org/sqlite-wasm';
+import { morphCode } from './rows.js';
 
 const base = () => (typeof window !== 'undefined' && window.STEDT_BASE) || '';
 // Cache-key the DB by a data-content version (injected by `stedt render`) so it re-downloads only
@@ -93,7 +94,7 @@ function run(db, sql, params) {
 // entry pages show. (Per-syllable tag positions live in lx_et_hash.ind for future syllable links.)
 const RFX_COLS = `ln.language AS language, ln.lgsort AS lgsort, l.reflex AS form, l.gloss AS gloss, l.gfn AS gfn, l.rn AS rn, l.lgid AS lgid,
          ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, l.semkey AS semkey, c.chaptertitle AS cat,
-         g.grpno AS grpno, g.grp AS subgroup, nt.note AS note,
+         g.grpno AS grpno, g.grp AS subgroup, nt.note AS note, l.analysis AS analysis,
          json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'pg', e.protogloss, 'ind', h.ind, 'plg', e.plg, 'meso', e.meso, 'fam', e.fam))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma`;
 const RFX_JOINS = `
@@ -130,7 +131,7 @@ const ETYMA_ALL_SQL = `
 // semantic node, lazily (on expand), reusing the already-loaded search DB.
 const FORMS_BY_CAT_SQL = (n) => `
   SELECT l.rn AS rn, l.reflex AS reflex, l.gloss AS gloss, l.gfn AS gfn, l.lgid AS lgid,
-         ln.language AS language, ln.lgsort AS lgsort, ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, nt.note AS note,
+         ln.language AS language, ln.lgsort AS lgsort, ln.srcabbr AS srcabbr, sb.citation AS citation, l.srcid AS srcid, nt.note AS note, l.analysis AS analysis,
          json_group_array(json_object('tag', e.tag, 'pf', e.protoform, 'pg', e.protogloss, 'ind', h.ind, 'plg', e.plg, 'meso', e.meso, 'fam', e.fam))
            FILTER (WHERE e.tag IS NOT NULL) AS etyma
   FROM lexicon l JOIN languagenames ln ON ln.lgid = l.lgid
@@ -166,6 +167,17 @@ export function shapeReflexEtyma(r) {
   r.pf = uniq.length ? uniq[0].pf : null;
   // ind->tag map for per-syllable etymon links; null if a syllable is ambiguously multi-tagged
   r.syn = (!conflict && Object.keys(byInd).length) ? byInd : null;
+  // position->code map for the non-cognate morpheme marks, parsed from lexicon.analysis (',' between
+  // morpheme slots = lx_et_hash.ind, '|' within a slot). A slot also claimed by an etymon (in byInd)
+  // is a cognate link, so it carries no code. SYNC(morph-codes) ↔ stedt/render/shell.py reflex_links.
+  const morph = {};
+  if (r.analysis) {
+    r.analysis.split(',').forEach((slot, i) => {
+      if (i in byInd) return;                   // cognate at this position -> link wins
+      for (const tok of slot.split('|')) { const c = morphCode(tok); if (c) { morph[i] = c; break; } }
+    });
+  }
+  r.morph = Object.keys(morph).length ? morph : null;
 }
 
 export async function stedtFormsByCategory(semkeys) {

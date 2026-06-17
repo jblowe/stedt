@@ -92,26 +92,62 @@ const sylPop = e => {
   return `<span class="sylpop">${out}</span>`;
 };
 
+// SYNC(morph-codes) ↔ stedt/render/text.py morph_code/morph_label — STEDT's per-morpheme analysis
+// codes (the original's lexicon.analysis): each non-cognate morpheme slot is tagged 'b' (borrowing,
+// optionally with a source, e.g. 'bIndic'), 'p' (prefix), 's' (suffix), or 'm' (an identifiable but
+// unreconstructed morpheme). A code is a run of letters/'?' only. Keep the predicate + labels
+// identical to the server twin so both runtimes mark the same morphemes the same way.
+const MORPH_RE = /^[A-Za-z?]+$/;
+export const morphCode = tok => (tok && MORPH_RE.test(tok)) ? tok : null;
+const morphLabel = code => {
+  if (code === 'p') return 'prefix';
+  if (code === 's') return 'suffix';
+  if (code === 'm') return 'morpheme';
+  if (code[0] === 'b') {                  // borrowing: b / b? / bSOURCE / b?SOURCE / bSOURCE?
+    let rest = code.slice(1);
+    const uncertain = rest.startsWith('?') || rest.endsWith('?');
+    rest = rest.replace(/^\?+|\?+$/g, '');
+    const lab = rest ? `${rest} loanword` : 'loanword';
+    return uncertain ? `probable ${lab}` : lab;
+  }
+  return code;
+};
+// SYNC(morph-codes) ↔ stedt/render/rows.py morph_mark — a coded morpheme: text marked (.morph;
+// borrowings add .morph-b) with a popover BESIDE it inside .morph-w (mirrors .syl-w). base escaped.
+const morphMark = (code, base) =>
+  `<span class="morph-w"><span class="${code[0] === 'b' ? 'morph morph-b' : 'morph'}">${base}</span><span class="mpop">${esc(morphLabel(code))}</span></span>`;
+// SYNC(reflex-row) ↔ stedt/render/rows.py morph_chip — fallback trailing summary of the codes,
+// used when the form can't be syllabified so the marks can't sit on the morphemes themselves.
+const morphChip = codes => {
+  if (!codes) return '';
+  const labs = Object.keys(codes).map(Number).sort((a, b) => a - b).map(i => esc(morphLabel(codes[i]))).join(' · ');
+  return `<span class="anl morphs">${labs}</span>`;
+};
+
 // SYNC(syllable-links) ↔ stedt/render/rows.py syl_form() + syl_pop(): the syllable-linked form
 // + its etymon-preview popover. Keep the markup (a.syl, .sylpop, header + mesoroot lines) identical.
 const sylLink = r => {                     // syllable-linked form HTML, or null to fall back
-  if (!r.syn) return null;
+  if (!r.syn && !r.morph) return null;
+  const syn = r.syn || {}, morph = r.morph || {};
   // headword arrives as `form` (search payload) or `reflex` (category payload) — same fallback
   // as the plain path below, or category rows lose their links (and ind-0 rows lost their TEXT:
   // syllabifying '' yields one empty syllable, which happily took the link)
   const head = r.form != null ? r.form : r.reflex;
   const sy = syllabify(String(head || '')), syls = sy.syls, dl = sy.dl;
-  for (const k in r.syn) { if (+k >= syls.length) return null; }   // tags must land on real syllables
+  for (const k in syn) { if (+k >= syls.length) return null; }     // cognate tags must land on real syllables
+  for (const k in morph) { if (+k >= syls.length) return null; }   // and so must codes
   const info = {};                         // tag -> {pf, pg}, for the syllable's etymon-preview popover
   (r.etyma || []).forEach(e => { if (e && e.tag != null) info[e.tag] = e; });
   let out = esc(sy.prefix || '');
   for (let i = 0; i < syls.length; i++) {
-    const tag = r.syn[i];
+    const tag = syn[i];
     if (tag != null) {
       const base = esc(syls[i]), e = info[tag];
       const pop = e && e.pf ? sylPop(e) : '';
       const link = `<a class="syl" href="${etymonHref(tag)}">${base}</a>`;
       out += pop ? `<span class="syl-w">${link}${pop}</span>` : link;
+    } else if (morph[i] != null) {
+      out += morphMark(morph[i], esc(syls[i]));
     } else {
       out += esc(syls[i]);
     }
@@ -154,12 +190,16 @@ export const reflexRow = r => {
     ? `<span class="g noted" tabindex="0" aria-describedby="np${r.rn}">${esc(r.gloss)}<span class="notepop" role="note" id="np${r.rn}">${rebase(r.note)}</span></span>`
     : `<span class="g">${esc(r.gloss)}</span>`;
   const lf = sylLink(r); let mid;
-  if (lf) {                              // syllables carry their own etymon links
-    mid = `<span class="lat">${lf}</span> ${pos}${gl}`;
-  } else {                              // plain form; trailing "via" chips keep their etymon links
+  // etyma already linked inline in the syllable form don't repeat as trailing chips
+  const inline = (lf && r.syn) ? new Set(Object.values(r.syn)) : new Set();
+  const vias = (r.etyma || []).filter(x => x && x.tag != null && !inline.has(x.tag))
+    .map(x => `<a class="via" href="${etymonHref(x.tag)}">*${altstar(esc(x.pf))}</a>`);
+  const links = vias.length ? ` <span class="vias">${vias.join(' ')}</span>` : '';
+  if (lf) {                              // syllables carry their own etymon links / morpheme marks
+    mid = `<span class="lat">${lf}</span> ${pos}${gl}${links}`;
+  } else {                              // plain form; trailing "via" chips + morpheme codes
     const form = r.form != null ? r.form : r.reflex;
-    const links = (r.etyma && r.etyma.length) ? ` <span class="vias">${r.etyma.map(x => `<a class="via" href="${etymonHref(x.tag)}">*${altstar(esc(x.pf))}</a>`).join(' ')}</span>` : '';
-    mid = `<span class="lat">${dispForm(form)}</span> ${pos}${gl}${links}`;
+    mid = `<span class="lat">${dispForm(form)}</span> ${pos}${gl}${links}${morphChip(r.morph)}`;
   }
   // the reflex's semantic category (search rows only; the thesaurus-category list omits it as redundant)
   if (r.cat) mid += ` <a class="rx-cat" href="${categoryHref(r.semkey)}">${esc(r.cat)}</a>`;
