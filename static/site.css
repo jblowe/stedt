@@ -26,13 +26,10 @@
   unicode-range:U+20A9A,U+218D5,U+21C42,U+2299F,U+239DF,U+23A75,U+23E64,U+24226,U+2510E,U+25A0D,U+26408,U+27498;}
 
 :root{
-  --paper:#f4efe2; --paper2:#efe8d6; --ink:#211c15; --soft:#5d5443;
-  /* --mut/--gold color 12-14px text (source links, counts, .exm, …): both must hold WCAG AA
-     4.5:1 against --paper AND --paper2 (the hover background). #726750 = 4.85/4.56,
-     #806326 = 4.90/4.61 — the lightest steps of the original tan/gold hues that pass. */
-  --mut:#726750; --rule:#ddd1b6; --hair:#e7dcc4; --accent:#9c2b25; --accent-d:#7e201b;
-  --morph:#4c211b;   /* the self-syllable mark (.syl-self): quiet dark emphasis, never a link */
-  --accent2:#3a5a6b; --gold:#806326;
+  --paper:#ffffff; --paper2:#eaf2fb; --ink:#0f4d92; --soft:#2a6ab5;
+  --mut:#7aa3cf; --rule:#b8d4ec; --hair:#d8e9f7; --accent:#db2014; --accent-d:#e97910;
+  --morph:#8b1a10;   /* the self-syllable mark (.syl-self): quiet dark emphasis, never a link */
+  --accent2:#64ab71; --gold:#f5e202;
 }
 *{box-sizing:border-box}
 /* one shared, clearly visible keyboard-focus ring (replaces five per-control suppressions) */
@@ -61,7 +58,7 @@ a:hover{color:var(--accent); border-bottom-color:var(--accent);}
 a.xref{color:var(--accent); border-bottom:1px dotted var(--accent);}
 
 /* masthead */
-.top{height:3px;background:var(--accent);}
+.top{height:18px;background:linear-gradient(var(--accent) 0 6px,var(--accent2) 6px 12px,var(--gold) 12px 18px);}
 /* one row: wordmark, then the sections, search pushed to the right edge; when the row runs out
    of width, flex-wrap drops the search onto its own right-aligned line (and ≤720px restacks) */
 header.mast{max-width:1080px;margin:0 auto;padding:22px 28px 14px;display:flex;align-items:flex-end;
